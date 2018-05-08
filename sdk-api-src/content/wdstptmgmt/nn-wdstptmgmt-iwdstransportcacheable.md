@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 2245d198-056c-467f-aae7-b1bb02f188e2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportCacheable, IWdsTransportCacheable interface [Windows Deployment Services], IWdsTransportCacheable interface [Windows Deployment Services], described, wds.iwdstransportcacheable, wdstptmgmt/IWdsTransportCacheable
+ms.keywords: IWdsTransportCacheable, IWdsTransportCacheable interface [Windows Deployment Services], IWdsTransportCacheable interface [Windows Deployment Services],described, wds.iwdstransportcacheable, wdstptmgmt/IWdsTransportCacheable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

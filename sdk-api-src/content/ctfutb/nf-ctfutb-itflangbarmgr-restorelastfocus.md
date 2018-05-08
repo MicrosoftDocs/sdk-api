@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.RestoreLastFocus
-title: ITfLangBarMgr::RestoreLastFocus method
+title: ITfLangBarMgr::RestoreLastFocus
 author: windows-driver-content
 description: ITfLangBarMgr::RestoreLastFocus method
 old-location: tsf\itflangbarmgr_restorelastfocus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 376e1f64-1a4f-4800-a049-7f2abb4ea605
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarMgr, ITfLangBarMgr interface [Text Services Framework], RestoreLastFocus method, ITfLangBarMgr::RestoreLastFocus, RestoreLastFocus method [Text Services Framework], RestoreLastFocus method [Text Services Framework], ITfLangBarMgr interface, RestoreLastFocus,ITfLangBarMgr.RestoreLastFocus, _tsf_itflangbarmgr_restorelastfocus_ref, ctfutb/ITfLangBarMgr::RestoreLastFocus, tsf.itflangbarmgr_restorelastfocus
+ms.keywords: ITfLangBarMgr interface [Text Services Framework],RestoreLastFocus method, ITfLangBarMgr.RestoreLastFocus, ITfLangBarMgr::RestoreLastFocus, RestoreLastFocus, RestoreLastFocus method [Text Services Framework], RestoreLastFocus method [Text Services Framework],ITfLangBarMgr interface, _tsf_itflangbarmgr_restorelastfocus_ref, ctfutb/ITfLangBarMgr::RestoreLastFocus, tsf.itflangbarmgr_restorelastfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarMgr::RestoreLastFocus method
+# ITfLangBarMgr::RestoreLastFocus
 
 
 ## -description

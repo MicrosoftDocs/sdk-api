@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateAttributesSetup
-title: ICertServerExit::EnumerateAttributesSetup method
+title: ICertServerExit::EnumerateAttributesSetup
 author: windows-driver-content
 description: Initializes the internal enumeration pointer to the first request attribute associated with the current context.
 old-location: security\icertserverexit_enumerateattributessetup.htm
 old-project: SecCrypto
 ms.assetid: c81b9c4d-483e-48b8-a270-f570e148d371
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertServerExit object [Security], EnumerateAttributesSetup method, EnumerateAttributesSetup method [Security], EnumerateAttributesSetup method [Security], CCertServerExit object, EnumerateAttributesSetup method [Security], ICertServerExit interface, EnumerateAttributesSetup,ICertServerExit.EnumerateAttributesSetup, ICertServerExit, ICertServerExit interface [Security], EnumerateAttributesSetup method, ICertServerExit::EnumerateAttributesSetup, _certsrv_icertserverexit_enumerateattributessetup, certif/ICertServerExit::EnumerateAttributesSetup, security.icertserverexit_enumerateattributessetup
+ms.date: 4/30/2018
+ms.keywords: CCertServerExit object [Security],EnumerateAttributesSetup method, EnumerateAttributesSetup, EnumerateAttributesSetup method [Security], EnumerateAttributesSetup method [Security],CCertServerExit object, EnumerateAttributesSetup method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateAttributesSetup method, ICertServerExit.EnumerateAttributesSetup, ICertServerExit::EnumerateAttributesSetup, _certsrv_icertserverexit_enumerateattributessetup, certif/ICertServerExit::EnumerateAttributesSetup, security.icertserverexit_enumerateattributessetup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerExit::EnumerateAttributesSetup method
+# ICertServerExit::EnumerateAttributesSetup
 
 
 ## -description

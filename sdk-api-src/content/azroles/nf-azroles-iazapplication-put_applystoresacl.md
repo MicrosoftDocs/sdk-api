@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.put_ApplyStoreSacl
-title: IAzApplication::put_ApplyStoreSacl method
+title: IAzApplication::put_ApplyStoreSacl
 author: windows-driver-content
 description: Sets or retrieves a value that indicates whether policy audits should be generated when the authorization store is modified.
 old-location: security\iazapplication_applystoresacl.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 722b0693-a11f-434a-a278-780619b0077a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: ApplyStoreSacl property [Security], ApplyStoreSacl property [Security], AzApplication object, ApplyStoreSacl property [Security], IAzApplication interface, AzApplication object [Security], ApplyStoreSacl property, IAzApplication, IAzApplication interface [Security], ApplyStoreSacl property, IAzApplication.ApplyStoreSacl, IAzApplication::get_ApplyStoreSacl, IAzApplication::put_ApplyStoreSacl, azroles/IAzApplication::ApplyStoreSacl, azroles/IAzApplication::get_ApplyStoreSacl, azroles/IAzApplication::put_ApplyStoreSacl, put_ApplyStoreSacl,IAzApplication.put_ApplyStoreSacl, security.iazapplication_applystoresacl
+ms.keywords: ApplyStoreSacl property [Security], ApplyStoreSacl property [Security],AzApplication object, ApplyStoreSacl property [Security],IAzApplication interface, AzApplication object [Security],ApplyStoreSacl property, IAzApplication interface [Security],ApplyStoreSacl property, IAzApplication.ApplyStoreSacl, IAzApplication.put_ApplyStoreSacl, IAzApplication::ApplyStoreSacl, IAzApplication::get_ApplyStoreSacl, IAzApplication::put_ApplyStoreSacl, azroles/IAzApplication::ApplyStoreSacl, azroles/IAzApplication::get_ApplyStoreSacl, azroles/IAzApplication::put_ApplyStoreSacl, put_ApplyStoreSacl, security.iazapplication_applystoresacl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::put_ApplyStoreSacl method
+# IAzApplication::put_ApplyStoreSacl
 
 
 ## -description

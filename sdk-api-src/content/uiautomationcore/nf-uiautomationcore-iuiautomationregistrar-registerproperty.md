@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationRegistrar.RegisterProperty
-title: IUIAutomationRegistrar::RegisterProperty method
+title: IUIAutomationRegistrar::RegisterProperty
 author: windows-driver-content
 description: Registers a third-party property.
 old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterProperty.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 225bbbec-5910-4711-b713-3409c9925be2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationRegistrar, IUIAutomationRegistrar interface [Windows Accessibility], RegisterProperty method, IUIAutomationRegistrar::RegisterProperty, RegisterProperty method [Windows Accessibility], RegisterProperty method [Windows Accessibility], IUIAutomationRegistrar interface, RegisterProperty,IUIAutomationRegistrar.RegisterProperty, uiauto.uiauto_IUIAutomationRegistrar_RegisterProperty, uiauto_IUIAutomationRegistrar_RegisterProperty, uiautomationcore/IUIAutomationRegistrar::RegisterProperty, winauto.uiauto_IUIAutomationRegistrar_RegisterProperty
+ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterProperty method, IUIAutomationRegistrar.RegisterProperty, IUIAutomationRegistrar::RegisterProperty, RegisterProperty, RegisterProperty method [Windows Accessibility], RegisterProperty method [Windows Accessibility],IUIAutomationRegistrar interface, uiauto.uiauto_IUIAutomationRegistrar_RegisterProperty, uiauto_IUIAutomationRegistrar_RegisterProperty, uiautomationcore/IUIAutomationRegistrar::RegisterProperty, winauto.uiauto_IUIAutomationRegistrar_RegisterProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationRegistrar::RegisterProperty method
+# IUIAutomationRegistrar::RegisterProperty
 
 
 ## -description

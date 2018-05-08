@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.EnumAdvise
-title: IOleObject::EnumAdvise method
+title: IOleObject::EnumAdvise
 author: windows-driver-content
 description: Retrieves a pointer to an enumerator that can be used to enumerate the advisory connections registered for an object, so a container can know what to release prior to closing down.
 old-location: com\ioleobject_enumadvise.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 4e1d6d9e-ebf2-4cd6-b7b4-00f9e7bd9bdc
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: EnumAdvise method [COM], EnumAdvise method [COM], IOleObject interface, EnumAdvise,IOleObject.EnumAdvise, IOleObject, IOleObject interface [COM], EnumAdvise method, IOleObject::EnumAdvise, _ole_ioleobject_enumadvise, com.ioleobject_enumadvise, oleidl/IOleObject::EnumAdvise
+ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IOleObject interface, IOleObject interface [COM],EnumAdvise method, IOleObject.EnumAdvise, IOleObject::EnumAdvise, _ole_ioleobject_enumadvise, com.ioleobject_enumadvise, oleidl/IOleObject::EnumAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleObject::EnumAdvise method
+# IOleObject::EnumAdvise
 
 
 ## -description

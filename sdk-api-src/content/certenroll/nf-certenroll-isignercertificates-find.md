@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Find
-title: ISignerCertificates::Find method
+title: ISignerCertificates::Find
 author: windows-driver-content
 description: Retrieves the index number of an ISignerCertificate object.
 old-location: security\isignercertificates_find_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: ee741eda-e125-4938-bc49-d8089f7d5df2
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Find method [Security], Find method [Security], ISignerCertificates interface, Find,ISignerCertificates.Find, ISignerCertificates, ISignerCertificates interface [Security], Find method, ISignerCertificates::Find, certenroll/ISignerCertificates::Find, security.isignercertificates_find_method
+ms.keywords: Find, Find method [Security], Find method [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Find method, ISignerCertificates.Find, ISignerCertificates::Find, certenroll/ISignerCertificates::Find, security.isignercertificates_find_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ISignerCertificates::Find method
+# ISignerCertificates::Find
 
 
 ## -description

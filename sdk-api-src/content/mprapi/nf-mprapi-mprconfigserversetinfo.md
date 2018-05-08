@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 912bbb7d-f566-4297-b412-605658acaac8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: FALSE, MprConfigServerSetInfo, MprConfigServerSetInfo function [RAS], TRUE, mprapi/MprConfigServerSetInfo, rras.mpradminisserviceinitialized
+ms.keywords: FALSE, MprAdminIsServiceInitialized, MprConfigServerSetInfo, MprConfigServerSetInfo function [RAS], TRUE, mprapi/MprConfigServerSetInfo, rras.mpradminisserviceinitialized
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

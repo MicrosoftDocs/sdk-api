@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt32
-title: IPropertyValueStatics::CreateUInt32 method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified unsigned 32-bit integer value.
 old-location: winrt\ipropertyvaluestatics_createuint32.htm
 old-project: WinRT
 ms.assetid: E2ABD665-0BBD-4EA3-A265-D5EB12667F0A
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateUInt32 method [Windows Runtime], CreateUInt32 method [Windows Runtime], IPropertyValueStatics interface, CreateUInt32,IPropertyValueStatics.CreateUInt32, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateUInt32 method, IPropertyValueStatics::CreateUInt32, windows/IPropertyValueStatics::CreateUInt32, winrt.ipropertyvaluefactory_createuint32, winrt.ipropertyvaluestatics_createuint32
+ms.date: 5/4/2018
+ms.keywords: CreateUInt32, CreateUInt32 method [Windows Runtime], CreateUInt32 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt32 method, IPropertyValueStatics.CreateUInt32, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt32, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt32, winrt.ipropertyvaluefactory_createuint32, winrt.ipropertyvaluestatics_createuint32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateUInt32 method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

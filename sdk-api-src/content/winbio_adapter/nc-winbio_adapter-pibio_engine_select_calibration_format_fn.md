@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 1B4920D9-3C8E-4206-A71B-619A14ADD10A
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterSelectCalibrationFormat, EngineAdapterSelectCalibrationFormat callback function [Windows Biometric Framework API], PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN, secbiomet.engineadapterselectcalibrationformat, winbio_adapter/EngineAdapterSelectCalibrationFormat
+ms.keywords: EngineAdapterSelectCalibrationFormat, EngineAdapterSelectCalibrationFormat callback function [Windows Biometric Framework API], PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN, PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN callback, secbiomet.engineadapterselectcalibrationformat, winbio_adapter/EngineAdapterSelectCalibrationFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN callback
+# PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN callback function
 
 
 ## -description

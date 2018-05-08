@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.RemoveAll
-title: IAzBizRuleParameters::RemoveAll method
+title: IAzBizRuleParameters::RemoveAll
 author: windows-driver-content
 description: Removes all parameters from the list of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_removeall_method.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 5ec13e1b-6b83-4178-a5a5-b278fe7c8c3c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzBizRuleParameters, IAzBizRuleParameters interface [Security], RemoveAll method, IAzBizRuleParameters::RemoveAll, RemoveAll method [Security], RemoveAll method [Security], IAzBizRuleParameters interface, RemoveAll,IAzBizRuleParameters.RemoveAll, azroles/IAzBizRuleParameters::RemoveAll, security.iazbizruleparameters_removeall_method
+ms.keywords: IAzBizRuleParameters interface [Security],RemoveAll method, IAzBizRuleParameters.RemoveAll, IAzBizRuleParameters::RemoveAll, RemoveAll, RemoveAll method [Security], RemoveAll method [Security],IAzBizRuleParameters interface, azroles/IAzBizRuleParameters::RemoveAll, security.iazbizruleparameters_removeall_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAzBizRuleParameters::RemoveAll method
+# IAzBizRuleParameters::RemoveAll
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfCandidateString.GetString
-title: ITfCandidateString::GetString method
+title: ITfCandidateString::GetString
 author: windows-driver-content
 description: ITfCandidateString::GetString method
 old-location: tsf\itfcandidatestring_getstring.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 157dc848-858c-462f-8e41-78d6bfe20705
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetString method [Text Services Framework], GetString method [Text Services Framework], ITfCandidateString interface, GetString,ITfCandidateString.GetString, ITfCandidateString, ITfCandidateString interface [Text Services Framework], GetString method, ITfCandidateString::GetString, _tsf_itfcandidatestring_getstring_ref, ctffunc/ITfCandidateString::GetString, tsf.itfcandidatestring_getstring
+ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfCandidateString interface, ITfCandidateString interface [Text Services Framework],GetString method, ITfCandidateString.GetString, ITfCandidateString::GetString, _tsf_itfcandidatestring_getstring_ref, ctffunc/ITfCandidateString::GetString, tsf.itfcandidatestring_getstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Tiptsf.dll
 req.irql: 
 ---
 
-# ITfCandidateString::GetString method
+# ITfCandidateString::GetString
 
 
 ## -description

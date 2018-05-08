@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATAssessmentInfo.get_Description
-title: IProvideWinSATAssessmentInfo::get_Description method
+title: IProvideWinSATAssessmentInfo::get_Description
 author: windows-driver-content
 description: Retrieves the description of the subcomponent.
 old-location: winsat\iprovidewinsatassessmentinfo_description.htm
@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: e598ad5e-e0b9-494a-ba87-0ae7c960deee
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Description property [WinSAT], Description property [WinSAT], IProvideWinSATAssessmentInfo interface, IProvideWinSATAssessmentInfo, IProvideWinSATAssessmentInfo interface [WinSAT], Description property, IProvideWinSATAssessmentInfo.Description, IProvideWinSATAssessmentInfo::get_Description, get_Description,IProvideWinSATAssessmentInfo.get_Description, winsat.iprovidewinsatassessmentinfo_description, winsatcominterfacei/IProvideWinSATAssessmentInfo::Description, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Description
+ms.keywords: Description property [WinSAT], Description property [WinSAT],IProvideWinSATAssessmentInfo interface, IProvideWinSATAssessmentInfo interface [WinSAT],Description property, IProvideWinSATAssessmentInfo.Description, IProvideWinSATAssessmentInfo.get_Description, IProvideWinSATAssessmentInfo::Description, IProvideWinSATAssessmentInfo::get_Description, get_Description, winsat.iprovidewinsatassessmentinfo_description, winsatcominterfacei/IProvideWinSATAssessmentInfo::Description, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IProvideWinSATAssessmentInfo::get_Description method
+# IProvideWinSATAssessmentInfo::get_Description
 
 
 ## -description

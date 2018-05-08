@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPQuery.beginNextGroup
-title: IWMPQuery::beginNextGroup method
+title: IWMPQuery::beginNextGroup
 author: windows-driver-content
 description: The beginNextGroup method begins a new condition group.
 old-location: wmp\iwmpquery_beginnextgroup.htm
 old-project: WMP
 ms.assetid: c81a8125-2cfa-40e2-afc5-672c2866b880
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPQuery, IWMPQuery interface [Windows Media Player], beginNextGroup method, IWMPQuery::beginNextGroup, IWMPQuerybeginNextGroup, beginNextGroup method [Windows Media Player], beginNextGroup method [Windows Media Player], IWMPQuery interface, beginNextGroup,IWMPQuery.beginNextGroup, wmp.iwmpquery_beginnextgroup, wmp/IWMPQuery::beginNextGroup
+ms.date: 5/4/2018
+ms.keywords: IWMPQuery interface [Windows Media Player],beginNextGroup method, IWMPQuery.beginNextGroup, IWMPQuery::beginNextGroup, IWMPQuerybeginNextGroup, beginNextGroup, beginNextGroup method [Windows Media Player], beginNextGroup method [Windows Media Player],IWMPQuery interface, wmp.iwmpquery_beginnextgroup, wmp/IWMPQuery::beginNextGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPQuery::beginNextGroup method
+# IWMPQuery::beginNextGroup
 
 
 ## -description

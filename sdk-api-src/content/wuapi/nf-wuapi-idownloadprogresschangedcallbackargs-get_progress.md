@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadProgressChangedCallbackArgs.get_Progress
-title: IDownloadProgressChangedCallbackArgs::get_Progress method
+title: IDownloadProgressChangedCallbackArgs::get_Progress
 author: windows-driver-content
 description: Gets an interface that contains the progress of the asynchronous download at the time that the callback was made.
 old-location: wua\idownloadprogresschangedcallbackargs_progress.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 28d884ce-4f96-4d5b-9e69-f51a4814fac2
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IDownloadProgressChangedCallbackArgs, IDownloadProgressChangedCallbackArgs interface [Windows Update Agent], Progress property, IDownloadProgressChangedCallbackArgs.Progress, IDownloadProgressChangedCallbackArgs::get_Progress, Progress property [Windows Update Agent], Progress property [Windows Update Agent], IDownloadProgressChangedCallbackArgs interface, get_Progress,IDownloadProgressChangedCallbackArgs.get_Progress, wua.idownloadprogresschangedcallbackargs_progress, wuapi/IDownloadProgressChangedCallbackArgs::Progress, wuapi/IDownloadProgressChangedCallbackArgs::get_Progress
+ms.keywords: IDownloadProgressChangedCallbackArgs interface [Windows Update Agent],Progress property, IDownloadProgressChangedCallbackArgs.Progress, IDownloadProgressChangedCallbackArgs.get_Progress, IDownloadProgressChangedCallbackArgs::Progress, IDownloadProgressChangedCallbackArgs::get_Progress, Progress property [Windows Update Agent], Progress property [Windows Update Agent],IDownloadProgressChangedCallbackArgs interface, get_Progress, wua.idownloadprogresschangedcallbackargs_progress, wuapi/IDownloadProgressChangedCallbackArgs::Progress, wuapi/IDownloadProgressChangedCallbackArgs::get_Progress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IDownloadProgressChangedCallbackArgs::get_Progress method
+# IDownloadProgressChangedCallbackArgs::get_Progress
 
 
 ## -description

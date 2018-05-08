@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext2.AddApplicationGroups
-title: IAzClientContext2::AddApplicationGroups method
+title: IAzClientContext2::AddApplicationGroups
 author: windows-driver-content
 description: Adds the specified array of existing IAzApplicationGroup objects to the client context object.
 old-location: security\iazclientcontext2_addapplicationgroups.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 8ad7c7df-0bdd-4ea1-9a9e-98323b82c0b0
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddApplicationGroups method [Security], AddApplicationGroups method [Security], IAzClientContext2 interface, AddApplicationGroups,IAzClientContext2.AddApplicationGroups, IAzClientContext2, IAzClientContext2 interface [Security], AddApplicationGroups method, IAzClientContext2::AddApplicationGroups, azroles/IAzClientContext2::AddApplicationGroups, security.iazclientcontext2_addapplicationgroups
+ms.keywords: AddApplicationGroups, AddApplicationGroups method [Security], AddApplicationGroups method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddApplicationGroups method, IAzClientContext2.AddApplicationGroups, IAzClientContext2::AddApplicationGroups, azroles/IAzClientContext2::AddApplicationGroups, security.iazclientcontext2_addapplicationgroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzClientContext2::AddApplicationGroups method
+# IAzClientContext2::AddApplicationGroups
 
 
 ## -description

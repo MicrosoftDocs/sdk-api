@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: dab8cef1-475b-4d92-8f3f-e828d62bcd17
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY callback function [Failover Cluster], clusapi/PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY, mscs.addclustergroupcollectiondependency
+ms.keywords: PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY callback, PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY callback function [Failover Cluster], clusapi/PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY, mscs.addclustergroupcollectiondependency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY callback
+# PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY callback function
 
 
 ## -description

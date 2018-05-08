@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.AddPlex
-title: IVdsVolume::AddPlex method
+title: IVdsVolume::AddPlex
 author: windows-driver-content
 description: Adds a volume as a plex to the current volume.
 old-location: base\ivdsvolume_addplex.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: b463ad74-400d-4100-83ff-3eb98e6a0db4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: AddPlex method [VDS], AddPlex method [VDS], IVdsVolume interface, AddPlex,IVdsVolume.AddPlex, IVdsVolume, IVdsVolume interface [VDS], AddPlex method, IVdsVolume::AddPlex, base.ivdsvolume_addplex, vds/IVdsVolume::AddPlex
+ms.keywords: AddPlex, AddPlex method [VDS], AddPlex method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],AddPlex method, IVdsVolume.AddPlex, IVdsVolume::AddPlex, base.ivdsvolume_addplex, vds/IVdsVolume::AddPlex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolume::AddPlex method
+# IVdsVolume::AddPlex
 
 
 ## -description

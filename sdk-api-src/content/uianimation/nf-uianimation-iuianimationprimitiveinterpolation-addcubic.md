@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationPrimitiveInterpolation.AddCubic
-title: IUIAnimationPrimitiveInterpolation::AddCubic method
+title: IUIAnimationPrimitiveInterpolation::AddCubic
 author: windows-driver-content
 description: Adds a cubic polynomial segment that describes the shape of a transition curve to the animation function.
 old-location: uianimation\iuianimationprimitiveinterpolation_addcubic.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 98738F6A-364E-491F-BCA3-F8B74B036D89
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: AddCubic method [Windows Animation], AddCubic method [Windows Animation], IUIAnimationPrimitiveInterpolation interface, AddCubic,IUIAnimationPrimitiveInterpolation.AddCubic, IUIAnimationPrimitiveInterpolation, IUIAnimationPrimitiveInterpolation interface [Windows Animation], AddCubic method, IUIAnimationPrimitiveInterpolation::AddCubic, uianimation.iuianimationprimitiveinterpolation_addcubic, uianimation/IUIAnimationPrimitiveInterpolation::AddCubic
+ms.keywords: AddCubic, AddCubic method [Windows Animation], AddCubic method [Windows Animation],IUIAnimationPrimitiveInterpolation interface, IUIAnimationPrimitiveInterpolation interface [Windows Animation],AddCubic method, IUIAnimationPrimitiveInterpolation.AddCubic, IUIAnimationPrimitiveInterpolation::AddCubic, uianimation.iuianimationprimitiveinterpolation_addcubic, uianimation/IUIAnimationPrimitiveInterpolation::AddCubic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationPrimitiveInterpolation::AddCubic method
+# IUIAnimationPrimitiveInterpolation::AddCubic
 
 
 ## -description

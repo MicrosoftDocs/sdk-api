@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PostFree
-title: IMallocSpy::PostFree method
+title: IMallocSpy::PostFree
 author: windows-driver-content
 description: Performs operations required after calling IMalloc::Free.
 old-location: com\imallocspy_postfree.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: b46b0b1e-6144-4bb8-84d5-9db5690b7421
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMallocSpy, IMallocSpy interface [COM], PostFree method, IMallocSpy::PostFree, PostFree method [COM], PostFree method [COM], IMallocSpy interface, PostFree,IMallocSpy.PostFree, _com_imallocspy_postfree, com.imallocspy_postfree, objidl/IMallocSpy::PostFree
+ms.keywords: IMallocSpy interface [COM],PostFree method, IMallocSpy.PostFree, IMallocSpy::PostFree, PostFree, PostFree method [COM], PostFree method [COM],IMallocSpy interface, _com_imallocspy_postfree, com.imallocspy_postfree, objidl/IMallocSpy::PostFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMallocSpy::PostFree method
+# IMallocSpy::PostFree
 
 
 ## -description

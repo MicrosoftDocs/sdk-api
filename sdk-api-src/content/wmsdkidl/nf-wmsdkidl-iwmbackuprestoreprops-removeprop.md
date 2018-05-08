@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.RemoveProp
-title: IWMBackupRestoreProps::RemoveProp method
+title: IWMBackupRestoreProps::RemoveProp
 author: windows-driver-content
 description: The RemoveProp method removes a property specified by name.
 old-location: wmformat\iwmbackuprestoreprops_removeprop.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3befd77c-6962-4320-9456-760e8f41cb24
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMBackupRestoreProps, IWMBackupRestoreProps interface [windows Media Format], RemoveProp method, IWMBackupRestoreProps::RemoveProp, IWMBackupRestorePropsRemoveProp, RemoveProp method [windows Media Format], RemoveProp method [windows Media Format], IWMBackupRestoreProps interface, RemoveProp,IWMBackupRestoreProps.RemoveProp, wmformat.iwmbackuprestoreprops_removeprop, wmsdkidl/IWMBackupRestoreProps::RemoveProp
+ms.keywords: IWMBackupRestoreProps interface [windows Media Format],RemoveProp method, IWMBackupRestoreProps.RemoveProp, IWMBackupRestoreProps::RemoveProp, IWMBackupRestorePropsRemoveProp, RemoveProp, RemoveProp method [windows Media Format], RemoveProp method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_removeprop, wmsdkidl/IWMBackupRestoreProps::RemoveProp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMBackupRestoreProps::RemoveProp method
+# IWMBackupRestoreProps::RemoveProp
 
 
 ## -description

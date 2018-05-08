@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.get_LanguageTag
-title: ISpellChecker::get_LanguageTag method
+title: ISpellChecker::get_LanguageTag
 author: windows-driver-content
 description: Gets the BCP47 language tag this instance of the spell checker supports.
 old-location: intl\ispellchecker_languagetag.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 1765a0ec-798c-4d0f-af05-d4d028c71dda
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], LanguageTag property, ISpellChecker.LanguageTag, ISpellChecker::get_LanguageTag, LanguageTag property [Internationalization for Windows Applications], LanguageTag property [Internationalization for Windows Applications], ISpellChecker interface, get_LanguageTag,ISpellChecker.get_LanguageTag, intl.ispellchecker_languagetag, spellcheck/ISpellChecker::LanguageTag, spellcheck/ISpellChecker::get_LanguageTag
+ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],LanguageTag property, ISpellChecker.LanguageTag, ISpellChecker.get_LanguageTag, ISpellChecker::LanguageTag, ISpellChecker::get_LanguageTag, LanguageTag property [Internationalization for Windows Applications], LanguageTag property [Internationalization for Windows Applications],ISpellChecker interface, get_LanguageTag, intl.ispellchecker_languagetag, spellcheck/ISpellChecker::LanguageTag, spellcheck/ISpellChecker::get_LanguageTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellChecker::get_LanguageTag method
+# ISpellChecker::get_LanguageTag
 
 
 ## -description

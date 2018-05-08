@@ -1,0 +1,6 @@
+# [Peer-to-Peer](../_p2p/index.md)
+## [Pnrpdef.h](index.md)
+### [_PNRP_CLOUD_FLAGS enumeration](../pnrpdef/ne-pnrpdef-_pnrp_cloud_flags.md)
+### [_PNRP_CLOUD_STATE enumeration](../pnrpdef/ne-pnrpdef-_pnrp_cloud_state.md)
+### [_PNRP_RESOLVE_CRITERIA enumeration](../pnrpdef/ne-pnrpdef-_pnrp_resolve_criteria.md)
+### [_PNRP_CLOUD_ID structure](../pnrpdef/ns-pnrpdef-_pnrp_cloud_id.md)

@@ -7,8 +7,8 @@ old-location: search\_search_ISchemaProvider.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\ischemaprovider.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISchemaProvider, ISchemaProvider interface [search], ISchemaProvider interface [search], described, _search_ISchemaProvider, search._search_ISchemaProvider, structuredquery/ISchemaProvider
+ms.date: 5/4/2018
+ms.keywords: ISchemaProvider, ISchemaProvider interface [search], ISchemaProvider interface [search],described, _search_ISchemaProvider, search._search_ISchemaProvider, structuredquery/ISchemaProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

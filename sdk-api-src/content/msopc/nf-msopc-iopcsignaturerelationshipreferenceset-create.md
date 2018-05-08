@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceSet.Create
-title: IOpcSignatureRelationshipReferenceSet::Create method
+title: IOpcSignatureRelationshipReferenceSet::Create
 author: windows-driver-content
 description: Creates an IOpcSignatureRelationshipReference interface pointer that represents a reference to a Relationships part, and adds the new interface pointer to the set.
 old-location: opc\iopcsignaturerelationshipreferenceset_create.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: c348ac25-f2b3-491d-b378-f0daf282b1ca
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Create method [Open Packaging Conventions], Create method [Open Packaging Conventions], IOpcSignatureRelationshipReferenceSet interface, Create,IOpcSignatureRelationshipReferenceSet.Create, IOpcSignatureRelationshipReferenceSet, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions], Create method, IOpcSignatureRelationshipReferenceSet::Create, msopc/IOpcSignatureRelationshipReferenceSet::Create, opc.iopcsignaturerelationshipreferenceset_create
+ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],Create method, IOpcSignatureRelationshipReferenceSet.Create, IOpcSignatureRelationshipReferenceSet::Create, msopc/IOpcSignatureRelationshipReferenceSet::Create, opc.iopcsignaturerelationshipreferenceset_create
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureRelationshipReferenceSet::Create method
+# IOpcSignatureRelationshipReferenceSet::Create
 
 
 ## -description

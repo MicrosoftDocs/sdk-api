@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterResourceInfo.GetResourceNetworkName
-title: IGetClusterResourceInfo::GetResourceNetworkName method
+title: IGetClusterResourceInfo::GetResourceNetworkName
 author: windows-driver-content
 description: Returns the name of the network managed by the Network Name resource on which a resource depends.
 old-location: mscs\igetclusterresourceinfo_getresourcenetworkname.htm
@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 5c4a16ab-b71c-49f6-95cb-8627eaffb8d6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetResourceNetworkName method [Failover Cluster], GetResourceNetworkName method [Failover Cluster], IGetClusterResourceInfo interface, GetResourceNetworkName,IGetClusterResourceInfo.GetResourceNetworkName, IGetClusterResourceInfo, IGetClusterResourceInfo interface [Failover Cluster], GetResourceNetworkName method, IGetClusterResourceInfo::GetResourceNetworkName, _wolf_igetclusterresourceinfo_getresourcenetworkname, cluadmex/IGetClusterResourceInfo::GetResourceNetworkName, mscs.igetclusterresourceinfo_getresourcenetworkname
+ms.keywords: GetResourceNetworkName, GetResourceNetworkName method [Failover Cluster], GetResourceNetworkName method [Failover Cluster],IGetClusterResourceInfo interface, IGetClusterResourceInfo interface [Failover Cluster],GetResourceNetworkName method, IGetClusterResourceInfo.GetResourceNetworkName, IGetClusterResourceInfo::GetResourceNetworkName, _wolf_igetclusterresourceinfo_getresourcenetworkname, cluadmex/IGetClusterResourceInfo::GetResourceNetworkName, mscs.igetclusterresourceinfo_getresourcenetworkname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetClusterResourceInfo::GetResourceNetworkName method
+# IGetClusterResourceInfo::GetResourceNetworkName
 
 
 ## -description

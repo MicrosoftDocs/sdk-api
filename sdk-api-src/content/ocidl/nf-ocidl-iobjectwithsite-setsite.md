@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IObjectWithSite.SetSite
-title: IObjectWithSite::SetSite method
+title: IObjectWithSite::SetSite
 author: windows-driver-content
 description: Enables a container to pass an object a pointer to the interface for its site.
 old-location: com\iobjectwithsite_setsite.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 5e95b2a6-85b3-4899-9e23-54ed9e69e821
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IObjectWithSite, IObjectWithSite interface [COM], SetSite method, IObjectWithSite::SetSite, SetSite method [COM], SetSite method [COM], IObjectWithSite interface, SetSite,IObjectWithSite.SetSite, _ole_iobjectwithsite_setsite, com.iobjectwithsite_setsite, ocidl/IObjectWithSite::SetSite
+ms.keywords: IObjectWithSite interface [COM],SetSite method, IObjectWithSite.SetSite, IObjectWithSite::SetSite, SetSite, SetSite method [COM], SetSite method [COM],IObjectWithSite interface, _ole_iobjectwithsite_setsite, com.iobjectwithsite_setsite, ocidl/IObjectWithSite::SetSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IObjectWithSite::SetSite method
+# IObjectWithSite::SetSite
 
 
 ## -description

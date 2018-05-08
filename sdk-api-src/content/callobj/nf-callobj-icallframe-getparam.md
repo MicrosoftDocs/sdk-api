@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.GetParam
-title: ICallFrame::GetParam method
+title: ICallFrame::GetParam
 author: windows-driver-content
 description: Retrieves the value of a specified parameter in the call frame.
 old-location: com\icallframe_getparam.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 43662600-841c-4237-80ac-3822eb47be88
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetParam method [COM], GetParam method [COM], ICallFrame interface, GetParam,ICallFrame.GetParam, ICallFrame, ICallFrame interface [COM], GetParam method, ICallFrame::GetParam, _com_icallframe_getparam, callobj/ICallFrame::GetParam, com.icallframe_getparam
+ms.keywords: GetParam, GetParam method [COM], GetParam method [COM],ICallFrame interface, ICallFrame interface [COM],GetParam method, ICallFrame.GetParam, ICallFrame::GetParam, _com_icallframe_getparam, callobj/ICallFrame::GetParam, com.icallframe_getparam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallFrame::GetParam method
+# ICallFrame::GetParam
 
 
 ## -description

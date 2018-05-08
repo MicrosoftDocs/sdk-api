@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRevocationAgent.ProcessLRB
-title: IWMLicenseRevocationAgent::ProcessLRB method
+title: IWMLicenseRevocationAgent::ProcessLRB
 author: windows-driver-content
 description: The ProcessLRB method removes licenses from the license store on the client computer.
 old-location: wmformat\iwmlicenserevocationagent_processlrb.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 185611f8-beef-47b8-a9c2-abcda7651a18
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMLicenseRevocationAgent, IWMLicenseRevocationAgent interface [windows Media Format], ProcessLRB method, IWMLicenseRevocationAgent::ProcessLRB, IWMLicenseRevocationAgentProcessLRB, ProcessLRB method [windows Media Format], ProcessLRB method [windows Media Format], IWMLicenseRevocationAgent interface, ProcessLRB,IWMLicenseRevocationAgent.ProcessLRB, wmformat.iwmlicenserevocationagent_processlrb, wmsdkidl/IWMLicenseRevocationAgent::ProcessLRB
+ms.keywords: IWMLicenseRevocationAgent interface [windows Media Format],ProcessLRB method, IWMLicenseRevocationAgent.ProcessLRB, IWMLicenseRevocationAgent::ProcessLRB, IWMLicenseRevocationAgentProcessLRB, ProcessLRB, ProcessLRB method [windows Media Format], ProcessLRB method [windows Media Format],IWMLicenseRevocationAgent interface, wmformat.iwmlicenserevocationagent_processlrb, wmsdkidl/IWMLicenseRevocationAgent::ProcessLRB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMLicenseRevocationAgent::ProcessLRB method
+# IWMLicenseRevocationAgent::ProcessLRB
 
 
 ## -description

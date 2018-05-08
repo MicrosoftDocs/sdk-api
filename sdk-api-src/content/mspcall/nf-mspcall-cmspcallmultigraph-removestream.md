@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.RemoveStream
-title: CMSPCallMultiGraph::RemoveStream method
+title: CMSPCallMultiGraph::RemoveStream
 author: windows-driver-content
 description: "(Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call."
 old-location: tapi3\cmspcallmultigraph_removestream.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 03572d9a-f243-4423-b645-ef180704477f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph interface [TAPI 2.2], RemoveStream method, CMSPCallMultiGraph::RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2], CMSPCallMultiGraph interface, RemoveStream,CMSPCallMultiGraph.RemoveStream, _tapi3_cmspcallmultigraph_removestream, mspcall/CMSPCallMultiGraph::RemoveStream, tapi3.cmspcallmultigraph_removestream
+ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],RemoveStream method, CMSPCallMultiGraph.RemoveStream, CMSPCallMultiGraph::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_removestream, mspcall/CMSPCallMultiGraph::RemoveStream, tapi3.cmspcallmultigraph_removestream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPCallMultiGraph::RemoveStream method
+# CMSPCallMultiGraph::RemoveStream
 
 
 ## -description

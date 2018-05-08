@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.Disable
-title: IMbnPin::Disable method
+title: IMbnPin::Disable
 author: windows-driver-content
 description: Disables a PIN.
 old-location: mbn\imbnpin_disable.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 612edeb9-3de4-48ac-a311-7238402e8658
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Disable method [Microsoft Broadband Networks], Disable method [Microsoft Broadband Networks], IMbnPin interface, Disable,IMbnPin.Disable, IMbnPin, IMbnPin interface [Microsoft Broadband Networks], Disable method, IMbnPin::Disable, mbn.imbnpin_disable, mbnapi/IMbnPin::Disable
+ms.keywords: Disable, Disable method [Microsoft Broadband Networks], Disable method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Disable method, IMbnPin.Disable, IMbnPin::Disable, mbn.imbnpin_disable, mbnapi/IMbnPin::Disable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnPin::Disable method
+# IMbnPin::Disable
 
 
 ## -description

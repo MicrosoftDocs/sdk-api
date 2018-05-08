@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.AddConfiguration
-title: IDirectManipulationViewport::AddConfiguration method
+title: IDirectManipulationViewport::AddConfiguration
 author: windows-driver-content
 description: Adds an interaction configuration for the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_addconfiguration.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 908f67ef-3606-4636-88aa-4e95d80a9c7a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddConfiguration method [Direct Manipulation], AddConfiguration method [Direct Manipulation], IDirectManipulationViewport interface, AddConfiguration,IDirectManipulationViewport.AddConfiguration, IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], AddConfiguration method, IDirectManipulationViewport::AddConfiguration, directmanipulation.idirectmanipulationviewport_addconfiguration, directmanipulation/IDirectManipulationViewport::AddConfiguration
+ms.keywords: AddConfiguration, AddConfiguration method [Direct Manipulation], AddConfiguration method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddConfiguration method, IDirectManipulationViewport.AddConfiguration, IDirectManipulationViewport::AddConfiguration, directmanipulation.idirectmanipulationviewport_addconfiguration, directmanipulation/IDirectManipulationViewport::AddConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::AddConfiguration method
+# IDirectManipulationViewport::AddConfiguration
 
 
 ## -description

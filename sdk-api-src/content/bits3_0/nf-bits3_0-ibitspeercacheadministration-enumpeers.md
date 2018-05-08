@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.EnumPeers
-title: IBitsPeerCacheAdministration::EnumPeers method
+title: IBitsPeerCacheAdministration::EnumPeers
 author: windows-driver-content
 description: Gets an IEnumBitsPeers interface pointer that you use to enumerate the peers that can serve content. The enumeration is a snapshot of the records in the cache.
 old-location: bits\ibitspeercacheadministration_enumpeers.htm
 old-project: Bits
 ms.assetid: 8786d7d8-9ffb-4492-9834-90b97f97e4cf
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: EnumPeers method [BITS], EnumPeers method [BITS], IBitsPeerCacheAdministration interface, EnumPeers,IBitsPeerCacheAdministration.EnumPeers, IBitsPeerCacheAdministration, IBitsPeerCacheAdministration interface [BITS], EnumPeers method, IBitsPeerCacheAdministration::EnumPeers, bits.ibitspeercacheadministration_enumpeers, bits3_0/IBitsPeerCacheAdministration::EnumPeers
+ms.date: 4/27/2018
+ms.keywords: EnumPeers, EnumPeers method [BITS], EnumPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],EnumPeers method, IBitsPeerCacheAdministration.EnumPeers, IBitsPeerCacheAdministration::EnumPeers, bits.ibitspeercacheadministration_enumpeers, bits3_0/IBitsPeerCacheAdministration::EnumPeers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsPeerCacheAdministration::EnumPeers method
+# IBitsPeerCacheAdministration::EnumPeers
 
 
 ## -description

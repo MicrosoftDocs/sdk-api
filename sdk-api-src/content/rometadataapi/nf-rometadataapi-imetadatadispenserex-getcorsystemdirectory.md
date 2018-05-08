@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.GetCORSystemDirectory
-title: IMetaDataDispenserEx::GetCORSystemDirectory method
+title: IMetaDataDispenserEx::GetCORSystemDirectory
 author: windows-driver-content
 description: Gets the directory that holds the current common language runtime (CLR). This method is supported only for use by out-of-process debuggers. If called from another component, it will return E_NOTIMPL.
 old-location: winrt\imetadatadispenserex_getcorsystemdirectory.htm
 old-project: WinRT
 ms.assetid: 4f061c7f-bcb8-4b1e-b84b-0398f08a6d69
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetCORSystemDirectory method [Windows Runtime], GetCORSystemDirectory method [Windows Runtime], IMetaDataDispenserEx interface, GetCORSystemDirectory,IMetaDataDispenserEx.GetCORSystemDirectory, IMetaDataDispenserEx, IMetaDataDispenserEx interface [Windows Runtime], GetCORSystemDirectory method, IMetaDataDispenserEx::GetCORSystemDirectory, rometadataapi/IMetaDataDispenserEx::GetCORSystemDirectory, winrt.imetadatadispenserex_getcorsystemdirectory
+ms.date: 5/4/2018
+ms.keywords: GetCORSystemDirectory, GetCORSystemDirectory method [Windows Runtime], GetCORSystemDirectory method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],GetCORSystemDirectory method, IMetaDataDispenserEx.GetCORSystemDirectory, IMetaDataDispenserEx::GetCORSystemDirectory, rometadataapi/IMetaDataDispenserEx::GetCORSystemDirectory, winrt.imetadatadispenserex_getcorsystemdirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataDispenserEx::GetCORSystemDirectory method
+# IMetaDataDispenserEx::GetCORSystemDirectory
 
 
 ## -description

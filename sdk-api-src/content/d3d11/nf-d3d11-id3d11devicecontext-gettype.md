@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GetType
-title: ID3D11DeviceContext::GetType method
+title: ID3D11DeviceContext::GetType
 author: windows-driver-content
 description: Gets the type of device context.
 old-location: direct3d11\id3d11devicecontext_gettype.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: fefe2cd7-26c1-4165-9c94-8843571f8824
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 71b462ef-31c2-4015-fac5-a904701671c6, GetType method [Direct3D 11], GetType method [Direct3D 11], ID3D11DeviceContext interface, GetType,ID3D11DeviceContext.GetType, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], GetType method, ID3D11DeviceContext::GetType, d3d11/ID3D11DeviceContext::GetType, direct3d11.id3d11devicecontext_gettype
+ms.keywords: 71b462ef-31c2-4015-fac5-a904701671c6, GetType, GetType method [Direct3D 11], GetType method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GetType method, ID3D11DeviceContext.GetType, ID3D11DeviceContext::GetType, d3d11/ID3D11DeviceContext::GetType, direct3d11.id3d11devicecontext_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::GetType method
+# ID3D11DeviceContext::GetType
 
 
 ## -description

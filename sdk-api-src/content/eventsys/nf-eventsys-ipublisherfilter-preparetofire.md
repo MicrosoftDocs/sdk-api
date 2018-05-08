@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IPublisherFilter.PrepareToFire
-title: IPublisherFilter::PrepareToFire method
+title: IPublisherFilter::PrepareToFire
 author: windows-driver-content
 description: Prepares a publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
 old-location: cos\ipublisherfilter_preparetofire.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 78faa83f-ee73-4034-9be1-5576e5a909e3
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IPublisherFilter, IPublisherFilter interface [COM+], PrepareToFire method, IPublisherFilter::PrepareToFire, PrepareToFire method [COM+], PrepareToFire method [COM+], IPublisherFilter interface, PrepareToFire,IPublisherFilter.PrepareToFire, _cos_IPublisherFilter_PrepareToFire, cos.ipublisherfilter_preparetofire, eventsys/IPublisherFilter::PrepareToFire
+ms.keywords: IPublisherFilter interface [COM+],PrepareToFire method, IPublisherFilter.PrepareToFire, IPublisherFilter::PrepareToFire, PrepareToFire, PrepareToFire method [COM+], PrepareToFire method [COM+],IPublisherFilter interface, _cos_IPublisherFilter_PrepareToFire, cos.ipublisherfilter_preparetofire, eventsys/IPublisherFilter::PrepareToFire
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IPublisherFilter::PrepareToFire method
+# IPublisherFilter::PrepareToFire
 
 
 ## -description

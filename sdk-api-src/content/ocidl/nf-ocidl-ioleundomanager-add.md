@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoManager.Add
-title: IOleUndoManager::Add method
+title: IOleUndoManager::Add
 author: windows-driver-content
 description: Adds a simple undo unit to the collection. While a parent undo unit is open, the undo manager adds undo units to it by calling IOleParentUndoUnit::Add.
 old-location: com\ioleundomanager_add.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 3288e0c6-e345-4c4d-a7bf-0c5f45c19732
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Add method [COM], Add method [COM], IOleUndoManager interface, Add,IOleUndoManager.Add, IOleUndoManager, IOleUndoManager interface [COM], Add method, IOleUndoManager::Add, _ole_ioleundomanager_add, com.ioleundomanager_add, ocidl/IOleUndoManager::Add
+ms.keywords: Add, Add method [COM], Add method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Add method, IOleUndoManager.Add, IOleUndoManager::Add, _ole_ioleundomanager_add, com.ioleundomanager_add, ocidl/IOleUndoManager::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleUndoManager::Add method
+# IOleUndoManager::Add
 
 
 ## -description

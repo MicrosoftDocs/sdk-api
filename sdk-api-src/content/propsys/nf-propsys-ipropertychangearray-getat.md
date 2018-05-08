@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.GetAt
-title: IPropertyChangeArray::GetAt method
+title: IPropertyChangeArray::GetAt
 author: windows-driver-content
 description: Gets the change operation at a specified array index.
 old-location: properties\IPropertyChangeArray_GetAt.htm
 old-project: properties
 ms.assetid: bc20e4a3-1405-494a-98ea-cca4c87e4984
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetAt method [Windows Properties], GetAt method [Windows Properties], IPropertyChangeArray interface, GetAt,IPropertyChangeArray.GetAt, IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], GetAt method, IPropertyChangeArray::GetAt, _shell_IPropertyChangeArray_GetAt, properties.IPropertyChangeArray_GetAt, propsys/IPropertyChangeArray::GetAt, shell.IPropertyChangeArray_GetAt
+ms.date: 4/27/2018
+ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],GetAt method, IPropertyChangeArray.GetAt, IPropertyChangeArray::GetAt, _shell_IPropertyChangeArray_GetAt, properties.IPropertyChangeArray_GetAt, propsys/IPropertyChangeArray::GetAt, shell.IPropertyChangeArray_GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyChangeArray::GetAt method
+# IPropertyChangeArray::GetAt
 
 
 ## -description

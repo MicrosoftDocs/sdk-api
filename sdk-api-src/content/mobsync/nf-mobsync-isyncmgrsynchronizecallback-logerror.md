@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.LogError
-title: ISyncMgrSynchronizeCallback::LogError method
+title: ISyncMgrSynchronizeCallback::LogError
 author: windows-driver-content
 description: Called by a registered application to log information, warning, or an error message into the error tab on the synchronization manager status dialog box.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_logerror.htm
 old-project: shell
 ms.assetid: 7c25ef21-9815-41ad-bcc0-b41a62dc0fe5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], LogError method, ISyncMgrSynchronizeCallback::LogError, LogError method [Windows Shell], LogError method [Windows Shell], ISyncMgrSynchronizeCallback interface, LogError,ISyncMgrSynchronizeCallback.LogError, mobsync/ISyncMgrSynchronizeCallback::LogError, shell.syncmgr_isyncmgrsynchronizecallback_logerror, syncmgr.isyncmgrsynchronizecallback_logerror
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],LogError method, ISyncMgrSynchronizeCallback.LogError, ISyncMgrSynchronizeCallback::LogError, LogError, LogError method [Windows Shell], LogError method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::LogError, shell.syncmgr_isyncmgrsynchronizecallback_logerror, syncmgr.isyncmgrsynchronizecallback_logerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronizeCallback::LogError method
+# ISyncMgrSynchronizeCallback::LogError
 
 
 ## -description

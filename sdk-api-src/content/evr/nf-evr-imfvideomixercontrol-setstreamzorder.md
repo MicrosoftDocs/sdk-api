@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.SetStreamZOrder
-title: IMFVideoMixerControl::SetStreamZOrder method
+title: IMFVideoMixerControl::SetStreamZOrder
 author: windows-driver-content
 description: Sets the z-order of a video stream.
 old-location: mf\imfvideomixercontrol_setstreamzorder.htm
 old-project: medfound
 ms.assetid: 6187724a-6345-4feb-90a0-097b6d21180f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 6187724a-6345-4feb-90a0-097b6d21180f, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], SetStreamZOrder method, IMFVideoMixerControl::SetStreamZOrder, SetStreamZOrder method [Media Foundation], SetStreamZOrder method [Media Foundation], IMFVideoMixerControl interface, SetStreamZOrder,IMFVideoMixerControl.SetStreamZOrder, evr/IMFVideoMixerControl::SetStreamZOrder, mf.imfvideomixercontrol_setstreamzorder
+ms.date: 5/3/2018
+ms.keywords: 6187724a-6345-4feb-90a0-097b6d21180f, IMFVideoMixerControl interface [Media Foundation],SetStreamZOrder method, IMFVideoMixerControl.SetStreamZOrder, IMFVideoMixerControl::SetStreamZOrder, SetStreamZOrder, SetStreamZOrder method [Media Foundation], SetStreamZOrder method [Media Foundation],IMFVideoMixerControl interface, evr/IMFVideoMixerControl::SetStreamZOrder, mf.imfvideomixercontrol_setstreamzorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoMixerControl::SetStreamZOrder method
+# IMFVideoMixerControl::SetStreamZOrder
 
 
 ## -description

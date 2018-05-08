@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: e3fdfd44-9e90-4206-b7e9-97d4ed6eb8af
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMSitesContainer, IGPMSitesContainer, IGPMSitesContainer interface [GPMC], IGPMSitesContainer interface [GPMC], described, _win32_igpmsitescontainer, gpmc.igpmsitescontainer, gpmgmt/IGPMSitesContainer
+ms.keywords: GPMSitesContainer, IGPMSitesContainer, IGPMSitesContainer interface [GPMC], IGPMSitesContainer interface [GPMC],described, _win32_igpmsitescontainer, gpmc.igpmsitescontainer, gpmgmt/IGPMSitesContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

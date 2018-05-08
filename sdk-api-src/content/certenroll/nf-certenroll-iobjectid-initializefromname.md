@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectId.InitializeFromName
-title: IObjectId::InitializeFromName method
+title: IObjectId::InitializeFromName
 author: windows-driver-content
 description: Initializes the object from a CERTENROLL_OBJECTID enumeration value.
 old-location: security\iobjectid_initializefromname_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: dce84308-aecc-4841-88da-e948313b90b3
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IObjectId, IObjectId interface [Security], InitializeFromName method, IObjectId::InitializeFromName, InitializeFromName method [Security], InitializeFromName method [Security], IObjectId interface, InitializeFromName,IObjectId.InitializeFromName, certenroll/IObjectId::InitializeFromName, security.iobjectid_initializefromname_method
+ms.keywords: IObjectId interface [Security],InitializeFromName method, IObjectId.InitializeFromName, IObjectId::InitializeFromName, InitializeFromName, InitializeFromName method [Security], InitializeFromName method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromName, security.iobjectid_initializefromname_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IObjectId::InitializeFromName method
+# IObjectId::InitializeFromName
 
 
 ## -description

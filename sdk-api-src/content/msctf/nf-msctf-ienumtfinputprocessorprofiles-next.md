@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Next
-title: IEnumTfInputProcessorProfiles::Next method
+title: IEnumTfInputProcessorProfiles::Next
 author: windows-driver-content
 description: The IEnumTfInputProcessorProfiles::Next method obtains, from the current position, the specified number of elements in the enumeration sequence.
 old-location: tsf\ienumtfinputprocessorprofiles_next.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: b936c479-a5f1-47a3-bd5a-f1b83cd84dc0
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfInputProcessorProfiles, IEnumTfInputProcessorProfiles interface [Text Services Framework], Next method, IEnumTfInputProcessorProfiles::Next, Next method [Text Services Framework], Next method [Text Services Framework], IEnumTfInputProcessorProfiles interface, Next,IEnumTfInputProcessorProfiles.Next, msctf/IEnumTfInputProcessorProfiles::Next, tsf.ienumtfinputprocessorprofiles_next
+ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Next method, IEnumTfInputProcessorProfiles.Next, IEnumTfInputProcessorProfiles::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Next, tsf.ienumtfinputprocessorprofiles_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfInputProcessorProfiles::Next method
+# IEnumTfInputProcessorProfiles::Next
 
 
 ## -description

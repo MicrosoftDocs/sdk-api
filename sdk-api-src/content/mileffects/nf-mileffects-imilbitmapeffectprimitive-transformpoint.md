@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.TransformPoint
-title: IMILBitmapEffectPrimitive::TransformPoint method
+title: IMILBitmapEffectPrimitive::TransformPoint
 author: windows-driver-content
 description: Transforms the given point.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_transformpoint.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\transformpoint.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffectPrimitive, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects], TransformPoint method, IMILBitmapEffectPrimitive::TransformPoint, TransformPoint method [WPF Bitmap Effects], TransformPoint method [WPF Bitmap Effects], IMILBitmapEffectPrimitive interface, TransformPoint,IMILBitmapEffectPrimitive.TransformPoint, _wibe_imilbitmapeffectprimitive_transformpoint, mileffects/IMILBitmapEffectPrimitive::TransformPoint, wibe._wibe_imilbitmapeffectprimitive_transformpoint
+ms.keywords: IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],TransformPoint method, IMILBitmapEffectPrimitive.TransformPoint, IMILBitmapEffectPrimitive::TransformPoint, TransformPoint, TransformPoint method [WPF Bitmap Effects], TransformPoint method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, _wibe_imilbitmapeffectprimitive_transformpoint, mileffects/IMILBitmapEffectPrimitive::TransformPoint, wibe._wibe_imilbitmapeffectprimitive_transformpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectPrimitive::TransformPoint method
+# IMILBitmapEffectPrimitive::TransformPoint
 
 
 ## -description

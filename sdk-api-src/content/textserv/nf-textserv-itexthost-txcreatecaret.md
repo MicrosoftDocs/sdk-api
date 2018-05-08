@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxCreateCaret
-title: ITextHost::TxCreateCaret method
+title: ITextHost::TxCreateCaret
 author: windows-driver-content
 description: Creates a new shape for windowless rich edit control's caret.
 old-location: controls\ITextHost_TxCreateCaret.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txcreatecaret.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: CARET_CUSTOM, CARET_ITALIC, CARET_NONE, CARET_NULL, CARET_ROTATE90, CARET_RTL, ITextHost, ITextHost interface [Windows Controls], TxCreateCaret method, ITextHost::TxCreateCaret, TxCreateCaret method [Windows Controls], TxCreateCaret method [Windows Controls], ITextHost interface, TxCreateCaret,ITextHost.TxCreateCaret, _win32_ITextHost_TxCreateCaret, _win32_ITextHost_TxCreateCaret_cpp, controls.ITextHost_TxCreateCaret, controls._win32_ITextHost_TxCreateCaret, textserv/ITextHost::TxCreateCaret
+ms.date: 4/27/2018
+ms.keywords: CARET_CUSTOM, CARET_ITALIC, CARET_NONE, CARET_NULL, CARET_ROTATE90, CARET_RTL, ITextHost interface [Windows Controls],TxCreateCaret method, ITextHost.TxCreateCaret, ITextHost::TxCreateCaret, TxCreateCaret, TxCreateCaret method [Windows Controls], TxCreateCaret method [Windows Controls],ITextHost interface, _win32_ITextHost_TxCreateCaret, _win32_ITextHost_TxCreateCaret_cpp, controls.ITextHost_TxCreateCaret, controls._win32_ITextHost_TxCreateCaret, textserv/ITextHost::TxCreateCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxCreateCaret method
+# ITextHost::TxCreateCaret
 
 
 ## -description

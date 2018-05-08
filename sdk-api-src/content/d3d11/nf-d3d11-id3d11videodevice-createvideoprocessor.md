@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoProcessor
-title: ID3D11VideoDevice::CreateVideoProcessor method
+title: ID3D11VideoDevice::CreateVideoProcessor
 author: windows-driver-content
 description: Creates a video processor device for Microsoft Direct3D 11.
 old-location: mf\id3d11videodevice_createvideoprocessor.htm
 old-project: medfound
 ms.assetid: 5A5FB7F9-F299-4E67-AFAD-E7056CBAEE76
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation], ID3D11VideoDevice interface, CreateVideoProcessor,ID3D11VideoDevice.CreateVideoProcessor, ID3D11VideoDevice, ID3D11VideoDevice interface [Media Foundation], CreateVideoProcessor method, ID3D11VideoDevice::CreateVideoProcessor, d3d11/ID3D11VideoDevice::CreateVideoProcessor, mf.id3d11videodevice_createvideoprocessor
+ms.date: 5/3/2018
+ms.keywords: CreateVideoProcessor, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessor method, ID3D11VideoDevice.CreateVideoProcessor, ID3D11VideoDevice::CreateVideoProcessor, d3d11/ID3D11VideoDevice::CreateVideoProcessor, mf.id3d11videodevice_createvideoprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoDevice::CreateVideoProcessor method
+# ID3D11VideoDevice::CreateVideoProcessor
 
 
 ## -description

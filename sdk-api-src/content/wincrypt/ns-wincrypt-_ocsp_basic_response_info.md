@@ -7,7 +7,7 @@ old-location: security\ocsp_basic_response_info.htm
 old-project: SecCrypto
 ms.assetid: f067bfa0-114b-4295-bbee-a963d8b64332
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*POCSP_BASIC_RESPONSE_INFO, OCSP_BASIC_BY_KEY_RESPONDER_ID, OCSP_BASIC_BY_NAME_RESPONDER_ID, OCSP_BASIC_RESPONSE_INFO, OCSP_BASIC_RESPONSE_INFO structure [Security], OCSP_BASIC_RESPONSE_V1, POCSP_BASIC_RESPONSE_INFO, POCSP_BASIC_RESPONSE_INFO structure pointer [Security], _OCSP_BASIC_RESPONSE_INFO, security.ocsp_basic_response_info, wincrypt/OCSP_BASIC_RESPONSE_INFO, wincrypt/POCSP_BASIC_RESPONSE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,6 +85,16 @@ A value that indicates the type of ID the responder used in this response.
  
 
 
+### -field DUMMYUNIONNAME.ByNameResponderId
+
+A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CERT_NAME_BLOB</a> structure that contains the subject name of the responder signing <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a>.
+
+
+### -field DUMMYUNIONNAME.ByKeyResponderId
+
+A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_HASH_BLOB</a> that contains a hash of the responder signing certificate <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a>.
+
+
 ### -field ProducedAt
 
 The date and time at which the response was signed.
@@ -108,16 +118,6 @@ The number of elements in the <b>rgExtension</b> array.
 ### -field rgExtension
 
 An array of pointers to <a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a> structures, each of which contains additional information about the response.
-
-
-#### - ByKeyResponderId
-
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_HASH_BLOB</a> that contains a hash of the responder signing certificate <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a>.
-
-
-#### - ByNameResponderId
-
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CERT_NAME_BLOB</a> structure that contains the subject name of the responder signing <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a>.
 
 
 ## -remarks

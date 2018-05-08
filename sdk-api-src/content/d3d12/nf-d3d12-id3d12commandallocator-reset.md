@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandAllocator.Reset
-title: ID3D12CommandAllocator::Reset method
+title: ID3D12CommandAllocator::Reset
 author: windows-driver-content
 description: Indicates to re-use the memory that is associated with the command allocator.
 old-location: direct3d12\id3d12commandallocator_reset.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: B7477767-9110-45DE-962F-E56FDB635D17
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12CommandAllocator, ID3D12CommandAllocator interface, Reset method, ID3D12CommandAllocator::Reset, Reset method, Reset method, ID3D12CommandAllocator interface, Reset,ID3D12CommandAllocator.Reset, d3d12/ID3D12CommandAllocator::Reset, direct3d12.id3d12commandallocator_reset
+ms.keywords: ID3D12CommandAllocator interface,Reset method, ID3D12CommandAllocator.Reset, ID3D12CommandAllocator::Reset, Reset, Reset method, Reset method,ID3D12CommandAllocator interface, d3d12/ID3D12CommandAllocator::Reset, direct3d12.id3d12commandallocator_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12CommandAllocator::Reset method
+# ID3D12CommandAllocator::Reset
 
 
 ## -description

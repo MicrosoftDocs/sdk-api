@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.Remove
-title: IWSDiscoveryProviderNotify::Remove method
+title: IWSDiscoveryProviderNotify::Remove
 author: windows-driver-content
 description: Provides information on a recently departed discovery host (from a Bye message).
 old-location: ncd\iwsdiscoveryprovidernotify_remove.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 776fc1d5-9dfe-445f-9af6-36faf971bf37
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryProviderNotify, IWSDiscoveryProviderNotify interface, Remove method, IWSDiscoveryProviderNotify::Remove, Remove method, Remove method, IWSDiscoveryProviderNotify interface, Remove,IWSDiscoveryProviderNotify.Remove, ncd.iwsdiscoveryprovidernotify_remove, wsddisco/IWSDiscoveryProviderNotify::Remove
+ms.keywords: IWSDiscoveryProviderNotify interface,Remove method, IWSDiscoveryProviderNotify.Remove, IWSDiscoveryProviderNotify::Remove, Remove, Remove method, Remove method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_remove, wsddisco/IWSDiscoveryProviderNotify::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryProviderNotify::Remove method
+# IWSDiscoveryProviderNotify::Remove
 
 
 ## -description

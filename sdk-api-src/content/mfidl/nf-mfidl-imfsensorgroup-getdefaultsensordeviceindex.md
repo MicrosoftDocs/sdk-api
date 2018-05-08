@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetDefaultSensorDeviceIndex
-title: IMFSensorGroup::GetDefaultSensorDeviceIndex method
+title: IMFSensorGroup::GetDefaultSensorDeviceIndex
 author: windows-driver-content
 description: Retrieves the index of the default device in the sensor group.
 old-location: mf\imfsensorgroup_getdefaultsensordeviceindex.htm
 old-project: medfound
 ms.assetid: E82A83F7-E984-4353-8CED-E3B5EE28EB3D
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDefaultSensorDeviceIndex method [Media Foundation], GetDefaultSensorDeviceIndex method [Media Foundation], IMFSensorGroup interface, GetDefaultSensorDeviceIndex,IMFSensorGroup.GetDefaultSensorDeviceIndex, IMFSensorGroup, IMFSensorGroup interface [Media Foundation], GetDefaultSensorDeviceIndex method, IMFSensorGroup::GetDefaultSensorDeviceIndex, mf.imfsensorgroup_getdefaultsensordeviceindex, mfidl/IMFSensorGroup::GetDefaultSensorDeviceIndex
+ms.date: 5/3/2018
+ms.keywords: GetDefaultSensorDeviceIndex, GetDefaultSensorDeviceIndex method [Media Foundation], GetDefaultSensorDeviceIndex method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetDefaultSensorDeviceIndex method, IMFSensorGroup.GetDefaultSensorDeviceIndex, IMFSensorGroup::GetDefaultSensorDeviceIndex, mf.imfsensorgroup_getdefaultsensordeviceindex, mfidl/IMFSensorGroup::GetDefaultSensorDeviceIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorGroup::GetDefaultSensorDeviceIndex method
+# IMFSensorGroup::GetDefaultSensorDeviceIndex
 
 
 ## -description

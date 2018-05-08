@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskHandler.Stop
-title: ITaskHandler::Stop method
+title: ITaskHandler::Stop
 author: windows-driver-content
 description: Called to stop the COM handler.
 old-location: taskschd\itaskhandler_stop.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 93a112e7-5e44-42a9-a5f5-d61e1ad1eabc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskHandler, ITaskHandler interface [Task Scheduler], Stop method, ITaskHandler::Stop, Stop method [Task Scheduler], Stop method [Task Scheduler], ITaskHandler interface, Stop,ITaskHandler.Stop, taskschd.itaskhandler_stop, taskschd/ITaskHandler::Stop
+ms.keywords: ITaskHandler interface [Task Scheduler],Stop method, ITaskHandler.Stop, ITaskHandler::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_stop, taskschd/ITaskHandler::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskHandler::Stop method
+# ITaskHandler::Stop
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetLastPrinted
-title: IXpsOMCoreProperties::SetLastPrinted method
+title: IXpsOMCoreProperties::SetLastPrinted
 author: windows-driver-content
 description: Sets the lastPrinted property.
 old-location: xps\ixpsomcoreproperties_setlastprinted.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 7b1cf459-b140-4793-a9e0-4153a00b9bc2
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], SetLastPrinted method, IXpsOMCoreProperties::SetLastPrinted, SetLastPrinted method [XPS Documents and Packaging], SetLastPrinted method [XPS Documents and Packaging], IXpsOMCoreProperties interface, SetLastPrinted,IXpsOMCoreProperties.SetLastPrinted, xps.ixpsomcoreproperties_setlastprinted, xpsobjectmodel/IXpsOMCoreProperties::SetLastPrinted
+ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetLastPrinted method, IXpsOMCoreProperties.SetLastPrinted, IXpsOMCoreProperties::SetLastPrinted, SetLastPrinted, SetLastPrinted method [XPS Documents and Packaging], SetLastPrinted method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setlastprinted, xpsobjectmodel/IXpsOMCoreProperties::SetLastPrinted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::SetLastPrinted method
+# IXpsOMCoreProperties::SetLastPrinted
 
 
 ## -description

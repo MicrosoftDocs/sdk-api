@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityCallersColl.get_Count
-title: ISecurityCallersColl::get_Count method
+title: ISecurityCallersColl::get_Count
 author: windows-driver-content
 description: Retrieves the number of callers in the security callers collection.
 old-location: cos\isecuritycallerscoll_get_count.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 98a28194-c4d3-4c5f-b43a-4df73fcea7e4
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ISecurityCallersColl, ISecurityCallersColl interface [COM+], get_Count method, ISecurityCallersColl::get_Count, _cos_ISecurityCallersColl_get_Count, comsvcs/ISecurityCallersColl::get_Count, cos.isecuritycallerscoll_get_count, get_Count method [COM+], get_Count method [COM+], ISecurityCallersColl interface, get_Count,ISecurityCallersColl.get_Count
+ms.keywords: ISecurityCallersColl interface [COM+],get_Count method, ISecurityCallersColl.get_Count, ISecurityCallersColl::get_Count, _cos_ISecurityCallersColl_get_Count, comsvcs/ISecurityCallersColl::get_Count, cos.isecuritycallerscoll_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ISecurityCallersColl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISecurityCallersColl::get_Count method
+# ISecurityCallersColl::get_Count
 
 
 ## -description

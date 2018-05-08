@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7c46413f-3e51-4d72-b7f7-a8239c61b161
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IStreamBufferRecordingAttribute, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies], IStreamBufferRecordingAttribute interface [Microsoft TV Technologies], described, IStreamBufferRecordingAttributeInterface, mstv.istreambufferrecordingattribute, sbe/IStreamBufferRecordingAttribute
+ms.keywords: IStreamBufferRecordingAttribute, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies], IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],described, IStreamBufferRecordingAttributeInterface, mstv.istreambufferrecordingattribute, sbe/IStreamBufferRecordingAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

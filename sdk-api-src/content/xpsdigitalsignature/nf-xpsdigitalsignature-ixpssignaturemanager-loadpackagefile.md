@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.LoadPackageFile
-title: IXpsSignatureManager::LoadPackageFile method
+title: IXpsSignatureManager::LoadPackageFile
 author: windows-driver-content
 description: Loads an existing XPS package from a file into the digital signature manager.
 old-location: xps\ixpssignaturemanager_loadpackagefile.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: ecb33eee-4622-4a2e-bc24-7a77d16ef4a4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], LoadPackageFile method, IXpsSignatureManager::LoadPackageFile, LoadPackageFile method [XPS Documents and Packaging], LoadPackageFile method [XPS Documents and Packaging], IXpsSignatureManager interface, LoadPackageFile,IXpsSignatureManager.LoadPackageFile, xps.ixpssignaturemanager_loadpackagefile, xpsdigitalsignature/IXpsSignatureManager::LoadPackageFile
+ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],LoadPackageFile method, IXpsSignatureManager.LoadPackageFile, IXpsSignatureManager::LoadPackageFile, LoadPackageFile, LoadPackageFile method [XPS Documents and Packaging], LoadPackageFile method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_loadpackagefile, xpsdigitalsignature/IXpsSignatureManager::LoadPackageFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureManager::LoadPackageFile method
+# IXpsSignatureManager::LoadPackageFile
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF.DeleteAccessPath
-title: IVdsVolumeMF::DeleteAccessPath method
+title: IVdsVolumeMF::DeleteAccessPath
 author: windows-driver-content
 description: Removes the access path from the current volume.
 old-location: base\ivdsvolumemf_deleteaccesspath.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 05020390-475f-4528-ba44-ecdfe008149f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: DeleteAccessPath method [VDS], DeleteAccessPath method [VDS], IVdsVolumeMF interface, DeleteAccessPath,IVdsVolumeMF.DeleteAccessPath, IVdsVolumeMF, IVdsVolumeMF interface [VDS], DeleteAccessPath method, IVdsVolumeMF::DeleteAccessPath, base.ivdsvolumemf_deleteaccesspath, vds/IVdsVolumeMF::DeleteAccessPath
+ms.keywords: DeleteAccessPath, DeleteAccessPath method [VDS], DeleteAccessPath method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],DeleteAccessPath method, IVdsVolumeMF.DeleteAccessPath, IVdsVolumeMF::DeleteAccessPath, base.ivdsvolumemf_deleteaccesspath, vds/IVdsVolumeMF::DeleteAccessPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolumeMF::DeleteAccessPath method
+# IVdsVolumeMF::DeleteAccessPath
 
 
 ## -description

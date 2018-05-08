@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetInheritedServices
-title: IPortableDeviceServiceCapabilities::GetInheritedServices method
+title: IPortableDeviceServiceCapabilities::GetInheritedServices
 author: windows-driver-content
 description: Retrieves the services having the specified inheritance type.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getinheritedservices.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: f5640d6a-6c2f-4bd3-adff-628017f5b867
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetInheritedServices method [Windows Portable Devices SDK], GetInheritedServices method [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface, GetInheritedServices,IPortableDeviceServiceCapabilities.GetInheritedServices, IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], GetInheritedServices method, IPortableDeviceServiceCapabilities::GetInheritedServices, portabledeviceapi/IPortableDeviceServiceCapabilities::GetInheritedServices, wpdsdk.iportabledeviceservicecapabilities_getinheritedservices
+ms.keywords: GetInheritedServices, GetInheritedServices method [Windows Portable Devices SDK], GetInheritedServices method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetInheritedServices method, IPortableDeviceServiceCapabilities.GetInheritedServices, IPortableDeviceServiceCapabilities::GetInheritedServices, portabledeviceapi/IPortableDeviceServiceCapabilities::GetInheritedServices, wpdsdk.iportabledeviceservicecapabilities_getinheritedservices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceCapabilities::GetInheritedServices method
+# IPortableDeviceServiceCapabilities::GetInheritedServices
 
 
 ## -description

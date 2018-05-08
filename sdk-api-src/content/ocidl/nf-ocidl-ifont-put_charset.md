@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Charset
-title: IFont::put_Charset method
+title: IFont::put_Charset
 author: windows-driver-content
 description: Sets the font's character set.
 old-location: com\ifont_put_charset.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: da48fefa-28d2-41aa-a324-dc259504c9ed
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFont, IFont interface [COM], put_Charset method, IFont::put_Charset, _ctrl_ifont_put_charset, com.ifont_put_charset, ocidl/IFont::put_Charset, put_Charset method [COM], put_Charset method [COM], IFont interface, put_Charset,IFont.put_Charset
+ms.keywords: IFont interface [COM],put_Charset method, IFont.put_Charset, IFont::put_Charset, _ctrl_ifont_put_charset, com.ifont_put_charset, ocidl/IFont::put_Charset, put_Charset, put_Charset method [COM], put_Charset method [COM],IFont interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFont::put_Charset method
+# IFont::put_Charset
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_scanState
-title: IWMPFolderMonitorServices::get_scanState method
+title: IWMPFolderMonitorServices::get_scanState
 author: windows-driver-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_scanState method retrieves the scan state for the current scanning operation.
 old-location: wmp\iwmpfoldermonitorservices_get_scanstate.htm
 old-project: WMP
 ms.assetid: 4f13d2d0-5d8c-4aa7-bc69-c5c0436337a6
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], get_scanState method, IWMPFolderMonitorServices::get_scanState, IWMPFolderMonitorServicesget_scanState, get_scanState method [Windows Media Player], get_scanState method [Windows Media Player], IWMPFolderMonitorServices interface, get_scanState,IWMPFolderMonitorServices.get_scanState, wmp.iwmpfoldermonitorservices_get_scanstate, wmp/IWMPFolderMonitorServices::get_scanState
+ms.date: 5/4/2018
+ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_scanState method, IWMPFolderMonitorServices.get_scanState, IWMPFolderMonitorServices::get_scanState, IWMPFolderMonitorServicesget_scanState, get_scanState, get_scanState method [Windows Media Player], get_scanState method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_scanstate, wmp/IWMPFolderMonitorServices::get_scanState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPFolderMonitorServices::get_scanState method
+# IWMPFolderMonitorServices::get_scanState
 
 
 ## -description

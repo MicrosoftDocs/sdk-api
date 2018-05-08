@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.ShiftTo
-title: IAnchor::ShiftTo method
+title: IAnchor::ShiftTo
 author: windows-driver-content
 description: The IAnchor::ShiftTo method shifts the current anchor to the same position as another anchor.
 old-location: tsf\ianchor_shiftto.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a0fb9a08-3f46-4d2f-8887-e80dc0bade1b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IAnchor, IAnchor interface [Text Services Framework], ShiftTo method, IAnchor::ShiftTo, ShiftTo method [Text Services Framework], ShiftTo method [Text Services Framework], IAnchor interface, ShiftTo,IAnchor.ShiftTo, textstor/IAnchor::ShiftTo, tsf.ianchor_shiftto
+ms.keywords: IAnchor interface [Text Services Framework],ShiftTo method, IAnchor.ShiftTo, IAnchor::ShiftTo, ShiftTo, ShiftTo method [Text Services Framework], ShiftTo method [Text Services Framework],IAnchor interface, textstor/IAnchor::ShiftTo, tsf.ianchor_shiftto
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnchor::ShiftTo method
+# IAnchor::ShiftTo
 
 
 ## -description

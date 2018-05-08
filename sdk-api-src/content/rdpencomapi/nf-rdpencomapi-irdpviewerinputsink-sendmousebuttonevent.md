@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendMouseButtonEvent
-title: IRDPViewerInputSink::SendMouseButtonEvent method
+title: IRDPViewerInputSink::SendMouseButtonEvent
 author: windows-driver-content
 description: Sends a mouse button event message.
 old-location: rdp\irdpviewerinputsink_sendmousebuttonevent.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 2BC93D69-7DBC-4C38-9980-EEB9775A083E
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPViewerInputSink, IRDPViewerInputSink interface [RDP], SendMouseButtonEvent method, IRDPViewerInputSink::SendMouseButtonEvent, SendMouseButtonEvent method [RDP], SendMouseButtonEvent method [RDP], IRDPViewerInputSink interface, SendMouseButtonEvent,IRDPViewerInputSink.SendMouseButtonEvent, rdp.irdpviewerinputsink_sendmousebuttonevent, rdpencomapi/IRDPViewerInputSink::SendMouseButtonEvent
+ms.keywords: IRDPViewerInputSink interface [RDP],SendMouseButtonEvent method, IRDPViewerInputSink.SendMouseButtonEvent, IRDPViewerInputSink::SendMouseButtonEvent, SendMouseButtonEvent, SendMouseButtonEvent method [RDP], SendMouseButtonEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendmousebuttonevent, rdpencomapi/IRDPViewerInputSink::SendMouseButtonEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPViewerInputSink::SendMouseButtonEvent method
+# IRDPViewerInputSink::SendMouseButtonEvent
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 54e23cfc-52bf-482a-a3e8-49fd6aa505e3
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: "*PShellCommandInfo, ShellCommandInfo, ShellCommandInfo structure [NDF], ShellCommandInfo, *PShellCommandInfo, ShellCommandInfo, *PShellCommandInfo structure [NDF], ndattrib/ShellCommandInfo, ndf.shellcommandinfo, tagShellCommandInfo"
+ms.keywords: "*PShellCommandInfo, ShellCommandInfo, ShellCommandInfo structure [NDF], ShellCommandInfo,*PShellCommandInfo, ShellCommandInfo,*PShellCommandInfo structure [NDF], ndattrib/ShellCommandInfo, ndf.shellcommandinfo, tagShellCommandInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

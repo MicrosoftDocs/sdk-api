@@ -7,8 +7,8 @@ old-location: wmp\iwmpskinmanager.htm
 old-project: WMP
 ms.assetid: c1f27a79-837f-4833-af62-2181406ed725
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSkinManager, IWMPSkinManager interface [Windows Media Player], IWMPSkinManager interface [Windows Media Player], described, IWMPSkinManagerInterface, wmp.iwmpskinmanager, wmp/IWMPSkinManager
+ms.date: 5/4/2018
+ms.keywords: IWMPSkinManager, IWMPSkinManager interface [Windows Media Player], IWMPSkinManager interface [Windows Media Player],described, IWMPSkinManagerInterface, wmp.iwmpskinmanager, wmp/IWMPSkinManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

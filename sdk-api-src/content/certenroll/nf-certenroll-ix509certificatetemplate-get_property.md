@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplate.get_Property
-title: IX509CertificateTemplate::get_Property method
+title: IX509CertificateTemplate::get_Property
 author: windows-driver-content
 description: Retrieves a template property value.
 old-location: security\ix509certificatetemplate_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 4588891e-7be4-482a-bbad-c23759b06b1b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateTemplate, IX509CertificateTemplate interface [Security], Property property, IX509CertificateTemplate.Property, IX509CertificateTemplate::get_Property, Property property [Security], Property property [Security], IX509CertificateTemplate interface, certenroll/IX509CertificateTemplate::Property, certenroll/IX509CertificateTemplate::get_Property, get_Property,IX509CertificateTemplate.get_Property, security.ix509certificatetemplate_property
+ms.keywords: IX509CertificateTemplate interface [Security],Property property, IX509CertificateTemplate.Property, IX509CertificateTemplate.get_Property, IX509CertificateTemplate::Property, IX509CertificateTemplate::get_Property, Property property [Security], Property property [Security],IX509CertificateTemplate interface, certenroll/IX509CertificateTemplate::Property, certenroll/IX509CertificateTemplate::get_Property, get_Property, security.ix509certificatetemplate_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509CertificateTemplate::get_Property method
+# IX509CertificateTemplate::get_Property
 
 
 ## -description

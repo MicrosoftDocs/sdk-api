@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_3.ID3D11Fence.GetCompletedValue
-title: ID3D11Fence::GetCompletedValue method
+title: ID3D11Fence::GetCompletedValue
 author: windows-driver-content
 description: Gets the current value of the fence.
 old-location: direct3d11\id3d11fence_getcompletedvalue.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 57D5BDEE-1E14-4187-9F32-CF3609F4BBBB
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetCompletedValue method [Direct3D 11], GetCompletedValue method [Direct3D 11], ID3D11Fence interface, GetCompletedValue,ID3D11Fence.GetCompletedValue, ID3D11Fence, ID3D11Fence interface [Direct3D 11], GetCompletedValue method, ID3D11Fence::GetCompletedValue, d3d11_3/ID3D11Fence::GetCompletedValue, direct3d11.id3d11fence_getcompletedvalue
+ms.keywords: GetCompletedValue, GetCompletedValue method [Direct3D 11], GetCompletedValue method [Direct3D 11],ID3D11Fence interface, ID3D11Fence interface [Direct3D 11],GetCompletedValue method, ID3D11Fence.GetCompletedValue, ID3D11Fence::GetCompletedValue, d3d11_3/ID3D11Fence::GetCompletedValue, direct3d11.id3d11fence_getcompletedvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D11.dll
 req.irql: 
 ---
 
-# ID3D11Fence::GetCompletedValue method
+# ID3D11Fence::GetCompletedValue
 
 
 ## -description

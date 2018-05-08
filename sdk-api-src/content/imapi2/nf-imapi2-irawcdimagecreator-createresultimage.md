@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.CreateResultImage
-title: IRawCDImageCreator::CreateResultImage method
+title: IRawCDImageCreator::CreateResultImage
 author: windows-driver-content
 description: Creates the final IStream object based on the current settings.
 old-location: imapi\irawcdimagecreator_createresultimage.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: a83293f6-d5a1-49e2-884b-2b185516109d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateResultImage method [IMAPI], CreateResultImage method [IMAPI], IRawCDImageCreator interface, CreateResultImage,IRawCDImageCreator.CreateResultImage, IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], CreateResultImage method, IRawCDImageCreator::CreateResultImage, imapi.irawcdimagecreator_createresultimage, imapi2/IRawCDImageCreator::CreateResultImage
+ms.keywords: CreateResultImage, CreateResultImage method [IMAPI], CreateResultImage method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],CreateResultImage method, IRawCDImageCreator.CreateResultImage, IRawCDImageCreator::CreateResultImage, imapi.irawcdimagecreator_createresultimage, imapi2/IRawCDImageCreator::CreateResultImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRawCDImageCreator::CreateResultImage method
+# IRawCDImageCreator::CreateResultImage
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_CAPS.Clone
-title: IEnumWIA_DEV_CAPS::Clone method
+title: IEnumWIA_DEV_CAPS::Clone
 author: windows-driver-content
 description: The IEnumWIA_DEV_CAPS::Clone method creates an additional instance of the IEnumWIA_DEV_CAPS interface and sends back a pointer to it.
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_Clone.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_dev_caps\clone.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: Clone method [WIA], Clone method [WIA], IEnumWIA_DEV_CAPS interface, Clone,IEnumWIA_DEV_CAPS.Clone, IEnumWIA_DEV_CAPS, IEnumWIA_DEV_CAPS interface [WIA], Clone method, IEnumWIA_DEV_CAPS::Clone, _wia_IEnumWIA_DEV_CAPS_Clone, wia._wia_IEnumWIA_DEV_CAPS_Clone, wia_xp/IEnumWIA_DEV_CAPS::Clone
+ms.date: 5/3/2018
+ms.keywords: Clone, Clone method [WIA], Clone method [WIA],IEnumWIA_DEV_CAPS interface, IEnumWIA_DEV_CAPS interface [WIA],Clone method, IEnumWIA_DEV_CAPS.Clone, IEnumWIA_DEV_CAPS::Clone, _wia_IEnumWIA_DEV_CAPS_Clone, wia._wia_IEnumWIA_DEV_CAPS_Clone, wia_xp/IEnumWIA_DEV_CAPS::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IEnumWIA_DEV_CAPS::Clone method
+# IEnumWIA_DEV_CAPS::Clone
 
 
 ## -description

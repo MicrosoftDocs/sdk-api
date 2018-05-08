@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.put_UseStreamingWrite12
-title: IWriteEngine2::put_UseStreamingWrite12 method
+title: IWriteEngine2::put_UseStreamingWrite12
 author: windows-driver-content
 description: Sets a value that indicates if the write operations use the WRITE12 or WRITE10 command.
 old-location: imapi\iwriteengine2_put_usestreamingwrite12.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: c0fa6248-c582-423d-8983-81cd56d9abdd
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IWriteEngine2, IWriteEngine2 interface [IMAPI], put_UseStreamingWrite12 method, IWriteEngine2::put_UseStreamingWrite12, imapi.iwriteengine2_put_usestreamingwrite12, imapi2/IWriteEngine2::put_UseStreamingWrite12, put_UseStreamingWrite12 method [IMAPI], put_UseStreamingWrite12 method [IMAPI], IWriteEngine2 interface, put_UseStreamingWrite12,IWriteEngine2.put_UseStreamingWrite12
+ms.keywords: IWriteEngine2 interface [IMAPI],put_UseStreamingWrite12 method, IWriteEngine2.put_UseStreamingWrite12, IWriteEngine2::put_UseStreamingWrite12, imapi.iwriteengine2_put_usestreamingwrite12, imapi2/IWriteEngine2::put_UseStreamingWrite12, put_UseStreamingWrite12, put_UseStreamingWrite12 method [IMAPI], put_UseStreamingWrite12 method [IMAPI],IWriteEngine2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWriteEngine2::put_UseStreamingWrite12 method
+# IWriteEngine2::put_UseStreamingWrite12
 
 
 ## -description

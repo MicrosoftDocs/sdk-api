@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10Debug.SetPresentPerRenderOpDelay
-title: ID3D10Debug::SetPresentPerRenderOpDelay method
+title: ID3D10Debug::SetPresentPerRenderOpDelay
 author: windows-driver-content
 description: Set the number of milliseconds to sleep after Present is called.
 old-location: direct3d10\id3d10debug_setpresentperrenderopdelay.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_setpresentperrenderopdelay.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 42cc51c9-dccb-4b3d-9dcc-643abb49543f, ID3D10Debug, ID3D10Debug interface [Direct3D 10], SetPresentPerRenderOpDelay method, ID3D10Debug::SetPresentPerRenderOpDelay, SetPresentPerRenderOpDelay method [Direct3D 10], SetPresentPerRenderOpDelay method [Direct3D 10], ID3D10Debug interface, SetPresentPerRenderOpDelay,ID3D10Debug.SetPresentPerRenderOpDelay, d3d10sdklayers/ID3D10Debug::SetPresentPerRenderOpDelay, direct3d10.id3d10debug_setpresentperrenderopdelay
+ms.keywords: 42cc51c9-dccb-4b3d-9dcc-643abb49543f, ID3D10Debug interface [Direct3D 10],SetPresentPerRenderOpDelay method, ID3D10Debug.SetPresentPerRenderOpDelay, ID3D10Debug::SetPresentPerRenderOpDelay, SetPresentPerRenderOpDelay, SetPresentPerRenderOpDelay method [Direct3D 10], SetPresentPerRenderOpDelay method [Direct3D 10],ID3D10Debug interface, d3d10sdklayers/ID3D10Debug::SetPresentPerRenderOpDelay, direct3d10.id3d10debug_setpresentperrenderopdelay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Debug::SetPresentPerRenderOpDelay method
+# ID3D10Debug::SetPresentPerRenderOpDelay
 
 
 ## -description

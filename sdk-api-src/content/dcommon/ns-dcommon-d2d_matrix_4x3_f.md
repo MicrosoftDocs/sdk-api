@@ -117,6 +117,9 @@ Describes a 4-by-3 floating point matrix.
  
 
 
+### -field m
+
+A 4-by-3 floating point array that describes the matrix.
 
 
 #### - _11, _12, _13
@@ -137,11 +140,6 @@ The values in the third row and first, second, and third columns of the matrix.
 #### - _41, _42, _43
 
 The value in the fourth row and first, second, and third columns of the matrix.
-
-
-#### - m
-
-A 4-by-3 floating point array that describes the matrix.
 
 
 ## -remarks

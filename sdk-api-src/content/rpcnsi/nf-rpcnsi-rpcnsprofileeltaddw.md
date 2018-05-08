@@ -7,7 +7,7 @@ old-location: rpc\rpcnsprofileeltadd.htm
 old-project: Rpc
 ms.assetid: e0a2d4b9-853c-4578-8a15-e0be7bfc0b9b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcNsProfileEltAdd, RpcNsProfileEltAdd function [RPC], RpcNsProfileEltAddA, RpcNsProfileEltAddW, _rpc_rpcnsprofileeltadd, rpc.rpcnsprofileeltadd, rpcnsi/RpcNsProfileEltAdd, rpcnsi/RpcNsProfileEltAddA, rpcnsi/RpcNsProfileEltAddW
 ms.prod: windows-hardware
 ms.technology: windows-devices

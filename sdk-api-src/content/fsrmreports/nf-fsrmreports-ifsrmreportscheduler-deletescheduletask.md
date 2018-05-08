@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.DeleteScheduleTask
-title: IFsrmReportScheduler::DeleteScheduleTask method
+title: IFsrmReportScheduler::DeleteScheduleTask
 author: windows-driver-content
 description: Deletes a task that is used to trigger a report job.
 old-location: fsrm\ifsrmreportscheduler_deletescheduletask.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 31541668-6173-48d4-8650-13e78bc7a763
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DeleteScheduleTask method [File Server Resource Manager], DeleteScheduleTask method [File Server Resource Manager], FsrmReportScheduler class, DeleteScheduleTask method [File Server Resource Manager], IFsrmReportScheduler interface, DeleteScheduleTask,IFsrmReportScheduler.DeleteScheduleTask, FsrmReportScheduler class [File Server Resource Manager], DeleteScheduleTask method, IFsrmReportScheduler, IFsrmReportScheduler interface [File Server Resource Manager], DeleteScheduleTask method, IFsrmReportScheduler::DeleteScheduleTask, fs.ifsrmreportscheduler_deletescheduletask, fsrm.ifsrmreportscheduler_deletescheduletask, fsrmreports/IFsrmReportScheduler::DeleteScheduleTask
+ms.keywords: DeleteScheduleTask, DeleteScheduleTask method [File Server Resource Manager], DeleteScheduleTask method [File Server Resource Manager],FsrmReportScheduler class, DeleteScheduleTask method [File Server Resource Manager],IFsrmReportScheduler interface, FsrmReportScheduler class [File Server Resource Manager],DeleteScheduleTask method, IFsrmReportScheduler interface [File Server Resource Manager],DeleteScheduleTask method, IFsrmReportScheduler.DeleteScheduleTask, IFsrmReportScheduler::DeleteScheduleTask, fs.ifsrmreportscheduler_deletescheduletask, fsrm.ifsrmreportscheduler_deletescheduletask, fsrmreports/IFsrmReportScheduler::DeleteScheduleTask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReportScheduler::DeleteScheduleTask method
+# IFsrmReportScheduler::DeleteScheduleTask
 
 
 ## -description

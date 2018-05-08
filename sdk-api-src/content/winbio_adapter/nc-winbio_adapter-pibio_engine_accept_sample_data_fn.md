@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: fa6c5aa4-a9f4-421e-bc43-ced7fade4144
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterAcceptSampleData, EngineAdapterAcceptSampleData callback function [Windows Biometric Framework API], PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN, secbiomet.engineadapteracceptsampledata, winbio_adapter/EngineAdapterAcceptSampleData
+ms.keywords: EngineAdapterAcceptSampleData, EngineAdapterAcceptSampleData callback function [Windows Biometric Framework API], PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN, PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN callback, secbiomet.engineadapteracceptsampledata, winbio_adapter/EngineAdapterAcceptSampleData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN callback
+# PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN callback function
 
 
 ## -description

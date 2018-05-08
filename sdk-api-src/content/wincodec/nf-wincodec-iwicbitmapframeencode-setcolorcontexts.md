@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetColorContexts
-title: IWICBitmapFrameEncode::SetColorContexts method
+title: IWICBitmapFrameEncode::SetColorContexts
 author: windows-driver-content
 description: Sets a given number IWICColorContext profiles to the frame.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setcolorcontexts.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: c955dede-297f-44c1-aa03-31a07a6d69d2
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Imaging Component], SetColorContexts method, IWICBitmapFrameEncode::SetColorContexts, SetColorContexts method [Windows Imaging Component], SetColorContexts method [Windows Imaging Component], IWICBitmapFrameEncode interface, SetColorContexts,IWICBitmapFrameEncode.SetColorContexts, _wic_codec_iwicbitmapframeencode_setcolorcontexts, wic._wic_codec_iwicbitmapframeencode_setcolorcontexts, wincodec/IWICBitmapFrameEncode::SetColorContexts
+ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetColorContexts method, IWICBitmapFrameEncode.SetColorContexts, IWICBitmapFrameEncode::SetColorContexts, SetColorContexts, SetColorContexts method [Windows Imaging Component], SetColorContexts method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setcolorcontexts, wic._wic_codec_iwicbitmapframeencode_setcolorcontexts, wincodec/IWICBitmapFrameEncode::SetColorContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapFrameEncode::SetColorContexts method
+# IWICBitmapFrameEncode::SetColorContexts
 
 
 ## -description

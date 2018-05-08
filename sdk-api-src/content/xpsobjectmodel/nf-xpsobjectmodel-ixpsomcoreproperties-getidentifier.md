@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetIdentifier
-title: IXpsOMCoreProperties::GetIdentifier method
+title: IXpsOMCoreProperties::GetIdentifier
 author: windows-driver-content
 description: Gets the identifier property.
 old-location: xps\ixpsomcoreproperties_getidentifier.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: a397fba0-4e73-4f5b-b292-529a222c2501
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetIdentifier method [XPS Documents and Packaging], GetIdentifier method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetIdentifier,IXpsOMCoreProperties.GetIdentifier, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetIdentifier method, IXpsOMCoreProperties::GetIdentifier, xps.ixpsomcoreproperties_getidentifier, xpsobjectmodel/IXpsOMCoreProperties::GetIdentifier
+ms.keywords: GetIdentifier, GetIdentifier method [XPS Documents and Packaging], GetIdentifier method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetIdentifier method, IXpsOMCoreProperties.GetIdentifier, IXpsOMCoreProperties::GetIdentifier, xps.ixpsomcoreproperties_getidentifier, xpsobjectmodel/IXpsOMCoreProperties::GetIdentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetIdentifier method
+# IXpsOMCoreProperties::GetIdentifier
 
 
 ## -description

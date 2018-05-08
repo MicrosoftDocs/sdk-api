@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnError
-title: IXMLHTTPRequest2Callback::OnError method
+title: IXMLHTTPRequest2Callback::OnError
 author: windows-driver-content
 description: Occurs when an error is encountered or the request has been aborted.
 old-location: ixhr2\ixmlhttprequest2callback_onerror.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: 532C97A7-B952-47BE-A9C7-5B1E5AB4C3D3
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest2Callback, IXMLHTTPRequest2Callback interface [XMLHttpRequest2], OnError method, IXMLHTTPRequest2Callback::OnError, OnError method [XMLHttpRequest2], OnError method [XMLHttpRequest2], IXMLHTTPRequest2Callback interface, OnError,IXMLHTTPRequest2Callback.OnError, ixhr2.ixmlhttprequest2callback_onerror, msxml6/IXMLHTTPRequest2Callback::OnError
+ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnError method, IXMLHTTPRequest2Callback.OnError, IXMLHTTPRequest2Callback::OnError, OnError, OnError method [XMLHttpRequest2], OnError method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onerror, msxml6/IXMLHTTPRequest2Callback::OnError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest2Callback::OnError method
+# IXMLHTTPRequest2Callback::OnError
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.IsWmdrmCompliant
-title: IWMRegisteredDevice::IsWmdrmCompliant method
+title: IWMRegisteredDevice::IsWmdrmCompliant
 author: windows-driver-content
 description: The IsWmdrmCompliant method retrieves the DRM compliance status of the device. Compliant devices can receive data using the Windows Media DRM 10 for Network Devices protocol.
 old-location: wmformat\iwmregistereddevice_iswmdrmcompliant.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 45bc7abb-1d39-4988-a9f0-867eaefe148f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], IsWmdrmCompliant method, IWMRegisteredDevice::IsWmdrmCompliant, IWMRegisteredDeviceIsWmdrmCompliant, IsWmdrmCompliant method [windows Media Format], IsWmdrmCompliant method [windows Media Format], IWMRegisteredDevice interface, IsWmdrmCompliant,IWMRegisteredDevice.IsWmdrmCompliant, wmformat.iwmregistereddevice_iswmdrmcompliant, wmsdkidl/IWMRegisteredDevice::IsWmdrmCompliant
+ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsWmdrmCompliant method, IWMRegisteredDevice.IsWmdrmCompliant, IWMRegisteredDevice::IsWmdrmCompliant, IWMRegisteredDeviceIsWmdrmCompliant, IsWmdrmCompliant, IsWmdrmCompliant method [windows Media Format], IsWmdrmCompliant method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_iswmdrmcompliant, wmsdkidl/IWMRegisteredDevice::IsWmdrmCompliant
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMRegisteredDevice::IsWmdrmCompliant method
+# IWMRegisteredDevice::IsWmdrmCompliant
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunningObjectTable.Register
-title: IRunningObjectTable::Register method
+title: IRunningObjectTable::Register
 author: windows-driver-content
 description: Registers an object and its identifying moniker in the running object table (ROT).
 old-location: com\irunningobjecttable_register.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 40f815b2-dfea-416c-aae1-7ba3a710ad91
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IRunningObjectTable, IRunningObjectTable interface [COM], Register method, IRunningObjectTable::Register, ROTFLAGS_ALLOWANYCLIENT, ROTFLAGS_REGISTRATIONKEEPSALIVE, Register method [COM], Register method [COM], IRunningObjectTable interface, Register,IRunningObjectTable.Register, _com_irunningobjecttable_register, com.irunningobjecttable_register, objidl/IRunningObjectTable::Register
+ms.keywords: IRunningObjectTable interface [COM],Register method, IRunningObjectTable.Register, IRunningObjectTable::Register, ROTFLAGS_ALLOWANYCLIENT, ROTFLAGS_REGISTRATIONKEEPSALIVE, Register, Register method [COM], Register method [COM],IRunningObjectTable interface, _com_irunningobjecttable_register, com.irunningobjecttable_register, objidl/IRunningObjectTable::Register
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRunningObjectTable::Register method
+# IRunningObjectTable::Register
 
 
 ## -description

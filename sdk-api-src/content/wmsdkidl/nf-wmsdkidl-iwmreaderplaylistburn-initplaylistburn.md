@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.InitPlaylistBurn
-title: IWMReaderPlaylistBurn::InitPlaylistBurn method
+title: IWMReaderPlaylistBurn::InitPlaylistBurn
 author: windows-driver-content
 description: The InitPlaylistBurn method initiates the playlist burning process, by checking the files in the playlist to ensure that they are licensed for copying as part of a playlist.
 old-location: wmformat\iwmreaderplaylistburn_initplaylistburn.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a20a70af-49bc-408f-8c64-779525436f8d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderPlaylistBurn, IWMReaderPlaylistBurn interface [windows Media Format], InitPlaylistBurn method, IWMReaderPlaylistBurn::InitPlaylistBurn, IWMReaderPlaylistBurnInitPlaylistBurn, InitPlaylistBurn method [windows Media Format], InitPlaylistBurn method [windows Media Format], IWMReaderPlaylistBurn interface, InitPlaylistBurn,IWMReaderPlaylistBurn.InitPlaylistBurn, wmformat.iwmreaderplaylistburn_initplaylistburn, wmsdkidl/IWMReaderPlaylistBurn::InitPlaylistBurn
+ms.keywords: IWMReaderPlaylistBurn interface [windows Media Format],InitPlaylistBurn method, IWMReaderPlaylistBurn.InitPlaylistBurn, IWMReaderPlaylistBurn::InitPlaylistBurn, IWMReaderPlaylistBurnInitPlaylistBurn, InitPlaylistBurn, InitPlaylistBurn method [windows Media Format], InitPlaylistBurn method [windows Media Format],IWMReaderPlaylistBurn interface, wmformat.iwmreaderplaylistburn_initplaylistburn, wmsdkidl/IWMReaderPlaylistBurn::InitPlaylistBurn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderPlaylistBurn::InitPlaylistBurn method
+# IWMReaderPlaylistBurn::InitPlaylistBurn
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMetadataEditor.Flush
-title: IWMMetadataEditor::Flush method
+title: IWMMetadataEditor::Flush
 author: windows-driver-content
 description: The Flush method closes the open file, saving any changes.
 old-location: wmformat\iwmmetadataeditor_flush.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: b17992f7-ed93-4f62-bf50-8fb2fd41caee
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Flush method [windows Media Format], Flush method [windows Media Format], IWMMetadataEditor interface, Flush,IWMMetadataEditor.Flush, IWMMetadataEditor, IWMMetadataEditor interface [windows Media Format], Flush method, IWMMetadataEditor::Flush, IWMMetadataEditorFlush, wmformat.iwmmetadataeditor_flush, wmsdkidl/IWMMetadataEditor::Flush
+ms.keywords: Flush, Flush method [windows Media Format], Flush method [windows Media Format],IWMMetadataEditor interface, IWMMetadataEditor interface [windows Media Format],Flush method, IWMMetadataEditor.Flush, IWMMetadataEditor::Flush, IWMMetadataEditorFlush, wmformat.iwmmetadataeditor_flush, wmsdkidl/IWMMetadataEditor::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMMetadataEditor::Flush method
+# IWMMetadataEditor::Flush
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetDigestMethod
-title: IOpcSignaturePartReference::GetDigestMethod method
+title: IOpcSignaturePartReference::GetDigestMethod
 author: windows-driver-content
 description: Gets the digest method to use on part content of the referenced part when the part is signed.
 old-location: opc\iopcsignaturepartreference_getdigestmethod.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 750aec1a-92b4-4c70-8c17-c15c9536bc41
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetDigestMethod method [Open Packaging Conventions], GetDigestMethod method [Open Packaging Conventions], IOpcSignaturePartReference interface, GetDigestMethod,IOpcSignaturePartReference.GetDigestMethod, IOpcSignaturePartReference, IOpcSignaturePartReference interface [Open Packaging Conventions], GetDigestMethod method, IOpcSignaturePartReference::GetDigestMethod, msopc/IOpcSignaturePartReference::GetDigestMethod, opc.iopcsignaturepartreference_getdigestmethod
+ms.keywords: GetDigestMethod, GetDigestMethod method [Open Packaging Conventions], GetDigestMethod method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetDigestMethod method, IOpcSignaturePartReference.GetDigestMethod, IOpcSignaturePartReference::GetDigestMethod, msopc/IOpcSignaturePartReference::GetDigestMethod, opc.iopcsignaturepartreference_getdigestmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignaturePartReference::GetDigestMethod method
+# IOpcSignaturePartReference::GetDigestMethod
 
 
 ## -description

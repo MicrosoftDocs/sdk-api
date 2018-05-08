@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2StreamMap.MapStream
-title: ISBE2StreamMap::MapStream method
+title: ISBE2StreamMap::MapStream
 author: windows-driver-content
 description: Maps a stream to an output pin for a Stream Buffer Source filter.
 old-location: mstv\isbe2streammap_mapstream.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: efe3b21d-9664-4367-9bfe-4c02589370c4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ISBE2StreamMap, ISBE2StreamMap interface [Microsoft TV Technologies], MapStream method, ISBE2StreamMap::MapStream, MapStream method [Microsoft TV Technologies], MapStream method [Microsoft TV Technologies], ISBE2StreamMap interface, MapStream,ISBE2StreamMap.MapStream, mstv.isbe2streammap_mapstream, sbe/ISBE2StreamMap::MapStream
+ms.keywords: ISBE2StreamMap interface [Microsoft TV Technologies],MapStream method, ISBE2StreamMap.MapStream, ISBE2StreamMap::MapStream, MapStream, MapStream method [Microsoft TV Technologies], MapStream method [Microsoft TV Technologies],ISBE2StreamMap interface, mstv.isbe2streammap_mapstream, sbe/ISBE2StreamMap::MapStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISBE2StreamMap::MapStream method
+# ISBE2StreamMap::MapStream
 
 
 ## -description

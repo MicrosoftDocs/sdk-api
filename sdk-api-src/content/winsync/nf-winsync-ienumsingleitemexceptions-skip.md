@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSingleItemExceptions.Skip
-title: IEnumSingleItemExceptions::Skip method
+title: IEnumSingleItemExceptions::Skip
 author: windows-driver-content
 description: Skips the specified number of single-item exceptions.
 old-location: winsync\ienumsingleitemexceptions_skip.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 80e3bb55-b467-4fa4-bb3e-70233e5b0265
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumSingleItemExceptions, IEnumSingleItemExceptions interface [Windows Sync], Skip method, IEnumSingleItemExceptions::Skip, Skip method [Windows Sync], Skip method [Windows Sync], IEnumSingleItemExceptions interface, Skip,IEnumSingleItemExceptions.Skip, winsync.ienumsingleitemexceptions_skip, winsync/IEnumSingleItemExceptions::Skip
+ms.keywords: IEnumSingleItemExceptions interface [Windows Sync],Skip method, IEnumSingleItemExceptions.Skip, IEnumSingleItemExceptions::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSingleItemExceptions interface, winsync.ienumsingleitemexceptions_skip, winsync/IEnumSingleItemExceptions::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumSingleItemExceptions::Skip method
+# IEnumSingleItemExceptions::Skip
 
 
 ## -description

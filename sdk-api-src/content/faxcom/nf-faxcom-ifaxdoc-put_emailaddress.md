@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_EmailAddress
-title: IFaxDoc::put_EmailAddress method
+title: IFaxDoc::put_EmailAddress
 author: windows-driver-content
 description: Sets or retrieves the EmailAddress property of a FaxDoc object. The EmailAddress property is a null-terminated string that contains the email address of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_emailaddress_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7mwj.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EmailAddress property [Fax Service], EmailAddress property [Fax Service], FaxDoc object, FaxDoc object [Fax Service], EmailAddress property, IFaxDoc, IFaxDoc::put_EmailAddress, _mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress_vb, put_EmailAddress,IFaxDoc.put_EmailAddress
+ms.keywords: EmailAddress property [Fax Service], EmailAddress property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],EmailAddress property, FaxDoc.EmailAddress, IFaxDoc.put_EmailAddress, IFaxDoc::put_EmailAddress, _mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress_vb, put_EmailAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_EmailAddress method
+# IFaxDoc::put_EmailAddress
 
 
 ## -description

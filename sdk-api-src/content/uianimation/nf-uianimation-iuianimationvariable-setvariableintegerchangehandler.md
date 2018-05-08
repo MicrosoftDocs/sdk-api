@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.SetVariableIntegerChangeHandler
-title: IUIAnimationVariable::SetVariableIntegerChangeHandler method
+title: IUIAnimationVariable::SetVariableIntegerChangeHandler
 author: windows-driver-content
 description: Specifies an integer variable change handler. This handler is notified of changes to the integer value of the animation variable.
 old-location: uianimation\iuianimationvariable_setvariableintegerchangehandler.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 8dc20701-0808-4308-92fc-8be6c4b039ca
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], SetVariableIntegerChangeHandler method, IUIAnimationVariable::SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler method [Windows Animation], SetVariableIntegerChangeHandler method [Windows Animation], IUIAnimationVariable interface, SetVariableIntegerChangeHandler,IUIAnimationVariable.SetVariableIntegerChangeHandler, uianimation.iuianimationvariable_setvariableintegerchangehandler, uianimation/IUIAnimationVariable::SetVariableIntegerChangeHandler
+ms.keywords: IUIAnimationVariable interface [Windows Animation],SetVariableIntegerChangeHandler method, IUIAnimationVariable.SetVariableIntegerChangeHandler, IUIAnimationVariable::SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler method [Windows Animation], SetVariableIntegerChangeHandler method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setvariableintegerchangehandler, uianimation/IUIAnimationVariable::SetVariableIntegerChangeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable::SetVariableIntegerChangeHandler method
+# IUIAnimationVariable::SetVariableIntegerChangeHandler
 
 
 ## -description

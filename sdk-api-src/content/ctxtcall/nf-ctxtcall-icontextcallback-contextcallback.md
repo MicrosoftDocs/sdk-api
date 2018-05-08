@@ -1,6 +1,6 @@
 ---
 UID: NF:ctxtcall.IContextCallback.ContextCallback
-title: IContextCallback::ContextCallback method
+title: IContextCallback::ContextCallback
 author: windows-driver-content
 description: Enters the object context, executes the specified function, and returns.
 old-location: com\icontextcallback_contextcallback.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 7446792e-7f29-4ad4-8245-b86f63f2df18
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ContextCallback method [COM], ContextCallback method [COM], IContextCallback interface, ContextCallback,IContextCallback.ContextCallback, IContextCallback, IContextCallback interface [COM], ContextCallback method, IContextCallback::ContextCallback, _com_icontextcallback_contextcallback, com.icontextcallback_contextcallback, ctxtcall/IContextCallback::ContextCallback
+ms.keywords: ContextCallback, ContextCallback method [COM], ContextCallback method [COM],IContextCallback interface, IContextCallback interface [COM],ContextCallback method, IContextCallback.ContextCallback, IContextCallback::ContextCallback, _com_icontextcallback_contextcallback, com.icontextcallback_contextcallback, ctxtcall/IContextCallback::ContextCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IContextCallback::ContextCallback method
+# IContextCallback::ContextCallback
 
 
 ## -description

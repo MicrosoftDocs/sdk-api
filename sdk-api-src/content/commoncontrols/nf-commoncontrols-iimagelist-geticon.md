@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.GetIcon
-title: IImageList::GetIcon method
+title: IImageList::GetIcon
 author: windows-driver-content
 description: Creates an icon from an image and a mask in an image list.
 old-location: controls\IImageList_GetIcon.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\geticon.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetIcon method [Windows Controls], GetIcon method [Windows Controls], IImageList interface, GetIcon,IImageList.GetIcon, IImageList, IImageList interface [Windows Controls], GetIcon method, IImageList::GetIcon, comctl_IImageList_GetIcon, comctl_IImageList_GetIcon_cpp, commoncontrols/IImageList::GetIcon, controls.IImageList_GetIcon, controls.comctl_IImageList_GetIcon
+ms.date: 4/27/2018
+ms.keywords: GetIcon, GetIcon method [Windows Controls], GetIcon method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetIcon method, IImageList.GetIcon, IImageList::GetIcon, comctl_IImageList_GetIcon, comctl_IImageList_GetIcon_cpp, commoncontrols/IImageList::GetIcon, controls.IImageList_GetIcon, controls.comctl_IImageList_GetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::GetIcon method
+# IImageList::GetIcon
 
 
 ## -description

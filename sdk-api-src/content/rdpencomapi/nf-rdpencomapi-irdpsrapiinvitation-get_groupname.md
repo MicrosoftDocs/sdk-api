@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_GroupName
-title: IRDPSRAPIInvitation::get_GroupName method
+title: IRDPSRAPIInvitation::get_GroupName
 author: windows-driver-content
 description: The group name.
 old-location: rdp\irdpsrapiinvitation_groupname.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 7ac76417-bb5c-40ae-a22a-b322b42b0d2c
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: GroupName property [RDP], GroupName property [RDP], IRDPSRAPIInvitation interface, GroupName property [RDP], RDPSRAPIInvitation object, IRDPSRAPIInvitation, IRDPSRAPIInvitation interface [RDP], GroupName property, IRDPSRAPIInvitation.GroupName, IRDPSRAPIInvitation::get_GroupName, RDPSRAPIInvitation object [RDP], GroupName property, get_GroupName,IRDPSRAPIInvitation.get_GroupName, rdp.irdpsrapiinvitation_groupname, rdpencomapi/IRDPSRAPIInvitation::GroupName, rdpencomapi/IRDPSRAPIInvitation::get_GroupName
+ms.keywords: GroupName property [RDP], GroupName property [RDP],IRDPSRAPIInvitation interface, GroupName property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],GroupName property, IRDPSRAPIInvitation.GroupName, IRDPSRAPIInvitation.get_GroupName, IRDPSRAPIInvitation::GroupName, IRDPSRAPIInvitation::get_GroupName, RDPSRAPIInvitation object [RDP],GroupName property, get_GroupName, rdp.irdpsrapiinvitation_groupname, rdpencomapi/IRDPSRAPIInvitation::GroupName, rdpencomapi/IRDPSRAPIInvitation::get_GroupName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIInvitation::get_GroupName method
+# IRDPSRAPIInvitation::get_GroupName
 
 
 ## -description

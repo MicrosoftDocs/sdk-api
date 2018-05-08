@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIFrameBuffer.get_Width
-title: IRDPSRAPIFrameBuffer::get_Width method
+title: IRDPSRAPIFrameBuffer::get_Width
 author: windows-driver-content
 description: Width, in pixels, of the frame buffer.
 old-location: rdp\irdpsrapiframebuffer_width.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 7f54d18a-29cf-402a-a672-2d0dae1f8ce4
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], Width property, IRDPSRAPIFrameBuffer.Width, IRDPSRAPIFrameBuffer::get_Width, Width property [RDP], Width property [RDP], IRDPSRAPIFrameBuffer interface, get_Width,IRDPSRAPIFrameBuffer.get_Width, rdp.irdpsrapiframebuffer_width, rdpencomapi/IRDPSRAPIFrameBuffer::Width, rdpencomapi/IRDPSRAPIFrameBuffer::get_Width
+ms.keywords: IRDPSRAPIFrameBuffer interface [RDP],Width property, IRDPSRAPIFrameBuffer.Width, IRDPSRAPIFrameBuffer.get_Width, IRDPSRAPIFrameBuffer::Width, IRDPSRAPIFrameBuffer::get_Width, Width property [RDP], Width property [RDP],IRDPSRAPIFrameBuffer interface, get_Width, rdp.irdpsrapiframebuffer_width, rdpencomapi/IRDPSRAPIFrameBuffer::Width, rdpencomapi/IRDPSRAPIFrameBuffer::get_Width
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIFrameBuffer::get_Width method
+# IRDPSRAPIFrameBuffer::get_Width
 
 
 ## -description

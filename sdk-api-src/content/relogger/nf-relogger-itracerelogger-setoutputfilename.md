@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.SetOutputFilename
-title: ITraceRelogger::SetOutputFilename method
+title: ITraceRelogger::SetOutputFilename
 author: windows-driver-content
 description: Indicates the file to which ETW should write the new, relogged trace.
 old-location: etw\itracerelogger_setoutputfilename.htm
@@ -8,7 +8,7 @@ old-project: ETW
 ms.assetid: ed3f8bcd-88c7-4d05-a396-41ee8f35bc97
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITraceRelogger, ITraceRelogger interface [ETW], SetOutputFilename method, ITraceRelogger::SetOutputFilename, SetOutputFilename method [ETW], SetOutputFilename method [ETW], ITraceRelogger interface, SetOutputFilename,ITraceRelogger.SetOutputFilename, etw.itracerelogger_setoutputfilename, relogger/ITraceRelogger::SetOutputFilename
+ms.keywords: ITraceRelogger interface [ETW],SetOutputFilename method, ITraceRelogger.SetOutputFilename, ITraceRelogger::SetOutputFilename, SetOutputFilename, SetOutputFilename method [ETW], SetOutputFilename method [ETW],ITraceRelogger interface, etw.itracerelogger_setoutputfilename, relogger/ITraceRelogger::SetOutputFilename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceRelogger::SetOutputFilename method
+# ITraceRelogger::SetOutputFilename
 
 
 ## -description

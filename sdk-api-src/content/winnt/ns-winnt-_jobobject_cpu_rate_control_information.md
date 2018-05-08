@@ -137,6 +137,24 @@ If you set <b>JOB_OBJECT_CPU_RATE_CONTROL_MIN_MAX_RATE</b>, you can set neither 
  
 
 
+### -field DUMMYUNIONNAME.CpuRate
+
+Specifies the portion of processor cycles that the threads in a job object can use during each scheduling interval, as the number of cycles per 10,000 cycles. If the <b>ControlFlags</b> member specifies <b>JOB_OBJECT_CPU_RATE_WEIGHT_BASED</b> or <b>JOB_OBJECT_CPU_RATE_CONTROL_MIN_MAX_RATE</b>, this member is not used.
+
+Set <b>CpuRate</b> to a percentage times 100. For example, to let the job use 20% of the CPU, set <b>CpuRate</b> to 20 times 100, or 2,000.
+
+Do not set <b>CpuRate</b> to 0. If <b>CpuRate</b> is 0,  <a href="https://msdn.microsoft.com/46f7c579-e8d3-4434-a6ce-56573cd84387">SetInformationJobObject</a> returns <b>INVALID_ARGS</b>.
+
+
+### -field DUMMYUNIONNAME.Weight
+
+If the <b>ControlFlags</b> member specifies <b>JOB_OBJECT_CPU_RATE_WEIGHT_BASED</b>, this member specifies the scheduling weight of the job object, which determines the share of processor time given to the job relative to other workloads on the processor. 
+
+This member can be a value from 1 through 9, where 1 is the smallest share and 9 is the largest share. The default is 5, which should be used for most workloads.  
+
+If the <b>ControlFlags</b> member specifies <b>JOB_OBJECT_CPU_RATE_CONTROL_MIN_MAX_RATE</b>, this member is not used.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -154,24 +172,6 @@ For the minimum rates to work correctly, the sum of the minimum rates for all of
 Specifies the maximum portion of processor cycles that the threads in a job object can use during each scheduling interval. Specify this rate as a percentage times 100.  For example, to set  a maximum rate of 50%, specify 50 times 100, or  5,000.
 
 After the job reaches this limit for a scheduling interval, no threads associated with the job can run until the next scheduling interval.
-
-
-#### - CpuRate
-
-Specifies the portion of processor cycles that the threads in a job object can use during each scheduling interval, as the number of cycles per 10,000 cycles. If the <b>ControlFlags</b> member specifies <b>JOB_OBJECT_CPU_RATE_WEIGHT_BASED</b> or <b>JOB_OBJECT_CPU_RATE_CONTROL_MIN_MAX_RATE</b>, this member is not used.
-
-Set <b>CpuRate</b> to a percentage times 100. For example, to let the job use 20% of the CPU, set <b>CpuRate</b> to 20 times 100, or 2,000.
-
-Do not set <b>CpuRate</b> to 0. If <b>CpuRate</b> is 0,  <a href="https://msdn.microsoft.com/46f7c579-e8d3-4434-a6ce-56573cd84387">SetInformationJobObject</a> returns <b>INVALID_ARGS</b>.
-
-
-#### - Weight
-
-If the <b>ControlFlags</b> member specifies <b>JOB_OBJECT_CPU_RATE_WEIGHT_BASED</b>, this member specifies the scheduling weight of the job object, which determines the share of processor time given to the job relative to other workloads on the processor. 
-
-This member can be a value from 1 through 9, where 1 is the smallest share and 9 is the largest share. The default is 5, which should be used for most workloads.  
-
-If the <b>ControlFlags</b> member specifies <b>JOB_OBJECT_CPU_RATE_CONTROL_MIN_MAX_RATE</b>, this member is not used.
 
 
 ## -remarks

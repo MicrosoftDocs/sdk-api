@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestDeviceCapabilitiesEnumerator.GetHasCurrent
-title: IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent method
+title: IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent
 author: windows-driver-content
 description: Determines whether there is a device capability at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_gethascurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 52E0C961-F947-4F66-B3A0-21AB0F64C4B4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management], IAppxManifestDeviceCapabilitiesEnumerator interface, GetHasCurrent,IAppxManifestDeviceCapabilitiesEnumerator.GetHasCurrent, IAppxManifestDeviceCapabilitiesEnumerator, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management], GetHasCurrent method, IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent, appxpkg.iappxmanifestdevicecapabilitiesenumerator_gethascurrent
+ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxManifestDeviceCapabilitiesEnumerator interface, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxManifestDeviceCapabilitiesEnumerator.GetHasCurrent, IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent, appxpkg.iappxmanifestdevicecapabilitiesenumerator_gethascurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent method
+# IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent
 
 
 ## -description

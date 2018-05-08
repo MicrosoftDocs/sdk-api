@@ -71,16 +71,14 @@ Contains a Transactional NTFS (TxF) specific structure. This information should 
  
 
 
-
-
-#### - Buffer
-
-The buffer for the data.
-
-
-#### - BufferLength
+### -field DUMMYUNIONNAME.BufferLength
 
 If the buffer is not large enough, this member receives the required buffer size.
+
+
+### -field DUMMYUNIONNAME.Buffer
+
+The buffer for the data.
 
 
 ## -see-also

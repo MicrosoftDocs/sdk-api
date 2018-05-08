@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetIsClosed
-title: IXpsOMGeometryFigure::GetIsClosed method
+title: IXpsOMGeometryFigure::GetIsClosed
 author: windows-driver-content
 description: Gets a value that indicates whether the figure is closed.
 old-location: xps\ixpsomgeometryfigure_getisclosed.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f7ab38b8-b378-4804-9d07-4644161b1450
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FALSE, GetIsClosed method [XPS Documents and Packaging], GetIsClosed method [XPS Documents and Packaging], IXpsOMGeometryFigure interface, GetIsClosed,IXpsOMGeometryFigure.GetIsClosed, IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], GetIsClosed method, IXpsOMGeometryFigure::GetIsClosed, TRUE, xps.ixpsomgeometryfigure_getisclosed, xpsobjectmodel/IXpsOMGeometryFigure::GetIsClosed
+ms.keywords: FALSE, GetIsClosed, GetIsClosed method [XPS Documents and Packaging], GetIsClosed method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetIsClosed method, IXpsOMGeometryFigure.GetIsClosed, IXpsOMGeometryFigure::GetIsClosed, TRUE, xps.ixpsomgeometryfigure_getisclosed, xpsobjectmodel/IXpsOMGeometryFigure::GetIsClosed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigure::GetIsClosed method
+# IXpsOMGeometryFigure::GetIsClosed
 
 
 ## -description

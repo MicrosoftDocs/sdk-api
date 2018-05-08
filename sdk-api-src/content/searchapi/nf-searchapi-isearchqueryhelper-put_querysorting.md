@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QuerySorting
-title: ISearchQueryHelper::put_QuerySorting method
+title: ISearchQueryHelper::put_QuerySorting
 author: windows-driver-content
 description: Sets the sort order for the query result set.
 old-location: search\_search_ISearchQueryHelper_put_QuerySorting.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querysorting.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchQueryHelper, ISearchQueryHelper interface [search], put_QuerySorting method, ISearchQueryHelper::put_QuerySorting, _search_ISearchQueryHelper_put_QuerySorting, put_QuerySorting method [search], put_QuerySorting method [search], ISearchQueryHelper interface, put_QuerySorting,ISearchQueryHelper.put_QuerySorting, search._search_ISearchQueryHelper_put_QuerySorting, searchapi/ISearchQueryHelper::put_QuerySorting
+ms.date: 5/4/2018
+ms.keywords: ISearchQueryHelper interface [search],put_QuerySorting method, ISearchQueryHelper.put_QuerySorting, ISearchQueryHelper::put_QuerySorting, _search_ISearchQueryHelper_put_QuerySorting, put_QuerySorting, put_QuerySorting method [search], put_QuerySorting method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QuerySorting, searchapi/ISearchQueryHelper::put_QuerySorting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchQueryHelper::put_QuerySorting method
+# ISearchQueryHelper::put_QuerySorting
 
 
 ## -description

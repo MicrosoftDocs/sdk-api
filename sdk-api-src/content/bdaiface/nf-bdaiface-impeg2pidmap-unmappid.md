@@ -1,14 +1,14 @@
 ---
 UID: NF:bdaiface.IMPEG2PIDMap.UnmapPID
-title: IMPEG2PIDMap::UnmapPID method
+title: IMPEG2PIDMap::UnmapPID
 author: windows-driver-content
 description: The UnmapPID method unmaps one or more PIDs.
 old-location: dshow\impeg2pidmap_unmappid.htm
 old-project: DirectShow
 ms.assetid: 1ad866c7-672e-4f96-a384-bbf78a78b8f5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMPEG2PIDMap, IMPEG2PIDMap interface [DirectShow], UnmapPID method, IMPEG2PIDMap::UnmapPID, IMPEG2PIDMapUnmapPID, UnmapPID method [DirectShow], UnmapPID method [DirectShow], IMPEG2PIDMap interface, UnmapPID,IMPEG2PIDMap.UnmapPID, bdaiface/IMPEG2PIDMap::UnmapPID, dshow.impeg2pidmap_unmappid
+ms.date: 4/30/2018
+ms.keywords: IMPEG2PIDMap interface [DirectShow],UnmapPID method, IMPEG2PIDMap.UnmapPID, IMPEG2PIDMap::UnmapPID, IMPEG2PIDMapUnmapPID, UnmapPID, UnmapPID method [DirectShow], UnmapPID method [DirectShow],IMPEG2PIDMap interface, bdaiface/IMPEG2PIDMap::UnmapPID, dshow.impeg2pidmap_unmappid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMPEG2PIDMap::UnmapPID method
+# IMPEG2PIDMap::UnmapPID
 
 
 ## -description

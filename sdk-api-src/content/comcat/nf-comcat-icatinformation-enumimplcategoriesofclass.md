@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.ICatInformation.EnumImplCategoriesOfClass
-title: ICatInformation::EnumImplCategoriesOfClass method
+title: ICatInformation::EnumImplCategoriesOfClass
 author: windows-driver-content
 description: Retrieves an enumerator for the CATIDs implemented by the specified class.
 old-location: com\icatinformation_enumimplcategoriesofclass.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 82d938b0-c05d-4bd9-b33f-c7944ed1399b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: EnumImplCategoriesOfClass method [COM], EnumImplCategoriesOfClass method [COM], ICatInformation interface, EnumImplCategoriesOfClass,ICatInformation.EnumImplCategoriesOfClass, ICatInformation, ICatInformation interface [COM], EnumImplCategoriesOfClass method, ICatInformation::EnumImplCategoriesOfClass, _com_icatinformation_enumimplcategoriesofclass, com.icatinformation_enumimplcategoriesofclass, comcat/ICatInformation::EnumImplCategoriesOfClass
+ms.keywords: EnumImplCategoriesOfClass, EnumImplCategoriesOfClass method [COM], EnumImplCategoriesOfClass method [COM],ICatInformation interface, ICatInformation interface [COM],EnumImplCategoriesOfClass method, ICatInformation.EnumImplCategoriesOfClass, ICatInformation::EnumImplCategoriesOfClass, _com_icatinformation_enumimplcategoriesofclass, com.icatinformation_enumimplcategoriesofclass, comcat/ICatInformation::EnumImplCategoriesOfClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICatInformation::EnumImplCategoriesOfClass method
+# ICatInformation::EnumImplCategoriesOfClass
 
 
 ## -description

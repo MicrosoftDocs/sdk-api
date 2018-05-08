@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems
-title: IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems method
+title: IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems
 author: windows-driver-content
 description: Retrieves optional packages in the bundle.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfo_getpackageinfoitems.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 6D5028BF-7C74-4F74-9600-0A423FDC6E85
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPackageInfoItems method [App packaging and management], GetPackageInfoItems method [App packaging and management], IAppxBundleManifestOptionalBundleInfo interface, GetPackageInfoItems,IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems, IAppxBundleManifestOptionalBundleInfo, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management], GetPackageInfoItems method, IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems, appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems, appxpkg.iappxbundlemanifestoptionalbundleinfo_getpackageinfoitems
+ms.keywords: GetPackageInfoItems, GetPackageInfoItems method [App packaging and management], GetPackageInfoItems method [App packaging and management],IAppxBundleManifestOptionalBundleInfo interface, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],GetPackageInfoItems method, IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems, IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems, appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems, appxpkg.iappxbundlemanifestoptionalbundleinfo_getpackageinfoitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems method
+# IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems
 
 
 ## -description

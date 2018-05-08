@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContact.GetPath
-title: IContact::GetPath method
+title: IContact::GetPath
 author: windows-driver-content
 description: Retrieves the file system path used to load this contact.
 old-location: wincontacts\_wincontacts_IContact_GetPath.htm
@@ -8,7 +8,7 @@ old-project: wincontacts
 ms.assetid: 4b037961-f2a4-4e75-a664-d70257bed426
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetPath method [Windows Contacts], GetPath method [Windows Contacts], IContact interface, GetPath,IContact.GetPath, IContact, IContact interface [Windows Contacts], GetPath method, IContact::GetPath, _wincontacts_IContact_GetPath, icontact/IContact::GetPath, wincontacts._wincontacts_IContact_GetPath
+ms.keywords: GetPath, GetPath method [Windows Contacts], GetPath method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],GetPath method, IContact.GetPath, IContact::GetPath, _wincontacts_IContact_GetPath, icontact/IContact::GetPath, wincontacts._wincontacts_IContact_GetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IContact::GetPath method
+# IContact::GetPath
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDScopeMatchingRule.GetScopeRule
-title: IWSDScopeMatchingRule::GetScopeRule method
+title: IWSDScopeMatchingRule::GetScopeRule
 author: windows-driver-content
 description: Is called to return a URI defining the implemented scope matching rule.
 old-location: ncd\iwsdscopematchingrule_getscoperule_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 86ce14eb-555f-4575-a335-8a428cffa20d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetScopeRule method, GetScopeRule method, IWSDScopeMatchingRule interface, GetScopeRule,IWSDScopeMatchingRule.GetScopeRule, IWSDScopeMatchingRule, IWSDScopeMatchingRule interface, GetScopeRule method, IWSDScopeMatchingRule::GetScopeRule, ncd.iwsdscopematchingrule_getscoperule_method, wsddisco/IWSDScopeMatchingRule::GetScopeRule
+ms.keywords: GetScopeRule, GetScopeRule method, GetScopeRule method,IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,GetScopeRule method, IWSDScopeMatchingRule.GetScopeRule, IWSDScopeMatchingRule::GetScopeRule, ncd.iwsdscopematchingrule_getscoperule_method, wsddisco/IWSDScopeMatchingRule::GetScopeRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDScopeMatchingRule::GetScopeRule method
+# IWSDScopeMatchingRule::GetScopeRule
 
 
 ## -description

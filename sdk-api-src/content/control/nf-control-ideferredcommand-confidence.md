@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IDeferredCommand.Confidence
-title: IDeferredCommand::Confidence method
+title: IDeferredCommand::Confidence
 author: windows-driver-content
 description: The Confidence method retrieves a confidence value that indicates how likely it is for the command to be invoked at the requested time.
 old-location: dshow\ideferredcommand_confidence.htm
 old-project: DirectShow
 ms.assetid: fb3e97a5-b9bc-4a72-9ee7-0a6292fad99d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Confidence method [DirectShow], Confidence method [DirectShow], IDeferredCommand interface, Confidence,IDeferredCommand.Confidence, IDeferredCommand, IDeferredCommand interface [DirectShow], Confidence method, IDeferredCommand::Confidence, IDeferredCommandConfidence, control/IDeferredCommand::Confidence, dshow.ideferredcommand_confidence
+ms.date: 4/30/2018
+ms.keywords: Confidence, Confidence method [DirectShow], Confidence method [DirectShow],IDeferredCommand interface, IDeferredCommand interface [DirectShow],Confidence method, IDeferredCommand.Confidence, IDeferredCommand::Confidence, IDeferredCommandConfidence, control/IDeferredCommand::Confidence, dshow.ideferredcommand_confidence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDeferredCommand::Confidence method
+# IDeferredCommand::Confidence
 
 
 ## -description

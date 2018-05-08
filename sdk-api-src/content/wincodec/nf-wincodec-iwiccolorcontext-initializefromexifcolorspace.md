@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICColorContext.InitializeFromExifColorSpace
-title: IWICColorContext::InitializeFromExifColorSpace method
+title: IWICColorContext::InitializeFromExifColorSpace
 author: windows-driver-content
 description: Initializes the color context using an Exchangeable Image File (EXIF) color space.
 old-location: wic\_wic_codec_iwiccolorcontext_initializefromexifcolorspace.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: af85abf2-e1cc-4443-9726-a422ba363f71
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICColorContext, IWICColorContext interface [Windows Imaging Component], InitializeFromExifColorSpace method, IWICColorContext::InitializeFromExifColorSpace, InitializeFromExifColorSpace method [Windows Imaging Component], InitializeFromExifColorSpace method [Windows Imaging Component], IWICColorContext interface, InitializeFromExifColorSpace,IWICColorContext.InitializeFromExifColorSpace, _wic_codec_iwiccolorcontext_initializefromexifcolorspace, wic._wic_codec_iwiccolorcontext_initializefromexifcolorspace, wincodec/IWICColorContext::InitializeFromExifColorSpace
+ms.keywords: IWICColorContext interface [Windows Imaging Component],InitializeFromExifColorSpace method, IWICColorContext.InitializeFromExifColorSpace, IWICColorContext::InitializeFromExifColorSpace, InitializeFromExifColorSpace, InitializeFromExifColorSpace method [Windows Imaging Component], InitializeFromExifColorSpace method [Windows Imaging Component],IWICColorContext interface, _wic_codec_iwiccolorcontext_initializefromexifcolorspace, wic._wic_codec_iwiccolorcontext_initializefromexifcolorspace, wincodec/IWICColorContext::InitializeFromExifColorSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICColorContext::InitializeFromExifColorSpace method
+# IWICColorContext::InitializeFromExifColorSpace
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Resource.Unmap
-title: ID3D12Resource::Unmap method
+title: ID3D12Resource::Unmap
 author: windows-driver-content
 description: Invalidates the CPU pointer to the specified subresource in the resource. Unmap also flushes the CPU cache, when necessary, so that GPU reads to this address reflect any modifications made by the CPU.
 old-location: direct3d12\id3d12resource_unmap.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: EB0E3936-47CC-4FDC-BF17-A506AC8E4C15
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12Resource, ID3D12Resource interface, Unmap method, ID3D12Resource::Unmap, Unmap method, Unmap method, ID3D12Resource interface, Unmap,ID3D12Resource.Unmap, d3d12/ID3D12Resource::Unmap, direct3d12.id3d12resource_unmap
+ms.keywords: ID3D12Resource interface,Unmap method, ID3D12Resource.Unmap, ID3D12Resource::Unmap, Unmap, Unmap method, Unmap method,ID3D12Resource interface, d3d12/ID3D12Resource::Unmap, direct3d12.id3d12resource_unmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Resource::Unmap method
+# ID3D12Resource::Unmap
 
 
 ## -description

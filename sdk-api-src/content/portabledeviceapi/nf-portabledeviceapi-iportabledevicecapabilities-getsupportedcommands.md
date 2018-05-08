@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedCommands
-title: IPortableDeviceCapabilities::GetSupportedCommands method
+title: IPortableDeviceCapabilities::GetSupportedCommands
 author: windows-driver-content
 description: The GetSupportedCommands method retrieves a list of all the supported commands for this device.
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedcommands.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 974b16c7-27a0-40a6-8941-e93293a69b48
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetSupportedCommands method [Windows Portable Devices SDK], GetSupportedCommands method [Windows Portable Devices SDK], IPortableDeviceCapabilities interface, GetSupportedCommands,IPortableDeviceCapabilities.GetSupportedCommands, IPortableDeviceCapabilities, IPortableDeviceCapabilities interface [Windows Portable Devices SDK], GetSupportedCommands method, IPortableDeviceCapabilities::GetSupportedCommands, IPortableDeviceCapabilitiesGetSupportedCommands, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedCommands, wpdsdk.iportabledevicecapabilities_getsupportedcommands
+ms.keywords: GetSupportedCommands, GetSupportedCommands method [Windows Portable Devices SDK], GetSupportedCommands method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedCommands method, IPortableDeviceCapabilities.GetSupportedCommands, IPortableDeviceCapabilities::GetSupportedCommands, IPortableDeviceCapabilitiesGetSupportedCommands, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedCommands, wpdsdk.iportabledevicecapabilities_getsupportedcommands
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceCapabilities::GetSupportedCommands method
+# IPortableDeviceCapabilities::GetSupportedCommands
 
 
 ## -description

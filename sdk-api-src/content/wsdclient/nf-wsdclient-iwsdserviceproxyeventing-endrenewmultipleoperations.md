@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.EndRenewMultipleOperations
-title: IWSDServiceProxyEventing::EndRenewMultipleOperations method
+title: IWSDServiceProxyEventing::EndRenewMultipleOperations
 author: windows-driver-content
 description: Completes an asynchronous operation that renews a collection of existing notification subscriptions by submitting a new duration.
 old-location: ncd\iwsdserviceproxyeventing_endrenewmultipleoperations.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: fb5be204-a775-4abb-af5b-9a829b69fa14
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EndRenewMultipleOperations method, EndRenewMultipleOperations method, IWSDServiceProxyEventing interface, EndRenewMultipleOperations,IWSDServiceProxyEventing.EndRenewMultipleOperations, IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, EndRenewMultipleOperations method, IWSDServiceProxyEventing::EndRenewMultipleOperations, ncd.iwsdserviceproxyeventing_endrenewmultipleoperations, wsdclient/IWSDServiceProxyEventing::EndRenewMultipleOperations
+ms.keywords: EndRenewMultipleOperations, EndRenewMultipleOperations method, EndRenewMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndRenewMultipleOperations method, IWSDServiceProxyEventing.EndRenewMultipleOperations, IWSDServiceProxyEventing::EndRenewMultipleOperations, ncd.iwsdserviceproxyeventing_endrenewmultipleoperations, wsdclient/IWSDServiceProxyEventing::EndRenewMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxyEventing::EndRenewMultipleOperations method
+# IWSDServiceProxyEventing::EndRenewMultipleOperations
 
 
 ## -description

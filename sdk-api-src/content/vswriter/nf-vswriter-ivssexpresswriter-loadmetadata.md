@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssExpressWriter.LoadMetadata
-title: IVssExpressWriter::LoadMetadata method
+title: IVssExpressWriter::LoadMetadata
 author: windows-driver-content
 description: Causes VSS to load the writer's metadata from a string instead of the express writer metadata store.
 old-location: base\ivssexpresswriter_load.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 2b670278-4589-47b7-a9ad-a24187c39945
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssExpressWriter, IVssExpressWriter interface, LoadMetadata method, IVssExpressWriter::LoadMetadata, LoadMetadata method, LoadMetadata method, IVssExpressWriter interface, LoadMetadata,IVssExpressWriter.LoadMetadata, base.ivssexpresswriter_load, vswriter/IVssExpressWriter::LoadMetadata
+ms.keywords: IVssExpressWriter interface,LoadMetadata method, IVssExpressWriter.LoadMetadata, IVssExpressWriter::LoadMetadata, LoadMetadata, LoadMetadata method, LoadMetadata method,IVssExpressWriter interface, base.ivssexpresswriter_load, vswriter/IVssExpressWriter::LoadMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssExpressWriter::LoadMetadata method
+# IVssExpressWriter::LoadMetadata
 
 
 ## -description

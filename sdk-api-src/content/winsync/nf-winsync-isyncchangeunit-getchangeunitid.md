@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeUnit.GetChangeUnitId
-title: ISyncChangeUnit::GetChangeUnitId method
+title: ISyncChangeUnit::GetChangeUnitId
 author: windows-driver-content
 description: Retrieves the ID for this change unit.
 old-location: winsync\isyncchangeunit_getchangeunitid.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 956f2d51-3b14-4bbd-8a29-6d63aa3c344f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync], ISyncChangeUnit interface, GetChangeUnitId,ISyncChangeUnit.GetChangeUnitId, ISyncChangeUnit, ISyncChangeUnit interface [Windows Sync], GetChangeUnitId method, ISyncChangeUnit::GetChangeUnitId, winsync.isyncchangeunit_getchangeunitid, winsync/ISyncChangeUnit::GetChangeUnitId
+ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],ISyncChangeUnit interface, ISyncChangeUnit interface [Windows Sync],GetChangeUnitId method, ISyncChangeUnit.GetChangeUnitId, ISyncChangeUnit::GetChangeUnitId, winsync.isyncchangeunit_getchangeunitid, winsync/ISyncChangeUnit::GetChangeUnitId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeUnit::GetChangeUnitId method
+# ISyncChangeUnit::GetChangeUnitId
 
 
 ## -description

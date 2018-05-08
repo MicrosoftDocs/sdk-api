@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d6afaf69-5c1b-4f7f-a3cf-51268d6bc2b5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidFilePlayback, IMSVidFilePlayback interface [Microsoft TV Technologies], IMSVidFilePlayback interface [Microsoft TV Technologies], described, IMSVidFilePlaybackInterface, mstv.imsvidfileplayback, segment/IMSVidFilePlayback
+ms.keywords: IMSVidFilePlayback, IMSVidFilePlayback interface [Microsoft TV Technologies], IMSVidFilePlayback interface [Microsoft TV Technologies],described, IMSVidFilePlaybackInterface, mstv.imsvidfileplayback, segment/IMSVidFilePlayback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

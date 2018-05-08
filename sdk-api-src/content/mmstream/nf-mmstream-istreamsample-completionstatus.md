@@ -1,14 +1,14 @@
 ---
 UID: NF:mmstream.IStreamSample.CompletionStatus
-title: IStreamSample::CompletionStatus method
+title: IStreamSample::CompletionStatus
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the status of the current sample's latest asynchronous update. If the update isn't complete, you can force it to complete.
 old-location: dshow\istreamsample_completionstatus.htm
 old-project: DirectShow
 ms.assetid: bfc3fd16-20b1-4581-abb0-66781aa3d584
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CompletionStatus method [DirectShow], CompletionStatus method [DirectShow], IStreamSample interface, CompletionStatus,IStreamSample.CompletionStatus, IStreamSample, IStreamSample interface [DirectShow], CompletionStatus method, IStreamSample::CompletionStatus, IStreamSampleCompletionStatus, dshow.istreamsample_completionstatus, mmstream/IStreamSample::CompletionStatus
+ms.date: 4/30/2018
+ms.keywords: CompletionStatus, CompletionStatus method [DirectShow], CompletionStatus method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],CompletionStatus method, IStreamSample.CompletionStatus, IStreamSample::CompletionStatus, IStreamSampleCompletionStatus, dshow.istreamsample_completionstatus, mmstream/IStreamSample::CompletionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IStreamSample::CompletionStatus method
+# IStreamSample::CompletionStatus
 
 
 ## -description

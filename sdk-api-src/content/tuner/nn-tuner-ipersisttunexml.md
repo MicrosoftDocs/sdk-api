@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2e08f727-9ffe-435b-9eca-4e9867fe410b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IPersistTuneXml, IPersistTuneXml interface [Microsoft TV Technologies], IPersistTuneXml interface [Microsoft TV Technologies], described, mstv.ipersisttunexml, tuner/IPersistTuneXml
+ms.keywords: IPersistTuneXml, IPersistTuneXml interface [Microsoft TV Technologies], IPersistTuneXml interface [Microsoft TV Technologies],described, mstv.ipersisttunexml, tuner/IPersistTuneXml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

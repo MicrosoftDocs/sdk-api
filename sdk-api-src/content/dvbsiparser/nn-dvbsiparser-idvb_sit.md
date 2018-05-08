@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f278d942-a450-4a01-998d-4dac1c8a1fcc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVB_SIT, IDVB_SIT interface [Microsoft TV Technologies], IDVB_SIT interface [Microsoft TV Technologies], described, IDVB_SITInterface, dvbsiparser/IDVB_SIT, mstv.idvb_sit
+ms.keywords: IDVB_SIT, IDVB_SIT interface [Microsoft TV Technologies], IDVB_SIT interface [Microsoft TV Technologies],described, IDVB_SITInterface, dvbsiparser/IDVB_SIT, mstv.idvb_sit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComAppEvents.OnAppShutdown
-title: IComAppEvents::OnAppShutdown method
+title: IComAppEvents::OnAppShutdown
 author: windows-driver-content
 description: Generated when an application server shuts down.
 old-location: cos\icomappevents_onappshutdown.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: d4e35147-48c4-4c77-a648-ffd317aa7861
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComAppEvents, IComAppEvents interface [COM+], OnAppShutdown method, IComAppEvents::OnAppShutdown, OnAppShutdown method [COM+], OnAppShutdown method [COM+], IComAppEvents interface, OnAppShutdown,IComAppEvents.OnAppShutdown, _dtc_IComAppEvents_OnAppShutdown, comsvcs/IComAppEvents::OnAppShutdown, cos.icomappevents_onappshutdown
+ms.keywords: IComAppEvents interface [COM+],OnAppShutdown method, IComAppEvents.OnAppShutdown, IComAppEvents::OnAppShutdown, OnAppShutdown, OnAppShutdown method [COM+], OnAppShutdown method [COM+],IComAppEvents interface, _dtc_IComAppEvents_OnAppShutdown, comsvcs/IComAppEvents::OnAppShutdown, cos.icomappevents_onappshutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComAppEvents::OnAppShutdown method
+# IComAppEvents::OnAppShutdown
 
 
 ## -description

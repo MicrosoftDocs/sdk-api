@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.EndGetMetadata
-title: IWSDServiceProxy::EndGetMetadata method
+title: IWSDServiceProxy::EndGetMetadata
 author: windows-driver-content
 description: Completes the asynchronous metadata exchange request and retrieves the service metadata from the response.
 old-location: ncd\iwsdserviceproxy_endgetmetadata.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 6024770a-e4cb-4db1-9767-51b559fd8244
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EndGetMetadata method, EndGetMetadata method, IWSDServiceProxy interface, EndGetMetadata,IWSDServiceProxy.EndGetMetadata, IWSDServiceProxy, IWSDServiceProxy interface, EndGetMetadata method, IWSDServiceProxy::EndGetMetadata, ncd.iwsdserviceproxy_endgetmetadata, wsdclient/IWSDServiceProxy::EndGetMetadata
+ms.keywords: EndGetMetadata, EndGetMetadata method, EndGetMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,EndGetMetadata method, IWSDServiceProxy.EndGetMetadata, IWSDServiceProxy::EndGetMetadata, ncd.iwsdserviceproxy_endgetmetadata, wsdclient/IWSDServiceProxy::EndGetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxy::EndGetMetadata method
+# IWSDServiceProxy::EndGetMetadata
 
 
 ## -description

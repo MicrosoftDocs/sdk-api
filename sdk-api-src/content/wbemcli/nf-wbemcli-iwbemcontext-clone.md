@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemContext.Clone
-title: IWbemContext::Clone method
+title: IWbemContext::Clone
 author: windows-driver-content
 description: The IWbemContext::Clone method makes a logical copy of the current IWbemContext object. This method can be useful when many calls must be made which have largely identical IWbemContext objects.
 old-location: wmi\iwbemcontext_clone.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: a832f4b0-a450-4f74-a6ec-d205f57c1656
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation], IWbemContext interface, Clone,IWbemContext.Clone, IWbemContext, IWbemContext interface [Windows Management Instrumentation], Clone method, IWbemContext::Clone, _hmm_iwbemcontext_clone, wbemcli/IWbemContext::Clone, wmi.iwbemcontext_clone
+ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],Clone method, IWbemContext.Clone, IWbemContext::Clone, _hmm_iwbemcontext_clone, wbemcli/IWbemContext::Clone, wmi.iwbemcontext_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemContext::Clone method
+# IWbemContext::Clone
 
 
 ## -description

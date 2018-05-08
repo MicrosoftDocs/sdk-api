@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 2ed206a6-22e0-4131-92ce-29536ad65c6c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IMonthlyTrigger, IMonthlyTrigger interface [Task Scheduler], IMonthlyTrigger interface [Task Scheduler], described, monthly trigger [Task Scheduler], interface, taskschd.imonthlytrigger, taskschd/IMonthlyTrigger
+ms.keywords: IMonthlyTrigger, IMonthlyTrigger interface [Task Scheduler], IMonthlyTrigger interface [Task Scheduler],described, monthly trigger [Task Scheduler],interface, taskschd.imonthlytrigger, taskschd/IMonthlyTrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -71,63 +71,63 @@ Type: <b><a href="https://msdn.microsoft.com/2c2a6a68-179a-478b-bd86-c023a387601
 The resource type of the view. See <a href="https://msdn.microsoft.com/2c2a6a68-179a-478b-bd86-c023a387601d">D3D10_SRV_DIMENSION</a>. This should be the same as the resource type of the underlying resource. This parameter also determines which _SRV to use in the union below.
 
 
-#### - Buffer
+### -field Buffer
 
 Type: <b><a href="https://msdn.microsoft.com/9b43f2c1-7b5d-4b86-9640-9e347765519b">D3D10_BUFFER_SRV</a></b>
 
 View the resource as a buffer using information from a shader-resource view (see <a href="https://msdn.microsoft.com/9b43f2c1-7b5d-4b86-9640-9e347765519b">D3D10_BUFFER_SRV</a>).
 
 
-#### - Texture1D
+### -field Texture1D
 
 Type: <b><a href="https://msdn.microsoft.com/be75a2ad-9beb-4382-b9e7-b95f61b9f632">D3D10_TEX1D_SRV</a></b>
 
 View the resource as a 1D texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/be75a2ad-9beb-4382-b9e7-b95f61b9f632">D3D10_TEX1D_SRV</a>).
 
 
-#### - Texture1DArray
+### -field Texture1DArray
 
 Type: <b><a href="https://msdn.microsoft.com/6c016137-4c0f-4ef8-9a2c-8c4c749d1d44">D3D10_TEX1D_ARRAY_SRV</a></b>
 
 View the resource as a 1D-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/6c016137-4c0f-4ef8-9a2c-8c4c749d1d44">D3D10_TEX1D_ARRAY_SRV</a>.
 
 
-#### - Texture2D
+### -field Texture2D
 
 Type: <b><a href="https://msdn.microsoft.com/f567e9a6-90b9-4eb7-b50c-928846d6c3bc">D3D10_TEX2D_SRV</a></b>
 
 View the resource as a 2D-texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/f567e9a6-90b9-4eb7-b50c-928846d6c3bc">D3D10_TEX2D_SRV</a>.
 
 
-#### - Texture2DArray
+### -field Texture2DArray
 
 Type: <b><a href="https://msdn.microsoft.com/0382f49e-8021-4c45-b2a2-3f2a6951b444">D3D10_TEX2D_ARRAY_SRV</a></b>
 
 View the resource as a 2D-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/0382f49e-8021-4c45-b2a2-3f2a6951b444">D3D10_TEX2D_ARRAY_SRV</a>.
 
 
-#### - Texture2DMS
+### -field Texture2DMS
 
 Type: <b><a href="https://msdn.microsoft.com/1081fc21-46ab-4685-aeda-3af40f41a330">D3D10_TEX2DMS_SRV</a></b>
 
 View the resource as a 2D-multisampled texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/1081fc21-46ab-4685-aeda-3af40f41a330">D3D10_TEX2DMS_SRV</a>.
 
 
-#### - Texture2DMSArray
+### -field Texture2DMSArray
 
 Type: <b><a href="https://msdn.microsoft.com/c41109ef-9f23-441a-9c08-60b791580c16">D3D10_TEX2DMS_ARRAY_SRV</a></b>
 
 View the resource as a 2D-multisampled-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/c41109ef-9f23-441a-9c08-60b791580c16">D3D10_TEX2DMS_ARRAY_SRV</a>.
 
 
-#### - Texture3D
+### -field Texture3D
 
 Type: <b><a href="https://msdn.microsoft.com/0e4b1785-d40a-42a7-959d-3a2fcddcf0ed">D3D10_TEX3D_SRV</a></b>
 
 View the resource as a 3D texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/0e4b1785-d40a-42a7-959d-3a2fcddcf0ed">D3D10_TEX3D_SRV</a>.
 
 
-#### - TextureCube
+### -field TextureCube
 
 Type: <b><a href="https://msdn.microsoft.com/98e405d0-9a84-41b5-b647-cce29569da96">D3D10_TEXCUBE_SRV</a></b>
 

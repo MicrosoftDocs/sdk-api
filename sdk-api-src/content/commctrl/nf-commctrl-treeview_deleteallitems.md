@@ -7,7 +7,7 @@ old-location: controls\TreeView_DeleteAllItems.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_deleteallitems.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: TreeView_DeleteAllItems, TreeView_DeleteAllItems macro [Windows Controls], _win32_TreeView_DeleteAllItems, _win32_TreeView_DeleteAllItems_cpp, commctrl/TreeView_DeleteAllItems, controls.TreeView_DeleteAllItems, controls._win32_TreeView_DeleteAllItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

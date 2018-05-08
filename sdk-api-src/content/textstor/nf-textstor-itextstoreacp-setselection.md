@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.SetSelection
-title: ITextStoreACP::SetSelection method
+title: ITextStoreACP::SetSelection
 author: windows-driver-content
 description: The ITextStoreACP::SetSelection method selects text within the document. The application must have a read/write lock on the document before calling this method.
 old-location: tsf\itextstoreacp_setselection.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: e9151b63-2ca7-4995-a36b-b919ab2d491a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACP, ITextStoreACP interface [Text Services Framework], SetSelection method, ITextStoreACP::SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework], ITextStoreACP interface, SetSelection,ITextStoreACP.SetSelection, _tsf_itextstoreacp_setselection_ref, textstor/ITextStoreACP::SetSelection, tsf.itextstoreacp_setselection
+ms.keywords: ITextStoreACP interface [Text Services Framework],SetSelection method, ITextStoreACP.SetSelection, ITextStoreACP::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_setselection_ref, textstor/ITextStoreACP::SetSelection, tsf.itextstoreacp_setselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP::SetSelection method
+# ITextStoreACP::SetSelection
 
 
 ## -description

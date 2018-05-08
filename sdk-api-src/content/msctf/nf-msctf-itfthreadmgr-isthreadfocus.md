@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.IsThreadFocus
-title: ITfThreadMgr::IsThreadFocus method
+title: ITfThreadMgr::IsThreadFocus
 author: windows-driver-content
 description: ITfThreadMgr::IsThreadFocus method
 old-location: tsf\itfthreadmgr_isthreadfocus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: fa753a4d-4f78-45e0-b711-c294adbb307a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfThreadMgr, ITfThreadMgr interface [Text Services Framework], IsThreadFocus method, ITfThreadMgr::IsThreadFocus, IsThreadFocus method [Text Services Framework], IsThreadFocus method [Text Services Framework], ITfThreadMgr interface, IsThreadFocus,ITfThreadMgr.IsThreadFocus, _tsf_itfthreadmgr_isthreadfocus_ref, msctf/ITfThreadMgr::IsThreadFocus, tsf.itfthreadmgr_isthreadfocus
+ms.keywords: ITfThreadMgr interface [Text Services Framework],IsThreadFocus method, ITfThreadMgr.IsThreadFocus, ITfThreadMgr::IsThreadFocus, IsThreadFocus, IsThreadFocus method [Text Services Framework], IsThreadFocus method [Text Services Framework],ITfThreadMgr interface, _tsf_itfthreadmgr_isthreadfocus_ref, msctf/ITfThreadMgr::IsThreadFocus, tsf.itfthreadmgr_isthreadfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr::IsThreadFocus method
+# ITfThreadMgr::IsThreadFocus
 
 
 ## -description

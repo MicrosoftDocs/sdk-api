@@ -7,7 +7,7 @@ old-location: security\cert_selectui_input.htm
 old-project: SecCrypto
 ms.assetid: 8953cddd-86b6-4781-8dca-b5fd3d298bc8
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCERT_SELECTUI_INPUT, CERT_SELECTUI_INPUT, CERT_SELECTUI_INPUT structure [Security], PCERT_SELECTUI_INPUT, PCERT_SELECTUI_INPUT structure pointer [Security], cryptuiapi/CERT_SELECTUI_INPUT, cryptuiapi/PCERT_SELECTUI_INPUT, security.cert_selectui_input"
 ms.prod: windows-hardware
 ms.technology: windows-devices

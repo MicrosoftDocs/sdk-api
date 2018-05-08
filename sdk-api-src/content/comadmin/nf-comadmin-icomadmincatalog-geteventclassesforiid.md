@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.GetEventClassesForIID
-title: ICOMAdminCatalog::GetEventClassesForIID method
+title: ICOMAdminCatalog::GetEventClassesForIID
 author: windows-driver-content
 description: Retrieves a list of the event classes registered on the computer that implement a specified interface.
 old-location: cos\icomadmincatalog_geteventclassesforiid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 9f1a77ef-3dfd-4402-a05a-9cb4fd50dbd8
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetEventClassesForIID method [COM+], GetEventClassesForIID method [COM+], ICOMAdminCatalog interface, GetEventClassesForIID,ICOMAdminCatalog.GetEventClassesForIID, ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], GetEventClassesForIID method, ICOMAdminCatalog::GetEventClassesForIID, _cos_ICOMAdminCatalog_GetEventClassesForIID, comadmin/ICOMAdminCatalog::GetEventClassesForIID, cos.icomadmincatalog_geteventclassesforiid
+ms.keywords: GetEventClassesForIID, GetEventClassesForIID method [COM+], GetEventClassesForIID method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetEventClassesForIID method, ICOMAdminCatalog.GetEventClassesForIID, ICOMAdminCatalog::GetEventClassesForIID, _cos_ICOMAdminCatalog_GetEventClassesForIID, comadmin/ICOMAdminCatalog::GetEventClassesForIID, cos.icomadmincatalog_geteventclassesforiid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::GetEventClassesForIID method
+# ICOMAdminCatalog::GetEventClassesForIID
 
 
 ## -description

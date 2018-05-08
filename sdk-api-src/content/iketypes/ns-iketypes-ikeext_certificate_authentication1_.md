@@ -83,6 +83,24 @@ Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_
 See <a href="https://msdn.microsoft.com/820da66b-670e-490e-bba4-c2b0afb6dfd1">IKEEXT_CERT_ROOT_CONFIG0</a> for more information.
 
 
+### -field inboundEnterpriseStoreConfig
+
+Enterprise store configuration for verifying the peer certificate chain.
+
+Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ENTERPRISE_STORE</b>.
+
+See <a href="https://msdn.microsoft.com/820da66b-670e-490e-bba4-c2b0afb6dfd1">IKEEXT_CERT_ROOT_CONFIG0</a> for more information.
+
+
+### -field inboundTrustedRootStoreConfig
+
+Trusted root store configuration for verifying the peer certificate chain.
+
+Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE</b>.
+
+See <a href="https://msdn.microsoft.com/820da66b-670e-490e-bba4-c2b0afb6dfd1">IKEEXT_CERT_ROOT_CONFIG0</a> for more information.
+
+
 ### -field outboundConfigType
 
 Certificate configuration type for outbound local certificate verification.
@@ -102,6 +120,24 @@ Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_EXPLICIT_TRUST
 Explicit trust list for selecting a certificate chain to send to the peer.
 
 Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST</b>.
+
+See <a href="https://msdn.microsoft.com/820da66b-670e-490e-bba4-c2b0afb6dfd1">IKEEXT_CERT_ROOT_CONFIG0</a> for more information.
+
+
+### -field outboundEnterpriseStoreConfig
+
+Enterprise store configuration for selecting  the certificate chain.
+
+Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ENTERPRISE_STORE</b>.
+
+See <a href="https://msdn.microsoft.com/820da66b-670e-490e-bba4-c2b0afb6dfd1">IKEEXT_CERT_ROOT_CONFIG0</a> for more information.
+
+
+### -field outboundTrustedRootStoreConfig
+
+Trusted root store configuration for selecting the certificate chain.
+
+Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ROOT_STORE</b>.
 
 See <a href="https://msdn.microsoft.com/820da66b-670e-490e-bba4-c2b0afb6dfd1">IKEEXT_CERT_ROOT_CONFIG0</a> for more information.
 
@@ -202,42 +238,6 @@ HTTP URL pointing to an encoded certificate or certificate-bundle, that
 Applicable only to IKEv2.
 
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> for more information.
-
-
-#### - inboundEnterpriseStoreConfig
-
-Enterprise store configuration for verifying the peer certificate chain.
-
-Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ENTERPRISE_STORE</b>.
-
-See <a href="https://msdn.microsoft.com/820da66b-670e-490e-bba4-c2b0afb6dfd1">IKEEXT_CERT_ROOT_CONFIG0</a> for more information.
-
-
-#### - inboundTrustedRootStoreConfig
-
-Trusted root store configuration for verifying the peer certificate chain.
-
-Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE</b>.
-
-See <a href="https://msdn.microsoft.com/820da66b-670e-490e-bba4-c2b0afb6dfd1">IKEEXT_CERT_ROOT_CONFIG0</a> for more information.
-
-
-#### - outboundEnterpriseStoreConfig
-
-Enterprise store configuration for selecting  the certificate chain.
-
-Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ENTERPRISE_STORE</b>.
-
-See <a href="https://msdn.microsoft.com/820da66b-670e-490e-bba4-c2b0afb6dfd1">IKEEXT_CERT_ROOT_CONFIG0</a> for more information.
-
-
-#### - outboundTrustedRootStoreConfig
-
-Trusted root store configuration for selecting the certificate chain.
-
-Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ROOT_STORE</b>.
-
-See <a href="https://msdn.microsoft.com/820da66b-670e-490e-bba4-c2b0afb6dfd1">IKEEXT_CERT_ROOT_CONFIG0</a> for more information.
 
 
 ## -see-also

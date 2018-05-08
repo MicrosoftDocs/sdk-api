@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetOriginalCreatorSID
-title: ISecurityProperty::GetOriginalCreatorSID method
+title: ISecurityProperty::GetOriginalCreatorSID
 author: windows-driver-content
 description: In MTS 2.0, this method retrieves the security identifier of the base process that initiated the activity in which the current object is executing. Do not use this method in COM+.
 old-location: cos\isecurityproperty_getoriginalcreatorsid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 599b0773-feee-4e3d-a23b-cc2c294f49f9
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetOriginalCreatorSID method [COM+], GetOriginalCreatorSID method [COM+], ISecurityProperty interface, GetOriginalCreatorSID,ISecurityProperty.GetOriginalCreatorSID, ISecurityProperty, ISecurityProperty interface [COM+], GetOriginalCreatorSID method, ISecurityProperty::GetOriginalCreatorSID, _cos_ISecurityProperty_GetOriginalCreatorSID, comsvcs/ISecurityProperty::GetOriginalCreatorSID, cos.isecurityproperty_getoriginalcreatorsid
+ms.keywords: GetOriginalCreatorSID, GetOriginalCreatorSID method [COM+], GetOriginalCreatorSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetOriginalCreatorSID method, ISecurityProperty.GetOriginalCreatorSID, ISecurityProperty::GetOriginalCreatorSID, _cos_ISecurityProperty_GetOriginalCreatorSID, comsvcs/ISecurityProperty::GetOriginalCreatorSID, cos.isecurityproperty_getoriginalcreatorsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISecurityProperty::GetOriginalCreatorSID method
+# ISecurityProperty::GetOriginalCreatorSID
 
 
 ## -description

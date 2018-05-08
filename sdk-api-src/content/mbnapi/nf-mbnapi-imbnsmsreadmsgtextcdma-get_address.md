@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Address
-title: IMbnSmsReadMsgTextCdma::get_Address method
+title: IMbnSmsReadMsgTextCdma::get_Address
 author: windows-driver-content
 description: The mobile number associated with a message.
 old-location: mbn\imbnsmsreadmsgtextcdma_address.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: e2cb5e6e-0cfa-4226-85fe-0162cf99a80f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Address property [Microsoft Broadband Networks], Address property [Microsoft Broadband Networks], IMbnSmsReadMsgTextCdma interface, IMbnSmsReadMsgTextCdma, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks], Address property, IMbnSmsReadMsgTextCdma.Address, IMbnSmsReadMsgTextCdma::get_Address, get_Address,IMbnSmsReadMsgTextCdma.get_Address, mbn.imbnsmsreadmsgtextcdma_address, mbnapi/IMbnSmsReadMsgTextCdma::Address, mbnapi/IMbnSmsReadMsgTextCdma::get_Address
+ms.keywords: Address property [Microsoft Broadband Networks], Address property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Address property, IMbnSmsReadMsgTextCdma.Address, IMbnSmsReadMsgTextCdma.get_Address, IMbnSmsReadMsgTextCdma::Address, IMbnSmsReadMsgTextCdma::get_Address, get_Address, mbn.imbnsmsreadmsgtextcdma_address, mbnapi/IMbnSmsReadMsgTextCdma::Address, mbnapi/IMbnSmsReadMsgTextCdma::get_Address
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSmsReadMsgTextCdma::get_Address method
+# IMbnSmsReadMsgTextCdma::get_Address
 
 
 ## -description

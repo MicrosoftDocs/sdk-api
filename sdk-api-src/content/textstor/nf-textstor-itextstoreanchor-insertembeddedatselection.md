@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.InsertEmbeddedAtSelection
-title: ITextStoreAnchor::InsertEmbeddedAtSelection method
+title: ITextStoreAnchor::InsertEmbeddedAtSelection
 author: windows-driver-content
 description: The ITextStoreAnchor::InsertEmbeddedAtSelection method inserts an IDataObject object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an IDataObject into the text stream.
 old-location: tsf\itextstoreanchor_insertembeddedatselection.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 22c804b9-e260-4a8a-bbb3-fcc81fa97c7a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], InsertEmbeddedAtSelection method, ITextStoreAnchor::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework], ITextStoreAnchor interface, InsertEmbeddedAtSelection,ITextStoreAnchor.InsertEmbeddedAtSelection, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, textstor/ITextStoreAnchor::InsertEmbeddedAtSelection, tsf.itextstoreanchor_insertembeddedatselection
+ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertEmbeddedAtSelection method, ITextStoreAnchor.InsertEmbeddedAtSelection, ITextStoreAnchor::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITextStoreAnchor interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, textstor/ITextStoreAnchor::InsertEmbeddedAtSelection, tsf.itextstoreanchor_insertembeddedatselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::InsertEmbeddedAtSelection method
+# ITextStoreAnchor::InsertEmbeddedAtSelection
 
 
 ## -description

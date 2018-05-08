@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PreHeapMinimize
-title: IMallocSpy::PreHeapMinimize method
+title: IMallocSpy::PreHeapMinimize
 author: windows-driver-content
 description: Performs operations required before calling IMalloc::HeapMinimize.
 old-location: com\imallocspy_preheapminimize.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 9e80f555-5382-4bd9-ab56-a67f42b13cae
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMallocSpy, IMallocSpy interface [COM], PreHeapMinimize method, IMallocSpy::PreHeapMinimize, PreHeapMinimize method [COM], PreHeapMinimize method [COM], IMallocSpy interface, PreHeapMinimize,IMallocSpy.PreHeapMinimize, _com_imallocspy_preheapminimize, com.imallocspy_preheapminimize, objidl/IMallocSpy::PreHeapMinimize
+ms.keywords: IMallocSpy interface [COM],PreHeapMinimize method, IMallocSpy.PreHeapMinimize, IMallocSpy::PreHeapMinimize, PreHeapMinimize, PreHeapMinimize method [COM], PreHeapMinimize method [COM],IMallocSpy interface, _com_imallocspy_preheapminimize, com.imallocspy_preheapminimize, objidl/IMallocSpy::PreHeapMinimize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMallocSpy::PreHeapMinimize method
+# IMallocSpy::PreHeapMinimize
 
 
 ## -description

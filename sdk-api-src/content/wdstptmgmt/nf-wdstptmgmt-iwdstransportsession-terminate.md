@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.Terminate
-title: IWdsTransportSession::Terminate method
+title: IWdsTransportSession::Terminate
 author: windows-driver-content
 description: Terminates an active session on the WDS transport server and disconnects all WDS clients joined to the session.
 old-location: wds\iwdstransportsession_terminate.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 2b616a69-1387-4c55-a80e-95ead719b911
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportSession, IWdsTransportSession interface [Windows Deployment Services], Terminate method, IWdsTransportSession::Terminate, Terminate method [Windows Deployment Services], Terminate method [Windows Deployment Services], IWdsTransportSession interface, Terminate,IWdsTransportSession.Terminate, wds.iwdstransportsession_terminate, wdstptmgmt/IWdsTransportSession::Terminate
+ms.keywords: IWdsTransportSession interface [Windows Deployment Services],Terminate method, IWdsTransportSession.Terminate, IWdsTransportSession::Terminate, Terminate, Terminate method [Windows Deployment Services], Terminate method [Windows Deployment Services],IWdsTransportSession interface, wds.iwdstransportsession_terminate, wdstptmgmt/IWdsTransportSession::Terminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportSession::Terminate method
+# IWdsTransportSession::Terminate
 
 
 ## -description

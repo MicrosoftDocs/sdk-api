@@ -7,7 +7,7 @@ old-location: security\cert_alt_name_entry.htm
 old-project: SecCrypto
 ms.assetid: 1353ef56-cae7-43f2-a31f-2bb3b502450e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY structure [Security], PCERT_ALT_NAME_ENTRY, PCERT_ALT_NAME_ENTRY structure pointer [Security], _CERT_ALT_NAME_ENTRY, _crypto2_cert_alt_name_entry, security.cert_alt_name_entry, wincrypt/CERT_ALT_NAME_ENTRY, wincrypt/PCERT_ALT_NAME_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,41 +82,39 @@ This can be one of the following values:
  
 
 
-
-
-#### - DirectoryName
-
-A <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> structure that contains a directory name.
-
-
-#### - IPAddress
-
-Octet string that is an Internet Protocol address defined in accordance with Internet <a href="http://go.microsoft.com/fwlink/p/?linkid=84067">RFC 791</a>.
-
-
-#### - pOtherName
+### -field DUMMYUNIONNAME.pOtherName
 
 A pointer to a <b>CERT_OTHER_NAME</b> structure, which includes an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and a <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> containing the name.
 
 
-#### - pszRegisteredID
-
-Object identifier (OID) of any registered object.
-
-
-#### - pwszDNSName
-
-DNS name as an IA5 string.
-
-
-#### - pwszRfc822Name
+### -field DUMMYUNIONNAME.pwszRfc822Name
 
 Email address as a Unicode string.
 
 
-#### - pwszURL
+### -field DUMMYUNIONNAME.pwszDNSName
+
+DNS name as an IA5 string.
+
+
+### -field DUMMYUNIONNAME.DirectoryName
+
+A <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> structure that contains a directory name.
+
+
+### -field DUMMYUNIONNAME.pwszURL
 
 URL as a IA5 string.
+
+
+### -field DUMMYUNIONNAME.IPAddress
+
+Octet string that is an Internet Protocol address defined in accordance with Internet <a href="http://go.microsoft.com/fwlink/p/?linkid=84067">RFC 791</a>.
+
+
+### -field DUMMYUNIONNAME.pszRegisteredID
+
+Object identifier (OID) of any registered object.
 
 
 ## -see-also

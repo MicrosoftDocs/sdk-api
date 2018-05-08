@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2
+req.typenames: CLUSPROP_PARTITION_INFO_EX2
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetDeviceType
-title: IMFSensorDevice::GetDeviceType method
+title: IMFSensorDevice::GetDeviceType
 author: windows-driver-content
 description: Gets a value that specifies the type of sensor device represented by the object.
 old-location: mf\imfsensordevice_getdevicetype.htm
 old-project: medfound
 ms.assetid: 6714B5A8-83F2-44CD-B061-749EA6BFBF20
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDeviceType method [Media Foundation], GetDeviceType method [Media Foundation], IMFSensorDevice interface, GetDeviceType,IMFSensorDevice.GetDeviceType, IMFSensorDevice, IMFSensorDevice interface [Media Foundation], GetDeviceType method, IMFSensorDevice::GetDeviceType, mf.imfsensordevice_getdevicetype, mfidl/IMFSensorDevice::GetDeviceType
+ms.date: 5/3/2018
+ms.keywords: GetDeviceType, GetDeviceType method [Media Foundation], GetDeviceType method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceType method, IMFSensorDevice.GetDeviceType, IMFSensorDevice::GetDeviceType, mf.imfsensordevice_getdevicetype, mfidl/IMFSensorDevice::GetDeviceType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorDevice::GetDeviceType method
+# IMFSensorDevice::GetDeviceType
 
 
 ## -description

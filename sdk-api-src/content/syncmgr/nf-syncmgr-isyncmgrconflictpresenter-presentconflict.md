@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictPresenter.PresentConflict
-title: ISyncMgrConflictPresenter::PresentConflict method
+title: ISyncMgrConflictPresenter::PresentConflict
 author: windows-driver-content
 description: Presents the conflict to the user.
 old-location: shell\ISyncMgrConflictPresenter_PresentConflict.htm
 old-project: shell
 ms.assetid: 632c0e9c-facd-422e-9467-005c44adc175
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrConflictPresenter, ISyncMgrConflictPresenter interface [Windows Shell], PresentConflict method, ISyncMgrConflictPresenter::PresentConflict, PresentConflict method [Windows Shell], PresentConflict method [Windows Shell], ISyncMgrConflictPresenter interface, PresentConflict,ISyncMgrConflictPresenter.PresentConflict, _shell_ISyncMgrConflictPresenter_PresentConflict, shell.ISyncMgrConflictPresenter_PresentConflict, syncmgr/ISyncMgrConflictPresenter::PresentConflict
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrConflictPresenter interface [Windows Shell],PresentConflict method, ISyncMgrConflictPresenter.PresentConflict, ISyncMgrConflictPresenter::PresentConflict, PresentConflict, PresentConflict method [Windows Shell], PresentConflict method [Windows Shell],ISyncMgrConflictPresenter interface, _shell_ISyncMgrConflictPresenter_PresentConflict, shell.ISyncMgrConflictPresenter_PresentConflict, syncmgr/ISyncMgrConflictPresenter::PresentConflict
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrConflictPresenter::PresentConflict method
+# ISyncMgrConflictPresenter::PresentConflict
 
 
 ## -description

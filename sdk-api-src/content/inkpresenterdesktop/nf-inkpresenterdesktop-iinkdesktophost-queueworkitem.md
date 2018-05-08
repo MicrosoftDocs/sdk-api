@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkDesktopHost.QueueWorkItem
-title: IInkDesktopHost::QueueWorkItem method
+title: IInkDesktopHost::QueueWorkItem
 author: windows-driver-content
 description: Add an ink operation to a work queue for execution on the IInkDesktopHost thread.
 old-location: input_ink\iinkdesktophost_queueworkitem.htm
@@ -8,7 +8,7 @@ old-project: input_ink
 ms.assetid: c8c5e1c4-c5a5-4172-a101-66276b7024e2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IInkDesktopHost, IInkDesktopHost interface, QueueWorkItem method, IInkDesktopHost::QueueWorkItem, InkPresenterDesktop.iinkdesktophost_queueworkitem, QueueWorkItem method, QueueWorkItem method, IInkDesktopHost interface, QueueWorkItem,IInkDesktopHost.QueueWorkItem, inkpresenterdesktop/IInkDesktopHost::QueueWorkItem, input_ink.iinkdesktophost_queueworkitem
+ms.keywords: IInkDesktopHost interface,QueueWorkItem method, IInkDesktopHost.QueueWorkItem, IInkDesktopHost::QueueWorkItem, InkPresenterDesktop.iinkdesktophost_queueworkitem, QueueWorkItem, QueueWorkItem method, QueueWorkItem method,IInkDesktopHost interface, inkpresenterdesktop/IInkDesktopHost::QueueWorkItem, input_ink.iinkdesktophost_queueworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInkDesktopHost::QueueWorkItem method
+# IInkDesktopHost::QueueWorkItem
 
 
 ## -description

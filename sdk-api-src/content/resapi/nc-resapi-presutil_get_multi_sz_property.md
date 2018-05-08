@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 7f345cce-fa67-467c-bd4f-286609c3f757
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PRESUTIL_GET_MULTI_SZ_PROPERTY, PRESUTIL_GET_MULTI_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilgetmultiszproperty, mscs.resutilgetmultiszproperty, resapi/PRESUTIL_GET_MULTI_SZ_PROPERTY
+ms.keywords: PRESUTIL_GET_MULTI_SZ_PROPERTY, PRESUTIL_GET_MULTI_SZ_PROPERTY callback, PRESUTIL_GET_MULTI_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilgetmultiszproperty, mscs.resutilgetmultiszproperty, resapi/PRESUTIL_GET_MULTI_SZ_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PRESUTIL_GET_MULTI_SZ_PROPERTY callback
+# PRESUTIL_GET_MULTI_SZ_PROPERTY callback function
 
 
 ## -description

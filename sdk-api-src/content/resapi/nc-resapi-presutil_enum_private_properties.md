@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 83e08a14-4f0f-4c5b-9066-53ee5bb45901
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PRESUTIL_ENUM_PRIVATE_PROPERTIES, PRESUTIL_ENUM_PRIVATE_PROPERTIES callback function [Failover Cluster], _wolf_resutilenumprivateproperties, mscs.resutilenumprivateproperties, resapi/PRESUTIL_ENUM_PRIVATE_PROPERTIES
+ms.keywords: PRESUTIL_ENUM_PRIVATE_PROPERTIES, PRESUTIL_ENUM_PRIVATE_PROPERTIES callback, PRESUTIL_ENUM_PRIVATE_PROPERTIES callback function [Failover Cluster], _wolf_resutilenumprivateproperties, mscs.resutilenumprivateproperties, resapi/PRESUTIL_ENUM_PRIVATE_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PRESUTIL_ENUM_PRIVATE_PROPERTIES callback
+# PRESUTIL_ENUM_PRIVATE_PROPERTIES callback function
 
 
 ## -description

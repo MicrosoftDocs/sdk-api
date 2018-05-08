@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Reset
-title: IEnumTfLanguageProfiles::Reset method
+title: IEnumTfLanguageProfiles::Reset
 author: windows-driver-content
 description: IEnumTfLanguageProfiles::Reset method
 old-location: tsf\ienumtflanguageprofiles_reset.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 30be7551-f326-4132-814a-a896b148f2fe
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfLanguageProfiles, IEnumTfLanguageProfiles interface [Text Services Framework], Reset method, IEnumTfLanguageProfiles::Reset, Reset method [Text Services Framework], Reset method [Text Services Framework], IEnumTfLanguageProfiles interface, Reset,IEnumTfLanguageProfiles.Reset, _tsf_ienumtflanguageprofiles_reset_ref, msctf/IEnumTfLanguageProfiles::Reset, tsf.ienumtflanguageprofiles_reset
+ms.keywords: IEnumTfLanguageProfiles interface [Text Services Framework],Reset method, IEnumTfLanguageProfiles.Reset, IEnumTfLanguageProfiles::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLanguageProfiles interface, _tsf_ienumtflanguageprofiles_reset_ref, msctf/IEnumTfLanguageProfiles::Reset, tsf.ienumtflanguageprofiles_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfLanguageProfiles::Reset method
+# IEnumTfLanguageProfiles::Reset
 
 
 ## -description

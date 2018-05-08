@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRegisterMode
-title: IMbnRegistration::GetRegisterMode method
+title: IMbnRegistration::GetRegisterMode
 author: windows-driver-content
 description: Gets the network registration mode of a Mobile Broadband device.
 old-location: mbn\imbnregistration_getregistermode.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 30030eb8-3b08-4583-a7ba-0560db32007f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRegisterMode method [Microsoft Broadband Networks], GetRegisterMode method [Microsoft Broadband Networks], IMbnRegistration interface, GetRegisterMode,IMbnRegistration.GetRegisterMode, IMbnRegistration, IMbnRegistration interface [Microsoft Broadband Networks], GetRegisterMode method, IMbnRegistration::GetRegisterMode, mbn.imbnregistration_getregistermode, mbnapi/IMbnRegistration::GetRegisterMode
+ms.keywords: GetRegisterMode, GetRegisterMode method [Microsoft Broadband Networks], GetRegisterMode method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRegisterMode method, IMbnRegistration.GetRegisterMode, IMbnRegistration::GetRegisterMode, mbn.imbnregistration_getregistermode, mbnapi/IMbnRegistration::GetRegisterMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnRegistration::GetRegisterMode method
+# IMbnRegistration::GetRegisterMode
 
 
 ## -description

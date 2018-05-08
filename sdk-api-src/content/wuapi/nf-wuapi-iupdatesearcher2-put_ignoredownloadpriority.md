@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher2.put_IgnoreDownloadPriority
-title: IUpdateSearcher2::put_IgnoreDownloadPriority method
+title: IUpdateSearcher2::put_IgnoreDownloadPriority
 author: windows-driver-content
 description: Gets and sets a Boolean value that indicates whether to ignore the download priority.
 old-location: wua\iupdatesearcher2_ignoredownloadpriority.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 7c33a9c0-d77b-4ba1-9df4-152f47508d48
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateSearcher2, IUpdateSearcher2 interface [Windows Update Agent], IgnoreDownloadPriority property, IUpdateSearcher2.IgnoreDownloadPriority, IUpdateSearcher2::get_IgnoreDownloadPriority, IUpdateSearcher2::put_IgnoreDownloadPriority, IgnoreDownloadPriority property [Windows Update Agent], IgnoreDownloadPriority property [Windows Update Agent], IUpdateSearcher2 interface, put_IgnoreDownloadPriority,IUpdateSearcher2.put_IgnoreDownloadPriority, wua.iupdatesearcher2_ignoredownloadpriority, wuapi/IUpdateSearcher2::IgnoreDownloadPriority, wuapi/IUpdateSearcher2::get_IgnoreDownloadPriority, wuapi/IUpdateSearcher2::put_IgnoreDownloadPriority
+ms.keywords: IUpdateSearcher2 interface [Windows Update Agent],IgnoreDownloadPriority property, IUpdateSearcher2.IgnoreDownloadPriority, IUpdateSearcher2.put_IgnoreDownloadPriority, IUpdateSearcher2::IgnoreDownloadPriority, IUpdateSearcher2::get_IgnoreDownloadPriority, IUpdateSearcher2::put_IgnoreDownloadPriority, IgnoreDownloadPriority property [Windows Update Agent], IgnoreDownloadPriority property [Windows Update Agent],IUpdateSearcher2 interface, put_IgnoreDownloadPriority, wua.iupdatesearcher2_ignoredownloadpriority, wuapi/IUpdateSearcher2::IgnoreDownloadPriority, wuapi/IUpdateSearcher2::get_IgnoreDownloadPriority, wuapi/IUpdateSearcher2::put_IgnoreDownloadPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSearcher2::put_IgnoreDownloadPriority method
+# IUpdateSearcher2::put_IgnoreDownloadPriority
 
 
 ## -description

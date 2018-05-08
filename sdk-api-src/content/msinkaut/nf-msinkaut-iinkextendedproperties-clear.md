@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Clear
-title: IInkExtendedProperties::Clear method
+title: IInkExtendedProperties::Clear
 author: windows-driver-content
 description: Clears all of the IInkExtendedProperty objects from the IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_clear.htm
 old-project: tablet
 ms.assetid: b5270e5c-51fa-4d1f-b4e0-9129c61bac88
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Clear method [Tablet PC], Clear method [Tablet PC], IInkExtendedProperties interface, Clear,IInkExtendedProperties.Clear, IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], Clear method, IInkExtendedProperties::Clear, b5270e5c-51fa-4d1f-b4e0-9129c61bac88, msinkaut/IInkExtendedProperties::Clear, tablet.iinkextendedproperties_clear
+ms.date: 5/2/2018
+ms.keywords: Clear, Clear method [Tablet PC], Clear method [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Clear method, IInkExtendedProperties.Clear, IInkExtendedProperties::Clear, b5270e5c-51fa-4d1f-b4e0-9129c61bac88, msinkaut/IInkExtendedProperties::Clear, tablet.iinkextendedproperties_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkExtendedProperties::Clear method
+# IInkExtendedProperties::Clear
 
 
 ## -description

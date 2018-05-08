@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionConstantBuffer.GetDesc
-title: ID3D12ShaderReflectionConstantBuffer::GetDesc method
+title: ID3D12ShaderReflectionConstantBuffer::GetDesc
 author: windows-driver-content
 description: Gets a constant-buffer description.
 old-location: direct3d12\id3d12shaderreflectionconstantbuffer_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 33D6926F-BF1B-4424-BC28-83F8A4A30589
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetDesc method, GetDesc method, ID3D12ShaderReflectionConstantBuffer interface, GetDesc,ID3D12ShaderReflectionConstantBuffer.GetDesc, ID3D12ShaderReflectionConstantBuffer, ID3D12ShaderReflectionConstantBuffer interface, GetDesc method, ID3D12ShaderReflectionConstantBuffer::GetDesc, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetDesc, direct3d12.id3d12shaderreflectionconstantbuffer_getdesc
+ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,GetDesc method, ID3D12ShaderReflectionConstantBuffer.GetDesc, ID3D12ShaderReflectionConstantBuffer::GetDesc, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetDesc, direct3d12.id3d12shaderreflectionconstantbuffer_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflectionConstantBuffer::GetDesc method
+# ID3D12ShaderReflectionConstantBuffer::GetDesc
 
 
 ## -description

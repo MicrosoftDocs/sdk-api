@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetDictionaryResource
-title: IXpsOMPage::SetDictionaryResource method
+title: IXpsOMPage::SetDictionaryResource
 author: windows-driver-content
 description: Sets the IXpsOMRemoteDictionaryResource interface pointer of the page's remote dictionary resource.
 old-location: xps\ixpsompage_setdictionaryresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e424c70e-289c-4519-8b20-5fb98d46bf34
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], SetDictionaryResource method, IXpsOMPage::SetDictionaryResource, SetDictionaryResource method [XPS Documents and Packaging], SetDictionaryResource method [XPS Documents and Packaging], IXpsOMPage interface, SetDictionaryResource,IXpsOMPage.SetDictionaryResource, xps.ixpsompage_setdictionaryresource, xpsobjectmodel/IXpsOMPage::SetDictionaryResource
+ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetDictionaryResource method, IXpsOMPage.SetDictionaryResource, IXpsOMPage::SetDictionaryResource, SetDictionaryResource, SetDictionaryResource method [XPS Documents and Packaging], SetDictionaryResource method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setdictionaryresource, xpsobjectmodel/IXpsOMPage::SetDictionaryResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::SetDictionaryResource method
+# IXpsOMPage::SetDictionaryResource
 
 
 ## -description

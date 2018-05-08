@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetAllocateForOutput
-title: IWMReaderAdvanced::GetAllocateForOutput method
+title: IWMReaderAdvanced::GetAllocateForOutput
 author: windows-driver-content
 description: The GetAllocateForOutput method ascertains whether the reader is configured to use the IWMReaderCallbackAdvanced interface to allocate samples delivered by the IWMReaderCallback::OnSample callback.
 old-location: wmformat\iwmreaderadvanced_getallocateforoutput.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: b0da74ff-37d9-4bb3-85f2-f8e1585c2d7f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetAllocateForOutput method [windows Media Format], GetAllocateForOutput method [windows Media Format], IWMReaderAdvanced interface, GetAllocateForOutput,IWMReaderAdvanced.GetAllocateForOutput, IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], GetAllocateForOutput method, IWMReaderAdvanced::GetAllocateForOutput, IWMReaderAdvancedGetAllocateForOutput, wmformat.iwmreaderadvanced_getallocateforoutput, wmsdkidl/IWMReaderAdvanced::GetAllocateForOutput
+ms.keywords: GetAllocateForOutput, GetAllocateForOutput method [windows Media Format], GetAllocateForOutput method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetAllocateForOutput method, IWMReaderAdvanced.GetAllocateForOutput, IWMReaderAdvanced::GetAllocateForOutput, IWMReaderAdvancedGetAllocateForOutput, wmformat.iwmreaderadvanced_getallocateforoutput, wmsdkidl/IWMReaderAdvanced::GetAllocateForOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced::GetAllocateForOutput method
+# IWMReaderAdvanced::GetAllocateForOutput
 
 
 ## -description

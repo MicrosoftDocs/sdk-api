@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put__CustomCompositor
-title: IMSVidVideoRenderer::put__CustomCompositor method
+title: IMSVidVideoRenderer::put__CustomCompositor
 author: windows-driver-content
 description: The put__CustomCompositor method specifies a custom image compositor for the Video Mixing Renderer (VMR) to use.
 old-location: mstv\imsvidvideorenderer_put__customcompositor.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ff99b253-20bc-4b8e-8624-ffcbb3b91857
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], put__CustomCompositor method, IMSVidVideoRenderer::put__CustomCompositor, IMSVidVideoRendererput__CustomCompositor, mstv.imsvidvideorenderer_put__customcompositor, put__CustomCompositor method [Microsoft TV Technologies], put__CustomCompositor method [Microsoft TV Technologies], IMSVidVideoRenderer interface, put__CustomCompositor,IMSVidVideoRenderer.put__CustomCompositor, segment/IMSVidVideoRenderer::put__CustomCompositor
+ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put__CustomCompositor method, IMSVidVideoRenderer.put__CustomCompositor, IMSVidVideoRenderer::put__CustomCompositor, IMSVidVideoRendererput__CustomCompositor, mstv.imsvidvideorenderer_put__customcompositor, put__CustomCompositor, put__CustomCompositor method [Microsoft TV Technologies], put__CustomCompositor method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put__CustomCompositor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer::put__CustomCompositor method
+# IMSVidVideoRenderer::put__CustomCompositor
 
 
 ## -description

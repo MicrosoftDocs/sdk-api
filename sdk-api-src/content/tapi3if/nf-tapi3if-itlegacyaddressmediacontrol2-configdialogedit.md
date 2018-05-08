@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyAddressMediaControl2.ConfigDialogEdit
-title: ITLegacyAddressMediaControl2::ConfigDialogEdit method
+title: ITLegacyAddressMediaControl2::ConfigDialogEdit
 author: windows-driver-content
 description: The ConfigDialogEdit method causes the provider of the specified line device to display a dialog box to allow the user to configure parameters related to the line device.
 old-location: tapi3\itlegacyaddressmediacontrol2_configdialogedit.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: ff3e1cd4-bbd6-43c1-ad55-4787269821da
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ConfigDialogEdit method [TAPI 2.2], ConfigDialogEdit method [TAPI 2.2], ITLegacyAddressMediaControl2 interface, ConfigDialogEdit,ITLegacyAddressMediaControl2.ConfigDialogEdit, ITLegacyAddressMediaControl2, ITLegacyAddressMediaControl2 interface [TAPI 2.2], ConfigDialogEdit method, ITLegacyAddressMediaControl2::ConfigDialogEdit, _tapi3_itlegacyaddressmediacontrol2_configdialogedit, tapi3.itlegacyaddressmediacontrol2_configdialogedit, tapi3if/ITLegacyAddressMediaControl2::ConfigDialogEdit
+ms.keywords: ConfigDialogEdit, ConfigDialogEdit method [TAPI 2.2], ConfigDialogEdit method [TAPI 2.2],ITLegacyAddressMediaControl2 interface, ITLegacyAddressMediaControl2 interface [TAPI 2.2],ConfigDialogEdit method, ITLegacyAddressMediaControl2.ConfigDialogEdit, ITLegacyAddressMediaControl2::ConfigDialogEdit, _tapi3_itlegacyaddressmediacontrol2_configdialogedit, tapi3.itlegacyaddressmediacontrol2_configdialogedit, tapi3if/ITLegacyAddressMediaControl2::ConfigDialogEdit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITLegacyAddressMediaControl2::ConfigDialogEdit method
+# ITLegacyAddressMediaControl2::ConfigDialogEdit
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: dshow\dmoregister.htm
 old-project: DirectShow
 ms.assetid: 4e70569b-8502-4eee-bd23-173269b345d1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: DMORegister, DMORegister function [DirectShow], dmoreg/DMORegister, dshow.dmoregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

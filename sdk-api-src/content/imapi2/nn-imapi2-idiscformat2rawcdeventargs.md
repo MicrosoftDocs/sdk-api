@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: b1988883-459c-46f1-a0d1-df9500a000e1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCDEventArgs, IDiscFormat2RawCDEventArgs interface [IMAPI], IDiscFormat2RawCDEventArgs interface [IMAPI], described, imapi.idiscformat2rawcdeventargs, imapi2/IDiscFormat2RawCDEventArgs
+ms.keywords: IDiscFormat2RawCDEventArgs, IDiscFormat2RawCDEventArgs interface [IMAPI], IDiscFormat2RawCDEventArgs interface [IMAPI],described, imapi.idiscformat2rawcdeventargs, imapi2/IDiscFormat2RawCDEventArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

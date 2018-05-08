@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 89a1530e-fa87-45bf-a1da-c8656ec09ba3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMImageResource, IXpsOMImageResource interface [XPS Documents and Packaging], IXpsOMImageResource interface [XPS Documents and Packaging], described, xps.ixpsomimageresource, xpsobjectmodel/IXpsOMImageResource
+ms.keywords: IXpsOMImageResource, IXpsOMImageResource interface [XPS Documents and Packaging], IXpsOMImageResource interface [XPS Documents and Packaging],described, xps.ixpsomimageresource, xpsobjectmodel/IXpsOMImageResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

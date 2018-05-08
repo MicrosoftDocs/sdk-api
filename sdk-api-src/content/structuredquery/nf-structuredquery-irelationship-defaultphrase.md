@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IRelationship.DefaultPhrase
-title: IRelationship::DefaultPhrase method
+title: IRelationship::DefaultPhrase
 author: windows-driver-content
 description: Retrieves the default phrase to use for this relationship in restatements.
 old-location: search\_search_IRelationship_DefaultPhrase.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\defaultphrase.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: DefaultPhrase method [search], DefaultPhrase method [search], IRelationship interface, DefaultPhrase,IRelationship.DefaultPhrase, IRelationship, IRelationship interface [search], DefaultPhrase method, IRelationship::DefaultPhrase, _search_IRelationship_DefaultPhrase, search._search_IRelationship_DefaultPhrase, structuredquery/IRelationship::DefaultPhrase
+ms.date: 5/4/2018
+ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],IRelationship interface, IRelationship interface [search],DefaultPhrase method, IRelationship.DefaultPhrase, IRelationship::DefaultPhrase, _search_IRelationship_DefaultPhrase, search._search_IRelationship_DefaultPhrase, structuredquery/IRelationship::DefaultPhrase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRelationship::DefaultPhrase method
+# IRelationship::DefaultPhrase
 
 
 ## -description

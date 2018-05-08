@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_4cf9.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxRouteGetFile, FaxRouteGetFile callback function [Fax Service], PFAXROUTEGETFILE, _mfax_faxroutegetfile, fax._mfax_faxroutegetfile, faxroute/FaxRouteGetFile
+ms.keywords: FaxRouteGetFile, FaxRouteGetFile callback function [Fax Service], PFAXROUTEGETFILE, PFAXROUTEGETFILE callback, _mfax_faxroutegetfile, fax._mfax_faxroutegetfile, faxroute/FaxRouteGetFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# PFAXROUTEGETFILE callback
+# PFAXROUTEGETFILE callback function
 
 
 ## -description

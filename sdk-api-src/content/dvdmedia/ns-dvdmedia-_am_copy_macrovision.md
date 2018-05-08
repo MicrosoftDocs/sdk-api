@@ -7,7 +7,7 @@ old-location: dshow\am_copy_macrovision.htm
 old-project: DirectShow
 ms.assetid: 7fb1b12a-92f4-48e2-8ebe-359ebc33cd09
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: "*PAM_COPY_MACROVISION, AM_COPY_MACROVISION, AM_COPY_MACROVISION structure [DirectShow], PAM_COPY_MACROVISION, PAM_COPY_MACROVISION structure pointer [DirectShow], _AM_COPY_MACROVISION, dshow.am_copy_macrovision, dvdmedia/AM_COPY_MACROVISION, dvdmedia/PAM_COPY_MACROVISION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

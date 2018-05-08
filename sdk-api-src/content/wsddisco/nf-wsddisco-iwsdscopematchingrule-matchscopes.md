@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDScopeMatchingRule.MatchScopes
-title: IWSDScopeMatchingRule::MatchScopes method
+title: IWSDScopeMatchingRule::MatchScopes
 author: windows-driver-content
 description: Is called to compare two scopes to determine if they match.
 old-location: ncd\iwsdscopematchingrule_matchscopes_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 0790d3ef-c84a-4882-96f6-dbca87b2ec53
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDScopeMatchingRule, IWSDScopeMatchingRule interface, MatchScopes method, IWSDScopeMatchingRule::MatchScopes, MatchScopes method, MatchScopes method, IWSDScopeMatchingRule interface, MatchScopes,IWSDScopeMatchingRule.MatchScopes, ncd.iwsdscopematchingrule_matchscopes_method, wsddisco/IWSDScopeMatchingRule::MatchScopes
+ms.keywords: IWSDScopeMatchingRule interface,MatchScopes method, IWSDScopeMatchingRule.MatchScopes, IWSDScopeMatchingRule::MatchScopes, MatchScopes, MatchScopes method, MatchScopes method,IWSDScopeMatchingRule interface, ncd.iwsdscopematchingrule_matchscopes_method, wsddisco/IWSDScopeMatchingRule::MatchScopes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDScopeMatchingRule::MatchScopes method
+# IWSDScopeMatchingRule::MatchScopes
 
 
 ## -description

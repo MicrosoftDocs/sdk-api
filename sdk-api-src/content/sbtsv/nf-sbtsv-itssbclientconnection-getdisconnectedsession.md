@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.GetDisconnectedSession
-title: ITsSbClientConnection::GetDisconnectedSession method
+title: ITsSbClientConnection::GetDisconnectedSession
 author: windows-driver-content
 description: Gets a disconnected session.
 old-location: termserv\itssbclientconnection_getdisconnectedsession.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 3fb6d2af-a60c-4173-a2c0-9d9ce5d26811
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetDisconnectedSession method [Remote Desktop Services], GetDisconnectedSession method [Remote Desktop Services], ITsSbClientConnection interface, GetDisconnectedSession,ITsSbClientConnection.GetDisconnectedSession, ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], GetDisconnectedSession method, ITsSbClientConnection::GetDisconnectedSession, sbtsv/ITsSbClientConnection::GetDisconnectedSession, termserv.itssbclientconnection_getdisconnectedsession
+ms.keywords: GetDisconnectedSession, GetDisconnectedSession method [Remote Desktop Services], GetDisconnectedSession method [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],GetDisconnectedSession method, ITsSbClientConnection.GetDisconnectedSession, ITsSbClientConnection::GetDisconnectedSession, sbtsv/ITsSbClientConnection::GetDisconnectedSession, termserv.itssbclientconnection_getdisconnectedsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbClientConnection::GetDisconnectedSession method
+# ITsSbClientConnection::GetDisconnectedSession
 
 
 ## -description

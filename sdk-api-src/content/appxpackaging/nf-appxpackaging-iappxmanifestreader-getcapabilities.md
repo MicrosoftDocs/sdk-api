@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetCapabilities
-title: IAppxManifestReader::GetCapabilities method
+title: IAppxManifestReader::GetCapabilities
 author: windows-driver-content
 description: Gets the list of capabilities requested by the package.
 old-location: appxpkg\iappxmanifestreader_getcapabilities.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 5FCBD9E9-9A5E-49E1-8B80-8F84EDA8B07C
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCapabilities method [App packaging and management], GetCapabilities method [App packaging and management], IAppxManifestReader interface, GetCapabilities,IAppxManifestReader.GetCapabilities, IAppxManifestReader, IAppxManifestReader interface [App packaging and management], GetCapabilities method, IAppxManifestReader::GetCapabilities, appxpackaging/IAppxManifestReader::GetCapabilities, appxpkg.iappxmanifestreader_getcapabilities
+ms.keywords: GetCapabilities, GetCapabilities method [App packaging and management], GetCapabilities method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetCapabilities method, IAppxManifestReader.GetCapabilities, IAppxManifestReader::GetCapabilities, appxpackaging/IAppxManifestReader::GetCapabilities, appxpkg.iappxmanifestreader_getcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestReader::GetCapabilities method
+# IAppxManifestReader::GetCapabilities
 
 
 ## -description

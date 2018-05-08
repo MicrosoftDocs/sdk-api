@@ -7,8 +7,8 @@ old-location: shell\ISyncMgrSyncItemContainer.htm
 old-project: shell
 ms.assetid: c07487a5-aa12-411d-93bd-3774262e55c6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSyncItemContainer, ISyncMgrSyncItemContainer interface [Windows Shell], ISyncMgrSyncItemContainer interface [Windows Shell], described, _shell_ISyncMgrSyncItemContainer, shell.ISyncMgrSyncItemContainer, syncmgr/ISyncMgrSyncItemContainer
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSyncItemContainer, ISyncMgrSyncItemContainer interface [Windows Shell], ISyncMgrSyncItemContainer interface [Windows Shell],described, _shell_ISyncMgrSyncItemContainer, shell.ISyncMgrSyncItemContainer, syncmgr/ISyncMgrSyncItemContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

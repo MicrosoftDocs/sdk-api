@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.GetVideoDecoderConfigCount
-title: ID3D11VideoDevice::GetVideoDecoderConfigCount method
+title: ID3D11VideoDevice::GetVideoDecoderConfigCount
 author: windows-driver-content
 description: Gets the number of decoder configurations that the driver supports for a specified video description.
 old-location: mf\id3d11videodevice_getvideodecoderconfigcount.htm
 old-project: medfound
 ms.assetid: C6650546-2F6D-4B91-888D-3A5A1AE86DCB
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoDecoderConfigCount method [Media Foundation], GetVideoDecoderConfigCount method [Media Foundation], ID3D11VideoDevice interface, GetVideoDecoderConfigCount,ID3D11VideoDevice.GetVideoDecoderConfigCount, ID3D11VideoDevice, ID3D11VideoDevice interface [Media Foundation], GetVideoDecoderConfigCount method, ID3D11VideoDevice::GetVideoDecoderConfigCount, d3d11/ID3D11VideoDevice::GetVideoDecoderConfigCount, mf.id3d11videodevice_getvideodecoderconfigcount
+ms.date: 5/3/2018
+ms.keywords: GetVideoDecoderConfigCount, GetVideoDecoderConfigCount method [Media Foundation], GetVideoDecoderConfigCount method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetVideoDecoderConfigCount method, ID3D11VideoDevice.GetVideoDecoderConfigCount, ID3D11VideoDevice::GetVideoDecoderConfigCount, d3d11/ID3D11VideoDevice::GetVideoDecoderConfigCount, mf.id3d11videodevice_getvideodecoderconfigcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoDevice::GetVideoDecoderConfigCount method
+# ID3D11VideoDevice::GetVideoDecoderConfigCount
 
 
 ## -description

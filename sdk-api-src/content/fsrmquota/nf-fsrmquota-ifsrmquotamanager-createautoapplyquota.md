@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.CreateAutoApplyQuota
-title: IFsrmQuotaManager::CreateAutoApplyQuota method
+title: IFsrmQuotaManager::CreateAutoApplyQuota
 author: windows-driver-content
 description: Creates an automatic quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_createautoapplyquota.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: faaa55ca-a0b1-4cd4-9c73-20d80879b10c
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreateAutoApplyQuota method [File Server Resource Manager], CreateAutoApplyQuota method [File Server Resource Manager], FsrmQuotaManager class, CreateAutoApplyQuota method [File Server Resource Manager], IFsrmQuotaManager interface, CreateAutoApplyQuota method [File Server Resource Manager], IFsrmQuotaManagerEx interface, CreateAutoApplyQuota,IFsrmQuotaManager.CreateAutoApplyQuota, FsrmQuotaManager class [File Server Resource Manager], CreateAutoApplyQuota method, IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resource Manager], CreateAutoApplyQuota method, IFsrmQuotaManager::CreateAutoApplyQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager], CreateAutoApplyQuota method, IFsrmQuotaManagerEx::CreateAutoApplyQuota, fs.ifsrmquotamanager_createautoapplyquota, fsrm.ifsrmquotamanager_createautoapplyquota, fsrmquota/IFsrmQuotaManager::CreateAutoApplyQuota, fsrmquota/IFsrmQuotaManagerEx::CreateAutoApplyQuota
+ms.keywords: CreateAutoApplyQuota, CreateAutoApplyQuota method [File Server Resource Manager], CreateAutoApplyQuota method [File Server Resource Manager],FsrmQuotaManager class, CreateAutoApplyQuota method [File Server Resource Manager],IFsrmQuotaManager interface, CreateAutoApplyQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],CreateAutoApplyQuota method, IFsrmQuotaManager interface [File Server Resource Manager],CreateAutoApplyQuota method, IFsrmQuotaManager.CreateAutoApplyQuota, IFsrmQuotaManager::CreateAutoApplyQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],CreateAutoApplyQuota method, IFsrmQuotaManagerEx::CreateAutoApplyQuota, fs.ifsrmquotamanager_createautoapplyquota, fsrm.ifsrmquotamanager_createautoapplyquota, fsrmquota/IFsrmQuotaManager::CreateAutoApplyQuota, fsrmquota/IFsrmQuotaManagerEx::CreateAutoApplyQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaManager::CreateAutoApplyQuota method
+# IFsrmQuotaManager::CreateAutoApplyQuota
 
 
 ## -description

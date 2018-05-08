@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_StartLba
-title: IWriteEngine2EventArgs::get_StartLba method
+title: IWriteEngine2EventArgs::get_StartLba
 author: windows-driver-content
 description: Retrieves the starting logical block address (LBA) of the current write operation.
 old-location: imapi\iwriteengine2eventargs_get_startlba.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 1c2d1a1f-04b7-4453-af52-4f96e5536ad2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IWriteEngine2EventArgs, IWriteEngine2EventArgs interface [IMAPI], get_StartLba method, IWriteEngine2EventArgs::get_StartLba, get_StartLba method [IMAPI], get_StartLba method [IMAPI], IWriteEngine2EventArgs interface, get_StartLba,IWriteEngine2EventArgs.get_StartLba, imapi.iwriteengine2eventargs_get_startlba, imapi2/IWriteEngine2EventArgs::get_StartLba
+ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_StartLba method, IWriteEngine2EventArgs.get_StartLba, IWriteEngine2EventArgs::get_StartLba, get_StartLba, get_StartLba method [IMAPI], get_StartLba method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_startlba, imapi2/IWriteEngine2EventArgs::get_StartLba
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWriteEngine2EventArgs::get_StartLba method
+# IWriteEngine2EventArgs::get_StartLba
 
 
 ## -description

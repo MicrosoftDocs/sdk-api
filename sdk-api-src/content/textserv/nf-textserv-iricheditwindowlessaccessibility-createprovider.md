@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.IRicheditWindowlessAccessibility.CreateProvider
-title: IRicheditWindowlessAccessibility::CreateProvider method
+title: IRicheditWindowlessAccessibility::CreateProvider
 author: windows-driver-content
 description: Obtains a Microsoft UI Automation provider object for the parent of a windowless rich edit control.
 old-location: controls\iricheditwindowlessaccessibility_createprovider.htm
 old-project: Controls
 ms.assetid: 660E8B3E-1372-458D-A6E0-B88B1E5A01B5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: CreateProvider method [Windows Controls], CreateProvider method [Windows Controls], IRicheditWindowlessAccessibility interface, CreateProvider,IRicheditWindowlessAccessibility.CreateProvider, IRicheditWindowlessAccessibility, IRicheditWindowlessAccessibility interface [Windows Controls], CreateProvider method, IRicheditWindowlessAccessibility::CreateProvider, controls.iricheditwindowlessaccessibility_createprovider, textserv/IRicheditWindowlessAccessibility::CreateProvider
+ms.date: 4/27/2018
+ms.keywords: CreateProvider, CreateProvider method [Windows Controls], CreateProvider method [Windows Controls],IRicheditWindowlessAccessibility interface, IRicheditWindowlessAccessibility interface [Windows Controls],CreateProvider method, IRicheditWindowlessAccessibility.CreateProvider, IRicheditWindowlessAccessibility::CreateProvider, controls.iricheditwindowlessaccessibility_createprovider, textserv/IRicheditWindowlessAccessibility::CreateProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRicheditWindowlessAccessibility::CreateProvider method
+# IRicheditWindowlessAccessibility::CreateProvider
 
 
 ## -description

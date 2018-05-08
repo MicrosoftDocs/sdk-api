@@ -98,6 +98,21 @@ The current number of authenticated peers on the wireless Hosted Network.
  This value is correct only if <b>HostedNetworkState</b> is <b>wlan_hosted_network_active</b>.
 
 
+### -field PeerList.unique
+
+ 
+
+
+### -field PeerList.size_is
+
+ 
+
+
+### -field PeerList.size_is.dwNumberOfPeers
+
+ 
+
+
 ### -field PeerList
 
 An array of <a href="https://msdn.microsoft.com/f42f7100-45c8-4dd3-ae01-07740cace871">WLAN_HOSTED_NETWORK_PEER_STATE</a>  structures describing each of the current peers on the wireless Hosted Network. The number of elements in the array is given by <b>dwNumberOfPeers</b> member.

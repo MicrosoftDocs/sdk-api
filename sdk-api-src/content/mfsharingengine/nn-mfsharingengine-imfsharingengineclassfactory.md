@@ -7,8 +7,8 @@ old-location: mf\imfsharingengineclassfactory.htm
 old-project: medfound
 ms.assetid: 191CB50C-8CBB-470F-B558-F3A9EE554DA3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSharingEngineClassFactory, IMFSharingEngineClassFactory interface [Media Foundation], IMFSharingEngineClassFactory interface [Media Foundation], described, mf.imfsharingengineclassfactory, mfsharingengine/IMFSharingEngineClassFactory
+ms.date: 5/3/2018
+ms.keywords: IMFSharingEngineClassFactory, IMFSharingEngineClassFactory interface [Media Foundation], IMFSharingEngineClassFactory interface [Media Foundation],described, mf.imfsharingengineclassfactory, mfsharingengine/IMFSharingEngineClassFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

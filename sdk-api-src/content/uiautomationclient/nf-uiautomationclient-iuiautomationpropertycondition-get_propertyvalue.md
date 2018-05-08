@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationPropertyCondition.get_PropertyValue
-title: IUIAutomationPropertyCondition::get_PropertyValue method
+title: IUIAutomationPropertyCondition::get_PropertyValue
 author: windows-driver-content
 description: Retrieves the property value that must be matched for the condition to be true.
 old-location: winauto\uiauto_IUIAutomationPropertyCondition_PropertyValue.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: a92a5ee7-d5b4-4b2e-9e38-846e9b07d0b7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationPropertyCondition, IUIAutomationPropertyCondition interface [Windows Accessibility], PropertyValue property, IUIAutomationPropertyCondition.PropertyValue, IUIAutomationPropertyCondition::get_PropertyValue, PropertyValue property [Windows Accessibility], PropertyValue property [Windows Accessibility], IUIAutomationPropertyCondition interface, get_PropertyValue,IUIAutomationPropertyCondition.get_PropertyValue, uiauto.uiauto_IUIAutomationPropertyCondition_PropertyValue, uiauto_IUIAutomationPropertyCondition_PropertyValue, uiautomationclient/IUIAutomationPropertyCondition::PropertyValue, uiautomationclient/IUIAutomationPropertyCondition::get_PropertyValue, winauto.uiauto_IUIAutomationPropertyCondition_PropertyValue
+ms.keywords: IUIAutomationPropertyCondition interface [Windows Accessibility],PropertyValue property, IUIAutomationPropertyCondition.PropertyValue, IUIAutomationPropertyCondition.get_PropertyValue, IUIAutomationPropertyCondition::PropertyValue, IUIAutomationPropertyCondition::get_PropertyValue, PropertyValue property [Windows Accessibility], PropertyValue property [Windows Accessibility],IUIAutomationPropertyCondition interface, get_PropertyValue, uiauto.uiauto_IUIAutomationPropertyCondition_PropertyValue, uiauto_IUIAutomationPropertyCondition_PropertyValue, uiautomationclient/IUIAutomationPropertyCondition::PropertyValue, uiautomationclient/IUIAutomationPropertyCondition::get_PropertyValue, winauto.uiauto_IUIAutomationPropertyCondition_PropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationPropertyCondition::get_PropertyValue method
+# IUIAutomationPropertyCondition::get_PropertyValue
 
 
 ## -description

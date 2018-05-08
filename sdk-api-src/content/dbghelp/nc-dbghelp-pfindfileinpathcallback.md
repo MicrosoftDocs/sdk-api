@@ -8,7 +8,7 @@ old-project: Debug
 ms.assetid: e579158e-053d-4c81-a2c3-ac3af3d3a201
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: PFINDFILEINPATHCALLBACK, PFINDFILEINPATHCALLBACKW, SymFindFileInPathProc, SymFindFileInPathProc callback function, _win32_symfindfileinpathproc, base.symfindfileinpathproc, dbghelp/SymFindFileInPathProc
+ms.keywords: PFINDFILEINPATHCALLBACK, PFINDFILEINPATHCALLBACKW, SymFindFileInPathProc, SymFindFileInPathProc callback, SymFindFileInPathProc callback function, _win32_symfindfileinpathproc, base.symfindfileinpathproc, dbghelp/SymFindFileInPathProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PFINDFILEINPATHCALLBACK callback
+# PFINDFILEINPATHCALLBACK callback function
 
 
 ## -description

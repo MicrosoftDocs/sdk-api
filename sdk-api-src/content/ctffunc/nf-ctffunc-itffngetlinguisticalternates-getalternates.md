@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnGetLinguisticAlternates.GetAlternates
-title: ITfFnGetLinguisticAlternates::GetAlternates method
+title: ITfFnGetLinguisticAlternates::GetAlternates
 author: windows-driver-content
 description: Returns a list of alternate strings for a given text range.
 old-location: tsf\itffngetlinguisticalternates_getalternates.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 17BB0DF8-3F97-423C-A2FD-CDC7590EE49B
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetAlternates method [Text Services Framework], GetAlternates method [Text Services Framework], ITfFnGetLinguisticAlternates interface, GetAlternates,ITfFnGetLinguisticAlternates.GetAlternates, ITfFnGetLinguisticAlternates, ITfFnGetLinguisticAlternates interface [Text Services Framework], GetAlternates method, ITfFnGetLinguisticAlternates::GetAlternates, ctffunc/ITfFnGetLinguisticAlternates::GetAlternates, tsf.itffngetlinguisticalternates_getalternates
+ms.keywords: GetAlternates, GetAlternates method [Text Services Framework], GetAlternates method [Text Services Framework],ITfFnGetLinguisticAlternates interface, ITfFnGetLinguisticAlternates interface [Text Services Framework],GetAlternates method, ITfFnGetLinguisticAlternates.GetAlternates, ITfFnGetLinguisticAlternates::GetAlternates, ctffunc/ITfFnGetLinguisticAlternates::GetAlternates, tsf.itffngetlinguisticalternates_getalternates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITfFnGetLinguisticAlternates::GetAlternates method
+# ITfFnGetLinguisticAlternates::GetAlternates
 
 
 ## -description

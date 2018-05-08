@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetValueByIndex
-title: IWICMetadataReader::GetValueByIndex method
+title: IWICMetadataReader::GetValueByIndex
 author: windows-driver-content
 description: Gets the metadata item at the given index.
 old-location: wic\_wic_codec_iwicmetadatareader_getvaluebyindex.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: dd22e0e6-d607-48ae-a51c-b49003004f1f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetValueByIndex method [Windows Imaging Component], GetValueByIndex method [Windows Imaging Component], IWICMetadataReader interface, GetValueByIndex,IWICMetadataReader.GetValueByIndex, IWICMetadataReader, IWICMetadataReader interface [Windows Imaging Component], GetValueByIndex method, IWICMetadataReader::GetValueByIndex, _wic_codec_iwicmetadatareader_getvaluebyindex, wic._wic_codec_iwicmetadatareader_getvaluebyindex, wincodecsdk/IWICMetadataReader::GetValueByIndex
+ms.keywords: GetValueByIndex, GetValueByIndex method [Windows Imaging Component], GetValueByIndex method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetValueByIndex method, IWICMetadataReader.GetValueByIndex, IWICMetadataReader::GetValueByIndex, _wic_codec_iwicmetadatareader_getvaluebyindex, wic._wic_codec_iwicmetadatareader_getvaluebyindex, wincodecsdk/IWICMetadataReader::GetValueByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataReader::GetValueByIndex method
+# IWICMetadataReader::GetValueByIndex
 
 
 ## -description

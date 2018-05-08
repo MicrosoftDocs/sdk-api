@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetPath
-title: IGroupPolicyObject::GetPath method
+title: IGroupPolicyObject::GetPath
 author: windows-driver-content
 description: The GetPath method retrieves the path to the GPO.
 old-location: policy\igrouppolicyobject_getpath.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: ecfecaa4-eb6e-4de6-a5fe-ecd0e9df886c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetPath method [Group Policy], GetPath method [Group Policy], IGroupPolicyObject interface, GetPath,IGroupPolicyObject.GetPath, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], GetPath method, IGroupPolicyObject::GetPath, _win32_igrouppolicyobject_getpath, gpedit/IGroupPolicyObject::GetPath, policy.igrouppolicyobject_getpath
+ms.keywords: GetPath, GetPath method [Group Policy], GetPath method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetPath method, IGroupPolicyObject.GetPath, IGroupPolicyObject::GetPath, _win32_igrouppolicyobject_getpath, gpedit/IGroupPolicyObject::GetPath, policy.igrouppolicyobject_getpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGroupPolicyObject::GetPath method
+# IGroupPolicyObject::GetPath
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOle.SetHostNames
-title: IRichEditOle::SetHostNames method
+title: IRichEditOle::SetHostNames
 author: windows-driver-content
 description: Sets the host names to be given to objects as they are inserted to a rich edit control. The host names are used in the user interface of servers to describe the container context of opened objects.
 old-location: controls\IRichEditOle_SetHostNames.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesethostnames.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IRichEditOle, IRichEditOle interface [Windows Controls], SetHostNames method, IRichEditOle::SetHostNames, SetHostNames method [Windows Controls], SetHostNames method [Windows Controls], IRichEditOle interface, SetHostNames,IRichEditOle.SetHostNames, _win32_IRichEditOle_SetHostNames, _win32_IRichEditOle_SetHostNames_cpp, controls.IRichEditOle_SetHostNames, controls._win32_IRichEditOle_SetHostNames, richole/IRichEditOle::SetHostNames
+ms.date: 4/27/2018
+ms.keywords: IRichEditOle interface [Windows Controls],SetHostNames method, IRichEditOle.SetHostNames, IRichEditOle::SetHostNames, SetHostNames, SetHostNames method [Windows Controls], SetHostNames method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_SetHostNames, _win32_IRichEditOle_SetHostNames_cpp, controls.IRichEditOle_SetHostNames, controls._win32_IRichEditOle_SetHostNames, richole/IRichEditOle::SetHostNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOle::SetHostNames method
+# IRichEditOle::SetHostNames
 
 
 ## -description

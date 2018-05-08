@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.OnMenuSelect
-title: ITfLangBarItemBitmapButton::OnMenuSelect method
+title: ITfLangBarItemBitmapButton::OnMenuSelect
 author: windows-driver-content
 description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style.
 old-location: tsf\itflangbaritembitmapbutton_onmenuselect.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 693f68ce-e557-4c66-9a6d-ba76e4fde426
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarItemBitmapButton, ITfLangBarItemBitmapButton interface [Text Services Framework], OnMenuSelect method, ITfLangBarItemBitmapButton::OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework], ITfLangBarItemBitmapButton interface, OnMenuSelect,ITfLangBarItemBitmapButton.OnMenuSelect, _tsf_itflangbaritembitmapbutton_onmenuselect_ref, ctfutb/ITfLangBarItemBitmapButton::OnMenuSelect, tsf.itflangbaritembitmapbutton_onmenuselect
+ms.keywords: ITfLangBarItemBitmapButton interface [Text Services Framework],OnMenuSelect method, ITfLangBarItemBitmapButton.OnMenuSelect, ITfLangBarItemBitmapButton::OnMenuSelect, OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework],ITfLangBarItemBitmapButton interface, _tsf_itflangbaritembitmapbutton_onmenuselect_ref, ctfutb/ITfLangBarItemBitmapButton::OnMenuSelect, tsf.itflangbaritembitmapbutton_onmenuselect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemBitmapButton::OnMenuSelect method
+# ITfLangBarItemBitmapButton::OnMenuSelect
 
 
 ## -description

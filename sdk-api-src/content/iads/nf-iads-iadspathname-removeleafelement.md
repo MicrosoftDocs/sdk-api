@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.RemoveLeafElement
-title: IADsPathname::RemoveLeafElement method
+title: IADsPathname::RemoveLeafElement
 author: windows-driver-content
 description: Removes the last element from the directory path that has been set on the Pathname object.
 old-location: adsi\iadspathname_removeleafelement.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 90085c75-0a38-43e8-932e-2b89d167cfa5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsPathname, IADsPathname interface [ADSI], RemoveLeafElement method, IADsPathname::RemoveLeafElement, RemoveLeafElement method [ADSI], RemoveLeafElement method [ADSI], IADsPathname interface, RemoveLeafElement,IADsPathname.RemoveLeafElement, _ds_iadspathname_removeleafelement, adsi.iadspathname__removeleafelement, adsi.iadspathname_removeleafelement, iads/IADsPathname::RemoveLeafElement
+ms.keywords: IADsPathname interface [ADSI],RemoveLeafElement method, IADsPathname.RemoveLeafElement, IADsPathname::RemoveLeafElement, RemoveLeafElement, RemoveLeafElement method [ADSI], RemoveLeafElement method [ADSI],IADsPathname interface, _ds_iadspathname_removeleafelement, adsi.iadspathname__removeleafelement, adsi.iadspathname_removeleafelement, iads/IADsPathname::RemoveLeafElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsPathname::RemoveLeafElement method
+# IADsPathname::RemoveLeafElement
 
 
 ## -description

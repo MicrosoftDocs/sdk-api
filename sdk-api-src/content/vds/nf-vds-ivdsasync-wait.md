@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsAsync.Wait
-title: IVdsAsync::Wait method
+title: IVdsAsync::Wait
 author: windows-driver-content
 description: Returns when the asynchronous operation has either finished successfully or failed.
 old-location: base\ivdsasync_wait.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 1bb30247-efb8-488f-b142-8912c351f5f2
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsAsync, IVdsAsync interface [VDS], Wait method, IVdsAsync::Wait, Wait method [VDS], Wait method [VDS], IVdsAsync interface, Wait,IVdsAsync.Wait, base.ivdsasync_wait, vds/IVdsAsync::Wait, vdshwprv/IVdsAsync::Wait
+ms.keywords: IVdsAsync interface [VDS],Wait method, IVdsAsync.Wait, IVdsAsync::Wait, Wait, Wait method [VDS], Wait method [VDS],IVdsAsync interface, base.ivdsasync_wait, vds/IVdsAsync::Wait, vdshwprv/IVdsAsync::Wait
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsAsync::Wait method
+# IVdsAsync::Wait
 
 
 ## -description

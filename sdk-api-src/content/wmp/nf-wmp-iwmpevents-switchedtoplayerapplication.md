@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.SwitchedToPlayerApplication
-title: IWMPEvents::SwitchedToPlayerApplication method
+title: IWMPEvents::SwitchedToPlayerApplication
 author: windows-driver-content
 description: The SwitchedToPlayerApplication event occurs when a remoted Windows Media Player control switches to the full mode of the Player.
 old-location: wmp\iwmpevents_iwmpevents__switchedtoplayerapplication.htm
 old-project: WMP
 ms.assetid: b77a1d6a-8bfb-4548-9347-ab098a5fcfd9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], SwitchedToPlayerApplication method, IWMPEvents::SwitchedToPlayerApplication, IWMPEventsSwitchedToPlayerApplication, SwitchedToPlayerApplication method [Windows Media Player], SwitchedToPlayerApplication method [Windows Media Player], IWMPEvents interface, SwitchedToPlayerApplication,IWMPEvents.SwitchedToPlayerApplication, wmp.iwmpevents_iwmpevents__switchedtoplayerapplication, wmp/IWMPEvents::SwitchedToPlayerApplication
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],SwitchedToPlayerApplication method, IWMPEvents.SwitchedToPlayerApplication, IWMPEvents::SwitchedToPlayerApplication, IWMPEventsSwitchedToPlayerApplication, SwitchedToPlayerApplication, SwitchedToPlayerApplication method [Windows Media Player], SwitchedToPlayerApplication method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__switchedtoplayerapplication, wmp/IWMPEvents::SwitchedToPlayerApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::SwitchedToPlayerApplication method
+# IWMPEvents::SwitchedToPlayerApplication
 
 
 ## -description

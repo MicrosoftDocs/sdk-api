@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetSourceFromByteStream
-title: IMFMediaEngineEx::SetSourceFromByteStream method
+title: IMFMediaEngineEx::SetSourceFromByteStream
 author: windows-driver-content
 description: Opens a media resource from a byte stream.
 old-location: mf\imfmediaengineex_setsourcefrombytestream.htm
 old-project: medfound
 ms.assetid: F643383E-AABA-4F32-BCE9-0AA4FD635A0F
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], SetSourceFromByteStream method, IMFMediaEngineEx::SetSourceFromByteStream, SetSourceFromByteStream method [Media Foundation], SetSourceFromByteStream method [Media Foundation], IMFMediaEngineEx interface, SetSourceFromByteStream,IMFMediaEngineEx.SetSourceFromByteStream, mf.imfmediaengineex_setsourcefrombytestream, mfmediaengine/IMFMediaEngineEx::SetSourceFromByteStream
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetSourceFromByteStream method, IMFMediaEngineEx.SetSourceFromByteStream, IMFMediaEngineEx::SetSourceFromByteStream, SetSourceFromByteStream, SetSourceFromByteStream method [Media Foundation], SetSourceFromByteStream method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setsourcefrombytestream, mfmediaengine/IMFMediaEngineEx::SetSourceFromByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::SetSourceFromByteStream method
+# IMFMediaEngineEx::SetSourceFromByteStream
 
 
 ## -description

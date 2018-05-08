@@ -7,7 +7,7 @@ old-location: automat\vardecmul.htm
 old-project: automat
 ms.assetid: d1c82664-bcdf-439f-9a53-6c1222873086
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarDecMul, VarDecMul function [Automation], _oa96_VarDecMul, automat.vardecmul, oleauto/VarDecMul
 ms.prod: windows-hardware
 ms.technology: windows-devices

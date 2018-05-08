@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetServiceId
-title: IIsdbEmergencyInformationDescriptor::GetServiceId method
+title: IIsdbEmergencyInformationDescriptor::GetServiceId
 author: windows-driver-content
 description: Gets the identifier for a broadcasting event from an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getserviceid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 298f0637-eea1-4247-a9ff-cbe1a82fb8f6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface, GetServiceId,IIsdbEmergencyInformationDescriptor.GetServiceId, IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], GetServiceId method, IIsdbEmergencyInformationDescriptor::GetServiceId, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetServiceId, mstv.iisdbemergencyinformationdescriptor_getserviceid
+ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetServiceId method, IIsdbEmergencyInformationDescriptor.GetServiceId, IIsdbEmergencyInformationDescriptor::GetServiceId, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetServiceId, mstv.iisdbemergencyinformationdescriptor_getserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbEmergencyInformationDescriptor::GetServiceId method
+# IIsdbEmergencyInformationDescriptor::GetServiceId
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.GetEntryCount
-title: ITocEntryList::GetEntryCount method
+title: ITocEntryList::GetEntryCount
 author: windows-driver-content
 description: The GetEntryCount method retrieves the number of entries in the list.
 old-location: mf\itocentrylist_getentrycount.htm
 old-project: medfound
 ms.assetid: 74c45032-578d-4ee1-a13d-f95646f27ce9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetEntryCount method [Media Foundation], GetEntryCount method [Media Foundation], ITocEntryList interface, GetEntryCount,ITocEntryList.GetEntryCount, ITocEntryList, ITocEntryList interface [Media Foundation], GetEntryCount method, ITocEntryList::GetEntryCount, codecapi.itocentrylist_getentrycount, mf.itocentrylist_getentrycount, wmcodecdsp/ITocEntryList::GetEntryCount
+ms.date: 5/3/2018
+ms.keywords: GetEntryCount, GetEntryCount method [Media Foundation], GetEntryCount method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],GetEntryCount method, ITocEntryList.GetEntryCount, ITocEntryList::GetEntryCount, codecapi.itocentrylist_getentrycount, mf.itocentrylist_getentrycount, wmcodecdsp/ITocEntryList::GetEntryCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocEntryList::GetEntryCount method
+# ITocEntryList::GetEntryCount
 
 
 ## -description

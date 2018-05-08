@@ -1,14 +1,14 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.InOperation
-title: IDataObjectAsyncCapability::InOperation method
+title: IDataObjectAsyncCapability::InOperation
 author: windows-driver-content
 description: Called by the drop source to determine whether the target is extracting data asynchronously.
 old-location: shell\IDataObjectAsyncCapability_InOperation.htm
 old-project: shell
 ms.assetid: 858EB8C4-88AB-40a3-B4FC-CCD19235CE55
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [Windows Shell], InOperation method, IDataObjectAsyncCapability::InOperation, InOperation method [Windows Shell], InOperation method [Windows Shell], IDataObjectAsyncCapability interface, InOperation,IDataObjectAsyncCapability.InOperation, shell.IDataObjectAsyncCapability_InOperation, shldisp/IDataObjectAsyncCapability::InOperation
+ms.date: 5/3/2018
+ms.keywords: IDataObjectAsyncCapability interface [Windows Shell],InOperation method, IDataObjectAsyncCapability.InOperation, IDataObjectAsyncCapability::InOperation, InOperation, InOperation method [Windows Shell], InOperation method [Windows Shell],IDataObjectAsyncCapability interface, shell.IDataObjectAsyncCapability_InOperation, shldisp/IDataObjectAsyncCapability::InOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IDataObjectAsyncCapability::InOperation method
+# IDataObjectAsyncCapability::InOperation
 
 
 ## -description

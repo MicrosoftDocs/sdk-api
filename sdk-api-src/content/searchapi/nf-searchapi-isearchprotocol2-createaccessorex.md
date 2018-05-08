@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchProtocol2.CreateAccessorEx
-title: ISearchProtocol2::CreateAccessorEx method
+title: ISearchProtocol2::CreateAccessorEx
 author: windows-driver-content
 description: Creates and initializes an IUrlAccessor object. This method has the same basic functionality as the ISearchProtocol::CreateAccessor method, but it includes an additional pUserData parameter to supply additional data to the protocol handler.
 old-location: search\_search_ISearchProtocol2_CreateAccessorEx.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol2\createaccessorex.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateAccessorEx method [search], CreateAccessorEx method [search], ISearchProtocol2 interface, CreateAccessorEx,ISearchProtocol2.CreateAccessorEx, ISearchProtocol2, ISearchProtocol2 interface [search], CreateAccessorEx method, ISearchProtocol2::CreateAccessorEx, _search_ISearchProtocol2_CreateAccessorEx, search._search_ISearchProtocol2_CreateAccessorEx, searchapi/ISearchProtocol2::CreateAccessorEx
+ms.date: 5/4/2018
+ms.keywords: CreateAccessorEx, CreateAccessorEx method [search], CreateAccessorEx method [search],ISearchProtocol2 interface, ISearchProtocol2 interface [search],CreateAccessorEx method, ISearchProtocol2.CreateAccessorEx, ISearchProtocol2::CreateAccessorEx, _search_ISearchProtocol2_CreateAccessorEx, search._search_ISearchProtocol2_CreateAccessorEx, searchapi/ISearchProtocol2::CreateAccessorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchProtocol2::CreateAccessorEx method
+# ISearchProtocol2::CreateAccessorEx
 
 
 ## -description

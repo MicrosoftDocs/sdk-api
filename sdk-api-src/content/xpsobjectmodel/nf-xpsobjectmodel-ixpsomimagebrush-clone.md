@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.Clone
-title: IXpsOMImageBrush::Clone method
+title: IXpsOMImageBrush::Clone
 author: windows-driver-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomimagebrush_clone.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 7c10f6e5-b223-4ddb-9fcf-c9f7bf82953f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging], IXpsOMImageBrush interface, Clone,IXpsOMImageBrush.Clone, IXpsOMImageBrush, IXpsOMImageBrush interface [XPS Documents and Packaging], Clone method, IXpsOMImageBrush::Clone, xps.ixpsomimagebrush_clone, xpsobjectmodel/IXpsOMImageBrush::Clone
+ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMImageBrush interface, IXpsOMImageBrush interface [XPS Documents and Packaging],Clone method, IXpsOMImageBrush.Clone, IXpsOMImageBrush::Clone, xps.ixpsomimagebrush_clone, xpsobjectmodel/IXpsOMImageBrush::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMImageBrush::Clone method
+# IXpsOMImageBrush::Clone
 
 
 ## -description

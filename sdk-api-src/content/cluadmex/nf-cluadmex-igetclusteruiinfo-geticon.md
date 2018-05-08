@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetIcon
-title: IGetClusterUIInfo::GetIcon method
+title: IGetClusterUIInfo::GetIcon
 author: windows-driver-content
 description: Returns a handle to the icon to use in the upper-left corner of property and wizard pages.
 old-location: mscs\igetclusteruiinfo_geticon.htm
@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: b4572178-6225-4a22-8b45-7e8abbaa9759
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetIcon method [Failover Cluster], GetIcon method [Failover Cluster], IGetClusterUIInfo interface, GetIcon,IGetClusterUIInfo.GetIcon, IGetClusterUIInfo, IGetClusterUIInfo interface [Failover Cluster], GetIcon method, IGetClusterUIInfo::GetIcon, _wolf_igetclusteruiinfo_geticon, cluadmex/IGetClusterUIInfo::GetIcon, mscs.igetclusteruiinfo_geticon
+ms.keywords: GetIcon, GetIcon method [Failover Cluster], GetIcon method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetIcon method, IGetClusterUIInfo.GetIcon, IGetClusterUIInfo::GetIcon, _wolf_igetclusteruiinfo_geticon, cluadmex/IGetClusterUIInfo::GetIcon, mscs.igetclusteruiinfo_geticon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetClusterUIInfo::GetIcon method
+# IGetClusterUIInfo::GetIcon
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetSignature
-title: IXblIdpAuthTokenResult::GetSignature method
+title: IXblIdpAuthTokenResult::GetSignature
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getsignature.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 15E426B6-38D8-4626-A6C8-8EB2A8980EE1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSignature method, GetSignature method, IXblIdpAuthTokenResult interface, GetSignature,IXblIdpAuthTokenResult.GetSignature, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetSignature method, IXblIdpAuthTokenResult::GetSignature, xblidp.ixblidpauthtokenresult_getsignature, xblidpauthmanager/IXblIdpAuthTokenResult::GetSignature
+ms.keywords: GetSignature, GetSignature method, GetSignature method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetSignature method, IXblIdpAuthTokenResult.GetSignature, IXblIdpAuthTokenResult::GetSignature, xblidp.ixblidpauthtokenresult_getsignature, xblidpauthmanager/IXblIdpAuthTokenResult::GetSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetSignature method
+# IXblIdpAuthTokenResult::GetSignature
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ad\ds_repl_cursors_2.htm
 old-project: AD
 ms.assetid: 5a1981ac-3b6a-4e48-8430-f8297ddd3283
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DS_REPL_CURSORS_2, DS_REPL_CURSORS_2 structure [Active Directory], _DS_REPL_CURSORS_2, ad.ds_repl_cursors_2, ntdsapi/DS_REPL_CURSORS_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,6 +66,16 @@ Contains  the number of elements in the <b>rgCursor</b> array.
 ### -field dwEnumerationContext
 
 Contains the zero-based index of the next entry to retrieve if more entries are available. This value is passed for the <i>dwEnumerationContext</i> parameter in the next call to <a href="https://msdn.microsoft.com/5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d">DsReplicaGetInfo2</a> to retrieve the next block of entries. If no more entries are available, this member contains -1.
+
+
+### -field rgCursor.size_is
+
+ 
+
+
+### -field rgCursor.size_is.cNumCursors
+
+ 
 
 
 ### -field rgCursor

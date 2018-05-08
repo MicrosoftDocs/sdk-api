@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetCaptionServiceNumber
-title: ICaptionServiceDescriptor::GetCaptionServiceNumber method
+title: ICaptionServiceDescriptor::GetCaptionServiceNumber
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor_getcaptionservicenumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0e8ca631-45fd-462c-bab9-4a242751f212
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCaptionServiceNumber method [Microsoft TV Technologies], GetCaptionServiceNumber method [Microsoft TV Technologies], ICaptionServiceDescriptor interface, GetCaptionServiceNumber,ICaptionServiceDescriptor.GetCaptionServiceNumber, ICaptionServiceDescriptor, ICaptionServiceDescriptor interface [Microsoft TV Technologies], GetCaptionServiceNumber method, ICaptionServiceDescriptor::GetCaptionServiceNumber, ICaptionServiceDescriptorGetCaptionServiceNumber, atscpsipparser/ICaptionServiceDescriptor::GetCaptionServiceNumber, mstv.icaptionservicedescriptor_getcaptionservicenumber
+ms.keywords: GetCaptionServiceNumber, GetCaptionServiceNumber method [Microsoft TV Technologies], GetCaptionServiceNumber method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetCaptionServiceNumber method, ICaptionServiceDescriptor.GetCaptionServiceNumber, ICaptionServiceDescriptor::GetCaptionServiceNumber, ICaptionServiceDescriptorGetCaptionServiceNumber, atscpsipparser/ICaptionServiceDescriptor::GetCaptionServiceNumber, mstv.icaptionservicedescriptor_getcaptionservicenumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICaptionServiceDescriptor::GetCaptionServiceNumber method
+# ICaptionServiceDescriptor::GetCaptionServiceNumber
 
 
 ## -description

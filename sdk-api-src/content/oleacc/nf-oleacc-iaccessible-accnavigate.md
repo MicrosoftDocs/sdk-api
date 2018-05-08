@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.accNavigate
-title: IAccessible::accNavigate method
+title: IAccessible::accNavigate
 author: windows-driver-content
 description: The IAccessible::accNavigate method traverses to another UI element within a container and retrieves the object. This method is optional.
 old-location: winauto\iaccessible_iaccessible__accnavigate.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 8825c951-a6c1-4690-b36a-6159f30a13d9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], accNavigate method, IAccessible::accNavigate, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_accNavigate, accNavigate method [Windows Accessibility], accNavigate method [Windows Accessibility], IAccessible interface, accNavigate,IAccessible.accNavigate, msaa.iaccessible_iaccessible__accnavigate, oleacc/IAccessible::accNavigate, winauto.iaccessible_iaccessible__accnavigate
+ms.keywords: IAccessible interface [Windows Accessibility],accNavigate method, IAccessible.accNavigate, IAccessible::accNavigate, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_accNavigate, accNavigate, accNavigate method [Windows Accessibility], accNavigate method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accnavigate, oleacc/IAccessible::accNavigate, winauto.iaccessible_iaccessible__accnavigate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccessible::accNavigate method
+# IAccessible::accNavigate
 
 
 ## -description

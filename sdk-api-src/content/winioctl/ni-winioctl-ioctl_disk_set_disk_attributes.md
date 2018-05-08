@@ -8,7 +8,7 @@ old-project: FileIO
 ms.assetid: ba0e3666-8660-493c-b821-5997d577e7e2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_DISK_SET_DISK_ATTRIBUTES, IOCTL_DISK_SET_DISK_ATTRIBUTES control code [Files], fs.ioctl_disk_set_disk_attributes, winioctl/IOCTL_DISK_SET_DISK_ATTRIBUTES
+ms.keywords: IOCTL_DISK_SET_DISK_ATTRIBUTES, IOCTL_DISK_SET_DISK_ATTRIBUTES control, IOCTL_DISK_SET_DISK_ATTRIBUTES control code [Files], fs.ioctl_disk_set_disk_attributes, winioctl/IOCTL_DISK_SET_DISK_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

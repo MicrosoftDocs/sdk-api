@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetContainingOutput
-title: IDXGISwapChain::GetContainingOutput method
+title: IDXGISwapChain::GetContainingOutput
 author: windows-driver-content
 description: Get the output (the display monitor) that contains the majority of the client area of the target window.
 old-location: direct3ddxgi\idxgiswapchain_getcontainingoutput.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getcontainingoutput.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 714841de-04d3-ab0c-d428-3902324a14e2, GetContainingOutput method [DXGI], GetContainingOutput method [DXGI], IDXGISwapChain interface, GetContainingOutput,IDXGISwapChain.GetContainingOutput, IDXGISwapChain, IDXGISwapChain interface [DXGI], GetContainingOutput method, IDXGISwapChain::GetContainingOutput, direct3ddxgi.idxgiswapchain_getcontainingoutput, dxgi/IDXGISwapChain::GetContainingOutput
+ms.keywords: 714841de-04d3-ab0c-d428-3902324a14e2, GetContainingOutput, GetContainingOutput method [DXGI], GetContainingOutput method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetContainingOutput method, IDXGISwapChain.GetContainingOutput, IDXGISwapChain::GetContainingOutput, direct3ddxgi.idxgiswapchain_getcontainingoutput, dxgi/IDXGISwapChain::GetContainingOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain::GetContainingOutput method
+# IDXGISwapChain::GetContainingOutput
 
 
 ## -description

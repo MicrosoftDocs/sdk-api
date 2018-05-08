@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetDimension
-title: IUIAnimationVariable2::GetDimension method
+title: IUIAnimationVariable2::GetDimension
 author: windows-driver-content
 description: Gets the number of dimensions that the animation variable is to be animated in.
 old-location: uianimation\iuianimationvariable2_getdimension.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 572C3851-88CD-44FE-A842-62DBD3994CB6
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDimension method [Windows Animation], GetDimension method [Windows Animation], IUIAnimationVariable2 interface, GetDimension,IUIAnimationVariable2.GetDimension, IUIAnimationVariable2, IUIAnimationVariable2 interface [Windows Animation], GetDimension method, IUIAnimationVariable2::GetDimension, uianimation.iuianimationvariable2_getdimension, uianimation/IUIAnimationVariable2::GetDimension
+ms.keywords: GetDimension, GetDimension method [Windows Animation], GetDimension method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetDimension method, IUIAnimationVariable2.GetDimension, IUIAnimationVariable2::GetDimension, uianimation.iuianimationvariable2_getdimension, uianimation/IUIAnimationVariable2::GetDimension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable2::GetDimension method
+# IUIAnimationVariable2::GetDimension
 
 
 ## -description

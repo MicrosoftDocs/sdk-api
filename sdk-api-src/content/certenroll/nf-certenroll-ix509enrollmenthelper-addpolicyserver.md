@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.AddPolicyServer
-title: IX509EnrollmentHelper::AddPolicyServer method
+title: IX509EnrollmentHelper::AddPolicyServer
 author: windows-driver-content
 description: Registers a certificate enrollment policy (CEP) server and saves CEP access credentials in the credential cache.
 old-location: security\ix509enrollmenthelper_addpolicyserver.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 6b341b5a-88f2-4221-812d-b2997829aa4c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: AddPolicyServer method [Security], AddPolicyServer method [Security], IX509EnrollmentHelper interface, AddPolicyServer,IX509EnrollmentHelper.AddPolicyServer, IX509EnrollmentHelper, IX509EnrollmentHelper interface [Security], AddPolicyServer method, IX509EnrollmentHelper::AddPolicyServer, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentHelper::AddPolicyServer, security.ix509enrollmenthelper_addpolicyserver
+ms.keywords: AddPolicyServer, AddPolicyServer method [Security], AddPolicyServer method [Security],IX509EnrollmentHelper interface, IX509EnrollmentHelper interface [Security],AddPolicyServer method, IX509EnrollmentHelper.AddPolicyServer, IX509EnrollmentHelper::AddPolicyServer, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentHelper::AddPolicyServer, security.ix509enrollmenthelper_addpolicyserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509EnrollmentHelper::AddPolicyServer method
+# IX509EnrollmentHelper::AddPolicyServer
 
 
 ## -description

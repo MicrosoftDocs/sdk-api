@@ -7,8 +7,8 @@ old-location: dshow\iseekingpassthru.htm
 old-project: DirectShow
 ms.assetid: a22f2723-b44e-4c7e-8508-db5c6af5b1d6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISeekingPassThru, ISeekingPassThru interface [DirectShow], ISeekingPassThru interface [DirectShow], described, ISeekingPassThruInterface, dshow.iseekingpassthru, strmif/ISeekingPassThru
+ms.date: 4/30/2018
+ms.keywords: ISeekingPassThru, ISeekingPassThru interface [DirectShow], ISeekingPassThru interface [DirectShow],described, ISeekingPassThruInterface, dshow.iseekingpassthru, strmif/ISeekingPassThru
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

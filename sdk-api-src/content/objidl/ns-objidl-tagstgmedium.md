@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: uSTGMEDIUM, uSTGMEDIUM
+req.typenames: uSTGMEDIUM
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -64,6 +64,41 @@ The ype of storage medium. The marshaling and unmarshaling routines use this val
 
 
 ### -field u
+
+ 
+
+
+### -field u.hBitmap
+
+ 
+
+
+### -field u.hMetaFilePict
+
+ 
+
+
+### -field u.hEnhMetaFile
+
+ 
+
+
+### -field u.hGlobal
+
+ 
+
+
+### -field u.lpszFileName
+
+ 
+
+
+### -field u.pstm
+
+ 
+
+
+### -field u.pstg
 
  
 

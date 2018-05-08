@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.ChangeCase
-title: ITextRange::ChangeCase method
+title: ITextRange::ChangeCase
 author: windows-driver-content
 description: Changes the case of letters in this range according to the Type parameter.
 old-location: controls\ITextRange_ChangeCase.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\changecase.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ChangeCase method [Windows Controls], ChangeCase method [Windows Controls], ITextRange interface, ChangeCase,ITextRange.ChangeCase, ITextRange, ITextRange interface [Windows Controls], ChangeCase method, ITextRange::ChangeCase, _win32_ITextRange_ChangeCase, _win32_ITextRange_ChangeCase_cpp, controls.ITextRange_ChangeCase, controls._win32_ITextRange_ChangeCase, tom/ITextRange::ChangeCase, tomLowerCase, tomSentenceCase, tomTitleCase, tomToggleCase, tomUpperCase
+ms.date: 4/27/2018
+ms.keywords: ChangeCase, ChangeCase method [Windows Controls], ChangeCase method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],ChangeCase method, ITextRange.ChangeCase, ITextRange::ChangeCase, _win32_ITextRange_ChangeCase, _win32_ITextRange_ChangeCase_cpp, controls.ITextRange_ChangeCase, controls._win32_ITextRange_ChangeCase, tom/ITextRange::ChangeCase, tomLowerCase, tomSentenceCase, tomTitleCase, tomToggleCase, tomUpperCase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::ChangeCase method
+# ITextRange::ChangeCase
 
 
 ## -description

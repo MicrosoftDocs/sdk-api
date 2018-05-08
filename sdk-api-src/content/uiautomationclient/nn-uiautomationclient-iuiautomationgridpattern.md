@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 36a4893e-5f49-413c-a29a-e58291c7d057
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationGridPattern, IUIAutomationGridPattern interface [Windows Accessibility], IUIAutomationGridPattern interface [Windows Accessibility], described, uiauto.uiauto_IUIAutomationGridPattern, uiauto_IUIAutomationGridPattern, uiautomationclient/IUIAutomationGridPattern, winauto.uiauto_IUIAutomationGridPattern
+ms.keywords: IUIAutomationGridPattern, IUIAutomationGridPattern interface [Windows Accessibility], IUIAutomationGridPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationGridPattern, uiauto_IUIAutomationGridPattern, uiautomationclient/IUIAutomationGridPattern, winauto.uiauto_IUIAutomationGridPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

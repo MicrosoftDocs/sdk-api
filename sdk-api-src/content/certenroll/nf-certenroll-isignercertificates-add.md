@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Add
-title: ISignerCertificates::Add method
+title: ISignerCertificates::Add
 author: windows-driver-content
 description: Adds an ISignerCertificate object to the collection.
 old-location: security\isignercertificates_add_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 985bda2c-caad-4910-9e9c-d673975953aa
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Add method [Security], Add method [Security], ISignerCertificates interface, Add,ISignerCertificates.Add, ISignerCertificates, ISignerCertificates interface [Security], Add method, ISignerCertificates::Add, certenroll/ISignerCertificates::Add, security.isignercertificates_add_method
+ms.keywords: Add, Add method [Security], Add method [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Add method, ISignerCertificates.Add, ISignerCertificates::Add, certenroll/ISignerCertificates::Add, security.isignercertificates_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ISignerCertificates::Add method
+# ISignerCertificates::Add
 
 
 ## -description

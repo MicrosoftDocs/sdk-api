@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.GetTimeCreatedAndConnected
-title: INetwork::GetTimeCreatedAndConnected method
+title: INetwork::GetTimeCreatedAndConnected
 author: windows-driver-content
 description: The GetTimeCreatedAndConnected method returns the local date and time when the network was created and connected.
 old-location: nla\inetwork_gettimecreatedandconnected.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 607ce0be-fe7e-4969-b9d0-db1def054f67
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTimeCreatedAndConnected method [Network Awareness], GetTimeCreatedAndConnected method [Network Awareness], INetwork interface, GetTimeCreatedAndConnected,INetwork.GetTimeCreatedAndConnected, INetwork, INetwork interface [Network Awareness], GetTimeCreatedAndConnected method, INetwork::GetTimeCreatedAndConnected, netlistmgr/INetwork::GetTimeCreatedAndConnected, nla.inetwork_gettimecreatedandconnected
+ms.keywords: GetTimeCreatedAndConnected, GetTimeCreatedAndConnected method [Network Awareness], GetTimeCreatedAndConnected method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetTimeCreatedAndConnected method, INetwork.GetTimeCreatedAndConnected, INetwork::GetTimeCreatedAndConnected, netlistmgr/INetwork::GetTimeCreatedAndConnected, nla.inetwork_gettimecreatedandconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetwork::GetTimeCreatedAndConnected method
+# INetwork::GetTimeCreatedAndConnected
 
 
 ## -description

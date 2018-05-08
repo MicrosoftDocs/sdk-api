@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IConfigAviMux.SetMasterStream
-title: IConfigAviMux::SetMasterStream method
+title: IConfigAviMux::SetMasterStream
 author: windows-driver-content
 description: The SetMasterStream method specifies a stream that will be used to synchronize the other streams in the file.
 old-location: dshow\iconfigavimux_setmasterstream.htm
 old-project: DirectShow
 ms.assetid: 1f255498-8bbb-48a0-ae97-0cf2698e609b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IConfigAviMux, IConfigAviMux interface [DirectShow], SetMasterStream method, IConfigAviMux::SetMasterStream, IConfigAviMuxSetMasterStream, SetMasterStream method [DirectShow], SetMasterStream method [DirectShow], IConfigAviMux interface, SetMasterStream,IConfigAviMux.SetMasterStream, dshow.iconfigavimux_setmasterstream, strmif/IConfigAviMux::SetMasterStream
+ms.date: 4/30/2018
+ms.keywords: IConfigAviMux interface [DirectShow],SetMasterStream method, IConfigAviMux.SetMasterStream, IConfigAviMux::SetMasterStream, IConfigAviMuxSetMasterStream, SetMasterStream, SetMasterStream method [DirectShow], SetMasterStream method [DirectShow],IConfigAviMux interface, dshow.iconfigavimux_setmasterstream, strmif/IConfigAviMux::SetMasterStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IConfigAviMux::SetMasterStream method
+# IConfigAviMux::SetMasterStream
 
 
 ## -description

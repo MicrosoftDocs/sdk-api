@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetOutboundHttpHeaders
-title: IWSDHttpMessageParameters::SetOutboundHttpHeaders method
+title: IWSDHttpMessageParameters::SetOutboundHttpHeaders
 author: windows-driver-content
 description: Sets the HTTP headers used for outbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_setoutboundhttpheaders.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: f54f86dc-4b25-4faa-8a37-b241e9ba8c6c
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, SetOutboundHttpHeaders method, IWSDHttpMessageParameters::SetOutboundHttpHeaders, SetOutboundHttpHeaders method, SetOutboundHttpHeaders method, IWSDHttpMessageParameters interface, SetOutboundHttpHeaders,IWSDHttpMessageParameters.SetOutboundHttpHeaders, ncd.iwsdhttpmessageparameters_setoutboundhttpheaders, wsdbase/IWSDHttpMessageParameters::SetOutboundHttpHeaders
+ms.keywords: IWSDHttpMessageParameters interface,SetOutboundHttpHeaders method, IWSDHttpMessageParameters.SetOutboundHttpHeaders, IWSDHttpMessageParameters::SetOutboundHttpHeaders, SetOutboundHttpHeaders, SetOutboundHttpHeaders method, SetOutboundHttpHeaders method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setoutboundhttpheaders, wsdbase/IWSDHttpMessageParameters::SetOutboundHttpHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDHttpMessageParameters::SetOutboundHttpHeaders method
+# IWSDHttpMessageParameters::SetOutboundHttpHeaders
 
 
 ## -description

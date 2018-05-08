@@ -7,7 +7,7 @@ old-location: ad\ds_repl_value_meta_data_blob_ext.htm
 old-project: AD
 ms.assetid: 095180F4-9E3F-47EE-B39E-107D7D219DCB
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DS_REPL_VALUE_META_DATA_BLOB_EXT, DS_REPL_VALUE_META_DATA_BLOB_EXT structure [Active Directory], _DS_REPL_VALUE_META_DATA_BLOB_EXT, ad.ds_repl_value_meta_data_blob_ext, ntdsapi/DS_REPL_VALUE_META_DATA_BLOB_EXT
 ms.prod: windows-hardware
 ms.technology: windows-devices

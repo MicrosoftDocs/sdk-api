@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.Cancel
-title: IBackgroundCopyJob::Cancel method
+title: IBackgroundCopyJob::Cancel
 author: windows-driver-content
 description: Deletes the job from the transfer queue and removes related temporary files from the client (downloads) and server (uploads).
 old-location: bits\ibackgroundcopyjob_cancel.htm
 old-project: Bits
 ms.assetid: bb3f32d9-298a-4099-8d87-4057ddefb0ba
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: Cancel method [BITS], Cancel method [BITS], IBackgroundCopyJob interface, Cancel,IBackgroundCopyJob.Cancel, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], Cancel method, IBackgroundCopyJob::Cancel, _drz_ibackgroundcopyjob_cancel, bits.ibackgroundcopyjob_cancel, bits/IBackgroundCopyJob::Cancel
+ms.date: 4/27/2018
+ms.keywords: Cancel, Cancel method [BITS], Cancel method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],Cancel method, IBackgroundCopyJob.Cancel, IBackgroundCopyJob::Cancel, _drz_ibackgroundcopyjob_cancel, bits.ibackgroundcopyjob_cancel, bits/IBackgroundCopyJob::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::Cancel method
+# IBackgroundCopyJob::Cancel
 
 
 ## -description

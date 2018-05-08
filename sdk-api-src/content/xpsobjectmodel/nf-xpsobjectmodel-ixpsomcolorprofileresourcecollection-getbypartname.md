@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.GetByPartName
-title: IXpsOMColorProfileResourceCollection::GetByPartName method
+title: IXpsOMColorProfileResourceCollection::GetByPartName
 author: windows-driver-content
 description: Gets an IXpsOMColorProfileResource interface pointer from the collection by matching the interface's part name.
 old-location: xps\ixpsomcolorprofileresourcecollection_getbypartname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 9c9dc7d0-af93-4bf3-b8ba-799c1e4bb273
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging], IXpsOMColorProfileResourceCollection interface, GetByPartName,IXpsOMColorProfileResourceCollection.GetByPartName, IXpsOMColorProfileResourceCollection, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging], GetByPartName method, IXpsOMColorProfileResourceCollection::GetByPartName, xps.ixpsomcolorprofileresourcecollection_getbypartname, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetByPartName
+ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMColorProfileResourceCollection.GetByPartName, IXpsOMColorProfileResourceCollection::GetByPartName, xps.ixpsomcolorprofileresourcecollection_getbypartname, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetByPartName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMColorProfileResourceCollection::GetByPartName method
+# IXpsOMColorProfileResourceCollection::GetByPartName
 
 
 ## -description

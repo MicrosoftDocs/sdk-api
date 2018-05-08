@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.GetMetadataFormat
-title: IWICMetadataHandlerInfo::GetMetadataFormat method
+title: IWICMetadataHandlerInfo::GetMetadataFormat
 author: windows-driver-content
 description: Retrieves the metadata format of the metadata handler.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getmetadataformat.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 0a54d59a-3fe4-4636-94a0-5ee449d1d5c3
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetMetadataFormat method [Windows Imaging Component], GetMetadataFormat method [Windows Imaging Component], IWICMetadataHandlerInfo interface, GetMetadataFormat,IWICMetadataHandlerInfo.GetMetadataFormat, IWICMetadataHandlerInfo, IWICMetadataHandlerInfo interface [Windows Imaging Component], GetMetadataFormat method, IWICMetadataHandlerInfo::GetMetadataFormat, _wic_codec_iwicmetadatahandlerinfo_getmetadataformat, wic._wic_codec_iwicmetadatahandlerinfo_getmetadataformat, wincodecsdk/IWICMetadataHandlerInfo::GetMetadataFormat
+ms.keywords: GetMetadataFormat, GetMetadataFormat method [Windows Imaging Component], GetMetadataFormat method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetMetadataFormat method, IWICMetadataHandlerInfo.GetMetadataFormat, IWICMetadataHandlerInfo::GetMetadataFormat, _wic_codec_iwicmetadatahandlerinfo_getmetadataformat, wic._wic_codec_iwicmetadatahandlerinfo_getmetadataformat, wincodecsdk/IWICMetadataHandlerInfo::GetMetadataFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataHandlerInfo::GetMetadataFormat method
+# IWICMetadataHandlerInfo::GetMetadataFormat
 
 
 ## -description

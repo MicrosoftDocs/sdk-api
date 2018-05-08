@@ -1,14 +1,14 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.GetID
-title: IWMPPlugin::GetID method
+title: IWMPPlugin::GetID
 author: windows-driver-content
 description: The IWMPPlugin::GetID method returns the class id of the plug-in.
 old-location: wmp\iwmpplugin_getid.htm
 old-project: WMP
 ms.assetid: 883b6e19-5d1a-4ad9-882b-953772e8e11a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetID method [Windows Media Player], GetID method [Windows Media Player], IWMPPlugin interface, GetID,IWMPPlugin.GetID, IWMPPlugin, IWMPPlugin interface [Windows Media Player], GetID method, IWMPPlugin::GetID, IWMPPluginGetIDDSP, wmp.iwmpplugin_getid, wmpservices/IWMPPlugin::GetID
+ms.date: 5/4/2018
+ms.keywords: GetID, GetID method [Windows Media Player], GetID method [Windows Media Player],IWMPPlugin interface, IWMPPlugin interface [Windows Media Player],GetID method, IWMPPlugin.GetID, IWMPPlugin::GetID, IWMPPluginGetIDDSP, wmp.iwmpplugin_getid, wmpservices/IWMPPlugin::GetID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlugin::GetID method
+# IWMPPlugin::GetID
 
 
 ## -description

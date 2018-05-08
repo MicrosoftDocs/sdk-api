@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetManufacturer
-title: IWMDMDevice::GetManufacturer method
+title: IWMDMDevice::GetManufacturer
 author: windows-driver-content
 description: The GetManufacturer method retrieves the name of the manufacturer of the device.
 old-location: wmdm\iwmdmdevice_getmanufacturer.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 42e862e4-bfbc-4fca-b5df-001416173d6e
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetManufacturer method [windows Media Device Manager], GetManufacturer method [windows Media Device Manager], IWMDMDevice interface, GetManufacturer,IWMDMDevice.GetManufacturer, IWMDMDevice, IWMDMDevice interface [windows Media Device Manager], GetManufacturer method, IWMDMDevice::GetManufacturer, IWMDMDeviceGetManufacturer, mswmdm/IWMDMDevice::GetManufacturer, wmdm.iwmdmdevice_getmanufacturer
+ms.keywords: GetManufacturer, GetManufacturer method [windows Media Device Manager], GetManufacturer method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetManufacturer method, IWMDMDevice.GetManufacturer, IWMDMDevice::GetManufacturer, IWMDMDeviceGetManufacturer, mswmdm/IWMDMDevice::GetManufacturer, wmdm.iwmdmdevice_getmanufacturer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMDevice::GetManufacturer method
+# IWMDMDevice::GetManufacturer
 
 
 ## -description

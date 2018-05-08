@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeUnit.GetChangeUnitVersion
-title: ISyncChangeUnit::GetChangeUnitVersion method
+title: ISyncChangeUnit::GetChangeUnitVersion
 author: windows-driver-content
 description: Gets the version for the change unit change.
 old-location: winsync\isyncchangeunit_getchangeunitversion.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: b40ec132-0459-4ddf-9156-bce2a1dfbc4d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetChangeUnitVersion method [Windows Sync], GetChangeUnitVersion method [Windows Sync], ISyncChangeUnit interface, GetChangeUnitVersion,ISyncChangeUnit.GetChangeUnitVersion, ISyncChangeUnit, ISyncChangeUnit interface [Windows Sync], GetChangeUnitVersion method, ISyncChangeUnit::GetChangeUnitVersion, winsync.isyncchangeunit_getchangeunitversion, winsync/ISyncChangeUnit::GetChangeUnitVersion
+ms.keywords: GetChangeUnitVersion, GetChangeUnitVersion method [Windows Sync], GetChangeUnitVersion method [Windows Sync],ISyncChangeUnit interface, ISyncChangeUnit interface [Windows Sync],GetChangeUnitVersion method, ISyncChangeUnit.GetChangeUnitVersion, ISyncChangeUnit::GetChangeUnitVersion, winsync.isyncchangeunit_getchangeunitversion, winsync/ISyncChangeUnit::GetChangeUnitVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeUnit::GetChangeUnitVersion method
+# ISyncChangeUnit::GetChangeUnitVersion
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.GetOffset
-title: IXpsOMGradientStop::GetOffset method
+title: IXpsOMGradientStop::GetOffset
 author: windows-driver-content
 description: Gets the offset value of the gradient stop.
 old-location: xps\ixpsomgradientstop_getoffset.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 14048707-1a73-40a1-9094-da4885d9934d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetOffset method [XPS Documents and Packaging], GetOffset method [XPS Documents and Packaging], IXpsOMGradientStop interface, GetOffset,IXpsOMGradientStop.GetOffset, IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and Packaging], GetOffset method, IXpsOMGradientStop::GetOffset, xps.ixpsomgradientstop_getoffset, xpsobjectmodel/IXpsOMGradientStop::GetOffset
+ms.keywords: GetOffset, GetOffset method [XPS Documents and Packaging], GetOffset method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],GetOffset method, IXpsOMGradientStop.GetOffset, IXpsOMGradientStop::GetOffset, xps.ixpsomgradientstop_getoffset, xpsobjectmodel/IXpsOMGradientStop::GetOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientStop::GetOffset method
+# IXpsOMGradientStop::GetOffset
 
 
 ## -description

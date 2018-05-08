@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelperEx.SetUtilities
-title: INetDiagHelperEx::SetUtilities method
+title: INetDiagHelperEx::SetUtilities
 author: windows-driver-content
 description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
 old-location: ndf\inetdiaghelperex_setutilities.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: cdc3cdd5-c301-4052-81ec-a4a68248d3a4
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: INetDiagHelperEx, INetDiagHelperEx interface [NDF], SetUtilities method, INetDiagHelperEx::SetUtilities, SetUtilities method [NDF], SetUtilities method [NDF], INetDiagHelperEx interface, SetUtilities,INetDiagHelperEx.SetUtilities, ndf.inetdiaghelperex_setutilities, ndhelper/INetDiagHelperEx::SetUtilities
+ms.keywords: INetDiagHelperEx interface [NDF],SetUtilities method, INetDiagHelperEx.SetUtilities, INetDiagHelperEx::SetUtilities, SetUtilities, SetUtilities method [NDF], SetUtilities method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_setutilities, ndhelper/INetDiagHelperEx::SetUtilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelperEx::SetUtilities method
+# INetDiagHelperEx::SetUtilities
 
 
 ## -description

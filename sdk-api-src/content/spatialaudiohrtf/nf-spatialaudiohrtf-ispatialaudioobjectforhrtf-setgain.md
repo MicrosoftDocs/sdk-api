@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetGain
-title: ISpatialAudioObjectForHrtf::SetGain method
+title: ISpatialAudioObjectForHrtf::SetGain
 author: windows-driver-content
 description: Sets the gain for the ISpatialAudioObjectForHrtf.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setgain.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 7DE268DC-5AA0-4866-8495-34292AEFB142
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ISpatialAudioObjectForHrtf, ISpatialAudioObjectForHrtf interface [Core Audio], SetGain method, ISpatialAudioObjectForHrtf::SetGain, SetGain method [Core Audio], SetGain method [Core Audio], ISpatialAudioObjectForHrtf interface, SetGain,ISpatialAudioObjectForHrtf.SetGain, coreaudio.ispatialaudioobjectforhrtf_setgain, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetGain
+ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetGain method, ISpatialAudioObjectForHrtf.SetGain, ISpatialAudioObjectForHrtf::SetGain, SetGain, SetGain method [Core Audio], SetGain method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setgain, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetGain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioObjectForHrtf::SetGain method
+# ISpatialAudioObjectForHrtf::SetGain
 
 
 ## -description

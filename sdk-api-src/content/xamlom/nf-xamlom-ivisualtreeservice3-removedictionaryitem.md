@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService3.RemoveDictionaryItem
-title: IVisualTreeService3::RemoveDictionaryItem method
+title: IVisualTreeService3::RemoveDictionaryItem
 author: windows-driver-content
 description: Removes an item from a ResourceDictionary, and re-resolves all elements in the tree that reference a resource with the specified key.
 old-location: xaml_diagnostics\ivisualtreeservice3_removedictionaryitem.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 6239D855-7408-47ED-9090-E7726E7E403E
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: IVisualTreeService3, IVisualTreeService3 interface, RemoveDictionaryItem method, IVisualTreeService3::RemoveDictionaryItem, RemoveDictionaryItem method, RemoveDictionaryItem method, IVisualTreeService3 interface, RemoveDictionaryItem,IVisualTreeService3.RemoveDictionaryItem, xaml_diagnostics.ivisualtreeservice3_removedictionaryitem, xamlom/IVisualTreeService3::RemoveDictionaryItem
+ms.keywords: IVisualTreeService3 interface,RemoveDictionaryItem method, IVisualTreeService3.RemoveDictionaryItem, IVisualTreeService3::RemoveDictionaryItem, RemoveDictionaryItem, RemoveDictionaryItem method, RemoveDictionaryItem method,IVisualTreeService3 interface, xaml_diagnostics.ivisualtreeservice3_removedictionaryitem, xamlom/IVisualTreeService3::RemoveDictionaryItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeService3::RemoveDictionaryItem method
+# IVisualTreeService3::RemoveDictionaryItem
 
 
 ## -description

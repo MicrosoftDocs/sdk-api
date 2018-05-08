@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.SetText
-title: ITextRange::SetText method
+title: ITextRange::SetText
 author: windows-driver-content
 description: Sets the text in this range.
 old-location: controls\ITextRange_SetText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\settext.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange, ITextRange interface [Windows Controls], SetText method, ITextRange::SetText, SetText method [Windows Controls], SetText method [Windows Controls], ITextRange interface, SetText,ITextRange.SetText, _win32_ITextRange_SetText, _win32_ITextRange_SetText_cpp, controls.ITextRange_SetText, controls._win32_ITextRange_SetText, tom/ITextRange::SetText
+ms.date: 4/27/2018
+ms.keywords: ITextRange interface [Windows Controls],SetText method, ITextRange.SetText, ITextRange::SetText, SetText, SetText method [Windows Controls], SetText method [Windows Controls],ITextRange interface, _win32_ITextRange_SetText, _win32_ITextRange_SetText_cpp, controls.ITextRange_SetText, controls._win32_ITextRange_SetText, tom/ITextRange::SetText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::SetText method
+# ITextRange::SetText
 
 
 ## -description

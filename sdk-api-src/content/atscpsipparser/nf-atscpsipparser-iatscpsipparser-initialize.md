@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.Initialize
-title: IAtscPsipParser::Initialize method
+title: IAtscPsipParser::Initialize
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7a4d4d17-4fc5-481c-bcf8-0f68b2f0a8e2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], Initialize method, IAtscPsipParser::Initialize, IAtscPsipParserInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IAtscPsipParser interface, Initialize,IAtscPsipParser.Initialize, atscpsipparser/IAtscPsipParser::Initialize, mstv.iatscpsipparser_initialize
+ms.keywords: IAtscPsipParser interface [Microsoft TV Technologies],Initialize method, IAtscPsipParser.Initialize, IAtscPsipParser::Initialize, IAtscPsipParserInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IAtscPsipParser interface, atscpsipparser/IAtscPsipParser::Initialize, mstv.iatscpsipparser_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAtscPsipParser::Initialize method
+# IAtscPsipParser::Initialize
 
 
 ## -description

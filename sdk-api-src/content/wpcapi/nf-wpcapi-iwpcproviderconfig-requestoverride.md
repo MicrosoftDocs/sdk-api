@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCProviderConfig.RequestOverride
-title: IWPCProviderConfig::RequestOverride method
+title: IWPCProviderConfig::RequestOverride
 author: windows-driver-content
 description: Called for the current provider to enable configuration override.
 old-location: parcon\iwpcproviderconfig_requestoverride.htm
@@ -8,7 +8,7 @@ old-project: parcon
 ms.assetid: 66A75879-9A95-472A-9529-61A57E37B9A0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWPCProviderConfig, IWPCProviderConfig interface, RequestOverride method, IWPCProviderConfig::RequestOverride, RequestOverride method, RequestOverride method, IWPCProviderConfig interface, RequestOverride,IWPCProviderConfig.RequestOverride, WPCFLAG_APPS_RESTRICTED, WPCFLAG_GAMES_BLOCKED, WPCFLAG_HOURS_RESTRICTED, WPCFLAG_LOGGING_REQUIRED, WPCFLAG_NO_RESTRICTION, WPCFLAG_WEB_FILTERED, parcon.iwpcproviderconfig_requestoverride, wpcapi/IWPCProviderConfig::RequestOverride
+ms.keywords: IWPCProviderConfig interface,RequestOverride method, IWPCProviderConfig.RequestOverride, IWPCProviderConfig::RequestOverride, RequestOverride, RequestOverride method, RequestOverride method,IWPCProviderConfig interface, WPCFLAG_APPS_RESTRICTED, WPCFLAG_GAMES_BLOCKED, WPCFLAG_HOURS_RESTRICTED, WPCFLAG_LOGGING_REQUIRED, WPCFLAG_NO_RESTRICTION, WPCFLAG_WEB_FILTERED, parcon.iwpcproviderconfig_requestoverride, wpcapi/IWPCProviderConfig::RequestOverride
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWPCProviderConfig::RequestOverride method
+# IWPCProviderConfig::RequestOverride
 
 
 ## -description

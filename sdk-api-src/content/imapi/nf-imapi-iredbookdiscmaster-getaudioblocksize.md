@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetAudioBlockSize
-title: IRedbookDiscMaster::GetAudioBlockSize method
+title: IRedbookDiscMaster::GetAudioBlockSize
 author: windows-driver-content
 description: Retrieves the size, in bytes, of an audio block.
 old-location: imapi\iredbookdiscmaster_getaudioblocksize.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 25e8fd75-7a24-421f-b61e-b131dfbbcc8c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetAudioBlockSize method [IMAPI], GetAudioBlockSize method [IMAPI], IRedbookDiscMaster interface, GetAudioBlockSize,IRedbookDiscMaster.GetAudioBlockSize, IRedbookDiscMaster, IRedbookDiscMaster interface [IMAPI], GetAudioBlockSize method, IRedbookDiscMaster::GetAudioBlockSize, _win32_iredbookdiscmaster_getaudioblocksize, base.iredbookdiscmaster_getaudioblocksize, imapi.iredbookdiscmaster_getaudioblocksize, imapi/IRedbookDiscMaster::GetAudioBlockSize
+ms.keywords: GetAudioBlockSize, GetAudioBlockSize method [IMAPI], GetAudioBlockSize method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetAudioBlockSize method, IRedbookDiscMaster.GetAudioBlockSize, IRedbookDiscMaster::GetAudioBlockSize, _win32_iredbookdiscmaster_getaudioblocksize, base.iredbookdiscmaster_getaudioblocksize, imapi.iredbookdiscmaster_getaudioblocksize, imapi/IRedbookDiscMaster::GetAudioBlockSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRedbookDiscMaster::GetAudioBlockSize method
+# IRedbookDiscMaster::GetAudioBlockSize
 
 
 ## -description

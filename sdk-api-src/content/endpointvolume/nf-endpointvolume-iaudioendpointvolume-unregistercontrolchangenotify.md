@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.UnregisterControlChangeNotify
-title: IAudioEndpointVolume::UnregisterControlChangeNotify method
+title: IAudioEndpointVolume::UnregisterControlChangeNotify
 author: windows-driver-content
 description: The UnregisterControlChangeNotify method deletes the registration of a client's notification callback interface that the client registered in a previous call to the IAudioEndpointVolume::RegisterControlChangeNotify method.
 old-location: coreaudio\iaudioendpointvolume_unregistercontrolchangenotify.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 4ae8263b-83f5-4d9f-9e48-d78fae98c7ad
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], UnregisterControlChangeNotify method, IAudioEndpointVolume::UnregisterControlChangeNotify, IAudioEndpointVolumeUnregisterControlChangeNotify, UnregisterControlChangeNotify method [Core Audio], UnregisterControlChangeNotify method [Core Audio], IAudioEndpointVolume interface, UnregisterControlChangeNotify,IAudioEndpointVolume.UnregisterControlChangeNotify, coreaudio.iaudioendpointvolume_unregistercontrolchangenotify, endpointvolume/IAudioEndpointVolume::UnregisterControlChangeNotify
+ms.keywords: IAudioEndpointVolume interface [Core Audio],UnregisterControlChangeNotify method, IAudioEndpointVolume.UnregisterControlChangeNotify, IAudioEndpointVolume::UnregisterControlChangeNotify, IAudioEndpointVolumeUnregisterControlChangeNotify, UnregisterControlChangeNotify, UnregisterControlChangeNotify method [Core Audio], UnregisterControlChangeNotify method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_unregistercontrolchangenotify, endpointvolume/IAudioEndpointVolume::UnregisterControlChangeNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAudioEndpointVolume::UnregisterControlChangeNotify method
+# IAudioEndpointVolume::UnregisterControlChangeNotify
 
 
 ## -description

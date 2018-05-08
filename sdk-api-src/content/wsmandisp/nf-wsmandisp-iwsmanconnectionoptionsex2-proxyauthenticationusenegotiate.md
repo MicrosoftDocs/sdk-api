@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate
-title: IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate method
+title: IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate
 author: windows-driver-content
 description: Returns the value of the proxy authentication flag WSManFlagProxyAuthenticationUseNegotiate for use in the authenticationMechanism parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyauthenticationusenegotiate.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: e7dfed5c-7897-4289-bd69-5f6fffaf66f7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManConnectionOptionsEx2, IWSManConnectionOptionsEx2 interface [Windows Remote Management], ProxyAuthenticationUseNegotiate method, IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate, ProxyAuthenticationUseNegotiate method [Windows Remote Management], ProxyAuthenticationUseNegotiate method [Windows Remote Management], IWSManConnectionOptionsEx2 interface, ProxyAuthenticationUseNegotiate,IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusenegotiate, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate
+ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseNegotiate method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate, IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate, ProxyAuthenticationUseNegotiate, ProxyAuthenticationUseNegotiate method [Windows Remote Management], ProxyAuthenticationUseNegotiate method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusenegotiate, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate method
+# IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate
 
 
 ## -description

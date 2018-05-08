@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.InitializeCustom
-title: IWICPalette::InitializeCustom method
+title: IWICPalette::InitializeCustom
 author: windows-driver-content
 description: Initializes a palette to the custom color entries provided.
 old-location: wic\_wic_codec_iwicpalette_initializecustom.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: eef17030-13eb-4d59-ac47-a49ffe2c80c8
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICPalette, IWICPalette interface [Windows Imaging Component], InitializeCustom method, IWICPalette::InitializeCustom, InitializeCustom method [Windows Imaging Component], InitializeCustom method [Windows Imaging Component], IWICPalette interface, InitializeCustom,IWICPalette.InitializeCustom, _wic_codec_iwicpalette_initializecustom, wic._wic_codec_iwicpalette_initializecustom, wincodec/IWICPalette::InitializeCustom
+ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeCustom method, IWICPalette.InitializeCustom, IWICPalette::InitializeCustom, InitializeCustom, InitializeCustom method [Windows Imaging Component], InitializeCustom method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializecustom, wic._wic_codec_iwicpalette_initializecustom, wincodec/IWICPalette::InitializeCustom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICPalette::InitializeCustom method
+# IWICPalette::InitializeCustom
 
 
 ## -description

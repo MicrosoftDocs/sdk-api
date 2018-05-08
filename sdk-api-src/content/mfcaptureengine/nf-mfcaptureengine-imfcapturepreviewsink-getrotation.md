@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.GetRotation
-title: IMFCapturePreviewSink::GetRotation method
+title: IMFCapturePreviewSink::GetRotation
 author: windows-driver-content
 description: Gets the rotation of the video preview stream.
 old-location: mf\imfcapturepreviewsink_getrotation.htm
 old-project: medfound
 ms.assetid: 5C750060-762B-42EE-92AD-8497B83E5D51
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetRotation method [Media Foundation], GetRotation method [Media Foundation], IMFCapturePreviewSink interface, GetRotation,IMFCapturePreviewSink.GetRotation, IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], GetRotation method, IMFCapturePreviewSink::GetRotation, mf.imfcapturepreviewsink_getrotation, mfcaptureengine/IMFCapturePreviewSink::GetRotation
+ms.date: 5/3/2018
+ms.keywords: GetRotation, GetRotation method [Media Foundation], GetRotation method [Media Foundation],IMFCapturePreviewSink interface, IMFCapturePreviewSink interface [Media Foundation],GetRotation method, IMFCapturePreviewSink.GetRotation, IMFCapturePreviewSink::GetRotation, mf.imfcapturepreviewsink_getrotation, mfcaptureengine/IMFCapturePreviewSink::GetRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCapturePreviewSink::GetRotation method
+# IMFCapturePreviewSink::GetRotation
 
 
 ## -description

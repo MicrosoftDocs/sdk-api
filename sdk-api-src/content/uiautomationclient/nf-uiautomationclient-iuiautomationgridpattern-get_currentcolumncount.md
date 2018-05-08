@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.get_CurrentColumnCount
-title: IUIAutomationGridPattern::get_CurrentColumnCount method
+title: IUIAutomationGridPattern::get_CurrentColumnCount
 author: windows-driver-content
 description: The number of columns in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_CurrentColumnCount.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: bbacb1a5-aca4-4a1b-ad2e-ff55b32ac395
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentColumnCount property [Windows Accessibility], CurrentColumnCount property [Windows Accessibility], IUIAutomationGridPattern interface, IUIAutomationGridPattern, IUIAutomationGridPattern interface [Windows Accessibility], CurrentColumnCount property, IUIAutomationGridPattern.CurrentColumnCount, IUIAutomationGridPattern::get_CurrentColumnCount, get_CurrentColumnCount,IUIAutomationGridPattern.get_CurrentColumnCount, uiauto.uiauto_IUIAutomationGridPattern_CurrentColumnCount, uiauto_IUIAutomationGridPattern_CurrentColumnCount, uiautomationclient/IUIAutomationGridPattern::CurrentColumnCount, uiautomationclient/IUIAutomationGridPattern::get_CurrentColumnCount, winauto.uiauto_IUIAutomationGridPattern_CurrentColumnCount
+ms.keywords: CurrentColumnCount property [Windows Accessibility], CurrentColumnCount property [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],CurrentColumnCount property, IUIAutomationGridPattern.CurrentColumnCount, IUIAutomationGridPattern.get_CurrentColumnCount, IUIAutomationGridPattern::CurrentColumnCount, IUIAutomationGridPattern::get_CurrentColumnCount, get_CurrentColumnCount, uiauto.uiauto_IUIAutomationGridPattern_CurrentColumnCount, uiauto_IUIAutomationGridPattern_CurrentColumnCount, uiautomationclient/IUIAutomationGridPattern::CurrentColumnCount, uiautomationclient/IUIAutomationGridPattern::get_CurrentColumnCount, winauto.uiauto_IUIAutomationGridPattern_CurrentColumnCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationGridPattern::get_CurrentColumnCount method
+# IUIAutomationGridPattern::get_CurrentColumnCount
 
 
 ## -description

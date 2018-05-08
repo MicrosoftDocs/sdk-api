@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.Close
-title: IWindowProvider::Close method
+title: IWindowProvider::Close
 author: windows-driver-content
 description: Attempts to close the window.
 old-location: winauto\uiauto_IWindowProvider_Close.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3bfd7801-c296-4f59-8094-c13c8f044038
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Close method [Windows Accessibility], Close method [Windows Accessibility], IWindowProvider interface, Close,IWindowProvider.Close, IWindowProvider, IWindowProvider interface [Windows Accessibility], Close method, IWindowProvider::Close, uiauto.uiauto_IWindowProvider_Close, uiauto_IWindowProvider_Close, uiautomationcore/IWindowProvider::Close, winauto.uiauto_IWindowProvider_Close
+ms.keywords: Close, Close method [Windows Accessibility], Close method [Windows Accessibility],IWindowProvider interface, IWindowProvider interface [Windows Accessibility],Close method, IWindowProvider.Close, IWindowProvider::Close, uiauto.uiauto_IWindowProvider_Close, uiauto_IWindowProvider_Close, uiautomationcore/IWindowProvider::Close, winauto.uiauto_IWindowProvider_Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWindowProvider::Close method
+# IWindowProvider::Close
 
 
 ## -description

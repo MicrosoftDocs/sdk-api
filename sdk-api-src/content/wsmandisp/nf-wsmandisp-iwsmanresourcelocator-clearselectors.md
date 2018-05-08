@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.ClearSelectors
-title: IWSManResourceLocator::ClearSelectors method
+title: IWSManResourceLocator::ClearSelectors
 author: windows-driver-content
 description: Removes all the selectors from a ResourceLocator object. You can provide a ResourceLocator object instead of specifying a resource URI in IWSManSession object operations such as Get, Put, or Enumerate.
 old-location: winrm\iwsmanresourcelocator_clearselectors.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: fccd0cd4-465b-454c-a300-ab50c25d6afe
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ClearSelectors method [Windows Remote Management], ClearSelectors method [Windows Remote Management], IWSManResourceLocator interface, ClearSelectors,IWSManResourceLocator.ClearSelectors, IWSManResourceLocator, IWSManResourceLocator interface [Windows Remote Management], ClearSelectors method, IWSManResourceLocator::ClearSelectors, winrm.iwsmanresourcelocator_clearselectors, wsmandisp/IWSManResourceLocator::ClearSelectors
+ms.keywords: ClearSelectors, ClearSelectors method [Windows Remote Management], ClearSelectors method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],ClearSelectors method, IWSManResourceLocator.ClearSelectors, IWSManResourceLocator::ClearSelectors, winrm.iwsmanresourcelocator_clearselectors, wsmandisp/IWSManResourceLocator::ClearSelectors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManResourceLocator::ClearSelectors method
+# IWSManResourceLocator::ClearSelectors
 
 
 ## -description

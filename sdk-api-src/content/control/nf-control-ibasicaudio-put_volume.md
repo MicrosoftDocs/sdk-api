@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicAudio.put_Volume
-title: IBasicAudio::put_Volume method
+title: IBasicAudio::put_Volume
 author: windows-driver-content
 description: The put_Volume method sets the volume (amplitude) of the audio signal.
 old-location: dshow\ibasicaudio_put_volume.htm
 old-project: DirectShow
 ms.assetid: 95171b87-e558-450b-8a48-f43a19069218
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBasicAudio, IBasicAudio interface [DirectShow], put_Volume method, IBasicAudio::put_Volume, IBasicAudioput_Volume, control/IBasicAudio::put_Volume, dshow.ibasicaudio_put_volume, put_Volume method [DirectShow], put_Volume method [DirectShow], IBasicAudio interface, put_Volume,IBasicAudio.put_Volume
+ms.date: 4/30/2018
+ms.keywords: IBasicAudio interface [DirectShow],put_Volume method, IBasicAudio.put_Volume, IBasicAudio::put_Volume, IBasicAudioput_Volume, control/IBasicAudio::put_Volume, dshow.ibasicaudio_put_volume, put_Volume, put_Volume method [DirectShow], put_Volume method [DirectShow],IBasicAudio interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicAudio::put_Volume method
+# IBasicAudio::put_Volume
 
 
 ## -description

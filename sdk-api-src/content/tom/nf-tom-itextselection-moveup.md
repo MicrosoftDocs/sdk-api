@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextSelection.MoveUp
-title: ITextSelection::MoveUp method
+title: ITextSelection::MoveUp
 author: windows-driver-content
 description: Mimics the functionality of the Up Arrow and Page Up keys.
 old-location: controls\ITextSelection_MoveUp.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveup.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextSelection, ITextSelection interface [Windows Controls], MoveUp method, ITextSelection::MoveUp, MoveUp method [Windows Controls], MoveUp method [Windows Controls], ITextSelection interface, MoveUp,ITextSelection.MoveUp, _win32_ITextSelection_MoveUp, _win32_ITextSelection_MoveUp_cpp, controls.ITextSelection_MoveUp, controls._win32_ITextSelection_MoveUp, tom/ITextSelection::MoveUp
+ms.date: 4/27/2018
+ms.keywords: ITextSelection interface [Windows Controls],MoveUp method, ITextSelection.MoveUp, ITextSelection::MoveUp, MoveUp, MoveUp method [Windows Controls], MoveUp method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveUp, _win32_ITextSelection_MoveUp_cpp, controls.ITextSelection_MoveUp, controls._win32_ITextSelection_MoveUp, tom/ITextSelection::MoveUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextSelection::MoveUp method
+# ITextSelection::MoveUp
 
 
 ## -description

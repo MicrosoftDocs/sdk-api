@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext3.get_Sids
-title: IAzClientContext3::get_Sids method
+title: IAzClientContext3::get_Sids
 author: windows-driver-content
 description: Gets an array of the security identifiers (SIDs) associated with this client context.
 old-location: security\iazclientcontext3_sids.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 79caf62e-3f20-4a58-953f-c9d302208bf9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzClientContext3, IAzClientContext3 interface [Security], Sids property, IAzClientContext3.Sids, IAzClientContext3::get_Sids, Sids property [Security], Sids property [Security], IAzClientContext3 interface, azroles/IAzClientContext3::Sids, azroles/IAzClientContext3::get_Sids, get_Sids,IAzClientContext3.get_Sids, security.iazclientcontext3_sids
+ms.keywords: IAzClientContext3 interface [Security],Sids property, IAzClientContext3.Sids, IAzClientContext3.get_Sids, IAzClientContext3::Sids, IAzClientContext3::get_Sids, Sids property [Security], Sids property [Security],IAzClientContext3 interface, azroles/IAzClientContext3::Sids, azroles/IAzClientContext3::get_Sids, get_Sids, security.iazclientcontext3_sids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAzClientContext3::get_Sids method
+# IAzClientContext3::get_Sids
 
 
 ## -description

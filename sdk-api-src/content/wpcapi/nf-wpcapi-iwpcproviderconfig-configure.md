@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCProviderConfig.Configure
-title: IWPCProviderConfig::Configure method
+title: IWPCProviderConfig::Configure
 author: windows-driver-content
 description: Called for the current provider when you click a user tile in the Parental Controls Control Panel. This method allows for changes to the configuration.
 old-location: parcon\iwpcproviderconfig_configure.htm
@@ -8,7 +8,7 @@ old-project: parcon
 ms.assetid: a2853259-4fc5-47e7-a77e-0ea4024ee00c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Configure method, Configure method, IWPCProviderConfig interface, Configure,IWPCProviderConfig.Configure, IWPCProviderConfig, IWPCProviderConfig interface, Configure method, IWPCProviderConfig::Configure, parcon.iwpcproviderconfig_configure, wpcapi/IWPCProviderConfig::Configure
+ms.keywords: Configure, Configure method, Configure method,IWPCProviderConfig interface, IWPCProviderConfig interface,Configure method, IWPCProviderConfig.Configure, IWPCProviderConfig::Configure, parcon.iwpcproviderconfig_configure, wpcapi/IWPCProviderConfig::Configure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWPCProviderConfig::Configure method
+# IWPCProviderConfig::Configure
 
 
 ## -description

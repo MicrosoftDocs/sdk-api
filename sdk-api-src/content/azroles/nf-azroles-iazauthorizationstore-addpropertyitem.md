@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPropertyItem
-title: IAzAuthorizationStore::AddPropertyItem method
+title: IAzAuthorizationStore::AddPropertyItem
 author: windows-driver-content
 description: Adds the specified principal to the specified list of principals.
 old-location: security\azauthorizationstore_addpropertyitem.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 88ac498c-2871-4260-8011-0aea9e6c346d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AddPropertyItem method [Security], AddPropertyItem method [Security], AzAuthorizationStore object, AddPropertyItem method [Security], IAzAuthorizationStore interface, AddPropertyItem,IAzAuthorizationStore.AddPropertyItem, AzAuthorizationStore object [Security], AddPropertyItem method, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], AddPropertyItem method, IAzAuthorizationStore::AddPropertyItem, azroles/IAzAuthorizationStore::AddPropertyItem, security.azauthorizationstore_addpropertyitem
+ms.keywords: AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzAuthorizationStore object, AddPropertyItem method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPropertyItem method, IAzAuthorizationStore interface [Security],AddPropertyItem method, IAzAuthorizationStore.AddPropertyItem, IAzAuthorizationStore::AddPropertyItem, azroles/IAzAuthorizationStore::AddPropertyItem, security.azauthorizationstore_addpropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::AddPropertyItem method
+# IAzAuthorizationStore::AddPropertyItem
 
 
 ## -description

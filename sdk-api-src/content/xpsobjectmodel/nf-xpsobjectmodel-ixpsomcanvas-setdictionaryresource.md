@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetDictionaryResource
-title: IXpsOMCanvas::SetDictionaryResource method
+title: IXpsOMCanvas::SetDictionaryResource
 author: windows-driver-content
 description: Sets the IXpsOMRemoteDictionaryResource interface pointer of the remote dictionary resource.
 old-location: xps\ixpsomcanvas_setdictionaryresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 8f6a80e9-fa66-45fa-bee9-c80a64a4593f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], SetDictionaryResource method, IXpsOMCanvas::SetDictionaryResource, SetDictionaryResource method [XPS Documents and Packaging], SetDictionaryResource method [XPS Documents and Packaging], IXpsOMCanvas interface, SetDictionaryResource,IXpsOMCanvas.SetDictionaryResource, xps.ixpsomcanvas_setdictionaryresource, xpsobjectmodel/IXpsOMCanvas::SetDictionaryResource
+ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetDictionaryResource method, IXpsOMCanvas.SetDictionaryResource, IXpsOMCanvas::SetDictionaryResource, SetDictionaryResource, SetDictionaryResource method [XPS Documents and Packaging], SetDictionaryResource method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setdictionaryresource, xpsobjectmodel/IXpsOMCanvas::SetDictionaryResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCanvas::SetDictionaryResource method
+# IXpsOMCanvas::SetDictionaryResource
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.GetConnectState
-title: IOfflineFilesConnectionInfo::GetConnectState method
+title: IOfflineFilesConnectionInfo::GetConnectState
 author: windows-driver-content
 description: Determines whether an item is online or offline and, if offline, why.
 old-location: of\iofflinefilesconnectioninfo_getconnectstate.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 83b082b4-5845-44b7-9456-f00b357e345a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetConnectState method [Offline Files], GetConnectState method [Offline Files], IOfflineFilesConnectionInfo interface, GetConnectState,IOfflineFilesConnectionInfo.GetConnectState, IOfflineFilesConnectionInfo, IOfflineFilesConnectionInfo interface [Offline Files], GetConnectState method, IOfflineFilesConnectionInfo::GetConnectState, cscobj/IOfflineFilesConnectionInfo::GetConnectState, of.iofflinefilesconnectioninfo_getconnectstate
+ms.keywords: GetConnectState, GetConnectState method [Offline Files], GetConnectState method [Offline Files],IOfflineFilesConnectionInfo interface, IOfflineFilesConnectionInfo interface [Offline Files],GetConnectState method, IOfflineFilesConnectionInfo.GetConnectState, IOfflineFilesConnectionInfo::GetConnectState, cscobj/IOfflineFilesConnectionInfo::GetConnectState, of.iofflinefilesconnectioninfo_getconnectstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesConnectionInfo::GetConnectState method
+# IOfflineFilesConnectionInfo::GetConnectState
 
 
 ## -description

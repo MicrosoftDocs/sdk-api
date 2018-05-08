@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_CurrentMarker
-title: IAMExtendedSeeking::get_CurrentMarker method
+title: IAMExtendedSeeking::get_CurrentMarker
 author: windows-driver-content
 description: The get_CurrentMarker method retrieves the current marker.
 old-location: dshow\iamextendedseeking_get_currentmarker.htm
 old-project: DirectShow
 ms.assetid: dd2d2054-0f92-4ba5-8913-24278e01775e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], get_CurrentMarker method, IAMExtendedSeeking::get_CurrentMarker, IAMExtendedSeekingget_CurrentMarker, dshow.iamextendedseeking_get_currentmarker, get_CurrentMarker method [DirectShow], get_CurrentMarker method [DirectShow], IAMExtendedSeeking interface, get_CurrentMarker,IAMExtendedSeeking.get_CurrentMarker, qnetwork/IAMExtendedSeeking::get_CurrentMarker
+ms.date: 4/30/2018
+ms.keywords: IAMExtendedSeeking interface [DirectShow],get_CurrentMarker method, IAMExtendedSeeking.get_CurrentMarker, IAMExtendedSeeking::get_CurrentMarker, IAMExtendedSeekingget_CurrentMarker, dshow.iamextendedseeking_get_currentmarker, get_CurrentMarker, get_CurrentMarker method [DirectShow], get_CurrentMarker method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_CurrentMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMExtendedSeeking::get_CurrentMarker method
+# IAMExtendedSeeking::get_CurrentMarker
 
 
 ## -description

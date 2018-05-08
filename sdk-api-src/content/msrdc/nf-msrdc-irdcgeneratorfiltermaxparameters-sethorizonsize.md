@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcGeneratorFilterMaxParameters.SetHorizonSize
-title: IRdcGeneratorFilterMaxParameters::SetHorizonSize method
+title: IRdcGeneratorFilterMaxParameters::SetHorizonSize
 author: windows-driver-content
 description: Sets the horizon size&#8212;the length over which the FilterMax generator looks for local maxima.
 old-location: rdc\irdcgeneratorfiltermaxparameters_sethorizonsize.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: becd1edd-d06d-4328-8a7a-678f893bad3a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRdcGeneratorFilterMaxParameters, IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression], SetHorizonSize method, IRdcGeneratorFilterMaxParameters::SetHorizonSize, SetHorizonSize method [Remote Differential Compression], SetHorizonSize method [Remote Differential Compression], IRdcGeneratorFilterMaxParameters interface, SetHorizonSize,IRdcGeneratorFilterMaxParameters.SetHorizonSize, fs.irdcgeneratorfiltermaxparameters_sethorizonsize, msrdc/IRdcGeneratorFilterMaxParameters::SetHorizonSize, rdc.irdcgeneratorfiltermaxparameters_sethorizonsize
+ms.keywords: IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],SetHorizonSize method, IRdcGeneratorFilterMaxParameters.SetHorizonSize, IRdcGeneratorFilterMaxParameters::SetHorizonSize, SetHorizonSize, SetHorizonSize method [Remote Differential Compression], SetHorizonSize method [Remote Differential Compression],IRdcGeneratorFilterMaxParameters interface, fs.irdcgeneratorfiltermaxparameters_sethorizonsize, msrdc/IRdcGeneratorFilterMaxParameters::SetHorizonSize, rdc.irdcgeneratorfiltermaxparameters_sethorizonsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcGeneratorFilterMaxParameters::SetHorizonSize method
+# IRdcGeneratorFilterMaxParameters::SetHorizonSize
 
 
 ## -description

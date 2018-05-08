@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Focus
-title: ICameraControl::put_Focus method
+title: ICameraControl::put_Focus
 author: windows-driver-content
 description: The put_Focus method sets the distance that is optimally in focus.
 old-location: dshow\icameracontrol_put_focus.htm
 old-project: DirectShow
 ms.assetid: c896bf2b-33b6-4e7c-bf84-b7dd8f57a4d4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_Focus method, ICameraControl::put_Focus, ICameraControlput_Focus, dshow.icameracontrol_put_focus, put_Focus method [DirectShow], put_Focus method [DirectShow], ICameraControl interface, put_Focus,ICameraControl.put_Focus, vidcap/ICameraControl::put_Focus
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],put_Focus method, ICameraControl.put_Focus, ICameraControl::put_Focus, ICameraControlput_Focus, dshow.icameracontrol_put_focus, put_Focus, put_Focus method [DirectShow], put_Focus method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Focus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::put_Focus method
+# ICameraControl::put_Focus
 
 
 ## -description

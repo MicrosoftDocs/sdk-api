@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquerycondition.ICondition2.GetLeafConditionInfo
-title: ICondition2::GetLeafConditionInfo method
+title: ICondition2::GetLeafConditionInfo
 author: windows-driver-content
 description: Retrieves the property name, operation, and value from a leaf search condition node.
 old-location: search\_search_ICondition2_GetLeafConditionInfo.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\getleafconditioninfo.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetLeafConditionInfo method [search], GetLeafConditionInfo method [search], ICondition2 interface, GetLeafConditionInfo,ICondition2.GetLeafConditionInfo, ICondition2, ICondition2 interface [search], GetLeafConditionInfo method, ICondition2::GetLeafConditionInfo, _search_ICondition2_GetLeafConditionInfo, search._search_ICondition2_GetLeafConditionInfo, structuredquerycondition/ICondition2::GetLeafConditionInfo
+ms.date: 5/4/2018
+ms.keywords: GetLeafConditionInfo, GetLeafConditionInfo method [search], GetLeafConditionInfo method [search],ICondition2 interface, ICondition2 interface [search],GetLeafConditionInfo method, ICondition2.GetLeafConditionInfo, ICondition2::GetLeafConditionInfo, _search_ICondition2_GetLeafConditionInfo, search._search_ICondition2_GetLeafConditionInfo, structuredquerycondition/ICondition2::GetLeafConditionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ICondition2::GetLeafConditionInfo method
+# ICondition2::GetLeafConditionInfo
 
 
 ## -description

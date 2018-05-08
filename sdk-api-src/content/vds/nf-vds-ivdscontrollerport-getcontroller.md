@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsControllerPort.GetController
-title: IVdsControllerPort::GetController method
+title: IVdsControllerPort::GetController
 author: windows-driver-content
 description: Returns the controller to which the controller port belongs.
 old-location: base\ivdscontrollerport_getcontroller.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 12532ac2-96bd-4ebf-9d09-c240e7357e20
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetController method [VDS], GetController method [VDS], IVdsControllerPort interface, GetController,IVdsControllerPort.GetController, IVdsControllerPort, IVdsControllerPort interface [VDS], GetController method, IVdsControllerPort::GetController, base.ivdscontrollerport_getcontroller, vds/IVdsControllerPort::GetController
+ms.keywords: GetController, GetController method [VDS], GetController method [VDS],IVdsControllerPort interface, IVdsControllerPort interface [VDS],GetController method, IVdsControllerPort.GetController, IVdsControllerPort::GetController, base.ivdscontrollerport_getcontroller, vds/IVdsControllerPort::GetController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsControllerPort::GetController method
+# IVdsControllerPort::GetController
 
 
 ## -description

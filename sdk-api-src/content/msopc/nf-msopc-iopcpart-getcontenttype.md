@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPart.GetContentType
-title: IOpcPart::GetContentType method
+title: IOpcPart::GetContentType
 author: windows-driver-content
 description: Gets the media type of part content.
 old-location: opc\iopcpart_getcontenttype.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: fe0d6ba3-8c62-4269-86ff-669609529933
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetContentType method [Open Packaging Conventions], GetContentType method [Open Packaging Conventions], IOpcPart interface, GetContentType,IOpcPart.GetContentType, IOpcPart, IOpcPart interface [Open Packaging Conventions], GetContentType method, IOpcPart::GetContentType, msopc/IOpcPart::GetContentType, opc.iopcpart_getcontenttype
+ms.keywords: GetContentType, GetContentType method [Open Packaging Conventions], GetContentType method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetContentType method, IOpcPart.GetContentType, IOpcPart::GetContentType, msopc/IOpcPart::GetContentType, opc.iopcpart_getcontenttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPart::GetContentType method
+# IOpcPart::GetContentType
 
 
 ## -description

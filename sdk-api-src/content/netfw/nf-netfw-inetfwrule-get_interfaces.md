@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule.get_Interfaces
-title: INetFwRule::get_Interfaces method
+title: INetFwRule::get_Interfaces
 author: windows-driver-content
 description: Specifies the list of interfaces for which the rule applies.
 old-location: ics\inetfwrule_interfaces.htm
 old-project: ICS
 ms.assetid: f04ac143-bbb7-4676-936e-4282ebf58f56
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], Interfaces property, INetFwRule.Interfaces, INetFwRule::get_Interfaces, INetFwRule::put_Interfaces, Interfaces property [ICS/ICF], Interfaces property [ICS/ICF], INetFwRule interface, get_Interfaces,INetFwRule.get_Interfaces, ics.inetfwrule_interfaces, netfw/INetFwRule::Interfaces, netfw/INetFwRule::get_Interfaces, netfw/INetFwRule::put_Interfaces
+ms.date: 5/1/2018
+ms.keywords: INetFwRule interface [ICS/ICF],Interfaces property, INetFwRule.Interfaces, INetFwRule.get_Interfaces, INetFwRule::Interfaces, INetFwRule::get_Interfaces, INetFwRule::put_Interfaces, Interfaces property [ICS/ICF], Interfaces property [ICS/ICF],INetFwRule interface, get_Interfaces, ics.inetfwrule_interfaces, netfw/INetFwRule::Interfaces, netfw/INetFwRule::get_Interfaces, netfw/INetFwRule::put_Interfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule::get_Interfaces method
+# INetFwRule::get_Interfaces
 
 
 ## -description

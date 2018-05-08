@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFAudioPolicy.SetGroupingParam
-title: IMFAudioPolicy::SetGroupingParam method
+title: IMFAudioPolicy::SetGroupingParam
 author: windows-driver-content
 description: Assigns the audio session to a group of sessions.
 old-location: mf\imfaudiopolicy_setgroupingparam.htm
 old-project: medfound
 ms.assetid: 2c024208-f13f-4fd1-b5a8-b881af226670
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 2c024208-f13f-4fd1-b5a8-b881af226670, IMFAudioPolicy, IMFAudioPolicy interface [Media Foundation], SetGroupingParam method, IMFAudioPolicy::SetGroupingParam, SetGroupingParam method [Media Foundation], SetGroupingParam method [Media Foundation], IMFAudioPolicy interface, SetGroupingParam,IMFAudioPolicy.SetGroupingParam, mf.imfaudiopolicy_setgroupingparam, mfidl/IMFAudioPolicy::SetGroupingParam
+ms.date: 5/3/2018
+ms.keywords: 2c024208-f13f-4fd1-b5a8-b881af226670, IMFAudioPolicy interface [Media Foundation],SetGroupingParam method, IMFAudioPolicy.SetGroupingParam, IMFAudioPolicy::SetGroupingParam, SetGroupingParam, SetGroupingParam method [Media Foundation], SetGroupingParam method [Media Foundation],IMFAudioPolicy interface, mf.imfaudiopolicy_setgroupingparam, mfidl/IMFAudioPolicy::SetGroupingParam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAudioPolicy::SetGroupingParam method
+# IMFAudioPolicy::SetGroupingParam
 
 
 ## -description

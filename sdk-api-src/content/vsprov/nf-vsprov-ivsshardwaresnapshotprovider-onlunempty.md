@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProvider.OnLunEmpty
-title: IVssHardwareSnapshotProvider::OnLunEmpty method
+title: IVssHardwareSnapshotProvider::OnLunEmpty
 author: windows-driver-content
 description: Called whenever VSS determines that a shadow copy LUN contains no interesting data.
 old-location: base\ivsshardwaresnapshotprovider_onlunempty.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 06a31704-9031-4ab9-84eb-685f6b648d27
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interface [VSS], OnLunEmpty method, IVssHardwareSnapshotProvider::OnLunEmpty, OnLunEmpty method [VSS], OnLunEmpty method [VSS], IVssHardwareSnapshotProvider interface, OnLunEmpty,IVssHardwareSnapshotProvider.OnLunEmpty, base.ivsshardwaresnapshotprovider_onlunempty, vsprov/IVssHardwareSnapshotProvider::OnLunEmpty
+ms.keywords: IVssHardwareSnapshotProvider interface [VSS],OnLunEmpty method, IVssHardwareSnapshotProvider.OnLunEmpty, IVssHardwareSnapshotProvider::OnLunEmpty, OnLunEmpty, OnLunEmpty method [VSS], OnLunEmpty method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_onlunempty, vsprov/IVssHardwareSnapshotProvider::OnLunEmpty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssHardwareSnapshotProvider::OnLunEmpty method
+# IVssHardwareSnapshotProvider::OnLunEmpty
 
 
 ## -description

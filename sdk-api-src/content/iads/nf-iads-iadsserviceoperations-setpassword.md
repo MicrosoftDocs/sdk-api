@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsServiceOperations.SetPassword
-title: IADsServiceOperations::SetPassword method
+title: IADsServiceOperations::SetPassword
 author: windows-driver-content
 description: The IADsServiceOperations::SetPassword method sets the password for the account used by the service manager. This method is called when the security context for this service is created.
 old-location: adsi\iadsserviceoperations_setpassword.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: a10684d1-be61-4599-b232-638b416aa127
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsServiceOperations, IADsServiceOperations interface [ADSI], SetPassword method, IADsServiceOperations::SetPassword, SetPassword method [ADSI], SetPassword method [ADSI], IADsServiceOperations interface, SetPassword,IADsServiceOperations.SetPassword, _ds_iadsserviceoperations_setpassword, adsi.iadsserviceoperations__setpassword, adsi.iadsserviceoperations_setpassword, iads/IADsServiceOperations::SetPassword
+ms.keywords: IADsServiceOperations interface [ADSI],SetPassword method, IADsServiceOperations.SetPassword, IADsServiceOperations::SetPassword, SetPassword, SetPassword method [ADSI], SetPassword method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_setpassword, adsi.iadsserviceoperations__setpassword, adsi.iadsserviceoperations_setpassword, iads/IADsServiceOperations::SetPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsServiceOperations::SetPassword method
+# IADsServiceOperations::SetPassword
 
 
 ## -description

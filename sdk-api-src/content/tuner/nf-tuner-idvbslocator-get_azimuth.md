@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.get_Azimuth
-title: IDVBSLocator::get_Azimuth method
+title: IDVBSLocator::get_Azimuth
 author: windows-driver-content
 description: The get_Azimuth method retrieves the azimuth setting used for positioning the satellite dish.
 old-location: mstv\idvbslocator_get_azimuth.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2c1314f4-6291-4440-8010-247f8fa82d0c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBSLocator, IDVBSLocator interface [Microsoft TV Technologies], get_Azimuth method, IDVBSLocator::get_Azimuth, IDVBSLocatorget_Azimuth, get_Azimuth method [Microsoft TV Technologies], get_Azimuth method [Microsoft TV Technologies], IDVBSLocator interface, get_Azimuth,IDVBSLocator.get_Azimuth, mstv.idvbslocator_get_azimuth, tuner/IDVBSLocator::get_Azimuth
+ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_Azimuth method, IDVBSLocator.get_Azimuth, IDVBSLocator::get_Azimuth, IDVBSLocatorget_Azimuth, get_Azimuth, get_Azimuth method [Microsoft TV Technologies], get_Azimuth method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_azimuth, tuner/IDVBSLocator::get_Azimuth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBSLocator::get_Azimuth method
+# IDVBSLocator::get_Azimuth
 
 
 ## -description

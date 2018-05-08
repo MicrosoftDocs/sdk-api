@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.ClearPeers
-title: IBitsPeerCacheAdministration::ClearPeers method
+title: IBitsPeerCacheAdministration::ClearPeers
 author: windows-driver-content
 description: Removes all peers from the list of peers that can serve content.
 old-location: bits\ibitspeercacheadministration_clearpeers.htm
 old-project: Bits
 ms.assetid: 79a739ed-7618-410a-a6df-fab11794d932
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: ClearPeers method [BITS], ClearPeers method [BITS], IBitsPeerCacheAdministration interface, ClearPeers,IBitsPeerCacheAdministration.ClearPeers, IBitsPeerCacheAdministration, IBitsPeerCacheAdministration interface [BITS], ClearPeers method, IBitsPeerCacheAdministration::ClearPeers, bits.ibitspeercacheadministration_clearpeers, bits3_0/IBitsPeerCacheAdministration::ClearPeers
+ms.date: 4/27/2018
+ms.keywords: ClearPeers, ClearPeers method [BITS], ClearPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],ClearPeers method, IBitsPeerCacheAdministration.ClearPeers, IBitsPeerCacheAdministration::ClearPeers, bits.ibitspeercacheadministration_clearpeers, bits3_0/IBitsPeerCacheAdministration::ClearPeers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsPeerCacheAdministration::ClearPeers method
+# IBitsPeerCacheAdministration::ClearPeers
 
 
 ## -description

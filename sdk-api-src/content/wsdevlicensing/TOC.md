@@ -1,0 +1,5 @@
+# [Developer licensing](../_devlic/index.md)
+## [Wsdevlicensing.h](index.md)
+### [AcquireDeveloperLicense function](../wsdevlicensing/nf-wsdevlicensing-acquiredeveloperlicense.md)
+### [CheckDeveloperLicense function](../wsdevlicensing/nf-wsdevlicensing-checkdeveloperlicense.md)
+### [RemoveDeveloperLicense function](../wsdevlicensing/nf-wsdevlicensing-removedeveloperlicense.md)

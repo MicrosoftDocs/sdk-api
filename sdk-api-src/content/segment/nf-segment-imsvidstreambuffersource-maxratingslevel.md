@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.MaxRatingsLevel
-title: IMSVidStreamBufferSource::MaxRatingsLevel method
+title: IMSVidStreamBufferSource::MaxRatingsLevel
 author: windows-driver-content
 description: The MaxRatingsLevel method specifies the maximum ratings level the object is permitted to play.
 old-location: mstv\imsvidstreambuffersource_maxratingslevel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 74dbb008-21c9-4651-8386-761626b7bf19
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSource, IMSVidStreamBufferSource interface [Microsoft TV Technologies], MaxRatingsLevel method, IMSVidStreamBufferSource::MaxRatingsLevel, IMSVidStreamBufferSourceMaxRatingsLevel, MaxRatingsLevel method [Microsoft TV Technologies], MaxRatingsLevel method [Microsoft TV Technologies], IMSVidStreamBufferSource interface, MaxRatingsLevel,IMSVidStreamBufferSource.MaxRatingsLevel, mstv.imsvidstreambuffersource_maxratingslevel, segment/IMSVidStreamBufferSource::MaxRatingsLevel
+ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],MaxRatingsLevel method, IMSVidStreamBufferSource.MaxRatingsLevel, IMSVidStreamBufferSource::MaxRatingsLevel, IMSVidStreamBufferSourceMaxRatingsLevel, MaxRatingsLevel, MaxRatingsLevel method [Microsoft TV Technologies], MaxRatingsLevel method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_maxratingslevel, segment/IMSVidStreamBufferSource::MaxRatingsLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSource::MaxRatingsLevel method
+# IMSVidStreamBufferSource::MaxRatingsLevel
 
 
 ## -description

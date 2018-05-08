@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.SetTaskFlags
-title: ITask::SetTaskFlags method
+title: ITask::SetTaskFlags
 author: windows-driver-content
 description: This method sets the flags that modify the behavior of a scheduled task.
 old-location: taskschd\itask_settaskflags.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 32231145-241a-46ff-9c49-94f5bf7cc532
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITask, ITask interface [Task Scheduler], SetTaskFlags method, ITask::SetTaskFlags, SetTaskFlags method [Task Scheduler], SetTaskFlags method [Task Scheduler], ITask interface, SetTaskFlags,ITask.SetTaskFlags, _msb_itask_settaskflags, mstask/ITask::SetTaskFlags, taskschd.itask_settaskflags
+ms.keywords: ITask interface [Task Scheduler],SetTaskFlags method, ITask.SetTaskFlags, ITask::SetTaskFlags, SetTaskFlags, SetTaskFlags method [Task Scheduler], SetTaskFlags method [Task Scheduler],ITask interface, _msb_itask_settaskflags, mstask/ITask::SetTaskFlags, taskschd.itask_settaskflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITask::SetTaskFlags method
+# ITask::SetTaskFlags
 
 
 ## -description

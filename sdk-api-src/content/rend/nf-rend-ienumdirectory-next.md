@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.IEnumDirectory.Next
-title: IEnumDirectory::Next method
+title: IEnumDirectory::Next
 author: windows-driver-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdirectory_next.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: db164275-92dc-4a25-ba19-fd26415624f1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IEnumDirectory, IEnumDirectory interface [TAPI 2.2], Next method, IEnumDirectory::Next, Next method [TAPI 2.2], Next method [TAPI 2.2], IEnumDirectory interface, Next,IEnumDirectory.Next, _tapi3_ienumdirectory_next, rend/IEnumDirectory::Next, tapi3.ienumdirectory_next
+ms.keywords: IEnumDirectory interface [TAPI 2.2],Next method, IEnumDirectory.Next, IEnumDirectory::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumDirectory interface, _tapi3_ienumdirectory_next, rend/IEnumDirectory::Next, tapi3.ienumdirectory_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumDirectory::Next method
+# IEnumDirectory::Next
 
 
 ## -description

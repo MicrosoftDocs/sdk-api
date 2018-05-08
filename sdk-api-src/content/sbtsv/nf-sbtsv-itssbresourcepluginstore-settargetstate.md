@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetTargetState
-title: ITsSbResourcePluginStore::SetTargetState method
+title: ITsSbResourcePluginStore::SetTargetState
 author: windows-driver-content
 description: Sets the state of a target object.
 old-location: termserv\itssbresourcepluginstore_settargetstate.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 5ba5c4c6-b644-45f7-8942-ee8ea543138d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], SetTargetState method, ITsSbResourcePluginStore::SetTargetState, SetTargetState method [Remote Desktop Services], SetTargetState method [Remote Desktop Services], ITsSbResourcePluginStore interface, SetTargetState,ITsSbResourcePluginStore.SetTargetState, sbtsv/ITsSbResourcePluginStore::SetTargetState, termserv.itssbresourcepluginstore_settargetstate
+ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetTargetState method, ITsSbResourcePluginStore.SetTargetState, ITsSbResourcePluginStore::SetTargetState, SetTargetState, SetTargetState method [Remote Desktop Services], SetTargetState method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetTargetState, termserv.itssbresourcepluginstore_settargetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::SetTargetState method
+# ITsSbResourcePluginStore::SetTargetState
 
 
 ## -description

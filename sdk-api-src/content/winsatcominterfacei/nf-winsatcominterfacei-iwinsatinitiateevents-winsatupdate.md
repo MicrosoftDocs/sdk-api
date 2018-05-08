@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IWinSATInitiateEvents.WinSATUpdate
-title: IWinSATInitiateEvents::WinSATUpdate method
+title: IWinSATInitiateEvents::WinSATUpdate
 author: windows-driver-content
 description: Receives notification when an assessment is making progress.
 old-location: winsat\iwinsatinitiateevents_winsatupdate.htm
@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: d0f527a9-89b9-45d6-b5a5-82b0ae1ad122
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWinSATInitiateEvents, IWinSATInitiateEvents interface [WinSAT], WinSATUpdate method, IWinSATInitiateEvents::WinSATUpdate, WinSATUpdate method [WinSAT], WinSATUpdate method [WinSAT], IWinSATInitiateEvents interface, WinSATUpdate,IWinSATInitiateEvents.WinSATUpdate, winsat.iwinsatinitiateevents_winsatupdate, winsatcominterfacei/IWinSATInitiateEvents::WinSATUpdate
+ms.keywords: IWinSATInitiateEvents interface [WinSAT],WinSATUpdate method, IWinSATInitiateEvents.WinSATUpdate, IWinSATInitiateEvents::WinSATUpdate, WinSATUpdate, WinSATUpdate method [WinSAT], WinSATUpdate method [WinSAT],IWinSATInitiateEvents interface, winsat.iwinsatinitiateevents_winsatupdate, winsatcominterfacei/IWinSATInitiateEvents::WinSATUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWinSATInitiateEvents::WinSATUpdate method
+# IWinSATInitiateEvents::WinSATUpdate
 
 
 ## -description

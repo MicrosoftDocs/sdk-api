@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSettings.put_rate
-title: IWMPSettings::put_rate method
+title: IWMPSettings::put_rate
 author: windows-driver-content
 description: The put_rate method specifies the current playback rate for video.
 old-location: wmp\iwmpsettings_put_rate.htm
 old-project: WMP
 ms.assetid: a0c395f0-28d1-4c4d-8274-e26c0f4b1ae2
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], put_rate method, IWMPSettings::put_rate, IWMPSettingsput_rate, put_rate method [Windows Media Player], put_rate method [Windows Media Player], IWMPSettings interface, put_rate,IWMPSettings.put_rate, wmp.iwmpsettings_put_rate, wmp/IWMPSettings::put_rate
+ms.date: 5/4/2018
+ms.keywords: IWMPSettings interface [Windows Media Player],put_rate method, IWMPSettings.put_rate, IWMPSettings::put_rate, IWMPSettingsput_rate, put_rate, put_rate method [Windows Media Player], put_rate method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_rate, wmp/IWMPSettings::put_rate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSettings::put_rate method
+# IWMPSettings::put_rate
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockReader.GetReaderByIndex
-title: IWICMetadataBlockReader::GetReaderByIndex method
+title: IWICMetadataBlockReader::GetReaderByIndex
 author: windows-driver-content
 description: Retrieves an IWICMetadataReader for a specified top level metadata block.
 old-location: wic\_wic_codec_iwicmetadatablockreader_getreaderbyindex.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: fb0d0951-7bb1-4bf7-9bfb-50f522929baf
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetReaderByIndex method [Windows Imaging Component], GetReaderByIndex method [Windows Imaging Component], IWICMetadataBlockReader interface, GetReaderByIndex,IWICMetadataBlockReader.GetReaderByIndex, IWICMetadataBlockReader, IWICMetadataBlockReader interface [Windows Imaging Component], GetReaderByIndex method, IWICMetadataBlockReader::GetReaderByIndex, _wic_codec_iwicmetadatablockreader_getreaderbyindex, wic._wic_codec_iwicmetadatablockreader_getreaderbyindex, wincodecsdk/IWICMetadataBlockReader::GetReaderByIndex
+ms.keywords: GetReaderByIndex, GetReaderByIndex method [Windows Imaging Component], GetReaderByIndex method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetReaderByIndex method, IWICMetadataBlockReader.GetReaderByIndex, IWICMetadataBlockReader::GetReaderByIndex, _wic_codec_iwicmetadatablockreader_getreaderbyindex, wic._wic_codec_iwicmetadatablockreader_getreaderbyindex, wincodecsdk/IWICMetadataBlockReader::GetReaderByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataBlockReader::GetReaderByIndex method
+# IWICMetadataBlockReader::GetReaderByIndex
 
 
 ## -description

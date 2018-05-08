@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Hue
-title: IVideoProcAmp::put_Hue method
+title: IVideoProcAmp::put_Hue
 author: windows-driver-content
 description: The put_Hue method sets the camera's hue setting.
 old-location: dshow\ivideoprocamp_put_hue.htm
 old-project: DirectShow
 ms.assetid: 7b0926c3-4167-423d-ac5c-ac4df06948aa
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], put_Hue method, IVideoProcAmp::put_Hue, IVideoProcAmpput_Hue, dshow.ivideoprocamp_put_hue, put_Hue method [DirectShow], put_Hue method [DirectShow], IVideoProcAmp interface, put_Hue,IVideoProcAmp.put_Hue, vidcap/IVideoProcAmp::put_Hue
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],put_Hue method, IVideoProcAmp.put_Hue, IVideoProcAmp::put_Hue, IVideoProcAmpput_Hue, dshow.ivideoprocamp_put_hue, put_Hue, put_Hue method [DirectShow], put_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Hue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::put_Hue method
+# IVideoProcAmp::put_Hue
 
 
 ## -description

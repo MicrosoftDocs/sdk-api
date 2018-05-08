@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinderCallback.DeviceRemoved
-title: IUPnPDeviceFinderCallback::DeviceRemoved method
+title: IUPnPDeviceFinderCallback::DeviceRemoved
 author: windows-driver-content
 description: The DeviceRemoved method is invoked by the UPnP framework to notify the application that a device has been removed from the network.
 old-location: upnp\iupnpdevicefindercallback_deviceremoved.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: d6ff7bdd-3fdf-4ee4-84c9-e3527988fea2
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: DeviceRemoved method [UPnP APIs], DeviceRemoved method [UPnP APIs], IUPnPDeviceFinderCallback interface, DeviceRemoved,IUPnPDeviceFinderCallback.DeviceRemoved, IUPnPDeviceFinderCallback, IUPnPDeviceFinderCallback interface [UPnP APIs], DeviceRemoved method, IUPnPDeviceFinderCallback::DeviceRemoved, _upnp_iupnpdevicefindercallback_deviceremoved, upnp.iupnpdevicefindercallback_deviceremoved, upnp/IUPnPDeviceFinderCallback::DeviceRemoved
+ms.keywords: DeviceRemoved, DeviceRemoved method [UPnP APIs], DeviceRemoved method [UPnP APIs],IUPnPDeviceFinderCallback interface, IUPnPDeviceFinderCallback interface [UPnP APIs],DeviceRemoved method, IUPnPDeviceFinderCallback.DeviceRemoved, IUPnPDeviceFinderCallback::DeviceRemoved, _upnp_iupnpdevicefindercallback_deviceremoved, upnp.iupnpdevicefindercallback_deviceremoved, upnp/IUPnPDeviceFinderCallback::DeviceRemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPDeviceFinderCallback::DeviceRemoved method
+# IUPnPDeviceFinderCallback::DeviceRemoved
 
 
 ## -description

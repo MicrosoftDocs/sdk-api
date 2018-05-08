@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_SystemRating
-title: IProvideWinSATResultsInfo::get_SystemRating method
+title: IProvideWinSATResultsInfo::get_SystemRating
 author: windows-driver-content
 description: Retrieves the base score for the computer.
 old-location: winsat\iprovidewinsatresultsinfo_systemrating.htm
@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: 4fe20830-bf86-4551-ba73-534740cabab5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [WinSAT], SystemRating property, IProvideWinSATResultsInfo.SystemRating, IProvideWinSATResultsInfo::get_SystemRating, SystemRating property [WinSAT], SystemRating property [WinSAT], IProvideWinSATResultsInfo interface, get_SystemRating,IProvideWinSATResultsInfo.get_SystemRating, winsat.iprovidewinsatresultsinfo_systemrating, winsatcominterfacei/IProvideWinSATResultsInfo::SystemRating, winsatcominterfacei/IProvideWinSATResultsInfo::get_SystemRating
+ms.keywords: IProvideWinSATResultsInfo interface [WinSAT],SystemRating property, IProvideWinSATResultsInfo.SystemRating, IProvideWinSATResultsInfo.get_SystemRating, IProvideWinSATResultsInfo::SystemRating, IProvideWinSATResultsInfo::get_SystemRating, SystemRating property [WinSAT], SystemRating property [WinSAT],IProvideWinSATResultsInfo interface, get_SystemRating, winsat.iprovidewinsatresultsinfo_systemrating, winsatcominterfacei/IProvideWinSATResultsInfo::SystemRating, winsatcominterfacei/IProvideWinSATResultsInfo::get_SystemRating
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IProvideWinSATResultsInfo::get_SystemRating method
+# IProvideWinSATResultsInfo::get_SystemRating
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual2.get_CurrentViewMode
-title: IShellFolderViewDual2::get_CurrentViewMode method
+title: IShellFolderViewDual2::get_CurrentViewMode
 author: windows-driver-content
 description: Gets the current view mode of the current folder.
 old-location: shell\IShellFolderViewDual2_get_CurrentViewMode.htm
 old-project: shell
 ms.assetid: aa4bcb25-98f9-49c3-be25-abc6a5ecdcca
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellFolderViewDual2, IShellFolderViewDual2 interface [Windows Shell], get_CurrentViewMode method, IShellFolderViewDual2::get_CurrentViewMode, _shell_IShellFolderViewDual2_get_CurrentViewMode, get_CurrentViewMode method [Windows Shell], get_CurrentViewMode method [Windows Shell], IShellFolderViewDual2 interface, get_CurrentViewMode,IShellFolderViewDual2.get_CurrentViewMode, shell.IShellFolderViewDual2_get_CurrentViewMode, shldisp/IShellFolderViewDual2::get_CurrentViewMode
+ms.date: 5/3/2018
+ms.keywords: IShellFolderViewDual2 interface [Windows Shell],get_CurrentViewMode method, IShellFolderViewDual2.get_CurrentViewMode, IShellFolderViewDual2::get_CurrentViewMode, _shell_IShellFolderViewDual2_get_CurrentViewMode, get_CurrentViewMode, get_CurrentViewMode method [Windows Shell], get_CurrentViewMode method [Windows Shell],IShellFolderViewDual2 interface, shell.IShellFolderViewDual2_get_CurrentViewMode, shldisp/IShellFolderViewDual2::get_CurrentViewMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellFolderViewDual2::get_CurrentViewMode method
+# IShellFolderViewDual2::get_CurrentViewMode
 
 
 ## -description

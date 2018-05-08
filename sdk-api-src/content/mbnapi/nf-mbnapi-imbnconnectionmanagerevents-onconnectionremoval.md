@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionManagerEvents.OnConnectionRemoval
-title: IMbnConnectionManagerEvents::OnConnectionRemoval method
+title: IMbnConnectionManagerEvents::OnConnectionRemoval
 author: windows-driver-content
 description: Notification method that indicates a connection was removed from the system.
 old-location: mbn\imbnconnectionmanagerevents_onconnectionremoval.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 020ee1ad-cab5-4a27-b97b-160319d84ac8
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnConnectionManagerEvents, IMbnConnectionManagerEvents interface [Microsoft Broadband Networks], OnConnectionRemoval method, IMbnConnectionManagerEvents::OnConnectionRemoval, OnConnectionRemoval method [Microsoft Broadband Networks], OnConnectionRemoval method [Microsoft Broadband Networks], IMbnConnectionManagerEvents interface, OnConnectionRemoval,IMbnConnectionManagerEvents.OnConnectionRemoval, mbn.imbnconnectionmanagerevents_onconnectionremoval, mbnapi/IMbnConnectionManagerEvents::OnConnectionRemoval
+ms.keywords: IMbnConnectionManagerEvents interface [Microsoft Broadband Networks],OnConnectionRemoval method, IMbnConnectionManagerEvents.OnConnectionRemoval, IMbnConnectionManagerEvents::OnConnectionRemoval, OnConnectionRemoval, OnConnectionRemoval method [Microsoft Broadband Networks], OnConnectionRemoval method [Microsoft Broadband Networks],IMbnConnectionManagerEvents interface, mbn.imbnconnectionmanagerevents_onconnectionremoval, mbnapi/IMbnConnectionManagerEvents::OnConnectionRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnectionManagerEvents::OnConnectionRemoval method
+# IMbnConnectionManagerEvents::OnConnectionRemoval
 
 
 ## -description

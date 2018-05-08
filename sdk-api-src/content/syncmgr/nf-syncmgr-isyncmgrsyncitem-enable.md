@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.Enable
-title: ISyncMgrSyncItem::Enable method
+title: ISyncMgrSyncItem::Enable
 author: windows-driver-content
 description: Enables or disables the sync item.
 old-location: shell\ISyncMgrSyncItem_Enable.htm
 old-project: shell
 ms.assetid: 7d73508e-4381-47fe-98ba-ab3ef665cd3e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Enable method [Windows Shell], Enable method [Windows Shell], ISyncMgrSyncItem interface, Enable,ISyncMgrSyncItem.Enable, ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], Enable method, ISyncMgrSyncItem::Enable, _shell_ISyncMgrSyncItem_Enable, shell.ISyncMgrSyncItem_Enable, syncmgr/ISyncMgrSyncItem::Enable
+ms.date: 5/3/2018
+ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],Enable method, ISyncMgrSyncItem.Enable, ISyncMgrSyncItem::Enable, _shell_ISyncMgrSyncItem_Enable, shell.ISyncMgrSyncItem_Enable, syncmgr/ISyncMgrSyncItem::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrSyncItem::Enable method
+# ISyncMgrSyncItem::Enable
 
 
 ## -description

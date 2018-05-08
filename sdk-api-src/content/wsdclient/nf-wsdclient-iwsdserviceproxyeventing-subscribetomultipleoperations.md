@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.SubscribeToMultipleOperations
-title: IWSDServiceProxyEventing::SubscribeToMultipleOperations method
+title: IWSDServiceProxyEventing::SubscribeToMultipleOperations
 author: windows-driver-content
 description: Subscribes to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_subscribetomultipleoperations.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 0df5b429-5b6e-4cef-af05-7f615c93aa0f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, SubscribeToMultipleOperations method, IWSDServiceProxyEventing::SubscribeToMultipleOperations, SubscribeToMultipleOperations method, SubscribeToMultipleOperations method, IWSDServiceProxyEventing interface, SubscribeToMultipleOperations,IWSDServiceProxyEventing.SubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_subscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::SubscribeToMultipleOperations
+ms.keywords: IWSDServiceProxyEventing interface,SubscribeToMultipleOperations method, IWSDServiceProxyEventing.SubscribeToMultipleOperations, IWSDServiceProxyEventing::SubscribeToMultipleOperations, SubscribeToMultipleOperations, SubscribeToMultipleOperations method, SubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, ncd.iwsdserviceproxyeventing_subscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::SubscribeToMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxyEventing::SubscribeToMultipleOperations method
+# IWSDServiceProxyEventing::SubscribeToMultipleOperations
 
 
 ## -description

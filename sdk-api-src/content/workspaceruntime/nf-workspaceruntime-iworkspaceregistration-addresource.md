@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceRegistration.AddResource
-title: IWorkspaceRegistration::AddResource method
+title: IWorkspaceRegistration::AddResource
 author: windows-driver-content
 description: Adds a resource to the connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceregistration_addresource.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: cd4ed8a0-e5a8-4809-a9bd-d013a84b0bd4
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: AddResource method [Remote Desktop Services], AddResource method [Remote Desktop Services], IWorkspaceRegistration interface, AddResource method [Remote Desktop Services], IWorkspaceRegistration2 interface, AddResource method [Remote Desktop Services], Workspace object, AddResource,IWorkspaceRegistration.AddResource, IWorkspaceRegistration, IWorkspaceRegistration interface [Remote Desktop Services], AddResource method, IWorkspaceRegistration2 interface [Remote Desktop Services], AddResource method, IWorkspaceRegistration2::AddResource, IWorkspaceRegistration::AddResource, Workspace object [Remote Desktop Services], AddResource method, termserv.iworkspaceregistration_addresource, workspaceruntime/IWorkspaceRegistration2::AddResource, workspaceruntime/IWorkspaceRegistration::AddResource
+ms.keywords: AddResource, AddResource method [Remote Desktop Services], AddResource method [Remote Desktop Services],IWorkspaceRegistration interface, AddResource method [Remote Desktop Services],IWorkspaceRegistration2 interface, AddResource method [Remote Desktop Services],Workspace object, IWorkspaceRegistration interface [Remote Desktop Services],AddResource method, IWorkspaceRegistration.AddResource, IWorkspaceRegistration2 interface [Remote Desktop Services],AddResource method, IWorkspaceRegistration2::AddResource, IWorkspaceRegistration::AddResource, Workspace object [Remote Desktop Services],AddResource method, termserv.iworkspaceregistration_addresource, workspaceruntime/IWorkspaceRegistration2::AddResource, workspaceruntime/IWorkspaceRegistration::AddResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWorkspaceRegistration::AddResource method
+# IWorkspaceRegistration::AddResource
 
 
 ## -description

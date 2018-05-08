@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextServices.OnTxUIDeactivate
-title: ITextServices::OnTxUIDeactivate method
+title: ITextServices::OnTxUIDeactivate
 author: windows-driver-content
 description: Informs the text services object that the control is no longer UI active.
 old-location: controls\ITextServices_OnTxUIDeactivate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxuideactivate.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextServices, ITextServices interface [Windows Controls], OnTxUIDeactivate method, ITextServices::OnTxUIDeactivate, OnTxUIDeactivate method [Windows Controls], OnTxUIDeactivate method [Windows Controls], ITextServices interface, OnTxUIDeactivate,ITextServices.OnTxUIDeactivate, _win32_ITextServices_OnTxUIDeactivate, _win32_ITextServices_OnTxUIDeactivate_cpp, controls.ITextServices_OnTxUIDeactivate, controls._win32_ITextServices_OnTxUIDeactivate, textserv/ITextServices::OnTxUIDeactivate
+ms.date: 4/27/2018
+ms.keywords: ITextServices interface [Windows Controls],OnTxUIDeactivate method, ITextServices.OnTxUIDeactivate, ITextServices::OnTxUIDeactivate, OnTxUIDeactivate, OnTxUIDeactivate method [Windows Controls], OnTxUIDeactivate method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxUIDeactivate, _win32_ITextServices_OnTxUIDeactivate_cpp, controls.ITextServices_OnTxUIDeactivate, controls._win32_ITextServices_OnTxUIDeactivate, textserv/ITextServices::OnTxUIDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextServices::OnTxUIDeactivate method
+# ITextServices::OnTxUIDeactivate
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncCallback2.OnChangeApplied
-title: ISyncCallback2::OnChangeApplied method
+title: ISyncCallback2::OnChangeApplied
 author: windows-driver-content
 description: Occurs after a change is successfully applied.
 old-location: winsync\isynccallback2_onchangeapplied.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 3397ca51-583b-4051-892b-68f505d85ccd
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncCallback2, ISyncCallback2 interface [Windows Sync], OnChangeApplied method, ISyncCallback2::OnChangeApplied, OnChangeApplied method [Windows Sync], OnChangeApplied method [Windows Sync], ISyncCallback2 interface, OnChangeApplied,ISyncCallback2.OnChangeApplied, winsync.isynccallback2_onchangeapplied, winsync/ISyncCallback2::OnChangeApplied
+ms.keywords: ISyncCallback2 interface [Windows Sync],OnChangeApplied method, ISyncCallback2.OnChangeApplied, ISyncCallback2::OnChangeApplied, OnChangeApplied, OnChangeApplied method [Windows Sync], OnChangeApplied method [Windows Sync],ISyncCallback2 interface, winsync.isynccallback2_onchangeapplied, winsync/ISyncCallback2::OnChangeApplied
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncCallback2::OnChangeApplied method
+# ISyncCallback2::OnChangeApplied
 
 
 ## -description

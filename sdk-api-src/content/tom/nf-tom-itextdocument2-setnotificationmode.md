@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.SetNotificationMode
-title: ITextDocument2::SetNotificationMode method
+title: ITextDocument2::SetNotificationMode
 author: windows-driver-content
 description: Sets the notification mode.
 old-location: controls\itextdocument2_setnotificationmode.htm
 old-project: Controls
 ms.assetid: b3dd9895-9fdd-4919-9e3a-382bb130f4b9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], SetNotificationMode method, ITextDocument2::SetNotificationMode, SetNotificationMode method [Windows Controls], SetNotificationMode method [Windows Controls], ITextDocument2 interface, SetNotificationMode,ITextDocument2.SetNotificationMode, controls.itextdocument2_setnotificationmode, tom/ITextDocument2::SetNotificationMode
+ms.date: 4/27/2018
+ms.keywords: ITextDocument2 interface [Windows Controls],SetNotificationMode method, ITextDocument2.SetNotificationMode, ITextDocument2::SetNotificationMode, SetNotificationMode, SetNotificationMode method [Windows Controls], SetNotificationMode method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setnotificationmode, tom/ITextDocument2::SetNotificationMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::SetNotificationMode method
+# ITextDocument2::SetNotificationMode
 
 
 ## -description

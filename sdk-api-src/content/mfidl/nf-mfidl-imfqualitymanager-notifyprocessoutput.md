@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyProcessOutput
-title: IMFQualityManager::NotifyProcessOutput method
+title: IMFQualityManager::NotifyProcessOutput
 author: windows-driver-content
 description: Called after the media processor gets an output sample from a pipeline component.
 old-location: mf\imfqualitymanager_notifyprocessoutput.htm
 old-project: medfound
 ms.assetid: 90596111-6fbc-4249-a696-bd575cb66830
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 90596111-6fbc-4249-a696-bd575cb66830, IMFQualityManager, IMFQualityManager interface [Media Foundation], NotifyProcessOutput method, IMFQualityManager::NotifyProcessOutput, NotifyProcessOutput method [Media Foundation], NotifyProcessOutput method [Media Foundation], IMFQualityManager interface, NotifyProcessOutput,IMFQualityManager.NotifyProcessOutput, mf.imfqualitymanager_notifyprocessoutput, mfidl/IMFQualityManager::NotifyProcessOutput
+ms.date: 5/3/2018
+ms.keywords: 90596111-6fbc-4249-a696-bd575cb66830, IMFQualityManager interface [Media Foundation],NotifyProcessOutput method, IMFQualityManager.NotifyProcessOutput, IMFQualityManager::NotifyProcessOutput, NotifyProcessOutput, NotifyProcessOutput method [Media Foundation], NotifyProcessOutput method [Media Foundation],IMFQualityManager interface, mf.imfqualitymanager_notifyprocessoutput, mfidl/IMFQualityManager::NotifyProcessOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFQualityManager::NotifyProcessOutput method
+# IMFQualityManager::NotifyProcessOutput
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 7ac19065-571e-45f5-934f-35ddbf225262
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMPermission, IGPMPermission, IGPMPermission interface [GPMC], IGPMPermission interface [GPMC], described, _win32_igpmpermission, gpmc.igpmpermission, gpmgmt/IGPMPermission
+ms.keywords: GPMPermission, IGPMPermission, IGPMPermission interface [GPMC], IGPMPermission interface [GPMC],described, _win32_igpmpermission, gpmc.igpmpermission, gpmgmt/IGPMPermission
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

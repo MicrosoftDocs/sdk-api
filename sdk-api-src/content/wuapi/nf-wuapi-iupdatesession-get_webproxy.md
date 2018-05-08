@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession.get_WebProxy
-title: IUpdateSession::get_WebProxy method
+title: IUpdateSession::get_WebProxy
 author: windows-driver-content
 description: Gets and sets the proxy settings that are used to access the server.
 old-location: wua\iupdatesession_webproxy.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 33611ac4-9471-45c5-91cc-0a07251c74a5
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateSession, IUpdateSession interface [Windows Update Agent], WebProxy property, IUpdateSession.WebProxy, IUpdateSession::get_WebProxy, IUpdateSession::put_WebProxy, WebProxy property [Windows Update Agent], WebProxy property [Windows Update Agent], IUpdateSession interface, get_WebProxy,IUpdateSession.get_WebProxy, wua.iupdatesession_webproxy, wuapi/IUpdateSession::WebProxy, wuapi/IUpdateSession::get_WebProxy, wuapi/IUpdateSession::put_WebProxy
+ms.keywords: IUpdateSession interface [Windows Update Agent],WebProxy property, IUpdateSession.WebProxy, IUpdateSession.get_WebProxy, IUpdateSession::WebProxy, IUpdateSession::get_WebProxy, IUpdateSession::put_WebProxy, WebProxy property [Windows Update Agent], WebProxy property [Windows Update Agent],IUpdateSession interface, get_WebProxy, wua.iupdatesession_webproxy, wuapi/IUpdateSession::WebProxy, wuapi/IUpdateSession::get_WebProxy, wuapi/IUpdateSession::put_WebProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSession::get_WebProxy method
+# IUpdateSession::get_WebProxy
 
 
 ## -description

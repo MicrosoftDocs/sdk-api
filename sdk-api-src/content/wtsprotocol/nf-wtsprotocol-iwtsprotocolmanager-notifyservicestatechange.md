@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.NotifyServiceStateChange
-title: IWTSProtocolManager::NotifyServiceStateChange method
+title: IWTSProtocolManager::NotifyServiceStateChange
 author: windows-driver-content
 description: IWTSProtocolManager::NotifyServiceStateChange is no longer available. Instead, use IWRdsProtocolManager::NotifyServiceStateChange.
 old-location: termserv\iwtsprotocolmanager_notifyservicestatechange.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 303a53b3-b297-486c-9422-706ec60441f2
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolManager, IWTSProtocolManager interface [Remote Desktop Services], NotifyServiceStateChange method, IWTSProtocolManager::NotifyServiceStateChange, NotifyServiceStateChange method [Remote Desktop Services], NotifyServiceStateChange method [Remote Desktop Services], IWTSProtocolManager interface, NotifyServiceStateChange,IWTSProtocolManager.NotifyServiceStateChange, termserv.iwtsprotocolmanager_notifyservicestatechange, wtsprotocol/IWTSProtocolManager::NotifyServiceStateChange
+ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifyServiceStateChange method, IWTSProtocolManager.NotifyServiceStateChange, IWTSProtocolManager::NotifyServiceStateChange, NotifyServiceStateChange, NotifyServiceStateChange method [Remote Desktop Services], NotifyServiceStateChange method [Remote Desktop Services],IWTSProtocolManager interface, termserv.iwtsprotocolmanager_notifyservicestatechange, wtsprotocol/IWTSProtocolManager::NotifyServiceStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolManager::NotifyServiceStateChange method
+# IWTSProtocolManager::NotifyServiceStateChange
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: e04f0c47-ab89-49e4-aac6-028d2555ecf1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], IRegistrationInfo interface [Task Scheduler], described, registration information [Task Scheduler], interface, taskschd.iregistrationinfo, taskschd/IRegistrationInfo
+ms.keywords: IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], IRegistrationInfo interface [Task Scheduler],described, registration information [Task Scheduler],interface, taskschd.iregistrationinfo, taskschd/IRegistrationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

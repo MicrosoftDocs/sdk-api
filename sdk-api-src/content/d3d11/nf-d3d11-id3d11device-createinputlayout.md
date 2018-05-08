@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateInputLayout
-title: ID3D11Device::CreateInputLayout method
+title: ID3D11Device::CreateInputLayout
 author: windows-driver-content
 description: Create an input-layout object to describe the input-buffer data for the input-assembler stage.
 old-location: direct3d11\id3d11device_createinputlayout.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: fe233b7b-3729-428a-8611-e98ea4c5af35
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 7e1008d3-1c16-4b6f-6b61-949b59c5f6d2, CreateInputLayout method [Direct3D 11], CreateInputLayout method [Direct3D 11], ID3D11Device interface, CreateInputLayout,ID3D11Device.CreateInputLayout, ID3D11Device, ID3D11Device interface [Direct3D 11], CreateInputLayout method, ID3D11Device::CreateInputLayout, d3d11/ID3D11Device::CreateInputLayout, direct3d11.id3d11device_createinputlayout
+ms.keywords: 7e1008d3-1c16-4b6f-6b61-949b59c5f6d2, CreateInputLayout, CreateInputLayout method [Direct3D 11], CreateInputLayout method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateInputLayout method, ID3D11Device.CreateInputLayout, ID3D11Device::CreateInputLayout, d3d11/ID3D11Device::CreateInputLayout, direct3d11.id3d11device_createinputlayout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11Device::CreateInputLayout method
+# ID3D11Device::CreateInputLayout
 
 
 ## -description

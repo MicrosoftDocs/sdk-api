@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.AddInstance
-title: IFunctionDiscovery::AddInstance method
+title: IFunctionDiscovery::AddInstance
 author: windows-driver-content
 description: Creates or modifies a function instance.
 old-location: ncd\ifunctiondiscovery_addinstance_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: a99213b5-b310-4ce2-99ca-07b343f08c4d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddInstance method, AddInstance method, IFunctionDiscovery interface, AddInstance,IFunctionDiscovery.AddInstance, IFunctionDiscovery, IFunctionDiscovery interface, AddInstance method, IFunctionDiscovery::AddInstance, functiondiscoveryapi/IFunctionDiscovery::AddInstance, ncd.ifunctiondiscovery_addinstance_method
+ms.keywords: AddInstance, AddInstance method, AddInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,AddInstance method, IFunctionDiscovery.AddInstance, IFunctionDiscovery::AddInstance, functiondiscoveryapi/IFunctionDiscovery::AddInstance, ncd.ifunctiondiscovery_addinstance_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionDiscovery::AddInstance method
+# IFunctionDiscovery::AddInstance
 
 
 ## -description

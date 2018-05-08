@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetComponentsInProcess
-title: IGetAppTrackerData::GetComponentsInProcess method
+title: IGetAppTrackerData::GetComponentsInProcess
 author: windows-driver-content
 description: Retrieves summary information for all COM+ components hosted in a single process, or for a specified subset of these components.
 old-location: cos\igetapptrackerdata_getcomponentsinprocess.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 3a7c2aad-c688-4cd3-a58c-b9c32f9bc035
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetComponentsInProcess method [COM+], GetComponentsInProcess method [COM+], IGetAppTrackerData interface, GetComponentsInProcess,IGetAppTrackerData.GetComponentsInProcess, IGetAppTrackerData, IGetAppTrackerData interface [COM+], GetComponentsInProcess method, IGetAppTrackerData::GetComponentsInProcess, comsvcs/IGetAppTrackerData::GetComponentsInProcess, cos.igetapptrackerdata_getcomponentsinprocess
+ms.keywords: GetComponentsInProcess, GetComponentsInProcess method [COM+], GetComponentsInProcess method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetComponentsInProcess method, IGetAppTrackerData.GetComponentsInProcess, IGetAppTrackerData::GetComponentsInProcess, comsvcs/IGetAppTrackerData::GetComponentsInProcess, cos.igetapptrackerdata_getcomponentsinprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetAppTrackerData::GetComponentsInProcess method
+# IGetAppTrackerData::GetComponentsInProcess
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetErrorCode
-title: IXblIdpAuthTokenResult::GetErrorCode method
+title: IXblIdpAuthTokenResult::GetErrorCode
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_geterrorcode.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 0870EC42-9E67-4A5F-A465-CDD8B152D257
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetErrorCode method, GetErrorCode method, IXblIdpAuthTokenResult interface, GetErrorCode,IXblIdpAuthTokenResult.GetErrorCode, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetErrorCode method, IXblIdpAuthTokenResult::GetErrorCode, xblidp.ixblidpauthtokenresult_geterrorcode, xblidpauthmanager/IXblIdpAuthTokenResult::GetErrorCode
+ms.keywords: GetErrorCode, GetErrorCode method, GetErrorCode method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetErrorCode method, IXblIdpAuthTokenResult.GetErrorCode, IXblIdpAuthTokenResult::GetErrorCode, xblidp.ixblidpauthtokenresult_geterrorcode, xblidpauthmanager/IXblIdpAuthTokenResult::GetErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetErrorCode method
+# IXblIdpAuthTokenResult::GetErrorCode
 
 
 ## -description

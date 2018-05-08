@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetPolicies
-title: ISyncMgrSyncItem::GetPolicies method
+title: ISyncMgrSyncItem::GetPolicies
 author: windows-driver-content
 description: Gets a set of flags describing the policies set by the item.
 old-location: shell\ISyncMgrSyncItem_GetPolicies.htm
 old-project: shell
 ms.assetid: 5f4e1a8e-8fa7-48b3-8f20-8b260540ab9c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPolicies method [Windows Shell], GetPolicies method [Windows Shell], ISyncMgrSyncItem interface, GetPolicies,ISyncMgrSyncItem.GetPolicies, ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], GetPolicies method, ISyncMgrSyncItem::GetPolicies, _shell_ISyncMgrSyncItem_GetPolicies, shell.ISyncMgrSyncItem_GetPolicies, syncmgr/ISyncMgrSyncItem::GetPolicies
+ms.date: 5/3/2018
+ms.keywords: GetPolicies, GetPolicies method [Windows Shell], GetPolicies method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetPolicies method, ISyncMgrSyncItem.GetPolicies, ISyncMgrSyncItem::GetPolicies, _shell_ISyncMgrSyncItem_GetPolicies, shell.ISyncMgrSyncItem_GetPolicies, syncmgr/ISyncMgrSyncItem::GetPolicies
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrSyncItem::GetPolicies method
+# ISyncMgrSyncItem::GetPolicies
 
 
 ## -description

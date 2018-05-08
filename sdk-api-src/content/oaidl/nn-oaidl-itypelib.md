@@ -7,8 +7,8 @@ old-location: automat\itypelib.htm
 old-project: automat
 ms.assetid: c1e5d71f-6a4e-45f3-811d-f57024f81a55
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ITypeLib, ITypeLib interface [Automation], ITypeLib interface [Automation], described, _oa96_ITypeLib_Interface, automat.itypelib, oaidl/ITypeLib
+ms.date: 5/4/2018
+ms.keywords: ITypeLib, ITypeLib interface [Automation], ITypeLib interface [Automation],described, _oa96_ITypeLib_Interface, automat.itypelib, oaidl/ITypeLib
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,8 +38,8 @@ api_name:
 -	ITypeLib
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
 req.irql: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---

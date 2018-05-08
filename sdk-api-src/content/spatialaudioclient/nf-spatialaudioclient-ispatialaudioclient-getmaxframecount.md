@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetMaxFrameCount
-title: ISpatialAudioClient::GetMaxFrameCount method
+title: ISpatialAudioClient::GetMaxFrameCount
 author: windows-driver-content
 description: Gets the maximum possible frame count per processing pass. This method can be used to determine the size of the source buffer that should be allocated to convey audio data for each processing pass.
 old-location: coreaudio\ispatialaudioclient_getmaxframecount.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: CA28103B-6C9C-46C8-9C21-73573B42DDC4
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetMaxFrameCount method [Core Audio], GetMaxFrameCount method [Core Audio], ISpatialAudioClient interface, GetMaxFrameCount,ISpatialAudioClient.GetMaxFrameCount, ISpatialAudioClient, ISpatialAudioClient interface [Core Audio], GetMaxFrameCount method, ISpatialAudioClient::GetMaxFrameCount, coreaudio.ispatialaudioclient_getmaxframecount, spatialaudioclient/ISpatialAudioClient::GetMaxFrameCount
+ms.keywords: GetMaxFrameCount, GetMaxFrameCount method [Core Audio], GetMaxFrameCount method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetMaxFrameCount method, ISpatialAudioClient.GetMaxFrameCount, ISpatialAudioClient::GetMaxFrameCount, coreaudio.ispatialaudioclient_getmaxframecount, spatialaudioclient/ISpatialAudioClient::GetMaxFrameCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioClient::GetMaxFrameCount method
+# ISpatialAudioClient::GetMaxFrameCount
 
 
 ## -description

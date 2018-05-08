@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPHttpHeaderControl.AddRequestHeaders
-title: IUPnPHttpHeaderControl::AddRequestHeaders method
+title: IUPnPHttpHeaderControl::AddRequestHeaders
 author: windows-driver-content
 description: Adds the supplied HTTP header to an HTTP request.
 old-location: upnp\iupnphttpheadercontrol_addrequestheaders.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: e44f83de-eaf6-4b16-a70e-64f4daffc6b3
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: AddRequestHeaders method [UPnP APIs], AddRequestHeaders method [UPnP APIs], IUPnPHttpHeaderControl interface, AddRequestHeaders,IUPnPHttpHeaderControl.AddRequestHeaders, IUPnPHttpHeaderControl, IUPnPHttpHeaderControl interface [UPnP APIs], AddRequestHeaders method, IUPnPHttpHeaderControl::AddRequestHeaders, upnp.iupnphttpheadercontrol_addrequestheaders, upnp/IUPnPHttpHeaderControl::AddRequestHeaders
+ms.keywords: AddRequestHeaders, AddRequestHeaders method [UPnP APIs], AddRequestHeaders method [UPnP APIs],IUPnPHttpHeaderControl interface, IUPnPHttpHeaderControl interface [UPnP APIs],AddRequestHeaders method, IUPnPHttpHeaderControl.AddRequestHeaders, IUPnPHttpHeaderControl::AddRequestHeaders, upnp.iupnphttpheadercontrol_addrequestheaders, upnp/IUPnPHttpHeaderControl::AddRequestHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPHttpHeaderControl::AddRequestHeaders method
+# IUPnPHttpHeaderControl::AddRequestHeaders
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTuner.get_Channel
-title: IAMTuner::get_Channel method
+title: IAMTuner::get_Channel
 author: windows-driver-content
 description: The get_Channel method retrieves the channel to which the tuner is set.
 old-location: dshow\iamtuner_get_channel.htm
 old-project: DirectShow
 ms.assetid: 68c1b6da-4380-4831-b554-bbb2e3e55ef9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTVTuner interface [DirectShow], get_Channel method, IAMTVTuner::get_Channel, IAMTuner, IAMTuner interface [DirectShow], get_Channel method, IAMTuner::get_Channel, IAMTunerget_Channel, dshow.iamtuner_get_channel, get_Channel method [DirectShow], get_Channel method [DirectShow], IAMTVTuner interface, get_Channel method [DirectShow], IAMTuner interface, get_Channel,IAMTuner.get_Channel, strmif/IAMTVTuner::get_Channel, strmif/IAMTuner::get_Channel
+ms.date: 4/30/2018
+ms.keywords: IAMTVTuner interface [DirectShow],get_Channel method, IAMTVTuner::get_Channel, IAMTuner interface [DirectShow],get_Channel method, IAMTuner.get_Channel, IAMTuner::get_Channel, IAMTunerget_Channel, dshow.iamtuner_get_channel, get_Channel, get_Channel method [DirectShow], get_Channel method [DirectShow],IAMTVTuner interface, get_Channel method [DirectShow],IAMTuner interface, strmif/IAMTVTuner::get_Channel, strmif/IAMTuner::get_Channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTuner::get_Channel method
+# IAMTuner::get_Channel
 
 
 ## -description

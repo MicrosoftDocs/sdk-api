@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogObject.IsPropertyReadOnly
-title: ICatalogObject::IsPropertyReadOnly method
+title: ICatalogObject::IsPropertyReadOnly
 author: windows-driver-content
 description: Indicates whether the specified property can be modified using Value.
 old-location: cos\icatalogobject_ispropertyreadonly.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: bd088794-1245-4cb8-a1f7-385354640675
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICatalogObject, ICatalogObject interface [COM+], IsPropertyReadOnly method, ICatalogObject::IsPropertyReadOnly, IsPropertyReadOnly method [COM+], IsPropertyReadOnly method [COM+], ICatalogObject interface, IsPropertyReadOnly,ICatalogObject.IsPropertyReadOnly, _cos_ICatalogObject_IsPropertyReadOnly, comadmin/ICatalogObject::IsPropertyReadOnly, cos.icatalogobject_ispropertyreadonly
+ms.keywords: ICatalogObject interface [COM+],IsPropertyReadOnly method, ICatalogObject.IsPropertyReadOnly, ICatalogObject::IsPropertyReadOnly, IsPropertyReadOnly, IsPropertyReadOnly method [COM+], IsPropertyReadOnly method [COM+],ICatalogObject interface, _cos_ICatalogObject_IsPropertyReadOnly, comadmin/ICatalogObject::IsPropertyReadOnly, cos.icatalogobject_ispropertyreadonly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICatalogObject::IsPropertyReadOnly method
+# ICatalogObject::IsPropertyReadOnly
 
 
 ## -description

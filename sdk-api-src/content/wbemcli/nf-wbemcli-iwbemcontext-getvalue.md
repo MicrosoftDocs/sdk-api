@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemContext.GetValue
-title: IWbemContext::GetValue method
+title: IWbemContext::GetValue
 author: windows-driver-content
 description: The IWbemContext::GetValue method is used to retrieve a specific named context value by name.
 old-location: wmi\iwbemcontext_getvalue.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: e11fff37-aeb7-41c5-8639-ca0a7a144263
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetValue method [Windows Management Instrumentation], GetValue method [Windows Management Instrumentation], IWbemContext interface, GetValue,IWbemContext.GetValue, IWbemContext, IWbemContext interface [Windows Management Instrumentation], GetValue method, IWbemContext::GetValue, _hmm_iwbemcontext_getvalue, wbemcli/IWbemContext::GetValue, wmi.iwbemcontext_getvalue
+ms.keywords: GetValue, GetValue method [Windows Management Instrumentation], GetValue method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],GetValue method, IWbemContext.GetValue, IWbemContext::GetValue, _hmm_iwbemcontext_getvalue, wbemcli/IWbemContext::GetValue, wmi.iwbemcontext_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemContext::GetValue method
+# IWbemContext::GetValue
 
 
 ## -description

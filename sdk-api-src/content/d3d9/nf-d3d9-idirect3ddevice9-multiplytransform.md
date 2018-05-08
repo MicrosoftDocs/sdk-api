@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.MultiplyTransform
-title: IDirect3DDevice9::MultiplyTransform method
+title: IDirect3DDevice9::MultiplyTransform
 author: windows-driver-content
 description: Multiplies a device's world, view, or projection matrices by a specified matrix.
 old-location: direct3d9\idirect3ddevice9__multiplytransform.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__multiplytransform.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], MultiplyTransform method, IDirect3DDevice9::MultiplyTransform, MultiplyTransform method [Direct3D 9], MultiplyTransform method [Direct3D 9], IDirect3DDevice9 interface, MultiplyTransform,IDirect3DDevice9.MultiplyTransform, d3d9helper/IDirect3DDevice9::MultiplyTransform, direct3d9.idirect3ddevice9__multiplytransform, fe383422-a888-e230-bf89-3ae4af8e8e7d
+ms.keywords: IDirect3DDevice9 interface [Direct3D 9],MultiplyTransform method, IDirect3DDevice9.MultiplyTransform, IDirect3DDevice9::MultiplyTransform, MultiplyTransform, MultiplyTransform method [Direct3D 9], MultiplyTransform method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::MultiplyTransform, direct3d9.idirect3ddevice9__multiplytransform, fe383422-a888-e230-bf89-3ae4af8e8e7d
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::MultiplyTransform method
+# IDirect3DDevice9::MultiplyTransform
 
 
 ## -description

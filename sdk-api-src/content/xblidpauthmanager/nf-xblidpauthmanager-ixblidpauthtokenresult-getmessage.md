@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMessage
-title: IXblIdpAuthTokenResult::GetMessage method
+title: IXblIdpAuthTokenResult::GetMessage
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getmessage.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 733EF96D-EDB5-4C8C-83C9-9CE225C510FC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetMessage method, GetMessage method, IXblIdpAuthTokenResult interface, GetMessage,IXblIdpAuthTokenResult.GetMessage, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetMessage method, IXblIdpAuthTokenResult::GetMessage, xblidp.ixblidpauthtokenresult_getmessage, xblidpauthmanager/IXblIdpAuthTokenResult::GetMessage
+ms.keywords: GetMessage, GetMessage method, GetMessage method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMessage method, IXblIdpAuthTokenResult.GetMessage, IXblIdpAuthTokenResult::GetMessage, xblidp.ixblidpauthtokenresult_getmessage, xblidpauthmanager/IXblIdpAuthTokenResult::GetMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetMessage method
+# IXblIdpAuthTokenResult::GetMessage
 
 
 ## -description

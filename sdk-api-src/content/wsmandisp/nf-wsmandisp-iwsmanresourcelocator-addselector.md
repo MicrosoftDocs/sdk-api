@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.AddSelector
-title: IWSManResourceLocator::AddSelector method
+title: IWSManResourceLocator::AddSelector
 author: windows-driver-content
 description: Adds a selector to the ResourceLocator object. The selector specifies a particular instance of a resource.
 old-location: winrm\iwsmanresourcelocator_addselector.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 2f6c1169-8e2a-4919-9a1a-856dbe41a9ce
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddSelector method [Windows Remote Management], AddSelector method [Windows Remote Management], IWSManResourceLocator interface, AddSelector,IWSManResourceLocator.AddSelector, IWSManResourceLocator, IWSManResourceLocator interface [Windows Remote Management], AddSelector method, IWSManResourceLocator::AddSelector, winrm.iwsmanresourcelocator_addselector, wsmandisp/IWSManResourceLocator::AddSelector
+ms.keywords: AddSelector, AddSelector method [Windows Remote Management], AddSelector method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],AddSelector method, IWSManResourceLocator.AddSelector, IWSManResourceLocator::AddSelector, winrm.iwsmanresourcelocator_addselector, wsmandisp/IWSManResourceLocator::AddSelector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManResourceLocator::AddSelector method
+# IWSManResourceLocator::AddSelector
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetTransformLookup
-title: IXpsOMVisual::GetTransformLookup method
+title: IXpsOMVisual::GetTransformLookup
 author: windows-driver-content
 description: Gets the lookup key name of the IXpsOMMatrixTransform interface in a resource dictionary that contains the resolved matrix transform for the visual.
 old-location: xps\ixpsomvisual_gettransformlookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 83d30b9c-4d3d-4fca-8dea-121074642b39
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging], IXpsOMVisual interface, GetTransformLookup,IXpsOMVisual.GetTransformLookup, IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], GetTransformLookup method, IXpsOMVisual::GetTransformLookup, xps.ixpsomvisual_gettransformlookup, xpsobjectmodel/IXpsOMVisual::GetTransformLookup
+ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMVisual.GetTransformLookup, IXpsOMVisual::GetTransformLookup, xps.ixpsomvisual_gettransformlookup, xpsobjectmodel/IXpsOMVisual::GetTransformLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::GetTransformLookup method
+# IXpsOMVisual::GetTransformLookup
 
 
 ## -description

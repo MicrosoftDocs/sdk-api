@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager2.ClassifyFiles
-title: IFsrmClassificationManager2::ClassifyFiles method
+title: IFsrmClassificationManager2::ClassifyFiles
 author: windows-driver-content
 description: This method is used to perform bulk enumeration, setting, and clearing of file properties.
 old-location: fsrm\ifsrmclassificationmanager2_classifyfiles.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 1dee9185-f83c-4e49-bf29-143271445046
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ClassifyFiles method [File Server Resource Manager], ClassifyFiles method [File Server Resource Manager], FsrmClassificationManager class, ClassifyFiles method [File Server Resource Manager], IFsrmClassificationManager2 interface, ClassifyFiles,IFsrmClassificationManager2.ClassifyFiles, FsrmClassificationManager class [File Server Resource Manager], ClassifyFiles method, IFsrmClassificationManager2, IFsrmClassificationManager2 interface [File Server Resource Manager], ClassifyFiles method, IFsrmClassificationManager2::ClassifyFiles, fs.ifsrmclassificationmanager2_classifyfiles, fsrm.ifsrmclassificationmanager2_classifyfiles, fsrmpipeline/IFsrmClassificationManager2::ClassifyFiles
+ms.keywords: ClassifyFiles, ClassifyFiles method [File Server Resource Manager], ClassifyFiles method [File Server Resource Manager],FsrmClassificationManager class, ClassifyFiles method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassifyFiles method, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassifyFiles method, IFsrmClassificationManager2.ClassifyFiles, IFsrmClassificationManager2::ClassifyFiles, fs.ifsrmclassificationmanager2_classifyfiles, fsrm.ifsrmclassificationmanager2_classifyfiles, fsrmpipeline/IFsrmClassificationManager2::ClassifyFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassificationManager2::ClassifyFiles method
+# IFsrmClassificationManager2::ClassifyFiles
 
 
 ## -description

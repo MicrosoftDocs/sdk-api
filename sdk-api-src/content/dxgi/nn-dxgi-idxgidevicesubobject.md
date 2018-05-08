@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevicesubobject.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIDeviceSubObject, IDXGIDeviceSubObject interface [DXGI], IDXGIDeviceSubObject interface [DXGI], described, cafb6d61-7a76-585b-438f-57d6aaa898c1, direct3ddxgi.idxgidevicesubobject, dxgi/IDXGIDeviceSubObject
+ms.keywords: IDXGIDeviceSubObject, IDXGIDeviceSubObject interface [DXGI], IDXGIDeviceSubObject interface [DXGI],described, cafb6d61-7a76-585b-438f-57d6aaa898c1, direct3ddxgi.idxgidevicesubobject, dxgi/IDXGIDeviceSubObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

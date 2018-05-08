@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMpeg2Demultiplexer.SetOutputPinMediaType
-title: IMpeg2Demultiplexer::SetOutputPinMediaType method
+title: IMpeg2Demultiplexer::SetOutputPinMediaType
 author: windows-driver-content
 description: The SetOutputPinMediaType method updates the media type of the specified output pin. (DirectX 9.0 and later.).
 old-location: dshow\impeg2demultiplexer_setoutputpinmediatype.htm
 old-project: DirectShow
 ms.assetid: 985033ea-72ea-40c4-8176-60208b505040
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMpeg2Demultiplexer, IMpeg2Demultiplexer interface [DirectShow], SetOutputPinMediaType method, IMpeg2Demultiplexer::SetOutputPinMediaType, IMpeg2DemultiplexerSetOutputPinMediaType, SetOutputPinMediaType method [DirectShow], SetOutputPinMediaType method [DirectShow], IMpeg2Demultiplexer interface, SetOutputPinMediaType,IMpeg2Demultiplexer.SetOutputPinMediaType, dshow.impeg2demultiplexer_setoutputpinmediatype, strmif/IMpeg2Demultiplexer::SetOutputPinMediaType
+ms.date: 4/30/2018
+ms.keywords: IMpeg2Demultiplexer interface [DirectShow],SetOutputPinMediaType method, IMpeg2Demultiplexer.SetOutputPinMediaType, IMpeg2Demultiplexer::SetOutputPinMediaType, IMpeg2DemultiplexerSetOutputPinMediaType, SetOutputPinMediaType, SetOutputPinMediaType method [DirectShow], SetOutputPinMediaType method [DirectShow],IMpeg2Demultiplexer interface, dshow.impeg2demultiplexer_setoutputpinmediatype, strmif/IMpeg2Demultiplexer::SetOutputPinMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMpeg2Demultiplexer::SetOutputPinMediaType method
+# IMpeg2Demultiplexer::SetOutputPinMediaType
 
 
 ## -description

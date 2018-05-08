@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a0480243-53e0-4da5-a119-291b19f46951
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], IWMReaderNetworkConfig2 interface [windows Media Format], described, IWMReaderNetworkConfig2Interface, wmformat.iwmreadernetworkconfig2, wmsdkidl/IWMReaderNetworkConfig2
+ms.keywords: IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], IWMReaderNetworkConfig2 interface [windows Media Format],described, IWMReaderNetworkConfig2Interface, wmformat.iwmreadernetworkconfig2, wmsdkidl/IWMReaderNetworkConfig2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

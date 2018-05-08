@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMPackage1.GetDocumentType
-title: IXpsOMPackage1::GetDocumentType method
+title: IXpsOMPackage1::GetDocumentType
 author: windows-driver-content
 description: Gets the document type of the data that was used to initialize this package. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.
 old-location: xps\ixpsompackage1_getdocumenttype.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 8f51e5c5-ac80-4f45-a0bb-ef19137fe391
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging], IXpsOMPackage1 interface, GetDocumentType,IXpsOMPackage1.GetDocumentType, IXpsOMPackage1, IXpsOMPackage1 interface [XPS Documents and Packaging], GetDocumentType method, IXpsOMPackage1::GetDocumentType, xps.ixpsompackage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPackage1::GetDocumentType
+ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMPackage1 interface, IXpsOMPackage1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMPackage1.GetDocumentType, IXpsOMPackage1::GetDocumentType, xps.ixpsompackage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPackage1::GetDocumentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPackage1::GetDocumentType method
+# IXpsOMPackage1::GetDocumentType
 
 
 ## -description

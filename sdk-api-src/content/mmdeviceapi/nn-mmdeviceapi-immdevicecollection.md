@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 4769b0a6-a319-4605-8742-5e7c285679cf
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IMMDeviceCollection, IMMDeviceCollection interface [Core Audio], IMMDeviceCollection interface [Core Audio], described, coreaudio.immdevicecollection, mmdeviceapi/IMMDeviceCollection
+ms.keywords: IMMDeviceCollection, IMMDeviceCollection interface [Core Audio], IMMDeviceCollection interface [Core Audio],described, coreaudio.immdevicecollection, mmdeviceapi/IMMDeviceCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

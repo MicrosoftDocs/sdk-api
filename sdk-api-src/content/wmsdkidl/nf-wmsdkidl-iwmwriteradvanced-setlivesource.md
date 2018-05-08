@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.SetLiveSource
-title: IWMWriterAdvanced::SetLiveSource method
+title: IWMWriterAdvanced::SetLiveSource
 author: windows-driver-content
 description: The SetLiveSource method sets a flag indicating whether the source is live.
 old-location: wmformat\iwmwriteradvanced_setlivesource.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ab015f92-498e-44c7-95c9-869dfdfccc09
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], SetLiveSource method, IWMWriterAdvanced::SetLiveSource, IWMWriterAdvancedSetLiveSource, SetLiveSource method [windows Media Format], SetLiveSource method [windows Media Format], IWMWriterAdvanced interface, SetLiveSource,IWMWriterAdvanced.SetLiveSource, wmformat.iwmwriteradvanced_setlivesource, wmsdkidl/IWMWriterAdvanced::SetLiveSource
+ms.keywords: IWMWriterAdvanced interface [windows Media Format],SetLiveSource method, IWMWriterAdvanced.SetLiveSource, IWMWriterAdvanced::SetLiveSource, IWMWriterAdvancedSetLiveSource, SetLiveSource, SetLiveSource method [windows Media Format], SetLiveSource method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_setlivesource, wmsdkidl/IWMWriterAdvanced::SetLiveSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterAdvanced::SetLiveSource method
+# IWMWriterAdvanced::SetLiveSource
 
 
 ## -description

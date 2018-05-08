@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUserArray.GetAt
-title: ICredentialProviderUserArray::GetAt method
+title: ICredentialProviderUserArray::GetAt
 author: windows-driver-content
 description: Retrieves a specified user from the array.
 old-location: shell\ICredentialProviderUserArray_GetAt.htm
 old-project: shell
 ms.assetid: E768CC54-4392-4d5f-BB90-4AA91E5D8B00
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAt method [Windows Shell], GetAt method [Windows Shell], ICredentialProviderUserArray interface, GetAt,ICredentialProviderUserArray.GetAt, ICredentialProviderUserArray, ICredentialProviderUserArray interface [Windows Shell], GetAt method, ICredentialProviderUserArray::GetAt, credentialprovider/ICredentialProviderUserArray::GetAt, shell.ICredentialProviderUserArray_GetAt
+ms.date: 5/3/2018
+ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAt method, ICredentialProviderUserArray.GetAt, ICredentialProviderUserArray::GetAt, credentialprovider/ICredentialProviderUserArray::GetAt, shell.ICredentialProviderUserArray_GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Authui.dll
 req.irql: 
 ---
 
-# ICredentialProviderUserArray::GetAt method
+# ICredentialProviderUserArray::GetAt
 
 
 ## -description

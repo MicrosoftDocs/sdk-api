@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceCollection.get_Item
-title: IUpdateServiceCollection::get_Item method
+title: IUpdateServiceCollection::get_Item
 author: windows-driver-content
 description: Gets and sets an IUpdateService interface in a collection.
 old-location: wua\iupdateservicecollection_item.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 581f532d-a973-4b66-9e9e-d8229a3b28b4
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateServiceCollection, IUpdateServiceCollection interface [Windows Update Agent], Item property, IUpdateServiceCollection.Item, IUpdateServiceCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent], IUpdateServiceCollection interface, get_Item,IUpdateServiceCollection.get_Item, wua.iupdateservicecollection_item, wuapi/IUpdateServiceCollection::Item, wuapi/IUpdateServiceCollection::get_Item
+ms.keywords: IUpdateServiceCollection interface [Windows Update Agent],Item property, IUpdateServiceCollection.Item, IUpdateServiceCollection.get_Item, IUpdateServiceCollection::Item, IUpdateServiceCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateServiceCollection interface, get_Item, wua.iupdateservicecollection_item, wuapi/IUpdateServiceCollection::Item, wuapi/IUpdateServiceCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateServiceCollection::get_Item method
+# IUpdateServiceCollection::get_Item
 
 
 ## -description

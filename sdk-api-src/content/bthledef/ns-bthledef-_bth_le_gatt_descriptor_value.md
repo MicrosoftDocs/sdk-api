@@ -7,7 +7,7 @@ old-location: bltooth\bth_le_gatt_descriptor_value.htm
 old-project: bltooth
 ms.assetid: 81D05AA7-B16C-4705-919F-8563FFA4A58E
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 4/27/2018
 ms.keywords: "*PBTH_LE_GATT_DESCRIPTOR_VALUE, BTH_LE_GATT_DESCRIPTOR_VALUE, BTH_LE_GATT_DESCRIPTOR_VALUE structure [Bluetooth Devices], PBTH_LE_GATT_DESCRIPTOR_VALUE, PBTH_LE_GATT_DESCRIPTOR_VALUE structure pointer [Bluetooth Devices], _BTH_LE_GATT_DESCRIPTOR_VALUE, bltooth.bth_le_gatt_descriptor_value, bthledef/BTH_LE_GATT_DESCRIPTOR_VALUE, bthledef/PBTH_LE_GATT_DESCRIPTOR_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,6 +87,11 @@ The characteristic user description descriptor is writable.
  
 
 
+### -field CharacteristicExtendedProperties.case.CharacteristicExtendedProperties
+
+ 
+
+
 ### -field ClientCharacteristicConfiguration
 
 Container structure for the different client characteristic configuration members.
@@ -107,6 +112,11 @@ Whether the characteristic has been registered with the device to receive Handle
  
 
 
+### -field ClientCharacteristicConfiguration.case.ClientCharacteristicConfiguration
+
+ 
+
+
 ### -field ServerCharacteristicConfiguration
 
 Container structure for the different server characteristic configuration members.
@@ -118,6 +128,11 @@ The parent characteristic value can be broadcast.
 
 
 ### -field ServerCharacteristicConfiguration.case
+
+ 
+
+
+### -field ServerCharacteristicConfiguration.case.ServerCharacteristicConfiguration
 
  
 
@@ -157,9 +172,44 @@ The Universally Unique ID (UUID) that describes the format of the parent charact
  
 
 
+### -field CharacteristicFormat.case.CharacteristicFormat
+
+ 
+
+
+### -field switch_type
+
+ 
+
+
+### -field switch_type.BTH_LE_GATT_DESCRIPTOR_TYPE
+
+ 
+
+
+### -field switch_is
+
+ 
+
+
+### -field switch_is.(BTH_LE_GATT_DESCRIPTOR_TYPE)DescriptorType
+
+ 
+
+
 ### -field DataSize
 
 The size, in bytes, of the descriptor value.
+
+
+### -field Data.size_is
+
+ 
+
+
+### -field Data.size_is.DataSize
+
+ 
 
 
 ### -field Data

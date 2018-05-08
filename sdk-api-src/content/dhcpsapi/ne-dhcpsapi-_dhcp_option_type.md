@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_type.htm
 old-project: DHCP
 ms.assetid: 2577c0b6-aa84-4176-87b7-ffd304823d76
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_OPTION_TYPE, DHCP_OPTION_TYPE, DHCP_OPTION_TYPE enumeration [DHCP], DhcpArrayTypeOption, DhcpUnaryElementTypeOption, LPDHCP_OPTION_TYPE, LPDHCP_OPTION_TYPE enumeration pointer [DHCP], _DHCP_OPTION_TYPE, dhcp.dhcp_option_type, dhcpsapi/DHCP_OPTION_TYPE, dhcpsapi/DhcpArrayTypeOption, dhcpsapi/DhcpUnaryElementTypeOption, dhcpsapi/LPDHCP_OPTION_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

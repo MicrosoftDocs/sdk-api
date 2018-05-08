@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.GetInputStreamAttributes
-title: IMFTransform::GetInputStreamAttributes method
+title: IMFTransform::GetInputStreamAttributes
 author: windows-driver-content
 description: Gets the attribute store for an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getinputstreamattributes.htm
 old-project: medfound
 ms.assetid: 2698da30-6913-41a9-9d98-f124cf31e591
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 2698da30-6913-41a9-9d98-f124cf31e591, GetInputStreamAttributes method [Media Foundation], GetInputStreamAttributes method [Media Foundation], IMFTransform interface, GetInputStreamAttributes,IMFTransform.GetInputStreamAttributes, IMFTransform, IMFTransform interface [Media Foundation], GetInputStreamAttributes method, IMFTransform::GetInputStreamAttributes, mf.imftransform_getinputstreamattributes, mftransform/IMFTransform::GetInputStreamAttributes
+ms.date: 5/3/2018
+ms.keywords: 2698da30-6913-41a9-9d98-f124cf31e591, GetInputStreamAttributes, GetInputStreamAttributes method [Media Foundation], GetInputStreamAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamAttributes method, IMFTransform.GetInputStreamAttributes, IMFTransform::GetInputStreamAttributes, mf.imftransform_getinputstreamattributes, mftransform/IMFTransform::GetInputStreamAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::GetInputStreamAttributes method
+# IMFTransform::GetInputStreamAttributes
 
 
 ## -description

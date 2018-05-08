@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.GetTocByIndex
-title: ITocParser::GetTocByIndex method
+title: ITocParser::GetTocByIndex
 author: windows-driver-content
 description: The GetTocByIndex method retrieves a table of contents, specified by an index, from the TOC Parser object.
 old-location: mf\itocparser_gettocbyindex.htm
 old-project: medfound
 ms.assetid: 1386e348-c94f-4343-908c-338352eae494
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTocByIndex method [Media Foundation], GetTocByIndex method [Media Foundation], ITocParser interface, GetTocByIndex,ITocParser.GetTocByIndex, ITocParser, ITocParser interface [Media Foundation], GetTocByIndex method, ITocParser::GetTocByIndex, codecapi.itocparser_gettocbyindex, mf.itocparser_gettocbyindex, wmcodecdsp/ITocParser::GetTocByIndex
+ms.date: 5/3/2018
+ms.keywords: GetTocByIndex, GetTocByIndex method [Media Foundation], GetTocByIndex method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocByIndex method, ITocParser.GetTocByIndex, ITocParser::GetTocByIndex, codecapi.itocparser_gettocbyindex, mf.itocparser_gettocbyindex, wmcodecdsp/ITocParser::GetTocByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocParser::GetTocByIndex method
+# ITocParser::GetTocByIndex
 
 
 ## -description

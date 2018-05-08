@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Inverted
-title: IInkCursor::get_Inverted method
+title: IInkCursor::get_Inverted
 author: windows-driver-content
 description: Gets a value that indicates whether the cursor is the inverted end of the pen.
 old-location: tablet\iinkcursor_inverted.htm
 old-project: tablet
 ms.assetid: 83cc33ba-0887-4f04-8eaf-325fcf90b8fe
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 83cc33ba-0887-4f04-8eaf-325fcf90b8fe, IInkCursor, IInkCursor interface [Tablet PC], Inverted property, IInkCursor.Inverted, IInkCursor.get_Inverted, IInkCursor::get_Inverted, Inverted property [Tablet PC], Inverted property [Tablet PC], IInkCursor interface, get_Inverted,IInkCursor.get_Inverted, msinkaut/IInkCursor::Inverted, msinkaut/IInkCursor::get_Inverted, tablet.iinkcursor_inverted
+ms.date: 5/2/2018
+ms.keywords: 83cc33ba-0887-4f04-8eaf-325fcf90b8fe, IInkCursor interface [Tablet PC],Inverted property, IInkCursor.Inverted, IInkCursor.get_Inverted, IInkCursor::Inverted, IInkCursor::get_Inverted, Inverted property [Tablet PC], Inverted property [Tablet PC],IInkCursor interface, get_Inverted, msinkaut/IInkCursor::Inverted, msinkaut/IInkCursor::get_Inverted, tablet.iinkcursor_inverted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkCursor::get_Inverted method
+# IInkCursor::get_Inverted
 
 
 ## -description

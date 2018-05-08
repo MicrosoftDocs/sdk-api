@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.ContentPrimarilyAudio
-title: IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio method
+title: IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio
 author: windows-driver-content
 description: Fired when an SBE2 source filter receives a STREAMBUFFER_EC_PRIMARY_AUDIO event, which is fired through the IMSVidStreamBufferSourceEvent3 interface, and indicates that SBE is processing primarily audio data.
 old-location: mstv\imsvidstreambufferv2sourceevent_contentprimarilyaudio.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9056bed3-b4da-4eca-a573-0d9bda3d2127
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ContentPrimarilyAudio method [Microsoft TV Technologies], ContentPrimarilyAudio method [Microsoft TV Technologies], IMSVidStreamBufferV2SourceEvent interface, ContentPrimarilyAudio,IMSVidStreamBufferV2SourceEvent.ContentPrimarilyAudio, IMSVidStreamBufferV2SourceEvent, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies], ContentPrimarilyAudio method, IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio, mstv.imsvidstreambufferv2sourceevent_contentprimarilyaudio, segment/IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio
+ms.keywords: ContentPrimarilyAudio, ContentPrimarilyAudio method [Microsoft TV Technologies], ContentPrimarilyAudio method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],ContentPrimarilyAudio method, IMSVidStreamBufferV2SourceEvent.ContentPrimarilyAudio, IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio, mstv.imsvidstreambufferv2sourceevent_contentprimarilyaudio, segment/IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio method
+# IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio
 
 
 ## -description

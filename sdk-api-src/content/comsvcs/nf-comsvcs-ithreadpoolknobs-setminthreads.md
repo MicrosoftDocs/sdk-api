@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetMinThreads
-title: IThreadPoolKnobs::SetMinThreads method
+title: IThreadPoolKnobs::SetMinThreads
 author: windows-driver-content
 description: Sets the minimum number of threads to be maintained in the pool.
 old-location: cos\ithreadpoolknobs_setminthreads.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 17852fb8-7e8e-44bb-99f2-b7b7a5053f49
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], SetMinThreads method, IThreadPoolKnobs::SetMinThreads, SetMinThreads method [COM+], SetMinThreads method [COM+], IThreadPoolKnobs interface, SetMinThreads,IThreadPoolKnobs.SetMinThreads, _cos_IThreadPoolKnobs_SetMinThreads, comsvcs/IThreadPoolKnobs::SetMinThreads, cos.ithreadpoolknobs_setminthreads
+ms.keywords: IThreadPoolKnobs interface [COM+],SetMinThreads method, IThreadPoolKnobs.SetMinThreads, IThreadPoolKnobs::SetMinThreads, SetMinThreads, SetMinThreads method [COM+], SetMinThreads method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMinThreads, comsvcs/IThreadPoolKnobs::SetMinThreads, cos.ithreadpoolknobs_setminthreads
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IThreadPoolKnobs::SetMinThreads method
+# IThreadPoolKnobs::SetMinThreads
 
 
 ## -description

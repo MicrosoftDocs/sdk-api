@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessUp
-title: IManipulationProcessor::ProcessUp method
+title: IManipulationProcessor::ProcessUp
 author: windows-driver-content
 description: The ProcessUp method feeds data to a target's manipulation processor for touch up sequences.
 old-location: wintouch\imanipulationprocessor_processup.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: c93f6729-5e50-41a1-867c-93e4ce9ecda9
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IManipulationProcessor, IManipulationProcessor interface [Windows Touch], ProcessUp method, IManipulationProcessor::ProcessUp, ProcessUp method [Windows Touch], ProcessUp method [Windows Touch], IManipulationProcessor interface, ProcessUp,IManipulationProcessor.ProcessUp, manipulations/IManipulationProcessor::ProcessUp, wintouch.imanipulationprocessor_processup
+ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessUp method, IManipulationProcessor.ProcessUp, IManipulationProcessor::ProcessUp, ProcessUp, ProcessUp method [Windows Touch], ProcessUp method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessUp, wintouch.imanipulationprocessor_processup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IManipulationProcessor::ProcessUp method
+# IManipulationProcessor::ProcessUp
 
 
 ## -description

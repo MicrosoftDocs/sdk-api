@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IStemmer.GenerateWordForms
-title: IStemmer::GenerateWordForms method
+title: IStemmer::GenerateWordForms
 author: windows-driver-content
 description: Generates alternative forms for a word and puts these forms in the WordFormSink.
 old-location: indexsrv\istemmer_generatewordforms.htm
@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_65lw.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GenerateWordForms method [Indexing Service], GenerateWordForms method [Indexing Service], IStemmer interface, GenerateWordForms,IStemmer.GenerateWordForms, IStemmer, IStemmer interface [Indexing Service], GenerateWordForms method, IStemmer::GenerateWordForms, _idxs_IStemmer_StemWord, indexsrv.istemmer_generatewordforms, indexsrv/IStemmer::GenerateWordForms
+ms.keywords: GenerateWordForms, GenerateWordForms method [Indexing Service], GenerateWordForms method [Indexing Service],IStemmer interface, IStemmer interface [Indexing Service],GenerateWordForms method, IStemmer.GenerateWordForms, IStemmer::GenerateWordForms, _idxs_IStemmer_StemWord, indexsrv.istemmer_generatewordforms, indexsrv/IStemmer::GenerateWordForms
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IStemmer::GenerateWordForms method
+# IStemmer::GenerateWordForms
 
 
 ## -description

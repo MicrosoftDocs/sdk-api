@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.MouseActivate
-title: IDvdControl::MouseActivate method
+title: IDvdControl::MouseActivate
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects and activates a DVD button in response to a mouse click.
 old-location: dshow\idvdcontrol_mouseactivate.htm
 old-project: DirectShow
 ms.assetid: ed84c7c8-0ae4-47f5-8a73-c975923722ab
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl, IDvdControl interface [DirectShow], MouseActivate method, IDvdControl::MouseActivate, IDvdControlMouseActivate, MouseActivate method [DirectShow], MouseActivate method [DirectShow], IDvdControl interface, MouseActivate,IDvdControl.MouseActivate, dshow.idvdcontrol_mouseactivate, strmif/IDvdControl::MouseActivate
+ms.date: 4/30/2018
+ms.keywords: IDvdControl interface [DirectShow],MouseActivate method, IDvdControl.MouseActivate, IDvdControl::MouseActivate, IDvdControlMouseActivate, MouseActivate, MouseActivate method [DirectShow], MouseActivate method [DirectShow],IDvdControl interface, dshow.idvdcontrol_mouseactivate, strmif/IDvdControl::MouseActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::MouseActivate method
+# IDvdControl::MouseActivate
 
 
 ## -description

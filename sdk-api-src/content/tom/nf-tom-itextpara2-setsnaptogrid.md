@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara2.SetSnapToGrid
-title: ITextPara2::SetSnapToGrid method
+title: ITextPara2::SetSnapToGrid
 author: windows-driver-content
 description: Sets whether paragraph lines snap to a vertical grid that could be defined for the whole document.
 old-location: controls\itextpara2_setsnaptogrid.htm
 old-project: Controls
 ms.assetid: 93116780-03e2-406b-8923-b9f02f53892d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], SetSnapToGrid method, ITextPara2::SetSnapToGrid, SetSnapToGrid method [Windows Controls], SetSnapToGrid method [Windows Controls], ITextPara2 interface, SetSnapToGrid,ITextPara2.SetSnapToGrid, controls.itextpara2_setsnaptogrid, tom/ITextPara2::SetSnapToGrid
+ms.date: 4/27/2018
+ms.keywords: ITextPara2 interface [Windows Controls],SetSnapToGrid method, ITextPara2.SetSnapToGrid, ITextPara2::SetSnapToGrid, SetSnapToGrid, SetSnapToGrid method [Windows Controls], SetSnapToGrid method [Windows Controls],ITextPara2 interface, controls.itextpara2_setsnaptogrid, tom/ITextPara2::SetSnapToGrid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara2::SetSnapToGrid method
+# ITextPara2::SetSnapToGrid
 
 
 ## -description

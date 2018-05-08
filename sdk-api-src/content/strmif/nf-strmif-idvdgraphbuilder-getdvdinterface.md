@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdGraphBuilder.GetDvdInterface
-title: IDvdGraphBuilder::GetDvdInterface method
+title: IDvdGraphBuilder::GetDvdInterface
 author: windows-driver-content
 description: The GetDvdInterface method retrieves interfaces from the DVD-Video playback graph to make DVD-Video playback development easier.
 old-location: dshow\idvdgraphbuilder_getdvdinterface.htm
 old-project: DirectShow
 ms.assetid: e16cb767-87a9-49f6-a3a7-88166f2abe73
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDvdInterface method [DirectShow], GetDvdInterface method [DirectShow], IDvdGraphBuilder interface, GetDvdInterface,IDvdGraphBuilder.GetDvdInterface, IDvdGraphBuilder, IDvdGraphBuilder interface [DirectShow], GetDvdInterface method, IDvdGraphBuilder::GetDvdInterface, IDvdGraphBuilderGetDvdInterface, dshow.idvdgraphbuilder_getdvdinterface, strmif/IDvdGraphBuilder::GetDvdInterface
+ms.date: 4/30/2018
+ms.keywords: GetDvdInterface, GetDvdInterface method [DirectShow], GetDvdInterface method [DirectShow],IDvdGraphBuilder interface, IDvdGraphBuilder interface [DirectShow],GetDvdInterface method, IDvdGraphBuilder.GetDvdInterface, IDvdGraphBuilder::GetDvdInterface, IDvdGraphBuilderGetDvdInterface, dshow.idvdgraphbuilder_getdvdinterface, strmif/IDvdGraphBuilder::GetDvdInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdGraphBuilder::GetDvdInterface method
+# IDvdGraphBuilder::GetDvdInterface
 
 
 ## -description

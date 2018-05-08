@@ -7,8 +7,8 @@ old-location: shell\IObjectArray.htm
 old-project: shell
 ms.assetid: ab0bb213-dc9c-4853-98d7-668e7ca76583
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IObjectArray, IObjectArray interface [Windows Shell], IObjectArray interface [Windows Shell], described, _shell_IObjectArray, objectarray/IObjectArray, shell.IObjectArray
+ms.date: 5/3/2018
+ms.keywords: IObjectArray, IObjectArray interface [Windows Shell], IObjectArray interface [Windows Shell],described, _shell_IObjectArray, objectarray/IObjectArray, shell.IObjectArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.IsInTrustedVideoMode
-title: IEVRTrustedVideoPlugin::IsInTrustedVideoMode method
+title: IEVRTrustedVideoPlugin::IsInTrustedVideoMode
 author: windows-driver-content
 description: Queries whether the plug-in has any transient vulnerabilities at this time.
 old-location: mf\ievrtrustedvideoplugin_isintrustedvideomode.htm
 old-project: medfound
 ms.assetid: 43242898-4812-4faa-8e0a-6e60455c9f3b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 43242898-4812-4faa-8e0a-6e60455c9f3b, IEVRTrustedVideoPlugin, IEVRTrustedVideoPlugin interface [Media Foundation], IsInTrustedVideoMode method, IEVRTrustedVideoPlugin::IsInTrustedVideoMode, IsInTrustedVideoMode method [Media Foundation], IsInTrustedVideoMode method [Media Foundation], IEVRTrustedVideoPlugin interface, IsInTrustedVideoMode,IEVRTrustedVideoPlugin.IsInTrustedVideoMode, evr/IEVRTrustedVideoPlugin::IsInTrustedVideoMode, mf.ievrtrustedvideoplugin_isintrustedvideomode
+ms.date: 5/3/2018
+ms.keywords: 43242898-4812-4faa-8e0a-6e60455c9f3b, IEVRTrustedVideoPlugin interface [Media Foundation],IsInTrustedVideoMode method, IEVRTrustedVideoPlugin.IsInTrustedVideoMode, IEVRTrustedVideoPlugin::IsInTrustedVideoMode, IsInTrustedVideoMode, IsInTrustedVideoMode method [Media Foundation], IsInTrustedVideoMode method [Media Foundation],IEVRTrustedVideoPlugin interface, evr/IEVRTrustedVideoPlugin::IsInTrustedVideoMode, mf.ievrtrustedvideoplugin_isintrustedvideomode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEVRTrustedVideoPlugin::IsInTrustedVideoMode method
+# IEVRTrustedVideoPlugin::IsInTrustedVideoMode
 
 
 ## -description

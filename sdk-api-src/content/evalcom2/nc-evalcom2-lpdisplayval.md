@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: ff7b2789-a825-4fa4-b00c-a538f37d0eba
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: LPDISPLAYVAL, LPDISPLAYVAL callback function, evalcom2/LPDISPLAYVAL, ieError, ieInfo, ieUnknown, ieWarning, setup.lpdisplayval
+ms.keywords: LPDISPLAYVAL, LPDISPLAYVAL callback, LPDISPLAYVAL callback function, evalcom2/LPDISPLAYVAL, ieError, ieInfo, ieUnknown, ieWarning, setup.lpdisplayval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# LPDISPLAYVAL callback
+# LPDISPLAYVAL callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfToolTipUIElement.GetString
-title: ITfToolTipUIElement::GetString method
+title: ITfToolTipUIElement::GetString
 author: windows-driver-content
 description: Returns the string of the tooltip.
 old-location: tsf\itftooltipuielement_getstring.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2858a16a-7550-4e16-8872-ecfffa7d1b4e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetString method [Text Services Framework], GetString method [Text Services Framework], ITfToolTipUIElement interface, GetString,ITfToolTipUIElement.GetString, ITfToolTipUIElement, ITfToolTipUIElement interface [Text Services Framework], GetString method, ITfToolTipUIElement::GetString, msctf/ITfToolTipUIElement::GetString, tsf.itftooltipuielement_getstring
+ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfToolTipUIElement interface, ITfToolTipUIElement interface [Text Services Framework],GetString method, ITfToolTipUIElement.GetString, ITfToolTipUIElement::GetString, msctf/ITfToolTipUIElement::GetString, tsf.itftooltipuielement_getstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfToolTipUIElement::GetString method
+# ITfToolTipUIElement::GetString
 
 
 ## -description

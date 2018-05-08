@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyRenewal.get_Renewal
-title: ICertPropertyRenewal::get_Renewal method
+title: ICertPropertyRenewal::get_Renewal
 author: windows-driver-content
 description: Retrieves the SHA-1 hash of the new certificate.
 old-location: security\icertpropertyrenewal_renewal_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: f2ea8198-01ec-4485-9f7e-9b9fa8ddba6f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyRenewal, ICertPropertyRenewal interface [Security], Renewal property, ICertPropertyRenewal.Renewal, ICertPropertyRenewal::get_Renewal, Renewal property [Security], Renewal property [Security], ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::Renewal, certenroll/ICertPropertyRenewal::get_Renewal, get_Renewal,ICertPropertyRenewal.get_Renewal, security.icertpropertyrenewal_renewal_property
+ms.keywords: ICertPropertyRenewal interface [Security],Renewal property, ICertPropertyRenewal.Renewal, ICertPropertyRenewal.get_Renewal, ICertPropertyRenewal::Renewal, ICertPropertyRenewal::get_Renewal, Renewal property [Security], Renewal property [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::Renewal, certenroll/ICertPropertyRenewal::get_Renewal, get_Renewal, security.icertpropertyrenewal_renewal_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyRenewal::get_Renewal method
+# ICertPropertyRenewal::get_Renewal
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: dshow\imemorydata.htm
 old-project: DirectShow
 ms.assetid: 0e809ae7-381c-4ada-8940-5d42bf5c03da
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMemoryData, IMemoryData interface [DirectShow], IMemoryData interface [DirectShow], described, IMemoryDataInterface, austream/IMemoryData, dshow.imemorydata
+ms.date: 4/30/2018
+ms.keywords: IMemoryData, IMemoryData interface [DirectShow], IMemoryData interface [DirectShow],described, IMemoryDataInterface, austream/IMemoryData, dshow.imemorydata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfoEnumerator.GetCurrent
-title: IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent method
+title: IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent
 author: windows-driver-content
 description: Gets the optional bundle information at the current position of the enumerator.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator_getcurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: C9C0E081-52AB-4B7F-B789-EC64B55EFA2A
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCurrent method [App packaging and management], GetCurrent method [App packaging and management], IAppxBundleManifestOptionalBundleInfoEnumerator interface, GetCurrent,IAppxBundleManifestOptionalBundleInfoEnumerator.GetCurrent, IAppxBundleManifestOptionalBundleInfoEnumerator, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management], GetCurrent method, IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_getcurrent
+ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxBundleManifestOptionalBundleInfoEnumerator interface, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],GetCurrent method, IAppxBundleManifestOptionalBundleInfoEnumerator.GetCurrent, IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent method
+# IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent
 
 
 ## -description

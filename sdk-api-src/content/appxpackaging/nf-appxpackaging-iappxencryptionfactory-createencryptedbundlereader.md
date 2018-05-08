@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedBundleReader
-title: IAppxEncryptionFactory::CreateEncryptedBundleReader method
+title: IAppxEncryptionFactory::CreateEncryptedBundleReader
 author: windows-driver-content
 description: Creates a read-only bundle object to which encrypted Windows app packages can be added.
 old-location: appxpkg\iappxencryptionfactory_createencryptedbundlereader.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 1802E721-9320-4B05-9C38-6C3AC3FB413C
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateEncryptedBundleReader method [App packaging and management], CreateEncryptedBundleReader method [App packaging and management], IAppxEncryptionFactory interface, CreateEncryptedBundleReader,IAppxEncryptionFactory.CreateEncryptedBundleReader, IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packaging and management], CreateEncryptedBundleReader method, IAppxEncryptionFactory::CreateEncryptedBundleReader, appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleReader, appxpkg.iappxencryptionfactory_createencryptedbundlereader
+ms.keywords: CreateEncryptedBundleReader, CreateEncryptedBundleReader method [App packaging and management], CreateEncryptedBundleReader method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],CreateEncryptedBundleReader method, IAppxEncryptionFactory.CreateEncryptedBundleReader, IAppxEncryptionFactory::CreateEncryptedBundleReader, appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleReader, appxpkg.iappxencryptionfactory_createencryptedbundlereader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxEncryptionFactory::CreateEncryptedBundleReader method
+# IAppxEncryptionFactory::CreateEncryptedBundleReader
 
 
 ## -description

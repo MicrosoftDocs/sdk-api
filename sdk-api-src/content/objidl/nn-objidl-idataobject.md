@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8a002deb-2727-456c-8078-a9b0d5893ed4
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IDataObject, IDataObject interface [COM], IDataObject interface [COM], described, _ole_idataobject, com.idataobject, objidl/IDataObject
+ms.keywords: IDataObject, IDataObject interface [COM], IDataObject interface [COM],described, _ole_idataobject, com.idataobject, objidl/IDataObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

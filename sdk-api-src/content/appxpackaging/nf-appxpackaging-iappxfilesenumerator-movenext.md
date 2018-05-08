@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFilesEnumerator.MoveNext
-title: IAppxFilesEnumerator::MoveNext method
+title: IAppxFilesEnumerator::MoveNext
 author: windows-driver-content
 description: Advances the position of the enumerator to the next payload file.
 old-location: appxpkg\iappxfilesenumerator_movenext.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: EC27AB65-EC67-4F6B-A3B8-313FD0422FA2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxFilesEnumerator, IAppxFilesEnumerator interface [App packaging and management], MoveNext method, IAppxFilesEnumerator::MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management], IAppxFilesEnumerator interface, MoveNext,IAppxFilesEnumerator.MoveNext, appxpackaging/IAppxFilesEnumerator::MoveNext, appxpkg.iappxfilesenumerator_movenext
+ms.keywords: IAppxFilesEnumerator interface [App packaging and management],MoveNext method, IAppxFilesEnumerator.MoveNext, IAppxFilesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxFilesEnumerator interface, appxpackaging/IAppxFilesEnumerator::MoveNext, appxpkg.iappxfilesenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxFilesEnumerator::MoveNext method
+# IAppxFilesEnumerator::MoveNext
 
 
 ## -description

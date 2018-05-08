@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.InitializeFromTemplateName
-title: IX509CertificateRequestPkcs10::InitializeFromTemplateName method
+title: IX509CertificateRequestPkcs10::InitializeFromTemplateName
 author: windows-driver-content
 description: "."
 old-location: security\ix509certificaterequestpkcs10_initializefromtemplatename_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 4ea746c3-b967-41b4-94ae-7b16b93ca4e4
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], InitializeFromTemplateName method, IX509CertificateRequestPkcs10::InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security], IX509CertificateRequestPkcs10 interface, InitializeFromTemplateName,IX509CertificateRequestPkcs10.InitializeFromTemplateName, certenroll/IX509CertificateRequestPkcs10::InitializeFromTemplateName, security.ix509certificaterequestpkcs10_initializefromtemplatename_method
+ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromTemplateName method, IX509CertificateRequestPkcs10.InitializeFromTemplateName, IX509CertificateRequestPkcs10::InitializeFromTemplateName, InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromTemplateName, security.ix509certificaterequestpkcs10_initializefromtemplatename_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs10::InitializeFromTemplateName method
+# IX509CertificateRequestPkcs10::InitializeFromTemplateName
 
 
 ## -description

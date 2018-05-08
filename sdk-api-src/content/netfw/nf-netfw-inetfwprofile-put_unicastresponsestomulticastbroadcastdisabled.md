@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwProfile.put_UnicastResponsesToMulticastBroadcastDisabled
-title: INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled method
+title: INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled
 author: windows-driver-content
 description: Indicates whether the firewall should not allow unicast responses to multicast and broadcast traffic.
 old-location: ics\inetfwprofile_unicastresponsestomulticastbroadcastdisabled.htm
 old-project: ICS
 ms.assetid: 61a0c65e-8dfa-4f3e-a28f-141a72065123
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwProfile, INetFwProfile interface [ICS/ICF], UnicastResponsesToMulticastBroadcastDisabled property, INetFwProfile.UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled, UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF], UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF], INetFwProfile interface, ics.inetfwprofile_unicastresponsestomulticastbroadcastdisabled, netfw/INetFwProfile::UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled, put_UnicastResponsesToMulticastBroadcastDisabled,INetFwProfile.put_UnicastResponsesToMulticastBroadcastDisabled
+ms.date: 5/1/2018
+ms.keywords: INetFwProfile interface [ICS/ICF],UnicastResponsesToMulticastBroadcastDisabled property, INetFwProfile.UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile.put_UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled, UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF], UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF],INetFwProfile interface, ics.inetfwprofile_unicastresponsestomulticastbroadcastdisabled, netfw/INetFwProfile::UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled, put_UnicastResponsesToMulticastBroadcastDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled method
+# INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled
 
 
 ## -description

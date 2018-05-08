@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.IDispatch.GetIDsOfNames
-title: IDispatch::GetIDsOfNames method
+title: IDispatch::GetIDsOfNames
 author: windows-driver-content
 description: Maps a single member and an optional set of argument names to a corresponding set of integer DISPIDs, which can be used on subsequent calls to Invoke.
 old-location: automat\idispatch_getidsofnames.htm
 old-project: automat
 ms.assetid: 6f6cf233-3481-436e-8d6a-51f93bf91619
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetIDsOfNames method [Automation], GetIDsOfNames method [Automation], IDispatch interface, GetIDsOfNames,IDispatch.GetIDsOfNames, IDispatch, IDispatch interface [Automation], GetIDsOfNames method, IDispatch::GetIDsOfNames, _oa96_IDispatch::GetIDsOfNames, automat.idispatch_getidsofnames, oaidl/IDispatch::GetIDsOfNames
+ms.date: 5/4/2018
+ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],IDispatch interface, IDispatch interface [Automation],GetIDsOfNames method, IDispatch.GetIDsOfNames, IDispatch::GetIDsOfNames, _oa96_IDispatch::GetIDsOfNames, automat.idispatch_getidsofnames, oaidl/IDispatch::GetIDsOfNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDispatch::GetIDsOfNames method
+# IDispatch::GetIDsOfNames
 
 
 ## -description

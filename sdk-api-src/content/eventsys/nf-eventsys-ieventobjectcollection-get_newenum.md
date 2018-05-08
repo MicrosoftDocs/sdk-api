@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.get_NewEnum
-title: IEventObjectCollection::get_NewEnum method
+title: IEventObjectCollection::get_NewEnum
 author: windows-driver-content
 description: An enumeration object that implements IEnumEventObject.
 old-location: cos\ieventobjectcollection_newenum.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 5e4e0749-bf23-4174-af80-0b708dbaf432
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventObjectCollection, IEventObjectCollection interface [COM+], NewEnum property, IEventObjectCollection.NewEnum, IEventObjectCollection::get_NewEnum, NewEnum property [COM+], NewEnum property [COM+], IEventObjectCollection interface, cos.ieventobjectcollection_newenum, eventsys/IEventObjectCollection::NewEnum, eventsys/IEventObjectCollection::get_NewEnum, get_NewEnum,IEventObjectCollection.get_NewEnum
+ms.keywords: IEventObjectCollection interface [COM+],NewEnum property, IEventObjectCollection.NewEnum, IEventObjectCollection.get_NewEnum, IEventObjectCollection::NewEnum, IEventObjectCollection::get_NewEnum, NewEnum property [COM+], NewEnum property [COM+],IEventObjectCollection interface, cos.ieventobjectcollection_newenum, eventsys/IEventObjectCollection::NewEnum, eventsys/IEventObjectCollection::get_NewEnum, get_NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventObjectCollection::get_NewEnum method
+# IEventObjectCollection::get_NewEnum
 
 
 ## -description

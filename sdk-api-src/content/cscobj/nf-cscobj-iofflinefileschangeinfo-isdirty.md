@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsDirty
-title: IOfflineFilesChangeInfo::IsDirty method
+title: IOfflineFilesChangeInfo::IsDirty
 author: windows-driver-content
 description: Determines whether an item in the Offline Files cache has been modified.
 old-location: of\iofflinefileschangeinfo_isdirty.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 47b3bae2-d0fb-4e15-a03f-c9d5001e8786
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesChangeInfo, IOfflineFilesChangeInfo interface [Offline Files], IsDirty method, IOfflineFilesChangeInfo::IsDirty, IsDirty method [Offline Files], IsDirty method [Offline Files], IOfflineFilesChangeInfo interface, IsDirty,IOfflineFilesChangeInfo.IsDirty, cscobj/IOfflineFilesChangeInfo::IsDirty, of.iofflinefileschangeinfo_isdirty
+ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsDirty method, IOfflineFilesChangeInfo.IsDirty, IOfflineFilesChangeInfo::IsDirty, IsDirty, IsDirty method [Offline Files], IsDirty method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsDirty, of.iofflinefileschangeinfo_isdirty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesChangeInfo::IsDirty method
+# IOfflineFilesChangeInfo::IsDirty
 
 
 ## -description

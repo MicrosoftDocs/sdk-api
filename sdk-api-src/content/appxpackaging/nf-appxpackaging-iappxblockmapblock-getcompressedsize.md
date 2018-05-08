@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlock.GetCompressedSize
-title: IAppxBlockMapBlock::GetCompressedSize method
+title: IAppxBlockMapBlock::GetCompressedSize
 author: windows-driver-content
 description: Retrieves compressed size of the block.
 old-location: appxpkg\iappxblockmapblock_getcompressedsize.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 02B5F96E-EA8B-407F-98D8-BF6BFF72B346
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCompressedSize method [App packaging and management], GetCompressedSize method [App packaging and management], IAppxBlockMapBlock interface, GetCompressedSize,IAppxBlockMapBlock.GetCompressedSize, IAppxBlockMapBlock, IAppxBlockMapBlock interface [App packaging and management], GetCompressedSize method, IAppxBlockMapBlock::GetCompressedSize, appxpackaging/IAppxBlockMapBlock::GetCompressedSize, appxpkg.iappxblockmapblock_getcompressedsize
+ms.keywords: GetCompressedSize, GetCompressedSize method [App packaging and management], GetCompressedSize method [App packaging and management],IAppxBlockMapBlock interface, IAppxBlockMapBlock interface [App packaging and management],GetCompressedSize method, IAppxBlockMapBlock.GetCompressedSize, IAppxBlockMapBlock::GetCompressedSize, appxpackaging/IAppxBlockMapBlock::GetCompressedSize, appxpkg.iappxblockmapblock_getcompressedsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapBlock::GetCompressedSize method
+# IAppxBlockMapBlock::GetCompressedSize
 
 
 ## -description

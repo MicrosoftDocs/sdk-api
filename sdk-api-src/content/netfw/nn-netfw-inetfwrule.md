@@ -7,8 +7,8 @@ old-location: ics\inetfwrule.htm
 old-project: ICS
 ms.assetid: 59e2a140-bf55-4f0e-bf4b-1a39d3dc0457
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], INetFwRule interface [ICS/ICF], described, ics.inetfwrule, netfw/INetFwRule
+ms.date: 5/1/2018
+ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], INetFwRule interface [ICS/ICF],described, ics.inetfwrule, netfw/INetFwRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

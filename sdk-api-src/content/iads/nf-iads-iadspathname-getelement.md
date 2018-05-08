@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.GetElement
-title: IADsPathname::GetElement method
+title: IADsPathname::GetElement
 author: windows-driver-content
 description: Retrieves an element of a directory path.
 old-location: adsi\iadspathname_getelement.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 6fc027c7-6645-4596-b438-99795f9e66fc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetElement method [ADSI], GetElement method [ADSI], IADsPathname interface, GetElement,IADsPathname.GetElement, IADsPathname, IADsPathname interface [ADSI], GetElement method, IADsPathname::GetElement, _ds_iadspathname_getelement, adsi.iadspathname__getelement, adsi.iadspathname_getelement, iads/IADsPathname::GetElement
+ms.keywords: GetElement, GetElement method [ADSI], GetElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetElement method, IADsPathname.GetElement, IADsPathname::GetElement, _ds_iadspathname_getelement, adsi.iadspathname__getelement, adsi.iadspathname_getelement, iads/IADsPathname::GetElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsPathname::GetElement method
+# IADsPathname::GetElement
 
 
 ## -description

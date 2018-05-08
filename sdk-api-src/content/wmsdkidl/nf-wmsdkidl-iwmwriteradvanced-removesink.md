@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.RemoveSink
-title: IWMWriterAdvanced::RemoveSink method
+title: IWMWriterAdvanced::RemoveSink
 author: windows-driver-content
 description: The RemoveSink method removes a writer sink object.
 old-location: wmformat\iwmwriteradvanced_removesink.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e2fc7f82-981a-4f69-b99d-71514ed2c6ae
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], RemoveSink method, IWMWriterAdvanced::RemoveSink, IWMWriterAdvancedRemoveSink, RemoveSink method [windows Media Format], RemoveSink method [windows Media Format], IWMWriterAdvanced interface, RemoveSink,IWMWriterAdvanced.RemoveSink, wmformat.iwmwriteradvanced_removesink, wmsdkidl/IWMWriterAdvanced::RemoveSink
+ms.keywords: IWMWriterAdvanced interface [windows Media Format],RemoveSink method, IWMWriterAdvanced.RemoveSink, IWMWriterAdvanced::RemoveSink, IWMWriterAdvancedRemoveSink, RemoveSink, RemoveSink method [windows Media Format], RemoveSink method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_removesink, wmsdkidl/IWMWriterAdvanced::RemoveSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterAdvanced::RemoveSink method
+# IWMWriterAdvanced::RemoveSink
 
 
 ## -description

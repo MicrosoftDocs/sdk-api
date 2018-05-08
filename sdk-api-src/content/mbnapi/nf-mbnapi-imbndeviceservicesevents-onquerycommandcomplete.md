@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnQueryCommandComplete
-title: IMbnDeviceServicesEvents::OnQueryCommandComplete method
+title: IMbnDeviceServicesEvents::OnQueryCommandComplete
 author: windows-driver-content
 description: Notification method indicating that a device service QUERY request has completed.
 old-location: mbn\imbndeviceservicesevents_onquerycommandcomplete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 6A04FA3F-D5E4-4E02-A334-218A168762AB
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceServicesEvents, IMbnDeviceServicesEvents interface [Microsoft Broadband Networks], OnQueryCommandComplete method, IMbnDeviceServicesEvents::OnQueryCommandComplete, OnQueryCommandComplete method [Microsoft Broadband Networks], OnQueryCommandComplete method [Microsoft Broadband Networks], IMbnDeviceServicesEvents interface, OnQueryCommandComplete,IMbnDeviceServicesEvents.OnQueryCommandComplete, mbn.imbndeviceservicesevents_onquerycommandcomplete, mbnapi/IMbnDeviceServicesEvents::OnQueryCommandComplete
+ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnQueryCommandComplete method, IMbnDeviceServicesEvents.OnQueryCommandComplete, IMbnDeviceServicesEvents::OnQueryCommandComplete, OnQueryCommandComplete, OnQueryCommandComplete method [Microsoft Broadband Networks], OnQueryCommandComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onquerycommandcomplete, mbnapi/IMbnDeviceServicesEvents::OnQueryCommandComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceServicesEvents::OnQueryCommandComplete method
+# IMbnDeviceServicesEvents::OnQueryCommandComplete
 
 
 ## -description

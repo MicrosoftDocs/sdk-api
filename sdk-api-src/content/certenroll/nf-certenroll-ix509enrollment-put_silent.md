@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.put_Silent
-title: IX509Enrollment::put_Silent method
+title: IX509Enrollment::put_Silent
 author: windows-driver-content
 description: Specifies or retrieves a Boolean value that indicates whether a user interface is displayed during the certificate enrollment process.
 old-location: security\ix509enrollment_silent_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: bd1f1e73-0c49-4a2f-9b29-8520da8e1d4b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], Silent property, IX509Enrollment.Silent, IX509Enrollment::get_Silent, IX509Enrollment::put_Silent, Silent property [Security], Silent property [Security], IX509Enrollment interface, certenroll/IX509Enrollment::Silent, certenroll/IX509Enrollment::get_Silent, certenroll/IX509Enrollment::put_Silent, put_Silent,IX509Enrollment.put_Silent, security.ix509enrollment_silent_property
+ms.keywords: IX509Enrollment interface [Security],Silent property, IX509Enrollment.Silent, IX509Enrollment.put_Silent, IX509Enrollment::Silent, IX509Enrollment::get_Silent, IX509Enrollment::put_Silent, Silent property [Security], Silent property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Silent, certenroll/IX509Enrollment::get_Silent, certenroll/IX509Enrollment::put_Silent, put_Silent, security.ix509enrollment_silent_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509Enrollment::put_Silent method
+# IX509Enrollment::put_Silent
 
 
 ## -description

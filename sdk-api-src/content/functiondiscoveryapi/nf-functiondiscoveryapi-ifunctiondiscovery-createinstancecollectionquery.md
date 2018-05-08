@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.CreateInstanceCollectionQuery
-title: IFunctionDiscovery::CreateInstanceCollectionQuery method
+title: IFunctionDiscovery::CreateInstanceCollectionQuery
 author: windows-driver-content
 description: Creates a query for a collection of specific function instances.
 old-location: ncd\ifunctiondiscovery_createinstancecollectionquery_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 46f74e55-8060-4f02-85e3-dbd2fc8fce78
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateInstanceCollectionQuery method, CreateInstanceCollectionQuery method, IFunctionDiscovery interface, CreateInstanceCollectionQuery,IFunctionDiscovery.CreateInstanceCollectionQuery, IFunctionDiscovery, IFunctionDiscovery interface, CreateInstanceCollectionQuery method, IFunctionDiscovery::CreateInstanceCollectionQuery, functiondiscoveryapi/IFunctionDiscovery::CreateInstanceCollectionQuery, ncd.ifunctiondiscovery_createinstancecollectionquery_method
+ms.keywords: CreateInstanceCollectionQuery, CreateInstanceCollectionQuery method, CreateInstanceCollectionQuery method,IFunctionDiscovery interface, IFunctionDiscovery interface,CreateInstanceCollectionQuery method, IFunctionDiscovery.CreateInstanceCollectionQuery, IFunctionDiscovery::CreateInstanceCollectionQuery, functiondiscoveryapi/IFunctionDiscovery::CreateInstanceCollectionQuery, ncd.ifunctiondiscovery_createinstancecollectionquery_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionDiscovery::CreateInstanceCollectionQuery method
+# IFunctionDiscovery::CreateInstanceCollectionQuery
 
 
 ## -description

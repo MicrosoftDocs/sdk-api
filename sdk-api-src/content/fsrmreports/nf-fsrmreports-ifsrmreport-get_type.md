@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.get_Type
-title: IFsrmReport::get_Type method
+title: IFsrmReport::get_Type
 author: windows-driver-content
 description: Retrieves the type of report to generate.
 old-location: fsrm\ifsrmreport_type.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 0f23c03a-5f9b-4a0e-b9cc-399ca931b6f7
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmReport, IFsrmReport interface [File Server Resource Manager], Type property, IFsrmReport.Type, IFsrmReport::get_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager], IFsrmReport interface, fs.ifsrmreport_type, fsrm.ifsrmreport_type, fsrmreports/IFsrmReport::Type, fsrmreports/IFsrmReport::get_Type, get_Type,IFsrmReport.get_Type
+ms.keywords: IFsrmReport interface [File Server Resource Manager],Type property, IFsrmReport.Type, IFsrmReport.get_Type, IFsrmReport::Type, IFsrmReport::get_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_type, fsrm.ifsrmreport_type, fsrmreports/IFsrmReport::Type, fsrmreports/IFsrmReport::get_Type, get_Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReport::get_Type method
+# IFsrmReport::get_Type
 
 
 ## -description

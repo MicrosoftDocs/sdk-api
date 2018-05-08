@@ -60,7 +60,7 @@ The
 
 
 
-#### - dwRtoAlgorithm
+### -field dwRtoAlgorithm
 
 Type: <b>DWORD</b>
 

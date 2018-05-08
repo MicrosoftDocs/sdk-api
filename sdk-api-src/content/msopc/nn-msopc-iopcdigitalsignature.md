@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: cfa38ef6-9d96-4577-a3bf-518784d19ad8
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], IOpcDigitalSignature interface [Open Packaging Conventions], described, msopc/IOpcDigitalSignature, opc.iopcdigitalsignature
+ms.keywords: IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], IOpcDigitalSignature interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignature, opc.iopcdigitalsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

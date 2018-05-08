@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensOnNow.OnBatteryPower
-title: ISensOnNow::OnBatteryPower method
+title: ISensOnNow::OnBatteryPower
 author: windows-driver-content
 description: SENS calls the OnBatteryPower method to notify an application that a computer is using battery power.
 old-location: sens\isensonnow_onbatterypower.htm
@@ -8,7 +8,7 @@ old-project: Sens
 ms.assetid: e8b4ce25-0d1b-401a-b16e-8eef7f292edf
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISensOnNow, ISensOnNow interface [SENS], OnBatteryPower method, ISensOnNow::OnBatteryPower, OnBatteryPower method [SENS], OnBatteryPower method [SENS], ISensOnNow interface, OnBatteryPower,ISensOnNow.OnBatteryPower, _zaw_isensonnow_onbatterypower, sens.isensonnow_onbatterypower, sensevts/ISensOnNow::OnBatteryPower, syncmgr.isensonnow_onbatterypower
+ms.keywords: ISensOnNow interface [SENS],OnBatteryPower method, ISensOnNow.OnBatteryPower, ISensOnNow::OnBatteryPower, OnBatteryPower, OnBatteryPower method [SENS], OnBatteryPower method [SENS],ISensOnNow interface, _zaw_isensonnow_onbatterypower, sens.isensonnow_onbatterypower, sensevts/ISensOnNow::OnBatteryPower, syncmgr.isensonnow_onbatterypower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISensOnNow::OnBatteryPower method
+# ISensOnNow::OnBatteryPower
 
 
 ## -description

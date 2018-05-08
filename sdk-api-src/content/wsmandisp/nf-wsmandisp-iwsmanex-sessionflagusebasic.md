@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseBasic
-title: IWSManEx::SessionFlagUseBasic method
+title: IWSManEx::SessionFlagUseBasic
 author: windows-driver-content
 description: Returns the value of the authentication flag WSManFlagUseBasic for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusebasic.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 6b7457e2-1c19-4b33-bb38-5068f3c295cb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], SessionFlagUseBasic method, IWSManEx::SessionFlagUseBasic, SessionFlagUseBasic method [Windows Remote Management], SessionFlagUseBasic method [Windows Remote Management], IWSManEx interface, SessionFlagUseBasic,IWSManEx.SessionFlagUseBasic, winrm.iwsmanex_sessionflagusebasic, wsmandisp/IWSManEx::SessionFlagUseBasic
+ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseBasic method, IWSManEx.SessionFlagUseBasic, IWSManEx::SessionFlagUseBasic, SessionFlagUseBasic, SessionFlagUseBasic method [Windows Remote Management], SessionFlagUseBasic method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusebasic, wsmandisp/IWSManEx::SessionFlagUseBasic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx::SessionFlagUseBasic method
+# IWSManEx::SessionFlagUseBasic
 
 
 ## -description

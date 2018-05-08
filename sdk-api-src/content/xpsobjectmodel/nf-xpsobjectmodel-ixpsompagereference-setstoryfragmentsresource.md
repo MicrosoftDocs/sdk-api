@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetStoryFragmentsResource
-title: IXpsOMPageReference::SetStoryFragmentsResource method
+title: IXpsOMPageReference::SetStoryFragmentsResource
 author: windows-driver-content
 description: Sets the IXpsOMStoryFragmentsResource interface pointer of the StoryFragments resource to be assigned to the page.
 old-location: xps\ixpsompagereference_setstoryfragmentsresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0e096e8f-d2f1-4dcb-9a86-c56ff53393d1
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], SetStoryFragmentsResource method, IXpsOMPageReference::SetStoryFragmentsResource, SetStoryFragmentsResource method [XPS Documents and Packaging], SetStoryFragmentsResource method [XPS Documents and Packaging], IXpsOMPageReference interface, SetStoryFragmentsResource,IXpsOMPageReference.SetStoryFragmentsResource, xps.ixpsompagereference_setstoryfragmentsresource, xpsobjectmodel/IXpsOMPageReference::SetStoryFragmentsResource
+ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetStoryFragmentsResource method, IXpsOMPageReference.SetStoryFragmentsResource, IXpsOMPageReference::SetStoryFragmentsResource, SetStoryFragmentsResource, SetStoryFragmentsResource method [XPS Documents and Packaging], SetStoryFragmentsResource method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setstoryfragmentsresource, xpsobjectmodel/IXpsOMPageReference::SetStoryFragmentsResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReference::SetStoryFragmentsResource method
+# IXpsOMPageReference::SetStoryFragmentsResource
 
 
 ## -description

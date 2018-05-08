@@ -7,7 +7,7 @@ old-location: rpc\rpc_notifications.htm
 old-project: Rpc
 ms.assetid: d5074917-837c-4f3c-a582-97f488ed4919
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RPC_NOTIFICATIONS, RPC_NOTIFICATIONS enumeration [RPC], RpcNotificationCallCancel, RpcNotificationCallNone, RpcNotificationClientDisconnect, _RPC_NOTIFICATIONS, rpc.rpc_notifications, rpcasync/RPC_NOTIFICATIONS, rpcasync/RpcNotificationCallCancel, rpcasync/RpcNotificationCallNone, rpcasync/RpcNotificationClientDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

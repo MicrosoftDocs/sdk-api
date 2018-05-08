@@ -7,7 +7,7 @@ old-location: winrt\hstring_userfree.htm
 old-project: WinRT
 ms.assetid: E398921B-3759-47A6-A4F4-9A6CCA7ED686
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: HSTRING_UserFree, HSTRING_UserFree function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserFree, winrt.hstring_userfree
 ms.prod: windows-hardware
 ms.technology: windows-devices

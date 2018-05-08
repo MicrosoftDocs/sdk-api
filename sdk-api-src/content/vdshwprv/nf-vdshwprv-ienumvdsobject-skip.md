@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IEnumVdsObject.Skip
-title: IEnumVdsObject::Skip method
+title: IEnumVdsObject::Skip
 author: windows-driver-content
 description: Skips a specified number of objects in the enumeration.
 old-location: base\ienumvdsobject_skip.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 8c0a856e-831e-489d-9e2a-bf2829bf59b6
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IEnumVdsObject, IEnumVdsObject interface [VDS], Skip method, IEnumVdsObject::Skip, Skip method [VDS], Skip method [VDS], IEnumVdsObject interface, Skip,IEnumVdsObject.Skip, base.ienumvdsobject_skip, vds/IEnumVdsObject::Skip, vdshwprv/IEnumVdsObject::Skip
+ms.keywords: IEnumVdsObject interface [VDS],Skip method, IEnumVdsObject.Skip, IEnumVdsObject::Skip, Skip, Skip method [VDS], Skip method [VDS],IEnumVdsObject interface, base.ienumvdsobject_skip, vds/IEnumVdsObject::Skip, vdshwprv/IEnumVdsObject::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IEnumVdsObject::Skip method
+# IEnumVdsObject::Skip
 
 
 ## -description

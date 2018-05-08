@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFillBrush
-title: IXpsOMGlyphs::GetFillBrush method
+title: IXpsOMGlyphs::GetFillBrush
 author: windows-driver-content
 description: Gets a pointer to the resolved IXpsOMBrush interface of the fill brush to be used for the text.
 old-location: xps\ixpsomglyphs_getfillbrush.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0deadd8e-24c5-4be1-8eaf-43cd59e22243
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetFillBrush method [XPS Documents and Packaging], GetFillBrush method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetFillBrush,IXpsOMGlyphs.GetFillBrush, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetFillBrush method, IXpsOMGlyphs::GetFillBrush, xps.ixpsomglyphs_getfillbrush, xpsobjectmodel/IXpsOMGlyphs::GetFillBrush
+ms.keywords: GetFillBrush, GetFillBrush method [XPS Documents and Packaging], GetFillBrush method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrush method, IXpsOMGlyphs.GetFillBrush, IXpsOMGlyphs::GetFillBrush, xps.ixpsomglyphs_getfillbrush, xpsobjectmodel/IXpsOMGlyphs::GetFillBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetFillBrush method
+# IXpsOMGlyphs::GetFillBrush
 
 
 ## -description

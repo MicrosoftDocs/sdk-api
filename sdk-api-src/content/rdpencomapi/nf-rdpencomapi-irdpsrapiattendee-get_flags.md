@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_Flags
-title: IRDPSRAPIAttendee::get_Flags method
+title: IRDPSRAPIAttendee::get_Flags
 author: windows-driver-content
 description: Retrieves the attendee specific flags that are defined in the RDPENCOMAPI_ATTENDEE_FLAGS enumeration type.
 old-location: rdp\irdpsrapiattendee_flags.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: e2e6bef1-6828-473c-aa33-ab30ebe56948
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: Flags property [RDP], Flags property [RDP], IRDPSRAPIAttendee interface, Flags property [RDP], RDPSRAPIAttendee object, IRDPSRAPIAttendee, IRDPSRAPIAttendee interface [RDP], Flags property, IRDPSRAPIAttendee.Flags, IRDPSRAPIAttendee::get_Flags, RDPSRAPIAttendee object [RDP], Flags property, get_Flags,IRDPSRAPIAttendee.get_Flags, rdp.irdpsrapiattendee_flags, rdpencomapi/IRDPSRAPIAttendee::Flags, rdpencomapi/IRDPSRAPIAttendee::get_Flags
+ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIAttendee interface, Flags property [RDP],RDPSRAPIAttendee object, IRDPSRAPIAttendee interface [RDP],Flags property, IRDPSRAPIAttendee.Flags, IRDPSRAPIAttendee.get_Flags, IRDPSRAPIAttendee::Flags, IRDPSRAPIAttendee::get_Flags, RDPSRAPIAttendee object [RDP],Flags property, get_Flags, rdp.irdpsrapiattendee_flags, rdpencomapi/IRDPSRAPIAttendee::Flags, rdpencomapi/IRDPSRAPIAttendee::get_Flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIAttendee::get_Flags method
+# IRDPSRAPIAttendee::get_Flags
 
 
 ## -description

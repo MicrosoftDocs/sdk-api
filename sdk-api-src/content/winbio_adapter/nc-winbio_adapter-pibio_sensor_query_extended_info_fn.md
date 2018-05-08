@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 28CC3757-5A9D-4E29-A26C-6FD90A38B45B
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN, SensorAdapterQueryExtendedInfo, SensorAdapterQueryExtendedInfo callback function [Windows Biometric Framework API], secbiomet.sensoradapterqueryextendedinfo, winbio_adapter/SensorAdapterQueryExtendedInfo
+ms.keywords: PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN, PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN callback, SensorAdapterQueryExtendedInfo, SensorAdapterQueryExtendedInfo callback function [Windows Biometric Framework API], secbiomet.sensoradapterqueryextendedinfo, winbio_adapter/SensorAdapterQueryExtendedInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN callback
+# PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN callback function
 
 
 ## -description

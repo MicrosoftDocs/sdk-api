@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetPointArray
-title: IPropertyValue::GetPointArray method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of Point values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getpointarray.htm
 old-project: WinRT
 ms.assetid: 7df4ad4e-3ca6-4956-b907-02c2cb6e481b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetPointArray method [Windows Runtime], GetPointArray method [Windows Runtime], IPropertyValue interface, GetPointArray,IPropertyValue.GetPointArray, IPropertyValue, IPropertyValue interface [Windows Runtime], GetPointArray method, IPropertyValue::GetPointArray, windows/IPropertyValue::GetPointArray, winrt.ipropertyvalue_getpointarray
+ms.date: 5/4/2018
+ms.keywords: GetPointArray, GetPointArray method [Windows Runtime], GetPointArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetPointArray method, IPropertyValue.GetPointArray, IPropertyValue.IPropertyValue, IPropertyValue::GetPointArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetPointArray, winrt.ipropertyvalue_getpointarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetPointArray method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

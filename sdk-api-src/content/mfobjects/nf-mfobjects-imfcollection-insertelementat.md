@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFCollection.InsertElementAt
-title: IMFCollection::InsertElementAt method
+title: IMFCollection::InsertElementAt
 author: windows-driver-content
 description: Adds an object at the specified index in the collection.
 old-location: mf\imfcollection_insertelementat.htm
 old-project: medfound
 ms.assetid: d8f64bf8-eb5b-4673-91be-796f4ea8dce0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCollection, IMFCollection interface [Media Foundation], InsertElementAt method, IMFCollection::InsertElementAt, InsertElementAt method [Media Foundation], InsertElementAt method [Media Foundation], IMFCollection interface, InsertElementAt,IMFCollection.InsertElementAt, d8f64bf8-eb5b-4673-91be-796f4ea8dce0, mf.imfcollection_insertelementat, mfobjects/IMFCollection::InsertElementAt
+ms.date: 5/3/2018
+ms.keywords: IMFCollection interface [Media Foundation],InsertElementAt method, IMFCollection.InsertElementAt, IMFCollection::InsertElementAt, InsertElementAt, InsertElementAt method [Media Foundation], InsertElementAt method [Media Foundation],IMFCollection interface, d8f64bf8-eb5b-4673-91be-796f4ea8dce0, mf.imfcollection_insertelementat, mfobjects/IMFCollection::InsertElementAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCollection::InsertElementAt method
+# IMFCollection::InsertElementAt
 
 
 ## -description

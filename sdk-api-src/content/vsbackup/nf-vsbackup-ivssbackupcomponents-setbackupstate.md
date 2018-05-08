@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetBackupState
-title: IVssBackupComponents::SetBackupState method
+title: IVssBackupComponents::SetBackupState
 author: windows-driver-content
 description: The SetBackupState method defines an overall configuration for a backup operation.
 old-location: base\ivssbackupcomponents_setbackupstate.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 18a1295d-b763-477b-bda2-baf8a878bf46
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], SetBackupState method, IVssBackupComponents::SetBackupState, SetBackupState method [VSS], SetBackupState method [VSS], IVssBackupComponents interface, SetBackupState,IVssBackupComponents.SetBackupState, _win32_ivssbackupcomponents_setbackupstate, base.ivssbackupcomponents_setbackupstate, vsbackup/IVssBackupComponents::SetBackupState
+ms.keywords: IVssBackupComponents interface [VSS],SetBackupState method, IVssBackupComponents.SetBackupState, IVssBackupComponents::SetBackupState, SetBackupState, SetBackupState method [VSS], SetBackupState method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupstate, base.ivssbackupcomponents_setbackupstate, vsbackup/IVssBackupComponents::SetBackupState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::SetBackupState method
+# IVssBackupComponents::SetBackupState
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.ChangeDDrawDevice
-title: IVMRSurfaceAllocatorNotify::ChangeDDrawDevice method
+title: IVMRSurfaceAllocatorNotify::ChangeDDrawDevice
 author: windows-driver-content
 description: The ChangeDDrawDevice method notifies the VMR that the DirectDraw playback device has changed. For example, on a multi-monitor system, the user has moved the video rectangle from one monitor to another.
 old-location: dshow\ivmrsurfaceallocatornotify_changeddrawdevice.htm
 old-project: DirectShow
 ms.assetid: 4fc4a001-7522-45b0-9b55-510f3ee3eb6d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ChangeDDrawDevice method [DirectShow], ChangeDDrawDevice method [DirectShow], IVMRSurfaceAllocatorNotify interface, ChangeDDrawDevice,IVMRSurfaceAllocatorNotify.ChangeDDrawDevice, IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], ChangeDDrawDevice method, IVMRSurfaceAllocatorNotify::ChangeDDrawDevice, IVMRSurfaceAllocatorNotifyChangeDDrawDevice, dshow.ivmrsurfaceallocatornotify_changeddrawdevice, strmif/IVMRSurfaceAllocatorNotify::ChangeDDrawDevice
+ms.date: 4/30/2018
+ms.keywords: ChangeDDrawDevice, ChangeDDrawDevice method [DirectShow], ChangeDDrawDevice method [DirectShow],IVMRSurfaceAllocatorNotify interface, IVMRSurfaceAllocatorNotify interface [DirectShow],ChangeDDrawDevice method, IVMRSurfaceAllocatorNotify.ChangeDDrawDevice, IVMRSurfaceAllocatorNotify::ChangeDDrawDevice, IVMRSurfaceAllocatorNotifyChangeDDrawDevice, dshow.ivmrsurfaceallocatornotify_changeddrawdevice, strmif/IVMRSurfaceAllocatorNotify::ChangeDDrawDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRSurfaceAllocatorNotify::ChangeDDrawDevice method
+# IVMRSurfaceAllocatorNotify::ChangeDDrawDevice
 
 
 ## -description

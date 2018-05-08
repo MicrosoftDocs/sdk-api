@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.Remove
-title: IX509PolicyServerListManager::Remove method
+title: IX509PolicyServerListManager::Remove
 author: windows-driver-content
 description: Removes an IX509PolicyServerUrl object from the collection by index number.
 old-location: security\ix509policyserverlistmanager_remove.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: c2e59087-a62b-4013-9a16-fedd03b2c286
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509PolicyServerListManager, IX509PolicyServerListManager interface [Security], Remove method, IX509PolicyServerListManager::Remove, Remove method [Security], Remove method [Security], IX509PolicyServerListManager interface, Remove,IX509PolicyServerListManager.Remove, certenroll/IX509PolicyServerListManager::Remove, security.ix509policyserverlistmanager_remove
+ms.keywords: IX509PolicyServerListManager interface [Security],Remove method, IX509PolicyServerListManager.Remove, IX509PolicyServerListManager::Remove, Remove, Remove method [Security], Remove method [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::Remove, security.ix509policyserverlistmanager_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PolicyServerListManager::Remove method
+# IX509PolicyServerListManager::Remove
 
 
 ## -description

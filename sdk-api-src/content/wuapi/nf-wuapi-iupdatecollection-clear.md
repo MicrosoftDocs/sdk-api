@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Clear
-title: IUpdateCollection::Clear method
+title: IUpdateCollection::Clear
 author: windows-driver-content
 description: Removes all the elements from the collection.
 old-location: wua\iupdatecollection_clear.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 53b30472-ae1b-4d29-a411-25f03e515996
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Clear method [Windows Update Agent], Clear method [Windows Update Agent], IUpdateCollection interface, Clear,IUpdateCollection.Clear, IUpdateCollection, IUpdateCollection interface [Windows Update Agent], Clear method, IUpdateCollection::Clear, wua.iupdatecollection_clear, wuapi/IUpdateCollection::Clear
+ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Clear method, IUpdateCollection.Clear, IUpdateCollection::Clear, wua.iupdatecollection_clear, wuapi/IUpdateCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateCollection::Clear method
+# IUpdateCollection::Clear
 
 
 ## -description

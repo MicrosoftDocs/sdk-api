@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CheckNotSupported
-title: IUIAutomation::CheckNotSupported method
+title: IUIAutomation::CheckNotSupported
 author: windows-driver-content
 description: Checks a provided VARIANT to see if it contains the Not Supported identifier.
 old-location: winauto\uiauto_IUIAutomation_CheckNotSupported.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: c7fd7d1e-3f7b-4700-9263-2cab6e0de896
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CheckNotSupported method [Windows Accessibility], CheckNotSupported method [Windows Accessibility], IUIAutomation interface, CheckNotSupported,IUIAutomation.CheckNotSupported, IUIAutomation, IUIAutomation interface [Windows Accessibility], CheckNotSupported method, IUIAutomation::CheckNotSupported, uiauto.uiauto_IUIAutomation_CheckNotSupported, uiauto_IUIAutomation_CheckNotSupported, uiautomationclient/IUIAutomation::CheckNotSupported, winauto.uiauto_IUIAutomation_CheckNotSupported
+ms.keywords: CheckNotSupported, CheckNotSupported method [Windows Accessibility], CheckNotSupported method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CheckNotSupported method, IUIAutomation.CheckNotSupported, IUIAutomation::CheckNotSupported, uiauto.uiauto_IUIAutomation_CheckNotSupported, uiauto_IUIAutomation_CheckNotSupported, uiautomationclient/IUIAutomation::CheckNotSupported, winauto.uiauto_IUIAutomation_CheckNotSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::CheckNotSupported method
+# IUIAutomation::CheckNotSupported
 
 
 ## -description

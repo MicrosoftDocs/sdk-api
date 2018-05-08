@@ -1,14 +1,14 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.GetEffectStatus
-title: IDirectInputEffectDriver::GetEffectStatus method
+title: IDirectInputEffectDriver::GetEffectStatus
 author: windows-driver-content
 description: The IDirectInputEffectDriver::GetEffectStatus method obtains information about the status of an effect.
 old-location: hid\idirectinputeffectdriver_geteffectstatus.htm
 old-project: hid
 ms.assetid: 1332b89a-59ab-4baf-a729-2183b24ce70d
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: GetEffectStatus method [Human Input Devices], GetEffectStatus method [Human Input Devices], IDirectInputEffectDriver interface, GetEffectStatus,IDirectInputEffectDriver.GetEffectStatus, IDirectInputEffectDriver, IDirectInputEffectDriver interface [Human Input Devices], GetEffectStatus method, IDirectInputEffectDriver::GetEffectStatus, di_ref_983ce615-4a09-4d28-af9d-968cd6c7054f.xml, dinputd/IDirectInputEffectDriver::GetEffectStatus, hid.idirectinputeffectdriver_geteffectstatus
+ms.date: 4/30/2018
+ms.keywords: GetEffectStatus, GetEffectStatus method [Human Input Devices], GetEffectStatus method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],GetEffectStatus method, IDirectInputEffectDriver.GetEffectStatus, IDirectInputEffectDriver::GetEffectStatus, di_ref_983ce615-4a09-4d28-af9d-968cd6c7054f.xml, dinputd/IDirectInputEffectDriver::GetEffectStatus, hid.idirectinputeffectdriver_geteffectstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectInputEffectDriver::GetEffectStatus method
+# IDirectInputEffectDriver::GetEffectStatus
 
 
 ## -description

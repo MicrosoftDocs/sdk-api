@@ -8,7 +8,7 @@ old-project: SecAuthN
 ms.assetid: 46CC703B-14A2-4588-BA13-837C76B70F07
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITpmVirtualSmartCardManager, ITpmVirtualSmartCardManager interface [Security], ITpmVirtualSmartCardManager interface [Security], described, security.itpmvirtualsmartcardmanager, tpmvscmgr/ITpmVirtualSmartCardManager
+ms.keywords: ITpmVirtualSmartCardManager, ITpmVirtualSmartCardManager interface [Security], ITpmVirtualSmartCardManager interface [Security],described, security.itpmvirtualsmartcardmanager, tpmvscmgr/ITpmVirtualSmartCardManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

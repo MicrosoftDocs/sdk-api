@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylus3.put_MultiTouchEnabled
-title: IRealTimeStylus3::put_MultiTouchEnabled method
+title: IRealTimeStylus3::put_MultiTouchEnabled
 author: windows-driver-content
 description: Indicates whether the IRealTimeStylus3 object has multitouch input enabled.
 old-location: tablet\irealtimestylus3_multitouchenabled.htm
 old-project: tablet
 ms.assetid: cc573213-a6ed-424b-8513-d5655ba6785a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IRealTimeStylus3, IRealTimeStylus3 interface [Tablet PC], MultiTouchEnabled property, IRealTimeStylus3.MultiTouchEnabled, IRealTimeStylus3.get_MultiTouchEnabled, IRealTimeStylus3.put_MultiTouchEnabled, IRealTimeStylus3::get_MultiTouchEnabled, IRealTimeStylus3::put_MultiTouchEnabled, MultiTouchEnabled property [Tablet PC], MultiTouchEnabled property [Tablet PC], IRealTimeStylus3 interface, put_MultiTouchEnabled,IRealTimeStylus3.put_MultiTouchEnabled, rtscom/IRealTimeStylus3::MultiTouchEnabled, rtscom/IRealTimeStylus3::get_MultiTouchEnabled, rtscom/IRealTimeStylus3::put_MultiTouchEnabled, tablet.irealtimestylus3_multitouchenabled
+ms.date: 5/2/2018
+ms.keywords: IRealTimeStylus3 interface [Tablet PC],MultiTouchEnabled property, IRealTimeStylus3.MultiTouchEnabled, IRealTimeStylus3.get_MultiTouchEnabled, IRealTimeStylus3.put_MultiTouchEnabled, IRealTimeStylus3::MultiTouchEnabled, IRealTimeStylus3::get_MultiTouchEnabled, IRealTimeStylus3::put_MultiTouchEnabled, MultiTouchEnabled property [Tablet PC], MultiTouchEnabled property [Tablet PC],IRealTimeStylus3 interface, put_MultiTouchEnabled, rtscom/IRealTimeStylus3::MultiTouchEnabled, rtscom/IRealTimeStylus3::get_MultiTouchEnabled, rtscom/IRealTimeStylus3::put_MultiTouchEnabled, tablet.irealtimestylus3_multitouchenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylus3::put_MultiTouchEnabled method
+# IRealTimeStylus3::put_MultiTouchEnabled
 
 
 ## -description

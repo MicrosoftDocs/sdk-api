@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: fe50e34c-6499-4c1e-b891-7b4f797510f2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncProviderInfo, ISyncProviderInfo interface [Windows Sync], ISyncProviderInfo interface [Windows Sync], described, syncregistration/ISyncProviderInfo, winsync.isyncproviderinfo
+ms.keywords: ISyncProviderInfo, ISyncProviderInfo interface [Windows Sync], ISyncProviderInfo interface [Windows Sync],described, syncregistration/ISyncProviderInfo, winsync.isyncproviderinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

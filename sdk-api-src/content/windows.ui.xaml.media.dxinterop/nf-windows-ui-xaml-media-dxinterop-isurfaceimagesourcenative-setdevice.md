@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNative.SetDevice
-title: ISurfaceImageSourceNative::SetDevice method
+title: ISurfaceImageSourceNative::xaml
 author: windows-driver-content
 description: Sets the DXGI device, created with D3D11_CREATE_DEVICE_BGRA_SUPPORT, that will draw the surface.
 old-location: winrt\isurfaceimagesourcenative_setdevice.htm
 old-project: WinRT
 ms.assetid: 24DF51D3-3438-4AB4-BCA9-D5E2051B3CEA
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISurfaceImageSourceNative, ISurfaceImageSourceNative interface [Windows Runtime], SetDevice method, ISurfaceImageSourceNative::SetDevice, SetDevice method [Windows Runtime], SetDevice method [Windows Runtime], ISurfaceImageSourceNative interface, SetDevice,ISurfaceImageSourceNative.SetDevice, windows/ISurfaceImageSourceNative::SetDevice, winrt.isurfaceimagesourcenative_setdevice
+ms.date: 5/4/2018
+ms.keywords: ISurfaceImageSourceNative interface [Windows Runtime],SetDevice method, ISurfaceImageSourceNative.SetDevice, ISurfaceImageSourceNative.xaml, ISurfaceImageSourceNative::SetDevice, ISurfaceImageSourceNative::xaml, SetDevice, SetDevice method [Windows Runtime], SetDevice method [Windows Runtime],ISurfaceImageSourceNative interface, windows/ISurfaceImageSourceNative::SetDevice, winrt.isurfaceimagesourcenative_setdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISurfaceImageSourceNative::SetDevice method
+# ISurfaceImageSourceNative::xaml
 
 
 ## -description

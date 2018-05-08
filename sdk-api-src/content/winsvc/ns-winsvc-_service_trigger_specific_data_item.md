@@ -131,6 +131,21 @@ The trigger-specific data is a 64-bit unsigned integer value.
 The size of the trigger-specific data pointed to <b>pData</b>, in bytes.  The maximum value is 1024.
 
 
+### -field cbData.range
+
+ 
+
+
+### -field cbData.range.0
+
+ 
+
+
+### -field cbData.range.1024
+
+ 
+
+
 ### -field pData
 
 A pointer to the trigger-specific data for the service trigger event. The trigger-specific data depends on the trigger event type; see Remarks. 
@@ -140,6 +155,18 @@ If the <b>dwDataType</b> member is SERVICE_TRIGGER_DATA_TYPE_BINARY, the trigger
 If the <b>dwDataType</b> member is SERVICE_TRIGGER_DATA_TYPE_STRING, the trigger-specific data is a null-terminated string or a multistring of null-terminated strings, ending with two null-terminating characters. For example: <code>"5001\0UDP\0%programfiles%\MyApplication\MyServiceProcess.exe\0MyService\0\0"</code>.
 
 Strings must be Unicode; ANSI strings are not supported.
+
+
+### -field pData.size_is
+
+ 
+
+
+### -field pData.size_is.cbData
+
+ 
+
+
 
 
 ## -remarks

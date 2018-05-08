@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.OnAttributeChange
-title: ITfContextOwnerServices::OnAttributeChange method
+title: ITfContextOwnerServices::OnAttributeChange
 author: windows-driver-content
 description: ITfContextOwnerServices::OnAttributeChange method
 old-location: tsf\itfcontextownerservices_onattributechange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 8aae92e2-ae08-4e87-88f1-ece448323866
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfContextOwnerServices, ITfContextOwnerServices interface [Text Services Framework], OnAttributeChange method, ITfContextOwnerServices::OnAttributeChange, OnAttributeChange method [Text Services Framework], OnAttributeChange method [Text Services Framework], ITfContextOwnerServices interface, OnAttributeChange,ITfContextOwnerServices.OnAttributeChange, _tsf_itfcontextownerservices_onattributechange_ref, msctf/ITfContextOwnerServices::OnAttributeChange, tsf.itfcontextownerservices_onattributechange
+ms.keywords: ITfContextOwnerServices interface [Text Services Framework],OnAttributeChange method, ITfContextOwnerServices.OnAttributeChange, ITfContextOwnerServices::OnAttributeChange, OnAttributeChange, OnAttributeChange method [Text Services Framework], OnAttributeChange method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_onattributechange_ref, msctf/ITfContextOwnerServices::OnAttributeChange, tsf.itfcontextownerservices_onattributechange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwnerServices::OnAttributeChange method
+# ITfContextOwnerServices::OnAttributeChange
 
 
 ## -description

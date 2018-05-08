@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 131fa170-4c19-4a7b-82e0-e9677b7f767a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDXMLContext, IWSDXMLContext interface, IWSDXMLContext interface, described, ncd.iwsdxmlcontext, wsdxml/IWSDXMLContext
+ms.keywords: IWSDXMLContext, IWSDXMLContext interface, IWSDXMLContext interface,described, ncd.iwsdxmlcontext, wsdxml/IWSDXMLContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.RemoveStream
-title: IMFASFStreamPrioritization::RemoveStream method
+title: IMFASFStreamPrioritization::RemoveStream
 author: windows-driver-content
 description: Note  This interface is not implemented in this version of Media Foundation. Removes a stream from the stream priority list.
 old-location: mf\imfasfstreamprioritization_removestream.htm
 old-project: medfound
 ms.assetid: a6139042-9c78-4fe7-8549-655e35be2862
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], RemoveStream method, IMFASFStreamPrioritization::RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation], IMFASFStreamPrioritization interface, RemoveStream,IMFASFStreamPrioritization.RemoveStream, a6139042-9c78-4fe7-8549-655e35be2862, mf.imfasfstreamprioritization_removestream, wmcontainer/IMFASFStreamPrioritization::RemoveStream
+ms.date: 5/3/2018
+ms.keywords: IMFASFStreamPrioritization interface [Media Foundation],RemoveStream method, IMFASFStreamPrioritization.RemoveStream, IMFASFStreamPrioritization::RemoveStream, RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation],IMFASFStreamPrioritization interface, a6139042-9c78-4fe7-8549-655e35be2862, mf.imfasfstreamprioritization_removestream, wmcontainer/IMFASFStreamPrioritization::RemoveStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFStreamPrioritization::RemoveStream method
+# IMFASFStreamPrioritization::RemoveStream
 
 
 ## -description

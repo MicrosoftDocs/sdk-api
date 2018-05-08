@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.SetTimecode
-title: IAMTimecodeGenerator::SetTimecode method
+title: IAMTimecodeGenerator::SetTimecode
 author: windows-driver-content
 description: The SetTimecode method sets the timecode, userbit value, or both.
 old-location: dshow\iamtimecodegenerator_settimecode.htm
 old-project: DirectShow
 ms.assetid: 6da4b7e0-e6cd-4555-b5a3-e5f0f20ff070
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTimecodeGenerator, IAMTimecodeGenerator interface [DirectShow], SetTimecode method, IAMTimecodeGenerator::SetTimecode, IAMTimecodeGeneratorSetTimecode, SetTimecode method [DirectShow], SetTimecode method [DirectShow], IAMTimecodeGenerator interface, SetTimecode,IAMTimecodeGenerator.SetTimecode, dshow.iamtimecodegenerator_settimecode, strmif/IAMTimecodeGenerator::SetTimecode
+ms.date: 4/30/2018
+ms.keywords: IAMTimecodeGenerator interface [DirectShow],SetTimecode method, IAMTimecodeGenerator.SetTimecode, IAMTimecodeGenerator::SetTimecode, IAMTimecodeGeneratorSetTimecode, SetTimecode, SetTimecode method [DirectShow], SetTimecode method [DirectShow],IAMTimecodeGenerator interface, dshow.iamtimecodegenerator_settimecode, strmif/IAMTimecodeGenerator::SetTimecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTimecodeGenerator::SetTimecode method
+# IAMTimecodeGenerator::SetTimecode
 
 
 ## -description

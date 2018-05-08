@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.GetFont2
-title: ITextRange2::GetFont2 method
+title: ITextRange2::GetFont2
 author: windows-driver-content
 description: Gets an ITextFont2 object with the character attributes of the current range.
 old-location: controls\itextrange2_getfont2.htm
 old-project: Controls
 ms.assetid: 24ef7fb3-4cf4-46ed-9273-6f91c77f7641
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetFont2 method [Windows Controls], GetFont2 method [Windows Controls], ITextRange2 interface, GetFont2,ITextRange2.GetFont2, ITextRange2, ITextRange2 interface [Windows Controls], GetFont2 method, ITextRange2::GetFont2, controls.itextrange2_getfont2, tom/ITextRange2::GetFont2
+ms.date: 4/27/2018
+ms.keywords: GetFont2, GetFont2 method [Windows Controls], GetFont2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetFont2 method, ITextRange2.GetFont2, ITextRange2::GetFont2, controls.itextrange2_getfont2, tom/ITextRange2::GetFont2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::GetFont2 method
+# ITextRange2::GetFont2
 
 
 ## -description

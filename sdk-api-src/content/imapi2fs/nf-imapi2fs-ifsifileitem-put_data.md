@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem.put_Data
-title: IFsiFileItem::put_Data method
+title: IFsiFileItem::put_Data
 author: windows-driver-content
 description: Sets the data stream of the file's content.
 old-location: imapi\ifsifileitem_put_data.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 5fe00500-615c-48fe-a4a3-b3291e61db1f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiFileItem, IFsiFileItem interface [IMAPI], put_Data method, IFsiFileItem::put_Data, imapi.ifsifileitem_put_data, imapi2fs/IFsiFileItem::put_Data, put_Data method [IMAPI], put_Data method [IMAPI], IFsiFileItem interface, put_Data,IFsiFileItem.put_Data
+ms.keywords: IFsiFileItem interface [IMAPI],put_Data method, IFsiFileItem.put_Data, IFsiFileItem::put_Data, imapi.ifsifileitem_put_data, imapi2fs/IFsiFileItem::put_Data, put_Data, put_Data method [IMAPI], put_Data method [IMAPI],IFsiFileItem interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiFileItem::put_Data method
+# IFsiFileItem::put_Data
 
 
 ## -description

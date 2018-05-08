@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.NumberOfItems
-title: ISearchCatalogManager::NumberOfItems method
+title: ISearchCatalogManager::NumberOfItems
 author: windows-driver-content
 description: Gets the number of items in the catalog.
 old-location: search\_search_ISearchCatalogManager_NumberOfItems.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\numberofitems.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], NumberOfItems method, ISearchCatalogManager::NumberOfItems, NumberOfItems method [search], NumberOfItems method [search], ISearchCatalogManager interface, NumberOfItems,ISearchCatalogManager.NumberOfItems, _search_ISearchCatalogManager_NumberOfItems, search._search_ISearchCatalogManager_NumberOfItems, searchapi/ISearchCatalogManager::NumberOfItems
+ms.date: 5/4/2018
+ms.keywords: ISearchCatalogManager interface [search],NumberOfItems method, ISearchCatalogManager.NumberOfItems, ISearchCatalogManager::NumberOfItems, NumberOfItems, NumberOfItems method [search], NumberOfItems method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_NumberOfItems, search._search_ISearchCatalogManager_NumberOfItems, searchapi/ISearchCatalogManager::NumberOfItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::NumberOfItems method
+# ISearchCatalogManager::NumberOfItems
 
 
 ## -description

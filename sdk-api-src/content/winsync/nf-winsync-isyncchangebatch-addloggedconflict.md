@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatch.AddLoggedConflict
-title: ISyncChangeBatch::AddLoggedConflict method
+title: ISyncChangeBatch::AddLoggedConflict
 author: windows-driver-content
 description: Adds metadata that represents a conflict to the change batch.
 old-location: winsync\isyncchangebatch_addloggedconflict.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: e7f83c35-754a-4211-b893-2df6f65266a6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddLoggedConflict method [Windows Sync], AddLoggedConflict method [Windows Sync], ISyncChangeBatch interface, AddLoggedConflict,ISyncChangeBatch.AddLoggedConflict, ISyncChangeBatch, ISyncChangeBatch interface [Windows Sync], AddLoggedConflict method, ISyncChangeBatch::AddLoggedConflict, winsync.isyncchangebatch_addloggedconflict, winsync/ISyncChangeBatch::AddLoggedConflict
+ms.keywords: AddLoggedConflict, AddLoggedConflict method [Windows Sync], AddLoggedConflict method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],AddLoggedConflict method, ISyncChangeBatch.AddLoggedConflict, ISyncChangeBatch::AddLoggedConflict, winsync.isyncchangebatch_addloggedconflict, winsync/ISyncChangeBatch::AddLoggedConflict
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatch::AddLoggedConflict method
+# ISyncChangeBatch::AddLoggedConflict
 
 
 ## -description

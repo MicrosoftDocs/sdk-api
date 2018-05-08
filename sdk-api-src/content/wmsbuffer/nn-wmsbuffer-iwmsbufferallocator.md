@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 021ced93-4b79-4821-a380-7fed43fd5391
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSBufferAllocator, IWMSBufferAllocator interface [windows Media Format], IWMSBufferAllocator interface [windows Media Format], described, IWMSBufferAllocatorInterface, wmformat.iwmsbufferallocator, wmsbuffer/IWMSBufferAllocator
+ms.keywords: IWMSBufferAllocator, IWMSBufferAllocator interface [windows Media Format], IWMSBufferAllocator interface [windows Media Format],described, IWMSBufferAllocatorInterface, wmformat.iwmsbufferallocator, wmsbuffer/IWMSBufferAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

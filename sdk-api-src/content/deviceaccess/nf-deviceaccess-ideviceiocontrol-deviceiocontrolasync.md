@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.IDeviceIoControl.DeviceIoControlAsync
-title: IDeviceIoControl::DeviceIoControlAsync method
+title: IDeviceIoControl::DeviceIoControlAsync
 author: windows-driver-content
 description: The DeviceIoControlAsync method sends an asynchronous device input/output (I/O) control request to the device interface that the call to the CreateDeviceAccessInstance function specified.
 old-location: deviceaccess\ideviceiocontrol_deviceiocontrolasync.htm
@@ -8,7 +8,7 @@ old-project: deviceaccess
 ms.assetid: 550eadd0-c03b-40b3-9f08-639085365f4b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DeviceIoControlAsync method [Device Access Broker API], DeviceIoControlAsync method [Device Access Broker API], IDeviceIoControl interface, DeviceIoControlAsync,IDeviceIoControl.DeviceIoControlAsync, IDeviceIoControl, IDeviceIoControl interface [Device Access Broker API], DeviceIoControlAsync method, IDeviceIoControl::DeviceIoControlAsync, deviceaccess.ideviceiocontrol_deviceiocontrolasync, deviceaccess/IDeviceIoControl::DeviceIoControlAsync
+ms.keywords: DeviceIoControlAsync, DeviceIoControlAsync method [Device Access Broker API], DeviceIoControlAsync method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],DeviceIoControlAsync method, IDeviceIoControl.DeviceIoControlAsync, IDeviceIoControl::DeviceIoControlAsync, deviceaccess.ideviceiocontrol_deviceiocontrolasync, deviceaccess/IDeviceIoControl::DeviceIoControlAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDeviceIoControl::DeviceIoControlAsync method
+# IDeviceIoControl::DeviceIoControlAsync
 
 
 ## -description

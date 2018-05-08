@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d2f4c8bc-80b9-4ba0-9f30-f0864144902b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IInternalUnknown, IInternalUnknown interface [COM], IInternalUnknown interface [COM], described, _com_iinternalunknown, com.iinternalunknown, objidlbase/IInternalUnknown
+ms.keywords: IInternalUnknown, IInternalUnknown interface [COM], IInternalUnknown interface [COM],described, _com_iinternalunknown, com.iinternalunknown, objidlbase/IInternalUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_Shape
-title: IStylesProvider::get_Shape method
+title: IStylesProvider::get_Shape
 author: windows-driver-content
 description: Specifies the shape of an element in a document.
 old-location: winauto\uiauto_istylesprovider_shape.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 4FE34CD4-DF41-4B00-B9C9-A5909E116030
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IStylesProvider, IStylesProvider interface [Windows Accessibility], Shape property, IStylesProvider.Shape, IStylesProvider::get_Shape, Shape property [Windows Accessibility], Shape property [Windows Accessibility], IStylesProvider interface, get_Shape,IStylesProvider.get_Shape, uiautomationcore/IStylesProvider::Shape, uiautomationcore/IStylesProvider::get_Shape, winauto.uiauto_istylesprovider_shape
+ms.keywords: IStylesProvider interface [Windows Accessibility],Shape property, IStylesProvider.Shape, IStylesProvider.get_Shape, IStylesProvider::Shape, IStylesProvider::get_Shape, Shape property [Windows Accessibility], Shape property [Windows Accessibility],IStylesProvider interface, get_Shape, uiautomationcore/IStylesProvider::Shape, uiautomationcore/IStylesProvider::get_Shape, winauto.uiauto_istylesprovider_shape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IStylesProvider::get_Shape method
+# IStylesProvider::get_Shape
 
 
 ## -description

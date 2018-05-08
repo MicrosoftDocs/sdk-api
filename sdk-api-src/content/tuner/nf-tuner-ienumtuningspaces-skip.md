@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IEnumTuningSpaces.Skip
-title: IEnumTuningSpaces::Skip method
+title: IEnumTuningSpaces::Skip
 author: windows-driver-content
 description: The Skip method skips the specified element in the collection.
 old-location: mstv\ienumtuningspaces_skip.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 5449fca0-4b8d-402e-b444-e7bc314e47b3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IEnumTuningSpaces, IEnumTuningSpaces interface [Microsoft TV Technologies], Skip method, IEnumTuningSpaces::Skip, IEnumTuningSpacesSkip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies], IEnumTuningSpaces interface, Skip,IEnumTuningSpaces.Skip, mstv.ienumtuningspaces_skip, tuner/IEnumTuningSpaces::Skip
+ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Skip method, IEnumTuningSpaces.Skip, IEnumTuningSpaces::Skip, IEnumTuningSpacesSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumTuningSpaces interface, mstv.ienumtuningspaces_skip, tuner/IEnumTuningSpaces::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumTuningSpaces::Skip method
+# IEnumTuningSpaces::Skip
 
 
 ## -description

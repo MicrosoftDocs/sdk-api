@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Saturation
-title: IVideoProcAmp::put_Saturation method
+title: IVideoProcAmp::put_Saturation
 author: windows-driver-content
 description: The put_Saturation method sets the camera's saturation setting.
 old-location: dshow\ivideoprocamp_put_saturation.htm
 old-project: DirectShow
 ms.assetid: 7167fcac-b0c8-444e-a6a9-7ff9a603cc58
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], put_Saturation method, IVideoProcAmp::put_Saturation, IVideoProcAmpput_Saturation, dshow.ivideoprocamp_put_saturation, put_Saturation method [DirectShow], put_Saturation method [DirectShow], IVideoProcAmp interface, put_Saturation,IVideoProcAmp.put_Saturation, vidcap/IVideoProcAmp::put_Saturation
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],put_Saturation method, IVideoProcAmp.put_Saturation, IVideoProcAmp::put_Saturation, IVideoProcAmpput_Saturation, dshow.ivideoprocamp_put_saturation, put_Saturation, put_Saturation method [DirectShow], put_Saturation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Saturation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::put_Saturation method
+# IVideoProcAmp::put_Saturation
 
 
 ## -description

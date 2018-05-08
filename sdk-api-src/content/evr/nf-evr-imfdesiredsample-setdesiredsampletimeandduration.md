@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFDesiredSample.SetDesiredSampleTimeAndDuration
-title: IMFDesiredSample::SetDesiredSampleTimeAndDuration method
+title: IMFDesiredSample::SetDesiredSampleTimeAndDuration
 author: windows-driver-content
 description: Called by the presenter to set the time and duration of the sample that it requests from the mixer.
 old-location: mf\imfdesiredsample_setdesiredsampletimeandduration.htm
 old-project: medfound
 ms.assetid: 12877b24-83ec-4156-b411-f07202fdfd62
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 12877b24-83ec-4156-b411-f07202fdfd62, IMFDesiredSample, IMFDesiredSample interface [Media Foundation], SetDesiredSampleTimeAndDuration method, IMFDesiredSample::SetDesiredSampleTimeAndDuration, SetDesiredSampleTimeAndDuration method [Media Foundation], SetDesiredSampleTimeAndDuration method [Media Foundation], IMFDesiredSample interface, SetDesiredSampleTimeAndDuration,IMFDesiredSample.SetDesiredSampleTimeAndDuration, evr/IMFDesiredSample::SetDesiredSampleTimeAndDuration, mf.imfdesiredsample_setdesiredsampletimeandduration
+ms.date: 5/3/2018
+ms.keywords: 12877b24-83ec-4156-b411-f07202fdfd62, IMFDesiredSample interface [Media Foundation],SetDesiredSampleTimeAndDuration method, IMFDesiredSample.SetDesiredSampleTimeAndDuration, IMFDesiredSample::SetDesiredSampleTimeAndDuration, SetDesiredSampleTimeAndDuration, SetDesiredSampleTimeAndDuration method [Media Foundation], SetDesiredSampleTimeAndDuration method [Media Foundation],IMFDesiredSample interface, evr/IMFDesiredSample::SetDesiredSampleTimeAndDuration, mf.imfdesiredsample_setdesiredsampletimeandduration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFDesiredSample::SetDesiredSampleTimeAndDuration method
+# IMFDesiredSample::SetDesiredSampleTimeAndDuration
 
 
 ## -description

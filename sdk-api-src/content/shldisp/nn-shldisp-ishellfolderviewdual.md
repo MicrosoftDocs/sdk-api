@@ -7,8 +7,8 @@ old-location: shell\IShellFolderViewDual.htm
 old-project: shell
 ms.assetid: 48135f9d-ee80-4dec-87dc-83f407c25777
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellFolderViewDual, IShellFolderViewDual interface [Windows Shell], IShellFolderViewDual interface [Windows Shell], described, _shell_IShellFolderViewDual, shell.IShellFolderViewDual, shldisp/IShellFolderViewDual
+ms.date: 5/3/2018
+ms.keywords: IShellFolderViewDual, IShellFolderViewDual interface [Windows Shell], IShellFolderViewDual interface [Windows Shell],described, _shell_IShellFolderViewDual, shell.IShellFolderViewDual, shldisp/IShellFolderViewDual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
+req.dll: Shell32.dll
 req.irql: 
 req.product: Internet Explorer 5.0
 ---

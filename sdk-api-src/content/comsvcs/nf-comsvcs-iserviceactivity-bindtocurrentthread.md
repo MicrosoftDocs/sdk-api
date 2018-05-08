@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceActivity.BindToCurrentThread
-title: IServiceActivity::BindToCurrentThread method
+title: IServiceActivity::BindToCurrentThread
 author: windows-driver-content
 description: Binds the user-defined batch work to the current thread.
 old-location: cos\iserviceactivity_bindtocurrentthread.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 3d2b57fd-1714-4fdf-859c-9fdfb341dd5d
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: BindToCurrentThread method [COM+], BindToCurrentThread method [COM+], IServiceActivity interface, BindToCurrentThread,IServiceActivity.BindToCurrentThread, IServiceActivity, IServiceActivity interface [COM+], BindToCurrentThread method, IServiceActivity::BindToCurrentThread, _cos_IServiceActivity_BindToCurrentThread, comsvcs/IServiceActivity::BindToCurrentThread, cos.iserviceactivity_bindtocurrentthread
+ms.keywords: BindToCurrentThread, BindToCurrentThread method [COM+], BindToCurrentThread method [COM+],IServiceActivity interface, IServiceActivity interface [COM+],BindToCurrentThread method, IServiceActivity.BindToCurrentThread, IServiceActivity::BindToCurrentThread, _cos_IServiceActivity_BindToCurrentThread, comsvcs/IServiceActivity::BindToCurrentThread, cos.iserviceactivity_bindtocurrentthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServiceActivity::BindToCurrentThread method
+# IServiceActivity::BindToCurrentThread
 
 
 ## -description

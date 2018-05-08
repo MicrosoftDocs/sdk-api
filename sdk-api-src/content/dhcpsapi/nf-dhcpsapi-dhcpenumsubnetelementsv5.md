@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetelementsv5.htm
 old-project: DHCP
 ms.assetid: d6fd543c-5036-469e-9e48-02573c7dcb9f
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpEnumSubnetElementsV5, DhcpEnumSubnetElementsV5 function [DHCP], dhcp.dhcpenumsubnetelementsv5, dhcpsapi/DhcpEnumSubnetElementsV5
 ms.prod: windows-hardware
 ms.technology: windows-devices

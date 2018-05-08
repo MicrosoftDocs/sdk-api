@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF.AddAccessPath
-title: IVdsVolumeMF::AddAccessPath method
+title: IVdsVolumeMF::AddAccessPath
 author: windows-driver-content
 description: Adds an access path.
 old-location: base\ivdsvolumemf_addaccesspath.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: cf29639e-33fd-42f6-b616-7145521da347
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: AddAccessPath method [VDS], AddAccessPath method [VDS], IVdsVolumeMF interface, AddAccessPath,IVdsVolumeMF.AddAccessPath, IVdsVolumeMF, IVdsVolumeMF interface [VDS], AddAccessPath method, IVdsVolumeMF::AddAccessPath, base.ivdsvolumemf_addaccesspath, vds/IVdsVolumeMF::AddAccessPath
+ms.keywords: AddAccessPath, AddAccessPath method [VDS], AddAccessPath method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],AddAccessPath method, IVdsVolumeMF.AddAccessPath, IVdsVolumeMF::AddAccessPath, base.ivdsvolumemf_addaccesspath, vds/IVdsVolumeMF::AddAccessPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolumeMF::AddAccessPath method
+# IVdsVolumeMF::AddAccessPath
 
 
 ## -description

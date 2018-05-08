@@ -7,7 +7,7 @@ old-location: security\dssseed.htm
 old-project: SecCrypto
 ms.assetid: fbf2b5e4-b572-4b2c-907d-281570a0f26b
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: DSSSEED, DSSSEED structure [Security], _DSSSEED, _crypto2_dssseed, security.dssseed, wincrypt/DSSSEED
 ms.prod: windows-hardware
 ms.technology: windows-devices

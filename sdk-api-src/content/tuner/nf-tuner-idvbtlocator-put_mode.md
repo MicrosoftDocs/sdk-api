@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_Mode
-title: IDVBTLocator::put_Mode method
+title: IDVBTLocator::put_Mode
 author: windows-driver-content
 description: The put_Mode method sets the transmission mode.
 old-location: mstv\idvbtlocator_put_mode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 762f4604-46c9-4c19-9621-5ede52d8f524
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], put_Mode method, IDVBTLocator::put_Mode, IDVBTLocatorput_Mode, mstv.idvbtlocator_put_mode, put_Mode method [Microsoft TV Technologies], put_Mode method [Microsoft TV Technologies], IDVBTLocator interface, put_Mode,IDVBTLocator.put_Mode, tuner/IDVBTLocator::put_Mode
+ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_Mode method, IDVBTLocator.put_Mode, IDVBTLocator::put_Mode, IDVBTLocatorput_Mode, mstv.idvbtlocator_put_mode, put_Mode, put_Mode method [Microsoft TV Technologies], put_Mode method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_Mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBTLocator::put_Mode method
+# IDVBTLocator::put_Mode
 
 
 ## -description

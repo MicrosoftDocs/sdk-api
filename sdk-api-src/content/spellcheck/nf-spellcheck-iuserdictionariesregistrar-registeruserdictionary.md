@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.IUserDictionariesRegistrar.RegisterUserDictionary
-title: IUserDictionariesRegistrar::RegisterUserDictionary method
+title: IUserDictionariesRegistrar::RegisterUserDictionary
 author: windows-driver-content
 description: Registers a file to be used as a user dictionary for the current user, until unregistered.
 old-location: intl\iuserdictionariesregistrar_registeruserdictionary.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 5dd64e20-af2d-4d84-9e66-01ac19f34212
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IUserDictionariesRegistrar, IUserDictionariesRegistrar interface [Internationalization for Windows Applications], RegisterUserDictionary method, IUserDictionariesRegistrar::RegisterUserDictionary, RegisterUserDictionary method [Internationalization for Windows Applications], RegisterUserDictionary method [Internationalization for Windows Applications], IUserDictionariesRegistrar interface, RegisterUserDictionary,IUserDictionariesRegistrar.RegisterUserDictionary, intl.iuserdictionariesregistrar_registeruserdictionary, spellcheck/IUserDictionariesRegistrar::RegisterUserDictionary
+ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],RegisterUserDictionary method, IUserDictionariesRegistrar.RegisterUserDictionary, IUserDictionariesRegistrar::RegisterUserDictionary, RegisterUserDictionary, RegisterUserDictionary method [Internationalization for Windows Applications], RegisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_registeruserdictionary, spellcheck/IUserDictionariesRegistrar::RegisterUserDictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IUserDictionariesRegistrar::RegisterUserDictionary method
+# IUserDictionariesRegistrar::RegisterUserDictionary
 
 
 ## -description

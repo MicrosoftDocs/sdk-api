@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionEnhancedKeyUsage.InitializeDecode
-title: IX509ExtensionEnhancedKeyUsage::InitializeDecode method
+title: IX509ExtensionEnhancedKeyUsage::InitializeDecode
 author: windows-driver-content
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 old-location: security\ix509extensionenhancedkeyusage_initializedecode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: e83d0577-8eb9-4a59-8f52-ce1d9ab7f58a
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionEnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage interface [Security], InitializeDecode method, IX509ExtensionEnhancedKeyUsage::InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security], IX509ExtensionEnhancedKeyUsage interface, InitializeDecode,IX509ExtensionEnhancedKeyUsage.InitializeDecode, certenroll/IX509ExtensionEnhancedKeyUsage::InitializeDecode, security.ix509extensionenhancedkeyusage_initializedecode_method
+ms.keywords: IX509ExtensionEnhancedKeyUsage interface [Security],InitializeDecode method, IX509ExtensionEnhancedKeyUsage.InitializeDecode, IX509ExtensionEnhancedKeyUsage::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionEnhancedKeyUsage interface, certenroll/IX509ExtensionEnhancedKeyUsage::InitializeDecode, security.ix509extensionenhancedkeyusage_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionEnhancedKeyUsage::InitializeDecode method
+# IX509ExtensionEnhancedKeyUsage::InitializeDecode
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 460819db-0ac2-4008-8dfb-f0edc69bb478
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [File Server Resource Manager], IFsrmFileConditionProperty interface [File Server Resource Manager], described, fs.ifsrmfileconditionproperty, fsrm.ifsrmfileconditionproperty, fsrmreports/IFsrmFileConditionProperty
+ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [File Server Resource Manager], IFsrmFileConditionProperty interface [File Server Resource Manager],described, fs.ifsrmfileconditionproperty, fsrm.ifsrmfileconditionproperty, fsrmreports/IFsrmFileConditionProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -7,7 +7,7 @@ old-location: shell\PathFindSuffixArray.htm
 old-project: shell
 ms.assetid: e2285f7d-bb5d-48c5-bdf1-10ca410389f0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: PathFindSuffixArray, PathFindSuffixArray function [Windows Shell], PathFindSuffixArrayA, PathFindSuffixArrayW, _win32_PathFindSuffixArray, shell.PathFindSuffixArray, shlwapi/PathFindSuffixArray, shlwapi/PathFindSuffixArrayA, shlwapi/PathFindSuffixArrayW
 ms.prod: windows-hardware
 ms.technology: windows-devices

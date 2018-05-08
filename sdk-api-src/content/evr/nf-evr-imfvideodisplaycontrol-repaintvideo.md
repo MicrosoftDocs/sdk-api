@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.RepaintVideo
-title: IMFVideoDisplayControl::RepaintVideo method
+title: IMFVideoDisplayControl::RepaintVideo
 author: windows-driver-content
 description: Repaints the current video frame. Call this method whenever the application receives a WM_PAINT message.
 old-location: mf\imfvideodisplaycontrol_repaintvideo.htm
 old-project: medfound
 ms.assetid: c8051883-2a48-4ca4-a7d2-c90d0d451cd2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], RepaintVideo method, IMFVideoDisplayControl::RepaintVideo, RepaintVideo method [Media Foundation], RepaintVideo method [Media Foundation], IMFVideoDisplayControl interface, RepaintVideo,IMFVideoDisplayControl.RepaintVideo, c8051883-2a48-4ca4-a7d2-c90d0d451cd2, evr/IMFVideoDisplayControl::RepaintVideo, mf.imfvideodisplaycontrol_repaintvideo
+ms.date: 5/3/2018
+ms.keywords: IMFVideoDisplayControl interface [Media Foundation],RepaintVideo method, IMFVideoDisplayControl.RepaintVideo, IMFVideoDisplayControl::RepaintVideo, RepaintVideo, RepaintVideo method [Media Foundation], RepaintVideo method [Media Foundation],IMFVideoDisplayControl interface, c8051883-2a48-4ca4-a7d2-c90d0d451cd2, evr/IMFVideoDisplayControl::RepaintVideo, mf.imfvideodisplaycontrol_repaintvideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoDisplayControl::RepaintVideo method
+# IMFVideoDisplayControl::RepaintVideo
 
 
 ## -description

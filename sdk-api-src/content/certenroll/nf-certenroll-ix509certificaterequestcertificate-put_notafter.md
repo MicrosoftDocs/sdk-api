@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.put_NotAfter
-title: IX509CertificateRequestCertificate::put_NotAfter method
+title: IX509CertificateRequestCertificate::put_NotAfter
 author: windows-driver-content
 description: Specifies or retrieves the date and time after which the certificate is no longer valid.
 old-location: security\ix509certificaterequestcertificate_notafter_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 7a507e06-382f-40e3-8bbd-fcc6a24718db
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestCertificate, IX509CertificateRequestCertificate interface [Security], NotAfter property, IX509CertificateRequestCertificate.NotAfter, IX509CertificateRequestCertificate::get_NotAfter, IX509CertificateRequestCertificate::put_NotAfter, NotAfter property [Security], NotAfter property [Security], IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::NotAfter, certenroll/IX509CertificateRequestCertificate::get_NotAfter, certenroll/IX509CertificateRequestCertificate::put_NotAfter, put_NotAfter,IX509CertificateRequestCertificate.put_NotAfter, security.ix509certificaterequestcertificate_notafter_property
+ms.keywords: IX509CertificateRequestCertificate interface [Security],NotAfter property, IX509CertificateRequestCertificate.NotAfter, IX509CertificateRequestCertificate.put_NotAfter, IX509CertificateRequestCertificate::NotAfter, IX509CertificateRequestCertificate::get_NotAfter, IX509CertificateRequestCertificate::put_NotAfter, NotAfter property [Security], NotAfter property [Security],IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::NotAfter, certenroll/IX509CertificateRequestCertificate::get_NotAfter, certenroll/IX509CertificateRequestCertificate::put_NotAfter, put_NotAfter, security.ix509certificaterequestcertificate_notafter_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestCertificate::put_NotAfter method
+# IX509CertificateRequestCertificate::put_NotAfter
 
 
 ## -description

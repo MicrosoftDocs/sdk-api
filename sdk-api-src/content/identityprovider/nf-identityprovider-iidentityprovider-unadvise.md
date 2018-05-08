@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.UnAdvise
-title: IIdentityProvider::UnAdvise method
+title: IIdentityProvider::UnAdvise
 author: windows-driver-content
 description: Deletes a connection created by calling the Advise method.
 old-location: security\iidentityprovider_unadvise.htm
@@ -8,7 +8,7 @@ old-project: SecAuthN
 ms.assetid: ba8a12fc-ea4c-45b5-8339-9cbc88c160db
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IIdentityProvider, IIdentityProvider interface [Security], UnAdvise method, IIdentityProvider::UnAdvise, UnAdvise method [Security], UnAdvise method [Security], IIdentityProvider interface, UnAdvise,IIdentityProvider.UnAdvise, identityprovider/IIdentityProvider::UnAdvise, security.iidentityprovider_unadvise
+ms.keywords: IIdentityProvider interface [Security],UnAdvise method, IIdentityProvider.UnAdvise, IIdentityProvider::UnAdvise, UnAdvise, UnAdvise method [Security], UnAdvise method [Security],IIdentityProvider interface, identityprovider/IIdentityProvider::UnAdvise, security.iidentityprovider_unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IIdentityProvider::UnAdvise method
+# IIdentityProvider::UnAdvise
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetGeometry
-title: IXpsOMPath::GetGeometry method
+title: IXpsOMPath::GetGeometry
 author: windows-driver-content
 description: Gets a pointer to the path's IXpsOMGeometry interface, which describes the resolved fill area for this path.
 old-location: xps\ixpsompath_getgeometry.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c4a99bf6-09d8-426a-8878-1126578c4518
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetGeometry method [XPS Documents and Packaging], GetGeometry method [XPS Documents and Packaging], IXpsOMPath interface, GetGeometry,IXpsOMPath.GetGeometry, IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], GetGeometry method, IXpsOMPath::GetGeometry, xps.ixpsompath_getgeometry, xpsobjectmodel/IXpsOMPath::GetGeometry
+ms.keywords: GetGeometry, GetGeometry method [XPS Documents and Packaging], GetGeometry method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometry method, IXpsOMPath.GetGeometry, IXpsOMPath::GetGeometry, xps.ixpsompath_getgeometry, xpsobjectmodel/IXpsOMPath::GetGeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::GetGeometry method
+# IXpsOMPath::GetGeometry
 
 
 ## -description

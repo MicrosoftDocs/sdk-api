@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.GetRect
-title: IOleDocumentView::GetRect method
+title: IOleDocumentView::GetRect
 author: windows-driver-content
 description: Retrieves the rectangular coordinates of the viewport in which the view is or will be activated.
 old-location: com\ioledocumentview_getrect.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 65d27354-c278-4d9e-b1b7-6fa3651a343d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetRect method [COM], GetRect method [COM], IOleDocumentView interface, GetRect,IOleDocumentView.GetRect, IOleDocumentView, IOleDocumentView interface [COM], GetRect method, IOleDocumentView::GetRect, _ole_ioledocumentview_getrect, com.ioledocumentview_getrect, docobj/IOleDocumentView::GetRect
+ms.keywords: GetRect, GetRect method [COM], GetRect method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetRect method, IOleDocumentView.GetRect, IOleDocumentView::GetRect, _ole_ioledocumentview_getrect, com.ioledocumentview_getrect, docobj/IOleDocumentView::GetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IOleDocumentView::GetRect method
+# IOleDocumentView::GetRect
 
 
 ## -description

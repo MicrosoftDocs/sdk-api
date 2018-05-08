@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_FileNamePattern
-title: IFsrmFileManagementJob::put_FileNamePattern method
+title: IFsrmFileManagementJob::put_FileNamePattern
 author: windows-driver-content
 description: A condition property:\_wildcard filter for names.
 old-location: fsrm\ifsrmfilemanagementjob_filenamepattern.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 6a51dbc2-8e60-4575-9e97-c798e73c02a4
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FileNamePattern property [File Server Resource Manager], FileNamePattern property [File Server Resource Manager], IFsrmFileManagementJob interface, IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], FileNamePattern property, IFsrmFileManagementJob.FileNamePattern, IFsrmFileManagementJob::get_FileNamePattern, IFsrmFileManagementJob::put_FileNamePattern, fs.ifsrmfilemanagementjob_filenamepattern, fsrm.ifsrmfilemanagementjob_filenamepattern, fsrmreports/IFsrmFileManagementJob::FileNamePattern, fsrmreports/IFsrmFileManagementJob::get_FileNamePattern, fsrmreports/IFsrmFileManagementJob::put_FileNamePattern, put_FileNamePattern,IFsrmFileManagementJob.put_FileNamePattern
+ms.keywords: FileNamePattern property [File Server Resource Manager], FileNamePattern property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],FileNamePattern property, IFsrmFileManagementJob.FileNamePattern, IFsrmFileManagementJob.put_FileNamePattern, IFsrmFileManagementJob::FileNamePattern, IFsrmFileManagementJob::get_FileNamePattern, IFsrmFileManagementJob::put_FileNamePattern, fs.ifsrmfilemanagementjob_filenamepattern, fsrm.ifsrmfilemanagementjob_filenamepattern, fsrmreports/IFsrmFileManagementJob::FileNamePattern, fsrmreports/IFsrmFileManagementJob::get_FileNamePattern, fsrmreports/IFsrmFileManagementJob::put_FileNamePattern, put_FileNamePattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJob::put_FileNamePattern method
+# IFsrmFileManagementJob::put_FileNamePattern
 
 
 ## -description

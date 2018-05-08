@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.get_Storage
-title: IRDPSRAPITransportStreamBuffer::get_Storage method
+title: IRDPSRAPITransportStreamBuffer::get_Storage
 author: windows-driver-content
 description: The address of the internal storage buffer for the stream.
 old-location: rdp\irdpsrapitransportstreambuffer_storage.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: bf9a0480-cecf-4235-af9a-f92878c70db9
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer interface [RDP], Storage property, IRDPSRAPITransportStreamBuffer.Storage, IRDPSRAPITransportStreamBuffer::get_Storage, Storage property [RDP], Storage property [RDP], IRDPSRAPITransportStreamBuffer interface, get_Storage,IRDPSRAPITransportStreamBuffer.get_Storage, rdp.irdpsrapitransportstreambuffer_storage, rdpencomapi/IRDPSRAPITransportStreamBuffer::Storage, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Storage
+ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],Storage property, IRDPSRAPITransportStreamBuffer.Storage, IRDPSRAPITransportStreamBuffer.get_Storage, IRDPSRAPITransportStreamBuffer::Storage, IRDPSRAPITransportStreamBuffer::get_Storage, Storage property [RDP], Storage property [RDP],IRDPSRAPITransportStreamBuffer interface, get_Storage, rdp.irdpsrapitransportstreambuffer_storage, rdpencomapi/IRDPSRAPITransportStreamBuffer::Storage, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Storage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITransportStreamBuffer::get_Storage method
+# IRDPSRAPITransportStreamBuffer::get_Storage
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.GetUpperBoundItemId
-title: ISyncChangeBatchAdvanced::GetUpperBoundItemId method
+title: ISyncChangeBatchAdvanced::GetUpperBoundItemId
 author: windows-driver-content
 description: Gets the highest item ID that is represented in the knowledge of any group in the change batch.
 old-location: winsync\isyncchangebatchadvanced_getupperbounditemid.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 4aa472b1-7dfb-4159-8f50-cc8e5de34dd3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetUpperBoundItemId method [Windows Sync], GetUpperBoundItemId method [Windows Sync], ISyncChangeBatchAdvanced interface, GetUpperBoundItemId,ISyncChangeBatchAdvanced.GetUpperBoundItemId, ISyncChangeBatchAdvanced, ISyncChangeBatchAdvanced interface [Windows Sync], GetUpperBoundItemId method, ISyncChangeBatchAdvanced::GetUpperBoundItemId, winsync.isyncchangebatchadvanced_getupperbounditemid, winsync/ISyncChangeBatchAdvanced::GetUpperBoundItemId
+ms.keywords: GetUpperBoundItemId, GetUpperBoundItemId method [Windows Sync], GetUpperBoundItemId method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetUpperBoundItemId method, ISyncChangeBatchAdvanced.GetUpperBoundItemId, ISyncChangeBatchAdvanced::GetUpperBoundItemId, winsync.isyncchangebatchadvanced_getupperbounditemid, winsync/ISyncChangeBatchAdvanced::GetUpperBoundItemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchAdvanced::GetUpperBoundItemId method
+# ISyncChangeBatchAdvanced::GetUpperBoundItemId
 
 
 ## -description

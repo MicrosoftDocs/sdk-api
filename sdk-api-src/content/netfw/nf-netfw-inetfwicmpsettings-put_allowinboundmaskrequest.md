@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowInboundMaskRequest
-title: INetFwIcmpSettings::put_AllowInboundMaskRequest method
+title: INetFwIcmpSettings::put_AllowInboundMaskRequest
 author: windows-driver-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundmaskrequest.htm
 old-project: ICS
 ms.assetid: 5d34c60a-115b-4882-bc41-ea8b3528f9df
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: AllowInboundMaskRequest property [ICS/ICF], AllowInboundMaskRequest property [ICS/ICF], INetFwIcmpSettings interface, INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], AllowInboundMaskRequest property, INetFwIcmpSettings.AllowInboundMaskRequest, INetFwIcmpSettings::get_AllowInboundMaskRequest, INetFwIcmpSettings::put_AllowInboundMaskRequest, ics.inetfwicmpsettings_allowinboundmaskrequest, netfw/INetFwIcmpSettings::AllowInboundMaskRequest, netfw/INetFwIcmpSettings::get_AllowInboundMaskRequest, netfw/INetFwIcmpSettings::put_AllowInboundMaskRequest, put_AllowInboundMaskRequest,INetFwIcmpSettings.put_AllowInboundMaskRequest
+ms.date: 5/1/2018
+ms.keywords: AllowInboundMaskRequest property [ICS/ICF], AllowInboundMaskRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundMaskRequest property, INetFwIcmpSettings.AllowInboundMaskRequest, INetFwIcmpSettings.put_AllowInboundMaskRequest, INetFwIcmpSettings::AllowInboundMaskRequest, INetFwIcmpSettings::get_AllowInboundMaskRequest, INetFwIcmpSettings::put_AllowInboundMaskRequest, ics.inetfwicmpsettings_allowinboundmaskrequest, netfw/INetFwIcmpSettings::AllowInboundMaskRequest, netfw/INetFwIcmpSettings::get_AllowInboundMaskRequest, netfw/INetFwIcmpSettings::put_AllowInboundMaskRequest, put_AllowInboundMaskRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwIcmpSettings::put_AllowInboundMaskRequest method
+# INetFwIcmpSettings::put_AllowInboundMaskRequest
 
 
 ## -description

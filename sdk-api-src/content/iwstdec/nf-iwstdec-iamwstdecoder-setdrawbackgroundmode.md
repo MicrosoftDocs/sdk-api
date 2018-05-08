@@ -1,14 +1,14 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetDrawBackgroundMode
-title: IAMWstDecoder::SetDrawBackgroundMode method
+title: IAMWstDecoder::SetDrawBackgroundMode
 author: windows-driver-content
 description: Downstream filters use the SetDrawBackgroundMode method to assign whether the caption text background is to be opaque or transparent.
 old-location: dshow\iamwstdecoder_setdrawbackgroundmode.htm
 old-project: DirectShow
 ms.assetid: d237d3dc-b3c9-44b2-9277-798c4830b361
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], SetDrawBackgroundMode method, IAMWstDecoder::SetDrawBackgroundMode, IAMWstDecoderSetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow], IAMWstDecoder interface, SetDrawBackgroundMode,IAMWstDecoder.SetDrawBackgroundMode, dshow.iamwstdecoder_setdrawbackgroundmode, iwstdec/IAMWstDecoder::SetDrawBackgroundMode
+ms.date: 4/30/2018
+ms.keywords: IAMWstDecoder interface [DirectShow],SetDrawBackgroundMode method, IAMWstDecoder.SetDrawBackgroundMode, IAMWstDecoder::SetDrawBackgroundMode, IAMWstDecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setdrawbackgroundmode, iwstdec/IAMWstDecoder::SetDrawBackgroundMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMWstDecoder::SetDrawBackgroundMode method
+# IAMWstDecoder::SetDrawBackgroundMode
 
 
 ## -description

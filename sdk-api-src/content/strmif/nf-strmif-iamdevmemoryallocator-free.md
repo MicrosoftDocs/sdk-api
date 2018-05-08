@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.Free
-title: IAMDevMemoryAllocator::Free method
+title: IAMDevMemoryAllocator::Free
 author: windows-driver-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Frees the previously allocated memory.
 old-location: dshow\iamdevmemoryallocator_free.htm
 old-project: DirectShow
 ms.assetid: d86d3016-bca0-4a0b-946b-f50c49266c67
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Free method [DirectShow], Free method [DirectShow], IAMDevMemoryAllocator interface, Free,IAMDevMemoryAllocator.Free, IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow], Free method, IAMDevMemoryAllocator::Free, IAMDevMemoryAllocatorFree, dshow.iamdevmemoryallocator_free, strmif/IAMDevMemoryAllocator::Free
+ms.date: 4/30/2018
+ms.keywords: Free, Free method [DirectShow], Free method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],Free method, IAMDevMemoryAllocator.Free, IAMDevMemoryAllocator::Free, IAMDevMemoryAllocatorFree, dshow.iamdevmemoryallocator_free, strmif/IAMDevMemoryAllocator::Free
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMDevMemoryAllocator::Free method
+# IAMDevMemoryAllocator::Free
 
 
 ## -description

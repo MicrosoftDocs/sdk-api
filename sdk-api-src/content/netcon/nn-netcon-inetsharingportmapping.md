@@ -7,8 +7,8 @@ old-location: ics\inetsharingportmapping.htm
 old-project: ICS
 ms.assetid: 236608c3-061e-4db0-96df-25d263b6463b
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingPortMapping, INetSharingPortMapping interface [ICS/ICF], INetSharingPortMapping interface [ICS/ICF], described, _ics_inetsharingportmapping, ics.inetsharingportmapping, netcon/INetSharingPortMapping
+ms.date: 5/1/2018
+ms.keywords: INetSharingPortMapping, INetSharingPortMapping interface [ICS/ICF], INetSharingPortMapping interface [ICS/ICF],described, _ics_inetsharingportmapping, ics.inetsharingportmapping, netcon/INetSharingPortMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

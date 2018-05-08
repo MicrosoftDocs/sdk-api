@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLunPlex.GetLun
-title: IVdsLunPlex::GetLun method
+title: IVdsLunPlex::GetLun
 author: windows-driver-content
 description: Returns the LUN to which the plex belongs.
 old-location: base\ivdslunplex_getlun.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 74f9fed5-f33d-4e88-b3d2-7eb8ef33711e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetLun method [VDS], GetLun method [VDS], IVdsLunPlex interface, GetLun,IVdsLunPlex.GetLun, IVdsLunPlex, IVdsLunPlex interface [VDS], GetLun method, IVdsLunPlex::GetLun, base.ivdslunplex_getlun, vds/IVdsLunPlex::GetLun, vdshwprv/IVdsLunPlex::GetLun
+ms.keywords: GetLun, GetLun method [VDS], GetLun method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],GetLun method, IVdsLunPlex.GetLun, IVdsLunPlex::GetLun, base.ivdslunplex_getlun, vds/IVdsLunPlex::GetLun, vdshwprv/IVdsLunPlex::GetLun
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLunPlex::GetLun method
+# IVdsLunPlex::GetLun
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTVAudio.GetHardwareSupportedTVAudioModes
-title: IAMTVAudio::GetHardwareSupportedTVAudioModes method
+title: IAMTVAudio::GetHardwareSupportedTVAudioModes
 author: windows-driver-content
 description: The GetHardwareSupportedTVAudioModes method retrieves a bitmask of the formats available in the hardware.
 old-location: dshow\iamtvaudio_gethardwaresupportedtvaudiomodes.htm
 old-project: DirectShow
 ms.assetid: 2c67abc9-2419-473b-a2e6-4fc7df50752c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetHardwareSupportedTVAudioModes method [DirectShow], GetHardwareSupportedTVAudioModes method [DirectShow], IAMTVAudio interface, GetHardwareSupportedTVAudioModes,IAMTVAudio.GetHardwareSupportedTVAudioModes, IAMTVAudio, IAMTVAudio interface [DirectShow], GetHardwareSupportedTVAudioModes method, IAMTVAudio::GetHardwareSupportedTVAudioModes, IAMTVAudioGetHardwareSupportedTVAudioModes, dshow.iamtvaudio_gethardwaresupportedtvaudiomodes, strmif/IAMTVAudio::GetHardwareSupportedTVAudioModes
+ms.date: 4/30/2018
+ms.keywords: GetHardwareSupportedTVAudioModes, GetHardwareSupportedTVAudioModes method [DirectShow], GetHardwareSupportedTVAudioModes method [DirectShow],IAMTVAudio interface, IAMTVAudio interface [DirectShow],GetHardwareSupportedTVAudioModes method, IAMTVAudio.GetHardwareSupportedTVAudioModes, IAMTVAudio::GetHardwareSupportedTVAudioModes, IAMTVAudioGetHardwareSupportedTVAudioModes, dshow.iamtvaudio_gethardwaresupportedtvaudiomodes, strmif/IAMTVAudio::GetHardwareSupportedTVAudioModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTVAudio::GetHardwareSupportedTVAudioModes method
+# IAMTVAudio::GetHardwareSupportedTVAudioModes
 
 
 ## -description

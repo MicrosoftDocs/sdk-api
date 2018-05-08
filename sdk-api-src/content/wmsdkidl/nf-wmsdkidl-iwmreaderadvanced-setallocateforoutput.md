@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetAllocateForOutput
-title: IWMReaderAdvanced::SetAllocateForOutput method
+title: IWMReaderAdvanced::SetAllocateForOutput
 author: windows-driver-content
 description: The SetAllocateForOutput method specifies whether the reader allocates its own buffers for output samples or gets buffers from your application.
 old-location: wmformat\iwmreaderadvanced_setallocateforoutput.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: fba76c75-6179-4e10-9a3c-8e604e392cca
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], SetAllocateForOutput method, IWMReaderAdvanced::SetAllocateForOutput, IWMReaderAdvancedSetAllocateForOutput, SetAllocateForOutput method [windows Media Format], SetAllocateForOutput method [windows Media Format], IWMReaderAdvanced interface, SetAllocateForOutput,IWMReaderAdvanced.SetAllocateForOutput, wmformat.iwmreaderadvanced_setallocateforoutput, wmsdkidl/IWMReaderAdvanced::SetAllocateForOutput
+ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetAllocateForOutput method, IWMReaderAdvanced.SetAllocateForOutput, IWMReaderAdvanced::SetAllocateForOutput, IWMReaderAdvancedSetAllocateForOutput, SetAllocateForOutput, SetAllocateForOutput method [windows Media Format], SetAllocateForOutput method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setallocateforoutput, wmsdkidl/IWMReaderAdvanced::SetAllocateForOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced::SetAllocateForOutput method
+# IWMReaderAdvanced::SetAllocateForOutput
 
 
 ## -description

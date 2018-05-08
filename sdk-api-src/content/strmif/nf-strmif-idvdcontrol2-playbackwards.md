@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayBackwards
-title: IDvdControl2::PlayBackwards method
+title: IDvdControl2::PlayBackwards
 author: windows-driver-content
 description: The PlayBackwards method plays backward at the specified speed from the current location.
 old-location: dshow\idvdcontrol2_playbackwards.htm
 old-project: DirectShow
 ms.assetid: d195956b-a4e5-493f-a804-9095e3bba4e2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], PlayBackwards method, IDvdControl2::PlayBackwards, IDvdControl2PlayBackwards, PlayBackwards method [DirectShow], PlayBackwards method [DirectShow], IDvdControl2 interface, PlayBackwards,IDvdControl2.PlayBackwards, dshow.idvdcontrol2_playbackwards, strmif/IDvdControl2::PlayBackwards
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],PlayBackwards method, IDvdControl2.PlayBackwards, IDvdControl2::PlayBackwards, IDvdControl2PlayBackwards, PlayBackwards, PlayBackwards method [DirectShow], PlayBackwards method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playbackwards, strmif/IDvdControl2::PlayBackwards
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::PlayBackwards method
+# IDvdControl2::PlayBackwards
 
 
 ## -description

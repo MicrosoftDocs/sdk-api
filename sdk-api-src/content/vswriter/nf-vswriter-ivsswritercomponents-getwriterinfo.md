@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssWriterComponents.GetWriterInfo
-title: IVssWriterComponents::GetWriterInfo method
+title: IVssWriterComponents::GetWriterInfo
 author: windows-driver-content
 description: The GetWriterInfo method gets the instance and class identifier of the writer responsible for the components.
 old-location: base\ivsswritercomponents_getwriterinfo.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 22a539ac-1440-4fe9-b68e-feec97cab6c8
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetWriterInfo method [VSS], GetWriterInfo method [VSS], IVssWriterComponents interface, GetWriterInfo,IVssWriterComponents.GetWriterInfo, IVssWriterComponents, IVssWriterComponents interface [VSS], GetWriterInfo method, IVssWriterComponents::GetWriterInfo, _win32_ivsswritercomponents_getwriterinfo, base.ivsswritercomponents_getwriterinfo, vswriter/IVssWriterComponents::GetWriterInfo
+ms.keywords: GetWriterInfo, GetWriterInfo method [VSS], GetWriterInfo method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetWriterInfo method, IVssWriterComponents.GetWriterInfo, IVssWriterComponents::GetWriterInfo, _win32_ivsswritercomponents_getwriterinfo, base.ivsswritercomponents_getwriterinfo, vswriter/IVssWriterComponents::GetWriterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssWriterComponents::GetWriterInfo method
+# IVssWriterComponents::GetWriterInfo
 
 
 ## -description

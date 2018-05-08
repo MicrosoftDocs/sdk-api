@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_IsTopmost
-title: IWindowProvider::get_IsTopmost method
+title: IWindowProvider::get_IsTopmost
 author: windows-driver-content
 description: Indicates whether the window is the topmost element in the z-order.
 old-location: winauto\uiauto_IWindowProvider_IsTopmost.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 53181d04-112f-4e38-a2ab-760f215defc6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IWindowProvider, IWindowProvider interface [Windows Accessibility], IsTopmost property, IWindowProvider.IsTopmost, IWindowProvider::get_IsTopmost, IsTopmost property [Windows Accessibility], IsTopmost property [Windows Accessibility], IWindowProvider interface, get_IsTopmost,IWindowProvider.get_IsTopmost, uiauto.uiauto_IWindowProvider_IsTopmost, uiauto_IWindowProvider_IsTopmost, uiautomationcore/IWindowProvider::IsTopmost, uiautomationcore/IWindowProvider::get_IsTopmost, winauto.uiauto_IWindowProvider_IsTopmost
+ms.keywords: IWindowProvider interface [Windows Accessibility],IsTopmost property, IWindowProvider.IsTopmost, IWindowProvider.get_IsTopmost, IWindowProvider::IsTopmost, IWindowProvider::get_IsTopmost, IsTopmost property [Windows Accessibility], IsTopmost property [Windows Accessibility],IWindowProvider interface, get_IsTopmost, uiauto.uiauto_IWindowProvider_IsTopmost, uiauto_IWindowProvider_IsTopmost, uiautomationcore/IWindowProvider::IsTopmost, uiautomationcore/IWindowProvider::get_IsTopmost, winauto.uiauto_IWindowProvider_IsTopmost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWindowProvider::get_IsTopmost method
+# IWindowProvider::get_IsTopmost
 
 
 ## -description

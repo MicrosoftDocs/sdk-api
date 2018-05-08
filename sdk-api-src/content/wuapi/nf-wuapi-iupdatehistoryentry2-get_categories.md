@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry2.get_Categories
-title: IUpdateHistoryEntry2::get_Categories method
+title: IUpdateHistoryEntry2::get_Categories
 author: windows-driver-content
 description: Gets a collection of the update categories to which an update belongs.
 old-location: wua\iupdatehistoryentry2_categories.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: b821d608-61c2-4442-8b7e-18e27006602b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Categories property [Windows Update Agent], Categories property [Windows Update Agent], IUpdateHistoryEntry2 interface, IUpdateHistoryEntry2, IUpdateHistoryEntry2 interface [Windows Update Agent], Categories property, IUpdateHistoryEntry2.Categories, IUpdateHistoryEntry2::get_Categories, get_Categories,IUpdateHistoryEntry2.get_Categories, wua.iupdatehistoryentry2_categories, wuapi/IUpdateHistoryEntry2::Categories, wuapi/IUpdateHistoryEntry2::get_Categories
+ms.keywords: Categories property [Windows Update Agent], Categories property [Windows Update Agent],IUpdateHistoryEntry2 interface, IUpdateHistoryEntry2 interface [Windows Update Agent],Categories property, IUpdateHistoryEntry2.Categories, IUpdateHistoryEntry2.get_Categories, IUpdateHistoryEntry2::Categories, IUpdateHistoryEntry2::get_Categories, get_Categories, wua.iupdatehistoryentry2_categories, wuapi/IUpdateHistoryEntry2::Categories, wuapi/IUpdateHistoryEntry2::get_Categories
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateHistoryEntry2::get_Categories method
+# IUpdateHistoryEntry2::get_Categories
 
 
 ## -description

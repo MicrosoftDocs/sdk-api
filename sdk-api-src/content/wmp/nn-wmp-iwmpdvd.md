@@ -7,8 +7,8 @@ old-location: wmp\iwmpdvd.htm
 old-project: WMP
 ms.assetid: d133f1e1-cbeb-403d-b247-9f495cb6f0f7
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], IWMPDVD interface [Windows Media Player], described, IWMPDVDInterface, wmp.iwmpdvd, wmp/IWMPDVD
+ms.date: 5/4/2018
+ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], IWMPDVD interface [Windows Media Player],described, IWMPDVDInterface, wmp.iwmpdvd, wmp/IWMPDVD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

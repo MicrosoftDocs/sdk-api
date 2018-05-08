@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_Timeout
-title: IWdsTransportTftpClient::get_Timeout method
+title: IWdsTransportTftpClient::get_Timeout
 author: windows-driver-content
 description: Receives the timeout in seconds used to communicate with the client.
 old-location: wds\iwdstransporttftpclient_timeout.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 27679E91-FB0E-4B39-80CF-70461EB92B39
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportTftpClient, IWdsTransportTftpClient interface [Windows Deployment Services], Timeout property, IWdsTransportTftpClient.Timeout, IWdsTransportTftpClient::get_Timeout, Timeout property [Windows Deployment Services], Timeout property [Windows Deployment Services], IWdsTransportTftpClient interface, get_Timeout,IWdsTransportTftpClient.get_Timeout, wds.iwdstransporttftpclient_timeout, wdstptmgmt/IWdsTransportTftpClient::Timeout, wdstptmgmt/IWdsTransportTftpClient::get_Timeout
+ms.keywords: IWdsTransportTftpClient interface [Windows Deployment Services],Timeout property, IWdsTransportTftpClient.Timeout, IWdsTransportTftpClient.get_Timeout, IWdsTransportTftpClient::Timeout, IWdsTransportTftpClient::get_Timeout, Timeout property [Windows Deployment Services], Timeout property [Windows Deployment Services],IWdsTransportTftpClient interface, get_Timeout, wds.iwdstransporttftpclient_timeout, wdstptmgmt/IWdsTransportTftpClient::Timeout, wdstptmgmt/IWdsTransportTftpClient::get_Timeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportTftpClient::get_Timeout method
+# IWdsTransportTftpClient::get_Timeout
 
 
 ## -description

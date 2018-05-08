@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.GetState
-title: IAMVfwCompressDialogs::GetState method
+title: IAMVfwCompressDialogs::GetState
 author: windows-driver-content
 description: The GetState method retrieves the current configuration settings for the VCM codec currently being used.
 old-location: dshow\iamvfwcompressdialogs_getstate.htm
 old-project: DirectShow
 ms.assetid: a010fd8a-ad4a-4b52-abfe-a2db8cd15b65
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetState method [DirectShow], GetState method [DirectShow], IAMVfwCompressDialogs interface, GetState,IAMVfwCompressDialogs.GetState, IAMVfwCompressDialogs, IAMVfwCompressDialogs interface [DirectShow], GetState method, IAMVfwCompressDialogs::GetState, IAMVfwCompressDialogsGetState, dshow.iamvfwcompressdialogs_getstate, strmif/IAMVfwCompressDialogs::GetState
+ms.date: 4/30/2018
+ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IAMVfwCompressDialogs interface, IAMVfwCompressDialogs interface [DirectShow],GetState method, IAMVfwCompressDialogs.GetState, IAMVfwCompressDialogs::GetState, IAMVfwCompressDialogsGetState, dshow.iamvfwcompressdialogs_getstate, strmif/IAMVfwCompressDialogs::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVfwCompressDialogs::GetState method
+# IAMVfwCompressDialogs::GetState
 
 
 ## -description

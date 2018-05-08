@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeMiterLimit
-title: IXpsOMPath::SetStrokeMiterLimit method
+title: IXpsOMPath::SetStrokeMiterLimit
 author: windows-driver-content
 description: Sets the miter limit of the path.
 old-location: xps\ixpsompath_setstrokemiterlimit.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 4e33f9f3-119a-4635-b44c-fa002a59fa20
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], SetStrokeMiterLimit method, IXpsOMPath::SetStrokeMiterLimit, SetStrokeMiterLimit method [XPS Documents and Packaging], SetStrokeMiterLimit method [XPS Documents and Packaging], IXpsOMPath interface, SetStrokeMiterLimit,IXpsOMPath.SetStrokeMiterLimit, xps.ixpsompath_setstrokemiterlimit, xpsobjectmodel/IXpsOMPath::SetStrokeMiterLimit
+ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeMiterLimit method, IXpsOMPath.SetStrokeMiterLimit, IXpsOMPath::SetStrokeMiterLimit, SetStrokeMiterLimit, SetStrokeMiterLimit method [XPS Documents and Packaging], SetStrokeMiterLimit method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokemiterlimit, xpsobjectmodel/IXpsOMPath::SetStrokeMiterLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::SetStrokeMiterLimit method
+# IXpsOMPath::SetStrokeMiterLimit
 
 
 ## -description

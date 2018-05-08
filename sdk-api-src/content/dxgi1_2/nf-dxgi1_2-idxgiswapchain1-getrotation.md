@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetRotation
-title: IDXGISwapChain1::GetRotation method
+title: IDXGISwapChain1::GetRotation
 author: windows-driver-content
 description: Gets the rotation of the back buffers for the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_getrotation.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: B4460AF4-20B1-493D-88E4-2ADB304D6D60
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetRotation method [DXGI], GetRotation method [DXGI], IDXGISwapChain1 interface, GetRotation,IDXGISwapChain1.GetRotation, IDXGISwapChain1, IDXGISwapChain1 interface [DXGI], GetRotation method, IDXGISwapChain1::GetRotation, direct3ddxgi.idxgiswapchain1_getrotation, dxgi1_2/IDXGISwapChain1::GetRotation
+ms.keywords: GetRotation, GetRotation method [DXGI], GetRotation method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetRotation method, IDXGISwapChain1.GetRotation, IDXGISwapChain1::GetRotation, direct3ddxgi.idxgiswapchain1_getrotation, dxgi1_2/IDXGISwapChain1::GetRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain1::GetRotation method
+# IDXGISwapChain1::GetRotation
 
 
 ## -description

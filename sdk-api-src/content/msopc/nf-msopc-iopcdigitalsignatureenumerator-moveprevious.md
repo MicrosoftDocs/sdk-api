@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureEnumerator.MovePrevious
-title: IOpcDigitalSignatureEnumerator::MovePrevious method
+title: IOpcDigitalSignatureEnumerator::MovePrevious
 author: windows-driver-content
 description: Moves the current position of the enumerator to the previous IOpcDigitalSignature interface pointer.
 old-location: opc\iopcdigitalsignatureenumerator_moveprevious.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: a3972c08-82a1-44e8-b6c6-782294eacfa3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcDigitalSignatureEnumerator, IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions], MovePrevious method, IOpcDigitalSignatureEnumerator::MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions], IOpcDigitalSignatureEnumerator interface, MovePrevious,IOpcDigitalSignatureEnumerator.MovePrevious, msopc/IOpcDigitalSignatureEnumerator::MovePrevious, opc.iopcdigitalsignatureenumerator_moveprevious
+ms.keywords: IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcDigitalSignatureEnumerator.MovePrevious, IOpcDigitalSignatureEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcDigitalSignatureEnumerator interface, msopc/IOpcDigitalSignatureEnumerator::MovePrevious, opc.iopcdigitalsignatureenumerator_moveprevious
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignatureEnumerator::MovePrevious method
+# IOpcDigitalSignatureEnumerator::MovePrevious
 
 
 ## -description

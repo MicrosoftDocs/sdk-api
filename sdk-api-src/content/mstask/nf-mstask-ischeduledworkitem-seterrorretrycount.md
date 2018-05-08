@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetErrorRetryCount
-title: IScheduledWorkItem::SetErrorRetryCount method
+title: IScheduledWorkItem::SetErrorRetryCount
 author: windows-driver-content
 description: Sets the number of times Task Scheduler will try to run the work item again if an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_seterrorretrycount.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: f2c5bafb-a792-4653-87ab-677daec9b10f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], SetErrorRetryCount method, IScheduledWorkItem::SetErrorRetryCount, SetErrorRetryCount method [Task Scheduler], SetErrorRetryCount method [Task Scheduler], IScheduledWorkItem interface, SetErrorRetryCount,IScheduledWorkItem.SetErrorRetryCount, _msb_ischeduledworkitem_seterrorretrycount, mstask/IScheduledWorkItem::SetErrorRetryCount, taskschd.ischeduledworkitem_seterrorretrycount
+ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetErrorRetryCount method, IScheduledWorkItem.SetErrorRetryCount, IScheduledWorkItem::SetErrorRetryCount, SetErrorRetryCount, SetErrorRetryCount method [Task Scheduler], SetErrorRetryCount method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_seterrorretrycount, mstask/IScheduledWorkItem::SetErrorRetryCount, taskschd.ischeduledworkitem_seterrorretrycount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::SetErrorRetryCount method
+# IScheduledWorkItem::SetErrorRetryCount
 
 
 ## -description

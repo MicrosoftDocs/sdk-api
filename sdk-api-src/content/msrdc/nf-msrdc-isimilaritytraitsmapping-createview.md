@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.CreateView
-title: ISimilarityTraitsMapping::CreateView method
+title: ISimilarityTraitsMapping::CreateView
 author: windows-driver-content
 description: Maps a view of the file mapping for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_createview.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 222b3682-8ccc-4c52-858a-ad4ac8a65add
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateView method [Remote Differential Compression], CreateView method [Remote Differential Compression], ISimilarityTraitsMapping interface, CreateView,ISimilarityTraitsMapping.CreateView, ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], CreateView method, ISimilarityTraitsMapping::CreateView, fs.isimilaritytraitsmapping_createview, msrdc/ISimilarityTraitsMapping::CreateView, rdc.isimilaritytraitsmapping_createview
+ms.keywords: CreateView, CreateView method [Remote Differential Compression], CreateView method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],CreateView method, ISimilarityTraitsMapping.CreateView, ISimilarityTraitsMapping::CreateView, fs.isimilaritytraitsmapping_createview, msrdc/ISimilarityTraitsMapping::CreateView, rdc.isimilaritytraitsmapping_createview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityTraitsMapping::CreateView method
+# ISimilarityTraitsMapping::CreateView
 
 
 ## -description

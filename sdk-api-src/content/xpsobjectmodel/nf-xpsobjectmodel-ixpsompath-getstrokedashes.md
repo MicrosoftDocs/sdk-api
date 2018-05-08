@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeDashes
-title: IXpsOMPath::GetStrokeDashes method
+title: IXpsOMPath::GetStrokeDashes
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMDashCollection interface that contains the XPS_DASH structures that define the dash pattern of the stroke.
 old-location: xps\ixpsompath_getstrokedashes.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 60c76c8f-1434-4347-9639-a886d6ae133c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStrokeDashes method [XPS Documents and Packaging], GetStrokeDashes method [XPS Documents and Packaging], IXpsOMPath interface, GetStrokeDashes,IXpsOMPath.GetStrokeDashes, IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], GetStrokeDashes method, IXpsOMPath::GetStrokeDashes, xps.ixpsompath_getstrokedashes, xpsobjectmodel/IXpsOMPath::GetStrokeDashes
+ms.keywords: GetStrokeDashes, GetStrokeDashes method [XPS Documents and Packaging], GetStrokeDashes method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeDashes method, IXpsOMPath.GetStrokeDashes, IXpsOMPath::GetStrokeDashes, xps.ixpsompath_getstrokedashes, xpsobjectmodel/IXpsOMPath::GetStrokeDashes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::GetStrokeDashes method
+# IXpsOMPath::GetStrokeDashes
 
 
 ## -description

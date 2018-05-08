@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetBreakOnSeverity
-title: IDXGIInfoQueue::GetBreakOnSeverity method
+title: IDXGIInfoQueue::GetBreakOnSeverity
 author: windows-driver-content
 description: Determines whether the break on a message severity level is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getbreakonseverity.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 0E03ABE8-02BC-4721-B92C-87DA5D52D0AD
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetBreakOnSeverity method [DXGI], GetBreakOnSeverity method [DXGI], IDXGIInfoQueue interface, GetBreakOnSeverity,IDXGIInfoQueue.GetBreakOnSeverity, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], GetBreakOnSeverity method, IDXGIInfoQueue::GetBreakOnSeverity, direct3ddxgi.idxgiinfoqueue_getbreakonseverity, dxgidebug/IDXGIInfoQueue::GetBreakOnSeverity
+ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method [DXGI], GetBreakOnSeverity method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnSeverity method, IDXGIInfoQueue.GetBreakOnSeverity, IDXGIInfoQueue::GetBreakOnSeverity, direct3ddxgi.idxgiinfoqueue_getbreakonseverity, dxgidebug/IDXGIInfoQueue::GetBreakOnSeverity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::GetBreakOnSeverity method
+# IDXGIInfoQueue::GetBreakOnSeverity
 
 
 ## -description

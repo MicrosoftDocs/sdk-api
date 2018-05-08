@@ -322,14 +322,208 @@ If the <b>ViolationLimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_MEMOR
  
 
 
+### -field DUMMYUNIONNAME.JobHighMemoryLimit
+
+If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH</b>, this member contains the committed maximum memory limit in effect for the job.
+
+
+### -field DUMMYUNIONNAME.JobMemoryLimit
+
+If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_MEMORY</b>, this member contains the committed maximum memory limit in effect for the job.
+
+
 ### -field DUMMYUNIONNAME2
 
  
 
 
+### -field DUMMYUNIONNAME2.RateControlTolerance
+
+If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_RATE_CONTROL</b>, this member specifies the extent to which the job exceeded its CPU rate control limits at the time the notification was sent.  This member can be one of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ToleranceLow"></a><a id="tolerancelow"></a><a id="TOLERANCELOW"></a><dl>
+<dt><b>ToleranceLow</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The job exceeded its CPU rate control limits for 20% of the tolerance interval.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ToleranceMedium"></a><a id="tolerancemedium"></a><a id="TOLERANCEMEDIUM"></a><dl>
+<dt><b>ToleranceMedium</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+The job exceeded its CPU rate control limits for 40% of the tolerance interval.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ToleranceHigh"></a><a id="tolerancehigh"></a><a id="TOLERANCEHIGH"></a><dl>
+<dt><b>ToleranceHigh</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+The job exceeded its CPU rate control limits for 60% of the tolerance interval.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field DUMMYUNIONNAME2.CpuRateControlTolerance
+
+If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_CPU_RATE_CONTROL</b>, this member specifies the extent to which the job exceeded its CPU rate control limits at the time the notification was sent.  This member can be one of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ToleranceLow"></a><a id="tolerancelow"></a><a id="TOLERANCELOW"></a><dl>
+<dt><b>ToleranceLow</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The job exceeded its CPU rate control limits for 20% of the tolerance interval.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ToleranceMedium"></a><a id="tolerancemedium"></a><a id="TOLERANCEMEDIUM"></a><dl>
+<dt><b>ToleranceMedium</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+The job exceeded its CPU rate control limits for 40% of the tolerance interval.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ToleranceHigh"></a><a id="tolerancehigh"></a><a id="TOLERANCEHIGH"></a><dl>
+<dt><b>ToleranceHigh</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+The job exceeded its CPU rate control limits for 60% of the tolerance interval.
+
+</td>
+</tr>
+</table>
+ 
+
+
 ### -field DUMMYUNIONNAME3
 
  
+
+
+### -field DUMMYUNIONNAME3.RateControlToleranceLimit
+
+If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_RATE_CONTROL</b>, this member contains the CPU rate control notification limits specified for the job.  
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ToleranceLow"></a><a id="tolerancelow"></a><a id="TOLERANCELOW"></a><dl>
+<dt><b>ToleranceLow</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The job can exceed its CPU rate control limits for 20% of the tolerance interval.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ToleranceMedium"></a><a id="tolerancemedium"></a><a id="TOLERANCEMEDIUM"></a><dl>
+<dt><b>ToleranceMedium</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+The job can exceed its CPU rate control limits for 40% of the tolerance interval.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ToleranceHigh"></a><a id="tolerancehigh"></a><a id="TOLERANCEHIGH"></a><dl>
+<dt><b>ToleranceHigh</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+The job can exceed its CPU rate control limits for 60% of the tolerance interval.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field DUMMYUNIONNAME3.CpuRateControlToleranceLimit
+
+If the <i>LimitFlags</i> parameter specifies <b>JOB_OBJECT_LIMIT_CPU_RATE_CONTROL</b>, this member contains the CPU rate control notification limits specified for the job.  
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ToleranceLow"></a><a id="tolerancelow"></a><a id="TOLERANCELOW"></a><dl>
+<dt><b>ToleranceLow</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The job can exceed its CPU rate control limits for 20% of the tolerance interval.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ToleranceMedium"></a><a id="tolerancemedium"></a><a id="TOLERANCEMEDIUM"></a><dl>
+<dt><b>ToleranceMedium</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+The job can exceed its CPU rate control limits for 40% of the tolerance interval.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ToleranceHigh"></a><a id="tolerancehigh"></a><a id="TOLERANCEHIGH"></a><dl>
+<dt><b>ToleranceHigh</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+The job can exceed its CPU rate control limits for 60% of the tolerance interval.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -field JobLowMemoryLimit
@@ -514,200 +708,6 @@ The job can exceed its network rate control limits for 40% of the tolerance inte
 </td>
 <td width="60%">
 The job can exceed its network rate control limits for 60% of the tolerance interval.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - CpuRateControlTolerance
-
-If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_CPU_RATE_CONTROL</b>, this member specifies the extent to which the job exceeded its CPU rate control limits at the time the notification was sent.  This member can be one of the following values. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="ToleranceLow"></a><a id="tolerancelow"></a><a id="TOLERANCELOW"></a><dl>
-<dt><b>ToleranceLow</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-The job exceeded its CPU rate control limits for 20% of the tolerance interval.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ToleranceMedium"></a><a id="tolerancemedium"></a><a id="TOLERANCEMEDIUM"></a><dl>
-<dt><b>ToleranceMedium</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-The job exceeded its CPU rate control limits for 40% of the tolerance interval.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ToleranceHigh"></a><a id="tolerancehigh"></a><a id="TOLERANCEHIGH"></a><dl>
-<dt><b>ToleranceHigh</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-The job exceeded its CPU rate control limits for 60% of the tolerance interval.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - CpuRateControlToleranceLimit
-
-If the <i>LimitFlags</i> parameter specifies <b>JOB_OBJECT_LIMIT_CPU_RATE_CONTROL</b>, this member contains the CPU rate control notification limits specified for the job.  
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="ToleranceLow"></a><a id="tolerancelow"></a><a id="TOLERANCELOW"></a><dl>
-<dt><b>ToleranceLow</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-The job can exceed its CPU rate control limits for 20% of the tolerance interval.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ToleranceMedium"></a><a id="tolerancemedium"></a><a id="TOLERANCEMEDIUM"></a><dl>
-<dt><b>ToleranceMedium</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-The job can exceed its CPU rate control limits for 40% of the tolerance interval.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ToleranceHigh"></a><a id="tolerancehigh"></a><a id="TOLERANCEHIGH"></a><dl>
-<dt><b>ToleranceHigh</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-The job can exceed its CPU rate control limits for 60% of the tolerance interval.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - JobHighMemoryLimit
-
-If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH</b>, this member contains the committed maximum memory limit in effect for the job.
-
-
-#### - JobMemoryLimit
-
-If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_MEMORY</b>, this member contains the committed maximum memory limit in effect for the job.
-
-
-#### - RateControlTolerance
-
-If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_RATE_CONTROL</b>, this member specifies the extent to which the job exceeded its CPU rate control limits at the time the notification was sent.  This member can be one of the following values. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="ToleranceLow"></a><a id="tolerancelow"></a><a id="TOLERANCELOW"></a><dl>
-<dt><b>ToleranceLow</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-The job exceeded its CPU rate control limits for 20% of the tolerance interval.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ToleranceMedium"></a><a id="tolerancemedium"></a><a id="TOLERANCEMEDIUM"></a><dl>
-<dt><b>ToleranceMedium</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-The job exceeded its CPU rate control limits for 40% of the tolerance interval.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ToleranceHigh"></a><a id="tolerancehigh"></a><a id="TOLERANCEHIGH"></a><dl>
-<dt><b>ToleranceHigh</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-The job exceeded its CPU rate control limits for 60% of the tolerance interval.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - RateControlToleranceLimit
-
-If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_RATE_CONTROL</b>, this member contains the CPU rate control notification limits specified for the job.  
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="ToleranceLow"></a><a id="tolerancelow"></a><a id="TOLERANCELOW"></a><dl>
-<dt><b>ToleranceLow</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-The job can exceed its CPU rate control limits for 20% of the tolerance interval.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ToleranceMedium"></a><a id="tolerancemedium"></a><a id="TOLERANCEMEDIUM"></a><dl>
-<dt><b>ToleranceMedium</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-The job can exceed its CPU rate control limits for 40% of the tolerance interval.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ToleranceHigh"></a><a id="tolerancehigh"></a><a id="TOLERANCEHIGH"></a><dl>
-<dt><b>ToleranceHigh</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-The job can exceed its CPU rate control limits for 60% of the tolerance interval.
 
 </td>
 </tr>

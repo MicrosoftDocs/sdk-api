@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider2.get_FirstSelectedItem
-title: ISelectionProvider2::get_FirstSelectedItem method
+title: ISelectionProvider2::get_FirstSelectedItem
 author: windows-driver-content
 description: Gets the first item in a group of selected items.
 old-location: winauto\uiauto_ISelectionProvider2_FirstSelectedItem.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: EE16206F-2A7F-49D0-9587-F4A3FA918CB4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: FirstSelectedItem property [Windows Accessibility], FirstSelectedItem property [Windows Accessibility], ISelectionProvider2 interface, ISelectionProvider2, ISelectionProvider2 interface [Windows Accessibility], FirstSelectedItem property, ISelectionProvider2.FirstSelectedItem, ISelectionProvider2::get_FirstSelectedItem, get_FirstSelectedItem,ISelectionProvider2.get_FirstSelectedItem, uiautomationcore/ISelectionProvider2::FirstSelectedItem, uiautomationcore/ISelectionProvider2::get_FirstSelectedItem, winauto.uiauto_ISelectionProvider2_FirstSelectedItem
+ms.keywords: FirstSelectedItem property [Windows Accessibility], FirstSelectedItem property [Windows Accessibility],ISelectionProvider2 interface, ISelectionProvider2 interface [Windows Accessibility],FirstSelectedItem property, ISelectionProvider2.FirstSelectedItem, ISelectionProvider2.get_FirstSelectedItem, ISelectionProvider2::FirstSelectedItem, ISelectionProvider2::get_FirstSelectedItem, get_FirstSelectedItem, uiautomationcore/ISelectionProvider2::FirstSelectedItem, uiautomationcore/ISelectionProvider2::get_FirstSelectedItem, winauto.uiauto_ISelectionProvider2_FirstSelectedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISelectionProvider2::get_FirstSelectedItem method
+# ISelectionProvider2::get_FirstSelectedItem
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.Copy
-title: IStringCollection::Copy method
+title: IStringCollection::Copy
 author: windows-driver-content
 description: Creates a deep read/write copy of the collection.
 old-location: wua\istringcollection_copy.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: e2f6d5c0-c92a-44e5-a322-f336a3ef64ce
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Copy method [Windows Update Agent], Copy method [Windows Update Agent], IStringCollection interface, Copy,IStringCollection.Copy, IStringCollection, IStringCollection interface [Windows Update Agent], Copy method, IStringCollection::Copy, wua.istringcollection_copy, wuapi/IStringCollection::Copy
+ms.keywords: Copy, Copy method [Windows Update Agent], Copy method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Copy method, IStringCollection.Copy, IStringCollection::Copy, wua.istringcollection_copy, wuapi/IStringCollection::Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IStringCollection::Copy method
+# IStringCollection::Copy
 
 
 ## -description

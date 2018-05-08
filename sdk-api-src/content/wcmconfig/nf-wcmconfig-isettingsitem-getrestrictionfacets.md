@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetRestrictionFacets
-title: ISettingsItem::GetRestrictionFacets method
+title: ISettingsItem::GetRestrictionFacets
 author: windows-driver-content
 description: Gets the restrictions defined for this item.
 old-location: smi\isettingsitem_getrestrictionfacets.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 64cf82d5-c210-4ff2-a7c8-1a284859382e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetRestrictionFacets method [SMI], GetRestrictionFacets method [SMI], ISettingsItem interface, GetRestrictionFacets,ISettingsItem.GetRestrictionFacets, ISettingsItem, ISettingsItem interface [SMI], GetRestrictionFacets method, ISettingsItem::GetRestrictionFacets, smi.isettingsitem_getrestrictionfacets, wcmconfig/ISettingsItem::GetRestrictionFacets
+ms.keywords: GetRestrictionFacets, GetRestrictionFacets method [SMI], GetRestrictionFacets method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetRestrictionFacets method, ISettingsItem.GetRestrictionFacets, ISettingsItem::GetRestrictionFacets, smi.isettingsitem_getrestrictionfacets, wcmconfig/ISettingsItem::GetRestrictionFacets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsItem::GetRestrictionFacets method
+# ISettingsItem::GetRestrictionFacets
 
 
 ## -description

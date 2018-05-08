@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_Protocol
-title: INetFwOpenPort::put_Protocol method
+title: INetFwOpenPort::put_Protocol
 author: windows-driver-content
 description: Specifies the protocol type setting for this port.
 old-location: ics\inetfwopenport_protocol.htm
 old-project: ICS
 ms.assetid: 775c3d29-89c7-4768-9476-2e56555fd82b
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwOpenPort, INetFwOpenPort interface [ICS/ICF], Protocol property, INetFwOpenPort.Protocol, INetFwOpenPort::get_Protocol, INetFwOpenPort::put_Protocol, Protocol property [ICS/ICF], Protocol property [ICS/ICF], INetFwOpenPort interface, ics.inetfwopenport_protocol, netfw/INetFwOpenPort::Protocol, netfw/INetFwOpenPort::get_Protocol, netfw/INetFwOpenPort::put_Protocol, put_Protocol,INetFwOpenPort.put_Protocol
+ms.date: 5/1/2018
+ms.keywords: INetFwOpenPort interface [ICS/ICF],Protocol property, INetFwOpenPort.Protocol, INetFwOpenPort.put_Protocol, INetFwOpenPort::Protocol, INetFwOpenPort::get_Protocol, INetFwOpenPort::put_Protocol, Protocol property [ICS/ICF], Protocol property [ICS/ICF],INetFwOpenPort interface, ics.inetfwopenport_protocol, netfw/INetFwOpenPort::Protocol, netfw/INetFwOpenPort::get_Protocol, netfw/INetFwOpenPort::put_Protocol, put_Protocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwOpenPort::put_Protocol method
+# INetFwOpenPort::put_Protocol
 
 
 ## -description

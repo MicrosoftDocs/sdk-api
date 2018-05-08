@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.put_TiltRelative
-title: ICameraControl::put_TiltRelative method
+title: ICameraControl::put_TiltRelative
 author: windows-driver-content
 description: The put_TiltRelative method sets the camera's relative tilt. The relative tilt is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_put_tiltrelative.htm
 old-project: DirectShow
 ms.assetid: 69aa7ecf-4816-460b-b4f8-480c0d4f8331
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_TiltRelative method, ICameraControl::put_TiltRelative, ICameraControlput_TiltRelative, dshow.icameracontrol_put_tiltrelative, put_TiltRelative method [DirectShow], put_TiltRelative method [DirectShow], ICameraControl interface, put_TiltRelative,ICameraControl.put_TiltRelative, vidcap/ICameraControl::put_TiltRelative
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],put_TiltRelative method, ICameraControl.put_TiltRelative, ICameraControl::put_TiltRelative, ICameraControlput_TiltRelative, dshow.icameracontrol_put_tiltrelative, put_TiltRelative, put_TiltRelative method [DirectShow], put_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_TiltRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::put_TiltRelative method
+# ICameraControl::put_TiltRelative
 
 
 ## -description

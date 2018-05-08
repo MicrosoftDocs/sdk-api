@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.GetGUID
-title: ITfCategoryMgr::GetGUID method
+title: ITfCategoryMgr::GetGUID
 author: windows-driver-content
 description: ITfCategoryMgr::GetGUID method
 old-location: tsf\itfcategorymgr_getguid.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a5f5a67c-3152-4933-8a35-0a0cd555a0bf
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetGUID method [Text Services Framework], GetGUID method [Text Services Framework], ITfCategoryMgr interface, GetGUID,ITfCategoryMgr.GetGUID, ITfCategoryMgr, ITfCategoryMgr interface [Text Services Framework], GetGUID method, ITfCategoryMgr::GetGUID, _tsf_itfcategorymgr_getguid_ref, msctf/ITfCategoryMgr::GetGUID, tsf.itfcategorymgr_getguid
+ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUID method, ITfCategoryMgr.GetGUID, ITfCategoryMgr::GetGUID, _tsf_itfcategorymgr_getguid_ref, msctf/ITfCategoryMgr::GetGUID, tsf.itfcategorymgr_getguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCategoryMgr::GetGUID method
+# ITfCategoryMgr::GetGUID
 
 
 ## -description

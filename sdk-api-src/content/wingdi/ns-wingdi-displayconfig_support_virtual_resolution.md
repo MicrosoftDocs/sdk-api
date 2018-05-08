@@ -83,7 +83,7 @@ Setting this bit disables virtual mode for the monitor using information found i
 Reserved for system use. Do not use in your driver.  
 
 
-#### - value
+### -field DUMMYSTRUCTNAME.value
 
 Reflects the value of <b>disableMonitorVirtualResolution</b> in cases where debugging is utilized.
 

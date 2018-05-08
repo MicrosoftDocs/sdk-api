@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaSourceEx.GetStreamAttributes
-title: IMFMediaSourceEx::GetStreamAttributes method
+title: IMFMediaSourceEx::GetStreamAttributes
 author: windows-driver-content
 description: Gets an attribute store for a stream on the media source.
 old-location: mf\imfmediasourceex_getstreamattributes.htm
 old-project: medfound
 ms.assetid: 360B64E6-4936-4E40-A0EB-7E9EBAF1203E
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamAttributes method [Media Foundation], GetStreamAttributes method [Media Foundation], IMFMediaSourceEx interface, GetStreamAttributes,IMFMediaSourceEx.GetStreamAttributes, IMFMediaSourceEx, IMFMediaSourceEx interface [Media Foundation], GetStreamAttributes method, IMFMediaSourceEx::GetStreamAttributes, mf.imfmediasourceex_getstreamattributes, mfidl/IMFMediaSourceEx::GetStreamAttributes
+ms.date: 5/3/2018
+ms.keywords: GetStreamAttributes, GetStreamAttributes method [Media Foundation], GetStreamAttributes method [Media Foundation],IMFMediaSourceEx interface, IMFMediaSourceEx interface [Media Foundation],GetStreamAttributes method, IMFMediaSourceEx.GetStreamAttributes, IMFMediaSourceEx::GetStreamAttributes, mf.imfmediasourceex_getstreamattributes, mfidl/IMFMediaSourceEx::GetStreamAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSourceEx::GetStreamAttributes method
+# IMFMediaSourceEx::GetStreamAttributes
 
 
 ## -description

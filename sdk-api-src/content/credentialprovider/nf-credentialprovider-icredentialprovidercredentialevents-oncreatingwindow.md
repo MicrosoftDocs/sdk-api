@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.OnCreatingWindow
-title: ICredentialProviderCredentialEvents::OnCreatingWindow method
+title: ICredentialProviderCredentialEvents::OnCreatingWindow
 author: windows-driver-content
 description: Called when the window is created. Enables credentials to retrieve the HWND of the parent window after Advise is called.
 old-location: shell\ICredentialProviderCredentialEvents_OnCreatingWindow.htm
 old-project: shell
 ms.assetid: ae3cf911-991d-4363-985a-746846e3c08a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], OnCreatingWindow method, ICredentialProviderCredentialEvents::OnCreatingWindow, OnCreatingWindow method [Windows Shell], OnCreatingWindow method [Windows Shell], ICredentialProviderCredentialEvents interface, OnCreatingWindow,ICredentialProviderCredentialEvents.OnCreatingWindow, _shell_ICredentialProviderCredentialEvents_OnCreatingWindow, credentialprovider/ICredentialProviderCredentialEvents::OnCreatingWindow, shell.ICredentialProviderCredentialEvents_OnCreatingWindow
+ms.date: 5/3/2018
+ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],OnCreatingWindow method, ICredentialProviderCredentialEvents.OnCreatingWindow, ICredentialProviderCredentialEvents::OnCreatingWindow, OnCreatingWindow, OnCreatingWindow method [Windows Shell], OnCreatingWindow method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_OnCreatingWindow, credentialprovider/ICredentialProviderCredentialEvents::OnCreatingWindow, shell.ICredentialProviderCredentialEvents_OnCreatingWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProviderCredentialEvents::OnCreatingWindow method
+# ICredentialProviderCredentialEvents::OnCreatingWindow
 
 
 ## -description

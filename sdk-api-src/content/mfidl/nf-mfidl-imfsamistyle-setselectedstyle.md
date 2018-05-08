@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSAMIStyle.SetSelectedStyle
-title: IMFSAMIStyle::SetSelectedStyle method
+title: IMFSAMIStyle::SetSelectedStyle
 author: windows-driver-content
 description: Sets the current style on the SAMI media source.
 old-location: mf\imfsamistyle_setselectedstyle.htm
 old-project: medfound
 ms.assetid: f7179756-517b-400b-8676-fd9ab5bbe74c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSAMIStyle, IMFSAMIStyle interface [Media Foundation], SetSelectedStyle method, IMFSAMIStyle::SetSelectedStyle, SetSelectedStyle method [Media Foundation], SetSelectedStyle method [Media Foundation], IMFSAMIStyle interface, SetSelectedStyle,IMFSAMIStyle.SetSelectedStyle, f7179756-517b-400b-8676-fd9ab5bbe74c, mf.imfsamistyle_setselectedstyle, mfidl/IMFSAMIStyle::SetSelectedStyle
+ms.date: 5/3/2018
+ms.keywords: IMFSAMIStyle interface [Media Foundation],SetSelectedStyle method, IMFSAMIStyle.SetSelectedStyle, IMFSAMIStyle::SetSelectedStyle, SetSelectedStyle, SetSelectedStyle method [Media Foundation], SetSelectedStyle method [Media Foundation],IMFSAMIStyle interface, f7179756-517b-400b-8676-fd9ab5bbe74c, mf.imfsamistyle_setselectedstyle, mfidl/IMFSAMIStyle::SetSelectedStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSAMIStyle::SetSelectedStyle method
+# IMFSAMIStyle::SetSelectedStyle
 
 
 ## -description

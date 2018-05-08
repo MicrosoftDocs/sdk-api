@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromBurnMediaError
-title: IWMPEvents3::CdromBurnMediaError method
+title: IWMPEvents3::CdromBurnMediaError
 author: windows-driver-content
 description: The CdromBurnMediaError event occurs when an error happens while burning an individual media item to a CD.
 old-location: wmp\iwmpevents3_iwmpevents3__cdromburnmediaerror.htm
 old-project: WMP
 ms.assetid: 4bad9de2-8899-4149-965c-7835bd854f6f
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: CdromBurnMediaError method [Windows Media Player], CdromBurnMediaError method [Windows Media Player], IWMPEvents3 interface, CdromBurnMediaError,IWMPEvents3.CdromBurnMediaError, IWMPEvents3, IWMPEvents3 interface [Windows Media Player], CdromBurnMediaError method, IWMPEvents3::CdromBurnMediaError, IWMPEvents3CdromBurnMediaError, wmp.iwmpevents3_iwmpevents3__cdromburnmediaerror, wmp/IWMPEvents3::CdromBurnMediaError
+ms.date: 5/4/2018
+ms.keywords: CdromBurnMediaError, CdromBurnMediaError method [Windows Media Player], CdromBurnMediaError method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromBurnMediaError method, IWMPEvents3.CdromBurnMediaError, IWMPEvents3::CdromBurnMediaError, IWMPEvents3CdromBurnMediaError, wmp.iwmpevents3_iwmpevents3__cdromburnmediaerror, wmp/IWMPEvents3::CdromBurnMediaError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents3::CdromBurnMediaError method
+# IWMPEvents3::CdromBurnMediaError
 
 
 ## -description

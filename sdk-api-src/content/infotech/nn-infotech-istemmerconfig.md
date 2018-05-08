@@ -8,7 +8,7 @@ old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refistemmerconfiginterface.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IStemmerConfig, IStemmerConfig interface [HTML Help Workshop], IStemmerConfig interface [HTML Help Workshop], described, htmlhelp.istemmerconfig, infotech/IStemmerConfig, refIStemmerConfigInterface
+ms.keywords: IStemmerConfig, IStemmerConfig interface [HTML Help Workshop], IStemmerConfig interface [HTML Help Workshop],described, htmlhelp.istemmerconfig, infotech/IStemmerConfig, refIStemmerConfigInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

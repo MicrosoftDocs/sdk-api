@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetFocus
-title: IOleInPlaceSiteWindowless::GetFocus method
+title: IOleInPlaceSiteWindowless::GetFocus
 author: windows-driver-content
 description: Called by an in-place active, windowless object to determine whether it still has the keyboard focus.
 old-location: com\ioleinplacesitewindowless_getfocus.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 282f350c-d196-40c2-880f-55f28dc48f2b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetFocus method [COM], GetFocus method [COM], IOleInPlaceSiteWindowless interface, GetFocus,IOleInPlaceSiteWindowless.GetFocus, IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], GetFocus method, IOleInPlaceSiteWindowless::GetFocus, _ole_ioleinplacesitewindowless_getfocus, com.ioleinplacesitewindowless_getfocus, ocidl/IOleInPlaceSiteWindowless::GetFocus
+ms.keywords: GetFocus, GetFocus method [COM], GetFocus method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetFocus method, IOleInPlaceSiteWindowless.GetFocus, IOleInPlaceSiteWindowless::GetFocus, _ole_ioleinplacesitewindowless_getfocus, com.ioleinplacesitewindowless_getfocus, ocidl/IOleInPlaceSiteWindowless::GetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSiteWindowless::GetFocus method
+# IOleInPlaceSiteWindowless::GetFocus
 
 
 ## -description

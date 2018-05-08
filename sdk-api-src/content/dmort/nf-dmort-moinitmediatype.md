@@ -7,7 +7,7 @@ old-location: dshow\moinitmediatype.htm
 old-project: DirectShow
 ms.assetid: 526ad3c6-a002-4b79-9712-47ea9ce321ba
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: MoInitMediaType, MoInitMediaType function [DirectShow], dmort/MoInitMediaType, dshow.moinitmediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices

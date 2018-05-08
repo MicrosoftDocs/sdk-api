@@ -63,6 +63,11 @@ Used to impose new behavior on handle references that are not valid.
  
 
 
+### -field DUMMYUNIONNAME.Flags
+
+This member is reserved for system use.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -83,11 +88,6 @@ Used to impose new behavior on handle references that are not valid.
  
 
 
-
-
-#### - Flags
-
-This member is reserved for system use.
 
 
 #### - HandleExceptionsPermanentlyEnabled : 1

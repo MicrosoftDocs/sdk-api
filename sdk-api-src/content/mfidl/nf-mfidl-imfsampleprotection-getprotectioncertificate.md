@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.GetProtectionCertificate
-title: IMFSampleProtection::GetProtectionCertificate method
+title: IMFSampleProtection::GetProtectionCertificate
 author: windows-driver-content
 description: Retrieves the sample protection certificate.
 old-location: mf\imfsampleprotection_getprotectioncertificate.htm
 old-project: medfound
 ms.assetid: b93ecc4e-40f6-4ae1-9a1a-9767e6c8c4af
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetProtectionCertificate method [Media Foundation], GetProtectionCertificate method [Media Foundation], IMFSampleProtection interface, GetProtectionCertificate,IMFSampleProtection.GetProtectionCertificate, IMFSampleProtection, IMFSampleProtection interface [Media Foundation], GetProtectionCertificate method, IMFSampleProtection::GetProtectionCertificate, b93ecc4e-40f6-4ae1-9a1a-9767e6c8c4af, mf.imfsampleprotection_getprotectioncertificate, mfidl/IMFSampleProtection::GetProtectionCertificate
+ms.date: 5/3/2018
+ms.keywords: GetProtectionCertificate, GetProtectionCertificate method [Media Foundation], GetProtectionCertificate method [Media Foundation],IMFSampleProtection interface, IMFSampleProtection interface [Media Foundation],GetProtectionCertificate method, IMFSampleProtection.GetProtectionCertificate, IMFSampleProtection::GetProtectionCertificate, b93ecc4e-40f6-4ae1-9a1a-9767e6c8c4af, mf.imfsampleprotection_getprotectioncertificate, mfidl/IMFSampleProtection::GetProtectionCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSampleProtection::GetProtectionCertificate method
+# IMFSampleProtection::GetProtectionCertificate
 
 
 ## -description

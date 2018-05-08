@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPLibrarySharingServices.isLibraryShared
-title: IWMPLibrarySharingServices::isLibraryShared method
+title: IWMPLibrarySharingServices::isLibraryShared
 author: windows-driver-content
 description: The isLibraryShared method retrieves a value indicating whether the user's library is shared.
 old-location: wmp\iwmplibrarysharingservices_islibraryshared.htm
 old-project: WMP
 ms.assetid: fc0a1396-5b43-43dd-9e0d-b5b3a8cf5cdd
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPLibrarySharingServices, IWMPLibrarySharingServices interface [Windows Media Player], isLibraryShared method, IWMPLibrarySharingServices::isLibraryShared, IWMPLibrarySharingServicesisLibraryShared, isLibraryShared method [Windows Media Player], isLibraryShared method [Windows Media Player], IWMPLibrarySharingServices interface, isLibraryShared,IWMPLibrarySharingServices.isLibraryShared, wmp.iwmplibrarysharingservices_islibraryshared, wmp/IWMPLibrarySharingServices::isLibraryShared
+ms.date: 5/4/2018
+ms.keywords: IWMPLibrarySharingServices interface [Windows Media Player],isLibraryShared method, IWMPLibrarySharingServices.isLibraryShared, IWMPLibrarySharingServices::isLibraryShared, IWMPLibrarySharingServicesisLibraryShared, isLibraryShared, isLibraryShared method [Windows Media Player], isLibraryShared method [Windows Media Player],IWMPLibrarySharingServices interface, wmp.iwmplibrarysharingservices_islibraryshared, wmp/IWMPLibrarySharingServices::isLibraryShared
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPLibrarySharingServices::isLibraryShared method
+# IWMPLibrarySharingServices::isLibraryShared
 
 
 ## -description

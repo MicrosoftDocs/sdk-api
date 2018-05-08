@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCompartmentEventSink.OnChange
-title: ITfCompartmentEventSink::OnChange method
+title: ITfCompartmentEventSink::OnChange
 author: windows-driver-content
 description: ITfCompartmentEventSink::OnChange method
 old-location: tsf\itfcompartmenteventsink_onchange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 1756754c-6353-4296-bdb5-1cbef1d29ec5
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCompartmentEventSink, ITfCompartmentEventSink interface [Text Services Framework], OnChange method, ITfCompartmentEventSink::OnChange, OnChange method [Text Services Framework], OnChange method [Text Services Framework], ITfCompartmentEventSink interface, OnChange,ITfCompartmentEventSink.OnChange, _tsf_itfcompartmenteventsink_onchange_ref, msctf/ITfCompartmentEventSink::OnChange, tsf.itfcompartmenteventsink_onchange
+ms.keywords: ITfCompartmentEventSink interface [Text Services Framework],OnChange method, ITfCompartmentEventSink.OnChange, ITfCompartmentEventSink::OnChange, OnChange, OnChange method [Text Services Framework], OnChange method [Text Services Framework],ITfCompartmentEventSink interface, _tsf_itfcompartmenteventsink_onchange_ref, msctf/ITfCompartmentEventSink::OnChange, tsf.itfcompartmenteventsink_onchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCompartmentEventSink::OnChange method
+# ITfCompartmentEventSink::OnChange
 
 
 ## -description

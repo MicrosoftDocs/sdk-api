@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Play
-title: IMFPMediaPlayer::Play method
+title: IMFPMediaPlayer::Play
 author: windows-driver-content
 description: Starts playback.
 old-location: mf\imfpmediaplayer_play.htm
 old-project: medfound
 ms.assetid: 24d6e8a0-d910-46f9-8172-dfcb68c4f364
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], Play method, IMFPMediaPlayer::Play, Play method [Media Foundation], Play method [Media Foundation], IMFPMediaPlayer interface, Play,IMFPMediaPlayer.Play, mf.imfpmediaplayer_play, mfplay/IMFPMediaPlayer::Play
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaPlayer interface [Media Foundation],Play method, IMFPMediaPlayer.Play, IMFPMediaPlayer::Play, Play, Play method [Media Foundation], Play method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_play, mfplay/IMFPMediaPlayer::Play
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::Play method
+# IMFPMediaPlayer::Play
 
 
 ## -description

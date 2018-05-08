@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName
-title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName method
+title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName
 author: windows-driver-content
 description: The get_userHomeMediaSharingLibraryName method retrieves the name of the current user's shared media library.
 old-location: wmlss\IWMLSSget_userHomeMediaSharingLibraryName.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: e41d5918-f554-4863-9ea6-11f562ac4d0f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], get_userHomeMediaSharingLibraryName method, IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName, get_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services], get_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, get_userHomeMediaSharingLibraryName,IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName, wmlss.IWMLSSget_userHomeMediaSharingLibraryName, wmlss/IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_userHomeMediaSharingLibraryName method, IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName, IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName, get_userHomeMediaSharingLibraryName, get_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services], get_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_userHomeMediaSharingLibraryName, wmlss/IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName method
+# IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName
 
 
 ## -description

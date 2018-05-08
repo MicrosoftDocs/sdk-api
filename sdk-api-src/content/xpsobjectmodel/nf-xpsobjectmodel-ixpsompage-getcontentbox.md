@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetContentBox
-title: IXpsOMPage::GetContentBox method
+title: IXpsOMPage::GetContentBox
 author: windows-driver-content
 description: Gets the dimensions of the page's content box.
 old-location: xps\ixpsompage_getcontentbox.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 6402bcd0-84cb-472f-8c3c-1fe34eecc6d2
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetContentBox method [XPS Documents and Packaging], GetContentBox method [XPS Documents and Packaging], IXpsOMPage interface, GetContentBox,IXpsOMPage.GetContentBox, IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], GetContentBox method, IXpsOMPage::GetContentBox, xps.ixpsompage_getcontentbox, xpsobjectmodel/IXpsOMPage::GetContentBox
+ms.keywords: GetContentBox, GetContentBox method [XPS Documents and Packaging], GetContentBox method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetContentBox method, IXpsOMPage.GetContentBox, IXpsOMPage::GetContentBox, xps.ixpsompage_getcontentbox, xpsobjectmodel/IXpsOMPage::GetContentBox
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::GetContentBox method
+# IXpsOMPage::GetContentBox
 
 
 ## -description

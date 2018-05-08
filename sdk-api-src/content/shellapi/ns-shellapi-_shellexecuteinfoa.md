@@ -7,7 +7,7 @@ old-location: shell\SHELLEXECUTEINFO.htm
 old-project: shell
 ms.assetid: 50e0dac3-b5dc-4d9f-8fd7-3a53a428166b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: "*LPSHELLEXECUTEINFOA, LPSHELLEXECUTEINFO, LPSHELLEXECUTEINFO structure pointer [Windows Shell], SEE_MASK_ASYNCOK, SEE_MASK_CLASSKEY, SEE_MASK_CLASSNAME, SEE_MASK_CONNECTNETDRV, SEE_MASK_DEFAULT, SEE_MASK_DOENVSUBST, SEE_MASK_FLAG_DDEWAIT, SEE_MASK_FLAG_HINST_IS_SITE, SEE_MASK_FLAG_LOG_USAGE, SEE_MASK_FLAG_NO_UI, SEE_MASK_HMONITOR, SEE_MASK_HOTKEY, SEE_MASK_ICON, SEE_MASK_IDLIST, SEE_MASK_INVOKEIDLIST, SEE_MASK_NOASYNC, SEE_MASK_NOCLOSEPROCESS, SEE_MASK_NOQUERYCLASSSTORE, SEE_MASK_NOZONECHECKS, SEE_MASK_NO_CONSOLE, SEE_MASK_UNICODE, SEE_MASK_WAITFORINPUTIDLE, SE_ERR_ACCESSDENIED, SE_ERR_ASSOCINCOMPLETE, SE_ERR_DDEBUSY, SE_ERR_DDEFAIL, SE_ERR_DDETIMEOUT, SE_ERR_DLLNOTFOUND, SE_ERR_FNF, SE_ERR_NOASSOC, SE_ERR_OOM, SE_ERR_PNF, SE_ERR_SHARE, SHELLEXECUTEINFO, SHELLEXECUTEINFO structure [Windows Shell], SHELLEXECUTEINFOA, _SHELLEXECUTEINFOA, _win32_SHELLEXECUTEINFO, edit, explore, find, open, print, properties, shell.SHELLEXECUTEINFO, shellapi/LPSHELLEXECUTEINFO, shellapi/SHELLEXECUTEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -417,16 +417,14 @@ A keyboard shortcut to associate with the application. The low-order word is the
 ### -field DUMMYUNIONNAME
 
 
-
-#### hIcon
+### -field DUMMYUNIONNAME.hIcon
 
 <b>Type: <b>HANDLE</b>
 </b>
 A handle to the icon for the file type. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_ICON</b>. This value is used only in Windows XP and earlier. It is ignored as of Windows Vista.
 
 
-
-#### hMonitor
+### -field DUMMYUNIONNAME.hMonitor
 
 <b>Type: <b>HANDLE</b>
 </b>

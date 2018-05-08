@@ -7,7 +7,7 @@ old-location: winsock\sendto_2.htm
 old-project: WinSock
 ms.assetid: a1c89c6b-d11d-4d3e-a664-af2beed0cd09
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "_win32_sendto_2, sendto, sendto function [Winsock], winsock.sendto_2, winsock/sendto"
 ms.prod: windows-hardware
 ms.technology: windows-devices

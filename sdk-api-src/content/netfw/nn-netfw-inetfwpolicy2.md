@@ -7,8 +7,8 @@ old-location: ics\inetfwpolicy2.htm
 old-project: ICS
 ms.assetid: ef01a531-ddb0-4eb4-894b-82f613016396
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], INetFwPolicy2 interface [ICS/ICF], described, ics.inetfwpolicy2, netfw/INetFwPolicy2
+ms.date: 5/1/2018
+ms.keywords: INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], INetFwPolicy2 interface [ICS/ICF],described, ics.inetfwpolicy2, netfw/INetFwPolicy2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

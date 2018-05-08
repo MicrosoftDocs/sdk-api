@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.put_Left
-title: IMSVidRect::put_Left method
+title: IMSVidRect::put_Left
 author: windows-driver-content
 description: The put_Left method specifies the left x-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_put_left.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8e61fd8a-9ea0-48c1-8749-780b0363c12d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], put_Left method, IMSVidRect::put_Left, IMSVidRectput_Left, mstv.imsvidrect_put_left, put_Left method [Microsoft TV Technologies], put_Left method [Microsoft TV Technologies], IMSVidRect interface, put_Left,IMSVidRect.put_Left, segment/IMSVidRect::put_Left
+ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Left method, IMSVidRect.put_Left, IMSVidRect::put_Left, IMSVidRectput_Left, mstv.imsvidrect_put_left, put_Left, put_Left method [Microsoft TV Technologies], put_Left method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Left
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidRect::put_Left method
+# IMSVidRect::put_Left
 
 
 ## -description

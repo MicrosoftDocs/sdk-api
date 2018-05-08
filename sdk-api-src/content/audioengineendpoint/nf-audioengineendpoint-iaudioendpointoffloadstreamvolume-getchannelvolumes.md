@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamVolume.GetChannelVolumes
-title: IAudioEndpointOffloadStreamVolume::GetChannelVolumes method
+title: IAudioEndpointOffloadStreamVolume::GetChannelVolumes
 author: windows-driver-content
 description: The GetChannelVolumes method retrieves the volume levels for the various audio channels in the offloaded stream.
 old-location: coreaudio\iaudioendpointoffloadstreamvolume_getchannelvolumes.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: B15CA88E-EDB3-4BB4-9B74-98BB1D0CE288
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetChannelVolumes method [Core Audio], GetChannelVolumes method [Core Audio], IAudioEndpointOffloadStreamVolume interface, GetChannelVolumes,IAudioEndpointOffloadStreamVolume.GetChannelVolumes, IAudioEndpointOffloadStreamVolume, IAudioEndpointOffloadStreamVolume interface [Core Audio], GetChannelVolumes method, IAudioEndpointOffloadStreamVolume::GetChannelVolumes, audioengineendpoint/IAudioEndpointOffloadStreamVolume::GetChannelVolumes, coreaudio.iaudioendpointoffloadstreamvolume_getchannelvolumes
+ms.keywords: GetChannelVolumes, GetChannelVolumes method [Core Audio], GetChannelVolumes method [Core Audio],IAudioEndpointOffloadStreamVolume interface, IAudioEndpointOffloadStreamVolume interface [Core Audio],GetChannelVolumes method, IAudioEndpointOffloadStreamVolume.GetChannelVolumes, IAudioEndpointOffloadStreamVolume::GetChannelVolumes, audioengineendpoint/IAudioEndpointOffloadStreamVolume::GetChannelVolumes, coreaudio.iaudioendpointoffloadstreamvolume_getchannelvolumes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioEndpointOffloadStreamVolume::GetChannelVolumes method
+# IAudioEndpointOffloadStreamVolume::GetChannelVolumes
 
 
 ## -description

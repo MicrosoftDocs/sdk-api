@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_DiscountSend
-title: IFaxJob::get_DiscountSend method
+title: IFaxJob::get_DiscountSend
 author: windows-driver-content
 description: The DiscountSend property is a Boolean value that indicates whether the fax server will transmit the fax job during the discount rate period. The discount period applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_get_discountsend_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8h9g.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service], FaxJob object, FaxJob object [Fax Service], DiscountSend property, IFaxJob, IFaxJob::get_DiscountSend, _mfax_ifaxjob_get_discountsend, fax._mfax_ifaxjob_get_discountsend, fax._mfax_ifaxjob_get_discountsend_vb, get_DiscountSend,IFaxJob.get_DiscountSend
+ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service],FaxJob object, FaxJob object [Fax Service],DiscountSend property, FaxJob.DiscountSend, IFaxJob.get_DiscountSend, IFaxJob::get_DiscountSend, _mfax_ifaxjob_get_discountsend, fax._mfax_ifaxjob_get_discountsend, fax._mfax_ifaxjob_get_discountsend_vb, get_DiscountSend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxJob::get_DiscountSend method
+# IFaxJob::get_DiscountSend
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 08c354a6-5cc0-405c-91cf-dca55b87b49a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsVolumeShrink, IVdsVolumeShrink interface, IVdsVolumeShrink interface, described, base.ivdsvolumeshrink, vds/IVdsVolumeShrink
+ms.keywords: IVdsVolumeShrink, IVdsVolumeShrink interface, IVdsVolumeShrink interface,described, base.ivdsvolumeshrink, vds/IVdsVolumeShrink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

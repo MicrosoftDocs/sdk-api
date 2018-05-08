@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ShutdownApplication
-title: ICOMAdminCatalog::ShutdownApplication method
+title: ICOMAdminCatalog::ShutdownApplication
 author: windows-driver-content
 description: Initiates shutdown of a COM+ server application process.
 old-location: cos\icomadmincatalog_shutdownapplication.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 79f3af18-0924-4e09-85aa-54a6886b65b3
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ShutdownApplication method, ICOMAdminCatalog::ShutdownApplication, ShutdownApplication method [COM+], ShutdownApplication method [COM+], ICOMAdminCatalog interface, ShutdownApplication,ICOMAdminCatalog.ShutdownApplication, _cos_ICOMAdminCatalog_ShutdownApplication, comadmin/ICOMAdminCatalog::ShutdownApplication, cos.icomadmincatalog_shutdownapplication
+ms.keywords: ICOMAdminCatalog interface [COM+],ShutdownApplication method, ICOMAdminCatalog.ShutdownApplication, ICOMAdminCatalog::ShutdownApplication, ShutdownApplication, ShutdownApplication method [COM+], ShutdownApplication method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ShutdownApplication, comadmin/ICOMAdminCatalog::ShutdownApplication, cos.icomadmincatalog_shutdownapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::ShutdownApplication method
+# ICOMAdminCatalog::ShutdownApplication
 
 
 ## -description

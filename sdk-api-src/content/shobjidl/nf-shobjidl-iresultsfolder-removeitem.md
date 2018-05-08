@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IResultsFolder.RemoveItem
-title: IResultsFolder::RemoveItem method
+title: IResultsFolder::RemoveItem
 author: windows-driver-content
 description: Removes an item from a results folder.
 old-location: shell\IResultsFolder_RemoveItem.htm
 old-project: shell
 ms.assetid: 17be32ed-50d7-4c16-9a06-97c4a0f8dc8d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IResultsFolder, IResultsFolder interface [Windows Shell], RemoveItem method, IResultsFolder::RemoveItem, RemoveItem method [Windows Shell], RemoveItem method [Windows Shell], IResultsFolder interface, RemoveItem,IResultsFolder.RemoveItem, _shell_IResultsFolder_RemoveItem, shell.IResultsFolder_RemoveItem, shobjidl/IResultsFolder::RemoveItem
+ms.date: 5/3/2018
+ms.keywords: IResultsFolder interface [Windows Shell],RemoveItem method, IResultsFolder.RemoveItem, IResultsFolder::RemoveItem, RemoveItem, RemoveItem method [Windows Shell], RemoveItem method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveItem, shell.IResultsFolder_RemoveItem, shobjidl/IResultsFolder::RemoveItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IResultsFolder::RemoveItem method
+# IResultsFolder::RemoveItem
 
 
 ## -description

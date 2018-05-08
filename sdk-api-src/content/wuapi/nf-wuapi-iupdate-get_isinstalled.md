@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_IsInstalled
-title: IUpdate::get_IsInstalled method
+title: IUpdate::get_IsInstalled
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether the update is installed on a computer when the search is performed.
 old-location: wua\iupdate_isinstalled.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 2adebe8e-554e-4337-9bbf-1d8967fefef1
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], IsInstalled property, IUpdate.IsInstalled, IUpdate::get_IsInstalled, IsInstalled property [Windows Update Agent], IsInstalled property [Windows Update Agent], IUpdate interface, get_IsInstalled,IUpdate.get_IsInstalled, wua.iupdate_isinstalled, wuapi/IUpdate::IsInstalled, wuapi/IUpdate::get_IsInstalled
+ms.keywords: IUpdate interface [Windows Update Agent],IsInstalled property, IUpdate.IsInstalled, IUpdate.get_IsInstalled, IUpdate::IsInstalled, IUpdate::get_IsInstalled, IsInstalled property [Windows Update Agent], IsInstalled property [Windows Update Agent],IUpdate interface, get_IsInstalled, wua.iupdate_isinstalled, wuapi/IUpdate::IsInstalled, wuapi/IUpdate::get_IsInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_IsInstalled method
+# IUpdate::get_IsInstalled
 
 
 ## -description

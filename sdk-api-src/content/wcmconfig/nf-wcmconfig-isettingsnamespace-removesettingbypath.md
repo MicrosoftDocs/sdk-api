@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.RemoveSettingByPath
-title: ISettingsNamespace::RemoveSettingByPath method
+title: ISettingsNamespace::RemoveSettingByPath
 author: windows-driver-content
 description: Removes the setting object specified by a path.
 old-location: smi\isettingsnamespace_removesettingbypath.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 6c2cf0be-9c9f-46d6-9108-47d2ad405645
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISettingsNamespace, ISettingsNamespace interface [SMI], RemoveSettingByPath method, ISettingsNamespace::RemoveSettingByPath, RemoveSettingByPath method [SMI], RemoveSettingByPath method [SMI], ISettingsNamespace interface, RemoveSettingByPath,ISettingsNamespace.RemoveSettingByPath, smi.isettingsnamespace_removesettingbypath, wcmconfig/ISettingsNamespace::RemoveSettingByPath
+ms.keywords: ISettingsNamespace interface [SMI],RemoveSettingByPath method, ISettingsNamespace.RemoveSettingByPath, ISettingsNamespace::RemoveSettingByPath, RemoveSettingByPath, RemoveSettingByPath method [SMI], RemoveSettingByPath method [SMI],ISettingsNamespace interface, smi.isettingsnamespace_removesettingbypath, wcmconfig/ISettingsNamespace::RemoveSettingByPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsNamespace::RemoveSettingByPath method
+# ISettingsNamespace::RemoveSettingByPath
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b5256ed8-79be-4c7b-a079-ed3bca954e9e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DdLock, DdLock callback function [Display Devices], PDD_SURFCB_LOCK, ddfncs_af3e49f9-5fe1-4bf7-962b-18644a6fb582.xml, ddrawint/DdLock, display.ddlock
+ms.keywords: DdLock, DdLock callback function [Display Devices], PDD_SURFCB_LOCK, PDD_SURFCB_LOCK callback, ddfncs_af3e49f9-5fe1-4bf7-962b-18644a6fb582.xml, ddrawint/DdLock, display.ddlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PDD_SURFCB_LOCK callback
+# PDD_SURFCB_LOCK callback function
 
 
 ## -description

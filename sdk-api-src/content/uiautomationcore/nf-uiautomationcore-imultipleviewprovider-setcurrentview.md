@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IMultipleViewProvider.SetCurrentView
-title: IMultipleViewProvider::SetCurrentView method
+title: IMultipleViewProvider::SetCurrentView
 author: windows-driver-content
 description: Sets the current control-specific view.
 old-location: winauto\uiauto_IMultipleViewProvider_SetCurrentView.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: dfa652be-b6b6-44e3-b06a-8ead56f17d2d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IMultipleViewProvider, IMultipleViewProvider interface [Windows Accessibility], SetCurrentView method, IMultipleViewProvider::SetCurrentView, SetCurrentView method [Windows Accessibility], SetCurrentView method [Windows Accessibility], IMultipleViewProvider interface, SetCurrentView,IMultipleViewProvider.SetCurrentView, uiauto.uiauto_IMultipleViewProvider_SetCurrentView, uiauto_IMultipleViewProvider_SetCurrentView, uiautomationcore/IMultipleViewProvider::SetCurrentView, winauto.uiauto_IMultipleViewProvider_SetCurrentView
+ms.keywords: IMultipleViewProvider interface [Windows Accessibility],SetCurrentView method, IMultipleViewProvider.SetCurrentView, IMultipleViewProvider::SetCurrentView, SetCurrentView, SetCurrentView method [Windows Accessibility], SetCurrentView method [Windows Accessibility],IMultipleViewProvider interface, uiauto.uiauto_IMultipleViewProvider_SetCurrentView, uiauto_IMultipleViewProvider_SetCurrentView, uiautomationcore/IMultipleViewProvider::SetCurrentView, winauto.uiauto_IMultipleViewProvider_SetCurrentView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMultipleViewProvider::SetCurrentView method
+# IMultipleViewProvider::SetCurrentView
 
 
 ## -description

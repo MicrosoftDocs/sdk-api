@@ -1,6 +1,6 @@
 ---
 UID: NF:iaccess.IAccessControl.RevokeAccessRights
-title: IAccessControl::RevokeAccessRights method
+title: IAccessControl::RevokeAccessRights
 author: windows-driver-content
 description: Removes any explicit entries for the list of trustees.
 old-location: com\iaccesscontrol_revokeaccessrights.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 09b37002-0ad3-43c2-8a39-b440158310bb
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAccessControl, IAccessControl interface [COM], RevokeAccessRights method, IAccessControl::RevokeAccessRights, RevokeAccessRights method [COM], RevokeAccessRights method [COM], IAccessControl interface, RevokeAccessRights,IAccessControl.RevokeAccessRights, _com_iaccesscontrol_revokeaccessrights, com.iaccesscontrol_revokeaccessrights, iaccess/IAccessControl::RevokeAccessRights
+ms.keywords: IAccessControl interface [COM],RevokeAccessRights method, IAccessControl.RevokeAccessRights, IAccessControl::RevokeAccessRights, RevokeAccessRights, RevokeAccessRights method [COM], RevokeAccessRights method [COM],IAccessControl interface, _com_iaccesscontrol_revokeaccessrights, com.iaccesscontrol_revokeaccessrights, iaccess/IAccessControl::RevokeAccessRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAccessControl::RevokeAccessRights method
+# IAccessControl::RevokeAccessRights
 
 
 ## -description

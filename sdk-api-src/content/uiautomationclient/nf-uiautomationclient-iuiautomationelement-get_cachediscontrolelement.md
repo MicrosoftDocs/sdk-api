@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsControlElement
-title: IUIAutomationElement::get_CachedIsControlElement method
+title: IUIAutomationElement::get_CachedIsControlElement
 author: windows-driver-content
 description: Retrieves a cached value that indicates whether the element is a control element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsControlElement.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3d8b1b5e-4e68-454a-9cfc-dd742a5fa760
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedIsControlElement property [Windows Accessibility], CachedIsControlElement property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedIsControlElement property, IUIAutomationElement.CachedIsControlElement, IUIAutomationElement::get_CachedIsControlElement, get_CachedIsControlElement,IUIAutomationElement.get_CachedIsControlElement, uiauto.uiauto_IUIAutomationElement_CachedIsControlElement, uiauto_IUIAutomationElement_CachedIsControlElement, uiautomationclient/IUIAutomationElement::CachedIsControlElement, uiautomationclient/IUIAutomationElement::get_CachedIsControlElement, winauto.uiauto_IUIAutomationElement_CachedIsControlElement
+ms.keywords: CachedIsControlElement property [Windows Accessibility], CachedIsControlElement property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsControlElement property, IUIAutomationElement.CachedIsControlElement, IUIAutomationElement.get_CachedIsControlElement, IUIAutomationElement::CachedIsControlElement, IUIAutomationElement::get_CachedIsControlElement, get_CachedIsControlElement, uiauto.uiauto_IUIAutomationElement_CachedIsControlElement, uiauto_IUIAutomationElement_CachedIsControlElement, uiautomationclient/IUIAutomationElement::CachedIsControlElement, uiautomationclient/IUIAutomationElement::get_CachedIsControlElement, winauto.uiauto_IUIAutomationElement_CachedIsControlElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CachedIsControlElement method
+# IUIAutomationElement::get_CachedIsControlElement
 
 
 ## -description

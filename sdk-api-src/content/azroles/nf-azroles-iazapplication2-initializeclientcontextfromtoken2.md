@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication2.InitializeClientContextFromToken2
-title: IAzApplication2::InitializeClientContextFromToken2 method
+title: IAzApplication2::InitializeClientContextFromToken2
 author: windows-driver-content
 description: Retrieves an IAzClientContext2 object pointer from the specified client token.
 old-location: security\iazapplication2_initializeclientcontextfromtoken2.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: f77b5eb1-c121-4392-a317-7021059268ed
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzApplication2, IAzApplication2 interface [Security], InitializeClientContextFromToken2 method, IAzApplication2::InitializeClientContextFromToken2, InitializeClientContextFromToken2 method [Security], InitializeClientContextFromToken2 method [Security], IAzApplication2 interface, InitializeClientContextFromToken2,IAzApplication2.InitializeClientContextFromToken2, azroles/IAzApplication2::InitializeClientContextFromToken2, security.iazapplication2_initializeclientcontextfromtoken2
+ms.keywords: IAzApplication2 interface [Security],InitializeClientContextFromToken2 method, IAzApplication2.InitializeClientContextFromToken2, IAzApplication2::InitializeClientContextFromToken2, InitializeClientContextFromToken2, InitializeClientContextFromToken2 method [Security], InitializeClientContextFromToken2 method [Security],IAzApplication2 interface, azroles/IAzApplication2::InitializeClientContextFromToken2, security.iazapplication2_initializeclientcontextfromtoken2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication2::InitializeClientContextFromToken2 method
+# IAzApplication2::InitializeClientContextFromToken2
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetCountOfRecords
-title: IDvbLogicalChannelDescriptor::GetCountOfRecords method
+title: IDvbLogicalChannelDescriptor::GetCountOfRecords
 author: windows-driver-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
 old-location: mstv\idvblogicalchanneldescriptor_getcountofrecords.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 97cadf6c-2549-4a7f-9ecb-c16298769a21
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfRecords method [DirectShow], GetCountOfRecords method [DirectShow], IDvbLogicalChannelDescriptor interface, GetCountOfRecords,IDvbLogicalChannelDescriptor.GetCountOfRecords, IDvbLogicalChannelDescriptor, IDvbLogicalChannelDescriptor interface [DirectShow], GetCountOfRecords method, IDvbLogicalChannelDescriptor::GetCountOfRecords, IDvbLogicalChannelDescriptorGetCountOfRecords, dvbsiparser/IDvbLogicalChannelDescriptor::GetCountOfRecords, mstv.idvblogicalchanneldescriptor_getcountofrecords
+ms.keywords: GetCountOfRecords, GetCountOfRecords method [DirectShow], GetCountOfRecords method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetCountOfRecords method, IDvbLogicalChannelDescriptor.GetCountOfRecords, IDvbLogicalChannelDescriptor::GetCountOfRecords, IDvbLogicalChannelDescriptorGetCountOfRecords, dvbsiparser/IDvbLogicalChannelDescriptor::GetCountOfRecords, mstv.idvblogicalchanneldescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLogicalChannelDescriptor::GetCountOfRecords method
+# IDvbLogicalChannelDescriptor::GetCountOfRecords
 
 
 ## -description

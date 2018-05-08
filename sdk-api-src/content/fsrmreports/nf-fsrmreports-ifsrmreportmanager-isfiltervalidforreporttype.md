@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.IsFilterValidForReportType
-title: IFsrmReportManager::IsFilterValidForReportType method
+title: IFsrmReportManager::IsFilterValidForReportType
 author: windows-driver-content
 description: Retrieves a value that determines whether a specified report filter is configurable for the specified report type.
 old-location: fsrm\ifsrmreportmanager_isfiltervalidforreporttype.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: e9f93b97-c8ac-441a-9f6b-87d45bd10cdf
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmReportManager class [File Server Resource Manager], IsFilterValidForReportType method, IFsrmReportManager, IFsrmReportManager interface [File Server Resource Manager], IsFilterValidForReportType method, IFsrmReportManager::IsFilterValidForReportType, IsFilterValidForReportType method [File Server Resource Manager], IsFilterValidForReportType method [File Server Resource Manager], FsrmReportManager class, IsFilterValidForReportType method [File Server Resource Manager], IFsrmReportManager interface, IsFilterValidForReportType,IFsrmReportManager.IsFilterValidForReportType, fs.ifsrmreportmanager_isfiltervalidforreporttype, fsrm.ifsrmreportmanager_isfiltervalidforreporttype, fsrmreports/IFsrmReportManager::IsFilterValidForReportType
+ms.keywords: FsrmReportManager class [File Server Resource Manager],IsFilterValidForReportType method, IFsrmReportManager interface [File Server Resource Manager],IsFilterValidForReportType method, IFsrmReportManager.IsFilterValidForReportType, IFsrmReportManager::IsFilterValidForReportType, IsFilterValidForReportType, IsFilterValidForReportType method [File Server Resource Manager], IsFilterValidForReportType method [File Server Resource Manager],FsrmReportManager class, IsFilterValidForReportType method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_isfiltervalidforreporttype, fsrm.ifsrmreportmanager_isfiltervalidforreporttype, fsrmreports/IFsrmReportManager::IsFilterValidForReportType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReportManager::IsFilterValidForReportType method
+# IFsrmReportManager::IsFilterValidForReportType
 
 
 ## -description

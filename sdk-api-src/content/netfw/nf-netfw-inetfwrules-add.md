@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRules.Add
-title: INetFwRules::Add method
+title: INetFwRules::Add
 author: windows-driver-content
 description: The Add method adds a new rule to the collection.
 old-location: ics\inetfwrules_add.htm
 old-project: ICS
 ms.assetid: c81bdf56-df71-425a-93d2-1fbae5ab536e
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Add method [ICS/ICF], Add method [ICS/ICF], INetFwRules interface, Add,INetFwRules.Add, INetFwRules, INetFwRules interface [ICS/ICF], Add method, INetFwRules::Add, ics.inetfwrules_add, netfw/INetFwRules::Add
+ms.date: 5/1/2018
+ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwRules interface, INetFwRules interface [ICS/ICF],Add method, INetFwRules.Add, INetFwRules::Add, ics.inetfwrules_add, netfw/INetFwRules::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRules::Add method
+# INetFwRules::Add
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFRemoteProxy.GetRemoteHost
-title: IMFRemoteProxy::GetRemoteHost method
+title: IMFRemoteProxy::GetRemoteHost
 author: windows-driver-content
 description: Retrieves a pointer to the object that is hosting this proxy.
 old-location: mf\imfremoteproxy_getremotehost.htm
 old-project: medfound
 ms.assetid: e3a4407a-d8e4-4c7b-81da-88d63e0d77b8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetRemoteHost method [Media Foundation], GetRemoteHost method [Media Foundation], IMFRemoteProxy interface, GetRemoteHost,IMFRemoteProxy.GetRemoteHost, IMFRemoteProxy, IMFRemoteProxy interface [Media Foundation], GetRemoteHost method, IMFRemoteProxy::GetRemoteHost, e3a4407a-d8e4-4c7b-81da-88d63e0d77b8, mf.imfremoteproxy_getremotehost, mfidl/IMFRemoteProxy::GetRemoteHost
+ms.date: 5/3/2018
+ms.keywords: GetRemoteHost, GetRemoteHost method [Media Foundation], GetRemoteHost method [Media Foundation],IMFRemoteProxy interface, IMFRemoteProxy interface [Media Foundation],GetRemoteHost method, IMFRemoteProxy.GetRemoteHost, IMFRemoteProxy::GetRemoteHost, e3a4407a-d8e4-4c7b-81da-88d63e0d77b8, mf.imfremoteproxy_getremotehost, mfidl/IMFRemoteProxy::GetRemoteHost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFRemoteProxy::GetRemoteHost method
+# IMFRemoteProxy::GetRemoteHost
 
 
 ## -description

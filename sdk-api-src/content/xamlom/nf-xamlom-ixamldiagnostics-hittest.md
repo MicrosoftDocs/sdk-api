@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.HitTest
-title: IXamlDiagnostics::HitTest method
+title: IXamlDiagnostics::HitTest
 author: windows-driver-content
 description: Gets all elements in the visual tree that fall within the specified rectangle.
 old-location: xaml_diagnostics\ixamldiagnostics_hittest.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: B7722F49-F477-4D24-9183-BC09A4A12730
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: HitTest method, HitTest method, IXamlDiagnostics interface, HitTest,IXamlDiagnostics.HitTest, IXamlDiagnostics, IXamlDiagnostics interface, HitTest method, IXamlDiagnostics::HitTest, xaml_diagnostics.ixamldiagnostics_hittest, xamlom/IXamlDiagnostics::HitTest
+ms.keywords: HitTest, HitTest method, HitTest method,IXamlDiagnostics interface, IXamlDiagnostics interface,HitTest method, IXamlDiagnostics.HitTest, IXamlDiagnostics::HitTest, xaml_diagnostics.ixamldiagnostics_hittest, xamlom/IXamlDiagnostics::HitTest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXamlDiagnostics::HitTest method
+# IXamlDiagnostics::HitTest
 
 
 ## -description

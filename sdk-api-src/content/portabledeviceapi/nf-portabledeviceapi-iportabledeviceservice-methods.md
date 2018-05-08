@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Methods
-title: IPortableDeviceService::Methods method
+title: IPortableDeviceService::Methods
 author: windows-driver-content
 description: Retrieves the IPortableDeviceServiceMethods interface that is used to invoke custom functionality on the service.
 old-location: wpdsdk\iportabledeviceservice_methods.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 345102d4-3dac-4878-9196-bb0d97c0df07
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], Methods method, IPortableDeviceService::Methods, Methods method [Windows Portable Devices SDK], Methods method [Windows Portable Devices SDK], IPortableDeviceService interface, Methods,IPortableDeviceService.Methods, portabledeviceapi/IPortableDeviceService::Methods, wpdsdk.iportabledeviceservice_methods
+ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Methods method, IPortableDeviceService.Methods, IPortableDeviceService::Methods, Methods, Methods method [Windows Portable Devices SDK], Methods method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Methods, wpdsdk.iportabledeviceservice_methods
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceService::Methods method
+# IPortableDeviceService::Methods
 
 
 ## -description

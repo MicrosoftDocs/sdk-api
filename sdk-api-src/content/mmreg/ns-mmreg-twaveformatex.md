@@ -7,7 +7,7 @@ old-location: audio\waveformatex.htm
 old-project: audio
 ms.assetid: f2f050d6-afe2-4647-932b-1287f4538702
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/1/2018
 ms.keywords: "*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMATEX, WAVEFORMATEX structure [Audio Devices], aud-prop_f0d9c096-fa87-43d5-812b-de4d08358342.xml, audio.waveformatex, mmreg/WAVEFORMATEX, tWAVEFORMATEX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WAVEFORMATEX, WAVEFORMATEX, *PWAVEFORMATEX, *NPWAVEFORMATEX, *LPWAVEFORMATEX
+req.typenames: WAVEFORMATEX, *PWAVEFORMATEX, *NPWAVEFORMATEX, *LPWAVEFORMATEX
 topic_type:
 -	APIRef
 -	kbSyntax

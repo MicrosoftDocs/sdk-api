@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Size
-title: IFont::put_Size method
+title: IFont::put_Size
 author: windows-driver-content
 description: Sets the point size of the font.
 old-location: com\ifont_put_size.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1c39a7dc-553b-41b7-8b66-1a5980493dce
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFont, IFont interface [COM], put_Size method, IFont::put_Size, _ctrl_ifont_put_size, com.ifont_put_size, ocidl/IFont::put_Size, put_Size method [COM], put_Size method [COM], IFont interface, put_Size,IFont.put_Size
+ms.keywords: IFont interface [COM],put_Size method, IFont.put_Size, IFont::put_Size, _ctrl_ifont_put_size, com.ifont_put_size, ocidl/IFont::put_Size, put_Size, put_Size method [COM], put_Size method [COM],IFont interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFont::put_Size method
+# IFont::put_Size
 
 
 ## -description

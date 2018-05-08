@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMTranscryptionManager.CreateTranscryptor
-title: IWMDRMTranscryptionManager::CreateTranscryptor method
+title: IWMDRMTranscryptionManager::CreateTranscryptor
 author: windows-driver-content
 description: Creates a DRM transcryptor object.
 old-location: wmformat\iwmdrmtranscryptionmanager_createtranscryptor.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e4dfa908-9fd2-4968-b4a0-c7b69064d46e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: CreateTranscryptor method [windows Media Format], CreateTranscryptor method [windows Media Format], IWMDRMTranscryptionManager interface, CreateTranscryptor,IWMDRMTranscryptionManager.CreateTranscryptor, IWMDRMTranscryptionManager, IWMDRMTranscryptionManager interface [windows Media Format], CreateTranscryptor method, IWMDRMTranscryptionManager::CreateTranscryptor, wmformat.iwmdrmtranscryptionmanager_createtranscryptor, wmsdkidl/IWMDRMTranscryptionManager::CreateTranscryptor
+ms.keywords: CreateTranscryptor, CreateTranscryptor method [windows Media Format], CreateTranscryptor method [windows Media Format],IWMDRMTranscryptionManager interface, IWMDRMTranscryptionManager interface [windows Media Format],CreateTranscryptor method, IWMDRMTranscryptionManager.CreateTranscryptor, IWMDRMTranscryptionManager::CreateTranscryptor, wmformat.iwmdrmtranscryptionmanager_createtranscryptor, wmsdkidl/IWMDRMTranscryptionManager::CreateTranscryptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMTranscryptionManager::CreateTranscryptor method
+# IWMDRMTranscryptionManager::CreateTranscryptor
 
 
 ## -description

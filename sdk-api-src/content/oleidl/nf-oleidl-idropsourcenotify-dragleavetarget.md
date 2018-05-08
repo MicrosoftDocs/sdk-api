@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IDropSourceNotify.DragLeaveTarget
-title: IDropSourceNotify::DragLeaveTarget method
+title: IDropSourceNotify::DragLeaveTarget
 author: windows-driver-content
 description: OLE calls this method when the user drags the mouse cursor out of a potential drop target window.
 old-location: com\idropsourcenotify_dragleavetarget.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 6267db46-92ce-43b8-8e3f-ffd7d2b8a2e8
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: DragLeaveTarget method [COM], DragLeaveTarget method [COM], IDropSourceNotify interface, DragLeaveTarget,IDropSourceNotify.DragLeaveTarget, IDropSourceNotify, IDropSourceNotify interface [COM], DragLeaveTarget method, IDropSourceNotify::DragLeaveTarget, _ole_idropsourcenotify_dragleavetarget, com.idropsourcenotify_dragleavetarget, oleidl/IDropSourceNotify::DragLeaveTarget
+ms.keywords: DragLeaveTarget, DragLeaveTarget method [COM], DragLeaveTarget method [COM],IDropSourceNotify interface, IDropSourceNotify interface [COM],DragLeaveTarget method, IDropSourceNotify.DragLeaveTarget, IDropSourceNotify::DragLeaveTarget, _ole_idropsourcenotify_dragleavetarget, com.idropsourcenotify_dragleavetarget, oleidl/IDropSourceNotify::DragLeaveTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDropSourceNotify::DragLeaveTarget method
+# IDropSourceNotify::DragLeaveTarget
 
 
 ## -description

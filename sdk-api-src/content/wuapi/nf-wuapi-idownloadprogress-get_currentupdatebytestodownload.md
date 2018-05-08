@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_CurrentUpdateBytesToDownload
-title: IDownloadProgress::get_CurrentUpdateBytesToDownload method
+title: IDownloadProgress::get_CurrentUpdateBytesToDownload
 author: windows-driver-content
 description: Gets a string that estimates how much data should be transferred for the content file or files of the update that is being downloaded, in bytes.
 old-location: wua\idownloadprogress_currentupdatebytestodownload.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 6e3ac04f-b827-4369-981e-af7a437f5e5c
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CurrentUpdateBytesToDownload property [Windows Update Agent], CurrentUpdateBytesToDownload property [Windows Update Agent], IDownloadProgress interface, IDownloadProgress, IDownloadProgress interface [Windows Update Agent], CurrentUpdateBytesToDownload property, IDownloadProgress.CurrentUpdateBytesToDownload, IDownloadProgress::get_CurrentUpdateBytesToDownload, get_CurrentUpdateBytesToDownload,IDownloadProgress.get_CurrentUpdateBytesToDownload, wua.idownloadprogress_currentupdatebytestodownload, wuapi/IDownloadProgress::CurrentUpdateBytesToDownload, wuapi/IDownloadProgress::get_CurrentUpdateBytesToDownload
+ms.keywords: CurrentUpdateBytesToDownload property [Windows Update Agent], CurrentUpdateBytesToDownload property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdateBytesToDownload property, IDownloadProgress.CurrentUpdateBytesToDownload, IDownloadProgress.get_CurrentUpdateBytesToDownload, IDownloadProgress::CurrentUpdateBytesToDownload, IDownloadProgress::get_CurrentUpdateBytesToDownload, get_CurrentUpdateBytesToDownload, wua.idownloadprogress_currentupdatebytestodownload, wuapi/IDownloadProgress::CurrentUpdateBytesToDownload, wuapi/IDownloadProgress::get_CurrentUpdateBytesToDownload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IDownloadProgress::get_CurrentUpdateBytesToDownload method
+# IDownloadProgress::get_CurrentUpdateBytesToDownload
 
 
 ## -description

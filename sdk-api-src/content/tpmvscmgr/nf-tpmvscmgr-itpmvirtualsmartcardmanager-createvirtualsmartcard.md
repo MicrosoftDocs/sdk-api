@@ -1,6 +1,6 @@
 ---
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManager.CreateVirtualSmartCard
-title: ITpmVirtualSmartCardManager::CreateVirtualSmartCard method
+title: ITpmVirtualSmartCardManager::CreateVirtualSmartCard
 author: windows-driver-content
 description: Creates a TPM virtual smart card with the given parameters.
 old-location: security\itpmvirtualsmartcardmanager_createvirtualsmartcard.htm
@@ -8,7 +8,7 @@ old-project: SecAuthN
 ms.assetid: C80C4DE2-0C43-40A5-81E6-7036A0B8DEB7
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CreateVirtualSmartCard method [Security], CreateVirtualSmartCard method [Security], ITpmVirtualSmartCardManager interface, CreateVirtualSmartCard,ITpmVirtualSmartCardManager.CreateVirtualSmartCard, ITpmVirtualSmartCardManager, ITpmVirtualSmartCardManager interface [Security], CreateVirtualSmartCard method, ITpmVirtualSmartCardManager::CreateVirtualSmartCard, security.itpmvirtualsmartcardmanager_createvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::CreateVirtualSmartCard
+ms.keywords: CreateVirtualSmartCard, CreateVirtualSmartCard method [Security], CreateVirtualSmartCard method [Security],ITpmVirtualSmartCardManager interface, ITpmVirtualSmartCardManager interface [Security],CreateVirtualSmartCard method, ITpmVirtualSmartCardManager.CreateVirtualSmartCard, ITpmVirtualSmartCardManager::CreateVirtualSmartCard, security.itpmvirtualsmartcardmanager_createvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::CreateVirtualSmartCard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITpmVirtualSmartCardManager::CreateVirtualSmartCard method
+# ITpmVirtualSmartCardManager::CreateVirtualSmartCard
 
 
 ## -description

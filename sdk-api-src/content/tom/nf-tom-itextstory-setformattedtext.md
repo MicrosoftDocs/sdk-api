@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextStory.SetFormattedText
-title: ITextStory::SetFormattedText method
+title: ITextStory::SetFormattedText
 author: windows-driver-content
 description: Replaces a story’s text with specified formatted text.
 old-location: controls\itextstory_setformattedtext.htm
 old-project: Controls
 ms.assetid: ddc77bfe-06de-43e6-9d74-f1b3531c9416
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextStory, ITextStory interface [Windows Controls], SetFormattedText method, ITextStory::SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls], ITextStory interface, SetFormattedText,ITextStory.SetFormattedText, controls.itextstory_setformattedtext, tom/ITextStory::SetFormattedText
+ms.date: 4/27/2018
+ms.keywords: ITextStory interface [Windows Controls],SetFormattedText method, ITextStory.SetFormattedText, ITextStory::SetFormattedText, SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls],ITextStory interface, controls.itextstory_setformattedtext, tom/ITextStory::SetFormattedText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStory::SetFormattedText method
+# ITextStory::SetFormattedText
 
 
 ## -description

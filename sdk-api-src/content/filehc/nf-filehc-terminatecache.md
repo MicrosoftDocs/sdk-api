@@ -7,7 +7,7 @@ old-location: winprog\_terminatecache.htm
 old-project: DevNotes
 ms.assetid: 3c4bdb54-8baa-4302-89ab-c7e6f35582e5
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: TerminateCache, TerminateCache function [Windows API], filehc/TerminateCache, winprog._terminatecache
 ms.prod: windows-hardware
 ms.technology: windows-devices

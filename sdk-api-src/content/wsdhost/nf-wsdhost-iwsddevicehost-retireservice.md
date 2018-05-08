@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RetireService
-title: IWSDDeviceHost::RetireService method
+title: IWSDDeviceHost::RetireService
 author: windows-driver-content
 description: Unregisters a service object that was registered using RegisterService and removes the service from the device host metadata.
 old-location: ncd\iwsddevicehost_retireservice_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 7832c787-f268-44e3-b394-363299b6a823
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, RetireService method, IWSDDeviceHost::RetireService, RetireService method, RetireService method, IWSDDeviceHost interface, RetireService,IWSDDeviceHost.RetireService, ncd.iwsddevicehost_retireservice_method, wsdhost/IWSDDeviceHost::RetireService
+ms.keywords: IWSDDeviceHost interface,RetireService method, IWSDDeviceHost.RetireService, IWSDDeviceHost::RetireService, RetireService, RetireService method, RetireService method,IWSDDeviceHost interface, ncd.iwsddevicehost_retireservice_method, wsdhost/IWSDDeviceHost::RetireService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceHost::RetireService method
+# IWSDDeviceHost::RetireService
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetServer
-title: IWbemPath::SetServer method
+title: IWbemPath::SetServer
 author: windows-driver-content
 description: The IWbemPath::SetServer method sets the server portion of the path.
 old-location: wmi\iwbempath_setserver.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 4da66edf-bf38-4246-82fc-27fd14e7d183
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], SetServer method, IWbemPath::SetServer, SetServer method [Windows Management Instrumentation], SetServer method [Windows Management Instrumentation], IWbemPath interface, SetServer,IWbemPath.SetServer, _hmm_iwbempath_setserver, wmi.iwbempath_setserver, wmiutils/IWbemPath::SetServer
+ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetServer method, IWbemPath.SetServer, IWbemPath::SetServer, SetServer, SetServer method [Windows Management Instrumentation], SetServer method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_setserver, wmi.iwbempath_setserver, wmiutils/IWbemPath::SetServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPath::SetServer method
+# IWbemPath::SetServer
 
 
 ## -description

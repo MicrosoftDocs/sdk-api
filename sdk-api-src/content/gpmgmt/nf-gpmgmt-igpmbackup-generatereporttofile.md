@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMBackup.GenerateReportToFile
-title: IGPMBackup::GenerateReportToFile method
+title: IGPMBackup::GenerateReportToFile
 author: windows-driver-content
 description: The GenerateReportToFile method gets the report for the backup Group Policy object (GPO) and then saves the report to a file in a specified path.
 old-location: gpmc\igpmbackup_generatereporttofile.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: cba43c59-54d8-4d0b-b603-638f493cdf71
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC], IGPMBackup interface, GenerateReportToFile,IGPMBackup.GenerateReportToFile, IGPMBackup, IGPMBackup interface [GPMC], GenerateReportToFile method, IGPMBackup::GenerateReportToFile, gpmc.igpmbackup_generatereporttofile, gpmgmt/IGPMBackup::GenerateReportToFile
+ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMBackup interface, IGPMBackup interface [GPMC],GenerateReportToFile method, IGPMBackup.GenerateReportToFile, IGPMBackup::GenerateReportToFile, gpmc.igpmbackup_generatereporttofile, gpmgmt/IGPMBackup::GenerateReportToFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMBackup::GenerateReportToFile method
+# IGPMBackup::GenerateReportToFile
 
 
 ## -description

@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# LSA_CRACK_SINGLE_NAME callback
+# LSA_CRACK_SINGLE_NAME callback function
 
 
 ## -description

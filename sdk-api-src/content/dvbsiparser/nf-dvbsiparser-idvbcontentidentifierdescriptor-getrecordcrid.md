@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbContentIdentifierDescriptor.GetRecordCrid
-title: IDvbContentIdentifierDescriptor::GetRecordCrid method
+title: IDvbContentIdentifierDescriptor::GetRecordCrid
 author: windows-driver-content
 description: Gets the content reference identifier (CRID) from a Digital Video Broadcast (DVB) content identifier descriptor.
 old-location: mstv\idvbcontentidentifierdescriptor_getrecordcrid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: de3593a6-f39c-4c4a-9ddf-1343186d98e3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordCrid method [Microsoft TV Technologies], GetRecordCrid method [Microsoft TV Technologies], IDvbContentIdentifierDescriptor interface, GetRecordCrid,IDvbContentIdentifierDescriptor.GetRecordCrid, IDvbContentIdentifierDescriptor, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies], GetRecordCrid method, IDvbContentIdentifierDescriptor::GetRecordCrid, dvbsiparser/IDvbContentIdentifierDescriptor::GetRecordCrid, mstv.idvbcontentidentifierdescriptor_getrecordcrid
+ms.keywords: GetRecordCrid, GetRecordCrid method [Microsoft TV Technologies], GetRecordCrid method [Microsoft TV Technologies],IDvbContentIdentifierDescriptor interface, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],GetRecordCrid method, IDvbContentIdentifierDescriptor.GetRecordCrid, IDvbContentIdentifierDescriptor::GetRecordCrid, dvbsiparser/IDvbContentIdentifierDescriptor::GetRecordCrid, mstv.idvbcontentidentifierdescriptor_getrecordcrid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbContentIdentifierDescriptor::GetRecordCrid method
+# IDvbContentIdentifierDescriptor::GetRecordCrid
 
 
 ## -description

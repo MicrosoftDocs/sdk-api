@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_class_info_array.htm
 old-project: DHCP
 ms.assetid: 716beba3-cba2-406c-a41f-2f08b6a7dc5a
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_CLASS_INFO_ARRAY, DHCP_CLASS_INFO_ARRAY, DHCP_CLASS_INFO_ARRAY structure [DHCP], LPDHCP_CLASS_INFO_ARRAY, LPDHCP_CLASS_INFO_ARRAY structure pointer [DHCP], _DHCP_CLASS_INFO_ARRAY, dhcp.dhcp_class_info_array, dhcpsapi/LPDHCP_CLASS_INFO_ARRAY, dhcpsapi/_DHCP_CLASS_INFO_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Specifies the number of elements in <b>Classes</b>.
 ### -field Classes
 
 Pointer to an array of <a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a> structures that contain DHCP class information.
+
+
+### -field Classes.size_is
+
+ 
+
+
+### -field Classes.size_is.NumElements
+
+ 
+
+
 
 
 ## -see-also

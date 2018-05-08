@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.devices.alljoyn.interop.IWindowsDevicesAllJoynBusAttachmentFactoryInterop.CreateFromWin32Handle
-title: IWindowsDevicesAllJoynBusAttachmentFactoryInterop::CreateFromWin32Handle method
+title: IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn
 author: windows-driver-content
 description: Constructs an AllJoynBusAttachment over an existing alljoyn_busattachment instance without taking ownership.
 old-location: alljoyn\iwindowsdevicesalljoynbusattachmentfactoryinterop_createfromwin32handle.htm
@@ -8,7 +8,7 @@ old-project: AllJoyn
 ms.assetid: AB33FA90-7A74-4B0D-8E99-EF304E508FCB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateFromWin32Handle method [AllJoyn API], CreateFromWin32Handle method [AllJoyn API], IInspectable interface, CreateFromWin32Handle method [AllJoyn API], IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface, CreateFromWin32Handle,IWindowsDevicesAllJoynBusAttachmentFactoryInterop.CreateFromWin32Handle, IInspectable ::CreateFromWin32Handle, IInspectable interface [AllJoyn API], CreateFromWin32Handle method, IWindowsDevicesAllJoynBusAttachmentFactoryInterop, IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API], CreateFromWin32Handle method, IWindowsDevicesAllJoynBusAttachmentFactoryInterop::CreateFromWin32Handle, alljoyn.iwindowsdevicesalljoynbusattachmentfactoryinterop_createfromwin32handle, windows/IInspectable ::CreateFromWin32Handle, windows/IWindowsDevicesAllJoynBusAttachmentFactoryInterop::CreateFromWin32Handle
+ms.keywords: CreateFromWin32Handle, CreateFromWin32Handle method [AllJoyn API], CreateFromWin32Handle method [AllJoyn API],IInspectable interface, CreateFromWin32Handle method [AllJoyn API],IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface, IInspectable ::CreateFromWin32Handle, IInspectable interface [AllJoyn API],CreateFromWin32Handle method, IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API],CreateFromWin32Handle method, IWindowsDevicesAllJoynBusAttachmentFactoryInterop.CreateFromWin32Handle, IWindowsDevicesAllJoynBusAttachmentFactoryInterop.alljoyn, IWindowsDevicesAllJoynBusAttachmentFactoryInterop::CreateFromWin32Handle, IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn, alljoyn.iwindowsdevicesalljoynbusattachmentfactoryinterop_createfromwin32handle, windows/IInspectable ::CreateFromWin32Handle, windows/IWindowsDevicesAllJoynBusAttachmentFactoryInterop::CreateFromWin32Handle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWindowsDevicesAllJoynBusAttachmentFactoryInterop::CreateFromWin32Handle method
+# IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn
 
 
 ## -description

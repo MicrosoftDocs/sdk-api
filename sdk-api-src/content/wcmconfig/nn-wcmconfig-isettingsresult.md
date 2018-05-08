@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 0bbfd39a-0292-4d8e-ae31-f45aebd326a7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISettingsResult, ISettingsResult interface [SMI], ISettingsResult interface [SMI], described, smi.isettingsresult, wcmconfig/ISettingsResult
+ms.keywords: ISettingsResult, ISettingsResult interface [SMI], ISettingsResult interface [SMI],described, smi.isettingsresult, wcmconfig/ISettingsResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

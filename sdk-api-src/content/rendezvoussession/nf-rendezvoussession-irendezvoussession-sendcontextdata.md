@@ -1,6 +1,6 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.SendContextData
-title: IRendezvousSession::SendContextData method
+title: IRendezvousSession::SendContextData
 author: windows-driver-content
 description: Sends the context data to the remote RendezvousApplication.
 old-location: remoteassist\remoteassist_IRendezvousSession_SendContextData.htm
@@ -8,7 +8,7 @@ old-project: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\sendcontextdata.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRendezvousSession, IRendezvousSession interface [Remote Assistance], SendContextData method, IRendezvousSession::SendContextData, SendContextData method [Remote Assistance], SendContextData method [Remote Assistance], IRendezvousSession interface, SendContextData,IRendezvousSession.SendContextData, remoteassist.remoteassist_IRendezvousSession_SendContextData, remoteassist_IRendezvousSession_SendContextData, rendezvoussession/IRendezvousSession::SendContextData
+ms.keywords: IRendezvousSession interface [Remote Assistance],SendContextData method, IRendezvousSession.SendContextData, IRendezvousSession::SendContextData, SendContextData, SendContextData method [Remote Assistance], SendContextData method [Remote Assistance],IRendezvousSession interface, remoteassist.remoteassist_IRendezvousSession_SendContextData, remoteassist_IRendezvousSession_SendContextData, rendezvoussession/IRendezvousSession::SendContextData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRendezvousSession::SendContextData method
+# IRendezvousSession::SendContextData
 
 
 ## -description

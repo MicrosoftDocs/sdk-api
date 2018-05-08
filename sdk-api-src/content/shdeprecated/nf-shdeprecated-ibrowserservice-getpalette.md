@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetPalette
-title: IBrowserService::GetPalette method
+title: IBrowserService::GetPalette
 author: windows-driver-content
 description: Deprecated. Retrieves the browser's palette.
 old-location: shell\IBrowserService_GetPalette.htm
 old-project: shell
 ms.assetid: 039a24d0-8cda-48bf-a10b-baf6d76c808d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPalette method [Windows Shell], GetPalette method [Windows Shell], IBrowserService interface, GetPalette,IBrowserService.GetPalette, IBrowserService, IBrowserService interface [Windows Shell], GetPalette method, IBrowserService::GetPalette, shdeprecated/IBrowserService::GetPalette, shell.IBrowserService_GetPalette, zone_IBrowserService_GetPalette
+ms.date: 5/3/2018
+ms.keywords: GetPalette, GetPalette method [Windows Shell], GetPalette method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetPalette method, IBrowserService.GetPalette, IBrowserService::GetPalette, shdeprecated/IBrowserService::GetPalette, shell.IBrowserService_GetPalette, zone_IBrowserService_GetPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::GetPalette method
+# IBrowserService::GetPalette
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: security\bcryptclosealgorithmprovider_func.htm
 old-project: SecCNG
 ms.assetid: def90d52-87e0-40e6-9c50-fd77177991d0
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: BCryptCloseAlgorithmProvider, BCryptCloseAlgorithmProvider function [Security], bcrypt/BCryptCloseAlgorithmProvider, security.bcryptclosealgorithmprovider_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

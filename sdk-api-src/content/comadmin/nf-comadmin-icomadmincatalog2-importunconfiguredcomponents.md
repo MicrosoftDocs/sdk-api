@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ImportUnconfiguredComponents
-title: ICOMAdminCatalog2::ImportUnconfiguredComponents method
+title: ICOMAdminCatalog2::ImportUnconfiguredComponents
 author: windows-driver-content
 description: Imports the specified classes into a COM+ application as unconfigured components.
 old-location: cos\icomadmincatalog2_importunconfiguredcomponents.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 51bab6c7-5ec2-4651-a0c4-c54683a65d75
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], ImportUnconfiguredComponents method, ICOMAdminCatalog2::ImportUnconfiguredComponents, ImportUnconfiguredComponents method [COM+], ImportUnconfiguredComponents method [COM+], ICOMAdminCatalog2 interface, ImportUnconfiguredComponents,ICOMAdminCatalog2.ImportUnconfiguredComponents, _cos_icomadmincatalog2_ImportUnconfiguredComponents, comadmin/ICOMAdminCatalog2::ImportUnconfiguredComponents, cos.icomadmincatalog2_importunconfiguredcomponents
+ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2 interface [COM+],ImportUnconfiguredComponents method, ICOMAdminCatalog2.ImportUnconfiguredComponents, ICOMAdminCatalog2::ImportUnconfiguredComponents, ImportUnconfiguredComponents, ImportUnconfiguredComponents method [COM+], ImportUnconfiguredComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ImportUnconfiguredComponents, comadmin/ICOMAdminCatalog2::ImportUnconfiguredComponents, cos.icomadmincatalog2_importunconfiguredcomponents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::ImportUnconfiguredComponents method
+# ICOMAdminCatalog2::ImportUnconfiguredComponents
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: mf\imftrustedoutput.htm
 old-project: medfound
 ms.assetid: 14342d8b-3c76-4c13-8cbe-a60bb66084c8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 14342d8b-3c76-4c13-8cbe-a60bb66084c8, IMFTrustedOutput, IMFTrustedOutput interface [Media Foundation], IMFTrustedOutput interface [Media Foundation], described, mf.imftrustedoutput, mfidl/IMFTrustedOutput
+ms.date: 5/3/2018
+ms.keywords: 14342d8b-3c76-4c13-8cbe-a60bb66084c8, IMFTrustedOutput, IMFTrustedOutput interface [Media Foundation], IMFTrustedOutput interface [Media Foundation],described, mf.imftrustedoutput, mfidl/IMFTrustedOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

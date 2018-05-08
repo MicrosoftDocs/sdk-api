@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.Push
-title: ITfDocumentMgr::Push method
+title: ITfDocumentMgr::Push
 author: windows-driver-content
 description: ITfDocumentMgr::Push method
 old-location: tsf\itfdocumentmgr_push.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: afd5452b-4121-428d-801f-1638c2767c67
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfDocumentMgr, ITfDocumentMgr interface [Text Services Framework], Push method, ITfDocumentMgr::Push, Push method [Text Services Framework], Push method [Text Services Framework], ITfDocumentMgr interface, Push,ITfDocumentMgr.Push, _tsf_itfdocumentmgr_push_ref, msctf/ITfDocumentMgr::Push, tsf.itfdocumentmgr_push
+ms.keywords: ITfDocumentMgr interface [Text Services Framework],Push method, ITfDocumentMgr.Push, ITfDocumentMgr::Push, Push, Push method [Text Services Framework], Push method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_push_ref, msctf/ITfDocumentMgr::Push, tsf.itfdocumentmgr_push
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfDocumentMgr::Push method
+# ITfDocumentMgr::Push
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.GetSecurity
-title: ITraceDataProvider::GetSecurity method
+title: ITraceDataProvider::GetSecurity
 author: windows-driver-content
 description: Retrieves the security information for the trace data provider.
 old-location: pla\itracedataprovider_getsecurity.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 2f1618db-aa43-4cac-a652-db172781e988
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSecurity method [PLA], GetSecurity method [PLA], ITraceDataProvider interface, GetSecurity,ITraceDataProvider.GetSecurity, ITraceDataProvider, ITraceDataProvider interface [PLA], GetSecurity method, ITraceDataProvider::GetSecurity, pla.itracedataprovider_getsecurity, pla/ITraceDataProvider::GetSecurity
+ms.keywords: GetSecurity, GetSecurity method [PLA], GetSecurity method [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],GetSecurity method, ITraceDataProvider.GetSecurity, ITraceDataProvider::GetSecurity, pla.itracedataprovider_getsecurity, pla/ITraceDataProvider::GetSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataProvider::GetSecurity method
+# ITraceDataProvider::GetSecurity
 
 
 ## -description

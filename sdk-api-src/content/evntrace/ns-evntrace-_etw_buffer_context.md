@@ -78,6 +78,11 @@ The number of the CPU on which the provider process was running. The number is z
 Alignment between events (always eight).
 
 
+### -field DUMMYUNIONNAME.ProcessorIndex
+
+ 
+
+
 ### -field LoggerId
 
 Identifier of the session that logged the event.

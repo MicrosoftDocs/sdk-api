@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetMessageDrain
-title: IFullScreenVideoEx::SetMessageDrain method
+title: IFullScreenVideoEx::SetMessageDrain
 author: windows-driver-content
 description: The SetMessageDrain method specifies a window to receive mouse and keyboard messages from the video window.
 old-location: dshow\ifullscreenvideoex_setmessagedrain.htm
 old-project: DirectShow
 ms.assetid: d0c24da9-c33f-48a7-b644-a7671acca20f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], SetMessageDrain method, IFullScreenVideoEx::SetMessageDrain, IFullScreenVideoSetMessageDrain, SetMessageDrain method [DirectShow], SetMessageDrain method [DirectShow], IFullScreenVideoEx interface, SetMessageDrain,IFullScreenVideoEx.SetMessageDrain, amvideo/IFullScreenVideoEx::SetMessageDrain, dshow.ifullscreenvideoex_setmessagedrain
+ms.date: 4/30/2018
+ms.keywords: IFullScreenVideoEx interface [DirectShow],SetMessageDrain method, IFullScreenVideoEx.SetMessageDrain, IFullScreenVideoEx::SetMessageDrain, IFullScreenVideoSetMessageDrain, SetMessageDrain, SetMessageDrain method [DirectShow], SetMessageDrain method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetMessageDrain, dshow.ifullscreenvideoex_setmessagedrain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IFullScreenVideoEx::SetMessageDrain method
+# IFullScreenVideoEx::SetMessageDrain
 
 
 ## -description

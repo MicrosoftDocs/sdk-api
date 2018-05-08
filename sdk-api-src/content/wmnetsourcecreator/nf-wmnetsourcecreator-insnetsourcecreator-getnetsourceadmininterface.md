@@ -1,6 +1,6 @@
 ---
 UID: NF:wmnetsourcecreator.INSNetSourceCreator.GetNetSourceAdminInterface
-title: INSNetSourceCreator::GetNetSourceAdminInterface method
+title: INSNetSourceCreator::GetNetSourceAdminInterface
 author: windows-driver-content
 description: The GetNetSourceAdminInterface method retrieves a pointer to the IDispatch interface of the administrative network source object.
 old-location: wmformat\insnetsourcecreator_getnetsourceadmininterface.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 147b431f-84ed-40b9-85a8-3c220b56cd3f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetNetSourceAdminInterface method [windows Media Format], GetNetSourceAdminInterface method [windows Media Format], INSNetSourceCreator interface, GetNetSourceAdminInterface,INSNetSourceCreator.GetNetSourceAdminInterface, INSNetSourceCreator, INSNetSourceCreator interface [windows Media Format], GetNetSourceAdminInterface method, INSNetSourceCreator::GetNetSourceAdminInterface, INSNetSourceCreatorGetNetSourceAdminInterface, wmformat.insnetsourcecreator_getnetsourceadmininterface, wmnetsourcecreator/INSNetSourceCreator::GetNetSourceAdminInterface
+ms.keywords: GetNetSourceAdminInterface, GetNetSourceAdminInterface method [windows Media Format], GetNetSourceAdminInterface method [windows Media Format],INSNetSourceCreator interface, INSNetSourceCreator interface [windows Media Format],GetNetSourceAdminInterface method, INSNetSourceCreator.GetNetSourceAdminInterface, INSNetSourceCreator::GetNetSourceAdminInterface, INSNetSourceCreatorGetNetSourceAdminInterface, wmformat.insnetsourcecreator_getnetsourceadmininterface, wmnetsourcecreator/INSNetSourceCreator::GetNetSourceAdminInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# INSNetSourceCreator::GetNetSourceAdminInterface method
+# INSNetSourceCreator::GetNetSourceAdminInterface
 
 
 ## -description

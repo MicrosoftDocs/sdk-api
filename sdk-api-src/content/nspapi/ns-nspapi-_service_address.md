@@ -7,7 +7,7 @@ old-location: winsock\service_address_2.htm
 old-project: WinSock
 ms.assetid: 5fc99e3a-7316-4950-9249-968bbc4168c2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPSERVICE_ADDRESS, *PSERVICE_ADDRESS, SERVICE_ADDRESS, SERVICE_ADDRESS structure [Winsock], SERVICE_ADDRESS_FLAG_RPC_CN, SERVICE_ADDRESS_FLAG_RPC_DG, SERVICE_ADDRESS_FLAG_RPC_NB, _SERVICE_ADDRESS, _win32_service_address_2, nspapi/SERVICE_ADDRESS, winsock.service_address_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,11 +126,31 @@ Type: <b>DWORD</b>
 Reserved for future use. Must be zero.
 
 
+### -field lpAddress.size_is
+
+ 
+
+
+### -field lpAddress.size_is.dwAddressLength
+
+ 
+
+
 ### -field lpAddress
 
 Type: <b>BYTE*</b>
 
 A pointer to a socket address of the appropriate type.
+
+
+### -field lpPrincipal.size_is
+
+ 
+
+
+### -field lpPrincipal.size_is.dwPrincipalLength
+
+ 
 
 
 ### -field lpPrincipal

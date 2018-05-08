@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPacketSize.SetMaxPacketSize
-title: IWMPacketSize::SetMaxPacketSize method
+title: IWMPacketSize::SetMaxPacketSize
 author: windows-driver-content
 description: The SetMaxPacketSize method specifies the maximum size of a packet in an ASF file.
 old-location: wmformat\iwmpacketsize_setmaxpacketsize.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a8230c08-e60f-454d-93a5-037685d6151c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMPacketSize, IWMPacketSize interface [windows Media Format], SetMaxPacketSize method, IWMPacketSize2 interface [windows Media Format], SetMaxPacketSize method, IWMPacketSize2::SetMaxPacketSize, IWMPacketSize::SetMaxPacketSize, IWMPacketSizeSetMaxPacketSize, SetMaxPacketSize method [windows Media Format], SetMaxPacketSize method [windows Media Format], IWMPacketSize interface, SetMaxPacketSize method [windows Media Format], IWMPacketSize2 interface, SetMaxPacketSize,IWMPacketSize.SetMaxPacketSize, wmformat.iwmpacketsize_setmaxpacketsize, wmsdkidl/IWMPacketSize2::SetMaxPacketSize, wmsdkidl/IWMPacketSize::SetMaxPacketSize
+ms.keywords: IWMPacketSize interface [windows Media Format],SetMaxPacketSize method, IWMPacketSize.SetMaxPacketSize, IWMPacketSize2 interface [windows Media Format],SetMaxPacketSize method, IWMPacketSize2::SetMaxPacketSize, IWMPacketSize::SetMaxPacketSize, IWMPacketSizeSetMaxPacketSize, SetMaxPacketSize, SetMaxPacketSize method [windows Media Format], SetMaxPacketSize method [windows Media Format],IWMPacketSize interface, SetMaxPacketSize method [windows Media Format],IWMPacketSize2 interface, wmformat.iwmpacketsize_setmaxpacketsize, wmsdkidl/IWMPacketSize2::SetMaxPacketSize, wmsdkidl/IWMPacketSize::SetMaxPacketSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPacketSize::SetMaxPacketSize method
+# IWMPacketSize::SetMaxPacketSize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapReader.GetFile
-title: IAppxBlockMapReader::GetFile method
+title: IAppxBlockMapReader::GetFile
 author: windows-driver-content
 description: Retrieves data corresponding to a file in the block map with the specified file name.
 old-location: appxpkg\iappxblockmapreader_getfile.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 3F38BC3A-9CFD-4FB3-A744-612E25DF0F0F
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetFile method [App packaging and management], GetFile method [App packaging and management], IAppxBlockMapReader interface, GetFile,IAppxBlockMapReader.GetFile, IAppxBlockMapReader, IAppxBlockMapReader interface [App packaging and management], GetFile method, IAppxBlockMapReader::GetFile, appxpackaging/IAppxBlockMapReader::GetFile, appxpkg.iappxblockmapreader_getfile
+ms.keywords: GetFile, GetFile method [App packaging and management], GetFile method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetFile method, IAppxBlockMapReader.GetFile, IAppxBlockMapReader::GetFile, appxpackaging/IAppxBlockMapReader::GetFile, appxpkg.iappxblockmapreader_getfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapReader::GetFile method
+# IAppxBlockMapReader::GetFile
 
 
 ## -description

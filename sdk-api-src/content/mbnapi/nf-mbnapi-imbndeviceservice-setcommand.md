@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.SetCommand
-title: IMbnDeviceService::SetCommand method
+title: IMbnDeviceService::SetCommand
 author: windows-driver-content
 description: Sends a SET control command to the device service of a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_setcommand.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: DA45B319-4E6A-4999-85A7-7F5A4F9BED7B
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband Networks], SetCommand method, IMbnDeviceService::SetCommand, SetCommand method [Microsoft Broadband Networks], SetCommand method [Microsoft Broadband Networks], IMbnDeviceService interface, SetCommand,IMbnDeviceService.SetCommand, mbn.imbndeviceservice_setcommand, mbnapi/IMbnDeviceService::SetCommand
+ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],SetCommand method, IMbnDeviceService.SetCommand, IMbnDeviceService::SetCommand, SetCommand, SetCommand method [Microsoft Broadband Networks], SetCommand method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_setcommand, mbnapi/IMbnDeviceService::SetCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceService::SetCommand method
+# IMbnDeviceService::SetCommand
 
 
 ## -description

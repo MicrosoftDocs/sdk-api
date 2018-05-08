@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.ImportTemplates
-title: IFsrmFileScreenTemplateManager::ImportTemplates method
+title: IFsrmFileScreenTemplateManager::ImportTemplates
 author: windows-driver-content
 description: Imports the specified file screen templates from an XML string.
 old-location: fsrm\ifsrmfilescreentemplatemanager_importtemplates.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 0660a1cb-904e-4ed0-bbc8-9903e8848f4e
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmFileScreenTemplateManager class [File Server Resource Manager], ImportTemplates method, IFsrmFileScreenTemplateManager, IFsrmFileScreenTemplateManager interface [File Server Resource Manager], ImportTemplates method, IFsrmFileScreenTemplateManager::ImportTemplates, ImportTemplates method [File Server Resource Manager], ImportTemplates method [File Server Resource Manager], FsrmFileScreenTemplateManager class, ImportTemplates method [File Server Resource Manager], IFsrmFileScreenTemplateManager interface, ImportTemplates,IFsrmFileScreenTemplateManager.ImportTemplates, fs.ifsrmfilescreentemplatemanager_importtemplates, fsrm.ifsrmfilescreentemplatemanager_importtemplates, fsrmscreen/IFsrmFileScreenTemplateManager::ImportTemplates
+ms.keywords: FsrmFileScreenTemplateManager class [File Server Resource Manager],ImportTemplates method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],ImportTemplates method, IFsrmFileScreenTemplateManager.ImportTemplates, IFsrmFileScreenTemplateManager::ImportTemplates, ImportTemplates, ImportTemplates method [File Server Resource Manager], ImportTemplates method [File Server Resource Manager],FsrmFileScreenTemplateManager class, ImportTemplates method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, fs.ifsrmfilescreentemplatemanager_importtemplates, fsrm.ifsrmfilescreentemplatemanager_importtemplates, fsrmscreen/IFsrmFileScreenTemplateManager::ImportTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenTemplateManager::ImportTemplates method
+# IFsrmFileScreenTemplateManager::ImportTemplates
 
 
 ## -description

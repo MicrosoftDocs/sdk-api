@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.get__NewEnum
-title: IGPMSecurityInfo::get__NewEnum method
+title: IGPMSecurityInfo::get__NewEnum
 author: windows-driver-content
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmsecurityinfo_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: f8dc2ee1-d1cb-4e7a-abf4-1a388320b681
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IGPMSecurityInfo, IGPMSecurityInfo interface [GPMC], get__NewEnum method, IGPMSecurityInfo::get__NewEnum, _win32_igpmsecurityinfo_get__newenum, get__NewEnum method [GPMC], get__NewEnum method [GPMC], IGPMSecurityInfo interface, get__NewEnum,IGPMSecurityInfo.get__NewEnum, gpmc.igpmsecurityinfo_get__newenum, gpmgmt/IGPMSecurityInfo::get__NewEnum
+ms.keywords: IGPMSecurityInfo interface [GPMC],get__NewEnum method, IGPMSecurityInfo.get__NewEnum, IGPMSecurityInfo::get__NewEnum, _win32_igpmsecurityinfo_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMSecurityInfo interface, gpmc.igpmsecurityinfo_get__newenum, gpmgmt/IGPMSecurityInfo::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMSecurityInfo::get__NewEnum method
+# IGPMSecurityInfo::get__NewEnum
 
 
 ## -description

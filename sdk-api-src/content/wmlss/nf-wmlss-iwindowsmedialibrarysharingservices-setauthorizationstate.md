@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.setAuthorizationState
-title: IWindowsMediaLibrarySharingServices::setAuthorizationState method
+title: IWindowsMediaLibrarySharingServices::setAuthorizationState
 author: windows-driver-content
 description: The setAuthorizationState method enables or disables access to the current user's media library by a specified device.
 old-location: wmlss\IWMLSSsetAuthorizationState.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: bd67b81c-9810-4f35-b0b2-c471b4747216
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], setAuthorizationState method, IWindowsMediaLibrarySharingServices::setAuthorizationState, setAuthorizationState method [Windows Media Library Sharing Services], setAuthorizationState method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, setAuthorizationState,IWindowsMediaLibrarySharingServices.setAuthorizationState, wmlss.IWMLSSsetAuthorizationState, wmlss/IWindowsMediaLibrarySharingServices::setAuthorizationState
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],setAuthorizationState method, IWindowsMediaLibrarySharingServices.setAuthorizationState, IWindowsMediaLibrarySharingServices::setAuthorizationState, setAuthorizationState, setAuthorizationState method [Windows Media Library Sharing Services], setAuthorizationState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSsetAuthorizationState, wmlss/IWindowsMediaLibrarySharingServices::setAuthorizationState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::setAuthorizationState method
+# IWindowsMediaLibrarySharingServices::setAuthorizationState
 
 
 ## -description

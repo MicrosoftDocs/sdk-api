@@ -7,7 +7,7 @@ old-location: rpc\midl_stub_message.htm
 old-project: Rpc
 ms.assetid: 9bd021f6-10c9-4e77-be75-9a89a3a016e0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: "*PMIDL_STUB_MESSAGE, MIDL_STUB_MESSAGE, MIDL_STUB_MESSAGE structure [RPC], PMIDL_STUB_MESSAGE, PMIDL_STUB_MESSAGE structure pointer [RPC], _MIDL_STUB_MESSAGE, rpc.midl_stub_message, rpcndr/MIDL_STUB_MESSAGE, rpcndr/PMIDL_STUB_MESSAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MIDL_STUB_MESSAGE, *PMIDL_STUB_MESSAGE, MIDL_STUB_MESSAGE, *PMIDL_STUB_MESSAGE
+req.typenames: MIDL_STUB_MESSAGE, *PMIDL_STUB_MESSAGE
 topic_type:
 -	APIRef
 -	kbSyntax

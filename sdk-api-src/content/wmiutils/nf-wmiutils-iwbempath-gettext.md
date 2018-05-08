@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetText
-title: IWbemPath::GetText method
+title: IWbemPath::GetText
 author: windows-driver-content
 description: The IWbemPath::GetText method returns a textual representation of a path that has previously been placed into a parser object.
 old-location: wmi\iwbempath_gettext.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 427ff33a-3b46-481e-bf46-57b13d19332e
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetText method [Windows Management Instrumentation], GetText method [Windows Management Instrumentation], IWbemPath interface, GetText,IWbemPath.GetText, IWbemPath, IWbemPath interface [Windows Management Instrumentation], GetText method, IWbemPath::GetText, WBEMPATH_COMPRESSED, WBEMPATH_GET_NAMESPACE_ONLY, WBEMPATH_GET_ORIGINAL, WBEMPATH_GET_RELATIVE_ONLY, WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY, WBEMPATH_GET_SERVER_TOO, _hmm_iwbempath_gettext, wmi.iwbempath_gettext, wmiutils/IWbemPath::GetText
+ms.keywords: GetText, GetText method [Windows Management Instrumentation], GetText method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetText method, IWbemPath.GetText, IWbemPath::GetText, WBEMPATH_COMPRESSED, WBEMPATH_GET_NAMESPACE_ONLY, WBEMPATH_GET_ORIGINAL, WBEMPATH_GET_RELATIVE_ONLY, WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY, WBEMPATH_GET_SERVER_TOO, _hmm_iwbempath_gettext, wmi.iwbempath_gettext, wmiutils/IWbemPath::GetText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPath::GetText method
+# IWbemPath::GetText
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.get_Version
-title: IWdsTransportSetupManager::get_Version method
+title: IWdsTransportSetupManager::get_Version
 author: windows-driver-content
 description: Receives a value that indicates the operating system version of the WDS server.
 old-location: wds\iwdstransportsetupmanager_version.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 0477a219-0300-41de-bd2a-83052bd7b90f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportSetupManager, IWdsTransportSetupManager interface [Windows Deployment Services], Version property, IWdsTransportSetupManager.Version, IWdsTransportSetupManager::get_Version, Version property [Windows Deployment Services], Version property [Windows Deployment Services], IWdsTransportSetupManager interface, get_Version,IWdsTransportSetupManager.get_Version, wds.iwdstransportsetupmanager_version, wdstptmgmt/IWdsTransportSetupManager::Version, wdstptmgmt/IWdsTransportSetupManager::get_Version
+ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],Version property, IWdsTransportSetupManager.Version, IWdsTransportSetupManager.get_Version, IWdsTransportSetupManager::Version, IWdsTransportSetupManager::get_Version, Version property [Windows Deployment Services], Version property [Windows Deployment Services],IWdsTransportSetupManager interface, get_Version, wds.iwdstransportsetupmanager_version, wdstptmgmt/IWdsTransportSetupManager::Version, wdstptmgmt/IWdsTransportSetupManager::get_Version
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportSetupManager::get_Version method
+# IWdsTransportSetupManager::get_Version
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMObjectInfo.GetLongestPlayPosition
-title: IWMDMObjectInfo::GetLongestPlayPosition method
+title: IWMDMObjectInfo::GetLongestPlayPosition
 author: windows-driver-content
 description: The GetLongestPlayPosition method retrieves the longest play position of the file. The file must be an audio file on the media device.
 old-location: wmdm\iwmdmobjectinfo_getlongestplayposition.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 81c7c30d-f217-4ea6-b785-bcccebd38d16
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetLongestPlayPosition method [windows Media Device Manager], GetLongestPlayPosition method [windows Media Device Manager], IWMDMObjectInfo interface, GetLongestPlayPosition,IWMDMObjectInfo.GetLongestPlayPosition, IWMDMObjectInfo, IWMDMObjectInfo interface [windows Media Device Manager], GetLongestPlayPosition method, IWMDMObjectInfo::GetLongestPlayPosition, IWMDMObjectInfoGetLongestPlayPosition, mswmdm/IWMDMObjectInfo::GetLongestPlayPosition, wmdm.iwmdmobjectinfo_getlongestplayposition
+ms.keywords: GetLongestPlayPosition, GetLongestPlayPosition method [windows Media Device Manager], GetLongestPlayPosition method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetLongestPlayPosition method, IWMDMObjectInfo.GetLongestPlayPosition, IWMDMObjectInfo::GetLongestPlayPosition, IWMDMObjectInfoGetLongestPlayPosition, mswmdm/IWMDMObjectInfo::GetLongestPlayPosition, wmdm.iwmdmobjectinfo_getlongestplayposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMObjectInfo::GetLongestPlayPosition method
+# IWMDMObjectInfo::GetLongestPlayPosition
 
 
 ## -description

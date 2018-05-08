@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetNamespaceConnection
-title: CWbemProviderGlue::GetNamespaceConnection method
+title: CWbemProviderGlue::GetNamespaceConnection
 author: windows-driver-content
 description: The GetNameSpaceConnection method is used to retrieve a namespace connection.
 old-location: wmi\cwbemproviderglue_getnamespaceconnection.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: abbc7099-400d-47a0-9673-3d102effa897
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z, ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z, CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], GetNameSpaceConnection method, CWbemProviderGlue::GetNameSpaceConnection, CWbemProviderGlue::GetNamespaceConnection, GetNameSpaceConnection method [Windows Management Instrumentation], GetNameSpaceConnection method [Windows Management Instrumentation], CWbemProviderGlue interface, GetNamespaceConnection,CWbemProviderGlue.GetNamespaceConnection, _hmm_cwbemproviderglue_getnamespaceconnection, wbemglue/CWbemProviderGlue::GetNameSpaceConnection, wmi.cwbemproviderglue_getnamespaceconnection"
+ms.keywords: "?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z, ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetNameSpaceConnection method, CWbemProviderGlue.GetNamespaceConnection, CWbemProviderGlue::GetNameSpaceConnection, CWbemProviderGlue::GetNamespaceConnection, GetNameSpaceConnection method [Windows Management Instrumentation], GetNameSpaceConnection method [Windows Management Instrumentation],CWbemProviderGlue interface, GetNamespaceConnection, _hmm_cwbemproviderglue_getnamespaceconnection, wbemglue/CWbemProviderGlue::GetNameSpaceConnection, wmi.cwbemproviderglue_getnamespaceconnection"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# CWbemProviderGlue::GetNamespaceConnection method
+# CWbemProviderGlue::GetNamespaceConnection
 
 
 ## -description

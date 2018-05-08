@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent3.LicenseChange
-title: IMSVidStreamBufferSinkEvent3::LicenseChange method
+title: IMSVidStreamBufferSinkEvent3::LicenseChange
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersinkevent3_licensechange.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2477f082-50a6-4b4b-89ba-ccf4c8894a4b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSinkEvent3, IMSVidStreamBufferSinkEvent3 interface [Microsoft TV Technologies], LicenseChange method, IMSVidStreamBufferSinkEvent3::LicenseChange, IMSVidStreamBufferSinkEvent3LicenseChange, LicenseChange method [Microsoft TV Technologies], LicenseChange method [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent3 interface, LicenseChange,IMSVidStreamBufferSinkEvent3.LicenseChange, mstv.imsvidstreambuffersinkevent3_licensechange, segment/IMSVidStreamBufferSinkEvent3::LicenseChange
+ms.keywords: IMSVidStreamBufferSinkEvent3 interface [Microsoft TV Technologies],LicenseChange method, IMSVidStreamBufferSinkEvent3.LicenseChange, IMSVidStreamBufferSinkEvent3::LicenseChange, IMSVidStreamBufferSinkEvent3LicenseChange, LicenseChange, LicenseChange method [Microsoft TV Technologies], LicenseChange method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent3 interface, mstv.imsvidstreambuffersinkevent3_licensechange, segment/IMSVidStreamBufferSinkEvent3::LicenseChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSinkEvent3::LicenseChange method
+# IMSVidStreamBufferSinkEvent3::LicenseChange
 
 
 ## -description

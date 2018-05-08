@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.SetUpperBound
-title: IUIAnimationVariable::SetUpperBound method
+title: IUIAnimationVariable::SetUpperBound
 author: windows-driver-content
 description: Sets an upper bound (ceiling) for the animation variable. The value of the animation variable should not rise above the specified value.
 old-location: uianimation\iuianimationvariable_setupperbound.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: d202f453-2e69-415b-823c-5a3279722274
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], SetUpperBound method, IUIAnimationVariable::SetUpperBound, SetUpperBound method [Windows Animation], SetUpperBound method [Windows Animation], IUIAnimationVariable interface, SetUpperBound,IUIAnimationVariable.SetUpperBound, uianimation.iuianimationvariable_setupperbound, uianimation/IUIAnimationVariable::SetUpperBound
+ms.keywords: IUIAnimationVariable interface [Windows Animation],SetUpperBound method, IUIAnimationVariable.SetUpperBound, IUIAnimationVariable::SetUpperBound, SetUpperBound, SetUpperBound method [Windows Animation], SetUpperBound method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setupperbound, uianimation/IUIAnimationVariable::SetUpperBound
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable::SetUpperBound method
+# IUIAnimationVariable::SetUpperBound
 
 
 ## -description

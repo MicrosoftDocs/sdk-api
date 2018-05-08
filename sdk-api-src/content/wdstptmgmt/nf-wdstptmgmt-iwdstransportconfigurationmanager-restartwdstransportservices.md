@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.RestartWdsTransportServices
-title: IWdsTransportConfigurationManager::RestartWdsTransportServices method
+title: IWdsTransportConfigurationManager::RestartWdsTransportServices
 author: windows-driver-content
 description: Stops and then restarts any WDS transport services that are running. If no services are running, the method returns with S_OK without further action.
 old-location: wds\iwdstransportconfigurationmanager_restartwdstransportservices.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: f0aa84fa-f2a6-4494-8994-89854565fd7b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportConfigurationManager, IWdsTransportConfigurationManager interface [Windows Deployment Services], RestartWdsTransportServices method, IWdsTransportConfigurationManager::RestartWdsTransportServices, RestartWdsTransportServices method [Windows Deployment Services], RestartWdsTransportServices method [Windows Deployment Services], IWdsTransportConfigurationManager interface, RestartWdsTransportServices,IWdsTransportConfigurationManager.RestartWdsTransportServices, wds.iwdstransportconfigurationmanager_restartwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::RestartWdsTransportServices
+ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],RestartWdsTransportServices method, IWdsTransportConfigurationManager.RestartWdsTransportServices, IWdsTransportConfigurationManager::RestartWdsTransportServices, RestartWdsTransportServices, RestartWdsTransportServices method [Windows Deployment Services], RestartWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_restartwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::RestartWdsTransportServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportConfigurationManager::RestartWdsTransportServices method
+# IWdsTransportConfigurationManager::RestartWdsTransportServices
 
 
 ## -description

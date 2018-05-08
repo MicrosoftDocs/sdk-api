@@ -64,26 +64,22 @@ The
 ### -field GroupID
 
 
-
-#### dwGroupID1
+### -field GroupID.dwGroupID1
 
 First part of the universally unique identifier for the group.
 
 
-
-#### dwGroupID2
+### -field GroupID.dwGroupID2
 
 Second part of the universally unique identifier for the group.
 
 
-
-#### dwGroupID3
+### -field GroupID.dwGroupID3
 
 Third part of the universally unique identifier for the group.
 
 
-
-#### dwGroupID4
+### -field GroupID.dwGroupID4
 
 Fourth part of the universally unique identifier for a group. It is the responsibility of the agent handler to generate and maintain uniqueness of this identifier.
 

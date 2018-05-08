@@ -1,14 +1,14 @@
 ---
 UID: NF:wmpservices.IWMPPluginEnable.SetEnable
-title: IWMPPluginEnable::SetEnable method
+title: IWMPPluginEnable::SetEnable
 author: windows-driver-content
 description: The IWMPPluginEnable::SetEnable method retrieves a value indicating whether user has enabled the plug-in.
 old-location: wmp\iwmppluginenable_setenable.htm
 old-project: WMP
 ms.assetid: a0b8e79b-e9bd-40e5-ab58-11469406110a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPluginEnable, IWMPPluginEnable interface [Windows Media Player], SetEnable method, IWMPPluginEnable::SetEnable, IWMPPluginEnableSetEnableDSP, SetEnable method [Windows Media Player], SetEnable method [Windows Media Player], IWMPPluginEnable interface, SetEnable,IWMPPluginEnable.SetEnable, wmp.iwmppluginenable_setenable, wmpservices/IWMPPluginEnable::SetEnable
+ms.date: 5/4/2018
+ms.keywords: IWMPPluginEnable interface [Windows Media Player],SetEnable method, IWMPPluginEnable.SetEnable, IWMPPluginEnable::SetEnable, IWMPPluginEnableSetEnableDSP, SetEnable, SetEnable method [Windows Media Player], SetEnable method [Windows Media Player],IWMPPluginEnable interface, wmp.iwmppluginenable_setenable, wmpservices/IWMPPluginEnable::SetEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPluginEnable::SetEnable method
+# IWMPPluginEnable::SetEnable
 
 
 ## -description

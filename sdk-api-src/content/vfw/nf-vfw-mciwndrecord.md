@@ -7,7 +7,7 @@ old-location: multimedia\mciwndrecord.htm
 old-project: Multimedia
 ms.assetid: 9f68f258-6e7d-45f0-8b42-93a03d559c04
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: MCIWndRecord, MCIWndRecord macro [Windows Multimedia], _win32_MCIWndRecord, multimedia.mciwndrecord, vfw/MCIWndRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

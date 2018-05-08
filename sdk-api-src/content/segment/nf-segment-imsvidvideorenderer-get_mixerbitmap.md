@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_MixerBitmap
-title: IMSVidVideoRenderer::get_MixerBitmap method
+title: IMSVidVideoRenderer::get_MixerBitmap
 author: windows-driver-content
 description: The get_MixerBitmap method retrieves the static bitmap image, as an IPictureDisp type.
 old-location: mstv\imsvidvideorenderer_get_mixerbitmap.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cfcfab14-7084-4716-8955-574168cd3506
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], get_MixerBitmap method, IMSVidVideoRenderer::get_MixerBitmap, IMSVidVideoRendererget_MixerBitmap, get_MixerBitmap method [Microsoft TV Technologies], get_MixerBitmap method [Microsoft TV Technologies], IMSVidVideoRenderer interface, get_MixerBitmap,IMSVidVideoRenderer.get_MixerBitmap, mstv.imsvidvideorenderer_get_mixerbitmap, segment/IMSVidVideoRenderer::get_MixerBitmap
+ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MixerBitmap method, IMSVidVideoRenderer.get_MixerBitmap, IMSVidVideoRenderer::get_MixerBitmap, IMSVidVideoRendererget_MixerBitmap, get_MixerBitmap, get_MixerBitmap method [Microsoft TV Technologies], get_MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_mixerbitmap, segment/IMSVidVideoRenderer::get_MixerBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer::get_MixerBitmap method
+# IMSVidVideoRenderer::get_MixerBitmap
 
 
 ## -description

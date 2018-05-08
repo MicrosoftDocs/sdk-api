@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.GetFaultInfo
-title: IWSDEndpointProxy::GetFaultInfo method
+title: IWSDEndpointProxy::GetFaultInfo
 author: windows-driver-content
 description: Retrieves information on the last received fault.
 old-location: ncd\iwsdendpointproxy_getfaultinfo.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 45ed30fd-7e4f-44f5-bb90-5686746e39be
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetFaultInfo method, GetFaultInfo method, IWSDEndpointProxy interface, GetFaultInfo,IWSDEndpointProxy.GetFaultInfo, IWSDEndpointProxy, IWSDEndpointProxy interface, GetFaultInfo method, IWSDEndpointProxy::GetFaultInfo, ncd.iwsdendpointproxy_getfaultinfo, wsdclient/IWSDEndpointProxy::GetFaultInfo
+ms.keywords: GetFaultInfo, GetFaultInfo method, GetFaultInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetFaultInfo method, IWSDEndpointProxy.GetFaultInfo, IWSDEndpointProxy::GetFaultInfo, ncd.iwsdendpointproxy_getfaultinfo, wsdclient/IWSDEndpointProxy::GetFaultInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDEndpointProxy::GetFaultInfo method
+# IWSDEndpointProxy::GetFaultInfo
 
 
 ## -description

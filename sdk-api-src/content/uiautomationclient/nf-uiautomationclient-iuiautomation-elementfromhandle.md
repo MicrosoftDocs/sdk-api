@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromHandle
-title: IUIAutomation::ElementFromHandle method
+title: IUIAutomation::ElementFromHandle
 author: windows-driver-content
 description: Retrieves a UI Automation element for the specified window.
 old-location: winauto\uiauto_IUIAutomation_ElementFromHandle.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 07c6b7fa-80af-44c2-abcf-a167385892d5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ElementFromHandle method [Windows Accessibility], ElementFromHandle method [Windows Accessibility], IUIAutomation interface, ElementFromHandle,IUIAutomation.ElementFromHandle, IUIAutomation, IUIAutomation interface [Windows Accessibility], ElementFromHandle method, IUIAutomation::ElementFromHandle, uiauto.uiauto_IUIAutomation_ElementFromHandle, uiauto_IUIAutomation_ElementFromHandle, uiautomationclient/IUIAutomation::ElementFromHandle, winauto.uiauto_IUIAutomation_ElementFromHandle
+ms.keywords: ElementFromHandle, ElementFromHandle method [Windows Accessibility], ElementFromHandle method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromHandle method, IUIAutomation.ElementFromHandle, IUIAutomation::ElementFromHandle, uiauto.uiauto_IUIAutomation_ElementFromHandle, uiauto_IUIAutomation_ElementFromHandle, uiautomationclient/IUIAutomation::ElementFromHandle, winauto.uiauto_IUIAutomation_ElementFromHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::ElementFromHandle method
+# IUIAutomation::ElementFromHandle
 
 
 ## -description

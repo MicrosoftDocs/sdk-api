@@ -1,14 +1,14 @@
 ---
 UID: NF:bits5_0.IBackgroundCopyJob5.GetProperty
-title: IBackgroundCopyJob5::GetProperty method
+title: IBackgroundCopyJob5::GetProperty
 author: windows-driver-content
 description: A generic method for getting BITS job properties.
 old-location: bits\ibackgroundcopyjob5_getproperty.htm
 old-project: Bits
 ms.assetid: 567C21C7-C689-4A13-9DCA-D45766CB5150
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetProperty method [BITS], GetProperty method [BITS], IBackgroundCopyJob5 interface, GetProperty,IBackgroundCopyJob5.GetProperty, IBackgroundCopyJob5, IBackgroundCopyJob5 interface [BITS], GetProperty method, IBackgroundCopyJob5::GetProperty, bits.ibackgroundcopyjob5_getproperty, bits5_0/IBackgroundCopyJob5::GetProperty
+ms.date: 4/27/2018
+ms.keywords: GetProperty, GetProperty method [BITS], GetProperty method [BITS],IBackgroundCopyJob5 interface, IBackgroundCopyJob5 interface [BITS],GetProperty method, IBackgroundCopyJob5.GetProperty, IBackgroundCopyJob5::GetProperty, bits.ibackgroundcopyjob5_getproperty, bits5_0/IBackgroundCopyJob5::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBackgroundCopyJob5::GetProperty method
+# IBackgroundCopyJob5::GetProperty
 
 
 ## -description

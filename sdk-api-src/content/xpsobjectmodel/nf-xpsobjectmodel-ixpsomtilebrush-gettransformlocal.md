@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetTransformLocal
-title: IXpsOMTileBrush::GetTransformLocal method
+title: IXpsOMTileBrush::GetTransformLocal
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the local, unshared resolved matrix transform for the brush.
 old-location: xps\ixpsomtilebrush_gettransformlocal.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e06661dd-387c-46c4-8c37-f4e101d3c536
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging], IXpsOMTileBrush interface, GetTransformLocal,IXpsOMTileBrush.GetTransformLocal, IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], GetTransformLocal method, IXpsOMTileBrush::GetTransformLocal, xps.ixpsomtilebrush_gettransformlocal, xpsobjectmodel/IXpsOMTileBrush::GetTransformLocal
+ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMTileBrush.GetTransformLocal, IXpsOMTileBrush::GetTransformLocal, xps.ixpsomtilebrush_gettransformlocal, xpsobjectmodel/IXpsOMTileBrush::GetTransformLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMTileBrush::GetTransformLocal method
+# IXpsOMTileBrush::GetTransformLocal
 
 
 ## -description

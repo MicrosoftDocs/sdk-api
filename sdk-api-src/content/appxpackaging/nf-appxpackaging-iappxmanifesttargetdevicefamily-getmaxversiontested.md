@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestTargetDeviceFamily.GetMaxVersionTested
-title: IAppxManifestTargetDeviceFamily::GetMaxVersionTested method
+title: IAppxManifestTargetDeviceFamily::GetMaxVersionTested
 author: windows-driver-content
 description: Gets the maximum version tested from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifesttargetdevicefamily_getmaxversiontested.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 65391D03-627D-4302-BE1A-6E90E3A04458
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetMaxVersionTested method [App packaging and management], GetMaxVersionTested method [App packaging and management], IAppxManifestTargetDeviceFamily interface, GetMaxVersionTested,IAppxManifestTargetDeviceFamily.GetMaxVersionTested, IAppxManifestTargetDeviceFamily, IAppxManifestTargetDeviceFamily interface [App packaging and management], GetMaxVersionTested method, IAppxManifestTargetDeviceFamily::GetMaxVersionTested, appxpackaging/IAppxManifestTargetDeviceFamily::GetMaxVersionTested, appxpkg.iappxmanifesttargetdevicefamily_getmaxversiontested
+ms.keywords: GetMaxVersionTested, GetMaxVersionTested method [App packaging and management], GetMaxVersionTested method [App packaging and management],IAppxManifestTargetDeviceFamily interface, IAppxManifestTargetDeviceFamily interface [App packaging and management],GetMaxVersionTested method, IAppxManifestTargetDeviceFamily.GetMaxVersionTested, IAppxManifestTargetDeviceFamily::GetMaxVersionTested, appxpackaging/IAppxManifestTargetDeviceFamily::GetMaxVersionTested, appxpkg.iappxmanifesttargetdevicefamily_getmaxversiontested
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestTargetDeviceFamily::GetMaxVersionTested method
+# IAppxManifestTargetDeviceFamily::GetMaxVersionTested
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imessagedispatcher.IMessageDispatcher.PumpMessages
-title: IMessageDispatcher::PumpMessages method
+title: IMessageDispatcher::PumpMessages
 author: windows-driver-content
 description: Performs custom dispatching when window messages are available to be dispatched on an ASTA thread.
 old-location: com\imessagedispatcher_pumpmessages.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: CC34B3B0-C956-4B37-8DF7-CC90A0160835
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], PumpMessages method, IMessageDispatcher::PumpMessages, PumpMessages method [COM], PumpMessages method [COM], IMessageDispatcher interface, PumpMessages,IMessageDispatcher.PumpMessages, com.imessagedispatcher_pumpmessages, imessagedispatcher/IMessageDispatcher::PumpMessages
+ms.keywords: IMessageDispatcher interface [COM],PumpMessages method, IMessageDispatcher.PumpMessages, IMessageDispatcher::PumpMessages, PumpMessages, PumpMessages method [COM], PumpMessages method [COM],IMessageDispatcher interface, com.imessagedispatcher_pumpmessages, imessagedispatcher/IMessageDispatcher::PumpMessages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMessageDispatcher::PumpMessages method
+# IMessageDispatcher::PumpMessages
 
 
 ## -description

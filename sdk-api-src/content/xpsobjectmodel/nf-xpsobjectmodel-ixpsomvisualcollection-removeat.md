@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.RemoveAt
-title: IXpsOMVisualCollection::RemoveAt method
+title: IXpsOMVisualCollection::RemoveAt
 author: windows-driver-content
 description: Removes and releases an IXpsOMVisual interface pointer from a specified location in the collection.
 old-location: xps\ixpsomvisualcollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 476c296e-a4f1-4c87-afff-c8231290c581
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Documents and Packaging], RemoveAt method, IXpsOMVisualCollection::RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging], IXpsOMVisualCollection interface, RemoveAt,IXpsOMVisualCollection.RemoveAt, xps.ixpsomvisualcollection_removeat, xpsobjectmodel/IXpsOMVisualCollection::RemoveAt
+ms.keywords: IXpsOMVisualCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMVisualCollection.RemoveAt, IXpsOMVisualCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, xps.ixpsomvisualcollection_removeat, xpsobjectmodel/IXpsOMVisualCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisualCollection::RemoveAt method
+# IXpsOMVisualCollection::RemoveAt
 
 
 ## -description

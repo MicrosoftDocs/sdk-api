@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetModulation
-title: IDvbSatelliteDeliverySystemDescriptor::GetModulation method
+title: IDvbSatelliteDeliverySystemDescriptor::GetModulation
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getmodulation.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 66578df9-35f7-4a2b-91ce-3f60cab16dd3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetModulation method [Microsoft TV Technologies], GetModulation method [Microsoft TV Technologies], IDvbSatelliteDeliverySystemDescriptor interface, GetModulation,IDvbSatelliteDeliverySystemDescriptor.GetModulation, IDvbSatelliteDeliverySystemDescriptor, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies], GetModulation method, IDvbSatelliteDeliverySystemDescriptor::GetModulation, IDvbSatelliteDeliverySystemDescriptorGetModulation, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetModulation, mstv.idvbsatellitedeliverysystemdescriptor_getmodulation
+ms.keywords: GetModulation, GetModulation method [Microsoft TV Technologies], GetModulation method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetModulation method, IDvbSatelliteDeliverySystemDescriptor.GetModulation, IDvbSatelliteDeliverySystemDescriptor::GetModulation, IDvbSatelliteDeliverySystemDescriptorGetModulation, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetModulation, mstv.idvbsatellitedeliverysystemdescriptor_getmodulation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbSatelliteDeliverySystemDescriptor::GetModulation method
+# IDvbSatelliteDeliverySystemDescriptor::GetModulation
 
 
 ## -description

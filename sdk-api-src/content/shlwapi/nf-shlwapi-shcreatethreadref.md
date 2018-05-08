@@ -7,7 +7,7 @@ old-location: shell\SHCreateThreadRef.htm
 old-project: shell
 ms.assetid: 6abca2df-832c-410b-93c7-5131e481e595
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: SHCreateThreadRef, SHCreateThreadRef function [Windows Shell], _shell_SHCreateThreadRef, shell.SHCreateThreadRef, shlwapi/SHCreateThreadRef
 ms.prod: windows-hardware
 ms.technology: windows-devices

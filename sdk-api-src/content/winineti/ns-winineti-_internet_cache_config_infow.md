@@ -103,6 +103,11 @@ The cache path for the container in <b>dwContainer</b>.
 Reserved.
 
 
+### -field CachePaths
+
+Reserved.
+
+
 ### -field dwNormalUsage
 
 The cache size of the container specified in kilobytes.
@@ -111,11 +116,6 @@ The cache size of the container specified in kilobytes.
 ### -field dwExemptUsage
 
 The number of kilobytes for this container exempt from scavenging.
-
-
-#### - CachePaths
-
-Reserved.
 
 
 ## -remarks

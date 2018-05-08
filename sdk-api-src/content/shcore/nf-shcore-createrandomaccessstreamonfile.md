@@ -7,7 +7,7 @@ old-location: winrt\createrandomaccessstreamonfile.htm
 old-project: WinRT
 ms.assetid: 6D3D2B25-7373-4BA5-BF6B-FB461C2DE982
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: CreateRandomAccessStreamOnFile, CreateRandomAccessStreamOnFile function [Windows Runtime], shcore/CreateRandomAccessStreamOnFile, winrt.createrandomaccessstreamonfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

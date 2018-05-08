@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: e68e347d-5251-4931-bbcc-7a92b46bf4bd
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDDeviceHostNotify, IWSDDeviceHostNotify interface, IWSDDeviceHostNotify interface, described, ncd.iwsddevicehostnotify, wsdhost/IWSDDeviceHostNotify
+ms.keywords: IWSDDeviceHostNotify, IWSDDeviceHostNotify interface, IWSDDeviceHostNotify interface,described, ncd.iwsddevicehostnotify, wsdhost/IWSDDeviceHostNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IUrlAccessor4.ShouldIndexItemContent
-title: IUrlAccessor4::ShouldIndexItemContent method
+title: IUrlAccessor4::ShouldIndexItemContent
 author: windows-driver-content
 description: Identifies whether the item's content should be indexed.
 old-location: search\_search_IUrlAccessor4_ShouldIndexItemContent.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor4\shouldindexitemcontent.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IUrlAccessor4, IUrlAccessor4 interface [search], ShouldIndexItemContent method, IUrlAccessor4::ShouldIndexItemContent, ShouldIndexItemContent method [search], ShouldIndexItemContent method [search], IUrlAccessor4 interface, ShouldIndexItemContent,IUrlAccessor4.ShouldIndexItemContent, _search_IUrlAccessor4_ShouldIndexItemContent, search._search_IUrlAccessor4_ShouldIndexItemContent, searchapi/IUrlAccessor4::ShouldIndexItemContent
+ms.date: 5/4/2018
+ms.keywords: IUrlAccessor4 interface [search],ShouldIndexItemContent method, IUrlAccessor4.ShouldIndexItemContent, IUrlAccessor4::ShouldIndexItemContent, ShouldIndexItemContent, ShouldIndexItemContent method [search], ShouldIndexItemContent method [search],IUrlAccessor4 interface, _search_IUrlAccessor4_ShouldIndexItemContent, search._search_IUrlAccessor4_ShouldIndexItemContent, searchapi/IUrlAccessor4::ShouldIndexItemContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUrlAccessor4::ShouldIndexItemContent method
+# IUrlAccessor4::ShouldIndexItemContent
 
 
 ## -description

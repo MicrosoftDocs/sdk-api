@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure3.SetNamespace
-title: IStreamBufferConfigure3::SetNamespace method
+title: IStreamBufferConfigure3::SetNamespace
 author: windows-driver-content
 description: The SetNamespace method specifies a prefix that is added to the names of the synchronization objects that the Stream Buffer Engine uses to synchronize the reader and writer.
 old-location: mstv\istreambufferconfigure3_setnamespace.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e009e078-99f5-4da1-88ce-c07e9588c5e8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IStreamBufferConfigure3, IStreamBufferConfigure3 interface [Microsoft TV Technologies], SetNamespace method, IStreamBufferConfigure3::SetNamespace, IStreamBufferConfigure3SetNamespace, SetNamespace method [Microsoft TV Technologies], SetNamespace method [Microsoft TV Technologies], IStreamBufferConfigure3 interface, SetNamespace,IStreamBufferConfigure3.SetNamespace, mstv.istreambufferconfigure3_setnamespace, sbe/IStreamBufferConfigure3::SetNamespace
+ms.keywords: IStreamBufferConfigure3 interface [Microsoft TV Technologies],SetNamespace method, IStreamBufferConfigure3.SetNamespace, IStreamBufferConfigure3::SetNamespace, IStreamBufferConfigure3SetNamespace, SetNamespace, SetNamespace method [Microsoft TV Technologies], SetNamespace method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, mstv.istreambufferconfigure3_setnamespace, sbe/IStreamBufferConfigure3::SetNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferConfigure3::SetNamespace method
+# IStreamBufferConfigure3::SetNamespace
 
 
 ## -description

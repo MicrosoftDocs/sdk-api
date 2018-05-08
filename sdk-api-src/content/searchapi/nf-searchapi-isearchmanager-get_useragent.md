@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchManager.get_UserAgent
-title: ISearchManager::get_UserAgent method
+title: ISearchManager::get_UserAgent
 author: windows-driver-content
 description: Retrieves the user agent string.
 old-location: search\_search_ISearchManager_get_UserAgent.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_useragent.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchManager, ISearchManager interface [search], get_UserAgent method, ISearchManager::get_UserAgent, _search_ISearchManager_get_UserAgent, get_UserAgent method [search], get_UserAgent method [search], ISearchManager interface, get_UserAgent,ISearchManager.get_UserAgent, search._search_ISearchManager_get_UserAgent, searchapi/ISearchManager::get_UserAgent
+ms.date: 5/4/2018
+ms.keywords: ISearchManager interface [search],get_UserAgent method, ISearchManager.get_UserAgent, ISearchManager::get_UserAgent, _search_ISearchManager_get_UserAgent, get_UserAgent, get_UserAgent method [search], get_UserAgent method [search],ISearchManager interface, search._search_ISearchManager_get_UserAgent, searchapi/ISearchManager::get_UserAgent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchManager::get_UserAgent method
+# ISearchManager::get_UserAgent
 
 
 ## -description

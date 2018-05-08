@@ -7,7 +7,7 @@ old-location: controls\ListBox_SelectItemData.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_selectitemdata.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: ListBox_SelectItemData, ListBox_SelectItemData macro [Windows Controls], _win32_ListBox_SelectItemData, _win32_ListBox_SelectItemData_cpp, controls.ListBox_SelectItemData, controls._win32_ListBox_SelectItemData, windowsx/ListBox_SelectItemData
 ms.prod: windows-hardware
 ms.technology: windows-devices

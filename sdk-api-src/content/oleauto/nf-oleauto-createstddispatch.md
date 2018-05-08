@@ -7,7 +7,7 @@ old-location: automat\createstddispatch.htm
 old-project: automat
 ms.assetid: 45a59243-df93-41ca-ac60-354cb1165004
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: CreateStdDispatch, CreateStdDispatch function [Automation], _oa96_CreateStdDispatch, automat.createstddispatch, oleauto/CreateStdDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

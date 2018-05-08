@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemButton.GetText
-title: ITfLangBarItemButton::GetText method
+title: ITfLangBarItemButton::GetText
 author: windows-driver-content
 description: ITfLangBarItemButton::GetText method
 old-location: tsf\itflangbaritembutton_gettext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 9c50f934-d968-4a3d-8455-8923d98b926e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetText method [Text Services Framework], GetText method [Text Services Framework], ITfLangBarItemButton interface, GetText,ITfLangBarItemButton.GetText, ITfLangBarItemButton, ITfLangBarItemButton interface [Text Services Framework], GetText method, ITfLangBarItemButton::GetText, _tsf_itflangbaritembutton_gettext_ref, ctfutb/ITfLangBarItemButton::GetText, tsf.itflangbaritembutton_gettext
+ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITfLangBarItemButton interface, ITfLangBarItemButton interface [Text Services Framework],GetText method, ITfLangBarItemButton.GetText, ITfLangBarItemButton::GetText, _tsf_itflangbaritembutton_gettext_ref, ctfutb/ITfLangBarItemButton::GetText, tsf.itflangbaritembutton_gettext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemButton::GetText method
+# ITfLangBarItemButton::GetText
 
 
 ## -description

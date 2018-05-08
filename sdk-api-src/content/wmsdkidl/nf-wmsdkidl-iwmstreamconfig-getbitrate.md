@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetBitrate
-title: IWMStreamConfig::GetBitrate method
+title: IWMStreamConfig::GetBitrate
 author: windows-driver-content
 description: The GetBitrate method retrieves the bit rate for the stream.
 old-location: wmformat\iwmstreamconfig_getbitrate.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: d34bea45-758e-4c4a-928f-229ce6b4241c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetBitrate method [windows Media Format], GetBitrate method [windows Media Format], IWMStreamConfig interface, GetBitrate,IWMStreamConfig.GetBitrate, IWMStreamConfig, IWMStreamConfig interface [windows Media Format], GetBitrate method, IWMStreamConfig::GetBitrate, IWMStreamConfigGetBitrate, wmformat.iwmstreamconfig_getbitrate, wmsdkidl/IWMStreamConfig::GetBitrate
+ms.keywords: GetBitrate, GetBitrate method [windows Media Format], GetBitrate method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetBitrate method, IWMStreamConfig.GetBitrate, IWMStreamConfig::GetBitrate, IWMStreamConfigGetBitrate, wmformat.iwmstreamconfig_getbitrate, wmsdkidl/IWMStreamConfig::GetBitrate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig::GetBitrate method
+# IWMStreamConfig::GetBitrate
 
 
 ## -description

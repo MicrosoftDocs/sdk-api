@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeDashCap
-title: IXpsOMPath::GetStrokeDashCap method
+title: IXpsOMPath::GetStrokeDashCap
 author: windows-driver-content
 description: Gets the style of the end cap to be used on the stroke dash.
 old-location: xps\ixpsompath_getstrokedashcap.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: afd33b39-3aeb-41eb-8747-7d1cff0aaa38
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStrokeDashCap method [XPS Documents and Packaging], GetStrokeDashCap method [XPS Documents and Packaging], IXpsOMPath interface, GetStrokeDashCap,IXpsOMPath.GetStrokeDashCap, IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], GetStrokeDashCap method, IXpsOMPath::GetStrokeDashCap, xps.ixpsompath_getstrokedashcap, xpsobjectmodel/IXpsOMPath::GetStrokeDashCap
+ms.keywords: GetStrokeDashCap, GetStrokeDashCap method [XPS Documents and Packaging], GetStrokeDashCap method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeDashCap method, IXpsOMPath.GetStrokeDashCap, IXpsOMPath::GetStrokeDashCap, xps.ixpsompath_getstrokedashcap, xpsobjectmodel/IXpsOMPath::GetStrokeDashCap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::GetStrokeDashCap method
+# IXpsOMPath::GetStrokeDashCap
 
 
 ## -description

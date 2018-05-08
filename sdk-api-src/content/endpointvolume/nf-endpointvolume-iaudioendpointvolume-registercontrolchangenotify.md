@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.RegisterControlChangeNotify
-title: IAudioEndpointVolume::RegisterControlChangeNotify method
+title: IAudioEndpointVolume::RegisterControlChangeNotify
 author: windows-driver-content
 description: The RegisterControlChangeNotify method registers a client's notification callback interface.
 old-location: coreaudio\iaudioendpointvolume_registercontrolchangenotify.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 0a5711fa-700a-44ae-beed-aec421365b4c
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], RegisterControlChangeNotify method, IAudioEndpointVolume::RegisterControlChangeNotify, IAudioEndpointVolumeRegisterControlChangeNotify, RegisterControlChangeNotify method [Core Audio], RegisterControlChangeNotify method [Core Audio], IAudioEndpointVolume interface, RegisterControlChangeNotify,IAudioEndpointVolume.RegisterControlChangeNotify, coreaudio.iaudioendpointvolume_registercontrolchangenotify, endpointvolume/IAudioEndpointVolume::RegisterControlChangeNotify
+ms.keywords: IAudioEndpointVolume interface [Core Audio],RegisterControlChangeNotify method, IAudioEndpointVolume.RegisterControlChangeNotify, IAudioEndpointVolume::RegisterControlChangeNotify, IAudioEndpointVolumeRegisterControlChangeNotify, RegisterControlChangeNotify, RegisterControlChangeNotify method [Core Audio], RegisterControlChangeNotify method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_registercontrolchangenotify, endpointvolume/IAudioEndpointVolume::RegisterControlChangeNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAudioEndpointVolume::RegisterControlChangeNotify method
+# IAudioEndpointVolume::RegisterControlChangeNotify
 
 
 ## -description

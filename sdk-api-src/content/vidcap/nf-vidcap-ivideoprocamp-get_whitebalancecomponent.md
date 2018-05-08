@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_WhiteBalanceComponent
-title: IVideoProcAmp::get_WhiteBalanceComponent method
+title: IVideoProcAmp::get_WhiteBalanceComponent
 author: windows-driver-content
 description: The get_WhiteBalanceComponent method returns the camera's white balance, specified as red and blue component values.
 old-location: dshow\ivideoprocamp_get_whitebalancecomponent.htm
 old-project: DirectShow
 ms.assetid: b9beb89f-df55-4b76-a679-5e27cb0af9fb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_WhiteBalanceComponent method, IVideoProcAmp::get_WhiteBalanceComponent, IVideoProcAmpget_WhiteBalanceComponent, dshow.ivideoprocamp_get_whitebalancecomponent, get_WhiteBalanceComponent method [DirectShow], get_WhiteBalanceComponent method [DirectShow], IVideoProcAmp interface, get_WhiteBalanceComponent,IVideoProcAmp.get_WhiteBalanceComponent, vidcap/IVideoProcAmp::get_WhiteBalanceComponent
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],get_WhiteBalanceComponent method, IVideoProcAmp.get_WhiteBalanceComponent, IVideoProcAmp::get_WhiteBalanceComponent, IVideoProcAmpget_WhiteBalanceComponent, dshow.ivideoprocamp_get_whitebalancecomponent, get_WhiteBalanceComponent, get_WhiteBalanceComponent method [DirectShow], get_WhiteBalanceComponent method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_WhiteBalanceComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::get_WhiteBalanceComponent method
+# IVideoProcAmp::get_WhiteBalanceComponent
 
 
 ## -description

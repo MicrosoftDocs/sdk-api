@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.Run
-title: IFsrmReportJob::Run method
+title: IFsrmReportJob::Run
 author: windows-driver-content
 description: Runs all the reports in the job.
 old-location: fsrm\ifsrmreportjob_run.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 74f369d1-2e3d-49a5-bf54-c1b7c13efbd7
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], Run method, IFsrmReportJob::Run, Run method [File Server Resource Manager], Run method [File Server Resource Manager], IFsrmReportJob interface, Run,IFsrmReportJob.Run, fs.ifsrmreportjob_run, fsrm.ifsrmreportjob_run, fsrmreports/IFsrmReportJob::Run
+ms.keywords: IFsrmReportJob interface [File Server Resource Manager],Run method, IFsrmReportJob.Run, IFsrmReportJob::Run, Run, Run method [File Server Resource Manager], Run method [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_run, fsrm.ifsrmreportjob_run, fsrmreports/IFsrmReportJob::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReportJob::Run method
+# IFsrmReportJob::Run
 
 
 ## -description

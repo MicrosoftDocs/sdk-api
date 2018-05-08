@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskHandlerStatus.TaskCompleted
-title: ITaskHandlerStatus::TaskCompleted method
+title: ITaskHandlerStatus::TaskCompleted
 author: windows-driver-content
 description: Tells the Task Scheduler that the COM handler is completed.
 old-location: taskschd\itaskhandlerstatus_taskcompleted.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: e6f7adf5-3cdb-4691-bc0a-682df7f019e2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskHandlerStatus, ITaskHandlerStatus interface [Task Scheduler], TaskCompleted method, ITaskHandlerStatus::TaskCompleted, TaskCompleted method [Task Scheduler], TaskCompleted method [Task Scheduler], ITaskHandlerStatus interface, TaskCompleted,ITaskHandlerStatus.TaskCompleted, taskschd.itaskhandlerstatus_taskcompleted, taskschd/ITaskHandlerStatus::TaskCompleted
+ms.keywords: ITaskHandlerStatus interface [Task Scheduler],TaskCompleted method, ITaskHandlerStatus.TaskCompleted, ITaskHandlerStatus::TaskCompleted, TaskCompleted, TaskCompleted method [Task Scheduler], TaskCompleted method [Task Scheduler],ITaskHandlerStatus interface, taskschd.itaskhandlerstatus_taskcompleted, taskschd/ITaskHandlerStatus::TaskCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskHandlerStatus::TaskCompleted method
+# ITaskHandlerStatus::TaskCompleted
 
 
 ## -description

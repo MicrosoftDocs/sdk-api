@@ -1,14 +1,14 @@
 ---
 UID: NF:dmodshow.IDMOWrapperFilter.Init
-title: IDMOWrapperFilter::Init method
+title: IDMOWrapperFilter::Init
 author: windows-driver-content
 description: The Init method initializes the DMO Wrapper filter with the specified DMO.
 old-location: dshow\idmowrapperfilter_init.htm
 old-project: DirectShow
 ms.assetid: 45f305b5-82bc-44c1-9af7-93aab371ed33
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDMOWrapperFilter, IDMOWrapperFilter interface [DirectShow], Init method, IDMOWrapperFilter::Init, IDMOWrapperFilterInit, Init method [DirectShow], Init method [DirectShow], IDMOWrapperFilter interface, Init,IDMOWrapperFilter.Init, dmodshow/IDMOWrapperFilter::Init, dshow.idmowrapperfilter_init
+ms.date: 4/30/2018
+ms.keywords: IDMOWrapperFilter interface [DirectShow],Init method, IDMOWrapperFilter.Init, IDMOWrapperFilter::Init, IDMOWrapperFilterInit, Init, Init method [DirectShow], Init method [DirectShow],IDMOWrapperFilter interface, dmodshow/IDMOWrapperFilter::Init, dshow.idmowrapperfilter_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDMOWrapperFilter::Init method
+# IDMOWrapperFilter::Init
 
 
 ## -description

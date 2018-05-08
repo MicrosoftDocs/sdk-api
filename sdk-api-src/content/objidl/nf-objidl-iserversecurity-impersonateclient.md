@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IServerSecurity.ImpersonateClient
-title: IServerSecurity::ImpersonateClient method
+title: IServerSecurity::ImpersonateClient
 author: windows-driver-content
 description: Enables a server to impersonate a client for the duration of a call.
 old-location: com\iserversecurity_impersonateclient.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 20398b63-0fcb-40ab-93ed-f4c75760eb9e
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IServerSecurity, IServerSecurity interface [COM], ImpersonateClient method, IServerSecurity::ImpersonateClient, ImpersonateClient method [COM], ImpersonateClient method [COM], IServerSecurity interface, ImpersonateClient,IServerSecurity.ImpersonateClient, _com_iserversecurity_impersonateclient, com.iserversecurity_impersonateclient, objidlbase/IServerSecurity::ImpersonateClient
+ms.keywords: IServerSecurity interface [COM],ImpersonateClient method, IServerSecurity.ImpersonateClient, IServerSecurity::ImpersonateClient, ImpersonateClient, ImpersonateClient method [COM], ImpersonateClient method [COM],IServerSecurity interface, _com_iserversecurity_impersonateclient, com.iserversecurity_impersonateclient, objidlbase/IServerSecurity::ImpersonateClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IServerSecurity::ImpersonateClient method
+# IServerSecurity::ImpersonateClient
 
 
 ## -description

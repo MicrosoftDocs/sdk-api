@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetStreamSource
-title: IDirect3DDevice9::SetStreamSource method
+title: IDirect3DDevice9::SetStreamSource
 author: windows-driver-content
 description: Binds a vertex buffer to a device data stream. For more information, see Setting the Stream Source (Direct3D 9).
 old-location: direct3d9\idirect3ddevice9__setstreamsource.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setstreamsource.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 58d641c0-a959-cca3-67e2-7290e9426e8e, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetStreamSource method, IDirect3DDevice9::SetStreamSource, SetStreamSource method [Direct3D 9], SetStreamSource method [Direct3D 9], IDirect3DDevice9 interface, SetStreamSource,IDirect3DDevice9.SetStreamSource, d3d9helper/IDirect3DDevice9::SetStreamSource, direct3d9.idirect3ddevice9__setstreamsource
+ms.keywords: 58d641c0-a959-cca3-67e2-7290e9426e8e, IDirect3DDevice9 interface [Direct3D 9],SetStreamSource method, IDirect3DDevice9.SetStreamSource, IDirect3DDevice9::SetStreamSource, SetStreamSource, SetStreamSource method [Direct3D 9], SetStreamSource method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetStreamSource, direct3d9.idirect3ddevice9__setstreamsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::SetStreamSource method
+# IDirect3DDevice9::SetStreamSource
 
 
 ## -description

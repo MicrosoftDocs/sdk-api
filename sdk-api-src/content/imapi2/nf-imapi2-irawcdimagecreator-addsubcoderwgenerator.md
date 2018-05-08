@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.AddSubcodeRWGenerator
-title: IRawCDImageCreator::AddSubcodeRWGenerator method
+title: IRawCDImageCreator::AddSubcodeRWGenerator
 author: windows-driver-content
 description: Allows the addition of custom R-W subcode, provided by the IStream. The provided object must have a size equal to the number of sectors in the raw disc image * 96 bytes when the final image is created.
 old-location: imapi\irawcdimagecreator_addsubcoderwgenerator.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: b952d31e-812e-41b0-98b0-0f9afbe4b01e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddSubcodeRWGenerator method [IMAPI], AddSubcodeRWGenerator method [IMAPI], IRawCDImageCreator interface, AddSubcodeRWGenerator,IRawCDImageCreator.AddSubcodeRWGenerator, IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], AddSubcodeRWGenerator method, IRawCDImageCreator::AddSubcodeRWGenerator, imapi.irawcdimagecreator_addsubcoderwgenerator, imapi2/IRawCDImageCreator::AddSubcodeRWGenerator
+ms.keywords: AddSubcodeRWGenerator, AddSubcodeRWGenerator method [IMAPI], AddSubcodeRWGenerator method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddSubcodeRWGenerator method, IRawCDImageCreator.AddSubcodeRWGenerator, IRawCDImageCreator::AddSubcodeRWGenerator, imapi.irawcdimagecreator_addsubcoderwgenerator, imapi2/IRawCDImageCreator::AddSubcodeRWGenerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRawCDImageCreator::AddSubcodeRWGenerator method
+# IRawCDImageCreator::AddSubcodeRWGenerator
 
 
 ## -description

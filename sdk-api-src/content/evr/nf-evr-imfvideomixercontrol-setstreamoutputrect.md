@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.SetStreamOutputRect
-title: IMFVideoMixerControl::SetStreamOutputRect method
+title: IMFVideoMixerControl::SetStreamOutputRect
 author: windows-driver-content
 description: Sets the position of a video stream within the composition rectangle.
 old-location: mf\imfvideomixercontrol_setstreamoutputrect.htm
 old-project: medfound
 ms.assetid: 7075b8cf-2106-4b13-abc7-8aedae18bb62
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 7075b8cf-2106-4b13-abc7-8aedae18bb62, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], SetStreamOutputRect method, IMFVideoMixerControl::SetStreamOutputRect, SetStreamOutputRect method [Media Foundation], SetStreamOutputRect method [Media Foundation], IMFVideoMixerControl interface, SetStreamOutputRect,IMFVideoMixerControl.SetStreamOutputRect, evr/IMFVideoMixerControl::SetStreamOutputRect, mf.imfvideomixercontrol_setstreamoutputrect
+ms.date: 5/3/2018
+ms.keywords: 7075b8cf-2106-4b13-abc7-8aedae18bb62, IMFVideoMixerControl interface [Media Foundation],SetStreamOutputRect method, IMFVideoMixerControl.SetStreamOutputRect, IMFVideoMixerControl::SetStreamOutputRect, SetStreamOutputRect, SetStreamOutputRect method [Media Foundation], SetStreamOutputRect method [Media Foundation],IMFVideoMixerControl interface, evr/IMFVideoMixerControl::SetStreamOutputRect, mf.imfvideomixercontrol_setstreamoutputrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoMixerControl::SetStreamOutputRect method
+# IMFVideoMixerControl::SetStreamOutputRect
 
 
 ## -description

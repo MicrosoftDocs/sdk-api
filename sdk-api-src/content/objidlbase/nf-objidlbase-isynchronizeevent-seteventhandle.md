@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.ISynchronizeEvent.SetEventHandle
-title: ISynchronizeEvent::SetEventHandle method
+title: ISynchronizeEvent::SetEventHandle
 author: windows-driver-content
 description: Assigns an event handle to a synchronization object.
 old-location: com\isynchronizeevent_seteventhandle.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: e278930c-4f4d-4ac5-ba1e-a4a84bfcd0ca
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISynchronizeEvent, ISynchronizeEvent interface [COM], SetEventHandle method, ISynchronizeEvent::SetEventHandle, SetEventHandle method [COM], SetEventHandle method [COM], ISynchronizeEvent interface, SetEventHandle,ISynchronizeEvent.SetEventHandle, _com_isynchronizeevent_seteventhandle, com.isynchronizeevent_seteventhandle, objidlbase/ISynchronizeEvent::SetEventHandle
+ms.keywords: ISynchronizeEvent interface [COM],SetEventHandle method, ISynchronizeEvent.SetEventHandle, ISynchronizeEvent::SetEventHandle, SetEventHandle, SetEventHandle method [COM], SetEventHandle method [COM],ISynchronizeEvent interface, _com_isynchronizeevent_seteventhandle, com.isynchronizeevent_seteventhandle, objidlbase/ISynchronizeEvent::SetEventHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISynchronizeEvent::SetEventHandle method
+# ISynchronizeEvent::SetEventHandle
 
 
 ## -description

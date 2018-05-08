@@ -1,14 +1,14 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.Execute
-title: IAMVideoAccelerator::Execute method
+title: IAMVideoAccelerator::Execute
 author: windows-driver-content
 description: The Execute method performs a DirectX Video Acceleration (DXVA) decoding operation.
 old-location: dshow\iamvideoaccelerator_execute.htm
 old-project: DirectShow
 ms.assetid: 12794739-9120-4dc1-b95d-6d390d25726b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Execute method [DirectShow], Execute method [DirectShow], IAMVideoAccelerator interface, Execute,IAMVideoAccelerator.Execute, IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], Execute method, IAMVideoAccelerator::Execute, IAMVideoAcceleratorExecute, dshow.iamvideoaccelerator_execute, videoacc/IAMVideoAccelerator::Execute
+ms.date: 4/30/2018
+ms.keywords: Execute, Execute method [DirectShow], Execute method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],Execute method, IAMVideoAccelerator.Execute, IAMVideoAccelerator::Execute, IAMVideoAcceleratorExecute, dshow.iamvideoaccelerator_execute, videoacc/IAMVideoAccelerator::Execute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAMVideoAccelerator::Execute method
+# IAMVideoAccelerator::Execute
 
 
 ## -description

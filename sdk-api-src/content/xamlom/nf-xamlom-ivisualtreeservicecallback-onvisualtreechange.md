@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeServiceCallback.OnVisualTreeChange
-title: IVisualTreeServiceCallback::OnVisualTreeChange method
+title: IVisualTreeServiceCallback::OnVisualTreeChange
 author: windows-driver-content
 description: Communicates the state of the visual tree when it changes.
 old-location: xaml_diagnostics\ivisualtreeservicecallback_onvisualtreechange.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 91D128E7-ECCA-426D-A6D6-773672302C6C
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: IVisualTreeServiceCallback, IVisualTreeServiceCallback interface, OnVisualTreeChange method, IVisualTreeServiceCallback::OnVisualTreeChange, OnVisualTreeChange method, OnVisualTreeChange method, IVisualTreeServiceCallback interface, OnVisualTreeChange,IVisualTreeServiceCallback.OnVisualTreeChange, xaml_diagnostics.ivisualtreeservicecallback_onvisualtreechange, xamlom/IVisualTreeServiceCallback::OnVisualTreeChange
+ms.keywords: IVisualTreeServiceCallback interface,OnVisualTreeChange method, IVisualTreeServiceCallback.OnVisualTreeChange, IVisualTreeServiceCallback::OnVisualTreeChange, OnVisualTreeChange, OnVisualTreeChange method, OnVisualTreeChange method,IVisualTreeServiceCallback interface, xaml_diagnostics.ivisualtreeservicecallback_onvisualtreechange, xamlom/IVisualTreeServiceCallback::OnVisualTreeChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeServiceCallback::OnVisualTreeChange method
+# IVisualTreeServiceCallback::OnVisualTreeChange
 
 
 ## -description

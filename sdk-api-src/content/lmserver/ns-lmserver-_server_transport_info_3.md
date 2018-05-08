@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3, SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
+req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -85,6 +85,16 @@ Type: <b>LPBYTE</b>
 A pointer to a variable that contains the address the server is using on the transport device specified by the <b>svti3_transportname</b> member.
 
 This member is usually the NetBIOS name that the server is using. In these instances, the name must be 16 characters long, and the last character must be a blank character (0x20).
+
+
+### -field svti3_transportaddress.size_is
+
+ 
+
+
+### -field svti3_transportaddress.size_is.svti3_transportaddresslength
+
+ 
 
 
 ### -field svti3_transportaddresslength

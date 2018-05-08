@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingvectorfree.htm
 old-project: Rpc
 ms.assetid: a8af56ae-bacc-497d-b65e-c0a56f3b09de
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcBindingVectorFree, RpcBindingVectorFree function [RPC], _rpc_rpcbindingvectorfree, rpc.rpcbindingvectorfree, rpcdce/RpcBindingVectorFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

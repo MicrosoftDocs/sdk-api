@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnInterfaceStateChange
-title: IMbnDeviceServicesEvents::OnInterfaceStateChange method
+title: IMbnDeviceServicesEvents::OnInterfaceStateChange
 author: windows-driver-content
 description: Notification method that signals a change in the state of device services on the system.
 old-location: mbn\imbndeviceservicesevents_oninterfacestatechange.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 6677E80E-A9D1-45B5-AE3F-71EE22A7CCB6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceServicesEvents, IMbnDeviceServicesEvents interface [Microsoft Broadband Networks], OnInterfaceStateChange method, IMbnDeviceServicesEvents::OnInterfaceStateChange, OnInterfaceStateChange method [Microsoft Broadband Networks], OnInterfaceStateChange method [Microsoft Broadband Networks], IMbnDeviceServicesEvents interface, OnInterfaceStateChange,IMbnDeviceServicesEvents.OnInterfaceStateChange, mbn.imbndeviceservicesevents_oninterfacestatechange, mbnapi/IMbnDeviceServicesEvents::OnInterfaceStateChange
+ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnInterfaceStateChange method, IMbnDeviceServicesEvents.OnInterfaceStateChange, IMbnDeviceServicesEvents::OnInterfaceStateChange, OnInterfaceStateChange, OnInterfaceStateChange method [Microsoft Broadband Networks], OnInterfaceStateChange method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_oninterfacestatechange, mbnapi/IMbnDeviceServicesEvents::OnInterfaceStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceServicesEvents::OnInterfaceStateChange method
+# IMbnDeviceServicesEvents::OnInterfaceStateChange
 
 
 ## -description

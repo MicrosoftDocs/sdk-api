@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITPropList.Clear
-title: IITPropList::Clear method
+title: IITPropList::Clear
 author: windows-driver-content
 description: Clears memory associated with a property list and reinitializes the list.
 old-location: htmlhelp\iitproplist_clear.htm
@@ -8,7 +8,7 @@ old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistclear.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Clear method [HTML Help Workshop], Clear method [HTML Help Workshop], IITPropList interface, Clear,IITPropList.Clear, IITPropList, IITPropList interface [HTML Help Workshop], Clear method, IITPropList::Clear, htmlhelp.iitproplist_clear, infotech/IITPropList::Clear, refIITPropListClear
+ms.keywords: Clear, Clear method [HTML Help Workshop], Clear method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],Clear method, IITPropList.Clear, IITPropList::Clear, htmlhelp.iitproplist_clear, infotech/IITPropList::Clear, refIITPropListClear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IITPropList::Clear method
+# IITPropList::Clear
 
 
 ## -description

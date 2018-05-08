@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIDebug1.DisableLeakTrackingForThread
-title: IDXGIDebug1::DisableLeakTrackingForThread method
+title: IDXGIDebug1::DisableLeakTrackingForThread
 author: windows-driver-content
 description: Stops tracking leaks for the current thread.
 old-location: direct3ddxgi\idxgidebug1_disableleaktrackingforthread.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 5A96849C-D2DB-49F2-AEE9-CDC63F970077
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DisableLeakTrackingForThread method [DXGI], DisableLeakTrackingForThread method [DXGI], IDXGIDebug1 interface, DisableLeakTrackingForThread,IDXGIDebug1.DisableLeakTrackingForThread, IDXGIDebug1, IDXGIDebug1 interface [DXGI], DisableLeakTrackingForThread method, IDXGIDebug1::DisableLeakTrackingForThread, direct3ddxgi.idxgidebug1_disableleaktrackingforthread, dxgidebug/IDXGIDebug1::DisableLeakTrackingForThread
+ms.keywords: DisableLeakTrackingForThread, DisableLeakTrackingForThread method [DXGI], DisableLeakTrackingForThread method [DXGI],IDXGIDebug1 interface, IDXGIDebug1 interface [DXGI],DisableLeakTrackingForThread method, IDXGIDebug1.DisableLeakTrackingForThread, IDXGIDebug1::DisableLeakTrackingForThread, direct3ddxgi.idxgidebug1_disableleaktrackingforthread, dxgidebug/IDXGIDebug1::DisableLeakTrackingForThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDebug1::DisableLeakTrackingForThread method
+# IDXGIDebug1::DisableLeakTrackingForThread
 
 
 ## -description

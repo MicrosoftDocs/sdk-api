@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.SetSkipDuration
-title: IUIAnimationStoryboard2::SetSkipDuration method
+title: IUIAnimationStoryboard2::SetSkipDuration
 author: windows-driver-content
 description: Specifies an offset from the beginning of a storyboard at which to start animating.
 old-location: uianimation\iuianimationstoryboard2_setskipduration.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 177623D7-5516-41EA-9014-61B150E527D9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationStoryboard2, IUIAnimationStoryboard2 interface [Windows Animation], SetSkipDuration method, IUIAnimationStoryboard2::SetSkipDuration, SetSkipDuration method [Windows Animation], SetSkipDuration method [Windows Animation], IUIAnimationStoryboard2 interface, SetSkipDuration,IUIAnimationStoryboard2.SetSkipDuration, uianimation.iuianimationstoryboard2_setskipduration, uianimation/IUIAnimationStoryboard2::SetSkipDuration
+ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetSkipDuration method, IUIAnimationStoryboard2.SetSkipDuration, IUIAnimationStoryboard2::SetSkipDuration, SetSkipDuration, SetSkipDuration method [Windows Animation], SetSkipDuration method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_setskipduration, uianimation/IUIAnimationStoryboard2::SetSkipDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard2::SetSkipDuration method
+# IUIAnimationStoryboard2::SetSkipDuration
 
 
 ## -description

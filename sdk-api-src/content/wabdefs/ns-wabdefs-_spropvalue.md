@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SPropValue, SPropValue, *LPSPropValue
+req.typenames: SPropValue, *LPSPropValue
 topic_type:
 -	APIRef
 -	kbSyntax

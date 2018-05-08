@@ -1,14 +1,14 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter2.GetParam
-title: IConfigAsfWriter2::GetParam method
+title: IConfigAsfWriter2::GetParam
 author: windows-driver-content
 description: The GetParam method retrieves the current value of the specified filter configuration parameter.
 old-location: dshow\iconfigasfwriter2_getparam.htm
 old-project: DirectShow
 ms.assetid: 2a875d02-3814-46a1-9eee-61bad36475fc
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetParam method [DirectShow], GetParam method [DirectShow], IConfigAsfWriter2 interface, GetParam,IConfigAsfWriter2.GetParam, IConfigAsfWriter2, IConfigAsfWriter2 interface [DirectShow], GetParam method, IConfigAsfWriter2::GetParam, IConfigAsfWriter2GetParam, dshow.iconfigasfwriter2_getparam, dshowasf/IConfigAsfWriter2::GetParam
+ms.date: 4/30/2018
+ms.keywords: GetParam, GetParam method [DirectShow], GetParam method [DirectShow],IConfigAsfWriter2 interface, IConfigAsfWriter2 interface [DirectShow],GetParam method, IConfigAsfWriter2.GetParam, IConfigAsfWriter2::GetParam, IConfigAsfWriter2GetParam, dshow.iconfigasfwriter2_getparam, dshowasf/IConfigAsfWriter2::GetParam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IConfigAsfWriter2::GetParam method
+# IConfigAsfWriter2::GetParam
 
 
 ## -description

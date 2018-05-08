@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT2.GetDeviceName
-title: IEnhancedStorageACT2::GetDeviceName method
+title: IEnhancedStorageACT2::GetDeviceName
 author: windows-driver-content
 description: IEnhancedStorageACT2::GetDeviceName method returns the device name associated with the Addressable Command Target (ACT).
 old-location: enstor\ienhancedstorageact2_getdevicename.htm
@@ -8,7 +8,7 @@ old-project: enstor
 ms.assetid: 8603a7c3-b3b9-4b84-9f74-96b639c6c961
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDeviceName method [Enhanced Storage], GetDeviceName method [Enhanced Storage], IEnhancedStorageACT2 interface, GetDeviceName,IEnhancedStorageACT2.GetDeviceName, IEnhancedStorageACT2, IEnhancedStorageACT2 interface [Enhanced Storage], GetDeviceName method, IEnhancedStorageACT2::GetDeviceName, ehstorapi/IEnhancedStorageACT2::GetDeviceName, enstor.ienhancedstorageact2_getdevicename
+ms.keywords: GetDeviceName, GetDeviceName method [Enhanced Storage], GetDeviceName method [Enhanced Storage],IEnhancedStorageACT2 interface, IEnhancedStorageACT2 interface [Enhanced Storage],GetDeviceName method, IEnhancedStorageACT2.GetDeviceName, IEnhancedStorageACT2::GetDeviceName, ehstorapi/IEnhancedStorageACT2::GetDeviceName, enstor.ienhancedstorageact2_getdevicename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEnhancedStorageACT2::GetDeviceName method
+# IEnhancedStorageACT2::GetDeviceName
 
 
 ## -description

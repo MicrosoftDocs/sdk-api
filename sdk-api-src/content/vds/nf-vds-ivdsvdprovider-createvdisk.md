@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVdProvider.CreateVDisk
-title: IVdsVdProvider::CreateVDisk method
+title: IVdsVdProvider::CreateVDisk
 author: windows-driver-content
 description: Creates a virtual disk.
 old-location: base\ivdsvdprovider_createdisk.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 3655946d-f8b5-46a1-97e3-82b0831124b3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, CREATE_VIRTUAL_DISK_FLAG_NONE, CreateVDisk method, CreateVDisk method, IVdsVdProvider interface, CreateVDisk,IVdsVdProvider.CreateVDisk, IVdsVdProvider, IVdsVdProvider interface, CreateVDisk method, IVdsVdProvider::CreateVDisk, base.ivdsvdprovider_createdisk, vds/IVdsVdProvider::CreateVDisk
+ms.keywords: CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, CREATE_VIRTUAL_DISK_FLAG_NONE, CreateVDisk, CreateVDisk method, CreateVDisk method,IVdsVdProvider interface, IVdsVdProvider interface,CreateVDisk method, IVdsVdProvider.CreateVDisk, IVdsVdProvider::CreateVDisk, base.ivdsvdprovider_createdisk, vds/IVdsVdProvider::CreateVDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVdProvider::CreateVDisk method
+# IVdsVdProvider::CreateVDisk
 
 
 ## -description

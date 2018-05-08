@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: b4bbf854-96b4-412b-a22d-c810423a3752
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcSignaturePartReference, IOpcSignaturePartReference interface [Open Packaging Conventions], IOpcSignaturePartReference interface [Open Packaging Conventions], described, msopc/IOpcSignaturePartReference, opc.iopcsignaturepartreference
+ms.keywords: IOpcSignaturePartReference, IOpcSignaturePartReference interface [Open Packaging Conventions], IOpcSignaturePartReference interface [Open Packaging Conventions],described, msopc/IOpcSignaturePartReference, opc.iopcsignaturepartreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

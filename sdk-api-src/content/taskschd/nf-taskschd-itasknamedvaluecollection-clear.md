@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.Clear
-title: ITaskNamedValueCollection::Clear method
+title: ITaskNamedValueCollection::Clear
 author: windows-driver-content
 description: Clears the entire collection of name-value pairs.
 old-location: taskschd\itasknamedvaluecollection_clear.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: ac6ac365-5315-49d4-b67a-9c840a2caf51
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Clear method [Task Scheduler], Clear method [Task Scheduler], ITaskNamedValueCollection interface, Clear,ITaskNamedValueCollection.Clear, ITaskNamedValueCollection, ITaskNamedValueCollection interface [Task Scheduler], Clear method, ITaskNamedValueCollection::Clear, taskschd.itasknamedvaluecollection_clear, taskschd/ITaskNamedValueCollection::Clear
+ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Clear method, ITaskNamedValueCollection.Clear, ITaskNamedValueCollection::Clear, taskschd.itasknamedvaluecollection_clear, taskschd/ITaskNamedValueCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskNamedValueCollection::Clear method
+# ITaskNamedValueCollection::Clear
 
 
 ## -description

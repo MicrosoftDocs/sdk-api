@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.SetSecurityInfo
-title: IGPMGPO::SetSecurityInfo method
+title: IGPMGPO::SetSecurityInfo
 author: windows-driver-content
 description: Sets the list of permissions for the group policy object (GPO), such as who is granted permission to edit it. The method replaces the existing list of permissions.
 old-location: gpmc\igpmgpo_setsecurityinfo.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 52b55e05-6107-4fa7-9991-55550393fee5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMGPO class [GPMC], SetSecurityInfo method, IGPMGPO, IGPMGPO interface [GPMC], SetSecurityInfo method, IGPMGPO::SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC], GPMGPO class, SetSecurityInfo method [GPMC], IGPMGPO interface, SetSecurityInfo,IGPMGPO.SetSecurityInfo, _win32_igpmgpo_setsecurityinfo, gpmc.igpmgpo_setsecurityinfo, gpmgmt/IGPMGPO::SetSecurityInfo
+ms.keywords: GPMGPO class [GPMC],SetSecurityInfo method, IGPMGPO interface [GPMC],SetSecurityInfo method, IGPMGPO.SetSecurityInfo, IGPMGPO::SetSecurityInfo, SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC],GPMGPO class, SetSecurityInfo method [GPMC],IGPMGPO interface, _win32_igpmgpo_setsecurityinfo, gpmc.igpmgpo_setsecurityinfo, gpmgmt/IGPMGPO::SetSecurityInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMGPO::SetSecurityInfo method
+# IGPMGPO::SetSecurityInfo
 
 
 ## -description

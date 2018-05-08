@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDirectTransfer.TransferToDevice
-title: IMDSPDirectTransfer::TransferToDevice method
+title: IMDSPDirectTransfer::TransferToDevice
 author: windows-driver-content
 description: The TransferToDevice method is called by Windows Media Device Manager to delegate content transfer content to the service provider. The source can be specified either as a file or as an operation interface.
 old-location: wmdm\imdspdirecttransfer_transfertodevice.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 7a95a23d-751e-4101-a150-3a1e47a14a95
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IMDSPDirectTransfer, IMDSPDirectTransfer interface [windows Media Device Manager], TransferToDevice method, IMDSPDirectTransfer::TransferToDevice, IMDSPDirectTransferTransferToDevice, TransferToDevice method [windows Media Device Manager], TransferToDevice method [windows Media Device Manager], IMDSPDirectTransfer interface, TransferToDevice,IMDSPDirectTransfer.TransferToDevice, mswmdm/IMDSPDirectTransfer::TransferToDevice, wmdm.imdspdirecttransfer_transfertodevice
+ms.keywords: IMDSPDirectTransfer interface [windows Media Device Manager],TransferToDevice method, IMDSPDirectTransfer.TransferToDevice, IMDSPDirectTransfer::TransferToDevice, IMDSPDirectTransferTransferToDevice, TransferToDevice, TransferToDevice method [windows Media Device Manager], TransferToDevice method [windows Media Device Manager],IMDSPDirectTransfer interface, mswmdm/IMDSPDirectTransfer::TransferToDevice, wmdm.imdspdirecttransfer_transfertodevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPDirectTransfer::TransferToDevice method
+# IMDSPDirectTransfer::TransferToDevice
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: c699cb00-b999-45b8-b9db-570150e1a65e
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_OPEN_CLUSTER_RESOURCE, PCLUSAPI_OPEN_CLUSTER_RESOURCE callback function [Failover Cluster], _wolf_openclusterresource, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE, mscs.openclusterresource
+ms.keywords: PCLUSAPI_OPEN_CLUSTER_RESOURCE, PCLUSAPI_OPEN_CLUSTER_RESOURCE callback, PCLUSAPI_OPEN_CLUSTER_RESOURCE callback function [Failover Cluster], _wolf_openclusterresource, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE, mscs.openclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_OPEN_CLUSTER_RESOURCE callback
+# PCLUSAPI_OPEN_CLUSTER_RESOURCE callback function
 
 
 ## -description

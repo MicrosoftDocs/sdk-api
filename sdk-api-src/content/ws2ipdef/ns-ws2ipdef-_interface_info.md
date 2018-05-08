@@ -7,8 +7,8 @@ old-location: winsock\interface_info_2.htm
 old-project: WinSock
 ms.assetid: fe1bf38d-70a7-4f0a-b76a-c0c9443d1782
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: "*LPINTERFACE_INFO, IFF_BROADCAST, IFF_LOOPBACK, IFF_MULTICAST, IFF_POINTTOPOINT, IFF_UP, INTERFACE_INFO, INTERFACE_INFO structure [Winsock], INTERFACE_INFO, FAR * LPINTERFACE_INFO, INTERFACE_INFO, FAR * LPINTERFACE_INFO structure [Winsock], _INTERFACE_INFO, _win32_interface_info_2, winsock.interface_info_2, ws2ipdef/INTERFACE_INFO, ws2tcpip/INTERFACE_INFO"
+ms.date: 4/30/2018
+ms.keywords: "*LPINTERFACE_INFO, IFF_BROADCAST, IFF_LOOPBACK, IFF_MULTICAST, IFF_POINTTOPOINT, IFF_UP, INTERFACE_INFO, INTERFACE_INFO structure [Winsock], INTERFACE_INFO,FAR * LPINTERFACE_INFO, INTERFACE_INFO,FAR * LPINTERFACE_INFO structure [Winsock], _INTERFACE_INFO, _win32_interface_info_2, winsock.interface_info_2, ws2ipdef/INTERFACE_INFO, ws2tcpip/INTERFACE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

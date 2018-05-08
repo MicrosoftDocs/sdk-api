@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetStyle
-title: ITextFont::SetStyle method
+title: ITextFont::SetStyle
 author: windows-driver-content
 description: Sets the character style handle of the characters in a range.
 old-location: controls\ITextFont_SetStyle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontsetstyle.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetStyle method, ITextFont::SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls], ITextFont interface, SetStyle,ITextFont.SetStyle, _win32_ITextFont_SetStyle, _win32_ITextFont_SetStyle_cpp, controls.ITextFont_SetStyle, controls._win32_ITextFont_SetStyle, tom/ITextFont::SetStyle
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetStyle method, ITextFont.SetStyle, ITextFont::SetStyle, SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls],ITextFont interface, _win32_ITextFont_SetStyle, _win32_ITextFont_SetStyle_cpp, controls.ITextFont_SetStyle, controls._win32_ITextFont_SetStyle, tom/ITextFont::SetStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetStyle method
+# ITextFont::SetStyle
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetTTL
-title: IWSDUdpAddress::GetTTL method
+title: IWSDUdpAddress::GetTTL
 author: windows-driver-content
 description: Gets the time-to-live (TTL) for all outbound packets using this address.
 old-location: ncd\iwsdudpaddress_getttl.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 8bc2a973-a776-45c6-b6bf-cf268badab30
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetTTL method, GetTTL method, IWSDUdpAddress interface, GetTTL,IWSDUdpAddress.GetTTL, IWSDUdpAddress, IWSDUdpAddress interface, GetTTL method, IWSDUdpAddress::GetTTL, ncd.iwsdudpaddress_getttl, wsdbase/IWSDUdpAddress::GetTTL
+ms.keywords: GetTTL, GetTTL method, GetTTL method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetTTL method, IWSDUdpAddress.GetTTL, IWSDUdpAddress::GetTTL, ncd.iwsdudpaddress_getttl, wsdbase/IWSDUdpAddress::GetTTL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDUdpAddress::GetTTL method
+# IWSDUdpAddress::GetTTL
 
 
 ## -description

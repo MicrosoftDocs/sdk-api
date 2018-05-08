@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_GetRowCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getrowcount.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: TabCtrl_GetRowCount, TabCtrl_GetRowCount macro [Windows Controls], _win32_TabCtrl_GetRowCount, _win32_TabCtrl_GetRowCount_cpp, commctrl/TabCtrl_GetRowCount, controls.TabCtrl_GetRowCount, controls._win32_TabCtrl_GetRowCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

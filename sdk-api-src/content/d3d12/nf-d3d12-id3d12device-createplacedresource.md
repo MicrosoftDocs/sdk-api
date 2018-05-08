@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreatePlacedResource
-title: ID3D12Device::CreatePlacedResource method
+title: ID3D12Device::CreatePlacedResource
 author: windows-driver-content
 description: Creates a resource that is placed in a specific heap. Placed resources are the lightest weight resource objects available, and are the fastest to create and destroy.
 old-location: direct3d12\id3d12device_createplacedresource.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 4581A82D-D2B6-4CAE-A336-07B8CF90A0BA
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreatePlacedResource method, CreatePlacedResource method, ID3D12Device interface, CreatePlacedResource,ID3D12Device.CreatePlacedResource, ID3D12Device, ID3D12Device interface, CreatePlacedResource method, ID3D12Device::CreatePlacedResource, d3d12/ID3D12Device::CreatePlacedResource, direct3d12.id3d12device_createplacedresource
+ms.keywords: CreatePlacedResource, CreatePlacedResource method, CreatePlacedResource method,ID3D12Device interface, ID3D12Device interface,CreatePlacedResource method, ID3D12Device.CreatePlacedResource, ID3D12Device::CreatePlacedResource, d3d12/ID3D12Device::CreatePlacedResource, direct3d12.id3d12device_createplacedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CreatePlacedResource method
+# ID3D12Device::CreatePlacedResource
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem
-title: ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem method
+title: ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem
 author: windows-driver-content
 description: Communicates to the Logon UI or Credential UI that the selected item in a combo box has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem.htm
 old-project: shell
 ms.assetid: 79d66546-8553-4b70-9fe6-aa1b95c1cf25
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], SetFieldComboBoxSelectedItem method, ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem, SetFieldComboBoxSelectedItem method [Windows Shell], SetFieldComboBoxSelectedItem method [Windows Shell], ICredentialProviderCredentialEvents interface, SetFieldComboBoxSelectedItem,ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem, _shell_ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem, credentialprovider/ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem, shell.ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem
+ms.date: 5/3/2018
+ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldComboBoxSelectedItem method, ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem, ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem, SetFieldComboBoxSelectedItem, SetFieldComboBoxSelectedItem method [Windows Shell], SetFieldComboBoxSelectedItem method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem, credentialprovider/ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem, shell.ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem method
+# ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem
 
 
 ## -description

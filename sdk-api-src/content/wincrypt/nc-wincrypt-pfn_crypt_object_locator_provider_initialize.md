@@ -7,8 +7,8 @@ old-location: security\pfn_crypt_object_locator_provider_initialize.htm
 old-project: SecCrypto
 ms.assetid: DBDE5B98-AC31-4CA0-A7C6-1FCD8FAC51FC
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE function pointer [Security], security.pfn_crypt_object_locator_provider_initialize, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
+ms.date: 4/30/2018
+ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE function, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE function pointer [Security], security.pfn_crypt_object_locator_provider_initialize, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback
+# PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback function
 
 
 ## -description

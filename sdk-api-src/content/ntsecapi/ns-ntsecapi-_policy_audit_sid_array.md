@@ -63,6 +63,16 @@ The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="https
 The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structures in the <b>UserSidArray</b> array.
 
 
+### -field UserSidArray.size_is
+
+ 
+
+
+### -field UserSidArray.size_is.UsersCount
+
+ 
+
+
 ### -field UserSidArray
 
 A pointer to an array of pointers to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structures that specify Windows users or groups.

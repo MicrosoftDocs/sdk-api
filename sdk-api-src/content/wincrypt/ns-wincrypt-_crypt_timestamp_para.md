@@ -7,7 +7,7 @@ old-location: security\crypt_timestamp_para.htm
 old-project: SecCrypto
 ms.assetid: 26a6e9d3-b35e-47ae-9cea-a37ca6297c28
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPT_TIMESTAMP_PARA, CRYPT_TIMESTAMP_PARA, CRYPT_TIMESTAMP_PARA structure [Security], PCRYPT_TIMESTAMP_PARA, PCRYPT_TIMESTAMP_PARA structure pointer [Security], _CRYPT_TIMESTAMP_PARA, security.crypt_timestamp_para, wincrypt/CRYPT_TIMESTAMP_PARA, wincrypt/PCRYPT_TIMESTAMP_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

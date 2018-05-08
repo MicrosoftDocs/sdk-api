@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_PopUpCorrectionHeight
-title: ITextInputPanel::get_PopUpCorrectionHeight method
+title: ITextInputPanel::get_PopUpCorrectionHeight
 author: windows-driver-content
 description: Gets the height of the Post-Insertion correction comb when it is positioned above Input Panel.
 old-location: tablet\itextinputpanel_popupcorrectionheight.htm
 old-project: tablet
 ms.assetid: 986b7527-c634-45d9-a2eb-86fa999e57ba
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 986b7527-c634-45d9-a2eb-86fa999e57ba, ITextInputPanel, ITextInputPanel interface [Tablet PC], PopUpCorrectionHeight property, ITextInputPanel.PopUpCorrectionHeight, ITextInputPanel.get_PopUpCorrectionHeight, ITextInputPanel::get_PopUpCorrectionHeight, PopUpCorrectionHeight property [Tablet PC], PopUpCorrectionHeight property [Tablet PC], ITextInputPanel interface, get_PopUpCorrectionHeight,ITextInputPanel.get_PopUpCorrectionHeight, peninputpanel/ITextInputPanel::PopUpCorrectionHeight, peninputpanel/ITextInputPanel::get_PopUpCorrectionHeight, tablet.itextinputpanel_popupcorrectionheight
+ms.date: 5/2/2018
+ms.keywords: 986b7527-c634-45d9-a2eb-86fa999e57ba, ITextInputPanel interface [Tablet PC],PopUpCorrectionHeight property, ITextInputPanel.PopUpCorrectionHeight, ITextInputPanel.get_PopUpCorrectionHeight, ITextInputPanel::PopUpCorrectionHeight, ITextInputPanel::get_PopUpCorrectionHeight, PopUpCorrectionHeight property [Tablet PC], PopUpCorrectionHeight property [Tablet PC],ITextInputPanel interface, get_PopUpCorrectionHeight, peninputpanel/ITextInputPanel::PopUpCorrectionHeight, peninputpanel/ITextInputPanel::get_PopUpCorrectionHeight, tablet.itextinputpanel_popupcorrectionheight
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanel::get_PopUpCorrectionHeight method
+# ITextInputPanel::get_PopUpCorrectionHeight
 
 
 ## -description

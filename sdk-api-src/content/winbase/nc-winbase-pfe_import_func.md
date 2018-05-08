@@ -8,7 +8,7 @@ old-project: FileIO
 ms.assetid: 4c951e44-15d8-43c8-bd3d-293a1ec9d444
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: ImportCallback, ImportCallback callback function [Files], PFE_IMPORT_FUNC, PFE_IMPORT_FUNC callback function [Files], base.importcallback, fs.importcallback, winbase/ImportCallback, winbase/PFE_IMPORT_FUNC
+ms.keywords: ImportCallback, ImportCallback callback, ImportCallback callback function [Files], PFE_IMPORT_FUNC, PFE_IMPORT_FUNC callback function [Files], base.importcallback, fs.importcallback, winbase/ImportCallback, winbase/PFE_IMPORT_FUNC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFE_IMPORT_FUNC callback
+# PFE_IMPORT_FUNC callback function
 
 
 ## -description

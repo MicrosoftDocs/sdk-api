@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IChannelTuneRequest.get_Channel
-title: IChannelTuneRequest::get_Channel method
+title: IChannelTuneRequest::get_Channel
 author: windows-driver-content
 description: The get_Channel method gets the channel to be tuned.
 old-location: mstv\ichanneltunerequest_get_channel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1a529416-9b7a-41f4-961a-741b1a581d5f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IChannelTuneRequest, IChannelTuneRequest interface [Microsoft TV Technologies], get_Channel method, IChannelTuneRequest::get_Channel, IChannelTuneRequestget_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies], IChannelTuneRequest interface, get_Channel,IChannelTuneRequest.get_Channel, mstv.ichanneltunerequest_get_channel, tuner/IChannelTuneRequest::get_Channel
+ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],get_Channel method, IChannelTuneRequest.get_Channel, IChannelTuneRequest::get_Channel, IChannelTuneRequestget_Channel, get_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies],IChannelTuneRequest interface, mstv.ichanneltunerequest_get_channel, tuner/IChannelTuneRequest::get_Channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IChannelTuneRequest::get_Channel method
+# IChannelTuneRequest::get_Channel
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.Copy
-title: ITextRange::Copy method
+title: ITextRange::Copy
 author: windows-driver-content
 description: Copies the text to a data object.
 old-location: controls\ITextRange_Copy.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\copy.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: Copy method [Windows Controls], Copy method [Windows Controls], ITextRange interface, Copy,ITextRange.Copy, ITextRange, ITextRange interface [Windows Controls], Copy method, ITextRange::Copy, _win32_ITextRange_Copy, _win32_ITextRange_Copy_cpp, controls.ITextRange_Copy, controls._win32_ITextRange_Copy, tom/ITextRange::Copy
+ms.date: 4/27/2018
+ms.keywords: Copy, Copy method [Windows Controls], Copy method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Copy method, ITextRange.Copy, ITextRange::Copy, _win32_ITextRange_Copy, _win32_ITextRange_Copy_cpp, controls.ITextRange_Copy, controls._win32_ITextRange_Copy, tom/ITextRange::Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::Copy method
+# ITextRange::Copy
 
 
 ## -description

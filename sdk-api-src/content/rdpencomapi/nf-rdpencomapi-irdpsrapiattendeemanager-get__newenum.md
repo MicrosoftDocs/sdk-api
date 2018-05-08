@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeManager.get__NewEnum
-title: IRDPSRAPIAttendeeManager::get__NewEnum method
+title: IRDPSRAPIAttendeeManager::get__NewEnum
 author: windows-driver-content
 description: An enumerator interface for the attendee collection.
 old-location: rdp\irdpsrapiattendeemanager__newenum.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: f79bfd9c-b9f9-4da4-977c-cae8f11ba239
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIAttendeeManager, IRDPSRAPIAttendeeManager interface [RDP], _NewEnum property, IRDPSRAPIAttendeeManager._NewEnum, IRDPSRAPIAttendeeManager::get__NewEnum, RDPSRAPIAttendeeManager object [RDP], _NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP], IRDPSRAPIAttendeeManager interface, _NewEnum property [RDP], RDPSRAPIAttendeeManager object, get__NewEnum,IRDPSRAPIAttendeeManager.get__NewEnum, rdp.irdpsrapiattendeemanager__newenum, rdpencomapi/IRDPSRAPIAttendeeManager::_NewEnum, rdpencomapi/IRDPSRAPIAttendeeManager::get__NewEnum
+ms.keywords: IRDPSRAPIAttendeeManager interface [RDP],_NewEnum property, IRDPSRAPIAttendeeManager._NewEnum, IRDPSRAPIAttendeeManager.get__NewEnum, IRDPSRAPIAttendeeManager::_NewEnum, IRDPSRAPIAttendeeManager::get__NewEnum, RDPSRAPIAttendeeManager object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIAttendeeManager interface, _NewEnum property [RDP],RDPSRAPIAttendeeManager object, get__NewEnum, rdp.irdpsrapiattendeemanager__newenum, rdpencomapi/IRDPSRAPIAttendeeManager::_NewEnum, rdpencomapi/IRDPSRAPIAttendeeManager::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIAttendeeManager::get__NewEnum method
+# IRDPSRAPIAttendeeManager::get__NewEnum
 
 
 ## -description

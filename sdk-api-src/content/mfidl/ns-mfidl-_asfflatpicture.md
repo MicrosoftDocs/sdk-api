@@ -7,7 +7,7 @@ old-location: mf\asf_flat_picture.htm
 old-project: medfound
 ms.assetid: 2aa190bd-3431-4f37-bf2b-0801047793b3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 2aa190bd-3431-4f37-bf2b-0801047793b3, ASF_FLAT_PICTURE, ASF_FLAT_PICTURE structure [Media Foundation], _ASFFlatPicture, mf.asf_flat_picture, mfidl/ASF_FLAT_PICTURE
 ms.prod: windows-hardware
 ms.technology: windows-devices

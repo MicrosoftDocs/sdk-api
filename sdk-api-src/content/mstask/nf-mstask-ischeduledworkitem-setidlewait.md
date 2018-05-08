@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetIdleWait
-title: IScheduledWorkItem::SetIdleWait method
+title: IScheduledWorkItem::SetIdleWait
 author: windows-driver-content
 description: Sets the minutes that the system must be idle before the work item can run.
 old-location: taskschd\ischeduledworkitem_setidlewait.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: f7ad639a-4094-4621-9add-b89958c0bda4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], SetIdleWait method, IScheduledWorkItem::SetIdleWait, SetIdleWait method [Task Scheduler], SetIdleWait method [Task Scheduler], IScheduledWorkItem interface, SetIdleWait,IScheduledWorkItem.SetIdleWait, _msb_ischeduledworkitem_setidlewait, mstask/IScheduledWorkItem::SetIdleWait, taskschd.ischeduledworkitem_setidlewait
+ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetIdleWait method, IScheduledWorkItem.SetIdleWait, IScheduledWorkItem::SetIdleWait, SetIdleWait, SetIdleWait method [Task Scheduler], SetIdleWait method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setidlewait, mstask/IScheduledWorkItem::SetIdleWait, taskschd.ischeduledworkitem_setidlewait
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::SetIdleWait method
+# IScheduledWorkItem::SetIdleWait
 
 
 ## -description

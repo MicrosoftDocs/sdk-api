@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource2.GetCredentialsEx
-title: IWMSInternalAdminNetSource2::GetCredentialsEx method
+title: IWMSInternalAdminNetSource2::GetCredentialsEx
 author: windows-driver-content
 description: The GetCredentialsEx method retrieves a cached password.
 old-location: wmformat\iwmsinternaladminnetsource2_getcredentialsex.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 5840fe0b-34f6-4e39-b55f-7e07b7795e52
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetCredentialsEx method [windows Media Format], GetCredentialsEx method [windows Media Format], IWMSInternalAdminNetSource2 interface, GetCredentialsEx,IWMSInternalAdminNetSource2.GetCredentialsEx, IWMSInternalAdminNetSource2, IWMSInternalAdminNetSource2 interface [windows Media Format], GetCredentialsEx method, IWMSInternalAdminNetSource2::GetCredentialsEx, IWMSInternalAdminNetSource2GetCredentialsEx, wmformat.iwmsinternaladminnetsource2_getcredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::GetCredentialsEx
+ms.keywords: GetCredentialsEx, GetCredentialsEx method [windows Media Format], GetCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, IWMSInternalAdminNetSource2 interface [windows Media Format],GetCredentialsEx method, IWMSInternalAdminNetSource2.GetCredentialsEx, IWMSInternalAdminNetSource2::GetCredentialsEx, IWMSInternalAdminNetSource2GetCredentialsEx, wmformat.iwmsinternaladminnetsource2_getcredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::GetCredentialsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSInternalAdminNetSource2::GetCredentialsEx method
+# IWMSInternalAdminNetSource2::GetCredentialsEx
 
 
 ## -description

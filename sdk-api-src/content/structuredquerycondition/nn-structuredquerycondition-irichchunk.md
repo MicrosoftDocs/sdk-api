@@ -7,8 +7,8 @@ old-location: search\_search_IRichChunk.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\irichchunk.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IRichChunk, IRichChunk interface [search], IRichChunk interface [search], described, _search_IRichChunk, search._search_IRichChunk, structuredquerycondition/IRichChunk
+ms.date: 5/4/2018
+ms.keywords: IRichChunk, IRichChunk interface [search], IRichChunk interface [search],described, _search_IRichChunk, search._search_IRichChunk, structuredquerycondition/IRichChunk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

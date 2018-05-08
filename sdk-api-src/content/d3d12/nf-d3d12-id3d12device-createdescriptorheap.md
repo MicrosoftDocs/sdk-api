@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateDescriptorHeap
-title: ID3D12Device::CreateDescriptorHeap method
+title: ID3D12Device::CreateDescriptorHeap
 author: windows-driver-content
 description: Creates a descriptor heap object.
 old-location: direct3d12\id3d12device_createdescriptorheap.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 69EE75CB-7B3D-403D-9798-279A47754ADC
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateDescriptorHeap method, CreateDescriptorHeap method, ID3D12Device interface, CreateDescriptorHeap,ID3D12Device.CreateDescriptorHeap, ID3D12Device, ID3D12Device interface, CreateDescriptorHeap method, ID3D12Device::CreateDescriptorHeap, d3d12/ID3D12Device::CreateDescriptorHeap, direct3d12.id3d12device_createdescriptorheap
+ms.keywords: CreateDescriptorHeap, CreateDescriptorHeap method, CreateDescriptorHeap method,ID3D12Device interface, ID3D12Device interface,CreateDescriptorHeap method, ID3D12Device.CreateDescriptorHeap, ID3D12Device::CreateDescriptorHeap, d3d12/ID3D12Device::CreateDescriptorHeap, direct3d12.id3d12device_createdescriptorheap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CreateDescriptorHeap method
+# ID3D12Device::CreateDescriptorHeap
 
 
 ## -description

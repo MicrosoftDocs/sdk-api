@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromStringAsVector.htm
 old-project: properties
 ms.assetid: fc48f2e0-ce4a-4f48-a624-202def4bcff0
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: InitPropVariantFromStringAsVector, InitPropVariantFromStringAsVector function [Windows Properties], properties.InitPropVariantFromStringAsVector, propvarutil/InitPropVariantFromStringAsVector, shell.InitPropVariantFromStringAsVector, shell_InitPropVariantFromStringAsVector
 ms.prod: windows-hardware
 ms.technology: windows-devices

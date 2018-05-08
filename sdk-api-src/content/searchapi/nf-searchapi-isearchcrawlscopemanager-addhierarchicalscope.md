@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.AddHierarchicalScope
-title: ISearchCrawlScopeManager::AddHierarchicalScope method
+title: ISearchCrawlScopeManager::AddHierarchicalScope
 author: windows-driver-content
 description: Adds a hierarchical scope to the search engine.
 old-location: search\_search_ISearchCrawlScopeManager_AddHierachicalScope.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\addhierarchicalscope.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: AddHierarchicalScope method [search], AddHierarchicalScope method [search], ISearchCrawlScopeManager interface, AddHierarchicalScope,ISearchCrawlScopeManager.AddHierarchicalScope, ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], AddHierarchicalScope method, ISearchCrawlScopeManager::AddHierarchicalScope, _search_ISearchCrawlScopeManager_AddHierachicalScope, search._search_ISearchCrawlScopeManager_AddHierachicalScope, searchapi/ISearchCrawlScopeManager::AddHierarchicalScope
+ms.date: 5/4/2018
+ms.keywords: AddHierarchicalScope, AddHierarchicalScope method [search], AddHierarchicalScope method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddHierarchicalScope method, ISearchCrawlScopeManager.AddHierarchicalScope, ISearchCrawlScopeManager::AddHierarchicalScope, _search_ISearchCrawlScopeManager_AddHierachicalScope, search._search_ISearchCrawlScopeManager_AddHierachicalScope, searchapi/ISearchCrawlScopeManager::AddHierarchicalScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCrawlScopeManager::AddHierarchicalScope method
+# ISearchCrawlScopeManager::AddHierarchicalScope
 
 
 ## -description

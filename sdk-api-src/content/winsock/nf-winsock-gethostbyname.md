@@ -7,7 +7,7 @@ old-location: winsock\gethostbyname_2.htm
 old-project: WinSock
 ms.assetid: 2526ecb5-927b-40c8-8d8f-919e7986ff05
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "_win32_gethostbyname_2, gethostbyname, gethostbyname function [Winsock], winsock.gethostbyname_2, wsipv6ok/gethostbyname"
 ms.prod: windows-hardware
 ms.technology: windows-devices

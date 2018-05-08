@@ -7,7 +7,7 @@ old-location: automat\vardecfromdisp.htm
 old-project: automat
 ms.assetid: 514637e1-ae11-4fa5-9947-ca697953b344
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarDecFromDisp, VarDecFromDisp function [Automation], _oa96_VarDecFromDisp, automat.vardecfromdisp, oleauto/VarDecFromDisp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.RemoveAllStylusAsyncPlugins
-title: IRealTimeStylus::RemoveAllStylusAsyncPlugins method
+title: IRealTimeStylus::RemoveAllStylusAsyncPlugins
 author: windows-driver-content
 description: Removes all the plug-ins from the asynchronous plug-in collection.
 old-location: tablet\irealtimestylus_removeallstylusasyncplugins.htm
 old-project: tablet
 ms.assetid: 98b97156-f181-45f4-9cfb-13816f8042e6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 98b97156-f181-45f4-9cfb-13816f8042e6, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], RemoveAllStylusAsyncPlugins method, IRealTimeStylus::RemoveAllStylusAsyncPlugins, RemoveAllStylusAsyncPlugins method [Tablet PC], RemoveAllStylusAsyncPlugins method [Tablet PC], IRealTimeStylus interface, RemoveAllStylusAsyncPlugins,IRealTimeStylus.RemoveAllStylusAsyncPlugins, rtscom/IRealTimeStylus::RemoveAllStylusAsyncPlugins, tablet.irealtimestylus_removeallstylusasyncplugins
+ms.date: 5/2/2018
+ms.keywords: 98b97156-f181-45f4-9cfb-13816f8042e6, IRealTimeStylus interface [Tablet PC],RemoveAllStylusAsyncPlugins method, IRealTimeStylus.RemoveAllStylusAsyncPlugins, IRealTimeStylus::RemoveAllStylusAsyncPlugins, RemoveAllStylusAsyncPlugins, RemoveAllStylusAsyncPlugins method [Tablet PC], RemoveAllStylusAsyncPlugins method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::RemoveAllStylusAsyncPlugins, tablet.irealtimestylus_removeallstylusasyncplugins
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylus::RemoveAllStylusAsyncPlugins method
+# IRealTimeStylus::RemoveAllStylusAsyncPlugins
 
 
 ## -description

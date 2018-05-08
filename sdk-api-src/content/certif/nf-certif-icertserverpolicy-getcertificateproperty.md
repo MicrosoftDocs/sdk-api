@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerPolicy.GetCertificateProperty
-title: ICertServerPolicy::GetCertificateProperty method
+title: ICertServerPolicy::GetCertificateProperty
 author: windows-driver-content
 description: Returns a named property from a certificate.
 old-location: security\icertserverpolicy_getcertificateproperty.htm
 old-project: SecCrypto
 ms.assetid: e7ece535-31c7-4468-a9ef-84f4dbf16d76
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CAType, CCertServerPolicy object [Security], GetCertificateProperty method, CRLIndex, CRLState, CRLSuffix, CertCount, CertState, CertSuffix, GeneralFlags, GetCertificateProperty method [Security], GetCertificateProperty method [Security], CCertServerPolicy object, GetCertificateProperty method [Security], ICertServerPolicy interface, GetCertificateProperty,ICertServerPolicy.GetCertificateProperty, ICertServerPolicy, ICertServerPolicy interface [Security], GetCertificateProperty method, ICertServerPolicy::GetCertificateProperty, MachineDNSName, ModuleRegistryLocation, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, PublicKeyAlgorithm, RawCACertificate, RawCRL, RawPublicKey, RawPublicKeyAlgorithmParameters, RequestID, RequesterCAAccess, RequesterNameFromOldCertificate, SanitizedCAName, SanitizedShortName, _certsrv_icertserverpolicy_getcertificateproperty, certif/ICertServerPolicy::GetCertificateProperty, fUseDS, security.icertserverpolicy_getcertificateproperty
+ms.date: 4/30/2018
+ms.keywords: CAType, CCertServerPolicy object [Security],GetCertificateProperty method, CRLIndex, CRLState, CRLSuffix, CertCount, CertState, CertSuffix, GeneralFlags, GetCertificateProperty, GetCertificateProperty method [Security], GetCertificateProperty method [Security],CCertServerPolicy object, GetCertificateProperty method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetCertificateProperty method, ICertServerPolicy.GetCertificateProperty, ICertServerPolicy::GetCertificateProperty, MachineDNSName, ModuleRegistryLocation, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, PublicKeyAlgorithm, RawCACertificate, RawCRL, RawPublicKey, RawPublicKeyAlgorithmParameters, RequestID, RequesterCAAccess, RequesterNameFromOldCertificate, SanitizedCAName, SanitizedShortName, _certsrv_icertserverpolicy_getcertificateproperty, certif/ICertServerPolicy::GetCertificateProperty, fUseDS, security.icertserverpolicy_getcertificateproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerPolicy::GetCertificateProperty method
+# ICertServerPolicy::GetCertificateProperty
 
 
 ## -description

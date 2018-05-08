@@ -7,8 +7,8 @@ old-location: security\certchainfindbyissuercallback.htm
 old-project: SecCrypto
 ms.assetid: 004c4caa-0063-41a3-8d6d-8b3a769b4112
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CertChainFindByIssuerCallback, CertChainFindByIssuerCallback callback function [Security], PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback function [Security], security.certchainfindbyissuercallback, wincrypt/CertChainFindByIssuerCallback, wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
+ms.date: 4/30/2018
+ms.keywords: CertChainFindByIssuerCallback, CertChainFindByIssuerCallback callback, CertChainFindByIssuerCallback callback function [Security], PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback function [Security], security.certchainfindbyissuercallback, wincrypt/CertChainFindByIssuerCallback, wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback
+# PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback function
 
 
 ## -description

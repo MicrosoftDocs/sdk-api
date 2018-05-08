@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_State
-title: ITAgent::get_State method
+title: ITAgent::get_State
 author: windows-driver-content
 description: The get_State method gets the state of an agent session.
 old-location: tapi3\itagent_get_state.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 6690a62b-65a1-4892-aeee-4a6652939d5f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], get_State method, ITAgent::get_State, _tapi3_itagent_get_state, get_State method [TAPI 2.2], get_State method [TAPI 2.2], ITAgent interface, get_State,ITAgent.get_State, tapi3.itagent_get_state, tapi3cc/ITAgent::get_State
+ms.keywords: ITAgent interface [TAPI 2.2],get_State method, ITAgent.get_State, ITAgent::get_State, _tapi3_itagent_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_state, tapi3cc/ITAgent::get_State
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgent::get_State method
+# ITAgent::get_State
 
 
 ## -description

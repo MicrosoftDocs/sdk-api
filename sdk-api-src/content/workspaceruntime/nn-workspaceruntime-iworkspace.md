@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 7a94ef42-8a63-4709-816d-1f51a948d486
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWorkspace, IWorkspace interface [Remote Desktop Services], IWorkspace interface [Remote Desktop Services], described, termserv.iworkspace, workspaceruntime/IWorkspace
+ms.keywords: IWorkspace, IWorkspace interface [Remote Desktop Services], IWorkspace interface [Remote Desktop Services],described, termserv.iworkspace, workspaceruntime/IWorkspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

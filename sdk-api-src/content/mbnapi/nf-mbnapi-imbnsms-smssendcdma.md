@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsSendCdma
-title: IMbnSms::SmsSendCdma method
+title: IMbnSms::SmsSendCdma
 author: windows-driver-content
 description: Sends a message in CDMA format.
 old-location: mbn\imbnsms_smssendcdma.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 5a370e00-929f-4ff9-861f-d0edc880f51d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], SmsSendCdma method, IMbnSms::SmsSendCdma, SmsSendCdma method [Microsoft Broadband Networks], SmsSendCdma method [Microsoft Broadband Networks], IMbnSms interface, SmsSendCdma,IMbnSms.SmsSendCdma, mbn.imbnsms_smssendcdma, mbnapi/IMbnSms::SmsSendCdma
+ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsSendCdma method, IMbnSms.SmsSendCdma, IMbnSms::SmsSendCdma, SmsSendCdma, SmsSendCdma method [Microsoft Broadband Networks], SmsSendCdma method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smssendcdma, mbnapi/IMbnSms::SmsSendCdma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSms::SmsSendCdma method
+# IMbnSms::SmsSendCdma
 
 
 ## -description

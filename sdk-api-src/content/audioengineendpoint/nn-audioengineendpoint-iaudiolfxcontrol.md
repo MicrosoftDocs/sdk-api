@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: E4290AE9-7F2E-4D0B-BEAF-F01D95B3E03D
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioLfxControl, IAudioLfxControl interface [Core Audio], IAudioLfxControl interface [Core Audio], described, audioengineendpoint/IAudioLfxControl, coreaudio.iaudiolfxcontrol
+ms.keywords: IAudioLfxControl, IAudioLfxControl interface [Core Audio], IAudioLfxControl interface [Core Audio],described, audioengineendpoint/IAudioLfxControl, coreaudio.iaudiolfxcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

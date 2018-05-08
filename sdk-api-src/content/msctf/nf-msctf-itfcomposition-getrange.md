@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfComposition.GetRange
-title: ITfComposition::GetRange method
+title: ITfComposition::GetRange
 author: windows-driver-content
 description: ITfComposition::GetRange method
 old-location: tsf\itfcomposition_getrange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 14a726c3-6531-4d49-9f22-20460be02b81
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetRange method [Text Services Framework], GetRange method [Text Services Framework], ITfComposition interface, GetRange,ITfComposition.GetRange, ITfComposition, ITfComposition interface [Text Services Framework], GetRange method, ITfComposition::GetRange, _tsf_itfcomposition_getrange_ref, msctf/ITfComposition::GetRange, tsf.itfcomposition_getrange
+ms.keywords: GetRange, GetRange method [Text Services Framework], GetRange method [Text Services Framework],ITfComposition interface, ITfComposition interface [Text Services Framework],GetRange method, ITfComposition.GetRange, ITfComposition::GetRange, _tsf_itfcomposition_getrange_ref, msctf/ITfComposition::GetRange, tsf.itfcomposition_getrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfComposition::GetRange method
+# ITfComposition::GetRange
 
 
 ## -description

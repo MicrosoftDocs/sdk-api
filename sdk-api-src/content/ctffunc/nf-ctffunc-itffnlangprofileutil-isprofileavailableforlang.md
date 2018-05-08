@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnLangProfileUtil.IsProfileAvailableForLang
-title: ITfFnLangProfileUtil::IsProfileAvailableForLang method
+title: ITfFnLangProfileUtil::IsProfileAvailableForLang
 author: windows-driver-content
 description: ITfFnLangProfileUtil::IsProfileAvailableForLang method
 old-location: tsf\itffnlangprofileutil_isprofileavailableforlang.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a0525a1b-e23c-49af-954d-e2d190c2f520
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnLangProfileUtil, ITfFnLangProfileUtil interface [Text Services Framework], IsProfileAvailableForLang method, ITfFnLangProfileUtil::IsProfileAvailableForLang, IsProfileAvailableForLang method [Text Services Framework], IsProfileAvailableForLang method [Text Services Framework], ITfFnLangProfileUtil interface, IsProfileAvailableForLang,ITfFnLangProfileUtil.IsProfileAvailableForLang, _tsf_itffnlangprofileutil_isprofileavailableforlang_ref, ctffunc/ITfFnLangProfileUtil::IsProfileAvailableForLang, tsf.itffnlangprofileutil_isprofileavailableforlang
+ms.keywords: ITfFnLangProfileUtil interface [Text Services Framework],IsProfileAvailableForLang method, ITfFnLangProfileUtil.IsProfileAvailableForLang, ITfFnLangProfileUtil::IsProfileAvailableForLang, IsProfileAvailableForLang, IsProfileAvailableForLang method [Text Services Framework], IsProfileAvailableForLang method [Text Services Framework],ITfFnLangProfileUtil interface, _tsf_itffnlangprofileutil_isprofileavailableforlang_ref, ctffunc/ITfFnLangProfileUtil::IsProfileAvailableForLang, tsf.itffnlangprofileutil_isprofileavailableforlang
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfFnLangProfileUtil::IsProfileAvailableForLang method
+# ITfFnLangProfileUtil::IsProfileAvailableForLang
 
 
 ## -description

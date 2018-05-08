@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.CreateTableIndirect
-title: ISimilarityFileIdTable::CreateTableIndirect method
+title: ISimilarityFileIdTable::CreateTableIndirect
 author: windows-driver-content
 description: Creates or opens a similarity file ID table using the RDC application's implementation of the IRdcFileWriter interface.
 old-location: rdc\isimilarityfileidtable_createtableindirect.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 6e472ab0-efa4-4edd-8d78-68d5a66cf41c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateTableIndirect method [Remote Differential Compression], CreateTableIndirect method [Remote Differential Compression], ISimilarityFileIdTable interface, CreateTableIndirect,ISimilarityFileIdTable.CreateTableIndirect, ISimilarityFileIdTable, ISimilarityFileIdTable interface [Remote Differential Compression], CreateTableIndirect method, ISimilarityFileIdTable::CreateTableIndirect, fs.isimilarityfileidtable_createtableindirect, msrdc/ISimilarityFileIdTable::CreateTableIndirect, rdc.isimilarityfileidtable_createtableindirect
+ms.keywords: CreateTableIndirect, CreateTableIndirect method [Remote Differential Compression], CreateTableIndirect method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],CreateTableIndirect method, ISimilarityFileIdTable.CreateTableIndirect, ISimilarityFileIdTable::CreateTableIndirect, fs.isimilarityfileidtable_createtableindirect, msrdc/ISimilarityFileIdTable::CreateTableIndirect, rdc.isimilarityfileidtable_createtableindirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityFileIdTable::CreateTableIndirect method
+# ISimilarityFileIdTable::CreateTableIndirect
 
 
 ## -description

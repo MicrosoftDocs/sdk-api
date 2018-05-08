@@ -8,7 +8,7 @@ old-project: Debug
 ms.assetid: c7ccc66a-7897-4430-8874-a4ba66a5cce7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FindDebugInfoFileProc, FindDebugInfoFileProc callback function, PFIND_DEBUG_FILE_CALLBACK, PFIND_DEBUG_FILE_CALLBACKW, _win32_finddebuginfofileproc, base.finddebuginfofileproc, dbghelp/FindDebugInfoFileProc
+ms.keywords: FindDebugInfoFileProc, FindDebugInfoFileProc callback, FindDebugInfoFileProc callback function, PFIND_DEBUG_FILE_CALLBACK, PFIND_DEBUG_FILE_CALLBACKW, _win32_finddebuginfofileproc, base.finddebuginfofileproc, dbghelp/FindDebugInfoFileProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PFIND_DEBUG_FILE_CALLBACK callback
+# PFIND_DEBUG_FILE_CALLBACK callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputMutexCount
-title: IMFASFStreamSelector::GetOutputMutexCount method
+title: IMFASFStreamSelector::GetOutputMutexCount
 author: windows-driver-content
 description: Retrieves the number of mutual exclusion objects associated with an output.
 old-location: mf\imfasfstreamselector_getoutputmutexcount.htm
 old-project: medfound
 ms.assetid: d6e98595-3307-47f5-806d-796350c78cec
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetOutputMutexCount method [Media Foundation], GetOutputMutexCount method [Media Foundation], IMFASFStreamSelector interface, GetOutputMutexCount,IMFASFStreamSelector.GetOutputMutexCount, IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], GetOutputMutexCount method, IMFASFStreamSelector::GetOutputMutexCount, d6e98595-3307-47f5-806d-796350c78cec, mf.imfasfstreamselector_getoutputmutexcount, wmcontainer/IMFASFStreamSelector::GetOutputMutexCount
+ms.date: 5/3/2018
+ms.keywords: GetOutputMutexCount, GetOutputMutexCount method [Media Foundation], GetOutputMutexCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputMutexCount method, IMFASFStreamSelector.GetOutputMutexCount, IMFASFStreamSelector::GetOutputMutexCount, d6e98595-3307-47f5-806d-796350c78cec, mf.imfasfstreamselector_getoutputmutexcount, wmcontainer/IMFASFStreamSelector::GetOutputMutexCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFStreamSelector::GetOutputMutexCount method
+# IMFASFStreamSelector::GetOutputMutexCount
 
 
 ## -description

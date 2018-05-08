@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.IsRelative
-title: IWbemPath::IsRelative method
+title: IWbemPath::IsRelative
 author: windows-driver-content
 description: The IWbemPath::IsRelative method tests if the path, as already set in the parser, is relative to a particular computer and namespace.
 old-location: wmi\iwbempath_isrelative.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: e7a2d585-98da-4f8f-b1df-bb961a1286f1
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], IsRelative method, IWbemPath::IsRelative, IsRelative method [Windows Management Instrumentation], IsRelative method [Windows Management Instrumentation], IWbemPath interface, IsRelative,IWbemPath.IsRelative, _hmm_iwbempath_isrelative, wmi.iwbempath_isrelative, wmiutils/IWbemPath::IsRelative
+ms.keywords: IWbemPath interface [Windows Management Instrumentation],IsRelative method, IWbemPath.IsRelative, IWbemPath::IsRelative, IsRelative, IsRelative method [Windows Management Instrumentation], IsRelative method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_isrelative, wmi.iwbempath_isrelative, wmiutils/IWbemPath::IsRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPath::IsRelative method
+# IWbemPath::IsRelative
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IContextState.SetMyTransactionVote
-title: IContextState::SetMyTransactionVote method
+title: IContextState::SetMyTransactionVote
 author: windows-driver-content
 description: Sets the consistent flag.
 old-location: cos\icontextstate_setmytransactionvote.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: ec88f99a-cb24-42a9-8f2a-add7ddbec719
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IContextState, IContextState interface [COM+], SetMyTransactionVote method, IContextState::SetMyTransactionVote, SetMyTransactionVote method [COM+], SetMyTransactionVote method [COM+], IContextState interface, SetMyTransactionVote,IContextState.SetMyTransactionVote, _cos_IContextState_SetMyTransactionVote, comsvcs/IContextState::SetMyTransactionVote, cos.icontextstate_setmytransactionvote
+ms.keywords: IContextState interface [COM+],SetMyTransactionVote method, IContextState.SetMyTransactionVote, IContextState::SetMyTransactionVote, SetMyTransactionVote, SetMyTransactionVote method [COM+], SetMyTransactionVote method [COM+],IContextState interface, _cos_IContextState_SetMyTransactionVote, comsvcs/IContextState::SetMyTransactionVote, cos.icontextstate_setmytransactionvote
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IContextState::SetMyTransactionVote method
+# IContextState::SetMyTransactionVote
 
 
 ## -description

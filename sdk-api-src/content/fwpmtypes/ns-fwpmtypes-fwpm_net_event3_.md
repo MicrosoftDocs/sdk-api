@@ -68,66 +68,66 @@ Information common to all events.
 The type of event.
 
 
-#### - capabilityAllow
-
-Information about a capability-related allow event.
-
-
-#### - capabilityDrop
-
-Information about a capability-related drop event.
-
-
-#### - classifyAllow
-
-Information about an allow event.
-
-
-#### - classifyDrop
-
-Information about  a drop event.
-
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_CLASSIFY_DROP</b>.
-
-
-#### - classifyDropMac
-
-Information about a MAC layer drop event.
-
-
-#### - idpDrop
-
-Information about an IPsec DoS Protection event.
-
-Available when <b>type</b> is <b>FWPM_NET_EVENT_IPSEC_DOSP_DROP</b>.
-
-
-#### - ikeEmFailure
-
-Information about  an IKE user mode failure.
-
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE</b>.
-
-
-#### - ikeMmFailure
+### -field ikeMmFailure
 
 Information about  an IKE main mode failure.
 
 Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE</b>.
 
 
-#### - ikeQmFailure
+### -field ikeQmFailure
 
 Information about  an IKE quick mode failure.
 
 Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_QM_FAILURE</b>.
 
 
-#### - ipsecDrop
+### -field ikeEmFailure
+
+Information about  an IKE user mode failure.
+
+Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE</b>.
+
+
+### -field classifyDrop
+
+Information about  a drop event.
+
+Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_CLASSIFY_DROP</b>.
+
+
+### -field ipsecDrop
 
 Information about an IPsec kernel drop event.
 
 Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IPSEC_KERNEL_DROP</b>.
+
+
+### -field idpDrop
+
+Information about an IPsec DoS Protection event.
+
+Available when <b>type</b> is <b>FWPM_NET_EVENT_IPSEC_DOSP_DROP</b>.
+
+
+### -field classifyAllow
+
+Information about an allow event.
+
+
+### -field capabilityDrop
+
+Information about a capability-related drop event.
+
+
+### -field capabilityAllow
+
+Information about a capability-related allow event.
+
+
+### -field classifyDropMac
+
+Information about a MAC layer drop event.
 
 
 ## -see-also

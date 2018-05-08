@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.GetCspStatusesFromOperations
-title: ICspInformations::GetCspStatusesFromOperations method
+title: ICspInformations::GetCspStatusesFromOperations
 author: windows-driver-content
 description: Retrieves an ICspStatuses collection by supported key operations and optional provider information.
 old-location: security\icspinformations_getcspstatusesfromoperations_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 7c099357-8299-4664-ba16-7f8936e16054
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetCspStatusesFromOperations method [Security], GetCspStatusesFromOperations method [Security], ICspInformations interface, GetCspStatusesFromOperations,ICspInformations.GetCspStatusesFromOperations, ICspInformations, ICspInformations interface [Security], GetCspStatusesFromOperations method, ICspInformations::GetCspStatusesFromOperations, certenroll/ICspInformations::GetCspStatusesFromOperations, security.icspinformations_getcspstatusesfromoperations_method
+ms.keywords: GetCspStatusesFromOperations, GetCspStatusesFromOperations method [Security], GetCspStatusesFromOperations method [Security],ICspInformations interface, ICspInformations interface [Security],GetCspStatusesFromOperations method, ICspInformations.GetCspStatusesFromOperations, ICspInformations::GetCspStatusesFromOperations, certenroll/ICspInformations::GetCspStatusesFromOperations, security.icspinformations_getcspstatusesfromoperations_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformations::GetCspStatusesFromOperations method
+# ICspInformations::GetCspStatusesFromOperations
 
 
 ## -description

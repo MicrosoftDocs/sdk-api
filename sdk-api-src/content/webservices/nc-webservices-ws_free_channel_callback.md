@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: f1781c50-824e-4b79-91b6-97e31581617a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_FREE_CHANNEL_CALLBACK, WS_FREE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_CHANNEL_CALLBACK, wsw.ws_free_channel_callback
+ms.keywords: WS_FREE_CHANNEL_CALLBACK, WS_FREE_CHANNEL_CALLBACK callback, WS_FREE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_CHANNEL_CALLBACK, wsw.ws_free_channel_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_FREE_CHANNEL_CALLBACK callback
+# WS_FREE_CHANNEL_CALLBACK callback function
 
 
 ## -description

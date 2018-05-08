@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.put_ValueMapType
-title: IValueMap::put_ValueMapType method
+title: IValueMap::put_ValueMapType
 author: windows-driver-content
 description: Retrieves or sets the type of items in the collection.
 old-location: pla\ivaluemap_valuemaptype.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 42cea1e6-c945-4bae-ac65-a052b4069e5f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IValueMap, IValueMap interface [PLA], ValueMapType property, IValueMap.ValueMapType, IValueMap::get_ValueMapType, IValueMap::put_ValueMapType, ValueMapType property [PLA], ValueMapType property [PLA], IValueMap interface, base.ivaluemap_valuemaptype, pla.ivaluemap_valuemaptype, pla/IValueMap::ValueMapType, pla/IValueMap::get_ValueMapType, pla/IValueMap::put_ValueMapType, put_ValueMapType,IValueMap.put_ValueMapType
+ms.keywords: IValueMap interface [PLA],ValueMapType property, IValueMap.ValueMapType, IValueMap.put_ValueMapType, IValueMap::ValueMapType, IValueMap::get_ValueMapType, IValueMap::put_ValueMapType, ValueMapType property [PLA], ValueMapType property [PLA],IValueMap interface, base.ivaluemap_valuemaptype, pla.ivaluemap_valuemaptype, pla/IValueMap::ValueMapType, pla/IValueMap::get_ValueMapType, pla/IValueMap::put_ValueMapType, put_ValueMapType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IValueMap::put_ValueMapType method
+# IValueMap::put_ValueMapType
 
 
 ## -description

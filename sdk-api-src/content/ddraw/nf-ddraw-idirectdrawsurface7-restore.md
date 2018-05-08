@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Restore
-title: IDirectDrawSurface7::Restore method
+title: IDirectDrawSurface7::Restore
 author: windows-driver-content
 description: Restores a surface that has been lost. This occurs when the surface memory that is associated with the DirectDrawSurface object has been freed.
 old-location: directdraw\idirectdrawsurface7_restore.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 9ca7abb2-5b9a-4323-9f0b-952e183e794b
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], Restore method, IDirectDrawSurface7::Restore, Restore method [DirectDraw], Restore method [DirectDraw], IDirectDrawSurface7 interface, Restore,IDirectDrawSurface7.Restore, ddraw/IDirectDrawSurface7::Restore, directdraw.idirectdrawsurface7_restore
+ms.keywords: IDirectDrawSurface7 interface [DirectDraw],Restore method, IDirectDrawSurface7.Restore, IDirectDrawSurface7::Restore, Restore, Restore method [DirectDraw], Restore method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::Restore, directdraw.idirectdrawsurface7_restore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::Restore method
+# IDirectDrawSurface7::Restore
 
 
 ## -description

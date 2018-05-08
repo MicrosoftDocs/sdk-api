@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBindCtx.RevokeObjectParam
-title: IBindCtx::RevokeObjectParam method
+title: IBindCtx::RevokeObjectParam
 author: windows-driver-content
 description: Removes the specified key and its associated pointer from the bind context's string-keyed table of objects. The key must have previously been inserted into the table with a call to RegisterObjectParam.
 old-location: com\ibindctx_revokeobjectparam.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: e7dbf9c8-0ecf-4076-8bec-4da457c60cee
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IBindCtx, IBindCtx interface [COM], RevokeObjectParam method, IBindCtx::RevokeObjectParam, RevokeObjectParam method [COM], RevokeObjectParam method [COM], IBindCtx interface, RevokeObjectParam,IBindCtx.RevokeObjectParam, _com_ibindctx_revokeobjectparam, com.ibindctx_revokeobjectparam, objidl/IBindCtx::RevokeObjectParam
+ms.keywords: IBindCtx interface [COM],RevokeObjectParam method, IBindCtx.RevokeObjectParam, IBindCtx::RevokeObjectParam, RevokeObjectParam, RevokeObjectParam method [COM], RevokeObjectParam method [COM],IBindCtx interface, _com_ibindctx_revokeobjectparam, com.ibindctx_revokeobjectparam, objidl/IBindCtx::RevokeObjectParam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBindCtx::RevokeObjectParam method
+# IBindCtx::RevokeObjectParam
 
 
 ## -description

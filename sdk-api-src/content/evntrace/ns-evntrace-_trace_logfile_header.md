@@ -62,9 +62,19 @@ TRACE_LOGFILE_HEADER structure contains information about an event tracing sessi
 
 
 
+### -field BufferSize
+
+Size of the event tracing session's buffers, in bytes.
+
+
 ### -field DUMMYUNIONNAME
 
  
+
+
+### -field DUMMYUNIONNAME.Version
+
+Version number of the operating system. This is a roll-up of the members of <b>VersionDetail</b>. Starting with the low-order bytes, the first two bytes contain <b>MajorVersion</b>, the next two bytes contain <b>MinorVersion</b>, the next two bytes contain <b>SubVersion</b>, and the last two   bytes contain <b>SubMinorVersion</b>.
 
 
 ### -field DUMMYUNIONNAME.VersionDetail
@@ -88,43 +98,6 @@ Reserved.
 ### -field DUMMYUNIONNAME.VersionDetail.SubMinorVersion
 
 Reserved.
-
-
-### -field DUMMYUNIONNAME2
-
- 
-
-
-### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME
-
- 
-
-
-### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.StartBuffers
-
-Reserved.
-
-
-### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.PointerSize
-
-Size of a pointer data type, in bytes.
-
-
-### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.EventsLost
-
-Number of events lost during the event tracing session. Events may be lost due to insufficient memory or a very high rate of incoming events.
-
-
-### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.CpuSpeedInMHz
-
- CPU speed, in megahertz.
-
-<b>Windows 2000:  </b>This member is not supported.
-
-
-### -field BufferSize
-
-Size of the event tracing session's buffers, in bytes.
 
 
 ### -field ProviderVersion
@@ -161,6 +134,43 @@ Current logging mode for the event tracing session. For a list of values, see
 ### -field BuffersWritten
 
 Total number of buffers written by the event tracing session.
+
+
+### -field DUMMYUNIONNAME2
+
+ 
+
+
+### -field DUMMYUNIONNAME2.LogInstanceGuid
+
+Reserved.
+
+
+### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.StartBuffers
+
+Reserved.
+
+
+### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.PointerSize
+
+Size of a pointer data type, in bytes.
+
+
+### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.EventsLost
+
+Number of events lost during the event tracing session. Events may be lost due to insufficient memory or a very high rate of incoming events.
+
+
+### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.CpuSpeedInMHz
+
+ CPU speed, in megahertz.
+
+<b>Windows 2000:  </b>This member is not supported.
 
 
 ### -field LoggerName
@@ -208,16 +218,6 @@ Specifies the clock type. For details, see the <b>ClientContext</b> member of <a
 ### -field BuffersLost
 
 Total number of buffers lost during the event tracing session.
-
-
-#### - LogInstanceGuid
-
-Reserved.
-
-
-#### - Version
-
-Version number of the operating system. This is a roll-up of the members of <b>VersionDetail</b>. Starting with the low-order bytes, the first two bytes contain <b>MajorVersion</b>, the next two bytes contain <b>MinorVersion</b>, the next two bytes contain <b>SubVersion</b>, and the last two   bytes contain <b>SubMinorVersion</b>.
 
 
 ## -remarks

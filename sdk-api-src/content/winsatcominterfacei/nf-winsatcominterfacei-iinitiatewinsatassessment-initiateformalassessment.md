@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.InitiateFormalAssessment
-title: IInitiateWinSATAssessment::InitiateFormalAssessment method
+title: IInitiateWinSATAssessment::InitiateFormalAssessment
 author: windows-driver-content
 description: Initiates a formal assessment.
 old-location: winsat\iinitiatewinsatassessment_initiateformalassessment.htm
@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: 9425e41c-fe03-4c94-a5eb-686775b5fce7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IInitiateWinSATAssessment, IInitiateWinSATAssessment interface [WinSAT], InitiateFormalAssessment method, IInitiateWinSATAssessment::InitiateFormalAssessment, InitiateFormalAssessment method [WinSAT], InitiateFormalAssessment method [WinSAT], IInitiateWinSATAssessment interface, InitiateFormalAssessment,IInitiateWinSATAssessment.InitiateFormalAssessment, winsat.iinitiatewinsatassessment_initiateformalassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateFormalAssessment
+ms.keywords: IInitiateWinSATAssessment interface [WinSAT],InitiateFormalAssessment method, IInitiateWinSATAssessment.InitiateFormalAssessment, IInitiateWinSATAssessment::InitiateFormalAssessment, InitiateFormalAssessment, InitiateFormalAssessment method [WinSAT], InitiateFormalAssessment method [WinSAT],IInitiateWinSATAssessment interface, winsat.iinitiatewinsatassessment_initiateformalassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateFormalAssessment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInitiateWinSATAssessment::InitiateFormalAssessment method
+# IInitiateWinSATAssessment::InitiateFormalAssessment
 
 
 ## -description

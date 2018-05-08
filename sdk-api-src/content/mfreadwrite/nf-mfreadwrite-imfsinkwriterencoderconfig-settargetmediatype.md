@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterEncoderConfig.SetTargetMediaType
-title: IMFSinkWriterEncoderConfig::SetTargetMediaType method
+title: IMFSinkWriterEncoderConfig::SetTargetMediaType
 author: windows-driver-content
 description: Dynamically changes the target media type that Sink Writer is encoding to.
 old-location: mf\imfsinkwriterencoderconfig_settargetmediatype.htm
 old-project: medfound
 ms.assetid: 26d6ee83-5899-40e7-8b71-ca47f5b0d1c1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSinkWriterEncoderConfig, IMFSinkWriterEncoderConfig interface [Media Foundation], SetTargetMediaType method, IMFSinkWriterEncoderConfig::SetTargetMediaType, SetTargetMediaType method [Media Foundation], SetTargetMediaType method [Media Foundation], IMFSinkWriterEncoderConfig interface, SetTargetMediaType,IMFSinkWriterEncoderConfig.SetTargetMediaType, mf.imfsinkwriterencoderconfig_settargetmediatype, mfreadwrite/IMFSinkWriterEncoderConfig::SetTargetMediaType
+ms.date: 5/3/2018
+ms.keywords: IMFSinkWriterEncoderConfig interface [Media Foundation],SetTargetMediaType method, IMFSinkWriterEncoderConfig.SetTargetMediaType, IMFSinkWriterEncoderConfig::SetTargetMediaType, SetTargetMediaType, SetTargetMediaType method [Media Foundation], SetTargetMediaType method [Media Foundation],IMFSinkWriterEncoderConfig interface, mf.imfsinkwriterencoderconfig_settargetmediatype, mfreadwrite/IMFSinkWriterEncoderConfig::SetTargetMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSinkWriterEncoderConfig::SetTargetMediaType method
+# IMFSinkWriterEncoderConfig::SetTargetMediaType
 
 
 ## -description

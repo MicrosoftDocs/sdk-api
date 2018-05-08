@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetString
-title: ITfCandidateListUIElement::GetString method
+title: ITfCandidateListUIElement::GetString
 author: windows-driver-content
 description: The ITfCandidateListUIElement::GetString method returns the string of the index.
 old-location: tsf\itfcandidatelistuielement_getstring.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 85cf60e3-f068-499f-b726-9ccea3cd8503
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetString method [Text Services Framework], GetString method [Text Services Framework], ITfCandidateListUIElement interface, GetString,ITfCandidateListUIElement.GetString, ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], GetString method, ITfCandidateListUIElement::GetString, msctf/ITfCandidateListUIElement::GetString, tsf.itfcandidatelistuielement_getstring
+ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetString method, ITfCandidateListUIElement.GetString, ITfCandidateListUIElement::GetString, msctf/ITfCandidateListUIElement::GetString, tsf.itfcandidatelistuielement_getstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCandidateListUIElement::GetString method
+# ITfCandidateListUIElement::GetString
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: a56433b5-191f-49fe-83fb-7057e4c30bbd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISimilarityTableDumpState, ISimilarityTableDumpState interface [Remote Differential Compression], ISimilarityTableDumpState interface [Remote Differential Compression], described, fs.isimilaritytabledumpstate, msrdc/ISimilarityTableDumpState, rdc.isimilaritytabledumpstate
+ms.keywords: ISimilarityTableDumpState, ISimilarityTableDumpState interface [Remote Differential Compression], ISimilarityTableDumpState interface [Remote Differential Compression],described, fs.isimilaritytabledumpstate, msrdc/ISimilarityTableDumpState, rdc.isimilaritytabledumpstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

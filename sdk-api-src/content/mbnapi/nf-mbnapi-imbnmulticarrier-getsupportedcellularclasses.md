@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetSupportedCellularClasses
-title: IMbnMultiCarrier::GetSupportedCellularClasses method
+title: IMbnMultiCarrier::GetSupportedCellularClasses
 author: windows-driver-content
 description: Gets the list of supported cellular classes for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_getsupportedcellularclasses.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 80B29D28-9940-4A96-B95A-A9640CE5E929
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSupportedCellularClasses method [Microsoft Broadband Networks], GetSupportedCellularClasses method [Microsoft Broadband Networks], IMbnMultiCarrier interface, GetSupportedCellularClasses,IMbnMultiCarrier.GetSupportedCellularClasses, IMbnMultiCarrier, IMbnMultiCarrier interface [Microsoft Broadband Networks], GetSupportedCellularClasses method, IMbnMultiCarrier::GetSupportedCellularClasses, mbn.imbnmulticarrier_getsupportedcellularclasses, mbnapi/IMbnMultiCarrier::GetSupportedCellularClasses
+ms.keywords: GetSupportedCellularClasses, GetSupportedCellularClasses method [Microsoft Broadband Networks], GetSupportedCellularClasses method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetSupportedCellularClasses method, IMbnMultiCarrier.GetSupportedCellularClasses, IMbnMultiCarrier::GetSupportedCellularClasses, mbn.imbnmulticarrier_getsupportedcellularclasses, mbnapi/IMbnMultiCarrier::GetSupportedCellularClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnMultiCarrier::GetSupportedCellularClasses method
+# IMbnMultiCarrier::GetSupportedCellularClasses
 
 
 ## -description

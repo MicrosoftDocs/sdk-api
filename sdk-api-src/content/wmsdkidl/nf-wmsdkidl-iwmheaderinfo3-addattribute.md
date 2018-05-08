@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.AddAttribute
-title: IWMHeaderInfo3::AddAttribute method
+title: IWMHeaderInfo3::AddAttribute
 author: windows-driver-content
 description: The AddAttribute method adds a metadata attribute. To change the value of an existing attribute, use the IWMHeaderInfo3::ModifyAttribute method.
 old-location: wmformat\iwmheaderinfo3_addattribute.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 15ecb34d-f70d-43a3-b369-2d9c2532945e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddAttribute method [windows Media Format], AddAttribute method [windows Media Format], IWMHeaderInfo3 interface, AddAttribute,IWMHeaderInfo3.AddAttribute, IWMHeaderInfo3, IWMHeaderInfo3 interface [windows Media Format], AddAttribute method, IWMHeaderInfo3::AddAttribute, IWMHeaderInfo3AddAttribute, wmformat.iwmheaderinfo3_addattribute, wmsdkidl/IWMHeaderInfo3::AddAttribute
+ms.keywords: AddAttribute, AddAttribute method [windows Media Format], AddAttribute method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],AddAttribute method, IWMHeaderInfo3.AddAttribute, IWMHeaderInfo3::AddAttribute, IWMHeaderInfo3AddAttribute, wmformat.iwmheaderinfo3_addattribute, wmsdkidl/IWMHeaderInfo3::AddAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMHeaderInfo3::AddAttribute method
+# IWMHeaderInfo3::AddAttribute
 
 
 ## -description

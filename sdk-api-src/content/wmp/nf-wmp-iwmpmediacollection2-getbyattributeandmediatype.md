@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMediaCollection2.getByAttributeAndMediaType
-title: IWMPMediaCollection2::getByAttributeAndMediaType method
+title: IWMPMediaCollection2::getByAttributeAndMediaType
 author: windows-driver-content
 description: The getByAttributeAndMediaType method retrieves a pointer to an IWMPPlaylist interface. This interface represents a playlist that contains media items that have a specified attribute and media type.
 old-location: wmp\iwmpmediacollection2_getbyattributeandmediatype.htm
 old-project: WMP
 ms.assetid: cf925189-1f68-499c-9c98-063a0367dd3c
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMediaCollection2, IWMPMediaCollection2 interface [Windows Media Player], getByAttributeAndMediaType method, IWMPMediaCollection2::getByAttributeAndMediaType, IWMPMediaCollection2getByAttributeAndMediaType, getByAttributeAndMediaType method [Windows Media Player], getByAttributeAndMediaType method [Windows Media Player], IWMPMediaCollection2 interface, getByAttributeAndMediaType,IWMPMediaCollection2.getByAttributeAndMediaType, wmp.iwmpmediacollection2_getbyattributeandmediatype, wmp/IWMPMediaCollection2::getByAttributeAndMediaType
+ms.date: 5/4/2018
+ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],getByAttributeAndMediaType method, IWMPMediaCollection2.getByAttributeAndMediaType, IWMPMediaCollection2::getByAttributeAndMediaType, IWMPMediaCollection2getByAttributeAndMediaType, getByAttributeAndMediaType, getByAttributeAndMediaType method [Windows Media Player], getByAttributeAndMediaType method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_getbyattributeandmediatype, wmp/IWMPMediaCollection2::getByAttributeAndMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMediaCollection2::getByAttributeAndMediaType method
+# IWMPMediaCollection2::getByAttributeAndMediaType
 
 
 ## -description

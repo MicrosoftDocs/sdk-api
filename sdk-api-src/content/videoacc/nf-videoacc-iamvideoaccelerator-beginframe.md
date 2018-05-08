@@ -1,14 +1,14 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.BeginFrame
-title: IAMVideoAccelerator::BeginFrame method
+title: IAMVideoAccelerator::BeginFrame
 author: windows-driver-content
 description: The BeginFrame method begins the processing to create a decoded picture.
 old-location: dshow\iamvideoaccelerator_beginframe.htm
 old-project: DirectShow
 ms.assetid: 00077ffe-4acb-4648-9e95-652184e4449b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: BeginFrame method [DirectShow], BeginFrame method [DirectShow], IAMVideoAccelerator interface, BeginFrame,IAMVideoAccelerator.BeginFrame, IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], BeginFrame method, IAMVideoAccelerator::BeginFrame, IAMVideoAcceleratorBeginFrame, dshow.iamvideoaccelerator_beginframe, videoacc/IAMVideoAccelerator::BeginFrame
+ms.date: 4/30/2018
+ms.keywords: BeginFrame, BeginFrame method [DirectShow], BeginFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],BeginFrame method, IAMVideoAccelerator.BeginFrame, IAMVideoAccelerator::BeginFrame, IAMVideoAcceleratorBeginFrame, dshow.iamvideoaccelerator_beginframe, videoacc/IAMVideoAccelerator::BeginFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAMVideoAccelerator::BeginFrame method
+# IAMVideoAccelerator::BeginFrame
 
 
 ## -description

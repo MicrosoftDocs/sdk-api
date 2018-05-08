@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2masteringvoice.IXAudio2MasteringVoice
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2MasteringVoice, IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs], IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs], described, xaudio2.ixaudio2masteringvoice, xaudio2/IXAudio2MasteringVoice
+ms.keywords: IXAudio2MasteringVoice, IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs], IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2masteringvoice, xaudio2/IXAudio2MasteringVoice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

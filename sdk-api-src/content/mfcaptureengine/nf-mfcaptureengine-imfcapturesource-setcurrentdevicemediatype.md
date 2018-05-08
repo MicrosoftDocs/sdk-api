@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.SetCurrentDeviceMediaType
-title: IMFCaptureSource::SetCurrentDeviceMediaType method
+title: IMFCaptureSource::SetCurrentDeviceMediaType
 author: windows-driver-content
 description: Sets the output format for a capture stream.
 old-location: mf\imfcapturesource_setcurrentdevicemediatype.htm
 old-project: medfound
 ms.assetid: 2B88BBAE-E837-4F4A-B697-64772F25C89D
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureSource, IMFCaptureSource interface [Media Foundation], SetCurrentDeviceMediaType method, IMFCaptureSource::SetCurrentDeviceMediaType, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, SetCurrentDeviceMediaType method [Media Foundation], SetCurrentDeviceMediaType method [Media Foundation], IMFCaptureSource interface, SetCurrentDeviceMediaType,IMFCaptureSource.SetCurrentDeviceMediaType, mf.imfcapturesource_setcurrentdevicemediatype, mfcaptureengine/IMFCaptureSource::SetCurrentDeviceMediaType
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureSource interface [Media Foundation],SetCurrentDeviceMediaType method, IMFCaptureSource.SetCurrentDeviceMediaType, IMFCaptureSource::SetCurrentDeviceMediaType, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, SetCurrentDeviceMediaType, SetCurrentDeviceMediaType method [Media Foundation], SetCurrentDeviceMediaType method [Media Foundation],IMFCaptureSource interface, mf.imfcapturesource_setcurrentdevicemediatype, mfcaptureengine/IMFCaptureSource::SetCurrentDeviceMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureSource::SetCurrentDeviceMediaType method
+# IMFCaptureSource::SetCurrentDeviceMediaType
 
 
 ## -description

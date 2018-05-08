@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 78FF30C5-7F23-489D-9E9D-916F6CE09C0E
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12ShaderReflectionType, ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface, described, d3d12shader/ID3D12ShaderReflectionType, direct3d12.id3d12shaderreflectiontype
+ms.keywords: ID3D12ShaderReflectionType, ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,described, d3d12shader/ID3D12ShaderReflectionType, direct3d12.id3d12shaderreflectiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

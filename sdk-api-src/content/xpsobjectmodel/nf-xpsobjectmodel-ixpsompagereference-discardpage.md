@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.DiscardPage
-title: IXpsOMPageReference::DiscardPage method
+title: IXpsOMPageReference::DiscardPage
 author: windows-driver-content
 description: Discards the page from memory.
 old-location: xps\ixpsompagereference_discardpage.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 430b9169-7fc5-493d-85a8-dddf46dfef8f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: DiscardPage method [XPS Documents and Packaging], DiscardPage method [XPS Documents and Packaging], IXpsOMPageReference interface, DiscardPage,IXpsOMPageReference.DiscardPage, IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], DiscardPage method, IXpsOMPageReference::DiscardPage, xps.ixpsompagereference_discardpage, xpsobjectmodel/IXpsOMPageReference::DiscardPage
+ms.keywords: DiscardPage, DiscardPage method [XPS Documents and Packaging], DiscardPage method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],DiscardPage method, IXpsOMPageReference.DiscardPage, IXpsOMPageReference::DiscardPage, xps.ixpsompagereference_discardpage, xpsobjectmodel/IXpsOMPageReference::DiscardPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReference::DiscardPage method
+# IXpsOMPageReference::DiscardPage
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.SetIndexing
-title: IWICJpegFrameDecode::SetIndexing method
+title: IWICJpegFrameDecode::SetIndexing
 author: windows-driver-content
 description: Enables indexing of the JPEG for efficient random access.
 old-location: wic\iwicjpegframedecode_setindexing.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: D97A48E5-0398-460C-AFA9-2E1B8744926B
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], SetIndexing method, IWICJpegFrameDecode::SetIndexing, SetIndexing method [Windows Imaging Component], SetIndexing method [Windows Imaging Component], IWICJpegFrameDecode interface, SetIndexing,IWICJpegFrameDecode.SetIndexing, wic.iwicjpegframedecode_setindexing, wincodec/IWICJpegFrameDecode::SetIndexing
+ms.keywords: IWICJpegFrameDecode interface [Windows Imaging Component],SetIndexing method, IWICJpegFrameDecode.SetIndexing, IWICJpegFrameDecode::SetIndexing, SetIndexing, SetIndexing method [Windows Imaging Component], SetIndexing method [Windows Imaging Component],IWICJpegFrameDecode interface, wic.iwicjpegframedecode_setindexing, wincodec/IWICJpegFrameDecode::SetIndexing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICJpegFrameDecode::SetIndexing method
+# IWICJpegFrameDecode::SetIndexing
 
 
 ## -description

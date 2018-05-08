@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 17d5eab5-a308-40a5-823a-f176508dda71
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCompositionSink, ITfCompositionSink interface [Text Services Framework], ITfCompositionSink interface [Text Services Framework], described, _tsf_itfcompositionsink_ref, msctf/ITfCompositionSink, tsf.itfcompositionsink
+ms.keywords: ITfCompositionSink, ITfCompositionSink interface [Text Services Framework], ITfCompositionSink interface [Text Services Framework],described, _tsf_itfcompositionsink_ref, msctf/ITfCompositionSink, tsf.itfcompositionsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -7,7 +7,7 @@ old-location: multimedia\avistreamtimetosample.htm
 old-project: Multimedia
 ms.assetid: 2be5ad91-2371-4564-a679-c593f497a785
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: AVIStreamTimeToSample, AVIStreamTimeToSample function [Windows Multimedia], _win32_AVIStreamTimeToSample, multimedia.avistreamtimetosample, vfw/AVIStreamTimeToSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

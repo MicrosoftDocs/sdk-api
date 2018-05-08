@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.get_HeaderFields
-title: IEmailAction::get_HeaderFields method
+title: IEmailAction::get_HeaderFields
 author: windows-driver-content
 description: Gets or sets the header information in the email message to send.
 old-location: taskschd\iemailaction_headerfields.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: e7b822a0-1e5e-4dd2-8139-ac44c6308fe0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HeaderFields property [Task Scheduler], HeaderFields property [Task Scheduler], IEmailAction interface, IEmailAction, IEmailAction interface [Task Scheduler], HeaderFields property, IEmailAction.HeaderFields, IEmailAction::get_HeaderFields, IEmailAction::put_HeaderFields, get_HeaderFields,IEmailAction.get_HeaderFields, taskschd.iemailaction_headerfields, taskschd/IEmailAction::HeaderFields, taskschd/IEmailAction::get_HeaderFields, taskschd/IEmailAction::put_HeaderFields
+ms.keywords: HeaderFields property [Task Scheduler], HeaderFields property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],HeaderFields property, IEmailAction.HeaderFields, IEmailAction.get_HeaderFields, IEmailAction::HeaderFields, IEmailAction::get_HeaderFields, IEmailAction::put_HeaderFields, get_HeaderFields, taskschd.iemailaction_headerfields, taskschd/IEmailAction::HeaderFields, taskschd/IEmailAction::get_HeaderFields, taskschd/IEmailAction::put_HeaderFields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEmailAction::get_HeaderFields method
+# IEmailAction::get_HeaderFields
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem2.AddTreeWithNamedStreams
-title: IFsiDirectoryItem2::AddTreeWithNamedStreams method
+title: IFsiDirectoryItem2::AddTreeWithNamedStreams
 author: windows-driver-content
 description: Adds the contents of a directory tree along with named streams associated with all files to the file system image.
 old-location: imapi\ifsidirectoryitem2_addtreewithnamedstreams.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d87d1932-85d4-4d7d-99a7-933a87b48b6a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddTreeWithNamedStreams method [IMAPI], AddTreeWithNamedStreams method [IMAPI], IFsiDirectoryItem2 interface, AddTreeWithNamedStreams,IFsiDirectoryItem2.AddTreeWithNamedStreams, IFsiDirectoryItem2, IFsiDirectoryItem2 interface [IMAPI], AddTreeWithNamedStreams method, IFsiDirectoryItem2::AddTreeWithNamedStreams, imapi.ifsidirectoryitem2_addtreewithnamedstreams, imapi2fs/IFsiDirectoryItem2::AddTreeWithNamedStreams
+ms.keywords: AddTreeWithNamedStreams, AddTreeWithNamedStreams method [IMAPI], AddTreeWithNamedStreams method [IMAPI],IFsiDirectoryItem2 interface, IFsiDirectoryItem2 interface [IMAPI],AddTreeWithNamedStreams method, IFsiDirectoryItem2.AddTreeWithNamedStreams, IFsiDirectoryItem2::AddTreeWithNamedStreams, imapi.ifsidirectoryitem2_addtreewithnamedstreams, imapi2fs/IFsiDirectoryItem2::AddTreeWithNamedStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiDirectoryItem2::AddTreeWithNamedStreams method
+# IFsiDirectoryItem2::AddTreeWithNamedStreams
 
 
 ## -description

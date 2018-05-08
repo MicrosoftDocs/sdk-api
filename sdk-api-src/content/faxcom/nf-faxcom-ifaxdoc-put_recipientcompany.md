@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientCompany
-title: IFaxDoc::put_RecipientCompany method
+title: IFaxDoc::put_RecipientCompany
 author: windows-driver-content
 description: Sets or retrieves the RecipientCompany property of a FaxDoc object. The RecipientCompany property is a null-terminated string that contains the company name of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientcompany_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0rjt.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], RecipientCompany property, IFaxDoc, IFaxDoc::put_RecipientCompany, RecipientCompany property [Fax Service], RecipientCompany property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientcompany, fax._mfax_ifaxdoc_get_recipientcompany, fax._mfax_ifaxdoc_get_recipientcompany_vb, put_RecipientCompany,IFaxDoc.put_RecipientCompany
+ms.keywords: FaxDoc object [Fax Service],RecipientCompany property, FaxDoc.RecipientCompany, IFaxDoc.put_RecipientCompany, IFaxDoc::put_RecipientCompany, RecipientCompany property [Fax Service], RecipientCompany property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientcompany, fax._mfax_ifaxdoc_get_recipientcompany, fax._mfax_ifaxdoc_get_recipientcompany_vb, put_RecipientCompany
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_RecipientCompany method
+# IFaxDoc::put_RecipientCompany
 
 
 ## -description

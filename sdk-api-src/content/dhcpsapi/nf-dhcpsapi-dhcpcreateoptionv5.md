@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcreateoptionv5.htm
 old-project: DHCP
 ms.assetid: de6e8f87-af4b-4e7f-8468-54359c5a8907
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpCreateOptionV5, DhcpCreateOptionV5 function [DHCP], dhcp.dhcpcreateoptionv5, dhcpsapi/DhcpCreateOptionV5
 ms.prod: windows-hardware
 ms.technology: windows-devices

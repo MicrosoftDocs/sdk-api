@@ -1,14 +1,14 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.GetTimePerFrame
-title: IDirectDrawMediaStream::GetTimePerFrame method
+title: IDirectDrawMediaStream::GetTimePerFrame
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the average frames per second from a video stream.
 old-location: dshow\idirectdrawmediastream_gettimeperframe.htm
 old-project: DirectShow
 ms.assetid: 24133185-0d5f-41fc-b381-ef982db46dd1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetTimePerFrame method [DirectShow], GetTimePerFrame method [DirectShow], IDirectDrawMediaStream interface, GetTimePerFrame,IDirectDrawMediaStream.GetTimePerFrame, IDirectDrawMediaStream, IDirectDrawMediaStream interface [DirectShow], GetTimePerFrame method, IDirectDrawMediaStream::GetTimePerFrame, IDirectDrawMediaStreamGetTimePerFrame, ddstream/IDirectDrawMediaStream::GetTimePerFrame, dshow.idirectdrawmediastream_gettimeperframe
+ms.date: 4/30/2018
+ms.keywords: GetTimePerFrame, GetTimePerFrame method [DirectShow], GetTimePerFrame method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetTimePerFrame method, IDirectDrawMediaStream.GetTimePerFrame, IDirectDrawMediaStream::GetTimePerFrame, IDirectDrawMediaStreamGetTimePerFrame, ddstream/IDirectDrawMediaStream::GetTimePerFrame, dshow.idirectdrawmediastream_gettimeperframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawMediaStream::GetTimePerFrame method
+# IDirectDrawMediaStream::GetTimePerFrame
 
 
 ## -description

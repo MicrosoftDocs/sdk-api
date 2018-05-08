@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMarshal.GetUnmarshalClass
-title: IMarshal::GetUnmarshalClass method
+title: IMarshal::GetUnmarshalClass
 author: windows-driver-content
 description: Retrieves the CLSID of the unmarshaling code.
 old-location: com\imarshal_getunmarshalclass.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 900a0f19-dcd5-4135-bab8-c191ec7e95e4
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetUnmarshalClass method [COM], GetUnmarshalClass method [COM], IMarshal interface, GetUnmarshalClass,IMarshal.GetUnmarshalClass, IMarshal, IMarshal interface [COM], GetUnmarshalClass method, IMarshal::GetUnmarshalClass, _com_imarshal_getunmarshalclass, com.imarshal_getunmarshalclass, objidl/IMarshal::GetUnmarshalClass
+ms.keywords: GetUnmarshalClass, GetUnmarshalClass method [COM], GetUnmarshalClass method [COM],IMarshal interface, IMarshal interface [COM],GetUnmarshalClass method, IMarshal.GetUnmarshalClass, IMarshal::GetUnmarshalClass, _com_imarshal_getunmarshalclass, com.imarshal_getunmarshalclass, objidl/IMarshal::GetUnmarshalClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMarshal::GetUnmarshalClass method
+# IMarshal::GetUnmarshalClass
 
 
 ## -description

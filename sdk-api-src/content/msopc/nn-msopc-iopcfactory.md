@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 0a265a0a-c109-4afc-a0ad-d3ee31757aa1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcFactory, IOpcFactory interface [Open Packaging Conventions], IOpcFactory interface [Open Packaging Conventions], described, msopc/IOpcFactory, opc.iopcfactory
+ms.keywords: IOpcFactory, IOpcFactory interface [Open Packaging Conventions], IOpcFactory interface [Open Packaging Conventions],described, msopc/IOpcFactory, opc.iopcfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

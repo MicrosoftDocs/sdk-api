@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxShowCaret
-title: ITextHost::TxShowCaret method
+title: ITextHost::TxShowCaret
 author: windows-driver-content
 description: Shows or hides the caret at the caret position in the text host window.
 old-location: controls\ITextHost_TxShowCaret.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txshowcaret.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxShowCaret method, ITextHost::TxShowCaret, TxShowCaret method [Windows Controls], TxShowCaret method [Windows Controls], ITextHost interface, TxShowCaret,ITextHost.TxShowCaret, _win32_ITextHost_TxShowCaret, _win32_ITextHost_TxShowCaret_cpp, controls.ITextHost_TxShowCaret, controls._win32_ITextHost_TxShowCaret, textserv/ITextHost::TxShowCaret
+ms.date: 4/27/2018
+ms.keywords: ITextHost interface [Windows Controls],TxShowCaret method, ITextHost.TxShowCaret, ITextHost::TxShowCaret, TxShowCaret, TxShowCaret method [Windows Controls], TxShowCaret method [Windows Controls],ITextHost interface, _win32_ITextHost_TxShowCaret, _win32_ITextHost_TxShowCaret_cpp, controls.ITextHost_TxShowCaret, controls._win32_ITextHost_TxShowCaret, textserv/ITextHost::TxShowCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxShowCaret method
+# ITextHost::TxShowCaret
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.QueryHints
-title: IVdsLun::QueryHints method
+title: IVdsLun::QueryHints
 author: windows-driver-content
 description: Returns the hints currently applied to the LUN.
 old-location: base\ivdslun_queryhints.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 6cdbbf17-fcee-4cd4-bf5c-d994886262da
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsLun, IVdsLun interface [VDS], QueryHints method, IVdsLun::QueryHints, QueryHints method [VDS], QueryHints method [VDS], IVdsLun interface, QueryHints,IVdsLun.QueryHints, base.ivdslun_queryhints, vds/IVdsLun::QueryHints, vdshwprv/IVdsLun::QueryHints
+ms.keywords: IVdsLun interface [VDS],QueryHints method, IVdsLun.QueryHints, IVdsLun::QueryHints, QueryHints, QueryHints method [VDS], QueryHints method [VDS],IVdsLun interface, base.ivdslun_queryhints, vds/IVdsLun::QueryHints, vdshwprv/IVdsLun::QueryHints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLun::QueryHints method
+# IVdsLun::QueryHints
 
 
 ## -description

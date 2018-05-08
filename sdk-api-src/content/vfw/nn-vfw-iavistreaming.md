@@ -8,8 +8,8 @@ old-location: multimedia\iavistreaming.htm
 old-project: Multimedia
 ms.assetid: ff8ed190-5e90-4be1-8f14-0d288ce0837c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: IAVIStreaming, IAVIStreaming interface [Windows Multimedia], IAVIStreaming interface [Windows Multimedia], described, _win32_IAVIStreaming, multimedia.iavistreaming, vfw/IAVIStreaming
+ms.date: 5/4/2018
+ms.keywords: IAVIStreaming, IAVIStreaming interface [Windows Multimedia], IAVIStreaming interface [Windows Multimedia],described, _win32_IAVIStreaming, multimedia.iavistreaming, vfw/IAVIStreaming
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

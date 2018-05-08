@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetLineSpacingRule
-title: ITextPara::GetLineSpacingRule method
+title: ITextPara::GetLineSpacingRule
 author: windows-driver-content
 description: Retrieves the line-spacing rule for the text range.
 old-location: controls\ITextPara_GetLineSpacingRule.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlinespacingrule.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetLineSpacingRule method [Windows Controls], GetLineSpacingRule method [Windows Controls], ITextPara interface, GetLineSpacingRule,ITextPara.GetLineSpacingRule, ITextPara, ITextPara interface [Windows Controls], GetLineSpacingRule method, ITextPara::GetLineSpacingRule, _win32_ITextPara_GetLineSpacingRule, _win32_ITextPara_GetLineSpacingRule_cpp, controls.ITextPara_GetLineSpacingRule, controls._win32_ITextPara_GetLineSpacingRule, tom/ITextPara::GetLineSpacingRule, tomLineSpace1pt5, tomLineSpaceAtLeast, tomLineSpaceDouble, tomLineSpaceExactly, tomLineSpaceMultiple, tomLineSpacePercent, tomLineSpaceSingle
+ms.date: 4/27/2018
+ms.keywords: GetLineSpacingRule, GetLineSpacingRule method [Windows Controls], GetLineSpacingRule method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetLineSpacingRule method, ITextPara.GetLineSpacingRule, ITextPara::GetLineSpacingRule, _win32_ITextPara_GetLineSpacingRule, _win32_ITextPara_GetLineSpacingRule_cpp, controls.ITextPara_GetLineSpacingRule, controls._win32_ITextPara_GetLineSpacingRule, tom/ITextPara::GetLineSpacingRule, tomLineSpace1pt5, tomLineSpaceAtLeast, tomLineSpaceDouble, tomLineSpaceExactly, tomLineSpaceMultiple, tomLineSpacePercent, tomLineSpaceSingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetLineSpacingRule method
+# ITextPara::GetLineSpacingRule
 
 
 ## -description

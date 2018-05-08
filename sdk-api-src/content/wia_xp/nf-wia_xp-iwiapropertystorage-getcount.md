@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.GetCount
-title: IWiaPropertyStorage::GetCount method
+title: IWiaPropertyStorage::GetCount
 author: windows-driver-content
 description: The IWiaPropertyStorage::GetCount method returns the number of properties stored in the property storage.
 old-location: wia\_wia_IWiaPropertyStorage_GetCount.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getcount.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: GetCount method [WIA], GetCount method [WIA], IWiaPropertyStorage interface, GetCount,IWiaPropertyStorage.GetCount, IWiaPropertyStorage, IWiaPropertyStorage interface [WIA], GetCount method, IWiaPropertyStorage::GetCount, _wia_IWiaPropertyStorage_GetCount, wia._wia_IWiaPropertyStorage_GetCount, wia_xp/IWiaPropertyStorage::GetCount
+ms.date: 5/3/2018
+ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetCount method, IWiaPropertyStorage.GetCount, IWiaPropertyStorage::GetCount, _wia_IWiaPropertyStorage_GetCount, wia._wia_IWiaPropertyStorage_GetCount, wia_xp/IWiaPropertyStorage::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaPropertyStorage::GetCount method
+# IWiaPropertyStorage::GetCount
 
 
 ## -description

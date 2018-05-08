@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptions.put_Password
-title: IWSManConnectionOptions::put_Password method
+title: IWSManConnectionOptions::put_Password
 author: windows-driver-content
 description: Sets the password of a local or a domain account on the remote computer.
 old-location: winrm\iwsmanconnectionoptions_password.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 864279c0-1bb5-43dc-9636-35619199beb4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManConnectionOptions, IWSManConnectionOptions interface [Windows Remote Management], Password property, IWSManConnectionOptions.Password, IWSManConnectionOptions::put_Password, Password property [Windows Remote Management], Password property [Windows Remote Management], IWSManConnectionOptions interface, put_Password,IWSManConnectionOptions.put_Password, winrm.iwsmanconnectionoptions_password, wsmandisp/IWSManConnectionOptions::Password, wsmandisp/IWSManConnectionOptions::put_Password
+ms.keywords: IWSManConnectionOptions interface [Windows Remote Management],Password property, IWSManConnectionOptions.Password, IWSManConnectionOptions.put_Password, IWSManConnectionOptions::Password, IWSManConnectionOptions::put_Password, Password property [Windows Remote Management], Password property [Windows Remote Management],IWSManConnectionOptions interface, put_Password, winrm.iwsmanconnectionoptions_password, wsmandisp/IWSManConnectionOptions::Password, wsmandisp/IWSManConnectionOptions::put_Password
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManConnectionOptions::put_Password method
+# IWSManConnectionOptions::put_Password
 
 
 ## -description

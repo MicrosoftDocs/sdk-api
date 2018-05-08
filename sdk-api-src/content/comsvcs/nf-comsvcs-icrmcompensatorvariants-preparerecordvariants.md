@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.PrepareRecordVariants
-title: ICrmCompensatorVariants::PrepareRecordVariants method
+title: ICrmCompensatorVariants::PrepareRecordVariants
 author: windows-driver-content
 description: Delivers a log record to the CRM Compensator during the prepare phase.
 old-location: cos\icrmcompensatorvariants_preparerecordvariants.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 5cbe3bf9-b82c-42da-ac19-dddb5837368e
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICrmCompensatorVariants, ICrmCompensatorVariants interface [COM+], PrepareRecordVariants method, ICrmCompensatorVariants::PrepareRecordVariants, PrepareRecordVariants method [COM+], PrepareRecordVariants method [COM+], ICrmCompensatorVariants interface, PrepareRecordVariants,ICrmCompensatorVariants.PrepareRecordVariants, _dtc_ICrmCompensatorVariants_PrepareRecordVariants, comsvcs/ICrmCompensatorVariants::PrepareRecordVariants, cos.icrmcompensatorvariants_preparerecordvariants
+ms.keywords: ICrmCompensatorVariants interface [COM+],PrepareRecordVariants method, ICrmCompensatorVariants.PrepareRecordVariants, ICrmCompensatorVariants::PrepareRecordVariants, PrepareRecordVariants, PrepareRecordVariants method [COM+], PrepareRecordVariants method [COM+],ICrmCompensatorVariants interface, _dtc_ICrmCompensatorVariants_PrepareRecordVariants, comsvcs/ICrmCompensatorVariants::PrepareRecordVariants, cos.icrmcompensatorvariants_preparerecordvariants
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmCompensatorVariants::PrepareRecordVariants method
+# ICrmCompensatorVariants::PrepareRecordVariants
 
 
 ## -description

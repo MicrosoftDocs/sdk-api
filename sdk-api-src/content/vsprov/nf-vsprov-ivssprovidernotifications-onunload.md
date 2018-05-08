@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssProviderNotifications.OnUnload
-title: IVssProviderNotifications::OnUnload method
+title: IVssProviderNotifications::OnUnload
 author: windows-driver-content
 description: Notifies the provider to prepare to be unloaded.
 old-location: base\ivssprovidernotifications_onunload.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 5b9e0940-70b4-4913-9281-0347e60baa0d
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssProviderNotifications, IVssProviderNotifications interface [VSS], OnUnload method, IVssProviderNotifications::OnUnload, OnUnload method [VSS], OnUnload method [VSS], IVssProviderNotifications interface, OnUnload,IVssProviderNotifications.OnUnload, base.ivssprovidernotifications_onunload, vsprov/IVssProviderNotifications::OnUnload
+ms.keywords: IVssProviderNotifications interface [VSS],OnUnload method, IVssProviderNotifications.OnUnload, IVssProviderNotifications::OnUnload, OnUnload, OnUnload method [VSS], OnUnload method [VSS],IVssProviderNotifications interface, base.ivssprovidernotifications_onunload, vsprov/IVssProviderNotifications::OnUnload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssProviderNotifications::OnUnload method
+# IVssProviderNotifications::OnUnload
 
 
 ## -description

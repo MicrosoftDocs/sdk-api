@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.IsOk
-title: WBEMTime::IsOk method
+title: WBEMTime::IsOk
 author: windows-driver-content
 description: The IsOk method indicates whether the WBEMTime object represents a valid time.
 old-location: wmi\wbemtime_isok.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: e2d53db3-b247-40ac-9a8f-c6fef9f4e0d3
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IsOk method [Windows Management Instrumentation], IsOk method [Windows Management Instrumentation], WBEMTime interface, IsOk,WBEMTime.IsOk, WBEMTime, WBEMTime interface [Windows Management Instrumentation], IsOk method, WBEMTime::IsOk, _hmm_wbemtime_isok, wbemtime/WBEMTime::IsOk, wmi.wbemtime_isok
+ms.keywords: IsOk, IsOk method [Windows Management Instrumentation], IsOk method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],IsOk method, WBEMTime.IsOk, WBEMTime::IsOk, _hmm_wbemtime_isok, wbemtime/WBEMTime::IsOk, wmi.wbemtime_isok
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WBEMTime::IsOk method
+# WBEMTime::IsOk
 
 
 ## -description

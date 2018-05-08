@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetInstanceId
-title: IWSDiscoveredService::GetInstanceId method
+title: IWSDiscoveredService::GetInstanceId
 author: windows-driver-content
 description: Retrieves the instance identifier of this message.
 old-location: ncd\iwsdiscoveredservice_getinstanceid.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 993f4ef1-ff13-4454-b22f-29c9628da5e0
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetInstanceId method, GetInstanceId method, IWSDiscoveredService interface, GetInstanceId,IWSDiscoveredService.GetInstanceId, IWSDiscoveredService, IWSDiscoveredService interface, GetInstanceId method, IWSDiscoveredService::GetInstanceId, ncd.iwsdiscoveredservice_getinstanceid, wsddisco/IWSDiscoveredService::GetInstanceId
+ms.keywords: GetInstanceId, GetInstanceId method, GetInstanceId method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetInstanceId method, IWSDiscoveredService.GetInstanceId, IWSDiscoveredService::GetInstanceId, ncd.iwsdiscoveredservice_getinstanceid, wsddisco/IWSDiscoveredService::GetInstanceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveredService::GetInstanceId method
+# IWSDiscoveredService::GetInstanceId
 
 
 ## -description

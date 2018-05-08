@@ -7,7 +7,7 @@ old-location: shell\HELPWININFO_str.htm
 old-project: shell
 ms.assetid: 0de0bf84-66f3-44bc-b4de-c2de7ca90cb2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: "*LPHELPWININFOA, *PHELPWININFOA, HELPWININFO, HELPWININFO structure [Windows Shell], HELPWININFOA, LPHELPWININFO, LPHELPWININFO structure pointer [Windows Shell], PHELPWININFO, PHELPWININFO structure pointer [Windows Shell], SW_HIDE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, _win32_HELPWININFO_str, shell.HELPWININFO_str, tagHELPWININFOA, tagHELPWININFOW, winuser/HELPWININFO, winuser/LPHELPWININFO, winuser/PHELPWININFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

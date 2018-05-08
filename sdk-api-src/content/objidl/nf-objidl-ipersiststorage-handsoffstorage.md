@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistStorage.HandsOffStorage
-title: IPersistStorage::HandsOffStorage method
+title: IPersistStorage::HandsOffStorage
 author: windows-driver-content
 description: Instructs the object to release all storage objects that have been passed to it by its container and to enter HandsOff mode.
 old-location: com\ipersiststorage_handsoffstorage.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1e5ef26f-d8e7-4fa6-bfc4-19dace35314d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: HandsOffStorage method [COM], HandsOffStorage method [COM], IPersistStorage interface, HandsOffStorage,IPersistStorage.HandsOffStorage, IPersistStorage, IPersistStorage interface [COM], HandsOffStorage method, IPersistStorage::HandsOffStorage, _com_ipersiststorage_handsoffstorage, com.ipersiststorage_handsoffstorage, objidl/IPersistStorage::HandsOffStorage
+ms.keywords: HandsOffStorage, HandsOffStorage method [COM], HandsOffStorage method [COM],IPersistStorage interface, IPersistStorage interface [COM],HandsOffStorage method, IPersistStorage.HandsOffStorage, IPersistStorage::HandsOffStorage, _com_ipersiststorage_handsoffstorage, com.ipersiststorage_handsoffstorage, objidl/IPersistStorage::HandsOffStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistStorage::HandsOffStorage method
+# IPersistStorage::HandsOffStorage
 
 
 ## -description

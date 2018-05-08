@@ -57,6 +57,31 @@ The DD_SURFACE_GLOBAL structure contains global surface-related data that can be
 
 
 
+### -field dwBlockSizeY
+
+Specifies the location in which the driver returns the height, in scan lines, of the offscreen memory block that Microsoft DirectDraw should allocate. The driver should set this value when it returns DDHAL_PLEASEALLOC_BLOCKSIZE in the <b>fpVidMem</b> member.
+
+
+### -field lSlicePitch
+
+Slice pitch for volume textures.
+
+
+### -field lpVidMemHeap
+
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570171">VIDEOMEMORY</a> structure from which the heap display memory was allocated. 
+
+
+### -field dwBlockSizeX
+
+Specifies the location in which the driver returns the size in bytes of the width of the offscreen memory block that DirectDraw should allocate. The driver should set this value when it returns DDHAL_PLEASEALLOC_BLOCKSIZE in the <b>fpVidMem</b> member.
+
+
+### -field dwUserMemSize
+
+Specifies the location in which the driver returns the size in bytes of the memory block that DirectDraw should allocate in user-mode system memory. The driver should set this value when it returns DDHAL_PLEASEALLOC_USERMEM in the <b>fpVidMem</b> member.
+
+
 ### -field fpVidMem
 
 If the driver allocates the memory block, it should return the offset into display memory in this member. If the driver requests DirectDraw to do the memory allocation, it can instead return one of the following values in this member from its <a href="https://msdn.microsoft.com/45c793ed-34e8-4a15-91f4-9a258c1842fd">DdCreateSurface</a> routine:
@@ -88,6 +113,16 @@ DirectDraw should allocate a memory block of size <b>dwUserMemSize</b> in user-m
 </tr>
 </table>
  
+
+
+### -field lPitch
+
+Specifies the pitch of the surface; that is, the distance in bytes to the start of the next line. This is also known as the stride of the surface.
+
+
+### -field dwLinearSize
+
+Specifies the linear size in bytes of a nonrectangular surface.
 
 
 ### -field yHint
@@ -128,41 +163,6 @@ Points to the raw offset in the source heap.
 ### -field hCreatorProcess
 
 Reserved for system use and should be ignored by the driver. 
-
-
-#### - dwBlockSizeX
-
-Specifies the location in which the driver returns the size in bytes of the width of the offscreen memory block that DirectDraw should allocate. The driver should set this value when it returns DDHAL_PLEASEALLOC_BLOCKSIZE in the <b>fpVidMem</b> member.
-
-
-#### - dwBlockSizeY
-
-Specifies the location in which the driver returns the height, in scan lines, of the offscreen memory block that Microsoft DirectDraw should allocate. The driver should set this value when it returns DDHAL_PLEASEALLOC_BLOCKSIZE in the <b>fpVidMem</b> member.
-
-
-#### - dwLinearSize
-
-Specifies the linear size in bytes of a nonrectangular surface.
-
-
-#### - dwUserMemSize
-
-Specifies the location in which the driver returns the size in bytes of the memory block that DirectDraw should allocate in user-mode system memory. The driver should set this value when it returns DDHAL_PLEASEALLOC_USERMEM in the <b>fpVidMem</b> member.
-
-
-#### - lPitch
-
-Specifies the pitch of the surface; that is, the distance in bytes to the start of the next line. This is also known as the stride of the surface.
-
-
-#### - lSlicePitch
-
-Slice pitch for volume textures.
-
-
-#### - lpVidMemHeap
-
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570171">VIDEOMEMORY</a> structure from which the heap display memory was allocated. 
 
 
 ## -remarks

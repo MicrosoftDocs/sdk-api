@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_45o0_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxOutboundRoutingGroup, IFaxOutboundRoutingGroup interface [Fax Service], IFaxOutboundRoutingGroup interface [Fax Service], described, _mfax_faxoutboundroutinggroup_cpp, fax._mfax_faxoutboundroutinggroup_cpp, faxcomex/IFaxOutboundRoutingGroup
+ms.keywords: IFaxOutboundRoutingGroup, IFaxOutboundRoutingGroup interface [Fax Service], IFaxOutboundRoutingGroup interface [Fax Service],described, _mfax_faxoutboundroutinggroup_cpp, fax._mfax_faxoutboundroutinggroup_cpp, faxcomex/IFaxOutboundRoutingGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -7,7 +7,7 @@ old-location: security\crypt_context_function_config.htm
 old-project: SecCNG
 ms.assetid: 53026095-c871-4027-ac7d-428f1cb4aafe
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: "*PCRYPT_CONTEXT_FUNCTION_CONFIG, CRYPT_CONTEXT_FUNCTION_CONFIG, CRYPT_CONTEXT_FUNCTION_CONFIG structure [Security], CRYPT_EXCLUSIVE, PCRYPT_CONTEXT_FUNCTION_CONFIG, PCRYPT_CONTEXT_FUNCTION_CONFIG structure pointer [Security], _CRYPT_CONTEXT_FUNCTION_CONFIG, bcrypt/CRYPT_CONTEXT_FUNCTION_CONFIG, bcrypt/PCRYPT_CONTEXT_FUNCTION_CONFIG, security.crypt_context_function_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices

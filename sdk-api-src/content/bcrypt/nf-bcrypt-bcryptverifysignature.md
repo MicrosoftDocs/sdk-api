@@ -7,7 +7,7 @@ old-location: security\bcryptverifysignature_func.htm
 old-project: SecCNG
 ms.assetid: 95c32056-e444-441c-bbc1-c5ae82aba964
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptVerifySignature, BCryptVerifySignature function [Security], bcrypt/BCryptVerifySignature, security.bcryptverifysignature_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperation.get_Writable
-title: IAzOperation::get_Writable method
+title: IAzOperation::get_Writable
 author: windows-driver-content
 description: Retrieves a value that indicates whether the operation can be modified by the user context that initialized it.
 old-location: security\iazoperation_writable.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 16745237-23d9-4818-b8f8-de93405ae9ac
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzOperation object [Security], Writable property, IAzOperation, IAzOperation interface [Security], Writable property, IAzOperation.Writable, IAzOperation::get_Writable, Writable property [Security], Writable property [Security], AzOperation object, Writable property [Security], IAzOperation interface, azroles/IAzOperation::Writable, azroles/IAzOperation::get_Writable, get_Writable,IAzOperation.get_Writable, security.iazoperation_writable
+ms.keywords: AzOperation object [Security],Writable property, IAzOperation interface [Security],Writable property, IAzOperation.Writable, IAzOperation.get_Writable, IAzOperation::Writable, IAzOperation::get_Writable, Writable property [Security], Writable property [Security],AzOperation object, Writable property [Security],IAzOperation interface, azroles/IAzOperation::Writable, azroles/IAzOperation::get_Writable, get_Writable, security.iazoperation_writable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzOperation::get_Writable method
+# IAzOperation::get_Writable
 
 
 ## -description

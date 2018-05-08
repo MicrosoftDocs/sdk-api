@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Pause
-title: IWMReader::Pause method
+title: IWMReader::Pause
 author: windows-driver-content
 description: The Pause method pauses the current read operation.
 old-location: wmformat\iwmreader_pause.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 4c9d60df-fa9e-42ac-907a-1958a38e430e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReader, IWMReader interface [windows Media Format], Pause method, IWMReader::Pause, IWMReaderPause, Pause method [windows Media Format], Pause method [windows Media Format], IWMReader interface, Pause,IWMReader.Pause, wmformat.iwmreader_pause, wmsdkidl/IWMReader::Pause
+ms.keywords: IWMReader interface [windows Media Format],Pause method, IWMReader.Pause, IWMReader::Pause, IWMReaderPause, Pause, Pause method [windows Media Format], Pause method [windows Media Format],IWMReader interface, wmformat.iwmreader_pause, wmsdkidl/IWMReader::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReader::Pause method
+# IWMReader::Pause
 
 
 ## -description

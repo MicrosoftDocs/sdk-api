@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnObjectDeactivate
-title: IComObjectEvents::OnObjectDeactivate method
+title: IComObjectEvents::OnObjectDeactivate
 author: windows-driver-content
 description: Generated when the JIT-activated object is freed by SetComplete or SetAbort.
 old-location: cos\icomobjectevents_onobjectdeactivate.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 3284da44-bcc4-49eb-9aa8-40061bf51869
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComObjectEvents, IComObjectEvents interface [COM+], OnObjectDeactivate method, IComObjectEvents::OnObjectDeactivate, OnObjectDeactivate method [COM+], OnObjectDeactivate method [COM+], IComObjectEvents interface, OnObjectDeactivate,IComObjectEvents.OnObjectDeactivate, _dtc_IComObjectEvents_OnObjectDeactivate, comsvcs/IComObjectEvents::OnObjectDeactivate, cos.icomobjectevents_onobjectdeactivate
+ms.keywords: IComObjectEvents interface [COM+],OnObjectDeactivate method, IComObjectEvents.OnObjectDeactivate, IComObjectEvents::OnObjectDeactivate, OnObjectDeactivate, OnObjectDeactivate method [COM+], OnObjectDeactivate method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnObjectDeactivate, comsvcs/IComObjectEvents::OnObjectDeactivate, cos.icomobjectevents_onobjectdeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComObjectEvents::OnObjectDeactivate method
+# IComObjectEvents::OnObjectDeactivate
 
 
 ## -description

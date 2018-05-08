@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.SetOutputDirectory
-title: IFsrmReportManager::SetOutputDirectory method
+title: IFsrmReportManager::SetOutputDirectory
 author: windows-driver-content
 description: Sets the local directory path where reports are stored.
 old-location: fsrm\ifsrmreportmanager_setoutputdirectory.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 5bbc4255-1fed-45c5-bb13-41ee7c47ed56
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmReportManager class [File Server Resource Manager], SetOutputDirectory method, IFsrmReportManager, IFsrmReportManager interface [File Server Resource Manager], SetOutputDirectory method, IFsrmReportManager::SetOutputDirectory, SetOutputDirectory method [File Server Resource Manager], SetOutputDirectory method [File Server Resource Manager], FsrmReportManager class, SetOutputDirectory method [File Server Resource Manager], IFsrmReportManager interface, SetOutputDirectory,IFsrmReportManager.SetOutputDirectory, fs.ifsrmreportmanager_setoutputdirectory, fsrm.ifsrmreportmanager_setoutputdirectory, fsrmreports/IFsrmReportManager::SetOutputDirectory
+ms.keywords: FsrmReportManager class [File Server Resource Manager],SetOutputDirectory method, IFsrmReportManager interface [File Server Resource Manager],SetOutputDirectory method, IFsrmReportManager.SetOutputDirectory, IFsrmReportManager::SetOutputDirectory, SetOutputDirectory, SetOutputDirectory method [File Server Resource Manager], SetOutputDirectory method [File Server Resource Manager],FsrmReportManager class, SetOutputDirectory method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_setoutputdirectory, fsrm.ifsrmreportmanager_setoutputdirectory, fsrmreports/IFsrmReportManager::SetOutputDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReportManager::SetOutputDirectory method
+# IFsrmReportManager::SetOutputDirectory
 
 
 ## -description

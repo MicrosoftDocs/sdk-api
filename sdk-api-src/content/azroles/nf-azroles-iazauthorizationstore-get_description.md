@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_Description
-title: IAzAuthorizationStore::get_Description method
+title: IAzAuthorizationStore::get_Description
 author: windows-driver-content
 description: Sets or retrieves a comment that describes the operation.
 old-location: security\azauthorizationstore_description.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 79ef0e2f-3178-4310-832c-b0eea06cf1b0
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzAuthorizationStore object [Security], Description property, Description property [Security], Description property [Security], AzAuthorizationStore object, Description property [Security], IAzAuthorizationStore interface, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], Description property, IAzAuthorizationStore.Description, IAzAuthorizationStore::get_Description, IAzAuthorizationStore::put_Description, azroles/IAzAuthorizationStore::Description, azroles/IAzAuthorizationStore::get_Description, azroles/IAzAuthorizationStore::put_Description, get_Description,IAzAuthorizationStore.get_Description, security.azauthorizationstore_description
+ms.keywords: AzAuthorizationStore object [Security],Description property, Description property [Security], Description property [Security],AzAuthorizationStore object, Description property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],Description property, IAzAuthorizationStore.Description, IAzAuthorizationStore.get_Description, IAzAuthorizationStore::Description, IAzAuthorizationStore::get_Description, IAzAuthorizationStore::put_Description, azroles/IAzAuthorizationStore::Description, azroles/IAzAuthorizationStore::get_Description, azroles/IAzAuthorizationStore::put_Description, get_Description, security.azauthorizationstore_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::get_Description method
+# IAzAuthorizationStore::get_Description
 
 
 ## -description

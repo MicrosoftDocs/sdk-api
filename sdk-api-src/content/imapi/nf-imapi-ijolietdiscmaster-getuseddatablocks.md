@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.GetUsedDataBlocks
-title: IJolietDiscMaster::GetUsedDataBlocks method
+title: IJolietDiscMaster::GetUsedDataBlocks
 author: windows-driver-content
 description: Retrieves the total number of data blocks that are in use.
 old-location: imapi\ijolietdiscmaster_getuseddatablocks.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 01bde64a-3d91-4830-bd93-f3fe6b109264
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetUsedDataBlocks method [IMAPI], GetUsedDataBlocks method [IMAPI], IJolietDiscMaster interface, GetUsedDataBlocks,IJolietDiscMaster.GetUsedDataBlocks, IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], GetUsedDataBlocks method, IJolietDiscMaster::GetUsedDataBlocks, _win32_ijolietdiscmaster_getuseddatablocks, base.ijolietdiscmaster_getuseddatablocks, imapi.ijolietdiscmaster_getuseddatablocks, imapi/IJolietDiscMaster::GetUsedDataBlocks
+ms.keywords: GetUsedDataBlocks, GetUsedDataBlocks method [IMAPI], GetUsedDataBlocks method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],GetUsedDataBlocks method, IJolietDiscMaster.GetUsedDataBlocks, IJolietDiscMaster::GetUsedDataBlocks, _win32_ijolietdiscmaster_getuseddatablocks, base.ijolietdiscmaster_getuseddatablocks, imapi.ijolietdiscmaster_getuseddatablocks, imapi/IJolietDiscMaster::GetUsedDataBlocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IJolietDiscMaster::GetUsedDataBlocks method
+# IJolietDiscMaster::GetUsedDataBlocks
 
 
 ## -description

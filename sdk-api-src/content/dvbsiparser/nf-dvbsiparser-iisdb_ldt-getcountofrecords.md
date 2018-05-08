@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetCountOfRecords
-title: IISDB_LDT::GetCountOfRecords method
+title: IISDB_LDT::GetCountOfRecords
 author: windows-driver-content
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT). An LDT contains data used to collect reference information from other tables.
 old-location: mstv\iisdb_ldt_getcountofrecords.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: da91deea-527c-4458-9db5-ae500cee19bb
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IISDB_LDT interface, GetCountOfRecords,IISDB_LDT.GetCountOfRecords, IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], GetCountOfRecords method, IISDB_LDT::GetCountOfRecords, dvbsiparser/IISDB_LDT::GetCountOfRecords, mstv.iisdb_ldt_getcountofrecords
+ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetCountOfRecords method, IISDB_LDT.GetCountOfRecords, IISDB_LDT::GetCountOfRecords, dvbsiparser/IISDB_LDT::GetCountOfRecords, mstv.iisdb_ldt_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_LDT::GetCountOfRecords method
+# IISDB_LDT::GetCountOfRecords
 
 
 ## -description

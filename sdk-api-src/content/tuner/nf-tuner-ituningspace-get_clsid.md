@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.get_CLSID
-title: ITuningSpace::get_CLSID method
+title: ITuningSpace::get_CLSID
 author: windows-driver-content
 description: The get_CLSID method gets the CLSID of the tuning space as a BSTR.
 old-location: mstv\ituningspace_get_clsid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: def4aac2-3d0b-4ce6-9f6b-d13e7c3cc86d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], get_CLSID method, ITuningSpace::get_CLSID, ITuningSpaceget_CLSID, get_CLSID method [Microsoft TV Technologies], get_CLSID method [Microsoft TV Technologies], ITuningSpace interface, get_CLSID,ITuningSpace.get_CLSID, mstv.ituningspace_get_clsid, tuner/ITuningSpace::get_CLSID
+ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_CLSID method, ITuningSpace.get_CLSID, ITuningSpace::get_CLSID, ITuningSpaceget_CLSID, get_CLSID, get_CLSID method [Microsoft TV Technologies], get_CLSID method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_clsid, tuner/ITuningSpace::get_CLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpace::get_CLSID method
+# ITuningSpace::get_CLSID
 
 
 ## -description

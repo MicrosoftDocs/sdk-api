@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalProperties.GetNetworkType
-title: IBDA_SignalProperties::GetNetworkType method
+title: IBDA_SignalProperties::GetNetworkType
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties_getnetworktype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6c799cad-2371-4845-a783-e7227fb81c4c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetNetworkType method [Microsoft TV Technologies], GetNetworkType method [Microsoft TV Technologies], IBDA_SignalProperties interface, GetNetworkType,IBDA_SignalProperties.GetNetworkType, IBDA_SignalProperties, IBDA_SignalProperties interface [Microsoft TV Technologies], GetNetworkType method, IBDA_SignalProperties::GetNetworkType, IBDA_SignalPropertiesGetNetworkType, bdaiface/IBDA_SignalProperties::GetNetworkType, mstv.ibda_signalproperties_getnetworktype
+ms.keywords: GetNetworkType, GetNetworkType method [Microsoft TV Technologies], GetNetworkType method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetNetworkType method, IBDA_SignalProperties.GetNetworkType, IBDA_SignalProperties::GetNetworkType, IBDA_SignalPropertiesGetNetworkType, bdaiface/IBDA_SignalProperties::GetNetworkType, mstv.ibda_signalproperties_getnetworktype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_SignalProperties::GetNetworkType method
+# IBDA_SignalProperties::GetNetworkType
 
 
 ## -description

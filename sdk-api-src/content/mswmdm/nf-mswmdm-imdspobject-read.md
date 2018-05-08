@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Read
-title: IMDSPObject::Read method
+title: IMDSPObject::Read
 author: windows-driver-content
 description: The Read method reads data from the object at the current position. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_read.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 1acf4112-0cb8-47e4-b8dc-3e820c0ef72f
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IMDSPObject, IMDSPObject interface [windows Media Device Manager], Read method, IMDSPObject::Read, IMDSPObjectRead, Read method [windows Media Device Manager], Read method [windows Media Device Manager], IMDSPObject interface, Read,IMDSPObject.Read, mswmdm/IMDSPObject::Read, wmdm.imdspobject_read
+ms.keywords: IMDSPObject interface [windows Media Device Manager],Read method, IMDSPObject.Read, IMDSPObject::Read, IMDSPObjectRead, Read, Read method [windows Media Device Manager], Read method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Read, wmdm.imdspobject_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPObject::Read method
+# IMDSPObject::Read
 
 
 ## -description

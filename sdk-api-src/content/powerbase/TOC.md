@@ -1,0 +1,7 @@
+# [Error Handling](../_debug/index.md)
+## [Powerbase.h](index.md)
+### [CallNtPowerInformation function](../powerbase/nf-powerbase-callntpowerinformation.md)
+### [GetPwrCapabilities function](../powerbase/nf-powerbase-getpwrcapabilities.md)
+### [PowerDeterminePlatformRoleEx function](../powerbase/nf-powerbase-powerdetermineplatformroleex.md)
+### [PowerRegisterSuspendResumeNotification function](../powerbase/nf-powerbase-powerregistersuspendresumenotification.md)
+### [PowerUnregisterSuspendResumeNotification function](../powerbase/nf-powerbase-powerunregistersuspendresumenotification.md)

@@ -7,7 +7,7 @@ old-location: dshow\amoverlayfx.htm
 old-project: DirectShow
 ms.assetid: fa984504-5175-4b94-8a75-d294cd9546a4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: AMOVERFX_DEINTERLACE, AMOVERFX_MIRRORLEFTRIGHT, AMOVERFX_MIRRORUPDOWN, AMOVERFX_NOFX, AMOVERLAYFX, AMOVERLAYFX enumeration [DirectShow], AMOVERLAYFXEnumeration, dshow.amoverlayfx, strmif/AMOVERFX_DEINTERLACE, strmif/AMOVERFX_MIRRORLEFTRIGHT, strmif/AMOVERFX_MIRRORUPDOWN, strmif/AMOVERFX_NOFX, strmif/AMOVERLAYFX
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnLockGranted
-title: ITextStoreAnchorSink::OnLockGranted method
+title: ITextStoreAnchorSink::OnLockGranted
 author: windows-driver-content
 description: ITextStoreAnchorSink::OnLockGranted method
 old-location: tsf\itextstoreanchorsink_onlockgranted.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4a2ab828-1eb8-4aae-bebd-dc8b406fd58f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchorSink, ITextStoreAnchorSink interface [Text Services Framework], OnLockGranted method, ITextStoreAnchorSink::OnLockGranted, OnLockGranted method [Text Services Framework], OnLockGranted method [Text Services Framework], ITextStoreAnchorSink interface, OnLockGranted,ITextStoreAnchorSink.OnLockGranted, TS_LF_READ, TS_LF_READWRITE, _tsf_itextstoreanchorsink_onlockgranted_ref, textstor/ITextStoreAnchorSink::OnLockGranted, tsf.itextstoreanchorsink_onlockgranted
+ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnLockGranted method, ITextStoreAnchorSink.OnLockGranted, ITextStoreAnchorSink::OnLockGranted, OnLockGranted, OnLockGranted method [Text Services Framework], OnLockGranted method [Text Services Framework],ITextStoreAnchorSink interface, TS_LF_READ, TS_LF_READWRITE, _tsf_itextstoreanchorsink_onlockgranted_ref, textstor/ITextStoreAnchorSink::OnLockGranted, tsf.itextstoreanchorsink_onlockgranted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchorSink::OnLockGranted method
+# ITextStoreAnchorSink::OnLockGranted
 
 
 ## -description

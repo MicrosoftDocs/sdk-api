@@ -7,7 +7,7 @@ old-location: rpc\ndrproxyerrorhandler.htm
 old-project: Rpc
 ms.assetid: d453ac8d-5bcb-4565-be95-17b8b45c8d98
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: NdrProxyErrorHandler, NdrProxyErrorHandler function [RPC], rpc.ndrproxyerrorhandler, rpcproxy/NdrProxyErrorHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

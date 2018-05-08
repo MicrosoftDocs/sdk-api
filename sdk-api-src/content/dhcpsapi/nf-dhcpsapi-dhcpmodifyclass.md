@@ -7,7 +7,7 @@ old-location: dhcp\dhcpmodifyclass.htm
 old-project: DHCP
 ms.assetid: 4ee8897f-d49a-4b60-a26e-e7e11c088353
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpModifyClass, DhcpModifyClass function [DHCP], dhcp.dhcpmodifyclass, dhcpsapi/DhcpModifyClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

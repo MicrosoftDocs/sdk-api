@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_AuthorName
-title: IAMMediaContent::get_AuthorName method
+title: IAMMediaContent::get_AuthorName
 author: windows-driver-content
 description: The get_AuthorName method retrieves the author name.
 old-location: dshow\iammediacontent_get_authorname.htm
 old-project: DirectShow
 ms.assetid: 49ccb07c-1f20-47e9-a05b-f8f3b77acc99
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_AuthorName method, IAMMediaContent::get_AuthorName, IAMMediaContentget_AuthorName, dshow.iammediacontent_get_authorname, get_AuthorName method [DirectShow], get_AuthorName method [DirectShow], IAMMediaContent interface, get_AuthorName,IAMMediaContent.get_AuthorName, qnetwork/IAMMediaContent::get_AuthorName
+ms.date: 4/30/2018
+ms.keywords: IAMMediaContent interface [DirectShow],get_AuthorName method, IAMMediaContent.get_AuthorName, IAMMediaContent::get_AuthorName, IAMMediaContentget_AuthorName, dshow.iammediacontent_get_authorname, get_AuthorName, get_AuthorName method [DirectShow], get_AuthorName method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_AuthorName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMMediaContent::get_AuthorName method
+# IAMMediaContent::get_AuthorName
 
 
 ## -description

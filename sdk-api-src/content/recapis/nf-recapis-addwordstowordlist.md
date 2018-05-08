@@ -7,7 +7,7 @@ old-location: tablet\addwordstowordlist.htm
 old-project: tablet
 ms.assetid: 8487bdad-c927-44dc-b757-40a0aba285ca
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/2/2018
 ms.keywords: 8487bdad-c927-44dc-b757-40a0aba285ca, AddWordsToWordList, AddWordsToWordList function [Tablet PC], recapis/AddWordsToWordList, tablet.addwordstowordlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

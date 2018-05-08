@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.FlushSourceBuffers
-title: IXAudio2SourceVoice::FlushSourceBuffers method
+title: IXAudio2SourceVoice::FlushSourceBuffers
 author: windows-driver-content
 description: Removes all pending audio buffers from the voice queue.
 old-location: xaudio2\ixaudio2sourcevoice_interface_flushsourcebuffers.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.FlushSourceBuffers
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: FlushSourceBuffers method [XAudio2 Audio Mixing APIs], FlushSourceBuffers method [XAudio2 Audio Mixing APIs], IXAudio2SourceVoice interface, FlushSourceBuffers,IXAudio2SourceVoice.FlushSourceBuffers, IXAudio2SourceVoice, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs], FlushSourceBuffers method, IXAudio2SourceVoice::FlushSourceBuffers, xaudio2.ixaudio2sourcevoice_interface_flushsourcebuffers, xaudio2/IXAudio2SourceVoice::FlushSourceBuffers
+ms.keywords: FlushSourceBuffers, FlushSourceBuffers method [XAudio2 Audio Mixing APIs], FlushSourceBuffers method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],FlushSourceBuffers method, IXAudio2SourceVoice.FlushSourceBuffers, IXAudio2SourceVoice::FlushSourceBuffers, xaudio2.ixaudio2sourcevoice_interface_flushsourcebuffers, xaudio2/IXAudio2SourceVoice::FlushSourceBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2SourceVoice::FlushSourceBuffers method
+# IXAudio2SourceVoice::FlushSourceBuffers
 
 
 ## -description

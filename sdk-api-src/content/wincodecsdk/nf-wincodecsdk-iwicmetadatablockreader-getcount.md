@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockReader.GetCount
-title: IWICMetadataBlockReader::GetCount method
+title: IWICMetadataBlockReader::GetCount
 author: windows-driver-content
 description: Retrieves the number of top level metadata blocks.
 old-location: wic\_wic_codec_iwicmetadatablockreader_getcount.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 212e2376-9fad-4bfc-8883-ce89d05c35e6
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetCount method [Windows Imaging Component], GetCount method [Windows Imaging Component], IWICMetadataBlockReader interface, GetCount,IWICMetadataBlockReader.GetCount, IWICMetadataBlockReader, IWICMetadataBlockReader interface [Windows Imaging Component], GetCount method, IWICMetadataBlockReader::GetCount, _wic_codec_iwicmetadatablockreader_getcount, wic._wic_codec_iwicmetadatablockreader_getcount, wincodecsdk/IWICMetadataBlockReader::GetCount
+ms.keywords: GetCount, GetCount method [Windows Imaging Component], GetCount method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetCount method, IWICMetadataBlockReader.GetCount, IWICMetadataBlockReader::GetCount, _wic_codec_iwicmetadatablockreader_getcount, wic._wic_codec_iwicmetadatablockreader_getcount, wincodecsdk/IWICMetadataBlockReader::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataBlockReader::GetCount method
+# IWICMetadataBlockReader::GetCount
 
 
 ## -description

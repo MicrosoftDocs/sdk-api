@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.GetDataFlow
-title: IConnector::GetDataFlow method
+title: IConnector::GetDataFlow
 author: windows-driver-content
 description: The GetDataFlow method gets the direction of data flow through this connector.
 old-location: coreaudio\iconnector_getdataflow.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 55078775-2921-45c2-af27-c8ad53688293
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetDataFlow method [Core Audio], GetDataFlow method [Core Audio], IConnector interface, GetDataFlow,IConnector.GetDataFlow, IConnector, IConnector interface [Core Audio], GetDataFlow method, IConnector::GetDataFlow, IConnectorGetDataFlow, coreaudio.iconnector_getdataflow, devicetopology/IConnector::GetDataFlow
+ms.keywords: GetDataFlow, GetDataFlow method [Core Audio], GetDataFlow method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetDataFlow method, IConnector.GetDataFlow, IConnector::GetDataFlow, IConnectorGetDataFlow, coreaudio.iconnector_getdataflow, devicetopology/IConnector::GetDataFlow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IConnector::GetDataFlow method
+# IConnector::GetDataFlow
 
 
 ## -description

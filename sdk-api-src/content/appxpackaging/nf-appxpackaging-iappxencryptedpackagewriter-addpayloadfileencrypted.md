@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedPackageWriter.AddPayloadFileEncrypted
-title: IAppxEncryptedPackageWriter::AddPayloadFileEncrypted method
+title: IAppxEncryptedPackageWriter::AddPayloadFileEncrypted
 author: windows-driver-content
 description: Adds a new encrypted payload file to the appx package.
 old-location: appxpkg\iappxencryptedpackagewriter_addpayloadfileencrypted.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 4F5823D3-7039-4CA1-BEEA-DF2A13BC54BD
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AddPayloadFileEncrypted method [App packaging and management], AddPayloadFileEncrypted method [App packaging and management], IAppxEncryptedPackageWriter interface, AddPayloadFileEncrypted,IAppxEncryptedPackageWriter.AddPayloadFileEncrypted, IAppxEncryptedPackageWriter, IAppxEncryptedPackageWriter interface [App packaging and management], AddPayloadFileEncrypted method, IAppxEncryptedPackageWriter::AddPayloadFileEncrypted, appxpackaging/IAppxEncryptedPackageWriter::AddPayloadFileEncrypted, appxpkg.iappxencryptedpackagewriter_addpayloadfileencrypted
+ms.keywords: AddPayloadFileEncrypted, AddPayloadFileEncrypted method [App packaging and management], AddPayloadFileEncrypted method [App packaging and management],IAppxEncryptedPackageWriter interface, IAppxEncryptedPackageWriter interface [App packaging and management],AddPayloadFileEncrypted method, IAppxEncryptedPackageWriter.AddPayloadFileEncrypted, IAppxEncryptedPackageWriter::AddPayloadFileEncrypted, appxpackaging/IAppxEncryptedPackageWriter::AddPayloadFileEncrypted, appxpkg.iappxencryptedpackagewriter_addpayloadfileencrypted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxEncryptedPackageWriter::AddPayloadFileEncrypted method
+# IAppxEncryptedPackageWriter::AddPayloadFileEncrypted
 
 
 ## -description

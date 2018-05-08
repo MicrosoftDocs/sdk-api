@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.put_ResultingImageType
-title: IRawCDImageCreator::put_ResultingImageType method
+title: IRawCDImageCreator::put_ResultingImageType
 author: windows-driver-content
 description: Sets the value that defines the type of image file that will be generated.
 old-location: imapi\irawcdimagecreator_put_resultingimagetype.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 1800717a-3b8a-45b2-849b-55c37d3b1b32
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], put_ResultingImageType method, IRawCDImageCreator::put_ResultingImageType, imapi.irawcdimagecreator_put_resultingimagetype, imapi2/IRawCDImageCreator::put_ResultingImageType, put_ResultingImageType method [IMAPI], put_ResultingImageType method [IMAPI], IRawCDImageCreator interface, put_ResultingImageType,IRawCDImageCreator.put_ResultingImageType
+ms.keywords: IRawCDImageCreator interface [IMAPI],put_ResultingImageType method, IRawCDImageCreator.put_ResultingImageType, IRawCDImageCreator::put_ResultingImageType, imapi.irawcdimagecreator_put_resultingimagetype, imapi2/IRawCDImageCreator::put_ResultingImageType, put_ResultingImageType, put_ResultingImageType method [IMAPI], put_ResultingImageType method [IMAPI],IRawCDImageCreator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRawCDImageCreator::put_ResultingImageType method
+# IRawCDImageCreator::put_ResultingImageType
 
 
 ## -description

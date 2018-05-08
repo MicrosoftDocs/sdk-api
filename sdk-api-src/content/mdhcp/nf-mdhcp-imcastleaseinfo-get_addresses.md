@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_Addresses
-title: IMcastLeaseInfo::get_Addresses method
+title: IMcastLeaseInfo::get_Addresses
 author: windows-driver-content
 description: The get_Addresses method obtains the collection of multicast addresses that are the subject of this lease or lease request. This method is primarily for Visual Basic and other scripting languages; C++ programmers use EnumerateAddresses instead.
 old-location: tapi3\imcastleaseinfo_get_addresses.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 37dc1bc8-b3d9-4c84-8d37-89d50570d95c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IMcastLeaseInfo, IMcastLeaseInfo interface [TAPI 2.2], get_Addresses method, IMcastLeaseInfo::get_Addresses, _tapi3_imcastleaseinfo_get_addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2], IMcastLeaseInfo interface, get_Addresses,IMcastLeaseInfo.get_Addresses, mdhcp/IMcastLeaseInfo::get_Addresses, tapi3.imcastleaseinfo_get_addresses
+ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_Addresses method, IMcastLeaseInfo.get_Addresses, IMcastLeaseInfo::get_Addresses, _tapi3_imcastleaseinfo_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_Addresses, tapi3.imcastleaseinfo_get_addresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMcastLeaseInfo::get_Addresses method
+# IMcastLeaseInfo::get_Addresses
 
 
 ## -description

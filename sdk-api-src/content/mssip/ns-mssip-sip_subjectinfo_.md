@@ -7,7 +7,7 @@ old-location: security\sip_subjectinfo.htm
 old-project: SecCrypto
 ms.assetid: 6274cd08-d67f-410d-9303-3a42b7f1edc6
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPSIP_SUBJECTINFO, LPSIP_SUBJECTINFO, LPSIP_SUBJECTINFO structure pointer [Security], MSSIP_ADDINFO_BLOB, MSSIP_ADDINFO_CATMEMBER, MSSIP_ADDINFO_FLAT, MSSIP_ADDINFO_NONE, MSSIP_ADDINFO_NONMSSIP, SIP_SUBJECTINFO, SIP_SUBJECTINFO structure [Security], SIP_SUBJECTINFO_, mssip/LPSIP_SUBJECTINFO, mssip/SIP_SUBJECTINFO, security.sip_subjectinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -203,24 +203,24 @@ The additional information is in a user defined format.
  
 
 
-### -field pClientData
+### -field psFlat
 
-A pointer to SIP-specific data.
-
-
-#### - psBlob
-
-An <a href="https://msdn.microsoft.com/236c8778-0b80-4157-8a81-24712ebf9a77">MS_ADDINFO_BLOB</a> structure that contains additional information for BLOB subject types.
+An <a href="https://msdn.microsoft.com/9f5bebd1-8eda-456d-9339-3334a19c0ea4">MS_ADDINFO_FLAT</a> structure that contains additional information for flat file subject types.
 
 
-#### - psCatMember
+### -field psCatMember
 
 An <a href="https://msdn.microsoft.com/40a00c8a-95e4-406c-b04e-0d29beb70d67">MS_ADDINFO_CATALOGMEMBER</a> structure that contains additional information for catalog member subject types.
 
 
-#### - psFlat
+### -field psBlob
 
-An <a href="https://msdn.microsoft.com/9f5bebd1-8eda-456d-9339-3334a19c0ea4">MS_ADDINFO_FLAT</a> structure that contains additional information for flat file subject types.
+An <a href="https://msdn.microsoft.com/236c8778-0b80-4157-8a81-24712ebf9a77">MS_ADDINFO_BLOB</a> structure that contains additional information for BLOB subject types.
+
+
+### -field pClientData
+
+A pointer to SIP-specific data.
 
 
 ## -remarks

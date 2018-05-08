@@ -7,7 +7,7 @@ old-location: controls\ComboBox_GetCurSel.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcursel.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: ComboBox_GetCurSel, ComboBox_GetCurSel macro [Windows Controls], _win32_ComboBox_GetCurSel, _win32_ComboBox_GetCurSel_cpp, controls.ComboBox_GetCurSel, controls._win32_ComboBox_GetCurSel, windowsx/ComboBox_GetCurSel
 ms.prod: windows-hardware
 ms.technology: windows-devices

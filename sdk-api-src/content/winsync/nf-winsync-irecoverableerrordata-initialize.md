@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableErrorData.Initialize
-title: IRecoverableErrorData::Initialize method
+title: IRecoverableErrorData::Initialize
 author: windows-driver-content
 description: Initializes the object by using the specified display name of the item that caused the error and a description of the error.
 old-location: winsync\irecoverableerrordata_initialize.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: df34b3ee-fc78-47ca-8916-ee4a81110628
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IRecoverableErrorData, IRecoverableErrorData interface [Windows Sync], Initialize method, IRecoverableErrorData::Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync], IRecoverableErrorData interface, Initialize,IRecoverableErrorData.Initialize, winsync.irecoverableerrordata_initialize, winsync/IRecoverableErrorData::Initialize
+ms.keywords: IRecoverableErrorData interface [Windows Sync],Initialize method, IRecoverableErrorData.Initialize, IRecoverableErrorData::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IRecoverableErrorData interface, winsync.irecoverableerrordata_initialize, winsync/IRecoverableErrorData::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IRecoverableErrorData::Initialize method
+# IRecoverableErrorData::Initialize
 
 
 ## -description

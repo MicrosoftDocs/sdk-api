@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeLib.GetLibAttr
-title: ITypeLib::GetLibAttr method
+title: ITypeLib::GetLibAttr
 author: windows-driver-content
 description: Retrieves the structure that contains the library's attributes.
 old-location: automat\itypelib_getlibattr.htm
 old-project: automat
 ms.assetid: edc35364-99dc-438b-81de-4f129c0cf50f
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetLibAttr method [Automation], GetLibAttr method [Automation], ITypeLib interface, GetLibAttr,ITypeLib.GetLibAttr, ITypeLib, ITypeLib interface [Automation], GetLibAttr method, ITypeLib::GetLibAttr, _oa96_ITypeLib_GetLibAttr, automat.itypelib_getlibattr, oaidl/ITypeLib::GetLibAttr
+ms.date: 5/4/2018
+ms.keywords: GetLibAttr, GetLibAttr method [Automation], GetLibAttr method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetLibAttr method, ITypeLib.GetLibAttr, ITypeLib::GetLibAttr, _oa96_ITypeLib_GetLibAttr, automat.itypelib_getlibattr, oaidl/ITypeLib::GetLibAttr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeLib::GetLibAttr method
+# ITypeLib::GetLibAttr
 
 
 ## -description

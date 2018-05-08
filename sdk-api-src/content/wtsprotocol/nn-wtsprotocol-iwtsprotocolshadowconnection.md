@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 83285a6a-903f-4c23-8f62-b04bbeaa52f9
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolShadowConnection, IWTSProtocolShadowConnection interface [Remote Desktop Services], IWTSProtocolShadowConnection interface [Remote Desktop Services], described, termserv.iwtsprotocolshadowconnection, wtsprotocol/IWTSProtocolShadowConnection
+ms.keywords: IWTSProtocolShadowConnection, IWTSProtocolShadowConnection interface [Remote Desktop Services], IWTSProtocolShadowConnection interface [Remote Desktop Services],described, termserv.iwtsprotocolshadowconnection, wtsprotocol/IWTSProtocolShadowConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

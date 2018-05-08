@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.Seek
-title: IStream::Seek method
+title: IStream::Seek
 author: windows-driver-content
 description: Changes the seek pointer to a new location. The new location is relative to either the beginning of the stream, the end of the stream, or the current seek pointer.
 old-location: stg\istream_seek.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: ea087c6d-8854-4a81-b37b-15ab76630973
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IStream, IStream interface [Structured Storage], Seek method, IStream::Seek, Seek method [Structured Storage], Seek method [Structured Storage], IStream interface, Seek,IStream.Seek, _stg_istream_seek, objidl/IStream::Seek, stg.istream_seek
+ms.keywords: IStream interface [Structured Storage],Seek method, IStream.Seek, IStream::Seek, Seek, Seek method [Structured Storage], Seek method [Structured Storage],IStream interface, _stg_istream_seek, objidl/IStream::Seek, stg.istream_seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStream::Seek method
+# IStream::Seek
 
 
 ## -description

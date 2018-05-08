@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.OpenLocalMachineGPO
-title: IGroupPolicyObject::OpenLocalMachineGPO method
+title: IGroupPolicyObject::OpenLocalMachineGPO
 author: windows-driver-content
 description: The OpenLocalMachineGPO method opens the default GPO for the computer and optionally loads the registry information.
 old-location: policy\igrouppolicyobject_openlocalmachinegpo.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: c986152b-59cd-4733-bcdd-ee7f0b6907ad
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], OpenLocalMachineGPO method, IGroupPolicyObject::OpenLocalMachineGPO, OpenLocalMachineGPO method [Group Policy], OpenLocalMachineGPO method [Group Policy], IGroupPolicyObject interface, OpenLocalMachineGPO,IGroupPolicyObject.OpenLocalMachineGPO, _win32_igrouppolicyobject_openlocalmachinegpo, gpedit/IGroupPolicyObject::OpenLocalMachineGPO, policy.igrouppolicyobject_openlocalmachinegpo
+ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject interface [Group Policy],OpenLocalMachineGPO method, IGroupPolicyObject.OpenLocalMachineGPO, IGroupPolicyObject::OpenLocalMachineGPO, OpenLocalMachineGPO, OpenLocalMachineGPO method [Group Policy], OpenLocalMachineGPO method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_openlocalmachinegpo, gpedit/IGroupPolicyObject::OpenLocalMachineGPO, policy.igrouppolicyobject_openlocalmachinegpo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGroupPolicyObject::OpenLocalMachineGPO method
+# IGroupPolicyObject::OpenLocalMachineGPO
 
 
 ## -description

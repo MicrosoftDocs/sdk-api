@@ -7,7 +7,7 @@ old-location: ad\dsgetfriendlyclassname.htm
 old-project: AD
 ms.assetid: 944b7227-2f22-418e-a9da-6fddec66876b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DsGetFriendlyClassName, DsGetFriendlyClassName function [Active Directory], ad.dsgetfriendlyclassname, dsclient/DsGetFriendlyClassName
 ms.prod: windows-hardware
 ms.technology: windows-devices

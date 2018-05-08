@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetSignatureXml
-title: IXpsSignature::GetSignatureXml method
+title: IXpsSignature::GetSignatureXml
 author: windows-driver-content
 description: Gets the XML markup of the digital signature.
 old-location: xps\ixpssignature_getsignaturexml.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 9e76487c-465c-4d15-82d0-ed2a21decc33
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSignatureXml method [XPS Documents and Packaging], GetSignatureXml method [XPS Documents and Packaging], IXpsSignature interface, GetSignatureXml,IXpsSignature.GetSignatureXml, IXpsSignature, IXpsSignature interface [XPS Documents and Packaging], GetSignatureXml method, IXpsSignature::GetSignatureXml, xps.ixpssignature_getsignaturexml, xpsdigitalsignature/IXpsSignature::GetSignatureXml
+ms.keywords: GetSignatureXml, GetSignatureXml method [XPS Documents and Packaging], GetSignatureXml method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureXml method, IXpsSignature.GetSignatureXml, IXpsSignature::GetSignatureXml, xps.ixpssignature_getsignaturexml, xpsdigitalsignature/IXpsSignature::GetSignatureXml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignature::GetSignatureXml method
+# IXpsSignature::GetSignatureXml
 
 
 ## -description

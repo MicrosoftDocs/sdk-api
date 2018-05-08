@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.GetEndpointProxy
-title: IWSDAsyncResult::GetEndpointProxy method
+title: IWSDAsyncResult::GetEndpointProxy
 author: windows-driver-content
 description: Retrieves the endpoint proxy for the asynchronous operation.
 old-location: ncd\iwsdasyncresult_getendpointproxy.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: f2b1f43a-e86c-4ec9-a39f-9c5050f3e3c3
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetEndpointProxy method, GetEndpointProxy method, IWSDAsyncResult interface, GetEndpointProxy,IWSDAsyncResult.GetEndpointProxy, IWSDAsyncResult, IWSDAsyncResult interface, GetEndpointProxy method, IWSDAsyncResult::GetEndpointProxy, ncd.iwsdasyncresult_getendpointproxy, wsdclient/IWSDAsyncResult::GetEndpointProxy
+ms.keywords: GetEndpointProxy, GetEndpointProxy method, GetEndpointProxy method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetEndpointProxy method, IWSDAsyncResult.GetEndpointProxy, IWSDAsyncResult::GetEndpointProxy, ncd.iwsdasyncresult_getendpointproxy, wsdclient/IWSDAsyncResult::GetEndpointProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDAsyncResult::GetEndpointProxy method
+# IWSDAsyncResult::GetEndpointProxy
 
 
 ## -description

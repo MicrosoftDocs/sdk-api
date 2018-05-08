@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetWhitePointRGB
-title: IWICDevelopRaw::GetWhitePointRGB method
+title: IWICDevelopRaw::GetWhitePointRGB
 author: windows-driver-content
 description: Gets the white point RGB values.
 old-location: wic\_wic_codec_iwicdevelopraw_getwhitepointrgb.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: e163ba80-6ed2-4f03-b74f-07c96b478ac0
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetWhitePointRGB method [Windows Imaging Component], GetWhitePointRGB method [Windows Imaging Component], IWICDevelopRaw interface, GetWhitePointRGB,IWICDevelopRaw.GetWhitePointRGB, IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], GetWhitePointRGB method, IWICDevelopRaw::GetWhitePointRGB, _wic_codec_iwicdevelopraw_getwhitepointrgb, wic._wic_codec_iwicdevelopraw_getwhitepointrgb, wincodec/IWICDevelopRaw::GetWhitePointRGB
+ms.keywords: GetWhitePointRGB, GetWhitePointRGB method [Windows Imaging Component], GetWhitePointRGB method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetWhitePointRGB method, IWICDevelopRaw.GetWhitePointRGB, IWICDevelopRaw::GetWhitePointRGB, _wic_codec_iwicdevelopraw_getwhitepointrgb, wic._wic_codec_iwicdevelopraw_getwhitepointrgb, wincodec/IWICDevelopRaw::GetWhitePointRGB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::GetWhitePointRGB method
+# IWICDevelopRaw::GetWhitePointRGB
 
 
 ## -description

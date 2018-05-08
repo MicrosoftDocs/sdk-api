@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFOutputSchema.GetConfigurationData
-title: IMFOutputSchema::GetConfigurationData method
+title: IMFOutputSchema::GetConfigurationData
 author: windows-driver-content
 description: Returns configuration data for the output protection system. The configuration data is used to enable or disable the protection system, and to set the protection levels.
 old-location: mf\imfoutputschema_getconfigurationdata.htm
 old-project: medfound
 ms.assetid: 26730d2d-8ebc-441b-a262-db0c8fe7e75a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 26730d2d-8ebc-441b-a262-db0c8fe7e75a, GetConfigurationData method [Media Foundation], GetConfigurationData method [Media Foundation], IMFOutputSchema interface, GetConfigurationData,IMFOutputSchema.GetConfigurationData, IMFOutputSchema, IMFOutputSchema interface [Media Foundation], GetConfigurationData method, IMFOutputSchema::GetConfigurationData, mf.imfoutputschema_getconfigurationdata, mfidl/IMFOutputSchema::GetConfigurationData
+ms.date: 5/3/2018
+ms.keywords: 26730d2d-8ebc-441b-a262-db0c8fe7e75a, GetConfigurationData, GetConfigurationData method [Media Foundation], GetConfigurationData method [Media Foundation],IMFOutputSchema interface, IMFOutputSchema interface [Media Foundation],GetConfigurationData method, IMFOutputSchema.GetConfigurationData, IMFOutputSchema::GetConfigurationData, mf.imfoutputschema_getconfigurationdata, mfidl/IMFOutputSchema::GetConfigurationData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFOutputSchema::GetConfigurationData method
+# IMFOutputSchema::GetConfigurationData
 
 
 ## -description

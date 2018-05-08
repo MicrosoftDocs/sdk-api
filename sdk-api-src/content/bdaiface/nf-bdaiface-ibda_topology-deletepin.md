@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.DeletePin
-title: IBDA_Topology::DeletePin method
+title: IBDA_Topology::DeletePin
 author: windows-driver-content
 description: The DeletePin method deletes a pin from the filter's topology.
 old-location: mstv\ibda_topology_deletepin.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7ec81e3a-e4f2-4809-9574-8efe6240cfba
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: DeletePin method [Microsoft TV Technologies], DeletePin method [Microsoft TV Technologies], IBDA_Topology interface, DeletePin,IBDA_Topology.DeletePin, IBDA_Topology, IBDA_Topology interface [Microsoft TV Technologies], DeletePin method, IBDA_Topology::DeletePin, IBDA_TopologyDeletePin, bdaiface/IBDA_Topology::DeletePin, mstv.ibda_topology_deletepin
+ms.keywords: DeletePin, DeletePin method [Microsoft TV Technologies], DeletePin method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],DeletePin method, IBDA_Topology.DeletePin, IBDA_Topology::DeletePin, IBDA_TopologyDeletePin, bdaiface/IBDA_Topology::DeletePin, mstv.ibda_topology_deletepin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_Topology::DeletePin method
+# IBDA_Topology::DeletePin
 
 
 ## -description

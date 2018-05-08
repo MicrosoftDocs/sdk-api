@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwProducts.Item
-title: INetFwProducts::Item method
+title: INetFwProducts::Item
 author: windows-driver-content
 description: The Item method returns the product with the specified index if it is in the collection.
 old-location: ics\inetfwproducts_item.htm
 old-project: ICS
 ms.assetid: 091d53bc-3c5e-4960-9bc9-34343fd352ce
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwProducts, INetFwProducts interface [ICS/ICF], Item method, INetFwProducts::Item, Item method [ICS/ICF], Item method [ICS/ICF], INetFwProducts interface, Item,INetFwProducts.Item, ics.inetfwproducts_item, netfw/INetFwProducts::Item
+ms.date: 5/1/2018
+ms.keywords: INetFwProducts interface [ICS/ICF],Item method, INetFwProducts.Item, INetFwProducts::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwProducts interface, ics.inetfwproducts_item, netfw/INetFwProducts::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwProducts::Item method
+# INetFwProducts::Item
 
 
 ## -description

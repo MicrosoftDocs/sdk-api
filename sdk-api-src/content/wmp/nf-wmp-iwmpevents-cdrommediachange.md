@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.CdromMediaChange
-title: IWMPEvents::CdromMediaChange method
+title: IWMPEvents::CdromMediaChange
 author: windows-driver-content
 description: The CdromMediaChange event occurs when a CD or DVD is inserted into or ejected from a CD or DVD drive.
 old-location: wmp\iwmpevents_iwmpevents__cdrommediachange.htm
 old-project: WMP
 ms.assetid: 019ab066-ae2b-4517-bc1c-d96bb6e8e15e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: CdromMediaChange method [Windows Media Player], CdromMediaChange method [Windows Media Player], IWMPEvents interface, CdromMediaChange,IWMPEvents.CdromMediaChange, IWMPEvents, IWMPEvents interface [Windows Media Player], CdromMediaChange method, IWMPEvents::CdromMediaChange, IWMPEventsCdromMediaChange, wmp.iwmpevents_iwmpevents__cdrommediachange, wmp/IWMPEvents::CdromMediaChange
+ms.date: 5/4/2018
+ms.keywords: CdromMediaChange, CdromMediaChange method [Windows Media Player], CdromMediaChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CdromMediaChange method, IWMPEvents.CdromMediaChange, IWMPEvents::CdromMediaChange, IWMPEventsCdromMediaChange, wmp.iwmpevents_iwmpevents__cdrommediachange, wmp/IWMPEvents::CdromMediaChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::CdromMediaChange method
+# IWMPEvents::CdromMediaChange
 
 
 ## -description

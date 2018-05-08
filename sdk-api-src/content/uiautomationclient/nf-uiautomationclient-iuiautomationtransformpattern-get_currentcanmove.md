@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CurrentCanMove
-title: IUIAutomationTransformPattern::get_CurrentCanMove method
+title: IUIAutomationTransformPattern::get_CurrentCanMove
 author: windows-driver-content
 description: Indicates whether the element can be moved.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CurrentCanMove.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: c8b198a7-2b07-4dab-9cb5-95cf8f73cb57
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentCanMove property [Windows Accessibility], CurrentCanMove property [Windows Accessibility], IUIAutomationTransformPattern interface, IUIAutomationTransformPattern, IUIAutomationTransformPattern interface [Windows Accessibility], CurrentCanMove property, IUIAutomationTransformPattern.CurrentCanMove, IUIAutomationTransformPattern::get_CurrentCanMove, get_CurrentCanMove,IUIAutomationTransformPattern.get_CurrentCanMove, uiauto.uiauto_IUIAutomationTransformPattern_CurrentCanMove, uiauto_IUIAutomationTransformPattern_CurrentCanMove, uiautomationclient/IUIAutomationTransformPattern::CurrentCanMove, uiautomationclient/IUIAutomationTransformPattern::get_CurrentCanMove, winauto.uiauto_IUIAutomationTransformPattern_CurrentCanMove
+ms.keywords: CurrentCanMove property [Windows Accessibility], CurrentCanMove property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CurrentCanMove property, IUIAutomationTransformPattern.CurrentCanMove, IUIAutomationTransformPattern.get_CurrentCanMove, IUIAutomationTransformPattern::CurrentCanMove, IUIAutomationTransformPattern::get_CurrentCanMove, get_CurrentCanMove, uiauto.uiauto_IUIAutomationTransformPattern_CurrentCanMove, uiauto_IUIAutomationTransformPattern_CurrentCanMove, uiautomationclient/IUIAutomationTransformPattern::CurrentCanMove, uiautomationclient/IUIAutomationTransformPattern::get_CurrentCanMove, winauto.uiauto_IUIAutomationTransformPattern_CurrentCanMove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTransformPattern::get_CurrentCanMove method
+# IUIAutomationTransformPattern::get_CurrentCanMove
 
 
 ## -description

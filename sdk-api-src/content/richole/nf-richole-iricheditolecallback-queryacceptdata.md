@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOleCallback.QueryAcceptData
-title: IRichEditOleCallback::QueryAcceptData method
+title: IRichEditOleCallback::QueryAcceptData
 author: windows-driver-content
 description: During a paste operation or a drag event, determines if the data that is pasted or dragged should be accepted.
 old-location: controls\IRichEditOleCallback_QueryAcceptData.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryacceptdata.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], QueryAcceptData method, IRichEditOleCallback::QueryAcceptData, QueryAcceptData method [Windows Controls], QueryAcceptData method [Windows Controls], IRichEditOleCallback interface, QueryAcceptData,IRichEditOleCallback.QueryAcceptData, RECO_DROP, RECO_PASTE, _win32_IRichEditOleCallback_QueryAcceptData, _win32_IRichEditOleCallback_QueryAcceptData_cpp, controls.IRichEditOleCallback_QueryAcceptData, controls._win32_IRichEditOleCallback_QueryAcceptData, richole/IRichEditOleCallback::QueryAcceptData
+ms.date: 4/27/2018
+ms.keywords: IRichEditOleCallback interface [Windows Controls],QueryAcceptData method, IRichEditOleCallback.QueryAcceptData, IRichEditOleCallback::QueryAcceptData, QueryAcceptData, QueryAcceptData method [Windows Controls], QueryAcceptData method [Windows Controls],IRichEditOleCallback interface, RECO_DROP, RECO_PASTE, _win32_IRichEditOleCallback_QueryAcceptData, _win32_IRichEditOleCallback_QueryAcceptData_cpp, controls.IRichEditOleCallback_QueryAcceptData, controls._win32_IRichEditOleCallback_QueryAcceptData, richole/IRichEditOleCallback::QueryAcceptData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOleCallback::QueryAcceptData method
+# IRichEditOleCallback::QueryAcceptData
 
 
 ## -description

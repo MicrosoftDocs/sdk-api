@@ -1,0 +1,8 @@
+# [Active Directory Domain Services](../_ad/index.md)
+## [Cmnquery.h](index.md)
+### [LPCQADDFORMSPROC callback function](../cmnquery/nc-cmnquery-lpcqaddformsproc.md)
+### [LPCQADDPAGESPROC callback function](../cmnquery/nc-cmnquery-lpcqaddpagesproc.md)
+### [LPCQPAGEPROC callback function](../cmnquery/nc-cmnquery-lpcqpageproc.md)
+### [CQFORM structure](../cmnquery/ns-cmnquery-cqform.md)
+### [OPENQUERYWINDOW structure](../cmnquery/ns-cmnquery-openquerywindow.md)
+### [_cqpage structure](../cmnquery/ns-cmnquery-_cqpage.md)

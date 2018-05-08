@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.get_HashAlgorithmWStr
-title: IEnroll::get_HashAlgorithmWStr method
+title: IEnroll::get_HashAlgorithmWStr
 author: windows-driver-content
 description: Sets or retrieves only the signature hashing algorithm used to sign the PKCS #10 certification request.
 old-location: security\ienroll4_hashalgorithmwstr.htm
 old-project: SecCrypto
 ms.assetid: c359c4c8-f53d-48f1-a2ac-9275751b48dc
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: HashAlgorithmWStr property [Security], HashAlgorithmWStr property [Security], IEnroll interface, IEnroll, IEnroll interface [Security], HashAlgorithmWStr property, IEnroll.HashAlgorithmWStr, IEnroll::get_HashAlgorithmWStr, IEnroll::put_HashAlgorithmWStr, get_HashAlgorithmWStr,IEnroll.get_HashAlgorithmWStr, security.ienroll4_hashalgorithmwstr, xenroll/IEnroll::HashAlgorithmWStr, xenroll/IEnroll::get_HashAlgorithmWStr, xenroll/IEnroll::put_HashAlgorithmWStr
+ms.date: 4/30/2018
+ms.keywords: HashAlgorithmWStr property [Security], HashAlgorithmWStr property [Security],IEnroll interface, IEnroll interface [Security],HashAlgorithmWStr property, IEnroll.HashAlgorithmWStr, IEnroll.get_HashAlgorithmWStr, IEnroll::HashAlgorithmWStr, IEnroll::get_HashAlgorithmWStr, IEnroll::put_HashAlgorithmWStr, get_HashAlgorithmWStr, security.ienroll4_hashalgorithmwstr, xenroll/IEnroll::HashAlgorithmWStr, xenroll/IEnroll::get_HashAlgorithmWStr, xenroll/IEnroll::put_HashAlgorithmWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::get_HashAlgorithmWStr method
+# IEnroll::get_HashAlgorithmWStr
 
 
 ## -description

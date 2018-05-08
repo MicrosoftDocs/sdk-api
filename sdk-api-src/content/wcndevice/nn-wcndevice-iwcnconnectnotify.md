@@ -8,7 +8,7 @@ old-project: wcn
 ms.assetid: 63ea2b5a-4bec-4050-9a61-962a1faef0a0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWCNConnectNotify, IWCNConnectNotify interface [Windows Connect Now], IWCNConnectNotify interface [Windows Connect Now], described, wcn.iwcnconnectnotify, wcndevice/IWCNConnectNotify
+ms.keywords: IWCNConnectNotify, IWCNConnectNotify interface [Windows Connect Now], IWCNConnectNotify interface [Windows Connect Now],described, wcn.iwcnconnectnotify, wcndevice/IWCNConnectNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

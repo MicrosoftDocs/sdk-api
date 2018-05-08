@@ -7,8 +7,8 @@ old-location: dshow\iamparse.htm
 old-project: DirectShow
 ms.assetid: c5f3e153-c92f-4cdf-9aae-336b1f3dd8d6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMParse, IAMParse interface [DirectShow], IAMParse interface [DirectShow], described, IAMParseInterface, amparse/IAMParse, dshow.iamparse
+ms.date: 4/30/2018
+ms.keywords: IAMParse, IAMParse interface [DirectShow], IAMParse interface [DirectShow],described, IAMParseInterface, amparse/IAMParse, dshow.iamparse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

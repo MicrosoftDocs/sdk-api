@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputStreamCount
-title: IMFASFStreamSelector::GetOutputStreamCount method
+title: IMFASFStreamSelector::GetOutputStreamCount
 author: windows-driver-content
 description: Retrieves the number of streams associated with an output.
 old-location: mf\imfasfstreamselector_getoutputstreamcount.htm
 old-project: medfound
 ms.assetid: 928e958b-55dc-4939-8ac3-282389f0077a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 928e958b-55dc-4939-8ac3-282389f0077a, GetOutputStreamCount method [Media Foundation], GetOutputStreamCount method [Media Foundation], IMFASFStreamSelector interface, GetOutputStreamCount,IMFASFStreamSelector.GetOutputStreamCount, IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], GetOutputStreamCount method, IMFASFStreamSelector::GetOutputStreamCount, mf.imfasfstreamselector_getoutputstreamcount, wmcontainer/IMFASFStreamSelector::GetOutputStreamCount
+ms.date: 5/3/2018
+ms.keywords: 928e958b-55dc-4939-8ac3-282389f0077a, GetOutputStreamCount, GetOutputStreamCount method [Media Foundation], GetOutputStreamCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputStreamCount method, IMFASFStreamSelector.GetOutputStreamCount, IMFASFStreamSelector::GetOutputStreamCount, mf.imfasfstreamselector_getoutputstreamcount, wmcontainer/IMFASFStreamSelector::GetOutputStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFStreamSelector::GetOutputStreamCount method
+# IMFASFStreamSelector::GetOutputStreamCount
 
 
 ## -description

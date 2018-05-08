@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.SetMathZone
-title: ITextFont2::SetMathZone method
+title: ITextFont2::SetMathZone
 author: windows-driver-content
 description: Sets whether a math zone is active.
 old-location: controls\itextfont2_setmathzone.htm
 old-project: Controls
 ms.assetid: 4e43d51a-3001-4611-8aa1-fcf8cc2655fc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetMathZone method, ITextFont2::SetMathZone, SetMathZone method [Windows Controls], SetMathZone method [Windows Controls], ITextFont2 interface, SetMathZone,ITextFont2.SetMathZone, controls.itextfont2_setmathzone, tom/ITextFont2::SetMathZone
+ms.date: 4/27/2018
+ms.keywords: ITextFont2 interface [Windows Controls],SetMathZone method, ITextFont2.SetMathZone, ITextFont2::SetMathZone, SetMathZone, SetMathZone method [Windows Controls], SetMathZone method [Windows Controls],ITextFont2 interface, controls.itextfont2_setmathzone, tom/ITextFont2::SetMathZone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::SetMathZone method
+# ITextFont2::SetMathZone
 
 
 ## -description

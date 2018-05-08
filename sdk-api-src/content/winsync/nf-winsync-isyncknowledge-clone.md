@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.Clone
-title: ISyncKnowledge::Clone method
+title: ISyncKnowledge::Clone
 author: windows-driver-content
 description: Creates a new instance of this object, and copies the data from this object to the new object.
 old-location: winsync\isyncknowledge_clone.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 4f8dbe6f-e686-464a-98d0-b6e78bfd405a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Clone method [Windows Sync], Clone method [Windows Sync], ISyncKnowledge interface, Clone,ISyncKnowledge.Clone, ISyncKnowledge, ISyncKnowledge interface [Windows Sync], Clone method, ISyncKnowledge::Clone, winsync.isyncknowledge_clone, winsync/ISyncKnowledge::Clone
+ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],Clone method, ISyncKnowledge.Clone, ISyncKnowledge::Clone, winsync.isyncknowledge_clone, winsync/ISyncKnowledge::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::Clone method
+# ISyncKnowledge::Clone
 
 
 ## -description

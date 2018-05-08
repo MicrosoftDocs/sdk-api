@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession2.get_UserLocale
-title: IUpdateSession2::get_UserLocale method
+title: IUpdateSession2::get_UserLocale
 author: windows-driver-content
 description: Gets and sets the preferred locale for which update information is retrieved..
 old-location: wua\iupdatesession2_userlocale.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 30ee1836-ea70-4dd1-b531-a7ca32ca940d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateSession2, IUpdateSession2 interface [Windows Update Agent], UserLocale property, IUpdateSession2.UserLocale, IUpdateSession2::get_UserLocale, IUpdateSession2::put_UserLocale, UserLocale property [Windows Update Agent], UserLocale property [Windows Update Agent], IUpdateSession2 interface, get_UserLocale,IUpdateSession2.get_UserLocale, wua.iupdatesession2_userlocale, wuapi/IUpdateSession2::UserLocale, wuapi/IUpdateSession2::get_UserLocale, wuapi/IUpdateSession2::put_UserLocale
+ms.keywords: IUpdateSession2 interface [Windows Update Agent],UserLocale property, IUpdateSession2.UserLocale, IUpdateSession2.get_UserLocale, IUpdateSession2::UserLocale, IUpdateSession2::get_UserLocale, IUpdateSession2::put_UserLocale, UserLocale property [Windows Update Agent], UserLocale property [Windows Update Agent],IUpdateSession2 interface, get_UserLocale, wua.iupdatesession2_userlocale, wuapi/IUpdateSession2::UserLocale, wuapi/IUpdateSession2::get_UserLocale, wuapi/IUpdateSession2::put_UserLocale
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSession2::get_UserLocale method
+# IUpdateSession2::get_UserLocale
 
 
 ## -description

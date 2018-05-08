@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMetadataPicture.get_description
-title: IWMPMetadataPicture::get_description method
+title: IWMPMetadataPicture::get_description
 author: windows-driver-content
 description: The get_description method retrieves a pointer to the description of the metadata image.
 old-location: wmp\iwmpmetadatapicture_get_description.htm
 old-project: WMP
 ms.assetid: b8003560-d80d-4e0a-a6a9-88d908245477
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMetadataPicture, IWMPMetadataPicture interface [Windows Media Player], get_description method, IWMPMetadataPicture::get_description, IWMPMetadataPictureget_description, get_description method [Windows Media Player], get_description method [Windows Media Player], IWMPMetadataPicture interface, get_description,IWMPMetadataPicture.get_description, wmp.iwmpmetadatapicture_get_description, wmp/IWMPMetadataPicture::get_description
+ms.date: 5/4/2018
+ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_description method, IWMPMetadataPicture.get_description, IWMPMetadataPicture::get_description, IWMPMetadataPictureget_description, get_description, get_description method [Windows Media Player], get_description method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_description, wmp/IWMPMetadataPicture::get_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMetadataPicture::get_description method
+# IWMPMetadataPicture::get_description
 
 
 ## -description

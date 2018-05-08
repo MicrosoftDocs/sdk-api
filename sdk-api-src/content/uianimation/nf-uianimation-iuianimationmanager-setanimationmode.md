@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.SetAnimationMode
-title: IUIAnimationManager::SetAnimationMode method
+title: IUIAnimationManager::SetAnimationMode
 author: windows-driver-content
 description: Sets the animation mode.
 old-location: uianimation\iuianimationmanager_setanimationmode.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: b5d6c5f1-1e1c-497f-a556-f419e2c68585
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationManager, IUIAnimationManager interface [Windows Animation], SetAnimationMode method, IUIAnimationManager::SetAnimationMode, SetAnimationMode method [Windows Animation], SetAnimationMode method [Windows Animation], IUIAnimationManager interface, SetAnimationMode,IUIAnimationManager.SetAnimationMode, uianimation.iuianimationmanager_setanimationmode, uianimation/IUIAnimationManager::SetAnimationMode
+ms.keywords: IUIAnimationManager interface [Windows Animation],SetAnimationMode method, IUIAnimationManager.SetAnimationMode, IUIAnimationManager::SetAnimationMode, SetAnimationMode, SetAnimationMode method [Windows Animation], SetAnimationMode method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setanimationmode, uianimation/IUIAnimationManager::SetAnimationMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager::SetAnimationMode method
+# IUIAnimationManager::SetAnimationMode
 
 
 ## -description

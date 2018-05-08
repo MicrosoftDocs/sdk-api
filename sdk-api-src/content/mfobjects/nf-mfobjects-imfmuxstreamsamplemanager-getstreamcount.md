@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamSampleManager.GetStreamCount
-title: IMFMuxStreamSampleManager::GetStreamCount method
+title: IMFMuxStreamSampleManager::GetStreamCount
 author: windows-driver-content
 description: Gets the count of substreams managed by the multiplexed media source.
 old-location: mf\imfmuxstreamsamplemanager_getstreamcount.htm
 old-project: medfound
 ms.assetid: 7DB1AEAD-591F-4FA0-9DF0-9774C76A4B91
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation], IMFMuxStreamSampleManager interface, GetStreamCount,IMFMuxStreamSampleManager.GetStreamCount, IMFMuxStreamSampleManager, IMFMuxStreamSampleManager interface [Media Foundation], GetStreamCount method, IMFMuxStreamSampleManager::GetStreamCount, mf.imfmuxstreamsamplemanager_getstreamcount, mfobjects/IMFMuxStreamSampleManager::GetStreamCount
+ms.date: 5/3/2018
+ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFMuxStreamSampleManager interface, IMFMuxStreamSampleManager interface [Media Foundation],GetStreamCount method, IMFMuxStreamSampleManager.GetStreamCount, IMFMuxStreamSampleManager::GetStreamCount, mf.imfmuxstreamsamplemanager_getstreamcount, mfobjects/IMFMuxStreamSampleManager::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMuxStreamSampleManager::GetStreamCount method
+# IMFMuxStreamSampleManager::GetStreamCount
 
 
 ## -description

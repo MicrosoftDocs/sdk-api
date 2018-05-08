@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.AddInterface
-title: IAzBizRuleInterfaces::AddInterface method
+title: IAzBizRuleInterfaces::AddInterface
 author: windows-driver-content
 description: Adds the specified interface to the list of IDispatch interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_addinterface.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 063492b9-9970-4605-84f5-d8b80afc719b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddInterface method [Security], AddInterface method [Security], IAzBizRuleInterfaces interface, AddInterface,IAzBizRuleInterfaces.AddInterface, IAzBizRuleInterfaces, IAzBizRuleInterfaces interface [Security], AddInterface method, IAzBizRuleInterfaces::AddInterface, azroles/IAzBizRuleInterfaces::AddInterface, security.iazbizruleinterfaces_addinterface
+ms.keywords: AddInterface, AddInterface method [Security], AddInterface method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],AddInterface method, IAzBizRuleInterfaces.AddInterface, IAzBizRuleInterfaces::AddInterface, azroles/IAzBizRuleInterfaces::AddInterface, security.iazbizruleinterfaces_addinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAzBizRuleInterfaces::AddInterface method
+# IAzBizRuleInterfaces::AddInterface
 
 
 ## -description

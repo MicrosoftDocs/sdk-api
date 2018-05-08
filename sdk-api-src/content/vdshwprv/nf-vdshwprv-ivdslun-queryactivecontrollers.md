@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.QueryActiveControllers
-title: IVdsLun::QueryActiveControllers method
+title: IVdsLun::QueryActiveControllers
 author: windows-driver-content
 description: Returns an enumeration of currently active controllers&#8212;the controllers through which the LUN is accessible.
 old-location: base\ivdslun_queryactivecontrollers.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 82561e4a-f2c2-46da-96bb-fbd50d4f7c39
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsLun, IVdsLun interface [VDS], QueryActiveControllers method, IVdsLun::QueryActiveControllers, QueryActiveControllers method [VDS], QueryActiveControllers method [VDS], IVdsLun interface, QueryActiveControllers,IVdsLun.QueryActiveControllers, base.ivdslun_queryactivecontrollers, vds/IVdsLun::QueryActiveControllers, vdshwprv/IVdsLun::QueryActiveControllers
+ms.keywords: IVdsLun interface [VDS],QueryActiveControllers method, IVdsLun.QueryActiveControllers, IVdsLun::QueryActiveControllers, QueryActiveControllers, QueryActiveControllers method [VDS], QueryActiveControllers method [VDS],IVdsLun interface, base.ivdslun_queryactivecontrollers, vds/IVdsLun::QueryActiveControllers, vdshwprv/IVdsLun::QueryActiveControllers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLun::QueryActiveControllers method
+# IVdsLun::QueryActiveControllers
 
 
 ## -description

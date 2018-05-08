@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 515e5f01-a68f-4e67-acf5-cac1923d485e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnConfigureRegisterWord, ITfFnConfigureRegisterWord interface [Text Services Framework], ITfFnConfigureRegisterWord interface [Text Services Framework], described, _tsf_itffnconfigureregisterword_ref, ctffunc/ITfFnConfigureRegisterWord, tsf.itffnconfigureregisterword
+ms.keywords: ITfFnConfigureRegisterWord, ITfFnConfigureRegisterWord interface [Text Services Framework], ITfFnConfigureRegisterWord interface [Text Services Framework],described, _tsf_itffnconfigureregisterword_ref, ctffunc/ITfFnConfigureRegisterWord, tsf.itffnconfigureregisterword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

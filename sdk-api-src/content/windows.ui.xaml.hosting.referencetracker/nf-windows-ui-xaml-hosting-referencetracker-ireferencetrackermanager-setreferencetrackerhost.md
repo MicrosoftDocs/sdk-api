@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager.SetReferenceTrackerHost
-title: IReferenceTrackerManager::SetReferenceTrackerHost method
+title: IReferenceTrackerManager::xaml
 author: windows-driver-content
 description: Registers an IReferenceTrackerHost interface with XAML.
 old-location: winrt\ireferencetrackermanager_setreferencetrackerhost.htm
 old-project: WinRT
 ms.assetid: 02828d30-5023-4bd6-9c7a-8a3458462655
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IReferenceTrackerManager, IReferenceTrackerManager interface [Windows Runtime], SetReferenceTrackerHost method, IReferenceTrackerManager::SetReferenceTrackerHost, SetReferenceTrackerHost method [Windows Runtime], SetReferenceTrackerHost method [Windows Runtime], IReferenceTrackerManager interface, SetReferenceTrackerHost,IReferenceTrackerManager.SetReferenceTrackerHost, windows/IReferenceTrackerManager::SetReferenceTrackerHost, winrt.ireferencetrackermanager_setreferencetrackerhost
+ms.date: 5/4/2018
+ms.keywords: IReferenceTrackerManager interface [Windows Runtime],SetReferenceTrackerHost method, IReferenceTrackerManager.SetReferenceTrackerHost, IReferenceTrackerManager.xaml, IReferenceTrackerManager::SetReferenceTrackerHost, IReferenceTrackerManager::xaml, SetReferenceTrackerHost, SetReferenceTrackerHost method [Windows Runtime], SetReferenceTrackerHost method [Windows Runtime],IReferenceTrackerManager interface, windows/IReferenceTrackerManager::SetReferenceTrackerHost, winrt.ireferencetrackermanager_setreferencetrackerhost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IReferenceTrackerManager::SetReferenceTrackerHost method
+# IReferenceTrackerManager::xaml
 
 
 ## -description

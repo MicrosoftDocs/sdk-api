@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellCheckerFactory.CreateSpellChecker
-title: ISpellCheckerFactory::CreateSpellChecker method
+title: ISpellCheckerFactory::CreateSpellChecker
 author: windows-driver-content
 description: Creates a spell checker that supports the specified language.
 old-location: intl\ispellcheckerfactory_createspellchecker.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 9167b675-01ec-4173-a790-5452907b5598
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: CreateSpellChecker method [Internationalization for Windows Applications], CreateSpellChecker method [Internationalization for Windows Applications], ISpellCheckerFactory interface, CreateSpellChecker,ISpellCheckerFactory.CreateSpellChecker, ISpellCheckerFactory, ISpellCheckerFactory interface [Internationalization for Windows Applications], CreateSpellChecker method, ISpellCheckerFactory::CreateSpellChecker, intl.ispellcheckerfactory_createspellchecker, spellcheck/ISpellCheckerFactory::CreateSpellChecker
+ms.keywords: CreateSpellChecker, CreateSpellChecker method [Internationalization for Windows Applications], CreateSpellChecker method [Internationalization for Windows Applications],ISpellCheckerFactory interface, ISpellCheckerFactory interface [Internationalization for Windows Applications],CreateSpellChecker method, ISpellCheckerFactory.CreateSpellChecker, ISpellCheckerFactory::CreateSpellChecker, intl.ispellcheckerfactory_createspellchecker, spellcheck/ISpellCheckerFactory::CreateSpellChecker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellCheckerFactory::CreateSpellChecker method
+# ISpellCheckerFactory::CreateSpellChecker
 
 
 ## -description

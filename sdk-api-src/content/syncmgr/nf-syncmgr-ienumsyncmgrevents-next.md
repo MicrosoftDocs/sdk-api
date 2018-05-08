@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Next
-title: IEnumSyncMgrEvents::Next method
+title: IEnumSyncMgrEvents::Next
 author: windows-driver-content
 description: Gets the next batch of events from the event store.
 old-location: shell\IEnumSyncMgrEvents_Next.htm
 old-project: shell
 ms.assetid: 22151b04-f4b8-46af-b55a-1ac2054900d3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumSyncMgrEvents, IEnumSyncMgrEvents interface [Windows Shell], Next method, IEnumSyncMgrEvents::Next, Next method [Windows Shell], Next method [Windows Shell], IEnumSyncMgrEvents interface, Next,IEnumSyncMgrEvents.Next, _shell_IEnumSyncMgrEvents_Next, shell.IEnumSyncMgrEvents_Next, syncmgr/IEnumSyncMgrEvents::Next
+ms.date: 5/3/2018
+ms.keywords: IEnumSyncMgrEvents interface [Windows Shell],Next method, IEnumSyncMgrEvents.Next, IEnumSyncMgrEvents::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumSyncMgrEvents interface, _shell_IEnumSyncMgrEvents_Next, shell.IEnumSyncMgrEvents_Next, syncmgr/IEnumSyncMgrEvents::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumSyncMgrEvents::Next method
+# IEnumSyncMgrEvents::Next
 
 
 ## -description

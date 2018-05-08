@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetStartTime
-title: IMFTimedTextCue::GetStartTime method
+title: IMFTimedTextCue::GetStartTime
 author: windows-driver-content
 description: Gets the start time of the cue in the track.
 old-location: mf\imftimedtextcue_getstarttime.htm
 old-project: medfound
 ms.assetid: A5D7766E-7692-449A-86CE-93A787DBDCDC
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStartTime method [Media Foundation], GetStartTime method [Media Foundation], IMFTimedTextCue interface, GetStartTime,IMFTimedTextCue.GetStartTime, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetStartTime method, IMFTimedTextCue::GetStartTime, mf.imftimedtextcue_getstarttime, mfmediaengine/IMFTimedTextCue::GetStartTime
+ms.date: 5/3/2018
+ms.keywords: GetStartTime, GetStartTime method [Media Foundation], GetStartTime method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetStartTime method, IMFTimedTextCue.GetStartTime, IMFTimedTextCue::GetStartTime, mf.imftimedtextcue_getstarttime, mfmediaengine/IMFTimedTextCue::GetStartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextCue::GetStartTime method
+# IMFTimedTextCue::GetStartTime
 
 
 ## -description

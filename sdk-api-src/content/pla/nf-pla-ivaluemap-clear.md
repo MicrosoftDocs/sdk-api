@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.Clear
-title: IValueMap::Clear method
+title: IValueMap::Clear
 author: windows-driver-content
 description: Removes all items from the collection
 old-location: pla\ivaluemap_clear.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 41c80954-efc2-47ff-87e2-f33d7123cb40
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Clear method [PLA], Clear method [PLA], IValueMap interface, Clear,IValueMap.Clear, IValueMap, IValueMap interface [PLA], Clear method, IValueMap::Clear, base.ivaluemap_clear, pla.ivaluemap_clear, pla/IValueMap::Clear
+ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IValueMap interface, IValueMap interface [PLA],Clear method, IValueMap.Clear, IValueMap::Clear, base.ivaluemap_clear, pla.ivaluemap_clear, pla/IValueMap::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IValueMap::Clear method
+# IValueMap::Clear
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_server_config_info_vq.htm
 old-project: DHCP
 ms.assetid: 54b5898f-8e9d-42be-b68e-32884d3dbe08
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_SERVER_CONFIG_INFO_VQ, DEBUG_ADDRESS, DEBUG_ALLOC, DEBUG_APIS, DEBUG_API_VERBOSE, DEBUG_AUDITLOG, DEBUG_CLIENT, DEBUG_DNS, DEBUG_ERRORS, DEBUG_INIT, DEBUG_JET, DEBUG_LOG_IN_FILE, DEBUG_MESSAGE, DEBUG_MISC, DEBUG_MSTOC, DEBUG_OPTIONS, DEBUG_PARAMETERS, DEBUG_PERF, DEBUG_PING, DEBUG_PNP, DEBUG_QUARANTINE, DEBUG_REGISTRY, DEBUG_ROGUE, DEBUG_SCAVENGER, DEBUG_STARTUP_BRK, DEBUG_STOC, DEBUG_THREAD, DEBUG_THREADPOOL, DEBUG_TIMESTAMP, DEBUG_TRACE, DEBUG_TRACE_CALLS, DEBUG_TRACK, DHCP_SERVER_CONFIG_INFO_VQ, DHCP_SERVER_CONFIG_INFO_VQ structure [DHCP], DHCP_SERVER_USE_RPC_OVER_ALL, DHCP_SERVER_USE_RPC_OVER_LPC, DHCP_SERVER_USE_RPC_OVER_NP, DHCP_SERVER_USE_RPC_OVER_TCPIP, PDHCP_SERVER_CONFIG_INFO_VQ, PDHCP_SERVER_CONFIG_INFO_VQ structure pointer [DHCP], _DHCP_SERVER_CONFIG_INFO_VQ, dhcp.dhcp_server_config_info_vq, dhcpsapi/DHCP_SERVER_CONFIG_INFO_VQ, dhcpsapi/PDHCP_SERVER_CONFIG_INFO_VQ"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -528,6 +528,16 @@ Integer value that contains the size of the BOOT TABLE given to the DHCP client.
 ### -field wszBootTableString
 
 Pointer to a null-terminated Unicode string that contains the absolute path of the BOOTP TABLE given to the BOOTP client.
+
+
+### -field wszBootTableString.size_is
+
+ 
+
+
+### -field wszBootTableString.size_is.cbBootTableString/2
+
+ 
 
 
 ### -field fAuditLog

@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetExpansionVelocity
-title: IManipulationProcessor::GetExpansionVelocity method
+title: IManipulationProcessor::GetExpansionVelocity
 author: windows-driver-content
 description: The GetExpansionVelocity method calculates the rate that the target object is expanding at.
 old-location: wintouch\imanipulationprocessor_getexpansionvelocity.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 5dbaeaa3-4abf-485e-9f84-8450dce14fc9
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetExpansionVelocity method [Windows Touch], GetExpansionVelocity method [Windows Touch], IManipulationProcessor interface, GetExpansionVelocity,IManipulationProcessor.GetExpansionVelocity, IManipulationProcessor, IManipulationProcessor interface [Windows Touch], GetExpansionVelocity method, IManipulationProcessor::GetExpansionVelocity, manipulations/IManipulationProcessor::GetExpansionVelocity, wintouch.imanipulationprocessor_getexpansionvelocity
+ms.keywords: GetExpansionVelocity, GetExpansionVelocity method [Windows Touch], GetExpansionVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetExpansionVelocity method, IManipulationProcessor.GetExpansionVelocity, IManipulationProcessor::GetExpansionVelocity, manipulations/IManipulationProcessor::GetExpansionVelocity, wintouch.imanipulationprocessor_getexpansionvelocity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IManipulationProcessor::GetExpansionVelocity method
+# IManipulationProcessor::GetExpansionVelocity
 
 
 ## -description

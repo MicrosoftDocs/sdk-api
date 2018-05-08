@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12SharingContract.SharedFenceSignal
-title: ID3D12SharingContract::SharedFenceSignal method
+title: ID3D12SharingContract::SharedFenceSignal
 author: windows-driver-content
 description: Signals a shared fence between the D3D layers and diagnostics tools.
 old-location: direct3d12\id3d12sharingcontract_sharedfencesignal.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: E90576A7-B665-4911-A17E-FD328CD71458
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12SharingContract, ID3D12SharingContract interface, SharedFenceSignal method, ID3D12SharingContract::SharedFenceSignal, SharedFenceSignal method, SharedFenceSignal method, ID3D12SharingContract interface, SharedFenceSignal,ID3D12SharingContract.SharedFenceSignal, d3d12sdklayers/ID3D12SharingContract::SharedFenceSignal, direct3d12.id3d12sharingcontract_sharedfencesignal
+ms.keywords: ID3D12SharingContract interface,SharedFenceSignal method, ID3D12SharingContract.SharedFenceSignal, ID3D12SharingContract::SharedFenceSignal, SharedFenceSignal, SharedFenceSignal method, SharedFenceSignal method,ID3D12SharingContract interface, d3d12sdklayers/ID3D12SharingContract::SharedFenceSignal, direct3d12.id3d12sharingcontract_sharedfencesignal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12SharingContract::SharedFenceSignal method
+# ID3D12SharingContract::SharedFenceSignal
 
 
 ## -description

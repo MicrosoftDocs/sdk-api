@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeDisconnectInfo.get_Reason
-title: IRDPSRAPIAttendeeDisconnectInfo::get_Reason method
+title: IRDPSRAPIAttendeeDisconnectInfo::get_Reason
 author: windows-driver-content
 description: The reason the attendee was disconnected.
 old-location: rdp\irdpsrapiattendeedisconnectinfo_reason.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 4445809f-1aad-4d76-9199-4d5246c7c83d
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIAttendeeDisconnectInfo, IRDPSRAPIAttendeeDisconnectInfo interface [RDP], Reason property, IRDPSRAPIAttendeeDisconnectInfo.Reason, IRDPSRAPIAttendeeDisconnectInfo::get_Reason, RDPSRAPIAttendeeDisconnectInfo object [RDP], Reason property, Reason property [RDP], Reason property [RDP], IRDPSRAPIAttendeeDisconnectInfo interface, Reason property [RDP], RDPSRAPIAttendeeDisconnectInfo object, get_Reason,IRDPSRAPIAttendeeDisconnectInfo.get_Reason, rdp.irdpsrapiattendeedisconnectinfo_reason, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::Reason, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::get_Reason
+ms.keywords: IRDPSRAPIAttendeeDisconnectInfo interface [RDP],Reason property, IRDPSRAPIAttendeeDisconnectInfo.Reason, IRDPSRAPIAttendeeDisconnectInfo.get_Reason, IRDPSRAPIAttendeeDisconnectInfo::Reason, IRDPSRAPIAttendeeDisconnectInfo::get_Reason, RDPSRAPIAttendeeDisconnectInfo object [RDP],Reason property, Reason property [RDP], Reason property [RDP],IRDPSRAPIAttendeeDisconnectInfo interface, Reason property [RDP],RDPSRAPIAttendeeDisconnectInfo object, get_Reason, rdp.irdpsrapiattendeedisconnectinfo_reason, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::Reason, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::get_Reason
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIAttendeeDisconnectInfo::get_Reason method
+# IRDPSRAPIAttendeeDisconnectInfo::get_Reason
 
 
 ## -description

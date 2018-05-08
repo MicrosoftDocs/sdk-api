@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetBufferWindow
-title: IWMStreamConfig::SetBufferWindow method
+title: IWMStreamConfig::SetBufferWindow
 author: windows-driver-content
 description: The SetBufferWindow method specifies the maximum latency between when a stream is received and when it begins to be displayed.
 old-location: wmformat\iwmstreamconfig_setbufferwindow.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ae14f3df-222a-494c-a171-02aed04490d1
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMStreamConfig, IWMStreamConfig interface [windows Media Format], SetBufferWindow method, IWMStreamConfig::SetBufferWindow, IWMStreamConfigSetBufferWindow, SetBufferWindow method [windows Media Format], SetBufferWindow method [windows Media Format], IWMStreamConfig interface, SetBufferWindow,IWMStreamConfig.SetBufferWindow, wmformat.iwmstreamconfig_setbufferwindow, wmsdkidl/IWMStreamConfig::SetBufferWindow
+ms.keywords: IWMStreamConfig interface [windows Media Format],SetBufferWindow method, IWMStreamConfig.SetBufferWindow, IWMStreamConfig::SetBufferWindow, IWMStreamConfigSetBufferWindow, SetBufferWindow, SetBufferWindow method [windows Media Format], SetBufferWindow method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setbufferwindow, wmsdkidl/IWMStreamConfig::SetBufferWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig::SetBufferWindow method
+# IWMStreamConfig::SetBufferWindow
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetWidowControl
-title: ITextPara::GetWidowControl method
+title: ITextPara::GetWidowControl
 author: windows-driver-content
 description: Retrieves the widow and orphan control state for the paragraphs in a range.
 old-location: controls\ITextPara_GetWidowControl.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getwidowcontrol.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetWidowControl method [Windows Controls], GetWidowControl method [Windows Controls], ITextPara interface, GetWidowControl,ITextPara.GetWidowControl, ITextPara, ITextPara interface [Windows Controls], GetWidowControl method, ITextPara::GetWidowControl, _win32_ITextPara_GetWidowControl, _win32_ITextPara_GetWidowControl_cpp, controls.ITextPara_GetWidowControl, controls._win32_ITextPara_GetWidowControl, tom/ITextPara::GetWidowControl
+ms.date: 4/27/2018
+ms.keywords: GetWidowControl, GetWidowControl method [Windows Controls], GetWidowControl method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetWidowControl method, ITextPara.GetWidowControl, ITextPara::GetWidowControl, _win32_ITextPara_GetWidowControl, _win32_ITextPara_GetWidowControl_cpp, controls.ITextPara_GetWidowControl, controls._win32_ITextPara_GetWidowControl, tom/ITextPara::GetWidowControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetWidowControl method
+# ITextPara::GetWidowControl
 
 
 ## -description

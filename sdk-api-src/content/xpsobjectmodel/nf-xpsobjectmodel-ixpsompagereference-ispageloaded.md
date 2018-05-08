@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.IsPageLoaded
-title: IXpsOMPageReference::IsPageLoaded method
+title: IXpsOMPageReference::IsPageLoaded
 author: windows-driver-content
 description: Gets the referenced page status, which indicates whether the page is loaded.
 old-location: xps\ixpsompagereference_ispageloaded.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 12b7d824-65eb-4d24-bfb6-40f55085186c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FALSE, IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], IsPageLoaded method, IXpsOMPageReference::IsPageLoaded, IsPageLoaded method [XPS Documents and Packaging], IsPageLoaded method [XPS Documents and Packaging], IXpsOMPageReference interface, IsPageLoaded,IXpsOMPageReference.IsPageLoaded, TRUE, xps.ixpsompagereference_ispageloaded, xpsobjectmodel/IXpsOMPageReference::IsPageLoaded
+ms.keywords: FALSE, IXpsOMPageReference interface [XPS Documents and Packaging],IsPageLoaded method, IXpsOMPageReference.IsPageLoaded, IXpsOMPageReference::IsPageLoaded, IsPageLoaded, IsPageLoaded method [XPS Documents and Packaging], IsPageLoaded method [XPS Documents and Packaging],IXpsOMPageReference interface, TRUE, xps.ixpsompagereference_ispageloaded, xpsobjectmodel/IXpsOMPageReference::IsPageLoaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReference::IsPageLoaded method
+# IXpsOMPageReference::IsPageLoaded
 
 
 ## -description

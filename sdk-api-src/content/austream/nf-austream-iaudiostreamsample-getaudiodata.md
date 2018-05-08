@@ -1,14 +1,14 @@
 ---
 UID: NF:austream.IAudioStreamSample.GetAudioData
-title: IAudioStreamSample::GetAudioData method
+title: IAudioStreamSample::GetAudioData
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the address of a pointer to the IAudioData object associated with the sample.
 old-location: dshow\iaudiostreamsample_getaudiodata.htm
 old-project: DirectShow
 ms.assetid: b482e628-d4bc-461e-b529-58e891689513
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAudioData method [DirectShow], GetAudioData method [DirectShow], IAudioStreamSample interface, GetAudioData,IAudioStreamSample.GetAudioData, IAudioStreamSample, IAudioStreamSample interface [DirectShow], GetAudioData method, IAudioStreamSample::GetAudioData, IAudioStreamSampleGetAudioData, austream/IAudioStreamSample::GetAudioData, dshow.iaudiostreamsample_getaudiodata
+ms.date: 4/30/2018
+ms.keywords: GetAudioData, GetAudioData method [DirectShow], GetAudioData method [DirectShow],IAudioStreamSample interface, IAudioStreamSample interface [DirectShow],GetAudioData method, IAudioStreamSample.GetAudioData, IAudioStreamSample::GetAudioData, IAudioStreamSampleGetAudioData, austream/IAudioStreamSample::GetAudioData, dshow.iaudiostreamsample_getaudiodata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioStreamSample::GetAudioData method
+# IAudioStreamSample::GetAudioData
 
 
 ## -description

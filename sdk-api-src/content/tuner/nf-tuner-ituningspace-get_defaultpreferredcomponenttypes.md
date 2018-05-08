@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.get_DefaultPreferredComponentTypes
-title: ITuningSpace::get_DefaultPreferredComponentTypes method
+title: ITuningSpace::get_DefaultPreferredComponentTypes
 author: windows-driver-content
 description: The get_DefaultPreferredComponentTypes method returns an list of the default preferred component types for this tuning space.
 old-location: mstv\ituningspace_get_defaultpreferredcomponenttypes.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a633a94c-e514-46b1-9982-7526ffa89b74
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], get_DefaultPreferredComponentTypes method, ITuningSpace::get_DefaultPreferredComponentTypes, ITuningSpaceget_DefaultPreferredComponentTypes, get_DefaultPreferredComponentTypes method [Microsoft TV Technologies], get_DefaultPreferredComponentTypes method [Microsoft TV Technologies], ITuningSpace interface, get_DefaultPreferredComponentTypes,ITuningSpace.get_DefaultPreferredComponentTypes, mstv.ituningspace_get_defaultpreferredcomponenttypes, tuner/ITuningSpace::get_DefaultPreferredComponentTypes
+ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_DefaultPreferredComponentTypes method, ITuningSpace.get_DefaultPreferredComponentTypes, ITuningSpace::get_DefaultPreferredComponentTypes, ITuningSpaceget_DefaultPreferredComponentTypes, get_DefaultPreferredComponentTypes, get_DefaultPreferredComponentTypes method [Microsoft TV Technologies], get_DefaultPreferredComponentTypes method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_defaultpreferredcomponenttypes, tuner/ITuningSpace::get_DefaultPreferredComponentTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpace::get_DefaultPreferredComponentTypes method
+# ITuningSpace::get_DefaultPreferredComponentTypes
 
 
 ## -description

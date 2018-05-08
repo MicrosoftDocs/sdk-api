@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.InternalCreateStream
-title: CMSPCallMultiGraph::InternalCreateStream method
+title: CMSPCallMultiGraph::InternalCreateStream
 author: windows-driver-content
 description: The InternalCreateStream method is called by CreateStream to create a stream object (the caller does the argument checking).
 old-location: tapi3\cmspcallmultigraph_internalcreatestream.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 62d098d5-b9cd-4e64-bec8-c4f736be22f9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph interface [TAPI 2.2], InternalCreateStream method, CMSPCallMultiGraph::InternalCreateStream, InternalCreateStream method [TAPI 2.2], InternalCreateStream method [TAPI 2.2], CMSPCallMultiGraph interface, InternalCreateStream,CMSPCallMultiGraph.InternalCreateStream, _tapi3_cmspcallmultigraph_internalcreatestream, mspcall/CMSPCallMultiGraph::InternalCreateStream, tapi3.cmspcallmultigraph_internalcreatestream
+ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],InternalCreateStream method, CMSPCallMultiGraph.InternalCreateStream, CMSPCallMultiGraph::InternalCreateStream, InternalCreateStream, InternalCreateStream method [TAPI 2.2], InternalCreateStream method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_internalcreatestream, mspcall/CMSPCallMultiGraph::InternalCreateStream, tapi3.cmspcallmultigraph_internalcreatestream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPCallMultiGraph::InternalCreateStream method
+# CMSPCallMultiGraph::InternalCreateStream
 
 
 ## -description

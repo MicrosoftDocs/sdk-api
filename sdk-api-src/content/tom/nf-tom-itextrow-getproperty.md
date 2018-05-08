@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.GetProperty
-title: ITextRow::GetProperty method
+title: ITextRow::GetProperty
 author: windows-driver-content
 description: Gets the value of the specified property.
 old-location: controls\itextrow_getproperty.htm
 old-project: Controls
 ms.assetid: ed47033f-14b2-4ca1-89be-f2eab3d148ef
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetProperty method [Windows Controls], GetProperty method [Windows Controls], ITextRow interface, GetProperty,ITextRow.GetProperty, ITextRow, ITextRow interface [Windows Controls], GetProperty method, ITextRow::GetProperty, controls.itextrow_getproperty, tom/ITextRow::GetProperty
+ms.date: 4/27/2018
+ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetProperty method, ITextRow.GetProperty, ITextRow::GetProperty, controls.itextrow_getproperty, tom/ITextRow::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::GetProperty method
+# ITextRow::GetProperty
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 18a27e1c-e709-4b0a-97c1-b0697deb8dc7
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PRESUTIL_GET_ALL_PROPERTIES, PRESUTIL_GET_ALL_PROPERTIES callback function [Failover Cluster], _wolf_resutilgetallproperties, mscs.resutilgetallproperties, resapi/PRESUTIL_GET_ALL_PROPERTIES
+ms.keywords: PRESUTIL_GET_ALL_PROPERTIES, PRESUTIL_GET_ALL_PROPERTIES callback, PRESUTIL_GET_ALL_PROPERTIES callback function [Failover Cluster], _wolf_resutilgetallproperties, mscs.resutilgetallproperties, resapi/PRESUTIL_GET_ALL_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PRESUTIL_GET_ALL_PROPERTIES callback
+# PRESUTIL_GET_ALL_PROPERTIES callback function
 
 
 ## -description

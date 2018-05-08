@@ -63,9 +63,36 @@ Contains a certificate hash.
 The number of bytes in the <b>pbData</b> buffer.
 
 
+### -field cbData.range
+
+ 
+
+
+### -field cbData.range.0
+
+ 
+
+
+### -field cbData.range.100
+
+ 
+
+
 ### -field pbData
 
 The certificate hash.
+
+
+### -field pbData.size_is
+
+ 
+
+
+### -field pbData.size_is.cbData
+
+ 
+
+
 
 
 ## -see-also

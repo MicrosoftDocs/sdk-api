@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.PutContext
-title: ITsSbClientConnection::PutContext method
+title: ITsSbClientConnection::PutContext
 author: windows-driver-content
 description: Can be used by plug-ins to store context information specific to the connection.
 old-location: termserv\itssbclientconnection_putcontext.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 654714ef-cc86-41e8-8759-bbb66bd61cd2
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], PutContext method, ITsSbClientConnection::PutContext, PutContext method [Remote Desktop Services], PutContext method [Remote Desktop Services], ITsSbClientConnection interface, PutContext,ITsSbClientConnection.PutContext, sbtsv/ITsSbClientConnection::PutContext, termserv.itssbclientconnection_putcontext
+ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],PutContext method, ITsSbClientConnection.PutContext, ITsSbClientConnection::PutContext, PutContext, PutContext method [Remote Desktop Services], PutContext method [Remote Desktop Services],ITsSbClientConnection interface, sbtsv/ITsSbClientConnection::PutContext, termserv.itssbclientconnection_putcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbClientConnection::PutContext method
+# ITsSbClientConnection::PutContext
 
 
 ## -description

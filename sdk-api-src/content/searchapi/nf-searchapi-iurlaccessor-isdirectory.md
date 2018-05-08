@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IUrlAccessor.IsDirectory
-title: IUrlAccessor::IsDirectory method
+title: IUrlAccessor::IsDirectory
 author: windows-driver-content
 description: Ascertains whether the item URL points to a directory.
 old-location: search\_search_IUrlAccessor_IsDirectory.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\isdirectory.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IUrlAccessor, IUrlAccessor interface [search], IsDirectory method, IUrlAccessor::IsDirectory, IsDirectory method [search], IsDirectory method [search], IUrlAccessor interface, IsDirectory,IUrlAccessor.IsDirectory, _search_IUrlAccessor_IsDirectory, search._search_IUrlAccessor_IsDirectory, searchapi/IUrlAccessor::IsDirectory
+ms.date: 5/4/2018
+ms.keywords: IUrlAccessor interface [search],IsDirectory method, IUrlAccessor.IsDirectory, IUrlAccessor::IsDirectory, IsDirectory, IsDirectory method [search], IsDirectory method [search],IUrlAccessor interface, _search_IUrlAccessor_IsDirectory, search._search_IUrlAccessor_IsDirectory, searchapi/IUrlAccessor::IsDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUrlAccessor::IsDirectory method
+# IUrlAccessor::IsDirectory
 
 
 ## -description

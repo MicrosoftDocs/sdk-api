@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.put_IsHidden
-title: IUpdate::put_IsHidden method
+title: IUpdate::put_IsHidden
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether an update is hidden by a user.
 old-location: wua\iupdate_ishidden.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 229fbb68-cc99-440e-89e1-b9c4e69dd0b3
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], IsHidden property, IUpdate.IsHidden, IUpdate::get_IsHidden, IUpdate::put_IsHidden, IsHidden property [Windows Update Agent], IsHidden property [Windows Update Agent], IUpdate interface, put_IsHidden,IUpdate.put_IsHidden, wua.iupdate_ishidden, wuapi/IUpdate::IsHidden, wuapi/IUpdate::get_IsHidden, wuapi/IUpdate::put_IsHidden
+ms.keywords: IUpdate interface [Windows Update Agent],IsHidden property, IUpdate.IsHidden, IUpdate.put_IsHidden, IUpdate::IsHidden, IUpdate::get_IsHidden, IUpdate::put_IsHidden, IsHidden property [Windows Update Agent], IsHidden property [Windows Update Agent],IUpdate interface, put_IsHidden, wua.iupdate_ishidden, wuapi/IUpdate::IsHidden, wuapi/IUpdate::get_IsHidden, wuapi/IUpdate::put_IsHidden
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::put_IsHidden method
+# IUpdate::put_IsHidden
 
 
 ## -description

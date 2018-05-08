@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.SendCommand
-title: IPortableDevice::SendCommand method
+title: IPortableDevice::SendCommand
 author: windows-driver-content
 description: The SendCommand method sends a command to the device and retrieves the results synchronously.
 old-location: wpdsdk\iportabledevice_sendcommand.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: ccc7f87a-dea3-4a1e-a181-86928e23bd35
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDevice, IPortableDevice interface [Windows Portable Devices SDK], SendCommand method, IPortableDevice::SendCommand, IPortableDeviceSendCommand, SendCommand method [Windows Portable Devices SDK], SendCommand method [Windows Portable Devices SDK], IPortableDevice interface, SendCommand,IPortableDevice.SendCommand, portabledeviceapi/IPortableDevice::SendCommand, wpdsdk.iportabledevice_sendcommand
+ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],SendCommand method, IPortableDevice.SendCommand, IPortableDevice::SendCommand, IPortableDeviceSendCommand, SendCommand, SendCommand method [Windows Portable Devices SDK], SendCommand method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::SendCommand, wpdsdk.iportabledevice_sendcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDevice::SendCommand method
+# IPortableDevice::SendCommand
 
 
 ## -description

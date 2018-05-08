@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetExposureCompensation
-title: IWICDevelopRaw::SetExposureCompensation method
+title: IWICDevelopRaw::SetExposureCompensation
 author: windows-driver-content
 description: Sets the exposure compensation stop value.
 old-location: wic\_wic_codec_iwicdevelopraw_setexposurecompensation.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 57ee5b96-2e49-415c-b1a8-41436a761b23
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetExposureCompensation method, IWICDevelopRaw::SetExposureCompensation, SetExposureCompensation method [Windows Imaging Component], SetExposureCompensation method [Windows Imaging Component], IWICDevelopRaw interface, SetExposureCompensation,IWICDevelopRaw.SetExposureCompensation, _wic_codec_iwicdevelopraw_setexposurecompensation, wic._wic_codec_iwicdevelopraw_setexposurecompensation, wincodec/IWICDevelopRaw::SetExposureCompensation
+ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetExposureCompensation method, IWICDevelopRaw.SetExposureCompensation, IWICDevelopRaw::SetExposureCompensation, SetExposureCompensation, SetExposureCompensation method [Windows Imaging Component], SetExposureCompensation method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setexposurecompensation, wic._wic_codec_iwicdevelopraw_setexposurecompensation, wincodec/IWICDevelopRaw::SetExposureCompensation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::SetExposureCompensation method
+# IWICDevelopRaw::SetExposureCompensation
 
 
 ## -description

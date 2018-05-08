@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchProtocolThreadContext.ThreadShutdown
-title: ISearchProtocolThreadContext::ThreadShutdown method
+title: ISearchProtocolThreadContext::ThreadShutdown
 author: windows-driver-content
 description: Notifies the protocol handler that the thread is being shut down.
 old-location: search\_search_ISearchProtocolThreadContext_ThreadShutdown.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadshutdown.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchProtocolThreadContext, ISearchProtocolThreadContext interface [search], ThreadShutdown method, ISearchProtocolThreadContext::ThreadShutdown, ThreadShutdown method [search], ThreadShutdown method [search], ISearchProtocolThreadContext interface, ThreadShutdown,ISearchProtocolThreadContext.ThreadShutdown, _search_ISearchProtocolThreadContext_ThreadShutdown, search._search_ISearchProtocolThreadContext_ThreadShutdown, searchapi/ISearchProtocolThreadContext::ThreadShutdown
+ms.date: 5/4/2018
+ms.keywords: ISearchProtocolThreadContext interface [search],ThreadShutdown method, ISearchProtocolThreadContext.ThreadShutdown, ISearchProtocolThreadContext::ThreadShutdown, ThreadShutdown, ThreadShutdown method [search], ThreadShutdown method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadShutdown, search._search_ISearchProtocolThreadContext_ThreadShutdown, searchapi/ISearchProtocolThreadContext::ThreadShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchProtocolThreadContext::ThreadShutdown method
+# ISearchProtocolThreadContext::ThreadShutdown
 
 
 ## -description

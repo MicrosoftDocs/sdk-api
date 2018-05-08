@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.ReportManualSync
-title: ISyncMgrSyncCallback::ReportManualSync method
+title: ISyncMgrSyncCallback::ReportManualSync
 author: windows-driver-content
 description: Reports that a synchronization operation is being performed that was requested manually from outside the Sync Center UI.
 old-location: shell\ISyncMgrSyncCallback_ReportManualSync.htm
 old-project: shell
 ms.assetid: 1e503f8f-ebfa-4ac9-a6de-e9127919c758
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], ReportManualSync method, ISyncMgrSyncCallback::ReportManualSync, ReportManualSync method [Windows Shell], ReportManualSync method [Windows Shell], ISyncMgrSyncCallback interface, ReportManualSync,ISyncMgrSyncCallback.ReportManualSync, _shell_ISyncMgrSyncCallback_ReportManualSync, shell.ISyncMgrSyncCallback_ReportManualSync, syncmgr/ISyncMgrSyncCallback::ReportManualSync
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportManualSync method, ISyncMgrSyncCallback.ReportManualSync, ISyncMgrSyncCallback::ReportManualSync, ReportManualSync, ReportManualSync method [Windows Shell], ReportManualSync method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ReportManualSync, shell.ISyncMgrSyncCallback_ReportManualSync, syncmgr/ISyncMgrSyncCallback::ReportManualSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrSyncCallback::ReportManualSync method
+# ISyncMgrSyncCallback::ReportManualSync
 
 
 ## -description

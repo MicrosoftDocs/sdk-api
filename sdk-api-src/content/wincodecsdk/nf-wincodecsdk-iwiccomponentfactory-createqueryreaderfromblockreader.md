@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateQueryReaderFromBlockReader
-title: IWICComponentFactory::CreateQueryReaderFromBlockReader method
+title: IWICComponentFactory::CreateQueryReaderFromBlockReader
 author: windows-driver-content
 description: Creates a IWICMetadataQueryReader from the given IWICMetadataBlockReader.
 old-location: wic\_wic_codec_iwiccomponentfactory_createqueryreaderfromblockreader.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 638d7c29-9c13-4a4b-ac60-8bccd01c65d5
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateQueryReaderFromBlockReader method [Windows Imaging Component], CreateQueryReaderFromBlockReader method [Windows Imaging Component], IWICComponentFactory interface, CreateQueryReaderFromBlockReader,IWICComponentFactory.CreateQueryReaderFromBlockReader, IWICComponentFactory, IWICComponentFactory interface [Windows Imaging Component], CreateQueryReaderFromBlockReader method, IWICComponentFactory::CreateQueryReaderFromBlockReader, _wic_codec_iwiccomponentfactory_createqueryreaderfromblockreader, wic._wic_codec_iwiccomponentfactory_createqueryreaderfromblockreader, wincodecsdk/IWICComponentFactory::CreateQueryReaderFromBlockReader
+ms.keywords: CreateQueryReaderFromBlockReader, CreateQueryReaderFromBlockReader method [Windows Imaging Component], CreateQueryReaderFromBlockReader method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateQueryReaderFromBlockReader method, IWICComponentFactory.CreateQueryReaderFromBlockReader, IWICComponentFactory::CreateQueryReaderFromBlockReader, _wic_codec_iwiccomponentfactory_createqueryreaderfromblockreader, wic._wic_codec_iwiccomponentfactory_createqueryreaderfromblockreader, wincodecsdk/IWICComponentFactory::CreateQueryReaderFromBlockReader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICComponentFactory::CreateQueryReaderFromBlockReader method
+# IWICComponentFactory::CreateQueryReaderFromBlockReader
 
 
 ## -description

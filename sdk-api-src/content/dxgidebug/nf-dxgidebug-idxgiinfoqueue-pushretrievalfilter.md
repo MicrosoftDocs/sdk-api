@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushRetrievalFilter
-title: IDXGIInfoQueue::PushRetrievalFilter method
+title: IDXGIInfoQueue::PushRetrievalFilter
 author: windows-driver-content
 description: Pushes a retrieval filter onto the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushretrievalfilter.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 8027801C-ACDD-457D-A7A5-200B818D40A7
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], PushRetrievalFilter method, IDXGIInfoQueue::PushRetrievalFilter, PushRetrievalFilter method [DXGI], PushRetrievalFilter method [DXGI], IDXGIInfoQueue interface, PushRetrievalFilter,IDXGIInfoQueue.PushRetrievalFilter, direct3ddxgi.idxgiinfoqueue_pushretrievalfilter, dxgidebug/IDXGIInfoQueue::PushRetrievalFilter
+ms.keywords: IDXGIInfoQueue interface [DXGI],PushRetrievalFilter method, IDXGIInfoQueue.PushRetrievalFilter, IDXGIInfoQueue::PushRetrievalFilter, PushRetrievalFilter, PushRetrievalFilter method [DXGI], PushRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushretrievalfilter, dxgidebug/IDXGIInfoQueue::PushRetrievalFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::PushRetrievalFilter method
+# IDXGIInfoQueue::PushRetrievalFilter
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.SetCellBorderColors
-title: ITextRow::SetCellBorderColors method
+title: ITextRow::SetCellBorderColors
 author: windows-driver-content
 description: Sets the border colors of the active cell.
 old-location: controls\itextrow_setcellbordercolors.htm
 old-project: Controls
 ms.assetid: 2a8762ba-a92b-46aa-99bc-57406a872174
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetCellBorderColors method, ITextRow::SetCellBorderColors, SetCellBorderColors method [Windows Controls], SetCellBorderColors method [Windows Controls], ITextRow interface, SetCellBorderColors,ITextRow.SetCellBorderColors, controls.itextrow_setcellbordercolors, tom/ITextRow::SetCellBorderColors
+ms.date: 4/27/2018
+ms.keywords: ITextRow interface [Windows Controls],SetCellBorderColors method, ITextRow.SetCellBorderColors, ITextRow::SetCellBorderColors, SetCellBorderColors, SetCellBorderColors method [Windows Controls], SetCellBorderColors method [Windows Controls],ITextRow interface, controls.itextrow_setcellbordercolors, tom/ITextRow::SetCellBorderColors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::SetCellBorderColors method
+# ITextRow::SetCellBorderColors
 
 
 ## -description

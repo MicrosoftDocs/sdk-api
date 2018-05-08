@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecLeakyBucket.GetBufferSizeBits
-title: IWMCodecLeakyBucket::GetBufferSizeBits method
+title: IWMCodecLeakyBucket::GetBufferSizeBits
 author: windows-driver-content
 description: Retrieves the current size of the buffer in bits.
 old-location: mf\iwmcodecleakybucketgetbuffersizebits.htm
 old-project: medfound
 ms.assetid: 7fa0835e-7386-4032-a94b-ef52259aeea9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetBufferSizeBits method [Media Foundation], GetBufferSizeBits method [Media Foundation], IWMCodecLeakyBucket interface, GetBufferSizeBits,IWMCodecLeakyBucket.GetBufferSizeBits, IWMCodecLeakyBucket, IWMCodecLeakyBucket interface [Media Foundation], GetBufferSizeBits method, IWMCodecLeakyBucket::GetBufferSizeBits, codecapi.iwmcodecleakybucketgetbuffersizebits, mf.iwmcodecleakybucketgetbuffersizebits, wmcodecdsp/ IWMCodecLeakyBucket::GetBufferSizeBits
+ms.date: 5/3/2018
+ms.keywords: GetBufferSizeBits, GetBufferSizeBits method [Media Foundation], GetBufferSizeBits method [Media Foundation],IWMCodecLeakyBucket interface, IWMCodecLeakyBucket interface [Media Foundation],GetBufferSizeBits method, IWMCodecLeakyBucket.GetBufferSizeBits, IWMCodecLeakyBucket::GetBufferSizeBits, codecapi.iwmcodecleakybucketgetbuffersizebits, mf.iwmcodecleakybucketgetbuffersizebits, wmcodecdsp/ IWMCodecLeakyBucket::GetBufferSizeBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecLeakyBucket::GetBufferSizeBits method
+# IWMCodecLeakyBucket::GetBufferSizeBits
 
 
 ## -description

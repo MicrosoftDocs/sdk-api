@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetEditPropertySet
-title: IAMExtTransport::SetEditPropertySet method
+title: IAMExtTransport::SetEditPropertySet
 author: windows-driver-content
 description: The SetEditPropertySet method registers an edit property set that describes a group of edit properties.
 old-location: dshow\iamexttransport_seteditpropertyset.htm
 old-project: DirectShow
 ms.assetid: 40695c7c-7381-44c0-b41f-7c838c9c83b5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], SetEditPropertySet method, IAMExtTransport::SetEditPropertySet, IAMExtTransportSetEditPropertySet, SetEditPropertySet method [DirectShow], SetEditPropertySet method [DirectShow], IAMExtTransport interface, SetEditPropertySet,IAMExtTransport.SetEditPropertySet, dshow.iamexttransport_seteditpropertyset, strmif/IAMExtTransport::SetEditPropertySet
+ms.date: 4/30/2018
+ms.keywords: IAMExtTransport interface [DirectShow],SetEditPropertySet method, IAMExtTransport.SetEditPropertySet, IAMExtTransport::SetEditPropertySet, IAMExtTransportSetEditPropertySet, SetEditPropertySet, SetEditPropertySet method [DirectShow], SetEditPropertySet method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_seteditpropertyset, strmif/IAMExtTransport::SetEditPropertySet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::SetEditPropertySet method
+# IAMExtTransport::SetEditPropertySet
 
 
 ## -description

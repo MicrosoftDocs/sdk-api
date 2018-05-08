@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCLocator2.get_ProgramNumber
-title: IATSCLocator2::get_ProgramNumber method
+title: IATSCLocator2::get_ProgramNumber
 author: windows-driver-content
 description: The get_ProgramNumber method retrieves the program number.
 old-location: mstv\iatsclocator2_get_programnumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 66f92cb0-a89e-4c34-8995-a94eb1bc33dc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IATSCLocator2, IATSCLocator2 interface [Microsoft TV Technologies], get_ProgramNumber method, IATSCLocator2::get_ProgramNumber, IATSCLocator2get_ProgramNumber, get_ProgramNumber method [Microsoft TV Technologies], get_ProgramNumber method [Microsoft TV Technologies], IATSCLocator2 interface, get_ProgramNumber,IATSCLocator2.get_ProgramNumber, mstv.iatsclocator2_get_programnumber, tuner/IATSCLocator2::get_ProgramNumber
+ms.keywords: IATSCLocator2 interface [Microsoft TV Technologies],get_ProgramNumber method, IATSCLocator2.get_ProgramNumber, IATSCLocator2::get_ProgramNumber, IATSCLocator2get_ProgramNumber, get_ProgramNumber, get_ProgramNumber method [Microsoft TV Technologies], get_ProgramNumber method [Microsoft TV Technologies],IATSCLocator2 interface, mstv.iatsclocator2_get_programnumber, tuner/IATSCLocator2::get_ProgramNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IATSCLocator2::get_ProgramNumber method
+# IATSCLocator2::get_ProgramNumber
 
 
 ## -description

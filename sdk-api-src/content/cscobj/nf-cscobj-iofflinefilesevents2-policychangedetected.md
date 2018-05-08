@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.PolicyChangeDetected
-title: IOfflineFilesEvents2::PolicyChangeDetected method
+title: IOfflineFilesEvents2::PolicyChangeDetected
 author: windows-driver-content
 description: Reports that the Offline Files service detected a change in one or more of its setting values that are controlled by Group Policy.
 old-location: of\iofflinefilesevents2_policychangedetected.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 1009c67a-09f4-40ea-8aa9-fb42f1ab54ff
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents2, IOfflineFilesEvents2 interface [Offline Files], PolicyChangeDetected method, IOfflineFilesEvents2::PolicyChangeDetected, PolicyChangeDetected method [Offline Files], PolicyChangeDetected method [Offline Files], IOfflineFilesEvents2 interface, PolicyChangeDetected,IOfflineFilesEvents2.PolicyChangeDetected, cscobj/IOfflineFilesEvents2::PolicyChangeDetected, of.iofflinefilesevents2_policychangedetected
+ms.keywords: IOfflineFilesEvents2 interface [Offline Files],PolicyChangeDetected method, IOfflineFilesEvents2.PolicyChangeDetected, IOfflineFilesEvents2::PolicyChangeDetected, PolicyChangeDetected, PolicyChangeDetected method [Offline Files], PolicyChangeDetected method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::PolicyChangeDetected, of.iofflinefilesevents2_policychangedetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents2::PolicyChangeDetected method
+# IOfflineFilesEvents2::PolicyChangeDetected
 
 
 ## -description

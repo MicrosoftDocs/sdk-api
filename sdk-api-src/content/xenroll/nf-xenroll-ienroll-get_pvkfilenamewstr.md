@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.get_PVKFileNameWStr
-title: IEnroll::get_PVKFileNameWStr method
+title: IEnroll::get_PVKFileNameWStr
 author: windows-driver-content
 description: Sets or retrieves the name of the file that will contain exported keys.
 old-location: security\ienroll4_pvkfilenamewstr.htm
 old-project: SecCrypto
 ms.assetid: 5518c252-fdca-444b-b87e-9fe3cb3b3e3f
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], PVKFileNameWStr property, IEnroll.PVKFileNameWStr, IEnroll::get_PVKFileNameWStr, IEnroll::put_PVKFileNameWStr, PVKFileNameWStr property [Security], PVKFileNameWStr property [Security], IEnroll interface, get_PVKFileNameWStr,IEnroll.get_PVKFileNameWStr, security.ienroll4_pvkfilenamewstr, xenroll/IEnroll::PVKFileNameWStr, xenroll/IEnroll::get_PVKFileNameWStr, xenroll/IEnroll::put_PVKFileNameWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],PVKFileNameWStr property, IEnroll.PVKFileNameWStr, IEnroll.get_PVKFileNameWStr, IEnroll::PVKFileNameWStr, IEnroll::get_PVKFileNameWStr, IEnroll::put_PVKFileNameWStr, PVKFileNameWStr property [Security], PVKFileNameWStr property [Security],IEnroll interface, get_PVKFileNameWStr, security.ienroll4_pvkfilenamewstr, xenroll/IEnroll::PVKFileNameWStr, xenroll/IEnroll::get_PVKFileNameWStr, xenroll/IEnroll::put_PVKFileNameWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::get_PVKFileNameWStr method
+# IEnroll::get_PVKFileNameWStr
 
 
 ## -description

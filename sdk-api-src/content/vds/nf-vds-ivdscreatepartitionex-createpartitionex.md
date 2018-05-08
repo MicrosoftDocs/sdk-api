@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsCreatePartitionEx.CreatePartitionEx
-title: IVdsCreatePartitionEx::CreatePartitionEx method
+title: IVdsCreatePartitionEx::CreatePartitionEx
 author: windows-driver-content
 description: Creates a partition on a basic disk. This method supersedes the IVdsAdvancedDisk::CreatePartition method.
 old-location: base\ivdscreatepartitionex_createpartitionex.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: c9ab5a24-b0b3-41cc-a4bf-3619f156008c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePartitionEx method [VDS], CreatePartitionEx method [VDS], IVdsCreatePartitionEx interface, CreatePartitionEx,IVdsCreatePartitionEx.CreatePartitionEx, IVdsCreatePartitionEx, IVdsCreatePartitionEx interface [VDS], CreatePartitionEx method, IVdsCreatePartitionEx::CreatePartitionEx, base.ivdscreatepartitionex_createpartitionex, vds/IVdsCreatePartitionEx::CreatePartitionEx
+ms.keywords: CreatePartitionEx, CreatePartitionEx method [VDS], CreatePartitionEx method [VDS],IVdsCreatePartitionEx interface, IVdsCreatePartitionEx interface [VDS],CreatePartitionEx method, IVdsCreatePartitionEx.CreatePartitionEx, IVdsCreatePartitionEx::CreatePartitionEx, base.ivdscreatepartitionex_createpartitionex, vds/IVdsCreatePartitionEx::CreatePartitionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsCreatePartitionEx::CreatePartitionEx method
+# IVdsCreatePartitionEx::CreatePartitionEx
 
 
 ## -description

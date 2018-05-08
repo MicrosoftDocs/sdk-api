@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetStyle
-title: IMFTimedTextCue::GetStyle method
+title: IMFTimedTextCue::GetStyle
 author: windows-driver-content
 description: Gets info about the style of the timed-text cue.
 old-location: mf\imftimedtextcue_getstyle.htm
 old-project: medfound
 ms.assetid: 9E0B570D-69AA-449D-9988-96632A52756F
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStyle method [Media Foundation], GetStyle method [Media Foundation], IMFTimedTextCue interface, GetStyle,IMFTimedTextCue.GetStyle, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetStyle method, IMFTimedTextCue::GetStyle, mf.imftimedtextcue_getstyle, mfmediaengine/IMFTimedTextCue::GetStyle
+ms.date: 5/3/2018
+ms.keywords: GetStyle, GetStyle method [Media Foundation], GetStyle method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetStyle method, IMFTimedTextCue.GetStyle, IMFTimedTextCue::GetStyle, mf.imftimedtextcue_getstyle, mfmediaengine/IMFTimedTextCue::GetStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextCue::GetStyle method
+# IMFTimedTextCue::GetStyle
 
 
 ## -description

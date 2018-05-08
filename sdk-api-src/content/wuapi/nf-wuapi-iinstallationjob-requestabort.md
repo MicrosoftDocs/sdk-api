@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationJob.RequestAbort
-title: IInstallationJob::RequestAbort method
+title: IInstallationJob::RequestAbort
 author: windows-driver-content
 description: Makes a request to cancel the installation or uninstallation.
 old-location: wua\iinstallationjob_requestabort.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: efe0c51c-1193-4a25-88ae-ad74550f42ba
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IInstallationJob, IInstallationJob interface [Windows Update Agent], RequestAbort method, IInstallationJob::RequestAbort, RequestAbort method [Windows Update Agent], RequestAbort method [Windows Update Agent], IInstallationJob interface, RequestAbort,IInstallationJob.RequestAbort, wua.iinstallationjob_requestabort, wuapi/IInstallationJob::RequestAbort
+ms.keywords: IInstallationJob interface [Windows Update Agent],RequestAbort method, IInstallationJob.RequestAbort, IInstallationJob::RequestAbort, RequestAbort, RequestAbort method [Windows Update Agent], RequestAbort method [Windows Update Agent],IInstallationJob interface, wua.iinstallationjob_requestabort, wuapi/IInstallationJob::RequestAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInstallationJob::RequestAbort method
+# IInstallationJob::RequestAbort
 
 
 ## -description

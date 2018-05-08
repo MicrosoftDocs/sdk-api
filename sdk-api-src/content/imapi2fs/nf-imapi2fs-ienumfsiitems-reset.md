@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Reset
-title: IEnumFsiItems::Reset method
+title: IEnumFsiItems::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: imapi\ienumfsiitems_reset.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 85b3ce47-411f-4824-acea-9ea974206672
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumFsiItems, IEnumFsiItems interface [IMAPI], Reset method, IEnumFsiItems::Reset, Reset method [IMAPI], Reset method [IMAPI], IEnumFsiItems interface, Reset,IEnumFsiItems.Reset, imapi.ienumfsiitems_reset, imapi2fs/IEnumFsiItems::Reset
+ms.keywords: IEnumFsiItems interface [IMAPI],Reset method, IEnumFsiItems.Reset, IEnumFsiItems::Reset, Reset, Reset method [IMAPI], Reset method [IMAPI],IEnumFsiItems interface, imapi.ienumfsiitems_reset, imapi2fs/IEnumFsiItems::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumFsiItems::Reset method
+# IEnumFsiItems::Reset
 
 
 ## -description

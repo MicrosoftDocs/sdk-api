@@ -1,14 +1,14 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetHoldPage
-title: IAMWstDecoder::GetHoldPage method
+title: IAMWstDecoder::GetHoldPage
 author: windows-driver-content
 description: Downstream filters use the GetHoldPage method to determine whether the current WST page is held. When the WST decoder holds a page, any updates from the TV stream are turned off. It is though the page was paused in real time.
 old-location: dshow\iamwstdecoder_getholdpage.htm
 old-project: DirectShow
 ms.assetid: db09b2a2-7f92-421a-8582-4ed648563119
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetHoldPage method [DirectShow], GetHoldPage method [DirectShow], IAMWstDecoder interface, GetHoldPage,IAMWstDecoder.GetHoldPage, IAMWstDecoder, IAMWstDecoder interface [DirectShow], GetHoldPage method, IAMWstDecoder::GetHoldPage, IAMWstDecoderGetHoldPage, dshow.iamwstdecoder_getholdpage, iwstdec/IAMWstDecoder::GetHoldPage
+ms.date: 4/30/2018
+ms.keywords: GetHoldPage, GetHoldPage method [DirectShow], GetHoldPage method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetHoldPage method, IAMWstDecoder.GetHoldPage, IAMWstDecoder::GetHoldPage, IAMWstDecoderGetHoldPage, dshow.iamwstdecoder_getholdpage, iwstdec/IAMWstDecoder::GetHoldPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMWstDecoder::GetHoldPage method
+# IAMWstDecoder::GetHoldPage
 
 
 ## -description

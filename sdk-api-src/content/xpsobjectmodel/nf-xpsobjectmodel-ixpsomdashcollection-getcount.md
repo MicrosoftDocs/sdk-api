@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.GetCount
-title: IXpsOMDashCollection::GetCount method
+title: IXpsOMDashCollection::GetCount
 author: windows-driver-content
 description: Gets the number of XPS_DASH structures in the collection.
 old-location: xps\ixpsomdashcollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 51393b2f-6658-4268-bcfc-5647ef2c8406
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging], IXpsOMDashCollection interface, GetCount,IXpsOMDashCollection.GetCount, IXpsOMDashCollection, IXpsOMDashCollection interface [XPS Documents and Packaging], GetCount method, IXpsOMDashCollection::GetCount, xps.ixpsomdashcollection_getcount, xpsobjectmodel/IXpsOMDashCollection::GetCount
+ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMDashCollection.GetCount, IXpsOMDashCollection::GetCount, xps.ixpsomdashcollection_getcount, xpsobjectmodel/IXpsOMDashCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDashCollection::GetCount method
+# IXpsOMDashCollection::GetCount
 
 
 ## -description

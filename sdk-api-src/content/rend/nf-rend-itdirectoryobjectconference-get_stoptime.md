@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_StopTime
-title: ITDirectoryObjectConference::get_StopTime method
+title: ITDirectoryObjectConference::get_StopTime
 author: windows-driver-content
 description: The get_StopTime method gets the stop time of the conference. If the end time is zero, the session is not bounded.
 old-location: tapi3\itdirectoryobjectconference_get_stoptime.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: df22b117-8382-4ea2-8e6b-961f87f41b21
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], get_StopTime method, ITDirectoryObjectConference::get_StopTime, _tapi3_itdirectoryobjectconference_get_stoptime, get_StopTime method [TAPI 2.2], get_StopTime method [TAPI 2.2], ITDirectoryObjectConference interface, get_StopTime,ITDirectoryObjectConference.get_StopTime, rend/ITDirectoryObjectConference::get_StopTime, tapi3.itdirectoryobjectconference_get_stoptime
+ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_StopTime method, ITDirectoryObjectConference.get_StopTime, ITDirectoryObjectConference::get_StopTime, _tapi3_itdirectoryobjectconference_get_stoptime, get_StopTime, get_StopTime method [TAPI 2.2], get_StopTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_StopTime, tapi3.itdirectoryobjectconference_get_stoptime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectoryObjectConference::get_StopTime method
+# ITDirectoryObjectConference::get_StopTime
 
 
 ## -description

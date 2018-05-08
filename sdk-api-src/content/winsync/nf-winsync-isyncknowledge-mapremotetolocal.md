@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.MapRemoteToLocal
-title: ISyncKnowledge::MapRemoteToLocal method
+title: ISyncKnowledge::MapRemoteToLocal
 author: windows-driver-content
 description: Converts a knowledge object from another replica into one that is compatible with the replica that owns this knowledge.
 old-location: winsync\isyncknowledge_mapremotetolocal.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 9325ff3e-4f8e-4a18-bc95-57af30ccd437
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncKnowledge, ISyncKnowledge interface [Windows Sync], MapRemoteToLocal method, ISyncKnowledge::MapRemoteToLocal, MapRemoteToLocal method [Windows Sync], MapRemoteToLocal method [Windows Sync], ISyncKnowledge interface, MapRemoteToLocal,ISyncKnowledge.MapRemoteToLocal, winsync.isyncknowledge_mapremotetolocal, winsync/ISyncKnowledge::MapRemoteToLocal
+ms.keywords: ISyncKnowledge interface [Windows Sync],MapRemoteToLocal method, ISyncKnowledge.MapRemoteToLocal, ISyncKnowledge::MapRemoteToLocal, MapRemoteToLocal, MapRemoteToLocal method [Windows Sync], MapRemoteToLocal method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_mapremotetolocal, winsync/ISyncKnowledge::MapRemoteToLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::MapRemoteToLocal method
+# ISyncKnowledge::MapRemoteToLocal
 
 
 ## -description

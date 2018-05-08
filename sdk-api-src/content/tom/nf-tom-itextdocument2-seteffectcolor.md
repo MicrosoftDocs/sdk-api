@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.SetEffectColor
-title: ITextDocument2::SetEffectColor method
+title: ITextDocument2::SetEffectColor
 author: windows-driver-content
 description: Specifies the color to use for special text attributes.
 old-location: controls\itextdocument2_seteffectcolor.htm
 old-project: Controls
 ms.assetid: 6371b525-96da-42a7-8cee-228b47208f46
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], SetEffectColor method, ITextDocument2::SetEffectColor, SetEffectColor method [Windows Controls], SetEffectColor method [Windows Controls], ITextDocument2 interface, SetEffectColor,ITextDocument2.SetEffectColor, controls.itextdocument2_seteffectcolor, tom/ITextDocument2::SetEffectColor
+ms.date: 4/27/2018
+ms.keywords: ITextDocument2 interface [Windows Controls],SetEffectColor method, ITextDocument2.SetEffectColor, ITextDocument2::SetEffectColor, SetEffectColor, SetEffectColor method [Windows Controls], SetEffectColor method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_seteffectcolor, tom/ITextDocument2::SetEffectColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::SetEffectColor method
+# ITextDocument2::SetEffectColor
 
 
 ## -description

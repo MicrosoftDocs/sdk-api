@@ -1,14 +1,14 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.GetSharedBitmap
-title: ISharedBitmap::GetSharedBitmap method
+title: ISharedBitmap::GetSharedBitmap
 author: windows-driver-content
 description: Retrieves the bitmap contained in an ISharedBitmap object.
 old-location: shell\ISharedBitmap_GetSharedBitmap.htm
 old-project: shell
 ms.assetid: 0d2cfdba-b51f-4035-b0b2-e48933505c73
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSharedBitmap method [Windows Shell], GetSharedBitmap method [Windows Shell], ISharedBitmap interface, GetSharedBitmap,ISharedBitmap.GetSharedBitmap, ISharedBitmap, ISharedBitmap interface [Windows Shell], GetSharedBitmap method, ISharedBitmap::GetSharedBitmap, _shell__GetSharedBitmap, shell.ISharedBitmap_GetSharedBitmap, thumbcache/ISharedBitmap::GetSharedBitmap
+ms.date: 5/3/2018
+ms.keywords: GetSharedBitmap, GetSharedBitmap method [Windows Shell], GetSharedBitmap method [Windows Shell],ISharedBitmap interface, ISharedBitmap interface [Windows Shell],GetSharedBitmap method, ISharedBitmap.GetSharedBitmap, ISharedBitmap::GetSharedBitmap, _shell__GetSharedBitmap, shell.ISharedBitmap_GetSharedBitmap, thumbcache/ISharedBitmap::GetSharedBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISharedBitmap::GetSharedBitmap method
+# ISharedBitmap::GetSharedBitmap
 
 
 ## -description

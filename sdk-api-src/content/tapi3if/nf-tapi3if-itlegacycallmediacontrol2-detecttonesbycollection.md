@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.DetectTonesByCollection
-title: ITLegacyCallMediaControl2::DetectTonesByCollection method
+title: ITLegacyCallMediaControl2::DetectTonesByCollection
 author: windows-driver-content
 description: The DetectTonesByCollection method enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the application.
 old-location: tapi3\itlegacycallmediacontrol2_detecttonesbycollection.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 09cbcd9d-66cd-4131-b45c-cb3898d8446d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DetectTonesByCollection method [TAPI 2.2], DetectTonesByCollection method [TAPI 2.2], ITLegacyCallMediaControl2 interface, DetectTonesByCollection,ITLegacyCallMediaControl2.DetectTonesByCollection, ITLegacyCallMediaControl2, ITLegacyCallMediaControl2 interface [TAPI 2.2], DetectTonesByCollection method, ITLegacyCallMediaControl2::DetectTonesByCollection, _tapi3_itlegacycallmediacontrol2_detecttonesbycollection, tapi3.itlegacycallmediacontrol2_detecttonesbycollection, tapi3if/ITLegacyCallMediaControl2::DetectTonesByCollection
+ms.keywords: DetectTonesByCollection, DetectTonesByCollection method [TAPI 2.2], DetectTonesByCollection method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],DetectTonesByCollection method, ITLegacyCallMediaControl2.DetectTonesByCollection, ITLegacyCallMediaControl2::DetectTonesByCollection, _tapi3_itlegacycallmediacontrol2_detecttonesbycollection, tapi3.itlegacycallmediacontrol2_detecttonesbycollection, tapi3if/ITLegacyCallMediaControl2::DetectTonesByCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITLegacyCallMediaControl2::DetectTonesByCollection method
+# ITLegacyCallMediaControl2::DetectTonesByCollection
 
 
 ## -description

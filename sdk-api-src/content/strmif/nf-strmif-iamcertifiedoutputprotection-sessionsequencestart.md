@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMCertifiedOutputProtection.SessionSequenceStart
-title: IAMCertifiedOutputProtection::SessionSequenceStart method
+title: IAMCertifiedOutputProtection::SessionSequenceStart
 author: windows-driver-content
 description: The SessionSequenceStart method initiates the COPP session with the graphics driver.
 old-location: dshow\iamcertifiedoutputprotection_sessionsequencestart.htm
 old-project: DirectShow
 ms.assetid: 0321e315-b53c-487f-a015-80f7ed581737
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMCertifiedOutputProtection, IAMCertifiedOutputProtection interface [DirectShow], SessionSequenceStart method, IAMCertifiedOutputProtection::SessionSequenceStart, IAMCertifiedOutputProtectionSessionSequenceStart, SessionSequenceStart method [DirectShow], SessionSequenceStart method [DirectShow], IAMCertifiedOutputProtection interface, SessionSequenceStart,IAMCertifiedOutputProtection.SessionSequenceStart, dshow.iamcertifiedoutputprotection_sessionsequencestart, strmif/IAMCertifiedOutputProtection::SessionSequenceStart
+ms.date: 4/30/2018
+ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],SessionSequenceStart method, IAMCertifiedOutputProtection.SessionSequenceStart, IAMCertifiedOutputProtection::SessionSequenceStart, IAMCertifiedOutputProtectionSessionSequenceStart, SessionSequenceStart, SessionSequenceStart method [DirectShow], SessionSequenceStart method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_sessionsequencestart, strmif/IAMCertifiedOutputProtection::SessionSequenceStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMCertifiedOutputProtection::SessionSequenceStart method
+# IAMCertifiedOutputProtection::SessionSequenceStart
 
 
 ## -description

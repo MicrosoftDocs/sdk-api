@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.GetPeerCachingFlags
-title: IBackgroundCopyJob4::GetPeerCachingFlags method
+title: IBackgroundCopyJob4::GetPeerCachingFlags
 author: windows-driver-content
 description: Retrieves flags that determine if the files of the job can be cached and served to peers and if BITS can download content for the job from peers.
 old-location: bits\ibackgroundcopyjob4_getpeercachingflags.htm
 old-project: Bits
 ms.assetid: 1b9cdd81-91e8-4d24-a451-61bed51289d4
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: BG_JOB_ENABLE_PEERCACHING_CLIENT, BG_JOB_ENABLE_PEERCACHING_SERVER, GetPeerCachingFlags method [BITS], GetPeerCachingFlags method [BITS], IBackgroundCopyJob4 interface, GetPeerCachingFlags,IBackgroundCopyJob4.GetPeerCachingFlags, IBackgroundCopyJob4, IBackgroundCopyJob4 interface [BITS], GetPeerCachingFlags method, IBackgroundCopyJob4::GetPeerCachingFlags, bits.ibackgroundcopyjob4_getpeercachingflags, bits3_0/IBackgroundCopyJob4::GetPeerCachingFlags
+ms.date: 4/27/2018
+ms.keywords: BG_JOB_ENABLE_PEERCACHING_CLIENT, BG_JOB_ENABLE_PEERCACHING_SERVER, GetPeerCachingFlags, GetPeerCachingFlags method [BITS], GetPeerCachingFlags method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetPeerCachingFlags method, IBackgroundCopyJob4.GetPeerCachingFlags, IBackgroundCopyJob4::GetPeerCachingFlags, bits.ibackgroundcopyjob4_getpeercachingflags, bits3_0/IBackgroundCopyJob4::GetPeerCachingFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBackgroundCopyJob4::GetPeerCachingFlags method
+# IBackgroundCopyJob4::GetPeerCachingFlags
 
 
 ## -description

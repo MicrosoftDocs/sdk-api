@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.IASetVertexBuffers
-title: ID3D10Device::IASetVertexBuffers method
+title: ID3D10Device::IASetVertexBuffers
 author: windows-driver-content
 description: Bind an array of vertex buffers to the input-assembler stage.
 old-location: direct3d10\id3d10device_iasetvertexbuffers.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iasetvertexbuffers.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IASetVertexBuffers method [Direct3D 10], IASetVertexBuffers method [Direct3D 10], ID3D10Device interface, IASetVertexBuffers,ID3D10Device.IASetVertexBuffers, ID3D10Device, ID3D10Device interface [Direct3D 10], IASetVertexBuffers method, ID3D10Device::IASetVertexBuffers, d3d10/ID3D10Device::IASetVertexBuffers, db68f354-a2bd-412e-0600-c324eb254808, direct3d10.id3d10device_iasetvertexbuffers
+ms.keywords: IASetVertexBuffers, IASetVertexBuffers method [Direct3D 10], IASetVertexBuffers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IASetVertexBuffers method, ID3D10Device.IASetVertexBuffers, ID3D10Device::IASetVertexBuffers, d3d10/ID3D10Device::IASetVertexBuffers, db68f354-a2bd-412e-0600-c324eb254808, direct3d10.id3d10device_iasetvertexbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::IASetVertexBuffers method
+# ID3D10Device::IASetVertexBuffers
 
 
 ## -description

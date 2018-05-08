@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfProperties.Skip
-title: IEnumTfProperties::Skip method
+title: IEnumTfProperties::Skip
 author: windows-driver-content
 description: IEnumTfProperties::Skip method
 old-location: tsf\ienumtfproperties_skip.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a20e4c98-eaad-4614-a7af-b25a28f980d6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfProperties, IEnumTfProperties interface [Text Services Framework], Skip method, IEnumTfProperties::Skip, Skip method [Text Services Framework], Skip method [Text Services Framework], IEnumTfProperties interface, Skip,IEnumTfProperties.Skip, _tsf_ienumtfproperties_skip_ref, msctf/IEnumTfProperties::Skip, tsf.ienumtfproperties_skip
+ms.keywords: IEnumTfProperties interface [Text Services Framework],Skip method, IEnumTfProperties.Skip, IEnumTfProperties::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfProperties interface, _tsf_ienumtfproperties_skip_ref, msctf/IEnumTfProperties::Skip, tsf.ienumtfproperties_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfProperties::Skip method
+# IEnumTfProperties::Skip
 
 
 ## -description

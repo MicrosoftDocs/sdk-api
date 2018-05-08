@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.GetImageDlg
-title: IWiaDevMgr::GetImageDlg method
+title: IWiaDevMgr::GetImageDlg
 author: windows-driver-content
 description: The IWiaDevMgr::GetImageDlg method displays one or more dialog boxes that enable a user to acquire an image from a Windows Image Acquisition (WIA) device and write the image to a specified file.
 old-location: wia\_wia_IWiaDevMgr_GetImageDlg.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\getimagedlg.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: GetImageDlg method [WIA], GetImageDlg method [WIA], IWiaDevMgr interface, GetImageDlg,IWiaDevMgr.GetImageDlg, IWiaDevMgr, IWiaDevMgr interface [WIA], GetImageDlg method, IWiaDevMgr::GetImageDlg, _wia_IWiaDevMgr_GetImageDlg, wia._wia_IWiaDevMgr_GetImageDlg, wia_xp/IWiaDevMgr::GetImageDlg
+ms.date: 5/3/2018
+ms.keywords: GetImageDlg, GetImageDlg method [WIA], GetImageDlg method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],GetImageDlg method, IWiaDevMgr.GetImageDlg, IWiaDevMgr::GetImageDlg, _wia_IWiaDevMgr_GetImageDlg, wia._wia_IWiaDevMgr_GetImageDlg, wia_xp/IWiaDevMgr::GetImageDlg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaDevMgr::GetImageDlg method
+# IWiaDevMgr::GetImageDlg
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_Address
-title: ITAgentSession::get_Address method
+title: ITAgentSession::get_Address
 author: windows-driver-content
 description: The get_Address method gets a pointer to the ITAddress interface associated with this session.
 old-location: tapi3\itagentsession_get_address.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: addd088d-5bca-4865-8cae-3c013554dafd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], get_Address method, ITAgentSession::get_Address, _tapi3_itagentsession_get_address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2], ITAgentSession interface, get_Address,ITAgentSession.get_Address, tapi3.itagentsession_get_address, tapi3cc/ITAgentSession::get_Address
+ms.keywords: ITAgentSession interface [TAPI 2.2],get_Address method, ITAgentSession.get_Address, ITAgentSession::get_Address, _tapi3_itagentsession_get_address, get_Address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_address, tapi3cc/ITAgentSession::get_Address
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentSession::get_Address method
+# ITAgentSession::get_Address
 
 
 ## -description

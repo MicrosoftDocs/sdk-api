@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable
-title: INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable method
+title: INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable
 author: windows-driver-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutbounddestinationunreachable.htm
 old-project: ICS
 ms.assetid: da3719a3-67b3-44a8-9cf8-0062f476bb2c
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: AllowOutboundDestinationUnreachable property [ICS/ICF], AllowOutboundDestinationUnreachable property [ICS/ICF], INetFwIcmpSettings interface, INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], AllowOutboundDestinationUnreachable property, INetFwIcmpSettings.AllowOutboundDestinationUnreachable, INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable, INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable, ics.inetfwicmpsettings_allowoutbounddestinationunreachable, netfw/INetFwIcmpSettings::AllowOutboundDestinationUnreachable, netfw/INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable, netfw/INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable, put_AllowOutboundDestinationUnreachable,INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable
+ms.date: 5/1/2018
+ms.keywords: AllowOutboundDestinationUnreachable property [ICS/ICF], AllowOutboundDestinationUnreachable property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundDestinationUnreachable property, INetFwIcmpSettings.AllowOutboundDestinationUnreachable, INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable, INetFwIcmpSettings::AllowOutboundDestinationUnreachable, INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable, INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable, ics.inetfwicmpsettings_allowoutbounddestinationunreachable, netfw/INetFwIcmpSettings::AllowOutboundDestinationUnreachable, netfw/INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable, netfw/INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable, put_AllowOutboundDestinationUnreachable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable method
+# INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable
 
 
 ## -description

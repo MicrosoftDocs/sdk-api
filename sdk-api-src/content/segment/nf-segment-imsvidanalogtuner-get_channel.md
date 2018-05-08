@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.get_Channel
-title: IMSVidAnalogTuner::get_Channel method
+title: IMSVidAnalogTuner::get_Channel
 author: windows-driver-content
 description: The get_Channel method retrieves the tuner's current channel.
 old-location: mstv\imsvidanalogtuner_get_channel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9d62cd70-02cf-4454-b5b7-da2d623ec95d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidAnalogTuner, IMSVidAnalogTuner interface [Microsoft TV Technologies], get_Channel method, IMSVidAnalogTuner::get_Channel, IMSVidAnalogTunerget_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies], IMSVidAnalogTuner interface, get_Channel,IMSVidAnalogTuner.get_Channel, mstv.imsvidanalogtuner_get_channel, segment/IMSVidAnalogTuner::get_Channel
+ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_Channel method, IMSVidAnalogTuner.get_Channel, IMSVidAnalogTuner::get_Channel, IMSVidAnalogTunerget_Channel, get_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_channel, segment/IMSVidAnalogTuner::get_Channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidAnalogTuner::get_Channel method
+# IMSVidAnalogTuner::get_Channel
 
 
 ## -description

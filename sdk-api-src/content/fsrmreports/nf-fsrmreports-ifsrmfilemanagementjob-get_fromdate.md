@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_FromDate
-title: IFsrmFileManagementJob::get_FromDate method
+title: IFsrmFileManagementJob::get_FromDate
 author: windows-driver-content
 description: The date from which you want the file management job to begin expiring files (moving files to the expired files directory). This property also applies to custom commands for the file management job.
 old-location: fsrm\ifsrmfilemanagementjob_fromdate.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: f891679d-3d94-4fbe-99b1-9445666b7694
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FromDate property [File Server Resource Manager], FromDate property [File Server Resource Manager], IFsrmFileManagementJob interface, IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], FromDate property, IFsrmFileManagementJob.FromDate, IFsrmFileManagementJob::get_FromDate, IFsrmFileManagementJob::put_FromDate, fs.ifsrmfilemanagementjob_fromdate, fsrm.ifsrmfilemanagementjob_fromdate, fsrmreports/IFsrmFileManagementJob::FromDate, fsrmreports/IFsrmFileManagementJob::get_FromDate, fsrmreports/IFsrmFileManagementJob::put_FromDate, get_FromDate,IFsrmFileManagementJob.get_FromDate
+ms.keywords: FromDate property [File Server Resource Manager], FromDate property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],FromDate property, IFsrmFileManagementJob.FromDate, IFsrmFileManagementJob.get_FromDate, IFsrmFileManagementJob::FromDate, IFsrmFileManagementJob::get_FromDate, IFsrmFileManagementJob::put_FromDate, fs.ifsrmfilemanagementjob_fromdate, fsrm.ifsrmfilemanagementjob_fromdate, fsrmreports/IFsrmFileManagementJob::FromDate, fsrmreports/IFsrmFileManagementJob::get_FromDate, fsrmreports/IFsrmFileManagementJob::put_FromDate, get_FromDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJob::get_FromDate method
+# IFsrmFileManagementJob::get_FromDate
 
 
 ## -description

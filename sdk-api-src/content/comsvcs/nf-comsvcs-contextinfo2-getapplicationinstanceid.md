@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ContextInfo2.GetApplicationInstanceId
-title: ContextInfo2::GetApplicationInstanceId method
+title: ContextInfo2::GetApplicationInstanceId
 author: windows-driver-content
 description: Retrieves the GUID of the application instance of the current object context.
 old-location: cos\contextinfo2_getapplicationinstanceid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 77149329-db3a-4ff4-a522-c290c2d0a915
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ContextInfo2, ContextInfo2 interface [COM+], GetApplicationInstanceId method, ContextInfo2::GetApplicationInstanceId, GetApplicationInstanceId method [COM+], GetApplicationInstanceId method [COM+], ContextInfo2 interface, GetApplicationInstanceId,ContextInfo2.GetApplicationInstanceId, _cos_ContextInfo2_GetApplicationInstanceId, comsvcs/ContextInfo2::GetApplicationInstanceId, cos.contextinfo2_getapplicationinstanceid
+ms.keywords: ContextInfo2 interface [COM+],GetApplicationInstanceId method, ContextInfo2.GetApplicationInstanceId, ContextInfo2::GetApplicationInstanceId, GetApplicationInstanceId, GetApplicationInstanceId method [COM+], GetApplicationInstanceId method [COM+],ContextInfo2 interface, _cos_ContextInfo2_GetApplicationInstanceId, comsvcs/ContextInfo2::GetApplicationInstanceId, cos.contextinfo2_getapplicationinstanceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ContextInfo2::GetApplicationInstanceId method
+# ContextInfo2::GetApplicationInstanceId
 
 
 ## -description

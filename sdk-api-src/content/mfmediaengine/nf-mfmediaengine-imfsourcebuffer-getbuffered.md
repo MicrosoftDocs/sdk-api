@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetBuffered
-title: IMFSourceBuffer::GetBuffered method
+title: IMFSourceBuffer::GetBuffered
 author: windows-driver-content
 description: Gets the buffered time range.
 old-location: mf\imfsourcebuffer_getbuffered.htm
 old-project: medfound
 ms.assetid: cbed0e90-8950-46f6-acaa-5e6daf814dd0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetBuffered method [Media Foundation], GetBuffered method [Media Foundation], IMFSourceBuffer interface, GetBuffered,IMFSourceBuffer.GetBuffered, IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], GetBuffered method, IMFSourceBuffer::GetBuffered, mf.imfsourcebuffer_getbuffered, mfmediaengine/IMFSourceBuffer::GetBuffered
+ms.date: 5/3/2018
+ms.keywords: GetBuffered, GetBuffered method [Media Foundation], GetBuffered method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetBuffered method, IMFSourceBuffer.GetBuffered, IMFSourceBuffer::GetBuffered, mf.imfsourcebuffer_getbuffered, mfmediaengine/IMFSourceBuffer::GetBuffered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceBuffer::GetBuffered method
+# IMFSourceBuffer::GetBuffered
 
 
 ## -description

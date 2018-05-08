@@ -1,14 +1,14 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.QueryInterface
-title: IDirectInputJoyConfig8::QueryInterface method
+title: IDirectInputJoyConfig8::QueryInterface
 author: windows-driver-content
 description: The IDirectInputJoyConfig8::QueryInterface method determines whether the DirectInputJoyConfig object supports a particular COM interface.
 old-location: hid\idirectinputjoyconfig8_queryinterface.htm
 old-project: hid
 ms.assetid: aadd7919-2cb1-4c1e-944d-2ccca2f72b3f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IDirectInputJoyConfig8, IDirectInputJoyConfig8 interface [Human Input Devices], QueryInterface method, IDirectInputJoyConfig8::QueryInterface, QueryInterface method [Human Input Devices], QueryInterface method [Human Input Devices], IDirectInputJoyConfig8 interface, QueryInterface,IDirectInputJoyConfig8.QueryInterface, di_ref_757b488f-c54a-4661-9406-d7eb2cbd9dd7.xml, dinputd/IDirectInputJoyConfig8::QueryInterface, hid.idirectinputjoyconfig8_queryinterface
+ms.date: 4/30/2018
+ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],QueryInterface method, IDirectInputJoyConfig8.QueryInterface, IDirectInputJoyConfig8::QueryInterface, QueryInterface, QueryInterface method [Human Input Devices], QueryInterface method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_757b488f-c54a-4661-9406-d7eb2cbd9dd7.xml, dinputd/IDirectInputJoyConfig8::QueryInterface, hid.idirectinputjoyconfig8_queryinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectInputJoyConfig8::QueryInterface method
+# IDirectInputJoyConfig8::QueryInterface
 
 
 ## -description

@@ -69,18 +69,28 @@ Storage specification version.
  
 
 
+### -field DUMMYSTRUCTNAME.MinorVersion.DUMMYSTRUCTNAME.SubMinor
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.MinorVersion.DUMMYSTRUCTNAME.Minor
+
+ 
+
+
 ### -field DUMMYSTRUCTNAME.MinorVersion.AsUshort
 
  
+
+
+### -field DUMMYSTRUCTNAME.MajorVersion
 
 
 ### -field AsUlong
 
 
 #### - AsUshort
-
-
-#### - MajorVersion
 
 
 #### - Minor

@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRImagePresenterConfig9.GetRenderingPrefs
-title: IVMRImagePresenterConfig9::GetRenderingPrefs method
+title: IVMRImagePresenterConfig9::GetRenderingPrefs
 author: windows-driver-content
 description: The GetRenderingPrefs method gets the current rendering preferences from the VMR-9 filter's allocator-presenter.
 old-location: dshow\ivmrimagepresenterconfig9_getrenderingprefs.htm
 old-project: DirectShow
 ms.assetid: dfa9c81d-cfc8-401b-b4d1-50f21b528135
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetRenderingPrefs method [DirectShow], GetRenderingPrefs method [DirectShow], IVMRImagePresenterConfig9 interface, GetRenderingPrefs,IVMRImagePresenterConfig9.GetRenderingPrefs, IVMRImagePresenterConfig9, IVMRImagePresenterConfig9 interface [DirectShow], GetRenderingPrefs method, IVMRImagePresenterConfig9::GetRenderingPrefs, IVMRImagePresenterConfig9GetRenderingPrefs, dshow.ivmrimagepresenterconfig9_getrenderingprefs, vmr9/IVMRImagePresenterConfig9::GetRenderingPrefs
+ms.date: 4/30/2018
+ms.keywords: GetRenderingPrefs, GetRenderingPrefs method [DirectShow], GetRenderingPrefs method [DirectShow],IVMRImagePresenterConfig9 interface, IVMRImagePresenterConfig9 interface [DirectShow],GetRenderingPrefs method, IVMRImagePresenterConfig9.GetRenderingPrefs, IVMRImagePresenterConfig9::GetRenderingPrefs, IVMRImagePresenterConfig9GetRenderingPrefs, dshow.ivmrimagepresenterconfig9_getrenderingprefs, vmr9/IVMRImagePresenterConfig9::GetRenderingPrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRImagePresenterConfig9::GetRenderingPrefs method
+# IVMRImagePresenterConfig9::GetRenderingPrefs
 
 
 ## -description

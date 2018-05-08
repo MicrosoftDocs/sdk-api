@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetVolume
-title: IMFMediaEngine::SetVolume method
+title: IMFMediaEngine::SetVolume
 author: windows-driver-content
 description: Sets the audio volume level.
 old-location: mf\imfmediaengine_setvolume.htm
 old-project: medfound
 ms.assetid: 010EE05C-3F81-404E-8AFB-7C57CA55A8AE
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], SetVolume method, IMFMediaEngine::SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation], IMFMediaEngine interface, SetVolume,IMFMediaEngine.SetVolume, mf.imfmediaengine_setvolume, mfmediaengine/IMFMediaEngine::SetVolume
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngine interface [Media Foundation],SetVolume method, IMFMediaEngine.SetVolume, IMFMediaEngine::SetVolume, SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setvolume, mfmediaengine/IMFMediaEngine::SetVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::SetVolume method
+# IMFMediaEngine::SetVolume
 
 
 ## -description

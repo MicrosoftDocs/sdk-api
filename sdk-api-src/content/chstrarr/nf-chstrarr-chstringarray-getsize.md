@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.GetSize
-title: CHStringArray::GetSize method
+title: CHStringArray::GetSize
 author: windows-driver-content
 description: The GetSize method gets the size of the array. Because indexes are zero-based, the size is one greater than the largest index.
 old-location: wmi\chstringarray_getsize.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 5db50c38-a9c7-4711-925e-291cebf2b6f1
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetSize@CHStringArray@@QEBAHXZ, CHStringArray, CHStringArray interface [Windows Management Instrumentation], GetSize method, CHStringArray::GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation], CHStringArray interface, GetSize,CHStringArray.GetSize, _hmm_chstringarray_getsize, chstrarr/CHStringArray::GetSize, wmi.chstringarray_getsize"
+ms.keywords: "?GetSize@CHStringArray@@QEBAHXZ, CHStringArray interface [Windows Management Instrumentation],GetSize method, CHStringArray.GetSize, CHStringArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getsize, chstrarr/CHStringArray::GetSize, wmi.chstringarray_getsize"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHStringArray::GetSize method
+# CHStringArray::GetSize
 
 
 ## -description

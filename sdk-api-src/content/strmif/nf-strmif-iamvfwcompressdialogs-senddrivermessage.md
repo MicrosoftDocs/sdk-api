@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.SendDriverMessage
-title: IAMVfwCompressDialogs::SendDriverMessage method
+title: IAMVfwCompressDialogs::SendDriverMessage
 author: windows-driver-content
 description: The SendDriverMessage method sends a driver-specific message.
 old-location: dshow\iamvfwcompressdialogs_senddrivermessage.htm
 old-project: DirectShow
 ms.assetid: b1558888-a8aa-416a-bb5b-a33a66dcb913
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVfwCompressDialogs, IAMVfwCompressDialogs interface [DirectShow], SendDriverMessage method, IAMVfwCompressDialogs::SendDriverMessage, IAMVfwCompressDialogsSendDriverMessage, SendDriverMessage method [DirectShow], SendDriverMessage method [DirectShow], IAMVfwCompressDialogs interface, SendDriverMessage,IAMVfwCompressDialogs.SendDriverMessage, dshow.iamvfwcompressdialogs_senddrivermessage, strmif/IAMVfwCompressDialogs::SendDriverMessage
+ms.date: 4/30/2018
+ms.keywords: IAMVfwCompressDialogs interface [DirectShow],SendDriverMessage method, IAMVfwCompressDialogs.SendDriverMessage, IAMVfwCompressDialogs::SendDriverMessage, IAMVfwCompressDialogsSendDriverMessage, SendDriverMessage, SendDriverMessage method [DirectShow], SendDriverMessage method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_senddrivermessage, strmif/IAMVfwCompressDialogs::SendDriverMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVfwCompressDialogs::SendDriverMessage method
+# IAMVfwCompressDialogs::SendDriverMessage
 
 
 ## -description

@@ -121,23 +121,23 @@ The number of partitions on the drive. On hard disks with the MBR layout, this v
  
 
 
-### -field PartitionEntry
+### -field DUMMYUNIONNAME.Mbr
 
-A variable-sized array of 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a> structures, one 
-      structure for each partition on the drive.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552668">DRIVE_LAYOUT_INFORMATION_MBR</a> 
+       structure containing information about the master boot record type partitioning on the drive.
 
 
-#### - Gpt
+### -field DUMMYUNIONNAME.Gpt
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552664">DRIVE_LAYOUT_INFORMATION_GPT</a> 
        structure containing information about the GUID disk partition type partitioning on the drive.
 
 
-#### - Mbr
+### -field PartitionEntry
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552668">DRIVE_LAYOUT_INFORMATION_MBR</a> 
-       structure containing information about the master boot record type partitioning on the drive.
+A variable-sized array of 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a> structures, one 
+      structure for each partition on the drive.
 
 
 ## -see-also

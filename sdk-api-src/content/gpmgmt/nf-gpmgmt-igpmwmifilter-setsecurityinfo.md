@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilter.SetSecurityInfo
-title: IGPMWMIFilter::SetSecurityInfo method
+title: IGPMWMIFilter::SetSecurityInfo
 author: windows-driver-content
 description: Sets the list of permissions for the current WMI filter to that specified by the object.
 old-location: gpmc\igpmwmifilter_setsecurityinfo.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: e03af7ce-dec8-4390-9880-6f5ff050ca0c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMWMIFilter object [GPMC], SetSecurityInfo method, IGPMWMIFilter, IGPMWMIFilter interface [GPMC], SetSecurityInfo method, IGPMWMIFilter::SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC], GPMWMIFilter object, SetSecurityInfo method [GPMC], IGPMWMIFilter interface, SetSecurityInfo,IGPMWMIFilter.SetSecurityInfo, _win32_igpmwmifilter_setsecurityinfo, gpmc.igpmwmifilter_setsecurityinfo, gpmgmt/IGPMWMIFilter::SetSecurityInfo
+ms.keywords: GPMWMIFilter object [GPMC],SetSecurityInfo method, IGPMWMIFilter interface [GPMC],SetSecurityInfo method, IGPMWMIFilter.SetSecurityInfo, IGPMWMIFilter::SetSecurityInfo, SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC],GPMWMIFilter object, SetSecurityInfo method [GPMC],IGPMWMIFilter interface, _win32_igpmwmifilter_setsecurityinfo, gpmc.igpmwmifilter_setsecurityinfo, gpmgmt/IGPMWMIFilter::SetSecurityInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMWMIFilter::SetSecurityInfo method
+# IGPMWMIFilter::SetSecurityInfo
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.CertificateSuccess
-title: IMSVidStreamBufferSourceEvent::CertificateSuccess method
+title: IMSVidStreamBufferSourceEvent::CertificateSuccess
 author: windows-driver-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_certificatesuccess.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1c541058-5e02-4b78-8c28-a2a0709d5872
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CertificateSuccess method [Microsoft TV Technologies], CertificateSuccess method [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent interface, CertificateSuccess,IMSVidStreamBufferSourceEvent.CertificateSuccess, IMSVidStreamBufferSourceEvent, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies], CertificateSuccess method, IMSVidStreamBufferSourceEvent::CertificateSuccess, IMSVidStreamBufferSourceEventCertificateSuccess, mstv.imsvidstreambuffersourceevent_certificatesuccess, segment/IMSVidStreamBufferSourceEvent::CertificateSuccess
+ms.keywords: CertificateSuccess, CertificateSuccess method [Microsoft TV Technologies], CertificateSuccess method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],CertificateSuccess method, IMSVidStreamBufferSourceEvent.CertificateSuccess, IMSVidStreamBufferSourceEvent::CertificateSuccess, IMSVidStreamBufferSourceEventCertificateSuccess, mstv.imsvidstreambuffersourceevent_certificatesuccess, segment/IMSVidStreamBufferSourceEvent::CertificateSuccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSourceEvent::CertificateSuccess method
+# IMSVidStreamBufferSourceEvent::CertificateSuccess
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleParentUndoUnit.Add
-title: IOleParentUndoUnit::Add method
+title: IOleParentUndoUnit::Add
 author: windows-driver-content
 description: Adds a simple undo unit to the collection.
 old-location: com\ioleparentundounit_add.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 86db3308-6f01-47f1-ba28-3ed5e70b7cb9
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Add method [COM], Add method [COM], IOleParentUndoUnit interface, Add,IOleParentUndoUnit.Add, IOleParentUndoUnit, IOleParentUndoUnit interface [COM], Add method, IOleParentUndoUnit::Add, _ole_ioleparentundounit_add, com.ioleparentundounit_add, ocidl/IOleParentUndoUnit::Add
+ms.keywords: Add, Add method [COM], Add method [COM],IOleParentUndoUnit interface, IOleParentUndoUnit interface [COM],Add method, IOleParentUndoUnit.Add, IOleParentUndoUnit::Add, _ole_ioleparentundounit_add, com.ioleparentundounit_add, ocidl/IOleParentUndoUnit::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleParentUndoUnit::Add method
+# IOleParentUndoUnit::Add
 
 
 ## -description

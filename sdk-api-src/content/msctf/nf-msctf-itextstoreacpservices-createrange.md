@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.CreateRange
-title: ITextStoreACPServices::CreateRange method
+title: ITextStoreACPServices::CreateRange
 author: windows-driver-content
 description: ITextStoreACPServices::CreateRange method
 old-location: tsf\itextstoreacpservices_createrange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 727945e7-b876-460e-9b06-8d03734f53b2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: CreateRange method [Text Services Framework], CreateRange method [Text Services Framework], ITextStoreACPServices interface, CreateRange,ITextStoreACPServices.CreateRange, ITextStoreACPServices, ITextStoreACPServices interface [Text Services Framework], CreateRange method, ITextStoreACPServices::CreateRange, _tsf_itextstoreacpservices_createrange_ref, msctf/ITextStoreACPServices::CreateRange, tsf.itextstoreacpservices_createrange
+ms.keywords: CreateRange, CreateRange method [Text Services Framework], CreateRange method [Text Services Framework],ITextStoreACPServices interface, ITextStoreACPServices interface [Text Services Framework],CreateRange method, ITextStoreACPServices.CreateRange, ITextStoreACPServices::CreateRange, _tsf_itextstoreacpservices_createrange_ref, msctf/ITextStoreACPServices::CreateRange, tsf.itextstoreacpservices_createrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITextStoreACPServices::CreateRange method
+# ITextStoreACPServices::CreateRange
 
 
 ## -description

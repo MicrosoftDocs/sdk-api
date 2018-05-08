@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IComThreadingInfo.SetCurrentLogicalThreadId
-title: IComThreadingInfo::SetCurrentLogicalThreadId method
+title: IComThreadingInfo::SetCurrentLogicalThreadId
 author: windows-driver-content
 description: Sets the GUID of the thread in which the caller is executing.
 old-location: com\icomthreadinginfo_setcurrentlogicalthreadid.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8a2fb319-094e-4384-b520-2cb8b8819d42
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IComThreadingInfo, IComThreadingInfo interface [COM], SetCurrentLogicalThreadId method, IComThreadingInfo::SetCurrentLogicalThreadId, SetCurrentLogicalThreadId method [COM], SetCurrentLogicalThreadId method [COM], IComThreadingInfo interface, SetCurrentLogicalThreadId,IComThreadingInfo.SetCurrentLogicalThreadId, _com_icomthreadinginfo_setcurrentlogicalthreadid, com.icomthreadinginfo_setcurrentlogicalthreadid, objidlbase/IComThreadingInfo::SetCurrentLogicalThreadId
+ms.keywords: IComThreadingInfo interface [COM],SetCurrentLogicalThreadId method, IComThreadingInfo.SetCurrentLogicalThreadId, IComThreadingInfo::SetCurrentLogicalThreadId, SetCurrentLogicalThreadId, SetCurrentLogicalThreadId method [COM], SetCurrentLogicalThreadId method [COM],IComThreadingInfo interface, _com_icomthreadinginfo_setcurrentlogicalthreadid, com.icomthreadinginfo_setcurrentlogicalthreadid, objidlbase/IComThreadingInfo::SetCurrentLogicalThreadId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IComThreadingInfo::SetCurrentLogicalThreadId method
+# IComThreadingInfo::SetCurrentLogicalThreadId
 
 
 ## -description

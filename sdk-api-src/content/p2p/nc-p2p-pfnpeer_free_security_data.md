@@ -8,7 +8,7 @@ old-project: P2PSdk
 ms.assetid: aa340e32-6d7f-4218-b120-8c352fdbda0f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
-ms.keywords: PFNPEER_FREE_SECURITY_DATA, PFNPEER_FREE_SECURITY_DATA callback function [Peer Networking], p2p.pfnpeer_free_security_data, p2p/PFNPEER_FREE_SECURITY_DATA
+ms.keywords: PFNPEER_FREE_SECURITY_DATA, PFNPEER_FREE_SECURITY_DATA callback, PFNPEER_FREE_SECURITY_DATA callback function [Peer Networking], p2p.pfnpeer_free_security_data, p2p/PFNPEER_FREE_SECURITY_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PFNPEER_FREE_SECURITY_DATA callback
+# PFNPEER_FREE_SECURITY_DATA callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetStorageFilter
-title: ID3D10InfoQueue::GetStorageFilter method
+title: ID3D10InfoQueue::GetStorageFilter
 author: windows-driver-content
 description: Get the storage filter at the top of the storage-filter stack.
 old-location: direct3d10\id3d10infoqueue_getstoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getstoragefilter.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 2a5b558d-3526-acaa-1d02-32a867241cae, GetStorageFilter method [Direct3D 10], GetStorageFilter method [Direct3D 10], ID3D10InfoQueue interface, GetStorageFilter,ID3D10InfoQueue.GetStorageFilter, ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], GetStorageFilter method, ID3D10InfoQueue::GetStorageFilter, d3d10sdklayers/ID3D10InfoQueue::GetStorageFilter, direct3d10.id3d10infoqueue_getstoragefilter
+ms.keywords: 2a5b558d-3526-acaa-1d02-32a867241cae, GetStorageFilter, GetStorageFilter method [Direct3D 10], GetStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetStorageFilter method, ID3D10InfoQueue.GetStorageFilter, ID3D10InfoQueue::GetStorageFilter, d3d10sdklayers/ID3D10InfoQueue::GetStorageFilter, direct3d10.id3d10infoqueue_getstoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10InfoQueue::GetStorageFilter method
+# ID3D10InfoQueue::GetStorageFilter
 
 
 ## -description

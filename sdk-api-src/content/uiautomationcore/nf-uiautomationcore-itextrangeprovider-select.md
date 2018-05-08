@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.Select
-title: ITextRangeProvider::Select method
+title: ITextRangeProvider::Select
 author: windows-driver-content
 description: Selects the span of text that corresponds to this text range, and removes any previous selection.
 old-location: winauto\uiauto_ITextRangeProvider_Select.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 486a604f-cea7-48de-aca2-2e9355699845
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], Select method, ITextRangeProvider::Select, Select method [Windows Accessibility], Select method [Windows Accessibility], ITextRangeProvider interface, Select,ITextRangeProvider.Select, uiauto.uiauto_ITextRangeProvider_Select, uiauto_ITextRangeProvider_Select, uiautomationcore/ITextRangeProvider::Select, winauto.uiauto_ITextRangeProvider_Select
+ms.keywords: ITextRangeProvider interface [Windows Accessibility],Select method, ITextRangeProvider.Select, ITextRangeProvider::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_Select, uiauto_ITextRangeProvider_Select, uiautomationcore/ITextRangeProvider::Select, winauto.uiauto_ITextRangeProvider_Select
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRangeProvider::Select method
+# ITextRangeProvider::Select
 
 
 ## -description

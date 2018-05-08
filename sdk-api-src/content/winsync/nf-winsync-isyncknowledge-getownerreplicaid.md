@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetOwnerReplicaId
-title: ISyncKnowledge::GetOwnerReplicaId method
+title: ISyncKnowledge::GetOwnerReplicaId
 author: windows-driver-content
 description: Gets the ID of the replica that owns this knowledge.
 old-location: winsync\isyncknowledge_getownerreplicaid.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 868ed5da-0bcb-43d9-9a43-81186f8b3409
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetOwnerReplicaId method [Windows Sync], GetOwnerReplicaId method [Windows Sync], ISyncKnowledge interface, GetOwnerReplicaId,ISyncKnowledge.GetOwnerReplicaId, ISyncKnowledge, ISyncKnowledge interface [Windows Sync], GetOwnerReplicaId method, ISyncKnowledge::GetOwnerReplicaId, winsync.isyncknowledge_getownerreplicaid, winsync/ISyncKnowledge::GetOwnerReplicaId
+ms.keywords: GetOwnerReplicaId, GetOwnerReplicaId method [Windows Sync], GetOwnerReplicaId method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetOwnerReplicaId method, ISyncKnowledge.GetOwnerReplicaId, ISyncKnowledge::GetOwnerReplicaId, winsync.isyncknowledge_getownerreplicaid, winsync/ISyncKnowledge::GetOwnerReplicaId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::GetOwnerReplicaId method
+# ISyncKnowledge::GetOwnerReplicaId
 
 
 ## -description

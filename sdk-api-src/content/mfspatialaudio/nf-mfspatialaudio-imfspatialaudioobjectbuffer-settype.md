@@ -1,14 +1,14 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.SetType
-title: IMFSpatialAudioObjectBuffer::SetType method
+title: IMFSpatialAudioObjectBuffer::SetType
 author: windows-driver-content
 description: Sets the type of the spatial audio object represented by the buffer.
 old-location: mf\imfspatialaudioobjectbuffer_settype.htm
 old-project: medfound
 ms.assetid: 3D21D093-FDCE-4ECA-B8B2-56D6E5D5D9C6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSpatialAudioObjectBuffer, IMFSpatialAudioObjectBuffer interface [Media Foundation], SetType method, IMFSpatialAudioObjectBuffer::SetType, SetType method [Media Foundation], SetType method [Media Foundation], IMFSpatialAudioObjectBuffer interface, SetType,IMFSpatialAudioObjectBuffer.SetType, mf.imfspatialaudioobjectbuffer_settype, mfspatialaudio/IMFSpatialAudioObjectBuffer::SetType
+ms.date: 5/3/2018
+ms.keywords: IMFSpatialAudioObjectBuffer interface [Media Foundation],SetType method, IMFSpatialAudioObjectBuffer.SetType, IMFSpatialAudioObjectBuffer::SetType, SetType, SetType method [Media Foundation], SetType method [Media Foundation],IMFSpatialAudioObjectBuffer interface, mf.imfspatialaudioobjectbuffer_settype, mfspatialaudio/IMFSpatialAudioObjectBuffer::SetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSpatialAudioObjectBuffer::SetType method
+# IMFSpatialAudioObjectBuffer::SetType
 
 
 ## -description

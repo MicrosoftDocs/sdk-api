@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.IUserDictionariesRegistrar.UnregisterUserDictionary
-title: IUserDictionariesRegistrar::UnregisterUserDictionary method
+title: IUserDictionariesRegistrar::UnregisterUserDictionary
 author: windows-driver-content
 description: Unregisters a previously registered user dictionary.
 old-location: intl\iuserdictionariesregistrar_unregisteruserdictionary.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 6b1756f5-7ab5-4408-896d-5ea5ae671651
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IUserDictionariesRegistrar, IUserDictionariesRegistrar interface [Internationalization for Windows Applications], UnregisterUserDictionary method, IUserDictionariesRegistrar::UnregisterUserDictionary, UnregisterUserDictionary method [Internationalization for Windows Applications], UnregisterUserDictionary method [Internationalization for Windows Applications], IUserDictionariesRegistrar interface, UnregisterUserDictionary,IUserDictionariesRegistrar.UnregisterUserDictionary, intl.iuserdictionariesregistrar_unregisteruserdictionary, spellcheck/IUserDictionariesRegistrar::UnregisterUserDictionary
+ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],UnregisterUserDictionary method, IUserDictionariesRegistrar.UnregisterUserDictionary, IUserDictionariesRegistrar::UnregisterUserDictionary, UnregisterUserDictionary, UnregisterUserDictionary method [Internationalization for Windows Applications], UnregisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_unregisteruserdictionary, spellcheck/IUserDictionariesRegistrar::UnregisterUserDictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IUserDictionariesRegistrar::UnregisterUserDictionary method
+# IUserDictionariesRegistrar::UnregisterUserDictionary
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.get_PinFormat
-title: IMbnPin::get_PinFormat method
+title: IMbnPin::get_PinFormat
 author: windows-driver-content
 description: The PIN format.
 old-location: mbn\imbnpin_pinformat.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 146e5fa4-0883-47ca-9bf6-88cf4f4b5497
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnPin, IMbnPin interface [Microsoft Broadband Networks], PinFormat property, IMbnPin.PinFormat, IMbnPin::get_PinFormat, PinFormat property [Microsoft Broadband Networks], PinFormat property [Microsoft Broadband Networks], IMbnPin interface, get_PinFormat,IMbnPin.get_PinFormat, mbn.imbnpin_pinformat, mbnapi/IMbnPin::PinFormat, mbnapi/IMbnPin::get_PinFormat
+ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinFormat property, IMbnPin.PinFormat, IMbnPin.get_PinFormat, IMbnPin::PinFormat, IMbnPin::get_PinFormat, PinFormat property [Microsoft Broadband Networks], PinFormat property [Microsoft Broadband Networks],IMbnPin interface, get_PinFormat, mbn.imbnpin_pinformat, mbnapi/IMbnPin::PinFormat, mbnapi/IMbnPin::get_PinFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnPin::get_PinFormat method
+# IMbnPin::get_PinFormat
 
 
 ## -description

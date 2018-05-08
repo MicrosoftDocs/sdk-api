@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayNextChapter
-title: IDvdControl2::PlayNextChapter method
+title: IDvdControl2::PlayNextChapter
 author: windows-driver-content
 description: The PlayNextChapter method starts playback from the beginning of the next chapter in the current title.
 old-location: dshow\idvdcontrol2_playnextchapter.htm
 old-project: DirectShow
 ms.assetid: 654841ce-6689-47cc-93fb-bd8de8f4dd3a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], PlayNextChapter method, IDvdControl2::PlayNextChapter, IDvdControl2PlayNextChapter, PlayNextChapter method [DirectShow], PlayNextChapter method [DirectShow], IDvdControl2 interface, PlayNextChapter,IDvdControl2.PlayNextChapter, dshow.idvdcontrol2_playnextchapter, strmif/IDvdControl2::PlayNextChapter
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],PlayNextChapter method, IDvdControl2.PlayNextChapter, IDvdControl2::PlayNextChapter, IDvdControl2PlayNextChapter, PlayNextChapter, PlayNextChapter method [DirectShow], PlayNextChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playnextchapter, strmif/IDvdControl2::PlayNextChapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::PlayNextChapter method
+# IDvdControl2::PlayNextChapter
 
 
 ## -description

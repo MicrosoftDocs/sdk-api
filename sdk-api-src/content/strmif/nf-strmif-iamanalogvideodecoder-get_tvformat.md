@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.get_TVFormat
-title: IAMAnalogVideoDecoder::get_TVFormat method
+title: IAMAnalogVideoDecoder::get_TVFormat
 author: windows-driver-content
 description: The get_TVFormat method retrieves the current analog video format.
 old-location: dshow\iamanalogvideodecoder_get_tvformat.htm
 old-project: DirectShow
 ms.assetid: 8973281f-2037-487f-9e86-8c7ceca75b23
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAnalogVideoDecoder, IAMAnalogVideoDecoder interface [DirectShow], get_TVFormat method, IAMAnalogVideoDecoder::get_TVFormat, IAMAnalogVideoDecoderget_TVFormat, dshow.iamanalogvideodecoder_get_tvformat, get_TVFormat method [DirectShow], get_TVFormat method [DirectShow], IAMAnalogVideoDecoder interface, get_TVFormat,IAMAnalogVideoDecoder.get_TVFormat, strmif/IAMAnalogVideoDecoder::get_TVFormat
+ms.date: 4/30/2018
+ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_TVFormat method, IAMAnalogVideoDecoder.get_TVFormat, IAMAnalogVideoDecoder::get_TVFormat, IAMAnalogVideoDecoderget_TVFormat, dshow.iamanalogvideodecoder_get_tvformat, get_TVFormat, get_TVFormat method [DirectShow], get_TVFormat method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_TVFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAnalogVideoDecoder::get_TVFormat method
+# IAMAnalogVideoDecoder::get_TVFormat
 
 
 ## -description

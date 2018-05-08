@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriterEx.InitializeEx
-title: CVssWriterEx::InitializeEx method
+title: CVssWriterEx::InitializeEx
 author: windows-driver-content
 description: Initializes a CVssWriterEx object and allows a writer application to interact with VSS. Unlike the Initialize method, the InitializeEx method allows the caller to specify writer version information.
 old-location: base\cvsswriterex_initializeex.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 08516a5e-b1ad-4256-9eee-261393b031e2
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriterEx, CVssWriterEx interface, InitializeEx method, CVssWriterEx::InitializeEx, InitializeEx method, InitializeEx method, CVssWriterEx interface, InitializeEx,CVssWriterEx.InitializeEx, base.cvsswriterex_initializeex, vswriter/CVssWriterEx::InitializeEx
+ms.keywords: CVssWriterEx interface,InitializeEx method, CVssWriterEx.InitializeEx, CVssWriterEx::InitializeEx, InitializeEx, InitializeEx method, InitializeEx method,CVssWriterEx interface, base.cvsswriterex_initializeex, vswriter/CVssWriterEx::InitializeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriterEx::InitializeEx method
+# CVssWriterEx::InitializeEx
 
 
 ## -description

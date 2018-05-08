@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionSink.OnUpdateComposition
-title: ITfContextOwnerCompositionSink::OnUpdateComposition method
+title: ITfContextOwnerCompositionSink::OnUpdateComposition
 author: windows-driver-content
 description: ITfContextOwnerCompositionSink::OnUpdateComposition method
 old-location: tsf\itfcontextownercompositionsink_onupdatecomposition.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 18c13a32-918b-4178-a72d-0f7d10c2a68d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfContextOwnerCompositionSink, ITfContextOwnerCompositionSink interface [Text Services Framework], OnUpdateComposition method, ITfContextOwnerCompositionSink::OnUpdateComposition, OnUpdateComposition method [Text Services Framework], OnUpdateComposition method [Text Services Framework], ITfContextOwnerCompositionSink interface, OnUpdateComposition,ITfContextOwnerCompositionSink.OnUpdateComposition, _tsf_itfcontextownercompositionsink_onupdatecomposition_ref, msctf/ITfContextOwnerCompositionSink::OnUpdateComposition, tsf.itfcontextownercompositionsink_onupdatecomposition
+ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnUpdateComposition method, ITfContextOwnerCompositionSink.OnUpdateComposition, ITfContextOwnerCompositionSink::OnUpdateComposition, OnUpdateComposition, OnUpdateComposition method [Text Services Framework], OnUpdateComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onupdatecomposition_ref, msctf/ITfContextOwnerCompositionSink::OnUpdateComposition, tsf.itfcontextownercompositionsink_onupdatecomposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwnerCompositionSink::OnUpdateComposition method
+# ITfContextOwnerCompositionSink::OnUpdateComposition
 
 
 ## -description

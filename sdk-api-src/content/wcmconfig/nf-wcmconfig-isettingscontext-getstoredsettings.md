@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.GetStoredSettings
-title: ISettingsContext::GetStoredSettings method
+title: ISettingsContext::GetStoredSettings
 author: windows-driver-content
 description: Gets the stored setting changes from the context for the given namespace.
 old-location: smi\isettingscontext_getstoredsettings.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 29ec0b36-31f2-4078-b1a4-872a8ed340e3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetStoredSettings method [SMI], GetStoredSettings method [SMI], ISettingsContext interface, GetStoredSettings,ISettingsContext.GetStoredSettings, ISettingsContext, ISettingsContext interface [SMI], GetStoredSettings method, ISettingsContext::GetStoredSettings, smi.isettingscontext_getstoredsettings, wcmconfig/ISettingsContext::GetStoredSettings
+ms.keywords: GetStoredSettings, GetStoredSettings method [SMI], GetStoredSettings method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],GetStoredSettings method, ISettingsContext.GetStoredSettings, ISettingsContext::GetStoredSettings, smi.isettingscontext_getstoredsettings, wcmconfig/ISettingsContext::GetStoredSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsContext::GetStoredSettings method
+# ISettingsContext::GetStoredSettings
 
 
 ## -description

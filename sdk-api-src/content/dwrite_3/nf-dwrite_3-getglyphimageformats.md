@@ -8,7 +8,7 @@ old-project: DirectWrite
 ms.assetid: bbbb399a-fdcd-5e08-4c50-1bec4784d696
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetGlyphImageFormats, GetGlyphImageFormats methods [Direct Write], directwrite.idwritefontface4_getglyphimageformats_overload, dwrite_3/GetGlyphImageFormats
+ms.keywords: GetGlyphImageFormats, GetGlyphImageFormats methods [Direct Write], IDWriteFontFace4::GetGlyphImageFormats, directwrite.idwritefontface4_getglyphimageformats_overload, dwrite_3/GetGlyphImageFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

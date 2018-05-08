@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.GetLastIndex
-title: ISimilarityTraitsTable::GetLastIndex method
+title: ISimilarityTraitsTable::GetLastIndex
 author: windows-driver-content
 description: Retrieves the index of the last entry that was stored in the similarity traits table.
 old-location: rdc\isimilaritytraitstable_getlastindex.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 4e6cb7b4-0dcf-4a51-acf9-3263d73eee63
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetLastIndex method [Remote Differential Compression], GetLastIndex method [Remote Differential Compression], ISimilarityTraitsTable interface, GetLastIndex,ISimilarityTraitsTable.GetLastIndex, ISimilarityTraitsTable, ISimilarityTraitsTable interface [Remote Differential Compression], GetLastIndex method, ISimilarityTraitsTable::GetLastIndex, fs.isimilaritytraitstable_getlastindex, msrdc/ISimilarityTraitsTable::GetLastIndex, rdc.isimilaritytraitstable_getlastindex
+ms.keywords: GetLastIndex, GetLastIndex method [Remote Differential Compression], GetLastIndex method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],GetLastIndex method, ISimilarityTraitsTable.GetLastIndex, ISimilarityTraitsTable::GetLastIndex, fs.isimilaritytraitstable_getlastindex, msrdc/ISimilarityTraitsTable::GetLastIndex, rdc.isimilaritytraitstable_getlastindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityTraitsTable::GetLastIndex method
+# ISimilarityTraitsTable::GetLastIndex
 
 
 ## -description

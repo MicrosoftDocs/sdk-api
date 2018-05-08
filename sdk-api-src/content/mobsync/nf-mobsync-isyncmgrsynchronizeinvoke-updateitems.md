@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeInvoke.UpdateItems
-title: ISyncMgrSynchronizeInvoke::UpdateItems method
+title: ISyncMgrSynchronizeInvoke::UpdateItems
 author: windows-driver-content
 description: Programmatically starts an update for specified items.
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateitems.htm
 old-project: shell
 ms.assetid: 7a646d11-a84c-44c1-b52b-ffd364cc2ac3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSynchronizeInvoke, ISyncMgrSynchronizeInvoke interface [Windows Shell], UpdateItems method, ISyncMgrSynchronizeInvoke::UpdateItems, UpdateItems method [Windows Shell], UpdateItems method [Windows Shell], ISyncMgrSynchronizeInvoke interface, UpdateItems,ISyncMgrSynchronizeInvoke.UpdateItems, mobsync/ISyncMgrSynchronizeInvoke::UpdateItems, shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems, syncmgr.isyncmgrsynchronizeinvoke_updateitems
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateItems method, ISyncMgrSynchronizeInvoke.UpdateItems, ISyncMgrSynchronizeInvoke::UpdateItems, UpdateItems, UpdateItems method [Windows Shell], UpdateItems method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateItems, shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems, syncmgr.isyncmgrsynchronizeinvoke_updateitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronizeInvoke::UpdateItems method
+# ISyncMgrSynchronizeInvoke::UpdateItems
 
 
 ## -description

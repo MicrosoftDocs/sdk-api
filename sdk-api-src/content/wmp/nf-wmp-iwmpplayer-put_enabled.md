@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayer.put_enabled
-title: IWMPPlayer::put_enabled method
+title: IWMPPlayer::put_enabled
 author: windows-driver-content
 description: The put_enabled method specifies a value indicating whether the Windows Media Player control is enabled.
 old-location: wmp\iwmpplayer_put_enabled.htm
 old-project: WMP
 ms.assetid: c0e29724-1689-4b59-a9bd-b9cc3f391b68
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], put_enabled method, IWMPPlayer::put_enabled, IWMPPlayerput_enabled, put_enabled method [Windows Media Player], put_enabled method [Windows Media Player], IWMPPlayer interface, put_enabled,IWMPPlayer.put_enabled, wmp.iwmpplayer_put_enabled, wmp/IWMPPlayer::put_enabled
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayer interface [Windows Media Player],put_enabled method, IWMPPlayer.put_enabled, IWMPPlayer::put_enabled, IWMPPlayerput_enabled, put_enabled, put_enabled method [Windows Media Player], put_enabled method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_enabled, wmp/IWMPPlayer::put_enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayer::put_enabled method
+# IWMPPlayer::put_enabled
 
 
 ## -description

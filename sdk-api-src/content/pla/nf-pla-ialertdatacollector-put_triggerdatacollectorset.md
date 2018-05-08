@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_TriggerDataCollectorSet
-title: IAlertDataCollector::put_TriggerDataCollectorSet method
+title: IAlertDataCollector::put_TriggerDataCollectorSet
 author: windows-driver-content
 description: Retrieves or sets the name of a data collector set to start each time the counter value crosses the threshold.
 old-location: pla\ialertdatacollector_triggerdatacollectorset.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 3ba9b1c0-432e-4caf-a082-33d1c5c3b132
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IAlertDataCollector, IAlertDataCollector interface [PLA], TriggerDataCollectorSet property, IAlertDataCollector.TriggerDataCollectorSet, IAlertDataCollector::get_TriggerDataCollectorSet, IAlertDataCollector::put_TriggerDataCollectorSet, TriggerDataCollectorSet property [PLA], TriggerDataCollectorSet property [PLA], IAlertDataCollector interface, base.ialertdatacollector_triggerdatacollectorset, pla.ialertdatacollector_triggerdatacollectorset, pla/IAlertDataCollector::TriggerDataCollectorSet, pla/IAlertDataCollector::get_TriggerDataCollectorSet, pla/IAlertDataCollector::put_TriggerDataCollectorSet, put_TriggerDataCollectorSet,IAlertDataCollector.put_TriggerDataCollectorSet
+ms.keywords: IAlertDataCollector interface [PLA],TriggerDataCollectorSet property, IAlertDataCollector.TriggerDataCollectorSet, IAlertDataCollector.put_TriggerDataCollectorSet, IAlertDataCollector::TriggerDataCollectorSet, IAlertDataCollector::get_TriggerDataCollectorSet, IAlertDataCollector::put_TriggerDataCollectorSet, TriggerDataCollectorSet property [PLA], TriggerDataCollectorSet property [PLA],IAlertDataCollector interface, base.ialertdatacollector_triggerdatacollectorset, pla.ialertdatacollector_triggerdatacollectorset, pla/IAlertDataCollector::TriggerDataCollectorSet, pla/IAlertDataCollector::get_TriggerDataCollectorSet, pla/IAlertDataCollector::put_TriggerDataCollectorSet, put_TriggerDataCollectorSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAlertDataCollector::put_TriggerDataCollectorSet method
+# IAlertDataCollector::put_TriggerDataCollectorSet
 
 
 ## -description

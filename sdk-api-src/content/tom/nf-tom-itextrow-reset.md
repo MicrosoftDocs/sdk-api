@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.Reset
-title: ITextRow::Reset method
+title: ITextRow::Reset
 author: windows-driver-content
 description: Resets a row.
 old-location: controls\itextrow_reset.htm
 old-project: Controls
 ms.assetid: 49f057ba-6376-496b-b0b0-97c6a00111c4
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRow, ITextRow interface [Windows Controls], Reset method, ITextRow::Reset, Reset method [Windows Controls], Reset method [Windows Controls], ITextRow interface, Reset,ITextRow.Reset, controls.itextrow_reset, tom/ITextRow::Reset
+ms.date: 4/27/2018
+ms.keywords: ITextRow interface [Windows Controls],Reset method, ITextRow.Reset, ITextRow::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextRow interface, controls.itextrow_reset, tom/ITextRow::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::Reset method
+# ITextRow::Reset
 
 
 ## -description

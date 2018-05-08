@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionParameterReflection.GetDesc
-title: ID3D11FunctionParameterReflection::GetDesc method
+title: ID3D11FunctionParameterReflection::GetDesc
 author: windows-driver-content
 description: Fills the parameter descriptor structure for the function's parameter.
 old-location: direct3d11\id3d11functionparameterreflection_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 54755DEE-B865-4C9C-A38F-52749037DBBF
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetDesc method [Direct3D 11], GetDesc method [Direct3D 11], ID3D11FunctionParameterReflection interface, GetDesc,ID3D11FunctionParameterReflection.GetDesc, ID3D11FunctionParameterReflection, ID3D11FunctionParameterReflection interface [Direct3D 11], GetDesc method, ID3D11FunctionParameterReflection::GetDesc, d3d11shader/ID3D11FunctionParameterReflection::GetDesc, direct3d11.id3d11functionparameterreflection_getdesc
+ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11FunctionParameterReflection interface, ID3D11FunctionParameterReflection interface [Direct3D 11],GetDesc method, ID3D11FunctionParameterReflection.GetDesc, ID3D11FunctionParameterReflection::GetDesc, d3d11shader/ID3D11FunctionParameterReflection::GetDesc, direct3d11.id3d11functionparameterreflection_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11FunctionParameterReflection::GetDesc method
+# ID3D11FunctionParameterReflection::GetDesc
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_ReferenceRecorder
-title: IMSVidStreamBufferSink::get_ReferenceRecorder method
+title: IMSVidStreamBufferSink::get_ReferenceRecorder
 author: windows-driver-content
 description: The get_ReferenceRecorder method creates a new reference recording object.
 old-location: mstv\imsvidstreambuffersink_get_referencerecorder.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 81315825-165a-48ef-be5e-fdeba67765f6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSink, IMSVidStreamBufferSink interface [Microsoft TV Technologies], get_ReferenceRecorder method, IMSVidStreamBufferSink::get_ReferenceRecorder, IMSVidStreamBufferSinkget_ReferenceRecorder, get_ReferenceRecorder method [Microsoft TV Technologies], get_ReferenceRecorder method [Microsoft TV Technologies], IMSVidStreamBufferSink interface, get_ReferenceRecorder,IMSVidStreamBufferSink.get_ReferenceRecorder, mstv.imsvidstreambuffersink_get_referencerecorder, segment/IMSVidStreamBufferSink::get_ReferenceRecorder
+ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_ReferenceRecorder method, IMSVidStreamBufferSink.get_ReferenceRecorder, IMSVidStreamBufferSink::get_ReferenceRecorder, IMSVidStreamBufferSinkget_ReferenceRecorder, get_ReferenceRecorder, get_ReferenceRecorder method [Microsoft TV Technologies], get_ReferenceRecorder method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_referencerecorder, segment/IMSVidStreamBufferSink::get_ReferenceRecorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSink::get_ReferenceRecorder method
+# IMSVidStreamBufferSink::get_ReferenceRecorder
 
 
 ## -description

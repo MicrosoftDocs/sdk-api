@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.IsTemporaryMonoSupported
-title: IDXGISwapChain1::IsTemporaryMonoSupported method
+title: IDXGISwapChain1::IsTemporaryMonoSupported
 author: windows-driver-content
 description: Determines whether a swap chain supports “temporary mono.”
 old-location: direct3ddxgi\idxgiswapchain1_istemporarymonosupported.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 0943F04B-15E4-4802-ABD1-3E7F5EF774E5
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGISwapChain1, IDXGISwapChain1 interface [DXGI], IsTemporaryMonoSupported method, IDXGISwapChain1::IsTemporaryMonoSupported, IsTemporaryMonoSupported method [DXGI], IsTemporaryMonoSupported method [DXGI], IDXGISwapChain1 interface, IsTemporaryMonoSupported,IDXGISwapChain1.IsTemporaryMonoSupported, direct3ddxgi.idxgiswapchain1_istemporarymonosupported, dxgi1_2/IDXGISwapChain1::IsTemporaryMonoSupported
+ms.keywords: IDXGISwapChain1 interface [DXGI],IsTemporaryMonoSupported method, IDXGISwapChain1.IsTemporaryMonoSupported, IDXGISwapChain1::IsTemporaryMonoSupported, IsTemporaryMonoSupported, IsTemporaryMonoSupported method [DXGI], IsTemporaryMonoSupported method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_istemporarymonosupported, dxgi1_2/IDXGISwapChain1::IsTemporaryMonoSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain1::IsTemporaryMonoSupported method
+# IDXGISwapChain1::IsTemporaryMonoSupported
 
 
 ## -description

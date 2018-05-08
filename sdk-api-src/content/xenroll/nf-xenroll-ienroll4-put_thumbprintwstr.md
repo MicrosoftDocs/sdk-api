@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll4.put_ThumbPrintWStr
-title: IEnroll4::put_ThumbPrintWStr method
+title: IEnroll4::put_ThumbPrintWStr
 author: windows-driver-content
 description: Sets or retrieves a hash of the certificate data. The thumbprint is used to point to the pending certificate.
 old-location: security\ienroll4_thumbprintwstr.htm
 old-project: SecCrypto
 ms.assetid: 3682e83d-8c3c-42fa-b743-0b149c956339
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll4, IEnroll4 interface [Security], ThumbPrintWStr property, IEnroll4.ThumbPrintWStr, IEnroll4::get_ThumbPrintWStr, IEnroll4::put_ThumbPrintWStr, ThumbPrintWStr property [Security], ThumbPrintWStr property [Security], IEnroll4 interface, put_ThumbPrintWStr,IEnroll4.put_ThumbPrintWStr, security.ienroll4_thumbprintwstr, xenroll/IEnroll4::ThumbPrintWStr, xenroll/IEnroll4::get_ThumbPrintWStr, xenroll/IEnroll4::put_ThumbPrintWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll4 interface [Security],ThumbPrintWStr property, IEnroll4.ThumbPrintWStr, IEnroll4.put_ThumbPrintWStr, IEnroll4::ThumbPrintWStr, IEnroll4::get_ThumbPrintWStr, IEnroll4::put_ThumbPrintWStr, ThumbPrintWStr property [Security], ThumbPrintWStr property [Security],IEnroll4 interface, put_ThumbPrintWStr, security.ienroll4_thumbprintwstr, xenroll/IEnroll4::ThumbPrintWStr, xenroll/IEnroll4::get_ThumbPrintWStr, xenroll/IEnroll4::put_ThumbPrintWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll4::put_ThumbPrintWStr method
+# IEnroll4::put_ThumbPrintWStr
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyAddProgress
-title: IDiscMasterProgressEvents::NotifyAddProgress method
+title: IDiscMasterProgressEvents::NotifyAddProgress
 author: windows-driver-content
 description: Notifies an application of its progress in response to calls to IRedbookDiscMaster::AddAudioTrackBlocks or IJolietDiscMaster::AddData. Notifications are sent for the first and last steps, and at points in between.
 old-location: imapi\idiscmasterprogressevents_notifyaddprogress.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d367b789-430e-48f5-9e50-5d6ffb9d7ebc
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscMasterProgressEvents, IDiscMasterProgressEvents interface [IMAPI], NotifyAddProgress method, IDiscMasterProgressEvents::NotifyAddProgress, NotifyAddProgress method [IMAPI], NotifyAddProgress method [IMAPI], IDiscMasterProgressEvents interface, NotifyAddProgress,IDiscMasterProgressEvents.NotifyAddProgress, _win32_idiscmasterprogressevents_notifyaddprogress, base.idiscmasterprogressevents_notifyaddprogress, imapi.idiscmasterprogressevents_notifyaddprogress, imapi/IDiscMasterProgressEvents::NotifyAddProgress
+ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyAddProgress method, IDiscMasterProgressEvents.NotifyAddProgress, IDiscMasterProgressEvents::NotifyAddProgress, NotifyAddProgress, NotifyAddProgress method [IMAPI], NotifyAddProgress method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyaddprogress, base.idiscmasterprogressevents_notifyaddprogress, imapi.idiscmasterprogressevents_notifyaddprogress, imapi/IDiscMasterProgressEvents::NotifyAddProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscMasterProgressEvents::NotifyAddProgress method
+# IDiscMasterProgressEvents::NotifyAddProgress
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetPoint
-title: IPropertyValue::GetPoint method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the Point value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getpoint.htm
 old-project: WinRT
 ms.assetid: c42dabae-008e-4dc2-b7dd-2856adc8e610
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetPoint method [Windows Runtime], GetPoint method [Windows Runtime], IPropertyValue interface, GetPoint,IPropertyValue.GetPoint, IPropertyValue, IPropertyValue interface [Windows Runtime], GetPoint method, IPropertyValue::GetPoint, windows/IPropertyValue::GetPoint, winrt.ipropertyvalue_getpoint
+ms.date: 5/4/2018
+ms.keywords: GetPoint, GetPoint method [Windows Runtime], GetPoint method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetPoint method, IPropertyValue.GetPoint, IPropertyValue.IPropertyValue, IPropertyValue::GetPoint, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetPoint, winrt.ipropertyvalue_getpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetPoint method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

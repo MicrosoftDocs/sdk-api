@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateCommandQueue
-title: ID3D12Device::CreateCommandQueue method
+title: ID3D12Device::CreateCommandQueue
 author: windows-driver-content
 description: Creates a command queue.
 old-location: direct3d12\id3d12device_createcommandqueue.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 556D068C-9939-4B42-AFC2-4EBB2D7B553B
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateCommandQueue method, CreateCommandQueue method, ID3D12Device interface, CreateCommandQueue,ID3D12Device.CreateCommandQueue, ID3D12Device, ID3D12Device interface, CreateCommandQueue method, ID3D12Device::CreateCommandQueue, d3d12/ID3D12Device::CreateCommandQueue, direct3d12.id3d12device_createcommandqueue
+ms.keywords: CreateCommandQueue, CreateCommandQueue method, CreateCommandQueue method,ID3D12Device interface, ID3D12Device interface,CreateCommandQueue method, ID3D12Device.CreateCommandQueue, ID3D12Device::CreateCommandQueue, d3d12/ID3D12Device::CreateCommandQueue, direct3d12.id3d12device_createcommandqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CreateCommandQueue method
+# ID3D12Device::CreateCommandQueue
 
 
 ## -description

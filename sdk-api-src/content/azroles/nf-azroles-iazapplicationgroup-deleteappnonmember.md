@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteAppNonMember
-title: IAzApplicationGroup::DeleteAppNonMember method
+title: IAzApplicationGroup::DeleteAppNonMember
 author: windows-driver-content
 description: Removes the specified IAzApplicationGroup object from the list of application groups that are refused membership in this application group.
 old-location: security\iazapplicationgroup_deleteappnonmember.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: d78f3cd9-4ccb-47b7-98bd-5e69ebbb178c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplicationGroup object [Security], DeleteAppNonMember method, DeleteAppNonMember method [Security], DeleteAppNonMember method [Security], AzApplicationGroup object, DeleteAppNonMember method [Security], IAzApplicationGroup interface, DeleteAppNonMember,IAzApplicationGroup.DeleteAppNonMember, IAzApplicationGroup, IAzApplicationGroup interface [Security], DeleteAppNonMember method, IAzApplicationGroup::DeleteAppNonMember, azroles/IAzApplicationGroup::DeleteAppNonMember, security.iazapplicationgroup_deleteappnonmember
+ms.keywords: AzApplicationGroup object [Security],DeleteAppNonMember method, DeleteAppNonMember, DeleteAppNonMember method [Security], DeleteAppNonMember method [Security],AzApplicationGroup object, DeleteAppNonMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteAppNonMember method, IAzApplicationGroup.DeleteAppNonMember, IAzApplicationGroup::DeleteAppNonMember, azroles/IAzApplicationGroup::DeleteAppNonMember, security.iazapplicationgroup_deleteappnonmember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplicationGroup::DeleteAppNonMember method
+# IAzApplicationGroup::DeleteAppNonMember
 
 
 ## -description

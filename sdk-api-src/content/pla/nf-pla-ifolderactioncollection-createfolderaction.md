@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.CreateFolderAction
-title: IFolderActionCollection::CreateFolderAction method
+title: IFolderActionCollection::CreateFolderAction
 author: windows-driver-content
 description: Creates a folder action object.
 old-location: pla\ifolderactioncollection_createfolderaction.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: caced576-cbe8-49d1-a372-70f035a6e3ed
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateFolderAction method [PLA], CreateFolderAction method [PLA], IFolderActionCollection interface, CreateFolderAction,IFolderActionCollection.CreateFolderAction, IFolderActionCollection, IFolderActionCollection interface [PLA], CreateFolderAction method, IFolderActionCollection::CreateFolderAction, pla.ifolderactioncollection_createfolderaction, pla/IFolderActionCollection::CreateFolderAction
+ms.keywords: CreateFolderAction, CreateFolderAction method [PLA], CreateFolderAction method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],CreateFolderAction method, IFolderActionCollection.CreateFolderAction, IFolderActionCollection::CreateFolderAction, pla.ifolderactioncollection_createfolderaction, pla/IFolderActionCollection::CreateFolderAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFolderActionCollection::CreateFolderAction method
+# IFolderActionCollection::CreateFolderAction
 
 
 ## -description

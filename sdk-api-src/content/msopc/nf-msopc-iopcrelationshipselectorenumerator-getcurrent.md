@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorEnumerator.GetCurrent
-title: IOpcRelationshipSelectorEnumerator::GetCurrent method
+title: IOpcRelationshipSelectorEnumerator::GetCurrent
 author: windows-driver-content
 description: Gets the IOpcRelationshipSelector interface pointer at the current position of the enumerator.
 old-location: opc\iopcrelationshipselectorenumerator_getcurrent.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: ffff6b7e-8e46-4be6-921f-b98e7d51a114
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions], IOpcRelationshipSelectorEnumerator interface, GetCurrent,IOpcRelationshipSelectorEnumerator.GetCurrent, IOpcRelationshipSelectorEnumerator, IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions], GetCurrent method, IOpcRelationshipSelectorEnumerator::GetCurrent, msopc/IOpcRelationshipSelectorEnumerator::GetCurrent, opc.iopcrelationshipselectorenumerator_getcurrent
+ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcRelationshipSelectorEnumerator.GetCurrent, IOpcRelationshipSelectorEnumerator::GetCurrent, msopc/IOpcRelationshipSelectorEnumerator::GetCurrent, opc.iopcrelationshipselectorenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcRelationshipSelectorEnumerator::GetCurrent method
+# IOpcRelationshipSelectorEnumerator::GetCurrent
 
 
 ## -description

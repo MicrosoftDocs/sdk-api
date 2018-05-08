@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext2.get_LDAPQueryDN
-title: IAzClientContext2::get_LDAPQueryDN method
+title: IAzClientContext2::get_LDAPQueryDN
 author: windows-driver-content
 description: Retrieves or sets the domain name of the directory object to be used during evaluation of LDAP query groups.
 old-location: security\iazclientcontext2_ldapquerydn.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 3d06e240-10d9-4d58-baae-c3d2a38ac556
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzClientContext2, IAzClientContext2 interface [Security], LDAPQueryDN property, IAzClientContext2.LDAPQueryDN, IAzClientContext2::get_LDAPQueryDN, IAzClientContext2::put_LDAPQueryDN, LDAPQueryDN property [Security], LDAPQueryDN property [Security], IAzClientContext2 interface, azroles/IAzClientContext2::LDAPQueryDN, azroles/IAzClientContext2::get_LDAPQueryDN, azroles/IAzClientContext2::put_LDAPQueryDN, get_LDAPQueryDN,IAzClientContext2.get_LDAPQueryDN, security.iazclientcontext2_ldapquerydn
+ms.keywords: IAzClientContext2 interface [Security],LDAPQueryDN property, IAzClientContext2.LDAPQueryDN, IAzClientContext2.get_LDAPQueryDN, IAzClientContext2::LDAPQueryDN, IAzClientContext2::get_LDAPQueryDN, IAzClientContext2::put_LDAPQueryDN, LDAPQueryDN property [Security], LDAPQueryDN property [Security],IAzClientContext2 interface, azroles/IAzClientContext2::LDAPQueryDN, azroles/IAzClientContext2::get_LDAPQueryDN, azroles/IAzClientContext2::put_LDAPQueryDN, get_LDAPQueryDN, security.iazclientcontext2_ldapquerydn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzClientContext2::get_LDAPQueryDN method
+# IAzClientContext2::get_LDAPQueryDN
 
 
 ## -description

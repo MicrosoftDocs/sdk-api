@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPStringCollection2.getAttributeCountByType
-title: IWMPStringCollection2::getAttributeCountByType method
+title: IWMPStringCollection2::getAttributeCountByType
 author: windows-driver-content
 description: The getAttributeCountByType method retrieves the number of attributes associated with the specified string collection index, attribute name, and language.
 old-location: wmp\iwmpstringcollection2_getattributecountbytype.htm
 old-project: WMP
 ms.assetid: 62e31749-2640-4b65-a8ee-47f3d3dd5485
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPStringCollection2, IWMPStringCollection2 interface [Windows Media Player], getAttributeCountByType method, IWMPStringCollection2::getAttributeCountByType, IWMPStringCollection2getAttributeCountByType, getAttributeCountByType method [Windows Media Player], getAttributeCountByType method [Windows Media Player], IWMPStringCollection2 interface, getAttributeCountByType,IWMPStringCollection2.getAttributeCountByType, wmp.iwmpstringcollection2_getattributecountbytype, wmp/IWMPStringCollection2::getAttributeCountByType
+ms.date: 5/4/2018
+ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getAttributeCountByType method, IWMPStringCollection2.getAttributeCountByType, IWMPStringCollection2::getAttributeCountByType, IWMPStringCollection2getAttributeCountByType, getAttributeCountByType, getAttributeCountByType method [Windows Media Player], getAttributeCountByType method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_getattributecountbytype, wmp/IWMPStringCollection2::getAttributeCountByType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPStringCollection2::getAttributeCountByType method
+# IWMPStringCollection2::getAttributeCountByType
 
 
 ## -description

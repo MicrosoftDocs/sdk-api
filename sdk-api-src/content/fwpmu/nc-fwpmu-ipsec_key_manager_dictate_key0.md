@@ -8,7 +8,7 @@ old-project: FWP
 ms.assetid: A69E44FF-A58D-426B-BD59-8EB4B5A63B66
 ms.author: windowsdriverdev
 ms.date: 4/12/2018
-ms.keywords: IPSEC_KEY_MANAGER_DICTATE_KEY0, IPSEC_KEY_MANAGER_DICTATE_KEY0 function pointer [Filtering], fwp.ipsec_key_dictate_key0, fwp.ipsec_key_manager_dictate_key0, fwpmu/IPSEC_KEY_MANAGER_DICTATE_KEY0
+ms.keywords: IPSEC_KEY_MANAGER_DICTATE_KEY0, IPSEC_KEY_MANAGER_DICTATE_KEY0 function, IPSEC_KEY_MANAGER_DICTATE_KEY0 function pointer [Filtering], fwp.ipsec_key_dictate_key0, fwp.ipsec_key_manager_dictate_key0, fwpmu/IPSEC_KEY_MANAGER_DICTATE_KEY0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IPSEC_KEY_MANAGER_DICTATE_KEY0 callback
+# IPSEC_KEY_MANAGER_DICTATE_KEY0 callback function
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: debug_wwahost
 ms.assetid: a33f99a0-7c2d-45df-8a6a-d3257d537c9b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWebApplicationScriptEvents, IWebApplicationScriptEvents interface [Debugging Windows Store apps], IWebApplicationScriptEvents interface [Debugging Windows Store apps], described, debug.iwebapplicationscriptevents, webapplication/IWebApplicationScriptEvents
+ms.keywords: IWebApplicationScriptEvents, IWebApplicationScriptEvents interface [Debugging Windows Store apps], IWebApplicationScriptEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationscriptevents, webapplication/IWebApplicationScriptEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

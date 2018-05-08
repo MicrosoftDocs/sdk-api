@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPart.GetRelationshipSet
-title: IOpcPart::GetRelationshipSet method
+title: IOpcPart::GetRelationshipSet
 author: windows-driver-content
 description: Gets a relationship set object that represents the Relationships part that stores relationships that have the part as their source.
 old-location: opc\iopcpart_getrelationshipset.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: a8a8ce1f-3420-457f-b02a-5dc3e9725a02
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRelationshipSet method [Open Packaging Conventions], GetRelationshipSet method [Open Packaging Conventions], IOpcPart interface, GetRelationshipSet,IOpcPart.GetRelationshipSet, IOpcPart, IOpcPart interface [Open Packaging Conventions], GetRelationshipSet method, IOpcPart::GetRelationshipSet, msopc/IOpcPart::GetRelationshipSet, opc.iopcpart_getrelationshipset
+ms.keywords: GetRelationshipSet, GetRelationshipSet method [Open Packaging Conventions], GetRelationshipSet method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetRelationshipSet method, IOpcPart.GetRelationshipSet, IOpcPart::GetRelationshipSet, msopc/IOpcPart::GetRelationshipSet, opc.iopcpart_getrelationshipset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPart::GetRelationshipSet method
+# IOpcPart::GetRelationshipSet
 
 
 ## -description

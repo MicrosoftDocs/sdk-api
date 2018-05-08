@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordDescriptorByIndex
-title: IISDB_SDTT::GetRecordDescriptorByIndex method
+title: IISDB_SDTT::GetRecordDescriptorByIndex
 author: windows-driver-content
 description: Returns a descriptor for a specified record in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecorddescriptorbyindex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c8aab681-4858-4ad2-84a7-15a9b8310d6f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies], IISDB_SDTT interface, GetRecordDescriptorByIndex,IISDB_SDTT.GetRecordDescriptorByIndex, IISDB_SDTT, IISDB_SDTT interface [Microsoft TV Technologies], GetRecordDescriptorByIndex method, IISDB_SDTT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_SDTT::GetRecordDescriptorByIndex, mstv.iisdb_sdtt_getrecorddescriptorbyindex
+ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_SDTT.GetRecordDescriptorByIndex, IISDB_SDTT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_SDTT::GetRecordDescriptorByIndex, mstv.iisdb_sdtt_getrecorddescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_SDTT::GetRecordDescriptorByIndex method
+# IISDB_SDTT::GetRecordDescriptorByIndex
 
 
 ## -description

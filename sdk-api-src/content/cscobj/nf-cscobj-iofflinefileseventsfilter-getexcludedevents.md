@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEventsFilter.GetExcludedEvents
-title: IOfflineFilesEventsFilter::GetExcludedEvents method
+title: IOfflineFilesEventsFilter::GetExcludedEvents
 author: windows-driver-content
 description: Retrieves an array of OFFLINEFILES_EVENTS enumeration values describing which events should not be received by the event sink.
 old-location: of\iofflinefileseventsfilter_getexcludedevents.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 40e388b2-b051-4b0a-b96e-7a73b521758e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetExcludedEvents method [Offline Files], GetExcludedEvents method [Offline Files], IOfflineFilesEventsFilter interface, GetExcludedEvents,IOfflineFilesEventsFilter.GetExcludedEvents, IOfflineFilesEventsFilter, IOfflineFilesEventsFilter interface [Offline Files], GetExcludedEvents method, IOfflineFilesEventsFilter::GetExcludedEvents, cscobj/IOfflineFilesEventsFilter::GetExcludedEvents, of.iofflinefileseventsfilter_getexcludedevents
+ms.keywords: GetExcludedEvents, GetExcludedEvents method [Offline Files], GetExcludedEvents method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetExcludedEvents method, IOfflineFilesEventsFilter.GetExcludedEvents, IOfflineFilesEventsFilter::GetExcludedEvents, cscobj/IOfflineFilesEventsFilter::GetExcludedEvents, of.iofflinefileseventsfilter_getexcludedevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEventsFilter::GetExcludedEvents method
+# IOfflineFilesEventsFilter::GetExcludedEvents
 
 
 ## -description

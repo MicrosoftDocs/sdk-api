@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetDocFormat
-title: IUrlAccessor::GetDocFormat method
+title: IUrlAccessor::GetDocFormat
 author: windows-driver-content
 description: Gets the document format, represented as a Multipurpose Internet Mail Extensions (MIME) string.
 old-location: search\_search_IUrlAccessor_GetDocFormat.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getdocformat.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetDocFormat method [search], GetDocFormat method [search], IUrlAccessor interface, GetDocFormat,IUrlAccessor.GetDocFormat, IUrlAccessor, IUrlAccessor interface [search], GetDocFormat method, IUrlAccessor::GetDocFormat, _search_IUrlAccessor_GetDocFormat, search._search_IUrlAccessor_GetDocFormat, searchapi/IUrlAccessor::GetDocFormat
+ms.date: 5/4/2018
+ms.keywords: GetDocFormat, GetDocFormat method [search], GetDocFormat method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetDocFormat method, IUrlAccessor.GetDocFormat, IUrlAccessor::GetDocFormat, _search_IUrlAccessor_GetDocFormat, search._search_IUrlAccessor_GetDocFormat, searchapi/IUrlAccessor::GetDocFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUrlAccessor::GetDocFormat method
+# IUrlAccessor::GetDocFormat
 
 
 ## -description

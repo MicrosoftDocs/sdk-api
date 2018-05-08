@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetPrimaryContent
-title: IDirectManipulationViewport::GetPrimaryContent method
+title: IDirectManipulationViewport::GetPrimaryContent
 author: windows-driver-content
 description: Gets the primary content of a viewport that implements IDirectManipulationContent and IDirectManipulationPrimaryContent.
 old-location: directmanipulation\idirectmanipulationviewport_getprimarycontent.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 1aa70be3-9e95-4c35-8cca-45c1b238961e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetPrimaryContent method [Direct Manipulation], GetPrimaryContent method [Direct Manipulation], IDirectManipulationViewport interface, GetPrimaryContent,IDirectManipulationViewport.GetPrimaryContent, IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], GetPrimaryContent method, IDirectManipulationViewport::GetPrimaryContent, directmanipulation.idirectmanipulationviewport_getprimarycontent, directmanipulation/IDirectManipulationViewport::GetPrimaryContent
+ms.keywords: GetPrimaryContent, GetPrimaryContent method [Direct Manipulation], GetPrimaryContent method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetPrimaryContent method, IDirectManipulationViewport.GetPrimaryContent, IDirectManipulationViewport::GetPrimaryContent, directmanipulation.idirectmanipulationviewport_getprimarycontent, directmanipulation/IDirectManipulationViewport::GetPrimaryContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::GetPrimaryContent method
+# IDirectManipulationViewport::GetPrimaryContent
 
 
 ## -description

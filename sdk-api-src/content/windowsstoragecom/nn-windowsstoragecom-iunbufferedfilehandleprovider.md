@@ -7,8 +7,8 @@ old-location: winrt\iunbufferedfilehandleprovider.htm
 old-project: WinRT
 ms.assetid: 9716B7ED-8E2C-4B7F-B9C9-39A755615CB3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IUnbufferedFileHandleProvider, IUnbufferedFileHandleProvider interface [Windows Runtime], IUnbufferedFileHandleProvider interface [Windows Runtime], described, windowsstoragecom/IUnbufferedFileHandleProvider, winrt.iunbufferedfilehandleprovider
+ms.date: 5/4/2018
+ms.keywords: IUnbufferedFileHandleProvider, IUnbufferedFileHandleProvider interface [Windows Runtime], IUnbufferedFileHandleProvider interface [Windows Runtime],described, windowsstoragecom/IUnbufferedFileHandleProvider, winrt.iunbufferedfilehandleprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

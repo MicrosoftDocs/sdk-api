@@ -1,14 +1,14 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetCustomHeaders
-title: IBackgroundCopyJobHttpOptions::SetCustomHeaders method
+title: IBackgroundCopyJobHttpOptions::SetCustomHeaders
 author: windows-driver-content
 description: Specifies one or more custom HTTP headers to include in HTTP requests.
 old-location: bits\ibackgroundcopyjobhttpoptions_setcustomheaders.htm
 old-project: Bits
 ms.assetid: 422a331d-5b6b-48ec-b040-43a88be43ac3
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyJobHttpOptions, IBackgroundCopyJobHttpOptions interface [BITS], SetCustomHeaders method, IBackgroundCopyJobHttpOptions::SetCustomHeaders, SetCustomHeaders method [BITS], SetCustomHeaders method [BITS], IBackgroundCopyJobHttpOptions interface, SetCustomHeaders,IBackgroundCopyJobHttpOptions.SetCustomHeaders, bits.ibackgroundcopyjobhttpoptions_setcustomheaders, bits2_5/IBackgroundCopyJobHttpOptions::SetCustomHeaders
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyJobHttpOptions interface [BITS],SetCustomHeaders method, IBackgroundCopyJobHttpOptions.SetCustomHeaders, IBackgroundCopyJobHttpOptions::SetCustomHeaders, SetCustomHeaders, SetCustomHeaders method [BITS], SetCustomHeaders method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setcustomheaders, bits2_5/IBackgroundCopyJobHttpOptions::SetCustomHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBackgroundCopyJobHttpOptions::SetCustomHeaders method
+# IBackgroundCopyJobHttpOptions::SetCustomHeaders
 
 
 ## -description

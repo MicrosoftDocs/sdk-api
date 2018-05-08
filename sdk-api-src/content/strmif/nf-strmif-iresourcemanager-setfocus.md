@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IResourceManager.SetFocus
-title: IResourceManager::SetFocus method
+title: IResourceManager::SetFocus
 author: windows-driver-content
 description: The SetFocus method notifies the resource manager that a specified object has been given the focus of the user.
 old-location: dshow\iresourcemanager_setfocus.htm
 old-project: DirectShow
 ms.assetid: 3d0a87e1-6774-45cf-9ab5-18ec1d2fff0d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IResourceManager, IResourceManager interface [DirectShow], SetFocus method, IResourceManager::SetFocus, IResourceManagerSetFocus, SetFocus method [DirectShow], SetFocus method [DirectShow], IResourceManager interface, SetFocus,IResourceManager.SetFocus, dshow.iresourcemanager_setfocus, strmif/IResourceManager::SetFocus
+ms.date: 4/30/2018
+ms.keywords: IResourceManager interface [DirectShow],SetFocus method, IResourceManager.SetFocus, IResourceManager::SetFocus, IResourceManagerSetFocus, SetFocus, SetFocus method [DirectShow], SetFocus method [DirectShow],IResourceManager interface, dshow.iresourcemanager_setfocus, strmif/IResourceManager::SetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IResourceManager::SetFocus method
+# IResourceManager::SetFocus
 
 
 ## -description

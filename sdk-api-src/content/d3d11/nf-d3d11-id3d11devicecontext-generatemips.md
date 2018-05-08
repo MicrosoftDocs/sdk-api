@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GenerateMips
-title: ID3D11DeviceContext::GenerateMips method
+title: ID3D11DeviceContext::GenerateMips
 author: windows-driver-content
 description: Generates mipmaps for the given shader resource.
 old-location: direct3d11\id3d11devicecontext_generatemips.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 43012c58-3b1a-4956-993f-4ff3f5ec7fce
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 79d02fdb-42ae-9bb1-5d10-7110c77d29f9, GenerateMips method [Direct3D 11], GenerateMips method [Direct3D 11], ID3D11DeviceContext interface, GenerateMips,ID3D11DeviceContext.GenerateMips, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], GenerateMips method, ID3D11DeviceContext::GenerateMips, d3d11/ID3D11DeviceContext::GenerateMips, direct3d11.id3d11devicecontext_generatemips
+ms.keywords: 79d02fdb-42ae-9bb1-5d10-7110c77d29f9, GenerateMips, GenerateMips method [Direct3D 11], GenerateMips method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GenerateMips method, ID3D11DeviceContext.GenerateMips, ID3D11DeviceContext::GenerateMips, d3d11/ID3D11DeviceContext::GenerateMips, direct3d11.id3d11devicecontext_generatemips
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::GenerateMips method
+# ID3D11DeviceContext::GenerateMips
 
 
 ## -description

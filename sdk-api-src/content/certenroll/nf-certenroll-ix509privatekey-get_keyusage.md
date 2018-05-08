@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_KeyUsage
-title: IX509PrivateKey::get_KeyUsage method
+title: IX509PrivateKey::get_KeyUsage
 author: windows-driver-content
 description: Specifies or retrieves a value that identifies the specific purpose for which a private key can be used.
 old-location: security\ix509privatekey_keyusage.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: e983c95b-6b3a-4e27-8a23-ef9051b11a16
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], KeyUsage property, IX509PrivateKey.KeyUsage, IX509PrivateKey::get_KeyUsage, IX509PrivateKey::put_KeyUsage, KeyUsage property [Security], KeyUsage property [Security], IX509PrivateKey interface, certenroll/IX509PrivateKey::KeyUsage, certenroll/IX509PrivateKey::get_KeyUsage, certenroll/IX509PrivateKey::put_KeyUsage, get_KeyUsage,IX509PrivateKey.get_KeyUsage, security.ix509privatekey_keyusage
+ms.keywords: IX509PrivateKey interface [Security],KeyUsage property, IX509PrivateKey.KeyUsage, IX509PrivateKey.get_KeyUsage, IX509PrivateKey::KeyUsage, IX509PrivateKey::get_KeyUsage, IX509PrivateKey::put_KeyUsage, KeyUsage property [Security], KeyUsage property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::KeyUsage, certenroll/IX509PrivateKey::get_KeyUsage, certenroll/IX509PrivateKey::put_KeyUsage, get_KeyUsage, security.ix509privatekey_keyusage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PrivateKey::get_KeyUsage method
+# IX509PrivateKey::get_KeyUsage
 
 
 ## -description

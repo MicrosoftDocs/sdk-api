@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.GetData
-title: ITfPropertyStore::GetData method
+title: ITfPropertyStore::GetData
 author: windows-driver-content
 description: ITfPropertyStore::GetData method
 old-location: tsf\itfpropertystore_getdata.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 190506ea-4f15-4976-a337-bfd873e58aff
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetData method [Text Services Framework], GetData method [Text Services Framework], ITfPropertyStore interface, GetData,ITfPropertyStore.GetData, ITfPropertyStore, ITfPropertyStore interface [Text Services Framework], GetData method, ITfPropertyStore::GetData, _tsf_itfpropertystore_getdata_ref, msctf/ITfPropertyStore::GetData, tsf.itfpropertystore_getdata
+ms.keywords: GetData, GetData method [Text Services Framework], GetData method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],GetData method, ITfPropertyStore.GetData, ITfPropertyStore::GetData, _tsf_itfpropertystore_getdata_ref, msctf/ITfPropertyStore::GetData, tsf.itfpropertystore_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfPropertyStore::GetData method
+# ITfPropertyStore::GetData
 
 
 ## -description

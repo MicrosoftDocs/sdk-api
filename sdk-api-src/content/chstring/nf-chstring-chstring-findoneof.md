@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.FindOneOf
-title: CHString::FindOneOf method
+title: CHString::FindOneOf
 author: windows-driver-content
 description: The FindOneOf method searches a string for the first character that matches any character contained in lpszCharSet.
 old-location: wmi\chstring_findoneof.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: f3f9111d-9191-4ba5-877a-736e11d0a168
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHString, CHString interface [Windows Management Instrumentation], FindOneOf method, CHString::FindOneOf, FindOneOf method [Windows Management Instrumentation], FindOneOf method [Windows Management Instrumentation], CHString interface, FindOneOf,CHString.FindOneOf, _hmm_chstring_findoneof, chstring/CHString::FindOneOf, wmi.chstring_findoneof
+ms.keywords: CHString interface [Windows Management Instrumentation],FindOneOf method, CHString.FindOneOf, CHString::FindOneOf, FindOneOf, FindOneOf method [Windows Management Instrumentation], FindOneOf method [Windows Management Instrumentation],CHString interface, _hmm_chstring_findoneof, chstring/CHString::FindOneOf, wmi.chstring_findoneof
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::FindOneOf method
+# CHString::FindOneOf
 
 
 ## -description

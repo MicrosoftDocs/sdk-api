@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetDigestMethod
-title: IXpsSigningOptions::SetDigestMethod method
+title: IXpsSigningOptions::SetDigestMethod
 author: windows-driver-content
 description: Sets the URI of the digest method.
 old-location: xps\ixpssigningoptions_setdigestmethod.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d9f72cc4-38b2-4a91-8813-183483d47986
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], SetDigestMethod method, IXpsSigningOptions::SetDigestMethod, SetDigestMethod method [XPS Documents and Packaging], SetDigestMethod method [XPS Documents and Packaging], IXpsSigningOptions interface, SetDigestMethod,IXpsSigningOptions.SetDigestMethod, xps.ixpssigningoptions_setdigestmethod, xpsdigitalsignature/IXpsSigningOptions::SetDigestMethod
+ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetDigestMethod method, IXpsSigningOptions.SetDigestMethod, IXpsSigningOptions::SetDigestMethod, SetDigestMethod, SetDigestMethod method [XPS Documents and Packaging], SetDigestMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setdigestmethod, xpsdigitalsignature/IXpsSigningOptions::SetDigestMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSigningOptions::SetDigestMethod method
+# IXpsSigningOptions::SetDigestMethod
 
 
 ## -description

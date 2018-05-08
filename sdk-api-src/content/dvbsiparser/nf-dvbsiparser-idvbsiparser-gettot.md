@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetTOT
-title: IDvbSiParser::GetTOT method
+title: IDvbSiParser::GetTOT
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_gettot.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 07e27472-2cb9-4bb1-9976-200bcdccb539
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTOT method [Microsoft TV Technologies], GetTOT method [Microsoft TV Technologies], IDvbSiParser interface, GetTOT,IDvbSiParser.GetTOT, IDvbSiParser, IDvbSiParser interface [Microsoft TV Technologies], GetTOT method, IDvbSiParser::GetTOT, IDvbSiParserGetTOT, dvbsiparser/IDvbSiParser::GetTOT, mstv.idvbsiparser_gettot
+ms.keywords: GetTOT, GetTOT method [Microsoft TV Technologies], GetTOT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetTOT method, IDvbSiParser.GetTOT, IDvbSiParser::GetTOT, IDvbSiParserGetTOT, dvbsiparser/IDvbSiParser::GetTOT, mstv.idvbsiparser_gettot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbSiParser::GetTOT method
+# IDvbSiParser::GetTOT
 
 
 ## -description

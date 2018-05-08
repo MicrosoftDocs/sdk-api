@@ -64,81 +64,7 @@ When ETW flushes a buffer, this structure contains information about the event t
 
 
 
-
-
-#### - BufferCallback
-
-Pointer to the 
-<a href="https://msdn.microsoft.com/0cfe2f62-63dc-45a6-96ce-fb4bf458358f">BufferCallback</a> function that receives buffer-related statistics for each buffer ETW flushes. ETW calls this callback after it delivers all the events in the buffer. This callback is optional.
-
-
-#### - BufferSize
-
-On output, contains the size of each buffer, in bytes. 
-
-
-#### - BuffersRead
-
-On output, the number of buffers processed.
-
-
-#### - Context
-
-Context data that a consumer can specify when calling <a href="https://msdn.microsoft.com/505e643b-6b4f-4f93-96c8-7fe8abdd6234">OpenTrace</a>. If the consumer uses <a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> to consume events, ETW sets the <b>UserContext</b> member of the <a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a> structure to this value.
-
-<b>Prior to Windows Vista:  </b>Not supported.
-
-
-#### - CurrentEvent
-
-On output, an 
-<a href="https://msdn.microsoft.com/d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0">EVENT_TRACE</a> structure that contains the last event processed.
-
-
-#### - CurrentTime
-
-On output, the current time, in 100-nanosecond intervals since midnight, January 1, 1601.
-
-
-#### - EventCallback
-
-Pointer to the 
-<a href="https://msdn.microsoft.com/9312eaed-2997-4d44-952a-fcae3b262947">EventCallback</a> function that ETW calls for each event in the buffer. 
-
-Specify this callback if you are consuming events from a provider that used one of the <a href="https://msdn.microsoft.com/9b21f6f0-dd9b-4f9c-a879-846901a3bab7">TraceEvent</a> functions to log events.
-
-
-#### - EventRecordCallback
-
-Pointer to the 
-<a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> function that ETW calls for each event in the buffer. 
-
-Specify this callback if you are consuming events from a provider that used one of the <a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a> functions to log events.
-
-<b>Prior to Windows Vista:  </b>Not supported.
-
-
-#### - EventsLost
-
-Not used.
-
-
-#### - Filled
-
-On output, contains the number of bytes in the buffer that contain valid information. 
-
-
-#### - IsKernelTrace
-
-On output, if this member is <b>TRUE</b>, the event tracing session is the NT Kernel Logger. Otherwise, it is another event tracing session.
-
-
-#### - LogFileMode
-
-Reserved. Do not use.
-
-
-#### - LogFileName
+### -field LogFileName
 
 Name of the log file used by the event tracing session. Specify a value for this member if you are consuming from a log file. 
 
@@ -152,13 +78,7 @@ If the controller set the <b>LogFileMode</b> member of <a href="https://msdn.mic
 The user consuming the events must have permissions to read the file.
 
 
-#### - LogfileHeader
-
-On output, a 
-<a href="https://msdn.microsoft.com/13fdabe6-c904-4546-b876-c145f6a6c345">TRACE_LOGFILE_HEADER</a> structure that contains general information about the session and the computer on which the session ran.
-
-
-#### - LoggerName
+### -field LoggerName
 
 Name of the event tracing session. Specify a value for this member if you want to consume events in real time. This member must be <b>NULL</b> if <b>LogFileName</b> is specified.
 
@@ -169,7 +89,27 @@ Only users with administrative privileges, users in the Performance Log Users gr
 <b>Windows XP and Windows 2000:  </b>Anyone can consume real time events.
 
 
-#### - ProcessTraceMode
+### -field CurrentTime
+
+On output, the current time, in 100-nanosecond intervals since midnight, January 1, 1601.
+
+
+### -field BuffersRead
+
+On output, the number of buffers processed.
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.LogFileMode
+
+Reserved. Do not use.
+
+
+### -field DUMMYUNIONNAME.ProcessTraceMode
 
 Modes for processing events. The modes are defined in the Evntcons.h header file. You can specify one or more of the following modes:
 
@@ -214,6 +154,74 @@ Specify this mode to receive events in real time (you must specify this mode if 
 </tr>
 </table>
  
+
+
+### -field CurrentEvent
+
+On output, an 
+<a href="https://msdn.microsoft.com/d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0">EVENT_TRACE</a> structure that contains the last event processed.
+
+
+### -field LogfileHeader
+
+On output, a 
+<a href="https://msdn.microsoft.com/13fdabe6-c904-4546-b876-c145f6a6c345">TRACE_LOGFILE_HEADER</a> structure that contains general information about the session and the computer on which the session ran.
+
+
+### -field BufferCallback
+
+Pointer to the 
+<a href="https://msdn.microsoft.com/0cfe2f62-63dc-45a6-96ce-fb4bf458358f">BufferCallback</a> function that receives buffer-related statistics for each buffer ETW flushes. ETW calls this callback after it delivers all the events in the buffer. This callback is optional.
+
+
+### -field BufferSize
+
+On output, contains the size of each buffer, in bytes. 
+
+
+### -field Filled
+
+On output, contains the number of bytes in the buffer that contain valid information. 
+
+
+### -field EventsLost
+
+Not used.
+
+
+### -field DUMMYUNIONNAME2
+
+ 
+
+
+### -field DUMMYUNIONNAME2.EventCallback
+
+Pointer to the 
+<a href="https://msdn.microsoft.com/9312eaed-2997-4d44-952a-fcae3b262947">EventCallback</a> function that ETW calls for each event in the buffer. 
+
+Specify this callback if you are consuming events from a provider that used one of the <a href="https://msdn.microsoft.com/9b21f6f0-dd9b-4f9c-a879-846901a3bab7">TraceEvent</a> functions to log events.
+
+
+### -field DUMMYUNIONNAME2.EventRecordCallback
+
+Pointer to the 
+<a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> function that ETW calls for each event in the buffer. 
+
+Specify this callback if you are consuming events from a provider that used one of the <a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a> functions to log events.
+
+<b>Prior to Windows Vista:  </b>Not supported.
+
+
+### -field IsKernelTrace
+
+On output, if this member is <b>TRUE</b>, the event tracing session is the NT Kernel Logger. Otherwise, it is another event tracing session.
+
+
+### -field Context
+
+Context data that a consumer can specify when calling <a href="https://msdn.microsoft.com/505e643b-6b4f-4f93-96c8-7fe8abdd6234">OpenTrace</a>. If the consumer uses <a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> to consume events, ETW sets the <b>UserContext</b> member of the <a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a> structure to this value.
+
+<b>Prior to Windows Vista:  </b>Not supported.
 
 
 ## -remarks

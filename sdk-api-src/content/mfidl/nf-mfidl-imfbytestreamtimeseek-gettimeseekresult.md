@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFByteStreamTimeSeek.GetTimeSeekResult
-title: IMFByteStreamTimeSeek::GetTimeSeekResult method
+title: IMFByteStreamTimeSeek::GetTimeSeekResult
 author: windows-driver-content
 description: Gets the result of a time-based seek.
 old-location: mf\imfbytestreamtimeseek_gettimeseekresult.htm
 old-project: medfound
 ms.assetid: D56E1F06-AA05-430C-BF5C-30B38831B842
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation], IMFByteStreamTimeSeek interface, GetTimeSeekResult,IMFByteStreamTimeSeek.GetTimeSeekResult, IMFByteStreamTimeSeek, IMFByteStreamTimeSeek interface [Media Foundation], GetTimeSeekResult method, IMFByteStreamTimeSeek::GetTimeSeekResult, mf.imfbytestreamtimeseek_gettimeseekresult, mfidl/IMFByteStreamTimeSeek::GetTimeSeekResult
+ms.date: 5/3/2018
+ms.keywords: GetTimeSeekResult, GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation],IMFByteStreamTimeSeek interface, IMFByteStreamTimeSeek interface [Media Foundation],GetTimeSeekResult method, IMFByteStreamTimeSeek.GetTimeSeekResult, IMFByteStreamTimeSeek::GetTimeSeekResult, mf.imfbytestreamtimeseek_gettimeseekresult, mfidl/IMFByteStreamTimeSeek::GetTimeSeekResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStreamTimeSeek::GetTimeSeekResult method
+# IMFByteStreamTimeSeek::GetTimeSeekResult
 
 
 ## -description

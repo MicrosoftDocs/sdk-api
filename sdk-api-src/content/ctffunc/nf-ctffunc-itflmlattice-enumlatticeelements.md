@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfLMLattice.EnumLatticeElements
-title: ITfLMLattice::EnumLatticeElements method
+title: ITfLMLattice::EnumLatticeElements
 author: windows-driver-content
 description: ITfLMLattice::EnumLatticeElements method
 old-location: tsf\itflmlattice_enumlatticeelements.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c42ad69f-d27a-40b7-8d63-3b422cb69db5
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnumLatticeElements method [Text Services Framework], EnumLatticeElements method [Text Services Framework], ITfLMLattice interface, EnumLatticeElements,ITfLMLattice.EnumLatticeElements, ITfLMLattice, ITfLMLattice interface [Text Services Framework], EnumLatticeElements method, ITfLMLattice::EnumLatticeElements, _tsf_itflmlattice_enumlatticeelements_ref, ctffunc/ITfLMLattice::EnumLatticeElements, tsf.itflmlattice_enumlatticeelements
+ms.keywords: EnumLatticeElements, EnumLatticeElements method [Text Services Framework], EnumLatticeElements method [Text Services Framework],ITfLMLattice interface, ITfLMLattice interface [Text Services Framework],EnumLatticeElements method, ITfLMLattice.EnumLatticeElements, ITfLMLattice::EnumLatticeElements, _tsf_itflmlattice_enumlatticeelements_ref, ctffunc/ITfLMLattice::EnumLatticeElements, tsf.itflmlattice_enumlatticeelements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLMLattice::EnumLatticeElements method
+# ITfLMLattice::EnumLatticeElements
 
 
 ## -description

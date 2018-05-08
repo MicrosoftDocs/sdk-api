@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_NumberOfIncomingCalls
-title: ITAgent::get_NumberOfIncomingCalls method
+title: ITAgent::get_NumberOfIncomingCalls
 author: windows-driver-content
 description: The get_NumberOfIncomingCalls method gets the number of incoming non-ACD calls handled by this agent.
 old-location: tapi3\itagent_get_numberofincomingcalls.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: d70073e9-a181-4f8d-b34f-95c8a24fe8d6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], get_NumberOfIncomingCalls method, ITAgent::get_NumberOfIncomingCalls, _tapi3_itagent_get_numberofincomingcalls, get_NumberOfIncomingCalls method [TAPI 2.2], get_NumberOfIncomingCalls method [TAPI 2.2], ITAgent interface, get_NumberOfIncomingCalls,ITAgent.get_NumberOfIncomingCalls, tapi3.itagent_get_numberofincomingcalls, tapi3cc/ITAgent::get_NumberOfIncomingCalls
+ms.keywords: ITAgent interface [TAPI 2.2],get_NumberOfIncomingCalls method, ITAgent.get_NumberOfIncomingCalls, ITAgent::get_NumberOfIncomingCalls, _tapi3_itagent_get_numberofincomingcalls, get_NumberOfIncomingCalls, get_NumberOfIncomingCalls method [TAPI 2.2], get_NumberOfIncomingCalls method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_numberofincomingcalls, tapi3cc/ITAgent::get_NumberOfIncomingCalls
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgent::get_NumberOfIncomingCalls method
+# ITAgent::get_NumberOfIncomingCalls
 
 
 ## -description

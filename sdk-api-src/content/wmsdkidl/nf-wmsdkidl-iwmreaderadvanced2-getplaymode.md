@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetPlayMode
-title: IWMReaderAdvanced2::GetPlayMode method
+title: IWMReaderAdvanced2::GetPlayMode
 author: windows-driver-content
 description: The GetPlayMode method retrieves the current play mode.
 old-location: wmformat\iwmreaderadvanced2_getplaymode.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 45c7e2c2-fff4-41a9-b5ce-76d8d6257e77
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetPlayMode method [windows Media Format], GetPlayMode method [windows Media Format], IWMReaderAdvanced2 interface, GetPlayMode,IWMReaderAdvanced2.GetPlayMode, IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], GetPlayMode method, IWMReaderAdvanced2::GetPlayMode, IWMReaderAdvanced2GetPlayMode, wmformat.iwmreaderadvanced2_getplaymode, wmsdkidl/IWMReaderAdvanced2::GetPlayMode
+ms.keywords: GetPlayMode, GetPlayMode method [windows Media Format], GetPlayMode method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetPlayMode method, IWMReaderAdvanced2.GetPlayMode, IWMReaderAdvanced2::GetPlayMode, IWMReaderAdvanced2GetPlayMode, wmformat.iwmreaderadvanced2_getplaymode, wmsdkidl/IWMReaderAdvanced2::GetPlayMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced2::GetPlayMode method
+# IWMReaderAdvanced2::GetPlayMode
 
 
 ## -description

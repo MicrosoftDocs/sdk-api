@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeShrink.QueryMaxReclaimableBytes
-title: IVdsVolumeShrink::QueryMaxReclaimableBytes method
+title: IVdsVolumeShrink::QueryMaxReclaimableBytes
 author: windows-driver-content
 description: Retrieves the maximum number of bytes that can be reclaimed from the current volume.
 old-location: base\ivdsvolumeshrink_querymaxreclaimablebytes.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 416ceb78-50fb-4976-8814-3981b594ebec
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsVolumeShrink, IVdsVolumeShrink interface, QueryMaxReclaimableBytes method, IVdsVolumeShrink::QueryMaxReclaimableBytes, QueryMaxReclaimableBytes method, QueryMaxReclaimableBytes method, IVdsVolumeShrink interface, QueryMaxReclaimableBytes,IVdsVolumeShrink.QueryMaxReclaimableBytes, base.ivdsvolumeshrink_querymaxreclaimablebytes, vds/IVdsVolumeShrink::QueryMaxReclaimableBytes
+ms.keywords: IVdsVolumeShrink interface,QueryMaxReclaimableBytes method, IVdsVolumeShrink.QueryMaxReclaimableBytes, IVdsVolumeShrink::QueryMaxReclaimableBytes, QueryMaxReclaimableBytes, QueryMaxReclaimableBytes method, QueryMaxReclaimableBytes method,IVdsVolumeShrink interface, base.ivdsvolumeshrink_querymaxreclaimablebytes, vds/IVdsVolumeShrink::QueryMaxReclaimableBytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolumeShrink::QueryMaxReclaimableBytes method
+# IVdsVolumeShrink::QueryMaxReclaimableBytes
 
 
 ## -description

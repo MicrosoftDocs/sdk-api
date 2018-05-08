@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupMapReader.GetRequiredGroup
-title: IAppxContentGroupMapReader::GetRequiredGroup method
+title: IAppxContentGroupMapReader::GetRequiredGroup
 author: windows-driver-content
 description: Gets the required content group from the content group map.
 old-location: appxpkg\iappxcontentgroupmapreader_getrequiredgroup.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 45E4193E-EB4C-4D3D-989A-7AE35FDC2C77
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRequiredGroup method [App packaging and management], GetRequiredGroup method [App packaging and management], IAppxContentGroupMapReader interface, GetRequiredGroup,IAppxContentGroupMapReader.GetRequiredGroup, IAppxContentGroupMapReader, IAppxContentGroupMapReader interface [App packaging and management], GetRequiredGroup method, IAppxContentGroupMapReader::GetRequiredGroup, appxpackaging/IAppxContentGroupMapReader::GetRequiredGroup, appxpkg.iappxcontentgroupmapreader_getrequiredgroup
+ms.keywords: GetRequiredGroup, GetRequiredGroup method [App packaging and management], GetRequiredGroup method [App packaging and management],IAppxContentGroupMapReader interface, IAppxContentGroupMapReader interface [App packaging and management],GetRequiredGroup method, IAppxContentGroupMapReader.GetRequiredGroup, IAppxContentGroupMapReader::GetRequiredGroup, appxpackaging/IAppxContentGroupMapReader::GetRequiredGroup, appxpkg.iappxcontentgroupmapreader_getrequiredgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxContentGroupMapReader::GetRequiredGroup method
+# IAppxContentGroupMapReader::GetRequiredGroup
 
 
 ## -description

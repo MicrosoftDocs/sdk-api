@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetProviderNameList
-title: ICertSrvSetup::GetProviderNameList method
+title: ICertSrvSetup::GetProviderNameList
 author: windows-driver-content
 description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature algorithms on the computer.
 old-location: security\icertsrvsetup_getprovidernamelist.htm
 old-project: SecCrypto
 ms.assetid: a0915981-8023-4ce8-a870-7acc75c574ac
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetProviderNameList method [Security], GetProviderNameList method [Security], ICertSrvSetup interface, GetProviderNameList,ICertSrvSetup.GetProviderNameList, ICertSrvSetup, ICertSrvSetup interface [Security], GetProviderNameList method, ICertSrvSetup::GetProviderNameList, casetup/ICertSrvSetup::GetProviderNameList, security.icertsrvsetup_getprovidernamelist
+ms.date: 4/30/2018
+ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetProviderNameList method, ICertSrvSetup.GetProviderNameList, ICertSrvSetup::GetProviderNameList, casetup/ICertSrvSetup::GetProviderNameList, security.icertsrvsetup_getprovidernamelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetup::GetProviderNameList method
+# ICertSrvSetup::GetProviderNameList
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMarshalingStream.GetMarshalingContextAttribute
-title: IMarshalingStream::GetMarshalingContextAttribute method
+title: IMarshalingStream::GetMarshalingContextAttribute
 author: windows-driver-content
 description: Gets information about the marshaling context.
 old-location: com\imarshalingstream_getmarshalingcontextattribute.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 60B401C8-1ACA-412D-B754-997C39454821
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetMarshalingContextAttribute method [COM], GetMarshalingContextAttribute method [COM], IMarshalingStream interface, GetMarshalingContextAttribute,IMarshalingStream.GetMarshalingContextAttribute, IMarshalingStream, IMarshalingStream interface [COM], GetMarshalingContextAttribute method, IMarshalingStream::GetMarshalingContextAttribute, com.imarshalingstream_getmarshalingcontextattribute, objidl/IMarshalingStream::GetMarshalingContextAttribute
+ms.keywords: GetMarshalingContextAttribute, GetMarshalingContextAttribute method [COM], GetMarshalingContextAttribute method [COM],IMarshalingStream interface, IMarshalingStream interface [COM],GetMarshalingContextAttribute method, IMarshalingStream.GetMarshalingContextAttribute, IMarshalingStream::GetMarshalingContextAttribute, com.imarshalingstream_getmarshalingcontextattribute, objidl/IMarshalingStream::GetMarshalingContextAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMarshalingStream::GetMarshalingContextAttribute method
+# IMarshalingStream::GetMarshalingContextAttribute
 
 
 ## -description

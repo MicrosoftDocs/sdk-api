@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 623553cb-9dc2-4504-9c49-357a0526b130
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISingleItemException, ISingleItemException interface [Windows Sync], ISingleItemException interface [Windows Sync], described, winsync.isingleitemexception, winsync/ISingleItemException
+ms.keywords: ISingleItemException, ISingleItemException interface [Windows Sync], ISingleItemException interface [Windows Sync],described, winsync.isingleitemexception, winsync/ISingleItemException
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

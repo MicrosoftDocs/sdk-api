@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IActionCollection.Clear
-title: IActionCollection::Clear method
+title: IActionCollection::Clear
 author: windows-driver-content
 description: Clears all the actions from the collection.
 old-location: taskschd\iactioncollection_clear.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 59a1c49d-01e0-4331-997a-deb5d45d5766
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Clear method [Task Scheduler], Clear method [Task Scheduler], IActionCollection interface, Clear,IActionCollection.Clear, IActionCollection, IActionCollection interface [Task Scheduler], Clear method, IActionCollection::Clear, actions [Task Scheduler], clearing, taskschd.iactioncollection_clear, taskschd/IActionCollection::Clear
+ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],IActionCollection interface, IActionCollection interface [Task Scheduler],Clear method, IActionCollection.Clear, IActionCollection::Clear, actions [Task Scheduler],clearing, taskschd.iactioncollection_clear, taskschd/IActionCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IActionCollection::Clear method
+# IActionCollection::Clear
 
 
 ## -description

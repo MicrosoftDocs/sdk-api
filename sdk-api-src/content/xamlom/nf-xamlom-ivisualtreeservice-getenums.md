@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetEnums
-title: IVisualTreeService::GetEnums method
+title: IVisualTreeService::GetEnums
 author: windows-driver-content
 description: Gets an array of all the enums defined in the XAML runtime and the total count.
 old-location: xaml_diagnostics\ivisualtreeservice_getenums.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 95D6F754-C1D0-4B8E-8E31-999CAE0EDF02
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: GetEnums method, GetEnums method, IVisualTreeService interface, GetEnums,IVisualTreeService.GetEnums, IVisualTreeService, IVisualTreeService interface, GetEnums method, IVisualTreeService::GetEnums, xaml_diagnostics.ivisualtreeservice_getenums, xamlom/IVisualTreeService::GetEnums
+ms.keywords: GetEnums, GetEnums method, GetEnums method,IVisualTreeService interface, IVisualTreeService interface,GetEnums method, IVisualTreeService.GetEnums, IVisualTreeService::GetEnums, xaml_diagnostics.ivisualtreeservice_getenums, xamlom/IVisualTreeService::GetEnums
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeService::GetEnums method
+# IVisualTreeService::GetEnums
 
 
 ## -description

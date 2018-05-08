@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.Initialize
-title: IFunctionDiscoveryProvider::Initialize method
+title: IFunctionDiscoveryProvider::Initialize
 author: windows-driver-content
 description: Initializes the Function Discovery provider object.
 old-location: ncd\ifunctiondiscoveryprovider_initialize_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 084d6d91-4637-4325-887b-e9f46ecaaee4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFunctionDiscoveryProvider, IFunctionDiscoveryProvider interface, Initialize method, IFunctionDiscoveryProvider::Initialize, Initialize method, Initialize method, IFunctionDiscoveryProvider interface, Initialize,IFunctionDiscoveryProvider.Initialize, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::Initialize, ncd.ifunctiondiscoveryprovider_initialize_method
+ms.keywords: IFunctionDiscoveryProvider interface,Initialize method, IFunctionDiscoveryProvider.Initialize, IFunctionDiscoveryProvider::Initialize, Initialize, Initialize method, Initialize method,IFunctionDiscoveryProvider interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::Initialize, ncd.ifunctiondiscoveryprovider_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionDiscoveryProvider::Initialize method
+# IFunctionDiscoveryProvider::Initialize
 
 
 ## -description

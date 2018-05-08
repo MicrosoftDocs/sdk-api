@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetChangeEnumerator
-title: ISyncChangeBatchBase::GetChangeEnumerator method
+title: ISyncChangeBatchBase::GetChangeEnumerator
 author: windows-driver-content
 description: Gets an IEnumSyncChanges object that enumerates the item changes in this change batch.
 old-location: winsync\isyncchangebatchbase_getchangeenumerator.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: af979d71-1eb4-463d-8e90-27a985ea289d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetChangeEnumerator method [Windows Sync], GetChangeEnumerator method [Windows Sync], ISyncChangeBatchBase interface, GetChangeEnumerator,ISyncChangeBatchBase.GetChangeEnumerator, ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], GetChangeEnumerator method, ISyncChangeBatchBase::GetChangeEnumerator, winsync.isyncchangebatchbase_getchangeenumerator, winsync/ISyncChangeBatchBase::GetChangeEnumerator
+ms.keywords: GetChangeEnumerator, GetChangeEnumerator method [Windows Sync], GetChangeEnumerator method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetChangeEnumerator method, ISyncChangeBatchBase.GetChangeEnumerator, ISyncChangeBatchBase::GetChangeEnumerator, winsync.isyncchangebatchbase_getchangeenumerator, winsync/ISyncChangeBatchBase::GetChangeEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchBase::GetChangeEnumerator method
+# ISyncChangeBatchBase::GetChangeEnumerator
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsetowner.htm
 old-project: Multimedia
 ms.assetid: 909f5cba-9078-47e8-bc14-a42f1689a2c5
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: MCIWndSetOwner, MCIWndSetOwner macro [Windows Multimedia], _win32_MCIWndSetOwner, multimedia.mciwndsetowner, vfw/MCIWndSetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices

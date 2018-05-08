@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: 4c03bb0b-74fe-456a-aa26-5449d758c0ea
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CreateEllipseGeometry, CreateEllipseGeometry methods [Direct2D], d2d1/CreateEllipseGeometry, direct2d.id2d1factory_createellipsegeometry
+ms.keywords: CreateEllipseGeometry, CreateEllipseGeometry methods [Direct2D], ID2D1Factory::CreateEllipseGeometry, d2d1/CreateEllipseGeometry, direct2d.id2d1factory_createellipsegeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

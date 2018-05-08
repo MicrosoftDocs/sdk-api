@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 4D104C4E-18EE-418F-8D99-3E766A5478F6
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: ITransportParameters, ITransportParameters interface [Media Streaming API], ITransportParameters interface [Media Streaming API], described, mediastreaming.itransportparameters, windows/ITransportParameters
+ms.keywords: ITransportParameters, ITransportParameters interface [Media Streaming API], ITransportParameters interface [Media Streaming API],described, mediastreaming.itransportparameters, windows/ITransportParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateDouble
-title: IPropertyValueStatics::CreateDouble method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified 64-bit floating point value.
 old-location: winrt\ipropertyvaluestatics_createdouble.htm
 old-project: WinRT
 ms.assetid: 66BB900A-797A-4589-AB9F-C35371F2671E
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateDouble method [Windows Runtime], CreateDouble method [Windows Runtime], IPropertyValueStatics interface, CreateDouble,IPropertyValueStatics.CreateDouble, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateDouble method, IPropertyValueStatics::CreateDouble, windows/IPropertyValueStatics::CreateDouble, winrt.ipropertyvaluefactory_createdouble, winrt.ipropertyvaluestatics_createdouble
+ms.date: 5/4/2018
+ms.keywords: CreateDouble, CreateDouble method [Windows Runtime], CreateDouble method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateDouble method, IPropertyValueStatics.CreateDouble, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateDouble, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateDouble, winrt.ipropertyvaluefactory_createdouble, winrt.ipropertyvaluestatics_createdouble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateDouble method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

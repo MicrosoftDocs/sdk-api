@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: A2DB8313-2855-4B0E-908E-CAE71E88FEF0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportTftpManager, IWdsTransportTftpManager interface [Windows Deployment Services], IWdsTransportTftpManager interface [Windows Deployment Services], described, wds.iwdstransporttftpmanager, wdstptmgmt/IWdsTransportTftpManager
+ms.keywords: IWdsTransportTftpManager, IWdsTransportTftpManager interface [Windows Deployment Services], IWdsTransportTftpManager interface [Windows Deployment Services],described, wds.iwdstransporttftpmanager, wdstptmgmt/IWdsTransportTftpManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

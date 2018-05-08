@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.IRegisteredSyncProvider.Reset
-title: IRegisteredSyncProvider::Reset method
+title: IRegisteredSyncProvider::Reset
 author: windows-driver-content
 description: Resets a synchronization provider so that it looks like a new replica in the next synchronization session.
 old-location: winsync\iregisteredsyncprovider_reset.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 05fe5db8-9a21-4e09-a1fb-d50d1f08a540
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IRegisteredSyncProvider, IRegisteredSyncProvider interface [Windows Sync], Reset method, IRegisteredSyncProvider::Reset, Reset method [Windows Sync], Reset method [Windows Sync], IRegisteredSyncProvider interface, Reset,IRegisteredSyncProvider.Reset, syncregistration/IRegisteredSyncProvider::Reset, winsync.iregisteredsyncprovider_reset
+ms.keywords: IRegisteredSyncProvider interface [Windows Sync],Reset method, IRegisteredSyncProvider.Reset, IRegisteredSyncProvider::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IRegisteredSyncProvider interface, syncregistration/IRegisteredSyncProvider::Reset, winsync.iregisteredsyncprovider_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegisteredSyncProvider::Reset method
+# IRegisteredSyncProvider::Reset
 
 
 ## -description

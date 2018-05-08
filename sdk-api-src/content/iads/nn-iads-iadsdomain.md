@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 9d4b1e9c-93b1-4aee-b20d-a7693fd0a61b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsDomain, IADsDomain interface [ADSI], IADsDomain interface [ADSI], described, _ds_iadsdomain, adsi.iadsdomain, iads/IADsDomain
+ms.keywords: IADsDomain, IADsDomain interface [ADSI], IADsDomain interface [ADSI],described, _ds_iadsdomain, adsi.iadsdomain, iads/IADsDomain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumePlex.GetProperties
-title: IVdsVolumePlex::GetProperties method
+title: IVdsVolumePlex::GetProperties
 author: windows-driver-content
 description: Returns the property details of the current volume plex.
 old-location: base\ivdsvolumeplex_getproperties.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: b5b6c141-3e9d-4e1a-9d3c-3c5063b3ab73
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetProperties method [VDS], GetProperties method [VDS], IVdsVolumePlex interface, GetProperties,IVdsVolumePlex.GetProperties, IVdsVolumePlex, IVdsVolumePlex interface [VDS], GetProperties method, IVdsVolumePlex::GetProperties, base.ivdsvolumeplex_getproperties, vds/IVdsVolumePlex::GetProperties
+ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsVolumePlex interface, IVdsVolumePlex interface [VDS],GetProperties method, IVdsVolumePlex.GetProperties, IVdsVolumePlex::GetProperties, base.ivdsvolumeplex_getproperties, vds/IVdsVolumePlex::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolumePlex::GetProperties method
+# IVdsVolumePlex::GetProperties
 
 
 ## -description

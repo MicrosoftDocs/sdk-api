@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 2d0efbae-4a1c-43b1-9021-8d89377f7282
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleWindow, IOleWindow interface [COM], IOleWindow interface [COM], described, _ole_iolewindow, com.iolewindow, oleidl/IOleWindow
+ms.keywords: IOleWindow, IOleWindow interface [COM], IOleWindow interface [COM],described, _ole_iolewindow, com.iolewindow, oleidl/IOleWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

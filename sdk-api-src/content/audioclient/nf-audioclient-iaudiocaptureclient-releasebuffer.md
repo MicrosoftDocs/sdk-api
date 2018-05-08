@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioCaptureClient.ReleaseBuffer
-title: IAudioCaptureClient::ReleaseBuffer method
+title: IAudioCaptureClient::ReleaseBuffer
 author: windows-driver-content
 description: The ReleaseBuffer method releases the buffer.
 old-location: coreaudio\iaudiocaptureclient_releasebuffer.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 38e1ea6c-d07d-4075-b6f2-d563c4bce007
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioCaptureClient, IAudioCaptureClient interface [Core Audio], ReleaseBuffer method, IAudioCaptureClient::ReleaseBuffer, IAudioCaptureClientReleaseBuffer, ReleaseBuffer method [Core Audio], ReleaseBuffer method [Core Audio], IAudioCaptureClient interface, ReleaseBuffer,IAudioCaptureClient.ReleaseBuffer, audioclient/IAudioCaptureClient::ReleaseBuffer, coreaudio.iaudiocaptureclient_releasebuffer
+ms.keywords: IAudioCaptureClient interface [Core Audio],ReleaseBuffer method, IAudioCaptureClient.ReleaseBuffer, IAudioCaptureClient::ReleaseBuffer, IAudioCaptureClientReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Core Audio], ReleaseBuffer method [Core Audio],IAudioCaptureClient interface, audioclient/IAudioCaptureClient::ReleaseBuffer, coreaudio.iaudiocaptureclient_releasebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioCaptureClient::ReleaseBuffer method
+# IAudioCaptureClient::ReleaseBuffer
 
 
 ## -description

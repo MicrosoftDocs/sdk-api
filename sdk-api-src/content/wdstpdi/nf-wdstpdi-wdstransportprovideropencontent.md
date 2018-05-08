@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 95bea971-9c97-4d66-871d-5ef7407b9659
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: WdsTransportProviderOpenContent, WdsTransportProviderOpenContent callback function [Windows Deployment Services], wds.wdstransportprovideropencontent, wdstpdi/WdsTransportProviderOpenContent
+ms.keywords: WdsTransportProviderOpenContent, WdsTransportProviderOpenContent callback, WdsTransportProviderOpenContent callback function [Windows Deployment Services], wds.wdstransportprovideropencontent, wdstpdi/WdsTransportProviderOpenContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

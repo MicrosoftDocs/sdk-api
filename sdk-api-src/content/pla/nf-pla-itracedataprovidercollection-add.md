@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.Add
-title: ITraceDataProviderCollection::Add method
+title: ITraceDataProviderCollection::Add
 author: windows-driver-content
 description: Adds a trace provider to the collection.
 old-location: pla\itracedataprovidercollection_add.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 3214f25d-1991-439a-b237-61249a531a2b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Add method [PLA], Add method [PLA], ITraceDataProviderCollection interface, Add,ITraceDataProviderCollection.Add, ITraceDataProviderCollection, ITraceDataProviderCollection interface [PLA], Add method, ITraceDataProviderCollection::Add, base.itracedataprovidercollection_add, pla.itracedataprovidercollection_add, pla/ITraceDataProviderCollection::Add
+ms.keywords: Add, Add method [PLA], Add method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Add method, ITraceDataProviderCollection.Add, ITraceDataProviderCollection::Add, base.itracedataprovidercollection_add, pla.itracedataprovidercollection_add, pla/ITraceDataProviderCollection::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataProviderCollection::Add method
+# ITraceDataProviderCollection::Add
 
 
 ## -description

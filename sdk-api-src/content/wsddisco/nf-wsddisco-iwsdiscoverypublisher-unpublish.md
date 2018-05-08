@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.UnPublish
-title: IWSDiscoveryPublisher::UnPublish method
+title: IWSDiscoveryPublisher::UnPublish
 author: windows-driver-content
 description: Announces the departure of a network host by sending a Bye message.
 old-location: ncd\iwsdiscoverypublisher_unpublish_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: ef403d31-769c-499b-a199-089100725ef9
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, UnPublish method, IWSDiscoveryPublisher::UnPublish, UnPublish method, UnPublish method, IWSDiscoveryPublisher interface, UnPublish,IWSDiscoveryPublisher.UnPublish, ncd.iwsdiscoverypublisher_unpublish_method, wsddisco/IWSDiscoveryPublisher::UnPublish
+ms.keywords: IWSDiscoveryPublisher interface,UnPublish method, IWSDiscoveryPublisher.UnPublish, IWSDiscoveryPublisher::UnPublish, UnPublish, UnPublish method, UnPublish method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unpublish_method, wsddisco/IWSDiscoveryPublisher::UnPublish
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryPublisher::UnPublish method
+# IWSDiscoveryPublisher::UnPublish
 
 
 ## -description

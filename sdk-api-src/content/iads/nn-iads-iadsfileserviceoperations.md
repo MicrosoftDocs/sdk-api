@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 91335658-8efb-4945-9862-f72e78d749d6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsFileServiceOperations, IADsFileServiceOperations interface [ADSI], IADsFileServiceOperations interface [ADSI], described, _ds_iadsfileserviceoperations, adsi.iadsfileserviceoperations, iads/IADsFileServiceOperations
+ms.keywords: IADsFileServiceOperations, IADsFileServiceOperations interface [ADSI], IADsFileServiceOperations interface [ADSI],described, _ds_iadsfileserviceoperations, adsi.iadsfileserviceoperations, iads/IADsFileServiceOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

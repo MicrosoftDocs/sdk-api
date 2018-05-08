@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetOutputPrefType
-title: IMFTopologyNode::GetOutputPrefType method
+title: IMFTopologyNode::GetOutputPrefType
 author: windows-driver-content
 description: Retrieves the preferred media type for an output stream on this node.
 old-location: mf\imftopologynode_getoutputpreftype.htm
 old-project: medfound
 ms.assetid: 972052ca-1d87-4fa4-abeb-6e74ba6c9368
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 972052ca-1d87-4fa4-abeb-6e74ba6c9368, GetOutputPrefType method [Media Foundation], GetOutputPrefType method [Media Foundation], IMFTopologyNode interface, GetOutputPrefType,IMFTopologyNode.GetOutputPrefType, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], GetOutputPrefType method, IMFTopologyNode::GetOutputPrefType, mf.imftopologynode_getoutputpreftype, mfidl/IMFTopologyNode::GetOutputPrefType
+ms.date: 5/3/2018
+ms.keywords: 972052ca-1d87-4fa4-abeb-6e74ba6c9368, GetOutputPrefType, GetOutputPrefType method [Media Foundation], GetOutputPrefType method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutputPrefType method, IMFTopologyNode.GetOutputPrefType, IMFTopologyNode::GetOutputPrefType, mf.imftopologynode_getoutputpreftype, mfidl/IMFTopologyNode::GetOutputPrefType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTopologyNode::GetOutputPrefType method
+# IMFTopologyNode::GetOutputPrefType
 
 
 ## -description

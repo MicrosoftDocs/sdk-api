@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPNodeRealEstate.SetWindowless
-title: IWMPNodeRealEstate::SetWindowless method
+title: IWMPNodeRealEstate::SetWindowless
 author: windows-driver-content
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
 old-location: wmp\iwmpnoderealestate_setwindowless.htm
 old-project: WMP
 ms.assetid: 408d33f6-916f-4443-8a92-fab00c11cad4
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNodeRealEstate, IWMPNodeRealEstate interface [Windows Media Player], SetWindowless method, IWMPNodeRealEstate::SetWindowless, IWMPNodeRealEstateSetWindowlessRendering, SetWindowless method [Windows Media Player], SetWindowless method [Windows Media Player], IWMPNodeRealEstate interface, SetWindowless,IWMPNodeRealEstate.SetWindowless, wmp.iwmpnoderealestate_setwindowless, wmprealestate/IWMPNodeRealEstate::SetWindowless
+ms.date: 5/2/2018
+ms.keywords: IWMPNodeRealEstate interface [Windows Media Player],SetWindowless method, IWMPNodeRealEstate.SetWindowless, IWMPNodeRealEstate::SetWindowless, IWMPNodeRealEstateSetWindowlessRendering, SetWindowless, SetWindowless method [Windows Media Player], SetWindowless method [Windows Media Player],IWMPNodeRealEstate interface, wmp.iwmpnoderealestate_setwindowless, wmprealestate/IWMPNodeRealEstate::SetWindowless
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNodeRealEstate::SetWindowless method
+# IWMPNodeRealEstate::SetWindowless
 
 
 ## -description

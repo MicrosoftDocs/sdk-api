@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectBlendVariable.GetBackingStore
-title: ID3D10EffectBlendVariable::GetBackingStore method
+title: ID3D10EffectBlendVariable::GetBackingStore
 author: windows-driver-content
 description: Get a pointer to a blend-state variable.
 old-location: direct3d10\id3d10effectblendvariable_getbackingstore.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectblendvariable_getbackingstore.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetBackingStore method [Direct3D 10], GetBackingStore method [Direct3D 10], ID3D10EffectBlendVariable interface, GetBackingStore,ID3D10EffectBlendVariable.GetBackingStore, ID3D10EffectBlendVariable, ID3D10EffectBlendVariable interface [Direct3D 10], GetBackingStore method, ID3D10EffectBlendVariable::GetBackingStore, a3cd275e-7fbc-0df7-7bd7-389e7e3c4888, d3d10effect/ID3D10EffectBlendVariable::GetBackingStore, direct3d10.id3d10effectblendvariable_getbackingstore
+ms.keywords: GetBackingStore, GetBackingStore method [Direct3D 10], GetBackingStore method [Direct3D 10],ID3D10EffectBlendVariable interface, ID3D10EffectBlendVariable interface [Direct3D 10],GetBackingStore method, ID3D10EffectBlendVariable.GetBackingStore, ID3D10EffectBlendVariable::GetBackingStore, a3cd275e-7fbc-0df7-7bd7-389e7e3c4888, d3d10effect/ID3D10EffectBlendVariable::GetBackingStore, direct3d10.id3d10effectblendvariable_getbackingstore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectBlendVariable::GetBackingStore method
+# ID3D10EffectBlendVariable::GetBackingStore
 
 
 ## -description

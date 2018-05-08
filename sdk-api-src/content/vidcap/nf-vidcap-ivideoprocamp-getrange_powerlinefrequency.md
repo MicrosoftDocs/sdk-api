@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_PowerlineFrequency
-title: IVideoProcAmp::getRange_PowerlineFrequency method
+title: IVideoProcAmp::getRange_PowerlineFrequency
 author: windows-driver-content
 description: The getRange_PowerlineFrequency method returns the range of power line frequency settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_powerlinefrequency.htm
 old-project: DirectShow
 ms.assetid: f6bb1df3-d033-4627-b5ea-574a2ebf43aa
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_PowerlineFrequency method, IVideoProcAmp::getRange_PowerlineFrequency, IVideoProcAmpgetRange_PowerlineFrequency, dshow.ivideoprocamp_getrange_powerlinefrequency, getRange_PowerlineFrequency method [DirectShow], getRange_PowerlineFrequency method [DirectShow], IVideoProcAmp interface, getRange_PowerlineFrequency,IVideoProcAmp.getRange_PowerlineFrequency, vidcap/IVideoProcAmp::getRange_PowerlineFrequency
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],getRange_PowerlineFrequency method, IVideoProcAmp.getRange_PowerlineFrequency, IVideoProcAmp::getRange_PowerlineFrequency, IVideoProcAmpgetRange_PowerlineFrequency, dshow.ivideoprocamp_getrange_powerlinefrequency, getRange_PowerlineFrequency, getRange_PowerlineFrequency method [DirectShow], getRange_PowerlineFrequency method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_PowerlineFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::getRange_PowerlineFrequency method
+# IVideoProcAmp::getRange_PowerlineFrequency
 
 
 ## -description

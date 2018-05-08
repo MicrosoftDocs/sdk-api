@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.GetCount
-title: IFunctionInstanceCollection::GetCount method
+title: IFunctionInstanceCollection::GetCount
 author: windows-driver-content
 description: Gets the number of function instances in the collection.
 old-location: ncd\ifunctioninstancecollection_getcount_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: d74d10b1-dab1-4f7e-8dbc-434570bf9c79
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetCount method, GetCount method, IFunctionInstanceCollection interface, GetCount,IFunctionInstanceCollection.GetCount, IFunctionInstanceCollection, IFunctionInstanceCollection interface, GetCount method, IFunctionInstanceCollection::GetCount, functiondiscoveryapi/IFunctionInstanceCollection::GetCount, ncd.ifunctioninstancecollection_getcount_method
+ms.keywords: GetCount, GetCount method, GetCount method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,GetCount method, IFunctionInstanceCollection.GetCount, IFunctionInstanceCollection::GetCount, functiondiscoveryapi/IFunctionInstanceCollection::GetCount, ncd.ifunctioninstancecollection_getcount_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionInstanceCollection::GetCount method
+# IFunctionInstanceCollection::GetCount
 
 
 ## -description

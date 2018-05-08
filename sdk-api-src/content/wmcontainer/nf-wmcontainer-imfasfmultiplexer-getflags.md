@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.GetFlags
-title: IMFASFMultiplexer::GetFlags method
+title: IMFASFMultiplexer::GetFlags
 author: windows-driver-content
 description: Retrieves flags indicating the configured multiplexer options.
 old-location: mf\imfasfmultiplexer_getflags.htm
 old-project: medfound
 ms.assetid: b0aeefb5-6996-4abb-b869-855aaa7fcde2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetFlags method [Media Foundation], GetFlags method [Media Foundation], IMFASFMultiplexer interface, GetFlags,IMFASFMultiplexer.GetFlags, IMFASFMultiplexer, IMFASFMultiplexer interface [Media Foundation], GetFlags method, IMFASFMultiplexer::GetFlags, b0aeefb5-6996-4abb-b869-855aaa7fcde2, mf.imfasfmultiplexer_getflags, wmcontainer/IMFASFMultiplexer::GetFlags
+ms.date: 5/3/2018
+ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],GetFlags method, IMFASFMultiplexer.GetFlags, IMFASFMultiplexer::GetFlags, b0aeefb5-6996-4abb-b869-855aaa7fcde2, mf.imfasfmultiplexer_getflags, wmcontainer/IMFASFMultiplexer::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFMultiplexer::GetFlags method
+# IMFASFMultiplexer::GetFlags
 
 
 ## -description

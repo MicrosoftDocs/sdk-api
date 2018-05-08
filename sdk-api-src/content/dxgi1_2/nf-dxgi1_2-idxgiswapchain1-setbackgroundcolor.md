@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.SetBackgroundColor
-title: IDXGISwapChain1::SetBackgroundColor method
+title: IDXGISwapChain1::SetBackgroundColor
 author: windows-driver-content
 description: Changes the background color of the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_setbackgroundcolor.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: E46CA219-303F-40D4-8C62-6241C9199BA0
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGISwapChain1, IDXGISwapChain1 interface [DXGI], SetBackgroundColor method, IDXGISwapChain1::SetBackgroundColor, SetBackgroundColor method [DXGI], SetBackgroundColor method [DXGI], IDXGISwapChain1 interface, SetBackgroundColor,IDXGISwapChain1.SetBackgroundColor, direct3ddxgi.idxgiswapchain1_setbackgroundcolor, dxgi1_2/IDXGISwapChain1::SetBackgroundColor
+ms.keywords: IDXGISwapChain1 interface [DXGI],SetBackgroundColor method, IDXGISwapChain1.SetBackgroundColor, IDXGISwapChain1::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [DXGI], SetBackgroundColor method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_setbackgroundcolor, dxgi1_2/IDXGISwapChain1::SetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain1::SetBackgroundColor method
+# IDXGISwapChain1::SetBackgroundColor
 
 
 ## -description

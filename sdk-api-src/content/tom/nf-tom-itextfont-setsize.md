@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetSize
-title: ITextFont::SetSize method
+title: ITextFont::SetSize
 author: windows-driver-content
 description: Sets the font size.
 old-location: controls\ITextFont_SetSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsize.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetSize method, ITextFont::SetSize, SetSize method [Windows Controls], SetSize method [Windows Controls], ITextFont interface, SetSize,ITextFont.SetSize, _win32_ITextFont_SetSize, _win32_ITextFont_SetSize_cpp, controls.ITextFont_SetSize, controls._win32_ITextFont_SetSize, tom/ITextFont::SetSize
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetSize method, ITextFont.SetSize, ITextFont::SetSize, SetSize, SetSize method [Windows Controls], SetSize method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSize, _win32_ITextFont_SetSize_cpp, controls.ITextFont_SetSize, controls._win32_ITextFont_SetSize, tom/ITextFont::SetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetSize method
+# ITextFont::SetSize
 
 
 ## -description

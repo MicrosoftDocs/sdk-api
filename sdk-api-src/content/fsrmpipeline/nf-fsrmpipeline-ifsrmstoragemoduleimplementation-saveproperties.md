@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleImplementation.SaveProperties
-title: IFsrmStorageModuleImplementation::SaveProperties method
+title: IFsrmStorageModuleImplementation::SaveProperties
 author: windows-driver-content
 description: Instructs the storage module to save properties associated with a file.
 old-location: fsrm\ifsrmstoragemoduleimplementation_saveproperties.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 4d31db26-9d03-46f3-a902-401f9e0d9767
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmStorageModuleImplementation, IFsrmStorageModuleImplementation interface [File Server Resource Manager], SaveProperties method, IFsrmStorageModuleImplementation::SaveProperties, SaveProperties method [File Server Resource Manager], SaveProperties method [File Server Resource Manager], IFsrmStorageModuleImplementation interface, SaveProperties,IFsrmStorageModuleImplementation.SaveProperties, fs.ifsrmstoragemoduleimplementation_saveproperties, fsrm.ifsrmstoragemoduleimplementation_saveproperties, fsrmpipeline/IFsrmStorageModuleImplementation::SaveProperties
+ms.keywords: IFsrmStorageModuleImplementation interface [File Server Resource Manager],SaveProperties method, IFsrmStorageModuleImplementation.SaveProperties, IFsrmStorageModuleImplementation::SaveProperties, SaveProperties, SaveProperties method [File Server Resource Manager], SaveProperties method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmstoragemoduleimplementation_saveproperties, fsrm.ifsrmstoragemoduleimplementation_saveproperties, fsrmpipeline/IFsrmStorageModuleImplementation::SaveProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmStorageModuleImplementation::SaveProperties method
+# IFsrmStorageModuleImplementation::SaveProperties
 
 
 ## -description

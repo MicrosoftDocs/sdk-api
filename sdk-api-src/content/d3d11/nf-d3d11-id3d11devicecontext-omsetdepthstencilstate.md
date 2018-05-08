@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMSetDepthStencilState
-title: ID3D11DeviceContext::OMSetDepthStencilState method
+title: ID3D11DeviceContext::OMSetDepthStencilState
 author: windows-driver-content
 description: Sets the depth-stencil state of the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omsetdepthstencilstate.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: cd5642c4-8bbe-4b5d-9f04-87de82ee9601
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], OMSetDepthStencilState method, ID3D11DeviceContext::OMSetDepthStencilState, OMSetDepthStencilState method [Direct3D 11], OMSetDepthStencilState method [Direct3D 11], ID3D11DeviceContext interface, OMSetDepthStencilState,ID3D11DeviceContext.OMSetDepthStencilState, d3d11/ID3D11DeviceContext::OMSetDepthStencilState, direct3d11.id3d11devicecontext_omsetdepthstencilstate, faf5401a-abab-bc40-9854-cf64f6ca05eb
+ms.keywords: ID3D11DeviceContext interface [Direct3D 11],OMSetDepthStencilState method, ID3D11DeviceContext.OMSetDepthStencilState, ID3D11DeviceContext::OMSetDepthStencilState, OMSetDepthStencilState, OMSetDepthStencilState method [Direct3D 11], OMSetDepthStencilState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMSetDepthStencilState, direct3d11.id3d11devicecontext_omsetdepthstencilstate, faf5401a-abab-bc40-9854-cf64f6ca05eb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::OMSetDepthStencilState method
+# ID3D11DeviceContext::OMSetDepthStencilState
 
 
 ## -description

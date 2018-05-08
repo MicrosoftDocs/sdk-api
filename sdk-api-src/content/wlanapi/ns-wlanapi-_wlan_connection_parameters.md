@@ -65,6 +65,11 @@ A <a href="https://msdn.microsoft.com/d62e863f-2aa8-49b1-9e27-8d9d053026f0">WLAN
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the <b>wlan_connection_mode_profile</b>  value is supported.
 
 
+### -field strProfile.string
+
+ 
+
+
 ### -field strProfile
 
 Specifies the profile being used for the connection. 

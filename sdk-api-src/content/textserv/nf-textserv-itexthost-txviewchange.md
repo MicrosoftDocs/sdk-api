@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxViewChange
-title: ITextHost::TxViewChange method
+title: ITextHost::TxViewChange
 author: windows-driver-content
 description: Indicates to the text host that the update region has changed.
 old-location: controls\ITextHost_TxViewChange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txviewchange.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxViewChange method, ITextHost::TxViewChange, TxViewChange method [Windows Controls], TxViewChange method [Windows Controls], ITextHost interface, TxViewChange,ITextHost.TxViewChange, _win32_ITextHost_TxViewChange, _win32_ITextHost_TxViewChange_cpp, controls.ITextHost_TxViewChange, controls._win32_ITextHost_TxViewChange, textserv/ITextHost::TxViewChange
+ms.date: 4/27/2018
+ms.keywords: ITextHost interface [Windows Controls],TxViewChange method, ITextHost.TxViewChange, ITextHost::TxViewChange, TxViewChange, TxViewChange method [Windows Controls], TxViewChange method [Windows Controls],ITextHost interface, _win32_ITextHost_TxViewChange, _win32_ITextHost_TxViewChange_cpp, controls.ITextHost_TxViewChange, controls._win32_ITextHost_TxViewChange, textserv/ITextHost::TxViewChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxViewChange method
+# ITextHost::TxViewChange
 
 
 ## -description

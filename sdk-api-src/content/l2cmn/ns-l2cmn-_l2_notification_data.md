@@ -7,7 +7,7 @@ old-location: netvista\l2_notification_data.htm
 old-project: netvista
 ms.assetid: 4b67b6c0-2b73-4816-8e85-d6b00227a33c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PL2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_56767c07-0bb6-4050-9c44-ed5fd4055ec2.xml, PL2_NOTIFICATION_DATA, PL2_NOTIFICATION_DATA structure pointer [Network Drivers Starting with Windows Vista], _L2_NOTIFICATION_DATA, l2cmn/L2_NOTIFICATION_DATA, l2cmn/PL2_NOTIFICATION_DATA, netvista.l2_notification_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,6 +89,21 @@ The operating system passes the GUID and other data related to the WLAN adapter 
 The length, in bytes, of the data within the buffer referenced by the 
      <b>pData</b> member. The IHV Extensions DLL must set this member to zero if additional data is not
      required for the notification.
+
+
+### -field pData.unique
+
+ 
+
+
+### -field pData.size_is
+
+ 
+
+
+### -field pData.size_is.dwDataSize
+
+ 
 
 
 ### -field pData

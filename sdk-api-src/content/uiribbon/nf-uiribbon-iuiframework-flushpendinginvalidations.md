@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIFramework.FlushPendingInvalidations
-title: IUIFramework::FlushPendingInvalidations method
+title: IUIFramework::FlushPendingInvalidations
 author: windows-driver-content
 description: Processes all pending Command updates.
 old-location: windowsribbon\windowsribbon_iuiframework_flushpendinginvalidations.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\flushpendinginvalidations.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: FlushPendingInvalidations method [Windows Ribbon], FlushPendingInvalidations method [Windows Ribbon], IUIFramework interface, FlushPendingInvalidations,IUIFramework.FlushPendingInvalidations, IUIFramework, IUIFramework interface [Windows Ribbon], FlushPendingInvalidations method, IUIFramework::FlushPendingInvalidations, scenicintent_IUIFramework_FlushPendingInvalidations, uiribbon/IUIFramework::FlushPendingInvalidations, windowsribbon.windowsribbon_iuiframework_flushpendinginvalidations
+ms.keywords: FlushPendingInvalidations, FlushPendingInvalidations method [Windows Ribbon], FlushPendingInvalidations method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],FlushPendingInvalidations method, IUIFramework.FlushPendingInvalidations, IUIFramework::FlushPendingInvalidations, scenicintent_IUIFramework_FlushPendingInvalidations, uiribbon/IUIFramework::FlushPendingInvalidations, windowsribbon.windowsribbon_iuiframework_flushpendinginvalidations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUIFramework::FlushPendingInvalidations method
+# IUIFramework::FlushPendingInvalidations
 
 
 ## -description

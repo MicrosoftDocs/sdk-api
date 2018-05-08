@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._SaveToolbars
-title: IBrowserService2::_SaveToolbars method
+title: IBrowserService2::_SaveToolbars
 author: windows-driver-content
 description: Deprecated. Saves the state of browser toolbars.
 old-location: shell\IBrowserService2__SaveToolbars.htm
 old-project: shell
 ms.assetid: 8d05ed3d-13a3-49a2-8248-9976bc492b0f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _SaveToolbars method, IBrowserService2::_SaveToolbars, _SaveToolbars method [Windows Shell], _SaveToolbars method [Windows Shell], IBrowserService2 interface, _SaveToolbars,IBrowserService2._SaveToolbars, shdeprecated/IBrowserService2::_SaveToolbars, shell.IBrowserService2__SaveToolbars, zone_IBrowserService2__SaveToolbars
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],_SaveToolbars method, IBrowserService2._SaveToolbars, IBrowserService2::_SaveToolbars, _SaveToolbars, _SaveToolbars method [Windows Shell], _SaveToolbars method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_SaveToolbars, shell.IBrowserService2__SaveToolbars, zone_IBrowserService2__SaveToolbars
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::_SaveToolbars method
+# IBrowserService2::_SaveToolbars
 
 
 ## -description

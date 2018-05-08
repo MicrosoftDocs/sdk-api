@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IVideoWindow.put_MessageDrain
-title: IVideoWindow::put_MessageDrain method
+title: IVideoWindow::put_MessageDrain
 author: windows-driver-content
 description: The put_MessageDrain method specifies a window to receive mouse and keyboard messages from the video window.
 old-location: dshow\ivideowindow_put_messagedrain.htm
 old-project: DirectShow
 ms.assetid: aaf8624c-b3ea-4034-845a-6cd74c725c44
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], put_MessageDrain method, IVideoWindow::put_MessageDrain, IVideoWindowput_MessageDrain, control/IVideoWindow::put_MessageDrain, dshow.ivideowindow_put_messagedrain, put_MessageDrain method [DirectShow], put_MessageDrain method [DirectShow], IVideoWindow interface, put_MessageDrain,IVideoWindow.put_MessageDrain
+ms.date: 4/30/2018
+ms.keywords: IVideoWindow interface [DirectShow],put_MessageDrain method, IVideoWindow.put_MessageDrain, IVideoWindow::put_MessageDrain, IVideoWindowput_MessageDrain, control/IVideoWindow::put_MessageDrain, dshow.ivideowindow_put_messagedrain, put_MessageDrain, put_MessageDrain method [DirectShow], put_MessageDrain method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IVideoWindow::put_MessageDrain method
+# IVideoWindow::put_MessageDrain
 
 
 ## -description

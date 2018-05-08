@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDServiceProxy, IWSDServiceProxy interface, IWSDServiceProxy interface, described, ncd.iwsdserviceproxy, wsdclient/IWSDServiceProxy
+ms.keywords: IWSDServiceProxy, IWSDServiceProxy interface, IWSDServiceProxy interface,described, ncd.iwsdserviceproxy, wsdclient/IWSDServiceProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

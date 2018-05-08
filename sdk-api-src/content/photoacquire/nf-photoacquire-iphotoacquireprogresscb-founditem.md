@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.FoundItem
-title: IPhotoAcquireProgressCB::FoundItem method
+title: IPhotoAcquireProgressCB::FoundItem
 author: windows-driver-content
 description: The FoundItem method provides extended functionality each time an item is found during enumeration of items from the device.
 old-location: picacq\iphotoacquireprogresscb_founditem.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: b80fb2f2-57b7-4333-891e-32eba0347a17
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: FoundItem method [Picture Acquisition], FoundItem method [Picture Acquisition], IPhotoAcquireProgressCB interface, FoundItem,IPhotoAcquireProgressCB.FoundItem, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], FoundItem method, IPhotoAcquireProgressCB::FoundItem, photoacquire/IPhotoAcquireProgressCB::FoundItem, picacq.iphotoacquireprogresscb_founditem
+ms.keywords: FoundItem, FoundItem method [Picture Acquisition], FoundItem method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition],FoundItem method, IPhotoAcquireProgressCB.FoundItem, IPhotoAcquireProgressCB::FoundItem, photoacquire/IPhotoAcquireProgressCB::FoundItem, picacq.iphotoacquireprogresscb_founditem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireProgressCB::FoundItem method
+# IPhotoAcquireProgressCB::FoundItem
 
 
 ## -description

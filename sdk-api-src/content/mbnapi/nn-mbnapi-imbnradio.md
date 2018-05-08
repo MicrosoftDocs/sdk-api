@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: b4b5ccfc-6cbf-4090-aee1-ee97092147f7
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnRadio, IMbnRadio interface [Microsoft Broadband Networks], IMbnRadio interface [Microsoft Broadband Networks], described, mbn.imbnradio, mbnapi/IMbnRadio
+ms.keywords: IMbnRadio, IMbnRadio interface [Microsoft Broadband Networks], IMbnRadio interface [Microsoft Broadband Networks],described, mbn.imbnradio, mbnapi/IMbnRadio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

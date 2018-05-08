@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskHandler.Start
-title: ITaskHandler::Start method
+title: ITaskHandler::Start
 author: windows-driver-content
 description: Called to start the COM handler.
 old-location: taskschd\itaskhandler_start.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: e0a51387-e638-40ee-a4e4-edd7f3115975
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskHandler, ITaskHandler interface [Task Scheduler], Start method, ITaskHandler::Start, Start method [Task Scheduler], Start method [Task Scheduler], ITaskHandler interface, Start,ITaskHandler.Start, taskschd.itaskhandler_start, taskschd/ITaskHandler::Start
+ms.keywords: ITaskHandler interface [Task Scheduler],Start method, ITaskHandler.Start, ITaskHandler::Start, Start, Start method [Task Scheduler], Start method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_start, taskschd/ITaskHandler::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskHandler::Start method
+# ITaskHandler::Start
 
 
 ## -description

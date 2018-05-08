@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged
-title: IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged method
+title: IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged
 author: windows-driver-content
 description: Handles events that occur when the integer value of an animation variable changes in the specified dimension.
 old-location: uianimation\iuianimationvariableintegerchangehandler2_onintegervaluechanged.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 76889784-BF1B-475B-8D84-201BEE6F0594
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationVariableIntegerChangeHandler2, IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation], OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation], IUIAnimationVariableIntegerChangeHandler2 interface, OnIntegerValueChanged,IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged, uianimation.iuianimationvariableintegerchangehandler2_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged
+ms.keywords: IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation],OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged, IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged, OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation],IUIAnimationVariableIntegerChangeHandler2 interface, uianimation.iuianimationvariableintegerchangehandler2_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged method
+# IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged
 
 
 ## -description

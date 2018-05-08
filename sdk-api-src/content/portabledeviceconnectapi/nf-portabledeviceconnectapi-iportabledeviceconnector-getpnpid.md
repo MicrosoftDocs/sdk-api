@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.GetPnPID
-title: IPortableDeviceConnector::GetPnPID method
+title: IPortableDeviceConnector::GetPnPID
 author: windows-driver-content
 description: Retrieves the connector's Plug and Play (PnP) device identifier.
 old-location: wpdsdk\iportabledeviceconnector_getpnpid.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 39e7702a-f23e-4f04-8524-06a0fcc025a1
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetPnPID method [Windows Portable Devices SDK], GetPnPID method [Windows Portable Devices SDK], IPortableDeviceConnector interface, GetPnPID,IPortableDeviceConnector.GetPnPID, IPortableDeviceConnector, IPortableDeviceConnector interface [Windows Portable Devices SDK], GetPnPID method, IPortableDeviceConnector::GetPnPID, devpkey/IPortableDeviceConnector::GetPnPID, portabledeviceconnectapi/IPortableDeviceConnector::GetPnPID, wpdsdk.iportabledeviceconnector_getpnpid
+ms.keywords: GetPnPID, GetPnPID method [Windows Portable Devices SDK], GetPnPID method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],GetPnPID method, IPortableDeviceConnector.GetPnPID, IPortableDeviceConnector::GetPnPID, devpkey/IPortableDeviceConnector::GetPnPID, portabledeviceconnectapi/IPortableDeviceConnector::GetPnPID, wpdsdk.iportabledeviceconnector_getpnpid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceConnector::GetPnPID method
+# IPortableDeviceConnector::GetPnPID
 
 
 ## -description

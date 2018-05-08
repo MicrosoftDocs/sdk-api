@@ -7,7 +7,7 @@ old-location: rpc\rpcnsgroupmbradd.htm
 old-project: Rpc
 ms.assetid: fa32b5e5-1a8a-44f4-aa38-81b024f4db51
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcNsGroupMbrAdd, RpcNsGroupMbrAdd function [RPC], RpcNsGroupMbrAddA, RpcNsGroupMbrAddW, _rpc_rpcnsgroupmbradd, rpc.rpcnsgroupmbradd, rpcnsi/RpcNsGroupMbrAdd, rpcnsi/RpcNsGroupMbrAddA, rpcnsi/RpcNsGroupMbrAddW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.PublishEx
-title: IWSDiscoveryPublisher::PublishEx method
+title: IWSDiscoveryPublisher::PublishEx
 author: windows-driver-content
 description: Announces the presence of a network host by sending a Hello message with extended information.
 old-location: ncd\iwsdiscoverypublisher_publishex_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: f4a1f93d-071b-4244-b4e4-ed7e7bb7432b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, PublishEx method, IWSDiscoveryPublisher::PublishEx, PublishEx method, PublishEx method, IWSDiscoveryPublisher interface, PublishEx,IWSDiscoveryPublisher.PublishEx, ncd.iwsdiscoverypublisher_publishex_method, wsddisco/IWSDiscoveryPublisher::PublishEx
+ms.keywords: IWSDiscoveryPublisher interface,PublishEx method, IWSDiscoveryPublisher.PublishEx, IWSDiscoveryPublisher::PublishEx, PublishEx, PublishEx method, PublishEx method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_publishex_method, wsddisco/IWSDiscoveryPublisher::PublishEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryPublisher::PublishEx method
+# IWSDiscoveryPublisher::PublishEx
 
 
 ## -description

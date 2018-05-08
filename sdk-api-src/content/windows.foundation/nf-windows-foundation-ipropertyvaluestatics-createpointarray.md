@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreatePointArray
-title: IPropertyValueStatics::CreatePointArray method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified array of Point values.
 old-location: winrt\ipropertyvaluestatics_createpointarray.htm
 old-project: WinRT
 ms.assetid: cdfc2a91-0f1b-41d9-99e3-e3589bdae6ca
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreatePointArray method [Windows Runtime], CreatePointArray method [Windows Runtime], IPropertyValueStatics interface, CreatePointArray,IPropertyValueStatics.CreatePointArray, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreatePointArray method, IPropertyValueStatics::CreatePointArray, windows/IPropertyValueStatics::CreatePointArray, winrt.ipropertyvaluefactory_createpointarray, winrt.ipropertyvaluestatics_createpointarray
+ms.date: 5/4/2018
+ms.keywords: CreatePointArray, CreatePointArray method [Windows Runtime], CreatePointArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreatePointArray method, IPropertyValueStatics.CreatePointArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreatePointArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreatePointArray, winrt.ipropertyvaluefactory_createpointarray, winrt.ipropertyvaluestatics_createpointarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreatePointArray method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

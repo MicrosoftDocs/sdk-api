@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.DDiscFormat2TrackAtOnceEvents.Update
-title: DDiscFormat2TrackAtOnceEvents::Update method
+title: DDiscFormat2TrackAtOnceEvents::Update
 author: windows-driver-content
 description: Implement this method to receive progress notification of the current track-writing operation.
 old-location: imapi\ddiscformat2trackatonceevents_update.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d63ff41d-993c-4f42-a4a3-f7c67f292a03
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: DDiscFormat2TrackAtOnceEvents, DDiscFormat2TrackAtOnceEvents interface [IMAPI], Update method, DDiscFormat2TrackAtOnceEvents::Update, Update method [IMAPI], Update method [IMAPI], DDiscFormat2TrackAtOnceEvents interface, Update,DDiscFormat2TrackAtOnceEvents.Update, imapi.ddiscformat2trackatonceevents_update, imapi2/DDiscFormat2TrackAtOnceEvents::Update
+ms.keywords: DDiscFormat2TrackAtOnceEvents interface [IMAPI],Update method, DDiscFormat2TrackAtOnceEvents.Update, DDiscFormat2TrackAtOnceEvents::Update, Update, Update method [IMAPI], Update method [IMAPI],DDiscFormat2TrackAtOnceEvents interface, imapi.ddiscformat2trackatonceevents_update, imapi2/DDiscFormat2TrackAtOnceEvents::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# DDiscFormat2TrackAtOnceEvents::Update method
+# DDiscFormat2TrackAtOnceEvents::Update
 
 
 ## -description

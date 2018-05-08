@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsStoragePool.QueryDriveExtents
-title: IVdsStoragePool::QueryDriveExtents method
+title: IVdsStoragePool::QueryDriveExtents
 author: windows-driver-content
 description: Returns an array of the drive extents that are used by a storage pool.
 old-location: base\ivdsstoragepool_querydriveextents.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 91bae6e6-3718-4d82-ab8c-e489b9a105fe
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsStoragePool, IVdsStoragePool interface, QueryDriveExtents method, IVdsStoragePool::QueryDriveExtents, QueryDriveExtents method, QueryDriveExtents method, IVdsStoragePool interface, QueryDriveExtents,IVdsStoragePool.QueryDriveExtents, base.ivdsstoragepool_querydriveextents, vds/IVdsStoragePool::QueryDriveExtents, vdshwprv/IVdsStoragePool::QueryDriveExtents
+ms.keywords: IVdsStoragePool interface,QueryDriveExtents method, IVdsStoragePool.QueryDriveExtents, IVdsStoragePool::QueryDriveExtents, QueryDriveExtents, QueryDriveExtents method, QueryDriveExtents method,IVdsStoragePool interface, base.ivdsstoragepool_querydriveextents, vds/IVdsStoragePool::QueryDriveExtents, vdshwprv/IVdsStoragePool::QueryDriveExtents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsStoragePool::QueryDriveExtents method
+# IVdsStoragePool::QueryDriveExtents
 
 
 ## -description

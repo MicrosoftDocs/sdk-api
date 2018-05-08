@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemProviderInitSink.SetStatus
-title: IWbemProviderInitSink::SetStatus method
+title: IWbemProviderInitSink::SetStatus
 author: windows-driver-content
 description: The IWbemProviderInitSink::SetStatus method indicates to Windows Management whether a provider is fully or partially initialized.
 old-location: wmi\iwbemproviderinitsink_setstatus.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 909935ba-ae3a-477d-a466-1f2679764b10
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemProviderInitSink, IWbemProviderInitSink interface [Windows Management Instrumentation], SetStatus method, IWbemProviderInitSink::SetStatus, SetStatus method [Windows Management Instrumentation], SetStatus method [Windows Management Instrumentation], IWbemProviderInitSink interface, SetStatus,IWbemProviderInitSink.SetStatus, WBEM_E_FAILED, WBEM_S_INITIALIZED, _hmm_iwbemproviderinitsink_setstatus, wbemprov/IWbemProviderInitSink::SetStatus, wmi.iwbemproviderinitsink_setstatus
+ms.keywords: IWbemProviderInitSink interface [Windows Management Instrumentation],SetStatus method, IWbemProviderInitSink.SetStatus, IWbemProviderInitSink::SetStatus, SetStatus, SetStatus method [Windows Management Instrumentation], SetStatus method [Windows Management Instrumentation],IWbemProviderInitSink interface, WBEM_E_FAILED, WBEM_S_INITIALIZED, _hmm_iwbemproviderinitsink_setstatus, wbemprov/IWbemProviderInitSink::SetStatus, wmi.iwbemproviderinitsink_setstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemProviderInitSink::SetStatus method
+# IWbemProviderInitSink::SetStatus
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.AddStructureChangedEventHandler
-title: IUIAutomation::AddStructureChangedEventHandler method
+title: IUIAutomation::AddStructureChangedEventHandler
 author: windows-driver-content
 description: Registers a method that handles structure-changed events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
 old-location: winauto\uiauto_IUIAutomation_AddStructureChangedEventHandler.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 671049a4-50cf-49df-9028-7af38629b7a9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: AddStructureChangedEventHandler method [Windows Accessibility], AddStructureChangedEventHandler method [Windows Accessibility], IUIAutomation interface, AddStructureChangedEventHandler,IUIAutomation.AddStructureChangedEventHandler, IUIAutomation, IUIAutomation interface [Windows Accessibility], AddStructureChangedEventHandler method, IUIAutomation::AddStructureChangedEventHandler, uiauto.uiauto_IUIAutomation_AddStructureChangedEventHandler, uiauto_IUIAutomation_AddStructureChangedEventHandler, uiautomationclient/IUIAutomation::AddStructureChangedEventHandler, winauto.uiauto_IUIAutomation_AddStructureChangedEventHandler
+ms.keywords: AddStructureChangedEventHandler, AddStructureChangedEventHandler method [Windows Accessibility], AddStructureChangedEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddStructureChangedEventHandler method, IUIAutomation.AddStructureChangedEventHandler, IUIAutomation::AddStructureChangedEventHandler, uiauto.uiauto_IUIAutomation_AddStructureChangedEventHandler, uiauto_IUIAutomation_AddStructureChangedEventHandler, uiautomationclient/IUIAutomation::AddStructureChangedEventHandler, winauto.uiauto_IUIAutomation_AddStructureChangedEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::AddStructureChangedEventHandler method
+# IUIAutomation::AddStructureChangedEventHandler
 
 
 ## -description

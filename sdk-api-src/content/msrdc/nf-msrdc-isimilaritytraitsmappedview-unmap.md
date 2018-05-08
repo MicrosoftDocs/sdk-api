@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.Unmap
-title: ISimilarityTraitsMappedView::Unmap method
+title: ISimilarityTraitsMappedView::Unmap
 author: windows-driver-content
 description: Unmaps a mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview_unmap.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 37739164-eefd-4336-99bc-2074c8f2f294
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISimilarityTraitsMappedView, ISimilarityTraitsMappedView interface [Remote Differential Compression], Unmap method, ISimilarityTraitsMappedView::Unmap, Unmap method [Remote Differential Compression], Unmap method [Remote Differential Compression], ISimilarityTraitsMappedView interface, Unmap,ISimilarityTraitsMappedView.Unmap, fs.isimilaritytraitsmappedview_unmap, msrdc/ISimilarityTraitsMappedView::Unmap, rdc.isimilaritytraitsmappedview_unmap
+ms.keywords: ISimilarityTraitsMappedView interface [Remote Differential Compression],Unmap method, ISimilarityTraitsMappedView.Unmap, ISimilarityTraitsMappedView::Unmap, Unmap, Unmap method [Remote Differential Compression], Unmap method [Remote Differential Compression],ISimilarityTraitsMappedView interface, fs.isimilaritytraitsmappedview_unmap, msrdc/ISimilarityTraitsMappedView::Unmap, rdc.isimilaritytraitsmappedview_unmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityTraitsMappedView::Unmap method
+# ISimilarityTraitsMappedView::Unmap
 
 
 ## -description

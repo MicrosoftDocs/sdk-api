@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.EndSearch
-title: IUpdateSearcher::EndSearch method
+title: IUpdateSearcher::EndSearch
 author: windows-driver-content
 description: Completes an asynchronous search for updates.
 old-location: wua\iupdatesearcherendsearch.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 4a0532ec-3613-4aa1-96d7-7291b9ca7a94
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EndSearch method [Windows Update Agent], EndSearch method [Windows Update Agent], IUpdateSearcher interface, EndSearch,IUpdateSearcher.EndSearch, IUpdateSearcher, IUpdateSearcher interface [Windows Update Agent], EndSearch method, IUpdateSearcher::EndSearch, wua.iupdatesearcherendsearch, wuapi/IUpdateSearcher::EndSearch
+ms.keywords: EndSearch, EndSearch method [Windows Update Agent], EndSearch method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EndSearch method, IUpdateSearcher.EndSearch, IUpdateSearcher::EndSearch, wua.iupdatesearcherendsearch, wuapi/IUpdateSearcher::EndSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSearcher::EndSearch method
+# IUpdateSearcher::EndSearch
 
 
 ## -description

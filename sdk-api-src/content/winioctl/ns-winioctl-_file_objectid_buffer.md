@@ -89,7 +89,7 @@ The object identifier of the object at the time it was created. After copy opera
 Reserved; must be zero.
 
 
-#### - ExtendedInfo
+### -field DUMMYUNIONNAME.ExtendedInfo
 
 User-defined extended data to be set with <a href="https://msdn.microsoft.com/e17dc58f-3fa7-4069-b8ec-16331438b832">FSCTL_SET_OBJECT_ID_EXTENDED</a>. Use this  data  as an alternative  to  the <b>BirthVolumeId</b>, <b>BirthObjectId</b>, and <b>DomainId</b> members.
 						

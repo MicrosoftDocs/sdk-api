@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.StopScreenUpdates
-title: IWRdsProtocolConnectionCallback::StopScreenUpdates method
+title: IWRdsProtocolConnectionCallback::StopScreenUpdates
 author: windows-driver-content
 description: Requests that the Remote Desktop Services service stop updating the client screen.
 old-location: termserv\iwrdsprotocolconnectioncallback_stopscreenupdates.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 698b59d3-8391-4101-801c-8d5fd701a757
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolConnectionCallback, IWRdsProtocolConnectionCallback interface [Remote Desktop Services], StopScreenUpdates method, IWRdsProtocolConnectionCallback::StopScreenUpdates, StopScreenUpdates method [Remote Desktop Services], StopScreenUpdates method [Remote Desktop Services], IWRdsProtocolConnectionCallback interface, StopScreenUpdates,IWRdsProtocolConnectionCallback.StopScreenUpdates, termserv.iwrdsprotocolconnectioncallback_stopscreenupdates, wtsprotocol/IWRdsProtocolConnectionCallback::StopScreenUpdates
+ms.keywords: IWRdsProtocolConnectionCallback interface [Remote Desktop Services],StopScreenUpdates method, IWRdsProtocolConnectionCallback.StopScreenUpdates, IWRdsProtocolConnectionCallback::StopScreenUpdates, StopScreenUpdates, StopScreenUpdates method [Remote Desktop Services], StopScreenUpdates method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, termserv.iwrdsprotocolconnectioncallback_stopscreenupdates, wtsprotocol/IWRdsProtocolConnectionCallback::StopScreenUpdates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnectionCallback::StopScreenUpdates method
+# IWRdsProtocolConnectionCallback::StopScreenUpdates
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.Clone
-title: IXpsOMLinearGradientBrush::Clone method
+title: IXpsOMLinearGradientBrush::Clone
 author: windows-driver-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomlineargradientbrush_clone.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b0c44a37-e7fb-4079-a299-cb09635f61ca
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging], IXpsOMLinearGradientBrush interface, Clone,IXpsOMLinearGradientBrush.Clone, IXpsOMLinearGradientBrush, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging], Clone method, IXpsOMLinearGradientBrush::Clone, xps.ixpsomlineargradientbrush_clone, xpsobjectmodel/IXpsOMLinearGradientBrush::Clone
+ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],Clone method, IXpsOMLinearGradientBrush.Clone, IXpsOMLinearGradientBrush::Clone, xps.ixpsomlineargradientbrush_clone, xpsobjectmodel/IXpsOMLinearGradientBrush::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMLinearGradientBrush::Clone method
+# IXpsOMLinearGradientBrush::Clone
 
 
 ## -description

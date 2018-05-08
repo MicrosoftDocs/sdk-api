@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IWordSink.PutAltWord
-title: IWordSink::PutAltWord method
+title: IWordSink::PutAltWord
 author: windows-driver-content
 description: Puts an alternative word and its position in the WordSink.
 old-location: indexsrv\iwordsink_putaltword.htm
@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_70tg.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWordSink, IWordSink interface [Indexing Service], PutAltWord method, IWordSink::PutAltWord, PutAltWord method [Indexing Service], PutAltWord method [Indexing Service], IWordSink interface, PutAltWord,IWordSink.PutAltWord, _idxs_WordSink_PutAltWord, indexsrv.iwordsink_putaltword, indexsrv/IWordSink::PutAltWord
+ms.keywords: IWordSink interface [Indexing Service],PutAltWord method, IWordSink.PutAltWord, IWordSink::PutAltWord, PutAltWord, PutAltWord method [Indexing Service], PutAltWord method [Indexing Service],IWordSink interface, _idxs_WordSink_PutAltWord, indexsrv.iwordsink_putaltword, indexsrv/IWordSink::PutAltWord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWordSink::PutAltWord method
+# IWordSink::PutAltWord
 
 
 ## -description

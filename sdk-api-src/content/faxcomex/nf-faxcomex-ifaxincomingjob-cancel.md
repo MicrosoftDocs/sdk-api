@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.Cancel
-title: IFaxIncomingJob::Cancel method
+title: IFaxIncomingJob::Cancel
 author: windows-driver-content
 description: The Cancel method cancels the incoming fax job.
 old-location: fax\_mfax_faxincomingjob_cancel_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6g4s.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Cancel method [Fax Service], Cancel method [Fax Service], FaxIncomingJob object, Cancel,IFaxIncomingJob.Cancel, FaxIncomingJob object [Fax Service], Cancel method, IFaxIncomingJob, IFaxIncomingJob::Cancel, _mfax_faxincomingjob.cancel, fax._mfax_faxincomingjob_cancel, fax._mfax_faxincomingjob_cancel_vb
+ms.keywords: Cancel, Cancel method [Fax Service], Cancel method [Fax Service],FaxIncomingJob object, FaxIncomingJob object [Fax Service],Cancel method, FaxIncomingJob.Cancel, IFaxIncomingJob.Cancel, IFaxIncomingJob::Cancel, _mfax_faxincomingjob.cancel, fax._mfax_faxincomingjob_cancel, fax._mfax_faxincomingjob_cancel_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxIncomingJob::Cancel method
+# IFaxIncomingJob::Cancel
 
 
 ## -description

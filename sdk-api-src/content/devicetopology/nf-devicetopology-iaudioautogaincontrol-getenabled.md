@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IAudioAutoGainControl.GetEnabled
-title: IAudioAutoGainControl::GetEnabled method
+title: IAudioAutoGainControl::GetEnabled
 author: windows-driver-content
 description: The GetEnabled method gets the current state (enabled or disabled) of the AGC.
 old-location: coreaudio\iaudioautogaincontrol_getenabled.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 9af85f6e-26b0-45bb-9694-a7578477b456
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetEnabled method [Core Audio], GetEnabled method [Core Audio], IAudioAutoGainControl interface, GetEnabled,IAudioAutoGainControl.GetEnabled, IAudioAutoGainControl, IAudioAutoGainControl interface [Core Audio], GetEnabled method, IAudioAutoGainControl::GetEnabled, IAudioAutoGainControlGetEnabled, coreaudio.iaudioautogaincontrol_getenabled, devicetopology/IAudioAutoGainControl::GetEnabled
+ms.keywords: GetEnabled, GetEnabled method [Core Audio], GetEnabled method [Core Audio],IAudioAutoGainControl interface, IAudioAutoGainControl interface [Core Audio],GetEnabled method, IAudioAutoGainControl.GetEnabled, IAudioAutoGainControl::GetEnabled, IAudioAutoGainControlGetEnabled, coreaudio.iaudioautogaincontrol_getenabled, devicetopology/IAudioAutoGainControl::GetEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioAutoGainControl::GetEnabled method
+# IAudioAutoGainControl::GetEnabled
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: ce33605e-c3ae-4b96-a13e-6f06e8d5ffee
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], ICertPropertyRequestOriginator interface [Security], described, certenroll/ICertPropertyRequestOriginator, security.icertpropertyrequestoriginator
+ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], ICertPropertyRequestOriginator interface [Security],described, certenroll/ICertPropertyRequestOriginator, security.icertpropertyrequestoriginator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

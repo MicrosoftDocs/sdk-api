@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbEnvironment.get_ServerWeight
-title: ITsSbEnvironment::get_ServerWeight method
+title: ITsSbEnvironment::get_ServerWeight
 author: windows-driver-content
 description: Retrieves a value that indicates the server weight of the environment that hosts the target computer.
 old-location: termserv\itssbenvironment_serverweight.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 1c8119ec-22ce-4405-8b30-8cb0c3e2f1c6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbEnvironment, ITsSbEnvironment interface [Remote Desktop Services], ServerWeight property, ITsSbEnvironment.ServerWeight, ITsSbEnvironment::get_ServerWeight, ServerWeight property [Remote Desktop Services], ServerWeight property [Remote Desktop Services], ITsSbEnvironment interface, get_ServerWeight,ITsSbEnvironment.get_ServerWeight, sbtsv/ITsSbEnvironment::ServerWeight, sbtsv/ITsSbEnvironment::get_ServerWeight, termserv.itssbenvironment_serverweight
+ms.keywords: ITsSbEnvironment interface [Remote Desktop Services],ServerWeight property, ITsSbEnvironment.ServerWeight, ITsSbEnvironment.get_ServerWeight, ITsSbEnvironment::ServerWeight, ITsSbEnvironment::get_ServerWeight, ServerWeight property [Remote Desktop Services], ServerWeight property [Remote Desktop Services],ITsSbEnvironment interface, get_ServerWeight, sbtsv/ITsSbEnvironment::ServerWeight, sbtsv/ITsSbEnvironment::get_ServerWeight, termserv.itssbenvironment_serverweight
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbEnvironment::get_ServerWeight method
+# ITsSbEnvironment::get_ServerWeight
 
 
 ## -description

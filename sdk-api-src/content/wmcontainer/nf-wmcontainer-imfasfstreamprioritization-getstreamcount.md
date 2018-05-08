@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.GetStreamCount
-title: IMFASFStreamPrioritization::GetStreamCount method
+title: IMFASFStreamPrioritization::GetStreamCount
 author: windows-driver-content
 description: Note  This interface is not implemented in this version of Media Foundation. Retrieves the number of entries in the stream priority list.
 old-location: mf\imfasfstreamprioritization_getstreamcount.htm
 old-project: medfound
 ms.assetid: 8c9dacbb-a952-411e-82df-0c8768d0b3fe
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 8c9dacbb-a952-411e-82df-0c8768d0b3fe, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation], IMFASFStreamPrioritization interface, GetStreamCount,IMFASFStreamPrioritization.GetStreamCount, IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], GetStreamCount method, IMFASFStreamPrioritization::GetStreamCount, mf.imfasfstreamprioritization_getstreamcount, wmcontainer/IMFASFStreamPrioritization::GetStreamCount
+ms.date: 5/3/2018
+ms.keywords: 8c9dacbb-a952-411e-82df-0c8768d0b3fe, GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],GetStreamCount method, IMFASFStreamPrioritization.GetStreamCount, IMFASFStreamPrioritization::GetStreamCount, mf.imfasfstreamprioritization_getstreamcount, wmcontainer/IMFASFStreamPrioritization::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFStreamPrioritization::GetStreamCount method
+# IMFASFStreamPrioritization::GetStreamCount
 
 
 ## -description

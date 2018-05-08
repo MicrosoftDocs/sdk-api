@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetSubmitButtonText
-title: IUserInputString::GetSubmitButtonText method
+title: IUserInputString::GetSubmitButtonText
 author: windows-driver-content
 description: The GetSubmitButtonText method retrieves the text for the submit button.
 old-location: picacq\iuserinputstring_getsubmitbuttontext.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 00cb081a-9077-4ecc-9a1f-002072e6ddda
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSubmitButtonText method [Picture Acquisition], GetSubmitButtonText method [Picture Acquisition], IUserInputString interface, GetSubmitButtonText,IUserInputString.GetSubmitButtonText, IUserInputString, IUserInputString interface [Picture Acquisition], GetSubmitButtonText method, IUserInputString::GetSubmitButtonText, IUserInputStringGetSubmitButtonText, photoacquire/IUserInputString::GetSubmitButtonText, picacq.iuserinputstring_getsubmitbuttontext
+ms.keywords: GetSubmitButtonText, GetSubmitButtonText method [Picture Acquisition], GetSubmitButtonText method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetSubmitButtonText method, IUserInputString.GetSubmitButtonText, IUserInputString::GetSubmitButtonText, IUserInputStringGetSubmitButtonText, photoacquire/IUserInputString::GetSubmitButtonText, picacq.iuserinputstring_getsubmitbuttontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUserInputString::GetSubmitButtonText method
+# IUserInputString::GetSubmitButtonText
 
 
 ## -description

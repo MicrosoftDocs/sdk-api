@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentWindowInteractionState
-title: IUIAutomationWindowPattern::get_CurrentWindowInteractionState method
+title: IUIAutomationWindowPattern::get_CurrentWindowInteractionState
 author: windows-driver-content
 description: Retrieves the current state of the window for the purposes of user interaction.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentWindowInteractionState.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: f4646bbf-db37-4cc4-89d6-44eb08e0031a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentWindowInteractionState property [Windows Accessibility], CurrentWindowInteractionState property [Windows Accessibility], IUIAutomationWindowPattern interface, IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], CurrentWindowInteractionState property, IUIAutomationWindowPattern.CurrentWindowInteractionState, IUIAutomationWindowPattern::get_CurrentWindowInteractionState, get_CurrentWindowInteractionState,IUIAutomationWindowPattern.get_CurrentWindowInteractionState, uiauto.uiauto_IUIAutomationWindowPattern_CurrentWindowInteractionState, uiauto_IUIAutomationWindowPattern_CurrentWindowInteractionState, uiautomationclient/IUIAutomationWindowPattern::CurrentWindowInteractionState, uiautomationclient/IUIAutomationWindowPattern::get_CurrentWindowInteractionState, winauto.uiauto_IUIAutomationWindowPattern_CurrentWindowInteractionState
+ms.keywords: CurrentWindowInteractionState property [Windows Accessibility], CurrentWindowInteractionState property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentWindowInteractionState property, IUIAutomationWindowPattern.CurrentWindowInteractionState, IUIAutomationWindowPattern.get_CurrentWindowInteractionState, IUIAutomationWindowPattern::CurrentWindowInteractionState, IUIAutomationWindowPattern::get_CurrentWindowInteractionState, get_CurrentWindowInteractionState, uiauto.uiauto_IUIAutomationWindowPattern_CurrentWindowInteractionState, uiauto_IUIAutomationWindowPattern_CurrentWindowInteractionState, uiautomationclient/IUIAutomationWindowPattern::CurrentWindowInteractionState, uiautomationclient/IUIAutomationWindowPattern::get_CurrentWindowInteractionState, winauto.uiauto_IUIAutomationWindowPattern_CurrentWindowInteractionState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationWindowPattern::get_CurrentWindowInteractionState method
+# IUIAutomationWindowPattern::get_CurrentWindowInteractionState
 
 
 ## -description

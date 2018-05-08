@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPublishing.CreateInstance
-title: IProviderPublishing::CreateInstance method
+title: IProviderPublishing::CreateInstance
 author: windows-driver-content
 description: Creates a new function instance.
 old-location: ncd\iproviderpublishing_createinstance_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 1c8988d0-552a-434b-b33c-31017a191896
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateInstance method, CreateInstance method, IProviderPublishing interface, CreateInstance,IProviderPublishing.CreateInstance, IProviderPublishing, IProviderPublishing interface, CreateInstance method, IProviderPublishing::CreateInstance, functiondiscoveryprovider/IProviderPublishing::CreateInstance, ncd.iproviderpublishing_createinstance_method, ncd.iproviderpublishing_oncreateinstance_method
+ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IProviderPublishing interface, IProviderPublishing interface,CreateInstance method, IProviderPublishing.CreateInstance, IProviderPublishing::CreateInstance, functiondiscoveryprovider/IProviderPublishing::CreateInstance, ncd.iproviderpublishing_createinstance_method, ncd.iproviderpublishing_oncreateinstance_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IProviderPublishing::CreateInstance method
+# IProviderPublishing::CreateInstance
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.Append
-title: IXpsOMGradientStopCollection::Append method
+title: IXpsOMGradientStopCollection::Append
 author: windows-driver-content
 description: Appends an IXpsOMGradientStop interface to the end of the collection.
 old-location: xps\ixpsomgradientstopcollection_append.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 475794d5-e921-4bbd-aa71-cdbed7cb1dff
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging], IXpsOMGradientStopCollection interface, Append,IXpsOMGradientStopCollection.Append, IXpsOMGradientStopCollection, IXpsOMGradientStopCollection interface [XPS Documents and Packaging], Append method, IXpsOMGradientStopCollection::Append, xps.ixpsomgradientstopcollection_append, xpsobjectmodel/IXpsOMGradientStopCollection::Append
+ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],Append method, IXpsOMGradientStopCollection.Append, IXpsOMGradientStopCollection::Append, xps.ixpsomgradientstopcollection_append, xpsobjectmodel/IXpsOMGradientStopCollection::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientStopCollection::Append method
+# IXpsOMGradientStopCollection::Append
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.IAGetInputLayout
-title: ID3D10Device::IAGetInputLayout method
+title: ID3D10Device::IAGetInputLayout
 author: windows-driver-content
 description: Get a pointer to the input-layout object that is bound to the input-assembler stage.
 old-location: direct3d10\id3d10device_iagetinputlayout.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iagetinputlayout.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IAGetInputLayout method [Direct3D 10], IAGetInputLayout method [Direct3D 10], ID3D10Device interface, IAGetInputLayout,ID3D10Device.IAGetInputLayout, ID3D10Device, ID3D10Device interface [Direct3D 10], IAGetInputLayout method, ID3D10Device::IAGetInputLayout, d3d10/ID3D10Device::IAGetInputLayout, direct3d10.id3d10device_iagetinputlayout, fc7e34a5-1fc3-6283-98db-681a4f1138cf
+ms.keywords: IAGetInputLayout, IAGetInputLayout method [Direct3D 10], IAGetInputLayout method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IAGetInputLayout method, ID3D10Device.IAGetInputLayout, ID3D10Device::IAGetInputLayout, d3d10/ID3D10Device::IAGetInputLayout, direct3d10.id3d10device_iagetinputlayout, fc7e34a5-1fc3-6283-98db-681a4f1138cf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::IAGetInputLayout method
+# ID3D10Device::IAGetInputLayout
 
 
 ## -description

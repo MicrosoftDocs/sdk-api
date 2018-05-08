@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.SetProperty
-title: IVisualTreeService::SetProperty method
+title: IVisualTreeService::SetProperty
 author: windows-driver-content
 description: Sets a property value on a XAML element.
 old-location: xaml_diagnostics\ivisualtreeservice_setproperty.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: A9C6C67F-7767-454C-BA05-86C6B1E5D712
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: IVisualTreeService, IVisualTreeService interface, SetProperty method, IVisualTreeService::SetProperty, SetProperty method, SetProperty method, IVisualTreeService interface, SetProperty,IVisualTreeService.SetProperty, xaml_diagnostics.ivisualtreeservice_setproperty, xamlom/IVisualTreeService::SetProperty
+ms.keywords: IVisualTreeService interface,SetProperty method, IVisualTreeService.SetProperty, IVisualTreeService::SetProperty, SetProperty, SetProperty method, SetProperty method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_setproperty, xamlom/IVisualTreeService::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeService::SetProperty method
+# IVisualTreeService::SetProperty
 
 
 ## -description

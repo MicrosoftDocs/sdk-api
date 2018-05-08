@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientDepartment
-title: IFaxDoc::get_RecipientDepartment method
+title: IFaxDoc::get_RecipientDepartment
 author: windows-driver-content
 description: Sets or retrieves the RecipientDepartment property of a FaxDoc object. The RecipientDepartment property is a null-terminated string that contains the department of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientdepartment_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3mk4.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], RecipientDepartment property, IFaxDoc, IFaxDoc::get_RecipientDepartment, RecipientDepartment property [Fax Service], RecipientDepartment property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientdepartment, fax._mfax_ifaxdoc_get_recipientdepartment, fax._mfax_ifaxdoc_get_recipientdepartment_vb, get_RecipientDepartment,IFaxDoc.get_RecipientDepartment
+ms.keywords: FaxDoc object [Fax Service],RecipientDepartment property, FaxDoc.RecipientDepartment, IFaxDoc.get_RecipientDepartment, IFaxDoc::get_RecipientDepartment, RecipientDepartment property [Fax Service], RecipientDepartment property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientdepartment, fax._mfax_ifaxdoc_get_recipientdepartment, fax._mfax_ifaxdoc_get_recipientdepartment_vb, get_RecipientDepartment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::get_RecipientDepartment method
+# IFaxDoc::get_RecipientDepartment
 
 
 ## -description

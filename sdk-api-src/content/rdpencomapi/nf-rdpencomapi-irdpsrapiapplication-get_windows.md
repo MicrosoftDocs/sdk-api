@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.get_Windows
-title: IRDPSRAPIApplication::get_Windows method
+title: IRDPSRAPIApplication::get_Windows
 author: windows-driver-content
 description: The list of windows.
 old-location: rdp\irdpsrapiapplication_windows.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 6e6cf29d-e19a-43bd-a4e7-993c10bac92b
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIApplication, IRDPSRAPIApplication interface [RDP], Windows property, IRDPSRAPIApplication.Windows, IRDPSRAPIApplication::get_Windows, RDPSRAPIApplication object [RDP], Windows property, Windows property [RDP], Windows property [RDP], IRDPSRAPIApplication interface, Windows property [RDP], RDPSRAPIApplication object, get_Windows,IRDPSRAPIApplication.get_Windows, rdp.irdpsrapiapplication_windows, rdpencomapi/IRDPSRAPIApplication::Windows, rdpencomapi/IRDPSRAPIApplication::get_Windows
+ms.keywords: IRDPSRAPIApplication interface [RDP],Windows property, IRDPSRAPIApplication.Windows, IRDPSRAPIApplication.get_Windows, IRDPSRAPIApplication::Windows, IRDPSRAPIApplication::get_Windows, RDPSRAPIApplication object [RDP],Windows property, Windows property [RDP], Windows property [RDP],IRDPSRAPIApplication interface, Windows property [RDP],RDPSRAPIApplication object, get_Windows, rdp.irdpsrapiapplication_windows, rdpencomapi/IRDPSRAPIApplication::Windows, rdpencomapi/IRDPSRAPIApplication::get_Windows
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIApplication::get_Windows method
+# IRDPSRAPIApplication::get_Windows
 
 
 ## -description

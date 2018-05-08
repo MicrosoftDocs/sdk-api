@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 2ab55723-b55a-454e-92f8-164a07c86028
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: WdsTransportProviderGetContentSize, WdsTransportProviderGetContentSize callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentsize, wdstpdi/WdsTransportProviderGetContentSize
+ms.keywords: WdsTransportProviderGetContentSize, WdsTransportProviderGetContentSize callback, WdsTransportProviderGetContentSize callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentsize, wdstpdi/WdsTransportProviderGetContentSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

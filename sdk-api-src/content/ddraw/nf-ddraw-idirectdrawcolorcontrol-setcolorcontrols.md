@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawColorControl.SetColorControls
-title: IDirectDrawColorControl::SetColorControls method
+title: IDirectDrawColorControl::SetColorControls
 author: windows-driver-content
 description: Sets the color-control options for an overlay or a primary surface.
 old-location: directdraw\idirectdrawcolorcontrol_setcolorcontrols.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: de6f8266-d712-40bd-8230-cf5800cf8926
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawColorControl, IDirectDrawColorControl interface [DirectDraw], SetColorControls method, IDirectDrawColorControl::SetColorControls, SetColorControls method [DirectDraw], SetColorControls method [DirectDraw], IDirectDrawColorControl interface, SetColorControls,IDirectDrawColorControl.SetColorControls, ddraw/IDirectDrawColorControl::SetColorControls, directdraw.idirectdrawcolorcontrol_setcolorcontrols
+ms.keywords: IDirectDrawColorControl interface [DirectDraw],SetColorControls method, IDirectDrawColorControl.SetColorControls, IDirectDrawColorControl::SetColorControls, SetColorControls, SetColorControls method [DirectDraw], SetColorControls method [DirectDraw],IDirectDrawColorControl interface, ddraw/IDirectDrawColorControl::SetColorControls, directdraw.idirectdrawcolorcontrol_setcolorcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawColorControl::SetColorControls method
+# IDirectDrawColorControl::SetColorControls
 
 
 ## -description

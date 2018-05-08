@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.get_MyStoreTypeWStr
-title: IEnroll::get_MyStoreTypeWStr method
+title: IEnroll::get_MyStoreTypeWStr
 author: windows-driver-content
 description: Sets or retrieves the type of store specified by the MyStoreTypeWStr property.
 old-location: security\ienroll4_mystoretypewstr.htm
 old-project: SecCrypto
 ms.assetid: 46f95ae3-efd2-4545-b31d-df04112aa737
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], MyStoreTypeWStr property, IEnroll.MyStoreTypeWStr, IEnroll::get_MyStoreTypeWStr, IEnroll::put_MyStoreTypeWStr, MyStoreTypeWStr property [Security], MyStoreTypeWStr property [Security], IEnroll interface, get_MyStoreTypeWStr,IEnroll.get_MyStoreTypeWStr, security.ienroll4_mystoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::MyStoreTypeWStr, xenroll/IEnroll::get_MyStoreTypeWStr, xenroll/IEnroll::put_MyStoreTypeWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],MyStoreTypeWStr property, IEnroll.MyStoreTypeWStr, IEnroll.get_MyStoreTypeWStr, IEnroll::MyStoreTypeWStr, IEnroll::get_MyStoreTypeWStr, IEnroll::put_MyStoreTypeWStr, MyStoreTypeWStr property [Security], MyStoreTypeWStr property [Security],IEnroll interface, get_MyStoreTypeWStr, security.ienroll4_mystoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::MyStoreTypeWStr, xenroll/IEnroll::get_MyStoreTypeWStr, xenroll/IEnroll::put_MyStoreTypeWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::get_MyStoreTypeWStr method
+# IEnroll::get_MyStoreTypeWStr
 
 
 ## -description

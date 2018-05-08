@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMResamplerProps.SetUserChannelMtx
-title: IWMResamplerProps::SetUserChannelMtx method
+title: IWMResamplerProps::SetUserChannelMtx
 author: windows-driver-content
 description: Specifies the channel matrix.
 old-location: mf\iwmresamplerpropssetuserchannelmtx.htm
 old-project: medfound
 ms.assetid: d7f225a9-c63d-4b4e-b75a-ed6156e594a0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMResamplerProps, IWMResamplerProps interface [Media Foundation], SetUserChannelMtx method, IWMResamplerProps::SetUserChannelMtx, SetUserChannelMtx method [Media Foundation], SetUserChannelMtx method [Media Foundation], IWMResamplerProps interface, SetUserChannelMtx,IWMResamplerProps.SetUserChannelMtx, codecapi.iwmresamplerpropssetuserchannelmtx, mf.iwmresamplerpropssetuserchannelmtx, wmcodecdsp/ IWMResamplerProps::SetUserChannelMtx
+ms.date: 5/3/2018
+ms.keywords: IWMResamplerProps interface [Media Foundation],SetUserChannelMtx method, IWMResamplerProps.SetUserChannelMtx, IWMResamplerProps::SetUserChannelMtx, SetUserChannelMtx, SetUserChannelMtx method [Media Foundation], SetUserChannelMtx method [Media Foundation],IWMResamplerProps interface, codecapi.iwmresamplerpropssetuserchannelmtx, mf.iwmresamplerpropssetuserchannelmtx, wmcodecdsp/ IWMResamplerProps::SetUserChannelMtx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMResamplerProps::SetUserChannelMtx method
+# IWMResamplerProps::SetUserChannelMtx
 
 
 ## -description

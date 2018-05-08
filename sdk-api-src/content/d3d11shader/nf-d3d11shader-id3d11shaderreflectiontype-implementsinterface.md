@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.ImplementsInterface
-title: ID3D11ShaderReflectionType::ImplementsInterface method
+title: ID3D11ShaderReflectionType::ImplementsInterface
 author: windows-driver-content
 description: Indicates whether a class type implements an interface.
 old-location: direct3d11\id3d11shaderreflectiontype_implementsinterface.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 783f6026-10d1-4b24-a2d8-bbe26ae450eb
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 806550ed-6d2f-16a0-b48b-9510e852ab3b, ID3D11ShaderReflectionType, ID3D11ShaderReflectionType interface [Direct3D 11], ImplementsInterface method, ID3D11ShaderReflectionType::ImplementsInterface, ImplementsInterface method [Direct3D 11], ImplementsInterface method [Direct3D 11], ID3D11ShaderReflectionType interface, ImplementsInterface,ID3D11ShaderReflectionType.ImplementsInterface, d3d11shader/ID3D11ShaderReflectionType::ImplementsInterface, direct3d11.id3d11shaderreflectiontype_implementsinterface
+ms.keywords: 806550ed-6d2f-16a0-b48b-9510e852ab3b, ID3D11ShaderReflectionType interface [Direct3D 11],ImplementsInterface method, ID3D11ShaderReflectionType.ImplementsInterface, ID3D11ShaderReflectionType::ImplementsInterface, ImplementsInterface, ImplementsInterface method [Direct3D 11], ImplementsInterface method [Direct3D 11],ID3D11ShaderReflectionType interface, d3d11shader/ID3D11ShaderReflectionType::ImplementsInterface, direct3d11.id3d11shaderreflectiontype_implementsinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ShaderReflectionType::ImplementsInterface method
+# ID3D11ShaderReflectionType::ImplementsInterface
 
 
 ## -description

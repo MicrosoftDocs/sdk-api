@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetFVF
-title: IDirect3DDevice9::SetFVF method
+title: IDirect3DDevice9::SetFVF
 author: windows-driver-content
 description: Sets the current vertex stream declaration.
 old-location: direct3d9\idirect3ddevice9__setfvf.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setfvf.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 19b67e41-5ea9-7478-a24f-8698b2b106a5, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetFVF method, IDirect3DDevice9::SetFVF, SetFVF method [Direct3D 9], SetFVF method [Direct3D 9], IDirect3DDevice9 interface, SetFVF,IDirect3DDevice9.SetFVF, d3d9helper/IDirect3DDevice9::SetFVF, direct3d9.idirect3ddevice9__setfvf
+ms.keywords: 19b67e41-5ea9-7478-a24f-8698b2b106a5, IDirect3DDevice9 interface [Direct3D 9],SetFVF method, IDirect3DDevice9.SetFVF, IDirect3DDevice9::SetFVF, SetFVF, SetFVF method [Direct3D 9], SetFVF method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetFVF, direct3d9.idirect3ddevice9__setfvf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::SetFVF method
+# IDirect3DDevice9::SetFVF
 
 
 ## -description

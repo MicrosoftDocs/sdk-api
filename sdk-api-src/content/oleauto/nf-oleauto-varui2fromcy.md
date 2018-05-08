@@ -7,7 +7,7 @@ old-location: automat\varui2fromcy.htm
 old-project: automat
 ms.assetid: 0147c95b-5fd9-4ab1-9d68-62d852c8b00c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarUI2FromCy, VarUI2FromCy function [Automation], _oa96_VarUI2FromCy, automat.varui2fromcy, oleauto/VarUI2FromCy
 ms.prod: windows-hardware
 ms.technology: windows-devices

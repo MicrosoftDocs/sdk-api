@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.EnumThresholdActions
-title: IFsrmQuotaBase::EnumThresholdActions method
+title: IFsrmQuotaBase::EnumThresholdActions
 author: windows-driver-content
 description: Enumerates all the actions for the specified threshold.
 old-location: fsrm\ifsrmquotabase_enumthresholdactions.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: ce4f85a9-f2e0-42df-adb4-7c21256d5305
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EnumThresholdActions method [File Server Resource Manager], EnumThresholdActions method [File Server Resource Manager], IFsrmQuotaBase interface, EnumThresholdActions,IFsrmQuotaBase.EnumThresholdActions, IFsrmQuotaBase, IFsrmQuotaBase interface [File Server Resource Manager], EnumThresholdActions method, IFsrmQuotaBase::EnumThresholdActions, fs.ifsrmquotabase_enumthresholdactions, fsrm.ifsrmquotabase_enumthresholdactions, fsrmquota/IFsrmQuotaBase::EnumThresholdActions
+ms.keywords: EnumThresholdActions, EnumThresholdActions method [File Server Resource Manager], EnumThresholdActions method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],EnumThresholdActions method, IFsrmQuotaBase.EnumThresholdActions, IFsrmQuotaBase::EnumThresholdActions, fs.ifsrmquotabase_enumthresholdactions, fsrm.ifsrmquotabase_enumthresholdactions, fsrmquota/IFsrmQuotaBase::EnumThresholdActions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaBase::EnumThresholdActions method
+# IFsrmQuotaBase::EnumThresholdActions
 
 
 ## -description

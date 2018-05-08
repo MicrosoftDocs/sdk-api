@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.IsEqual
-title: IFont::IsEqual method
+title: IFont::IsEqual
 author: windows-driver-content
 description: Compares this font object to another for equivalence.
 old-location: com\ifont_isequal.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: becef75d-8342-4b4f-82e2-f1cca4eb619e
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFont, IFont interface [COM], IsEqual method, IFont::IsEqual, IsEqual method [COM], IsEqual method [COM], IFont interface, IsEqual,IFont.IsEqual, _ctrl_ifont_isequal, com.ifont_isequal, ocidl/IFont::IsEqual
+ms.keywords: IFont interface [COM],IsEqual method, IFont.IsEqual, IFont::IsEqual, IsEqual, IsEqual method [COM], IsEqual method [COM],IFont interface, _ctrl_ifont_isequal, com.ifont_isequal, ocidl/IFont::IsEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFont::IsEqual method
+# IFont::IsEqual
 
 
 ## -description

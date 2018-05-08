@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.SetControlStream
-title: IWMWriterFileSink3::SetControlStream method
+title: IWMWriterFileSink3::SetControlStream
 author: windows-driver-content
 description: The SetControlStream method enables you to specify that a stream should be used as a control stream. You can also use this method to indicate that a previously specified control stream should no longer be used as a control stream.
 old-location: wmformat\iwmwriterfilesink3_setcontrolstream.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c103d205-a568-4206-a66e-5473e16cfa3f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], SetControlStream method, IWMWriterFileSink3::SetControlStream, IWMWriterFileSink3SetControlStream, SetControlStream method [windows Media Format], SetControlStream method [windows Media Format], IWMWriterFileSink3 interface, SetControlStream,IWMWriterFileSink3.SetControlStream, wmformat.iwmwriterfilesink3_setcontrolstream, wmsdkidl/IWMWriterFileSink3::SetControlStream
+ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetControlStream method, IWMWriterFileSink3.SetControlStream, IWMWriterFileSink3::SetControlStream, IWMWriterFileSink3SetControlStream, SetControlStream, SetControlStream method [windows Media Format], SetControlStream method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setcontrolstream, wmsdkidl/IWMWriterFileSink3::SetControlStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterFileSink3::SetControlStream method
+# IWMWriterFileSink3::SetControlStream
 
 
 ## -description

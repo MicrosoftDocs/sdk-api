@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.GetCurrentRowHeaders
-title: IUIAutomationTablePattern::GetCurrentRowHeaders method
+title: IUIAutomationTablePattern::GetCurrentRowHeaders
 author: windows-driver-content
 description: Retrieves a collection of UI Automation elements representing all the row headers in a table.
 old-location: winauto\uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 5669bdc7-a240-4c05-acf1-b1ff5e5b09fc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCurrentRowHeaders method [Windows Accessibility], GetCurrentRowHeaders method [Windows Accessibility], IUIAutomationTablePattern interface, GetCurrentRowHeaders,IUIAutomationTablePattern.GetCurrentRowHeaders, IUIAutomationTablePattern, IUIAutomationTablePattern interface [Windows Accessibility], GetCurrentRowHeaders method, IUIAutomationTablePattern::GetCurrentRowHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders, uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders, uiautomationclient/IUIAutomationTablePattern::GetCurrentRowHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders
+ms.keywords: GetCurrentRowHeaders, GetCurrentRowHeaders method [Windows Accessibility], GetCurrentRowHeaders method [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],GetCurrentRowHeaders method, IUIAutomationTablePattern.GetCurrentRowHeaders, IUIAutomationTablePattern::GetCurrentRowHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders, uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders, uiautomationclient/IUIAutomationTablePattern::GetCurrentRowHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTablePattern::GetCurrentRowHeaders method
+# IUIAutomationTablePattern::GetCurrentRowHeaders
 
 
 ## -description

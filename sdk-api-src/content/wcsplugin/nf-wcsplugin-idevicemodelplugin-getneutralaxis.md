@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetNeutralAxis
-title: IDeviceModelPlugIn::GetNeutralAxis method
+title: IDeviceModelPlugIn::GetNeutralAxis
 author: windows-driver-content
 description: The IDeviceModelPlugIn::GetNeutralAxis return the XYZ colorimetry of sample points along the device's neutral axis.
 old-location: wcs\IDeviceModelPlugIn_GetNeutralAxis.htm
@@ -8,7 +8,7 @@ old-project: WCS
 ms.assetid: 9a3557e0-d533-4357-aa2a-7e168482927a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetNeutralAxis method [Windows Color System], GetNeutralAxis method [Windows Color System], IDeviceModelPlugIn interface, GetNeutralAxis,IDeviceModelPlugIn.GetNeutralAxis, IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], GetNeutralAxis method, IDeviceModelPlugIn::GetNeutralAxis, _color_IDeviceModelPlugIn::GetNeutralAxis, wcs.IDeviceModelPlugIn_GetNeutralAxis, wcsplugin/IDeviceModelPlugIn::GetNeutralAxis
+ms.keywords: GetNeutralAxis, GetNeutralAxis method [Windows Color System], GetNeutralAxis method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetNeutralAxis method, IDeviceModelPlugIn.GetNeutralAxis, IDeviceModelPlugIn::GetNeutralAxis, _color_IDeviceModelPlugIn::GetNeutralAxis, wcs.IDeviceModelPlugIn_GetNeutralAxis, wcsplugin/IDeviceModelPlugIn::GetNeutralAxis
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IDeviceModelPlugIn::GetNeutralAxis method
+# IDeviceModelPlugIn::GetNeutralAxis
 
 
 ## -description

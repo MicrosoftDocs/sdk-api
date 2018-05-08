@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.SubmitDecoderBuffers
-title: ID3D11VideoContext::SubmitDecoderBuffers method
+title: ID3D11VideoContext::SubmitDecoderBuffers
 author: windows-driver-content
 description: Submits one or more buffers for decoding.
 old-location: mf\id3d11videocontext_submitdecoderbuffers.htm
 old-project: medfound
 ms.assetid: 39010E57-FFF2-4793-B839-E336E8D2C1B2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], SubmitDecoderBuffers method, ID3D11VideoContext::SubmitDecoderBuffers, SubmitDecoderBuffers method [Media Foundation], SubmitDecoderBuffers method [Media Foundation], ID3D11VideoContext interface, SubmitDecoderBuffers,ID3D11VideoContext.SubmitDecoderBuffers, d3d11/ID3D11VideoContext::SubmitDecoderBuffers, mf.id3d11videocontext_submitdecoderbuffers
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoContext interface [Media Foundation],SubmitDecoderBuffers method, ID3D11VideoContext.SubmitDecoderBuffers, ID3D11VideoContext::SubmitDecoderBuffers, SubmitDecoderBuffers, SubmitDecoderBuffers method [Media Foundation], SubmitDecoderBuffers method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::SubmitDecoderBuffers, mf.id3d11videocontext_submitdecoderbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::SubmitDecoderBuffers method
+# ID3D11VideoContext::SubmitDecoderBuffers
 
 
 ## -description

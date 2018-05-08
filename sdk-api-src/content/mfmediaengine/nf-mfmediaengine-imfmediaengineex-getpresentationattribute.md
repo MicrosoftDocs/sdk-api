@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetPresentationAttribute
-title: IMFMediaEngineEx::GetPresentationAttribute method
+title: IMFMediaEngineEx::GetPresentationAttribute
 author: windows-driver-content
 description: Gets a presentation attribute from the media resource.
 old-location: mf\imfmediaengineex_getpresentationattribute.htm
 old-project: medfound
 ms.assetid: 127667EA-8ED2-428E-8F6B-C280CF42E1C5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation], IMFMediaEngineEx interface, GetPresentationAttribute,IMFMediaEngineEx.GetPresentationAttribute, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetPresentationAttribute method, IMFMediaEngineEx::GetPresentationAttribute, mf.imfmediaengineex_getpresentationattribute, mfmediaengine/IMFMediaEngineEx::GetPresentationAttribute
+ms.date: 5/3/2018
+ms.keywords: GetPresentationAttribute, GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetPresentationAttribute method, IMFMediaEngineEx.GetPresentationAttribute, IMFMediaEngineEx::GetPresentationAttribute, mf.imfmediaengineex_getpresentationattribute, mfmediaengine/IMFMediaEngineEx::GetPresentationAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::GetPresentationAttribute method
+# IMFMediaEngineEx::GetPresentationAttribute
 
 
 ## -description

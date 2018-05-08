@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.get__NewEnum
-title: IDataCollectorSetCollection::get__NewEnum method
+title: IDataCollectorSetCollection::get__NewEnum
 author: windows-driver-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\idatacollectorsetcollection__newenum.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: f875038d-8b66-44b2-b28e-211f08a691ec
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSetCollection, IDataCollectorSetCollection interface [PLA], _NewEnum property, IDataCollectorSetCollection._NewEnum, IDataCollectorSetCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA], IDataCollectorSetCollection interface, get__NewEnum,IDataCollectorSetCollection.get__NewEnum, pla.idatacollectorsetcollection__newenum, pla/IDataCollectorSetCollection::_NewEnum, pla/IDataCollectorSetCollection::get__NewEnum
+ms.keywords: IDataCollectorSetCollection interface [PLA],_NewEnum property, IDataCollectorSetCollection._NewEnum, IDataCollectorSetCollection.get__NewEnum, IDataCollectorSetCollection::_NewEnum, IDataCollectorSetCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],IDataCollectorSetCollection interface, get__NewEnum, pla.idatacollectorsetcollection__newenum, pla/IDataCollectorSetCollection::_NewEnum, pla/IDataCollectorSetCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSetCollection::get__NewEnum method
+# IDataCollectorSetCollection::get__NewEnum
 
 
 ## -description

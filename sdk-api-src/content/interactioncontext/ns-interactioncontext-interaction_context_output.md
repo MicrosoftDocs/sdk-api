@@ -86,20 +86,17 @@ The y-coordinate of the input pointer, in HIMETRIC units.
 ### -field arguments
 
 
-
-#### manipulation
+### -field arguments.manipulation
 
 The state of the manipulation.
 
 
-
-#### tap
+### -field arguments.tap
 
 The state of the tap gesture.
 
 
-
-#### crossSlide
+### -field arguments.crossSlide
 
 The state of the cross-slide interaction.
 

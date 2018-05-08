@@ -1,14 +1,14 @@
 ---
 UID: NF:mixerocx.IMixerOCX.SetDrawRegion
-title: IMixerOCX::SetDrawRegion method
+title: IMixerOCX::SetDrawRegion
 author: windows-driver-content
 description: The SetDrawRegion method specifies the location and dimensions of the video and clipping rectangles in screen coordinates.
 old-location: dshow\imixerocx_setdrawregion.htm
 old-project: DirectShow
 ms.assetid: 6f1a9b00-4a35-4772-a185-59b2bc9b9398
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMixerOCX, IMixerOCX interface [DirectShow], SetDrawRegion method, IMixerOCX::SetDrawRegion, IMixerOCXSetDrawRegion, SetDrawRegion method [DirectShow], SetDrawRegion method [DirectShow], IMixerOCX interface, SetDrawRegion,IMixerOCX.SetDrawRegion, dshow.imixerocx_setdrawregion, mixerocx/IMixerOCX::SetDrawRegion
+ms.date: 4/30/2018
+ms.keywords: IMixerOCX interface [DirectShow],SetDrawRegion method, IMixerOCX.SetDrawRegion, IMixerOCX::SetDrawRegion, IMixerOCXSetDrawRegion, SetDrawRegion, SetDrawRegion method [DirectShow], SetDrawRegion method [DirectShow],IMixerOCX interface, dshow.imixerocx_setdrawregion, mixerocx/IMixerOCX::SetDrawRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMixerOCX::SetDrawRegion method
+# IMixerOCX::SetDrawRegion
 
 
 ## -description

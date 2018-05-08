@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.ProcessItem
-title: IPhotoAcquirePlugin::ProcessItem method
+title: IPhotoAcquirePlugin::ProcessItem
 author: windows-driver-content
 description: The ProcessItem method provides additional functionality each time an item is processed. The application provides the implementation of the ProcessItem method.
 old-location: picacq\iphotoacquireplugin_processitem.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: f8a9144e-a728-48b7-a729-eec6d4db6d9e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoAcquirePlugin, IPhotoAcquirePlugin interface [Picture Acquisition], ProcessItem method, IPhotoAcquirePlugin::ProcessItem, IPhotoAcquirePluginProcessItem, ProcessItem method [Picture Acquisition], ProcessItem method [Picture Acquisition], IPhotoAcquirePlugin interface, ProcessItem,IPhotoAcquirePlugin.ProcessItem, photoacquire/IPhotoAcquirePlugin::ProcessItem, picacq.iphotoacquireplugin_processitem
+ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],ProcessItem method, IPhotoAcquirePlugin.ProcessItem, IPhotoAcquirePlugin::ProcessItem, IPhotoAcquirePluginProcessItem, ProcessItem, ProcessItem method [Picture Acquisition], ProcessItem method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::ProcessItem, picacq.iphotoacquireplugin_processitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquirePlugin::ProcessItem method
+# IPhotoAcquirePlugin::ProcessItem
 
 
 ## -description

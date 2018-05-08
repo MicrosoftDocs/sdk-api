@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CachedZoomMinimum
-title: IUIAutomationTransformPattern2::get_CachedZoomMinimum method
+title: IUIAutomationTransformPattern2::get_CachedZoomMinimum
 author: windows-driver-content
 description: Retrieves the cached minimum zoom level of the control's viewport.
 old-location: winauto\uiauto_iuiautomationtransformpattern2_cachedzoomminimum.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 26C56849-204A-47B3-8734-7A16F5577357
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedZoomMinimum property [Windows Accessibility], CachedZoomMinimum property [Windows Accessibility], IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2, IUIAutomationTransformPattern2 interface [Windows Accessibility], CachedZoomMinimum property, IUIAutomationTransformPattern2.CachedZoomMinimum, IUIAutomationTransformPattern2::get_CachedZoomMinimum, get_CachedZoomMinimum,IUIAutomationTransformPattern2.get_CachedZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::CachedZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::get_CachedZoomMinimum, winauto.uiauto_iuiautomationtransformpattern2_cachedzoomminimum
+ms.keywords: CachedZoomMinimum property [Windows Accessibility], CachedZoomMinimum property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CachedZoomMinimum property, IUIAutomationTransformPattern2.CachedZoomMinimum, IUIAutomationTransformPattern2.get_CachedZoomMinimum, IUIAutomationTransformPattern2::CachedZoomMinimum, IUIAutomationTransformPattern2::get_CachedZoomMinimum, get_CachedZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::CachedZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::get_CachedZoomMinimum, winauto.uiauto_iuiautomationtransformpattern2_cachedzoomminimum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTransformPattern2::get_CachedZoomMinimum method
+# IUIAutomationTransformPattern2::get_CachedZoomMinimum
 
 
 ## -description

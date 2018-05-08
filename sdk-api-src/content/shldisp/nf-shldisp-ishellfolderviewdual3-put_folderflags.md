@@ -1,14 +1,14 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.put_FolderFlags
-title: IShellFolderViewDual3::put_FolderFlags method
+title: IShellFolderViewDual3::put_FolderFlags
 author: windows-driver-content
 description: Sets the current folders settings.
 old-location: shell\IShellFolderViewDual3_put_FolderFlags.htm
 old-project: shell
 ms.assetid: 698678a6-3624-420a-997a-9fd1e61d67e6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellFolderViewDual3, IShellFolderViewDual3 interface [Windows Shell], put_FolderFlags method, IShellFolderViewDual3::put_FolderFlags, _shell_IShellFolderViewDual3_put_FolderFlags, put_FolderFlags method [Windows Shell], put_FolderFlags method [Windows Shell], IShellFolderViewDual3 interface, put_FolderFlags,IShellFolderViewDual3.put_FolderFlags, shell.IShellFolderViewDual3_put_FolderFlags, shldisp/IShellFolderViewDual3::put_FolderFlags
+ms.date: 5/3/2018
+ms.keywords: IShellFolderViewDual3 interface [Windows Shell],put_FolderFlags method, IShellFolderViewDual3.put_FolderFlags, IShellFolderViewDual3::put_FolderFlags, _shell_IShellFolderViewDual3_put_FolderFlags, put_FolderFlags, put_FolderFlags method [Windows Shell], put_FolderFlags method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_put_FolderFlags, shldisp/IShellFolderViewDual3::put_FolderFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellFolderViewDual3::put_FolderFlags method
+# IShellFolderViewDual3::put_FolderFlags
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 2f37dbd2-3078-4aa8-97e7-556a0ff2dd74
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPrintTicketResource, IXpsOMPrintTicketResource interface [XPS Documents and Packaging], IXpsOMPrintTicketResource interface [XPS Documents and Packaging], described, xps.ixpsomprintticketresource, xpsobjectmodel/IXpsOMPrintTicketResource
+ms.keywords: IXpsOMPrintTicketResource, IXpsOMPrintTicketResource interface [XPS Documents and Packaging], IXpsOMPrintTicketResource interface [XPS Documents and Packaging],described, xps.ixpsomprintticketresource, xpsobjectmodel/IXpsOMPrintTicketResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

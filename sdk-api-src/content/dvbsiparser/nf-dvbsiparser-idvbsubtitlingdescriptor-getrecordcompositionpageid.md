@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordCompositionPageID
-title: IDvbSubtitlingDescriptor::GetRecordCompositionPageID method
+title: IDvbSubtitlingDescriptor::GetRecordCompositionPageID
 author: windows-driver-content
 description: Gets the composition page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordcompositionpageid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 108f431a-e3c3-42d5-ad27-b7a54029051f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordCompositionPageID method [Microsoft TV Technologies], GetRecordCompositionPageID method [Microsoft TV Technologies], IDvbSubtitlingDescriptor interface, GetRecordCompositionPageID,IDvbSubtitlingDescriptor.GetRecordCompositionPageID, IDvbSubtitlingDescriptor, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies], GetRecordCompositionPageID method, IDvbSubtitlingDescriptor::GetRecordCompositionPageID, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordCompositionPageID, mstv.idvbsubtitlingdescriptor_getrecordcompositionpageid
+ms.keywords: GetRecordCompositionPageID, GetRecordCompositionPageID method [Microsoft TV Technologies], GetRecordCompositionPageID method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordCompositionPageID method, IDvbSubtitlingDescriptor.GetRecordCompositionPageID, IDvbSubtitlingDescriptor::GetRecordCompositionPageID, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordCompositionPageID, mstv.idvbsubtitlingdescriptor_getrecordcompositionpageid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbSubtitlingDescriptor::GetRecordCompositionPageID method
+# IDvbSubtitlingDescriptor::GetRecordCompositionPageID
 
 
 ## -description

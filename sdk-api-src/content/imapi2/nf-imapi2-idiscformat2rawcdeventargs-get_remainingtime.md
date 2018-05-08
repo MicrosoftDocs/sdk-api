@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCDEventArgs.get_RemainingTime
-title: IDiscFormat2RawCDEventArgs::get_RemainingTime method
+title: IDiscFormat2RawCDEventArgs::get_RemainingTime
 author: windows-driver-content
 description: Retrieves the estimated remaining time of the write operation.
 old-location: imapi\idiscformat2rawcdeventargs_get_remainingtime.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 0dad0ca9-2ddb-44ef-ab8b-a0f0efc3634a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCDEventArgs, IDiscFormat2RawCDEventArgs interface [IMAPI], get_RemainingTime method, IDiscFormat2RawCDEventArgs::get_RemainingTime, get_RemainingTime method [IMAPI], get_RemainingTime method [IMAPI], IDiscFormat2RawCDEventArgs interface, get_RemainingTime,IDiscFormat2RawCDEventArgs.get_RemainingTime, imapi.idiscformat2rawcdeventargs_get_remainingtime, imapi2/IDiscFormat2RawCDEventArgs::get_RemainingTime
+ms.keywords: IDiscFormat2RawCDEventArgs interface [IMAPI],get_RemainingTime method, IDiscFormat2RawCDEventArgs.get_RemainingTime, IDiscFormat2RawCDEventArgs::get_RemainingTime, get_RemainingTime, get_RemainingTime method [IMAPI], get_RemainingTime method [IMAPI],IDiscFormat2RawCDEventArgs interface, imapi.idiscformat2rawcdeventargs_get_remainingtime, imapi2/IDiscFormat2RawCDEventArgs::get_RemainingTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCDEventArgs::get_RemainingTime method
+# IDiscFormat2RawCDEventArgs::get_RemainingTime
 
 
 ## -description

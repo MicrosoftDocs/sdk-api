@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 54ebfff4-8898-49ed-9a45-07286cda5fb4
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME, PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME callback function [Failover Cluster], mscs.clusterclearbackupstateforsharedvolume, resapi/PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME
+ms.keywords: PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME, PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME callback, PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME callback function [Failover Cluster], mscs.clusterclearbackupstateforsharedvolume, resapi/PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME callback
+# PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME callback function
 
 
 ## -description

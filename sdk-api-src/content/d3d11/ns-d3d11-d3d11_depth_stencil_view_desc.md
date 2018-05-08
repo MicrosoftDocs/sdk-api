@@ -80,42 +80,42 @@ A value that describes whether the texture is read only.  Pass 0 to specify that
         the <a href="https://msdn.microsoft.com/8894ec55-9d56-4d41-a5d6-72ce064e3351">D3D11_DSV_FLAG</a> enumerated type.
 
 
-#### - Texture1D
+### -field Texture1D
 
 Type: <b><a href="https://msdn.microsoft.com/dfdbad36-3cfc-4e24-9864-ffe1405030b2">D3D11_TEX1D_DSV</a></b>
 
 Specifies a 1D texture subresource (see <a href="https://msdn.microsoft.com/dfdbad36-3cfc-4e24-9864-ffe1405030b2">D3D11_TEX1D_DSV</a>).
 
 
-#### - Texture1DArray
+### -field Texture1DArray
 
 Type: <b><a href="https://msdn.microsoft.com/9e4233cc-680a-486e-b91a-732d055937d1">D3D11_TEX1D_ARRAY_DSV</a></b>
 
 Specifies an array of 1D texture subresources (see <a href="https://msdn.microsoft.com/9e4233cc-680a-486e-b91a-732d055937d1">D3D11_TEX1D_ARRAY_DSV</a>).
 
 
-#### - Texture2D
+### -field Texture2D
 
 Type: <b><a href="https://msdn.microsoft.com/f3f7aeca-e6c1-445c-97f4-1968b726dad7">D3D11_TEX2D_DSV</a></b>
 
 Specifies a 2D texture subresource (see <a href="https://msdn.microsoft.com/f3f7aeca-e6c1-445c-97f4-1968b726dad7">D3D11_TEX2D_DSV</a>).
 
 
-#### - Texture2DArray
+### -field Texture2DArray
 
 Type: <b><a href="https://msdn.microsoft.com/0cf77ebd-a83c-4021-866d-664913549d80">D3D11_TEX2D_ARRAY_DSV</a></b>
 
 Specifies an array of 2D texture subresources (see <a href="https://msdn.microsoft.com/0cf77ebd-a83c-4021-866d-664913549d80">D3D11_TEX2D_ARRAY_DSV</a>).
 
 
-#### - Texture2DMS
+### -field Texture2DMS
 
 Type: <b><a href="https://msdn.microsoft.com/1723044b-1942-4373-8040-0c47b680ea95">D3D11_TEX2DMS_DSV</a></b>
 
 Specifies a multisampled 2D texture (see <a href="https://msdn.microsoft.com/1723044b-1942-4373-8040-0c47b680ea95">D3D11_TEX2DMS_DSV</a>).
 
 
-#### - Texture2DMSArray
+### -field Texture2DMSArray
 
 Type: <b><a href="https://msdn.microsoft.com/e01f8473-a69d-4e69-a8e3-3916fd5e7102">D3D11_TEX2DMS_ARRAY_DSV</a></b>
 

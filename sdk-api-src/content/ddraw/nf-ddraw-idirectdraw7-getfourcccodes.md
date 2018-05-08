@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetFourCCCodes
-title: IDirectDraw7::GetFourCCCodes method
+title: IDirectDraw7::GetFourCCCodes
 author: windows-driver-content
 description: Retrieves the four-character codes (FOURCC) that are supported by the DirectDraw object. This method can also retrieve the number of codes that are supported.
 old-location: directdraw\idirectdraw7_getfourcccodes.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 980b1cfe-d466-42f4-865f-6ddc7a41ea94
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetFourCCCodes method [DirectDraw], GetFourCCCodes method [DirectDraw], IDirectDraw7 interface, GetFourCCCodes,IDirectDraw7.GetFourCCCodes, IDirectDraw7, IDirectDraw7 interface [DirectDraw], GetFourCCCodes method, IDirectDraw7::GetFourCCCodes, ddraw/IDirectDraw7::GetFourCCCodes, directdraw.idirectdraw7_getfourcccodes
+ms.keywords: GetFourCCCodes, GetFourCCCodes method [DirectDraw], GetFourCCCodes method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetFourCCCodes method, IDirectDraw7.GetFourCCCodes, IDirectDraw7::GetFourCCCodes, ddraw/IDirectDraw7::GetFourCCCodes, directdraw.idirectdraw7_getfourcccodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDraw7::GetFourCCCodes method
+# IDirectDraw7::GetFourCCCodes
 
 
 ## -description

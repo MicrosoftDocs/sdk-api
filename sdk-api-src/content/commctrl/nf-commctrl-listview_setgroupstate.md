@@ -7,7 +7,7 @@ old-location: controls\ListView_SetGroupState.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupstate.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: ListView_SetGroupState, ListView_SetGroupState macro [Windows Controls], _shell_ListView_SetGroupState, _shell_ListView_SetGroupState_cpp, commctrl/ListView_SetGroupState, controls.ListView_SetGroupState, controls._shell_ListView_SetGroupState
 ms.prod: windows-hardware
 ms.technology: windows-devices

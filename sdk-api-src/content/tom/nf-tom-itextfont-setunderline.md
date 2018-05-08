@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetUnderline
-title: ITextFont::SetUnderline method
+title: ITextFont::SetUnderline
 author: windows-driver-content
 description: Sets the type of underlining for the characters in a range.
 old-location: controls\ITextFont_SetUnderline.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setunderline.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetUnderline method, ITextFont::SetUnderline, SetUnderline method [Windows Controls], SetUnderline method [Windows Controls], ITextFont interface, SetUnderline,ITextFont.SetUnderline, _win32_ITextFont_SetUnderline, _win32_ITextFont_SetUnderline_cpp, controls.ITextFont_SetUnderline, controls._win32_ITextFont_SetUnderline, tom/ITextFont::SetUnderline, tomDash, tomDashDot, tomDashDotDot, tomDotted, tomDouble, tomDoubleWave, tomHair, tomHeavyWave, tomLongDash, tomNone, tomSingle, tomThick, tomThickDash, tomThickDashDot, tomThickDashDotDot, tomThickDotted, tomThickLongDash, tomWave, tomWords
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetUnderline method, ITextFont.SetUnderline, ITextFont::SetUnderline, SetUnderline, SetUnderline method [Windows Controls], SetUnderline method [Windows Controls],ITextFont interface, _win32_ITextFont_SetUnderline, _win32_ITextFont_SetUnderline_cpp, controls.ITextFont_SetUnderline, controls._win32_ITextFont_SetUnderline, tom/ITextFont::SetUnderline, tomDash, tomDashDot, tomDashDotDot, tomDotted, tomDouble, tomDoubleWave, tomHair, tomHeavyWave, tomLongDash, tomNone, tomSingle, tomThick, tomThickDash, tomThickDashDot, tomThickDashDotDot, tomThickDotted, tomThickLongDash, tomWave, tomWords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetUnderline method
+# ITextFont::SetUnderline
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_deviceName
-title: IWMPSyncDevice::get_deviceName method
+title: IWMPSyncDevice::get_deviceName
 author: windows-driver-content
 description: The get_deviceName method retrieves the name of the device.
 old-location: wmp\iwmpsyncdevice_get_devicename.htm
 old-project: WMP
 ms.assetid: daa490a9-d7b8-4162-a4e2-f88b8f091fa3
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], get_deviceName method, IWMPSyncDevice::get_deviceName, IWMPSyncDeviceget_deviceName, get_deviceName method [Windows Media Player], get_deviceName method [Windows Media Player], IWMPSyncDevice interface, get_deviceName,IWMPSyncDevice.get_deviceName, wmp.iwmpsyncdevice_get_devicename, wmp/IWMPSyncDevice::get_deviceName
+ms.date: 5/4/2018
+ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_deviceName method, IWMPSyncDevice.get_deviceName, IWMPSyncDevice::get_deviceName, IWMPSyncDeviceget_deviceName, get_deviceName, get_deviceName method [Windows Media Player], get_deviceName method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_devicename, wmp/IWMPSyncDevice::get_deviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSyncDevice::get_deviceName method
+# IWMPSyncDevice::get_deviceName
 
 
 ## -description

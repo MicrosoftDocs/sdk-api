@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IOverlayNotify2.OnDisplayChange
-title: IOverlayNotify2::OnDisplayChange method
+title: IOverlayNotify2::OnDisplayChange
 author: windows-driver-content
 description: The OnDisplayChange method provides notification that the exposed window area has changed.
 old-location: dshow\ioverlaynotify2_ondisplaychange.htm
 old-project: DirectShow
 ms.assetid: 8f32a373-5d98-4491-8bfb-9445cb15ff10
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IOverlayNotify2, IOverlayNotify2 interface [DirectShow], OnDisplayChange method, IOverlayNotify2::OnDisplayChange, IOverlayNotify2OnDisplayChange, OnDisplayChange method [DirectShow], OnDisplayChange method [DirectShow], IOverlayNotify2 interface, OnDisplayChange,IOverlayNotify2.OnDisplayChange, dshow.ioverlaynotify2_ondisplaychange, strmif/IOverlayNotify2::OnDisplayChange
+ms.date: 4/30/2018
+ms.keywords: IOverlayNotify2 interface [DirectShow],OnDisplayChange method, IOverlayNotify2.OnDisplayChange, IOverlayNotify2::OnDisplayChange, IOverlayNotify2OnDisplayChange, OnDisplayChange, OnDisplayChange method [DirectShow], OnDisplayChange method [DirectShow],IOverlayNotify2 interface, dshow.ioverlaynotify2_ondisplaychange, strmif/IOverlayNotify2::OnDisplayChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IOverlayNotify2::OnDisplayChange method
+# IOverlayNotify2::OnDisplayChange
 
 
 ## -description

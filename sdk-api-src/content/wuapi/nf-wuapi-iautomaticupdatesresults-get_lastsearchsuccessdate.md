@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesResults.get_LastSearchSuccessDate
-title: IAutomaticUpdatesResults::get_LastSearchSuccessDate method
+title: IAutomaticUpdatesResults::get_LastSearchSuccessDate
 author: windows-driver-content
 description: Gets the last time and Coordinated Universal Time (UTC) date when AutomaticUpdates successfully searched for updates.
 old-location: wua\iautomaticupdatesresults_lastsearchsuccessdate.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 3c053888-be91-45e9-a5da-182f18e07710
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IAutomaticUpdatesResults, IAutomaticUpdatesResults interface [Windows Update Agent], LastSearchSuccessDate property, IAutomaticUpdatesResults.LastSearchSuccessDate, IAutomaticUpdatesResults::get_LastSearchSuccessDate, LastSearchSuccessDate property [Windows Update Agent], LastSearchSuccessDate property [Windows Update Agent], IAutomaticUpdatesResults interface, get_LastSearchSuccessDate,IAutomaticUpdatesResults.get_LastSearchSuccessDate, wua.iautomaticupdatesresults_lastsearchsuccessdate, wuapi/IAutomaticUpdatesResults::LastSearchSuccessDate, wuapi/IAutomaticUpdatesResults::get_LastSearchSuccessDate
+ms.keywords: IAutomaticUpdatesResults interface [Windows Update Agent],LastSearchSuccessDate property, IAutomaticUpdatesResults.LastSearchSuccessDate, IAutomaticUpdatesResults.get_LastSearchSuccessDate, IAutomaticUpdatesResults::LastSearchSuccessDate, IAutomaticUpdatesResults::get_LastSearchSuccessDate, LastSearchSuccessDate property [Windows Update Agent], LastSearchSuccessDate property [Windows Update Agent],IAutomaticUpdatesResults interface, get_LastSearchSuccessDate, wua.iautomaticupdatesresults_lastsearchsuccessdate, wuapi/IAutomaticUpdatesResults::LastSearchSuccessDate, wuapi/IAutomaticUpdatesResults::get_LastSearchSuccessDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdatesResults::get_LastSearchSuccessDate method
+# IAutomaticUpdatesResults::get_LastSearchSuccessDate
 
 
 ## -description

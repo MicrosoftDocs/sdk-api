@@ -1,14 +1,14 @@
 ---
 UID: NF:shappmgr.IPublishedApp.GetPublishedAppInfo
-title: IPublishedApp::GetPublishedAppInfo method
+title: IPublishedApp::GetPublishedAppInfo
 author: windows-driver-content
 description: Gets publishing-related information about an application published by an application publisher.
 old-location: shell\IPublishedApp_GetPublishedAppInfo.htm
 old-project: shell
 ms.assetid: 4ffcc30a-cf07-45e7-b9a5-342fe2b553c8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPublishedAppInfo method [Windows Shell], GetPublishedAppInfo method [Windows Shell], IPublishedApp interface, GetPublishedAppInfo,IPublishedApp.GetPublishedAppInfo, IPublishedApp, IPublishedApp interface [Windows Shell], GetPublishedAppInfo method, IPublishedApp::GetPublishedAppInfo, inet_IPublishedApp_GetPublishedAppInfo, shappmgr/IPublishedApp::GetPublishedAppInfo, shell.IPublishedApp_GetPublishedAppInfo
+ms.date: 5/3/2018
+ms.keywords: GetPublishedAppInfo, GetPublishedAppInfo method [Windows Shell], GetPublishedAppInfo method [Windows Shell],IPublishedApp interface, IPublishedApp interface [Windows Shell],GetPublishedAppInfo method, IPublishedApp.GetPublishedAppInfo, IPublishedApp::GetPublishedAppInfo, inet_IPublishedApp_GetPublishedAppInfo, shappmgr/IPublishedApp::GetPublishedAppInfo, shell.IPublishedApp_GetPublishedAppInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPublishedApp::GetPublishedAppInfo method
+# IPublishedApp::GetPublishedAppInfo
 
 
 ## -description

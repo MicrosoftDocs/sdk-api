@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationResult.get_RebootRequired
-title: IInstallationResult::get_RebootRequired method
+title: IInstallationResult::get_RebootRequired
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether you must restart the computer to complete the installation or uninstallation of an update.
 old-location: wua\iinstallationresult_rebootrequired.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 7a865933-53f7-4d3e-88cf-088acedeed02
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IInstallationResult, IInstallationResult interface [Windows Update Agent], RebootRequired property, IInstallationResult.RebootRequired, IInstallationResult::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent], IInstallationResult interface, get_RebootRequired,IInstallationResult.get_RebootRequired, wua.iinstallationresult_rebootrequired, wuapi/IInstallationResult::RebootRequired, wuapi/IInstallationResult::get_RebootRequired
+ms.keywords: IInstallationResult interface [Windows Update Agent],RebootRequired property, IInstallationResult.RebootRequired, IInstallationResult.get_RebootRequired, IInstallationResult::RebootRequired, IInstallationResult::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IInstallationResult interface, get_RebootRequired, wua.iinstallationresult_rebootrequired, wuapi/IInstallationResult::RebootRequired, wuapi/IInstallationResult::get_RebootRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInstallationResult::get_RebootRequired method
+# IInstallationResult::get_RebootRequired
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CachedShape
-title: IUIAutomationStylesPattern::get_CachedShape method
+title: IUIAutomationStylesPattern::get_CachedShape
 author: windows-driver-content
 description: Retrieves the cached shape of an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedShape.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: DB6D21C8-ADF3-4640-9B46-59033F015A22
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedShape property [Windows Accessibility], CachedShape property [Windows Accessibility], IUIAutomationStylesPattern interface, IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], CachedShape property, IUIAutomationStylesPattern.CachedShape, IUIAutomationStylesPattern::get_CachedShape, get_CachedShape,IUIAutomationStylesPattern.get_CachedShape, uiautomationclient/IUIAutomationStylesPattern::CachedShape, uiautomationclient/IUIAutomationStylesPattern::get_CachedShape, winauto.uiauto_IUIAutomationStylesPattern_CachedShape
+ms.keywords: CachedShape property [Windows Accessibility], CachedShape property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedShape property, IUIAutomationStylesPattern.CachedShape, IUIAutomationStylesPattern.get_CachedShape, IUIAutomationStylesPattern::CachedShape, IUIAutomationStylesPattern::get_CachedShape, get_CachedShape, uiautomationclient/IUIAutomationStylesPattern::CachedShape, uiautomationclient/IUIAutomationStylesPattern::get_CachedShape, winauto.uiauto_IUIAutomationStylesPattern_CachedShape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationStylesPattern::get_CachedShape method
+# IUIAutomationStylesPattern::get_CachedShape
 
 
 ## -description

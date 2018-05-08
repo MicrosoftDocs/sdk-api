@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 0d16d82a-287c-4402-ac10-f601684bd976
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterSetHashAlgorithm, EngineAdapterSetHashAlgorithm callback function [Windows Biometric Framework API], PIBIO_ENGINE_SET_HASH_ALGORITHM_FN, secbiomet.engineadaptersethashalgorithm, winbio_adapter/EngineAdapterSetHashAlgorithm
+ms.keywords: EngineAdapterSetHashAlgorithm, EngineAdapterSetHashAlgorithm callback function [Windows Biometric Framework API], PIBIO_ENGINE_SET_HASH_ALGORITHM_FN, PIBIO_ENGINE_SET_HASH_ALGORITHM_FN callback, secbiomet.engineadaptersethashalgorithm, winbio_adapter/EngineAdapterSetHashAlgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_SET_HASH_ALGORITHM_FN callback
+# PIBIO_ENGINE_SET_HASH_ALGORITHM_FN callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaPosition.get_Rate
-title: IMediaPosition::get_Rate method
+title: IMediaPosition::get_Rate
 author: windows-driver-content
 description: The get_Rate method retrieves the playback rate.
 old-location: dshow\imediaposition_get_rate.htm
 old-project: DirectShow
 ms.assetid: dbe18522-6adc-4a55-b74a-db05f619d40a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], get_Rate method, IMediaPosition::get_Rate, IMediaPositionget_Rate, control/IMediaPosition::get_Rate, dshow.imediaposition_get_rate, get_Rate method [DirectShow], get_Rate method [DirectShow], IMediaPosition interface, get_Rate,IMediaPosition.get_Rate
+ms.date: 4/30/2018
+ms.keywords: IMediaPosition interface [DirectShow],get_Rate method, IMediaPosition.get_Rate, IMediaPosition::get_Rate, IMediaPositionget_Rate, control/IMediaPosition::get_Rate, dshow.imediaposition_get_rate, get_Rate, get_Rate method [DirectShow], get_Rate method [DirectShow],IMediaPosition interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaPosition::get_Rate method
+# IMediaPosition::get_Rate
 
 
 ## -description

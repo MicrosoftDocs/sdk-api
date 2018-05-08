@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IReferenceClockTimerControl.GetDefaultTimerResolution
-title: IReferenceClockTimerControl::GetDefaultTimerResolution method
+title: IReferenceClockTimerControl::GetDefaultTimerResolution
 author: windows-driver-content
 description: The GetDefaultTimerResolution method returns the timer resolution that was requested by the reference clock.
 old-location: dshow\ireferenceclocktimercontrol_getdefaulttimerresolution.htm
 old-project: DirectShow
 ms.assetid: 8382bc39-bc3d-43a1-aa06-16a4eecbdc7a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDefaultTimerResolution method [DirectShow], GetDefaultTimerResolution method [DirectShow], IReferenceClockTimerControl interface, GetDefaultTimerResolution,IReferenceClockTimerControl.GetDefaultTimerResolution, IReferenceClockTimerControl, IReferenceClockTimerControl interface [DirectShow], GetDefaultTimerResolution method, IReferenceClockTimerControl::GetDefaultTimerResolution, IReferenceClockTimerControlGetDefaultTimerResoluti, dshow.ireferenceclocktimercontrol_getdefaulttimerresolution, strmif/IReferenceClockTimerControl::GetDefaultTimerResolution
+ms.date: 4/30/2018
+ms.keywords: GetDefaultTimerResolution, GetDefaultTimerResolution method [DirectShow], GetDefaultTimerResolution method [DirectShow],IReferenceClockTimerControl interface, IReferenceClockTimerControl interface [DirectShow],GetDefaultTimerResolution method, IReferenceClockTimerControl.GetDefaultTimerResolution, IReferenceClockTimerControl::GetDefaultTimerResolution, IReferenceClockTimerControlGetDefaultTimerResoluti, dshow.ireferenceclocktimercontrol_getdefaulttimerresolution, strmif/IReferenceClockTimerControl::GetDefaultTimerResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IReferenceClockTimerControl::GetDefaultTimerResolution method
+# IReferenceClockTimerControl::GetDefaultTimerResolution
 
 
 ## -description

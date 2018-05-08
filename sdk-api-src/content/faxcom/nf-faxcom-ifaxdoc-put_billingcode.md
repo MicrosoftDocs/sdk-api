@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_BillingCode
-title: IFaxDoc::put_BillingCode method
+title: IFaxDoc::put_BillingCode
 author: windows-driver-content
 description: Sets or retrieves the BillingCode property of a FaxDoc object. The BillingCode property is a null-terminated string that contains an optional billing code that applies to the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_billingcode_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_95yd.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service], FaxDoc object, FaxDoc object [Fax Service], BillingCode property, IFaxDoc, IFaxDoc::put_BillingCode, _mfax_ifaxdoc_get_billingcode, fax._mfax_ifaxdoc_get_billingcode, fax._mfax_ifaxdoc_get_billingcode_vb, put_BillingCode,IFaxDoc.put_BillingCode
+ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],BillingCode property, FaxDoc.BillingCode, IFaxDoc.put_BillingCode, IFaxDoc::put_BillingCode, _mfax_ifaxdoc_get_billingcode, fax._mfax_ifaxdoc_get_billingcode, fax._mfax_ifaxdoc_get_billingcode_vb, put_BillingCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_BillingCode method
+# IFaxDoc::put_BillingCode
 
 
 ## -description

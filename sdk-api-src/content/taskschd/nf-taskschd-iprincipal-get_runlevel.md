@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal.get_RunLevel
-title: IPrincipal::get_RunLevel method
+title: IPrincipal::get_RunLevel
 author: windows-driver-content
 description: Gets or sets the identifier that is used to specify the privilege level that is required to run the tasks that are associated with the principal.
 old-location: taskschd\iprincipal_runlevel.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 90f2dcfc-4704-4731-9b86-12a2a6f208f4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPrincipal, IPrincipal interface [Task Scheduler], RunLevel property, IPrincipal.RunLevel, IPrincipal::get_RunLevel, IPrincipal::put_RunLevel, RunLevel property [Task Scheduler], RunLevel property [Task Scheduler], IPrincipal interface, TASK_RUNLEVEL_HIGHEST, TASK_RUNLEVEL_LUA, get_RunLevel,IPrincipal.get_RunLevel, taskschd.iprincipal_runlevel, taskschd/IPrincipal::RunLevel, taskschd/IPrincipal::get_RunLevel, taskschd/IPrincipal::put_RunLevel
+ms.keywords: IPrincipal interface [Task Scheduler],RunLevel property, IPrincipal.RunLevel, IPrincipal.get_RunLevel, IPrincipal::RunLevel, IPrincipal::get_RunLevel, IPrincipal::put_RunLevel, RunLevel property [Task Scheduler], RunLevel property [Task Scheduler],IPrincipal interface, TASK_RUNLEVEL_HIGHEST, TASK_RUNLEVEL_LUA, get_RunLevel, taskschd.iprincipal_runlevel, taskschd/IPrincipal::RunLevel, taskschd/IPrincipal::get_RunLevel, taskschd/IPrincipal::put_RunLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IPrincipal::get_RunLevel method
+# IPrincipal::get_RunLevel
 
 
 ## -description

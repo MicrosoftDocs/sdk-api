@@ -1,14 +1,14 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetAnswerMode
-title: IAMWstDecoder::SetAnswerMode method
+title: IAMWstDecoder::SetAnswerMode
 author: windows-driver-content
 description: Downstream filters use the SetAnswerMode method to assign the current answer mode.
 old-location: dshow\iamwstdecoder_setanswermode.htm
 old-project: DirectShow
 ms.assetid: d26b22d2-2c88-4347-80fb-aca8abae50ab
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], SetAnswerMode method, IAMWstDecoder::SetAnswerMode, IAMWstDecoderSetAnswerMode, SetAnswerMode method [DirectShow], SetAnswerMode method [DirectShow], IAMWstDecoder interface, SetAnswerMode,IAMWstDecoder.SetAnswerMode, dshow.iamwstdecoder_setanswermode, iwstdec/IAMWstDecoder::SetAnswerMode
+ms.date: 4/30/2018
+ms.keywords: IAMWstDecoder interface [DirectShow],SetAnswerMode method, IAMWstDecoder.SetAnswerMode, IAMWstDecoder::SetAnswerMode, IAMWstDecoderSetAnswerMode, SetAnswerMode, SetAnswerMode method [DirectShow], SetAnswerMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setanswermode, iwstdec/IAMWstDecoder::SetAnswerMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMWstDecoder::SetAnswerMode method
+# IAMWstDecoder::SetAnswerMode
 
 
 ## -description

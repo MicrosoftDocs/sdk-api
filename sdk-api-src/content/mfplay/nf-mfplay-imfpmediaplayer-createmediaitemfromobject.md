@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.CreateMediaItemFromObject
-title: IMFPMediaPlayer::CreateMediaItemFromObject method
+title: IMFPMediaPlayer::CreateMediaItemFromObject
 author: windows-driver-content
 description: Creates a media item from an object.
 old-location: mf\imfpmediaplayer_createmediaitemfromobject.htm
 old-project: medfound
 ms.assetid: d647df89-b874-448e-ae41-ee3bcb55521f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateMediaItemFromObject method [Media Foundation], CreateMediaItemFromObject method [Media Foundation], IMFPMediaPlayer interface, CreateMediaItemFromObject,IMFPMediaPlayer.CreateMediaItemFromObject, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], CreateMediaItemFromObject method, IMFPMediaPlayer::CreateMediaItemFromObject, mf.imfpmediaplayer_createmediaitemfromobject, mfplay/IMFPMediaPlayer::CreateMediaItemFromObject
+ms.date: 5/3/2018
+ms.keywords: CreateMediaItemFromObject, CreateMediaItemFromObject method [Media Foundation], CreateMediaItemFromObject method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromObject method, IMFPMediaPlayer.CreateMediaItemFromObject, IMFPMediaPlayer::CreateMediaItemFromObject, mf.imfpmediaplayer_createmediaitemfromobject, mfplay/IMFPMediaPlayer::CreateMediaItemFromObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::CreateMediaItemFromObject method
+# IMFPMediaPlayer::CreateMediaItemFromObject
 
 
 ## -description

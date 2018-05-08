@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 3aef09e2-6314-4de8-a9dd-e02c13e0145c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: MibGetFirst, MibGetFirst callback function [RAS], PMIB_GET_FIRST, _mpr_mibgetfirst, routprot/MibGetFirst, rras.mibgetfirst
+ms.keywords: MibGetFirst, MibGetFirst callback function [RAS], PMIB_GET_FIRST, PMIB_GET_FIRST callback, _mpr_mibgetfirst, routprot/MibGetFirst, rras.mibgetfirst
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PMIB_GET_FIRST callback
+# PMIB_GET_FIRST callback function
 
 
 ## -description

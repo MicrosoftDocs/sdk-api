@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.QueueEvent
-title: IMFMediaEventQueue::QueueEvent method
+title: IMFMediaEventQueue::QueueEvent
 author: windows-driver-content
 description: Puts an event in the queue.
 old-location: mf\imfmediaeventqueue_queueevent.htm
 old-project: medfound
 ms.assetid: eb04ce9f-fb64-438f-ad4d-ba1fb849d59c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEventQueue, IMFMediaEventQueue interface [Media Foundation], QueueEvent method, IMFMediaEventQueue::QueueEvent, QueueEvent method [Media Foundation], QueueEvent method [Media Foundation], IMFMediaEventQueue interface, QueueEvent,IMFMediaEventQueue.QueueEvent, eb04ce9f-fb64-438f-ad4d-ba1fb849d59c, mf.imfmediaeventqueue_queueevent, mfobjects/IMFMediaEventQueue::QueueEvent
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEventQueue interface [Media Foundation],QueueEvent method, IMFMediaEventQueue.QueueEvent, IMFMediaEventQueue::QueueEvent, QueueEvent, QueueEvent method [Media Foundation], QueueEvent method [Media Foundation],IMFMediaEventQueue interface, eb04ce9f-fb64-438f-ad4d-ba1fb849d59c, mf.imfmediaeventqueue_queueevent, mfobjects/IMFMediaEventQueue::QueueEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEventQueue::QueueEvent method
+# IMFMediaEventQueue::QueueEvent
 
 
 ## -description

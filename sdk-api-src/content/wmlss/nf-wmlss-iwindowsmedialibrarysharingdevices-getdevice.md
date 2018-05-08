@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevices.GetDevice
-title: IWindowsMediaLibrarySharingDevices::GetDevice method
+title: IWindowsMediaLibrarySharingDevices::GetDevice
 author: windows-driver-content
 description: The GetDevice method retrieves an IWindowsMediaLibrarySharingDevice interface that represents an individual media device.
 old-location: wmlss\IWMLSDevicesGetDevice.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: 38a1f5d2-0347-4564-9403-2bf726198aa6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDevice method [Windows Media Library Sharing Services], GetDevice method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDevices interface, GetDevice,IWindowsMediaLibrarySharingDevices.GetDevice, IWindowsMediaLibrarySharingDevices, IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services], GetDevice method, IWindowsMediaLibrarySharingDevices::GetDevice, wmlss.IWMLSDevicesGetDevice, wmlss/IWindowsMediaLibrarySharingDevices::GetDevice
+ms.keywords: GetDevice, GetDevice method [Windows Media Library Sharing Services], GetDevice method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevices interface, IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services],GetDevice method, IWindowsMediaLibrarySharingDevices.GetDevice, IWindowsMediaLibrarySharingDevices::GetDevice, wmlss.IWMLSDevicesGetDevice, wmlss/IWindowsMediaLibrarySharingDevices::GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingDevices::GetDevice method
+# IWindowsMediaLibrarySharingDevices::GetDevice
 
 
 ## -description

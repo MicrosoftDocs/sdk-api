@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetRecordModuleInfo
-title: IIsdbDownloadContentDescriptor::GetRecordModuleInfo method
+title: IIsdbDownloadContentDescriptor::GetRecordModuleInfo
 author: windows-driver-content
 description: Gets the value of a module_info_byte field from a module record in an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmoduleinfo.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0f9dc48c-7df3-498b-b9ff-4610bd9e7ac2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordModuleInfo method [Microsoft TV Technologies], GetRecordModuleInfo method [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface, GetRecordModuleInfo,IIsdbDownloadContentDescriptor.GetRecordModuleInfo, IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], GetRecordModuleInfo method, IIsdbDownloadContentDescriptor::GetRecordModuleInfo, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleInfo, mstv.iisdbdownloadcontentdescriptor_getrecordmoduleinfo
+ms.keywords: GetRecordModuleInfo, GetRecordModuleInfo method [Microsoft TV Technologies], GetRecordModuleInfo method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetRecordModuleInfo method, IIsdbDownloadContentDescriptor.GetRecordModuleInfo, IIsdbDownloadContentDescriptor::GetRecordModuleInfo, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleInfo, mstv.iisdbdownloadcontentdescriptor_getrecordmoduleinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDownloadContentDescriptor::GetRecordModuleInfo method
+# IIsdbDownloadContentDescriptor::GetRecordModuleInfo
 
 
 ## -description

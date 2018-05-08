@@ -130,3 +130,10 @@ Specifies constraints
                     entire contents of this structure will be filled out.
                 
 
+
+### -field out.channelProperty
+
+ 
+
+
+

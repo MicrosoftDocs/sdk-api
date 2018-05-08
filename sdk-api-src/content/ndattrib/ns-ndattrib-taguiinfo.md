@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 62d3c908-8fc4-4bd9-94ac-94dfcf8db395
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: "*PUiInfo, UiInfo, UiInfo structure [NDF], UiInfo, *PUiInfo, UiInfo, *PUiInfo structure [NDF], ndattrib/UiInfo, ndf.uiinfo, tagUiInfo"
+ms.keywords: "*PUiInfo, UiInfo, UiInfo structure [NDF], UiInfo,*PUiInfo, UiInfo,*PUiInfo structure [NDF], ndattrib/UiInfo, ndf.uiinfo, tagUiInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -65,32 +65,32 @@ Type: <b><a href="https://msdn.microsoft.com/819ab594-860b-42a0-be6e-bab0e669c20
 The type of user interface (UI) to use. This can be one of the values shown in the following members.
 
 
-#### - ShellInfo
+### -field pwzNull
+
+Type: <b>LPWSTR</b>
+
+No additional UI is required. Used when <b>type</b> is set to UIT_NONE.
+
+
+### -field ShellInfo
 
 Type: <b>ShellCommandInfo</b>
 
 Execute a shell command.  Used when <b>type</b> is set to UIT_SHELL_COMMAND.
 
 
-#### - pwzDui
-
-Type: <b>LPWSTR</b>
-
-Use a direct user interface. Used when <b>type</b> is set to UIT_DUI.
-
-
-#### - pwzHelpUrl
+### -field pwzHelpUrl
 
 Type: <b>LPWSTR</b>
 
 Launches a help pane. Used when <b>type</b> is set to UIT_HELP_PANE.
 
 
-#### - pwzNull
+### -field pwzDui
 
 Type: <b>LPWSTR</b>
 
-No additional UI is required. Used when <b>type</b> is set to UIT_NONE.
+Use a direct user interface. Used when <b>type</b> is set to UIT_DUI.
 
 
 ## -see-also

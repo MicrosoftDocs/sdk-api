@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetBalance
-title: IMFPMediaPlayer::GetBalance method
+title: IMFPMediaPlayer::GetBalance
 author: windows-driver-content
 description: Gets the current audio balance.
 old-location: mf\imfpmediaplayer_getbalance.htm
 old-project: medfound
 ms.assetid: 27deeb41-5347-4a6d-bfd4-4e4444540651
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetBalance method [Media Foundation], GetBalance method [Media Foundation], IMFPMediaPlayer interface, GetBalance,IMFPMediaPlayer.GetBalance, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetBalance method, IMFPMediaPlayer::GetBalance, mf.imfpmediaplayer_getbalance, mfplay/IMFPMediaPlayer::GetBalance
+ms.date: 5/3/2018
+ms.keywords: GetBalance, GetBalance method [Media Foundation], GetBalance method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetBalance method, IMFPMediaPlayer.GetBalance, IMFPMediaPlayer::GetBalance, mf.imfpmediaplayer_getbalance, mfplay/IMFPMediaPlayer::GetBalance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::GetBalance method
+# IMFPMediaPlayer::GetBalance
 
 
 ## -description

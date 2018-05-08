@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordTargetVersion
-title: IISDB_SDTT::GetRecordTargetVersion method
+title: IISDB_SDTT::GetRecordTargetVersion
 author: windows-driver-content
 description: Receives the target version from a record in an Integrated Services Digital Broadcasting (ISDB) Software Download Trigger Table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordtargetversion.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e8e85c5b-e577-45b9-b377-c21700c818bb
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordTargetVersion method [Microsoft TV Technologies], GetRecordTargetVersion method [Microsoft TV Technologies], IISDB_SDTT interface, GetRecordTargetVersion,IISDB_SDTT.GetRecordTargetVersion, IISDB_SDTT, IISDB_SDTT interface [Microsoft TV Technologies], GetRecordTargetVersion method, IISDB_SDTT::GetRecordTargetVersion, dvbsiparser/IISDB_SDTT::GetRecordTargetVersion, mstv.iisdb_sdtt_getrecordtargetversion
+ms.keywords: GetRecordTargetVersion, GetRecordTargetVersion method [Microsoft TV Technologies], GetRecordTargetVersion method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordTargetVersion method, IISDB_SDTT.GetRecordTargetVersion, IISDB_SDTT::GetRecordTargetVersion, dvbsiparser/IISDB_SDTT::GetRecordTargetVersion, mstv.iisdb_sdtt_getrecordtargetversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_SDTT::GetRecordTargetVersion method
+# IISDB_SDTT::GetRecordTargetVersion
 
 
 ## -description

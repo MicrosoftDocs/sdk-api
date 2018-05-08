@@ -7,8 +7,8 @@ old-location: mf\idirectxvideomemoryconfiguration.htm
 old-project: medfound
 ms.assetid: cc2a6180-9698-460a-9a0d-1ee9e15f197f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IDirectXVideoMemoryConfiguration, IDirectXVideoMemoryConfiguration interface [Media Foundation], IDirectXVideoMemoryConfiguration interface [Media Foundation], described, cc2a6180-9698-460a-9a0d-1ee9e15f197f, dxva2api/IDirectXVideoMemoryConfiguration, mf.idirectxvideomemoryconfiguration
+ms.date: 5/3/2018
+ms.keywords: IDirectXVideoMemoryConfiguration, IDirectXVideoMemoryConfiguration interface [Media Foundation], IDirectXVideoMemoryConfiguration interface [Media Foundation],described, cc2a6180-9698-460a-9a0d-1ee9e15f197f, dxva2api/IDirectXVideoMemoryConfiguration, mf.idirectxvideomemoryconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

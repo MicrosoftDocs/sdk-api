@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.GetSubscriptions
-title: IMultiInterfaceEventControl::GetSubscriptions method
+title: IMultiInterfaceEventControl::GetSubscriptions
 author: windows-driver-content
 description: Retrieves the collection of subscription objects associated with an event method.
 old-location: cos\imultiinterfaceeventcontrol_getsubscriptions.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 38b1d0fe-c32e-41d5-a0c1-2b4e72908fce
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetSubscriptions method [COM+], GetSubscriptions method [COM+], IMultiInterfaceEventControl interface, GetSubscriptions,IMultiInterfaceEventControl.GetSubscriptions, IMultiInterfaceEventControl, IMultiInterfaceEventControl interface [COM+], GetSubscriptions method, IMultiInterfaceEventControl::GetSubscriptions, _cos_IMultiInterfaceEventControl_GetSubscriptions, cos.imultiinterfaceeventcontrol_getsubscriptions, eventsys/IMultiInterfaceEventControl::GetSubscriptions
+ms.keywords: GetSubscriptions, GetSubscriptions method [COM+], GetSubscriptions method [COM+],IMultiInterfaceEventControl interface, IMultiInterfaceEventControl interface [COM+],GetSubscriptions method, IMultiInterfaceEventControl.GetSubscriptions, IMultiInterfaceEventControl::GetSubscriptions, _cos_IMultiInterfaceEventControl_GetSubscriptions, cos.imultiinterfaceeventcontrol_getsubscriptions, eventsys/IMultiInterfaceEventControl::GetSubscriptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMultiInterfaceEventControl::GetSubscriptions method
+# IMultiInterfaceEventControl::GetSubscriptions
 
 
 ## -description

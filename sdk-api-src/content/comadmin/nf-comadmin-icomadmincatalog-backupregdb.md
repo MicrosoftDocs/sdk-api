@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.BackupREGDB
-title: ICOMAdminCatalog::BackupREGDB method
+title: ICOMAdminCatalog::BackupREGDB
 author: windows-driver-content
 description: Backs up the COM+ class registration database to a specified file.
 old-location: cos\icomadmincatalog_backupregdb.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: dd350abd-3b59-4a5d-b2e4-1ddeec2b1953
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: BackupREGDB method [COM+], BackupREGDB method [COM+], ICOMAdminCatalog interface, BackupREGDB,ICOMAdminCatalog.BackupREGDB, ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], BackupREGDB method, ICOMAdminCatalog::BackupREGDB, _cos_ICOMAdminCatalog_BackupREGDB, comadmin/ICOMAdminCatalog::BackupREGDB, cos.icomadmincatalog_backupregdb
+ms.keywords: BackupREGDB, BackupREGDB method [COM+], BackupREGDB method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],BackupREGDB method, ICOMAdminCatalog.BackupREGDB, ICOMAdminCatalog::BackupREGDB, _cos_ICOMAdminCatalog_BackupREGDB, comadmin/ICOMAdminCatalog::BackupREGDB, cos.icomadmincatalog_backupregdb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::BackupREGDB method
+# ICOMAdminCatalog::BackupREGDB
 
 
 ## -description

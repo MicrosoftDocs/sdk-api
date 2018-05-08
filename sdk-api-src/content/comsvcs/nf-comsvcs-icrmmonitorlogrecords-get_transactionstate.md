@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitorLogRecords.get_TransactionState
-title: ICrmMonitorLogRecords::get_TransactionState method
+title: ICrmMonitorLogRecords::get_TransactionState
 author: windows-driver-content
 description: Retrieves the current state of the transaction.
 old-location: cos\icrmmonitorlogrecords_get_transactionstate.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 9aaa3d6c-41b9-4661-8e7e-ef1d1abba4aa
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICrmMonitorLogRecords, ICrmMonitorLogRecords interface [COM+], get_TransactionState method, ICrmMonitorLogRecords::get_TransactionState, _dtc_ICrmMonitorLogRecords_TransactionState, comsvcs/ICrmMonitorLogRecords::get_TransactionState, cos.icrmmonitorlogrecords_get_transactionstate, get_TransactionState method [COM+], get_TransactionState method [COM+], ICrmMonitorLogRecords interface, get_TransactionState,ICrmMonitorLogRecords.get_TransactionState
+ms.keywords: ICrmMonitorLogRecords interface [COM+],get_TransactionState method, ICrmMonitorLogRecords.get_TransactionState, ICrmMonitorLogRecords::get_TransactionState, _dtc_ICrmMonitorLogRecords_TransactionState, comsvcs/ICrmMonitorLogRecords::get_TransactionState, cos.icrmmonitorlogrecords_get_transactionstate, get_TransactionState, get_TransactionState method [COM+], get_TransactionState method [COM+],ICrmMonitorLogRecords interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmMonitorLogRecords::get_TransactionState method
+# ICrmMonitorLogRecords::get_TransactionState
 
 
 ## -description

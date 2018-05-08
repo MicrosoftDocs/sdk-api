@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdeletesubnet.htm
 old-project: DHCP
 ms.assetid: e000a81b-b61b-4ba9-adee-4940edc78050
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpDeleteSubnet, DhcpDeleteSubnet function [DHCP], dhcp.dhcpdeletesubnet, dhcpsapi/DhcpDeleteSubnet
 ms.prod: windows-hardware
 ms.technology: windows-devices

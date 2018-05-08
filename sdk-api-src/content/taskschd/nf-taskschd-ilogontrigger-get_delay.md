@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ILogonTrigger.get_Delay
-title: ILogonTrigger::get_Delay method
+title: ILogonTrigger::get_Delay
 author: windows-driver-content
 description: Gets or sets a value that indicates the amount of time between when the user logs on and when the task is started.
 old-location: taskschd\ilogontrigger_delay.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 643b25fb-b328-48d7-9eb6-aa3e6fabdd70
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler], ILogonTrigger interface, ILogonTrigger, ILogonTrigger interface [Task Scheduler], Delay property, ILogonTrigger.Delay, ILogonTrigger::get_Delay, ILogonTrigger::put_Delay, get_Delay,ILogonTrigger.get_Delay, taskschd.ilogontrigger_delay, taskschd/ILogonTrigger::Delay, taskschd/ILogonTrigger::get_Delay, taskschd/ILogonTrigger::put_Delay
+ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],ILogonTrigger interface, ILogonTrigger interface [Task Scheduler],Delay property, ILogonTrigger.Delay, ILogonTrigger.get_Delay, ILogonTrigger::Delay, ILogonTrigger::get_Delay, ILogonTrigger::put_Delay, get_Delay, taskschd.ilogontrigger_delay, taskschd/ILogonTrigger::Delay, taskschd/ILogonTrigger::get_Delay, taskschd/ILogonTrigger::put_Delay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILogonTrigger::get_Delay method
+# ILogonTrigger::get_Delay
 
 
 ## -description

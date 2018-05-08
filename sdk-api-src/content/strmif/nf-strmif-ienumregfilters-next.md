@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IEnumRegFilters.Next
-title: IEnumRegFilters::Next method
+title: IEnumRegFilters::Next
 author: windows-driver-content
 description: Note  The IEnumRegFilters interface is deprecated. Fills the array with descriptions of the next set of filters (specified by the cFilters parameter) that meet the requirements specified upon creation of the enumerator.
 old-location: dshow\ienumregfilters_next.htm
 old-project: DirectShow
 ms.assetid: ec255b9b-33cf-42a3-9f02-f1f34eee2da1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumRegFilters, IEnumRegFilters interface [DirectShow], Next method, IEnumRegFilters::Next, IEnumRegFiltersNext, Next method [DirectShow], Next method [DirectShow], IEnumRegFilters interface, Next,IEnumRegFilters.Next, dshow.ienumregfilters_next, strmif/IEnumRegFilters::Next
+ms.date: 4/30/2018
+ms.keywords: IEnumRegFilters interface [DirectShow],Next method, IEnumRegFilters.Next, IEnumRegFilters::Next, IEnumRegFiltersNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumRegFilters interface, dshow.ienumregfilters_next, strmif/IEnumRegFilters::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEnumRegFilters::Next method
+# IEnumRegFilters::Next
 
 
 ## -description

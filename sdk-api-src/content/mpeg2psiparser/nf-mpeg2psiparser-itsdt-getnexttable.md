@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.GetNextTable
-title: ITSDT::GetNextTable method
+title: ITSDT::GetNextTable
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_getnexttable.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7b60647a-b668-4884-967d-044ff0d149c2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies], ITSDT interface, GetNextTable,ITSDT.GetNextTable, ITSDT, ITSDT interface [Microsoft TV Technologies], GetNextTable method, ITSDT::GetNextTable, ITSDTGetNextTable, mpeg2psiparser/ITSDT::GetNextTable, mstv.itsdt_getnexttable
+ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetNextTable method, ITSDT.GetNextTable, ITSDT::GetNextTable, ITSDTGetNextTable, mpeg2psiparser/ITSDT::GetNextTable, mstv.itsdt_getnexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITSDT::GetNextTable method
+# ITSDT::GetNextTable
 
 
 ## -description

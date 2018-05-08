@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.ProcessAdminPinPolicy
-title: IOfflineFilesCache::ProcessAdminPinPolicy method
+title: IOfflineFilesCache::ProcessAdminPinPolicy
 author: windows-driver-content
 description: Causes Offline Files to process the &#0034;administratively assigned offline files&#0034; group policy.
 old-location: of\iofflinefilescache_processadminpinpolicy.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 25ee4586-3031-4815-9a35-ce57cf9366d7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesCache, IOfflineFilesCache interface [Offline Files], ProcessAdminPinPolicy method, IOfflineFilesCache::ProcessAdminPinPolicy, ProcessAdminPinPolicy method [Offline Files], ProcessAdminPinPolicy method [Offline Files], IOfflineFilesCache interface, ProcessAdminPinPolicy,IOfflineFilesCache.ProcessAdminPinPolicy, cscobj/IOfflineFilesCache::ProcessAdminPinPolicy, of.iofflinefilescache_processadminpinpolicy
+ms.keywords: IOfflineFilesCache interface [Offline Files],ProcessAdminPinPolicy method, IOfflineFilesCache.ProcessAdminPinPolicy, IOfflineFilesCache::ProcessAdminPinPolicy, ProcessAdminPinPolicy, ProcessAdminPinPolicy method [Offline Files], ProcessAdminPinPolicy method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::ProcessAdminPinPolicy, of.iofflinefilescache_processadminpinpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesCache::ProcessAdminPinPolicy method
+# IOfflineFilesCache::ProcessAdminPinPolicy
 
 
 ## -description

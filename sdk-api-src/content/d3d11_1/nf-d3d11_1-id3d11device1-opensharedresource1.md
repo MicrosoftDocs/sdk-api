@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11Device1.OpenSharedResource1
-title: ID3D11Device1::OpenSharedResource1 method
+title: ID3D11Device1::OpenSharedResource1
 author: windows-driver-content
 description: Gives a device access to a shared resource that is referenced by a handle and that was created on a different device.
 old-location: direct3d11\id3d11device1_opensharedresource1.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 4751B49E-01DB-467B-879C-743C8B43DDA5
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11Device1, ID3D11Device1 interface [Direct3D 11], OpenSharedResource1 method, ID3D11Device1::OpenSharedResource1, OpenSharedResource1 method [Direct3D 11], OpenSharedResource1 method [Direct3D 11], ID3D11Device1 interface, OpenSharedResource1,ID3D11Device1.OpenSharedResource1, d3d11_1/ID3D11Device1::OpenSharedResource1, direct3d11.id3d11device1_opensharedresource1
+ms.keywords: ID3D11Device1 interface [Direct3D 11],OpenSharedResource1 method, ID3D11Device1.OpenSharedResource1, ID3D11Device1::OpenSharedResource1, OpenSharedResource1, OpenSharedResource1 method [Direct3D 11], OpenSharedResource1 method [Direct3D 11],ID3D11Device1 interface, d3d11_1/ID3D11Device1::OpenSharedResource1, direct3d11.id3d11device1_opensharedresource1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11Device1::OpenSharedResource1 method
+# ID3D11Device1::OpenSharedResource1
 
 
 ## -description

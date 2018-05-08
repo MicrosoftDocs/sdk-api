@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnextkeyframe.htm
 old-project: Multimedia
 ms.assetid: 928b5deb-2f68-4fed-98cf-8130379c8622
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: AVIStreamNextKeyFrame, AVIStreamNextKeyFrame macro [Windows Multimedia], _win32_AVIStreamNextKeyFrame, multimedia.avistreamnextkeyframe, vfw/AVIStreamNextKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

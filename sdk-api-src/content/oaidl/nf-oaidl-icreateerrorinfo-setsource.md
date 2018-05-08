@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetSource
-title: ICreateErrorInfo::SetSource method
+title: ICreateErrorInfo::SetSource
 author: windows-driver-content
 description: Sets the language-dependent programmatic identifier (ProgID) for the class or application that raised the error.
 old-location: automat\icreateerrorinfo_setsource.htm
 old-project: automat
 ms.assetid: 7f0e6349-9d31-4ab6-9a91-3822e81188e5
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], SetSource method, ICreateErrorInfo::SetSource, SetSource method [Automation], SetSource method [Automation], ICreateErrorInfo interface, SetSource,ICreateErrorInfo.SetSource, _oa96_ICreateErrorInfo_SetSource, automat.icreateerrorinfo_setsource, oaidl/ICreateErrorInfo::SetSource
+ms.date: 5/4/2018
+ms.keywords: ICreateErrorInfo interface [Automation],SetSource method, ICreateErrorInfo.SetSource, ICreateErrorInfo::SetSource, SetSource, SetSource method [Automation], SetSource method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetSource, automat.icreateerrorinfo_setsource, oaidl/ICreateErrorInfo::SetSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateErrorInfo::SetSource method
+# ICreateErrorInfo::SetSource
 
 
 ## -description

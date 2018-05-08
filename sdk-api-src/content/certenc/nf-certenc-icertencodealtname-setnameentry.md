@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.SetNameEntry
-title: ICertEncodeAltName::SetNameEntry method
+title: ICertEncodeAltName::SetNameEntry
 author: windows-driver-content
 description: Sets a name at a specified index of the alternate name array.
 old-location: security\icertencodealtname_setnameentry.htm
 old-project: SecCrypto
 ms.assetid: 5da07c09-9213-4604-b058-5e69df646b09
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeAltName object [Security], SetNameEntry method, CERT_ALT_NAME_DIRECTORY_NAME, CERT_ALT_NAME_DNS_NAME, CERT_ALT_NAME_IP_ADDRESS, CERT_ALT_NAME_OTHER_NAME, CERT_ALT_NAME_REGISTERED_ID, CERT_ALT_NAME_RFC822_NAME, CERT_ALT_NAME_URL, ICertEncodeAltName, ICertEncodeAltName interface [Security], SetNameEntry method, ICertEncodeAltName::SetNameEntry, SetNameEntry method [Security], SetNameEntry method [Security], CCertEncodeAltName object, SetNameEntry method [Security], ICertEncodeAltName interface, SetNameEntry,ICertEncodeAltName.SetNameEntry, _certsrv_icertencodealtname_setnameentry, certenc/ICertEncodeAltName::SetNameEntry, security.icertencodealtname_setnameentry
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeAltName object [Security],SetNameEntry method, CERT_ALT_NAME_DIRECTORY_NAME, CERT_ALT_NAME_DNS_NAME, CERT_ALT_NAME_IP_ADDRESS, CERT_ALT_NAME_OTHER_NAME, CERT_ALT_NAME_REGISTERED_ID, CERT_ALT_NAME_RFC822_NAME, CERT_ALT_NAME_URL, ICertEncodeAltName interface [Security],SetNameEntry method, ICertEncodeAltName.SetNameEntry, ICertEncodeAltName::SetNameEntry, SetNameEntry, SetNameEntry method [Security], SetNameEntry method [Security],CCertEncodeAltName object, SetNameEntry method [Security],ICertEncodeAltName interface, _certsrv_icertencodealtname_setnameentry, certenc/ICertEncodeAltName::SetNameEntry, security.icertencodealtname_setnameentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeAltName::SetNameEntry method
+# ICertEncodeAltName::SetNameEntry
 
 
 ## -description

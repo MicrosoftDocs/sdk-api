@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_RdFarmType
-title: ITsSbClientConnection::get_RdFarmType method
+title: ITsSbClientConnection::get_RdFarmType
 author: windows-driver-content
 description: Rd Farm Type.
 old-location: termserv\itssbclientconnection_rdfarmtype.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: a4dd43fe-2421-4666-a6ff-974555e44e60
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], RdFarmType property, ITsSbClientConnection.RdFarmType, ITsSbClientConnection::get_RdFarmType, RdFarmType property [Remote Desktop Services], RdFarmType property [Remote Desktop Services], ITsSbClientConnection interface, get_RdFarmType,ITsSbClientConnection.get_RdFarmType, sbtsv/ITsSbClientConnection::RdFarmType, sbtsv/ITsSbClientConnection::get_RdFarmType, termserv.itssbclientconnection_rdfarmtype
+ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],RdFarmType property, ITsSbClientConnection.RdFarmType, ITsSbClientConnection.get_RdFarmType, ITsSbClientConnection::RdFarmType, ITsSbClientConnection::get_RdFarmType, RdFarmType property [Remote Desktop Services], RdFarmType property [Remote Desktop Services],ITsSbClientConnection interface, get_RdFarmType, sbtsv/ITsSbClientConnection::RdFarmType, sbtsv/ITsSbClientConnection::get_RdFarmType, termserv.itssbclientconnection_rdfarmtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbClientConnection::get_RdFarmType method
+# ITsSbClientConnection::get_RdFarmType
 
 
 ## -description

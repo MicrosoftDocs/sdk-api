@@ -7,8 +7,8 @@ old-location: dshow\idirectdrawvideo.htm
 old-project: DirectShow
 ms.assetid: b918bf3b-b91b-40fb-abb8-4115a4f254bb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], IDirectDrawVideo interface [DirectShow], described, IDirectDrawVideoInterface, amvideo/IDirectDrawVideo, dshow.idirectdrawvideo
+ms.date: 4/30/2018
+ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], IDirectDrawVideo interface [DirectShow],described, IDirectDrawVideoInterface, amvideo/IDirectDrawVideo, dshow.idirectdrawvideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

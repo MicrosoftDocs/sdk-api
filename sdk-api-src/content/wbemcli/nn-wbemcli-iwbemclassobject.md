@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: a3ce37d7-5580-4b84-9119-78412c8e0d27
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], IWbemClassObject interface [Windows Management Instrumentation], described, WbemClassObject, _hmm_iwbemclassobject, wbemcli/IWbemClassObject, wmi.iwbemclassobject
+ms.keywords: IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], IWbemClassObject interface [Windows Management Instrumentation],described, WbemClassObject, _hmm_iwbemclassobject, wbemcli/IWbemClassObject, wmi.iwbemclassobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

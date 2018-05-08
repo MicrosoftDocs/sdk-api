@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IWordSink.StartAltPhrase
-title: IWordSink::StartAltPhrase method
+title: IWordSink::StartAltPhrase
 author: windows-driver-content
 description: Indicates the boundary between phrases in a sequence of alternative phrases that a word breaker generates during index time.
 old-location: indexsrv\iwordsink_startaltphrase.htm
@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_0945.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWordSink, IWordSink interface [Indexing Service], StartAltPhrase method, IWordSink::StartAltPhrase, StartAltPhrase method [Indexing Service], StartAltPhrase method [Indexing Service], IWordSink interface, StartAltPhrase,IWordSink.StartAltPhrase, _idxs_WordSink_StartAltPhrase, indexsrv.iwordsink_startaltphrase, indexsrv/IWordSink::StartAltPhrase
+ms.keywords: IWordSink interface [Indexing Service],StartAltPhrase method, IWordSink.StartAltPhrase, IWordSink::StartAltPhrase, StartAltPhrase, StartAltPhrase method [Indexing Service], StartAltPhrase method [Indexing Service],IWordSink interface, _idxs_WordSink_StartAltPhrase, indexsrv.iwordsink_startaltphrase, indexsrv/IWordSink::StartAltPhrase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWordSink::StartAltPhrase method
+# IWordSink::StartAltPhrase
 
 
 ## -description

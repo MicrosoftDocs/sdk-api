@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterGraph.Reconnect
-title: IFilterGraph::Reconnect method
+title: IFilterGraph::Reconnect
 author: windows-driver-content
 description: The Reconnect method disconnects a pin and then reconnects it to the same pin.
 old-location: dshow\ifiltergraph_reconnect.htm
 old-project: DirectShow
 ms.assetid: 98a46014-031b-4f35-b1bc-58aef411360b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFilterGraph, IFilterGraph interface [DirectShow], Reconnect method, IFilterGraph::Reconnect, IFilterGraphReconnect, Reconnect method [DirectShow], Reconnect method [DirectShow], IFilterGraph interface, Reconnect,IFilterGraph.Reconnect, dshow.ifiltergraph_reconnect, strmif/IFilterGraph::Reconnect
+ms.date: 4/30/2018
+ms.keywords: IFilterGraph interface [DirectShow],Reconnect method, IFilterGraph.Reconnect, IFilterGraph::Reconnect, IFilterGraphReconnect, Reconnect, Reconnect method [DirectShow], Reconnect method [DirectShow],IFilterGraph interface, dshow.ifiltergraph_reconnect, strmif/IFilterGraph::Reconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterGraph::Reconnect method
+# IFilterGraph::Reconnect
 
 
 ## -description

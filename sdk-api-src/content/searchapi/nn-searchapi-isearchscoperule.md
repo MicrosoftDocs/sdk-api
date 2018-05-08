@@ -7,8 +7,8 @@ old-location: search\_search_ISearchScopeRule.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\isearchscoperule.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchScopeRule, ISearchScopeRule interface [search], ISearchScopeRule interface [search], described, _search_ISearchScopeRule, search._search_ISearchScopeRule, searchapi/ISearchScopeRule
+ms.date: 5/4/2018
+ms.keywords: ISearchScopeRule, ISearchScopeRule interface [search], ISearchScopeRule interface [search],described, _search_ISearchScopeRule, search._search_ISearchScopeRule, searchapi/ISearchScopeRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

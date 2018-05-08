@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.get_CurrentCurrentView
-title: IUIAutomationMultipleViewPattern::get_CurrentCurrentView method
+title: IUIAutomationMultipleViewPattern::get_CurrentCurrentView
 author: windows-driver-content
 description: Retrieves the control-specific identifier of the current view of the control.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 87cda32c-00ed-40d9-8123-f3cf78eff43f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentCurrentView property [Windows Accessibility], CurrentCurrentView property [Windows Accessibility], IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern, IUIAutomationMultipleViewPattern interface [Windows Accessibility], CurrentCurrentView property, IUIAutomationMultipleViewPattern.CurrentCurrentView, IUIAutomationMultipleViewPattern::get_CurrentCurrentView, get_CurrentCurrentView,IUIAutomationMultipleViewPattern.get_CurrentCurrentView, uiauto.uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView, uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::CurrentCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::get_CurrentCurrentView, winauto.uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView
+ms.keywords: CurrentCurrentView property [Windows Accessibility], CurrentCurrentView property [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],CurrentCurrentView property, IUIAutomationMultipleViewPattern.CurrentCurrentView, IUIAutomationMultipleViewPattern.get_CurrentCurrentView, IUIAutomationMultipleViewPattern::CurrentCurrentView, IUIAutomationMultipleViewPattern::get_CurrentCurrentView, get_CurrentCurrentView, uiauto.uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView, uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::CurrentCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::get_CurrentCurrentView, winauto.uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationMultipleViewPattern::get_CurrentCurrentView method
+# IUIAutomationMultipleViewPattern::get_CurrentCurrentView
 
 
 ## -description

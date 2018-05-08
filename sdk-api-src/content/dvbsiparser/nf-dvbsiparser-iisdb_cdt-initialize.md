@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.Initialize
-title: IISDB_CDT::Initialize method
+title: IISDB_CDT::Initialize
 author: windows-driver-content
 description: Initializes the object by using captured table section data from an Integrated Services Digital Broadcasting System (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0430d839-4b7f-4d1c-9e5b-bd794d67f065
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], Initialize method, IISDB_CDT::Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IISDB_CDT interface, Initialize,IISDB_CDT.Initialize, dvbsiparser/IISDB_CDT::Initialize, mstv.iisdb_cdt_initialize
+ms.keywords: IISDB_CDT interface [Microsoft TV Technologies],Initialize method, IISDB_CDT.Initialize, IISDB_CDT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_CDT interface, dvbsiparser/IISDB_CDT::Initialize, mstv.iisdb_cdt_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_CDT::Initialize method
+# IISDB_CDT::Initialize
 
 
 ## -description

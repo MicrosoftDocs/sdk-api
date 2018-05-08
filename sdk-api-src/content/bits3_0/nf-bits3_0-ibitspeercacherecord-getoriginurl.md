@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetOriginUrl
-title: IBitsPeerCacheRecord::GetOriginUrl method
+title: IBitsPeerCacheRecord::GetOriginUrl
 author: windows-driver-content
 description: Gets the origin URL of the cached file.
 old-location: bits\ibitspeercacherecord_getoriginurl.htm
 old-project: Bits
 ms.assetid: 9d74df3a-89e0-4a3a-82f3-c2e79c609b21
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetOriginUrl method [BITS], GetOriginUrl method [BITS], IBitsPeerCacheRecord interface, GetOriginUrl,IBitsPeerCacheRecord.GetOriginUrl, IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], GetOriginUrl method, IBitsPeerCacheRecord::GetOriginUrl, bits.ibitspeercacherecord_getoriginurl, bits3_0/IBitsPeerCacheRecord::GetOriginUrl
+ms.date: 4/27/2018
+ms.keywords: GetOriginUrl, GetOriginUrl method [BITS], GetOriginUrl method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetOriginUrl method, IBitsPeerCacheRecord.GetOriginUrl, IBitsPeerCacheRecord::GetOriginUrl, bits.ibitspeercacherecord_getoriginurl, bits3_0/IBitsPeerCacheRecord::GetOriginUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsPeerCacheRecord::GetOriginUrl method
+# IBitsPeerCacheRecord::GetOriginUrl
 
 
 ## -description

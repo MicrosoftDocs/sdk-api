@@ -7,7 +7,7 @@ old-location: buses\winusb_unregisterisochbuffer.htm
 old-project: usbref
 ms.assetid: 1BAD13F5-A29E-4BA8-B924-85ACE7C8E34D
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/3/2018
 ms.keywords: WinUsb_UnregisterIsochBuffer, WinUsb_UnregisterIsochBuffer routine [Buses], buses.winusb_unregisterisochbuffer, winusb/WinUsb_UnregisterIsochBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

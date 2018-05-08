@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSampleGrabberSinkCallback.OnSetPresentationClock
-title: IMFSampleGrabberSinkCallback::OnSetPresentationClock method
+title: IMFSampleGrabberSinkCallback::OnSetPresentationClock
 author: windows-driver-content
 description: Called when the presentation clock is set on the sample-grabber sink.
 old-location: mf\imfsamplegrabbersinkcallback_onsetpresentationclock.htm
 old-project: medfound
 ms.assetid: bd367a8f-e7a0-4032-8f62-7dd9896d24ef
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSampleGrabberSinkCallback, IMFSampleGrabberSinkCallback interface [Media Foundation], OnSetPresentationClock method, IMFSampleGrabberSinkCallback::OnSetPresentationClock, OnSetPresentationClock method [Media Foundation], OnSetPresentationClock method [Media Foundation], IMFSampleGrabberSinkCallback interface, OnSetPresentationClock,IMFSampleGrabberSinkCallback.OnSetPresentationClock, bd367a8f-e7a0-4032-8f62-7dd9896d24ef, mf.imfsamplegrabbersinkcallback_onsetpresentationclock, mfidl/IMFSampleGrabberSinkCallback::OnSetPresentationClock
+ms.date: 5/3/2018
+ms.keywords: IMFSampleGrabberSinkCallback interface [Media Foundation],OnSetPresentationClock method, IMFSampleGrabberSinkCallback.OnSetPresentationClock, IMFSampleGrabberSinkCallback::OnSetPresentationClock, OnSetPresentationClock, OnSetPresentationClock method [Media Foundation], OnSetPresentationClock method [Media Foundation],IMFSampleGrabberSinkCallback interface, bd367a8f-e7a0-4032-8f62-7dd9896d24ef, mf.imfsamplegrabbersinkcallback_onsetpresentationclock, mfidl/IMFSampleGrabberSinkCallback::OnSetPresentationClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSampleGrabberSinkCallback::OnSetPresentationClock method
+# IMFSampleGrabberSinkCallback::OnSetPresentationClock
 
 
 ## -description

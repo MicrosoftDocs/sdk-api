@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.GetDuration
-title: IUIAnimationInterpolator::GetDuration method
+title: IUIAnimationInterpolator::GetDuration
 author: windows-driver-content
 description: Gets the duration of a transition.
 old-location: uianimation\iuianimationinterpolator_getduration.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: c39acf72-7c03-4d8b-b4f2-776e4b32f781
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDuration method [Windows Animation], GetDuration method [Windows Animation], IUIAnimationInterpolator interface, GetDuration,IUIAnimationInterpolator.GetDuration, IUIAnimationInterpolator, IUIAnimationInterpolator interface [Windows Animation], GetDuration method, IUIAnimationInterpolator::GetDuration, uianimation.iuianimationinterpolator_getduration, uianimation/IUIAnimationInterpolator::GetDuration
+ms.keywords: GetDuration, GetDuration method [Windows Animation], GetDuration method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetDuration method, IUIAnimationInterpolator.GetDuration, IUIAnimationInterpolator::GetDuration, uianimation.iuianimationinterpolator_getduration, uianimation/IUIAnimationInterpolator::GetDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationInterpolator::GetDuration method
+# IUIAnimationInterpolator::GetDuration
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IDMOQualityControl.SetStatus
-title: IDMOQualityControl::SetStatus method
+title: IDMOQualityControl::SetStatus
 author: windows-driver-content
 description: The SetStatus method enables or disables quality control.
 old-location: dshow\idmoqualitycontrol_setstatus.htm
 old-project: DirectShow
 ms.assetid: d22a7a23-6623-4a98-9a0c-5195b29781f9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDMOQualityControl, IDMOQualityControl interface [DirectShow], SetStatus method, IDMOQualityControl::SetStatus, IDMOQualityControlSetStatus, SetStatus method [DirectShow], SetStatus method [DirectShow], IDMOQualityControl interface, SetStatus,IDMOQualityControl.SetStatus, dshow.idmoqualitycontrol_setstatus, mediaobj/IDMOQualityControl::SetStatus
+ms.date: 4/30/2018
+ms.keywords: IDMOQualityControl interface [DirectShow],SetStatus method, IDMOQualityControl.SetStatus, IDMOQualityControl::SetStatus, IDMOQualityControlSetStatus, SetStatus, SetStatus method [DirectShow], SetStatus method [DirectShow],IDMOQualityControl interface, dshow.idmoqualitycontrol_setstatus, mediaobj/IDMOQualityControl::SetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDMOQualityControl::SetStatus method
+# IDMOQualityControl::SetStatus
 
 
 ## -description

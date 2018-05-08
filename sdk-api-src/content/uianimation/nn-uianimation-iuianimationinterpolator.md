@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationInterpolator, IUIAnimationInterpolator interface [Windows Animation], IUIAnimationInterpolator interface [Windows Animation], described, uianimation.iuianimationinterpolator, uianimation/IUIAnimationInterpolator
+ms.keywords: IUIAnimationInterpolator, IUIAnimationInterpolator interface [Windows Animation], IUIAnimationInterpolator interface [Windows Animation],described, uianimation.iuianimationinterpolator, uianimation/IUIAnimationInterpolator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

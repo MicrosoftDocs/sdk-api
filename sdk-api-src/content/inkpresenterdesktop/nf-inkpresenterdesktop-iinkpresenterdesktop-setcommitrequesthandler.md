@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.SetCommitRequestHandler
-title: IInkPresenterDesktop::SetCommitRequestHandler method
+title: IInkPresenterDesktop::SetCommitRequestHandler
 author: windows-driver-content
 description: Sets an IInkCommitRequestHandler object that enables the app (instead of an IInkPresenterDesktop object) to commit all pending Microsoft DirectComposition commands to the app's DirectComposition visual tree.
 old-location: input_ink\iinkpresenterdesktop_setcommitrequesthandler.htm
@@ -8,7 +8,7 @@ old-project: input_ink
 ms.assetid: b53eba5d-c53d-45a4-ae51-5a8a27043554
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IInkPresenterDesktop, IInkPresenterDesktop interface, SetCommitRequestHandler method, IInkPresenterDesktop::SetCommitRequestHandler, InkPresenterDesktop.iinkpresenterdesktop_setcommitrequesthandler, SetCommitRequestHandler method, SetCommitRequestHandler method, IInkPresenterDesktop interface, SetCommitRequestHandler,IInkPresenterDesktop.SetCommitRequestHandler, inkpresenterdesktop/IInkPresenterDesktop::SetCommitRequestHandler, input_ink.iinkpresenterdesktop_setcommitrequesthandler
+ms.keywords: IInkPresenterDesktop interface,SetCommitRequestHandler method, IInkPresenterDesktop.SetCommitRequestHandler, IInkPresenterDesktop::SetCommitRequestHandler, InkPresenterDesktop.iinkpresenterdesktop_setcommitrequesthandler, SetCommitRequestHandler, SetCommitRequestHandler method, SetCommitRequestHandler method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetCommitRequestHandler, input_ink.iinkpresenterdesktop_setcommitrequesthandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInkPresenterDesktop::SetCommitRequestHandler method
+# IInkPresenterDesktop::SetCommitRequestHandler
 
 
 ## -description

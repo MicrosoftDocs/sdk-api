@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IAVIStream.Delete
-title: IAVIStream::Delete method
+title: IAVIStream::Delete
 author: windows-driver-content
 description: The Delete method deletes data from a stream.
 old-location: multimedia\iavistream_delete.htm
 old-project: Multimedia
 ms.assetid: 0872023e-a760-4080-99da-df2941b84611
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: Delete method [Windows Multimedia], Delete method [Windows Multimedia], IAVIStream interface, Delete,IAVIStream.Delete, IAVIStream, IAVIStream interface [Windows Multimedia], Delete method, IAVIStream::Delete, _win32_IAVIStream_Delete, multimedia.iavistream_delete, vfw/IAVIStream::Delete
+ms.date: 5/4/2018
+ms.keywords: Delete, Delete method [Windows Multimedia], Delete method [Windows Multimedia],IAVIStream interface, IAVIStream interface [Windows Multimedia],Delete method, IAVIStream.Delete, IAVIStream::Delete, _win32_IAVIStream_Delete, multimedia.iavistream_delete, vfw/IAVIStream::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAVIStream::Delete method
+# IAVIStream::Delete
 
 
 ## -description

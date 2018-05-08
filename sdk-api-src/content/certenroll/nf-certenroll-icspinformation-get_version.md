@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_Version
-title: ICspInformation::get_Version method
+title: ICspInformation::get_Version
 author: windows-driver-content
 description: Retrieves the version number of the provider.
 old-location: security\icspinformation_version_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 9b5010e3-d4c2-4194-ad8a-f8f4e0a41446
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspInformation, ICspInformation interface [Security], Version property, ICspInformation.Version, ICspInformation::get_Version, Version property [Security], Version property [Security], ICspInformation interface, certenroll/ICspInformation::Version, certenroll/ICspInformation::get_Version, get_Version,ICspInformation.get_Version, security.icspinformation_version_property
+ms.keywords: ICspInformation interface [Security],Version property, ICspInformation.Version, ICspInformation.get_Version, ICspInformation::Version, ICspInformation::get_Version, Version property [Security], Version property [Security],ICspInformation interface, certenroll/ICspInformation::Version, certenroll/ICspInformation::get_Version, get_Version, security.icspinformation_version_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformation::get_Version method
+# ICspInformation::get_Version
 
 
 ## -description

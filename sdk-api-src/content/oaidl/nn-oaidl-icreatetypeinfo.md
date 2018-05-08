@@ -7,8 +7,8 @@ old-location: automat\icreatetypeinfo.htm
 old-project: automat
 ms.assetid: c8bbb677-2666-4900-8fb9-788742eef656
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], ICreateTypeInfo interface [Automation], described, _oa96_ICreateTypeInfo_Interface, automat.icreatetypeinfo, oaidl/ICreateTypeInfo
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], ICreateTypeInfo interface [Automation],described, _oa96_ICreateTypeInfo_Interface, automat.icreatetypeinfo, oaidl/ICreateTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,8 +38,8 @@ api_name:
 -	ICreateTypeInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
 req.irql: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---

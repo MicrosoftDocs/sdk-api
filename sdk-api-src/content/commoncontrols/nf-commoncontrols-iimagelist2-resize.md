@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList2.Resize
-title: IImageList2::Resize method
+title: IImageList2::Resize
 author: windows-driver-content
 description: Resizes the current image.
 old-location: controls\IImageList2_Resize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\resize.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IImageList2, IImageList2 interface [Windows Controls], Resize method, IImageList2::Resize, Resize method [Windows Controls], Resize method [Windows Controls], IImageList2 interface, Resize,IImageList2.Resize, _shell_IImageList2_Resize, _shell_IImageList2_Resize_cpp, commoncontrols/IImageList2::Resize, controls.IImageList2_Resize, controls._shell_IImageList2_Resize
+ms.date: 4/27/2018
+ms.keywords: IImageList2 interface [Windows Controls],Resize method, IImageList2.Resize, IImageList2::Resize, Resize, Resize method [Windows Controls], Resize method [Windows Controls],IImageList2 interface, _shell_IImageList2_Resize, _shell_IImageList2_Resize_cpp, commoncontrols/IImageList2::Resize, controls.IImageList2_Resize, controls._shell_IImageList2_Resize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList2::Resize method
+# IImageList2::Resize
 
 
 ## -description

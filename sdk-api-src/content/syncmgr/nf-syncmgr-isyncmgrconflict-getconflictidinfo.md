@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.GetConflictIdInfo
-title: ISyncMgrConflict::GetConflictIdInfo method
+title: ISyncMgrConflict::GetConflictIdInfo
 author: windows-driver-content
 description: Gets information that identifies a conflict within a conflict store.
 old-location: shell\ISyncMgrConflict_GetConflictIdInfo.htm
 old-project: shell
 ms.assetid: 9686a6e5-5a0a-4520-803e-1660676d9f61
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetConflictIdInfo method [Windows Shell], GetConflictIdInfo method [Windows Shell], ISyncMgrConflict interface, GetConflictIdInfo,ISyncMgrConflict.GetConflictIdInfo, ISyncMgrConflict, ISyncMgrConflict interface [Windows Shell], GetConflictIdInfo method, ISyncMgrConflict::GetConflictIdInfo, _shell_ISyncMgrConflict_GetConflictIdInfo, shell.ISyncMgrConflict_GetConflictIdInfo, syncmgr/ISyncMgrConflict::GetConflictIdInfo
+ms.date: 5/3/2018
+ms.keywords: GetConflictIdInfo, GetConflictIdInfo method [Windows Shell], GetConflictIdInfo method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetConflictIdInfo method, ISyncMgrConflict.GetConflictIdInfo, ISyncMgrConflict::GetConflictIdInfo, _shell_ISyncMgrConflict_GetConflictIdInfo, shell.ISyncMgrConflict_GetConflictIdInfo, syncmgr/ISyncMgrConflict::GetConflictIdInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrConflict::GetConflictIdInfo method
+# ISyncMgrConflict::GetConflictIdInfo
 
 
 ## -description

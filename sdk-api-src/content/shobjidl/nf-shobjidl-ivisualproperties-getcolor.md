@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IVisualProperties.GetColor
-title: IVisualProperties::GetColor method
+title: IVisualProperties::GetColor
 author: windows-driver-content
 description: Gets the color, as specified.
 old-location: shell\IVisualProperties_GetColor.htm
 old-project: shell
 ms.assetid: 538ac798-7722-434f-88bd-a7655d4c470c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetColor method [Windows Shell], GetColor method [Windows Shell], IVisualProperties interface, GetColor,IVisualProperties.GetColor, IVisualProperties, IVisualProperties interface [Windows Shell], GetColor method, IVisualProperties::GetColor, _shell_IVisualProperties_GetColor, shell.IVisualProperties_GetColor, shobjidl/IVisualProperties::GetColor
+ms.date: 5/3/2018
+ms.keywords: GetColor, GetColor method [Windows Shell], GetColor method [Windows Shell],IVisualProperties interface, IVisualProperties interface [Windows Shell],GetColor method, IVisualProperties.GetColor, IVisualProperties::GetColor, _shell_IVisualProperties_GetColor, shell.IVisualProperties_GetColor, shobjidl/IVisualProperties::GetColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IVisualProperties::GetColor method
+# IVisualProperties::GetColor
 
 
 ## -description

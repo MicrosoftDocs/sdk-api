@@ -1,14 +1,14 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetFilteringValue
-title: IMFVideoProcessor::GetFilteringValue method
+title: IMFVideoProcessor::GetFilteringValue
 author: windows-driver-content
 description: Retrieves the current setting for an image filter.
 old-location: mf\imfvideoprocessor_getfilteringvalue.htm
 old-project: medfound
 ms.assetid: 1c8d6836-ca62-4d26-be4e-572dc6ff994d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 1c8d6836-ca62-4d26-be4e-572dc6ff994d, GetFilteringValue method [Media Foundation], GetFilteringValue method [Media Foundation], IMFVideoProcessor interface, GetFilteringValue,IMFVideoProcessor.GetFilteringValue, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], GetFilteringValue method, IMFVideoProcessor::GetFilteringValue, evr9/IMFVideoProcessor::GetFilteringValue, mf.imfvideoprocessor_getfilteringvalue
+ms.date: 5/3/2018
+ms.keywords: 1c8d6836-ca62-4d26-be4e-572dc6ff994d, GetFilteringValue, GetFilteringValue method [Media Foundation], GetFilteringValue method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetFilteringValue method, IMFVideoProcessor.GetFilteringValue, IMFVideoProcessor::GetFilteringValue, evr9/IMFVideoProcessor::GetFilteringValue, mf.imfvideoprocessor_getfilteringvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoProcessor::GetFilteringValue method
+# IMFVideoProcessor::GetFilteringValue
 
 
 ## -description

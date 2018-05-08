@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SaveTarget
-title: ITsSbResourcePluginStore::SaveTarget method
+title: ITsSbResourcePluginStore::SaveTarget
 author: windows-driver-content
 description: Saves a target.
 old-location: termserv\itssbresourcepluginstore_savetarget.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 323ac6ee-6a50-433b-85b3-a4409be08226
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], SaveTarget method, ITsSbResourcePluginStore::SaveTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], SaveTarget method, ITsSbResourcePluginStoreEx::SaveTarget, SaveTarget method [Remote Desktop Services], SaveTarget method [Remote Desktop Services], ITsSbResourcePluginStore interface, SaveTarget method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, SaveTarget,ITsSbResourcePluginStore.SaveTarget, sbtsv/ITsSbResourcePluginStore::SaveTarget, sbtsv/ITsSbResourcePluginStoreEx::SaveTarget, termserv.itssbresourcepluginstore_savetarget
+ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SaveTarget method, ITsSbResourcePluginStore.SaveTarget, ITsSbResourcePluginStore::SaveTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SaveTarget method, ITsSbResourcePluginStoreEx::SaveTarget, SaveTarget, SaveTarget method [Remote Desktop Services], SaveTarget method [Remote Desktop Services],ITsSbResourcePluginStore interface, SaveTarget method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SaveTarget, sbtsv/ITsSbResourcePluginStoreEx::SaveTarget, termserv.itssbresourcepluginstore_savetarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::SaveTarget method
+# ITsSbResourcePluginStore::SaveTarget
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetTextW
-title: IIsdbAudioComponentDescriptor::GetTextW method
+title: IIsdbAudioComponentDescriptor::GetTextW
 author: windows-driver-content
 description: Gets the component stream description from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor, in Unicode text format,.
 old-location: mstv\iisdbaudiocomponentdescriptor_gettextw.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: beeb31dd-28f8-45bb-bda0-0dbf6bca679b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetTextW,IIsdbAudioComponentDescriptor.GetTextW, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetTextW method, IIsdbAudioComponentDescriptor::GetTextW, dvbsiparser/IIsdbAudioComponentDescriptor::GetTextW, mstv.iisdbaudiocomponentdescriptor_gettextw
+ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetTextW method, IIsdbAudioComponentDescriptor.GetTextW, IIsdbAudioComponentDescriptor::GetTextW, dvbsiparser/IIsdbAudioComponentDescriptor::GetTextW, mstv.iisdbaudiocomponentdescriptor_gettextw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbAudioComponentDescriptor::GetTextW method
+# IIsdbAudioComponentDescriptor::GetTextW
 
 
 ## -description

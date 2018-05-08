@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.SetCellColorBack
-title: ITextRow::SetCellColorBack method
+title: ITextRow::SetCellColorBack
 author: windows-driver-content
 description: Sets the background color of the active cell.
 old-location: controls\itextrow_setcellcolorback.htm
 old-project: Controls
 ms.assetid: 3e0a7bb6-e146-4e51-abc0-e89f9faed235
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetCellColorBack method, ITextRow::SetCellColorBack, SetCellColorBack method [Windows Controls], SetCellColorBack method [Windows Controls], ITextRow interface, SetCellColorBack,ITextRow.SetCellColorBack, controls.itextrow_setcellcolorback, tom/ITextRow::SetCellColorBack
+ms.date: 4/27/2018
+ms.keywords: ITextRow interface [Windows Controls],SetCellColorBack method, ITextRow.SetCellColorBack, ITextRow::SetCellColorBack, SetCellColorBack, SetCellColorBack method [Windows Controls], SetCellColorBack method [Windows Controls],ITextRow interface, controls.itextrow_setcellcolorback, tom/ITextRow::SetCellColorBack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::SetCellColorBack method
+# ITextRow::SetCellColorBack
 
 
 ## -description

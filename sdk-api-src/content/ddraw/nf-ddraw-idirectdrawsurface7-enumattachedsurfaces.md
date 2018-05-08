@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.EnumAttachedSurfaces
-title: IDirectDrawSurface7::EnumAttachedSurfaces method
+title: IDirectDrawSurface7::EnumAttachedSurfaces
 author: windows-driver-content
 description: Enumerates all the surfaces that are attached to this surface.
 old-location: directdraw\idirectdrawsurface7_enumattachedsurfaces.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 7f8e9b53-3aff-491c-ab0c-2f414d1ddb27
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: EnumAttachedSurfaces method [DirectDraw], EnumAttachedSurfaces method [DirectDraw], IDirectDrawSurface7 interface, EnumAttachedSurfaces,IDirectDrawSurface7.EnumAttachedSurfaces, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], EnumAttachedSurfaces method, IDirectDrawSurface7::EnumAttachedSurfaces, ddraw/IDirectDrawSurface7::EnumAttachedSurfaces, directdraw.idirectdrawsurface7_enumattachedsurfaces
+ms.keywords: EnumAttachedSurfaces, EnumAttachedSurfaces method [DirectDraw], EnumAttachedSurfaces method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],EnumAttachedSurfaces method, IDirectDrawSurface7.EnumAttachedSurfaces, IDirectDrawSurface7::EnumAttachedSurfaces, ddraw/IDirectDrawSurface7::EnumAttachedSurfaces, directdraw.idirectdrawsurface7_enumattachedsurfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::EnumAttachedSurfaces method
+# IDirectDrawSurface7::EnumAttachedSurfaces
 
 
 ## -description

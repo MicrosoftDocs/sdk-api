@@ -7,7 +7,7 @@ old-location: automat\vardatefromui2.htm
 old-project: automat
 ms.assetid: 3a58a100-e41e-45fb-bf76-5ff8853cd42a
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarDateFromUI2, VarDateFromUI2 function [Automation], _oa96_VarDateFromUI2, automat.vardatefromui2, oleauto/VarDateFromUI2
 ms.prod: windows-hardware
 ms.technology: windows-devices

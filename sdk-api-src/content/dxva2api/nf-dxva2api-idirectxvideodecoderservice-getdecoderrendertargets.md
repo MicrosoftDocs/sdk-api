@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoderService.GetDecoderRenderTargets
-title: IDirectXVideoDecoderService::GetDecoderRenderTargets method
+title: IDirectXVideoDecoderService::GetDecoderRenderTargets
 author: windows-driver-content
 description: Retrieves the supported render targets for a specified decoder device.
 old-location: mf\idirectxvideodecoderservice_getdecoderrendertargets.htm
 old-project: medfound
 ms.assetid: cde04894-9042-4916-b195-60d84d0f87ec
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDecoderRenderTargets method [Media Foundation], GetDecoderRenderTargets method [Media Foundation], IDirectXVideoDecoderService interface, GetDecoderRenderTargets,IDirectXVideoDecoderService.GetDecoderRenderTargets, IDirectXVideoDecoderService, IDirectXVideoDecoderService interface [Media Foundation], GetDecoderRenderTargets method, IDirectXVideoDecoderService::GetDecoderRenderTargets, cde04894-9042-4916-b195-60d84d0f87ec, dxva2api/IDirectXVideoDecoderService::GetDecoderRenderTargets, mf.idirectxvideodecoderservice_getdecoderrendertargets
+ms.date: 5/3/2018
+ms.keywords: GetDecoderRenderTargets, GetDecoderRenderTargets method [Media Foundation], GetDecoderRenderTargets method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],GetDecoderRenderTargets method, IDirectXVideoDecoderService.GetDecoderRenderTargets, IDirectXVideoDecoderService::GetDecoderRenderTargets, cde04894-9042-4916-b195-60d84d0f87ec, dxva2api/IDirectXVideoDecoderService::GetDecoderRenderTargets, mf.idirectxvideodecoderservice_getdecoderrendertargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirectXVideoDecoderService::GetDecoderRenderTargets method
+# IDirectXVideoDecoderService::GetDecoderRenderTargets
 
 
 ## -description

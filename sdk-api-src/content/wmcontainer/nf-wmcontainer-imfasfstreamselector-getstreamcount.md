@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetStreamCount
-title: IMFASFStreamSelector::GetStreamCount method
+title: IMFASFStreamSelector::GetStreamCount
 author: windows-driver-content
 description: Retrieves the number of streams that are in the Advanced Systems Format (ASF) content.
 old-location: mf\imfasfstreamselector_getstreamcount.htm
 old-project: medfound
 ms.assetid: e1e80c32-bfd4-4404-9ccc-05b5077b83a6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation], IMFASFStreamSelector interface, GetStreamCount,IMFASFStreamSelector.GetStreamCount, IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], GetStreamCount method, IMFASFStreamSelector::GetStreamCount, e1e80c32-bfd4-4404-9ccc-05b5077b83a6, mf.imfasfstreamselector_getstreamcount, wmcontainer/IMFASFStreamSelector::GetStreamCount
+ms.date: 5/3/2018
+ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetStreamCount method, IMFASFStreamSelector.GetStreamCount, IMFASFStreamSelector::GetStreamCount, e1e80c32-bfd4-4404-9ccc-05b5077b83a6, mf.imfasfstreamselector_getstreamcount, wmcontainer/IMFASFStreamSelector::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFStreamSelector::GetStreamCount method
+# IMFASFStreamSelector::GetStreamCount
 
 
 ## -description

@@ -114,6 +114,12 @@ Client IP Address (ciaddr) field
 ### -field BootFileName
 
 
+### -field bMagicCookie
+
+
+### -field uMagicCookie
+
+
 ### -field Option
 
  
@@ -124,10 +130,4 @@ Client IP Address (ciaddr) field
 #### - YourIPAddress
 
 Your IP Address (yiaddr) field
-
-
-#### - bMagicCookie
-
-
-#### - uMagicCookie
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetVersion
-title: IWMProfile::GetVersion method
+title: IWMProfile::GetVersion
 author: windows-driver-content
 description: The GetVersion method retrieves the version number of the Windows Media Format SDK used to create the profile.
 old-location: wmformat\iwmprofile_getversion.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 4f74378e-4b60-4b49-8107-26eebdfab02a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetVersion method [windows Media Format], GetVersion method [windows Media Format], IWMProfile interface, GetVersion method [windows Media Format], IWMProfile2 interface, GetVersion method [windows Media Format], IWMProfile3 interface, GetVersion,IWMProfile.GetVersion, IWMProfile, IWMProfile interface [windows Media Format], GetVersion method, IWMProfile2 interface [windows Media Format], GetVersion method, IWMProfile2::GetVersion, IWMProfile3 interface [windows Media Format], GetVersion method, IWMProfile3::GetVersion, IWMProfile::GetVersion, IWMProfileGetVersion, wmformat.iwmprofile_getversion, wmsdkidl/IWMProfile2::GetVersion, wmsdkidl/IWMProfile3::GetVersion, wmsdkidl/IWMProfile::GetVersion
+ms.keywords: GetVersion, GetVersion method [windows Media Format], GetVersion method [windows Media Format],IWMProfile interface, GetVersion method [windows Media Format],IWMProfile2 interface, GetVersion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetVersion method, IWMProfile.GetVersion, IWMProfile2 interface [windows Media Format],GetVersion method, IWMProfile2::GetVersion, IWMProfile3 interface [windows Media Format],GetVersion method, IWMProfile3::GetVersion, IWMProfile::GetVersion, IWMProfileGetVersion, wmformat.iwmprofile_getversion, wmsdkidl/IWMProfile2::GetVersion, wmsdkidl/IWMProfile3::GetVersion, wmsdkidl/IWMProfile::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfile::GetVersion method
+# IWMProfile::GetVersion
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetCurrentMediaType
-title: IMFSourceReader::GetCurrentMediaType method
+title: IMFSourceReader::GetCurrentMediaType
 author: windows-driver-content
 description: Gets the current media type for a stream.
 old-location: mf\imfsourcereader_getcurrentmediatype.htm
 old-project: medfound
 ms.assetid: c0fe3b34-42ad-45e4-812d-679bbe01a200
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation], IMFSourceReader interface, GetCurrentMediaType,IMFSourceReader.GetCurrentMediaType, IMFSourceReader, IMFSourceReader interface [Media Foundation], GetCurrentMediaType method, IMFSourceReader::GetCurrentMediaType, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_getcurrentmediatype, mfreadwrite/IMFSourceReader::GetCurrentMediaType
+ms.date: 5/3/2018
+ms.keywords: GetCurrentMediaType, GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetCurrentMediaType method, IMFSourceReader.GetCurrentMediaType, IMFSourceReader::GetCurrentMediaType, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_getcurrentmediatype, mfreadwrite/IMFSourceReader::GetCurrentMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceReader::GetCurrentMediaType method
+# IMFSourceReader::GetCurrentMediaType
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_OuterFECMethod
-title: IBDA_DigitalDemodulator::put_OuterFECMethod method
+title: IBDA_DigitalDemodulator::put_OuterFECMethod
 author: windows-driver-content
 description: The put_OuterFECMethod method specifies the outer forward error correction method for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_outerfecmethod.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8ec9c75b-5f71-4a07-8234-8f38b96b962d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DigitalDemodulator, IBDA_DigitalDemodulator interface [Microsoft TV Technologies], put_OuterFECMethod method, IBDA_DigitalDemodulator::put_OuterFECMethod, IBDA_DigitalDemodulatorput_OuterFECMethod, bdaiface/IBDA_DigitalDemodulator::put_OuterFECMethod, mstv.ibda_digitaldemodulator_put_outerfecmethod, put_OuterFECMethod method [Microsoft TV Technologies], put_OuterFECMethod method [Microsoft TV Technologies], IBDA_DigitalDemodulator interface, put_OuterFECMethod,IBDA_DigitalDemodulator.put_OuterFECMethod
+ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_OuterFECMethod method, IBDA_DigitalDemodulator.put_OuterFECMethod, IBDA_DigitalDemodulator::put_OuterFECMethod, IBDA_DigitalDemodulatorput_OuterFECMethod, bdaiface/IBDA_DigitalDemodulator::put_OuterFECMethod, mstv.ibda_digitaldemodulator_put_outerfecmethod, put_OuterFECMethod, put_OuterFECMethod method [Microsoft TV Technologies], put_OuterFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DigitalDemodulator::put_OuterFECMethod method
+# IBDA_DigitalDemodulator::put_OuterFECMethod
 
 
 ## -description

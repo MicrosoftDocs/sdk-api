@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMCopyCaptureFileProgress.Progress
-title: IAMCopyCaptureFileProgress::Progress method
+title: IAMCopyCaptureFileProgress::Progress
 author: windows-driver-content
 description: The Progress method is called periodically by the ICaptureGraphBuilder2::CopyCaptureFile method while it copies the file.
 old-location: dshow\iamcopycapturefileprogress_progress.htm
 old-project: DirectShow
 ms.assetid: 6908627e-51de-4206-bdb2-b3aaedf9478f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMCopyCaptureFileProgress, IAMCopyCaptureFileProgress interface [DirectShow], Progress method, IAMCopyCaptureFileProgress::Progress, IAMCopyCaptureFileProgressProgress, Progress method [DirectShow], Progress method [DirectShow], IAMCopyCaptureFileProgress interface, Progress,IAMCopyCaptureFileProgress.Progress, dshow.iamcopycapturefileprogress_progress, strmif/IAMCopyCaptureFileProgress::Progress
+ms.date: 4/30/2018
+ms.keywords: IAMCopyCaptureFileProgress interface [DirectShow],Progress method, IAMCopyCaptureFileProgress.Progress, IAMCopyCaptureFileProgress::Progress, IAMCopyCaptureFileProgressProgress, Progress, Progress method [DirectShow], Progress method [DirectShow],IAMCopyCaptureFileProgress interface, dshow.iamcopycapturefileprogress_progress, strmif/IAMCopyCaptureFileProgress::Progress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMCopyCaptureFileProgress::Progress method
+# IAMCopyCaptureFileProgress::Progress
 
 
 ## -description

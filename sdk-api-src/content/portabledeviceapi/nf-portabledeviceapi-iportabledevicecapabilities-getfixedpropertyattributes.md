@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetFixedPropertyAttributes
-title: IPortableDeviceCapabilities::GetFixedPropertyAttributes method
+title: IPortableDeviceCapabilities::GetFixedPropertyAttributes
 author: windows-driver-content
 description: The GetFixedPropertyAttributes method retrieves the standard property attributes for a specified property and format.
 old-location: wpdsdk\iportabledevicecapabilities_getfixedpropertyattributes.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 94e4e9f4-5858-4e12-bcd7-561fb3636fc8
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetFixedPropertyAttributes method [Windows Portable Devices SDK], GetFixedPropertyAttributes method [Windows Portable Devices SDK], IPortableDeviceCapabilities interface, GetFixedPropertyAttributes,IPortableDeviceCapabilities.GetFixedPropertyAttributes, IPortableDeviceCapabilities, IPortableDeviceCapabilities interface [Windows Portable Devices SDK], GetFixedPropertyAttributes method, IPortableDeviceCapabilities::GetFixedPropertyAttributes, IPortableDeviceCapabilitiesGetFixedPropertyAttributes, portabledeviceapi/IPortableDeviceCapabilities::GetFixedPropertyAttributes, wpdsdk.iportabledevicecapabilities_getfixedpropertyattributes
+ms.keywords: GetFixedPropertyAttributes, GetFixedPropertyAttributes method [Windows Portable Devices SDK], GetFixedPropertyAttributes method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetFixedPropertyAttributes method, IPortableDeviceCapabilities.GetFixedPropertyAttributes, IPortableDeviceCapabilities::GetFixedPropertyAttributes, IPortableDeviceCapabilitiesGetFixedPropertyAttributes, portabledeviceapi/IPortableDeviceCapabilities::GetFixedPropertyAttributes, wpdsdk.iportabledevicecapabilities_getfixedpropertyattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceCapabilities::GetFixedPropertyAttributes method
+# IPortableDeviceCapabilities::GetFixedPropertyAttributes
 
 
 ## -description

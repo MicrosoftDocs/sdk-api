@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList2.ReplaceFromImageList
-title: IImageList2::ReplaceFromImageList method
+title: IImageList2::ReplaceFromImageList
 author: windows-driver-content
 description: Replaces an image in one image list with an image from another image list.
 old-location: controls\IImageList2_ReplaceFromImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\replacefromimagelist.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IImageList2, IImageList2 interface [Windows Controls], ReplaceFromImageList method, IImageList2::ReplaceFromImageList, ReplaceFromImageList method [Windows Controls], ReplaceFromImageList method [Windows Controls], IImageList2 interface, ReplaceFromImageList,IImageList2.ReplaceFromImageList, _shell_IImageList2_ReplaceFromImageList, _shell_IImageList2_ReplaceFromImageList_cpp, commoncontrols/IImageList2::ReplaceFromImageList, controls.IImageList2_ReplaceFromImageList, controls._shell_IImageList2_ReplaceFromImageList
+ms.date: 4/27/2018
+ms.keywords: IImageList2 interface [Windows Controls],ReplaceFromImageList method, IImageList2.ReplaceFromImageList, IImageList2::ReplaceFromImageList, ReplaceFromImageList, ReplaceFromImageList method [Windows Controls], ReplaceFromImageList method [Windows Controls],IImageList2 interface, _shell_IImageList2_ReplaceFromImageList, _shell_IImageList2_ReplaceFromImageList_cpp, commoncontrols/IImageList2::ReplaceFromImageList, controls.IImageList2_ReplaceFromImageList, controls._shell_IImageList2_ReplaceFromImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList2::ReplaceFromImageList method
+# IImageList2::ReplaceFromImageList
 
 
 ## -description

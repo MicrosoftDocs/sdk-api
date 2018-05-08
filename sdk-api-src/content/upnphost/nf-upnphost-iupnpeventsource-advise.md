@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPEventSource.Advise
-title: IUPnPEventSource::Advise method
+title: IUPnPEventSource::Advise
 author: windows-driver-content
 description: The Advise method is invoked by the device host to begin receiving events from the hosted service.
 old-location: upnp\iupnpeventsource_advise.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: ec68f4ff-7549-4d48-b347-0320bc55329c
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Advise method [UPnP APIs], Advise method [UPnP APIs], IUPnPEventSource interface, Advise,IUPnPEventSource.Advise, IUPnPEventSource, IUPnPEventSource interface [UPnP APIs], Advise method, IUPnPEventSource::Advise, _upnp_iupnpeventsource_advise, upnp.iupnpeventsource_advise, upnphost/IUPnPEventSource::Advise
+ms.keywords: Advise, Advise method [UPnP APIs], Advise method [UPnP APIs],IUPnPEventSource interface, IUPnPEventSource interface [UPnP APIs],Advise method, IUPnPEventSource.Advise, IUPnPEventSource::Advise, _upnp_iupnpeventsource_advise, upnp.iupnpeventsource_advise, upnphost/IUPnPEventSource::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPEventSource::Advise method
+# IUPnPEventSource::Advise
 
 
 ## -description

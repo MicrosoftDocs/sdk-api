@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNConnectNotify.ConnectSucceeded
-title: IWCNConnectNotify::ConnectSucceeded method
+title: IWCNConnectNotify::ConnectSucceeded
 author: windows-driver-content
 description: The IWCNConnectNotify::ConnectSucceeded callback method that indicates a successful IWCNDevice::Connect operation.
 old-location: wcn\iwcnconnectnotify_connectsucceeded.htm
@@ -8,7 +8,7 @@ old-project: wcn
 ms.assetid: 79c8482a-5cb2-44a7-b324-964bfedd3d2f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ConnectSucceeded method [Windows Connect Now], ConnectSucceeded method [Windows Connect Now], IWCNConnectNotify interface, ConnectSucceeded,IWCNConnectNotify.ConnectSucceeded, IWCNConnectNotify, IWCNConnectNotify interface [Windows Connect Now], ConnectSucceeded method, IWCNConnectNotify::ConnectSucceeded, wcn.iwcnconnectnotify_connectsucceeded, wcndevice/IWCNConnectNotify::ConnectSucceeded
+ms.keywords: ConnectSucceeded, ConnectSucceeded method [Windows Connect Now], ConnectSucceeded method [Windows Connect Now],IWCNConnectNotify interface, IWCNConnectNotify interface [Windows Connect Now],ConnectSucceeded method, IWCNConnectNotify.ConnectSucceeded, IWCNConnectNotify::ConnectSucceeded, wcn.iwcnconnectnotify_connectsucceeded, wcndevice/IWCNConnectNotify::ConnectSucceeded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWCNConnectNotify::ConnectSucceeded method
+# IWCNConnectNotify::ConnectSucceeded
 
 
 ## -description

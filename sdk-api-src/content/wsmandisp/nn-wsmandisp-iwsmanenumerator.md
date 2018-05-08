@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: c7afac5d-946f-49ec-a7d0-de558ed2144b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], IWSManEnumerator interface [Windows Remote Management], described, winrm.iwsmanenumerator, wsmandisp/IWSManEnumerator
+ms.keywords: IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], IWSManEnumerator interface [Windows Remote Management],described, winrm.iwsmanenumerator, wsmandisp/IWSManEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -117,20 +117,17 @@ Use the <b>ExtendedFileId</b> member of the union.
 ### -field DUMMYUNIONNAME
 
 
-
-#### FileId
+### -field DUMMYUNIONNAME.FileId
 
 The ID of the file to open.
 
 
-
-#### ObjectId
+### -field DUMMYUNIONNAME.ObjectId
 
 The ID of the object to open.
 
 
-
-#### ExtendedFileId
+### -field DUMMYUNIONNAME.ExtendedFileId
 
 A <a href="https://msdn.microsoft.com/254ea6a9-e1dd-4b97-91f7-2693065c4bb8">FILE_ID_128</a> structure containing the 128-bit file ID of the file. This is used on ReFS file systems.
        

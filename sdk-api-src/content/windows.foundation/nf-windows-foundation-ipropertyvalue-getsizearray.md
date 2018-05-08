@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSizeArray
-title: IPropertyValue::GetSizeArray method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of Size values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getsizearray.htm
 old-project: WinRT
 ms.assetid: f378c4d0-c3a2-4611-a471-0c77746602f6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetSizeArray method [Windows Runtime], GetSizeArray method [Windows Runtime], IPropertyValue interface, GetSizeArray,IPropertyValue.GetSizeArray, IPropertyValue, IPropertyValue interface [Windows Runtime], GetSizeArray method, IPropertyValue::GetSizeArray, windows/IPropertyValue::GetSizeArray, winrt.ipropertyvalue_getsizearray
+ms.date: 5/4/2018
+ms.keywords: GetSizeArray, GetSizeArray method [Windows Runtime], GetSizeArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSizeArray method, IPropertyValue.GetSizeArray, IPropertyValue.IPropertyValue, IPropertyValue::GetSizeArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSizeArray, winrt.ipropertyvalue_getsizearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetSizeArray method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

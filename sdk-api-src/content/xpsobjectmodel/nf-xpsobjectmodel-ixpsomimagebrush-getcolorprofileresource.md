@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.GetColorProfileResource
-title: IXpsOMImageBrush::GetColorProfileResource method
+title: IXpsOMImageBrush::GetColorProfileResource
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMColorProfileResource interface, which contains the color profile resource that is associated with the image.
 old-location: xps\ixpsomimagebrush_getcolorprofileresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 7472f84b-cd14-4b9f-8ea9-69e743319d05
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetColorProfileResource method [XPS Documents and Packaging], GetColorProfileResource method [XPS Documents and Packaging], IXpsOMImageBrush interface, GetColorProfileResource,IXpsOMImageBrush.GetColorProfileResource, IXpsOMImageBrush, IXpsOMImageBrush interface [XPS Documents and Packaging], GetColorProfileResource method, IXpsOMImageBrush::GetColorProfileResource, xps.ixpsomimagebrush_getcolorprofileresource, xpsobjectmodel/IXpsOMImageBrush::GetColorProfileResource
+ms.keywords: GetColorProfileResource, GetColorProfileResource method [XPS Documents and Packaging], GetColorProfileResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, IXpsOMImageBrush interface [XPS Documents and Packaging],GetColorProfileResource method, IXpsOMImageBrush.GetColorProfileResource, IXpsOMImageBrush::GetColorProfileResource, xps.ixpsomimagebrush_getcolorprofileresource, xpsobjectmodel/IXpsOMImageBrush::GetColorProfileResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMImageBrush::GetColorProfileResource method
+# IXpsOMImageBrush::GetColorProfileResource
 
 
 ## -description

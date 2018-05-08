@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: A9B3992C-D3D1-4190-9314-A21E388E88BA
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxContentGroupMapWriter, IAppxContentGroupMapWriter interface [App packaging and management], IAppxContentGroupMapWriter interface [App packaging and management], described, appxpackaging/IAppxContentGroupMapWriter, appxpkg.iappxcontentgroupmapwriter
+ms.keywords: IAppxContentGroupMapWriter, IAppxContentGroupMapWriter interface [App packaging and management], IAppxContentGroupMapWriter interface [App packaging and management],described, appxpackaging/IAppxContentGroupMapWriter, appxpkg.iappxcontentgroupmapwriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

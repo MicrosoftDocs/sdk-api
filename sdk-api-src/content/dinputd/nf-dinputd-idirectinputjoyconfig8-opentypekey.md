@@ -1,14 +1,14 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.OpenTypeKey
-title: IDirectInputJoyConfig8::OpenTypeKey method
+title: IDirectInputJoyConfig8::OpenTypeKey
 author: windows-driver-content
 description: The IDirectInputJoyConfig8::OpenTypeKey method opens the registry key associated with a joystick type.
 old-location: hid\idirectinputjoyconfig8_opentypekey.htm
 old-project: hid
 ms.assetid: d747625b-a9e3-41cb-894a-1f62599c62a9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IDirectInputJoyConfig8, IDirectInputJoyConfig8 interface [Human Input Devices], OpenTypeKey method, IDirectInputJoyConfig8::OpenTypeKey, OpenTypeKey method [Human Input Devices], OpenTypeKey method [Human Input Devices], IDirectInputJoyConfig8 interface, OpenTypeKey,IDirectInputJoyConfig8.OpenTypeKey, di_ref_073c7914-daaf-4db5-95bc-2fd2aef897b5.xml, dinputd/IDirectInputJoyConfig8::OpenTypeKey, hid.idirectinputjoyconfig8_opentypekey
+ms.date: 4/30/2018
+ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],OpenTypeKey method, IDirectInputJoyConfig8.OpenTypeKey, IDirectInputJoyConfig8::OpenTypeKey, OpenTypeKey, OpenTypeKey method [Human Input Devices], OpenTypeKey method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_073c7914-daaf-4db5-95bc-2fd2aef897b5.xml, dinputd/IDirectInputJoyConfig8::OpenTypeKey, hid.idirectinputjoyconfig8_opentypekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectInputJoyConfig8::OpenTypeKey method
+# IDirectInputJoyConfig8::OpenTypeKey
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_MayTranslateAccelerator
-title: IBrowserService2::v_MayTranslateAccelerator method
+title: IBrowserService2::v_MayTranslateAccelerator
 author: windows-driver-content
 description: Deprecated. Called by a derived class to instruct the base class to proceed with the translation of keyboard mnemonics.
 old-location: shell\IBrowserService2_v_MayTranslateAccelerator.htm
 old-project: shell
 ms.assetid: 99dc3bce-c661-4233-8457-0ce29e02c270
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], v_MayTranslateAccelerator method, IBrowserService2::v_MayTranslateAccelerator, shdeprecated/IBrowserService2::v_MayTranslateAccelerator, shell.IBrowserService2_v_MayTranslateAccelerator, v_MayTranslateAccelerator method [Windows Shell], v_MayTranslateAccelerator method [Windows Shell], IBrowserService2 interface, v_MayTranslateAccelerator,IBrowserService2.v_MayTranslateAccelerator, zone_IBrowserService2_v_MayTranslateAccelerator
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],v_MayTranslateAccelerator method, IBrowserService2.v_MayTranslateAccelerator, IBrowserService2::v_MayTranslateAccelerator, shdeprecated/IBrowserService2::v_MayTranslateAccelerator, shell.IBrowserService2_v_MayTranslateAccelerator, v_MayTranslateAccelerator, v_MayTranslateAccelerator method [Windows Shell], v_MayTranslateAccelerator method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_MayTranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::v_MayTranslateAccelerator method
+# IBrowserService2::v_MayTranslateAccelerator
 
 
 ## -description

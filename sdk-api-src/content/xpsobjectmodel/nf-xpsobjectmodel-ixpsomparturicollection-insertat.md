@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.InsertAt
-title: IXpsOMPartUriCollection::InsertAt method
+title: IXpsOMPartUriCollection::InsertAt
 author: windows-driver-content
 description: Inserts an IOpcPartUri interface pointer at a specified location in the collection.
 old-location: xps\ixpsomparturicollection_insertat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 672e3cc7-ac25-4d9d-9983-66cf6d26f574
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPartUriCollection, IXpsOMPartUriCollection interface [XPS Documents and Packaging], InsertAt method, IXpsOMPartUriCollection::InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging], IXpsOMPartUriCollection interface, InsertAt,IXpsOMPartUriCollection.InsertAt, xps.ixpsomparturicollection_insertat, xpsobjectmodel/IXpsOMPartUriCollection::InsertAt
+ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMPartUriCollection.InsertAt, IXpsOMPartUriCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, xps.ixpsomparturicollection_insertat, xpsobjectmodel/IXpsOMPartUriCollection::InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPartUriCollection::InsertAt method
+# IXpsOMPartUriCollection::InsertAt
 
 
 ## -description

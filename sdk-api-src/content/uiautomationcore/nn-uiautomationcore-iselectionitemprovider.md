@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 464b05e3-06da-44b9-b4a6-c64452fcdb6d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ISelectionItemProvider, ISelectionItemProvider interface [Windows Accessibility], ISelectionItemProvider interface [Windows Accessibility], described, uiauto.uiauto_ISelectionItemProvider, uiauto_ISelectionItemProvider, uiautomationcore/ISelectionItemProvider, winauto.uiauto_ISelectionItemProvider
+ms.keywords: ISelectionItemProvider, ISelectionItemProvider interface [Windows Accessibility], ISelectionItemProvider interface [Windows Accessibility],described, uiauto.uiauto_ISelectionItemProvider, uiauto_ISelectionItemProvider, uiautomationcore/ISelectionItemProvider, winauto.uiauto_ISelectionItemProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

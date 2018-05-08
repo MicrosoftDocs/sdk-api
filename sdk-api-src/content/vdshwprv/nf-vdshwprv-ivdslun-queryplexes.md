@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.QueryPlexes
-title: IVdsLun::QueryPlexes method
+title: IVdsLun::QueryPlexes
 author: windows-driver-content
 description: Returns an enumeration of the plexes in a LUN.
 old-location: base\ivdslun_queryplexes.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 128708cb-2ad1-45be-8e38-b5fd943d0945
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsLun, IVdsLun interface [VDS], QueryPlexes method, IVdsLun::QueryPlexes, QueryPlexes method [VDS], QueryPlexes method [VDS], IVdsLun interface, QueryPlexes,IVdsLun.QueryPlexes, base.ivdslun_queryplexes, vds/IVdsLun::QueryPlexes, vdshwprv/IVdsLun::QueryPlexes
+ms.keywords: IVdsLun interface [VDS],QueryPlexes method, IVdsLun.QueryPlexes, IVdsLun::QueryPlexes, QueryPlexes, QueryPlexes method [VDS], QueryPlexes method [VDS],IVdsLun interface, base.ivdslun_queryplexes, vds/IVdsLun::QueryPlexes, vdshwprv/IVdsLun::QueryPlexes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLun::QueryPlexes method
+# IVdsLun::QueryPlexes
 
 
 ## -description

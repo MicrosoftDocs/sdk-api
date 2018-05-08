@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_3.ID3D11Device3.WriteToSubresource
-title: ID3D11Device3::WriteToSubresource method
+title: ID3D11Device3::WriteToSubresource
 author: windows-driver-content
 description: Copies data into a D3D11_USAGE_DEFAULT texture which was mapped using ID3D11DeviceContext3::Map while providing a NULL D3D11_MAPPED_SUBRESOURCE parameter.
 old-location: direct3d11\id3d11device3_writetosubresource.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: DCA4A88D-3DCA-41D5-AE52-061A605A9CBF
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11Device3, ID3D11Device3 interface [Direct3D 11], WriteToSubresource method, ID3D11Device3::WriteToSubresource, WriteToSubresource method [Direct3D 11], WriteToSubresource method [Direct3D 11], ID3D11Device3 interface, WriteToSubresource,ID3D11Device3.WriteToSubresource, d3d11_3/ID3D11Device3::WriteToSubresource, direct3d11.id3d11device3_writetosubresource
+ms.keywords: ID3D11Device3 interface [Direct3D 11],WriteToSubresource method, ID3D11Device3.WriteToSubresource, ID3D11Device3::WriteToSubresource, WriteToSubresource, WriteToSubresource method [Direct3D 11], WriteToSubresource method [Direct3D 11],ID3D11Device3 interface, d3d11_3/ID3D11Device3::WriteToSubresource, direct3d11.id3d11device3_writetosubresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11Device3::WriteToSubresource method
+# ID3D11Device3::WriteToSubresource
 
 
 ## -description

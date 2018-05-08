@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile2.GetProfileID
-title: IWMProfile2::GetProfileID method
+title: IWMProfile2::GetProfileID
 author: windows-driver-content
 description: The GetProfileID method retrieves the globally unique identifier of a system profile.
 old-location: wmformat\iwmprofile2_getprofileid.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 82e3e086-4b19-4eb9-91ad-d30392f97a28
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetProfileID method [windows Media Format], GetProfileID method [windows Media Format], IWMProfile2 interface, GetProfileID method [windows Media Format], IWMProfile3 interface, GetProfileID,IWMProfile2.GetProfileID, IWMProfile2, IWMProfile2 interface [windows Media Format], GetProfileID method, IWMProfile2::GetProfileID, IWMProfile2GetProfileID, IWMProfile3 interface [windows Media Format], GetProfileID method, IWMProfile3::GetProfileID, wmformat.iwmprofile2_getprofileid, wmsdkidl/IWMProfile2::GetProfileID, wmsdkidl/IWMProfile3::GetProfileID
+ms.keywords: GetProfileID, GetProfileID method [windows Media Format], GetProfileID method [windows Media Format],IWMProfile2 interface, GetProfileID method [windows Media Format],IWMProfile3 interface, IWMProfile2 interface [windows Media Format],GetProfileID method, IWMProfile2.GetProfileID, IWMProfile2::GetProfileID, IWMProfile2GetProfileID, IWMProfile3 interface [windows Media Format],GetProfileID method, IWMProfile3::GetProfileID, wmformat.iwmprofile2_getprofileid, wmsdkidl/IWMProfile2::GetProfileID, wmsdkidl/IWMProfile3::GetProfileID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfile2::GetProfileID method
+# IWMProfile2::GetProfileID
 
 
 ## -description

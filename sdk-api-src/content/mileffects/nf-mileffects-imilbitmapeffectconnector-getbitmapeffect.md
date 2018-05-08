@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnector.GetBitmapEffect
-title: IMILBitmapEffectConnector::GetBitmapEffect method
+title: IMILBitmapEffectConnector::GetBitmapEffect
 author: windows-driver-content
 description: Gets the IMILBitmapEffect associated with the connector.
 old-location: wibe\_wibe_imilbitmapeffectconnector_getbitmapeffect.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnector\getbitmapeffect.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetBitmapEffect method [WPF Bitmap Effects], GetBitmapEffect method [WPF Bitmap Effects], IMILBitmapEffectConnector interface, GetBitmapEffect,IMILBitmapEffectConnector.GetBitmapEffect, IMILBitmapEffectConnector, IMILBitmapEffectConnector interface [WPF Bitmap Effects], GetBitmapEffect method, IMILBitmapEffectConnector::GetBitmapEffect, _wibe_imilbitmapeffectconnector_getbitmapeffect, mileffects/IMILBitmapEffectConnector::GetBitmapEffect, wibe._wibe_imilbitmapeffectconnector_getbitmapeffect
+ms.keywords: GetBitmapEffect, GetBitmapEffect method [WPF Bitmap Effects], GetBitmapEffect method [WPF Bitmap Effects],IMILBitmapEffectConnector interface, IMILBitmapEffectConnector interface [WPF Bitmap Effects],GetBitmapEffect method, IMILBitmapEffectConnector.GetBitmapEffect, IMILBitmapEffectConnector::GetBitmapEffect, _wibe_imilbitmapeffectconnector_getbitmapeffect, mileffects/IMILBitmapEffectConnector::GetBitmapEffect, wibe._wibe_imilbitmapeffectconnector_getbitmapeffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectConnector::GetBitmapEffect method
+# IMILBitmapEffectConnector::GetBitmapEffect
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetProcAmpControl
-title: IVMRMixerControl9::SetProcAmpControl method
+title: IVMRMixerControl9::SetProcAmpControl
 author: windows-driver-content
 description: The SetProcAmpControl method sets the image adjustment for the VMR-9.
 old-location: dshow\ivmrmixercontrol9_setprocampcontrol.htm
 old-project: DirectShow
 ms.assetid: 6e2949f5-87e5-4748-bb23-be14452c8c82
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], SetProcAmpControl method, IVMRMixerControl9::SetProcAmpControl, IVMRMixerControl9SetProcAmpControl, SetProcAmpControl method [DirectShow], SetProcAmpControl method [DirectShow], IVMRMixerControl9 interface, SetProcAmpControl,IVMRMixerControl9.SetProcAmpControl, dshow.ivmrmixercontrol9_setprocampcontrol, vmr9/IVMRMixerControl9::SetProcAmpControl
+ms.date: 4/30/2018
+ms.keywords: IVMRMixerControl9 interface [DirectShow],SetProcAmpControl method, IVMRMixerControl9.SetProcAmpControl, IVMRMixerControl9::SetProcAmpControl, IVMRMixerControl9SetProcAmpControl, SetProcAmpControl, SetProcAmpControl method [DirectShow], SetProcAmpControl method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setprocampcontrol, vmr9/IVMRMixerControl9::SetProcAmpControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRMixerControl9::SetProcAmpControl method
+# IVMRMixerControl9::SetProcAmpControl
 
 
 ## -description

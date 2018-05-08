@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.ScrollIntoView
-title: ITextRange::ScrollIntoView method
+title: ITextRange::ScrollIntoView
 author: windows-driver-content
 description: Scrolls the specified range into view.
 old-location: controls\ITextRange_ScrollIntoView.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\scrollintoview.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange, ITextRange interface [Windows Controls], ScrollIntoView method, ITextRange::ScrollIntoView, ScrollIntoView method [Windows Controls], ScrollIntoView method [Windows Controls], ITextRange interface, ScrollIntoView,ITextRange.ScrollIntoView, _win32_ITextRange_ScrollIntoView, _win32_ITextRange_ScrollIntoView_cpp, controls.ITextRange_ScrollIntoView, controls._win32_ITextRange_ScrollIntoView, tom/ITextRange::ScrollIntoView, tomEnd, tomNoUpScroll, tomNoVpScroll, tomStart
+ms.date: 4/27/2018
+ms.keywords: ITextRange interface [Windows Controls],ScrollIntoView method, ITextRange.ScrollIntoView, ITextRange::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Controls], ScrollIntoView method [Windows Controls],ITextRange interface, _win32_ITextRange_ScrollIntoView, _win32_ITextRange_ScrollIntoView_cpp, controls.ITextRange_ScrollIntoView, controls._win32_ITextRange_ScrollIntoView, tom/ITextRange::ScrollIntoView, tomEnd, tomNoUpScroll, tomNoVpScroll, tomStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::ScrollIntoView method
+# ITextRange::ScrollIntoView
 
 
 ## -description

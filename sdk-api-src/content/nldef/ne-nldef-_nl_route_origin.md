@@ -7,7 +7,7 @@ old-location: netvista\nl_route_origin.htm
 old-project: netvista
 ms.assetid: 15f45fe9-5a51-4b4b-ba34-cec2488cd1e0
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNL_ROUTE_ORIGIN, NL_ROUTE_ORIGIN, NL_ROUTE_ORIGIN enumeration [Network Drivers Starting with Windows Vista], Nlro6to4, NlroDHCP, NlroManual, NlroRouterAdvertisement, NlroWellKnown, PNL_ROUTE_ORIGIN, PNL_ROUTE_ORIGIN enumeration pointer [Network Drivers Starting with Windows Vista], _NL_ROUTE_ORIGIN, iphelper_f6fb2f16-6da7-4f32-895e-8dbb6929f81f.xml, netvista.nl_route_origin, nldef/NL_ROUTE_ORIGIN, nldef/Nlro6to4, nldef/NlroDHCP, nldef/NlroManual, nldef/NlroRouterAdvertisement, nldef/NlroWellKnown, nldef/PNL_ROUTE_ORIGIN"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: dbec9468-b555-42a0-a988-dec3a66c9f96
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioClock, IAudioClock interface [Core Audio], IAudioClock interface [Core Audio], described, audioclient/IAudioClock, coreaudio.iaudioclock
+ms.keywords: IAudioClock, IAudioClock interface [Core Audio], IAudioClock interface [Core Audio],described, audioclient/IAudioClock, coreaudio.iaudioclock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

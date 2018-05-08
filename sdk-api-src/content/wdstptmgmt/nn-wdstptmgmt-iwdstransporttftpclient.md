@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: B612A719-247E-40CC-B7BC-E2A6144DA329
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportTftpClient, IWdsTransportTftpClient interface [Windows Deployment Services], IWdsTransportTftpClient interface [Windows Deployment Services], described, wds.iwdstransporttftpclient, wdstptmgmt/IWdsTransportTftpClient
+ms.keywords: IWdsTransportTftpClient, IWdsTransportTftpClient interface [Windows Deployment Services], IWdsTransportTftpClient interface [Windows Deployment Services],described, wds.iwdstransporttftpclient, wdstptmgmt/IWdsTransportTftpClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

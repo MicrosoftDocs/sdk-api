@@ -1,6 +1,6 @@
 ---
 UID: NF:wmnetsourcecreator.INSNetSourceCreator.Initialize
-title: INSNetSourceCreator::Initialize method
+title: INSNetSourceCreator::Initialize
 author: windows-driver-content
 description: The Initialize method prepares the network source creator for operations. You must call this method before calling any of the other methods in the INSNetSourceCreator interface.
 old-location: wmformat\insnetsourcecreator_initialize.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 53c1a15e-3ced-44e5-b512-b381ae11aa65
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: INSNetSourceCreator, INSNetSourceCreator interface [windows Media Format], Initialize method, INSNetSourceCreator::Initialize, INSNetSourceCreatorInitialize, Initialize method [windows Media Format], Initialize method [windows Media Format], INSNetSourceCreator interface, Initialize,INSNetSourceCreator.Initialize, wmformat.insnetsourcecreator_initialize, wmnetsourcecreator/INSNetSourceCreator::Initialize
+ms.keywords: INSNetSourceCreator interface [windows Media Format],Initialize method, INSNetSourceCreator.Initialize, INSNetSourceCreator::Initialize, INSNetSourceCreatorInitialize, Initialize, Initialize method [windows Media Format], Initialize method [windows Media Format],INSNetSourceCreator interface, wmformat.insnetsourcecreator_initialize, wmnetsourcecreator/INSNetSourceCreator::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# INSNetSourceCreator::Initialize method
+# INSNetSourceCreator::Initialize
 
 
 ## -description

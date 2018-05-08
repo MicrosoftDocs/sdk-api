@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.DisconnectNotify
-title: IWRdsProtocolConnection::DisconnectNotify method
+title: IWRdsProtocolConnection::DisconnectNotify
 author: windows-driver-content
 description: Notifies the protocol that the session has been disconnected.
 old-location: termserv\iwrdsprotocolconnection_disconnectnotify.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 2399677b-0859-4e43-9dbc-0b08fa0647b0
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DisconnectNotify method [Remote Desktop Services], DisconnectNotify method [Remote Desktop Services], IWRdsProtocolConnection interface, DisconnectNotify,IWRdsProtocolConnection.DisconnectNotify, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], DisconnectNotify method, IWRdsProtocolConnection::DisconnectNotify, termserv.iwrdsprotocolconnection_disconnectnotify, wtsprotocol/IWRdsProtocolConnection::DisconnectNotify
+ms.keywords: DisconnectNotify, DisconnectNotify method [Remote Desktop Services], DisconnectNotify method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],DisconnectNotify method, IWRdsProtocolConnection.DisconnectNotify, IWRdsProtocolConnection::DisconnectNotify, termserv.iwrdsprotocolconnection_disconnectnotify, wtsprotocol/IWRdsProtocolConnection::DisconnectNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::DisconnectNotify method
+# IWRdsProtocolConnection::DisconnectNotify
 
 
 ## -description

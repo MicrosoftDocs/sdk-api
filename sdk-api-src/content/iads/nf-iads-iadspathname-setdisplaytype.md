@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.SetDisplayType
-title: IADsPathname::SetDisplayType method
+title: IADsPathname::SetDisplayType
 author: windows-driver-content
 description: Specifies how to display the path of an object.
 old-location: adsi\iadspathname_setdisplaytype.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 2d975482-74f6-4ffa-a243-baa5f6a8d200
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsPathname, IADsPathname interface [ADSI], SetDisplayType method, IADsPathname::SetDisplayType, SetDisplayType method [ADSI], SetDisplayType method [ADSI], IADsPathname interface, SetDisplayType,IADsPathname.SetDisplayType, _ds_iadspathname_setdisplaytype, adsi.iadspathname__setdisplaytype, adsi.iadspathname_setdisplaytype, iads/IADsPathname::SetDisplayType
+ms.keywords: IADsPathname interface [ADSI],SetDisplayType method, IADsPathname.SetDisplayType, IADsPathname::SetDisplayType, SetDisplayType, SetDisplayType method [ADSI], SetDisplayType method [ADSI],IADsPathname interface, _ds_iadspathname_setdisplaytype, adsi.iadspathname__setdisplaytype, adsi.iadspathname_setdisplaytype, iads/IADsPathname::SetDisplayType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsPathname::SetDisplayType method
+# IADsPathname::SetDisplayType
 
 
 ## -description

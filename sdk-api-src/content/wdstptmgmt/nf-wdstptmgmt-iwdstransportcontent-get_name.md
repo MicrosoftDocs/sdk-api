@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.get_Name
-title: IWdsTransportContent::get_Name method
+title: IWdsTransportContent::get_Name
 author: windows-driver-content
 description: Receives a pointer to a string value that contains the name of the data object represented by this content object.
 old-location: wds\iwdstransportcontent_name.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 24178dca-58b6-463a-adf0-40b5aa0446fc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportContent, IWdsTransportContent interface [Windows Deployment Services], Name property, IWdsTransportContent.Name, IWdsTransportContent::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services], IWdsTransportContent interface, get_Name,IWdsTransportContent.get_Name, wds.iwdstransportcontent_name, wdstptmgmt/IWdsTransportContent::Name, wdstptmgmt/IWdsTransportContent::get_Name
+ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Name property, IWdsTransportContent.Name, IWdsTransportContent.get_Name, IWdsTransportContent::Name, IWdsTransportContent::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportContent interface, get_Name, wds.iwdstransportcontent_name, wdstptmgmt/IWdsTransportContent::Name, wdstptmgmt/IWdsTransportContent::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportContent::get_Name method
+# IWdsTransportContent::get_Name
 
 
 ## -description

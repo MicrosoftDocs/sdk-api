@@ -1,14 +1,14 @@
 ---
 UID: NF:vpnotify.IVPNotify.SetDeinterlaceMode
-title: IVPNotify::SetDeinterlaceMode method
+title: IVPNotify::SetDeinterlaceMode
 author: windows-driver-content
 description: Sets the mode (such as bob or weave).
 old-location: dshow\ivpnotify_setdeinterlacemode.htm
 old-project: DirectShow
 ms.assetid: 41984fb1-7276-4232-b19a-d251c9fcd699
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVPNotify, IVPNotify interface [DirectShow], SetDeinterlaceMode method, IVPNotify::SetDeinterlaceMode, IVPNotifySetDeinterlaceMode, SetDeinterlaceMode method [DirectShow], SetDeinterlaceMode method [DirectShow], IVPNotify interface, SetDeinterlaceMode,IVPNotify.SetDeinterlaceMode, dshow.ivpnotify_setdeinterlacemode, vpnotify/IVPNotify::SetDeinterlaceMode
+ms.date: 4/30/2018
+ms.keywords: IVPNotify interface [DirectShow],SetDeinterlaceMode method, IVPNotify.SetDeinterlaceMode, IVPNotify::SetDeinterlaceMode, IVPNotifySetDeinterlaceMode, SetDeinterlaceMode, SetDeinterlaceMode method [DirectShow], SetDeinterlaceMode method [DirectShow],IVPNotify interface, dshow.ivpnotify_setdeinterlacemode, vpnotify/IVPNotify::SetDeinterlaceMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVPNotify::SetDeinterlaceMode method
+# IVPNotify::SetDeinterlaceMode
 
 
 ## -description

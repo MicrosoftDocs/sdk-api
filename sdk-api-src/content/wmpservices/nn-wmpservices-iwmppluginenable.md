@@ -7,8 +7,8 @@ old-location: wmp\iwmppluginenable.htm
 old-project: WMP
 ms.assetid: 997708e2-18fa-436f-9ca1-cdde5c7414fc
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPluginEnable, IWMPPluginEnable interface [Windows Media Player], IWMPPluginEnable interface [Windows Media Player], described, IWMPPluginEnableInterfaceDSP, wmp.iwmppluginenable, wmpservices/IWMPPluginEnable
+ms.date: 5/4/2018
+ms.keywords: IWMPPluginEnable, IWMPPluginEnable interface [Windows Media Player], IWMPPluginEnable interface [Windows Media Player],described, IWMPPluginEnableInterfaceDSP, wmp.iwmppluginenable, wmpservices/IWMPPluginEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

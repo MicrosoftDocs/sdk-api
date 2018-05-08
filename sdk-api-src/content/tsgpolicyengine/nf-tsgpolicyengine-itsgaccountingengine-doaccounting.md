@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgpolicyengine.ITSGAccountingEngine.DoAccounting
-title: ITSGAccountingEngine::DoAccounting method
+title: ITSGAccountingEngine::DoAccounting
 author: windows-driver-content
 description: Provides information about the creation or closing of sessions for a connection.
 old-location: termserv\itsgaccountingengine_doaccounting.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: ebc57caa-804b-46a4-96bb-8b50c13029ab
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DoAccounting method [Remote Desktop Services], DoAccounting method [Remote Desktop Services], ITSGAccountingEngine interface, DoAccounting,ITSGAccountingEngine.DoAccounting, ITSGAccountingEngine, ITSGAccountingEngine interface [Remote Desktop Services], DoAccounting method, ITSGAccountingEngine::DoAccounting, termserv.itsgaccountingengine_doaccounting, tsgpolicyengine/ITSGAccountingEngine::DoAccounting
+ms.keywords: DoAccounting, DoAccounting method [Remote Desktop Services], DoAccounting method [Remote Desktop Services],ITSGAccountingEngine interface, ITSGAccountingEngine interface [Remote Desktop Services],DoAccounting method, ITSGAccountingEngine.DoAccounting, ITSGAccountingEngine::DoAccounting, termserv.itsgaccountingengine_doaccounting, tsgpolicyengine/ITSGAccountingEngine::DoAccounting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITSGAccountingEngine::DoAccounting method
+# ITSGAccountingEngine::DoAccounting
 
 
 ## -description

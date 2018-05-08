@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.LockInChangePoint
-title: IFileSystemImage::LockInChangePoint method
+title: IFileSystemImage::LockInChangePoint
 author: windows-driver-content
 description: Locks the file system information at the current change-point level.
 old-location: imapi\ifilesystemimage_lockinchangepoint.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: ae5d659c-5da7-4478-b65f-64cbe227dbc5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], LockInChangePoint method, IFileSystemImage::LockInChangePoint, LockInChangePoint method [IMAPI], LockInChangePoint method [IMAPI], IFileSystemImage interface, LockInChangePoint,IFileSystemImage.LockInChangePoint, imapi.ifilesystemimage_lockinchangepoint, imapi2fs/IFileSystemImage::LockInChangePoint
+ms.keywords: IFileSystemImage interface [IMAPI],LockInChangePoint method, IFileSystemImage.LockInChangePoint, IFileSystemImage::LockInChangePoint, LockInChangePoint, LockInChangePoint method [IMAPI], LockInChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_lockinchangepoint, imapi2fs/IFileSystemImage::LockInChangePoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::LockInChangePoint method
+# IFileSystemImage::LockInChangePoint
 
 
 ## -description

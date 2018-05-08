@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_MixLevel
-title: IAMAudioInputMixer::get_MixLevel method
+title: IAMAudioInputMixer::get_MixLevel
 author: windows-driver-content
 description: The get_MixLevel method retrieves the recording level.
 old-location: dshow\iamaudioinputmixer_get_mixlevel.htm
 old-project: DirectShow
 ms.assetid: bdf8f90b-72a4-4faf-9d08-2634582245f8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], get_MixLevel method, IAMAudioInputMixer::get_MixLevel, IAMAudioInputMixerget_MixLevel, dshow.iamaudioinputmixer_get_mixlevel, get_MixLevel method [DirectShow], get_MixLevel method [DirectShow], IAMAudioInputMixer interface, get_MixLevel,IAMAudioInputMixer.get_MixLevel, strmif/IAMAudioInputMixer::get_MixLevel
+ms.date: 4/30/2018
+ms.keywords: IAMAudioInputMixer interface [DirectShow],get_MixLevel method, IAMAudioInputMixer.get_MixLevel, IAMAudioInputMixer::get_MixLevel, IAMAudioInputMixerget_MixLevel, dshow.iamaudioinputmixer_get_mixlevel, get_MixLevel, get_MixLevel method [DirectShow], get_MixLevel method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_MixLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAudioInputMixer::get_MixLevel method
+# IAMAudioInputMixer::get_MixLevel
 
 
 ## -description

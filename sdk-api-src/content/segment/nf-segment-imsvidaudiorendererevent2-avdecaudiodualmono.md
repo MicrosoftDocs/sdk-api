@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDecAudioDualMono
-title: IMSVidAudioRendererEvent2::AVDecAudioDualMono method
+title: IMSVidAudioRendererEvent2::AVDecAudioDualMono
 author: windows-driver-content
 description: Indicates a change in the AVDecAudioDualMono codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdecaudiodualmono.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e5a3984a-a925-4e21-9b2d-50968365bb2b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AVDecAudioDualMono method [Microsoft TV Technologies], AVDecAudioDualMono method [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface, AVDecAudioDualMono,IMSVidAudioRendererEvent2.AVDecAudioDualMono, IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], AVDecAudioDualMono method, IMSVidAudioRendererEvent2::AVDecAudioDualMono, mstv.imsvidaudiorendererevent2_avdecaudiodualmono, segment/IMSVidAudioRendererEvent2::AVDecAudioDualMono
+ms.keywords: AVDecAudioDualMono, AVDecAudioDualMono method [Microsoft TV Technologies], AVDecAudioDualMono method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecAudioDualMono method, IMSVidAudioRendererEvent2.AVDecAudioDualMono, IMSVidAudioRendererEvent2::AVDecAudioDualMono, mstv.imsvidaudiorendererevent2_avdecaudiodualmono, segment/IMSVidAudioRendererEvent2::AVDecAudioDualMono
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidAudioRendererEvent2::AVDecAudioDualMono method
+# IMSVidAudioRendererEvent2::AVDecAudioDualMono
 
 
 ## -description

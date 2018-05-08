@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetclientsv4.htm
 old-project: DHCP
 ms.assetid: 3451dc35-4cd1-4430-a19f-f0aa0533ea4b
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpEnumSubnetClientsV4, DhcpEnumSubnetClientsV4 function [DHCP], dhcp.dhcpenumsubnetclientsv4, dhcpsapi/DhcpEnumSubnetClientsV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetChild
-title: ISettingsItem::GetChild method
+title: ISettingsItem::GetChild
 author: windows-driver-content
 description: Gets the child item that has the specified name.
 old-location: smi\isettingsitem_getchild.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 4a3d3212-bd47-46fb-9ce1-79ac109c6444
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetChild method [SMI], GetChild method [SMI], ISettingsItem interface, GetChild,ISettingsItem.GetChild, ISettingsItem, ISettingsItem interface [SMI], GetChild method, ISettingsItem::GetChild, smi.isettingsitem_getchild, wcmconfig/ISettingsItem::GetChild
+ms.keywords: GetChild, GetChild method [SMI], GetChild method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetChild method, ISettingsItem.GetChild, ISettingsItem::GetChild, smi.isettingsitem_getchild, wcmconfig/ISettingsItem::GetChild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsItem::GetChild method
+# ISettingsItem::GetChild
 
 
 ## -description

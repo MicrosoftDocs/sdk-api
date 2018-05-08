@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.GetBuffer
-title: CHString::GetBuffer method
+title: CHString::GetBuffer
 author: windows-driver-content
 description: The GetBuffer method returns a pointer to the internal character buffer for the CHString object.
 old-location: wmi\chstring_getbuffer.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 07fa7cae-8af6-491b-a561-8947afde47ab
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetBuffer@CHString@@QAEPAGH@Z, ?GetBuffer@CHString@@QEAAPEAGH@Z, CHString, CHString interface [Windows Management Instrumentation], GetBuffer method, CHString::GetBuffer, GetBuffer method [Windows Management Instrumentation], GetBuffer method [Windows Management Instrumentation], CHString interface, GetBuffer,CHString.GetBuffer, _hmm_chstring_getbuffer, chstring/CHString::GetBuffer, wmi.chstring_getbuffer"
+ms.keywords: "?GetBuffer@CHString@@QAEPAGH@Z, ?GetBuffer@CHString@@QEAAPEAGH@Z, CHString interface [Windows Management Instrumentation],GetBuffer method, CHString.GetBuffer, CHString::GetBuffer, GetBuffer, GetBuffer method [Windows Management Instrumentation], GetBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getbuffer, chstring/CHString::GetBuffer, wmi.chstring_getbuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::GetBuffer method
+# CHString::GetBuffer
 
 
 ## -description

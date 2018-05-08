@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: F2A22C00-5B25-48F7-BB25-9C351A47B770
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Cancel, Cancel callback function [Failover Cluster], PCLOSE_ROUTINE, PCLOSE_ROUTINE callback function [Failover Cluster], mscs.cancel, resapi/Cancel, resapi/PCLOSE_ROUTINE
+ms.keywords: Cancel, Cancel callback, Cancel callback function [Failover Cluster], PCLOSE_ROUTINE, PCLOSE_ROUTINE callback function [Failover Cluster], mscs.cancel, resapi/Cancel, resapi/PCLOSE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PCLOSE_ROUTINE callback
+# PCLOSE_ROUTINE callback function
 
 
 ## -description

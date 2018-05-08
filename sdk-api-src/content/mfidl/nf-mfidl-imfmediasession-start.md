@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Start
-title: IMFMediaSession::Start method
+title: IMFMediaSession::Start
 author: windows-driver-content
 description: Starts the Media Session.
 old-location: mf\imfmediasession_start.htm
 old-project: medfound
 ms.assetid: 1bdec0c0-b042-4e5e-a72b-b15942750ced
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 1bdec0c0-b042-4e5e-a72b-b15942750ced, GUID_NULL, IMFMediaSession, IMFMediaSession interface [Media Foundation], Start method, IMFMediaSession::Start, MF_TIME_FORMAT_ENTRY_RELATIVE, MF_TIME_FORMAT_SEGMENT_OFFSET, Start method [Media Foundation], Start method [Media Foundation], IMFMediaSession interface, Start,IMFMediaSession.Start, mf.imfmediasession_start, mfidl/IMFMediaSession::Start
+ms.date: 5/3/2018
+ms.keywords: 1bdec0c0-b042-4e5e-a72b-b15942750ced, GUID_NULL, IMFMediaSession interface [Media Foundation],Start method, IMFMediaSession.Start, IMFMediaSession::Start, MF_TIME_FORMAT_ENTRY_RELATIVE, MF_TIME_FORMAT_SEGMENT_OFFSET, Start, Start method [Media Foundation], Start method [Media Foundation],IMFMediaSession interface, mf.imfmediasession_start, mfidl/IMFMediaSession::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSession::Start method
+# IMFMediaSession::Start
 
 
 ## -description

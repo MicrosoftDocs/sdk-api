@@ -7,7 +7,7 @@ old-location: winrt\iserrorpropagationenabled.htm
 old-project: WinRT
 ms.assetid: 9F2DBD9C-5562-43F1-B3C4-475BB0000364
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: IsErrorPropagationEnabled, IsErrorPropagationEnabled function [Windows Runtime], roerrorapi/IsErrorPropagationEnabled, winrt.iserrorpropagationenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IQuerySolution.GetQuery
-title: IQuerySolution::GetQuery method
+title: IQuerySolution::GetQuery
 author: windows-driver-content
 description: Retrieves the condition tree and the semantic type of the solution.
 old-location: search\_search_IQuerySolution_GetQuery.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\getquery.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetQuery method [search], GetQuery method [search], IQuerySolution interface, GetQuery,IQuerySolution.GetQuery, IQuerySolution, IQuerySolution interface [search], GetQuery method, IQuerySolution::GetQuery, _search_IQuerySolution_GetQuery, search._search_IQuerySolution_GetQuery, structuredquery/IQuerySolution::GetQuery
+ms.date: 5/4/2018
+ms.keywords: GetQuery, GetQuery method [search], GetQuery method [search],IQuerySolution interface, IQuerySolution interface [search],GetQuery method, IQuerySolution.GetQuery, IQuerySolution::GetQuery, _search_IQuerySolution_GetQuery, search._search_IQuerySolution_GetQuery, structuredquery/IQuerySolution::GetQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IQuerySolution::GetQuery method
+# IQuerySolution::GetQuery
 
 
 ## -description

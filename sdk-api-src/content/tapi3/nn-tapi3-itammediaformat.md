@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 82728afe-5743-4b45-86e6-32df021a2a5f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAMMediaFormat, ITAMMediaFormat interface [TAPI 2.2], ITAMMediaFormat interface [TAPI 2.2], described, _tapi3_itammediaformat, tapi3.itammediaformat, tapi3ds/ITAMMediaFormat
+ms.keywords: ITAMMediaFormat, ITAMMediaFormat interface [TAPI 2.2], ITAMMediaFormat interface [TAPI 2.2],described, _tapi3_itammediaformat, tapi3.itammediaformat, tapi3ds/ITAMMediaFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

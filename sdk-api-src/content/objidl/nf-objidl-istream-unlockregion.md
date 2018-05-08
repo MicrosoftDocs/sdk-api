@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.UnlockRegion
-title: IStream::UnlockRegion method
+title: IStream::UnlockRegion
 author: windows-driver-content
 description: The UnlockRegion method removes the access restriction on a range of bytes previously restricted with IStream::LockRegion.
 old-location: stg\istream_unlockregion.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: e34c8d94-b24b-4041-b5dd-2a4ed74b01ec
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IStream, IStream interface [Structured Storage], UnlockRegion method, IStream::UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage], IStream interface, UnlockRegion,IStream.UnlockRegion, _stg_istream_unlockregion, objidl/IStream::UnlockRegion, stg.istream_unlockregion
+ms.keywords: IStream interface [Structured Storage],UnlockRegion method, IStream.UnlockRegion, IStream::UnlockRegion, UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage],IStream interface, _stg_istream_unlockregion, objidl/IStream::UnlockRegion, stg.istream_unlockregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStream::UnlockRegion method
+# IStream::UnlockRegion
 
 
 ## -description

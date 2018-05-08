@@ -7,8 +7,8 @@ old-location: security\pfncryptsipgetcaps.htm
 old-project: SecCrypto
 ms.assetid: 8EA46B67-F542-4B15-81F4-3DD83DD45764
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: mssip/pCryptSIPGetCaps, pCryptSIPGetCaps, pCryptSIPGetCaps function pointer [Security], security.pfncryptsipgetcaps
+ms.date: 4/30/2018
+ms.keywords: mssip/pCryptSIPGetCaps, pCryptSIPGetCaps, pCryptSIPGetCaps function, pCryptSIPGetCaps function pointer [Security], security.pfncryptsipgetcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# pCryptSIPGetCaps callback
+# pCryptSIPGetCaps callback function
 
 
 ## -description

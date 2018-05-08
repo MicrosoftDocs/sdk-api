@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetFuncAndParamNames
-title: ICreateTypeInfo::SetFuncAndParamNames method
+title: ICreateTypeInfo::SetFuncAndParamNames
 author: windows-driver-content
 description: Sets the name of a function and the names of its parameters to the specified names.
 old-location: automat\icreatetypeinfo_setfuncandparamnames.htm
 old-project: automat
 ms.assetid: e3764917-43ea-4151-95da-e01946a2ebb7
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetFuncAndParamNames method, ICreateTypeInfo::SetFuncAndParamNames, SetFuncAndParamNames method [Automation], SetFuncAndParamNames method [Automation], ICreateTypeInfo interface, SetFuncAndParamNames,ICreateTypeInfo.SetFuncAndParamNames, _oa96_ICreateTypeInfo_SetFuncAndParamNames, automat.icreatetypeinfo_setfuncandparamnames, oaidl/ICreateTypeInfo::SetFuncAndParamNames
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo interface [Automation],SetFuncAndParamNames method, ICreateTypeInfo.SetFuncAndParamNames, ICreateTypeInfo::SetFuncAndParamNames, SetFuncAndParamNames, SetFuncAndParamNames method [Automation], SetFuncAndParamNames method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncAndParamNames, automat.icreatetypeinfo_setfuncandparamnames, oaidl/ICreateTypeInfo::SetFuncAndParamNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo::SetFuncAndParamNames method
+# ICreateTypeInfo::SetFuncAndParamNames
 
 
 ## -description

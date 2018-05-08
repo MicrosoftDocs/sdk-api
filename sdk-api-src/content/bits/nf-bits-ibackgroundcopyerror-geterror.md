@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetError
-title: IBackgroundCopyError::GetError method
+title: IBackgroundCopyError::GetError
 author: windows-driver-content
 description: Retrieves the error code and identify the context in which the error occurred.
 old-location: bits\ibackgroundcopyerror_geterror.htm
 old-project: Bits
 ms.assetid: abdf115d-3ff2-4664-b053-f55872ad24ab
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetError method [BITS], GetError method [BITS], IBackgroundCopyError interface, GetError,IBackgroundCopyError.GetError, IBackgroundCopyError, IBackgroundCopyError interface [BITS], GetError method, IBackgroundCopyError::GetError, _drz_ibackgroundcopyerror_geterror, bits.ibackgroundcopyerror_geterror, bits/IBackgroundCopyError::GetError
+ms.date: 4/27/2018
+ms.keywords: GetError, GetError method [BITS], GetError method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetError method, IBackgroundCopyError.GetError, IBackgroundCopyError::GetError, _drz_ibackgroundcopyerror_geterror, bits.ibackgroundcopyerror_geterror, bits/IBackgroundCopyError::GetError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyError::GetError method
+# IBackgroundCopyError::GetError
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.UnadviseEventSink
-title: ITfLangBarMgr::UnadviseEventSink method
+title: ITfLangBarMgr::UnadviseEventSink
 author: windows-driver-content
 description: ITfLangBarMgr::UnadviseEventSink method
 old-location: tsf\itflangbarmgr_unadviseeventsink.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 29dc5276-04fa-4219-a64d-10d775d73fdd
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarMgr, ITfLangBarMgr interface [Text Services Framework], UnadviseEventSink method, ITfLangBarMgr::UnadviseEventSink, UnadviseEventSink method [Text Services Framework], UnadviseEventSink method [Text Services Framework], ITfLangBarMgr interface, UnadviseEventSink,ITfLangBarMgr.UnadviseEventSink, _tsf_itflangbarmgr_unadviseeventsink_ref, ctfutb/ITfLangBarMgr::UnadviseEventSink, tsf.itflangbarmgr_unadviseeventsink
+ms.keywords: ITfLangBarMgr interface [Text Services Framework],UnadviseEventSink method, ITfLangBarMgr.UnadviseEventSink, ITfLangBarMgr::UnadviseEventSink, UnadviseEventSink, UnadviseEventSink method [Text Services Framework], UnadviseEventSink method [Text Services Framework],ITfLangBarMgr interface, _tsf_itflangbarmgr_unadviseeventsink_ref, ctfutb/ITfLangBarMgr::UnadviseEventSink, tsf.itflangbarmgr_unadviseeventsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarMgr::UnadviseEventSink method
+# ITfLangBarMgr::UnadviseEventSink
 
 
 ## -description

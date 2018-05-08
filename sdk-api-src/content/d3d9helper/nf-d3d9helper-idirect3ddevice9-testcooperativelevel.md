@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.TestCooperativeLevel
-title: IDirect3DDevice9::TestCooperativeLevel method
+title: IDirect3DDevice9::TestCooperativeLevel
 author: windows-driver-content
 description: Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
 old-location: direct3d9\idirect3ddevice9__testcooperativelevel.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__testcooperativelevel.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 613a6a7b-3b6f-b565-1f3a-2b5322844deb, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], TestCooperativeLevel method, IDirect3DDevice9::TestCooperativeLevel, TestCooperativeLevel method [Direct3D 9], TestCooperativeLevel method [Direct3D 9], IDirect3DDevice9 interface, TestCooperativeLevel,IDirect3DDevice9.TestCooperativeLevel, d3d9helper/IDirect3DDevice9::TestCooperativeLevel, direct3d9.idirect3ddevice9__testcooperativelevel
+ms.keywords: 613a6a7b-3b6f-b565-1f3a-2b5322844deb, IDirect3DDevice9 interface [Direct3D 9],TestCooperativeLevel method, IDirect3DDevice9.TestCooperativeLevel, IDirect3DDevice9::TestCooperativeLevel, TestCooperativeLevel, TestCooperativeLevel method [Direct3D 9], TestCooperativeLevel method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::TestCooperativeLevel, direct3d9.idirect3ddevice9__testcooperativelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::TestCooperativeLevel method
+# IDirect3DDevice9::TestCooperativeLevel
 
 
 ## -description

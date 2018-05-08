@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetTime
-title: IAMMediaTypeSample::SetTime method
+title: IAMMediaTypeSample::SetTime
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The SetTime method sets the stream times at which the sample should start and stop.
 old-location: dshow\iammediatypesample_settime.htm
 old-project: DirectShow
 ms.assetid: b8f2c1bd-ea78-43b8-881c-d1f1a64ee575
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], SetTime method, IAMMediaTypeSample::SetTime, IAMMediaTypeSampleSetTime, SetTime method [DirectShow], SetTime method [DirectShow], IAMMediaTypeSample interface, SetTime,IAMMediaTypeSample.SetTime, amstream/IAMMediaTypeSample::SetTime, dshow.iammediatypesample_settime
+ms.date: 4/30/2018
+ms.keywords: IAMMediaTypeSample interface [DirectShow],SetTime method, IAMMediaTypeSample.SetTime, IAMMediaTypeSample::SetTime, IAMMediaTypeSampleSetTime, SetTime, SetTime method [DirectShow], SetTime method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetTime, dshow.iammediatypesample_settime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaTypeSample::SetTime method
+# IAMMediaTypeSample::SetTime
 
 
 ## -description

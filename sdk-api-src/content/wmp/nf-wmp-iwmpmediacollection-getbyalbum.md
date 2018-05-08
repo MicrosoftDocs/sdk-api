@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByAlbum
-title: IWMPMediaCollection::getByAlbum method
+title: IWMPMediaCollection::getByAlbum
 author: windows-driver-content
 description: The getByAlbum method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items from the specified album.
 old-location: wmp\iwmpmediacollection_getbyalbum.htm
 old-project: WMP
 ms.assetid: 8db2349b-46f4-4863-a409-a85983362046
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], getByAlbum method, IWMPMediaCollection::getByAlbum, IWMPMediaCollectiongetByAlbum, getByAlbum method [Windows Media Player], getByAlbum method [Windows Media Player], IWMPMediaCollection interface, getByAlbum,IWMPMediaCollection.getByAlbum, wmp.iwmpmediacollection_getbyalbum, wmp/IWMPMediaCollection::getByAlbum
+ms.date: 5/4/2018
+ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByAlbum method, IWMPMediaCollection.getByAlbum, IWMPMediaCollection::getByAlbum, IWMPMediaCollectiongetByAlbum, getByAlbum, getByAlbum method [Windows Media Player], getByAlbum method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyalbum, wmp/IWMPMediaCollection::getByAlbum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMediaCollection::getByAlbum method
+# IWMPMediaCollection::getByAlbum
 
 
 ## -description

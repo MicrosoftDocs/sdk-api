@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll4.resetExtensions
-title: IEnroll4::resetExtensions method
+title: IEnroll4::resetExtensions
 author: windows-driver-content
 description: Removes all extensions from the request.
 old-location: security\ienroll4_resetextensions.htm
 old-project: SecCrypto
 ms.assetid: 6e03ecaa-3996-4aea-b328-e438194f30d5
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll4, IEnroll4 interface [Security], resetExtensions method, IEnroll4::resetExtensions, resetExtensions method [Security], resetExtensions method [Security], IEnroll4 interface, resetExtensions,IEnroll4.resetExtensions, security.ienroll4_resetextensions, xenroll/IEnroll4::resetExtensions
+ms.date: 4/30/2018
+ms.keywords: IEnroll4 interface [Security],resetExtensions method, IEnroll4.resetExtensions, IEnroll4::resetExtensions, resetExtensions, resetExtensions method [Security], resetExtensions method [Security],IEnroll4 interface, security.ienroll4_resetextensions, xenroll/IEnroll4::resetExtensions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll4::resetExtensions method
+# IEnroll4::resetExtensions
 
 
 ## -description

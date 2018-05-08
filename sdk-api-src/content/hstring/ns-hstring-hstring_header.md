@@ -7,7 +7,7 @@ old-location: winrt\hstring_header.htm
 old-project: WinRT
 ms.assetid: E63E73A7-1908-4CEC-ADCB-1A3D23BE8A3B
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: HSTRING_HEADER, HSTRING_HEADER structure [Windows Runtime], hstring/HSTRING_HEADER, winrt.hstring_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,16 +61,14 @@ Represents a header for an <a href="https://msdn.microsoft.com/763ACE57-EFDD-482
 ### -field Reserved
 
 
-
-#### Reserved1
+### -field Reserved.Reserved1
 
 <b>Type: <b>PVOID</b>
 </b>
 Reserved for future use.
 
 
-
-#### Reserved2
+### -field Reserved.Reserved2
 
 <b>Type: <b>char[24]</b>
 </b>

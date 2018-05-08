@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmap.SetResolution
-title: IWICBitmap::SetResolution method
+title: IWICBitmap::SetResolution
 author: windows-driver-content
 description: Changes the physical resolution of the image.
 old-location: wic\_wic_codec_iwicbitmap_setresolution.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: d8b6c600-0ef0-4fa7-a70f-0299e640c196
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICBitmap, IWICBitmap interface [Windows Imaging Component], SetResolution method, IWICBitmap::SetResolution, SetResolution method [Windows Imaging Component], SetResolution method [Windows Imaging Component], IWICBitmap interface, SetResolution,IWICBitmap.SetResolution, _wic_codec_iwicbitmap_setresolution, wic._wic_codec_iwicbitmap_setresolution, wincodec/IWICBitmap::SetResolution
+ms.keywords: IWICBitmap interface [Windows Imaging Component],SetResolution method, IWICBitmap.SetResolution, IWICBitmap::SetResolution, SetResolution, SetResolution method [Windows Imaging Component], SetResolution method [Windows Imaging Component],IWICBitmap interface, _wic_codec_iwicbitmap_setresolution, wic._wic_codec_iwicbitmap_setresolution, wincodec/IWICBitmap::SetResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmap::SetResolution method
+# IWICBitmap::SetResolution
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteStreamParameter
-title: IWbemObjectSinkEx::WriteStreamParameter method
+title: IWbemObjectSinkEx::WriteStreamParameter
 author: windows-driver-content
 description: TBD
 old-location: wmi\iwbemobjectsinkex_writestreamparameter.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 609ed388-3d6a-49ba-91ae-78a34bddd100
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemObjectSinkEx, IWbemObjectSinkEx interface [Windows Management Instrumentation], WriteStreamParameter method, IWbemObjectSinkEx::WriteStreamParameter, WriteStreamParameter method [Windows Management Instrumentation], WriteStreamParameter method [Windows Management Instrumentation], IWbemObjectSinkEx interface, WriteStreamParameter,IWbemObjectSinkEx.WriteStreamParameter, wbemcli/IWbemObjectSinkEx::WriteStreamParameter, wmi.iwbemobjectsinkex_writestreamparameter
+ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteStreamParameter method, IWbemObjectSinkEx.WriteStreamParameter, IWbemObjectSinkEx::WriteStreamParameter, WriteStreamParameter, WriteStreamParameter method [Windows Management Instrumentation], WriteStreamParameter method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteStreamParameter, wmi.iwbemobjectsinkex_writestreamparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemObjectSinkEx::WriteStreamParameter method
+# IWbemObjectSinkEx::WriteStreamParameter
 
 
 ## -description

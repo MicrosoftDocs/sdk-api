@@ -7,8 +7,8 @@ old-location: wmp\iwmpeffects.htm
 old-project: WMP
 ms.assetid: 0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: EffectsInterface, IWMPEffects, IWMPEffects interface [Windows Media Player], IWMPEffects interface [Windows Media Player], described, effects/IWMPEffects, wmp.iwmpeffects
+ms.date: 5/4/2018
+ms.keywords: EffectsInterface, IWMPEffects, IWMPEffects interface [Windows Media Player], IWMPEffects interface [Windows Media Player],described, effects/IWMPEffects, wmp.iwmpeffects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

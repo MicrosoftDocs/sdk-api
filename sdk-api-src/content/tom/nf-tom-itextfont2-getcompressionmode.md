@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.GetCompressionMode
-title: ITextFont2::GetCompressionMode method
+title: ITextFont2::GetCompressionMode
 author: windows-driver-content
 description: Gets the East Asian compression mode.
 old-location: controls\itextfont2_getcompressionmode.htm
 old-project: Controls
 ms.assetid: 3fefba0c-54a3-4013-8922-ba556ef785a6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetCompressionMode method [Windows Controls], GetCompressionMode method [Windows Controls], ITextFont2 interface, GetCompressionMode,ITextFont2.GetCompressionMode, ITextFont2, ITextFont2 interface [Windows Controls], GetCompressionMode method, ITextFont2::GetCompressionMode, controls.itextfont2_getcompressionmode, tom/ITextFont2::GetCompressionMode, tomCompressNone (default), tomCompressPunctuation, tomCompressPunctuationAndKana
+ms.date: 4/27/2018
+ms.keywords: GetCompressionMode, GetCompressionMode method [Windows Controls], GetCompressionMode method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetCompressionMode method, ITextFont2.GetCompressionMode, ITextFont2::GetCompressionMode, controls.itextfont2_getcompressionmode, tom/ITextFont2::GetCompressionMode, tomCompressNone (default), tomCompressPunctuation, tomCompressPunctuationAndKana
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::GetCompressionMode method
+# ITextFont2::GetCompressionMode
 
 
 ## -description

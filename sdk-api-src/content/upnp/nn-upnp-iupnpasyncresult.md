@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: 53854510-BB0C-41E6-8651-F34991B24D5E
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IUPnPAsyncResult, IUPnPAsyncResult interface [UPnP APIs], IUPnPAsyncResult interface [UPnP APIs], described, upnp.iupnpasyncresult, upnp/IUPnPAsyncResult
+ms.keywords: IUPnPAsyncResult, IUPnPAsyncResult interface [UPnP APIs], IUPnPAsyncResult interface [UPnP APIs],described, upnp.iupnpasyncresult, upnp/IUPnPAsyncResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

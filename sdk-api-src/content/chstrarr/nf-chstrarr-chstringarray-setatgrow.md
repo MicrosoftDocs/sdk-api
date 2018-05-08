@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.SetAtGrow
-title: CHStringArray::SetAtGrow method
+title: CHStringArray::SetAtGrow
 author: windows-driver-content
 description: Sets the array element at the specified index.
 old-location: wmi\chstringarray_setatgrow.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 49cc7e6f-2d15-4756-bffd-e21f38b8ce8b
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHStringArray, CHStringArray interface [Windows Management Instrumentation], SetAtGrow method, CHStringArray::SetAtGrow, SetAtGrow method [Windows Management Instrumentation], SetAtGrow method [Windows Management Instrumentation], CHStringArray interface, SetAtGrow,CHStringArray.SetAtGrow, _hmm_chstringarray_setatgrow, chstrarr/CHStringArray::SetAtGrow, wmi.chstringarray_setatgrow
+ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetAtGrow method, CHStringArray.SetAtGrow, CHStringArray::SetAtGrow, SetAtGrow, SetAtGrow method [Windows Management Instrumentation], SetAtGrow method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setatgrow, chstrarr/CHStringArray::SetAtGrow, wmi.chstringarray_setatgrow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHStringArray::SetAtGrow method
+# CHStringArray::SetAtGrow
 
 
 ## -description

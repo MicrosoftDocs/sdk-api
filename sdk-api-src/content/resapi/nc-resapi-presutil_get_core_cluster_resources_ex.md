@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: F6C576C1-5D34-41EB-95A4-BC8F78F02414
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX, PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX callback function [Failover Cluster], mscs.resutilgetcoreclusterresourcesex, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX
+ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX, PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX callback, PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX callback function [Failover Cluster], mscs.resutilgetcoreclusterresourcesex, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX callback
+# PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX callback function
 
 
 ## -description

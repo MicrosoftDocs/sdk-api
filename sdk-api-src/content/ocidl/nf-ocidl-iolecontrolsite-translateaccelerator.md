@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControlSite.TranslateAccelerator
-title: IOleControlSite::TranslateAccelerator method
+title: IOleControlSite::TranslateAccelerator
 author: windows-driver-content
 description: Passes a keystroke to the control site for processing.
 old-location: com\iolecontrolsite_translateaccelerator.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: e4f9a6f7-bb0f-41d2-b1b8-7fda2dbee278
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleControlSite, IOleControlSite interface [COM], TranslateAccelerator method, IOleControlSite::TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM], IOleControlSite interface, TranslateAccelerator,IOleControlSite.TranslateAccelerator, _ctrl_iolecontrolsite_translateaccelerator, com.iolecontrolsite_translateaccelerator, ocidl/IOleControlSite::TranslateAccelerator
+ms.keywords: IOleControlSite interface [COM],TranslateAccelerator method, IOleControlSite.TranslateAccelerator, IOleControlSite::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_translateaccelerator, com.iolecontrolsite_translateaccelerator, ocidl/IOleControlSite::TranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleControlSite::TranslateAccelerator method
+# IOleControlSite::TranslateAccelerator
 
 
 ## -description

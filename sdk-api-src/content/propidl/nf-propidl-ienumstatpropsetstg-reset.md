@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IEnumSTATPROPSETSTG.Reset
-title: IEnumSTATPROPSETSTG::Reset method
+title: IEnumSTATPROPSETSTG::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning of the STATPROPSETSTG structure array.
 old-location: stg\ienumstatpropsetstg_reset.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 41207be6-81ec-4dfc-a737-eb56792edb6d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IEnumSTATPROPSETSTG, IEnumSTATPROPSETSTG interface [Structured Storage], Reset method, IEnumSTATPROPSETSTG::Reset, Reset method [Structured Storage], Reset method [Structured Storage], IEnumSTATPROPSETSTG interface, Reset,IEnumSTATPROPSETSTG.Reset, propidlbase/IEnumSTATPROPSETSTG::Reset, stg.ienumstatpropsetstg_reset
+ms.keywords: IEnumSTATPROPSETSTG interface [Structured Storage],Reset method, IEnumSTATPROPSETSTG.Reset, IEnumSTATPROPSETSTG::Reset, Reset, Reset method [Structured Storage], Reset method [Structured Storage],IEnumSTATPROPSETSTG interface, propidlbase/IEnumSTATPROPSETSTG::Reset, stg.ienumstatpropsetstg_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumSTATPROPSETSTG::Reset method
+# IEnumSTATPROPSETSTG::Reset
 
 
 ## -description

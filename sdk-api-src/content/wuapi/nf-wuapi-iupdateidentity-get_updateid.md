@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateIdentity.get_UpdateID
-title: IUpdateIdentity::get_UpdateID method
+title: IUpdateIdentity::get_UpdateID
 author: windows-driver-content
 description: Gets the revision-independent identifier of an update.
 old-location: wua\iupdateidentity_updateid.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 072c85a7-bcac-4323-97df-75aa2b89f1ba
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateIdentity, IUpdateIdentity interface [Windows Update Agent], UpdateID property, IUpdateIdentity.UpdateID, IUpdateIdentity::get_UpdateID, UpdateID property [Windows Update Agent], UpdateID property [Windows Update Agent], IUpdateIdentity interface, get_UpdateID,IUpdateIdentity.get_UpdateID, wua.iupdateidentity_updateid, wuapi/IUpdateIdentity::UpdateID, wuapi/IUpdateIdentity::get_UpdateID
+ms.keywords: IUpdateIdentity interface [Windows Update Agent],UpdateID property, IUpdateIdentity.UpdateID, IUpdateIdentity.get_UpdateID, IUpdateIdentity::UpdateID, IUpdateIdentity::get_UpdateID, UpdateID property [Windows Update Agent], UpdateID property [Windows Update Agent],IUpdateIdentity interface, get_UpdateID, wua.iupdateidentity_updateid, wuapi/IUpdateIdentity::UpdateID, wuapi/IUpdateIdentity::get_UpdateID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateIdentity::get_UpdateID method
+# IUpdateIdentity::get_UpdateID
 
 
 ## -description

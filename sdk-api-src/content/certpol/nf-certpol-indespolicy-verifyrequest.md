@@ -1,14 +1,14 @@
 ---
 UID: NF:certpol.INDESPolicy.VerifyRequest
-title: INDESPolicy::VerifyRequest method
+title: INDESPolicy::VerifyRequest
 author: windows-driver-content
 description: Verifies the NDES certificate request for submission to the CA.
 old-location: security\indespolicy_verifyrequest.htm
 old-project: SecCrypto
 ms.assetid: 420ef521-07ff-466c-a3c2-cbffd896ca16
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: INDESPolicy, INDESPolicy interface [Security], VerifyRequest method, INDESPolicy::VerifyRequest, VerifyRequest method [Security], VerifyRequest method [Security], INDESPolicy interface, VerifyRequest,INDESPolicy.VerifyRequest, certpol/INDESPolicy::VerifyRequest, security.indespolicy_verifyrequest
+ms.date: 4/30/2018
+ms.keywords: INDESPolicy interface [Security],VerifyRequest method, INDESPolicy.VerifyRequest, INDESPolicy::VerifyRequest, VerifyRequest, VerifyRequest method [Security], VerifyRequest method [Security],INDESPolicy interface, certpol/INDESPolicy::VerifyRequest, security.indespolicy_verifyrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# INDESPolicy::VerifyRequest method
+# INDESPolicy::VerifyRequest
 
 
 ## -description

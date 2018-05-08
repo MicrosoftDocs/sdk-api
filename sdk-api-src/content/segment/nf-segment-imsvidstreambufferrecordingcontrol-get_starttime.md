@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_StartTime
-title: IMSVidStreamBufferRecordingControl::get_StartTime method
+title: IMSVidStreamBufferRecordingControl::get_StartTime
 author: windows-driver-content
 description: The get_StartTime method retrieves the start time of the recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_starttime.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3efe3cd3-cd26-4a91-b305-6e8677a0cd88
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferRecordingControl, IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies], get_StartTime method, IMSVidStreamBufferRecordingControl::get_StartTime, IMSVidStreamBufferRecordingControlget_StartTime, get_StartTime method [Microsoft TV Technologies], get_StartTime method [Microsoft TV Technologies], IMSVidStreamBufferRecordingControl interface, get_StartTime,IMSVidStreamBufferRecordingControl.get_StartTime, mstv.imsvidstreambufferrecordingcontrol_get_starttime, segment/IMSVidStreamBufferRecordingControl::get_StartTime
+ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_StartTime method, IMSVidStreamBufferRecordingControl.get_StartTime, IMSVidStreamBufferRecordingControl::get_StartTime, IMSVidStreamBufferRecordingControlget_StartTime, get_StartTime, get_StartTime method [Microsoft TV Technologies], get_StartTime method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_starttime, segment/IMSVidStreamBufferRecordingControl::get_StartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferRecordingControl::get_StartTime method
+# IMSVidStreamBufferRecordingControl::get_StartTime
 
 
 ## -description

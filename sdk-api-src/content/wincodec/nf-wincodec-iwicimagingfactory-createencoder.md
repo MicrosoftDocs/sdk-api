@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateEncoder
-title: IWICImagingFactory::CreateEncoder method
+title: IWICImagingFactory::CreateEncoder
 author: windows-driver-content
 description: Creates a new instance of the IWICBitmapEncoder class.
 old-location: wic\_wic_codec_iwicimagingfactory_createencoder.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 7aae3ea6-2d8b-4764-9c78-a6cce49012a5
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateEncoder method [Windows Imaging Component], CreateEncoder method [Windows Imaging Component], IWICImagingFactory interface, CreateEncoder,IWICImagingFactory.CreateEncoder, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateEncoder method, IWICImagingFactory::CreateEncoder, _wic_codec_iwicimagingfactory_createencoder, wic._wic_codec_iwicimagingfactory_createencoder, wincodec/IWICImagingFactory::CreateEncoder
+ms.keywords: CreateEncoder, CreateEncoder method [Windows Imaging Component], CreateEncoder method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateEncoder method, IWICImagingFactory.CreateEncoder, IWICImagingFactory::CreateEncoder, _wic_codec_iwicimagingfactory_createencoder, wic._wic_codec_iwicimagingfactory_createencoder, wincodec/IWICImagingFactory::CreateEncoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICImagingFactory::CreateEncoder method
+# IWICImagingFactory::CreateEncoder
 
 
 ## -description

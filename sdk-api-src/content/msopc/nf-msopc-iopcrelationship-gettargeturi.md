@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetTargetUri
-title: IOpcRelationship::GetTargetUri method
+title: IOpcRelationship::GetTargetUri
 author: windows-driver-content
 description: Gets the URI of the relationship&#160;target.
 old-location: opc\iopcrelationship_gettargeturi.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 65b04931-dc4e-4eb5-b542-a7b46c3164de
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetTargetUri method [Open Packaging Conventions], GetTargetUri method [Open Packaging Conventions], IOpcRelationship interface, GetTargetUri,IOpcRelationship.GetTargetUri, IOpcRelationship, IOpcRelationship interface [Open Packaging Conventions], GetTargetUri method, IOpcRelationship::GetTargetUri, msopc/IOpcRelationship::GetTargetUri, opc.iopcrelationship_gettargeturi
+ms.keywords: GetTargetUri, GetTargetUri method [Open Packaging Conventions], GetTargetUri method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetTargetUri method, IOpcRelationship.GetTargetUri, IOpcRelationship::GetTargetUri, msopc/IOpcRelationship::GetTargetUri, opc.iopcrelationship_gettargeturi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcRelationship::GetTargetUri method
+# IOpcRelationship::GetTargetUri
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: rpc\rpclocaladdressformat.htm
 old-project: Rpc
 ms.assetid: c05610ba-6b00-45e4-b28f-9ce288d08df8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcLocalAddressFormat, RpcLocalAddressFormat enumeration [RPC], rlafIPv4, rlafIPv6, rlafInvalid, rpc.rpclocaladdressformat, rpcasync/RpcLocalAddressFormat, rpcasync/rlafIPv4, rpcasync/rlafIPv6, rpcasync/rlafInvalid, tagRpcLocalAddressFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

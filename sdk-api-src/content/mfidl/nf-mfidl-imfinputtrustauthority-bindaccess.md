@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.BindAccess
-title: IMFInputTrustAuthority::BindAccess method
+title: IMFInputTrustAuthority::BindAccess
 author: windows-driver-content
 description: Notifies the input trust authority (ITA) that a requested action is about to be performed.
 old-location: mf\imfinputtrustauthority_bindaccess.htm
 old-project: medfound
 ms.assetid: 94e447af-9311-4a2c-9ec5-be371684f79d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 94e447af-9311-4a2c-9ec5-be371684f79d, BindAccess method [Media Foundation], BindAccess method [Media Foundation], IMFInputTrustAuthority interface, BindAccess,IMFInputTrustAuthority.BindAccess, IMFInputTrustAuthority, IMFInputTrustAuthority interface [Media Foundation], BindAccess method, IMFInputTrustAuthority::BindAccess, mf.imfinputtrustauthority_bindaccess, mfidl/IMFInputTrustAuthority::BindAccess
+ms.date: 5/3/2018
+ms.keywords: 94e447af-9311-4a2c-9ec5-be371684f79d, BindAccess, BindAccess method [Media Foundation], BindAccess method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],BindAccess method, IMFInputTrustAuthority.BindAccess, IMFInputTrustAuthority::BindAccess, mf.imfinputtrustauthority_bindaccess, mfidl/IMFInputTrustAuthority::BindAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFInputTrustAuthority::BindAccess method
+# IMFInputTrustAuthority::BindAccess
 
 
 ## -description

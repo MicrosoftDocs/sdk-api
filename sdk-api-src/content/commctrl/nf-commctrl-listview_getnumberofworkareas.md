@@ -7,7 +7,7 @@ old-location: controls\ListView_GetNumberOfWorkAreas.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnumberofworkareas.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: ListView_GetNumberOfWorkAreas, ListView_GetNumberOfWorkAreas macro [Windows Controls], _win32_ListView_GetNumberOfWorkAreas, _win32_ListView_GetNumberOfWorkAreas_cpp, commctrl/ListView_GetNumberOfWorkAreas, controls.ListView_GetNumberOfWorkAreas, controls._win32_ListView_GetNumberOfWorkAreas
 ms.prod: windows-hardware
 ms.technology: windows-devices

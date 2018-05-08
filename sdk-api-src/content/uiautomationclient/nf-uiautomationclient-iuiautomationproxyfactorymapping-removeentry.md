@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.RemoveEntry
-title: IUIAutomationProxyFactoryMapping::RemoveEntry method
+title: IUIAutomationProxyFactoryMapping::RemoveEntry
 author: windows-driver-content
 description: Removes an entry from the table of proxy factories.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 1a09fbda-9e95-4f31-b669-e68310071aa9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationProxyFactoryMapping, IUIAutomationProxyFactoryMapping interface [Windows Accessibility], RemoveEntry method, IUIAutomationProxyFactoryMapping::RemoveEntry, RemoveEntry method [Windows Accessibility], RemoveEntry method [Windows Accessibility], IUIAutomationProxyFactoryMapping interface, RemoveEntry,IUIAutomationProxyFactoryMapping.RemoveEntry, uiauto.uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry, uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry, uiautomationclient/IUIAutomationProxyFactoryMapping::RemoveEntry, winauto.uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry
+ms.keywords: IUIAutomationProxyFactoryMapping interface [Windows Accessibility],RemoveEntry method, IUIAutomationProxyFactoryMapping.RemoveEntry, IUIAutomationProxyFactoryMapping::RemoveEntry, RemoveEntry, RemoveEntry method [Windows Accessibility], RemoveEntry method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, uiauto.uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry, uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry, uiautomationclient/IUIAutomationProxyFactoryMapping::RemoveEntry, winauto.uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationProxyFactoryMapping::RemoveEntry method
+# IUIAutomationProxyFactoryMapping::RemoveEntry
 
 
 ## -description

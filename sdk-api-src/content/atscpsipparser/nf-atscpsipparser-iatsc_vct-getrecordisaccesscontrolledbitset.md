@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordIsAccessControlledBitSet
-title: IATSC_VCT::GetRecordIsAccessControlledBitSet method
+title: IATSC_VCT::GetRecordIsAccessControlledBitSet
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordisaccesscontrolledbitset.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c94dc694-dc3f-4639-997e-fb6d534c9e4c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies], GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordIsAccessControlledBitSet,IATSC_VCT.GetRecordIsAccessControlledBitSet, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordIsAccessControlledBitSet method, IATSC_VCT::GetRecordIsAccessControlledBitSet, IATSC_VCTGetRecordIsAccessControlledBitSet, atscpsipparser/IATSC_VCT::GetRecordIsAccessControlledBitSet, mstv.iatsc_vct_getrecordisaccesscontrolledbitset
+ms.keywords: GetRecordIsAccessControlledBitSet, GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies], GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsAccessControlledBitSet method, IATSC_VCT.GetRecordIsAccessControlledBitSet, IATSC_VCT::GetRecordIsAccessControlledBitSet, IATSC_VCTGetRecordIsAccessControlledBitSet, atscpsipparser/IATSC_VCT::GetRecordIsAccessControlledBitSet, mstv.iatsc_vct_getrecordisaccesscontrolledbitset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_VCT::GetRecordIsAccessControlledBitSet method
+# IATSC_VCT::GetRecordIsAccessControlledBitSet
 
 
 ## -description

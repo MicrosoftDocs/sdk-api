@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfUIElements.Skip
-title: IEnumTfUIElements::Skip method
+title: IEnumTfUIElements::Skip
 author: windows-driver-content
 description: The IEnumTfUIElements::Skip method obtains, from the current position, the specified number of elements in the enumeration sequence.
 old-location: tsf\ienumtfuielements_skip.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 44ba8fb1-e702-4f53-b95a-719b4fdfcaa0
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfUIElements, IEnumTfUIElements interface [Text Services Framework], Skip method, IEnumTfUIElements::Skip, Skip method [Text Services Framework], Skip method [Text Services Framework], IEnumTfUIElements interface, Skip,IEnumTfUIElements.Skip, msctf/IEnumTfUIElements::Skip, tsf.ienumtfuielements_skip
+ms.keywords: IEnumTfUIElements interface [Text Services Framework],Skip method, IEnumTfUIElements.Skip, IEnumTfUIElements::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfUIElements interface, msctf/IEnumTfUIElements::Skip, tsf.ienumtfuielements_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfUIElements::Skip method
+# IEnumTfUIElements::Skip
 
 
 ## -description

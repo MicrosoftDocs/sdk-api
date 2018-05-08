@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.SetStreamSelectorFlags
-title: IMFASFStreamSelector::SetStreamSelectorFlags method
+title: IMFASFStreamSelector::SetStreamSelectorFlags
 author: windows-driver-content
 description: Sets options for the stream selector.
 old-location: mf\imfasfstreamselector_setstreamselectorflags.htm
 old-project: medfound
 ms.assetid: a2a0f318-0de2-49e0-b8f2-847ab1371752
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], SetStreamSelectorFlags method, IMFASFStreamSelector::SetStreamSelectorFlags, SetStreamSelectorFlags method [Media Foundation], SetStreamSelectorFlags method [Media Foundation], IMFASFStreamSelector interface, SetStreamSelectorFlags,IMFASFStreamSelector.SetStreamSelectorFlags, a2a0f318-0de2-49e0-b8f2-847ab1371752, mf.imfasfstreamselector_setstreamselectorflags, wmcontainer/IMFASFStreamSelector::SetStreamSelectorFlags
+ms.date: 5/3/2018
+ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetStreamSelectorFlags method, IMFASFStreamSelector.SetStreamSelectorFlags, IMFASFStreamSelector::SetStreamSelectorFlags, SetStreamSelectorFlags, SetStreamSelectorFlags method [Media Foundation], SetStreamSelectorFlags method [Media Foundation],IMFASFStreamSelector interface, a2a0f318-0de2-49e0-b8f2-847ab1371752, mf.imfasfstreamselector_setstreamselectorflags, wmcontainer/IMFASFStreamSelector::SetStreamSelectorFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFStreamSelector::SetStreamSelectorFlags method
+# IMFASFStreamSelector::SetStreamSelectorFlags
 
 
 ## -description

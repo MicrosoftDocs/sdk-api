@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 2e884794-dbb7-47a8-8843-e9c030ce515d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PRESUTIL_FREE_PARAMETER_BLOCK, PRESUTIL_FREE_PARAMETER_BLOCK callback function [Failover Cluster], _wolf_resutilfreeparameterblock, mscs.resutilfreeparameterblock, resapi/PRESUTIL_FREE_PARAMETER_BLOCK
+ms.keywords: PRESUTIL_FREE_PARAMETER_BLOCK, PRESUTIL_FREE_PARAMETER_BLOCK callback, PRESUTIL_FREE_PARAMETER_BLOCK callback function [Failover Cluster], _wolf_resutilfreeparameterblock, mscs.resutilfreeparameterblock, resapi/PRESUTIL_FREE_PARAMETER_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PRESUTIL_FREE_PARAMETER_BLOCK callback
+# PRESUTIL_FREE_PARAMETER_BLOCK callback function
 
 
 ## -description

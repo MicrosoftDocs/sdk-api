@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CurrentRow
-title: IUIAutomationGridItemPattern::get_CurrentRow method
+title: IUIAutomationGridItemPattern::get_CurrentRow
 author: windows-driver-content
 description: Retrieves the zero-based index of the row that contains the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentRow.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: fe597d79-db19-46a2-8487-6bc4b6e2a885
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentRow property [Windows Accessibility], CurrentRow property [Windows Accessibility], IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern, IUIAutomationGridItemPattern interface [Windows Accessibility], CurrentRow property, IUIAutomationGridItemPattern.CurrentRow, IUIAutomationGridItemPattern::get_CurrentRow, get_CurrentRow,IUIAutomationGridItemPattern.get_CurrentRow, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentRow, uiauto_IUIAutomationGridItemPattern_CurrentRow, uiautomationclient/IUIAutomationGridItemPattern::CurrentRow, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentRow, winauto.uiauto_IUIAutomationGridItemPattern_CurrentRow
+ms.keywords: CurrentRow property [Windows Accessibility], CurrentRow property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CurrentRow property, IUIAutomationGridItemPattern.CurrentRow, IUIAutomationGridItemPattern.get_CurrentRow, IUIAutomationGridItemPattern::CurrentRow, IUIAutomationGridItemPattern::get_CurrentRow, get_CurrentRow, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentRow, uiauto_IUIAutomationGridItemPattern_CurrentRow, uiautomationclient/IUIAutomationGridItemPattern::CurrentRow, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentRow, winauto.uiauto_IUIAutomationGridItemPattern_CurrentRow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationGridItemPattern::get_CurrentRow method
+# IUIAutomationGridItemPattern::get_CurrentRow
 
 
 ## -description

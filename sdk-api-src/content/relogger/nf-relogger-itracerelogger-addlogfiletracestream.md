@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.AddLogfileTraceStream
-title: ITraceRelogger::AddLogfileTraceStream method
+title: ITraceRelogger::AddLogfileTraceStream
 author: windows-driver-content
 description: Adds a new logfile-based ETW trace stream to the relogger.
 old-location: etw\itracerelogger_addlogfiletracestream.htm
@@ -8,7 +8,7 @@ old-project: ETW
 ms.assetid: 2bdf6175-f4c6-4217-a37a-b2af32ad38c6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AddLogfileTraceStream method [ETW], AddLogfileTraceStream method [ETW], ITraceRelogger interface, AddLogfileTraceStream,ITraceRelogger.AddLogfileTraceStream, ITraceRelogger, ITraceRelogger interface [ETW], AddLogfileTraceStream method, ITraceRelogger::AddLogfileTraceStream, etw.itracerelogger_addlogfiletracestream, relogger/ITraceRelogger::AddLogfileTraceStream
+ms.keywords: AddLogfileTraceStream, AddLogfileTraceStream method [ETW], AddLogfileTraceStream method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],AddLogfileTraceStream method, ITraceRelogger.AddLogfileTraceStream, ITraceRelogger::AddLogfileTraceStream, etw.itracerelogger_addlogfiletracestream, relogger/ITraceRelogger::AddLogfileTraceStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceRelogger::AddLogfileTraceStream method
+# ITraceRelogger::AddLogfileTraceStream
 
 
 ## -description

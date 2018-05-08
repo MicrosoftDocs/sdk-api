@@ -1,14 +1,14 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.Initialize
-title: IEmptyVolumeCache::Initialize method
+title: IEmptyVolumeCache::Initialize
 author: windows-driver-content
 description: Initializes the disk cleanup handler, based on the information stored under the specified registry key.
 old-location: lwef\iemptyvolumecache_initialize.htm
 old-project: lwef
 ms.assetid: e0d66c58-6963-4694-984f-6f4a710d08c0
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: EVCF_DONTSHOWIFZERO, EVCF_ENABLEBYDEFAULT, EVCF_ENABLEBYDEFAULT_AUTO, EVCF_HASSETTINGS, EVCF_OUTOFDISKSPACE, EVCF_REMOVEFROMLIST, EVCF_SETTINGSMODE, IEmptyVolumeCache, IEmptyVolumeCache interface [Legacy Windows Environment Features], Initialize method, IEmptyVolumeCache::Initialize, Initialize method [Legacy Windows Environment Features], Initialize method [Legacy Windows Environment Features], IEmptyVolumeCache interface, Initialize,IEmptyVolumeCache.Initialize, These flags can be passed by the handler back to the disk cleanup manager:, These flags can be passed in to the object:, _win32_IEmptyVolumeCache_Initialize, emptyvc/IEmptyVolumeCache::Initialize, lwef.iemptyvolumecache_initialize, shell.iemptyvolumecache_initialize
+ms.date: 4/27/2018
+ms.keywords: EVCF_DONTSHOWIFZERO, EVCF_ENABLEBYDEFAULT, EVCF_ENABLEBYDEFAULT_AUTO, EVCF_HASSETTINGS, EVCF_OUTOFDISKSPACE, EVCF_REMOVEFROMLIST, EVCF_SETTINGSMODE, IEmptyVolumeCache interface [Legacy Windows Environment Features],Initialize method, IEmptyVolumeCache.Initialize, IEmptyVolumeCache::Initialize, Initialize, Initialize method [Legacy Windows Environment Features], Initialize method [Legacy Windows Environment Features],IEmptyVolumeCache interface, These flags can be passed by the handler back to the disk cleanup manager:, These flags can be passed in to the object:, _win32_IEmptyVolumeCache_Initialize, emptyvc/IEmptyVolumeCache::Initialize, lwef.iemptyvolumecache_initialize, shell.iemptyvolumecache_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEmptyVolumeCache::Initialize method
+# IEmptyVolumeCache::Initialize
 
 
 ## -description

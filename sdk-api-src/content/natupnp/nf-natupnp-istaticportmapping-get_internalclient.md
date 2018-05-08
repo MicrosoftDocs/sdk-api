@@ -1,14 +1,14 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_InternalClient
-title: IStaticPortMapping::get_InternalClient method
+title: IStaticPortMapping::get_InternalClient
 author: windows-driver-content
 description: The get_InternalClient method retrieves the name of the internal client for this port mapping.
 old-location: ics\istaticportmapping_get_internalclient.htm
 old-project: ICS
 ms.assetid: 91756e75-1915-4d61-841e-6a6cf1e849eb
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], get_InternalClient method, IStaticPortMapping::get_InternalClient, _ics_istaticportmapping_get_internalclient, get_InternalClient method [ICS/ICF], get_InternalClient method [ICS/ICF], IStaticPortMapping interface, get_InternalClient,IStaticPortMapping.get_InternalClient, ics.istaticportmapping_get_internalclient, natupnp/IStaticPortMapping::get_InternalClient
+ms.date: 5/1/2018
+ms.keywords: IStaticPortMapping interface [ICS/ICF],get_InternalClient method, IStaticPortMapping.get_InternalClient, IStaticPortMapping::get_InternalClient, _ics_istaticportmapping_get_internalclient, get_InternalClient, get_InternalClient method [ICS/ICF], get_InternalClient method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_internalclient, natupnp/IStaticPortMapping::get_InternalClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStaticPortMapping::get_InternalClient method
+# IStaticPortMapping::get_InternalClient
 
 
 ## -description

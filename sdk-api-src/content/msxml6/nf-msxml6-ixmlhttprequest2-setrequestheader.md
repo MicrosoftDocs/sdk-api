@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.SetRequestHeader
-title: IXMLHTTPRequest2::SetRequestHeader method
+title: IXMLHTTPRequest2::SetRequestHeader
 author: windows-driver-content
 description: Specifies the name of an HTTP header to be sent to the server along with the default request headers.
 old-location: ixhr2\ixmlhttprequest2_setrequestheader.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: FBEEB04C-7976-4017-B56C-17815FC01831
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest2, IXMLHTTPRequest2 interface [XMLHttpRequest2], SetRequestHeader method, IXMLHTTPRequest2::SetRequestHeader, SetRequestHeader method [XMLHttpRequest2], SetRequestHeader method [XMLHttpRequest2], IXMLHTTPRequest2 interface, SetRequestHeader,IXMLHTTPRequest2.SetRequestHeader, ixhr2.ixmlhttprequest2_setrequestheader, msxml6/IXMLHTTPRequest2::SetRequestHeader
+ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetRequestHeader method, IXMLHTTPRequest2.SetRequestHeader, IXMLHTTPRequest2::SetRequestHeader, SetRequestHeader, SetRequestHeader method [XMLHttpRequest2], SetRequestHeader method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_setrequestheader, msxml6/IXMLHTTPRequest2::SetRequestHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest2::SetRequestHeader method
+# IXMLHTTPRequest2::SetRequestHeader
 
 
 ## -description

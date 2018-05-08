@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPError.webHelp
-title: IWMPError::webHelp method
+title: IWMPError::webHelp
 author: windows-driver-content
 description: The webHelp method launches the Windows Media Player Web Help page to display further information about the first error in the error queue (index zero).
 old-location: wmp\iwmperror_webhelp.htm
 old-project: WMP
 ms.assetid: 98ece2f3-36c4-4bb2-9a06-c3ce57cbcbe7
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPError, IWMPError interface [Windows Media Player], webHelp method, IWMPError::webHelp, IWMPErrorwebHelp, webHelp method [Windows Media Player], webHelp method [Windows Media Player], IWMPError interface, webHelp,IWMPError.webHelp, wmp.iwmperror_webhelp, wmp/IWMPError::webHelp
+ms.date: 5/4/2018
+ms.keywords: IWMPError interface [Windows Media Player],webHelp method, IWMPError.webHelp, IWMPError::webHelp, IWMPErrorwebHelp, webHelp, webHelp method [Windows Media Player], webHelp method [Windows Media Player],IWMPError interface, wmp.iwmperror_webhelp, wmp/IWMPError::webHelp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPError::webHelp method
+# IWMPError::webHelp
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: shell\NOTIFYICONIDENTIFIER.htm
 old-project: shell
 ms.assetid: 2fe4ffba-6fe5-4d34-9cb1-f266e4594b8e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: "*PNOTIFYICONIDENTIFIER, NOTIFYICONIDENTIFIER, NOTIFYICONIDENTIFIER structure [Windows Shell], PNOTIFYICONIDENTIFIER, PNOTIFYICONIDENTIFIER structure pointer [Windows Shell], _NOTIFYICONIDENTIFIER, _shell_NOTIFYICONIDENTIFIER, shell.NOTIFYICONIDENTIFIER, shellapi/NOTIFYICONIDENTIFIER, shellapi/PNOTIFYICONIDENTIFIER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperty.get_Value
-title: IWindowsMediaLibrarySharingDeviceProperty::get_Value method
+title: IWindowsMediaLibrarySharingDeviceProperty::get_Value
 author: windows-driver-content
 description: The get_Value method retrieves the value of an individual property of a media device.
 old-location: wmlss\IWMLSDevicePropertyget_Value.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: b51b794c-eda6-4afe-8bb2-14896f7b8b81
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingDeviceProperty, IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services], get_Value method, IWindowsMediaLibrarySharingDeviceProperty::get_Value, get_Value method [Windows Media Library Sharing Services], get_Value method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDeviceProperty interface, get_Value,IWindowsMediaLibrarySharingDeviceProperty.get_Value, wmlss.IWMLSDevicePropertyget_Value, wmlss/IWindowsMediaLibrarySharingDeviceProperty::get_Value
+ms.keywords: IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services],get_Value method, IWindowsMediaLibrarySharingDeviceProperty.get_Value, IWindowsMediaLibrarySharingDeviceProperty::get_Value, get_Value, get_Value method [Windows Media Library Sharing Services], get_Value method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperty interface, wmlss.IWMLSDevicePropertyget_Value, wmlss/IWindowsMediaLibrarySharingDeviceProperty::get_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingDeviceProperty::get_Value method
+# IWindowsMediaLibrarySharingDeviceProperty::get_Value
 
 
 ## -description

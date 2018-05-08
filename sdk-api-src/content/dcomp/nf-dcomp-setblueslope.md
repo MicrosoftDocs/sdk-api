@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 088b6b01-6c0b-c746-85ed-54b822a4615d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetBlueSlope, SetBlueSlope methods [DirectComposition], dcomp/SetBlueSlope, directcomp.idcompositionlineartransfereffect_setblueslope_overloaded
+ms.keywords: SetBlueSlope, SetBlueSlope methods [DirectComposition], dcomp/SetBlueSlope, directcomp.idcompositionlineartransfereffect_setblueslope_overloaded, idcompositionlineartransfereffect::SetBlueSlope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

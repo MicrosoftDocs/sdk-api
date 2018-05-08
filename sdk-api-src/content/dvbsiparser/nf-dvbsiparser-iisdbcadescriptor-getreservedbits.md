@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCADescriptor.GetReservedBits
-title: IIsdbCADescriptor::GetReservedBits method
+title: IIsdbCADescriptor::GetReservedBits
 author: windows-driver-content
 description: Gets the reserved bits from a conditional access (CA) descriptor.
 old-location: mstv\iisdbcadescriptor_getreservedbits.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c45295f9-df77-4a23-b6c2-65d5b2c9c360
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetReservedBits method [Microsoft TV Technologies], GetReservedBits method [Microsoft TV Technologies], IIsdbCADescriptor interface, GetReservedBits,IIsdbCADescriptor.GetReservedBits, IIsdbCADescriptor, IIsdbCADescriptor interface [Microsoft TV Technologies], GetReservedBits method, IIsdbCADescriptor::GetReservedBits, dvbsiparser/IIsdbCADescriptor::GetReservedBits, mstv.iisdbcadescriptor_getreservedbits
+ms.keywords: GetReservedBits, GetReservedBits method [Microsoft TV Technologies], GetReservedBits method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetReservedBits method, IIsdbCADescriptor.GetReservedBits, IIsdbCADescriptor::GetReservedBits, dvbsiparser/IIsdbCADescriptor::GetReservedBits, mstv.iisdbcadescriptor_getreservedbits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbCADescriptor::GetReservedBits method
+# IIsdbCADescriptor::GetReservedBits
 
 
 ## -description

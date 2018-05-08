@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetDeviceType
-title: IWMRegisteredDevice::GetDeviceType method
+title: IWMRegisteredDevice::GetDeviceType
 author: windows-driver-content
 description: The GetDeviceType method retrieves the device type associated with the device.
 old-location: wmformat\iwmregistereddevice_getdevicetype.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 12f0dbf5-bc76-4fa2-ab64-cced1f41c313
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetDeviceType method [windows Media Format], GetDeviceType method [windows Media Format], IWMRegisteredDevice interface, GetDeviceType,IWMRegisteredDevice.GetDeviceType, IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], GetDeviceType method, IWMRegisteredDevice::GetDeviceType, IWMRegisteredDeviceGetDeviceType, wmformat.iwmregistereddevice_getdevicetype, wmsdkidl/IWMRegisteredDevice::GetDeviceType
+ms.keywords: GetDeviceType, GetDeviceType method [windows Media Format], GetDeviceType method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceType method, IWMRegisteredDevice.GetDeviceType, IWMRegisteredDevice::GetDeviceType, IWMRegisteredDeviceGetDeviceType, wmformat.iwmregistereddevice_getdevicetype, wmsdkidl/IWMRegisteredDevice::GetDeviceType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMRegisteredDevice::GetDeviceType method
+# IWMRegisteredDevice::GetDeviceType
 
 
 ## -description

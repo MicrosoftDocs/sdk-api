@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetTableDescriptorByIndex
-title: IATSC_VCT::GetTableDescriptorByIndex method
+title: IATSC_VCT::GetTableDescriptorByIndex
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_gettabledescriptorbyindex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 964ae371-e7a5-4278-8408-b39ae4371135
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies], IATSC_VCT interface, GetTableDescriptorByIndex,IATSC_VCT.GetTableDescriptorByIndex, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetTableDescriptorByIndex method, IATSC_VCT::GetTableDescriptorByIndex, IATSC_VCTGetTableDescriptorByIndex, atscpsipparser/IATSC_VCT::GetTableDescriptorByIndex, mstv.iatsc_vct_gettabledescriptorbyindex
+ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IATSC_VCT.GetTableDescriptorByIndex, IATSC_VCT::GetTableDescriptorByIndex, IATSC_VCTGetTableDescriptorByIndex, atscpsipparser/IATSC_VCT::GetTableDescriptorByIndex, mstv.iatsc_vct_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_VCT::GetTableDescriptorByIndex method
+# IATSC_VCT::GetTableDescriptorByIndex
 
 
 ## -description

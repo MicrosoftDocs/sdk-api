@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetGammaRamp
-title: IDirect3DDevice9::SetGammaRamp method
+title: IDirect3DDevice9::SetGammaRamp
 author: windows-driver-content
 description: Sets the gamma correction ramp for the implicit swap chain. This method will affect the entire screen (not just the active window if you are running in windowed mode).
 old-location: direct3d9\idirect3ddevice9__setgammaramp.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setgammaramp.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetGammaRamp method, IDirect3DDevice9::SetGammaRamp, SetGammaRamp method [Direct3D 9], SetGammaRamp method [Direct3D 9], IDirect3DDevice9 interface, SetGammaRamp,IDirect3DDevice9.SetGammaRamp, d3d9helper/IDirect3DDevice9::SetGammaRamp, direct3d9.idirect3ddevice9__setgammaramp, e89cee81-1943-1a70-dd75-6de0d4b7dca7
+ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetGammaRamp method, IDirect3DDevice9.SetGammaRamp, IDirect3DDevice9::SetGammaRamp, SetGammaRamp, SetGammaRamp method [Direct3D 9], SetGammaRamp method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetGammaRamp, direct3d9.idirect3ddevice9__setgammaramp, e89cee81-1943-1a70-dd75-6de0d4b7dca7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::SetGammaRamp method
+# IDirect3DDevice9::SetGammaRamp
 
 
 ## -description

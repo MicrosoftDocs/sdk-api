@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.SetAt
-title: IXpsOMRemoteDictionaryResourceCollection::SetAt method
+title: IXpsOMRemoteDictionaryResourceCollection::SetAt
 author: windows-driver-content
 description: Replaces an IXpsOMRemoteDictionaryResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomremotedictionaryresourcecollection_setat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 45e33503-dff9-4c59-8d9a-883ff56a30f3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMRemoteDictionaryResourceCollection, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging], SetAt method, IXpsOMRemoteDictionaryResourceCollection::SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging], IXpsOMRemoteDictionaryResourceCollection interface, SetAt,IXpsOMRemoteDictionaryResourceCollection.SetAt, xps.ixpsomremotedictionaryresourcecollection_setat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::SetAt
+ms.keywords: IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMRemoteDictionaryResourceCollection.SetAt, IXpsOMRemoteDictionaryResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, xps.ixpsomremotedictionaryresourcecollection_setat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::SetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMRemoteDictionaryResourceCollection::SetAt method
+# IXpsOMRemoteDictionaryResourceCollection::SetAt
 
 
 ## -description

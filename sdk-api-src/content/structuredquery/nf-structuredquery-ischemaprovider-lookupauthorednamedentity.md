@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.LookupAuthoredNamedEntity
-title: ISchemaProvider::LookupAuthoredNamedEntity method
+title: ISchemaProvider::LookupAuthoredNamedEntity
 author: windows-driver-content
 description: Finds named entities of a specified type in a tokenized string, and returns the value of the entity and the number of tokens the entity value occupies.
 old-location: search\_search_ISchemaProvider_LookupAuthoredNamedEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\lookupauthorednamedentity.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISchemaProvider, ISchemaProvider interface [search], LookupAuthoredNamedEntity method, ISchemaProvider::LookupAuthoredNamedEntity, LookupAuthoredNamedEntity method [search], LookupAuthoredNamedEntity method [search], ISchemaProvider interface, LookupAuthoredNamedEntity,ISchemaProvider.LookupAuthoredNamedEntity, _search_ISchemaProvider_LookupAuthoredNamedEntity, search._search_ISchemaProvider_LookupAuthoredNamedEntity, structuredquery/ISchemaProvider::LookupAuthoredNamedEntity
+ms.date: 5/4/2018
+ms.keywords: ISchemaProvider interface [search],LookupAuthoredNamedEntity method, ISchemaProvider.LookupAuthoredNamedEntity, ISchemaProvider::LookupAuthoredNamedEntity, LookupAuthoredNamedEntity, LookupAuthoredNamedEntity method [search], LookupAuthoredNamedEntity method [search],ISchemaProvider interface, _search_ISchemaProvider_LookupAuthoredNamedEntity, search._search_ISchemaProvider_LookupAuthoredNamedEntity, structuredquery/ISchemaProvider::LookupAuthoredNamedEntity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISchemaProvider::LookupAuthoredNamedEntity method
+# ISchemaProvider::LookupAuthoredNamedEntity
 
 
 ## -description

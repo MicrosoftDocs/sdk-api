@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.GetLanguageCount
-title: IWMReaderAdvanced4::GetLanguageCount method
+title: IWMReaderAdvanced4::GetLanguageCount
 author: windows-driver-content
 description: The GetLanguageCount method retrieves the total number of languages supported by an output. Only outputs associated with streams mutually exclusive by language will have more than one supported language.
 old-location: wmformat\iwmreaderadvanced4_getlanguagecount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c63084cb-f4cf-413b-a3f1-eb6b1400ac93
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetLanguageCount method [windows Media Format], GetLanguageCount method [windows Media Format], IWMReaderAdvanced4 interface, GetLanguageCount,IWMReaderAdvanced4.GetLanguageCount, IWMReaderAdvanced4, IWMReaderAdvanced4 interface [windows Media Format], GetLanguageCount method, IWMReaderAdvanced4::GetLanguageCount, IWMReaderAdvanced4GetLanguageCount, wmformat.iwmreaderadvanced4_getlanguagecount, wmsdkidl/IWMReaderAdvanced4::GetLanguageCount
+ms.keywords: GetLanguageCount, GetLanguageCount method [windows Media Format], GetLanguageCount method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetLanguageCount method, IWMReaderAdvanced4.GetLanguageCount, IWMReaderAdvanced4::GetLanguageCount, IWMReaderAdvanced4GetLanguageCount, wmformat.iwmreaderadvanced4_getlanguagecount, wmsdkidl/IWMReaderAdvanced4::GetLanguageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced4::GetLanguageCount method
+# IWMReaderAdvanced4::GetLanguageCount
 
 
 ## -description

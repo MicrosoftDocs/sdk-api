@@ -7,8 +7,8 @@ old-location: shell\IDelayedPropertyStoreFactory.htm
 old-project: shell
 ms.assetid: 855c9f10-9f40-4c60-a669-551fa51133f5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDelayedPropertyStoreFactory, IDelayedPropertyStoreFactory interface [Windows Shell], IDelayedPropertyStoreFactory interface [Windows Shell], described, _shell_IDelayedPropertyStoreFactory, propsys/IDelayedPropertyStoreFactory, shell.IDelayedPropertyStoreFactory
+ms.date: 5/3/2018
+ms.keywords: IDelayedPropertyStoreFactory, IDelayedPropertyStoreFactory interface [Windows Shell], IDelayedPropertyStoreFactory interface [Windows Shell],described, _shell_IDelayedPropertyStoreFactory, propsys/IDelayedPropertyStoreFactory, shell.IDelayedPropertyStoreFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

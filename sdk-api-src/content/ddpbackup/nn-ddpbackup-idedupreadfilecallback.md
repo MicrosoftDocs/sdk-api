@@ -8,7 +8,7 @@ old-project: dedup
 ms.assetid: 0B7F5A5B-EB60-4BAF-86AF-D9101F3B482C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDedupReadFileCallback, IDedupReadFileCallback interface [Data Deduplication API], IDedupReadFileCallback interface [Data Deduplication API], described, ddpbackup/IDedupReadFileCallback, dedup.idedupreadfilecallback
+ms.keywords: IDedupReadFileCallback, IDedupReadFileCallback interface [Data Deduplication API], IDedupReadFileCallback interface [Data Deduplication API],described, ddpbackup/IDedupReadFileCallback, dedup.idedupreadfilecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

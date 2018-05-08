@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0d5a78a3-0d56-47e8-939f-006d5f4db5c4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDvbPrivateDataSpecifierDescriptor, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies], IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IDvbPrivateDataSpecifierDescriptor, mstv.idvbprivatedataspecifierdescriptor
+ms.keywords: IDvbPrivateDataSpecifierDescriptor, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies], IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbPrivateDataSpecifierDescriptor, mstv.idvbprivatedataspecifierdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

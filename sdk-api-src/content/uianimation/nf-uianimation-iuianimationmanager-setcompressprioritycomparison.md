@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.SetCompressPriorityComparison
-title: IUIAnimationManager::SetCompressPriorityComparison method
+title: IUIAnimationManager::SetCompressPriorityComparison
 author: windows-driver-content
 description: Sets the priority comparison handler to be called to determine whether a scheduled storyboard can be compressed.
 old-location: uianimation\iuianimationmanager_setcompressprioritycomparison.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: bf2a7782-3541-483e-8d5e-3e82693f103c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationManager, IUIAnimationManager interface [Windows Animation], SetCompressPriorityComparison method, IUIAnimationManager::SetCompressPriorityComparison, SetCompressPriorityComparison method [Windows Animation], SetCompressPriorityComparison method [Windows Animation], IUIAnimationManager interface, SetCompressPriorityComparison,IUIAnimationManager.SetCompressPriorityComparison, uianimation.iuianimationmanager_setcompressprioritycomparison, uianimation/IUIAnimationManager::SetCompressPriorityComparison
+ms.keywords: IUIAnimationManager interface [Windows Animation],SetCompressPriorityComparison method, IUIAnimationManager.SetCompressPriorityComparison, IUIAnimationManager::SetCompressPriorityComparison, SetCompressPriorityComparison, SetCompressPriorityComparison method [Windows Animation], SetCompressPriorityComparison method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setcompressprioritycomparison, uianimation/IUIAnimationManager::SetCompressPriorityComparison
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager::SetCompressPriorityComparison method
+# IUIAnimationManager::SetCompressPriorityComparison
 
 
 ## -description

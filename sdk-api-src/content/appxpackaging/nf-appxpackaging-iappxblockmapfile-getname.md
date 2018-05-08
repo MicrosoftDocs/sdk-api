@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetName
-title: IAppxBlockMapFile::GetName method
+title: IAppxBlockMapFile::GetName
 author: windows-driver-content
 description: Retrieves the name of the associated zip file item.
 old-location: appxpkg\iappxblockmapfile_getname.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 82D100DB-CAE8-4FF7-B428-B14E8CBDE7A5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetName method [App packaging and management], GetName method [App packaging and management], IAppxBlockMapFile interface, GetName,IAppxBlockMapFile.GetName, IAppxBlockMapFile, IAppxBlockMapFile interface [App packaging and management], GetName method, IAppxBlockMapFile::GetName, appxpackaging/IAppxBlockMapFile::GetName, appxpkg.iappxblockmapfile_getname
+ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetName method, IAppxBlockMapFile.GetName, IAppxBlockMapFile::GetName, appxpackaging/IAppxBlockMapFile::GetName, appxpkg.iappxblockmapfile_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapFile::GetName method
+# IAppxBlockMapFile::GetName
 
 
 ## -description

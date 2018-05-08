@@ -7,8 +7,8 @@ old-location: wmp\iwmpmediapluginregistrar.htm
 old-project: WMP
 ms.assetid: 4b99d227-39e8-4986-93ed-6df73a3a3e08
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMediaPluginRegistrar, IWMPMediaPluginRegistrar interface [Windows Media Player], IWMPMediaPluginRegistrar interface [Windows Media Player], described, wmp.iwmpmediapluginregistrar, wmpservices/IWMPMediaPluginRegistrar
+ms.date: 5/4/2018
+ms.keywords: IWMPMediaPluginRegistrar, IWMPMediaPluginRegistrar interface [Windows Media Player], IWMPMediaPluginRegistrar interface [Windows Media Player],described, wmp.iwmpmediapluginregistrar, wmpservices/IWMPMediaPluginRegistrar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

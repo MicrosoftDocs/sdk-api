@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetRotation
-title: IWICDevelopRaw::GetRotation method
+title: IWICDevelopRaw::GetRotation
 author: windows-driver-content
 description: Gets the current rotation angle.
 old-location: wic\_wic_codec_iwicdevelopraw_getrotation.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 671bca6d-bbe5-4f07-9735-12d796013d9e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetRotation method [Windows Imaging Component], GetRotation method [Windows Imaging Component], IWICDevelopRaw interface, GetRotation,IWICDevelopRaw.GetRotation, IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], GetRotation method, IWICDevelopRaw::GetRotation, _wic_codec_iwicdevelopraw_getrotation, wic._wic_codec_iwicdevelopraw_getrotation, wincodec/IWICDevelopRaw::GetRotation
+ms.keywords: GetRotation, GetRotation method [Windows Imaging Component], GetRotation method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetRotation method, IWICDevelopRaw.GetRotation, IWICDevelopRaw::GetRotation, _wic_codec_iwicdevelopraw_getrotation, wic._wic_codec_iwicdevelopraw_getrotation, wincodec/IWICDevelopRaw::GetRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::GetRotation method
+# IWICDevelopRaw::GetRotation
 
 
 ## -description

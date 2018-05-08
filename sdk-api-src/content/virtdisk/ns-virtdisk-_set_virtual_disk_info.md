@@ -66,6 +66,18 @@ A <a href="https://msdn.microsoft.com/c9dd9d64-f96b-48f0-bc85-2f81ea3e2cb5">SET_
       from the VHD functions. This determines the type of information set.
 
 
+### -field ParentFilePath
+
+The path to the parent backing store. Set the <b>Version</b> member to 
+       <b>SET_VIRTUAL_DISK_INFO_PARENT_PATH</b> (1).
+
+
+### -field UniqueIdentifier
+
+The unique identifier of the VHD. Set the <b>Version</b> member to 
+       <b>SET_VIRTUAL_DISK_INFO_IDENTIFIER</b> (2).
+
+
 ### -field ParentPathWithDepthInfo
 
 Sets the parent file path and the child depth. Set the <b>Version</b> member to 
@@ -84,6 +96,30 @@ Specifies the depth to the child from the leaf. The leaf itself is at depth 1.
 Specifies the depth to the parent from the leaf. The leaf itself is at depth 1.
 
 
+### -field VhdPhysicalSectorSize
+
+Sets the physical sector size reported by the VHD. Set the <b>Version</b> member to 
+        <b>SET_VIRTUAL_DISK_INFO_PHYSICAL_SECTOR_SIZE</b> (4).<b>Windows 7 and Windows Server 2008 R2:  </b>This is not supported before Windows 8 and Windows Server 2012.
+
+
+
+
+### -field VirtualDiskId
+
+The identifier that is uniquely created when a user first creates the  virtual disk to attempt to uniquely identify that virtual disk. Set the <b>Version</b> member to 
+        <b>SET_VIRTUAL_DISK_INFO_VIRTUAL_DISK_ID</b> (5).
+
+<b>Windows 8 and Windows Server 2012:  </b>This is not supported before Windows 8.1 and Windows Server 2012 R2.
+
+
+### -field ChangeTrackingEnabled
+
+Turns  resilient change tracking (RCT) on or off for the VHD. <b>TRUE</b> turns RCT on. <b>FALSE</b> turns RCT off. Set the <b>Version</b> member to 
+        <b>SET_VIRTUAL_DISK_INFO_CHANGE_TRACKING_STATE</b> (6).
+
+<b>Windows 8.1 and Windows Server 2012 R2:  </b>This member is not supported before Windows 10 and Windows Server 2016.
+
+
 ### -field ParentLocator
 
 Sets the parent linkage information that differencing VHDs store. Parent linkage information is metadata used to locate and correctly identify the next parent in the virtual disk  chain. Set the <b>Version</b> member to 
@@ -100,42 +136,6 @@ The unique identifier for the parent linkage information.
 ### -field ParentLocator.ParentFilePath
 
 The path of the file for the parent VHD.
-
-
-#### - ChangeTrackingEnabled
-
-Turns  resilient change tracking (RCT) on or off for the VHD. <b>TRUE</b> turns RCT on. <b>FALSE</b> turns RCT off. Set the <b>Version</b> member to 
-        <b>SET_VIRTUAL_DISK_INFO_CHANGE_TRACKING_STATE</b> (6).
-
-<b>Windows 8.1 and Windows Server 2012 R2:  </b>This member is not supported before Windows 10 and Windows Server 2016.
-
-
-#### - ParentFilePath
-
-The path to the parent backing store. Set the <b>Version</b> member to 
-       <b>SET_VIRTUAL_DISK_INFO_PARENT_PATH</b> (1).
-
-
-#### - UniqueIdentifier
-
-The unique identifier of the VHD. Set the <b>Version</b> member to 
-       <b>SET_VIRTUAL_DISK_INFO_IDENTIFIER</b> (2).
-
-
-#### - VhdPhysicalSectorSize
-
-Sets the physical sector size reported by the VHD. Set the <b>Version</b> member to 
-        <b>SET_VIRTUAL_DISK_INFO_PHYSICAL_SECTOR_SIZE</b> (4).<b>Windows 7 and Windows Server 2008 R2:  </b>This is not supported before Windows 8 and Windows Server 2012.
-
-
-
-
-#### - VirtualDiskId
-
-The identifier that is uniquely created when a user first creates the  virtual disk to attempt to uniquely identify that virtual disk. Set the <b>Version</b> member to 
-        <b>SET_VIRTUAL_DISK_INFO_VIRTUAL_DISK_ID</b> (5).
-
-<b>Windows 8 and Windows Server 2012:  </b>This is not supported before Windows 8.1 and Windows Server 2012 R2.
 
 
 ## -see-also

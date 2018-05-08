@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IStreamConcatenate.Initialize
-title: IStreamConcatenate::Initialize method
+title: IStreamConcatenate::Initialize
 author: windows-driver-content
 description: Initializes this stream from two input streams.
 old-location: imapi\istreamconcatenate_initialize.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 62db148e-926d-47b3-a0f6-945730177184
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IStreamConcatenate, IStreamConcatenate interface [IMAPI], Initialize method, IStreamConcatenate::Initialize, Initialize method [IMAPI], Initialize method [IMAPI], IStreamConcatenate interface, Initialize,IStreamConcatenate.Initialize, imapi.istreamconcatenate_initialize, imapi2/IStreamConcatenate::Initialize
+ms.keywords: IStreamConcatenate interface [IMAPI],Initialize method, IStreamConcatenate.Initialize, IStreamConcatenate::Initialize, Initialize, Initialize method [IMAPI], Initialize method [IMAPI],IStreamConcatenate interface, imapi.istreamconcatenate_initialize, imapi2/IStreamConcatenate::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IStreamConcatenate::Initialize method
+# IStreamConcatenate::Initialize
 
 
 ## -description

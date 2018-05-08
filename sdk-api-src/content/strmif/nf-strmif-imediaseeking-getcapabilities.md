@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetCapabilities
-title: IMediaSeeking::GetCapabilities method
+title: IMediaSeeking::GetCapabilities
 author: windows-driver-content
 description: The GetCapabilities method retrieves all the seeking capabilities of the stream.
 old-location: dshow\imediaseeking_getcapabilities.htm
 old-project: DirectShow
 ms.assetid: 84dd3c21-9c72-4433-bd03-29520dc138ca
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCapabilities method [DirectShow], GetCapabilities method [DirectShow], IMediaSeeking interface, GetCapabilities,IMediaSeeking.GetCapabilities, IMediaSeeking, IMediaSeeking interface [DirectShow], GetCapabilities method, IMediaSeeking::GetCapabilities, IMediaSeekingGetCapabilities, dshow.imediaseeking_getcapabilities, strmif/IMediaSeeking::GetCapabilities
+ms.date: 4/30/2018
+ms.keywords: GetCapabilities, GetCapabilities method [DirectShow], GetCapabilities method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetCapabilities method, IMediaSeeking.GetCapabilities, IMediaSeeking::GetCapabilities, IMediaSeekingGetCapabilities, dshow.imediaseeking_getcapabilities, strmif/IMediaSeeking::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSeeking::GetCapabilities method
+# IMediaSeeking::GetCapabilities
 
 
 ## -description

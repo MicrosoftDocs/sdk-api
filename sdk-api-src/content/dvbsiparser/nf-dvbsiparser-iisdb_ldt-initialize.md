@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.Initialize
-title: IISDB_LDT::Initialize method
+title: IISDB_LDT::Initialize
 author: windows-driver-content
 description: Initializes the object using captured table section data for an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6239688f-2300-4cdb-97cb-179f63efb933
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], Initialize method, IISDB_LDT::Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IISDB_LDT interface, Initialize,IISDB_LDT.Initialize, dvbsiparser/IISDB_LDT::Initialize, mstv.iisdb_ldt_initialize
+ms.keywords: IISDB_LDT interface [Microsoft TV Technologies],Initialize method, IISDB_LDT.Initialize, IISDB_LDT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_LDT interface, dvbsiparser/IISDB_LDT::Initialize, mstv.iisdb_ldt_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_LDT::Initialize method
+# IISDB_LDT::Initialize
 
 
 ## -description

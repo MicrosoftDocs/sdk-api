@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.UseWhenFullScreen
-title: IDirectDrawVideo::UseWhenFullScreen method
+title: IDirectDrawVideo::UseWhenFullScreen
 author: windows-driver-content
 description: The UseWhenFullScreen method determines whether DirectShow should change display mode when going to full-screen mode.
 old-location: dshow\idirectdrawvideo_usewhenfullscreen.htm
 old-project: DirectShow
 ms.assetid: e50f7f06-6534-4373-a2b8-fa315158729d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], UseWhenFullScreen method, IDirectDrawVideo::UseWhenFullScreen, IDirectDrawVideoUseWhenFullScreen, UseWhenFullScreen method [DirectShow], UseWhenFullScreen method [DirectShow], IDirectDrawVideo interface, UseWhenFullScreen,IDirectDrawVideo.UseWhenFullScreen, amvideo/IDirectDrawVideo::UseWhenFullScreen, dshow.idirectdrawvideo_usewhenfullscreen
+ms.date: 4/30/2018
+ms.keywords: IDirectDrawVideo interface [DirectShow],UseWhenFullScreen method, IDirectDrawVideo.UseWhenFullScreen, IDirectDrawVideo::UseWhenFullScreen, IDirectDrawVideoUseWhenFullScreen, UseWhenFullScreen, UseWhenFullScreen method [DirectShow], UseWhenFullScreen method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseWhenFullScreen, dshow.idirectdrawvideo_usewhenfullscreen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawVideo::UseWhenFullScreen method
+# IDirectDrawVideo::UseWhenFullScreen
 
 
 ## -description

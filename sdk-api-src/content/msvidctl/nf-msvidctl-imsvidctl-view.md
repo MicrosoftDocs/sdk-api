@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.View
-title: IMSVidCtl::View method
+title: IMSVidCtl::View
 author: windows-driver-content
 description: The View method configures the Video Control to view an input source, which can be a tune request, a DVD, or a media file.
 old-location: mstv\imsvidctl_view.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ec0e2a88-13c0-42f3-ba7d-8ebff1234b86
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], View method, IMSVidCtl::View, IMSVidCtlView, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies], IMSVidCtl interface, View,IMSVidCtl.View, mstv.imsvidctl_view, msvidctl/IMSVidCtl::View
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],View method, IMSVidCtl.View, IMSVidCtl::View, IMSVidCtlView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_view, msvidctl/IMSVidCtl::View
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::View method
+# IMSVidCtl::View
 
 
 ## -description

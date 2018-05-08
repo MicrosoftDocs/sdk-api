@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.GetCurrentSelection
-title: IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection method
+title: IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection
 author: windows-driver-content
 description: Retrieves the Microsoft Active Accessibility property that identifies the selected children of this element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7fe666dc-2168-44a0-87f2-f444fd2a70f2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCurrentSelection method [Windows Accessibility], GetCurrentSelection method [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, GetCurrentSelection,IUIAutomationLegacyIAccessiblePattern.GetCurrentSelection, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], GetCurrentSelection method, IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection, uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection
+ms.keywords: GetCurrentSelection, GetCurrentSelection method [Windows Accessibility], GetCurrentSelection method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],GetCurrentSelection method, IUIAutomationLegacyIAccessiblePattern.GetCurrentSelection, IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection, uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection method
+# IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection
 
 
 ## -description

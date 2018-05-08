@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsMajor
-title: ISCTE_EAS::GetDetailsMajor method
+title: ISCTE_EAS::GetDetailsMajor
 author: windows-driver-content
 description: The GetDetailsMajor method returns the major channel number for the details channel.
 old-location: mstv\iscte_eas_getdetailsmajor.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ecb6f06d-ccf5-44f3-ba36-b24176c3a20e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDetailsMajor method [Microsoft TV Technologies], GetDetailsMajor method [Microsoft TV Technologies], ISCTE_EAS interface, GetDetailsMajor,ISCTE_EAS.GetDetailsMajor, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetDetailsMajor method, ISCTE_EAS::GetDetailsMajor, ISCTE_EASGetDetailsMajor, atscpsipparser/ISCTE_EAS::GetDetailsMajor, mstv.iscte_eas_getdetailsmajor
+ms.keywords: GetDetailsMajor, GetDetailsMajor method [Microsoft TV Technologies], GetDetailsMajor method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsMajor method, ISCTE_EAS.GetDetailsMajor, ISCTE_EAS::GetDetailsMajor, ISCTE_EASGetDetailsMajor, atscpsipparser/ISCTE_EAS::GetDetailsMajor, mstv.iscte_eas_getdetailsmajor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetDetailsMajor method
+# ISCTE_EAS::GetDetailsMajor
 
 
 ## -description

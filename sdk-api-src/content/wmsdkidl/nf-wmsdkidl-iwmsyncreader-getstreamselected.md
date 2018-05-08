@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetStreamSelected
-title: IWMSyncReader::GetStreamSelected method
+title: IWMSyncReader::GetStreamSelected
 author: windows-driver-content
 description: The GetStreamSelected method retrieves a flag indicating whether a particular stream is currently selected.
 old-location: wmformat\iwmsyncreader_getstreamselected.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: bcde749e-c0fd-4be8-8708-a053854a9275
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetStreamSelected method [windows Media Format], GetStreamSelected method [windows Media Format], IWMSyncReader interface, GetStreamSelected,IWMSyncReader.GetStreamSelected, IWMSyncReader, IWMSyncReader interface [windows Media Format], GetStreamSelected method, IWMSyncReader::GetStreamSelected, IWMSyncReaderGetStreamSelected, wmformat.iwmsyncreader_getstreamselected, wmsdkidl/IWMSyncReader::GetStreamSelected
+ms.keywords: GetStreamSelected, GetStreamSelected method [windows Media Format], GetStreamSelected method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetStreamSelected method, IWMSyncReader.GetStreamSelected, IWMSyncReader::GetStreamSelected, IWMSyncReaderGetStreamSelected, wmformat.iwmsyncreader_getstreamselected, wmsdkidl/IWMSyncReader::GetStreamSelected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader::GetStreamSelected method
+# IWMSyncReader::GetStreamSelected
 
 
 ## -description

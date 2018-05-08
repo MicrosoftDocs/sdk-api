@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListCountOfRecords
-title: IDvbLogicalChannel2Descriptor::GetListCountOfRecords method
+title: IDvbLogicalChannel2Descriptor::GetListCountOfRecords
 author: windows-driver-content
 description: Gets an indexed count of records for a channel list in a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistcountofrecords.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ca9cac1c-1e4a-4ea2-b44f-d037e9e8197e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetListCountOfRecords method [Microsoft TV Technologies], GetListCountOfRecords method [Microsoft TV Technologies], IDvbLogicalChannel2Descriptor interface, GetListCountOfRecords,IDvbLogicalChannel2Descriptor.GetListCountOfRecords, IDvbLogicalChannel2Descriptor, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies], GetListCountOfRecords method, IDvbLogicalChannel2Descriptor::GetListCountOfRecords, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListCountOfRecords, mstv.idvblogicalchannel2descriptor_getlistcountofrecords
+ms.keywords: GetListCountOfRecords, GetListCountOfRecords method [Microsoft TV Technologies], GetListCountOfRecords method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListCountOfRecords method, IDvbLogicalChannel2Descriptor.GetListCountOfRecords, IDvbLogicalChannel2Descriptor::GetListCountOfRecords, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListCountOfRecords, mstv.idvblogicalchannel2descriptor_getlistcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLogicalChannel2Descriptor::GetListCountOfRecords method
+# IDvbLogicalChannel2Descriptor::GetListCountOfRecords
 
 
 ## -description

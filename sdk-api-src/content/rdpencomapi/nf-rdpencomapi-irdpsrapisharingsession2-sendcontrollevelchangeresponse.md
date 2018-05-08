@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession2.SendControlLevelChangeResponse
-title: IRDPSRAPISharingSession2::SendControlLevelChangeResponse method
+title: IRDPSRAPISharingSession2::SendControlLevelChangeResponse
 author: windows-driver-content
 description: Sends an OnControlLevelChangeResponse event.
 old-location: rdp\irdpsrapisharingsession2_sendcontrollevelchangeresponse.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: d10c8f2b-b1ee-4966-9e96-21e78124874b
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPISharingSession2, IRDPSRAPISharingSession2 interface [RDP], SendControlLevelChangeResponse method, IRDPSRAPISharingSession2::SendControlLevelChangeResponse, SendControlLevelChangeResponse method [RDP], SendControlLevelChangeResponse method [RDP], IRDPSRAPISharingSession2 interface, SendControlLevelChangeResponse,IRDPSRAPISharingSession2.SendControlLevelChangeResponse, rdp.irdpsrapisharingsession2_sendcontrollevelchangeresponse, rdpencomapi/IRDPSRAPISharingSession2::SendControlLevelChangeResponse
+ms.keywords: IRDPSRAPISharingSession2 interface [RDP],SendControlLevelChangeResponse method, IRDPSRAPISharingSession2.SendControlLevelChangeResponse, IRDPSRAPISharingSession2::SendControlLevelChangeResponse, SendControlLevelChangeResponse, SendControlLevelChangeResponse method [RDP], SendControlLevelChangeResponse method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession2_sendcontrollevelchangeresponse, rdpencomapi/IRDPSRAPISharingSession2::SendControlLevelChangeResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPISharingSession2::SendControlLevelChangeResponse method
+# IRDPSRAPISharingSession2::SendControlLevelChangeResponse
 
 
 ## -description

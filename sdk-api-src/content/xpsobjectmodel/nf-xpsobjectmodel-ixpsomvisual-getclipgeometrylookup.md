@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetClipGeometryLookup
-title: IXpsOMVisual::GetClipGeometryLookup method
+title: IXpsOMVisual::GetClipGeometryLookup
 author: windows-driver-content
 description: Gets the lookup key for the IXpsOMGeometry interface in a resource dictionary that contains the visual's clipping region.
 old-location: xps\ixpsomvisual_getclipgeometrylookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: aa101ac6-65e8-4f6b-a6fa-59f3a003ffc5
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetClipGeometryLookup method [XPS Documents and Packaging], GetClipGeometryLookup method [XPS Documents and Packaging], IXpsOMVisual interface, GetClipGeometryLookup,IXpsOMVisual.GetClipGeometryLookup, IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], GetClipGeometryLookup method, IXpsOMVisual::GetClipGeometryLookup, xps.ixpsomvisual_getclipgeometrylookup, xpsobjectmodel/IXpsOMVisual::GetClipGeometryLookup
+ms.keywords: GetClipGeometryLookup, GetClipGeometryLookup method [XPS Documents and Packaging], GetClipGeometryLookup method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetClipGeometryLookup method, IXpsOMVisual.GetClipGeometryLookup, IXpsOMVisual::GetClipGeometryLookup, xps.ixpsomvisual_getclipgeometrylookup, xpsobjectmodel/IXpsOMVisual::GetClipGeometryLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::GetClipGeometryLookup method
+# IXpsOMVisual::GetClipGeometryLookup
 
 
 ## -description

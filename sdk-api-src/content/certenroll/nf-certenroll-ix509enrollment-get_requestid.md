@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_RequestId
-title: IX509Enrollment::get_RequestId method
+title: IX509Enrollment::get_RequestId
 author: windows-driver-content
 description: Retrieves a unique identifier for the certificate request sent to the certification authority by the Enroll method.
 old-location: security\ix509enrollment_requestid_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 64048d5d-36fd-4709-a924-7f84a2b2b97e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], RequestId property, IX509Enrollment.RequestId, IX509Enrollment::get_RequestId, RequestId property [Security], RequestId property [Security], IX509Enrollment interface, certenroll/IX509Enrollment::RequestId, certenroll/IX509Enrollment::get_RequestId, get_RequestId,IX509Enrollment.get_RequestId, security.ix509enrollment_requestid_property
+ms.keywords: IX509Enrollment interface [Security],RequestId property, IX509Enrollment.RequestId, IX509Enrollment.get_RequestId, IX509Enrollment::RequestId, IX509Enrollment::get_RequestId, RequestId property [Security], RequestId property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::RequestId, certenroll/IX509Enrollment::get_RequestId, get_RequestId, security.ix509enrollment_requestid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509Enrollment::get_RequestId method
+# IX509Enrollment::get_RequestId
 
 
 ## -description

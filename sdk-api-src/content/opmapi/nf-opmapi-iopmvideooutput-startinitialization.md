@@ -1,14 +1,14 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.StartInitialization
-title: IOPMVideoOutput::StartInitialization method
+title: IOPMVideoOutput::StartInitialization
 author: windows-driver-content
 description: Begins the initialization sequence for an Output Protection Manager (OPM) session.
 old-location: mf\iopmvideooutput_iopmvideooutput__startinitialization.htm
 old-project: medfound
 ms.assetid: eeedeb4b-753f-4efb-b8ef-732cce116b42
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IOPMVideoOutput, IOPMVideoOutput interface [Media Foundation], StartInitialization method, IOPMVideoOutput::StartInitialization, StartInitialization method [Media Foundation], StartInitialization method [Media Foundation], IOPMVideoOutput interface, StartInitialization,IOPMVideoOutput.StartInitialization, mf.iopmvideooutput_iopmvideooutput__startinitialization, opmapi/IOPMVideoOutput::StartInitialization
+ms.date: 5/3/2018
+ms.keywords: IOPMVideoOutput interface [Media Foundation],StartInitialization method, IOPMVideoOutput.StartInitialization, IOPMVideoOutput::StartInitialization, StartInitialization, StartInitialization method [Media Foundation], StartInitialization method [Media Foundation],IOPMVideoOutput interface, mf.iopmvideooutput_iopmvideooutput__startinitialization, opmapi/IOPMVideoOutput::StartInitialization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOPMVideoOutput::StartInitialization method
+# IOPMVideoOutput::StartInitialization
 
 
 ## -description

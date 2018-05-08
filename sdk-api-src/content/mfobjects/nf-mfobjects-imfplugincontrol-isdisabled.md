@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.IsDisabled
-title: IMFPluginControl::IsDisabled method
+title: IMFPluginControl::IsDisabled
 author: windows-driver-content
 description: Queries whether a class identifier (CLSID) appears in the blocked list.
 old-location: mf\imfplugincontrol_imfplugincontrol__isdisabled.htm
 old-project: medfound
 ms.assetid: 75f4f3a2-198d-41c0-b0fa-4a1fbefad7b6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPluginControl, IMFPluginControl interface [Media Foundation], IsDisabled method, IMFPluginControl::IsDisabled, IsDisabled method [Media Foundation], IsDisabled method [Media Foundation], IMFPluginControl interface, IsDisabled,IMFPluginControl.IsDisabled, mf.imfplugincontrol_imfplugincontrol__isdisabled, mfobjects/IMFPluginControl::IsDisabled
+ms.date: 5/3/2018
+ms.keywords: IMFPluginControl interface [Media Foundation],IsDisabled method, IMFPluginControl.IsDisabled, IMFPluginControl::IsDisabled, IsDisabled, IsDisabled method [Media Foundation], IsDisabled method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__isdisabled, mfobjects/IMFPluginControl::IsDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPluginControl::IsDisabled method
+# IMFPluginControl::IsDisabled
 
 
 ## -description

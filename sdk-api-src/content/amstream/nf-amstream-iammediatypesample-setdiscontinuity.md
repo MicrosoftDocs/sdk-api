@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetDiscontinuity
-title: IAMMediaTypeSample::SetDiscontinuity method
+title: IAMMediaTypeSample::SetDiscontinuity
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The SetDiscontinuity method sets the discontinuity property.
 old-location: dshow\iammediatypesample_setdiscontinuity.htm
 old-project: DirectShow
 ms.assetid: 9dcac2ce-c9a0-40be-aa86-b4acbd4d06a7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], SetDiscontinuity method, IAMMediaTypeSample::SetDiscontinuity, IAMMediaTypeSampleSetDiscontinuity, SetDiscontinuity method [DirectShow], SetDiscontinuity method [DirectShow], IAMMediaTypeSample interface, SetDiscontinuity,IAMMediaTypeSample.SetDiscontinuity, amstream/IAMMediaTypeSample::SetDiscontinuity, dshow.iammediatypesample_setdiscontinuity
+ms.date: 4/30/2018
+ms.keywords: IAMMediaTypeSample interface [DirectShow],SetDiscontinuity method, IAMMediaTypeSample.SetDiscontinuity, IAMMediaTypeSample::SetDiscontinuity, IAMMediaTypeSampleSetDiscontinuity, SetDiscontinuity, SetDiscontinuity method [DirectShow], SetDiscontinuity method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetDiscontinuity, dshow.iammediatypesample_setdiscontinuity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaTypeSample::SetDiscontinuity method
+# IAMMediaTypeSample::SetDiscontinuity
 
 
 ## -description

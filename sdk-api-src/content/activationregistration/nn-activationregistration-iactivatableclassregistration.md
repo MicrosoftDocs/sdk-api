@@ -7,8 +7,8 @@ old-location: winrt\iactivatableclassregistration.htm
 old-project: WinRT
 ms.assetid: 99834A2D-547B-4B04-8703-46B11E0BB812
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IActivatableClassRegistration, IActivatableClassRegistration interface [Windows Runtime], IActivatableClassRegistration interface [Windows Runtime], described, activationregistration/IActivatableClassRegistration, winrt.iactivatableclassregistration
+ms.date: 5/4/2018
+ms.keywords: IActivatableClassRegistration, IActivatableClassRegistration interface [Windows Runtime], IActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IActivatableClassRegistration, winrt.iactivatableclassregistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -7,7 +7,7 @@ old-location: multimedia\icremove.htm
 old-project: Multimedia
 ms.assetid: c5f2638a-6b75-4e30-8420-94011c73f5bd
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: ICRemove, ICRemove function [Windows Multimedia], _win32_ICRemove, multimedia.icremove, vfw/ICRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices

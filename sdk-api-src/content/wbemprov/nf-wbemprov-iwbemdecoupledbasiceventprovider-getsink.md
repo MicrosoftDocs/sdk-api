@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemDecoupledBasicEventProvider.GetSink
-title: IWbemDecoupledBasicEventProvider::GetSink method
+title: IWbemDecoupledBasicEventProvider::GetSink
 author: windows-driver-content
 description: The IWbemDecoupledBasicEventProvider::GetSink method retrieves an IWbemObjectSink object for event forwarding to WMI. This method provides for fully concurrent access.
 old-location: wmi\iwbemdecoupledbasiceventprovider_getsink.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 2b33e441-4bc4-47ed-b09b-7af859127b06
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetSink method [Windows Management Instrumentation], GetSink method [Windows Management Instrumentation], IWbemDecoupledBasicEventProvider interface, GetSink method [Windows Management Instrumentation], WbemDecoupledBasicEventProvider object, GetSink,IWbemDecoupledBasicEventProvider.GetSink, IWbemDecoupledBasicEventProvider, IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation], GetSink method, IWbemDecoupledBasicEventProvider::GetSink, WbemDecoupledBasicEventProvider object [Windows Management Instrumentation], GetSink method, _hmm_iwbemdecoupledbasiceventprovider_getsink, wbemprov/IWbemDecoupledBasicEventProvider::GetSink, wmi.iwbemdecoupledbasiceventprovider_getsink
+ms.keywords: GetSink, GetSink method [Windows Management Instrumentation], GetSink method [Windows Management Instrumentation],IWbemDecoupledBasicEventProvider interface, GetSink method [Windows Management Instrumentation],WbemDecoupledBasicEventProvider object, IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation],GetSink method, IWbemDecoupledBasicEventProvider.GetSink, IWbemDecoupledBasicEventProvider::GetSink, WbemDecoupledBasicEventProvider object [Windows Management Instrumentation],GetSink method, _hmm_iwbemdecoupledbasiceventprovider_getsink, wbemprov/IWbemDecoupledBasicEventProvider::GetSink, wmi.iwbemdecoupledbasiceventprovider_getsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemDecoupledBasicEventProvider::GetSink method
+# IWbemDecoupledBasicEventProvider::GetSink
 
 
 ## -description

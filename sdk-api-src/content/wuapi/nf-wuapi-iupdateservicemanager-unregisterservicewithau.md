@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.UnregisterServiceWithAU
-title: IUpdateServiceManager::UnregisterServiceWithAU method
+title: IUpdateServiceManager::UnregisterServiceWithAU
 author: windows-driver-content
 description: Unregisters a service with Automatic Updates.
 old-location: wua\iupdateservicemanager_unregisterservicewithau.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: d537594c-ccf3-463b-9860-612c5ea351cb
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateServiceManager, IUpdateServiceManager interface [Windows Update Agent], UnregisterServiceWithAU method, IUpdateServiceManager::UnregisterServiceWithAU, UnregisterServiceWithAU method [Windows Update Agent], UnregisterServiceWithAU method [Windows Update Agent], IUpdateServiceManager interface, UnregisterServiceWithAU,IUpdateServiceManager.UnregisterServiceWithAU, wua.iupdateservicemanager_unregisterservicewithau, wuapi/IUpdateServiceManager::UnregisterServiceWithAU
+ms.keywords: IUpdateServiceManager interface [Windows Update Agent],UnregisterServiceWithAU method, IUpdateServiceManager.UnregisterServiceWithAU, IUpdateServiceManager::UnregisterServiceWithAU, UnregisterServiceWithAU, UnregisterServiceWithAU method [Windows Update Agent], UnregisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_unregisterservicewithau, wuapi/IUpdateServiceManager::UnregisterServiceWithAU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateServiceManager::UnregisterServiceWithAU method
+# IUpdateServiceManager::UnregisterServiceWithAU
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.AreApplicationInstancesPaused
-title: ICOMAdminCatalog2::AreApplicationInstancesPaused method
+title: ICOMAdminCatalog2::AreApplicationInstancesPaused
 author: windows-driver-content
 description: Determines whether any of the specified application instances (processes) are paused.
 old-location: cos\icomadmincatalog2_areapplicationinstancespaused.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: b526dc2e-107c-4936-95ac-2c0c91f5c09b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: AreApplicationInstancesPaused method [COM+], AreApplicationInstancesPaused method [COM+], ICOMAdminCatalog2 interface, AreApplicationInstancesPaused,ICOMAdminCatalog2.AreApplicationInstancesPaused, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], AreApplicationInstancesPaused method, ICOMAdminCatalog2::AreApplicationInstancesPaused, _cos_icomadmincatalog2_AreApplicationInstancesPaused, comadmin/ICOMAdminCatalog2::AreApplicationInstancesPaused, cos.icomadmincatalog2_areapplicationinstancespaused
+ms.keywords: AreApplicationInstancesPaused, AreApplicationInstancesPaused method [COM+], AreApplicationInstancesPaused method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],AreApplicationInstancesPaused method, ICOMAdminCatalog2.AreApplicationInstancesPaused, ICOMAdminCatalog2::AreApplicationInstancesPaused, _cos_icomadmincatalog2_AreApplicationInstancesPaused, comadmin/ICOMAdminCatalog2::AreApplicationInstancesPaused, cos.icomadmincatalog2_areapplicationinstancespaused
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::AreApplicationInstancesPaused method
+# ICOMAdminCatalog2::AreApplicationInstancesPaused
 
 
 ## -description

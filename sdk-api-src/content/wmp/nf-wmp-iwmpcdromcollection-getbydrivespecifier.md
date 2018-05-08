@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCdromCollection.getByDriveSpecifier
-title: IWMPCdromCollection::getByDriveSpecifier method
+title: IWMPCdromCollection::getByDriveSpecifier
 author: windows-driver-content
 description: The getByDriveSpecifier method retrieves a pointer to an IWMPCdrom interface associated with a particular drive letter.
 old-location: wmp\iwmpcdromcollection_getbydrivespecifier.htm
 old-project: WMP
 ms.assetid: b48679da-c8f3-4e9d-89cd-0ecbcbc07fe4
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCdromCollection, IWMPCdromCollection interface [Windows Media Player], getByDriveSpecifier method, IWMPCdromCollection::getByDriveSpecifier, IWMPCdromCollectiongetByDriveSpecifier, getByDriveSpecifier method [Windows Media Player], getByDriveSpecifier method [Windows Media Player], IWMPCdromCollection interface, getByDriveSpecifier,IWMPCdromCollection.getByDriveSpecifier, wmp.iwmpcdromcollection_getbydrivespecifier, wmp/IWMPCdromCollection::getByDriveSpecifier
+ms.date: 5/4/2018
+ms.keywords: IWMPCdromCollection interface [Windows Media Player],getByDriveSpecifier method, IWMPCdromCollection.getByDriveSpecifier, IWMPCdromCollection::getByDriveSpecifier, IWMPCdromCollectiongetByDriveSpecifier, getByDriveSpecifier, getByDriveSpecifier method [Windows Media Player], getByDriveSpecifier method [Windows Media Player],IWMPCdromCollection interface, wmp.iwmpcdromcollection_getbydrivespecifier, wmp/IWMPCdromCollection::getByDriveSpecifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCdromCollection::getByDriveSpecifier method
+# IWMPCdromCollection::getByDriveSpecifier
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IIdleSettings.get_RestartOnIdle
-title: IIdleSettings::get_RestartOnIdle method
+title: IIdleSettings::get_RestartOnIdle
 author: windows-driver-content
 description: Gets or sets a Boolean value that indicates whether the task is restarted when the computer cycles into an idle condition more than once.
 old-location: taskschd\iidlesettings_restartonidle.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 42779c7d-4739-47c5-bf35-5d6c612c59c0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IIdleSettings, IIdleSettings interface [Task Scheduler], RestartOnIdle property, IIdleSettings.RestartOnIdle, IIdleSettings::get_RestartOnIdle, IIdleSettings::put_RestartOnIdle, RestartOnIdle property [Task Scheduler], RestartOnIdle property [Task Scheduler], IIdleSettings interface, get_RestartOnIdle,IIdleSettings.get_RestartOnIdle, taskschd.iidlesettings_restartonidle, taskschd/IIdleSettings::RestartOnIdle, taskschd/IIdleSettings::get_RestartOnIdle, taskschd/IIdleSettings::put_RestartOnIdle
+ms.keywords: IIdleSettings interface [Task Scheduler],RestartOnIdle property, IIdleSettings.RestartOnIdle, IIdleSettings.get_RestartOnIdle, IIdleSettings::RestartOnIdle, IIdleSettings::get_RestartOnIdle, IIdleSettings::put_RestartOnIdle, RestartOnIdle property [Task Scheduler], RestartOnIdle property [Task Scheduler],IIdleSettings interface, get_RestartOnIdle, taskschd.iidlesettings_restartonidle, taskschd/IIdleSettings::RestartOnIdle, taskschd/IIdleSettings::get_RestartOnIdle, taskschd/IIdleSettings::put_RestartOnIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IIdleSettings::get_RestartOnIdle method
+# IIdleSettings::get_RestartOnIdle
 
 
 ## -description

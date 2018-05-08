@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetGlyphMappings
-title: IXpsOMGlyphsEditor::SetGlyphMappings method
+title: IXpsOMGlyphsEditor::SetGlyphMappings
 author: windows-driver-content
 description: Sets an array of XPS_GLYPH_MAPPING structures that describe how to map the UTF-16 scalar values in the UnicodeString property to entries in the array of XPS_GLYPH_INDEX structures.
 old-location: xps\ixpsomglyphseditor_setglyphmappings.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c09db1ca-b244-46bd-b01a-a40d260562eb
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], SetGlyphMappings method, IXpsOMGlyphsEditor::SetGlyphMappings, SetGlyphMappings method [XPS Documents and Packaging], SetGlyphMappings method [XPS Documents and Packaging], IXpsOMGlyphsEditor interface, SetGlyphMappings,IXpsOMGlyphsEditor.SetGlyphMappings, xps.ixpsomglyphseditor_setglyphmappings, xpsobjectmodel/IXpsOMGlyphsEditor::SetGlyphMappings
+ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetGlyphMappings method, IXpsOMGlyphsEditor.SetGlyphMappings, IXpsOMGlyphsEditor::SetGlyphMappings, SetGlyphMappings, SetGlyphMappings method [XPS Documents and Packaging], SetGlyphMappings method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setglyphmappings, xpsobjectmodel/IXpsOMGlyphsEditor::SetGlyphMappings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphsEditor::SetGlyphMappings method
+# IXpsOMGlyphsEditor::SetGlyphMappings
 
 
 ## -description

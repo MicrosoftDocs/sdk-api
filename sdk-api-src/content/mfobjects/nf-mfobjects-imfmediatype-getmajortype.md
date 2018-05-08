@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaType.GetMajorType
-title: IMFMediaType::GetMajorType method
+title: IMFMediaType::GetMajorType
 author: windows-driver-content
 description: Gets the major type of the format.
 old-location: mf\imfmediatype_getmajortype.htm
 old-project: medfound
 ms.assetid: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d, GetMajorType method [Media Foundation], GetMajorType method [Media Foundation], IMFMediaType interface, GetMajorType,IMFMediaType.GetMajorType, IMFMediaType, IMFMediaType interface [Media Foundation], GetMajorType method, IMFMediaType::GetMajorType, mf.imfmediatype_getmajortype, mfobjects/IMFMediaType::GetMajorType
+ms.date: 5/3/2018
+ms.keywords: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d, GetMajorType, GetMajorType method [Media Foundation], GetMajorType method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],GetMajorType method, IMFMediaType.GetMajorType, IMFMediaType::GetMajorType, mf.imfmediatype_getmajortype, mfobjects/IMFMediaType::GetMajorType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaType::GetMajorType method
+# IMFMediaType::GetMajorType
 
 
 ## -description

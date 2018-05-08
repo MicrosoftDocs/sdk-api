@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.put_ClientApplicationID
-title: IUpdateInstaller::put_ClientApplicationID method
+title: IUpdateInstaller::put_ClientApplicationID
 author: windows-driver-content
 description: Gets and sets the current client application.
 old-location: wua\iupdateinstaller_clientapplicationid.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: b6fba06a-1eaa-4cf6-b218-29b790e80de1
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent], IUpdateInstaller interface, IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], ClientApplicationID property, IUpdateInstaller.ClientApplicationID, IUpdateInstaller::get_ClientApplicationID, IUpdateInstaller::put_ClientApplicationID, put_ClientApplicationID,IUpdateInstaller.put_ClientApplicationID, wua.iupdateinstaller_clientapplicationid, wuapi/IUpdateInstaller::ClientApplicationID, wuapi/IUpdateInstaller::get_ClientApplicationID, wuapi/IUpdateInstaller::put_ClientApplicationID
+ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],ClientApplicationID property, IUpdateInstaller.ClientApplicationID, IUpdateInstaller.put_ClientApplicationID, IUpdateInstaller::ClientApplicationID, IUpdateInstaller::get_ClientApplicationID, IUpdateInstaller::put_ClientApplicationID, put_ClientApplicationID, wua.iupdateinstaller_clientapplicationid, wuapi/IUpdateInstaller::ClientApplicationID, wuapi/IUpdateInstaller::get_ClientApplicationID, wuapi/IUpdateInstaller::put_ClientApplicationID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateInstaller::put_ClientApplicationID method
+# IUpdateInstaller::put_ClientApplicationID
 
 
 ## -description

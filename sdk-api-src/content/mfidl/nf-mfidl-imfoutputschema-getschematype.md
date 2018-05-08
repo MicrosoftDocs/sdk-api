@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFOutputSchema.GetSchemaType
-title: IMFOutputSchema::GetSchemaType method
+title: IMFOutputSchema::GetSchemaType
 author: windows-driver-content
 description: Retrieves the output protection system that is represented by this object. Output protection systems are identified by GUID value.
 old-location: mf\imfoutputschema_getschematype.htm
 old-project: medfound
 ms.assetid: 6015e636-f1ea-4f4a-85d5-e8e896a0ec3c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 6015e636-f1ea-4f4a-85d5-e8e896a0ec3c, GetSchemaType method [Media Foundation], GetSchemaType method [Media Foundation], IMFOutputSchema interface, GetSchemaType,IMFOutputSchema.GetSchemaType, IMFOutputSchema, IMFOutputSchema interface [Media Foundation], GetSchemaType method, IMFOutputSchema::GetSchemaType, mf.imfoutputschema_getschematype, mfidl/IMFOutputSchema::GetSchemaType
+ms.date: 5/3/2018
+ms.keywords: 6015e636-f1ea-4f4a-85d5-e8e896a0ec3c, GetSchemaType, GetSchemaType method [Media Foundation], GetSchemaType method [Media Foundation],IMFOutputSchema interface, IMFOutputSchema interface [Media Foundation],GetSchemaType method, IMFOutputSchema.GetSchemaType, IMFOutputSchema::GetSchemaType, mf.imfoutputschema_getschematype, mfidl/IMFOutputSchema::GetSchemaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFOutputSchema::GetSchemaType method
+# IMFOutputSchema::GetSchemaType
 
 
 ## -description

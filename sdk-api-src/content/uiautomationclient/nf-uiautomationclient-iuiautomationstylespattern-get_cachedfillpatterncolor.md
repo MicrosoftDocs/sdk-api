@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CachedFillPatternColor
-title: IUIAutomationStylesPattern::get_CachedFillPatternColor method
+title: IUIAutomationStylesPattern::get_CachedFillPatternColor
 author: windows-driver-content
 description: Retrieves the cached color of the pattern used to fill an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedFillPatternColor.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7977770D-1B61-4FE7-846B-C4EE6A0647EE
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedFillPatternColor property [Windows Accessibility], CachedFillPatternColor property [Windows Accessibility], IUIAutomationStylesPattern interface, IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], CachedFillPatternColor property, IUIAutomationStylesPattern.CachedFillPatternColor, IUIAutomationStylesPattern::get_CachedFillPatternColor, get_CachedFillPatternColor,IUIAutomationStylesPattern.get_CachedFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::CachedFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::get_CachedFillPatternColor, winauto.uiauto_IUIAutomationStylesPattern_CachedFillPatternColor
+ms.keywords: CachedFillPatternColor property [Windows Accessibility], CachedFillPatternColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedFillPatternColor property, IUIAutomationStylesPattern.CachedFillPatternColor, IUIAutomationStylesPattern.get_CachedFillPatternColor, IUIAutomationStylesPattern::CachedFillPatternColor, IUIAutomationStylesPattern::get_CachedFillPatternColor, get_CachedFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::CachedFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::get_CachedFillPatternColor, winauto.uiauto_IUIAutomationStylesPattern_CachedFillPatternColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationStylesPattern::get_CachedFillPatternColor method
+# IUIAutomationStylesPattern::get_CachedFillPatternColor
 
 
 ## -description

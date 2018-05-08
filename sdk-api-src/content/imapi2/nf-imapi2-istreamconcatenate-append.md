@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IStreamConcatenate.Append
-title: IStreamConcatenate::Append method
+title: IStreamConcatenate::Append
 author: windows-driver-content
 description: Appends a stream to this stream.
 old-location: imapi\istreamconcatenate_append.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 9871cc35-c955-4fd4-9082-5b6ab60cae7b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Append method [IMAPI], Append method [IMAPI], IStreamConcatenate interface, Append,IStreamConcatenate.Append, IStreamConcatenate, IStreamConcatenate interface [IMAPI], Append method, IStreamConcatenate::Append, imapi.istreamconcatenate_append, imapi2/IStreamConcatenate::Append
+ms.keywords: Append, Append method [IMAPI], Append method [IMAPI],IStreamConcatenate interface, IStreamConcatenate interface [IMAPI],Append method, IStreamConcatenate.Append, IStreamConcatenate::Append, imapi.istreamconcatenate_append, imapi2/IStreamConcatenate::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IStreamConcatenate::Append method
+# IStreamConcatenate::Append
 
 
 ## -description

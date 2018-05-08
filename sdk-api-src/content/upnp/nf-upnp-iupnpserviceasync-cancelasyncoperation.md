@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.CancelAsyncOperation
-title: IUPnPServiceAsync::CancelAsyncOperation method
+title: IUPnPServiceAsync::CancelAsyncOperation
 author: windows-driver-content
 description: CancelAsyncOperation method cancels a pending asynchronous operation initiated by the BeginInvokeAction, BeginQueryStateVariable, BeginSubscribeToEvents, or BeginSCPDDownload methods.
 old-location: upnp\iupnpserviceasync_cancelasyncoperation.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: FBEC2DF3-6D45-49F2-AAA8-6DED697BC5A6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: CancelAsyncOperation method [UPnP APIs], CancelAsyncOperation method [UPnP APIs], IUPnPServiceAsync interface, CancelAsyncOperation,IUPnPServiceAsync.CancelAsyncOperation, IUPnPServiceAsync, IUPnPServiceAsync interface [UPnP APIs], CancelAsyncOperation method, IUPnPServiceAsync::CancelAsyncOperation, upnp.iupnpserviceasync_cancelasyncoperation, upnp/IUPnPServiceAsync::CancelAsyncOperation
+ms.keywords: CancelAsyncOperation, CancelAsyncOperation method [UPnP APIs], CancelAsyncOperation method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],CancelAsyncOperation method, IUPnPServiceAsync.CancelAsyncOperation, IUPnPServiceAsync::CancelAsyncOperation, upnp.iupnpserviceasync_cancelasyncoperation, upnp/IUPnPServiceAsync::CancelAsyncOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPServiceAsync::CancelAsyncOperation method
+# IUPnPServiceAsync::CancelAsyncOperation
 
 
 ## -description

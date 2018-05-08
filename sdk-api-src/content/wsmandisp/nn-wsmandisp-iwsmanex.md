@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 23fdd9d9-4a78-4c01-8e5d-c8007f39d5d6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], IWSManEx interface [Windows Remote Management], described, winrm.iwsmanex, wsmandisp/ IWSManEx
+ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], IWSManEx interface [Windows Remote Management],described, winrm.iwsmanex, wsmandisp/ IWSManEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

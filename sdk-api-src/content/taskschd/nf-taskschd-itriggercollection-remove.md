@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITriggerCollection.Remove
-title: ITriggerCollection::Remove method
+title: ITriggerCollection::Remove
 author: windows-driver-content
 description: Removes the specified trigger from the collection of triggers used by the task.
 old-location: taskschd\itriggercollection_remove.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: af3e04e6-20ec-412b-a0d2-41d31137dfca
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITriggerCollection, ITriggerCollection interface [Task Scheduler], Remove method, ITriggerCollection::Remove, Remove method [Task Scheduler], Remove method [Task Scheduler], ITriggerCollection interface, Remove,ITriggerCollection.Remove, taskschd.itriggercollection_remove, taskschd/ITriggerCollection::Remove, triggers [Task Scheduler], removing
+ms.keywords: ITriggerCollection interface [Task Scheduler],Remove method, ITriggerCollection.Remove, ITriggerCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],ITriggerCollection interface, taskschd.itriggercollection_remove, taskschd/ITriggerCollection::Remove, triggers [Task Scheduler],removing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITriggerCollection::Remove method
+# ITriggerCollection::Remove
 
 
 ## -description

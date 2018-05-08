@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_ClippedSourceRect
-title: IMSVidVideoRenderer::get_ClippedSourceRect method
+title: IMSVidVideoRenderer::get_ClippedSourceRect
 author: windows-driver-content
 description: The get_ClippedSourceRect method retrieves the clipping rectangle on the video source.
 old-location: mstv\imsvidvideorenderer_get_clippedsourcerect.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d40d39d9-41a4-42e1-b0d0-4a6299fd1cff
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], get_ClippedSourceRect method, IMSVidVideoRenderer::get_ClippedSourceRect, IMSVidVideoRendererget_ClippedSourceRect, get_ClippedSourceRect method [Microsoft TV Technologies], get_ClippedSourceRect method [Microsoft TV Technologies], IMSVidVideoRenderer interface, get_ClippedSourceRect,IMSVidVideoRenderer.get_ClippedSourceRect, mstv.imsvidvideorenderer_get_clippedsourcerect, segment/IMSVidVideoRenderer::get_ClippedSourceRect
+ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_ClippedSourceRect method, IMSVidVideoRenderer.get_ClippedSourceRect, IMSVidVideoRenderer::get_ClippedSourceRect, IMSVidVideoRendererget_ClippedSourceRect, get_ClippedSourceRect, get_ClippedSourceRect method [Microsoft TV Technologies], get_ClippedSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_clippedsourcerect, segment/IMSVidVideoRenderer::get_ClippedSourceRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer::get_ClippedSourceRect method
+# IMSVidVideoRenderer::get_ClippedSourceRect
 
 
 ## -description

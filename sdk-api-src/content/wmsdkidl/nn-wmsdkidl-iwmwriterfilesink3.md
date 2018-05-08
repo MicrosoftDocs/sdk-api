@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 67f418c8-184d-46f0-8939-69194c7e7a50
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], IWMWriterFileSink3 interface [windows Media Format], described, IWMWriterFileSink3Interface, wmformat.iwmwriterfilesink3, wmsdkidl/IWMWriterFileSink3
+ms.keywords: IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], IWMWriterFileSink3 interface [windows Media Format],described, IWMWriterFileSink3Interface, wmformat.iwmwriterfilesink3, wmsdkidl/IWMWriterFileSink3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

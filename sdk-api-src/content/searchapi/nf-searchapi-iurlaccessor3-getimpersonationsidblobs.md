@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IUrlAccessor3.GetImpersonationSidBlobs
-title: IUrlAccessor3::GetImpersonationSidBlobs method
+title: IUrlAccessor3::GetImpersonationSidBlobs
 author: windows-driver-content
 description: Retrieves an array of user security identifiers (SIDs) for a specified URL. This method enables protocol handlers to specify which users can access the file and the search protocol host to impersonate a user in order to index the file.
 old-location: search\_search_IUrlAccessor3_GetImpersonationSidBlobs.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor3\getimpersonationsidblobs.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetImpersonationSidBlobs method [search], GetImpersonationSidBlobs method [search], IUrlAccessor3 interface, GetImpersonationSidBlobs method [search], IUrlAccessor4 interface, GetImpersonationSidBlobs,IUrlAccessor3.GetImpersonationSidBlobs, IUrlAccessor3, IUrlAccessor3 interface [search], GetImpersonationSidBlobs method, IUrlAccessor3::GetImpersonationSidBlobs, IUrlAccessor4 interface [search], GetImpersonationSidBlobs method, IUrlAccessor4::GetImpersonationSidBlobs, _search_IUrlAccessor3_GetImpersonationSidBlobs, search._search_IUrlAccessor3_GetImpersonationSidBlobs, searchapi/IUrlAccessor3::GetImpersonationSidBlobs, searchapi/IUrlAccessor4::GetImpersonationSidBlobs
+ms.date: 5/4/2018
+ms.keywords: GetImpersonationSidBlobs, GetImpersonationSidBlobs method [search], GetImpersonationSidBlobs method [search],IUrlAccessor3 interface, GetImpersonationSidBlobs method [search],IUrlAccessor4 interface, IUrlAccessor3 interface [search],GetImpersonationSidBlobs method, IUrlAccessor3.GetImpersonationSidBlobs, IUrlAccessor3::GetImpersonationSidBlobs, IUrlAccessor4 interface [search],GetImpersonationSidBlobs method, IUrlAccessor4::GetImpersonationSidBlobs, _search_IUrlAccessor3_GetImpersonationSidBlobs, search._search_IUrlAccessor3_GetImpersonationSidBlobs, searchapi/IUrlAccessor3::GetImpersonationSidBlobs, searchapi/IUrlAccessor4::GetImpersonationSidBlobs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUrlAccessor3::GetImpersonationSidBlobs method
+# IUrlAccessor3::GetImpersonationSidBlobs
 
 
 ## -description

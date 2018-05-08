@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetup.IsPropertyEditable
-title: ICertSrvSetup::IsPropertyEditable method
+title: ICertSrvSetup::IsPropertyEditable
 author: windows-driver-content
 description: Indicates to the caller whether a specified property can be edited.
 old-location: security\icertsrvsetup_ispropertyeditable.htm
 old-project: SecCrypto
 ms.assetid: 2facae59-aa96-4ac7-97e1-ff094022681a
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], IsPropertyEditable method, ICertSrvSetup::IsPropertyEditable, IsPropertyEditable method [Security], IsPropertyEditable method [Security], ICertSrvSetup interface, IsPropertyEditable,ICertSrvSetup.IsPropertyEditable, casetup/ICertSrvSetup::IsPropertyEditable, security.icertsrvsetup_ispropertyeditable
+ms.date: 4/30/2018
+ms.keywords: ICertSrvSetup interface [Security],IsPropertyEditable method, ICertSrvSetup.IsPropertyEditable, ICertSrvSetup::IsPropertyEditable, IsPropertyEditable, IsPropertyEditable method [Security], IsPropertyEditable method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::IsPropertyEditable, security.icertsrvsetup_ispropertyeditable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetup::IsPropertyEditable method
+# ICertSrvSetup::IsPropertyEditable
 
 
 ## -description

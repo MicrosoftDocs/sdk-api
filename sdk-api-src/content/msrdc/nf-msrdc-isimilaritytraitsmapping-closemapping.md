@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.CloseMapping
-title: ISimilarityTraitsMapping::CloseMapping method
+title: ISimilarityTraitsMapping::CloseMapping
 author: windows-driver-content
 description: Closes a file mapping object for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_closemapping.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 9ac20c6b-9fe5-4b59-a9ed-faef97fd76f2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CloseMapping method [Remote Differential Compression], CloseMapping method [Remote Differential Compression], ISimilarityTraitsMapping interface, CloseMapping,ISimilarityTraitsMapping.CloseMapping, ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], CloseMapping method, ISimilarityTraitsMapping::CloseMapping, fs.isimilaritytraitsmapping_closemapping, msrdc/ISimilarityTraitsMapping::CloseMapping, rdc.isimilaritytraitsmapping_closemapping
+ms.keywords: CloseMapping, CloseMapping method [Remote Differential Compression], CloseMapping method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],CloseMapping method, ISimilarityTraitsMapping.CloseMapping, ISimilarityTraitsMapping::CloseMapping, fs.isimilaritytraitsmapping_closemapping, msrdc/ISimilarityTraitsMapping::CloseMapping, rdc.isimilaritytraitsmapping_closemapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityTraitsMapping::CloseMapping method
+# ISimilarityTraitsMapping::CloseMapping
 
 
 ## -description

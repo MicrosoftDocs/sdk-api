@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.CreateFileScreenCollection
-title: IFsrmFileScreenManager::CreateFileScreenCollection method
+title: IFsrmFileScreenManager::CreateFileScreenCollection
 author: windows-driver-content
 description: Creates an empty collection to which you can add file screens.
 old-location: fsrm\ifsrmfilescreenmanager_createfilescreencollection.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 4adce5d6-8be6-477b-8dab-d437163b4449
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreateFileScreenCollection method [File Server Resource Manager], CreateFileScreenCollection method [File Server Resource Manager], FsrmFileScreenManager class, CreateFileScreenCollection method [File Server Resource Manager], IFsrmFileScreenManager interface, CreateFileScreenCollection,IFsrmFileScreenManager.CreateFileScreenCollection, FsrmFileScreenManager class [File Server Resource Manager], CreateFileScreenCollection method, IFsrmFileScreenManager, IFsrmFileScreenManager interface [File Server Resource Manager], CreateFileScreenCollection method, IFsrmFileScreenManager::CreateFileScreenCollection, fs.ifsrmfilescreenmanager_createfilescreencollection, fsrm.ifsrmfilescreenmanager_createfilescreencollection, fsrmscreen/IFsrmFileScreenManager::CreateFileScreenCollection
+ms.keywords: CreateFileScreenCollection, CreateFileScreenCollection method [File Server Resource Manager], CreateFileScreenCollection method [File Server Resource Manager],FsrmFileScreenManager class, CreateFileScreenCollection method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],CreateFileScreenCollection method, IFsrmFileScreenManager interface [File Server Resource Manager],CreateFileScreenCollection method, IFsrmFileScreenManager.CreateFileScreenCollection, IFsrmFileScreenManager::CreateFileScreenCollection, fs.ifsrmfilescreenmanager_createfilescreencollection, fsrm.ifsrmfilescreenmanager_createfilescreencollection, fsrmscreen/IFsrmFileScreenManager::CreateFileScreenCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenManager::CreateFileScreenCollection method
+# IFsrmFileScreenManager::CreateFileScreenCollection
 
 
 ## -description

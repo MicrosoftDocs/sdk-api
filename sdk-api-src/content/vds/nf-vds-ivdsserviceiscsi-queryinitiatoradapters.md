@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.QueryInitiatorAdapters
-title: IVdsServiceIscsi::QueryInitiatorAdapters method
+title: IVdsServiceIscsi::QueryInitiatorAdapters
 author: windows-driver-content
 description: Returns an object that enumerates the iSCSI initiator adapters of the initiator.
 old-location: base\ivdsserviceiscsi_queryinitiatoradapters.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 427d33e1-d2a5-46f3-a3be-d3589685f6af
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsServiceIscsi, IVdsServiceIscsi interface [VDS], QueryInitiatorAdapters method, IVdsServiceIscsi::QueryInitiatorAdapters, QueryInitiatorAdapters method [VDS], QueryInitiatorAdapters method [VDS], IVdsServiceIscsi interface, QueryInitiatorAdapters,IVdsServiceIscsi.QueryInitiatorAdapters, base.ivdsserviceiscsi_queryinitiatoradapters, vds/IVdsServiceIscsi::QueryInitiatorAdapters
+ms.keywords: IVdsServiceIscsi interface [VDS],QueryInitiatorAdapters method, IVdsServiceIscsi.QueryInitiatorAdapters, IVdsServiceIscsi::QueryInitiatorAdapters, QueryInitiatorAdapters, QueryInitiatorAdapters method [VDS], QueryInitiatorAdapters method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_queryinitiatoradapters, vds/IVdsServiceIscsi::QueryInitiatorAdapters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsServiceIscsi::QueryInitiatorAdapters method
+# IVdsServiceIscsi::QueryInitiatorAdapters
 
 
 ## -description

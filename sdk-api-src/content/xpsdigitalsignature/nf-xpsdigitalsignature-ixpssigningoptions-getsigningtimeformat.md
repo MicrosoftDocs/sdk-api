@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetSigningTimeFormat
-title: IXpsSigningOptions::GetSigningTimeFormat method
+title: IXpsSigningOptions::GetSigningTimeFormat
 author: windows-driver-content
 description: Gets the format of the signing time string.
 old-location: xps\ixpssigningoptions_getsigningtimeformat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 79af4463-1651-44d2-9143-b1f922ba5cfb
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSigningTimeFormat method [XPS Documents and Packaging], GetSigningTimeFormat method [XPS Documents and Packaging], IXpsSigningOptions interface, GetSigningTimeFormat,IXpsSigningOptions.GetSigningTimeFormat, IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], GetSigningTimeFormat method, IXpsSigningOptions::GetSigningTimeFormat, xps.ixpssigningoptions_getsigningtimeformat, xpsdigitalsignature/IXpsSigningOptions::GetSigningTimeFormat
+ms.keywords: GetSigningTimeFormat, GetSigningTimeFormat method [XPS Documents and Packaging], GetSigningTimeFormat method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSigningTimeFormat method, IXpsSigningOptions.GetSigningTimeFormat, IXpsSigningOptions::GetSigningTimeFormat, xps.ixpssigningoptions_getsigningtimeformat, xpsdigitalsignature/IXpsSigningOptions::GetSigningTimeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSigningOptions::GetSigningTimeFormat method
+# IXpsSigningOptions::GetSigningTimeFormat
 
 
 ## -description

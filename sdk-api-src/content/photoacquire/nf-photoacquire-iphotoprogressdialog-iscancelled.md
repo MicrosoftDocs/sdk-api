@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.IsCancelled
-title: IPhotoProgressDialog::IsCancelled method
+title: IPhotoProgressDialog::IsCancelled
 author: windows-driver-content
 description: The IsCancelled method indicates whether the operation has been canceled via the progress dialog box.
 old-location: picacq\iphotoprogressdialog_iscancelled.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 0bd84b1f-7a2a-40eb-ba77-21a8f701e5e0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], IsCancelled method, IPhotoProgressDialog::IsCancelled, IPhotoProgressDialogIsCancelled, IsCancelled method [Picture Acquisition], IsCancelled method [Picture Acquisition], IPhotoProgressDialog interface, IsCancelled,IPhotoProgressDialog.IsCancelled, photoacquire/IPhotoProgressDialog::IsCancelled, picacq.iphotoprogressdialog_iscancelled
+ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],IsCancelled method, IPhotoProgressDialog.IsCancelled, IPhotoProgressDialog::IsCancelled, IPhotoProgressDialogIsCancelled, IsCancelled, IsCancelled method [Picture Acquisition], IsCancelled method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::IsCancelled, picacq.iphotoprogressdialog_iscancelled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoProgressDialog::IsCancelled method
+# IPhotoProgressDialog::IsCancelled
 
 
 ## -description

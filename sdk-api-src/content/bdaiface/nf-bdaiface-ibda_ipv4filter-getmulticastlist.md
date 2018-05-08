@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_IPV4Filter.GetMulticastList
-title: IBDA_IPV4Filter::GetMulticastList method
+title: IBDA_IPV4Filter::GetMulticastList
 author: windows-driver-content
 description: The GetMulticastList method retrieves the list of multicast addresses on the Network Provider.
 old-location: mstv\ibda_ipv4filter_getmulticastlist.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 020a4053-76ba-4e67-afa8-27abcf70c456
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies], IBDA_IPV4Filter interface, GetMulticastList,IBDA_IPV4Filter.GetMulticastList, IBDA_IPV4Filter, IBDA_IPV4Filter interface [Microsoft TV Technologies], GetMulticastList method, IBDA_IPV4Filter::GetMulticastList, IBDA_IPV4FilterGetMulticastList, bdaiface/IBDA_IPV4Filter::GetMulticastList, mstv.ibda_ipv4filter_getmulticastlist
+ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_IPV4Filter interface, IBDA_IPV4Filter interface [Microsoft TV Technologies],GetMulticastList method, IBDA_IPV4Filter.GetMulticastList, IBDA_IPV4Filter::GetMulticastList, IBDA_IPV4FilterGetMulticastList, bdaiface/IBDA_IPV4Filter::GetMulticastList, mstv.ibda_ipv4filter_getmulticastlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_IPV4Filter::GetMulticastList method
+# IBDA_IPV4Filter::GetMulticastList
 
 
 ## -description

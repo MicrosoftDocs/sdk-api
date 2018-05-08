@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyValue2.PutObjectProperty
-title: IADsPropertyValue2::PutObjectProperty method
+title: IADsPropertyValue2::PutObjectProperty
 author: windows-driver-content
 description: Sets an attribute value.
 old-location: adsi\iadspropertyvalue2_putobjectproperty.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 53dad13f-7df7-4c1d-8c8a-946c291b20c6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsPropertyValue2, IADsPropertyValue2 interface [ADSI], PutObjectProperty method, IADsPropertyValue2::PutObjectProperty, PutObjectProperty method [ADSI], PutObjectProperty method [ADSI], IADsPropertyValue2 interface, PutObjectProperty,IADsPropertyValue2.PutObjectProperty, _ds_iadspropertyvalue2_putobjectproperty, adsi.iadspropertyvalue2__putobjectproperty, adsi.iadspropertyvalue2_putobjectproperty, iads/IADsPropertyValue2::PutObjectProperty
+ms.keywords: IADsPropertyValue2 interface [ADSI],PutObjectProperty method, IADsPropertyValue2.PutObjectProperty, IADsPropertyValue2::PutObjectProperty, PutObjectProperty, PutObjectProperty method [ADSI], PutObjectProperty method [ADSI],IADsPropertyValue2 interface, _ds_iadspropertyvalue2_putobjectproperty, adsi.iadspropertyvalue2__putobjectproperty, adsi.iadspropertyvalue2_putobjectproperty, iads/IADsPropertyValue2::PutObjectProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsPropertyValue2::PutObjectProperty method
+# IADsPropertyValue2::PutObjectProperty
 
 
 ## -description

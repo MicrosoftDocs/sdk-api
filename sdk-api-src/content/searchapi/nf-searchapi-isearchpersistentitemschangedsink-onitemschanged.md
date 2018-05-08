@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchPersistentItemsChangedSink.OnItemsChanged
-title: ISearchPersistentItemsChangedSink::OnItemsChanged method
+title: ISearchPersistentItemsChangedSink::OnItemsChanged
 author: windows-driver-content
 description: Notifies the indexer to index changed items.
 old-location: search\_search_ISearchPersistentItemsChangedSink_OnItemsChanged.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\onitemschanged.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchPersistentItemsChangedSink, ISearchPersistentItemsChangedSink interface [search], OnItemsChanged method, ISearchPersistentItemsChangedSink::OnItemsChanged, OnItemsChanged method [search], OnItemsChanged method [search], ISearchPersistentItemsChangedSink interface, OnItemsChanged,ISearchPersistentItemsChangedSink.OnItemsChanged, _search_ISearchPersistentItemsChangedSink_OnItemsChanged, search._search_ISearchPersistentItemsChangedSink_OnItemsChanged, searchapi/ISearchPersistentItemsChangedSink::OnItemsChanged
+ms.date: 5/4/2018
+ms.keywords: ISearchPersistentItemsChangedSink interface [search],OnItemsChanged method, ISearchPersistentItemsChangedSink.OnItemsChanged, ISearchPersistentItemsChangedSink::OnItemsChanged, OnItemsChanged, OnItemsChanged method [search], OnItemsChanged method [search],ISearchPersistentItemsChangedSink interface, _search_ISearchPersistentItemsChangedSink_OnItemsChanged, search._search_ISearchPersistentItemsChangedSink_OnItemsChanged, searchapi/ISearchPersistentItemsChangedSink::OnItemsChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchPersistentItemsChangedSink::OnItemsChanged method
+# ISearchPersistentItemsChangedSink::OnItemsChanged
 
 
 ## -description

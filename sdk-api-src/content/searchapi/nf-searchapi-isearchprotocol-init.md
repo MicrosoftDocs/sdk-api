@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchProtocol.Init
-title: ISearchProtocol::Init method
+title: ISearchProtocol::Init
 author: windows-driver-content
 description: Initializes a protocol handler.
 old-location: search\_search_ISearchProtocol_Init.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\init.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchProtocol, ISearchProtocol interface [search], Init method, ISearchProtocol::Init, Init method [search], Init method [search], ISearchProtocol interface, Init,ISearchProtocol.Init, _search_ISearchProtocol_Init, search._search_ISearchProtocol_Init, searchapi/ISearchProtocol::Init
+ms.date: 5/4/2018
+ms.keywords: ISearchProtocol interface [search],Init method, ISearchProtocol.Init, ISearchProtocol::Init, Init, Init method [search], Init method [search],ISearchProtocol interface, _search_ISearchProtocol_Init, search._search_ISearchProtocol_Init, searchapi/ISearchProtocol::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchProtocol::Init method
+# ISearchProtocol::Init
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCompartmentMgr.ClearCompartment
-title: ITfCompartmentMgr::ClearCompartment method
+title: ITfCompartmentMgr::ClearCompartment
 author: windows-driver-content
 description: ITfCompartmentMgr::ClearCompartment method
 old-location: tsf\itfcompartmentmgr_clearcompartment.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 862ec077-b192-412a-b80c-6105f503ed21
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ClearCompartment method [Text Services Framework], ClearCompartment method [Text Services Framework], ITfCompartmentMgr interface, ClearCompartment,ITfCompartmentMgr.ClearCompartment, ITfCompartmentMgr, ITfCompartmentMgr interface [Text Services Framework], ClearCompartment method, ITfCompartmentMgr::ClearCompartment, _tsf_itfcompartmentmgr_clearcompartment_ref, msctf/ITfCompartmentMgr::ClearCompartment, tsf.itfcompartmentmgr_clearcompartment
+ms.keywords: ClearCompartment, ClearCompartment method [Text Services Framework], ClearCompartment method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],ClearCompartment method, ITfCompartmentMgr.ClearCompartment, ITfCompartmentMgr::ClearCompartment, _tsf_itfcompartmentmgr_clearcompartment_ref, msctf/ITfCompartmentMgr::ClearCompartment, tsf.itfcompartmentmgr_clearcompartment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCompartmentMgr::ClearCompartment method
+# ITfCompartmentMgr::ClearCompartment
 
 
 ## -description

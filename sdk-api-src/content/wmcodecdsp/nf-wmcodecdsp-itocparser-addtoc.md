@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.AddToc
-title: ITocParser::AddToc method
+title: ITocParser::AddToc
 author: windows-driver-content
 description: The AddToc method adds a table of contents to the TOC Parser object and assigns an index to the added table of contents.
 old-location: mf\itocparser_addtoc.htm
 old-project: medfound
 ms.assetid: c99ccbb3-ba33-4d87-81a3-0de3c180554a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddToc method [Media Foundation], AddToc method [Media Foundation], ITocParser interface, AddToc,ITocParser.AddToc, ITocParser, ITocParser interface [Media Foundation], AddToc method, ITocParser::AddToc, codecapi.itocparser_addtoc, mf.itocparser_addtoc, wmcodecdsp/ITocParser::AddToc
+ms.date: 5/3/2018
+ms.keywords: AddToc, AddToc method [Media Foundation], AddToc method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],AddToc method, ITocParser.AddToc, ITocParser::AddToc, codecapi.itocparser_addtoc, mf.itocparser_addtoc, wmcodecdsp/ITocParser::AddToc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocParser::AddToc method
+# ITocParser::AddToc
 
 
 ## -description

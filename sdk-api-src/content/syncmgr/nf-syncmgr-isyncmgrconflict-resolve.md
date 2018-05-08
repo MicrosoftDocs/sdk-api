@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.Resolve
-title: ISyncMgrConflict::Resolve method
+title: ISyncMgrConflict::Resolve
 author: windows-driver-content
 description: Resolves the conflict using its own sync handler, controls UI.
 old-location: shell\ISyncMgrConflict_Resolve.htm
 old-project: shell
 ms.assetid: 9680b96e-9a83-45e1-a2bf-674aff6490ec
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrConflict, ISyncMgrConflict interface [Windows Shell], Resolve method, ISyncMgrConflict::Resolve, Resolve method [Windows Shell], Resolve method [Windows Shell], ISyncMgrConflict interface, Resolve,ISyncMgrConflict.Resolve, _shell_ISyncMgrConflict_Resolve, shell.ISyncMgrConflict_Resolve, syncmgr/ISyncMgrConflict::Resolve
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrConflict interface [Windows Shell],Resolve method, ISyncMgrConflict.Resolve, ISyncMgrConflict::Resolve, Resolve, Resolve method [Windows Shell], Resolve method [Windows Shell],ISyncMgrConflict interface, _shell_ISyncMgrConflict_Resolve, shell.ISyncMgrConflict_Resolve, syncmgr/ISyncMgrConflict::Resolve
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrConflict::Resolve method
+# ISyncMgrConflict::Resolve
 
 
 ## -description

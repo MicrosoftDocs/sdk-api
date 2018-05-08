@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAnnotationProvider.get_Author
-title: IAnnotationProvider::get_Author method
+title: IAnnotationProvider::get_Author
 author: windows-driver-content
 description: The name of the annotation author.
 old-location: winauto\uiauto_IAnnotationProvider_Author.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7A5DB431-FCB8-4AE6-AA55-EC0A5DE64470
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Author property [Windows Accessibility], Author property [Windows Accessibility], IAnnotationProvider interface, IAnnotationProvider, IAnnotationProvider interface [Windows Accessibility], Author property, IAnnotationProvider.Author, IAnnotationProvider::get_Author, get_Author,IAnnotationProvider.get_Author, uiautomationcore/IAnnotationProvider::Author, uiautomationcore/IAnnotationProvider::get_Author, winauto.uiauto_IAnnotationProvider_Author
+ms.keywords: Author property [Windows Accessibility], Author property [Windows Accessibility],IAnnotationProvider interface, IAnnotationProvider interface [Windows Accessibility],Author property, IAnnotationProvider.Author, IAnnotationProvider.get_Author, IAnnotationProvider::Author, IAnnotationProvider::get_Author, get_Author, uiautomationcore/IAnnotationProvider::Author, uiautomationcore/IAnnotationProvider::get_Author, winauto.uiauto_IAnnotationProvider_Author
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnnotationProvider::get_Author method
+# IAnnotationProvider::get_Author
 
 
 ## -description

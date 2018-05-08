@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_ProvidesNotifications
-title: ISearchRoot::put_ProvidesNotifications method
+title: ISearchRoot::put_ProvidesNotifications
 author: windows-driver-content
 description: Sets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.
 old-location: search\_search_ISearchRoot_put_ProvidesNotifications.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_providesnotifications.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchRoot, ISearchRoot interface [search], put_ProvidesNotifications method, ISearchRoot::put_ProvidesNotifications, _search_ISearchRoot_put_ProvidesNotifications, put_ProvidesNotifications method [search], put_ProvidesNotifications method [search], ISearchRoot interface, put_ProvidesNotifications,ISearchRoot.put_ProvidesNotifications, search._search_ISearchRoot_put_ProvidesNotifications, searchapi/ISearchRoot::put_ProvidesNotifications
+ms.date: 5/4/2018
+ms.keywords: ISearchRoot interface [search],put_ProvidesNotifications method, ISearchRoot.put_ProvidesNotifications, ISearchRoot::put_ProvidesNotifications, _search_ISearchRoot_put_ProvidesNotifications, put_ProvidesNotifications, put_ProvidesNotifications method [search], put_ProvidesNotifications method [search],ISearchRoot interface, search._search_ISearchRoot_put_ProvidesNotifications, searchapi/ISearchRoot::put_ProvidesNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchRoot::put_ProvidesNotifications method
+# ISearchRoot::put_ProvidesNotifications
 
 
 ## -description

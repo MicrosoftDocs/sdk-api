@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetTransformLookup
-title: IXpsOMTileBrush::SetTransformLookup method
+title: IXpsOMTileBrush::SetTransformLookup
 author: windows-driver-content
 description: Sets the lookup key name of a shared matrix transform that will be used as the transform for this brush.
 old-location: xps\ixpsomtilebrush_settransformlookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b2d9519a-9e22-44ba-839d-e1ba33aacc26
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], SetTransformLookup method, IXpsOMTileBrush::SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging], IXpsOMTileBrush interface, SetTransformLookup,IXpsOMTileBrush.SetTransformLookup, xps.ixpsomtilebrush_settransformlookup, xpsobjectmodel/IXpsOMTileBrush::SetTransformLookup
+ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMTileBrush.SetTransformLookup, IXpsOMTileBrush::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_settransformlookup, xpsobjectmodel/IXpsOMTileBrush::SetTransformLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMTileBrush::SetTransformLookup method
+# IXpsOMTileBrush::SetTransformLookup
 
 
 ## -description

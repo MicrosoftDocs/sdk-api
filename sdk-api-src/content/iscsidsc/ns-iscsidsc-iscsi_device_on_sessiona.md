@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: ISCSI_DEVICE_ON_SESSIONW (Unicode) and ISCSI_DEVICE_ON_SESSIONA (ANSI)
 req.idl: 
 req.max-support: 
-req.namespace: Root\WMI
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.typenames: ISCSI_DEVICE_ON_SESSIONA, *PISCSI_DEVICE_ON_SESSIONA

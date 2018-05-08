@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.ITravelLog.AddEntry
-title: ITravelLog::AddEntry method
+title: ITravelLog::AddEntry
 author: windows-driver-content
 description: Deprecated. Adds a new entry for a pending navigation to the travel log.
 old-location: shell\ITravelLog_AddEntry.htm
 old-project: shell
 ms.assetid: f83c1cb1-3cc5-413c-826b-ff4971cd4598
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AddEntry method [Windows Shell], AddEntry method [Windows Shell], ITravelLog interface, AddEntry,ITravelLog.AddEntry, FALSE, ITravelLog, ITravelLog interface [Windows Shell], AddEntry method, ITravelLog::AddEntry, TRUE, shdeprecated/ITravelLog::AddEntry, shell.ITravelLog_AddEntry, zone_ITravelLog_AddEntry
+ms.date: 5/3/2018
+ms.keywords: AddEntry, AddEntry method [Windows Shell], AddEntry method [Windows Shell],ITravelLog interface, FALSE, ITravelLog interface [Windows Shell],AddEntry method, ITravelLog.AddEntry, ITravelLog::AddEntry, TRUE, shdeprecated/ITravelLog::AddEntry, shell.ITravelLog_AddEntry, zone_ITravelLog_AddEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# ITravelLog::AddEntry method
+# ITravelLog::AddEntry
 
 
 ## -description

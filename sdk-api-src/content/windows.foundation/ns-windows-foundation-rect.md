@@ -7,7 +7,7 @@ old-location: winrt\rect.htm
 old-project: WinRT
 ms.assetid: 420daab1-71e7-4610-b454-a49a64061f97
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: Rect, Rect structure [Windows Runtime], windows/Rect, winrt.rect
 ms.prod: windows-hardware
 ms.technology: windows-devices

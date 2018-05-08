@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIObject.SetPrivateDataInterface
-title: IDXGIObject::SetPrivateDataInterface method
+title: IDXGIObject::SetPrivateDataInterface
 author: windows-driver-content
 description: Set an interface in the object's private data.
 old-location: direct3ddxgi\idxgiobject_setprivatedatainterface.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_setprivatedatainterface.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 37e6a4f2-50a5-efad-af10-20e8f1d053e2, IDXGIObject, IDXGIObject interface [DXGI], SetPrivateDataInterface method, IDXGIObject::SetPrivateDataInterface, SetPrivateDataInterface method [DXGI], SetPrivateDataInterface method [DXGI], IDXGIObject interface, SetPrivateDataInterface,IDXGIObject.SetPrivateDataInterface, direct3ddxgi.idxgiobject_setprivatedatainterface, dxgi/IDXGIObject::SetPrivateDataInterface
+ms.keywords: 37e6a4f2-50a5-efad-af10-20e8f1d053e2, IDXGIObject interface [DXGI],SetPrivateDataInterface method, IDXGIObject.SetPrivateDataInterface, IDXGIObject::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [DXGI], SetPrivateDataInterface method [DXGI],IDXGIObject interface, direct3ddxgi.idxgiobject_setprivatedatainterface, dxgi/IDXGIObject::SetPrivateDataInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIObject::SetPrivateDataInterface method
+# IDXGIObject::SetPrivateDataInterface
 
 
 ## -description

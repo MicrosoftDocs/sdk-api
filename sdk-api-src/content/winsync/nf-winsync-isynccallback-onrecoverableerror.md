@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncCallback.OnRecoverableError
-title: ISyncCallback::OnRecoverableError method
+title: ISyncCallback::OnRecoverableError
 author: windows-driver-content
 description: Occurs when a synchronization provider sets a recoverable error when it is loading or saving an item.
 old-location: winsync\isynccallback_onrecoverableerror.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: de496e83-cfa4-47c7-9b07-712e59737532
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncCallback, ISyncCallback interface [Windows Sync], OnRecoverableError method, ISyncCallback::OnRecoverableError, OnRecoverableError method [Windows Sync], OnRecoverableError method [Windows Sync], ISyncCallback interface, OnRecoverableError,ISyncCallback.OnRecoverableError, winsync.isynccallback_onrecoverableerror, winsync/ISyncCallback::OnRecoverableError
+ms.keywords: ISyncCallback interface [Windows Sync],OnRecoverableError method, ISyncCallback.OnRecoverableError, ISyncCallback::OnRecoverableError, OnRecoverableError, OnRecoverableError method [Windows Sync], OnRecoverableError method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onrecoverableerror, winsync/ISyncCallback::OnRecoverableError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncCallback::OnRecoverableError method
+# ISyncCallback::OnRecoverableError
 
 
 ## -description

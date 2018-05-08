@@ -7,8 +7,8 @@ old-location: hid\ioctl_mouse_query_attributes.htm
 old-project: hid
 ms.assetid: f5b82702-610a-41d3-96c9-2c4eae2244e3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_MOUSE_QUERY_ATTRIBUTES, IOCTL_MOUSE_QUERY_ATTRIBUTES control code [Human Input Devices], hid.ioctl_mouse_query_attributes, mref_078cb198-31ca-4b11-bc5b-33553bcb71a0.xml, ntddmou/IOCTL_MOUSE_QUERY_ATTRIBUTES
+ms.date: 4/30/2018
+ms.keywords: IOCTL_MOUSE_QUERY_ATTRIBUTES, IOCTL_MOUSE_QUERY_ATTRIBUTES control, IOCTL_MOUSE_QUERY_ATTRIBUTES control code [Human Input Devices], hid.ioctl_mouse_query_attributes, mref_078cb198-31ca-4b11-bc5b-33553bcb71a0.xml, ntddmou/IOCTL_MOUSE_QUERY_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

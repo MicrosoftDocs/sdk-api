@@ -7,7 +7,7 @@ old-location: shell\STRRET.htm
 old-project: shell
 ms.assetid: 7868ef9b-07db-455b-b0be-ef0db7891447
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: "*LPSTRRET, LPSTRRET, LPSTRRET structure pointer [Windows Shell], STRRET, STRRET structure [Windows Shell], STRRET_CSTR, STRRET_OFFSET, STRRET_WSTR, _STRRET, _win32_STRRET, shell.STRRET, shtypes/LPSTRRET, shtypes/STRRET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,27 +88,25 @@ The string is at the address specified by <b>pOleStr</b> member.
  
 
 
-
-
-#### - cStr
-
-Type: <b>CHAR[MAX_PATH]</b>
-
-The buffer to receive the display name.
-
-
-#### - pOleStr
+### -field DUMMYUNIONNAME.pOleStr
 
 Type: <b>LPWSTR</b>
 
 A pointer to the string. This memory must be allocated with <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>. It is the calling application's responsibility to free this memory with <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> when it is no longer needed.
 
 
-#### - uOffset
+### -field DUMMYUNIONNAME.uOffset
 
 Type: <b>UINT</b>
 
 The offset into the item identifier list.
+
+
+### -field DUMMYUNIONNAME.cStr
+
+Type: <b>CHAR[MAX_PATH]</b>
+
+The buffer to receive the display name.
 
 
 ## -see-also

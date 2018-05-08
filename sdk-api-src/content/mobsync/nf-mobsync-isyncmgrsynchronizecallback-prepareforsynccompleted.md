@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.PrepareForSyncCompleted
-title: ISyncMgrSynchronizeCallback::PrepareForSyncCompleted method
+title: ISyncMgrSynchronizeCallback::PrepareForSyncCompleted
 author: windows-driver-content
 description: Called by a registered handler of an application after the PrepareForSync method is complete.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_prepareforsynccompleted.htm
 old-project: shell
 ms.assetid: 2ba73e09-c01b-44af-8979-8aae450c9c0b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], PrepareForSyncCompleted method, ISyncMgrSynchronizeCallback::PrepareForSyncCompleted, PrepareForSyncCompleted method [Windows Shell], PrepareForSyncCompleted method [Windows Shell], ISyncMgrSynchronizeCallback interface, PrepareForSyncCompleted,ISyncMgrSynchronizeCallback.PrepareForSyncCompleted, mobsync/ISyncMgrSynchronizeCallback::PrepareForSyncCompleted, shell.syncmgr_isyncmgrsynchronizecallback_prepareforsynccompleted, syncmgr.isyncmgrsynchronizecallback_prepareforsynccompleted
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],PrepareForSyncCompleted method, ISyncMgrSynchronizeCallback.PrepareForSyncCompleted, ISyncMgrSynchronizeCallback::PrepareForSyncCompleted, PrepareForSyncCompleted, PrepareForSyncCompleted method [Windows Shell], PrepareForSyncCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::PrepareForSyncCompleted, shell.syncmgr_isyncmgrsynchronizecallback_prepareforsynccompleted, syncmgr.isyncmgrsynchronizecallback_prepareforsynccompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronizeCallback::PrepareForSyncCompleted method
+# ISyncMgrSynchronizeCallback::PrepareForSyncCompleted
 
 
 ## -description

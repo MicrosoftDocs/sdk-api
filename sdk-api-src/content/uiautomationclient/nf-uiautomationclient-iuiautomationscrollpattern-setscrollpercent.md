@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.SetScrollPercent
-title: IUIAutomationScrollPattern::SetScrollPercent method
+title: IUIAutomationScrollPattern::SetScrollPercent
 author: windows-driver-content
 description: Sets the horizontal and vertical scroll positions as a percentage of the total content area within the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_SetScrollPercent.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2f31445d-6198-430a-8f31-3ff25b72581c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationScrollPattern, IUIAutomationScrollPattern interface [Windows Accessibility], SetScrollPercent method, IUIAutomationScrollPattern::SetScrollPercent, SetScrollPercent method [Windows Accessibility], SetScrollPercent method [Windows Accessibility], IUIAutomationScrollPattern interface, SetScrollPercent,IUIAutomationScrollPattern.SetScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_SetScrollPercent, uiauto_IUIAutomationScrollPattern_SetScrollPercent, uiautomationclient/IUIAutomationScrollPattern::SetScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_SetScrollPercent
+ms.keywords: IUIAutomationScrollPattern interface [Windows Accessibility],SetScrollPercent method, IUIAutomationScrollPattern.SetScrollPercent, IUIAutomationScrollPattern::SetScrollPercent, SetScrollPercent, SetScrollPercent method [Windows Accessibility], SetScrollPercent method [Windows Accessibility],IUIAutomationScrollPattern interface, uiauto.uiauto_IUIAutomationScrollPattern_SetScrollPercent, uiauto_IUIAutomationScrollPattern_SetScrollPercent, uiautomationclient/IUIAutomationScrollPattern::SetScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_SetScrollPercent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationScrollPattern::SetScrollPercent method
+# IUIAutomationScrollPattern::SetScrollPercent
 
 
 ## -description

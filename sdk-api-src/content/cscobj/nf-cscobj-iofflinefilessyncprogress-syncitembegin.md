@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncProgress.SyncItemBegin
-title: IOfflineFilesSyncProgress::SyncItemBegin method
+title: IOfflineFilesSyncProgress::SyncItemBegin
 author: windows-driver-content
 description: Reports that a synchronization operation on an item is beginning.
 old-location: of\iofflinefilessyncprogress_syncitembegin.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: c1cdbc30-bcc9-4023-a3a2-070fb9958609
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesSyncProgress, IOfflineFilesSyncProgress interface [Offline Files], SyncItemBegin method, IOfflineFilesSyncProgress::SyncItemBegin, SyncItemBegin method [Offline Files], SyncItemBegin method [Offline Files], IOfflineFilesSyncProgress interface, SyncItemBegin,IOfflineFilesSyncProgress.SyncItemBegin, cscobj/IOfflineFilesSyncProgress::SyncItemBegin, of.iofflinefilessyncprogress_syncitembegin
+ms.keywords: IOfflineFilesSyncProgress interface [Offline Files],SyncItemBegin method, IOfflineFilesSyncProgress.SyncItemBegin, IOfflineFilesSyncProgress::SyncItemBegin, SyncItemBegin, SyncItemBegin method [Offline Files], SyncItemBegin method [Offline Files],IOfflineFilesSyncProgress interface, cscobj/IOfflineFilesSyncProgress::SyncItemBegin, of.iofflinefilessyncprogress_syncitembegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSyncProgress::SyncItemBegin method
+# IOfflineFilesSyncProgress::SyncItemBegin
 
 
 ## -description

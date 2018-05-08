@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetHwndPropStr
-title: IAccPropServices::SetHwndPropStr method
+title: IAccPropServices::SetHwndPropStr
 author: windows-driver-content
 description: This method wraps SetPropValue, providing a more convenient entry point for callers who are annotating HWND-based accessible elements.
 old-location: winauto\iaccpropservices_iaccpropservices__sethwndpropstr.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 68f09a23-56b2-4fae-98a2-616b17fb4e1f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], SetHwndPropStr method, IAccPropServices::SetHwndPropStr, SetHwndPropStr method [Windows Accessibility], SetHwndPropStr method [Windows Accessibility], IAccPropServices interface, SetHwndPropStr,IAccPropServices.SetHwndPropStr, _msaa_IAccPropServices_SetHwndPropStr, msaa.iaccpropservices_iaccpropservices__sethwndpropstr, oleacc/IAccPropServices::SetHwndPropStr, winauto.iaccpropservices_iaccpropservices__sethwndpropstr
+ms.keywords: IAccPropServices interface [Windows Accessibility],SetHwndPropStr method, IAccPropServices.SetHwndPropStr, IAccPropServices::SetHwndPropStr, SetHwndPropStr, SetHwndPropStr method [Windows Accessibility], SetHwndPropStr method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetHwndPropStr, msaa.iaccpropservices_iaccpropservices__sethwndpropstr, oleacc/IAccPropServices::SetHwndPropStr, winauto.iaccpropservices_iaccpropservices__sethwndpropstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccPropServices::SetHwndPropStr method
+# IAccPropServices::SetHwndPropStr
 
 
 ## -description

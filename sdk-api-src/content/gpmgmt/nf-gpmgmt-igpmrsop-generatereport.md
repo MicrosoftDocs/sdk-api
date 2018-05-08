@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.GenerateReport
-title: IGPMRSOP::GenerateReport method
+title: IGPMRSOP::GenerateReport
 author: windows-driver-content
 description: The GenerateReport method generates a report on the RSoP data.
 old-location: gpmc\igpmrsop_generatereport.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 86766a08-4f3a-4758-8abc-83db3408f0fd
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GenerateReport method [GPMC], GenerateReport method [GPMC], IGPMRSOP interface, GenerateReport,IGPMRSOP.GenerateReport, IGPMRSOP, IGPMRSOP interface [GPMC], GenerateReport method, IGPMRSOP::GenerateReport, gpmc.igpmrsop_generatereport, gpmgmt/IGPMRSOP::GenerateReport
+ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMRSOP interface, IGPMRSOP interface [GPMC],GenerateReport method, IGPMRSOP.GenerateReport, IGPMRSOP::GenerateReport, gpmc.igpmrsop_generatereport, gpmgmt/IGPMRSOP::GenerateReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMRSOP::GenerateReport method
+# IGPMRSOP::GenerateReport
 
 
 ## -description

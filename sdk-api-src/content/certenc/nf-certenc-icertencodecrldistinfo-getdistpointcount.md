@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.GetDistPointCount
-title: ICertEncodeCRLDistInfo::GetDistPointCount method
+title: ICertEncodeCRLDistInfo::GetDistPointCount
 author: windows-driver-content
 description: Returns the number of certificate revocation list (CRL) distribution points in a CRL distribution information array.
 old-location: security\icertencodecrldistinfo_getdistpointcount.htm
 old-project: SecCrypto
 ms.assetid: 8c7d0d14-e755-4223-8cd5-0ebc784960cf
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeCRLDistInfo object [Security], GetDistPointCount method, GetDistPointCount method [Security], GetDistPointCount method [Security], CCertEncodeCRLDistInfo object, GetDistPointCount method [Security], ICertEncodeCRLDistInfo interface, GetDistPointCount,ICertEncodeCRLDistInfo.GetDistPointCount, ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], GetDistPointCount method, ICertEncodeCRLDistInfo::GetDistPointCount, _certsrv_icertencodecrldistinfo_getdistpointcount, certenc/ICertEncodeCRLDistInfo::GetDistPointCount, security.icertencodecrldistinfo_getdistpointcount
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeCRLDistInfo object [Security],GetDistPointCount method, GetDistPointCount, GetDistPointCount method [Security], GetDistPointCount method [Security],CCertEncodeCRLDistInfo object, GetDistPointCount method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetDistPointCount method, ICertEncodeCRLDistInfo.GetDistPointCount, ICertEncodeCRLDistInfo::GetDistPointCount, _certsrv_icertencodecrldistinfo_getdistpointcount, certenc/ICertEncodeCRLDistInfo::GetDistPointCount, security.icertencodecrldistinfo_getdistpointcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeCRLDistInfo::GetDistPointCount method
+# ICertEncodeCRLDistInfo::GetDistPointCount
 
 
 ## -description

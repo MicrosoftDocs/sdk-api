@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionState.GetInfoForChangeApplication
-title: ISyncSessionState::GetInfoForChangeApplication method
+title: ISyncSessionState::GetInfoForChangeApplication
 author: windows-driver-content
 description: Retrieves stored data for a serialized change applier.
 old-location: winsync\isyncsessionstate_getinfoforchangeapplication.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 88f7f8f7-468f-4d9d-9593-0d3f92cb458f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetInfoForChangeApplication method [Windows Sync], GetInfoForChangeApplication method [Windows Sync], ISyncSessionState interface, GetInfoForChangeApplication,ISyncSessionState.GetInfoForChangeApplication, ISyncSessionState, ISyncSessionState interface [Windows Sync], GetInfoForChangeApplication method, ISyncSessionState::GetInfoForChangeApplication, winsync.isyncsessionstate_getinfoforchangeapplication, winsync/ISyncSessionState::GetInfoForChangeApplication
+ms.keywords: GetInfoForChangeApplication, GetInfoForChangeApplication method [Windows Sync], GetInfoForChangeApplication method [Windows Sync],ISyncSessionState interface, ISyncSessionState interface [Windows Sync],GetInfoForChangeApplication method, ISyncSessionState.GetInfoForChangeApplication, ISyncSessionState::GetInfoForChangeApplication, winsync.isyncsessionstate_getinfoforchangeapplication, winsync/ISyncSessionState::GetInfoForChangeApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncSessionState::GetInfoForChangeApplication method
+# ISyncSessionState::GetInfoForChangeApplication
 
 
 ## -description

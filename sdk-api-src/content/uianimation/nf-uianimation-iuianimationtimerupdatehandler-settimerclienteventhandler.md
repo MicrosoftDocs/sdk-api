@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler
-title: IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler method
+title: IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler
 author: windows-driver-content
 description: Specifies a handler for timer client status change events.
 old-location: uianimation\iuianimationtimerupdatehandler_settimerclienteventhandler.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: ce213fc5-1329-413f-abf1-a4ab7c78818e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationTimerUpdateHandler, IUIAnimationTimerUpdateHandler interface [Windows Animation], SetTimerClientEventHandler method, IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler, SetTimerClientEventHandler method [Windows Animation], SetTimerClientEventHandler method [Windows Animation], IUIAnimationTimerUpdateHandler interface, SetTimerClientEventHandler,IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler, uianimation.iuianimationtimerupdatehandler_settimerclienteventhandler, uianimation/IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler
+ms.keywords: IUIAnimationTimerUpdateHandler interface [Windows Animation],SetTimerClientEventHandler method, IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler, IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler, SetTimerClientEventHandler, SetTimerClientEventHandler method [Windows Animation], SetTimerClientEventHandler method [Windows Animation],IUIAnimationTimerUpdateHandler interface, uianimation.iuianimationtimerupdatehandler_settimerclienteventhandler, uianimation/IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler method
+# IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler
 
 
 ## -description

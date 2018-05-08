@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.INamedEntity.GetValue
-title: INamedEntity::GetValue method
+title: INamedEntity::GetValue
 author: windows-driver-content
 description: Retrieves the value of this named entity as a string.
 old-location: search\_search_INamedEntity_GetValue.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\getvalue.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetValue method [search], GetValue method [search], INamedEntity interface, GetValue,INamedEntity.GetValue, INamedEntity, INamedEntity interface [search], GetValue method, INamedEntity::GetValue, _search_INamedEntity_GetValue, search._search_INamedEntity_GetValue, structuredquery/INamedEntity::GetValue
+ms.date: 5/4/2018
+ms.keywords: GetValue, GetValue method [search], GetValue method [search],INamedEntity interface, INamedEntity interface [search],GetValue method, INamedEntity.GetValue, INamedEntity::GetValue, _search_INamedEntity_GetValue, search._search_INamedEntity_GetValue, structuredquery/INamedEntity::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# INamedEntity::GetValue method
+# INamedEntity::GetValue
 
 
 ## -description

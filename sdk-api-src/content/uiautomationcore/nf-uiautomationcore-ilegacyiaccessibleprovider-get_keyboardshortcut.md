@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_KeyboardShortcut
-title: ILegacyIAccessibleProvider::get_KeyboardShortcut method
+title: ILegacyIAccessibleProvider::get_KeyboardShortcut
 author: windows-driver-content
 description: Specifies the keyboard shortcut for this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_KeyboardShortcut.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: cedb3a14-026f-4d2a-857f-313f4b5efad7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], KeyboardShortcut property, ILegacyIAccessibleProvider.KeyboardShortcut, ILegacyIAccessibleProvider::get_KeyboardShortcut, KeyboardShortcut property [Windows Accessibility], KeyboardShortcut property [Windows Accessibility], ILegacyIAccessibleProvider interface, get_KeyboardShortcut,ILegacyIAccessibleProvider.get_KeyboardShortcut, uiauto.uiauto_ILegacyIAccessibleProvider_KeyboardShortcut, uiauto_ILegacyIAccessibleProvider_KeyboardShortcut, uiautomationcore/ILegacyIAccessibleProvider::KeyboardShortcut, uiautomationcore/ILegacyIAccessibleProvider::get_KeyboardShortcut, winauto.uiauto_ILegacyIAccessibleProvider_KeyboardShortcut
+ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],KeyboardShortcut property, ILegacyIAccessibleProvider.KeyboardShortcut, ILegacyIAccessibleProvider.get_KeyboardShortcut, ILegacyIAccessibleProvider::KeyboardShortcut, ILegacyIAccessibleProvider::get_KeyboardShortcut, KeyboardShortcut property [Windows Accessibility], KeyboardShortcut property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_KeyboardShortcut, uiauto.uiauto_ILegacyIAccessibleProvider_KeyboardShortcut, uiauto_ILegacyIAccessibleProvider_KeyboardShortcut, uiautomationcore/ILegacyIAccessibleProvider::KeyboardShortcut, uiautomationcore/ILegacyIAccessibleProvider::get_KeyboardShortcut, winauto.uiauto_ILegacyIAccessibleProvider_KeyboardShortcut
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILegacyIAccessibleProvider::get_KeyboardShortcut method
+# ILegacyIAccessibleProvider::get_KeyboardShortcut
 
 
 ## -description

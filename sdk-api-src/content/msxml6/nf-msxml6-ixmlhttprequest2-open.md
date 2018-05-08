@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.Open
-title: IXMLHTTPRequest2::Open method
+title: IXMLHTTPRequest2::Open
 author: windows-driver-content
 description: Initializes an IXMLHTTPRequest2 request and specifies the method, URL, and authentication information for the request. After calling this method, you must call the Send method to send the request and data, if any, to the server.
 old-location: ixhr2\ixmlhttprequest2_open.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: 8723F24B-0739-44D6-8443-1A378B585F42
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest2, IXMLHTTPRequest2 interface [XMLHttpRequest2], Open method, IXMLHTTPRequest2::Open, Open method [XMLHttpRequest2], Open method [XMLHttpRequest2], IXMLHTTPRequest2 interface, Open,IXMLHTTPRequest2.Open, ixhr2.ixmlhttprequest2_open, msxml6/IXMLHTTPRequest2::Open
+ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],Open method, IXMLHTTPRequest2.Open, IXMLHTTPRequest2::Open, Open, Open method [XMLHttpRequest2], Open method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_open, msxml6/IXMLHTTPRequest2::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest2::Open method
+# IXMLHTTPRequest2::Open
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.put_DiseqUseToneBurst
-title: IBDA_DiseqCommand::put_DiseqUseToneBurst method
+title: IBDA_DiseqCommand::put_DiseqUseToneBurst
 author: windows-driver-content
 description: Enables or disables Tone-Burst commands.
 old-location: mstv\ibda_diseqcommand_put_disequsetoneburst.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 23523ac9-19e0-4247-a697-24d6f1c07285
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DiseqCommand, IBDA_DiseqCommand interface [Microsoft TV Technologies], put_DiseqUseToneBurst method, IBDA_DiseqCommand::put_DiseqUseToneBurst, bdaiface/IBDA_DiseqCommand::put_DiseqUseToneBurst, mstv.ibda_diseqcommand_put_disequsetoneburst, put_DiseqUseToneBurst method [Microsoft TV Technologies], put_DiseqUseToneBurst method [Microsoft TV Technologies], IBDA_DiseqCommand interface, put_DiseqUseToneBurst,IBDA_DiseqCommand.put_DiseqUseToneBurst
+ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],put_DiseqUseToneBurst method, IBDA_DiseqCommand.put_DiseqUseToneBurst, IBDA_DiseqCommand::put_DiseqUseToneBurst, bdaiface/IBDA_DiseqCommand::put_DiseqUseToneBurst, mstv.ibda_diseqcommand_put_disequsetoneburst, put_DiseqUseToneBurst, put_DiseqUseToneBurst method [Microsoft TV Technologies], put_DiseqUseToneBurst method [Microsoft TV Technologies],IBDA_DiseqCommand interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DiseqCommand::put_DiseqUseToneBurst method
+# IBDA_DiseqCommand::put_DiseqUseToneBurst
 
 
 ## -description

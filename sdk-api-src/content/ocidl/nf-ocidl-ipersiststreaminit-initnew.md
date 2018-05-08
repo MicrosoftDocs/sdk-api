@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.InitNew
-title: IPersistStreamInit::InitNew method
+title: IPersistStreamInit::InitNew
 author: windows-driver-content
 description: Initializes an object to a default state. This method is to be called instead of IPersistStreamInit::Load.
 old-location: com\ipersiststreaminit_initnew.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 9e318698-0c3c-41c2-bb9e-04e8c9746c4d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPersistStreamInit, IPersistStreamInit interface [COM], InitNew method, IPersistStreamInit::InitNew, InitNew method [COM], InitNew method [COM], IPersistStreamInit interface, InitNew,IPersistStreamInit.InitNew, _com_ipersiststreaminit_initnew, com.ipersiststreaminit_initnew, ocidl/IPersistStreamInit::InitNew
+ms.keywords: IPersistStreamInit interface [COM],InitNew method, IPersistStreamInit.InitNew, IPersistStreamInit::InitNew, InitNew, InitNew method [COM], InitNew method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_initnew, com.ipersiststreaminit_initnew, ocidl/IPersistStreamInit::InitNew
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistStreamInit::InitNew method
+# IPersistStreamInit::InitNew
 
 
 ## -description

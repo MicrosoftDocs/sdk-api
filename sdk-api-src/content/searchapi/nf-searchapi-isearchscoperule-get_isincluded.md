@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_IsIncluded
-title: ISearchScopeRule::get_IsIncluded method
+title: ISearchScopeRule::get_IsIncluded
 author: windows-driver-content
 description: Gets a value identifying whether this rule is an inclusion rule. Inclusion rules identify scopes that should be included in the crawl scope.
 old-location: search\_search_ISearchScopeRule_get_IsIncluded.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_isincluded.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchScopeRule, ISearchScopeRule interface [search], get_IsIncluded method, ISearchScopeRule::get_IsIncluded, _search_ISearchScopeRule_get_IsIncluded, get_IsIncluded method [search], get_IsIncluded method [search], ISearchScopeRule interface, get_IsIncluded,ISearchScopeRule.get_IsIncluded, search._search_ISearchScopeRule_get_IsIncluded, searchapi/ISearchScopeRule::get_IsIncluded
+ms.date: 5/4/2018
+ms.keywords: ISearchScopeRule interface [search],get_IsIncluded method, ISearchScopeRule.get_IsIncluded, ISearchScopeRule::get_IsIncluded, _search_ISearchScopeRule_get_IsIncluded, get_IsIncluded, get_IsIncluded method [search], get_IsIncluded method [search],ISearchScopeRule interface, search._search_ISearchScopeRule_get_IsIncluded, searchapi/ISearchScopeRule::get_IsIncluded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchScopeRule::get_IsIncluded method
+# ISearchScopeRule::get_IsIncluded
 
 
 ## -description

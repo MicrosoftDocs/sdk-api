@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetContext
-title: ISyncMgrEvent::GetContext method
+title: ISyncMgrEvent::GetContext
 author: windows-driver-content
 description: Gets a context object that can be used by a handler to display properties or execute a context menu action.
 old-location: shell\ISyncMgrEvent_GetContext.htm
 old-project: shell
 ms.assetid: 849e2bfe-daf7-422a-909c-03608ef1e325
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetContext method [Windows Shell], GetContext method [Windows Shell], ISyncMgrEvent interface, GetContext,ISyncMgrEvent.GetContext, ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], GetContext method, ISyncMgrEvent::GetContext, _shell_ISyncMgrEvent_GetContext, shell.ISyncMgrEvent_GetContext, syncmgr/ISyncMgrEvent::GetContext
+ms.date: 5/3/2018
+ms.keywords: GetContext, GetContext method [Windows Shell], GetContext method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetContext method, ISyncMgrEvent.GetContext, ISyncMgrEvent::GetContext, _shell_ISyncMgrEvent_GetContext, shell.ISyncMgrEvent_GetContext, syncmgr/ISyncMgrEvent::GetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrEvent::GetContext method
+# ISyncMgrEvent::GetContext
 
 
 ## -description

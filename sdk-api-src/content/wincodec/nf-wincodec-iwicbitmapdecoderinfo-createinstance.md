@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoderInfo.CreateInstance
-title: IWICBitmapDecoderInfo::CreateInstance method
+title: IWICBitmapDecoderInfo::CreateInstance
 author: windows-driver-content
 description: Creates a new IWICBitmapDecoder instance.
 old-location: wic\_wic_codec_iwicbitmapdecoderinfo_createinstance.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 2bda1c2a-47b9-4e15-b0c1-52e3f85a6523
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component], IWICBitmapDecoderInfo interface, CreateInstance,IWICBitmapDecoderInfo.CreateInstance, IWICBitmapDecoderInfo, IWICBitmapDecoderInfo interface [Windows Imaging Component], CreateInstance method, IWICBitmapDecoderInfo::CreateInstance, _wic_codec_iwicbitmapdecoderinfo_createinstance, wic._wic_codec_iwicbitmapdecoderinfo_createinstance, wincodec/IWICBitmapDecoderInfo::CreateInstance
+ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICBitmapDecoderInfo interface, IWICBitmapDecoderInfo interface [Windows Imaging Component],CreateInstance method, IWICBitmapDecoderInfo.CreateInstance, IWICBitmapDecoderInfo::CreateInstance, _wic_codec_iwicbitmapdecoderinfo_createinstance, wic._wic_codec_iwicbitmapdecoderinfo_createinstance, wincodec/IWICBitmapDecoderInfo::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapDecoderInfo::CreateInstance method
+# IWICBitmapDecoderInfo::CreateInstance
 
 
 ## -description

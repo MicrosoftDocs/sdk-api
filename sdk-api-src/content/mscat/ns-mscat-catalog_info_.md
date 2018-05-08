@@ -7,7 +7,7 @@ old-location: security\catalog_info.htm
 old-project: SecCrypto
 ms.assetid: f6e66412-3ed2-48d9-a377-5df11500db59
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CATALOG_INFO, CATALOG_INFO structure [Security], CATALOG_INFO_, mscat/CATALOG_INFO, security.catalog_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

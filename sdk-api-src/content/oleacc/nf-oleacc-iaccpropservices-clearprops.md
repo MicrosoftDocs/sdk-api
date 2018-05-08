@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.ClearProps
-title: IAccPropServices::ClearProps method
+title: IAccPropServices::ClearProps
 author: windows-driver-content
 description: Servers use ClearProps to restore default values to properties of accessible elements that they had previously annotated.
 old-location: winauto\iaccpropservices_iaccpropservices__clearprops.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 6a3bce93-1d5d-48cf-84f4-cbca445b5451
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ClearProps method [Windows Accessibility], ClearProps method [Windows Accessibility], IAccPropServices interface, ClearProps,IAccPropServices.ClearProps, IAccPropServices, IAccPropServices interface [Windows Accessibility], ClearProps method, IAccPropServices::ClearProps, _msaa_IAccPropServices_ClearProps, msaa.iaccpropservices_iaccpropservices__clearprops, oleacc/IAccPropServices::ClearProps, winauto.iaccpropservices_iaccpropservices__clearprops
+ms.keywords: ClearProps, ClearProps method [Windows Accessibility], ClearProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearProps method, IAccPropServices.ClearProps, IAccPropServices::ClearProps, _msaa_IAccPropServices_ClearProps, msaa.iaccpropservices_iaccpropservices__clearprops, oleacc/IAccPropServices::ClearProps, winauto.iaccpropservices_iaccpropservices__clearprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccPropServices::ClearProps method
+# IAccPropServices::ClearProps
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetEnableResends
-title: IWMReaderNetworkConfig2::SetEnableResends method
+title: IWMReaderNetworkConfig2::SetEnableResends
 author: windows-driver-content
 description: The SetEnableResends method enables or disables resends.
 old-location: wmformat\iwmreadernetworkconfig2_setenableresends.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c3bd0e03-eee1-4022-8540-1dcc927d6b5f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], SetEnableResends method, IWMReaderNetworkConfig2::SetEnableResends, IWMReaderNetworkConfig2SetEnableResends, SetEnableResends method [windows Media Format], SetEnableResends method [windows Media Format], IWMReaderNetworkConfig2 interface, SetEnableResends,IWMReaderNetworkConfig2.SetEnableResends, wmformat.iwmreadernetworkconfig2_setenableresends, wmsdkidl/IWMReaderNetworkConfig2::SetEnableResends
+ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetEnableResends method, IWMReaderNetworkConfig2.SetEnableResends, IWMReaderNetworkConfig2::SetEnableResends, IWMReaderNetworkConfig2SetEnableResends, SetEnableResends, SetEnableResends method [windows Media Format], SetEnableResends method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setenableresends, wmsdkidl/IWMReaderNetworkConfig2::SetEnableResends
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig2::SetEnableResends method
+# IWMReaderNetworkConfig2::SetEnableResends
 
 
 ## -description

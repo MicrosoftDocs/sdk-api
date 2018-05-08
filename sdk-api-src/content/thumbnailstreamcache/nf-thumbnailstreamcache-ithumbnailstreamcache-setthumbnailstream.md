@@ -1,14 +1,14 @@
 ---
 UID: NF:thumbnailstreamcache.IThumbnailStreamCache.SetThumbnailStream
-title: IThumbnailStreamCache::SetThumbnailStream method
+title: IThumbnailStreamCache::SetThumbnailStream
 author: windows-driver-content
 description: Sets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
 old-location: shell\ithumbnailstreamcache_setthumbnailstream.htm
 old-project: shell
 ms.assetid: F2A105BB-9523-49F1-89B6-57CAF35C1AC4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IThumbnailStreamCache, IThumbnailStreamCache interface [Windows Shell], SetThumbnailStream method, IThumbnailStreamCache::SetThumbnailStream, SetThumbnailStream method [Windows Shell], SetThumbnailStream method [Windows Shell], IThumbnailStreamCache interface, SetThumbnailStream,IThumbnailStreamCache.SetThumbnailStream, shell.ithumbnailstreamcache_setthumbnailstream, thumbnailstreamcache/IThumbnailStreamCache::SetThumbnailStream
+ms.date: 5/3/2018
+ms.keywords: IThumbnailStreamCache interface [Windows Shell],SetThumbnailStream method, IThumbnailStreamCache.SetThumbnailStream, IThumbnailStreamCache::SetThumbnailStream, SetThumbnailStream, SetThumbnailStream method [Windows Shell], SetThumbnailStream method [Windows Shell],IThumbnailStreamCache interface, shell.ithumbnailstreamcache_setthumbnailstream, thumbnailstreamcache/IThumbnailStreamCache::SetThumbnailStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IThumbnailStreamCache::SetThumbnailStream method
+# IThumbnailStreamCache::SetThumbnailStream
 
 
 ## -description

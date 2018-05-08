@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumAssemblyRefs
-title: IMetaDataAssemblyImport::EnumAssemblyRefs method
+title: IMetaDataAssemblyImport::EnumAssemblyRefs
 author: windows-driver-content
 description: Enumerates the mdAssemblyRef instances that are defined in the assembly manifest.
 old-location: winrt\imetadataassemblyimport_enumassemblyrefs.htm
 old-project: WinRT
 ms.assetid: 2b5768ef-47fc-4052-bb68-e279a027c887
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumAssemblyRefs method [Windows Runtime], EnumAssemblyRefs method [Windows Runtime], IMetaDataAssemblyImport interface, EnumAssemblyRefs,IMetaDataAssemblyImport.EnumAssemblyRefs, IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], EnumAssemblyRefs method, IMetaDataAssemblyImport::EnumAssemblyRefs, rometadataapi/IMetaDataAssemblyImport::EnumAssemblyRefs, winrt.imetadataassemblyimport_enumassemblyrefs
+ms.date: 5/4/2018
+ms.keywords: EnumAssemblyRefs, EnumAssemblyRefs method [Windows Runtime], EnumAssemblyRefs method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumAssemblyRefs method, IMetaDataAssemblyImport.EnumAssemblyRefs, IMetaDataAssemblyImport::EnumAssemblyRefs, rometadataapi/IMetaDataAssemblyImport::EnumAssemblyRefs, winrt.imetadataassemblyimport_enumassemblyrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataAssemblyImport::EnumAssemblyRefs method
+# IMetaDataAssemblyImport::EnumAssemblyRefs
 
 
 ## -description

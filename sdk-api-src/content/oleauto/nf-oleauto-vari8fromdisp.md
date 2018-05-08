@@ -7,7 +7,7 @@ old-location: automat\vari8fromdisp.htm
 old-project: automat
 ms.assetid: 8b638eb0-d56d-4851-a913-b121beb4dbe3
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarI8FromDisp, VarI8FromDisp function [Automation], _oa96_VarI8FromDisp, automat.vari8fromdisp, oleauto/VarI8FromDisp
 ms.prod: windows-hardware
 ms.technology: windows-devices

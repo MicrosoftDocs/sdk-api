@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIFactory.EnumAdapters
-title: IDXGIFactory::EnumAdapters method
+title: IDXGIFactory::EnumAdapters
 author: windows-driver-content
 description: Enumerates the adapters (video cards).
 old-location: direct3ddxgi\idxgifactory_enumadapters.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_enumadapters.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 457b8c88-be8c-c241-7864-e16ac2622ee0, EnumAdapters method [DXGI], EnumAdapters method [DXGI], IDXGIFactory interface, EnumAdapters,IDXGIFactory.EnumAdapters, IDXGIFactory, IDXGIFactory interface [DXGI], EnumAdapters method, IDXGIFactory::EnumAdapters, direct3ddxgi.idxgifactory_enumadapters, dxgi/IDXGIFactory::EnumAdapters
+ms.keywords: 457b8c88-be8c-c241-7864-e16ac2622ee0, EnumAdapters, EnumAdapters method [DXGI], EnumAdapters method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],EnumAdapters method, IDXGIFactory.EnumAdapters, IDXGIFactory::EnumAdapters, direct3ddxgi.idxgifactory_enumadapters, dxgi/IDXGIFactory::EnumAdapters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIFactory::EnumAdapters method
+# IDXGIFactory::EnumAdapters
 
 
 ## -description

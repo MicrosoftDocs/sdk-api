@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer2_queryinterface.htm
 old-project: Rpc
 ms.assetid: 50859CA3-6DD5-4316-974A-971DA6523B5A
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: CStdStubBuffer2_QueryInterface, CStdStubBuffer2_QueryInterface function [RPC], rpc.cstdstubbuffer2_queryinterface, rpcproxy/CStdStubBuffer2_QueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

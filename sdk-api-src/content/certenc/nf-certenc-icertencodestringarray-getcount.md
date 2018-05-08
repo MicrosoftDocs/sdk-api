@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.GetCount
-title: ICertEncodeStringArray::GetCount method
+title: ICertEncodeStringArray::GetCount
 author: windows-driver-content
 description: Returns the number of string values in the string array.
 old-location: security\icertencodestringarray_getcount.htm
 old-project: SecCrypto
 ms.assetid: c02a23ea-87c2-4458-8b1a-b010e8103a90
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeStringArray object [Security], GetCount method, GetCount method [Security], GetCount method [Security], CCertEncodeStringArray object, GetCount method [Security], ICertEncodeStringArray interface, GetCount,ICertEncodeStringArray.GetCount, ICertEncodeStringArray, ICertEncodeStringArray interface [Security], GetCount method, ICertEncodeStringArray::GetCount, _certsrv_icertencodestringarray_getcount, certenc/ICertEncodeStringArray::GetCount, security.icertencodestringarray_getcount
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeStringArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeStringArray object, GetCount method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetCount method, ICertEncodeStringArray.GetCount, ICertEncodeStringArray::GetCount, _certsrv_icertencodestringarray_getcount, certenc/ICertEncodeStringArray::GetCount, security.icertencodestringarray_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeStringArray::GetCount method
+# ICertEncodeStringArray::GetCount
 
 
 ## -description

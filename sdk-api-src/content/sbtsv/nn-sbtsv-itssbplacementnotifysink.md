@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 7abc5454-141a-47bc-b9cd-341b41a093d2
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbPlacementNotifySink, ITsSbPlacementNotifySink interface [Remote Desktop Services], ITsSbPlacementNotifySink interface [Remote Desktop Services], described, sbtsv/ITsSbPlacementNotifySink, termserv.itssbplacementnotifysink
+ms.keywords: ITsSbPlacementNotifySink, ITsSbPlacementNotifySink interface [Remote Desktop Services], ITsSbPlacementNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbPlacementNotifySink, termserv.itssbplacementnotifysink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

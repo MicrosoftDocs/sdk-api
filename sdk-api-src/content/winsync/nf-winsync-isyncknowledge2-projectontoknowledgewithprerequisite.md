@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.ProjectOntoKnowledgeWithPrerequisite
-title: ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite method
+title: ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite
 author: windows-driver-content
 description: Returns knowledge about the knowledge fragments that are specified by the template knowledge, when the template knowledge contains the prerequisite knowledge for the specified fragments.
 old-location: winsync\isyncknowledge2_projectontoknowledgewithprerequisite.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 71794c37-fea2-466b-a8dd-8a502b178f1b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncKnowledge2, ISyncKnowledge2 interface [Windows Sync], ProjectOntoKnowledgeWithPrerequisite method, ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite, ProjectOntoKnowledgeWithPrerequisite method [Windows Sync], ProjectOntoKnowledgeWithPrerequisite method [Windows Sync], ISyncKnowledge2 interface, ProjectOntoKnowledgeWithPrerequisite,ISyncKnowledge2.ProjectOntoKnowledgeWithPrerequisite, winsync.isyncknowledge2_projectontoknowledgewithprerequisite, winsync/ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite
+ms.keywords: ISyncKnowledge2 interface [Windows Sync],ProjectOntoKnowledgeWithPrerequisite method, ISyncKnowledge2.ProjectOntoKnowledgeWithPrerequisite, ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite, ProjectOntoKnowledgeWithPrerequisite, ProjectOntoKnowledgeWithPrerequisite method [Windows Sync], ProjectOntoKnowledgeWithPrerequisite method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_projectontoknowledgewithprerequisite, winsync/ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite method
+# ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite
 
 
 ## -description

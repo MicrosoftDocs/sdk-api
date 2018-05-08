@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.GetAttributeIndices
-title: IWMHeaderInfo3::GetAttributeIndices method
+title: IWMHeaderInfo3::GetAttributeIndices
 author: windows-driver-content
 description: The GetAttributeIndices method retrieves a list of valid attribute indices within specified parameters.
 old-location: wmformat\iwmheaderinfo3_getattributeindices.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 15c8f0c2-f2d4-441a-b6a9-774da820d03c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetAttributeIndices method [windows Media Format], GetAttributeIndices method [windows Media Format], IWMHeaderInfo3 interface, GetAttributeIndices,IWMHeaderInfo3.GetAttributeIndices, IWMHeaderInfo3, IWMHeaderInfo3 interface [windows Media Format], GetAttributeIndices method, IWMHeaderInfo3::GetAttributeIndices, IWMHeaderInfo3GetAttributeIndices, wmformat.iwmheaderinfo3_getattributeindices, wmsdkidl/IWMHeaderInfo3::GetAttributeIndices
+ms.keywords: GetAttributeIndices, GetAttributeIndices method [windows Media Format], GetAttributeIndices method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeIndices method, IWMHeaderInfo3.GetAttributeIndices, IWMHeaderInfo3::GetAttributeIndices, IWMHeaderInfo3GetAttributeIndices, wmformat.iwmheaderinfo3_getattributeindices, wmsdkidl/IWMHeaderInfo3::GetAttributeIndices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMHeaderInfo3::GetAttributeIndices method
+# IWMHeaderInfo3::GetAttributeIndices
 
 
 ## -description

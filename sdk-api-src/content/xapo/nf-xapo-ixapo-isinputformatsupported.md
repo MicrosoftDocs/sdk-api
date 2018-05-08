@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.IsInputFormatSupported
-title: IXAPO::IsInputFormatSupported method
+title: IXAPO::IsInputFormatSupported
 author: windows-driver-content
 description: Queries if a specific input format is supported for a given output format.
 old-location: xaudio2\ixapo_interface_isinputformatsupported.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.IsInputFormatSupported(const WAVEFORMATEX,const WAVEFORMATEX,WAVEFORMATEX)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], IsInputFormatSupported method, IXAPO::IsInputFormatSupported, IsInputFormatSupported method [XAudio2 Audio Mixing APIs], IsInputFormatSupported method [XAudio2 Audio Mixing APIs], IXAPO interface, IsInputFormatSupported,IXAPO.IsInputFormatSupported, xapo/IXAPO::IsInputFormatSupported, xaudio2.ixapo_interface_isinputformatsupported
+ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],IsInputFormatSupported method, IXAPO.IsInputFormatSupported, IXAPO::IsInputFormatSupported, IsInputFormatSupported, IsInputFormatSupported method [XAudio2 Audio Mixing APIs], IsInputFormatSupported method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::IsInputFormatSupported, xaudio2.ixapo_interface_isinputformatsupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAPO::IsInputFormatSupported method
+# IXAPO::IsInputFormatSupported
 
 
 ## -description

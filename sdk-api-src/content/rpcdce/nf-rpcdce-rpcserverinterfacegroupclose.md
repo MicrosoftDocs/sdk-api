@@ -7,7 +7,7 @@ old-location: rpc\rpcserverinterfacegroupclose.htm
 old-project: Rpc
 ms.assetid: DD7F12FC-EDB3-48C3-A87D-9ABAB4EFA009
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcServerInterfaceGroupClose, RpcServerInterfaceGroupClose function [RPC], rpc.rpcserverinterfacegroupclose, rpcdce/RpcServerInterfaceGroupClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

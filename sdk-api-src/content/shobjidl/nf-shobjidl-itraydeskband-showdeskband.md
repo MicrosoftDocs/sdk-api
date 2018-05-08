@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.ITrayDeskBand.ShowDeskBand
-title: ITrayDeskBand::ShowDeskBand method
+title: ITrayDeskBand::ShowDeskBand
 author: windows-driver-content
 description: Shows a specified deskband.
 old-location: shell\ITrayDeskBand_ShowDeskBand.htm
 old-project: shell
 ms.assetid: 6fd46acd-47b3-46dd-955d-c036995dd01b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ITrayDeskBand, ITrayDeskBand interface [Windows Shell], ShowDeskBand method, ITrayDeskBand::ShowDeskBand, ShowDeskBand method [Windows Shell], ShowDeskBand method [Windows Shell], ITrayDeskBand interface, ShowDeskBand,ITrayDeskBand.ShowDeskBand, _shell_ITrayDeskBand_ShowDeskBand, shell.ITrayDeskBand_ShowDeskBand, shobjidl/ITrayDeskBand::ShowDeskBand
+ms.date: 5/3/2018
+ms.keywords: ITrayDeskBand interface [Windows Shell],ShowDeskBand method, ITrayDeskBand.ShowDeskBand, ITrayDeskBand::ShowDeskBand, ShowDeskBand, ShowDeskBand method [Windows Shell], ShowDeskBand method [Windows Shell],ITrayDeskBand interface, _shell_ITrayDeskBand_ShowDeskBand, shell.ITrayDeskBand_ShowDeskBand, shobjidl/ITrayDeskBand::ShowDeskBand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ITrayDeskBand::ShowDeskBand method
+# ITrayDeskBand::ShowDeskBand
 
 
 ## -description

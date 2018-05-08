@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_Writable
-title: IAzAuthorizationStore::get_Writable method
+title: IAzAuthorizationStore::get_Writable
 author: windows-driver-content
 description: Retrieves a value that indicates whether the object can be modified by the user context that called the Initialize method.
 old-location: security\azauthorizationstore_writable.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 0c896364-739a-456a-97f7-0448711462b3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzAuthorizationStore object [Security], Writable property, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], Writable property, IAzAuthorizationStore.Writable, IAzAuthorizationStore::get_Writable, Writable property [Security], Writable property [Security], AzAuthorizationStore object, Writable property [Security], IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Writable, azroles/IAzAuthorizationStore::get_Writable, get_Writable,IAzAuthorizationStore.get_Writable, security.azauthorizationstore_writable
+ms.keywords: AzAuthorizationStore object [Security],Writable property, IAzAuthorizationStore interface [Security],Writable property, IAzAuthorizationStore.Writable, IAzAuthorizationStore.get_Writable, IAzAuthorizationStore::Writable, IAzAuthorizationStore::get_Writable, Writable property [Security], Writable property [Security],AzAuthorizationStore object, Writable property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Writable, azroles/IAzAuthorizationStore::get_Writable, get_Writable, security.azauthorizationstore_writable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::get_Writable method
+# IAzAuthorizationStore::get_Writable
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion.GetType
-title: IWMMutualExclusion::GetType method
+title: IWMMutualExclusion::GetType
 author: windows-driver-content
 description: The GetType method retrieves the GUID of the type of mutual exclusion required.
 old-location: wmformat\iwmmutualexclusion_gettype.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 546bb0d1-a11e-4bf7-92fc-cef938d792bb
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetType method [windows Media Format], GetType method [windows Media Format], IWMMutualExclusion interface, GetType,IWMMutualExclusion.GetType, IWMMutualExclusion, IWMMutualExclusion interface [windows Media Format], GetType method, IWMMutualExclusion::GetType, IWMMutualExclusionGetType, wmformat.iwmmutualexclusion_gettype, wmsdkidl/IWMMutualExclusion::GetType
+ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMMutualExclusion interface, IWMMutualExclusion interface [windows Media Format],GetType method, IWMMutualExclusion.GetType, IWMMutualExclusion::GetType, IWMMutualExclusionGetType, wmformat.iwmmutualexclusion_gettype, wmsdkidl/IWMMutualExclusion::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMMutualExclusion::GetType method
+# IWMMutualExclusion::GetType
 
 
 ## -description

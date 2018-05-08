@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 37236CED-F32F-4726-B945-F7359AEFF030
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxBundleManifestReader2, IAppxBundleManifestReader2 interface [App packaging and management], IAppxBundleManifestReader2 interface [App packaging and management], described, appxpackaging/IAppxBundleManifestReader2, appxpkg.iappxbundlemanifestreader2
+ms.keywords: IAppxBundleManifestReader2, IAppxBundleManifestReader2 interface [App packaging and management], IAppxBundleManifestReader2 interface [App packaging and management],described, appxpackaging/IAppxBundleManifestReader2, appxpkg.iappxbundlemanifestreader2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

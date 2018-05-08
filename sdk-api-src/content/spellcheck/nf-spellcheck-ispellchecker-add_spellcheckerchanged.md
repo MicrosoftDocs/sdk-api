@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.add_SpellCheckerChanged
-title: ISpellChecker::add_SpellCheckerChanged method
+title: ISpellChecker::add_SpellCheckerChanged
 author: windows-driver-content
 description: Adds an event handler (ISpellCheckerChangedEventHandler) for the SpellCheckerChanged event.
 old-location: intl\ispellchecker_add_spellcheckerchanged.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: d539ab54-8a09-4857-8b48-5d19a34a5865
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], add_SpellCheckerChanged method, ISpellChecker::add_SpellCheckerChanged, add_SpellCheckerChanged method [Internationalization for Windows Applications], add_SpellCheckerChanged method [Internationalization for Windows Applications], ISpellChecker interface, add_SpellCheckerChanged,ISpellChecker.add_SpellCheckerChanged, intl.ispellchecker_add_spellcheckerchanged, spellcheck/ISpellChecker::add_SpellCheckerChanged
+ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],add_SpellCheckerChanged method, ISpellChecker.add_SpellCheckerChanged, ISpellChecker::add_SpellCheckerChanged, add_SpellCheckerChanged, add_SpellCheckerChanged method [Internationalization for Windows Applications], add_SpellCheckerChanged method [Internationalization for Windows Applications],ISpellChecker interface, intl.ispellchecker_add_spellcheckerchanged, spellcheck/ISpellChecker::add_SpellCheckerChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellChecker::add_SpellCheckerChanged method
+# ISpellChecker::add_SpellCheckerChanged
 
 
 ## -description

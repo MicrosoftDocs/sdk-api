@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntryCollection.get_Item
-title: IUpdateHistoryEntryCollection::get_Item method
+title: IUpdateHistoryEntryCollection::get_Item
 author: windows-driver-content
 description: Gets an IUpdateHistoryEntry interface in the collection.
 old-location: wua\iupdatehistoryentrycollection_item.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 38b371bf-0dc3-4b16-8c7c-8a9e2a19c29b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateHistoryEntryCollection, IUpdateHistoryEntryCollection interface [Windows Update Agent], Item property, IUpdateHistoryEntryCollection.Item, IUpdateHistoryEntryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent], IUpdateHistoryEntryCollection interface, get_Item,IUpdateHistoryEntryCollection.get_Item, wua.iupdatehistoryentrycollection_item, wuapi/IUpdateHistoryEntryCollection::Item, wuapi/IUpdateHistoryEntryCollection::get_Item
+ms.keywords: IUpdateHistoryEntryCollection interface [Windows Update Agent],Item property, IUpdateHistoryEntryCollection.Item, IUpdateHistoryEntryCollection.get_Item, IUpdateHistoryEntryCollection::Item, IUpdateHistoryEntryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateHistoryEntryCollection interface, get_Item, wua.iupdatehistoryentrycollection_item, wuapi/IUpdateHistoryEntryCollection::Item, wuapi/IUpdateHistoryEntryCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateHistoryEntryCollection::get_Item method
+# IUpdateHistoryEntryCollection::get_Item
 
 
 ## -description

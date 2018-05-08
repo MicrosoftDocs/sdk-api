@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDockPattern.get_CurrentDockPosition
-title: IUIAutomationDockPattern::get_CurrentDockPosition method
+title: IUIAutomationDockPattern::get_CurrentDockPosition
 author: windows-driver-content
 description: Retrieves the dock position of this element within its docking container.
 old-location: winauto\uiauto_IUIAutomationDockPattern_CurrentDockPosition.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: ce51a971-5ea1-48fc-85ff-5f7c864bc7b3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentDockPosition property [Windows Accessibility], CurrentDockPosition property [Windows Accessibility], IUIAutomationDockPattern interface, IUIAutomationDockPattern, IUIAutomationDockPattern interface [Windows Accessibility], CurrentDockPosition property, IUIAutomationDockPattern.CurrentDockPosition, IUIAutomationDockPattern::get_CurrentDockPosition, get_CurrentDockPosition,IUIAutomationDockPattern.get_CurrentDockPosition, uiauto.uiauto_IUIAutomationDockPattern_CurrentDockPosition, uiauto_IUIAutomationDockPattern_CurrentDockPosition, uiautomationclient/IUIAutomationDockPattern::CurrentDockPosition, uiautomationclient/IUIAutomationDockPattern::get_CurrentDockPosition, winauto.uiauto_IUIAutomationDockPattern_CurrentDockPosition
+ms.keywords: CurrentDockPosition property [Windows Accessibility], CurrentDockPosition property [Windows Accessibility],IUIAutomationDockPattern interface, IUIAutomationDockPattern interface [Windows Accessibility],CurrentDockPosition property, IUIAutomationDockPattern.CurrentDockPosition, IUIAutomationDockPattern.get_CurrentDockPosition, IUIAutomationDockPattern::CurrentDockPosition, IUIAutomationDockPattern::get_CurrentDockPosition, get_CurrentDockPosition, uiauto.uiauto_IUIAutomationDockPattern_CurrentDockPosition, uiauto_IUIAutomationDockPattern_CurrentDockPosition, uiautomationclient/IUIAutomationDockPattern::CurrentDockPosition, uiautomationclient/IUIAutomationDockPattern::get_CurrentDockPosition, winauto.uiauto_IUIAutomationDockPattern_CurrentDockPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationDockPattern::get_CurrentDockPosition method
+# IUIAutomationDockPattern::get_CurrentDockPosition
 
 
 ## -description

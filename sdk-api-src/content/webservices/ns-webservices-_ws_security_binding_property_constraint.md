@@ -119,3 +119,10 @@ req.product: Windows Address Book 5.0
                     fields of the property structure will be filled out as follows:
                 
 
+
+### -field out.securityBindingProperty
+
+ 
+
+
+

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ImportComponent
-title: ICOMAdminCatalog::ImportComponent method
+title: ICOMAdminCatalog::ImportComponent
 author: windows-driver-content
 description: Imports a component already registered as an in-process server into a COM+ application.
 old-location: cos\icomadmincatalog_importcomponent.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 0e29025d-60bc-4f95-a6f9-aa178769855c
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ImportComponent method, ICOMAdminCatalog::ImportComponent, ImportComponent method [COM+], ImportComponent method [COM+], ICOMAdminCatalog interface, ImportComponent,ICOMAdminCatalog.ImportComponent, _cos_ICOMAdminCatalog_ImportComponent, comadmin/ICOMAdminCatalog::ImportComponent, cos.icomadmincatalog_importcomponent
+ms.keywords: ICOMAdminCatalog interface [COM+],ImportComponent method, ICOMAdminCatalog.ImportComponent, ICOMAdminCatalog::ImportComponent, ImportComponent, ImportComponent method [COM+], ImportComponent method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ImportComponent, comadmin/ICOMAdminCatalog::ImportComponent, cos.icomadmincatalog_importcomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::ImportComponent method
+# ICOMAdminCatalog::ImportComponent
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentIsModal
-title: IUIAutomationWindowPattern::get_CurrentIsModal method
+title: IUIAutomationWindowPattern::get_CurrentIsModal
 author: windows-driver-content
 description: Indicates whether the window is modal.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentIsModal.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: cea34f72-6d89-4992-b119-a298c836a7eb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentIsModal property [Windows Accessibility], CurrentIsModal property [Windows Accessibility], IUIAutomationWindowPattern interface, IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], CurrentIsModal property, IUIAutomationWindowPattern.CurrentIsModal, IUIAutomationWindowPattern::get_CurrentIsModal, get_CurrentIsModal,IUIAutomationWindowPattern.get_CurrentIsModal, uiauto.uiauto_IUIAutomationWindowPattern_CurrentIsModal, uiauto_IUIAutomationWindowPattern_CurrentIsModal, uiautomationclient/IUIAutomationWindowPattern::CurrentIsModal, uiautomationclient/IUIAutomationWindowPattern::get_CurrentIsModal, winauto.uiauto_IUIAutomationWindowPattern_CurrentIsModal
+ms.keywords: CurrentIsModal property [Windows Accessibility], CurrentIsModal property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentIsModal property, IUIAutomationWindowPattern.CurrentIsModal, IUIAutomationWindowPattern.get_CurrentIsModal, IUIAutomationWindowPattern::CurrentIsModal, IUIAutomationWindowPattern::get_CurrentIsModal, get_CurrentIsModal, uiauto.uiauto_IUIAutomationWindowPattern_CurrentIsModal, uiauto_IUIAutomationWindowPattern_CurrentIsModal, uiautomationclient/IUIAutomationWindowPattern::CurrentIsModal, uiautomationclient/IUIAutomationWindowPattern::get_CurrentIsModal, winauto.uiauto_IUIAutomationWindowPattern_CurrentIsModal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationWindowPattern::get_CurrentIsModal method
+# IUIAutomationWindowPattern::get_CurrentIsModal
 
 
 ## -description

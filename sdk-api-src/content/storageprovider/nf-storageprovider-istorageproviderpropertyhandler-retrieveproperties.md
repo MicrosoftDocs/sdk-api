@@ -1,14 +1,14 @@
 ---
 UID: NF:storageprovider.IStorageProviderPropertyHandler.RetrieveProperties
-title: IStorageProviderPropertyHandler::RetrieveProperties method
+title: IStorageProviderPropertyHandler::RetrieveProperties
 author: windows-driver-content
 description: Gets the properties managed by the sync engine.
 old-location: shell\istorageproviderpropertyhandler_retrieveproperties.htm
 old-project: shell
 ms.assetid: C1E21E6E-A651-4AB3-A4C1-ADDF874DCCC7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IStorageProviderPropertyHandler, IStorageProviderPropertyHandler interface [Windows Shell], RetrieveProperties method, IStorageProviderPropertyHandler::RetrieveProperties, RetrieveProperties method [Windows Shell], RetrieveProperties method [Windows Shell], IStorageProviderPropertyHandler interface, RetrieveProperties,IStorageProviderPropertyHandler.RetrieveProperties, shell.istorageproviderpropertyhandler_retrieveproperties, storageprovider/IStorageProviderPropertyHandler::RetrieveProperties
+ms.date: 5/3/2018
+ms.keywords: IStorageProviderPropertyHandler interface [Windows Shell],RetrieveProperties method, IStorageProviderPropertyHandler.RetrieveProperties, IStorageProviderPropertyHandler::RetrieveProperties, RetrieveProperties, RetrieveProperties method [Windows Shell], RetrieveProperties method [Windows Shell],IStorageProviderPropertyHandler interface, shell.istorageproviderpropertyhandler_retrieveproperties, storageprovider/IStorageProviderPropertyHandler::RetrieveProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IStorageProviderPropertyHandler::RetrieveProperties method
+# IStorageProviderPropertyHandler::RetrieveProperties
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:regbag.ICreatePropBagOnRegKey.Create
-title: ICreatePropBagOnRegKey::Create method
+title: ICreatePropBagOnRegKey::Create
 author: windows-driver-content
 description: The Create method creates a property bag that can store information in the system registry.
 old-location: mstv\icreatepropbagonregkey_create.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d6410ead-7364-4db4-a4c9-cafe5fbf2e84
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Create method [Microsoft TV Technologies], Create method [Microsoft TV Technologies], ICreatePropBagOnRegKey interface, Create,ICreatePropBagOnRegKey.Create, ICreatePropBagOnRegKey, ICreatePropBagOnRegKey interface [Microsoft TV Technologies], Create method, ICreatePropBagOnRegKey::Create, ICreatePropBagOnRegKeyCreate, mstv.icreatepropbagonregkey_create, regbag/ICreatePropBagOnRegKey::Create
+ms.keywords: Create, Create method [Microsoft TV Technologies], Create method [Microsoft TV Technologies],ICreatePropBagOnRegKey interface, ICreatePropBagOnRegKey interface [Microsoft TV Technologies],Create method, ICreatePropBagOnRegKey.Create, ICreatePropBagOnRegKey::Create, ICreatePropBagOnRegKeyCreate, mstv.icreatepropbagonregkey_create, regbag/ICreatePropBagOnRegKey::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreatePropBagOnRegKey::Create method
+# ICreatePropBagOnRegKey::Create
 
 
 ## -description

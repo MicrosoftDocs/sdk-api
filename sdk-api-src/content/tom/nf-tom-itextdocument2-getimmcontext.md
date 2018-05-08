@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.GetImmContext
-title: ITextDocument2::GetImmContext method
+title: ITextDocument2::GetImmContext
 author: windows-driver-content
 description: Gets the Input Method Manager (IMM) input context from the Text Object Model (TOM) host.
 old-location: controls\itextdocument2_getimmcontext.htm
 old-project: Controls
 ms.assetid: 42ee6d71-b51d-459a-b1af-638a19d8be2c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetImmContext method [Windows Controls], GetImmContext method [Windows Controls], ITextDocument2 interface, GetImmContext,ITextDocument2.GetImmContext, ITextDocument2, ITextDocument2 interface [Windows Controls], GetImmContext method, ITextDocument2::GetImmContext, controls.itextdocument2_getimmcontext, tom/ITextDocument2::GetImmContext
+ms.date: 4/27/2018
+ms.keywords: GetImmContext, GetImmContext method [Windows Controls], GetImmContext method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetImmContext method, ITextDocument2.GetImmContext, ITextDocument2::GetImmContext, controls.itextdocument2_getimmcontext, tom/ITextDocument2::GetImmContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::GetImmContext method
+# ITextDocument2::GetImmContext
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetName
-title: ISyncMgrHandler::GetName method
+title: ISyncMgrHandler::GetName
 author: windows-driver-content
 description: Gets the display name of the handler.
 old-location: shell\ISyncMgrHandler_GetName.htm
 old-project: shell
 ms.assetid: 2d981cf9-6c0a-4bca-b088-06eb1c820fb3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetName method [Windows Shell], GetName method [Windows Shell], ISyncMgrHandler interface, GetName,ISyncMgrHandler.GetName, ISyncMgrHandler, ISyncMgrHandler interface [Windows Shell], GetName method, ISyncMgrHandler::GetName, _shell_ISyncMgrHandler_GetName, shell.ISyncMgrHandler_GetName, syncmgr/ISyncMgrHandler::GetName
+ms.date: 5/3/2018
+ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetName method, ISyncMgrHandler.GetName, ISyncMgrHandler::GetName, _shell_ISyncMgrHandler_GetName, shell.ISyncMgrHandler_GetName, syncmgr/ISyncMgrHandler::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrHandler::GetName method
+# ISyncMgrHandler::GetName
 
 
 ## -description

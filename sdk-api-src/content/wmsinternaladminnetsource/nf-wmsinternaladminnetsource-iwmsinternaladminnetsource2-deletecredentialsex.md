@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource2.DeleteCredentialsEx
-title: IWMSInternalAdminNetSource2::DeleteCredentialsEx method
+title: IWMSInternalAdminNetSource2::DeleteCredentialsEx
 author: windows-driver-content
 description: The DeleteCredentialsEx method removes a password from the cache.
 old-location: wmformat\iwmsinternaladminnetsource2_deletecredentialsex.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 06d82f1d-b965-40fb-8a79-904ba5af7191
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: DeleteCredentialsEx method [windows Media Format], DeleteCredentialsEx method [windows Media Format], IWMSInternalAdminNetSource2 interface, DeleteCredentialsEx,IWMSInternalAdminNetSource2.DeleteCredentialsEx, IWMSInternalAdminNetSource2, IWMSInternalAdminNetSource2 interface [windows Media Format], DeleteCredentialsEx method, IWMSInternalAdminNetSource2::DeleteCredentialsEx, IWMSInternalAdminNetSource2DeleteCredentialsEx, wmformat.iwmsinternaladminnetsource2_deletecredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::DeleteCredentialsEx
+ms.keywords: DeleteCredentialsEx, DeleteCredentialsEx method [windows Media Format], DeleteCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, IWMSInternalAdminNetSource2 interface [windows Media Format],DeleteCredentialsEx method, IWMSInternalAdminNetSource2.DeleteCredentialsEx, IWMSInternalAdminNetSource2::DeleteCredentialsEx, IWMSInternalAdminNetSource2DeleteCredentialsEx, wmformat.iwmsinternaladminnetsource2_deletecredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::DeleteCredentialsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSInternalAdminNetSource2::DeleteCredentialsEx method
+# IWMSInternalAdminNetSource2::DeleteCredentialsEx
 
 
 ## -description

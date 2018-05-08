@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMObjectInfo.SetPlayOffset
-title: IWMDMObjectInfo::SetPlayOffset method
+title: IWMDMObjectInfo::SetPlayOffset
 author: windows-driver-content
 description: The SetPlayOffset method sets the play offset of the object, in the units appropriate to the format. This specifies the starting point for the next invocation of Play.
 old-location: wmdm\iwmdmobjectinfo_setplayoffset.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: b47cf5e8-1d5c-4a47-bb9a-0bec7203f497
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMObjectInfo, IWMDMObjectInfo interface [windows Media Device Manager], SetPlayOffset method, IWMDMObjectInfo::SetPlayOffset, IWMDMObjectInfoSetPlayOffset, SetPlayOffset method [windows Media Device Manager], SetPlayOffset method [windows Media Device Manager], IWMDMObjectInfo interface, SetPlayOffset,IWMDMObjectInfo.SetPlayOffset, mswmdm/IWMDMObjectInfo::SetPlayOffset, wmdm.iwmdmobjectinfo_setplayoffset
+ms.keywords: IWMDMObjectInfo interface [windows Media Device Manager],SetPlayOffset method, IWMDMObjectInfo.SetPlayOffset, IWMDMObjectInfo::SetPlayOffset, IWMDMObjectInfoSetPlayOffset, SetPlayOffset, SetPlayOffset method [windows Media Device Manager], SetPlayOffset method [windows Media Device Manager],IWMDMObjectInfo interface, mswmdm/IWMDMObjectInfo::SetPlayOffset, wmdm.iwmdmobjectinfo_setplayoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMObjectInfo::SetPlayOffset method
+# IWMDMObjectInfo::SetPlayOffset
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 940097da-c5bb-4170-a2aa-fcbbee622fe6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManConnectionOptions, IWSManConnectionOptions interface [Windows Remote Management], IWSManConnectionOptions interface [Windows Remote Management], described, winrm.iwsmanconnectionoptions, wsmandisp/IWSManConnectionOptions
+ms.keywords: IWSManConnectionOptions, IWSManConnectionOptions interface [Windows Remote Management], IWSManConnectionOptions interface [Windows Remote Management],described, winrm.iwsmanconnectionoptions, wsmandisp/IWSManConnectionOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

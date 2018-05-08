@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.IsConnected
-title: IConnector::IsConnected method
+title: IConnector::IsConnected
 author: windows-driver-content
 description: The IsConnected method indicates whether this connector is connected to another connector.
 old-location: coreaudio\iconnector_isconnected.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 56aaee41-bf55-4556-b3d3-b0548a0db37c
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IConnector, IConnector interface [Core Audio], IsConnected method, IConnector::IsConnected, IConnectorIsConnected, IsConnected method [Core Audio], IsConnected method [Core Audio], IConnector interface, IsConnected,IConnector.IsConnected, coreaudio.iconnector_isconnected, devicetopology/IConnector::IsConnected
+ms.keywords: IConnector interface [Core Audio],IsConnected method, IConnector.IsConnected, IConnector::IsConnected, IConnectorIsConnected, IsConnected, IsConnected method [Core Audio], IsConnected method [Core Audio],IConnector interface, coreaudio.iconnector_isconnected, devicetopology/IConnector::IsConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IConnector::IsConnected method
+# IConnector::IsConnected
 
 
 ## -description

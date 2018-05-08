@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_CreateTime
-title: ITsSbSession::get_CreateTime method
+title: ITsSbSession::get_CreateTime
 author: windows-driver-content
 description: Retrieves or specifies the time the session was created.
 old-location: termserv\itssbsession_createtime.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 227ac94a-2d04-4b94-9ba4-e0cc6e2496cf
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CreateTime property [Remote Desktop Services], CreateTime property [Remote Desktop Services], ITsSbSession interface, ITsSbSession, ITsSbSession interface [Remote Desktop Services], CreateTime property, ITsSbSession.CreateTime, ITsSbSession::get_CreateTime, ITsSbSession::put_CreateTime, get_CreateTime,ITsSbSession.get_CreateTime, sbtsv/ITsSbSession::CreateTime, sbtsv/ITsSbSession::get_CreateTime, sbtsv/ITsSbSession::put_CreateTime, termserv.itssbsession_createtime
+ms.keywords: CreateTime property [Remote Desktop Services], CreateTime property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],CreateTime property, ITsSbSession.CreateTime, ITsSbSession.get_CreateTime, ITsSbSession::CreateTime, ITsSbSession::get_CreateTime, ITsSbSession::put_CreateTime, get_CreateTime, sbtsv/ITsSbSession::CreateTime, sbtsv/ITsSbSession::get_CreateTime, sbtsv/ITsSbSession::put_CreateTime, termserv.itssbsession_createtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbSession::get_CreateTime method
+# ITsSbSession::get_CreateTime
 
 
 ## -description

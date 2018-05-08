@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IAGetVertexBuffers
-title: ID3D11DeviceContext::IAGetVertexBuffers method
+title: ID3D11DeviceContext::IAGetVertexBuffers
 author: windows-driver-content
 description: Get the vertex buffers bound to the input-assembler stage.
 old-location: direct3d11\id3d11devicecontext_iagetvertexbuffers.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 13b1eb06-effa-4483-993a-da47ee0b916f
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: IAGetVertexBuffers method [Direct3D 11], IAGetVertexBuffers method [Direct3D 11], ID3D11DeviceContext interface, IAGetVertexBuffers,ID3D11DeviceContext.IAGetVertexBuffers, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], IAGetVertexBuffers method, ID3D11DeviceContext::IAGetVertexBuffers, d3d11/ID3D11DeviceContext::IAGetVertexBuffers, direct3d11.id3d11devicecontext_iagetvertexbuffers, e62a4871-bb0d-3c8a-9fba-aa0c0dff15b6
+ms.keywords: IAGetVertexBuffers, IAGetVertexBuffers method [Direct3D 11], IAGetVertexBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IAGetVertexBuffers method, ID3D11DeviceContext.IAGetVertexBuffers, ID3D11DeviceContext::IAGetVertexBuffers, d3d11/ID3D11DeviceContext::IAGetVertexBuffers, direct3d11.id3d11devicecontext_iagetvertexbuffers, e62a4871-bb0d-3c8a-9fba-aa0c0dff15b6
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::IAGetVertexBuffers method
+# ID3D11DeviceContext::IAGetVertexBuffers
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.SetBorderColor
-title: IVMRSurfaceAllocatorNotify::SetBorderColor method
+title: IVMRSurfaceAllocatorNotify::SetBorderColor
 author: windows-driver-content
 description: The SetBorderColor method specifies to the VMR which color to use in areas of the display rectangle which are not being used for video, for example when the video is letterboxed.
 old-location: dshow\ivmrsurfaceallocatornotify_setbordercolor.htm
 old-project: DirectShow
 ms.assetid: 29d4b9df-a498-4aff-8e85-51ede64d69dc
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], SetBorderColor method, IVMRSurfaceAllocatorNotify::SetBorderColor, IVMRSurfaceAllocatorNotifySetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow], IVMRSurfaceAllocatorNotify interface, SetBorderColor,IVMRSurfaceAllocatorNotify.SetBorderColor, dshow.ivmrsurfaceallocatornotify_setbordercolor, strmif/IVMRSurfaceAllocatorNotify::SetBorderColor
+ms.date: 4/30/2018
+ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],SetBorderColor method, IVMRSurfaceAllocatorNotify.SetBorderColor, IVMRSurfaceAllocatorNotify::SetBorderColor, IVMRSurfaceAllocatorNotifySetBorderColor, SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_setbordercolor, strmif/IVMRSurfaceAllocatorNotify::SetBorderColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRSurfaceAllocatorNotify::SetBorderColor method
+# IVMRSurfaceAllocatorNotify::SetBorderColor
 
 
 ## -description

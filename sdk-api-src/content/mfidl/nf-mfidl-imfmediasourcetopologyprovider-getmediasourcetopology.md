@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaSourceTopologyProvider.GetMediaSourceTopology
-title: IMFMediaSourceTopologyProvider::GetMediaSourceTopology method
+title: IMFMediaSourceTopologyProvider::GetMediaSourceTopology
 author: windows-driver-content
 description: Returns a topology for a media source that builds an internal topology.
 old-location: mf\imfmediasourcetopologyprovider_getmediasourcetopology.htm
 old-project: medfound
 ms.assetid: 3889768a-27bb-422e-912b-80546b6017fb
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 3889768a-27bb-422e-912b-80546b6017fb, GetMediaSourceTopology method [Media Foundation], GetMediaSourceTopology method [Media Foundation], IMFMediaSourceTopologyProvider interface, GetMediaSourceTopology,IMFMediaSourceTopologyProvider.GetMediaSourceTopology, IMFMediaSourceTopologyProvider, IMFMediaSourceTopologyProvider interface [Media Foundation], GetMediaSourceTopology method, IMFMediaSourceTopologyProvider::GetMediaSourceTopology, mf.imfmediasourcetopologyprovider_getmediasourcetopology, mfidl/IMFMediaSourceTopologyProvider::GetMediaSourceTopology
+ms.date: 5/3/2018
+ms.keywords: 3889768a-27bb-422e-912b-80546b6017fb, GetMediaSourceTopology, GetMediaSourceTopology method [Media Foundation], GetMediaSourceTopology method [Media Foundation],IMFMediaSourceTopologyProvider interface, IMFMediaSourceTopologyProvider interface [Media Foundation],GetMediaSourceTopology method, IMFMediaSourceTopologyProvider.GetMediaSourceTopology, IMFMediaSourceTopologyProvider::GetMediaSourceTopology, mf.imfmediasourcetopologyprovider_getmediasourcetopology, mfidl/IMFMediaSourceTopologyProvider::GetMediaSourceTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSourceTopologyProvider::GetMediaSourceTopology method
+# IMFMediaSourceTopologyProvider::GetMediaSourceTopology
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Skip
-title: IEnumTfRanges::Skip method
+title: IEnumTfRanges::Skip
 author: windows-driver-content
 description: IEnumTfRanges::Skip method
 old-location: tsf\ienumtfranges_skip.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: f13ec6c2-379f-42e1-af92-62c4a8d8d922
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfRanges, IEnumTfRanges interface [Text Services Framework], Skip method, IEnumTfRanges::Skip, Skip method [Text Services Framework], Skip method [Text Services Framework], IEnumTfRanges interface, Skip,IEnumTfRanges.Skip, _tsf_ienumtfranges_skip_ref, msctf/IEnumTfRanges::Skip, tsf.ienumtfranges_skip
+ms.keywords: IEnumTfRanges interface [Text Services Framework],Skip method, IEnumTfRanges.Skip, IEnumTfRanges::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_skip_ref, msctf/IEnumTfRanges::Skip, tsf.ienumtfranges_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfRanges::Skip method
+# IEnumTfRanges::Skip
 
 
 ## -description

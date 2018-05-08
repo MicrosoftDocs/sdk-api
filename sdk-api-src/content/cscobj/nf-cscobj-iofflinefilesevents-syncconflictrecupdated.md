@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncConflictRecUpdated
-title: IOfflineFilesEvents::SyncConflictRecUpdated method
+title: IOfflineFilesEvents::SyncConflictRecUpdated
 author: windows-driver-content
 description: Reports that a sync conflict has been detected and that a record of the conflict was already present in the sync conflict log.
 old-location: of\iofflinefilesevents_syncconflictrecupdated.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: adf13e95-bcb0-4f84-bbb9-9648f90f3be8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], SyncConflictRecUpdated method, IOfflineFilesEvents::SyncConflictRecUpdated, SyncConflictRecUpdated method [Offline Files], SyncConflictRecUpdated method [Offline Files], IOfflineFilesEvents interface, SyncConflictRecUpdated,IOfflineFilesEvents.SyncConflictRecUpdated, cscobj/IOfflineFilesEvents::SyncConflictRecUpdated, of.iofflinefilesevents_syncconflictrecupdated
+ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecUpdated method, IOfflineFilesEvents.SyncConflictRecUpdated, IOfflineFilesEvents::SyncConflictRecUpdated, SyncConflictRecUpdated, SyncConflictRecUpdated method [Offline Files], SyncConflictRecUpdated method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecUpdated, of.iofflinefilesevents_syncconflictrecupdated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents::SyncConflictRecUpdated method
+# IOfflineFilesEvents::SyncConflictRecUpdated
 
 
 ## -description

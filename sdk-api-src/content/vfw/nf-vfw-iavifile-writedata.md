@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IAVIFile.WriteData
-title: IAVIFile::WriteData method
+title: IAVIFile::WriteData
 author: windows-driver-content
 description: The WriteData method writes file headers. Called when an application uses the AVIFileWriteData function.
 old-location: multimedia\iavifile_writedata.htm
 old-project: Multimedia
 ms.assetid: 0b693a98-a91a-4fba-99da-e3bac71c1b22
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: IAVIFile, IAVIFile interface [Windows Multimedia], WriteData method, IAVIFile::WriteData, WriteData method [Windows Multimedia], WriteData method [Windows Multimedia], IAVIFile interface, WriteData,IAVIFile.WriteData, _win32_IAVIFile_WriteData, multimedia.iavifile_writedata, vfw/IAVIFile::WriteData
+ms.date: 5/4/2018
+ms.keywords: IAVIFile interface [Windows Multimedia],WriteData method, IAVIFile.WriteData, IAVIFile::WriteData, WriteData, WriteData method [Windows Multimedia], WriteData method [Windows Multimedia],IAVIFile interface, _win32_IAVIFile_WriteData, multimedia.iavifile_writedata, vfw/IAVIFile::WriteData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAVIFile::WriteData method
+# IAVIFile::WriteData
 
 
 ## -description

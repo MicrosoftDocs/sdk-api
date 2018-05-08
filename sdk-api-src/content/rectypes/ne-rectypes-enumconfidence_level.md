@@ -7,7 +7,7 @@ old-location: tablet\confidence_level.htm
 old-project: tablet
 ms.assetid: 94167a91-7d72-40c9-bce4-29babdb5bff9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/2/2018
 ms.keywords: 94167a91-7d72-40c9-bce4-29babdb5bff9, CFL_INTERMEDIATE, CFL_POOR, CFL_STRONG, CONFIDENCE_LEVEL, CONFIDENCE_LEVEL enumeration [Tablet PC], enumCONFIDENCE_LEVEL, rectypes/CFL_INTERMEDIATE, rectypes/CFL_POOR, rectypes/CFL_STRONG, rectypes/CONFIDENCE_LEVEL, tablet.confidence_level
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CONFIDENCE_LEVEL, CONFIDENCE_LEVEL
+req.typenames: CONFIDENCE_LEVEL
 topic_type:
 -	APIRef
 -	kbSyntax

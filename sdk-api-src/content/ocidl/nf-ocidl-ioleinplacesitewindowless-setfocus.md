@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.SetFocus
-title: IOleInPlaceSiteWindowless::SetFocus method
+title: IOleInPlaceSiteWindowless::SetFocus
 author: windows-driver-content
 description: Sets the keyboard focus for a UI-active, windowless object.
 old-location: com\ioleinplacesitewindowless_setfocus.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1ea9bade-5e41-49a0-a770-3a5cfc56d0f6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], SetFocus method, IOleInPlaceSiteWindowless::SetFocus, SetFocus method [COM], SetFocus method [COM], IOleInPlaceSiteWindowless interface, SetFocus,IOleInPlaceSiteWindowless.SetFocus, _ole_ioleinplacesitewindowless_setfocus, com.ioleinplacesitewindowless_setfocus, ocidl/IOleInPlaceSiteWindowless::SetFocus
+ms.keywords: IOleInPlaceSiteWindowless interface [COM],SetFocus method, IOleInPlaceSiteWindowless.SetFocus, IOleInPlaceSiteWindowless::SetFocus, SetFocus, SetFocus method [COM], SetFocus method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_setfocus, com.ioleinplacesitewindowless_setfocus, ocidl/IOleInPlaceSiteWindowless::SetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSiteWindowless::SetFocus method
+# IOleInPlaceSiteWindowless::SetFocus
 
 
 ## -description

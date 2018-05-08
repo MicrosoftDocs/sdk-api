@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3ff9cd6e-0d25-462c-93a7-2399395f68b0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], IATSC_VCT interface [Microsoft TV Technologies], described, IATSC_VCTInterface, atscpsipparser/IATSC_VCT, mstv.iatsc_vct
+ms.keywords: IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], IATSC_VCT interface [Microsoft TV Technologies],described, IATSC_VCTInterface, atscpsipparser/IATSC_VCT, mstv.iatsc_vct
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

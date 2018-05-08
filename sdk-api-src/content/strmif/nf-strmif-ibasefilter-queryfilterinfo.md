@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IBaseFilter.QueryFilterInfo
-title: IBaseFilter::QueryFilterInfo method
+title: IBaseFilter::QueryFilterInfo
 author: windows-driver-content
 description: The QueryFilterInfo method retrieves information about the filter.
 old-location: dshow\ibasefilter_queryfilterinfo.htm
 old-project: DirectShow
 ms.assetid: 6cb9b6ef-05ae-4816-b337-dd90cab843fb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBaseFilter, IBaseFilter interface [DirectShow], QueryFilterInfo method, IBaseFilter::QueryFilterInfo, IBaseFilterQueryFilterInfo, QueryFilterInfo method [DirectShow], QueryFilterInfo method [DirectShow], IBaseFilter interface, QueryFilterInfo,IBaseFilter.QueryFilterInfo, dshow.ibasefilter_queryfilterinfo, strmif/IBaseFilter::QueryFilterInfo
+ms.date: 4/30/2018
+ms.keywords: IBaseFilter interface [DirectShow],QueryFilterInfo method, IBaseFilter.QueryFilterInfo, IBaseFilter::QueryFilterInfo, IBaseFilterQueryFilterInfo, QueryFilterInfo, QueryFilterInfo method [DirectShow], QueryFilterInfo method [DirectShow],IBaseFilter interface, dshow.ibasefilter_queryfilterinfo, strmif/IBaseFilter::QueryFilterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IBaseFilter::QueryFilterInfo method
+# IBaseFilter::QueryFilterInfo
 
 
 ## -description

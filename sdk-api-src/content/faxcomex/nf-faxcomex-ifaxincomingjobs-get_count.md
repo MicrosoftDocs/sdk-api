@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJobs.get_Count
-title: IFaxIncomingJobs::get_Count method
+title: IFaxIncomingJobs::get_Count
 author: windows-driver-content
 description: The Count property represents the number of objects in the FaxIncomingJobs collection. This is the total number of incoming jobs for the fax server.
 old-location: fax\_mfax_faxincomingjobs_count_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4p2s.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service], FaxIncomingJobs object, FaxIncomingJobs object [Fax Service], Count property, IFaxIncomingJobs, IFaxIncomingJobs::get_Count, _mfax_faxincomingjobs.count, fax._mfax_faxincomingjobs_count, fax._mfax_faxincomingjobs_count_vb, get_Count,IFaxIncomingJobs.get_Count
+ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxIncomingJobs object, FaxIncomingJobs object [Fax Service],Count property, FaxIncomingJobs.Count, IFaxIncomingJobs.get_Count, IFaxIncomingJobs::get_Count, _mfax_faxincomingjobs.count, fax._mfax_faxincomingjobs_count, fax._mfax_faxincomingjobs_count_vb, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxIncomingJobs::get_Count method
+# IFaxIncomingJobs::get_Count
 
 
 ## -description

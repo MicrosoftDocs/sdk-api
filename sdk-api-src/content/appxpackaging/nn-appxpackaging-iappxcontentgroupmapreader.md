@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 45C6F61E-8CF6-4188-9715-3954562F8AB0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxContentGroupMapReader, IAppxContentGroupMapReader interface [App packaging and management], IAppxContentGroupMapReader interface [App packaging and management], described, appxpackaging/IAppxContentGroupMapReader, appxpkg.iappxcontentgroupmapreader
+ms.keywords: IAppxContentGroupMapReader, IAppxContentGroupMapReader interface [App packaging and management], IAppxContentGroupMapReader interface [App packaging and management],described, appxpackaging/IAppxContentGroupMapReader, appxpkg.iappxcontentgroupmapreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

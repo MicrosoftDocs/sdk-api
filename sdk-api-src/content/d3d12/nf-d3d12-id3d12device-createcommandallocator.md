@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateCommandAllocator
-title: ID3D12Device::CreateCommandAllocator method
+title: ID3D12Device::CreateCommandAllocator
 author: windows-driver-content
 description: Creates a command allocator object.
 old-location: direct3d12\id3d12device_createcommandallocator.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 28DA0D59-3DB7-4652-B1EA-3360EA85A659
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateCommandAllocator method, CreateCommandAllocator method, ID3D12Device interface, CreateCommandAllocator,ID3D12Device.CreateCommandAllocator, ID3D12Device, ID3D12Device interface, CreateCommandAllocator method, ID3D12Device::CreateCommandAllocator, d3d12/ID3D12Device::CreateCommandAllocator, direct3d12.id3d12device_createcommandallocator
+ms.keywords: CreateCommandAllocator, CreateCommandAllocator method, CreateCommandAllocator method,ID3D12Device interface, ID3D12Device interface,CreateCommandAllocator method, ID3D12Device.CreateCommandAllocator, ID3D12Device::CreateCommandAllocator, d3d12/ID3D12Device::CreateCommandAllocator, direct3d12.id3d12device_createcommandallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CreateCommandAllocator method
+# ID3D12Device::CreateCommandAllocator
 
 
 ## -description

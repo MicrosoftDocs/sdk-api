@@ -1,14 +1,14 @@
 ---
 UID: NF:inputpanelconfiguration.IInputPanelInvocationConfiguration.RequireTouchInEditControl
-title: IInputPanelInvocationConfiguration::RequireTouchInEditControl method
+title: IInputPanelInvocationConfiguration::RequireTouchInEditControl
 author: windows-driver-content
 description: Requires an explicit user tap in an edit field before the touch keyboard invokes.
 old-location: shell\iinputpanelinvocationconfiguration_requiretouchineditcontrol.htm
 old-project: shell
 ms.assetid: FAFF0DC8-DD18-47A2-B3BD-24A69B75A100
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IInputPanelInvocationConfiguration, IInputPanelInvocationConfiguration interface [Windows Shell], RequireTouchInEditControl method, IInputPanelInvocationConfiguration::RequireTouchInEditControl, RequireTouchInEditControl method [Windows Shell], RequireTouchInEditControl method [Windows Shell], IInputPanelInvocationConfiguration interface, RequireTouchInEditControl,IInputPanelInvocationConfiguration.RequireTouchInEditControl, inputpanelconfiguration/IInputPanelInvocationConfiguration::RequireTouchInEditControl, shell.iinputpanelinvocationconfiguration_requiretouchineditcontrol
+ms.date: 5/3/2018
+ms.keywords: IInputPanelInvocationConfiguration interface [Windows Shell],RequireTouchInEditControl method, IInputPanelInvocationConfiguration.RequireTouchInEditControl, IInputPanelInvocationConfiguration::RequireTouchInEditControl, RequireTouchInEditControl, RequireTouchInEditControl method [Windows Shell], RequireTouchInEditControl method [Windows Shell],IInputPanelInvocationConfiguration interface, inputpanelconfiguration/IInputPanelInvocationConfiguration::RequireTouchInEditControl, shell.iinputpanelinvocationconfiguration_requiretouchineditcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInputPanelInvocationConfiguration::RequireTouchInEditControl method
+# IInputPanelInvocationConfiguration::RequireTouchInEditControl
 
 
 ## -description

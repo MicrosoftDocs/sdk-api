@@ -1,6 +1,6 @@
 ---
 UID: NF:dsattrib.IAttributeGet.GetAttribIndexed
-title: IAttributeGet::GetAttribIndexed method
+title: IAttributeGet::GetAttribIndexed
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iattributeget_getattribindexed.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 30fdd27f-99df-4ed6-b9ce-514b0e358854
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetAttribIndexed method [Microsoft TV Technologies], GetAttribIndexed method [Microsoft TV Technologies], IAttributeGet interface, GetAttribIndexed,IAttributeGet.GetAttribIndexed, IAttributeGet, IAttributeGet interface [Microsoft TV Technologies], GetAttribIndexed method, IAttributeGet::GetAttribIndexed, IAttributeGetGetAttribIndexed, dsattrib/IAttributeGet::GetAttribIndexed, mstv.iattributeget_getattribindexed
+ms.keywords: GetAttribIndexed, GetAttribIndexed method [Microsoft TV Technologies], GetAttribIndexed method [Microsoft TV Technologies],IAttributeGet interface, IAttributeGet interface [Microsoft TV Technologies],GetAttribIndexed method, IAttributeGet.GetAttribIndexed, IAttributeGet::GetAttribIndexed, IAttributeGetGetAttribIndexed, dsattrib/IAttributeGet::GetAttribIndexed, mstv.iattributeget_getattribindexed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAttributeGet::GetAttribIndexed method
+# IAttributeGet::GetAttribIndexed
 
 
 ## -description

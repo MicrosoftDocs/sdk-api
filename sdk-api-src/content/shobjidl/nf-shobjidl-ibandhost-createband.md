@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IBandHost.CreateBand
-title: IBandHost::CreateBand method
+title: IBandHost::CreateBand
 author: windows-driver-content
 description: Creates a specified band.
 old-location: shell\IBandHost_CreateBand.htm
 old-project: shell
 ms.assetid: 7edf8d46-f925-4c4f-99b1-e792dce69222
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CreateBand method [Windows Shell], CreateBand method [Windows Shell], IBandHost interface, CreateBand,IBandHost.CreateBand, IBandHost, IBandHost interface [Windows Shell], CreateBand method, IBandHost::CreateBand, _shell_IBandHost_CreateBand, shell.IBandHost_CreateBand, shobjidl/IBandHost::CreateBand
+ms.date: 5/3/2018
+ms.keywords: CreateBand, CreateBand method [Windows Shell], CreateBand method [Windows Shell],IBandHost interface, IBandHost interface [Windows Shell],CreateBand method, IBandHost.CreateBand, IBandHost::CreateBand, _shell_IBandHost_CreateBand, shell.IBandHost_CreateBand, shobjidl/IBandHost::CreateBand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IBandHost::CreateBand method
+# IBandHost::CreateBand
 
 
 ## -description

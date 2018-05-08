@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMBrush.SetOpacity
-title: IXpsOMBrush::SetOpacity method
+title: IXpsOMBrush::SetOpacity
 author: windows-driver-content
 description: Sets the opacity of the brush.
 old-location: xps\ixpsombrush_setopacity.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e0249796-298f-4e26-a767-cd57903e5da0
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMBrush, IXpsOMBrush interface [XPS Documents and Packaging], SetOpacity method, IXpsOMBrush::SetOpacity, SetOpacity method [XPS Documents and Packaging], SetOpacity method [XPS Documents and Packaging], IXpsOMBrush interface, SetOpacity,IXpsOMBrush.SetOpacity, xps.ixpsombrush_setopacity, xpsobjectmodel/IXpsOMBrush::SetOpacity
+ms.keywords: IXpsOMBrush interface [XPS Documents and Packaging],SetOpacity method, IXpsOMBrush.SetOpacity, IXpsOMBrush::SetOpacity, SetOpacity, SetOpacity method [XPS Documents and Packaging], SetOpacity method [XPS Documents and Packaging],IXpsOMBrush interface, xps.ixpsombrush_setopacity, xpsobjectmodel/IXpsOMBrush::SetOpacity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMBrush::SetOpacity method
+# IXpsOMBrush::SetOpacity
 
 
 ## -description

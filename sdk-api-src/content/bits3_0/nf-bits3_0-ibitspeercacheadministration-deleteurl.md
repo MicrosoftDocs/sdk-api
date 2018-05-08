@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.DeleteUrl
-title: IBitsPeerCacheAdministration::DeleteUrl method
+title: IBitsPeerCacheAdministration::DeleteUrl
 author: windows-driver-content
 description: Deletes all cache records and the file from the cache for the given URL.
 old-location: bits\ibitspeercacheadministration_deleteurl.htm
 old-project: Bits
 ms.assetid: d4849830-62fa-4bf4-bfad-59bcdbf1a10e
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: DeleteUrl method [BITS], DeleteUrl method [BITS], IBitsPeerCacheAdministration interface, DeleteUrl,IBitsPeerCacheAdministration.DeleteUrl, IBitsPeerCacheAdministration, IBitsPeerCacheAdministration interface [BITS], DeleteUrl method, IBitsPeerCacheAdministration::DeleteUrl, bits.ibitspeercacheadministration_deleteurl, bits3_0/IBitsPeerCacheAdministration::DeleteUrl
+ms.date: 4/27/2018
+ms.keywords: DeleteUrl, DeleteUrl method [BITS], DeleteUrl method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DeleteUrl method, IBitsPeerCacheAdministration.DeleteUrl, IBitsPeerCacheAdministration::DeleteUrl, bits.ibitspeercacheadministration_deleteurl, bits3_0/IBitsPeerCacheAdministration::DeleteUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsPeerCacheAdministration::DeleteUrl method
+# IBitsPeerCacheAdministration::DeleteUrl
 
 
 ## -description

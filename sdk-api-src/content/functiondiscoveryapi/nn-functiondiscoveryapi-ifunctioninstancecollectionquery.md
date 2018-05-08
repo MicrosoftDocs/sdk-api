@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: ae279ac1-ed7a-431b-a5aa-d60f5f9a64b0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFunctionInstanceCollectionQuery, IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface, described, functiondiscoveryapi/IFunctionInstanceCollectionQuery, ncd.ifunctioninstancecollectionquery
+ms.keywords: IFunctionInstanceCollectionQuery, IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,described, functiondiscoveryapi/IFunctionInstanceCollectionQuery, ncd.ifunctioninstancecollectionquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

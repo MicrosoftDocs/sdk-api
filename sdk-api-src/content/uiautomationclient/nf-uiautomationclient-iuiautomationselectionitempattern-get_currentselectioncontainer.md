@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.get_CurrentSelectionContainer
-title: IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer method
+title: IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer
 author: windows-driver-content
 description: Retrieves the element that supports IUIAutomationSelectionPattern and acts as the container for this item.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: e4e9ac5f-15d2-491f-9f23-3da7a5bf8fe2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentSelectionContainer property [Windows Accessibility], CurrentSelectionContainer property [Windows Accessibility], IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern, IUIAutomationSelectionItemPattern interface [Windows Accessibility], CurrentSelectionContainer property, IUIAutomationSelectionItemPattern.CurrentSelectionContainer, IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer, get_CurrentSelectionContainer,IUIAutomationSelectionItemPattern.get_CurrentSelectionContainer, uiauto.uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer, uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer, uiautomationclient/IUIAutomationSelectionItemPattern::CurrentSelectionContainer, uiautomationclient/IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer, winauto.uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer
+ms.keywords: CurrentSelectionContainer property [Windows Accessibility], CurrentSelectionContainer property [Windows Accessibility],IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern interface [Windows Accessibility],CurrentSelectionContainer property, IUIAutomationSelectionItemPattern.CurrentSelectionContainer, IUIAutomationSelectionItemPattern.get_CurrentSelectionContainer, IUIAutomationSelectionItemPattern::CurrentSelectionContainer, IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer, get_CurrentSelectionContainer, uiauto.uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer, uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer, uiautomationclient/IUIAutomationSelectionItemPattern::CurrentSelectionContainer, uiautomationclient/IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer, winauto.uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer method
+# IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer
 
 
 ## -description

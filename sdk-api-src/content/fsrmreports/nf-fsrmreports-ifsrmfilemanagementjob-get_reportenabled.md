@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_ReportEnabled
-title: IFsrmFileManagementJob::get_ReportEnabled method
+title: IFsrmFileManagementJob::get_ReportEnabled
 author: windows-driver-content
 description: Indicates whether the job will generate a report when it runs.
 old-location: fsrm\ifsrmfilemanagementjob_reportenabled.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 687367c7-5bed-4f42-ade1-f841da484b38
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], ReportEnabled property, IFsrmFileManagementJob.ReportEnabled, IFsrmFileManagementJob::get_ReportEnabled, IFsrmFileManagementJob::put_ReportEnabled, ReportEnabled property [File Server Resource Manager], ReportEnabled property [File Server Resource Manager], IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_reportenabled, fsrm.ifsrmfilemanagementjob_reportenabled, fsrmreports/IFsrmFileManagementJob::ReportEnabled, fsrmreports/IFsrmFileManagementJob::get_ReportEnabled, fsrmreports/IFsrmFileManagementJob::put_ReportEnabled, get_ReportEnabled,IFsrmFileManagementJob.get_ReportEnabled
+ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],ReportEnabled property, IFsrmFileManagementJob.ReportEnabled, IFsrmFileManagementJob.get_ReportEnabled, IFsrmFileManagementJob::ReportEnabled, IFsrmFileManagementJob::get_ReportEnabled, IFsrmFileManagementJob::put_ReportEnabled, ReportEnabled property [File Server Resource Manager], ReportEnabled property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_reportenabled, fsrm.ifsrmfilemanagementjob_reportenabled, fsrmreports/IFsrmFileManagementJob::ReportEnabled, fsrmreports/IFsrmFileManagementJob::get_ReportEnabled, fsrmreports/IFsrmFileManagementJob::put_ReportEnabled, get_ReportEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJob::get_ReportEnabled method
+# IFsrmFileManagementJob::get_ReportEnabled
 
 
 ## -description

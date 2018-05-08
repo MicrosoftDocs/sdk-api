@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.ScopeExists
-title: IAzApplication3::ScopeExists method
+title: IAzApplication3::ScopeExists
 author: windows-driver-content
 description: Indicates whether the specified scope exists in this IAzApplication3 object.
 old-location: security\iazapplication3_scopeexists.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 585f8b16-e634-4ac6-a20a-214eea344b0a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzApplication3, IAzApplication3 interface [Security], ScopeExists method, IAzApplication3::ScopeExists, ScopeExists method [Security], ScopeExists method [Security], IAzApplication3 interface, ScopeExists,IAzApplication3.ScopeExists, azroles/IAzApplication3::ScopeExists, security.iazapplication3_scopeexists
+ms.keywords: IAzApplication3 interface [Security],ScopeExists method, IAzApplication3.ScopeExists, IAzApplication3::ScopeExists, ScopeExists, ScopeExists method [Security], ScopeExists method [Security],IAzApplication3 interface, azroles/IAzApplication3::ScopeExists, security.iazapplication3_scopeexists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication3::ScopeExists method
+# IAzApplication3::ScopeExists
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.Click
-title: IWMPEvents::Click method
+title: IWMPEvents::Click
 author: windows-driver-content
 description: The Click event occurs when the user clicks a mouse button.
 old-location: wmp\iwmpevents_iwmpevents__click.htm
 old-project: WMP
 ms.assetid: 6535012d-61d5-4200-8de9-786c633cf079
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: Click method [Windows Media Player], Click method [Windows Media Player], IWMPEvents interface, Click,IWMPEvents.Click, IWMPEvents, IWMPEvents interface [Windows Media Player], Click method, IWMPEvents::Click, IWMPEventsClick, wmp.iwmpevents_iwmpevents__click, wmp/IWMPEvents::Click
+ms.date: 5/4/2018
+ms.keywords: Click, Click method [Windows Media Player], Click method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Click method, IWMPEvents.Click, IWMPEvents::Click, IWMPEventsClick, wmp.iwmpevents_iwmpevents__click, wmp/IWMPEvents::Click
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::Click method
+# IWMPEvents::Click
 
 
 ## -description

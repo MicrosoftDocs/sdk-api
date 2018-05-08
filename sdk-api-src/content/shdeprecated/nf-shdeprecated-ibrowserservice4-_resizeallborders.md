@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService4._ResizeAllBorders
-title: IBrowserService4::_ResizeAllBorders method
+title: IBrowserService4::_ResizeAllBorders
 author: windows-driver-content
 description: Deprecated.
 old-location: shell\IBrowserService4__ResizeAllBorders.htm
 old-project: shell
 ms.assetid: 31d9d993-e5f2-4ecb-98fe-558b1b2d7f26
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService4, IBrowserService4 interface [Windows Shell], _ResizeAllBorders method, IBrowserService4::_ResizeAllBorders, _ResizeAllBorders method [Windows Shell], _ResizeAllBorders method [Windows Shell], IBrowserService4 interface, _ResizeAllBorders,IBrowserService4._ResizeAllBorders, _shell_IBrowserService4__ResizeAllBorders, shdeprecated/IBrowserService4::_ResizeAllBorders, shell.IBrowserService4__ResizeAllBorders
+ms.date: 5/3/2018
+ms.keywords: IBrowserService4 interface [Windows Shell],_ResizeAllBorders method, IBrowserService4._ResizeAllBorders, IBrowserService4::_ResizeAllBorders, _ResizeAllBorders, _ResizeAllBorders method [Windows Shell], _ResizeAllBorders method [Windows Shell],IBrowserService4 interface, _shell_IBrowserService4__ResizeAllBorders, shdeprecated/IBrowserService4::_ResizeAllBorders, shell.IBrowserService4__ResizeAllBorders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.0
 ---
 
-# IBrowserService4::_ResizeAllBorders method
+# IBrowserService4::_ResizeAllBorders
 
 
 ## -description

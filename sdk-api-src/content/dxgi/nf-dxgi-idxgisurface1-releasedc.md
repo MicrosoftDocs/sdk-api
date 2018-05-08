@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISurface1.ReleaseDC
-title: IDXGISurface1::ReleaseDC method
+title: IDXGISurface1::ReleaseDC
 author: windows-driver-content
 description: Releases the GDI device context (DC) that is associated with the current surface and allows you to use Direct3D to render.
 old-location: direct3ddxgi\idxgisurface1_releasedc.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 2c3a0cf3-c970-4908-a960-ba261756bd5f
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 07f8f820-f0ad-bbd6-94a3-383d2e895e69, IDXGISurface1, IDXGISurface1 interface [DXGI], ReleaseDC method, IDXGISurface1::ReleaseDC, ReleaseDC method [DXGI], ReleaseDC method [DXGI], IDXGISurface1 interface, ReleaseDC,IDXGISurface1.ReleaseDC, direct3ddxgi.idxgisurface1_releasedc, dxgi/IDXGISurface1::ReleaseDC
+ms.keywords: 07f8f820-f0ad-bbd6-94a3-383d2e895e69, IDXGISurface1 interface [DXGI],ReleaseDC method, IDXGISurface1.ReleaseDC, IDXGISurface1::ReleaseDC, ReleaseDC, ReleaseDC method [DXGI], ReleaseDC method [DXGI],IDXGISurface1 interface, direct3ddxgi.idxgisurface1_releasedc, dxgi/IDXGISurface1::ReleaseDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISurface1::ReleaseDC method
+# IDXGISurface1::ReleaseDC
 
 
 ## -description

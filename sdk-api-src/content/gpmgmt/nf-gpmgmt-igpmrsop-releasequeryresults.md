@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.ReleaseQueryResults
-title: IGPMRSOP::ReleaseQueryResults method
+title: IGPMRSOP::ReleaseQueryResults
 author: windows-driver-content
 description: Releases the WMI namespace allocated by calls to the IGPMRSOP::CreateQueryResults method and by calls to the IGPM::GetRSOP method.
 old-location: gpmc\igpmrsop_releasequeryresults.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: c2bf9050-4db0-4bf0-a063-0076ba191ff6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMRSOP class [GPMC], ReleaseQueryResults method, IGPMRSOP, IGPMRSOP interface [GPMC], ReleaseQueryResults method, IGPMRSOP::ReleaseQueryResults, ReleaseQueryResults method [GPMC], ReleaseQueryResults method [GPMC], GPMRSOP class, ReleaseQueryResults method [GPMC], IGPMRSOP interface, ReleaseQueryResults,IGPMRSOP.ReleaseQueryResults, _win32_igpmrsop_releasequeryresults, gpmc.igpmrsop_releasequeryresults, gpmgmt/IGPMRSOP::ReleaseQueryResults
+ms.keywords: GPMRSOP class [GPMC],ReleaseQueryResults method, IGPMRSOP interface [GPMC],ReleaseQueryResults method, IGPMRSOP.ReleaseQueryResults, IGPMRSOP::ReleaseQueryResults, ReleaseQueryResults, ReleaseQueryResults method [GPMC], ReleaseQueryResults method [GPMC],GPMRSOP class, ReleaseQueryResults method [GPMC],IGPMRSOP interface, _win32_igpmrsop_releasequeryresults, gpmc.igpmrsop_releasequeryresults, gpmgmt/IGPMRSOP::ReleaseQueryResults
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMRSOP::ReleaseQueryResults method
+# IGPMRSOP::ReleaseQueryResults
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: mf\imfmediatype.htm
 old-project: medfound
 ms.assetid: f1d60bec-71e4-4fcc-a020-92754b6f3c02
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaType, IMFMediaType interface [Media Foundation], IMFMediaType interface [Media Foundation], described, f1d60bec-71e4-4fcc-a020-92754b6f3c02, mf.imfmediatype, mfobjects/IMFMediaType
+ms.date: 5/3/2018
+ms.keywords: IMFMediaType, IMFMediaType interface [Media Foundation], IMFMediaType interface [Media Foundation],described, f1d60bec-71e4-4fcc-a020-92754b6f3c02, mf.imfmediatype, mfobjects/IMFMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

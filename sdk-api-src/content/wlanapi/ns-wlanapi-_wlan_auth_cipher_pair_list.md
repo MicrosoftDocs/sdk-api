@@ -63,6 +63,21 @@ The <b>WLAN_AUTH_CIPHER_PAIR_LIST</b> structure contains a list of authenticatio
 Contains the number of supported auth-cipher pairs.
 
 
+### -field pAuthCipherPairList.unique
+
+ 
+
+
+### -field pAuthCipherPairList.size_is
+
+ 
+
+
+### -field pAuthCipherPairList.size_is.dwNumberOfItems
+
+ 
+
+
 ### -field pAuthCipherPairList
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547659">DOT11_AUTH_CIPHER_PAIR</a> structure containing a list of auth-cipher pairs.

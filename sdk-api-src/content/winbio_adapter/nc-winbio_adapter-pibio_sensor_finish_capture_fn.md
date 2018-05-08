@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: f9ede590-5208-40ed-ac62-604a2d13a5a6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_FINISH_CAPTURE_FN, SensorAdapterFinishCapture, SensorAdapterFinishCapture callback function [Windows Biometric Framework API], secbiomet.sensoradapterfinishcapture, winbio_adapter/SensorAdapterFinishCapture
+ms.keywords: PIBIO_SENSOR_FINISH_CAPTURE_FN, PIBIO_SENSOR_FINISH_CAPTURE_FN callback, SensorAdapterFinishCapture, SensorAdapterFinishCapture callback function [Windows Biometric Framework API], secbiomet.sensoradapterfinishcapture, winbio_adapter/SensorAdapterFinishCapture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_FINISH_CAPTURE_FN callback
+# PIBIO_SENSOR_FINISH_CAPTURE_FN callback function
 
 
 ## -description

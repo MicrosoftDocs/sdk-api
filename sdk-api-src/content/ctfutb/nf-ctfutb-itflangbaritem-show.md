@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.Show
-title: ITfLangBarItem::Show method
+title: ITfLangBarItem::Show
 author: windows-driver-content
 description: ITfLangBarItem::Show method
 old-location: tsf\itflangbaritem_show.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 3f5be2f4-e9de-4b03-9c37-651b1e572cf0
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarItem, ITfLangBarItem interface [Text Services Framework], Show method, ITfLangBarItem::Show, Show method [Text Services Framework], Show method [Text Services Framework], ITfLangBarItem interface, Show,ITfLangBarItem.Show, _tsf_itflangbaritem_show_ref, ctfutb/ITfLangBarItem::Show, tsf.itflangbaritem_show
+ms.keywords: ITfLangBarItem interface [Text Services Framework],Show method, ITfLangBarItem.Show, ITfLangBarItem::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfLangBarItem interface, _tsf_itflangbaritem_show_ref, ctfutb/ITfLangBarItem::Show, tsf.itflangbaritem_show
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItem::Show method
+# ITfLangBarItem::Show
 
 
 ## -description

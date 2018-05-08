@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Open
-title: IWMReader::Open method
+title: IWMReader::Open
 author: windows-driver-content
 description: The Open method opens an ASF file for reading.
 old-location: wmformat\iwmreader_open.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ab5b7f9e-b647-4121-abb3-2c9deb1f50cc
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReader, IWMReader interface [windows Media Format], Open method, IWMReader::Open, IWMReaderOpen, Open method [windows Media Format], Open method [windows Media Format], IWMReader interface, Open,IWMReader.Open, wmformat.iwmreader_open, wmsdkidl/IWMReader::Open
+ms.keywords: IWMReader interface [windows Media Format],Open method, IWMReader.Open, IWMReader::Open, IWMReaderOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMReader interface, wmformat.iwmreader_open, wmsdkidl/IWMReader::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReader::Open method
+# IWMReader::Open
 
 
 ## -description

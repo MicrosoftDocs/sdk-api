@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetAttachedSurface
-title: IDirectDrawSurface7::GetAttachedSurface method
+title: IDirectDrawSurface7::GetAttachedSurface
 author: windows-driver-content
 description: Obtains the attached surface that has the specified capabilities, and increments the reference count of the retrieved interface.
 old-location: directdraw\idirectdrawsurface7_getattachedsurface.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 0eae7e55-5ff7-41f6-ac6a-ce7fb6d809b9
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetAttachedSurface method [DirectDraw], GetAttachedSurface method [DirectDraw], IDirectDrawSurface7 interface, GetAttachedSurface,IDirectDrawSurface7.GetAttachedSurface, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], GetAttachedSurface method, IDirectDrawSurface7::GetAttachedSurface, ddraw/IDirectDrawSurface7::GetAttachedSurface, directdraw.idirectdrawsurface7_getattachedsurface
+ms.keywords: GetAttachedSurface, GetAttachedSurface method [DirectDraw], GetAttachedSurface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetAttachedSurface method, IDirectDrawSurface7.GetAttachedSurface, IDirectDrawSurface7::GetAttachedSurface, ddraw/IDirectDrawSurface7::GetAttachedSurface, directdraw.idirectdrawsurface7_getattachedsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::GetAttachedSurface method
+# IDirectDrawSurface7::GetAttachedSurface
 
 
 ## -description

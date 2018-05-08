@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_STT.GetProtocolVersion
-title: IATSC_STT::GetProtocolVersion method
+title: IATSC_STT::GetProtocolVersion
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_stt_getprotocolversion.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c735400d-9227-4f13-9703-ddafdf5772b0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies], IATSC_STT interface, GetProtocolVersion,IATSC_STT.GetProtocolVersion, IATSC_STT, IATSC_STT interface [Microsoft TV Technologies], GetProtocolVersion method, IATSC_STT::GetProtocolVersion, IATSC_STTGetProtocolVersion, atscpsipparser/IATSC_STT::GetProtocolVersion, mstv.iatsc_stt_getprotocolversion
+ms.keywords: GetProtocolVersion, GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetProtocolVersion method, IATSC_STT.GetProtocolVersion, IATSC_STT::GetProtocolVersion, IATSC_STTGetProtocolVersion, atscpsipparser/IATSC_STT::GetProtocolVersion, mstv.iatsc_stt_getprotocolversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_STT::GetProtocolVersion method
+# IATSC_STT::GetProtocolVersion
 
 
 ## -description

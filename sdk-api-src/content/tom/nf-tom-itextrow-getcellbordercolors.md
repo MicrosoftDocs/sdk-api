@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.GetCellBorderColors
-title: ITextRow::GetCellBorderColors method
+title: ITextRow::GetCellBorderColors
 author: windows-driver-content
 description: Gets the border colors of the active cell.
 old-location: controls\itextrow_getcellbordercolors.htm
 old-project: Controls
 ms.assetid: 2cc0a3b0-3988-4dff-9553-a86d37f4011f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetCellBorderColors method [Windows Controls], GetCellBorderColors method [Windows Controls], ITextRow interface, GetCellBorderColors,ITextRow.GetCellBorderColors, ITextRow, ITextRow interface [Windows Controls], GetCellBorderColors method, ITextRow::GetCellBorderColors, controls.itextrow_getcellbordercolors, tom/ITextRow::GetCellBorderColors
+ms.date: 4/27/2018
+ms.keywords: GetCellBorderColors, GetCellBorderColors method [Windows Controls], GetCellBorderColors method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellBorderColors method, ITextRow.GetCellBorderColors, ITextRow::GetCellBorderColors, controls.itextrow_getcellbordercolors, tom/ITextRow::GetCellBorderColors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::GetCellBorderColors method
+# ITextRow::GetCellBorderColors
 
 
 ## -description

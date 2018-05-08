@@ -68,6 +68,16 @@ The number of <a href="https://msdn.microsoft.com/df8c9ba2-e1c5-4011-bdbe-1d0476
  
 
 
+### -field pFields.size_is
+
+ 
+
+
+### -field pFields.size_is.dwNumberOfProperties
+
+ 
+
+
 ### -field pMethodProperty
 
 Pointer to the address of the first element in an array of <a href="https://msdn.microsoft.com/df8c9ba2-e1c5-4011-bdbe-1d04765d19cd">EAP_METHOD_PROPERTY</a> structures. The total number of elements is specified in <b>dwNumberOfProperties</b>.

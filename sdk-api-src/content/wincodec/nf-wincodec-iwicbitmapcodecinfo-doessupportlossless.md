@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.DoesSupportLossless
-title: IWICBitmapCodecInfo::DoesSupportLossless method
+title: IWICBitmapCodecInfo::DoesSupportLossless
 author: windows-driver-content
 description: Retrieves a value indicating whether the codec supports lossless formats.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportlossless.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 90a1f4cf-2641-4033-a369-ad6bf6fe5f43
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: DoesSupportLossless method [Windows Imaging Component], DoesSupportLossless method [Windows Imaging Component], IWICBitmapCodecInfo interface, DoesSupportLossless,IWICBitmapCodecInfo.DoesSupportLossless, IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], DoesSupportLossless method, IWICBitmapCodecInfo::DoesSupportLossless, _wic_codec_iwicbitmapcodecinfo_doessupportlossless, wic._wic_codec_iwicbitmapcodecinfo_doessupportlossless, wincodec/IWICBitmapCodecInfo::DoesSupportLossless
+ms.keywords: DoesSupportLossless, DoesSupportLossless method [Windows Imaging Component], DoesSupportLossless method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],DoesSupportLossless method, IWICBitmapCodecInfo.DoesSupportLossless, IWICBitmapCodecInfo::DoesSupportLossless, _wic_codec_iwicbitmapcodecinfo_doessupportlossless, wic._wic_codec_iwicbitmapcodecinfo_doessupportlossless, wincodec/IWICBitmapCodecInfo::DoesSupportLossless
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapCodecInfo::DoesSupportLossless method
+# IWICBitmapCodecInfo::DoesSupportLossless
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: SecMgmt
 ms.assetid: 81d34dff-3842-407b-8fd8-3b0a5a5f38f1
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: PSAM_PASSWORD_NOTIFICATION_ROUTINE, PasswordChangeNotify, PasswordChangeNotify callback function [Security], _pswd_passwordchangenotify, ntsecapi/PasswordChangeNotify, security.passwordchangenotify
+ms.keywords: PSAM_PASSWORD_NOTIFICATION_ROUTINE, PSAM_PASSWORD_NOTIFICATION_ROUTINE callback, PasswordChangeNotify, PasswordChangeNotify callback function [Security], _pswd_passwordchangenotify, ntsecapi/PasswordChangeNotify, security.passwordchangenotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PSAM_PASSWORD_NOTIFICATION_ROUTINE callback
+# PSAM_PASSWORD_NOTIFICATION_ROUTINE callback function
 
 
 ## -description

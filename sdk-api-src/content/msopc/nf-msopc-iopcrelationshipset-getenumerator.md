@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.GetEnumerator
-title: IOpcRelationshipSet::GetEnumerator method
+title: IOpcRelationshipSet::GetEnumerator
 author: windows-driver-content
 description: Gets an enumerator of IOpcRelationship interface pointers in the set.
 old-location: opc\iopcrelationshipset_getenumerator.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: bcffa20d-b86e-4bfe-9f67-7404d44acb03
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions], IOpcRelationshipSet interface, GetEnumerator,IOpcRelationshipSet.GetEnumerator, IOpcRelationshipSet, IOpcRelationshipSet interface [Open Packaging Conventions], GetEnumerator method, IOpcRelationshipSet::GetEnumerator, msopc/IOpcRelationshipSet::GetEnumerator, opc.iopcrelationshipset_getenumerator
+ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],GetEnumerator method, IOpcRelationshipSet.GetEnumerator, IOpcRelationshipSet::GetEnumerator, msopc/IOpcRelationshipSet::GetEnumerator, opc.iopcrelationshipset_getenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcRelationshipSet::GetEnumerator method
+# IOpcRelationshipSet::GetEnumerator
 
 
 ## -description

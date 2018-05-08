@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetLength
-title: IIsdbLogoTransmissionDescriptor::GetLength method
+title: IIsdbLogoTransmissionDescriptor::GetLength
 author: windows-driver-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor, in bytes.
 old-location: mstv\iisdblogotransmissiondescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9f3a29c1-44a4-4513-bab9-2cb77abe0419
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IIsdbLogoTransmissionDescriptor interface, GetLength,IIsdbLogoTransmissionDescriptor.GetLength, IIsdbLogoTransmissionDescriptor, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies], GetLength method, IIsdbLogoTransmissionDescriptor::GetLength, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLength, mstv.iisdblogotransmissiondescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbLogoTransmissionDescriptor.GetLength, IIsdbLogoTransmissionDescriptor::GetLength, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLength, mstv.iisdblogotransmissiondescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbLogoTransmissionDescriptor::GetLength method
+# IIsdbLogoTransmissionDescriptor::GetLength
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CachedSmallChange
-title: IUIAutomationRangeValuePattern::get_CachedSmallChange method
+title: IUIAutomationRangeValuePattern::get_CachedSmallChange
 author: windows-driver-content
 description: Retrieves, from the cache, the value that is added to or subtracted from the value of the control when a small change is made, such as when an arrow key is pressed.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedSmallChange.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 8d737eaa-eb4a-4d73-b515-876961423fd6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedSmallChange property [Windows Accessibility], CachedSmallChange property [Windows Accessibility], IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern, IUIAutomationRangeValuePattern interface [Windows Accessibility], CachedSmallChange property, IUIAutomationRangeValuePattern.CachedSmallChange, IUIAutomationRangeValuePattern::get_CachedSmallChange, get_CachedSmallChange,IUIAutomationRangeValuePattern.get_CachedSmallChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedSmallChange, uiauto_IUIAutomationRangeValuePattern_CachedSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::CachedSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedSmallChange, winauto.uiauto_IUIAutomationRangeValuePattern_CachedSmallChange
+ms.keywords: CachedSmallChange property [Windows Accessibility], CachedSmallChange property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedSmallChange property, IUIAutomationRangeValuePattern.CachedSmallChange, IUIAutomationRangeValuePattern.get_CachedSmallChange, IUIAutomationRangeValuePattern::CachedSmallChange, IUIAutomationRangeValuePattern::get_CachedSmallChange, get_CachedSmallChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedSmallChange, uiauto_IUIAutomationRangeValuePattern_CachedSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::CachedSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedSmallChange, winauto.uiauto_IUIAutomationRangeValuePattern_CachedSmallChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationRangeValuePattern::get_CachedSmallChange method
+# IUIAutomationRangeValuePattern::get_CachedSmallChange
 
 
 ## -description

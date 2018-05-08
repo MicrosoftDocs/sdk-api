@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_CallerId
-title: IFaxJobStatus::get_CallerId method
+title: IFaxJobStatus::get_CallerId
 author: windows-driver-content
 description: The CallerId property is a null-terminated string that identifies the calling device associated with the fax job.
 old-location: fax\_mfax_faxjobstatus_callerid_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7p9g.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service], FaxJobStatus object, FaxJobStatus object [Fax Service], CallerId property, IFaxJobStatus, IFaxJobStatus::get_CallerId, _mfax_faxjobstatus.callerid, fax._mfax_faxjobstatus_callerid, fax._mfax_faxjobstatus_callerid_vb, get_CallerId,IFaxJobStatus.get_CallerId
+ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],FaxJobStatus object, FaxJobStatus object [Fax Service],CallerId property, FaxJobStatus.CallerId, IFaxJobStatus.get_CallerId, IFaxJobStatus::get_CallerId, _mfax_faxjobstatus.callerid, fax._mfax_faxjobstatus_callerid, fax._mfax_faxjobstatus_callerid_vb, get_CallerId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxJobStatus::get_CallerId method
+# IFaxJobStatus::get_CallerId
 
 
 ## -description

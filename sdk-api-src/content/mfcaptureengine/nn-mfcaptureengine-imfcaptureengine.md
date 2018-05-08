@@ -7,8 +7,8 @@ old-location: mf\imfcaptureengine.htm
 old-project: medfound
 ms.assetid: 4A2A0536-4255-40AB-BCAB-228B09343583
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], IMFCaptureEngine interface [Media Foundation], described, mf.imfcaptureengine, mfcaptureengine/IMFCaptureEngine
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], IMFCaptureEngine interface [Media Foundation],described, mf.imfcaptureengine, mfcaptureengine/IMFCaptureEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

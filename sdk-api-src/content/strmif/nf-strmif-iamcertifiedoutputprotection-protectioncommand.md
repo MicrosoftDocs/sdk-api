@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMCertifiedOutputProtection.ProtectionCommand
-title: IAMCertifiedOutputProtection::ProtectionCommand method
+title: IAMCertifiedOutputProtection::ProtectionCommand
 author: windows-driver-content
 description: The ProtectionCommand method sends a COPP command to the graphics driver.
 old-location: dshow\iamcertifiedoutputprotection_protectioncommand.htm
 old-project: DirectShow
 ms.assetid: facf13b2-6650-4e81-97ba-eadacc514ef0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMCertifiedOutputProtection, IAMCertifiedOutputProtection interface [DirectShow], ProtectionCommand method, IAMCertifiedOutputProtection::ProtectionCommand, IAMCertifiedOutputProtectionProtectionCommand, ProtectionCommand method [DirectShow], ProtectionCommand method [DirectShow], IAMCertifiedOutputProtection interface, ProtectionCommand,IAMCertifiedOutputProtection.ProtectionCommand, dshow.iamcertifiedoutputprotection_protectioncommand, strmif/IAMCertifiedOutputProtection::ProtectionCommand
+ms.date: 4/30/2018
+ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],ProtectionCommand method, IAMCertifiedOutputProtection.ProtectionCommand, IAMCertifiedOutputProtection::ProtectionCommand, IAMCertifiedOutputProtectionProtectionCommand, ProtectionCommand, ProtectionCommand method [DirectShow], ProtectionCommand method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_protectioncommand, strmif/IAMCertifiedOutputProtection::ProtectionCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMCertifiedOutputProtection::ProtectionCommand method
+# IAMCertifiedOutputProtection::ProtectionCommand
 
 
 ## -description

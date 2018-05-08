@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.put_DisableGaplessAudio
-title: IRawCDImageCreator::put_DisableGaplessAudio method
+title: IRawCDImageCreator::put_DisableGaplessAudio
 author: windows-driver-content
 description: Sets the value that specifies if &#0034;Gapless Audio&#0034; recording is disabled. This property defaults to a value of VARIANT_FALSE, which disables the use of &#0034;gapless&#0034; recording between consecutive audio tracks.
 old-location: imapi\irawcdimagecreator_put_disablegaplessaudio.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: c9e17ed7-f51a-4b28-82db-36cad1aedd39
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], put_DisableGaplessAudio method, IRawCDImageCreator::put_DisableGaplessAudio, imapi.irawcdimagecreator_put_disablegaplessaudio, imapi2/IRawCDImageCreator::put_DisableGaplessAudio, put_DisableGaplessAudio method [IMAPI], put_DisableGaplessAudio method [IMAPI], IRawCDImageCreator interface, put_DisableGaplessAudio,IRawCDImageCreator.put_DisableGaplessAudio
+ms.keywords: IRawCDImageCreator interface [IMAPI],put_DisableGaplessAudio method, IRawCDImageCreator.put_DisableGaplessAudio, IRawCDImageCreator::put_DisableGaplessAudio, imapi.irawcdimagecreator_put_disablegaplessaudio, imapi2/IRawCDImageCreator::put_DisableGaplessAudio, put_DisableGaplessAudio, put_DisableGaplessAudio method [IMAPI], put_DisableGaplessAudio method [IMAPI],IRawCDImageCreator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRawCDImageCreator::put_DisableGaplessAudio method
+# IRawCDImageCreator::put_DisableGaplessAudio
 
 
 ## -description

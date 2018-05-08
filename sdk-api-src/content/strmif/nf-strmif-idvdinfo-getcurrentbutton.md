@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentButton
-title: IDvdInfo::GetCurrentButton method
+title: IDvdInfo::GetCurrentButton
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available buttons and the currently selected button number.
 old-location: dshow\idvdinfo_getcurrentbutton.htm
 old-project: DirectShow
 ms.assetid: 13df79ea-81c9-4060-8e11-ad7a24a7b5fa
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentButton method [DirectShow], GetCurrentButton method [DirectShow], IDvdInfo interface, GetCurrentButton,IDvdInfo.GetCurrentButton, IDvdInfo, IDvdInfo interface [DirectShow], GetCurrentButton method, IDvdInfo::GetCurrentButton, IDvdInfoGetCurrentButton, dshow.idvdinfo_getcurrentbutton, strmif/IDvdInfo::GetCurrentButton
+ms.date: 4/30/2018
+ms.keywords: GetCurrentButton, GetCurrentButton method [DirectShow], GetCurrentButton method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentButton method, IDvdInfo.GetCurrentButton, IDvdInfo::GetCurrentButton, IDvdInfoGetCurrentButton, dshow.idvdinfo_getcurrentbutton, strmif/IDvdInfo::GetCurrentButton
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetCurrentButton method
+# IDvdInfo::GetCurrentButton
 
 
 ## -description

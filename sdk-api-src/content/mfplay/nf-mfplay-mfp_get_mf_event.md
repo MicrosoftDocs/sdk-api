@@ -7,7 +7,7 @@ old-location: mf\mfp_get_mf_event.htm
 old-project: medfound
 ms.assetid: 478cc749-1073-4fca-bfc6-3e5d5b0deec4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MFP_GET_MF_EVENT, MFP_GET_MF_EVENT macro [Media Foundation], mf.mfp_get_mf_event, mfplay/MFP_GET_MF_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

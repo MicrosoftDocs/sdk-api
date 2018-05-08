@@ -67,14 +67,12 @@ Contains the version information about the miniversion that is created.
 ### -field TxfFileId
 
 
-
-#### LowPart
+### -field TxfFileId.LowPart
 
 The lower half of the TxfId of the file referenced by the handle used to call <a href="https://msdn.microsoft.com/129e682c-bc95-46d5-a0d3-adbadc7e6478">FSCTL_TXFS_GET_METADATA_INFO</a>. It is unique within a resource manager.
 
 
-
-#### HighPart
+### -field TxfFileId.HighPart
 
 The higher half of the TxfId of the file referenced by the handle used to call <a href="https://msdn.microsoft.com/129e682c-bc95-46d5-a0d3-adbadc7e6478">FSCTL_TXFS_GET_METADATA_INFO</a>. It is unique within a resource manager.
 

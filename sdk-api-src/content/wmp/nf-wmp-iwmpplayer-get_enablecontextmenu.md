@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_enableContextMenu
-title: IWMPPlayer::get_enableContextMenu method
+title: IWMPPlayer::get_enableContextMenu
 author: windows-driver-content
 description: The get_enableContextMenu method retrieves a value indicating whether to enable the context menu, which appears when the right mouse button is clicked.
 old-location: wmp\iwmpplayer_get_enablecontextmenu.htm
 old-project: WMP
 ms.assetid: 66769441-7923-45d2-b84f-24770537923c
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], get_enableContextMenu method, IWMPPlayer::get_enableContextMenu, IWMPPlayerget_enableContextMenu, get_enableContextMenu method [Windows Media Player], get_enableContextMenu method [Windows Media Player], IWMPPlayer interface, get_enableContextMenu,IWMPPlayer.get_enableContextMenu, wmp.iwmpplayer_get_enablecontextmenu, wmp/IWMPPlayer::get_enableContextMenu
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayer interface [Windows Media Player],get_enableContextMenu method, IWMPPlayer.get_enableContextMenu, IWMPPlayer::get_enableContextMenu, IWMPPlayerget_enableContextMenu, get_enableContextMenu, get_enableContextMenu method [Windows Media Player], get_enableContextMenu method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_enablecontextmenu, wmp/IWMPPlayer::get_enableContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayer::get_enableContextMenu method
+# IWMPPlayer::get_enableContextMenu
 
 
 ## -description

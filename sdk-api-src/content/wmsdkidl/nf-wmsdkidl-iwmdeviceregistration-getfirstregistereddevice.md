@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetFirstRegisteredDevice
-title: IWMDeviceRegistration::GetFirstRegisteredDevice method
+title: IWMDeviceRegistration::GetFirstRegisteredDevice
 author: windows-driver-content
 description: The GetFirstRegisteredDevice method retrieves information about the first device of a specified type that is in the device registration database.
 old-location: wmformat\iwmdeviceregistration_getfirstregistereddevice.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a11249f5-0604-4de7-9dd2-152d570183c3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetFirstRegisteredDevice method [windows Media Format], GetFirstRegisteredDevice method [windows Media Format], IWMDeviceRegistration interface, GetFirstRegisteredDevice,IWMDeviceRegistration.GetFirstRegisteredDevice, IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], GetFirstRegisteredDevice method, IWMDeviceRegistration::GetFirstRegisteredDevice, IWMDeviceRegistrationGetFirstRegisteredDevice, wmformat.iwmdeviceregistration_getfirstregistereddevice, wmsdkidl/IWMDeviceRegistration::GetFirstRegisteredDevice
+ms.keywords: GetFirstRegisteredDevice, GetFirstRegisteredDevice method [windows Media Format], GetFirstRegisteredDevice method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetFirstRegisteredDevice method, IWMDeviceRegistration.GetFirstRegisteredDevice, IWMDeviceRegistration::GetFirstRegisteredDevice, IWMDeviceRegistrationGetFirstRegisteredDevice, wmformat.iwmdeviceregistration_getfirstregistereddevice, wmsdkidl/IWMDeviceRegistration::GetFirstRegisteredDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDeviceRegistration::GetFirstRegisteredDevice method
+# IWMDeviceRegistration::GetFirstRegisteredDevice
 
 
 ## -description

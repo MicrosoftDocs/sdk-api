@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetLocatorData
-title: ITuneRequestInfo::GetLocatorData method
+title: ITuneRequestInfo::GetLocatorData
 author: windows-driver-content
 description: The GetLocatorData method fills in channel or program locator information for the specified tune request.
 old-location: mstv\itunerequestinfo_getlocatordata.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c325d61d-c99b-4033-bd16-36b74fc38d07
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLocatorData method [Microsoft TV Technologies], GetLocatorData method [Microsoft TV Technologies], ITuneRequestInfo interface, GetLocatorData,ITuneRequestInfo.GetLocatorData, ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technologies], GetLocatorData method, ITuneRequestInfo::GetLocatorData, ITuneRequestInfoGetLocatorData, bdatif/ITuneRequestInfo::GetLocatorData, mstv.itunerequestinfo_getlocatordata
+ms.keywords: GetLocatorData, GetLocatorData method [Microsoft TV Technologies], GetLocatorData method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetLocatorData method, ITuneRequestInfo.GetLocatorData, ITuneRequestInfo::GetLocatorData, ITuneRequestInfoGetLocatorData, bdatif/ITuneRequestInfo::GetLocatorData, mstv.itunerequestinfo_getlocatordata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITuneRequestInfo::GetLocatorData method
+# ITuneRequestInfo::GetLocatorData
 
 
 ## -description

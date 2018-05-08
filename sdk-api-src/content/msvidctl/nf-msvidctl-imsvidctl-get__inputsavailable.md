@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get__InputsAvailable
-title: IMSVidCtl::get__InputsAvailable method
+title: IMSVidCtl::get__InputsAvailable
 author: windows-driver-content
 description: The get__InputsAvailable method retrieves the input devices that are available in a specified category.
 old-location: mstv\imsvidctl_get__inputsavailable.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2d77eca3-aec9-423d-8d02-92e6f9ab5167
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], get__InputsAvailable method, IMSVidCtl::get__InputsAvailable, IMSVidCtlget__InputsAvailable, get__InputsAvailable method [Microsoft TV Technologies], get__InputsAvailable method [Microsoft TV Technologies], IMSVidCtl interface, get__InputsAvailable,IMSVidCtl.get__InputsAvailable, mstv.imsvidctl_get__inputsavailable, msvidctl/IMSVidCtl::get__InputsAvailable
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get__InputsAvailable method, IMSVidCtl.get__InputsAvailable, IMSVidCtl::get__InputsAvailable, IMSVidCtlget__InputsAvailable, get__InputsAvailable, get__InputsAvailable method [Microsoft TV Technologies], get__InputsAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get__inputsavailable, msvidctl/IMSVidCtl::get__InputsAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::get__InputsAvailable method
+# IMSVidCtl::get__InputsAvailable
 
 
 ## -description

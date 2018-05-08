@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrEnumItems.Reset
-title: ISyncMgrEnumItems::Reset method
+title: ISyncMgrEnumItems::Reset
 author: windows-driver-content
 description: Instructs the enumerator to position itself at the beginning of the list of elements.
 old-location: shell\syncmgr_isyncmgrenumitems_reset.htm
 old-project: shell
 ms.assetid: 91265648-1294-423d-8e09-6d14eb0b6d9e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrEnumItems, ISyncMgrEnumItems interface [Windows Shell], Reset method, ISyncMgrEnumItems::Reset, Reset method [Windows Shell], Reset method [Windows Shell], ISyncMgrEnumItems interface, Reset,ISyncMgrEnumItems.Reset, mobsync/ISyncMgrEnumItems::Reset, shell.syncmgr_isyncmgrenumitems_reset, syncmgr.isyncmgrenumitems_reset
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrEnumItems interface [Windows Shell],Reset method, ISyncMgrEnumItems.Reset, ISyncMgrEnumItems::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],ISyncMgrEnumItems interface, mobsync/ISyncMgrEnumItems::Reset, shell.syncmgr_isyncmgrenumitems_reset, syncmgr.isyncmgrenumitems_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrEnumItems::Reset method
+# ISyncMgrEnumItems::Reset
 
 
 ## -description

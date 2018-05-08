@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IPublishingWizard.GetTransferManifest
-title: IPublishingWizard::GetTransferManifest method
+title: IPublishingWizard::GetTransferManifest
 author: windows-driver-content
 description: Gets a transfer manifest for a file transfer operation performed by a publishing wizard, such as the Online Print Wizard or the Add Network Place Wizard.
 old-location: shell\IPublishingWizard_GetTransferManifest.htm
 old-project: shell
 ms.assetid: 1c595526-f810-4a33-82c3-785727153b16
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetTransferManifest method [Windows Shell], GetTransferManifest method [Windows Shell], IPublishingWizard interface, GetTransferManifest,IPublishingWizard.GetTransferManifest, IPublishingWizard, IPublishingWizard interface [Windows Shell], GetTransferManifest method, IPublishingWizard::GetTransferManifest, _shell_IPublishingWizard_GetTransferManifest, shell.IPublishingWizard_GetTransferManifest, shobjidl/IPublishingWizard::GetTransferManifest
+ms.date: 5/3/2018
+ms.keywords: GetTransferManifest, GetTransferManifest method [Windows Shell], GetTransferManifest method [Windows Shell],IPublishingWizard interface, IPublishingWizard interface [Windows Shell],GetTransferManifest method, IPublishingWizard.GetTransferManifest, IPublishingWizard::GetTransferManifest, _shell_IPublishingWizard_GetTransferManifest, shell.IPublishingWizard_GetTransferManifest, shobjidl/IPublishingWizard::GetTransferManifest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IPublishingWizard::GetTransferManifest method
+# IPublishingWizard::GetTransferManifest
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.UnAdviseWMPServices
-title: IWMPPlugin::UnAdviseWMPServices method
+title: IWMPPlugin::UnAdviseWMPServices
 author: windows-driver-content
 description: The IWMPPlugin::UnAdviseWMPServices method is used to release the pointer provided by AdviseWMPServices.
 old-location: wmp\iwmpplugin_unadvisewmpservices.htm
 old-project: WMP
 ms.assetid: 377a6853-94fb-4467-a893-508b56637a16
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlugin, IWMPPlugin interface [Windows Media Player], UnAdviseWMPServices method, IWMPPlugin::UnAdviseWMPServices, IWMPPluginUnAdviseWMPServicesDSP, UnAdviseWMPServices method [Windows Media Player], UnAdviseWMPServices method [Windows Media Player], IWMPPlugin interface, UnAdviseWMPServices,IWMPPlugin.UnAdviseWMPServices, wmp.iwmpplugin_unadvisewmpservices, wmpservices/IWMPPlugin::UnAdviseWMPServices
+ms.date: 5/4/2018
+ms.keywords: IWMPPlugin interface [Windows Media Player],UnAdviseWMPServices method, IWMPPlugin.UnAdviseWMPServices, IWMPPlugin::UnAdviseWMPServices, IWMPPluginUnAdviseWMPServicesDSP, UnAdviseWMPServices, UnAdviseWMPServices method [Windows Media Player], UnAdviseWMPServices method [Windows Media Player],IWMPPlugin interface, wmp.iwmpplugin_unadvisewmpservices, wmpservices/IWMPPlugin::UnAdviseWMPServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlugin::UnAdviseWMPServices method
+# IWMPPlugin::UnAdviseWMPServices
 
 
 ## -description

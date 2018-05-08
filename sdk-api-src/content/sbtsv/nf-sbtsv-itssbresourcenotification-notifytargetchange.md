@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifyTargetChange
-title: ITsSbResourceNotification::NotifyTargetChange method
+title: ITsSbResourceNotification::NotifyTargetChange
 author: windows-driver-content
 description: Notifies registered plug-ins about state changes in a target object.
 old-location: termserv\itssbresourcenotification_notifytargetchange.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: d075c7ae-fe86-4547-a980-2b82ea3498c6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourceNotification, ITsSbResourceNotification interface [Remote Desktop Services], NotifyTargetChange method, ITsSbResourceNotification::NotifyTargetChange, NotifyTargetChange method [Remote Desktop Services], NotifyTargetChange method [Remote Desktop Services], ITsSbResourceNotification interface, NotifyTargetChange,ITsSbResourceNotification.NotifyTargetChange, sbtsv/ITsSbResourceNotification::NotifyTargetChange, termserv.itssbresourcenotification_notifytargetchange
+ms.keywords: ITsSbResourceNotification interface [Remote Desktop Services],NotifyTargetChange method, ITsSbResourceNotification.NotifyTargetChange, ITsSbResourceNotification::NotifyTargetChange, NotifyTargetChange, NotifyTargetChange method [Remote Desktop Services], NotifyTargetChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifyTargetChange, termserv.itssbresourcenotification_notifytargetchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourceNotification::NotifyTargetChange method
+# ITsSbResourceNotification::NotifyTargetChange
 
 
 ## -description

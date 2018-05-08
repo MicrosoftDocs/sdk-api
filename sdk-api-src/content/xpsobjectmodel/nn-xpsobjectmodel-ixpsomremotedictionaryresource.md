@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: dd757856-f16e-46ad-b865-8203c3428372
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMRemoteDictionaryResource, IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging], described, xps.ixpsomremotedictionaryresource, xpsobjectmodel/IXpsOMRemoteDictionaryResource
+ms.keywords: IXpsOMRemoteDictionaryResource, IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],described, xps.ixpsomremotedictionaryresource, xpsobjectmodel/IXpsOMRemoteDictionaryResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

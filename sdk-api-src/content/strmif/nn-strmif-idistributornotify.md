@@ -7,8 +7,8 @@ old-location: dshow\idistributornotify.htm
 old-project: DirectShow
 ms.assetid: c7c9ee95-9d68-45c5-a3ca-8d6071782851
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDistributorNotify, IDistributorNotify interface [DirectShow], IDistributorNotify interface [DirectShow], described, IDistributorNotifyInterface, dshow.idistributornotify, strmif/IDistributorNotify
+ms.date: 4/30/2018
+ms.keywords: IDistributorNotify, IDistributorNotify interface [DirectShow], IDistributorNotify interface [DirectShow],described, IDistributorNotifyInterface, dshow.idistributornotify, strmif/IDistributorNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

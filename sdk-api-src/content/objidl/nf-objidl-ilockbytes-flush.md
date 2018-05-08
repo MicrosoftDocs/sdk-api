@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILockBytes.Flush
-title: ILockBytes::Flush method
+title: ILockBytes::Flush
 author: windows-driver-content
 description: The Flush method ensures that any internal buffers maintained by the ILockBytes implementation are written out to the underlying physical storage.
 old-location: stg\ilockbytes_flush.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 9396c44f-ad76-49f4-9796-d29570466a27
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: Flush method [Structured Storage], Flush method [Structured Storage], ILockBytes interface, Flush,ILockBytes.Flush, ILockBytes, ILockBytes interface [Structured Storage], Flush method, ILockBytes::Flush, _stg_ilockbytes_flush, objidl/ILockBytes::Flush, stg.ilockbytes_flush
+ms.keywords: Flush, Flush method [Structured Storage], Flush method [Structured Storage],ILockBytes interface, ILockBytes interface [Structured Storage],Flush method, ILockBytes.Flush, ILockBytes::Flush, _stg_ilockbytes_flush, objidl/ILockBytes::Flush, stg.ilockbytes_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ILockBytes::Flush method
+# ILockBytes::Flush
 
 
 ## -description

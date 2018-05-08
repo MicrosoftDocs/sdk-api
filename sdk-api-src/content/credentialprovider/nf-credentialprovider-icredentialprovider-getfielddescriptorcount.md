@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetFieldDescriptorCount
-title: ICredentialProvider::GetFieldDescriptorCount method
+title: ICredentialProvider::GetFieldDescriptorCount
 author: windows-driver-content
 description: Retrieves the count of fields in the needed to display this provider's credentials.
 old-location: shell\ICredentialProvider_GetFieldDescriptorCount.htm
 old-project: shell
 ms.assetid: dacaa846-1838-4348-ba63-c204cbe0e2ae
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetFieldDescriptorCount method [Windows Shell], GetFieldDescriptorCount method [Windows Shell], ICredentialProvider interface, GetFieldDescriptorCount,ICredentialProvider.GetFieldDescriptorCount, ICredentialProvider, ICredentialProvider interface [Windows Shell], GetFieldDescriptorCount method, ICredentialProvider::GetFieldDescriptorCount, credentialprovider/ICredentialProvider::GetFieldDescriptorCount, shell.ICredentialProvider_GetFieldDescriptorCount, shell_ICredentialProvider_GetFieldDescriptorCount
+ms.date: 5/3/2018
+ms.keywords: GetFieldDescriptorCount, GetFieldDescriptorCount method [Windows Shell], GetFieldDescriptorCount method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetFieldDescriptorCount method, ICredentialProvider.GetFieldDescriptorCount, ICredentialProvider::GetFieldDescriptorCount, credentialprovider/ICredentialProvider::GetFieldDescriptorCount, shell.ICredentialProvider_GetFieldDescriptorCount, shell_ICredentialProvider_GetFieldDescriptorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProvider::GetFieldDescriptorCount method
+# ICredentialProvider::GetFieldDescriptorCount
 
 
 ## -description

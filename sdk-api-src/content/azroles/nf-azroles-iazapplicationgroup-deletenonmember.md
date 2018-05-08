@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteNonMember
-title: IAzApplicationGroup::DeleteNonMember method
+title: IAzApplicationGroup::DeleteNonMember
 author: windows-driver-content
 description: Removes the specified security identifier (SID) in text form from the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_deletenonmember.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 05d58f62-fa34-4829-a535-65ea0f5144ab
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplicationGroup object [Security], DeleteNonMember method, DeleteNonMember method [Security], DeleteNonMember method [Security], AzApplicationGroup object, DeleteNonMember method [Security], IAzApplicationGroup interface, DeleteNonMember,IAzApplicationGroup.DeleteNonMember, IAzApplicationGroup, IAzApplicationGroup interface [Security], DeleteNonMember method, IAzApplicationGroup::DeleteNonMember, azroles/IAzApplicationGroup::DeleteNonMember, security.iazapplicationgroup_deletenonmember
+ms.keywords: AzApplicationGroup object [Security],DeleteNonMember method, DeleteNonMember, DeleteNonMember method [Security], DeleteNonMember method [Security],AzApplicationGroup object, DeleteNonMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteNonMember method, IAzApplicationGroup.DeleteNonMember, IAzApplicationGroup::DeleteNonMember, azroles/IAzApplicationGroup::DeleteNonMember, security.iazapplicationgroup_deletenonmember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplicationGroup::DeleteNonMember method
+# IAzApplicationGroup::DeleteNonMember
 
 
 ## -description

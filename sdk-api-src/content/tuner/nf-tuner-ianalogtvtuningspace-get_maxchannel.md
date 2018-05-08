@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.get_MaxChannel
-title: IAnalogTVTuningSpace::get_MaxChannel method
+title: IAnalogTVTuningSpace::get_MaxChannel
 author: windows-driver-content
 description: The get_MaxChannel method gets the highest channel number for this tuning space.
 old-location: mstv\ianalogtvtuningspace_get_maxchannel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e6ac3789-1989-4331-ad00-6720f4503bb7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAnalogTVTuningSpace, IAnalogTVTuningSpace interface [Microsoft TV Technologies], get_MaxChannel method, IAnalogTVTuningSpace::get_MaxChannel, IAnalogTVTuningSpaceget_MaxChannel, get_MaxChannel method [Microsoft TV Technologies], get_MaxChannel method [Microsoft TV Technologies], IAnalogTVTuningSpace interface, get_MaxChannel,IAnalogTVTuningSpace.get_MaxChannel, mstv.ianalogtvtuningspace_get_maxchannel, tuner/IAnalogTVTuningSpace::get_MaxChannel
+ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_MaxChannel method, IAnalogTVTuningSpace.get_MaxChannel, IAnalogTVTuningSpace::get_MaxChannel, IAnalogTVTuningSpaceget_MaxChannel, get_MaxChannel, get_MaxChannel method [Microsoft TV Technologies], get_MaxChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_maxchannel, tuner/IAnalogTVTuningSpace::get_MaxChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnalogTVTuningSpace::get_MaxChannel method
+# IAnalogTVTuningSpace::get_MaxChannel
 
 
 ## -description

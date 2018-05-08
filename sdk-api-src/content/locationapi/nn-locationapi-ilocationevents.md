@@ -8,7 +8,7 @@ old-project: LocationAPI
 ms.assetid: 5281ae0f-8599-4f84-a3f3-cde8c69e893d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ILocationEvents, ILocationEvents interface [WinLocation], ILocationEvents interface [WinLocation], described, locationapi/ILocationEvents, winlocation.ilocationevents
+ms.keywords: ILocationEvents, ILocationEvents interface [WinLocation], ILocationEvents interface [WinLocation],described, locationapi/ILocationEvents, winlocation.ilocationevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

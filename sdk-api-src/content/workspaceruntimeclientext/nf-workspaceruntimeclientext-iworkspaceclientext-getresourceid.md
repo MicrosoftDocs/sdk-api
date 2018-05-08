@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntimeclientext.IWorkspaceClientExt.GetResourceId
-title: IWorkspaceClientExt::GetResourceId method
+title: IWorkspaceClientExt::GetResourceId
 author: windows-driver-content
 description: Returns the ID of the custom client in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceclientext_getresourceid.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: c7a0c77c-0579-48dd-bc06-8ffe48358661
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetResourceId method [Remote Desktop Services], GetResourceId method [Remote Desktop Services], IWorkspaceClientExt interface, GetResourceId,IWorkspaceClientExt.GetResourceId, IWorkspaceClientExt, IWorkspaceClientExt interface [Remote Desktop Services], GetResourceId method, IWorkspaceClientExt::GetResourceId, termserv.iworkspaceclientext_getresourceid, workspaceruntimeclientext/IWorkspaceClientExt::GetResourceId
+ms.keywords: GetResourceId, GetResourceId method [Remote Desktop Services], GetResourceId method [Remote Desktop Services],IWorkspaceClientExt interface, IWorkspaceClientExt interface [Remote Desktop Services],GetResourceId method, IWorkspaceClientExt.GetResourceId, IWorkspaceClientExt::GetResourceId, termserv.iworkspaceclientext_getresourceid, workspaceruntimeclientext/IWorkspaceClientExt::GetResourceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWorkspaceClientExt::GetResourceId method
+# IWorkspaceClientExt::GetResourceId
 
 
 ## -description

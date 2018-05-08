@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfFunctionProvider.GetFunction
-title: ITfFunctionProvider::GetFunction method
+title: ITfFunctionProvider::GetFunction
 author: windows-driver-content
 description: ITfFunctionProvider::GetFunction method
 old-location: tsf\itffunctionprovider_getfunction.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a8ec629a-9ac6-4f25-82f2-42af6ce52ddc
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetFunction method [Text Services Framework], GetFunction method [Text Services Framework], ITfFunctionProvider interface, GetFunction,ITfFunctionProvider.GetFunction, ITfFunctionProvider, ITfFunctionProvider interface [Text Services Framework], GetFunction method, ITfFunctionProvider::GetFunction, _tsf_itffunctionprovider_getfunction_ref, msctf/ITfFunctionProvider::GetFunction, tsf.itffunctionprovider_getfunction
+ms.keywords: GetFunction, GetFunction method [Text Services Framework], GetFunction method [Text Services Framework],ITfFunctionProvider interface, ITfFunctionProvider interface [Text Services Framework],GetFunction method, ITfFunctionProvider.GetFunction, ITfFunctionProvider::GetFunction, _tsf_itffunctionprovider_getfunction_ref, msctf/ITfFunctionProvider::GetFunction, tsf.itffunctionprovider_getfunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfFunctionProvider::GetFunction method
+# ITfFunctionProvider::GetFunction
 
 
 ## -description

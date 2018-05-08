@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 1e666737-c5dc-4394-9f41-6e77832dd9f6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncFullEnumerationChange, ISyncFullEnumerationChange interface [Windows Sync], ISyncFullEnumerationChange interface [Windows Sync], described, winsync.isyncfullenumerationchange, winsync/ISyncFullEnumerationChange
+ms.keywords: ISyncFullEnumerationChange, ISyncFullEnumerationChange interface [Windows Sync], ISyncFullEnumerationChange interface [Windows Sync],described, winsync.isyncfullenumerationchange, winsync/ISyncFullEnumerationChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

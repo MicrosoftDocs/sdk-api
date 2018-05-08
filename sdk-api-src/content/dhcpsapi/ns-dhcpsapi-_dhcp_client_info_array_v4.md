@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_client_info_array_v4.htm
 old-project: DHCP
 ms.assetid: cda4bf44-0a4c-4825-ae3f-379ceae5aadb
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_ARRAY_V4, DHCP_CLIENT_INFO_ARRAY_V4, DHCP_CLIENT_INFO_ARRAY_V4 structure [DHCP], LPDHCP_CLIENT_INFO_ARRAY_V4, LPDHCP_CLIENT_INFO_ARRAY_V4 structure pointer [DHCP], _DHCP_CLIENT_INFO_ARRAY_V4, dhcp.dhcp_client_info_array_v4, dhcpsapi/LPDHCP_CLIENT_INFO_ARRAY_V4, dhcpsapi/_DHCP_CLIENT_INFO_ARRAY_V4"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Specifies the number of elements present in <b>Clients</b>.
 ### -field Clients
 
 Pointer to a list of <a href="https://msdn.microsoft.com/ac058d7a-7257-4e40-8fc0-bc4ca107671b">DHCP_CLIENT_INFO_V4</a> structures that contain information on specific DHCP subnet clients, including the dynamic address type (DHCP and/or BOOTP).
+
+
+### -field Clients.size_is
+
+ 
+
+
+### -field Clients.size_is.NumElements
+
+ 
+
+
 
 
 ## -see-also

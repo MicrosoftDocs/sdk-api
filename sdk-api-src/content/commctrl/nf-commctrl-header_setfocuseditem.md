@@ -7,7 +7,7 @@ old-location: controls\Header_SetFocusedItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setfocuseditem.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: Header_SetFocusedItem, Header_SetFocusedItem macro [Windows Controls], _shell_Header_SetFocusedItem, _shell_Header_SetFocusedItem_cpp, commctrl/Header_SetFocusedItem, controls.Header_SetFocusedItem, controls._shell_Header_SetFocusedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

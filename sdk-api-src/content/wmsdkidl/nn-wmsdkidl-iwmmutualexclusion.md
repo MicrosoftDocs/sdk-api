@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 040635fb-de00-4c8c-9c39-c28c409311c3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMMutualExclusion, IWMMutualExclusion interface [windows Media Format], IWMMutualExclusion interface [windows Media Format], described, IWMMutualExclusionInterface, wmformat.iwmmutualexclusion, wmsdkidl/IWMMutualExclusion
+ms.keywords: IWMMutualExclusion, IWMMutualExclusion interface [windows Media Format], IWMMutualExclusion interface [windows Media Format],described, IWMMutualExclusionInterface, wmformat.iwmmutualexclusion, wmsdkidl/IWMMutualExclusion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

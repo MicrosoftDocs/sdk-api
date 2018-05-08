@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.CreateSession
-title: ITAgent::CreateSession method
+title: ITAgent::CreateSession
 author: windows-driver-content
 description: The CreateSession method creates a new agent session for the input ACD group and address.
 old-location: tapi3\itagent_createsession.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 68cc2ffe-3c63-4723-8652-0e28da2b17b6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CreateSession method [TAPI 2.2], CreateSession method [TAPI 2.2], ITAgent interface, CreateSession,ITAgent.CreateSession, ITAgent, ITAgent interface [TAPI 2.2], CreateSession method, ITAgent::CreateSession, _tapi3_itagent_createsession, tapi3.itagent_createsession, tapi3cc/ITAgent::CreateSession
+ms.keywords: CreateSession, CreateSession method [TAPI 2.2], CreateSession method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],CreateSession method, ITAgent.CreateSession, ITAgent::CreateSession, _tapi3_itagent_createsession, tapi3.itagent_createsession, tapi3cc/ITAgent::CreateSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgent::CreateSession method
+# ITAgent::CreateSession
 
 
 ## -description

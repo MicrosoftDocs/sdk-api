@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.ShowPopup
-title: IWMPContentPartnerCallback::ShowPopup method
+title: IWMPContentPartnerCallback::ShowPopup
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_showpopup.htm
 old-project: WMP
 ms.assetid: 93b2938c-e3e7-4c9f-92b1-a0b37ed573e6
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], ShowPopup method, IWMPContentPartnerCallback::ShowPopup, IWMPContentPartnerCallbackShowPopup, ShowPopup method [Windows Media Player], ShowPopup method [Windows Media Player], IWMPContentPartnerCallback interface, ShowPopup,IWMPContentPartnerCallback.ShowPopup, contentpartner/IWMPContentPartnerCallback::ShowPopup, wmp.iwmpcontentpartnercallback_showpopup
+ms.date: 5/4/2018
+ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],ShowPopup method, IWMPContentPartnerCallback.ShowPopup, IWMPContentPartnerCallback::ShowPopup, IWMPContentPartnerCallbackShowPopup, ShowPopup, ShowPopup method [Windows Media Player], ShowPopup method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::ShowPopup, wmp.iwmpcontentpartnercallback_showpopup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartnerCallback::ShowPopup method
+# IWMPContentPartnerCallback::ShowPopup
 
 
 ## -description

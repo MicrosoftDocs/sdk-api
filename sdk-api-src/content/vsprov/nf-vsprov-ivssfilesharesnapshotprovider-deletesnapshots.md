@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.DeleteSnapshots
-title: IVssFileShareSnapshotProvider::DeleteSnapshots method
+title: IVssFileShareSnapshotProvider::DeleteSnapshots
 author: windows-driver-content
 description: Deletes specific snapshots, or all snapshots in a specified snapshot set.
 old-location: base\ivssfilesharesnapshotprovider_deletesnapshots.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 3fd48346-8a85-4ddf-9a6d-ac0cb82d4133
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: DeleteSnapshots method [VSS], DeleteSnapshots method [VSS], IVssFileShareSnapshotProvider interface, DeleteSnapshots,IVssFileShareSnapshotProvider.DeleteSnapshots, IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interface [VSS], DeleteSnapshots method, IVssFileShareSnapshotProvider::DeleteSnapshots, base.ivssfilesharesnapshotprovider_deletesnapshots, vsprov/IVssFileShareSnapshotProvider::DeleteSnapshots
+ms.keywords: DeleteSnapshots, DeleteSnapshots method [VSS], DeleteSnapshots method [VSS],IVssFileShareSnapshotProvider interface, IVssFileShareSnapshotProvider interface [VSS],DeleteSnapshots method, IVssFileShareSnapshotProvider.DeleteSnapshots, IVssFileShareSnapshotProvider::DeleteSnapshots, base.ivssfilesharesnapshotprovider_deletesnapshots, vsprov/IVssFileShareSnapshotProvider::DeleteSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssFileShareSnapshotProvider::DeleteSnapshots method
+# IVssFileShareSnapshotProvider::DeleteSnapshots
 
 
 ## -description

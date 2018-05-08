@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.getAllDevices
-title: IWindowsMediaLibrarySharingServices::getAllDevices method
+title: IWindowsMediaLibrarySharingServices::getAllDevices
 author: windows-driver-content
 description: The getAllDevices method retrieves an IWindowsMediaLibrarySharingDevices interface that represents all of the media-sharing client devices on the home network.
 old-location: wmlss\IWMLSSgetAllDevices.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: 38dd73b1-fff2-40d3-877f-9ed3c8dfca5b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], getAllDevices method, IWindowsMediaLibrarySharingServices::getAllDevices, getAllDevices method [Windows Media Library Sharing Services], getAllDevices method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, getAllDevices,IWindowsMediaLibrarySharingServices.getAllDevices, wmlss.IWMLSSgetAllDevices, wmlss/IWindowsMediaLibrarySharingServices::getAllDevices
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],getAllDevices method, IWindowsMediaLibrarySharingServices.getAllDevices, IWindowsMediaLibrarySharingServices::getAllDevices, getAllDevices, getAllDevices method [Windows Media Library Sharing Services], getAllDevices method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSgetAllDevices, wmlss/IWindowsMediaLibrarySharingServices::getAllDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::getAllDevices method
+# IWindowsMediaLibrarySharingServices::getAllDevices
 
 
 ## -description

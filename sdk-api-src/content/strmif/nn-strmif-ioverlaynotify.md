@@ -7,8 +7,8 @@ old-location: dshow\ioverlaynotify.htm
 old-project: DirectShow
 ms.assetid: 77dcee49-35ef-4664-b0e6-3044352d543c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IOverlayNotify, IOverlayNotify interface [DirectShow], IOverlayNotify interface [DirectShow], described, IOverlayNotifyInterface, dshow.ioverlaynotify, strmif/IOverlayNotify
+ms.date: 4/30/2018
+ms.keywords: IOverlayNotify, IOverlayNotify interface [DirectShow], IOverlayNotify interface [DirectShow],described, IOverlayNotifyInterface, dshow.ioverlaynotify, strmif/IOverlayNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

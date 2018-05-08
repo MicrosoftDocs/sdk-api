@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttributes.get_ItemByIndex
-title: ICryptAttributes::get_ItemByIndex method
+title: ICryptAttributes::get_ItemByIndex
 author: windows-driver-content
 description: Retrieves an ICryptAttribute object from the collection by index number.
 old-location: security\icryptattributes_itembyindex_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 327a41ee-60ed-44a0-bfd8-96b328b4fcb6
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICryptAttributes, ICryptAttributes interface [Security], ItemByIndex property, ICryptAttributes.ItemByIndex, ICryptAttributes::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security], ICryptAttributes interface, certenroll/ICryptAttributes::ItemByIndex, certenroll/ICryptAttributes::get_ItemByIndex, get_ItemByIndex,ICryptAttributes.get_ItemByIndex, security.icryptattributes_itembyindex_property
+ms.keywords: ICryptAttributes interface [Security],ItemByIndex property, ICryptAttributes.ItemByIndex, ICryptAttributes.get_ItemByIndex, ICryptAttributes::ItemByIndex, ICryptAttributes::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICryptAttributes interface, certenroll/ICryptAttributes::ItemByIndex, certenroll/ICryptAttributes::get_ItemByIndex, get_ItemByIndex, security.icryptattributes_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICryptAttributes::get_ItemByIndex method
+# ICryptAttributes::get_ItemByIndex
 
 
 ## -description

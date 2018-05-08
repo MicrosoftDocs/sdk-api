@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.get_FsiNamedStreams
-title: IFsiFileItem2::get_FsiNamedStreams method
+title: IFsiFileItem2::get_FsiNamedStreams
 author: windows-driver-content
 description: Retrieves a collection of named streams associated with a file in the file system image.
 old-location: imapi\ifsifileitem2_get_fsinamedstreams.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 011c6241-4989-41ca-9876-d6810797a382
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiFileItem2, IFsiFileItem2 interface [IMAPI], get_FsiNamedStreams method, IFsiFileItem2::get_FsiNamedStreams, get_FsiNamedStreams method [IMAPI], get_FsiNamedStreams method [IMAPI], IFsiFileItem2 interface, get_FsiNamedStreams,IFsiFileItem2.get_FsiNamedStreams, imapi.ifsifileitem2_get_fsinamedstreams, imapi2fs/IFsiFileItem2::get_FsiNamedStreams
+ms.keywords: IFsiFileItem2 interface [IMAPI],get_FsiNamedStreams method, IFsiFileItem2.get_FsiNamedStreams, IFsiFileItem2::get_FsiNamedStreams, get_FsiNamedStreams, get_FsiNamedStreams method [IMAPI], get_FsiNamedStreams method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_fsinamedstreams, imapi2fs/IFsiFileItem2::get_FsiNamedStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiFileItem2::get_FsiNamedStreams method
+# IFsiFileItem2::get_FsiNamedStreams
 
 
 ## -description

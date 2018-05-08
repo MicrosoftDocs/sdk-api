@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfUIElements.Next
-title: IEnumTfUIElements::Next method
+title: IEnumTfUIElements::Next
 author: windows-driver-content
 description: The IEnumTfUIElements::Next method obtains, from the current position, the specified number of elements in the enumeration sequence.
 old-location: tsf\ienumtfuielements_next.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: ed3cdae9-5626-4967-97b8-51c94ac23963
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfUIElements, IEnumTfUIElements interface [Text Services Framework], Next method, IEnumTfUIElements::Next, Next method [Text Services Framework], Next method [Text Services Framework], IEnumTfUIElements interface, Next,IEnumTfUIElements.Next, msctf/IEnumTfUIElements::Next, tsf.ienumtfuielements_next
+ms.keywords: IEnumTfUIElements interface [Text Services Framework],Next method, IEnumTfUIElements.Next, IEnumTfUIElements::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfUIElements interface, msctf/IEnumTfUIElements::Next, tsf.ienumtfuielements_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfUIElements::Next method
+# IEnumTfUIElements::Next
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.get_Left
-title: IMSVidRect::get_Left method
+title: IMSVidRect::get_Left
 author: windows-driver-content
 description: The get_Left method retrieves the left x-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_get_left.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9e64e560-033b-475a-a281-57af5f893e65
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], get_Left method, IMSVidRect::get_Left, IMSVidRectget_Left, get_Left method [Microsoft TV Technologies], get_Left method [Microsoft TV Technologies], IMSVidRect interface, get_Left,IMSVidRect.get_Left, mstv.imsvidrect_get_left, segment/IMSVidRect::get_Left
+ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Left method, IMSVidRect.get_Left, IMSVidRect::get_Left, IMSVidRectget_Left, get_Left, get_Left method [Microsoft TV Technologies], get_Left method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_left, segment/IMSVidRect::get_Left
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidRect::get_Left method
+# IMSVidRect::get_Left
 
 
 ## -description

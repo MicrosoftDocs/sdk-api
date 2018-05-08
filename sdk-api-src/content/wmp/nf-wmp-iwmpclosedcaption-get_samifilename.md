@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.get_SAMIFileName
-title: IWMPClosedCaption::get_SAMIFileName method
+title: IWMPClosedCaption::get_SAMIFileName
 author: windows-driver-content
 description: The get_SAMIFileName method retrieves the name of the file containing the information needed for closed captioning.
 old-location: wmp\iwmpclosedcaption_get_samifilename.htm
 old-project: WMP
 ms.assetid: 2f09df76-3bfc-48ce-881f-c905656ecbbf
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPClosedCaption, IWMPClosedCaption interface [Windows Media Player], get_SAMIFileName method, IWMPClosedCaption::get_SAMIFileName, IWMPClosedCaptionget_SAMIFileName, get_SAMIFileName method [Windows Media Player], get_SAMIFileName method [Windows Media Player], IWMPClosedCaption interface, get_SAMIFileName,IWMPClosedCaption.get_SAMIFileName, wmp.iwmpclosedcaption_get_samifilename, wmp/IWMPClosedCaption::get_SAMIFileName
+ms.date: 5/4/2018
+ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_SAMIFileName method, IWMPClosedCaption.get_SAMIFileName, IWMPClosedCaption::get_SAMIFileName, IWMPClosedCaptionget_SAMIFileName, get_SAMIFileName, get_SAMIFileName method [Windows Media Player], get_SAMIFileName method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_samifilename, wmp/IWMPClosedCaption::get_SAMIFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPClosedCaption::get_SAMIFileName method
+# IWMPClosedCaption::get_SAMIFileName
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 529beae6-ba39-417c-8fa6-7b97fc720352
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CreateStaticService, CreateStaticService callback function [RAS], PCREATE_STATIC_SERVICE, _mpr_createstaticservice, rras.createstaticservice, stm/CreateStaticService
+ms.keywords: CreateStaticService, CreateStaticService callback function [RAS], PCREATE_STATIC_SERVICE, PCREATE_STATIC_SERVICE callback, _mpr_createstaticservice, rras.createstaticservice, stm/CreateStaticService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# PCREATE_STATIC_SERVICE callback
+# PCREATE_STATIC_SERVICE callback function
 
 
 ## -description

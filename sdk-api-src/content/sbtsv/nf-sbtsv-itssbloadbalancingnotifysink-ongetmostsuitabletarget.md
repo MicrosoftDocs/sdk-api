@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget
-title: ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget method
+title: ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget
 author: windows-driver-content
 description: Returns a load-balancing result to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbloadbalancingnotifysink_ongetmostsuitabletarget.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 44e44c05-6bdf-4f02-acdb-b03a136d9a3a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbLoadBalancingNotifySink, ITsSbLoadBalancingNotifySink interface [Remote Desktop Services], OnGetMostSuitableTarget method, ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget, OnGetMostSuitableTarget method [Remote Desktop Services], OnGetMostSuitableTarget method [Remote Desktop Services], ITsSbLoadBalancingNotifySink interface, OnGetMostSuitableTarget,ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget, sbtsv/ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget, termserv.itssbloadbalancingnotifysink_ongetmostsuitabletarget
+ms.keywords: ITsSbLoadBalancingNotifySink interface [Remote Desktop Services],OnGetMostSuitableTarget method, ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget, ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget, OnGetMostSuitableTarget, OnGetMostSuitableTarget method [Remote Desktop Services], OnGetMostSuitableTarget method [Remote Desktop Services],ITsSbLoadBalancingNotifySink interface, sbtsv/ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget, termserv.itssbloadbalancingnotifysink_ongetmostsuitabletarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget method
+# ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushEmptyStorageFilter
-title: IDXGIInfoQueue::PushEmptyStorageFilter method
+title: IDXGIInfoQueue::PushEmptyStorageFilter
 author: windows-driver-content
 description: Pushes an empty storage filter onto the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushemptystoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: C0DC43B8-4869-49B0-A4D9-6907BCF1CB9E
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], PushEmptyStorageFilter method, IDXGIInfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter method [DXGI], PushEmptyStorageFilter method [DXGI], IDXGIInfoQueue interface, PushEmptyStorageFilter,IDXGIInfoQueue.PushEmptyStorageFilter, direct3ddxgi.idxgiinfoqueue_pushemptystoragefilter, dxgidebug/IDXGIInfoQueue::PushEmptyStorageFilter
+ms.keywords: IDXGIInfoQueue interface [DXGI],PushEmptyStorageFilter method, IDXGIInfoQueue.PushEmptyStorageFilter, IDXGIInfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter, PushEmptyStorageFilter method [DXGI], PushEmptyStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushemptystoragefilter, dxgidebug/IDXGIInfoQueue::PushEmptyStorageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::PushEmptyStorageFilter method
+# IDXGIInfoQueue::PushEmptyStorageFilter
 
 
 ## -description

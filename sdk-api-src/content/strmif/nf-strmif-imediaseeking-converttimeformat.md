@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSeeking.ConvertTimeFormat
-title: IMediaSeeking::ConvertTimeFormat method
+title: IMediaSeeking::ConvertTimeFormat
 author: windows-driver-content
 description: The ConvertTimeFormat method converts from one time format to another.
 old-location: dshow\imediaseeking_converttimeformat.htm
 old-project: DirectShow
 ms.assetid: 868ec03e-d4e5-4a1e-914a-6be8933f1c7c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ConvertTimeFormat method [DirectShow], ConvertTimeFormat method [DirectShow], IMediaSeeking interface, ConvertTimeFormat,IMediaSeeking.ConvertTimeFormat, IMediaSeeking, IMediaSeeking interface [DirectShow], ConvertTimeFormat method, IMediaSeeking::ConvertTimeFormat, IMediaSeekingConvertTimeFormat, dshow.imediaseeking_converttimeformat, strmif/IMediaSeeking::ConvertTimeFormat
+ms.date: 4/30/2018
+ms.keywords: ConvertTimeFormat, ConvertTimeFormat method [DirectShow], ConvertTimeFormat method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],ConvertTimeFormat method, IMediaSeeking.ConvertTimeFormat, IMediaSeeking::ConvertTimeFormat, IMediaSeekingConvertTimeFormat, dshow.imediaseeking_converttimeformat, strmif/IMediaSeeking::ConvertTimeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSeeking::ConvertTimeFormat method
+# IMediaSeeking::ConvertTimeFormat
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.EnumerateACDGroups
-title: ITAgentHandler::EnumerateACDGroups method
+title: ITAgentHandler::EnumerateACDGroups
 author: windows-driver-content
 description: The EnumerateACDGroups method enumerates ACD groups currently associated with the agent handler.
 old-location: tapi3\itagenthandler_enumerateacdgroups.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: a9078166-ff6a-4520-8209-e785bd6e7100
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: EnumerateACDGroups method [TAPI 2.2], EnumerateACDGroups method [TAPI 2.2], ITAgentHandler interface, EnumerateACDGroups,ITAgentHandler.EnumerateACDGroups, ITAgentHandler, ITAgentHandler interface [TAPI 2.2], EnumerateACDGroups method, ITAgentHandler::EnumerateACDGroups, _tapi3_itagenthandler_enumerateacdgroups, tapi3.itagenthandler_enumerateacdgroups, tapi3cc/ITAgentHandler::EnumerateACDGroups
+ms.keywords: EnumerateACDGroups, EnumerateACDGroups method [TAPI 2.2], EnumerateACDGroups method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],EnumerateACDGroups method, ITAgentHandler.EnumerateACDGroups, ITAgentHandler::EnumerateACDGroups, _tapi3_itagenthandler_enumerateacdgroups, tapi3.itagenthandler_enumerateacdgroups, tapi3cc/ITAgentHandler::EnumerateACDGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentHandler::EnumerateACDGroups method
+# ITAgentHandler::EnumerateACDGroups
 
 
 ## -description

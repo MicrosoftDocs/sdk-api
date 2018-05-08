@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentVideoAttributes
-title: IDvdInfo::GetCurrentVideoAttributes method
+title: IDvdInfo::GetCurrentVideoAttributes
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current video attributes for the current title or menu.
 old-location: dshow\idvdinfo_getcurrentvideoattributes.htm
 old-project: DirectShow
 ms.assetid: 7147d8f3-c038-4742-8667-2e40d7ab979a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentVideoAttributes method [DirectShow], GetCurrentVideoAttributes method [DirectShow], IDvdInfo interface, GetCurrentVideoAttributes,IDvdInfo.GetCurrentVideoAttributes, IDvdInfo, IDvdInfo interface [DirectShow], GetCurrentVideoAttributes method, IDvdInfo::GetCurrentVideoAttributes, IDvdInfoGetCurrentVideoAttributes, dshow.idvdinfo_getcurrentvideoattributes, strmif/IDvdInfo::GetCurrentVideoAttributes
+ms.date: 4/30/2018
+ms.keywords: GetCurrentVideoAttributes, GetCurrentVideoAttributes method [DirectShow], GetCurrentVideoAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentVideoAttributes method, IDvdInfo.GetCurrentVideoAttributes, IDvdInfo::GetCurrentVideoAttributes, IDvdInfoGetCurrentVideoAttributes, dshow.idvdinfo_getcurrentvideoattributes, strmif/IDvdInfo::GetCurrentVideoAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetCurrentVideoAttributes method
+# IDvdInfo::GetCurrentVideoAttributes
 
 
 ## -description

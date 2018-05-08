@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.Initialize
-title: IX509CertificateRequest::Initialize method
+title: IX509CertificateRequest::Initialize
 author: windows-driver-content
 description: Initializes the request object for a user or a computer.
 old-location: security\ix509certificaterequest_initialize_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: be0e2cda-5481-49ab-9a12-6dc52981fd24
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequest, IX509CertificateRequest interface [Security], Initialize method, IX509CertificateRequest::Initialize, Initialize method [Security], Initialize method [Security], IX509CertificateRequest interface, Initialize,IX509CertificateRequest.Initialize, certenroll/IX509CertificateRequest::Initialize, security.ix509certificaterequest_initialize_method
+ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequest interface [Security],Initialize method, IX509CertificateRequest.Initialize, IX509CertificateRequest::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::Initialize, security.ix509certificaterequest_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequest::Initialize method
+# IX509CertificateRequest::Initialize
 
 
 ## -description

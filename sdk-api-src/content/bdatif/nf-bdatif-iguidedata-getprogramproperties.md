@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideData.GetProgramProperties
-title: IGuideData::GetProgramProperties method
+title: IGuideData::GetProgramProperties
 author: windows-driver-content
 description: The GetProgramProperties method retrieves the properties for a specified program.
 old-location: mstv\iguidedata_getprogramproperties.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 57eb55bf-49d9-471e-b59c-0d87aa3c3e3c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetProgramProperties method [Microsoft TV Technologies], GetProgramProperties method [Microsoft TV Technologies], IGuideData interface, GetProgramProperties,IGuideData.GetProgramProperties, IGuideData, IGuideData interface [Microsoft TV Technologies], GetProgramProperties method, IGuideData::GetProgramProperties, IGuideDataGetProgramProperties, bdatif/IGuideData::GetProgramProperties, mstv.iguidedata_getprogramproperties
+ms.keywords: GetProgramProperties, GetProgramProperties method [Microsoft TV Technologies], GetProgramProperties method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetProgramProperties method, IGuideData.GetProgramProperties, IGuideData::GetProgramProperties, IGuideDataGetProgramProperties, bdatif/IGuideData::GetProgramProperties, mstv.iguidedata_getprogramproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGuideData::GetProgramProperties method
+# IGuideData::GetProgramProperties
 
 
 ## -description

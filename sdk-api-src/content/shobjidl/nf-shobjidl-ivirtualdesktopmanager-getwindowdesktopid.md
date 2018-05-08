@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IVirtualDesktopManager.GetWindowDesktopId
-title: IVirtualDesktopManager::GetWindowDesktopId method
+title: IVirtualDesktopManager::GetWindowDesktopId
 author: windows-driver-content
 description: Gets the identifier for the virtual desktop hosting the provided top-level window.
 old-location: shell\ivirtualdesktopmanager_getwindowdesktopid.htm
 old-project: shell
 ms.assetid: 1A53C70F-6034-449D-832E-A563886F20E4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetWindowDesktopId method [Windows Shell], GetWindowDesktopId method [Windows Shell], IVirtualDesktopManager interface, GetWindowDesktopId,IVirtualDesktopManager.GetWindowDesktopId, IVirtualDesktopManager, IVirtualDesktopManager interface [Windows Shell], GetWindowDesktopId method, IVirtualDesktopManager::GetWindowDesktopId, shell.ivirtualdesktopmanager_getwindowdesktopid, shobjidl/IVirtualDesktopManager::GetWindowDesktopId
+ms.date: 5/3/2018
+ms.keywords: GetWindowDesktopId, GetWindowDesktopId method [Windows Shell], GetWindowDesktopId method [Windows Shell],IVirtualDesktopManager interface, IVirtualDesktopManager interface [Windows Shell],GetWindowDesktopId method, IVirtualDesktopManager.GetWindowDesktopId, IVirtualDesktopManager::GetWindowDesktopId, shell.ivirtualdesktopmanager_getwindowdesktopid, shobjidl/IVirtualDesktopManager::GetWindowDesktopId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IVirtualDesktopManager::GetWindowDesktopId method
+# IVirtualDesktopManager::GetWindowDesktopId
 
 
 ## -description

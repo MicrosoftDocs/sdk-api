@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetScopeCount
-title: IWbemPath::GetScopeCount method
+title: IWbemPath::GetScopeCount
 author: windows-driver-content
 description: The IWbemPath::GetScopeCount method returns the number of scopes in the path.
 old-location: wmi\iwbempath_getscopecount.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 3e818a4d-0a38-44ce-9027-2a94b7c86bef
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetScopeCount method [Windows Management Instrumentation], GetScopeCount method [Windows Management Instrumentation], IWbemPath interface, GetScopeCount,IWbemPath.GetScopeCount, IWbemPath, IWbemPath interface [Windows Management Instrumentation], GetScopeCount method, IWbemPath::GetScopeCount, _hmm_iwbempath_getscopecount, wmi.iwbempath_getscopecount, wmiutils/IWbemPath::GetScopeCount
+ms.keywords: GetScopeCount, GetScopeCount method [Windows Management Instrumentation], GetScopeCount method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetScopeCount method, IWbemPath.GetScopeCount, IWbemPath::GetScopeCount, _hmm_iwbempath_getscopecount, wmi.iwbempath_getscopecount, wmiutils/IWbemPath::GetScopeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPath::GetScopeCount method
+# IWbemPath::GetScopeCount
 
 
 ## -description

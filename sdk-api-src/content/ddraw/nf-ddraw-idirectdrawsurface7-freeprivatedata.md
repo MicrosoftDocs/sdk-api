@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.FreePrivateData
-title: IDirectDrawSurface7::FreePrivateData method
+title: IDirectDrawSurface7::FreePrivateData
 author: windows-driver-content
 description: Frees the specified private data that is associated with this surface.
 old-location: directdraw\idirectdrawsurface7_freeprivatedata.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 66d3f701-735c-4dca-b7b6-47a17d63c23e
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: FreePrivateData method [DirectDraw], FreePrivateData method [DirectDraw], IDirectDrawSurface7 interface, FreePrivateData,IDirectDrawSurface7.FreePrivateData, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], FreePrivateData method, IDirectDrawSurface7::FreePrivateData, ddraw/IDirectDrawSurface7::FreePrivateData, directdraw.idirectdrawsurface7_freeprivatedata
+ms.keywords: FreePrivateData, FreePrivateData method [DirectDraw], FreePrivateData method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],FreePrivateData method, IDirectDrawSurface7.FreePrivateData, IDirectDrawSurface7::FreePrivateData, ddraw/IDirectDrawSurface7::FreePrivateData, directdraw.idirectdrawsurface7_freeprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::FreePrivateData method
+# IDirectDrawSurface7::FreePrivateData
 
 
 ## -description

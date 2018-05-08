@@ -1,14 +1,14 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.GetID
-title: IMFSpatialAudioObjectBuffer::GetID method
+title: IMFSpatialAudioObjectBuffer::GetID
 author: windows-driver-content
 description: Returns the unique, unsigned 32-bit ID of the spatial audio object represented by the buffer.
 old-location: mf\imfspatialaudioobjectbuffer_getid.htm
 old-project: medfound
 ms.assetid: 5BB0DEB2-B3B9-4723-973D-A9296D94DDE6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetID method [Media Foundation], GetID method [Media Foundation], IMFSpatialAudioObjectBuffer interface, GetID,IMFSpatialAudioObjectBuffer.GetID, IMFSpatialAudioObjectBuffer, IMFSpatialAudioObjectBuffer interface [Media Foundation], GetID method, IMFSpatialAudioObjectBuffer::GetID, mf.imfspatialaudioobjectbuffer_getid, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetID
+ms.date: 5/3/2018
+ms.keywords: GetID, GetID method [Media Foundation], GetID method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetID method, IMFSpatialAudioObjectBuffer.GetID, IMFSpatialAudioObjectBuffer::GetID, mf.imfspatialaudioobjectbuffer_getid, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSpatialAudioObjectBuffer::GetID method
+# IMFSpatialAudioObjectBuffer::GetID
 
 
 ## -description

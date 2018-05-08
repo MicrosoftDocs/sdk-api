@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.OnDataUnitEx
-title: IWMWriterFileSink3::OnDataUnitEx method
+title: IWMWriterFileSink3::OnDataUnitEx
 author: windows-driver-content
 description: The OnDataUnitEx method is called when the writer has finished sending a data unit.
 old-location: wmformat\iwmwriterfilesink3_ondataunitex.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 1dbcb27b-7588-4475-99fe-3e547d1659d3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], OnDataUnitEx method, IWMWriterFileSink3::OnDataUnitEx, IWMWriterFileSink3OnDataUnitEx, OnDataUnitEx method [windows Media Format], OnDataUnitEx method [windows Media Format], IWMWriterFileSink3 interface, OnDataUnitEx,IWMWriterFileSink3.OnDataUnitEx, wmformat.iwmwriterfilesink3_ondataunitex, wmsdkidl/IWMWriterFileSink3::OnDataUnitEx
+ms.keywords: IWMWriterFileSink3 interface [windows Media Format],OnDataUnitEx method, IWMWriterFileSink3.OnDataUnitEx, IWMWriterFileSink3::OnDataUnitEx, IWMWriterFileSink3OnDataUnitEx, OnDataUnitEx, OnDataUnitEx method [windows Media Format], OnDataUnitEx method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_ondataunitex, wmsdkidl/IWMWriterFileSink3::OnDataUnitEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterFileSink3::OnDataUnitEx method
+# IWMWriterFileSink3::OnDataUnitEx
 
 
 ## -description

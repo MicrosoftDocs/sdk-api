@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTVAudio.put_TVAudioMode
-title: IAMTVAudio::put_TVAudioMode method
+title: IAMTVAudio::put_TVAudioMode
 author: windows-driver-content
 description: The put_TVAudioMode method sets the current TV audio mode.
 old-location: dshow\iamtvaudio_put_tvaudiomode.htm
 old-project: DirectShow
 ms.assetid: 7efe43af-db07-4286-b0b7-6527403568f0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTVAudio, IAMTVAudio interface [DirectShow], put_TVAudioMode method, IAMTVAudio::put_TVAudioMode, IAMTVAudioput_TVAudioMode, dshow.iamtvaudio_put_tvaudiomode, put_TVAudioMode method [DirectShow], put_TVAudioMode method [DirectShow], IAMTVAudio interface, put_TVAudioMode,IAMTVAudio.put_TVAudioMode, strmif/IAMTVAudio::put_TVAudioMode
+ms.date: 4/30/2018
+ms.keywords: IAMTVAudio interface [DirectShow],put_TVAudioMode method, IAMTVAudio.put_TVAudioMode, IAMTVAudio::put_TVAudioMode, IAMTVAudioput_TVAudioMode, dshow.iamtvaudio_put_tvaudiomode, put_TVAudioMode, put_TVAudioMode method [DirectShow], put_TVAudioMode method [DirectShow],IAMTVAudio interface, strmif/IAMTVAudio::put_TVAudioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTVAudio::put_TVAudioMode method
+# IAMTVAudio::put_TVAudioMode
 
 
 ## -description

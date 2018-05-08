@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DCubeTexture9.AddDirtyRect
-title: IDirect3DCubeTexture9::AddDirtyRect method
+title: IDirect3DCubeTexture9::AddDirtyRect
 author: windows-driver-content
 description: Adds a dirty region to a cube texture resource.
 old-location: direct3d9\idirect3dcubetexture9__adddirtyrect.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9__adddirtyrect.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: AddDirtyRect method [Direct3D 9], AddDirtyRect method [Direct3D 9], IDirect3DCubeTexture9 interface, AddDirtyRect,IDirect3DCubeTexture9.AddDirtyRect, IDirect3DCubeTexture9, IDirect3DCubeTexture9 interface [Direct3D 9], AddDirtyRect method, IDirect3DCubeTexture9::AddDirtyRect, b0dc98c8-8a1a-85fb-09ae-35df9bd8edc0, d3d9helper/IDirect3DCubeTexture9::AddDirtyRect, direct3d9.idirect3dcubetexture9__adddirtyrect
+ms.keywords: AddDirtyRect, AddDirtyRect method [Direct3D 9], AddDirtyRect method [Direct3D 9],IDirect3DCubeTexture9 interface, IDirect3DCubeTexture9 interface [Direct3D 9],AddDirtyRect method, IDirect3DCubeTexture9.AddDirtyRect, IDirect3DCubeTexture9::AddDirtyRect, b0dc98c8-8a1a-85fb-09ae-35df9bd8edc0, d3d9helper/IDirect3DCubeTexture9::AddDirtyRect, direct3d9.idirect3dcubetexture9__adddirtyrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DCubeTexture9::AddDirtyRect method
+# IDirect3DCubeTexture9::AddDirtyRect
 
 
 ## -description

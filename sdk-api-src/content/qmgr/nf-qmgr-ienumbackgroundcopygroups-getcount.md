@@ -1,14 +1,14 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyGroups.GetCount
-title: IEnumBackgroundCopyGroups::GetCount method
+title: IEnumBackgroundCopyGroups::GetCount
 author: windows-driver-content
 description: Use the GetCount method to retrieve a count of the number of groups in the enumeration.
 old-location: bits\ienumbackgroundcopygroups_getcount.htm
 old-project: Bits
 ms.assetid: 70bbc495-f133-4703-a51a-1a1a180720f4
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetCount method [BITS], GetCount method [BITS], IEnumBackgroundCopyGroups interface, GetCount,IEnumBackgroundCopyGroups.GetCount, IEnumBackgroundCopyGroups, IEnumBackgroundCopyGroups interface [BITS], GetCount method, IEnumBackgroundCopyGroups::GetCount, bits.ienumbackgroundcopygroups_getcount, qmgr/IEnumBackgroundCopyGroups::GetCount
+ms.date: 4/27/2018
+ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyGroups interface, IEnumBackgroundCopyGroups interface [BITS],GetCount method, IEnumBackgroundCopyGroups.GetCount, IEnumBackgroundCopyGroups::GetCount, bits.ienumbackgroundcopygroups_getcount, qmgr/IEnumBackgroundCopyGroups::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumBackgroundCopyGroups::GetCount method
+# IEnumBackgroundCopyGroups::GetCount
 
 
 ## -description

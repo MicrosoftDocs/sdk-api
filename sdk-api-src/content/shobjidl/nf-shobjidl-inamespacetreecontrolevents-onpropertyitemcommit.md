@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnPropertyItemCommit
-title: INameSpaceTreeControlEvents::OnPropertyItemCommit method
+title: INameSpaceTreeControlEvents::OnPropertyItemCommit
 author: windows-driver-content
 description: Not implemented.
 old-location: shell\INameSpaceTreeControlEvents_OnPropertyItemCommit.htm
 old-project: shell
 ms.assetid: 85d0c2f1-b641-4437-90a4-285cfce62c60
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnPropertyItemCommit method, INameSpaceTreeControlEvents::OnPropertyItemCommit, OnPropertyItemCommit method [Windows Shell], OnPropertyItemCommit method [Windows Shell], INameSpaceTreeControlEvents interface, OnPropertyItemCommit,INameSpaceTreeControlEvents.OnPropertyItemCommit, _shell_INameSpaceTreeControlEvents_OnPropertyItemCommit, shell.INameSpaceTreeControlEvents_OnPropertyItemCommit, shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit
+ms.date: 5/3/2018
+ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnPropertyItemCommit method, INameSpaceTreeControlEvents.OnPropertyItemCommit, INameSpaceTreeControlEvents::OnPropertyItemCommit, OnPropertyItemCommit, OnPropertyItemCommit method [Windows Shell], OnPropertyItemCommit method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnPropertyItemCommit, shell.INameSpaceTreeControlEvents_OnPropertyItemCommit, shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeControlEvents::OnPropertyItemCommit method
+# INameSpaceTreeControlEvents::OnPropertyItemCommit
 
 
 ## -description

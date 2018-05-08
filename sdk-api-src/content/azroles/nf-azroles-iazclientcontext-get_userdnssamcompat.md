@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserDnsSamCompat
-title: IAzClientContext::get_UserDnsSamCompat method
+title: IAzClientContext::get_UserDnsSamCompat
 author: windows-driver-content
 description: Retrieves the name of the current client in a DNS format compatible with Windows&#160;Security&#160;Account&#160;Manager (SAM).
 old-location: security\iazclientcontext_userdnssamcompat.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 8f2739cd-3add-4a3c-9c00-8b23d2cec068
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzClientContext object [Security], UserDnsSamCompat property, IAzClientContext, IAzClientContext interface [Security], UserDnsSamCompat property, IAzClientContext.UserDnsSamCompat, IAzClientContext::get_UserDnsSamCompat, UserDnsSamCompat property [Security], UserDnsSamCompat property [Security], AzClientContext object, UserDnsSamCompat property [Security], IAzClientContext interface, azroles/IAzClientContext::UserDnsSamCompat, azroles/IAzClientContext::get_UserDnsSamCompat, get_UserDnsSamCompat,IAzClientContext.get_UserDnsSamCompat, security.iazclientcontext_userdnssamcompat
+ms.keywords: AzClientContext object [Security],UserDnsSamCompat property, IAzClientContext interface [Security],UserDnsSamCompat property, IAzClientContext.UserDnsSamCompat, IAzClientContext.get_UserDnsSamCompat, IAzClientContext::UserDnsSamCompat, IAzClientContext::get_UserDnsSamCompat, UserDnsSamCompat property [Security], UserDnsSamCompat property [Security],AzClientContext object, UserDnsSamCompat property [Security],IAzClientContext interface, azroles/IAzClientContext::UserDnsSamCompat, azroles/IAzClientContext::get_UserDnsSamCompat, get_UserDnsSamCompat, security.iazclientcontext_userdnssamcompat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzClientContext::get_UserDnsSamCompat method
+# IAzClientContext::get_UserDnsSamCompat
 
 
 ## -description

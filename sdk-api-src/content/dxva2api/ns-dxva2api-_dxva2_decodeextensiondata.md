@@ -7,7 +7,7 @@ old-location: mf\dxva2_decodeextensiondata.htm
 old-project: medfound
 ms.assetid: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358, DXVA2_DecodeExtensionData, DXVA2_DecodeExtensionData structure [Media Foundation], _DXVA2_DecodeExtensionData, dxva2api/DXVA2_DecodeExtensionData, mf.dxva2_decodeextensiondata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecStrings.GetDescription
-title: IWMCodecStrings::GetDescription method
+title: IWMCodecStrings::GetDescription
 author: windows-driver-content
 description: Retrieves the description of an output format.
 old-location: mf\iwmcodecstringsgetdescription.htm
 old-project: medfound
 ms.assetid: 79068e6c-bd16-45e4-a8af-6a03e0c5b528
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDescription method [Media Foundation], GetDescription method [Media Foundation], IWMCodecStrings interface, GetDescription,IWMCodecStrings.GetDescription, IWMCodecStrings, IWMCodecStrings interface [Media Foundation], GetDescription method, IWMCodecStrings::GetDescription, codecapi.iwmcodecstringsgetdescription, mf.iwmcodecstringsgetdescription, wmcodecdsp/ IWMCodecStrings::GetDescription
+ms.date: 5/3/2018
+ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetDescription method, IWMCodecStrings.GetDescription, IWMCodecStrings::GetDescription, codecapi.iwmcodecstringsgetdescription, mf.iwmcodecstringsgetdescription, wmcodecdsp/ IWMCodecStrings::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecStrings::GetDescription method
+# IWMCodecStrings::GetDescription
 
 
 ## -description

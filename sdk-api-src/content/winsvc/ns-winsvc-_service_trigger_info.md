@@ -65,9 +65,34 @@ The number of triggers in the array of <a href="https://msdn.microsoft.com/a57aa
 If this member is 0 in a <b>SERVICE_TRIGGER_INFO</b> structure passed to  <a href="https://msdn.microsoft.com/6e5b79ed-52e1-460e-b076-01afbd08775c">ChangeServiceConfig2</a>, all previously configured triggers are removed from the service. If the service has no triggers configured, <b>ChangeServiceConfig2</b>  fails with ERROR_INVALID_PARAMETER.
 
 
+### -field cTriggers.range
+
+ 
+
+
+### -field cTriggers.range.0
+
+ 
+
+
+### -field cTriggers.range.64
+
+ 
+
+
 ### -field pTriggers
 
 A pointer to an array of <a href="https://msdn.microsoft.com/a57aa702-40a2-4880-80db-6c4f43c3e7ea">SERVICE_TRIGGER</a> structures that specify the trigger events for the service. If the <b>cTriggers</b> member is 0, this member is not used.
+
+
+### -field pTriggers.size_is
+
+ 
+
+
+### -field pTriggers.size_is.cTriggers
+
+ 
 
 
 ### -field pReserved

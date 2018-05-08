@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Open
-title: IPortableDeviceService::Open method
+title: IPortableDeviceService::Open
 author: windows-driver-content
 description: Opens a connection to the service.
 old-location: wpdsdk\iportabledeviceservice_open.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 540d4320-42d4-48f0-8445-c74ff0dc1e1a
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], Open method, IPortableDeviceService::Open, Open method [Windows Portable Devices SDK], Open method [Windows Portable Devices SDK], IPortableDeviceService interface, Open,IPortableDeviceService.Open, portabledeviceapi/IPortableDeviceService::Open, wpdsdk.iportabledeviceservice_open
+ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Open method, IPortableDeviceService.Open, IPortableDeviceService::Open, Open, Open method [Windows Portable Devices SDK], Open method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Open, wpdsdk.iportabledeviceservice_open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceService::Open method
+# IPortableDeviceService::Open
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SOGetTargets
-title: ID3D11DeviceContext::SOGetTargets method
+title: ID3D11DeviceContext::SOGetTargets
 author: windows-driver-content
 description: Get the target output buffers for the stream-output stage of the pipeline.
 old-location: direct3d11\id3d11devicecontext_sogettargets.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 878402ed-0c89-42db-8210-d9a90b347226
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 90e06f28-a9a0-3b66-9901-3e60886b896d, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], SOGetTargets method, ID3D11DeviceContext::SOGetTargets, SOGetTargets method [Direct3D 11], SOGetTargets method [Direct3D 11], ID3D11DeviceContext interface, SOGetTargets,ID3D11DeviceContext.SOGetTargets, d3d11/ID3D11DeviceContext::SOGetTargets, direct3d11.id3d11devicecontext_sogettargets
+ms.keywords: 90e06f28-a9a0-3b66-9901-3e60886b896d, ID3D11DeviceContext interface [Direct3D 11],SOGetTargets method, ID3D11DeviceContext.SOGetTargets, ID3D11DeviceContext::SOGetTargets, SOGetTargets, SOGetTargets method [Direct3D 11], SOGetTargets method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::SOGetTargets, direct3d11.id3d11devicecontext_sogettargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::SOGetTargets method
+# ID3D11DeviceContext::SOGetTargets
 
 
 ## -description

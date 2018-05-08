@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IForegroundTransfer.AllowForegroundTransfer
-title: IForegroundTransfer::AllowForegroundTransfer method
+title: IForegroundTransfer::AllowForegroundTransfer
 author: windows-driver-content
 description: Yields the foreground window to the COM server process.
 old-location: com\iforegroundtransfer_allowforegroundtransfer.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 54d138f5-5f16-4eb8-bbac-2d057b7dab2f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: AllowForegroundTransfer method [COM], AllowForegroundTransfer method [COM], IForegroundTransfer interface, AllowForegroundTransfer,IForegroundTransfer.AllowForegroundTransfer, IForegroundTransfer, IForegroundTransfer interface [COM], AllowForegroundTransfer method, IForegroundTransfer::AllowForegroundTransfer, _com_iforegroundtransfer_allowforegroundtransfer, com.iforegroundtransfer_allowforegroundtransfer, objidl/IForegroundTransfer::AllowForegroundTransfer
+ms.keywords: AllowForegroundTransfer, AllowForegroundTransfer method [COM], AllowForegroundTransfer method [COM],IForegroundTransfer interface, IForegroundTransfer interface [COM],AllowForegroundTransfer method, IForegroundTransfer.AllowForegroundTransfer, IForegroundTransfer::AllowForegroundTransfer, _com_iforegroundtransfer_allowforegroundtransfer, com.iforegroundtransfer_allowforegroundtransfer, objidl/IForegroundTransfer::AllowForegroundTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IForegroundTransfer::AllowForegroundTransfer method
+# IForegroundTransfer::AllowForegroundTransfer
 
 
 ## -description

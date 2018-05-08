@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.SetFocus
-title: IRawElementProviderFragment::SetFocus method
+title: IRawElementProviderFragment::SetFocus
 author: windows-driver-content
 description: Sets the focus to this element.
 old-location: winauto\uiauto_IRawElementProviderFragment_SetFocus.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 343959bc-42d0-4289-b507-7da78cee28f2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IRawElementProviderFragment, IRawElementProviderFragment interface [Windows Accessibility], SetFocus method, IRawElementProviderFragment::SetFocus, SetFocus method [Windows Accessibility], SetFocus method [Windows Accessibility], IRawElementProviderFragment interface, SetFocus,IRawElementProviderFragment.SetFocus, uiauto.uiauto_IRawElementProviderFragment_SetFocus, uiauto_IRawElementProviderFragment_SetFocus, uiautomationcore/IRawElementProviderFragment::SetFocus, winauto.uiauto_IRawElementProviderFragment_SetFocus
+ms.keywords: IRawElementProviderFragment interface [Windows Accessibility],SetFocus method, IRawElementProviderFragment.SetFocus, IRawElementProviderFragment::SetFocus, SetFocus, SetFocus method [Windows Accessibility], SetFocus method [Windows Accessibility],IRawElementProviderFragment interface, uiauto.uiauto_IRawElementProviderFragment_SetFocus, uiauto_IRawElementProviderFragment_SetFocus, uiautomationcore/IRawElementProviderFragment::SetFocus, winauto.uiauto_IRawElementProviderFragment_SetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRawElementProviderFragment::SetFocus method
+# IRawElementProviderFragment::SetFocus
 
 
 ## -description

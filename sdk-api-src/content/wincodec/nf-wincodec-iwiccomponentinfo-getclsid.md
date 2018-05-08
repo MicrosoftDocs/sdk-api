@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetCLSID
-title: IWICComponentInfo::GetCLSID method
+title: IWICComponentInfo::GetCLSID
 author: windows-driver-content
 description: Retrieves the component's class identifier (CLSID)
 old-location: wic\_wic_codec_iwiccomponentinfo_getclsid.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 63814933-1366-47b9-8cf4-0d8685053a30
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetCLSID method [Windows Imaging Component], GetCLSID method [Windows Imaging Component], IWICComponentInfo interface, GetCLSID,IWICComponentInfo.GetCLSID, IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], GetCLSID method, IWICComponentInfo::GetCLSID, _wic_codec_iwiccomponentinfo_getclsid, wic._wic_codec_iwiccomponentinfo_getclsid, wincodec/IWICComponentInfo::GetCLSID
+ms.keywords: GetCLSID, GetCLSID method [Windows Imaging Component], GetCLSID method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetCLSID method, IWICComponentInfo.GetCLSID, IWICComponentInfo::GetCLSID, _wic_codec_iwiccomponentinfo_getclsid, wic._wic_codec_iwiccomponentinfo_getclsid, wincodec/IWICComponentInfo::GetCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICComponentInfo::GetCLSID method
+# IWICComponentInfo::GetCLSID
 
 
 ## -description

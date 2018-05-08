@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFContentProtectionManager.EndEnableContent
-title: IMFContentProtectionManager::EndEnableContent method
+title: IMFContentProtectionManager::EndEnableContent
 author: windows-driver-content
 description: Ends an asynchronous request to perform a content enabling action. This method is called by the protected media path (PMP) to complete an asynchronous call to IMFContentProtectionManager::BeginEnableContent.
 old-location: mf\imfcontentprotectionmanager_endenablecontent.htm
 old-project: medfound
 ms.assetid: 10893a0c-5476-4b7d-aad7-845a4ba70335
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 10893a0c-5476-4b7d-aad7-845a4ba70335, EndEnableContent method [Media Foundation], EndEnableContent method [Media Foundation], IMFContentProtectionManager interface, EndEnableContent,IMFContentProtectionManager.EndEnableContent, IMFContentProtectionManager, IMFContentProtectionManager interface [Media Foundation], EndEnableContent method, IMFContentProtectionManager::EndEnableContent, mf.imfcontentprotectionmanager_endenablecontent, mfidl/IMFContentProtectionManager::EndEnableContent
+ms.date: 5/3/2018
+ms.keywords: 10893a0c-5476-4b7d-aad7-845a4ba70335, EndEnableContent, EndEnableContent method [Media Foundation], EndEnableContent method [Media Foundation],IMFContentProtectionManager interface, IMFContentProtectionManager interface [Media Foundation],EndEnableContent method, IMFContentProtectionManager.EndEnableContent, IMFContentProtectionManager::EndEnableContent, mf.imfcontentprotectionmanager_endenablecontent, mfidl/IMFContentProtectionManager::EndEnableContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFContentProtectionManager::EndEnableContent method
+# IMFContentProtectionManager::EndEnableContent
 
 
 ## -description

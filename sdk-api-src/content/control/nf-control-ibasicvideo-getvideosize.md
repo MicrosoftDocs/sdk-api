@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicVideo.GetVideoSize
-title: IBasicVideo::GetVideoSize method
+title: IBasicVideo::GetVideoSize
 author: windows-driver-content
 description: The GetVideoSize method retrieves the native video dimensions.
 old-location: dshow\ibasicvideo_getvideosize.htm
 old-project: DirectShow
 ms.assetid: fbabba8b-b86b-451b-ad06-4454174ee352
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetVideoSize method [DirectShow], GetVideoSize method [DirectShow], IBasicVideo interface, GetVideoSize,IBasicVideo.GetVideoSize, IBasicVideo, IBasicVideo interface [DirectShow], GetVideoSize method, IBasicVideo::GetVideoSize, IBasicVideoGetVideoSize, control/IBasicVideo::GetVideoSize, dshow.ibasicvideo_getvideosize
+ms.date: 4/30/2018
+ms.keywords: GetVideoSize, GetVideoSize method [DirectShow], GetVideoSize method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetVideoSize method, IBasicVideo.GetVideoSize, IBasicVideo::GetVideoSize, IBasicVideoGetVideoSize, control/IBasicVideo::GetVideoSize, dshow.ibasicvideo_getvideosize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicVideo::GetVideoSize method
+# IBasicVideo::GetVideoSize
 
 
 ## -description

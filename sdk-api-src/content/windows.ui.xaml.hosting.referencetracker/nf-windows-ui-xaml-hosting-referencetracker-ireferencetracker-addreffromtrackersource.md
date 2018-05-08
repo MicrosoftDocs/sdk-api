@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.AddRefFromTrackerSource
-title: IReferenceTracker::AddRefFromTrackerSource method
+title: IReferenceTracker::xaml
 author: windows-driver-content
 description: Indicates each time that a tracker source calls IUnknown::AddRef on the reference tracker; called after the AddRef call.
 old-location: winrt\ireferencetracker_addreffromtrackersource.htm
 old-project: WinRT
 ms.assetid: ce2100df-c0d9-4225-9053-ecba08533a04
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: AddRefFromTrackerSource method [Windows Runtime], AddRefFromTrackerSource method [Windows Runtime], IReferenceTracker interface, AddRefFromTrackerSource,IReferenceTracker.AddRefFromTrackerSource, IReferenceTracker, IReferenceTracker interface [Windows Runtime], AddRefFromTrackerSource method, IReferenceTracker::AddRefFromTrackerSource, windows/IReferenceTracker::AddRefFromTrackerSource, winrt.ireferencetracker_addreffromtrackersource
+ms.date: 5/4/2018
+ms.keywords: AddRefFromTrackerSource, AddRefFromTrackerSource method [Windows Runtime], AddRefFromTrackerSource method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],AddRefFromTrackerSource method, IReferenceTracker.AddRefFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::AddRefFromTrackerSource, IReferenceTracker::xaml, windows/IReferenceTracker::AddRefFromTrackerSource, winrt.ireferencetracker_addreffromtrackersource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IReferenceTracker::AddRefFromTrackerSource method
+# IReferenceTracker::xaml
 
 
 ## -description

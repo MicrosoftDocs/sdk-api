@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.SetCallback
-title: IWMPContentPartner::SetCallback method
+title: IWMPContentPartner::SetCallback
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_setcallback.htm
 old-project: WMP
 ms.assetid: eb3b0c68-b071-476c-ab14-e4ee34bc9044
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], SetCallback method, IWMPContentPartner::SetCallback, IWMPContentPartnerSetCallback, SetCallback method [Windows Media Player], SetCallback method [Windows Media Player], IWMPContentPartner interface, SetCallback,IWMPContentPartner.SetCallback, contentpartner/IWMPContentPartner::SetCallback, wmp.iwmpcontentpartner_setcallback
+ms.date: 5/4/2018
+ms.keywords: IWMPContentPartner interface [Windows Media Player],SetCallback method, IWMPContentPartner.SetCallback, IWMPContentPartner::SetCallback, IWMPContentPartnerSetCallback, SetCallback, SetCallback method [Windows Media Player], SetCallback method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::SetCallback, wmp.iwmpcontentpartner_setcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::SetCallback method
+# IWMPContentPartner::SetCallback
 
 
 ## -description

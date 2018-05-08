@@ -7,7 +7,7 @@ old-location: rpc\rpcnsbindingimportdone.htm
 old-project: Rpc
 ms.assetid: 093c988a-5d88-45b5-b69a-f26962118fdb
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcNsBindingImportDone, RpcNsBindingImportDone function [RPC], _rpc_rpcnsbindingimportdone, rpc.rpcnsbindingimportdone, rpcnsi/RpcNsBindingImportDone
 ms.prod: windows-hardware
 ms.technology: windows-devices

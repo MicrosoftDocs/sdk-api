@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.SearchByAddress
-title: IWSDiscoveryProvider::SearchByAddress method
+title: IWSDiscoveryProvider::SearchByAddress
 author: windows-driver-content
 description: Initializes a search for WS-Discovery hosts by device address.
 old-location: ncd\iwsdiscoveryprovider_searchbyaddress.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 64493841-0715-4bae-a416-aca9945b2420
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryProvider, IWSDiscoveryProvider interface, SearchByAddress method, IWSDiscoveryProvider::SearchByAddress, SearchByAddress method, SearchByAddress method, IWSDiscoveryProvider interface, SearchByAddress,IWSDiscoveryProvider.SearchByAddress, ncd.iwsdiscoveryprovider_searchbyaddress, wsddisco/IWSDiscoveryProvider::SearchByAddress
+ms.keywords: IWSDiscoveryProvider interface,SearchByAddress method, IWSDiscoveryProvider.SearchByAddress, IWSDiscoveryProvider::SearchByAddress, SearchByAddress, SearchByAddress method, SearchByAddress method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbyaddress, wsddisco/IWSDiscoveryProvider::SearchByAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryProvider::SearchByAddress method
+# IWSDiscoveryProvider::SearchByAddress
 
 
 ## -description

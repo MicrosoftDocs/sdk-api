@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool
-title: IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool method
+title: IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool
 author: windows-driver-content
 description: Returns the maximum size of the LUN that can be created in the storage pool based on the specified LUN type and hints.
 old-location: base\ivdshwproviderstoragepools_querymaxluncreatesizeinstoragepool.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 37a802e2-4573-4f47-bf54-b2197034722d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsHwProviderStoragePools, IVdsHwProviderStoragePools interface, QueryMaxLunCreateSizeInStoragePool method, IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool, QueryMaxLunCreateSizeInStoragePool method, QueryMaxLunCreateSizeInStoragePool method, IVdsHwProviderStoragePools interface, QueryMaxLunCreateSizeInStoragePool,IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool, base.ivdshwproviderstoragepools_querymaxluncreatesizeinstoragepool, vds/IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool, vdshwprv/IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool
+ms.keywords: IVdsHwProviderStoragePools interface,QueryMaxLunCreateSizeInStoragePool method, IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool, IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool, QueryMaxLunCreateSizeInStoragePool, QueryMaxLunCreateSizeInStoragePool method, QueryMaxLunCreateSizeInStoragePool method,IVdsHwProviderStoragePools interface, base.ivdshwproviderstoragepools_querymaxluncreatesizeinstoragepool, vds/IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool, vdshwprv/IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool method
+# IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool
 
 
 ## -description

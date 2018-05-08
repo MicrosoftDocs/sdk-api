@@ -7,7 +7,7 @@ old-location: security\ncryptstreamopentoprotect.htm
 old-project: SecCNG
 ms.assetid: 7DE74BB1-1B84-4721-BE4A-4D2661E93E00
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptStreamOpenToProtect, NCryptStreamOpenToProtect function [Security], ncryptprotect/NCryptStreamOpenToProtect, security.ncryptstreamopentoprotect
 ms.prod: windows-hardware
 ms.technology: windows-devices

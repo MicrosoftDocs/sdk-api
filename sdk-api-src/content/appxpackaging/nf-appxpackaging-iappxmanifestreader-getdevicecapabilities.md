@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetDeviceCapabilities
-title: IAppxManifestReader::GetDeviceCapabilities method
+title: IAppxManifestReader::GetDeviceCapabilities
 author: windows-driver-content
 description: Gets an enumerator that iterates through the device capabilities defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getdevicecapabilities.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 06257DB1-992E-4A8D-8221-76DA3DF0FA1F
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDeviceCapabilities method [App packaging and management], GetDeviceCapabilities method [App packaging and management], IAppxManifestReader interface, GetDeviceCapabilities,IAppxManifestReader.GetDeviceCapabilities, IAppxManifestReader, IAppxManifestReader interface [App packaging and management], GetDeviceCapabilities method, IAppxManifestReader::GetDeviceCapabilities, appxpackaging/IAppxManifestReader::GetDeviceCapabilities, appxpkg.iappxmanifestreader_getdevicecapabilities
+ms.keywords: GetDeviceCapabilities, GetDeviceCapabilities method [App packaging and management], GetDeviceCapabilities method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetDeviceCapabilities method, IAppxManifestReader.GetDeviceCapabilities, IAppxManifestReader::GetDeviceCapabilities, appxpackaging/IAppxManifestReader::GetDeviceCapabilities, appxpkg.iappxmanifestreader_getdevicecapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestReader::GetDeviceCapabilities method
+# IAppxManifestReader::GetDeviceCapabilities
 
 
 ## -description

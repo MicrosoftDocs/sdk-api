@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdo.ResetProperty
-title: ISdo::ResetProperty method
+title: ISdo::ResetProperty
 author: windows-driver-content
 description: The ResetProperty method resets the specified property to its default value.
 old-location: nps\SDO_isdo_resetproperty.htm
@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: 650df0aa-6331-4a3f-b965-d48fd68fd31d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ISdo, ISdo interface [Network Policy Server], ResetProperty method, ISdo::ResetProperty, ResetProperty method [Network Policy Server], ResetProperty method [Network Policy Server], ISdo interface, ResetProperty,ISdo.ResetProperty, _sdo_isdo_resetproperty, nps.SDO_isdo_resetproperty, sdo.isdo_resetproperty, sdoias/ISdo::ResetProperty
+ms.keywords: ISdo interface [Network Policy Server],ResetProperty method, ISdo.ResetProperty, ISdo::ResetProperty, ResetProperty, ResetProperty method [Network Policy Server], ResetProperty method [Network Policy Server],ISdo interface, _sdo_isdo_resetproperty, nps.SDO_isdo_resetproperty, sdo.isdo_resetproperty, sdoias/ISdo::ResetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISdo::ResetProperty method
+# ISdo::ResetProperty
 
 
 ## -description

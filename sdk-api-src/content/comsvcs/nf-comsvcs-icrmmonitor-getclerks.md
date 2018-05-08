@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitor.GetClerks
-title: ICrmMonitor::GetClerks method
+title: ICrmMonitor::GetClerks
 author: windows-driver-content
 description: Retrieves a clerk collection object, which is a snapshot of the current state of the clerks.
 old-location: cos\icrmmonitor_getclerks.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: b5802d3b-1464-4ddf-b459-a308b699de96
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetClerks method [COM+], GetClerks method [COM+], ICrmMonitor interface, GetClerks,ICrmMonitor.GetClerks, ICrmMonitor, ICrmMonitor interface [COM+], GetClerks method, ICrmMonitor::GetClerks, _dtc_ICrmMonitor_GetClerks, comsvcs/ICrmMonitor::GetClerks, cos.icrmmonitor_getclerks
+ms.keywords: GetClerks, GetClerks method [COM+], GetClerks method [COM+],ICrmMonitor interface, ICrmMonitor interface [COM+],GetClerks method, ICrmMonitor.GetClerks, ICrmMonitor::GetClerks, _dtc_ICrmMonitor_GetClerks, comsvcs/ICrmMonitor::GetClerks, cos.icrmmonitor_getclerks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmMonitor::GetClerks method
+# ICrmMonitor::GetClerks
 
 
 ## -description

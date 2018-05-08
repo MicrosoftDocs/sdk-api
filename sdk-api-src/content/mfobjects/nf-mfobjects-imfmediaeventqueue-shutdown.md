@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.Shutdown
-title: IMFMediaEventQueue::Shutdown method
+title: IMFMediaEventQueue::Shutdown
 author: windows-driver-content
 description: Shuts down the event queue.
 old-location: mf\imfmediaeventqueue_shutdown.htm
 old-project: medfound
 ms.assetid: 6ec52973-0d90-463b-b2be-08d5d6fdcc05
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 6ec52973-0d90-463b-b2be-08d5d6fdcc05, IMFMediaEventQueue, IMFMediaEventQueue interface [Media Foundation], Shutdown method, IMFMediaEventQueue::Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation], IMFMediaEventQueue interface, Shutdown,IMFMediaEventQueue.Shutdown, mf.imfmediaeventqueue_shutdown, mfobjects/IMFMediaEventQueue::Shutdown
+ms.date: 5/3/2018
+ms.keywords: 6ec52973-0d90-463b-b2be-08d5d6fdcc05, IMFMediaEventQueue interface [Media Foundation],Shutdown method, IMFMediaEventQueue.Shutdown, IMFMediaEventQueue::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaEventQueue interface, mf.imfmediaeventqueue_shutdown, mfobjects/IMFMediaEventQueue::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEventQueue::Shutdown method
+# IMFMediaEventQueue::Shutdown
 
 
 ## -description

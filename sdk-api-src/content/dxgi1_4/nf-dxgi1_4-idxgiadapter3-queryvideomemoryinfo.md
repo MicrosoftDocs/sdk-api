@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.QueryVideoMemoryInfo
-title: IDXGIAdapter3::QueryVideoMemoryInfo method
+title: IDXGIAdapter3::QueryVideoMemoryInfo
 author: windows-driver-content
 description: This method informs the process of the current budget and process usage.
 old-location: direct3ddxgi\idxgiadapter3_queryvideomemoryinfo.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: A2F95FE5-CF8D-4F17-8CC8-62AAA40B71FC
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIAdapter3, IDXGIAdapter3 interface [DXGI], QueryVideoMemoryInfo method, IDXGIAdapter3::QueryVideoMemoryInfo, QueryVideoMemoryInfo method [DXGI], QueryVideoMemoryInfo method [DXGI], IDXGIAdapter3 interface, QueryVideoMemoryInfo,IDXGIAdapter3.QueryVideoMemoryInfo, direct3ddxgi.idxgiadapter3_queryvideomemoryinfo, dxgi1_4/IDXGIAdapter3::QueryVideoMemoryInfo
+ms.keywords: IDXGIAdapter3 interface [DXGI],QueryVideoMemoryInfo method, IDXGIAdapter3.QueryVideoMemoryInfo, IDXGIAdapter3::QueryVideoMemoryInfo, QueryVideoMemoryInfo, QueryVideoMemoryInfo method [DXGI], QueryVideoMemoryInfo method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_queryvideomemoryinfo, dxgi1_4/IDXGIAdapter3::QueryVideoMemoryInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIAdapter3::QueryVideoMemoryInfo method
+# IDXGIAdapter3::QueryVideoMemoryInfo
 
 
 ## -description

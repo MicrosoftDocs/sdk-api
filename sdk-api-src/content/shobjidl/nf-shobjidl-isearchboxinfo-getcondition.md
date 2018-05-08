@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.ISearchBoxInfo.GetCondition
-title: ISearchBoxInfo::GetCondition method
+title: ISearchBoxInfo::GetCondition
 author: windows-driver-content
 description: Retrieves the contents of the search box as an ICondition object.
 old-location: shell\ISearchBoxInfo_GetCondition.htm
 old-project: shell
 ms.assetid: 9a1159df-78ef-493b-8286-eefb0ac004ef
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCondition method [Windows Shell], GetCondition method [Windows Shell], ISearchBoxInfo interface, GetCondition,ISearchBoxInfo.GetCondition, ISearchBoxInfo, ISearchBoxInfo interface [Windows Shell], GetCondition method, ISearchBoxInfo::GetCondition, _shell_ISearchBoxInfo_GetCondition, shell.ISearchBoxInfo_GetCondition, shobjidl/ISearchBoxInfo::GetCondition
+ms.date: 5/3/2018
+ms.keywords: GetCondition, GetCondition method [Windows Shell], GetCondition method [Windows Shell],ISearchBoxInfo interface, ISearchBoxInfo interface [Windows Shell],GetCondition method, ISearchBoxInfo.GetCondition, ISearchBoxInfo::GetCondition, _shell_ISearchBoxInfo_GetCondition, shell.ISearchBoxInfo_GetCondition, shobjidl/ISearchBoxInfo::GetCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISearchBoxInfo::GetCondition method
+# ISearchBoxInfo::GetCondition
 
 
 ## -description

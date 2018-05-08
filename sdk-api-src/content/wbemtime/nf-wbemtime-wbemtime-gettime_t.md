@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.Gettime_t
-title: WBEMTime::Gettime_t method
+title: WBEMTime::Gettime_t
 author: windows-driver-content
 description: The Gettime_t method gets the time as an ANSI C run-time time_t variable.
 old-location: wmi\wbemtime_gettime_t.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 62e0faff-4e5a-4bc4-a9a7-a4edbaea9541
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?Gettime_t@WBEMTime@@QBEHPAJ@Z, Gettime_t method [Windows Management Instrumentation], Gettime_t method [Windows Management Instrumentation], WBEMTime interface, Gettime_t,WBEMTime.Gettime_t, WBEMTime, WBEMTime interface [Windows Management Instrumentation], Gettime_t method, WBEMTime::Gettime_t, _hmm_wbemtime_gettime_t, wbemtime/WBEMTime::Gettime_t, wmi.wbemtime_gettime_t"
+ms.keywords: "?Gettime_t@WBEMTime@@QBEHPAJ@Z, Gettime_t, Gettime_t method [Windows Management Instrumentation], Gettime_t method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],Gettime_t method, WBEMTime.Gettime_t, WBEMTime::Gettime_t, _hmm_wbemtime_gettime_t, wbemtime/WBEMTime::Gettime_t, wmi.wbemtime_gettime_t"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WBEMTime::Gettime_t method
+# WBEMTime::Gettime_t
 
 
 ## -description

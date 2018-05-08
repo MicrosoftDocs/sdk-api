@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetActiveView
-title: ITextStoreACP::GetActiveView method
+title: ITextStoreACP::GetActiveView
 author: windows-driver-content
 description: The ITextStoreACP::GetActiveView method returns a TsViewCookie data type that specifies the current active view.
 old-location: tsf\itextstoreacp_getactiveview.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 7739674e-9524-4530-900c-6e7facc3254f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework], ITextStoreACP interface, GetActiveView,ITextStoreACP.GetActiveView, ITextStoreACP, ITextStoreACP interface [Text Services Framework], GetActiveView method, ITextStoreACP::GetActiveView, _tsf_itextstoreacp_getactiveview_ref, textstor/ITextStoreACP::GetActiveView, tsf.itextstoreacp_getactiveview
+ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetActiveView method, ITextStoreACP.GetActiveView, ITextStoreACP::GetActiveView, _tsf_itextstoreacp_getactiveview_ref, textstor/ITextStoreACP::GetActiveView, tsf.itextstoreacp_getactiveview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP::GetActiveView method
+# ITextStoreACP::GetActiveView
 
 
 ## -description

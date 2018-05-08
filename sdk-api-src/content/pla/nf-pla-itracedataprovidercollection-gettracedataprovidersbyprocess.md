@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.GetTraceDataProvidersByProcess
-title: ITraceDataProviderCollection::GetTraceDataProvidersByProcess method
+title: ITraceDataProviderCollection::GetTraceDataProvidersByProcess
 author: windows-driver-content
 description: Populates the collection with the list of providers that have been registered by the specified process.
 old-location: pla\itracedataprovidercollection_gettracedataprovidersbyprocess.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: bc8b6aeb-7239-4bce-8616-62f87b84ae6c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTraceDataProvidersByProcess method [PLA], GetTraceDataProvidersByProcess method [PLA], ITraceDataProviderCollection interface, GetTraceDataProvidersByProcess,ITraceDataProviderCollection.GetTraceDataProvidersByProcess, ITraceDataProviderCollection, ITraceDataProviderCollection interface [PLA], GetTraceDataProvidersByProcess method, ITraceDataProviderCollection::GetTraceDataProvidersByProcess, pla.itracedataprovidercollection_gettracedataprovidersbyprocess, pla/ITraceDataProviderCollection::GetTraceDataProvidersByProcess
+ms.keywords: GetTraceDataProvidersByProcess, GetTraceDataProvidersByProcess method [PLA], GetTraceDataProvidersByProcess method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],GetTraceDataProvidersByProcess method, ITraceDataProviderCollection.GetTraceDataProvidersByProcess, ITraceDataProviderCollection::GetTraceDataProvidersByProcess, pla.itracedataprovidercollection_gettracedataprovidersbyprocess, pla/ITraceDataProviderCollection::GetTraceDataProvidersByProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataProviderCollection::GetTraceDataProvidersByProcess method
+# ITraceDataProviderCollection::GetTraceDataProvidersByProcess
 
 
 ## -description

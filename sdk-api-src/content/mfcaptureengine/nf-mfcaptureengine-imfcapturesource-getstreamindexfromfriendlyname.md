@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetStreamIndexFromFriendlyName
-title: IMFCaptureSource::GetStreamIndexFromFriendlyName method
+title: IMFCaptureSource::GetStreamIndexFromFriendlyName
 author: windows-driver-content
 description: Gets the actual device stream index translated from a friendly stream name.
 old-location: mf\imfcapturesource_getstreamindexfromfriendlyname.htm
 old-project: medfound
 ms.assetid: 38bc2ca8-29ff-4a23-9b78-693aaab6767f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamIndexFromFriendlyName method [Media Foundation], GetStreamIndexFromFriendlyName method [Media Foundation], IMFCaptureSource interface, GetStreamIndexFromFriendlyName,IMFCaptureSource.GetStreamIndexFromFriendlyName, IMFCaptureSource, IMFCaptureSource interface [Media Foundation], GetStreamIndexFromFriendlyName method, IMFCaptureSource::GetStreamIndexFromFriendlyName, mf.imfcapturesource_getstreamindexfromfriendlyname, mfcaptureengine/IMFCaptureSource::GetStreamIndexFromFriendlyName
+ms.date: 5/3/2018
+ms.keywords: GetStreamIndexFromFriendlyName, GetStreamIndexFromFriendlyName method [Media Foundation], GetStreamIndexFromFriendlyName method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetStreamIndexFromFriendlyName method, IMFCaptureSource.GetStreamIndexFromFriendlyName, IMFCaptureSource::GetStreamIndexFromFriendlyName, mf.imfcapturesource_getstreamindexfromfriendlyname, mfcaptureengine/IMFCaptureSource::GetStreamIndexFromFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureSource::GetStreamIndexFromFriendlyName method
+# IMFCaptureSource::GetStreamIndexFromFriendlyName
 
 
 ## -description

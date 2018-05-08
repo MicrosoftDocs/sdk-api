@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.Check
-title: ISpellChecker::Check method
+title: ISpellChecker::Check
 author: windows-driver-content
 description: Checks the spelling of the supplied text and returns a collection of spelling errors.
 old-location: intl\ispellchecker_check.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 687d7e2f-13b1-4871-8850-2b179a6ce786
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Check method [Internationalization for Windows Applications], Check method [Internationalization for Windows Applications], ISpellChecker interface, Check,ISpellChecker.Check, ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], Check method, ISpellChecker::Check, intl.ispellchecker_check, spellcheck/ISpellChecker::Check
+ms.keywords: Check, Check method [Internationalization for Windows Applications], Check method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],Check method, ISpellChecker.Check, ISpellChecker::Check, intl.ispellchecker_check, spellcheck/ISpellChecker::Check
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellChecker::Check method
+# ISpellChecker::Check
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: d90501dd-ca15-463c-b204-b1f56103ebe7
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbPlacement, ITsSbPlacement interface [Remote Desktop Services], ITsSbPlacement interface [Remote Desktop Services], described, sbtsv/ITsSbPlacement, termserv.itssbplacement
+ms.keywords: ITsSbPlacement, ITsSbPlacement interface [Remote Desktop Services], ITsSbPlacement interface [Remote Desktop Services],described, sbtsv/ITsSbPlacement, termserv.itssbplacement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

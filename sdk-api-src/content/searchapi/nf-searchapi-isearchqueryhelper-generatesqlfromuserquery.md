@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.GenerateSQLFromUserQuery
-title: ISearchQueryHelper::GenerateSQLFromUserQuery method
+title: ISearchQueryHelper::GenerateSQLFromUserQuery
 author: windows-driver-content
 description: Generates a Structured Query Language (SQL) query based on a client-supplied query string expressed in either Advanced Query Syntax (AQS) or Natural Query Syntax (NQS).
 old-location: search\_search_ISearchQueryHelper_GenerateSQLFromUserQuery.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\generatesqlfromuserquery.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GenerateSQLFromUserQuery method [search], GenerateSQLFromUserQuery method [search], ISearchQueryHelper interface, GenerateSQLFromUserQuery,ISearchQueryHelper.GenerateSQLFromUserQuery, ISearchQueryHelper, ISearchQueryHelper interface [search], GenerateSQLFromUserQuery method, ISearchQueryHelper::GenerateSQLFromUserQuery, _search_ISearchQueryHelper_GenerateSQLFromUserQuery, search._search_ISearchQueryHelper_GenerateSQLFromUserQuery, searchapi/ISearchQueryHelper::GenerateSQLFromUserQuery
+ms.date: 5/4/2018
+ms.keywords: GenerateSQLFromUserQuery, GenerateSQLFromUserQuery method [search], GenerateSQLFromUserQuery method [search],ISearchQueryHelper interface, ISearchQueryHelper interface [search],GenerateSQLFromUserQuery method, ISearchQueryHelper.GenerateSQLFromUserQuery, ISearchQueryHelper::GenerateSQLFromUserQuery, _search_ISearchQueryHelper_GenerateSQLFromUserQuery, search._search_ISearchQueryHelper_GenerateSQLFromUserQuery, searchapi/ISearchQueryHelper::GenerateSQLFromUserQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchQueryHelper::GenerateSQLFromUserQuery method
+# ISearchQueryHelper::GenerateSQLFromUserQuery
 
 
 ## -description

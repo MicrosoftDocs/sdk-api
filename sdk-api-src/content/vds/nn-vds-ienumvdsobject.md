@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 08379071-b3cc-495a-bc8e-ad6cfacd432c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IEnumVdsObject, IEnumVdsObject interface [VDS], IEnumVdsObject interface [VDS], described, base.ienumvdsobject, vds/IEnumVdsObject, vdshwprv/IEnumVdsObject
+ms.keywords: IEnumVdsObject, IEnumVdsObject interface [VDS], IEnumVdsObject interface [VDS],described, base.ienumvdsobject, vds/IEnumVdsObject, vdshwprv/IEnumVdsObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

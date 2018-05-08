@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetEndpointReference
-title: IWSDiscoveredService::GetEndpointReference method
+title: IWSDiscoveredService::GetEndpointReference
 author: windows-driver-content
 description: Retrieves a WS-Addressing address referencing an endpoint of the remote device.
 old-location: ncd\iwsdiscoveredservice_getendpointreference.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 656ff77d-765e-4c30-8e5d-560d121dc368
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetEndpointReference method, GetEndpointReference method, IWSDiscoveredService interface, GetEndpointReference,IWSDiscoveredService.GetEndpointReference, IWSDiscoveredService, IWSDiscoveredService interface, GetEndpointReference method, IWSDiscoveredService::GetEndpointReference, ncd.iwsdiscoveredservice_getendpointreference, wsddisco/IWSDiscoveredService::GetEndpointReference
+ms.keywords: GetEndpointReference, GetEndpointReference method, GetEndpointReference method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetEndpointReference method, IWSDiscoveredService.GetEndpointReference, IWSDiscoveredService::GetEndpointReference, ncd.iwsdiscoveredservice_getendpointreference, wsddisco/IWSDiscoveredService::GetEndpointReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveredService::GetEndpointReference method
+# IWSDiscoveredService::GetEndpointReference
 
 
 ## -description

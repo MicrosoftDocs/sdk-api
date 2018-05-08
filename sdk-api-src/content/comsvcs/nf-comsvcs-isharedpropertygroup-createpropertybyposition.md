@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroup.CreatePropertyByPosition
-title: ISharedPropertyGroup::CreatePropertyByPosition method
+title: ISharedPropertyGroup::CreatePropertyByPosition
 author: windows-driver-content
 description: Creates a new shared property with the specified index.
 old-location: cos\isharedpropertygroup_createpropertybyposition.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 47e0e230-0952-4afb-a757-af387a7cddfb
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreatePropertyByPosition method [COM+], CreatePropertyByPosition method [COM+], ISharedPropertyGroup interface, CreatePropertyByPosition,ISharedPropertyGroup.CreatePropertyByPosition, ISharedPropertyGroup, ISharedPropertyGroup interface [COM+], CreatePropertyByPosition method, ISharedPropertyGroup::CreatePropertyByPosition, _cos_ISharedPropertyGroup_CreatePropertyByPosition, comsvcs/ISharedPropertyGroup::CreatePropertyByPosition, cos.isharedpropertygroup_createpropertybyposition
+ms.keywords: CreatePropertyByPosition, CreatePropertyByPosition method [COM+], CreatePropertyByPosition method [COM+],ISharedPropertyGroup interface, ISharedPropertyGroup interface [COM+],CreatePropertyByPosition method, ISharedPropertyGroup.CreatePropertyByPosition, ISharedPropertyGroup::CreatePropertyByPosition, _cos_ISharedPropertyGroup_CreatePropertyByPosition, comsvcs/ISharedPropertyGroup::CreatePropertyByPosition, cos.isharedpropertygroup_createpropertybyposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISharedPropertyGroup::CreatePropertyByPosition method
+# ISharedPropertyGroup::CreatePropertyByPosition
 
 
 ## -description

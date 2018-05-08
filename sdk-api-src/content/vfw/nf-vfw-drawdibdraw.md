@@ -7,7 +7,7 @@ old-location: multimedia\drawdibdraw.htm
 old-project: Multimedia
 ms.assetid: b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: DrawDibDraw, DrawDibDraw function [Windows Multimedia], _win32_DrawDibDraw, multimedia.drawdibdraw, vfw/DrawDibDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

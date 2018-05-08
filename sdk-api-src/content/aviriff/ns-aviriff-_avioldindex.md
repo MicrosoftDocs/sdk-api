@@ -7,7 +7,7 @@ old-location: dshow\avioldindex.htm
 old-project: DirectShow
 ms.assetid: c36d5759-710e-4abe-85dc-13462013bb9f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: AVIIF_KEYFRAME, AVIIF_LIST, AVIIF_NO_TIME, AVIOLDINDEX, AVIOLDINDEX structure [DirectShow], AVIOLDINDEXStructure, _avioldindex, aviriff/AVIOLDINDEX, db, dc, dshow.avioldindex, pc, wb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,6 +71,26 @@ Specifies the size of the structure, not including the initial 8 bytes.
 
 
 ### -field _avioldindex_entry
+
+ 
+
+
+### -field _avioldindex_entry.dwChunkId
+
+ 
+
+
+### -field _avioldindex_entry.dwFlags
+
+ 
+
+
+### -field _avioldindex_entry.dwOffset
+
+ 
+
+
+### -field _avioldindex_entry.dwSize
 
  
 

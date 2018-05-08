@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfQueryEmbedded.QueryInsertEmbedded
-title: ITfQueryEmbedded::QueryInsertEmbedded method
+title: ITfQueryEmbedded::QueryInsertEmbedded
 author: windows-driver-content
 description: ITfQueryEmbedded::QueryInsertEmbedded method
 old-location: tsf\itfqueryembedded_queryinsertembedded.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 52f9465f-725e-493b-89ee-1b3db3cef696
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfQueryEmbedded, ITfQueryEmbedded interface [Text Services Framework], QueryInsertEmbedded method, ITfQueryEmbedded::QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework], ITfQueryEmbedded interface, QueryInsertEmbedded,ITfQueryEmbedded.QueryInsertEmbedded, _tsf_itfqueryembedded_queryinsertembedded_ref, msctf/ITfQueryEmbedded::QueryInsertEmbedded, tsf.itfqueryembedded_queryinsertembedded
+ms.keywords: ITfQueryEmbedded interface [Text Services Framework],QueryInsertEmbedded method, ITfQueryEmbedded.QueryInsertEmbedded, ITfQueryEmbedded::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITfQueryEmbedded interface, _tsf_itfqueryembedded_queryinsertembedded_ref, msctf/ITfQueryEmbedded::QueryInsertEmbedded, tsf.itfqueryembedded_queryinsertembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfQueryEmbedded::QueryInsertEmbedded method
+# ITfQueryEmbedded::QueryInsertEmbedded
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMethodsWithName
-title: IMetaDataImport::EnumMethodsWithName method
+title: IMetaDataImport::EnumMethodsWithName
 author: windows-driver-content
 description: Enumerates methods that have the specified name and that are defined by the type referenced by the specified TypeDef token.
 old-location: winrt\imetadataimport_enummethodswithname.htm
 old-project: WinRT
 ms.assetid: 5252b535-23e5-4af1-91df-006717c4e159
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumMethodsWithName method [Windows Runtime], EnumMethodsWithName method [Windows Runtime], IMetaDataImport interface, EnumMethodsWithName,IMetaDataImport.EnumMethodsWithName, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumMethodsWithName method, IMetaDataImport::EnumMethodsWithName, rometadataapi/IMetaDataImport::EnumMethodsWithName, winrt.imetadataimport_enummethodswithname
+ms.date: 5/4/2018
+ms.keywords: EnumMethodsWithName, EnumMethodsWithName method [Windows Runtime], EnumMethodsWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMethodsWithName method, IMetaDataImport.EnumMethodsWithName, IMetaDataImport::EnumMethodsWithName, rometadataapi/IMetaDataImport::EnumMethodsWithName, winrt.imetadataimport_enummethodswithname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumMethodsWithName method
+# IMetaDataImport::EnumMethodsWithName
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSettings.getMode
-title: IWMPSettings::getMode method
+title: IWMPSettings::getMode
 author: windows-driver-content
 description: The getMode method determines whether the loop mode or shuffle mode is active.
 old-location: wmp\iwmpsettings_getmode.htm
 old-project: WMP
 ms.assetid: 5275cb99-8007-4af2-9137-694de18c5434
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], getMode method, IWMPSettings::getMode, IWMPSettingsgetMode, getMode method [Windows Media Player], getMode method [Windows Media Player], IWMPSettings interface, getMode,IWMPSettings.getMode, wmp.iwmpsettings_getmode, wmp/IWMPSettings::getMode
+ms.date: 5/4/2018
+ms.keywords: IWMPSettings interface [Windows Media Player],getMode method, IWMPSettings.getMode, IWMPSettings::getMode, IWMPSettingsgetMode, getMode, getMode method [Windows Media Player], getMode method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_getmode, wmp/IWMPSettings::getMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSettings::getMode method
+# IWMPSettings::getMode
 
 
 ## -description

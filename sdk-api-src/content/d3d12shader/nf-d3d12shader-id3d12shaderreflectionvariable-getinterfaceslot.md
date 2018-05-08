@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionVariable.GetInterfaceSlot
-title: ID3D12ShaderReflectionVariable::GetInterfaceSlot method
+title: ID3D12ShaderReflectionVariable::GetInterfaceSlot
 author: windows-driver-content
 description: Gets the corresponding interface slot for a variable that represents an interface pointer.
 old-location: direct3d12\id3d12shaderreflectionvariable_getinterfaceslot.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 6CD169C7-0C6B-4EC8-BF57-96EE5065CC9D
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetInterfaceSlot method, GetInterfaceSlot method, ID3D12ShaderReflectionVariable interface, GetInterfaceSlot,ID3D12ShaderReflectionVariable.GetInterfaceSlot, ID3D12ShaderReflectionVariable, ID3D12ShaderReflectionVariable interface, GetInterfaceSlot method, ID3D12ShaderReflectionVariable::GetInterfaceSlot, d3d12shader/ID3D12ShaderReflectionVariable::GetInterfaceSlot, direct3d12.id3d12shaderreflectionvariable_getinterfaceslot
+ms.keywords: GetInterfaceSlot, GetInterfaceSlot method, GetInterfaceSlot method,ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface,GetInterfaceSlot method, ID3D12ShaderReflectionVariable.GetInterfaceSlot, ID3D12ShaderReflectionVariable::GetInterfaceSlot, d3d12shader/ID3D12ShaderReflectionVariable::GetInterfaceSlot, direct3d12.id3d12shaderreflectionvariable_getinterfaceslot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflectionVariable::GetInterfaceSlot method
+# ID3D12ShaderReflectionVariable::GetInterfaceSlot
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 4C63FF43-0170-4038-AB01-72441E1BB189
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], IFEDictionary interface [Internationalization for Windows Applications], described, intl.ifedictionary, msime/IFEDictionary
+ms.keywords: IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], IFEDictionary interface [Internationalization for Windows Applications],described, intl.ifedictionary, msime/IFEDictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 7011640e-87d0-4f2b-971c-9e86c77db13e
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_CREATE_CLUSTER_GROUP, PCLUSAPI_CREATE_CLUSTER_GROUP callback function [Failover Cluster], _wolf_createclustergroup, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP, mscs.createclustergroup
+ms.keywords: PCLUSAPI_CREATE_CLUSTER_GROUP, PCLUSAPI_CREATE_CLUSTER_GROUP callback, PCLUSAPI_CREATE_CLUSTER_GROUP callback function [Failover Cluster], _wolf_createclustergroup, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP, mscs.createclustergroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CREATE_CLUSTER_GROUP callback
+# PCLUSAPI_CREATE_CLUSTER_GROUP callback function
 
 
 ## -description

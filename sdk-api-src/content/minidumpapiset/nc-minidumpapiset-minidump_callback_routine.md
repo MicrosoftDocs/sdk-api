@@ -8,7 +8,7 @@ old-project: Debug
 ms.assetid: 8dc95b0a-6aee-4c38-ab25-a800153bbe91
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: MINIDUMP_CALLBACK_ROUTINE, MiniDumpCallback, MiniDumpCallback callback function, _win32_minidumpcallback, base.minidumpcallback, minidumpapiset/MiniDumpCallback
+ms.keywords: MINIDUMP_CALLBACK_ROUTINE, MiniDumpCallback, MiniDumpCallback callback, MiniDumpCallback callback function, _win32_minidumpcallback, base.minidumpcallback, minidumpapiset/MiniDumpCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# MINIDUMP_CALLBACK_ROUTINE callback
+# MINIDUMP_CALLBACK_ROUTINE callback function
 
 
 ## -description

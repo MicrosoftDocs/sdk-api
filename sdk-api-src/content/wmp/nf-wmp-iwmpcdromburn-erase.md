@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.erase
-title: IWMPCdromBurn::erase method
+title: IWMPCdromBurn::erase
 author: windows-driver-content
 description: The erase method erases the current CD.
 old-location: wmp\iwmpcdromburn_erase.htm
 old-project: WMP
 ms.assetid: 93a37f59-4269-4f84-93dc-8350aabd4ebe
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], erase method, IWMPCdromBurn::erase, IWMPCdromBurnerase, erase method [Windows Media Player], erase method [Windows Media Player], IWMPCdromBurn interface, erase,IWMPCdromBurn.erase, wmp.iwmpcdromburn_erase, wmp/IWMPCdromBurn::erase
+ms.date: 5/4/2018
+ms.keywords: IWMPCdromBurn interface [Windows Media Player],erase method, IWMPCdromBurn.erase, IWMPCdromBurn::erase, IWMPCdromBurnerase, erase, erase method [Windows Media Player], erase method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_erase, wmp/IWMPCdromBurn::erase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCdromBurn::erase method
+# IWMPCdromBurn::erase
 
 
 ## -description

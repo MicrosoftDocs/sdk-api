@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState
-title: IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState method
+title: IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState
 author: windows-driver-content
 description: The put_userHomeMediaSharingState method enables or disables sharing of the current user's media library on the home network.
 old-location: wmlss\IWMLSSput_userHomeMediaSharingState.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: d638da61-8196-4d46-ad98-fd7ab8a19e9b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], put_userHomeMediaSharingState method, IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState, put_userHomeMediaSharingState method [Windows Media Library Sharing Services], put_userHomeMediaSharingState method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, put_userHomeMediaSharingState,IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState, wmlss.IWMLSSput_userHomeMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_userHomeMediaSharingState method, IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState, IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState, put_userHomeMediaSharingState, put_userHomeMediaSharingState method [Windows Media Library Sharing Services], put_userHomeMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_userHomeMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState method
+# IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetProtocol
-title: IBackgroundCopyError::GetProtocol method
+title: IBackgroundCopyError::GetProtocol
 author: windows-driver-content
 description: Retrieves the protocol used to transfer the file. The remote file name identifies the protocol to use to transfer the file.
 old-location: bits\ibackgroundcopyerror_getprotocol.htm
 old-project: Bits
 ms.assetid: 94c1fcc8-7132-41db-9a1c-cbe105e3b0bb
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetProtocol method [BITS], GetProtocol method [BITS], IBackgroundCopyError interface, GetProtocol,IBackgroundCopyError.GetProtocol, IBackgroundCopyError, IBackgroundCopyError interface [BITS], GetProtocol method, IBackgroundCopyError::GetProtocol, _drz_ibackgroundcopyerror_getprotocol, bits.ibackgroundcopyerror_getprotocol, bits/IBackgroundCopyError::GetProtocol
+ms.date: 4/27/2018
+ms.keywords: GetProtocol, GetProtocol method [BITS], GetProtocol method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetProtocol method, IBackgroundCopyError.GetProtocol, IBackgroundCopyError::GetProtocol, _drz_ibackgroundcopyerror_getprotocol, bits.ibackgroundcopyerror_getprotocol, bits/IBackgroundCopyError::GetProtocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyError::GetProtocol method
+# IBackgroundCopyError::GetProtocol
 
 
 ## -description

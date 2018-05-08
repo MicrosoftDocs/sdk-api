@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetMarker
-title: IWMHeaderInfo::GetMarker method
+title: IWMHeaderInfo::GetMarker
 author: windows-driver-content
 description: The GetMarker method returns the name and time of a marker.
 old-location: wmformat\iwmheaderinfo_getmarker.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ae035991-86c8-4ffc-b819-5a5ce81a980f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetMarker method [windows Media Format], GetMarker method [windows Media Format], IWMHeaderInfo interface, GetMarker method [windows Media Format], IWMHeaderInfo2 interface, GetMarker method [windows Media Format], IWMHeaderInfo3 interface, GetMarker,IWMHeaderInfo.GetMarker, IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], GetMarker method, IWMHeaderInfo2 interface [windows Media Format], GetMarker method, IWMHeaderInfo2::GetMarker, IWMHeaderInfo3 interface [windows Media Format], GetMarker method, IWMHeaderInfo3::GetMarker, IWMHeaderInfo::GetMarker, IWMHeaderInfoGetMarker, wmformat.iwmheaderinfo_getmarker, wmsdkidl/IWMHeaderInfo2::GetMarker, wmsdkidl/IWMHeaderInfo3::GetMarker, wmsdkidl/IWMHeaderInfo::GetMarker
+ms.keywords: GetMarker, GetMarker method [windows Media Format], GetMarker method [windows Media Format],IWMHeaderInfo interface, GetMarker method [windows Media Format],IWMHeaderInfo2 interface, GetMarker method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetMarker method, IWMHeaderInfo.GetMarker, IWMHeaderInfo2 interface [windows Media Format],GetMarker method, IWMHeaderInfo2::GetMarker, IWMHeaderInfo3 interface [windows Media Format],GetMarker method, IWMHeaderInfo3::GetMarker, IWMHeaderInfo::GetMarker, IWMHeaderInfoGetMarker, wmformat.iwmheaderinfo_getmarker, wmsdkidl/IWMHeaderInfo2::GetMarker, wmsdkidl/IWMHeaderInfo3::GetMarker, wmsdkidl/IWMHeaderInfo::GetMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMHeaderInfo::GetMarker method
+# IWMHeaderInfo::GetMarker
 
 
 ## -description

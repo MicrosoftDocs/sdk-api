@@ -68,6 +68,18 @@ Size of  <b>pbData</b>, in bytes. It is possible for this value to be set to zer
 Pointer to a buffer.
 
 
+### -field pbData.size_is
+
+ 
+
+
+### -field pbData.size_is.cbData
+
+ 
+
+
+
+
 ## -see-also
 
 

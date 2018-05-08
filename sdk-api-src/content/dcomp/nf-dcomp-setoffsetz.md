@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 1467F8A8-15CF-4B3E-8816-76F2F5BFB68B
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetOffsetZ, SetOffsetZ methods [DirectComposition], dcomp/SetOffsetZ, directcomp.idcompositiontranslatetransform3d_setoffsetz_overloaded
+ms.keywords: IDCompositionTranslateTransform3D::SetOffsetZ, SetOffsetZ, SetOffsetZ methods [DirectComposition], dcomp/SetOffsetZ, directcomp.idcompositiontranslatetransform3d_setoffsetz_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

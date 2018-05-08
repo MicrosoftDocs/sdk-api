@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_DisallowStartIfOnBatteries
-title: ITaskSettings::put_DisallowStartIfOnBatteries method
+title: ITaskSettings::put_DisallowStartIfOnBatteries
 author: windows-driver-content
 description: Gets or sets a Boolean value that indicates that the task will not be started if the computer is running on batteries.
 old-location: taskschd\itasksettings_disallowstartifonbatteries.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 8f80bc2a-8b7d-4771-b773-55b8f50a4126
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DisallowStartIfOnBatteries property [Task Scheduler], DisallowStartIfOnBatteries property [Task Scheduler], ITaskSettings interface, ITaskSettings, ITaskSettings interface [Task Scheduler], DisallowStartIfOnBatteries property, ITaskSettings.DisallowStartIfOnBatteries, ITaskSettings::get_DisallowStartIfOnBatteries, ITaskSettings::put_DisallowStartIfOnBatteries, put_DisallowStartIfOnBatteries,ITaskSettings.put_DisallowStartIfOnBatteries, taskschd.itasksettings_disallowstartifonbatteries, taskschd/ITaskSettings::DisallowStartIfOnBatteries, taskschd/ITaskSettings::get_DisallowStartIfOnBatteries, taskschd/ITaskSettings::put_DisallowStartIfOnBatteries
+ms.keywords: DisallowStartIfOnBatteries property [Task Scheduler], DisallowStartIfOnBatteries property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],DisallowStartIfOnBatteries property, ITaskSettings.DisallowStartIfOnBatteries, ITaskSettings.put_DisallowStartIfOnBatteries, ITaskSettings::DisallowStartIfOnBatteries, ITaskSettings::get_DisallowStartIfOnBatteries, ITaskSettings::put_DisallowStartIfOnBatteries, put_DisallowStartIfOnBatteries, taskschd.itasksettings_disallowstartifonbatteries, taskschd/ITaskSettings::DisallowStartIfOnBatteries, taskschd/ITaskSettings::get_DisallowStartIfOnBatteries, taskschd/ITaskSettings::put_DisallowStartIfOnBatteries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskSettings::put_DisallowStartIfOnBatteries method
+# ITaskSettings::put_DisallowStartIfOnBatteries
 
 
 ## -description

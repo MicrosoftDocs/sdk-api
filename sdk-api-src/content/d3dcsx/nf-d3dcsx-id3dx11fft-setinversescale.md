@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.SetInverseScale
-title: ID3DX11FFT::SetInverseScale method
+title: ID3DX11FFT::SetInverseScale
 author: windows-driver-content
 description: Sets the scale used for inverse transforms.
 old-location: direct3d11\id3dx11fft_setinversescale.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: db29b6f8-ee36-48b6-8e28-f4bbaa6b0a7f
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3DX11FFT, ID3DX11FFT interface [Direct3D 11], SetInverseScale method, ID3DX11FFT::SetInverseScale, SetInverseScale method [Direct3D 11], SetInverseScale method [Direct3D 11], ID3DX11FFT interface, SetInverseScale,ID3DX11FFT.SetInverseScale, d3dcsx/ID3DX11FFT::SetInverseScale, direct3d11.id3dx11fft_setinversescale, e2fd7d2b-bce2-191f-6387-e478c2a535fb
+ms.keywords: ID3DX11FFT interface [Direct3D 11],SetInverseScale method, ID3DX11FFT.SetInverseScale, ID3DX11FFT::SetInverseScale, SetInverseScale, SetInverseScale method [Direct3D 11], SetInverseScale method [Direct3D 11],ID3DX11FFT interface, d3dcsx/ID3DX11FFT::SetInverseScale, direct3d11.id3dx11fft_setinversescale, e2fd7d2b-bce2-191f-6387-e478c2a535fb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3DX11FFT::SetInverseScale method
+# ID3DX11FFT::SetInverseScale
 
 
 ## -description

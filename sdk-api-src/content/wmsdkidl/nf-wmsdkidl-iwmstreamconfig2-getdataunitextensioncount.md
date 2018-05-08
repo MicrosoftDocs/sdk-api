@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.GetDataUnitExtensionCount
-title: IWMStreamConfig2::GetDataUnitExtensionCount method
+title: IWMStreamConfig2::GetDataUnitExtensionCount
 author: windows-driver-content
 description: The GetDataUnitExtensionCount method retrieves the total number of data unit extension systems that have been added to the stream.
 old-location: wmformat\iwmstreamconfig2_getdataunitextensioncount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: f9a4ec84-4ea3-4e84-9def-7ca93be0f1ce
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetDataUnitExtensionCount method [windows Media Format], GetDataUnitExtensionCount method [windows Media Format], IWMStreamConfig2 interface, GetDataUnitExtensionCount,IWMStreamConfig2.GetDataUnitExtensionCount, IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format], GetDataUnitExtensionCount method, IWMStreamConfig2::GetDataUnitExtensionCount, IWMStreamConfig2GetDataUnitExtensionCount, wmformat.iwmstreamconfig2_getdataunitextensioncount, wmsdkidl/IWMStreamConfig2::GetDataUnitExtensionCount
+ms.keywords: GetDataUnitExtensionCount, GetDataUnitExtensionCount method [windows Media Format], GetDataUnitExtensionCount method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],GetDataUnitExtensionCount method, IWMStreamConfig2.GetDataUnitExtensionCount, IWMStreamConfig2::GetDataUnitExtensionCount, IWMStreamConfig2GetDataUnitExtensionCount, wmformat.iwmstreamconfig2_getdataunitextensioncount, wmsdkidl/IWMStreamConfig2::GetDataUnitExtensionCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig2::GetDataUnitExtensionCount method
+# IWMStreamConfig2::GetDataUnitExtensionCount
 
 
 ## -description

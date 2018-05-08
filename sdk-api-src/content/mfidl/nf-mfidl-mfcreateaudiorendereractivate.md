@@ -7,7 +7,7 @@ old-location: mf\mfcreateaudiorendereractivate.htm
 old-project: medfound
 ms.assetid: bce55c34-d64a-4f3b-8d09-6c9363e4eb11
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MFCreateAudioRendererActivate, MFCreateAudioRendererActivate function [Media Foundation], bce55c34-d64a-4f3b-8d09-6c9363e4eb11, mf.mfcreateaudiorendereractivate, mfidl/MFCreateAudioRendererActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

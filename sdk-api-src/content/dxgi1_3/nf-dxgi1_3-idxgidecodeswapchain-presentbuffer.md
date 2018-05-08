@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.PresentBuffer
-title: IDXGIDecodeSwapChain::PresentBuffer method
+title: IDXGIDecodeSwapChain::PresentBuffer
 author: windows-driver-content
 description: Presents a frame on the output adapter.
 old-location: direct3ddxgi\idxgidecodeswapchain_presentbuffer.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: EFBBE24E-9BA5-40CB-B090-EE0ADA1AF07D
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIDecodeSwapChain, IDXGIDecodeSwapChain interface [DXGI], PresentBuffer method, IDXGIDecodeSwapChain::PresentBuffer, PresentBuffer method [DXGI], PresentBuffer method [DXGI], IDXGIDecodeSwapChain interface, PresentBuffer,IDXGIDecodeSwapChain.PresentBuffer, direct3ddxgi.idxgidecodeswapchain_presentbuffer, dxgi1_3/IDXGIDecodeSwapChain::PresentBuffer
+ms.keywords: IDXGIDecodeSwapChain interface [DXGI],PresentBuffer method, IDXGIDecodeSwapChain.PresentBuffer, IDXGIDecodeSwapChain::PresentBuffer, PresentBuffer, PresentBuffer method [DXGI], PresentBuffer method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_presentbuffer, dxgi1_3/IDXGIDecodeSwapChain::PresentBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDecodeSwapChain::PresentBuffer method
+# IDXGIDecodeSwapChain::PresentBuffer
 
 
 ## -description

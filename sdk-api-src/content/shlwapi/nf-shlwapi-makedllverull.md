@@ -7,7 +7,7 @@ old-location: shell\MAKEDLLVERULL.htm
 old-project: shell
 ms.assetid: 10c75c91-9642-4877-845e-8c6343721b4f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: MAKEDLLVERULL, MAKEDLLVERULL macro [Windows Shell], _win32_MAKEDLLVERULL, shell.MAKEDLLVERULL, shlwapi/MAKEDLLVERULL
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_MaxDisconnectionTime
-title: IADsTSUserEx::get_MaxDisconnectionTime method
+title: IADsTSUserEx::get_MaxDisconnectionTime
 author: windows-driver-content
 description: The maximum amount of time that a disconnected Remote Desktop Services session remains active on the Remote Desktop Session Host (RD Session Host) server. After the specified number of minutes have elapsed, the session is terminated.
 old-location: termserv\iadstsuserex_maxdisconnectiontime.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 35f0f7fd-eff9-4ee0-99f0-83af7ec2796a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], MaxDisconnectionTime property, IADsTSUserEx.MaxDisconnectionTime, IADsTSUserEx::get_MaxDisconnectionTime, IADsTSUserEx::put_MaxDisconnectionTime, MaxDisconnectionTime property [Remote Desktop Services], MaxDisconnectionTime property [Remote Desktop Services], IADsTSUserEx interface, get_MaxDisconnectionTime,IADsTSUserEx.get_MaxDisconnectionTime, termserv.iadstsuserex_maxdisconnectiontime, tsuserex/IADsTSUserEx::MaxDisconnectionTime, tsuserex/IADsTSUserEx::get_MaxDisconnectionTime, tsuserex/IADsTSUserEx::put_MaxDisconnectionTime
+ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxDisconnectionTime property, IADsTSUserEx.MaxDisconnectionTime, IADsTSUserEx.get_MaxDisconnectionTime, IADsTSUserEx::MaxDisconnectionTime, IADsTSUserEx::get_MaxDisconnectionTime, IADsTSUserEx::put_MaxDisconnectionTime, MaxDisconnectionTime property [Remote Desktop Services], MaxDisconnectionTime property [Remote Desktop Services],IADsTSUserEx interface, get_MaxDisconnectionTime, termserv.iadstsuserex_maxdisconnectiontime, tsuserex/IADsTSUserEx::MaxDisconnectionTime, tsuserex/IADsTSUserEx::get_MaxDisconnectionTime, tsuserex/IADsTSUserEx::put_MaxDisconnectionTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IADsTSUserEx::get_MaxDisconnectionTime method
+# IADsTSUserEx::get_MaxDisconnectionTime
 
 
 ## -description

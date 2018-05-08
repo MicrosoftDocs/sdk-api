@@ -249,14 +249,14 @@ Elapsed execution time for kernel-mode instructions, in CPU time units. If you a
 Elapsed execution time for user-mode instructions, in CPU time units. If you are using a private session, use the value in the <b>ProcessorTime</b> member instead. For more information, see Remarks.
 
 
+### -field DUMMYUNIONNAME.ProcessorTime
+
+For private sessions, the elapsed execution time for user-mode instructions, in CPU ticks.
+
+
 ### -field ActivityId
 
 Identifier that relates two events. For details, see <a href="https://msdn.microsoft.com/798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a">EventWriteTransfer</a>.
-
-
-#### - ProcessorTime
-
-For private sessions, the elapsed execution time for user-mode instructions, in CPU ticks.
 
 
 ## -remarks

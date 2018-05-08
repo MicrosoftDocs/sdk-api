@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GeneratePresentationDescriptor
-title: IMFASFContentInfo::GeneratePresentationDescriptor method
+title: IMFASFContentInfo::GeneratePresentationDescriptor
 author: windows-driver-content
 description: Creates a presentation descriptor for ASF content.
 old-location: mf\imfasfcontentinfo_generatepresentationdescriptor.htm
 old-project: medfound
 ms.assetid: f22cb48d-1346-4182-8ca2-f57a7fdc76e4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GeneratePresentationDescriptor method [Media Foundation], GeneratePresentationDescriptor method [Media Foundation], IMFASFContentInfo interface, GeneratePresentationDescriptor,IMFASFContentInfo.GeneratePresentationDescriptor, IMFASFContentInfo, IMFASFContentInfo interface [Media Foundation], GeneratePresentationDescriptor method, IMFASFContentInfo::GeneratePresentationDescriptor, f22cb48d-1346-4182-8ca2-f57a7fdc76e4, mf.imfasfcontentinfo_generatepresentationdescriptor, wmcontainer/IMFASFContentInfo::GeneratePresentationDescriptor
+ms.date: 5/3/2018
+ms.keywords: GeneratePresentationDescriptor, GeneratePresentationDescriptor method [Media Foundation], GeneratePresentationDescriptor method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GeneratePresentationDescriptor method, IMFASFContentInfo.GeneratePresentationDescriptor, IMFASFContentInfo::GeneratePresentationDescriptor, f22cb48d-1346-4182-8ca2-f57a7fdc76e4, mf.imfasfcontentinfo_generatepresentationdescriptor, wmcontainer/IMFASFContentInfo::GeneratePresentationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFContentInfo::GeneratePresentationDescriptor method
+# IMFASFContentInfo::GeneratePresentationDescriptor
 
 
 ## -description

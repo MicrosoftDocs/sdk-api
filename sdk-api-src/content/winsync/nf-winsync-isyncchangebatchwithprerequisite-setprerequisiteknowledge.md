@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge
-title: ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge method
+title: ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
 author: windows-driver-content
 description: Sets the minimum knowledge that a destination provider is required to have to process this change batch.
 old-location: winsync\isyncchangebatchwithprerequisite_setprerequisiteknowledge.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: a138dbd9-e498-40bf-9490-690103afbf0f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncChangeBatchWithPrerequisite, ISyncChangeBatchWithPrerequisite interface [Windows Sync], SetPrerequisiteKnowledge method, ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge, SetPrerequisiteKnowledge method [Windows Sync], SetPrerequisiteKnowledge method [Windows Sync], ISyncChangeBatchWithPrerequisite interface, SetPrerequisiteKnowledge,ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge, winsync.isyncchangebatchwithprerequisite_setprerequisiteknowledge, winsync/ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
+ms.keywords: ISyncChangeBatchWithPrerequisite interface [Windows Sync],SetPrerequisiteKnowledge method, ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge, ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge, SetPrerequisiteKnowledge, SetPrerequisiteKnowledge method [Windows Sync], SetPrerequisiteKnowledge method [Windows Sync],ISyncChangeBatchWithPrerequisite interface, winsync.isyncchangebatchwithprerequisite_setprerequisiteknowledge, winsync/ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge method
+# ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
 
 
 ## -description

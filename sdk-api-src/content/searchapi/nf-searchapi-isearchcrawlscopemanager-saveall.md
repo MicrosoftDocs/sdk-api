@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.SaveAll
-title: ISearchCrawlScopeManager::SaveAll method
+title: ISearchCrawlScopeManager::SaveAll
 author: windows-driver-content
 description: Commits all changes to the search engine.
 old-location: search\_search_ISearchCrawlScopeManager_SaveAll.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\saveall.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], SaveAll method, ISearchCrawlScopeManager::SaveAll, SaveAll method [search], SaveAll method [search], ISearchCrawlScopeManager interface, SaveAll,ISearchCrawlScopeManager.SaveAll, _search_ISearchCrawlScopeManager_SaveAll, search._search_ISearchCrawlScopeManager_SaveAll, searchapi/ISearchCrawlScopeManager::SaveAll
+ms.date: 5/4/2018
+ms.keywords: ISearchCrawlScopeManager interface [search],SaveAll method, ISearchCrawlScopeManager.SaveAll, ISearchCrawlScopeManager::SaveAll, SaveAll, SaveAll method [search], SaveAll method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_SaveAll, search._search_ISearchCrawlScopeManager_SaveAll, searchapi/ISearchCrawlScopeManager::SaveAll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCrawlScopeManager::SaveAll method
+# ISearchCrawlScopeManager::SaveAll
 
 
 ## -description

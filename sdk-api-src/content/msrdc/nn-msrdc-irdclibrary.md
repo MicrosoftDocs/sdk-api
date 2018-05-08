@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 941fa35c-20fa-4843-89be-26112ff7eec5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], IRdcLibrary interface [Remote Differential Compression], described, fs.irdclibrary, msrdc/IRdcLibrary, rdc.irdclibrary
+ms.keywords: IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], IRdcLibrary interface [Remote Differential Compression],described, fs.irdclibrary, msrdc/IRdcLibrary, rdc.irdclibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

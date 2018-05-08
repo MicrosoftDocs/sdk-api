@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetHyperlinkNavigateUri
-title: IXpsOMVisual::SetHyperlinkNavigateUri method
+title: IXpsOMVisual::SetHyperlinkNavigateUri
 author: windows-driver-content
 description: Sets the destination URI of the visual's hyperlink.
 old-location: xps\ixpsomvisual_sethyperlinknavigateuri.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 6909d287-67c8-4f01-8523-6011932d1d34
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], SetHyperlinkNavigateUri method, IXpsOMVisual::SetHyperlinkNavigateUri, SetHyperlinkNavigateUri method [XPS Documents and Packaging], SetHyperlinkNavigateUri method [XPS Documents and Packaging], IXpsOMVisual interface, SetHyperlinkNavigateUri,IXpsOMVisual.SetHyperlinkNavigateUri, xps.ixpsomvisual_sethyperlinknavigateuri, xpsobjectmodel/IXpsOMVisual::SetHyperlinkNavigateUri
+ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetHyperlinkNavigateUri method, IXpsOMVisual.SetHyperlinkNavigateUri, IXpsOMVisual::SetHyperlinkNavigateUri, SetHyperlinkNavigateUri, SetHyperlinkNavigateUri method [XPS Documents and Packaging], SetHyperlinkNavigateUri method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_sethyperlinknavigateuri, xpsobjectmodel/IXpsOMVisual::SetHyperlinkNavigateUri
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::SetHyperlinkNavigateUri method
+# IXpsOMVisual::SetHyperlinkNavigateUri
 
 
 ## -description

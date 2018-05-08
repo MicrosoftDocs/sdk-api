@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_UDFRevision
-title: IFileSystemImage::get_UDFRevision method
+title: IFileSystemImage::get_UDFRevision
 author: windows-driver-content
 description: Retrieves the UDF revision level of the imported file system image.
 old-location: imapi\ifilesystemimage_get_udfrevision.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: c854a8db-730a-42a3-b50c-fb8fec271b57
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_UDFRevision method, IFileSystemImage::get_UDFRevision, get_UDFRevision method [IMAPI], get_UDFRevision method [IMAPI], IFileSystemImage interface, get_UDFRevision,IFileSystemImage.get_UDFRevision, imapi.ifilesystemimage_get_udfrevision, imapi2fs/IFileSystemImage::get_UDFRevision
+ms.keywords: IFileSystemImage interface [IMAPI],get_UDFRevision method, IFileSystemImage.get_UDFRevision, IFileSystemImage::get_UDFRevision, get_UDFRevision, get_UDFRevision method [IMAPI], get_UDFRevision method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_udfrevision, imapi2fs/IFileSystemImage::get_UDFRevision
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::get_UDFRevision method
+# IFileSystemImage::get_UDFRevision
 
 
 ## -description

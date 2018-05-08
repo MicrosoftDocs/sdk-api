@@ -8,7 +8,7 @@ old-project: input_ink
 ms.assetid: ac6952b5-e2c7-4266-86c0-8e74b879f61c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IInkCommitRequestHandler, IInkCommitRequestHandler interface, IInkCommitRequestHandler interface, described, InkPresenterDesktop.iinkcommitrequesthandler, inkpresenterdesktop/IInkCommitRequestHandler, input_ink.iinkcommitrequesthandler
+ms.keywords: IInkCommitRequestHandler, IInkCommitRequestHandler interface, IInkCommitRequestHandler interface,described, InkPresenterDesktop.iinkcommitrequesthandler, inkpresenterdesktop/IInkCommitRequestHandler, input_ink.iinkcommitrequesthandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

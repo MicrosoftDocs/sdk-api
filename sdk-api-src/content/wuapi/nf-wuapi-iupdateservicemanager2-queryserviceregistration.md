@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager2.QueryServiceRegistration
-title: IUpdateServiceManager2::QueryServiceRegistration method
+title: IUpdateServiceManager2::QueryServiceRegistration
 author: windows-driver-content
 description: Returns a pointer to an IUpdateServiceRegistration interface.
 old-location: wua\iupdateservicemanager2_queryserviceregistration_methods.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: d8fd077f-f4a9-4db0-8a47-14241bc574fb
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateServiceManager2, IUpdateServiceManager2 interface [Windows Update Agent], QueryServiceRegistration method, IUpdateServiceManager2::QueryServiceRegistration, QueryServiceRegistration method [Windows Update Agent], QueryServiceRegistration method [Windows Update Agent], IUpdateServiceManager2 interface, QueryServiceRegistration,IUpdateServiceManager2.QueryServiceRegistration, wua.iupdateservicemanager2_queryserviceregistration_methods, wuapi/IUpdateServiceManager2::QueryServiceRegistration
+ms.keywords: IUpdateServiceManager2 interface [Windows Update Agent],QueryServiceRegistration method, IUpdateServiceManager2.QueryServiceRegistration, IUpdateServiceManager2::QueryServiceRegistration, QueryServiceRegistration, QueryServiceRegistration method [Windows Update Agent], QueryServiceRegistration method [Windows Update Agent],IUpdateServiceManager2 interface, wua.iupdateservicemanager2_queryserviceregistration_methods, wuapi/IUpdateServiceManager2::QueryServiceRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateServiceManager2::QueryServiceRegistration method
+# IUpdateServiceManager2::QueryServiceRegistration
 
 
 ## -description

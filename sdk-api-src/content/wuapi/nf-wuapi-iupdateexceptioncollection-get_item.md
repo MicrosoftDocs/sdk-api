@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateExceptionCollection.get_Item
-title: IUpdateExceptionCollection::get_Item method
+title: IUpdateExceptionCollection::get_Item
 author: windows-driver-content
 description: Gets an IUpdateException interface in the collection.
 old-location: wua\iupdateexceptioncollection_item.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 62f3992a-a295-4036-a488-cca0945574ec
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateExceptionCollection, IUpdateExceptionCollection interface [Windows Update Agent], Item property, IUpdateExceptionCollection.Item, IUpdateExceptionCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent], IUpdateExceptionCollection interface, get_Item,IUpdateExceptionCollection.get_Item, wua.iupdateexceptioncollection_item, wuapi/IUpdateExceptionCollection::Item, wuapi/IUpdateExceptionCollection::get_Item
+ms.keywords: IUpdateExceptionCollection interface [Windows Update Agent],Item property, IUpdateExceptionCollection.Item, IUpdateExceptionCollection.get_Item, IUpdateExceptionCollection::Item, IUpdateExceptionCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateExceptionCollection interface, get_Item, wua.iupdateexceptioncollection_item, wuapi/IUpdateExceptionCollection::Item, wuapi/IUpdateExceptionCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateExceptionCollection::get_Item method
+# IUpdateExceptionCollection::get_Item
 
 
 ## -description

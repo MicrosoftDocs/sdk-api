@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.IEnumNetworkConnections.Skip
-title: IEnumNetworkConnections::Skip method
+title: IEnumNetworkConnections::Skip
 author: windows-driver-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: nla\ienumnetworkconnections_skip.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 0423e39e-6101-47dc-99cc-5920d720e47a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEnumNetworkConnections, IEnumNetworkConnections interface [Network Awareness], Skip method, IEnumNetworkConnections::Skip, Skip method [Network Awareness], Skip method [Network Awareness], IEnumNetworkConnections interface, Skip,IEnumNetworkConnections.Skip, netlistmgr/IEnumNetworkConnections::Skip, nla.ienumnetworkconnections_skip
+ms.keywords: IEnumNetworkConnections interface [Network Awareness],Skip method, IEnumNetworkConnections.Skip, IEnumNetworkConnections::Skip, Skip, Skip method [Network Awareness], Skip method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::Skip, nla.ienumnetworkconnections_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumNetworkConnections::Skip method
+# IEnumNetworkConnections::Skip
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceDispatchFactory.GetDeviceDispatch
-title: IPortableDeviceDispatchFactory::GetDeviceDispatch method
+title: IPortableDeviceDispatchFactory::GetDeviceDispatch
 author: windows-driver-content
 description: Instantiates a WPD Automation Device object for a given WPD device identifier.
 old-location: wpdauto\iportabledevicedispatchfactory_getdevicedispatch.htm
@@ -8,7 +8,7 @@ old-project: wpdauto
 ms.assetid: 80aa36cd-3831-4eb5-a5bb-a8e48f20fc62
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetDeviceDispatch method [WPD Automation], GetDeviceDispatch method [WPD Automation], IPortableDeviceDispatchFactory interface, GetDeviceDispatch,IPortableDeviceDispatchFactory.GetDeviceDispatch, IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory interface [WPD Automation], GetDeviceDispatch method, IPortableDeviceDispatchFactory::GetDeviceDispatch, portabledeviceapi/IPortableDeviceDispatchFactory::GetDeviceDispatch, wpdauto.iportabledevicedispatchfactory_getdevicedispatch
+ms.keywords: GetDeviceDispatch, GetDeviceDispatch method [WPD Automation], GetDeviceDispatch method [WPD Automation],IPortableDeviceDispatchFactory interface, IPortableDeviceDispatchFactory interface [WPD Automation],GetDeviceDispatch method, IPortableDeviceDispatchFactory.GetDeviceDispatch, IPortableDeviceDispatchFactory::GetDeviceDispatch, portabledeviceapi/IPortableDeviceDispatchFactory::GetDeviceDispatch, wpdauto.iportabledevicedispatchfactory_getdevicedispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceDispatchFactory::GetDeviceDispatch method
+# IPortableDeviceDispatchFactory::GetDeviceDispatch
 
 
 ## -description

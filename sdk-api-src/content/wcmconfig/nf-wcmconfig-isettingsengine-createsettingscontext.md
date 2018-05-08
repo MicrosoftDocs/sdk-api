@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateSettingsContext
-title: ISettingsEngine::CreateSettingsContext method
+title: ISettingsEngine::CreateSettingsContext
 author: windows-driver-content
 description: Creates a settings context.
 old-location: smi\isettingsengine_createsettingscontext.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: a9fe2c24-f696-4726-8e67-07280c8e8a3e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateSettingsContext method [SMI], CreateSettingsContext method [SMI], ISettingsEngine interface, CreateSettingsContext,ISettingsEngine.CreateSettingsContext, ISettingsEngine, ISettingsEngine interface [SMI], CreateSettingsContext method, ISettingsEngine::CreateSettingsContext, smi.isettingsengine_createsettingscontext, wcmconfig/ISettingsEngine::CreateSettingsContext
+ms.keywords: CreateSettingsContext, CreateSettingsContext method [SMI], CreateSettingsContext method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],CreateSettingsContext method, ISettingsEngine.CreateSettingsContext, ISettingsEngine::CreateSettingsContext, smi.isettingsengine_createsettingscontext, wcmconfig/ISettingsEngine::CreateSettingsContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsEngine::CreateSettingsContext method
+# ISettingsEngine::CreateSettingsContext
 
 
 ## -description

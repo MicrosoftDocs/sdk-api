@@ -1,14 +1,14 @@
 ---
 UID: NF:dsadmin.IDsAdminCreateObj.CreateModal
-title: IDsAdminCreateObj::CreateModal method
+title: IDsAdminCreateObj::CreateModal
 author: windows-driver-content
 description: The IDsAdminCreateObj::CreateModal method displays the object creation wizard and returns the newly created object. The IDsAdminCreateObj::Initialize method must be called before IDsAdminCreateObj::CreateModal can be called.
 old-location: ad\idsadmincreateobj_createmodal.htm
 old-project: AD
 ms.assetid: 8c157dd8-b569-4171-bd23-b9bce80dbc21
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: CreateModal method [Active Directory], CreateModal method [Active Directory], IDsAdminCreateObj interface, CreateModal,IDsAdminCreateObj.CreateModal, IDsAdminCreateObj, IDsAdminCreateObj interface [Active Directory], CreateModal method, IDsAdminCreateObj::CreateModal, _glines_idsadmincreateobj_createmodal, ad.idsadmincreateobj__createmodal, ad.idsadmincreateobj_createmodal, dsadmin/IDsAdminCreateObj::CreateModal
+ms.date: 5/1/2018
+ms.keywords: CreateModal, CreateModal method [Active Directory], CreateModal method [Active Directory],IDsAdminCreateObj interface, IDsAdminCreateObj interface [Active Directory],CreateModal method, IDsAdminCreateObj.CreateModal, IDsAdminCreateObj::CreateModal, _glines_idsadmincreateobj_createmodal, ad.idsadmincreateobj__createmodal, ad.idsadmincreateobj_createmodal, dsadmin/IDsAdminCreateObj::CreateModal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: DSAdmin.dll
 req.irql: 
 ---
 
-# IDsAdminCreateObj::CreateModal method
+# IDsAdminCreateObj::CreateModal
 
 
 ## -description

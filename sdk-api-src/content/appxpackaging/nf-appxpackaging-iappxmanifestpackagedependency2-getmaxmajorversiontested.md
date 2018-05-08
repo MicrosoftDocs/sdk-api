@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependency2.GetMaxMajorVersionTested
-title: IAppxManifestPackageDependency2::GetMaxMajorVersionTested method
+title: IAppxManifestPackageDependency2::GetMaxMajorVersionTested
 author: windows-driver-content
 description: Returns the maximum major version number of the package that is tested to be compatible with the current package.
 old-location: appxpkg\iappxmanifestpackagedependency2_getmaxmajorversiontested.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: BB83C97E-9E89-440C-8A14-88062F1394CF
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetMaxMajorVersionTested method [App packaging and management], GetMaxMajorVersionTested method [App packaging and management], IAppxManifestPackageDependency2 interface, GetMaxMajorVersionTested,IAppxManifestPackageDependency2.GetMaxMajorVersionTested, IAppxManifestPackageDependency2, IAppxManifestPackageDependency2 interface [App packaging and management], GetMaxMajorVersionTested method, IAppxManifestPackageDependency2::GetMaxMajorVersionTested, appxpackaging/IAppxManifestPackageDependency2::GetMaxMajorVersionTested, appxpkg.iappxmanifestpackagedependency2_getmaxmajorversiontested
+ms.keywords: GetMaxMajorVersionTested, GetMaxMajorVersionTested method [App packaging and management], GetMaxMajorVersionTested method [App packaging and management],IAppxManifestPackageDependency2 interface, IAppxManifestPackageDependency2 interface [App packaging and management],GetMaxMajorVersionTested method, IAppxManifestPackageDependency2.GetMaxMajorVersionTested, IAppxManifestPackageDependency2::GetMaxMajorVersionTested, appxpackaging/IAppxManifestPackageDependency2::GetMaxMajorVersionTested, appxpkg.iappxmanifestpackagedependency2_getmaxmajorversiontested
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestPackageDependency2::GetMaxMajorVersionTested method
+# IAppxManifestPackageDependency2::GetMaxMajorVersionTested
 
 
 ## -description

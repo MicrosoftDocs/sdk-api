@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetTextExt
-title: ITextStoreACP2::GetTextExt method
+title: ITextStoreACP2::GetTextExt
 author: windows-driver-content
 description: Gets the bounding box, in screen coordinates, of the text at a specified character position. The caller must have a read-only lock on the document before calling this method.
 old-location: tsf\itextstoreacp2_gettextext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 44ede856-f4e7-4d82-8a15-c79a95e4994f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework], ITextStoreACP2 interface, GetTextExt,ITextStoreACP2.GetTextExt, ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], GetTextExt method, ITextStoreACP2::GetTextExt, textstor/ITextStoreACP2::GetTextExt, tsf.itextstoreacp2_gettextext
+ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetTextExt method, ITextStoreACP2.GetTextExt, ITextStoreACP2::GetTextExt, textstor/ITextStoreACP2::GetTextExt, tsf.itextstoreacp2_gettextext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP2::GetTextExt method
+# ITextStoreACP2::GetTextExt
 
 
 ## -description

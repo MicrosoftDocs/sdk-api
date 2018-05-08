@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Company
-title: ITPluggableTerminalClassRegistration::get_Company method
+title: ITPluggableTerminalClassRegistration::get_Company
 author: windows-driver-content
 description: The get_Company method gets the name of the company that issued this pluggable terminal.
 old-location: tapi3\itpluggableterminalclassregistration_get_company.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: fea01c2a-e822-441a-89bc-8607762bc2eb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], get_Company method, ITPluggableTerminalClassRegistration::get_Company, _tapi3_itpluggableterminalclassregistration_get_company, get_Company method [TAPI 2.2], get_Company method [TAPI 2.2], ITPluggableTerminalClassRegistration interface, get_Company,ITPluggableTerminalClassRegistration.get_Company, tapi3.itpluggableterminalclassregistration_get_company, termmgr/ITPluggableTerminalClassRegistration::get_Company
+ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_Company method, ITPluggableTerminalClassRegistration.get_Company, ITPluggableTerminalClassRegistration::get_Company, _tapi3_itpluggableterminalclassregistration_get_company, get_Company, get_Company method [TAPI 2.2], get_Company method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_company, termmgr/ITPluggableTerminalClassRegistration::get_Company
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITPluggableTerminalClassRegistration::get_Company method
+# ITPluggableTerminalClassRegistration::get_Company
 
 
 ## -description

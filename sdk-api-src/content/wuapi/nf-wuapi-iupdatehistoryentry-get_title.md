@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_Title
-title: IUpdateHistoryEntry::get_Title method
+title: IUpdateHistoryEntry::get_Title
 author: windows-driver-content
 description: Gets the title of an update.
 old-location: wua\iupdatehistoryentry_title.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 8a49fddf-ebaf-403e-bb7f-705ab08395eb
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateHistoryEntry, IUpdateHistoryEntry interface [Windows Update Agent], Title property, IUpdateHistoryEntry.Title, IUpdateHistoryEntry::get_Title, Title property [Windows Update Agent], Title property [Windows Update Agent], IUpdateHistoryEntry interface, get_Title,IUpdateHistoryEntry.get_Title, wua.iupdatehistoryentry_title, wuapi/IUpdateHistoryEntry::Title, wuapi/IUpdateHistoryEntry::get_Title
+ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],Title property, IUpdateHistoryEntry.Title, IUpdateHistoryEntry.get_Title, IUpdateHistoryEntry::Title, IUpdateHistoryEntry::get_Title, Title property [Windows Update Agent], Title property [Windows Update Agent],IUpdateHistoryEntry interface, get_Title, wua.iupdatehistoryentry_title, wuapi/IUpdateHistoryEntry::Title, wuapi/IUpdateHistoryEntry::get_Title
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateHistoryEntry::get_Title method
+# IUpdateHistoryEntry::get_Title
 
 
 ## -description

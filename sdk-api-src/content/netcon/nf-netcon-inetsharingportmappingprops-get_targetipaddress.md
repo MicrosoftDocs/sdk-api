@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_TargetIPAddress
-title: INetSharingPortMappingProps::get_TargetIPAddress method
+title: INetSharingPortMappingProps::get_TargetIPAddress
 author: windows-driver-content
 description: The get_TargetIPAddress method retrieves the IP address of the target computer for this port mapping.
 old-location: ics\inetsharingportmappingprops_get_targetipaddress.htm
 old-project: ICS
 ms.assetid: af794535-8b36-4306-a220-f4938f0e6ee9
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingPortMappingProps, INetSharingPortMappingProps interface [ICS/ICF], get_TargetIPAddress method, INetSharingPortMappingProps::get_TargetIPAddress, _ics_inetsharingportmappingprops_get_targetipaddress, get_TargetIPAddress method [ICS/ICF], get_TargetIPAddress method [ICS/ICF], INetSharingPortMappingProps interface, get_TargetIPAddress,INetSharingPortMappingProps.get_TargetIPAddress, ics.inetsharingportmappingprops_get_targetipaddress, netcon/INetSharingPortMappingProps::get_TargetIPAddress
+ms.date: 5/1/2018
+ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_TargetIPAddress method, INetSharingPortMappingProps.get_TargetIPAddress, INetSharingPortMappingProps::get_TargetIPAddress, _ics_inetsharingportmappingprops_get_targetipaddress, get_TargetIPAddress, get_TargetIPAddress method [ICS/ICF], get_TargetIPAddress method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_targetipaddress, netcon/INetSharingPortMappingProps::get_TargetIPAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingPortMappingProps::get_TargetIPAddress method
+# INetSharingPortMappingProps::get_TargetIPAddress
 
 
 ## -description

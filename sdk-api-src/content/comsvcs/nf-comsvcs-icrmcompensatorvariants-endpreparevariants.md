@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.EndPrepareVariants
-title: ICrmCompensatorVariants::EndPrepareVariants method
+title: ICrmCompensatorVariants::EndPrepareVariants
 author: windows-driver-content
 description: Notifies the CRM Compensator that it has had all the log records available during the prepare phase.
 old-location: cos\icrmcompensatorvariants_endpreparevariants.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 2b9a7e75-5e7c-4f5b-b625-78abb3c5e9b7
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: EndPrepareVariants method [COM+], EndPrepareVariants method [COM+], ICrmCompensatorVariants interface, EndPrepareVariants,ICrmCompensatorVariants.EndPrepareVariants, ICrmCompensatorVariants, ICrmCompensatorVariants interface [COM+], EndPrepareVariants method, ICrmCompensatorVariants::EndPrepareVariants, _dtc_ICrmCompensatorVariants_EndPrepareVariants, comsvcs/ICrmCompensatorVariants::EndPrepareVariants, cos.icrmcompensatorvariants_endpreparevariants
+ms.keywords: EndPrepareVariants, EndPrepareVariants method [COM+], EndPrepareVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndPrepareVariants method, ICrmCompensatorVariants.EndPrepareVariants, ICrmCompensatorVariants::EndPrepareVariants, _dtc_ICrmCompensatorVariants_EndPrepareVariants, comsvcs/ICrmCompensatorVariants::EndPrepareVariants, cos.icrmcompensatorvariants_endpreparevariants
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmCompensatorVariants::EndPrepareVariants method
+# ICrmCompensatorVariants::EndPrepareVariants
 
 
 ## -description

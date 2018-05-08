@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.get_Receive
-title: IFaxPort::get_Receive method
+title: IFaxPort::get_Receive
 author: windows-driver-content
 description: The Receive property is a Boolean value that indicates whether a specified fax port is enabled to receive faxes.
 old-location: fax\_mfax_ifaxport_get_receive_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8b1h.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxPort object [Fax Service], Receive property, IFaxPort, IFaxPort::get_Receive, Receive property [Fax Service], Receive property [Fax Service], FaxPort object, _mfax_ifaxport_get_receive, fax._mfax_ifaxport_get_receive, fax._mfax_ifaxport_get_receive_vb, get_Receive,IFaxPort.get_Receive
+ms.keywords: FaxPort object [Fax Service],Receive property, FaxPort.Receive, IFaxPort.get_Receive, IFaxPort::get_Receive, Receive property [Fax Service], Receive property [Fax Service],FaxPort object, _mfax_ifaxport_get_receive, fax._mfax_ifaxport_get_receive, fax._mfax_ifaxport_get_receive_vb, get_Receive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxPort::get_Receive method
+# IFaxPort::get_Receive
 
 
 ## -description

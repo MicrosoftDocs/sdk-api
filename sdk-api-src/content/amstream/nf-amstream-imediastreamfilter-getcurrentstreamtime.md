@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.GetCurrentStreamTime
-title: IMediaStreamFilter::GetCurrentStreamTime method
+title: IMediaStreamFilter::GetCurrentStreamTime
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The GetCurrentStreamTime method retrieves the current stream time.
 old-location: dshow\imediastreamfilter_getcurrentstreamtime.htm
 old-project: DirectShow
 ms.assetid: 933f83a3-600e-4897-b4df-a481d2874155
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentStreamTime method [DirectShow], GetCurrentStreamTime method [DirectShow], IMediaStreamFilter interface, GetCurrentStreamTime,IMediaStreamFilter.GetCurrentStreamTime, IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], GetCurrentStreamTime method, IMediaStreamFilter::GetCurrentStreamTime, IMediaStreamFilterGetCurrentStreamTime, amstream/IMediaStreamFilter::GetCurrentStreamTime, dshow.imediastreamfilter_getcurrentstreamtime
+ms.date: 4/30/2018
+ms.keywords: GetCurrentStreamTime, GetCurrentStreamTime method [DirectShow], GetCurrentStreamTime method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],GetCurrentStreamTime method, IMediaStreamFilter.GetCurrentStreamTime, IMediaStreamFilter::GetCurrentStreamTime, IMediaStreamFilterGetCurrentStreamTime, amstream/IMediaStreamFilter::GetCurrentStreamTime, dshow.imediastreamfilter_getcurrentstreamtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaStreamFilter::GetCurrentStreamTime method
+# IMediaStreamFilter::GetCurrentStreamTime
 
 
 ## -description

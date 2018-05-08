@@ -68,6 +68,16 @@ The length, in bytes, of <b>Data</b>.
 Reserved. Do not use.
 
 
+### -field size_is
+
+ 
+
+
+### -field size_is.wDataLength
+
+ 
+
+
 ### -field Data
 
 A <b>BYTE</b> array that contains variable transport level information as specified in section 4 of <a href="http://go.microsoft.com/fwlink/p/?linkid=134711">RFC 2671</a>.

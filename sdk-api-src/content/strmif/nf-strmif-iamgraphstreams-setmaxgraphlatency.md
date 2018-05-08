@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMGraphStreams.SetMaxGraphLatency
-title: IAMGraphStreams::SetMaxGraphLatency method
+title: IAMGraphStreams::SetMaxGraphLatency
 author: windows-driver-content
 description: The SetMaxGraphLatency method sets the maximum latency for the graph. You must call the IAMGraphStreams::SyncUsingStreamOffset method before calling this method.
 old-location: dshow\iamgraphstreams_setmaxgraphlatency.htm
 old-project: DirectShow
 ms.assetid: e17723ad-20b5-4679-94a9-e32efbe82124
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMGraphStreams, IAMGraphStreams interface [DirectShow], SetMaxGraphLatency method, IAMGraphStreams::SetMaxGraphLatency, IAMGraphStreamsSetMaxGraphLatency, SetMaxGraphLatency method [DirectShow], SetMaxGraphLatency method [DirectShow], IAMGraphStreams interface, SetMaxGraphLatency,IAMGraphStreams.SetMaxGraphLatency, dshow.iamgraphstreams_setmaxgraphlatency, strmif/IAMGraphStreams::SetMaxGraphLatency
+ms.date: 4/30/2018
+ms.keywords: IAMGraphStreams interface [DirectShow],SetMaxGraphLatency method, IAMGraphStreams.SetMaxGraphLatency, IAMGraphStreams::SetMaxGraphLatency, IAMGraphStreamsSetMaxGraphLatency, SetMaxGraphLatency, SetMaxGraphLatency method [DirectShow], SetMaxGraphLatency method [DirectShow],IAMGraphStreams interface, dshow.iamgraphstreams_setmaxgraphlatency, strmif/IAMGraphStreams::SetMaxGraphLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMGraphStreams::SetMaxGraphLatency method
+# IAMGraphStreams::SetMaxGraphLatency
 
 
 ## -description

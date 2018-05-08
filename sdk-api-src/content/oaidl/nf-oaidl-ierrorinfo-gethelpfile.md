@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetHelpFile
-title: IErrorInfo::GetHelpFile method
+title: IErrorInfo::GetHelpFile
 author: windows-driver-content
 description: Returns the path of the Help file that describes the error.
 old-location: automat\ierrorinfo_gethelpfile.htm
 old-project: automat
 ms.assetid: f8458382-0af7-4a9b-add3-9c99af070be4
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetHelpFile method [Automation], GetHelpFile method [Automation], IErrorInfo interface, GetHelpFile,IErrorInfo.GetHelpFile, IErrorInfo, IErrorInfo interface [Automation], GetHelpFile method, IErrorInfo::GetHelpFile, _oa96_IErrorInfo_GetHelpFile, automat.ierrorinfo_gethelpfile, oaidl/IErrorInfo::GetHelpFile
+ms.date: 5/4/2018
+ms.keywords: GetHelpFile, GetHelpFile method [Automation], GetHelpFile method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetHelpFile method, IErrorInfo.GetHelpFile, IErrorInfo::GetHelpFile, _oa96_IErrorInfo_GetHelpFile, automat.ierrorinfo_gethelpfile, oaidl/IErrorInfo::GetHelpFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IErrorInfo::GetHelpFile method
+# IErrorInfo::GetHelpFile
 
 
 ## -description

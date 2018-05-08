@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IAVIFile.EndRecord
-title: IAVIFile::EndRecord method
+title: IAVIFile::EndRecord
 author: windows-driver-content
 description: The EndRecord method writes the &#0034;REC&#0034; chunk in a tightly interleaved AVI file (having a one-to-one interleave factor of audio to video). Called when an application uses the AVIFileEndRecord function.
 old-location: multimedia\iavifile_endrecord.htm
 old-project: Multimedia
 ms.assetid: 43c4edbf-d736-4d85-9726-123f92145134
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: EndRecord method [Windows Multimedia], EndRecord method [Windows Multimedia], IAVIFile interface, EndRecord,IAVIFile.EndRecord, IAVIFile, IAVIFile interface [Windows Multimedia], EndRecord method, IAVIFile::EndRecord, _win32_IAVIFile_EndRecord, multimedia.iavifile_endrecord, vfw/IAVIFile::EndRecord
+ms.date: 5/4/2018
+ms.keywords: EndRecord, EndRecord method [Windows Multimedia], EndRecord method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],EndRecord method, IAVIFile.EndRecord, IAVIFile::EndRecord, _win32_IAVIFile_EndRecord, multimedia.iavifile_endrecord, vfw/IAVIFile::EndRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAVIFile::EndRecord method
+# IAVIFile::EndRecord
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_GetViewStream
-title: IBrowserService2::v_GetViewStream method
+title: IBrowserService2::v_GetViewStream
 author: windows-driver-content
 description: Deprecated. Returns a stream used to load or save the view state.
 old-location: shell\IBrowserService2_v_GetViewStream.htm
 old-project: shell
 ms.assetid: fb6b2739-7eb1-4037-8a21-1c4d0f70cde3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], v_GetViewStream method, IBrowserService2::v_GetViewStream, shdeprecated/IBrowserService2::v_GetViewStream, shell.IBrowserService2_v_GetViewStream, v_GetViewStream method [Windows Shell], v_GetViewStream method [Windows Shell], IBrowserService2 interface, v_GetViewStream,IBrowserService2.v_GetViewStream, zone_IBrowserService2_v_GetViewStream
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],v_GetViewStream method, IBrowserService2.v_GetViewStream, IBrowserService2::v_GetViewStream, shdeprecated/IBrowserService2::v_GetViewStream, shell.IBrowserService2_v_GetViewStream, v_GetViewStream, v_GetViewStream method [Windows Shell], v_GetViewStream method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_GetViewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::v_GetViewStream method
+# IBrowserService2::v_GetViewStream
 
 
 ## -description

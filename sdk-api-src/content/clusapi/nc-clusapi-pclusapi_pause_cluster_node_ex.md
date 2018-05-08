@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 632C26C2-ED12-40DC-9615-4A09A7E2F7CB
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE_EX, PCLUSAPI_PAUSE_CLUSTER_NODE_EX callback function [Failover Cluster], clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE_EX, mscs.pauseclusternodeex
+ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE_EX, PCLUSAPI_PAUSE_CLUSTER_NODE_EX callback, PCLUSAPI_PAUSE_CLUSTER_NODE_EX callback function [Failover Cluster], clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE_EX, mscs.pauseclusternodeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -42,7 +42,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_PAUSE_CLUSTER_NODE_EX callback
+# PCLUSAPI_PAUSE_CLUSTER_NODE_EX callback function
 
 
 ## -description

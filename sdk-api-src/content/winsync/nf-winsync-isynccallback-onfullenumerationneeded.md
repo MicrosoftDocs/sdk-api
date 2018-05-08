@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncCallback.OnFullEnumerationNeeded
-title: ISyncCallback::OnFullEnumerationNeeded method
+title: ISyncCallback::OnFullEnumerationNeeded
 author: windows-driver-content
 description: Occurs when the forgotten knowledge from the source provider is not contained in the current knowledge of the destination provider.
 old-location: winsync\isynccallback_onfullenumerationneeded.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: f52ddaf2-9ce2-4ebb-bace-024c059b2594
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncCallback, ISyncCallback interface [Windows Sync], OnFullEnumerationNeeded method, ISyncCallback::OnFullEnumerationNeeded, OnFullEnumerationNeeded method [Windows Sync], OnFullEnumerationNeeded method [Windows Sync], ISyncCallback interface, OnFullEnumerationNeeded,ISyncCallback.OnFullEnumerationNeeded, winsync.isynccallback_onfullenumerationneeded, winsync/ISyncCallback::OnFullEnumerationNeeded
+ms.keywords: ISyncCallback interface [Windows Sync],OnFullEnumerationNeeded method, ISyncCallback.OnFullEnumerationNeeded, ISyncCallback::OnFullEnumerationNeeded, OnFullEnumerationNeeded, OnFullEnumerationNeeded method [Windows Sync], OnFullEnumerationNeeded method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onfullenumerationneeded, winsync/ISyncCallback::OnFullEnumerationNeeded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncCallback::OnFullEnumerationNeeded method
+# ISyncCallback::OnFullEnumerationNeeded
 
 
 ## -description

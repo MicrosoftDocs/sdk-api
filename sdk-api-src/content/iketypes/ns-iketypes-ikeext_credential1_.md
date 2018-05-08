@@ -72,7 +72,14 @@ Type of impersonation.
 See <a href="https://msdn.microsoft.com/840c7429-5a1a-4e3f-823c-c46a412cbe71">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a> for more information.
 
 
-#### - certificate
+### -field presharedKey
+
+Available when <b>authenticationMethodType</b> is <b>IKEEXT_PRESHARED_KEY</b>.
+
+See <a href="https://msdn.microsoft.com/b2009797-f5fd-4d14-8a59-832f9a0acff1">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a> for more information.
+
+
+### -field certificate
 
 Available when <b>authenticationMethodType</b> is one of the following values.
 
@@ -86,20 +93,13 @@ Available when <b>authenticationMethodType</b> is one of the following values.
 See <a href="https://msdn.microsoft.com/78ae9cfe-2a4f-48cd-9a4f-fd5193df0ed0">IKEEXT_CERTIFICATE_CREDENTIAL1</a> for more information.
 
 
-#### - name
+### -field name
 
 Available when <b>authenticationMethodType</b> is one of the following values.
 
 <b>IKEEXT_KERBEROS</b>
 <b>IKEEXT_NTML_V2</b>
 See <a href="https://msdn.microsoft.com/602f94bf-066d-418e-a469-a21b881a443d">IKEEXT_NAME_CREDENTIAL0</a> for more information.
-
-
-#### - presharedKey
-
-Available when <b>authenticationMethodType</b> is <b>IKEEXT_PRESHARED_KEY</b>.
-
-See <a href="https://msdn.microsoft.com/b2009797-f5fd-4d14-8a59-832f9a0acff1">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a> for more information.
 
 
 ## -see-also

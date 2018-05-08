@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.get_Modulation
-title: ILocator::get_Modulation method
+title: ILocator::get_Modulation
 author: windows-driver-content
 description: The get_Modulation method gets the modulation type.
 old-location: mstv\ilocator_get_modulation.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6aca60fa-ea8d-440d-a037-20537c25a105
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ILocator, ILocator interface [Microsoft TV Technologies], get_Modulation method, ILocator::get_Modulation, ILocatorget_Modulation, get_Modulation method [Microsoft TV Technologies], get_Modulation method [Microsoft TV Technologies], ILocator interface, get_Modulation,ILocator.get_Modulation, mstv.ilocator_get_modulation, tuner/ILocator::get_Modulation
+ms.keywords: ILocator interface [Microsoft TV Technologies],get_Modulation method, ILocator.get_Modulation, ILocator::get_Modulation, ILocatorget_Modulation, get_Modulation, get_Modulation method [Microsoft TV Technologies], get_Modulation method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_modulation, tuner/ILocator::get_Modulation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILocator::get_Modulation method
+# ILocator::get_Modulation
 
 
 ## -description

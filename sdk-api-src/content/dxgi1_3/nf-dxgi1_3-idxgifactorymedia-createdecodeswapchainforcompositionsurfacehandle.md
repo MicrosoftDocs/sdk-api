@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle
-title: IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle method
+title: IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle
 author: windows-driver-content
 description: Creates a YUV swap chain for an existing DirectComposition surface handle.
 old-location: direct3ddxgi\idxgifactorymedia_createdecodeswapchainforcompositionsurfacehandle.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: A4030D6E-EE5A-47E7-A5A2-A008F6869230
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: CreateDecodeSwapChainForCompositionSurfaceHandle method [DXGI], CreateDecodeSwapChainForCompositionSurfaceHandle method [DXGI], IDXGIFactoryMedia interface, CreateDecodeSwapChainForCompositionSurfaceHandle,IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle, IDXGIFactoryMedia, IDXGIFactoryMedia interface [DXGI], CreateDecodeSwapChainForCompositionSurfaceHandle method, IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle, direct3ddxgi.idxgifactorymedia_createdecodeswapchainforcompositionsurfacehandle, dxgi1_3/IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle
+ms.keywords: CreateDecodeSwapChainForCompositionSurfaceHandle, CreateDecodeSwapChainForCompositionSurfaceHandle method [DXGI], CreateDecodeSwapChainForCompositionSurfaceHandle method [DXGI],IDXGIFactoryMedia interface, IDXGIFactoryMedia interface [DXGI],CreateDecodeSwapChainForCompositionSurfaceHandle method, IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle, IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle, direct3ddxgi.idxgifactorymedia_createdecodeswapchainforcompositionsurfacehandle, dxgi1_3/IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle method
+# IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle
 
 
 ## -description

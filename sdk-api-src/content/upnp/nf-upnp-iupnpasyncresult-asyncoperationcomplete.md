@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPAsyncResult.AsyncOperationComplete
-title: IUPnPAsyncResult::AsyncOperationComplete method
+title: IUPnPAsyncResult::AsyncOperationComplete
 author: windows-driver-content
 description: AsyncOperationComplete callback method provides notification of the completion of an asynchronous I/O operation.
 old-location: upnp\iupnpasyncresult_asyncoperationcomplete.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: C71C0A78-C3D1-4725-99E2-542786B03C8F
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: AsyncOperationComplete method [UPnP APIs], AsyncOperationComplete method [UPnP APIs], IUPnPAsyncResult interface, AsyncOperationComplete,IUPnPAsyncResult.AsyncOperationComplete, IUPnPAsyncResult, IUPnPAsyncResult interface [UPnP APIs], AsyncOperationComplete method, IUPnPAsyncResult::AsyncOperationComplete, upnp.iupnpasyncresult_asyncoperationcomplete, upnp/IUPnPAsyncResult::AsyncOperationComplete
+ms.keywords: AsyncOperationComplete, AsyncOperationComplete method [UPnP APIs], AsyncOperationComplete method [UPnP APIs],IUPnPAsyncResult interface, IUPnPAsyncResult interface [UPnP APIs],AsyncOperationComplete method, IUPnPAsyncResult.AsyncOperationComplete, IUPnPAsyncResult::AsyncOperationComplete, upnp.iupnpasyncresult_asyncoperationcomplete, upnp/IUPnPAsyncResult::AsyncOperationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPAsyncResult::AsyncOperationComplete method
+# IUPnPAsyncResult::AsyncOperationComplete
 
 
 ## -description

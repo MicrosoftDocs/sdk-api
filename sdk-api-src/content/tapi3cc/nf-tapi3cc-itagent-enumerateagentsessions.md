@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.EnumerateAgentSessions
-title: ITAgent::EnumerateAgentSessions method
+title: ITAgent::EnumerateAgentSessions
 author: windows-driver-content
 description: The EnumerateAgentSessions method enumerates the current agent sessions. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_AgentSessions method.
 old-location: tapi3\itagent_enumerateagentsessions.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 6b639a41-c866-49ad-bc33-1215da7c8a19
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: EnumerateAgentSessions method [TAPI 2.2], EnumerateAgentSessions method [TAPI 2.2], ITAgent interface, EnumerateAgentSessions,ITAgent.EnumerateAgentSessions, ITAgent, ITAgent interface [TAPI 2.2], EnumerateAgentSessions method, ITAgent::EnumerateAgentSessions, _tapi3_itagent_enumerateagentsessions, tapi3.itagent_enumerateagentsessions, tapi3cc/ITAgent::EnumerateAgentSessions
+ms.keywords: EnumerateAgentSessions, EnumerateAgentSessions method [TAPI 2.2], EnumerateAgentSessions method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],EnumerateAgentSessions method, ITAgent.EnumerateAgentSessions, ITAgent::EnumerateAgentSessions, _tapi3_itagent_enumerateagentsessions, tapi3.itagent_enumerateagentsessions, tapi3cc/ITAgent::EnumerateAgentSessions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgent::EnumerateAgentSessions method
+# ITAgent::EnumerateAgentSessions
 
 
 ## -description

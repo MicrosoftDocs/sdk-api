@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsProperty.Qualifiers
-title: IADsProperty::Qualifiers method
+title: IADsProperty::Qualifiers
 author: windows-driver-content
 description: Returns a collection of ADSI objects that describe additional qualifiers of this property.
 old-location: adsi\iadsproperty_qualifiers.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 48645dda-ba1e-47fa-b483-120ba982451e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsProperty, IADsProperty interface [ADSI], Qualifiers method, IADsProperty::Qualifiers, Qualifiers method [ADSI], Qualifiers method [ADSI], IADsProperty interface, Qualifiers,IADsProperty.Qualifiers, _ds_iadsproperty_qualifiers, adsi.iadsproperty__qualifiers, adsi.iadsproperty_qualifiers, iads/IADsProperty::Qualifiers
+ms.keywords: IADsProperty interface [ADSI],Qualifiers method, IADsProperty.Qualifiers, IADsProperty::Qualifiers, Qualifiers, Qualifiers method [ADSI], Qualifiers method [ADSI],IADsProperty interface, _ds_iadsproperty_qualifiers, adsi.iadsproperty__qualifiers, adsi.iadsproperty_qualifiers, iads/IADsProperty::Qualifiers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsProperty::Qualifiers method
+# IADsProperty::Qualifiers
 
 
 ## -description

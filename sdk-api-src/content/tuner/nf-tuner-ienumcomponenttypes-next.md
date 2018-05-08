@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IEnumComponentTypes.Next
-title: IEnumComponentTypes::Next method
+title: IEnumComponentTypes::Next
 author: windows-driver-content
 description: The Next method retrieves the next n elements in the collection.
 old-location: mstv\ienumcomponenttypes_next.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 491e9237-38cd-4c12-b93b-eb398a49d742
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IEnumComponentTypes, IEnumComponentTypes interface [Microsoft TV Technologies], Next method, IEnumComponentTypes::Next, IEnumComponentTypesNext, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies], IEnumComponentTypes interface, Next,IEnumComponentTypes.Next, mstv.ienumcomponenttypes_next, tuner/IEnumComponentTypes::Next
+ms.keywords: IEnumComponentTypes interface [Microsoft TV Technologies],Next method, IEnumComponentTypes.Next, IEnumComponentTypes::Next, IEnumComponentTypesNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumComponentTypes interface, mstv.ienumcomponenttypes_next, tuner/IEnumComponentTypes::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumComponentTypes::Next method
+# IEnumComponentTypes::Next
 
 
 ## -description

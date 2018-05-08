@@ -7,7 +7,7 @@ old-location: automat\varround.htm
 old-project: automat
 ms.assetid: 7713f477-f6a3-456d-a442-a78750542b03
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarRound, VarRound function [Automation], _oa96_VarRound, automat.varround, oleauto/VarRound
 ms.prod: windows-hardware
 ms.technology: windows-devices

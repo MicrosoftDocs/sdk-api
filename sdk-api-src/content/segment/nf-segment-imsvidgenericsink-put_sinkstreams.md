@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidGenericSink.put_SinkStreams
-title: IMSVidGenericSink::put_SinkStreams method
+title: IMSVidGenericSink::put_SinkStreams
 author: windows-driver-content
 description: The put_SinkStreams method sets the streams that are required to be rendered down to the sink. Not implemented.
 old-location: mstv\imsvidgenericsink_put_sinkstreams.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a9bb76ad-6b10-4a48-9d94-64e6d28a3b9f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidGenericSink, IMSVidGenericSink interface [Microsoft TV Technologies], put_SinkStreams method, IMSVidGenericSink::put_SinkStreams, IMSVidGenericSinkput_SinkStreams, mstv.imsvidgenericsink_put_sinkstreams, put_SinkStreams method [Microsoft TV Technologies], put_SinkStreams method [Microsoft TV Technologies], IMSVidGenericSink interface, put_SinkStreams,IMSVidGenericSink.put_SinkStreams, segment/IMSVidGenericSink::put_SinkStreams
+ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],put_SinkStreams method, IMSVidGenericSink.put_SinkStreams, IMSVidGenericSink::put_SinkStreams, IMSVidGenericSinkput_SinkStreams, mstv.imsvidgenericsink_put_sinkstreams, put_SinkStreams, put_SinkStreams method [Microsoft TV Technologies], put_SinkStreams method [Microsoft TV Technologies],IMSVidGenericSink interface, segment/IMSVidGenericSink::put_SinkStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidGenericSink::put_SinkStreams method
+# IMSVidGenericSink::put_SinkStreams
 
 
 ## -description

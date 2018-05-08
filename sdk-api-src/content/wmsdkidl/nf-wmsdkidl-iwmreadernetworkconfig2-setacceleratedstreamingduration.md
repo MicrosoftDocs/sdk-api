@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration
-title: IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration method
+title: IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration
 author: windows-driver-content
 description: The SetAcceleratedStreamingDuration method sets the accelerated streaming duration. This duration applies to the Fast Start feature of Windows Media Services, which enables content to be played quickly without waiting for lengthy initial buffering.
 old-location: wmformat\iwmreadernetworkconfig2_setacceleratedstreamingduration.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c9ad5064-7742-4145-b560-f3e867da609a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], SetAcceleratedStreamingDuration method, IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration, IWMReaderNetworkConfig2SetAcceleratedStreamingDuration, SetAcceleratedStreamingDuration method [windows Media Format], SetAcceleratedStreamingDuration method [windows Media Format], IWMReaderNetworkConfig2 interface, SetAcceleratedStreamingDuration,IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration, wmformat.iwmreadernetworkconfig2_setacceleratedstreamingduration, wmsdkidl/IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration
+ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetAcceleratedStreamingDuration method, IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration, IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration, IWMReaderNetworkConfig2SetAcceleratedStreamingDuration, SetAcceleratedStreamingDuration, SetAcceleratedStreamingDuration method [windows Media Format], SetAcceleratedStreamingDuration method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setacceleratedstreamingduration, wmsdkidl/IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration method
+# IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration
 
 
 ## -description

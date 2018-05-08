@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateRemoteDictionaryResourceFromStream
-title: IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream method
+title: IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream
 author: windows-driver-content
 description: Loads the remote resource dictionary markup into an unrooted IXpsOMRemoteDictionaryResource interface.
 old-location: xps\ixpsomobjectfactory_createremotedictionaryresourcefromstream.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 996a97f5-320f-4e51-af15-f3b125d4f6c8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateRemoteDictionaryResourceFromStream method [XPS Documents and Packaging], CreateRemoteDictionaryResourceFromStream method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateRemoteDictionaryResourceFromStream,IXpsOMObjectFactory.CreateRemoteDictionaryResourceFromStream, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateRemoteDictionaryResourceFromStream method, IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream, xps.ixpsomobjectfactory_createremotedictionaryresourcefromstream, xpsobjectmodel/IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream
+ms.keywords: CreateRemoteDictionaryResourceFromStream, CreateRemoteDictionaryResourceFromStream method [XPS Documents and Packaging], CreateRemoteDictionaryResourceFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateRemoteDictionaryResourceFromStream method, IXpsOMObjectFactory.CreateRemoteDictionaryResourceFromStream, IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream, xps.ixpsomobjectfactory_createremotedictionaryresourcefromstream, xpsobjectmodel/IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream method
+# IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.EnumAttributes
-title: IStreamBufferRecordingAttribute::EnumAttributes method
+title: IStreamBufferRecordingAttribute::EnumAttributes
 author: windows-driver-content
 description: The EnumAttributes method enumerates the existing attributes of the stream buffer file. This method returns an enumerator object, which the caller can then use to enumerate the attributes.
 old-location: mstv\istreambufferrecordingattribute_enumattributes.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2944d1c4-a4ed-47a7-a0c4-a75cddb9cc99
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: EnumAttributes method [Microsoft TV Technologies], EnumAttributes method [Microsoft TV Technologies], IStreamBufferRecordingAttribute interface, EnumAttributes,IStreamBufferRecordingAttribute.EnumAttributes, IStreamBufferRecordingAttribute, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies], EnumAttributes method, IStreamBufferRecordingAttribute::EnumAttributes, IStreamBufferRecordingAttributeEnumAttributes, mstv.istreambufferrecordingattribute_enumattributes, sbe/IStreamBufferRecordingAttribute::EnumAttributes
+ms.keywords: EnumAttributes, EnumAttributes method [Microsoft TV Technologies], EnumAttributes method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],EnumAttributes method, IStreamBufferRecordingAttribute.EnumAttributes, IStreamBufferRecordingAttribute::EnumAttributes, IStreamBufferRecordingAttributeEnumAttributes, mstv.istreambufferrecordingattribute_enumattributes, sbe/IStreamBufferRecordingAttribute::EnumAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferRecordingAttribute::EnumAttributes method
+# IStreamBufferRecordingAttribute::EnumAttributes
 
 
 ## -description

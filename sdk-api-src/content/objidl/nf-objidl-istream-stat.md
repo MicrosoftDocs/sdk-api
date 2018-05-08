@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.Stat
-title: IStream::Stat method
+title: IStream::Stat
 author: windows-driver-content
 description: The Stat method retrieves the STATSTG structure for this stream.
 old-location: stg\istream_stat.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: c22ab396-dbc5-43a0-8448-35a2c094464f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IStream, IStream interface [Structured Storage], Stat method, IStream::Stat, Stat method [Structured Storage], Stat method [Structured Storage], IStream interface, Stat,IStream.Stat, _stg_istream_stat, objidl/IStream::Stat, stg.istream_stat
+ms.keywords: IStream interface [Structured Storage],Stat method, IStream.Stat, IStream::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],IStream interface, _stg_istream_stat, objidl/IStream::Stat, stg.istream_stat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStream::Stat method
+# IStream::Stat
 
 
 ## -description

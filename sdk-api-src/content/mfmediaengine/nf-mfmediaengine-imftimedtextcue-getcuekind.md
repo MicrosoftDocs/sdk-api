@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetCueKind
-title: IMFTimedTextCue::GetCueKind method
+title: IMFTimedTextCue::GetCueKind
 author: windows-driver-content
 description: Gets the kind of timed-text cue.
 old-location: mf\imftimedtextcue_getcuekind.htm
 old-project: medfound
 ms.assetid: 1BEB539D-4A51-4866-A627-5754525E7C8F
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetCueKind method [Media Foundation], GetCueKind method [Media Foundation], IMFTimedTextCue interface, GetCueKind,IMFTimedTextCue.GetCueKind, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetCueKind method, IMFTimedTextCue::GetCueKind, mf.imftimedtextcue_getcuekind, mfmediaengine/IMFTimedTextCue::GetCueKind
+ms.date: 5/3/2018
+ms.keywords: GetCueKind, GetCueKind method [Media Foundation], GetCueKind method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetCueKind method, IMFTimedTextCue.GetCueKind, IMFTimedTextCue::GetCueKind, mf.imftimedtextcue_getcuekind, mfmediaengine/IMFTimedTextCue::GetCueKind
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextCue::GetCueKind method
+# IMFTimedTextCue::GetCueKind
 
 
 ## -description

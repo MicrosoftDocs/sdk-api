@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.GetCurrentVolumeCount
-title: CVssWriter::GetCurrentVolumeCount method
+title: CVssWriter::GetCurrentVolumeCount
 author: windows-driver-content
 description: The GetCurrentVolumeCount method returns the number of volumes in the shadow copy set.
 old-location: base\cvsswriter_getcurrentvolumecount.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 5f553a46-10ee-475e-b028-2652c74fbe5d
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriter, CVssWriter interface [VSS], GetCurrentVolumeCount method, CVssWriter::GetCurrentVolumeCount, GetCurrentVolumeCount method [VSS], GetCurrentVolumeCount method [VSS], CVssWriter interface, GetCurrentVolumeCount,CVssWriter.GetCurrentVolumeCount, _win32_cvsswriter_getcurrentvolumecount, base.cvsswriter_getcurrentvolumecount, vswriter/CVssWriter::GetCurrentVolumeCount
+ms.keywords: CVssWriter interface [VSS],GetCurrentVolumeCount method, CVssWriter.GetCurrentVolumeCount, CVssWriter::GetCurrentVolumeCount, GetCurrentVolumeCount, GetCurrentVolumeCount method [VSS], GetCurrentVolumeCount method [VSS],CVssWriter interface, _win32_cvsswriter_getcurrentvolumecount, base.cvsswriter_getcurrentvolumecount, vswriter/CVssWriter::GetCurrentVolumeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriter::GetCurrentVolumeCount method
+# CVssWriter::GetCurrentVolumeCount
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.BeginDump
-title: ISimilarityTraitsTable::BeginDump method
+title: ISimilarityTraitsTable::BeginDump
 author: windows-driver-content
 description: Retrieves similarity data from the similarity traits table.
 old-location: rdc\isimilaritytraitstable_begindump.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 93298019-334b-4685-b95e-a1081c2bd9dc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BeginDump method [Remote Differential Compression], BeginDump method [Remote Differential Compression], ISimilarityTraitsTable interface, BeginDump,ISimilarityTraitsTable.BeginDump, ISimilarityTraitsTable, ISimilarityTraitsTable interface [Remote Differential Compression], BeginDump method, ISimilarityTraitsTable::BeginDump, fs.isimilaritytraitstable_begindump, msrdc/ISimilarityTraitsTable::BeginDump, rdc.isimilaritytraitstable_begindump
+ms.keywords: BeginDump, BeginDump method [Remote Differential Compression], BeginDump method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],BeginDump method, ISimilarityTraitsTable.BeginDump, ISimilarityTraitsTable::BeginDump, fs.isimilaritytraitstable_begindump, msrdc/ISimilarityTraitsTable::BeginDump, rdc.isimilaritytraitstable_begindump
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityTraitsTable::BeginDump method
+# ISimilarityTraitsTable::BeginDump
 
 
 ## -description

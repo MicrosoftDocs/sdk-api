@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.GetSignatures
-title: IXpsSignatureManager::GetSignatures method
+title: IXpsSignatureManager::GetSignatures
 author: windows-driver-content
 description: Gets a pointer to an IXpsSignatureCollection interface that contains a collection of XPS digital signatures.
 old-location: xps\ixpssignaturemanager_getsignatures.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 3a6a9a10-bc1d-45b8-a1b9-c7b725d9c13b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSignatures method [XPS Documents and Packaging], GetSignatures method [XPS Documents and Packaging], IXpsSignatureManager interface, GetSignatures,IXpsSignatureManager.GetSignatures, IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], GetSignatures method, IXpsSignatureManager::GetSignatures, xps.ixpssignaturemanager_getsignatures, xpsdigitalsignature/IXpsSignatureManager::GetSignatures
+ms.keywords: GetSignatures, GetSignatures method [XPS Documents and Packaging], GetSignatures method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatures method, IXpsSignatureManager.GetSignatures, IXpsSignatureManager::GetSignatures, xps.ixpssignaturemanager_getsignatures, xpsdigitalsignature/IXpsSignatureManager::GetSignatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureManager::GetSignatures method
+# IXpsSignatureManager::GetSignatures
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.GetPreferredFont
-title: ITextDocument2::GetPreferredFont method
+title: ITextDocument2::GetPreferredFont
 author: windows-driver-content
 description: Retrieves the preferred font for a particular character repertoire and character position.
 old-location: controls\itextdocument2_getpreferredfont.htm
 old-project: Controls
 ms.assetid: d07c3093-8050-4c62-8e90-3b09cdb10700
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetPreferredFont method [Windows Controls], GetPreferredFont method [Windows Controls], ITextDocument2 interface, GetPreferredFont,ITextDocument2.GetPreferredFont, ITextDocument2, ITextDocument2 interface [Windows Controls], GetPreferredFont method, ITextDocument2::GetPreferredFont, controls.itextdocument2_getpreferredfont, tom/ITextDocument2::GetPreferredFont, tomAboriginal, tomAnsi, tomArabic, tomArmenian, tomBIG5, tomBaltic, tomBengali, tomBraille, tomCherokee, tomCyrillic, tomDefaultCharRep, tomDevanagari, tomEastEurope, tomEmoji, tomEthiopic, tomGB2312, tomGeorgian, tomGetHeightOnly, tomGreek, tomGujarati, tomGurmukhi, tomHangul, tomHebrew, tomIgnoreCurrentFont, tomJamo, tomKannada, tomKayahli, tomKharoshthi, tomKhmer, tomLao, tomLimbu, tomMac, tomMalayalam, tomMatchAscii, tomMatchCharRep, tomMatchFontSignature, tomMatchMathFont, tomMongolian, tomMyanmar, tomNewTaiLu, tomOEM, tomOgham, tomOriya, tomPC437, tomRunic, tomShiftJIS, tomSinhala, tomSylotinagr, tomSymbol, tomSyriac, tomTaiLe, tomTamil, tomTelugu, tomThaana, tomThai, tomTibetan, tomTurkish, tomUsymbol, tomVietnamese, tomYi
+ms.date: 4/27/2018
+ms.keywords: GetPreferredFont, GetPreferredFont method [Windows Controls], GetPreferredFont method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetPreferredFont method, ITextDocument2.GetPreferredFont, ITextDocument2::GetPreferredFont, controls.itextdocument2_getpreferredfont, tom/ITextDocument2::GetPreferredFont, tomAboriginal, tomAnsi, tomArabic, tomArmenian, tomBIG5, tomBaltic, tomBengali, tomBraille, tomCherokee, tomCyrillic, tomDefaultCharRep, tomDevanagari, tomEastEurope, tomEmoji, tomEthiopic, tomGB2312, tomGeorgian, tomGetHeightOnly, tomGreek, tomGujarati, tomGurmukhi, tomHangul, tomHebrew, tomIgnoreCurrentFont, tomJamo, tomKannada, tomKayahli, tomKharoshthi, tomKhmer, tomLao, tomLimbu, tomMac, tomMalayalam, tomMatchAscii, tomMatchCharRep, tomMatchFontSignature, tomMatchMathFont, tomMongolian, tomMyanmar, tomNewTaiLu, tomOEM, tomOgham, tomOriya, tomPC437, tomRunic, tomShiftJIS, tomSinhala, tomSylotinagr, tomSymbol, tomSyriac, tomTaiLe, tomTamil, tomTelugu, tomThaana, tomThai, tomTibetan, tomTurkish, tomUsymbol, tomVietnamese, tomYi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::GetPreferredFont method
+# ITextDocument2::GetPreferredFont
 
 
 ## -description

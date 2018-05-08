@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.SetRecordName
-title: IWMMutualExclusion2::SetRecordName method
+title: IWMMutualExclusion2::SetRecordName
 author: windows-driver-content
 description: The SetRecordName method assigns a name to a record. You should assign a name to every record so that you can easily identify the records in the future.
 old-location: wmformat\iwmmutualexclusion2_setrecordname.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 9527024e-2d52-4a81-90a5-4ef5241ba6dd
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media Format], SetRecordName method, IWMMutualExclusion2::SetRecordName, IWMMutualExclusion2SetRecordName, SetRecordName method [windows Media Format], SetRecordName method [windows Media Format], IWMMutualExclusion2 interface, SetRecordName,IWMMutualExclusion2.SetRecordName, wmformat.iwmmutualexclusion2_setrecordname, wmsdkidl/IWMMutualExclusion2::SetRecordName
+ms.keywords: IWMMutualExclusion2 interface [windows Media Format],SetRecordName method, IWMMutualExclusion2.SetRecordName, IWMMutualExclusion2::SetRecordName, IWMMutualExclusion2SetRecordName, SetRecordName, SetRecordName method [windows Media Format], SetRecordName method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_setrecordname, wmsdkidl/IWMMutualExclusion2::SetRecordName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMMutualExclusion2::SetRecordName method
+# IWMMutualExclusion2::SetRecordName
 
 
 ## -description

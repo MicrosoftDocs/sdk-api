@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnStatusChange
-title: ITextStoreAnchorSink::OnStatusChange method
+title: ITextStoreAnchorSink::OnStatusChange
 author: windows-driver-content
 description: ITextStoreAnchorSink::OnStatusChange method
 old-location: tsf\itextstoreanchorsink_onstatuschange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 28bdfa93-29c1-4a9f-b85e-20c39a1b429b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchorSink, ITextStoreAnchorSink interface [Text Services Framework], OnStatusChange method, ITextStoreAnchorSink::OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework], ITextStoreAnchorSink interface, OnStatusChange,ITextStoreAnchorSink.OnStatusChange, _tsf_itextstoreanchorsink_onstatuschange_ref, textstor/ITextStoreAnchorSink::OnStatusChange, tsf.itextstoreanchorsink_onstatuschange
+ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnStatusChange method, ITextStoreAnchorSink.OnStatusChange, ITextStoreAnchorSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onstatuschange_ref, textstor/ITextStoreAnchorSink::OnStatusChange, tsf.itextstoreanchorsink_onstatuschange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchorSink::OnStatusChange method
+# ITextStoreAnchorSink::OnStatusChange
 
 
 ## -description

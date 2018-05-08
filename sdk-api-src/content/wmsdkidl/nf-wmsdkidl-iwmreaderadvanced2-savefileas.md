@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.SaveFileAs
-title: IWMReaderAdvanced2::SaveFileAs method
+title: IWMReaderAdvanced2::SaveFileAs
 author: windows-driver-content
 description: The SaveFileAs method saves the current file.
 old-location: wmformat\iwmreaderadvanced2_savefileas.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 97bdac1f-8830-45c0-9229-322ad72b3954
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], SaveFileAs method, IWMReaderAdvanced2::SaveFileAs, IWMReaderAdvanced2SaveFileAs, SaveFileAs method [windows Media Format], SaveFileAs method [windows Media Format], IWMReaderAdvanced2 interface, SaveFileAs,IWMReaderAdvanced2.SaveFileAs, wmformat.iwmreaderadvanced2_savefileas, wmsdkidl/IWMReaderAdvanced2::SaveFileAs
+ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SaveFileAs method, IWMReaderAdvanced2.SaveFileAs, IWMReaderAdvanced2::SaveFileAs, IWMReaderAdvanced2SaveFileAs, SaveFileAs, SaveFileAs method [windows Media Format], SaveFileAs method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_savefileas, wmsdkidl/IWMReaderAdvanced2::SaveFileAs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced2::SaveFileAs method
+# IWMReaderAdvanced2::SaveFileAs
 
 
 ## -description

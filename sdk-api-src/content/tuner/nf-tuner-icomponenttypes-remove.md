@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentTypes.Remove
-title: IComponentTypes::Remove method
+title: IComponentTypes::Remove
 author: windows-driver-content
 description: The Remove method removes the ComponentType object at the specified index number.
 old-location: mstv\icomponenttypes_remove.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7344851a-51ba-41c0-b368-e5eecfb5fb08
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IComponentTypes, IComponentTypes interface [Microsoft TV Technologies], Remove method, IComponentTypes::Remove, IComponentTypesRemove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies], IComponentTypes interface, Remove,IComponentTypes.Remove, mstv.icomponenttypes_remove, tuner/IComponentTypes::Remove
+ms.keywords: IComponentTypes interface [Microsoft TV Technologies],Remove method, IComponentTypes.Remove, IComponentTypes::Remove, IComponentTypesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IComponentTypes interface, mstv.icomponenttypes_remove, tuner/IComponentTypes::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IComponentTypes::Remove method
+# IComponentTypes::Remove
 
 
 ## -description

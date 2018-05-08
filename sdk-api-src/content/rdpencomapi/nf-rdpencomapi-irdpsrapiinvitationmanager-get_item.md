@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.get_Item
-title: IRDPSRAPIInvitationManager::get_Item method
+title: IRDPSRAPIInvitationManager::get_Item
 author: windows-driver-content
 description: An item in the invitation collection.
 old-location: rdp\irdpsrapiinvitationmanager_item.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 0a6acaec-0051-4753-8926-c708e75c3e07
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIInvitationManager, IRDPSRAPIInvitationManager interface [RDP], Item property, IRDPSRAPIInvitationManager.Item, IRDPSRAPIInvitationManager::get_Item, Item property [RDP], Item property [RDP], IRDPSRAPIInvitationManager interface, Item property [RDP], RDPSRAPIInvitationManager object, RDPSRAPIInvitationManager object [RDP], Item property, get_Item,IRDPSRAPIInvitationManager.get_Item, rdp.irdpsrapiinvitationmanager_item, rdpencomapi/IRDPSRAPIInvitationManager::Item, rdpencomapi/IRDPSRAPIInvitationManager::get_Item
+ms.keywords: IRDPSRAPIInvitationManager interface [RDP],Item property, IRDPSRAPIInvitationManager.Item, IRDPSRAPIInvitationManager.get_Item, IRDPSRAPIInvitationManager::Item, IRDPSRAPIInvitationManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIInvitationManager interface, Item property [RDP],RDPSRAPIInvitationManager object, RDPSRAPIInvitationManager object [RDP],Item property, get_Item, rdp.irdpsrapiinvitationmanager_item, rdpencomapi/IRDPSRAPIInvitationManager::Item, rdpencomapi/IRDPSRAPIInvitationManager::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIInvitationManager::get_Item method
+# IRDPSRAPIInvitationManager::get_Item
 
 
 ## -description

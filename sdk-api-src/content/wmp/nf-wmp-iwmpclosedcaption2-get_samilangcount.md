@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.get_SAMILangCount
-title: IWMPClosedCaption2::get_SAMILangCount method
+title: IWMPClosedCaption2::get_SAMILangCount
 author: windows-driver-content
 description: The get_SAMILangCount method retrieves the number of languages supported by the current SAMI file.
 old-location: wmp\iwmpclosedcaption2_get_samilangcount.htm
 old-project: WMP
 ms.assetid: 6de8bef5-f0d1-498b-a482-e3f1c3e53c24
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPClosedCaption2, IWMPClosedCaption2 interface [Windows Media Player], get_SAMILangCount method, IWMPClosedCaption2::get_SAMILangCount, IWMPClosedCaption2get_SAMILangCount, get_SAMILangCount method [Windows Media Player], get_SAMILangCount method [Windows Media Player], IWMPClosedCaption2 interface, get_SAMILangCount,IWMPClosedCaption2.get_SAMILangCount, wmp.iwmpclosedcaption2_get_samilangcount, wmp/IWMPClosedCaption2::get_SAMILangCount
+ms.date: 5/4/2018
+ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],get_SAMILangCount method, IWMPClosedCaption2.get_SAMILangCount, IWMPClosedCaption2::get_SAMILangCount, IWMPClosedCaption2get_SAMILangCount, get_SAMILangCount, get_SAMILangCount method [Windows Media Player], get_SAMILangCount method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_get_samilangcount, wmp/IWMPClosedCaption2::get_SAMILangCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPClosedCaption2::get_SAMILangCount method
+# IWMPClosedCaption2::get_SAMILangCount
 
 
 ## -description

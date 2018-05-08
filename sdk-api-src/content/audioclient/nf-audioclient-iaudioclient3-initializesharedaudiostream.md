@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient3.InitializeSharedAudioStream
-title: IAudioClient3::InitializeSharedAudioStream method
+title: IAudioClient3::InitializeSharedAudioStream
 author: windows-driver-content
 description: Initializes a shared stream with the specified periodicity.
 old-location: coreaudio\iaudioclient3_initializesharedaudiostream.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 2DB9ECEC-8199-4157-8854-26A21B88E58A
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioClient3, IAudioClient3 interface [Core Audio], InitializeSharedAudioStream method, IAudioClient3::InitializeSharedAudioStream, InitializeSharedAudioStream method [Core Audio], InitializeSharedAudioStream method [Core Audio], IAudioClient3 interface, InitializeSharedAudioStream,IAudioClient3.InitializeSharedAudioStream, audioclient/IAudioClient3::InitializeSharedAudioStream, coreaudio.iaudioclient3_initializesharedaudiostream
+ms.keywords: IAudioClient3 interface [Core Audio],InitializeSharedAudioStream method, IAudioClient3.InitializeSharedAudioStream, IAudioClient3::InitializeSharedAudioStream, InitializeSharedAudioStream, InitializeSharedAudioStream method [Core Audio], InitializeSharedAudioStream method [Core Audio],IAudioClient3 interface, audioclient/IAudioClient3::InitializeSharedAudioStream, coreaudio.iaudioclient3_initializesharedaudiostream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioClient3::InitializeSharedAudioStream method
+# IAudioClient3::InitializeSharedAudioStream
 
 
 ## -description

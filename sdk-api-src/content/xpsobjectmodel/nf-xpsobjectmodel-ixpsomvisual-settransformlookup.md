@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetTransformLookup
-title: IXpsOMVisual::SetTransformLookup method
+title: IXpsOMVisual::SetTransformLookup
 author: windows-driver-content
 description: Sets the lookup key name of a shared matrix transform in a resource dictionary.
 old-location: xps\ixpsomvisual_settransformlookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b9066cf8-37b5-4c30-ae41-f92a61aa552c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], SetTransformLookup method, IXpsOMVisual::SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging], IXpsOMVisual interface, SetTransformLookup,IXpsOMVisual.SetTransformLookup, xps.ixpsomvisual_settransformlookup, xpsobjectmodel/IXpsOMVisual::SetTransformLookup
+ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMVisual.SetTransformLookup, IXpsOMVisual::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_settransformlookup, xpsobjectmodel/IXpsOMVisual::SetTransformLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::SetTransformLookup method
+# IXpsOMVisual::SetTransformLookup
 
 
 ## -description

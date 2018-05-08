@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmExportImport.ExportFileScreenTemplates
-title: IFsrmExportImport::ExportFileScreenTemplates method
+title: IFsrmExportImport::ExportFileScreenTemplates
 author: windows-driver-content
 description: Exports one or more file screen templates to the specified file.
 old-location: fsrm\ifsrmexportimport_exportfilescreentemplates.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 5804dece-7243-4f41-a949-e663852219e8
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ExportFileScreenTemplates method [File Server Resource Manager], ExportFileScreenTemplates method [File Server Resource Manager], FsrmExportImport class, ExportFileScreenTemplates method [File Server Resource Manager], IFsrmExportImport interface, ExportFileScreenTemplates,IFsrmExportImport.ExportFileScreenTemplates, FsrmExportImport class [File Server Resource Manager], ExportFileScreenTemplates method, IFsrmExportImport, IFsrmExportImport interface [File Server Resource Manager], ExportFileScreenTemplates method, IFsrmExportImport::ExportFileScreenTemplates, fs.ifsrmexportimport_exportfilescreentemplates, fsrm.ifsrmexportimport_exportfilescreentemplates, fsrm/IFsrmExportImport::ExportFileScreenTemplates
+ms.keywords: ExportFileScreenTemplates, ExportFileScreenTemplates method [File Server Resource Manager], ExportFileScreenTemplates method [File Server Resource Manager],FsrmExportImport class, ExportFileScreenTemplates method [File Server Resource Manager],IFsrmExportImport interface, FsrmExportImport class [File Server Resource Manager],ExportFileScreenTemplates method, IFsrmExportImport interface [File Server Resource Manager],ExportFileScreenTemplates method, IFsrmExportImport.ExportFileScreenTemplates, IFsrmExportImport::ExportFileScreenTemplates, fs.ifsrmexportimport_exportfilescreentemplates, fsrm.ifsrmexportimport_exportfilescreentemplates, fsrm/IFsrmExportImport::ExportFileScreenTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmExportImport::ExportFileScreenTemplates method
+# IFsrmExportImport::ExportFileScreenTemplates
 
 
 ## -description

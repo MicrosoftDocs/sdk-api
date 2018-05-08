@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.SetStartPoint
-title: IXpsOMGeometryFigure::SetStartPoint method
+title: IXpsOMGeometryFigure::SetStartPoint
 author: windows-driver-content
 description: Sets the starting point of the figure.
 old-location: xps\ixpsomgeometryfigure_setstartpoint.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d9885c3d-06a0-4d25-81fc-cf0ef466a797
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], SetStartPoint method, IXpsOMGeometryFigure::SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging], IXpsOMGeometryFigure interface, SetStartPoint,IXpsOMGeometryFigure.SetStartPoint, xps.ixpsomgeometryfigure_setstartpoint, xpsobjectmodel/IXpsOMGeometryFigure::SetStartPoint
+ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetStartPoint method, IXpsOMGeometryFigure.SetStartPoint, IXpsOMGeometryFigure::SetStartPoint, SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, xps.ixpsomgeometryfigure_setstartpoint, xpsobjectmodel/IXpsOMGeometryFigure::SetStartPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigure::SetStartPoint method
+# IXpsOMGeometryFigure::SetStartPoint
 
 
 ## -description

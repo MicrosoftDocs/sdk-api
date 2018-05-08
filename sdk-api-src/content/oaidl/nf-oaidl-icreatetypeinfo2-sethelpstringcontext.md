@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetHelpStringContext
-title: ICreateTypeInfo2::SetHelpStringContext method
+title: ICreateTypeInfo2::SetHelpStringContext
 author: windows-driver-content
 description: Sets the context number for the specified Help string.
 old-location: automat\icreatetypeinfo2_sethelpstringcontext.htm
 old-project: automat
 ms.assetid: 2f8ed63a-1cbb-4fd3-a848-aeb8123adf04
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], SetHelpStringContext method, ICreateTypeInfo2::SetHelpStringContext, SetHelpStringContext method [Automation], SetHelpStringContext method [Automation], ICreateTypeInfo2 interface, SetHelpStringContext,ICreateTypeInfo2.SetHelpStringContext, _oa96_ICreateTypeInfo2_SetHelpStringContext, automat.icreatetypeinfo2_sethelpstringcontext, oaidl/ICreateTypeInfo2::SetHelpStringContext
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo2 interface [Automation],SetHelpStringContext method, ICreateTypeInfo2.SetHelpStringContext, ICreateTypeInfo2::SetHelpStringContext, SetHelpStringContext, SetHelpStringContext method [Automation], SetHelpStringContext method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetHelpStringContext, automat.icreatetypeinfo2_sethelpstringcontext, oaidl/ICreateTypeInfo2::SetHelpStringContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo2::SetHelpStringContext method
+# ICreateTypeInfo2::SetHelpStringContext
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_process_identifier_type.htm
 old-project: medfound
 ms.assetid: A8FFBBF1-7893-4D42-A8FB-1B7E56834603
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration [Media Foundation], D3D11_PROCESSIDTYPE_DWM, D3D11_PROCESSIDTYPE_HANDLE, D3D11_PROCESSIDTYPE_UNKNOWN, d3d11/D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, d3d11/D3D11_PROCESSIDTYPE_DWM, d3d11/D3D11_PROCESSIDTYPE_HANDLE, d3d11/D3D11_PROCESSIDTYPE_UNKNOWN, mf.d3d11_authenticated_process_identifier_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

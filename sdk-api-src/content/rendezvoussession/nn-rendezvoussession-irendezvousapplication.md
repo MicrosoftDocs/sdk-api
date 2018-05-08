@@ -8,7 +8,7 @@ old-project: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvousapplication\irendezvousapplication.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRendezvousApplication, IRendezvousApplication interface [Remote Assistance], IRendezvousApplication interface [Remote Assistance], described, remoteassist.remoteassist_IRendezvousApplication, remoteassist_IRendezvousApplication, rendezvoussession/IRendezvousApplication
+ms.keywords: IRendezvousApplication, IRendezvousApplication interface [Remote Assistance], IRendezvousApplication interface [Remote Assistance],described, remoteassist.remoteassist_IRendezvousApplication, remoteassist_IRendezvousApplication, rendezvoussession/IRendezvousApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

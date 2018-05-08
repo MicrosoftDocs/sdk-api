@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_SinkName
-title: IMSVidStreamBufferSink::get_SinkName method
+title: IMSVidStreamBufferSink::get_SinkName
 author: windows-driver-content
 description: The get_SinkName method retrieves the name of the stub file that points to the backing files.
 old-location: mstv\imsvidstreambuffersink_get_sinkname.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a1fda0a0-7b18-4eb8-9555-19fb92fc32f2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSink, IMSVidStreamBufferSink interface [Microsoft TV Technologies], get_SinkName method, IMSVidStreamBufferSink::get_SinkName, IMSVidStreamBufferSinkget_SinkName, get_SinkName method [Microsoft TV Technologies], get_SinkName method [Microsoft TV Technologies], IMSVidStreamBufferSink interface, get_SinkName,IMSVidStreamBufferSink.get_SinkName, mstv.imsvidstreambuffersink_get_sinkname, segment/IMSVidStreamBufferSink::get_SinkName
+ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_SinkName method, IMSVidStreamBufferSink.get_SinkName, IMSVidStreamBufferSink::get_SinkName, IMSVidStreamBufferSinkget_SinkName, get_SinkName, get_SinkName method [Microsoft TV Technologies], get_SinkName method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_sinkname, segment/IMSVidStreamBufferSink::get_SinkName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSink::get_SinkName method
+# IMSVidStreamBufferSink::get_SinkName
 
 
 ## -description

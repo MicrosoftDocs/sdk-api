@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 52E76A8D-E7E2-46F5-BBCC-B7C74F1B1122
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICDdsFrameDecode, IWICDdsFrameDecode interface [Windows Imaging Component], IWICDdsFrameDecode interface [Windows Imaging Component], described, wic.iwicddsframedecode, wincodec/IWICDdsFrameDecode
+ms.keywords: IWICDdsFrameDecode, IWICDdsFrameDecode interface [Windows Imaging Component], IWICDdsFrameDecode interface [Windows Imaging Component],described, wic.iwicddsframedecode, wincodec/IWICDdsFrameDecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

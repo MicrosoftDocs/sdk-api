@@ -7,8 +7,8 @@ old-location: ics\inatexternalipaddresscallback.htm
 old-project: ICS
 ms.assetid: f180f597-680b-47ce-b437-3395069a8c77
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INATExternalIPAddressCallback, INATExternalIPAddressCallback interface [ICS/ICF], INATExternalIPAddressCallback interface [ICS/ICF], described, _ics_inatexternalipaddresscallback, ics.inatexternalipaddresscallback, natupnp/INATExternalIPAddressCallback
+ms.date: 5/1/2018
+ms.keywords: INATExternalIPAddressCallback, INATExternalIPAddressCallback interface [ICS/ICF], INATExternalIPAddressCallback interface [ICS/ICF],described, _ics_inatexternalipaddresscallback, ics.inatexternalipaddresscallback, natupnp/INATExternalIPAddressCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

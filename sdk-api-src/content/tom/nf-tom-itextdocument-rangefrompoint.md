@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument.RangeFromPoint
-title: ITextDocument::RangeFromPoint method
+title: ITextDocument::RangeFromPoint
 author: windows-driver-content
 description: Retrieves a range for the content at or nearest to the specified point on the screen.
 old-location: controls\ITextDocument_RangeFromPoint.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\rangefrompoint.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextDocument, ITextDocument interface [Windows Controls], RangeFromPoint method, ITextDocument::RangeFromPoint, RangeFromPoint method [Windows Controls], RangeFromPoint method [Windows Controls], ITextDocument interface, RangeFromPoint,ITextDocument.RangeFromPoint, _win32_ITextDocument_RangeFromPoint, _win32_ITextDocument_RangeFromPoint_cpp, controls.ITextDocument_RangeFromPoint, controls._win32_ITextDocument_RangeFromPoint, tom/ITextDocument::RangeFromPoint
+ms.date: 4/27/2018
+ms.keywords: ITextDocument interface [Windows Controls],RangeFromPoint method, ITextDocument.RangeFromPoint, ITextDocument::RangeFromPoint, RangeFromPoint, RangeFromPoint method [Windows Controls], RangeFromPoint method [Windows Controls],ITextDocument interface, _win32_ITextDocument_RangeFromPoint, _win32_ITextDocument_RangeFromPoint_cpp, controls.ITextDocument_RangeFromPoint, controls._win32_ITextDocument_RangeFromPoint, tom/ITextDocument::RangeFromPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument::RangeFromPoint method
+# ITextDocument::RangeFromPoint
 
 
 ## -description

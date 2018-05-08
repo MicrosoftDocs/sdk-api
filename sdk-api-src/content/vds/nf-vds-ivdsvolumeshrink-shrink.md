@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeShrink.Shrink
-title: IVdsVolumeShrink::Shrink method
+title: IVdsVolumeShrink::Shrink
 author: windows-driver-content
 description: Shrinks the volume and all plexes and returns the released extents.
 old-location: base\ivdsvolumeshrink_shrink.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: a6d91cb0-b9a4-4a5f-94bc-824b1691bcd7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsVolumeShrink, IVdsVolumeShrink interface, Shrink method, IVdsVolumeShrink::Shrink, Shrink method, Shrink method, IVdsVolumeShrink interface, Shrink,IVdsVolumeShrink.Shrink, base.ivdsvolumeshrink_shrink, vds/IVdsVolumeShrink::Shrink
+ms.keywords: IVdsVolumeShrink interface,Shrink method, IVdsVolumeShrink.Shrink, IVdsVolumeShrink::Shrink, Shrink, Shrink method, Shrink method,IVdsVolumeShrink interface, base.ivdsvolumeshrink_shrink, vds/IVdsVolumeShrink::Shrink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolumeShrink::Shrink method
+# IVdsVolumeShrink::Shrink
 
 
 ## -description

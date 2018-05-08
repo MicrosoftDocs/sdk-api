@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetCLSID
-title: IUrlAccessor::GetCLSID method
+title: IUrlAccessor::GetCLSID
 author: windows-driver-content
 description: Gets the CLSID for the document type of the URL item being processed.
 old-location: search\_search_IUrlAccessor_GetCLSID.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getclsid.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetCLSID method [search], GetCLSID method [search], IUrlAccessor interface, GetCLSID,IUrlAccessor.GetCLSID, IUrlAccessor, IUrlAccessor interface [search], GetCLSID method, IUrlAccessor::GetCLSID, _search_IUrlAccessor_GetCLSID, search._search_IUrlAccessor_GetCLSID, searchapi/IUrlAccessor::GetCLSID
+ms.date: 5/4/2018
+ms.keywords: GetCLSID, GetCLSID method [search], GetCLSID method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetCLSID method, IUrlAccessor.GetCLSID, IUrlAccessor::GetCLSID, _search_IUrlAccessor_GetCLSID, search._search_IUrlAccessor_GetCLSID, searchapi/IUrlAccessor::GetCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUrlAccessor::GetCLSID method
+# IUrlAccessor::GetCLSID
 
 
 ## -description

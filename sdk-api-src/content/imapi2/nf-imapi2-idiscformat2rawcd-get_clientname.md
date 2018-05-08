@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_ClientName
-title: IDiscFormat2RawCD::get_ClientName method
+title: IDiscFormat2RawCD::get_ClientName
 author: windows-driver-content
 description: Retrieves the friendly name of the client.
 old-location: imapi\idiscformat2rawcd_get_clientname.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: dd706b68-0dde-4a44-b5f5-764fad56844f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], get_ClientName method, IDiscFormat2RawCD::get_ClientName, get_ClientName method [IMAPI], get_ClientName method [IMAPI], IDiscFormat2RawCD interface, get_ClientName,IDiscFormat2RawCD.get_ClientName, imapi.idiscformat2rawcd_get_clientname, imapi2/IDiscFormat2RawCD::get_ClientName
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_ClientName method, IDiscFormat2RawCD.get_ClientName, IDiscFormat2RawCD::get_ClientName, get_ClientName, get_ClientName method [IMAPI], get_ClientName method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_clientname, imapi2/IDiscFormat2RawCD::get_ClientName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCD::get_ClientName method
+# IDiscFormat2RawCD::get_ClientName
 
 
 ## -description

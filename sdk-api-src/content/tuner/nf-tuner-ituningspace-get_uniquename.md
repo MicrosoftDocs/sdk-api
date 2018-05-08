@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.get_UniqueName
-title: ITuningSpace::get_UniqueName method
+title: ITuningSpace::get_UniqueName
 author: windows-driver-content
 description: The get_UniqueName method retrieves the unique name of the tuning space.
 old-location: mstv\ituningspace_get_uniquename.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 5c605f8c-7b0c-478d-a823-19e2f396953a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], get_UniqueName method, ITuningSpace::get_UniqueName, ITuningSpaceget_UniqueName, get_UniqueName method [Microsoft TV Technologies], get_UniqueName method [Microsoft TV Technologies], ITuningSpace interface, get_UniqueName,ITuningSpace.get_UniqueName, mstv.ituningspace_get_uniquename, tuner/ITuningSpace::get_UniqueName
+ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_UniqueName method, ITuningSpace.get_UniqueName, ITuningSpace::get_UniqueName, ITuningSpaceget_UniqueName, get_UniqueName, get_UniqueName method [Microsoft TV Technologies], get_UniqueName method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_uniquename, tuner/ITuningSpace::get_UniqueName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpace::get_UniqueName method
+# ITuningSpace::get_UniqueName
 
 
 ## -description

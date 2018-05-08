@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyJobs.GetCount
-title: IEnumBackgroundCopyJobs::GetCount method
+title: IEnumBackgroundCopyJobs::GetCount
 author: windows-driver-content
 description: Retrieves a count of the number of jobs in the enumeration.
 old-location: bits\ienumbackgroundcopyjobs_getcount.htm
 old-project: Bits
 ms.assetid: 024ffd11-5084-4ff5-b1b6-9aec3e802900
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetCount method [BITS], GetCount method [BITS], IEnumBackgroundCopyJobs interface, GetCount,IEnumBackgroundCopyJobs.GetCount, IEnumBackgroundCopyJobs, IEnumBackgroundCopyJobs interface [BITS], GetCount method, IEnumBackgroundCopyJobs::GetCount, _drz_ienumbackgroundcopyjobs_getcount, bits.ienumbackgroundcopyjobs_getcount, bits/IEnumBackgroundCopyJobs::GetCount
+ms.date: 4/27/2018
+ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyJobs interface, IEnumBackgroundCopyJobs interface [BITS],GetCount method, IEnumBackgroundCopyJobs.GetCount, IEnumBackgroundCopyJobs::GetCount, _drz_ienumbackgroundcopyjobs_getcount, bits.ienumbackgroundcopyjobs_getcount, bits/IEnumBackgroundCopyJobs::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IEnumBackgroundCopyJobs::GetCount method
+# IEnumBackgroundCopyJobs::GetCount
 
 
 ## -description

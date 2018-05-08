@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.ExposeSnapshot
-title: IVssBackupComponents::ExposeSnapshot method
+title: IVssBackupComponents::ExposeSnapshot
 author: windows-driver-content
 description: The ExposeSnapshot method exposes a shadow copy as a drive letter, mounted folder, or file share.
 old-location: base\ivssbackupcomponents_exposesnapshot.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 5a0abafa-d770-4529-90e4-0c597729d525
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: ExposeSnapshot method [VSS], ExposeSnapshot method [VSS], IVssBackupComponents interface, ExposeSnapshot,IVssBackupComponents.ExposeSnapshot, IVssBackupComponents, IVssBackupComponents interface [VSS], ExposeSnapshot method, IVssBackupComponents::ExposeSnapshot, _win32_ivssbackupcomponents_exposesnapshot, base.ivssbackupcomponents_exposesnapshot, vsbackup/IVssBackupComponents::ExposeSnapshot
+ms.keywords: ExposeSnapshot, ExposeSnapshot method [VSS], ExposeSnapshot method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],ExposeSnapshot method, IVssBackupComponents.ExposeSnapshot, IVssBackupComponents::ExposeSnapshot, _win32_ivssbackupcomponents_exposesnapshot, base.ivssbackupcomponents_exposesnapshot, vsbackup/IVssBackupComponents::ExposeSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::ExposeSnapshot method
+# IVssBackupComponents::ExposeSnapshot
 
 
 ## -description

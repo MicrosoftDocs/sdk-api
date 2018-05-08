@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.QueryFileSystemTypes
-title: IVdsService::QueryFileSystemTypes method
+title: IVdsService::QueryFileSystemTypes
 author: windows-driver-content
 description: Returns property details for all file systems known to VDS.
 old-location: base\ivdsservice_queryfilesystemtypes.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 17dcafc8-8faf-4dc2-af24-7e1ab257201e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsService, IVdsService interface [VDS], QueryFileSystemTypes method, IVdsService::QueryFileSystemTypes, QueryFileSystemTypes method [VDS], QueryFileSystemTypes method [VDS], IVdsService interface, QueryFileSystemTypes,IVdsService.QueryFileSystemTypes, base.ivdsservice_queryfilesystemtypes, vds/IVdsService::QueryFileSystemTypes
+ms.keywords: IVdsService interface [VDS],QueryFileSystemTypes method, IVdsService.QueryFileSystemTypes, IVdsService::QueryFileSystemTypes, QueryFileSystemTypes, QueryFileSystemTypes method [VDS], QueryFileSystemTypes method [VDS],IVdsService interface, base.ivdsservice_queryfilesystemtypes, vds/IVdsService::QueryFileSystemTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsService::QueryFileSystemTypes method
+# IVdsService::QueryFileSystemTypes
 
 
 ## -description

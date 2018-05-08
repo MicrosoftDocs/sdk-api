@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_customSettingsApplied
-title: IWindowsMediaLibrarySharingServices::get_customSettingsApplied method
+title: IWindowsMediaLibrarySharingServices::get_customSettingsApplied
 author: windows-driver-content
 description: The get_customSettingsApplied method retrieves a value that indicates whether any custom media-sharing settings are in place for the current user.
 old-location: wmlss\IWMLSSget_customSettingsApplied.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: f0e4f5b8-2dcc-4e29-b59d-731608e5b8dd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], get_customSettingsApplied method, IWindowsMediaLibrarySharingServices::get_customSettingsApplied, get_customSettingsApplied method [Windows Media Library Sharing Services], get_customSettingsApplied method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, get_customSettingsApplied,IWindowsMediaLibrarySharingServices.get_customSettingsApplied, wmlss.IWMLSSget_customSettingsApplied, wmlss/IWindowsMediaLibrarySharingServices::get_customSettingsApplied
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_customSettingsApplied method, IWindowsMediaLibrarySharingServices.get_customSettingsApplied, IWindowsMediaLibrarySharingServices::get_customSettingsApplied, get_customSettingsApplied, get_customSettingsApplied method [Windows Media Library Sharing Services], get_customSettingsApplied method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_customSettingsApplied, wmlss/IWindowsMediaLibrarySharingServices::get_customSettingsApplied
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::get_customSettingsApplied method
+# IWindowsMediaLibrarySharingServices::get_customSettingsApplied
 
 
 ## -description

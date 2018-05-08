@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession2.get_FrameBuffer
-title: IRDPSRAPISharingSession2::get_FrameBuffer method
+title: IRDPSRAPISharingSession2::get_FrameBuffer
 author: windows-driver-content
 description: Gets a frame buffer for this session.
 old-location: rdp\irdpsrapisharingsession2_framebuffer.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 2547b317-0c1b-429c-81d4-7cb97e1cc3e0
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: FrameBuffer property [RDP], FrameBuffer property [RDP], IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession2, IRDPSRAPISharingSession2 interface [RDP], FrameBuffer property, IRDPSRAPISharingSession2.FrameBuffer, IRDPSRAPISharingSession2::get_FrameBuffer, get_FrameBuffer,IRDPSRAPISharingSession2.get_FrameBuffer, rdp.irdpsrapisharingsession2_framebuffer, rdpencomapi/IRDPSRAPISharingSession2::FrameBuffer, rdpencomapi/IRDPSRAPISharingSession2::get_FrameBuffer
+ms.keywords: FrameBuffer property [RDP], FrameBuffer property [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession2 interface [RDP],FrameBuffer property, IRDPSRAPISharingSession2.FrameBuffer, IRDPSRAPISharingSession2.get_FrameBuffer, IRDPSRAPISharingSession2::FrameBuffer, IRDPSRAPISharingSession2::get_FrameBuffer, get_FrameBuffer, rdp.irdpsrapisharingsession2_framebuffer, rdpencomapi/IRDPSRAPISharingSession2::FrameBuffer, rdpencomapi/IRDPSRAPISharingSession2::get_FrameBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPISharingSession2::get_FrameBuffer method
+# IRDPSRAPISharingSession2::get_FrameBuffer
 
 
 ## -description

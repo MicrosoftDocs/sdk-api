@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioDeviceEndpoint.GetRTCaps
-title: IAudioDeviceEndpoint::GetRTCaps method
+title: IAudioDeviceEndpoint::GetRTCaps
 author: windows-driver-content
 description: Queries whether the audio device is real-time (RT)-capable. This method is not used in Remote Desktop Services implementations of IAudioDeviceEndpoint.
 old-location: termserv\iaudiodeviceendpoint_getrtcaps.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: ba8aa8c2-8d62-477a-b5c0-338c989c57a6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetRTCaps method [Remote Desktop Services], GetRTCaps method [Remote Desktop Services], IAudioDeviceEndpoint interface, GetRTCaps,IAudioDeviceEndpoint.GetRTCaps, IAudioDeviceEndpoint, IAudioDeviceEndpoint interface [Remote Desktop Services], GetRTCaps method, IAudioDeviceEndpoint::GetRTCaps, audioengineendpoint/IAudioDeviceEndpoint::GetRTCaps, termserv.iaudiodeviceendpoint_getrtcaps
+ms.keywords: GetRTCaps, GetRTCaps method [Remote Desktop Services], GetRTCaps method [Remote Desktop Services],IAudioDeviceEndpoint interface, IAudioDeviceEndpoint interface [Remote Desktop Services],GetRTCaps method, IAudioDeviceEndpoint.GetRTCaps, IAudioDeviceEndpoint::GetRTCaps, audioengineendpoint/IAudioDeviceEndpoint::GetRTCaps, termserv.iaudiodeviceendpoint_getrtcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioDeviceEndpoint::GetRTCaps method
+# IAudioDeviceEndpoint::GetRTCaps
 
 
 ## -description

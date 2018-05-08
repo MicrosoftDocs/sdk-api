@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: Wab32.dll
+req.dll: 
 req.irql: 
 req.product: Windows Address Book 5.0
 ---

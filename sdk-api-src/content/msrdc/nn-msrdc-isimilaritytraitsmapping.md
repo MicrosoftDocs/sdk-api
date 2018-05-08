@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 1ddc599b-5a9b-4807-9005-00793f9a6ed4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], ISimilarityTraitsMapping interface [Remote Differential Compression], described, fs.isimilaritytraitsmapping, msrdc/ISimilarityTraitsMapping, rdc.isimilaritytraitsmapping
+ms.keywords: ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], ISimilarityTraitsMapping interface [Remote Differential Compression],described, fs.isimilaritytraitsmapping, msrdc/ISimilarityTraitsMapping, rdc.isimilaritytraitsmapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.get_IsRealTime
-title: IFsiFileItem2::get_IsRealTime method
+title: IFsiFileItem2::get_IsRealTime
 author: windows-driver-content
 description: Retrieves the property value that specifies if a file item in the file system image is a 'Real-Time' or standard file.
 old-location: imapi\ifsifileitem2_get_isrealtime.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: a8b8fca4-f24c-4698-b84d-7b79ad81d467
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiFileItem2, IFsiFileItem2 interface [IMAPI], get_IsRealTime method, IFsiFileItem2::get_IsRealTime, get_IsRealTime method [IMAPI], get_IsRealTime method [IMAPI], IFsiFileItem2 interface, get_IsRealTime,IFsiFileItem2.get_IsRealTime, imapi.ifsifileitem2_get_isrealtime, imapi2fs/IFsiFileItem2::get_IsRealTime
+ms.keywords: IFsiFileItem2 interface [IMAPI],get_IsRealTime method, IFsiFileItem2.get_IsRealTime, IFsiFileItem2::get_IsRealTime, get_IsRealTime, get_IsRealTime method [IMAPI], get_IsRealTime method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_isrealtime, imapi2fs/IFsiFileItem2::get_IsRealTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiFileItem2::get_IsRealTime method
+# IFsiFileItem2::get_IsRealTime
 
 
 ## -description

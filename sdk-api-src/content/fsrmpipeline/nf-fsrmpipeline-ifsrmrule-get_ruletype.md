@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.get_RuleType
-title: IFsrmRule::get_RuleType method
+title: IFsrmRule::get_RuleType
 author: windows-driver-content
 description: The type of the rule.
 old-location: fsrm\ifsrmrule_ruletype.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: a1aa2c94-b2f0-4620-8589-27360f5bdf05
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmRule, IFsrmRule interface [File Server Resource Manager], RuleType property, IFsrmRule.RuleType, IFsrmRule::get_RuleType, RuleType property [File Server Resource Manager], RuleType property [File Server Resource Manager], IFsrmRule interface, fs.ifsrmrule_ruletype, fsrm.ifsrmrule_ruletype, fsrmpipeline/IFsrmRule::RuleType, fsrmpipeline/IFsrmRule::get_RuleType, get_RuleType,IFsrmRule.get_RuleType
+ms.keywords: IFsrmRule interface [File Server Resource Manager],RuleType property, IFsrmRule.RuleType, IFsrmRule.get_RuleType, IFsrmRule::RuleType, IFsrmRule::get_RuleType, RuleType property [File Server Resource Manager], RuleType property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_ruletype, fsrm.ifsrmrule_ruletype, fsrmpipeline/IFsrmRule::RuleType, fsrmpipeline/IFsrmRule::get_RuleType, get_RuleType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmRule::get_RuleType method
+# IFsrmRule::get_RuleType
 
 
 ## -description

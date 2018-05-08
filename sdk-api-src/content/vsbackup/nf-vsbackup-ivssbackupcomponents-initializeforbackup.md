@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.InitializeForBackup
-title: IVssBackupComponents::InitializeForBackup method
+title: IVssBackupComponents::InitializeForBackup
 author: windows-driver-content
 description: The InitializeForBackup method initializes the backup components metadata in preparation for backup.
 old-location: base\ivssbackupcomponents_initializeforbackup.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: df469964-c954-4f79-b88f-a521157a0c66
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], InitializeForBackup method, IVssBackupComponents::InitializeForBackup, InitializeForBackup method [VSS], InitializeForBackup method [VSS], IVssBackupComponents interface, InitializeForBackup,IVssBackupComponents.InitializeForBackup, _win32_ivssbackupcomponents_initializeforbackup, base.ivssbackupcomponents_initializeforbackup, vsbackup/IVssBackupComponents::InitializeForBackup
+ms.keywords: IVssBackupComponents interface [VSS],InitializeForBackup method, IVssBackupComponents.InitializeForBackup, IVssBackupComponents::InitializeForBackup, InitializeForBackup, InitializeForBackup method [VSS], InitializeForBackup method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_initializeforbackup, base.ivssbackupcomponents_initializeforbackup, vsbackup/IVssBackupComponents::InitializeForBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::InitializeForBackup method
+# IVssBackupComponents::InitializeForBackup
 
 
 ## -description

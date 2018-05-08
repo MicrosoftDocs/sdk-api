@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetObject
-title: IMFAsyncResult::GetObject method
+title: IMFAsyncResult::GetObject
 author: windows-driver-content
 description: Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
 old-location: mf\imfasyncresult_getobject.htm
 old-project: medfound
 ms.assetid: b4b871ff-370d-4a37-9fe4-91d1805890eb
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetObject method [Media Foundation], GetObject method [Media Foundation], IMFAsyncResult interface, GetObject,IMFAsyncResult.GetObject, IMFAsyncResult, IMFAsyncResult interface [Media Foundation], GetObject method, IMFAsyncResult::GetObject, b4b871ff-370d-4a37-9fe4-91d1805890eb, mf.imfasyncresult_getobject, mfobjects/IMFAsyncResult::GetObject
+ms.date: 5/3/2018
+ms.keywords: GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetObject method, IMFAsyncResult.GetObject, IMFAsyncResult::GetObject, b4b871ff-370d-4a37-9fe4-91d1805890eb, mf.imfasyncresult_getobject, mfobjects/IMFAsyncResult::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAsyncResult::GetObject method
+# IMFAsyncResult::GetObject
 
 
 ## -description

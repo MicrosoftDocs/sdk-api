@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ae52e81e-4de1-480c-82bf-c9629064970c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IATSC_ETT, IATSC_ETT interface [Microsoft TV Technologies], IATSC_ETT interface [Microsoft TV Technologies], described, IATSC_ETTInterface, atscpsipparser/IATSC_ETT, mstv.iatsc_ett
+ms.keywords: IATSC_ETT, IATSC_ETT interface [Microsoft TV Technologies], IATSC_ETT interface [Microsoft TV Technologies],described, IATSC_ETTInterface, atscpsipparser/IATSC_ETT, mstv.iatsc_ett
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

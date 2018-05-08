@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpoint.GetFramesPerPacket
-title: IAudioEndpoint::GetFramesPerPacket method
+title: IAudioEndpoint::GetFramesPerPacket
 author: windows-driver-content
 description: Gets the maximum number of frames per packet that the audio endpoint can support, based on the endpoint's period and the sample rate.
 old-location: termserv\iaudioendpoint_getframesperpacket.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: b9e47262-9e6f-4ddf-a74a-b7fa63983a5a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetFramesPerPacket method [Remote Desktop Services], GetFramesPerPacket method [Remote Desktop Services], IAudioEndpoint interface, GetFramesPerPacket,IAudioEndpoint.GetFramesPerPacket, IAudioEndpoint, IAudioEndpoint interface [Remote Desktop Services], GetFramesPerPacket method, IAudioEndpoint::GetFramesPerPacket, audioengineendpoint/IAudioEndpoint::GetFramesPerPacket, termserv.iaudioendpoint_getframesperpacket
+ms.keywords: GetFramesPerPacket, GetFramesPerPacket method [Remote Desktop Services], GetFramesPerPacket method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetFramesPerPacket method, IAudioEndpoint.GetFramesPerPacket, IAudioEndpoint::GetFramesPerPacket, audioengineendpoint/IAudioEndpoint::GetFramesPerPacket, termserv.iaudioendpoint_getframesperpacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioEndpoint::GetFramesPerPacket method
+# IAudioEndpoint::GetFramesPerPacket
 
 
 ## -description

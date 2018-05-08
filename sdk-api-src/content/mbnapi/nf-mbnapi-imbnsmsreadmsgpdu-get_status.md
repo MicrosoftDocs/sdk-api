@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_Status
-title: IMbnSmsReadMsgPdu::get_Status method
+title: IMbnSmsReadMsgPdu::get_Status
 author: windows-driver-content
 description: The type of message.
 old-location: mbn\imbnsmsreadmsgpdu_status.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 340b5462-890b-467d-ae11-1eb054b093f6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSmsReadMsgPdu, IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks], Status property, IMbnSmsReadMsgPdu.Status, IMbnSmsReadMsgPdu::get_Status, Status property [Microsoft Broadband Networks], Status property [Microsoft Broadband Networks], IMbnSmsReadMsgPdu interface, get_Status,IMbnSmsReadMsgPdu.get_Status, mbn.imbnsmsreadmsgpdu_status, mbnapi/IMbnSmsReadMsgPdu::Status, mbnapi/IMbnSmsReadMsgPdu::get_Status
+ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Status property, IMbnSmsReadMsgPdu.Status, IMbnSmsReadMsgPdu.get_Status, IMbnSmsReadMsgPdu::Status, IMbnSmsReadMsgPdu::get_Status, Status property [Microsoft Broadband Networks], Status property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_Status, mbn.imbnsmsreadmsgpdu_status, mbnapi/IMbnSmsReadMsgPdu::Status, mbnapi/IMbnSmsReadMsgPdu::get_Status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSmsReadMsgPdu::get_Status method
+# IMbnSmsReadMsgPdu::get_Status
 
 
 ## -description

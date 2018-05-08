@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportManager.GetWdsTransportServer
-title: IWdsTransportManager::GetWdsTransportServer method
+title: IWdsTransportManager::GetWdsTransportServer
 author: windows-driver-content
 description: Creates an object of the IWdsTransportServer interface that can be used to manage a WDS transport server. The method confirms that the system can reach a WDS transport server with the specified name.
 old-location: wds\iwdstransportmanager_getwdstransportserver.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 537f75d1-43aa-4f18-a39b-ad45148c1246
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetWdsTransportServer method [Windows Deployment Services], GetWdsTransportServer method [Windows Deployment Services], IWdsTransportManager interface, GetWdsTransportServer,IWdsTransportManager.GetWdsTransportServer, IWdsTransportManager, IWdsTransportManager interface [Windows Deployment Services], GetWdsTransportServer method, IWdsTransportManager::GetWdsTransportServer, wds.iwdstransportmanager_getwdstransportserver, wdstptmgmt/IWdsTransportManager::GetWdsTransportServer
+ms.keywords: GetWdsTransportServer, GetWdsTransportServer method [Windows Deployment Services], GetWdsTransportServer method [Windows Deployment Services],IWdsTransportManager interface, IWdsTransportManager interface [Windows Deployment Services],GetWdsTransportServer method, IWdsTransportManager.GetWdsTransportServer, IWdsTransportManager::GetWdsTransportServer, wds.iwdstransportmanager_getwdstransportserver, wdstptmgmt/IWdsTransportManager::GetWdsTransportServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportManager::GetWdsTransportServer method
+# IWdsTransportManager::GetWdsTransportServer
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectConstantBuffer.SetConstantBuffer
-title: ID3D10EffectConstantBuffer::SetConstantBuffer method
+title: ID3D10EffectConstantBuffer::SetConstantBuffer
 author: windows-driver-content
 description: Set a constant-buffer.
 old-location: direct3d10\id3d10effectconstantbuffer_setconstantbuffer.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectconstantbuffer_setconstantbuffer.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10EffectConstantBuffer, ID3D10EffectConstantBuffer interface [Direct3D 10], SetConstantBuffer method, ID3D10EffectConstantBuffer::SetConstantBuffer, SetConstantBuffer method [Direct3D 10], SetConstantBuffer method [Direct3D 10], ID3D10EffectConstantBuffer interface, SetConstantBuffer,ID3D10EffectConstantBuffer.SetConstantBuffer, af35cbbd-7780-96d5-c5b4-c847ab276c4b, d3d10effect/ID3D10EffectConstantBuffer::SetConstantBuffer, direct3d10.id3d10effectconstantbuffer_setconstantbuffer
+ms.keywords: ID3D10EffectConstantBuffer interface [Direct3D 10],SetConstantBuffer method, ID3D10EffectConstantBuffer.SetConstantBuffer, ID3D10EffectConstantBuffer::SetConstantBuffer, SetConstantBuffer, SetConstantBuffer method [Direct3D 10], SetConstantBuffer method [Direct3D 10],ID3D10EffectConstantBuffer interface, af35cbbd-7780-96d5-c5b4-c847ab276c4b, d3d10effect/ID3D10EffectConstantBuffer::SetConstantBuffer, direct3d10.id3d10effectconstantbuffer_setconstantbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectConstantBuffer::SetConstantBuffer method
+# ID3D10EffectConstantBuffer::SetConstantBuffer
 
 
 ## -description

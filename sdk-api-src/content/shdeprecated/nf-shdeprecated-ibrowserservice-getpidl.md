@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetPidl
-title: IBrowserService::GetPidl method
+title: IBrowserService::GetPidl
 author: windows-driver-content
 description: Deprecated. Retrieves a copy of the current pointer to an item identifier list (PIDL).
 old-location: shell\IBrowserService_GetPidl.htm
 old-project: shell
 ms.assetid: 49104b30-85c0-4adf-acfc-a06b5c4bbdef
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPidl method [Windows Shell], GetPidl method [Windows Shell], IBrowserService interface, GetPidl,IBrowserService.GetPidl, IBrowserService, IBrowserService interface [Windows Shell], GetPidl method, IBrowserService::GetPidl, shdeprecated/IBrowserService::GetPidl, shell.IBrowserService_GetPidl, zone_IBrowserService_GetPidl
+ms.date: 5/3/2018
+ms.keywords: GetPidl, GetPidl method [Windows Shell], GetPidl method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetPidl method, IBrowserService.GetPidl, IBrowserService::GetPidl, shdeprecated/IBrowserService::GetPidl, shell.IBrowserService_GetPidl, zone_IBrowserService_GetPidl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::GetPidl method
+# IBrowserService::GetPidl
 
 
 ## -description

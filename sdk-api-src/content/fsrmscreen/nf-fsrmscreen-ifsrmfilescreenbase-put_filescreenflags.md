@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.put_FileScreenFlags
-title: IFsrmFileScreenBase::put_FileScreenFlags method
+title: IFsrmFileScreenBase::put_FileScreenFlags
 author: windows-driver-content
 description: Retrieves or sets the file screen flags.
 old-location: fsrm\ifsrmfilescreenbase_filescreenflags.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: af888368-36a8-401e-b4df-6b0cc0dfb422
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FileScreenFlags property [File Server Resource Manager], FileScreenFlags property [File Server Resource Manager], IFsrmFileScreenBase interface, IFsrmFileScreenBase, IFsrmFileScreenBase interface [File Server Resource Manager], FileScreenFlags property, IFsrmFileScreenBase.FileScreenFlags, IFsrmFileScreenBase::get_FileScreenFlags, IFsrmFileScreenBase::put_FileScreenFlags, fs.ifsrmfilescreenbase_filescreenflags, fsrm.ifsrmfilescreenbase_filescreenflags, fsrmscreen/IFsrmFileScreenBase::FileScreenFlags, fsrmscreen/IFsrmFileScreenBase::get_FileScreenFlags, fsrmscreen/IFsrmFileScreenBase::put_FileScreenFlags, put_FileScreenFlags,IFsrmFileScreenBase.put_FileScreenFlags
+ms.keywords: FileScreenFlags property [File Server Resource Manager], FileScreenFlags property [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],FileScreenFlags property, IFsrmFileScreenBase.FileScreenFlags, IFsrmFileScreenBase.put_FileScreenFlags, IFsrmFileScreenBase::FileScreenFlags, IFsrmFileScreenBase::get_FileScreenFlags, IFsrmFileScreenBase::put_FileScreenFlags, fs.ifsrmfilescreenbase_filescreenflags, fsrm.ifsrmfilescreenbase_filescreenflags, fsrmscreen/IFsrmFileScreenBase::FileScreenFlags, fsrmscreen/IFsrmFileScreenBase::get_FileScreenFlags, fsrmscreen/IFsrmFileScreenBase::put_FileScreenFlags, put_FileScreenFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenBase::put_FileScreenFlags method
+# IFsrmFileScreenBase::put_FileScreenFlags
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.Apply
-title: ITextRow::Apply method
+title: ITextRow::Apply
 author: windows-driver-content
 description: Applies the formatting attributes of this text row object to the specified rows in the associated ITextRange2.
 old-location: controls\itextrow_apply.htm
 old-project: Controls
 ms.assetid: f09f73d3-c71f-43f1-b671-aba392e1fb49
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: Apply method [Windows Controls], Apply method [Windows Controls], ITextRow interface, Apply,ITextRow.Apply, ITextRow, ITextRow interface [Windows Controls], Apply method, ITextRow::Apply, controls.itextrow_apply, tom/ITextRow::Apply, tomCellStructureChangeOnly, tomRowApplyDefault
+ms.date: 4/27/2018
+ms.keywords: Apply, Apply method [Windows Controls], Apply method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],Apply method, ITextRow.Apply, ITextRow::Apply, controls.itextrow_apply, tom/ITextRow::Apply, tomCellStructureChangeOnly, tomRowApplyDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::Apply method
+# ITextRow::Apply
 
 
 ## -description

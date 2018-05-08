@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcommon.ID3DInclude.Close
-title: ID3DInclude::Close method
+title: ID3DInclude::Close
 author: windows-driver-content
 description: A user-implemented method for closing a shader #include file.
 old-location: direct3d11\id3dinclude_close.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: d4513e15-dfe7-4919-a278-d386f25e65e5
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: Close method [Direct3D 11], Close method [Direct3D 11], ID3DInclude interface, Close,ID3DInclude.Close, ID3DInclude, ID3DInclude interface [Direct3D 11], Close method, ID3DInclude::Close, d3dcommon/ID3DInclude::Close, direct3d11.id3dinclude_close
+ms.keywords: Close, Close method [Direct3D 11], Close method [Direct3D 11],ID3DInclude interface, ID3DInclude interface [Direct3D 11],Close method, ID3DInclude.Close, ID3DInclude::Close, d3dcommon/ID3DInclude::Close, direct3d11.id3dinclude_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3DInclude::Close method
+# ID3DInclude::Close
 
 
 ## -description

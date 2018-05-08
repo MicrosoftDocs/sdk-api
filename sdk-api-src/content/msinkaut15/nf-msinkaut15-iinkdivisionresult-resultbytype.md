@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut15.IInkDivisionResult.ResultByType
-title: IInkDivisionResult::ResultByType method
+title: IInkDivisionResult::ResultByType
 author: windows-driver-content
 description: Gets the requested structural units of the analysis results for an IInkDivisionUnits collection.
 old-location: tablet\iinkdivisionresult_resultbytype.htm
 old-project: tablet
 ms.assetid: d0bad0e8-e48c-443b-b52e-e95de3158710
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInkDivisionResult, IInkDivisionResult interface [Tablet PC], ResultByType method, IInkDivisionResult::ResultByType, ResultByType method [Tablet PC], ResultByType method [Tablet PC], IInkDivisionResult interface, ResultByType,IInkDivisionResult.ResultByType, d0bad0e8-e48c-443b-b52e-e95de3158710, msinkaut15/IInkDivisionResult::ResultByType, tablet.iinkdivisionresult_resultbytype
+ms.date: 5/2/2018
+ms.keywords: IInkDivisionResult interface [Tablet PC],ResultByType method, IInkDivisionResult.ResultByType, IInkDivisionResult::ResultByType, ResultByType, ResultByType method [Tablet PC], ResultByType method [Tablet PC],IInkDivisionResult interface, d0bad0e8-e48c-443b-b52e-e95de3158710, msinkaut15/IInkDivisionResult::ResultByType, tablet.iinkdivisionresult_resultbytype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkDivisionResult::ResultByType method
+# IInkDivisionResult::ResultByType
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9f059173-7539-4164-b7af-182fa851d11a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationTextRangeArray, IUIAutomationTextRangeArray interface [Windows Accessibility], IUIAutomationTextRangeArray interface [Windows Accessibility], described, uiauto.uiauto_IUIAutomationTextRangeArray, uiauto_IUIAutomationTextRangeArray, uiautomationclient/IUIAutomationTextRangeArray, winauto.uiauto_IUIAutomationTextRangeArray
+ms.keywords: IUIAutomationTextRangeArray, IUIAutomationTextRangeArray interface [Windows Accessibility], IUIAutomationTextRangeArray interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTextRangeArray, uiauto_IUIAutomationTextRangeArray, uiautomationclient/IUIAutomationTextRangeArray, winauto.uiauto_IUIAutomationTextRangeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

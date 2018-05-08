@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ISearchJob.get_AsyncState
-title: ISearchJob::get_AsyncState method
+title: ISearchJob::get_AsyncState
 author: windows-driver-content
 description: Gets the caller-specific state object that is passed to the IUpdateSearch.BeginSearch method.
 old-location: wua\isearchjob_asyncstate.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 68d861a3-420d-4a89-ac32-900db6d51036
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AsyncState property [Windows Update Agent], AsyncState property [Windows Update Agent], ISearchJob interface, ISearchJob, ISearchJob interface [Windows Update Agent], AsyncState property, ISearchJob.AsyncState, ISearchJob::get_AsyncState, get_AsyncState,ISearchJob.get_AsyncState, wua.isearchjob_asyncstate, wuapi/ISearchJob::AsyncState, wuapi/ISearchJob::get_AsyncState
+ms.keywords: AsyncState property [Windows Update Agent], AsyncState property [Windows Update Agent],ISearchJob interface, ISearchJob interface [Windows Update Agent],AsyncState property, ISearchJob.AsyncState, ISearchJob.get_AsyncState, ISearchJob::AsyncState, ISearchJob::get_AsyncState, get_AsyncState, wua.isearchjob_asyncstate, wuapi/ISearchJob::AsyncState, wuapi/ISearchJob::get_AsyncState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISearchJob::get_AsyncState method
+# ISearchJob::get_AsyncState
 
 
 ## -description

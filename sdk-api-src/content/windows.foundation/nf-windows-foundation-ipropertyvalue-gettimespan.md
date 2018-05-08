@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetTimeSpan
-title: IPropertyValue::GetTimeSpan method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the TimeSpan value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_gettimespan.htm
 old-project: WinRT
 ms.assetid: c78d584f-e2ef-4623-b45a-e26d2ec1518b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetTimeSpan method [Windows Runtime], GetTimeSpan method [Windows Runtime], IPropertyValue interface, GetTimeSpan,IPropertyValue.GetTimeSpan, IPropertyValue, IPropertyValue interface [Windows Runtime], GetTimeSpan method, IPropertyValue::GetTimeSpan, windows/IPropertyValue::GetTimeSpan, winrt.ipropertyvalue_gettimespan
+ms.date: 5/4/2018
+ms.keywords: GetTimeSpan, GetTimeSpan method [Windows Runtime], GetTimeSpan method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetTimeSpan method, IPropertyValue.GetTimeSpan, IPropertyValue.IPropertyValue, IPropertyValue::GetTimeSpan, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetTimeSpan, winrt.ipropertyvalue_gettimespan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetTimeSpan method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

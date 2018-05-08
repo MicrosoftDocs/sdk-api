@@ -86,45 +86,45 @@ Describes a shader-trace object.
  
 
 
-#### - ComputeShaderTraceDesc
+### -field VertexShaderTraceDesc
 
 
-              A <a href="https://msdn.microsoft.com/C047CA31-22D4-4512-B90C-3C77BA6AADA9">D3D11_COMPUTE_SHADER_TRACE_DESC</a> structure that describes an instance of a compute shader to trace.
+              A <a href="https://msdn.microsoft.com/6D69DCE7-74BE-4FFE-8044-B16CB5EC1C07">D3D11_VERTEX_SHADER_TRACE_DESC</a> structure that describes an instance of a vertex shader to trace.
             
 
 
-#### - DomainShaderTraceDesc
-
-
-              A <a href="https://msdn.microsoft.com/A513A751-06BB-4298-82A5-BBBF6DCEBD1F">D3D11_DOMAIN_SHADER_TRACE_DESC</a> structure that describes an instance of a domain shader to trace.
-            
-
-
-#### - GeometryShaderTraceDesc
-
-
-              A <a href="https://msdn.microsoft.com/1E7E5BA5-C0CE-49ED-8AD3-A13300D867E0">D3D11_GEOMETRY_SHADER_TRACE_DESC</a> structure that describes an instance of a geometry shader to trace.
-            
-
-
-#### - HullShaderTraceDesc
+### -field HullShaderTraceDesc
 
 
               A <a href="https://msdn.microsoft.com/E91FE826-C1BC-4583-83B0-FF2869AF86F2">D3D11_HULL_SHADER_TRACE_DESC</a> structure that describes an instance of a hull shader to trace.
             
 
 
-#### - PixelShaderTraceDesc
+### -field DomainShaderTraceDesc
+
+
+              A <a href="https://msdn.microsoft.com/A513A751-06BB-4298-82A5-BBBF6DCEBD1F">D3D11_DOMAIN_SHADER_TRACE_DESC</a> structure that describes an instance of a domain shader to trace.
+            
+
+
+### -field GeometryShaderTraceDesc
+
+
+              A <a href="https://msdn.microsoft.com/1E7E5BA5-C0CE-49ED-8AD3-A13300D867E0">D3D11_GEOMETRY_SHADER_TRACE_DESC</a> structure that describes an instance of a geometry shader to trace.
+            
+
+
+### -field PixelShaderTraceDesc
 
 
               A <a href="https://msdn.microsoft.com/4A44DA4F-81FC-47BE-90CA-06355C363795">D3D11_PIXEL_SHADER_TRACE_DESC</a> structure that describes an instance of a pixel shader to trace.
             
 
 
-#### - VertexShaderTraceDesc
+### -field ComputeShaderTraceDesc
 
 
-              A <a href="https://msdn.microsoft.com/6D69DCE7-74BE-4FFE-8044-B16CB5EC1C07">D3D11_VERTEX_SHADER_TRACE_DESC</a> structure that describes an instance of a vertex shader to trace.
+              A <a href="https://msdn.microsoft.com/C047CA31-22D4-4512-B90C-3C77BA6AADA9">D3D11_COMPUTE_SHADER_TRACE_DESC</a> structure that describes an instance of a compute shader to trace.
             
 
 

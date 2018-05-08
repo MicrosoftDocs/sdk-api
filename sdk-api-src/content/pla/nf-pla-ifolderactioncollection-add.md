@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.Add
-title: IFolderActionCollection::Add method
+title: IFolderActionCollection::Add
 author: windows-driver-content
 description: Adds a folder action to the collection.
 old-location: pla\ifolderactioncollection_add.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 39597249-29d5-44a0-9954-01b9b6a62977
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Add method [PLA], Add method [PLA], IFolderActionCollection interface, Add,IFolderActionCollection.Add, IFolderActionCollection, IFolderActionCollection interface [PLA], Add method, IFolderActionCollection::Add, base.ifolderactioncollection_add, pla.ifolderactioncollection_add, pla/IFolderActionCollection::Add
+ms.keywords: Add, Add method [PLA], Add method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Add method, IFolderActionCollection.Add, IFolderActionCollection::Add, base.ifolderactioncollection_add, pla.ifolderactioncollection_add, pla/IFolderActionCollection::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFolderActionCollection::Add method
+# IFolderActionCollection::Add
 
 
 ## -description

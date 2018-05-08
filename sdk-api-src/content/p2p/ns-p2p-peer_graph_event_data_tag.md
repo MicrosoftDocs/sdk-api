@@ -63,32 +63,32 @@ The <b>PEER_GRAPH_EVENT_DATA</b> structure contains data associated with a peer 
 The type of peer event this data corresponds to. Must be one of the <a href="https://msdn.microsoft.com/0fb9443f-bf95-45e2-b105-400203f286b6">PEER_GRAPH_EVENT_TYPE</a> values. The members that remain are given values based on the peer event type that has occurred.  Not all members contain data.
 
 
-#### - connectionChangeData
-
-This member is given a value if the <a href="https://msdn.microsoft.com/0d73432c-c1e5-4fa9-a812-377b22a47440">PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION</a> or <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> peer event is triggered.  An aspect of a neighbor or direct connection state has changed.
-
-
-#### - dwStatus
+### -field dwStatus
 
 This member is given a value  if the <a href="https://msdn.microsoft.com/0fb9443f-bf95-45e2-b105-400203f286b6">PEER_GRAPH_EVENT_STATUS_CHANGE</a> peer event is triggered.  A change has been made in relation to a node's connection to the graph.
 
 
-#### - incomingData
+### -field incomingData
 
 This member is given a value if the <a href="https://msdn.microsoft.com/93104ca5-b3de-492c-965e-3acd12d05ea6">PEER_GRAPH_INCOMING_DATA</a> peer event is triggered.  A node has received data from a neighbor or a direct connection.
 
 
-#### - nodeChangeData
-
-This member is given a value if the <a href="https://msdn.microsoft.com/656c9155-643d-4c94-9141-3499f7e0adac">PEER_GRAPH_EVENT_NODE_CHANGED</a> peer event is triggered.  A node's presence state has changed.
-
-
-#### - recordChangeData
+### -field recordChangeData
 
 This member given a value if the <a href="https://msdn.microsoft.com/01404fff-3488-43aa-bc59-3e08ff925ea5">PEER_GRAPH_EVENT_RECORD_CHANGE</a> peer event is triggered.  A record type the application asked for notifications of has changed.
 
 
-#### - synchronizedData
+### -field connectionChangeData
+
+This member is given a value if the <a href="https://msdn.microsoft.com/0d73432c-c1e5-4fa9-a812-377b22a47440">PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION</a> or <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> peer event is triggered.  An aspect of a neighbor or direct connection state has changed.
+
+
+### -field nodeChangeData
+
+This member is given a value if the <a href="https://msdn.microsoft.com/656c9155-643d-4c94-9141-3499f7e0adac">PEER_GRAPH_EVENT_NODE_CHANGED</a> peer event is triggered.  A node's presence state has changed.
+
+
+### -field synchronizedData
 
 This member is given a value if the <a href="https://msdn.microsoft.com/ae7dc220-a827-4671-97b3-1ac039ab3e08">PEER_GRAPH_EVENT_SYNCHRONIZED</a> peer event is triggered.  A record type has completed its synchronization.
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:txlogpub.IFileBasedLogInit.InitNew
-title: IFileBasedLogInit::InitNew method
+title: IFileBasedLogInit::InitNew
 author: windows-driver-content
 description: Create a new log instance on the specified file. If a file with that name already exists, it is overwritten.
 old-location: com\ifilebasedloginit_initnew.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 729c0cfc-4246-4185-af06-ed90a1955b03
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFileBasedLogInit, IFileBasedLogInit interface [COM], InitNew method, IFileBasedLogInit::InitNew, InitNew method [COM], InitNew method [COM], IFileBasedLogInit interface, InitNew,IFileBasedLogInit.InitNew, _com_ifilebasedloginit_initnew, com.ifilebasedloginit_initnew, txlogpub/IFileBasedLogInit::InitNew
+ms.keywords: IFileBasedLogInit interface [COM],InitNew method, IFileBasedLogInit.InitNew, IFileBasedLogInit::InitNew, InitNew, InitNew method [COM], InitNew method [COM],IFileBasedLogInit interface, _com_ifilebasedloginit_initnew, com.ifilebasedloginit_initnew, txlogpub/IFileBasedLogInit::InitNew
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IFileBasedLogInit::InitNew method
+# IFileBasedLogInit::InitNew
 
 
 ## -description

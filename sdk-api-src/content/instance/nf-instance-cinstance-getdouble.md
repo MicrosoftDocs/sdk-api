@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetDOUBLE
-title: CInstance::GetDOUBLE method
+title: CInstance::GetDOUBLE
 author: windows-driver-content
 description: The GetDOUBLE method retrieves a DOUBLE property.
 old-location: wmi\cinstance_getdouble.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 39360e69-0d54-4b1f-8de8-0abf81e9238b
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], GetDOUBLE method, CInstance::GetDOUBLE, GetDOUBLE method [Windows Management Instrumentation], GetDOUBLE method [Windows Management Instrumentation], CInstance interface, GetDOUBLE,CInstance.GetDOUBLE, _hmm_cinstance_getdouble, instance/CInstance::GetDOUBLE, wmi.cinstance_getdouble
+ms.keywords: CInstance interface [Windows Management Instrumentation],GetDOUBLE method, CInstance.GetDOUBLE, CInstance::GetDOUBLE, GetDOUBLE, GetDOUBLE method [Windows Management Instrumentation], GetDOUBLE method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdouble, instance/CInstance::GetDOUBLE, wmi.cinstance_getdouble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::GetDOUBLE method
+# CInstance::GetDOUBLE
 
 
 ## -description

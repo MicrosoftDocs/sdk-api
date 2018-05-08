@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8bjn.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxJobs, IFaxJobs interface [Fax Service], IFaxJobs interface [Fax Service], described, _mfax_ifaxjobs, fax._mfax_ifaxjobs, faxcom/IFaxJobs
+ms.keywords: IFaxJobs, IFaxJobs interface [Fax Service], IFaxJobs interface [Fax Service],described, _mfax_ifaxjobs, fax._mfax_ifaxjobs, faxcom/IFaxJobs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

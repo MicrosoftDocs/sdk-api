@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.AddStreamPrioritization
-title: IMFASFProfile::AddStreamPrioritization method
+title: IMFASFProfile::AddStreamPrioritization
 author: windows-driver-content
 description: IMFASFProfile::AddStreamPrioritization method
 old-location: mf\imfasfprofile_addstreamprioritization.htm
 old-project: medfound
 ms.assetid: 64bbe28b-c167-4734-8ceb-5a36da4a0c70
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 64bbe28b-c167-4734-8ceb-5a36da4a0c70, AddStreamPrioritization method [Media Foundation], AddStreamPrioritization method [Media Foundation], IMFASFProfile interface, AddStreamPrioritization,IMFASFProfile.AddStreamPrioritization, IMFASFProfile, IMFASFProfile interface [Media Foundation], AddStreamPrioritization method, IMFASFProfile::AddStreamPrioritization, mf.imfasfprofile_addstreamprioritization, wmcontainer/IMFASFProfile::AddStreamPrioritization
+ms.date: 5/3/2018
+ms.keywords: 64bbe28b-c167-4734-8ceb-5a36da4a0c70, AddStreamPrioritization, AddStreamPrioritization method [Media Foundation], AddStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],AddStreamPrioritization method, IMFASFProfile.AddStreamPrioritization, IMFASFProfile::AddStreamPrioritization, mf.imfasfprofile_addstreamprioritization, wmcontainer/IMFASFProfile::AddStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFProfile::AddStreamPrioritization method
+# IMFASFProfile::AddStreamPrioritization
 
 
 ## -description

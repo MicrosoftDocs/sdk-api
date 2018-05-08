@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_SizeQuotaWarning
-title: IFaxConfiguration::put_SizeQuotaWarning method
+title: IFaxConfiguration::put_SizeQuotaWarning
 author: windows-driver-content
 description: Sets or retrieves a value that indicates whether the size quota warning is turned on.
 old-location: fax\_mfax_FaxConfiguration_SizeQuotaWarning_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\sizequotawarning.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxConfiguration object [Fax Service], SizeQuotaWarning property, IFaxConfiguration, IFaxConfiguration::put_SizeQuotaWarning, SizeQuotaWarning property [Fax Service], SizeQuotaWarning property [Fax Service], FaxConfiguration object, _mfax_IFaxConfiguration_SizeQuotaWarning, fax._mfax_FaxConfiguration_SizeQuotaWarning_vb, put_SizeQuotaWarning,IFaxConfiguration.put_SizeQuotaWarning
+ms.keywords: FaxConfiguration object [Fax Service],SizeQuotaWarning property, FaxConfiguration.SizeQuotaWarning, IFaxConfiguration.put_SizeQuotaWarning, IFaxConfiguration::put_SizeQuotaWarning, SizeQuotaWarning property [Fax Service], SizeQuotaWarning property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_SizeQuotaWarning, fax._mfax_FaxConfiguration_SizeQuotaWarning_vb, put_SizeQuotaWarning
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::put_SizeQuotaWarning method
+# IFaxConfiguration::put_SizeQuotaWarning
 
 
 ## -description

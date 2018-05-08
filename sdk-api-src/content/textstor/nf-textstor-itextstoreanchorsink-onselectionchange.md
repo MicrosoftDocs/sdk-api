@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnSelectionChange
-title: ITextStoreAnchorSink::OnSelectionChange method
+title: ITextStoreAnchorSink::OnSelectionChange
 author: windows-driver-content
 description: The ITextStoreAnchorSink::OnSelectionChange method is called when the selection within the text stream changes. This method should be called whenever the return value of a potential call to ITextStoreAnchor::GetSelection has changed.
 old-location: tsf\itextstoreanchorsink_onselectionchange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: e33932b0-f5ce-4325-809d-ec06cb4a49a6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchorSink, ITextStoreAnchorSink interface [Text Services Framework], OnSelectionChange method, ITextStoreAnchorSink::OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework], ITextStoreAnchorSink interface, OnSelectionChange,ITextStoreAnchorSink.OnSelectionChange, _tsf_itextstoreanchorsink_onselectionchange_ref, textstor/ITextStoreAnchorSink::OnSelectionChange, tsf.itextstoreanchorsink_onselectionchange
+ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnSelectionChange method, ITextStoreAnchorSink.OnSelectionChange, ITextStoreAnchorSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onselectionchange_ref, textstor/ITextStoreAnchorSink::OnSelectionChange, tsf.itextstoreanchorsink_onselectionchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchorSink::OnSelectionChange method
+# ITextStoreAnchorSink::OnSelectionChange
 
 
 ## -description

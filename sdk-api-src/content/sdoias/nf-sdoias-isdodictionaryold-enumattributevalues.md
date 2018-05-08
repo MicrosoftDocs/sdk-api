@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoDictionaryOld.EnumAttributeValues
-title: ISdoDictionaryOld::EnumAttributeValues method
+title: ISdoDictionaryOld::EnumAttributeValues
 author: windows-driver-content
 description: The EnumAttributeValues method retrieves the values for an enumerable attribute.
 old-location: nps\SDO_isdodictionaryold_enumattributevalues.htm
@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: e46dc286-5316-49c2-a384-b486efc80d2a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EnumAttributeValues method [Network Policy Server], EnumAttributeValues method [Network Policy Server], ISdoDictionaryOld interface, EnumAttributeValues,ISdoDictionaryOld.EnumAttributeValues, ISdoDictionaryOld, ISdoDictionaryOld interface [Network Policy Server], EnumAttributeValues method, ISdoDictionaryOld::EnumAttributeValues, _sdo_isdodictionaryold_enumattributevalues, nps.SDO_isdodictionaryold_enumattributevalues, sdo.isdodictionaryold_enumattributevalues, sdoias/ISdoDictionaryOld::EnumAttributeValues
+ms.keywords: EnumAttributeValues, EnumAttributeValues method [Network Policy Server], EnumAttributeValues method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],EnumAttributeValues method, ISdoDictionaryOld.EnumAttributeValues, ISdoDictionaryOld::EnumAttributeValues, _sdo_isdodictionaryold_enumattributevalues, nps.SDO_isdodictionaryold_enumattributevalues, sdo.isdodictionaryold_enumattributevalues, sdoias/ISdoDictionaryOld::EnumAttributeValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISdoDictionaryOld::EnumAttributeValues method
+# ISdoDictionaryOld::EnumAttributeValues
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetRecordCountOfDescriptors
-title: IISDB_LDT::GetRecordCountOfDescriptors method
+title: IISDB_LDT::GetRecordCountOfDescriptors
 author: windows-driver-content
 description: Returns the number of descriptors for a record in an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getrecordcountofdescriptors.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1352eec0-fed2-4d14-81f2-c73b8d34a264
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies], IISDB_LDT interface, GetRecordCountOfDescriptors,IISDB_LDT.GetRecordCountOfDescriptors, IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], GetRecordCountOfDescriptors method, IISDB_LDT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_LDT::GetRecordCountOfDescriptors, mstv.iisdb_ldt_getrecordcountofdescriptors
+ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IISDB_LDT.GetRecordCountOfDescriptors, IISDB_LDT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_LDT::GetRecordCountOfDescriptors, mstv.iisdb_ldt_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_LDT::GetRecordCountOfDescriptors method
+# IISDB_LDT::GetRecordCountOfDescriptors
 
 
 ## -description

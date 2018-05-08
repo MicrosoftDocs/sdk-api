@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.GetNameChoice
-title: ICertEncodeCRLDistInfo::GetNameChoice method
+title: ICertEncodeCRLDistInfo::GetNameChoice
 author: windows-driver-content
 description: Returns the name choice at a specified index of a certificate revocation list (CRL) distribution information point.
 old-location: security\icertencodecrldistinfo_getnamechoice.htm
 old-project: SecCrypto
 ms.assetid: cab5d4a0-e6dc-4229-a3b7-2dc90e2256bf
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeCRLDistInfo object [Security], GetNameChoice method, GetNameChoice method [Security], GetNameChoice method [Security], CCertEncodeCRLDistInfo object, GetNameChoice method [Security], ICertEncodeCRLDistInfo interface, GetNameChoice,ICertEncodeCRLDistInfo.GetNameChoice, ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], GetNameChoice method, ICertEncodeCRLDistInfo::GetNameChoice, _certsrv_icertencodecrldistinfo_getnamechoice, certenc/ICertEncodeCRLDistInfo::GetNameChoice, security.icertencodecrldistinfo_getnamechoice
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeCRLDistInfo object [Security],GetNameChoice method, GetNameChoice, GetNameChoice method [Security], GetNameChoice method [Security],CCertEncodeCRLDistInfo object, GetNameChoice method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetNameChoice method, ICertEncodeCRLDistInfo.GetNameChoice, ICertEncodeCRLDistInfo::GetNameChoice, _certsrv_icertencodecrldistinfo_getnamechoice, certenc/ICertEncodeCRLDistInfo::GetNameChoice, security.icertencodecrldistinfo_getnamechoice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeCRLDistInfo::GetNameChoice method
+# ICertEncodeCRLDistInfo::GetNameChoice
 
 
 ## -description

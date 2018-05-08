@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetColorManagementVersion
-title: IWICBitmapCodecInfo::GetColorManagementVersion method
+title: IWICBitmapCodecInfo::GetColorManagementVersion
 author: windows-driver-content
 description: Retrieves the color manangement version number the codec supports.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getcolormanagementversion.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 3d115306-615a-403b-95f8-3e2850928928
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetColorManagementVersion method [Windows Imaging Component], GetColorManagementVersion method [Windows Imaging Component], IWICBitmapCodecInfo interface, GetColorManagementVersion,IWICBitmapCodecInfo.GetColorManagementVersion, IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], GetColorManagementVersion method, IWICBitmapCodecInfo::GetColorManagementVersion, _wic_codec_iwicbitmapcodecinfo_getcolormanagementversion, wic._wic_codec_iwicbitmapcodecinfo_getcolormanagementversion, wincodec/IWICBitmapCodecInfo::GetColorManagementVersion
+ms.keywords: GetColorManagementVersion, GetColorManagementVersion method [Windows Imaging Component], GetColorManagementVersion method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetColorManagementVersion method, IWICBitmapCodecInfo.GetColorManagementVersion, IWICBitmapCodecInfo::GetColorManagementVersion, _wic_codec_iwicbitmapcodecinfo_getcolormanagementversion, wic._wic_codec_iwicbitmapcodecinfo_getcolormanagementversion, wincodec/IWICBitmapCodecInfo::GetColorManagementVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapCodecInfo::GetColorManagementVersion method
+# IWICBitmapCodecInfo::GetColorManagementVersion
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetBufferWindow
-title: IWMStreamConfig::GetBufferWindow method
+title: IWMStreamConfig::GetBufferWindow
 author: windows-driver-content
 description: The GetBufferWindow method retrieves the maximum latency between when a stream is received and when it begins to be displayed.
 old-location: wmformat\iwmstreamconfig_getbufferwindow.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 7a78cd61-e7ae-42e2-9d64-f3344fefc59d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetBufferWindow method [windows Media Format], GetBufferWindow method [windows Media Format], IWMStreamConfig interface, GetBufferWindow,IWMStreamConfig.GetBufferWindow, IWMStreamConfig, IWMStreamConfig interface [windows Media Format], GetBufferWindow method, IWMStreamConfig::GetBufferWindow, IWMStreamConfigGetBufferWindow, wmformat.iwmstreamconfig_getbufferwindow, wmsdkidl/IWMStreamConfig::GetBufferWindow
+ms.keywords: GetBufferWindow, GetBufferWindow method [windows Media Format], GetBufferWindow method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetBufferWindow method, IWMStreamConfig.GetBufferWindow, IWMStreamConfig::GetBufferWindow, IWMStreamConfigGetBufferWindow, wmformat.iwmstreamconfig_getbufferwindow, wmsdkidl/IWMStreamConfig::GetBufferWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig::GetBufferWindow method
+# IWMStreamConfig::GetBufferWindow
 
 
 ## -description

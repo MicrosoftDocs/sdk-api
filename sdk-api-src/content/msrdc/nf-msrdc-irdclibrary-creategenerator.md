@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateGenerator
-title: IRdcLibrary::CreateGenerator method
+title: IRdcLibrary::CreateGenerator
 author: windows-driver-content
 description: Creates a signature generator that will generate the specified levels of signatures.
 old-location: rdc\irdclibrary_creategenerator.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 9cd64c3f-acd7-4e59-916f-90e90f452e12
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateGenerator method [Remote Differential Compression], CreateGenerator method [Remote Differential Compression], IRdcLibrary interface, CreateGenerator,IRdcLibrary.CreateGenerator, IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], CreateGenerator method, IRdcLibrary::CreateGenerator, fs.irdclibrary_creategenerator, msrdc/IRdcLibrary::CreateGenerator, rdc.irdclibrary_creategenerator
+ms.keywords: CreateGenerator, CreateGenerator method [Remote Differential Compression], CreateGenerator method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateGenerator method, IRdcLibrary.CreateGenerator, IRdcLibrary::CreateGenerator, fs.irdclibrary_creategenerator, msrdc/IRdcLibrary::CreateGenerator, rdc.irdclibrary_creategenerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcLibrary::CreateGenerator method
+# IRdcLibrary::CreateGenerator
 
 
 ## -description

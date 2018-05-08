@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedProviderDescription
-title: IUIAutomationElement::get_CachedProviderDescription method
+title: IUIAutomationElement::get_CachedProviderDescription
 author: windows-driver-content
 description: Retrieves a cached description of the provider for this element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedProviderDescription.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: ed26dbb7-9838-48f2-8401-f169038b8b92
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedProviderDescription property [Windows Accessibility], CachedProviderDescription property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedProviderDescription property, IUIAutomationElement.CachedProviderDescription, IUIAutomationElement::get_CachedProviderDescription, get_CachedProviderDescription,IUIAutomationElement.get_CachedProviderDescription, uiauto.uiauto_IUIAutomationElement_CachedProviderDescription, uiauto_IUIAutomationElement_CachedProviderDescription, uiautomationclient/IUIAutomationElement::CachedProviderDescription, uiautomationclient/IUIAutomationElement::get_CachedProviderDescription, winauto.uiauto_IUIAutomationElement_CachedProviderDescription
+ms.keywords: CachedProviderDescription property [Windows Accessibility], CachedProviderDescription property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedProviderDescription property, IUIAutomationElement.CachedProviderDescription, IUIAutomationElement.get_CachedProviderDescription, IUIAutomationElement::CachedProviderDescription, IUIAutomationElement::get_CachedProviderDescription, get_CachedProviderDescription, uiauto.uiauto_IUIAutomationElement_CachedProviderDescription, uiauto_IUIAutomationElement_CachedProviderDescription, uiautomationclient/IUIAutomationElement::CachedProviderDescription, uiautomationclient/IUIAutomationElement::get_CachedProviderDescription, winauto.uiauto_IUIAutomationElement_CachedProviderDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CachedProviderDescription method
+# IUIAutomationElement::get_CachedProviderDescription
 
 
 ## -description

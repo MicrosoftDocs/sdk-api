@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.EnableMcn
-title: IDiscRecorder2::EnableMcn method
+title: IDiscRecorder2::EnableMcn
 author: windows-driver-content
 description: Enables Media Change Notification (MCN) for the device.
 old-location: imapi\idiscrecorder2_enablemcn.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: ce848ba1-86b4-44cc-8f41-8b8eaba20521
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: EnableMcn method [IMAPI], EnableMcn method [IMAPI], IDiscRecorder2 interface, EnableMcn,IDiscRecorder2.EnableMcn, IDiscRecorder2, IDiscRecorder2 interface [IMAPI], EnableMcn method, IDiscRecorder2::EnableMcn, imapi.idiscrecorder2_enablemcn, imapi2/IDiscRecorder2::EnableMcn
+ms.keywords: EnableMcn, EnableMcn method [IMAPI], EnableMcn method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],EnableMcn method, IDiscRecorder2.EnableMcn, IDiscRecorder2::EnableMcn, imapi.idiscrecorder2_enablemcn, imapi2/IDiscRecorder2::EnableMcn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2::EnableMcn method
+# IDiscRecorder2::EnableMcn
 
 
 ## -description

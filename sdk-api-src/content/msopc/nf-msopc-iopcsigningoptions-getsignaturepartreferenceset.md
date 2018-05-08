@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignaturePartReferenceSet
-title: IOpcSigningOptions::GetSignaturePartReferenceSet method
+title: IOpcSigningOptions::GetSignaturePartReferenceSet
 author: windows-driver-content
 description: Gets an IOpcSignaturePartReferenceSet interface.
 old-location: opc\iopcsigningoptions_getsignaturepartreferenceset.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 60e657c3-41a3-4a05-a084-111429b1add9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignaturePartReferenceSet method [Open Packaging Conventions], GetSignaturePartReferenceSet method [Open Packaging Conventions], IOpcSigningOptions interface, GetSignaturePartReferenceSet,IOpcSigningOptions.GetSignaturePartReferenceSet, IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], GetSignaturePartReferenceSet method, IOpcSigningOptions::GetSignaturePartReferenceSet, msopc/IOpcSigningOptions::GetSignaturePartReferenceSet, opc.iopcsigningoptions_getsignaturepartreferenceset
+ms.keywords: GetSignaturePartReferenceSet, GetSignaturePartReferenceSet method [Open Packaging Conventions], GetSignaturePartReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignaturePartReferenceSet method, IOpcSigningOptions.GetSignaturePartReferenceSet, IOpcSigningOptions::GetSignaturePartReferenceSet, msopc/IOpcSigningOptions::GetSignaturePartReferenceSet, opc.iopcsigningoptions_getsignaturepartreferenceset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSigningOptions::GetSignaturePartReferenceSet method
+# IOpcSigningOptions::GetSignaturePartReferenceSet
 
 
 ## -description

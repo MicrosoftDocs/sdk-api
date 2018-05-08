@@ -7,7 +7,7 @@ old-location: shell\ULongLongToSizeT.htm
 old-project: shell
 ms.assetid: 8943b23b-946e-477a-a5d2-ff2d877db73f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: ULongLongToSizeT, ULongLongToSizeT function [Windows Shell], ULongLongToUIntPtr, _shell_ULongLongToSizeT, intsafe/ULongLongToSizeT, shell.ULongLongToSizeT
 ms.prod: windows-hardware
 ms.technology: windows-devices

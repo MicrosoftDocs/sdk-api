@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.put_CountryCode
-title: IAnalogTVTuningSpace::put_CountryCode method
+title: IAnalogTVTuningSpace::put_CountryCode
 author: windows-driver-content
 description: The put_CountryCode method sets the country/region code of the tuning space (based on TAPI country/region codes).
 old-location: mstv\ianalogtvtuningspace_put_countrycode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: eb53bdfe-6293-41f3-8945-5f960193df9e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAnalogTVTuningSpace, IAnalogTVTuningSpace interface [Microsoft TV Technologies], put_CountryCode method, IAnalogTVTuningSpace::put_CountryCode, IAnalogTVTuningSpaceput_CountryCode, mstv.ianalogtvtuningspace_put_countrycode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies], IAnalogTVTuningSpace interface, put_CountryCode,IAnalogTVTuningSpace.put_CountryCode, tuner/IAnalogTVTuningSpace::put_CountryCode
+ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],put_CountryCode method, IAnalogTVTuningSpace.put_CountryCode, IAnalogTVTuningSpace::put_CountryCode, IAnalogTVTuningSpaceput_CountryCode, mstv.ianalogtvtuningspace_put_countrycode, put_CountryCode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, tuner/IAnalogTVTuningSpace::put_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnalogTVTuningSpace::put_CountryCode method
+# IAnalogTVTuningSpace::put_CountryCode
 
 
 ## -description

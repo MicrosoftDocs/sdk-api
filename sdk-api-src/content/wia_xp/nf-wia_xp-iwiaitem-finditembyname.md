@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaItem.FindItemByName
-title: IWiaItem::FindItemByName method
+title: IWiaItem::FindItemByName
 author: windows-driver-content
 description: The IWiaItem::FindItemByName method searches an item's tree of sub-items using the name as the search key. Each IWiaItem object has a name as one of its standard properties.
 old-location: wia\_wia_IWiaItem_FindItemByName.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\finditembyname.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: FindItemByName method [WIA], FindItemByName method [WIA], IWiaItem interface, FindItemByName,IWiaItem.FindItemByName, IWiaItem, IWiaItem interface [WIA], FindItemByName method, IWiaItem::FindItemByName, _wia_IWiaItem_FindItemByName, wia._wia_IWiaItem_FindItemByName, wia_xp/IWiaItem::FindItemByName
+ms.date: 5/3/2018
+ms.keywords: FindItemByName, FindItemByName method [WIA], FindItemByName method [WIA],IWiaItem interface, IWiaItem interface [WIA],FindItemByName method, IWiaItem.FindItemByName, IWiaItem::FindItemByName, _wia_IWiaItem_FindItemByName, wia._wia_IWiaItem_FindItemByName, wia_xp/IWiaItem::FindItemByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaItem::FindItemByName method
+# IWiaItem::FindItemByName
 
 
 ## -description

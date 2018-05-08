@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.QuerySupportedCommands
-title: IMbnDeviceService::QuerySupportedCommands method
+title: IMbnDeviceService::QuerySupportedCommands
 author: windows-driver-content
 description: Gets the list of commands IDs supported by the Mobile Broadband device service.
 old-location: mbn\imbndeviceservice_querysupportedcommands.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: E82AAD40-1E91-449D-8F1C-CE31B394B2DF
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband Networks], QuerySupportedCommands method, IMbnDeviceService::QuerySupportedCommands, QuerySupportedCommands method [Microsoft Broadband Networks], QuerySupportedCommands method [Microsoft Broadband Networks], IMbnDeviceService interface, QuerySupportedCommands,IMbnDeviceService.QuerySupportedCommands, mbn.imbndeviceservice_querysupportedcommands, mbnapi/IMbnDeviceService::QuerySupportedCommands
+ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],QuerySupportedCommands method, IMbnDeviceService.QuerySupportedCommands, IMbnDeviceService::QuerySupportedCommands, QuerySupportedCommands, QuerySupportedCommands method [Microsoft Broadband Networks], QuerySupportedCommands method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_querysupportedcommands, mbnapi/IMbnDeviceService::QuerySupportedCommands
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceService::QuerySupportedCommands method
+# IMbnDeviceService::QuerySupportedCommands
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: security\cmc_tagged_request.htm
 old-project: SecCrypto
 ms.assetid: 425a3f14-8bc9-471d-b11c-1608db473cce
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMC_TAGGED_REQUEST, CMC_TAGGED_REQUEST, CMC_TAGGED_REQUEST structure [Security], PCMC_TAGGED_REQUEST, PCMC_TAGGED_REQUEST structure pointer [Security], _CMC_TAGGED_REQUEST, _crypto2_cmc_tagged_request, security.cmc_tagged_request, wincrypt/CMC_TAGGED_REQUEST, wincrypt/PCMC_TAGGED_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,9 +69,7 @@ The <b>CMC_TAGGED_REQUEST</b> structure is used in the
  
 
 
-
-
-#### - pTaggedCertRequest
+### -field DUMMYUNIONNAME.pTaggedCertRequest
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/a90ec8c8-bda5-47a8-a1bb-f70f2eda01b7">CMC_TAGGED_CERT_REQUEST</a> structure containing the signed <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>.

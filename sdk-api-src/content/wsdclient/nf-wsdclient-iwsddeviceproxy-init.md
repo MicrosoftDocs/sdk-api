@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.Init
-title: IWSDDeviceProxy::Init method
+title: IWSDDeviceProxy::Init
 author: windows-driver-content
 description: Initializes the device proxy, optionally sharing a session with a previously initialized sponsoring device proxy.
 old-location: ncd\iwsddeviceproxy_init_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: d29212c8-2f29-41cc-ae35-8376ec5f0b7a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDDeviceProxy, IWSDDeviceProxy interface, Init method, IWSDDeviceProxy::Init, Init method, Init method, IWSDDeviceProxy interface, Init,IWSDDeviceProxy.Init, ncd.iwsddeviceproxy_init_method, wsdclient/IWSDDeviceProxy::Init
+ms.keywords: IWSDDeviceProxy interface,Init method, IWSDDeviceProxy.Init, IWSDDeviceProxy::Init, Init, Init method, Init method,IWSDDeviceProxy interface, ncd.iwsddeviceproxy_init_method, wsdclient/IWSDDeviceProxy::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceProxy::Init method
+# IWSDDeviceProxy::Init
 
 
 ## -description

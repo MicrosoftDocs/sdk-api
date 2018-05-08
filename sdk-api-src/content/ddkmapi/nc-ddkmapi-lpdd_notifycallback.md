@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ee581d7b-c3b8-47e5-bae8-348b22ea0f95
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: LPDD_NOTIFYCALLBACK, NotifyCallback, NotifyCallback callback function [Display Devices], ddfncs_89344672-ba6d-42b3-a03e-dd832316d9c9.xml, ddkmapi/NotifyCallback, display.notifycallback
+ms.keywords: LPDD_NOTIFYCALLBACK, LPDD_NOTIFYCALLBACK callback, NotifyCallback, NotifyCallback callback function [Display Devices], ddfncs_89344672-ba6d-42b3-a03e-dd832316d9c9.xml, ddkmapi/NotifyCallback, display.notifycallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: "*LPDDKERNELCAPS, DDKERNELCAPS, *LPDDKERNELCAPS"
+req.typenames: "*LPDDKERNELCAPS, DDKERNELCAPS"
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# LPDD_NOTIFYCALLBACK callback
+# LPDD_NOTIFYCALLBACK callback function
 
 
 ## -description

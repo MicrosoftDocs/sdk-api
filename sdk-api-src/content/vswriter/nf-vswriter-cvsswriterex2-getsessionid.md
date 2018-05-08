@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriterEx2.GetSessionId
-title: CVssWriterEx2::GetSessionId method
+title: CVssWriterEx2::GetSessionId
 author: windows-driver-content
 description: Returns the writer's session identifier.
 old-location: base\cvsswriterex2_getsessionid.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: bea5ba9c-538b-453f-ae6d-12b94b8edeb6
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriterEx2, CVssWriterEx2 interface, GetSessionId method, CVssWriterEx2::GetSessionId, GetSessionId method, GetSessionId method, CVssWriterEx2 interface, GetSessionId,CVssWriterEx2.GetSessionId, base.cvsswriterex2_getsessionid, vswriter/CVssWriterEx2::GetSessionId
+ms.keywords: CVssWriterEx2 interface,GetSessionId method, CVssWriterEx2.GetSessionId, CVssWriterEx2::GetSessionId, GetSessionId, GetSessionId method, GetSessionId method,CVssWriterEx2 interface, base.cvsswriterex2_getsessionid, vswriter/CVssWriterEx2::GetSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriterEx2::GetSessionId method
+# CVssWriterEx2::GetSessionId
 
 
 ## -description

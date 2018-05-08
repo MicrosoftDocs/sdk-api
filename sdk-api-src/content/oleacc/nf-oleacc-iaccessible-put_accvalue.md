@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.put_accValue
-title: IAccessible::put_accValue method
+title: IAccessible::put_accValue
 author: windows-driver-content
 description: The IAccessible::put_accValue method sets the value of the specified object. Not all objects have a value.
 old-location: winauto\iaccessible_iaccessible__put_accvalue.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 0b1e44f4-8d03-47a4-a8c5-5296059e0459
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], put_accValue method, IAccessible::put_accValue, _msaa_IAccessible_put_accValue, msaa.iaccessible_iaccessible__put_accvalue, oleacc/IAccessible::put_accValue, put_accValue method [Windows Accessibility], put_accValue method [Windows Accessibility], IAccessible interface, put_accValue,IAccessible.put_accValue, winauto.iaccessible_iaccessible__put_accvalue
+ms.keywords: IAccessible interface [Windows Accessibility],put_accValue method, IAccessible.put_accValue, IAccessible::put_accValue, _msaa_IAccessible_put_accValue, msaa.iaccessible_iaccessible__put_accvalue, oleacc/IAccessible::put_accValue, put_accValue, put_accValue method [Windows Accessibility], put_accValue method [Windows Accessibility],IAccessible interface, winauto.iaccessible_iaccessible__put_accvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccessible::put_accValue method
+# IAccessible::put_accValue
 
 
 ## -description

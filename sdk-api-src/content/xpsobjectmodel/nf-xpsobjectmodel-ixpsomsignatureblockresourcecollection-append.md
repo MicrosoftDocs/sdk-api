@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.Append
-title: IXpsOMSignatureBlockResourceCollection::Append method
+title: IXpsOMSignatureBlockResourceCollection::Append
 author: windows-driver-content
 description: Appends an IXpsOMSignatureBlockResource interface to the end of the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_append.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 4643df46-aa6f-4ffb-90f1-8834e16b4321
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging], IXpsOMSignatureBlockResourceCollection interface, Append,IXpsOMSignatureBlockResourceCollection.Append, IXpsOMSignatureBlockResourceCollection, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging], Append method, IXpsOMSignatureBlockResourceCollection::Append, xps.ixpsomsignatureblockresourcecollection_append, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::Append
+ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMSignatureBlockResourceCollection.Append, IXpsOMSignatureBlockResourceCollection::Append, xps.ixpsomsignatureblockresourcecollection_append, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMSignatureBlockResourceCollection::Append method
+# IXpsOMSignatureBlockResourceCollection::Append
 
 
 ## -description

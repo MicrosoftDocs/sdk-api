@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: 674ffba5-18c5-46bf-8813-d8d13e5ba903
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CreateGradientStopCollection, CreateGradientStopCollection methods [Direct2D], d2d1_1/CreateGradientStopCollection, direct2d.id2d1rendertarget_creategradientstopcollection
+ms.keywords: CreateGradientStopCollection, CreateGradientStopCollection methods [Direct2D], ID2D1RenderTarget::CreateGradientStopCollection, d2d1_1/CreateGradientStopCollection, direct2d.id2d1rendertarget_creategradientstopcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterMapper2.RegisterFilter
-title: IFilterMapper2::RegisterFilter method
+title: IFilterMapper2::RegisterFilter
 author: windows-driver-content
 description: The RegisterFilter method adds filter information to the registry.
 old-location: dshow\ifiltermapper2_registerfilter.htm
 old-project: DirectShow
 ms.assetid: 773e527e-2174-4f74-a822-549cfe2927a3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFilterMapper2, IFilterMapper2 interface [DirectShow], RegisterFilter method, IFilterMapper2::RegisterFilter, IFilterMapper2RegisterFilter, RegisterFilter method [DirectShow], RegisterFilter method [DirectShow], IFilterMapper2 interface, RegisterFilter,IFilterMapper2.RegisterFilter, dshow.ifiltermapper2_registerfilter, strmif/IFilterMapper2::RegisterFilter
+ms.date: 4/30/2018
+ms.keywords: IFilterMapper2 interface [DirectShow],RegisterFilter method, IFilterMapper2.RegisterFilter, IFilterMapper2::RegisterFilter, IFilterMapper2RegisterFilter, RegisterFilter, RegisterFilter method [DirectShow], RegisterFilter method [DirectShow],IFilterMapper2 interface, dshow.ifiltermapper2_registerfilter, strmif/IFilterMapper2::RegisterFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterMapper2::RegisterFilter method
+# IFilterMapper2::RegisterFilter
 
 
 ## -description

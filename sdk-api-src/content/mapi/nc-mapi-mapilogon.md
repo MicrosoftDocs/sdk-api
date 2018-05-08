@@ -8,7 +8,7 @@ old-project: WindowsMAPI
 ms.assetid: 5a61f0f2-347e-40fb-b7f9-6b42690cbcd8
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: MAPILogon, MAPILogon callback function, MAPI_FORCE_DOWNLOAD, MAPI_LOGON_UI, MAPI_NEW_SESSION, MAPI_PASSWORD_UI, mapi.mapilogon, mapi/MAPILogon
+ms.keywords: MAPILogon, MAPILogon callback, MAPILogon callback function, MAPI_FORCE_DOWNLOAD, MAPI_LOGON_UI, MAPI_NEW_SESSION, MAPI_PASSWORD_UI, mapi.mapilogon, mapi/MAPILogon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# MAPILOGON callback
+# MAPILOGON callback function
 
 
 ## -description

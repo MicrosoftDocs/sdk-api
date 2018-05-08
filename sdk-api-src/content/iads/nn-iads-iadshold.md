@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: ccc22915-0f67-4089-9ddc-491b6f7ef554
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Hold, IADsHold, IADsHold interface [ADSI], IADsHold interface [ADSI], described, _ds_iadshold, adsi.iadshold, iads/IADsHold
+ms.keywords: Hold, IADsHold, IADsHold interface [ADSI], IADsHold interface [ADSI],described, _ds_iadshold, adsi.iadshold, iads/IADsHold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

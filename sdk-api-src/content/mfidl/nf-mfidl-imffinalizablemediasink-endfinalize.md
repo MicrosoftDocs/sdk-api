@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFFinalizableMediaSink.EndFinalize
-title: IMFFinalizableMediaSink::EndFinalize method
+title: IMFFinalizableMediaSink::EndFinalize
 author: windows-driver-content
 description: Completes an asynchronous finalize operation.
 old-location: mf\imffinalizablemediasink_endfinalize.htm
 old-project: medfound
 ms.assetid: 1b2a9b24-69da-41c7-8379-3f3d066d2582
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 1b2a9b24-69da-41c7-8379-3f3d066d2582, EndFinalize method [Media Foundation], EndFinalize method [Media Foundation], IMFFinalizableMediaSink interface, EndFinalize,IMFFinalizableMediaSink.EndFinalize, IMFFinalizableMediaSink, IMFFinalizableMediaSink interface [Media Foundation], EndFinalize method, IMFFinalizableMediaSink::EndFinalize, mf.imffinalizablemediasink_endfinalize, mfidl/IMFFinalizableMediaSink::EndFinalize
+ms.date: 5/3/2018
+ms.keywords: 1b2a9b24-69da-41c7-8379-3f3d066d2582, EndFinalize, EndFinalize method [Media Foundation], EndFinalize method [Media Foundation],IMFFinalizableMediaSink interface, IMFFinalizableMediaSink interface [Media Foundation],EndFinalize method, IMFFinalizableMediaSink.EndFinalize, IMFFinalizableMediaSink::EndFinalize, mf.imffinalizablemediasink_endfinalize, mfidl/IMFFinalizableMediaSink::EndFinalize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFFinalizableMediaSink::EndFinalize method
+# IMFFinalizableMediaSink::EndFinalize
 
 
 ## -description

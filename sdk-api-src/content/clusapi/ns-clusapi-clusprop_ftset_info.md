@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CLUSPROP_FTSET_INFO, *PCLUSPROP_FTSET_INFO, CLUSPROP_FTSET_INFO, *PCLUSPROP_FTSET_INFO
+req.typenames: CLUSPROP_FTSET_INFO, *PCLUSPROP_FTSET_INFO
 topic_type:
 -	APIRef
 -	kbSyntax

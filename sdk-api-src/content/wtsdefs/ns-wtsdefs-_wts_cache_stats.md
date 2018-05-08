@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WTS_CACHE_STATS, *PWTS_CACHE_STATS, WTS_CACHE_STATS, *PWTS_CACHE_STATS
+req.typenames: WTS_CACHE_STATS, *PWTS_CACHE_STATS
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -84,6 +84,16 @@ The cache data is contained in the <b>Reserved</b> member.
 ### -field Data
 
 A <a href="https://msdn.microsoft.com/e6abb47e-248b-482d-9206-936092c391ce">WTS_CACHE_STATS_UN</a> union that contains the cache statistics.
+
+
+### -field Data.switch_is
+
+ 
+
+
+### -field Data.switch_is.Specific
+
+ 
 
 
 ### -field ProtocolType

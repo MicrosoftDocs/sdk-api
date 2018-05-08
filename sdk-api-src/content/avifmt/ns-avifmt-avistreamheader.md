@@ -7,7 +7,7 @@ old-location: dshow\avistreamheader.htm
 old-project: DirectShow
 ms.assetid: f07c28ac-2dd0-428a-a94a-32aec2bb0854
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: "'auds', 'mids', 'txts', 'vids', AVISF_DISABLED, AVISF_VIDEO_PALCHANGES, AVISTREAMHEADER, AVISTREAMHEADER structure [DirectShow], AVISTREAMHEADERStructure, AVIStreamHeader, _avistreamheader, avifmt/AVISTREAMHEADER, dshow.avistreamheader"
 ms.prod: windows-hardware
 ms.technology: windows-devices

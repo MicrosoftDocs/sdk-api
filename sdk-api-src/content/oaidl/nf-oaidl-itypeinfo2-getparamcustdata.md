@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetParamCustData
-title: ITypeInfo2::GetParamCustData method
+title: ITypeInfo2::GetParamCustData
 author: windows-driver-content
 description: Gets the custom data of the specified parameter.
 old-location: automat\itypeinfo2_getparamcustdata.htm
 old-project: automat
 ms.assetid: 9342c364-58bb-47fa-b2c0-aae7df1ccdb5
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetParamCustData method [Automation], GetParamCustData method [Automation], ITypeInfo2 interface, GetParamCustData,ITypeInfo2.GetParamCustData, ITypeInfo2, ITypeInfo2 interface [Automation], GetParamCustData method, ITypeInfo2::GetParamCustData, _oa96_ITypeInfo2_GetParamCustData, automat.itypeinfo2_getparamcustdata, oaidl/ITypeInfo2::GetParamCustData
+ms.date: 5/4/2018
+ms.keywords: GetParamCustData, GetParamCustData method [Automation], GetParamCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetParamCustData method, ITypeInfo2.GetParamCustData, ITypeInfo2::GetParamCustData, _oa96_ITypeInfo2_GetParamCustData, automat.itypeinfo2_getparamcustdata, oaidl/ITypeInfo2::GetParamCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo2::GetParamCustData method
+# ITypeInfo2::GetParamCustData
 
 
 ## -description

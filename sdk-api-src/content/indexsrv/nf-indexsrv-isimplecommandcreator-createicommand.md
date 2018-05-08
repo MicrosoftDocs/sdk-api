@@ -1,14 +1,14 @@
 ---
 UID: NF:indexsrv.ISimpleCommandCreator.CreateICommand
-title: ISimpleCommandCreator::CreateICommand method
+title: ISimpleCommandCreator::CreateICommand
 author: windows-driver-content
 description: Creates an ICommand.
 old-location: search\isimplecommandcreator_createicommand.htm
 old-project: search
 ms.assetid: 70880905-E4DF-4064-A877-18AF5CE839FB
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateICommand method [search], CreateICommand method [search], ISimpleCommandCreator interface, CreateICommand,ISimpleCommandCreator.CreateICommand, ISimpleCommandCreator, ISimpleCommandCreator interface [search], CreateICommand method, ISimpleCommandCreator::CreateICommand, indexsrv/ISimpleCommandCreator::CreateICommand, search.isimplecommandcreator_createicommand
+ms.date: 5/4/2018
+ms.keywords: CreateICommand, CreateICommand method [search], CreateICommand method [search],ISimpleCommandCreator interface, ISimpleCommandCreator interface [search],CreateICommand method, ISimpleCommandCreator.CreateICommand, ISimpleCommandCreator::CreateICommand, indexsrv/ISimpleCommandCreator::CreateICommand, search.isimplecommandcreator_createicommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISimpleCommandCreator::CreateICommand method
+# ISimpleCommandCreator::CreateICommand
 
 
 ## -description

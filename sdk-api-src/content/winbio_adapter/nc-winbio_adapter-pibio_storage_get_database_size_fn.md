@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 98e26b32-3e2a-40d9-8463-9bd7e93c636b
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_GET_DATABASE_SIZE_FN, StorageAdapterGetDatabaseSize, StorageAdapterGetDatabaseSize callback function [Windows Biometric Framework API], secbiomet.storageadaptergetdatabasesize, winbio_adapter/StorageAdapterGetDatabaseSize
+ms.keywords: PIBIO_STORAGE_GET_DATABASE_SIZE_FN, PIBIO_STORAGE_GET_DATABASE_SIZE_FN callback, StorageAdapterGetDatabaseSize, StorageAdapterGetDatabaseSize callback function [Windows Biometric Framework API], secbiomet.storageadaptergetdatabasesize, winbio_adapter/StorageAdapterGetDatabaseSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_GET_DATABASE_SIZE_FN callback
+# PIBIO_STORAGE_GET_DATABASE_SIZE_FN callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop2.RequestAccessForAppWithMessageForWindowAsync
-title: IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync method
+title: IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync
 author: windows-driver-content
 description: Request access to enterprise-protected content for a specific target app.
 old-location: edp\iprotectionpolicymanagerinterop2_requestaccessforappwithmessageforwindowasync.htm
@@ -8,7 +8,7 @@ old-project: EDP
 ms.assetid: D78D0095-826A-4E6F-9420-873382A76B87
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccessforappwithmessageforwindowasync, IProtectionPolicyManagerInterop2, IProtectionPolicyManagerInterop2 interface, RequestAccessForAppWithMessageForWindowAsync method, IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync, RequestAccessForAppWithMessageForWindowAsync method, RequestAccessForAppWithMessageForWindowAsync method, IProtectionPolicyManagerInterop2 interface, RequestAccessForAppWithMessageForWindowAsync,IProtectionPolicyManagerInterop2.RequestAccessForAppWithMessageForWindowAsync, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync
+ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccessforappwithmessageforwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessForAppWithMessageForWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessForAppWithMessageForWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync, RequestAccessForAppWithMessageForWindowAsync, RequestAccessForAppWithMessageForWindowAsync method, RequestAccessForAppWithMessageForWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync method
+# IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync
 
 
 ## -description

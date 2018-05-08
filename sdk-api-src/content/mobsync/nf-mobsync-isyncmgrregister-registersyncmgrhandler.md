@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrRegister.RegisterSyncMgrHandler
-title: ISyncMgrRegister::RegisterSyncMgrHandler method
+title: ISyncMgrRegister::RegisterSyncMgrHandler
 author: windows-driver-content
 description: Registers a handler with the synchronization manager when the handler has items to synchronize.
 old-location: shell\syncmgr_isyncmgrregister_registersyncmgrhandler.htm
 old-project: shell
 ms.assetid: 8c980c57-90a1-4f97-8d0c-22a3abdefabb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrRegister, ISyncMgrRegister interface [Windows Shell], RegisterSyncMgrHandler method, ISyncMgrRegister::RegisterSyncMgrHandler, RegisterSyncMgrHandler method [Windows Shell], RegisterSyncMgrHandler method [Windows Shell], ISyncMgrRegister interface, RegisterSyncMgrHandler,ISyncMgrRegister.RegisterSyncMgrHandler, mobsync/ISyncMgrRegister::RegisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_registersyncmgrhandler, syncmgr.isyncmgrregister_registersyncmgrhandler
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrRegister interface [Windows Shell],RegisterSyncMgrHandler method, ISyncMgrRegister.RegisterSyncMgrHandler, ISyncMgrRegister::RegisterSyncMgrHandler, RegisterSyncMgrHandler, RegisterSyncMgrHandler method [Windows Shell], RegisterSyncMgrHandler method [Windows Shell],ISyncMgrRegister interface, mobsync/ISyncMgrRegister::RegisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_registersyncmgrhandler, syncmgr.isyncmgrregister_registersyncmgrhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrRegister::RegisterSyncMgrHandler method
+# ISyncMgrRegister::RegisterSyncMgrHandler
 
 
 ## -description

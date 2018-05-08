@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFCollection.RemoveAllElements
-title: IMFCollection::RemoveAllElements method
+title: IMFCollection::RemoveAllElements
 author: windows-driver-content
 description: Removes all items from the collection.
 old-location: mf\imfcollection_removeallelements.htm
 old-project: medfound
 ms.assetid: 8c82d287-b73e-46dd-a319-70c5d0f536c6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 8c82d287-b73e-46dd-a319-70c5d0f536c6, IMFCollection, IMFCollection interface [Media Foundation], RemoveAllElements method, IMFCollection::RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation], IMFCollection interface, RemoveAllElements,IMFCollection.RemoveAllElements, mf.imfcollection_removeallelements, mfobjects/IMFCollection::RemoveAllElements
+ms.date: 5/3/2018
+ms.keywords: 8c82d287-b73e-46dd-a319-70c5d0f536c6, IMFCollection interface [Media Foundation],RemoveAllElements method, IMFCollection.RemoveAllElements, IMFCollection::RemoveAllElements, RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation],IMFCollection interface, mf.imfcollection_removeallelements, mfobjects/IMFCollection::RemoveAllElements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCollection::RemoveAllElements method
+# IMFCollection::RemoveAllElements
 
 
 ## -description

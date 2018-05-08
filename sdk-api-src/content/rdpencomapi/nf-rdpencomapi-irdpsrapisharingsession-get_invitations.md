@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_Invitations
-title: IRDPSRAPISharingSession::get_Invitations method
+title: IRDPSRAPISharingSession::get_Invitations
 author: windows-driver-content
 description: Returns an object implementing the IRDPSRAPIInvitationManager interface.
 old-location: rdp\irdpsrapisharingsession_invitations.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 6e5116d9-7b65-4d93-ab1e-caac080e870e
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPISharingSession, IRDPSRAPISharingSession interface [RDP], Invitations property, IRDPSRAPISharingSession.Invitations, IRDPSRAPISharingSession2 interface [RDP], Invitations property, IRDPSRAPISharingSession2.Invitations, IRDPSRAPISharingSession2::get_Invitations, IRDPSRAPISharingSession::get_Invitations, Invitations property [RDP], Invitations property [RDP], IRDPSRAPISharingSession interface, Invitations property [RDP], IRDPSRAPISharingSession2 interface, Invitations property [RDP], RDPSession object, RDPSession object [RDP], Invitations property, get_Invitations,IRDPSRAPISharingSession.get_Invitations, rdp.irdpsrapisharingsession_invitations, rdpencomapi/IRDPSRAPISharingSession2::Invitations, rdpencomapi/IRDPSRAPISharingSession2::get_Invitations, rdpencomapi/IRDPSRAPISharingSession::Invitations, rdpencomapi/IRDPSRAPISharingSession::get_Invitations
+ms.keywords: IRDPSRAPISharingSession interface [RDP],Invitations property, IRDPSRAPISharingSession.Invitations, IRDPSRAPISharingSession.get_Invitations, IRDPSRAPISharingSession2 interface [RDP],Invitations property, IRDPSRAPISharingSession2.Invitations, IRDPSRAPISharingSession2::Invitations, IRDPSRAPISharingSession2::get_Invitations, IRDPSRAPISharingSession::get_Invitations, Invitations property [RDP], Invitations property [RDP],IRDPSRAPISharingSession interface, Invitations property [RDP],IRDPSRAPISharingSession2 interface, Invitations property [RDP],RDPSession object, RDPSession object [RDP],Invitations property, get_Invitations, rdp.irdpsrapisharingsession_invitations, rdpencomapi/IRDPSRAPISharingSession2::Invitations, rdpencomapi/IRDPSRAPISharingSession2::get_Invitations, rdpencomapi/IRDPSRAPISharingSession::Invitations, rdpencomapi/IRDPSRAPISharingSession::get_Invitations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPISharingSession::get_Invitations method
+# IRDPSRAPISharingSession::get_Invitations
 
 
 ## -description

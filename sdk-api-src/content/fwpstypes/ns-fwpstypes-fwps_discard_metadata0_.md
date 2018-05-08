@@ -7,7 +7,7 @@ old-location: netvista\fwps_discard_metadata0.htm
 old-project: netvista
 ms.assetid: f17076d8-b669-4bb4-a871-10c7bdc6e370
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_DISCARD_METADATA0, FWPS_DISCARD_METADATA0 structure [Network Drivers Starting with Windows Vista], FWPS_DISCARD_METADATA0_, fwpstypes/FWPS_DISCARD_METADATA0, netvista.fwps_discard_metadata0, wfp_ref_3_struct_3_fwps_F-O_b2c71176-0655-45cf-ac72-3fbb690fb05b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

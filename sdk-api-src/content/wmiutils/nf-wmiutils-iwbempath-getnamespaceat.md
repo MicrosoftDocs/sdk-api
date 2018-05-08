@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetNamespaceAt
-title: IWbemPath::GetNamespaceAt method
+title: IWbemPath::GetNamespaceAt
 author: windows-driver-content
 description: Retrieves a namespace based upon its index.
 old-location: wmi\iwbempath_getnamespaceat.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: a5180c35-df90-447d-ad52-250ececfd525
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetNamespaceAt method [Windows Management Instrumentation], GetNamespaceAt method [Windows Management Instrumentation], IWbemPath interface, GetNamespaceAt,IWbemPath.GetNamespaceAt, IWbemPath, IWbemPath interface [Windows Management Instrumentation], GetNamespaceAt method, IWbemPath::GetNamespaceAt, _hmm_iwbempath_getnamespaceat, wmi.iwbempath_getnamespaceat, wmiutils/IWbemPath::GetNamespaceAt
+ms.keywords: GetNamespaceAt, GetNamespaceAt method [Windows Management Instrumentation], GetNamespaceAt method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetNamespaceAt method, IWbemPath.GetNamespaceAt, IWbemPath::GetNamespaceAt, _hmm_iwbempath_getnamespaceat, wmi.iwbempath_getnamespaceat, wmiutils/IWbemPath::GetNamespaceAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPath::GetNamespaceAt method
+# IWbemPath::GetNamespaceAt
 
 
 ## -description

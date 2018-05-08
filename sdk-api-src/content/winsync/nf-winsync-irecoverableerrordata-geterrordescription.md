@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableErrorData.GetErrorDescription
-title: IRecoverableErrorData::GetErrorDescription method
+title: IRecoverableErrorData::GetErrorDescription
 author: windows-driver-content
 description: Gets the description of the error.
 old-location: winsync\irecoverableerrordata_geterrordescription.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 9bd268aa-683d-4a77-966c-7cba0348d034
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetErrorDescription method [Windows Sync], GetErrorDescription method [Windows Sync], IRecoverableErrorData interface, GetErrorDescription,IRecoverableErrorData.GetErrorDescription, IRecoverableErrorData, IRecoverableErrorData interface [Windows Sync], GetErrorDescription method, IRecoverableErrorData::GetErrorDescription, winsync.irecoverableerrordata_geterrordescription, winsync/IRecoverableErrorData::GetErrorDescription
+ms.keywords: GetErrorDescription, GetErrorDescription method [Windows Sync], GetErrorDescription method [Windows Sync],IRecoverableErrorData interface, IRecoverableErrorData interface [Windows Sync],GetErrorDescription method, IRecoverableErrorData.GetErrorDescription, IRecoverableErrorData::GetErrorDescription, winsync.irecoverableerrordata_geterrordescription, winsync/IRecoverableErrorData::GetErrorDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IRecoverableErrorData::GetErrorDescription method
+# IRecoverableErrorData::GetErrorDescription
 
 
 ## -description

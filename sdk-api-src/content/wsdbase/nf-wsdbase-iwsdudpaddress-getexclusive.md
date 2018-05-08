@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetExclusive
-title: IWSDUdpAddress::GetExclusive method
+title: IWSDUdpAddress::GetExclusive
 author: windows-driver-content
 description: Determines whether the socket is in exclusive mode.
 old-location: ncd\iwsdudpaddress_getexclusive.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 9ee62901-242a-47bc-a50d-4ced245392de
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetExclusive method, GetExclusive method, IWSDUdpAddress interface, GetExclusive,IWSDUdpAddress.GetExclusive, IWSDUdpAddress, IWSDUdpAddress interface, GetExclusive method, IWSDUdpAddress::GetExclusive, ncd.iwsdudpaddress_getexclusive, wsdbase/IWSDUdpAddress::GetExclusive
+ms.keywords: GetExclusive, GetExclusive method, GetExclusive method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetExclusive method, IWSDUdpAddress.GetExclusive, IWSDUdpAddress::GetExclusive, ncd.iwsdudpaddress_getexclusive, wsdbase/IWSDUdpAddress::GetExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDUdpAddress::GetExclusive method
+# IWSDUdpAddress::GetExclusive
 
 
 ## -description

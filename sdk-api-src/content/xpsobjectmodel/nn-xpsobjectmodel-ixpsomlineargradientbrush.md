@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 739bf088-0f09-47c1-9b49-6c279395f15b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMLinearGradientBrush, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging], IXpsOMLinearGradientBrush interface [XPS Documents and Packaging], described, xps.ixpsomlineargradientbrush, xpsobjectmodel/IXpsOMLinearGradientBrush
+ms.keywords: IXpsOMLinearGradientBrush, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging], IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],described, xps.ixpsomlineargradientbrush, xpsobjectmodel/IXpsOMLinearGradientBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_DesiredDisplacement
-title: IInertiaProcessor::get_DesiredDisplacement method
+title: IInertiaProcessor::get_DesiredDisplacement
 author: windows-driver-content
 description: The DesiredDisplacement property specifies the desired distance that the object will travel.
 old-location: wintouch\iinertiaprocessor_desireddisplacement.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: cbcd7ce7-7df4-48d8-acfe-dc206f5d70d1
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DesiredDisplacement property [Windows Touch], DesiredDisplacement property [Windows Touch], IInertiaProcessor interface, IInertiaProcessor, IInertiaProcessor interface [Windows Touch], DesiredDisplacement property, IInertiaProcessor.DesiredDisplacement, IInertiaProcessor::get_DesiredDisplacement, IInertiaProcessor::put_DesiredDisplacement, get_DesiredDisplacement,IInertiaProcessor.get_DesiredDisplacement, manipulations/IInertiaProcessor::DesiredDisplacement, manipulations/IInertiaProcessor::get_DesiredDisplacement, manipulations/IInertiaProcessor::put_DesiredDisplacement, wintouch.iinertiaprocessor_desireddisplacement
+ms.keywords: DesiredDisplacement property [Windows Touch], DesiredDisplacement property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredDisplacement property, IInertiaProcessor.DesiredDisplacement, IInertiaProcessor.get_DesiredDisplacement, IInertiaProcessor::DesiredDisplacement, IInertiaProcessor::get_DesiredDisplacement, IInertiaProcessor::put_DesiredDisplacement, get_DesiredDisplacement, manipulations/IInertiaProcessor::DesiredDisplacement, manipulations/IInertiaProcessor::get_DesiredDisplacement, manipulations/IInertiaProcessor::put_DesiredDisplacement, wintouch.iinertiaprocessor_desireddisplacement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::get_DesiredDisplacement method
+# IInertiaProcessor::get_DesiredDisplacement
 
 
 ## -description

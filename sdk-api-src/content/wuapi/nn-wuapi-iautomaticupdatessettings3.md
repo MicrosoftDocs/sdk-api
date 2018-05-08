@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 2cc4d15f-eb8c-4db1-a81b-6eb3ee128121
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IAutomaticUpdatesSettings3, IAutomaticUpdatesSettings3 interface [Windows Update Agent], IAutomaticUpdatesSettings3 interface [Windows Update Agent], described, wua.iautomaticupdatessettings3, wuapi/IAutomaticUpdatesSettings3
+ms.keywords: IAutomaticUpdatesSettings3, IAutomaticUpdatesSettings3 interface [Windows Update Agent], IAutomaticUpdatesSettings3 interface [Windows Update Agent],described, wua.iautomaticupdatessettings3, wuapi/IAutomaticUpdatesSettings3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

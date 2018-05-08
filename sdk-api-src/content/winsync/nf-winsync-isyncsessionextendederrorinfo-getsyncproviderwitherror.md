@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionExtendedErrorInfo.GetSyncProviderWithError
-title: ISyncSessionExtendedErrorInfo::GetSyncProviderWithError method
+title: ISyncSessionExtendedErrorInfo::GetSyncProviderWithError
 author: windows-driver-content
 description: Gets the ISyncProvider interface of the provider that caused synchronization to fail.
 old-location: winsync\isyncsessionextendederrorinfo_getsyncproviderwitherror.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: b0115f1a-41e7-4126-9b77-03960227d4fe
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSyncProviderWithError method [Windows Sync], GetSyncProviderWithError method [Windows Sync], ISyncSessionExtendedErrorInfo interface, GetSyncProviderWithError,ISyncSessionExtendedErrorInfo.GetSyncProviderWithError, ISyncSessionExtendedErrorInfo, ISyncSessionExtendedErrorInfo interface [Windows Sync], GetSyncProviderWithError method, ISyncSessionExtendedErrorInfo::GetSyncProviderWithError, winsync.isyncsessionextendederrorinfo_getsyncproviderwitherror, winsync/ISyncSessionExtendedErrorInfo::GetSyncProviderWithError
+ms.keywords: GetSyncProviderWithError, GetSyncProviderWithError method [Windows Sync], GetSyncProviderWithError method [Windows Sync],ISyncSessionExtendedErrorInfo interface, ISyncSessionExtendedErrorInfo interface [Windows Sync],GetSyncProviderWithError method, ISyncSessionExtendedErrorInfo.GetSyncProviderWithError, ISyncSessionExtendedErrorInfo::GetSyncProviderWithError, winsync.isyncsessionextendederrorinfo_getsyncproviderwitherror, winsync/ISyncSessionExtendedErrorInfo::GetSyncProviderWithError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncSessionExtendedErrorInfo::GetSyncProviderWithError method
+# ISyncSessionExtendedErrorInfo::GetSyncProviderWithError
 
 
 ## -description

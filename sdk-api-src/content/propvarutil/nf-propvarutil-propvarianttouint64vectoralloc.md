@@ -7,7 +7,7 @@ old-location: properties\PropVariantToUInt64VectorAlloc.htm
 old-project: properties
 ms.assetid: 88947036-3745-48c6-ba61-dc139c3801d5
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: PropVariantToUInt64VectorAlloc, PropVariantToUInt64VectorAlloc function [Windows Properties], _shell_PropVariantToUInt64VectorAlloc, properties.PropVariantToUInt64VectorAlloc, propvarutil/PropVariantToUInt64VectorAlloc, shell.PropVariantToUInt64VectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

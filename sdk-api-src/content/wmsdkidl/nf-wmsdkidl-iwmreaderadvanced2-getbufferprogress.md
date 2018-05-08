@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetBufferProgress
-title: IWMReaderAdvanced2::GetBufferProgress method
+title: IWMReaderAdvanced2::GetBufferProgress
 author: windows-driver-content
 description: The GetBufferProgress method retrieves the percentage of data that has been buffered, and the time remaining to completion.
 old-location: wmformat\iwmreaderadvanced2_getbufferprogress.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e0419f53-9962-4d81-9153-0538c60861eb
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetBufferProgress method [windows Media Format], GetBufferProgress method [windows Media Format], IWMReaderAdvanced2 interface, GetBufferProgress,IWMReaderAdvanced2.GetBufferProgress, IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], GetBufferProgress method, IWMReaderAdvanced2::GetBufferProgress, IWMReaderAdvanced2GetBufferProgress, wmformat.iwmreaderadvanced2_getbufferprogress, wmsdkidl/IWMReaderAdvanced2::GetBufferProgress
+ms.keywords: GetBufferProgress, GetBufferProgress method [windows Media Format], GetBufferProgress method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetBufferProgress method, IWMReaderAdvanced2.GetBufferProgress, IWMReaderAdvanced2::GetBufferProgress, IWMReaderAdvanced2GetBufferProgress, wmformat.iwmreaderadvanced2_getbufferprogress, wmsdkidl/IWMReaderAdvanced2::GetBufferProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced2::GetBufferProgress method
+# IWMReaderAdvanced2::GetBufferProgress
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceEnumerator.MovePrevious
-title: IOpcSignaturePartReferenceEnumerator::MovePrevious method
+title: IOpcSignaturePartReferenceEnumerator::MovePrevious
 author: windows-driver-content
 description: Moves the current position of the enumerator to the previous IOpcSignaturePartReference interface pointer.
 old-location: opc\iopcsignaturepartreferenceenumerator_moveprevious.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 508c447e-dbbb-4e10-b9f7-c1d58ccf1895
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcSignaturePartReferenceEnumerator, IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions], MovePrevious method, IOpcSignaturePartReferenceEnumerator::MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions], IOpcSignaturePartReferenceEnumerator interface, MovePrevious,IOpcSignaturePartReferenceEnumerator.MovePrevious, msopc/IOpcSignaturePartReferenceEnumerator::MovePrevious, opc.iopcsignaturepartreferenceenumerator_moveprevious
+ms.keywords: IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignaturePartReferenceEnumerator.MovePrevious, IOpcSignaturePartReferenceEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignaturePartReferenceEnumerator interface, msopc/IOpcSignaturePartReferenceEnumerator::MovePrevious, opc.iopcsignaturepartreferenceenumerator_moveprevious
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignaturePartReferenceEnumerator::MovePrevious method
+# IOpcSignaturePartReferenceEnumerator::MovePrevious
 
 
 ## -description

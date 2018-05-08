@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.SetLocalTickCount
-title: ISyncKnowledge::SetLocalTickCount method
+title: ISyncKnowledge::SetLocalTickCount
 author: windows-driver-content
 description: Sets the tick count for the replica that owns this knowledge.
 old-location: winsync\isyncknowledge_setlocaltickcount.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 0da3728d-c2b8-4998-bdc4-50642af9e416
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncKnowledge, ISyncKnowledge interface [Windows Sync], SetLocalTickCount method, ISyncKnowledge::SetLocalTickCount, SetLocalTickCount method [Windows Sync], SetLocalTickCount method [Windows Sync], ISyncKnowledge interface, SetLocalTickCount,ISyncKnowledge.SetLocalTickCount, winsync.isyncknowledge_setlocaltickcount, winsync/ISyncKnowledge::SetLocalTickCount
+ms.keywords: ISyncKnowledge interface [Windows Sync],SetLocalTickCount method, ISyncKnowledge.SetLocalTickCount, ISyncKnowledge::SetLocalTickCount, SetLocalTickCount, SetLocalTickCount method [Windows Sync], SetLocalTickCount method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_setlocaltickcount, winsync/ISyncKnowledge::SetLocalTickCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::SetLocalTickCount method
+# ISyncKnowledge::SetLocalTickCount
 
 
 ## -description

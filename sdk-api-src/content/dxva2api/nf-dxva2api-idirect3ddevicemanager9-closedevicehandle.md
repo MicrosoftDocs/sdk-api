@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.CloseDeviceHandle
-title: IDirect3DDeviceManager9::CloseDeviceHandle method
+title: IDirect3DDeviceManager9::CloseDeviceHandle
 author: windows-driver-content
 description: Closes a Direct3D device handle.
 old-location: mf\idirect3ddevicemanager9_closedevicehandle.htm
 old-project: medfound
 ms.assetid: 5c074823-d1f4-4db1-87ab-bbdb6d0a7a5a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 5c074823-d1f4-4db1-87ab-bbdb6d0a7a5a, CloseDeviceHandle method [Media Foundation], CloseDeviceHandle method [Media Foundation], IDirect3DDeviceManager9 interface, CloseDeviceHandle,IDirect3DDeviceManager9.CloseDeviceHandle, IDirect3DDeviceManager9, IDirect3DDeviceManager9 interface [Media Foundation], CloseDeviceHandle method, IDirect3DDeviceManager9::CloseDeviceHandle, dxva2api/IDirect3DDeviceManager9::CloseDeviceHandle, mf.idirect3ddevicemanager9_closedevicehandle
+ms.date: 5/3/2018
+ms.keywords: 5c074823-d1f4-4db1-87ab-bbdb6d0a7a5a, CloseDeviceHandle, CloseDeviceHandle method [Media Foundation], CloseDeviceHandle method [Media Foundation],IDirect3DDeviceManager9 interface, IDirect3DDeviceManager9 interface [Media Foundation],CloseDeviceHandle method, IDirect3DDeviceManager9.CloseDeviceHandle, IDirect3DDeviceManager9::CloseDeviceHandle, dxva2api/IDirect3DDeviceManager9::CloseDeviceHandle, mf.idirect3ddevicemanager9_closedevicehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirect3DDeviceManager9::CloseDeviceHandle method
+# IDirect3DDeviceManager9::CloseDeviceHandle
 
 
 ## -description

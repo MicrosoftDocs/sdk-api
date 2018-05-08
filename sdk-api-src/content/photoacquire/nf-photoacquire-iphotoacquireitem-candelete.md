@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.CanDelete
-title: IPhotoAcquireItem::CanDelete method
+title: IPhotoAcquireItem::CanDelete
 author: windows-driver-content
 description: The CanDelete method indicates whether an item may be deleted.
 old-location: picacq\iphotoacquireitem_candelete.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: df0acbed-0352-4591-8908-f0dda1da25dd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CanDelete method [Picture Acquisition], CanDelete method [Picture Acquisition], IPhotoAcquireItem interface, CanDelete,IPhotoAcquireItem.CanDelete, IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], CanDelete method, IPhotoAcquireItem::CanDelete, IPhotoAcquireItemCanDelete, photoacquire/IPhotoAcquireItem::CanDelete, picacq.iphotoacquireitem_candelete
+ms.keywords: CanDelete, CanDelete method [Picture Acquisition], CanDelete method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],CanDelete method, IPhotoAcquireItem.CanDelete, IPhotoAcquireItem::CanDelete, IPhotoAcquireItemCanDelete, photoacquire/IPhotoAcquireItem::CanDelete, picacq.iphotoacquireitem_candelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireItem::CanDelete method
+# IPhotoAcquireItem::CanDelete
 
 
 ## -description

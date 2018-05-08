@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.GetNextLink
-title: IOleUILinkContainerA::GetNextLink method
+title: IOleUILinkContainerA::GetNextLink
 author: windows-driver-content
 description: Enumerates the links in a container.
 old-location: com\ioleuilinkcontainer_getnextlink.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 60246b31-3677-4424-a131-840feeca030f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetNextLink method [COM], GetNextLink method [COM], IOleUILinkContainer interface, GetNextLink method [COM], IOleUILinkContainerA interface, GetNextLink method [COM], IOleUILinkContainerW interface, GetNextLink,IOleUILinkContainerA.GetNextLink, IOleUILinkContainer interface [COM], GetNextLink method, IOleUILinkContainer::GetNextLink, IOleUILinkContainerA, IOleUILinkContainerA interface [COM], GetNextLink method, IOleUILinkContainerA::GetNextLink, IOleUILinkContainerW interface [COM], GetNextLink method, IOleUILinkContainerW::GetNextLink, _ole_IOleUILinkContainer_GetNextLink, com.ioleuilinkcontainer_getnextlink, oledlg/IOleUILinkContainer::GetNextLink, oledlg/IOleUILinkContainerA::GetNextLink, oledlg/IOleUILinkContainerW::GetNextLink
+ms.keywords: GetNextLink, GetNextLink method [COM], GetNextLink method [COM],IOleUILinkContainer interface, GetNextLink method [COM],IOleUILinkContainerA interface, GetNextLink method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],GetNextLink method, IOleUILinkContainer::GetNextLink, IOleUILinkContainerA interface [COM],GetNextLink method, IOleUILinkContainerA.GetNextLink, IOleUILinkContainerA::GetNextLink, IOleUILinkContainerW interface [COM],GetNextLink method, IOleUILinkContainerW::GetNextLink, _ole_IOleUILinkContainer_GetNextLink, com.ioleuilinkcontainer_getnextlink, oledlg/IOleUILinkContainer::GetNextLink, oledlg/IOleUILinkContainerA::GetNextLink, oledlg/IOleUILinkContainerW::GetNextLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleUILinkContainerA::GetNextLink method
+# IOleUILinkContainerA::GetNextLink
 
 
 ## -description

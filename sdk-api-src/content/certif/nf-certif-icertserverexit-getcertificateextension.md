@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerExit.GetCertificateExtension
-title: ICertServerExit::GetCertificateExtension method
+title: ICertServerExit::GetCertificateExtension
 author: windows-driver-content
 description: Gets a specified certificate extension.
 old-location: security\icertserverexit_getcertificateextension.htm
 old-project: SecCrypto
 ms.assetid: ba2d2e5f-230e-4e69-8d86-dad9c743e5ee
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertServerExit object [Security], GetCertificateExtension method, GetCertificateExtension method [Security], GetCertificateExtension method [Security], CCertServerExit object, GetCertificateExtension method [Security], ICertServerExit interface, GetCertificateExtension,ICertServerExit.GetCertificateExtension, ICertServerExit, ICertServerExit interface [Security], GetCertificateExtension method, ICertServerExit::GetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertserverexit_getcertificateextension, certif/ICertServerExit::GetCertificateExtension, security.icertserverexit_getcertificateextension
+ms.date: 4/30/2018
+ms.keywords: CCertServerExit object [Security],GetCertificateExtension method, GetCertificateExtension, GetCertificateExtension method [Security], GetCertificateExtension method [Security],CCertServerExit object, GetCertificateExtension method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateExtension method, ICertServerExit.GetCertificateExtension, ICertServerExit::GetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertserverexit_getcertificateextension, certif/ICertServerExit::GetCertificateExtension, security.icertserverexit_getcertificateextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerExit::GetCertificateExtension method
+# ICertServerExit::GetCertificateExtension
 
 
 ## -description

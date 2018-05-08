@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SyncDisplayTransform
-title: IDirectManipulationViewport::SyncDisplayTransform method
+title: IDirectManipulationViewport::SyncDisplayTransform
 author: windows-driver-content
 description: Specifies a display transform for the viewport, and synchronizes the output transform with the new value of the display transform.
 old-location: directmanipulation\idirectmanipulationviewport_syncdisplaytransform.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 0af63d1e-026e-4083-a1b2-56ba31653434
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], SyncDisplayTransform method, IDirectManipulationViewport::SyncDisplayTransform, SyncDisplayTransform method [Direct Manipulation], SyncDisplayTransform method [Direct Manipulation], IDirectManipulationViewport interface, SyncDisplayTransform,IDirectManipulationViewport.SyncDisplayTransform, directmanipulation.idirectmanipulationviewport_syncdisplaytransform, directmanipulation/IDirectManipulationViewport::SyncDisplayTransform
+ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SyncDisplayTransform method, IDirectManipulationViewport.SyncDisplayTransform, IDirectManipulationViewport::SyncDisplayTransform, SyncDisplayTransform, SyncDisplayTransform method [Direct Manipulation], SyncDisplayTransform method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_syncdisplaytransform, directmanipulation/IDirectManipulationViewport::SyncDisplayTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::SyncDisplayTransform method
+# IDirectManipulationViewport::SyncDisplayTransform
 
 
 ## -description

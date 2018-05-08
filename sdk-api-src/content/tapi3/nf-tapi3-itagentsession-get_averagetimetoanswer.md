@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_AverageTimeToAnswer
-title: ITAgentSession::get_AverageTimeToAnswer method
+title: ITAgentSession::get_AverageTimeToAnswer
 author: windows-driver-content
 description: The get_AverageTimeToAnswer method gets the average time (in seconds) that calls waited to be answered.
 old-location: tapi3\itagentsession_get_averagetimetoanswer.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 24d2b9ee-4fd0-41d3-add1-5c136944a250
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], get_AverageTimeToAnswer method, ITAgentSession::get_AverageTimeToAnswer, _tapi3_itagentsession_get_averagetimetoanswer, get_AverageTimeToAnswer method [TAPI 2.2], get_AverageTimeToAnswer method [TAPI 2.2], ITAgentSession interface, get_AverageTimeToAnswer,ITAgentSession.get_AverageTimeToAnswer, tapi3.itagentsession_get_averagetimetoanswer, tapi3cc/ITAgentSession::get_AverageTimeToAnswer
+ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageTimeToAnswer method, ITAgentSession.get_AverageTimeToAnswer, ITAgentSession::get_AverageTimeToAnswer, _tapi3_itagentsession_get_averagetimetoanswer, get_AverageTimeToAnswer, get_AverageTimeToAnswer method [TAPI 2.2], get_AverageTimeToAnswer method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagetimetoanswer, tapi3cc/ITAgentSession::get_AverageTimeToAnswer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentSession::get_AverageTimeToAnswer method
+# ITAgentSession::get_AverageTimeToAnswer
 
 
 ## -description

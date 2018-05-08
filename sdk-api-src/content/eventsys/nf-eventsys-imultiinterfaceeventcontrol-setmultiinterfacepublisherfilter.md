@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter
-title: IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter method
+title: IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter
 author: windows-driver-content
 description: Assigns a publisher filter to an event method at run time.
 old-location: cos\imultiinterfaceeventcontrol_setmultiinterfacepublisherfilter.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 0eb52937-3bd8-45ab-b4ba-c0264c47c909
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IMultiInterfaceEventControl, IMultiInterfaceEventControl interface [COM+], SetMultiInterfacePublisherFilter method, IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter, SetMultiInterfacePublisherFilter method [COM+], SetMultiInterfacePublisherFilter method [COM+], IMultiInterfaceEventControl interface, SetMultiInterfacePublisherFilter,IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter, _cos_IMultiInterfaceEventControl_SetMultiInterfacePublisherFilter, cos.imultiinterfaceeventcontrol_setmultiinterfacepublisherfilter, eventsys/IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter
+ms.keywords: IMultiInterfaceEventControl interface [COM+],SetMultiInterfacePublisherFilter method, IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter, IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter, SetMultiInterfacePublisherFilter, SetMultiInterfacePublisherFilter method [COM+], SetMultiInterfacePublisherFilter method [COM+],IMultiInterfaceEventControl interface, _cos_IMultiInterfaceEventControl_SetMultiInterfacePublisherFilter, cos.imultiinterfaceeventcontrol_setmultiinterfacepublisherfilter, eventsys/IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter method
+# IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter
 
 
 ## -description

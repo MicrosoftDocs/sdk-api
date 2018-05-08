@@ -1,14 +1,14 @@
 ---
 UID: NF:inputpaneinterop.IInputPaneInterop.GetForWindow
-title: IInputPaneInterop::GetForWindow method
+title: IInputPaneInterop::GetForWindow
 author: windows-driver-content
 description: Gets an instance of an InputPane object for the specified window.
 old-location: winrt\iinputpaneinterop_getforwindow.htm
 old-project: WinRT
 ms.assetid: 98A591F8-B85C-4400-9BA6-1B8F422C067B
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime], IInputPaneInterop interface, GetForWindow,IInputPaneInterop.GetForWindow, IInputPaneInterop, IInputPaneInterop interface [Windows Runtime], GetForWindow method, IInputPaneInterop::GetForWindow, inputpaneinterop/IInputPaneInterop::GetForWindow, winrt.iinputpaneinterop_getforwindow
+ms.date: 5/4/2018
+ms.keywords: GetForWindow, GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime],IInputPaneInterop interface, IInputPaneInterop interface [Windows Runtime],GetForWindow method, IInputPaneInterop.GetForWindow, IInputPaneInterop::GetForWindow, inputpaneinterop/IInputPaneInterop::GetForWindow, winrt.iinputpaneinterop_getforwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInputPaneInterop::GetForWindow method
+# IInputPaneInterop::GetForWindow
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f7f19a9d-27ed-479f-b5d4-562cab5be12a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAccessControl, IAccessControl interface [COM], IAccessControl interface [COM], described, _com_iaccesscontrol, com.iaccesscontrol, iaccess/IAccessControl
+ms.keywords: IAccessControl, IAccessControl interface [COM], IAccessControl interface [COM],described, _com_iaccesscontrol, com.iaccesscontrol, iaccess/IAccessControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

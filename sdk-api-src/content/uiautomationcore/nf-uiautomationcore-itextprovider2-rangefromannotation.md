@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextProvider2.RangeFromAnnotation
-title: ITextProvider2::RangeFromAnnotation method
+title: ITextProvider2::RangeFromAnnotation
 author: windows-driver-content
 description: Exposes a text range that contains the text that is the target of the annotation associated with the specified annotation element.
 old-location: winauto\uiauto_itextprovider2_rangefromannotation.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 908DEDED-1AF9-4DFF-AC1D-F06818B06925
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITextProvider2, ITextProvider2 interface [Windows Accessibility], RangeFromAnnotation method, ITextProvider2::RangeFromAnnotation, RangeFromAnnotation method [Windows Accessibility], RangeFromAnnotation method [Windows Accessibility], ITextProvider2 interface, RangeFromAnnotation,ITextProvider2.RangeFromAnnotation, uiautomationcore/ITextProvider2::RangeFromAnnotation, winauto.uiauto_itextprovider2_rangefromannotation
+ms.keywords: ITextProvider2 interface [Windows Accessibility],RangeFromAnnotation method, ITextProvider2.RangeFromAnnotation, ITextProvider2::RangeFromAnnotation, RangeFromAnnotation, RangeFromAnnotation method [Windows Accessibility], RangeFromAnnotation method [Windows Accessibility],ITextProvider2 interface, uiautomationcore/ITextProvider2::RangeFromAnnotation, winauto.uiauto_itextprovider2_rangefromannotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextProvider2::RangeFromAnnotation method
+# ITextProvider2::RangeFromAnnotation
 
 
 ## -description

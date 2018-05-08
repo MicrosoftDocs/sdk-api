@@ -7,8 +7,8 @@ old-location: winrt\iplaytomanagerinterop.htm
 old-project: WinRT
 ms.assetid: e7a8df61-e5ae-4eff-a4eb-e0a5cdae3b7f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IPlayToManagerInterop, IPlayToManagerInterop interface [Windows Runtime], IPlayToManagerInterop interface [Windows Runtime], described, playtomanagerinterop/IPlayToManagerInterop, winrt.iplaytomanagerinterop
+ms.date: 5/4/2018
+ms.keywords: IPlayToManagerInterop, IPlayToManagerInterop interface [Windows Runtime], IPlayToManagerInterop interface [Windows Runtime],described, playtomanagerinterop/IPlayToManagerInterop, winrt.iplaytomanagerinterop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

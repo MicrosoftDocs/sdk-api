@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 51C64387-5BDF-463B-8A93-9748C099BB09
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Geo_EnumNameProc, Geo_EnumNameProc callback function [Internationalization for Windows Applications], intl.geo_enumnameproc, winnls/Geo_EnumNameProc
+ms.keywords: Geo_EnumNameProc, Geo_EnumNameProc callback, Geo_EnumNameProc callback function [Internationalization for Windows Applications], intl.geo_enumnameproc, winnls/Geo_EnumNameProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# GEO_ENUMNAMEPROC callback
+# GEO_ENUMNAMEPROC callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Insert
-title: IUpdateCollection::Insert method
+title: IUpdateCollection::Insert
 author: windows-driver-content
 description: Inserts an item into the collection at the specified position.
 old-location: wua\iupdatecollection_insert.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 165f251e-9171-4464-8608-8f365b6598b3
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateCollection, IUpdateCollection interface [Windows Update Agent], Insert method, IUpdateCollection::Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent], IUpdateCollection interface, Insert,IUpdateCollection.Insert, wua.iupdatecollection_insert, wuapi/IUpdateCollection::Insert
+ms.keywords: IUpdateCollection interface [Windows Update Agent],Insert method, IUpdateCollection.Insert, IUpdateCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IUpdateCollection interface, wua.iupdatecollection_insert, wuapi/IUpdateCollection::Insert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateCollection::Insert method
+# IUpdateCollection::Insert
 
 
 ## -description

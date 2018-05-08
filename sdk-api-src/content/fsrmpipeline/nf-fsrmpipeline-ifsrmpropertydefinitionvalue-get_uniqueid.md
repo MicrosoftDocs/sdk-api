@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinitionValue.get_UniqueID
-title: IFsrmPropertyDefinitionValue::get_UniqueID method
+title: IFsrmPropertyDefinitionValue::get_UniqueID
 author: windows-driver-content
 description: Unique ID of the classification property definition value.
 old-location: fsrm\ifsrmpropertydefinitionvalue_uniqueid.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 304ef037-11b5-4fcf-bd9b-b5af2620a282
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPropertyDefinitionValue, IFsrmPropertyDefinitionValue interface [File Server Resource Manager], UniqueID property, IFsrmPropertyDefinitionValue.UniqueID, IFsrmPropertyDefinitionValue::get_UniqueID, UniqueID property [File Server Resource Manager], UniqueID property [File Server Resource Manager], IFsrmPropertyDefinitionValue interface, fs.ifsrmpropertydefinitionvalue_uniqueid, fsrm.ifsrmpropertydefinitionvalue_uniqueid, fsrmpipeline/IFsrmPropertyDefinitionValue::UniqueID, fsrmpipeline/IFsrmPropertyDefinitionValue::get_UniqueID, get_UniqueID,IFsrmPropertyDefinitionValue.get_UniqueID
+ms.keywords: IFsrmPropertyDefinitionValue interface [File Server Resource Manager],UniqueID property, IFsrmPropertyDefinitionValue.UniqueID, IFsrmPropertyDefinitionValue.get_UniqueID, IFsrmPropertyDefinitionValue::UniqueID, IFsrmPropertyDefinitionValue::get_UniqueID, UniqueID property [File Server Resource Manager], UniqueID property [File Server Resource Manager],IFsrmPropertyDefinitionValue interface, fs.ifsrmpropertydefinitionvalue_uniqueid, fsrm.ifsrmpropertydefinitionvalue_uniqueid, fsrmpipeline/IFsrmPropertyDefinitionValue::UniqueID, fsrmpipeline/IFsrmPropertyDefinitionValue::get_UniqueID, get_UniqueID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyDefinitionValue::get_UniqueID method
+# IFsrmPropertyDefinitionValue::get_UniqueID
 
 
 ## -description

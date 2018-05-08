@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CachedOptimizeForVisualContent
-title: IUIAutomationElement2::get_CachedOptimizeForVisualContent method
+title: IUIAutomationElement2::get_CachedOptimizeForVisualContent
 author: windows-driver-content
 description: Retrieves a cached value that indicates whether the provider exposes only elements that are visible.
 old-location: winauto\uiauto_IUIAutomationElement_CachedOptimizeForVisualContent.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: FB1484D0-BF83-431B-A90B-B5F1757C4928
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedOptimizeForVisualContent property [Windows Accessibility], CachedOptimizeForVisualContent property [Windows Accessibility], IUIAutomationElement2 interface, IUIAutomationElement2, IUIAutomationElement2 interface [Windows Accessibility], CachedOptimizeForVisualContent property, IUIAutomationElement2.CachedOptimizeForVisualContent, IUIAutomationElement2::get_CachedOptimizeForVisualContent, get_CachedOptimizeForVisualContent,IUIAutomationElement2.get_CachedOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::CachedOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::get_CachedOptimizeForVisualContent, winauto.uiauto_IUIAutomationElement_CachedOptimizeForVisualContent
+ms.keywords: CachedOptimizeForVisualContent property [Windows Accessibility], CachedOptimizeForVisualContent property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CachedOptimizeForVisualContent property, IUIAutomationElement2.CachedOptimizeForVisualContent, IUIAutomationElement2.get_CachedOptimizeForVisualContent, IUIAutomationElement2::CachedOptimizeForVisualContent, IUIAutomationElement2::get_CachedOptimizeForVisualContent, get_CachedOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::CachedOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::get_CachedOptimizeForVisualContent, winauto.uiauto_IUIAutomationElement_CachedOptimizeForVisualContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement2::get_CachedOptimizeForVisualContent method
+# IUIAutomationElement2::get_CachedOptimizeForVisualContent
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 45d0ccaa-97d5-4a14-9983-dc0ca268ed4b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: EnumerateGetNextService, EnumerateGetNextService callback function [RAS], PENUMERATE_GET_NEXT_SERVICE, _mpr_enumerategetnextservice, rras.enumerategetnextservice, stm/EnumerateGetNextService
+ms.keywords: EnumerateGetNextService, EnumerateGetNextService callback function [RAS], PENUMERATE_GET_NEXT_SERVICE, PENUMERATE_GET_NEXT_SERVICE callback, _mpr_enumerategetnextservice, rras.enumerategetnextservice, stm/EnumerateGetNextService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# PENUMERATE_GET_NEXT_SERVICE callback
+# PENUMERATE_GET_NEXT_SERVICE callback function
 
 
 ## -description

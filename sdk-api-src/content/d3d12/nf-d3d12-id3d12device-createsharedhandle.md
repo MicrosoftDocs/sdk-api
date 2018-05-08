@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateSharedHandle
-title: ID3D12Device::CreateSharedHandle method
+title: ID3D12Device::CreateSharedHandle
 author: windows-driver-content
 description: Creates a shared handle to an heap, resource, or fence object.
 old-location: direct3d12\id3d12device_createsharedhandle.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: AFF058FF-358F-4FF3-8C92-57A9D34B27D9
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateSharedHandle method, CreateSharedHandle method, ID3D12Device interface, CreateSharedHandle,ID3D12Device.CreateSharedHandle, ID3D12Device, ID3D12Device interface, CreateSharedHandle method, ID3D12Device::CreateSharedHandle, d3d12/ID3D12Device::CreateSharedHandle, direct3d12.id3d12device_createsharedhandle
+ms.keywords: CreateSharedHandle, CreateSharedHandle method, CreateSharedHandle method,ID3D12Device interface, ID3D12Device interface,CreateSharedHandle method, ID3D12Device.CreateSharedHandle, ID3D12Device::CreateSharedHandle, d3d12/ID3D12Device::CreateSharedHandle, direct3d12.id3d12device_createsharedhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CreateSharedHandle method
+# ID3D12Device::CreateSharedHandle
 
 
 ## -description

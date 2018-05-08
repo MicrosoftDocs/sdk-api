@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_recoveredPackets
-title: IWMPNetwork::get_recoveredPackets method
+title: IWMPNetwork::get_recoveredPackets
 author: windows-driver-content
 description: The get_recoveredPackets method retrieves the number of recovered packets.
 old-location: wmp\iwmpnetwork_get_recoveredpackets.htm
 old-project: WMP
 ms.assetid: 1c1b41c3-286c-4d1f-ab2f-ce088289eaae
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], get_recoveredPackets method, IWMPNetwork::get_recoveredPackets, IWMPNetworkget_recoveredPackets, get_recoveredPackets method [Windows Media Player], get_recoveredPackets method [Windows Media Player], IWMPNetwork interface, get_recoveredPackets,IWMPNetwork.get_recoveredPackets, wmp.iwmpnetwork_get_recoveredpackets, wmp/IWMPNetwork::get_recoveredPackets
+ms.date: 5/4/2018
+ms.keywords: IWMPNetwork interface [Windows Media Player],get_recoveredPackets method, IWMPNetwork.get_recoveredPackets, IWMPNetwork::get_recoveredPackets, IWMPNetworkget_recoveredPackets, get_recoveredPackets, get_recoveredPackets method [Windows Media Player], get_recoveredPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_recoveredpackets, wmp/IWMPNetwork::get_recoveredPackets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNetwork::get_recoveredPackets method
+# IWMPNetwork::get_recoveredPackets
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetAttributes
-title: INetDiagHelper::GetAttributes method
+title: INetDiagHelper::GetAttributes
 author: windows-driver-content
 description: Retrieves additional information about a problem that the helper class extension has diagnosed.
 old-location: ndf\inetdiaghelpe_getattributes.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 4f1f371a-853f-4022-808b-eea01aee4a52
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetAttributes method [NDF], GetAttributes method [NDF], INetDiagHelper interface, GetAttributes,INetDiagHelper.GetAttributes, INetDiagHelper, INetDiagHelper interface [NDF], GetAttributes method, INetDiagHelper::GetAttributes, ndf.inetdiaghelpe_getattributes, ndhelper/INetDiagHelper::GetAttributes
+ms.keywords: GetAttributes, GetAttributes method [NDF], GetAttributes method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetAttributes method, INetDiagHelper.GetAttributes, INetDiagHelper::GetAttributes, ndf.inetdiaghelpe_getattributes, ndhelper/INetDiagHelper::GetAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::GetAttributes method
+# INetDiagHelper::GetAttributes
 
 
 ## -description

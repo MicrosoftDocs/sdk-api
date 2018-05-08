@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.AddEntry
-title: IGPMMigrationTable::AddEntry method
+title: IGPMMigrationTable::AddEntry
 author: windows-driver-content
 description: Creates an entry in the migration table. The method updates an existing entry.
 old-location: gpmc\igpmmigrationtable_addentry.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 2e6f6b81-b01c-4d46-9b7b-3265580f112a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddEntry method [GPMC], AddEntry method [GPMC], GPMMigrationTable class, AddEntry method [GPMC], IGPMMigrationTable interface, AddEntry,IGPMMigrationTable.AddEntry, GPMMigrationTable class [GPMC], AddEntry method, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], AddEntry method, IGPMMigrationTable::AddEntry, gpmc.igpmmigrationtable_addentry, gpmgmt/IGPMMigrationTable::AddEntry, typeComputer, typeGlobalGroup, typeLocalGroup, typeUNCPath, typeUniversalGroup, typeUnknown, typeUser
+ms.keywords: AddEntry, AddEntry method [GPMC], AddEntry method [GPMC],GPMMigrationTable class, AddEntry method [GPMC],IGPMMigrationTable interface, GPMMigrationTable class [GPMC],AddEntry method, IGPMMigrationTable interface [GPMC],AddEntry method, IGPMMigrationTable.AddEntry, IGPMMigrationTable::AddEntry, gpmc.igpmmigrationtable_addentry, gpmgmt/IGPMMigrationTable::AddEntry, typeComputer, typeGlobalGroup, typeLocalGroup, typeUNCPath, typeUniversalGroup, typeUnknown, typeUser
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMMigrationTable::AddEntry method
+# IGPMMigrationTable::AddEntry
 
 
 ## -description

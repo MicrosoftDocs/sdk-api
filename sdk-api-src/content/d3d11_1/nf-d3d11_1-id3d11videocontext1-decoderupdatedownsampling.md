@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.DecoderUpdateDownsampling
-title: ID3D11VideoContext1::DecoderUpdateDownsampling method
+title: ID3D11VideoContext1::DecoderUpdateDownsampling
 author: windows-driver-content
 description: Updates the decoder downsampling parameters.
 old-location: mf\id3d11videocontext1_decoderupdatedownsampling.htm
 old-project: medfound
 ms.assetid: A55D652B-9295-42E4-9A83-CAC467BEE68E
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: DecoderUpdateDownsampling method [Media Foundation], DecoderUpdateDownsampling method [Media Foundation], ID3D11VideoContext1 interface, DecoderUpdateDownsampling,ID3D11VideoContext1.DecoderUpdateDownsampling, ID3D11VideoContext1, ID3D11VideoContext1 interface [Media Foundation], DecoderUpdateDownsampling method, ID3D11VideoContext1::DecoderUpdateDownsampling, d3d11_1/ID3D11VideoContext1::DecoderUpdateDownsampling, mf.id3d11videocontext1_decoderupdatedownsampling
+ms.date: 5/3/2018
+ms.keywords: DecoderUpdateDownsampling, DecoderUpdateDownsampling method [Media Foundation], DecoderUpdateDownsampling method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],DecoderUpdateDownsampling method, ID3D11VideoContext1.DecoderUpdateDownsampling, ID3D11VideoContext1::DecoderUpdateDownsampling, d3d11_1/ID3D11VideoContext1::DecoderUpdateDownsampling, mf.id3d11videocontext1_decoderupdatedownsampling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext1::DecoderUpdateDownsampling method
+# ID3D11VideoContext1::DecoderUpdateDownsampling
 
 
 ## -description

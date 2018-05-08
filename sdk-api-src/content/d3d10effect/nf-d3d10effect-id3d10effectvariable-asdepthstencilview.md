@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsDepthStencilView
-title: ID3D10EffectVariable::AsDepthStencilView method
+title: ID3D10EffectVariable::AsDepthStencilView
 author: windows-driver-content
 description: Get a depth-stencil-view variable.
 old-location: direct3d10\id3d10effectvariable_asdepthstencilview.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asdepthstencilview.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: AsDepthStencilView method [Direct3D 10], AsDepthStencilView method [Direct3D 10], ID3D10EffectVariable interface, AsDepthStencilView,ID3D10EffectVariable.AsDepthStencilView, ID3D10EffectVariable, ID3D10EffectVariable interface [Direct3D 10], AsDepthStencilView method, ID3D10EffectVariable::AsDepthStencilView, cdd98874-51c7-7e0f-20f6-4efe28164ae0, d3d10effect/ID3D10EffectVariable::AsDepthStencilView, direct3d10.id3d10effectvariable_asdepthstencilview
+ms.keywords: AsDepthStencilView, AsDepthStencilView method [Direct3D 10], AsDepthStencilView method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsDepthStencilView method, ID3D10EffectVariable.AsDepthStencilView, ID3D10EffectVariable::AsDepthStencilView, cdd98874-51c7-7e0f-20f6-4efe28164ae0, d3d10effect/ID3D10EffectVariable::AsDepthStencilView, direct3d10.id3d10effectvariable_asdepthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectVariable::AsDepthStencilView method
+# ID3D10EffectVariable::AsDepthStencilView
 
 
 ## -description

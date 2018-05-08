@@ -1,14 +1,14 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetDrawBackgroundMode
-title: IAMLine21Decoder::SetDrawBackgroundMode method
+title: IAMLine21Decoder::SetDrawBackgroundMode
 author: windows-driver-content
 description: The SetDrawBackgroundMode method specifies whether the Line 21 Decoder filter draws the captions on a transparent background or an opaque background. By default, the caption background is opaque.
 old-location: dshow\iamline21decoder_setdrawbackgroundmode.htm
 old-project: DirectShow
 ms.assetid: 56301cc2-8f27-4530-bb6e-9909eb5bb390
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], SetDrawBackgroundMode method, IAMLine21Decoder::SetDrawBackgroundMode, IAMLine21DecoderSetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow], IAMLine21Decoder interface, SetDrawBackgroundMode,IAMLine21Decoder.SetDrawBackgroundMode, dshow.iamline21decoder_setdrawbackgroundmode, il21dec/IAMLine21Decoder::SetDrawBackgroundMode
+ms.date: 4/30/2018
+ms.keywords: IAMLine21Decoder interface [DirectShow],SetDrawBackgroundMode method, IAMLine21Decoder.SetDrawBackgroundMode, IAMLine21Decoder::SetDrawBackgroundMode, IAMLine21DecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setdrawbackgroundmode, il21dec/IAMLine21Decoder::SetDrawBackgroundMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMLine21Decoder::SetDrawBackgroundMode method
+# IAMLine21Decoder::SetDrawBackgroundMode
 
 
 ## -description

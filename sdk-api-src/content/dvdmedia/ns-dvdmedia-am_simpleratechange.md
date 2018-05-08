@@ -7,7 +7,7 @@ old-location: dshow\am_simpleratechange.htm
 old-project: DirectShow
 ms.assetid: 18b33455-b499-4aa9-9fec-41ec2c03a638
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: AM_SimpleRateChange, AM_SimpleRateChange structure [DirectShow], dshow.am_simpleratechange, dvdmedia/AM_SimpleRateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetDeviceSerialNumber
-title: IWMRegisteredDevice::GetDeviceSerialNumber method
+title: IWMRegisteredDevice::GetDeviceSerialNumber
 author: windows-driver-content
 description: The GetDeviceID method retrieves the 128-bit value that identifies the device.
 old-location: wmformat\iwmregistereddevice_getdeviceserialnumber.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3e60d9f3-848e-4e90-9ef7-19f3e000fab7
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetDeviceSerialNumber method [windows Media Format], GetDeviceSerialNumber method [windows Media Format], IWMRegisteredDevice interface, GetDeviceSerialNumber,IWMRegisteredDevice.GetDeviceSerialNumber, IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], GetDeviceSerialNumber method, IWMRegisteredDevice::GetDeviceSerialNumber, IWMRegisteredDeviceGetDeviceID, wmformat.iwmregistereddevice_getdeviceserialnumber, wmsdkidl/IWMRegisteredDevice::GetDeviceSerialNumber
+ms.keywords: GetDeviceSerialNumber, GetDeviceSerialNumber method [windows Media Format], GetDeviceSerialNumber method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceSerialNumber method, IWMRegisteredDevice.GetDeviceSerialNumber, IWMRegisteredDevice::GetDeviceSerialNumber, IWMRegisteredDeviceGetDeviceID, wmformat.iwmregistereddevice_getdeviceserialnumber, wmsdkidl/IWMRegisteredDevice::GetDeviceSerialNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMRegisteredDevice::GetDeviceSerialNumber method
+# IWMRegisteredDevice::GetDeviceSerialNumber
 
 
 ## -description

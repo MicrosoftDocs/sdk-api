@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMemInputPin.GetAllocatorRequirements
-title: IMemInputPin::GetAllocatorRequirements method
+title: IMemInputPin::GetAllocatorRequirements
 author: windows-driver-content
 description: The GetAllocatorRequirements method retrieves the allocator properties requested by the input pin.
 old-location: dshow\imeminputpin_getallocatorrequirements.htm
 old-project: DirectShow
 ms.assetid: 61e6ea4f-70cd-43d8-bbb7-76e041ee0eeb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAllocatorRequirements method [DirectShow], GetAllocatorRequirements method [DirectShow], IMemInputPin interface, GetAllocatorRequirements,IMemInputPin.GetAllocatorRequirements, IMemInputPin, IMemInputPin interface [DirectShow], GetAllocatorRequirements method, IMemInputPin::GetAllocatorRequirements, IMemInputPinGetAllocatorRequirements, dshow.imeminputpin_getallocatorrequirements, strmif/IMemInputPin::GetAllocatorRequirements
+ms.date: 4/30/2018
+ms.keywords: GetAllocatorRequirements, GetAllocatorRequirements method [DirectShow], GetAllocatorRequirements method [DirectShow],IMemInputPin interface, IMemInputPin interface [DirectShow],GetAllocatorRequirements method, IMemInputPin.GetAllocatorRequirements, IMemInputPin::GetAllocatorRequirements, IMemInputPinGetAllocatorRequirements, dshow.imeminputpin_getallocatorrequirements, strmif/IMemInputPin::GetAllocatorRequirements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMemInputPin::GetAllocatorRequirements method
+# IMemInputPin::GetAllocatorRequirements
 
 
 ## -description

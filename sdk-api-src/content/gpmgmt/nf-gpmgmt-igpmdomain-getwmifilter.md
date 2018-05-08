@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.GetWMIFilter
-title: IGPMDomain::GetWMIFilter method
+title: IGPMDomain::GetWMIFilter
 author: windows-driver-content
 description: Retrieves a GPMWMIFilter object for the specified path.
 old-location: gpmc\igpmdomain_getwmifilter.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 093fba1a-69b3-4045-891a-de9c6a78e166
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMDomain object [GPMC], GetWMIFilter method, GetWMIFilter method [GPMC], GetWMIFilter method [GPMC], GPMDomain object, GetWMIFilter method [GPMC], IGPMDomain interface, GetWMIFilter,IGPMDomain.GetWMIFilter, IGPMDomain, IGPMDomain interface [GPMC], GetWMIFilter method, IGPMDomain::GetWMIFilter, _win32_igpmdomain_getwmifilter, gpmc.igpmdomain_getwmifilter, gpmgmt/IGPMDomain::GetWMIFilter
+ms.keywords: GPMDomain object [GPMC],GetWMIFilter method, GetWMIFilter, GetWMIFilter method [GPMC], GetWMIFilter method [GPMC],GPMDomain object, GetWMIFilter method [GPMC],IGPMDomain interface, IGPMDomain interface [GPMC],GetWMIFilter method, IGPMDomain.GetWMIFilter, IGPMDomain::GetWMIFilter, _win32_igpmdomain_getwmifilter, gpmc.igpmdomain_getwmifilter, gpmgmt/IGPMDomain::GetWMIFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMDomain::GetWMIFilter method
+# IGPMDomain::GetWMIFilter
 
 
 ## -description

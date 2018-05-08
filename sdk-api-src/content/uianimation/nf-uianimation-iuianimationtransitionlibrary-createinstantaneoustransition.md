@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateInstantaneousTransition
-title: IUIAnimationTransitionLibrary::CreateInstantaneousTransition method
+title: IUIAnimationTransitionLibrary::CreateInstantaneousTransition
 author: windows-driver-content
 description: Creates an instantaneous transition.
 old-location: uianimation\iuianimationtransitionlibrary_createinstantaneoustransition.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 70db1315-df4a-472e-8d79-61bf93980337
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateInstantaneousTransition method [Windows Animation], CreateInstantaneousTransition method [Windows Animation], IUIAnimationTransitionLibrary interface, CreateInstantaneousTransition,IUIAnimationTransitionLibrary.CreateInstantaneousTransition, IUIAnimationTransitionLibrary, IUIAnimationTransitionLibrary interface [Windows Animation], CreateInstantaneousTransition method, IUIAnimationTransitionLibrary::CreateInstantaneousTransition, uianimation.iuianimationtransitionlibrary_createinstantaneoustransition, uianimation/IUIAnimationTransitionLibrary::CreateInstantaneousTransition
+ms.keywords: CreateInstantaneousTransition, CreateInstantaneousTransition method [Windows Animation], CreateInstantaneousTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateInstantaneousTransition method, IUIAnimationTransitionLibrary.CreateInstantaneousTransition, IUIAnimationTransitionLibrary::CreateInstantaneousTransition, uianimation.iuianimationtransitionlibrary_createinstantaneoustransition, uianimation/IUIAnimationTransitionLibrary::CreateInstantaneousTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary::CreateInstantaneousTransition method
+# IUIAnimationTransitionLibrary::CreateInstantaneousTransition
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_FriendlyName
-title: IX509PrivateKey::get_FriendlyName method
+title: IX509PrivateKey::get_FriendlyName
 author: windows-driver-content
 description: Specifies or retrieves a display name for the private key.
 old-location: security\ix509privatekey_friendlyname_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 93cd4fe0-5a08-4936-bbb0-6a723027e8c7
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: FriendlyName property [Security], FriendlyName property [Security], IX509PrivateKey interface, IX509PrivateKey, IX509PrivateKey interface [Security], FriendlyName property, IX509PrivateKey.FriendlyName, IX509PrivateKey::get_FriendlyName, IX509PrivateKey::put_FriendlyName, certenroll/IX509PrivateKey::FriendlyName, certenroll/IX509PrivateKey::get_FriendlyName, certenroll/IX509PrivateKey::put_FriendlyName, get_FriendlyName,IX509PrivateKey.get_FriendlyName, security.ix509privatekey_friendlyname_property
+ms.keywords: FriendlyName property [Security], FriendlyName property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],FriendlyName property, IX509PrivateKey.FriendlyName, IX509PrivateKey.get_FriendlyName, IX509PrivateKey::FriendlyName, IX509PrivateKey::get_FriendlyName, IX509PrivateKey::put_FriendlyName, certenroll/IX509PrivateKey::FriendlyName, certenroll/IX509PrivateKey::get_FriendlyName, certenroll/IX509PrivateKey::put_FriendlyName, get_FriendlyName, security.ix509privatekey_friendlyname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PrivateKey::get_FriendlyName method
+# IX509PrivateKey::get_FriendlyName
 
 
 ## -description

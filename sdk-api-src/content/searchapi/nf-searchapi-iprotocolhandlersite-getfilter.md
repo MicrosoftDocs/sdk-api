@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IProtocolHandlerSite.GetFilter
-title: IProtocolHandlerSite::GetFilter method
+title: IProtocolHandlerSite::GetFilter
 author: windows-driver-content
 description: Retrieves the appropriate IFilteraccording to the supplied parameters.
 old-location: search\_search_IProtocolHandlerSite_search_IProtocolHandlerSite_GetFilter_cpp.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iprotocolhandlersite\getfilter.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetFilter method [search], GetFilter method [search], IProtocolHandlerSite interface, GetFilter,IProtocolHandlerSite.GetFilter, IProtocolHandlerSite, IProtocolHandlerSite interface [search], GetFilter method, IProtocolHandlerSite::GetFilter, _search_IProtocolHandlerSite_GetFilter, search._search_IProtocolHandlerSite_GetFilter, search._search_IProtocolHandlerSite_search_IProtocolHandlerSite_GetFilter_cpp, searchapi/IProtocolHandlerSite::GetFilter
+ms.date: 5/4/2018
+ms.keywords: GetFilter, GetFilter method [search], GetFilter method [search],IProtocolHandlerSite interface, IProtocolHandlerSite interface [search],GetFilter method, IProtocolHandlerSite.GetFilter, IProtocolHandlerSite::GetFilter, _search_IProtocolHandlerSite_GetFilter, search._search_IProtocolHandlerSite_GetFilter, search._search_IProtocolHandlerSite_search_IProtocolHandlerSite_GetFilter_cpp, searchapi/IProtocolHandlerSite::GetFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IProtocolHandlerSite::GetFilter method
+# IProtocolHandlerSite::GetFilter
 
 
 ## -description

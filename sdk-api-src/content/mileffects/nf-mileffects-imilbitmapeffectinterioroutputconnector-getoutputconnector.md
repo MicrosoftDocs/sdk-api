@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectInteriorOutputConnector.GetOutputConnector
-title: IMILBitmapEffectInteriorOutputConnector::GetOutputConnector method
+title: IMILBitmapEffectInteriorOutputConnector::GetOutputConnector
 author: windows-driver-content
 description: Gets the IMILBitmapEffectOutputConnector associated with the interior output connector.
 old-location: wibe\_wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinterioroutputconnector\getoutputconnector.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetOutputConnector method [WPF Bitmap Effects], GetOutputConnector method [WPF Bitmap Effects], IMILBitmapEffectInteriorOutputConnector interface, GetOutputConnector,IMILBitmapEffectInteriorOutputConnector.GetOutputConnector, IMILBitmapEffectInteriorOutputConnector, IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects], GetOutputConnector method, IMILBitmapEffectInteriorOutputConnector::GetOutputConnector, _wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector, mileffects/IMILBitmapEffectInteriorOutputConnector::GetOutputConnector, wibe._wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector
+ms.keywords: GetOutputConnector, GetOutputConnector method [WPF Bitmap Effects], GetOutputConnector method [WPF Bitmap Effects],IMILBitmapEffectInteriorOutputConnector interface, IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects],GetOutputConnector method, IMILBitmapEffectInteriorOutputConnector.GetOutputConnector, IMILBitmapEffectInteriorOutputConnector::GetOutputConnector, _wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector, mileffects/IMILBitmapEffectInteriorOutputConnector::GetOutputConnector, wibe._wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectInteriorOutputConnector::GetOutputConnector method
+# IMILBitmapEffectInteriorOutputConnector::GetOutputConnector
 
 
 ## -description

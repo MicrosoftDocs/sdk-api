@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.GetCueTimeOffset
-title: IMFTimedText::GetCueTimeOffset method
+title: IMFTimedText::GetCueTimeOffset
 author: windows-driver-content
 description: Gets the offset to the cue time.
 old-location: mf\imftimedtext_getcuetimeoffset.htm
 old-project: medfound
 ms.assetid: E7619B18-6253-41CF-9D4D-F7944A8E5DDE
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetCueTimeOffset method [Media Foundation], GetCueTimeOffset method [Media Foundation], IMFTimedText interface, GetCueTimeOffset,IMFTimedText.GetCueTimeOffset, IMFTimedText, IMFTimedText interface [Media Foundation], GetCueTimeOffset method, IMFTimedText::GetCueTimeOffset, mf.imftimedtext_getcuetimeoffset, mfmediaengine/IMFTimedText::GetCueTimeOffset
+ms.date: 5/3/2018
+ms.keywords: GetCueTimeOffset, GetCueTimeOffset method [Media Foundation], GetCueTimeOffset method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetCueTimeOffset method, IMFTimedText.GetCueTimeOffset, IMFTimedText::GetCueTimeOffset, mf.imftimedtext_getcuetimeoffset, mfmediaengine/IMFTimedText::GetCueTimeOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedText::GetCueTimeOffset method
+# IMFTimedText::GetCueTimeOffset
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice3.GetFormatCapability
-title: IWMDMDevice3::GetFormatCapability method
+title: IWMDMDevice3::GetFormatCapability
 author: windows-driver-content
 description: The GetFormatCapability method retrieves device support for files of a specified format. The capabilities are expressed as supported properties and their allowed values.
 old-location: wmdm\iwmdmdevice3_getformatcapability.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 728df998-748b-4c53-b5a6-3a6ccae0d7e4
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetFormatCapability method [windows Media Device Manager], GetFormatCapability method [windows Media Device Manager], IWMDMDevice3 interface, GetFormatCapability,IWMDMDevice3.GetFormatCapability, IWMDMDevice3, IWMDMDevice3 interface [windows Media Device Manager], GetFormatCapability method, IWMDMDevice3::GetFormatCapability, IWMDMDevice3GetFormatCapability, mswmdm/IWMDMDevice3::GetFormatCapability, wmdm.iwmdmdevice3_getformatcapability
+ms.keywords: GetFormatCapability, GetFormatCapability method [windows Media Device Manager], GetFormatCapability method [windows Media Device Manager],IWMDMDevice3 interface, IWMDMDevice3 interface [windows Media Device Manager],GetFormatCapability method, IWMDMDevice3.GetFormatCapability, IWMDMDevice3::GetFormatCapability, IWMDMDevice3GetFormatCapability, mswmdm/IWMDMDevice3::GetFormatCapability, wmdm.iwmdmdevice3_getformatcapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMDevice3::GetFormatCapability method
+# IWMDMDevice3::GetFormatCapability
 
 
 ## -description

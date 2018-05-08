@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ICancelMethodCalls.Cancel
-title: ICancelMethodCalls::Cancel method
+title: ICancelMethodCalls::Cancel
 author: windows-driver-content
 description: Requests that a method call be canceled.
 old-location: com\icancelmethodcalls_cancel.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 3c3fdcec-10f1-4fbf-af93-582e7390decf
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Cancel method [COM], Cancel method [COM], ICancelMethodCalls interface, Cancel,ICancelMethodCalls.Cancel, ICancelMethodCalls, ICancelMethodCalls interface [COM], Cancel method, ICancelMethodCalls::Cancel, _com_icancelmethodcalls_cancel, com.icancelmethodcalls_cancel, objidlbase/ICancelMethodCalls::Cancel
+ms.keywords: Cancel, Cancel method [COM], Cancel method [COM],ICancelMethodCalls interface, ICancelMethodCalls interface [COM],Cancel method, ICancelMethodCalls.Cancel, ICancelMethodCalls::Cancel, _com_icancelmethodcalls_cancel, com.icancelmethodcalls_cancel, objidlbase/ICancelMethodCalls::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICancelMethodCalls::Cancel method
+# ICancelMethodCalls::Cancel
 
 
 ## -description

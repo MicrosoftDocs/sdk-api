@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.Write
-title: IXpsOMPage::Write method
+title: IXpsOMPage::Write
 author: windows-driver-content
 description: Writes the page to the specified stream.
 old-location: xps\ixpsompage_write.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: ab586c7d-69e6-4ad7-93f1-3e1437c04856
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FALSE, IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], Write method, IXpsOMPage::Write, TRUE, Write method [XPS Documents and Packaging], Write method [XPS Documents and Packaging], IXpsOMPage interface, Write,IXpsOMPage.Write, xps.ixpsompage_write, xpsobjectmodel/IXpsOMPage::Write
+ms.keywords: FALSE, IXpsOMPage interface [XPS Documents and Packaging],Write method, IXpsOMPage.Write, IXpsOMPage::Write, TRUE, Write, Write method [XPS Documents and Packaging], Write method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_write, xpsobjectmodel/IXpsOMPage::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::Write method
+# IXpsOMPage::Write
 
 
 ## -description

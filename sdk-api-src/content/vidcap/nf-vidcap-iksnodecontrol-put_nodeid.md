@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IKsNodeControl.put_NodeId
-title: IKsNodeControl::put_NodeId method
+title: IKsNodeControl::put_NodeId
 author: windows-driver-content
 description: Sets the node identifier for the extension unit.
 old-location: dshow\iksnodecontrol_put_nodeid.htm
 old-project: DirectShow
 ms.assetid: 3f18085c-5a5c-4bc3-84e2-50fbf2319072
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IKsNodeControl, IKsNodeControl interface [DirectShow], put_NodeId method, IKsNodeControl::put_NodeId, IKsNodeControlput_NodeId, dshow.iksnodecontrol_put_nodeid, put_NodeId method [DirectShow], put_NodeId method [DirectShow], IKsNodeControl interface, put_NodeId,IKsNodeControl.put_NodeId, vidcap/IKsNodeControl::put_NodeId
+ms.date: 4/30/2018
+ms.keywords: IKsNodeControl interface [DirectShow],put_NodeId method, IKsNodeControl.put_NodeId, IKsNodeControl::put_NodeId, IKsNodeControlput_NodeId, dshow.iksnodecontrol_put_nodeid, put_NodeId, put_NodeId method [DirectShow], put_NodeId method [DirectShow],IKsNodeControl interface, vidcap/IKsNodeControl::put_NodeId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IKsNodeControl::put_NodeId method
+# IKsNodeControl::put_NodeId
 
 
 ## -description

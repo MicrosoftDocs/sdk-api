@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.CanUseOverlayStretch
-title: IDirectDrawVideo::CanUseOverlayStretch method
+title: IDirectDrawVideo::CanUseOverlayStretch
 author: windows-driver-content
 description: The CanUseOverlayStretch method determines whether the renderer will check overlay restrictions.
 old-location: dshow\idirectdrawvideo_canuseoverlaystretch.htm
 old-project: DirectShow
 ms.assetid: 35af80c9-7cc7-46c7-899c-c47f56a4ec17
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CanUseOverlayStretch method [DirectShow], CanUseOverlayStretch method [DirectShow], IDirectDrawVideo interface, CanUseOverlayStretch,IDirectDrawVideo.CanUseOverlayStretch, IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], CanUseOverlayStretch method, IDirectDrawVideo::CanUseOverlayStretch, IDirectDrawVideoCanUseOverlayStretch, amvideo/IDirectDrawVideo::CanUseOverlayStretch, dshow.idirectdrawvideo_canuseoverlaystretch
+ms.date: 4/30/2018
+ms.keywords: CanUseOverlayStretch, CanUseOverlayStretch method [DirectShow], CanUseOverlayStretch method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],CanUseOverlayStretch method, IDirectDrawVideo.CanUseOverlayStretch, IDirectDrawVideo::CanUseOverlayStretch, IDirectDrawVideoCanUseOverlayStretch, amvideo/IDirectDrawVideo::CanUseOverlayStretch, dshow.idirectdrawvideo_canuseoverlaystretch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawVideo::CanUseOverlayStretch method
+# IDirectDrawVideo::CanUseOverlayStretch
 
 
 ## -description

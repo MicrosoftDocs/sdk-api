@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectEvents.PropertyChange
-title: IMILBitmapEffectEvents::PropertyChange method
+title: IMILBitmapEffectEvents::PropertyChange
 author: windows-driver-content
 description: Notifies an IMILBitmapEffectPrimitive of a property change.
 old-location: wibe\_wibe_imilbitmapeffectevents_propertychange.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectevents\propertychange.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffectEvents, IMILBitmapEffectEvents interface [WPF Bitmap Effects], PropertyChange method, IMILBitmapEffectEvents::PropertyChange, PropertyChange method [WPF Bitmap Effects], PropertyChange method [WPF Bitmap Effects], IMILBitmapEffectEvents interface, PropertyChange,IMILBitmapEffectEvents.PropertyChange, _wibe_imilbitmapeffectevents_propertychange, mileffects/IMILBitmapEffectEvents::PropertyChange, wibe._wibe_imilbitmapeffectevents_propertychange
+ms.keywords: IMILBitmapEffectEvents interface [WPF Bitmap Effects],PropertyChange method, IMILBitmapEffectEvents.PropertyChange, IMILBitmapEffectEvents::PropertyChange, PropertyChange, PropertyChange method [WPF Bitmap Effects], PropertyChange method [WPF Bitmap Effects],IMILBitmapEffectEvents interface, _wibe_imilbitmapeffectevents_propertychange, mileffects/IMILBitmapEffectEvents::PropertyChange, wibe._wibe_imilbitmapeffectevents_propertychange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectEvents::PropertyChange method
+# IMILBitmapEffectEvents::PropertyChange
 
 
 ## -description

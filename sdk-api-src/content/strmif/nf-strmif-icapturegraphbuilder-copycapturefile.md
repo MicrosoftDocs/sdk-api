@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.CopyCaptureFile
-title: ICaptureGraphBuilder::CopyCaptureFile method
+title: ICaptureGraphBuilder::CopyCaptureFile
 author: windows-driver-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Copies the valid media data from the preallocated capture file.
 old-location: dshow\icapturegraphbuilder_copycapturefile.htm
 old-project: DirectShow
 ms.assetid: 6eb4a3ed-6914-4839-ab1f-18510483ab49
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CopyCaptureFile method [DirectShow], CopyCaptureFile method [DirectShow], ICaptureGraphBuilder interface, CopyCaptureFile,ICaptureGraphBuilder.CopyCaptureFile, ICaptureGraphBuilder, ICaptureGraphBuilder interface [DirectShow], CopyCaptureFile method, ICaptureGraphBuilder::CopyCaptureFile, ICaptureGraphBuilderCopyCaptureFile, dshow.icapturegraphbuilder_copycapturefile, strmif/ICaptureGraphBuilder::CopyCaptureFile
+ms.date: 4/30/2018
+ms.keywords: CopyCaptureFile, CopyCaptureFile method [DirectShow], CopyCaptureFile method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],CopyCaptureFile method, ICaptureGraphBuilder.CopyCaptureFile, ICaptureGraphBuilder::CopyCaptureFile, ICaptureGraphBuilderCopyCaptureFile, dshow.icapturegraphbuilder_copycapturefile, strmif/ICaptureGraphBuilder::CopyCaptureFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ICaptureGraphBuilder::CopyCaptureFile method
+# ICaptureGraphBuilder::CopyCaptureFile
 
 
 ## -description

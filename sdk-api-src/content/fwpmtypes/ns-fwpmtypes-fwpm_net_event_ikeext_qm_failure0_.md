@@ -88,23 +88,23 @@ An <a href="https://msdn.microsoft.com/6bb1e264-6141-4545-add5-e12f09769e25">IKE
  An <a href="https://msdn.microsoft.com/e87154ce-7f19-424c-a577-04e2eb81560e">IPSEC_TRAFFIC_TYPE</a> value that specifies the type of traffic.
 
 
+### -field localSubNet
+
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552430">FWP_CONDITION_VALUE0</a> structure that contains values that conditions can use when testing for matches.
+
+Available when <b>saTrafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TUNNEL</b>.
+
+
+### -field remoteSubNet
+
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552430">FWP_CONDITION_VALUE0</a> structure that contains values that conditions can use when testing for matches.
+
+Available when <b>saTrafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TUNNEL</b>.
+
+
 ### -field qmFilterId
 
 Quick Mode filter ID.
-
-
-#### - localSubNet
-
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552430">FWP_CONDITION_VALUE0</a> structure that contains values that conditions can use when testing for matches.
-
-Available when <b>saTrafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TUNNEL</b>.
-
-
-#### - remoteSubNet
-
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552430">FWP_CONDITION_VALUE0</a> structure that contains values that conditions can use when testing for matches.
-
-Available when <b>saTrafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TUNNEL</b>.
 
 
 ## -remarks

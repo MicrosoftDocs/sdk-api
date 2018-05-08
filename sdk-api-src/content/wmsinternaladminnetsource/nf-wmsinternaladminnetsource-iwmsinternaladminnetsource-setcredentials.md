@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.SetCredentials
-title: IWMSInternalAdminNetSource::SetCredentials method
+title: IWMSInternalAdminNetSource::SetCredentials
 author: windows-driver-content
 description: The SetCredentials method adds a password to the cache.
 old-location: wmformat\iwmsinternaladminnetsource_setcredentials.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c0655ed3-8d14-447a-b74f-054498eb75e9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], SetCredentials method, IWMSInternalAdminNetSource::SetCredentials, IWMSInternalAdminNetSourceSetCredentials, SetCredentials method [windows Media Format], SetCredentials method [windows Media Format], IWMSInternalAdminNetSource interface, SetCredentials,IWMSInternalAdminNetSource.SetCredentials, wmformat.iwmsinternaladminnetsource_setcredentials, wmsinternaladminnetsource/IWMSInternalAdminNetSource::SetCredentials
+ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],SetCredentials method, IWMSInternalAdminNetSource.SetCredentials, IWMSInternalAdminNetSource::SetCredentials, IWMSInternalAdminNetSourceSetCredentials, SetCredentials, SetCredentials method [windows Media Format], SetCredentials method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_setcredentials, wmsinternaladminnetsource/IWMSInternalAdminNetSource::SetCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSInternalAdminNetSource::SetCredentials method
+# IWMSInternalAdminNetSource::SetCredentials
 
 
 ## -description

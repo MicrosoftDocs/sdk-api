@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaControl.Stop
-title: IMediaControl::Stop method
+title: IMediaControl::Stop
 author: windows-driver-content
 description: The Stop method stops all the filters in the graph.
 old-location: dshow\imediacontrol_stop.htm
 old-project: DirectShow
 ms.assetid: 89e48d43-a31f-4912-98ff-36ba2069812d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaControl, IMediaControl interface [DirectShow], Stop method, IMediaControl::Stop, IMediaControlStop, Stop method [DirectShow], Stop method [DirectShow], IMediaControl interface, Stop,IMediaControl.Stop, control/IMediaControl::Stop, dshow.imediacontrol_stop
+ms.date: 4/30/2018
+ms.keywords: IMediaControl interface [DirectShow],Stop method, IMediaControl.Stop, IMediaControl::Stop, IMediaControlStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IMediaControl interface, control/IMediaControl::Stop, dshow.imediacontrol_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaControl::Stop method
+# IMediaControl::Stop
 
 
 ## -description

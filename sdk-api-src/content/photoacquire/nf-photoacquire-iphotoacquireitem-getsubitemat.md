@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetSubItemAt
-title: IPhotoAcquireItem::GetSubItemAt method
+title: IPhotoAcquireItem::GetSubItemAt
 author: windows-driver-content
 description: The GetSubItemAt method retrieves a subitem of an item, given the index of the subitem.
 old-location: picacq\iphotoacquireitem_getsubitemat.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 2fd410a0-20b5-4e16-9d36-89a14443c8bd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSubItemAt method [Picture Acquisition], GetSubItemAt method [Picture Acquisition], IPhotoAcquireItem interface, GetSubItemAt,IPhotoAcquireItem.GetSubItemAt, IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], GetSubItemAt method, IPhotoAcquireItem::GetSubItemAt, IPhotoAcquireItemGetSubItemAt, photoacquire/IPhotoAcquireItem::GetSubItemAt, picacq.iphotoacquireitem_getsubitemat
+ms.keywords: GetSubItemAt, GetSubItemAt method [Picture Acquisition], GetSubItemAt method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetSubItemAt method, IPhotoAcquireItem.GetSubItemAt, IPhotoAcquireItem::GetSubItemAt, IPhotoAcquireItemGetSubItemAt, photoacquire/IPhotoAcquireItem::GetSubItemAt, picacq.iphotoacquireitem_getsubitemat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireItem::GetSubItemAt method
+# IPhotoAcquireItem::GetSubItemAt
 
 
 ## -description

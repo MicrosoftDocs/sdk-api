@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRasterizerVariable.GetRasterizerState
-title: ID3D10EffectRasterizerVariable::GetRasterizerState method
+title: ID3D10EffectRasterizerVariable::GetRasterizerState
 author: windows-driver-content
 description: Get a pointer to a rasterizer interface.
 old-location: direct3d10\id3d10effectrasterizervariable_getrasterizerstate.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrasterizervariable_getrasterizerstate.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 34eeb6ad-48c0-8ea5-4ad6-2fc879f8d7a1, GetRasterizerState method [Direct3D 10], GetRasterizerState method [Direct3D 10], ID3D10EffectRasterizerVariable interface, GetRasterizerState,ID3D10EffectRasterizerVariable.GetRasterizerState, ID3D10EffectRasterizerVariable, ID3D10EffectRasterizerVariable interface [Direct3D 10], GetRasterizerState method, ID3D10EffectRasterizerVariable::GetRasterizerState, d3d10effect/ID3D10EffectRasterizerVariable::GetRasterizerState, direct3d10.id3d10effectrasterizervariable_getrasterizerstate
+ms.keywords: 34eeb6ad-48c0-8ea5-4ad6-2fc879f8d7a1, GetRasterizerState, GetRasterizerState method [Direct3D 10], GetRasterizerState method [Direct3D 10],ID3D10EffectRasterizerVariable interface, ID3D10EffectRasterizerVariable interface [Direct3D 10],GetRasterizerState method, ID3D10EffectRasterizerVariable.GetRasterizerState, ID3D10EffectRasterizerVariable::GetRasterizerState, d3d10effect/ID3D10EffectRasterizerVariable::GetRasterizerState, direct3d10.id3d10effectrasterizervariable_getrasterizerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectRasterizerVariable::GetRasterizerState method
+# ID3D10EffectRasterizerVariable::GetRasterizerState
 
 
 ## -description

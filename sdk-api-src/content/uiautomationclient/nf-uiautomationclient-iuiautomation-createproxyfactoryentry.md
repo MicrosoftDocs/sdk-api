@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateProxyFactoryEntry
-title: IUIAutomation::CreateProxyFactoryEntry method
+title: IUIAutomation::CreateProxyFactoryEntry
 author: windows-driver-content
 description: Creates a new instance of a proxy factory object.
 old-location: winauto\uiauto_IUIAutomation_CreateProxyFactoryEntry.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: dcb7ceb8-d794-4b7a-97ed-d7fc2002d7d7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CreateProxyFactoryEntry method [Windows Accessibility], CreateProxyFactoryEntry method [Windows Accessibility], IUIAutomation interface, CreateProxyFactoryEntry,IUIAutomation.CreateProxyFactoryEntry, IUIAutomation, IUIAutomation interface [Windows Accessibility], CreateProxyFactoryEntry method, IUIAutomation::CreateProxyFactoryEntry, uiauto.uiauto_IUIAutomation_CreateProxyFactoryEntry, uiauto_IUIAutomation_CreateProxyFactoryEntry, uiautomationclient/IUIAutomation::CreateProxyFactoryEntry, winauto.uiauto_IUIAutomation_CreateProxyFactoryEntry
+ms.keywords: CreateProxyFactoryEntry, CreateProxyFactoryEntry method [Windows Accessibility], CreateProxyFactoryEntry method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateProxyFactoryEntry method, IUIAutomation.CreateProxyFactoryEntry, IUIAutomation::CreateProxyFactoryEntry, uiauto.uiauto_IUIAutomation_CreateProxyFactoryEntry, uiauto_IUIAutomation_CreateProxyFactoryEntry, uiautomationclient/IUIAutomation::CreateProxyFactoryEntry, winauto.uiauto_IUIAutomation_CreateProxyFactoryEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::CreateProxyFactoryEntry method
+# IUIAutomation::CreateProxyFactoryEntry
 
 
 ## -description

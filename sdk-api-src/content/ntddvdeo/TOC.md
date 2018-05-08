@@ -1,0 +1,6 @@
+# [Error Handling](../_debug/index.md)
+## [Ntddvdeo.h](index.md)
+### [IOCTL_VIDEO_QUERY_DISPLAY_BRIGHTNESS IOCTL](../ntddvdeo/ni-ntddvdeo-ioctl_video_query_display_brightness.md)
+### [IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS IOCTL](../ntddvdeo/ni-ntddvdeo-ioctl_video_query_supported_brightness.md)
+### [IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS IOCTL](../ntddvdeo/ni-ntddvdeo-ioctl_video_set_display_brightness.md)
+### [_DISPLAY_BRIGHTNESS structure](../ntddvdeo/ns-ntddvdeo-_display_brightness.md)

@@ -7,7 +7,7 @@ old-location: automat\vari8fromr8.htm
 old-project: automat
 ms.assetid: 1f566439-5faa-47e2-927a-1871b53be0e5
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarI8FromR8, VarI8FromR8 function [Automation], _oa96_VarI8FromR8, automat.vari8fromr8, oleauto/VarI8FromR8
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_FileSystemsSupported
-title: IFileSystemImage::get_FileSystemsSupported method
+title: IFileSystemImage::get_FileSystemsSupported
 author: windows-driver-content
 description: Retrieves the list of file system types that a client can use to build a file system image.
 old-location: imapi\ifilesystemimage_get_filesystemssupported.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 73bf563b-ad8f-4afe-95c6-3bac3c4dadba
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_FileSystemsSupported method, IFileSystemImage::get_FileSystemsSupported, get_FileSystemsSupported method [IMAPI], get_FileSystemsSupported method [IMAPI], IFileSystemImage interface, get_FileSystemsSupported,IFileSystemImage.get_FileSystemsSupported, imapi.ifilesystemimage_get_filesystemssupported, imapi2fs/IFileSystemImage::get_FileSystemsSupported
+ms.keywords: IFileSystemImage interface [IMAPI],get_FileSystemsSupported method, IFileSystemImage.get_FileSystemsSupported, IFileSystemImage::get_FileSystemsSupported, get_FileSystemsSupported, get_FileSystemsSupported method [IMAPI], get_FileSystemsSupported method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_filesystemssupported, imapi2fs/IFileSystemImage::get_FileSystemsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::get_FileSystemsSupported method
+# IFileSystemImage::get_FileSystemsSupported
 
 
 ## -description

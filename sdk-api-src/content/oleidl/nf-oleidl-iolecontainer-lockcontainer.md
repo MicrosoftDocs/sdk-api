@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleContainer.LockContainer
-title: IOleContainer::LockContainer method
+title: IOleContainer::LockContainer
 author: windows-driver-content
 description: Keeps the container for embedded objects running until explicitly released.
 old-location: com\iolecontainer_lockcontainer.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 31b9961a-29a2-48bf-9d39-d86718983682
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleContainer, IOleContainer interface [COM], LockContainer method, IOleContainer::LockContainer, LockContainer method [COM], LockContainer method [COM], IOleContainer interface, LockContainer,IOleContainer.LockContainer, _ole_iolecontainer_lockcontainer, com.iolecontainer_lockcontainer, oleidl/IOleContainer::LockContainer
+ms.keywords: IOleContainer interface [COM],LockContainer method, IOleContainer.LockContainer, IOleContainer::LockContainer, LockContainer, LockContainer method [COM], LockContainer method [COM],IOleContainer interface, _ole_iolecontainer_lockcontainer, com.iolecontainer_lockcontainer, oleidl/IOleContainer::LockContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleContainer::LockContainer method
+# IOleContainer::LockContainer
 
 
 ## -description

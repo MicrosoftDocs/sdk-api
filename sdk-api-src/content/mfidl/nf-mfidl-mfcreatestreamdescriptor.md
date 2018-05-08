@@ -7,7 +7,7 @@ old-location: mf\mfcreatestreamdescriptor.htm
 old-project: medfound
 ms.assetid: 77a63d30-c03f-4339-9db3-eda60db9b194
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 77a63d30-c03f-4339-9db3-eda60db9b194, MFCreateStreamDescriptor, MFCreateStreamDescriptor function [Media Foundation], mf.mfcreatestreamdescriptor, mfidl/MFCreateStreamDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

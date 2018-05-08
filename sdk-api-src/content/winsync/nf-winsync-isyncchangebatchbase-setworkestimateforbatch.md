@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.SetWorkEstimateForBatch
-title: ISyncChangeBatchBase::SetWorkEstimateForBatch method
+title: ISyncChangeBatchBase::SetWorkEstimateForBatch
 author: windows-driver-content
 description: Sets the work estimate for the batch.
 old-location: winsync\isyncchangebatchbase_setworkestimateforbatch.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: da88dd49-4b11-444c-8137-212f8c673122
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], SetWorkEstimateForBatch method, ISyncChangeBatchBase::SetWorkEstimateForBatch, SetWorkEstimateForBatch method [Windows Sync], SetWorkEstimateForBatch method [Windows Sync], ISyncChangeBatchBase interface, SetWorkEstimateForBatch,ISyncChangeBatchBase.SetWorkEstimateForBatch, winsync.isyncchangebatchbase_setworkestimateforbatch, winsync/ISyncChangeBatchBase::SetWorkEstimateForBatch
+ms.keywords: ISyncChangeBatchBase interface [Windows Sync],SetWorkEstimateForBatch method, ISyncChangeBatchBase.SetWorkEstimateForBatch, ISyncChangeBatchBase::SetWorkEstimateForBatch, SetWorkEstimateForBatch, SetWorkEstimateForBatch method [Windows Sync], SetWorkEstimateForBatch method [Windows Sync],ISyncChangeBatchBase interface, winsync.isyncchangebatchbase_setworkestimateforbatch, winsync/ISyncChangeBatchBase::SetWorkEstimateForBatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchBase::SetWorkEstimateForBatch method
+# ISyncChangeBatchBase::SetWorkEstimateForBatch
 
 
 ## -description

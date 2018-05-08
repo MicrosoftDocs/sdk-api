@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.GetDevMemoryObject
-title: IAMDevMemoryAllocator::GetDevMemoryObject method
+title: IAMDevMemoryAllocator::GetDevMemoryObject
 author: windows-driver-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Retrieves an IUnknown interface pointer to a device memory control object that can be aggregated with a custom allocator.
 old-location: dshow\iamdevmemoryallocator_getdevmemoryobject.htm
 old-project: DirectShow
 ms.assetid: d7ca361a-1ce6-449f-9d81-fbfe39f0f9f0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDevMemoryObject method [DirectShow], GetDevMemoryObject method [DirectShow], IAMDevMemoryAllocator interface, GetDevMemoryObject,IAMDevMemoryAllocator.GetDevMemoryObject, IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow], GetDevMemoryObject method, IAMDevMemoryAllocator::GetDevMemoryObject, IAMDevMemoryAllocatorGetDevMemoryObject, dshow.iamdevmemoryallocator_getdevmemoryobject, strmif/IAMDevMemoryAllocator::GetDevMemoryObject
+ms.date: 4/30/2018
+ms.keywords: GetDevMemoryObject, GetDevMemoryObject method [DirectShow], GetDevMemoryObject method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],GetDevMemoryObject method, IAMDevMemoryAllocator.GetDevMemoryObject, IAMDevMemoryAllocator::GetDevMemoryObject, IAMDevMemoryAllocatorGetDevMemoryObject, dshow.iamdevmemoryallocator_getdevmemoryobject, strmif/IAMDevMemoryAllocator::GetDevMemoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMDevMemoryAllocator::GetDevMemoryObject method
+# IAMDevMemoryAllocator::GetDevMemoryObject
 
 
 ## -description

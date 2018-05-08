@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.GetLocation
-title: IOfflineFilesCache::GetLocation method
+title: IOfflineFilesCache::GetLocation
 author: windows-driver-content
 description: Retrieves the current fully qualified directory path of the Offline Files cache.
 old-location: of\iofflinefilescache_getlocation.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: e608c662-23d2-4dcc-95fc-e949ba9f848f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetLocation method [Offline Files], GetLocation method [Offline Files], IOfflineFilesCache interface, GetLocation,IOfflineFilesCache.GetLocation, IOfflineFilesCache, IOfflineFilesCache interface [Offline Files], GetLocation method, IOfflineFilesCache::GetLocation, cscobj/IOfflineFilesCache::GetLocation, of.iofflinefilescache_getlocation
+ms.keywords: GetLocation, GetLocation method [Offline Files], GetLocation method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetLocation method, IOfflineFilesCache.GetLocation, IOfflineFilesCache::GetLocation, cscobj/IOfflineFilesCache::GetLocation, of.iofflinefilescache_getlocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesCache::GetLocation method
+# IOfflineFilesCache::GetLocation
 
 
 ## -description

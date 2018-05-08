@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.put_ONID
-title: IDVBTuneRequest::put_ONID method
+title: IDVBTuneRequest::put_ONID
 author: windows-driver-content
 description: The put_ONID method sets the original network ID.
 old-location: mstv\idvbtunerequest_put_onid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6f080aed-3a25-4464-ab74-27327a9f62a5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBTuneRequest, IDVBTuneRequest interface [Microsoft TV Technologies], put_ONID method, IDVBTuneRequest::put_ONID, IDVBTuneRequestput_ONID, mstv.idvbtunerequest_put_onid, put_ONID method [Microsoft TV Technologies], put_ONID method [Microsoft TV Technologies], IDVBTuneRequest interface, put_ONID,IDVBTuneRequest.put_ONID, tuner/IDVBTuneRequest::put_ONID
+ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],put_ONID method, IDVBTuneRequest.put_ONID, IDVBTuneRequest::put_ONID, IDVBTuneRequestput_ONID, mstv.idvbtunerequest_put_onid, put_ONID, put_ONID method [Microsoft TV Technologies], put_ONID method [Microsoft TV Technologies],IDVBTuneRequest interface, tuner/IDVBTuneRequest::put_ONID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBTuneRequest::put_ONID method
+# IDVBTuneRequest::put_ONID
 
 
 ## -description

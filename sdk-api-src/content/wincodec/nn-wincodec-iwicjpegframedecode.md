@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: E6310320-53A8-40F1-8964-D21D8054E1B8
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], IWICJpegFrameDecode interface [Windows Imaging Component], described, wic.iwicjpegframedecode, wincodec/IWICJpegFrameDecode
+ms.keywords: IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], IWICJpegFrameDecode interface [Windows Imaging Component],described, wic.iwicjpegframedecode, wincodec/IWICJpegFrameDecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

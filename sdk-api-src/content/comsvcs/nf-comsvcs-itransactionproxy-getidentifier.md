@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.GetIdentifier
-title: ITransactionProxy::GetIdentifier method
+title: ITransactionProxy::GetIdentifier
 author: windows-driver-content
 description: Retrieves the identifier of the non-DTC transaction.
 old-location: cos\itransactionproxy_getidentifier.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 8045989b-7b66-4340-a06e-4b4102d09784
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetIdentifier method [COM+], GetIdentifier method [COM+], ITransactionProxy interface, GetIdentifier,ITransactionProxy.GetIdentifier, ITransactionProxy, ITransactionProxy interface [COM+], GetIdentifier method, ITransactionProxy::GetIdentifier, comsvcs/ITransactionProxy::GetIdentifier, cos.itransactionproxy_getidentifier
+ms.keywords: GetIdentifier, GetIdentifier method [COM+], GetIdentifier method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],GetIdentifier method, ITransactionProxy.GetIdentifier, ITransactionProxy::GetIdentifier, comsvcs/ITransactionProxy::GetIdentifier, cos.itransactionproxy_getidentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITransactionProxy::GetIdentifier method
+# ITransactionProxy::GetIdentifier
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IWizardExtension.AddPages
-title: IWizardExtension::AddPages method
+title: IWizardExtension::AddPages
 author: windows-driver-content
 description: Adds extension pages to the wizard by filling an array with handles to PROPSHEETPAGE structures representing those pages.
 old-location: shell\IWizardExtension_AddPages.htm
 old-project: shell
 ms.assetid: 2d9a5012-3b5e-4e55-984b-70a932bab569
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AddPages method [Windows Shell], AddPages method [Windows Shell], IWizardExtension interface, AddPages,IWizardExtension.AddPages, IWizardExtension, IWizardExtension interface [Windows Shell], AddPages method, IWizardExtension::AddPages, _shell_IWizardExtension_AddPages, shell.IWizardExtension_AddPages, shobjidl/IWizardExtension::AddPages
+ms.date: 5/3/2018
+ms.keywords: AddPages, AddPages method [Windows Shell], AddPages method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],AddPages method, IWizardExtension.AddPages, IWizardExtension::AddPages, _shell_IWizardExtension_AddPages, shell.IWizardExtension_AddPages, shobjidl/IWizardExtension::AddPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IWizardExtension::AddPages method
+# IWizardExtension::AddPages
 
 
 ## -description

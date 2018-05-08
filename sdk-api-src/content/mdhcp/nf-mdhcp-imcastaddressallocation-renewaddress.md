@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.RenewAddress
-title: IMcastAddressAllocation::RenewAddress method
+title: IMcastAddressAllocation::RenewAddress
 author: windows-driver-content
 description: The RenewAddress method renews an address lease. Call CreateLeaseInfo to specify the parameters of the renewal request, and then call this method to make the request.
 old-location: tapi3\imcastaddressallocation_renewaddress.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 9f52d1e9-61d9-4f67-b180-c1844b4eb7f1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IMcastAddressAllocation, IMcastAddressAllocation interface [TAPI 2.2], RenewAddress method, IMcastAddressAllocation::RenewAddress, RenewAddress method [TAPI 2.2], RenewAddress method [TAPI 2.2], IMcastAddressAllocation interface, RenewAddress,IMcastAddressAllocation.RenewAddress, _tapi3_imcastaddressallocation_renewaddress, mdhcp/IMcastAddressAllocation::RenewAddress, tapi3.imcastaddressallocation_renewaddress
+ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],RenewAddress method, IMcastAddressAllocation.RenewAddress, IMcastAddressAllocation::RenewAddress, RenewAddress, RenewAddress method [TAPI 2.2], RenewAddress method [TAPI 2.2],IMcastAddressAllocation interface, _tapi3_imcastaddressallocation_renewaddress, mdhcp/IMcastAddressAllocation::RenewAddress, tapi3.imcastaddressallocation_renewaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMcastAddressAllocation::RenewAddress method
+# IMcastAddressAllocation::RenewAddress
 
 
 ## -description

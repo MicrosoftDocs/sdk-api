@@ -137,6 +137,18 @@ For received packets, this flag is not used.
  
 
 
+### -field bAddress
+
+Specifies the address of the packet. For more information, see the description for the 
+       <b>uFlags</b> member.
+
+
+### -field uIpAddress
+
+Specifies the IPv4 address. For more information, see the description for the 
+       <b>uFlags</b> member.
+
+
 ### -field uAddrLen
 
 Length of the address (<b>bAddress</b> or <b>uIpAddress</b>). For 
@@ -147,18 +159,6 @@ Length of the address (<b>bAddress</b> or <b>uIpAddress</b>). For
 
 Port number for the packet. For more information, see the description for the 
       <b>uFlags</b> member.
-
-
-#### - bAddress
-
-Specifies the address of the packet. For more information, see the description for the 
-       <b>uFlags</b> member.
-
-
-#### - uIpAddress
-
-Specifies the IPv4 address. For more information, see the description for the 
-       <b>uFlags</b> member.
 
 
 ## -see-also

@@ -59,11 +59,6 @@ The
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field Wnode
 
 A 
@@ -589,6 +584,23 @@ This value is supported on Windows 7,  Windows Server 2008 R2, and later.
  
 
 
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.AgeLimit
+
+ Not used.
+
+<b>Windows 2000:  </b>Time delay before unused buffers are freed, in minutes. The default is 15 minutes.
+
+
+### -field DUMMYUNIONNAME.FlushThreshold
+
+ 
+
+
 ### -field NumberOfBuffers
 
 On output, the number of buffers allocated for the event tracing session's buffer pool.
@@ -650,13 +662,6 @@ The session name is limited to 1,024 characters. The session name is case-insens
 <b>Windows 2000:  </b>Session names are case-sensitive. As a result, duplicate session names are allowed. However, to reduce confusion, you should make sure your session names are unique.
 
 When you allocate the memory for this structure, you must allocate enough memory to include the session name and log file name following the structure. The session name must come before the log file name in memory. You must copy the log file name to the offset but you do not copy the session name to the offset—the <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function copies the name for you.
-
-
-#### - AgeLimit
-
- Not used.
-
-<b>Windows 2000:  </b>Time delay before unused buffers are freed, in minutes. The default is 15 minutes.
 
 
 ## -remarks

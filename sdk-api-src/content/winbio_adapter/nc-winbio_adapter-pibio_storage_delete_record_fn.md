@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: f1939410-1c1e-42e4-98d6-d8866d313ca1
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_DELETE_RECORD_FN, StorageAdapterDeleteRecord, StorageAdapterDeleteRecord callback function [Windows Biometric Framework API], secbiomet.storageadapterdeleterecord, winbio_adapter/StorageAdapterDeleteRecord
+ms.keywords: PIBIO_STORAGE_DELETE_RECORD_FN, PIBIO_STORAGE_DELETE_RECORD_FN callback, StorageAdapterDeleteRecord, StorageAdapterDeleteRecord callback function [Windows Biometric Framework API], secbiomet.storageadapterdeleterecord, winbio_adapter/StorageAdapterDeleteRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_DELETE_RECORD_FN callback
+# PIBIO_STORAGE_DELETE_RECORD_FN callback function
 
 
 ## -description

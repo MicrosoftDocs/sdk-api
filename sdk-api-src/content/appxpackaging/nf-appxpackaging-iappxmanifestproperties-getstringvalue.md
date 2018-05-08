@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestProperties.GetStringValue
-title: IAppxManifestProperties::GetStringValue method
+title: IAppxManifestProperties::GetStringValue
 author: windows-driver-content
 description: Gets the value of the specified string element in the properties section.
 old-location: appxpkg\iappxmanifestproperties_getstringvalue.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 3EF2D8A2-37B2-4E57-9FD3-DA05FA90749C
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetStringValue method [App packaging and management], GetStringValue method [App packaging and management], IAppxManifestProperties interface, GetStringValue,IAppxManifestProperties.GetStringValue, IAppxManifestProperties, IAppxManifestProperties interface [App packaging and management], GetStringValue method, IAppxManifestProperties::GetStringValue, appxpackaging/IAppxManifestProperties::GetStringValue, appxpkg.iappxmanifestproperties_getstringvalue
+ms.keywords: GetStringValue, GetStringValue method [App packaging and management], GetStringValue method [App packaging and management],IAppxManifestProperties interface, IAppxManifestProperties interface [App packaging and management],GetStringValue method, IAppxManifestProperties.GetStringValue, IAppxManifestProperties::GetStringValue, appxpackaging/IAppxManifestProperties::GetStringValue, appxpkg.iappxmanifestproperties_getstringvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestProperties::GetStringValue method
+# IAppxManifestProperties::GetStringValue
 
 
 ## -description

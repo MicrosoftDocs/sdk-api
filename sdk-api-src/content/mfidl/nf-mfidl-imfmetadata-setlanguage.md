@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMetadata.SetLanguage
-title: IMFMetadata::SetLanguage method
+title: IMFMetadata::SetLanguage
 author: windows-driver-content
 description: Sets the language for setting and retrieving metadata.
 old-location: mf\imfmetadata_setlanguage.htm
 old-project: medfound
 ms.assetid: da615053-ddd5-448e-905c-b060cdaefa95
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMetadata, IMFMetadata interface [Media Foundation], SetLanguage method, IMFMetadata::SetLanguage, SetLanguage method [Media Foundation], SetLanguage method [Media Foundation], IMFMetadata interface, SetLanguage,IMFMetadata.SetLanguage, da615053-ddd5-448e-905c-b060cdaefa95, mf.imfmetadata_setlanguage, mfidl/IMFMetadata::SetLanguage
+ms.date: 5/3/2018
+ms.keywords: IMFMetadata interface [Media Foundation],SetLanguage method, IMFMetadata.SetLanguage, IMFMetadata::SetLanguage, SetLanguage, SetLanguage method [Media Foundation], SetLanguage method [Media Foundation],IMFMetadata interface, da615053-ddd5-448e-905c-b060cdaefa95, mf.imfmetadata_setlanguage, mfidl/IMFMetadata::SetLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMetadata::SetLanguage method
+# IMFMetadata::SetLanguage
 
 
 ## -description

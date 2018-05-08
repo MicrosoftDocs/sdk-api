@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetDefaultPlaybackRate
-title: IMFMediaEngine::GetDefaultPlaybackRate method
+title: IMFMediaEngine::GetDefaultPlaybackRate
 author: windows-driver-content
 description: Gets the default playback rate.
 old-location: mf\imfmediaengine_getdefaultplaybackrate.htm
 old-project: medfound
 ms.assetid: FF7E9E76-B85E-40BB-88BD-5033FCE31177
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDefaultPlaybackRate method [Media Foundation], GetDefaultPlaybackRate method [Media Foundation], IMFMediaEngine interface, GetDefaultPlaybackRate,IMFMediaEngine.GetDefaultPlaybackRate, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetDefaultPlaybackRate method, IMFMediaEngine::GetDefaultPlaybackRate, mf.imfmediaengine_getdefaultplaybackrate, mfmediaengine/IMFMediaEngine::GetDefaultPlaybackRate
+ms.date: 5/3/2018
+ms.keywords: GetDefaultPlaybackRate, GetDefaultPlaybackRate method [Media Foundation], GetDefaultPlaybackRate method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetDefaultPlaybackRate method, IMFMediaEngine.GetDefaultPlaybackRate, IMFMediaEngine::GetDefaultPlaybackRate, mf.imfmediaengine_getdefaultplaybackrate, mfmediaengine/IMFMediaEngine::GetDefaultPlaybackRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::GetDefaultPlaybackRate method
+# IMFMediaEngine::GetDefaultPlaybackRate
 
 
 ## -description

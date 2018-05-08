@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.CreateVirtualMachines
-title: ITsSbProvisioning::CreateVirtualMachines method
+title: ITsSbProvisioning::CreateVirtualMachines
 author: windows-driver-content
 description: Creates a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_createvirtualmachines.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 752da6d8-d036-4a39-aed5-c1fd7a11474e
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CreateVirtualMachines method [Remote Desktop Services], CreateVirtualMachines method [Remote Desktop Services], ITsSbProvisioning interface, CreateVirtualMachines,ITsSbProvisioning.CreateVirtualMachines, ITsSbProvisioning, ITsSbProvisioning interface [Remote Desktop Services], CreateVirtualMachines method, ITsSbProvisioning::CreateVirtualMachines, sbtsv/ITsSbProvisioning::CreateVirtualMachines, termserv.itssbprovisioning_createvirtualmachines
+ms.keywords: CreateVirtualMachines, CreateVirtualMachines method [Remote Desktop Services], CreateVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],CreateVirtualMachines method, ITsSbProvisioning.CreateVirtualMachines, ITsSbProvisioning::CreateVirtualMachines, sbtsv/ITsSbProvisioning::CreateVirtualMachines, termserv.itssbprovisioning_createvirtualmachines
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbProvisioning::CreateVirtualMachines method
+# ITsSbProvisioning::CreateVirtualMachines
 
 
 ## -description

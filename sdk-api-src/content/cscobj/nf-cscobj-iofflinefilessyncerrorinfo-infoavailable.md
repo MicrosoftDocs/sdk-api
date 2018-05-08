@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.InfoAvailable
-title: IOfflineFilesSyncErrorInfo::InfoAvailable method
+title: IOfflineFilesSyncErrorInfo::InfoAvailable
 author: windows-driver-content
 description: Indicates whether information was obtained for the local, remote, or original copy of the item during synchronization.
 old-location: of\iofflinefilessyncerrorinfo_infoavailable.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: f4a491fb-445b-4a90-9131-e0e5964154fa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesSyncErrorInfo, IOfflineFilesSyncErrorInfo interface [Offline Files], InfoAvailable method, IOfflineFilesSyncErrorInfo::InfoAvailable, InfoAvailable method [Offline Files], InfoAvailable method [Offline Files], IOfflineFilesSyncErrorInfo interface, InfoAvailable,IOfflineFilesSyncErrorInfo.InfoAvailable, cscobj/IOfflineFilesSyncErrorInfo::InfoAvailable, of.iofflinefilessyncerrorinfo_infoavailable
+ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoAvailable method, IOfflineFilesSyncErrorInfo.InfoAvailable, IOfflineFilesSyncErrorInfo::InfoAvailable, InfoAvailable, InfoAvailable method [Offline Files], InfoAvailable method [Offline Files],IOfflineFilesSyncErrorInfo interface, cscobj/IOfflineFilesSyncErrorInfo::InfoAvailable, of.iofflinefilessyncerrorinfo_infoavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSyncErrorInfo::InfoAvailable method
+# IOfflineFilesSyncErrorInfo::InfoAvailable
 
 
 ## -description

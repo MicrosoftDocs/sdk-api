@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetPredication
-title: ID3D12GraphicsCommandList::SetPredication method
+title: ID3D12GraphicsCommandList::SetPredication
 author: windows-driver-content
 description: Sets a rendering predicate.
 old-location: direct3d12\id3d12graphicscommandlist_setpredication.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 21526012-A675-40E8-A11C-4CBA5C12B9CF
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, SetPredication method, ID3D12GraphicsCommandList::SetPredication, SetPredication method, SetPredication method, ID3D12GraphicsCommandList interface, SetPredication,ID3D12GraphicsCommandList.SetPredication, d3d12/ID3D12GraphicsCommandList::SetPredication, direct3d12.id3d12graphicscommandlist_setpredication
+ms.keywords: ID3D12GraphicsCommandList interface,SetPredication method, ID3D12GraphicsCommandList.SetPredication, ID3D12GraphicsCommandList::SetPredication, SetPredication, SetPredication method, SetPredication method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetPredication, direct3d12.id3d12graphicscommandlist_setpredication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::SetPredication method
+# ID3D12GraphicsCommandList::SetPredication
 
 
 ## -description

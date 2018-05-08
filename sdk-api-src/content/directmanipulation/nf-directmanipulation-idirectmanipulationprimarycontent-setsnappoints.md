@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetSnapPoints
-title: IDirectManipulationPrimaryContent::SetSnapPoints method
+title: IDirectManipulationPrimaryContent::SetSnapPoints
 author: windows-driver-content
 description: Specifies the snap points for the inertia rest position.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnappoints.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 3257952d-903b-455c-9422-9739411a5924
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationPrimaryContent, IDirectManipulationPrimaryContent interface [Direct Manipulation], SetSnapPoints method, IDirectManipulationPrimaryContent::SetSnapPoints, SetSnapPoints method [Direct Manipulation], SetSnapPoints method [Direct Manipulation], IDirectManipulationPrimaryContent interface, SetSnapPoints,IDirectManipulationPrimaryContent.SetSnapPoints, directmanipulation.idirectmanipulationprimarycontent_setsnappoints, directmanipulation/IDirectManipulationPrimaryContent::SetSnapPoints
+ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapPoints method, IDirectManipulationPrimaryContent.SetSnapPoints, IDirectManipulationPrimaryContent::SetSnapPoints, SetSnapPoints, SetSnapPoints method [Direct Manipulation], SetSnapPoints method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnappoints, directmanipulation/IDirectManipulationPrimaryContent::SetSnapPoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationPrimaryContent::SetSnapPoints method
+# IDirectManipulationPrimaryContent::SetSnapPoints
 
 
 ## -description

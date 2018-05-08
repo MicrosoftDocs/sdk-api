@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSystem.Query
-title: IEventSystem::Query method
+title: IEventSystem::Query
 author: windows-driver-content
 description: Retrieves a collection of subscription or event objects from the event data store.
 old-location: cos\ieventsystem_query.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 47025361-4420-4c5d-aed7-d40ea0ba3e3b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventSystem, IEventSystem interface [COM+], Query method, IEventSystem::Query, Query method [COM+], Query method [COM+], IEventSystem interface, Query,IEventSystem.Query, _cos_IEventSystem_Query, cos.ieventsystem_query, eventsys/IEventSystem::Query
+ms.keywords: IEventSystem interface [COM+],Query method, IEventSystem.Query, IEventSystem::Query, Query, Query method [COM+], Query method [COM+],IEventSystem interface, _cos_IEventSystem_Query, cos.ieventsystem_query, eventsys/IEventSystem::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSystem::Query method
+# IEventSystem::Query
 
 
 ## -description

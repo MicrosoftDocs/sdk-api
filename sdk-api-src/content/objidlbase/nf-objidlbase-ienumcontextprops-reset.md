@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IEnumContextProps.Reset
-title: IEnumContextProps::Reset method
+title: IEnumContextProps::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumcontextprops_reset.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: de6a45d2-f0f7-4233-92d2-8e59d4685557
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumContextProps, IEnumContextProps interface [COM], Reset method, IEnumContextProps::Reset, Reset method [COM], Reset method [COM], IEnumContextProps interface, Reset,IEnumContextProps.Reset, _com_ienumcontextprops_reset, com.ienumcontextprops_reset, objidlbase/IEnumContextProps::Reset
+ms.keywords: IEnumContextProps interface [COM],Reset method, IEnumContextProps.Reset, IEnumContextProps::Reset, Reset, Reset method [COM], Reset method [COM],IEnumContextProps interface, _com_ienumcontextprops_reset, com.ienumcontextprops_reset, objidlbase/IEnumContextProps::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumContextProps::Reset method
+# IEnumContextProps::Reset
 
 
 ## -description

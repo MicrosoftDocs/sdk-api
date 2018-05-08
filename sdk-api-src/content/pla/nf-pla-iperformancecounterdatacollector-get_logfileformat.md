@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.get_LogFileFormat
-title: IPerformanceCounterDataCollector::get_LogFileFormat method
+title: IPerformanceCounterDataCollector::get_LogFileFormat
 author: windows-driver-content
 description: Retrieves or sets the format of the log file.
 old-location: pla\iperformancecounterdatacollector_logfileformat.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 3b980ea6-cb08-4e10-b4b3-40fd504d5e8f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPerformanceCounterDataCollector, IPerformanceCounterDataCollector interface [PLA], LogFileFormat property, IPerformanceCounterDataCollector.LogFileFormat, IPerformanceCounterDataCollector::get_LogFileFormat, IPerformanceCounterDataCollector::put_LogFileFormat, LogFileFormat property [PLA], LogFileFormat property [PLA], IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_logfileformat, get_LogFileFormat,IPerformanceCounterDataCollector.get_LogFileFormat, pla.iperformancecounterdatacollector_logfileformat, pla/IPerformanceCounterDataCollector::LogFileFormat, pla/IPerformanceCounterDataCollector::get_LogFileFormat, pla/IPerformanceCounterDataCollector::put_LogFileFormat
+ms.keywords: IPerformanceCounterDataCollector interface [PLA],LogFileFormat property, IPerformanceCounterDataCollector.LogFileFormat, IPerformanceCounterDataCollector.get_LogFileFormat, IPerformanceCounterDataCollector::LogFileFormat, IPerformanceCounterDataCollector::get_LogFileFormat, IPerformanceCounterDataCollector::put_LogFileFormat, LogFileFormat property [PLA], LogFileFormat property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_logfileformat, get_LogFileFormat, pla.iperformancecounterdatacollector_logfileformat, pla/IPerformanceCounterDataCollector::LogFileFormat, pla/IPerformanceCounterDataCollector::get_LogFileFormat, pla/IPerformanceCounterDataCollector::put_LogFileFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPerformanceCounterDataCollector::get_LogFileFormat method
+# IPerformanceCounterDataCollector::get_LogFileFormat
 
 
 ## -description

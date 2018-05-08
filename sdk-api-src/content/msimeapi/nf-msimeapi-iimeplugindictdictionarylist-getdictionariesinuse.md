@@ -1,6 +1,6 @@
 ---
 UID: NF:msimeapi.IImePlugInDictDictionaryList.GetDictionariesInUse
-title: IImePlugInDictDictionaryList::GetDictionariesInUse method
+title: IImePlugInDictDictionaryList::GetDictionariesInUse
 author: windows-driver-content
 description: Obtains the list of Dictionay IDs (GUID) of the IME plug-in dictionaries which are in use by IME, with their creation dates and encryption flags.
 old-location: intl\iimeplugindictdictionarylist_getdictionariesinuse.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 145F403E-7A7D-4336-96CD-620FA61DFCBF
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetDictionariesInUse method [Internationalization for Windows Applications], GetDictionariesInUse method [Internationalization for Windows Applications], IImePlugInDictDictionaryList interface, GetDictionariesInUse,IImePlugInDictDictionaryList.GetDictionariesInUse, IImePlugInDictDictionaryList, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications], GetDictionariesInUse method, IImePlugInDictDictionaryList::GetDictionariesInUse, intl.iimeplugindictdictionarylist_getdictionariesinuse, msimeapi/IImePlugInDictDictionaryList::GetDictionariesInUse
+ms.keywords: GetDictionariesInUse, GetDictionariesInUse method [Internationalization for Windows Applications], GetDictionariesInUse method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],GetDictionariesInUse method, IImePlugInDictDictionaryList.GetDictionariesInUse, IImePlugInDictDictionaryList::GetDictionariesInUse, intl.iimeplugindictdictionarylist_getdictionariesinuse, msimeapi/IImePlugInDictDictionaryList::GetDictionariesInUse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IImePlugInDictDictionaryList::GetDictionariesInUse method
+# IImePlugInDictDictionaryList::GetDictionariesInUse
 
 
 ## -description

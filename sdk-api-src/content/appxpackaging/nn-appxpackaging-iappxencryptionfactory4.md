@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: BEB6BD9B-C265-4C92-98AD-59344B5274D4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxEncryptionFactory4, IAppxEncryptionFactory4 interface [App packaging and management], IAppxEncryptionFactory4 interface [App packaging and management], described, appxpackaging/IAppxEncryptionFactory4, appxpkg.iappxencryptionfactory4
+ms.keywords: IAppxEncryptionFactory4, IAppxEncryptionFactory4 interface [App packaging and management], IAppxEncryptionFactory4 interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory4, appxpkg.iappxencryptionfactory4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

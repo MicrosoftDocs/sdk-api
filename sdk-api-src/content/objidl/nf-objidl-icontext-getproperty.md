@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IContext.GetProperty
-title: IContext::GetProperty method
+title: IContext::GetProperty
 author: windows-driver-content
 description: Retrieves the specified context property from the context.
 old-location: com\icontext_getproperty.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 76c6f790-9103-4cee-8a67-0f69b00ba0a1
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetProperty method [COM], GetProperty method [COM], IContext interface, GetProperty,IContext.GetProperty, IContext, IContext interface [COM], GetProperty method, IContext::GetProperty, _com_icontext_getproperty, com.icontext_getproperty, objidlbase/IContext::GetProperty
+ms.keywords: GetProperty, GetProperty method [COM], GetProperty method [COM],IContext interface, IContext interface [COM],GetProperty method, IContext.GetProperty, IContext::GetProperty, _com_icontext_getproperty, com.icontext_getproperty, objidlbase/IContext::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IContext::GetProperty method
+# IContext::GetProperty
 
 
 ## -description

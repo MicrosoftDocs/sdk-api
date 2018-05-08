@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.GetDeinterlacePrefs
-title: IVMRDeinterlaceControl::GetDeinterlacePrefs method
+title: IVMRDeinterlaceControl::GetDeinterlacePrefs
 author: windows-driver-content
 description: The GetDeinterlacePrefs method queries how the VMR will select a deinterlacing mode if it cannot use the preferred deinterlacing mode.
 old-location: dshow\ivmrdeinterlacecontrol_getdeinterlaceprefs.htm
 old-project: DirectShow
 ms.assetid: bb9de83c-087e-4d6e-861a-7db388d59a7c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDeinterlacePrefs method [DirectShow], GetDeinterlacePrefs method [DirectShow], IVMRDeinterlaceControl interface, GetDeinterlacePrefs,IVMRDeinterlaceControl.GetDeinterlacePrefs, IVMRDeinterlaceControl, IVMRDeinterlaceControl interface [DirectShow], GetDeinterlacePrefs method, IVMRDeinterlaceControl::GetDeinterlacePrefs, IVMRDeinterlaceControlGetDeinterlacePrefs, dshow.ivmrdeinterlacecontrol_getdeinterlaceprefs, strmif/IVMRDeinterlaceControl::GetDeinterlacePrefs
+ms.date: 4/30/2018
+ms.keywords: GetDeinterlacePrefs, GetDeinterlacePrefs method [DirectShow], GetDeinterlacePrefs method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetDeinterlacePrefs method, IVMRDeinterlaceControl.GetDeinterlacePrefs, IVMRDeinterlaceControl::GetDeinterlacePrefs, IVMRDeinterlaceControlGetDeinterlacePrefs, dshow.ivmrdeinterlacecontrol_getdeinterlaceprefs, strmif/IVMRDeinterlaceControl::GetDeinterlacePrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRDeinterlaceControl::GetDeinterlacePrefs method
+# IVMRDeinterlaceControl::GetDeinterlacePrefs
 
 
 ## -description

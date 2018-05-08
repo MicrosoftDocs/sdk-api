@@ -63,6 +63,31 @@ Contains listener settings for a remote session.
 The maximum number of protocol listener connections allowed. <b>ULONG_MAX</b> specifies the maximum number of connections.
 
 
+### -field SecurityDescriptorSize.range
+
+ 
+
+
+### -field SecurityDescriptorSize.range.0
+
+ 
+
+
+### -field SecurityDescriptorSize.range.16384
+
+ 
+
+
+### -field pSecurityDescriptor.size_is
+
+ 
+
+
+### -field pSecurityDescriptor.size_is.SecurityDescriptorSize
+
+ 
+
+
 ### -field SecurityDescriptorSize
 
 The size, in bytes, of the <b>pSecurityDescriptor</b> buffer.

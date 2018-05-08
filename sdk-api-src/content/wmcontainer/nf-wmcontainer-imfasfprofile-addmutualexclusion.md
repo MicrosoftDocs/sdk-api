@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.AddMutualExclusion
-title: IMFASFProfile::AddMutualExclusion method
+title: IMFASFProfile::AddMutualExclusion
 author: windows-driver-content
 description: Adds a configured Advanced Systems Format (ASF) mutual exclusion object to the profile.
 old-location: mf\imfasfprofile_addmutualexclusion.htm
 old-project: medfound
 ms.assetid: d9069feb-7d39-4b40-b95e-0112d959bbae
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddMutualExclusion method [Media Foundation], AddMutualExclusion method [Media Foundation], IMFASFProfile interface, AddMutualExclusion,IMFASFProfile.AddMutualExclusion, IMFASFProfile, IMFASFProfile interface [Media Foundation], AddMutualExclusion method, IMFASFProfile::AddMutualExclusion, d9069feb-7d39-4b40-b95e-0112d959bbae, mf.imfasfprofile_addmutualexclusion, wmcontainer/IMFASFProfile::AddMutualExclusion
+ms.date: 5/3/2018
+ms.keywords: AddMutualExclusion, AddMutualExclusion method [Media Foundation], AddMutualExclusion method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],AddMutualExclusion method, IMFASFProfile.AddMutualExclusion, IMFASFProfile::AddMutualExclusion, d9069feb-7d39-4b40-b95e-0112d959bbae, mf.imfasfprofile_addmutualexclusion, wmcontainer/IMFASFProfile::AddMutualExclusion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFProfile::AddMutualExclusion method
+# IMFASFProfile::AddMutualExclusion
 
 
 ## -description

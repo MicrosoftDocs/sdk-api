@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.Inverse
-title: IMoniker::Inverse method
+title: IMoniker::Inverse
 author: windows-driver-content
 description: Creates a moniker that is the inverse of this moniker. When composed to the right of this moniker or one of similar structure, the moniker will compose to nothing.
 old-location: com\imoniker_inverse.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 351d5da3-043b-426a-99e9-9f882f552239
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMoniker, IMoniker interface [COM], Inverse method, IMoniker::Inverse, Inverse method [COM], Inverse method [COM], IMoniker interface, Inverse,IMoniker.Inverse, _com_imoniker_inverse, com.imoniker_inverse, objidl/IMoniker::Inverse
+ms.keywords: IMoniker interface [COM],Inverse method, IMoniker.Inverse, IMoniker::Inverse, Inverse, Inverse method [COM], Inverse method [COM],IMoniker interface, _com_imoniker_inverse, com.imoniker_inverse, objidl/IMoniker::Inverse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMoniker::Inverse method
+# IMoniker::Inverse
 
 
 ## -description

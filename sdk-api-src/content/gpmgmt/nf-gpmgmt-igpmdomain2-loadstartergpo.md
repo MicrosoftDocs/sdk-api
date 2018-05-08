@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.LoadStarterGPO
-title: IGPMDomain2::LoadStarterGPO method
+title: IGPMDomain2::LoadStarterGPO
 author: windows-driver-content
 description: Opens a Starter Group Policy object (GPO) cabinet (CAB) file and imports it into the domain.
 old-location: gpmc\igpmdomain2_loadstartergpo.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 3375ecaf-6128-4bc0-9cfc-e9b00bf4b70a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IGPMDomain2, IGPMDomain2 interface [GPMC], LoadStarterGPO method, IGPMDomain2::LoadStarterGPO, LoadStarterGPO method [GPMC], LoadStarterGPO method [GPMC], IGPMDomain2 interface, LoadStarterGPO,IGPMDomain2.LoadStarterGPO, gpmc.igpmdomain2_loadstartergpo, gpmgmt/IGPMDomain2::LoadStarterGPO
+ms.keywords: IGPMDomain2 interface [GPMC],LoadStarterGPO method, IGPMDomain2.LoadStarterGPO, IGPMDomain2::LoadStarterGPO, LoadStarterGPO, LoadStarterGPO method [GPMC], LoadStarterGPO method [GPMC],IGPMDomain2 interface, gpmc.igpmdomain2_loadstartergpo, gpmgmt/IGPMDomain2::LoadStarterGPO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMDomain2::LoadStarterGPO method
+# IGPMDomain2::LoadStarterGPO
 
 
 ## -description

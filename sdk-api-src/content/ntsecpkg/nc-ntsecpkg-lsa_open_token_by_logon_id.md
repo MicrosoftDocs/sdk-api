@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# LSA_OPEN_TOKEN_BY_LOGON_ID callback
+# LSA_OPEN_TOKEN_BY_LOGON_ID callback function
 
 
 ## -description

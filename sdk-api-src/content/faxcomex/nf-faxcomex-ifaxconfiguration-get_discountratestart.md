@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_DiscountRateStart
-title: IFaxConfiguration::get_DiscountRateStart method
+title: IFaxConfiguration::get_DiscountRateStart
 author: windows-driver-content
 description: Sets or retrieves a value that indicates the time at which the discount rate period begins.
 old-location: fax\_mfax_FaxConfiguration_DiscountRateStart_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\discountratestart.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DiscountRateStart property [Fax Service], DiscountRateStart property [Fax Service], FaxConfiguration object, FaxConfiguration object [Fax Service], DiscountRateStart property, IFaxConfiguration, IFaxConfiguration::get_DiscountRateStart, _mfax_IFaxConfiguration_DiscountRateStart, fax._mfax_FaxConfiguration_DiscountRateStart_vb, get_DiscountRateStart,IFaxConfiguration.get_DiscountRateStart
+ms.keywords: DiscountRateStart property [Fax Service], DiscountRateStart property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],DiscountRateStart property, FaxConfiguration.DiscountRateStart, IFaxConfiguration.get_DiscountRateStart, IFaxConfiguration::get_DiscountRateStart, _mfax_IFaxConfiguration_DiscountRateStart, fax._mfax_FaxConfiguration_DiscountRateStart_vb, get_DiscountRateStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::get_DiscountRateStart method
+# IFaxConfiguration::get_DiscountRateStart
 
 
 ## -description

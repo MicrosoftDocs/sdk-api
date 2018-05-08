@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: F8C97013-3BDA-445F-A2C2-60D08DD9C71A
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN, SensorAdapterQueryCalibrationFormats, SensorAdapterQueryCalibrationFormats callback function [Windows Biometric Framework API], secbiomet.sensoradapterquerycalibrationformats, winbio_adapter/SensorAdapterQueryCalibrationFormats
+ms.keywords: PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN, PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN callback, SensorAdapterQueryCalibrationFormats, SensorAdapterQueryCalibrationFormats callback function [Windows Biometric Framework API], secbiomet.sensoradapterquerycalibrationformats, winbio_adapter/SensorAdapterQueryCalibrationFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN callback
+# PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN callback function
 
 
 ## -description

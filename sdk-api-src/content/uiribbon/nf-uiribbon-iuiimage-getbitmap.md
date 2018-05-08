@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIImage.GetBitmap
-title: IUIImage::GetBitmap method
+title: IUIImage::GetBitmap
 author: windows-driver-content
 description: Retrieves a bitmap to display as an icon in the ribbon and context popup UI of the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuiimage_getbitmap.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimage\getbitmap.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetBitmap method [Windows Ribbon], GetBitmap method [Windows Ribbon], IUIImage interface, GetBitmap,IUIImage.GetBitmap, IUIImage, IUIImage interface [Windows Ribbon], GetBitmap method, IUIImage::GetBitmap, scenicintent_IUIImage_GetBitmap, uiribbon/IUIImage::GetBitmap, windowsribbon.windowsribbon_iuiimage_getbitmap
+ms.keywords: GetBitmap, GetBitmap method [Windows Ribbon], GetBitmap method [Windows Ribbon],IUIImage interface, IUIImage interface [Windows Ribbon],GetBitmap method, IUIImage.GetBitmap, IUIImage::GetBitmap, scenicintent_IUIImage_GetBitmap, uiribbon/IUIImage::GetBitmap, windowsribbon.windowsribbon_iuiimage_getbitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUIImage::GetBitmap method
+# IUIImage::GetBitmap
 
 
 ## -description

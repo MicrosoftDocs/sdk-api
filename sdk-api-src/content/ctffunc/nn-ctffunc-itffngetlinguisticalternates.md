@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 854FB6EC-CEF1-4FB6-AA5F-34B26B46A3CA
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnGetLinguisticAlternates, ITfFnGetLinguisticAlternates interface [Text Services Framework], ITfFnGetLinguisticAlternates interface [Text Services Framework], described, ctffunc/ITfFnGetLinguisticAlternates, tsf.itffngetlinguisticalternates
+ms.keywords: ITfFnGetLinguisticAlternates, ITfFnGetLinguisticAlternates interface [Text Services Framework], ITfFnGetLinguisticAlternates interface [Text Services Framework],described, ctffunc/ITfFnGetLinguisticAlternates, tsf.itffngetlinguisticalternates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

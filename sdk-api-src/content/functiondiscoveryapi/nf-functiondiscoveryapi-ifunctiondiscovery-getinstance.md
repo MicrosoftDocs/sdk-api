@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.GetInstance
-title: IFunctionDiscovery::GetInstance method
+title: IFunctionDiscovery::GetInstance
 author: windows-driver-content
 description: Gets the specified function instance, based on identifier.
 old-location: ncd\ifunctiondiscovery_getinstance_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 8f3b2517-0acf-4a43-9539-d905c78be426
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetInstance method, GetInstance method, IFunctionDiscovery interface, GetInstance,IFunctionDiscovery.GetInstance, IFunctionDiscovery, IFunctionDiscovery interface, GetInstance method, IFunctionDiscovery::GetInstance, functiondiscoveryapi/IFunctionDiscovery::GetInstance, ncd.ifunctiondiscovery_getinstance_method
+ms.keywords: GetInstance, GetInstance method, GetInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,GetInstance method, IFunctionDiscovery.GetInstance, IFunctionDiscovery::GetInstance, functiondiscoveryapi/IFunctionDiscovery::GetInstance, ncd.ifunctiondiscovery_getinstance_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionDiscovery::GetInstance method
+# IFunctionDiscovery::GetInstance
 
 
 ## -description

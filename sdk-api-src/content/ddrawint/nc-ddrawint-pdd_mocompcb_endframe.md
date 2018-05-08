@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3589f003-32fc-44c4-867a-abf54f347de9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DdMoCompEndFrame, DdMoCompEndFrame callback function [Display Devices], PDD_MOCOMPCB_ENDFRAME, ddfncs_24cad2ef-0770-46d5-a3f3-a4565ec66626.xml, ddrawint/DdMoCompEndFrame, display.ddmocompendframe
+ms.keywords: DdMoCompEndFrame, DdMoCompEndFrame callback function [Display Devices], PDD_MOCOMPCB_ENDFRAME, PDD_MOCOMPCB_ENDFRAME callback, ddfncs_24cad2ef-0770-46d5-a3f3-a4565ec66626.xml, ddrawint/DdMoCompEndFrame, display.ddmocompendframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PDD_MOCOMPCB_ENDFRAME callback
+# PDD_MOCOMPCB_ENDFRAME callback function
 
 
 ## -description

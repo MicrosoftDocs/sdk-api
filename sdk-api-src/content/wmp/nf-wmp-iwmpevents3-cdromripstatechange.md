@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromRipStateChange
-title: IWMPEvents3::CdromRipStateChange method
+title: IWMPEvents3::CdromRipStateChange
 author: windows-driver-content
 description: The CdromRipStateChange event occurs when a CD ripping operation changes state.
 old-location: wmp\iwmpevents3_iwmpevents3__cdromripstatechange.htm
 old-project: WMP
 ms.assetid: 08445295-4fed-412f-84ce-eaf337758472
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: CdromRipStateChange method [Windows Media Player], CdromRipStateChange method [Windows Media Player], IWMPEvents3 interface, CdromRipStateChange,IWMPEvents3.CdromRipStateChange, IWMPEvents3, IWMPEvents3 interface [Windows Media Player], CdromRipStateChange method, IWMPEvents3::CdromRipStateChange, IWMPEvents3CdromRipStateChange, wmp.iwmpevents3_iwmpevents3__cdromripstatechange, wmp/IWMPEvents3::CdromRipStateChange
+ms.date: 5/4/2018
+ms.keywords: CdromRipStateChange, CdromRipStateChange method [Windows Media Player], CdromRipStateChange method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromRipStateChange method, IWMPEvents3.CdromRipStateChange, IWMPEvents3::CdromRipStateChange, IWMPEvents3CdromRipStateChange, wmp.iwmpevents3_iwmpevents3__cdromripstatechange, wmp/IWMPEvents3::CdromRipStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents3::CdromRipStateChange method
+# IWMPEvents3::CdromRipStateChange
 
 
 ## -description

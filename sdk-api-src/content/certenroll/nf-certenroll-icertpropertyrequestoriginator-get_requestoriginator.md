@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyRequestOriginator.get_RequestOriginator
-title: ICertPropertyRequestOriginator::get_RequestOriginator method
+title: ICertPropertyRequestOriginator::get_RequestOriginator
 author: windows-driver-content
 description: Retrieves a string that contains the DNS name of the originating computer.
 old-location: security\icertpropertyrequestoriginator_requestoriginator_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 0ac6b8da-9183-4683-a172-a9742b40da64
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], RequestOriginator property, ICertPropertyRequestOriginator.RequestOriginator, ICertPropertyRequestOriginator::get_RequestOriginator, RequestOriginator property [Security], RequestOriginator property [Security], ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::RequestOriginator, certenroll/ICertPropertyRequestOriginator::get_RequestOriginator, get_RequestOriginator,ICertPropertyRequestOriginator.get_RequestOriginator, security.icertpropertyrequestoriginator_requestoriginator_property
+ms.keywords: ICertPropertyRequestOriginator interface [Security],RequestOriginator property, ICertPropertyRequestOriginator.RequestOriginator, ICertPropertyRequestOriginator.get_RequestOriginator, ICertPropertyRequestOriginator::RequestOriginator, ICertPropertyRequestOriginator::get_RequestOriginator, RequestOriginator property [Security], RequestOriginator property [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::RequestOriginator, certenroll/ICertPropertyRequestOriginator::get_RequestOriginator, get_RequestOriginator, security.icertpropertyrequestoriginator_requestoriginator_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyRequestOriginator::get_RequestOriginator method
+# ICertPropertyRequestOriginator::get_RequestOriginator
 
 
 ## -description

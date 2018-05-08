@@ -8,7 +8,7 @@ old-project: QOS
 ms.assetid: b700b5c1-9fd7-4fc9-a5ed-f8ac75d22037
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: PFREEMEM, PFREEMEM callback function [QOS], _gqos_pfreemem, lpmapi/PFREEMEM, qos.pfreemem
+ms.keywords: PFREEMEM, PFREEMEM callback, PFREEMEM callback function [QOS], _gqos_pfreemem, lpmapi/PFREEMEM, qos.pfreemem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# PFREEMEM callback
+# PFREEMEM callback function
 
 
 ## -description

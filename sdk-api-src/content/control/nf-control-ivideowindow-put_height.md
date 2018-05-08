@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IVideoWindow.put_Height
-title: IVideoWindow::put_Height method
+title: IVideoWindow::put_Height
 author: windows-driver-content
 description: The put_Height method sets the height of the video window.
 old-location: dshow\ivideowindow_put_height.htm
 old-project: DirectShow
 ms.assetid: 39ba411f-675f-4dad-be4f-6beffbd3b53c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], put_Height method, IVideoWindow::put_Height, IVideoWindowput_Height, control/IVideoWindow::put_Height, dshow.ivideowindow_put_height, put_Height method [DirectShow], put_Height method [DirectShow], IVideoWindow interface, put_Height,IVideoWindow.put_Height
+ms.date: 4/30/2018
+ms.keywords: IVideoWindow interface [DirectShow],put_Height method, IVideoWindow.put_Height, IVideoWindow::put_Height, IVideoWindowput_Height, control/IVideoWindow::put_Height, dshow.ivideowindow_put_height, put_Height, put_Height method [DirectShow], put_Height method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IVideoWindow::put_Height method
+# IVideoWindow::put_Height
 
 
 ## -description

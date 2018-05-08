@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.GetFileScreenException
-title: IFsrmFileScreenManager::GetFileScreenException method
+title: IFsrmFileScreenManager::GetFileScreenException
 author: windows-driver-content
 description: Retrieves the specified file screen exception.
 old-location: fsrm\ifsrmfilescreenmanager_getfilescreenexception.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 634c54b0-2766-4248-8a27-506eaa3d6a68
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmFileScreenManager class [File Server Resource Manager], GetFileScreenException method, GetFileScreenException method [File Server Resource Manager], GetFileScreenException method [File Server Resource Manager], FsrmFileScreenManager class, GetFileScreenException method [File Server Resource Manager], IFsrmFileScreenManager interface, GetFileScreenException,IFsrmFileScreenManager.GetFileScreenException, IFsrmFileScreenManager, IFsrmFileScreenManager interface [File Server Resource Manager], GetFileScreenException method, IFsrmFileScreenManager::GetFileScreenException, fs.ifsrmfilescreenmanager_getfilescreenexception, fsrm.ifsrmfilescreenmanager_getfilescreenexception, fsrmscreen/IFsrmFileScreenManager::GetFileScreenException
+ms.keywords: FsrmFileScreenManager class [File Server Resource Manager],GetFileScreenException method, GetFileScreenException, GetFileScreenException method [File Server Resource Manager], GetFileScreenException method [File Server Resource Manager],FsrmFileScreenManager class, GetFileScreenException method [File Server Resource Manager],IFsrmFileScreenManager interface, IFsrmFileScreenManager interface [File Server Resource Manager],GetFileScreenException method, IFsrmFileScreenManager.GetFileScreenException, IFsrmFileScreenManager::GetFileScreenException, fs.ifsrmfilescreenmanager_getfilescreenexception, fsrm.ifsrmfilescreenmanager_getfilescreenexception, fsrmscreen/IFsrmFileScreenManager::GetFileScreenException
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenManager::GetFileScreenException method
+# IFsrmFileScreenManager::GetFileScreenException
 
 
 ## -description

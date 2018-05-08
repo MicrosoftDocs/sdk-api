@@ -7,8 +7,8 @@ old-location: wmp\iwmplibrarysharingservices.htm
 old-project: WMP
 ms.assetid: 24cac18c-a3aa-4cd0-b5f7-025db2eed0b8
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPLibrarySharingServices, IWMPLibrarySharingServices interface [Windows Media Player], IWMPLibrarySharingServices interface [Windows Media Player], described, IWMPLibrarySharingServicesInterface, wmp.iwmplibrarysharingservices, wmp/IWMPLibrarySharingServices
+ms.date: 5/4/2018
+ms.keywords: IWMPLibrarySharingServices, IWMPLibrarySharingServices interface [Windows Media Player], IWMPLibrarySharingServices interface [Windows Media Player],described, IWMPLibrarySharingServicesInterface, wmp.iwmplibrarysharingservices, wmp/IWMPLibrarySharingServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

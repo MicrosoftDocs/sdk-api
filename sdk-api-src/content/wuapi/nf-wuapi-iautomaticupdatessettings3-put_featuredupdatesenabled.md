@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings3.put_FeaturedUpdatesEnabled
-title: IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled method
+title: IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled
 author: windows-driver-content
 description: Not supported.
 old-location: wua\iautomaticupdatessettings3_featuredupdatesenabled.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 43f17feb-1a3b-4399-a26f-1a2d99442169
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FeaturedUpdatesEnabled property [Windows Update Agent], FeaturedUpdatesEnabled property [Windows Update Agent], IAutomaticUpdatesSettings3 interface, IAutomaticUpdatesSettings3, IAutomaticUpdatesSettings3 interface [Windows Update Agent], FeaturedUpdatesEnabled property, IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled, put_FeaturedUpdatesEnabled,IAutomaticUpdatesSettings3.put_FeaturedUpdatesEnabled, wua.iautomaticupdatessettings3_featuredupdatesenabled, wuapi/IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled, wuapi/IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled, wuapi/IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled
+ms.keywords: FeaturedUpdatesEnabled property [Windows Update Agent], FeaturedUpdatesEnabled property [Windows Update Agent],IAutomaticUpdatesSettings3 interface, IAutomaticUpdatesSettings3 interface [Windows Update Agent],FeaturedUpdatesEnabled property, IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3.put_FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled, put_FeaturedUpdatesEnabled, wua.iautomaticupdatessettings3_featuredupdatesenabled, wuapi/IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled, wuapi/IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled, wuapi/IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled method
+# IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled
 
 
 ## -description

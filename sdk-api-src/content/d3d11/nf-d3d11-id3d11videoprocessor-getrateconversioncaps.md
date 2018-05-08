@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessor.GetRateConversionCaps
-title: ID3D11VideoProcessor::GetRateConversionCaps method
+title: ID3D11VideoProcessor::GetRateConversionCaps
 author: windows-driver-content
 description: Gets the rate conversion capabilities of the video processor.
 old-location: mf\id3d11videoprocessor_getrateconversioncaps.htm
 old-project: medfound
 ms.assetid: CC1ED2C7-8277-4F2A-801D-7534CE383DAD
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetRateConversionCaps method [Media Foundation], GetRateConversionCaps method [Media Foundation], ID3D11VideoProcessor interface, GetRateConversionCaps,ID3D11VideoProcessor.GetRateConversionCaps, ID3D11VideoProcessor, ID3D11VideoProcessor interface [Media Foundation], GetRateConversionCaps method, ID3D11VideoProcessor::GetRateConversionCaps, d3d11/ID3D11VideoProcessor::GetRateConversionCaps, mf.id3d11videoprocessor_getrateconversioncaps
+ms.date: 5/3/2018
+ms.keywords: GetRateConversionCaps, GetRateConversionCaps method [Media Foundation], GetRateConversionCaps method [Media Foundation],ID3D11VideoProcessor interface, ID3D11VideoProcessor interface [Media Foundation],GetRateConversionCaps method, ID3D11VideoProcessor.GetRateConversionCaps, ID3D11VideoProcessor::GetRateConversionCaps, d3d11/ID3D11VideoProcessor::GetRateConversionCaps, mf.id3d11videoprocessor_getrateconversioncaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoProcessor::GetRateConversionCaps method
+# ID3D11VideoProcessor::GetRateConversionCaps
 
 
 ## -description

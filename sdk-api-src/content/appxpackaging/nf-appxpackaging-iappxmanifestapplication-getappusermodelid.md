@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestApplication.GetAppUserModelId
-title: IAppxManifestApplication::GetAppUserModelId method
+title: IAppxManifestApplication::GetAppUserModelId
 author: windows-driver-content
 description: Gets the application user model identifier.
 old-location: appxpkg\iappxmanifestapplication_getappusermodelid.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: A1CD62B4-A314-43B3-AD80-3EB3EDF63B3D
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetAppUserModelId method [App packaging and management], GetAppUserModelId method [App packaging and management], IAppxManifestApplication interface, GetAppUserModelId,IAppxManifestApplication.GetAppUserModelId, IAppxManifestApplication, IAppxManifestApplication interface [App packaging and management], GetAppUserModelId method, IAppxManifestApplication::GetAppUserModelId, appxpackaging/IAppxManifestApplication::GetAppUserModelId, appxpkg.iappxmanifestapplication_getappusermodelid
+ms.keywords: GetAppUserModelId, GetAppUserModelId method [App packaging and management], GetAppUserModelId method [App packaging and management],IAppxManifestApplication interface, IAppxManifestApplication interface [App packaging and management],GetAppUserModelId method, IAppxManifestApplication.GetAppUserModelId, IAppxManifestApplication::GetAppUserModelId, appxpackaging/IAppxManifestApplication::GetAppUserModelId, appxpkg.iappxmanifestapplication_getappusermodelid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestApplication::GetAppUserModelId method
+# IAppxManifestApplication::GetAppUserModelId
 
 
 ## -description

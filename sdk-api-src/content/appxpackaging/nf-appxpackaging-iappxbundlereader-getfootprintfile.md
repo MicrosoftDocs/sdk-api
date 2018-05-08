@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetFootprintFile
-title: IAppxBundleReader::GetFootprintFile method
+title: IAppxBundleReader::GetFootprintFile
 author: windows-driver-content
 description: Retrieves the specified type of footprint file from the bundle.
 old-location: appxpkg\iappxbundlereader_getfootprintfile.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: BD60CD3E-2C08-4B97-B311-00C0EEBEF752
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management], IAppxBundleReader interface, GetFootprintFile,IAppxBundleReader.GetFootprintFile, IAppxBundleReader, IAppxBundleReader interface [App packaging and management], GetFootprintFile method, IAppxBundleReader::GetFootprintFile, appxpackaging/IAppxBundleReader::GetFootprintFile, appxpkg.iappxbundlereader_getfootprintfile
+ms.keywords: GetFootprintFile, GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetFootprintFile method, IAppxBundleReader.GetFootprintFile, IAppxBundleReader::GetFootprintFile, appxpackaging/IAppxBundleReader::GetFootprintFile, appxpkg.iappxbundlereader_getfootprintfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleReader::GetFootprintFile method
+# IAppxBundleReader::GetFootprintFile
 
 
 ## -description

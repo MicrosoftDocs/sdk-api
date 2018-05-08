@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Clone
-title: IEnumTfRanges::Clone method
+title: IEnumTfRanges::Clone
 author: windows-driver-content
 description: IEnumTfRanges::Clone method
 old-location: tsf\ienumtfranges_clone.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5e51a747-0b77-4ba3-b03c-217a3f81a0aa
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Clone method [Text Services Framework], Clone method [Text Services Framework], IEnumTfRanges interface, Clone,IEnumTfRanges.Clone, IEnumTfRanges, IEnumTfRanges interface [Text Services Framework], Clone method, IEnumTfRanges::Clone, _tsf_ienumtfranges_clone_ref, msctf/IEnumTfRanges::Clone, tsf.ienumtfranges_clone
+ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfRanges interface, IEnumTfRanges interface [Text Services Framework],Clone method, IEnumTfRanges.Clone, IEnumTfRanges::Clone, _tsf_ienumtfranges_clone_ref, msctf/IEnumTfRanges::Clone, tsf.ienumtfranges_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfRanges::Clone method
+# IEnumTfRanges::Clone
 
 
 ## -description

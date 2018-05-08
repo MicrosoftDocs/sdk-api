@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accHelpTopic
-title: IAccessible::get_accHelpTopic method
+title: IAccessible::get_accHelpTopic
 author: windows-driver-content
 description: The IAccessible::get_accHelpTopic method retrieves the full path of the WinHelp file that is associated with the specified object; it also retrieves the identifier of the appropriate topic within that file.
 old-location: winauto\iaccessible_iaccessible__get_acchelptopic.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: a8f4ae56-6bd9-4615-a87d-a4de2f7632b1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], get_accHelpTopic method, IAccessible::get_accHelpTopic, _msaa_IAccessible_get_accHelpTopic, get_accHelpTopic method [Windows Accessibility], get_accHelpTopic method [Windows Accessibility], IAccessible interface, get_accHelpTopic,IAccessible.get_accHelpTopic, msaa.iaccessible_iaccessible__get_acchelptopic, oleacc/IAccessible::get_accHelpTopic, winauto.iaccessible_iaccessible__get_acchelptopic
+ms.keywords: IAccessible interface [Windows Accessibility],get_accHelpTopic method, IAccessible.get_accHelpTopic, IAccessible::get_accHelpTopic, _msaa_IAccessible_get_accHelpTopic, get_accHelpTopic, get_accHelpTopic method [Windows Accessibility], get_accHelpTopic method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acchelptopic, oleacc/IAccessible::get_accHelpTopic, winauto.iaccessible_iaccessible__get_acchelptopic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccessible::get_accHelpTopic method
+# IAccessible::get_accHelpTopic
 
 
 ## -description

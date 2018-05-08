@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.IMSCEPSetup.IsMSCEPStoreEmpty
-title: IMSCEPSetup::IsMSCEPStoreEmpty method
+title: IMSCEPSetup::IsMSCEPStoreEmpty
 author: windows-driver-content
 description: Always returns VARIANT_TRUE. It should not be used.
 old-location: security\imscepsetup_ismscepstoreempty.htm
 old-project: SecCrypto
 ms.assetid: 90ce2ea5-e531-4787-954a-cd4d09ba753e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], IsMSCEPStoreEmpty method, IMSCEPSetup::IsMSCEPStoreEmpty, IsMSCEPStoreEmpty method [Security], IsMSCEPStoreEmpty method [Security], IMSCEPSetup interface, IsMSCEPStoreEmpty,IMSCEPSetup.IsMSCEPStoreEmpty, casetup/IMSCEPSetup::IsMSCEPStoreEmpty, security.imscepsetup_ismscepstoreempty
+ms.date: 4/30/2018
+ms.keywords: IMSCEPSetup interface [Security],IsMSCEPStoreEmpty method, IMSCEPSetup.IsMSCEPStoreEmpty, IMSCEPSetup::IsMSCEPStoreEmpty, IsMSCEPStoreEmpty, IsMSCEPStoreEmpty method [Security], IsMSCEPStoreEmpty method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::IsMSCEPStoreEmpty, security.imscepsetup_ismscepstoreempty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# IMSCEPSetup::IsMSCEPStoreEmpty method
+# IMSCEPSetup::IsMSCEPStoreEmpty
 
 
 ## -description

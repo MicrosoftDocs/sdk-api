@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuner.get_SignalStrength
-title: ITuner::get_SignalStrength method
+title: ITuner::get_SignalStrength
 author: windows-driver-content
 description: The get_SignalStrength method retrieves the Network Provider-specific signal strength metric.
 old-location: mstv\ituner_get_signalstrength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3040f56b-2c60-43c8-81b8-5c3538db08db
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], get_SignalStrength method, ITuner::get_SignalStrength, ITunerget_SignalStrength, get_SignalStrength method [Microsoft TV Technologies], get_SignalStrength method [Microsoft TV Technologies], ITuner interface, get_SignalStrength,ITuner.get_SignalStrength, mstv.ituner_get_signalstrength, tuner/ITuner::get_SignalStrength
+ms.keywords: ITuner interface [Microsoft TV Technologies],get_SignalStrength method, ITuner.get_SignalStrength, ITuner::get_SignalStrength, ITunerget_SignalStrength, get_SignalStrength, get_SignalStrength method [Microsoft TV Technologies], get_SignalStrength method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_signalstrength, tuner/ITuner::get_SignalStrength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuner::get_SignalStrength method
+# ITuner::get_SignalStrength
 
 
 ## -description

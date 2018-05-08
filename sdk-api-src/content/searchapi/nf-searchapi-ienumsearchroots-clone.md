@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Clone
-title: IEnumSearchRoots::Clone method
+title: IEnumSearchRoots::Clone
 author: windows-driver-content
 description: Creates a copy of the IEnumSearchRoots object with the same contents and state as the current one.
 old-location: search\_search_IEnumSearchRoots_Clone.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\clone.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Clone method [search], Clone method [search], IEnumSearchRoots interface, Clone,IEnumSearchRoots.Clone, IEnumSearchRoots, IEnumSearchRoots interface [search], Clone method, IEnumSearchRoots::Clone, _search_IEnumSearchRoots_Clone, search._search_IEnumSearchRoots_Clone, searchapi/IEnumSearchRoots::Clone
+ms.date: 5/4/2018
+ms.keywords: Clone, Clone method [search], Clone method [search],IEnumSearchRoots interface, IEnumSearchRoots interface [search],Clone method, IEnumSearchRoots.Clone, IEnumSearchRoots::Clone, _search_IEnumSearchRoots_Clone, search._search_IEnumSearchRoots_Clone, searchapi/IEnumSearchRoots::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumSearchRoots::Clone method
+# IEnumSearchRoots::Clone
 
 
 ## -description

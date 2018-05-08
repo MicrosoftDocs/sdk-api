@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapLock.GetSize
-title: IWICBitmapLock::GetSize method
+title: IWICBitmapLock::GetSize
 author: windows-driver-content
 description: Retrieves the width and height, in pixels, of the locked rectangle.
 old-location: wic\_wic_codec_iwicbitmaplock_getsize.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 355e81ec-d08a-464e-9b4e-fa8828e30406
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetSize method [Windows Imaging Component], GetSize method [Windows Imaging Component], IWICBitmapLock interface, GetSize,IWICBitmapLock.GetSize, IWICBitmapLock, IWICBitmapLock interface [Windows Imaging Component], GetSize method, IWICBitmapLock::GetSize, _wic_codec_iwicbitmaplock_getsize, wic._wic_codec_iwicbitmaplock_getsize, wincodec/IWICBitmapLock::GetSize
+ms.keywords: GetSize, GetSize method [Windows Imaging Component], GetSize method [Windows Imaging Component],IWICBitmapLock interface, IWICBitmapLock interface [Windows Imaging Component],GetSize method, IWICBitmapLock.GetSize, IWICBitmapLock::GetSize, _wic_codec_iwicbitmaplock_getsize, wic._wic_codec_iwicbitmaplock_getsize, wincodec/IWICBitmapLock::GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapLock::GetSize method
+# IWICBitmapLock::GetSize
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCdromCollection.item
-title: IWMPCdromCollection::item method
+title: IWMPCdromCollection::item
 author: windows-driver-content
 description: The item method retrieves a pointer to an IWMPCdrom interface at the given index.
 old-location: wmp\iwmpcdromcollection_item.htm
 old-project: WMP
 ms.assetid: 4604e53d-914f-4888-99c7-64d0683ac2e0
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCdromCollection, IWMPCdromCollection interface [Windows Media Player], item method, IWMPCdromCollection::item, IWMPCdromCollectionitem, item method [Windows Media Player], item method [Windows Media Player], IWMPCdromCollection interface, item,IWMPCdromCollection.item, wmp.iwmpcdromcollection_item, wmp/IWMPCdromCollection::item
+ms.date: 5/4/2018
+ms.keywords: IWMPCdromCollection interface [Windows Media Player],item method, IWMPCdromCollection.item, IWMPCdromCollection::item, IWMPCdromCollectionitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPCdromCollection interface, wmp.iwmpcdromcollection_item, wmp/IWMPCdromCollection::item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCdromCollection::item method
+# IWMPCdromCollection::item
 
 
 ## -description

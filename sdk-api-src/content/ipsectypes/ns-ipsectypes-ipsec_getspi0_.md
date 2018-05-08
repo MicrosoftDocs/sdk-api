@@ -68,16 +68,16 @@ An <a href="https://msdn.microsoft.com/5be2da29-73d6-4381-8bde-3a3945ea7b5a">IPS
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a> value that indicates the IP version of the inbound IPsec traffic.
 
 
-### -field rngCryptoModuleID
-
-Not used. A <b>IPSEC_CRYPTO_MODULE_ID</b> is a <b>GUID</b> value.
-
-
-#### - inboundUdpEncapsulation
+### -field inboundUdpEncapsulation
 
 Optional <a href="https://msdn.microsoft.com/69cddec0-7311-4833-8b24-293ad714054e">IPSEC_V4_UDP_ENCAPSULATION0</a> structure that specifies the IPsec NAT Traversal (NATT) UDP encapsulation ports. 
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field rngCryptoModuleID
+
+Not used. A <b>IPSEC_CRYPTO_MODULE_ID</b> is a <b>GUID</b> value.
 
 
 ## -see-also

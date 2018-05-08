@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Pan
-title: IAMAudioInputMixer::put_Pan method
+title: IAMAudioInputMixer::put_Pan
 author: windows-driver-content
 description: The put_Pan method sets the pan level.
 old-location: dshow\iamaudioinputmixer_put_pan.htm
 old-project: DirectShow
 ms.assetid: eb0528e0-81d0-45a3-831a-8cf3ff1232b6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], put_Pan method, IAMAudioInputMixer::put_Pan, IAMAudioInputMixerput_Pan, dshow.iamaudioinputmixer_put_pan, put_Pan method [DirectShow], put_Pan method [DirectShow], IAMAudioInputMixer interface, put_Pan,IAMAudioInputMixer.put_Pan, strmif/IAMAudioInputMixer::put_Pan
+ms.date: 4/30/2018
+ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Pan method, IAMAudioInputMixer.put_Pan, IAMAudioInputMixer::put_Pan, IAMAudioInputMixerput_Pan, dshow.iamaudioinputmixer_put_pan, put_Pan, put_Pan method [DirectShow], put_Pan method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Pan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAudioInputMixer::put_Pan method
+# IAMAudioInputMixer::put_Pan
 
 
 ## -description

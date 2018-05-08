@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.Start
-title: IXAudio2SourceVoice::Start method
+title: IXAudio2SourceVoice::Start
 author: windows-driver-content
 description: Starts consumption and processing of audio by the voice. Delivers the result to any connected submix or mastering voices, or to the output device.
 old-location: xaudio2\ixaudio2sourcevoice_interface_start.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Start(UINT32,UINT32)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2SourceVoice, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs], Start method, IXAudio2SourceVoice::Start, Start method [XAudio2 Audio Mixing APIs], Start method [XAudio2 Audio Mixing APIs], IXAudio2SourceVoice interface, Start,IXAudio2SourceVoice.Start, xaudio2.ixaudio2sourcevoice_interface_start, xaudio2/IXAudio2SourceVoice::Start
+ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Start method, IXAudio2SourceVoice.Start, IXAudio2SourceVoice::Start, Start, Start method [XAudio2 Audio Mixing APIs], Start method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_start, xaudio2/IXAudio2SourceVoice::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2SourceVoice::Start method
+# IXAudio2SourceVoice::Start
 
 
 ## -description

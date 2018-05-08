@@ -7,7 +7,7 @@ old-location: iphlp\setipstatistics.htm
 old-project: IpHlp
 ms.assetid: d857ee04-38b8-4d98-a3e7-6ca8657ac9ed
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: SetIpStatistics, SetIpStatistics function [IP Helper], _iphlp_setipstatistics, iphlp.setipstatistics, iphlpapi/SetIpStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawColorControl.GetColorControls
-title: IDirectDrawColorControl::GetColorControls method
+title: IDirectDrawColorControl::GetColorControls
 author: windows-driver-content
 description: Retrieves the current color-control settings that are associated with an overlay or a primary surface.
 old-location: directdraw\idirectdrawcolorcontrol_getcolorcontrols.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 16ac7bef-e88c-47da-8db9-9e6258a381a0
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetColorControls method [DirectDraw], GetColorControls method [DirectDraw], IDirectDrawColorControl interface, GetColorControls,IDirectDrawColorControl.GetColorControls, IDirectDrawColorControl, IDirectDrawColorControl interface [DirectDraw], GetColorControls method, IDirectDrawColorControl::GetColorControls, ddraw/IDirectDrawColorControl::GetColorControls, directdraw.idirectdrawcolorcontrol_getcolorcontrols
+ms.keywords: GetColorControls, GetColorControls method [DirectDraw], GetColorControls method [DirectDraw],IDirectDrawColorControl interface, IDirectDrawColorControl interface [DirectDraw],GetColorControls method, IDirectDrawColorControl.GetColorControls, IDirectDrawColorControl::GetColorControls, ddraw/IDirectDrawColorControl::GetColorControls, directdraw.idirectdrawcolorcontrol_getcolorcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawColorControl::GetColorControls method
+# IDirectDrawColorControl::GetColorControls
 
 
 ## -description

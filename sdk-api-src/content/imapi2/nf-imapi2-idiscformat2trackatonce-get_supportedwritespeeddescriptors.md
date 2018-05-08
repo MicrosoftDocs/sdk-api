@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_SupportedWriteSpeedDescriptors
-title: IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors method
+title: IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors
 author: windows-driver-content
 description: Retrieves a list of the detailed write configurations supported by the disc recorder and current media.
 old-location: imapi\idiscformat2trackatonce_get_supportedwritespeeddescriptors.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: a0aefc38-c679-4492-becc-a8c8563ea948
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], get_SupportedWriteSpeedDescriptors method, IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors method [IMAPI], get_SupportedWriteSpeedDescriptors method [IMAPI], IDiscFormat2TrackAtOnce interface, get_SupportedWriteSpeedDescriptors,IDiscFormat2TrackAtOnce.get_SupportedWriteSpeedDescriptors, imapi.idiscformat2trackatonce_get_supportedwritespeeddescriptors, imapi2/IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors
+ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_SupportedWriteSpeedDescriptors method, IDiscFormat2TrackAtOnce.get_SupportedWriteSpeedDescriptors, IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors method [IMAPI], get_SupportedWriteSpeedDescriptors method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_supportedwritespeeddescriptors, imapi2/IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors method
+# IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors
 
 
 ## -description

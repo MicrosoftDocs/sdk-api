@@ -7,7 +7,7 @@ old-location: winprog\ntsetinformationkey.htm
 old-project: DevNotes
 ms.assetid: 74772ebf-684b-4579-a28a-9b80afb4ccf9
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: NtSetInformationKey, NtSetInformationKey function [Windows API], base.ntsetinformationkey, winprog.ntsetinformationkey, winternl/NtSetInformationKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

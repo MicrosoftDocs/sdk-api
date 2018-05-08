@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryTermExpansion
-title: ISearchQueryHelper::get_QueryTermExpansion method
+title: ISearchQueryHelper::get_QueryTermExpansion
 author: windows-driver-content
 description: Gets the value that specifies how query terms are to be expanded.
 old-location: search\_search_ISearchQueryHelper_get_QueryTermExpansion.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querytermexpansion.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchQueryHelper, ISearchQueryHelper interface [search], get_QueryTermExpansion method, ISearchQueryHelper::get_QueryTermExpansion, _search_ISearchQueryHelper_get_QueryTermExpansion, get_QueryTermExpansion method [search], get_QueryTermExpansion method [search], ISearchQueryHelper interface, get_QueryTermExpansion,ISearchQueryHelper.get_QueryTermExpansion, search._search_ISearchQueryHelper_get_QueryTermExpansion, searchapi/ISearchQueryHelper::get_QueryTermExpansion
+ms.date: 5/4/2018
+ms.keywords: ISearchQueryHelper interface [search],get_QueryTermExpansion method, ISearchQueryHelper.get_QueryTermExpansion, ISearchQueryHelper::get_QueryTermExpansion, _search_ISearchQueryHelper_get_QueryTermExpansion, get_QueryTermExpansion, get_QueryTermExpansion method [search], get_QueryTermExpansion method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryTermExpansion, searchapi/ISearchQueryHelper::get_QueryTermExpansion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchQueryHelper::get_QueryTermExpansion method
+# ISearchQueryHelper::get_QueryTermExpansion
 
 
 ## -description

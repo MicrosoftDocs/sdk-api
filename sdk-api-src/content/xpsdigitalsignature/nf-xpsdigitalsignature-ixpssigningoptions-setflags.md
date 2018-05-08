@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetFlags
-title: IXpsSigningOptions::SetFlags method
+title: IXpsSigningOptions::SetFlags
 author: windows-driver-content
 description: Sets the XPS_SIGN_FLAGS value that specifies the signing flags to use for this signature.
 old-location: xps\ixpssigningoptions_setflags.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 59467fd5-c462-4827-a4f8-e152df981ace
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], SetFlags method, IXpsSigningOptions::SetFlags, SetFlags method [XPS Documents and Packaging], SetFlags method [XPS Documents and Packaging], IXpsSigningOptions interface, SetFlags,IXpsSigningOptions.SetFlags, xps.ixpssigningoptions_setflags, xpsdigitalsignature/IXpsSigningOptions::SetFlags
+ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetFlags method, IXpsSigningOptions.SetFlags, IXpsSigningOptions::SetFlags, SetFlags, SetFlags method [XPS Documents and Packaging], SetFlags method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setflags, xpsdigitalsignature/IXpsSigningOptions::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSigningOptions::SetFlags method
+# IXpsSigningOptions::SetFlags
 
 
 ## -description

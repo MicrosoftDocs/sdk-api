@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetMaterial
-title: IDirect3DDevice9::SetMaterial method
+title: IDirect3DDevice9::SetMaterial
 author: windows-driver-content
 description: Sets the material properties for the device.
 old-location: direct3d9\idirect3ddevice9__setmaterial.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setmaterial.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetMaterial method, IDirect3DDevice9::SetMaterial, SetMaterial method [Direct3D 9], SetMaterial method [Direct3D 9], IDirect3DDevice9 interface, SetMaterial,IDirect3DDevice9.SetMaterial, a65e098b-14ec-df07-e795-b22f5ac8fcbd, d3d9helper/IDirect3DDevice9::SetMaterial, direct3d9.idirect3ddevice9__setmaterial
+ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetMaterial method, IDirect3DDevice9.SetMaterial, IDirect3DDevice9::SetMaterial, SetMaterial, SetMaterial method [Direct3D 9], SetMaterial method [Direct3D 9],IDirect3DDevice9 interface, a65e098b-14ec-df07-e795-b22f5ac8fcbd, d3d9helper/IDirect3DDevice9::SetMaterial, direct3d9.idirect3ddevice9__setmaterial
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::SetMaterial method
+# IDirect3DDevice9::SetMaterial
 
 
 ## -description

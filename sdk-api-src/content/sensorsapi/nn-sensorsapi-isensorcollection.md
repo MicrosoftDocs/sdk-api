@@ -8,7 +8,7 @@ old-project: SensorsAPI
 ms.assetid: 54d8572a-40a2-49d0-a8bf-2161b63eee42
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISensorCollection, ISensorCollection interface [WinSensors], ISensorCollection interface [WinSensors], described, sensorsapi/ISensorCollection, winsensors.isensorcollection
+ms.keywords: ISensorCollection, ISensorCollection interface [WinSensors], ISensorCollection interface [WinSensors],described, sensorsapi/ISensorCollection, winsensors.isensorcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

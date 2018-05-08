@@ -1,0 +1,6 @@
+# [Network Management](../_netmgmt/index.md)
+## [Lmapibuf.h](index.md)
+### [NetApiBufferAllocate function](../lmapibuf/nf-lmapibuf-netapibufferallocate.md)
+### [NetApiBufferFree function](../lmapibuf/nf-lmapibuf-netapibufferfree.md)
+### [NetApiBufferReallocate function](../lmapibuf/nf-lmapibuf-netapibufferreallocate.md)
+### [NetApiBufferSize function](../lmapibuf/nf-lmapibuf-netapibuffersize.md)

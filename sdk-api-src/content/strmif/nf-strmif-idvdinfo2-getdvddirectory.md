@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDDirectory
-title: IDvdInfo2::GetDVDDirectory method
+title: IDvdInfo2::GetDVDDirectory
 author: windows-driver-content
 description: The GetDVDDirectory method retrieves the root directory that is set in the DVD Navigator.
 old-location: dshow\idvdinfo2_getdvddirectory.htm
 old-project: DirectShow
 ms.assetid: fad4dd0a-4831-4460-9631-ed06b6647f2d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDVDDirectory method [DirectShow], GetDVDDirectory method [DirectShow], IDvdInfo2 interface, GetDVDDirectory,IDvdInfo2.GetDVDDirectory, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetDVDDirectory method, IDvdInfo2::GetDVDDirectory, IDvdInfo2GetDVDDirectory, dshow.idvdinfo2_getdvddirectory, strmif/IDvdInfo2::GetDVDDirectory
+ms.date: 4/30/2018
+ms.keywords: GetDVDDirectory, GetDVDDirectory method [DirectShow], GetDVDDirectory method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDDirectory method, IDvdInfo2.GetDVDDirectory, IDvdInfo2::GetDVDDirectory, IDvdInfo2GetDVDDirectory, dshow.idvdinfo2_getdvddirectory, strmif/IDvdInfo2::GetDVDDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo2::GetDVDDirectory method
+# IDvdInfo2::GetDVDDirectory
 
 
 ## -description

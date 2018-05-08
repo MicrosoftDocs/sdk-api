@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutput1.GetDisplayModeList1
-title: IDXGIOutput1::GetDisplayModeList1 method
+title: IDXGIOutput1::GetDisplayModeList1
 author: windows-driver-content
 description: Gets the display modes that match the requested format and other input options.
 old-location: direct3ddxgi\idxgioutput1_getdisplaymodelist1.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 49522ED9-30AD-4F39-96D2-BB6677D72349
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetDisplayModeList1 method [DXGI], GetDisplayModeList1 method [DXGI], IDXGIOutput1 interface, GetDisplayModeList1,IDXGIOutput1.GetDisplayModeList1, IDXGIOutput1, IDXGIOutput1 interface [DXGI], GetDisplayModeList1 method, IDXGIOutput1::GetDisplayModeList1, direct3ddxgi.idxgioutput1_getdisplaymodelist1, dxgi1_2/IDXGIOutput1::GetDisplayModeList1
+ms.keywords: GetDisplayModeList1, GetDisplayModeList1 method [DXGI], GetDisplayModeList1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],GetDisplayModeList1 method, IDXGIOutput1.GetDisplayModeList1, IDXGIOutput1::GetDisplayModeList1, direct3ddxgi.idxgioutput1_getdisplaymodelist1, dxgi1_2/IDXGIOutput1::GetDisplayModeList1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput1::GetDisplayModeList1 method
+# IDXGIOutput1::GetDisplayModeList1
 
 
 ## -description

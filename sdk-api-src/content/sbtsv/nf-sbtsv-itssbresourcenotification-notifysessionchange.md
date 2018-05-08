@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifySessionChange
-title: ITsSbResourceNotification::NotifySessionChange method
+title: ITsSbResourceNotification::NotifySessionChange
 author: windows-driver-content
 description: Notifies registered plug-ins about state changes in a session object.
 old-location: termserv\itssbresourcenotification_notifysessionchange.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: c1efe806-a448-42d7-8bcd-bd763c00c732
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourceNotification, ITsSbResourceNotification interface [Remote Desktop Services], NotifySessionChange method, ITsSbResourceNotification::NotifySessionChange, NotifySessionChange method [Remote Desktop Services], NotifySessionChange method [Remote Desktop Services], ITsSbResourceNotification interface, NotifySessionChange,ITsSbResourceNotification.NotifySessionChange, sbtsv/ITsSbResourceNotification::NotifySessionChange, termserv.itssbresourcenotification_notifysessionchange
+ms.keywords: ITsSbResourceNotification interface [Remote Desktop Services],NotifySessionChange method, ITsSbResourceNotification.NotifySessionChange, ITsSbResourceNotification::NotifySessionChange, NotifySessionChange, NotifySessionChange method [Remote Desktop Services], NotifySessionChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifySessionChange, termserv.itssbresourcenotification_notifysessionchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourceNotification::NotifySessionChange method
+# ITsSbResourceNotification::NotifySessionChange
 
 
 ## -description

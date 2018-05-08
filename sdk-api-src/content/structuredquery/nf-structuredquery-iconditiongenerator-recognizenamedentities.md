@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.RecognizeNamedEntities
-title: IConditionGenerator::RecognizeNamedEntities method
+title: IConditionGenerator::RecognizeNamedEntities
 author: windows-driver-content
 description: Identifies named entities in an input string, and creates a collection containing them.
 old-location: search\_search_IConditionGenerator_RecognizeNamedEntities.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\recognizenamedentities.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IConditionGenerator, IConditionGenerator interface [search], RecognizeNamedEntities method, IConditionGenerator::RecognizeNamedEntities, RecognizeNamedEntities method [search], RecognizeNamedEntities method [search], IConditionGenerator interface, RecognizeNamedEntities,IConditionGenerator.RecognizeNamedEntities, _search_IConditionGenerator_RecognizeNamedEntities, search._search_IConditionGenerator_RecognizeNamedEntities, structuredquery/IConditionGenerator::RecognizeNamedEntities
+ms.date: 5/4/2018
+ms.keywords: IConditionGenerator interface [search],RecognizeNamedEntities method, IConditionGenerator.RecognizeNamedEntities, IConditionGenerator::RecognizeNamedEntities, RecognizeNamedEntities, RecognizeNamedEntities method [search], RecognizeNamedEntities method [search],IConditionGenerator interface, _search_IConditionGenerator_RecognizeNamedEntities, search._search_IConditionGenerator_RecognizeNamedEntities, structuredquery/IConditionGenerator::RecognizeNamedEntities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IConditionGenerator::RecognizeNamedEntities method
+# IConditionGenerator::RecognizeNamedEntities
 
 
 ## -description

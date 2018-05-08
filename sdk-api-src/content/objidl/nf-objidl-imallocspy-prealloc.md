@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PreAlloc
-title: IMallocSpy::PreAlloc method
+title: IMallocSpy::PreAlloc
 author: windows-driver-content
 description: Performs operations required before calling IMalloc::Alloc.
 old-location: com\imallocspy_prealloc.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 43d8223b-a3fb-432c-ab4e-009d79ad8658
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMallocSpy, IMallocSpy interface [COM], PreAlloc method, IMallocSpy::PreAlloc, PreAlloc method [COM], PreAlloc method [COM], IMallocSpy interface, PreAlloc,IMallocSpy.PreAlloc, _com_imallocspy_prealloc, com.imallocspy_prealloc, objidl/IMallocSpy::PreAlloc
+ms.keywords: IMallocSpy interface [COM],PreAlloc method, IMallocSpy.PreAlloc, IMallocSpy::PreAlloc, PreAlloc, PreAlloc method [COM], PreAlloc method [COM],IMallocSpy interface, _com_imallocspy_prealloc, com.imallocspy_prealloc, objidl/IMallocSpy::PreAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMallocSpy::PreAlloc method
+# IMallocSpy::PreAlloc
 
 
 ## -description

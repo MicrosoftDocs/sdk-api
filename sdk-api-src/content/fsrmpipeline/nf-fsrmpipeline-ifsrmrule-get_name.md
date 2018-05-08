@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.get_Name
-title: IFsrmRule::get_Name method
+title: IFsrmRule::get_Name
 author: windows-driver-content
 description: The name of the rule.
 old-location: fsrm\ifsrmrule_name.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 1c4f99ca-5b53-42c3-a370-d9c350be6590
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmRule, IFsrmRule interface [File Server Resource Manager], Name property, IFsrmRule.Name, IFsrmRule::get_Name, IFsrmRule::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager], IFsrmRule interface, fs.ifsrmrule_name, fsrm.ifsrmrule_name, fsrmpipeline/IFsrmRule::Name, fsrmpipeline/IFsrmRule::get_Name, fsrmpipeline/IFsrmRule::put_Name, get_Name,IFsrmRule.get_Name
+ms.keywords: IFsrmRule interface [File Server Resource Manager],Name property, IFsrmRule.Name, IFsrmRule.get_Name, IFsrmRule::Name, IFsrmRule::get_Name, IFsrmRule::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_name, fsrm.ifsrmrule_name, fsrmpipeline/IFsrmRule::Name, fsrmpipeline/IFsrmRule::get_Name, fsrmpipeline/IFsrmRule::put_Name, get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmRule::get_Name method
+# IFsrmRule::get_Name
 
 
 ## -description

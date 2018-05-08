@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.GetReportJob
-title: IFsrmReportManager::GetReportJob method
+title: IFsrmReportManager::GetReportJob
 author: windows-driver-content
 description: Retrieves the specified report job.
 old-location: fsrm\ifsrmreportmanager_getreportjob.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 60a1387f-a25f-4026-a582-71981c26dd1b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmReportManager class [File Server Resource Manager], GetReportJob method, GetReportJob method [File Server Resource Manager], GetReportJob method [File Server Resource Manager], FsrmReportManager class, GetReportJob method [File Server Resource Manager], IFsrmReportManager interface, GetReportJob,IFsrmReportManager.GetReportJob, IFsrmReportManager, IFsrmReportManager interface [File Server Resource Manager], GetReportJob method, IFsrmReportManager::GetReportJob, fs.ifsrmreportmanager_getreportjob, fsrm.ifsrmreportmanager_getreportjob, fsrmreports/IFsrmReportManager::GetReportJob
+ms.keywords: FsrmReportManager class [File Server Resource Manager],GetReportJob method, GetReportJob, GetReportJob method [File Server Resource Manager], GetReportJob method [File Server Resource Manager],FsrmReportManager class, GetReportJob method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetReportJob method, IFsrmReportManager.GetReportJob, IFsrmReportManager::GetReportJob, fs.ifsrmreportmanager_getreportjob, fsrm.ifsrmreportmanager_getreportjob, fsrmreports/IFsrmReportManager::GetReportJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReportManager::GetReportJob method
+# IFsrmReportManager::GetReportJob
 
 
 ## -description

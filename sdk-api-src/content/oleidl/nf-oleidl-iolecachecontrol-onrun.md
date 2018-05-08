@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCacheControl.OnRun
-title: IOleCacheControl::OnRun method
+title: IOleCacheControl::OnRun
 author: windows-driver-content
 description: Notifies the cache that the data source object has entered the running state so that the cache object can establish advise sinks as needed.
 old-location: com\iolecachecontrol_onrun.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8d155c3f-115c-41fe-985f-ed60a565341f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleCacheControl, IOleCacheControl interface [COM], OnRun method, IOleCacheControl::OnRun, OnRun method [COM], OnRun method [COM], IOleCacheControl interface, OnRun,IOleCacheControl.OnRun, _ole_iolecachecontrol_onrun, com.iolecachecontrol_onrun, oleidl/IOleCacheControl::OnRun
+ms.keywords: IOleCacheControl interface [COM],OnRun method, IOleCacheControl.OnRun, IOleCacheControl::OnRun, OnRun, OnRun method [COM], OnRun method [COM],IOleCacheControl interface, _ole_iolecachecontrol_onrun, com.iolecachecontrol_onrun, oleidl/IOleCacheControl::OnRun
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleCacheControl::OnRun method
+# IOleCacheControl::OnRun
 
 
 ## -description

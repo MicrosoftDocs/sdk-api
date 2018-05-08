@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.GetCachedSelection
-title: IUIAutomationSelectionPattern::GetCachedSelection method
+title: IUIAutomationSelectionPattern::GetCachedSelection
 author: windows-driver-content
 description: Retrieves the cached selected elements in the container.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_GetCachedSelection.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: a0f2d198-78a9-4117-9a55-aa9042ef3f21
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCachedSelection method [Windows Accessibility], GetCachedSelection method [Windows Accessibility], IUIAutomationSelectionPattern interface, GetCachedSelection,IUIAutomationSelectionPattern.GetCachedSelection, IUIAutomationSelectionPattern, IUIAutomationSelectionPattern interface [Windows Accessibility], GetCachedSelection method, IUIAutomationSelectionPattern::GetCachedSelection, uiauto.uiauto_IUIAutomationSelectionPattern_GetCachedSelection, uiauto_IUIAutomationSelectionPattern_GetCachedSelection, uiautomationclient/IUIAutomationSelectionPattern::GetCachedSelection, winauto.uiauto_IUIAutomationSelectionPattern_GetCachedSelection
+ms.keywords: GetCachedSelection, GetCachedSelection method [Windows Accessibility], GetCachedSelection method [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],GetCachedSelection method, IUIAutomationSelectionPattern.GetCachedSelection, IUIAutomationSelectionPattern::GetCachedSelection, uiauto.uiauto_IUIAutomationSelectionPattern_GetCachedSelection, uiauto_IUIAutomationSelectionPattern_GetCachedSelection, uiautomationclient/IUIAutomationSelectionPattern::GetCachedSelection, winauto.uiauto_IUIAutomationSelectionPattern_GetCachedSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationSelectionPattern::GetCachedSelection method
+# IUIAutomationSelectionPattern::GetCachedSelection
 
 
 ## -description

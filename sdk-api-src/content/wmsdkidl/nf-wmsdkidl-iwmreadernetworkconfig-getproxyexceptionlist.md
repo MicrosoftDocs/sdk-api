@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxyExceptionList
-title: IWMReaderNetworkConfig::GetProxyExceptionList method
+title: IWMReaderNetworkConfig::GetProxyExceptionList
 author: windows-driver-content
 description: The GetProxyExceptionList method retrieves the list of computers, domains, or addresses for which the reader object bypasses the proxy server.
 old-location: wmformat\iwmreadernetworkconfig_getproxyexceptionlist.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 90cf6e58-8666-4bab-974e-a7e999aeddf1
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetProxyExceptionList method [windows Media Format], GetProxyExceptionList method [windows Media Format], IWMReaderNetworkConfig interface, GetProxyExceptionList,IWMReaderNetworkConfig.GetProxyExceptionList, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetProxyExceptionList method, IWMReaderNetworkConfig::GetProxyExceptionList, IWMReaderNetworkConfigGetProxyExceptionList, wmformat.iwmreadernetworkconfig_getproxyexceptionlist, wmsdkidl/IWMReaderNetworkConfig::GetProxyExceptionList
+ms.keywords: GetProxyExceptionList, GetProxyExceptionList method [windows Media Format], GetProxyExceptionList method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyExceptionList method, IWMReaderNetworkConfig.GetProxyExceptionList, IWMReaderNetworkConfig::GetProxyExceptionList, IWMReaderNetworkConfigGetProxyExceptionList, wmformat.iwmreadernetworkconfig_getproxyexceptionlist, wmsdkidl/IWMReaderNetworkConfig::GetProxyExceptionList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetProxyExceptionList method
+# IWMReaderNetworkConfig::GetProxyExceptionList
 
 
 ## -description

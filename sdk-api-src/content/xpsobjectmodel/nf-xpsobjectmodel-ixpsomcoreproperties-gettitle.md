@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetTitle
-title: IXpsOMCoreProperties::GetTitle method
+title: IXpsOMCoreProperties::GetTitle
 author: windows-driver-content
 description: Gets the title property.
 old-location: xps\ixpsomcoreproperties_gettitle.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 32551dd2-2d6e-4aaa-864b-4c922a90fc27
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetTitle method [XPS Documents and Packaging], GetTitle method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetTitle,IXpsOMCoreProperties.GetTitle, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetTitle method, IXpsOMCoreProperties::GetTitle, xps.ixpsomcoreproperties_gettitle, xpsobjectmodel/IXpsOMCoreProperties::GetTitle
+ms.keywords: GetTitle, GetTitle method [XPS Documents and Packaging], GetTitle method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetTitle method, IXpsOMCoreProperties.GetTitle, IXpsOMCoreProperties::GetTitle, xps.ixpsomcoreproperties_gettitle, xpsobjectmodel/IXpsOMCoreProperties::GetTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetTitle method
+# IXpsOMCoreProperties::GetTitle
 
 
 ## -description

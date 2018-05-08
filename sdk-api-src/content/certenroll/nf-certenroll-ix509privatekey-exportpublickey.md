@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.ExportPublicKey
-title: IX509PrivateKey::ExportPublicKey method
+title: IX509PrivateKey::ExportPublicKey
 author: windows-driver-content
 description: Exports the public key portion of the asymmetric key pair.
 old-location: security\ix509privatekey_exportpublickey_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 4ebcba09-1fea-4d21-8315-3570eaf6d42d
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ExportPublicKey method [Security], ExportPublicKey method [Security], IX509PrivateKey interface, ExportPublicKey,IX509PrivateKey.ExportPublicKey, IX509PrivateKey, IX509PrivateKey interface [Security], ExportPublicKey method, IX509PrivateKey::ExportPublicKey, certenroll/IX509PrivateKey::ExportPublicKey, security.ix509privatekey_exportpublickey_method
+ms.keywords: ExportPublicKey, ExportPublicKey method [Security], ExportPublicKey method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],ExportPublicKey method, IX509PrivateKey.ExportPublicKey, IX509PrivateKey::ExportPublicKey, certenroll/IX509PrivateKey::ExportPublicKey, security.ix509privatekey_exportpublickey_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PrivateKey::ExportPublicKey method
+# IX509PrivateKey::ExportPublicKey
 
 
 ## -description

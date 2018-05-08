@@ -7,8 +7,8 @@ old-location: wmp\iwmpcontentcontainer.htm
 old-project: WMP
 ms.assetid: 32a68af3-9270-4ac1-b133-a2770220dfcb
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPContentContainer, IWMPContentContainer interface [Windows Media Player], IWMPContentContainer interface [Windows Media Player], described, IWMPContentContainerInterface, contentpartner/IWMPContentContainer, wmp.iwmpcontentcontainer
+ms.date: 5/4/2018
+ms.keywords: IWMPContentContainer, IWMPContentContainer interface [Windows Media Player], IWMPContentContainer interface [Windows Media Player],described, IWMPContentContainerInterface, contentpartner/IWMPContentContainer, wmp.iwmpcontentcontainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

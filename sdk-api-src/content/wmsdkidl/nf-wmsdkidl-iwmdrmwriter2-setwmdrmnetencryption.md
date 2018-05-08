@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter2.SetWMDRMNetEncryption
-title: IWMDRMWriter2::SetWMDRMNetEncryption method
+title: IWMDRMWriter2::SetWMDRMNetEncryption
 author: windows-driver-content
 description: The SetWMDRMNetEncryption method configures the writer to receive input samples encoded with Windows Media DRM 10 for Network Devices.
 old-location: wmformat\iwmdrmwriter2_setwmdrmnetencryption.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ecbc7dda-de24-40ce-9c42-44a14ab63881
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMDRMWriter2, IWMDRMWriter2 interface [windows Media Format], SetWMDRMNetEncryption method, IWMDRMWriter2::SetWMDRMNetEncryption, IWMDRMWriter2SetWMDRMNetEncryption, SetWMDRMNetEncryption method [windows Media Format], SetWMDRMNetEncryption method [windows Media Format], IWMDRMWriter2 interface, SetWMDRMNetEncryption,IWMDRMWriter2.SetWMDRMNetEncryption, wmformat.iwmdrmwriter2_setwmdrmnetencryption, wmsdkidl/IWMDRMWriter2::SetWMDRMNetEncryption
+ms.keywords: IWMDRMWriter2 interface [windows Media Format],SetWMDRMNetEncryption method, IWMDRMWriter2.SetWMDRMNetEncryption, IWMDRMWriter2::SetWMDRMNetEncryption, IWMDRMWriter2SetWMDRMNetEncryption, SetWMDRMNetEncryption, SetWMDRMNetEncryption method [windows Media Format], SetWMDRMNetEncryption method [windows Media Format],IWMDRMWriter2 interface, wmformat.iwmdrmwriter2_setwmdrmnetencryption, wmsdkidl/IWMDRMWriter2::SetWMDRMNetEncryption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMWriter2::SetWMDRMNetEncryption method
+# IWMDRMWriter2::SetWMDRMNetEncryption
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: automat\varcycmpr8.htm
 old-project: automat
 ms.assetid: 391ace93-7f08-4fa3-a897-1f4012fe631b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarCyCmpR8, VarCyCmpR8 function [Automation], _oa96_VarCyCmpR8, automat.varcycmpr8, oleauto/VarCyCmpR8
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetAcHuffmanTable
-title: IWICJpegFrameDecode::GetAcHuffmanTable method
+title: IWICJpegFrameDecode::GetAcHuffmanTable
 author: windows-driver-content
 description: Retrieves a copy of the AC Huffman table for the specified scan and table.
 old-location: wic\iwicjpegframedecode_getachuffmantable.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 6063E147-70A4-46F8-940E-42DBD87A500F
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetAcHuffmanTable method [Windows Imaging Component], GetAcHuffmanTable method [Windows Imaging Component], IWICJpegFrameDecode interface, GetAcHuffmanTable,IWICJpegFrameDecode.GetAcHuffmanTable, IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], GetAcHuffmanTable method, IWICJpegFrameDecode::GetAcHuffmanTable, wic.iwicjpegframedecode_getachuffmantable, wincodec/IWICJpegFrameDecode::GetAcHuffmanTable
+ms.keywords: GetAcHuffmanTable, GetAcHuffmanTable method [Windows Imaging Component], GetAcHuffmanTable method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetAcHuffmanTable method, IWICJpegFrameDecode.GetAcHuffmanTable, IWICJpegFrameDecode::GetAcHuffmanTable, wic.iwicjpegframedecode_getachuffmantable, wincodec/IWICJpegFrameDecode::GetAcHuffmanTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICJpegFrameDecode::GetAcHuffmanTable method
+# IWICJpegFrameDecode::GetAcHuffmanTable
 
 
 ## -description

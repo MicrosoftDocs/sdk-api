@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetItalic
-title: ITextFont::SetItalic method
+title: ITextFont::SetItalic
 author: windows-driver-content
 description: Sets whether characters are in italics.
 old-location: controls\ITextFont_SetItalic.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setitalic.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetItalic method, ITextFont::SetItalic, SetItalic method [Windows Controls], SetItalic method [Windows Controls], ITextFont interface, SetItalic,ITextFont.SetItalic, _win32_ITextFont_SetItalic, _win32_ITextFont_SetItalic_cpp, controls.ITextFont_SetItalic, controls._win32_ITextFont_SetItalic, tom/ITextFont::SetItalic
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetItalic method, ITextFont.SetItalic, ITextFont::SetItalic, SetItalic, SetItalic method [Windows Controls], SetItalic method [Windows Controls],ITextFont interface, _win32_ITextFont_SetItalic, _win32_ITextFont_SetItalic_cpp, controls.ITextFont_SetItalic, controls._win32_ITextFont_SetItalic, tom/ITextFont::SetItalic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetItalic method
+# ITextFont::SetItalic
 
 
 ## -description

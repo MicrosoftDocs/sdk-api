@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFSample.AddBuffer
-title: IMFSample::AddBuffer method
+title: IMFSample::AddBuffer
 author: windows-driver-content
 description: Adds a buffer to the end of the list of buffers in the sample.
 old-location: mf\imfsample_addbuffer.htm
 old-project: medfound
 ms.assetid: 61c2a1dc-b9fe-4296-bf33-d54006cad32b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 61c2a1dc-b9fe-4296-bf33-d54006cad32b, AddBuffer method [Media Foundation], AddBuffer method [Media Foundation], IMFSample interface, AddBuffer,IMFSample.AddBuffer, IMFSample, IMFSample interface [Media Foundation], AddBuffer method, IMFSample::AddBuffer, mf.imfsample_addbuffer, mfobjects/IMFSample::AddBuffer
+ms.date: 5/3/2018
+ms.keywords: 61c2a1dc-b9fe-4296-bf33-d54006cad32b, AddBuffer, AddBuffer method [Media Foundation], AddBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],AddBuffer method, IMFSample.AddBuffer, IMFSample::AddBuffer, mf.imfsample_addbuffer, mfobjects/IMFSample::AddBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSample::AddBuffer method
+# IMFSample::AddBuffer
 
 
 ## -description

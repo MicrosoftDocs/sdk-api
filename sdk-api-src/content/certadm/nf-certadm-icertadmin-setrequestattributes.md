@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.ICertAdmin.SetRequestAttributes
-title: ICertAdmin::SetRequestAttributes method
+title: ICertAdmin::SetRequestAttributes
 author: windows-driver-content
 description: Sets attributes in the specified pending certificate request. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_setrequestattributes.htm
 old-project: SecCrypto
 ms.assetid: 309c53f9-50cf-4c50-bc48-a4f15a8ced18
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertAdmin interface [Security], SetRequestAttributes method, ICertAdmin, ICertAdmin interface [Security], SetRequestAttributes method, ICertAdmin2 interface [Security], SetRequestAttributes method, ICertAdmin2::SetRequestAttributes, ICertAdmin::SetRequestAttributes, SetRequestAttributes method [Security], SetRequestAttributes method [Security], CCertAdmin interface, SetRequestAttributes method [Security], ICertAdmin interface, SetRequestAttributes method [Security], ICertAdmin2 interface, SetRequestAttributes,ICertAdmin.SetRequestAttributes, certadm/ICertAdmin2::SetRequestAttributes, certadm/ICertAdmin::SetRequestAttributes, security.icertadmin2_setrequestattributes
+ms.date: 4/30/2018
+ms.keywords: CCertAdmin interface [Security],SetRequestAttributes method, ICertAdmin interface [Security],SetRequestAttributes method, ICertAdmin.SetRequestAttributes, ICertAdmin2 interface [Security],SetRequestAttributes method, ICertAdmin2::SetRequestAttributes, ICertAdmin::SetRequestAttributes, SetRequestAttributes, SetRequestAttributes method [Security], SetRequestAttributes method [Security],CCertAdmin interface, SetRequestAttributes method [Security],ICertAdmin interface, SetRequestAttributes method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetRequestAttributes, certadm/ICertAdmin::SetRequestAttributes, security.icertadmin2_setrequestattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# ICertAdmin::SetRequestAttributes method
+# ICertAdmin::SetRequestAttributes
 
 
 ## -description

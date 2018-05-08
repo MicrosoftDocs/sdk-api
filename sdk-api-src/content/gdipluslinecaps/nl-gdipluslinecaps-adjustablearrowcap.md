@@ -8,7 +8,7 @@ old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcap.htm
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: AdjustableArrowCap, AdjustableArrowCap class [GDI+], AdjustableArrowCap class [GDI+], described, _gdiplus_CLASS_AdjustableArrowCap_Class, gdiplus._gdiplus_CLASS_AdjustableArrowCap_Class, gdipluslinecaps/AdjustableArrowCap
+ms.keywords: AdjustableArrowCap, AdjustableArrowCap class [GDI+], AdjustableArrowCap class [GDI+],described, _gdiplus_CLASS_AdjustableArrowCap_Class, gdiplus._gdiplus_CLASS_AdjustableArrowCap_Class, gdipluslinecaps/AdjustableArrowCap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class
@@ -38,8 +38,8 @@ api_name:
 -	AdjustableArrowCap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 req.product: GDI+ 1.0
 ---

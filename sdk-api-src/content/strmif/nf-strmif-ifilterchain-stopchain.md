@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterChain.StopChain
-title: IFilterChain::StopChain method
+title: IFilterChain::StopChain
 author: windows-driver-content
 description: The StopChain method switches all the filters in a filter chain into a stopped state.
 old-location: dshow\ifilterchain_stopchain.htm
 old-project: DirectShow
 ms.assetid: 03821fdb-8374-4386-868b-9bf7b2d83562
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFilterChain, IFilterChain interface [DirectShow], StopChain method, IFilterChain::StopChain, IFilterChainStopChain, StopChain method [DirectShow], StopChain method [DirectShow], IFilterChain interface, StopChain,IFilterChain.StopChain, dshow.ifilterchain_stopchain, strmif/IFilterChain::StopChain
+ms.date: 4/30/2018
+ms.keywords: IFilterChain interface [DirectShow],StopChain method, IFilterChain.StopChain, IFilterChain::StopChain, IFilterChainStopChain, StopChain, StopChain method [DirectShow], StopChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_stopchain, strmif/IFilterChain::StopChain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterChain::StopChain method
+# IFilterChain::StopChain
 
 
 ## -description

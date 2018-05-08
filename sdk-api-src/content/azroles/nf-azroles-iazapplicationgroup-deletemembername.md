@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteMemberName
-title: IAzApplicationGroup::DeleteMemberName method
+title: IAzApplicationGroup::DeleteMemberName
 author: windows-driver-content
 description: Removes the specified account name from the list of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_deletemembername.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 3b3a8aee-b1ef-464a-9b67-80b703d41d69
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplicationGroup object [Security], DeleteMemberName method, DeleteMemberName method [Security], DeleteMemberName method [Security], AzApplicationGroup object, DeleteMemberName method [Security], IAzApplicationGroup interface, DeleteMemberName,IAzApplicationGroup.DeleteMemberName, IAzApplicationGroup, IAzApplicationGroup interface [Security], DeleteMemberName method, IAzApplicationGroup::DeleteMemberName, azroles/IAzApplicationGroup::DeleteMemberName, security.iazapplicationgroup_deletemembername
+ms.keywords: AzApplicationGroup object [Security],DeleteMemberName method, DeleteMemberName, DeleteMemberName method [Security], DeleteMemberName method [Security],AzApplicationGroup object, DeleteMemberName method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteMemberName method, IAzApplicationGroup.DeleteMemberName, IAzApplicationGroup::DeleteMemberName, azroles/IAzApplicationGroup::DeleteMemberName, security.iazapplicationgroup_deletemembername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplicationGroup::DeleteMemberName method
+# IAzApplicationGroup::DeleteMemberName
 
 
 ## -description

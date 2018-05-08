@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IEnumComponentTypes.Clone
-title: IEnumComponentTypes::Clone method
+title: IEnumComponentTypes::Clone
 author: windows-driver-content
 description: The Clone method creates a new copy of the collection and all its sub-objects.
 old-location: mstv\ienumcomponenttypes_clone.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 777c7302-5b5b-4263-ad9e-3d1bff5328fc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies], IEnumComponentTypes interface, Clone,IEnumComponentTypes.Clone, IEnumComponentTypes, IEnumComponentTypes interface [Microsoft TV Technologies], Clone method, IEnumComponentTypes::Clone, IEnumComponentTypesClone, mstv.ienumcomponenttypes_clone, tuner/IEnumComponentTypes::Clone
+ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumComponentTypes interface, IEnumComponentTypes interface [Microsoft TV Technologies],Clone method, IEnumComponentTypes.Clone, IEnumComponentTypes::Clone, IEnumComponentTypesClone, mstv.ienumcomponenttypes_clone, tuner/IEnumComponentTypes::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumComponentTypes::Clone method
+# IEnumComponentTypes::Clone
 
 
 ## -description

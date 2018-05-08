@@ -62,6 +62,13 @@ Represents the package version information.
  
 
 
+### -field DUMMYUNIONNAME.Version
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+
+The full version number of the package represented as a single integral value.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -93,13 +100,6 @@ The minor version number of the package.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">USHORT</a></b>
 
 The major version number of the package.
-
-
-#### - Version
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
-
-The full version number of the package represented as a single integral value.
 
 
 ## -see-also

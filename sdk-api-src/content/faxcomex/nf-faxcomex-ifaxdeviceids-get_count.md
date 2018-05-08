@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.get_Count
-title: IFaxDeviceIds::get_Count method
+title: IFaxDeviceIds::get_Count
 author: windows-driver-content
 description: The Count property represents the number of objects in the FaxDeviceIds collection. This is the total number of device IDs associated with the fax server.
 old-location: fax\_mfax_faxdeviceids_count_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5v1w.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service], FaxDeviceIds object, FaxDeviceIds object [Fax Service], Count property, IFaxDeviceIds, IFaxDeviceIds::get_Count, _mfax_faxdeviceids.count, fax._mfax_faxdeviceids_count, fax._mfax_faxdeviceids_count_vb, get_Count,IFaxDeviceIds.get_Count
+ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxDeviceIds object, FaxDeviceIds object [Fax Service],Count property, FaxDeviceIds.Count, IFaxDeviceIds.get_Count, IFaxDeviceIds::get_Count, _mfax_faxdeviceids.count, fax._mfax_faxdeviceids_count, fax._mfax_faxdeviceids_count_vb, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDeviceIds::get_Count method
+# IFaxDeviceIds::get_Count
 
 
 ## -description

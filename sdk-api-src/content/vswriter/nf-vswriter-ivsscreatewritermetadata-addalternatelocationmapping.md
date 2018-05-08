@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddAlternateLocationMapping
-title: IVssCreateWriterMetadata::AddAlternateLocationMapping method
+title: IVssCreateWriterMetadata::AddAlternateLocationMapping
 author: windows-driver-content
 description: The AddAlternateLocationMapping method creates an alternate location mapping for a file set.
 old-location: base\ivsscreatewritermetadata_addalternatelocationmapping.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 966c40d4-8c19-43cc-ba49-028763478f49
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: AddAlternateLocationMapping method [VSS], AddAlternateLocationMapping method [VSS], IVssCreateWriterMetadata interface, AddAlternateLocationMapping,IVssCreateWriterMetadata.AddAlternateLocationMapping, IVssCreateWriterMetadata, IVssCreateWriterMetadata interface [VSS], AddAlternateLocationMapping method, IVssCreateWriterMetadata::AddAlternateLocationMapping, _win32_ivsscreatewritermetadata_addalternatelocationmapping, base.ivsscreatewritermetadata_addalternatelocationmapping, vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping
+ms.keywords: AddAlternateLocationMapping, AddAlternateLocationMapping method [VSS], AddAlternateLocationMapping method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddAlternateLocationMapping method, IVssCreateWriterMetadata.AddAlternateLocationMapping, IVssCreateWriterMetadata::AddAlternateLocationMapping, _win32_ivsscreatewritermetadata_addalternatelocationmapping, base.ivsscreatewritermetadata_addalternatelocationmapping, vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssCreateWriterMetadata::AddAlternateLocationMapping method
+# IVssCreateWriterMetadata::AddAlternateLocationMapping
 
 
 ## -description

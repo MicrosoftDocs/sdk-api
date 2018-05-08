@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_SubscriberCLSID
-title: IEventSubscription::put_SubscriberCLSID method
+title: IEventSubscription::put_SubscriberCLSID
 author: windows-driver-content
 description: The CLSID of the subscriber component (for a persistent subscription).
 old-location: cos\ieventsubscription_subscriberclsid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 004f662c-8fcb-4490-897b-48bf5ea306c7
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventSubscription, IEventSubscription interface [COM+], SubscriberCLSID property, IEventSubscription.SubscriberCLSID, IEventSubscription::get_SubscriberCLSID, IEventSubscription::put_SubscriberCLSID, SubscriberCLSID property [COM+], SubscriberCLSID property [COM+], IEventSubscription interface, cos.ieventsubscription_subscriberclsid, eventsys/IEventSubscription::SubscriberCLSID, eventsys/IEventSubscription::get_SubscriberCLSID, eventsys/IEventSubscription::put_SubscriberCLSID, put_SubscriberCLSID,IEventSubscription.put_SubscriberCLSID
+ms.keywords: IEventSubscription interface [COM+],SubscriberCLSID property, IEventSubscription.SubscriberCLSID, IEventSubscription.put_SubscriberCLSID, IEventSubscription::SubscriberCLSID, IEventSubscription::get_SubscriberCLSID, IEventSubscription::put_SubscriberCLSID, SubscriberCLSID property [COM+], SubscriberCLSID property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriberclsid, eventsys/IEventSubscription::SubscriberCLSID, eventsys/IEventSubscription::get_SubscriberCLSID, eventsys/IEventSubscription::put_SubscriberCLSID, put_SubscriberCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::put_SubscriberCLSID method
+# IEventSubscription::put_SubscriberCLSID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PushRetrievalFilter
-title: ID3D12InfoQueue::PushRetrievalFilter method
+title: ID3D12InfoQueue::PushRetrievalFilter
 author: windows-driver-content
 description: Push a retrieval filter onto the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_pushretrievalfilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 4270B455-7112-4BCD-B8B9-D60B7FEADD9E
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12InfoQueue, ID3D12InfoQueue interface, PushRetrievalFilter method, ID3D12InfoQueue::PushRetrievalFilter, PushRetrievalFilter method, PushRetrievalFilter method, ID3D12InfoQueue interface, PushRetrievalFilter,ID3D12InfoQueue.PushRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::PushRetrievalFilter, direct3d12.id3d12infoqueue_pushretrievalfilter
+ms.keywords: ID3D12InfoQueue interface,PushRetrievalFilter method, ID3D12InfoQueue.PushRetrievalFilter, ID3D12InfoQueue::PushRetrievalFilter, PushRetrievalFilter, PushRetrievalFilter method, PushRetrievalFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushRetrievalFilter, direct3d12.id3d12infoqueue_pushretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::PushRetrievalFilter method
+# ID3D12InfoQueue::PushRetrievalFilter
 
 
 ## -description

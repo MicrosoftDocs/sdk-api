@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponent.get_Status
-title: IComponent::get_Status method
+title: IComponent::get_Status
 author: windows-driver-content
 description: The get_Status method retrieves the requested or actual status of the component.
 old-location: mstv\icomponent_get_status.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3f517db8-a207-472e-8c6c-7cb2cac91f62
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IComponent, IComponent interface [Microsoft TV Technologies], get_Status method, IComponent::get_Status, IComponentget_Status, get_Status method [Microsoft TV Technologies], get_Status method [Microsoft TV Technologies], IComponent interface, get_Status,IComponent.get_Status, mstv.icomponent_get_status, tuner/IComponent::get_Status
+ms.keywords: IComponent interface [Microsoft TV Technologies],get_Status method, IComponent.get_Status, IComponent::get_Status, IComponentget_Status, get_Status, get_Status method [Microsoft TV Technologies], get_Status method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_status, tuner/IComponent::get_Status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IComponent::get_Status method
+# IComponent::get_Status
 
 
 ## -description

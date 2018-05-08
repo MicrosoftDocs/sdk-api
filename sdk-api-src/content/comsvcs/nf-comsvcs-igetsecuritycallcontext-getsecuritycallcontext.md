@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetSecurityCallContext.GetSecurityCallContext
-title: IGetSecurityCallContext::GetSecurityCallContext method
+title: IGetSecurityCallContext::GetSecurityCallContext
 author: windows-driver-content
 description: Retrieves a reference to an object created from the SecurityCallContext class that is associated with the current call.
 old-location: cos\igetsecuritycallcontext_getsecuritycallcontext.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 6a386cf6-1f75-4915-8c89-e453c4ebdab8
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetSecurityCallContext method [COM+], GetSecurityCallContext method [COM+], IGetSecurityCallContext interface, GetSecurityCallContext,IGetSecurityCallContext.GetSecurityCallContext, IGetSecurityCallContext, IGetSecurityCallContext interface [COM+], GetSecurityCallContext method, IGetSecurityCallContext::GetSecurityCallContext, _cos_IGetSecurityCallContext_GetSecurityCallContext, comsvcs/IGetSecurityCallContext::GetSecurityCallContext, cos.igetsecuritycallcontext_getsecuritycallcontext
+ms.keywords: GetSecurityCallContext, GetSecurityCallContext method [COM+], GetSecurityCallContext method [COM+],IGetSecurityCallContext interface, IGetSecurityCallContext interface [COM+],GetSecurityCallContext method, IGetSecurityCallContext.GetSecurityCallContext, IGetSecurityCallContext::GetSecurityCallContext, _cos_IGetSecurityCallContext_GetSecurityCallContext, comsvcs/IGetSecurityCallContext::GetSecurityCallContext, cos.igetsecuritycallcontext_getsecuritycallcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetSecurityCallContext::GetSecurityCallContext method
+# IGetSecurityCallContext::GetSecurityCallContext
 
 
 ## -description

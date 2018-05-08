@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_StartingLba
-title: IRawCDImageTrackInfo::get_StartingLba method
+title: IRawCDImageTrackInfo::get_StartingLba
 author: windows-driver-content
 description: Retrieves the LBA of the first user sectors in this track.
 old-location: imapi\irawcdimagetrackinfo_get_startinglba.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 5e1d1404-c52d-4e27-970a-bc1b59995a87
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IRawCDImageTrackInfo, IRawCDImageTrackInfo interface [IMAPI], get_StartingLba method, IRawCDImageTrackInfo::get_StartingLba, get_StartingLba method [IMAPI], get_StartingLba method [IMAPI], IRawCDImageTrackInfo interface, get_StartingLba,IRawCDImageTrackInfo.get_StartingLba, imapi.irawcdimagetrackinfo_get_startinglba, imapi2/IRawCDImageTrackInfo::get_StartingLba
+ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_StartingLba method, IRawCDImageTrackInfo.get_StartingLba, IRawCDImageTrackInfo::get_StartingLba, get_StartingLba, get_StartingLba method [IMAPI], get_StartingLba method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_startinglba, imapi2/IRawCDImageTrackInfo::get_StartingLba
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRawCDImageTrackInfo::get_StartingLba method
+# IRawCDImageTrackInfo::get_StartingLba
 
 
 ## -description

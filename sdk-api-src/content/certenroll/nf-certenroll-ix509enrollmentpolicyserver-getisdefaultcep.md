@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetIsDefaultCEP
-title: IX509EnrollmentPolicyServer::GetIsDefaultCEP method
+title: IX509EnrollmentPolicyServer::GetIsDefaultCEP
 author: windows-driver-content
 description: Retrieves a Boolean value that specifies whether this is the default certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getisdefaultcep.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 9c84993b-5d08-45c1-8139-458b047028aa
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetIsDefaultCEP method [Security], GetIsDefaultCEP method [Security], IX509EnrollmentPolicyServer interface, GetIsDefaultCEP,IX509EnrollmentPolicyServer.GetIsDefaultCEP, IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], GetIsDefaultCEP method, IX509EnrollmentPolicyServer::GetIsDefaultCEP, certenroll/IX509EnrollmentPolicyServer::GetIsDefaultCEP, security.ix509enrollmentpolicyserver_getisdefaultcep
+ms.keywords: GetIsDefaultCEP, GetIsDefaultCEP method [Security], GetIsDefaultCEP method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetIsDefaultCEP method, IX509EnrollmentPolicyServer.GetIsDefaultCEP, IX509EnrollmentPolicyServer::GetIsDefaultCEP, certenroll/IX509EnrollmentPolicyServer::GetIsDefaultCEP, security.ix509enrollmentpolicyserver_getisdefaultcep
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509EnrollmentPolicyServer::GetIsDefaultCEP method
+# IX509EnrollmentPolicyServer::GetIsDefaultCEP
 
 
 ## -description

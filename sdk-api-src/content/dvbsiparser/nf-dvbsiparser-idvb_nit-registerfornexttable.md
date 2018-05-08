@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.RegisterForNextTable
-title: IDVB_NIT::RegisterForNextTable method
+title: IDVB_NIT::RegisterForNextTable
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_registerfornexttable.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f299cdcb-d0da-4e79-9f2d-c792bbb43313
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVB_NIT, IDVB_NIT interface [Microsoft TV Technologies], RegisterForNextTable method, IDVB_NIT::RegisterForNextTable, IDVB_NITRegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies], IDVB_NIT interface, RegisterForNextTable,IDVB_NIT.RegisterForNextTable, dvbsiparser/IDVB_NIT::RegisterForNextTable, mstv.idvb_nit_registerfornexttable
+ms.keywords: IDVB_NIT interface [Microsoft TV Technologies],RegisterForNextTable method, IDVB_NIT.RegisterForNextTable, IDVB_NIT::RegisterForNextTable, IDVB_NITRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IDVB_NIT interface, dvbsiparser/IDVB_NIT::RegisterForNextTable, mstv.idvb_nit_registerfornexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_NIT::RegisterForNextTable method
+# IDVB_NIT::RegisterForNextTable
 
 
 ## -description

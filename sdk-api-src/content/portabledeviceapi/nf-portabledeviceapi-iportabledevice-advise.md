@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Advise
-title: IPortableDevice::Advise method
+title: IPortableDevice::Advise
 author: windows-driver-content
 description: The Advise method registers an application-defined callback that receives device events.
 old-location: wpdsdk\iportabledevice_advise.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: bab28a19-7ba2-4edd-b5aa-c2017b4bf8ca
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Advise method [Windows Portable Devices SDK], Advise method [Windows Portable Devices SDK], IPortableDevice interface, Advise,IPortableDevice.Advise, IPortableDevice, IPortableDevice interface [Windows Portable Devices SDK], Advise method, IPortableDevice::Advise, IPortableDeviceAdvise, portabledeviceapi/IPortableDevice::Advise, wpdsdk.iportabledevice_advise
+ms.keywords: Advise, Advise method [Windows Portable Devices SDK], Advise method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Advise method, IPortableDevice.Advise, IPortableDevice::Advise, IPortableDeviceAdvise, portabledeviceapi/IPortableDevice::Advise, wpdsdk.iportabledevice_advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDevice::Advise method
+# IPortableDevice::Advise
 
 
 ## -description

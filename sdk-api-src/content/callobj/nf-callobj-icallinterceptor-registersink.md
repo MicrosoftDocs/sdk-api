@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallInterceptor.RegisterSink
-title: ICallInterceptor::RegisterSink method
+title: ICallInterceptor::RegisterSink
 author: windows-driver-content
 description: Registers an event sink for receiving notifications of method calls.
 old-location: com\icallinterceptor_registersink.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 07de2e42-0490-4801-8951-6e71ffb8ed93
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICallInterceptor, ICallInterceptor interface [COM], RegisterSink method, ICallInterceptor::RegisterSink, RegisterSink method [COM], RegisterSink method [COM], ICallInterceptor interface, RegisterSink,ICallInterceptor.RegisterSink, _com_icallinterceptor_registersink, callobj/ICallInterceptor::RegisterSink, com.icallinterceptor_registersink
+ms.keywords: ICallInterceptor interface [COM],RegisterSink method, ICallInterceptor.RegisterSink, ICallInterceptor::RegisterSink, RegisterSink, RegisterSink method [COM], RegisterSink method [COM],ICallInterceptor interface, _com_icallinterceptor_registersink, callobj/ICallInterceptor::RegisterSink, com.icallinterceptor_registersink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallInterceptor::RegisterSink method
+# ICallInterceptor::RegisterSink
 
 
 ## -description

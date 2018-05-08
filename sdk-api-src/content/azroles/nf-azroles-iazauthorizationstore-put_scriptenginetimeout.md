@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.put_ScriptEngineTimeout
-title: IAzAuthorizationStore::put_ScriptEngineTimeout method
+title: IAzAuthorizationStore::put_ScriptEngineTimeout
 author: windows-driver-content
 description: Sets or retrieves the time in milliseconds that the IAzClientContext::AccessCheck method will wait for a Business Rule (BizRule) to complete execution before canceling it.
 old-location: security\azauthorizationstore_scriptenginetimeout.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 7ac3db2d-11a6-4481-a86d-4b3a1063dee3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzAuthorizationStore object [Security], ScriptEngineTimeout property, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], ScriptEngineTimeout property, IAzAuthorizationStore.ScriptEngineTimeout, IAzAuthorizationStore::get_ScriptEngineTimeout, IAzAuthorizationStore::put_ScriptEngineTimeout, ScriptEngineTimeout property [Security], ScriptEngineTimeout property [Security], AzAuthorizationStore object, ScriptEngineTimeout property [Security], IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::ScriptEngineTimeout, azroles/IAzAuthorizationStore::get_ScriptEngineTimeout, azroles/IAzAuthorizationStore::put_ScriptEngineTimeout, put_ScriptEngineTimeout,IAzAuthorizationStore.put_ScriptEngineTimeout, security.azauthorizationstore_scriptenginetimeout
+ms.keywords: AzAuthorizationStore object [Security],ScriptEngineTimeout property, IAzAuthorizationStore interface [Security],ScriptEngineTimeout property, IAzAuthorizationStore.ScriptEngineTimeout, IAzAuthorizationStore.put_ScriptEngineTimeout, IAzAuthorizationStore::ScriptEngineTimeout, IAzAuthorizationStore::get_ScriptEngineTimeout, IAzAuthorizationStore::put_ScriptEngineTimeout, ScriptEngineTimeout property [Security], ScriptEngineTimeout property [Security],AzAuthorizationStore object, ScriptEngineTimeout property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::ScriptEngineTimeout, azroles/IAzAuthorizationStore::get_ScriptEngineTimeout, azroles/IAzAuthorizationStore::put_ScriptEngineTimeout, put_ScriptEngineTimeout, security.azauthorizationstore_scriptenginetimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::put_ScriptEngineTimeout method
+# IAzAuthorizationStore::put_ScriptEngineTimeout
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ContextInfo2.GetPartitionId
-title: ContextInfo2::GetPartitionId method
+title: ContextInfo2::GetPartitionId
 author: windows-driver-content
 description: Retrieves the GUID of the COM+ partition of the current object context.
 old-location: cos\contextinfo2_getpartitionid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: b4cda75d-a4f3-404e-965a-9c1487946ee1
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ContextInfo2, ContextInfo2 interface [COM+], GetPartitionId method, ContextInfo2::GetPartitionId, GetPartitionId method [COM+], GetPartitionId method [COM+], ContextInfo2 interface, GetPartitionId,ContextInfo2.GetPartitionId, _cos_ContextInfo2_GetPartitionId, comsvcs/ContextInfo2::GetPartitionId, cos.contextinfo2_getpartitionid
+ms.keywords: ContextInfo2 interface [COM+],GetPartitionId method, ContextInfo2.GetPartitionId, ContextInfo2::GetPartitionId, GetPartitionId, GetPartitionId method [COM+], GetPartitionId method [COM+],ContextInfo2 interface, _cos_ContextInfo2_GetPartitionId, comsvcs/ContextInfo2::GetPartitionId, cos.contextinfo2_getpartitionid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ContextInfo2::GetPartitionId method
+# ContextInfo2::GetPartitionId
 
 
 ## -description

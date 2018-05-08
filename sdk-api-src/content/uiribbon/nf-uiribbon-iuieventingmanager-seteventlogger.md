@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIEventingManager.SetEventLogger
-title: IUIEventingManager::SetEventLogger method
+title: IUIEventingManager::SetEventLogger
 author: windows-driver-content
 description: Sets the event logger for ribbon events.
 old-location: windowsribbon\iuieventingmanager_seteventlogger.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: C0228AB3-790A-469E-B185-06A26D02A96F
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], SetEventLogger method, IUIEventingManager::SetEventLogger, SetEventLogger method [Windows Ribbon], SetEventLogger method [Windows Ribbon], IUIEventingManager interface, SetEventLogger,IUIEventingManager.SetEventLogger, uiribbon/IUIEventingManager::SetEventLogger, windowsribbon.iuieventingmanager_seteventlogger
+ms.keywords: IUIEventingManager interface [Windows Ribbon],SetEventLogger method, IUIEventingManager.SetEventLogger, IUIEventingManager::SetEventLogger, SetEventLogger, SetEventLogger method [Windows Ribbon], SetEventLogger method [Windows Ribbon],IUIEventingManager interface, uiribbon/IUIEventingManager::SetEventLogger, windowsribbon.iuieventingmanager_seteventlogger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUIEventingManager::SetEventLogger method
+# IUIEventingManager::SetEventLogger
 
 
 ## -description

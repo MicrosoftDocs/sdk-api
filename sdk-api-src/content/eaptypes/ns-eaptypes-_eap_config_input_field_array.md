@@ -87,6 +87,16 @@ The version of the EAP credentials supplied by the user.
  The total number of elements in the array specified by  <b>pFields</b>.
 
 
+### -field pFields.size_is
+
+ 
+
+
+### -field pFields.size_is.dwNumberOfFields
+
+ 
+
+
 ### -field pFields
 
 Pointer to an array of <a href="https://msdn.microsoft.com/2b321f26-fb40-44e5-b483-52d85cb54c8c">EAP_CONFIG_INPUT_FIELD_DATA</a> structures that contain specific user input data obtained from an EAP configuration dialog box.

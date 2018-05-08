@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager2.UnregisterSessionNotification
-title: IAudioSessionManager2::UnregisterSessionNotification method
+title: IAudioSessionManager2::UnregisterSessionNotification
 author: windows-driver-content
 description: The UnregisterSessionNotification method deletes the registration to receive a notification when a session is created.
 old-location: coreaudio\iaudiosessionmanager2_unregistersessionnotification.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 0c334963-2b60-4eb1-b8a2-c9ed0d21bd5e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioSessionManager2, IAudioSessionManager2 interface [Core Audio], UnregisterSessionNotification method, IAudioSessionManager2::UnregisterSessionNotification, UnregisterSessionNotification method [Core Audio], UnregisterSessionNotification method [Core Audio], IAudioSessionManager2 interface, UnregisterSessionNotification,IAudioSessionManager2.UnregisterSessionNotification, audiopolicy/IAudioSessionManager2::UnregisterSessionNotification, coreaudio.iaudiosessionmanager2_unregistersessionnotification
+ms.keywords: IAudioSessionManager2 interface [Core Audio],UnregisterSessionNotification method, IAudioSessionManager2.UnregisterSessionNotification, IAudioSessionManager2::UnregisterSessionNotification, UnregisterSessionNotification, UnregisterSessionNotification method [Core Audio], UnregisterSessionNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::UnregisterSessionNotification, coreaudio.iaudiosessionmanager2_unregistersessionnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionManager2::UnregisterSessionNotification method
+# IAudioSessionManager2::UnregisterSessionNotification
 
 
 ## -description

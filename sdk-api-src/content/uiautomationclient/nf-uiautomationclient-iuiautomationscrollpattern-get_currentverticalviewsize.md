@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CurrentVerticalViewSize
-title: IUIAutomationScrollPattern::get_CurrentVerticalViewSize method
+title: IUIAutomationScrollPattern::get_CurrentVerticalViewSize
 author: windows-driver-content
 description: Retrieves the vertical size of the viewable region of a scrollable element.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7a87f617-fd98-497b-b7fd-8b2c901fe1eb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentVerticalViewSize property [Windows Accessibility], CurrentVerticalViewSize property [Windows Accessibility], IUIAutomationScrollPattern interface, IUIAutomationScrollPattern, IUIAutomationScrollPattern interface [Windows Accessibility], CurrentVerticalViewSize property, IUIAutomationScrollPattern.CurrentVerticalViewSize, IUIAutomationScrollPattern::get_CurrentVerticalViewSize, get_CurrentVerticalViewSize,IUIAutomationScrollPattern.get_CurrentVerticalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize, uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::CurrentVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CurrentVerticalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize
+ms.keywords: CurrentVerticalViewSize property [Windows Accessibility], CurrentVerticalViewSize property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentVerticalViewSize property, IUIAutomationScrollPattern.CurrentVerticalViewSize, IUIAutomationScrollPattern.get_CurrentVerticalViewSize, IUIAutomationScrollPattern::CurrentVerticalViewSize, IUIAutomationScrollPattern::get_CurrentVerticalViewSize, get_CurrentVerticalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize, uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::CurrentVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CurrentVerticalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationScrollPattern::get_CurrentVerticalViewSize method
+# IUIAutomationScrollPattern::get_CurrentVerticalViewSize
 
 
 ## -description

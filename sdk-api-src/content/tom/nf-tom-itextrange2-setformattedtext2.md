@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.SetFormattedText2
-title: ITextRange2::SetFormattedText2 method
+title: ITextRange2::SetFormattedText2
 author: windows-driver-content
 description: Sets the text of this range to the formatted text of the specified range.
 old-location: controls\itextrange2_setformattedtext2.htm
 old-project: Controls
 ms.assetid: 151be9ee-da5d-4e50-a12e-0473cf1c7d91
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange2, ITextRange2 interface [Windows Controls], SetFormattedText2 method, ITextRange2::SetFormattedText2, SetFormattedText2 method [Windows Controls], SetFormattedText2 method [Windows Controls], ITextRange2 interface, SetFormattedText2,ITextRange2.SetFormattedText2, controls.itextrange2_setformattedtext2, tom/ITextRange2::SetFormattedText2
+ms.date: 4/27/2018
+ms.keywords: ITextRange2 interface [Windows Controls],SetFormattedText2 method, ITextRange2.SetFormattedText2, ITextRange2::SetFormattedText2, SetFormattedText2, SetFormattedText2 method [Windows Controls], SetFormattedText2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_setformattedtext2, tom/ITextRange2::SetFormattedText2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::SetFormattedText2 method
+# ITextRange2::SetFormattedText2
 
 
 ## -description

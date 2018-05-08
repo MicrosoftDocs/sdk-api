@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.INamedPropertyStore.GetNamedValue
-title: INamedPropertyStore::GetNamedValue method
+title: INamedPropertyStore::GetNamedValue
 author: windows-driver-content
 description: Gets the value of a named property from the named property store.
 old-location: shell\INamedPropertyStore_GetNamedValue.htm
 old-project: shell
 ms.assetid: d62fcacd-7af5-4618-9b76-bebb001bb827
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetNamedValue method [Windows Shell], GetNamedValue method [Windows Shell], INamedPropertyStore interface, GetNamedValue,INamedPropertyStore.GetNamedValue, INamedPropertyStore, INamedPropertyStore interface [Windows Shell], GetNamedValue method, INamedPropertyStore::GetNamedValue, _shell_INamedPropertyStore_GetNamedValue, propsys/INamedPropertyStore::GetNamedValue, shell.INamedPropertyStore_GetNamedValue
+ms.date: 5/3/2018
+ms.keywords: GetNamedValue, GetNamedValue method [Windows Shell], GetNamedValue method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNamedValue method, INamedPropertyStore.GetNamedValue, INamedPropertyStore::GetNamedValue, _shell_INamedPropertyStore_GetNamedValue, propsys/INamedPropertyStore::GetNamedValue, shell.INamedPropertyStore_GetNamedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INamedPropertyStore::GetNamedValue method
+# INamedPropertyStore::GetNamedValue
 
 
 ## -description

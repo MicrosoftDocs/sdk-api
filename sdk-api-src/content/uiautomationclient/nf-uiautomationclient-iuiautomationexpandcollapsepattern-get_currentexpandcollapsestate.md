@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationExpandCollapsePattern.get_CurrentExpandCollapseState
-title: IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState method
+title: IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState
 author: windows-driver-content
 description: Retrieves a value that indicates the state, expanded or collapsed, of the element.
 old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: abd21a19-c7a0-44db-ad5b-64c476efa400
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentExpandCollapseState property [Windows Accessibility], CurrentExpandCollapseState property [Windows Accessibility], IUIAutomationExpandCollapsePattern interface, IUIAutomationExpandCollapsePattern, IUIAutomationExpandCollapsePattern interface [Windows Accessibility], CurrentExpandCollapseState property, IUIAutomationExpandCollapsePattern.CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState, get_CurrentExpandCollapseState,IUIAutomationExpandCollapsePattern.get_CurrentExpandCollapseState, uiauto.uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState, uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::CurrentExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState, winauto.uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState
+ms.keywords: CurrentExpandCollapseState property [Windows Accessibility], CurrentExpandCollapseState property [Windows Accessibility],IUIAutomationExpandCollapsePattern interface, IUIAutomationExpandCollapsePattern interface [Windows Accessibility],CurrentExpandCollapseState property, IUIAutomationExpandCollapsePattern.CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern.get_CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern::CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState, get_CurrentExpandCollapseState, uiauto.uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState, uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::CurrentExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState, winauto.uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState method
+# IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState
 
 
 ## -description

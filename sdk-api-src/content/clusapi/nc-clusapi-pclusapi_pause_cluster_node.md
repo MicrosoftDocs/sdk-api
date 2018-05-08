@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 23b4ff74-f72f-4227-9b69-ff36fa6ed55b
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE, PCLUSAPI_PAUSE_CLUSTER_NODE callback function [Failover Cluster], _wolf_pauseclusternode, clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE, mscs.pauseclusternode
+ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE, PCLUSAPI_PAUSE_CLUSTER_NODE callback, PCLUSAPI_PAUSE_CLUSTER_NODE callback function [Failover Cluster], _wolf_pauseclusternode, clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE, mscs.pauseclusternode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_PAUSE_CLUSTER_NODE callback
+# PCLUSAPI_PAUSE_CLUSTER_NODE callback function
 
 
 ## -description

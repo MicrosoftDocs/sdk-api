@@ -89,8 +89,7 @@ req.product: Windows Address Book 5.0
                 
 
 
-
-#### assertionValue
+### -field out.assertionValue
 
 When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR and if the specified assertion is found in the policy alternative, <b>assertionValue</b> returns the read-only content. Returned buffer should not be modified or freed. If not found, it is set to NULL. 
 

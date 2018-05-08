@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 0AF127E1-D517-4F4B-B797-40822B3B236F
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_GET_CLUSTER_NOTIFY_V2, PCLUSAPI_GET_CLUSTER_NOTIFY_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_GET_CLUSTER_NOTIFY_V2, mscs.getclusternotifyv2
+ms.keywords: PCLUSAPI_GET_CLUSTER_NOTIFY_V2, PCLUSAPI_GET_CLUSTER_NOTIFY_V2 callback, PCLUSAPI_GET_CLUSTER_NOTIFY_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_GET_CLUSTER_NOTIFY_V2, mscs.getclusternotifyv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_GET_CLUSTER_NOTIFY_V2 callback
+# PCLUSAPI_GET_CLUSTER_NOTIFY_V2 callback function
 
 
 ## -description

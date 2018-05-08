@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS
-title: IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS method
+title: IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
 author: windows-driver-content
 description: Registers the topology work queues with the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfworkqueueservices_beginregistertopologyworkqueueswithmmcss.htm
 old-project: medfound
 ms.assetid: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b, BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation], BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation], IMFWorkQueueServices interface, BeginRegisterTopologyWorkQueuesWithMMCSS,IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], BeginRegisterTopologyWorkQueuesWithMMCSS method, IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS, mf.imfworkqueueservices_beginregistertopologyworkqueueswithmmcss, mfidl/IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
+ms.date: 5/3/2018
+ms.keywords: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b, BeginRegisterTopologyWorkQueuesWithMMCSS, BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation], BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginRegisterTopologyWorkQueuesWithMMCSS method, IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS, IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS, mf.imfworkqueueservices_beginregistertopologyworkqueueswithmmcss, mfidl/IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS method
+# IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
 
 
 ## -description

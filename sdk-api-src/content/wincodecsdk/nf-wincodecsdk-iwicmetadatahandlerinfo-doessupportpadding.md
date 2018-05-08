@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.DoesSupportPadding
-title: IWICMetadataHandlerInfo::DoesSupportPadding method
+title: IWICMetadataHandlerInfo::DoesSupportPadding
 author: windows-driver-content
 description: Determines if the metadata handler supports padding.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_doessupportpadding.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 93f4e77a-52e3-47c7-9c48-9d38a2c8ceba
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: DoesSupportPadding method [Windows Imaging Component], DoesSupportPadding method [Windows Imaging Component], IWICMetadataHandlerInfo interface, DoesSupportPadding,IWICMetadataHandlerInfo.DoesSupportPadding, IWICMetadataHandlerInfo, IWICMetadataHandlerInfo interface [Windows Imaging Component], DoesSupportPadding method, IWICMetadataHandlerInfo::DoesSupportPadding, _wic_codec_iwicmetadatahandlerinfo_doessupportpadding, wic._wic_codec_iwicmetadatahandlerinfo_doessupportpadding, wincodecsdk/IWICMetadataHandlerInfo::DoesSupportPadding
+ms.keywords: DoesSupportPadding, DoesSupportPadding method [Windows Imaging Component], DoesSupportPadding method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],DoesSupportPadding method, IWICMetadataHandlerInfo.DoesSupportPadding, IWICMetadataHandlerInfo::DoesSupportPadding, _wic_codec_iwicmetadatahandlerinfo_doessupportpadding, wic._wic_codec_iwicmetadatahandlerinfo_doessupportpadding, wincodecsdk/IWICMetadataHandlerInfo::DoesSupportPadding
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataHandlerInfo::DoesSupportPadding method
+# IWICMetadataHandlerInfo::DoesSupportPadding
 
 
 ## -description

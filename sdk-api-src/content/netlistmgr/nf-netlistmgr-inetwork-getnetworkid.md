@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.GetNetworkId
-title: INetwork::GetNetworkId method
+title: INetwork::GetNetworkId
 author: windows-driver-content
 description: The GetNetworkId method returns the unique identifier of a network.
 old-location: nla\inetwork_getnetworkid.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: f2012295-d443-434f-8fe8-b6e38e7cac74
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetNetworkId method [Network Awareness], GetNetworkId method [Network Awareness], INetwork interface, GetNetworkId,INetwork.GetNetworkId, INetwork, INetwork interface [Network Awareness], GetNetworkId method, INetwork::GetNetworkId, netlistmgr/INetwork::GetNetworkId, nla.inetwork_getnetworkid
+ms.keywords: GetNetworkId, GetNetworkId method [Network Awareness], GetNetworkId method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetNetworkId method, INetwork.GetNetworkId, INetwork::GetNetworkId, netlistmgr/INetwork::GetNetworkId, nla.inetwork_getnetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetwork::GetNetworkId method
+# INetwork::GetNetworkId
 
 
 ## -description

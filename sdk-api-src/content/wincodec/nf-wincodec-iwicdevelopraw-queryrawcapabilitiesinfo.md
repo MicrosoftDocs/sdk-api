@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.QueryRawCapabilitiesInfo
-title: IWICDevelopRaw::QueryRawCapabilitiesInfo method
+title: IWICDevelopRaw::QueryRawCapabilitiesInfo
 author: windows-driver-content
 description: Retrieves information about which capabilities are supported for a raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: a16ada3c-34ae-47ce-9660-90e50d78802a
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], QueryRawCapabilitiesInfo method, IWICDevelopRaw::QueryRawCapabilitiesInfo, QueryRawCapabilitiesInfo method [Windows Imaging Component], QueryRawCapabilitiesInfo method [Windows Imaging Component], IWICDevelopRaw interface, QueryRawCapabilitiesInfo,IWICDevelopRaw.QueryRawCapabilitiesInfo, _wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo, wic._wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo, wincodec/IWICDevelopRaw::QueryRawCapabilitiesInfo
+ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],QueryRawCapabilitiesInfo method, IWICDevelopRaw.QueryRawCapabilitiesInfo, IWICDevelopRaw::QueryRawCapabilitiesInfo, QueryRawCapabilitiesInfo, QueryRawCapabilitiesInfo method [Windows Imaging Component], QueryRawCapabilitiesInfo method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo, wic._wic_codec_iwicdevelopraw_queryrawcapabilitiesinfo, wincodec/IWICDevelopRaw::QueryRawCapabilitiesInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::QueryRawCapabilitiesInfo method
+# IWICDevelopRaw::QueryRawCapabilitiesInfo
 
 
 ## -description

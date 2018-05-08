@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.DecryptBundle
-title: IAppxEncryptionFactory::DecryptBundle method
+title: IAppxEncryptionFactory::DecryptBundle
 author: windows-driver-content
 description: Creates an unencrypted Windows app bundle from an encrypted one.
 old-location: appxpkg\iappxencryptionfactory_decryptbundle.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: ED10EBD7-F942-4F1D-B2DC-0895022771BE
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: DecryptBundle method [App packaging and management], DecryptBundle method [App packaging and management], IAppxEncryptionFactory interface, DecryptBundle,IAppxEncryptionFactory.DecryptBundle, IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packaging and management], DecryptBundle method, IAppxEncryptionFactory::DecryptBundle, appxpackaging/IAppxEncryptionFactory::DecryptBundle, appxpkg.iappxencryptionfactory_decryptbundle
+ms.keywords: DecryptBundle, DecryptBundle method [App packaging and management], DecryptBundle method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],DecryptBundle method, IAppxEncryptionFactory.DecryptBundle, IAppxEncryptionFactory::DecryptBundle, appxpackaging/IAppxEncryptionFactory::DecryptBundle, appxpkg.iappxencryptionfactory_decryptbundle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxEncryptionFactory::DecryptBundle method
+# IAppxEncryptionFactory::DecryptBundle
 
 
 ## -description

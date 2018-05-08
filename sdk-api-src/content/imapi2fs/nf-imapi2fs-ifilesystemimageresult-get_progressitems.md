@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_ProgressItems
-title: IFileSystemImageResult::get_ProgressItems method
+title: IFileSystemImageResult::get_ProgressItems
 author: windows-driver-content
 description: Retrieves the progress item block mapping collection.
 old-location: imapi\ifilesystemimageresult_get_progressitems.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: c4ef572d-7e18-4537-847c-419441befe00
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImageResult, IFileSystemImageResult interface [IMAPI], get_ProgressItems method, IFileSystemImageResult::get_ProgressItems, get_ProgressItems method [IMAPI], get_ProgressItems method [IMAPI], IFileSystemImageResult interface, get_ProgressItems,IFileSystemImageResult.get_ProgressItems, imapi.ifilesystemimageresult_get_progressitems, imapi2fs/IFileSystemImageResult::get_ProgressItems
+ms.keywords: IFileSystemImageResult interface [IMAPI],get_ProgressItems method, IFileSystemImageResult.get_ProgressItems, IFileSystemImageResult::get_ProgressItems, get_ProgressItems, get_ProgressItems method [IMAPI], get_ProgressItems method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_progressitems, imapi2fs/IFileSystemImageResult::get_ProgressItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImageResult::get_ProgressItems method
+# IFileSystemImageResult::get_ProgressItems
 
 
 ## -description

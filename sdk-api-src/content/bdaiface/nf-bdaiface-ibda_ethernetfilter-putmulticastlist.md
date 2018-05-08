@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_EthernetFilter.PutMulticastList
-title: IBDA_EthernetFilter::PutMulticastList method
+title: IBDA_EthernetFilter::PutMulticastList
 author: windows-driver-content
 description: The PutMulticastList method sets the list of multicast addresses on the Network Provider.
 old-location: mstv\ibda_ethernetfilter_putmulticastlist.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0398dc58-07be-40cd-95af-62b29a191d3c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_EthernetFilter, IBDA_EthernetFilter interface [Microsoft TV Technologies], PutMulticastList method, IBDA_EthernetFilter::PutMulticastList, IBDA_EthernetFilterPutMulticastList, PutMulticastList method [Microsoft TV Technologies], PutMulticastList method [Microsoft TV Technologies], IBDA_EthernetFilter interface, PutMulticastList,IBDA_EthernetFilter.PutMulticastList, bdaiface/IBDA_EthernetFilter::PutMulticastList, mstv.ibda_ethernetfilter_putmulticastlist
+ms.keywords: IBDA_EthernetFilter interface [Microsoft TV Technologies],PutMulticastList method, IBDA_EthernetFilter.PutMulticastList, IBDA_EthernetFilter::PutMulticastList, IBDA_EthernetFilterPutMulticastList, PutMulticastList, PutMulticastList method [Microsoft TV Technologies], PutMulticastList method [Microsoft TV Technologies],IBDA_EthernetFilter interface, bdaiface/IBDA_EthernetFilter::PutMulticastList, mstv.ibda_ethernetfilter_putmulticastlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_EthernetFilter::PutMulticastList method
+# IBDA_EthernetFilter::PutMulticastList
 
 
 ## -description

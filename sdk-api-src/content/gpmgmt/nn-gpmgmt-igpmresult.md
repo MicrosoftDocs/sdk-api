@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 0228ed1a-3a8f-486a-9dd8-806ca35c649e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMResult, IGPMResult, IGPMResult interface [GPMC], IGPMResult interface [GPMC], described, _win32_igpmresult, gpmc.igpmresult, gpmgmt/IGPMResult
+ms.keywords: GPMResult, IGPMResult, IGPMResult interface [GPMC], IGPMResult interface [GPMC],described, _win32_igpmresult, gpmc.igpmresult, gpmgmt/IGPMResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

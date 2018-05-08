@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetDownloadProgress
-title: IWMReaderAdvanced2::GetDownloadProgress method
+title: IWMReaderAdvanced2::GetDownloadProgress
 author: windows-driver-content
 description: The GetDownloadProgress method retrieves the percentage and amount of data that has been downloaded, and the time remaining to completion.
 old-location: wmformat\iwmreaderadvanced2_getdownloadprogress.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 06bff83f-c3f2-4eca-85dd-7e7b93cfd73d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetDownloadProgress method [windows Media Format], GetDownloadProgress method [windows Media Format], IWMReaderAdvanced2 interface, GetDownloadProgress,IWMReaderAdvanced2.GetDownloadProgress, IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], GetDownloadProgress method, IWMReaderAdvanced2::GetDownloadProgress, IWMReaderAdvanced2GetDownloadProgress, wmformat.iwmreaderadvanced2_getdownloadprogress, wmsdkidl/IWMReaderAdvanced2::GetDownloadProgress
+ms.keywords: GetDownloadProgress, GetDownloadProgress method [windows Media Format], GetDownloadProgress method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetDownloadProgress method, IWMReaderAdvanced2.GetDownloadProgress, IWMReaderAdvanced2::GetDownloadProgress, IWMReaderAdvanced2GetDownloadProgress, wmformat.iwmreaderadvanced2_getdownloadprogress, wmsdkidl/IWMReaderAdvanced2::GetDownloadProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced2::GetDownloadProgress method
+# IWMReaderAdvanced2::GetDownloadProgress
 
 
 ## -description

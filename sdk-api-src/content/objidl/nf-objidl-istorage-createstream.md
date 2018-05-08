@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.CreateStream
-title: IStorage::CreateStream method
+title: IStorage::CreateStream
 author: windows-driver-content
 description: Creates and opens a stream object with the specified name contained in this storage object.
 old-location: stg\istorage_createstream.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 168f5ac9-8a72-4356-82a4-de3a7ec72c05
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CreateStream method [Structured Storage], CreateStream method [Structured Storage], IStorage interface, CreateStream,IStorage.CreateStream, IStorage, IStorage interface [Structured Storage], CreateStream method, IStorage::CreateStream, _stg_istorage_createstream, objidl/IStorage::CreateStream, stg.istorage_createstream
+ms.keywords: CreateStream, CreateStream method [Structured Storage], CreateStream method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],CreateStream method, IStorage.CreateStream, IStorage::CreateStream, _stg_istorage_createstream, objidl/IStorage::CreateStream, stg.istorage_createstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStorage::CreateStream method
+# IStorage::CreateStream
 
 
 ## -description

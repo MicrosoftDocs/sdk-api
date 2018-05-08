@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetValueRaw
-title: ISettingsItem::GetValueRaw method
+title: ISettingsItem::GetValueRaw
 author: windows-driver-content
 description: Gets the value from the current item as a byte array.
 old-location: smi\isettingsitem_getvalueraw.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 2b4b96df-1286-49be-869a-404adaead27a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetValueRaw method [SMI], GetValueRaw method [SMI], ISettingsItem interface, GetValueRaw,ISettingsItem.GetValueRaw, ISettingsItem, ISettingsItem interface [SMI], GetValueRaw method, ISettingsItem::GetValueRaw, smi.isettingsitem_getvalueraw, wcmconfig/ISettingsItem::GetValueRaw
+ms.keywords: GetValueRaw, GetValueRaw method [SMI], GetValueRaw method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetValueRaw method, ISettingsItem.GetValueRaw, ISettingsItem::GetValueRaw, smi.isettingsitem_getvalueraw, wcmconfig/ISettingsItem::GetValueRaw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsItem::GetValueRaw method
+# ISettingsItem::GetValueRaw
 
 
 ## -description

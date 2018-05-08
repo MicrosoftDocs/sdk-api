@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoCollection.Item
-title: IComTrackingInfoCollection::Item method
+title: IComTrackingInfoCollection::Item
 author: windows-driver-content
 description: Retrieves the specified interface from a specified member of a tracking information collection.
 old-location: cos\icomtrackinginfocollection_item.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 61da742b-d8cd-48db-a9b7-c754b8963907
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComTrackingInfoCollection, IComTrackingInfoCollection interface [COM+], Item method, IComTrackingInfoCollection::Item, Item method [COM+], Item method [COM+], IComTrackingInfoCollection interface, Item,IComTrackingInfoCollection.Item, _dtc_IComTrackingInfoCollection_Item, comsvcs/IComTrackingInfoCollection::Item, cos.icomtrackinginfocollection_item
+ms.keywords: IComTrackingInfoCollection interface [COM+],Item method, IComTrackingInfoCollection.Item, IComTrackingInfoCollection::Item, Item, Item method [COM+], Item method [COM+],IComTrackingInfoCollection interface, _dtc_IComTrackingInfoCollection_Item, comsvcs/IComTrackingInfoCollection::Item, cos.icomtrackinginfocollection_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComTrackingInfoCollection::Item method
+# IComTrackingInfoCollection::Item
 
 
 ## -description

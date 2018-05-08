@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 5942c856-f504-4e2d-86c8-f3207c787ed5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DoUpdateRoutes, DoUpdateRoutes callback function [RAS], PDO_UPDATE_ROUTES, _mpr_doupdateroutes, routprot/DoUpdateRoutes, rras.doupdateroutes
+ms.keywords: DoUpdateRoutes, DoUpdateRoutes callback function [RAS], PDO_UPDATE_ROUTES, PDO_UPDATE_ROUTES callback, _mpr_doupdateroutes, routprot/DoUpdateRoutes, rras.doupdateroutes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PDO_UPDATE_ROUTES callback
+# PDO_UPDATE_ROUTES callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: wmp\iwmplibraryservices.htm
 old-project: WMP
 ms.assetid: 9ed6d02e-15ca-425f-8642-e32a5adfaa55
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPLibraryServices, IWMPLibraryServices interface [Windows Media Player], IWMPLibraryServices interface [Windows Media Player], described, IWMPLibraryServicesInterface, wmp.iwmplibraryservices, wmp/IWMPLibraryServices
+ms.date: 5/4/2018
+ms.keywords: IWMPLibraryServices, IWMPLibraryServices interface [Windows Media Player], IWMPLibraryServices interface [Windows Media Player],described, IWMPLibraryServicesInterface, wmp.iwmplibraryservices, wmp/IWMPLibraryServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

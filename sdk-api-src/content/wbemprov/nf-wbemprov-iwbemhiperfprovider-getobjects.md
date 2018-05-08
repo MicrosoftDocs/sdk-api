@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.GetObjects
-title: IWbemHiPerfProvider::GetObjects method
+title: IWbemHiPerfProvider::GetObjects
 author: windows-driver-content
 description: Inserts the non-key properties of the objects in the supplied array.
 old-location: wmi\iwbemhiperfprovider_getobjects.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: ba56b029-95d4-4c79-8385-0a5adb9f7dcc
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetObjects method [Windows Management Instrumentation], GetObjects method [Windows Management Instrumentation], IWbemHiPerfProvider interface, GetObjects,IWbemHiPerfProvider.GetObjects, IWbemHiPerfProvider, IWbemHiPerfProvider interface [Windows Management Instrumentation], GetObjects method, IWbemHiPerfProvider::GetObjects, _hmm_iwbemhiperfprovider_getobjects, wbemprov/IWbemHiPerfProvider::GetObjects, wmi.iwbemhiperfprovider_getobjects
+ms.keywords: GetObjects, GetObjects method [Windows Management Instrumentation], GetObjects method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],GetObjects method, IWbemHiPerfProvider.GetObjects, IWbemHiPerfProvider::GetObjects, _hmm_iwbemhiperfprovider_getobjects, wbemprov/IWbemHiPerfProvider::GetObjects, wmi.iwbemhiperfprovider_getobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemHiPerfProvider::GetObjects method
+# IWbemHiPerfProvider::GetObjects
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:frquery.CFrameworkQuery.AllPropertiesAreRequired
-title: CFrameworkQuery::AllPropertiesAreRequired method
+title: CFrameworkQuery::AllPropertiesAreRequired
 author: windows-driver-content
 description: The AllPropertiesAreRequired method indicates whether all of the properties for the instance are requested.
 old-location: wmi\cframeworkquery_allpropertiesarerequired.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 5c17cae5-c68b-41a3-80ca-88d56be4ab74
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: AllPropertiesAreRequired method [Windows Management Instrumentation], AllPropertiesAreRequired method [Windows Management Instrumentation], CFrameworkQuery interface, AllPropertiesAreRequired,CFrameworkQuery.AllPropertiesAreRequired, CFrameworkQuery, CFrameworkQuery interface [Windows Management Instrumentation], AllPropertiesAreRequired method, CFrameworkQuery::AllPropertiesAreRequired, _hmm_cframeworkquery_allpropertiesarerequired, frquery/CFrameworkQuery::AllPropertiesAreRequired, wmi.cframeworkquery_allpropertiesarerequired
+ms.keywords: AllPropertiesAreRequired, AllPropertiesAreRequired method [Windows Management Instrumentation], AllPropertiesAreRequired method [Windows Management Instrumentation],CFrameworkQuery interface, CFrameworkQuery interface [Windows Management Instrumentation],AllPropertiesAreRequired method, CFrameworkQuery.AllPropertiesAreRequired, CFrameworkQuery::AllPropertiesAreRequired, _hmm_cframeworkquery_allpropertiesarerequired, frquery/CFrameworkQuery::AllPropertiesAreRequired, wmi.cframeworkquery_allpropertiesarerequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# CFrameworkQuery::AllPropertiesAreRequired method
+# CFrameworkQuery::AllPropertiesAreRequired
 
 
 ## -description

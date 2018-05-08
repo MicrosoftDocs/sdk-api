@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IQueryParser.GetSchemaProvider
-title: IQueryParser::GetSchemaProvider method
+title: IQueryParser::GetSchemaProvider
 author: windows-driver-content
 description: Retrieves a schema provider for browsing the currently loaded schema.
 old-location: search\_search_IQueryParser_GetSchemaProvider.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\getschemaprovider.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetSchemaProvider method [search], GetSchemaProvider method [search], IQueryParser interface, GetSchemaProvider,IQueryParser.GetSchemaProvider, IQueryParser, IQueryParser interface [search], GetSchemaProvider method, IQueryParser::GetSchemaProvider, _search_IQueryParser_GetSchemaProvider, search._search_IQueryParser_GetSchemaProvider, structuredquery/IQueryParser::GetSchemaProvider
+ms.date: 5/4/2018
+ms.keywords: GetSchemaProvider, GetSchemaProvider method [search], GetSchemaProvider method [search],IQueryParser interface, IQueryParser interface [search],GetSchemaProvider method, IQueryParser.GetSchemaProvider, IQueryParser::GetSchemaProvider, _search_IQueryParser_GetSchemaProvider, search._search_IQueryParser_GetSchemaProvider, structuredquery/IQueryParser::GetSchemaProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IQueryParser::GetSchemaProvider method
+# IQueryParser::GetSchemaProvider
 
 
 ## -description

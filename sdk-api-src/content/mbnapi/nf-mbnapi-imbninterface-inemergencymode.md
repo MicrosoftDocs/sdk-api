@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.InEmergencyMode
-title: IMbnInterface::InEmergencyMode method
+title: IMbnInterface::InEmergencyMode
 author: windows-driver-content
 description: Determines whether the device is in emergency mode.
 old-location: mbn\imbninterface_inemergencymode.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: b4ce2c10-627d-4cbe-a884-7bb8731c3bcf
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnInterface, IMbnInterface interface [Microsoft Broadband Networks], InEmergencyMode method, IMbnInterface::InEmergencyMode, InEmergencyMode method [Microsoft Broadband Networks], InEmergencyMode method [Microsoft Broadband Networks], IMbnInterface interface, InEmergencyMode,IMbnInterface.InEmergencyMode, mbn.imbninterface_inemergencymode, mbnapi/IMbnInterface::InEmergencyMode
+ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],InEmergencyMode method, IMbnInterface.InEmergencyMode, IMbnInterface::InEmergencyMode, InEmergencyMode, InEmergencyMode method [Microsoft Broadband Networks], InEmergencyMode method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_inemergencymode, mbnapi/IMbnInterface::InEmergencyMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnInterface::InEmergencyMode method
+# IMbnInterface::InEmergencyMode
 
 
 ## -description

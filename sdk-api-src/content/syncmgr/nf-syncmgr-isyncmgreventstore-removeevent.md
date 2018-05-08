@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventStore.RemoveEvent
-title: ISyncMgrEventStore::RemoveEvent method
+title: ISyncMgrEventStore::RemoveEvent
 author: windows-driver-content
 description: Removes events, as specified.
 old-location: shell\ISyncMgrEventStore_RemoveEvent.htm
 old-project: shell
 ms.assetid: 08d01b6f-1e1f-4f03-9595-f374805ae734
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrEventStore, ISyncMgrEventStore interface [Windows Shell], RemoveEvent method, ISyncMgrEventStore::RemoveEvent, RemoveEvent method [Windows Shell], RemoveEvent method [Windows Shell], ISyncMgrEventStore interface, RemoveEvent,ISyncMgrEventStore.RemoveEvent, _shell_ISyncMgrEventStore_RemoveEvent, shell.ISyncMgrEventStore_RemoveEvent, syncmgr/ISyncMgrEventStore::RemoveEvent
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrEventStore interface [Windows Shell],RemoveEvent method, ISyncMgrEventStore.RemoveEvent, ISyncMgrEventStore::RemoveEvent, RemoveEvent, RemoveEvent method [Windows Shell], RemoveEvent method [Windows Shell],ISyncMgrEventStore interface, _shell_ISyncMgrEventStore_RemoveEvent, shell.ISyncMgrEventStore_RemoveEvent, syncmgr/ISyncMgrEventStore::RemoveEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrEventStore::RemoveEvent method
+# ISyncMgrEventStore::RemoveEvent
 
 
 ## -description

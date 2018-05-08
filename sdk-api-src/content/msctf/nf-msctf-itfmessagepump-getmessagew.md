@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfMessagePump.GetMessageW
-title: ITfMessagePump::GetMessageW method
+title: ITfMessagePump::GetMessageW
 author: windows-driver-content
 description: ITfMessagePump::GetMessageW method
 old-location: tsf\itfmessagepump_getmessagew.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: e2283d04-f5b8-4b86-9fa5-517e46417b07
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetMessageW method [Text Services Framework], GetMessageW method [Text Services Framework], ITfMessagePump interface, GetMessageW,ITfMessagePump.GetMessageW, ITfMessagePump, ITfMessagePump interface [Text Services Framework], GetMessageW method, ITfMessagePump::GetMessageW, _tsf_itfmessagepump_getmessagew_ref, msctf/ITfMessagePump::GetMessageW, tsf.itfmessagepump_getmessagew
+ms.keywords: GetMessageW, GetMessageW method [Text Services Framework], GetMessageW method [Text Services Framework],ITfMessagePump interface, ITfMessagePump interface [Text Services Framework],GetMessageW method, ITfMessagePump.GetMessageW, ITfMessagePump::GetMessageW, _tsf_itfmessagepump_getmessagew_ref, msctf/ITfMessagePump::GetMessageW, tsf.itfmessagepump_getmessagew
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfMessagePump::GetMessageW method
+# ITfMessagePump::GetMessageW
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: security\icertexit.htm
 old-project: SecCrypto
 ms.assetid: 731c4f3c-20b4-4f3d-8241-a94cdf656fe5
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertExit, ICertExit interface [Security], ICertExit interface [Security], described, _certsrv_icertexit, certexit/ICertExit, security.icertexit
+ms.date: 4/30/2018
+ms.keywords: ICertExit, ICertExit interface [Security], ICertExit interface [Security],described, _certsrv_icertexit, certexit/ICertExit, security.icertexit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMCertifiedOutputProtection.ProtectionStatus
-title: IAMCertifiedOutputProtection::ProtectionStatus method
+title: IAMCertifiedOutputProtection::ProtectionStatus
 author: windows-driver-content
 description: The ProtectionStatus method sends a COPP status request to the graphics driver.
 old-location: dshow\iamcertifiedoutputprotection_protectionstatus.htm
 old-project: DirectShow
 ms.assetid: c93ebbcc-ce44-4d77-b088-7112ddaf41b2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMCertifiedOutputProtection, IAMCertifiedOutputProtection interface [DirectShow], ProtectionStatus method, IAMCertifiedOutputProtection::ProtectionStatus, IAMCertifiedOutputProtectionProtectionStatus, ProtectionStatus method [DirectShow], ProtectionStatus method [DirectShow], IAMCertifiedOutputProtection interface, ProtectionStatus,IAMCertifiedOutputProtection.ProtectionStatus, dshow.iamcertifiedoutputprotection_protectionstatus, strmif/IAMCertifiedOutputProtection::ProtectionStatus
+ms.date: 4/30/2018
+ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],ProtectionStatus method, IAMCertifiedOutputProtection.ProtectionStatus, IAMCertifiedOutputProtection::ProtectionStatus, IAMCertifiedOutputProtectionProtectionStatus, ProtectionStatus, ProtectionStatus method [DirectShow], ProtectionStatus method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_protectionstatus, strmif/IAMCertifiedOutputProtection::ProtectionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMCertifiedOutputProtection::ProtectionStatus method
+# IAMCertifiedOutputProtection::ProtectionStatus
 
 
 ## -description

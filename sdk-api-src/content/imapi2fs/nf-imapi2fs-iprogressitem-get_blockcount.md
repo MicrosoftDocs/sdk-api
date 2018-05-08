@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_BlockCount
-title: IProgressItem::get_BlockCount method
+title: IProgressItem::get_BlockCount
 author: windows-driver-content
 description: Retrieves the number of blocks in the progress item.
 old-location: imapi\iprogressitem_get_blockcount.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 6960fecb-f202-4a10-9abb-fc945217a314
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IProgressItem, IProgressItem interface [IMAPI], get_BlockCount method, IProgressItem::get_BlockCount, get_BlockCount method [IMAPI], get_BlockCount method [IMAPI], IProgressItem interface, get_BlockCount,IProgressItem.get_BlockCount, imapi.iprogressitem_get_blockcount, imapi2fs/IProgressItem::get_BlockCount
+ms.keywords: IProgressItem interface [IMAPI],get_BlockCount method, IProgressItem.get_BlockCount, IProgressItem::get_BlockCount, get_BlockCount, get_BlockCount method [IMAPI], get_BlockCount method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_blockcount, imapi2fs/IProgressItem::get_BlockCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IProgressItem::get_BlockCount method
+# IProgressItem::get_BlockCount
 
 
 ## -description

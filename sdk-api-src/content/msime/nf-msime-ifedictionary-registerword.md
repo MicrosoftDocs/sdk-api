@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.RegisterWord
-title: IFEDictionary::RegisterWord method
+title: IFEDictionary::RegisterWord
 author: windows-driver-content
 description: Registers a new word or deletes an existing word in the IFEDictionary.
 old-location: intl\ifedictionary_registerword.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: CD79FBF5-E540-4B5C-A398-B7FE95F86701
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFED_REG_DEL, IFED_REG_HEAD, IFED_REG_TAIL, IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], RegisterWord method, IFEDictionary::RegisterWord, RegisterWord method [Internationalization for Windows Applications], RegisterWord method [Internationalization for Windows Applications], IFEDictionary interface, RegisterWord,IFEDictionary.RegisterWord, intl.ifedictionary_registerword, msime/IFEDictionary::RegisterWord
+ms.keywords: IFED_REG_DEL, IFED_REG_HEAD, IFED_REG_TAIL, IFEDictionary interface [Internationalization for Windows Applications],RegisterWord method, IFEDictionary.RegisterWord, IFEDictionary::RegisterWord, RegisterWord, RegisterWord method [Internationalization for Windows Applications], RegisterWord method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_registerword, msime/IFEDictionary::RegisterWord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFEDictionary::RegisterWord method
+# IFEDictionary::RegisterWord
 
 
 ## -description

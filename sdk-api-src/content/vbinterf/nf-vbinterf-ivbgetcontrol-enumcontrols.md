@@ -1,6 +1,6 @@
 ---
 UID: NF:vbinterf.IVBGetControl.EnumControls
-title: IVBGetControl::EnumControls method
+title: IVBGetControl::EnumControls
 author: windows-driver-content
 description: Enumerates the controls on the form.
 old-location: com\ivbgetcontrol_enumcontrols.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 4ae01518-8762-4bce-ad9c-4dc2635e743d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: EnumControls method [COM], EnumControls method [COM], IVBGetControl interface, EnumControls,IVBGetControl.EnumControls, GCW_WCH_SIBLING, GC_WCH_ALL, GC_WCH_CONTAINED, GC_WCH_CONTAINER, GC_WCH_FONLYAFTER, GC_WCH_FONLYBEFORE, GC_WCH_FREVERSEDIR, GC_WCH_FSELECTED, IVBGetControl, IVBGetControl interface [COM], EnumControls method, IVBGetControl::EnumControls, OLECONTF_EMBEDDINGS, OLECONTF_LINKS, OLECONTF_ONLYIFRUNNING, OLECONTF_ONLYUSER, OLECONTF_OTHER, _com_IVBGetControl_EnumControls, com.ivbgetcontrol_enumcontrols, vbinterf/IVBGetControl::EnumControls
+ms.keywords: EnumControls, EnumControls method [COM], EnumControls method [COM],IVBGetControl interface, GCW_WCH_SIBLING, GC_WCH_ALL, GC_WCH_CONTAINED, GC_WCH_CONTAINER, GC_WCH_FONLYAFTER, GC_WCH_FONLYBEFORE, GC_WCH_FREVERSEDIR, GC_WCH_FSELECTED, IVBGetControl interface [COM],EnumControls method, IVBGetControl.EnumControls, IVBGetControl::EnumControls, OLECONTF_EMBEDDINGS, OLECONTF_LINKS, OLECONTF_ONLYIFRUNNING, OLECONTF_ONLYUSER, OLECONTF_OTHER, _com_IVBGetControl_EnumControls, com.ivbgetcontrol_enumcontrols, vbinterf/IVBGetControl::EnumControls
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVBGetControl::EnumControls method
+# IVBGetControl::EnumControls
 
 
 ## -description

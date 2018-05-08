@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 1bfbd405-860e-4888-8363-bbc678d1256a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_IS_DEFAULT_VALUE_CALLBACK, WS_IS_DEFAULT_VALUE_CALLBACK callback function [Web Services for Windows], webservices/WS_IS_DEFAULT_VALUE_CALLBACK, wsw.ws_is_default_value_callback
+ms.keywords: WS_IS_DEFAULT_VALUE_CALLBACK, WS_IS_DEFAULT_VALUE_CALLBACK callback, WS_IS_DEFAULT_VALUE_CALLBACK callback function [Web Services for Windows], webservices/WS_IS_DEFAULT_VALUE_CALLBACK, wsw.ws_is_default_value_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_IS_DEFAULT_VALUE_CALLBACK callback
+# WS_IS_DEFAULT_VALUE_CALLBACK callback function
 
 
 ## -description

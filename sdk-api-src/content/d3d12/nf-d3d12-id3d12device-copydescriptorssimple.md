@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CopyDescriptorsSimple
-title: ID3D12Device::CopyDescriptorsSimple method
+title: ID3D12Device::CopyDescriptorsSimple
 author: windows-driver-content
 description: Copies descriptors from a source to a destination.
 old-location: direct3d12\id3d12device_copydescriptorssimple.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 6DA1FCDA-042C-4727-9814-B8F57E14CD51
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CopyDescriptorsSimple method, CopyDescriptorsSimple method, ID3D12Device interface, CopyDescriptorsSimple,ID3D12Device.CopyDescriptorsSimple, ID3D12Device, ID3D12Device interface, CopyDescriptorsSimple method, ID3D12Device::CopyDescriptorsSimple, d3d12/ID3D12Device::CopyDescriptorsSimple, direct3d12.id3d12device_copydescriptorssimple
+ms.keywords: CopyDescriptorsSimple, CopyDescriptorsSimple method, CopyDescriptorsSimple method,ID3D12Device interface, ID3D12Device interface,CopyDescriptorsSimple method, ID3D12Device.CopyDescriptorsSimple, ID3D12Device::CopyDescriptorsSimple, d3d12/ID3D12Device::CopyDescriptorsSimple, direct3d12.id3d12device_copydescriptorssimple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CopyDescriptorsSimple method
+# ID3D12Device::CopyDescriptorsSimple
 
 
 ## -description

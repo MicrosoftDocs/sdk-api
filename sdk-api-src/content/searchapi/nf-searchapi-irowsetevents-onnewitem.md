@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnNewItem
-title: IRowsetEvents::OnNewItem method
+title: IRowsetEvents::OnNewItem
 author: windows-driver-content
 description: Called by the indexer to notify clients of a new item that may match some (or all) of the criteria for the client rowset.
 old-location: search\_search_IRowsetEvents_OnNewItem.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onnewitem.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IRowsetEvents, IRowsetEvents interface [search], OnNewItem method, IRowsetEvents::OnNewItem, OnNewItem method [search], OnNewItem method [search], IRowsetEvents interface, OnNewItem,IRowsetEvents.OnNewItem, _search_IRowsetEvents_OnNewItem, search._search_IRowsetEvents_OnNewItem, searchapi/IRowsetEvents::OnNewItem
+ms.date: 5/4/2018
+ms.keywords: IRowsetEvents interface [search],OnNewItem method, IRowsetEvents.OnNewItem, IRowsetEvents::OnNewItem, OnNewItem, OnNewItem method [search], OnNewItem method [search],IRowsetEvents interface, _search_IRowsetEvents_OnNewItem, search._search_IRowsetEvents_OnNewItem, searchapi/IRowsetEvents::OnNewItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRowsetEvents::OnNewItem method
+# IRowsetEvents::OnNewItem
 
 
 ## -description

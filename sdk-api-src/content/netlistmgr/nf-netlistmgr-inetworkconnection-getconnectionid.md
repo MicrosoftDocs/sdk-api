@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetConnectionId
-title: INetworkConnection::GetConnectionId method
+title: INetworkConnection::GetConnectionId
 author: windows-driver-content
 description: The GetConnectionID method returns the Connection ID associated with this network connection.
 old-location: nla\inetworkconnection_getconnectionid.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: c8619fd1-2764-4f20-a258-fb4368e448b7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetConnectionId method [Network Awareness], GetConnectionId method [Network Awareness], INetworkConnection interface, GetConnectionId,INetworkConnection.GetConnectionId, INetworkConnection, INetworkConnection interface [Network Awareness], GetConnectionId method, INetworkConnection::GetConnectionId, netlistmgr/INetworkConnection::GetConnectionId, nla.inetworkconnection_getconnectionid
+ms.keywords: GetConnectionId, GetConnectionId method [Network Awareness], GetConnectionId method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetConnectionId method, INetworkConnection.GetConnectionId, INetworkConnection::GetConnectionId, netlistmgr/INetworkConnection::GetConnectionId, nla.inetworkconnection_getconnectionid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkConnection::GetConnectionId method
+# INetworkConnection::GetConnectionId
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.put_PayloadSize
-title: IRDPSRAPITransportStreamBuffer::put_PayloadSize method
+title: IRDPSRAPITransportStreamBuffer::put_PayloadSize
 author: windows-driver-content
 description: The size, in bytes, of the content in the internal storage buffer.
 old-location: rdp\irdpsrapitransportstreambuffer_payloadsize.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: bb85af9e-71d2-46bb-8d14-5aa1571ab6b7
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer interface [RDP], PayloadSize property, IRDPSRAPITransportStreamBuffer.PayloadSize, IRDPSRAPITransportStreamBuffer::get_PayloadSize, IRDPSRAPITransportStreamBuffer::put_PayloadSize, PayloadSize property [RDP], PayloadSize property [RDP], IRDPSRAPITransportStreamBuffer interface, put_PayloadSize,IRDPSRAPITransportStreamBuffer.put_PayloadSize, rdp.irdpsrapitransportstreambuffer_payloadsize, rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_PayloadSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadSize
+ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],PayloadSize property, IRDPSRAPITransportStreamBuffer.PayloadSize, IRDPSRAPITransportStreamBuffer.put_PayloadSize, IRDPSRAPITransportStreamBuffer::PayloadSize, IRDPSRAPITransportStreamBuffer::get_PayloadSize, IRDPSRAPITransportStreamBuffer::put_PayloadSize, PayloadSize property [RDP], PayloadSize property [RDP],IRDPSRAPITransportStreamBuffer interface, put_PayloadSize, rdp.irdpsrapitransportstreambuffer_payloadsize, rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_PayloadSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITransportStreamBuffer::put_PayloadSize method
+# IRDPSRAPITransportStreamBuffer::put_PayloadSize
 
 
 ## -description

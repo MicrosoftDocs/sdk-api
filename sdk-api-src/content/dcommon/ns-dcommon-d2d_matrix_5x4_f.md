@@ -157,6 +157,9 @@ Describes a 5-by-4 floating point matrix.
  
 
 
+### -field m
+
+A 5-by-4 floating point array that describes the matrix.
 
 
 #### - _11, _12, _13, _14
@@ -182,11 +185,6 @@ The value in the fourth row  and first, second, third, and fourth columns of the
 #### - _51, _52, _53, _54
 
 The value in the fifth row  and first, second, third, and fourth columns of the matrix.
-
-
-#### - m
-
-A 5-by-4 floating point array that describes the matrix.
 
 
 ## -remarks

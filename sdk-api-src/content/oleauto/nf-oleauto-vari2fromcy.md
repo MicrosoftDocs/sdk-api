@@ -7,7 +7,7 @@ old-location: automat\vari2fromcy.htm
 old-project: automat
 ms.assetid: 37721ece-f02b-486a-a11d-289956294815
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarI2FromCy, VarI2FromCy function [Automation], _oa96_VarI2FromCy, automat.vari2fromcy, oleauto/VarI2FromCy
 ms.prod: windows-hardware
 ms.technology: windows-devices

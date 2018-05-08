@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentContainerList.GetContainer
-title: IWMPContentContainerList::GetContainer method
+title: IWMPContentContainerList::GetContainer
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetContainer method retrieves the content container at the specified index.
 old-location: wmp\iwmpcontentcontainerlist_getcontainer.htm
 old-project: WMP
 ms.assetid: 8922aeed-0598-4dc8-86ac-e113697fcea9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetContainer method [Windows Media Player], GetContainer method [Windows Media Player], IWMPContentContainerList interface, GetContainer,IWMPContentContainerList.GetContainer, IWMPContentContainerList, IWMPContentContainerList interface [Windows Media Player], GetContainer method, IWMPContentContainerList::GetContainer, IWMPContentContainerListGetContainer, contentpartner/IWMPContentContainerList::GetContainer, wmp.iwmpcontentcontainerlist_getcontainer
+ms.date: 5/4/2018
+ms.keywords: GetContainer, GetContainer method [Windows Media Player], GetContainer method [Windows Media Player],IWMPContentContainerList interface, IWMPContentContainerList interface [Windows Media Player],GetContainer method, IWMPContentContainerList.GetContainer, IWMPContentContainerList::GetContainer, IWMPContentContainerListGetContainer, contentpartner/IWMPContentContainerList::GetContainer, wmp.iwmpcontentcontainerlist_getcontainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentContainerList::GetContainer method
+# IWMPContentContainerList::GetContainer
 
 
 ## -description

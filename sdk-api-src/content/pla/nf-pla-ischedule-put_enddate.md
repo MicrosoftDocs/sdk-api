@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ISchedule.put_EndDate
-title: ISchedule::put_EndDate method
+title: ISchedule::put_EndDate
 author: windows-driver-content
 description: Retrieves or sets the last date that the schedule is valid.
 old-location: pla\ischedule_enddate.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 80a5c1a9-2d0a-4700-824b-1333b5c7c374
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EndDate property [PLA], EndDate property [PLA], ISchedule interface, ISchedule, ISchedule interface [PLA], EndDate property, ISchedule.EndDate, ISchedule::get_EndDate, ISchedule::put_EndDate, base.ischedule_enddate, pla.ischedule_enddate, pla/ISchedule::EndDate, pla/ISchedule::get_EndDate, pla/ISchedule::put_EndDate, put_EndDate,ISchedule.put_EndDate
+ms.keywords: EndDate property [PLA], EndDate property [PLA],ISchedule interface, ISchedule interface [PLA],EndDate property, ISchedule.EndDate, ISchedule.put_EndDate, ISchedule::EndDate, ISchedule::get_EndDate, ISchedule::put_EndDate, base.ischedule_enddate, pla.ischedule_enddate, pla/ISchedule::EndDate, pla/ISchedule::get_EndDate, pla/ISchedule::put_EndDate, put_EndDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISchedule::put_EndDate method
+# ISchedule::put_EndDate
 
 
 ## -description

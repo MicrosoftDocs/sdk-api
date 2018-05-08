@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.GetEvent
-title: IWSDAsyncResult::GetEvent method
+title: IWSDAsyncResult::GetEvent
 author: windows-driver-content
 description: Retrieves a WSD_EVENT structure that contains the result of the event.
 old-location: ncd\iwsdasyncresult_getevent_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: de201c8b-9052-42f9-b95d-3b65cf0c86a3
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetEvent method, GetEvent method, IWSDAsyncResult interface, GetEvent,IWSDAsyncResult.GetEvent, IWSDAsyncResult, IWSDAsyncResult interface, GetEvent method, IWSDAsyncResult::GetEvent, ncd.iwsdasyncresult_getevent_method, wsdclient/IWSDAsyncResult::GetEvent
+ms.keywords: GetEvent, GetEvent method, GetEvent method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetEvent method, IWSDAsyncResult.GetEvent, IWSDAsyncResult::GetEvent, ncd.iwsdasyncresult_getevent_method, wsdclient/IWSDAsyncResult::GetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDAsyncResult::GetEvent method
+# IWSDAsyncResult::GetEvent
 
 
 ## -description

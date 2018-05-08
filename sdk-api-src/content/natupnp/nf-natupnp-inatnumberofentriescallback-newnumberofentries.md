@@ -1,14 +1,14 @@
 ---
 UID: NF:natupnp.INATNumberOfEntriesCallback.NewNumberOfEntries
-title: INATNumberOfEntriesCallback::NewNumberOfEntries method
+title: INATNumberOfEntriesCallback::NewNumberOfEntries
 author: windows-driver-content
 description: The system calls the NewNumberOfEntries method if the total number of NAT port mappings changes.
 old-location: ics\inatnumberofentriescallback_newnumberofentries.htm
 old-project: ICS
 ms.assetid: 55998538-ddce-4a83-8d21-387f3c1f3b6a
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INATNumberOfEntriesCallback, INATNumberOfEntriesCallback interface [ICS/ICF], NewNumberOfEntries method, INATNumberOfEntriesCallback::NewNumberOfEntries, NewNumberOfEntries method [ICS/ICF], NewNumberOfEntries method [ICS/ICF], INATNumberOfEntriesCallback interface, NewNumberOfEntries,INATNumberOfEntriesCallback.NewNumberOfEntries, _ics_inatnumberofentriescallback_newnumberofentries, ics.inatnumberofentriescallback_newnumberofentries, natupnp/INATNumberOfEntriesCallback::NewNumberOfEntries
+ms.date: 5/1/2018
+ms.keywords: INATNumberOfEntriesCallback interface [ICS/ICF],NewNumberOfEntries method, INATNumberOfEntriesCallback.NewNumberOfEntries, INATNumberOfEntriesCallback::NewNumberOfEntries, NewNumberOfEntries, NewNumberOfEntries method [ICS/ICF], NewNumberOfEntries method [ICS/ICF],INATNumberOfEntriesCallback interface, _ics_inatnumberofentriescallback_newnumberofentries, ics.inatnumberofentriescallback_newnumberofentries, natupnp/INATNumberOfEntriesCallback::NewNumberOfEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INATNumberOfEntriesCallback::NewNumberOfEntries method
+# INATNumberOfEntriesCallback::NewNumberOfEntries
 
 
 ## -description

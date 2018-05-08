@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileItem.IsSparse
-title: IOfflineFilesFileItem::IsSparse method
+title: IOfflineFilesFileItem::IsSparse
 author: windows-driver-content
 description: Determines whether an item in the Offline Files cache is sparsely cached.
 old-location: of\iofflinefilesfileitem_issparse.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 6f731b25-f4f0-4635-af00-dbd1ba4e5f11
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesFileItem, IOfflineFilesFileItem interface [Offline Files], IsSparse method, IOfflineFilesFileItem::IsSparse, IsSparse method [Offline Files], IsSparse method [Offline Files], IOfflineFilesFileItem interface, IsSparse,IOfflineFilesFileItem.IsSparse, cscobj/IOfflineFilesFileItem::IsSparse, of.iofflinefilesfileitem_issparse
+ms.keywords: IOfflineFilesFileItem interface [Offline Files],IsSparse method, IOfflineFilesFileItem.IsSparse, IOfflineFilesFileItem::IsSparse, IsSparse, IsSparse method [Offline Files], IsSparse method [Offline Files],IOfflineFilesFileItem interface, cscobj/IOfflineFilesFileItem::IsSparse, of.iofflinefilesfileitem_issparse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesFileItem::IsSparse method
+# IOfflineFilesFileItem::IsSparse
 
 
 ## -description

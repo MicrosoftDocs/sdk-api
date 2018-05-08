@@ -1,0 +1,7 @@
+# [DirectShow](../_dshow/index.md)
+## [Dmoimpl.h](index.md)
+### [IMediaObjectImpl::CheckTypesSet](../dmoimpl/nf-dmoimpl-imediaobjectimpl-checktypesset.md)
+### [IMediaObjectImpl::InputType](../dmoimpl/nf-dmoimpl-imediaobjectimpl-inputtype.md)
+### [IMediaObjectImpl::InputTypeSet](../dmoimpl/nf-dmoimpl-imediaobjectimpl-inputtypeset.md)
+### [IMediaObjectImpl::OutputType](../dmoimpl/nf-dmoimpl-imediaobjectimpl-outputtype.md)
+### [IMediaObjectImpl::OutputTypeSet](../dmoimpl/nf-dmoimpl-imediaobjectimpl-outputtypeset.md)

@@ -7,8 +7,8 @@ old-location: automat\isupporterrorinfo.htm
 old-project: automat
 ms.assetid: 42d33066-36b4-4a5b-aa5d-46682e560f32
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ISupportedErrorInfo, ISupportedErrorInfo interface [Automation], ISupportedErrorInfo interface [Automation], described, _oa96_ISupportErrorInfo_Interface, automat.isupporterrorinfo, oaidl/ISupportErrorInfo
+ms.date: 5/4/2018
+ms.keywords: ISupportErrorInfo, ISupportedErrorInfo, ISupportedErrorInfo interface [Automation], ISupportedErrorInfo interface [Automation],described, _oa96_ISupportErrorInfo_Interface, automat.isupporterrorinfo, oaidl/ISupportErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,8 +38,8 @@ api_name:
 -	ISupportedErrorInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
 req.irql: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---

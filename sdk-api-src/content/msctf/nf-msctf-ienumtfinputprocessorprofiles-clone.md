@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Clone
-title: IEnumTfInputProcessorProfiles::Clone method
+title: IEnumTfInputProcessorProfiles::Clone
 author: windows-driver-content
 description: The IEnumTfInputProcessorProfiles::Clone method creates a copy of the enumerator object.
 old-location: tsf\ienumtfinputprocessorprofiles_clone.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 485c27ac-20da-4974-832c-8305d18b2c4b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Clone method [Text Services Framework], Clone method [Text Services Framework], IEnumTfInputProcessorProfiles interface, Clone,IEnumTfInputProcessorProfiles.Clone, IEnumTfInputProcessorProfiles, IEnumTfInputProcessorProfiles interface [Text Services Framework], Clone method, IEnumTfInputProcessorProfiles::Clone, msctf/IEnumTfInputProcessorProfiles::Clone, tsf.ienumtfinputprocessorprofiles_clone
+ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfInputProcessorProfiles interface, IEnumTfInputProcessorProfiles interface [Text Services Framework],Clone method, IEnumTfInputProcessorProfiles.Clone, IEnumTfInputProcessorProfiles::Clone, msctf/IEnumTfInputProcessorProfiles::Clone, tsf.ienumtfinputprocessorprofiles_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfInputProcessorProfiles::Clone method
+# IEnumTfInputProcessorProfiles::Clone
 
 
 ## -description

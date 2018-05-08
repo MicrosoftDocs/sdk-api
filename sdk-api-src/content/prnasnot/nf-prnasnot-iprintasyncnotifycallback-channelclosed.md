@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyCallback.ChannelClosed
-title: IPrintAsyncNotifyCallback::ChannelClosed method
+title: IPrintAsyncNotifyCallback::ChannelClosed
 author: windows-driver-content
 description: Advises one member of a communication channel to notify the other member that the channel is being closed.
 old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__channelclosed.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 245f4d86-a6b9-421a-add5-fb7afbbacb45
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: ChannelClosed method [Windows GDI], ChannelClosed method [Windows GDI], IPrintAsyncNotifyCallback interface, ChannelClosed,IPrintAsyncNotifyCallback.ChannelClosed, IPrintAsyncNotifyCallback, IPrintAsyncNotifyCallback interface [Windows GDI], ChannelClosed method, IPrintAsyncNotifyCallback::ChannelClosed, _win32_IPrintAsyncNotifyCallback_ChannelClosed, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__channelclosed, prnasnot/IPrintAsyncNotifyCallback::ChannelClosed
+ms.keywords: ChannelClosed, ChannelClosed method [Windows GDI], ChannelClosed method [Windows GDI],IPrintAsyncNotifyCallback interface, IPrintAsyncNotifyCallback interface [Windows GDI],ChannelClosed method, IPrintAsyncNotifyCallback.ChannelClosed, IPrintAsyncNotifyCallback::ChannelClosed, _win32_IPrintAsyncNotifyCallback_ChannelClosed, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__channelclosed, prnasnot/IPrintAsyncNotifyCallback::ChannelClosed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPrintAsyncNotifyCallback::ChannelClosed method
+# IPrintAsyncNotifyCallback::ChannelClosed
 
 
 ## -description

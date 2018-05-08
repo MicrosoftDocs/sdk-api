@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.GetTop
-title: ITfDocumentMgr::GetTop method
+title: ITfDocumentMgr::GetTop
 author: windows-driver-content
 description: ITfDocumentMgr::GetTop method
 old-location: tsf\itfdocumentmgr_gettop.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5be7635f-ec27-4892-9cfe-dba31e202510
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetTop method [Text Services Framework], GetTop method [Text Services Framework], ITfDocumentMgr interface, GetTop,ITfDocumentMgr.GetTop, ITfDocumentMgr, ITfDocumentMgr interface [Text Services Framework], GetTop method, ITfDocumentMgr::GetTop, _tsf_itfdocumentmgr_gettop_ref, msctf/ITfDocumentMgr::GetTop, tsf.itfdocumentmgr_gettop
+ms.keywords: GetTop, GetTop method [Text Services Framework], GetTop method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],GetTop method, ITfDocumentMgr.GetTop, ITfDocumentMgr::GetTop, _tsf_itfdocumentmgr_gettop_ref, msctf/ITfDocumentMgr::GetTop, tsf.itfdocumentmgr_gettop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfDocumentMgr::GetTop method
+# ITfDocumentMgr::GetTop
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetItem
-title: IMFAttributes::GetItem method
+title: IMFAttributes::GetItem
 author: windows-driver-content
 description: Retrieves the value associated with a key.
 old-location: mf\imfattributes_getitem.htm
 old-project: medfound
 ms.assetid: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d, GetItem method [Media Foundation], GetItem method [Media Foundation], IMFAttributes interface, GetItem,IMFAttributes.GetItem, IMFAttributes, IMFAttributes interface [Media Foundation], GetItem method, IMFAttributes::GetItem, mf.imfattributes_getitem, mfobjects/IMFAttributes::GetItem
+ms.date: 5/3/2018
+ms.keywords: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d, GetItem, GetItem method [Media Foundation], GetItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetItem method, IMFAttributes.GetItem, IMFAttributes::GetItem, mf.imfattributes_getitem, mfobjects/IMFAttributes::GetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAttributes::GetItem method
+# IMFAttributes::GetItem
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d279378b-2309-4d46-8fef-a00b3121c6c7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSink2, IMSVidStreamBufferSink2 interface [Microsoft TV Technologies], IMSVidStreamBufferSink2 interface [Microsoft TV Technologies], described, IMSVidStreamBufferSink2Interface, mstv.imsvidstreambuffersink2, segment/IMSVidStreamBufferSink2
+ms.keywords: IMSVidStreamBufferSink2, IMSVidStreamBufferSink2 interface [Microsoft TV Technologies], IMSVidStreamBufferSink2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSink2Interface, mstv.imsvidstreambuffersink2, segment/IMSVidStreamBufferSink2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

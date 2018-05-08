@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.Rotate
-title: IShellImageData::Rotate method
+title: IShellImageData::Rotate
 author: windows-driver-content
 description: Rotates an image in increments of 90 degrees.
 old-location: shell\IShellImageData_Rotate.htm
 old-project: shell
 ms.assetid: 42fd8596-e130-4029-bf3c-67199e8dd804
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], Rotate method, IShellImageData::Rotate, Rotate method [Windows Shell], Rotate method [Windows Shell], IShellImageData interface, Rotate,IShellImageData.Rotate, _shell_IShellImageData_Rotate, shell.IShellImageData_Rotate, shimgdata/IShellImageData::Rotate
+ms.date: 5/3/2018
+ms.keywords: IShellImageData interface [Windows Shell],Rotate method, IShellImageData.Rotate, IShellImageData::Rotate, Rotate, Rotate method [Windows Shell], Rotate method [Windows Shell],IShellImageData interface, _shell_IShellImageData_Rotate, shell.IShellImageData_Rotate, shimgdata/IShellImageData::Rotate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::Rotate method
+# IShellImageData::Rotate
 
 
 ## -description

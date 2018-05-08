@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetProperties
-title: IShellImageData::GetProperties method
+title: IShellImageData::GetProperties
 author: windows-driver-content
 description: Gets an IPropertySetStorage through which the properties of the image can be accessed.
 old-location: shell\IShellImageData_GetProperties.htm
 old-project: shell
 ms.assetid: 0fb59627-a31f-4c23-955f-3032c5814a5a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetProperties method [Windows Shell], GetProperties method [Windows Shell], IShellImageData interface, GetProperties,IShellImageData.GetProperties, IShellImageData, IShellImageData interface [Windows Shell], GetProperties method, IShellImageData::GetProperties, _shell_IShellImageData_GetProperties, shell.IShellImageData_GetProperties, shimgdata/IShellImageData::GetProperties
+ms.date: 5/3/2018
+ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetProperties method, IShellImageData.GetProperties, IShellImageData::GetProperties, _shell_IShellImageData_GetProperties, shell.IShellImageData_GetProperties, shimgdata/IShellImageData::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::GetProperties method
+# IShellImageData::GetProperties
 
 
 ## -description

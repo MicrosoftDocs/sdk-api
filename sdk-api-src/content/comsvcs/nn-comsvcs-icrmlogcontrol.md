@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 3309ed58-8161-46f3-93bc-afc0c9bc8d50
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICrmLogControl, ICrmLogControl interface [COM+], ICrmLogControl interface [COM+], described, _dtc_ICrmLogControl_Interface, comsvcs/ICrmLogControl, cos.icrmlogcontrol
+ms.keywords: ICrmLogControl, ICrmLogControl interface [COM+], ICrmLogControl interface [COM+],described, _dtc_ICrmLogControl_Interface, comsvcs/ICrmLogControl, cos.icrmlogcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

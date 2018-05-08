@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.GetData
-title: CHString::GetData method
+title: CHString::GetData
 author: windows-driver-content
 description: The GetData method to get the data from the CHString object.
 old-location: wmi\chstring_getdata.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: eb463c0d-8cb3-40b8-9c81-ce98c859068a
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHString, CHString interface [Windows Management Instrumentation], GetData method, CHString::GetData, GetData method [Windows Management Instrumentation], GetData method [Windows Management Instrumentation], CHString interface, GetData,CHString.GetData, chstring/CHString::GetData, wmi.chstring_getdata
+ms.keywords: CHString interface [Windows Management Instrumentation],GetData method, CHString.GetData, CHString::GetData, GetData, GetData method [Windows Management Instrumentation], GetData method [Windows Management Instrumentation],CHString interface, chstring/CHString::GetData, wmi.chstring_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::GetData method
+# CHString::GetData
 
 
 ## -description

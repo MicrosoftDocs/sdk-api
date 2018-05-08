@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetFieldDescriptorAt
-title: ICredentialProvider::GetFieldDescriptorAt method
+title: ICredentialProvider::GetFieldDescriptorAt
 author: windows-driver-content
 description: Gets metadata that describes a specified field.
 old-location: shell\ICredentialProvider_GetFieldDescriptorAt.htm
 old-project: shell
 ms.assetid: bb9f063d-afbc-4f6b-a4a5-19a9a644f029
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetFieldDescriptorAt method [Windows Shell], GetFieldDescriptorAt method [Windows Shell], ICredentialProvider interface, GetFieldDescriptorAt,ICredentialProvider.GetFieldDescriptorAt, ICredentialProvider, ICredentialProvider interface [Windows Shell], GetFieldDescriptorAt method, ICredentialProvider::GetFieldDescriptorAt, credentialprovider/ICredentialProvider::GetFieldDescriptorAt, shell.ICredentialProvider_GetFieldDescriptorAt, shell_ICredentialProvider_GetFieldDescriptorAt
+ms.date: 5/3/2018
+ms.keywords: GetFieldDescriptorAt, GetFieldDescriptorAt method [Windows Shell], GetFieldDescriptorAt method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetFieldDescriptorAt method, ICredentialProvider.GetFieldDescriptorAt, ICredentialProvider::GetFieldDescriptorAt, credentialprovider/ICredentialProvider::GetFieldDescriptorAt, shell.ICredentialProvider_GetFieldDescriptorAt, shell_ICredentialProvider_GetFieldDescriptorAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProvider::GetFieldDescriptorAt method
+# ICredentialProvider::GetFieldDescriptorAt
 
 
 ## -description

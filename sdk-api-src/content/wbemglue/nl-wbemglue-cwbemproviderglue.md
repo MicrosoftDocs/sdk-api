@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 493027c2-e54d-4fad-9e33-98d1ceab8860
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CWbemProviderGlue, CWbemProviderGlue class [Windows Management Instrumentation], CWbemProviderGlue class [Windows Management Instrumentation], described, _hmm_cwbemproviderglue, wbemglue/CWbemProviderGlue, wmi.cwbemproviderglue
+ms.keywords: CWbemProviderGlue, CWbemProviderGlue class [Windows Management Instrumentation], CWbemProviderGlue class [Windows Management Instrumentation],described, _hmm_cwbemproviderglue, wbemglue/CWbemProviderGlue, wmi.cwbemproviderglue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

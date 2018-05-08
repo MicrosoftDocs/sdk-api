@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: e603f68a-881c-468d-a3d3-738f43400e01
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IMultiInterfaceEventControl, IMultiInterfaceEventControl interface [COM+], IMultiInterfaceEventControl interface [COM+], described, _cos_IMultiInterfaceEventControl, cos.imultiinterfaceeventcontrol, eventsys/IMultiInterfaceEventControl
+ms.keywords: IMultiInterfaceEventControl, IMultiInterfaceEventControl interface [COM+], IMultiInterfaceEventControl interface [COM+],described, _cos_IMultiInterfaceEventControl, cos.imultiinterfaceeventcontrol, eventsys/IMultiInterfaceEventControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

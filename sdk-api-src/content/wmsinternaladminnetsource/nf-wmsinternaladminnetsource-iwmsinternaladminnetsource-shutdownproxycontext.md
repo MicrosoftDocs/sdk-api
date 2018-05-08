@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.ShutdownProxyContext
-title: IWMSInternalAdminNetSource::ShutdownProxyContext method
+title: IWMSInternalAdminNetSource::ShutdownProxyContext
 author: windows-driver-content
 description: The ShutdownProxyContext method releases the internal resources used by IWMSInternalAdminNetSource::FindProxyForURL. To avoid memory leaks, you must call this method after you are finished making calls to FindProxyForURL.
 old-location: wmformat\iwmsinternaladminnetsource_shutdownproxycontext.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 95c6f641-e0b1-4391-b4bd-b43c03a330b4
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], ShutdownProxyContext method, IWMSInternalAdminNetSource::ShutdownProxyContext, IWMSInternalAdminNetSourceShutdownProxyContext, ShutdownProxyContext method [windows Media Format], ShutdownProxyContext method [windows Media Format], IWMSInternalAdminNetSource interface, ShutdownProxyContext,IWMSInternalAdminNetSource.ShutdownProxyContext, wmformat.iwmsinternaladminnetsource_shutdownproxycontext, wmsinternaladminnetsource/IWMSInternalAdminNetSource::ShutdownProxyContext
+ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],ShutdownProxyContext method, IWMSInternalAdminNetSource.ShutdownProxyContext, IWMSInternalAdminNetSource::ShutdownProxyContext, IWMSInternalAdminNetSourceShutdownProxyContext, ShutdownProxyContext, ShutdownProxyContext method [windows Media Format], ShutdownProxyContext method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_shutdownproxycontext, wmsinternaladminnetsource/IWMSInternalAdminNetSource::ShutdownProxyContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSInternalAdminNetSource::ShutdownProxyContext method
+# IWMSInternalAdminNetSource::ShutdownProxyContext
 
 
 ## -description

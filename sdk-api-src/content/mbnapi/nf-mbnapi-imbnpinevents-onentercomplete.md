@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnEnterComplete
-title: IMbnPinEvents::OnEnterComplete method
+title: IMbnPinEvents::OnEnterComplete
 author: windows-driver-content
 description: Notification method called by the Mobile Broadband service to indicate that a PIN enter operation has completed.
 old-location: mbn\imbnpinevents_onentercomplete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 6a4bc731-e498-4afb-a648-0b49d2f592ca
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents, IMbnPinEvents interface [Microsoft Broadband Networks], OnEnterComplete method, IMbnPinEvents::OnEnterComplete, OnEnterComplete method [Microsoft Broadband Networks], OnEnterComplete method [Microsoft Broadband Networks], IMbnPinEvents interface, OnEnterComplete,IMbnPinEvents.OnEnterComplete, S_OK, mbn.imbnpinevents_onentercomplete, mbnapi/IMbnPinEvents::OnEnterComplete
+ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnEnterComplete method, IMbnPinEvents.OnEnterComplete, IMbnPinEvents::OnEnterComplete, OnEnterComplete, OnEnterComplete method [Microsoft Broadband Networks], OnEnterComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_onentercomplete, mbnapi/IMbnPinEvents::OnEnterComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnPinEvents::OnEnterComplete method
+# IMbnPinEvents::OnEnterComplete
 
 
 ## -description

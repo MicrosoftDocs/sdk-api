@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Clone
-title: IWbemClassObject::Clone method
+title: IWbemClassObject::Clone
 author: windows-driver-content
 description: The IWbemClassObject::Clone method returns a new object that is a complete clone of the current object. The new object has a COM reference count of 1.
 old-location: wmi\iwbemclassobject_clone.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 4a708963-f677-4419-800d-02a01908e7cb
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation], IWbemClassObject interface, Clone,IWbemClassObject.Clone, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], Clone method, IWbemClassObject::Clone, _hmm_iwbemclassobject_clone, wbemcli/IWbemClassObject::Clone, wmi.iwbemclassobject_clone
+ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],Clone method, IWbemClassObject.Clone, IWbemClassObject::Clone, _hmm_iwbemclassobject_clone, wbemcli/IWbemClassObject::Clone, wmi.iwbemclassobject_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -53,7 +53,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemClassObject::Clone method
+# IWbemClassObject::Clone
 
 
 ## -description

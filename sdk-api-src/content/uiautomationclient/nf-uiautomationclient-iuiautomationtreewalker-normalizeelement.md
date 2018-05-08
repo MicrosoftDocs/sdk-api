@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.NormalizeElement
-title: IUIAutomationTreeWalker::NormalizeElement method
+title: IUIAutomationTreeWalker::NormalizeElement
 author: windows-driver-content
 description: Retrieves the ancestor element nearest to the specified Microsoft UI Automation element in the tree view.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_Normalize.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 62616711-a841-4273-8e38-0d2344659d03
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], NormalizeElement method, IUIAutomationTreeWalker::NormalizeElement, NormalizeElement method [Windows Accessibility], NormalizeElement method [Windows Accessibility], IUIAutomationTreeWalker interface, NormalizeElement,IUIAutomationTreeWalker.NormalizeElement, uiauto.uiauto_IUIAutomationTreeWalker_Normalize, uiauto_IUIAutomationTreeWalker_Normalize, uiautomationclient/IUIAutomationTreeWalker::NormalizeElement, winauto.uiauto_IUIAutomationTreeWalker_Normalize
+ms.keywords: IUIAutomationTreeWalker interface [Windows Accessibility],NormalizeElement method, IUIAutomationTreeWalker.NormalizeElement, IUIAutomationTreeWalker::NormalizeElement, NormalizeElement, NormalizeElement method [Windows Accessibility], NormalizeElement method [Windows Accessibility],IUIAutomationTreeWalker interface, uiauto.uiauto_IUIAutomationTreeWalker_Normalize, uiauto_IUIAutomationTreeWalker_Normalize, uiautomationclient/IUIAutomationTreeWalker::NormalizeElement, winauto.uiauto_IUIAutomationTreeWalker_Normalize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTreeWalker::NormalizeElement method
+# IUIAutomationTreeWalker::NormalizeElement
 
 
 ## -description

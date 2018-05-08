@@ -7,7 +7,7 @@ old-location: buses\winusb_abortpipe.htm
 old-project: usbref
 ms.assetid: 08695612-d579-41e4-a8b6-1de44a57aeaa
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/3/2018
 ms.keywords: WinUsb_AbortPipe, WinUsb_AbortPipe function [Buses], buses.winusb_abortpipe, winusb/WinUsb_AbortPipe, winusbfunc_2cd765f4-18f0-462e-a6e1-c86f00232035.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatus.get_DisplayName
-title: ICspStatus::get_DisplayName method
+title: ICspStatus::get_DisplayName
 author: windows-driver-content
 description: Retrieves a string that contains the name of the provider, the algorithm name, and the operations that can be performed by the algorithm.
 old-location: security\icspstatus_displayname.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 7c778f78-1e94-4e84-a51a-3c0171f19db6
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: DisplayName property [Security], DisplayName property [Security], ICspStatus interface, ICspStatus, ICspStatus interface [Security], DisplayName property, ICspStatus.DisplayName, ICspStatus::get_DisplayName, certenroll/ICspStatus::DisplayName, certenroll/ICspStatus::get_DisplayName, get_DisplayName,ICspStatus.get_DisplayName, security.icspstatus_displayname
+ms.keywords: DisplayName property [Security], DisplayName property [Security],ICspStatus interface, ICspStatus interface [Security],DisplayName property, ICspStatus.DisplayName, ICspStatus.get_DisplayName, ICspStatus::DisplayName, ICspStatus::get_DisplayName, certenroll/ICspStatus::DisplayName, certenroll/ICspStatus::get_DisplayName, get_DisplayName, security.icspstatus_displayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspStatus::get_DisplayName method
+# ICspStatus::get_DisplayName
 
 
 ## -description

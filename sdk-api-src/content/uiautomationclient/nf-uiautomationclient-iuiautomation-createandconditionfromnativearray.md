@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateAndConditionFromNativeArray
-title: IUIAutomation::CreateAndConditionFromNativeArray method
+title: IUIAutomation::CreateAndConditionFromNativeArray
 author: windows-driver-content
 description: Creates a condition that selects elements based on multiple conditions, all of which must be true.
 old-location: winauto\uiauto_IUIAutomation_CreateAndConditionFromNativeArray.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2f47dfa7-1558-4984-8400-cac549543819
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CreateAndConditionFromNativeArray method [Windows Accessibility], CreateAndConditionFromNativeArray method [Windows Accessibility], IUIAutomation interface, CreateAndConditionFromNativeArray,IUIAutomation.CreateAndConditionFromNativeArray, IUIAutomation, IUIAutomation interface [Windows Accessibility], CreateAndConditionFromNativeArray method, IUIAutomation::CreateAndConditionFromNativeArray, uiauto.uiauto_IUIAutomation_CreateAndConditionFromNativeArray, uiauto_IUIAutomation_CreateAndConditionFromNativeArray, uiautomationclient/IUIAutomation::CreateAndConditionFromNativeArray, winauto.uiauto_IUIAutomation_CreateAndConditionFromNativeArray
+ms.keywords: CreateAndConditionFromNativeArray, CreateAndConditionFromNativeArray method [Windows Accessibility], CreateAndConditionFromNativeArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateAndConditionFromNativeArray method, IUIAutomation.CreateAndConditionFromNativeArray, IUIAutomation::CreateAndConditionFromNativeArray, uiauto.uiauto_IUIAutomation_CreateAndConditionFromNativeArray, uiauto_IUIAutomation_CreateAndConditionFromNativeArray, uiautomationclient/IUIAutomation::CreateAndConditionFromNativeArray, winauto.uiauto_IUIAutomation_CreateAndConditionFromNativeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::CreateAndConditionFromNativeArray method
+# IUIAutomation::CreateAndConditionFromNativeArray
 
 
 ## -description

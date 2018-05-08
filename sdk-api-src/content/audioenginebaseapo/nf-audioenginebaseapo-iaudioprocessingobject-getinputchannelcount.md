@@ -1,14 +1,14 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.GetInputChannelCount
-title: IAudioProcessingObject::GetInputChannelCount method
+title: IAudioProcessingObject::GetInputChannelCount
 author: windows-driver-content
 description: GetInputChannelCount returns the input channel count (samples-per-frame) for this APO.
 old-location: audio\iaudioprocessingobject_getinputchannelcount.htm
 old-project: audio
 ms.assetid: 6DB8B945-DCED-4129-A457-E90E083E6394
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetInputChannelCount method [Audio Devices], GetInputChannelCount method [Audio Devices], IAudioProcessingObject interface, GetInputChannelCount,IAudioProcessingObject.GetInputChannelCount, IAudioProcessingObject, IAudioProcessingObject interface [Audio Devices], GetInputChannelCount method, IAudioProcessingObject::GetInputChannelCount, audio.iaudioprocessingobject_getinputchannelcount, audioenginebaseapo/IAudioProcessingObject::GetInputChannelCount
+ms.date: 5/1/2018
+ms.keywords: GetInputChannelCount, GetInputChannelCount method [Audio Devices], GetInputChannelCount method [Audio Devices],IAudioProcessingObject interface, IAudioProcessingObject interface [Audio Devices],GetInputChannelCount method, IAudioProcessingObject.GetInputChannelCount, IAudioProcessingObject::GetInputChannelCount, audio.iaudioprocessingobject_getinputchannelcount, audioenginebaseapo/IAudioProcessingObject::GetInputChannelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: Any level
 ---
 
-# IAudioProcessingObject::GetInputChannelCount method
+# IAudioProcessingObject::GetInputChannelCount
 
 
 ## -description

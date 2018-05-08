@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxySettings
-title: IWMPNetwork::setProxySettings method
+title: IWMPNetwork::setProxySettings
 author: windows-driver-content
 description: The setProxySettings method specifies the proxy setting for a given protocol.
 old-location: wmp\iwmpnetwork_setproxysettings.htm
 old-project: WMP
 ms.assetid: 3ce07bf8-8521-4240-9859-3bf790ccbf48
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], setProxySettings method, IWMPNetwork::setProxySettings, IWMPNetworksetProxySettings, setProxySettings method [Windows Media Player], setProxySettings method [Windows Media Player], IWMPNetwork interface, setProxySettings,IWMPNetwork.setProxySettings, wmp.iwmpnetwork_setproxysettings, wmp/IWMPNetwork::setProxySettings
+ms.date: 5/4/2018
+ms.keywords: IWMPNetwork interface [Windows Media Player],setProxySettings method, IWMPNetwork.setProxySettings, IWMPNetwork::setProxySettings, IWMPNetworksetProxySettings, setProxySettings, setProxySettings method [Windows Media Player], setProxySettings method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxysettings, wmp/IWMPNetwork::setProxySettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNetwork::setProxySettings method
+# IWMPNetwork::setProxySettings
 
 
 ## -description

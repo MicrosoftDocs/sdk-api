@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_Attendees
-title: IRDPSRAPIViewer::get_Attendees method
+title: IRDPSRAPIViewer::get_Attendees
 author: windows-driver-content
 description: Returns an object implementing the IRDPSRAPIAttendeeManager interface.
 old-location: rdp\irdpsrapiviewer_attendees.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 7d61577b-d8e3-49d9-ac61-cc7c35cdd87f
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: Attendees property [RDP], Attendees property [RDP], IRDPSRAPIViewer interface, Attendees property [RDP], RDPViewer object, IRDPSRAPIViewer, IRDPSRAPIViewer interface [RDP], Attendees property, IRDPSRAPIViewer.Attendees, IRDPSRAPIViewer::get_Attendees, RDPViewer object [RDP], Attendees property, get_Attendees,IRDPSRAPIViewer.get_Attendees, rdp.irdpsrapiviewer_attendees, rdpencomapi/IRDPSRAPIViewer::Attendees, rdpencomapi/IRDPSRAPIViewer::get_Attendees
+ms.keywords: Attendees property [RDP], Attendees property [RDP],IRDPSRAPIViewer interface, Attendees property [RDP],RDPViewer object, IRDPSRAPIViewer interface [RDP],Attendees property, IRDPSRAPIViewer.Attendees, IRDPSRAPIViewer.get_Attendees, IRDPSRAPIViewer::Attendees, IRDPSRAPIViewer::get_Attendees, RDPViewer object [RDP],Attendees property, get_Attendees, rdp.irdpsrapiviewer_attendees, rdpencomapi/IRDPSRAPIViewer::Attendees, rdpencomapi/IRDPSRAPIViewer::get_Attendees
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIViewer::get_Attendees method
+# IRDPSRAPIViewer::get_Attendees
 
 
 ## -description

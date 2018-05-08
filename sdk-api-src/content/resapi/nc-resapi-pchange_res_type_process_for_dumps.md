@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 6E5CA26D-F58A-41A4-9ED0-35FA363B7025
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ChangeResTypeProcessForDumps, ChangeResTypeProcessForDumps callback function [Failover Cluster], PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS, PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS callback function [Failover Cluster], mscs.changerestypeprocessfordumps, resapi/ChangeResTypeProcessForDumps, resapi/PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS
+ms.keywords: ChangeResTypeProcessForDumps, ChangeResTypeProcessForDumps callback, ChangeResTypeProcessForDumps callback function [Failover Cluster], PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS, PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS callback function [Failover Cluster], mscs.changerestypeprocessfordumps, resapi/ChangeResTypeProcessForDumps, resapi/PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS callback
+# PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS callback function
 
 
 ## -description

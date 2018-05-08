@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.RemoveItem
-title: ITfLangBarItemMgr::RemoveItem method
+title: ITfLangBarItemMgr::RemoveItem
 author: windows-driver-content
 description: ITfLangBarItemMgr::RemoveItem method
 old-location: tsf\itflangbaritemmgr_removeitem.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5a56a8f4-8011-4847-869f-c859ec90da3b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Framework], RemoveItem method, ITfLangBarItemMgr::RemoveItem, RemoveItem method [Text Services Framework], RemoveItem method [Text Services Framework], ITfLangBarItemMgr interface, RemoveItem,ITfLangBarItemMgr.RemoveItem, _tsf_itflangbaritemmgr_removeitem_ref, ctfutb/ITfLangBarItemMgr::RemoveItem, tsf.itflangbaritemmgr_removeitem
+ms.keywords: ITfLangBarItemMgr interface [Text Services Framework],RemoveItem method, ITfLangBarItemMgr.RemoveItem, ITfLangBarItemMgr::RemoveItem, RemoveItem, RemoveItem method [Text Services Framework], RemoveItem method [Text Services Framework],ITfLangBarItemMgr interface, _tsf_itflangbaritemmgr_removeitem_ref, ctfutb/ITfLangBarItemMgr::RemoveItem, tsf.itflangbaritemmgr_removeitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemMgr::RemoveItem method
+# ITfLangBarItemMgr::RemoveItem
 
 
 ## -description

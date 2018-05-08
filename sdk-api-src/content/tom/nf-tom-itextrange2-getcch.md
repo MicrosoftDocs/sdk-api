@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.GetCch
-title: ITextRange2::GetCch method
+title: ITextRange2::GetCch
 author: windows-driver-content
 description: Gets the count of characters in a range.
 old-location: controls\itextrange2_getcch.htm
 old-project: Controls
 ms.assetid: a6f06062-3c8f-40c0-9b5d-6c22a647bfbc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetCch method [Windows Controls], GetCch method [Windows Controls], ITextRange2 interface, GetCch,ITextRange2.GetCch, ITextRange2, ITextRange2 interface [Windows Controls], GetCch method, ITextRange2::GetCch, controls.itextrange2_getcch, tom/ITextRange2::GetCch
+ms.date: 4/27/2018
+ms.keywords: GetCch, GetCch method [Windows Controls], GetCch method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCch method, ITextRange2.GetCch, ITextRange2::GetCch, controls.itextrange2_getcch, tom/ITextRange2::GetCch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::GetCch method
+# ITextRange2::GetCch
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.get_Writable
-title: IAzRole::get_Writable method
+title: IAzRole::get_Writable
 author: windows-driver-content
 description: Retrieves a value that indicates whether the role can be modified by the user context that initialized it.
 old-location: security\iazrole_writable.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 053b0ec4-143b-449d-bbbd-8ec8f00b0f2e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzRole object [Security], Writable property, IAzRole, IAzRole interface [Security], Writable property, IAzRole.Writable, IAzRole::get_Writable, Writable property [Security], Writable property [Security], AzRole object, Writable property [Security], IAzRole interface, azroles/IAzRole::Writable, azroles/IAzRole::get_Writable, get_Writable,IAzRole.get_Writable, security.iazrole_writable
+ms.keywords: AzRole object [Security],Writable property, IAzRole interface [Security],Writable property, IAzRole.Writable, IAzRole.get_Writable, IAzRole::Writable, IAzRole::get_Writable, Writable property [Security], Writable property [Security],AzRole object, Writable property [Security],IAzRole interface, azroles/IAzRole::Writable, azroles/IAzRole::get_Writable, get_Writable, security.iazrole_writable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzRole::get_Writable method
+# IAzRole::get_Writable
 
 
 ## -description

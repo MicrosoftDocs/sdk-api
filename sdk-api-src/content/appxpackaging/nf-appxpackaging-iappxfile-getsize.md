@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetSize
-title: IAppxFile::GetSize method
+title: IAppxFile::GetSize
 author: windows-driver-content
 description: Retrieves the uncompressed size of the file.
 old-location: appxpkg\iappxfile_getsize.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 73353CE0-98F8-4A8C-A259-A07C125B9EE9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSize method [App packaging and management], GetSize method [App packaging and management], IAppxFile interface, GetSize,IAppxFile.GetSize, IAppxFile, IAppxFile interface [App packaging and management], GetSize method, IAppxFile::GetSize, appxpackaging/IAppxFile::GetSize, appxpkg.iappxfile_getsize
+ms.keywords: GetSize, GetSize method [App packaging and management], GetSize method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetSize method, IAppxFile.GetSize, IAppxFile::GetSize, appxpackaging/IAppxFile::GetSize, appxpkg.iappxfile_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxFile::GetSize method
+# IAppxFile::GetSize
 
 
 ## -description

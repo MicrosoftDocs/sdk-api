@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.put_FilterType
-title: ITraceDataProvider::put_FilterType method
+title: ITraceDataProvider::put_FilterType
 author: windows-driver-content
 description: Retrieves or sets a provider-defined filter type.
 old-location: pla\itracedataprovider_filtertype.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: adc9f89f-fffe-4df0-a9fd-72ae80fdf9b5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: FilterType property [PLA], FilterType property [PLA], ITraceDataProvider interface, ITraceDataProvider, ITraceDataProvider interface [PLA], FilterType property, ITraceDataProvider.FilterType, ITraceDataProvider::get_FilterType, ITraceDataProvider::put_FilterType, base.itracedataprovider_filtertype, pla.itracedataprovider_filtertype, pla/ITraceDataProvider::FilterType, pla/ITraceDataProvider::get_FilterType, pla/ITraceDataProvider::put_FilterType, put_FilterType,ITraceDataProvider.put_FilterType
+ms.keywords: FilterType property [PLA], FilterType property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterType property, ITraceDataProvider.FilterType, ITraceDataProvider.put_FilterType, ITraceDataProvider::FilterType, ITraceDataProvider::get_FilterType, ITraceDataProvider::put_FilterType, base.itracedataprovider_filtertype, pla.itracedataprovider_filtertype, pla/ITraceDataProvider::FilterType, pla/ITraceDataProvider::get_FilterType, pla/ITraceDataProvider::put_FilterType, put_FilterType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataProvider::put_FilterType method
+# ITraceDataProvider::put_FilterType
 
 
 ## -description

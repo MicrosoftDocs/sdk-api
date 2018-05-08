@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetPackageId
-title: IAppxManifestReader::GetPackageId method
+title: IAppxManifestReader::GetPackageId
 author: windows-driver-content
 description: Gets the package identifier defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getpackageid.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 67E1B1A4-E934-4CCF-AF94-A7923B192A21
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPackageId method [App packaging and management], GetPackageId method [App packaging and management], IAppxManifestReader interface, GetPackageId,IAppxManifestReader.GetPackageId, IAppxManifestReader, IAppxManifestReader interface [App packaging and management], GetPackageId method, IAppxManifestReader::GetPackageId, appxpackaging/IAppxManifestReader::GetPackageId, appxpkg.iappxmanifestreader_getpackageid
+ms.keywords: GetPackageId, GetPackageId method [App packaging and management], GetPackageId method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetPackageId method, IAppxManifestReader.GetPackageId, IAppxManifestReader::GetPackageId, appxpackaging/IAppxManifestReader::GetPackageId, appxpkg.iappxmanifestreader_getpackageid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestReader::GetPackageId method
+# IAppxManifestReader::GetPackageId
 
 
 ## -description

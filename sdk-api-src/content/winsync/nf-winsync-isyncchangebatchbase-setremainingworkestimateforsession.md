@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.SetRemainingWorkEstimateForSession
-title: ISyncChangeBatchBase::SetRemainingWorkEstimateForSession method
+title: ISyncChangeBatchBase::SetRemainingWorkEstimateForSession
 author: windows-driver-content
 description: Sets the estimate of the remaining work for the session.
 old-location: winsync\isyncchangebatchbase_setremainingworkestimateforsession.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: f73d13d9-244e-4ec1-aacd-047331b13a4d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], SetRemainingWorkEstimateForSession method, ISyncChangeBatchBase::SetRemainingWorkEstimateForSession, SetRemainingWorkEstimateForSession method [Windows Sync], SetRemainingWorkEstimateForSession method [Windows Sync], ISyncChangeBatchBase interface, SetRemainingWorkEstimateForSession,ISyncChangeBatchBase.SetRemainingWorkEstimateForSession, winsync.isyncchangebatchbase_setremainingworkestimateforsession, winsync/ISyncChangeBatchBase::SetRemainingWorkEstimateForSession
+ms.keywords: ISyncChangeBatchBase interface [Windows Sync],SetRemainingWorkEstimateForSession method, ISyncChangeBatchBase.SetRemainingWorkEstimateForSession, ISyncChangeBatchBase::SetRemainingWorkEstimateForSession, SetRemainingWorkEstimateForSession, SetRemainingWorkEstimateForSession method [Windows Sync], SetRemainingWorkEstimateForSession method [Windows Sync],ISyncChangeBatchBase interface, winsync.isyncchangebatchbase_setremainingworkestimateforsession, winsync/ISyncChangeBatchBase::SetRemainingWorkEstimateForSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchBase::SetRemainingWorkEstimateForSession method
+# ISyncChangeBatchBase::SetRemainingWorkEstimateForSession
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: ddb8d0b8-e975-4ee2-bb8c-423b1304c467
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_CLOSE_DATABASE_FN, StorageAdapterCloseDatabase, StorageAdapterCloseDatabase callback function [Windows Biometric Framework API], secbiomet.storageadapterclosedatabase, winbio_adapter/StorageAdapterCloseDatabase
+ms.keywords: PIBIO_STORAGE_CLOSE_DATABASE_FN, PIBIO_STORAGE_CLOSE_DATABASE_FN callback, StorageAdapterCloseDatabase, StorageAdapterCloseDatabase callback function [Windows Biometric Framework API], secbiomet.storageadapterclosedatabase, winbio_adapter/StorageAdapterCloseDatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_CLOSE_DATABASE_FN callback
+# PIBIO_STORAGE_CLOSE_DATABASE_FN callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.get_WdsTransportServicesRunning
-title: IWdsTransportConfigurationManager::get_WdsTransportServicesRunning method
+title: IWdsTransportConfigurationManager::get_WdsTransportServicesRunning
 author: windows-driver-content
 description: Receives a value that indicates whether WDS transport services are running on the server.
 old-location: wds\iwdstransportconfigurationmanager_wdstransportservicesrunning.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 0296a818-1a5f-494c-869a-a124fc75cb85
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportConfigurationManager, IWdsTransportConfigurationManager interface [Windows Deployment Services], WdsTransportServicesRunning property, IWdsTransportConfigurationManager.WdsTransportServicesRunning, IWdsTransportConfigurationManager::get_WdsTransportServicesRunning, WdsTransportServicesRunning property [Windows Deployment Services], WdsTransportServicesRunning property [Windows Deployment Services], IWdsTransportConfigurationManager interface, get_WdsTransportServicesRunning,IWdsTransportConfigurationManager.get_WdsTransportServicesRunning, wds.iwdstransportconfigurationmanager_wdstransportservicesrunning, wdstptmgmt/IWdsTransportConfigurationManager::WdsTransportServicesRunning, wdstptmgmt/IWdsTransportConfigurationManager::get_WdsTransportServicesRunning
+ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],WdsTransportServicesRunning property, IWdsTransportConfigurationManager.WdsTransportServicesRunning, IWdsTransportConfigurationManager.get_WdsTransportServicesRunning, IWdsTransportConfigurationManager::WdsTransportServicesRunning, IWdsTransportConfigurationManager::get_WdsTransportServicesRunning, WdsTransportServicesRunning property [Windows Deployment Services], WdsTransportServicesRunning property [Windows Deployment Services],IWdsTransportConfigurationManager interface, get_WdsTransportServicesRunning, wds.iwdstransportconfigurationmanager_wdstransportservicesrunning, wdstptmgmt/IWdsTransportConfigurationManager::WdsTransportServicesRunning, wdstptmgmt/IWdsTransportConfigurationManager::get_WdsTransportServicesRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportConfigurationManager::get_WdsTransportServicesRunning method
+# IWdsTransportConfigurationManager::get_WdsTransportServicesRunning
 
 
 ## -description

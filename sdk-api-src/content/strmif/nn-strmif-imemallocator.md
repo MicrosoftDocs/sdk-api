@@ -7,8 +7,8 @@ old-location: dshow\imemallocator.htm
 old-project: DirectShow
 ms.assetid: 77a161c4-706c-4270-a343-9e16c03cd590
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMemAllocator, IMemAllocator interface [DirectShow], IMemAllocator interface [DirectShow], described, IMemAllocatorInterface, dshow.imemallocator, strmif/IMemAllocator
+ms.date: 4/30/2018
+ms.keywords: IMemAllocator, IMemAllocator interface [DirectShow], IMemAllocator interface [DirectShow],described, IMemAllocatorInterface, dshow.imemallocator, strmif/IMemAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

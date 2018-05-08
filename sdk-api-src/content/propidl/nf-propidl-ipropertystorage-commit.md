@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertyStorage.Commit
-title: IPropertyStorage::Commit method
+title: IPropertyStorage::Commit
 author: windows-driver-content
 description: Saves changes made to a property storage object to the parent storage object.
 old-location: stg\ipropertystorage_commit.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 00efae8b-023e-425d-b7cd-c40c17d7948e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: Commit method [Structured Storage], Commit method [Structured Storage], IPropertyStorage interface, Commit,IPropertyStorage.Commit, IPropertyStorage, IPropertyStorage interface [Structured Storage], Commit method, IPropertyStorage::Commit, _stg_ipropertystorage_commit, propidl/IPropertyStorage::Commit, stg.ipropertystorage_commit
+ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IPropertyStorage interface, IPropertyStorage interface [Structured Storage],Commit method, IPropertyStorage.Commit, IPropertyStorage::Commit, _stg_ipropertystorage_commit, propidl/IPropertyStorage::Commit, stg.ipropertystorage_commit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyStorage::Commit method
+# IPropertyStorage::Commit
 
 
 ## -description

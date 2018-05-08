@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCore.get_isOnline
-title: IWMPCore::get_isOnline method
+title: IWMPCore::get_isOnline
 author: windows-driver-content
 description: The get_isOnline method retrieves a value indicating whether the user is connected to a network.
 old-location: wmp\iwmpcore_get_isonline.htm
 old-project: WMP
 ms.assetid: 5507a80f-4bef-4712-af41-49e58d8396aa
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_isOnline method, IWMPCore::get_isOnline, IWMPCoreget_isOnline, get_isOnline method [Windows Media Player], get_isOnline method [Windows Media Player], IWMPCore interface, get_isOnline,IWMPCore.get_isOnline, wmp.iwmpcore_get_isonline, wmp/IWMPCore::get_isOnline
+ms.date: 5/4/2018
+ms.keywords: IWMPCore interface [Windows Media Player],get_isOnline method, IWMPCore.get_isOnline, IWMPCore::get_isOnline, IWMPCoreget_isOnline, get_isOnline, get_isOnline method [Windows Media Player], get_isOnline method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_isonline, wmp/IWMPCore::get_isOnline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCore::get_isOnline method
+# IWMPCore::get_isOnline
 
 
 ## -description

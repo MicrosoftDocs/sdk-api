@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.UpdateOverlay
-title: IDirectDrawSurface7::UpdateOverlay method
+title: IDirectDrawSurface7::UpdateOverlay
 author: windows-driver-content
 description: Repositions or modifies the visual attributes of an overlay surface. These surfaces must have the DDSCAPS_OVERLAY flag set.
 old-location: directdraw\idirectdrawsurface7_updateoverlay.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 8706c6ca-cd17-490a-8ff9-9470a7d7a150
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DDOVER_ADDDIRTYRECT, DDOVER_ALPHADEST, DDOVER_ALPHADESTCONSTOVERRIDE, DDOVER_ALPHADESTNEG, DDOVER_ALPHADESTSURFACEOVERRIDE, DDOVER_ALPHAEDGEBLEND, DDOVER_ALPHASRC, DDOVER_ALPHASRCCONSTOVERRIDE, DDOVER_ALPHASRCNEG, DDOVER_ALPHASRCSURFACEOVERRIDE, DDOVER_ARGBSCALEFACTORS, DDOVER_AUTOFLIP, DDOVER_BOB, DDOVER_BOBHARDWARE, DDOVER_DDFX, DDOVER_DEGRADEARGBSCALING, DDOVER_HIDE, DDOVER_INTERLEAVED, DDOVER_KEYDEST, DDOVER_KEYDESTOVERRIDE, DDOVER_KEYSRC, DDOVER_KEYSRCOVERRIDE, DDOVER_OVERRIDEBOBWEAVE, DDOVER_REFRESHALL, DDOVER_REFRESHDIRTYRECTS, DDOVER_SHOW, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], UpdateOverlay method, IDirectDrawSurface7::UpdateOverlay, UpdateOverlay method [DirectDraw], UpdateOverlay method [DirectDraw], IDirectDrawSurface7 interface, UpdateOverlay,IDirectDrawSurface7.UpdateOverlay, ddraw/IDirectDrawSurface7::UpdateOverlay, directdraw.idirectdrawsurface7_updateoverlay
+ms.keywords: DDOVER_ADDDIRTYRECT, DDOVER_ALPHADEST, DDOVER_ALPHADESTCONSTOVERRIDE, DDOVER_ALPHADESTNEG, DDOVER_ALPHADESTSURFACEOVERRIDE, DDOVER_ALPHAEDGEBLEND, DDOVER_ALPHASRC, DDOVER_ALPHASRCCONSTOVERRIDE, DDOVER_ALPHASRCNEG, DDOVER_ALPHASRCSURFACEOVERRIDE, DDOVER_ARGBSCALEFACTORS, DDOVER_AUTOFLIP, DDOVER_BOB, DDOVER_BOBHARDWARE, DDOVER_DDFX, DDOVER_DEGRADEARGBSCALING, DDOVER_HIDE, DDOVER_INTERLEAVED, DDOVER_KEYDEST, DDOVER_KEYDESTOVERRIDE, DDOVER_KEYSRC, DDOVER_KEYSRCOVERRIDE, DDOVER_OVERRIDEBOBWEAVE, DDOVER_REFRESHALL, DDOVER_REFRESHDIRTYRECTS, DDOVER_SHOW, IDirectDrawSurface7 interface [DirectDraw],UpdateOverlay method, IDirectDrawSurface7.UpdateOverlay, IDirectDrawSurface7::UpdateOverlay, UpdateOverlay, UpdateOverlay method [DirectDraw], UpdateOverlay method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlay, directdraw.idirectdrawsurface7_updateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::UpdateOverlay method
+# IDirectDrawSurface7::UpdateOverlay
 
 
 ## -description

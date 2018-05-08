@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.SetUnderlinePositionMode
-title: ITextFont2::SetUnderlinePositionMode method
+title: ITextFont2::SetUnderlinePositionMode
 author: windows-driver-content
 description: Sets the underline position mode.
 old-location: controls\itextfont2_setunderlinepositionmode.htm
 old-project: Controls
 ms.assetid: 31dff2d0-7165-42f0-b3d0-9cb679c738c3
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetUnderlinePositionMode method, ITextFont2::SetUnderlinePositionMode, SetUnderlinePositionMode method [Windows Controls], SetUnderlinePositionMode method [Windows Controls], ITextFont2 interface, SetUnderlinePositionMode,ITextFont2.SetUnderlinePositionMode, controls.itextfont2_setunderlinepositionmode, tom/ITextFont2::SetUnderlinePositionMode
+ms.date: 4/27/2018
+ms.keywords: ITextFont2 interface [Windows Controls],SetUnderlinePositionMode method, ITextFont2.SetUnderlinePositionMode, ITextFont2::SetUnderlinePositionMode, SetUnderlinePositionMode, SetUnderlinePositionMode method [Windows Controls], SetUnderlinePositionMode method [Windows Controls],ITextFont2 interface, controls.itextfont2_setunderlinepositionmode, tom/ITextFont2::SetUnderlinePositionMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::SetUnderlinePositionMode method
+# ITextFont2::SetUnderlinePositionMode
 
 
 ## -description

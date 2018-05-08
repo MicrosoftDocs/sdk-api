@@ -1,14 +1,14 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.DisplayFrame
-title: IAMVideoAccelerator::DisplayFrame method
+title: IAMVideoAccelerator::DisplayFrame
 author: windows-driver-content
 description: The DisplayFrame method causes the video renderer to display a decoded frame.
 old-location: dshow\iamvideoaccelerator_displayframe.htm
 old-project: DirectShow
 ms.assetid: 7913401f-881a-4364-8504-b02e85a5e343
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: DisplayFrame method [DirectShow], DisplayFrame method [DirectShow], IAMVideoAccelerator interface, DisplayFrame,IAMVideoAccelerator.DisplayFrame, IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], DisplayFrame method, IAMVideoAccelerator::DisplayFrame, IAMVideoAcceleratorDisplayFrame, dshow.iamvideoaccelerator_displayframe, videoacc/IAMVideoAccelerator::DisplayFrame
+ms.date: 4/30/2018
+ms.keywords: DisplayFrame, DisplayFrame method [DirectShow], DisplayFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],DisplayFrame method, IAMVideoAccelerator.DisplayFrame, IAMVideoAccelerator::DisplayFrame, IAMVideoAcceleratorDisplayFrame, dshow.iamvideoaccelerator_displayframe, videoacc/IAMVideoAccelerator::DisplayFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAMVideoAccelerator::DisplayFrame method
+# IAMVideoAccelerator::DisplayFrame
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetPreroll
-title: IAMMediaTypeSample::SetPreroll method
+title: IAMMediaTypeSample::SetPreroll
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The SetPreroll method specifies whether this is a preroll sample. A preroll sample should not be displayed.
 old-location: dshow\iammediatypesample_setpreroll.htm
 old-project: DirectShow
 ms.assetid: f4815f4f-b919-497a-922e-b4d0d2078e4b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], SetPreroll method, IAMMediaTypeSample::SetPreroll, IAMMediaTypeSampleSetPreroll, SetPreroll method [DirectShow], SetPreroll method [DirectShow], IAMMediaTypeSample interface, SetPreroll,IAMMediaTypeSample.SetPreroll, amstream/IAMMediaTypeSample::SetPreroll, dshow.iammediatypesample_setpreroll
+ms.date: 4/30/2018
+ms.keywords: IAMMediaTypeSample interface [DirectShow],SetPreroll method, IAMMediaTypeSample.SetPreroll, IAMMediaTypeSample::SetPreroll, IAMMediaTypeSampleSetPreroll, SetPreroll, SetPreroll method [DirectShow], SetPreroll method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetPreroll, dshow.iammediatypesample_setpreroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaTypeSample::SetPreroll method
+# IAMMediaTypeSample::SetPreroll
 
 
 ## -description

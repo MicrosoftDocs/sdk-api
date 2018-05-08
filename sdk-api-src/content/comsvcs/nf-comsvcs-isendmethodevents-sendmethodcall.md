@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISendMethodEvents.SendMethodCall
-title: ISendMethodEvents::SendMethodCall method
+title: ISendMethodEvents::SendMethodCall
 author: windows-driver-content
 description: Generated when a method is called through a component interface.
 old-location: cos\isendmethodevents_sendmethodcall.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 730466c8-440c-42ee-899f-0d93007fbf8d
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ISendMethodEvents, ISendMethodEvents interface [COM+], SendMethodCall method, ISendMethodEvents::SendMethodCall, SendMethodCall method [COM+], SendMethodCall method [COM+], ISendMethodEvents interface, SendMethodCall,ISendMethodEvents.SendMethodCall, _cos_ISendMethodEvents_SendMethodCall, comsvcs/ISendMethodEvents::SendMethodCall, cos.isendmethodevents_sendmethodcall
+ms.keywords: ISendMethodEvents interface [COM+],SendMethodCall method, ISendMethodEvents.SendMethodCall, ISendMethodEvents::SendMethodCall, SendMethodCall, SendMethodCall method [COM+], SendMethodCall method [COM+],ISendMethodEvents interface, _cos_ISendMethodEvents_SendMethodCall, comsvcs/ISendMethodEvents::SendMethodCall, cos.isendmethodevents_sendmethodcall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISendMethodEvents::SendMethodCall method
+# ISendMethodEvents::SendMethodCall
 
 
 ## -description

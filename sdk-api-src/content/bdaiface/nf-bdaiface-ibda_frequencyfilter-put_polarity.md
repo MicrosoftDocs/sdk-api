@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Polarity
-title: IBDA_FrequencyFilter::put_Polarity method
+title: IBDA_FrequencyFilter::put_Polarity
 author: windows-driver-content
 description: The put_Polarity method specifies the polarity of the signal.
 old-location: mstv\ibda_frequencyfilter_put_polarity.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d15bd0f9-4f2e-4098-bf5b-db03fde1362f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], put_Polarity method, IBDA_FrequencyFilter::put_Polarity, IBDA_FrequencyFilterput_Polarity, bdaiface/IBDA_FrequencyFilter::put_Polarity, mstv.ibda_frequencyfilter_put_polarity, put_Polarity method [Microsoft TV Technologies], put_Polarity method [Microsoft TV Technologies], IBDA_FrequencyFilter interface, put_Polarity,IBDA_FrequencyFilter.put_Polarity
+ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Polarity method, IBDA_FrequencyFilter.put_Polarity, IBDA_FrequencyFilter::put_Polarity, IBDA_FrequencyFilterput_Polarity, bdaiface/IBDA_FrequencyFilter::put_Polarity, mstv.ibda_frequencyfilter_put_polarity, put_Polarity, put_Polarity method [Microsoft TV Technologies], put_Polarity method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_FrequencyFilter::put_Polarity method
+# IBDA_FrequencyFilter::put_Polarity
 
 
 ## -description

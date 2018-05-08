@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState
-title: IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState method
+title: IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState
 author: windows-driver-content
 description: The put_computerHomeMediaSharingAllowedState method specifies whether media libraries on the computer are allowed to be shared on the home network.
 old-location: wmlss\IWMLSSput_computerHomeMediaSharingAllowedState.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: f844f79e-ae6f-4f57-abec-2b6d5951961f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], put_computerHomeMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState, put_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services], put_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, put_computerHomeMediaSharingAllowedState,IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState, wmlss.IWMLSSput_computerHomeMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_computerHomeMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState, put_computerHomeMediaSharingAllowedState, put_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services], put_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_computerHomeMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState method
+# IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState
 
 
 ## -description

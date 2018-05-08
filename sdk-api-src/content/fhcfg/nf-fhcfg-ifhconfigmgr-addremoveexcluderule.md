@@ -1,14 +1,14 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.AddRemoveExcludeRule
-title: IFhConfigMgr::AddRemoveExcludeRule method
+title: IFhConfigMgr::AddRemoveExcludeRule
 author: windows-driver-content
 description: Adds an exclusion rule to the exclusion list or removes a rule from the list.
 old-location: winprog\ifhconfigmgr_addremoveexcluderule.htm
 old-project: DevNotes
 ms.assetid: 8900944D-3B73-49AB-AE26-F0B2D5842B02
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: AddRemoveExcludeRule method [Windows API], AddRemoveExcludeRule method [Windows API], FhConfigMgr class, AddRemoveExcludeRule method [Windows API], IFhConfigMgr interface, AddRemoveExcludeRule,IFhConfigMgr.AddRemoveExcludeRule, FhConfigMgr class [Windows API], AddRemoveExcludeRule method, IFhConfigMgr, IFhConfigMgr interface [Windows API], AddRemoveExcludeRule method, IFhConfigMgr::AddRemoveExcludeRule, fhcfg/IFhConfigMgr::AddRemoveExcludeRule, winprog.ifhconfigmgr_addremoveexcluderule
+ms.date: 5/4/2018
+ms.keywords: AddRemoveExcludeRule, AddRemoveExcludeRule method [Windows API], AddRemoveExcludeRule method [Windows API],FhConfigMgr class, AddRemoveExcludeRule method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],AddRemoveExcludeRule method, IFhConfigMgr interface [Windows API],AddRemoveExcludeRule method, IFhConfigMgr.AddRemoveExcludeRule, IFhConfigMgr::AddRemoveExcludeRule, fhcfg/IFhConfigMgr::AddRemoveExcludeRule, winprog.ifhconfigmgr_addremoveexcluderule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFhConfigMgr::AddRemoveExcludeRule method
+# IFhConfigMgr::AddRemoveExcludeRule
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSample.SetDiscontinuity
-title: IMediaSample::SetDiscontinuity method
+title: IMediaSample::SetDiscontinuity
 author: windows-driver-content
 description: The SetDiscontinuity method specifies whether this sample represents a break in the data stream.
 old-location: dshow\imediasample_setdiscontinuity.htm
 old-project: DirectShow
 ms.assetid: 57041c71-4c7e-463a-92f5-c77a76aa545a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaSample, IMediaSample interface [DirectShow], SetDiscontinuity method, IMediaSample::SetDiscontinuity, IMediaSampleSetDiscontinuity, SetDiscontinuity method [DirectShow], SetDiscontinuity method [DirectShow], IMediaSample interface, SetDiscontinuity,IMediaSample.SetDiscontinuity, dshow.imediasample_setdiscontinuity, strmif/IMediaSample::SetDiscontinuity
+ms.date: 4/30/2018
+ms.keywords: IMediaSample interface [DirectShow],SetDiscontinuity method, IMediaSample.SetDiscontinuity, IMediaSample::SetDiscontinuity, IMediaSampleSetDiscontinuity, SetDiscontinuity, SetDiscontinuity method [DirectShow], SetDiscontinuity method [DirectShow],IMediaSample interface, dshow.imediasample_setdiscontinuity, strmif/IMediaSample::SetDiscontinuity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSample::SetDiscontinuity method
+# IMediaSample::SetDiscontinuity
 
 
 ## -description

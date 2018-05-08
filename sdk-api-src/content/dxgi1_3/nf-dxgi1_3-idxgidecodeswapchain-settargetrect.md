@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetTargetRect
-title: IDXGIDecodeSwapChain::SetTargetRect method
+title: IDXGIDecodeSwapChain::SetTargetRect
 author: windows-driver-content
 description: Sets the rectangle that defines the target region for the video processing blit operation.
 old-location: direct3ddxgi\idxgidecodeswapchain_settargetrect.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 2B3D71F9-B13B-4680-8284-41B32CA58CEE
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIDecodeSwapChain, IDXGIDecodeSwapChain interface [DXGI], SetTargetRect method, IDXGIDecodeSwapChain::SetTargetRect, SetTargetRect method [DXGI], SetTargetRect method [DXGI], IDXGIDecodeSwapChain interface, SetTargetRect,IDXGIDecodeSwapChain.SetTargetRect, direct3ddxgi.idxgidecodeswapchain_settargetrect, dxgi1_3/IDXGIDecodeSwapChain::SetTargetRect
+ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetTargetRect method, IDXGIDecodeSwapChain.SetTargetRect, IDXGIDecodeSwapChain::SetTargetRect, SetTargetRect, SetTargetRect method [DXGI], SetTargetRect method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_settargetrect, dxgi1_3/IDXGIDecodeSwapChain::SetTargetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDecodeSwapChain::SetTargetRect method
+# IDXGIDecodeSwapChain::SetTargetRect
 
 
 ## -description

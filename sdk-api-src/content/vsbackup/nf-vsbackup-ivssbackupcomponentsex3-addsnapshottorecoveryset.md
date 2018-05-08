@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx3.AddSnapshotToRecoverySet
-title: IVssBackupComponentsEx3::AddSnapshotToRecoverySet method
+title: IVssBackupComponentsEx3::AddSnapshotToRecoverySet
 author: windows-driver-content
 description: Specifies the volumes to be included in a LUN resynchronization operation.
 old-location: base\ivssbackupcomponentsex3_addsnapshottorecoveryset.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: f489d353-7c8a-45d2-8917-82d29fbdf5f5
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: AddSnapshotToRecoverySet method, AddSnapshotToRecoverySet method, IVssBackupComponentsEx3 interface, AddSnapshotToRecoverySet,IVssBackupComponentsEx3.AddSnapshotToRecoverySet, IVssBackupComponentsEx3, IVssBackupComponentsEx3 interface, AddSnapshotToRecoverySet method, IVssBackupComponentsEx3::AddSnapshotToRecoverySet, base.ivssbackupcomponentsex3_addsnapshottorecoveryset, vsbackup/IVssBackupComponentsEx3::AddSnapshotToRecoverySet
+ms.keywords: AddSnapshotToRecoverySet, AddSnapshotToRecoverySet method, AddSnapshotToRecoverySet method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,AddSnapshotToRecoverySet method, IVssBackupComponentsEx3.AddSnapshotToRecoverySet, IVssBackupComponentsEx3::AddSnapshotToRecoverySet, base.ivssbackupcomponentsex3_addsnapshottorecoveryset, vsbackup/IVssBackupComponentsEx3::AddSnapshotToRecoverySet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponentsEx3::AddSnapshotToRecoverySet method
+# IVssBackupComponentsEx3::AddSnapshotToRecoverySet
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetRepairInfo
-title: INetDiagHelper::GetRepairInfo method
+title: INetDiagHelper::GetRepairInfo
 author: windows-driver-content
 description: Retrieves the repair information that the Helper Class Extension has for a given problem type.
 old-location: ndf\inetdiaghelpe_getrepairinfo.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: a14b1f61-1ac7-4ee7-ad82-e0821f43a17d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetRepairInfo method [NDF], GetRepairInfo method [NDF], INetDiagHelper interface, GetRepairInfo,INetDiagHelper.GetRepairInfo, INetDiagHelper, INetDiagHelper interface [NDF], GetRepairInfo method, INetDiagHelper::GetRepairInfo, ndf.inetdiaghelpe_getrepairinfo, ndhelper/INetDiagHelper::GetRepairInfo
+ms.keywords: GetRepairInfo, GetRepairInfo method [NDF], GetRepairInfo method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetRepairInfo method, INetDiagHelper.GetRepairInfo, INetDiagHelper::GetRepairInfo, ndf.inetdiaghelpe_getrepairinfo, ndhelper/INetDiagHelper::GetRepairInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::GetRepairInfo method
+# INetDiagHelper::GetRepairInfo
 
 
 ## -description

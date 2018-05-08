@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataReader.ReadNextItem
-title: ISpatialAudioMetadataReader::ReadNextItem method
+title: ISpatialAudioMetadataReader::ReadNextItem
 author: windows-driver-content
 description: Gets the number of commands and the sample offset for the metadata item being read.
 old-location: coreaudio\ispatialaudiometadatareader_readnextitem.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: AC1D5FD6-EFF1-410F-95C7-B13EACBED5D1
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ISpatialAudioMetadataReader, ISpatialAudioMetadataReader interface [Core Audio], ReadNextItem method, ISpatialAudioMetadataReader::ReadNextItem, ReadNextItem method [Core Audio], ReadNextItem method [Core Audio], ISpatialAudioMetadataReader interface, ReadNextItem,ISpatialAudioMetadataReader.ReadNextItem, coreaudio.ispatialaudiometadatareader_readnextitem, spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItem
+ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],ReadNextItem method, ISpatialAudioMetadataReader.ReadNextItem, ISpatialAudioMetadataReader::ReadNextItem, ReadNextItem, ReadNextItem method [Core Audio], ReadNextItem method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_readnextitem, spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataReader::ReadNextItem method
+# ISpatialAudioMetadataReader::ReadNextItem
 
 
 ## -description

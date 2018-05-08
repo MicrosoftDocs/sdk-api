@@ -7,8 +7,8 @@ old-location: wmp\iwmptranscodepolicy.htm
 old-project: WMP
 ms.assetid: b7dbd25f-6865-44fa-9d46-e77de393ce13
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPTranscodePolicy, IWMPTranscodePolicy interface [Windows Media Player], IWMPTranscodePolicy interface [Windows Media Player], described, IWMPTranscodePolicyInterface, wmp.iwmptranscodepolicy, wmpservices/IWMPTranscodePolicy
+ms.date: 5/4/2018
+ms.keywords: IWMPTranscodePolicy, IWMPTranscodePolicy interface [Windows Media Player], IWMPTranscodePolicy interface [Windows Media Player],described, IWMPTranscodePolicyInterface, wmp.iwmptranscodepolicy, wmpservices/IWMPTranscodePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

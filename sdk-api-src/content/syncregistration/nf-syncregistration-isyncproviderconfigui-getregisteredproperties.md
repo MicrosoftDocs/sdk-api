@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.GetRegisteredProperties
-title: ISyncProviderConfigUI::GetRegisteredProperties method
+title: ISyncProviderConfigUI::GetRegisteredProperties
 author: windows-driver-content
 description: Obtains configuration UI properties for reading and writing.
 old-location: winsync\isyncproviderconfigui_getregisteredproperties.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: c96091d7-4b80-445b-911a-fde612eafce9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRegisteredProperties method [Windows Sync], GetRegisteredProperties method [Windows Sync], ISyncProviderConfigUI interface, GetRegisteredProperties,ISyncProviderConfigUI.GetRegisteredProperties, ISyncProviderConfigUI, ISyncProviderConfigUI interface [Windows Sync], GetRegisteredProperties method, ISyncProviderConfigUI::GetRegisteredProperties, syncregistration/ISyncProviderConfigUI::GetRegisteredProperties, winsync.isyncproviderconfigui_getregisteredproperties
+ms.keywords: GetRegisteredProperties, GetRegisteredProperties method [Windows Sync], GetRegisteredProperties method [Windows Sync],ISyncProviderConfigUI interface, ISyncProviderConfigUI interface [Windows Sync],GetRegisteredProperties method, ISyncProviderConfigUI.GetRegisteredProperties, ISyncProviderConfigUI::GetRegisteredProperties, syncregistration/ISyncProviderConfigUI::GetRegisteredProperties, winsync.isyncproviderconfigui_getregisteredproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderConfigUI::GetRegisteredProperties method
+# ISyncProviderConfigUI::GetRegisteredProperties
 
 
 ## -description

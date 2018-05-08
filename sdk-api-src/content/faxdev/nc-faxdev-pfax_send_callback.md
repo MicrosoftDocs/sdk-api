@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8xt7.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxSendCallback, FaxSendCallback callback function [Fax Service], PFAX_SEND_CALLBACK, _mfax_faxsendcallback, fax._mfax_faxsendcallback, faxdev/FaxSendCallback
+ms.keywords: FaxSendCallback, FaxSendCallback callback function [Fax Service], PFAX_SEND_CALLBACK, PFAX_SEND_CALLBACK callback, _mfax_faxsendcallback, fax._mfax_faxsendcallback, faxdev/FaxSendCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# PFAX_SEND_CALLBACK callback
+# PFAX_SEND_CALLBACK callback function
 
 
 ## -description

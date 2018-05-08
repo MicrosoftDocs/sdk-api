@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedRow
-title: IUIAutomationGridItemPattern::get_CachedRow method
+title: IUIAutomationGridItemPattern::get_CachedRow
 author: windows-driver-content
 description: Retrieves the cached zero-based index of the row that contains the item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedRow.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 0a7d456f-dd7e-4a36-8434-dc4dd9de121b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedRow property [Windows Accessibility], CachedRow property [Windows Accessibility], IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern, IUIAutomationGridItemPattern interface [Windows Accessibility], CachedRow property, IUIAutomationGridItemPattern.CachedRow, IUIAutomationGridItemPattern::get_CachedRow, get_CachedRow,IUIAutomationGridItemPattern.get_CachedRow, uiauto.uiauto_IUIAutomationGridItemPattern_CachedRow, uiauto_IUIAutomationGridItemPattern_CachedRow, uiautomationclient/IUIAutomationGridItemPattern::CachedRow, uiautomationclient/IUIAutomationGridItemPattern::get_CachedRow, winauto.uiauto_IUIAutomationGridItemPattern_CachedRow
+ms.keywords: CachedRow property [Windows Accessibility], CachedRow property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedRow property, IUIAutomationGridItemPattern.CachedRow, IUIAutomationGridItemPattern.get_CachedRow, IUIAutomationGridItemPattern::CachedRow, IUIAutomationGridItemPattern::get_CachedRow, get_CachedRow, uiauto.uiauto_IUIAutomationGridItemPattern_CachedRow, uiauto_IUIAutomationGridItemPattern_CachedRow, uiautomationclient/IUIAutomationGridItemPattern::CachedRow, uiautomationclient/IUIAutomationGridItemPattern::get_CachedRow, winauto.uiauto_IUIAutomationGridItemPattern_CachedRow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationGridItemPattern::get_CachedRow method
+# IUIAutomationGridItemPattern::get_CachedRow
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IProgressItems.get__NewEnum
-title: IProgressItems::get__NewEnum method
+title: IProgressItems::get__NewEnum
 author: windows-driver-content
 description: Retrieves the list of progress items from the collection.
 old-location: imapi\iprogressitems_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 24528fad-b88c-429a-b5c9-e232e62d3aeb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IProgressItems, IProgressItems interface [IMAPI], get__NewEnum method, IProgressItems::get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI], IProgressItems interface, get__NewEnum,IProgressItems.get__NewEnum, imapi.iprogressitems_get__newenum, imapi2fs/IProgressItems::get__NewEnum
+ms.keywords: IProgressItems interface [IMAPI],get__NewEnum method, IProgressItems.get__NewEnum, IProgressItems::get__NewEnum, get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI],IProgressItems interface, imapi.iprogressitems_get__newenum, imapi2fs/IProgressItems::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IProgressItems::get__NewEnum method
+# IProgressItems::get__NewEnum
 
 
 ## -description

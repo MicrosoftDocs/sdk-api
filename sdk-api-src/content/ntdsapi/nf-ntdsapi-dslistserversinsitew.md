@@ -7,7 +7,7 @@ old-location: ad\dslistserversinsite.htm
 old-project: AD
 ms.assetid: 46773631-d464-4d9e-83e7-aa502599df71
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DsListServersInSite, DsListServersInSite function [Active Directory], DsListServersInSiteA, DsListServersInSiteW, _glines_dslistserversinsite, ad.dslistserversinsite, ntdsapi/DsListServersInSite, ntdsapi/DsListServersInSiteA, ntdsapi/DsListServersInSiteW
 ms.prod: windows-hardware
 ms.technology: windows-devices

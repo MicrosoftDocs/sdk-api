@@ -7,8 +7,8 @@ old-location: dshow\ioverlay.htm
 old-project: DirectShow
 ms.assetid: 2d49888a-7046-4779-9634-d181fa582584
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IOverlay, IOverlay interface [DirectShow], IOverlay interface [DirectShow], described, IOverlayInterface, dshow.ioverlay, strmif/IOverlay
+ms.date: 4/30/2018
+ms.keywords: IOverlay, IOverlay interface [DirectShow], IOverlay interface [DirectShow],described, IOverlayInterface, dshow.ioverlay, strmif/IOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

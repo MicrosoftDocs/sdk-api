@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIDevice.GetAdapter
-title: IDXGIDevice::GetAdapter method
+title: IDXGIDevice::GetAdapter
 author: windows-driver-content
 description: Returns the adapter for the specified device.
 old-location: direct3ddxgi\idxgidevice_getadapter.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_getadapter.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 3bbfc03f-4bda-05eb-f6de-6f2c4564fa75, GetAdapter method [DXGI], GetAdapter method [DXGI], IDXGIDevice interface, GetAdapter,IDXGIDevice.GetAdapter, IDXGIDevice, IDXGIDevice interface [DXGI], GetAdapter method, IDXGIDevice::GetAdapter, direct3ddxgi.idxgidevice_getadapter, dxgi/IDXGIDevice::GetAdapter
+ms.keywords: 3bbfc03f-4bda-05eb-f6de-6f2c4564fa75, GetAdapter, GetAdapter method [DXGI], GetAdapter method [DXGI],IDXGIDevice interface, IDXGIDevice interface [DXGI],GetAdapter method, IDXGIDevice.GetAdapter, IDXGIDevice::GetAdapter, direct3ddxgi.idxgidevice_getadapter, dxgi/IDXGIDevice::GetAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDevice::GetAdapter method
+# IDXGIDevice::GetAdapter
 
 
 ## -description

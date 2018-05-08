@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.DeleteClass
-title: IWbemServices::DeleteClass method
+title: IWbemServices::DeleteClass
 author: windows-driver-content
 description: The IWbemServices::DeleteClass method deletes the specified class from the current namespace.
 old-location: wmi\iwbemservices_deleteclass.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 1266d93a-776c-481d-b343-826a5c808d24
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: DeleteClass method [Windows Management Instrumentation], DeleteClass method [Windows Management Instrumentation], IWbemServices interface, DeleteClass,IWbemServices.DeleteClass, IWbemServices, IWbemServices interface [Windows Management Instrumentation], DeleteClass method, IWbemServices::DeleteClass, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_RETURN_IMMEDIATELY, _hmm_iwbemservices_deleteclass, wbemcli/IWbemServices::DeleteClass, wmi.iwbemservices_deleteclass
+ms.keywords: DeleteClass, DeleteClass method [Windows Management Instrumentation], DeleteClass method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],DeleteClass method, IWbemServices.DeleteClass, IWbemServices::DeleteClass, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_RETURN_IMMEDIATELY, _hmm_iwbemservices_deleteclass, wbemcli/IWbemServices::DeleteClass, wmi.iwbemservices_deleteclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,7 +58,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemServices::DeleteClass method
+# IWbemServices::DeleteClass
 
 
 ## -description

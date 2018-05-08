@@ -7,7 +7,7 @@ old-location: winrt\hstring_userunmarshal64.htm
 old-project: WinRT
 ms.assetid: CD6F7DCD-23D8-4485-9803-142EE9730458
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: HSTRING_UserUnmarshal64, HSTRING_UserUnmarshal64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserUnmarshal64, winrt.hstring_userunmarshal64
 ms.prod: windows-hardware
 ms.technology: windows-devices

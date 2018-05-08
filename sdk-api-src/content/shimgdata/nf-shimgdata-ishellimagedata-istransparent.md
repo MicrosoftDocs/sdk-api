@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsTransparent
-title: IShellImageData::IsTransparent method
+title: IShellImageData::IsTransparent
 author: windows-driver-content
 description: Determines whether the image is transparent.
 old-location: shell\IShellImageData_IsTransparent.htm
 old-project: shell
 ms.assetid: 613d2c01-47d5-41c3-8dba-5b1e1feabdf3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IsTransparent method, IShellImageData::IsTransparent, IsTransparent method [Windows Shell], IsTransparent method [Windows Shell], IShellImageData interface, IsTransparent,IShellImageData.IsTransparent, _shell_IShellImageData_IsTransparent, shell.IShellImageData_IsTransparent, shimgdata/IShellImageData::IsTransparent
+ms.date: 5/3/2018
+ms.keywords: IShellImageData interface [Windows Shell],IsTransparent method, IShellImageData.IsTransparent, IShellImageData::IsTransparent, IsTransparent, IsTransparent method [Windows Shell], IsTransparent method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsTransparent, shell.IShellImageData_IsTransparent, shimgdata/IShellImageData::IsTransparent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::IsTransparent method
+# IShellImageData::IsTransparent
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: dshow\qualitymessagetype.htm
 old-project: DirectShow
 ms.assetid: 54a2239d-bf37-499d-b8c4-f797c1b46933
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: Famine, Flood, QualityMessageType, QualityMessageType enumeration [DirectShow], QualityMessageTypeEnumeration, dshow.qualitymessagetype, strmif/Famine, strmif/Flood, strmif/QualityMessageType, tagQualityMessageType
 ms.prod: windows-hardware
 ms.technology: windows-devices

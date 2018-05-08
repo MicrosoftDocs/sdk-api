@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.SetMirrorState
-title: IMFCaptureSource::SetMirrorState method
+title: IMFCaptureSource::SetMirrorState
 author: windows-driver-content
 description: Enables or disables mirroring of the video preview stream.
 old-location: mf\imfcapturesource_setmirrorstate.htm
 old-project: medfound
 ms.assetid: E170B262-95CD-4434-925A-3573D35FC1DC
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureSource, IMFCaptureSource interface [Media Foundation], SetMirrorState method, IMFCaptureSource::SetMirrorState, SetMirrorState method [Media Foundation], SetMirrorState method [Media Foundation], IMFCaptureSource interface, SetMirrorState,IMFCaptureSource.SetMirrorState, mf.imfcapturesource_setmirrorstate, mf.imfcapturesource_setpreviewmirrorstate, mfcaptureengine/IMFCaptureSource::SetMirrorState
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureSource interface [Media Foundation],SetMirrorState method, IMFCaptureSource.SetMirrorState, IMFCaptureSource::SetMirrorState, SetMirrorState, SetMirrorState method [Media Foundation], SetMirrorState method [Media Foundation],IMFCaptureSource interface, mf.imfcapturesource_setmirrorstate, mf.imfcapturesource_setpreviewmirrorstate, mfcaptureengine/IMFCaptureSource::SetMirrorState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureSource::SetMirrorState method
+# IMFCaptureSource::SetMirrorState
 
 
 ## -description

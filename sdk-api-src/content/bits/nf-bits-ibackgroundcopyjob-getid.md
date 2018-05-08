@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetId
-title: IBackgroundCopyJob::GetId method
+title: IBackgroundCopyJob::GetId
 author: windows-driver-content
 description: Retrieves the identifier used to identify the job in the queue.
 old-location: bits\ibackgroundcopyjob_getid.htm
 old-project: Bits
 ms.assetid: bc214b2e-fbf3-446e-abce-56e515dcfadf
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetId method [BITS], GetId method [BITS], IBackgroundCopyJob interface, GetId,IBackgroundCopyJob.GetId, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetId method, IBackgroundCopyJob::GetId, _drz_ibackgroundcopyjob_getid, bits.ibackgroundcopyjob_getid, bits/IBackgroundCopyJob::GetId
+ms.date: 4/27/2018
+ms.keywords: GetId, GetId method [BITS], GetId method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetId method, IBackgroundCopyJob.GetId, IBackgroundCopyJob::GetId, _drz_ibackgroundcopyjob_getid, bits.ibackgroundcopyjob_getid, bits/IBackgroundCopyJob::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::GetId method
+# IBackgroundCopyJob::GetId
 
 
 ## -description

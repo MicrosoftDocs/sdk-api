@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetLocalFileHeaderSize
-title: IAppxBlockMapFile::GetLocalFileHeaderSize method
+title: IAppxBlockMapFile::GetLocalFileHeaderSize
 author: windows-driver-content
 description: Retrieves the size of the zip local file header of the associated zip file item.
 old-location: appxpkg\iappxblockmapfile_getlocalfileheadersize.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 2BBABACF-089B-4711-B384-627E921B044A
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLocalFileHeaderSize method [App packaging and management], GetLocalFileHeaderSize method [App packaging and management], IAppxBlockMapFile interface, GetLocalFileHeaderSize,IAppxBlockMapFile.GetLocalFileHeaderSize, IAppxBlockMapFile, IAppxBlockMapFile interface [App packaging and management], GetLocalFileHeaderSize method, IAppxBlockMapFile::GetLocalFileHeaderSize, appxpackaging/IAppxBlockMapFile::GetLocalFileHeaderSize, appxpkg.iappxblockmapfile_getlocalfileheadersize
+ms.keywords: GetLocalFileHeaderSize, GetLocalFileHeaderSize method [App packaging and management], GetLocalFileHeaderSize method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetLocalFileHeaderSize method, IAppxBlockMapFile.GetLocalFileHeaderSize, IAppxBlockMapFile::GetLocalFileHeaderSize, appxpackaging/IAppxBlockMapFile::GetLocalFileHeaderSize, appxpkg.iappxblockmapfile_getlocalfileheadersize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapFile::GetLocalFileHeaderSize method
+# IAppxBlockMapFile::GetLocalFileHeaderSize
 
 
 ## -description

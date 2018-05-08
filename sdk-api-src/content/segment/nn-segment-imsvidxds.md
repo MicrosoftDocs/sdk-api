@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ddd172fe-2f93-4b1b-b325-81be024bf74c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidXDS, IMSVidXDS interface [Microsoft TV Technologies], IMSVidXDS interface [Microsoft TV Technologies], described, IMSVidXDSInterface, mstv.imsvidxds, segment/IMSVidXDS
+ms.keywords: IMSVidXDS, IMSVidXDS interface [Microsoft TV Technologies], IMSVidXDS interface [Microsoft TV Technologies],described, IMSVidXDSInterface, mstv.imsvidxds, segment/IMSVidXDS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

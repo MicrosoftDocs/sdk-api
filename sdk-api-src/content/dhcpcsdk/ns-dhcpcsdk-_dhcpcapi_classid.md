@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcapi_classid.htm
 old-project: DHCP
 ms.assetid: ef1167cb-fcfb-4de3-8b3c-d306f69472f3
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCPCAPI_CLASSID, *LPDHCPCAPI_CLASSID structure [DHCP], *PDHCPCAPI_CLASSID, *PDHCPCAPI_CLASSID structure [DHCP], DHCPCAPI_CLASSID, DHCPCAPI_CLASSID structure [DHCP], _DHCPCAPI_CLASSID, dhcp.dhcpcapi_classid, dhcpcsdk/*LPDHCPCAPI_CLASSID, dhcpcsdk/*PDHCPCAPI_CLASSID, dhcpcsdk/DHCPCAPI_CLASSID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,6 +60,16 @@ The <b>DHCPCAPI_CLASSID</b> structure defines a client Class ID.
 ### -field Flags
 
 Reserved. Must be set to zero.
+
+
+### -field Data.size_is
+
+ 
+
+
+### -field Data.size_is.nBytesData
+
+ 
 
 
 ### -field Data

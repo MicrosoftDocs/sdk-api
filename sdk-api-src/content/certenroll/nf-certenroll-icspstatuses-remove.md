@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatuses.Remove
-title: ICspStatuses::Remove method
+title: ICspStatuses::Remove
 author: windows-driver-content
 description: Removes an ICspStatus object from the collection by index number.
 old-location: security\icspstatuses_remove_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: de8a2598-6108-41af-b049-3b981d880e80
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspStatuses, ICspStatuses interface [Security], Remove method, ICspStatuses::Remove, Remove method [Security], Remove method [Security], ICspStatuses interface, Remove,ICspStatuses.Remove, certenroll/ICspStatuses::Remove, security.icspstatuses_remove_method
+ms.keywords: ICspStatuses interface [Security],Remove method, ICspStatuses.Remove, ICspStatuses::Remove, Remove, Remove method [Security], Remove method [Security],ICspStatuses interface, certenroll/ICspStatuses::Remove, security.icspstatuses_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspStatuses::Remove method
+# ICspStatuses::Remove
 
 
 ## -description

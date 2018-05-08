@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetTransportAudioParameters
-title: IAMExtTransport::SetTransportAudioParameters method
+title: IAMExtTransport::SetTransportAudioParameters
 author: windows-driver-content
 description: The SetTransportAudioParameters assigns audio parameter settings for external transport.
 old-location: dshow\iamexttransport_settransportaudioparameters.htm
 old-project: DirectShow
 ms.assetid: e013dd73-7276-48b3-bf5f-ffb4b3d49419
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], SetTransportAudioParameters method, IAMExtTransport::SetTransportAudioParameters, IAMExtTransportSetTransportAudioParameters, SetTransportAudioParameters method [DirectShow], SetTransportAudioParameters method [DirectShow], IAMExtTransport interface, SetTransportAudioParameters,IAMExtTransport.SetTransportAudioParameters, dshow.iamexttransport_settransportaudioparameters, strmif/IAMExtTransport::SetTransportAudioParameters
+ms.date: 4/30/2018
+ms.keywords: IAMExtTransport interface [DirectShow],SetTransportAudioParameters method, IAMExtTransport.SetTransportAudioParameters, IAMExtTransport::SetTransportAudioParameters, IAMExtTransportSetTransportAudioParameters, SetTransportAudioParameters, SetTransportAudioParameters method [DirectShow], SetTransportAudioParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportaudioparameters, strmif/IAMExtTransport::SetTransportAudioParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::SetTransportAudioParameters method
+# IAMExtTransport::SetTransportAudioParameters
 
 
 ## -description

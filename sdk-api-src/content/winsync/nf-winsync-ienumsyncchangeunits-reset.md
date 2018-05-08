@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Reset
-title: IEnumSyncChangeUnits::Reset method
+title: IEnumSyncChangeUnits::Reset
 author: windows-driver-content
 description: Resets the enumerator to the beginning of the list.
 old-location: winsync\ienumsyncchangeunits_reset.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 7d9bd900-dda3-4deb-ab38-484842873dea
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumSyncChangeUnits, IEnumSyncChangeUnits interface [Windows Sync], Reset method, IEnumSyncChangeUnits::Reset, Reset method [Windows Sync], Reset method [Windows Sync], IEnumSyncChangeUnits interface, Reset,IEnumSyncChangeUnits.Reset, winsync.ienumsyncchangeunits_reset, winsync/IEnumSyncChangeUnits::Reset
+ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Reset method, IEnumSyncChangeUnits.Reset, IEnumSyncChangeUnits::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_reset, winsync/IEnumSyncChangeUnits::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumSyncChangeUnits::Reset method
+# IEnumSyncChangeUnits::Reset
 
 
 ## -description

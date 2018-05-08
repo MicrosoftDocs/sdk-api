@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2MasteringVoice.GetChannelMask
-title: IXAudio2MasteringVoice::GetChannelMask method
+title: IXAudio2MasteringVoice::GetChannelMask
 author: windows-driver-content
 description: Returns the channel mask for this voice.
 old-location: xaudio2\ixaudio2masteringvoice_interface_getchannelmask.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2masteringvoice.IXAudio2MasteringVoice.GetChannelMask(DWORD@)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: GetChannelMask method [XAudio2 Audio Mixing APIs], GetChannelMask method [XAudio2 Audio Mixing APIs], IXAudio2MasteringVoice interface, GetChannelMask,IXAudio2MasteringVoice.GetChannelMask, IXAudio2MasteringVoice, IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs], GetChannelMask method, IXAudio2MasteringVoice::GetChannelMask, xaudio2.ixaudio2masteringvoice_interface_getchannelmask, xaudio2/IXAudio2MasteringVoice::GetChannelMask
+ms.keywords: GetChannelMask, GetChannelMask method [XAudio2 Audio Mixing APIs], GetChannelMask method [XAudio2 Audio Mixing APIs],IXAudio2MasteringVoice interface, IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs],GetChannelMask method, IXAudio2MasteringVoice.GetChannelMask, IXAudio2MasteringVoice::GetChannelMask, xaudio2.ixaudio2masteringvoice_interface_getchannelmask, xaudio2/IXAudio2MasteringVoice::GetChannelMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2MasteringVoice::GetChannelMask method
+# IXAudio2MasteringVoice::GetChannelMask
 
 
 ## -description

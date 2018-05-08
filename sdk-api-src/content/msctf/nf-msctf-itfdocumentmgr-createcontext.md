@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.CreateContext
-title: ITfDocumentMgr::CreateContext method
+title: ITfDocumentMgr::CreateContext
 author: windows-driver-content
 description: ITfDocumentMgr::CreateContext method
 old-location: tsf\itfdocumentmgr_createcontext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 1415f338-731c-44c5-b798-edf823174272
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: CreateContext method [Text Services Framework], CreateContext method [Text Services Framework], ITfDocumentMgr interface, CreateContext,ITfDocumentMgr.CreateContext, ITfDocumentMgr, ITfDocumentMgr interface [Text Services Framework], CreateContext method, ITfDocumentMgr::CreateContext, _tsf_itfdocumentmgr_createcontext_ref, msctf/ITfDocumentMgr::CreateContext, tsf.itfdocumentmgr_createcontext
+ms.keywords: CreateContext, CreateContext method [Text Services Framework], CreateContext method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],CreateContext method, ITfDocumentMgr.CreateContext, ITfDocumentMgr::CreateContext, _tsf_itfdocumentmgr_createcontext_ref, msctf/ITfDocumentMgr::CreateContext, tsf.itfdocumentmgr_createcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfDocumentMgr::CreateContext method
+# ITfDocumentMgr::CreateContext
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.WndProcBS
-title: IBrowserService2::WndProcBS method
+title: IBrowserService2::WndProcBS
 author: windows-driver-content
 description: Deprecated. Allows a derived class to call the WinProc function of the base class.
 old-location: shell\IBrowserService2_WndProcBS.htm
 old-project: shell
 ms.assetid: d45877ac-2f0b-4130-9197-83f6e366ee19
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], WndProcBS method, IBrowserService2::WndProcBS, WndProcBS method [Windows Shell], WndProcBS method [Windows Shell], IBrowserService2 interface, WndProcBS,IBrowserService2.WndProcBS, shdeprecated/IBrowserService2::WndProcBS, shell.IBrowserService2_WndProcBS, zone_IBrowserService2_WndProcBS
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],WndProcBS method, IBrowserService2.WndProcBS, IBrowserService2::WndProcBS, WndProcBS, WndProcBS method [Windows Shell], WndProcBS method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::WndProcBS, shell.IBrowserService2_WndProcBS, zone_IBrowserService2_WndProcBS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::WndProcBS method
+# IBrowserService2::WndProcBS
 
 
 ## -description

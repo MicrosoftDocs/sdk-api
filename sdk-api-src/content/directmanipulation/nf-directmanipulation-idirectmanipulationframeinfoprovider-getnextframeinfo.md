@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationFrameInfoProvider.GetNextFrameInfo
-title: IDirectManipulationFrameInfoProvider::GetNextFrameInfo method
+title: IDirectManipulationFrameInfoProvider::GetNextFrameInfo
 author: windows-driver-content
 description: Retrieves the composition timing information from the compositor.
 old-location: directmanipulation\idirectmanipulationframeinfoprovider_getnextframeinfo.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 3f561b81-241f-4f7a-bb5f-a89faf253c98
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetNextFrameInfo method [Direct Manipulation], GetNextFrameInfo method [Direct Manipulation], IDirectManipulationFrameInfoProvider interface, GetNextFrameInfo,IDirectManipulationFrameInfoProvider.GetNextFrameInfo, IDirectManipulationFrameInfoProvider, IDirectManipulationFrameInfoProvider interface [Direct Manipulation], GetNextFrameInfo method, IDirectManipulationFrameInfoProvider::GetNextFrameInfo, directmanipulation.idirectmanipulationframeinfoprovider_getnextframeinfo, directmanipulation/IDirectManipulationFrameInfoProvider::GetNextFrameInfo
+ms.keywords: GetNextFrameInfo, GetNextFrameInfo method [Direct Manipulation], GetNextFrameInfo method [Direct Manipulation],IDirectManipulationFrameInfoProvider interface, IDirectManipulationFrameInfoProvider interface [Direct Manipulation],GetNextFrameInfo method, IDirectManipulationFrameInfoProvider.GetNextFrameInfo, IDirectManipulationFrameInfoProvider::GetNextFrameInfo, directmanipulation.idirectmanipulationframeinfoprovider_getnextframeinfo, directmanipulation/IDirectManipulationFrameInfoProvider::GetNextFrameInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationFrameInfoProvider::GetNextFrameInfo method
+# IDirectManipulationFrameInfoProvider::GetNextFrameInfo
 
 
 ## -description

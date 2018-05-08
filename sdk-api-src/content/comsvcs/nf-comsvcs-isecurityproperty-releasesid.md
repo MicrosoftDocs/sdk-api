@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.ReleaseSID
-title: ISecurityProperty::ReleaseSID method
+title: ISecurityProperty::ReleaseSID
 author: windows-driver-content
 description: Releases the security identifier returned by one of the other ISecurityProperty methods.
 old-location: cos\isecurityproperty_releasesid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 572bf3fd-eb85-40de-b607-26b77b9d9cf8
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ISecurityProperty, ISecurityProperty interface [COM+], ReleaseSID method, ISecurityProperty::ReleaseSID, ReleaseSID method [COM+], ReleaseSID method [COM+], ISecurityProperty interface, ReleaseSID,ISecurityProperty.ReleaseSID, _cos_ISecurityProperty_ReleaseSID, comsvcs/ISecurityProperty::ReleaseSID, cos.isecurityproperty_releasesid
+ms.keywords: ISecurityProperty interface [COM+],ReleaseSID method, ISecurityProperty.ReleaseSID, ISecurityProperty::ReleaseSID, ReleaseSID, ReleaseSID method [COM+], ReleaseSID method [COM+],ISecurityProperty interface, _cos_ISecurityProperty_ReleaseSID, comsvcs/ISecurityProperty::ReleaseSID, cos.isecurityproperty_releasesid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISecurityProperty::ReleaseSID method
+# ISecurityProperty::ReleaseSID
 
 
 ## -description

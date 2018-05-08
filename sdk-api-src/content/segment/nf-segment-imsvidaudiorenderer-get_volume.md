@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRenderer.get_Volume
-title: IMSVidAudioRenderer::get_Volume method
+title: IMSVidAudioRenderer::get_Volume
 author: windows-driver-content
 description: The get_Volume method retrieves the audio renderer's volume level.
 old-location: mstv\imsvidaudiorenderer_get_volume.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7dbbdb17-b077-4e36-a5d4-c8e343feb930
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidAudioRenderer, IMSVidAudioRenderer interface [Microsoft TV Technologies], get_Volume method, IMSVidAudioRenderer::get_Volume, IMSVidAudioRendererget_Volume, get_Volume method [Microsoft TV Technologies], get_Volume method [Microsoft TV Technologies], IMSVidAudioRenderer interface, get_Volume,IMSVidAudioRenderer.get_Volume, mstv.imsvidaudiorenderer_get_volume, segment/IMSVidAudioRenderer::get_Volume
+ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],get_Volume method, IMSVidAudioRenderer.get_Volume, IMSVidAudioRenderer::get_Volume, IMSVidAudioRendererget_Volume, get_Volume, get_Volume method [Microsoft TV Technologies], get_Volume method [Microsoft TV Technologies],IMSVidAudioRenderer interface, mstv.imsvidaudiorenderer_get_volume, segment/IMSVidAudioRenderer::get_Volume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidAudioRenderer::get_Volume method
+# IMSVidAudioRenderer::get_Volume
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.SetLocalAddress
-title: IWSDMessageParameters::SetLocalAddress method
+title: IWSDMessageParameters::SetLocalAddress
 author: windows-driver-content
 description: Sets a generic address object representing the source address that should send the message.
 old-location: ncd\iwsdmessageparameters_setlocaladdress.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 8266f091-9c88-44eb-a32b-1ff3da5fa10e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDMessageParameters, IWSDMessageParameters interface, SetLocalAddress method, IWSDMessageParameters::SetLocalAddress, SetLocalAddress method, SetLocalAddress method, IWSDMessageParameters interface, SetLocalAddress,IWSDMessageParameters.SetLocalAddress, ncd.iwsdmessageparameters_setlocaladdress, wsdbase/IWSDMessageParameters::SetLocalAddress
+ms.keywords: IWSDMessageParameters interface,SetLocalAddress method, IWSDMessageParameters.SetLocalAddress, IWSDMessageParameters::SetLocalAddress, SetLocalAddress, SetLocalAddress method, SetLocalAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setlocaladdress, wsdbase/IWSDMessageParameters::SetLocalAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDMessageParameters::SetLocalAddress method
+# IWSDMessageParameters::SetLocalAddress
 
 
 ## -description

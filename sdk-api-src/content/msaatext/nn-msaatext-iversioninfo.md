@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: a149466a-a274-495a-a6cd-1553205abc07
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IVersionInfo, IVersionInfo interface [Windows Accessibility], IVersionInfo interface [Windows Accessibility], described, msaa.iversioninfo, msaatext/IVersionInfo, winauto.iversioninfo
+ms.keywords: IVersionInfo, IVersionInfo interface [Windows Accessibility], IVersionInfo interface [Windows Accessibility],described, msaa.iversioninfo, msaatext/IVersionInfo, winauto.iversioninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

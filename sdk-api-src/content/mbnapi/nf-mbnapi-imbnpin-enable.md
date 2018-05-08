@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.Enable
-title: IMbnPin::Enable method
+title: IMbnPin::Enable
 author: windows-driver-content
 description: Enables a PIN.
 old-location: mbn\imbnpin_enable.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: bbdd767b-f08a-4e94-bccf-9ed0d1b4af29
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Enable method [Microsoft Broadband Networks], Enable method [Microsoft Broadband Networks], IMbnPin interface, Enable,IMbnPin.Enable, IMbnPin, IMbnPin interface [Microsoft Broadband Networks], Enable method, IMbnPin::Enable, mbn.imbnpin_enable, mbnapi/IMbnPin::Enable
+ms.keywords: Enable, Enable method [Microsoft Broadband Networks], Enable method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Enable method, IMbnPin.Enable, IMbnPin::Enable, mbn.imbnpin_enable, mbnapi/IMbnPin::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnPin::Enable method
+# IMbnPin::Enable
 
 
 ## -description

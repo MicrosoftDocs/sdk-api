@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 229e8ce9-fe18-45f4-8f91-cd741052a134
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyDescription, ICertPropertyDescription interface [Security], ICertPropertyDescription interface [Security], described, certenroll/ICertPropertyDescription, security.icertpropertydescription
+ms.keywords: ICertPropertyDescription, ICertPropertyDescription interface [Security], ICertPropertyDescription interface [Security],described, certenroll/ICertPropertyDescription, security.icertpropertydescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

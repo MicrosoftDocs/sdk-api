@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteFuncDescByMemId
-title: ICreateTypeInfo2::DeleteFuncDescByMemId method
+title: ICreateTypeInfo2::DeleteFuncDescByMemId
 author: windows-driver-content
 description: Deletes the specified function description (FUNCDESC).
 old-location: automat\icreatetypeinfo2_deletefuncdescbymemid.htm
 old-project: automat
 ms.assetid: 75de562b-3c08-4bab-957a-3a9eab16fb3f
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: DeleteFuncDescByMemId method [Automation], DeleteFuncDescByMemId method [Automation], ICreateTypeInfo2 interface, DeleteFuncDescByMemId,ICreateTypeInfo2.DeleteFuncDescByMemId, ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], DeleteFuncDescByMemId method, ICreateTypeInfo2::DeleteFuncDescByMemId, _oa96_ICreateTypeInfo2_DeleteFuncDescByMemId, automat.icreatetypeinfo2_deletefuncdescbymemid, oaidl/ICreateTypeInfo2::DeleteFuncDescByMemId
+ms.date: 5/4/2018
+ms.keywords: DeleteFuncDescByMemId, DeleteFuncDescByMemId method [Automation], DeleteFuncDescByMemId method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteFuncDescByMemId method, ICreateTypeInfo2.DeleteFuncDescByMemId, ICreateTypeInfo2::DeleteFuncDescByMemId, _oa96_ICreateTypeInfo2_DeleteFuncDescByMemId, automat.icreatetypeinfo2_deletefuncdescbymemid, oaidl/ICreateTypeInfo2::DeleteFuncDescByMemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo2::DeleteFuncDescByMemId method
+# ICreateTypeInfo2::DeleteFuncDescByMemId
 
 
 ## -description

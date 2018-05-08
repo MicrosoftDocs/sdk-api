@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetRecordCountOfDescriptors
-title: IDVB_EIT::GetRecordCountOfDescriptors method
+title: IDVB_EIT::GetRecordCountOfDescriptors
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_getrecordcountofdescriptors.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 85cb6ca7-552d-4d50-ac7f-4a0cb9ec4ad4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies], IDVB_EIT interface, GetRecordCountOfDescriptors,IDVB_EIT.GetRecordCountOfDescriptors, IDVB_EIT, IDVB_EIT interface [Microsoft TV Technologies], GetRecordCountOfDescriptors method, IDVB_EIT::GetRecordCountOfDescriptors, IDVB_EITGetRecordCountOfDescriptors, dvbsiparser/IDVB_EIT::GetRecordCountOfDescriptors, mstv.idvb_eit_getrecordcountofdescriptors
+ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IDVB_EIT.GetRecordCountOfDescriptors, IDVB_EIT::GetRecordCountOfDescriptors, IDVB_EITGetRecordCountOfDescriptors, dvbsiparser/IDVB_EIT::GetRecordCountOfDescriptors, mstv.idvb_eit_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_EIT::GetRecordCountOfDescriptors method
+# IDVB_EIT::GetRecordCountOfDescriptors
 
 
 ## -description

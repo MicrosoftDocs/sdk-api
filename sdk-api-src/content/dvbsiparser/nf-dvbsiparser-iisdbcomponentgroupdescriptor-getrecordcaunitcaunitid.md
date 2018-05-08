@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordCAUnitCAUnitId
-title: IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId method
+title: IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId
 author: windows-driver-content
 description: Gets a conditional access unit identifier from a specified component group record in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordcaunitcaunitid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 97aa98b7-d676-44ad-be93-e58d996a8a6a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordCAUnitCAUnitId method [Microsoft TV Technologies], GetRecordCAUnitCAUnitId method [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface, GetRecordCAUnitCAUnitId,IIsdbComponentGroupDescriptor.GetRecordCAUnitCAUnitId, IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], GetRecordCAUnitCAUnitId method, IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId, mstv.iisdbcomponentgroupdescriptor_getrecordcaunitcaunitid
+ms.keywords: GetRecordCAUnitCAUnitId, GetRecordCAUnitCAUnitId method [Microsoft TV Technologies], GetRecordCAUnitCAUnitId method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordCAUnitCAUnitId method, IIsdbComponentGroupDescriptor.GetRecordCAUnitCAUnitId, IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId, mstv.iisdbcomponentgroupdescriptor_getrecordcaunitcaunitid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId method
+# IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId
 
 
 ## -description

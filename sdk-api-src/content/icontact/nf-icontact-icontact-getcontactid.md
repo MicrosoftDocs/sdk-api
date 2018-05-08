@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContact.GetContactID
-title: IContact::GetContactID method
+title: IContact::GetContactID
 author: windows-driver-content
 description: Retrieves the local computer unique contact ID.
 old-location: wincontacts\_wincontacts_IContact_GetContactID.htm
@@ -8,7 +8,7 @@ old-project: wincontacts
 ms.assetid: 25daa44f-2042-4116-b0dd-4f16857cbb0b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetContactID method [Windows Contacts], GetContactID method [Windows Contacts], IContact interface, GetContactID,IContact.GetContactID, IContact, IContact interface [Windows Contacts], GetContactID method, IContact::GetContactID, _wincontacts_IContact_GetContactID, icontact/IContact::GetContactID, wincontacts._wincontacts_IContact_GetContactID
+ms.keywords: GetContactID, GetContactID method [Windows Contacts], GetContactID method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],GetContactID method, IContact.GetContactID, IContact::GetContactID, _wincontacts_IContact_GetContactID, icontact/IContact::GetContactID, wincontacts._wincontacts_IContact_GetContactID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IContact::GetContactID method
+# IContact::GetContactID
 
 
 ## -description

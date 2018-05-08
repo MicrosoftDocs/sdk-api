@@ -1,14 +1,14 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetRedrawAlways
-title: IAMLine21Decoder::SetRedrawAlways method
+title: IAMLine21Decoder::SetRedrawAlways
 author: windows-driver-content
 description: The SetRedrawAlways method specifies whether the Line 21 Decoder filter redraws the entire output bitmap for each sample.
 old-location: dshow\iamline21decoder_setredrawalways.htm
 old-project: DirectShow
 ms.assetid: 20f2e95a-8362-457d-b562-f7263e698551
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], SetRedrawAlways method, IAMLine21Decoder::SetRedrawAlways, IAMLine21DecoderSetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow], IAMLine21Decoder interface, SetRedrawAlways,IAMLine21Decoder.SetRedrawAlways, dshow.iamline21decoder_setredrawalways, il21dec/IAMLine21Decoder::SetRedrawAlways
+ms.date: 4/30/2018
+ms.keywords: IAMLine21Decoder interface [DirectShow],SetRedrawAlways method, IAMLine21Decoder.SetRedrawAlways, IAMLine21Decoder::SetRedrawAlways, IAMLine21DecoderSetRedrawAlways, SetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setredrawalways, il21dec/IAMLine21Decoder::SetRedrawAlways
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMLine21Decoder::SetRedrawAlways method
+# IAMLine21Decoder::SetRedrawAlways
 
 
 ## -description

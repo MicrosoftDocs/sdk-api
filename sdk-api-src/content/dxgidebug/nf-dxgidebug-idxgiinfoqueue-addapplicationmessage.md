@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.AddApplicationMessage
-title: IDXGIInfoQueue::AddApplicationMessage method
+title: IDXGIInfoQueue::AddApplicationMessage
 author: windows-driver-content
 description: Adds a user-defined message to the message queue and sends that message to the debug output.
 old-location: direct3ddxgi\idxgiinfoqueue_addapplicationmessage.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 30245BF0-C0AF-4780-A55F-D55A331427FA
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: AddApplicationMessage method [DXGI], AddApplicationMessage method [DXGI], IDXGIInfoQueue interface, AddApplicationMessage,IDXGIInfoQueue.AddApplicationMessage, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], AddApplicationMessage method, IDXGIInfoQueue::AddApplicationMessage, direct3ddxgi.idxgiinfoqueue_addapplicationmessage, dxgidebug/IDXGIInfoQueue::AddApplicationMessage
+ms.keywords: AddApplicationMessage, AddApplicationMessage method [DXGI], AddApplicationMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddApplicationMessage method, IDXGIInfoQueue.AddApplicationMessage, IDXGIInfoQueue::AddApplicationMessage, direct3ddxgi.idxgiinfoqueue_addapplicationmessage, dxgidebug/IDXGIInfoQueue::AddApplicationMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::AddApplicationMessage method
+# IDXGIInfoQueue::AddApplicationMessage
 
 
 ## -description

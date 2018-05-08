@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: beedb57c-1c89-4d16-8514-046e3071fd1e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICryptAttributes, ICryptAttributes interface [Security], ICryptAttributes interface [Security], described, certenroll/ICryptAttributes, security.icryptattributes
+ms.keywords: ICryptAttributes, ICryptAttributes interface [Security], ICryptAttributes interface [Security],described, certenroll/ICryptAttributes, security.icryptattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

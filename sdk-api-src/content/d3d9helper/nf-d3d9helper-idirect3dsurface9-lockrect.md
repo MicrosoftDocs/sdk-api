@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DSurface9.LockRect
-title: IDirect3DSurface9::LockRect method
+title: IDirect3DSurface9::LockRect
 author: windows-driver-content
 description: Locks a rectangle on a surface.
 old-location: direct3d9\idirect3dsurface9__lockrect.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__lockrect.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 95e6910d-b701-2649-b38f-7c2f4fe99c47, IDirect3DSurface9, IDirect3DSurface9 interface [Direct3D 9], LockRect method, IDirect3DSurface9::LockRect, LockRect method [Direct3D 9], LockRect method [Direct3D 9], IDirect3DSurface9 interface, LockRect,IDirect3DSurface9.LockRect, d3d9helper/IDirect3DSurface9::LockRect, direct3d9.idirect3dsurface9__lockrect
+ms.keywords: 95e6910d-b701-2649-b38f-7c2f4fe99c47, IDirect3DSurface9 interface [Direct3D 9],LockRect method, IDirect3DSurface9.LockRect, IDirect3DSurface9::LockRect, LockRect, LockRect method [Direct3D 9], LockRect method [Direct3D 9],IDirect3DSurface9 interface, d3d9helper/IDirect3DSurface9::LockRect, direct3d9.idirect3dsurface9__lockrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DSurface9::LockRect method
+# IDirect3DSurface9::LockRect
 
 
 ## -description

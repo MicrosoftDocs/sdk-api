@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.ShowFloating
-title: ITfLangBarEventSink::ShowFloating method
+title: ITfLangBarEventSink::ShowFloating
 author: windows-driver-content
 description: ITfLangBarEventSink::ShowFloating method
 old-location: tsf\itflangbareventsink_showfloating.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: f667762a-f276-4311-827e-f89eca7eba1e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarEventSink, ITfLangBarEventSink interface [Text Services Framework], ShowFloating method, ITfLangBarEventSink::ShowFloating, ShowFloating method [Text Services Framework], ShowFloating method [Text Services Framework], ITfLangBarEventSink interface, ShowFloating,ITfLangBarEventSink.ShowFloating, _tsf_itflangbareventsink_showfloating_ref, ctfutb/ITfLangBarEventSink::ShowFloating, tsf.itflangbareventsink_showfloating
+ms.keywords: ITfLangBarEventSink interface [Text Services Framework],ShowFloating method, ITfLangBarEventSink.ShowFloating, ITfLangBarEventSink::ShowFloating, ShowFloating, ShowFloating method [Text Services Framework], ShowFloating method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_showfloating_ref, ctfutb/ITfLangBarEventSink::ShowFloating, tsf.itflangbareventsink_showfloating
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msutb.dll
 req.irql: 
 ---
 
-# ITfLangBarEventSink::ShowFloating method
+# ITfLangBarEventSink::ShowFloating
 
 
 ## -description

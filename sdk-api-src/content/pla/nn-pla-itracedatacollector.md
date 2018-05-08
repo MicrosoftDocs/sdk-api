@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 1f57aa92-81f0-445f-baa3-274714e8291e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], ITraceDataCollector interface [PLA], described, base.itracedatacollector, pla.itracedatacollector, pla/ITraceDataCollector
+ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], ITraceDataCollector interface [PLA],described, base.itracedatacollector, pla.itracedatacollector, pla/ITraceDataCollector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

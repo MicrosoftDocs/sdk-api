@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IConstructReplicaKeyMap.FindOrAddReplica
-title: IConstructReplicaKeyMap::FindOrAddReplica method
+title: IConstructReplicaKeyMap::FindOrAddReplica
 author: windows-driver-content
 description: Adds entries to or finds entries in an IReplicaKeyMap object.
 old-location: winsync\iconstructreplicakeymap_findoraddreplica.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 10cf616c-a082-4a74-99bb-1b0b364291e5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: FindOrAddReplica method [Windows Sync], FindOrAddReplica method [Windows Sync], IConstructReplicaKeyMap interface, FindOrAddReplica,IConstructReplicaKeyMap.FindOrAddReplica, IConstructReplicaKeyMap, IConstructReplicaKeyMap interface [Windows Sync], FindOrAddReplica method, IConstructReplicaKeyMap::FindOrAddReplica, winsync.iconstructreplicakeymap_findoraddreplica, winsync/IConstructReplicaKeyMap::FindOrAddReplica
+ms.keywords: FindOrAddReplica, FindOrAddReplica method [Windows Sync], FindOrAddReplica method [Windows Sync],IConstructReplicaKeyMap interface, IConstructReplicaKeyMap interface [Windows Sync],FindOrAddReplica method, IConstructReplicaKeyMap.FindOrAddReplica, IConstructReplicaKeyMap::FindOrAddReplica, winsync.iconstructreplicakeymap_findoraddreplica, winsync/IConstructReplicaKeyMap::FindOrAddReplica
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IConstructReplicaKeyMap::FindOrAddReplica method
+# IConstructReplicaKeyMap::FindOrAddReplica
 
 
 ## -description

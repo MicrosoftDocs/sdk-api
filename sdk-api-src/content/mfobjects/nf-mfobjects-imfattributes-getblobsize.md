@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetBlobSize
-title: IMFAttributes::GetBlobSize method
+title: IMFAttributes::GetBlobSize
 author: windows-driver-content
 description: Retrieves the length of a byte array associated with a key.
 old-location: mf\imfattributes_getblobsize.htm
 old-project: medfound
 ms.assetid: 93ab65e7-2168-4cfb-a871-b39554ba66e0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 93ab65e7-2168-4cfb-a871-b39554ba66e0, GetBlobSize method [Media Foundation], GetBlobSize method [Media Foundation], IMFAttributes interface, GetBlobSize,IMFAttributes.GetBlobSize, IMFAttributes, IMFAttributes interface [Media Foundation], GetBlobSize method, IMFAttributes::GetBlobSize, mf.imfattributes_getblobsize, mfobjects/IMFAttributes::GetBlobSize
+ms.date: 5/3/2018
+ms.keywords: 93ab65e7-2168-4cfb-a871-b39554ba66e0, GetBlobSize, GetBlobSize method [Media Foundation], GetBlobSize method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetBlobSize method, IMFAttributes.GetBlobSize, IMFAttributes::GetBlobSize, mf.imfattributes_getblobsize, mfobjects/IMFAttributes::GetBlobSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAttributes::GetBlobSize method
+# IMFAttributes::GetBlobSize
 
 
 ## -description

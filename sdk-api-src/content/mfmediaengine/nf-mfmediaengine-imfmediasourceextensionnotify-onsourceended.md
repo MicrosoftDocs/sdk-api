@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtensionNotify.OnSourceEnded
-title: IMFMediaSourceExtensionNotify::OnSourceEnded method
+title: IMFMediaSourceExtensionNotify::OnSourceEnded
 author: windows-driver-content
 description: Used to indicate that the media source has ended.
 old-location: mf\imfmediasourceextensionnotify_onsourceended.htm
 old-project: medfound
 ms.assetid: 2ce65194-fb52-41e7-9ca4-d1e65fbbbeb0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaSourceExtensionNotify, IMFMediaSourceExtensionNotify interface [Media Foundation], OnSourceEnded method, IMFMediaSourceExtensionNotify::OnSourceEnded, OnSourceEnded method [Media Foundation], OnSourceEnded method [Media Foundation], IMFMediaSourceExtensionNotify interface, OnSourceEnded,IMFMediaSourceExtensionNotify.OnSourceEnded, mf.imfmediasourceextensionnotify_onsourceended, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceEnded
+ms.date: 5/3/2018
+ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceEnded method, IMFMediaSourceExtensionNotify.OnSourceEnded, IMFMediaSourceExtensionNotify::OnSourceEnded, OnSourceEnded, OnSourceEnded method [Media Foundation], OnSourceEnded method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceended, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceEnded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSourceExtensionNotify::OnSourceEnded method
+# IMFMediaSourceExtensionNotify::OnSourceEnded
 
 
 ## -description

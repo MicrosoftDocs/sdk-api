@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.GetOutputProtectionVersion
-title: IMFSampleProtection::GetOutputProtectionVersion method
+title: IMFSampleProtection::GetOutputProtectionVersion
 author: windows-driver-content
 description: Retrieves the version of sample protection that the component implements on output.
 old-location: mf\imfsampleprotection_getoutputprotectionversion.htm
 old-project: medfound
 ms.assetid: 607e6123-0cfa-4946-b390-1c44e502b2db
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 607e6123-0cfa-4946-b390-1c44e502b2db, GetOutputProtectionVersion method [Media Foundation], GetOutputProtectionVersion method [Media Foundation], IMFSampleProtection interface, GetOutputProtectionVersion,IMFSampleProtection.GetOutputProtectionVersion, IMFSampleProtection, IMFSampleProtection interface [Media Foundation], GetOutputProtectionVersion method, IMFSampleProtection::GetOutputProtectionVersion, mf.imfsampleprotection_getoutputprotectionversion, mfidl/IMFSampleProtection::GetOutputProtectionVersion
+ms.date: 5/3/2018
+ms.keywords: 607e6123-0cfa-4946-b390-1c44e502b2db, GetOutputProtectionVersion, GetOutputProtectionVersion method [Media Foundation], GetOutputProtectionVersion method [Media Foundation],IMFSampleProtection interface, IMFSampleProtection interface [Media Foundation],GetOutputProtectionVersion method, IMFSampleProtection.GetOutputProtectionVersion, IMFSampleProtection::GetOutputProtectionVersion, mf.imfsampleprotection_getoutputprotectionversion, mfidl/IMFSampleProtection::GetOutputProtectionVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSampleProtection::GetOutputProtectionVersion method
+# IMFSampleProtection::GetOutputProtectionVersion
 
 
 ## -description

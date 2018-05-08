@@ -8,7 +8,7 @@ old-project: PerfCtrs
 ms.assetid: a18d2546-642b-4e83-be05-4b4aae1f2d2c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
-ms.keywords: "*PPERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY structure [Perf], PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY structure [Perf], _PERF_COUNTER_IDENTITY, base.perf_counter_identity, perf.perf_counter_identity, perflib/PERF_COUNTER_IDENTITY"
+ms.keywords: "*PPERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY structure [Perf], PERF_COUNTER_IDENTITY,*PPERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY,*PPERF_COUNTER_IDENTITY structure [Perf], _PERF_COUNTER_IDENTITY, base.perf_counter_identity, perf.perf_counter_identity, perflib/PERF_COUNTER_IDENTITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

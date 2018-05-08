@@ -1,14 +1,14 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.DestroyEffect
-title: IDirectInputEffectDriver::DestroyEffect method
+title: IDirectInputEffectDriver::DestroyEffect
 author: windows-driver-content
 description: The IDirectInputEffectDriver::DestroyEffect method removes an effect from the device. If the effect is playing, the driver should stop it before unloading it.
 old-location: hid\idirectinputeffectdriver_destroyeffect.htm
 old-project: hid
 ms.assetid: beb5847c-a30e-4ab4-b293-359aca851c6c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: DestroyEffect method [Human Input Devices], DestroyEffect method [Human Input Devices], IDirectInputEffectDriver interface, DestroyEffect,IDirectInputEffectDriver.DestroyEffect, IDirectInputEffectDriver, IDirectInputEffectDriver interface [Human Input Devices], DestroyEffect method, IDirectInputEffectDriver::DestroyEffect, di_ref_2c37442c-093a-4470-9335-46b5cc488df3.xml, dinputd/IDirectInputEffectDriver::DestroyEffect, hid.idirectinputeffectdriver_destroyeffect
+ms.date: 4/30/2018
+ms.keywords: DestroyEffect, DestroyEffect method [Human Input Devices], DestroyEffect method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],DestroyEffect method, IDirectInputEffectDriver.DestroyEffect, IDirectInputEffectDriver::DestroyEffect, di_ref_2c37442c-093a-4470-9335-46b5cc488df3.xml, dinputd/IDirectInputEffectDriver::DestroyEffect, hid.idirectinputeffectdriver_destroyeffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectInputEffectDriver::DestroyEffect method
+# IDirectInputEffectDriver::DestroyEffect
 
 
 ## -description

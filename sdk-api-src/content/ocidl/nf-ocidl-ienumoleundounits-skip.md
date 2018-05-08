@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Skip
-title: IEnumOleUndoUnits::Skip method
+title: IEnumOleUndoUnits::Skip
 author: windows-driver-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumoleundounits_skip.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 53c5356d-525a-485f-9618-37efe21be687
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], Skip method, IEnumOleUndoUnits::Skip, Skip method [COM], Skip method [COM], IEnumOleUndoUnits interface, Skip,IEnumOleUndoUnits.Skip, _ole_ienumoleundounits_skip, com.ienumoleundounits_skip, ocidl/IEnumOleUndoUnits::Skip
+ms.keywords: IEnumOleUndoUnits interface [COM],Skip method, IEnumOleUndoUnits.Skip, IEnumOleUndoUnits::Skip, Skip, Skip method [COM], Skip method [COM],IEnumOleUndoUnits interface, _ole_ienumoleundounits_skip, com.ienumoleundounits_skip, ocidl/IEnumOleUndoUnits::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumOleUndoUnits::Skip method
+# IEnumOleUndoUnits::Skip
 
 
 ## -description

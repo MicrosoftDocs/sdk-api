@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionState.GetForgottenKnowledgeRecoveryRangeEnd
-title: ISyncSessionState::GetForgottenKnowledgeRecoveryRangeEnd method
+title: ISyncSessionState::GetForgottenKnowledgeRecoveryRangeEnd
 author: windows-driver-content
 description: Gets the upper bound of the recovery range when the session is performing forgotten knowledge recovery.
 old-location: winsync\isyncsessionstate_getforgottenknowledgerecoveryrangeend.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 9ba23805-cb1a-4178-a230-8091e3938fb6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetForgottenKnowledgeRecoveryRangeEnd method [Windows Sync], GetForgottenKnowledgeRecoveryRangeEnd method [Windows Sync], ISyncSessionState interface, GetForgottenKnowledgeRecoveryRangeEnd,ISyncSessionState.GetForgottenKnowledgeRecoveryRangeEnd, ISyncSessionState, ISyncSessionState interface [Windows Sync], GetForgottenKnowledgeRecoveryRangeEnd method, ISyncSessionState::GetForgottenKnowledgeRecoveryRangeEnd, winsync.isyncsessionstate_getforgottenknowledgerecoveryrangeend, winsync/ISyncSessionState::GetForgottenKnowledgeRecoveryRangeEnd
+ms.keywords: GetForgottenKnowledgeRecoveryRangeEnd, GetForgottenKnowledgeRecoveryRangeEnd method [Windows Sync], GetForgottenKnowledgeRecoveryRangeEnd method [Windows Sync],ISyncSessionState interface, ISyncSessionState interface [Windows Sync],GetForgottenKnowledgeRecoveryRangeEnd method, ISyncSessionState.GetForgottenKnowledgeRecoveryRangeEnd, ISyncSessionState::GetForgottenKnowledgeRecoveryRangeEnd, winsync.isyncsessionstate_getforgottenknowledgerecoveryrangeend, winsync/ISyncSessionState::GetForgottenKnowledgeRecoveryRangeEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncSessionState::GetForgottenKnowledgeRecoveryRangeEnd method
+# ISyncSessionState::GetForgottenKnowledgeRecoveryRangeEnd
 
 
 ## -description

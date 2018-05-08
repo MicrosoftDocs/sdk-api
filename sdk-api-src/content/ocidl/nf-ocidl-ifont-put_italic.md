@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Italic
-title: IFont::put_Italic method
+title: IFont::put_Italic
 author: windows-driver-content
 description: Sets the font's Italic property.
 old-location: com\ifont_put_italic.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: a59169e1-d3c4-4dc0-b228-afad0e4d4307
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFont, IFont interface [COM], put_Italic method, IFont::put_Italic, _ctrl_ifont_put_italic, com.ifont_put_italic, ocidl/IFont::put_Italic, put_Italic method [COM], put_Italic method [COM], IFont interface, put_Italic,IFont.put_Italic
+ms.keywords: IFont interface [COM],put_Italic method, IFont.put_Italic, IFont::put_Italic, _ctrl_ifont_put_italic, com.ifont_put_italic, ocidl/IFont::put_Italic, put_Italic, put_Italic method [COM], put_Italic method [COM],IFont interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFont::put_Italic method
+# IFont::put_Italic
 
 
 ## -description

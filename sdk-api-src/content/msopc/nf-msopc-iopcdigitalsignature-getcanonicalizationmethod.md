@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetCanonicalizationMethod
-title: IOpcDigitalSignature::GetCanonicalizationMethod method
+title: IOpcDigitalSignature::GetCanonicalizationMethod
 author: windows-driver-content
 description: Gets the canonicalization method that was applied to the SignedInfo element of the serialized signature.
 old-location: opc\iopcdigitalsignature_getcanonicalizationmethod.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 59c89909-6e35-4210-b76c-c820a9bb0d8e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCanonicalizationMethod method [Open Packaging Conventions], GetCanonicalizationMethod method [Open Packaging Conventions], IOpcDigitalSignature interface, GetCanonicalizationMethod,IOpcDigitalSignature.GetCanonicalizationMethod, IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], GetCanonicalizationMethod method, IOpcDigitalSignature::GetCanonicalizationMethod, msopc/IOpcDigitalSignature::GetCanonicalizationMethod, opc.iopcdigitalsignature_getcanonicalizationmethod
+ms.keywords: GetCanonicalizationMethod, GetCanonicalizationMethod method [Open Packaging Conventions], GetCanonicalizationMethod method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCanonicalizationMethod method, IOpcDigitalSignature.GetCanonicalizationMethod, IOpcDigitalSignature::GetCanonicalizationMethod, msopc/IOpcDigitalSignature::GetCanonicalizationMethod, opc.iopcdigitalsignature_getcanonicalizationmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignature::GetCanonicalizationMethod method
+# IOpcDigitalSignature::GetCanonicalizationMethod
 
 
 ## -description

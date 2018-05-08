@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPControls.put_currentItem
-title: IWMPControls::put_currentItem method
+title: IWMPControls::put_currentItem
 author: windows-driver-content
 description: The put_currentItem method specifies the current media item.
 old-location: wmp\iwmpcontrols_put_currentitem.htm
 old-project: WMP
 ms.assetid: 190cec53-5cd9-4bd0-b8d9-23c5389fe231
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], put_currentItem method, IWMPControls::put_currentItem, IWMPControlsput_currentItem, put_currentItem method [Windows Media Player], put_currentItem method [Windows Media Player], IWMPControls interface, put_currentItem,IWMPControls.put_currentItem, wmp.iwmpcontrols_put_currentitem, wmp/IWMPControls::put_currentItem
+ms.date: 5/4/2018
+ms.keywords: IWMPControls interface [Windows Media Player],put_currentItem method, IWMPControls.put_currentItem, IWMPControls::put_currentItem, IWMPControlsput_currentItem, put_currentItem, put_currentItem method [Windows Media Player], put_currentItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentitem, wmp/IWMPControls::put_currentItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPControls::put_currentItem method
+# IWMPControls::put_currentItem
 
 
 ## -description

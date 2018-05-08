@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMObjectInfo.SetPlayLength
-title: IWMDMObjectInfo::SetPlayLength method
+title: IWMDMObjectInfo::SetPlayLength
 author: windows-driver-content
 description: The SetPlayLength method sets the play length of the object, in units appropriate to the format. This is the maximum length that the object plays regardless of its actual length.
 old-location: wmdm\iwmdmobjectinfo_setplaylength.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 7dfa6443-4eb8-4a88-8af1-c082750e8d22
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMObjectInfo, IWMDMObjectInfo interface [windows Media Device Manager], SetPlayLength method, IWMDMObjectInfo::SetPlayLength, IWMDMObjectInfoSetPlayLength, SetPlayLength method [windows Media Device Manager], SetPlayLength method [windows Media Device Manager], IWMDMObjectInfo interface, SetPlayLength,IWMDMObjectInfo.SetPlayLength, mswmdm/IWMDMObjectInfo::SetPlayLength, wmdm.iwmdmobjectinfo_setplaylength
+ms.keywords: IWMDMObjectInfo interface [windows Media Device Manager],SetPlayLength method, IWMDMObjectInfo.SetPlayLength, IWMDMObjectInfo::SetPlayLength, IWMDMObjectInfoSetPlayLength, SetPlayLength, SetPlayLength method [windows Media Device Manager], SetPlayLength method [windows Media Device Manager],IWMDMObjectInfo interface, mswmdm/IWMDMObjectInfo::SetPlayLength, wmdm.iwmdmobjectinfo_setplaylength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMObjectInfo::SetPlayLength method
+# IWMDMObjectInfo::SetPlayLength
 
 
 ## -description

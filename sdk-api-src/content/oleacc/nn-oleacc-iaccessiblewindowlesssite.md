@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 1ED23B39-231B-46A2-9FED-969A36DA8DD9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccessibleWindowlessSite, IAccessibleWindowlessSite interface [Windows Accessibility], IAccessibleWindowlessSite interface [Windows Accessibility], described, oleacc/IAccessibleWindowlessSite, winauto.uiauto_IAccessibleWindowlessSite
+ms.keywords: IAccessibleWindowlessSite, IAccessibleWindowlessSite interface [Windows Accessibility], IAccessibleWindowlessSite interface [Windows Accessibility],described, oleacc/IAccessibleWindowlessSite, winauto.uiauto_IAccessibleWindowlessSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

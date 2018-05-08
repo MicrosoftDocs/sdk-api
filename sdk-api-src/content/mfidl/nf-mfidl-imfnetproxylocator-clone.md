@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.Clone
-title: IMFNetProxyLocator::Clone method
+title: IMFNetProxyLocator::Clone
 author: windows-driver-content
 description: Creates a new instance of the default proxy locator.
 old-location: mf\imfnetproxylocator_clone.htm
 old-project: medfound
 ms.assetid: 551372b3-b9aa-4057-8c14-19e582053e00
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 551372b3-b9aa-4057-8c14-19e582053e00, Clone method [Media Foundation], Clone method [Media Foundation], IMFNetProxyLocator interface, Clone,IMFNetProxyLocator.Clone, IMFNetProxyLocator, IMFNetProxyLocator interface [Media Foundation], Clone method, IMFNetProxyLocator::Clone, mf.imfnetproxylocator_clone, mfidl/IMFNetProxyLocator::Clone
+ms.date: 5/3/2018
+ms.keywords: 551372b3-b9aa-4057-8c14-19e582053e00, Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFNetProxyLocator interface, IMFNetProxyLocator interface [Media Foundation],Clone method, IMFNetProxyLocator.Clone, IMFNetProxyLocator::Clone, mf.imfnetproxylocator_clone, mfidl/IMFNetProxyLocator::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFNetProxyLocator::Clone method
+# IMFNetProxyLocator::Clone
 
 
 ## -description

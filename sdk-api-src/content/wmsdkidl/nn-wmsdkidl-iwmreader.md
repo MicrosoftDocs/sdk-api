@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e995b707-d388-4ec3-b3c8-b111628c13d7
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReader, IWMReader interface [windows Media Format], IWMReader interface [windows Media Format], described, IWMReaderInterface, wmformat.iwmreader, wmsdkidl/IWMReader
+ms.keywords: IWMReader, IWMReader interface [windows Media Format], IWMReader interface [windows Media Format],described, IWMReaderInterface, wmformat.iwmreader, wmsdkidl/IWMReader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

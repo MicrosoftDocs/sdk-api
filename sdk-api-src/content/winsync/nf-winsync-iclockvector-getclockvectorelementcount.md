@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IClockVector.GetClockVectorElementCount
-title: IClockVector::GetClockVectorElementCount method
+title: IClockVector::GetClockVectorElementCount
 author: windows-driver-content
 description: Gets the number of elements that are contained in the clock vector.
 old-location: winsync\iclockvector_getclockvectorelementcount.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 15ce120e-dabc-4827-b317-82784466c1f1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetClockVectorElementCount method [Windows Sync], GetClockVectorElementCount method [Windows Sync], IClockVector interface, GetClockVectorElementCount,IClockVector.GetClockVectorElementCount, IClockVector, IClockVector interface [Windows Sync], GetClockVectorElementCount method, IClockVector::GetClockVectorElementCount, winsync.iclockvector_getclockvectorelementcount, winsync/IClockVector::GetClockVectorElementCount
+ms.keywords: GetClockVectorElementCount, GetClockVectorElementCount method [Windows Sync], GetClockVectorElementCount method [Windows Sync],IClockVector interface, IClockVector interface [Windows Sync],GetClockVectorElementCount method, IClockVector.GetClockVectorElementCount, IClockVector::GetClockVectorElementCount, winsync.iclockvector_getclockvectorelementcount, winsync/IClockVector::GetClockVectorElementCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IClockVector::GetClockVectorElementCount method
+# IClockVector::GetClockVectorElementCount
 
 
 ## -description

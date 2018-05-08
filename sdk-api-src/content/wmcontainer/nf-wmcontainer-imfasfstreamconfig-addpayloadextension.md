@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.AddPayloadExtension
-title: IMFASFStreamConfig::AddPayloadExtension method
+title: IMFASFStreamConfig::AddPayloadExtension
 author: windows-driver-content
 description: Configures a payload extension for the stream.
 old-location: mf\imfasfstreamconfig_addpayloadextension.htm
 old-project: medfound
 ms.assetid: 55dd4125-ce44-4eed-b1a8-74819c452bd4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 55dd4125-ce44-4eed-b1a8-74819c452bd4, AddPayloadExtension method [Media Foundation], AddPayloadExtension method [Media Foundation], IMFASFStreamConfig interface, AddPayloadExtension,IMFASFStreamConfig.AddPayloadExtension, IMFASFStreamConfig, IMFASFStreamConfig interface [Media Foundation], AddPayloadExtension method, IMFASFStreamConfig::AddPayloadExtension, mf.imfasfstreamconfig_addpayloadextension, wmcontainer/IMFASFStreamConfig::AddPayloadExtension
+ms.date: 5/3/2018
+ms.keywords: 55dd4125-ce44-4eed-b1a8-74819c452bd4, AddPayloadExtension, AddPayloadExtension method [Media Foundation], AddPayloadExtension method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],AddPayloadExtension method, IMFASFStreamConfig.AddPayloadExtension, IMFASFStreamConfig::AddPayloadExtension, mf.imfasfstreamconfig_addpayloadextension, wmcontainer/IMFASFStreamConfig::AddPayloadExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFStreamConfig::AddPayloadExtension method
+# IMFASFStreamConfig::AddPayloadExtension
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.RepeatBetweenKeyframes
-title: IUIAnimationStoryboard::RepeatBetweenKeyframes method
+title: IUIAnimationStoryboard::RepeatBetweenKeyframes
 author: windows-driver-content
 description: Creates a loop between two specified keyframes.
 old-location: uianimation\iuianimationstoryboard_repeatbetweenkeyframes.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 3c1ddb8c-fcbf-4b0c-8725-35dfc15e3c02
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationStoryboard, IUIAnimationStoryboard interface [Windows Animation], RepeatBetweenKeyframes method, IUIAnimationStoryboard::RepeatBetweenKeyframes, RepeatBetweenKeyframes method [Windows Animation], RepeatBetweenKeyframes method [Windows Animation], IUIAnimationStoryboard interface, RepeatBetweenKeyframes,IUIAnimationStoryboard.RepeatBetweenKeyframes, uianimation.iuianimationstoryboard_repeatbetweenkeyframes, uianimation/IUIAnimationStoryboard::RepeatBetweenKeyframes
+ms.keywords: IUIAnimationStoryboard interface [Windows Animation],RepeatBetweenKeyframes method, IUIAnimationStoryboard.RepeatBetweenKeyframes, IUIAnimationStoryboard::RepeatBetweenKeyframes, RepeatBetweenKeyframes, RepeatBetweenKeyframes method [Windows Animation], RepeatBetweenKeyframes method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_repeatbetweenkeyframes, uianimation/IUIAnimationStoryboard::RepeatBetweenKeyframes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard::RepeatBetweenKeyframes method
+# IUIAnimationStoryboard::RepeatBetweenKeyframes
 
 
 ## -description

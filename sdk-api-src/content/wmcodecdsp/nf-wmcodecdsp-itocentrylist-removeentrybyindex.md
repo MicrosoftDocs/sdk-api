@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.RemoveEntryByIndex
-title: ITocEntryList::RemoveEntryByIndex method
+title: ITocEntryList::RemoveEntryByIndex
 author: windows-driver-content
 description: The RemoveEntryByIndex method removes an entry, specified by an index, from the list.
 old-location: mf\itocentrylist_removeentrybyindex.htm
 old-project: medfound
 ms.assetid: 72b9141c-2e61-42be-a4a1-910b607ab5f1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ITocEntryList, ITocEntryList interface [Media Foundation], RemoveEntryByIndex method, ITocEntryList::RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation], ITocEntryList interface, RemoveEntryByIndex,ITocEntryList.RemoveEntryByIndex, codecapi.itocentrylist_removeentrybyindex, mf.itocentrylist_removeentrybyindex, wmcodecdsp/ITocEntryList::RemoveEntryByIndex
+ms.date: 5/3/2018
+ms.keywords: ITocEntryList interface [Media Foundation],RemoveEntryByIndex method, ITocEntryList.RemoveEntryByIndex, ITocEntryList::RemoveEntryByIndex, RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation],ITocEntryList interface, codecapi.itocentrylist_removeentrybyindex, mf.itocentrylist_removeentrybyindex, wmcodecdsp/ITocEntryList::RemoveEntryByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocEntryList::RemoveEntryByIndex method
+# ITocEntryList::RemoveEntryByIndex
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMAsyncProgress.Status
-title: IGPMAsyncProgress::Status method
+title: IGPMAsyncProgress::Status
 author: windows-driver-content
 description: The server calls this method to notify the client about the status of a Group Policy Management Console (GPMC) operation.
 old-location: gpmc\igpmasyncprogress_status.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: db5d59a2-ab46-42f1-9637-6b342795c9f0
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IGPMAsyncProgress, IGPMAsyncProgress interface [GPMC], Status method, IGPMAsyncProgress::Status, Status method [GPMC], Status method [GPMC], IGPMAsyncProgress interface, Status,IGPMAsyncProgress.Status, _win32_igpmasyncprogress_status, gpmc.igpmasyncprogress_status, gpmgmt/IGPMAsyncProgress::Status
+ms.keywords: IGPMAsyncProgress interface [GPMC],Status method, IGPMAsyncProgress.Status, IGPMAsyncProgress::Status, Status, Status method [GPMC], Status method [GPMC],IGPMAsyncProgress interface, _win32_igpmasyncprogress_status, gpmc.igpmasyncprogress_status, gpmgmt/IGPMAsyncProgress::Status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMAsyncProgress::Status method
+# IGPMAsyncProgress::Status
 
 
 ## -description

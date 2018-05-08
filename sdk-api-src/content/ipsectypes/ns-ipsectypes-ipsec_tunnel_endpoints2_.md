@@ -65,6 +65,26 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">
 Specifies the IP version. In tunnel mode, this is the version of the outer header.
 
 
+### -field localV4Address
+
+ 
+
+
+### -field localV6Address
+
+ 
+
+
+### -field remoteV4Address
+
+ 
+
+
+### -field remoteV6Address
+
+ 
+
+
 ### -field localIfLuid
 
 Type: <b>UINT64</b>

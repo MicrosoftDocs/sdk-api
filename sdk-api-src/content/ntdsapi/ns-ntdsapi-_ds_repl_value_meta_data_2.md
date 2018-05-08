@@ -7,7 +7,7 @@ old-location: ad\ds_repl_value_meta_data_2.htm
 old-project: AD
 ms.assetid: 747e32b8-2cc0-4fcd-88dc-027188598361
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DS_REPL_VALUE_META_DATA_2, DS_REPL_VALUE_META_DATA_2 structure [Active Directory], _DS_REPL_VALUE_META_DATA_2, ad.ds_repl_value_meta_data_2, ntdsapi/DS_REPL_VALUE_META_DATA_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,6 +71,21 @@ Pointer to a null-terminated Unicode string that contains the distinguished name
 ### -field cbData
 
 Contains the number of bytes in the <b>pbData</b> array.
+
+
+### -field pbData.size_is
+
+ 
+
+
+### -field pbData.size_is.cbData
+
+ 
+
+
+### -field pbData.ptr
+
+ 
 
 
 ### -field pbData

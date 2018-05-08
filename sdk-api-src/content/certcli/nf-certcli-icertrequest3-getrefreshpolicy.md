@@ -1,14 +1,14 @@
 ---
 UID: NF:certcli.ICertRequest3.GetRefreshPolicy
-title: ICertRequest3::GetRefreshPolicy method
+title: ICertRequest3::GetRefreshPolicy
 author: windows-driver-content
 description: Returns a value that indicates whether a client's cached certificate enrollment policy is out of date and needs to be refreshed.
 old-location: security\icertrequest3_getrefreshpolicy.htm
 old-project: SecCrypto
 ms.assetid: 0683b9ad-c3d5-418a-8f05-ae06ad74ef1d
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertRequest object [Security], GetRefreshPolicy method, GetRefreshPolicy method [Security], GetRefreshPolicy method [Security], CCertRequest object, GetRefreshPolicy method [Security], ICertRequest3 class, GetRefreshPolicy,ICertRequest3.GetRefreshPolicy, ICertRequest3, ICertRequest3 class [Security], GetRefreshPolicy method, ICertRequest3::GetRefreshPolicy, certcli/ICertRequest3::GetRefreshPolicy, security.icertrequest3_getrefreshpolicy
+ms.date: 4/30/2018
+ms.keywords: CCertRequest object [Security],GetRefreshPolicy method, GetRefreshPolicy, GetRefreshPolicy method [Security], GetRefreshPolicy method [Security],CCertRequest object, GetRefreshPolicy method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetRefreshPolicy method, ICertRequest3.GetRefreshPolicy, ICertRequest3::GetRefreshPolicy, certcli/ICertRequest3::GetRefreshPolicy, security.icertrequest3_getrefreshpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertRequest3::GetRefreshPolicy method
+# ICertRequest3::GetRefreshPolicy
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 8c3f807b-3e31-4ce6-8549-74ab06cbba7f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: RasCustomDial, RasCustomDial callback function [RAS], RasCustomDialA, RasCustomDialFn, RasCustomDialW, _ras_rascustomdial, ras/RasCustomDial, ras/RasCustomDialA, ras/RasCustomDialW, rras.rascustomdial
+ms.keywords: RasCustomDial, RasCustomDial callback function [RAS], RasCustomDialA, RasCustomDialFn, RasCustomDialFn callback, RasCustomDialW, _ras_rascustomdial, ras/RasCustomDial, ras/RasCustomDialA, ras/RasCustomDialW, rras.rascustomdial
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# RasCustomDialFn callback
+# RasCustomDialFn callback function
 
 
 ## -description

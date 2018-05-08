@@ -7,8 +7,8 @@ old-location: tablet\iinkrecognitionresult.htm
 old-project: tablet
 ms.assetid: fd7ee250-6f76-419b-8164-0d2717ea288c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInkRecognitionResult, IInkRecognitionResult interface [Tablet PC], IInkRecognitionResult interface [Tablet PC], described, fd7ee250-6f76-419b-8164-0d2717ea288c, msinkaut/IInkRecognitionResult, tablet.iinkrecognitionresult
+ms.date: 5/2/2018
+ms.keywords: IInkRecognitionResult, IInkRecognitionResult interface [Tablet PC], IInkRecognitionResult interface [Tablet PC],described, fd7ee250-6f76-419b-8164-0d2717ea288c, msinkaut/IInkRecognitionResult, tablet.iinkrecognitionresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

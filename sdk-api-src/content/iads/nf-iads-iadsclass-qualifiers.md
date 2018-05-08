@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsClass.Qualifiers
-title: IADsClass::Qualifiers method
+title: IADsClass::Qualifiers
 author: windows-driver-content
 description: Returns a collection of ADSI objects that describe additional qualifiers for this schema class.
 old-location: adsi\iadsclass_qualifiers.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: d05e4278-2dfb-4832-a97d-eb35253ae535
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsClass, IADsClass interface [ADSI], Qualifiers method, IADsClass::Qualifiers, Qualifiers method [ADSI], Qualifiers method [ADSI], IADsClass interface, Qualifiers,IADsClass.Qualifiers, _ds_iadsclass_qualifiers, adsi.iadsclass__qualifiers, adsi.iadsclass_qualifiers, iads/IADsClass::Qualifiers
+ms.keywords: IADsClass interface [ADSI],Qualifiers method, IADsClass.Qualifiers, IADsClass::Qualifiers, Qualifiers, Qualifiers method [ADSI], Qualifiers method [ADSI],IADsClass interface, _ds_iadsclass_qualifiers, adsi.iadsclass__qualifiers, adsi.iadsclass_qualifiers, iads/IADsClass::Qualifiers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsClass::Qualifiers method
+# IADsClass::Qualifiers
 
 
 ## -description

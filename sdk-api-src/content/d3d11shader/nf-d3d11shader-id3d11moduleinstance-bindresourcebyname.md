@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindResourceByName
-title: ID3D11ModuleInstance::BindResourceByName method
+title: ID3D11ModuleInstance::BindResourceByName
 author: windows-driver-content
 description: Rebinds a texture or buffer by name to destination slots.
 old-location: direct3d11\id3d11moduleinstance_bindresourcebyname.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 313A4AE8-8B3A-40B9-85C4-86A43F4F37D5
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: BindResourceByName method [Direct3D 11], BindResourceByName method [Direct3D 11], ID3D11ModuleInstance interface, BindResourceByName,ID3D11ModuleInstance.BindResourceByName, ID3D11ModuleInstance, ID3D11ModuleInstance interface [Direct3D 11], BindResourceByName method, ID3D11ModuleInstance::BindResourceByName, d3d11shader/ID3D11ModuleInstance::BindResourceByName, direct3d11.id3d11moduleinstance_bindresourcebyname
+ms.keywords: BindResourceByName, BindResourceByName method [Direct3D 11], BindResourceByName method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindResourceByName method, ID3D11ModuleInstance.BindResourceByName, ID3D11ModuleInstance::BindResourceByName, d3d11shader/ID3D11ModuleInstance::BindResourceByName, direct3d11.id3d11moduleinstance_bindresourcebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ModuleInstance::BindResourceByName method
+# ID3D11ModuleInstance::BindResourceByName
 
 
 ## -description

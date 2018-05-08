@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.GetInfo
-title: IWbemPathKeyList::GetInfo method
+title: IWbemPathKeyList::GetInfo
 author: windows-driver-content
 description: The IWbemPathKeyList::GetInfo method retrieves the status bits for the key.
 old-location: wmi\iwbempathkeylist_getinfo.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: e5df2222-988c-4f61-9b1a-9bccb647826d
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetInfo method [Windows Management Instrumentation], GetInfo method [Windows Management Instrumentation], IWbemPathKeyList interface, GetInfo,IWbemPathKeyList.GetInfo, IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], GetInfo method, IWbemPathKeyList::GetInfo, WBEMPATH_INFO_CONTAINS_SINGLETON, WBEMPATH_INFO_HAS_IMPLIED_KEY, WBEMPATH_INFO_HAS_V2_REF_PATHS, WBEMPATH_INFO_IS_COMPOUND, _hmm_iwbempathkeylist_getinfo, wmi.iwbempathkeylist_getinfo, wmiutils/IWbemPathKeyList::GetInfo
+ms.keywords: GetInfo, GetInfo method [Windows Management Instrumentation], GetInfo method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetInfo method, IWbemPathKeyList.GetInfo, IWbemPathKeyList::GetInfo, WBEMPATH_INFO_CONTAINS_SINGLETON, WBEMPATH_INFO_HAS_IMPLIED_KEY, WBEMPATH_INFO_HAS_V2_REF_PATHS, WBEMPATH_INFO_IS_COMPOUND, _hmm_iwbempathkeylist_getinfo, wmi.iwbempathkeylist_getinfo, wmiutils/IWbemPathKeyList::GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPathKeyList::GetInfo method
+# IWbemPathKeyList::GetInfo
 
 
 ## -description

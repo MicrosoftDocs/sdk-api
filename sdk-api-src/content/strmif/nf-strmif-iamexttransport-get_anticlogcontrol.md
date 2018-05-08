@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_AntiClogControl
-title: IAMExtTransport::get_AntiClogControl method
+title: IAMExtTransport::get_AntiClogControl
 author: windows-driver-content
 description: The get_AntiClogControl method determines whether the anti-headclog control is enabled or disabled.
 old-location: dshow\iamexttransport_get_anticlogcontrol.htm
 old-project: DirectShow
 ms.assetid: e0175b44-d1e6-4f3a-8aa7-893b41d0c487
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], get_AntiClogControl method, IAMExtTransport::get_AntiClogControl, IAMExtTransportget_AntiClogControl, dshow.iamexttransport_get_anticlogcontrol, get_AntiClogControl method [DirectShow], get_AntiClogControl method [DirectShow], IAMExtTransport interface, get_AntiClogControl,IAMExtTransport.get_AntiClogControl, strmif/IAMExtTransport::get_AntiClogControl
+ms.date: 4/30/2018
+ms.keywords: IAMExtTransport interface [DirectShow],get_AntiClogControl method, IAMExtTransport.get_AntiClogControl, IAMExtTransport::get_AntiClogControl, IAMExtTransportget_AntiClogControl, dshow.iamexttransport_get_anticlogcontrol, get_AntiClogControl, get_AntiClogControl method [DirectShow], get_AntiClogControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_AntiClogControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::get_AntiClogControl method
+# IAMExtTransport::get_AntiClogControl
 
 
 ## -description

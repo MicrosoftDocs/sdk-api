@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_FilterEnabled
-title: ITraceDataProvider::get_FilterEnabled method
+title: ITraceDataProvider::get_FilterEnabled
 author: windows-driver-content
 description: Retrieves or sets a value that determines whether the filter data is used to enable the provider.
 old-location: pla\itracedataprovider_filterenabled.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: fef5e6a4-3a97-4799-b46d-c0e82b1c0104
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: FilterEnabled property [PLA], FilterEnabled property [PLA], ITraceDataProvider interface, ITraceDataProvider, ITraceDataProvider interface [PLA], FilterEnabled property, ITraceDataProvider.FilterEnabled, ITraceDataProvider::get_FilterEnabled, ITraceDataProvider::put_FilterEnabled, get_FilterEnabled,ITraceDataProvider.get_FilterEnabled, pla.itracedataprovider_filterenabled, pla/ITraceDataProvider::FilterEnabled, pla/ITraceDataProvider::get_FilterEnabled, pla/ITraceDataProvider::put_FilterEnabled
+ms.keywords: FilterEnabled property [PLA], FilterEnabled property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterEnabled property, ITraceDataProvider.FilterEnabled, ITraceDataProvider.get_FilterEnabled, ITraceDataProvider::FilterEnabled, ITraceDataProvider::get_FilterEnabled, ITraceDataProvider::put_FilterEnabled, get_FilterEnabled, pla.itracedataprovider_filterenabled, pla/ITraceDataProvider::FilterEnabled, pla/ITraceDataProvider::get_FilterEnabled, pla/ITraceDataProvider::put_FilterEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataProvider::get_FilterEnabled method
+# ITraceDataProvider::get_FilterEnabled
 
 
 ## -description

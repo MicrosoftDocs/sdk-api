@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.Initialize
-title: IStreamBufferRecComp::Initialize method
+title: IStreamBufferRecComp::Initialize
 author: windows-driver-content
 description: The Initialize method sets the file name and the profile for the new recording. Call this method once, after creating the RecComp object.
 old-location: mstv\istreambufferreccomp_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 97a8519f-2377-43e9-b1ba-7d407caa44a9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IStreamBufferRecComp, IStreamBufferRecComp interface [Microsoft TV Technologies], Initialize method, IStreamBufferRecComp::Initialize, IStreamBufferRecCompInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IStreamBufferRecComp interface, Initialize,IStreamBufferRecComp.Initialize, mstv.istreambufferreccomp_initialize, sbe/IStreamBufferRecComp::Initialize
+ms.keywords: IStreamBufferRecComp interface [Microsoft TV Technologies],Initialize method, IStreamBufferRecComp.Initialize, IStreamBufferRecComp::Initialize, IStreamBufferRecCompInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IStreamBufferRecComp interface, mstv.istreambufferreccomp_initialize, sbe/IStreamBufferRecComp::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferRecComp::Initialize method
+# IStreamBufferRecComp::Initialize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsHwProviderStoragePools.CreateLunInStoragePool
-title: IVdsHwProviderStoragePools::CreateLunInStoragePool method
+title: IVdsHwProviderStoragePools::CreateLunInStoragePool
 author: windows-driver-content
 description: Creates a LUN in a storage pool.
 old-location: base\ivdshwproviderstoragepools_createluninstoragepool.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 17377671-1a30-4aeb-bc89-3c1e3823d3fe
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateLunInStoragePool method, CreateLunInStoragePool method, IVdsHwProviderStoragePools interface, CreateLunInStoragePool,IVdsHwProviderStoragePools.CreateLunInStoragePool, IVdsHwProviderStoragePools, IVdsHwProviderStoragePools interface, CreateLunInStoragePool method, IVdsHwProviderStoragePools::CreateLunInStoragePool, base.ivdshwproviderstoragepools_createluninstoragepool, vds/IVdsHwProviderStoragePools::CreateLunInStoragePool, vdshwprv/IVdsHwProviderStoragePools::CreateLunInStoragePool
+ms.keywords: CreateLunInStoragePool, CreateLunInStoragePool method, CreateLunInStoragePool method,IVdsHwProviderStoragePools interface, IVdsHwProviderStoragePools interface,CreateLunInStoragePool method, IVdsHwProviderStoragePools.CreateLunInStoragePool, IVdsHwProviderStoragePools::CreateLunInStoragePool, base.ivdshwproviderstoragepools_createluninstoragepool, vds/IVdsHwProviderStoragePools::CreateLunInStoragePool, vdshwprv/IVdsHwProviderStoragePools::CreateLunInStoragePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsHwProviderStoragePools::CreateLunInStoragePool method
+# IVdsHwProviderStoragePools::CreateLunInStoragePool
 
 
 ## -description

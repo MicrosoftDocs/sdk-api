@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetUri
-title: IOpcSignatureReference::GetUri method
+title: IOpcSignatureReference::GetUri
 author: windows-driver-content
 description: Gets the URI of the referenced XML element.
 old-location: opc\iopcsignaturereference_geturi.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 4dd02f48-9b49-4e74-b0cf-c51c0a594437
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetUri method [Open Packaging Conventions], GetUri method [Open Packaging Conventions], IOpcSignatureReference interface, GetUri,IOpcSignatureReference.GetUri, IOpcSignatureReference, IOpcSignatureReference interface [Open Packaging Conventions], GetUri method, IOpcSignatureReference::GetUri, msopc/IOpcSignatureReference::GetUri, opc.iopcsignaturereference_geturi
+ms.keywords: GetUri, GetUri method [Open Packaging Conventions], GetUri method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetUri method, IOpcSignatureReference.GetUri, IOpcSignatureReference::GetUri, msopc/IOpcSignatureReference::GetUri, opc.iopcsignaturereference_geturi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureReference::GetUri method
+# IOpcSignatureReference::GetUri
 
 
 ## -description

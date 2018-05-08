@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJobs.get__NewEnum
-title: IFaxIncomingJobs::get__NewEnum method
+title: IFaxIncomingJobs::get__NewEnum
 author: windows-driver-content
 description: The get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the FaxIncomingJobs collection.
 old-location: fax\_mfax_ifaxincomingjobs_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1zfx.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxIncomingJobs, IFaxIncomingJobs interface [Fax Service], get__NewEnum method, IFaxIncomingJobs::get__NewEnum, _mfax_ifaxincomingjobs_get__newenum, fax._mfax_ifaxincomingjobs_get__newenum, faxcomex/IFaxIncomingJobs::get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service], IFaxIncomingJobs interface, get__NewEnum,IFaxIncomingJobs.get__NewEnum
+ms.keywords: IFaxIncomingJobs interface [Fax Service],get__NewEnum method, IFaxIncomingJobs.get__NewEnum, IFaxIncomingJobs::get__NewEnum, _mfax_ifaxincomingjobs_get__newenum, fax._mfax_ifaxincomingjobs_get__newenum, faxcomex/IFaxIncomingJobs::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxIncomingJobs interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxIncomingJobs::get__NewEnum method
+# IFaxIncomingJobs::get__NewEnum
 
 
 ## -description

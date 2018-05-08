@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttribute.get_ObjectId
-title: ICryptAttribute::get_ObjectId method
+title: ICryptAttribute::get_ObjectId
 author: windows-driver-content
 description: Retrieves the object identifier (OID) for the attribute.
 old-location: security\icryptattribute_objectid_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 9ae9a217-1658-42ac-bd28-33abab5d0d70
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICryptAttribute, ICryptAttribute interface [Security], ObjectId property, ICryptAttribute.ObjectId, ICryptAttribute::get_ObjectId, ObjectId property [Security], ObjectId property [Security], ICryptAttribute interface, certenroll/ICryptAttribute::ObjectId, certenroll/ICryptAttribute::get_ObjectId, get_ObjectId,ICryptAttribute.get_ObjectId, security.icryptattribute_objectid_property
+ms.keywords: ICryptAttribute interface [Security],ObjectId property, ICryptAttribute.ObjectId, ICryptAttribute.get_ObjectId, ICryptAttribute::ObjectId, ICryptAttribute::get_ObjectId, ObjectId property [Security], ObjectId property [Security],ICryptAttribute interface, certenroll/ICryptAttribute::ObjectId, certenroll/ICryptAttribute::get_ObjectId, get_ObjectId, security.icryptattribute_objectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICryptAttribute::get_ObjectId method
+# ICryptAttribute::get_ObjectId
 
 
 ## -description

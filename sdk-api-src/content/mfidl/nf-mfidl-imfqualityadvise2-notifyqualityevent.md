@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise2.NotifyQualityEvent
-title: IMFQualityAdvise2::NotifyQualityEvent method
+title: IMFQualityAdvise2::NotifyQualityEvent
 author: windows-driver-content
 description: Forwards an MEQualityNotify event from the media sink.
 old-location: mf\imfqualityadvise2_notifyqualityevent.htm
 old-project: medfound
 ms.assetid: 7e39d421-1e7c-4b6d-beba-e24429271378
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFQualityAdvise2, IMFQualityAdvise2 interface [Media Foundation], NotifyQualityEvent method, IMFQualityAdvise2::NotifyQualityEvent, NotifyQualityEvent method [Media Foundation], NotifyQualityEvent method [Media Foundation], IMFQualityAdvise2 interface, NotifyQualityEvent,IMFQualityAdvise2.NotifyQualityEvent, mf.imfqualityadvise2_notifyqualityevent, mfidl/IMFQualityAdvise2::NotifyQualityEvent
+ms.date: 5/3/2018
+ms.keywords: IMFQualityAdvise2 interface [Media Foundation],NotifyQualityEvent method, IMFQualityAdvise2.NotifyQualityEvent, IMFQualityAdvise2::NotifyQualityEvent, NotifyQualityEvent, NotifyQualityEvent method [Media Foundation], NotifyQualityEvent method [Media Foundation],IMFQualityAdvise2 interface, mf.imfqualityadvise2_notifyqualityevent, mfidl/IMFQualityAdvise2::NotifyQualityEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFQualityAdvise2::NotifyQualityEvent method
+# IMFQualityAdvise2::NotifyQualityEvent
 
 
 ## -description

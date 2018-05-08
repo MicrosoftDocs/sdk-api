@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.get_Error
-title: IX509EnrollmentStatus::get_Error method
+title: IX509EnrollmentStatus::get_Error
 author: windows-driver-content
 description: Specifies and retrieves a value that identifies the error status of the certificate enrollment process.
 old-location: security\ix509enrollmentstatus_error_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 397ed934-5ec8-4653-ada4-e966f68cbbf2
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Error property [Security], Error property [Security], IX509EnrollmentStatus interface, IX509EnrollmentStatus, IX509EnrollmentStatus interface [Security], Error property, IX509EnrollmentStatus.Error, IX509EnrollmentStatus::get_Error, IX509EnrollmentStatus::put_Error, certenroll/IX509EnrollmentStatus::Error, certenroll/IX509EnrollmentStatus::get_Error, certenroll/IX509EnrollmentStatus::put_Error, get_Error,IX509EnrollmentStatus.get_Error, security.ix509enrollmentstatus_error_property
+ms.keywords: Error property [Security], Error property [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],Error property, IX509EnrollmentStatus.Error, IX509EnrollmentStatus.get_Error, IX509EnrollmentStatus::Error, IX509EnrollmentStatus::get_Error, IX509EnrollmentStatus::put_Error, certenroll/IX509EnrollmentStatus::Error, certenroll/IX509EnrollmentStatus::get_Error, certenroll/IX509EnrollmentStatus::put_Error, get_Error, security.ix509enrollmentstatus_error_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509EnrollmentStatus::get_Error method
+# IX509EnrollmentStatus::get_Error
 
 
 ## -description

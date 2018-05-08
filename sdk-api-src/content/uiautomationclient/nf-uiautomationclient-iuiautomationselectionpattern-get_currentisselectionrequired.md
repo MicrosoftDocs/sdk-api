@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired
-title: IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired method
+title: IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired
 author: windows-driver-content
 description: Indicates whether at least one item must be selected at all times.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 608c9b6d-bc53-4d6d-8747-897ac9a24571
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentIsSelectionRequired property [Windows Accessibility], CurrentIsSelectionRequired property [Windows Accessibility], IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern, IUIAutomationSelectionPattern interface [Windows Accessibility], CurrentIsSelectionRequired property, IUIAutomationSelectionPattern.CurrentIsSelectionRequired, IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired, get_CurrentIsSelectionRequired,IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired, uiauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired, uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::CurrentIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired, winauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired
+ms.keywords: CurrentIsSelectionRequired property [Windows Accessibility], CurrentIsSelectionRequired property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CurrentIsSelectionRequired property, IUIAutomationSelectionPattern.CurrentIsSelectionRequired, IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired, IUIAutomationSelectionPattern::CurrentIsSelectionRequired, IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired, get_CurrentIsSelectionRequired, uiauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired, uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::CurrentIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired, winauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired method
+# IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_AssessmentDateTime
-title: IProvideWinSATResultsInfo::get_AssessmentDateTime method
+title: IProvideWinSATResultsInfo::get_AssessmentDateTime
 author: windows-driver-content
 description: Retrieves the date and time that the assessment was run.
 old-location: winsat\iprovidewinsatresultsinfo_assessmentdatetime.htm
@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: c5fcf832-7290-45dc-9c36-7b469dc54a4c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AssessmentDateTime property [WinSAT], AssessmentDateTime property [WinSAT], IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [WinSAT], AssessmentDateTime property, IProvideWinSATResultsInfo.AssessmentDateTime, IProvideWinSATResultsInfo::get_AssessmentDateTime, get_AssessmentDateTime,IProvideWinSATResultsInfo.get_AssessmentDateTime, winsat.iprovidewinsatresultsinfo_assessmentdatetime, winsatcominterfacei/IProvideWinSATResultsInfo::AssessmentDateTime, winsatcominterfacei/IProvideWinSATResultsInfo::get_AssessmentDateTime
+ms.keywords: AssessmentDateTime property [WinSAT], AssessmentDateTime property [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],AssessmentDateTime property, IProvideWinSATResultsInfo.AssessmentDateTime, IProvideWinSATResultsInfo.get_AssessmentDateTime, IProvideWinSATResultsInfo::AssessmentDateTime, IProvideWinSATResultsInfo::get_AssessmentDateTime, get_AssessmentDateTime, winsat.iprovidewinsatresultsinfo_assessmentdatetime, winsatcominterfacei/IProvideWinSATResultsInfo::AssessmentDateTime, winsatcominterfacei/IProvideWinSATResultsInfo::get_AssessmentDateTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IProvideWinSATResultsInfo::get_AssessmentDateTime method
+# IProvideWinSATResultsInfo::get_AssessmentDateTime
 
 
 ## -description

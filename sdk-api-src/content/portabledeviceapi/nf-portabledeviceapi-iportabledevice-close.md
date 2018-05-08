@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Close
-title: IPortableDevice::Close method
+title: IPortableDevice::Close
 author: windows-driver-content
 description: The Close method closes the connection with the device.
 old-location: wpdsdk\iportabledevice_close.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: aa60a439-7589-465e-98e5-56b93d594f96
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Close method [Windows Portable Devices SDK], Close method [Windows Portable Devices SDK], IPortableDevice interface, Close,IPortableDevice.Close, IPortableDevice, IPortableDevice interface [Windows Portable Devices SDK], Close method, IPortableDevice::Close, IPortableDeviceClose, portabledeviceapi/IPortableDevice::Close, wpdsdk.iportabledevice_close
+ms.keywords: Close, Close method [Windows Portable Devices SDK], Close method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Close method, IPortableDevice.Close, IPortableDevice::Close, IPortableDeviceClose, portabledeviceapi/IPortableDevice::Close, wpdsdk.iportabledevice_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDevice::Close method
+# IPortableDevice::Close
 
 
 ## -description

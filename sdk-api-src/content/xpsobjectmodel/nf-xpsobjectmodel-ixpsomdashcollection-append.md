@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.Append
-title: IXpsOMDashCollection::Append method
+title: IXpsOMDashCollection::Append
 author: windows-driver-content
 description: Appends an XPS_DASH structure to the end of the collection.
 old-location: xps\ixpsomdashcollection_append.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e8d2baf5-e36e-4363-bde6-1731c97e702f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging], IXpsOMDashCollection interface, Append,IXpsOMDashCollection.Append, IXpsOMDashCollection, IXpsOMDashCollection interface [XPS Documents and Packaging], Append method, IXpsOMDashCollection::Append, xps.ixpsomdashcollection_append, xpsobjectmodel/IXpsOMDashCollection::Append
+ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],Append method, IXpsOMDashCollection.Append, IXpsOMDashCollection::Append, xps.ixpsomdashcollection_append, xpsobjectmodel/IXpsOMDashCollection::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDashCollection::Append method
+# IXpsOMDashCollection::Append
 
 
 ## -description

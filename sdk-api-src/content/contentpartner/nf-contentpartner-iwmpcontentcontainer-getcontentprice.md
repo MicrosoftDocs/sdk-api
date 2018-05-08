@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentContainer.GetContentPrice
-title: IWMPContentContainer::GetContentPrice method
+title: IWMPContentContainer::GetContentPrice
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentcontainer_getcontentprice.htm
 old-project: WMP
 ms.assetid: ae0a9f37-2337-419e-b912-2102e8eb2a39
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetContentPrice method [Windows Media Player], GetContentPrice method [Windows Media Player], IWMPContentContainer interface, GetContentPrice,IWMPContentContainer.GetContentPrice, IWMPContentContainer, IWMPContentContainer interface [Windows Media Player], GetContentPrice method, IWMPContentContainer::GetContentPrice, IWMPContentContainerGetContentPrice, contentpartner/IWMPContentContainer::GetContentPrice, wmp.iwmpcontentcontainer_getcontentprice
+ms.date: 5/4/2018
+ms.keywords: GetContentPrice, GetContentPrice method [Windows Media Player], GetContentPrice method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentPrice method, IWMPContentContainer.GetContentPrice, IWMPContentContainer::GetContentPrice, IWMPContentContainerGetContentPrice, contentpartner/IWMPContentContainer::GetContentPrice, wmp.iwmpcontentcontainer_getcontentprice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentContainer::GetContentPrice method
+# IWMPContentContainer::GetContentPrice
 
 
 ## -description

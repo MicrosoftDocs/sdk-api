@@ -7,7 +7,7 @@ old-location: winprog\_lcreat.htm
 old-project: DevNotes
 ms.assetid: 89e19823-c720-4bfc-95d5-18942573dd94
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: "_lcreat, _lcreat function [Windows API], winbase/_lcreat, winprog._lcreat"
 ms.prod: windows-hardware
 ms.technology: windows-devices

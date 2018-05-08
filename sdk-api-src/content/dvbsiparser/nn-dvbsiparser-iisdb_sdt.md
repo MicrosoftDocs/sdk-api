@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a9824eb9-ec12-4a09-ba42-243fe19c0670
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IISDB_SDT, IISDB_SDT interface [Microsoft TV Technologies], IISDB_SDT interface [Microsoft TV Technologies], described, dvbsiparser/IISDB_SDT, mstv.iisdb_sdt
+ms.keywords: IISDB_SDT, IISDB_SDT interface [Microsoft TV Technologies], IISDB_SDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_SDT, mstv.iisdb_sdt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

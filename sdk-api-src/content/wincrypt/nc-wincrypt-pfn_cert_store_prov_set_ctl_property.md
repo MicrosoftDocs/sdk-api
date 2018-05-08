@@ -7,8 +7,8 @@ old-location: security\certstoreprovsetctlproperty.htm
 old-project: SecCrypto
 ms.assetid: d062c875-b8c1-454f-8a0d-2ada74e5028d
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CertStoreProvSetCTLProperty, CertStoreProvSetCTLProperty callback function [Security], PFN_CERT_STORE_PROV_SET_CTL_PROPERTY, PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback function [Security], _crypto2_certstoreprovsetctlproperty, security.certstoreprovsetctlproperty, wincrypt/CertStoreProvSetCTLProperty, wincrypt/PFN_CERT_STORE_PROV_SET_CTL_PROPERTY
+ms.date: 4/30/2018
+ms.keywords: CertStoreProvSetCTLProperty, CertStoreProvSetCTLProperty callback, CertStoreProvSetCTLProperty callback function [Security], PFN_CERT_STORE_PROV_SET_CTL_PROPERTY, PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback function [Security], _crypto2_certstoreprovsetctlproperty, security.certstoreprovsetctlproperty, wincrypt/CertStoreProvSetCTLProperty, wincrypt/PFN_CERT_STORE_PROV_SET_CTL_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback
+# PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback function
 
 
 ## -description

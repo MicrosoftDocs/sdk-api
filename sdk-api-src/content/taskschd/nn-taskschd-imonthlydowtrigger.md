@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: a950e4a0-1fcc-4213-bdb7-d1e1cf28fe91
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IMonthlyDOWTrigger, IMonthlyDOWTrigger interface [Task Scheduler], IMonthlyDOWTrigger interface [Task Scheduler], described, monthly DOW trigger [Task Scheduler], taskschd.imonthlydowtrigger, taskschd/IMonthlyDOWTrigger, triggers [Task Scheduler], types, monthly DOW
+ms.keywords: IMonthlyDOWTrigger, IMonthlyDOWTrigger interface [Task Scheduler], IMonthlyDOWTrigger interface [Task Scheduler],described, monthly DOW trigger [Task Scheduler], taskschd.imonthlydowtrigger, taskschd/IMonthlyDOWTrigger, triggers [Task Scheduler],types,monthly DOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

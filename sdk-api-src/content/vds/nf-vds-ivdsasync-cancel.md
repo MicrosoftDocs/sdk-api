@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsAsync.Cancel
-title: IVdsAsync::Cancel method
+title: IVdsAsync::Cancel
 author: windows-driver-content
 description: Cancels the asynchronous operation.
 old-location: base\ivdsasync_cancel.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 40940cb8-46b7-4483-9952-ab053c49dad7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Cancel method [VDS], Cancel method [VDS], IVdsAsync interface, Cancel,IVdsAsync.Cancel, IVdsAsync, IVdsAsync interface [VDS], Cancel method, IVdsAsync::Cancel, base.ivdsasync_cancel, vds/IVdsAsync::Cancel, vdshwprv/IVdsAsync::Cancel
+ms.keywords: Cancel, Cancel method [VDS], Cancel method [VDS],IVdsAsync interface, IVdsAsync interface [VDS],Cancel method, IVdsAsync.Cancel, IVdsAsync::Cancel, base.ivdsasync_cancel, vds/IVdsAsync::Cancel, vdshwprv/IVdsAsync::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsAsync::Cancel method
+# IVdsAsync::Cancel
 
 
 ## -description

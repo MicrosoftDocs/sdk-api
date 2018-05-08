@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.PauseOff
-title: IDvdControl::PauseOff method
+title: IDvdControl::PauseOff
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Resumes playback of the current media file after a pause.
 old-location: dshow\idvdcontrol_pauseoff.htm
 old-project: DirectShow
 ms.assetid: 6ec442dd-74ca-4b0b-901f-8efb7e77c5bf
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl, IDvdControl interface [DirectShow], PauseOff method, IDvdControl::PauseOff, IDvdControlPauseOff, PauseOff method [DirectShow], PauseOff method [DirectShow], IDvdControl interface, PauseOff,IDvdControl.PauseOff, dshow.idvdcontrol_pauseoff, strmif/IDvdControl::PauseOff
+ms.date: 4/30/2018
+ms.keywords: IDvdControl interface [DirectShow],PauseOff method, IDvdControl.PauseOff, IDvdControl::PauseOff, IDvdControlPauseOff, PauseOff, PauseOff method [DirectShow], PauseOff method [DirectShow],IDvdControl interface, dshow.idvdcontrol_pauseoff, strmif/IDvdControl::PauseOff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::PauseOff method
+# IDvdControl::PauseOff
 
 
 ## -description

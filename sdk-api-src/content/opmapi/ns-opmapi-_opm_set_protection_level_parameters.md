@@ -7,7 +7,7 @@ old-location: mf\opm_set_protection_level_parameters.htm
 old-project: medfound
 ms.assetid: 074c30b2-ad79-4ace-89fb-859fac016ebf
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: OPM_SET_PROTECTION_LEVEL_PARAMETERS, OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Media Foundation], _OPM_SET_PROTECTION_LEVEL_PARAMETERS, mf.opm_set_protection_level_parameters, opmapi/OPM_SET_PROTECTION_LEVEL_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Unload
-title: IDirectMusicSynth::Unload method
+title: IDirectMusicSynth::Unload
 author: windows-driver-content
 description: The Unload method unloads a DLS resource (waveform or articulation data for a MIDI instrument) that was previously downloaded by a call to IDirectMusicSynth::Download.
 old-location: audio\idirectmusicsynth_unload.htm
 old-project: audio
 ms.assetid: 608ebffe-873a-40ed-a411-245e8b6ceabd
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IDirectMusicSynth, IDirectMusicSynth interface [Audio Devices], Unload method, IDirectMusicSynth::Unload, Unload method [Audio Devices], Unload method [Audio Devices], IDirectMusicSynth interface, Unload,IDirectMusicSynth.Unload, audio.idirectmusicsynth_unload, audmp-routines_7a0213c4-3cd1-4c6f-ab4a-064d08782629.xml, dmusics/IDirectMusicSynth::Unload
+ms.date: 5/1/2018
+ms.keywords: IDirectMusicSynth interface [Audio Devices],Unload method, IDirectMusicSynth.Unload, IDirectMusicSynth::Unload, Unload, Unload method [Audio Devices], Unload method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_unload, audmp-routines_7a0213c4-3cd1-4c6f-ab4a-064d08782629.xml, dmusics/IDirectMusicSynth::Unload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectMusicSynth::Unload method
+# IDirectMusicSynth::Unload
 
 
 ## -description

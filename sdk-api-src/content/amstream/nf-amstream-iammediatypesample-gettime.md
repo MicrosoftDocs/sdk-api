@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetTime
-title: IAMMediaTypeSample::GetTime method
+title: IAMMediaTypeSample::GetTime
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The GetTime method retrieves the stream times at which the sample should start and stop.
 old-location: dshow\iammediatypesample_gettime.htm
 old-project: DirectShow
 ms.assetid: ffbbc857-ddcc-4625-b591-b95a256d40ba
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetTime method [DirectShow], GetTime method [DirectShow], IAMMediaTypeSample interface, GetTime,IAMMediaTypeSample.GetTime, IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], GetTime method, IAMMediaTypeSample::GetTime, IAMMediaTypeSampleGetTime, amstream/IAMMediaTypeSample::GetTime, dshow.iammediatypesample_gettime
+ms.date: 4/30/2018
+ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetTime method, IAMMediaTypeSample.GetTime, IAMMediaTypeSample::GetTime, IAMMediaTypeSampleGetTime, amstream/IAMMediaTypeSample::GetTime, dshow.iammediatypesample_gettime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaTypeSample::GetTime method
+# IAMMediaTypeSample::GetTime
 
 
 ## -description

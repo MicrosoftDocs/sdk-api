@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.AddRange
-title: IMFMediaTimeRange::AddRange method
+title: IMFMediaTimeRange::AddRange
 author: windows-driver-content
 description: Adds a new range to the list of time ranges.
 old-location: mf\imfmediatimerange_addrange.htm
 old-project: medfound
 ms.assetid: 6BA36A44-78AC-4868-9E6A-601C0740E67A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddRange method [Media Foundation], AddRange method [Media Foundation], IMFMediaTimeRange interface, AddRange,IMFMediaTimeRange.AddRange, IMFMediaTimeRange, IMFMediaTimeRange interface [Media Foundation], AddRange method, IMFMediaTimeRange::AddRange, mf.imfmediatimerange_addrange, mfmediaengine/IMFMediaTimeRange::AddRange
+ms.date: 5/3/2018
+ms.keywords: AddRange, AddRange method [Media Foundation], AddRange method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],AddRange method, IMFMediaTimeRange.AddRange, IMFMediaTimeRange::AddRange, mf.imfmediatimerange_addrange, mfmediaengine/IMFMediaTimeRange::AddRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaTimeRange::AddRange method
+# IMFMediaTimeRange::AddRange
 
 
 ## -description

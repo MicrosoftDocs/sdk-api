@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 591082fb-ef1e-4271-bf6c-d5034bdbae99
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: PQUERY_POWER, QueryPower, QueryPower callback function [RAS], _mpr_querypower, routprot/QueryPower, rras.querypower
+ms.keywords: PQUERY_POWER, PQUERY_POWER callback, QueryPower, QueryPower callback function [RAS], _mpr_querypower, routprot/QueryPower, rras.querypower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PQUERY_POWER callback
+# PQUERY_POWER callback function
 
 
 ## -description

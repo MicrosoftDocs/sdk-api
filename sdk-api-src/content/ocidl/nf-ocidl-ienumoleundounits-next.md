@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Next
-title: IEnumOleUndoUnits::Next method
+title: IEnumOleUndoUnits::Next
 author: windows-driver-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumoleundounits_next.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bd5ce157-37d1-4e27-a0d4-ed9cffeac2b3
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], Next method, IEnumOleUndoUnits::Next, Next method [COM], Next method [COM], IEnumOleUndoUnits interface, Next,IEnumOleUndoUnits.Next, _ole_ienumoleundounits_next, com.ienumoleundounits_next, ocidl/IEnumOleUndoUnits::Next
+ms.keywords: IEnumOleUndoUnits interface [COM],Next method, IEnumOleUndoUnits.Next, IEnumOleUndoUnits::Next, Next, Next method [COM], Next method [COM],IEnumOleUndoUnits interface, _ole_ienumoleundounits_next, com.ienumoleundounits_next, ocidl/IEnumOleUndoUnits::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumOleUndoUnits::Next method
+# IEnumOleUndoUnits::Next
 
 
 ## -description

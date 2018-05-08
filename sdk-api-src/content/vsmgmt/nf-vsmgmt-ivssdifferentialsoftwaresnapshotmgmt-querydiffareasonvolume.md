@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasOnVolume
-title: IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume method
+title: IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume
 author: windows-driver-content
 description: Queries shadow copy storage areas that physically reside on the given volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_querydiffareasonvolume.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 6d9853d3-9c00-47e6-99e8-e499dea9b495
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssDifferentialSoftwareSnapshotMgmt, IVssDifferentialSoftwareSnapshotMgmt interface [VSS], QueryDiffAreasOnVolume method, IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume, QueryDiffAreasOnVolume method [VSS], QueryDiffAreasOnVolume method [VSS], IVssDifferentialSoftwareSnapshotMgmt interface, QueryDiffAreasOnVolume,IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasOnVolume, base.ivssdifferentialsoftwaresnapshotmgmt_querydiffareasonvolume, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume
+ms.keywords: IVssDifferentialSoftwareSnapshotMgmt interface [VSS],QueryDiffAreasOnVolume method, IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasOnVolume, IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume, QueryDiffAreasOnVolume, QueryDiffAreasOnVolume method [VSS], QueryDiffAreasOnVolume method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, base.ivssdifferentialsoftwaresnapshotmgmt_querydiffareasonvolume, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume method
+# IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume
 
 
 ## -description

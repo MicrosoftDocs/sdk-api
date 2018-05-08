@@ -7,7 +7,7 @@ old-location: winprog\fdicopy.htm
 old-project: DevNotes
 ms.assetid: 6ec2b10b-f70a-4a22-beff-df6b6a4c4cfd
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: FDICopy, FDICopy function [Windows API], fdi/FDICopy, winprog.fdicopy
 ms.prod: windows-hardware
 ms.technology: windows-devices

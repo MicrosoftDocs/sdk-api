@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetSubConditions
-title: ICondition::GetSubConditions method
+title: ICondition::GetSubConditions
 author: windows-driver-content
 description: Retrieves a collection of the subconditions of the search condition node and the IID of the interface for enumerating the collection.
 old-location: search\_search_ICondition_GetSubConditions.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getsubconditions.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetSubConditions method [search], GetSubConditions method [search], ICondition interface, GetSubConditions,ICondition.GetSubConditions, ICondition, ICondition interface [search], GetSubConditions method, ICondition::GetSubConditions, _search_ICondition_GetSubConditions, search._search_ICondition_GetSubConditions, structuredquerycondition/ICondition::GetSubConditions
+ms.date: 5/4/2018
+ms.keywords: GetSubConditions, GetSubConditions method [search], GetSubConditions method [search],ICondition interface, ICondition interface [search],GetSubConditions method, ICondition.GetSubConditions, ICondition::GetSubConditions, _search_ICondition_GetSubConditions, search._search_ICondition_GetSubConditions, structuredquerycondition/ICondition::GetSubConditions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ICondition::GetSubConditions method
+# ICondition::GetSubConditions
 
 
 ## -description

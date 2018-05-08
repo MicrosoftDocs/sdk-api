@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration
-title: IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration method
+title: IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration
 author: windows-driver-content
 description: The GetAcceleratedStreamingDuration method retrieves the current accelerated streaming duration.
 old-location: wmformat\iwmreadernetworkconfig2_getacceleratedstreamingduration.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a8feda02-113a-4763-b695-c4cd48781ade
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetAcceleratedStreamingDuration method [windows Media Format], GetAcceleratedStreamingDuration method [windows Media Format], IWMReaderNetworkConfig2 interface, GetAcceleratedStreamingDuration,IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration, IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], GetAcceleratedStreamingDuration method, IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration, IWMReaderNetworkConfig2GetAcceleratedStreamingDuration, wmformat.iwmreadernetworkconfig2_getacceleratedstreamingduration, wmsdkidl/IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration
+ms.keywords: GetAcceleratedStreamingDuration, GetAcceleratedStreamingDuration method [windows Media Format], GetAcceleratedStreamingDuration method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetAcceleratedStreamingDuration method, IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration, IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration, IWMReaderNetworkConfig2GetAcceleratedStreamingDuration, wmformat.iwmreadernetworkconfig2_getacceleratedstreamingduration, wmsdkidl/IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration method
+# IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration
 
 
 ## -description

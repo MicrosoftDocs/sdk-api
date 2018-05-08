@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_IsDownloaded
-title: IUpdate::get_IsDownloaded method
+title: IUpdate::get_IsDownloaded
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether all the update content is cached on the computer.
 old-location: wua\iupdate_isdownloaded.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 4e20f2b0-096c-4ec6-b554-1891522b8933
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], IsDownloaded property, IUpdate.IsDownloaded, IUpdate::get_IsDownloaded, IsDownloaded property [Windows Update Agent], IsDownloaded property [Windows Update Agent], IUpdate interface, get_IsDownloaded,IUpdate.get_IsDownloaded, wua.iupdate_isdownloaded, wuapi/IUpdate::IsDownloaded, wuapi/IUpdate::get_IsDownloaded
+ms.keywords: IUpdate interface [Windows Update Agent],IsDownloaded property, IUpdate.IsDownloaded, IUpdate.get_IsDownloaded, IUpdate::IsDownloaded, IUpdate::get_IsDownloaded, IsDownloaded property [Windows Update Agent], IsDownloaded property [Windows Update Agent],IUpdate interface, get_IsDownloaded, wua.iupdate_isdownloaded, wuapi/IUpdate::IsDownloaded, wuapi/IUpdate::get_IsDownloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_IsDownloaded method
+# IUpdate::get_IsDownloaded
 
 
 ## -description

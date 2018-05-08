@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_UninstallationSteps
-title: IUpdate::get_UninstallationSteps method
+title: IUpdate::get_UninstallationSteps
 author: windows-driver-content
 description: Gets an interface that contains the uninstallation steps for the update.
 old-location: wua\iupdate_uninstallationsteps.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: f112ce5b-9f94-4fdc-96d8-1f216e3729d0
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], UninstallationSteps property, IUpdate.UninstallationSteps, IUpdate::get_UninstallationSteps, UninstallationSteps property [Windows Update Agent], UninstallationSteps property [Windows Update Agent], IUpdate interface, get_UninstallationSteps,IUpdate.get_UninstallationSteps, wua.iupdate_uninstallationsteps, wuapi/IUpdate::UninstallationSteps, wuapi/IUpdate::get_UninstallationSteps
+ms.keywords: IUpdate interface [Windows Update Agent],UninstallationSteps property, IUpdate.UninstallationSteps, IUpdate.get_UninstallationSteps, IUpdate::UninstallationSteps, IUpdate::get_UninstallationSteps, UninstallationSteps property [Windows Update Agent], UninstallationSteps property [Windows Update Agent],IUpdate interface, get_UninstallationSteps, wua.iupdate_uninstallationsteps, wuapi/IUpdate::UninstallationSteps, wuapi/IUpdate::get_UninstallationSteps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_UninstallationSteps method
+# IUpdate::get_UninstallationSteps
 
 
 ## -description

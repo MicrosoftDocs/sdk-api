@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetDataFormat
-title: IMFTimedTextTrack::GetDataFormat method
+title: IMFTimedTextTrack::GetDataFormat
 author: windows-driver-content
 description: Gets a GUID that identifies the track's underlying data format.
 old-location: mf\imftimedtexttrack_getdataformat.htm
 old-project: medfound
 ms.assetid: B00FA013-1C96-48FB-8046-D9A24BB78412
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDataFormat method [Media Foundation], GetDataFormat method [Media Foundation], IMFTimedTextTrack interface, GetDataFormat,IMFTimedTextTrack.GetDataFormat, IMFTimedTextTrack, IMFTimedTextTrack interface [Media Foundation], GetDataFormat method, IMFTimedTextTrack::GetDataFormat, mf.imftimedtexttrack_getdataformat, mfmediaengine/IMFTimedTextTrack::GetDataFormat
+ms.date: 5/3/2018
+ms.keywords: GetDataFormat, GetDataFormat method [Media Foundation], GetDataFormat method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetDataFormat method, IMFTimedTextTrack.GetDataFormat, IMFTimedTextTrack::GetDataFormat, mf.imftimedtexttrack_getdataformat, mfmediaengine/IMFTimedTextTrack::GetDataFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextTrack::GetDataFormat method
+# IMFTimedTextTrack::GetDataFormat
 
 
 ## -description

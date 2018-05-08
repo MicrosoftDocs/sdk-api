@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetConnector
-title: IDeviceTopology::GetConnector method
+title: IDeviceTopology::GetConnector
 author: windows-driver-content
 description: The GetConnector method gets the connector that is specified by a connector number.
 old-location: coreaudio\idevicetopology_getconnector.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: a2da5d1e-ecd3-411e-8428-f529569cc11d
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetConnector method [Core Audio], GetConnector method [Core Audio], IDeviceTopology interface, GetConnector,IDeviceTopology.GetConnector, IDeviceTopology, IDeviceTopology interface [Core Audio], GetConnector method, IDeviceTopology::GetConnector, IDeviceTopologyGetConnector, coreaudio.idevicetopology_getconnector, devicetopology/IDeviceTopology::GetConnector
+ms.keywords: GetConnector, GetConnector method [Core Audio], GetConnector method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetConnector method, IDeviceTopology.GetConnector, IDeviceTopology::GetConnector, IDeviceTopologyGetConnector, coreaudio.idevicetopology_getconnector, devicetopology/IDeviceTopology::GetConnector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDeviceTopology::GetConnector method
+# IDeviceTopology::GetConnector
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.OnEndFile
-title: IFsrmClassifierModuleImplementation::OnEndFile method
+title: IFsrmClassifierModuleImplementation::OnEndFile
 author: windows-driver-content
 description: Instructs the classifier to perform any cleanup after processing a file.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_onendfile.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 52de3e11-89b3-4cf2-92f3-cc6dff686e0b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplementation interface [File Server Resource Manager], OnEndFile method, IFsrmClassifierModuleImplementation::OnEndFile, OnEndFile method [File Server Resource Manager], OnEndFile method [File Server Resource Manager], IFsrmClassifierModuleImplementation interface, OnEndFile,IFsrmClassifierModuleImplementation.OnEndFile, fs.ifsrmclassifiermoduleimplementation_onendfile, fsrm.ifsrmclassifiermoduleimplementation_onendfile, fsrmpipeline/IFsrmClassifierModuleImplementation::OnEndFile
+ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],OnEndFile method, IFsrmClassifierModuleImplementation.OnEndFile, IFsrmClassifierModuleImplementation::OnEndFile, OnEndFile, OnEndFile method [File Server Resource Manager], OnEndFile method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_onendfile, fsrm.ifsrmclassifiermoduleimplementation_onendfile, fsrmpipeline/IFsrmClassifierModuleImplementation::OnEndFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassifierModuleImplementation::OnEndFile method
+# IFsrmClassifierModuleImplementation::OnEndFile
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.put_DeleteRequestCert
-title: IEnroll::put_DeleteRequestCert method
+title: IEnroll::put_DeleteRequestCert
 author: windows-driver-content
 description: The DeleteRequestCert property of IEnroll4 sets or retrieves a Boolean value that determines whether dummy certificates in the request store are deleted.
 old-location: security\ienroll4_deleterequestcert.htm
 old-project: SecCrypto
 ms.assetid: 54b85347-cdc1-42e3-bc26-0b50bd58131a
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: DeleteRequestCert property [Security], DeleteRequestCert property [Security], IEnroll interface, IEnroll, IEnroll interface [Security], DeleteRequestCert property, IEnroll.DeleteRequestCert, IEnroll::get_DeleteRequestCert, IEnroll::put_DeleteRequestCert, put_DeleteRequestCert,IEnroll.put_DeleteRequestCert, security.ienroll4_deleterequestcert, xenroll/IEnroll::DeleteRequestCert, xenroll/IEnroll::get_DeleteRequestCert, xenroll/IEnroll::put_DeleteRequestCert
+ms.date: 4/30/2018
+ms.keywords: DeleteRequestCert property [Security], DeleteRequestCert property [Security],IEnroll interface, IEnroll interface [Security],DeleteRequestCert property, IEnroll.DeleteRequestCert, IEnroll.put_DeleteRequestCert, IEnroll::DeleteRequestCert, IEnroll::get_DeleteRequestCert, IEnroll::put_DeleteRequestCert, put_DeleteRequestCert, security.ienroll4_deleterequestcert, xenroll/IEnroll::DeleteRequestCert, xenroll/IEnroll::get_DeleteRequestCert, xenroll/IEnroll::put_DeleteRequestCert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::put_DeleteRequestCert method
+# IEnroll::put_DeleteRequestCert
 
 
 ## -description

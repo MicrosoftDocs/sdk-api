@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetGuideData
-title: IBDA_GuideDataDeliveryService::GetGuideData method
+title: IBDA_GuideDataDeliveryService::GetGuideData
 author: windows-driver-content
 description: Gets the next set of guide data that is available.
 old-location: mstv\ibda_guidedatadeliveryservice_getguidedata.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c261d20e-3760-4bf9-905b-f5620df4166b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetGuideData method [Microsoft TV Technologies], GetGuideData method [Microsoft TV Technologies], IBDA_GuideDataDeliveryService interface, GetGuideData,IBDA_GuideDataDeliveryService.GetGuideData, IBDA_GuideDataDeliveryService, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies], GetGuideData method, IBDA_GuideDataDeliveryService::GetGuideData, bdaiface/IBDA_GuideDataDeliveryService::GetGuideData, mstv.ibda_guidedatadeliveryservice_getguidedata
+ms.keywords: GetGuideData, GetGuideData method [Microsoft TV Technologies], GetGuideData method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetGuideData method, IBDA_GuideDataDeliveryService.GetGuideData, IBDA_GuideDataDeliveryService::GetGuideData, bdaiface/IBDA_GuideDataDeliveryService::GetGuideData, mstv.ibda_guidedatadeliveryservice_getguidedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_GuideDataDeliveryService::GetGuideData method
+# IBDA_GuideDataDeliveryService::GetGuideData
 
 
 ## -description

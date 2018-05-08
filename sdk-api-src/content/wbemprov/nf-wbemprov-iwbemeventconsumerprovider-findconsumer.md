@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemEventConsumerProvider.FindConsumer
-title: IWbemEventConsumerProvider::FindConsumer method
+title: IWbemEventConsumerProvider::FindConsumer
 author: windows-driver-content
 description: The FindConsumer function locates and returns sink objects to which WMI can send events.
 old-location: wmi\iwbemeventconsumerprovider_findconsumer.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 196c839a-5b8f-4ff6-b6cf-3483db275e8b
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: FindConsumer method [Windows Management Instrumentation], FindConsumer method [Windows Management Instrumentation], IWbemEventConsumerProvider interface, FindConsumer,IWbemEventConsumerProvider.FindConsumer, IWbemEventConsumerProvider, IWbemEventConsumerProvider interface [Windows Management Instrumentation], FindConsumer method, IWbemEventConsumerProvider::FindConsumer, _hmm_iwbemeventconsumerprovider_findconsumer, wbemprov/IWbemEventConsumerProvider::FindConsumer, wmi.iwbemeventconsumerprovider_findconsumer
+ms.keywords: FindConsumer, FindConsumer method [Windows Management Instrumentation], FindConsumer method [Windows Management Instrumentation],IWbemEventConsumerProvider interface, IWbemEventConsumerProvider interface [Windows Management Instrumentation],FindConsumer method, IWbemEventConsumerProvider.FindConsumer, IWbemEventConsumerProvider::FindConsumer, _hmm_iwbemeventconsumerprovider_findconsumer, wbemprov/IWbemEventConsumerProvider::FindConsumer, wmi.iwbemeventconsumerprovider_findconsumer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemEventConsumerProvider::FindConsumer method
+# IWbemEventConsumerProvider::FindConsumer
 
 
 ## -description

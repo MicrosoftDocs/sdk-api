@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IOverlay.SetColorKey
-title: IOverlay::SetColorKey method
+title: IOverlay::SetColorKey
 author: windows-driver-content
 description: The SetColorKey method changes the color key.
 old-location: dshow\ioverlay_setcolorkey.htm
 old-project: DirectShow
 ms.assetid: dacbaf03-348f-403d-9c2c-aed8ec344879
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IOverlay, IOverlay interface [DirectShow], SetColorKey method, IOverlay::SetColorKey, IOverlaySetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow], IOverlay interface, SetColorKey,IOverlay.SetColorKey, dshow.ioverlay_setcolorkey, strmif/IOverlay::SetColorKey
+ms.date: 4/30/2018
+ms.keywords: IOverlay interface [DirectShow],SetColorKey method, IOverlay.SetColorKey, IOverlay::SetColorKey, IOverlaySetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IOverlay interface, dshow.ioverlay_setcolorkey, strmif/IOverlay::SetColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IOverlay::SetColorKey method
+# IOverlay::SetColorKey
 
 
 ## -description

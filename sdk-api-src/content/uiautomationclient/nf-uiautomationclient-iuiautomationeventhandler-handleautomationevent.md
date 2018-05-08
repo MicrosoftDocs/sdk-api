@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandler.HandleAutomationEvent
-title: IUIAutomationEventHandler::HandleAutomationEvent method
+title: IUIAutomationEventHandler::HandleAutomationEvent
 author: windows-driver-content
 description: Handles a Microsoft UI Automation event.
 old-location: winauto\uiauto_IUIAutomationEventHandler_HandleAutomationEvent.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 56668923-f21a-4d38-9175-95785892388c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: HandleAutomationEvent method [Windows Accessibility], HandleAutomationEvent method [Windows Accessibility], IUIAutomationEventHandler interface, HandleAutomationEvent,IUIAutomationEventHandler.HandleAutomationEvent, IUIAutomationEventHandler, IUIAutomationEventHandler interface [Windows Accessibility], HandleAutomationEvent method, IUIAutomationEventHandler::HandleAutomationEvent, uiauto.uiauto_IUIAutomationEventHandler_HandleAutomationEvent, uiauto_IUIAutomationEventHandler_HandleAutomationEvent, uiautomationclient/IUIAutomationEventHandler::HandleAutomationEvent, winauto.uiauto_IUIAutomationEventHandler_HandleAutomationEvent
+ms.keywords: HandleAutomationEvent, HandleAutomationEvent method [Windows Accessibility], HandleAutomationEvent method [Windows Accessibility],IUIAutomationEventHandler interface, IUIAutomationEventHandler interface [Windows Accessibility],HandleAutomationEvent method, IUIAutomationEventHandler.HandleAutomationEvent, IUIAutomationEventHandler::HandleAutomationEvent, uiauto.uiauto_IUIAutomationEventHandler_HandleAutomationEvent, uiauto_IUIAutomationEventHandler_HandleAutomationEvent, uiautomationclient/IUIAutomationEventHandler::HandleAutomationEvent, winauto.uiauto_IUIAutomationEventHandler_HandleAutomationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationEventHandler::HandleAutomationEvent method
+# IUIAutomationEventHandler::HandleAutomationEvent
 
 
 ## -description

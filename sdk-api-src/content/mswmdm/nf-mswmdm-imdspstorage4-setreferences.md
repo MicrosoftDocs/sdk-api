@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage4.SetReferences
-title: IMDSPStorage4::SetReferences method
+title: IMDSPStorage4::SetReferences
 author: windows-driver-content
 description: The SetReferences method sets the references contained in a storage that has references (such as playlist/album), overwriting any previously existing references contained in this storage.
 old-location: wmdm\imdspstorage4_setreferences.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 45fd9efa-b03d-46de-9d8c-85ed04d446dd
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IMDSPStorage4, IMDSPStorage4 interface [windows Media Device Manager], SetReferences method, IMDSPStorage4::SetReferences, IMDSPStorage4SetReferences, SetReferences method [windows Media Device Manager], SetReferences method [windows Media Device Manager], IMDSPStorage4 interface, SetReferences,IMDSPStorage4.SetReferences, mswmdm/IMDSPStorage4::SetReferences, wmdm.imdspstorage4_setreferences
+ms.keywords: IMDSPStorage4 interface [windows Media Device Manager],SetReferences method, IMDSPStorage4.SetReferences, IMDSPStorage4::SetReferences, IMDSPStorage4SetReferences, SetReferences, SetReferences method [windows Media Device Manager], SetReferences method [windows Media Device Manager],IMDSPStorage4 interface, mswmdm/IMDSPStorage4::SetReferences, wmdm.imdspstorage4_setreferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPStorage4::SetReferences method
+# IMDSPStorage4::SetReferences
 
 
 ## -description

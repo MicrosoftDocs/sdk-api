@@ -73,6 +73,11 @@ The page protection value that was specified when the allocation was created. Pr
  
 
 
+### -field DUMMYUNIONNAME.Flags
+
+Represents all memory region flags as a single ULONG value. Applications should not use this field. Instead, test the individual bit field flags defined below.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -121,11 +126,6 @@ The size of the allocation.
 ### -field CommitSize
 
 The commit charge associated with the allocation. For private allocations, this is the combined size of pages in the region that are committed, as opposed to reserved. For mapped views, this is the combined size of pages that have copy-on-write protection, or have been made private as a result of copy-on-write.
-
-
-#### - Flags
-
-Represents all memory region flags as a single ULONG value. Applications should not use this field. Instead, test the individual bit field flags defined below.
 
 
 ## -remarks

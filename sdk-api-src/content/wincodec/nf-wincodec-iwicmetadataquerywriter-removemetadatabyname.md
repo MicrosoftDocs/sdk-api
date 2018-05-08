@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryWriter.RemoveMetadataByName
-title: IWICMetadataQueryWriter::RemoveMetadataByName method
+title: IWICMetadataQueryWriter::RemoveMetadataByName
 author: windows-driver-content
 description: Removes a metadata item from a specific location using a metadata query expression.
 old-location: wic\_wic_codec_iwicmetadataquerywriter_removemetadatabyname.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 419d56db-42a6-4467-8ec5-7c7d2c5cdcf4
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICMetadataQueryWriter, IWICMetadataQueryWriter interface [Windows Imaging Component], RemoveMetadataByName method, IWICMetadataQueryWriter::RemoveMetadataByName, RemoveMetadataByName method [Windows Imaging Component], RemoveMetadataByName method [Windows Imaging Component], IWICMetadataQueryWriter interface, RemoveMetadataByName,IWICMetadataQueryWriter.RemoveMetadataByName, _wic_codec_iwicmetadataquerywriter_removemetadatabyname, wic._wic_codec_iwicmetadataquerywriter_removemetadatabyname, wincodec/IWICMetadataQueryWriter::RemoveMetadataByName
+ms.keywords: IWICMetadataQueryWriter interface [Windows Imaging Component],RemoveMetadataByName method, IWICMetadataQueryWriter.RemoveMetadataByName, IWICMetadataQueryWriter::RemoveMetadataByName, RemoveMetadataByName, RemoveMetadataByName method [Windows Imaging Component], RemoveMetadataByName method [Windows Imaging Component],IWICMetadataQueryWriter interface, _wic_codec_iwicmetadataquerywriter_removemetadatabyname, wic._wic_codec_iwicmetadataquerywriter_removemetadatabyname, wincodec/IWICMetadataQueryWriter::RemoveMetadataByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataQueryWriter::RemoveMetadataByName method
+# IWICMetadataQueryWriter::RemoveMetadataByName
 
 
 ## -description

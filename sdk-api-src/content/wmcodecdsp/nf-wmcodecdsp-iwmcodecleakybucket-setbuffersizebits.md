@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecLeakyBucket.SetBufferSizeBits
-title: IWMCodecLeakyBucket::SetBufferSizeBits method
+title: IWMCodecLeakyBucket::SetBufferSizeBits
 author: windows-driver-content
 description: Sets the buffer size in bits.
 old-location: mf\iwmcodecleakybucketsetbuffersizebits.htm
 old-project: medfound
 ms.assetid: b602e8ca-8446-4f94-bcd0-193084d96565
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMCodecLeakyBucket, IWMCodecLeakyBucket interface [Media Foundation], SetBufferSizeBits method, IWMCodecLeakyBucket::SetBufferSizeBits, SetBufferSizeBits method [Media Foundation], SetBufferSizeBits method [Media Foundation], IWMCodecLeakyBucket interface, SetBufferSizeBits,IWMCodecLeakyBucket.SetBufferSizeBits, codecapi.iwmcodecleakybucketsetbuffersizebits, mf.iwmcodecleakybucketsetbuffersizebits, wmcodecdsp/ IWMCodecLeakyBucket::SetBufferSizeBits
+ms.date: 5/3/2018
+ms.keywords: IWMCodecLeakyBucket interface [Media Foundation],SetBufferSizeBits method, IWMCodecLeakyBucket.SetBufferSizeBits, IWMCodecLeakyBucket::SetBufferSizeBits, SetBufferSizeBits, SetBufferSizeBits method [Media Foundation], SetBufferSizeBits method [Media Foundation],IWMCodecLeakyBucket interface, codecapi.iwmcodecleakybucketsetbuffersizebits, mf.iwmcodecleakybucketsetbuffersizebits, wmcodecdsp/ IWMCodecLeakyBucket::SetBufferSizeBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecLeakyBucket::SetBufferSizeBits method
+# IWMCodecLeakyBucket::SetBufferSizeBits
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.RunWizard
-title: IUpdateInstaller::RunWizard method
+title: IUpdateInstaller::RunWizard
 author: windows-driver-content
 description: Starts a wizard that guides the local user through the steps to install the updates.
 old-location: wua\iupdateinstaller_runwizard.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 006d95ab-45bc-4110-abd9-e39de58b8a4c
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], RunWizard method, IUpdateInstaller::RunWizard, RunWizard method [Windows Update Agent], RunWizard method [Windows Update Agent], IUpdateInstaller interface, RunWizard,IUpdateInstaller.RunWizard, wua.iupdateinstaller_runwizard, wuapi/IUpdateInstaller::RunWizard
+ms.keywords: IUpdateInstaller interface [Windows Update Agent],RunWizard method, IUpdateInstaller.RunWizard, IUpdateInstaller::RunWizard, RunWizard, RunWizard method [Windows Update Agent], RunWizard method [Windows Update Agent],IUpdateInstaller interface, wua.iupdateinstaller_runwizard, wuapi/IUpdateInstaller::RunWizard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateInstaller::RunWizard method
+# IUpdateInstaller::RunWizard
 
 
 ## -description

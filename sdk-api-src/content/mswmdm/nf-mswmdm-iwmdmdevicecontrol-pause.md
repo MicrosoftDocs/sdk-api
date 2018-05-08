@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.Pause
-title: IWMDMDeviceControl::Pause method
+title: IWMDMDeviceControl::Pause
 author: windows-driver-content
 description: The Pause method pauses the current play or record session at the current position within the content.
 old-location: wmdm\iwmdmdevicecontrol_pause.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 420963d1-11ea-4f1d-b5c0-749e99ee7725
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMDeviceControl, IWMDMDeviceControl interface [windows Media Device Manager], Pause method, IWMDMDeviceControl::Pause, IWMDMDeviceControlPause, Pause method [windows Media Device Manager], Pause method [windows Media Device Manager], IWMDMDeviceControl interface, Pause,IWMDMDeviceControl.Pause, mswmdm/IWMDMDeviceControl::Pause, wmdm.iwmdmdevicecontrol_pause
+ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Pause method, IWMDMDeviceControl.Pause, IWMDMDeviceControl::Pause, IWMDMDeviceControlPause, Pause, Pause method [windows Media Device Manager], Pause method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Pause, wmdm.iwmdmdevicecontrol_pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMDeviceControl::Pause method
+# IWMDMDeviceControl::Pause
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPWindowMessageSink.OnWindowMessage
-title: IWMPWindowMessageSink::OnWindowMessage method
+title: IWMPWindowMessageSink::OnWindowMessage
 author: windows-driver-content
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
 old-location: wmp\iwmpwindowmessagesink_onwindowmessage.htm
 old-project: WMP
 ms.assetid: d32caaba-5264-447f-9890-30e2200e28ff
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPWindowMessageSink, IWMPWindowMessageSink interface [Windows Media Player], OnWindowMessage method, IWMPWindowMessageSink::OnWindowMessage, IWMPWindowMessageSinkOnWindowMessageRendering, OnWindowMessage method [Windows Media Player], OnWindowMessage method [Windows Media Player], IWMPWindowMessageSink interface, OnWindowMessage,IWMPWindowMessageSink.OnWindowMessage, wmp.iwmpwindowmessagesink_onwindowmessage, wmprealestate/IWMPWindowMessageSink::OnWindowMessage
+ms.date: 5/2/2018
+ms.keywords: IWMPWindowMessageSink interface [Windows Media Player],OnWindowMessage method, IWMPWindowMessageSink.OnWindowMessage, IWMPWindowMessageSink::OnWindowMessage, IWMPWindowMessageSinkOnWindowMessageRendering, OnWindowMessage, OnWindowMessage method [Windows Media Player], OnWindowMessage method [Windows Media Player],IWMPWindowMessageSink interface, wmp.iwmpwindowmessagesink_onwindowmessage, wmprealestate/IWMPWindowMessageSink::OnWindowMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPWindowMessageSink::OnWindowMessage method
+# IWMPWindowMessageSink::OnWindowMessage
 
 
 ## -description

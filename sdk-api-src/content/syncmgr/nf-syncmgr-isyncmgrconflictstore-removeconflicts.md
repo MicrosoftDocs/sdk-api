@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.RemoveConflicts
-title: ISyncMgrConflictStore::RemoveConflicts method
+title: ISyncMgrConflictStore::RemoveConflicts
 author: windows-driver-content
 description: Deletes a set of conflicts, specified by conflict ID, from the store.
 old-location: shell\ISyncMgrConflictStore_RemoveConflicts.htm
 old-project: shell
 ms.assetid: d6fbb322-7bb0-4ad0-bf01-2fe407689fe5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrConflictStore, ISyncMgrConflictStore interface [Windows Shell], RemoveConflicts method, ISyncMgrConflictStore::RemoveConflicts, RemoveConflicts method [Windows Shell], RemoveConflicts method [Windows Shell], ISyncMgrConflictStore interface, RemoveConflicts,ISyncMgrConflictStore.RemoveConflicts, _shell_ISyncMgrConflictStore_RemoveConflicts, shell.ISyncMgrConflictStore_RemoveConflicts, syncmgr/ISyncMgrConflictStore::RemoveConflicts
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrConflictStore interface [Windows Shell],RemoveConflicts method, ISyncMgrConflictStore.RemoveConflicts, ISyncMgrConflictStore::RemoveConflicts, RemoveConflicts, RemoveConflicts method [Windows Shell], RemoveConflicts method [Windows Shell],ISyncMgrConflictStore interface, _shell_ISyncMgrConflictStore_RemoveConflicts, shell.ISyncMgrConflictStore_RemoveConflicts, syncmgr/ISyncMgrConflictStore::RemoveConflicts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrConflictStore::RemoveConflicts method
+# ISyncMgrConflictStore::RemoveConflicts
 
 
 ## -description

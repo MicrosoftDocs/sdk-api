@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCore.put_currentPlaylist
-title: IWMPCore::put_currentPlaylist method
+title: IWMPCore::put_currentPlaylist
 author: windows-driver-content
 description: The put_currentPlaylist method specifies the IWMPPlaylist interface that corresponds to the current playlist.
 old-location: wmp\iwmpcore_put_currentplaylist.htm
 old-project: WMP
 ms.assetid: 943641ca-9733-4066-bc69-834e792d93dc
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], put_currentPlaylist method, IWMPCore::put_currentPlaylist, IWMPCoreput_currentPlaylist, put_currentPlaylist method [Windows Media Player], put_currentPlaylist method [Windows Media Player], IWMPCore interface, put_currentPlaylist,IWMPCore.put_currentPlaylist, wmp.iwmpcore_put_currentplaylist, wmp/IWMPCore::put_currentPlaylist
+ms.date: 5/4/2018
+ms.keywords: IWMPCore interface [Windows Media Player],put_currentPlaylist method, IWMPCore.put_currentPlaylist, IWMPCore::put_currentPlaylist, IWMPCoreput_currentPlaylist, put_currentPlaylist, put_currentPlaylist method [Windows Media Player], put_currentPlaylist method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_currentplaylist, wmp/IWMPCore::put_currentPlaylist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCore::put_currentPlaylist method
+# IWMPCore::put_currentPlaylist
 
 
 ## -description

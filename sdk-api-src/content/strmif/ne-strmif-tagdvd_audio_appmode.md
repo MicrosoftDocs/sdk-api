@@ -7,8 +7,8 @@ old-location: dshow\dvd_audio_appmode.htm
 old-project: DirectShow
 ms.assetid: 900fd812-7ca0-4dd8-bb30-3c8eff136939
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: DVD_AUDIO_APPMODE, DVD_AUDIO_APPMODE enumeration [DirectShow], DVD_AUDIO_APPMODEEnumeration, DVD_AudioMode_Karaoke, DVD_AudioMode_None, DVD_AudioMode_Other, DVD_AudioMode_Surround, dshow.dvd_audio_appmode, strmif/DVD_AUDIO_APPMODE, strmif/DVD_AudioMode_Karaoke, strmif/DVD_AudioMode_None, strmif/DVD_AudioMode_Other, strmif/DVD_AudioMode_Surround, tagDVD_AUDIO_APPMODE
+ms.date: 4/30/2018
+ms.keywords: DVD_AUDIO_APPMODE, DVD_AUDIO_APPMODE , DVD_AUDIO_APPMODE enumeration [DirectShow], DVD_AUDIO_APPMODEEnumeration, DVD_AudioMode_Karaoke, DVD_AudioMode_None, DVD_AudioMode_Other, DVD_AudioMode_Surround, dshow.dvd_audio_appmode, strmif/DVD_AUDIO_APPMODE, strmif/DVD_AudioMode_Karaoke, strmif/DVD_AudioMode_None, strmif/DVD_AudioMode_Other, strmif/DVD_AudioMode_Surround, tagDVD_AUDIO_APPMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

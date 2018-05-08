@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyFriendlyName.get_FriendlyName
-title: ICertPropertyFriendlyName::get_FriendlyName method
+title: ICertPropertyFriendlyName::get_FriendlyName
 author: windows-driver-content
 description: Retrieves the display name of the certificate.
 old-location: security\icertpropertyfriendlyname_friendlyname_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 7204800e-e7ae-4fc0-a221-d6f3c2b2855b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: FriendlyName property [Security], FriendlyName property [Security], ICertPropertyFriendlyName interface, ICertPropertyFriendlyName, ICertPropertyFriendlyName interface [Security], FriendlyName property, ICertPropertyFriendlyName.FriendlyName, ICertPropertyFriendlyName::get_FriendlyName, certenroll/ICertPropertyFriendlyName::FriendlyName, certenroll/ICertPropertyFriendlyName::get_FriendlyName, get_FriendlyName,ICertPropertyFriendlyName.get_FriendlyName, security.icertpropertyfriendlyname_friendlyname_property
+ms.keywords: FriendlyName property [Security], FriendlyName property [Security],ICertPropertyFriendlyName interface, ICertPropertyFriendlyName interface [Security],FriendlyName property, ICertPropertyFriendlyName.FriendlyName, ICertPropertyFriendlyName.get_FriendlyName, ICertPropertyFriendlyName::FriendlyName, ICertPropertyFriendlyName::get_FriendlyName, certenroll/ICertPropertyFriendlyName::FriendlyName, certenroll/ICertPropertyFriendlyName::get_FriendlyName, get_FriendlyName, security.icertpropertyfriendlyname_friendlyname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyFriendlyName::get_FriendlyName method
+# ICertPropertyFriendlyName::get_FriendlyName
 
 
 ## -description

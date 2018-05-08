@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.AddDataUnitExtension
-title: IWMStreamConfig2::AddDataUnitExtension method
+title: IWMStreamConfig2::AddDataUnitExtension
 author: windows-driver-content
 description: The AddDataUnitExtension method adds a data unit extension system to the stream. You can use data unit extension systems to attach custom data to samples in an output file.
 old-location: wmformat\iwmstreamconfig2_adddataunitextension.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: db84a33c-bd83-46cb-a97c-76ddeeb74927
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddDataUnitExtension method [windows Media Format], AddDataUnitExtension method [windows Media Format], IWMStreamConfig2 interface, AddDataUnitExtension,IWMStreamConfig2.AddDataUnitExtension, IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format], AddDataUnitExtension method, IWMStreamConfig2::AddDataUnitExtension, IWMStreamConfig2AddDataUnitExtension, wmformat.iwmstreamconfig2_adddataunitextension, wmsdkidl/IWMStreamConfig2::AddDataUnitExtension
+ms.keywords: AddDataUnitExtension, AddDataUnitExtension method [windows Media Format], AddDataUnitExtension method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],AddDataUnitExtension method, IWMStreamConfig2.AddDataUnitExtension, IWMStreamConfig2::AddDataUnitExtension, IWMStreamConfig2AddDataUnitExtension, wmformat.iwmstreamconfig2_adddataunitextension, wmsdkidl/IWMStreamConfig2::AddDataUnitExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig2::AddDataUnitExtension method
+# IWMStreamConfig2::AddDataUnitExtension
 
 
 ## -description

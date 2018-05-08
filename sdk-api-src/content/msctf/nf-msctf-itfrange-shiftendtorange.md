@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.ShiftEndToRange
-title: ITfRange::ShiftEndToRange method
+title: ITfRange::ShiftEndToRange
 author: windows-driver-content
 description: ITfRange::ShiftEndToRange method
 old-location: tsf\itfrange_shiftendtorange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 27595909-025b-46c9-bd6f-2e64a720c97c
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfRange, ITfRange interface [Text Services Framework], ShiftEndToRange method, ITfRange::ShiftEndToRange, ShiftEndToRange method [Text Services Framework], ShiftEndToRange method [Text Services Framework], ITfRange interface, ShiftEndToRange,ITfRange.ShiftEndToRange, _tsf_itfrange_shiftendtorange_ref, msctf/ITfRange::ShiftEndToRange, tsf.itfrange_shiftendtorange
+ms.keywords: ITfRange interface [Text Services Framework],ShiftEndToRange method, ITfRange.ShiftEndToRange, ITfRange::ShiftEndToRange, ShiftEndToRange, ShiftEndToRange method [Text Services Framework], ShiftEndToRange method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftendtorange_ref, msctf/ITfRange::ShiftEndToRange, tsf.itfrange_shiftendtorange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfRange::ShiftEndToRange method
+# ITfRange::ShiftEndToRange
 
 
 ## -description

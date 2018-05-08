@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetColorKey
-title: IDirectDrawSurface7::GetColorKey method
+title: IDirectDrawSurface7::GetColorKey
 author: windows-driver-content
 description: Retrieves the color key value for this surface.
 old-location: directdraw\idirectdrawsurface7_getcolorkey.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 0df14c63-f962-4823-873a-3fe1d626f4cb
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DDCKEY_DESTBLT, DDCKEY_DESTOVERLAY, DDCKEY_SRCBLT, DDCKEY_SRCOVERLAY, GetColorKey method [DirectDraw], GetColorKey method [DirectDraw], IDirectDrawSurface7 interface, GetColorKey,IDirectDrawSurface7.GetColorKey, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], GetColorKey method, IDirectDrawSurface7::GetColorKey, ddraw/IDirectDrawSurface7::GetColorKey, directdraw.idirectdrawsurface7_getcolorkey
+ms.keywords: DDCKEY_DESTBLT, DDCKEY_DESTOVERLAY, DDCKEY_SRCBLT, DDCKEY_SRCOVERLAY, GetColorKey, GetColorKey method [DirectDraw], GetColorKey method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetColorKey method, IDirectDrawSurface7.GetColorKey, IDirectDrawSurface7::GetColorKey, ddraw/IDirectDrawSurface7::GetColorKey, directdraw.idirectdrawsurface7_getcolorkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::GetColorKey method
+# IDirectDrawSurface7::GetColorKey
 
 
 ## -description

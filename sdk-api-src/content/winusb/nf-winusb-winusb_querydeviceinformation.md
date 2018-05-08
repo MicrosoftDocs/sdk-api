@@ -7,7 +7,7 @@ old-location: buses\winusb_querydeviceinformation.htm
 old-project: usbref
 ms.assetid: 0d77c41c-2d3d-41c9-b8f9-054c5e622a5a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/3/2018
 ms.keywords: WinUsb_QueryDeviceInformation, WinUsb_QueryDeviceInformation function [Buses], buses.winusb_querydeviceinformation, winusb/WinUsb_QueryDeviceInformation, winusbfunc_db8c1496-f45c-4d74-b786-8822692aafd9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

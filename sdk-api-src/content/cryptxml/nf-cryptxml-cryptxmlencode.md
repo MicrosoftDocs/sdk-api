@@ -7,7 +7,7 @@ old-location: security\cryptxmlencode.htm
 old-project: SecCrypto
 ms.assetid: fb0cd00c-f410-486e-8910-41c0463f6a74
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CryptXmlEncode, CryptXmlEncode function [Security], cryptxml/CryptXmlEncode, security.cryptxmlencode
 ms.prod: windows-hardware
 ms.technology: windows-devices

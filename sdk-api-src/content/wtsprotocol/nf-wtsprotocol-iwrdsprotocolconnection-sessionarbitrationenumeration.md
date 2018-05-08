@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.SessionArbitrationEnumeration
-title: IWRdsProtocolConnection::SessionArbitrationEnumeration method
+title: IWRdsProtocolConnection::SessionArbitrationEnumeration
 author: windows-driver-content
 description: Called after arbitration to allow the protocol to specify the sessions to be reconnected.
 old-location: termserv\iwrdsprotocolconnection_sessionarbitrationenumeration.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: d0e93014-1f79-47ac-bf3a-c100eb652751
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], SessionArbitrationEnumeration method, IWRdsProtocolConnection::SessionArbitrationEnumeration, SessionArbitrationEnumeration method [Remote Desktop Services], SessionArbitrationEnumeration method [Remote Desktop Services], IWRdsProtocolConnection interface, SessionArbitrationEnumeration,IWRdsProtocolConnection.SessionArbitrationEnumeration, termserv.iwrdsprotocolconnection_sessionarbitrationenumeration, wtsprotocol/IWRdsProtocolConnection::SessionArbitrationEnumeration
+ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],SessionArbitrationEnumeration method, IWRdsProtocolConnection.SessionArbitrationEnumeration, IWRdsProtocolConnection::SessionArbitrationEnumeration, SessionArbitrationEnumeration, SessionArbitrationEnumeration method [Remote Desktop Services], SessionArbitrationEnumeration method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_sessionarbitrationenumeration, wtsprotocol/IWRdsProtocolConnection::SessionArbitrationEnumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::SessionArbitrationEnumeration method
+# IWRdsProtocolConnection::SessionArbitrationEnumeration
 
 
 ## -description

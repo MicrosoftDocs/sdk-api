@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.GetProcAmpRange
-title: IDirectXVideoProcessor::GetProcAmpRange method
+title: IDirectXVideoProcessor::GetProcAmpRange
 author: windows-driver-content
 description: Retrieves the range of values for a video processor (ProcAmp) setting on this video processor device.
 old-location: mf\idirectxvideoprocessor_getprocamprange.htm
 old-project: medfound
 ms.assetid: e15c8425-7a0b-4d03-b2da-467c800c57c2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetProcAmpRange method [Media Foundation], GetProcAmpRange method [Media Foundation], IDirectXVideoProcessor interface, GetProcAmpRange,IDirectXVideoProcessor.GetProcAmpRange, IDirectXVideoProcessor, IDirectXVideoProcessor interface [Media Foundation], GetProcAmpRange method, IDirectXVideoProcessor::GetProcAmpRange, dxva2api/IDirectXVideoProcessor::GetProcAmpRange, e15c8425-7a0b-4d03-b2da-467c800c57c2, mf.idirectxvideoprocessor_getprocamprange
+ms.date: 5/3/2018
+ms.keywords: GetProcAmpRange, GetProcAmpRange method [Media Foundation], GetProcAmpRange method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetProcAmpRange method, IDirectXVideoProcessor.GetProcAmpRange, IDirectXVideoProcessor::GetProcAmpRange, dxva2api/IDirectXVideoProcessor::GetProcAmpRange, e15c8425-7a0b-4d03-b2da-467c800c57c2, mf.idirectxvideoprocessor_getprocamprange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirectXVideoProcessor::GetProcAmpRange method
+# IDirectXVideoProcessor::GetProcAmpRange
 
 
 ## -description

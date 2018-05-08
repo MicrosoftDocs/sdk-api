@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeBrushLookup
-title: IXpsOMPath::GetStrokeBrushLookup method
+title: IXpsOMPath::GetStrokeBrushLookup
 author: windows-driver-content
 description: Gets the lookup key of the brush that is stored in a resource dictionary and is to be used as the stroke brush for the path.
 old-location: xps\ixpsompath_getstrokebrushlookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: af70b6a3-203a-4189-b44d-763539e0302a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStrokeBrushLookup method [XPS Documents and Packaging], GetStrokeBrushLookup method [XPS Documents and Packaging], IXpsOMPath interface, GetStrokeBrushLookup,IXpsOMPath.GetStrokeBrushLookup, IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], GetStrokeBrushLookup method, IXpsOMPath::GetStrokeBrushLookup, xps.ixpsompath_getstrokebrushlookup, xpsobjectmodel/IXpsOMPath::GetStrokeBrushLookup
+ms.keywords: GetStrokeBrushLookup, GetStrokeBrushLookup method [XPS Documents and Packaging], GetStrokeBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrushLookup method, IXpsOMPath.GetStrokeBrushLookup, IXpsOMPath::GetStrokeBrushLookup, xps.ixpsompath_getstrokebrushlookup, xpsobjectmodel/IXpsOMPath::GetStrokeBrushLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::GetStrokeBrushLookup method
+# IXpsOMPath::GetStrokeBrushLookup
 
 
 ## -description

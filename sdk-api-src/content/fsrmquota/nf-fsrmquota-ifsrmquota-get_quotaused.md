@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.get_QuotaUsed
-title: IFsrmQuota::get_QuotaUsed method
+title: IFsrmQuota::get_QuotaUsed
 author: windows-driver-content
 description: Retrieves the current amount of disk space usage charged to this quota.
 old-location: fsrm\ifsrmquota_quotaused.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: c6df9842-9d69-4422-a8bc-c541ae31f21d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmQuota, IFsrmQuota interface [File Server Resource Manager], QuotaUsed property, IFsrmQuota.QuotaUsed, IFsrmQuota::get_QuotaUsed, QuotaUsed property [File Server Resource Manager], QuotaUsed property [File Server Resource Manager], IFsrmQuota interface, fs.ifsrmquota_quotaused, fsrm.ifsrmquota_quotaused, fsrmquota/IFsrmQuota::QuotaUsed, fsrmquota/IFsrmQuota::get_QuotaUsed, get_QuotaUsed,IFsrmQuota.get_QuotaUsed
+ms.keywords: IFsrmQuota interface [File Server Resource Manager],QuotaUsed property, IFsrmQuota.QuotaUsed, IFsrmQuota.get_QuotaUsed, IFsrmQuota::QuotaUsed, IFsrmQuota::get_QuotaUsed, QuotaUsed property [File Server Resource Manager], QuotaUsed property [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_quotaused, fsrm.ifsrmquota_quotaused, fsrmquota/IFsrmQuota::QuotaUsed, fsrmquota/IFsrmQuota::get_QuotaUsed, get_QuotaUsed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuota::get_QuotaUsed method
+# IFsrmQuota::get_QuotaUsed
 
 
 ## -description

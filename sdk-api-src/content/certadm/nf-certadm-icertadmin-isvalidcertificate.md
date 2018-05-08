@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.ICertAdmin.IsValidCertificate
-title: ICertAdmin::IsValidCertificate method
+title: ICertAdmin::IsValidCertificate
 author: windows-driver-content
 description: Verifies the certificate against the certification authority (CA) key and checks that the certificate has not been revoked. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_isvalidcertificate.htm
 old-project: SecCrypto
 ms.assetid: cd133c57-a62e-4083-b4fd-7eaf0c9e7606
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertAdmin object [Security], IsValidCertificate method, ICertAdmin, ICertAdmin interface [Security], IsValidCertificate method, ICertAdmin2 interface [Security], IsValidCertificate method, ICertAdmin2::IsValidCertificate, ICertAdmin::IsValidCertificate, IsValidCertificate method [Security], IsValidCertificate method [Security], CCertAdmin object, IsValidCertificate method [Security], ICertAdmin interface, IsValidCertificate method [Security], ICertAdmin2 interface, IsValidCertificate,ICertAdmin.IsValidCertificate, certadm/ICertAdmin2::IsValidCertificate, certadm/ICertAdmin::IsValidCertificate, security.icertadmin2_isvalidcertificate
+ms.date: 4/30/2018
+ms.keywords: CCertAdmin object [Security],IsValidCertificate method, ICertAdmin interface [Security],IsValidCertificate method, ICertAdmin.IsValidCertificate, ICertAdmin2 interface [Security],IsValidCertificate method, ICertAdmin2::IsValidCertificate, ICertAdmin::IsValidCertificate, IsValidCertificate, IsValidCertificate method [Security], IsValidCertificate method [Security],CCertAdmin object, IsValidCertificate method [Security],ICertAdmin interface, IsValidCertificate method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::IsValidCertificate, certadm/ICertAdmin::IsValidCertificate, security.icertadmin2_isvalidcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# ICertAdmin::IsValidCertificate method
+# ICertAdmin::IsValidCertificate
 
 
 ## -description

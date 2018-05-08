@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.data.pdf.interop.IPdfRendererNative.RenderPageToSurface
-title: IPdfRendererNative::RenderPageToSurface method
+title: IPdfRendererNative::pdf
 author: windows-driver-content
 description: Outputs a single page of a Portable Document Format (PDF) file to a Microsoft DirectX image-data object.
 old-location: winrt\ipdfrenderernative_renderpagetosurface.htm
 old-project: WinRT
 ms.assetid: d4688c23-0122-40a7-908e-793c3f03fb37
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IPdfRendererNative, IPdfRendererNative interface [Windows Runtime], RenderPageToSurface method, IPdfRendererNative::RenderPageToSurface, RenderPageToSurface method [Windows Runtime], RenderPageToSurface method [Windows Runtime], IPdfRendererNative interface, RenderPageToSurface,IPdfRendererNative.RenderPageToSurface, windows/IPdfRendererNative::RenderPageToSurface, winrt.ipdfrenderernative_renderpagetosurface
+ms.date: 5/4/2018
+ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToSurface method, IPdfRendererNative.RenderPageToSurface, IPdfRendererNative.pdf, IPdfRendererNative::RenderPageToSurface, IPdfRendererNative::pdf, RenderPageToSurface, RenderPageToSurface method [Windows Runtime], RenderPageToSurface method [Windows Runtime],IPdfRendererNative interface, windows/IPdfRendererNative::RenderPageToSurface, winrt.ipdfrenderernative_renderpagetosurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPdfRendererNative::RenderPageToSurface method
+# IPdfRendererNative::pdf
 
 
 ## -description

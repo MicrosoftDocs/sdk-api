@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifySessionOfServiceStop
-title: IWRdsProtocolManager::NotifySessionOfServiceStop method
+title: IWRdsProtocolManager::NotifySessionOfServiceStop
 author: windows-driver-content
 description: Notifies the protocol provider that the Remote Desktop Services service has stopped for a given session.
 old-location: termserv\iwrdsprotocolmanager_notifysessionofservicestop.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: acf52eb0-d8f8-4257-9c2c-e9345c0f1b7f
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolManager, IWRdsProtocolManager interface [Remote Desktop Services], NotifySessionOfServiceStop method, IWRdsProtocolManager::NotifySessionOfServiceStop, NotifySessionOfServiceStop method [Remote Desktop Services], NotifySessionOfServiceStop method [Remote Desktop Services], IWRdsProtocolManager interface, NotifySessionOfServiceStop,IWRdsProtocolManager.NotifySessionOfServiceStop, termserv.iwrdsprotocolmanager_notifysessionofservicestop, wtsprotocol/IWRdsProtocolManager::NotifySessionOfServiceStop
+ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySessionOfServiceStop method, IWRdsProtocolManager.NotifySessionOfServiceStop, IWRdsProtocolManager::NotifySessionOfServiceStop, NotifySessionOfServiceStop, NotifySessionOfServiceStop method [Remote Desktop Services], NotifySessionOfServiceStop method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifysessionofservicestop, wtsprotocol/IWRdsProtocolManager::NotifySessionOfServiceStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolManager::NotifySessionOfServiceStop method
+# IWRdsProtocolManager::NotifySessionOfServiceStop
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara2.SetEffects
-title: ITextPara2::SetEffects method
+title: ITextPara2::SetEffects
 author: windows-driver-content
 description: Sets the paragraph format effects.
 old-location: controls\itextpara2_seteffects.htm
 old-project: Controls
 ms.assetid: e7184de4-b416-4f28-8f10-c89ffcccf1a1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], SetEffects method, ITextPara2::SetEffects, SetEffects method [Windows Controls], SetEffects method [Windows Controls], ITextPara2 interface, SetEffects,ITextPara2.SetEffects, controls.itextpara2_seteffects, tom/ITextPara2::SetEffects
+ms.date: 4/27/2018
+ms.keywords: ITextPara2 interface [Windows Controls],SetEffects method, ITextPara2.SetEffects, ITextPara2::SetEffects, SetEffects, SetEffects method [Windows Controls], SetEffects method [Windows Controls],ITextPara2 interface, controls.itextpara2_seteffects, tom/ITextPara2::SetEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara2::SetEffects method
+# ITextPara2::SetEffects
 
 
 ## -description

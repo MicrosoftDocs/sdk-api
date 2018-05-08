@@ -7,8 +7,8 @@ old-location: wmp\iwmpsubscriptionservice2.htm
 old-project: WMP
 ms.assetid: 5338a3c1-c44a-4c03-a21a-6cd5cfeef064
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSubscriptionService2, IWMPSubscriptionService2 interface [Windows Media Player], IWMPSubscriptionService2 interface [Windows Media Player], described, IWMPSubscriptionService2Interface, subscriptionservices/IWMPSubscriptionService2, wmp.iwmpsubscriptionservice2
+ms.date: 5/4/2018
+ms.keywords: IWMPSubscriptionService2, IWMPSubscriptionService2 interface [Windows Media Player], IWMPSubscriptionService2 interface [Windows Media Player],described, IWMPSubscriptionService2Interface, subscriptionservices/IWMPSubscriptionService2, wmp.iwmpsubscriptionservice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

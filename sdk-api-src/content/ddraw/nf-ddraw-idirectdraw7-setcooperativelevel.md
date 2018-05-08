@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.SetCooperativeLevel
-title: IDirectDraw7::SetCooperativeLevel method
+title: IDirectDraw7::SetCooperativeLevel
 author: windows-driver-content
 description: Determines the top-level behavior of the application.
 old-location: directdraw\idirectdraw7_setcooperativelevel.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: f791732d-9dab-470a-9243-6f71fd3bcd54
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DDSCL_ALLOWMODEX, DDSCL_ALLOWREBOOT, DDSCL_CREATEDEVICEWINDOW, DDSCL_EXCLUSIVE, DDSCL_FPUPRESERVE, DDSCL_FPUSETUP, DDSCL_FULLSCREEN, DDSCL_MULTITHREADED, DDSCL_NORMAL, DDSCL_NOWINDOWCHANGES, DDSCL_SETDEVICEWINDOW, DDSCL_SETFOCUSWINDOW, IDirectDraw7, IDirectDraw7 interface [DirectDraw], SetCooperativeLevel method, IDirectDraw7::SetCooperativeLevel, SetCooperativeLevel method [DirectDraw], SetCooperativeLevel method [DirectDraw], IDirectDraw7 interface, SetCooperativeLevel,IDirectDraw7.SetCooperativeLevel, ddraw/IDirectDraw7::SetCooperativeLevel, directdraw.idirectdraw7_setcooperativelevel
+ms.keywords: DDSCL_ALLOWMODEX, DDSCL_ALLOWREBOOT, DDSCL_CREATEDEVICEWINDOW, DDSCL_EXCLUSIVE, DDSCL_FPUPRESERVE, DDSCL_FPUSETUP, DDSCL_FULLSCREEN, DDSCL_MULTITHREADED, DDSCL_NORMAL, DDSCL_NOWINDOWCHANGES, DDSCL_SETDEVICEWINDOW, DDSCL_SETFOCUSWINDOW, IDirectDraw7 interface [DirectDraw],SetCooperativeLevel method, IDirectDraw7.SetCooperativeLevel, IDirectDraw7::SetCooperativeLevel, SetCooperativeLevel, SetCooperativeLevel method [DirectDraw], SetCooperativeLevel method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::SetCooperativeLevel, directdraw.idirectdraw7_setcooperativelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDraw7::SetCooperativeLevel method
+# IDirectDraw7::SetCooperativeLevel
 
 
 ## -description

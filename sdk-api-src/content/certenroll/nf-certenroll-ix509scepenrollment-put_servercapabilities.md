@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.put_ServerCapabilities
-title: IX509SCEPEnrollment::put_ServerCapabilities method
+title: IX509SCEPEnrollment::put_ServerCapabilities
 author: windows-driver-content
 description: Sets the preferred hash and encryption algorithms for the request.
 old-location: security\ix509scepenrollment_servercapabilities.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: fcfed23f-7798-4b56-afcd-65975a2d39bd
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509SCEPEnrollment, IX509SCEPEnrollment interface [Security], ServerCapabilities property, IX509SCEPEnrollment.ServerCapabilities, IX509SCEPEnrollment::put_ServerCapabilities, ServerCapabilities property [Security], ServerCapabilities property [Security], IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::ServerCapabilities, certenroll/IX509SCEPEnrollment::put_ServerCapabilities, put_ServerCapabilities,IX509SCEPEnrollment.put_ServerCapabilities, security.ix509scepenrollment_servercapabilities
+ms.keywords: IX509SCEPEnrollment interface [Security],ServerCapabilities property, IX509SCEPEnrollment.ServerCapabilities, IX509SCEPEnrollment.put_ServerCapabilities, IX509SCEPEnrollment::ServerCapabilities, IX509SCEPEnrollment::put_ServerCapabilities, ServerCapabilities property [Security], ServerCapabilities property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::ServerCapabilities, certenroll/IX509SCEPEnrollment::put_ServerCapabilities, put_ServerCapabilities, security.ix509scepenrollment_servercapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenroll.dll
 req.irql: 
 ---
 
-# IX509SCEPEnrollment::put_ServerCapabilities method
+# IX509SCEPEnrollment::put_ServerCapabilities
 
 
 ## -description

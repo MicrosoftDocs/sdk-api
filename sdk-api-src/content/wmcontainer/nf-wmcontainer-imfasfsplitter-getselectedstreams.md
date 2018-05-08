@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetSelectedStreams
-title: IMFASFSplitter::GetSelectedStreams method
+title: IMFASFSplitter::GetSelectedStreams
 author: windows-driver-content
 description: Gets a list of currently selected streams.
 old-location: mf\imfasfsplitter_getselectedstreams.htm
 old-project: medfound
 ms.assetid: f2c12e45-f320-43e0-abf1-36993dfed32d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetSelectedStreams method [Media Foundation], GetSelectedStreams method [Media Foundation], IMFASFSplitter interface, GetSelectedStreams,IMFASFSplitter.GetSelectedStreams, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], GetSelectedStreams method, IMFASFSplitter::GetSelectedStreams, f2c12e45-f320-43e0-abf1-36993dfed32d, mf.imfasfsplitter_getselectedstreams, wmcontainer/IMFASFSplitter::GetSelectedStreams
+ms.date: 5/3/2018
+ms.keywords: GetSelectedStreams, GetSelectedStreams method [Media Foundation], GetSelectedStreams method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetSelectedStreams method, IMFASFSplitter.GetSelectedStreams, IMFASFSplitter::GetSelectedStreams, f2c12e45-f320-43e0-abf1-36993dfed32d, mf.imfasfsplitter_getselectedstreams, wmcontainer/IMFASFSplitter::GetSelectedStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFSplitter::GetSelectedStreams method
+# IMFASFSplitter::GetSelectedStreams
 
 
 ## -description

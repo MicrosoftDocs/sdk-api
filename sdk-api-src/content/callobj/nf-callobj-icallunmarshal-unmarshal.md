@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallUnmarshal.Unmarshal
-title: ICallUnmarshal::Unmarshal method
+title: ICallUnmarshal::Unmarshal
 author: windows-driver-content
 description: Turns a marshaled packet of data back into an activation record that can then be invoked or manipulated in some other way.
 old-location: com\icallunmarshal_unmarshal.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 15d04287-285d-43d9-ad55-3dc9c7ae192e
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICallUnmarshal, ICallUnmarshal interface [COM], Unmarshal method, ICallUnmarshal::Unmarshal, Unmarshal method [COM], Unmarshal method [COM], ICallUnmarshal interface, Unmarshal,ICallUnmarshal.Unmarshal, _com_icallunmarshal_unmarshal, callobj/ICallUnmarshal::Unmarshal, com.icallunmarshal_unmarshal
+ms.keywords: ICallUnmarshal interface [COM],Unmarshal method, ICallUnmarshal.Unmarshal, ICallUnmarshal::Unmarshal, Unmarshal, Unmarshal method [COM], Unmarshal method [COM],ICallUnmarshal interface, _com_icallunmarshal_unmarshal, callobj/ICallUnmarshal::Unmarshal, com.icallunmarshal_unmarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallUnmarshal::Unmarshal method
+# ICallUnmarshal::Unmarshal
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.GetLanguageProfileDescription
-title: ITfInputProcessorProfiles::GetLanguageProfileDescription method
+title: ITfInputProcessorProfiles::GetLanguageProfileDescription
 author: windows-driver-content
 description: ITfInputProcessorProfiles::GetLanguageProfileDescription method
 old-location: tsf\itfinputprocessorprofiles_getlanguageprofiledescription.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: f5838d26-1065-498c-8361-8929c07fc725
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetLanguageProfileDescription method [Text Services Framework], GetLanguageProfileDescription method [Text Services Framework], ITfInputProcessorProfiles interface, GetLanguageProfileDescription,ITfInputProcessorProfiles.GetLanguageProfileDescription, ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], GetLanguageProfileDescription method, ITfInputProcessorProfiles::GetLanguageProfileDescription, _tsf_itfinputprocessorprofiles_getlanguageprofiledescription_ref, msctf/ITfInputProcessorProfiles::GetLanguageProfileDescription, tsf.itfinputprocessorprofiles_getlanguageprofiledescription
+ms.keywords: GetLanguageProfileDescription, GetLanguageProfileDescription method [Text Services Framework], GetLanguageProfileDescription method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetLanguageProfileDescription method, ITfInputProcessorProfiles.GetLanguageProfileDescription, ITfInputProcessorProfiles::GetLanguageProfileDescription, _tsf_itfinputprocessorprofiles_getlanguageprofiledescription_ref, msctf/ITfInputProcessorProfiles::GetLanguageProfileDescription, tsf.itfinputprocessorprofiles_getlanguageprofiledescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfiles::GetLanguageProfileDescription method
+# ITfInputProcessorProfiles::GetLanguageProfileDescription
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CMSPAddress.GetStaticTerminals
-title: CMSPAddress::GetStaticTerminals method
+title: CMSPAddress::GetStaticTerminals
 author: windows-driver-content
 description: The GetStaticTerminals method is called by our wrapper methods ( get_StaticTerminals and EnumerateStaticTerminals) to get an array of static terminals that can be used on this address.
 old-location: tapi3\cmspaddress_getstaticterminals.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 8fffc00d-a783-47bc-a081-fe2116060da0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPAddress, CMSPAddress interface [TAPI 2.2], GetStaticTerminals method, CMSPAddress::GetStaticTerminals, GetStaticTerminals method [TAPI 2.2], GetStaticTerminals method [TAPI 2.2], CMSPAddress interface, GetStaticTerminals,CMSPAddress.GetStaticTerminals, _tapi3_cmspaddress_getstaticterminals, mspaddr/CMSPAddress::GetStaticTerminals, tapi3.cmspaddress_getstaticterminals
+ms.keywords: CMSPAddress interface [TAPI 2.2],GetStaticTerminals method, CMSPAddress.GetStaticTerminals, CMSPAddress::GetStaticTerminals, GetStaticTerminals, GetStaticTerminals method [TAPI 2.2], GetStaticTerminals method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getstaticterminals, mspaddr/CMSPAddress::GetStaticTerminals, tapi3.cmspaddress_getstaticterminals
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPAddress::GetStaticTerminals method
+# CMSPAddress::GetStaticTerminals
 
 
 ## -description

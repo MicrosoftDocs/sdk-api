@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_AvailableOperations
-title: IFaxOutgoingJob::get_AvailableOperations method
+title: IFaxOutgoingJob::get_AvailableOperations
 author: windows-driver-content
 description: The AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.
 old-location: fax\_mfax_faxoutgoingjob_availableoperations_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9rsj.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service], FaxOutgoingJob object, FaxOutgoingJob object [Fax Service], AvailableOperations property, IFaxOutgoingJob, IFaxOutgoingJob::get_AvailableOperations, _mfax_faxoutgoingjob.availableoperations, fax._mfax_faxoutgoingjob_availableoperations, fax._mfax_faxoutgoingjob_availableoperations_vb, get_AvailableOperations,IFaxOutgoingJob.get_AvailableOperations
+ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],FaxOutgoingJob object, FaxOutgoingJob object [Fax Service],AvailableOperations property, FaxOutgoingJob.AvailableOperations, IFaxOutgoingJob.get_AvailableOperations, IFaxOutgoingJob::get_AvailableOperations, _mfax_faxoutgoingjob.availableoperations, fax._mfax_faxoutgoingjob_availableoperations, fax._mfax_faxoutgoingjob_availableoperations_vb, get_AvailableOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutgoingJob::get_AvailableOperations method
+# IFaxOutgoingJob::get_AvailableOperations
 
 
 ## -description

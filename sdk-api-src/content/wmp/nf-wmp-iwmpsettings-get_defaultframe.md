@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSettings.get_defaultFrame
-title: IWMPSettings::get_defaultFrame method
+title: IWMPSettings::get_defaultFrame
 author: windows-driver-content
 description: The get_defaultFrame method retrieves the name of the frame used to display a URL that is received in a ScriptCommand event.
 old-location: wmp\iwmpsettings_get_defaultframe.htm
 old-project: WMP
 ms.assetid: 815289bb-4ca5-45da-a27e-7484ba403316
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], get_defaultFrame method, IWMPSettings::get_defaultFrame, IWMPSettingsget_defaultFrame, get_defaultFrame method [Windows Media Player], get_defaultFrame method [Windows Media Player], IWMPSettings interface, get_defaultFrame,IWMPSettings.get_defaultFrame, wmp.iwmpsettings_get_defaultframe, wmp/IWMPSettings::get_defaultFrame
+ms.date: 5/4/2018
+ms.keywords: IWMPSettings interface [Windows Media Player],get_defaultFrame method, IWMPSettings.get_defaultFrame, IWMPSettings::get_defaultFrame, IWMPSettingsget_defaultFrame, get_defaultFrame, get_defaultFrame method [Windows Media Player], get_defaultFrame method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_defaultframe, wmp/IWMPSettings::get_defaultFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSettings::get_defaultFrame method
+# IWMPSettings::get_defaultFrame
 
 
 ## -description

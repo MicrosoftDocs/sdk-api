@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPNodeRealEstate.GetWindowless
-title: IWMPNodeRealEstate::GetWindowless method
+title: IWMPNodeRealEstate::GetWindowless
 author: windows-driver-content
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
 old-location: wmp\iwmpnoderealestate_getwindowless.htm
 old-project: WMP
 ms.assetid: 6a45969c-5eba-4493-a7a8-af69f5ad3dea
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetWindowless method [Windows Media Player], GetWindowless method [Windows Media Player], IWMPNodeRealEstate interface, GetWindowless,IWMPNodeRealEstate.GetWindowless, IWMPNodeRealEstate, IWMPNodeRealEstate interface [Windows Media Player], GetWindowless method, IWMPNodeRealEstate::GetWindowless, IWMPNodeRealEstateGetWindowlessRendering, wmp.iwmpnoderealestate_getwindowless, wmprealestate/IWMPNodeRealEstate::GetWindowless
+ms.date: 5/2/2018
+ms.keywords: GetWindowless, GetWindowless method [Windows Media Player], GetWindowless method [Windows Media Player],IWMPNodeRealEstate interface, IWMPNodeRealEstate interface [Windows Media Player],GetWindowless method, IWMPNodeRealEstate.GetWindowless, IWMPNodeRealEstate::GetWindowless, IWMPNodeRealEstateGetWindowlessRendering, wmp.iwmpnoderealestate_getwindowless, wmprealestate/IWMPNodeRealEstate::GetWindowless
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNodeRealEstate::GetWindowless method
+# IWMPNodeRealEstate::GetWindowless
 
 
 ## -description

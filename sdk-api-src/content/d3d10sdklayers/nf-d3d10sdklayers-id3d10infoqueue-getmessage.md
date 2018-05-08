@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetMessage
-title: ID3D10InfoQueue::GetMessage method
+title: ID3D10InfoQueue::GetMessage
 author: windows-driver-content
 description: Get a message from the message queue.
 old-location: direct3d10\id3d10infoqueue_getmessage.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getmessage.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 792ee245-051d-ca89-58b7-8d2ebfaf48b6, GetMessage method [Direct3D 10], GetMessage method [Direct3D 10], ID3D10InfoQueue interface, GetMessage,ID3D10InfoQueue.GetMessage, ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], GetMessage method, ID3D10InfoQueue::GetMessage, d3d10sdklayers/ID3D10InfoQueue::GetMessage, direct3d10.id3d10infoqueue_getmessage
+ms.keywords: 792ee245-051d-ca89-58b7-8d2ebfaf48b6, GetMessage, GetMessage method [Direct3D 10], GetMessage method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetMessage method, ID3D10InfoQueue.GetMessage, ID3D10InfoQueue::GetMessage, d3d10sdklayers/ID3D10InfoQueue::GetMessage, direct3d10.id3d10infoqueue_getmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10InfoQueue::GetMessage method
+# ID3D10InfoQueue::GetMessage
 
 
 ## -description

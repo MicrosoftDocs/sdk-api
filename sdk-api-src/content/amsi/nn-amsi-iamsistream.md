@@ -8,7 +8,7 @@ old-project: AMSI
 ms.assetid: 409CE6BF-57A5-454E-91F9-3D66FE7E323F
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IAmsiStream, IAmsiStream interface [Antimalware Scan Interface], IAmsiStream interface [Antimalware Scan Interface], described, amsi.iamsistream, amsi/IAmsiStream
+ms.keywords: IAmsiStream, IAmsiStream interface [Antimalware Scan Interface], IAmsiStream interface [Antimalware Scan Interface],described, amsi.iamsistream, amsi/IAmsiStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

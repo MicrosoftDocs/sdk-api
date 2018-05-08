@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.GetSignatureEnumerator
-title: IOpcDigitalSignatureManager::GetSignatureEnumerator method
+title: IOpcDigitalSignatureManager::GetSignatureEnumerator
 author: windows-driver-content
 description: Gets an enumerator of IOpcDigitalSignature interface pointers, which represent package signatures.
 old-location: opc\iopcdigitalsignaturemanager_getsignatureenumerator.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 44906f03-806f-400c-a7f3-0da5c330e1ff
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignatureEnumerator method [Open Packaging Conventions], GetSignatureEnumerator method [Open Packaging Conventions], IOpcDigitalSignatureManager interface, GetSignatureEnumerator,IOpcDigitalSignatureManager.GetSignatureEnumerator, IOpcDigitalSignatureManager, IOpcDigitalSignatureManager interface [Open Packaging Conventions], GetSignatureEnumerator method, IOpcDigitalSignatureManager::GetSignatureEnumerator, msopc/IOpcDigitalSignatureManager::GetSignatureEnumerator, opc.iopcdigitalsignaturemanager_getsignatureenumerator
+ms.keywords: GetSignatureEnumerator, GetSignatureEnumerator method [Open Packaging Conventions], GetSignatureEnumerator method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, IOpcDigitalSignatureManager interface [Open Packaging Conventions],GetSignatureEnumerator method, IOpcDigitalSignatureManager.GetSignatureEnumerator, IOpcDigitalSignatureManager::GetSignatureEnumerator, msopc/IOpcDigitalSignatureManager::GetSignatureEnumerator, opc.iopcdigitalsignaturemanager_getsignatureenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignatureManager::GetSignatureEnumerator method
+# IOpcDigitalSignatureManager::GetSignatureEnumerator
 
 
 ## -description

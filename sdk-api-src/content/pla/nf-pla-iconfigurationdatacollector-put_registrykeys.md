@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.put_RegistryKeys
-title: IConfigurationDataCollector::put_RegistryKeys method
+title: IConfigurationDataCollector::put_RegistryKeys
 author: windows-driver-content
 description: Retrieves or sets a list of registry keys to collect.
 old-location: pla\iconfigurationdatacollector_registrykeys.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 990a5f92-2285-4461-8020-25028d2cab90
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IConfigurationDataCollector, IConfigurationDataCollector interface [PLA], RegistryKeys property, IConfigurationDataCollector.RegistryKeys, IConfigurationDataCollector::get_RegistryKeys, IConfigurationDataCollector::put_RegistryKeys, RegistryKeys property [PLA], RegistryKeys property [PLA], IConfigurationDataCollector interface, base.iconfigurationdatacollector_registrykeys, pla.iconfigurationdatacollector_registrykeys, pla/IConfigurationDataCollector::RegistryKeys, pla/IConfigurationDataCollector::get_RegistryKeys, pla/IConfigurationDataCollector::put_RegistryKeys, put_RegistryKeys,IConfigurationDataCollector.put_RegistryKeys
+ms.keywords: IConfigurationDataCollector interface [PLA],RegistryKeys property, IConfigurationDataCollector.RegistryKeys, IConfigurationDataCollector.put_RegistryKeys, IConfigurationDataCollector::RegistryKeys, IConfigurationDataCollector::get_RegistryKeys, IConfigurationDataCollector::put_RegistryKeys, RegistryKeys property [PLA], RegistryKeys property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_registrykeys, pla.iconfigurationdatacollector_registrykeys, pla/IConfigurationDataCollector::RegistryKeys, pla/IConfigurationDataCollector::get_RegistryKeys, pla/IConfigurationDataCollector::put_RegistryKeys, put_RegistryKeys
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IConfigurationDataCollector::put_RegistryKeys method
+# IConfigurationDataCollector::put_RegistryKeys
 
 
 ## -description

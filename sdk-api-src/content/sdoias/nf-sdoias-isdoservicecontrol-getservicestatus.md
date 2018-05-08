@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoServiceControl.GetServiceStatus
-title: ISdoServiceControl::GetServiceStatus method
+title: ISdoServiceControl::GetServiceStatus
 author: windows-driver-content
 description: The GetServiceStatus method retrieves the status of the service being administered through SDO.
 old-location: nps\SDO_isdoservicecontrol_getservicestatus.htm
@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: 6ef65e85-d77d-4f59-aaac-c0b5b337b564
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetServiceStatus method [Network Policy Server], GetServiceStatus method [Network Policy Server], ISdoServiceControl interface, GetServiceStatus,ISdoServiceControl.GetServiceStatus, ISdoServiceControl, ISdoServiceControl interface [Network Policy Server], GetServiceStatus method, ISdoServiceControl::GetServiceStatus, SERVICE_RUNNING, SERVICE_START_PENDING, SERVICE_STOPPED, SERVICE_STOP_PENDING, _sdo_isdoservicecontrol_getservicestatus, nps.SDO_isdoservicecontrol_getservicestatus, sdo.isdoservicecontrol_getservicestatus, sdoias/ISdoServiceControl::GetServiceStatus
+ms.keywords: GetServiceStatus, GetServiceStatus method [Network Policy Server], GetServiceStatus method [Network Policy Server],ISdoServiceControl interface, ISdoServiceControl interface [Network Policy Server],GetServiceStatus method, ISdoServiceControl.GetServiceStatus, ISdoServiceControl::GetServiceStatus, SERVICE_RUNNING, SERVICE_START_PENDING, SERVICE_STOPPED, SERVICE_STOP_PENDING, _sdo_isdoservicecontrol_getservicestatus, nps.SDO_isdoservicecontrol_getservicestatus, sdo.isdoservicecontrol_getservicestatus, sdoias/ISdoServiceControl::GetServiceStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISdoServiceControl::GetServiceStatus method
+# ISdoServiceControl::GetServiceStatus
 
 
 ## -description

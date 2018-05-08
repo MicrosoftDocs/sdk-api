@@ -1,0 +1,8 @@
+# [Quality of Service (QOS)](../_qos/index.md)
+## [Qosobjs.h](index.md)
+### [_QOS_DIFFSERV structure](../qosobjs/ns-qosobjs-_qos_diffserv.md)
+### [_QOS_DIFFSERV_RULE structure](../qosobjs/ns-qosobjs-_qos_diffserv_rule.md)
+### [_QOS_DS_CLASS structure](../qosobjs/ns-qosobjs-_qos_ds_class.md)
+### [_QOS_FRIENDLY_NAME structure](../qosobjs/ns-qosobjs-_qos_friendly_name.md)
+### [_QOS_TCP_TRAFFIC structure](../qosobjs/ns-qosobjs-_qos_tcp_traffic.md)
+### [_QOS_TRAFFIC_CLASS structure](../qosobjs/ns-qosobjs-_qos_traffic_class.md)

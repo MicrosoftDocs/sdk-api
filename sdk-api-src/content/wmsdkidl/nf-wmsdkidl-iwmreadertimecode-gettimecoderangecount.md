@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderTimecode.GetTimecodeRangeCount
-title: IWMReaderTimecode::GetTimecodeRangeCount method
+title: IWMReaderTimecode::GetTimecodeRangeCount
 author: windows-driver-content
 description: The GetTimecodeRangeCount method retrieves the total number of SMTPE time code ranges in a specified stream.
 old-location: wmformat\iwmreadertimecode_gettimecoderangecount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: df58f968-23f8-407b-b18c-569732635464
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetTimecodeRangeCount method [windows Media Format], GetTimecodeRangeCount method [windows Media Format], IWMReaderTimecode interface, GetTimecodeRangeCount,IWMReaderTimecode.GetTimecodeRangeCount, IWMReaderTimecode, IWMReaderTimecode interface [windows Media Format], GetTimecodeRangeCount method, IWMReaderTimecode::GetTimecodeRangeCount, IWMReaderTimecodeGetTimecodeRangeCount, wmformat.iwmreadertimecode_gettimecoderangecount, wmsdkidl/IWMReaderTimecode::GetTimecodeRangeCount
+ms.keywords: GetTimecodeRangeCount, GetTimecodeRangeCount method [windows Media Format], GetTimecodeRangeCount method [windows Media Format],IWMReaderTimecode interface, IWMReaderTimecode interface [windows Media Format],GetTimecodeRangeCount method, IWMReaderTimecode.GetTimecodeRangeCount, IWMReaderTimecode::GetTimecodeRangeCount, IWMReaderTimecodeGetTimecodeRangeCount, wmformat.iwmreadertimecode_gettimecoderangecount, wmsdkidl/IWMReaderTimecode::GetTimecodeRangeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderTimecode::GetTimecodeRangeCount method
+# IWMReaderTimecode::GetTimecodeRangeCount
 
 
 ## -description

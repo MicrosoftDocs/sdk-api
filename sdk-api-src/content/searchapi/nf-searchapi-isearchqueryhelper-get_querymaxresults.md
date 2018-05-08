@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryMaxResults
-title: ISearchQueryHelper::get_QueryMaxResults method
+title: ISearchQueryHelper::get_QueryMaxResults
 author: windows-driver-content
 description: Gets the maximum number of results to be returned by the query.
 old-location: search\_search_ISearchQueryHelper_get_QueryMaxResults.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querymaxresults.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchQueryHelper, ISearchQueryHelper interface [search], get_QueryMaxResults method, ISearchQueryHelper::get_QueryMaxResults, _search_ISearchQueryHelper_get_QueryMaxResults, get_QueryMaxResults method [search], get_QueryMaxResults method [search], ISearchQueryHelper interface, get_QueryMaxResults,ISearchQueryHelper.get_QueryMaxResults, search._search_ISearchQueryHelper_get_QueryMaxResults, searchapi/ISearchQueryHelper::get_QueryMaxResults
+ms.date: 5/4/2018
+ms.keywords: ISearchQueryHelper interface [search],get_QueryMaxResults method, ISearchQueryHelper.get_QueryMaxResults, ISearchQueryHelper::get_QueryMaxResults, _search_ISearchQueryHelper_get_QueryMaxResults, get_QueryMaxResults, get_QueryMaxResults method [search], get_QueryMaxResults method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryMaxResults, searchapi/ISearchQueryHelper::get_QueryMaxResults
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchQueryHelper::get_QueryMaxResults method
+# ISearchQueryHelper::get_QueryMaxResults
 
 
 ## -description

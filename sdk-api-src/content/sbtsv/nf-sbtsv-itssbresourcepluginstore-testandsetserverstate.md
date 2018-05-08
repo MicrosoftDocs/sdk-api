@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.TestAndSetServerState
-title: ITsSbResourcePluginStore::TestAndSetServerState method
+title: ITsSbResourcePluginStore::TestAndSetServerState
 author: windows-driver-content
 description: Conditionally sets a new state on a server.
 old-location: termserv\itssbresourcepluginstore_testandsetserverstate.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 5b209587-090e-4338-95b3-542e50412587
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], TestAndSetServerState method, ITsSbResourcePluginStore::TestAndSetServerState, TestAndSetServerState method [Remote Desktop Services], TestAndSetServerState method [Remote Desktop Services], ITsSbResourcePluginStore interface, TestAndSetServerState,ITsSbResourcePluginStore.TestAndSetServerState, sbtsv/ITsSbResourcePluginStore::TestAndSetServerState, termserv.itssbresourcepluginstore_testandsetserverstate
+ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],TestAndSetServerState method, ITsSbResourcePluginStore.TestAndSetServerState, ITsSbResourcePluginStore::TestAndSetServerState, TestAndSetServerState, TestAndSetServerState method [Remote Desktop Services], TestAndSetServerState method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::TestAndSetServerState, termserv.itssbresourcepluginstore_testandsetserverstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::TestAndSetServerState method
+# ITsSbResourcePluginStore::TestAndSetServerState
 
 
 ## -description

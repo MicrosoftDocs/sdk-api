@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: e8833961-ac0e-4d8c-a57e-5aabdb2c8c96
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPIClusWorkerCheckTerminate, PCLUSAPIClusWorkerCheckTerminate callback function [Failover Cluster], _wolf_clusworkercheckterminate, mscs.clusworkercheckterminate, resapi/PCLUSAPIClusWorkerCheckTerminate
+ms.keywords: PCLUSAPIClusWorkerCheckTerminate, PCLUSAPIClusWorkerCheckTerminate callback, PCLUSAPIClusWorkerCheckTerminate callback function [Failover Cluster], _wolf_clusworkercheckterminate, mscs.clusworkercheckterminate, resapi/PCLUSAPIClusWorkerCheckTerminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PCLUSAPIClusWorkerCheckTerminate callback
+# PCLUSAPIClusWorkerCheckTerminate callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeBitString.Decode
-title: ICertEncodeBitString::Decode method
+title: ICertEncodeBitString::Decode
 author: windows-driver-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded bit string and stores the resulting bit string in this object.
 old-location: security\icertencodebitstring_decode.htm
 old-project: SecCrypto
 ms.assetid: 65856db4-97db-4c9b-ac12-1a9262c7b4e9
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeBitString object [Security], Decode method, Decode method [Security], Decode method [Security], CCertEncodeBitString object, Decode method [Security], ICertEncodeBitString interface, Decode,ICertEncodeBitString.Decode, ICertEncodeBitString, ICertEncodeBitString interface [Security], Decode method, ICertEncodeBitString::Decode, _certsrv_icertencodebitstring_decode, certenc/ICertEncodeBitString::Decode, security.icertencodebitstring_decode
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeBitString object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeBitString object, Decode method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],Decode method, ICertEncodeBitString.Decode, ICertEncodeBitString::Decode, _certsrv_icertencodebitstring_decode, certenc/ICertEncodeBitString::Decode, security.icertencodebitstring_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeBitString::Decode method
+# ICertEncodeBitString::Decode
 
 
 ## -description

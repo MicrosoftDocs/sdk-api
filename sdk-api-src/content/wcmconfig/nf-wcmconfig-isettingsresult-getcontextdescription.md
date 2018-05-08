@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetContextDescription
-title: ISettingsResult::GetContextDescription method
+title: ISettingsResult::GetContextDescription
 author: windows-driver-content
 description: Returns the description of the context that surrounds the error.
 old-location: smi\isettingsresult_getcontextdescription.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: d2bb39ce-9c49-46ab-b7d7-e4e4794f6b5a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetContextDescription method [SMI], GetContextDescription method [SMI], ISettingsResult interface, GetContextDescription,ISettingsResult.GetContextDescription, ISettingsResult, ISettingsResult interface [SMI], GetContextDescription method, ISettingsResult::GetContextDescription, smi.isettingsresult_getcontextdescription, wcmconfig/ISettingsResult::GetContextDescription
+ms.keywords: GetContextDescription, GetContextDescription method [SMI], GetContextDescription method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetContextDescription method, ISettingsResult.GetContextDescription, ISettingsResult::GetContextDescription, smi.isettingsresult_getcontextdescription, wcmconfig/ISettingsResult::GetContextDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsResult::GetContextDescription method
+# ISettingsResult::GetContextDescription
 
 
 ## -description

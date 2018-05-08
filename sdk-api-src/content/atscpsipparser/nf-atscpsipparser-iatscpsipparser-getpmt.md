@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetPMT
-title: IAtscPsipParser::GetPMT method
+title: IAtscPsipParser::GetPMT
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_getpmt.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cd9a3fb0-4bdc-499b-9db9-85dce50dd24b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPMT method [Microsoft TV Technologies], GetPMT method [Microsoft TV Technologies], IAtscPsipParser interface, GetPMT,IAtscPsipParser.GetPMT, IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], GetPMT method, IAtscPsipParser::GetPMT, IAtscPsipParserGetPMT, atscpsipparser/IAtscPsipParser::GetPMT, mstv.iatscpsipparser_getpmt
+ms.keywords: GetPMT, GetPMT method [Microsoft TV Technologies], GetPMT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetPMT method, IAtscPsipParser.GetPMT, IAtscPsipParser::GetPMT, IAtscPsipParserGetPMT, atscpsipparser/IAtscPsipParser::GetPMT, mstv.iatscpsipparser_getpmt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAtscPsipParser::GetPMT method
+# IAtscPsipParser::GetPMT
 
 
 ## -description

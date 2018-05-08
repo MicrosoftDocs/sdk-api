@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferMediaSeeking2.SetRateEx
-title: IStreamBufferMediaSeeking2::SetRateEx method
+title: IStreamBufferMediaSeeking2::SetRateEx
 author: windows-driver-content
 description: "."
 old-location: mstv\istreambuffermediaseeking2_setrateex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 37b80d0d-561d-4ef3-b0ad-70fb43530026
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IStreamBufferMediaSeeking2, IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies], SetRateEx method, IStreamBufferMediaSeeking2::SetRateEx, IStreamBufferMediaSeeking2SetRateEx, SetRateEx method [Microsoft TV Technologies], SetRateEx method [Microsoft TV Technologies], IStreamBufferMediaSeeking2 interface, SetRateEx,IStreamBufferMediaSeeking2.SetRateEx, mstv.istreambuffermediaseeking2_setrateex, sbe/IStreamBufferMediaSeeking2::SetRateEx
+ms.keywords: IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies],SetRateEx method, IStreamBufferMediaSeeking2.SetRateEx, IStreamBufferMediaSeeking2::SetRateEx, IStreamBufferMediaSeeking2SetRateEx, SetRateEx, SetRateEx method [Microsoft TV Technologies], SetRateEx method [Microsoft TV Technologies],IStreamBufferMediaSeeking2 interface, mstv.istreambuffermediaseeking2_setrateex, sbe/IStreamBufferMediaSeeking2::SetRateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferMediaSeeking2::SetRateEx method
+# IStreamBufferMediaSeeking2::SetRateEx
 
 
 ## -description

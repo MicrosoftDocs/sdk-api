@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.ButtonSelectAndActivate
-title: IDvdControl::ButtonSelectAndActivate method
+title: IDvdControl::ButtonSelectAndActivate
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects and activates the specified button.
 old-location: dshow\idvdcontrol_buttonselectandactivate.htm
 old-project: DirectShow
 ms.assetid: 15ed6a4e-d798-49c9-bff3-c77207658d31
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ButtonSelectAndActivate method [DirectShow], ButtonSelectAndActivate method [DirectShow], IDvdControl interface, ButtonSelectAndActivate,IDvdControl.ButtonSelectAndActivate, IDvdControl, IDvdControl interface [DirectShow], ButtonSelectAndActivate method, IDvdControl::ButtonSelectAndActivate, IDvdControlButtonSelectAndActivate, dshow.idvdcontrol_buttonselectandactivate, strmif/IDvdControl::ButtonSelectAndActivate
+ms.date: 4/30/2018
+ms.keywords: ButtonSelectAndActivate, ButtonSelectAndActivate method [DirectShow], ButtonSelectAndActivate method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ButtonSelectAndActivate method, IDvdControl.ButtonSelectAndActivate, IDvdControl::ButtonSelectAndActivate, IDvdControlButtonSelectAndActivate, dshow.idvdcontrol_buttonselectandactivate, strmif/IDvdControl::ButtonSelectAndActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::ButtonSelectAndActivate method
+# IDvdControl::ButtonSelectAndActivate
 
 
 ## -description

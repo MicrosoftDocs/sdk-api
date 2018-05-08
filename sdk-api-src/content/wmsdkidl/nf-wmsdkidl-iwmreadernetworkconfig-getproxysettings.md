@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxySettings
-title: IWMReaderNetworkConfig::GetProxySettings method
+title: IWMReaderNetworkConfig::GetProxySettings
 author: windows-driver-content
 description: The GetProxySettings method retrieves the current proxy settings.
 old-location: wmformat\iwmreadernetworkconfig_getproxysettings.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 5fdfc651-05f5-48b3-aeaf-4557c72bc0c0
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetProxySettings method [windows Media Format], GetProxySettings method [windows Media Format], IWMReaderNetworkConfig interface, GetProxySettings,IWMReaderNetworkConfig.GetProxySettings, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetProxySettings method, IWMReaderNetworkConfig::GetProxySettings, IWMReaderNetworkConfigGetProxySettings, wmformat.iwmreadernetworkconfig_getproxysettings, wmsdkidl/IWMReaderNetworkConfig::GetProxySettings
+ms.keywords: GetProxySettings, GetProxySettings method [windows Media Format], GetProxySettings method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxySettings method, IWMReaderNetworkConfig.GetProxySettings, IWMReaderNetworkConfig::GetProxySettings, IWMReaderNetworkConfigGetProxySettings, wmformat.iwmreadernetworkconfig_getproxysettings, wmsdkidl/IWMReaderNetworkConfig::GetProxySettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetProxySettings method
+# IWMReaderNetworkConfig::GetProxySettings
 
 
 ## -description

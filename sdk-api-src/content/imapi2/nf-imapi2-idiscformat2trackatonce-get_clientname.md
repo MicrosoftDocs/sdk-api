@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_ClientName
-title: IDiscFormat2TrackAtOnce::get_ClientName method
+title: IDiscFormat2TrackAtOnce::get_ClientName
 author: windows-driver-content
 description: Retrieves the friendly name of the client.
 old-location: imapi\idiscformat2trackatonce_get_clientname.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: c259233b-4e36-4ee2-8068-d77ece1e927e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], get_ClientName method, IDiscFormat2TrackAtOnce::get_ClientName, get_ClientName method [IMAPI], get_ClientName method [IMAPI], IDiscFormat2TrackAtOnce interface, get_ClientName,IDiscFormat2TrackAtOnce.get_ClientName, imapi.idiscformat2trackatonce_get_clientname, imapi2/IDiscFormat2TrackAtOnce::get_ClientName
+ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_ClientName method, IDiscFormat2TrackAtOnce.get_ClientName, IDiscFormat2TrackAtOnce::get_ClientName, get_ClientName, get_ClientName method [IMAPI], get_ClientName method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_clientname, imapi2/IDiscFormat2TrackAtOnce::get_ClientName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2TrackAtOnce::get_ClientName method
+# IDiscFormat2TrackAtOnce::get_ClientName
 
 
 ## -description

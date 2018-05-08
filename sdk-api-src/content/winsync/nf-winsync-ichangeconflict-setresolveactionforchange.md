@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeConflict.SetResolveActionForChange
-title: IChangeConflict::SetResolveActionForChange method
+title: IChangeConflict::SetResolveActionForChange
 author: windows-driver-content
 description: Sets a conflict resolution action for the conflict.
 old-location: winsync\ichangeconflict_setresolveactionforchange.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: f1a26c85-a00d-408e-96ea-5849c6bb99ff
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IChangeConflict, IChangeConflict interface [Windows Sync], SetResolveActionForChange method, IChangeConflict::SetResolveActionForChange, SetResolveActionForChange method [Windows Sync], SetResolveActionForChange method [Windows Sync], IChangeConflict interface, SetResolveActionForChange,IChangeConflict.SetResolveActionForChange, winsync.ichangeconflict_setresolveactionforchange, winsync/IChangeConflict::SetResolveActionForChange
+ms.keywords: IChangeConflict interface [Windows Sync],SetResolveActionForChange method, IChangeConflict.SetResolveActionForChange, IChangeConflict::SetResolveActionForChange, SetResolveActionForChange, SetResolveActionForChange method [Windows Sync], SetResolveActionForChange method [Windows Sync],IChangeConflict interface, winsync.ichangeconflict_setresolveactionforchange, winsync/IChangeConflict::SetResolveActionForChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IChangeConflict::SetResolveActionForChange method
+# IChangeConflict::SetResolveActionForChange
 
 
 ## -description

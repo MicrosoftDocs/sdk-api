@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentContainerList.GetContainerCount
-title: IWMPContentContainerList::GetContainerCount method
+title: IWMPContentContainerList::GetContainerCount
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetContainerCount method retrieves the count of content containers in the container list.
 old-location: wmp\iwmpcontentcontainerlist_getcontainercount.htm
 old-project: WMP
 ms.assetid: e1ed4873-5d07-4a96-bd99-31ceeb423f98
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetContainerCount method [Windows Media Player], GetContainerCount method [Windows Media Player], IWMPContentContainerList interface, GetContainerCount,IWMPContentContainerList.GetContainerCount, IWMPContentContainerList, IWMPContentContainerList interface [Windows Media Player], GetContainerCount method, IWMPContentContainerList::GetContainerCount, IWMPContentContainerListGetContainerCount, contentpartner/IWMPContentContainerList::GetContainerCount, wmp.iwmpcontentcontainerlist_getcontainercount
+ms.date: 5/4/2018
+ms.keywords: GetContainerCount, GetContainerCount method [Windows Media Player], GetContainerCount method [Windows Media Player],IWMPContentContainerList interface, IWMPContentContainerList interface [Windows Media Player],GetContainerCount method, IWMPContentContainerList.GetContainerCount, IWMPContentContainerList::GetContainerCount, IWMPContentContainerListGetContainerCount, contentpartner/IWMPContentContainerList::GetContainerCount, wmp.iwmpcontentcontainerlist_getcontainercount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentContainerList::GetContainerCount method
+# IWMPContentContainerList::GetContainerCount
 
 
 ## -description

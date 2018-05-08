@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.GetOriginalInfo
-title: IOfflineFilesSyncErrorInfo::GetOriginalInfo method
+title: IOfflineFilesSyncErrorInfo::GetOriginalInfo
 author: windows-driver-content
 description: Retrieves an instance of the IOfflineFilesSyncErrorItemInfo interface containing the file times, size, and attributes of the original copy of the item involved in the synchronization.
 old-location: of\iofflinefilessyncerrorinfo_getoriginalinfo.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 1cf3a21c-5ae1-475c-9eb7-2d520ee2ce79
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetOriginalInfo method [Offline Files], GetOriginalInfo method [Offline Files], IOfflineFilesSyncErrorInfo interface, GetOriginalInfo,IOfflineFilesSyncErrorInfo.GetOriginalInfo, IOfflineFilesSyncErrorInfo, IOfflineFilesSyncErrorInfo interface [Offline Files], GetOriginalInfo method, IOfflineFilesSyncErrorInfo::GetOriginalInfo, cscobj/IOfflineFilesSyncErrorInfo::GetOriginalInfo, of.iofflinefilessyncerrorinfo_getoriginalinfo
+ms.keywords: GetOriginalInfo, GetOriginalInfo method [Offline Files], GetOriginalInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetOriginalInfo method, IOfflineFilesSyncErrorInfo.GetOriginalInfo, IOfflineFilesSyncErrorInfo::GetOriginalInfo, cscobj/IOfflineFilesSyncErrorInfo::GetOriginalInfo, of.iofflinefilessyncerrorinfo_getoriginalinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSyncErrorInfo::GetOriginalInfo method
+# IOfflineFilesSyncErrorInfo::GetOriginalInfo
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.Linearize
-title: ITextRange2::Linearize method
+title: ITextRange2::Linearize
 author: windows-driver-content
 description: Translates the built-up math, ruby, and other inline objects in this range to linearized form.
 old-location: controls\itextrange2_linearize.htm
 old-project: Controls
 ms.assetid: 9906547b-e31c-48a6-961e-0b7f5c0c0506
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange2, ITextRange2 interface [Windows Controls], Linearize method, ITextRange2::Linearize, Linearize method [Windows Controls], Linearize method [Windows Controls], ITextRange2 interface, Linearize,ITextRange2.Linearize, controls.itextrange2_linearize, tom/ITextRange2::Linearize, tomMathAlphabetics, tomMathBuildDownOutermost, tomMathBuildUpArgOrZone, tomMathRemoveOutermost, tomPlain, tomTeX
+ms.date: 4/27/2018
+ms.keywords: ITextRange2 interface [Windows Controls],Linearize method, ITextRange2.Linearize, ITextRange2::Linearize, Linearize, Linearize method [Windows Controls], Linearize method [Windows Controls],ITextRange2 interface, controls.itextrange2_linearize, tom/ITextRange2::Linearize, tomMathAlphabetics, tomMathBuildDownOutermost, tomMathBuildUpArgOrZone, tomMathRemoveOutermost, tomPlain, tomTeX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::Linearize method
+# ITextRange2::Linearize
 
 
 ## -description

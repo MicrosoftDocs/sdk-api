@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.InitializeEncode
-title: IX509AttributeClientId::InitializeEncode method
+title: IX509AttributeClientId::InitializeEncode
 author: windows-driver-content
 description: Initializes the attribute from information about the user, client computer, and application that submitted the certificate request.
 old-location: security\ix509attributeclientid_initializeencode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 6a0e5b6f-0522-4c60-9ea1-7a5c2722cebd
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509AttributeClientId, IX509AttributeClientId interface [Security], InitializeEncode method, IX509AttributeClientId::InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security], IX509AttributeClientId interface, InitializeEncode,IX509AttributeClientId.InitializeEncode, certenroll/IX509AttributeClientId::InitializeEncode, security.ix509attributeclientid_initializeencode_method
+ms.keywords: IX509AttributeClientId interface [Security],InitializeEncode method, IX509AttributeClientId.InitializeEncode, IX509AttributeClientId::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::InitializeEncode, security.ix509attributeclientid_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509AttributeClientId::InitializeEncode method
+# IX509AttributeClientId::InitializeEncode
 
 
 ## -description

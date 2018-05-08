@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetDictionaryLocal
-title: IXpsOMPage::GetDictionaryLocal method
+title: IXpsOMPage::GetDictionaryLocal
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMDictionary interface of the local, unshared dictionary that is associated with this page.
 old-location: xps\ixpsompage_getdictionarylocal.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1eece7d5-2f2d-4fae-a2f4-8e52236f57c4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDictionaryLocal method [XPS Documents and Packaging], GetDictionaryLocal method [XPS Documents and Packaging], IXpsOMPage interface, GetDictionaryLocal,IXpsOMPage.GetDictionaryLocal, IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], GetDictionaryLocal method, IXpsOMPage::GetDictionaryLocal, xps.ixpsompage_getdictionarylocal, xpsobjectmodel/IXpsOMPage::GetDictionaryLocal
+ms.keywords: GetDictionaryLocal, GetDictionaryLocal method [XPS Documents and Packaging], GetDictionaryLocal method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionaryLocal method, IXpsOMPage.GetDictionaryLocal, IXpsOMPage::GetDictionaryLocal, xps.ixpsompage_getdictionarylocal, xpsobjectmodel/IXpsOMPage::GetDictionaryLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::GetDictionaryLocal method
+# IXpsOMPage::GetDictionaryLocal
 
 
 ## -description

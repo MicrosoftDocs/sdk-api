@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.FreeExtra
-title: CHString::FreeExtra method
+title: CHString::FreeExtra
 author: windows-driver-content
 description: The FreeExtra method frees any extra memory that was previously allocated by the string but is no longer needed.
 old-location: wmi\chstring_freeextra.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 4330564e-aeae-4ff3-b01d-eceace721c14
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHString, CHString interface [Windows Management Instrumentation], FreeExtra method, CHString::FreeExtra, FreeExtra method [Windows Management Instrumentation], FreeExtra method [Windows Management Instrumentation], CHString interface, FreeExtra,CHString.FreeExtra, _hmm_chstring_freeextra, chstring/CHString::FreeExtra, wmi.chstring_freeextra
+ms.keywords: CHString interface [Windows Management Instrumentation],FreeExtra method, CHString.FreeExtra, CHString::FreeExtra, FreeExtra, FreeExtra method [Windows Management Instrumentation], FreeExtra method [Windows Management Instrumentation],CHString interface, _hmm_chstring_freeextra, chstring/CHString::FreeExtra, wmi.chstring_freeextra
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::FreeExtra method
+# CHString::FreeExtra
 
 
 ## -description

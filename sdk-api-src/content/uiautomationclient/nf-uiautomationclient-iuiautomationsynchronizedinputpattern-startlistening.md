@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSynchronizedInputPattern.StartListening
-title: IUIAutomationSynchronizedInputPattern::StartListening method
+title: IUIAutomationSynchronizedInputPattern::StartListening
 author: windows-driver-content
 description: Causes the Microsoft UI Automation provider to start listening for mouse or keyboard input.
 old-location: winauto\uiauto_IUIAutomationSynchronizedInputPattern_StartListening.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2ecd413e-c1a8-404f-9a11-8c2c8428d6d7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationSynchronizedInputPattern, IUIAutomationSynchronizedInputPattern interface [Windows Accessibility], StartListening method, IUIAutomationSynchronizedInputPattern::StartListening, StartListening method [Windows Accessibility], StartListening method [Windows Accessibility], IUIAutomationSynchronizedInputPattern interface, StartListening,IUIAutomationSynchronizedInputPattern.StartListening, uiauto.uiauto_IUIAutomationSynchronizedInputPattern_StartListening, uiauto_IUIAutomationSynchronizedInputPattern_StartListening, uiautomationclient/IUIAutomationSynchronizedInputPattern::StartListening, winauto.uiauto_IUIAutomationSynchronizedInputPattern_StartListening
+ms.keywords: IUIAutomationSynchronizedInputPattern interface [Windows Accessibility],StartListening method, IUIAutomationSynchronizedInputPattern.StartListening, IUIAutomationSynchronizedInputPattern::StartListening, StartListening, StartListening method [Windows Accessibility], StartListening method [Windows Accessibility],IUIAutomationSynchronizedInputPattern interface, uiauto.uiauto_IUIAutomationSynchronizedInputPattern_StartListening, uiauto_IUIAutomationSynchronizedInputPattern_StartListening, uiautomationclient/IUIAutomationSynchronizedInputPattern::StartListening, winauto.uiauto_IUIAutomationSynchronizedInputPattern_StartListening
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationSynchronizedInputPattern::StartListening method
+# IUIAutomationSynchronizedInputPattern::StartListening
 
 
 ## -description

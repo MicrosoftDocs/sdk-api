@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.SetName
-title: IWMMutualExclusion2::SetName method
+title: IWMMutualExclusion2::SetName
 author: windows-driver-content
 description: The SetName method assigns a name to a mutual exclusion object.
 old-location: wmformat\iwmmutualexclusion2_setname.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: b288c28c-04bd-49a4-bf11-21d4968772d4
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media Format], SetName method, IWMMutualExclusion2::SetName, IWMMutualExclusion2SetName, SetName method [windows Media Format], SetName method [windows Media Format], IWMMutualExclusion2 interface, SetName,IWMMutualExclusion2.SetName, wmformat.iwmmutualexclusion2_setname, wmsdkidl/IWMMutualExclusion2::SetName
+ms.keywords: IWMMutualExclusion2 interface [windows Media Format],SetName method, IWMMutualExclusion2.SetName, IWMMutualExclusion2::SetName, IWMMutualExclusion2SetName, SetName, SetName method [windows Media Format], SetName method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_setname, wmsdkidl/IWMMutualExclusion2::SetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMMutualExclusion2::SetName method
+# IWMMutualExclusion2::SetName
 
 
 ## -description

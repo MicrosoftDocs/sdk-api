@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignaturePartName
-title: IOpcSigningOptions::GetSignaturePartName method
+title: IOpcSigningOptions::GetSignaturePartName
 author: windows-driver-content
 description: Gets the part name of the signature part where the signature markup will be stored.
 old-location: opc\iopcsigningoptions_getsignaturepartname.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 09481639-eea1-4203-932f-e97558408b42
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignaturePartName method [Open Packaging Conventions], GetSignaturePartName method [Open Packaging Conventions], IOpcSigningOptions interface, GetSignaturePartName,IOpcSigningOptions.GetSignaturePartName, IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], GetSignaturePartName method, IOpcSigningOptions::GetSignaturePartName, msopc/IOpcSigningOptions::GetSignaturePartName, opc.iopcsigningoptions_getsignaturepartname
+ms.keywords: GetSignaturePartName, GetSignaturePartName method [Open Packaging Conventions], GetSignaturePartName method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignaturePartName method, IOpcSigningOptions.GetSignaturePartName, IOpcSigningOptions::GetSignaturePartName, msopc/IOpcSigningOptions::GetSignaturePartName, opc.iopcsigningoptions_getsignaturepartname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSigningOptions::GetSignaturePartName method
+# IOpcSigningOptions::GetSignaturePartName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetTotalSize
-title: IMDSPStorageGlobals::GetTotalSize method
+title: IMDSPStorageGlobals::GetTotalSize
 author: windows-driver-content
 description: The GetTotalSize method retrieves the total size, in bytes, of the medium associated with this IMDSPStorageGlobals interface.
 old-location: wmdm\imdspstorageglobals_gettotalsize.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 6a4b4ac5-0b7e-4a22-9857-b251a6bf1dcf
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetTotalSize method [windows Media Device Manager], GetTotalSize method [windows Media Device Manager], IMDSPStorageGlobals interface, GetTotalSize,IMDSPStorageGlobals.GetTotalSize, IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], GetTotalSize method, IMDSPStorageGlobals::GetTotalSize, IMDSPStorageGlobalsGetTotalSize, mswmdm/IMDSPStorageGlobals::GetTotalSize, wmdm.imdspstorageglobals_gettotalsize
+ms.keywords: GetTotalSize, GetTotalSize method [windows Media Device Manager], GetTotalSize method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetTotalSize method, IMDSPStorageGlobals.GetTotalSize, IMDSPStorageGlobals::GetTotalSize, IMDSPStorageGlobalsGetTotalSize, mswmdm/IMDSPStorageGlobals::GetTotalSize, wmdm.imdspstorageglobals_gettotalsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPStorageGlobals::GetTotalSize method
+# IMDSPStorageGlobals::GetTotalSize
 
 
 ## -description

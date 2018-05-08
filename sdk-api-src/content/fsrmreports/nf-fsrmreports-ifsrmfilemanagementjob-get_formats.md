@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Formats
-title: IFsrmFileManagementJob::get_Formats method
+title: IFsrmFileManagementJob::get_Formats
 author: windows-driver-content
 description: The formats of the report to generate when the job is run.
 old-location: fsrm\ifsrmfilemanagementjob_formats.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 1147829d-c47b-4d80-8b49-4328dd54f8ef
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Formats property [File Server Resource Manager], Formats property [File Server Resource Manager], IFsrmFileManagementJob interface, IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], Formats property, IFsrmFileManagementJob.Formats, IFsrmFileManagementJob::get_Formats, IFsrmFileManagementJob::put_Formats, fs.ifsrmfilemanagementjob_formats, fsrm.ifsrmfilemanagementjob_formats, fsrmreports/IFsrmFileManagementJob::Formats, fsrmreports/IFsrmFileManagementJob::get_Formats, fsrmreports/IFsrmFileManagementJob::put_Formats, get_Formats,IFsrmFileManagementJob.get_Formats
+ms.keywords: Formats property [File Server Resource Manager], Formats property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Formats property, IFsrmFileManagementJob.Formats, IFsrmFileManagementJob.get_Formats, IFsrmFileManagementJob::Formats, IFsrmFileManagementJob::get_Formats, IFsrmFileManagementJob::put_Formats, fs.ifsrmfilemanagementjob_formats, fsrm.ifsrmfilemanagementjob_formats, fsrmreports/IFsrmFileManagementJob::Formats, fsrmreports/IFsrmFileManagementJob::get_Formats, fsrmreports/IFsrmFileManagementJob::put_Formats, get_Formats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJob::get_Formats method
+# IFsrmFileManagementJob::get_Formats
 
 
 ## -description

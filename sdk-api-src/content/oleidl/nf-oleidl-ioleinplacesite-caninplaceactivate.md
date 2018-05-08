@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.CanInPlaceActivate
-title: IOleInPlaceSite::CanInPlaceActivate method
+title: IOleInPlaceSite::CanInPlaceActivate
 author: windows-driver-content
 description: Determines whether the container can activate the object in place.
 old-location: com\ioleinplacesite_caninplaceactivate.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ac960359-7e02-43b6-ac42-0000af15b1a4
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: CanInPlaceActivate method [COM], CanInPlaceActivate method [COM], IOleInPlaceSite interface, CanInPlaceActivate,IOleInPlaceSite.CanInPlaceActivate, IOleInPlaceSite, IOleInPlaceSite interface [COM], CanInPlaceActivate method, IOleInPlaceSite::CanInPlaceActivate, _ole_ioleinplacesite_caninplaceactivate, com.ioleinplacesite_caninplaceactivate, oleidl/IOleInPlaceSite::CanInPlaceActivate
+ms.keywords: CanInPlaceActivate, CanInPlaceActivate method [COM], CanInPlaceActivate method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],CanInPlaceActivate method, IOleInPlaceSite.CanInPlaceActivate, IOleInPlaceSite::CanInPlaceActivate, _ole_ioleinplacesite_caninplaceactivate, com.ioleinplacesite_caninplaceactivate, oleidl/IOleInPlaceSite::CanInPlaceActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSite::CanInPlaceActivate method
+# IOleInPlaceSite::CanInPlaceActivate
 
 
 ## -description

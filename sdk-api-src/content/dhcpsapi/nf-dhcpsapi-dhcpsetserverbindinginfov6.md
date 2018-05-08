@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetserverbindinginfov6.htm
 old-project: DHCP
 ms.assetid: 55eb2073-87c4-49b1-b294-35bfeb13d530
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpSetServerBindingInfoV6, DhcpSetServerBindingInfoV6 function [DHCP], dhcp.dhcpsetserverbindinginfov6, dhcpsapi/DhcpSetServerBindingInfoV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

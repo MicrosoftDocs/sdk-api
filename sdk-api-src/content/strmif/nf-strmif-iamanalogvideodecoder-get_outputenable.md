@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.get_OutputEnable
-title: IAMAnalogVideoDecoder::get_OutputEnable method
+title: IAMAnalogVideoDecoder::get_OutputEnable
 author: windows-driver-content
 description: The get_OutputEnable method determines whether the video port bus is enabled.
 old-location: dshow\iamanalogvideodecoder_get_outputenable.htm
 old-project: DirectShow
 ms.assetid: 2379079d-3852-45c7-a290-b3a33ea8af1a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAnalogVideoDecoder, IAMAnalogVideoDecoder interface [DirectShow], get_OutputEnable method, IAMAnalogVideoDecoder::get_OutputEnable, IAMAnalogVideoDecoderget_OutputEnable, dshow.iamanalogvideodecoder_get_outputenable, get_OutputEnable method [DirectShow], get_OutputEnable method [DirectShow], IAMAnalogVideoDecoder interface, get_OutputEnable,IAMAnalogVideoDecoder.get_OutputEnable, strmif/IAMAnalogVideoDecoder::get_OutputEnable
+ms.date: 4/30/2018
+ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_OutputEnable method, IAMAnalogVideoDecoder.get_OutputEnable, IAMAnalogVideoDecoder::get_OutputEnable, IAMAnalogVideoDecoderget_OutputEnable, dshow.iamanalogvideodecoder_get_outputenable, get_OutputEnable, get_OutputEnable method [DirectShow], get_OutputEnable method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_OutputEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAnalogVideoDecoder::get_OutputEnable method
+# IAMAnalogVideoDecoder::get_OutputEnable
 
 
 ## -description

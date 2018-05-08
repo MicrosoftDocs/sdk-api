@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsCollection.Add
-title: IADsCollection::Add method
+title: IADsCollection::Add
 author: windows-driver-content
 description: Adds a named item to the collection.
 old-location: adsi\iadscollection_add.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: c4f0dc3e-238c-4fd3-adb7-9d467efc8c3d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Add method [ADSI], Add method [ADSI], IADsCollection interface, Add,IADsCollection.Add, IADsCollection, IADsCollection interface [ADSI], Add method, IADsCollection::Add, _ds_iadscollection_add, adsi.iadscollection__add, adsi.iadscollection_add, iads/IADsCollection::Add
+ms.keywords: Add, Add method [ADSI], Add method [ADSI],IADsCollection interface, IADsCollection interface [ADSI],Add method, IADsCollection.Add, IADsCollection::Add, _ds_iadscollection_add, adsi.iadscollection__add, adsi.iadscollection_add, iads/IADsCollection::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsCollection::Add method
+# IADsCollection::Add
 
 
 ## -description

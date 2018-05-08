@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.EnumSurfaces
-title: IDirectDraw7::EnumSurfaces method
+title: IDirectDraw7::EnumSurfaces
 author: windows-driver-content
 description: Enumerates all the existing or possible surfaces that meet the specified surface description.
 old-location: directdraw\idirectdraw7_enumsurfaces.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: d97135f3-9921-4e0c-b5ba-e4f709a5e32d
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DDENUMSURFACES_ALL, DDENUMSURFACES_CANBECREATED, DDENUMSURFACES_DOESEXIST, DDENUMSURFACES_MATCH, DDENUMSURFACES_NOMATCH, EnumSurfaces method [DirectDraw], EnumSurfaces method [DirectDraw], IDirectDraw7 interface, EnumSurfaces,IDirectDraw7.EnumSurfaces, IDirectDraw7, IDirectDraw7 interface [DirectDraw], EnumSurfaces method, IDirectDraw7::EnumSurfaces, ddraw/IDirectDraw7::EnumSurfaces, directdraw.idirectdraw7_enumsurfaces
+ms.keywords: DDENUMSURFACES_ALL, DDENUMSURFACES_CANBECREATED, DDENUMSURFACES_DOESEXIST, DDENUMSURFACES_MATCH, DDENUMSURFACES_NOMATCH, EnumSurfaces, EnumSurfaces method [DirectDraw], EnumSurfaces method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EnumSurfaces method, IDirectDraw7.EnumSurfaces, IDirectDraw7::EnumSurfaces, ddraw/IDirectDraw7::EnumSurfaces, directdraw.idirectdraw7_enumsurfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDraw7::EnumSurfaces method
+# IDirectDraw7::EnumSurfaces
 
 
 ## -description

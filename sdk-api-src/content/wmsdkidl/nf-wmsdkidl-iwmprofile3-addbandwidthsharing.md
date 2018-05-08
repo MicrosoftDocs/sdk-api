@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.AddBandwidthSharing
-title: IWMProfile3::AddBandwidthSharing method
+title: IWMProfile3::AddBandwidthSharing
 author: windows-driver-content
 description: The AddBandwidthSharing method adds an existing bandwidth sharing object to the profile. Bandwidth sharing objects are created with a call to CreateNewBandwidthSharing. You must configure the bandwidth sharing object before adding it to the profile.
 old-location: wmformat\iwmprofile3_addbandwidthsharing.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 174a4583-93fb-41cd-ba14-a959a28c1ea3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddBandwidthSharing method [windows Media Format], AddBandwidthSharing method [windows Media Format], IWMProfile3 interface, AddBandwidthSharing,IWMProfile3.AddBandwidthSharing, IWMProfile3, IWMProfile3 interface [windows Media Format], AddBandwidthSharing method, IWMProfile3::AddBandwidthSharing, IWMProfile3AddBandwidthSharing, wmformat.iwmprofile3_addbandwidthsharing, wmsdkidl/IWMProfile3::AddBandwidthSharing
+ms.keywords: AddBandwidthSharing, AddBandwidthSharing method [windows Media Format], AddBandwidthSharing method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],AddBandwidthSharing method, IWMProfile3.AddBandwidthSharing, IWMProfile3::AddBandwidthSharing, IWMProfile3AddBandwidthSharing, wmformat.iwmprofile3_addbandwidthsharing, wmsdkidl/IWMProfile3::AddBandwidthSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfile3::AddBandwidthSharing method
+# IWMProfile3::AddBandwidthSharing
 
 
 ## -description

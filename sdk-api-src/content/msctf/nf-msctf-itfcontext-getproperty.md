@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetProperty
-title: ITfContext::GetProperty method
+title: ITfContext::GetProperty
 author: windows-driver-content
 description: ITfContext::GetProperty method
 old-location: tsf\itfcontext_getproperty.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: e5d76443-f767-47fb-be3a-8cbac224d299
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetProperty method [Text Services Framework], GetProperty method [Text Services Framework], ITfContext interface, GetProperty,ITfContext.GetProperty, ITfContext, ITfContext interface [Text Services Framework], GetProperty method, ITfContext::GetProperty, _tsf_itfcontext_getproperty_ref, msctf/ITfContext::GetProperty, tsf.itfcontext_getproperty
+ms.keywords: GetProperty, GetProperty method [Text Services Framework], GetProperty method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetProperty method, ITfContext.GetProperty, ITfContext::GetProperty, _tsf_itfcontext_getproperty_ref, msctf/ITfContext::GetProperty, tsf.itfcontext_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContext::GetProperty method
+# ITfContext::GetProperty
 
 
 ## -description

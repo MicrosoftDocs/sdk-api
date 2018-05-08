@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.GetRenderingMode
-title: IVMRFilterConfig9::GetRenderingMode method
+title: IVMRFilterConfig9::GetRenderingMode
 author: windows-driver-content
 description: The GetRenderingMode method retrieves the rendering mode currently being used by the VMR.
 old-location: dshow\ivmrfilterconfig9_getrenderingmode.htm
 old-project: DirectShow
 ms.assetid: e39077ce-737f-4dd9-ab7d-4dc087828fdf
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetRenderingMode method [DirectShow], GetRenderingMode method [DirectShow], IVMRFilterConfig9 interface, GetRenderingMode,IVMRFilterConfig9.GetRenderingMode, IVMRFilterConfig9, IVMRFilterConfig9 interface [DirectShow], GetRenderingMode method, IVMRFilterConfig9::GetRenderingMode, IVMRFilterConfig9GetRenderingMode, dshow.ivmrfilterconfig9_getrenderingmode, vmr9/IVMRFilterConfig9::GetRenderingMode
+ms.date: 4/30/2018
+ms.keywords: GetRenderingMode, GetRenderingMode method [DirectShow], GetRenderingMode method [DirectShow],IVMRFilterConfig9 interface, IVMRFilterConfig9 interface [DirectShow],GetRenderingMode method, IVMRFilterConfig9.GetRenderingMode, IVMRFilterConfig9::GetRenderingMode, IVMRFilterConfig9GetRenderingMode, dshow.ivmrfilterconfig9_getrenderingmode, vmr9/IVMRFilterConfig9::GetRenderingMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRFilterConfig9::GetRenderingMode method
+# IVMRFilterConfig9::GetRenderingMode
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetStorageFilter
-title: ID3D12InfoQueue::GetStorageFilter method
+title: ID3D12InfoQueue::GetStorageFilter
 author: windows-driver-content
 description: Get the storage filter at the top of the storage-filter stack.
 old-location: direct3d12\id3d12infoqueue_getstoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 077C3BA1-9686-4405-A561-4A6A2B128320
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetStorageFilter method, GetStorageFilter method, ID3D12InfoQueue interface, GetStorageFilter,ID3D12InfoQueue.GetStorageFilter, ID3D12InfoQueue, ID3D12InfoQueue interface, GetStorageFilter method, ID3D12InfoQueue::GetStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetStorageFilter, direct3d12.id3d12infoqueue_getstoragefilter
+ms.keywords: GetStorageFilter, GetStorageFilter method, GetStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetStorageFilter method, ID3D12InfoQueue.GetStorageFilter, ID3D12InfoQueue::GetStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetStorageFilter, direct3d12.id3d12infoqueue_getstoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::GetStorageFilter method
+# ID3D12InfoQueue::GetStorageFilter
 
 
 ## -description

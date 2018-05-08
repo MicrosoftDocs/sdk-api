@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuneRequest.Clone
-title: ITuneRequest::Clone method
+title: ITuneRequest::Clone
 author: windows-driver-content
 description: The Clone method returns a new copy of this tune request.
 old-location: mstv\itunerequest_clone.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 14298e56-805d-48f3-9f78-79d4eaf2239f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies], ITuneRequest interface, Clone,ITuneRequest.Clone, ITuneRequest, ITuneRequest interface [Microsoft TV Technologies], Clone method, ITuneRequest::Clone, ITuneRequestClone, mstv.itunerequest_clone, tuner/ITuneRequest::Clone
+ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],ITuneRequest interface, ITuneRequest interface [Microsoft TV Technologies],Clone method, ITuneRequest.Clone, ITuneRequest::Clone, ITuneRequestClone, mstv.itunerequest_clone, tuner/ITuneRequest::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuneRequest::Clone method
+# ITuneRequest::Clone
 
 
 ## -description

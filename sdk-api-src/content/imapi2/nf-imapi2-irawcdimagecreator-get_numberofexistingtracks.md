@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_NumberOfExistingTracks
-title: IRawCDImageCreator::get_NumberOfExistingTracks method
+title: IRawCDImageCreator::get_NumberOfExistingTracks
 author: windows-driver-content
 description: Retrieves the number of existing audio tracks on the media.
 old-location: imapi\irawcdimagecreator_get_numberofexistingtracks.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: c10053d0-d9c1-4ac0-aa38-71dacf1e4425
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], get_NumberOfExistingTracks method, IRawCDImageCreator::get_NumberOfExistingTracks, get_NumberOfExistingTracks method [IMAPI], get_NumberOfExistingTracks method [IMAPI], IRawCDImageCreator interface, get_NumberOfExistingTracks,IRawCDImageCreator.get_NumberOfExistingTracks, imapi.irawcdimagecreator_get_numberofexistingtracks, imapi2/IRawCDImageCreator::get_NumberOfExistingTracks
+ms.keywords: IRawCDImageCreator interface [IMAPI],get_NumberOfExistingTracks method, IRawCDImageCreator.get_NumberOfExistingTracks, IRawCDImageCreator::get_NumberOfExistingTracks, get_NumberOfExistingTracks, get_NumberOfExistingTracks method [IMAPI], get_NumberOfExistingTracks method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_numberofexistingtracks, imapi2/IRawCDImageCreator::get_NumberOfExistingTracks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRawCDImageCreator::get_NumberOfExistingTracks method
+# IRawCDImageCreator::get_NumberOfExistingTracks
 
 
 ## -description

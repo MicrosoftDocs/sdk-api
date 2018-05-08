@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.Append
-title: IXpsOMDictionary::Append method
+title: IXpsOMDictionary::Append
 author: windows-driver-content
 description: Appends an IXpsOMShareable interface along with its key to the end of the dictionary.
 old-location: xps\ixpsomdictionary_append.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 69df1cdc-a965-4ea8-b1af-75176caa39ee
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging], IXpsOMDictionary interface, Append,IXpsOMDictionary.Append, IXpsOMDictionary, IXpsOMDictionary interface [XPS Documents and Packaging], Append method, IXpsOMDictionary::Append, xps.ixpsomdictionary_append, xpsobjectmodel/IXpsOMDictionary::Append
+ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],Append method, IXpsOMDictionary.Append, IXpsOMDictionary::Append, xps.ixpsomdictionary_append, xpsobjectmodel/IXpsOMDictionary::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDictionary::Append method
+# IXpsOMDictionary::Append
 
 
 ## -description

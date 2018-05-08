@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetRadiiSizes
-title: IXpsOMRadialGradientBrush::GetRadiiSizes method
+title: IXpsOMRadialGradientBrush::GetRadiiSizes
 author: windows-driver-content
 description: Gets the sizes of the radii that define the ellipse of the radial gradient region.
 old-location: xps\ixpsomradialgradientbrush_getradiisizes.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c57c125b-7a21-4b94-b4c3-1aa34d615a12
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetRadiiSizes method [XPS Documents and Packaging], GetRadiiSizes method [XPS Documents and Packaging], IXpsOMRadialGradientBrush interface, GetRadiiSizes,IXpsOMRadialGradientBrush.GetRadiiSizes, IXpsOMRadialGradientBrush, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging], GetRadiiSizes method, IXpsOMRadialGradientBrush::GetRadiiSizes, xps.ixpsomradialgradientbrush_getradiisizes, xpsobjectmodel/IXpsOMRadialGradientBrush::GetRadiiSizes
+ms.keywords: GetRadiiSizes, GetRadiiSizes method [XPS Documents and Packaging], GetRadiiSizes method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetRadiiSizes method, IXpsOMRadialGradientBrush.GetRadiiSizes, IXpsOMRadialGradientBrush::GetRadiiSizes, xps.ixpsomradialgradientbrush_getradiisizes, xpsobjectmodel/IXpsOMRadialGradientBrush::GetRadiiSizes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMRadialGradientBrush::GetRadiiSizes method
+# IXpsOMRadialGradientBrush::GetRadiiSizes
 
 
 ## -description

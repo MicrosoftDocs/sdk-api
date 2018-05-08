@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetSetCodePage
-title: IBrowserService::GetSetCodePage method
+title: IBrowserService::GetSetCodePage
 author: windows-driver-content
 description: Deprecated. Sets a new character code page and retrieves a pointer to the previous code page.
 old-location: shell\IBrowserService_GetSetCodePage.htm
 old-project: shell
 ms.assetid: 2d194f9a-cf82-47ed-8218-d0d5824be435
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSetCodePage method [Windows Shell], GetSetCodePage method [Windows Shell], IBrowserService interface, GetSetCodePage,IBrowserService.GetSetCodePage, IBrowserService, IBrowserService interface [Windows Shell], GetSetCodePage method, IBrowserService::GetSetCodePage, shdeprecated/IBrowserService::GetSetCodePage, shell.IBrowserService_GetSetCodePage, zone_IBrowserService_GetSetCodePage
+ms.date: 5/3/2018
+ms.keywords: GetSetCodePage, GetSetCodePage method [Windows Shell], GetSetCodePage method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetSetCodePage method, IBrowserService.GetSetCodePage, IBrowserService::GetSetCodePage, shdeprecated/IBrowserService::GetSetCodePage, shell.IBrowserService_GetSetCodePage, zone_IBrowserService_GetSetCodePage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::GetSetCodePage method
+# IBrowserService::GetSetCodePage
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 767f30c9-6071-4f04-876d-b8b2392e650c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzObjectPicker, IAzObjectPicker interface [Security], IAzObjectPicker interface [Security], described, azroles/IAzObjectPicker, security.iazobjectpicker
+ms.keywords: IAzObjectPicker, IAzObjectPicker interface [Security], IAzObjectPicker interface [Security],described, azroles/IAzObjectPicker, security.iazobjectpicker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

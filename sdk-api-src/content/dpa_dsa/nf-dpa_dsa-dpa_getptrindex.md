@@ -7,7 +7,7 @@ old-location: controls\DPA_GetPtrIndex.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getptrindex.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: DPA_GetPtrIndex, DPA_GetPtrIndex function [Windows Controls], _shell_DPA_GetPtrIndex, _shell_DPA_GetPtrIndex_cpp, controls.DPA_GetPtrIndex, controls._shell_DPA_GetPtrIndex, dpa_dsa/DPA_GetPtrIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

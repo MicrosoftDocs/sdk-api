@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByName
-title: IWMPMediaCollection::getByName method
+title: IWMPMediaCollection::getByName
 author: windows-driver-content
 description: The getByName method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items with the specified name.
 old-location: wmp\iwmpmediacollection_getbyname.htm
 old-project: WMP
 ms.assetid: 114b0449-a45e-42e5-9e68-428c40a388cf
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], getByName method, IWMPMediaCollection::getByName, IWMPMediaCollectiongetByName, getByName method [Windows Media Player], getByName method [Windows Media Player], IWMPMediaCollection interface, getByName,IWMPMediaCollection.getByName, wmp.iwmpmediacollection_getbyname, wmp/IWMPMediaCollection::getByName
+ms.date: 5/4/2018
+ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByName method, IWMPMediaCollection.getByName, IWMPMediaCollection::getByName, IWMPMediaCollectiongetByName, getByName, getByName method [Windows Media Player], getByName method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyname, wmp/IWMPMediaCollection::getByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMediaCollection::getByName method
+# IWMPMediaCollection::getByName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetTriggerString
-title: IScheduledWorkItem::GetTriggerString method
+title: IScheduledWorkItem::GetTriggerString
 author: windows-driver-content
 description: Retrieves a string that describes the work item trigger.
 old-location: taskschd\ischeduledworkitem_gettriggerstring.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 5e342807-4796-449b-b490-815ce57f4d8f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTriggerString method [Task Scheduler], GetTriggerString method [Task Scheduler], IScheduledWorkItem interface, GetTriggerString,IScheduledWorkItem.GetTriggerString, IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], GetTriggerString method, IScheduledWorkItem::GetTriggerString, _msb_ischeduledworkitem_gettriggerstring, mstask/IScheduledWorkItem::GetTriggerString, taskschd.ischeduledworkitem_gettriggerstring
+ms.keywords: GetTriggerString, GetTriggerString method [Task Scheduler], GetTriggerString method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTriggerString method, IScheduledWorkItem.GetTriggerString, IScheduledWorkItem::GetTriggerString, _msb_ischeduledworkitem_gettriggerstring, mstask/IScheduledWorkItem::GetTriggerString, taskschd.ischeduledworkitem_gettriggerstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::GetTriggerString method
+# IScheduledWorkItem::GetTriggerString
 
 
 ## -description

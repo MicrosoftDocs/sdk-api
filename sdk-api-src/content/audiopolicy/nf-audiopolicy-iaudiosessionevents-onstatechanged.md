@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnStateChanged
-title: IAudioSessionEvents::OnStateChanged method
+title: IAudioSessionEvents::OnStateChanged
 author: windows-driver-content
 description: The OnStateChanged method notifies the client that the stream-activity state of the session has changed.
 old-location: coreaudio\iaudiosessionevents_onstatechanged.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 4ec3e676-cf08-4041-b5bf-5cb429569e03
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], OnStateChanged method, IAudioSessionEvents::OnStateChanged, IAudioSessionEventsOnStateChanged, OnStateChanged method [Core Audio], OnStateChanged method [Core Audio], IAudioSessionEvents interface, OnStateChanged,IAudioSessionEvents.OnStateChanged, audiopolicy/IAudioSessionEvents::OnStateChanged, coreaudio.iaudiosessionevents_onstatechanged
+ms.keywords: IAudioSessionEvents interface [Core Audio],OnStateChanged method, IAudioSessionEvents.OnStateChanged, IAudioSessionEvents::OnStateChanged, IAudioSessionEventsOnStateChanged, OnStateChanged, OnStateChanged method [Core Audio], OnStateChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnStateChanged, coreaudio.iaudiosessionevents_onstatechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionEvents::OnStateChanged method
+# IAudioSessionEvents::OnStateChanged
 
 
 ## -description

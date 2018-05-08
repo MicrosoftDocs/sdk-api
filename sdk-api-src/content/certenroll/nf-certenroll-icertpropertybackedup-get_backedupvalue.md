@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyBackedUp.get_BackedUpValue
-title: ICertPropertyBackedUp::get_BackedUpValue method
+title: ICertPropertyBackedUp::get_BackedUpValue
 author: windows-driver-content
 description: Retrieves a Boolean value that identifies whether the certificate was backed up.
 old-location: security\icertpropertybackedup_backedupvalue_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 206ef65a-93c5-4c0d-b673-42a0b065225c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: BackedUpValue property [Security], BackedUpValue property [Security], ICertPropertyBackedUp interface, ICertPropertyBackedUp, ICertPropertyBackedUp interface [Security], BackedUpValue property, ICertPropertyBackedUp.BackedUpValue, ICertPropertyBackedUp::get_BackedUpValue, certenroll/ICertPropertyBackedUp::BackedUpValue, certenroll/ICertPropertyBackedUp::get_BackedUpValue, get_BackedUpValue,ICertPropertyBackedUp.get_BackedUpValue, security.icertpropertybackedup_backedupvalue_property
+ms.keywords: BackedUpValue property [Security], BackedUpValue property [Security],ICertPropertyBackedUp interface, ICertPropertyBackedUp interface [Security],BackedUpValue property, ICertPropertyBackedUp.BackedUpValue, ICertPropertyBackedUp.get_BackedUpValue, ICertPropertyBackedUp::BackedUpValue, ICertPropertyBackedUp::get_BackedUpValue, certenroll/ICertPropertyBackedUp::BackedUpValue, certenroll/ICertPropertyBackedUp::get_BackedUpValue, get_BackedUpValue, security.icertpropertybackedup_backedupvalue_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyBackedUp::get_BackedUpValue method
+# ICertPropertyBackedUp::get_BackedUpValue
 
 
 ## -description

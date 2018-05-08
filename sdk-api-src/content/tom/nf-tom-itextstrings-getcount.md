@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextStrings.GetCount
-title: ITextStrings::GetCount method
+title: ITextStrings::GetCount
 author: windows-driver-content
 description: Gets the number of strings in a string collection.
 old-location: controls\itextstrings_getcount.htm
 old-project: Controls
 ms.assetid: 6bbe53ab-bd03-4445-8d36-0186a43da451
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetCount method [Windows Controls], GetCount method [Windows Controls], ITextStrings interface, GetCount,ITextStrings.GetCount, ITextStrings, ITextStrings interface [Windows Controls], GetCount method, ITextStrings::GetCount, controls.itextstrings_getcount, tom/ITextStrings::GetCount
+ms.date: 4/27/2018
+ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],GetCount method, ITextStrings.GetCount, ITextStrings::GetCount, controls.itextstrings_getcount, tom/ITextStrings::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStrings::GetCount method
+# ITextStrings::GetCount
 
 
 ## -description

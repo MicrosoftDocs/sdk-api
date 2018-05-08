@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumChangeUnitExceptions.Clone
-title: IEnumChangeUnitExceptions::Clone method
+title: IEnumChangeUnitExceptions::Clone
 author: windows-driver-content
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumchangeunitexceptions_clone.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 8039d175-f0d9-44af-9571-e4f97b6cd43f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Clone method [Windows Sync], Clone method [Windows Sync], IEnumChangeUnitExceptions interface, Clone,IEnumChangeUnitExceptions.Clone, IEnumChangeUnitExceptions, IEnumChangeUnitExceptions interface [Windows Sync], Clone method, IEnumChangeUnitExceptions::Clone, winsync.ienumchangeunitexceptions_clone, winsync/IEnumChangeUnitExceptions::Clone
+ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumChangeUnitExceptions interface, IEnumChangeUnitExceptions interface [Windows Sync],Clone method, IEnumChangeUnitExceptions.Clone, IEnumChangeUnitExceptions::Clone, winsync.ienumchangeunitexceptions_clone, winsync/IEnumChangeUnitExceptions::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumChangeUnitExceptions::Clone method
+# IEnumChangeUnitExceptions::Clone
 
 
 ## -description

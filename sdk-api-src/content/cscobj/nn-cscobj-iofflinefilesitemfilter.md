@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: e77b4f90-7a08-47f8-b297-8c1360167e1f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesItemFilter, IOfflineFilesItemFilter interface [Offline Files], IOfflineFilesItemFilter interface [Offline Files], described, cscobj/IOfflineFilesItemFilter, of.iofflinefilesitemfilter
+ms.keywords: IOfflineFilesItemFilter, IOfflineFilesItemFilter interface [Offline Files], IOfflineFilesItemFilter interface [Offline Files],described, cscobj/IOfflineFilesItemFilter, of.iofflinefilesitemfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

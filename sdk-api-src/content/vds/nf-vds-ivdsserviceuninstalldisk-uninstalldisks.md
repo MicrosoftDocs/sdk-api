@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsServiceUninstallDisk.UninstallDisks
-title: IVdsServiceUninstallDisk::UninstallDisks method
+title: IVdsServiceUninstallDisk::UninstallDisks
 author: windows-driver-content
 description: Uninstalls a set of disks.
 old-location: base\ivdsserviceuninstalldisk_uninstalldisks.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 65c5444f-7e97-4746-9d74-561dc435212d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsServiceUninstallDisk, IVdsServiceUninstallDisk interface, UninstallDisks method, IVdsServiceUninstallDisk::UninstallDisks, UninstallDisks method, UninstallDisks method, IVdsServiceUninstallDisk interface, UninstallDisks,IVdsServiceUninstallDisk.UninstallDisks, base.ivdsserviceuninstalldisk_uninstalldisks, vds/IVdsServiceUninstallDisk::UninstallDisks
+ms.keywords: IVdsServiceUninstallDisk interface,UninstallDisks method, IVdsServiceUninstallDisk.UninstallDisks, IVdsServiceUninstallDisk::UninstallDisks, UninstallDisks, UninstallDisks method, UninstallDisks method,IVdsServiceUninstallDisk interface, base.ivdsserviceuninstalldisk_uninstalldisks, vds/IVdsServiceUninstallDisk::UninstallDisks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsServiceUninstallDisk::UninstallDisks method
+# IVdsServiceUninstallDisk::UninstallDisks
 
 
 ## -description

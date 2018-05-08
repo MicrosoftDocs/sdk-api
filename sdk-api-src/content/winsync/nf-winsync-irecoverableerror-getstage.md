@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableError.GetStage
-title: IRecoverableError::GetStage method
+title: IRecoverableError::GetStage
 author: windows-driver-content
 description: Gets the stage in the synchronization session when the error occurred.
 old-location: winsync\irecoverableerror_getstage.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 4ddfb151-37f1-4df2-827a-11bc6f23ace6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetStage method [Windows Sync], GetStage method [Windows Sync], IRecoverableError interface, GetStage,IRecoverableError.GetStage, IRecoverableError, IRecoverableError interface [Windows Sync], GetStage method, IRecoverableError::GetStage, winsync.irecoverableerror_getstage, winsync/IRecoverableError::GetStage
+ms.keywords: GetStage, GetStage method [Windows Sync], GetStage method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetStage method, IRecoverableError.GetStage, IRecoverableError::GetStage, winsync.irecoverableerror_getstage, winsync/IRecoverableError::GetStage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IRecoverableError::GetStage method
+# IRecoverableError::GetStage
 
 
 ## -description

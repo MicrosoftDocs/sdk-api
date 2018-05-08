@@ -7,7 +7,7 @@ old-location: security\crypt_key_sign_message_para.htm
 old-project: SecCrypto
 ms.assetid: d5426ad6-2181-42ce-99f2-cc6cc83e20a8
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPT_KEY_SIGN_MESSAGE_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CRYPT_KEY_SIGN_MESSAGE_PARA, CRYPT_KEY_SIGN_MESSAGE_PARA structure [Security], PCRYPT_KEY_SIGN_MESSAGE_PARA, PCRYPT_KEY_SIGN_MESSAGE_PARA structure pointer [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _CRYPT_KEY_SIGN_MESSAGE_PARA, security.crypt_key_sign_message_para, wincrypt/CRYPT_KEY_SIGN_MESSAGE_PARA, wincrypt/PCRYPT_KEY_SIGN_MESSAGE_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,6 +102,16 @@ Specifies PKCS 7 message encoding.
  
 
 
+### -field DUMMYUNIONNAME.hCryptProv
+
+The handle of the CSP to use to sign the message. The <a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> function is called to obtain this handle.
+
+
+### -field DUMMYUNIONNAME.hNCryptKey
+
+The handle of the Cryptography API: Next Generation (CNG) CSP to use to sign the message. CNG signature algorithms are only supported in CNG functions.
+
+
 ### -field dwKeySpec
 
 Identifies the type of <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> to use to sign the message. This must be one of the following values. This member is ignored if a CNG key is passed in the <i>hNCryptKey</i> member.
@@ -148,14 +158,4 @@ This member is not used and must be set to <b>NULL</b>.
 ### -field PubKeyAlgorithm
 
 A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm to use to sign the message. This must be either a public key or a signature algorithm.
-
-
-#### - hCryptProv
-
-The handle of the CSP to use to sign the message. The <a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> function is called to obtain this handle.
-
-
-#### - hNCryptKey
-
-The handle of the Cryptography API: Next Generation (CNG) CSP to use to sign the message. CNG signature algorithms are only supported in CNG functions.
 

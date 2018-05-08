@@ -1,14 +1,14 @@
 ---
 UID: NF:playtomanagerinterop.IPlayToManagerInterop.GetForWindow
-title: IPlayToManagerInterop::GetForWindow method
+title: IPlayToManagerInterop::GetForWindow
 author: windows-driver-content
 description: Gets the PlayToManager instance for the specified window.
 old-location: winrt\iplaytomanagerinterop_getforwindow.htm
 old-project: WinRT
 ms.assetid: 444f0d68-a6ae-46de-aa97-d7d505c95948
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime], IPlayToManagerInterop interface, GetForWindow,IPlayToManagerInterop.GetForWindow, IPlayToManagerInterop, IPlayToManagerInterop interface [Windows Runtime], GetForWindow method, IPlayToManagerInterop::GetForWindow, playtomanagerinterop/IPlayToManagerInterop::GetForWindow, winrt.iplaytomanagerinterop_getforwindow
+ms.date: 5/4/2018
+ms.keywords: GetForWindow, GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime],IPlayToManagerInterop interface, IPlayToManagerInterop interface [Windows Runtime],GetForWindow method, IPlayToManagerInterop.GetForWindow, IPlayToManagerInterop::GetForWindow, playtomanagerinterop/IPlayToManagerInterop::GetForWindow, winrt.iplaytomanagerinterop_getforwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPlayToManagerInterop::GetForWindow method
+# IPlayToManagerInterop::GetForWindow
 
 
 ## -description

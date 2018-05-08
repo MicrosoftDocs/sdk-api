@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.SetFileProperty
-title: IFsrmPropertyBag::SetFileProperty method
+title: IFsrmPropertyBag::SetFileProperty
 author: windows-driver-content
 description: Sets the specified property in the property bag.
 old-location: fsrm\ifsrmpropertybag_setfileproperty.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: d3322907-c832-49ef-bf21-2e4581251a88
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], SetFileProperty method, IFsrmPropertyBag::SetFileProperty, SetFileProperty method [File Server Resource Manager], SetFileProperty method [File Server Resource Manager], IFsrmPropertyBag interface, SetFileProperty,IFsrmPropertyBag.SetFileProperty, fs.ifsrmpropertybag_setfileproperty, fsrm.ifsrmpropertybag_setfileproperty, fsrmpipeline/IFsrmPropertyBag::SetFileProperty
+ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],SetFileProperty method, IFsrmPropertyBag.SetFileProperty, IFsrmPropertyBag::SetFileProperty, SetFileProperty, SetFileProperty method [File Server Resource Manager], SetFileProperty method [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_setfileproperty, fsrm.ifsrmpropertybag_setfileproperty, fsrmpipeline/IFsrmPropertyBag::SetFileProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyBag::SetFileProperty method
+# IFsrmPropertyBag::SetFileProperty
 
 
 ## -description

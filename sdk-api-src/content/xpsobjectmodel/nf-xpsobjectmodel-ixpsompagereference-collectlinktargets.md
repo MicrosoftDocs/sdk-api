@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.CollectLinkTargets
-title: IXpsOMPageReference::CollectLinkTargets method
+title: IXpsOMPageReference::CollectLinkTargets
 author: windows-driver-content
 description: Gets an IXpsOMNameCollection interface that contains the names of all the document subtree objects whose IsHyperlinkTarget property is set to TRUE.
 old-location: xps\ixpsompagereference_collectlinktargets.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 82c64e8a-d8fb-41e3-95f8-b8ca490eae78
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CollectLinkTargets method [XPS Documents and Packaging], CollectLinkTargets method [XPS Documents and Packaging], IXpsOMPageReference interface, CollectLinkTargets,IXpsOMPageReference.CollectLinkTargets, IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], CollectLinkTargets method, IXpsOMPageReference::CollectLinkTargets, xps.ixpsompagereference_collectlinktargets, xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets
+ms.keywords: CollectLinkTargets, CollectLinkTargets method [XPS Documents and Packaging], CollectLinkTargets method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectLinkTargets method, IXpsOMPageReference.CollectLinkTargets, IXpsOMPageReference::CollectLinkTargets, xps.ixpsompagereference_collectlinktargets, xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReference::CollectLinkTargets method
+# IXpsOMPageReference::CollectLinkTargets
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetCatalogStatus
-title: ISearchCatalogManager::GetCatalogStatus method
+title: ISearchCatalogManager::GetCatalogStatus
 author: windows-driver-content
 description: Gets the status of the catalog.
 old-location: search\_search_ISearchCatalogManager_GetCatalogStatus.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getcatalogstatus.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetCatalogStatus method [search], GetCatalogStatus method [search], ISearchCatalogManager interface, GetCatalogStatus,ISearchCatalogManager.GetCatalogStatus, ISearchCatalogManager, ISearchCatalogManager interface [search], GetCatalogStatus method, ISearchCatalogManager::GetCatalogStatus, _search_ISearchCatalogManager_GetCatalogStatus, search._search_ISearchCatalogManager_GetCatalogStatus, searchapi/ISearchCatalogManager::GetCatalogStatus
+ms.date: 5/4/2018
+ms.keywords: GetCatalogStatus, GetCatalogStatus method [search], GetCatalogStatus method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetCatalogStatus method, ISearchCatalogManager.GetCatalogStatus, ISearchCatalogManager::GetCatalogStatus, _search_ISearchCatalogManager_GetCatalogStatus, search._search_ISearchCatalogManager_GetCatalogStatus, searchapi/ISearchCatalogManager::GetCatalogStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::GetCatalogStatus method
+# ISearchCatalogManager::GetCatalogStatus
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: security\cmsg_ctrl_mail_list_decrypt_para.htm
 old-project: SecCrypto
 ms.assetid: 30735e01-db6b-40fc-b4c8-cdc24e73defa
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA, CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, CMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure [Security], PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA, PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure pointer [Security], _CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, _crypto2_cmsg_ctrl_mail_list_decrypt_para, security.cmsg_ctrl_mail_list_decrypt_para, wincrypt/CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, wincrypt/PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,14 +88,12 @@ Indicates the member of the following union that will be used. Currently only CM
  
 
 
-
-
-#### - hKeyEncryptionKey
+### -field DUMMYUNIONNAME.hKeyEncryptionKey
 
 Handle of the key encryption key. Used with <b>dwKeyChoice</b> set to CMSG_MAIL_LIST_HANDLE_KEY_CHOICE.
 
 
-#### - pvKeyEncryptionKey
+### -field DUMMYUNIONNAME.pvKeyEncryptionKey
 
 A pointer to a void. Reserved for future use.
 

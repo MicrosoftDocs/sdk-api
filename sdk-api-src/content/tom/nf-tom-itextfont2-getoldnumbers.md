@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.GetOldNumbers
-title: ITextFont2::GetOldNumbers method
+title: ITextFont2::GetOldNumbers
 author: windows-driver-content
 description: Gets whether old-style numbers are active.
 old-location: controls\itextfont2_getoldnumbers.htm
 old-project: Controls
 ms.assetid: 8e800840-5ca2-4fbf-94c2-d51aa73bf188
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetOldNumbers method [Windows Controls], GetOldNumbers method [Windows Controls], ITextFont2 interface, GetOldNumbers,ITextFont2.GetOldNumbers, ITextFont2, ITextFont2 interface [Windows Controls], GetOldNumbers method, ITextFont2::GetOldNumbers, controls.itextfont2_getoldnumbers, tom/ITextFont2::GetOldNumbers
+ms.date: 4/27/2018
+ms.keywords: GetOldNumbers, GetOldNumbers method [Windows Controls], GetOldNumbers method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetOldNumbers method, ITextFont2.GetOldNumbers, ITextFont2::GetOldNumbers, controls.itextfont2_getoldnumbers, tom/ITextFont2::GetOldNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::GetOldNumbers method
+# ITextFont2::GetOldNumbers
 
 
 ## -description

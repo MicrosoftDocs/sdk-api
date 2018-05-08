@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroupManager.get__NewEnum
-title: ISharedPropertyGroupManager::get__NewEnum method
+title: ISharedPropertyGroupManager::get__NewEnum
 author: windows-driver-content
 description: Retrieves an enumerator for the named security call context properties.
 old-location: cos\isharedpropertygroupmanager_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 04e591c0-6bf4-4864-aaae-57ffd97c5414
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ISharedPropertyGroupManager, ISharedPropertyGroupManager interface [COM+], get__NewEnum method, ISharedPropertyGroupManager::get__NewEnum, _cos_ISharedPropertyGroupManager_get__NewEnum, comsvcs/ISharedPropertyGroupManager::get__NewEnum, cos.isharedpropertygroupmanager_get__newenum, get__NewEnum method [COM+], get__NewEnum method [COM+], ISharedPropertyGroupManager interface, get__NewEnum,ISharedPropertyGroupManager.get__NewEnum
+ms.keywords: ISharedPropertyGroupManager interface [COM+],get__NewEnum method, ISharedPropertyGroupManager.get__NewEnum, ISharedPropertyGroupManager::get__NewEnum, _cos_ISharedPropertyGroupManager_get__NewEnum, comsvcs/ISharedPropertyGroupManager::get__NewEnum, cos.isharedpropertygroupmanager_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISharedPropertyGroupManager interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISharedPropertyGroupManager::get__NewEnum method
+# ISharedPropertyGroupManager::get__NewEnum
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Resource.SetEvictionPriority
-title: ID3D11Resource::SetEvictionPriority method
+title: ID3D11Resource::SetEvictionPriority
 author: windows-driver-content
 description: Set the eviction priority of a resource.
 old-location: direct3d11\id3d11resource_setevictionpriority.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 8c68fbb8-dd8a-4d60-b081-082720e7bda5
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 55340049-7283-9bea-b4ac-8b0b9cb71119, ID3D11Resource, ID3D11Resource interface [Direct3D 11], SetEvictionPriority method, ID3D11Resource::SetEvictionPriority, SetEvictionPriority method [Direct3D 11], SetEvictionPriority method [Direct3D 11], ID3D11Resource interface, SetEvictionPriority,ID3D11Resource.SetEvictionPriority, d3d11/ID3D11Resource::SetEvictionPriority, direct3d11.id3d11resource_setevictionpriority
+ms.keywords: 55340049-7283-9bea-b4ac-8b0b9cb71119, ID3D11Resource interface [Direct3D 11],SetEvictionPriority method, ID3D11Resource.SetEvictionPriority, ID3D11Resource::SetEvictionPriority, SetEvictionPriority, SetEvictionPriority method [Direct3D 11], SetEvictionPriority method [Direct3D 11],ID3D11Resource interface, d3d11/ID3D11Resource::SetEvictionPriority, direct3d11.id3d11resource_setevictionpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11Resource::SetEvictionPriority method
+# ID3D11Resource::SetEvictionPriority
 
 
 ## -description

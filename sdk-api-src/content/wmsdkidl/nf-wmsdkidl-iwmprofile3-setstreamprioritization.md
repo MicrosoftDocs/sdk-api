@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.SetStreamPrioritization
-title: IWMProfile3::SetStreamPrioritization method
+title: IWMProfile3::SetStreamPrioritization
 author: windows-driver-content
 description: The SetStreamPrioritization method assigns a stream prioritization object to the profile. A profile can contain only one stream prioritization object at a time.
 old-location: wmformat\iwmprofile3_setstreamprioritization.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 16dfb205-2a0b-4dc8-a8f2-8981534018f1
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMProfile3, IWMProfile3 interface [windows Media Format], SetStreamPrioritization method, IWMProfile3::SetStreamPrioritization, IWMProfile3SetStreamPrioritization, SetStreamPrioritization method [windows Media Format], SetStreamPrioritization method [windows Media Format], IWMProfile3 interface, SetStreamPrioritization,IWMProfile3.SetStreamPrioritization, wmformat.iwmprofile3_setstreamprioritization, wmsdkidl/IWMProfile3::SetStreamPrioritization
+ms.keywords: IWMProfile3 interface [windows Media Format],SetStreamPrioritization method, IWMProfile3.SetStreamPrioritization, IWMProfile3::SetStreamPrioritization, IWMProfile3SetStreamPrioritization, SetStreamPrioritization, SetStreamPrioritization method [windows Media Format], SetStreamPrioritization method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_setstreamprioritization, wmsdkidl/IWMProfile3::SetStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfile3::SetStreamPrioritization method
+# IWMProfile3::SetStreamPrioritization
 
 
 ## -description

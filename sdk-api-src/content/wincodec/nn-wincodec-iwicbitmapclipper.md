@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: a21fb11f-8622-46d6-8612-875ac59d3fbf
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICBitmapClipper, IWICBitmapClipper interface [Windows Imaging Component], IWICBitmapClipper interface [Windows Imaging Component], described, _wic_codec_iwicbitmapclipper, wic._wic_codec_iwicbitmapclipper, wincodec/IWICBitmapClipper
+ms.keywords: IWICBitmapClipper, IWICBitmapClipper interface [Windows Imaging Component], IWICBitmapClipper interface [Windows Imaging Component],described, _wic_codec_iwicbitmapclipper, wic._wic_codec_iwicbitmapclipper, wincodec/IWICBitmapClipper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

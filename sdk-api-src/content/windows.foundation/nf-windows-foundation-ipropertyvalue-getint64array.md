@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetInt64Array
-title: IPropertyValue::GetInt64Array method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of signed 64-bit integer values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getint64array.htm
 old-project: WinRT
 ms.assetid: 8bc05817-e9d4-427a-883d-495faf5d0ab0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetInt64Array method [Windows Runtime], GetInt64Array method [Windows Runtime], IPropertyValue interface, GetInt64Array,IPropertyValue.GetInt64Array, IPropertyValue, IPropertyValue interface [Windows Runtime], GetInt64Array method, IPropertyValue::GetInt64Array, windows/IPropertyValue::GetInt64Array, winrt.ipropertyvalue_getint64array
+ms.date: 5/4/2018
+ms.keywords: GetInt64Array, GetInt64Array method [Windows Runtime], GetInt64Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInt64Array method, IPropertyValue.GetInt64Array, IPropertyValue.IPropertyValue, IPropertyValue::GetInt64Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInt64Array, winrt.ipropertyvalue_getint64array
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetInt64Array method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

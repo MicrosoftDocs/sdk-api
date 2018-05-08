@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertyStorage.ReadMultiple
-title: IPropertyStorage::ReadMultiple method
+title: IPropertyStorage::ReadMultiple
 author: windows-driver-content
 description: Reads specified properties from the current property set.
 old-location: stg\ipropertystorage_readmultiple.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: a3d708fe-53af-4f1b-94ac-edc40d59a034
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], ReadMultiple method, IPropertyStorage::ReadMultiple, ReadMultiple method [Structured Storage], ReadMultiple method [Structured Storage], IPropertyStorage interface, ReadMultiple,IPropertyStorage.ReadMultiple, _stg_ipropertystorage_readmultiple, propidl/IPropertyStorage::ReadMultiple, stg.ipropertystorage_readmultiple
+ms.keywords: IPropertyStorage interface [Structured Storage],ReadMultiple method, IPropertyStorage.ReadMultiple, IPropertyStorage::ReadMultiple, ReadMultiple, ReadMultiple method [Structured Storage], ReadMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readmultiple, propidl/IPropertyStorage::ReadMultiple, stg.ipropertystorage_readmultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyStorage::ReadMultiple method
+# IPropertyStorage::ReadMultiple
 
 
 ## -description

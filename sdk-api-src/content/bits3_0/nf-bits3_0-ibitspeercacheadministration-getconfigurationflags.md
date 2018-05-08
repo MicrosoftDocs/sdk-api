@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.GetConfigurationFlags
-title: IBitsPeerCacheAdministration::GetConfigurationFlags method
+title: IBitsPeerCacheAdministration::GetConfigurationFlags
 author: windows-driver-content
 description: Gets the configuration flags that determine if the computer serves content to peers and can download content from peers.
 old-location: bits\ibitspeercacheadministration_getconfigurationflags.htm
 old-project: Bits
 ms.assetid: caa54ee0-c771-47e7-95d1-26a812f0f95f
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: BG_ENABLE_PEERCACHING_CLIENT, BG_ENABLE_PEERCACHING_SERVER, GetConfigurationFlags method [BITS], GetConfigurationFlags method [BITS], IBitsPeerCacheAdministration interface, GetConfigurationFlags,IBitsPeerCacheAdministration.GetConfigurationFlags, IBitsPeerCacheAdministration, IBitsPeerCacheAdministration interface [BITS], GetConfigurationFlags method, IBitsPeerCacheAdministration::GetConfigurationFlags, bits.ibitspeercacheadministration_getconfigurationflags, bits3_0/IBitsPeerCacheAdministration::GetConfigurationFlags
+ms.date: 4/27/2018
+ms.keywords: BG_ENABLE_PEERCACHING_CLIENT, BG_ENABLE_PEERCACHING_SERVER, GetConfigurationFlags, GetConfigurationFlags method [BITS], GetConfigurationFlags method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetConfigurationFlags method, IBitsPeerCacheAdministration.GetConfigurationFlags, IBitsPeerCacheAdministration::GetConfigurationFlags, bits.ibitspeercacheadministration_getconfigurationflags, bits3_0/IBitsPeerCacheAdministration::GetConfigurationFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsPeerCacheAdministration::GetConfigurationFlags method
+# IBitsPeerCacheAdministration::GetConfigurationFlags
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IEnumerableView.CreateEnumIDListFromContents
-title: IEnumerableView::CreateEnumIDListFromContents method
+title: IEnumerableView::CreateEnumIDListFromContents
 author: windows-driver-content
 description: Creates an enumerator of ID lists from the contents of the view.
 old-location: shell\IEnumerableView_CreateEnumIDListFromContents.htm
 old-project: shell
 ms.assetid: 413d913d-e6f3-4e2d-bf1f-5d5ad6d4f650
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CreateEnumIDListFromContents method [Windows Shell], CreateEnumIDListFromContents method [Windows Shell], IEnumerableView interface, CreateEnumIDListFromContents,IEnumerableView.CreateEnumIDListFromContents, IEnumerableView, IEnumerableView interface [Windows Shell], CreateEnumIDListFromContents method, IEnumerableView::CreateEnumIDListFromContents, _shell_IEnumerableView_CreateEnumIDListFromContents, shell.IEnumerableView_CreateEnumIDListFromContents, shobjidl/IEnumerableView::CreateEnumIDListFromContents
+ms.date: 5/3/2018
+ms.keywords: CreateEnumIDListFromContents, CreateEnumIDListFromContents method [Windows Shell], CreateEnumIDListFromContents method [Windows Shell],IEnumerableView interface, IEnumerableView interface [Windows Shell],CreateEnumIDListFromContents method, IEnumerableView.CreateEnumIDListFromContents, IEnumerableView::CreateEnumIDListFromContents, _shell_IEnumerableView_CreateEnumIDListFromContents, shell.IEnumerableView_CreateEnumIDListFromContents, shobjidl/IEnumerableView::CreateEnumIDListFromContents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IEnumerableView::CreateEnumIDListFromContents method
+# IEnumerableView::CreateEnumIDListFromContents
 
 
 ## -description

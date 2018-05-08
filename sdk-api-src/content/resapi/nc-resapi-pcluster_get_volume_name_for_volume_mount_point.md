@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: d110e30d-046e-45f3-b326-72160a69c17d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT, PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT callback function [Failover Cluster], mscs.clustergetvolumenameforvolumemountpoint, resapi/PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT
+ms.keywords: PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT, PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT callback, PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT callback function [Failover Cluster], mscs.clustergetvolumenameforvolumemountpoint, resapi/PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT callback
+# PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT callback function
 
 
 ## -description

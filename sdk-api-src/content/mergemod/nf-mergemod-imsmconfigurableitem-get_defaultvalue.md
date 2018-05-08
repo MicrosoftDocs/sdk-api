@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_DefaultValue
-title: IMsmConfigurableItem::get_DefaultValue method
+title: IMsmConfigurableItem::get_DefaultValue
 author: windows-driver-content
 description: The get_DefaultValue method retrieves the DefaultValue property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_defaultvalue.htm
@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: b62e5a8c-4b1f-4d9e-9df6-6438e715e16a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, get_DefaultValue method, IMsmConfigurableItem::get_DefaultValue, _msi_get_defaultvalue_function, get_DefaultValue method, get_DefaultValue method, IMsmConfigurableItem interface, get_DefaultValue,IMsmConfigurableItem.get_DefaultValue, mergemod/IMsmConfigurableItem::get_DefaultValue, setup.imsmconfigurableitem_get_defaultvalue
+ms.keywords: IMsmConfigurableItem interface,get_DefaultValue method, IMsmConfigurableItem.get_DefaultValue, IMsmConfigurableItem::get_DefaultValue, _msi_get_defaultvalue_function, get_DefaultValue, get_DefaultValue method, get_DefaultValue method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_DefaultValue, setup.imsmconfigurableitem_get_defaultvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMsmConfigurableItem::get_DefaultValue method
+# IMsmConfigurableItem::get_DefaultValue
 
 
 ## -description

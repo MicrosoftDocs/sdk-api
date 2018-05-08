@@ -181,12 +181,12 @@ Qualitative service.
 Specifies overrides to service specifications, expressed in the form of an <a href="https://msdn.microsoft.com/eab6b317-9d06-45e2-bc77-0882f40e7d79">AD_GENERAL_PARAMS</a> structure.
 
 
-#### - Guaranteed
+### -field Guaranteed
 
 Specifies guaranteed service, and provides service parameters in the form of an <b>AD_GUARANTEED</b> structure.
 
 
-#### - ParamBuffer
+### -field ParamBuffer
 
 Describes the buffer used, in the form of a <a href="https://msdn.microsoft.com/b5078f3b-ab7f-4194-aed7-de5ebb4f7fb8">PARAM_BUFFER</a> structure.
 

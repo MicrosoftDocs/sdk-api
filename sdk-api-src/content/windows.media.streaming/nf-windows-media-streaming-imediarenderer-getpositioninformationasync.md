@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.GetPositionInformationAsync
-title: IMediaRenderer::GetPositionInformationAsync method
+title: IMediaRenderer::streaming
 author: windows-driver-content
 description: Queries the DMR asynchronously to retrieve position information.
 old-location: mediastreaming\imediarenderer_getpositioninformationasync.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 07011C85-34C5-430A-9551-FFC7C24CCED8
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: GetPositionInformationAsync method [Media Streaming API], GetPositionInformationAsync method [Media Streaming API], IMediaRenderer interface, GetPositionInformationAsync,IMediaRenderer.GetPositionInformationAsync, IMediaRenderer, IMediaRenderer interface [Media Streaming API], GetPositionInformationAsync method, IMediaRenderer::GetPositionInformationAsync, mediastreaming.imediarenderer_getpositioninformationasync, windows/IMediaRenderer::GetPositionInformationAsync
+ms.keywords: GetPositionInformationAsync, GetPositionInformationAsync method [Media Streaming API], GetPositionInformationAsync method [Media Streaming API],IMediaRenderer interface, IMediaRenderer interface [Media Streaming API],GetPositionInformationAsync method, IMediaRenderer.GetPositionInformationAsync, IMediaRenderer.streaming, IMediaRenderer::GetPositionInformationAsync, IMediaRenderer::streaming, mediastreaming.imediarenderer_getpositioninformationasync, windows/IMediaRenderer::GetPositionInformationAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IMediaRenderer::GetPositionInformationAsync method
+# IMediaRenderer::streaming
 
 
 ## -description

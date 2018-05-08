@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetListTab
-title: ITextPara::GetListTab method
+title: ITextPara::GetListTab
 author: windows-driver-content
 description: Retrieves the list tab setting, which is the distance between the first-line indent and the text on the first line. The numbered or bulleted text is left-justified, centered, or right-justified at the first-line indent value.
 old-location: controls\ITextPara_GetListTab.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlisttab.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetListTab method [Windows Controls], GetListTab method [Windows Controls], ITextPara interface, GetListTab,ITextPara.GetListTab, ITextPara, ITextPara interface [Windows Controls], GetListTab method, ITextPara::GetListTab, _win32_ITextPara_GetListTab, _win32_ITextPara_GetListTab_cpp, controls.ITextPara_GetListTab, controls._win32_ITextPara_GetListTab, tom/ITextPara::GetListTab
+ms.date: 4/27/2018
+ms.keywords: GetListTab, GetListTab method [Windows Controls], GetListTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListTab method, ITextPara.GetListTab, ITextPara::GetListTab, _win32_ITextPara_GetListTab, _win32_ITextPara_GetListTab_cpp, controls.ITextPara_GetListTab, controls._win32_ITextPara_GetListTab, tom/ITextPara::GetListTab
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetListTab method
+# ITextPara::GetListTab
 
 
 ## -description

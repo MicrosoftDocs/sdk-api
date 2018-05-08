@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetDescription
-title: IErrorInfo::GetDescription method
+title: IErrorInfo::GetDescription
 author: windows-driver-content
 description: Returns a textual description of the error.
 old-location: automat\ierrorinfo_getdescription.htm
 old-project: automat
 ms.assetid: 672884a8-4dfc-473c-a13d-d1723fcd01cb
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetDescription method [Automation], GetDescription method [Automation], IErrorInfo interface, GetDescription,IErrorInfo.GetDescription, IErrorInfo, IErrorInfo interface [Automation], GetDescription method, IErrorInfo::GetDescription, _oa96_IErrorInfo_GetDescription, automat.ierrorinfo_getdescription, oaidl/IErrorInfo::GetDescription
+ms.date: 5/4/2018
+ms.keywords: GetDescription, GetDescription method [Automation], GetDescription method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetDescription method, IErrorInfo.GetDescription, IErrorInfo::GetDescription, _oa96_IErrorInfo_GetDescription, automat.ierrorinfo_getdescription, oaidl/IErrorInfo::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IErrorInfo::GetDescription method
+# IErrorInfo::GetDescription
 
 
 ## -description

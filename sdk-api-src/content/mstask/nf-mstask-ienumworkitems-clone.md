@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Clone
-title: IEnumWorkItems::Clone method
+title: IEnumWorkItems::Clone
 author: windows-driver-content
 description: Creates a new enumeration object that contains the same enumeration state as the current enumeration.
 old-location: taskschd\ienumworkitems_clone.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: c42550df-33ad-49cc-ab89-5f952cce2a83
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Clone method [Task Scheduler], Clone method [Task Scheduler], IEnumWorkItems interface, Clone,IEnumWorkItems.Clone, IEnumWorkItems, IEnumWorkItems interface [Task Scheduler], Clone method, IEnumWorkItems::Clone, _msb_ienumworkitems_clone, mstask/IEnumWorkItems::Clone, taskschd.ienumworkitems_clone
+ms.keywords: Clone, Clone method [Task Scheduler], Clone method [Task Scheduler],IEnumWorkItems interface, IEnumWorkItems interface [Task Scheduler],Clone method, IEnumWorkItems.Clone, IEnumWorkItems::Clone, _msb_ienumworkitems_clone, mstask/IEnumWorkItems::Clone, taskschd.ienumworkitems_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumWorkItems::Clone method
+# IEnumWorkItems::Clone
 
 
 ## -description

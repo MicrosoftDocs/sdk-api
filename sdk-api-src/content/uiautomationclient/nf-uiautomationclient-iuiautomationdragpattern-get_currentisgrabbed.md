@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.get_CurrentIsGrabbed
-title: IUIAutomationDragPattern::get_CurrentIsGrabbed method
+title: IUIAutomationDragPattern::get_CurrentIsGrabbed
 author: windows-driver-content
 description: Indicates whether the user has grabbed this element as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_currentisgrabbed.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 4A528EA2-4E0D-458B-9EC1-ACF5964F0874
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentIsGrabbed property [Windows Accessibility], CurrentIsGrabbed property [Windows Accessibility], IUIAutomationDragPattern interface, IUIAutomationDragPattern, IUIAutomationDragPattern interface [Windows Accessibility], CurrentIsGrabbed property, IUIAutomationDragPattern.CurrentIsGrabbed, IUIAutomationDragPattern::get_CurrentIsGrabbed, get_CurrentIsGrabbed,IUIAutomationDragPattern.get_CurrentIsGrabbed, uiautomationclient/IUIAutomationDragPattern::CurrentIsGrabbed, uiautomationclient/IUIAutomationDragPattern::get_CurrentIsGrabbed, winauto.uiauto_iuiautomationdragpattern_currentisgrabbed
+ms.keywords: CurrentIsGrabbed property [Windows Accessibility], CurrentIsGrabbed property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CurrentIsGrabbed property, IUIAutomationDragPattern.CurrentIsGrabbed, IUIAutomationDragPattern.get_CurrentIsGrabbed, IUIAutomationDragPattern::CurrentIsGrabbed, IUIAutomationDragPattern::get_CurrentIsGrabbed, get_CurrentIsGrabbed, uiautomationclient/IUIAutomationDragPattern::CurrentIsGrabbed, uiautomationclient/IUIAutomationDragPattern::get_CurrentIsGrabbed, winauto.uiauto_iuiautomationdragpattern_currentisgrabbed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationDragPattern::get_CurrentIsGrabbed method
+# IUIAutomationDragPattern::get_CurrentIsGrabbed
 
 
 ## -description

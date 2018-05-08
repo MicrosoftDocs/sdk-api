@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.DrawIndexedPrimitiveUP
-title: IDirect3DDevice9::DrawIndexedPrimitiveUP method
+title: IDirect3DDevice9::DrawIndexedPrimitiveUP
 author: windows-driver-content
 description: Renders the specified geometric primitive with data specified by a user memory pointer.
 old-location: direct3d9\idirect3ddevice9__drawindexedprimitiveup.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__drawindexedprimitiveup.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: DrawIndexedPrimitiveUP method [Direct3D 9], DrawIndexedPrimitiveUP method [Direct3D 9], IDirect3DDevice9 interface, DrawIndexedPrimitiveUP,IDirect3DDevice9.DrawIndexedPrimitiveUP, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], DrawIndexedPrimitiveUP method, IDirect3DDevice9::DrawIndexedPrimitiveUP, a76e7ddd-b096-aabd-099d-4ef12355b8c1, d3d9helper/IDirect3DDevice9::DrawIndexedPrimitiveUP, direct3d9.idirect3ddevice9__drawindexedprimitiveup
+ms.keywords: DrawIndexedPrimitiveUP, DrawIndexedPrimitiveUP method [Direct3D 9], DrawIndexedPrimitiveUP method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DrawIndexedPrimitiveUP method, IDirect3DDevice9.DrawIndexedPrimitiveUP, IDirect3DDevice9::DrawIndexedPrimitiveUP, a76e7ddd-b096-aabd-099d-4ef12355b8c1, d3d9helper/IDirect3DDevice9::DrawIndexedPrimitiveUP, direct3d9.idirect3ddevice9__drawindexedprimitiveup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::DrawIndexedPrimitiveUP method
+# IDirect3DDevice9::DrawIndexedPrimitiveUP
 
 
 ## -description

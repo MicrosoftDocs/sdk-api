@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 0136CF16-7814-4EC7-9117-D3C0CF3A8216
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ClusRefObject, ClusRefObject object [Failover Cluster], ClusRefObject object [Failover Cluster], described, ISClusRefObject, msclus/ClusRefObject, mscs.clusrefobject
+ms.keywords: ClusRefObject, ClusRefObject object [Failover Cluster], ClusRefObject object [Failover Cluster],described, ISClusRefObject, msclus/ClusRefObject, mscs.clusrefobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

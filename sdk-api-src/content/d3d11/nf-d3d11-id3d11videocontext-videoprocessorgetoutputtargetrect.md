@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputTargetRect
-title: ID3D11VideoContext::VideoProcessorGetOutputTargetRect method
+title: ID3D11VideoContext::VideoProcessorGetOutputTargetRect
 author: windows-driver-content
 description: Gets the current target rectangle for the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetoutputtargetrect.htm
 old-project: medfound
 ms.assetid: 5D59822A-B322-4E79-A543-A89C2232C62F
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorGetOutputTargetRect method, ID3D11VideoContext::VideoProcessorGetOutputTargetRect, VideoProcessorGetOutputTargetRect method [Media Foundation], VideoProcessorGetOutputTargetRect method [Media Foundation], ID3D11VideoContext interface, VideoProcessorGetOutputTargetRect,ID3D11VideoContext.VideoProcessorGetOutputTargetRect, d3d11/ID3D11VideoContext::VideoProcessorGetOutputTargetRect, mf.id3d11videocontext_videoprocessorgetoutputtargetrect
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputTargetRect method, ID3D11VideoContext.VideoProcessorGetOutputTargetRect, ID3D11VideoContext::VideoProcessorGetOutputTargetRect, VideoProcessorGetOutputTargetRect, VideoProcessorGetOutputTargetRect method [Media Foundation], VideoProcessorGetOutputTargetRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputTargetRect, mf.id3d11videocontext_videoprocessorgetoutputtargetrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::VideoProcessorGetOutputTargetRect method
+# ID3D11VideoContext::VideoProcessorGetOutputTargetRect
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.AddRange
-title: IFolderActionCollection::AddRange method
+title: IFolderActionCollection::AddRange
 author: windows-driver-content
 description: Adds one or more folder actions to the collection.
 old-location: pla\ifolderactioncollection_addrange.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: f3ecc5e6-a6d7-4c68-b8c2-8ff94c810545
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddRange method [PLA], AddRange method [PLA], IFolderActionCollection interface, AddRange,IFolderActionCollection.AddRange, IFolderActionCollection, IFolderActionCollection interface [PLA], AddRange method, IFolderActionCollection::AddRange, base.ifolderactioncollection_addrange, pla.ifolderactioncollection_addrange, pla/IFolderActionCollection::AddRange
+ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],AddRange method, IFolderActionCollection.AddRange, IFolderActionCollection::AddRange, base.ifolderactioncollection_addrange, pla.ifolderactioncollection_addrange, pla/IFolderActionCollection::AddRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFolderActionCollection::AddRange method
+# IFolderActionCollection::AddRange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.FrameworkLoginDLL
-title: CWbemProviderGlue::FrameworkLoginDLL method
+title: CWbemProviderGlue::FrameworkLoginDLL
 author: windows-driver-content
 description: The FrameworkLoginDLL method is called when the DLL_PROCESS_ATTACH value is sent to DllMain to determine whether the provider server can be loaded.
 old-location: wmi\cwbemproviderglue_frameworklogindll.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: b701c70a-73f6-48b7-ab90-bbde1d29c9a2
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], FrameworkLoginDLL method, CWbemProviderGlue::FrameworkLoginDLL, FrameworkLoginDLL method [Windows Management Instrumentation], FrameworkLoginDLL method [Windows Management Instrumentation], CWbemProviderGlue interface, FrameworkLoginDLL,CWbemProviderGlue.FrameworkLoginDLL, _hmm_cwbemproviderglue_frameworklogindll, wbemglue/CWbemProviderGlue::FrameworkLoginDLL, wmi.cwbemproviderglue_frameworklogindll"
+ms.keywords: "?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],FrameworkLoginDLL method, CWbemProviderGlue.FrameworkLoginDLL, CWbemProviderGlue::FrameworkLoginDLL, FrameworkLoginDLL, FrameworkLoginDLL method [Windows Management Instrumentation], FrameworkLoginDLL method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_frameworklogindll, wbemglue/CWbemProviderGlue::FrameworkLoginDLL, wmi.cwbemproviderglue_frameworklogindll"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# CWbemProviderGlue::FrameworkLoginDLL method
+# CWbemProviderGlue::FrameworkLoginDLL
 
 
 ## -description

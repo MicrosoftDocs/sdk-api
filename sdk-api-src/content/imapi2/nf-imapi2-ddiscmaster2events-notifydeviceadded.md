@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.DDiscMaster2Events.NotifyDeviceAdded
-title: DDiscMaster2Events::NotifyDeviceAdded method
+title: DDiscMaster2Events::NotifyDeviceAdded
 author: windows-driver-content
 description: Receives notification when an optical media device is added to the computer.
 old-location: imapi\ddiscmaster2events_notifydeviceadded.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 1f728b33-3788-4fc4-b261-da243b4ff46e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: DDiscMaster2Events, DDiscMaster2Events interface [IMAPI], NotifyDeviceAdded method, DDiscMaster2Events::NotifyDeviceAdded, NotifyDeviceAdded method [IMAPI], NotifyDeviceAdded method [IMAPI], DDiscMaster2Events interface, NotifyDeviceAdded,DDiscMaster2Events.NotifyDeviceAdded, imapi.ddiscmaster2events_notifydeviceadded, imapi2/DDiscMaster2Events::NotifyDeviceAdded
+ms.keywords: DDiscMaster2Events interface [IMAPI],NotifyDeviceAdded method, DDiscMaster2Events.NotifyDeviceAdded, DDiscMaster2Events::NotifyDeviceAdded, NotifyDeviceAdded, NotifyDeviceAdded method [IMAPI], NotifyDeviceAdded method [IMAPI],DDiscMaster2Events interface, imapi.ddiscmaster2events_notifydeviceadded, imapi2/DDiscMaster2Events::NotifyDeviceAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# DDiscMaster2Events::NotifyDeviceAdded method
+# DDiscMaster2Events::NotifyDeviceAdded
 
 
 ## -description

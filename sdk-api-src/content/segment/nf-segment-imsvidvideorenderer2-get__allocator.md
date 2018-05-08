@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.get__Allocator
-title: IMSVidVideoRenderer2::get__Allocator method
+title: IMSVidVideoRenderer2::get__Allocator
 author: windows-driver-content
 description: The get__Allocator method retrieves the allocator-presenter from the VMR.
 old-location: mstv\imsvidvideorenderer2_get__allocator.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b22d643e-f458-4293-9f2b-e8bfe1499905
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer2, IMSVidVideoRenderer2 interface [Microsoft TV Technologies], get__Allocator method, IMSVidVideoRenderer2::get__Allocator, IMSVidVideoRenderer2get__Allocator, get__Allocator method [Microsoft TV Technologies], get__Allocator method [Microsoft TV Technologies], IMSVidVideoRenderer2 interface, get__Allocator,IMSVidVideoRenderer2.get__Allocator, mstv.imsvidvideorenderer2_get__allocator, segment/IMSVidVideoRenderer2::get__Allocator
+ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get__Allocator method, IMSVidVideoRenderer2.get__Allocator, IMSVidVideoRenderer2::get__Allocator, IMSVidVideoRenderer2get__Allocator, get__Allocator, get__Allocator method [Microsoft TV Technologies], get__Allocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get__allocator, segment/IMSVidVideoRenderer2::get__Allocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer2::get__Allocator method
+# IMSVidVideoRenderer2::get__Allocator
 
 
 ## -description

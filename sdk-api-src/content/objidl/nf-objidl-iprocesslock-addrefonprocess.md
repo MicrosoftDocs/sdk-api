@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IProcessLock.AddRefOnProcess
-title: IProcessLock::AddRefOnProcess method
+title: IProcessLock::AddRefOnProcess
 author: windows-driver-content
 description: Increments the reference count of the process.
 old-location: com\iprocesslock_addrefonprocess.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 7c82273f-7303-45c2-92e2-48ffab094756
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: AddRefOnProcess method [COM], AddRefOnProcess method [COM], IProcessLock interface, AddRefOnProcess,IProcessLock.AddRefOnProcess, IProcessLock, IProcessLock interface [COM], AddRefOnProcess method, IProcessLock::AddRefOnProcess, _com_iprocesslock_addrefonprocess, com.iprocesslock_addrefonprocess, objidl/IProcessLock::AddRefOnProcess
+ms.keywords: AddRefOnProcess, AddRefOnProcess method [COM], AddRefOnProcess method [COM],IProcessLock interface, IProcessLock interface [COM],AddRefOnProcess method, IProcessLock.AddRefOnProcess, IProcessLock::AddRefOnProcess, _com_iprocesslock_addrefonprocess, com.iprocesslock_addrefonprocess, objidl/IProcessLock::AddRefOnProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IProcessLock::AddRefOnProcess method
+# IProcessLock::AddRefOnProcess
 
 
 ## -description

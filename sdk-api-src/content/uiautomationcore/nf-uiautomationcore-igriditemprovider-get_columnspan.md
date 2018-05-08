@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IGridItemProvider.get_ColumnSpan
-title: IGridItemProvider::get_ColumnSpan method
+title: IGridItemProvider::get_ColumnSpan
 author: windows-driver-content
 description: Specifies the number of columns spanned by this cell or item.
 old-location: winauto\uiauto_IGridItemProvider_ColumnSpan.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9964f585-0487-45e4-a201-8b584ab73299
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ColumnSpan property [Windows Accessibility], ColumnSpan property [Windows Accessibility], IGridItemProvider interface, IGridItemProvider, IGridItemProvider interface [Windows Accessibility], ColumnSpan property, IGridItemProvider.ColumnSpan, IGridItemProvider::get_ColumnSpan, get_ColumnSpan,IGridItemProvider.get_ColumnSpan, uiauto.uiauto_IGridItemProvider_ColumnSpan, uiauto_IGridItemProvider_ColumnSpan, uiautomationcore/IGridItemProvider::ColumnSpan, uiautomationcore/IGridItemProvider::get_ColumnSpan, winauto.uiauto_IGridItemProvider_ColumnSpan
+ms.keywords: ColumnSpan property [Windows Accessibility], ColumnSpan property [Windows Accessibility],IGridItemProvider interface, IGridItemProvider interface [Windows Accessibility],ColumnSpan property, IGridItemProvider.ColumnSpan, IGridItemProvider.get_ColumnSpan, IGridItemProvider::ColumnSpan, IGridItemProvider::get_ColumnSpan, get_ColumnSpan, uiauto.uiauto_IGridItemProvider_ColumnSpan, uiauto_IGridItemProvider_ColumnSpan, uiautomationcore/IGridItemProvider::ColumnSpan, uiautomationcore/IGridItemProvider::get_ColumnSpan, winauto.uiauto_IGridItemProvider_ColumnSpan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IGridItemProvider::get_ColumnSpan method
+# IGridItemProvider::get_ColumnSpan
 
 
 ## -description

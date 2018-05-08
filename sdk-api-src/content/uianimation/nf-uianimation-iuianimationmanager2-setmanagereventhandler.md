@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.SetManagerEventHandler
-title: IUIAnimationManager2::SetManagerEventHandler method
+title: IUIAnimationManager2::SetManagerEventHandler
 author: windows-driver-content
 description: Specifies a handler for animation manager status updates.
 old-location: uianimation\iuianimationmanager2_setmanagereventhandler.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 057CF933-4C6B-4875-82CD-27BB69ED8E4D
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationManager2, IUIAnimationManager2 interface [Windows Animation], SetManagerEventHandler method, IUIAnimationManager2::SetManagerEventHandler, SetManagerEventHandler method [Windows Animation], SetManagerEventHandler method [Windows Animation], IUIAnimationManager2 interface, SetManagerEventHandler,IUIAnimationManager2.SetManagerEventHandler, uianimation.iuianimationmanager2_setmanagereventhandler, uianimation/IUIAnimationManager2::SetManagerEventHandler
+ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetManagerEventHandler method, IUIAnimationManager2.SetManagerEventHandler, IUIAnimationManager2::SetManagerEventHandler, SetManagerEventHandler, SetManagerEventHandler method [Windows Animation], SetManagerEventHandler method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setmanagereventhandler, uianimation/IUIAnimationManager2::SetManagerEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager2::SetManagerEventHandler method
+# IUIAnimationManager2::SetManagerEventHandler
 
 
 ## -description

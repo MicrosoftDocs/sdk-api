@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSettings2.requestMediaAccessRights
-title: IWMPSettings2::requestMediaAccessRights method
+title: IWMPSettings2::requestMediaAccessRights
 author: windows-driver-content
 description: The requestMediaAccessRights method requests a specified level of access to the library.
 old-location: wmp\iwmpsettings2_requestmediaaccessrights.htm
 old-project: WMP
 ms.assetid: 925a4c0b-d613-4248-a341-bfc51d02cb85
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSettings2, IWMPSettings2 interface [Windows Media Player], requestMediaAccessRights method, IWMPSettings2::requestMediaAccessRights, IWMPSettings2requestMediaAccessRights, requestMediaAccessRights method [Windows Media Player], requestMediaAccessRights method [Windows Media Player], IWMPSettings2 interface, requestMediaAccessRights,IWMPSettings2.requestMediaAccessRights, wmp.iwmpsettings2_requestmediaaccessrights, wmp/IWMPSettings2::requestMediaAccessRights
+ms.date: 5/4/2018
+ms.keywords: IWMPSettings2 interface [Windows Media Player],requestMediaAccessRights method, IWMPSettings2.requestMediaAccessRights, IWMPSettings2::requestMediaAccessRights, IWMPSettings2requestMediaAccessRights, requestMediaAccessRights, requestMediaAccessRights method [Windows Media Player], requestMediaAccessRights method [Windows Media Player],IWMPSettings2 interface, wmp.iwmpsettings2_requestmediaaccessrights, wmp/IWMPSettings2::requestMediaAccessRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSettings2::requestMediaAccessRights method
+# IWMPSettings2::requestMediaAccessRights
 
 
 ## -description

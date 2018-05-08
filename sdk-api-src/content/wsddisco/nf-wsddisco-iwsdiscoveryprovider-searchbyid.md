@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.SearchById
-title: IWSDiscoveryProvider::SearchById method
+title: IWSDiscoveryProvider::SearchById
 author: windows-driver-content
 description: Initializes a search for WS-Discovery hosts by device identifier.
 old-location: ncd\iwsdiscoveryprovider_searchbyid.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 78ae714a-1ee3-46eb-b3d6-ff46bf8974ab
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryProvider, IWSDiscoveryProvider interface, SearchById method, IWSDiscoveryProvider::SearchById, SearchById method, SearchById method, IWSDiscoveryProvider interface, SearchById,IWSDiscoveryProvider.SearchById, ncd.iwsdiscoveryprovider_searchbyid, wsddisco/IWSDiscoveryProvider::SearchById
+ms.keywords: IWSDiscoveryProvider interface,SearchById method, IWSDiscoveryProvider.SearchById, IWSDiscoveryProvider::SearchById, SearchById, SearchById method, SearchById method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbyid, wsddisco/IWSDiscoveryProvider::SearchById
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryProvider::SearchById method
+# IWSDiscoveryProvider::SearchById
 
 
 ## -description

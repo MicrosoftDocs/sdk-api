@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_GetValidCertificate
-title: IWMSecureChannel::WMSC_GetValidCertificate method
+title: IWMSecureChannel::WMSC_GetValidCertificate
 author: windows-driver-content
 description: The WMSC_GetValidCertificate method returns a copy of the certificate that was used provided by the other side of the connection. Also returns the index of the signature that validated that certificate.
 old-location: wmformat\iwmsecurechannel_wmsc_getvalidcertificate.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 0ecc25c5-238e-4415-952e-7d830ba1c317
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSecureChannel, IWMSecureChannel interface [windows Media Format], WMSC_GetValidCertificate method, IWMSecureChannel::WMSC_GetValidCertificate, WMSC_GetValidCertificate method [windows Media Format], WMSC_GetValidCertificate method [windows Media Format], IWMSecureChannel interface, WMSC_GetValidCertificate,IWMSecureChannel.WMSC_GetValidCertificate, wmformat.iwmsecurechannel_wmsc_getvalidcertificate, wmsecure/IWMSecureChannel::WMSC_GetValidCertificate
+ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_GetValidCertificate method, IWMSecureChannel.WMSC_GetValidCertificate, IWMSecureChannel::WMSC_GetValidCertificate, WMSC_GetValidCertificate, WMSC_GetValidCertificate method [windows Media Format], WMSC_GetValidCertificate method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_getvalidcertificate, wmsecure/IWMSecureChannel::WMSC_GetValidCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSecureChannel::WMSC_GetValidCertificate method
+# IWMSecureChannel::WMSC_GetValidCertificate
 
 
 ## -description

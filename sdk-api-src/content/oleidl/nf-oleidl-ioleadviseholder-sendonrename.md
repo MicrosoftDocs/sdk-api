@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.SendOnRename
-title: IOleAdviseHolder::SendOnRename method
+title: IOleAdviseHolder::SendOnRename
 author: windows-driver-content
 description: Sends notification to all advisory sinks currently registered with the advise holder that the name of object has changed.
 old-location: com\ioleadviseholder_sendonrename.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 64e44cab-b618-49af-bf0e-966b9eaa198a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], SendOnRename method, IOleAdviseHolder::SendOnRename, SendOnRename method [COM], SendOnRename method [COM], IOleAdviseHolder interface, SendOnRename,IOleAdviseHolder.SendOnRename, _ole_ioleadviseholder_sendonrename, com.ioleadviseholder_sendonrename, oleidl/IOleAdviseHolder::SendOnRename
+ms.keywords: IOleAdviseHolder interface [COM],SendOnRename method, IOleAdviseHolder.SendOnRename, IOleAdviseHolder::SendOnRename, SendOnRename, SendOnRename method [COM], SendOnRename method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonrename, com.ioleadviseholder_sendonrename, oleidl/IOleAdviseHolder::SendOnRename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleAdviseHolder::SendOnRename method
+# IOleAdviseHolder::SendOnRename
 
 
 ## -description

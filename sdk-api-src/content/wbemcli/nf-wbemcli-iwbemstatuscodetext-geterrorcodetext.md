@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemStatusCodeText.GetErrorCodeText
-title: IWbemStatusCodeText::GetErrorCodeText method
+title: IWbemStatusCodeText::GetErrorCodeText
 author: windows-driver-content
 description: Returns the text string description associated with the error code.
 old-location: wmi\iwbemstatuscodetext_geterrorcodetext.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: f2adc740-f1d9-434e-a7ac-b4830350e862
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetErrorCodeText method [Windows Management Instrumentation], GetErrorCodeText method [Windows Management Instrumentation], IWbemStatusCodeText interface, GetErrorCodeText,IWbemStatusCodeText.GetErrorCodeText, IWbemStatusCodeText, IWbemStatusCodeText interface [Windows Management Instrumentation], GetErrorCodeText method, IWbemStatusCodeText::GetErrorCodeText, _hmm_iwbemstatuscodetext_geterrorcodetext, wbemcli/IWbemStatusCodeText::GetErrorCodeText, wmi.iwbemstatuscodetext_geterrorcodetext
+ms.keywords: GetErrorCodeText, GetErrorCodeText method [Windows Management Instrumentation], GetErrorCodeText method [Windows Management Instrumentation],IWbemStatusCodeText interface, IWbemStatusCodeText interface [Windows Management Instrumentation],GetErrorCodeText method, IWbemStatusCodeText.GetErrorCodeText, IWbemStatusCodeText::GetErrorCodeText, _hmm_iwbemstatuscodetext_geterrorcodetext, wbemcli/IWbemStatusCodeText::GetErrorCodeText, wmi.iwbemstatuscodetext_geterrorcodetext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemStatusCodeText::GetErrorCodeText method
+# IWbemStatusCodeText::GetErrorCodeText
 
 
 ## -description

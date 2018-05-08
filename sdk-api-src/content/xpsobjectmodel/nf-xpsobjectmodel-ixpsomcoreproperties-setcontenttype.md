@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetContentType
-title: IXpsOMCoreProperties::SetContentType method
+title: IXpsOMCoreProperties::SetContentType
 author: windows-driver-content
 description: Sets the contentType property.
 old-location: xps\ixpsomcoreproperties_setcontenttype.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 97ddb1a2-67b2-4891-86b6-bdd38e609229
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], SetContentType method, IXpsOMCoreProperties::SetContentType, SetContentType method [XPS Documents and Packaging], SetContentType method [XPS Documents and Packaging], IXpsOMCoreProperties interface, SetContentType,IXpsOMCoreProperties.SetContentType, xps.ixpsomcoreproperties_setcontenttype, xpsobjectmodel/IXpsOMCoreProperties::SetContentType
+ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetContentType method, IXpsOMCoreProperties.SetContentType, IXpsOMCoreProperties::SetContentType, SetContentType, SetContentType method [XPS Documents and Packaging], SetContentType method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcontenttype, xpsobjectmodel/IXpsOMCoreProperties::SetContentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::SetContentType method
+# IXpsOMCoreProperties::SetContentType
 
 
 ## -description

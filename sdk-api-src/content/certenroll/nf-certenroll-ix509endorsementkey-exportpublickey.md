@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.ExportPublicKey
-title: IX509EndorsementKey::ExportPublicKey method
+title: IX509EndorsementKey::ExportPublicKey
 author: windows-driver-content
 description: Exports the endorsement public key.
 old-location: security\ix509endorsementkey_exportpublickey.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b38c6421-2918-4d0e-81ed-d9d575817efa
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ExportPublicKey method [Security], ExportPublicKey method [Security], IX509EndorsementKey interface, ExportPublicKey,IX509EndorsementKey.ExportPublicKey, IX509EndorsementKey, IX509EndorsementKey interface [Security], ExportPublicKey method, IX509EndorsementKey::ExportPublicKey, certenroll/IX509EndorsementKey::ExportPublicKey, security.ix509endorsementkey_exportpublickey
+ms.keywords: ExportPublicKey, ExportPublicKey method [Security], ExportPublicKey method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],ExportPublicKey method, IX509EndorsementKey.ExportPublicKey, IX509EndorsementKey::ExportPublicKey, certenroll/IX509EndorsementKey::ExportPublicKey, security.ix509endorsementkey_exportpublickey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certenroll.dll
 req.irql: 
 ---
 
-# IX509EndorsementKey::ExportPublicKey method
+# IX509EndorsementKey::ExportPublicKey
 
 
 ## -description

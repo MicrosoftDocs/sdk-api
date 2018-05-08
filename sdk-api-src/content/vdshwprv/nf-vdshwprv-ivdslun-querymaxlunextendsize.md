@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.QueryMaxLunExtendSize
-title: IVdsLun::QueryMaxLunExtendSize method
+title: IVdsLun::QueryMaxLunExtendSize
 author: windows-driver-content
 description: Returns the maximum size by which a LUN can be extended.
 old-location: base\ivdslun_querymaxlunextendsize.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: ac30de71-7a2e-4a65-a37b-34a0d01ca645
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsLun, IVdsLun interface, QueryMaxLunExtendSize method, IVdsLun::QueryMaxLunExtendSize, QueryMaxLunExtendSize method, QueryMaxLunExtendSize method, IVdsLun interface, QueryMaxLunExtendSize,IVdsLun.QueryMaxLunExtendSize, base.ivdslun_querymaxlunextendsize, vds/IVdsLun::QueryMaxLunExtendSize, vdshwprv/IVdsLun::QueryMaxLunExtendSize
+ms.keywords: IVdsLun interface,QueryMaxLunExtendSize method, IVdsLun.QueryMaxLunExtendSize, IVdsLun::QueryMaxLunExtendSize, QueryMaxLunExtendSize, QueryMaxLunExtendSize method, QueryMaxLunExtendSize method,IVdsLun interface, base.ivdslun_querymaxlunextendsize, vds/IVdsLun::QueryMaxLunExtendSize, vdshwprv/IVdsLun::QueryMaxLunExtendSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLun::QueryMaxLunExtendSize method
+# IVdsLun::QueryMaxLunExtendSize
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: Monitor
 ms.assetid: 199e34dc-0309-4d9b-a05a-90a8bf5ab4cb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: MC_HORIZONTAL_POSITION, MC_POSITION_TYPE, MC_POSITION_TYPE enumeration [Monitor Configuration], MC_VERTICAL_POSITION, _MC_POSITION_TYPE, highlevelmonitorconfigurationapi/MC_HORIZONTAL_POSITION, highlevelmonitorconfigurationapi/MC_POSITION_TYPE, highlevelmonitorconfigurationapi/MC_VERTICAL_POSITION, monitor.mc_position_type
+ms.keywords: MC_HORIZONTAL_POSITION, MC_POSITION_TYPE, MC_POSITION_TYPE , MC_POSITION_TYPE enumeration [Monitor Configuration], MC_VERTICAL_POSITION, _MC_POSITION_TYPE, highlevelmonitorconfigurationapi/MC_HORIZONTAL_POSITION, highlevelmonitorconfigurationapi/MC_POSITION_TYPE, highlevelmonitorconfigurationapi/MC_VERTICAL_POSITION, monitor.mc_position_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -1,14 +1,14 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.GetFileCount
-title: IBackgroundCopyJob1::GetFileCount method
+title: IBackgroundCopyJob1::GetFileCount
 author: windows-driver-content
 description: Use the GetFileCount method to retrieve the number of files in the job.
 old-location: bits\ibackgroundcopyjob1_getfilecount.htm
 old-project: Bits
 ms.assetid: 6aec5e9c-2950-4039-99a4-b1884a9a4673
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetFileCount method [BITS], GetFileCount method [BITS], IBackgroundCopyJob1 interface, GetFileCount,IBackgroundCopyJob1.GetFileCount, IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], GetFileCount method, IBackgroundCopyJob1::GetFileCount, bits.ibackgroundcopyjob1_getfilecount, qmgr/IBackgroundCopyJob1::GetFileCount
+ms.date: 4/27/2018
+ms.keywords: GetFileCount, GetFileCount method [BITS], GetFileCount method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetFileCount method, IBackgroundCopyJob1.GetFileCount, IBackgroundCopyJob1::GetFileCount, bits.ibackgroundcopyjob1_getfilecount, qmgr/IBackgroundCopyJob1::GetFileCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBackgroundCopyJob1::GetFileCount method
+# IBackgroundCopyJob1::GetFileCount
 
 
 ## -description

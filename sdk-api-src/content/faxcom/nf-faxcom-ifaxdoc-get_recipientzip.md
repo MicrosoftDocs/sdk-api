@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientZip
-title: IFaxDoc::get_RecipientZip method
+title: IFaxDoc::get_RecipientZip
 author: windows-driver-content
 description: Sets or retrieves the RecipientZip property of a FaxDoc object. The RecipientZip property is a null-terminated string that contains the ZIP code of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientzip_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2pww.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], RecipientZip property, IFaxDoc, IFaxDoc::get_RecipientZip, RecipientZip property [Fax Service], RecipientZip property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientzip, fax._mfax_ifaxdoc_get_recipientzip, fax._mfax_ifaxdoc_get_recipientzip_vb, get_RecipientZip,IFaxDoc.get_RecipientZip
+ms.keywords: FaxDoc object [Fax Service],RecipientZip property, FaxDoc.RecipientZip, IFaxDoc.get_RecipientZip, IFaxDoc::get_RecipientZip, RecipientZip property [Fax Service], RecipientZip property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientzip, fax._mfax_ifaxdoc_get_recipientzip, fax._mfax_ifaxdoc_get_recipientzip_vb, get_RecipientZip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::get_RecipientZip method
+# IFaxDoc::get_RecipientZip
 
 
 ## -description

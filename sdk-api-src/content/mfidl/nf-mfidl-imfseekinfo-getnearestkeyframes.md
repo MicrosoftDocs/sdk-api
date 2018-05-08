@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSeekInfo.GetNearestKeyFrames
-title: IMFSeekInfo::GetNearestKeyFrames method
+title: IMFSeekInfo::GetNearestKeyFrames
 author: windows-driver-content
 description: For a particular seek position, gets the two nearest key frames.
 old-location: mf\imfseekinfo_getnearestkeyframes.htm
 old-project: medfound
 ms.assetid: 72A7161A-09CA-4582-B240-1442D70936D7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetNearestKeyFrames method [Media Foundation], GetNearestKeyFrames method [Media Foundation], IMFSeekInfo interface, GetNearestKeyFrames,IMFSeekInfo.GetNearestKeyFrames, IMFSeekInfo, IMFSeekInfo interface [Media Foundation], GetNearestKeyFrames method, IMFSeekInfo::GetNearestKeyFrames, mf.imfseekinfo_getnearestkeyframes, mfidl/IMFSeekInfo::GetNearestKeyFrames
+ms.date: 5/3/2018
+ms.keywords: GetNearestKeyFrames, GetNearestKeyFrames method [Media Foundation], GetNearestKeyFrames method [Media Foundation],IMFSeekInfo interface, IMFSeekInfo interface [Media Foundation],GetNearestKeyFrames method, IMFSeekInfo.GetNearestKeyFrames, IMFSeekInfo::GetNearestKeyFrames, mf.imfseekinfo_getnearestkeyframes, mfidl/IMFSeekInfo::GetNearestKeyFrames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSeekInfo::GetNearestKeyFrames method
+# IMFSeekInfo::GetNearestKeyFrames
 
 
 ## -description

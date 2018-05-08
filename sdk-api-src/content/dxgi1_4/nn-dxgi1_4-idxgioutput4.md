@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 6B9B4242-7B10-4022-9105-6903FEAE1161
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIOutput4, IDXGIOutput4 interface [DXGI], IDXGIOutput4 interface [DXGI], described, direct3ddxgi.idxgioutput4, dxgi1_4/IDXGIOutput4
+ms.keywords: IDXGIOutput4, IDXGIOutput4 interface [DXGI], IDXGIOutput4 interface [DXGI],described, direct3ddxgi.idxgioutput4, dxgi1_4/IDXGIOutput4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

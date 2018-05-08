@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPointerInactive.OnInactiveMouseMove
-title: IPointerInactive::OnInactiveMouseMove method
+title: IPointerInactive::OnInactiveMouseMove
 author: windows-driver-content
 description: Notifies the object that the mouse pointer has moved over it so the object can fire mouse events. This method is called by the container on receipt of a WM_MOUSEMOVE method when an inactive object is under the mouse pointer.
 old-location: com\ipointerinactive_oninactivemousemove.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d026c570-b51b-456f-b121-eb2be08e2cac
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPointerInactive, IPointerInactive interface [COM], OnInactiveMouseMove method, IPointerInactive::OnInactiveMouseMove, OnInactiveMouseMove method [COM], OnInactiveMouseMove method [COM], IPointerInactive interface, OnInactiveMouseMove,IPointerInactive.OnInactiveMouseMove, _ctrl_ipointerinactive_oninactivemousemove, com.ipointerinactive_oninactivemousemove, ocidl/IPointerInactive::OnInactiveMouseMove
+ms.keywords: IPointerInactive interface [COM],OnInactiveMouseMove method, IPointerInactive.OnInactiveMouseMove, IPointerInactive::OnInactiveMouseMove, OnInactiveMouseMove, OnInactiveMouseMove method [COM], OnInactiveMouseMove method [COM],IPointerInactive interface, _ctrl_ipointerinactive_oninactivemousemove, com.ipointerinactive_oninactivemousemove, ocidl/IPointerInactive::OnInactiveMouseMove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPointerInactive::OnInactiveMouseMove method
+# IPointerInactive::OnInactiveMouseMove
 
 
 ## -description

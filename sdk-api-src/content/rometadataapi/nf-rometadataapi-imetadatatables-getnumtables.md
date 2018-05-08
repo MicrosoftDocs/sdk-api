@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNumTables
-title: IMetaDataTables::GetNumTables method
+title: IMetaDataTables::GetNumTables
 author: windows-driver-content
 description: Gets the number of tables in the scope of the current IMetaDataTables instance.
 old-location: winrt\imetadatatables_getnumtables.htm
 old-project: WinRT
 ms.assetid: b5748a90-1ee1-4f76-93c0-2da2fd5d55c1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetNumTables method [Windows Runtime], GetNumTables method [Windows Runtime], IMetaDataTables interface, GetNumTables,IMetaDataTables.GetNumTables, IMetaDataTables, IMetaDataTables interface [Windows Runtime], GetNumTables method, IMetaDataTables::GetNumTables, rometadataapi/IMetaDataTables::GetNumTables, winrt.imetadatatables_getnumtables
+ms.date: 5/4/2018
+ms.keywords: GetNumTables, GetNumTables method [Windows Runtime], GetNumTables method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNumTables method, IMetaDataTables.GetNumTables, IMetaDataTables::GetNumTables, rometadataapi/IMetaDataTables::GetNumTables, winrt.imetadatatables_getnumtables
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataTables::GetNumTables method
+# IMetaDataTables::GetNumTables
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara2.SetDuplicate2
-title: ITextPara2::SetDuplicate2 method
+title: ITextPara2::SetDuplicate2
 author: windows-driver-content
 description: Sets the properties of this object by copying the properties of another text paragraph object.
 old-location: controls\itextpara2_setduplicate2.htm
 old-project: Controls
 ms.assetid: 403fd23b-5d66-4e30-b1aa-eec9e4676318
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], SetDuplicate2 method, ITextPara2::SetDuplicate2, SetDuplicate2 method [Windows Controls], SetDuplicate2 method [Windows Controls], ITextPara2 interface, SetDuplicate2,ITextPara2.SetDuplicate2, controls.itextpara2_setduplicate2, tom/ITextPara2::SetDuplicate2
+ms.date: 4/27/2018
+ms.keywords: ITextPara2 interface [Windows Controls],SetDuplicate2 method, ITextPara2.SetDuplicate2, ITextPara2::SetDuplicate2, SetDuplicate2, SetDuplicate2 method [Windows Controls], SetDuplicate2 method [Windows Controls],ITextPara2 interface, controls.itextpara2_setduplicate2, tom/ITextPara2::SetDuplicate2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara2::SetDuplicate2 method
+# ITextPara2::SetDuplicate2
 
 
 ## -description

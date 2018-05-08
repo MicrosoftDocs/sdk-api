@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRecordRatingDimension
-title: IAtscContentAdvisoryDescriptor::GetRecordRatingDimension method
+title: IAtscContentAdvisoryDescriptor::GetRecordRatingDimension
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsccontentadvisorydescriptor_getrecordratingdimension.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 583c9d8b-6b4b-4aa0-995d-26295b430f76
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordRatingDimension method [Microsoft TV Technologies], GetRecordRatingDimension method [Microsoft TV Technologies], IAtscContentAdvisoryDescriptor interface, GetRecordRatingDimension,IAtscContentAdvisoryDescriptor.GetRecordRatingDimension, IAtscContentAdvisoryDescriptor, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies], GetRecordRatingDimension method, IAtscContentAdvisoryDescriptor::GetRecordRatingDimension, IAtscContentAdvisoryDescriptorGetRecordRatingDimension, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingDimension, mstv.iatsccontentadvisorydescriptor_getrecordratingdimension
+ms.keywords: GetRecordRatingDimension, GetRecordRatingDimension method [Microsoft TV Technologies], GetRecordRatingDimension method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatingDimension method, IAtscContentAdvisoryDescriptor.GetRecordRatingDimension, IAtscContentAdvisoryDescriptor::GetRecordRatingDimension, IAtscContentAdvisoryDescriptorGetRecordRatingDimension, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingDimension, mstv.iatsccontentadvisorydescriptor_getrecordratingdimension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAtscContentAdvisoryDescriptor::GetRecordRatingDimension method
+# IAtscContentAdvisoryDescriptor::GetRecordRatingDimension
 
 
 ## -description

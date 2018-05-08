@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetPrivateData
-title: IDirectDrawSurface7::SetPrivateData method
+title: IDirectDrawSurface7::SetPrivateData
 author: windows-driver-content
 description: Associates data with the surface that is intended for use by the application, not by DirectDraw. Data is passed by value, and multiple sets of data can be associated with a single surface.
 old-location: directdraw\idirectdrawsurface7_setprivatedata.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 822e4533-9073-4590-844e-8830110e4e33
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: "(none), DDSPD_IUNKNOWNPOINTER, DDSPD_VOLATILE, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], SetPrivateData method, IDirectDrawSurface7::SetPrivateData, SetPrivateData method [DirectDraw], SetPrivateData method [DirectDraw], IDirectDrawSurface7 interface, SetPrivateData,IDirectDrawSurface7.SetPrivateData, ddraw/IDirectDrawSurface7::SetPrivateData, directdraw.idirectdrawsurface7_setprivatedata"
+ms.keywords: "(none), DDSPD_IUNKNOWNPOINTER, DDSPD_VOLATILE, IDirectDrawSurface7 interface [DirectDraw],SetPrivateData method, IDirectDrawSurface7.SetPrivateData, IDirectDrawSurface7::SetPrivateData, SetPrivateData, SetPrivateData method [DirectDraw], SetPrivateData method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetPrivateData, directdraw.idirectdrawsurface7_setprivatedata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::SetPrivateData method
+# IDirectDrawSurface7::SetPrivateData
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetExceptionService
-title: ISCTE_EAS::GetExceptionService method
+title: ISCTE_EAS::GetExceptionService
 author: windows-driver-content
 description: The GetExceptionService method returns information about an exception service.
 old-location: mstv\iscte_eas_getexceptionservice.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b9431651-4f8f-40a0-abd8-b162e5ad09ae
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetExceptionService method [Microsoft TV Technologies], GetExceptionService method [Microsoft TV Technologies], ISCTE_EAS interface, GetExceptionService,ISCTE_EAS.GetExceptionService, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetExceptionService method, ISCTE_EAS::GetExceptionService, ISCTE_EASGetExceptionService, atscpsipparser/ISCTE_EAS::GetExceptionService, mstv.iscte_eas_getexceptionservice
+ms.keywords: GetExceptionService, GetExceptionService method [Microsoft TV Technologies], GetExceptionService method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetExceptionService method, ISCTE_EAS.GetExceptionService, ISCTE_EAS::GetExceptionService, ISCTE_EASGetExceptionService, atscpsipparser/ISCTE_EAS::GetExceptionService, mstv.iscte_eas_getexceptionservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetExceptionService method
+# ISCTE_EAS::GetExceptionService
 
 
 ## -description

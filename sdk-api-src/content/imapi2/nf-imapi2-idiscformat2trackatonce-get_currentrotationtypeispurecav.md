@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV
-title: IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV method
+title: IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV
 author: windows-driver-content
 description: Retrieves the current rotational-speed control used by the recorder.
 old-location: imapi\idiscformat2trackatonce_get_currentrotationtypeispurecav.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 3a80eee3-6b85-432a-878c-c8e4cade7be1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], get_CurrentRotationTypeIsPureCAV method, IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV method [IMAPI], get_CurrentRotationTypeIsPureCAV method [IMAPI], IDiscFormat2TrackAtOnce interface, get_CurrentRotationTypeIsPureCAV,IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV, imapi.idiscformat2trackatonce_get_currentrotationtypeispurecav, imapi2/IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV
+ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_CurrentRotationTypeIsPureCAV method, IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV, IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV method [IMAPI], get_CurrentRotationTypeIsPureCAV method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_currentrotationtypeispurecav, imapi2/IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV method
+# IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV
 
 
 ## -description

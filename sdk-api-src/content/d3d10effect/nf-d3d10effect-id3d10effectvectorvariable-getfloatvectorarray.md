@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.GetFloatVectorArray
-title: ID3D10EffectVectorVariable::GetFloatVectorArray method
+title: ID3D10EffectVectorVariable::GetFloatVectorArray
 author: windows-driver-content
 description: Get an array of four-component vectors that contain floating-point data.
 old-location: direct3d10\id3d10effectvectorvariable_getfloatvectorarray.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getfloatvectorarray.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 0c6374bb-9ea0-894f-8f00-4c6aa56619e1, GetFloatVectorArray method [Direct3D 10], GetFloatVectorArray method [Direct3D 10], ID3D10EffectVectorVariable interface, GetFloatVectorArray,ID3D10EffectVectorVariable.GetFloatVectorArray, ID3D10EffectVectorVariable, ID3D10EffectVectorVariable interface [Direct3D 10], GetFloatVectorArray method, ID3D10EffectVectorVariable::GetFloatVectorArray, d3d10effect/ID3D10EffectVectorVariable::GetFloatVectorArray, direct3d10.id3d10effectvectorvariable_getfloatvectorarray
+ms.keywords: 0c6374bb-9ea0-894f-8f00-4c6aa56619e1, GetFloatVectorArray, GetFloatVectorArray method [Direct3D 10], GetFloatVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, ID3D10EffectVectorVariable interface [Direct3D 10],GetFloatVectorArray method, ID3D10EffectVectorVariable.GetFloatVectorArray, ID3D10EffectVectorVariable::GetFloatVectorArray, d3d10effect/ID3D10EffectVectorVariable::GetFloatVectorArray, direct3d10.id3d10effectvectorvariable_getfloatvectorarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectVectorVariable::GetFloatVectorArray method
+# ID3D10EffectVectorVariable::GetFloatVectorArray
 
 
 ## -description

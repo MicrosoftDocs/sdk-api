@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.LockBuffer
-title: CHString::LockBuffer method
+title: CHString::LockBuffer
 author: windows-driver-content
 description: The LockBuffer method locks a string in the buffer.
 old-location: wmi\chstring_lockbuffer.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 820a3ff5-4f99-40b0-8a9d-e5c22fea7ddb
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHString, CHString interface [Windows Management Instrumentation], LockBuffer method, CHString::LockBuffer, LockBuffer method [Windows Management Instrumentation], LockBuffer method [Windows Management Instrumentation], CHString interface, LockBuffer,CHString.LockBuffer, _hmm_chstring_lockbuffer, chstring/CHString::LockBuffer, wmi.chstring_lockbuffer
+ms.keywords: CHString interface [Windows Management Instrumentation],LockBuffer method, CHString.LockBuffer, CHString::LockBuffer, LockBuffer, LockBuffer method [Windows Management Instrumentation], LockBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_lockbuffer, chstring/CHString::LockBuffer, wmi.chstring_lockbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::LockBuffer method
+# CHString::LockBuffer
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:portabledeviceconnectapi.IEnumPortableDeviceConnectors.Clone
-title: IEnumPortableDeviceConnectors::Clone method
+title: IEnumPortableDeviceConnectors::Clone
 author: windows-driver-content
 description: Creates a copy of the current IEnumPortableDeviceConnectors interface.
 old-location: wpdsdk\ienumportabledeviceconnectors_clone.htm
 old-project: wpd_sdk
 ms.assetid: 64274cb0-1f57-481d-914f-41238cbe2f1b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: Clone method [Windows Portable Devices SDK], Clone method [Windows Portable Devices SDK], IEnumPortableDeviceConnectors interface, Clone,IEnumPortableDeviceConnectors.Clone, IEnumPortableDeviceConnectors, IEnumPortableDeviceConnectors interface [Windows Portable Devices SDK], Clone method, IEnumPortableDeviceConnectors::Clone, devpkey/IEnumPortableDeviceConnectors::Clone, portabledeviceconnectapi/IEnumPortableDeviceConnectors::Clone, wpdsdk.ienumportabledeviceconnectors_clone
+ms.date: 4/11/2018
+ms.keywords: Clone, Clone method [Windows Portable Devices SDK], Clone method [Windows Portable Devices SDK],IEnumPortableDeviceConnectors interface, IEnumPortableDeviceConnectors interface [Windows Portable Devices SDK],Clone method, IEnumPortableDeviceConnectors.Clone, IEnumPortableDeviceConnectors::Clone, devpkey/IEnumPortableDeviceConnectors::Clone, portabledeviceconnectapi/IEnumPortableDeviceConnectors::Clone, wpdsdk.ienumportabledeviceconnectors_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,10 +42,10 @@ targetos: Windows
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumPortableDeviceConnectors::Clone method
+# IEnumPortableDeviceConnectors::Clone
 
 
 ## -description

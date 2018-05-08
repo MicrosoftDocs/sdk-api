@@ -7,8 +7,8 @@ old-location: shell\UShortMult.htm
 old-project: shell
 ms.assetid: ecade442-3272-4886-87e1-057f82f465cf
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: UShortMult, UShortMult function [Windows Shell], _shell_UShortMult, intsafe/UShortMult, shell.UShortMult
+ms.date: 5/3/2018
+ms.keywords: UShortMult, UShortMult function [Windows Shell], WordMult, _shell_UShortMult, intsafe/UShortMult, shell.UShortMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,6 +95,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+<b>WordMult</b> is an alias for this function.
 
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderHurryup.GetHurryup
-title: IWMVideoDecoderHurryup::GetHurryup method
+title: IWMVideoDecoderHurryup::GetHurryup
 author: windows-driver-content
 description: Retrieves the current speed mode of the video decoder.
 old-location: mf\iwmvideodecoderhurryupgethurryup.htm
 old-project: medfound
 ms.assetid: c5c58acd-ebf9-46ce-977b-1478b42559c4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetHurryup method [Media Foundation], GetHurryup method [Media Foundation], IWMVideoDecoderHurryup interface, GetHurryup,IWMVideoDecoderHurryup.GetHurryup, IWMVideoDecoderHurryup, IWMVideoDecoderHurryup interface [Media Foundation], GetHurryup method, IWMVideoDecoderHurryup::GetHurryup, codecapi.iwmvideodecoderhurryupgethurryup, mf.iwmvideodecoderhurryupgethurryup, wmcodecdsp/ IWMVideoDecoderHurryup::GetHurryup
+ms.date: 5/3/2018
+ms.keywords: GetHurryup, GetHurryup method [Media Foundation], GetHurryup method [Media Foundation],IWMVideoDecoderHurryup interface, IWMVideoDecoderHurryup interface [Media Foundation],GetHurryup method, IWMVideoDecoderHurryup.GetHurryup, IWMVideoDecoderHurryup::GetHurryup, codecapi.iwmvideodecoderhurryupgethurryup, mf.iwmvideodecoderhurryupgethurryup, wmcodecdsp/ IWMVideoDecoderHurryup::GetHurryup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMVideoDecoderHurryup::GetHurryup method
+# IWMVideoDecoderHurryup::GetHurryup
 
 
 ## -description

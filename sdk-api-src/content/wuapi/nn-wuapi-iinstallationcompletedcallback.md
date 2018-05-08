@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 930d33e1-e407-4306-acc6-1d64c385a41d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IInstallationCompletedCallback, IInstallationCompletedCallback interface [Windows Update Agent], IInstallationCompletedCallback interface [Windows Update Agent], described, wua.iinstallationcompletedcallback, wuapi/IInstallationCompletedCallback
+ms.keywords: IInstallationCompletedCallback, IInstallationCompletedCallback interface [Windows Update Agent], IInstallationCompletedCallback interface [Windows Update Agent],described, wua.iinstallationcompletedcallback, wuapi/IInstallationCompletedCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.ActivateProfile
-title: ITfInputProcessorProfileMgr::ActivateProfile method
+title: ITfInputProcessorProfileMgr::ActivateProfile
 author: windows-driver-content
 description: The ITfInputProcessorProfileMgr::ActivateProfile method activates the specified text service's profile or keyboard layout.
 old-location: tsf\itfinputprocessorprofilemgr_activateprofile.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5e5b3f26-332a-456e-875f-12e440ae67ba
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ActivateProfile method [Text Services Framework], ActivateProfile method [Text Services Framework], ITfInputProcessorProfileMgr interface, ActivateProfile,ITfInputProcessorProfileMgr.ActivateProfile, ITfInputProcessorProfileMgr, ITfInputProcessorProfileMgr interface [Text Services Framework], ActivateProfile method, ITfInputProcessorProfileMgr::ActivateProfile, TF_IPPMF_DISABLEPROFILE, TF_IPPMF_DONTCARECURRENTINPUTLANGUAGE, TF_IPPMF_ENABLEPROFILE, TF_IPPMF_FORPROCESS, TF_IPPMF_FORSESSION, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::ActivateProfile, tsf.itfinputprocessorprofilemgr_activateprofile
+ms.keywords: ActivateProfile, ActivateProfile method [Text Services Framework], ActivateProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],ActivateProfile method, ITfInputProcessorProfileMgr.ActivateProfile, ITfInputProcessorProfileMgr::ActivateProfile, TF_IPPMF_DISABLEPROFILE, TF_IPPMF_DONTCARECURRENTINPUTLANGUAGE, TF_IPPMF_ENABLEPROFILE, TF_IPPMF_FORPROCESS, TF_IPPMF_FORSESSION, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::ActivateProfile, tsf.itfinputprocessorprofilemgr_activateprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfileMgr::ActivateProfile method
+# ITfInputProcessorProfileMgr::ActivateProfile
 
 
 ## -description

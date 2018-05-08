@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionSmimeCapabilities.get_SmimeCapabilities
-title: IX509ExtensionSmimeCapabilities::get_SmimeCapabilities method
+title: IX509ExtensionSmimeCapabilities::get_SmimeCapabilities
 author: windows-driver-content
 description: Retrieves a collection of ISmimeCapability objects.
 old-location: security\ix509extensionsmimecapabilities_smimecapabilities.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 6e3ce718-16f9-47df-aff9-38e922fe505c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionSmimeCapabilities, IX509ExtensionSmimeCapabilities interface [Security], SmimeCapabilities property, IX509ExtensionSmimeCapabilities.SmimeCapabilities, IX509ExtensionSmimeCapabilities::get_SmimeCapabilities, SmimeCapabilities property [Security], SmimeCapabilities property [Security], IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::SmimeCapabilities, certenroll/IX509ExtensionSmimeCapabilities::get_SmimeCapabilities, get_SmimeCapabilities,IX509ExtensionSmimeCapabilities.get_SmimeCapabilities, security.ix509extensionsmimecapabilities_smimecapabilities
+ms.keywords: IX509ExtensionSmimeCapabilities interface [Security],SmimeCapabilities property, IX509ExtensionSmimeCapabilities.SmimeCapabilities, IX509ExtensionSmimeCapabilities.get_SmimeCapabilities, IX509ExtensionSmimeCapabilities::SmimeCapabilities, IX509ExtensionSmimeCapabilities::get_SmimeCapabilities, SmimeCapabilities property [Security], SmimeCapabilities property [Security],IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::SmimeCapabilities, certenroll/IX509ExtensionSmimeCapabilities::get_SmimeCapabilities, get_SmimeCapabilities, security.ix509extensionsmimecapabilities_smimecapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionSmimeCapabilities::get_SmimeCapabilities method
+# IX509ExtensionSmimeCapabilities::get_SmimeCapabilities
 
 
 ## -description

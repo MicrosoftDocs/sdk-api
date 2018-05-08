@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEvent.GetEventId
-title: IESEvent::GetEventId method
+title: IESEvent::GetEventId
 author: windows-driver-content
 description: Gets the unique identifier from an event that is derived from the IESEvent interface. The event identifier is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_geteventid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8a7d62de-71fc-40fa-9944-d41e33243cc5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetEventId method [Microsoft TV Technologies], GetEventId method [Microsoft TV Technologies], IESEvent interface, GetEventId,IESEvent.GetEventId, IESEvent, IESEvent interface [Microsoft TV Technologies], GetEventId method, IESEvent::GetEventId, mstv.iesevent_geteventid, tuner/IESEvent::GetEventId
+ms.keywords: GetEventId, GetEventId method [Microsoft TV Technologies], GetEventId method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetEventId method, IESEvent.GetEventId, IESEvent::GetEventId, mstv.iesevent_geteventid, tuner/IESEvent::GetEventId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESEvent::GetEventId method
+# IESEvent::GetEventId
 
 
 ## -description

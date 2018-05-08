@@ -7,7 +7,7 @@ old-location: tablet\adviseinkchange.htm
 old-project: tablet
 ms.assetid: 326bbbff-4adc-46ae-aab3-626b55fecf0c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/2/2018
 ms.keywords: 326bbbff-4adc-46ae-aab3-626b55fecf0c, AdviseInkChange, AdviseInkChange function [Tablet PC], recapis/AdviseInkChange, tablet.adviseinkchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: b75b455a-0b1e-49f4-9181-5cbbf1b5d98c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsHwProviderType2, IVdsHwProviderType2 interface, IVdsHwProviderType2 interface, described, base.ivdshwprovidertype2, vds/IVdsHwProviderType2, vdshwprv/IVdsHwProviderType2
+ms.keywords: IVdsHwProviderType2, IVdsHwProviderType2 interface, IVdsHwProviderType2 interface,described, base.ivdshwprovidertype2, vds/IVdsHwProviderType2, vdshwprv/IVdsHwProviderType2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

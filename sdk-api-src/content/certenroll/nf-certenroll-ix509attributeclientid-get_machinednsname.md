@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.get_MachineDnsName
-title: IX509AttributeClientId::get_MachineDnsName method
+title: IX509AttributeClientId::get_MachineDnsName
 author: windows-driver-content
 description: Retrieves the Domain Name System (DNS) name of the computer that generated the request.
 old-location: security\ix509attributeclientid_machinednsname_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 596682fc-aaf4-4247-a44b-34001cf7aecb
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509AttributeClientId, IX509AttributeClientId interface [Security], MachineDnsName property, IX509AttributeClientId.MachineDnsName, IX509AttributeClientId::get_MachineDnsName, MachineDnsName property [Security], MachineDnsName property [Security], IX509AttributeClientId interface, certenroll/IX509AttributeClientId::MachineDnsName, certenroll/IX509AttributeClientId::get_MachineDnsName, get_MachineDnsName,IX509AttributeClientId.get_MachineDnsName, security.ix509attributeclientid_machinednsname_property
+ms.keywords: IX509AttributeClientId interface [Security],MachineDnsName property, IX509AttributeClientId.MachineDnsName, IX509AttributeClientId.get_MachineDnsName, IX509AttributeClientId::MachineDnsName, IX509AttributeClientId::get_MachineDnsName, MachineDnsName property [Security], MachineDnsName property [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::MachineDnsName, certenroll/IX509AttributeClientId::get_MachineDnsName, get_MachineDnsName, security.ix509attributeclientid_machinednsname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509AttributeClientId::get_MachineDnsName method
+# IX509AttributeClientId::get_MachineDnsName
 
 
 ## -description

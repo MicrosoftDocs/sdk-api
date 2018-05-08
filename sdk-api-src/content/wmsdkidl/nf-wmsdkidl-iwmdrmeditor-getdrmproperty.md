@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMEditor.GetDRMProperty
-title: IWMDRMEditor::GetDRMProperty method
+title: IWMDRMEditor::GetDRMProperty
 author: windows-driver-content
 description: The GetDRMProperty method retrieves the specified DRM property.
 old-location: wmformat\iwmdrmeditor_getdrmproperty.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: b0a7b07d-f0c0-4715-a9c3-7babf3bf7af9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetDRMProperty method [windows Media Format], GetDRMProperty method [windows Media Format], IWMDRMEditor interface, GetDRMProperty,IWMDRMEditor.GetDRMProperty, IWMDRMEditor, IWMDRMEditor interface [windows Media Format], GetDRMProperty method, IWMDRMEditor::GetDRMProperty, IWMDRMEditorGetDRMProperty, wmformat.iwmdrmeditor_getdrmproperty, wmsdkidl/IWMDRMEditor::GetDRMProperty
+ms.keywords: GetDRMProperty, GetDRMProperty method [windows Media Format], GetDRMProperty method [windows Media Format],IWMDRMEditor interface, IWMDRMEditor interface [windows Media Format],GetDRMProperty method, IWMDRMEditor.GetDRMProperty, IWMDRMEditor::GetDRMProperty, IWMDRMEditorGetDRMProperty, wmformat.iwmdrmeditor_getdrmproperty, wmsdkidl/IWMDRMEditor::GetDRMProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMEditor::GetDRMProperty method
+# IWMDRMEditor::GetDRMProperty
 
 
 ## -description

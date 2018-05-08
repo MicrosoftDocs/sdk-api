@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetRequestIdString
-title: ICertPropertyEnrollmentPolicyServer::GetRequestIdString method
+title: ICertPropertyEnrollmentPolicyServer::GetRequestIdString
 author: windows-driver-content
 description: Retrieves a unique string identifier for the certificate request sent to the certification authority during enrollment.
 old-location: security\icertpropertyenrollmentpolicyserver_getrequestidstring.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: c9855a9d-938f-4579-8447-a931dbba1428
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetRequestIdString method [Security], GetRequestIdString method [Security], ICertPropertyEnrollmentPolicyServer interface, GetRequestIdString,ICertPropertyEnrollmentPolicyServer.GetRequestIdString, ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], GetRequestIdString method, ICertPropertyEnrollmentPolicyServer::GetRequestIdString, certenroll/ICertPropertyEnrollmentPolicyServer::GetRequestIdString, security.icertpropertyenrollmentpolicyserver_getrequestidstring
+ms.keywords: GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetRequestIdString method, ICertPropertyEnrollmentPolicyServer.GetRequestIdString, ICertPropertyEnrollmentPolicyServer::GetRequestIdString, certenroll/ICertPropertyEnrollmentPolicyServer::GetRequestIdString, security.icertpropertyenrollmentpolicyserver_getrequestidstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICertPropertyEnrollmentPolicyServer::GetRequestIdString method
+# ICertPropertyEnrollmentPolicyServer::GetRequestIdString
 
 
 ## -description

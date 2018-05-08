@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.RemoveAt
-title: IXpsOMGradientStopCollection::RemoveAt method
+title: IXpsOMGradientStopCollection::RemoveAt
 author: windows-driver-content
 description: Removes and releases an IXpsOMGradientStop interface pointer from a specified location in the collection.
 old-location: xps\ixpsomgradientstopcollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: dbca41b1-5510-484d-80a1-c8d260cb5c39
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGradientStopCollection, IXpsOMGradientStopCollection interface [XPS Documents and Packaging], RemoveAt method, IXpsOMGradientStopCollection::RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging], IXpsOMGradientStopCollection interface, RemoveAt,IXpsOMGradientStopCollection.RemoveAt, xps.ixpsomgradientstopcollection_removeat, xpsobjectmodel/IXpsOMGradientStopCollection::RemoveAt
+ms.keywords: IXpsOMGradientStopCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMGradientStopCollection.RemoveAt, IXpsOMGradientStopCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, xps.ixpsomgradientstopcollection_removeat, xpsobjectmodel/IXpsOMGradientStopCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientStopCollection::RemoveAt method
+# IXpsOMGradientStopCollection::RemoveAt
 
 
 ## -description

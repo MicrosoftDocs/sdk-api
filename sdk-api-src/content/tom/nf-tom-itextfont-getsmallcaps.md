@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetSmallCaps
-title: ITextFont::GetSmallCaps method
+title: ITextFont::GetSmallCaps
 author: windows-driver-content
 description: Gets whether characters are in small capital letters.
 old-location: controls\ITextFont_GetSmallCaps.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsmallcaps.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetSmallCaps method [Windows Controls], GetSmallCaps method [Windows Controls], ITextFont interface, GetSmallCaps,ITextFont.GetSmallCaps, ITextFont, ITextFont interface [Windows Controls], GetSmallCaps method, ITextFont::GetSmallCaps, _win32_ITextFont_GetSmallCaps, _win32_ITextFont_GetSmallCaps_cpp, controls.ITextFont_GetSmallCaps, controls._win32_ITextFont_GetSmallCaps, tom/ITextFont::GetSmallCaps
+ms.date: 4/27/2018
+ms.keywords: GetSmallCaps, GetSmallCaps method [Windows Controls], GetSmallCaps method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSmallCaps method, ITextFont.GetSmallCaps, ITextFont::GetSmallCaps, _win32_ITextFont_GetSmallCaps, _win32_ITextFont_GetSmallCaps_cpp, controls.ITextFont_GetSmallCaps, controls._win32_ITextFont_GetSmallCaps, tom/ITextFont::GetSmallCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetSmallCaps method
+# ITextFont::GetSmallCaps
 
 
 ## -description

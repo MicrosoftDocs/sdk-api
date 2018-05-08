@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.OMSetRenderTargets
-title: ID3D10Device::OMSetRenderTargets method
+title: ID3D10Device::OMSetRenderTargets
 author: windows-driver-content
 description: Bind one or more render targets and the depth-stencil buffer to the output-merger stage.
 old-location: direct3d10\id3d10device_omsetrendertargets.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omsetrendertargets.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 1a066759-273f-afca-4fed-6d836735ff9f, ID3D10Device, ID3D10Device interface [Direct3D 10], OMSetRenderTargets method, ID3D10Device::OMSetRenderTargets, OMSetRenderTargets method [Direct3D 10], OMSetRenderTargets method [Direct3D 10], ID3D10Device interface, OMSetRenderTargets,ID3D10Device.OMSetRenderTargets, d3d10/ID3D10Device::OMSetRenderTargets, direct3d10.id3d10device_omsetrendertargets
+ms.keywords: 1a066759-273f-afca-4fed-6d836735ff9f, ID3D10Device interface [Direct3D 10],OMSetRenderTargets method, ID3D10Device.OMSetRenderTargets, ID3D10Device::OMSetRenderTargets, OMSetRenderTargets, OMSetRenderTargets method [Direct3D 10], OMSetRenderTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMSetRenderTargets, direct3d10.id3d10device_omsetrendertargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::OMSetRenderTargets method
+# ID3D10Device::OMSetRenderTargets
 
 
 ## -description

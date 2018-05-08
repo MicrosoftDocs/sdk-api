@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILocation.SetDesiredAccuracy
-title: ILocation::SetDesiredAccuracy method
+title: ILocation::SetDesiredAccuracy
 author: windows-driver-content
 description: Specifies the accuracy to be used.
 old-location: winlocation\ilocation_setdesiredaccuracy.htm
@@ -8,7 +8,7 @@ old-project: LocationAPI
 ms.assetid: 85623570-3b48-42ea-babd-fe4282629d92
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ILocation, ILocation interface [WinLocation], SetDesiredAccuracy method, ILocation::SetDesiredAccuracy, SetDesiredAccuracy method [WinLocation], SetDesiredAccuracy method [WinLocation], ILocation interface, SetDesiredAccuracy,ILocation.SetDesiredAccuracy, locationapi/ILocation::SetDesiredAccuracy, winlocation.ilocation_setdesiredaccuracy
+ms.keywords: ILocation interface [WinLocation],SetDesiredAccuracy method, ILocation.SetDesiredAccuracy, ILocation::SetDesiredAccuracy, SetDesiredAccuracy, SetDesiredAccuracy method [WinLocation], SetDesiredAccuracy method [WinLocation],ILocation interface, locationapi/ILocation::SetDesiredAccuracy, winlocation.ilocation_setdesiredaccuracy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ILocation::SetDesiredAccuracy method
+# ILocation::SetDesiredAccuracy
 
 
 ## -description

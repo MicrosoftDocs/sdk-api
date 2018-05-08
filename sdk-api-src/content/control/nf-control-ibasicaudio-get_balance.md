@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicAudio.get_Balance
-title: IBasicAudio::get_Balance method
+title: IBasicAudio::get_Balance
 author: windows-driver-content
 description: The get_Balance method retrieves the balance for the audio signal.
 old-location: dshow\ibasicaudio_get_balance.htm
 old-project: DirectShow
 ms.assetid: bb9796c5-0dd2-496a-b5b4-a6614d7770c1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBasicAudio, IBasicAudio interface [DirectShow], get_Balance method, IBasicAudio::get_Balance, IBasicAudioget_Balance, control/IBasicAudio::get_Balance, dshow.ibasicaudio_get_balance, get_Balance method [DirectShow], get_Balance method [DirectShow], IBasicAudio interface, get_Balance,IBasicAudio.get_Balance
+ms.date: 4/30/2018
+ms.keywords: IBasicAudio interface [DirectShow],get_Balance method, IBasicAudio.get_Balance, IBasicAudio::get_Balance, IBasicAudioget_Balance, control/IBasicAudio::get_Balance, dshow.ibasicaudio_get_balance, get_Balance, get_Balance method [DirectShow], get_Balance method [DirectShow],IBasicAudio interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicAudio::get_Balance method
+# IBasicAudio::get_Balance
 
 
 ## -description

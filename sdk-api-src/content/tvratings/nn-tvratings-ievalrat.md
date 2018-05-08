@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b37c7e7d-80fd-4a42-a698-c20ffb2a5052
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IEvalRat, IEvalRat interface [Microsoft TV Technologies], IEvalRat interface [Microsoft TV Technologies], described, IEvalRatInterface, mstv.ievalrat, tvratings/IEvalRat
+ms.keywords: IEvalRat, IEvalRat interface [Microsoft TV Technologies], IEvalRat interface [Microsoft TV Technologies],described, IEvalRatInterface, mstv.ievalrat, tvratings/IEvalRat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

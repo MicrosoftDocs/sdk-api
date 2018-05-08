@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_Enabled
-title: INetSharingPortMappingProps::get_Enabled method
+title: INetSharingPortMappingProps::get_Enabled
 author: windows-driver-content
 description: The get_Enabled method retrieves the status for this port mapping.
 old-location: ics\inetsharingportmappingprops_get_enabled.htm
 old-project: ICS
 ms.assetid: ad8c20d5-e9af-4c9d-af05-69decd24dae2
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingPortMappingProps, INetSharingPortMappingProps interface [ICS/ICF], get_Enabled method, INetSharingPortMappingProps::get_Enabled, get_Enabled method [ICS/ICF], get_Enabled method [ICS/ICF], INetSharingPortMappingProps interface, get_Enabled,INetSharingPortMappingProps.get_Enabled, ics.inetsharingportmappingprops_get_enabled, netcon/INetSharingPortMappingProps::get_Enabled
+ms.date: 5/1/2018
+ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_Enabled method, INetSharingPortMappingProps.get_Enabled, INetSharingPortMappingProps::get_Enabled, get_Enabled, get_Enabled method [ICS/ICF], get_Enabled method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_enabled, netcon/INetSharingPortMappingProps::get_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingPortMappingProps::get_Enabled method
+# INetSharingPortMappingProps::get_Enabled
 
 
 ## -description

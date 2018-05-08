@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.set_hPal
-title: IPicture::set_hPal method
+title: IPicture::set_hPal
 author: windows-driver-content
 description: Assigns a GDI palette to the picture contained in the picture object.
 old-location: com\ipicture_set_hpal.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c20b9efd-cf85-4ee1-890b-35fde0226982
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPicture, IPicture interface [COM], set_hPal method, IPicture::set_hPal, _ctrl_ipicture_set_hpal, com.ipicture_set_hpal, ocidl/IPicture::set_hPal, set_hPal method [COM], set_hPal method [COM], IPicture interface, set_hPal,IPicture.set_hPal
+ms.keywords: IPicture interface [COM],set_hPal method, IPicture.set_hPal, IPicture::set_hPal, _ctrl_ipicture_set_hpal, com.ipicture_set_hpal, ocidl/IPicture::set_hPal, set_hPal, set_hPal method [COM], set_hPal method [COM],IPicture interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPicture::set_hPal method
+# IPicture::set_hPal
 
 
 ## -description

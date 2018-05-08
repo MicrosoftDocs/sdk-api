@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetListContents
-title: IWMPContentPartner::GetListContents method
+title: IWMPContentPartner::GetListContents
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetListContents method initiates the retrieval of a dynamic list.
 old-location: wmp\iwmpcontentpartner_getlistcontents.htm
 old-project: WMP
 ms.assetid: a48935ea-8275-4b68-a1ab-006a23c455ad
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetListContents method [Windows Media Player], GetListContents method [Windows Media Player], IWMPContentPartner interface, GetListContents,IWMPContentPartner.GetListContents, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], GetListContents method, IWMPContentPartner::GetListContents, IWMPContentPartnerGetListContents, contentpartner/IWMPContentPartner::GetListContents, wmp.iwmpcontentpartner_getlistcontents
+ms.date: 5/4/2018
+ms.keywords: GetListContents, GetListContents method [Windows Media Player], GetListContents method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetListContents method, IWMPContentPartner.GetListContents, IWMPContentPartner::GetListContents, IWMPContentPartnerGetListContents, contentpartner/IWMPContentPartner::GetListContents, wmp.iwmpcontentpartner_getlistcontents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::GetListContents method
+# IWMPContentPartner::GetListContents
 
 
 ## -description

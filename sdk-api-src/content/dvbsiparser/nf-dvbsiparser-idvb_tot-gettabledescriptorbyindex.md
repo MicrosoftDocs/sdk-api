@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_TOT.GetTableDescriptorByIndex
-title: IDVB_TOT::GetTableDescriptorByIndex method
+title: IDVB_TOT::GetTableDescriptorByIndex
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_tot_gettabledescriptorbyindex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0d59b778-c8bc-4ccc-bca2-013c2345814f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies], IDVB_TOT interface, GetTableDescriptorByIndex,IDVB_TOT.GetTableDescriptorByIndex, IDVB_TOT, IDVB_TOT interface [Microsoft TV Technologies], GetTableDescriptorByIndex method, IDVB_TOT::GetTableDescriptorByIndex, IDVB_TOTGetTableDescriptorByIndex, dvbsiparser/IDVB_TOT::GetTableDescriptorByIndex, mstv.idvb_tot_gettabledescriptorbyindex
+ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IDVB_TOT interface, IDVB_TOT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IDVB_TOT.GetTableDescriptorByIndex, IDVB_TOT::GetTableDescriptorByIndex, IDVB_TOTGetTableDescriptorByIndex, dvbsiparser/IDVB_TOT::GetTableDescriptorByIndex, mstv.idvb_tot_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_TOT::GetTableDescriptorByIndex method
+# IDVB_TOT::GetTableDescriptorByIndex
 
 
 ## -description

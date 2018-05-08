@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 1AFDB11F-1AD4-4B84-82EF-C0CE86D744C1
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ClusPartitionEx, ClusPartitionEx object [Failover Cluster], ClusPartitionEx object [Failover Cluster], described, ISClusPartitionEx, msclus/ClusPartitionEx, mscs.cluspartitionex
+ms.keywords: ClusPartitionEx, ClusPartitionEx object [Failover Cluster], ClusPartitionEx object [Failover Cluster],described, ISClusPartitionEx, msclus/ClusPartitionEx, mscs.cluspartitionex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

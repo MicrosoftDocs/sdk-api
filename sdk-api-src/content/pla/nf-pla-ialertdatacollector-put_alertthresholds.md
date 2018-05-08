@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_AlertThresholds
-title: IAlertDataCollector::put_AlertThresholds method
+title: IAlertDataCollector::put_AlertThresholds
 author: windows-driver-content
 description: Retrieves or sets a list of performance counters and thresholds to monitor.
 old-location: pla\ialertdatacollector_alertthresholds.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: e0d504ea-58d4-48fd-9baf-851505d6d3ac
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AlertThresholds property [PLA], AlertThresholds property [PLA], IAlertDataCollector interface, IAlertDataCollector, IAlertDataCollector interface [PLA], AlertThresholds property, IAlertDataCollector.AlertThresholds, IAlertDataCollector::get_AlertThresholds, IAlertDataCollector::put_AlertThresholds, base.ialertdatacollector_alertthresholds, pla.ialertdatacollector_alertthresholds, pla/IAlertDataCollector::AlertThresholds, pla/IAlertDataCollector::get_AlertThresholds, pla/IAlertDataCollector::put_AlertThresholds, put_AlertThresholds,IAlertDataCollector.put_AlertThresholds
+ms.keywords: AlertThresholds property [PLA], AlertThresholds property [PLA],IAlertDataCollector interface, IAlertDataCollector interface [PLA],AlertThresholds property, IAlertDataCollector.AlertThresholds, IAlertDataCollector.put_AlertThresholds, IAlertDataCollector::AlertThresholds, IAlertDataCollector::get_AlertThresholds, IAlertDataCollector::put_AlertThresholds, base.ialertdatacollector_alertthresholds, pla.ialertdatacollector_alertthresholds, pla/IAlertDataCollector::AlertThresholds, pla/IAlertDataCollector::get_AlertThresholds, pla/IAlertDataCollector::put_AlertThresholds, put_AlertThresholds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAlertDataCollector::put_AlertThresholds method
+# IAlertDataCollector::put_AlertThresholds
 
 
 ## -description

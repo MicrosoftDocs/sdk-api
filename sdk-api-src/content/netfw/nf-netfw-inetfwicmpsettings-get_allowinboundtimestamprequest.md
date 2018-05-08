@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowInboundTimestampRequest
-title: INetFwIcmpSettings::get_AllowInboundTimestampRequest method
+title: INetFwIcmpSettings::get_AllowInboundTimestampRequest
 author: windows-driver-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundtimestamprequest.htm
 old-project: ICS
 ms.assetid: 6898527d-8556-46ae-b6e4-b1157323d14e
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: AllowInboundTimestampRequest property [ICS/ICF], AllowInboundTimestampRequest property [ICS/ICF], INetFwIcmpSettings interface, INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], AllowInboundTimestampRequest property, INetFwIcmpSettings.AllowInboundTimestampRequest, INetFwIcmpSettings::get_AllowInboundTimestampRequest, INetFwIcmpSettings::put_AllowInboundTimestampRequest, get_AllowInboundTimestampRequest,INetFwIcmpSettings.get_AllowInboundTimestampRequest, ics.inetfwicmpsettings_allowinboundtimestamprequest, netfw/INetFwIcmpSettings::AllowInboundTimestampRequest, netfw/INetFwIcmpSettings::get_AllowInboundTimestampRequest, netfw/INetFwIcmpSettings::put_AllowInboundTimestampRequest
+ms.date: 5/1/2018
+ms.keywords: AllowInboundTimestampRequest property [ICS/ICF], AllowInboundTimestampRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundTimestampRequest property, INetFwIcmpSettings.AllowInboundTimestampRequest, INetFwIcmpSettings.get_AllowInboundTimestampRequest, INetFwIcmpSettings::AllowInboundTimestampRequest, INetFwIcmpSettings::get_AllowInboundTimestampRequest, INetFwIcmpSettings::put_AllowInboundTimestampRequest, get_AllowInboundTimestampRequest, ics.inetfwicmpsettings_allowinboundtimestamprequest, netfw/INetFwIcmpSettings::AllowInboundTimestampRequest, netfw/INetFwIcmpSettings::get_AllowInboundTimestampRequest, netfw/INetFwIcmpSettings::put_AllowInboundTimestampRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwIcmpSettings::get_AllowInboundTimestampRequest method
+# INetFwIcmpSettings::get_AllowInboundTimestampRequest
 
 
 ## -description

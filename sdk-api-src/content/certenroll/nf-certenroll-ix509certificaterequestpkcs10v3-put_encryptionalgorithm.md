@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.put_EncryptionAlgorithm
-title: IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm method
+title: IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm
 author: windows-driver-content
 description: The encryption algorithm used to encrypt the EKPUB and EKCERT values from the client.
 old-location: security\ix509certificaterequestpkcs10v3_encryptionalgorithm.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b1fb0e94-3207-4007-94bd-4b2e97b99ff2
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: EncryptionAlgorithm property [Security], EncryptionAlgorithm property [Security], IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3, IX509CertificateRequestPkcs10V3 interface [Security], EncryptionAlgorithm property, IX509CertificateRequestPkcs10V3.EncryptionAlgorithm, IX509CertificateRequestPkcs10V3::get_EncryptionAlgorithm, IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm, certenroll/IX509CertificateRequestPkcs10V3::EncryptionAlgorithm, certenroll/IX509CertificateRequestPkcs10V3::get_EncryptionAlgorithm, certenroll/IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm, put_EncryptionAlgorithm,IX509CertificateRequestPkcs10V3.put_EncryptionAlgorithm, security.ix509certificaterequestpkcs10v3_encryptionalgorithm
+ms.keywords: EncryptionAlgorithm property [Security], EncryptionAlgorithm property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],EncryptionAlgorithm property, IX509CertificateRequestPkcs10V3.EncryptionAlgorithm, IX509CertificateRequestPkcs10V3.put_EncryptionAlgorithm, IX509CertificateRequestPkcs10V3::EncryptionAlgorithm, IX509CertificateRequestPkcs10V3::get_EncryptionAlgorithm, IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm, certenroll/IX509CertificateRequestPkcs10V3::EncryptionAlgorithm, certenroll/IX509CertificateRequestPkcs10V3::get_EncryptionAlgorithm, certenroll/IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm, put_EncryptionAlgorithm, security.ix509certificaterequestpkcs10v3_encryptionalgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certenroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm method
+# IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_IpAddress
-title: IWdsTransportClient::get_IpAddress method
+title: IWdsTransportClient::get_IpAddress
 author: windows-driver-content
 description: Receives a string value that contains the IP address of the WDS client.
 old-location: wds\iwdstransportclient_ipaddress.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 1e2d0da1-9362-4187-9ccc-80522d109c83
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], IpAddress property, IWdsTransportClient.IpAddress, IWdsTransportClient::get_IpAddress, IpAddress property [Windows Deployment Services], IpAddress property [Windows Deployment Services], IWdsTransportClient interface, get_IpAddress,IWdsTransportClient.get_IpAddress, wds.iwdstransportclient_ipaddress, wdstptmgmt/IWdsTransportClient::IpAddress, wdstptmgmt/IWdsTransportClient::get_IpAddress
+ms.keywords: IWdsTransportClient interface [Windows Deployment Services],IpAddress property, IWdsTransportClient.IpAddress, IWdsTransportClient.get_IpAddress, IWdsTransportClient::IpAddress, IWdsTransportClient::get_IpAddress, IpAddress property [Windows Deployment Services], IpAddress property [Windows Deployment Services],IWdsTransportClient interface, get_IpAddress, wds.iwdstransportclient_ipaddress, wdstptmgmt/IWdsTransportClient::IpAddress, wdstptmgmt/IWdsTransportClient::get_IpAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportClient::get_IpAddress method
+# IWdsTransportClient::get_IpAddress
 
 
 ## -description

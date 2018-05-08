@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestReader2.GetOptionalBundles
-title: IAppxBundleManifestReader2::GetOptionalBundles method
+title: IAppxBundleManifestReader2::GetOptionalBundles
 author: windows-driver-content
 description: Retrieves an object that represents the &lt;OptionalBundles&gt; element under the root &lt;Bundle&gt; element.
 old-location: appxpkg\iappxbundlemanifestreader2_getoptionalbundles.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 26246BB1-7FE7-462F-9731-D8AD32373184
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetOptionalBundles method [App packaging and management], GetOptionalBundles method [App packaging and management], IAppxBundleManifestReader2 interface, GetOptionalBundles,IAppxBundleManifestReader2.GetOptionalBundles, IAppxBundleManifestReader2, IAppxBundleManifestReader2 interface [App packaging and management], GetOptionalBundles method, IAppxBundleManifestReader2::GetOptionalBundles, appxpackaging/IAppxBundleManifestReader2::GetOptionalBundles, appxpkg.iappxbundlemanifestreader2_getoptionalbundles
+ms.keywords: GetOptionalBundles, GetOptionalBundles method [App packaging and management], GetOptionalBundles method [App packaging and management],IAppxBundleManifestReader2 interface, IAppxBundleManifestReader2 interface [App packaging and management],GetOptionalBundles method, IAppxBundleManifestReader2.GetOptionalBundles, IAppxBundleManifestReader2::GetOptionalBundles, appxpackaging/IAppxBundleManifestReader2::GetOptionalBundles, appxpkg.iappxbundlemanifestreader2_getoptionalbundles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleManifestReader2::GetOptionalBundles method
+# IAppxBundleManifestReader2::GetOptionalBundles
 
 
 ## -description

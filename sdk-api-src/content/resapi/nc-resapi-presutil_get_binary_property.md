@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: fe69ba4c-d69a-4f5a-a620-0e2152e7be61
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PRESUTIL_GET_BINARY_PROPERTY, PRESUTIL_GET_BINARY_PROPERTY callback function [Failover Cluster], _wolf_resutilgetbinaryproperty, mscs.resutilgetbinaryproperty, resapi/PRESUTIL_GET_BINARY_PROPERTY
+ms.keywords: PRESUTIL_GET_BINARY_PROPERTY, PRESUTIL_GET_BINARY_PROPERTY callback, PRESUTIL_GET_BINARY_PROPERTY callback function [Failover Cluster], _wolf_resutilgetbinaryproperty, mscs.resutilgetbinaryproperty, resapi/PRESUTIL_GET_BINARY_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PRESUTIL_GET_BINARY_PROPERTY callback
+# PRESUTIL_GET_BINARY_PROPERTY callback function
 
 
 ## -description

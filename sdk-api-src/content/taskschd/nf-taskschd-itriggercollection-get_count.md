@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITriggerCollection.get_Count
-title: ITriggerCollection::get_Count method
+title: ITriggerCollection::get_Count
 author: windows-driver-content
 description: Gets the number of triggers in the collection.
 old-location: taskschd\itriggercollection_count.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: ae4ff1b8-f030-420b-b96a-b5c1246c04ce
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler], ITriggerCollection interface, ITriggerCollection, ITriggerCollection interface [Task Scheduler], Count property, ITriggerCollection.Count, ITriggerCollection::get_Count, get_Count,ITriggerCollection.get_Count, taskschd.itriggercollection_count, taskschd/ITriggerCollection::Count, taskschd/ITriggerCollection::get_Count
+ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Count property, ITriggerCollection.Count, ITriggerCollection.get_Count, ITriggerCollection::Count, ITriggerCollection::get_Count, get_Count, taskschd.itriggercollection_count, taskschd/ITriggerCollection::Count, taskschd/ITriggerCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITriggerCollection::get_Count method
+# ITriggerCollection::get_Count
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.Item
-title: IProviderQueryConstraintCollection::Item method
+title: IProviderQueryConstraintCollection::Item
 author: windows-driver-content
 description: Gets the name and value of the specified query constraint, by index.
 old-location: ncd\iproviderqueryconstraintcollection_item.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: db8840db-365a-485d-9097-ef98a9d875bc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, Item method, IProviderQueryConstraintCollection::Item, Item method, Item method, IProviderQueryConstraintCollection interface, Item,IProviderQueryConstraintCollection.Item, functiondiscoveryprovider/IProviderQueryConstraintCollection::Item, ncd.iproviderqueryconstraintcollection_item
+ms.keywords: IProviderQueryConstraintCollection interface,Item method, IProviderQueryConstraintCollection.Item, IProviderQueryConstraintCollection::Item, Item, Item method, Item method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Item, ncd.iproviderqueryconstraintcollection_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IProviderQueryConstraintCollection::Item method
+# IProviderQueryConstraintCollection::Item
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.RemoveFromSelection
-title: ISelectionItemProvider::RemoveFromSelection method
+title: ISelectionItemProvider::RemoveFromSelection
 author: windows-driver-content
 description: Removes the current element from the collection of selected items.
 old-location: winauto\uiauto_ISelectionItemProvider_RemoveFromSelection.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: fcbf452e-5827-4368-b601-a6eeabb15d53
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ISelectionItemProvider, ISelectionItemProvider interface [Windows Accessibility], RemoveFromSelection method, ISelectionItemProvider::RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility], ISelectionItemProvider interface, RemoveFromSelection,ISelectionItemProvider.RemoveFromSelection, uiauto.uiauto_ISelectionItemProvider_RemoveFromSelection, uiauto_ISelectionItemProvider_RemoveFromSelection, uiautomationcore/ISelectionItemProvider::RemoveFromSelection, winauto.uiauto_ISelectionItemProvider_RemoveFromSelection
+ms.keywords: ISelectionItemProvider interface [Windows Accessibility],RemoveFromSelection method, ISelectionItemProvider.RemoveFromSelection, ISelectionItemProvider::RemoveFromSelection, RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility],ISelectionItemProvider interface, uiauto.uiauto_ISelectionItemProvider_RemoveFromSelection, uiauto_ISelectionItemProvider_RemoveFromSelection, uiautomationcore/ISelectionItemProvider::RemoveFromSelection, winauto.uiauto_ISelectionItemProvider_RemoveFromSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISelectionItemProvider::RemoveFromSelection method
+# ISelectionItemProvider::RemoveFromSelection
 
 
 ## -description

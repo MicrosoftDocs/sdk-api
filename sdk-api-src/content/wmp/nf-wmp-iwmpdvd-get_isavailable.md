@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPDVD.get_isAvailable
-title: IWMPDVD::get_isAvailable method
+title: IWMPDVD::get_isAvailable
 author: windows-driver-content
 description: The get_isAvailable method indicates whether a specified type of information is available or a specified action can be performed.
 old-location: wmp\iwmpdvd_get_isavailable.htm
 old-project: WMP
 ms.assetid: bc8ce504-c387-4e3b-a227-926ae26ea78b
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], get_isAvailable method, IWMPDVD::get_isAvailable, IWMPDVDget_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player], IWMPDVD interface, get_isAvailable,IWMPDVD.get_isAvailable, wmp.iwmpdvd_get_isavailable, wmp/IWMPDVD::get_isAvailable
+ms.date: 5/4/2018
+ms.keywords: IWMPDVD interface [Windows Media Player],get_isAvailable method, IWMPDVD.get_isAvailable, IWMPDVD::get_isAvailable, IWMPDVDget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_isavailable, wmp/IWMPDVD::get_isAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPDVD::get_isAvailable method
+# IWMPDVD::get_isAvailable
 
 
 ## -description

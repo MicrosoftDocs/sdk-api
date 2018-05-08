@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_OutgoingQueuePaused
-title: IFaxConfiguration::put_OutgoingQueuePaused method
+title: IFaxConfiguration::put_OutgoingQueuePaused
 author: windows-driver-content
 description: Sets or retrieves a value that indicates whether the outgoing queue has been paused.
 old-location: fax\_mfax_FaxConfiguration_PauseOutgoingQueue_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\pauseoutgoingqueue.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxConfiguration object [Fax Service], OutgoingQueuePaused property, IFaxConfiguration, IFaxConfiguration::put_OutgoingQueuePaused, OutgoingQueuePaused property [Fax Service], OutgoingQueuePaused property [Fax Service], FaxConfiguration object, _mfax_IFaxConfiguration_PauseOutgoingQueue, fax._mfax_FaxConfiguration_PauseOutgoingQueue_vb, put_OutgoingQueuePaused,IFaxConfiguration.put_OutgoingQueuePaused
+ms.keywords: FaxConfiguration object [Fax Service],OutgoingQueuePaused property, FaxConfiguration.OutgoingQueuePaused, IFaxConfiguration.put_OutgoingQueuePaused, IFaxConfiguration::put_OutgoingQueuePaused, OutgoingQueuePaused property [Fax Service], OutgoingQueuePaused property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_PauseOutgoingQueue, fax._mfax_FaxConfiguration_PauseOutgoingQueue_vb, put_OutgoingQueuePaused
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::put_OutgoingQueuePaused method
+# IFaxConfiguration::put_OutgoingQueuePaused
 
 
 ## -description

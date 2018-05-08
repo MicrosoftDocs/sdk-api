@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.AddTargetToStore
-title: ITsSbResourcePluginStore::AddTargetToStore method
+title: ITsSbResourcePluginStore::AddTargetToStore
 author: windows-driver-content
 description: Adds a target to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_addtargettostore.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 207761eb-b87a-44e5-9101-84d77f95fc23
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: AddTargetToStore method [Remote Desktop Services], AddTargetToStore method [Remote Desktop Services], ITsSbResourcePluginStore interface, AddTargetToStore method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, AddTargetToStore,ITsSbResourcePluginStore.AddTargetToStore, ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], AddTargetToStore method, ITsSbResourcePluginStore::AddTargetToStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], AddTargetToStore method, ITsSbResourcePluginStoreEx::AddTargetToStore, sbtsv/ITsSbResourcePluginStore::AddTargetToStore, sbtsv/ITsSbResourcePluginStoreEx::AddTargetToStore, termserv.itssbresourcepluginstore_addtargettostore
+ms.keywords: AddTargetToStore, AddTargetToStore method [Remote Desktop Services], AddTargetToStore method [Remote Desktop Services],ITsSbResourcePluginStore interface, AddTargetToStore method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AddTargetToStore method, ITsSbResourcePluginStore.AddTargetToStore, ITsSbResourcePluginStore::AddTargetToStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],AddTargetToStore method, ITsSbResourcePluginStoreEx::AddTargetToStore, sbtsv/ITsSbResourcePluginStore::AddTargetToStore, sbtsv/ITsSbResourcePluginStoreEx::AddTargetToStore, termserv.itssbresourcepluginstore_addtargettostore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::AddTargetToStore method
+# ITsSbResourcePluginStore::AddTargetToStore
 
 
 ## -description

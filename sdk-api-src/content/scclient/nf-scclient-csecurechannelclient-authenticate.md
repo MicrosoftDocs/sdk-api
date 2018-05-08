@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.Authenticate
-title: CSecureChannelClient::Authenticate method
+title: CSecureChannelClient::Authenticate
 author: windows-driver-content
 description: The Authenticate method authenticates communication between components to establish trust.
 old-location: wmdm\csecurechannelclient_authenticate.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: ce96b39f-13f8-47c8-affd-2094cf25f057
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: Authenticate method [windows Media Device Manager], Authenticate method [windows Media Device Manager], CSecureChannelClient interface, Authenticate,CSecureChannelClient.Authenticate, CSecureChannelClient, CSecureChannelClient interface [windows Media Device Manager], Authenticate method, CSecureChannelClient::Authenticate, CSecureChannelClientAuthenticate, scclient/CSecureChannelClient::Authenticate, wmdm.csecurechannelclient_authenticate
+ms.keywords: Authenticate, Authenticate method [windows Media Device Manager], Authenticate method [windows Media Device Manager],CSecureChannelClient interface, CSecureChannelClient interface [windows Media Device Manager],Authenticate method, CSecureChannelClient.Authenticate, CSecureChannelClient::Authenticate, CSecureChannelClientAuthenticate, scclient/CSecureChannelClient::Authenticate, wmdm.csecurechannelclient_authenticate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CSecureChannelClient::Authenticate method
+# CSecureChannelClient::Authenticate
 
 
 ## -description

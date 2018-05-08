@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceReportMessage.RegisterErrorEvent
-title: IWorkspaceReportMessage::RegisterErrorEvent method
+title: IWorkspaceReportMessage::RegisterErrorEvent
 author: windows-driver-content
 description: Registers the specified error event message to use in the UI.
 old-location: termserv\iworkspacereportmessage_registererrorevent.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: d8c85912-7766-4d1c-8004-d9104a4dbc09
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWorkspaceReportMessage, IWorkspaceReportMessage interface [Remote Desktop Services], RegisterErrorEvent method, IWorkspaceReportMessage::RegisterErrorEvent, RegisterErrorEvent method [Remote Desktop Services], RegisterErrorEvent method [Remote Desktop Services], IWorkspaceReportMessage interface, RegisterErrorEvent method [Remote Desktop Services], Workspace object, RegisterErrorEvent,IWorkspaceReportMessage.RegisterErrorEvent, Workspace object [Remote Desktop Services], RegisterErrorEvent method, termserv.iworkspacereportmessage_registererrorevent, workspaceruntime/IWorkspaceReportMessage::RegisterErrorEvent
+ms.keywords: IWorkspaceReportMessage interface [Remote Desktop Services],RegisterErrorEvent method, IWorkspaceReportMessage.RegisterErrorEvent, IWorkspaceReportMessage::RegisterErrorEvent, RegisterErrorEvent, RegisterErrorEvent method [Remote Desktop Services], RegisterErrorEvent method [Remote Desktop Services],IWorkspaceReportMessage interface, RegisterErrorEvent method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],RegisterErrorEvent method, termserv.iworkspacereportmessage_registererrorevent, workspaceruntime/IWorkspaceReportMessage::RegisterErrorEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWorkspaceReportMessage::RegisterErrorEvent method
+# IWorkspaceReportMessage::RegisterErrorEvent
 
 
 ## -description

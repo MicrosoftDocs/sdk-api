@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChange.GetLearnedKnowledgeAfterRecoveryComplete
-title: ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete method
+title: ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete
 author: windows-driver-content
 description: Gets the knowledge the destination replica will learn after it applies the changes in the full enumeration.
 old-location: winsync\isyncfullenumerationchange_getlearnedknowledgeafterrecoverycomplete.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: b6d536ad-557a-489d-a3e3-a4ffd69be096
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync], GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync], ISyncFullEnumerationChange interface, GetLearnedKnowledgeAfterRecoveryComplete,ISyncFullEnumerationChange.GetLearnedKnowledgeAfterRecoveryComplete, ISyncFullEnumerationChange, ISyncFullEnumerationChange interface [Windows Sync], GetLearnedKnowledgeAfterRecoveryComplete method, ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete, winsync.isyncfullenumerationchange_getlearnedknowledgeafterrecoverycomplete, winsync/ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete
+ms.keywords: GetLearnedKnowledgeAfterRecoveryComplete, GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync], GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync],ISyncFullEnumerationChange interface, ISyncFullEnumerationChange interface [Windows Sync],GetLearnedKnowledgeAfterRecoveryComplete method, ISyncFullEnumerationChange.GetLearnedKnowledgeAfterRecoveryComplete, ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete, winsync.isyncfullenumerationchange_getlearnedknowledgeafterrecoverycomplete, winsync/ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete method
+# ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete
 
 
 ## -description

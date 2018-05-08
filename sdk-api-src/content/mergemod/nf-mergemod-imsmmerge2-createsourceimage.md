@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge2.CreateSourceImage
-title: IMsmMerge2::CreateSourceImage method
+title: IMsmMerge2::CreateSourceImage
 author: windows-driver-content
 description: The CreateSourceImage method enables the client to extract the files from a module to a source image on disk after a merge, taking into account changes to the module that might have been made during module configuration.
 old-location: setup\imsmmerge2_createsourceimage.htm
@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: c42fa644-f0e6-4261-af76-741df572df3a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateSourceImage method, CreateSourceImage method, IMsmMerge2 interface, CreateSourceImage,IMsmMerge2.CreateSourceImage, IMsmMerge2, IMsmMerge2 interface, CreateSourceImage method, IMsmMerge2::CreateSourceImage, _msi_createsourceimage_function, mergemod/IMsmMerge2::CreateSourceImage, setup.imsmmerge2_createsourceimage
+ms.keywords: CreateSourceImage, CreateSourceImage method, CreateSourceImage method,IMsmMerge2 interface, IMsmMerge2 interface,CreateSourceImage method, IMsmMerge2.CreateSourceImage, IMsmMerge2::CreateSourceImage, _msi_createsourceimage_function, mergemod/IMsmMerge2::CreateSourceImage, setup.imsmmerge2_createsourceimage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMsmMerge2::CreateSourceImage method
+# IMsmMerge2::CreateSourceImage
 
 
 ## -description

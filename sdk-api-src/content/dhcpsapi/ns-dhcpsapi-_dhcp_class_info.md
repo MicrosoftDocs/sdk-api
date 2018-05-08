@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_class_info.htm
 old-project: DHCP
 ms.assetid: 62fb9f21-ad21-4525-90f4-48dc5a8b230b
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_CLASS_INFO, DHCP_CLASS_INFO, DHCP_CLASS_INFO structure [DHCP], DHCP_FLAGS_OPTION_IS_VENDOR, LPDHCP_CLASS_INFO, LPDHCP_CLASS_INFO structure pointer [DHCP], _DHCP_CLASS_INFO, dhcp.dhcp_class_info, dhcpsapi/LPDHCP_CLASS_INFO, dhcpsapi/_DHCP_CLASS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,6 +103,18 @@ This flag should be set if the option is provided by a vendor.
 ### -field ClassData
 
 Pointer to a byte buffer that contains specific data for the class. When passing this structure into <a href="https://msdn.microsoft.com/c38a593f-60f0-41c7-83a8-bbec9b79dfac">DhcpGetClassInfo</a>, this buffer should be initialized to the anticipated size of the data to be returned.
+
+
+### -field ClassData.size_is
+
+ 
+
+
+### -field ClassData.size_is.ClassDataLength
+
+ 
+
+
 
 
 ## -see-also

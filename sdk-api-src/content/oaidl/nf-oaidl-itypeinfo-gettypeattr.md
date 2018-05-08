@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetTypeAttr
-title: ITypeInfo::GetTypeAttr method
+title: ITypeInfo::GetTypeAttr
 author: windows-driver-content
 description: Retrieves a TYPEATTR structure that contains the attributes of the type description.
 old-location: automat\itypeinfo_gettypeattr.htm
 old-project: automat
 ms.assetid: 62be8a38-1d51-4b54-b224-7d9cdbb1be59
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetTypeAttr method [Automation], GetTypeAttr method [Automation], ITypeInfo interface, GetTypeAttr,ITypeInfo.GetTypeAttr, ITypeInfo, ITypeInfo interface [Automation], GetTypeAttr method, ITypeInfo::GetTypeAttr, _oa96_ITypeInfo_GetTypeAttr, automat.itypeinfo_gettypeattr, oaidl/ITypeInfo::GetTypeAttr
+ms.date: 5/4/2018
+ms.keywords: GetTypeAttr, GetTypeAttr method [Automation], GetTypeAttr method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetTypeAttr method, ITypeInfo.GetTypeAttr, ITypeInfo::GetTypeAttr, _oa96_ITypeInfo_GetTypeAttr, automat.itypeinfo_gettypeattr, oaidl/ITypeInfo::GetTypeAttr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo::GetTypeAttr method
+# ITypeInfo::GetTypeAttr
 
 
 ## -description

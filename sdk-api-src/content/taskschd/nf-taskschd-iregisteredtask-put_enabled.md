@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.put_Enabled
-title: IRegisteredTask::put_Enabled method
+title: IRegisteredTask::put_Enabled
 author: windows-driver-content
 description: Gets or sets a Boolean value that indicates if the registered task is enabled.
 old-location: taskschd\iregisteredtask_enabled.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 33486621-3984-4a07-8182-c193847a9f76
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler], IRegisteredTask interface, IRegisteredTask, IRegisteredTask interface [Task Scheduler], Enabled property, IRegisteredTask.Enabled, IRegisteredTask::get_Enabled, IRegisteredTask::put_Enabled, put_Enabled,IRegisteredTask.put_Enabled, taskschd.iregisteredtask_enabled, taskschd/IRegisteredTask::Enabled, taskschd/IRegisteredTask::get_Enabled, taskschd/IRegisteredTask::put_Enabled
+ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],Enabled property, IRegisteredTask.Enabled, IRegisteredTask.put_Enabled, IRegisteredTask::Enabled, IRegisteredTask::get_Enabled, IRegisteredTask::put_Enabled, put_Enabled, taskschd.iregisteredtask_enabled, taskschd/IRegisteredTask::Enabled, taskschd/IRegisteredTask::get_Enabled, taskschd/IRegisteredTask::put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegisteredTask::put_Enabled method
+# IRegisteredTask::put_Enabled
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextComposition.FindComposition
-title: ITfContextComposition::FindComposition method
+title: ITfContextComposition::FindComposition
 author: windows-driver-content
 description: ITfContextComposition::FindComposition method
 old-location: tsf\itfcontextcomposition_findcomposition.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: f5a7bd54-3b8f-44fd-ae6e-1415cc69c49e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: FindComposition method [Text Services Framework], FindComposition method [Text Services Framework], ITfContextComposition interface, FindComposition,ITfContextComposition.FindComposition, ITfContextComposition, ITfContextComposition interface [Text Services Framework], FindComposition method, ITfContextComposition::FindComposition, _tsf_itfcontextcomposition_findcomposition_ref, msctf/ITfContextComposition::FindComposition, tsf.itfcontextcomposition_findcomposition
+ms.keywords: FindComposition, FindComposition method [Text Services Framework], FindComposition method [Text Services Framework],ITfContextComposition interface, ITfContextComposition interface [Text Services Framework],FindComposition method, ITfContextComposition.FindComposition, ITfContextComposition::FindComposition, _tsf_itfcontextcomposition_findcomposition_ref, msctf/ITfContextComposition::FindComposition, tsf.itfcontextcomposition_findcomposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextComposition::FindComposition method
+# ITfContextComposition::FindComposition
 
 
 ## -description

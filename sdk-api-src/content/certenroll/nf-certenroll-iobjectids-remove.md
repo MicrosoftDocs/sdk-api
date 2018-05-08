@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectIds.Remove
-title: IObjectIds::Remove method
+title: IObjectIds::Remove
 author: windows-driver-content
 description: Removes an IObjectId object from the collection by index value.
 old-location: security\iobjectids_remove_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: c8b9508d-f64a-453f-a336-0da47b2ccdec
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IObjectIds, IObjectIds interface [Security], Remove method, IObjectIds::Remove, Remove method [Security], Remove method [Security], IObjectIds interface, Remove,IObjectIds.Remove, certenroll/IObjectIds::Remove, security.iobjectids_remove_method
+ms.keywords: IObjectIds interface [Security],Remove method, IObjectIds.Remove, IObjectIds::Remove, Remove, Remove method [Security], Remove method [Security],IObjectIds interface, certenroll/IObjectIds::Remove, security.iobjectids_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IObjectIds::Remove method
+# IObjectIds::Remove
 
 
 ## -description

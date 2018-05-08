@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBalloon.GetPreferredSize
-title: ITfLangBarItemBalloon::GetPreferredSize method
+title: ITfLangBarItemBalloon::GetPreferredSize
 author: windows-driver-content
 description: ITfLangBarItemBalloon::GetPreferredSize method
 old-location: tsf\itflangbaritemballoon_getpreferredsize.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 73f3a12e-b787-424e-9998-276baee63264
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetPreferredSize method [Text Services Framework], GetPreferredSize method [Text Services Framework], ITfLangBarItemBalloon interface, GetPreferredSize,ITfLangBarItemBalloon.GetPreferredSize, ITfLangBarItemBalloon, ITfLangBarItemBalloon interface [Text Services Framework], GetPreferredSize method, ITfLangBarItemBalloon::GetPreferredSize, _tsf_itflangbaritemballoon_getpreferredsize_ref, ctfutb/ITfLangBarItemBalloon::GetPreferredSize, tsf.itflangbaritemballoon_getpreferredsize
+ms.keywords: GetPreferredSize, GetPreferredSize method [Text Services Framework], GetPreferredSize method [Text Services Framework],ITfLangBarItemBalloon interface, ITfLangBarItemBalloon interface [Text Services Framework],GetPreferredSize method, ITfLangBarItemBalloon.GetPreferredSize, ITfLangBarItemBalloon::GetPreferredSize, _tsf_itflangbaritemballoon_getpreferredsize_ref, ctfutb/ITfLangBarItemBalloon::GetPreferredSize, tsf.itflangbaritemballoon_getpreferredsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemBalloon::GetPreferredSize method
+# ITfLangBarItemBalloon::GetPreferredSize
 
 
 ## -description

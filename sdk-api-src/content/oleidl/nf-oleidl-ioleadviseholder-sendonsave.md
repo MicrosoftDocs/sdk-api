@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.SendOnSave
-title: IOleAdviseHolder::SendOnSave method
+title: IOleAdviseHolder::SendOnSave
 author: windows-driver-content
 description: Sends notification to all advisory sinks currently registered with the advise holder that the object has been saved.
 old-location: com\ioleadviseholder_sendonsave.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: b64ceaf7-45ba-4a66-a5cf-aec352472d3d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], SendOnSave method, IOleAdviseHolder::SendOnSave, SendOnSave method [COM], SendOnSave method [COM], IOleAdviseHolder interface, SendOnSave,IOleAdviseHolder.SendOnSave, _ole_ioleadviseholder_sendonsave, com.ioleadviseholder_sendonsave, oleidl/IOleAdviseHolder::SendOnSave
+ms.keywords: IOleAdviseHolder interface [COM],SendOnSave method, IOleAdviseHolder.SendOnSave, IOleAdviseHolder::SendOnSave, SendOnSave, SendOnSave method [COM], SendOnSave method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonsave, com.ioleadviseholder_sendonsave, oleidl/IOleAdviseHolder::SendOnSave
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleAdviseHolder::SendOnSave method
+# IOleAdviseHolder::SendOnSave
 
 
 ## -description

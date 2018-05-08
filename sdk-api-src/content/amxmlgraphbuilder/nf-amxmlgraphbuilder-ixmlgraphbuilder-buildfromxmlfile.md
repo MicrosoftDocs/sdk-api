@@ -1,14 +1,14 @@
 ---
 UID: NF:amxmlgraphbuilder.IXMLGraphBuilder.BuildFromXMLFile
-title: IXMLGraphBuilder::BuildFromXMLFile method
+title: IXMLGraphBuilder::BuildFromXMLFile
 author: windows-driver-content
 description: The BuildFromXMLFile method loads a filter graph from an XML file.
 old-location: dshow\ixmlgraphbuilder_buildfromxmlfile.htm
 old-project: DirectShow
 ms.assetid: 238a3077-0f04-44bb-a6ac-b532ef97c315
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: BuildFromXMLFile method [DirectShow], BuildFromXMLFile method [DirectShow], IXMLGraphBuilder interface, BuildFromXMLFile,IXMLGraphBuilder.BuildFromXMLFile, IXMLGraphBuilder, IXMLGraphBuilder interface [DirectShow], BuildFromXMLFile method, IXMLGraphBuilder::BuildFromXMLFile, IXMLGraphBuilderBuildFromXMLFile, amxmlgraphbuilder/IXMLGraphBuilder::BuildFromXMLFile, dshow.ixmlgraphbuilder_buildfromxmlfile
+ms.date: 4/30/2018
+ms.keywords: BuildFromXMLFile, BuildFromXMLFile method [DirectShow], BuildFromXMLFile method [DirectShow],IXMLGraphBuilder interface, IXMLGraphBuilder interface [DirectShow],BuildFromXMLFile method, IXMLGraphBuilder.BuildFromXMLFile, IXMLGraphBuilder::BuildFromXMLFile, IXMLGraphBuilderBuildFromXMLFile, amxmlgraphbuilder/IXMLGraphBuilder::BuildFromXMLFile, dshow.ixmlgraphbuilder_buildfromxmlfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IXMLGraphBuilder::BuildFromXMLFile method
+# IXMLGraphBuilder::BuildFromXMLFile
 
 
 ## -description

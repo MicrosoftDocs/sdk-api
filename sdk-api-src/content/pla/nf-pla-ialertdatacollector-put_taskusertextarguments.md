@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_TaskUserTextArguments
-title: IAlertDataCollector::put_TaskUserTextArguments method
+title: IAlertDataCollector::put_TaskUserTextArguments
 author: windows-driver-content
 description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property.
 old-location: pla\ialertdatacollector_taskusertextarguments.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: d432652a-3dea-43f0-a698-bb7ccb1cb79a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IAlertDataCollector, IAlertDataCollector interface [PLA], TaskUserTextArguments property, IAlertDataCollector.TaskUserTextArguments, IAlertDataCollector::get_TaskUserTextArguments, IAlertDataCollector::put_TaskUserTextArguments, TaskUserTextArguments property [PLA], TaskUserTextArguments property [PLA], IAlertDataCollector interface, pla.ialertdatacollector_taskusertextarguments, pla/IAlertDataCollector::TaskUserTextArguments, pla/IAlertDataCollector::get_TaskUserTextArguments, pla/IAlertDataCollector::put_TaskUserTextArguments, put_TaskUserTextArguments,IAlertDataCollector.put_TaskUserTextArguments
+ms.keywords: IAlertDataCollector interface [PLA],TaskUserTextArguments property, IAlertDataCollector.TaskUserTextArguments, IAlertDataCollector.put_TaskUserTextArguments, IAlertDataCollector::TaskUserTextArguments, IAlertDataCollector::get_TaskUserTextArguments, IAlertDataCollector::put_TaskUserTextArguments, TaskUserTextArguments property [PLA], TaskUserTextArguments property [PLA],IAlertDataCollector interface, pla.ialertdatacollector_taskusertextarguments, pla/IAlertDataCollector::TaskUserTextArguments, pla/IAlertDataCollector::get_TaskUserTextArguments, pla/IAlertDataCollector::put_TaskUserTextArguments, put_TaskUserTextArguments
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAlertDataCollector::put_TaskUserTextArguments method
+# IAlertDataCollector::put_TaskUserTextArguments
 
 
 ## -description

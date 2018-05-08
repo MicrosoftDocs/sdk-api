@@ -1,6 +1,6 @@
 ---
 UID: NF:objpath.CObjectPathParser.CObjectPathParser
-title: CObjectPathParser::CObjectPathParser method
+title: CObjectPathParser::CObjectPathParser
 author: windows-driver-content
 description: Constructs and initializes an instance of a CObjectPathParser object that requires a full object path. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser_cobjectpathparser.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 8aeb162a-8e93-4a2f-9609-693a26027a44
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "??0CObjectPathParser@@QAE@W4ObjectParserFlags@@@Z, ??0CObjectPathParser@@QEAA@W4ObjectParserFlags@@@Z, CObjectPathParser, CObjectPathParser interface [Windows Management Instrumentation], CObjectPathParser method, CObjectPathParser method [Windows Management Instrumentation], CObjectPathParser method [Windows Management Instrumentation], CObjectPathParser interface, CObjectPathParser,CObjectPathParser.CObjectPathParser, CObjectPathParser::CObjectPathParser, objpath/CObjectPathParser::CObjectPathParser, wmi.cobjectpathparser_cobjectpathparser"
+ms.keywords: "??0CObjectPathParser@@QAE@W4ObjectParserFlags@@@Z, ??0CObjectPathParser@@QEAA@W4ObjectParserFlags@@@Z, CObjectPathParser, CObjectPathParser interface [Windows Management Instrumentation],CObjectPathParser method, CObjectPathParser method [Windows Management Instrumentation], CObjectPathParser method [Windows Management Instrumentation],CObjectPathParser interface, CObjectPathParser.CObjectPathParser, CObjectPathParser::CObjectPathParser, objpath/CObjectPathParser::CObjectPathParser, wmi.cobjectpathparser_cobjectpathparser"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CObjectPathParser::CObjectPathParser method
+# CObjectPathParser::CObjectPathParser
 
 
 ## -description

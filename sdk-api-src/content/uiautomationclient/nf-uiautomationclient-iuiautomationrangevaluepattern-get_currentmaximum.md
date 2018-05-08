@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CurrentMaximum
-title: IUIAutomationRangeValuePattern::get_CurrentMaximum method
+title: IUIAutomationRangeValuePattern::get_CurrentMaximum
 author: windows-driver-content
 description: Retrieves the maximum value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentMaximum.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3053b901-ec5d-4bfa-ab2f-1ea6b9517f13
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentMaximum property [Windows Accessibility], CurrentMaximum property [Windows Accessibility], IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern, IUIAutomationRangeValuePattern interface [Windows Accessibility], CurrentMaximum property, IUIAutomationRangeValuePattern.CurrentMaximum, IUIAutomationRangeValuePattern::get_CurrentMaximum, get_CurrentMaximum,IUIAutomationRangeValuePattern.get_CurrentMaximum, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentMaximum, uiauto_IUIAutomationRangeValuePattern_CurrentMaximum, uiautomationclient/IUIAutomationRangeValuePattern::CurrentMaximum, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentMaximum, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentMaximum
+ms.keywords: CurrentMaximum property [Windows Accessibility], CurrentMaximum property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentMaximum property, IUIAutomationRangeValuePattern.CurrentMaximum, IUIAutomationRangeValuePattern.get_CurrentMaximum, IUIAutomationRangeValuePattern::CurrentMaximum, IUIAutomationRangeValuePattern::get_CurrentMaximum, get_CurrentMaximum, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentMaximum, uiauto_IUIAutomationRangeValuePattern_CurrentMaximum, uiautomationclient/IUIAutomationRangeValuePattern::CurrentMaximum, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentMaximum, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationRangeValuePattern::get_CurrentMaximum method
+# IUIAutomationRangeValuePattern::get_CurrentMaximum
 
 
 ## -description

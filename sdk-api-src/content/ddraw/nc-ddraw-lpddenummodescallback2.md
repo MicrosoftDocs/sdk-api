@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 53185A9A-EBA3-4443-8E76-AC85E69B39F2
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: EnumModesCallback2, EnumModesCallback2 callback function [DirectDraw], LPDDENUMMODESCALLBACK2, ddraw/EnumModesCallback2, directdraw.enummodescallback2
+ms.keywords: EnumModesCallback2, EnumModesCallback2 callback function [DirectDraw], LPDDENUMMODESCALLBACK2, LPDDENUMMODESCALLBACK2 callback, ddraw/EnumModesCallback2, directdraw.enummodescallback2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# LPDDENUMMODESCALLBACK2 callback
+# LPDDENUMMODESCALLBACK2 callback function
 
 
 ## -description

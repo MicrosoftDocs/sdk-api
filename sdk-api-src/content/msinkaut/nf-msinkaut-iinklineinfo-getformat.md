@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.GetFormat
-title: IInkLineInfo::GetFormat method
+title: IInkLineInfo::GetFormat
 author: windows-driver-content
 description: Returns the display properties currently set on the text ink object (tInk).
 old-location: tablet\iinklineinfo_getformat.htm
 old-project: tablet
 ms.assetid: 8f894963-7075-46f4-8809-82d1aa7e13e7
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 8f894963-7075-46f4-8809-82d1aa7e13e7, GetFormat method [Tablet PC], GetFormat method [Tablet PC], IInkLineInfo interface, GetFormat,IInkLineInfo.GetFormat, IInkLineInfo, IInkLineInfo interface [Tablet PC], GetFormat method, IInkLineInfo::GetFormat, msinkaut/IInkLineInfo::GetFormat, tablet.iinklineinfo_getformat
+ms.date: 5/2/2018
+ms.keywords: 8f894963-7075-46f4-8809-82d1aa7e13e7, GetFormat, GetFormat method [Tablet PC], GetFormat method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetFormat method, IInkLineInfo.GetFormat, IInkLineInfo::GetFormat, msinkaut/IInkLineInfo::GetFormat, tablet.iinklineinfo_getformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkLineInfo::GetFormat method
+# IInkLineInfo::GetFormat
 
 
 ## -description

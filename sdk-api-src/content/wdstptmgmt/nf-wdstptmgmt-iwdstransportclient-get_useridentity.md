@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_UserIdentity
-title: IWdsTransportClient::get_UserIdentity method
+title: IWdsTransportClient::get_UserIdentity
 author: windows-driver-content
 description: Receives a string representing the user identity associated with this client.
 old-location: wds\iwdstransportclient_useridentity.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: c22a49ba-2f90-4131-8cf0-aa0d242d32c7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], UserIdentity property, IWdsTransportClient.UserIdentity, IWdsTransportClient::get_UserIdentity, UserIdentity property [Windows Deployment Services], UserIdentity property [Windows Deployment Services], IWdsTransportClient interface, get_UserIdentity,IWdsTransportClient.get_UserIdentity, wds.iwdstransportclient_useridentity, wdstptmgmt/IWdsTransportClient::UserIdentity, wdstptmgmt/IWdsTransportClient::get_UserIdentity
+ms.keywords: IWdsTransportClient interface [Windows Deployment Services],UserIdentity property, IWdsTransportClient.UserIdentity, IWdsTransportClient.get_UserIdentity, IWdsTransportClient::UserIdentity, IWdsTransportClient::get_UserIdentity, UserIdentity property [Windows Deployment Services], UserIdentity property [Windows Deployment Services],IWdsTransportClient interface, get_UserIdentity, wds.iwdstransportclient_useridentity, wdstptmgmt/IWdsTransportClient::UserIdentity, wdstptmgmt/IWdsTransportClient::get_UserIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportClient::get_UserIdentity method
+# IWdsTransportClient::get_UserIdentity
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager2.GetSessionEnumerator
-title: IAudioSessionManager2::GetSessionEnumerator method
+title: IAudioSessionManager2::GetSessionEnumerator
 author: windows-driver-content
 description: The GetSessionEnumerator method gets a pointer to the audio session enumerator object.
 old-location: coreaudio\iaudiosessionmanager2_getsessionenumerator.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 68166fc1-af27-4251-8e18-be23d205b567
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetSessionEnumerator method [Core Audio], GetSessionEnumerator method [Core Audio], IAudioSessionManager2 interface, GetSessionEnumerator,IAudioSessionManager2.GetSessionEnumerator, IAudioSessionManager2, IAudioSessionManager2 interface [Core Audio], GetSessionEnumerator method, IAudioSessionManager2::GetSessionEnumerator, audiopolicy/IAudioSessionManager2::GetSessionEnumerator, coreaudio.iaudiosessionmanager2_getsessionenumerator
+ms.keywords: GetSessionEnumerator, GetSessionEnumerator method [Core Audio], GetSessionEnumerator method [Core Audio],IAudioSessionManager2 interface, IAudioSessionManager2 interface [Core Audio],GetSessionEnumerator method, IAudioSessionManager2.GetSessionEnumerator, IAudioSessionManager2::GetSessionEnumerator, audiopolicy/IAudioSessionManager2::GetSessionEnumerator, coreaudio.iaudiosessionmanager2_getsessionenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionManager2::GetSessionEnumerator method
+# IAudioSessionManager2::GetSessionEnumerator
 
 
 ## -description

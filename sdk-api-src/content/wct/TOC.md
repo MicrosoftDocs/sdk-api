@@ -1,0 +1,7 @@
+# [Error Handling](../_debug/index.md)
+## [Wct.h](index.md)
+### [CloseThreadWaitChainSession function](../wct/nf-wct-closethreadwaitchainsession.md)
+### [GetThreadWaitChain function](../wct/nf-wct-getthreadwaitchain.md)
+### [OpenThreadWaitChainSession function](../wct/nf-wct-openthreadwaitchainsession.md)
+### [RegisterWaitChainCOMCallback function](../wct/nf-wct-registerwaitchaincomcallback.md)
+### [_WAITCHAIN_NODE_INFO structure](../wct/ns-wct-_waitchain_node_info.md)

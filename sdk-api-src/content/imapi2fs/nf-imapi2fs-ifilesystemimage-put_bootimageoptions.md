@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_BootImageOptions
-title: IFileSystemImage::put_BootImageOptions method
+title: IFileSystemImage::put_BootImageOptions
 author: windows-driver-content
 description: Sets the boot image that you want to add to the file-system image. This method creates a complete copy of the passed-in boot options by copying the stream from the supplied IBootOptions interface.
 old-location: imapi\ifilesystemimage_put_bootimageoptions.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 0556b72d-eabd-4649-b16b-fd66052504f4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], put_BootImageOptions method, IFileSystemImage::put_BootImageOptions, imapi.ifilesystemimage_put_bootimageoptions, imapi2fs/IFileSystemImage::put_BootImageOptions, put_BootImageOptions method [IMAPI], put_BootImageOptions method [IMAPI], IFileSystemImage interface, put_BootImageOptions,IFileSystemImage.put_BootImageOptions
+ms.keywords: IFileSystemImage interface [IMAPI],put_BootImageOptions method, IFileSystemImage.put_BootImageOptions, IFileSystemImage::put_BootImageOptions, imapi.ifilesystemimage_put_bootimageoptions, imapi2fs/IFileSystemImage::put_BootImageOptions, put_BootImageOptions, put_BootImageOptions method [IMAPI], put_BootImageOptions method [IMAPI],IFileSystemImage interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::put_BootImageOptions method
+# IFileSystemImage::put_BootImageOptions
 
 
 ## -description

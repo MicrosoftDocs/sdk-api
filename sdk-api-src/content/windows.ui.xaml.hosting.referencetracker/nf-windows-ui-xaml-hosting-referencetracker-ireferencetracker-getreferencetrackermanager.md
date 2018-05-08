@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.GetReferenceTrackerManager
-title: IReferenceTracker::GetReferenceTrackerManager method
+title: IReferenceTracker::xaml
 author: windows-driver-content
 description: Gets an IReferenceTrackerManager interface from a XAML object.
 old-location: winrt\ireferencetracker_getreferencetrackermanager.htm
 old-project: WinRT
 ms.assetid: c65f1220-24e6-4f63-9318-5b9e57d96e1b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetReferenceTrackerManager method [Windows Runtime], GetReferenceTrackerManager method [Windows Runtime], IReferenceTracker interface, GetReferenceTrackerManager,IReferenceTracker.GetReferenceTrackerManager, IReferenceTracker, IReferenceTracker interface [Windows Runtime], GetReferenceTrackerManager method, IReferenceTracker::GetReferenceTrackerManager, windows/IReferenceTracker::GetReferenceTrackerManager, winrt.ireferencetracker_getreferencetrackermanager
+ms.date: 5/4/2018
+ms.keywords: GetReferenceTrackerManager, GetReferenceTrackerManager method [Windows Runtime], GetReferenceTrackerManager method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],GetReferenceTrackerManager method, IReferenceTracker.GetReferenceTrackerManager, IReferenceTracker.xaml, IReferenceTracker::GetReferenceTrackerManager, IReferenceTracker::xaml, windows/IReferenceTracker::GetReferenceTrackerManager, winrt.ireferencetracker_getreferencetrackermanager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IReferenceTracker::GetReferenceTrackerManager method
+# IReferenceTracker::xaml
 
 
 ## -description

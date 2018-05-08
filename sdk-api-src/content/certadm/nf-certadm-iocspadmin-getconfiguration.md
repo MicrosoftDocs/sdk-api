@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetConfiguration
-title: IOCSPAdmin::GetConfiguration method
+title: IOCSPAdmin::GetConfiguration
 author: windows-driver-content
 description: Connects to an Online Certificate Status Protocol (OCSP) responder server and initializes an OCSPAdmin object with the configuration information from the server.
 old-location: security\iocspadmin_getconfiguration_method.htm
 old-project: SecCrypto
 ms.assetid: bf3c5757-0e97-46d2-89c2-f62a5e367fbb
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetConfiguration method [Security], GetConfiguration method [Security], IOCSPAdmin interface, GetConfiguration,IOCSPAdmin.GetConfiguration, IOCSPAdmin, IOCSPAdmin interface [Security], GetConfiguration method, IOCSPAdmin::GetConfiguration, certadm/IOCSPAdmin::GetConfiguration, security.iocspadmin_getconfiguration_method
+ms.date: 4/30/2018
+ms.keywords: GetConfiguration, GetConfiguration method [Security], GetConfiguration method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetConfiguration method, IOCSPAdmin.GetConfiguration, IOCSPAdmin::GetConfiguration, certadm/IOCSPAdmin::GetConfiguration, security.iocspadmin_getconfiguration_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPAdmin::GetConfiguration method
+# IOCSPAdmin::GetConfiguration
 
 
 ## -description

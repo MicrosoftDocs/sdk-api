@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetComponentType
-title: IWICComponentInfo::GetComponentType method
+title: IWICComponentInfo::GetComponentType
 author: windows-driver-content
 description: Retrieves the component's WICComponentType.
 old-location: wic\_wic_codec_iwiccomponentinfo_getcomponenttype.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: e7599299-2854-4796-8760-740a6ae7ad4f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetComponentType method [Windows Imaging Component], GetComponentType method [Windows Imaging Component], IWICComponentInfo interface, GetComponentType,IWICComponentInfo.GetComponentType, IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], GetComponentType method, IWICComponentInfo::GetComponentType, _wic_codec_iwiccomponentinfo_getcomponenttype, wic._wic_codec_iwiccomponentinfo_getcomponenttype, wincodec/IWICComponentInfo::GetComponentType
+ms.keywords: GetComponentType, GetComponentType method [Windows Imaging Component], GetComponentType method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetComponentType method, IWICComponentInfo.GetComponentType, IWICComponentInfo::GetComponentType, _wic_codec_iwiccomponentinfo_getcomponenttype, wic._wic_codec_iwiccomponentinfo_getcomponenttype, wincodec/IWICComponentInfo::GetComponentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICComponentInfo::GetComponentType method
+# IWICComponentInfo::GetComponentType
 
 
 ## -description

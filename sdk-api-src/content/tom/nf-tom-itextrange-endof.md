@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.EndOf
-title: ITextRange::EndOf method
+title: ITextRange::EndOf
 author: windows-driver-content
 description: Moves this range's ends to the end of the last overlapping Unit in the range.
 old-location: controls\ITextRange_EndOf.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endof.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: EndOf method [Windows Controls], EndOf method [Windows Controls], ITextRange interface, EndOf,ITextRange.EndOf, ITextRange, ITextRange interface [Windows Controls], EndOf method, ITextRange::EndOf, _win32_ITextRange_EndOf, _win32_ITextRange_EndOf_cpp, controls.ITextRange_EndOf, controls._win32_ITextRange_EndOf, tom/ITextRange::EndOf
+ms.date: 4/27/2018
+ms.keywords: EndOf, EndOf method [Windows Controls], EndOf method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],EndOf method, ITextRange.EndOf, ITextRange::EndOf, _win32_ITextRange_EndOf, _win32_ITextRange_EndOf_cpp, controls.ITextRange_EndOf, controls._win32_ITextRange_EndOf, tom/ITextRange::EndOf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::EndOf method
+# ITextRange::EndOf
 
 
 ## -description

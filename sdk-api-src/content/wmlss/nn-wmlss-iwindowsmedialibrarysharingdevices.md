@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: 62e1f4d6-5b33-45d7-85d5-bc2c333c63e4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingDevices, IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services], described, wmlss.IWindowsMediaLibrarySharingDevicesInterface, wmlss/IWindowsMediaLibrarySharingDevices
+ms.keywords: IWindowsMediaLibrarySharingDevices, IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingDevicesInterface, wmlss/IWindowsMediaLibrarySharingDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

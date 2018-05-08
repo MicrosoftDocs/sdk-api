@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedMethodsByFormat
-title: IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat method
+title: IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat
 author: windows-driver-content
 description: Retrieves the methods supported by the service for the specified format.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedmethodsbyformat.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: f1950aa5-2316-4409-a7bd-1b87c6449187
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetSupportedMethodsByFormat method [Windows Portable Devices SDK], GetSupportedMethodsByFormat method [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface, GetSupportedMethodsByFormat,IPortableDeviceServiceCapabilities.GetSupportedMethodsByFormat, IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], GetSupportedMethodsByFormat method, IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat, wpdsdk.iportabledeviceservicecapabilities_getsupportedmethodsbyformat
+ms.keywords: GetSupportedMethodsByFormat, GetSupportedMethodsByFormat method [Windows Portable Devices SDK], GetSupportedMethodsByFormat method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedMethodsByFormat method, IPortableDeviceServiceCapabilities.GetSupportedMethodsByFormat, IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat, wpdsdk.iportabledeviceservicecapabilities_getsupportedmethodsbyformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat method
+# IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat
 
 
 ## -description

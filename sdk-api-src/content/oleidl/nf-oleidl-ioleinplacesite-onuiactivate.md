@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnUIActivate
-title: IOleInPlaceSite::OnUIActivate method
+title: IOleInPlaceSite::OnUIActivate
 author: windows-driver-content
 description: Notifies the container that the object is about to be activated in place and that the object is going to replace the container's main menu with an in-place composite menu.
 old-location: com\ioleinplacesite_onuiactivate.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d863805c-58c1-4e35-84b5-72f01a4ba205
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], OnUIActivate method, IOleInPlaceSite::OnUIActivate, OnUIActivate method [COM], OnUIActivate method [COM], IOleInPlaceSite interface, OnUIActivate,IOleInPlaceSite.OnUIActivate, _ole_ioleinplacesite_onuiactivate, com.ioleinplacesite_onuiactivate, oleidl/IOleInPlaceSite::OnUIActivate
+ms.keywords: IOleInPlaceSite interface [COM],OnUIActivate method, IOleInPlaceSite.OnUIActivate, IOleInPlaceSite::OnUIActivate, OnUIActivate, OnUIActivate method [COM], OnUIActivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onuiactivate, com.ioleinplacesite_onuiactivate, oleidl/IOleInPlaceSite::OnUIActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSite::OnUIActivate method
+# IOleInPlaceSite::OnUIActivate
 
 
 ## -description

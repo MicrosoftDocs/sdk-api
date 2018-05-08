@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateHandlerCollection
-title: ISyncMgrControl::UpdateHandlerCollection method
+title: ISyncMgrControl::UpdateHandlerCollection
 author: windows-driver-content
 description: Instructs Sync Center to reenumerate the handler collection, or informs it that properties of a handler in the handler collection have changed.
 old-location: shell\ISyncMgrControl_UpdateHandlerCollection.htm
 old-project: shell
 ms.assetid: 752f197e-0dad-4b3d-9f70-352f5f50e9ee
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrControl, ISyncMgrControl interface [Windows Shell], UpdateHandlerCollection method, ISyncMgrControl::UpdateHandlerCollection, UpdateHandlerCollection method [Windows Shell], UpdateHandlerCollection method [Windows Shell], ISyncMgrControl interface, UpdateHandlerCollection,ISyncMgrControl.UpdateHandlerCollection, _shell_ISyncMgrControl_UpdateHandlerCollection, shell.ISyncMgrControl_UpdateHandlerCollection, syncmgr/ISyncMgrControl::UpdateHandlerCollection
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateHandlerCollection method, ISyncMgrControl.UpdateHandlerCollection, ISyncMgrControl::UpdateHandlerCollection, UpdateHandlerCollection, UpdateHandlerCollection method [Windows Shell], UpdateHandlerCollection method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateHandlerCollection, shell.ISyncMgrControl_UpdateHandlerCollection, syncmgr/ISyncMgrControl::UpdateHandlerCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrControl::UpdateHandlerCollection method
+# ISyncMgrControl::UpdateHandlerCollection
 
 
 ## -description

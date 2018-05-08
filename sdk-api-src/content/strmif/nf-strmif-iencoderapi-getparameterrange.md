@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEncoderAPI.GetParameterRange
-title: IEncoderAPI::GetParameterRange method
+title: IEncoderAPI::GetParameterRange
 author: windows-driver-content
 description: The GetParameterRange method retrieves the valid range of values that the parameter supports, in cases where the parameter supports a stepped range as opposed to a list of specific values.
 old-location: mstv\iencoderapi_getparameterrange.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: fb48a460-c891-4fbe-8fe2-f900f8b405b7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetParameterRange method [Microsoft TV Technologies], GetParameterRange method [Microsoft TV Technologies], IEncoderAPI interface, GetParameterRange,IEncoderAPI.GetParameterRange, IEncoderAPI, IEncoderAPI interface [Microsoft TV Technologies], GetParameterRange method, IEncoderAPI::GetParameterRange, IEncoderAPIGetParameterRange, mstv.iencoderapi_getparameterrange, strmif/IEncoderAPI::GetParameterRange
+ms.keywords: GetParameterRange, GetParameterRange method [Microsoft TV Technologies], GetParameterRange method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetParameterRange method, IEncoderAPI.GetParameterRange, IEncoderAPI::GetParameterRange, IEncoderAPIGetParameterRange, mstv.iencoderapi_getparameterrange, strmif/IEncoderAPI::GetParameterRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEncoderAPI::GetParameterRange method
+# IEncoderAPI::GetParameterRange
 
 
 ## -description

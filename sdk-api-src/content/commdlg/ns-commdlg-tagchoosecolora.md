@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CHOOSECOLORA, *LPCHOOSECOLORA, CHOOSECOLORA, *LPCHOOSECOLORA
+req.typenames: CHOOSECOLORA, *LPCHOOSECOLORA
 topic_type:
 -	APIRef
 -	kbSyntax

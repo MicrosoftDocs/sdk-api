@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAndCondition.GetChildrenAsNativeArray
-title: IUIAutomationAndCondition::GetChildrenAsNativeArray method
+title: IUIAutomationAndCondition::GetChildrenAsNativeArray
 author: windows-driver-content
 description: Retrieves the conditions that make up this condition, as an ordinary array.
 old-location: winauto\uiauto_IUIAutomationAndCondition_GetChildrenAsNativeArray.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2543dd60-88cb-4477-9008-4ec8f9d8f287
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetChildrenAsNativeArray method [Windows Accessibility], GetChildrenAsNativeArray method [Windows Accessibility], IUIAutomationAndCondition interface, GetChildrenAsNativeArray,IUIAutomationAndCondition.GetChildrenAsNativeArray, IUIAutomationAndCondition, IUIAutomationAndCondition interface [Windows Accessibility], GetChildrenAsNativeArray method, IUIAutomationAndCondition::GetChildrenAsNativeArray, uiauto.uiauto_IUIAutomationAndCondition_GetChildrenAsNativeArray, uiauto_IUIAutomationAndCondition_GetChildrenAsNativeArray, uiautomationclient/IUIAutomationAndCondition::GetChildrenAsNativeArray, winauto.uiauto_IUIAutomationAndCondition_GetChildrenAsNativeArray
+ms.keywords: GetChildrenAsNativeArray, GetChildrenAsNativeArray method [Windows Accessibility], GetChildrenAsNativeArray method [Windows Accessibility],IUIAutomationAndCondition interface, IUIAutomationAndCondition interface [Windows Accessibility],GetChildrenAsNativeArray method, IUIAutomationAndCondition.GetChildrenAsNativeArray, IUIAutomationAndCondition::GetChildrenAsNativeArray, uiauto.uiauto_IUIAutomationAndCondition_GetChildrenAsNativeArray, uiauto_IUIAutomationAndCondition_GetChildrenAsNativeArray, uiautomationclient/IUIAutomationAndCondition::GetChildrenAsNativeArray, winauto.uiauto_IUIAutomationAndCondition_GetChildrenAsNativeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationAndCondition::GetChildrenAsNativeArray method
+# IUIAutomationAndCondition::GetChildrenAsNativeArray
 
 
 ## -description

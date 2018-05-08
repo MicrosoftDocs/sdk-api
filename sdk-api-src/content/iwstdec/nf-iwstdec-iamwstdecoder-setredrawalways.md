@@ -1,14 +1,14 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetRedrawAlways
-title: IAMWstDecoder::SetRedrawAlways method
+title: IAMWstDecoder::SetRedrawAlways
 author: windows-driver-content
 description: Downstream filters use the SetRedrawAlways method to determine whether the whole output bitmap should be redrawn for each sample.
 old-location: dshow\iamwstdecoder_setredrawalways.htm
 old-project: DirectShow
 ms.assetid: 4663a9c0-3d08-4f25-8742-458081536f98
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], SetRedrawAlways method, IAMWstDecoder::SetRedrawAlways, IAMWstDecoderSetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow], IAMWstDecoder interface, SetRedrawAlways,IAMWstDecoder.SetRedrawAlways, dshow.iamwstdecoder_setredrawalways, iwstdec/IAMWstDecoder::SetRedrawAlways
+ms.date: 4/30/2018
+ms.keywords: IAMWstDecoder interface [DirectShow],SetRedrawAlways method, IAMWstDecoder.SetRedrawAlways, IAMWstDecoder::SetRedrawAlways, IAMWstDecoderSetRedrawAlways, SetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setredrawalways, iwstdec/IAMWstDecoder::SetRedrawAlways
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMWstDecoder::SetRedrawAlways method
+# IAMWstDecoder::SetRedrawAlways
 
 
 ## -description

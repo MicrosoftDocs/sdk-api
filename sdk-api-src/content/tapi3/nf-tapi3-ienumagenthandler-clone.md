@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.IEnumAgentHandler.Clone
-title: IEnumAgentHandler::Clone method
+title: IEnumAgentHandler::Clone
 author: windows-driver-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumagenthandler_clone.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: a7358d0d-6d5a-4845-a212-d278a8d2b7fe
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Clone method [TAPI 2.2], Clone method [TAPI 2.2], IEnumAgentHandler interface, Clone,IEnumAgentHandler.Clone, IEnumAgentHandler, IEnumAgentHandler interface [TAPI 2.2], Clone method, IEnumAgentHandler::Clone, _tapi3_ienumagenthandler_clone, tapi3.ienumagenthandler_clone, tapi3cc/IEnumAgentHandler::Clone
+ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumAgentHandler interface, IEnumAgentHandler interface [TAPI 2.2],Clone method, IEnumAgentHandler.Clone, IEnumAgentHandler::Clone, _tapi3_ienumagenthandler_clone, tapi3.ienumagenthandler_clone, tapi3cc/IEnumAgentHandler::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumAgentHandler::Clone method
+# IEnumAgentHandler::Clone
 
 
 ## -description

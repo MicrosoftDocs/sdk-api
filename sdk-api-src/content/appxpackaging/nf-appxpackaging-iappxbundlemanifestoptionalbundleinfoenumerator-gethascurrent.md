@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent
-title: IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent method
+title: IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent
 author: windows-driver-content
 description: Determines whether there is optional bundle information at the current position of the enumerator.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator_gethascurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: C7473291-89EA-4412-848E-07257C0AC0FB
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management], IAppxBundleManifestOptionalBundleInfoEnumerator interface, GetHasCurrent,IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent, IAppxBundleManifestOptionalBundleInfoEnumerator, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management], GetHasCurrent method, IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_gethascurrent
+ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBundleManifestOptionalBundleInfoEnumerator interface, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent, IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_gethascurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent method
+# IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent
 
 
 ## -description

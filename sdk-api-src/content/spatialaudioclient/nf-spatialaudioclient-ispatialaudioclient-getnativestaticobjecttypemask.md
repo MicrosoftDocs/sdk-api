@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetNativeStaticObjectTypeMask
-title: ISpatialAudioClient::GetNativeStaticObjectTypeMask method
+title: ISpatialAudioClient::GetNativeStaticObjectTypeMask
 author: windows-driver-content
 description: Gets a channel mask which represents the subset of static speaker bed channels native to current rendering engine.
 old-location: coreaudio\ispatialaudioclient_getnativestaticobjecttypemask.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 29963682-AD45-4CEC-81A0-4B834505F9D5
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetNativeStaticObjectTypeMask method [Core Audio], GetNativeStaticObjectTypeMask method [Core Audio], ISpatialAudioClient interface, GetNativeStaticObjectTypeMask,ISpatialAudioClient.GetNativeStaticObjectTypeMask, ISpatialAudioClient, ISpatialAudioClient interface [Core Audio], GetNativeStaticObjectTypeMask method, ISpatialAudioClient::GetNativeStaticObjectTypeMask, coreaudio.ispatialaudioclient_getnativestaticobjecttypemask, spatialaudioclient/ISpatialAudioClient::GetNativeStaticObjectTypeMask
+ms.keywords: GetNativeStaticObjectTypeMask, GetNativeStaticObjectTypeMask method [Core Audio], GetNativeStaticObjectTypeMask method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetNativeStaticObjectTypeMask method, ISpatialAudioClient.GetNativeStaticObjectTypeMask, ISpatialAudioClient::GetNativeStaticObjectTypeMask, coreaudio.ispatialaudioclient_getnativestaticobjecttypemask, spatialaudioclient/ISpatialAudioClient::GetNativeStaticObjectTypeMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioClient::GetNativeStaticObjectTypeMask method
+# ISpatialAudioClient::GetNativeStaticObjectTypeMask
 
 
 ## -description

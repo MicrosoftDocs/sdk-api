@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Keywords
-title: IDataCollectorSet::get_Keywords method
+title: IDataCollectorSet::get_Keywords
 author: windows-driver-content
 description: Retrieves or sets keywords that describe the data collector set. The list of keywords is added to the output files as metadata.
 old-location: pla\idatacollectorset_get_keywords.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 0a1203e3-672b-47fb-9072-d3f06ba22865
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], Keywords property, IDataCollectorSet.Keywords, IDataCollectorSet::get_Keywords, IDataCollectorSet::put_Keywords, Keywords property [PLA], Keywords property [PLA], IDataCollectorSet interface, base.idatacollectorset_get_keywords, get_Keywords,IDataCollectorSet.get_Keywords, pla.idatacollectorset_get_keywords, pla/IDataCollectorSet::Keywords, pla/IDataCollectorSet::get_Keywords, pla/IDataCollectorSet::put_Keywords
+ms.keywords: IDataCollectorSet interface [PLA],Keywords property, IDataCollectorSet.Keywords, IDataCollectorSet.get_Keywords, IDataCollectorSet::Keywords, IDataCollectorSet::get_Keywords, IDataCollectorSet::put_Keywords, Keywords property [PLA], Keywords property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_keywords, get_Keywords, pla.idatacollectorset_get_keywords, pla/IDataCollectorSet::Keywords, pla/IDataCollectorSet::get_Keywords, pla/IDataCollectorSet::put_Keywords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::get_Keywords method
+# IDataCollectorSet::get_Keywords
 
 
 ## -description

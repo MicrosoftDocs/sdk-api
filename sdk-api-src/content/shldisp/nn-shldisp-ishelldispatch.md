@@ -7,8 +7,8 @@ old-location: shell\IShellDispatch.htm
 old-project: shell
 ms.assetid: 9B429C03-7F80-45db-B8CD-58D19FAD2E61
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellDispatch, IShellDispatch object [Windows Shell], IShellDispatch object [Windows Shell], described, shell.IShellDispatch, shldisp/IShellDispatch
+ms.date: 5/3/2018
+ms.keywords: IShellDispatch, IShellDispatch object [Windows Shell], IShellDispatch object [Windows Shell],described, shell.IShellDispatch, shldisp/IShellDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

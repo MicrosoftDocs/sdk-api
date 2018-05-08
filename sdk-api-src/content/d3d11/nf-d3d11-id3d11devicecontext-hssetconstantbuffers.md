@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSSetConstantBuffers
-title: ID3D11DeviceContext::HSSetConstantBuffers method
+title: ID3D11DeviceContext::HSSetConstantBuffers
 author: windows-driver-content
 description: Set the constant buffers used by the hull-shader stage.
 old-location: direct3d11\id3d11devicecontext_hssetconstantbuffers.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 8e3007ac-de5e-45ee-bb58-644dc857c279
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 77c659f3-f151-78f6-bab6-8322bc1851c9, HSSetConstantBuffers method [Direct3D 11], HSSetConstantBuffers method [Direct3D 11], ID3D11DeviceContext interface, HSSetConstantBuffers,ID3D11DeviceContext.HSSetConstantBuffers, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], HSSetConstantBuffers method, ID3D11DeviceContext::HSSetConstantBuffers, d3d11/ID3D11DeviceContext::HSSetConstantBuffers, direct3d11.id3d11devicecontext_hssetconstantbuffers
+ms.keywords: 77c659f3-f151-78f6-bab6-8322bc1851c9, HSSetConstantBuffers, HSSetConstantBuffers method [Direct3D 11], HSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSSetConstantBuffers method, ID3D11DeviceContext.HSSetConstantBuffers, ID3D11DeviceContext::HSSetConstantBuffers, d3d11/ID3D11DeviceContext::HSSetConstantBuffers, direct3d11.id3d11devicecontext_hssetconstantbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::HSSetConstantBuffers method
+# ID3D11DeviceContext::HSSetConstantBuffers
 
 
 ## -description

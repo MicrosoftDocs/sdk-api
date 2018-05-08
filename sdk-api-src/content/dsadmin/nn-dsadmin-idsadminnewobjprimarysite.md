@@ -7,8 +7,8 @@ old-location: ad\idsadminnewobjprimarysite.htm
 old-project: AD
 ms.assetid: cb46cb8f-28ae-44d0-b1de-dc6c090f8fc6
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: IDsAdminNewObjPrimarySite, IDsAdminNewObjPrimarySite interface [Active Directory], IDsAdminNewObjPrimarySite interface [Active Directory], described, _glines_idsadminnewobjprimarysite, ad.idsadminnewobjprimarysite, dsadmin/IDsAdminNewObjPrimarySite
+ms.date: 5/1/2018
+ms.keywords: IDsAdminNewObjPrimarySite, IDsAdminNewObjPrimarySite interface [Active Directory], IDsAdminNewObjPrimarySite interface [Active Directory],described, _glines_idsadminnewobjprimarysite, ad.idsadminnewobjprimarysite, dsadmin/IDsAdminNewObjPrimarySite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

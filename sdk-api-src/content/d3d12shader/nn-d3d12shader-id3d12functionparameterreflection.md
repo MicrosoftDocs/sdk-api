@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 9AB312BE-E174-46D2-BF24-32309BD88AC4
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12FunctionParameterReflection, ID3D12FunctionParameterReflection interface, ID3D12FunctionParameterReflection interface, described, d3d12shader/ID3D12FunctionParameterReflection, direct3d12.id3d12functionparameterreflection
+ms.keywords: ID3D12FunctionParameterReflection, ID3D12FunctionParameterReflection interface, ID3D12FunctionParameterReflection interface,described, d3d12shader/ID3D12FunctionParameterReflection, direct3d12.id3d12functionparameterreflection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

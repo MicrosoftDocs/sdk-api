@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetComponent
-title: IVssExamineWriterMetadata::GetComponent method
+title: IVssExamineWriterMetadata::GetComponent
 author: windows-driver-content
 description: The GetComponent method obtains a Writer Metadata Document for a specified backup component.
 old-location: base\ivssexaminewritermetadata_getcomponent.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: fd03ac7c-8398-4972-85f1-2afe13317950
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetComponent method [VSS], GetComponent method [VSS], IVssExamineWriterMetadata interface, GetComponent,IVssExamineWriterMetadata.GetComponent, IVssExamineWriterMetadata, IVssExamineWriterMetadata interface [VSS], GetComponent method, IVssExamineWriterMetadata::GetComponent, _win32_ivssexaminewritermetadata_getcomponent, base.ivssexaminewritermetadata_getcomponent, vsbackup/IVssExamineWriterMetadata::GetComponent
+ms.keywords: GetComponent, GetComponent method [VSS], GetComponent method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetComponent method, IVssExamineWriterMetadata.GetComponent, IVssExamineWriterMetadata::GetComponent, _win32_ivssexaminewritermetadata_getcomponent, base.ivssexaminewritermetadata_getcomponent, vsbackup/IVssExamineWriterMetadata::GetComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssExamineWriterMetadata::GetComponent method
+# IVssExamineWriterMetadata::GetComponent
 
 
 ## -description

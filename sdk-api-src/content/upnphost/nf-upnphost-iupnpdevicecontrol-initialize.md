@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPDeviceControl.Initialize
-title: IUPnPDeviceControl::Initialize method
+title: IUPnPDeviceControl::Initialize
 author: windows-driver-content
 description: The Initialize method is used to initialize the device. The device host invokes this method.
 old-location: upnp\iupnpdevicecontrol_initialize.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: 0c1ea343-f04b-414d-92cf-044cb117bc9c
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IUPnPDeviceControl, IUPnPDeviceControl interface [UPnP APIs], Initialize method, IUPnPDeviceControl::Initialize, Initialize method [UPnP APIs], Initialize method [UPnP APIs], IUPnPDeviceControl interface, Initialize,IUPnPDeviceControl.Initialize, _upnp_iupnpdevicecontrol_initialize, upnp.iupnpdevicecontrol_initialize, upnphost/IUPnPDeviceControl::Initialize
+ms.keywords: IUPnPDeviceControl interface [UPnP APIs],Initialize method, IUPnPDeviceControl.Initialize, IUPnPDeviceControl::Initialize, Initialize, Initialize method [UPnP APIs], Initialize method [UPnP APIs],IUPnPDeviceControl interface, _upnp_iupnpdevicecontrol_initialize, upnp.iupnpdevicecontrol_initialize, upnphost/IUPnPDeviceControl::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPDeviceControl::Initialize method
+# IUPnPDeviceControl::Initialize
 
 
 ## -description

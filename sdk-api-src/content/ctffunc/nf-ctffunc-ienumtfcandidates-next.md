@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Next
-title: IEnumTfCandidates::Next method
+title: IEnumTfCandidates::Next
 author: windows-driver-content
 description: IEnumTfCandidates::Next method
 old-location: tsf\ienumtfcandidates_next.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 50aaa3c0-6998-49de-9753-7be38625a10d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfCandidates, IEnumTfCandidates interface [Text Services Framework], Next method, IEnumTfCandidates::Next, Next method [Text Services Framework], Next method [Text Services Framework], IEnumTfCandidates interface, Next,IEnumTfCandidates.Next, _tsf_ienumtfcandidates_next_ref, ctffunc/IEnumTfCandidates::Next, tsf.ienumtfcandidates_next
+ms.keywords: IEnumTfCandidates interface [Text Services Framework],Next method, IEnumTfCandidates.Next, IEnumTfCandidates::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_next_ref, ctffunc/IEnumTfCandidates::Next, tsf.ienumtfcandidates_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# IEnumTfCandidates::Next method
+# IEnumTfCandidates::Next
 
 
 ## -description

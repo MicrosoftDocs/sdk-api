@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 2c3c49df-9ca5-40ea-b45c-f4eca1004602
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ICOMAdminCatalog interface [COM+], described, comadmin/ICOMAdminCatalog, cos.icomadmincatalog
+ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ICOMAdminCatalog interface [COM+],described, comadmin/ICOMAdminCatalog, cos.icomadmincatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

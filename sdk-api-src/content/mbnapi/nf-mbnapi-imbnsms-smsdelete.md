@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsDelete
-title: IMbnSms::SmsDelete method
+title: IMbnSms::SmsDelete
 author: windows-driver-content
 description: Deletes a set of SMS messages from a device.
 old-location: mbn\imbnsms_smsdelete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: cd37582e-891d-4f6a-aba3-01ad3101a6b9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], SmsDelete method, IMbnSms::SmsDelete, SmsDelete method [Microsoft Broadband Networks], SmsDelete method [Microsoft Broadband Networks], IMbnSms interface, SmsDelete,IMbnSms.SmsDelete, mbn.imbnsms_smsdelete, mbnapi/IMbnSms::SmsDelete
+ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsDelete method, IMbnSms.SmsDelete, IMbnSms::SmsDelete, SmsDelete, SmsDelete method [Microsoft Broadband Networks], SmsDelete method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smsdelete, mbnapi/IMbnSms::SmsDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSms::SmsDelete method
+# IMbnSms::SmsDelete
 
 
 ## -description

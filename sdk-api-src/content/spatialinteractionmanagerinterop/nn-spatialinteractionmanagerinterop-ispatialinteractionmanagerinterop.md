@@ -8,7 +8,7 @@ old-project: MixedReality
 ms.assetid: A6ED74DB-D56A-4133-877C-A98BCBE34F7D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISpatialInteractionManagerInterop, ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface, described, MixedReality.ispatialinteractionmanagerinterop, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop
+ms.keywords: ISpatialInteractionManagerInterop, ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,described, MixedReality.ispatialinteractionmanagerinterop, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

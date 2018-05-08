@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 9D2C6CF9-A069-40AD-9BB7-81797F7B2FE6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterSetAccountPolicy, EngineAdapterSetAccountPolicy callback function [Windows Biometric Framework API], PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN, secbiomet.engineadaptersetaccountpolicy, winbio_adapter/EngineAdapterSetAccountPolicy
+ms.keywords: EngineAdapterSetAccountPolicy, EngineAdapterSetAccountPolicy callback function [Windows Biometric Framework API], PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN, PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN callback, secbiomet.engineadaptersetaccountpolicy, winbio_adapter/EngineAdapterSetAccountPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN callback
+# PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN callback function
 
 
 ## -description

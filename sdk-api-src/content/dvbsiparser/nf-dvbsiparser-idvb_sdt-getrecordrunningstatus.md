@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.GetRecordRunningStatus
-title: IDVB_SDT::GetRecordRunningStatus method
+title: IDVB_SDT::GetRecordRunningStatus
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_getrecordrunningstatus.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a6e799b3-f90e-415f-a380-e90d69184fe2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordRunningStatus method [Microsoft TV Technologies], GetRecordRunningStatus method [Microsoft TV Technologies], IDVB_SDT interface, GetRecordRunningStatus,IDVB_SDT.GetRecordRunningStatus, IDVB_SDT, IDVB_SDT interface [Microsoft TV Technologies], GetRecordRunningStatus method, IDVB_SDT::GetRecordRunningStatus, IDVB_SDTGetRecordRunningStatus, dvbsiparser/IDVB_SDT::GetRecordRunningStatus, mstv.idvb_sdt_getrecordrunningstatus
+ms.keywords: GetRecordRunningStatus, GetRecordRunningStatus method [Microsoft TV Technologies], GetRecordRunningStatus method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordRunningStatus method, IDVB_SDT.GetRecordRunningStatus, IDVB_SDT::GetRecordRunningStatus, IDVB_SDTGetRecordRunningStatus, dvbsiparser/IDVB_SDT::GetRecordRunningStatus, mstv.idvb_sdt_getrecordrunningstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_SDT::GetRecordRunningStatus method
+# IDVB_SDT::GetRecordRunningStatus
 
 
 ## -description

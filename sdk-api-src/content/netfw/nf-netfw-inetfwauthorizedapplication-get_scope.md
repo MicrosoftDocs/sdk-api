@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_Scope
-title: INetFwAuthorizedApplication::get_Scope method
+title: INetFwAuthorizedApplication::get_Scope
 author: windows-driver-content
 description: Controls the network scope from which the port can listen.
 old-location: ics\inetfwauthorizedapplication_scope.htm
 old-project: ICS
 ms.assetid: f9784736-2af0-4bd4-980c-2365a1cdc20b
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwAuthorizedApplication, INetFwAuthorizedApplication interface [ICS/ICF], Scope property, INetFwAuthorizedApplication.Scope, INetFwAuthorizedApplication::get_Scope, INetFwAuthorizedApplication::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF], INetFwAuthorizedApplication interface, get_Scope,INetFwAuthorizedApplication.get_Scope, ics.inetfwauthorizedapplication_scope, netfw/INetFwAuthorizedApplication::Scope, netfw/INetFwAuthorizedApplication::get_Scope, netfw/INetFwAuthorizedApplication::put_Scope
+ms.date: 5/1/2018
+ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],Scope property, INetFwAuthorizedApplication.Scope, INetFwAuthorizedApplication.get_Scope, INetFwAuthorizedApplication::Scope, INetFwAuthorizedApplication::get_Scope, INetFwAuthorizedApplication::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwAuthorizedApplication interface, get_Scope, ics.inetfwauthorizedapplication_scope, netfw/INetFwAuthorizedApplication::Scope, netfw/INetFwAuthorizedApplication::get_Scope, netfw/INetFwAuthorizedApplication::put_Scope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwAuthorizedApplication::get_Scope method
+# INetFwAuthorizedApplication::get_Scope
 
 
 ## -description

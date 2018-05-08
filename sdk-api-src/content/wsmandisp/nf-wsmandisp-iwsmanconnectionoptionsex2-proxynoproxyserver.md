@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyNoProxyServer
-title: IWSManConnectionOptionsEx2::ProxyNoProxyServer method
+title: IWSManConnectionOptionsEx2::ProxyNoProxyServer
 author: windows-driver-content
 description: Returns the value of the proxy access type flag WSManProxyNoProxyServer for use in the accessType parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxynoproxyserver.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 00613052-7428-4719-9a19-fc27541af07a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManConnectionOptionsEx2, IWSManConnectionOptionsEx2 interface [Windows Remote Management], ProxyNoProxyServer method, IWSManConnectionOptionsEx2::ProxyNoProxyServer, ProxyNoProxyServer method [Windows Remote Management], ProxyNoProxyServer method [Windows Remote Management], IWSManConnectionOptionsEx2 interface, ProxyNoProxyServer,IWSManConnectionOptionsEx2.ProxyNoProxyServer, winrm.iwsmanconnectionoptionsex2_proxynoproxyserver, wsmandisp/IWSManConnectionOptionsEx2::ProxyNoProxyServer
+ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyNoProxyServer method, IWSManConnectionOptionsEx2.ProxyNoProxyServer, IWSManConnectionOptionsEx2::ProxyNoProxyServer, ProxyNoProxyServer, ProxyNoProxyServer method [Windows Remote Management], ProxyNoProxyServer method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxynoproxyserver, wsmandisp/IWSManConnectionOptionsEx2::ProxyNoProxyServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManConnectionOptionsEx2::ProxyNoProxyServer method
+# IWSManConnectionOptionsEx2::ProxyNoProxyServer
 
 
 ## -description

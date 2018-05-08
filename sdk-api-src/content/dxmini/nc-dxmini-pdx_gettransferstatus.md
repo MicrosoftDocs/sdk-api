@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e33ec8f0-2d1c-42cf-8b82-8f316f52e2a8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DxGetTransferStatus, DxGetTransferStatus callback function [Display Devices], PDX_GETTRANSFERSTATUS, VideoMiniPort_DxApiFunctions_f0260ee6-8e6c-4ab0-bad3-8d5c2ce42488.xml, display.dxgettransferstatus, dxmini/DxGetTransferStatus
+ms.keywords: DxGetTransferStatus, DxGetTransferStatus callback function [Display Devices], PDX_GETTRANSFERSTATUS, PDX_GETTRANSFERSTATUS callback, VideoMiniPort_DxApiFunctions_f0260ee6-8e6c-4ab0-bad3-8d5c2ce42488.xml, display.dxgettransferstatus, dxmini/DxGetTransferStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# PDX_GETTRANSFERSTATUS callback
+# PDX_GETTRANSFERSTATUS callback function
 
 
 ## -description

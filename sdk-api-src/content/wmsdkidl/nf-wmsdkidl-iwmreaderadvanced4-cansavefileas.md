@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.CanSaveFileAs
-title: IWMReaderAdvanced4::CanSaveFileAs method
+title: IWMReaderAdvanced4::CanSaveFileAs
 author: windows-driver-content
 description: The CanSaveFileAs method ascertains whether the content being played by the reader can be saved using the IWMReaderAdvanced2::SaveFileAs method.
 old-location: wmformat\iwmreaderadvanced4_cansavefileas.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ed4f31b6-e20f-432c-a1ec-954d85ce3a3d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: CanSaveFileAs method [windows Media Format], CanSaveFileAs method [windows Media Format], IWMReaderAdvanced4 interface, CanSaveFileAs,IWMReaderAdvanced4.CanSaveFileAs, IWMReaderAdvanced4, IWMReaderAdvanced4 interface [windows Media Format], CanSaveFileAs method, IWMReaderAdvanced4::CanSaveFileAs, IWMReaderAdvanced4CanSaveFileAs, wmformat.iwmreaderadvanced4_cansavefileas, wmsdkidl/IWMReaderAdvanced4::CanSaveFileAs
+ms.keywords: CanSaveFileAs, CanSaveFileAs method [windows Media Format], CanSaveFileAs method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],CanSaveFileAs method, IWMReaderAdvanced4.CanSaveFileAs, IWMReaderAdvanced4::CanSaveFileAs, IWMReaderAdvanced4CanSaveFileAs, wmformat.iwmreaderadvanced4_cansavefileas, wmsdkidl/IWMReaderAdvanced4::CanSaveFileAs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced4::CanSaveFileAs method
+# IWMReaderAdvanced4::CanSaveFileAs
 
 
 ## -description

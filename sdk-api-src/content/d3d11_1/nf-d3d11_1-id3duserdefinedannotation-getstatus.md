@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3DUserDefinedAnnotation.GetStatus
-title: ID3DUserDefinedAnnotation::GetStatus method
+title: ID3DUserDefinedAnnotation::GetStatus
 author: windows-driver-content
 description: Determines whether the calling application is running under a Microsoft Direct3D profiling tool.
 old-location: direct3d11\id3duserdefinedannotation_getstatus.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 67C95617-3454-4457-AB3B-FD79C176E314
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetStatus method [Direct3D 11], GetStatus method [Direct3D 11], ID3DUserDefinedAnnotation interface, GetStatus,ID3DUserDefinedAnnotation.GetStatus, ID3DUserDefinedAnnotation, ID3DUserDefinedAnnotation interface [Direct3D 11], GetStatus method, ID3DUserDefinedAnnotation::GetStatus, d3d11_1/ID3DUserDefinedAnnotation::GetStatus, direct3d11.id3duserdefinedannotation_getstatus
+ms.keywords: GetStatus, GetStatus method [Direct3D 11], GetStatus method [Direct3D 11],ID3DUserDefinedAnnotation interface, ID3DUserDefinedAnnotation interface [Direct3D 11],GetStatus method, ID3DUserDefinedAnnotation.GetStatus, ID3DUserDefinedAnnotation::GetStatus, d3d11_1/ID3DUserDefinedAnnotation::GetStatus, direct3d11.id3duserdefinedannotation_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3DUserDefinedAnnotation::GetStatus method
+# ID3DUserDefinedAnnotation::GetStatus
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IUserNotificationCallback.OnBalloonUserClick
-title: IUserNotificationCallback::OnBalloonUserClick method
+title: IUserNotificationCallback::OnBalloonUserClick
 author: windows-driver-content
 description: Called when the user clicks the balloon. The application may respond with an action that is suitable for the balloon being clicked.
 old-location: shell\IUserNotificationCallback_OnBalloonUserClick.htm
 old-project: shell
 ms.assetid: b7360a2b-30ed-459e-ab6d-56a2127c2668
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IUserNotificationCallback, IUserNotificationCallback interface [Windows Shell], OnBalloonUserClick method, IUserNotificationCallback::OnBalloonUserClick, OnBalloonUserClick method [Windows Shell], OnBalloonUserClick method [Windows Shell], IUserNotificationCallback interface, OnBalloonUserClick,IUserNotificationCallback.OnBalloonUserClick, _shell_IUserNotificationCallback_OnBalloonUserClick, shell.IUserNotificationCallback_OnBalloonUserClick, shobjidl/IUserNotificationCallback::OnBalloonUserClick
+ms.date: 5/3/2018
+ms.keywords: IUserNotificationCallback interface [Windows Shell],OnBalloonUserClick method, IUserNotificationCallback.OnBalloonUserClick, IUserNotificationCallback::OnBalloonUserClick, OnBalloonUserClick, OnBalloonUserClick method [Windows Shell], OnBalloonUserClick method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnBalloonUserClick, shell.IUserNotificationCallback_OnBalloonUserClick, shobjidl/IUserNotificationCallback::OnBalloonUserClick
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IUserNotificationCallback::OnBalloonUserClick method
+# IUserNotificationCallback::OnBalloonUserClick
 
 
 ## -description

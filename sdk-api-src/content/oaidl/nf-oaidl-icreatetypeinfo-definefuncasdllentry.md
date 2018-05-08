@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.DefineFuncAsDllEntry
-title: ICreateTypeInfo::DefineFuncAsDllEntry method
+title: ICreateTypeInfo::DefineFuncAsDllEntry
 author: windows-driver-content
 description: Associates a DLL entry point with the function that has the specified index.
 old-location: automat\icreatetypeinfo_definefuncasdllentry.htm
 old-project: automat
 ms.assetid: 47ec09af-0642-4645-b946-acabbb7c028a
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: DefineFuncAsDllEntry method [Automation], DefineFuncAsDllEntry method [Automation], ICreateTypeInfo interface, DefineFuncAsDllEntry,ICreateTypeInfo.DefineFuncAsDllEntry, ICreateTypeInfo, ICreateTypeInfo interface [Automation], DefineFuncAsDllEntry method, ICreateTypeInfo::DefineFuncAsDllEntry, _oa96_ICreateTypeInfo_DefineFuncAsDllEntry, automat.icreatetypeinfo_definefuncasdllentry, oaidl/ICreateTypeInfo::DefineFuncAsDllEntry
+ms.date: 5/4/2018
+ms.keywords: DefineFuncAsDllEntry, DefineFuncAsDllEntry method [Automation], DefineFuncAsDllEntry method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],DefineFuncAsDllEntry method, ICreateTypeInfo.DefineFuncAsDllEntry, ICreateTypeInfo::DefineFuncAsDllEntry, _oa96_ICreateTypeInfo_DefineFuncAsDllEntry, automat.icreatetypeinfo_definefuncasdllentry, oaidl/ICreateTypeInfo::DefineFuncAsDllEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo::DefineFuncAsDllEntry method
+# ICreateTypeInfo::DefineFuncAsDllEntry
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.WriteSection
-title: IWriteEngine2::WriteSection method
+title: IWriteEngine2::WriteSection
 author: windows-driver-content
 description: Writes a data stream to the current recorder.
 old-location: imapi\iwriteengine2_writesection.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: a6158984-04d3-4919-8a67-fc860b4b3a47
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IWriteEngine2, IWriteEngine2 interface [IMAPI], WriteSection method, IWriteEngine2::WriteSection, WriteSection method [IMAPI], WriteSection method [IMAPI], IWriteEngine2 interface, WriteSection,IWriteEngine2.WriteSection, imapi.iwriteengine2_writesection, imapi2/IWriteEngine2::WriteSection
+ms.keywords: IWriteEngine2 interface [IMAPI],WriteSection method, IWriteEngine2.WriteSection, IWriteEngine2::WriteSection, WriteSection, WriteSection method [IMAPI], WriteSection method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_writesection, imapi2/IWriteEngine2::WriteSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWriteEngine2::WriteSection method
+# IWriteEngine2::WriteSection
 
 
 ## -description

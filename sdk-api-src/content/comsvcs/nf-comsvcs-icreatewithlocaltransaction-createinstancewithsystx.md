@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICreateWithLocalTransaction.CreateInstanceWithSysTx
-title: ICreateWithLocalTransaction::CreateInstanceWithSysTx method
+title: ICreateWithLocalTransaction::CreateInstanceWithSysTx
 author: windows-driver-content
 description: Creates a COM+ object that executes within the scope of the specified local transaction.
 old-location: cos\icreatewithlocaltransaction_createinstancewithsystx.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: e56a1810-77e7-47fa-b8b1-bb1ebc5662fd
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateInstanceWithSysTx method [COM+], CreateInstanceWithSysTx method [COM+], ICreateWithLocalTransaction interface, CreateInstanceWithSysTx,ICreateWithLocalTransaction.CreateInstanceWithSysTx, ICreateWithLocalTransaction, ICreateWithLocalTransaction interface [COM+], CreateInstanceWithSysTx method, ICreateWithLocalTransaction::CreateInstanceWithSysTx, comsvcs/ICreateWithLocalTransaction::CreateInstanceWithSysTx, cos.icreatewithlocaltransaction_createinstancewithsystx
+ms.keywords: CreateInstanceWithSysTx, CreateInstanceWithSysTx method [COM+], CreateInstanceWithSysTx method [COM+],ICreateWithLocalTransaction interface, ICreateWithLocalTransaction interface [COM+],CreateInstanceWithSysTx method, ICreateWithLocalTransaction.CreateInstanceWithSysTx, ICreateWithLocalTransaction::CreateInstanceWithSysTx, comsvcs/ICreateWithLocalTransaction::CreateInstanceWithSysTx, cos.icreatewithlocaltransaction_createinstancewithsystx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICreateWithLocalTransaction::CreateInstanceWithSysTx method
+# ICreateWithLocalTransaction::CreateInstanceWithSysTx
 
 
 ## -description

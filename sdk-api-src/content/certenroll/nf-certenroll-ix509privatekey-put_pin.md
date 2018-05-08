@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Pin
-title: IX509PrivateKey::put_Pin method
+title: IX509PrivateKey::put_Pin
 author: windows-driver-content
 description: Specifies a personal identification number (PIN) that is used to authenticate users prior to accessing a private key container on a smart card.
 old-location: security\ix509privatekey_pin.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: d81fad8a-767d-48c8-874a-c34843600b13
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], Pin property, IX509PrivateKey.Pin, IX509PrivateKey::put_Pin, Pin property [Security], Pin property [Security], IX509PrivateKey interface, certenroll/IX509PrivateKey::Pin, certenroll/IX509PrivateKey::put_Pin, put_Pin,IX509PrivateKey.put_Pin, security.ix509privatekey_pin
+ms.keywords: IX509PrivateKey interface [Security],Pin property, IX509PrivateKey.Pin, IX509PrivateKey.put_Pin, IX509PrivateKey::Pin, IX509PrivateKey::put_Pin, Pin property [Security], Pin property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Pin, certenroll/IX509PrivateKey::put_Pin, put_Pin, security.ix509privatekey_pin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PrivateKey::put_Pin method
+# IX509PrivateKey::put_Pin
 
 
 ## -description

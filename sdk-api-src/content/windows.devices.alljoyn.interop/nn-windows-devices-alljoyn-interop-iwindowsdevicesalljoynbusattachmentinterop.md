@@ -8,7 +8,7 @@ old-project: AllJoyn
 ms.assetid: F08A2D95-A84E-47C9-9485-98306993DB52
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsDevicesAllJoynBusAttachmentInterop, IWindowsDevicesAllJoynBusAttachmentInterop interface [AllJoyn API], IWindowsDevicesAllJoynBusAttachmentInterop interface [AllJoyn API], described, alljoyn.iwindowsdevicesalljoynbusattachmentinterop, windows/IWindowsDevicesAllJoynBusAttachmentInterop
+ms.keywords: IWindowsDevicesAllJoynBusAttachmentInterop, IWindowsDevicesAllJoynBusAttachmentInterop interface [AllJoyn API], IWindowsDevicesAllJoynBusAttachmentInterop interface [AllJoyn API],described, alljoyn.iwindowsdevicesalljoynbusattachmentinterop, windows/IWindowsDevicesAllJoynBusAttachmentInterop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

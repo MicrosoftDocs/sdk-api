@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsLocallyModifiedData
-title: IOfflineFilesChangeInfo::IsLocallyModifiedData method
+title: IOfflineFilesChangeInfo::IsLocallyModifiedData
 author: windows-driver-content
 description: Determines whether an item's data was modified while working offline.
 old-location: of\iofflinefileschangeinfo_islocallymodifieddata.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: d27999af-147e-4c1b-be89-58191292337d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesChangeInfo, IOfflineFilesChangeInfo interface [Offline Files], IsLocallyModifiedData method, IOfflineFilesChangeInfo::IsLocallyModifiedData, IsLocallyModifiedData method [Offline Files], IsLocallyModifiedData method [Offline Files], IOfflineFilesChangeInfo interface, IsLocallyModifiedData,IOfflineFilesChangeInfo.IsLocallyModifiedData, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedData, of.iofflinefileschangeinfo_islocallymodifieddata
+ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsLocallyModifiedData method, IOfflineFilesChangeInfo.IsLocallyModifiedData, IOfflineFilesChangeInfo::IsLocallyModifiedData, IsLocallyModifiedData, IsLocallyModifiedData method [Offline Files], IsLocallyModifiedData method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedData, of.iofflinefileschangeinfo_islocallymodifieddata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesChangeInfo::IsLocallyModifiedData method
+# IOfflineFilesChangeInfo::IsLocallyModifiedData
 
 
 ## -description

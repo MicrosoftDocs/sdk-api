@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMPEG2StreamIdMap.MapStreamId
-title: IMPEG2StreamIdMap::MapStreamId method
+title: IMPEG2StreamIdMap::MapStreamId
 author: windows-driver-content
 description: The MapStreamId method maps the Stream ID of an elementary stream within an MPEG-2 program stream to a media content type and substream filtering information.
 old-location: dshow\impeg2streamidmap_mapstreamid.htm
 old-project: DirectShow
 ms.assetid: e74a1e62-1bc4-43e1-9017-85012b2ece01
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMPEG2StreamIdMap, IMPEG2StreamIdMap interface [DirectShow], MapStreamId method, IMPEG2StreamIdMap::MapStreamId, IMPEG2StreamIdMapMapStreamId, MapStreamId method [DirectShow], MapStreamId method [DirectShow], IMPEG2StreamIdMap interface, MapStreamId,IMPEG2StreamIdMap.MapStreamId, dshow.impeg2streamidmap_mapstreamid, strmif/IMPEG2StreamIdMap::MapStreamId
+ms.date: 4/30/2018
+ms.keywords: IMPEG2StreamIdMap interface [DirectShow],MapStreamId method, IMPEG2StreamIdMap.MapStreamId, IMPEG2StreamIdMap::MapStreamId, IMPEG2StreamIdMapMapStreamId, MapStreamId, MapStreamId method [DirectShow], MapStreamId method [DirectShow],IMPEG2StreamIdMap interface, dshow.impeg2streamidmap_mapstreamid, strmif/IMPEG2StreamIdMap::MapStreamId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMPEG2StreamIdMap::MapStreamId method
+# IMPEG2StreamIdMap::MapStreamId
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.GetRecordCount
-title: IWMMutualExclusion2::GetRecordCount method
+title: IWMMutualExclusion2::GetRecordCount
 author: windows-driver-content
 description: The GetRecordCount method retrieves the number of records present in the mutual exclusion object.
 old-location: wmformat\iwmmutualexclusion2_getrecordcount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 6e113601-1ac7-42a3-8e46-f1ba67ebb071
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetRecordCount method [windows Media Format], GetRecordCount method [windows Media Format], IWMMutualExclusion2 interface, GetRecordCount,IWMMutualExclusion2.GetRecordCount, IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media Format], GetRecordCount method, IWMMutualExclusion2::GetRecordCount, IWMMutualExclusion2GetRecordCount, wmformat.iwmmutualexclusion2_getrecordcount, wmsdkidl/IWMMutualExclusion2::GetRecordCount
+ms.keywords: GetRecordCount, GetRecordCount method [windows Media Format], GetRecordCount method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetRecordCount method, IWMMutualExclusion2.GetRecordCount, IWMMutualExclusion2::GetRecordCount, IWMMutualExclusion2GetRecordCount, wmformat.iwmmutualexclusion2_getrecordcount, wmsdkidl/IWMMutualExclusion2::GetRecordCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMMutualExclusion2::GetRecordCount method
+# IWMMutualExclusion2::GetRecordCount
 
 
 ## -description

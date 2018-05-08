@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun.GetIdentificationData
-title: IVdsLun::GetIdentificationData method
+title: IVdsLun::GetIdentificationData
 author: windows-driver-content
 description: Returns data from the SCSI Inquiry Data and Vital Product Data pages 0x80 and 0x83.
 old-location: base\ivdslun_getidentificationdata.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: ab72cbe0-d10d-49af-87a0-4da28f79b124
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetIdentificationData method [VDS], GetIdentificationData method [VDS], IVdsLun interface, GetIdentificationData,IVdsLun.GetIdentificationData, IVdsLun, IVdsLun interface [VDS], GetIdentificationData method, IVdsLun::GetIdentificationData, base.ivdslun_getidentificationdata, vds/IVdsLun::GetIdentificationData, vdshwprv/IVdsLun::GetIdentificationData
+ms.keywords: GetIdentificationData, GetIdentificationData method [VDS], GetIdentificationData method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetIdentificationData method, IVdsLun.GetIdentificationData, IVdsLun::GetIdentificationData, base.ivdslun_getidentificationdata, vds/IVdsLun::GetIdentificationData, vdshwprv/IVdsLun::GetIdentificationData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLun::GetIdentificationData method
+# IVdsLun::GetIdentificationData
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.get_BlockedFileGroups
-title: IFsrmFileScreenBase::get_BlockedFileGroups method
+title: IFsrmFileScreenBase::get_BlockedFileGroups
 author: windows-driver-content
 description: Retrieves or sets the names of the file groups that contain the file name patterns used to specify the files that are blocked by this screen.
 old-location: fsrm\ifsrmfilescreenbase_blockedfilegroups.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 1f75fa45-8de8-42ca-a0f5-5ffe8acea6b8
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: BlockedFileGroups property [File Server Resource Manager], BlockedFileGroups property [File Server Resource Manager], IFsrmFileScreenBase interface, IFsrmFileScreenBase, IFsrmFileScreenBase interface [File Server Resource Manager], BlockedFileGroups property, IFsrmFileScreenBase.BlockedFileGroups, IFsrmFileScreenBase::get_BlockedFileGroups, IFsrmFileScreenBase::put_BlockedFileGroups, fs.ifsrmfilescreenbase_blockedfilegroups, fsrm.ifsrmfilescreenbase_blockedfilegroups, fsrmscreen/IFsrmFileScreenBase::BlockedFileGroups, fsrmscreen/IFsrmFileScreenBase::get_BlockedFileGroups, fsrmscreen/IFsrmFileScreenBase::put_BlockedFileGroups, get_BlockedFileGroups,IFsrmFileScreenBase.get_BlockedFileGroups
+ms.keywords: BlockedFileGroups property [File Server Resource Manager], BlockedFileGroups property [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],BlockedFileGroups property, IFsrmFileScreenBase.BlockedFileGroups, IFsrmFileScreenBase.get_BlockedFileGroups, IFsrmFileScreenBase::BlockedFileGroups, IFsrmFileScreenBase::get_BlockedFileGroups, IFsrmFileScreenBase::put_BlockedFileGroups, fs.ifsrmfilescreenbase_blockedfilegroups, fsrm.ifsrmfilescreenbase_blockedfilegroups, fsrmscreen/IFsrmFileScreenBase::BlockedFileGroups, fsrmscreen/IFsrmFileScreenBase::get_BlockedFileGroups, fsrmscreen/IFsrmFileScreenBase::put_BlockedFileGroups, get_BlockedFileGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenBase::get_BlockedFileGroups method
+# IFsrmFileScreenBase::get_BlockedFileGroups
 
 
 ## -description

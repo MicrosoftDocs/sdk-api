@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetTransform
-title: IXpsOMVisual::GetTransform method
+title: IXpsOMVisual::GetTransform
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the visual's resolved matrix transform.
 old-location: xps\ixpsomvisual_gettransform.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 966916c9-8b63-468b-80fb-0c4863ff893a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging], IXpsOMVisual interface, GetTransform,IXpsOMVisual.GetTransform, IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], GetTransform method, IXpsOMVisual::GetTransform, xps.ixpsomvisual_gettransform, xpsobjectmodel/IXpsOMVisual::GetTransform
+ms.keywords: GetTransform, GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetTransform method, IXpsOMVisual.GetTransform, IXpsOMVisual::GetTransform, xps.ixpsomvisual_gettransform, xpsobjectmodel/IXpsOMVisual::GetTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::GetTransform method
+# IXpsOMVisual::GetTransform
 
 
 ## -description

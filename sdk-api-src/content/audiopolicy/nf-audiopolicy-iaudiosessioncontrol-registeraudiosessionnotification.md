@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.RegisterAudioSessionNotification
-title: IAudioSessionControl::RegisterAudioSessionNotification method
+title: IAudioSessionControl::RegisterAudioSessionNotification
 author: windows-driver-content
 description: The RegisterAudioSessionNotification method registers the client to receive notifications of session events, including changes in the stream state.
 old-location: coreaudio\iaudiosessioncontrol_registeraudiosessionnotification.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: f0004eb6-1b3c-4f78-9ab4-17b30dec0d94
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioSessionControl, IAudioSessionControl interface [Core Audio], RegisterAudioSessionNotification method, IAudioSessionControl::RegisterAudioSessionNotification, IAudioSessionControlRegisterAudioSessionNotification, RegisterAudioSessionNotification method [Core Audio], RegisterAudioSessionNotification method [Core Audio], IAudioSessionControl interface, RegisterAudioSessionNotification,IAudioSessionControl.RegisterAudioSessionNotification, audiopolicy/IAudioSessionControl::RegisterAudioSessionNotification, coreaudio.iaudiosessioncontrol_registeraudiosessionnotification
+ms.keywords: IAudioSessionControl interface [Core Audio],RegisterAudioSessionNotification method, IAudioSessionControl.RegisterAudioSessionNotification, IAudioSessionControl::RegisterAudioSessionNotification, IAudioSessionControlRegisterAudioSessionNotification, RegisterAudioSessionNotification, RegisterAudioSessionNotification method [Core Audio], RegisterAudioSessionNotification method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::RegisterAudioSessionNotification, coreaudio.iaudiosessioncontrol_registeraudiosessionnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionControl::RegisterAudioSessionNotification method
+# IAudioSessionControl::RegisterAudioSessionNotification
 
 
 ## -description

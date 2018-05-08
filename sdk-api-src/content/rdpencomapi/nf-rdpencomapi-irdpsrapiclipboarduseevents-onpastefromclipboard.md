@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
-title: IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard method
+title: IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
 author: windows-driver-content
 description: This callback is issued when an attempt to copy data from the sharer computer is made.
 old-location: rdp\irdpsrapiclipboarduseevents_onpastefromclipboard.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: aa5fccb9-ca7b-4779-a454-f16be8bca72c
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIClipboardUseEvents, IRDPSRAPIClipboardUseEvents interface [RDP], OnPasteFromClipboard method, IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard, OnPasteFromClipboard method [RDP], OnPasteFromClipboard method [RDP], IRDPSRAPIClipboardUseEvents interface, OnPasteFromClipboard,IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard, rdp.irdpsrapiclipboarduseevents_onpastefromclipboard, rdpencomapi/IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
+ms.keywords: IRDPSRAPIClipboardUseEvents interface [RDP],OnPasteFromClipboard method, IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard, IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard, OnPasteFromClipboard, OnPasteFromClipboard method [RDP], OnPasteFromClipboard method [RDP],IRDPSRAPIClipboardUseEvents interface, rdp.irdpsrapiclipboarduseevents_onpastefromclipboard, rdpencomapi/IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard method
+# IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
 
 
 ## -description

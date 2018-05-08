@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackupCollection.get__NewEnum
-title: IGPMStarterGPOBackupCollection::get__NewEnum method
+title: IGPMStarterGPOBackupCollection::get__NewEnum
 author: windows-driver-content
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmstartergpobackupcollection_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 87748dba-fe77-43a5-a9d1-8e068b96e197
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IGPMStarterGPOBackupCollection, IGPMStarterGPOBackupCollection::get__NewEnum, IGPMstarterGPOBackupCollection interface [GPMC], get__NewEnum method, IGPMstarterGPOBackupCollection::get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC], IGPMstarterGPOBackupCollection interface, get__NewEnum,IGPMStarterGPOBackupCollection.get__NewEnum, gpmc.igpmstartergpobackupcollection_get__newenum, gpmgmt/IGPMstarterGPOBackupCollection::get__NewEnum
+ms.keywords: IGPMStarterGPOBackupCollection.get__NewEnum, IGPMStarterGPOBackupCollection::get__NewEnum, IGPMstarterGPOBackupCollection interface [GPMC],get__NewEnum method, IGPMstarterGPOBackupCollection::get__NewEnum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMstarterGPOBackupCollection interface, gpmc.igpmstartergpobackupcollection_get__newenum, gpmgmt/IGPMstarterGPOBackupCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMStarterGPOBackupCollection::get__NewEnum method
+# IGPMStarterGPOBackupCollection::get__NewEnum
 
 
 ## -description

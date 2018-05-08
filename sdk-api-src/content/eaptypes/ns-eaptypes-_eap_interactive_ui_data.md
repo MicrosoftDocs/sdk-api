@@ -97,6 +97,16 @@ An <a href="https://msdn.microsoft.com/0b3cd58c-9396-4c79-842b-76bf03aa7d7a">EAP
 The size of the data pointed to by <i>pbUiData</i>, in bytes.
 
 
+### -field pbUiData.switch_is
+
+ 
+
+
+### -field pbUiData.switch_is.dwDataType
+
+ 
+
+
 ### -field pbUiData
 
 A pointer to an <a href="https://msdn.microsoft.com/e4b49cbd-b50d-474c-b6b5-8ff858eca424">EAP_UI_DATA_FORMAT</a> union that contains information about specific user interface components that correspond to the type specified in <i>dwDataType</i>.

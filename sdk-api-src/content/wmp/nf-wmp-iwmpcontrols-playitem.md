@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPControls.playItem
-title: IWMPControls::playItem method
+title: IWMPControls::playItem
 author: windows-driver-content
 description: The playItem method plays the specified media item.
 old-location: wmp\iwmpcontrols_playitem.htm
 old-project: WMP
 ms.assetid: 8d4282b0-08a9-4c66-ab8b-93429e77e05d
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], playItem method, IWMPControls::playItem, IWMPControlsplayItem, playItem method [Windows Media Player], playItem method [Windows Media Player], IWMPControls interface, playItem,IWMPControls.playItem, wmp.iwmpcontrols_playitem, wmp/IWMPControls::playItem
+ms.date: 5/4/2018
+ms.keywords: IWMPControls interface [Windows Media Player],playItem method, IWMPControls.playItem, IWMPControls::playItem, IWMPControlsplayItem, playItem, playItem method [Windows Media Player], playItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_playitem, wmp/IWMPControls::playItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPControls::playItem method
+# IWMPControls::playItem
 
 
 ## -description

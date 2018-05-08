@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetHidden
-title: ITextFont::GetHidden method
+title: ITextFont::GetHidden
 author: windows-driver-content
 description: Gets whether characters are hidden.
 old-location: controls\ITextFont_GetHidden.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gethidden.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetHidden method [Windows Controls], GetHidden method [Windows Controls], ITextFont interface, GetHidden,ITextFont.GetHidden, ITextFont, ITextFont interface [Windows Controls], GetHidden method, ITextFont::GetHidden, _win32_ITextFont_GetHidden, _win32_ITextFont_GetHidden_cpp, controls.ITextFont_GetHidden, controls._win32_ITextFont_GetHidden, tom/ITextFont::GetHidden
+ms.date: 4/27/2018
+ms.keywords: GetHidden, GetHidden method [Windows Controls], GetHidden method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetHidden method, ITextFont.GetHidden, ITextFont::GetHidden, _win32_ITextFont_GetHidden, _win32_ITextFont_GetHidden_cpp, controls.ITextFont_GetHidden, controls._win32_ITextFont_GetHidden, tom/ITextFont::GetHidden
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetHidden method
+# ITextFont::GetHidden
 
 
 ## -description

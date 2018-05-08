@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_AudioRenderersAvailable
-title: IMSVidCtl::get_AudioRenderersAvailable method
+title: IMSVidCtl::get_AudioRenderersAvailable
 author: windows-driver-content
 description: The get_AudioRenderersAvailable method retrieves the available audio renderers.
 old-location: mstv\imsvidctl_get_audiorenderersavailable.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6ab81536-2701-408e-be3a-f44375ef8193
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], get_AudioRenderersAvailable method, IMSVidCtl::get_AudioRenderersAvailable, IMSVidCtlget_AudioRenderersAvailable, get_AudioRenderersAvailable method [Microsoft TV Technologies], get_AudioRenderersAvailable method [Microsoft TV Technologies], IMSVidCtl interface, get_AudioRenderersAvailable,IMSVidCtl.get_AudioRenderersAvailable, mstv.imsvidctl_get_audiorenderersavailable, msvidctl/IMSVidCtl::get_AudioRenderersAvailable
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_AudioRenderersAvailable method, IMSVidCtl.get_AudioRenderersAvailable, IMSVidCtl::get_AudioRenderersAvailable, IMSVidCtlget_AudioRenderersAvailable, get_AudioRenderersAvailable, get_AudioRenderersAvailable method [Microsoft TV Technologies], get_AudioRenderersAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_audiorenderersavailable, msvidctl/IMSVidCtl::get_AudioRenderersAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::get_AudioRenderersAvailable method
+# IMSVidCtl::get_AudioRenderersAvailable
 
 
 ## -description

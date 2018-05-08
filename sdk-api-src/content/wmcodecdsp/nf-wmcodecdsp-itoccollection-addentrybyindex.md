@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.AddEntryByIndex
-title: ITocCollection::AddEntryByIndex method
+title: ITocCollection::AddEntryByIndex
 author: windows-driver-content
 description: The AddEntryByIndex adds an individual table of contents to the collection and associates a caller-supplied index with the table of contents.
 old-location: mf\itoccollection_addentrybyindex.htm
 old-project: medfound
 ms.assetid: 61f3103b-9b81-4729-a410-ab5ea63e072c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddEntryByIndex method [Media Foundation], AddEntryByIndex method [Media Foundation], ITocCollection interface, AddEntryByIndex,ITocCollection.AddEntryByIndex, ITocCollection, ITocCollection interface [Media Foundation], AddEntryByIndex method, ITocCollection::AddEntryByIndex, codecapi.itoccollection_addentrybyindex, mf.itoccollection_addentrybyindex, wmcodecdsp/ITocCollection::AddEntryByIndex
+ms.date: 5/3/2018
+ms.keywords: AddEntryByIndex, AddEntryByIndex method [Media Foundation], AddEntryByIndex method [Media Foundation],ITocCollection interface, ITocCollection interface [Media Foundation],AddEntryByIndex method, ITocCollection.AddEntryByIndex, ITocCollection::AddEntryByIndex, codecapi.itoccollection_addentrybyindex, mf.itoccollection_addentrybyindex, wmcodecdsp/ITocCollection::AddEntryByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocCollection::AddEntryByIndex method
+# ITocCollection::AddEntryByIndex
 
 
 ## -description

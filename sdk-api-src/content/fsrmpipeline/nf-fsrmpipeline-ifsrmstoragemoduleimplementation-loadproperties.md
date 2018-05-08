@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleImplementation.LoadProperties
-title: IFsrmStorageModuleImplementation::LoadProperties method
+title: IFsrmStorageModuleImplementation::LoadProperties
 author: windows-driver-content
 description: Instructs the storage module to load all properties.
 old-location: fsrm\ifsrmstoragemoduleimplementation_loadproperties.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 05de6dfe-0f90-4866-bedc-72b8fea9dfac
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmStorageModuleImplementation, IFsrmStorageModuleImplementation interface [File Server Resource Manager], LoadProperties method, IFsrmStorageModuleImplementation::LoadProperties, LoadProperties method [File Server Resource Manager], LoadProperties method [File Server Resource Manager], IFsrmStorageModuleImplementation interface, LoadProperties,IFsrmStorageModuleImplementation.LoadProperties, fs.ifsrmstoragemoduleimplementation_loadproperties, fsrm.ifsrmstoragemoduleimplementation_loadproperties, fsrmpipeline/IFsrmStorageModuleImplementation::LoadProperties
+ms.keywords: IFsrmStorageModuleImplementation interface [File Server Resource Manager],LoadProperties method, IFsrmStorageModuleImplementation.LoadProperties, IFsrmStorageModuleImplementation::LoadProperties, LoadProperties, LoadProperties method [File Server Resource Manager], LoadProperties method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmstoragemoduleimplementation_loadproperties, fsrm.ifsrmstoragemoduleimplementation_loadproperties, fsrmpipeline/IFsrmStorageModuleImplementation::LoadProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmStorageModuleImplementation::LoadProperties method
+# IFsrmStorageModuleImplementation::LoadProperties
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFNetCredential.GetPassword
-title: IMFNetCredential::GetPassword method
+title: IMFNetCredential::GetPassword
 author: windows-driver-content
 description: Retrieves the password.
 old-location: mf\imfnetcredential_getpassword.htm
 old-project: medfound
 ms.assetid: ab7a4999-4a08-472c-bb7e-7068f2e2ac34
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetPassword method [Media Foundation], GetPassword method [Media Foundation], IMFNetCredential interface, GetPassword,IMFNetCredential.GetPassword, IMFNetCredential, IMFNetCredential interface [Media Foundation], GetPassword method, IMFNetCredential::GetPassword, ab7a4999-4a08-472c-bb7e-7068f2e2ac34, mf.imfnetcredential_getpassword, mfidl/IMFNetCredential::GetPassword
+ms.date: 5/3/2018
+ms.keywords: GetPassword, GetPassword method [Media Foundation], GetPassword method [Media Foundation],IMFNetCredential interface, IMFNetCredential interface [Media Foundation],GetPassword method, IMFNetCredential.GetPassword, IMFNetCredential::GetPassword, ab7a4999-4a08-472c-bb7e-7068f2e2ac34, mf.imfnetcredential_getpassword, mfidl/IMFNetCredential::GetPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFNetCredential::GetPassword method
+# IMFNetCredential::GetPassword
 
 
 ## -description

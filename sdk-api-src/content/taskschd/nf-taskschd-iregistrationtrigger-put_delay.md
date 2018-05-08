@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationTrigger.put_Delay
-title: IRegistrationTrigger::put_Delay method
+title: IRegistrationTrigger::put_Delay
 author: windows-driver-content
 description: Gets or sets the amount of time between when the task is registered and when the task is started.
 old-location: taskschd\iregistrationtrigger_delay.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 9331dd84-a040-4778-baa4-b61981ec6444
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler], IRegistrationTrigger interface, IRegistrationTrigger, IRegistrationTrigger interface [Task Scheduler], Delay property, IRegistrationTrigger.Delay, IRegistrationTrigger::get_Delay, IRegistrationTrigger::put_Delay, put_Delay,IRegistrationTrigger.put_Delay, taskschd.iregistrationtrigger_delay, taskschd/IRegistrationTrigger::Delay, taskschd/IRegistrationTrigger::get_Delay, taskschd/IRegistrationTrigger::put_Delay
+ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],IRegistrationTrigger interface, IRegistrationTrigger interface [Task Scheduler],Delay property, IRegistrationTrigger.Delay, IRegistrationTrigger.put_Delay, IRegistrationTrigger::Delay, IRegistrationTrigger::get_Delay, IRegistrationTrigger::put_Delay, put_Delay, taskschd.iregistrationtrigger_delay, taskschd/IRegistrationTrigger::Delay, taskschd/IRegistrationTrigger::get_Delay, taskschd/IRegistrationTrigger::put_Delay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegistrationTrigger::put_Delay method
+# IRegistrationTrigger::put_Delay
 
 
 ## -description

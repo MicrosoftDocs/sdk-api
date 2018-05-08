@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IAudioOutputSelector.GetSelection
-title: IAudioOutputSelector::GetSelection method
+title: IAudioOutputSelector::GetSelection
 author: windows-driver-content
 description: The GetSelection method gets the local ID of the part that is connected to the selector output that is currently selected.
 old-location: coreaudio\iaudiooutputselector_getselection.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: af4b1a1d-b08d-4165-a011-bdbd1e063e74
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetSelection method [Core Audio], GetSelection method [Core Audio], IAudioOutputSelector interface, GetSelection,IAudioOutputSelector.GetSelection, IAudioOutputSelector, IAudioOutputSelector interface [Core Audio], GetSelection method, IAudioOutputSelector::GetSelection, IAudioOutputSelectorGetSelection, coreaudio.iaudiooutputselector_getselection, devicetopology/IAudioOutputSelector::GetSelection
+ms.keywords: GetSelection, GetSelection method [Core Audio], GetSelection method [Core Audio],IAudioOutputSelector interface, IAudioOutputSelector interface [Core Audio],GetSelection method, IAudioOutputSelector.GetSelection, IAudioOutputSelector::GetSelection, IAudioOutputSelectorGetSelection, coreaudio.iaudiooutputselector_getselection, devicetopology/IAudioOutputSelector::GetSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioOutputSelector::GetSelection method
+# IAudioOutputSelector::GetSelection
 
 
 ## -description

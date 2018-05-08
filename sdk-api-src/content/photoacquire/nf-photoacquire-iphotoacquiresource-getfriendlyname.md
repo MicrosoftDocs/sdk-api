@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetFriendlyName
-title: IPhotoAcquireSource::GetFriendlyName method
+title: IPhotoAcquireSource::GetFriendlyName
 author: windows-driver-content
 description: The GetFriendlyName method retrieves the name of the device, formatted for display.
 old-location: picacq\iphotoacquiresource_getfriendlyname.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: e6e1c5d7-b9d8-479a-a8e5-53124b55369d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetFriendlyName method [Picture Acquisition], GetFriendlyName method [Picture Acquisition], IPhotoAcquireSource interface, GetFriendlyName,IPhotoAcquireSource.GetFriendlyName, IPhotoAcquireSource, IPhotoAcquireSource interface [Picture Acquisition], GetFriendlyName method, IPhotoAcquireSource::GetFriendlyName, IPhotoAcquireSourceGetFriendlyName, photoacquire/IPhotoAcquireSource::GetFriendlyName, picacq.iphotoacquiresource_getfriendlyname
+ms.keywords: GetFriendlyName, GetFriendlyName method [Picture Acquisition], GetFriendlyName method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetFriendlyName method, IPhotoAcquireSource.GetFriendlyName, IPhotoAcquireSource::GetFriendlyName, IPhotoAcquireSourceGetFriendlyName, photoacquire/IPhotoAcquireSource::GetFriendlyName, picacq.iphotoacquiresource_getfriendlyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireSource::GetFriendlyName method
+# IPhotoAcquireSource::GetFriendlyName
 
 
 ## -description

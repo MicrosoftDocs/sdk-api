@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.SetReceivePostViewSamples
-title: IWMWriterPostView::SetReceivePostViewSamples method
+title: IWMWriterPostView::SetReceivePostViewSamples
 author: windows-driver-content
 description: The SetReceivePostViewSamples method enables or disables delivery of postview samples for the specified stream.
 old-location: wmformat\iwmwriterpostview_setreceivepostviewsamples.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 6d58671a-357b-412b-ad77-61866b0dcce3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterPostView, IWMWriterPostView interface [windows Media Format], SetReceivePostViewSamples method, IWMWriterPostView::SetReceivePostViewSamples, IWMWriterPostViewSetReceivePostViewSamples, SetReceivePostViewSamples method [windows Media Format], SetReceivePostViewSamples method [windows Media Format], IWMWriterPostView interface, SetReceivePostViewSamples,IWMWriterPostView.SetReceivePostViewSamples, wmformat.iwmwriterpostview_setreceivepostviewsamples, wmsdkidl/IWMWriterPostView::SetReceivePostViewSamples
+ms.keywords: IWMWriterPostView interface [windows Media Format],SetReceivePostViewSamples method, IWMWriterPostView.SetReceivePostViewSamples, IWMWriterPostView::SetReceivePostViewSamples, IWMWriterPostViewSetReceivePostViewSamples, SetReceivePostViewSamples, SetReceivePostViewSamples method [windows Media Format], SetReceivePostViewSamples method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setreceivepostviewsamples, wmsdkidl/IWMWriterPostView::SetReceivePostViewSamples
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPostView::SetReceivePostViewSamples method
+# IWMWriterPostView::SetReceivePostViewSamples
 
 
 ## -description

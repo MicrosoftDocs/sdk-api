@@ -1,6 +1,6 @@
 ---
 UID: NF:cmdtree.ICommandTree.FreeCommandTree
-title: ICommandTree::FreeCommandTree method
+title: ICommandTree::FreeCommandTree
 author: windows-driver-content
 description: The ICommandTree::FreeCommandTree method traverses a command tree and deallocates all DBCOMMANDTREE node structures, as well as all variants in those structures. It then sets the root pointer to a NULL pointer.
 old-location: indexsrv\icommandtree_freecommandtree.htm
@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_1v39.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: FreeCommandTree method [Indexing Service], FreeCommandTree method [Indexing Service], ICommandTree interface, FreeCommandTree,ICommandTree.FreeCommandTree, ICommandTree, ICommandTree interface [Indexing Service], FreeCommandTree method, ICommandTree::FreeCommandTree, _idxs_ICommandTree_FreeCommandTree, cmdtree/ICommandTree::FreeCommandTree, indexsrv.icommandtree_freecommandtree
+ms.keywords: FreeCommandTree, FreeCommandTree method [Indexing Service], FreeCommandTree method [Indexing Service],ICommandTree interface, ICommandTree interface [Indexing Service],FreeCommandTree method, ICommandTree.FreeCommandTree, ICommandTree::FreeCommandTree, _idxs_ICommandTree_FreeCommandTree, cmdtree/ICommandTree::FreeCommandTree, indexsrv.icommandtree_freecommandtree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICommandTree::FreeCommandTree method
+# ICommandTree::FreeCommandTree
 
 
 ## -description

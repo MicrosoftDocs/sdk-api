@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetRecordServiceId
-title: IDvbServiceListDescriptor::GetRecordServiceId method
+title: IDvbServiceListDescriptor::GetRecordServiceId
 author: windows-driver-content
 description: Gets the value of the service_id field from a Digital Video Broadcast (DVB) service list descriptor.The service_id field value uniquely identifies the service within the MPEG-2 transport stream.
 old-location: mstv\idvbservicelistdescriptor_getrecordserviceid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c98d032a-0a3c-4e27-a5b7-ee594024ac9d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordServiceId method [Microsoft TV Technologies], GetRecordServiceId method [Microsoft TV Technologies], IDvbServiceListDescriptor interface, GetRecordServiceId,IDvbServiceListDescriptor.GetRecordServiceId, IDvbServiceListDescriptor, IDvbServiceListDescriptor interface [Microsoft TV Technologies], GetRecordServiceId method, IDvbServiceListDescriptor::GetRecordServiceId, dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceId, mstv.idvbservicelistdescriptor_getrecordserviceid
+ms.keywords: GetRecordServiceId, GetRecordServiceId method [Microsoft TV Technologies], GetRecordServiceId method [Microsoft TV Technologies],IDvbServiceListDescriptor interface, IDvbServiceListDescriptor interface [Microsoft TV Technologies],GetRecordServiceId method, IDvbServiceListDescriptor.GetRecordServiceId, IDvbServiceListDescriptor::GetRecordServiceId, dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceId, mstv.idvbservicelistdescriptor_getrecordserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbServiceListDescriptor::GetRecordServiceId method
+# IDvbServiceListDescriptor::GetRecordServiceId
 
 
 ## -description

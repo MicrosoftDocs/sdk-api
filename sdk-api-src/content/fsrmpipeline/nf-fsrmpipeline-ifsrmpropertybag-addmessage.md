@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.AddMessage
-title: IFsrmPropertyBag::AddMessage method
+title: IFsrmPropertyBag::AddMessage
 author: windows-driver-content
 description: Adds an error message to the bag.
 old-location: fsrm\ifsrmpropertybag_addmessage.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 2d9166fd-5211-4114-843f-2c6563941715
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AddMessage method [File Server Resource Manager], AddMessage method [File Server Resource Manager], IFsrmPropertyBag interface, AddMessage,IFsrmPropertyBag.AddMessage, IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], AddMessage method, IFsrmPropertyBag::AddMessage, fs.ifsrmpropertybag_addmessage, fsrm.ifsrmpropertybag_addmessage, fsrmpipeline/IFsrmPropertyBag::AddMessage
+ms.keywords: AddMessage, AddMessage method [File Server Resource Manager], AddMessage method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],AddMessage method, IFsrmPropertyBag.AddMessage, IFsrmPropertyBag::AddMessage, fs.ifsrmpropertybag_addmessage, fsrm.ifsrmpropertybag_addmessage, fsrmpipeline/IFsrmPropertyBag::AddMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyBag::AddMessage method
+# IFsrmPropertyBag::AddMessage
 
 
 ## -description

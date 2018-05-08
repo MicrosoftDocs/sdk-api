@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.GetClientSite
-title: IOleObject::GetClientSite method
+title: IOleObject::GetClientSite
 author: windows-driver-content
 description: Retrieves a pointer to an embedded object's client site.
 old-location: com\ioleobject_getclientsite.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bf26b989-445c-48d3-b279-29e4cef0ad97
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetClientSite method [COM], GetClientSite method [COM], IOleObject interface, GetClientSite,IOleObject.GetClientSite, IOleObject, IOleObject interface [COM], GetClientSite method, IOleObject::GetClientSite, _ole_ioleobject_getclientsite, com.ioleobject_getclientsite, oleidl/IOleObject::GetClientSite
+ms.keywords: GetClientSite, GetClientSite method [COM], GetClientSite method [COM],IOleObject interface, IOleObject interface [COM],GetClientSite method, IOleObject.GetClientSite, IOleObject::GetClientSite, _ole_ioleobject_getclientsite, com.ioleobject_getclientsite, oleidl/IOleObject::GetClientSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleObject::GetClientSite method
+# IOleObject::GetClientSite
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: bltooth\bth_le_gatt_characteristic_value.htm
 old-project: bltooth
 ms.assetid: AF36BC9A-5EB7-4495-870A-40BF5E0A57A3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 4/27/2018
 ms.keywords: "*PBTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VALUE, BTH_LE_GATT_CHARACTERISTIC_VALUE structure [Bluetooth Devices], PBTH_LE_GATT_CHARACTERISTIC_VALUE, PBTH_LE_GATT_CHARACTERISTIC_VALUE structure pointer [Bluetooth Devices], _BTH_LE_GATT_CHARACTERISTIC_VALUE, bltooth.bth_le_gatt_characteristic_value, bthledef/BTH_LE_GATT_CHARACTERISTIC_VALUE, bthledef/PBTH_LE_GATT_CHARACTERISTIC_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,6 +60,16 @@ The BTH_LE_GATT_CHARACTERISTIC_VALUE structure describes a Bluetooth Low Energy 
 ### -field DataSize
 
 The size, in bytes, of the Bluetooth LE GATT characteristic value.
+
+
+### -field Data.size_is
+
+ 
+
+
+### -field Data.size_is.DataSize
+
+ 
 
 
 ### -field Data

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.get_captioningId
-title: IWMPClosedCaption::get_captioningId method
+title: IWMPClosedCaption::get_captioningId
 author: windows-driver-content
 description: The get_captioningId method retrieves the name of the element displaying the captioning.
 old-location: wmp\iwmpclosedcaption_get_captioningid.htm
 old-project: WMP
 ms.assetid: c6aa1710-9686-439b-b098-7a3e5da532ee
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPClosedCaption, IWMPClosedCaption interface [Windows Media Player], get_captioningId method, IWMPClosedCaption::get_captioningId, IWMPClosedCaptionget_captioningId, get_captioningId method [Windows Media Player], get_captioningId method [Windows Media Player], IWMPClosedCaption interface, get_captioningId,IWMPClosedCaption.get_captioningId, wmp.iwmpclosedcaption_get_captioningid, wmp/IWMPClosedCaption::get_captioningId
+ms.date: 5/4/2018
+ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_captioningId method, IWMPClosedCaption.get_captioningId, IWMPClosedCaption::get_captioningId, IWMPClosedCaptionget_captioningId, get_captioningId, get_captioningId method [Windows Media Player], get_captioningId method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_captioningid, wmp/IWMPClosedCaption::get_captioningId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPClosedCaption::get_captioningId method
+# IWMPClosedCaption::get_captioningId
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2Component.put_PCRPID
-title: IMPEG2Component::put_PCRPID method
+title: IMPEG2Component::put_PCRPID
 author: windows-driver-content
 description: The put_PCRPID method sets the packet identifier (PID) for the packets that contain the PCR for this substream.
 old-location: mstv\impeg2component_put_pcrpid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cfe55ec9-cf07-40c5-98da-cb23393490d0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMPEG2Component, IMPEG2Component interface [Microsoft TV Technologies], put_PCRPID method, IMPEG2Component::put_PCRPID, IMPEG2Componentput_PCRPID, mstv.impeg2component_put_pcrpid, put_PCRPID method [Microsoft TV Technologies], put_PCRPID method [Microsoft TV Technologies], IMPEG2Component interface, put_PCRPID,IMPEG2Component.put_PCRPID, tuner/IMPEG2Component::put_PCRPID
+ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],put_PCRPID method, IMPEG2Component.put_PCRPID, IMPEG2Component::put_PCRPID, IMPEG2Componentput_PCRPID, mstv.impeg2component_put_pcrpid, put_PCRPID, put_PCRPID method [Microsoft TV Technologies], put_PCRPID method [Microsoft TV Technologies],IMPEG2Component interface, tuner/IMPEG2Component::put_PCRPID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMPEG2Component::put_PCRPID method
+# IMPEG2Component::put_PCRPID
 
 
 ## -description

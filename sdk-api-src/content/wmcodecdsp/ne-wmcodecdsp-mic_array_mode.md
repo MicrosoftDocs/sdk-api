@@ -7,7 +7,7 @@ old-location: mf\mic_array_modeenumeration.htm
 old-project: medfound
 ms.assetid: 95335d2e-94f9-4e8d-b578-a4d08055bb56
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MICARRAY_EXTERN_BEAM, MICARRAY_FIXED_BEAM, MICARRAY_SIMPLE_SUM, MICARRAY_SINGLE_BEAM, MICARRAY_SINGLE_CHAN, MIC_ARRAY_MODE, MIC_ARRAY_MODE enumeration [Media Foundation], codecapi.mic_array_modeenumeration, mf.mic_array_modeenumeration, wmcodecdsp/MICARRAY_EXTERN_BEAM, wmcodecdsp/MICARRAY_FIXED_BEAM, wmcodecdsp/MICARRAY_SIMPLE_SUM, wmcodecdsp/MICARRAY_SINGLE_BEAM, wmcodecdsp/MICARRAY_SINGLE_CHAN, wmcodecdsp/MIC_ARRAY_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

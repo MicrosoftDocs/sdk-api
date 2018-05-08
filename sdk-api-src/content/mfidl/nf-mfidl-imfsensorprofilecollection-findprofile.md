@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.FindProfile
-title: IMFSensorProfileCollection::FindProfile method
+title: IMFSensorProfileCollection::FindProfile
 author: windows-driver-content
 description: Finds a profile based on the specified profile ID.
 old-location: mf\imfsensorprofilecollection_findprofile.htm
 old-project: medfound
 ms.assetid: 3EC77F69-717F-404F-9C8C-F420F360CB83
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: FindProfile method [Media Foundation], FindProfile method [Media Foundation], IMFSensorProfileCollection interface, FindProfile,IMFSensorProfileCollection.FindProfile, IMFSensorProfileCollection, IMFSensorProfileCollection interface [Media Foundation], FindProfile method, IMFSensorProfileCollection::FindProfile, mf.imfsensorprofilecollection_findprofile, mfidl/IMFSensorProfileCollection::FindProfile
+ms.date: 5/3/2018
+ms.keywords: FindProfile, FindProfile method [Media Foundation], FindProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],FindProfile method, IMFSensorProfileCollection.FindProfile, IMFSensorProfileCollection::FindProfile, mf.imfsensorprofilecollection_findprofile, mfidl/IMFSensorProfileCollection::FindProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorProfileCollection::FindProfile method
+# IMFSensorProfileCollection::FindProfile
 
 
 ## -description

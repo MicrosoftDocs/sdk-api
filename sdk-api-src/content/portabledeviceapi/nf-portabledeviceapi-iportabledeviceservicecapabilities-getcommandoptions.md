@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetCommandOptions
-title: IPortableDeviceServiceCapabilities::GetCommandOptions method
+title: IPortableDeviceServiceCapabilities::GetCommandOptions
 author: windows-driver-content
 description: Retrieves the options of a WPD command.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getcommandoptions.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 5baa4c94-771a-430f-a963-800e4cd3a6b3
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetCommandOptions method [Windows Portable Devices SDK], GetCommandOptions method [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface, GetCommandOptions,IPortableDeviceServiceCapabilities.GetCommandOptions, IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], GetCommandOptions method, IPortableDeviceServiceCapabilities::GetCommandOptions, portabledeviceapi/IPortableDeviceServiceCapabilities::GetCommandOptions, wpdsdk.iportabledeviceservicecapabilities_getcommandoptions
+ms.keywords: GetCommandOptions, GetCommandOptions method [Windows Portable Devices SDK], GetCommandOptions method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetCommandOptions method, IPortableDeviceServiceCapabilities.GetCommandOptions, IPortableDeviceServiceCapabilities::GetCommandOptions, portabledeviceapi/IPortableDeviceServiceCapabilities::GetCommandOptions, wpdsdk.iportabledeviceservicecapabilities_getcommandoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceCapabilities::GetCommandOptions method
+# IPortableDeviceServiceCapabilities::GetCommandOptions
 
 
 ## -description

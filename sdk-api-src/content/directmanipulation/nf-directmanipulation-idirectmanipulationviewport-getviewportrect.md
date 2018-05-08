@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetViewportRect
-title: IDirectManipulationViewport::GetViewportRect method
+title: IDirectManipulationViewport::GetViewportRect
 author: windows-driver-content
 description: Retrieves the rectangle for the viewport relative to the origin of the viewport coordinate system specified by SetViewportRect.
 old-location: directmanipulation\idirectmanipulationviewport_getviewportrect.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 0d20e7f7-aa2a-4c76-a3ff-da10d4dec3ea
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetViewportRect method [Direct Manipulation], GetViewportRect method [Direct Manipulation], IDirectManipulationViewport interface, GetViewportRect,IDirectManipulationViewport.GetViewportRect, IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], GetViewportRect method, IDirectManipulationViewport::GetViewportRect, directmanipulation.idirectmanipulationviewport_getviewportrect, directmanipulation/IDirectManipulationViewport::GetViewportRect
+ms.keywords: GetViewportRect, GetViewportRect method [Direct Manipulation], GetViewportRect method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetViewportRect method, IDirectManipulationViewport.GetViewportRect, IDirectManipulationViewport::GetViewportRect, directmanipulation.idirectmanipulationviewport_getviewportrect, directmanipulation/IDirectManipulationViewport::GetViewportRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::GetViewportRect method
+# IDirectManipulationViewport::GetViewportRect
 
 
 ## -description

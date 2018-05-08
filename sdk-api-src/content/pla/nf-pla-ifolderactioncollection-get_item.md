@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.get_Item
-title: IFolderActionCollection::get_Item method
+title: IFolderActionCollection::get_Item
 author: windows-driver-content
 description: Retrieves the requested folder action from the collection.
 old-location: pla\ifolderactioncollection_item.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: cf11f194-b518-41de-8f98-c4487c3d2fee
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFolderActionCollection, IFolderActionCollection interface [PLA], Item property, IFolderActionCollection.Item, IFolderActionCollection::get_Item, Item property [PLA], Item property [PLA], IFolderActionCollection interface, base.ifolderactioncollection_item, get_Item,IFolderActionCollection.get_Item, pla.ifolderactioncollection_item, pla/IFolderActionCollection::Item, pla/IFolderActionCollection::get_Item
+ms.keywords: IFolderActionCollection interface [PLA],Item property, IFolderActionCollection.Item, IFolderActionCollection.get_Item, IFolderActionCollection::Item, IFolderActionCollection::get_Item, Item property [PLA], Item property [PLA],IFolderActionCollection interface, base.ifolderactioncollection_item, get_Item, pla.ifolderactioncollection_item, pla/IFolderActionCollection::Item, pla/IFolderActionCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFolderActionCollection::get_Item method
+# IFolderActionCollection::get_Item
 
 
 ## -description

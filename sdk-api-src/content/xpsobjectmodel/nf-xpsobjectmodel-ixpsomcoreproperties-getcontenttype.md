@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetContentType
-title: IXpsOMCoreProperties::GetContentType method
+title: IXpsOMCoreProperties::GetContentType
 author: windows-driver-content
 description: Gets the contentType property.
 old-location: xps\ixpsomcoreproperties_getcontenttype.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 2a032cd7-90b3-427c-bbdf-2265f15c6f23
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetContentType method [XPS Documents and Packaging], GetContentType method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetContentType,IXpsOMCoreProperties.GetContentType, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetContentType method, IXpsOMCoreProperties::GetContentType, xps.ixpsomcoreproperties_getcontenttype, xpsobjectmodel/IXpsOMCoreProperties::GetContentType
+ms.keywords: GetContentType, GetContentType method [XPS Documents and Packaging], GetContentType method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetContentType method, IXpsOMCoreProperties.GetContentType, IXpsOMCoreProperties::GetContentType, xps.ixpsomcoreproperties_getcontenttype, xpsobjectmodel/IXpsOMCoreProperties::GetContentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetContentType method
+# IXpsOMCoreProperties::GetContentType
 
 
 ## -description

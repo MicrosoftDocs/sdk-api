@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.AngleChange
-title: IDvdControl::AngleChange method
+title: IDvdControl::AngleChange
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the new display angle.
 old-location: dshow\idvdcontrol_anglechange.htm
 old-project: DirectShow
 ms.assetid: 4a91f05d-1ded-4ecb-8850-5ee7faad134d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AngleChange method [DirectShow], AngleChange method [DirectShow], IDvdControl interface, AngleChange,IDvdControl.AngleChange, IDvdControl, IDvdControl interface [DirectShow], AngleChange method, IDvdControl::AngleChange, IDvdControlAngleChange, dshow.idvdcontrol_anglechange, strmif/IDvdControl::AngleChange
+ms.date: 4/30/2018
+ms.keywords: AngleChange, AngleChange method [DirectShow], AngleChange method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],AngleChange method, IDvdControl.AngleChange, IDvdControl::AngleChange, IDvdControlAngleChange, dshow.idvdcontrol_anglechange, strmif/IDvdControl::AngleChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::AngleChange method
+# IDvdControl::AngleChange
 
 
 ## -description

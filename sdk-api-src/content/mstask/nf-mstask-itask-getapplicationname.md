@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.GetApplicationName
-title: ITask::GetApplicationName method
+title: ITask::GetApplicationName
 author: windows-driver-content
 description: This method retrieves the name of the application that the task is associated with.
 old-location: taskschd\itask_getapplicationname.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 79a8c324-1191-412b-be2b-eb5935337925
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetApplicationName method [Task Scheduler], GetApplicationName method [Task Scheduler], ITask interface, GetApplicationName,ITask.GetApplicationName, ITask, ITask interface [Task Scheduler], GetApplicationName method, ITask::GetApplicationName, _msb_itask_getapplicationname, mstask/ITask::GetApplicationName, taskschd.itask_getapplicationname
+ms.keywords: GetApplicationName, GetApplicationName method [Task Scheduler], GetApplicationName method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetApplicationName method, ITask.GetApplicationName, ITask::GetApplicationName, _msb_itask_getapplicationname, mstask/ITask::GetApplicationName, taskschd.itask_getapplicationname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITask::GetApplicationName method
+# ITask::GetApplicationName
 
 
 ## -description

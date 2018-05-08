@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.AddRetrievalFilterEntries
-title: ID3D12InfoQueue::AddRetrievalFilterEntries method
+title: ID3D12InfoQueue::AddRetrievalFilterEntries
 author: windows-driver-content
 description: Add storage filters to the top of the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_addretrievalfilterentries.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 66430A0A-0279-4D2D-A34D-D49C7940DB87
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: AddRetrievalFilterEntries method, AddRetrievalFilterEntries method, ID3D12InfoQueue interface, AddRetrievalFilterEntries,ID3D12InfoQueue.AddRetrievalFilterEntries, ID3D12InfoQueue, ID3D12InfoQueue interface, AddRetrievalFilterEntries method, ID3D12InfoQueue::AddRetrievalFilterEntries, d3d12sdklayers/ID3D12InfoQueue::AddRetrievalFilterEntries, direct3d12.id3d12infoqueue_addretrievalfilterentries
+ms.keywords: AddRetrievalFilterEntries, AddRetrievalFilterEntries method, AddRetrievalFilterEntries method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,AddRetrievalFilterEntries method, ID3D12InfoQueue.AddRetrievalFilterEntries, ID3D12InfoQueue::AddRetrievalFilterEntries, d3d12sdklayers/ID3D12InfoQueue::AddRetrievalFilterEntries, direct3d12.id3d12infoqueue_addretrievalfilterentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::AddRetrievalFilterEntries method
+# ID3D12InfoQueue::AddRetrievalFilterEntries
 
 
 ## -description

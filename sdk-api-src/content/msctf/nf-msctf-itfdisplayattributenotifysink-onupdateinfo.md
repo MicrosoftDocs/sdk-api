@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeNotifySink.OnUpdateInfo
-title: ITfDisplayAttributeNotifySink::OnUpdateInfo method
+title: ITfDisplayAttributeNotifySink::OnUpdateInfo
 author: windows-driver-content
 description: ITfDisplayAttributeNotifySink::OnUpdateInfo method
 old-location: tsf\itfdisplayattributenotifysink_onupdateinfo.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6f4cbdca-b2a3-4e14-b4fb-ac65f3cec646
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfDisplayAttributeNotifySink, ITfDisplayAttributeNotifySink interface [Text Services Framework], OnUpdateInfo method, ITfDisplayAttributeNotifySink::OnUpdateInfo, OnUpdateInfo method [Text Services Framework], OnUpdateInfo method [Text Services Framework], ITfDisplayAttributeNotifySink interface, OnUpdateInfo,ITfDisplayAttributeNotifySink.OnUpdateInfo, _tsf_itfdisplayattributenotifysink_onupdateinfo_ref, msctf/ITfDisplayAttributeNotifySink::OnUpdateInfo, tsf.itfdisplayattributenotifysink_onupdateinfo
+ms.keywords: ITfDisplayAttributeNotifySink interface [Text Services Framework],OnUpdateInfo method, ITfDisplayAttributeNotifySink.OnUpdateInfo, ITfDisplayAttributeNotifySink::OnUpdateInfo, OnUpdateInfo, OnUpdateInfo method [Text Services Framework], OnUpdateInfo method [Text Services Framework],ITfDisplayAttributeNotifySink interface, _tsf_itfdisplayattributenotifysink_onupdateinfo_ref, msctf/ITfDisplayAttributeNotifySink::OnUpdateInfo, tsf.itfdisplayattributenotifysink_onupdateinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfDisplayAttributeNotifySink::OnUpdateInfo method
+# ITfDisplayAttributeNotifySink::OnUpdateInfo
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ad\dsgetrdnw.htm
 old-project: AD
 ms.assetid: 22627f2e-adfb-49de-bae5-20aaf69830ac
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DsGetRdnW, DsGetRdnW function [Active Directory], ad.dsgetrdnw, dsparse/DsGetRdnW
 ms.prod: windows-hardware
 ms.technology: windows-devices

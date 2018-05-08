@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.SetLabels
-title: IContactProperties::SetLabels method
+title: IContactProperties::SetLabels
 author: windows-driver-content
 description: Appends the set of labels passed in to the specified property's label set. Note:\_This method does not check for duplicate labels.
 old-location: wincontacts\_wincontacts_IContactProperties_SetLabels.htm
@@ -8,7 +8,7 @@ old-project: wincontacts
 ms.assetid: 884d4edf-e001-4a1d-9ee4-7f8733aba343
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IContactProperties, IContactProperties interface [Windows Contacts], SetLabels method, IContactProperties::SetLabels, SetLabels method [Windows Contacts], SetLabels method [Windows Contacts], IContactProperties interface, SetLabels,IContactProperties.SetLabels, _wincontacts_IContactProperties_SetLabels, icontact/IContactProperties::SetLabels, wincontacts._wincontacts_IContactProperties_SetLabels
+ms.keywords: IContactProperties interface [Windows Contacts],SetLabels method, IContactProperties.SetLabels, IContactProperties::SetLabels, SetLabels, SetLabels method [Windows Contacts], SetLabels method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetLabels, icontact/IContactProperties::SetLabels, wincontacts._wincontacts_IContactProperties_SetLabels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IContactProperties::SetLabels method
+# IContactProperties::SetLabels
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSyncDevice3.cancelEstimation
-title: IWMPSyncDevice3::cancelEstimation method
+title: IWMPSyncDevice3::cancelEstimation
 author: windows-driver-content
 description: The cancelEstimation method cancels an estimation that was previously initiated by estimateSyncSize.
 old-location: wmp\iwmpsyncdevice3_cancelestimation.htm
 old-project: WMP
 ms.assetid: 82e87e44-0a38-43c0-bbed-011581ae8a85
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSyncDevice3, IWMPSyncDevice3 interface [Windows Media Player], cancelEstimation method, IWMPSyncDevice3::cancelEstimation, cancelEstimation method [Windows Media Player], cancelEstimation method [Windows Media Player], IWMPSyncDevice3 interface, cancelEstimation,IWMPSyncDevice3.cancelEstimation, wmp.iwmpsyncdevice3_cancelestimation, wmp/IWMPSyncDevice3::cancelEstimation
+ms.date: 5/4/2018
+ms.keywords: IWMPSyncDevice3 interface [Windows Media Player],cancelEstimation method, IWMPSyncDevice3.cancelEstimation, IWMPSyncDevice3::cancelEstimation, cancelEstimation, cancelEstimation method [Windows Media Player], cancelEstimation method [Windows Media Player],IWMPSyncDevice3 interface, wmp.iwmpsyncdevice3_cancelestimation, wmp/IWMPSyncDevice3::cancelEstimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSyncDevice3::cancelEstimation method
+# IWMPSyncDevice3::cancelEstimation
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 45314d3a-cb54-4524-819a-16c035dfe533
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfInputScope2, ITfInputScope2 interface [Text Services Framework], ITfInputScope2 interface [Text Services Framework], described, _tsf_itfinputscope2_ref, inputscope/ITfInputScope2, tsf.ITfInputScope2
+ms.keywords: ITfInputScope2, ITfInputScope2 interface [Text Services Framework], ITfInputScope2 interface [Text Services Framework],described, _tsf_itfinputscope2_ref, inputscope/ITfInputScope2, tsf.ITfInputScope2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_Name
-title: INetFwAuthorizedApplication::get_Name method
+title: INetFwAuthorizedApplication::get_Name
 author: windows-driver-content
 description: Specifies the friendly name of this application.
 old-location: ics\inetfwauthorizedapplication_name.htm
 old-project: ICS
 ms.assetid: 4937e0a5-089f-404f-b0dc-bba8e8a332a5
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwAuthorizedApplication, INetFwAuthorizedApplication interface [ICS/ICF], Name property, INetFwAuthorizedApplication.Name, INetFwAuthorizedApplication::get_Name, INetFwAuthorizedApplication::put_Name, Name property [ICS/ICF], Name property [ICS/ICF], INetFwAuthorizedApplication interface, get_Name,INetFwAuthorizedApplication.get_Name, ics.inetfwauthorizedapplication_name, netfw/INetFwAuthorizedApplication::Name, netfw/INetFwAuthorizedApplication::get_Name, netfw/INetFwAuthorizedApplication::put_Name
+ms.date: 5/1/2018
+ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],Name property, INetFwAuthorizedApplication.Name, INetFwAuthorizedApplication.get_Name, INetFwAuthorizedApplication::Name, INetFwAuthorizedApplication::get_Name, INetFwAuthorizedApplication::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwAuthorizedApplication interface, get_Name, ics.inetfwauthorizedapplication_name, netfw/INetFwAuthorizedApplication::Name, netfw/INetFwAuthorizedApplication::get_Name, netfw/INetFwAuthorizedApplication::put_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwAuthorizedApplication::get_Name method
+# INetFwAuthorizedApplication::get_Name
 
 
 ## -description

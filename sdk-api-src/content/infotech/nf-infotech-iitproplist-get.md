@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITPropList.Get
-title: IITPropList::Get method
+title: IITPropList::Get
 author: windows-driver-content
 description: Returns the property object associated with the given property ID.
 old-location: htmlhelp\iitproplist_get.htm
@@ -8,7 +8,7 @@ old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistget.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Get method [HTML Help Workshop], Get method [HTML Help Workshop], IITPropList interface, Get,IITPropList.Get, IITPropList, IITPropList interface [HTML Help Workshop], Get method, IITPropList::Get, htmlhelp.iitproplist_get, infotech/IITPropList::Get, refIITPropListGet
+ms.keywords: Get, Get method [HTML Help Workshop], Get method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],Get method, IITPropList.Get, IITPropList::Get, htmlhelp.iitproplist_get, infotech/IITPropList::Get, refIITPropListGet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IITPropList::Get method
+# IITPropList::Get
 
 
 ## -description

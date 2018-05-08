@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.GetInitResults
-title: IWMReaderPlaylistBurn::GetInitResults method
+title: IWMReaderPlaylistBurn::GetInitResults
 author: windows-driver-content
 description: The GetInitResults method retrieves the results of the playlist file check.
 old-location: wmformat\iwmreaderplaylistburn_getinitresults.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 9f9db03b-0bcc-4442-b97e-f6a2f8d179fa
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetInitResults method [windows Media Format], GetInitResults method [windows Media Format], IWMReaderPlaylistBurn interface, GetInitResults,IWMReaderPlaylistBurn.GetInitResults, IWMReaderPlaylistBurn, IWMReaderPlaylistBurn interface [windows Media Format], GetInitResults method, IWMReaderPlaylistBurn::GetInitResults, IWMReaderPlaylistBurnGetInitResults, wmformat.iwmreaderplaylistburn_getinitresults, wmsdkidl/IWMReaderPlaylistBurn::GetInitResults
+ms.keywords: GetInitResults, GetInitResults method [windows Media Format], GetInitResults method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],GetInitResults method, IWMReaderPlaylistBurn.GetInitResults, IWMReaderPlaylistBurn::GetInitResults, IWMReaderPlaylistBurnGetInitResults, wmformat.iwmreaderplaylistburn_getinitresults, wmsdkidl/IWMReaderPlaylistBurn::GetInitResults
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderPlaylistBurn::GetInitResults method
+# IWMReaderPlaylistBurn::GetInitResults
 
 
 ## -description

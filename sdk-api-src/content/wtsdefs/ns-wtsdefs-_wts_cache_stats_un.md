@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WTS_CACHE_STATS_UN, *PWTS_CACHE_STATS_UN, WTS_CACHE_STATS_UN, *PWTS_CACHE_STATS_UN
+req.typenames: WTS_CACHE_STATS_UN, *PWTS_CACHE_STATS_UN
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,9 +63,29 @@ Contains cache statistics.
 A <a href="https://msdn.microsoft.com/94e699f4-278c-45fd-88e2-42f97e7ea305">WTS_PROTOCOL_CACHE</a> structure that contains information about the number of times that requested data is found in and read from the cache.
 
 
+### -field ProtocolCache.case
+
+ 
+
+
+### -field ProtocolCache.case.1
+
+ 
+
+
 ### -field TShareCacheStats
 
 Share cache statistics.
+
+
+### -field TShareCacheStats.case
+
+ 
+
+
+### -field TShareCacheStats.case.2
+
+ 
 
 
 ### -field Reserved
@@ -73,7 +93,22 @@ Share cache statistics.
 Reserved protocol specific data. The maximum size, in bytes, of this data is WTS_MAX_CACHE_RESERVED multiplied by the length of an unsigned long integer.
 
 
+### -field Reserved.case
+
+ 
+
+
+### -field Reserved.case.3
+
+ 
+
+
 ### -field switch_type
+
+ 
+
+
+### -field switch_type.DWORD
 
  
 

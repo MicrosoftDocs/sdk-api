@@ -7,8 +7,8 @@ old-location: dshow\ivmrimagepresenter.htm
 old-project: DirectShow
 ms.assetid: cb9b1e29-45c3-4208-8343-c2924505a9f3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRImagePresenter, IVMRImagePresenter interface [DirectShow], IVMRImagePresenter interface [DirectShow], described, IVMRImagePresenterInterface, dshow.ivmrimagepresenter, strmif/IVMRImagePresenter
+ms.date: 4/30/2018
+ms.keywords: IVMRImagePresenter, IVMRImagePresenter interface [DirectShow], IVMRImagePresenter interface [DirectShow],described, IVMRImagePresenterInterface, dshow.ivmrimagepresenter, strmif/IVMRImagePresenter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

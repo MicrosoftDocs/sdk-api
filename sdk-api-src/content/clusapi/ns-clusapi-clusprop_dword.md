@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CLUSPROP_DWORD, *PCLUSPROP_DWORD, CLUSPROP_DWORD, *PCLUSPROP_DWORD
+req.typenames: CLUSPROP_DWORD, *PCLUSPROP_DWORD
 topic_type:
 -	APIRef
 -	kbSyntax

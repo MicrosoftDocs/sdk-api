@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup
-title: IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup method
+title: IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup
 author: windows-driver-content
 description: The put_internetMediaSharingSecurityGroup method specifies the name of the security group that is used to authenticate connections coming in over the Internet.
 old-location: wmlss\IWMLSSput_internetMediaSharingSecurityGroup.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: 4195fee6-5a4a-4ed0-b433-99932d28579f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], put_internetMediaSharingSecurityGroup method, IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup, put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services], put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, put_internetMediaSharingSecurityGroup,IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup, wmlss.IWMLSSput_internetMediaSharingSecurityGroup, wmlss/IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_internetMediaSharingSecurityGroup method, IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup, IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup, put_internetMediaSharingSecurityGroup, put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services], put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_internetMediaSharingSecurityGroup, wmlss/IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup method
+# IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup
 
 
 ## -description

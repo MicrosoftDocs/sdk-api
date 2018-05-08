@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.GetFarmProperty
-title: ITsSbGlobalStore::GetFarmProperty method
+title: ITsSbGlobalStore::GetFarmProperty
 author: windows-driver-content
 description: Retrieves a property of a farm.
 old-location: termserv\itssbglobalstore_getfarmproperty.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 14b9ca43-735d-43d1-bda5-d84cc9a7761a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetFarmProperty method [Remote Desktop Services], GetFarmProperty method [Remote Desktop Services], ITsSbGlobalStore interface, GetFarmProperty,ITsSbGlobalStore.GetFarmProperty, ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], GetFarmProperty method, ITsSbGlobalStore::GetFarmProperty, sbtsv/ITsSbGlobalStore::GetFarmProperty, termserv.itssbglobalstore_getfarmproperty
+ms.keywords: GetFarmProperty, GetFarmProperty method [Remote Desktop Services], GetFarmProperty method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],GetFarmProperty method, ITsSbGlobalStore.GetFarmProperty, ITsSbGlobalStore::GetFarmProperty, sbtsv/ITsSbGlobalStore::GetFarmProperty, termserv.itssbglobalstore_getfarmproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbGlobalStore::GetFarmProperty method
+# ITsSbGlobalStore::GetFarmProperty
 
 
 ## -description

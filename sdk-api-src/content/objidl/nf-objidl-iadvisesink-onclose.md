@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IAdviseSink.OnClose
-title: IAdviseSink::OnClose method
+title: IAdviseSink::OnClose
 author: windows-driver-content
 description: Called by the server to notify all registered advisory sinks that the object has changed from the running to the loaded state.
 old-location: com\iadvisesink_onclose.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: a695c623-4a4e-4f3d-9f12-ee198c0761a9
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAdviseSink, IAdviseSink interface [COM], OnClose method, IAdviseSink::OnClose, OnClose method [COM], OnClose method [COM], IAdviseSink interface, OnClose,IAdviseSink.OnClose, _ole_iadvisesink_onclose, com.iadvisesink_onclose, objidl/IAdviseSink::OnClose
+ms.keywords: IAdviseSink interface [COM],OnClose method, IAdviseSink.OnClose, IAdviseSink::OnClose, OnClose, OnClose method [COM], OnClose method [COM],IAdviseSink interface, _ole_iadvisesink_onclose, com.iadvisesink_onclose, objidl/IAdviseSink::OnClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAdviseSink::OnClose method
+# IAdviseSink::OnClose
 
 
 ## -description

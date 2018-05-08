@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession3.CreateUpdateServiceManager
-title: IUpdateSession3::CreateUpdateServiceManager method
+title: IUpdateSession3::CreateUpdateServiceManager
 author: windows-driver-content
 description: Returns a pointer to an IUpdateServiceManager2 interface for the session.
 old-location: wua\iupdatesession3_createupdateservicemanager.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 79d8f489-5375-48e2-a40d-d6f38f4843aa
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreateUpdateServiceManager method [Windows Update Agent], CreateUpdateServiceManager method [Windows Update Agent], IUpdateSession3 interface, CreateUpdateServiceManager,IUpdateSession3.CreateUpdateServiceManager, IUpdateSession3, IUpdateSession3 interface [Windows Update Agent], CreateUpdateServiceManager method, IUpdateSession3::CreateUpdateServiceManager, wua.iupdatesession3_createupdateservicemanager, wuapi/IUpdateSession3::CreateUpdateServiceManager
+ms.keywords: CreateUpdateServiceManager, CreateUpdateServiceManager method [Windows Update Agent], CreateUpdateServiceManager method [Windows Update Agent],IUpdateSession3 interface, IUpdateSession3 interface [Windows Update Agent],CreateUpdateServiceManager method, IUpdateSession3.CreateUpdateServiceManager, IUpdateSession3::CreateUpdateServiceManager, wua.iupdatesession3_createupdateservicemanager, wuapi/IUpdateSession3::CreateUpdateServiceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSession3::CreateUpdateServiceManager method
+# IUpdateSession3::CreateUpdateServiceManager
 
 
 ## -description

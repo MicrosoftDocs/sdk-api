@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Recipient
-title: IFaxOutgoingMessage::get_Recipient method
+title: IFaxOutgoingMessage::get_Recipient
 author: windows-driver-content
 description: The IFaxOutgoingMessage::get_Recipient property retrieves an interface containing information about the recipient of the fax message.
 old-location: fax\_mfax_faxoutgoingmessage_recipient_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5vn8_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxOutgoingMessage, IFaxOutgoingMessage interface [Fax Service], Recipient property, IFaxOutgoingMessage.Recipient, IFaxOutgoingMessage::get_Recipient, Recipient property [Fax Service], Recipient property [Fax Service], IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.recipient_cpp, fax._mfax_faxoutgoingmessage_recipient_cpp, faxcomex/IFaxOutgoingMessage::Recipient, faxcomex/IFaxOutgoingMessage::get_Recipient, get_Recipient,IFaxOutgoingMessage.get_Recipient
+ms.keywords: IFaxOutgoingMessage interface [Fax Service],Recipient property, IFaxOutgoingMessage.Recipient, IFaxOutgoingMessage.get_Recipient, IFaxOutgoingMessage::Recipient, IFaxOutgoingMessage::get_Recipient, Recipient property [Fax Service], Recipient property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.recipient_cpp, fax._mfax_faxoutgoingmessage_recipient_cpp, faxcomex/IFaxOutgoingMessage::Recipient, faxcomex/IFaxOutgoingMessage::get_Recipient, get_Recipient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutgoingMessage::get_Recipient method
+# IFaxOutgoingMessage::get_Recipient
 
 
 ## -description

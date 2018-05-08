@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_Blocked
-title: IFaxOutgoingQueue::get_Blocked method
+title: IFaxOutgoingQueue::get_Blocked
 author: windows-driver-content
 description: The Blocked property is a Boolean value that indicates whether the job queue for outgoing faxes is blocked.
 old-location: fax\_mfax_faxoutgoingqueue_blocked_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_59d0.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Blocked property [Fax Service], Blocked property [Fax Service], FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service], Blocked property, IFaxOutgoingQueue, IFaxOutgoingQueue::get_Blocked, _mfax_faxoutgoingqueue.blocked, fax._mfax_faxoutgoingqueue_blocked, fax._mfax_faxoutgoingqueue_blocked_vb, get_Blocked,IFaxOutgoingQueue.get_Blocked
+ms.keywords: Blocked property [Fax Service], Blocked property [Fax Service],FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service],Blocked property, FaxOutgoingQueue.Blocked, IFaxOutgoingQueue.get_Blocked, IFaxOutgoingQueue::get_Blocked, _mfax_faxoutgoingqueue.blocked, fax._mfax_faxoutgoingqueue_blocked, fax._mfax_faxoutgoingqueue_blocked_vb, get_Blocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutgoingQueue::get_Blocked method
+# IFaxOutgoingQueue::get_Blocked
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Description
-title: IDataCollectorSet::get_Description method
+title: IDataCollectorSet::get_Description
 author: windows-driver-content
 description: Retrieves or sets the description of the data collector set. The description will be added to all output files as metadata and inserted into Performance Data Helper logs as a comment.
 old-location: pla\idatacollectorset_get_description.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: d36deb28-09fa-4efd-bfe8-055757f4273a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Description property [PLA], Description property [PLA], IDataCollectorSet interface, IDataCollectorSet, IDataCollectorSet interface [PLA], Description property, IDataCollectorSet.Description, IDataCollectorSet::get_Description, IDataCollectorSet::put_Description, base.idatacollectorset_get_description, get_Description,IDataCollectorSet.get_Description, pla.idatacollectorset_get_description, pla/IDataCollectorSet::Description, pla/IDataCollectorSet::get_Description, pla/IDataCollectorSet::put_Description
+ms.keywords: Description property [PLA], Description property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Description property, IDataCollectorSet.Description, IDataCollectorSet.get_Description, IDataCollectorSet::Description, IDataCollectorSet::get_Description, IDataCollectorSet::put_Description, base.idatacollectorset_get_description, get_Description, pla.idatacollectorset_get_description, pla/IDataCollectorSet::Description, pla/IDataCollectorSet::get_Description, pla/IDataCollectorSet::put_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::get_Description method
+# IDataCollectorSet::get_Description
 
 
 ## -description

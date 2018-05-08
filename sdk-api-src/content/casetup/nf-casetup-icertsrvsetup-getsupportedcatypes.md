@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetSupportedCATypes
-title: ICertSrvSetup::GetSupportedCATypes method
+title: ICertSrvSetup::GetSupportedCATypes
 author: windows-driver-content
 description: Gets the types of certification authorities (CAs) that can be installed on a computer under the caller context.
 old-location: security\icertsrvsetup_getsupportedcatypes.htm
 old-project: SecCrypto
 ms.assetid: 404e5c34-f614-4555-9062-c28d4aac5c4b
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetSupportedCATypes method [Security], GetSupportedCATypes method [Security], ICertSrvSetup interface, GetSupportedCATypes,ICertSrvSetup.GetSupportedCATypes, ICertSrvSetup, ICertSrvSetup interface [Security], GetSupportedCATypes method, ICertSrvSetup::GetSupportedCATypes, casetup/ICertSrvSetup::GetSupportedCATypes, security.icertsrvsetup_getsupportedcatypes
+ms.date: 4/30/2018
+ms.keywords: GetSupportedCATypes, GetSupportedCATypes method [Security], GetSupportedCATypes method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetSupportedCATypes method, ICertSrvSetup.GetSupportedCATypes, ICertSrvSetup::GetSupportedCATypes, casetup/ICertSrvSetup::GetSupportedCATypes, security.icertsrvsetup_getsupportedcatypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetup::GetSupportedCATypes method
+# ICertSrvSetup::GetSupportedCATypes
 
 
 ## -description

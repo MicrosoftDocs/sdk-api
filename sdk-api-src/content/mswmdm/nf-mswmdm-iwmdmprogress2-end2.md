@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMProgress2.End2
-title: IWMDMProgress2::End2 method
+title: IWMDMProgress2::End2
 author: windows-driver-content
 description: The End2 method extends IWMDMProgress::End by providing a completion status indicator.
 old-location: wmdm\iwmdmprogress2_end2.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 85265eb7-0702-4890-b6cb-b247296fe392
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: End2 method [windows Media Device Manager], End2 method [windows Media Device Manager], IWMDMProgress2 interface, End2,IWMDMProgress2.End2, IWMDMProgress2, IWMDMProgress2 interface [windows Media Device Manager], End2 method, IWMDMProgress2::End2, IWMDMProgress2End2, mswmdm/IWMDMProgress2::End2, wmdm.iwmdmprogress2_end2
+ms.keywords: End2, End2 method [windows Media Device Manager], End2 method [windows Media Device Manager],IWMDMProgress2 interface, IWMDMProgress2 interface [windows Media Device Manager],End2 method, IWMDMProgress2.End2, IWMDMProgress2::End2, IWMDMProgress2End2, mswmdm/IWMDMProgress2::End2, wmdm.iwmdmprogress2_end2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMProgress2::End2 method
+# IWMDMProgress2::End2
 
 
 ## -description

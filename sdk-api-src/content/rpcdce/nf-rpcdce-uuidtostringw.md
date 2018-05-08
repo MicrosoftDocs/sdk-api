@@ -7,7 +7,7 @@ old-location: rpc\uuidtostring.htm
 old-project: Rpc
 ms.assetid: 49235b28-a0c5-4f69-9932-85350d7bcbb8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: UuidToString, UuidToString function [RPC], UuidToStringA, UuidToStringW, _rpc_uuidtostring, rpc.uuidtostring, rpcdce/UuidToString, rpcdce/UuidToStringA, rpcdce/UuidToStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices

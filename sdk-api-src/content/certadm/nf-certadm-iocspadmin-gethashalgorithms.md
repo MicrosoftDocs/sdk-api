@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetHashAlgorithms
-title: IOCSPAdmin::GetHashAlgorithms method
+title: IOCSPAdmin::GetHashAlgorithms
 author: windows-driver-content
 description: Gets a list of hash-algorithm names. The Online Certificate Status Protocol (OCSP) responder server uses these names to sign OCSP responses for a given certification authority (CA) configuration.
 old-location: security\iocspadmin_gethashalgorithms.htm
 old-project: SecCrypto
 ms.assetid: aa131478-0456-4ae8-82a6-5dc8eaa293e0
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetHashAlgorithms method [Security], GetHashAlgorithms method [Security], IOCSPAdmin interface, GetHashAlgorithms,IOCSPAdmin.GetHashAlgorithms, IOCSPAdmin, IOCSPAdmin interface [Security], GetHashAlgorithms method, IOCSPAdmin::GetHashAlgorithms, certadm/IOCSPAdmin::GetHashAlgorithms, security.iocspadmin_gethashalgorithms
+ms.date: 4/30/2018
+ms.keywords: GetHashAlgorithms, GetHashAlgorithms method [Security], GetHashAlgorithms method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetHashAlgorithms method, IOCSPAdmin.GetHashAlgorithms, IOCSPAdmin::GetHashAlgorithms, certadm/IOCSPAdmin::GetHashAlgorithms, security.iocspadmin_gethashalgorithms
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPAdmin::GetHashAlgorithms method
+# IOCSPAdmin::GetHashAlgorithms
 
 
 ## -description

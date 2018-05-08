@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.SendLogParams
-title: IWMReaderAdvanced4::SendLogParams method
+title: IWMReaderAdvanced4::SendLogParams
 author: windows-driver-content
 description: The SendLogParams method sends log entries to the originating server. Call this method after calling AddLogParam.
 old-location: wmformat\iwmreaderadvanced4_sendlogparams.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3b345573-bdca-4a1f-b272-716e2ca4c88c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced4, IWMReaderAdvanced4 interface [windows Media Format], SendLogParams method, IWMReaderAdvanced4::SendLogParams, IWMReaderAdvanced4SendLogParams, SendLogParams method [windows Media Format], SendLogParams method [windows Media Format], IWMReaderAdvanced4 interface, SendLogParams,IWMReaderAdvanced4.SendLogParams, wmformat.iwmreaderadvanced4_sendlogparams, wmsdkidl/IWMReaderAdvanced4::SendLogParams
+ms.keywords: IWMReaderAdvanced4 interface [windows Media Format],SendLogParams method, IWMReaderAdvanced4.SendLogParams, IWMReaderAdvanced4::SendLogParams, IWMReaderAdvanced4SendLogParams, SendLogParams, SendLogParams method [windows Media Format], SendLogParams method [windows Media Format],IWMReaderAdvanced4 interface, wmformat.iwmreaderadvanced4_sendlogparams, wmsdkidl/IWMReaderAdvanced4::SendLogParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced4::SendLogParams method
+# IWMReaderAdvanced4::SendLogParams
 
 
 ## -description

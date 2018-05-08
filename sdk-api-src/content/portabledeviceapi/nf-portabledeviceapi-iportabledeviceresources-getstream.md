@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceResources.GetStream
-title: IPortableDeviceResources::GetStream method
+title: IPortableDeviceResources::GetStream
 author: windows-driver-content
 description: The GetStream method gets an IStream interface with which to read or write the content data in an object on a device. The retrieved interface enables you to read from or write to the object data.
 old-location: wpdsdk\iportabledeviceresources_getstream.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: d5c9a85a-59fa-4b7b-acc7-d450ecd10593
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetStream method [Windows Portable Devices SDK], GetStream method [Windows Portable Devices SDK], IPortableDeviceResources interface, GetStream,IPortableDeviceResources.GetStream, IPortableDeviceResources, IPortableDeviceResources interface [Windows Portable Devices SDK], GetStream method, IPortableDeviceResources::GetStream, IPortableDeviceResourcesGetStream, portabledeviceapi/IPortableDeviceResources::GetStream, wpdsdk.iportabledeviceresources_getstream
+ms.keywords: GetStream, GetStream method [Windows Portable Devices SDK], GetStream method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],GetStream method, IPortableDeviceResources.GetStream, IPortableDeviceResources::GetStream, IPortableDeviceResourcesGetStream, portabledeviceapi/IPortableDeviceResources::GetStream, wpdsdk.iportabledeviceresources_getstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceResources::GetStream method
+# IPortableDeviceResources::GetStream
 
 
 ## -description

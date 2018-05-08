@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.InsertImage
-title: ITextRange2::InsertImage method
+title: ITextRange2::InsertImage
 author: windows-driver-content
 description: Inserts an image into this range.
 old-location: controls\itextrange2_insertimage.htm
 old-project: Controls
 ms.assetid: CBC71EDC-CBE3-4C44-84C8-6AE6DEBC8D0C
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange2, ITextRange2 interface [Windows Controls], InsertImage method, ITextRange2::InsertImage, InsertImage method [Windows Controls], InsertImage method [Windows Controls], ITextRange2 interface, InsertImage,ITextRange2.InsertImage, TA_BASELINE, TA_BOTTOM, TA_TOP, controls.itextrange2_insertimage, tom/ITextRange2::InsertImage
+ms.date: 4/27/2018
+ms.keywords: ITextRange2 interface [Windows Controls],InsertImage method, ITextRange2.InsertImage, ITextRange2::InsertImage, InsertImage, InsertImage method [Windows Controls], InsertImage method [Windows Controls],ITextRange2 interface, TA_BASELINE, TA_BOTTOM, TA_TOP, controls.itextrange2_insertimage, tom/ITextRange2::InsertImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::InsertImage method
+# ITextRange2::InsertImage
 
 
 ## -description

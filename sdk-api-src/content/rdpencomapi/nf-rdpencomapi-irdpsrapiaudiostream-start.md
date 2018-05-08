@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.Start
-title: IRDPSRAPIAudioStream::Start method
+title: IRDPSRAPIAudioStream::Start
 author: windows-driver-content
 description: Starts the audio stream.
 old-location: rdp\irdpsrapiaudiostream_start.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 23ADA8F5-9F44-45E6-88DC-852D8F62F03F
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIAudioStream, IRDPSRAPIAudioStream interface [RDP], Start method, IRDPSRAPIAudioStream::Start, Start method [RDP], Start method [RDP], IRDPSRAPIAudioStream interface, Start,IRDPSRAPIAudioStream.Start, rdp.irdpsrapiaudiostream_start, rdpencomapi/IRDPSRAPIAudioStream::Start
+ms.keywords: IRDPSRAPIAudioStream interface [RDP],Start method, IRDPSRAPIAudioStream.Start, IRDPSRAPIAudioStream::Start, Start, Start method [RDP], Start method [RDP],IRDPSRAPIAudioStream interface, rdp.irdpsrapiaudiostream_start, rdpencomapi/IRDPSRAPIAudioStream::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIAudioStream::Start method
+# IRDPSRAPIAudioStream::Start
 
 
 ## -description

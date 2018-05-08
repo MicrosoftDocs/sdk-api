@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.SetDDrawSurface
-title: IDDrawExclModeVideo::SetDDrawSurface method
+title: IDDrawExclModeVideo::SetDDrawSurface
 author: windows-driver-content
 description: The SetDDrawSurface method specifies the DirectDraw surface to be used in subsequent drawing.
 old-location: dshow\iddrawexclmodevideo_setddrawsurface.htm
 old-project: DirectShow
 ms.assetid: a897c147-044d-44e2-9029-bd62c74483d2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDDrawExclModeVideo, IDDrawExclModeVideo interface [DirectShow], SetDDrawSurface method, IDDrawExclModeVideo::SetDDrawSurface, IDDrawExclModeVideoSetDDrawSurface, SetDDrawSurface method [DirectShow], SetDDrawSurface method [DirectShow], IDDrawExclModeVideo interface, SetDDrawSurface,IDDrawExclModeVideo.SetDDrawSurface, dshow.iddrawexclmodevideo_setddrawsurface, strmif/IDDrawExclModeVideo::SetDDrawSurface
+ms.date: 4/30/2018
+ms.keywords: IDDrawExclModeVideo interface [DirectShow],SetDDrawSurface method, IDDrawExclModeVideo.SetDDrawSurface, IDDrawExclModeVideo::SetDDrawSurface, IDDrawExclModeVideoSetDDrawSurface, SetDDrawSurface, SetDDrawSurface method [DirectShow], SetDDrawSurface method [DirectShow],IDDrawExclModeVideo interface, dshow.iddrawexclmodevideo_setddrawsurface, strmif/IDDrawExclModeVideo::SetDDrawSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDDrawExclModeVideo::SetDDrawSurface method
+# IDDrawExclModeVideo::SetDDrawSurface
 
 
 ## -description

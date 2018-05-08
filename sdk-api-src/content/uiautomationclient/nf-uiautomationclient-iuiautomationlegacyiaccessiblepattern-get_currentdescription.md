@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentDescription
-title: IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription method
+title: IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription
 author: windows-driver-content
 description: Retrieves the Microsoft Active Accessibility description of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: bdadeb0f-4739-4d0c-bd41-17ac9addf933
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentDescription property [Windows Accessibility], CurrentDescription property [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], CurrentDescription property, IUIAutomationLegacyIAccessiblePattern.CurrentDescription, IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription, get_CurrentDescription,IUIAutomationLegacyIAccessiblePattern.get_CurrentDescription, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentDescription, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription
+ms.keywords: CurrentDescription property [Windows Accessibility], CurrentDescription property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentDescription property, IUIAutomationLegacyIAccessiblePattern.CurrentDescription, IUIAutomationLegacyIAccessiblePattern.get_CurrentDescription, IUIAutomationLegacyIAccessiblePattern::CurrentDescription, IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription, get_CurrentDescription, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentDescription, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription method
+# IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_VideoRendererActive
-title: IMSVidCtl::get_VideoRendererActive method
+title: IMSVidCtl::get_VideoRendererActive
 author: windows-driver-content
 description: The get_VideoRendererActive method retrieves the currently active video renderer.
 old-location: mstv\imsvidctl_get_videorendereractive.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0b69abaf-95ab-49b9-9555-a2244224cb5d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], get_VideoRendererActive method, IMSVidCtl::get_VideoRendererActive, IMSVidCtlget_VideoRendererActive, get_VideoRendererActive method [Microsoft TV Technologies], get_VideoRendererActive method [Microsoft TV Technologies], IMSVidCtl interface, get_VideoRendererActive,IMSVidCtl.get_VideoRendererActive, mstv.imsvidctl_get_videorendereractive, msvidctl/IMSVidCtl::get_VideoRendererActive
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_VideoRendererActive method, IMSVidCtl.get_VideoRendererActive, IMSVidCtl::get_VideoRendererActive, IMSVidCtlget_VideoRendererActive, get_VideoRendererActive, get_VideoRendererActive method [Microsoft TV Technologies], get_VideoRendererActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_videorendereractive, msvidctl/IMSVidCtl::get_VideoRendererActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::get_VideoRendererActive method
+# IMSVidCtl::get_VideoRendererActive
 
 
 ## -description

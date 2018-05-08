@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.get_VCRHorizontalLocking
-title: IAMAnalogVideoDecoder::get_VCRHorizontalLocking method
+title: IAMAnalogVideoDecoder::get_VCRHorizontalLocking
 author: windows-driver-content
 description: The get_VCRHorizontalLocking method indicates whether the decoder is expecting video from a tape source or a broadcast source.
 old-location: dshow\iamanalogvideodecoder_get_vcrhorizontallocking.htm
 old-project: DirectShow
 ms.assetid: 0b527578-1840-4cb1-b94b-9be27b40fcf4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAnalogVideoDecoder, IAMAnalogVideoDecoder interface [DirectShow], get_VCRHorizontalLocking method, IAMAnalogVideoDecoder::get_VCRHorizontalLocking, IAMAnalogVideoDecoderget_VCRHorizontalLocking, dshow.iamanalogvideodecoder_get_vcrhorizontallocking, get_VCRHorizontalLocking method [DirectShow], get_VCRHorizontalLocking method [DirectShow], IAMAnalogVideoDecoder interface, get_VCRHorizontalLocking,IAMAnalogVideoDecoder.get_VCRHorizontalLocking, strmif/IAMAnalogVideoDecoder::get_VCRHorizontalLocking
+ms.date: 4/30/2018
+ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_VCRHorizontalLocking method, IAMAnalogVideoDecoder.get_VCRHorizontalLocking, IAMAnalogVideoDecoder::get_VCRHorizontalLocking, IAMAnalogVideoDecoderget_VCRHorizontalLocking, dshow.iamanalogvideodecoder_get_vcrhorizontallocking, get_VCRHorizontalLocking, get_VCRHorizontalLocking method [DirectShow], get_VCRHorizontalLocking method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_VCRHorizontalLocking
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAnalogVideoDecoder::get_VCRHorizontalLocking method
+# IAMAnalogVideoDecoder::get_VCRHorizontalLocking
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader3.GetInclusionList
-title: IWMDRMReader3::GetInclusionList method
+title: IWMDRMReader3::GetInclusionList
 author: windows-driver-content
 description: The GetInclusionList method retrieves a list of identifiers specifying approved protection systems.
 old-location: wmformat\iwmdrmreader3_getinclusionlist.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ac6f2ced-d60d-4472-8549-c52314375ac6
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetInclusionList method [windows Media Format], GetInclusionList method [windows Media Format], IWMDRMReader3 interface, GetInclusionList,IWMDRMReader3.GetInclusionList, IWMDRMReader3, IWMDRMReader3 interface [windows Media Format], GetInclusionList method, IWMDRMReader3::GetInclusionList, IWMDRMReader3GetInclusionList, wmformat.iwmdrmreader3_getinclusionlist, wmsdkidl/IWMDRMReader3::GetInclusionList
+ms.keywords: GetInclusionList, GetInclusionList method [windows Media Format], GetInclusionList method [windows Media Format],IWMDRMReader3 interface, IWMDRMReader3 interface [windows Media Format],GetInclusionList method, IWMDRMReader3.GetInclusionList, IWMDRMReader3::GetInclusionList, IWMDRMReader3GetInclusionList, wmformat.iwmdrmreader3_getinclusionlist, wmsdkidl/IWMDRMReader3::GetInclusionList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMReader3::GetInclusionList method
+# IWMDRMReader3::GetInclusionList
 
 
 ## -description

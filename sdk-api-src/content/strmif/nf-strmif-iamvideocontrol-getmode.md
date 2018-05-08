@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVideoControl.GetMode
-title: IAMVideoControl::GetMode method
+title: IAMVideoControl::GetMode
 author: windows-driver-content
 description: The GetMode method retrieves the video control mode of operation.
 old-location: dshow\iamvideocontrol_getmode.htm
 old-project: DirectShow
 ms.assetid: 4b937661-67b2-445c-ab25-8655e1036797
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMode method [DirectShow], GetMode method [DirectShow], IAMVideoControl interface, GetMode,IAMVideoControl.GetMode, IAMVideoControl, IAMVideoControl interface [DirectShow], GetMode method, IAMVideoControl::GetMode, IAMVideoControlGetMode, dshow.iamvideocontrol_getmode, strmif/IAMVideoControl::GetMode
+ms.date: 4/30/2018
+ms.keywords: GetMode, GetMode method [DirectShow], GetMode method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetMode method, IAMVideoControl.GetMode, IAMVideoControl::GetMode, IAMVideoControlGetMode, dshow.iamvideocontrol_getmode, strmif/IAMVideoControl::GetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVideoControl::GetMode method
+# IAMVideoControl::GetMode
 
 
 ## -description

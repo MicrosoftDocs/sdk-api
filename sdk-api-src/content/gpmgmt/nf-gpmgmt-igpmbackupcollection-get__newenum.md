@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMBackupCollection.get__NewEnum
-title: IGPMBackupCollection::get__NewEnum method
+title: IGPMBackupCollection::get__NewEnum
 author: windows-driver-content
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmbackupcollection_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: cad0ead4-cfd4-450e-95f3-9a52774b6c0e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IGPMBackupCollection, IGPMBackupCollection interface [GPMC], get__NewEnum method, IGPMBackupCollection::get__NewEnum, _win32_igpmbackupcollection_get__newenum, get__NewEnum method [GPMC], get__NewEnum method [GPMC], IGPMBackupCollection interface, get__NewEnum,IGPMBackupCollection.get__NewEnum, gpmc.igpmbackupcollection_get__newenum, gpmgmt/IGPMBackupCollection::get__NewEnum
+ms.keywords: IGPMBackupCollection interface [GPMC],get__NewEnum method, IGPMBackupCollection.get__NewEnum, IGPMBackupCollection::get__NewEnum, _win32_igpmbackupcollection_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMBackupCollection interface, gpmc.igpmbackupcollection_get__newenum, gpmgmt/IGPMBackupCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMBackupCollection::get__NewEnum method
+# IGPMBackupCollection::get__NewEnum
 
 
 ## -description

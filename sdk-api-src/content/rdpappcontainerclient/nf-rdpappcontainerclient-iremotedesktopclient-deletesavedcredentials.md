@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.DeleteSavedCredentials
-title: IRemoteDesktopClient::DeleteSavedCredentials method
+title: IRemoteDesktopClient::DeleteSavedCredentials
 author: windows-driver-content
 description: Deletes saved credentials for the specified remote computer.
 old-location: termserv\iremotedesktopclient_deletesavedcredentials.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 9addc8de-1e82-47a3-a10e-566bacc3e37c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DeleteSavedCredentials method [Remote Desktop Services], DeleteSavedCredentials method [Remote Desktop Services], IRemoteDesktopClient interface, DeleteSavedCredentials,IRemoteDesktopClient.DeleteSavedCredentials, IRemoteDesktopClient, IRemoteDesktopClient interface [Remote Desktop Services], DeleteSavedCredentials method, IRemoteDesktopClient::DeleteSavedCredentials, rdpappcontainerclient/IRemoteDesktopClient::DeleteSavedCredentials, termserv.iremotedesktopclient_deletesavedcredentials
+ms.keywords: DeleteSavedCredentials, DeleteSavedCredentials method [Remote Desktop Services], DeleteSavedCredentials method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],DeleteSavedCredentials method, IRemoteDesktopClient.DeleteSavedCredentials, IRemoteDesktopClient::DeleteSavedCredentials, rdpappcontainerclient/IRemoteDesktopClient::DeleteSavedCredentials, termserv.iremotedesktopclient_deletesavedcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRemoteDesktopClient::DeleteSavedCredentials method
+# IRemoteDesktopClient::DeleteSavedCredentials
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayer.put_fullScreen
-title: IWMPPlayer::put_fullScreen method
+title: IWMPPlayer::put_fullScreen
 author: windows-driver-content
 description: The put_fullScreen method specifies a value indicating whether video content is played back in full-screen mode.
 old-location: wmp\iwmpplayer_put_fullscreen.htm
 old-project: WMP
 ms.assetid: 50ce0115-9e49-4431-b818-35bdc34da9a0
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], put_fullScreen method, IWMPPlayer::put_fullScreen, IWMPPlayerput_fullScreen, put_fullScreen method [Windows Media Player], put_fullScreen method [Windows Media Player], IWMPPlayer interface, put_fullScreen,IWMPPlayer.put_fullScreen, wmp.iwmpplayer_put_fullscreen, wmp/IWMPPlayer::put_fullScreen
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayer interface [Windows Media Player],put_fullScreen method, IWMPPlayer.put_fullScreen, IWMPPlayer::put_fullScreen, IWMPPlayerput_fullScreen, put_fullScreen, put_fullScreen method [Windows Media Player], put_fullScreen method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_fullscreen, wmp/IWMPPlayer::put_fullScreen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayer::put_fullScreen method
+# IWMPPlayer::put_fullScreen
 
 
 ## -description

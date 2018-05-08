@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnSetTaskTime
-title: ITsSbTaskPluginNotifySink::OnSetTaskTime method
+title: ITsSbTaskPluginNotifySink::OnSetTaskTime
 author: windows-driver-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a task has been scheduled.
 old-location: termserv\itssbtaskpluginnotifysink_onsettasktime.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 6f9b58ba-8cda-4f8d-9c23-19475262148c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbTaskPluginNotifySink, ITsSbTaskPluginNotifySink interface [Remote Desktop Services], OnSetTaskTime method, ITsSbTaskPluginNotifySink::OnSetTaskTime, OnSetTaskTime method [Remote Desktop Services], OnSetTaskTime method [Remote Desktop Services], ITsSbTaskPluginNotifySink interface, OnSetTaskTime,ITsSbTaskPluginNotifySink.OnSetTaskTime, sbtsv/ITsSbTaskPluginNotifySink::OnSetTaskTime, termserv.itssbtaskpluginnotifysink_onsettasktime
+ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnSetTaskTime method, ITsSbTaskPluginNotifySink.OnSetTaskTime, ITsSbTaskPluginNotifySink::OnSetTaskTime, OnSetTaskTime, OnSetTaskTime method [Remote Desktop Services], OnSetTaskTime method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnSetTaskTime, termserv.itssbtaskpluginnotifysink_onsettasktime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbTaskPluginNotifySink::OnSetTaskTime method
+# ITsSbTaskPluginNotifySink::OnSetTaskTime
 
 
 ## -description

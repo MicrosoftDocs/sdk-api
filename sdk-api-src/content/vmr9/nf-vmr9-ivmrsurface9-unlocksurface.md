@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRSurface9.UnlockSurface
-title: IVMRSurface9::UnlockSurface method
+title: IVMRSurface9::UnlockSurface
 author: windows-driver-content
 description: The UnlockSurface method unlocks the attached Direct3D surface.
 old-location: dshow\ivmrsurface9_unlocksurface.htm
 old-project: DirectShow
 ms.assetid: 2785b1b7-62ed-420d-ab98-264e1b03b578
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRSurface9, IVMRSurface9 interface [DirectShow], UnlockSurface method, IVMRSurface9::UnlockSurface, IVMRSurface9UnlockSurface, UnlockSurface method [DirectShow], UnlockSurface method [DirectShow], IVMRSurface9 interface, UnlockSurface,IVMRSurface9.UnlockSurface, dshow.ivmrsurface9_unlocksurface, vmr9/IVMRSurface9::UnlockSurface
+ms.date: 4/30/2018
+ms.keywords: IVMRSurface9 interface [DirectShow],UnlockSurface method, IVMRSurface9.UnlockSurface, IVMRSurface9::UnlockSurface, IVMRSurface9UnlockSurface, UnlockSurface, UnlockSurface method [DirectShow], UnlockSurface method [DirectShow],IVMRSurface9 interface, dshow.ivmrsurface9_unlocksurface, vmr9/IVMRSurface9::UnlockSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRSurface9::UnlockSurface method
+# IVMRSurface9::UnlockSurface
 
 
 ## -description

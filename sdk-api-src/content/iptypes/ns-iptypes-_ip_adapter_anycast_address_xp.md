@@ -7,7 +7,7 @@ old-location: iphlp\ip_adapter_anycast_address.htm
 old-project: IpHlp
 ms.assetid: 2626fc86-e29b-4162-8625-207c709d67ed
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: "*PIP_ADAPTER_ANYCAST_ADDRESS, *PIP_ADAPTER_ANYCAST_ADDRESS_XP, IP_ADAPTER_ADDRESS_DNS_ELIGIBLE, IP_ADAPTER_ADDRESS_TRANSIENT, IP_ADAPTER_ANYCAST_ADDRESS, IP_ADAPTER_ANYCAST_ADDRESS structure [IP Helper], IP_ADAPTER_ANYCAST_ADDRESS_XP, PIP_ADAPTER_ANYCAST_ADDRESS, PIP_ADAPTER_ANYCAST_ADDRESS structure pointer [IP Helper], _IP_ADAPTER_ANYCAST_ADDRESS_XP, _iphlp_ip_adapter_anycast_address, iphlp.ip_adapter_anycast_address, iptypes/IP_ADAPTER_ANYCAST_ADDRESS, iptypes/PIP_ADAPTER_ANYCAST_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,13 @@ The
 ## -struct-fields
 
 
+
+
+### -field Alignment
+
+Type: <b>ULONGLONG</b>
+
+Reserved. Used by the compiler to align the structure.
 
 
 ### -field Length
@@ -120,13 +127,6 @@ A pointer to the next anycast IP address structure in the list.
 Type: <b><a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a></b>
 
 The IP address for this anycast IP address entry. This member can be an IPv6 address or an IPv4 address. 
-
-
-#### - Alignment
-
-Type: <b>ULONGLONG</b>
-
-Reserved. Used by the compiler to align the structure.
 
 
 ## -remarks

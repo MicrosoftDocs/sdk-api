@@ -7,8 +7,8 @@ old-location: dshow\idvdcmd.htm
 old-project: DirectShow
 ms.assetid: 85f9b208-ddc2-4d9c-a30b-b666c81a49d2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdCmd, IDvdCmd interface [DirectShow], IDvdCmd interface [DirectShow], described, IDvdCmdInterface, dshow.idvdcmd, strmif/IDvdCmd
+ms.date: 4/30/2018
+ms.keywords: IDvdCmd, IDvdCmd interface [DirectShow], IDvdCmd interface [DirectShow],described, IDvdCmdInterface, dshow.idvdcmd, strmif/IDvdCmd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

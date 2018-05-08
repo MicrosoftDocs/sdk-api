@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.AddDifferencedFilesByLastModifyTime
-title: IVssComponent::AddDifferencedFilesByLastModifyTime method
+title: IVssComponent::AddDifferencedFilesByLastModifyTime
 author: windows-driver-content
 description: Used by a writer to indicate that a file set (a specified file or files) should be evaluated against a last modification time stamp for inclusion in a time stamped incremental or differential backup using entire files.
 old-location: base\ivsscomponent_adddifferencedfilesbylastmodifytime.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 33372d10-c947-45de-9ea2-03ba6378179d
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: AddDifferencedFilesByLastModifyTime method [VSS], AddDifferencedFilesByLastModifyTime method [VSS], IVssComponent interface, AddDifferencedFilesByLastModifyTime,IVssComponent.AddDifferencedFilesByLastModifyTime, IVssComponent, IVssComponent interface [VSS], AddDifferencedFilesByLastModifyTime method, IVssComponent::AddDifferencedFilesByLastModifyTime, _win32_ivsscomponent_adddifferencedfilesbylastmodifytime, base.ivsscomponent_adddifferencedfilesbylastmodifytime, vswriter/IVssComponent::AddDifferencedFilesByLastModifyTime
+ms.keywords: AddDifferencedFilesByLastModifyTime, AddDifferencedFilesByLastModifyTime method [VSS], AddDifferencedFilesByLastModifyTime method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDifferencedFilesByLastModifyTime method, IVssComponent.AddDifferencedFilesByLastModifyTime, IVssComponent::AddDifferencedFilesByLastModifyTime, _win32_ivsscomponent_adddifferencedfilesbylastmodifytime, base.ivsscomponent_adddifferencedfilesbylastmodifytime, vswriter/IVssComponent::AddDifferencedFilesByLastModifyTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::AddDifferencedFilesByLastModifyTime method
+# IVssComponent::AddDifferencedFilesByLastModifyTime
 
 
 ## -description

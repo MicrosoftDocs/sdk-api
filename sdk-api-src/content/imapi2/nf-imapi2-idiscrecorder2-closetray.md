@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.CloseTray
-title: IDiscRecorder2::CloseTray method
+title: IDiscRecorder2::CloseTray
 author: windows-driver-content
 description: Closes the media tray.
 old-location: imapi\idiscrecorder2_closetray.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 0a30f3bb-68fc-45d5-826d-79ed9209f391
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CloseTray method [IMAPI], CloseTray method [IMAPI], IDiscRecorder2 interface, CloseTray,IDiscRecorder2.CloseTray, IDiscRecorder2, IDiscRecorder2 interface [IMAPI], CloseTray method, IDiscRecorder2::CloseTray, imapi.idiscrecorder2_closetray, imapi2/IDiscRecorder2::CloseTray
+ms.keywords: CloseTray, CloseTray method [IMAPI], CloseTray method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],CloseTray method, IDiscRecorder2.CloseTray, IDiscRecorder2::CloseTray, imapi.idiscrecorder2_closetray, imapi2/IDiscRecorder2::CloseTray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2::CloseTray method
+# IDiscRecorder2::CloseTray
 
 
 ## -description

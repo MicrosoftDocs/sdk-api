@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumConnectionPoints.Clone
-title: IEnumConnectionPoints::Clone method
+title: IEnumConnectionPoints::Clone
 author: windows-driver-content
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumconnectionpoints_clone.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 47dfd670-57f7-4fb1-bd61-65dd4a3bc6c2
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Clone method [COM], Clone method [COM], IEnumConnectionPoints interface, Clone,IEnumConnectionPoints.Clone, IEnumConnectionPoints, IEnumConnectionPoints interface [COM], Clone method, IEnumConnectionPoints::Clone, _com_ienumconnectionpoints_clone, com.ienumconnectionpoints_clone, ocidl/IEnumConnectionPoints::Clone
+ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumConnectionPoints interface, IEnumConnectionPoints interface [COM],Clone method, IEnumConnectionPoints.Clone, IEnumConnectionPoints::Clone, _com_ienumconnectionpoints_clone, com.ienumconnectionpoints_clone, ocidl/IEnumConnectionPoints::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumConnectionPoints::Clone method
+# IEnumConnectionPoints::Clone
 
 
 ## -description

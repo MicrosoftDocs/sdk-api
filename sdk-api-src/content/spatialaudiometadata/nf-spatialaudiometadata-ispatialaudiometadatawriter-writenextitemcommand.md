@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataWriter.WriteNextItemCommand
-title: ISpatialAudioMetadataWriter::WriteNextItemCommand method
+title: ISpatialAudioMetadataWriter::WriteNextItemCommand
 author: windows-driver-content
 description: Writes metadata commands and value data to the current item.
 old-location: coreaudio\ispatialaudiometadatawriter_writenextitemcommand.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: A614AEC6-7CA3-4624-BAFE-46618BCB64FA
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ISpatialAudioMetadataWriter, ISpatialAudioMetadataWriter interface [Core Audio], WriteNextItemCommand method, ISpatialAudioMetadataWriter::WriteNextItemCommand, WriteNextItemCommand method [Core Audio], WriteNextItemCommand method [Core Audio], ISpatialAudioMetadataWriter interface, WriteNextItemCommand,ISpatialAudioMetadataWriter.WriteNextItemCommand, coreaudio.ispatialaudiometadatawriter_writenextitemcommand, spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItemCommand
+ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],WriteNextItemCommand method, ISpatialAudioMetadataWriter.WriteNextItemCommand, ISpatialAudioMetadataWriter::WriteNextItemCommand, WriteNextItemCommand, WriteNextItemCommand method [Core Audio], WriteNextItemCommand method [Core Audio],ISpatialAudioMetadataWriter interface, coreaudio.ispatialaudiometadatawriter_writenextitemcommand, spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItemCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataWriter::WriteNextItemCommand method
+# ISpatialAudioMetadataWriter::WriteNextItemCommand
 
 
 ## -description

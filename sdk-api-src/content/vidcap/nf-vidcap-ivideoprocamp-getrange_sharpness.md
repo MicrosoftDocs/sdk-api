@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Sharpness
-title: IVideoProcAmp::getRange_Sharpness method
+title: IVideoProcAmp::getRange_Sharpness
 author: windows-driver-content
 description: The getRange_Sharpness method returns the range of sharpness settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_sharpness.htm
 old-project: DirectShow
 ms.assetid: 9a5fe298-e76b-44ac-9fcd-a5d1aeb3593c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_Sharpness method, IVideoProcAmp::getRange_Sharpness, IVideoProcAmpgetRange_Sharpness, dshow.ivideoprocamp_getrange_sharpness, getRange_Sharpness method [DirectShow], getRange_Sharpness method [DirectShow], IVideoProcAmp interface, getRange_Sharpness,IVideoProcAmp.getRange_Sharpness, vidcap/IVideoProcAmp::getRange_Sharpness
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Sharpness method, IVideoProcAmp.getRange_Sharpness, IVideoProcAmp::getRange_Sharpness, IVideoProcAmpgetRange_Sharpness, dshow.ivideoprocamp_getrange_sharpness, getRange_Sharpness, getRange_Sharpness method [DirectShow], getRange_Sharpness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Sharpness
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::getRange_Sharpness method
+# IVideoProcAmp::getRange_Sharpness
 
 
 ## -description

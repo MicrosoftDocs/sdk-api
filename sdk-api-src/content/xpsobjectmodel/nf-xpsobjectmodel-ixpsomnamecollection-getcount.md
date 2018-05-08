@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMNameCollection.GetCount
-title: IXpsOMNameCollection::GetCount method
+title: IXpsOMNameCollection::GetCount
 author: windows-driver-content
 description: Gets the number of name strings in the collection.
 old-location: xps\ixpsomnamecollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f449c2f6-fe7b-4115-9a05-fef90f2954b0
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging], IXpsOMNameCollection interface, GetCount,IXpsOMNameCollection.GetCount, IXpsOMNameCollection, IXpsOMNameCollection interface [XPS Documents and Packaging], GetCount method, IXpsOMNameCollection::GetCount, xps.ixpsomnamecollection_getcount, xpsobjectmodel/IXpsOMNameCollection::GetCount
+ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMNameCollection interface, IXpsOMNameCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMNameCollection.GetCount, IXpsOMNameCollection::GetCount, xps.ixpsomnamecollection_getcount, xpsobjectmodel/IXpsOMNameCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMNameCollection::GetCount method
+# IXpsOMNameCollection::GetCount
 
 
 ## -description

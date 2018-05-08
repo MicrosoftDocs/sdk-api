@@ -1,14 +1,14 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetHoldPage
-title: IAMWstDecoder::SetHoldPage method
+title: IAMWstDecoder::SetHoldPage
 author: windows-driver-content
 description: Downstream filters use the SetHoldPage method to tell the WST decoder to hold the current WST page. When the WST decoder holds a page, any updates from the TV stream are turned off. It is as though the page was paused in real time.
 old-location: dshow\iamwstdecoder_setholdpage.htm
 old-project: DirectShow
 ms.assetid: 2fea6f52-bae3-4679-a89b-fe85f1232d34
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], SetHoldPage method, IAMWstDecoder::SetHoldPage, IAMWstDecoderSetHoldPage, SetHoldPage method [DirectShow], SetHoldPage method [DirectShow], IAMWstDecoder interface, SetHoldPage,IAMWstDecoder.SetHoldPage, dshow.iamwstdecoder_setholdpage, iwstdec/IAMWstDecoder::SetHoldPage
+ms.date: 4/30/2018
+ms.keywords: IAMWstDecoder interface [DirectShow],SetHoldPage method, IAMWstDecoder.SetHoldPage, IAMWstDecoder::SetHoldPage, IAMWstDecoderSetHoldPage, SetHoldPage, SetHoldPage method [DirectShow], SetHoldPage method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setholdpage, iwstdec/IAMWstDecoder::SetHoldPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMWstDecoder::SetHoldPage method
+# IAMWstDecoder::SetHoldPage
 
 
 ## -description

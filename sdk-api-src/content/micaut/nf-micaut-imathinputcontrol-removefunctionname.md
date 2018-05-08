@@ -1,14 +1,14 @@
 ---
 UID: NF:micaut.IMathInputControl.RemoveFunctionName
-title: IMathInputControl::RemoveFunctionName method
+title: IMathInputControl::RemoveFunctionName
 author: windows-driver-content
 description: Removes a function-name definition from the list of custom math functions that the recognizer accepts.
 old-location: tablet\imathinputcontrol_removefunctionname.htm
 old-project: tablet
 ms.assetid: 7c1a16c7-4490-480d-9831-ca297ccdde80
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], RemoveFunctionName method, IMathInputControl::RemoveFunctionName, RemoveFunctionName method [Tablet PC], RemoveFunctionName method [Tablet PC], IMathInputControl interface, RemoveFunctionName,IMathInputControl.RemoveFunctionName, micaut/IMathInputControl::RemoveFunctionName, tablet.imathinputcontrol_removefunctionname
+ms.date: 5/2/2018
+ms.keywords: IMathInputControl interface [Tablet PC],RemoveFunctionName method, IMathInputControl.RemoveFunctionName, IMathInputControl::RemoveFunctionName, RemoveFunctionName, RemoveFunctionName method [Tablet PC], RemoveFunctionName method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::RemoveFunctionName, tablet.imathinputcontrol_removefunctionname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMathInputControl::RemoveFunctionName method
+# IMathInputControl::RemoveFunctionName
 
 
 ## -description

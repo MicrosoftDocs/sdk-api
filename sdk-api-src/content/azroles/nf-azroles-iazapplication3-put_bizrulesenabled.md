@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.put_BizRulesEnabled
-title: IAzApplication3::put_BizRulesEnabled method
+title: IAzApplication3::put_BizRulesEnabled
 author: windows-driver-content
 description: Gets or sets a value that indicates whether business rules are enabled for this application.
 old-location: security\iazapplication3_bizrulesenabled.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 92303a5d-a705-4003-890e-e75886451c18
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: BizRulesEnabled property [Security], BizRulesEnabled property [Security], IAzApplication3 interface, IAzApplication3, IAzApplication3 interface [Security], BizRulesEnabled property, IAzApplication3.BizRulesEnabled, IAzApplication3::get_BizRulesEnabled, IAzApplication3::put_BizRulesEnabled, azroles/IAzApplication3::BizRulesEnabled, azroles/IAzApplication3::get_BizRulesEnabled, azroles/IAzApplication3::put_BizRulesEnabled, put_BizRulesEnabled,IAzApplication3.put_BizRulesEnabled, security.iazapplication3_bizrulesenabled
+ms.keywords: BizRulesEnabled property [Security], BizRulesEnabled property [Security],IAzApplication3 interface, IAzApplication3 interface [Security],BizRulesEnabled property, IAzApplication3.BizRulesEnabled, IAzApplication3.put_BizRulesEnabled, IAzApplication3::BizRulesEnabled, IAzApplication3::get_BizRulesEnabled, IAzApplication3::put_BizRulesEnabled, azroles/IAzApplication3::BizRulesEnabled, azroles/IAzApplication3::get_BizRulesEnabled, azroles/IAzApplication3::put_BizRulesEnabled, put_BizRulesEnabled, security.iazapplication3_bizrulesenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication3::put_BizRulesEnabled method
+# IAzApplication3::put_BizRulesEnabled
 
 
 ## -description

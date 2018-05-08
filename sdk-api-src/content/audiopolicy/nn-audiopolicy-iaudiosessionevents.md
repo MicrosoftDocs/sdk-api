@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: fd287ef7-8a37-4342-b4c2-79b84a56c30e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], IAudioSessionEvents interface [Core Audio], described, audiopolicy/IAudioSessionEvents, coreaudio.iaudiosessionevents
+ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], IAudioSessionEvents interface [Core Audio],described, audiopolicy/IAudioSessionEvents, coreaudio.iaudiosessionevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

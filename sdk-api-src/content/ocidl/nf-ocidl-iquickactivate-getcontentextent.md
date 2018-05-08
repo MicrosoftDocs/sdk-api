@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IQuickActivate.GetContentExtent
-title: IQuickActivate::GetContentExtent method
+title: IQuickActivate::GetContentExtent
 author: windows-driver-content
 description: Gets the content extent of a control.
 old-location: com\iquickactivate_getcontentextent.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ead9bf4d-44a1-4237-ad03-28a4253819b8
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetContentExtent method [COM], GetContentExtent method [COM], IQuickActivate interface, GetContentExtent,IQuickActivate.GetContentExtent, IQuickActivate, IQuickActivate interface [COM], GetContentExtent method, IQuickActivate::GetContentExtent, _ctrl_iquickactivate_getcontentextent, com.iquickactivate_getcontentextent, ocidl/IQuickActivate::GetContentExtent
+ms.keywords: GetContentExtent, GetContentExtent method [COM], GetContentExtent method [COM],IQuickActivate interface, IQuickActivate interface [COM],GetContentExtent method, IQuickActivate.GetContentExtent, IQuickActivate::GetContentExtent, _ctrl_iquickactivate_getcontentextent, com.iquickactivate_getcontentextent, ocidl/IQuickActivate::GetContentExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IQuickActivate::GetContentExtent method
+# IQuickActivate::GetContentExtent
 
 
 ## -description

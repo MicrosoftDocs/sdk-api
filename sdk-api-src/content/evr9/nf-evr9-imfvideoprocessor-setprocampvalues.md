@@ -1,14 +1,14 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.SetProcAmpValues
-title: IMFVideoProcessor::SetProcAmpValues method
+title: IMFVideoProcessor::SetProcAmpValues
 author: windows-driver-content
 description: Sets one or more color adjustment (ProcAmp) settings.
 old-location: mf\imfvideoprocessor_setprocampvalues.htm
 old-project: medfound
 ms.assetid: 84a5e022-773c-483b-adb5-5883b25b716f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 84a5e022-773c-483b-adb5-5883b25b716f, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], SetProcAmpValues method, IMFVideoProcessor::SetProcAmpValues, SetProcAmpValues method [Media Foundation], SetProcAmpValues method [Media Foundation], IMFVideoProcessor interface, SetProcAmpValues,IMFVideoProcessor.SetProcAmpValues, evr9/IMFVideoProcessor::SetProcAmpValues, mf.imfvideoprocessor_setprocampvalues
+ms.date: 5/3/2018
+ms.keywords: 84a5e022-773c-483b-adb5-5883b25b716f, IMFVideoProcessor interface [Media Foundation],SetProcAmpValues method, IMFVideoProcessor.SetProcAmpValues, IMFVideoProcessor::SetProcAmpValues, SetProcAmpValues, SetProcAmpValues method [Media Foundation], SetProcAmpValues method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetProcAmpValues, mf.imfvideoprocessor_setprocampvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoProcessor::SetProcAmpValues method
+# IMFVideoProcessor::SetProcAmpValues
 
 
 ## -description

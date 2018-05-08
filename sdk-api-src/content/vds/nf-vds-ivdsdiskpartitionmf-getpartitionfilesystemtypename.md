@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDiskPartitionMF.GetPartitionFileSystemTypeName
-title: IVdsDiskPartitionMF::GetPartitionFileSystemTypeName method
+title: IVdsDiskPartitionMF::GetPartitionFileSystemTypeName
 author: windows-driver-content
 description: Retrieves the name of the file system on a partition on the disk at a specified byte offset.
 old-location: base\ivdsdiskpartitionmf_getpartitionfilesystemtypename.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: ad2f8c5b-6a85-437a-bb51-0c4552a015b2
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetPartitionFileSystemTypeName method, GetPartitionFileSystemTypeName method, IVdsDiskPartitionMF interface, GetPartitionFileSystemTypeName,IVdsDiskPartitionMF.GetPartitionFileSystemTypeName, IVdsDiskPartitionMF, IVdsDiskPartitionMF interface, GetPartitionFileSystemTypeName method, IVdsDiskPartitionMF::GetPartitionFileSystemTypeName, base.ivdsdiskpartitionmf_getpartitionfilesystemtypename, vds/IVdsDiskPartitionMF::GetPartitionFileSystemTypeName
+ms.keywords: GetPartitionFileSystemTypeName, GetPartitionFileSystemTypeName method, GetPartitionFileSystemTypeName method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,GetPartitionFileSystemTypeName method, IVdsDiskPartitionMF.GetPartitionFileSystemTypeName, IVdsDiskPartitionMF::GetPartitionFileSystemTypeName, base.ivdsdiskpartitionmf_getpartitionfilesystemtypename, vds/IVdsDiskPartitionMF::GetPartitionFileSystemTypeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsDiskPartitionMF::GetPartitionFileSystemTypeName method
+# IVdsDiskPartitionMF::GetPartitionFileSystemTypeName
 
 
 ## -description

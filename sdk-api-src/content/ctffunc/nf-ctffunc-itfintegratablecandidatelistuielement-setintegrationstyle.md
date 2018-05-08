@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.SetIntegrationStyle
-title: ITfIntegratableCandidateListUIElement::SetIntegrationStyle method
+title: ITfIntegratableCandidateListUIElement::SetIntegrationStyle
 author: windows-driver-content
 description: Sets the integration style.
 old-location: tsf\itfintegratablecandidatelistuielement_setintegrationstyle.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: DC6565A6-6CEC-4DD9-A845-1DDFF157266C
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], SetIntegrationStyle method, ITfIntegratableCandidateListUIElement::SetIntegrationStyle, SetIntegrationStyle method [Text Services Framework], SetIntegrationStyle method [Text Services Framework], ITfIntegratableCandidateListUIElement interface, SetIntegrationStyle,ITfIntegratableCandidateListUIElement.SetIntegrationStyle, ctffunc/ITfIntegratableCandidateListUIElement::SetIntegrationStyle, tsf.itfintegratablecandidatelistuielement_setintegrationstyle
+ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],SetIntegrationStyle method, ITfIntegratableCandidateListUIElement.SetIntegrationStyle, ITfIntegratableCandidateListUIElement::SetIntegrationStyle, SetIntegrationStyle, SetIntegrationStyle method [Text Services Framework], SetIntegrationStyle method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::SetIntegrationStyle, tsf.itfintegratablecandidatelistuielement_setintegrationstyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITfIntegratableCandidateListUIElement::SetIntegrationStyle method
+# ITfIntegratableCandidateListUIElement::SetIntegrationStyle
 
 
 ## -description

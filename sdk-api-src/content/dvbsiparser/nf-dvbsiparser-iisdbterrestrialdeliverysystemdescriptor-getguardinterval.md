@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval
-title: IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval method
+title: IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval
 author: windows-driver-content
 description: Gets the guard interval from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getguardinterval.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f1016fd4-bcd9-4678-b59c-c6c8207f242d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetGuardInterval method [Microsoft TV Technologies], GetGuardInterval method [Microsoft TV Technologies], IIsdbTerrestrialDeliverySystemDescriptor interface, GetGuardInterval,IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval, IIsdbTerrestrialDeliverySystemDescriptor, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], GetGuardInterval method, IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval, mstv.iisdbterrestrialdeliverysystemdescriptor_getguardinterval
+ms.keywords: GetGuardInterval, GetGuardInterval method [Microsoft TV Technologies], GetGuardInterval method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetGuardInterval method, IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval, IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval, mstv.iisdbterrestrialdeliverysystemdescriptor_getguardinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval method
+# IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval
 
 
 ## -description

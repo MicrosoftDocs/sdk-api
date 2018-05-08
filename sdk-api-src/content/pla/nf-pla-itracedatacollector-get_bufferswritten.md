@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_BuffersWritten
-title: ITraceDataCollector::get_BuffersWritten method
+title: ITraceDataCollector::get_BuffersWritten
 author: windows-driver-content
 description: Retrieves the number of buffers written to the log file.
 old-location: pla\itracedatacollector_bufferswritten.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: e150a68f-da6d-4ee1-9ac8-d19d0cae62cc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BuffersWritten property [PLA], BuffersWritten property [PLA], ITraceDataCollector interface, ITraceDataCollector, ITraceDataCollector interface [PLA], BuffersWritten property, ITraceDataCollector.BuffersWritten, ITraceDataCollector::get_BuffersWritten, base.itracedatacollector_bufferswritten, get_BuffersWritten,ITraceDataCollector.get_BuffersWritten, pla.itracedatacollector_bufferswritten, pla/ITraceDataCollector::BuffersWritten, pla/ITraceDataCollector::get_BuffersWritten
+ms.keywords: BuffersWritten property [PLA], BuffersWritten property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],BuffersWritten property, ITraceDataCollector.BuffersWritten, ITraceDataCollector.get_BuffersWritten, ITraceDataCollector::BuffersWritten, ITraceDataCollector::get_BuffersWritten, base.itracedatacollector_bufferswritten, get_BuffersWritten, pla.itracedatacollector_bufferswritten, pla/ITraceDataCollector::BuffersWritten, pla/ITraceDataCollector::get_BuffersWritten
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataCollector::get_BuffersWritten method
+# ITraceDataCollector::get_BuffersWritten
 
 
 ## -description

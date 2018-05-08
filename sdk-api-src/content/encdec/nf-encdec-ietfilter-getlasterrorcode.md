@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IETFilter.GetLastErrorCode
-title: IETFilter::GetLastErrorCode method
+title: IETFilter::GetLastErrorCode
 author: windows-driver-content
 description: Not implemented.
 old-location: mstv\ietfilter_getlasterrorcode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7982c60b-9be1-49c4-8194-f5e52487275e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies], IETFilter interface, GetLastErrorCode,IETFilter.GetLastErrorCode, IETFilter, IETFilter interface [Microsoft TV Technologies], GetLastErrorCode method, IETFilter::GetLastErrorCode, IETFilterGetLastErrorCode, encdec/IETFilter::GetLastErrorCode, mstv.ietfilter_getlasterrorcode
+ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IETFilter interface, IETFilter interface [Microsoft TV Technologies],GetLastErrorCode method, IETFilter.GetLastErrorCode, IETFilter::GetLastErrorCode, IETFilterGetLastErrorCode, encdec/IETFilter::GetLastErrorCode, mstv.ietfilter_getlasterrorcode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IETFilter::GetLastErrorCode method
+# IETFilter::GetLastErrorCode
 
 
 ## -description

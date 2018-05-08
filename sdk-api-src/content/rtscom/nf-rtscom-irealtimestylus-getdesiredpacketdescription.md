@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetDesiredPacketDescription
-title: IRealTimeStylus::GetDesiredPacketDescription method
+title: IRealTimeStylus::GetDesiredPacketDescription
 author: windows-driver-content
 description: Retrieves the list of properties that have been requested to be included in the packet stream.
 old-location: tablet\irealtimestylus_getdesiredpacketdescription.htm
 old-project: tablet
 ms.assetid: 8799eb17-8ad0-49c1-a278-40b3bff9d281
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 8799eb17-8ad0-49c1-a278-40b3bff9d281, GetDesiredPacketDescription method [Tablet PC], GetDesiredPacketDescription method [Tablet PC], IRealTimeStylus interface, GetDesiredPacketDescription,IRealTimeStylus.GetDesiredPacketDescription, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], GetDesiredPacketDescription method, IRealTimeStylus::GetDesiredPacketDescription, rtscom/IRealTimeStylus::GetDesiredPacketDescription, tablet.irealtimestylus_getdesiredpacketdescription
+ms.date: 5/2/2018
+ms.keywords: 8799eb17-8ad0-49c1-a278-40b3bff9d281, GetDesiredPacketDescription, GetDesiredPacketDescription method [Tablet PC], GetDesiredPacketDescription method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetDesiredPacketDescription method, IRealTimeStylus.GetDesiredPacketDescription, IRealTimeStylus::GetDesiredPacketDescription, rtscom/IRealTimeStylus::GetDesiredPacketDescription, tablet.irealtimestylus_getdesiredpacketdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylus::GetDesiredPacketDescription method
+# IRealTimeStylus::GetDesiredPacketDescription
 
 
 ## -description

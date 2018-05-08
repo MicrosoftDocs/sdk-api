@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.SampleToRefTime
-title: IDirectMusicSynthSink::SampleToRefTime method
+title: IDirectMusicSynthSink::SampleToRefTime
 author: windows-driver-content
 description: The SampleToRefTime method converts a sample time to a reference time.
 old-location: audio\idirectmusicsynthsink_sampletoreftime.htm
 old-project: audio
 ms.assetid: a82b33a3-e7bb-46f0-a13d-ba251db19c16
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IDirectMusicSynthSink, IDirectMusicSynthSink interface [Audio Devices], SampleToRefTime method, IDirectMusicSynthSink::SampleToRefTime, SampleToRefTime method [Audio Devices], SampleToRefTime method [Audio Devices], IDirectMusicSynthSink interface, SampleToRefTime,IDirectMusicSynthSink.SampleToRefTime, audio.idirectmusicsynthsink_sampletoreftime, audmp-routines_fc97fec3-8fa0-4f6a-82b5-b99c434341c4.xml, dmusics/IDirectMusicSynthSink::SampleToRefTime
+ms.date: 5/1/2018
+ms.keywords: IDirectMusicSynthSink interface [Audio Devices],SampleToRefTime method, IDirectMusicSynthSink.SampleToRefTime, IDirectMusicSynthSink::SampleToRefTime, SampleToRefTime, SampleToRefTime method [Audio Devices], SampleToRefTime method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_sampletoreftime, audmp-routines_fc97fec3-8fa0-4f6a-82b5-b99c434341c4.xml, dmusics/IDirectMusicSynthSink::SampleToRefTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectMusicSynthSink::SampleToRefTime method
+# IDirectMusicSynthSink::SampleToRefTime
 
 
 ## -description

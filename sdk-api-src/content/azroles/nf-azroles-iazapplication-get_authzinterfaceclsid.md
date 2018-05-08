@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.get_AuthzInterfaceClsid
-title: IAzApplication::get_AuthzInterfaceClsid method
+title: IAzApplication::get_AuthzInterfaceClsid
 author: windows-driver-content
 description: Sets or retrieves the class identifier (CLSID) of the interface that the user interface (UI) uses to perform application-specific operations.
 old-location: security\iazapplication_authzinterfaceclsid.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: d3dddd9c-a715-4697-bcca-ba12cead3b61
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AuthzInterfaceClsid property [Security], AuthzInterfaceClsid property [Security], AzApplication object, AuthzInterfaceClsid property [Security], IAzApplication interface, AzApplication object [Security], AuthzInterfaceClsid property, IAzApplication, IAzApplication interface [Security], AuthzInterfaceClsid property, IAzApplication.AuthzInterfaceClsid, IAzApplication::get_AuthzInterfaceClsid, IAzApplication::put_AuthzInterfaceClsid, azroles/IAzApplication::AuthzInterfaceClsid, azroles/IAzApplication::get_AuthzInterfaceClsid, azroles/IAzApplication::put_AuthzInterfaceClsid, get_AuthzInterfaceClsid,IAzApplication.get_AuthzInterfaceClsid, security.iazapplication_authzinterfaceclsid
+ms.keywords: AuthzInterfaceClsid property [Security], AuthzInterfaceClsid property [Security],AzApplication object, AuthzInterfaceClsid property [Security],IAzApplication interface, AzApplication object [Security],AuthzInterfaceClsid property, IAzApplication interface [Security],AuthzInterfaceClsid property, IAzApplication.AuthzInterfaceClsid, IAzApplication.get_AuthzInterfaceClsid, IAzApplication::AuthzInterfaceClsid, IAzApplication::get_AuthzInterfaceClsid, IAzApplication::put_AuthzInterfaceClsid, azroles/IAzApplication::AuthzInterfaceClsid, azroles/IAzApplication::get_AuthzInterfaceClsid, azroles/IAzApplication::put_AuthzInterfaceClsid, get_AuthzInterfaceClsid, security.iazapplication_authzinterfaceclsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::get_AuthzInterfaceClsid method
+# IAzApplication::get_AuthzInterfaceClsid
 
 
 ## -description

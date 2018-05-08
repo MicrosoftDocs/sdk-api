@@ -7,7 +7,7 @@ old-location: automat\varui1fromr4.htm
 old-project: automat
 ms.assetid: 66457140-68a1-4ec6-a9df-829cd94f127b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarUI1FromR4, VarUI1FromR4 function [Automation], _oa96_VarUI1FromR4, automat.varui1fromr4, oleauto/VarUI1FromR4
 ms.prod: windows-hardware
 ms.technology: windows-devices

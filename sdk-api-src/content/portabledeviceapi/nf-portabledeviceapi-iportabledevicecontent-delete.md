@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.Delete
-title: IPortableDeviceContent::Delete method
+title: IPortableDeviceContent::Delete
 author: windows-driver-content
 description: The Delete method deletes one or more objects from the device.
 old-location: wpdsdk\iportabledevicecontent_delete.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 7315c869-d2b6-4ccf-9315-ec1fc1d827ac
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Delete method [Windows Portable Devices SDK], Delete method [Windows Portable Devices SDK], IPortableDeviceContent interface, Delete,IPortableDeviceContent.Delete, IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], Delete method, IPortableDeviceContent::Delete, IPortableDeviceContentDelete, portabledeviceapi/IPortableDeviceContent::Delete, wpdsdk.iportabledevicecontent_delete
+ms.keywords: Delete, Delete method [Windows Portable Devices SDK], Delete method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],Delete method, IPortableDeviceContent.Delete, IPortableDeviceContent::Delete, IPortableDeviceContentDelete, portabledeviceapi/IPortableDeviceContent::Delete, wpdsdk.iportabledevicecontent_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceContent::Delete method
+# IPortableDeviceContent::Delete
 
 
 ## -description

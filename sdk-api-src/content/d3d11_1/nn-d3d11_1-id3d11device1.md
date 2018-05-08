@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: DB4DAD13-3CD7-4362-950B-6403328CB071
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11Device1, ID3D11Device1 interface [Direct3D 11], ID3D11Device1 interface [Direct3D 11], described, d3d11_1/ID3D11Device1, direct3d11.id3d11device1
+ms.keywords: ID3D11Device1, ID3D11Device1 interface [Direct3D 11], ID3D11Device1 interface [Direct3D 11],described, d3d11_1/ID3D11Device1, direct3d11.id3d11device1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 0a522633-87da-426c-9778-30949257e931
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportServicePolicy, IWdsTransportServicePolicy interface [Windows Deployment Services], IWdsTransportServicePolicy interface [Windows Deployment Services], described, wds.iwdstransportservicepolicy, wdstptmgmt/IWdsTransportServicePolicy
+ms.keywords: IWdsTransportServicePolicy, IWdsTransportServicePolicy interface [Windows Deployment Services], IWdsTransportServicePolicy interface [Windows Deployment Services],described, wds.iwdstransportservicepolicy, wdstptmgmt/IWdsTransportServicePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

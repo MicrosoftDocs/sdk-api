@@ -7,8 +7,8 @@ old-location: mf\imfratesupport.htm
 old-project: medfound
 ms.assetid: a6c495fa-0f6a-4e4c-8fba-996b22d55053
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFRateSupport, IMFRateSupport interface [Media Foundation], IMFRateSupport interface [Media Foundation], described, a6c495fa-0f6a-4e4c-8fba-996b22d55053, mf.imfratesupport, mfidl/IMFRateSupport
+ms.date: 5/3/2018
+ms.keywords: IMFRateSupport, IMFRateSupport interface [Media Foundation], IMFRateSupport interface [Media Foundation],described, a6c495fa-0f6a-4e4c-8fba-996b22d55053, mf.imfratesupport, mfidl/IMFRateSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

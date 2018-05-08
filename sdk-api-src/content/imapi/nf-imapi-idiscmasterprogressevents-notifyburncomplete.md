@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyBurnComplete
-title: IDiscMasterProgressEvents::NotifyBurnComplete method
+title: IDiscMasterProgressEvents::NotifyBurnComplete
 author: windows-driver-content
 description: Notifies an application that a call to IDiscMaster::RecordDisc has finished.
 old-location: imapi\idiscmasterprogressevents_notifyburncomplete.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: deefe7cb-60aa-4255-a7b1-261fb40e6318
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscMasterProgressEvents, IDiscMasterProgressEvents interface [IMAPI], NotifyBurnComplete method, IDiscMasterProgressEvents::NotifyBurnComplete, NotifyBurnComplete method [IMAPI], NotifyBurnComplete method [IMAPI], IDiscMasterProgressEvents interface, NotifyBurnComplete,IDiscMasterProgressEvents.NotifyBurnComplete, _win32_idiscmasterprogressevents_notifyburncomplete, base.idiscmasterprogressevents_notifyburncomplete, imapi.idiscmasterprogressevents_notifyburncomplete, imapi/IDiscMasterProgressEvents::NotifyBurnComplete
+ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyBurnComplete method, IDiscMasterProgressEvents.NotifyBurnComplete, IDiscMasterProgressEvents::NotifyBurnComplete, NotifyBurnComplete, NotifyBurnComplete method [IMAPI], NotifyBurnComplete method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyburncomplete, base.idiscmasterprogressevents_notifyburncomplete, imapi.idiscmasterprogressevents_notifyburncomplete, imapi/IDiscMasterProgressEvents::NotifyBurnComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscMasterProgressEvents::NotifyBurnComplete method
+# IDiscMasterProgressEvents::NotifyBurnComplete
 
 
 ## -description

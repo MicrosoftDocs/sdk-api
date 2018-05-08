@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinterioroutputconnector\imilbitmapeffectinterioroutputconnector.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffectInteriorOutputConnector, IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects], IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects], described, _wibe_imilbitmapeffectinterioroutputconnector, mileffects/IMILBitmapEffectInteriorOutputConnector, wibe._wibe_imilbitmapeffectinterioroutputconnector
+ms.keywords: IMILBitmapEffectInteriorOutputConnector, IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects], IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectinterioroutputconnector, mileffects/IMILBitmapEffectInteriorOutputConnector, wibe._wibe_imilbitmapeffectinterioroutputconnector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

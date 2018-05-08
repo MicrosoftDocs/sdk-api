@@ -1,14 +1,14 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyStorage
-title: CItemIDFactory::GetPropertyStorage method
+title: CItemIDFactory::GetPropertyStorage
 author: windows-driver-content
 description: Gets a read only pointer to the serialized property storage that is used for storing metadata.
 old-location: shell\citemidfactory_getpropertystorage.htm
 old-project: shell
 ms.assetid: 3A3F0F28-C9E1-4F2E-9A02-C6A48BF3C204
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CItemIDFactory, CItemIDFactory interface [Windows Shell], GetPropertyStorage method, CItemIDFactory::GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell], CItemIDFactory interface, GetPropertyStorage,CItemIDFactory.GetPropertyStorage, shell.citemidfactory_getpropertystorage, shidfact/CItemIDFactory::GetPropertyStorage
+ms.date: 5/3/2018
+ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyStorage method, CItemIDFactory.GetPropertyStorage, CItemIDFactory::GetPropertyStorage, GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertystorage, shidfact/CItemIDFactory::GetPropertyStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# CItemIDFactory::GetPropertyStorage method
+# CItemIDFactory::GetPropertyStorage
 
 
 ## -description

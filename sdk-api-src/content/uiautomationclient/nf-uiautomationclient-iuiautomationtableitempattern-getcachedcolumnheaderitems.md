@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTableItemPattern.GetCachedColumnHeaderItems
-title: IUIAutomationTableItemPattern::GetCachedColumnHeaderItems method
+title: IUIAutomationTableItemPattern::GetCachedColumnHeaderItems
 author: windows-driver-content
 description: Retrieves the cached column headers associated with a table item or cell.
 old-location: winauto\uiauto_IUIAutomationTableItemPattern_GetCachedColumnHeaderItems.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 40d4c31b-643f-479b-859c-3458d2d17f19
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCachedColumnHeaderItems method [Windows Accessibility], GetCachedColumnHeaderItems method [Windows Accessibility], IUIAutomationTableItemPattern interface, GetCachedColumnHeaderItems,IUIAutomationTableItemPattern.GetCachedColumnHeaderItems, IUIAutomationTableItemPattern, IUIAutomationTableItemPattern interface [Windows Accessibility], GetCachedColumnHeaderItems method, IUIAutomationTableItemPattern::GetCachedColumnHeaderItems, uiauto.uiauto_IUIAutomationTableItemPattern_GetCachedColumnHeaderItems, uiauto_IUIAutomationTableItemPattern_GetCachedColumnHeaderItems, uiautomationclient/IUIAutomationTableItemPattern::GetCachedColumnHeaderItems, winauto.uiauto_IUIAutomationTableItemPattern_GetCachedColumnHeaderItems
+ms.keywords: GetCachedColumnHeaderItems, GetCachedColumnHeaderItems method [Windows Accessibility], GetCachedColumnHeaderItems method [Windows Accessibility],IUIAutomationTableItemPattern interface, IUIAutomationTableItemPattern interface [Windows Accessibility],GetCachedColumnHeaderItems method, IUIAutomationTableItemPattern.GetCachedColumnHeaderItems, IUIAutomationTableItemPattern::GetCachedColumnHeaderItems, uiauto.uiauto_IUIAutomationTableItemPattern_GetCachedColumnHeaderItems, uiauto_IUIAutomationTableItemPattern_GetCachedColumnHeaderItems, uiautomationclient/IUIAutomationTableItemPattern::GetCachedColumnHeaderItems, winauto.uiauto_IUIAutomationTableItemPattern_GetCachedColumnHeaderItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTableItemPattern::GetCachedColumnHeaderItems method
+# IUIAutomationTableItemPattern::GetCachedColumnHeaderItems
 
 
 ## -description

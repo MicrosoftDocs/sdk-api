@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.GetDocumentTypeFromStream
-title: IXpsOMObjectFactory1::GetDocumentTypeFromStream method
+title: IXpsOMObjectFactory1::GetDocumentTypeFromStream
 author: windows-driver-content
 description: Detects the type of XPS document that is stored in the specified stream.
 old-location: xps\ixpsomobjectfactory1_getdocumenttypefromstream.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 98d5bfc1-75f7-425f-b69d-11e74c15f08e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDocumentTypeFromStream method [XPS Documents and Packaging], GetDocumentTypeFromStream method [XPS Documents and Packaging], IXpsOMObjectFactory1 interface, GetDocumentTypeFromStream,IXpsOMObjectFactory1.GetDocumentTypeFromStream, IXpsOMObjectFactory1, IXpsOMObjectFactory1 interface [XPS Documents and Packaging], GetDocumentTypeFromStream method, IXpsOMObjectFactory1::GetDocumentTypeFromStream, xps.ixpsomobjectfactory1_getdocumenttypefromstream, xpsobjectmodel_1/IXpsOMObjectFactory1::GetDocumentTypeFromStream
+ms.keywords: GetDocumentTypeFromStream, GetDocumentTypeFromStream method [XPS Documents and Packaging], GetDocumentTypeFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],GetDocumentTypeFromStream method, IXpsOMObjectFactory1.GetDocumentTypeFromStream, IXpsOMObjectFactory1::GetDocumentTypeFromStream, xps.ixpsomobjectfactory1_getdocumenttypefromstream, xpsobjectmodel_1/IXpsOMObjectFactory1::GetDocumentTypeFromStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory1::GetDocumentTypeFromStream method
+# IXpsOMObjectFactory1::GetDocumentTypeFromStream
 
 
 ## -description

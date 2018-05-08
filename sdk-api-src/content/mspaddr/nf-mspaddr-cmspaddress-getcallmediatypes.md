@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CMSPAddress.GetCallMediaTypes
-title: CMSPAddress::GetCallMediaTypes method
+title: CMSPAddress::GetCallMediaTypes
 author: windows-driver-content
 description: The GetCallMediaTypes method gets media types supported by the MSP. The derived class must override this method to indicate the media types supported. The relevant TAPIMEDIATYPE constants should be ORed together and returned.
 old-location: tapi3\cmspaddress_getcallmediatypes.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 7331afda-d021-428e-aa09-eecc96709744
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPAddress, CMSPAddress interface [TAPI 2.2], GetCallMediaTypes method, CMSPAddress::GetCallMediaTypes, GetCallMediaTypes method [TAPI 2.2], GetCallMediaTypes method [TAPI 2.2], CMSPAddress interface, GetCallMediaTypes,CMSPAddress.GetCallMediaTypes, _tapi3_cmspaddress_getcallmediatypes, mspaddr/CMSPAddress::GetCallMediaTypes, tapi3.cmspaddress_getcallmediatypes
+ms.keywords: CMSPAddress interface [TAPI 2.2],GetCallMediaTypes method, CMSPAddress.GetCallMediaTypes, CMSPAddress::GetCallMediaTypes, GetCallMediaTypes, GetCallMediaTypes method [TAPI 2.2], GetCallMediaTypes method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getcallmediatypes, mspaddr/CMSPAddress::GetCallMediaTypes, tapi3.cmspaddress_getcallmediatypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPAddress::GetCallMediaTypes method
+# CMSPAddress::GetCallMediaTypes
 
 
 ## -description

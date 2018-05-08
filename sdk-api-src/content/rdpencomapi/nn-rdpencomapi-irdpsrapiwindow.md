@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 85c8263b-e796-4748-b8e5-6315e5937861
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], IRDPSRAPIWindow interface [RDP], described, rdp.irdpsrapiwindow, rdpencomapi/IRDPSRAPIWindow
+ms.keywords: IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], IRDPSRAPIWindow interface [RDP],described, rdp.irdpsrapiwindow, rdpencomapi/IRDPSRAPIWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

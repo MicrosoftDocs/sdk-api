@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.get_Count
-title: IUIAutomationProxyFactoryMapping::get_Count method
+title: IUIAutomationProxyFactoryMapping::get_Count
 author: windows-driver-content
 description: Retrieves the number of entries in the proxy factory table.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_Count.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: f8a9aa80-edc2-4160-b246-e3be75ff5942
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Count property [Windows Accessibility], Count property [Windows Accessibility], IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping, IUIAutomationProxyFactoryMapping interface [Windows Accessibility], Count property, IUIAutomationProxyFactoryMapping.Count, IUIAutomationProxyFactoryMapping::get_Count, get_Count,IUIAutomationProxyFactoryMapping.get_Count, uiauto.uiauto_IUIAutomationProxyFactoryMapping_Count, uiauto_IUIAutomationProxyFactoryMapping_Count, uiautomationclient/IUIAutomationProxyFactoryMapping::Count, uiautomationclient/IUIAutomationProxyFactoryMapping::get_Count, winauto.uiauto_IUIAutomationProxyFactoryMapping_Count
+ms.keywords: Count property [Windows Accessibility], Count property [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],Count property, IUIAutomationProxyFactoryMapping.Count, IUIAutomationProxyFactoryMapping.get_Count, IUIAutomationProxyFactoryMapping::Count, IUIAutomationProxyFactoryMapping::get_Count, get_Count, uiauto.uiauto_IUIAutomationProxyFactoryMapping_Count, uiauto_IUIAutomationProxyFactoryMapping_Count, uiautomationclient/IUIAutomationProxyFactoryMapping::Count, uiautomationclient/IUIAutomationProxyFactoryMapping::get_Count, winauto.uiauto_IUIAutomationProxyFactoryMapping_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationProxyFactoryMapping::get_Count method
+# IUIAutomationProxyFactoryMapping::get_Count
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMessage.OperationCode
-title: IGPMStatusMessage::OperationCode method
+title: IGPMStatusMessage::OperationCode
 author: windows-driver-content
 description: Returns a code related to the GPMC operation.
 old-location: gpmc\igpmstatusmessage_operationcode.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: f99dc90a-fabe-40fb-8289-36501a68b11d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMStatusMessage class [GPMC], OperationCode method, IGPMStatusMessage, IGPMStatusMessage interface [GPMC], OperationCode method, IGPMStatusMessage::OperationCode, OperationCode method [GPMC], OperationCode method [GPMC], GPMStatusMessage class, OperationCode method [GPMC], IGPMStatusMessage interface, OperationCode,IGPMStatusMessage.OperationCode, _win32_igpmstatusmessage_operationcode, gpmc.igpmstatusmessage_operationcode, gpmgmt/IGPMStatusMessage::OperationCode
+ms.keywords: GPMStatusMessage class [GPMC],OperationCode method, IGPMStatusMessage interface [GPMC],OperationCode method, IGPMStatusMessage.OperationCode, IGPMStatusMessage::OperationCode, OperationCode, OperationCode method [GPMC], OperationCode method [GPMC],GPMStatusMessage class, OperationCode method [GPMC],IGPMStatusMessage interface, _win32_igpmstatusmessage_operationcode, gpmc.igpmstatusmessage_operationcode, gpmgmt/IGPMStatusMessage::OperationCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMStatusMessage::OperationCode method
+# IGPMStatusMessage::OperationCode
 
 
 ## -description

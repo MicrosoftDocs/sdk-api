@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2Data.GetSection
-title: IMpeg2Data::GetSection method
+title: IMpeg2Data::GetSection
 author: windows-driver-content
 description: GetSection is no longer available for use as of Windows 7.
 old-location: mstv\impeg2data_getsection.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9fb0d10f-7f9a-452d-9725-546d372430bd
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSection method [Microsoft TV Technologies], GetSection method [Microsoft TV Technologies], IMpeg2Data interface, GetSection,IMpeg2Data.GetSection, IMpeg2Data, IMpeg2Data interface [Microsoft TV Technologies], GetSection method, IMpeg2Data::GetSection, IMpeg2DataGetSection, mpeg2data/IMpeg2Data::GetSection, mstv.impeg2data_getsection
+ms.keywords: GetSection, GetSection method [Microsoft TV Technologies], GetSection method [Microsoft TV Technologies],IMpeg2Data interface, IMpeg2Data interface [Microsoft TV Technologies],GetSection method, IMpeg2Data.GetSection, IMpeg2Data::GetSection, IMpeg2DataGetSection, mpeg2data/IMpeg2Data::GetSection, mstv.impeg2data_getsection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMpeg2Data::GetSection method
+# IMpeg2Data::GetSection
 
 
 ## -description

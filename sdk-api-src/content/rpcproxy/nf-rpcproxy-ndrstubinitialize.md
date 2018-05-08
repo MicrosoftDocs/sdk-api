@@ -7,7 +7,7 @@ old-location: rpc\ndrstubinitialize.htm
 old-project: Rpc
 ms.assetid: 078442d1-1e35-4679-b86d-0a9110977a7c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: NdrStubInitialize, NdrStubInitialize function [RPC], rpc.ndrstubinitialize, rpcproxy/NdrStubInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

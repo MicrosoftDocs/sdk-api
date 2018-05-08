@@ -7,7 +7,7 @@ old-location: winsock\real_time_notification_setting_output.htm
 old-project: WinSock
 ms.assetid: 7585CA60-8C7B-4187-A311-72DFA38EB577
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, PREAL_TIME_NOTIFICATION_SETTING_OUTPUT structure pointer [Winsock], REAL_TIME_NOTIFICATION_SETTING_OUTPUT, REAL_TIME_NOTIFICATION_SETTING_OUTPUT structure [Winsock], _REAL_TIME_NOTIFICATION_SETTING_OUTPUT, mstcpip/PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, mstcpip/REAL_TIME_NOTIFICATION_SETTING_OUTPUT, winsock.real_time_notification_setting_output"
 ms.prod: windows-hardware
 ms.technology: windows-devices

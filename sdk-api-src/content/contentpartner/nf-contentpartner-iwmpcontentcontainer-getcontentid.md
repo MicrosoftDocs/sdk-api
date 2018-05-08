@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentContainer.GetContentID
-title: IWMPContentContainer::GetContentID method
+title: IWMPContentContainer::GetContentID
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentcontainer_getcontentid.htm
 old-project: WMP
 ms.assetid: 95519f7e-aa78-4d66-87ba-71978d404412
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetContentID method [Windows Media Player], GetContentID method [Windows Media Player], IWMPContentContainer interface, GetContentID,IWMPContentContainer.GetContentID, IWMPContentContainer, IWMPContentContainer interface [Windows Media Player], GetContentID method, IWMPContentContainer::GetContentID, IWMPContentContainerGetContentID, contentpartner/IWMPContentContainer::GetContentID, wmp.iwmpcontentcontainer_getcontentid
+ms.date: 5/4/2018
+ms.keywords: GetContentID, GetContentID method [Windows Media Player], GetContentID method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentID method, IWMPContentContainer.GetContentID, IWMPContentContainer::GetContentID, IWMPContentContainerGetContentID, contentpartner/IWMPContentContainer::GetContentID, wmp.iwmpcontentcontainer_getcontentid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentContainer::GetContentID method
+# IWMPContentContainer::GetContentID
 
 
 ## -description

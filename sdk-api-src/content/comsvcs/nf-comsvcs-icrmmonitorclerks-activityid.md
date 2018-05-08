@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.ActivityId
-title: ICrmMonitorClerks::ActivityId method
+title: ICrmMonitorClerks::ActivityId
 author: windows-driver-content
 description: Retrieves the activity ID of the CRM Worker for the specified index.
 old-location: cos\icrmmonitorclerks_activityid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 19a242a6-ce21-4ce5-984e-cc2220476e2b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ActivityId method [COM+], ActivityId method [COM+], ICrmMonitorClerks interface, ActivityId,ICrmMonitorClerks.ActivityId, ICrmMonitorClerks, ICrmMonitorClerks interface [COM+], ActivityId method, ICrmMonitorClerks::ActivityId, _dtc_ICrmMonitorClerks_ActivityId, comsvcs/ICrmMonitorClerks::ActivityId, cos.icrmmonitorclerks_activityid
+ms.keywords: ActivityId, ActivityId method [COM+], ActivityId method [COM+],ICrmMonitorClerks interface, ICrmMonitorClerks interface [COM+],ActivityId method, ICrmMonitorClerks.ActivityId, ICrmMonitorClerks::ActivityId, _dtc_ICrmMonitorClerks_ActivityId, comsvcs/ICrmMonitorClerks::ActivityId, cos.icrmmonitorclerks_activityid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmMonitorClerks::ActivityId method
+# ICrmMonitorClerks::ActivityId
 
 
 ## -description

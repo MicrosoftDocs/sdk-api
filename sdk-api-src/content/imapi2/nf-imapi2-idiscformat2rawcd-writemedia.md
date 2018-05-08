@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.WriteMedia
-title: IDiscFormat2RawCD::WriteMedia method
+title: IDiscFormat2RawCD::WriteMedia
 author: windows-driver-content
 description: Writes a DAO-96 raw image to the blank media using MSF 95:00:00 as the starting address.
 old-location: imapi\idiscformat2rawcd_writemedia.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 137395f1-b0cf-4bd0-9d3b-a21122eb8b57
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], WriteMedia method, IDiscFormat2RawCD::WriteMedia, WriteMedia method [IMAPI], WriteMedia method [IMAPI], IDiscFormat2RawCD interface, WriteMedia,IDiscFormat2RawCD.WriteMedia, imapi.idiscformat2rawcd_writemedia, imapi2/IDiscFormat2RawCD::WriteMedia
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],WriteMedia method, IDiscFormat2RawCD.WriteMedia, IDiscFormat2RawCD::WriteMedia, WriteMedia, WriteMedia method [IMAPI], WriteMedia method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_writemedia, imapi2/IDiscFormat2RawCD::WriteMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCD::WriteMedia method
+# IDiscFormat2RawCD::WriteMedia
 
 
 ## -description

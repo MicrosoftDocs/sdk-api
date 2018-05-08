@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowCallback.StopShadow
-title: IWTSProtocolShadowCallback::StopShadow method
+title: IWTSProtocolShadowCallback::StopShadow
 author: windows-driver-content
 description: IWTSProtocolShadowCallback::StopShadow is no longer available. Instead, use IWRdsProtocolShadowCallback::StopShadow.
 old-location: termserv\iwtsprotocolshadowcallback_stopshadow.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 54e47922-aea5-4e2f-b329-94300fc1ac3d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolShadowCallback, IWTSProtocolShadowCallback interface [Remote Desktop Services], StopShadow method, IWTSProtocolShadowCallback::StopShadow, StopShadow method [Remote Desktop Services], StopShadow method [Remote Desktop Services], IWTSProtocolShadowCallback interface, StopShadow,IWTSProtocolShadowCallback.StopShadow, termserv.iwtsprotocolshadowcallback_stopshadow, wtsprotocol/IWTSProtocolShadowCallback::StopShadow
+ms.keywords: IWTSProtocolShadowCallback interface [Remote Desktop Services],StopShadow method, IWTSProtocolShadowCallback.StopShadow, IWTSProtocolShadowCallback::StopShadow, StopShadow, StopShadow method [Remote Desktop Services], StopShadow method [Remote Desktop Services],IWTSProtocolShadowCallback interface, termserv.iwtsprotocolshadowcallback_stopshadow, wtsprotocol/IWTSProtocolShadowCallback::StopShadow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolShadowCallback::StopShadow method
+# IWTSProtocolShadowCallback::StopShadow
 
 
 ## -description

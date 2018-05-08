@@ -116,6 +116,26 @@ Type: <b>ULONG</b>
 The estimated mean deviation for the round-trip time (RTT), in milliseconds, to the destination IP address for this IP path entry. 
 
 
+### -field LastReachable
+
+Type: <b>ULONG</b>
+
+The time, in
+                     milliseconds, that a node assumes the  destination IP address is
+                     reachable after having received a reachability
+                     confirmation. 
+
+
+### -field LastUnreachable
+
+Type: <b>ULONG</b>
+
+The time, in
+                     milliseconds, that a node assumes the destination IP address is
+                     unreachable after not having received a reachability
+                     confirmation. 
+
+
 ### -field IsReachable
 
 Type: <b>BOOLEAN</b>
@@ -137,26 +157,6 @@ Type: <b>ULONG64</b>
 
 The estimated speed in bits per second of the receive link from the destination IP address for this IP path entry. 
 
-
-
-#### - LastReachable
-
-Type: <b>ULONG</b>
-
-The time, in
-                     milliseconds, that a node assumes the  destination IP address is
-                     reachable after having received a reachability
-                     confirmation. 
-
-
-#### - LastUnreachable
-
-Type: <b>ULONG</b>
-
-The time, in
-                     milliseconds, that a node assumes the destination IP address is
-                     unreachable after not having received a reachability
-                     confirmation. 
 
 
 ## -remarks

@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaItem.EnumRegisterEventInfo
-title: IWiaItem::EnumRegisterEventInfo method
+title: IWiaItem::EnumRegisterEventInfo
 author: windows-driver-content
 description: The IWiaItem::EnumRegisterEventInfo method creates an enumerator used to obtain information about events for which an application is registered.
 old-location: wia\_wia_IWiaItem_EnumRegisterEventInfo.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\enumregistereventinfo.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: EnumRegisterEventInfo method [WIA], EnumRegisterEventInfo method [WIA], IWiaItem interface, EnumRegisterEventInfo,IWiaItem.EnumRegisterEventInfo, IWiaItem, IWiaItem interface [WIA], EnumRegisterEventInfo method, IWiaItem::EnumRegisterEventInfo, _wia_IWiaItem_EnumRegisterEventInfo, wia._wia_IWiaItem_EnumRegisterEventInfo, wia_xp/IWiaItem::EnumRegisterEventInfo
+ms.date: 5/3/2018
+ms.keywords: EnumRegisterEventInfo, EnumRegisterEventInfo method [WIA], EnumRegisterEventInfo method [WIA],IWiaItem interface, IWiaItem interface [WIA],EnumRegisterEventInfo method, IWiaItem.EnumRegisterEventInfo, IWiaItem::EnumRegisterEventInfo, _wia_IWiaItem_EnumRegisterEventInfo, wia._wia_IWiaItem_EnumRegisterEventInfo, wia_xp/IWiaItem::EnumRegisterEventInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaItem::EnumRegisterEventInfo method
+# IWiaItem::EnumRegisterEventInfo
 
 
 ## -description

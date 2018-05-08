@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8xpn.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxLineCallback, FaxLineCallback callback function [Fax Service], PFAX_LINECALLBACK, _mfax_faxlinecallback, fax._mfax_faxlinecallback, faxdev/FaxLineCallback
+ms.keywords: FaxLineCallback, FaxLineCallback callback function [Fax Service], PFAX_LINECALLBACK, PFAX_LINECALLBACK callback, _mfax_faxlinecallback, fax._mfax_faxlinecallback, faxdev/FaxLineCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# PFAX_LINECALLBACK callback
+# PFAX_LINECALLBACK callback function
 
 
 ## -description

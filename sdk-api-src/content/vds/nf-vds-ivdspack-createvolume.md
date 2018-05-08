@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.CreateVolume
-title: IVdsPack::CreateVolume method
+title: IVdsPack::CreateVolume
 author: windows-driver-content
 description: Creates a volume within the pack.
 old-location: base\ivdspack_createvolume.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 26fea1a4-f060-49e2-a7ac-0e751f798c72
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateVolume method [VDS], CreateVolume method [VDS], IVdsPack interface, CreateVolume,IVdsPack.CreateVolume, IVdsPack, IVdsPack interface [VDS], CreateVolume method, IVdsPack::CreateVolume, base.ivdspack_createvolume, vds/IVdsPack::CreateVolume
+ms.keywords: CreateVolume, CreateVolume method [VDS], CreateVolume method [VDS],IVdsPack interface, IVdsPack interface [VDS],CreateVolume method, IVdsPack.CreateVolume, IVdsPack::CreateVolume, base.ivdspack_createvolume, vds/IVdsPack::CreateVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsPack::CreateVolume method
+# IVdsPack::CreateVolume
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinder.CancelAsyncFind
-title: IUPnPDeviceFinder::CancelAsyncFind method
+title: IUPnPDeviceFinder::CancelAsyncFind
 author: windows-driver-content
 description: The CancelAsyncFind method cancels an asynchronous search.
 old-location: upnp\iupnpdevicefinder_cancelasyncfind.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: d64db4fe-0b0a-430f-b198-dd49ef40b52e
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: CancelAsyncFind method [UPnP APIs], CancelAsyncFind method [UPnP APIs], IUPnPDeviceFinder interface, CancelAsyncFind,IUPnPDeviceFinder.CancelAsyncFind, IUPnPDeviceFinder, IUPnPDeviceFinder interface [UPnP APIs], CancelAsyncFind method, IUPnPDeviceFinder::CancelAsyncFind, _upnp_iupnpdevicefinder_cancelasyncfind, upnp.iupnpdevicefinder_cancelasyncfind, upnp/IUPnPDeviceFinder::CancelAsyncFind
+ms.keywords: CancelAsyncFind, CancelAsyncFind method [UPnP APIs], CancelAsyncFind method [UPnP APIs],IUPnPDeviceFinder interface, IUPnPDeviceFinder interface [UPnP APIs],CancelAsyncFind method, IUPnPDeviceFinder.CancelAsyncFind, IUPnPDeviceFinder::CancelAsyncFind, _upnp_iupnpdevicefinder_cancelasyncfind, upnp.iupnpdevicefinder_cancelasyncfind, upnp/IUPnPDeviceFinder::CancelAsyncFind
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPDeviceFinder::CancelAsyncFind method
+# IUPnPDeviceFinder::CancelAsyncFind
 
 
 ## -description

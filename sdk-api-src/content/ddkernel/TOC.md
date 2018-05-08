@@ -1,0 +1,8 @@
+# [Display Devices Reference](../_display/index.md)
+## [Ddkernel.h](index.md)
+### [IDirectDrawKernel::GetCaps](../ddkernel/nf-ddkernel-idirectdrawkernel-getcaps.md)
+### [IDirectDrawKernel::GetKernelHandle](../ddkernel/nf-ddkernel-idirectdrawkernel-getkernelhandle.md)
+### [IDirectDrawKernel::ReleaseKernelHandle](../ddkernel/nf-ddkernel-idirectdrawkernel-releasekernelhandle.md)
+### [IDirectDrawSurfaceKernel::GetKernelHandle](../ddkernel/nf-ddkernel-idirectdrawsurfacekernel-getkernelhandle.md)
+### [IDirectDrawSurfaceKernel::ReleaseKernelHandle](../ddkernel/nf-ddkernel-idirectdrawsurfacekernel-releasekernelhandle.md)
+### [_DDKERNELCAPS structure](../ddkernel/ns-ddkernel-_ddkernelcaps.md)

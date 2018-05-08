@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceResources.Delete
-title: IPortableDeviceResources::Delete method
+title: IPortableDeviceResources::Delete
 author: windows-driver-content
 description: The Delete method deletes one or more resources from the object identified by the pszObjectID parameter.
 old-location: wpdsdk\iportabledeviceresources_delete.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 3993ebc4-2a8b-48bd-bc93-2e6ad821f5f6
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Delete method [Windows Portable Devices SDK], Delete method [Windows Portable Devices SDK], IPortableDeviceResources interface, Delete,IPortableDeviceResources.Delete, IPortableDeviceResources, IPortableDeviceResources interface [Windows Portable Devices SDK], Delete method, IPortableDeviceResources::Delete, IPortableDeviceResourcesDelete, portabledeviceapi/IPortableDeviceResources::Delete, wpdsdk.iportabledeviceresources_delete
+ms.keywords: Delete, Delete method [Windows Portable Devices SDK], Delete method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],Delete method, IPortableDeviceResources.Delete, IPortableDeviceResources::Delete, IPortableDeviceResourcesDelete, portabledeviceapi/IPortableDeviceResources::Delete, wpdsdk.iportabledeviceresources_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceResources::Delete method
+# IPortableDeviceResources::Delete
 
 
 ## -description

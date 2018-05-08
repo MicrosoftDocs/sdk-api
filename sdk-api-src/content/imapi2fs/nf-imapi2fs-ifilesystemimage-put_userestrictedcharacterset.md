@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_UseRestrictedCharacterSet
-title: IFileSystemImage::put_UseRestrictedCharacterSet method
+title: IFileSystemImage::put_UseRestrictedCharacterSet
 author: windows-driver-content
 description: Determines if file and directory names should be restricted to using only CP_ANSI characters.
 old-location: imapi\ifilesystemimage_put_userestrictedcharacterset.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: de64ef3d-94b3-4d97-946e-8331c5a39f4b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], put_UseRestrictedCharacterSet method, IFileSystemImage::put_UseRestrictedCharacterSet, imapi.ifilesystemimage_put_userestrictedcharacterset, imapi2fs/IFileSystemImage::put_UseRestrictedCharacterSet, put_UseRestrictedCharacterSet method [IMAPI], put_UseRestrictedCharacterSet method [IMAPI], IFileSystemImage interface, put_UseRestrictedCharacterSet,IFileSystemImage.put_UseRestrictedCharacterSet
+ms.keywords: IFileSystemImage interface [IMAPI],put_UseRestrictedCharacterSet method, IFileSystemImage.put_UseRestrictedCharacterSet, IFileSystemImage::put_UseRestrictedCharacterSet, imapi.ifilesystemimage_put_userestrictedcharacterset, imapi2fs/IFileSystemImage::put_UseRestrictedCharacterSet, put_UseRestrictedCharacterSet, put_UseRestrictedCharacterSet method [IMAPI], put_UseRestrictedCharacterSet method [IMAPI],IFileSystemImage interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::put_UseRestrictedCharacterSet method
+# IFileSystemImage::put_UseRestrictedCharacterSet
 
 
 ## -description

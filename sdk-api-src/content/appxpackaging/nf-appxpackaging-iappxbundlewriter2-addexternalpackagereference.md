@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter2.AddExternalPackageReference
-title: IAppxBundleWriter2::AddExternalPackageReference method
+title: IAppxBundleWriter2::AddExternalPackageReference
 author: windows-driver-content
 description: Adds a reference to an external package to the package bundle.
 old-location: appxpkg\iappxbundlewriter2_addexternalpackagereference.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 09297744-69E4-45D6-BA5C-A3B28130C6CC
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AddExternalPackageReference method [App packaging and management], AddExternalPackageReference method [App packaging and management], IAppxBundleWriter2 interface, AddExternalPackageReference,IAppxBundleWriter2.AddExternalPackageReference, IAppxBundleWriter2, IAppxBundleWriter2 interface [App packaging and management], AddExternalPackageReference method, IAppxBundleWriter2::AddExternalPackageReference, appxpackaging/IAppxBundleWriter2::AddExternalPackageReference, appxpkg.iappxbundlewriter2_addexternalpackagereference
+ms.keywords: AddExternalPackageReference, AddExternalPackageReference method [App packaging and management], AddExternalPackageReference method [App packaging and management],IAppxBundleWriter2 interface, IAppxBundleWriter2 interface [App packaging and management],AddExternalPackageReference method, IAppxBundleWriter2.AddExternalPackageReference, IAppxBundleWriter2::AddExternalPackageReference, appxpackaging/IAppxBundleWriter2::AddExternalPackageReference, appxpkg.iappxbundlewriter2_addexternalpackagereference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleWriter2::AddExternalPackageReference method
+# IAppxBundleWriter2::AddExternalPackageReference
 
 
 ## -description

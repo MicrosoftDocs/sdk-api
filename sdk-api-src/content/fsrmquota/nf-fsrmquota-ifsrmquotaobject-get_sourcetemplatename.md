@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.get_SourceTemplateName
-title: IFsrmQuotaObject::get_SourceTemplateName method
+title: IFsrmQuotaObject::get_SourceTemplateName
 author: windows-driver-content
 description: Retrieves the name of the template from which this quota was derived.
 old-location: fsrm\ifsrmquotaobject_sourcetemplatename.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 976b804e-f292-47ff-95df-18e63b8b23d0
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmQuotaObject, IFsrmQuotaObject interface [File Server Resource Manager], SourceTemplateName property, IFsrmQuotaObject.SourceTemplateName, IFsrmQuotaObject::get_SourceTemplateName, SourceTemplateName property [File Server Resource Manager], SourceTemplateName property [File Server Resource Manager], IFsrmQuotaObject interface, fs.ifsrmquotaobject_sourcetemplatename, fsrm.ifsrmquotaobject_sourcetemplatename, fsrmquota/IFsrmQuotaObject::SourceTemplateName, fsrmquota/IFsrmQuotaObject::get_SourceTemplateName, get_SourceTemplateName,IFsrmQuotaObject.get_SourceTemplateName
+ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],SourceTemplateName property, IFsrmQuotaObject.SourceTemplateName, IFsrmQuotaObject.get_SourceTemplateName, IFsrmQuotaObject::SourceTemplateName, IFsrmQuotaObject::get_SourceTemplateName, SourceTemplateName property [File Server Resource Manager], SourceTemplateName property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_sourcetemplatename, fsrm.ifsrmquotaobject_sourcetemplatename, fsrmquota/IFsrmQuotaObject::SourceTemplateName, fsrmquota/IFsrmQuotaObject::get_SourceTemplateName, get_SourceTemplateName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaObject::get_SourceTemplateName method
+# IFsrmQuotaObject::get_SourceTemplateName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_AddCertificate
-title: IWMSecureChannel::WMSC_AddCertificate method
+title: IWMSecureChannel::WMSC_AddCertificate
 author: windows-driver-content
 description: The WMSC_AddCertificate method adds certificates that this object can present to other secure channel objects. If no certs are added, then this object can only connect to objects with no signatures.
 old-location: wmformat\iwmsecurechannel_wmsc_addcertificate.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 0e5fbd9e-1669-4e0e-90b6-1542cc6d2ae4
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSecureChannel, IWMSecureChannel interface [windows Media Format], WMSC_AddCertificate method, IWMSecureChannel::WMSC_AddCertificate, WMSC_AddCertificate method [windows Media Format], WMSC_AddCertificate method [windows Media Format], IWMSecureChannel interface, WMSC_AddCertificate,IWMSecureChannel.WMSC_AddCertificate, wmformat.iwmsecurechannel_wmsc_addcertificate, wmsecure/IWMSecureChannel::WMSC_AddCertificate
+ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_AddCertificate method, IWMSecureChannel.WMSC_AddCertificate, IWMSecureChannel::WMSC_AddCertificate, WMSC_AddCertificate, WMSC_AddCertificate method [windows Media Format], WMSC_AddCertificate method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_addcertificate, wmsecure/IWMSecureChannel::WMSC_AddCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSecureChannel::WMSC_AddCertificate method
+# IWMSecureChannel::WMSC_AddCertificate
 
 
 ## -description

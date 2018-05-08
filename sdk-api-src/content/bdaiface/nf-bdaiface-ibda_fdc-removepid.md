@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.RemovePid
-title: IBDA_FDC::RemovePid method
+title: IBDA_FDC::RemovePid
 author: windows-driver-content
 description: Removes one or more packet identifiers (PIDs) from the MPEG flow.
 old-location: mstv\ibda_fdc_removepid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1277726c-6443-416c-a5d4-044d5f885af7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], RemovePid method, IBDA_FDC::RemovePid, RemovePid method [Microsoft TV Technologies], RemovePid method [Microsoft TV Technologies], IBDA_FDC interface, RemovePid,IBDA_FDC.RemovePid, bdaiface/IBDA_FDC::RemovePid, mstv.ibda_fdc_removepid
+ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RemovePid method, IBDA_FDC.RemovePid, IBDA_FDC::RemovePid, RemovePid, RemovePid method [Microsoft TV Technologies], RemovePid method [Microsoft TV Technologies],IBDA_FDC interface, bdaiface/IBDA_FDC::RemovePid, mstv.ibda_fdc_removepid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_FDC::RemovePid method
+# IBDA_FDC::RemovePid
 
 
 ## -description

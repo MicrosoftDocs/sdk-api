@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_PreferredInPlaceDirection
-title: ITextInputPanel::get_PreferredInPlaceDirection method
+title: ITextInputPanel::get_PreferredInPlaceDirection
 author: windows-driver-content
 description: Gets or sets the preferred direction of the in-place Input Panel relative to the text entry field.
 old-location: tablet\itextinputpanel_preferredinplacedirection.htm
 old-project: tablet
 ms.assetid: 5d05e315-4e6d-4591-83d8-9cc98f2c2e2b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 5d05e315-4e6d-4591-83d8-9cc98f2c2e2b, ITextInputPanel, ITextInputPanel interface [Tablet PC], PreferredInPlaceDirection property, ITextInputPanel.PreferredInPlaceDirection, ITextInputPanel.get_PreferredInPlaceDirection, ITextInputPanel.put_PreferredInPlaceDirection, ITextInputPanel::get_PreferredInPlaceDirection, ITextInputPanel::put_PreferredInPlaceDirection, PreferredInPlaceDirection property [Tablet PC], PreferredInPlaceDirection property [Tablet PC], ITextInputPanel interface, get_PreferredInPlaceDirection,ITextInputPanel.get_PreferredInPlaceDirection, peninputpanel/ITextInputPanel::PreferredInPlaceDirection, peninputpanel/ITextInputPanel::get_PreferredInPlaceDirection, peninputpanel/ITextInputPanel::put_PreferredInPlaceDirection, tablet.itextinputpanel_preferredinplacedirection
+ms.date: 5/2/2018
+ms.keywords: 5d05e315-4e6d-4591-83d8-9cc98f2c2e2b, ITextInputPanel interface [Tablet PC],PreferredInPlaceDirection property, ITextInputPanel.PreferredInPlaceDirection, ITextInputPanel.get_PreferredInPlaceDirection, ITextInputPanel.put_PreferredInPlaceDirection, ITextInputPanel::PreferredInPlaceDirection, ITextInputPanel::get_PreferredInPlaceDirection, ITextInputPanel::put_PreferredInPlaceDirection, PreferredInPlaceDirection property [Tablet PC], PreferredInPlaceDirection property [Tablet PC],ITextInputPanel interface, get_PreferredInPlaceDirection, peninputpanel/ITextInputPanel::PreferredInPlaceDirection, peninputpanel/ITextInputPanel::get_PreferredInPlaceDirection, peninputpanel/ITextInputPanel::put_PreferredInPlaceDirection, tablet.itextinputpanel_preferredinplacedirection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanel::get_PreferredInPlaceDirection method
+# ITextInputPanel::get_PreferredInPlaceDirection
 
 
 ## -description

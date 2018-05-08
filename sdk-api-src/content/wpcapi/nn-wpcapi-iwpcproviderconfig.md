@@ -8,7 +8,7 @@ old-project: parcon
 ms.assetid: 008786aa-72ef-4591-8826-01176d3e3fba
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWPCProviderConfig, IWPCProviderConfig interface, IWPCProviderConfig interface, described, parcon.iwpcproviderconfig, wpcapi/IWPCProviderConfig
+ms.keywords: IWPCProviderConfig, IWPCProviderConfig interface, IWPCProviderConfig interface,described, parcon.iwpcproviderconfig, wpcapi/IWPCProviderConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

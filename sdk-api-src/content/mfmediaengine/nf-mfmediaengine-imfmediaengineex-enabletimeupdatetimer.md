@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.EnableTimeUpdateTimer
-title: IMFMediaEngineEx::EnableTimeUpdateTimer method
+title: IMFMediaEngineEx::EnableTimeUpdateTimer
 author: windows-driver-content
 description: Enables or disables the time update timer.
 old-location: mf\imfmediaengineex_enabletimeupdatetimer.htm
 old-project: medfound
 ms.assetid: 07128937-bb90-4ed5-85ef-e58c8a273d39
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: EnableTimeUpdateTimer method [Media Foundation], EnableTimeUpdateTimer method [Media Foundation], IMFMediaEngineEx interface, EnableTimeUpdateTimer,IMFMediaEngineEx.EnableTimeUpdateTimer, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], EnableTimeUpdateTimer method, IMFMediaEngineEx::EnableTimeUpdateTimer, mf.imfmediaengineex_enabletimeupdatetimer, mfmediaengine/IMFMediaEngineEx::EnableTimeUpdateTimer
+ms.date: 5/3/2018
+ms.keywords: EnableTimeUpdateTimer, EnableTimeUpdateTimer method [Media Foundation], EnableTimeUpdateTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],EnableTimeUpdateTimer method, IMFMediaEngineEx.EnableTimeUpdateTimer, IMFMediaEngineEx::EnableTimeUpdateTimer, mf.imfmediaengineex_enabletimeupdatetimer, mfmediaengine/IMFMediaEngineEx::EnableTimeUpdateTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::EnableTimeUpdateTimer method
+# IMFMediaEngineEx::EnableTimeUpdateTimer
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.Pause
-title: IAutomaticUpdates::Pause method
+title: IAutomaticUpdates::Pause
 author: windows-driver-content
 description: Pauses automatic updates.
 old-location: wua\iautomaticupdates_pause.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 42985fdf-b3b3-43f0-addb-478298bd8ebd
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IAutomaticUpdates, IAutomaticUpdates interface [Windows Update Agent], Pause method, IAutomaticUpdates::Pause, Pause method [Windows Update Agent], Pause method [Windows Update Agent], IAutomaticUpdates interface, Pause,IAutomaticUpdates.Pause, wua.iautomaticupdates_pause, wuapi/IAutomaticUpdates::Pause
+ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Pause method, IAutomaticUpdates.Pause, IAutomaticUpdates::Pause, Pause, Pause method [Windows Update Agent], Pause method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_pause, wuapi/IAutomaticUpdates::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdates::Pause method
+# IAutomaticUpdates::Pause
 
 
 ## -description

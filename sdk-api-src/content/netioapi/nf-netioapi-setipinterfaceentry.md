@@ -7,7 +7,7 @@ old-location: iphlp\setipinterfaceentry.htm
 old-project: IpHlp
 ms.assetid: 8e6d2c14-29c3-47a7-9eb8-0989df9da68c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: SetIpInterfaceEntry, SetIpInterfaceEntry function [IP Helper], iphlp.setipinterfaceentry, netioapi/SetIpInterfaceEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

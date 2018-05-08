@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent
-title: IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent method
+title: IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent
 author: windows-driver-content
 description: Registers to receive notification of hardware content protection teardown events.
 old-location: direct3ddxgi\idxgiadapter3_registerhardwarecontentprotectionteardownstatusevent.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 789E6EA1-C590-44F6-A474-851E5CF437A5
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIAdapter3, IDXGIAdapter3 interface [DXGI], RegisterHardwareContentProtectionTeardownStatusEvent method, IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent, RegisterHardwareContentProtectionTeardownStatusEvent method [DXGI], RegisterHardwareContentProtectionTeardownStatusEvent method [DXGI], IDXGIAdapter3 interface, RegisterHardwareContentProtectionTeardownStatusEvent,IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent, direct3ddxgi.idxgiadapter3_registerhardwarecontentprotectionteardownstatusevent, dxgi1_4/IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent
+ms.keywords: IDXGIAdapter3 interface [DXGI],RegisterHardwareContentProtectionTeardownStatusEvent method, IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent, IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent, RegisterHardwareContentProtectionTeardownStatusEvent, RegisterHardwareContentProtectionTeardownStatusEvent method [DXGI], RegisterHardwareContentProtectionTeardownStatusEvent method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_registerhardwarecontentprotectionteardownstatusevent, dxgi1_4/IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent method
+# IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent
 
 
 ## -description

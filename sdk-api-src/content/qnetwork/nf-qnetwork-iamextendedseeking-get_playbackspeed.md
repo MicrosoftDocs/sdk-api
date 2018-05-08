@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_PlaybackSpeed
-title: IAMExtendedSeeking::get_PlaybackSpeed method
+title: IAMExtendedSeeking::get_PlaybackSpeed
 author: windows-driver-content
 description: The get_PlaybackSpeed method retrieves the playback speed.
 old-location: dshow\iamextendedseeking_get_playbackspeed.htm
 old-project: DirectShow
 ms.assetid: a92309fb-185a-4d6c-81c2-9613634c7170
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], get_PlaybackSpeed method, IAMExtendedSeeking::get_PlaybackSpeed, IAMExtendedSeekingget_PlaybackSpeed, dshow.iamextendedseeking_get_playbackspeed, get_PlaybackSpeed method [DirectShow], get_PlaybackSpeed method [DirectShow], IAMExtendedSeeking interface, get_PlaybackSpeed,IAMExtendedSeeking.get_PlaybackSpeed, qnetwork/IAMExtendedSeeking::get_PlaybackSpeed
+ms.date: 4/30/2018
+ms.keywords: IAMExtendedSeeking interface [DirectShow],get_PlaybackSpeed method, IAMExtendedSeeking.get_PlaybackSpeed, IAMExtendedSeeking::get_PlaybackSpeed, IAMExtendedSeekingget_PlaybackSpeed, dshow.iamextendedseeking_get_playbackspeed, get_PlaybackSpeed, get_PlaybackSpeed method [DirectShow], get_PlaybackSpeed method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_PlaybackSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMExtendedSeeking::get_PlaybackSpeed method
+# IAMExtendedSeeking::get_PlaybackSpeed
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.IsDot11d
-title: IDot11AdHocInterface::IsDot11d method
+title: IDot11AdHocInterface::IsDot11d
 author: windows-driver-content
 description: Specifies whether the NIC is 802.11d compliant.
 old-location: nwifi\idot11adhocinterface_isdot11d.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: 3854b2e3-853d-44cd-9b43-6c583f0df08f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IDot11AdHocInterface, IDot11AdHocInterface interface [NativeWIFI], IsDot11d method, IDot11AdHocInterface::IsDot11d, IsDot11d method [NativeWIFI], IsDot11d method [NativeWIFI], IDot11AdHocInterface interface, IsDot11d,IDot11AdHocInterface.IsDot11d, adhoc/IDot11AdHocInterface::IsDot11d, nwifi.idot11adhocinterface_isdot11d
+ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsDot11d method, IDot11AdHocInterface.IsDot11d, IDot11AdHocInterface::IsDot11d, IsDot11d, IsDot11d method [NativeWIFI], IsDot11d method [NativeWIFI],IDot11AdHocInterface interface, adhoc/IDot11AdHocInterface::IsDot11d, nwifi.idot11adhocinterface_isdot11d
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDot11AdHocInterface::IsDot11d method
+# IDot11AdHocInterface::IsDot11d
 
 
 ## -description

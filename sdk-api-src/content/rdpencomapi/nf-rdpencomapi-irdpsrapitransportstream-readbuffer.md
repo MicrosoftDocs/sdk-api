@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.ReadBuffer
-title: IRDPSRAPITransportStream::ReadBuffer method
+title: IRDPSRAPITransportStream::ReadBuffer
 author: windows-driver-content
 description: Called by the Remote Desktop Protocol (RDP) stack to read the contents of a stream buffer.
 old-location: rdp\irdpsrapitransportstream_readbuffer.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 0a6d9a76-48b8-4755-985e-efbef01a6382
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITransportStream, IRDPSRAPITransportStream interface [RDP], ReadBuffer method, IRDPSRAPITransportStream::ReadBuffer, ReadBuffer method [RDP], ReadBuffer method [RDP], IRDPSRAPITransportStream interface, ReadBuffer,IRDPSRAPITransportStream.ReadBuffer, rdp.irdpsrapitransportstream_readbuffer, rdpencomapi/IRDPSRAPITransportStream::ReadBuffer
+ms.keywords: IRDPSRAPITransportStream interface [RDP],ReadBuffer method, IRDPSRAPITransportStream.ReadBuffer, IRDPSRAPITransportStream::ReadBuffer, ReadBuffer, ReadBuffer method [RDP], ReadBuffer method [RDP],IRDPSRAPITransportStream interface, rdp.irdpsrapitransportstream_readbuffer, rdpencomapi/IRDPSRAPITransportStream::ReadBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITransportStream::ReadBuffer method
+# IRDPSRAPITransportStream::ReadBuffer
 
 
 ## -description

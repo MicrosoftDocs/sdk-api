@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.GetCLSID
-title: ICOMLBArguments::GetCLSID method
+title: ICOMLBArguments::GetCLSID
 author: windows-driver-content
 description: Retrieves the object's CLSID.
 old-location: cos\icomlbarguments_getclsid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 0475bd9e-dcde-47e4-b9e4-bcaa6d0ad919
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetCLSID method [COM+], GetCLSID method [COM+], ICOMLBArguments interface, GetCLSID,ICOMLBArguments.GetCLSID, ICOMLBArguments, ICOMLBArguments interface [COM+], GetCLSID method, ICOMLBArguments::GetCLSID, _cos_ICOMLBArguments_GetCLSID, comsvcs/ICOMLBArguments::GetCLSID, cos.icomlbarguments_getclsid
+ms.keywords: GetCLSID, GetCLSID method [COM+], GetCLSID method [COM+],ICOMLBArguments interface, ICOMLBArguments interface [COM+],GetCLSID method, ICOMLBArguments.GetCLSID, ICOMLBArguments::GetCLSID, _cos_ICOMLBArguments_GetCLSID, comsvcs/ICOMLBArguments::GetCLSID, cos.icomlbarguments_getclsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMLBArguments::GetCLSID method
+# ICOMLBArguments::GetCLSID
 
 
 ## -description

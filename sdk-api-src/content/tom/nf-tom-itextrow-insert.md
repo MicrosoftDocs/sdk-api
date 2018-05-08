@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.Insert
-title: ITextRow::Insert method
+title: ITextRow::Insert
 author: windows-driver-content
 description: Inserts a row, or rows, at the location identified by the associated ITextRange2 object.
 old-location: controls\itextrow_insert.htm
 old-project: Controls
 ms.assetid: b46a6391-7332-4cca-8199-d801a1e4c299
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRow, ITextRow interface [Windows Controls], Insert method, ITextRow::Insert, Insert method [Windows Controls], Insert method [Windows Controls], ITextRow interface, Insert,ITextRow.Insert, controls.itextrow_insert, tom/ITextRow::Insert
+ms.date: 4/27/2018
+ms.keywords: ITextRow interface [Windows Controls],Insert method, ITextRow.Insert, ITextRow::Insert, Insert, Insert method [Windows Controls], Insert method [Windows Controls],ITextRow interface, controls.itextrow_insert, tom/ITextRow::Insert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::Insert method
+# ITextRow::Insert
 
 
 ## -description

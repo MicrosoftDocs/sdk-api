@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocator.FreeSurface
-title: IVMRSurfaceAllocator::FreeSurface method
+title: IVMRSurfaceAllocator::FreeSurface
 author: windows-driver-content
 description: The FreeSurface method frees the allocated DirectDraw surface.
 old-location: dshow\ivmrsurfaceallocator_freesurface.htm
 old-project: DirectShow
 ms.assetid: 7b00d32c-832f-439f-8da5-7e77f90e1510
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: FreeSurface method [DirectShow], FreeSurface method [DirectShow], IVMRSurfaceAllocator interface, FreeSurface,IVMRSurfaceAllocator.FreeSurface, IVMRSurfaceAllocator, IVMRSurfaceAllocator interface [DirectShow], FreeSurface method, IVMRSurfaceAllocator::FreeSurface, IVMRSurfaceAllocatorFreeSurface, dshow.ivmrsurfaceallocator_freesurface, strmif/IVMRSurfaceAllocator::FreeSurface
+ms.date: 4/30/2018
+ms.keywords: FreeSurface, FreeSurface method [DirectShow], FreeSurface method [DirectShow],IVMRSurfaceAllocator interface, IVMRSurfaceAllocator interface [DirectShow],FreeSurface method, IVMRSurfaceAllocator.FreeSurface, IVMRSurfaceAllocator::FreeSurface, IVMRSurfaceAllocatorFreeSurface, dshow.ivmrsurfaceallocator_freesurface, strmif/IVMRSurfaceAllocator::FreeSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRSurfaceAllocator::FreeSurface method
+# IVMRSurfaceAllocator::FreeSurface
 
 
 ## -description

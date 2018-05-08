@@ -7,7 +7,7 @@ old-location: winsock\wsanspioctl_2.htm
 old-project: WinSock
 ms.assetid: 6ecaedf0-0038-46d3-9916-c9cb069c5e92
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: SIO_NSP_NOTIFY_CHANGE, WSANSPIoctl, WSANSPIoctl function [Winsock], _win32_wsanspioctl_2, winsock.wsanspioctl_2, winsock2/WSANSPIoctl
 ms.prod: windows-hardware
 ms.technology: windows-devices

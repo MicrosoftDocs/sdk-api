@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.IsIIDSupported
-title: IRpcStubBuffer::IsIIDSupported method
+title: IRpcStubBuffer::IsIIDSupported
 author: windows-driver-content
 description: Determines whether a stub is designed to handle the unmarshaling of a particular interface.
 old-location: com\irpcstubbuffer_isiidsupported.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 7025d343-9171-4d0f-9e93-61365075edc0
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IRpcStubBuffer, IRpcStubBuffer interface [COM], IsIIDSupported method, IRpcStubBuffer::IsIIDSupported, IsIIDSupported method [COM], IsIIDSupported method [COM], IRpcStubBuffer interface, IsIIDSupported,IRpcStubBuffer.IsIIDSupported, _com_irpcstubbuffer_isiidsupported, com.irpcstubbuffer_isiidsupported, objidlbase/IRpcStubBuffer::IsIIDSupported
+ms.keywords: IRpcStubBuffer interface [COM],IsIIDSupported method, IRpcStubBuffer.IsIIDSupported, IRpcStubBuffer::IsIIDSupported, IsIIDSupported, IsIIDSupported method [COM], IsIIDSupported method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_isiidsupported, com.irpcstubbuffer_isiidsupported, objidlbase/IRpcStubBuffer::IsIIDSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRpcStubBuffer::IsIIDSupported method
+# IRpcStubBuffer::IsIIDSupported
 
 
 ## -description

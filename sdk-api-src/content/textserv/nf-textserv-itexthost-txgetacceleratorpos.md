@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxGetAcceleratorPos
-title: ITextHost::TxGetAcceleratorPos method
+title: ITextHost::TxGetAcceleratorPos
 author: windows-driver-content
 description: Requests the special character to use for the underlining accelerator character.
 old-location: controls\ITextHost_TxGetAcceleratorPos.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetacceleratorpos.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxGetAcceleratorPos method, ITextHost::TxGetAcceleratorPos, TxGetAcceleratorPos method [Windows Controls], TxGetAcceleratorPos method [Windows Controls], ITextHost interface, TxGetAcceleratorPos,ITextHost.TxGetAcceleratorPos, _win32_ITextHost_TxGetAcceleratorPos, _win32_ITextHost_TxGetAcceleratorPos_cpp, controls.ITextHost_TxGetAcceleratorPos, controls._win32_ITextHost_TxGetAcceleratorPos, textserv/ITextHost::TxGetAcceleratorPos
+ms.date: 4/27/2018
+ms.keywords: ITextHost interface [Windows Controls],TxGetAcceleratorPos method, ITextHost.TxGetAcceleratorPos, ITextHost::TxGetAcceleratorPos, TxGetAcceleratorPos, TxGetAcceleratorPos method [Windows Controls], TxGetAcceleratorPos method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetAcceleratorPos, _win32_ITextHost_TxGetAcceleratorPos_cpp, controls.ITextHost_TxGetAcceleratorPos, controls._win32_ITextHost_TxGetAcceleratorPos, textserv/ITextHost::TxGetAcceleratorPos
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxGetAcceleratorPos method
+# ITextHost::TxGetAcceleratorPos
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: winsock\wscgetproviderpath32.htm
 old-project: WinSock
 ms.assetid: fd4ef7da-344d-4825-93b2-f0cd5622aeac
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: WSCGetProviderPath32, WSCGetProviderPath32 function [Winsock], winsock.wscgetproviderpath32, ws2spi/WSCGetProviderPath32
 ms.prod: windows-hardware
 ms.technology: windows-devices

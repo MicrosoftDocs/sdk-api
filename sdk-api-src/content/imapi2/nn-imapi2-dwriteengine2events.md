@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 697f8247-6940-4b5e-8521-df89838837be
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: DWriteEngine2Events, DWriteEngine2Events interface [IMAPI], DWriteEngine2Events interface [IMAPI], described, imapi.dwriteengine2events, imapi2/DWriteEngine2Events
+ms.keywords: DWriteEngine2Events, DWriteEngine2Events interface [IMAPI], DWriteEngine2Events interface [IMAPI],described, imapi.dwriteengine2events, imapi2/DWriteEngine2Events
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

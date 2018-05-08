@@ -7,7 +7,7 @@ old-location: hid\keyboard_indicator_translation.htm
 old-project: hid
 ms.assetid: 7ee6ab87-b8fa-4d2c-a51f-5a20ed836d6a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PKEYBOARD_INDICATOR_TRANSLATION, KEYBOARD_INDICATOR_TRANSLATION, KEYBOARD_INDICATOR_TRANSLATION structure [Human Input Devices], PKEYBOARD_INDICATOR_TRANSLATION, PKEYBOARD_INDICATOR_TRANSLATION structure pointer [Human Input Devices], _KEYBOARD_INDICATOR_TRANSLATION, hid.keyboard_indicator_translation, kref_937bedf9-89bf-4db8-ad4d-2e8354a163f6.xml, ntddkbd/KEYBOARD_INDICATOR_TRANSLATION, ntddkbd/PKEYBOARD_INDICATOR_TRANSLATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

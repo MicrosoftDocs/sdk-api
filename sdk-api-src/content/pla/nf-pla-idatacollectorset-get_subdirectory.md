@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Subdirectory
-title: IDataCollectorSet::get_Subdirectory method
+title: IDataCollectorSet::get_Subdirectory
 author: windows-driver-content
 description: Retrieves or sets a base subdirectory of the root path where the next instance of the data collector set will write its logs.
 old-location: pla\idatacollectorset_get_subdirectory.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: c2c55fd9-3b29-46be-9792-acb095b1c0e4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], Subdirectory property, IDataCollectorSet.Subdirectory, IDataCollectorSet::get_Subdirectory, IDataCollectorSet::put_Subdirectory, Subdirectory property [PLA], Subdirectory property [PLA], IDataCollectorSet interface, base.idatacollectorset_get_subdirectory, get_Subdirectory,IDataCollectorSet.get_Subdirectory, pla.idatacollectorset_get_subdirectory, pla/IDataCollectorSet::Subdirectory, pla/IDataCollectorSet::get_Subdirectory, pla/IDataCollectorSet::put_Subdirectory
+ms.keywords: IDataCollectorSet interface [PLA],Subdirectory property, IDataCollectorSet.Subdirectory, IDataCollectorSet.get_Subdirectory, IDataCollectorSet::Subdirectory, IDataCollectorSet::get_Subdirectory, IDataCollectorSet::put_Subdirectory, Subdirectory property [PLA], Subdirectory property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_subdirectory, get_Subdirectory, pla.idatacollectorset_get_subdirectory, pla/IDataCollectorSet::Subdirectory, pla/IDataCollectorSet::get_Subdirectory, pla/IDataCollectorSet::put_Subdirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::get_Subdirectory method
+# IDataCollectorSet::get_Subdirectory
 
 
 ## -description

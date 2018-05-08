@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_LogApiNamesOnly
-title: IApiTracingDataCollector::get_LogApiNamesOnly method
+title: IApiTracingDataCollector::get_LogApiNamesOnly
 author: windows-driver-content
 description: Retrieves or sets a value that indicates whether PLA logs only the function name.
 old-location: pla\iapitracingdatacollector_logapinamesonly.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: bb3cc333-52d9-416c-9db2-654a254f4477
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IApiTracingDataCollector, IApiTracingDataCollector interface [PLA], LogApiNamesOnly property, IApiTracingDataCollector.LogApiNamesOnly, IApiTracingDataCollector::get_LogApiNamesOnly, IApiTracingDataCollector::put_LogApiNamesOnly, LogApiNamesOnly property [PLA], LogApiNamesOnly property [PLA], IApiTracingDataCollector interface, base.iapitracingdatacollector_logapinamesonly, get_LogApiNamesOnly,IApiTracingDataCollector.get_LogApiNamesOnly, pla.iapitracingdatacollector_logapinamesonly, pla/IApiTracingDataCollector::LogApiNamesOnly, pla/IApiTracingDataCollector::get_LogApiNamesOnly, pla/IApiTracingDataCollector::put_LogApiNamesOnly
+ms.keywords: IApiTracingDataCollector interface [PLA],LogApiNamesOnly property, IApiTracingDataCollector.LogApiNamesOnly, IApiTracingDataCollector.get_LogApiNamesOnly, IApiTracingDataCollector::LogApiNamesOnly, IApiTracingDataCollector::get_LogApiNamesOnly, IApiTracingDataCollector::put_LogApiNamesOnly, LogApiNamesOnly property [PLA], LogApiNamesOnly property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_logapinamesonly, get_LogApiNamesOnly, pla.iapitracingdatacollector_logapinamesonly, pla/IApiTracingDataCollector::LogApiNamesOnly, pla/IApiTracingDataCollector::get_LogApiNamesOnly, pla/IApiTracingDataCollector::put_LogApiNamesOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IApiTracingDataCollector::get_LogApiNamesOnly method
+# IApiTracingDataCollector::get_LogApiNamesOnly
 
 
 ## -description

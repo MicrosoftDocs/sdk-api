@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.InsertAt
-title: CHStringArray::InsertAt method
+title: CHStringArray::InsertAt
 author: windows-driver-content
 description: The InsertAt method inserts an element (or multiple copies of an element) or all the elements of another array at a specified index.
 old-location: wmi\insertat_method_in_class_chstringarray.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 1d6355bc-7df2-4aa3-8e47-0239d726ed7d
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHStringArray, CHStringArray::InsertAt, CHStringArray::InsertAt methods [Windows Management Instrumentation], InsertAt,CHStringArray.InsertAt, chstrarr/CHStringArray::InsertAt, wmi.insertat_method_in_class_chstringarray
+ms.keywords: CHStringArray.InsertAt, CHStringArray::InsertAt, CHStringArray::InsertAt methods [Windows Management Instrumentation], InsertAt, chstrarr/CHStringArray::InsertAt, wmi.insertat_method_in_class_chstringarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHStringArray::InsertAt method
+# CHStringArray::InsertAt
 
 
 ## -description

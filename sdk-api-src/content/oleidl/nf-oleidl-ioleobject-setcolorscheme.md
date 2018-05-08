@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.SetColorScheme
-title: IOleObject::SetColorScheme method
+title: IOleObject::SetColorScheme
 author: windows-driver-content
 description: Specifies the color palette that the object application should use when it edits the specified object.
 old-location: com\ioleobject_setcolorscheme.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 655ba4ea-941d-4389-9ee8-756dfa3c5448
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleObject, IOleObject interface [COM], SetColorScheme method, IOleObject::SetColorScheme, SetColorScheme method [COM], SetColorScheme method [COM], IOleObject interface, SetColorScheme,IOleObject.SetColorScheme, _ole_ioleobject_setcolorscheme, com.ioleobject_setcolorscheme, oleidl/IOleObject::SetColorScheme
+ms.keywords: IOleObject interface [COM],SetColorScheme method, IOleObject.SetColorScheme, IOleObject::SetColorScheme, SetColorScheme, SetColorScheme method [COM], SetColorScheme method [COM],IOleObject interface, _ole_ioleobject_setcolorscheme, com.ioleobject_setcolorscheme, oleidl/IOleObject::SetColorScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleObject::SetColorScheme method
+# IOleObject::SetColorScheme
 
 
 ## -description

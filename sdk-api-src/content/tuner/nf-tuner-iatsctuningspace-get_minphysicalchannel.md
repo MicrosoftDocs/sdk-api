@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.get_MinPhysicalChannel
-title: IATSCTuningSpace::get_MinPhysicalChannel method
+title: IATSCTuningSpace::get_MinPhysicalChannel
 author: windows-driver-content
 description: The get_MinPhysicalChannel method sets the lowest physical channel number for this tuning space.
 old-location: mstv\iatsctuningspace_get_minphysicalchannel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1b85331a-d99f-4cb6-8440-1b51fa697ade
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technologies], get_MinPhysicalChannel method, IATSCTuningSpace::get_MinPhysicalChannel, IATSCTuningSpaceget_MinPhysicalChannel, get_MinPhysicalChannel method [Microsoft TV Technologies], get_MinPhysicalChannel method [Microsoft TV Technologies], IATSCTuningSpace interface, get_MinPhysicalChannel,IATSCTuningSpace.get_MinPhysicalChannel, mstv.iatsctuningspace_get_minphysicalchannel, tuner/IATSCTuningSpace::get_MinPhysicalChannel
+ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],get_MinPhysicalChannel method, IATSCTuningSpace.get_MinPhysicalChannel, IATSCTuningSpace::get_MinPhysicalChannel, IATSCTuningSpaceget_MinPhysicalChannel, get_MinPhysicalChannel, get_MinPhysicalChannel method [Microsoft TV Technologies], get_MinPhysicalChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, mstv.iatsctuningspace_get_minphysicalchannel, tuner/IATSCTuningSpace::get_MinPhysicalChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IATSCTuningSpace::get_MinPhysicalChannel method
+# IATSCTuningSpace::get_MinPhysicalChannel
 
 
 ## -description

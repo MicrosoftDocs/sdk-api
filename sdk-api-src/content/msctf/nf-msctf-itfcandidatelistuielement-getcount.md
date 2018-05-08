@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetCount
-title: ITfCandidateListUIElement::GetCount method
+title: ITfCandidateListUIElement::GetCount
 author: windows-driver-content
 description: The ITfCandidateListUIElement::GetCount method returns the count of the candidate strings.
 old-location: tsf\itfcandidatelistuielement_getcount.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 9009203a-71d1-49b2-823d-d6f04bf3743b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetCount method [Text Services Framework], GetCount method [Text Services Framework], ITfCandidateListUIElement interface, GetCount,ITfCandidateListUIElement.GetCount, ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], GetCount method, ITfCandidateListUIElement::GetCount, msctf/ITfCandidateListUIElement::GetCount, tsf.itfcandidatelistuielement_getcount
+ms.keywords: GetCount, GetCount method [Text Services Framework], GetCount method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetCount method, ITfCandidateListUIElement.GetCount, ITfCandidateListUIElement::GetCount, msctf/ITfCandidateListUIElement::GetCount, tsf.itfcandidatelistuielement_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCandidateListUIElement::GetCount method
+# ITfCandidateListUIElement::GetCount
 
 
 ## -description

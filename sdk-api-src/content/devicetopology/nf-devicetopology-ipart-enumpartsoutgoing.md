@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.EnumPartsOutgoing
-title: IPart::EnumPartsOutgoing method
+title: IPart::EnumPartsOutgoing
 author: windows-driver-content
 description: The EnumPartsOutgoing method retrieves a list of all the outgoing parts&#8212;that is, the parts that reside on data paths that are downstream from this part.
 old-location: coreaudio\ipart_enumpartsoutgoing.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: f1892e6d-a2d8-45c7-8a36-6040f4538c1e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: EnumPartsOutgoing method [Core Audio], EnumPartsOutgoing method [Core Audio], IPart interface, EnumPartsOutgoing,IPart.EnumPartsOutgoing, IPart, IPart interface [Core Audio], EnumPartsOutgoing method, IPart::EnumPartsOutgoing, IPartEnumPartsOutgoing, coreaudio.ipart_enumpartsoutgoing, devicetopology/IPart::EnumPartsOutgoing
+ms.keywords: EnumPartsOutgoing, EnumPartsOutgoing method [Core Audio], EnumPartsOutgoing method [Core Audio],IPart interface, IPart interface [Core Audio],EnumPartsOutgoing method, IPart.EnumPartsOutgoing, IPart::EnumPartsOutgoing, IPartEnumPartsOutgoing, coreaudio.ipart_enumpartsoutgoing, devicetopology/IPart::EnumPartsOutgoing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPart::EnumPartsOutgoing method
+# IPart::EnumPartsOutgoing
 
 
 ## -description

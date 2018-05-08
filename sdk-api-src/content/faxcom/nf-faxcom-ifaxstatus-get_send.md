@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Send
-title: IFaxStatus::get_Send method
+title: IFaxStatus::get_Send
 author: windows-driver-content
 description: Retrieves the Send property for the FaxStatus object of a parent FaxPort object. The Send property is a Boolean value that indicates whether a specified fax port is currently sending a fax.
 old-location: fax\_mfax_ifaxstatus_get_send_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_58f8.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxStatus object [Fax Service], Send property, IFaxStatus, IFaxStatus::get_Send, Send property [Fax Service], Send property [Fax Service], FaxStatus object, _mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_get_send_vb, get_Send,IFaxStatus.get_Send
+ms.keywords: FaxStatus object [Fax Service],Send property, FaxStatus.Send, IFaxStatus.get_Send, IFaxStatus::get_Send, Send property [Fax Service], Send property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_get_send_vb, get_Send
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxStatus::get_Send method
+# IFaxStatus::get_Send
 
 
 ## -description

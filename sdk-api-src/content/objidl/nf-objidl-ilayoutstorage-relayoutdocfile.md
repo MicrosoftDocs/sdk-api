@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILayoutStorage.ReLayoutDocfile
-title: ILayoutStorage::ReLayoutDocfile method
+title: ILayoutStorage::ReLayoutDocfile
 author: windows-driver-content
 description: The ReLayoutDocfile method rewrites the compound file, using the layout script obtained through monitoring, or provided through explicit layout scripting, to create a new compound file.
 old-location: stg\ilayoutstorage_relayoutdocfile.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 5db3a26c-595a-4c9b-bb6d-b170eb9864df
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: ILayoutStorage, ILayoutStorage interface [Structured Storage], ReLayoutDocfile method, ILayoutStorage::ReLayoutDocfile, ReLayoutDocfile method [Structured Storage], ReLayoutDocfile method [Structured Storage], ILayoutStorage interface, ReLayoutDocfile,ILayoutStorage.ReLayoutDocfile, _stg_ilayoutstorage_relayoutdocfile, objidl/ILayoutStorage::ReLayoutDocfile, stg.ilayoutstorage_relayoutdocfile
+ms.keywords: ILayoutStorage interface [Structured Storage],ReLayoutDocfile method, ILayoutStorage.ReLayoutDocfile, ILayoutStorage::ReLayoutDocfile, ReLayoutDocfile, ReLayoutDocfile method [Structured Storage], ReLayoutDocfile method [Structured Storage],ILayoutStorage interface, _stg_ilayoutstorage_relayoutdocfile, objidl/ILayoutStorage::ReLayoutDocfile, stg.ilayoutstorage_relayoutdocfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ILayoutStorage::ReLayoutDocfile method
+# ILayoutStorage::ReLayoutDocfile
 
 
 ## -description

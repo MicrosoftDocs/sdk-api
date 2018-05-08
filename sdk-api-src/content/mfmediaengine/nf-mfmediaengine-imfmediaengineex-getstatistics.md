@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStatistics
-title: IMFMediaEngineEx::GetStatistics method
+title: IMFMediaEngineEx::GetStatistics
 author: windows-driver-content
 description: Gets a playback statistic from the Media Engine.
 old-location: mf\imfmediaengineex_getstatistics.htm
 old-project: medfound
 ms.assetid: 3C2FDE86-2EBD-4A5C-BD02-90613DBFDE65
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStatistics method [Media Foundation], GetStatistics method [Media Foundation], IMFMediaEngineEx interface, GetStatistics,IMFMediaEngineEx.GetStatistics, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetStatistics method, IMFMediaEngineEx::GetStatistics, mf.imfmediaengineex_getstatistics, mfmediaengine/IMFMediaEngineEx::GetStatistics
+ms.date: 5/3/2018
+ms.keywords: GetStatistics, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStatistics method, IMFMediaEngineEx.GetStatistics, IMFMediaEngineEx::GetStatistics, mf.imfmediaengineex_getstatistics, mfmediaengine/IMFMediaEngineEx::GetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::GetStatistics method
+# IMFMediaEngineEx::GetStatistics
 
 
 ## -description

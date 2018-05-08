@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_SubscriptionID
-title: IEventSubscription::put_SubscriptionID method
+title: IEventSubscription::put_SubscriptionID
 author: windows-driver-content
 description: The unique ID for the subscription object.
 old-location: cos\ieventsubscription_subscriptionid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 923eadb6-2ee8-4db9-952a-69f73367b2f8
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventSubscription, IEventSubscription interface [COM+], SubscriptionID property, IEventSubscription.SubscriptionID, IEventSubscription::get_SubscriptionID, IEventSubscription::put_SubscriptionID, SubscriptionID property [COM+], SubscriptionID property [COM+], IEventSubscription interface, cos.ieventsubscription_subscriptionid, eventsys/IEventSubscription::SubscriptionID, eventsys/IEventSubscription::get_SubscriptionID, eventsys/IEventSubscription::put_SubscriptionID, put_SubscriptionID,IEventSubscription.put_SubscriptionID
+ms.keywords: IEventSubscription interface [COM+],SubscriptionID property, IEventSubscription.SubscriptionID, IEventSubscription.put_SubscriptionID, IEventSubscription::SubscriptionID, IEventSubscription::get_SubscriptionID, IEventSubscription::put_SubscriptionID, SubscriptionID property [COM+], SubscriptionID property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriptionid, eventsys/IEventSubscription::SubscriptionID, eventsys/IEventSubscription::get_SubscriptionID, eventsys/IEventSubscription::put_SubscriptionID, put_SubscriptionID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::put_SubscriptionID method
+# IEventSubscription::put_SubscriptionID
 
 
 ## -description

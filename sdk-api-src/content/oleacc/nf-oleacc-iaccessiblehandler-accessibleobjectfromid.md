@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessibleHandler.AccessibleObjectFromID
-title: IAccessibleHandler::AccessibleObjectFromID method
+title: IAccessibleHandler::AccessibleObjectFromID
 author: windows-driver-content
 description: The AccessibleObjectFromID method retrieves an IAccessible interface pointer for the interface associated with the given object ID. Oleacc.dll uses this method to obtain an IAccessible interface pointer for proxies that are supplied by other code.
 old-location: winauto\iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: c552b26a-a8db-42a1-85c9-9578230def74
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: AccessibleObjectFromID method [Windows Accessibility], AccessibleObjectFromID method [Windows Accessibility], IAccessibleHandler interface, AccessibleObjectFromID,IAccessibleHandler.AccessibleObjectFromID, IAccessibleHandler, IAccessibleHandler interface [Windows Accessibility], AccessibleObjectFromID method, IAccessibleHandler::AccessibleObjectFromID, _msaa_IAccessibleHandler_AccessibleObjectFromID, msaa.iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid, oleacc/IAccessibleHandler::AccessibleObjectFromID, winauto.iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid
+ms.keywords: AccessibleObjectFromID, AccessibleObjectFromID method [Windows Accessibility], AccessibleObjectFromID method [Windows Accessibility],IAccessibleHandler interface, IAccessibleHandler interface [Windows Accessibility],AccessibleObjectFromID method, IAccessibleHandler.AccessibleObjectFromID, IAccessibleHandler::AccessibleObjectFromID, _msaa_IAccessibleHandler_AccessibleObjectFromID, msaa.iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid, oleacc/IAccessibleHandler::AccessibleObjectFromID, winauto.iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccessibleHandler::AccessibleObjectFromID method
+# IAccessibleHandler::AccessibleObjectFromID
 
 
 ## -description

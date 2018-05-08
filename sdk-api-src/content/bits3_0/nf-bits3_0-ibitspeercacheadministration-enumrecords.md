@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.EnumRecords
-title: IBitsPeerCacheAdministration::EnumRecords method
+title: IBitsPeerCacheAdministration::EnumRecords
 author: windows-driver-content
 description: Gets an IEnumBitsPeerCacheRecords interface pointer that you use to enumerate the records in the cache. The enumeration is a snapshot of the records in the cache.
 old-location: bits\ibitspeercacheadministration_enumrecords.htm
 old-project: Bits
 ms.assetid: b471cee0-0ad0-4488-9819-e524e50dbc76
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: EnumRecords method [BITS], EnumRecords method [BITS], IBitsPeerCacheAdministration interface, EnumRecords,IBitsPeerCacheAdministration.EnumRecords, IBitsPeerCacheAdministration, IBitsPeerCacheAdministration interface [BITS], EnumRecords method, IBitsPeerCacheAdministration::EnumRecords, bits.ibitspeercacheadministration_enumrecords, bits3_0/IBitsPeerCacheAdministration::EnumRecords
+ms.date: 4/27/2018
+ms.keywords: EnumRecords, EnumRecords method [BITS], EnumRecords method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],EnumRecords method, IBitsPeerCacheAdministration.EnumRecords, IBitsPeerCacheAdministration::EnumRecords, bits.ibitspeercacheadministration_enumrecords, bits3_0/IBitsPeerCacheAdministration::EnumRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsPeerCacheAdministration::EnumRecords method
+# IBitsPeerCacheAdministration::EnumRecords
 
 
 ## -description

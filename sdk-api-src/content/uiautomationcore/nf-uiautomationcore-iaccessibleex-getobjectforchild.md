@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.GetObjectForChild
-title: IAccessibleEx::GetObjectForChild method
+title: IAccessibleEx::GetObjectForChild
 author: windows-driver-content
 description: Retrieves an IAccessibleEx interface representing the specified child of this element.
 old-location: winauto\uiauto_IAccessibleEx_GetObjectForChild.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: fbb279cc-2224-437e-875b-d08df175edf1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetObjectForChild method [Windows Accessibility], GetObjectForChild method [Windows Accessibility], IAccessibleEx interface, GetObjectForChild,IAccessibleEx.GetObjectForChild, IAccessibleEx, IAccessibleEx interface [Windows Accessibility], GetObjectForChild method, IAccessibleEx::GetObjectForChild, uiauto.uiauto_IAccessibleEx_GetObjectForChild, uiauto_IAccessibleEx_GetObjectForChild, uiautomationcore/IAccessibleEx::GetObjectForChild, winauto.uiauto_IAccessibleEx_GetObjectForChild
+ms.keywords: GetObjectForChild, GetObjectForChild method [Windows Accessibility], GetObjectForChild method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],GetObjectForChild method, IAccessibleEx.GetObjectForChild, IAccessibleEx::GetObjectForChild, uiauto.uiauto_IAccessibleEx_GetObjectForChild, uiauto_IAccessibleEx_GetObjectForChild, uiautomationcore/IAccessibleEx::GetObjectForChild, winauto.uiauto_IAccessibleEx_GetObjectForChild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAccessibleEx::GetObjectForChild method
+# IAccessibleEx::GetObjectForChild
 
 
 ## -description

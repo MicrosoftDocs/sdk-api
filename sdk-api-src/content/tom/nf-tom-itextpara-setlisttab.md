@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.SetListTab
-title: ITextPara::SetListTab method
+title: ITextPara::SetListTab
 author: windows-driver-content
 description: Sets the list tab setting, which is the distance between the first indent and the start of the text on the first line.
 old-location: controls\ITextPara_SetListTab.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlisttab.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextPara, ITextPara interface [Windows Controls], SetListTab method, ITextPara::SetListTab, SetListTab method [Windows Controls], SetListTab method [Windows Controls], ITextPara interface, SetListTab,ITextPara.SetListTab, _win32_ITextPara_SetListTab, _win32_ITextPara_SetListTab_cpp, controls.ITextPara_SetListTab, controls._win32_ITextPara_SetListTab, tom/ITextPara::SetListTab
+ms.date: 4/27/2018
+ms.keywords: ITextPara interface [Windows Controls],SetListTab method, ITextPara.SetListTab, ITextPara::SetListTab, SetListTab, SetListTab method [Windows Controls], SetListTab method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListTab, _win32_ITextPara_SetListTab_cpp, controls.ITextPara_SetListTab, controls._win32_ITextPara_SetListTab, tom/ITextPara::SetListTab
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::SetListTab method
+# ITextPara::SetListTab
 
 
 ## -description

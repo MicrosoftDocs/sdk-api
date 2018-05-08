@@ -7,7 +7,7 @@ old-location: automat\custdataitem.htm
 old-project: automat
 ms.assetid: dae0f1be-0b77-4af6-9983-d8cb313e5276
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPCUSTDATAITEM, CUSTDATAITEM, CUSTDATAITEM structure [Automation], LPCUSTDATAITEM, LPCUSTDATAITEM structure pointer [Automation], _oa96_CUSTDATAITEM, automat.custdataitem, oaidl/CUSTDATAITEM, oaidl/LPCUSTDATAITEM, tagCUSTDATAITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter2.ResetMultiPassState
-title: IConfigAsfWriter2::ResetMultiPassState method
+title: IConfigAsfWriter2::ResetMultiPassState
 author: windows-driver-content
 description: The ResetMultiPassState method resets the filter when a preprocessing encoding pass is canceled before it is completed.
 old-location: dshow\iconfigasfwriter2_resetmultipassstate.htm
 old-project: DirectShow
 ms.assetid: ca2ec239-ffb9-4030-9160-77a0c9be0a07
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IConfigAsfWriter2, IConfigAsfWriter2 interface [DirectShow], ResetMultiPassState method, IConfigAsfWriter2::ResetMultiPassState, IConfigAsfWriter2ResetMultiPassState, ResetMultiPassState method [DirectShow], ResetMultiPassState method [DirectShow], IConfigAsfWriter2 interface, ResetMultiPassState,IConfigAsfWriter2.ResetMultiPassState, dshow.iconfigasfwriter2_resetmultipassstate, dshowasf/IConfigAsfWriter2::ResetMultiPassState
+ms.date: 4/30/2018
+ms.keywords: IConfigAsfWriter2 interface [DirectShow],ResetMultiPassState method, IConfigAsfWriter2.ResetMultiPassState, IConfigAsfWriter2::ResetMultiPassState, IConfigAsfWriter2ResetMultiPassState, ResetMultiPassState, ResetMultiPassState method [DirectShow], ResetMultiPassState method [DirectShow],IConfigAsfWriter2 interface, dshow.iconfigasfwriter2_resetmultipassstate, dshowasf/IConfigAsfWriter2::ResetMultiPassState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IConfigAsfWriter2::ResetMultiPassState method
+# IConfigAsfWriter2::ResetMultiPassState
 
 
 ## -description

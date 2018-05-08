@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsContainer.GetObject
-title: IADsContainer::GetObject method
+title: IADsContainer::GetObject
 author: windows-driver-content
 description: Retrieves an interface for a directory object in the container.
 old-location: adsi\iadscontainer_getobject.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: df8b1eae-1138-4e55-af6e-17c6105ca9c1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetObject method [ADSI], GetObject method [ADSI], IADsContainer interface, GetObject,IADsContainer.GetObject, IADsContainer, IADsContainer interface [ADSI], GetObject method, IADsContainer::GetObject, _ds_iadscontainer_getobject, adsi.iadscontainer__getobject, adsi.iadscontainer_getobject, iads/IADsContainer::GetObject
+ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],GetObject method, IADsContainer.GetObject, IADsContainer::GetObject, _ds_iadscontainer_getobject, adsi.iadscontainer__getobject, adsi.iadscontainer_getobject, iads/IADsContainer::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsContainer::GetObject method
+# IADsContainer::GetObject
 
 
 ## -description

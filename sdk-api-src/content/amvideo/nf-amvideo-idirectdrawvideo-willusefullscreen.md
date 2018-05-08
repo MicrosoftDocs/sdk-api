@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.WillUseFullScreen
-title: IDirectDrawVideo::WillUseFullScreen method
+title: IDirectDrawVideo::WillUseFullScreen
 author: windows-driver-content
 description: The WillUseFullScreen method determines whether DirectShow will change display mode when going to full-screen mode.
 old-location: dshow\idirectdrawvideo_willusefullscreen.htm
 old-project: DirectShow
 ms.assetid: de2addfc-e289-4277-a283-b7aa2aa47ba0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], WillUseFullScreen method, IDirectDrawVideo::WillUseFullScreen, IDirectDrawVideoWillUseFullScreen, WillUseFullScreen method [DirectShow], WillUseFullScreen method [DirectShow], IDirectDrawVideo interface, WillUseFullScreen,IDirectDrawVideo.WillUseFullScreen, amvideo/IDirectDrawVideo::WillUseFullScreen, dshow.idirectdrawvideo_willusefullscreen
+ms.date: 4/30/2018
+ms.keywords: IDirectDrawVideo interface [DirectShow],WillUseFullScreen method, IDirectDrawVideo.WillUseFullScreen, IDirectDrawVideo::WillUseFullScreen, IDirectDrawVideoWillUseFullScreen, WillUseFullScreen, WillUseFullScreen method [DirectShow], WillUseFullScreen method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::WillUseFullScreen, dshow.idirectdrawvideo_willusefullscreen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawVideo::WillUseFullScreen method
+# IDirectDrawVideo::WillUseFullScreen
 
 
 ## -description

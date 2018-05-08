@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.GetSignatureBlocks
-title: IXpsSignatureManager::GetSignatureBlocks method
+title: IXpsSignatureManager::GetSignatureBlocks
 author: windows-driver-content
 description: Gets a pointer to an IXpsSignatureBlockCollection interface that contains a collection of signature blocks.
 old-location: xps\ixpssignaturemanager_getsignatureblocks.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 6f7ba22f-7c3b-47bf-8cb5-2e4e4a548dc2
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSignatureBlocks method [XPS Documents and Packaging], GetSignatureBlocks method [XPS Documents and Packaging], IXpsSignatureManager interface, GetSignatureBlocks,IXpsSignatureManager.GetSignatureBlocks, IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], GetSignatureBlocks method, IXpsSignatureManager::GetSignatureBlocks, xps.ixpssignaturemanager_getsignatureblocks, xpsdigitalsignature/IXpsSignatureManager::GetSignatureBlocks
+ms.keywords: GetSignatureBlocks, GetSignatureBlocks method [XPS Documents and Packaging], GetSignatureBlocks method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatureBlocks method, IXpsSignatureManager.GetSignatureBlocks, IXpsSignatureManager::GetSignatureBlocks, xps.ixpssignaturemanager_getsignatureblocks, xpsdigitalsignature/IXpsSignatureManager::GetSignatureBlocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureManager::GetSignatureBlocks method
+# IXpsSignatureManager::GetSignatureBlocks
 
 
 ## -description

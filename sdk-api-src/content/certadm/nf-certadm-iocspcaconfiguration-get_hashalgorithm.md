@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_HashAlgorithm
-title: IOCSPCAConfiguration::get_HashAlgorithm method
+title: IOCSPCAConfiguration::get_HashAlgorithm
 author: windows-driver-content
 description: Gets or sets an identifier for the hash algorithm used to sign a certificate.
 old-location: security\iocspcaconfiguration_hashalgorithm_method.htm
 old-project: SecCrypto
 ms.assetid: 71725dc1-7663-4ddd-afde-1e2792fce4f3
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security], IOCSPCAConfiguration interface, IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], HashAlgorithm property, IOCSPCAConfiguration.HashAlgorithm, IOCSPCAConfiguration::get_HashAlgorithm, IOCSPCAConfiguration::put_HashAlgorithm, certadm/IOCSPCAConfiguration::HashAlgorithm, certadm/IOCSPCAConfiguration::get_HashAlgorithm, certadm/IOCSPCAConfiguration::put_HashAlgorithm, get_HashAlgorithm,IOCSPCAConfiguration.get_HashAlgorithm, security.iocspcaconfiguration_hashalgorithm_method, security.iocspcaconfiguration_hashalgorithmid_method
+ms.date: 4/30/2018
+ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],HashAlgorithm property, IOCSPCAConfiguration.HashAlgorithm, IOCSPCAConfiguration.get_HashAlgorithm, IOCSPCAConfiguration::HashAlgorithm, IOCSPCAConfiguration::get_HashAlgorithm, IOCSPCAConfiguration::put_HashAlgorithm, certadm/IOCSPCAConfiguration::HashAlgorithm, certadm/IOCSPCAConfiguration::get_HashAlgorithm, certadm/IOCSPCAConfiguration::put_HashAlgorithm, get_HashAlgorithm, security.iocspcaconfiguration_hashalgorithm_method, security.iocspcaconfiguration_hashalgorithmid_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPCAConfiguration::get_HashAlgorithm method
+# IOCSPCAConfiguration::get_HashAlgorithm
 
 
 ## -description

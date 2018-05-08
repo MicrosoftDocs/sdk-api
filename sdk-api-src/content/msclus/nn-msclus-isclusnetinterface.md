@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 21aaf37d-5b60-4005-9e7f-f0435de590b2
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ClusNetInterface, ClusNetInterface object [Failover Cluster], ClusNetInterface object [Failover Cluster], described, ISClusNetInterface, _wolf_clusnetinterface_object, msclus/ClusNetInterface, mscs.clusnetinterface_object
+ms.keywords: ClusNetInterface, ClusNetInterface object [Failover Cluster], ClusNetInterface object [Failover Cluster],described, ISClusNetInterface, _wolf_clusnetinterface_object, msclus/ClusNetInterface, mscs.clusnetinterface_object
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

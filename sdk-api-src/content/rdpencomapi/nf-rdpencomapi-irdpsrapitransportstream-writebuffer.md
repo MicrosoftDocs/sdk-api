@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.WriteBuffer
-title: IRDPSRAPITransportStream::WriteBuffer method
+title: IRDPSRAPITransportStream::WriteBuffer
 author: windows-driver-content
 description: Called by the Remote Desktop Protocol (RDP) stack to write the contents of a stream buffer to the network.
 old-location: rdp\irdpsrapitransportstream_writebuffer.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 9e78360d-9ea6-4a74-8a20-5546057c24b0
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITransportStream, IRDPSRAPITransportStream interface [RDP], WriteBuffer method, IRDPSRAPITransportStream::WriteBuffer, WriteBuffer method [RDP], WriteBuffer method [RDP], IRDPSRAPITransportStream interface, WriteBuffer,IRDPSRAPITransportStream.WriteBuffer, rdp.irdpsrapitransportstream_writebuffer, rdpencomapi/IRDPSRAPITransportStream::WriteBuffer
+ms.keywords: IRDPSRAPITransportStream interface [RDP],WriteBuffer method, IRDPSRAPITransportStream.WriteBuffer, IRDPSRAPITransportStream::WriteBuffer, WriteBuffer, WriteBuffer method [RDP], WriteBuffer method [RDP],IRDPSRAPITransportStream interface, rdp.irdpsrapitransportstream_writebuffer, rdpencomapi/IRDPSRAPITransportStream::WriteBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITransportStream::WriteBuffer method
+# IRDPSRAPITransportStream::WriteBuffer
 
 
 ## -description

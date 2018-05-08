@@ -1,14 +1,14 @@
 ---
 UID: NF:windowsstoragecom.IStorageItemHandleAccess.Create
-title: IStorageItemHandleAccess::Create method
+title: IStorageItemHandleAccess::Create
 author: windows-driver-content
 description: Creates a handle to a file.
 old-location: winrt\istorageitemhandleaccess_create.htm
 old-project: WinRT
 ms.assetid: 2BBF5CFE-0212-4133-BA19-DEA322ED5569
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Create method [Windows Runtime], Create method [Windows Runtime], IStorageItemHandleAccess interface, Create,IStorageItemHandleAccess.Create, IStorageItemHandleAccess, IStorageItemHandleAccess interface [Windows Runtime], Create method, IStorageItemHandleAccess::Create, windowsstoragecom/IStorageItemHandleAccess::Create, winrt.istorageitemhandleaccess_create
+ms.date: 5/4/2018
+ms.keywords: Create, Create method [Windows Runtime], Create method [Windows Runtime],IStorageItemHandleAccess interface, IStorageItemHandleAccess interface [Windows Runtime],Create method, IStorageItemHandleAccess.Create, IStorageItemHandleAccess::Create, windowsstoragecom/IStorageItemHandleAccess::Create, winrt.istorageitemhandleaccess_create
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IStorageItemHandleAccess::Create method
+# IStorageItemHandleAccess::Create
 
 
 ## -description

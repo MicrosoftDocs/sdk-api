@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMPEG2StreamIdMap.EnumStreamIdMap
-title: IMPEG2StreamIdMap::EnumStreamIdMap method
+title: IMPEG2StreamIdMap::EnumStreamIdMap
 author: windows-driver-content
 description: The EnumStreamIdMap method returns a collection of all the mapped Stream IDs on this pin.
 old-location: dshow\impeg2streamidmap_enumstreamidmap.htm
 old-project: DirectShow
 ms.assetid: 2c42f042-c9fb-4cb9-90bb-4050a61b18da
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EnumStreamIdMap method [DirectShow], EnumStreamIdMap method [DirectShow], IMPEG2StreamIdMap interface, EnumStreamIdMap,IMPEG2StreamIdMap.EnumStreamIdMap, IMPEG2StreamIdMap, IMPEG2StreamIdMap interface [DirectShow], EnumStreamIdMap method, IMPEG2StreamIdMap::EnumStreamIdMap, IMPEG2StreamIdMapEnumStreamIdMap, dshow.impeg2streamidmap_enumstreamidmap, strmif/IMPEG2StreamIdMap::EnumStreamIdMap
+ms.date: 4/30/2018
+ms.keywords: EnumStreamIdMap, EnumStreamIdMap method [DirectShow], EnumStreamIdMap method [DirectShow],IMPEG2StreamIdMap interface, IMPEG2StreamIdMap interface [DirectShow],EnumStreamIdMap method, IMPEG2StreamIdMap.EnumStreamIdMap, IMPEG2StreamIdMap::EnumStreamIdMap, IMPEG2StreamIdMapEnumStreamIdMap, dshow.impeg2streamidmap_enumstreamidmap, strmif/IMPEG2StreamIdMap::EnumStreamIdMap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMPEG2StreamIdMap::EnumStreamIdMap method
+# IMPEG2StreamIdMap::EnumStreamIdMap
 
 
 ## -description

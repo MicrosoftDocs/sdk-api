@@ -72,18 +72,16 @@ For more information, see
  
 
 
-
-
-#### - Gpt
-
-A 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552486">CREATE_DISK_GPT</a> structure that contains disk information when a GPT disk is to be initialized.
-
-
-#### - Mbr
+### -field DUMMYUNIONNAME.Mbr
 
 A 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552490">CREATE_DISK_MBR</a> structure that contains disk information when an MBR disk is to be initialized.
+
+
+### -field DUMMYUNIONNAME.Gpt
+
+A 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552486">CREATE_DISK_GPT</a> structure that contains disk information when a GPT disk is to be initialized.
 
 
 ## -see-also

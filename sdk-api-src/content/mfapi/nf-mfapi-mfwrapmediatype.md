@@ -7,7 +7,7 @@ old-location: mf\mfwrapmediatype.htm
 old-project: medfound
 ms.assetid: a3dd74bc-1f1c-40b9-a43e-d45ff621248f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MFWrapMediaType, MFWrapMediaType function [Media Foundation], a3dd74bc-1f1c-40b9-a43e-d45ff621248f, mf.mfwrapmediatype, mfapi/MFWrapMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

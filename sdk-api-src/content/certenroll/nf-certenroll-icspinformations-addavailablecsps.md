@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.AddAvailableCsps
-title: ICspInformations::AddAvailableCsps method
+title: ICspInformations::AddAvailableCsps
 author: windows-driver-content
 description: Adds the providers installed on the computer to the collection.
 old-location: security\icspinformations_addavailablecsps_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: f44af323-41fb-46d6-88ed-15d465fc8815
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: AddAvailableCsps method [Security], AddAvailableCsps method [Security], ICspInformations interface, AddAvailableCsps,ICspInformations.AddAvailableCsps, ICspInformations, ICspInformations interface [Security], AddAvailableCsps method, ICspInformations::AddAvailableCsps, certenroll/ICspInformations::AddAvailableCsps, security.icspinformations_addavailablecsps_method
+ms.keywords: AddAvailableCsps, AddAvailableCsps method [Security], AddAvailableCsps method [Security],ICspInformations interface, ICspInformations interface [Security],AddAvailableCsps method, ICspInformations.AddAvailableCsps, ICspInformations::AddAvailableCsps, certenroll/ICspInformations::AddAvailableCsps, security.icspinformations_addavailablecsps_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformations::AddAvailableCsps method
+# ICspInformations::AddAvailableCsps
 
 
 ## -description

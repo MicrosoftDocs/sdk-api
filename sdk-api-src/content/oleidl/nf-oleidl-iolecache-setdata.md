@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCache.SetData
-title: IOleCache::SetData method
+title: IOleCache::SetData
 author: windows-driver-content
 description: Initializes the cache with data in a specified format and on a specified medium.
 old-location: com\iolecache_setdata.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: b826411d-6e00-44ba-8603-85db40c4a55f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleCache, IOleCache interface [COM], SetData method, IOleCache::SetData, SetData method [COM], SetData method [COM], IOleCache interface, SetData,IOleCache.SetData, _ole_iolecache_setdata, com.iolecache_setdata, oleidl/IOleCache::SetData
+ms.keywords: IOleCache interface [COM],SetData method, IOleCache.SetData, IOleCache::SetData, SetData, SetData method [COM], SetData method [COM],IOleCache interface, _ole_iolecache_setdata, com.iolecache_setdata, oleidl/IOleCache::SetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleCache::SetData method
+# IOleCache::SetData
 
 
 ## -description

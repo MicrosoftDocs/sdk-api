@@ -7,7 +7,7 @@ old-location: winprog\fditruncatecabinet.htm
 old-project: DevNotes
 ms.assetid: c923b0a5-1a8d-42aa-bd05-0d318199756d
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: FDITruncateCabinet, FDITruncateCabinet function [Windows API], fdi/FDITruncateCabinet, winprog.fditruncatecabinet
 ms.prod: windows-hardware
 ms.technology: windows-devices

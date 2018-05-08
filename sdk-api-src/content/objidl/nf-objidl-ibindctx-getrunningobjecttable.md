@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBindCtx.GetRunningObjectTable
-title: IBindCtx::GetRunningObjectTable method
+title: IBindCtx::GetRunningObjectTable
 author: windows-driver-content
 description: Retrieves an interface pointer to the running object table (ROT) for the computer on which this bind context is running.
 old-location: com\ibindctx_getrunningobjecttable.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 26938d07-d772-4e72-a6aa-57dd2f2cece1
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetRunningObjectTable method [COM], GetRunningObjectTable method [COM], IBindCtx interface, GetRunningObjectTable,IBindCtx.GetRunningObjectTable, IBindCtx, IBindCtx interface [COM], GetRunningObjectTable method, IBindCtx::GetRunningObjectTable, _com_ibindctx_getrunningobjecttable, com.ibindctx_getrunningobjecttable, objidl/IBindCtx::GetRunningObjectTable
+ms.keywords: GetRunningObjectTable, GetRunningObjectTable method [COM], GetRunningObjectTable method [COM],IBindCtx interface, IBindCtx interface [COM],GetRunningObjectTable method, IBindCtx.GetRunningObjectTable, IBindCtx::GetRunningObjectTable, _com_ibindctx_getrunningobjecttable, com.ibindctx_getrunningobjecttable, objidl/IBindCtx::GetRunningObjectTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBindCtx::GetRunningObjectTable method
+# IBindCtx::GetRunningObjectTable
 
 
 ## -description

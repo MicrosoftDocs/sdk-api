@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextServices.TxGetNaturalSize
-title: ITextServices::TxGetNaturalSize method
+title: ITextServices::TxGetNaturalSize
 author: windows-driver-content
 description: Allows a control to be resized so it fits its content appropriately.
 old-location: controls\ITextServices_TxGetNaturalSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetnaturalsize.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextServices, ITextServices interface [Windows Controls], TxGetNaturalSize method, ITextServices::TxGetNaturalSize, TXTNS_EMU, TXTNS_FITTOCONTENT, TXTNS_FITTOCONTENT2, TXTNS_FITTOCONTENT3, TXTNS_FITTOCONTENTWSP, TXTNS_INCLUDELASTLINE, TXTNS_ROUNDTOLINE, TxGetNaturalSize method [Windows Controls], TxGetNaturalSize method [Windows Controls], ITextServices interface, TxGetNaturalSize,ITextServices.TxGetNaturalSize, _win32_ITextServices_TxGetNaturalSize, _win32_ITextServices_TxGetNaturalSize_cpp, controls.ITextServices_TxGetNaturalSize, controls._win32_ITextServices_TxGetNaturalSize, textserv/ITextServices::TxGetNaturalSize
+ms.date: 4/27/2018
+ms.keywords: ITextServices interface [Windows Controls],TxGetNaturalSize method, ITextServices.TxGetNaturalSize, ITextServices::TxGetNaturalSize, TXTNS_EMU, TXTNS_FITTOCONTENT, TXTNS_FITTOCONTENT2, TXTNS_FITTOCONTENT3, TXTNS_FITTOCONTENTWSP, TXTNS_INCLUDELASTLINE, TXTNS_ROUNDTOLINE, TxGetNaturalSize, TxGetNaturalSize method [Windows Controls], TxGetNaturalSize method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetNaturalSize, _win32_ITextServices_TxGetNaturalSize_cpp, controls.ITextServices_TxGetNaturalSize, controls._win32_ITextServices_TxGetNaturalSize, textserv/ITextServices::TxGetNaturalSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextServices::TxGetNaturalSize method
+# ITextServices::TxGetNaturalSize
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 602842ce-abb1-4830-99b3-d361d18ac074
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ITransactionProperty, ITransactionProperty interface [COM+], ITransactionProperty interface [COM+], described, _cos_ITransactionProperty, comsvcs/ITransactionProperty, cos.itransactionproperty
+ms.keywords: ITransactionProperty, ITransactionProperty interface [COM+], ITransactionProperty interface [COM+],described, _cos_ITransactionProperty, comsvcs/ITransactionProperty, cos.itransactionproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

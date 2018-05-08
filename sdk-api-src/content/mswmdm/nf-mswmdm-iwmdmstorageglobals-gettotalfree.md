@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageGlobals.GetTotalFree
-title: IWMDMStorageGlobals::GetTotalFree method
+title: IWMDMStorageGlobals::GetTotalFree
 author: windows-driver-content
 description: The GetTotalFree method retrieves the total amount of free space on the storage medium, in bytes.
 old-location: wmdm\iwmdmstorageglobals_gettotalfree.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: a97c2d92-dc54-4987-b2b4-e4de2e546a1f
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetTotalFree method [windows Media Device Manager], GetTotalFree method [windows Media Device Manager], IWMDMStorageGlobals interface, GetTotalFree,IWMDMStorageGlobals.GetTotalFree, IWMDMStorageGlobals, IWMDMStorageGlobals interface [windows Media Device Manager], GetTotalFree method, IWMDMStorageGlobals::GetTotalFree, IWMDMStorageGlobalsGetTotalFree, mswmdm/IWMDMStorageGlobals::GetTotalFree, wmdm.iwmdmstorageglobals_gettotalfree
+ms.keywords: GetTotalFree, GetTotalFree method [windows Media Device Manager], GetTotalFree method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetTotalFree method, IWMDMStorageGlobals.GetTotalFree, IWMDMStorageGlobals::GetTotalFree, IWMDMStorageGlobalsGetTotalFree, mswmdm/IWMDMStorageGlobals::GetTotalFree, wmdm.iwmdmstorageglobals_gettotalfree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMStorageGlobals::GetTotalFree method
+# IWMDMStorageGlobals::GetTotalFree
 
 
 ## -description

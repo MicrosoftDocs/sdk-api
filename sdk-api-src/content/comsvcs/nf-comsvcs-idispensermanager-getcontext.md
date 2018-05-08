@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IDispenserManager.GetContext
-title: IDispenserManager::GetContext method
+title: IDispenserManager::GetContext
 author: windows-driver-content
 description: Determines the current context.
 old-location: cos\idispensermanager_getcontext.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: cc3095a3-df4c-4112-a3cb-308e8962b51f
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetContext method [COM+], GetContext method [COM+], IDispenserManager interface, GetContext,IDispenserManager.GetContext, IDispenserManager, IDispenserManager interface [COM+], GetContext method, IDispenserManager::GetContext, _dtc_IDispenserManager_GetContext, comsvcs/IDispenserManager::GetContext, cos.idispensermanager_getcontext
+ms.keywords: GetContext, GetContext method [COM+], GetContext method [COM+],IDispenserManager interface, IDispenserManager interface [COM+],GetContext method, IDispenserManager.GetContext, IDispenserManager::GetContext, _dtc_IDispenserManager_GetContext, comsvcs/IDispenserManager::GetContext, cos.idispensermanager_getcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDispenserManager::GetContext method
+# IDispenserManager::GetContext
 
 
 ## -description

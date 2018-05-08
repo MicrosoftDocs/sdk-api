@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfMouseTracker.UnadviseMouseSink
-title: ITfMouseTracker::UnadviseMouseSink method
+title: ITfMouseTracker::UnadviseMouseSink
 author: windows-driver-content
 description: ITfMouseTracker::UnadviseMouseSink method
 old-location: tsf\itfmousetracker_unadvisemousesink.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 7707b7ce-662b-43e5-ada4-ba42eec56ede
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfMouseTracker, ITfMouseTracker interface [Text Services Framework], UnadviseMouseSink method, ITfMouseTracker::UnadviseMouseSink, UnadviseMouseSink method [Text Services Framework], UnadviseMouseSink method [Text Services Framework], ITfMouseTracker interface, UnadviseMouseSink,ITfMouseTracker.UnadviseMouseSink, _tsf_itfmousetracker_unadvisemousesink_ref, msctf/ITfMouseTracker::UnadviseMouseSink, tsf.itfmousetracker_unadvisemousesink
+ms.keywords: ITfMouseTracker interface [Text Services Framework],UnadviseMouseSink method, ITfMouseTracker.UnadviseMouseSink, ITfMouseTracker::UnadviseMouseSink, UnadviseMouseSink, UnadviseMouseSink method [Text Services Framework], UnadviseMouseSink method [Text Services Framework],ITfMouseTracker interface, _tsf_itfmousetracker_unadvisemousesink_ref, msctf/ITfMouseTracker::UnadviseMouseSink, tsf.itfmousetracker_unadvisemousesink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfMouseTracker::UnadviseMouseSink method
+# ITfMouseTracker::UnadviseMouseSink
 
 
 ## -description

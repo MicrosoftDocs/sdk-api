@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetOutputRect
-title: IVMRMixerControl::GetOutputRect method
+title: IVMRMixerControl::GetOutputRect
 author: windows-driver-content
 description: The GetOutputRect method retrieves the position of this stream's video rectangle within the composition rectangle.
 old-location: dshow\ivmrmixercontrol_getoutputrect.htm
 old-project: DirectShow
 ms.assetid: da6409b0-161d-4724-b448-e68cb5d1941c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetOutputRect method [DirectShow], GetOutputRect method [DirectShow], IVMRMixerControl interface, GetOutputRect,IVMRMixerControl.GetOutputRect, IVMRMixerControl, IVMRMixerControl interface [DirectShow], GetOutputRect method, IVMRMixerControl::GetOutputRect, IVMRMixerControlGetOutputRect, dshow.ivmrmixercontrol_getoutputrect, strmif/IVMRMixerControl::GetOutputRect
+ms.date: 4/30/2018
+ms.keywords: GetOutputRect, GetOutputRect method [DirectShow], GetOutputRect method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetOutputRect method, IVMRMixerControl.GetOutputRect, IVMRMixerControl::GetOutputRect, IVMRMixerControlGetOutputRect, dshow.ivmrmixercontrol_getoutputrect, strmif/IVMRMixerControl::GetOutputRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRMixerControl::GetOutputRect method
+# IVMRMixerControl::GetOutputRect
 
 
 ## -description

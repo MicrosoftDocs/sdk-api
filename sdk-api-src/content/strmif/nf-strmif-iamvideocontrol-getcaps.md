@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVideoControl.GetCaps
-title: IAMVideoControl::GetCaps method
+title: IAMVideoControl::GetCaps
 author: windows-driver-content
 description: The GetCaps method retrieves the capabilities of the underlying hardware.
 old-location: dshow\iamvideocontrol_getcaps.htm
 old-project: DirectShow
 ms.assetid: 8e4b7b46-8179-410c-8369-652f9b65de8c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCaps method [DirectShow], GetCaps method [DirectShow], IAMVideoControl interface, GetCaps,IAMVideoControl.GetCaps, IAMVideoControl, IAMVideoControl interface [DirectShow], GetCaps method, IAMVideoControl::GetCaps, IAMVideoControlGetCaps, dshow.iamvideocontrol_getcaps, strmif/IAMVideoControl::GetCaps
+ms.date: 4/30/2018
+ms.keywords: GetCaps, GetCaps method [DirectShow], GetCaps method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetCaps method, IAMVideoControl.GetCaps, IAMVideoControl::GetCaps, IAMVideoControlGetCaps, dshow.iamvideocontrol_getcaps, strmif/IAMVideoControl::GetCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVideoControl::GetCaps method
+# IAMVideoControl::GetCaps
 
 
 ## -description

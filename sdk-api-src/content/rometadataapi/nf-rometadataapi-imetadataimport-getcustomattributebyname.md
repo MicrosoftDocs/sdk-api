@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetCustomAttributeByName
-title: IMetaDataImport::GetCustomAttributeByName method
+title: IMetaDataImport::GetCustomAttributeByName
 author: windows-driver-content
 description: Gets the custom attribute, given its name and owner.
 old-location: winrt\imetadataimport_getcustomattributebyname.htm
 old-project: WinRT
 ms.assetid: e2771a90-4ac3-4c5a-869a-e18d1a4c6b3e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetCustomAttributeByName method [Windows Runtime], GetCustomAttributeByName method [Windows Runtime], IMetaDataImport interface, GetCustomAttributeByName,IMetaDataImport.GetCustomAttributeByName, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetCustomAttributeByName method, IMetaDataImport::GetCustomAttributeByName, rometadataapi/IMetaDataImport::GetCustomAttributeByName, winrt.imetadataimport_getcustomattributebyname
+ms.date: 5/4/2018
+ms.keywords: GetCustomAttributeByName, GetCustomAttributeByName method [Windows Runtime], GetCustomAttributeByName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetCustomAttributeByName method, IMetaDataImport.GetCustomAttributeByName, IMetaDataImport::GetCustomAttributeByName, rometadataapi/IMetaDataImport::GetCustomAttributeByName, winrt.imetadataimport_getcustomattributebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetCustomAttributeByName method
+# IMetaDataImport::GetCustomAttributeByName
 
 
 ## -description

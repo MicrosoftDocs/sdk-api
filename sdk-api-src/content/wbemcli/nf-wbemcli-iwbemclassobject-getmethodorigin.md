@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetMethodOrigin
-title: IWbemClassObject::GetMethodOrigin method
+title: IWbemClassObject::GetMethodOrigin
 author: windows-driver-content
 description: The IWbemClassObject::GetMethodOrigin method is used to determine the class for which a method was declared.
 old-location: wmi\iwbemclassobject_getmethodorigin.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: e3d55b1f-f9bd-40d1-9ad5-990c264524d5
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetMethodOrigin method [Windows Management Instrumentation], GetMethodOrigin method [Windows Management Instrumentation], IWbemClassObject interface, GetMethodOrigin,IWbemClassObject.GetMethodOrigin, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], GetMethodOrigin method, IWbemClassObject::GetMethodOrigin, _hmm_iwbemclassobject_getmethodorigin, wbemcli/IWbemClassObject::GetMethodOrigin, wmi.iwbemclassobject_getmethodorigin
+ms.keywords: GetMethodOrigin, GetMethodOrigin method [Windows Management Instrumentation], GetMethodOrigin method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethodOrigin method, IWbemClassObject.GetMethodOrigin, IWbemClassObject::GetMethodOrigin, _hmm_iwbemclassobject_getmethodorigin, wbemcli/IWbemClassObject::GetMethodOrigin, wmi.iwbemclassobject_getmethodorigin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -53,7 +53,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemClassObject::GetMethodOrigin method
+# IWbemClassObject::GetMethodOrigin
 
 
 ## -description

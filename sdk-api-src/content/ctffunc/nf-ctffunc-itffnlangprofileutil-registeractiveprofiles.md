@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnLangProfileUtil.RegisterActiveProfiles
-title: ITfFnLangProfileUtil::RegisterActiveProfiles method
+title: ITfFnLangProfileUtil::RegisterActiveProfiles
 author: windows-driver-content
 description: ITfFnLangProfileUtil::RegisterActiveProfiles method
 old-location: tsf\itffnlangprofileutil_registeractiveprofiles.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 3b86206d-a299-4207-a0be-35a334786560
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnLangProfileUtil, ITfFnLangProfileUtil interface [Text Services Framework], RegisterActiveProfiles method, ITfFnLangProfileUtil::RegisterActiveProfiles, RegisterActiveProfiles method [Text Services Framework], RegisterActiveProfiles method [Text Services Framework], ITfFnLangProfileUtil interface, RegisterActiveProfiles,ITfFnLangProfileUtil.RegisterActiveProfiles, _tsf_itffnlangprofileutil_registeractiveprofiles_ref, ctffunc/ITfFnLangProfileUtil::RegisterActiveProfiles, tsf.itffnlangprofileutil_registeractiveprofiles
+ms.keywords: ITfFnLangProfileUtil interface [Text Services Framework],RegisterActiveProfiles method, ITfFnLangProfileUtil.RegisterActiveProfiles, ITfFnLangProfileUtil::RegisterActiveProfiles, RegisterActiveProfiles, RegisterActiveProfiles method [Text Services Framework], RegisterActiveProfiles method [Text Services Framework],ITfFnLangProfileUtil interface, _tsf_itffnlangprofileutil_registeractiveprofiles_ref, ctffunc/ITfFnLangProfileUtil::RegisterActiveProfiles, tsf.itffnlangprofileutil_registeractiveprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfFnLangProfileUtil::RegisterActiveProfiles method
+# ITfFnLangProfileUtil::RegisterActiveProfiles
 
 
 ## -description

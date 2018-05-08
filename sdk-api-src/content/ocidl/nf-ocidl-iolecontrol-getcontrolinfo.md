@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControl.GetControlInfo
-title: IOleControl::GetControlInfo method
+title: IOleControl::GetControlInfo
 author: windows-driver-content
 description: Retrieves information about the control's keyboard mnemonics and behavior.
 old-location: com\iolecontrol_getcontrolinfo.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: defb7509-e586-45a0-9e56-de9eba17f18e
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetControlInfo method [COM], GetControlInfo method [COM], IOleControl interface, GetControlInfo,IOleControl.GetControlInfo, IOleControl, IOleControl interface [COM], GetControlInfo method, IOleControl::GetControlInfo, _ctrl_iolecontrol_getcontrolinfo, com.iolecontrol_getcontrolinfo, ocidl/IOleControl::GetControlInfo
+ms.keywords: GetControlInfo, GetControlInfo method [COM], GetControlInfo method [COM],IOleControl interface, IOleControl interface [COM],GetControlInfo method, IOleControl.GetControlInfo, IOleControl::GetControlInfo, _ctrl_iolecontrol_getcontrolinfo, com.iolecontrol_getcontrolinfo, ocidl/IOleControl::GetControlInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleControl::GetControlInfo method
+# IOleControl::GetControlInfo
 
 
 ## -description

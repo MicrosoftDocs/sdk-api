@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.SetRange
-title: ITextRange::SetRange method
+title: ITextRange::SetRange
 author: windows-driver-content
 description: Adjusts the range endpoints to the specified values.
 old-location: controls\ITextRange_SetRange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setrange.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange, ITextRange interface [Windows Controls], SetRange method, ITextRange::SetRange, SetRange method [Windows Controls], SetRange method [Windows Controls], ITextRange interface, SetRange,ITextRange.SetRange, _win32_ITextRange_SetRange, _win32_ITextRange_SetRange_cpp, controls.ITextRange_SetRange, controls._win32_ITextRange_SetRange, tom/ITextRange::SetRange
+ms.date: 4/27/2018
+ms.keywords: ITextRange interface [Windows Controls],SetRange method, ITextRange.SetRange, ITextRange::SetRange, SetRange, SetRange method [Windows Controls], SetRange method [Windows Controls],ITextRange interface, _win32_ITextRange_SetRange, _win32_ITextRange_SetRange_cpp, controls.ITextRange_SetRange, controls._win32_ITextRange_SetRange, tom/ITextRange::SetRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::SetRange method
+# ITextRange::SetRange
 
 
 ## -description

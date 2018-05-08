@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.ISynchronizeContainer.AddSynchronize
-title: ISynchronizeContainer::AddSynchronize method
+title: ISynchronizeContainer::AddSynchronize
 author: windows-driver-content
 description: Adds a synchronization object to the container.
 old-location: com\isynchronizecontainer_addsynchronize.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: b2d48de3-848c-4cc9-bd96-fffbb2ca2ba3
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: AddSynchronize method [COM], AddSynchronize method [COM], ISynchronizeContainer interface, AddSynchronize,ISynchronizeContainer.AddSynchronize, ISynchronizeContainer, ISynchronizeContainer interface [COM], AddSynchronize method, ISynchronizeContainer::AddSynchronize, _com_isynchronizecontainer_addsynchronize, com.isynchronizecontainer_addsynchronize, objidlbase/ISynchronizeContainer::AddSynchronize
+ms.keywords: AddSynchronize, AddSynchronize method [COM], AddSynchronize method [COM],ISynchronizeContainer interface, ISynchronizeContainer interface [COM],AddSynchronize method, ISynchronizeContainer.AddSynchronize, ISynchronizeContainer::AddSynchronize, _com_isynchronizecontainer_addsynchronize, com.isynchronizecontainer_addsynchronize, objidlbase/ISynchronizeContainer::AddSynchronize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISynchronizeContainer::AddSynchronize method
+# ISynchronizeContainer::AddSynchronize
 
 
 ## -description

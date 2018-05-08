@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_ElasticMarginRight
-title: IInertiaProcessor::get_ElasticMarginRight method
+title: IInertiaProcessor::get_ElasticMarginRight
 author: windows-driver-content
 description: The ElasticMarginRight property specifies the rightmost region for bouncing the target object.
 old-location: wintouch\iinertiaprocessor_elasticmarginright.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 081dd9d4-d190-4a44-bcd8-d5d0d99d7fd2
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: ElasticMarginRight property [Windows Touch], ElasticMarginRight property [Windows Touch], IInertiaProcessor interface, IInertiaProcessor, IInertiaProcessor interface [Windows Touch], ElasticMarginRight property, IInertiaProcessor.ElasticMarginRight, IInertiaProcessor::get_ElasticMarginRight, IInertiaProcessor::put_ElasticMarginRight, get_ElasticMarginRight,IInertiaProcessor.get_ElasticMarginRight, manipulations/IInertiaProcessor::ElasticMarginRight, manipulations/IInertiaProcessor::get_ElasticMarginRight, manipulations/IInertiaProcessor::put_ElasticMarginRight, wintouch.iinertiaprocessor_elasticmarginright
+ms.keywords: ElasticMarginRight property [Windows Touch], ElasticMarginRight property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginRight property, IInertiaProcessor.ElasticMarginRight, IInertiaProcessor.get_ElasticMarginRight, IInertiaProcessor::ElasticMarginRight, IInertiaProcessor::get_ElasticMarginRight, IInertiaProcessor::put_ElasticMarginRight, get_ElasticMarginRight, manipulations/IInertiaProcessor::ElasticMarginRight, manipulations/IInertiaProcessor::get_ElasticMarginRight, manipulations/IInertiaProcessor::put_ElasticMarginRight, wintouch.iinertiaprocessor_elasticmarginright
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::get_ElasticMarginRight method
+# IInertiaProcessor::get_ElasticMarginRight
 
 
 ## -description

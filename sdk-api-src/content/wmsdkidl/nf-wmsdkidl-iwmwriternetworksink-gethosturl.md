@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.GetHostURL
-title: IWMWriterNetworkSink::GetHostURL method
+title: IWMWriterNetworkSink::GetHostURL
 author: windows-driver-content
 description: The GetHostURL method retrieves the URL from which the stream is broadcast. Clients will access the stream from this URL.
 old-location: wmformat\iwmwriternetworksink_gethosturl.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 66d4747e-aec5-47bd-ac4a-dc052e964601
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetHostURL method [windows Media Format], GetHostURL method [windows Media Format], IWMWriterNetworkSink interface, GetHostURL,IWMWriterNetworkSink.GetHostURL, IWMWriterNetworkSink, IWMWriterNetworkSink interface [windows Media Format], GetHostURL method, IWMWriterNetworkSink::GetHostURL, IWMWriterNetworkSinkGetHostURL, wmformat.iwmwriternetworksink_gethosturl, wmsdkidl/IWMWriterNetworkSink::GetHostURL
+ms.keywords: GetHostURL, GetHostURL method [windows Media Format], GetHostURL method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],GetHostURL method, IWMWriterNetworkSink.GetHostURL, IWMWriterNetworkSink::GetHostURL, IWMWriterNetworkSinkGetHostURL, wmformat.iwmwriternetworksink_gethosturl, wmsdkidl/IWMWriterNetworkSink::GetHostURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterNetworkSink::GetHostURL method
+# IWMWriterNetworkSink::GetHostURL
 
 
 ## -description

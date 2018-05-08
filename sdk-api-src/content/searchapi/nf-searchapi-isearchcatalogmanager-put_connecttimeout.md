@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.put_ConnectTimeout
-title: ISearchCatalogManager::put_ConnectTimeout method
+title: ISearchCatalogManager::put_ConnectTimeout
 author: windows-driver-content
 description: Sets the connection time-out value in the TIMEOUT_INFO structure, in seconds.
 old-location: search\_search_ISearchCatalogManager_put_ConnectTimeout.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\put_connecttimeout.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], put_ConnectTimeout method, ISearchCatalogManager::put_ConnectTimeout, _search_ISearchCatalogManager_put_ConnectTimeout, put_ConnectTimeout method [search], put_ConnectTimeout method [search], ISearchCatalogManager interface, put_ConnectTimeout,ISearchCatalogManager.put_ConnectTimeout, search._search_ISearchCatalogManager_put_ConnectTimeout, searchapi/ISearchCatalogManager::put_ConnectTimeout
+ms.date: 5/4/2018
+ms.keywords: ISearchCatalogManager interface [search],put_ConnectTimeout method, ISearchCatalogManager.put_ConnectTimeout, ISearchCatalogManager::put_ConnectTimeout, _search_ISearchCatalogManager_put_ConnectTimeout, put_ConnectTimeout, put_ConnectTimeout method [search], put_ConnectTimeout method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_put_ConnectTimeout, searchapi/ISearchCatalogManager::put_ConnectTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::put_ConnectTimeout method
+# ISearchCatalogManager::put_ConnectTimeout
 
 
 ## -description

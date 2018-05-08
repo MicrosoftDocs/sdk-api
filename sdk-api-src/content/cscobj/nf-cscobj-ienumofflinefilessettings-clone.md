@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesSettings.Clone
-title: IEnumOfflineFilesSettings::Clone method
+title: IEnumOfflineFilesSettings::Clone
 author: windows-driver-content
 description: Creates a new instance of the enumerator with the same enumeration state as the current one.
 old-location: of\ienumofflinefilessettings_clone.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 85c2e5a3-4b1c-4a21-8693-804c088a7a56
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Clone method [Offline Files], Clone method [Offline Files], IEnumOfflineFilesSettings interface, Clone,IEnumOfflineFilesSettings.Clone, IEnumOfflineFilesSettings, IEnumOfflineFilesSettings interface [Offline Files], Clone method, IEnumOfflineFilesSettings::Clone, cscobj/IEnumOfflineFilesSettings::Clone, of.ienumofflinefilessettings_clone
+ms.keywords: Clone, Clone method [Offline Files], Clone method [Offline Files],IEnumOfflineFilesSettings interface, IEnumOfflineFilesSettings interface [Offline Files],Clone method, IEnumOfflineFilesSettings.Clone, IEnumOfflineFilesSettings::Clone, cscobj/IEnumOfflineFilesSettings::Clone, of.ienumofflinefilessettings_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IEnumOfflineFilesSettings::Clone method
+# IEnumOfflineFilesSettings::Clone
 
 
 ## -description

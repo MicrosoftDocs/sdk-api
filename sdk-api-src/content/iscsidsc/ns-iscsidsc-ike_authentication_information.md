@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: Root\WMI
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.typenames: IKE_AUTHENTICATION_INFORMATION, *PIKE_AUTHENTICATION_INFORMATION
@@ -63,7 +63,7 @@ The <b>IKE_AUTHENTICATION_INFORMATION</b> structure contains Internet Key Exchan
 A <a href="https://msdn.microsoft.com/be92f3db-93c5-41e3-bd5a-f929f911da39">IKE_AUTHENTICATION_METHOD</a> structure that indicates the authentication method. 
 
 
-#### - PsKey
+### -field PsKey
 
 A <a href="https://msdn.microsoft.com/52a188b5-6b59-4ea8-89e0-d05440344dde">IKE_AUTHENTICATION_PRESHARED_KEY</a> structure that contains the preshared key that establishes a secure channel between two key management daemons.
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_NeedsFileContent
-title: IFsrmPipelineModuleDefinition::put_NeedsFileContent method
+title: IFsrmPipelineModuleDefinition::put_NeedsFileContent
 author: windows-driver-content
 description: Determines whether the module needs to read the contents of the file.
 old-location: fsrm\ifsrmpipelinemoduledefinition_needsfilecontent.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: c2cbcfe1-113c-4eb9-9dea-5619bcda58a2
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPipelineModuleDefinition, IFsrmPipelineModuleDefinition interface [File Server Resource Manager], NeedsFileContent property, IFsrmPipelineModuleDefinition.NeedsFileContent, IFsrmPipelineModuleDefinition::get_NeedsFileContent, IFsrmPipelineModuleDefinition::put_NeedsFileContent, NeedsFileContent property [File Server Resource Manager], NeedsFileContent property [File Server Resource Manager], IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_needsfilecontent, fsrm.ifsrmpipelinemoduledefinition_needsfilecontent, fsrmpipeline/IFsrmPipelineModuleDefinition::NeedsFileContent, fsrmpipeline/IFsrmPipelineModuleDefinition::get_NeedsFileContent, fsrmpipeline/IFsrmPipelineModuleDefinition::put_NeedsFileContent, put_NeedsFileContent,IFsrmPipelineModuleDefinition.put_NeedsFileContent
+ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],NeedsFileContent property, IFsrmPipelineModuleDefinition.NeedsFileContent, IFsrmPipelineModuleDefinition.put_NeedsFileContent, IFsrmPipelineModuleDefinition::NeedsFileContent, IFsrmPipelineModuleDefinition::get_NeedsFileContent, IFsrmPipelineModuleDefinition::put_NeedsFileContent, NeedsFileContent property [File Server Resource Manager], NeedsFileContent property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_needsfilecontent, fsrm.ifsrmpipelinemoduledefinition_needsfilecontent, fsrmpipeline/IFsrmPipelineModuleDefinition::NeedsFileContent, fsrmpipeline/IFsrmPipelineModuleDefinition::get_NeedsFileContent, fsrmpipeline/IFsrmPipelineModuleDefinition::put_NeedsFileContent, put_NeedsFileContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPipelineModuleDefinition::put_NeedsFileContent method
+# IFsrmPipelineModuleDefinition::put_NeedsFileContent
 
 
 ## -description

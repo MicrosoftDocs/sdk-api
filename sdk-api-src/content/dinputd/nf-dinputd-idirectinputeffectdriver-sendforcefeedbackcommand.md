@@ -1,14 +1,14 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.SendForceFeedbackCommand
-title: IDirectInputEffectDriver::SendForceFeedbackCommand method
+title: IDirectInputEffectDriver::SendForceFeedbackCommand
 author: windows-driver-content
 description: The IDirectInputEffectDriver::SendForceFeedbackCommand method changes the force-feedback state for the device.
 old-location: hid\idirectinputeffectdriver_sendforcefeedbackcommand.htm
 old-project: hid
 ms.assetid: 9a872712-32aa-40b6-9d0f-c51d841342cb
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IDirectInputEffectDriver, IDirectInputEffectDriver interface [Human Input Devices], SendForceFeedbackCommand method, IDirectInputEffectDriver::SendForceFeedbackCommand, SendForceFeedbackCommand method [Human Input Devices], SendForceFeedbackCommand method [Human Input Devices], IDirectInputEffectDriver interface, SendForceFeedbackCommand,IDirectInputEffectDriver.SendForceFeedbackCommand, di_ref_48773665-821d-428e-a637-7dc77a85cd39.xml, dinputd/IDirectInputEffectDriver::SendForceFeedbackCommand, hid.idirectinputeffectdriver_sendforcefeedbackcommand
+ms.date: 4/30/2018
+ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],SendForceFeedbackCommand method, IDirectInputEffectDriver.SendForceFeedbackCommand, IDirectInputEffectDriver::SendForceFeedbackCommand, SendForceFeedbackCommand, SendForceFeedbackCommand method [Human Input Devices], SendForceFeedbackCommand method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_48773665-821d-428e-a637-7dc77a85cd39.xml, dinputd/IDirectInputEffectDriver::SendForceFeedbackCommand, hid.idirectinputeffectdriver_sendforcefeedbackcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectInputEffectDriver::SendForceFeedbackCommand method
+# IDirectInputEffectDriver::SendForceFeedbackCommand
 
 
 ## -description

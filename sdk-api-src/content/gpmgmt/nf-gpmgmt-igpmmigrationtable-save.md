@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.Save
-title: IGPMMigrationTable::Save method
+title: IGPMMigrationTable::Save
 author: windows-driver-content
 description: Saves the migration table currently in memory in a specified location.
 old-location: gpmc\igpmmigrationtable_save.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: ce33306a-c72f-4231-a19c-eb733d87b361
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMMigrationTable class [GPMC], Save method, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], Save method, IGPMMigrationTable::Save, Save method [GPMC], Save method [GPMC], GPMMigrationTable class, Save method [GPMC], IGPMMigrationTable interface, Save,IGPMMigrationTable.Save, gpmc.igpmmigrationtable_save, gpmgmt/IGPMMigrationTable::Save
+ms.keywords: GPMMigrationTable class [GPMC],Save method, IGPMMigrationTable interface [GPMC],Save method, IGPMMigrationTable.Save, IGPMMigrationTable::Save, Save, Save method [GPMC], Save method [GPMC],GPMMigrationTable class, Save method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_save, gpmgmt/IGPMMigrationTable::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMMigrationTable::Save method
+# IGPMMigrationTable::Save
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.TakeOwnership
-title: IBackgroundCopyJob::TakeOwnership method
+title: IBackgroundCopyJob::TakeOwnership
 author: windows-driver-content
 description: Changes ownership of the job to the current user.
 old-location: bits\ibackgroundcopyjob_takeownership.htm
 old-project: Bits
 ms.assetid: 12ac2dd8-516b-4b5d-a2bf-0abb55d18ee0
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], TakeOwnership method, IBackgroundCopyJob::TakeOwnership, TakeOwnership method [BITS], TakeOwnership method [BITS], IBackgroundCopyJob interface, TakeOwnership,IBackgroundCopyJob.TakeOwnership, _drz_ibackgroundcopyjob_takeownership, bits.ibackgroundcopyjob_takeownership, bits/IBackgroundCopyJob::TakeOwnership
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyJob interface [BITS],TakeOwnership method, IBackgroundCopyJob.TakeOwnership, IBackgroundCopyJob::TakeOwnership, TakeOwnership, TakeOwnership method [BITS], TakeOwnership method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_takeownership, bits.ibackgroundcopyjob_takeownership, bits/IBackgroundCopyJob::TakeOwnership
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::TakeOwnership method
+# IBackgroundCopyJob::TakeOwnership
 
 
 ## -description

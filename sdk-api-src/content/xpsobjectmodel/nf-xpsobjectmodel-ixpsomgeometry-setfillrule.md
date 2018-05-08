@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.SetFillRule
-title: IXpsOMGeometry::SetFillRule method
+title: IXpsOMGeometry::SetFillRule
 author: windows-driver-content
 description: Sets the XPS_FILL_RULE value that describes the fill rule to be used.
 old-location: xps\ixpsomgeometry_setfillrule.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e219a505-48e0-46b0-a739-d46fb898bc58
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGeometry, IXpsOMGeometry interface [XPS Documents and Packaging], SetFillRule method, IXpsOMGeometry::SetFillRule, SetFillRule method [XPS Documents and Packaging], SetFillRule method [XPS Documents and Packaging], IXpsOMGeometry interface, SetFillRule,IXpsOMGeometry.SetFillRule, xps.ixpsomgeometry_setfillrule, xpsobjectmodel/IXpsOMGeometry::SetFillRule
+ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetFillRule method, IXpsOMGeometry.SetFillRule, IXpsOMGeometry::SetFillRule, SetFillRule, SetFillRule method [XPS Documents and Packaging], SetFillRule method [XPS Documents and Packaging],IXpsOMGeometry interface, xps.ixpsomgeometry_setfillrule, xpsobjectmodel/IXpsOMGeometry::SetFillRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometry::SetFillRule method
+# IXpsOMGeometry::SetFillRule
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ad\cqpage.htm
 old-project: AD
 ms.assetid: 09e407a2-7a58-483d-8422-4ae40c05b742
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: "*LPCQPAGE, CQPAGE, CQPAGE structure [Active Directory], LPCQPAGE, LPCQPAGE structure pointer [Active Directory], _cqpage, _glines_cqpage, ad.cqpage, cmnquery/CQPAGE, cmnquery/LPCQPAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

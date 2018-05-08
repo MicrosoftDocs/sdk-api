@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffect.GetOutput
-title: IMILBitmapEffect::GetOutput method
+title: IMILBitmapEffect::GetOutput
 author: windows-driver-content
 description: Gets the output of the effect.
 old-location: wibe\_wibe_imilbitmapeffect_getoutput.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\getoutput.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetOutput method [WPF Bitmap Effects], GetOutput method [WPF Bitmap Effects], IMILBitmapEffect interface, GetOutput,IMILBitmapEffect.GetOutput, IMILBitmapEffect, IMILBitmapEffect interface [WPF Bitmap Effects], GetOutput method, IMILBitmapEffect::GetOutput, _wibe_imilbitmapeffect_getoutput, mileffects/IMILBitmapEffect::GetOutput, wibe._wibe_imilbitmapeffect_getoutput
+ms.keywords: GetOutput, GetOutput method [WPF Bitmap Effects], GetOutput method [WPF Bitmap Effects],IMILBitmapEffect interface, IMILBitmapEffect interface [WPF Bitmap Effects],GetOutput method, IMILBitmapEffect.GetOutput, IMILBitmapEffect::GetOutput, _wibe_imilbitmapeffect_getoutput, mileffects/IMILBitmapEffect::GetOutput, wibe._wibe_imilbitmapeffect_getoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffect::GetOutput method
+# IMILBitmapEffect::GetOutput
 
 
 ## -description

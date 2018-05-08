@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.GetCurrentQueuedRequests
-title: IThreadPoolKnobs::GetCurrentQueuedRequests method
+title: IThreadPoolKnobs::GetCurrentQueuedRequests
 author: windows-driver-content
 description: Retrieves the number of asynchronous execution requests that are currently queued.
 old-location: cos\ithreadpoolknobs_getcurrentqueuedrequests.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 2ff8ffce-2e53-4e33-bf1d-7d46c5ae12bb
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetCurrentQueuedRequests method [COM+], GetCurrentQueuedRequests method [COM+], IThreadPoolKnobs interface, GetCurrentQueuedRequests,IThreadPoolKnobs.GetCurrentQueuedRequests, IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], GetCurrentQueuedRequests method, IThreadPoolKnobs::GetCurrentQueuedRequests, _cos_IThreadPoolKnobs_GetCurrentQueuedRequests, comsvcs/IThreadPoolKnobs::GetCurrentQueuedRequests, cos.ithreadpoolknobs_getcurrentqueuedrequests
+ms.keywords: GetCurrentQueuedRequests, GetCurrentQueuedRequests method [COM+], GetCurrentQueuedRequests method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetCurrentQueuedRequests method, IThreadPoolKnobs.GetCurrentQueuedRequests, IThreadPoolKnobs::GetCurrentQueuedRequests, _cos_IThreadPoolKnobs_GetCurrentQueuedRequests, comsvcs/IThreadPoolKnobs::GetCurrentQueuedRequests, cos.ithreadpoolknobs_getcurrentqueuedrequests
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IThreadPoolKnobs::GetCurrentQueuedRequests method
+# IThreadPoolKnobs::GetCurrentQueuedRequests
 
 
 ## -description

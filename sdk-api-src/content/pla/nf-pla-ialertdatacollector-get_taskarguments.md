@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_TaskArguments
-title: IAlertDataCollector::get_TaskArguments method
+title: IAlertDataCollector::get_TaskArguments
 author: windows-driver-content
 description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property.
 old-location: pla\ialertdatacollector_taskarguments.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 3062688f-a612-4824-beae-b75687b4feed
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IAlertDataCollector, IAlertDataCollector interface [PLA], TaskArguments property, IAlertDataCollector.TaskArguments, IAlertDataCollector::get_TaskArguments, IAlertDataCollector::put_TaskArguments, TaskArguments property [PLA], TaskArguments property [PLA], IAlertDataCollector interface, base.ialertdatacollector_taskarguments, get_TaskArguments,IAlertDataCollector.get_TaskArguments, pla.ialertdatacollector_taskarguments, pla/IAlertDataCollector::TaskArguments, pla/IAlertDataCollector::get_TaskArguments, pla/IAlertDataCollector::put_TaskArguments
+ms.keywords: IAlertDataCollector interface [PLA],TaskArguments property, IAlertDataCollector.TaskArguments, IAlertDataCollector.get_TaskArguments, IAlertDataCollector::TaskArguments, IAlertDataCollector::get_TaskArguments, IAlertDataCollector::put_TaskArguments, TaskArguments property [PLA], TaskArguments property [PLA],IAlertDataCollector interface, base.ialertdatacollector_taskarguments, get_TaskArguments, pla.ialertdatacollector_taskarguments, pla/IAlertDataCollector::TaskArguments, pla/IAlertDataCollector::get_TaskArguments, pla/IAlertDataCollector::put_TaskArguments
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAlertDataCollector::get_TaskArguments method
+# IAlertDataCollector::get_TaskArguments
 
 
 ## -description

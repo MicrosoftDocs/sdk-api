@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedOrientation
-title: IUIAutomationElement::get_CachedOrientation method
+title: IUIAutomationElement::get_CachedOrientation
 author: windows-driver-content
 description: Retrieves a cached value that indicates the orientation of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedOrientation.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2ae8be5f-fa10-4350-b80e-89bb32baf56c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedOrientation property [Windows Accessibility], CachedOrientation property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedOrientation property, IUIAutomationElement.CachedOrientation, IUIAutomationElement::get_CachedOrientation, get_CachedOrientation,IUIAutomationElement.get_CachedOrientation, uiauto.uiauto_IUIAutomationElement_CachedOrientation, uiauto_IUIAutomationElement_CachedOrientation, uiautomationclient/IUIAutomationElement::CachedOrientation, uiautomationclient/IUIAutomationElement::get_CachedOrientation, winauto.uiauto_IUIAutomationElement_CachedOrientation
+ms.keywords: CachedOrientation property [Windows Accessibility], CachedOrientation property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedOrientation property, IUIAutomationElement.CachedOrientation, IUIAutomationElement.get_CachedOrientation, IUIAutomationElement::CachedOrientation, IUIAutomationElement::get_CachedOrientation, get_CachedOrientation, uiauto.uiauto_IUIAutomationElement_CachedOrientation, uiauto_IUIAutomationElement_CachedOrientation, uiautomationclient/IUIAutomationElement::CachedOrientation, uiautomationclient/IUIAutomationElement::get_CachedOrientation, winauto.uiauto_IUIAutomationElement_CachedOrientation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CachedOrientation method
+# IUIAutomationElement::get_CachedOrientation
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaControl.get_FilterCollection
-title: IMediaControl::get_FilterCollection method
+title: IMediaControl::get_FilterCollection
 author: windows-driver-content
 description: The get_FilterCollection method retrieves a collection of the filters in the filter graph.
 old-location: dshow\imediacontrol_get_filtercollection.htm
 old-project: DirectShow
 ms.assetid: 9a14e971-365e-4061-8d07-01216e793864
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaControl, IMediaControl interface [DirectShow], get_FilterCollection method, IMediaControl::get_FilterCollection, IMediaControlget_FilterCollection, control/IMediaControl::get_FilterCollection, dshow.imediacontrol_get_filtercollection, get_FilterCollection method [DirectShow], get_FilterCollection method [DirectShow], IMediaControl interface, get_FilterCollection,IMediaControl.get_FilterCollection
+ms.date: 4/30/2018
+ms.keywords: IMediaControl interface [DirectShow],get_FilterCollection method, IMediaControl.get_FilterCollection, IMediaControl::get_FilterCollection, IMediaControlget_FilterCollection, control/IMediaControl::get_FilterCollection, dshow.imediacontrol_get_filtercollection, get_FilterCollection, get_FilterCollection method [DirectShow], get_FilterCollection method [DirectShow],IMediaControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaControl::get_FilterCollection method
+# IMediaControl::get_FilterCollection
 
 
 ## -description

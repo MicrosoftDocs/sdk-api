@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: a153d88f-4c7e-45fd-9cd8-497160711de4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataManager, IDataManager interface [PLA], IDataManager interface [PLA], described, base.idatamanager, pla.idatamanager, pla/IDataManager
+ms.keywords: IDataManager, IDataManager interface [PLA], IDataManager interface [PLA],described, base.idatamanager, pla.idatamanager, pla/IDataManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

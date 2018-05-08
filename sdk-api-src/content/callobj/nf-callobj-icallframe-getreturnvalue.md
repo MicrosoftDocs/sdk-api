@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.GetReturnValue
-title: ICallFrame::GetReturnValue method
+title: ICallFrame::GetReturnValue
 author: windows-driver-content
 description: Retrieves the return value stored in the call frame.
 old-location: com\icallframe_getreturnvalue.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: eb03e968-37af-46fd-b2ed-08c5ef8eb265
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetReturnValue method [COM], GetReturnValue method [COM], ICallFrame interface, GetReturnValue,ICallFrame.GetReturnValue, ICallFrame, ICallFrame interface [COM], GetReturnValue method, ICallFrame::GetReturnValue, _com_icallframe_getreturnvalue, callobj/ICallFrame::GetReturnValue, com.icallframe_getreturnvalue
+ms.keywords: GetReturnValue, GetReturnValue method [COM], GetReturnValue method [COM],ICallFrame interface, ICallFrame interface [COM],GetReturnValue method, ICallFrame.GetReturnValue, ICallFrame::GetReturnValue, _com_icallframe_getreturnvalue, callobj/ICallFrame::GetReturnValue, com.icallframe_getreturnvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallFrame::GetReturnValue method
+# ICallFrame::GetReturnValue
 
 
 ## -description

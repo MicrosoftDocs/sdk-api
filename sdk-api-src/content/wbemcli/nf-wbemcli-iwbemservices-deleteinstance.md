@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.DeleteInstance
-title: IWbemServices::DeleteInstance method
+title: IWbemServices::DeleteInstance
 author: windows-driver-content
 description: The IWbemServices::DeleteInstance method deletes an instance of an existing class in the current namespace.
 old-location: wmi\iwbemservices_deleteinstance.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: f6dfeb1d-1730-4df4-adf7-f27dd9edc54d
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation], IWbemServices interface, DeleteInstance,IWbemServices.DeleteInstance, IWbemServices, IWbemServices interface [Windows Management Instrumentation], DeleteInstance method, IWbemServices::DeleteInstance, WBEM_FLAG_RETURN_IMMEDIATELY, _hmm_iwbemservices_deleteinstance, wbemcli/IWbemServices::DeleteInstance, wmi.iwbemservices_deleteinstance
+ms.keywords: DeleteInstance, DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],DeleteInstance method, IWbemServices.DeleteInstance, IWbemServices::DeleteInstance, WBEM_FLAG_RETURN_IMMEDIATELY, _hmm_iwbemservices_deleteinstance, wbemcli/IWbemServices::DeleteInstance, wmi.iwbemservices_deleteinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,7 +58,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemServices::DeleteInstance method
+# IWbemServices::DeleteInstance
 
 
 ## -description

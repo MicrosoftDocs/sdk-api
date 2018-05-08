@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.GetCollection
-title: ICatalogCollection::GetCollection method
+title: ICatalogCollection::GetCollection
 author: windows-driver-content
 description: Retrieves a collection from the COM+ catalog that is related to the current collection.
 old-location: cos\icatalogcollection_getcollection.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 4198f456-97fa-45b2-aa79-29ac506a8618
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetCollection method [COM+], GetCollection method [COM+], ICatalogCollection interface, GetCollection,ICatalogCollection.GetCollection, ICatalogCollection, ICatalogCollection interface [COM+], GetCollection method, ICatalogCollection::GetCollection, _cos_ICatalogCollection_GetCollection, comadmin/ICatalogCollection::GetCollection, cos.icatalogcollection_getcollection
+ms.keywords: GetCollection, GetCollection method [COM+], GetCollection method [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],GetCollection method, ICatalogCollection.GetCollection, ICatalogCollection::GetCollection, _cos_ICatalogCollection_GetCollection, comadmin/ICatalogCollection::GetCollection, cos.icatalogcollection_getcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICatalogCollection::GetCollection method
+# ICatalogCollection::GetCollection
 
 
 ## -description

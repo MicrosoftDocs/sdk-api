@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Midline
-title: IInkRecognitionAlternate::get_Midline method
+title: IInkRecognitionAlternate::get_Midline
 author: windows-driver-content
 description: Gets the midline for a IInkRecognitionAlternate object that represents a single line of text.
 old-location: tablet\iinkrecognitionalternate_midline.htm
 old-project: tablet
 ms.assetid: ff12de3d-f760-4227-9406-634b19e66b4c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInkRecognitionAlternate, IInkRecognitionAlternate interface [Tablet PC], Midline property, IInkRecognitionAlternate.Midline, IInkRecognitionAlternate.get_Midline, IInkRecognitionAlternate::get_Midline, Midline property [Tablet PC], Midline property [Tablet PC], IInkRecognitionAlternate interface, ff12de3d-f760-4227-9406-634b19e66b4c, get_Midline,IInkRecognitionAlternate.get_Midline, msinkaut/IInkRecognitionAlternate::Midline, msinkaut/IInkRecognitionAlternate::get_Midline, tablet.iinkrecognitionalternate_midline
+ms.date: 5/2/2018
+ms.keywords: IInkRecognitionAlternate interface [Tablet PC],Midline property, IInkRecognitionAlternate.Midline, IInkRecognitionAlternate.get_Midline, IInkRecognitionAlternate::Midline, IInkRecognitionAlternate::get_Midline, Midline property [Tablet PC], Midline property [Tablet PC],IInkRecognitionAlternate interface, ff12de3d-f760-4227-9406-634b19e66b4c, get_Midline, msinkaut/IInkRecognitionAlternate::Midline, msinkaut/IInkRecognitionAlternate::get_Midline, tablet.iinkrecognitionalternate_midline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognitionAlternate::get_Midline method
+# IInkRecognitionAlternate::get_Midline
 
 
 ## -description

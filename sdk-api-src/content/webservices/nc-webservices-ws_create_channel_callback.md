@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 440114f9-2258-4c33-93cd-7185ccf36f76
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_CREATE_CHANNEL_CALLBACK, WS_CREATE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_CHANNEL_CALLBACK, wsw.ws_create_channel_callback
+ms.keywords: WS_CREATE_CHANNEL_CALLBACK, WS_CREATE_CHANNEL_CALLBACK callback, WS_CREATE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_CHANNEL_CALLBACK, wsw.ws_create_channel_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_CREATE_CHANNEL_CALLBACK callback
+# WS_CREATE_CHANNEL_CALLBACK callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.SetChannelPriority
-title: IDirectMusicSynth::SetChannelPriority method
+title: IDirectMusicSynth::SetChannelPriority
 author: windows-driver-content
 description: The SetChannelPriority method sets the priority of a MIDI channel.
 old-location: audio\idirectmusicsynth_setchannelpriority.htm
 old-project: audio
 ms.assetid: 6398f460-4c2e-4995-a606-e95e0488f1cd
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IDirectMusicSynth, IDirectMusicSynth interface [Audio Devices], SetChannelPriority method, IDirectMusicSynth::SetChannelPriority, SetChannelPriority method [Audio Devices], SetChannelPriority method [Audio Devices], IDirectMusicSynth interface, SetChannelPriority,IDirectMusicSynth.SetChannelPriority, audio.idirectmusicsynth_setchannelpriority, audmp-routines_58d1ca8b-8fc8-4183-a9fa-4b21f11ae86e.xml, dmusics/IDirectMusicSynth::SetChannelPriority
+ms.date: 5/1/2018
+ms.keywords: IDirectMusicSynth interface [Audio Devices],SetChannelPriority method, IDirectMusicSynth.SetChannelPriority, IDirectMusicSynth::SetChannelPriority, SetChannelPriority, SetChannelPriority method [Audio Devices], SetChannelPriority method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_setchannelpriority, audmp-routines_58d1ca8b-8fc8-4183-a9fa-4b21f11ae86e.xml, dmusics/IDirectMusicSynth::SetChannelPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectMusicSynth::SetChannelPriority method
+# IDirectMusicSynth::SetChannelPriority
 
 
 ## -description

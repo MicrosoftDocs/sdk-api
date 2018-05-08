@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.UnregisterControlChangeCallback
-title: IPart::UnregisterControlChangeCallback method
+title: IPart::UnregisterControlChangeCallback
 author: windows-driver-content
 description: The UnregisterControlChangeCallback method removes the registration of an IControlChangeNotify interface that the client previously registered by a call to the IPart::RegisterControlChangeCallback method.
 old-location: coreaudio\ipart_unregistercontrolchangecallback.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: d3341421-6dab-43f3-87a8-83ee8a986a04
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IPart, IPart interface [Core Audio], UnregisterControlChangeCallback method, IPart::UnregisterControlChangeCallback, IPartUnregisterControlChangeCallback, UnregisterControlChangeCallback method [Core Audio], UnregisterControlChangeCallback method [Core Audio], IPart interface, UnregisterControlChangeCallback,IPart.UnregisterControlChangeCallback, coreaudio.ipart_unregistercontrolchangecallback, devicetopology/IPart::UnregisterControlChangeCallback
+ms.keywords: IPart interface [Core Audio],UnregisterControlChangeCallback method, IPart.UnregisterControlChangeCallback, IPart::UnregisterControlChangeCallback, IPartUnregisterControlChangeCallback, UnregisterControlChangeCallback, UnregisterControlChangeCallback method [Core Audio], UnregisterControlChangeCallback method [Core Audio],IPart interface, coreaudio.ipart_unregistercontrolchangecallback, devicetopology/IPart::UnregisterControlChangeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPart::UnregisterControlChangeCallback method
+# IPart::UnregisterControlChangeCallback
 
 
 ## -description

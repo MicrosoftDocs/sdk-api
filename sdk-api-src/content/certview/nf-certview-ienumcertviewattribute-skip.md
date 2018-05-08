@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.Skip
-title: IEnumCERTVIEWATTRIBUTE::Skip method
+title: IEnumCERTVIEWATTRIBUTE::Skip
 author: windows-driver-content
 description: Skips a specified number of attributes in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_skip.htm
 old-project: SecCrypto
 ms.assetid: 546e7ad7-73f2-4f6e-8d02-a9ca5401ecce
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnumCERTVIEWATTRIBUTE, IEnumCERTVIEWATTRIBUTE::Skip, IEnumCERTVIEWCOLUMN interface [Security], Skip method, IEnumCERTVIEWCOLUMN object [Security], Skip method, IEnumCERTVIEWCOLUMN::Skip, Skip method [Security], Skip method [Security], IEnumCERTVIEWCOLUMN interface, Skip method [Security], IEnumCERTVIEWCOLUMN object, Skip,IEnumCERTVIEWATTRIBUTE.Skip, _certsrv_ienumcertviewattribute_skip, certview/IEnumCERTVIEWCOLUMN::Skip, security.ienumcertviewattribute_skip
+ms.date: 4/30/2018
+ms.keywords: IEnumCERTVIEWATTRIBUTE interface [Security],Skip method, IEnumCERTVIEWATTRIBUTE object [Security],Skip method, IEnumCERTVIEWATTRIBUTE.Skip, IEnumCERTVIEWATTRIBUTE::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWATTRIBUTE interface, Skip method [Security],IEnumCERTVIEWATTRIBUTE object, _certsrv_ienumcertviewattribute_skip, certview/IEnumCERTVIEWATTRIBUTE::Skip, security.ienumcertviewattribute_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -35,8 +35,8 @@ api_type:
 api_location:
 -	Certadm.dll
 api_name:
--	IEnumCERTVIEWCOLUMN.Skip
--	IEnumCERTVIEWCOLUMN.Skip
+-	IEnumCERTVIEWATTRIBUTE.Skip
+-	IEnumCERTVIEWATTRIBUTE.Skip
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWATTRIBUTE::Skip method
+# IEnumCERTVIEWATTRIBUTE::Skip
 
 
 ## -description
@@ -143,10 +143,6 @@ if (S_OK == hr)
 
 
 <a href="https://msdn.microsoft.com/2903ccda-e06d-4690-accf-79bc73d8569f">IEnumCERTVIEWATTRIBUTE:Next</a>
-
-
-
-<b>IEnumCERTVIEWCOLUMN</b>
  
 
  

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.GetColorSpace
-title: IDXGIDecodeSwapChain::GetColorSpace method
+title: IDXGIDecodeSwapChain::GetColorSpace
 author: windows-driver-content
 description: Gets the color space used by the swap chain.
 old-location: direct3ddxgi\idxgidecodeswapchain_getcolorspace.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 3C63C75C-6395-46E8-9070-A62220FCA3B8
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetColorSpace method [DXGI], GetColorSpace method [DXGI], IDXGIDecodeSwapChain interface, GetColorSpace,IDXGIDecodeSwapChain.GetColorSpace, IDXGIDecodeSwapChain, IDXGIDecodeSwapChain interface [DXGI], GetColorSpace method, IDXGIDecodeSwapChain::GetColorSpace, direct3ddxgi.idxgidecodeswapchain_getcolorspace, dxgi1_3/IDXGIDecodeSwapChain::GetColorSpace
+ms.keywords: GetColorSpace, GetColorSpace method [DXGI], GetColorSpace method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetColorSpace method, IDXGIDecodeSwapChain.GetColorSpace, IDXGIDecodeSwapChain::GetColorSpace, direct3ddxgi.idxgidecodeswapchain_getcolorspace, dxgi1_3/IDXGIDecodeSwapChain::GetColorSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDecodeSwapChain::GetColorSpace method
+# IDXGIDecodeSwapChain::GetColorSpace
 
 
 ## -description

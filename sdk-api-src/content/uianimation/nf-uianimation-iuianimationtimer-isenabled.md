@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.IsEnabled
-title: IUIAnimationTimer::IsEnabled method
+title: IUIAnimationTimer::IsEnabled
 author: windows-driver-content
 description: Determines whether the timer is currently enabled.
 old-location: uianimation\iuianimationtimer_isenabled.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 42a7e690-40bb-4795-9076-5e4bed62562d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationTimer, IUIAnimationTimer interface [Windows Animation], IsEnabled method, IUIAnimationTimer::IsEnabled, IsEnabled method [Windows Animation], IsEnabled method [Windows Animation], IUIAnimationTimer interface, IsEnabled,IUIAnimationTimer.IsEnabled, uianimation.iuianimationtimer_isenabled, uianimation/IUIAnimationTimer::IsEnabled
+ms.keywords: IUIAnimationTimer interface [Windows Animation],IsEnabled method, IUIAnimationTimer.IsEnabled, IUIAnimationTimer::IsEnabled, IsEnabled, IsEnabled method [Windows Animation], IsEnabled method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_isenabled, uianimation/IUIAnimationTimer::IsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTimer::IsEnabled method
+# IUIAnimationTimer::IsEnabled
 
 
 ## -description

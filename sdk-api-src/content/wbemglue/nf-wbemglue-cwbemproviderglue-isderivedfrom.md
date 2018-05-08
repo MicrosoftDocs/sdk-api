@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.IsDerivedFrom
-title: CWbemProviderGlue::IsDerivedFrom method
+title: CWbemProviderGlue::IsDerivedFrom
 author: windows-driver-content
 description: The IsDerivedFrom method determines whether one class is derived from another.
 old-location: wmi\cwbemproviderglue_isderivedfrom.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: e8245511-d192-4489-b907-45de1d354c49
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], IsDerivedFrom method, CWbemProviderGlue::IsDerivedFrom, IsDerivedFrom method [Windows Management Instrumentation], IsDerivedFrom method [Windows Management Instrumentation], CWbemProviderGlue interface, IsDerivedFrom,CWbemProviderGlue.IsDerivedFrom, _hmm_cwbemproviderglue_isderivedfrom, wbemglue/CWbemProviderGlue::IsDerivedFrom, wmi.cwbemproviderglue_isderivedfrom
+ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],IsDerivedFrom method, CWbemProviderGlue.IsDerivedFrom, CWbemProviderGlue::IsDerivedFrom, IsDerivedFrom, IsDerivedFrom method [Windows Management Instrumentation], IsDerivedFrom method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_isderivedfrom, wbemglue/CWbemProviderGlue::IsDerivedFrom, wmi.cwbemproviderglue_isderivedfrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# CWbemProviderGlue::IsDerivedFrom method
+# CWbemProviderGlue::IsDerivedFrom
 
 
 ## -description

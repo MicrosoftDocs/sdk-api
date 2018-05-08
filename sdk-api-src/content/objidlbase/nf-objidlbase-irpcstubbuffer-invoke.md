@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.Invoke
-title: IRpcStubBuffer::Invoke method
+title: IRpcStubBuffer::Invoke
 author: windows-driver-content
 description: Invokes the interface that a stub represents.
 old-location: com\irpcstubbuffer_invoke.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 78d20830-78d7-4395-aaec-8a86b7c41cc7
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IRpcStubBuffer, IRpcStubBuffer interface [COM], Invoke method, IRpcStubBuffer::Invoke, Invoke method [COM], Invoke method [COM], IRpcStubBuffer interface, Invoke,IRpcStubBuffer.Invoke, _com_irpcstubbuffer_invoke, com.irpcstubbuffer_invoke, objidlbase/IRpcStubBuffer::Invoke
+ms.keywords: IRpcStubBuffer interface [COM],Invoke method, IRpcStubBuffer.Invoke, IRpcStubBuffer::Invoke, Invoke, Invoke method [COM], Invoke method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_invoke, com.irpcstubbuffer_invoke, objidlbase/IRpcStubBuffer::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRpcStubBuffer::Invoke method
+# IRpcStubBuffer::Invoke
 
 
 ## -description

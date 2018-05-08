@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.GetCacheLastUpdateTime
-title: ItsPubPlugin::GetCacheLastUpdateTime method
+title: ItsPubPlugin::GetCacheLastUpdateTime
 author: windows-driver-content
 description: Returns the time that the cache was last updated.
 old-location: termserv\itspubplugin_getcachelastupdatetime.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 66b18c7f-2623-44ed-8cb9-3cceaa9bab34
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetCacheLastUpdateTime method [Remote Desktop Services], GetCacheLastUpdateTime method [Remote Desktop Services], ItsPubPlugin interface, GetCacheLastUpdateTime,ItsPubPlugin.GetCacheLastUpdateTime, ItsPubPlugin, ItsPubPlugin interface [Remote Desktop Services], GetCacheLastUpdateTime method, ItsPubPlugin::GetCacheLastUpdateTime, termserv.itspubplugin_getcachelastupdatetime, tspubplugincom/ItsPubPlugin::GetCacheLastUpdateTime
+ms.keywords: GetCacheLastUpdateTime, GetCacheLastUpdateTime method [Remote Desktop Services], GetCacheLastUpdateTime method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetCacheLastUpdateTime method, ItsPubPlugin.GetCacheLastUpdateTime, ItsPubPlugin::GetCacheLastUpdateTime, termserv.itspubplugin_getcachelastupdatetime, tspubplugincom/ItsPubPlugin::GetCacheLastUpdateTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ItsPubPlugin::GetCacheLastUpdateTime method
+# ItsPubPlugin::GetCacheLastUpdateTime
 
 
 ## -description

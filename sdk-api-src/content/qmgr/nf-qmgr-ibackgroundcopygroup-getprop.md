@@ -1,14 +1,14 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.GetProp
-title: IBackgroundCopyGroup::GetProp method
+title: IBackgroundCopyGroup::GetProp
 author: windows-driver-content
 description: Use the GetProp method to retrieve a property value from the group.
 old-location: bits\ibackgroundcopygroup_getprop.htm
 old-project: Bits
 ms.assetid: c27debdf-22eb-417e-b870-2891167f4498
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetProp method [BITS], GetProp method [BITS], IBackgroundCopyGroup interface, GetProp,IBackgroundCopyGroup.GetProp, IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], GetProp method, IBackgroundCopyGroup::GetProp, bits.ibackgroundcopygroup_getprop, qmgr/IBackgroundCopyGroup::GetProp
+ms.date: 4/27/2018
+ms.keywords: GetProp, GetProp method [BITS], GetProp method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetProp method, IBackgroundCopyGroup.GetProp, IBackgroundCopyGroup::GetProp, bits.ibackgroundcopygroup_getprop, qmgr/IBackgroundCopyGroup::GetProp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBackgroundCopyGroup::GetProp method
+# IBackgroundCopyGroup::GetProp
 
 
 ## -description

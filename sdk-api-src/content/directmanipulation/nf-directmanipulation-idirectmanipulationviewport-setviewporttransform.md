@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetViewportTransform
-title: IDirectManipulationViewport::SetViewportTransform method
+title: IDirectManipulationViewport::SetViewportTransform
 author: windows-driver-content
 description: Specifies the transform from the viewport coordinate system to the window client coordinate system.
 old-location: directmanipulation\idirectmanipulationviewport_setviewporttransform.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: a35e0565-2833-45d3-b7dc-cf05bf644e96
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], SetViewportTransform method, IDirectManipulationViewport::SetViewportTransform, SetViewportTransform method [Direct Manipulation], SetViewportTransform method [Direct Manipulation], IDirectManipulationViewport interface, SetViewportTransform,IDirectManipulationViewport.SetViewportTransform, directmanipulation.idirectmanipulationviewport_setviewporttransform, directmanipulation/IDirectManipulationViewport::SetViewportTransform
+ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetViewportTransform method, IDirectManipulationViewport.SetViewportTransform, IDirectManipulationViewport::SetViewportTransform, SetViewportTransform, SetViewportTransform method [Direct Manipulation], SetViewportTransform method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setviewporttransform, directmanipulation/IDirectManipulationViewport::SetViewportTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::SetViewportTransform method
+# IDirectManipulationViewport::SetViewportTransform
 
 
 ## -description

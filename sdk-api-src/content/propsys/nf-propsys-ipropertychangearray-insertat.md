@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.InsertAt
-title: IPropertyChangeArray::InsertAt method
+title: IPropertyChangeArray::InsertAt
 author: windows-driver-content
 description: Inserts a change operation into an array at the specified position.
 old-location: properties\IPropertyChangeArray_InsertAt.htm
 old-project: properties
 ms.assetid: e50a0642-ff01-4cf7-940e-0241b3dc8604
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], InsertAt method, IPropertyChangeArray::InsertAt, InsertAt method [Windows Properties], InsertAt method [Windows Properties], IPropertyChangeArray interface, InsertAt,IPropertyChangeArray.InsertAt, _shell_IPropertyChangeArray_InsertAt, properties.IPropertyChangeArray_InsertAt, propsys/IPropertyChangeArray::InsertAt, shell.IPropertyChangeArray_InsertAt
+ms.date: 4/27/2018
+ms.keywords: IPropertyChangeArray interface [Windows Properties],InsertAt method, IPropertyChangeArray.InsertAt, IPropertyChangeArray::InsertAt, InsertAt, InsertAt method [Windows Properties], InsertAt method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_InsertAt, properties.IPropertyChangeArray_InsertAt, propsys/IPropertyChangeArray::InsertAt, shell.IPropertyChangeArray_InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyChangeArray::InsertAt method
+# IPropertyChangeArray::InsertAt
 
 
 ## -description

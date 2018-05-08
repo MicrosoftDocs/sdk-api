@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetPaletteEntries
-title: IDirect3DDevice9::SetPaletteEntries method
+title: IDirect3DDevice9::SetPaletteEntries
 author: windows-driver-content
 description: Sets palette entries.
 old-location: direct3d9\idirect3ddevice9__setpaletteentries.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpaletteentries.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetPaletteEntries method, IDirect3DDevice9::SetPaletteEntries, SetPaletteEntries method [Direct3D 9], SetPaletteEntries method [Direct3D 9], IDirect3DDevice9 interface, SetPaletteEntries,IDirect3DDevice9.SetPaletteEntries, bc7747ff-8f30-7495-fd87-8a6cb44c173c, d3d9helper/IDirect3DDevice9::SetPaletteEntries, direct3d9.idirect3ddevice9__setpaletteentries
+ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetPaletteEntries method, IDirect3DDevice9.SetPaletteEntries, IDirect3DDevice9::SetPaletteEntries, SetPaletteEntries, SetPaletteEntries method [Direct3D 9], SetPaletteEntries method [Direct3D 9],IDirect3DDevice9 interface, bc7747ff-8f30-7495-fd87-8a6cb44c173c, d3d9helper/IDirect3DDevice9::SetPaletteEntries, direct3d9.idirect3ddevice9__setpaletteentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::SetPaletteEntries method
+# IDirect3DDevice9::SetPaletteEntries
 
 
 ## -description

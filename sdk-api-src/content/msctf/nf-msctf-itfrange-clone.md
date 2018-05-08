@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.Clone
-title: ITfRange::Clone method
+title: ITfRange::Clone
 author: windows-driver-content
 description: The ITfRange::Clone method duplicates this range of text.
 old-location: tsf\itfrange_clone.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2b85012f-b090-4c91-b29c-b2470ff63ab6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Clone method [Text Services Framework], Clone method [Text Services Framework], ITfRange interface, Clone,ITfRange.Clone, ITfRange, ITfRange interface [Text Services Framework], Clone method, ITfRange::Clone, _tsf_itfrange_clone_ref, msctf/ITfRange::Clone, tsf.itfrange_clone
+ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],Clone method, ITfRange.Clone, ITfRange::Clone, _tsf_itfrange_clone_ref, msctf/ITfRange::Clone, tsf.itfrange_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfRange::Clone method
+# ITfRange::Clone
 
 
 ## -description

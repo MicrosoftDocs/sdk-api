@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetName
-title: IXpsOMVisual::GetName method
+title: IXpsOMVisual::GetName
 author: windows-driver-content
 description: Gets the Name property of the visual.
 old-location: xps\ixpsomvisual_getname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0a8b592e-c80e-4a0f-b9a4-8c362da43ced
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetName method [XPS Documents and Packaging], GetName method [XPS Documents and Packaging], IXpsOMVisual interface, GetName,IXpsOMVisual.GetName, IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], GetName method, IXpsOMVisual::GetName, xps.ixpsomvisual_getname, xpsobjectmodel/IXpsOMVisual::GetName
+ms.keywords: GetName, GetName method [XPS Documents and Packaging], GetName method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetName method, IXpsOMVisual.GetName, IXpsOMVisual::GetName, xps.ixpsomvisual_getname, xpsobjectmodel/IXpsOMVisual::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::GetName method
+# IXpsOMVisual::GetName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.SignalEvent
-title: IWSDDeviceHost::SignalEvent method
+title: IWSDDeviceHost::SignalEvent
 author: windows-driver-content
 description: Notifies all subscribed clients that an event has occurred.
 old-location: ncd\iwsddevicehost_signalevent_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: c4cba7f0-6f08-43d7-b255-d3dfb1b5287d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, SignalEvent method, IWSDDeviceHost::SignalEvent, SignalEvent method, SignalEvent method, IWSDDeviceHost interface, SignalEvent,IWSDDeviceHost.SignalEvent, ncd.iwsddevicehost_signalevent_method, wsdhost/IWSDDeviceHost::SignalEvent
+ms.keywords: IWSDDeviceHost interface,SignalEvent method, IWSDDeviceHost.SignalEvent, IWSDDeviceHost::SignalEvent, SignalEvent, SignalEvent method, SignalEvent method,IWSDDeviceHost interface, ncd.iwsddevicehost_signalevent_method, wsdhost/IWSDDeviceHost::SignalEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceHost::SignalEvent method
+# IWSDDeviceHost::SignalEvent
 
 
 ## -description

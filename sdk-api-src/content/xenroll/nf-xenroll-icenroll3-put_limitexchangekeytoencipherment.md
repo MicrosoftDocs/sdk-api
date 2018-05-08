@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll3.put_LimitExchangeKeyToEncipherment
-title: ICEnroll3::put_LimitExchangeKeyToEncipherment method
+title: ICEnroll3::put_LimitExchangeKeyToEncipherment
 author: windows-driver-content
 description: Sets or retrieves a Boolean value that determines whether an AT_KEYEXCHANGE request contains digital signature and nonrepudiation key usages.
 old-location: security\icenroll4_limitexchangekeytoencipherment.htm
 old-project: SecCrypto
 ms.assetid: d8ed3663-bbda-4052-9c72-b00543ca73ab
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], LimitExchangeKeyToEncipherment property, ICEnroll3, ICEnroll3 interface [Security], LimitExchangeKeyToEncipherment property, ICEnroll3.LimitExchangeKeyToEncipherment, ICEnroll3::get_LimitExchangeKeyToEncipherment, ICEnroll3::put_LimitExchangeKeyToEncipherment, ICEnroll4 interface [Security], LimitExchangeKeyToEncipherment property, ICEnroll4.LimitExchangeKeyToEncipherment, ICEnroll4::get_LimitExchangeKeyToEncipherment, ICEnroll4::put_LimitExchangeKeyToEncipherment, LimitExchangeKeyToEncipherment property [Security], LimitExchangeKeyToEncipherment property [Security], CEnroll object, LimitExchangeKeyToEncipherment property [Security], ICEnroll3 interface, LimitExchangeKeyToEncipherment property [Security], ICEnroll4 interface, put_LimitExchangeKeyToEncipherment,ICEnroll3.put_LimitExchangeKeyToEncipherment, security.icenroll4_limitexchangekeytoencipherment, xenroll/ICEnroll3::LimitExchangeKeyToEncipherment, xenroll/ICEnroll3::get_LimitExchangeKeyToEncipherment, xenroll/ICEnroll3::put_LimitExchangeKeyToEncipherment, xenroll/ICEnroll4::LimitExchangeKeyToEncipherment, xenroll/ICEnroll4::get_LimitExchangeKeyToEncipherment, xenroll/ICEnroll4::put_LimitExchangeKeyToEncipherment
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],LimitExchangeKeyToEncipherment property, ICEnroll3 interface [Security],LimitExchangeKeyToEncipherment property, ICEnroll3.LimitExchangeKeyToEncipherment, ICEnroll3.put_LimitExchangeKeyToEncipherment, ICEnroll3::get_LimitExchangeKeyToEncipherment, ICEnroll3::put_LimitExchangeKeyToEncipherment, ICEnroll4 interface [Security],LimitExchangeKeyToEncipherment property, ICEnroll4.LimitExchangeKeyToEncipherment, ICEnroll4::LimitExchangeKeyToEncipherment, ICEnroll4::get_LimitExchangeKeyToEncipherment, ICEnroll4::put_LimitExchangeKeyToEncipherment, LimitExchangeKeyToEncipherment property [Security], LimitExchangeKeyToEncipherment property [Security],CEnroll object, LimitExchangeKeyToEncipherment property [Security],ICEnroll3 interface, LimitExchangeKeyToEncipherment property [Security],ICEnroll4 interface, put_LimitExchangeKeyToEncipherment, security.icenroll4_limitexchangekeytoencipherment, xenroll/ICEnroll3::LimitExchangeKeyToEncipherment, xenroll/ICEnroll3::get_LimitExchangeKeyToEncipherment, xenroll/ICEnroll3::put_LimitExchangeKeyToEncipherment, xenroll/ICEnroll4::LimitExchangeKeyToEncipherment, xenroll/ICEnroll4::get_LimitExchangeKeyToEncipherment, xenroll/ICEnroll4::put_LimitExchangeKeyToEncipherment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll3::put_LimitExchangeKeyToEncipherment method
+# ICEnroll3::put_LimitExchangeKeyToEncipherment
 
 
 ## -description

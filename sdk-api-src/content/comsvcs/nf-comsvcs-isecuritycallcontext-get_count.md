@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.get_Count
-title: ISecurityCallContext::get_Count method
+title: ISecurityCallContext::get_Count
 author: windows-driver-content
 description: Retrieves the number of properties in the security context collection.
 old-location: cos\isecuritycallcontext_get_count.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: aebb28de-79ee-4cec-afb9-cfb067a4fb62
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ISecurityCallContext, ISecurityCallContext interface [COM+], get_Count method, ISecurityCallContext::get_Count, _cos_ISecurityCallContext_get_Count, comsvcs/ISecurityCallContext::get_Count, cos.isecuritycallcontext_get_count, get_Count method [COM+], get_Count method [COM+], ISecurityCallContext interface, get_Count,ISecurityCallContext.get_Count
+ms.keywords: ISecurityCallContext interface [COM+],get_Count method, ISecurityCallContext.get_Count, ISecurityCallContext::get_Count, _cos_ISecurityCallContext_get_Count, comsvcs/ISecurityCallContext::get_Count, cos.isecuritycallcontext_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ISecurityCallContext interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISecurityCallContext::get_Count method
+# ISecurityCallContext::get_Count
 
 
 ## -description

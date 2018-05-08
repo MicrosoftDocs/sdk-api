@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.put_Configuration
-title: IWdsTransportNamespace::put_Configuration method
+title: IWdsTransportNamespace::put_Configuration
 author: windows-driver-content
 description: Sets or retrieves the configuration information for the content provider of the namespace.
 old-location: wds\iwdstransportnamespace_configuration.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 1934b5c2-2d78-4c94-9660-8c4e8b4aef77
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Configuration property [Windows Deployment Services], Configuration property [Windows Deployment Services], IWdsTransportNamespace interface, IWdsTransportNamespace, IWdsTransportNamespace interface [Windows Deployment Services], Configuration property, IWdsTransportNamespace.Configuration, IWdsTransportNamespace::get_Configuration, IWdsTransportNamespace::put_Configuration, put_Configuration,IWdsTransportNamespace.put_Configuration, wds.iwdstransportnamespace_configuration, wdstptmgmt/IWdsTransportNamespace::Configuration, wdstptmgmt/IWdsTransportNamespace::get_Configuration, wdstptmgmt/IWdsTransportNamespace::put_Configuration
+ms.keywords: Configuration property [Windows Deployment Services], Configuration property [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Configuration property, IWdsTransportNamespace.Configuration, IWdsTransportNamespace.put_Configuration, IWdsTransportNamespace::Configuration, IWdsTransportNamespace::get_Configuration, IWdsTransportNamespace::put_Configuration, put_Configuration, wds.iwdstransportnamespace_configuration, wdstptmgmt/IWdsTransportNamespace::Configuration, wdstptmgmt/IWdsTransportNamespace::get_Configuration, wdstptmgmt/IWdsTransportNamespace::put_Configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportNamespace::put_Configuration method
+# IWdsTransportNamespace::put_Configuration
 
 
 ## -description

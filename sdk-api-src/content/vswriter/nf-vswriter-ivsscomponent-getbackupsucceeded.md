@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetBackupSucceeded
-title: IVssComponent::GetBackupSucceeded method
+title: IVssComponent::GetBackupSucceeded
 author: windows-driver-content
 description: The GetBackupSucceeded method returns the status of a complete attempt at backing up all the files of a selected component or component set as a VSS_FILE_RESTORE_STATUS enumeration.
 old-location: base\ivsscomponent_getbackupsucceeded.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 9b2dce08-a4ab-4e55-aeef-819f71ddf9d2
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetBackupSucceeded method [VSS], GetBackupSucceeded method [VSS], IVssComponent interface, GetBackupSucceeded,IVssComponent.GetBackupSucceeded, IVssComponent, IVssComponent interface [VSS], GetBackupSucceeded method, IVssComponent::GetBackupSucceeded, _win32_ivsscomponent_getbackupsucceeded, base.ivsscomponent_getbackupsucceeded, vswriter/IVssComponent::GetBackupSucceeded
+ms.keywords: GetBackupSucceeded, GetBackupSucceeded method [VSS], GetBackupSucceeded method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupSucceeded method, IVssComponent.GetBackupSucceeded, IVssComponent::GetBackupSucceeded, _win32_ivsscomponent_getbackupsucceeded, base.ivsscomponent_getbackupsucceeded, vswriter/IVssComponent::GetBackupSucceeded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetBackupSucceeded method
+# IVssComponent::GetBackupSucceeded
 
 
 ## -description

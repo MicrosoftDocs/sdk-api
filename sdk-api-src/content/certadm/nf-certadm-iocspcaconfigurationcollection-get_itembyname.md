@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.get_ItemByName
-title: IOCSPCAConfigurationCollection::get_ItemByName method
+title: IOCSPCAConfigurationCollection::get_ItemByName
 author: windows-driver-content
 description: Gets a certification authority (CA) configuration identified by name in the configuration set.
 old-location: security\iocspcaconfigurationcollection_itembyname_method.htm
 old-project: SecCrypto
 ms.assetid: 78c2ce21-b7f9-48ec-b192-e4cd8be46cc6
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], ItemByName property, IOCSPCAConfigurationCollection.ItemByName, IOCSPCAConfigurationCollection::get_ItemByName, ItemByName property [Security], ItemByName property [Security], IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::ItemByName, certadm/IOCSPCAConfigurationCollection::get_ItemByName, get_ItemByName,IOCSPCAConfigurationCollection.get_ItemByName, security.iocspcaconfigurationcollection_itembyname_method
+ms.date: 4/30/2018
+ms.keywords: IOCSPCAConfigurationCollection interface [Security],ItemByName property, IOCSPCAConfigurationCollection.ItemByName, IOCSPCAConfigurationCollection.get_ItemByName, IOCSPCAConfigurationCollection::ItemByName, IOCSPCAConfigurationCollection::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::ItemByName, certadm/IOCSPCAConfigurationCollection::get_ItemByName, get_ItemByName, security.iocspcaconfigurationcollection_itembyname_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPCAConfigurationCollection::get_ItemByName method
+# IOCSPCAConfigurationCollection::get_ItemByName
 
 
 ## -description

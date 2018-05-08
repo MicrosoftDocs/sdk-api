@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTVTuner.StoreAutoTune
-title: IAMTVTuner::StoreAutoTune method
+title: IAMTVTuner::StoreAutoTune
 author: windows-driver-content
 description: The StoreAutoTune method saves the fine-tuning information for all channels.
 old-location: dshow\iamtvtuner_storeautotune.htm
 old-project: DirectShow
 ms.assetid: 6e39d757-d8bd-4011-9a67-6bf57b5d820b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTVTuner, IAMTVTuner interface [DirectShow], StoreAutoTune method, IAMTVTuner::StoreAutoTune, IAMTVTunerStoreAutoTune, StoreAutoTune method [DirectShow], StoreAutoTune method [DirectShow], IAMTVTuner interface, StoreAutoTune,IAMTVTuner.StoreAutoTune, dshow.iamtvtuner_storeautotune, strmif/IAMTVTuner::StoreAutoTune
+ms.date: 4/30/2018
+ms.keywords: IAMTVTuner interface [DirectShow],StoreAutoTune method, IAMTVTuner.StoreAutoTune, IAMTVTuner::StoreAutoTune, IAMTVTunerStoreAutoTune, StoreAutoTune, StoreAutoTune method [DirectShow], StoreAutoTune method [DirectShow],IAMTVTuner interface, dshow.iamtvtuner_storeautotune, strmif/IAMTVTuner::StoreAutoTune
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTVTuner::StoreAutoTune method
+# IAMTVTuner::StoreAutoTune
 
 
 ## -description

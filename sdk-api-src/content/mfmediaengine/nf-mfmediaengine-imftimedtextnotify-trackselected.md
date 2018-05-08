@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.TrackSelected
-title: IMFTimedTextNotify::TrackSelected method
+title: IMFTimedTextNotify::TrackSelected
 author: windows-driver-content
 description: Called when a track is selected or deselected.
 old-location: mf\imftimedtextnotify_trackselected.htm
 old-project: medfound
 ms.assetid: C4757863-3D92-4D49-A2CA-8AD7C65461E6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTimedTextNotify, IMFTimedTextNotify interface [Media Foundation], TrackSelected method, IMFTimedTextNotify::TrackSelected, TrackSelected method [Media Foundation], TrackSelected method [Media Foundation], IMFTimedTextNotify interface, TrackSelected,IMFTimedTextNotify.TrackSelected, mf.imftimedtextnotify_trackselected, mfmediaengine/IMFTimedTextNotify::TrackSelected
+ms.date: 5/3/2018
+ms.keywords: IMFTimedTextNotify interface [Media Foundation],TrackSelected method, IMFTimedTextNotify.TrackSelected, IMFTimedTextNotify::TrackSelected, TrackSelected, TrackSelected method [Media Foundation], TrackSelected method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_trackselected, mfmediaengine/IMFTimedTextNotify::TrackSelected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextNotify::TrackSelected method
+# IMFTimedTextNotify::TrackSelected
 
 
 ## -description

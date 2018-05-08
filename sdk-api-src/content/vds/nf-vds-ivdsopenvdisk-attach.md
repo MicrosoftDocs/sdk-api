@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.Attach
-title: IVdsOpenVDisk::Attach method
+title: IVdsOpenVDisk::Attach
 author: windows-driver-content
 description: Attaches a virtual disk.
 old-location: base\ivdsopenvdisk_attach.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 02647fe6-b94c-43ac-939c-262cea2c49d4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: ATTACH_VIRTUAL_DISK_FLAG_NONE, ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LETTER, ATTACH_VIRTUAL_DISK_FLAG_NO_LOCAL_HOST, ATTACH_VIRTUAL_DISK_FLAG_PERMANENT_LIFETIME, ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY, Attach method, Attach method, IVdsOpenVDisk interface, Attach,IVdsOpenVDisk.Attach, IVdsOpenVDisk, IVdsOpenVDisk interface, Attach method, IVdsOpenVDisk::Attach, base.ivdsopenvdisk_attach, vds/IVdsOpenVDisk::Attach
+ms.keywords: ATTACH_VIRTUAL_DISK_FLAG_NONE, ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LETTER, ATTACH_VIRTUAL_DISK_FLAG_NO_LOCAL_HOST, ATTACH_VIRTUAL_DISK_FLAG_PERMANENT_LIFETIME, ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY, Attach, Attach method, Attach method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Attach method, IVdsOpenVDisk.Attach, IVdsOpenVDisk::Attach, base.ivdsopenvdisk_attach, vds/IVdsOpenVDisk::Attach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsOpenVDisk::Attach method
+# IVdsOpenVDisk::Attach
 
 
 ## -description

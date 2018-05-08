@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTasks.get_Item
-title: IAzTasks::get_Item method
+title: IAzTasks::get_Item
 author: windows-driver-content
 description: Retrieves the IAzTask object at the specified index into the IAzTasks collection.
 old-location: security\iaztasks_item.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: eddfebba-4f0e-405a-90b5-dbdc87dca3da
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzTasks object [Security], Item property, IAzTasks, IAzTasks interface [Security], Item property, IAzTasks.Item, IAzTasks::get_Item, Item property [Security], Item property [Security], AzTasks object, Item property [Security], IAzTasks interface, azroles/IAzTasks::Item, azroles/IAzTasks::get_Item, get_Item,IAzTasks.get_Item, security.iaztasks_item
+ms.keywords: AzTasks object [Security],Item property, IAzTasks interface [Security],Item property, IAzTasks.Item, IAzTasks.get_Item, IAzTasks::Item, IAzTasks::get_Item, Item property [Security], Item property [Security],AzTasks object, Item property [Security],IAzTasks interface, azroles/IAzTasks::Item, azroles/IAzTasks::get_Item, get_Item, security.iaztasks_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzTasks::get_Item method
+# IAzTasks::get_Item
 
 
 ## -description

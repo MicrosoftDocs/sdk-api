@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.put_SAMILang
-title: IWMPClosedCaption::put_SAMILang method
+title: IWMPClosedCaption::put_SAMILang
 author: windows-driver-content
 description: The put_SAMILang method specifies the language displayed for closed captioning.
 old-location: wmp\iwmpclosedcaption_put_samilang.htm
 old-project: WMP
 ms.assetid: 2027d8cd-2528-45ad-9f36-f03cc3001ba7
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPClosedCaption, IWMPClosedCaption interface [Windows Media Player], put_SAMILang method, IWMPClosedCaption::put_SAMILang, IWMPClosedCaptionput_SAMILang, put_SAMILang method [Windows Media Player], put_SAMILang method [Windows Media Player], IWMPClosedCaption interface, put_SAMILang,IWMPClosedCaption.put_SAMILang, wmp.iwmpclosedcaption_put_samilang, wmp/IWMPClosedCaption::put_SAMILang
+ms.date: 5/4/2018
+ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMILang method, IWMPClosedCaption.put_SAMILang, IWMPClosedCaption::put_SAMILang, IWMPClosedCaptionput_SAMILang, put_SAMILang, put_SAMILang method [Windows Media Player], put_SAMILang method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samilang, wmp/IWMPClosedCaption::put_SAMILang
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPClosedCaption::put_SAMILang method
+# IWMPClosedCaption::put_SAMILang
 
 
 ## -description

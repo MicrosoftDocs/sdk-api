@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterMapper.UnregisterPin
-title: IFilterMapper::UnregisterPin method
+title: IFilterMapper::UnregisterPin
 author: windows-driver-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Removes the registration of this pin from the registry.
 old-location: dshow\ifiltermapper_unregisterpin.htm
 old-project: DirectShow
 ms.assetid: f8964890-53d7-4731-91b2-156e61809774
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFilterMapper, IFilterMapper interface [DirectShow], UnregisterPin method, IFilterMapper::UnregisterPin, IFilterMapperUnregisterPin, UnregisterPin method [DirectShow], UnregisterPin method [DirectShow], IFilterMapper interface, UnregisterPin,IFilterMapper.UnregisterPin, dshow.ifiltermapper_unregisterpin, strmif/IFilterMapper::UnregisterPin
+ms.date: 4/30/2018
+ms.keywords: IFilterMapper interface [DirectShow],UnregisterPin method, IFilterMapper.UnregisterPin, IFilterMapper::UnregisterPin, IFilterMapperUnregisterPin, UnregisterPin, UnregisterPin method [DirectShow], UnregisterPin method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_unregisterpin, strmif/IFilterMapper::UnregisterPin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterMapper::UnregisterPin method
+# IFilterMapper::UnregisterPin
 
 
 ## -description

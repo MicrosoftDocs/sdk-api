@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorGetStreamColorSpace1
-title: ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1 method
+title: ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1
 author: windows-driver-content
 description: Gets the color space information for the video processor input stream.
 old-location: mf\id3d11videocontext1_videoprocessorgetstreamcolorspace1.htm
 old-project: medfound
 ms.assetid: C9A53D81-C3E4-4B6F-9189-A58E40F8B7E7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoContext1, ID3D11VideoContext1 interface [Media Foundation], VideoProcessorGetStreamColorSpace1 method, ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1, VideoProcessorGetStreamColorSpace1 method [Media Foundation], VideoProcessorGetStreamColorSpace1 method [Media Foundation], ID3D11VideoContext1 interface, VideoProcessorGetStreamColorSpace1,ID3D11VideoContext1.VideoProcessorGetStreamColorSpace1, d3d11_1/ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1, mf.id3d11videocontext1_videoprocessorgetstreamcolorspace1
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorGetStreamColorSpace1 method, ID3D11VideoContext1.VideoProcessorGetStreamColorSpace1, ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1, VideoProcessorGetStreamColorSpace1, VideoProcessorGetStreamColorSpace1 method [Media Foundation], VideoProcessorGetStreamColorSpace1 method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1, mf.id3d11videocontext1_videoprocessorgetstreamcolorspace1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1 method
+# ID3D11VideoContext1::VideoProcessorGetStreamColorSpace1
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.get_CanModify
-title: IFaxPort::get_CanModify method
+title: IFaxPort::get_CanModify
 author: windows-driver-content
 description: The CanModify property is a Boolean value that indicates whether the user has permission to modify configuration information for the fax port.
 old-location: fax\_mfax_ifaxport_get_canmodify_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_920p.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CanModify property [Fax Service], CanModify property [Fax Service], FaxPort object, FaxPort object [Fax Service], CanModify property, IFaxPort, IFaxPort::get_CanModify, _mfax_ifaxport_get_canmodify, fax._mfax_ifaxport_get_canmodify, fax._mfax_ifaxport_get_canmodify_vb, get_CanModify,IFaxPort.get_CanModify
+ms.keywords: CanModify property [Fax Service], CanModify property [Fax Service],FaxPort object, FaxPort object [Fax Service],CanModify property, FaxPort.CanModify, IFaxPort.get_CanModify, IFaxPort::get_CanModify, _mfax_ifaxport_get_canmodify, fax._mfax_ifaxport_get_canmodify, fax._mfax_ifaxport_get_canmodify_vb, get_CanModify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxPort::get_CanModify method
+# IFaxPort::get_CanModify
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetMethodSpecProps
-title: IMetaDataImport2::GetMethodSpecProps method
+title: IMetaDataImport2::GetMethodSpecProps
 author: windows-driver-content
 description: Gets the metadata signature of the method referenced by the specified MethodSpec token.
 old-location: winrt\imetadataimport2_getmethodspecprops.htm
 old-project: WinRT
 ms.assetid: 498ee212-000d-4204-ae7a-de553bf3ea45
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetMethodSpecProps method [Windows Runtime], GetMethodSpecProps method [Windows Runtime], IMetaDataImport2 interface, GetMethodSpecProps,IMetaDataImport2.GetMethodSpecProps, IMetaDataImport2, IMetaDataImport2 interface [Windows Runtime], GetMethodSpecProps method, IMetaDataImport2::GetMethodSpecProps, rometadataapi/IMetaDataImport2::GetMethodSpecProps, winrt.imetadataimport2_getmethodspecprops
+ms.date: 5/4/2018
+ms.keywords: GetMethodSpecProps, GetMethodSpecProps method [Windows Runtime], GetMethodSpecProps method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetMethodSpecProps method, IMetaDataImport2.GetMethodSpecProps, IMetaDataImport2::GetMethodSpecProps, rometadataapi/IMetaDataImport2::GetMethodSpecProps, winrt.imetadataimport2_getmethodspecprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport2::GetMethodSpecProps method
+# IMetaDataImport2::GetMethodSpecProps
 
 
 ## -description

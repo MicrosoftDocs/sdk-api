@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.GetPerformanceData
-title: IXAudio2::GetPerformanceData method
+title: IXAudio2::GetPerformanceData
 author: windows-driver-content
 description: Returns current resource usage details, such as available memory or CPU usage.
 old-location: xaudio2\ixaudio2_interface_getperformancedata.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.GetPerformanceData(XAUDIO2_PERFORMANCE_DATA@)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: GetPerformanceData method [XAudio2 Audio Mixing APIs], GetPerformanceData method [XAudio2 Audio Mixing APIs], IXAudio2 interface, GetPerformanceData,IXAudio2.GetPerformanceData, IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], GetPerformanceData method, IXAudio2::GetPerformanceData, xaudio2.ixaudio2_interface_getperformancedata, xaudio2/IXAudio2::GetPerformanceData
+ms.keywords: GetPerformanceData, GetPerformanceData method [XAudio2 Audio Mixing APIs], GetPerformanceData method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],GetPerformanceData method, IXAudio2.GetPerformanceData, IXAudio2::GetPerformanceData, xaudio2.ixaudio2_interface_getperformancedata, xaudio2/IXAudio2::GetPerformanceData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2::GetPerformanceData method
+# IXAudio2::GetPerformanceData
 
 
 ## -description

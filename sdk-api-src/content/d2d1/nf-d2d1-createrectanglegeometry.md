@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: 4c8f4950-7b5a-4f77-9a5b-513916f83d0c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CreateRectangleGeometry, CreateRectangleGeometry methods [Direct2D], d2d1/CreateRectangleGeometry, direct2d.id2d1factory_createrectanglegeometry
+ms.keywords: CreateRectangleGeometry, CreateRectangleGeometry methods [Direct2D], ID2D1Factory::CreateRectangleGeometry, d2d1/CreateRectangleGeometry, direct2d.id2d1factory_createrectanglegeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Reset
-title: IEnumTfCandidates::Reset method
+title: IEnumTfCandidates::Reset
 author: windows-driver-content
 description: IEnumTfCandidates::Reset method
 old-location: tsf\ienumtfcandidates_reset.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2c5527ff-5f26-4e94-93ea-15273ec5a315
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfCandidates, IEnumTfCandidates interface [Text Services Framework], Reset method, IEnumTfCandidates::Reset, Reset method [Text Services Framework], Reset method [Text Services Framework], IEnumTfCandidates interface, Reset,IEnumTfCandidates.Reset, _tsf_ienumtfcandidates_reset_ref, ctffunc/IEnumTfCandidates::Reset, tsf.ienumtfcandidates_reset
+ms.keywords: IEnumTfCandidates interface [Text Services Framework],Reset method, IEnumTfCandidates.Reset, IEnumTfCandidates::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_reset_ref, ctffunc/IEnumTfCandidates::Reset, tsf.ienumtfcandidates_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# IEnumTfCandidates::Reset method
+# IEnumTfCandidates::Reset
 
 
 ## -description

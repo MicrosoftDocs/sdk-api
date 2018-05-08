@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMetadataEditor.Open
-title: IWMMetadataEditor::Open method
+title: IWMMetadataEditor::Open
 author: windows-driver-content
 description: The Open method opens an ASF file.
 old-location: wmformat\iwmmetadataeditor_open.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 01dd09ff-35d2-4e00-9eab-5110a426449f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMMetadataEditor, IWMMetadataEditor interface [windows Media Format], Open method, IWMMetadataEditor::Open, IWMMetadataEditorOpen, Open method [windows Media Format], Open method [windows Media Format], IWMMetadataEditor interface, Open,IWMMetadataEditor.Open, wmformat.iwmmetadataeditor_open, wmsdkidl/IWMMetadataEditor::Open
+ms.keywords: IWMMetadataEditor interface [windows Media Format],Open method, IWMMetadataEditor.Open, IWMMetadataEditor::Open, IWMMetadataEditorOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMMetadataEditor interface, wmformat.iwmmetadataeditor_open, wmsdkidl/IWMMetadataEditor::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMMetadataEditor::Open method
+# IWMMetadataEditor::Open
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 74b2bb04-6118-4fd1-83c0-3549db3f35f3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMAsyncCancel, IGPMAsyncCancel, IGPMAsyncCancel interface [GPMC], IGPMAsyncCancel interface [GPMC], described, _win32_igpmasynccancel, gpmc.igpmasynccancel, gpmgmt/IGPMAsyncCancel
+ms.keywords: GPMAsyncCancel, IGPMAsyncCancel, IGPMAsyncCancel interface [GPMC], IGPMAsyncCancel interface [GPMC],described, _win32_igpmasynccancel, gpmc.igpmasynccancel, gpmgmt/IGPMAsyncCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

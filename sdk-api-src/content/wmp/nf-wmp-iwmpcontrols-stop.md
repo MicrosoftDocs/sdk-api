@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPControls.stop
-title: IWMPControls::stop method
+title: IWMPControls::stop
 author: windows-driver-content
 description: The stop method stops playback of the media item.
 old-location: wmp\iwmpcontrols_stop.htm
 old-project: WMP
 ms.assetid: 97ab009d-5ad9-4049-a212-1ef95941f951
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], stop method, IWMPControls::stop, IWMPControlsstop, stop method [Windows Media Player], stop method [Windows Media Player], IWMPControls interface, stop,IWMPControls.stop, wmp.iwmpcontrols_stop, wmp/IWMPControls::stop
+ms.date: 5/4/2018
+ms.keywords: IWMPControls interface [Windows Media Player],stop method, IWMPControls.stop, IWMPControls::stop, IWMPControlsstop, stop, stop method [Windows Media Player], stop method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_stop, wmp/IWMPControls::stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPControls::stop method
+# IWMPControls::stop
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: dshow\mp_type.htm
 old-project: DirectShow
 ms.assetid: 9c8851c7-1a72-4dfd-ba2f-e64d8e22f6dc
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: MPT_BOOL, MPT_ENUM, MPT_FLOAT, MPT_INT, MPT_MAX, MP_TYPE, MP_TYPE enumeration [DirectShow], MP_TYPEEnumeration, _MP_Type, dshow.mp_type, medparam/MPT_BOOL, medparam/MPT_ENUM, medparam/MPT_FLOAT, medparam/MPT_INT, medparam/MPT_MAX, medparam/MP_TYPE
+ms.date: 4/30/2018
+ms.keywords: MPT_BOOL, MPT_ENUM, MPT_FLOAT, MPT_INT, MPT_MAX, MP_TYPE, MP_TYPE , MP_TYPE enumeration [DirectShow], MP_TYPEEnumeration, _MP_Type, dshow.mp_type, medparam/MPT_BOOL, medparam/MPT_ENUM, medparam/MPT_FLOAT, medparam/MPT_INT, medparam/MPT_MAX, medparam/MP_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

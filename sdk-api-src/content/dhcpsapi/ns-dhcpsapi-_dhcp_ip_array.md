@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_ip_array.htm
 old-project: DHCP
 ms.assetid: 84f42e55-8364-4119-83e4-c03699a9aa0a
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_IP_ARRAY, DHCP_IP_ARRAY, DHCP_IP_ARRAY structure [DHCP], LPDHCP_IP_ARRAY, LPDHCP_IP_ARRAY structure pointer [DHCP], _DHCP_IP_ARRAY, dhcp.dhcp_ip_array, dhcpsapi/LPDHCP_IP_ARRAY, dhcpsapi/_DHCP_IP_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Specifies the number of IP addresses in <b>Elements</b>.
 ### -field Elements
 
 Pointer to a list of <a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> values.
+
+
+### -field Elements.size_is
+
+ 
+
+
+### -field Elements.size_is.NumElements
+
+ 
+
+
 
 
 ## -see-also

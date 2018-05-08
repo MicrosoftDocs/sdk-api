@@ -7,7 +7,7 @@ old-location: mf\mfcreateremotedesktopplugin.htm
 old-project: medfound
 ms.assetid: c986c80b-b583-47be-91e7-5881db0018c2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MFCreateRemoteDesktopPlugin, MFCreateRemoteDesktopPlugin function [Media Foundation], c986c80b-b583-47be-91e7-5881db0018c2, mf.mfcreateremotedesktopplugin, mfidl/MFCreateRemoteDesktopPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

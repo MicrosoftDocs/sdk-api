@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPLibrary.isIdentical
-title: IWMPLibrary::isIdentical method
+title: IWMPLibrary::isIdentical
 author: windows-driver-content
 description: The isIdentical method retrieves a value that indicates whether the supplied object is the same as the current one.
 old-location: wmp\iwmplibrary_isidentical.htm
 old-project: WMP
 ms.assetid: af121fc7-6a9a-4c1a-bea4-433e62ca19e3
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPLibrary, IWMPLibrary interface [Windows Media Player], isIdentical method, IWMPLibrary::isIdentical, IWMPLibraryisIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player], IWMPLibrary interface, isIdentical,IWMPLibrary.isIdentical, wmp.iwmplibrary_isidentical, wmp/IWMPLibrary::isIdentical
+ms.date: 5/4/2018
+ms.keywords: IWMPLibrary interface [Windows Media Player],isIdentical method, IWMPLibrary.isIdentical, IWMPLibrary::isIdentical, IWMPLibraryisIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_isidentical, wmp/IWMPLibrary::isIdentical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPLibrary::isIdentical method
+# IWMPLibrary::isIdentical
 
 
 ## -description

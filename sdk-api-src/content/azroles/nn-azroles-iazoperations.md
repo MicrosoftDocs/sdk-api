@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 43db28af-86cb-4530-a87b-d11061533d84
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzOperations, IAzOperations interface [Security], IAzOperations interface [Security], described, azroles/IAzOperations, security.iazoperations
+ms.keywords: IAzOperations, IAzOperations interface [Security], IAzOperations interface [Security],described, azroles/IAzOperations, security.iazoperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

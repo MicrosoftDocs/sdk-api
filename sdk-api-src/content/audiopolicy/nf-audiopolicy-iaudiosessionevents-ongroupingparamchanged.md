@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnGroupingParamChanged
-title: IAudioSessionEvents::OnGroupingParamChanged method
+title: IAudioSessionEvents::OnGroupingParamChanged
 author: windows-driver-content
 description: The OnGroupingParamChanged method notifies the client that the grouping parameter for the session has changed.
 old-location: coreaudio\iaudiosessionevents_ongroupingparamchanged.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: f52c9d8a-245b-489a-81c1-cb4715faa8be
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], OnGroupingParamChanged method, IAudioSessionEvents::OnGroupingParamChanged, IAudioSessionEventsOnGroupingParamChanged, OnGroupingParamChanged method [Core Audio], OnGroupingParamChanged method [Core Audio], IAudioSessionEvents interface, OnGroupingParamChanged,IAudioSessionEvents.OnGroupingParamChanged, audiopolicy/IAudioSessionEvents::OnGroupingParamChanged, coreaudio.iaudiosessionevents_ongroupingparamchanged
+ms.keywords: IAudioSessionEvents interface [Core Audio],OnGroupingParamChanged method, IAudioSessionEvents.OnGroupingParamChanged, IAudioSessionEvents::OnGroupingParamChanged, IAudioSessionEventsOnGroupingParamChanged, OnGroupingParamChanged, OnGroupingParamChanged method [Core Audio], OnGroupingParamChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnGroupingParamChanged, coreaudio.iaudiosessionevents_ongroupingparamchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionEvents::OnGroupingParamChanged method
+# IAudioSessionEvents::OnGroupingParamChanged
 
 
 ## -description

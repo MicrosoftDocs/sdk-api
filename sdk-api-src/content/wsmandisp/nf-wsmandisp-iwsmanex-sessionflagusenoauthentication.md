@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseNoAuthentication
-title: IWSManEx::SessionFlagUseNoAuthentication method
+title: IWSManEx::SessionFlagUseNoAuthentication
 author: windows-driver-content
 description: Returns the value of the authentication flag WSManFlagUseNoAuthentication for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusenoauthentication.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: af3f7512-c1d5-4c4d-b79a-b0bf8b95be6d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], SessionFlagUseNoAuthentication method, IWSManEx::SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication method [Windows Remote Management], SessionFlagUseNoAuthentication method [Windows Remote Management], IWSManEx interface, SessionFlagUseNoAuthentication,IWSManEx.SessionFlagUseNoAuthentication, winrm.iwsmanex_sessionflagusenoauthentication, wsmandisp/IWSManEx::SessionFlagUseNoAuthentication
+ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNoAuthentication method, IWSManEx.SessionFlagUseNoAuthentication, IWSManEx::SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication method [Windows Remote Management], SessionFlagUseNoAuthentication method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenoauthentication, wsmandisp/IWSManEx::SessionFlagUseNoAuthentication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx::SessionFlagUseNoAuthentication method
+# IWSManEx::SessionFlagUseNoAuthentication
 
 
 ## -description

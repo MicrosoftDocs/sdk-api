@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Skip
-title: IEnumMediaTypes::Skip method
+title: IEnumMediaTypes::Skip
 author: windows-driver-content
 description: The Skip method skips over a specified number of media types.
 old-location: dshow\ienummediatypes_skip.htm
 old-project: DirectShow
 ms.assetid: 313628d0-256c-4142-bba5-7cd0c910610c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumMediaTypes, IEnumMediaTypes interface [DirectShow], Skip method, IEnumMediaTypes::Skip, IEnumMediaTypesSkip, Skip method [DirectShow], Skip method [DirectShow], IEnumMediaTypes interface, Skip,IEnumMediaTypes.Skip, dshow.ienummediatypes_skip, strmif/IEnumMediaTypes::Skip
+ms.date: 4/30/2018
+ms.keywords: IEnumMediaTypes interface [DirectShow],Skip method, IEnumMediaTypes.Skip, IEnumMediaTypes::Skip, IEnumMediaTypesSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumMediaTypes interface, dshow.ienummediatypes_skip, strmif/IEnumMediaTypes::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEnumMediaTypes::Skip method
+# IEnumMediaTypes::Skip
 
 
 ## -description

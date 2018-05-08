@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CachedFirstSelectedItem
-title: IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem method
+title: IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem
 author: windows-driver-content
 description: Gets a cached IUIAutomationElement object representing the first item in a group of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedFirstSelectedItem.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 580E229B-70E3-4FE6-85FF-42F0757F0620
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedFirstSelectedItem property [Windows Accessibility], CachedFirstSelectedItem property [Windows Accessibility], IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2, IUIAutomationSelectionPattern2 interface [Windows Accessibility], CachedFirstSelectedItem property, IUIAutomationSelectionPattern2.CachedFirstSelectedItem, IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem, get_CachedFirstSelectedItem,IUIAutomationSelectionPattern2.get_CachedFirstSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CachedFirstSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CachedFirstSelectedItem
+ms.keywords: CachedFirstSelectedItem property [Windows Accessibility], CachedFirstSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CachedFirstSelectedItem property, IUIAutomationSelectionPattern2.CachedFirstSelectedItem, IUIAutomationSelectionPattern2.get_CachedFirstSelectedItem, IUIAutomationSelectionPattern2::CachedFirstSelectedItem, IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem, get_CachedFirstSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CachedFirstSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CachedFirstSelectedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem method
+# IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem
 
 
 ## -description

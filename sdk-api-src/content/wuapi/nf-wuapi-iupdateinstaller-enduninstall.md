@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.EndUninstall
-title: IUpdateInstaller::EndUninstall method
+title: IUpdateInstaller::EndUninstall
 author: windows-driver-content
 description: Completes an asynchronous uninstallation of the updates.
 old-location: wua\iupdateinstaller_enduninstall.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: a035f566-7ec6-41d5-b5b4-69c2acaa8aae
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EndUninstall method [Windows Update Agent], EndUninstall method [Windows Update Agent], IUpdateInstaller interface, EndUninstall,IUpdateInstaller.EndUninstall, IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], EndUninstall method, IUpdateInstaller::EndUninstall, wua.iupdateinstaller_enduninstall, wuapi/IUpdateInstaller::EndUninstall
+ms.keywords: EndUninstall, EndUninstall method [Windows Update Agent], EndUninstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],EndUninstall method, IUpdateInstaller.EndUninstall, IUpdateInstaller::EndUninstall, wua.iupdateinstaller_enduninstall, wuapi/IUpdateInstaller::EndUninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateInstaller::EndUninstall method
+# IUpdateInstaller::EndUninstall
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordDestroy
-title: IRecordInfo::RecordDestroy method
+title: IRecordInfo::RecordDestroy
 author: windows-driver-content
 description: Releases the resources and deallocates the memory of the record.
 old-location: automat\irecordinfo_recorddestroy.htm
 old-project: automat
 ms.assetid: 36faf2f6-ecb5-4d6f-a05d-a37ae21a8f07
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: IRecordInfo, IRecordInfo interface [Automation], RecordDestroy method, IRecordInfo::RecordDestroy, RecordDestroy method [Automation], RecordDestroy method [Automation], IRecordInfo interface, RecordDestroy,IRecordInfo.RecordDestroy, _oa96_IRecordInfo_RecordDestroy, automat.irecordinfo_recorddestroy, oaidl/IRecordInfo::RecordDestroy
+ms.date: 5/4/2018
+ms.keywords: IRecordInfo interface [Automation],RecordDestroy method, IRecordInfo.RecordDestroy, IRecordInfo::RecordDestroy, RecordDestroy, RecordDestroy method [Automation], RecordDestroy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordDestroy, automat.irecordinfo_recorddestroy, oaidl/IRecordInfo::RecordDestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRecordInfo::RecordDestroy method
+# IRecordInfo::RecordDestroy
 
 
 ## -description

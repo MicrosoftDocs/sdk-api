@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcFileReader.GetFileSize
-title: IRdcFileReader::GetFileSize method
+title: IRdcFileReader::GetFileSize
 author: windows-driver-content
 description: Returns the size of a file.
 old-location: rdc\irdcfilereader_getfilesize.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 2db66eb0-7213-446a-ad4b-f0df9e48abd4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetFileSize method [Remote Differential Compression], GetFileSize method [Remote Differential Compression], IRdcFileReader interface, GetFileSize,IRdcFileReader.GetFileSize, IRdcFileReader, IRdcFileReader interface [Remote Differential Compression], GetFileSize method, IRdcFileReader::GetFileSize, fs.irdcfilereader_getfilesize, msrdc/IRdcFileReader::GetFileSize, rdc.irdcfilereader_getfilesize
+ms.keywords: GetFileSize, GetFileSize method [Remote Differential Compression], GetFileSize method [Remote Differential Compression],IRdcFileReader interface, IRdcFileReader interface [Remote Differential Compression],GetFileSize method, IRdcFileReader.GetFileSize, IRdcFileReader::GetFileSize, fs.irdcfilereader_getfilesize, msrdc/IRdcFileReader::GetFileSize, rdc.irdcfilereader_getfilesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcFileReader::GetFileSize method
+# IRdcFileReader::GetFileSize
 
 
 ## -description

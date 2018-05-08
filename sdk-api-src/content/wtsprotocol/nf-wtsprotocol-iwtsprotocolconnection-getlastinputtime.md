@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetLastInputTime
-title: IWTSProtocolConnection::GetLastInputTime method
+title: IWTSProtocolConnection::GetLastInputTime
 author: windows-driver-content
 description: IWTSProtocolConnection::GetLastInputTime is no longer available. Instead, use IWRdsProtocolConnection::GetLastInputTime.
 old-location: termserv\iwtsprotocolconnection_getlastinputtime.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 8daecbde-8866-4ae9-a07c-32d28d321392
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetLastInputTime method [Remote Desktop Services], GetLastInputTime method [Remote Desktop Services], IWTSProtocolConnection interface, GetLastInputTime,IWTSProtocolConnection.GetLastInputTime, IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], GetLastInputTime method, IWTSProtocolConnection::GetLastInputTime, termserv.iwtsprotocolconnection_getlastinputtime, wtsprotocol/IWTSProtocolConnection::GetLastInputTime
+ms.keywords: GetLastInputTime, GetLastInputTime method [Remote Desktop Services], GetLastInputTime method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetLastInputTime method, IWTSProtocolConnection.GetLastInputTime, IWTSProtocolConnection::GetLastInputTime, termserv.iwtsprotocolconnection_getlastinputtime, wtsprotocol/IWTSProtocolConnection::GetLastInputTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolConnection::GetLastInputTime method
+# IWTSProtocolConnection::GetLastInputTime
 
 
 ## -description

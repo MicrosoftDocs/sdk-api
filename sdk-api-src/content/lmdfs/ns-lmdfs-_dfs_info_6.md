@@ -257,6 +257,16 @@ Specifies the number of targets for the DFS root or link. These targets are cont
       <b>Storage</b> member of this structure.
 
 
+### -field Storage.size_is
+
+ 
+
+
+### -field Storage.size_is.NumberOfStorages
+
+ 
+
+
 ### -field Storage
 
 Specifies an array of <a href="https://msdn.microsoft.com/777b9688-9e34-48dd-bc8c-df17bef396d0">DFS_STORAGE_INFO_1</a> 

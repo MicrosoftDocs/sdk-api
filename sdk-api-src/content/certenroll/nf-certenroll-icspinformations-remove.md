@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.Remove
-title: ICspInformations::Remove method
+title: ICspInformations::Remove
 author: windows-driver-content
 description: Removes an ICspInformation object from the collection by index number.
 old-location: security\icspinformations_remove_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: cbf427d8-3f66-4a54-a226-2060c58924b6
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspInformations, ICspInformations interface [Security], Remove method, ICspInformations::Remove, Remove method [Security], Remove method [Security], ICspInformations interface, Remove,ICspInformations.Remove, certenroll/ICspInformations::Remove, security.icspinformations_remove_method
+ms.keywords: ICspInformations interface [Security],Remove method, ICspInformations.Remove, ICspInformations::Remove, Remove, Remove method [Security], Remove method [Security],ICspInformations interface, certenroll/ICspInformations::Remove, security.icspinformations_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformations::Remove method
+# ICspInformations::Remove
 
 
 ## -description

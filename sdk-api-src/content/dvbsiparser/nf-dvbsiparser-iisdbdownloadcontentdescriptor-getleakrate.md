@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetLeakRate
-title: IIsdbDownloadContentDescriptor::GetLeakRate method
+title: IIsdbDownloadContentDescriptor::GetLeakRate
 author: windows-driver-content
 description: Gets the leak rate of the transport buffer from an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes per second.
 old-location: mstv\iisdbdownloadcontentdescriptor_getleakrate.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3e85f026-66bf-4c13-b476-3aca9e28b3b6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLeakRate method [Microsoft TV Technologies], GetLeakRate method [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface, GetLeakRate,IIsdbDownloadContentDescriptor.GetLeakRate, IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], GetLeakRate method, IIsdbDownloadContentDescriptor::GetLeakRate, dvbsiparser/IIsdbDownloadContentDescriptor::GetLeakRate, mstv.iisdbdownloadcontentdescriptor_getleakrate
+ms.keywords: GetLeakRate, GetLeakRate method [Microsoft TV Technologies], GetLeakRate method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetLeakRate method, IIsdbDownloadContentDescriptor.GetLeakRate, IIsdbDownloadContentDescriptor::GetLeakRate, dvbsiparser/IIsdbDownloadContentDescriptor::GetLeakRate, mstv.iisdbdownloadcontentdescriptor_getleakrate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDownloadContentDescriptor::GetLeakRate method
+# IIsdbDownloadContentDescriptor::GetLeakRate
 
 
 ## -description

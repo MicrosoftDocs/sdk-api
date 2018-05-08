@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderResourceVariable.GetResourceArray
-title: ID3D10EffectShaderResourceVariable::GetResourceArray method
+title: ID3D10EffectShaderResourceVariable::GetResourceArray
 author: windows-driver-content
 description: Get an array of shader resources.
 old-location: direct3d10\id3d10effectshaderresourcevariable_getresourcearray.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshaderresourcevariable_getresourcearray.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetResourceArray method [Direct3D 10], GetResourceArray method [Direct3D 10], ID3D10EffectShaderResourceVariable interface, GetResourceArray,ID3D10EffectShaderResourceVariable.GetResourceArray, ID3D10EffectShaderResourceVariable, ID3D10EffectShaderResourceVariable interface [Direct3D 10], GetResourceArray method, ID3D10EffectShaderResourceVariable::GetResourceArray, be202163-a9e9-5354-d781-12b5b98cda4b, d3d10effect/ID3D10EffectShaderResourceVariable::GetResourceArray, direct3d10.id3d10effectshaderresourcevariable_getresourcearray
+ms.keywords: GetResourceArray, GetResourceArray method [Direct3D 10], GetResourceArray method [Direct3D 10],ID3D10EffectShaderResourceVariable interface, ID3D10EffectShaderResourceVariable interface [Direct3D 10],GetResourceArray method, ID3D10EffectShaderResourceVariable.GetResourceArray, ID3D10EffectShaderResourceVariable::GetResourceArray, be202163-a9e9-5354-d781-12b5b98cda4b, d3d10effect/ID3D10EffectShaderResourceVariable::GetResourceArray, direct3d10.id3d10effectshaderresourcevariable_getresourcearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectShaderResourceVariable::GetResourceArray method
+# ID3D10EffectShaderResourceVariable::GetResourceArray
 
 
 ## -description

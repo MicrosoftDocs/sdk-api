@@ -7,7 +7,7 @@ old-location: shell\DWordToLong.htm
 old-project: shell
 ms.assetid: 885566bf-cbc6-4f26-9869-fdefbd360ff2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: DWordToLong, DWordToLong function [Windows Shell], ULongToLong, _shell_DWordToLong, intsafe/DWordToLong, shell.DWordToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetNamespaces
-title: IOpcDigitalSignature::GetNamespaces method
+title: IOpcDigitalSignature::GetNamespaces
 author: windows-driver-content
 description: Gets the prefix and namespace mapping of the Signature element of the signature markup.
 old-location: opc\iopcdigitalsignature_getnamespaces.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: c9360d23-1eac-4bb1-ae40-c157f1a79621
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetNamespaces method [Open Packaging Conventions], GetNamespaces method [Open Packaging Conventions], IOpcDigitalSignature interface, GetNamespaces,IOpcDigitalSignature.GetNamespaces, IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], GetNamespaces method, IOpcDigitalSignature::GetNamespaces, msopc/IOpcDigitalSignature::GetNamespaces, opc.iopcdigitalsignature_getnamespaces
+ms.keywords: GetNamespaces, GetNamespaces method [Open Packaging Conventions], GetNamespaces method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetNamespaces method, IOpcDigitalSignature.GetNamespaces, IOpcDigitalSignature::GetNamespaces, msopc/IOpcDigitalSignature::GetNamespaces, opc.iopcdigitalsignature_getnamespaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignature::GetNamespaces method
+# IOpcDigitalSignature::GetNamespaces
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetHashAlgorithmList
-title: ICertSrvSetup::GetHashAlgorithmList method
+title: ICertSrvSetup::GetHashAlgorithmList
 author: windows-driver-content
 description: Gets the list of hash algorithms supported by the specified cryptographic service provider (CSP) for an asymmetric signature key algorithm.
 old-location: security\icertsrvsetup_gethashalgorithmlist.htm
 old-project: SecCrypto
 ms.assetid: 451c240d-8df9-4f4a-ab0e-56c5252d3b50
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetHashAlgorithmList method [Security], GetHashAlgorithmList method [Security], ICertSrvSetup interface, GetHashAlgorithmList,ICertSrvSetup.GetHashAlgorithmList, ICertSrvSetup, ICertSrvSetup interface [Security], GetHashAlgorithmList method, ICertSrvSetup::GetHashAlgorithmList, casetup/ICertSrvSetup::GetHashAlgorithmList, security.icertsrvsetup_gethashalgorithmlist
+ms.date: 4/30/2018
+ms.keywords: GetHashAlgorithmList, GetHashAlgorithmList method [Security], GetHashAlgorithmList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetHashAlgorithmList method, ICertSrvSetup.GetHashAlgorithmList, ICertSrvSetup::GetHashAlgorithmList, casetup/ICertSrvSetup::GetHashAlgorithmList, security.icertsrvsetup_gethashalgorithmlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetup::GetHashAlgorithmList method
+# ICertSrvSetup::GetHashAlgorithmList
 
 
 ## -description

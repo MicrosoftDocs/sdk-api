@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.EnumAutoApplyQuotas
-title: IFsrmQuotaManager::EnumAutoApplyQuotas method
+title: IFsrmQuotaManager::EnumAutoApplyQuotas
 author: windows-driver-content
 description: Enumerates the automatic quotas that are associated with the specified directory.
 old-location: fsrm\ifsrmquotamanager_enumautoapplyquotas.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 6542bc4e-535f-4e6c-aaa8-ba6963490811
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EnumAutoApplyQuotas method [File Server Resource Manager], EnumAutoApplyQuotas method [File Server Resource Manager], FsrmQuotaManager class, EnumAutoApplyQuotas method [File Server Resource Manager], IFsrmQuotaManager interface, EnumAutoApplyQuotas method [File Server Resource Manager], IFsrmQuotaManagerEx interface, EnumAutoApplyQuotas,IFsrmQuotaManager.EnumAutoApplyQuotas, FsrmQuotaManager class [File Server Resource Manager], EnumAutoApplyQuotas method, IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resource Manager], EnumAutoApplyQuotas method, IFsrmQuotaManager::EnumAutoApplyQuotas, IFsrmQuotaManagerEx interface [File Server Resource Manager], EnumAutoApplyQuotas method, IFsrmQuotaManagerEx::EnumAutoApplyQuotas, fs.ifsrmquotamanager_enumautoapplyquotas, fsrm.ifsrmquotamanager_enumautoapplyquotas, fsrmquota/IFsrmQuotaManager::EnumAutoApplyQuotas, fsrmquota/IFsrmQuotaManagerEx::EnumAutoApplyQuotas
+ms.keywords: EnumAutoApplyQuotas, EnumAutoApplyQuotas method [File Server Resource Manager], EnumAutoApplyQuotas method [File Server Resource Manager],FsrmQuotaManager class, EnumAutoApplyQuotas method [File Server Resource Manager],IFsrmQuotaManager interface, EnumAutoApplyQuotas method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],EnumAutoApplyQuotas method, IFsrmQuotaManager interface [File Server Resource Manager],EnumAutoApplyQuotas method, IFsrmQuotaManager.EnumAutoApplyQuotas, IFsrmQuotaManager::EnumAutoApplyQuotas, IFsrmQuotaManagerEx interface [File Server Resource Manager],EnumAutoApplyQuotas method, IFsrmQuotaManagerEx::EnumAutoApplyQuotas, fs.ifsrmquotamanager_enumautoapplyquotas, fsrm.ifsrmquotamanager_enumautoapplyquotas, fsrmquota/IFsrmQuotaManager::EnumAutoApplyQuotas, fsrmquota/IFsrmQuotaManagerEx::EnumAutoApplyQuotas
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaManager::EnumAutoApplyQuotas method
+# IFsrmQuotaManager::EnumAutoApplyQuotas
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.Lookup
-title: ISimilarityFileIdTable::Lookup method
+title: ISimilarityFileIdTable::Lookup
 author: windows-driver-content
 description: Retrieves the file ID that corresponds to a given file index in the similarity file ID table.
 old-location: rdc\isimilarityfileidtable_lookup.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: bf9dbeb1-0182-4927-80ad-bb51fab2e637
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISimilarityFileIdTable, ISimilarityFileIdTable interface [Remote Differential Compression], Lookup method, ISimilarityFileIdTable::Lookup, Lookup method [Remote Differential Compression], Lookup method [Remote Differential Compression], ISimilarityFileIdTable interface, Lookup,ISimilarityFileIdTable.Lookup, fs.isimilarityfileidtable_lookup, msrdc/ISimilarityFileIdTable::Lookup, rdc.isimilarityfileidtable_lookup
+ms.keywords: ISimilarityFileIdTable interface [Remote Differential Compression],Lookup method, ISimilarityFileIdTable.Lookup, ISimilarityFileIdTable::Lookup, Lookup, Lookup method [Remote Differential Compression], Lookup method [Remote Differential Compression],ISimilarityFileIdTable interface, fs.isimilarityfileidtable_lookup, msrdc/ISimilarityFileIdTable::Lookup, rdc.isimilarityfileidtable_lookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityFileIdTable::Lookup method
+# ISimilarityFileIdTable::Lookup
 
 
 ## -description

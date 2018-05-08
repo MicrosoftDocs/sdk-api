@@ -7,7 +7,7 @@ old-location: security\x509enrollmentauthflags.htm
 old-project: SecCrypto
 ms.assetid: 84a7e6e3-dfbb-4c27-af63-e521103e1b00
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthNone, X509AuthUsername, X509EnrollmentAuthFlags, X509EnrollmentAuthFlags enumeration [Security], certcli/X509AuthAnonymous, certcli/X509AuthCertificate, certcli/X509AuthKerberos, certcli/X509AuthNone, certcli/X509AuthUsername, certcli/X509EnrollmentAuthFlags, security.x509enrollmentauthflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

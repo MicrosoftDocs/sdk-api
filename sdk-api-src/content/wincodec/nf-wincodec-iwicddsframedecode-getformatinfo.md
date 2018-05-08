@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDdsFrameDecode.GetFormatInfo
-title: IWICDdsFrameDecode::GetFormatInfo method
+title: IWICDdsFrameDecode::GetFormatInfo
 author: windows-driver-content
 description: Gets information about the format in which the DDS image is stored.
 old-location: wic\iwicddsframedecode_getformatinfo.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 0D5B9E45-E1EA-4D16-B793-63FEAB2BAF65
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetFormatInfo method [Windows Imaging Component], GetFormatInfo method [Windows Imaging Component], IWICDdsFrameDecode interface, GetFormatInfo,IWICDdsFrameDecode.GetFormatInfo, IWICDdsFrameDecode, IWICDdsFrameDecode interface [Windows Imaging Component], GetFormatInfo method, IWICDdsFrameDecode::GetFormatInfo, wic.iwicddsframedecode_getformatinfo, wincodec/IWICDdsFrameDecode::GetFormatInfo
+ms.keywords: GetFormatInfo, GetFormatInfo method [Windows Imaging Component], GetFormatInfo method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],GetFormatInfo method, IWICDdsFrameDecode.GetFormatInfo, IWICDdsFrameDecode::GetFormatInfo, wic.iwicddsframedecode_getformatinfo, wincodec/IWICDdsFrameDecode::GetFormatInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDdsFrameDecode::GetFormatInfo method
+# IWICDdsFrameDecode::GetFormatInfo
 
 
 ## -description

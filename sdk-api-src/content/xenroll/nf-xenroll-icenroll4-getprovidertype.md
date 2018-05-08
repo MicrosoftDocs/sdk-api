@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll4.getProviderType
-title: ICEnroll4::getProviderType method
+title: ICEnroll4::getProviderType
 author: windows-driver-content
 description: Retrieves the type of the specified cryptographic service provider (CSP). This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_getprovidertype.htm
 old-project: SecCrypto
 ms.assetid: f47c07b8-0919-44d4-b331-e062341aa050
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], getProviderType method, ICEnroll4, ICEnroll4 interface [Security], getProviderType method, ICEnroll4::getProviderType, getProviderType method [Security], getProviderType method [Security], CEnroll object, getProviderType method [Security], ICEnroll4 interface, getProviderType,ICEnroll4.getProviderType, security.icenroll4_getprovidertype, xenroll/ICEnroll4::getProviderType
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],getProviderType method, ICEnroll4 interface [Security],getProviderType method, ICEnroll4.getProviderType, ICEnroll4::getProviderType, getProviderType, getProviderType method [Security], getProviderType method [Security],CEnroll object, getProviderType method [Security],ICEnroll4 interface, security.icenroll4_getprovidertype, xenroll/ICEnroll4::getProviderType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll4::getProviderType method
+# ICEnroll4::getProviderType
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: winrt\rooriginatelanguageexception.htm
 old-project: WinRT
 ms.assetid: 573A9209-31EF-4FD4-A504-16795BA42337
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: RoOriginateLanguageException, RoOriginateLanguageException function [Windows Runtime], roerrorapi/RoOriginateLanguageException, winrt.rooriginatelanguageexception
 ms.prod: windows-hardware
 ms.technology: windows-devices

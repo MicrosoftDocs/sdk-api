@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetEntitlementToken
-title: IESLicenseRenewalResultEvent::GetEntitlementToken method
+title: IESLicenseRenewalResultEvent::GetEntitlementToken
 author: windows-driver-content
 description: Gets the entitlement token in a protected-content license from a LicenseRenewalResult event. Clients can call the GetEntitlementTokenLength method to get the number of bytes to read from this buffer.
 old-location: mstv\ieslicenserenewalresultevent_getentitlementtoken.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6178a884-df87-4fcb-a069-3791726d4335
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetEntitlementToken method [DirectShow], GetEntitlementToken method [DirectShow], IESLicenseRenewalResultEvent interface, GetEntitlementToken,IESLicenseRenewalResultEvent.GetEntitlementToken, IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], GetEntitlementToken method, IESLicenseRenewalResultEvent::GetEntitlementToken, mstv.ieslicenserenewalresultevent_getentitlementtoken, tuner/IESLicenseRenewalResultEvent::GetEntitlementToken
+ms.keywords: GetEntitlementToken, GetEntitlementToken method [DirectShow], GetEntitlementToken method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetEntitlementToken method, IESLicenseRenewalResultEvent.GetEntitlementToken, IESLicenseRenewalResultEvent::GetEntitlementToken, mstv.ieslicenserenewalresultevent_getentitlementtoken, tuner/IESLicenseRenewalResultEvent::GetEntitlementToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESLicenseRenewalResultEvent::GetEntitlementToken method
+# IESLicenseRenewalResultEvent::GetEntitlementToken
 
 
 ## -description

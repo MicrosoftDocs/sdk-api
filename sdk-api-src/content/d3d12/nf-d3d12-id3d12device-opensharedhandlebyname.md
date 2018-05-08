@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.OpenSharedHandleByName
-title: ID3D12Device::OpenSharedHandleByName method
+title: ID3D12Device::OpenSharedHandleByName
 author: windows-driver-content
 description: Opens a handle for shared resources, shared heaps, and shared fences, by using Name and Access.
 old-location: direct3d12\id3d12device_opensharedhandlebyname.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 4866BD8B-31F8-47E0-9228-5F61D6CA2190
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12Device, ID3D12Device interface, OpenSharedHandleByName method, ID3D12Device::OpenSharedHandleByName, OpenSharedHandleByName method, OpenSharedHandleByName method, ID3D12Device interface, OpenSharedHandleByName,ID3D12Device.OpenSharedHandleByName, d3d12/ID3D12Device::OpenSharedHandleByName, direct3d12.id3d12device_opensharedhandlebyname
+ms.keywords: ID3D12Device interface,OpenSharedHandleByName method, ID3D12Device.OpenSharedHandleByName, ID3D12Device::OpenSharedHandleByName, OpenSharedHandleByName, OpenSharedHandleByName method, OpenSharedHandleByName method,ID3D12Device interface, d3d12/ID3D12Device::OpenSharedHandleByName, direct3d12.id3d12device_opensharedhandlebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::OpenSharedHandleByName method
+# ID3D12Device::OpenSharedHandleByName
 
 
 ## -description

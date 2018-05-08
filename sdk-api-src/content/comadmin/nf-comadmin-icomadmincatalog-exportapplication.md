@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ExportApplication
-title: ICOMAdminCatalog::ExportApplication method
+title: ICOMAdminCatalog::ExportApplication
 author: windows-driver-content
 description: Exports a COM+ application or application proxy to a file, ready for installation on different computers.
 old-location: cos\icomadmincatalog_exportapplication.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 431c0299-56c2-4ec3-8ecc-ee1cbec3eff6
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportApplication method [COM+], ExportApplication method [COM+], ICOMAdminCatalog interface, ExportApplication,ICOMAdminCatalog.ExportApplication, ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ExportApplication method, ICOMAdminCatalog::ExportApplication, _cos_ICOMAdminCatalog_ExportApplication, comadmin/ICOMAdminCatalog::ExportApplication, cos.icomadmincatalog_exportapplication
+ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportApplication, ExportApplication method [COM+], ExportApplication method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],ExportApplication method, ICOMAdminCatalog.ExportApplication, ICOMAdminCatalog::ExportApplication, _cos_ICOMAdminCatalog_ExportApplication, comadmin/ICOMAdminCatalog::ExportApplication, cos.icomadmincatalog_exportapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::ExportApplication method
+# ICOMAdminCatalog::ExportApplication
 
 
 ## -description

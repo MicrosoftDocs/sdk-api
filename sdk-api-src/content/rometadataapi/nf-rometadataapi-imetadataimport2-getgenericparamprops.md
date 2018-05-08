@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetGenericParamProps
-title: IMetaDataImport2::GetGenericParamProps method
+title: IMetaDataImport2::GetGenericParamProps
 author: windows-driver-content
 description: Gets the metadata associated with the generic parameter represented by the specified token.
 old-location: winrt\imetadataimport2_getgenericparamprops.htm
 old-project: WinRT
 ms.assetid: 3967e82c-64e3-4d05-b10a-e4e86f9f60ab
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetGenericParamProps method [Windows Runtime], GetGenericParamProps method [Windows Runtime], IMetaDataImport2 interface, GetGenericParamProps,IMetaDataImport2.GetGenericParamProps, IMetaDataImport2, IMetaDataImport2 interface [Windows Runtime], GetGenericParamProps method, IMetaDataImport2::GetGenericParamProps, rometadataapi/IMetaDataImport2::GetGenericParamProps, winrt.imetadataimport2_getgenericparamprops
+ms.date: 5/4/2018
+ms.keywords: GetGenericParamProps, GetGenericParamProps method [Windows Runtime], GetGenericParamProps method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetGenericParamProps method, IMetaDataImport2.GetGenericParamProps, IMetaDataImport2::GetGenericParamProps, rometadataapi/IMetaDataImport2::GetGenericParamProps, winrt.imetadataimport2_getgenericparamprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport2::GetGenericParamProps method
+# IMetaDataImport2::GetGenericParamProps
 
 
 ## -description

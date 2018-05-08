@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.SavePackageToStream
-title: IXpsSignatureManager::SavePackageToStream method
+title: IXpsSignatureManager::SavePackageToStream
 author: windows-driver-content
 description: Saves the XPS package by writing it to a stream.
 old-location: xps\ixpssignaturemanager_savepackagetostream.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1a29c8e2-2e5d-4cc0-adfd-6debabca9243
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], SavePackageToStream method, IXpsSignatureManager::SavePackageToStream, SavePackageToStream method [XPS Documents and Packaging], SavePackageToStream method [XPS Documents and Packaging], IXpsSignatureManager interface, SavePackageToStream,IXpsSignatureManager.SavePackageToStream, xps.ixpssignaturemanager_savepackagetostream, xpsdigitalsignature/IXpsSignatureManager::SavePackageToStream
+ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],SavePackageToStream method, IXpsSignatureManager.SavePackageToStream, IXpsSignatureManager::SavePackageToStream, SavePackageToStream, SavePackageToStream method [XPS Documents and Packaging], SavePackageToStream method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_savepackagetostream, xpsdigitalsignature/IXpsSignatureManager::SavePackageToStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureManager::SavePackageToStream method
+# IXpsSignatureManager::SavePackageToStream
 
 
 ## -description

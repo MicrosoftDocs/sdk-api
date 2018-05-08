@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.Append
-title: IXpsOMFontResourceCollection::Append method
+title: IXpsOMFontResourceCollection::Append
 author: windows-driver-content
 description: Appends an IXpsOMFontResource interface to the end of the collection.
 old-location: xps\ixpsomfontresourcecollection_append.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: ddee8ecc-6426-47b2-940d-045c21ce588c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging], IXpsOMFontResourceCollection interface, Append,IXpsOMFontResourceCollection.Append, IXpsOMFontResourceCollection, IXpsOMFontResourceCollection interface [XPS Documents and Packaging], Append method, IXpsOMFontResourceCollection::Append, xps.ixpsomfontresourcecollection_append, xpsobjectmodel/IXpsOMFontResourceCollection::Append
+ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMFontResourceCollection.Append, IXpsOMFontResourceCollection::Append, xps.ixpsomfontresourcecollection_append, xpsobjectmodel/IXpsOMFontResourceCollection::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMFontResourceCollection::Append method
+# IXpsOMFontResourceCollection::Append
 
 
 ## -description

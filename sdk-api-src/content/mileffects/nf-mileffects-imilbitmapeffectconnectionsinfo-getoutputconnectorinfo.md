@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectionsInfo.GetOutputConnectorInfo
-title: IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo method
+title: IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo
 author: windows-driver-content
 description: Retrieves the IMILBitmapEffectConnectorInfo associated with the given output pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\getoutputconnectorinfo.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetOutputConnectorInfo method [WPF Bitmap Effects], GetOutputConnectorInfo method [WPF Bitmap Effects], IMILBitmapEffectConnectionsInfo interface, GetOutputConnectorInfo,IMILBitmapEffectConnectionsInfo.GetOutputConnectorInfo, IMILBitmapEffectConnectionsInfo, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects], GetOutputConnectorInfo method, IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo, _wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo, mileffects/IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo, wibe._wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo
+ms.keywords: GetOutputConnectorInfo, GetOutputConnectorInfo method [WPF Bitmap Effects], GetOutputConnectorInfo method [WPF Bitmap Effects],IMILBitmapEffectConnectionsInfo interface, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],GetOutputConnectorInfo method, IMILBitmapEffectConnectionsInfo.GetOutputConnectorInfo, IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo, _wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo, mileffects/IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo, wibe._wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo method
+# IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo
 
 
 ## -description

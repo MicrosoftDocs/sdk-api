@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeletePropertyItem
-title: IAzApplicationGroup::DeletePropertyItem method
+title: IAzApplicationGroup::DeletePropertyItem
 author: windows-driver-content
 description: Removes the specified entity from the specified list.
 old-location: security\iazapplicationgroup_deletepropertyitem.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 63ed036a-ad1d-47a8-a4c7-f23fc060c2db
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AzApplicationGroup object [Security], DeletePropertyItem method, DeletePropertyItem method [Security], DeletePropertyItem method [Security], AzApplicationGroup object, DeletePropertyItem method [Security], IAzApplicationGroup interface, DeletePropertyItem,IAzApplicationGroup.DeletePropertyItem, IAzApplicationGroup, IAzApplicationGroup interface [Security], DeletePropertyItem method, IAzApplicationGroup::DeletePropertyItem, azroles/IAzApplicationGroup::DeletePropertyItem, security.iazapplicationgroup_deletepropertyitem
+ms.keywords: AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AzApplicationGroup object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzApplicationGroup object, DeletePropertyItem method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeletePropertyItem method, IAzApplicationGroup.DeletePropertyItem, IAzApplicationGroup::DeletePropertyItem, azroles/IAzApplicationGroup::DeletePropertyItem, security.iazapplicationgroup_deletepropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplicationGroup::DeletePropertyItem method
+# IAzApplicationGroup::DeletePropertyItem
 
 
 ## -description

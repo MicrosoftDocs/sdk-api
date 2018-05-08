@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.GetDesc
-title: IDirect3DSurface9::GetDesc method
+title: IDirect3DSurface9::GetDesc
 author: windows-driver-content
 description: Retrieves a description of the surface.
 old-location: direct3d9\idirect3dsurface9__getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getdesc.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 068aa9b6-08d4-5e72-dc9f-18e83e42aef2, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9], IDirect3DSurface9 interface, GetDesc,IDirect3DSurface9.GetDesc, IDirect3DSurface9, IDirect3DSurface9 interface [Direct3D 9], GetDesc method, IDirect3DSurface9::GetDesc, d3d9helper/IDirect3DSurface9::GetDesc, direct3d9.idirect3dsurface9__getdesc
+ms.keywords: 068aa9b6-08d4-5e72-dc9f-18e83e42aef2, GetDesc, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetDesc method, IDirect3DSurface9.GetDesc, IDirect3DSurface9::GetDesc, d3d9helper/IDirect3DSurface9::GetDesc, direct3d9.idirect3dsurface9__getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DSurface9::GetDesc method
+# IDirect3DSurface9::GetDesc
 
 
 ## -description

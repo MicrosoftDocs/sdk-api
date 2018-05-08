@@ -1,14 +1,14 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Clone
-title: IEnumPIDMap::Clone method
+title: IEnumPIDMap::Clone
 author: windows-driver-content
 description: The Clone method creates a copy the collection.
 old-location: dshow\ienumpidmap_clone.htm
 old-project: DirectShow
 ms.assetid: 4d965a71-ff5e-4d4a-8976-0de5b8bbae04
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Clone method [DirectShow], Clone method [DirectShow], IEnumPIDMap interface, Clone,IEnumPIDMap.Clone, IEnumPIDMap, IEnumPIDMap interface [DirectShow], Clone method, IEnumPIDMap::Clone, IEnumPIDMapClone, bdaiface/IEnumPIDMap::Clone, dshow.ienumpidmap_clone
+ms.date: 4/30/2018
+ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumPIDMap interface, IEnumPIDMap interface [DirectShow],Clone method, IEnumPIDMap.Clone, IEnumPIDMap::Clone, IEnumPIDMapClone, bdaiface/IEnumPIDMap::Clone, dshow.ienumpidmap_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumPIDMap::Clone method
+# IEnumPIDMap::Clone
 
 
 ## -description

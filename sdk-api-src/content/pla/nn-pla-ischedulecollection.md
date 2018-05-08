@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 40b4a77c-5ab4-4443-801c-2e425b6ca1bc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IScheduleCollection, IScheduleCollection interface [PLA], IScheduleCollection interface [PLA], described, base.ischedulecollection, pla.ischedulecollection, pla/IScheduleCollection
+ms.keywords: IScheduleCollection, IScheduleCollection interface [PLA], IScheduleCollection interface [PLA],described, base.ischedulecollection, pla.ischedulecollection, pla/IScheduleCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

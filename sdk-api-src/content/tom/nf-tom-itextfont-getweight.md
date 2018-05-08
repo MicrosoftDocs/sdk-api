@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetWeight
-title: ITextFont::GetWeight method
+title: ITextFont::GetWeight
 author: windows-driver-content
 description: Gets the font weight for the characters in a range.
 old-location: controls\ITextFont_GetWeight.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getweight.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetWeight method [Windows Controls], GetWeight method [Windows Controls], ITextFont interface, GetWeight,ITextFont.GetWeight, ITextFont, ITextFont interface [Windows Controls], GetWeight method, ITextFont::GetWeight, _win32_ITextFont_GetWeight, _win32_ITextFont_GetWeight_cpp, controls.ITextFont_GetWeight, controls._win32_ITextFont_GetWeight, tom/ITextFont::GetWeight
+ms.date: 4/27/2018
+ms.keywords: GetWeight, GetWeight method [Windows Controls], GetWeight method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetWeight method, ITextFont.GetWeight, ITextFont::GetWeight, _win32_ITextFont_GetWeight, _win32_ITextFont_GetWeight_cpp, controls.ITextFont_GetWeight, controls._win32_ITextFont_GetWeight, tom/ITextFont::GetWeight
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetWeight method
+# ITextFont::GetWeight
 
 
 ## -description

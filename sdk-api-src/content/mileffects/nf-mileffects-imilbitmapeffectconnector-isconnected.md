@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnector.IsConnected
-title: IMILBitmapEffectConnector::IsConnected method
+title: IMILBitmapEffectConnector::IsConnected
 author: windows-driver-content
 description: Determines whether the connector is connected to an effect.
 old-location: wibe\_wibe_imilbitmapeffectconnector_isconnected.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnector\isconnected.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffectConnector, IMILBitmapEffectConnector interface [WPF Bitmap Effects], IsConnected method, IMILBitmapEffectConnector::IsConnected, IsConnected method [WPF Bitmap Effects], IsConnected method [WPF Bitmap Effects], IMILBitmapEffectConnector interface, IsConnected,IMILBitmapEffectConnector.IsConnected, _wibe_imilbitmapeffectconnector_isconnected, mileffects/IMILBitmapEffectConnector::IsConnected, wibe._wibe_imilbitmapeffectconnector_isconnected
+ms.keywords: IMILBitmapEffectConnector interface [WPF Bitmap Effects],IsConnected method, IMILBitmapEffectConnector.IsConnected, IMILBitmapEffectConnector::IsConnected, IsConnected, IsConnected method [WPF Bitmap Effects], IsConnected method [WPF Bitmap Effects],IMILBitmapEffectConnector interface, _wibe_imilbitmapeffectconnector_isconnected, mileffects/IMILBitmapEffectConnector::IsConnected, wibe._wibe_imilbitmapeffectconnector_isconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectConnector::IsConnected method
+# IMILBitmapEffectConnector::IsConnected
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_FocusRelative
-title: ICameraControl::getRange_FocusRelative method
+title: ICameraControl::getRange_FocusRelative
 author: windows-driver-content
 description: The getRange_FocusRelative method returns the range of relative focal distances supported by the camera. The relative focus indicates the direction in which the lens group is moving.
 old-location: dshow\icameracontrol_getrange_focusrelative.htm
 old-project: DirectShow
 ms.assetid: c5038a59-bdc4-4034-afd1-256003687187
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], getRange_FocusRelative method, ICameraControl::getRange_FocusRelative, ICameraControlgetRange_FocusRelative, dshow.icameracontrol_getrange_focusrelative, getRange_FocusRelative method [DirectShow], getRange_FocusRelative method [DirectShow], ICameraControl interface, getRange_FocusRelative,ICameraControl.getRange_FocusRelative, vidcap/ICameraControl::getRange_FocusRelative
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],getRange_FocusRelative method, ICameraControl.getRange_FocusRelative, ICameraControl::getRange_FocusRelative, ICameraControlgetRange_FocusRelative, dshow.icameracontrol_getrange_focusrelative, getRange_FocusRelative, getRange_FocusRelative method [DirectShow], getRange_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_FocusRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::getRange_FocusRelative method
+# ICameraControl::getRange_FocusRelative
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ReservedNotSupportedValue
-title: IUIAutomation::get_ReservedNotSupportedValue method
+title: IUIAutomation::get_ReservedNotSupportedValue
 author: windows-driver-content
 description: Retrieves a static token object representing a property or text attribute that is not supported.
 old-location: winauto\uiauto_IUIAutomation_ReservedNotSupportedValue.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 00162b3c-fab8-4559-83c0-d8c6731441c3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomation, IUIAutomation interface [Windows Accessibility], ReservedNotSupportedValue property, IUIAutomation.ReservedNotSupportedValue, IUIAutomation::get_ReservedNotSupportedValue, ReservedNotSupportedValue property [Windows Accessibility], ReservedNotSupportedValue property [Windows Accessibility], IUIAutomation interface, get_ReservedNotSupportedValue,IUIAutomation.get_ReservedNotSupportedValue, uiauto.uiauto_IUIAutomation_ReservedNotSupportedValue, uiauto_IUIAutomation_ReservedNotSupportedValue, uiautomationclient/IUIAutomation::ReservedNotSupportedValue, uiautomationclient/IUIAutomation::get_ReservedNotSupportedValue, winauto.uiauto_IUIAutomation_ReservedNotSupportedValue
+ms.keywords: IUIAutomation interface [Windows Accessibility],ReservedNotSupportedValue property, IUIAutomation.ReservedNotSupportedValue, IUIAutomation.get_ReservedNotSupportedValue, IUIAutomation::ReservedNotSupportedValue, IUIAutomation::get_ReservedNotSupportedValue, ReservedNotSupportedValue property [Windows Accessibility], ReservedNotSupportedValue property [Windows Accessibility],IUIAutomation interface, get_ReservedNotSupportedValue, uiauto.uiauto_IUIAutomation_ReservedNotSupportedValue, uiauto_IUIAutomation_ReservedNotSupportedValue, uiautomationclient/IUIAutomation::ReservedNotSupportedValue, uiautomationclient/IUIAutomation::get_ReservedNotSupportedValue, winauto.uiauto_IUIAutomation_ReservedNotSupportedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::get_ReservedNotSupportedValue method
+# IUIAutomation::get_ReservedNotSupportedValue
 
 
 ## -description

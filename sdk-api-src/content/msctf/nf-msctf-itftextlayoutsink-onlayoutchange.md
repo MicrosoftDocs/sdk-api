@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfTextLayoutSink.OnLayoutChange
-title: ITfTextLayoutSink::OnLayoutChange method
+title: ITfTextLayoutSink::OnLayoutChange
 author: windows-driver-content
 description: ITfTextLayoutSink::OnLayoutChange method
 old-location: tsf\itftextlayoutsink_onlayoutchange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a99313ab-98a7-4fc0-b3ae-78ff26a41d8e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfTextLayoutSink, ITfTextLayoutSink interface [Text Services Framework], OnLayoutChange method, ITfTextLayoutSink::OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework], ITfTextLayoutSink interface, OnLayoutChange,ITfTextLayoutSink.OnLayoutChange, _tsf_itftextlayoutsink_onlayoutchange_ref, msctf/ITfTextLayoutSink::OnLayoutChange, tsf.itftextlayoutsink_onlayoutchange
+ms.keywords: ITfTextLayoutSink interface [Text Services Framework],OnLayoutChange method, ITfTextLayoutSink.OnLayoutChange, ITfTextLayoutSink::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITfTextLayoutSink interface, _tsf_itftextlayoutsink_onlayoutchange_ref, msctf/ITfTextLayoutSink::OnLayoutChange, tsf.itftextlayoutsink_onlayoutchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfTextLayoutSink::OnLayoutChange method
+# ITfTextLayoutSink::OnLayoutChange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter4.AddPackageReference
-title: IAppxBundleWriter4::AddPackageReference method
+title: IAppxBundleWriter4::AddPackageReference
 author: windows-driver-content
 description: Adds a reference to an optional app package or a payload file within an app bundle.
 old-location: appxpkg\iappxbundlewriter4_addpackagereference.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 16ADE271-C507-4CC4-BB42-E76438B79436
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AddPackageReference method [App packaging and management], AddPackageReference method [App packaging and management], IAppxBundleWriter4 interface, AddPackageReference,IAppxBundleWriter4.AddPackageReference, IAppxBundleWriter4, IAppxBundleWriter4 interface [App packaging and management], AddPackageReference method, IAppxBundleWriter4::AddPackageReference, appxpackaging/IAppxBundleWriter4::AddPackageReference, appxpkg.iappxbundlewriter4_addpackagereference
+ms.keywords: AddPackageReference, AddPackageReference method [App packaging and management], AddPackageReference method [App packaging and management],IAppxBundleWriter4 interface, IAppxBundleWriter4 interface [App packaging and management],AddPackageReference method, IAppxBundleWriter4.AddPackageReference, IAppxBundleWriter4::AddPackageReference, appxpackaging/IAppxBundleWriter4::AddPackageReference, appxpkg.iappxbundlewriter4_addpackagereference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleWriter4::AddPackageReference method
+# IAppxBundleWriter4::AddPackageReference
 
 
 ## -description

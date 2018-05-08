@@ -7,8 +7,8 @@ old-location: wia\_wia_IWiaPropertyStorage.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\iwiapropertystorage.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaPropertyStorage, IWiaPropertyStorage interface [WIA], IWiaPropertyStorage interface [WIA], described, _wia_IWiaPropertyStorage, wia._wia_IWiaPropertyStorage, wia_xp/IWiaPropertyStorage
+ms.date: 5/3/2018
+ms.keywords: IWiaPropertyStorage, IWiaPropertyStorage interface [WIA], IWiaPropertyStorage interface [WIA],described, _wia_IWiaPropertyStorage, wia._wia_IWiaPropertyStorage, wia_xp/IWiaPropertyStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

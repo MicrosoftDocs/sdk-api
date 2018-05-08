@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbapp.IWsbApplicationAsync.Abort
-title: IWsbApplicationAsync::Abort method
+title: IWsbApplicationAsync::Abort
 author: windows-driver-content
 description: Cancels an incomplete asynchronous operation.
 old-location: wsb\iwsbapplicationasync_abort.htm
@@ -8,7 +8,7 @@ old-project: wsb
 ms.assetid: 937ca809-4bb0-408e-9c7e-eccc43d8d4ae
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Abort method [Windows Server Backup], Abort method [Windows Server Backup], IWsbApplicationAsync interface, Abort,IWsbApplicationAsync.Abort, IWsbApplicationAsync, IWsbApplicationAsync interface [Windows Server Backup], Abort method, IWsbApplicationAsync::Abort, wsb.iwsbapplicationasync_abort, wsbapp/IWsbApplicationAsync::Abort
+ms.keywords: Abort, Abort method [Windows Server Backup], Abort method [Windows Server Backup],IWsbApplicationAsync interface, IWsbApplicationAsync interface [Windows Server Backup],Abort method, IWsbApplicationAsync.Abort, IWsbApplicationAsync::Abort, wsb.iwsbapplicationasync_abort, wsbapp/IWsbApplicationAsync::Abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWsbApplicationAsync::Abort method
+# IWsbApplicationAsync::Abort
 
 
 ## -description

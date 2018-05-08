@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackup.GenerateReportToFile
-title: IGPMStarterGPOBackup::GenerateReportToFile method
+title: IGPMStarterGPOBackup::GenerateReportToFile
 author: windows-driver-content
 description: The GenerateReportToFile gets the report for the backup Starter GPO and saves it to a file at a specified path.
 old-location: gpmc\igpmstartergpobackup_generatereporttofile.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: d7d05436-acd7-4b80-93e4-ea80e3eb1fff
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC], IGPMStarterGPOBackup interface, GenerateReportToFile,IGPMStarterGPOBackup.GenerateReportToFile, IGPMStarterGPOBackup, IGPMStarterGPOBackup interface [GPMC], GenerateReportToFile method, IGPMStarterGPOBackup::GenerateReportToFile, gpmc.igpmstartergpobackup_generatereporttofile, gpmgmt/IGPMStarterGPOBackup::GenerateReportToFile
+ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMStarterGPOBackup interface, IGPMStarterGPOBackup interface [GPMC],GenerateReportToFile method, IGPMStarterGPOBackup.GenerateReportToFile, IGPMStarterGPOBackup::GenerateReportToFile, gpmc.igpmstartergpobackup_generatereporttofile, gpmgmt/IGPMStarterGPOBackup::GenerateReportToFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMStarterGPOBackup::GenerateReportToFile method
+# IGPMStarterGPOBackup::GenerateReportToFile
 
 
 ## -description

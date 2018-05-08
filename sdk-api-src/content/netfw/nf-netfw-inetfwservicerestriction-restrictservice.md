@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwServiceRestriction.RestrictService
-title: INetFwServiceRestriction::RestrictService method
+title: INetFwServiceRestriction::RestrictService
 author: windows-driver-content
 description: The RestrictService method turns service restriction on or off for a given service.
 old-location: ics\inetfwservicerestriction_restrictservice.htm
 old-project: ICS
 ms.assetid: 5695bcb7-a83a-4581-8f46-00e85273b160
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwServiceRestriction, INetFwServiceRestriction interface [ICS/ICF], RestrictService method, INetFwServiceRestriction::RestrictService, RestrictService method [ICS/ICF], RestrictService method [ICS/ICF], INetFwServiceRestriction interface, RestrictService,INetFwServiceRestriction.RestrictService, ics.inetfwservicerestriction_restrictservice, netfw/INetFwServiceRestriction::RestrictService
+ms.date: 5/1/2018
+ms.keywords: INetFwServiceRestriction interface [ICS/ICF],RestrictService method, INetFwServiceRestriction.RestrictService, INetFwServiceRestriction::RestrictService, RestrictService, RestrictService method [ICS/ICF], RestrictService method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_restrictservice, netfw/INetFwServiceRestriction::RestrictService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwServiceRestriction::RestrictService method
+# INetFwServiceRestriction::RestrictService
 
 
 ## -description

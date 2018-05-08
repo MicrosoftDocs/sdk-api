@@ -7,7 +7,7 @@ old-location: mf\mfvideoalphabitmap.htm
 old-project: medfound
 ms.assetid: 609041f2-7ba4-4157-819b-4ac21612dca2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 609041f2-7ba4-4157-819b-4ac21612dca2, MFVideoAlphaBitmap, MFVideoAlphaBitmap structure [Media Foundation], evr9/MFVideoAlphaBitmap, mf.mfvideoalphabitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,15 +72,19 @@ A union that contains the following members.
 
 
 
-#### hdc
+#### pDDs
+
+Pointer to the <b>IDirect3DSurface9</b> interface of a Direct3D surface that contains the bitmap. If <b>GetBitmapFromDC</b> is <b>TRUE</b>, this member is ignored.
+
+
+### -field bitmap.hdc
 
 Handle to the device context (DC) of a GDI bitmap. If <b>GetBitmapFromDC</b> is <b>FALSE</b>, this member is ignored.
 
 
+### -field bitmap.pDDS
 
-#### pDDs
-
-Pointer to the <b>IDirect3DSurface9</b> interface of a Direct3D surface that contains the bitmap. If <b>GetBitmapFromDC</b> is <b>TRUE</b>, this member is ignored.
+ 
 
 
 ### -field params

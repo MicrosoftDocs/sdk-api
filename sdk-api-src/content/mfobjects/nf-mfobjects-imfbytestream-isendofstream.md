@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFByteStream.IsEndOfStream
-title: IMFByteStream::IsEndOfStream method
+title: IMFByteStream::IsEndOfStream
 author: windows-driver-content
 description: Queries whether the current position has reached the end of the stream.
 old-location: mf\imfbytestream_isendofstream.htm
 old-project: medfound
 ms.assetid: 5e5c02ea-d3fc-4d8d-aa8b-87aa033a3644
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 5e5c02ea-d3fc-4d8d-aa8b-87aa033a3644, IMFByteStream, IMFByteStream interface [Media Foundation], IsEndOfStream method, IMFByteStream::IsEndOfStream, IsEndOfStream method [Media Foundation], IsEndOfStream method [Media Foundation], IMFByteStream interface, IsEndOfStream,IMFByteStream.IsEndOfStream, mf.imfbytestream_isendofstream, mfobjects/IMFByteStream::IsEndOfStream
+ms.date: 5/3/2018
+ms.keywords: 5e5c02ea-d3fc-4d8d-aa8b-87aa033a3644, IMFByteStream interface [Media Foundation],IsEndOfStream method, IMFByteStream.IsEndOfStream, IMFByteStream::IsEndOfStream, IsEndOfStream, IsEndOfStream method [Media Foundation], IsEndOfStream method [Media Foundation],IMFByteStream interface, mf.imfbytestream_isendofstream, mfobjects/IMFByteStream::IsEndOfStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStream::IsEndOfStream method
+# IMFByteStream::IsEndOfStream
 
 
 ## -description

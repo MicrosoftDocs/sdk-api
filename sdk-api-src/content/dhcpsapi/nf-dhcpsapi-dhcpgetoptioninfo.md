@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetoptioninfo.htm
 old-project: DHCP
 ms.assetid: b62b0a07-3043-417d-affe-d3a350907f4e
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpGetOptionInfo, DhcpGetOptionInfo function [DHCP], dhcp.dhcpgetoptioninfo, dhcpsapi/DhcpGetOptionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

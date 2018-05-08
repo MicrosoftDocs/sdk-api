@@ -7,7 +7,7 @@ old-location: controls\MakeDragList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\draglb\functions\makedraglist.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: MakeDragList, MakeDragList function [Windows Controls], _win32_MakeDragList, _win32_MakeDragList_cpp, commctrl/MakeDragList, controls.MakeDragList, controls._win32_MakeDragList
 ms.prod: windows-hardware
 ms.technology: windows-devices

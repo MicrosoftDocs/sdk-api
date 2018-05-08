@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.Reconnect
-title: IRemoteDesktopClient::Reconnect method
+title: IRemoteDesktopClient::Reconnect
 author: windows-driver-content
 description: Initiates an automatic reconnection of the Remote Desktop Protocol (RDP) app container client control to fit the session to the new width and height.
 old-location: termserv\iremotedesktopclient_reconnect.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: ef000769-a2d8-4d62-99d9-33ffc18ec8f6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IRemoteDesktopClient, IRemoteDesktopClient interface [Remote Desktop Services], Reconnect method, IRemoteDesktopClient::Reconnect, Reconnect method [Remote Desktop Services], Reconnect method [Remote Desktop Services], IRemoteDesktopClient interface, Reconnect,IRemoteDesktopClient.Reconnect, rdpappcontainerclient/IRemoteDesktopClient::Reconnect, termserv.iremotedesktopclient_reconnect
+ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],Reconnect method, IRemoteDesktopClient.Reconnect, IRemoteDesktopClient::Reconnect, Reconnect, Reconnect method [Remote Desktop Services], Reconnect method [Remote Desktop Services],IRemoteDesktopClient interface, rdpappcontainerclient/IRemoteDesktopClient::Reconnect, termserv.iremotedesktopclient_reconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRemoteDesktopClient::Reconnect method
+# IRemoteDesktopClient::Reconnect
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_LastRunTime
-title: IRegisteredTask::get_LastRunTime method
+title: IRegisteredTask::get_LastRunTime
 author: windows-driver-content
 description: Gets the time the registered task was last run.
 old-location: taskschd\iregisteredtask_lastruntime.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: c7ac7fea-35c7-4336-9142-6c97caa1dea0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], LastRunTime property, IRegisteredTask.LastRunTime, IRegisteredTask::get_LastRunTime, LastRunTime property [Task Scheduler], LastRunTime property [Task Scheduler], IRegisteredTask interface, get_LastRunTime,IRegisteredTask.get_LastRunTime, taskschd.iregisteredtask_lastruntime, taskschd/IRegisteredTask::LastRunTime, taskschd/IRegisteredTask::get_LastRunTime
+ms.keywords: IRegisteredTask interface [Task Scheduler],LastRunTime property, IRegisteredTask.LastRunTime, IRegisteredTask.get_LastRunTime, IRegisteredTask::LastRunTime, IRegisteredTask::get_LastRunTime, LastRunTime property [Task Scheduler], LastRunTime property [Task Scheduler],IRegisteredTask interface, get_LastRunTime, taskschd.iregisteredtask_lastruntime, taskschd/IRegisteredTask::LastRunTime, taskschd/IRegisteredTask::get_LastRunTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegisteredTask::get_LastRunTime method
+# IRegisteredTask::get_LastRunTime
 
 
 ## -description

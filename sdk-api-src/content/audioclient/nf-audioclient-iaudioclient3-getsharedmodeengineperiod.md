@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient3.GetSharedModeEnginePeriod
-title: IAudioClient3::GetSharedModeEnginePeriod method
+title: IAudioClient3::GetSharedModeEnginePeriod
 author: windows-driver-content
 description: Returns the range of periodicities supported by the engine for the specified stream format.
 old-location: coreaudio\iaudioclient3_getsharedmodeengineperiod.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 41ED045F-0C47-40BE-9ECD-6A925E166E6D
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetSharedModeEnginePeriod method [Core Audio], GetSharedModeEnginePeriod method [Core Audio], IAudioClient3 interface, GetSharedModeEnginePeriod,IAudioClient3.GetSharedModeEnginePeriod, IAudioClient3, IAudioClient3 interface [Core Audio], GetSharedModeEnginePeriod method, IAudioClient3::GetSharedModeEnginePeriod, audioclient/IAudioClient3::GetSharedModeEnginePeriod, coreaudio.iaudioclient3_getsharedmodeengineperiod
+ms.keywords: GetSharedModeEnginePeriod, GetSharedModeEnginePeriod method [Core Audio], GetSharedModeEnginePeriod method [Core Audio],IAudioClient3 interface, IAudioClient3 interface [Core Audio],GetSharedModeEnginePeriod method, IAudioClient3.GetSharedModeEnginePeriod, IAudioClient3::GetSharedModeEnginePeriod, audioclient/IAudioClient3::GetSharedModeEnginePeriod, coreaudio.iaudioclient3_getsharedmodeengineperiod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioClient3::GetSharedModeEnginePeriod method
+# IAudioClient3::GetSharedModeEnginePeriod
 
 
 ## -description

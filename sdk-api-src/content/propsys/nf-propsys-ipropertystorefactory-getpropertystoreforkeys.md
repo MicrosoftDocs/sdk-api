@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyStoreFactory.GetPropertyStoreForKeys
-title: IPropertyStoreFactory::GetPropertyStoreForKeys method
+title: IPropertyStoreFactory::GetPropertyStoreForKeys
 author: windows-driver-content
 description: Gets an IPropertyStore object, given a set of property keys. This provides an alternative, possibly faster, method of getting an IPropertyStore object compared to calling IPropertyStoreFactory::GetPropertyStore.
 old-location: properties\IPropertyStoreFactory_GetPropertyStoreForKeys.htm
 old-project: properties
 ms.assetid: ce17a245-46ff-412a-a807-6bc67b826c2f
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetPropertyStoreForKeys method [Windows Properties], GetPropertyStoreForKeys method [Windows Properties], IPropertyStoreFactory interface, GetPropertyStoreForKeys,IPropertyStoreFactory.GetPropertyStoreForKeys, IPropertyStoreFactory, IPropertyStoreFactory interface [Windows Properties], GetPropertyStoreForKeys method, IPropertyStoreFactory::GetPropertyStoreForKeys, _shell_IPropertyStoreFactory_GetPropertyStoreForKeys, properties.IPropertyStoreFactory_GetPropertyStoreForKeys, propsys/IPropertyStoreFactory::GetPropertyStoreForKeys, shell.IPropertyStoreFactory_GetPropertyStoreForKeys
+ms.date: 4/27/2018
+ms.keywords: GetPropertyStoreForKeys, GetPropertyStoreForKeys method [Windows Properties], GetPropertyStoreForKeys method [Windows Properties],IPropertyStoreFactory interface, IPropertyStoreFactory interface [Windows Properties],GetPropertyStoreForKeys method, IPropertyStoreFactory.GetPropertyStoreForKeys, IPropertyStoreFactory::GetPropertyStoreForKeys, _shell_IPropertyStoreFactory_GetPropertyStoreForKeys, properties.IPropertyStoreFactory_GetPropertyStoreForKeys, propsys/IPropertyStoreFactory::GetPropertyStoreForKeys, shell.IPropertyStoreFactory_GetPropertyStoreForKeys
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyStoreFactory::GetPropertyStoreForKeys method
+# IPropertyStoreFactory::GetPropertyStoreForKeys
 
 
 ## -description

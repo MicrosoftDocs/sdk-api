@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.SetPacketValuesByProperty
-title: IInkStrokeDisp::SetPacketValuesByProperty method
+title: IInkStrokeDisp::SetPacketValuesByProperty
 author: windows-driver-content
 description: Modifies the packet values for a particular property.
 old-location: tablet\iinkstrokedisp_setpacketvaluesbyproperty.htm
 old-project: tablet
 ms.assetid: 9d90e93e-4c4a-43bd-a431-59522e332f2a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 9d90e93e-4c4a-43bd-a431-59522e332f2a, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], SetPacketValuesByProperty method, IInkStrokeDisp::SetPacketValuesByProperty, SetPacketValuesByProperty method [Tablet PC], SetPacketValuesByProperty method [Tablet PC], IInkStrokeDisp interface, SetPacketValuesByProperty,IInkStrokeDisp.SetPacketValuesByProperty, msinkaut/IInkStrokeDisp::SetPacketValuesByProperty, tablet.iinkstrokedisp_setpacketvaluesbyproperty
+ms.date: 5/2/2018
+ms.keywords: 9d90e93e-4c4a-43bd-a431-59522e332f2a, IInkStrokeDisp interface [Tablet PC],SetPacketValuesByProperty method, IInkStrokeDisp.SetPacketValuesByProperty, IInkStrokeDisp::SetPacketValuesByProperty, SetPacketValuesByProperty, SetPacketValuesByProperty method [Tablet PC], SetPacketValuesByProperty method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::SetPacketValuesByProperty, tablet.iinkstrokedisp_setpacketvaluesbyproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::SetPacketValuesByProperty method
+# IInkStrokeDisp::SetPacketValuesByProperty
 
 
 ## -description

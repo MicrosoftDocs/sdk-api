@@ -7,7 +7,7 @@ old-location: controls\ListView_SetGroupMetrics.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupmetrics.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: ListView_SetGroupMetrics, ListView_SetGroupMetrics macro [Windows Controls], _win32_ListView_SetGroupMetrics, _win32_ListView_SetGroupMetrics_cpp, commctrl/ListView_SetGroupMetrics, controls.ListView_SetGroupMetrics, controls._win32_ListView_SetGroupMetrics
 ms.prod: windows-hardware
 ms.technology: windows-devices

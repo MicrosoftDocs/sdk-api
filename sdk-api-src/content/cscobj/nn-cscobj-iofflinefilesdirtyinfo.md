@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 10414443-9e7f-4520-80dd-d2ad098c1d44
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesDirtyInfo, IOfflineFilesDirtyInfo interface [Offline Files], IOfflineFilesDirtyInfo interface [Offline Files], described, cscobj/IOfflineFilesDirtyInfo, of.iofflinefilesdirtyinfo
+ms.keywords: IOfflineFilesDirtyInfo, IOfflineFilesDirtyInfo interface [Offline Files], IOfflineFilesDirtyInfo interface [Offline Files],described, cscobj/IOfflineFilesDirtyInfo, of.iofflinefilesdirtyinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

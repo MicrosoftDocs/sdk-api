@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.SetRectComplex
-title: IOleDocumentView::SetRectComplex method
+title: IOleDocumentView::SetRectComplex
 author: windows-driver-content
 description: Sets the rectangular coordinates of the viewport, scroll bars, and size box.
 old-location: com\ioledocumentview_setrectcomplex.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d220b200-85cb-43ff-a59d-147c14eef544
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], SetRectComplex method, IOleDocumentView::SetRectComplex, SetRectComplex method [COM], SetRectComplex method [COM], IOleDocumentView interface, SetRectComplex,IOleDocumentView.SetRectComplex, _ole_ioledocumentview_setrectcomplex, com.ioledocumentview_setrectcomplex, docobj/IOleDocumentView::SetRectComplex
+ms.keywords: IOleDocumentView interface [COM],SetRectComplex method, IOleDocumentView.SetRectComplex, IOleDocumentView::SetRectComplex, SetRectComplex, SetRectComplex method [COM], SetRectComplex method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrectcomplex, com.ioledocumentview_setrectcomplex, docobj/IOleDocumentView::SetRectComplex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IOleDocumentView::SetRectComplex method
+# IOleDocumentView::SetRectComplex
 
 
 ## -description

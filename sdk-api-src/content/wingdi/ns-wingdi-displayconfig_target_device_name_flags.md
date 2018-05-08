@@ -94,7 +94,7 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>valu
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>value</b> member to zeros.
 
 
-#### - value
+### -field DUMMYUNIONNAME.value
 
 A member in the union that DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS contains that can hold a 32-bit value that identifies information about the device.
 

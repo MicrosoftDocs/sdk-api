@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetElementLanguageCode
-title: IServiceLocationDescriptor::GetElementLanguageCode method
+title: IServiceLocationDescriptor::GetElementLanguageCode
 author: windows-driver-content
 description: Gets the three-character ISO 639 language code for an Advanced Television Systems Committee (ATSC) service location descriptor.
 old-location: mstv\iservicelocationdescriptor_getelementlanguagecode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8ffc0c58-1305-49bf-bdbd-efb18805516f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetElementLanguageCode method [Microsoft TV Technologies], GetElementLanguageCode method [Microsoft TV Technologies], IServiceLocationDescriptor interface, GetElementLanguageCode,IServiceLocationDescriptor.GetElementLanguageCode, IServiceLocationDescriptor, IServiceLocationDescriptor interface [Microsoft TV Technologies], GetElementLanguageCode method, IServiceLocationDescriptor::GetElementLanguageCode, atscpsipparser/IServiceLocationDescriptor::GetElementLanguageCode, mstv.iservicelocationdescriptor_getelementlanguagecode
+ms.keywords: GetElementLanguageCode, GetElementLanguageCode method [Microsoft TV Technologies], GetElementLanguageCode method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementLanguageCode method, IServiceLocationDescriptor.GetElementLanguageCode, IServiceLocationDescriptor::GetElementLanguageCode, atscpsipparser/IServiceLocationDescriptor::GetElementLanguageCode, mstv.iservicelocationdescriptor_getelementlanguagecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServiceLocationDescriptor::GetElementLanguageCode method
+# IServiceLocationDescriptor::GetElementLanguageCode
 
 
 ## -description

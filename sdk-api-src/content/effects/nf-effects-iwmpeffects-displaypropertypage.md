@@ -1,14 +1,14 @@
 ---
 UID: NF:effects.IWMPEffects.DisplayPropertyPage
-title: IWMPEffects::DisplayPropertyPage method
+title: IWMPEffects::DisplayPropertyPage
 author: windows-driver-content
 description: The DisplayPropertyPage method displays the property page of a visualization, if it exists.
 old-location: wmp\iwmpeffects_displaypropertypage.htm
 old-project: WMP
 ms.assetid: dadde782-577d-4dcb-b8ae-2f6ddca77a40
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: DisplayPropertyPage method [Windows Media Player], DisplayPropertyPage method [Windows Media Player], IWMPEffects interface, DisplayPropertyPage,IWMPEffects.DisplayPropertyPage, EffectsDisplayPropertyPage, IWMPEffects, IWMPEffects interface [Windows Media Player], DisplayPropertyPage method, IWMPEffects::DisplayPropertyPage, effects/IWMPEffects::DisplayPropertyPage, wmp.iwmpeffects_displaypropertypage
+ms.date: 5/4/2018
+ms.keywords: DisplayPropertyPage, DisplayPropertyPage method [Windows Media Player], DisplayPropertyPage method [Windows Media Player],IWMPEffects interface, EffectsDisplayPropertyPage, IWMPEffects interface [Windows Media Player],DisplayPropertyPage method, IWMPEffects.DisplayPropertyPage, IWMPEffects::DisplayPropertyPage, effects/IWMPEffects::DisplayPropertyPage, wmp.iwmpeffects_displaypropertypage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IWMPEffects::DisplayPropertyPage method
+# IWMPEffects::DisplayPropertyPage
 
 
 ## -description

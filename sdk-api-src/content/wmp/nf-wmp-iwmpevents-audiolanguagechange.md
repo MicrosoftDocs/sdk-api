@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.AudioLanguageChange
-title: IWMPEvents::AudioLanguageChange method
+title: IWMPEvents::AudioLanguageChange
 author: windows-driver-content
 description: The AudioLanguageChange event occurs when the current audio language changes.
 old-location: wmp\iwmpevents_iwmpevents__audiolanguagechange.htm
 old-project: WMP
 ms.assetid: c1dbe76f-5cc0-4c12-98bb-2586ee8773d5
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: AudioLanguageChange method [Windows Media Player], AudioLanguageChange method [Windows Media Player], IWMPEvents interface, AudioLanguageChange,IWMPEvents.AudioLanguageChange, IWMPEvents, IWMPEvents interface [Windows Media Player], AudioLanguageChange method, IWMPEvents::AudioLanguageChange, IWMPEventsAudioLanguageChange, wmp.iwmpevents_iwmpevents__audiolanguagechange, wmp/IWMPEvents::AudioLanguageChange
+ms.date: 5/4/2018
+ms.keywords: AudioLanguageChange, AudioLanguageChange method [Windows Media Player], AudioLanguageChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],AudioLanguageChange method, IWMPEvents.AudioLanguageChange, IWMPEvents::AudioLanguageChange, IWMPEventsAudioLanguageChange, wmp.iwmpevents_iwmpevents__audiolanguagechange, wmp/IWMPEvents::AudioLanguageChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::AudioLanguageChange method
+# IWMPEvents::AudioLanguageChange
 
 
 ## -description

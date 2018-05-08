@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.EnumActions
-title: IFsrmFileScreenBase::EnumActions method
+title: IFsrmFileScreenBase::EnumActions
 author: windows-driver-content
 description: Enumerates all the actions for the file screen object.
 old-location: fsrm\ifsrmfilescreenbase_enumactions.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: fbc22338-8271-407a-97c6-4a2329445979
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EnumActions method [File Server Resource Manager], EnumActions method [File Server Resource Manager], IFsrmFileScreenBase interface, EnumActions,IFsrmFileScreenBase.EnumActions, IFsrmFileScreenBase, IFsrmFileScreenBase interface [File Server Resource Manager], EnumActions method, IFsrmFileScreenBase::EnumActions, fs.ifsrmfilescreenbase_enumactions, fsrm.ifsrmfilescreenbase_enumactions, fsrmscreen/IFsrmFileScreenBase::EnumActions
+ms.keywords: EnumActions, EnumActions method [File Server Resource Manager], EnumActions method [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],EnumActions method, IFsrmFileScreenBase.EnumActions, IFsrmFileScreenBase::EnumActions, fs.ifsrmfilescreenbase_enumactions, fsrm.ifsrmfilescreenbase_enumactions, fsrmscreen/IFsrmFileScreenBase::EnumActions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenBase::EnumActions method
+# IFsrmFileScreenBase::EnumActions
 
 
 ## -description

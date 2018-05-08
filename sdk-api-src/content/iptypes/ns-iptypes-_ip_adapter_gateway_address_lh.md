@@ -7,7 +7,7 @@ old-location: iphlp\ip_adapter_gateway_address.htm
 old-project: IpHlp
 ms.assetid: CA38504A-1CC9-4ABA-BD4E-1B2EAD6F588B
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: "*PIP_ADAPTER_GATEWAY_ADDRESS, *PIP_ADAPTER_GATEWAY_ADDRESS_LH, IP_ADAPTER_GATEWAY_ADDRESS, IP_ADAPTER_GATEWAY_ADDRESS structure [IP Helper], IP_ADAPTER_GATEWAY_ADDRESS_LH, PIP_ADAPTER_GATEWAY_ADDRESS, PIP_ADAPTER_GATEWAY_ADDRESS structure pointer [IP Helper], _IP_ADAPTER_GATEWAY_ADDRESS_LH, iphlp.ip_adapter_gateway_address, iptypes/IP_ADAPTER_GATEWAY_ADDRESS, iptypes/PIP_ADAPTER_GATEWAY_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,6 +59,11 @@ The
 
 
 
+### -field Alignment
+
+Reserved. Used by the compiler to align the structure.
+
+
 ### -field Length
 
 The length, in bytes, of this structure.
@@ -78,11 +83,6 @@ A pointer to the next gateway address structure in the list.
 ### -field Address
 
 The IP address for this gateway entry. This member can be an IPv6 address or an IPv4 address. 
-
-
-#### - Alignment
-
-Reserved. Used by the compiler to align the structure.
 
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskScheduler.GetTargetComputer
-title: ITaskScheduler::GetTargetComputer method
+title: ITaskScheduler::GetTargetComputer
 author: windows-driver-content
 description: The GetTargetComputer method returns the name of the computer on which ITaskScheduler is currently targeted.
 old-location: taskschd\itaskscheduler_gettargetcomputer.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: c421a739-3290-4698-88e6-5c746baf903d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTargetComputer method [Task Scheduler], GetTargetComputer method [Task Scheduler], ITaskScheduler interface, GetTargetComputer,ITaskScheduler.GetTargetComputer, ITaskScheduler, ITaskScheduler interface [Task Scheduler], GetTargetComputer method, ITaskScheduler::GetTargetComputer, _msb_itaskscheduler_gettargetcomputer, mstask/ITaskScheduler::GetTargetComputer, taskschd.itaskscheduler_gettargetcomputer
+ms.keywords: GetTargetComputer, GetTargetComputer method [Task Scheduler], GetTargetComputer method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],GetTargetComputer method, ITaskScheduler.GetTargetComputer, ITaskScheduler::GetTargetComputer, _msb_itaskscheduler_gettargetcomputer, mstask/ITaskScheduler::GetTargetComputer, taskschd.itaskscheduler_gettargetcomputer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITaskScheduler::GetTargetComputer method
+# ITaskScheduler::GetTargetComputer
 
 
 ## -description

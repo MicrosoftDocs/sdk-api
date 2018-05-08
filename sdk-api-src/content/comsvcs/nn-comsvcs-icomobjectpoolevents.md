@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: a830b40b-a1b1-464e-b532-91cebd4e5d2f
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComObjectPoolEvents, IComObjectPoolEvents interface [COM+], IComObjectPoolEvents interface [COM+], described, _dtc_IComObjectPoolEvents, comsvcs/IComObjectPoolEvents, cos.icomobjectpoolevents
+ms.keywords: IComObjectPoolEvents, IComObjectPoolEvents interface [COM+], IComObjectPoolEvents interface [COM+],described, _dtc_IComObjectPoolEvents, comsvcs/IComObjectPoolEvents, cos.icomobjectpoolevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

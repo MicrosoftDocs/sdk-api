@@ -1,6 +1,6 @@
 ---
 UID: NF:cloneviewhelper.IViewHelper.SetActiveTopology
-title: IViewHelper::SetActiveTopology method
+title: IViewHelper::SetActiveTopology
 author: windows-driver-content
 description: The SetActiveTopology method sets up the topology to be used by a Video Present Network (VidPN) on a particular graphics adapter.
 old-location: display\iviewhelper_setactivetopology.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a4a9d98c-834b-4578-9ba3-7c7295989a84
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IViewHelper, IViewHelper interface [Display Devices], SetActiveTopology method, IViewHelper::SetActiveTopology, SetActiveTopology method [Display Devices], SetActiveTopology method [Display Devices], IViewHelper interface, SetActiveTopology,IViewHelper.SetActiveTopology, TMM_Ref_2624b29c-5a04-4312-b65c-9878af440c39.xml, cloneviewhelper/IViewHelper::SetActiveTopology, display.iviewhelper_setactivetopology
+ms.keywords: IViewHelper interface [Display Devices],SetActiveTopology method, IViewHelper.SetActiveTopology, IViewHelper::SetActiveTopology, SetActiveTopology, SetActiveTopology method [Display Devices], SetActiveTopology method [Display Devices],IViewHelper interface, TMM_Ref_2624b29c-5a04-4312-b65c-9878af440c39.xml, cloneviewhelper/IViewHelper::SetActiveTopology, display.iviewhelper_setactivetopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IViewHelper::SetActiveTopology method
+# IViewHelper::SetActiveTopology
 
 
 ## -description

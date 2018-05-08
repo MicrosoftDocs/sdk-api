@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelector.GetSelectionCriterion
-title: IOpcRelationshipSelector::GetSelectionCriterion method
+title: IOpcRelationshipSelector::GetSelectionCriterion
 author: windows-driver-content
 description: Gets a string that is used to select relationships to be referenced for signing.
 old-location: opc\iopcrelationshipselector_getselectioncriterion.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: ac1f0347-9b89-4d8f-b0cb-14708e7a6e55
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSelectionCriterion method [Open Packaging Conventions], GetSelectionCriterion method [Open Packaging Conventions], IOpcRelationshipSelector interface, GetSelectionCriterion,IOpcRelationshipSelector.GetSelectionCriterion, IOpcRelationshipSelector, IOpcRelationshipSelector interface [Open Packaging Conventions], GetSelectionCriterion method, IOpcRelationshipSelector::GetSelectionCriterion, msopc/IOpcRelationshipSelector::GetSelectionCriterion, opc.iopcrelationshipselector_getselectioncriterion
+ms.keywords: GetSelectionCriterion, GetSelectionCriterion method [Open Packaging Conventions], GetSelectionCriterion method [Open Packaging Conventions],IOpcRelationshipSelector interface, IOpcRelationshipSelector interface [Open Packaging Conventions],GetSelectionCriterion method, IOpcRelationshipSelector.GetSelectionCriterion, IOpcRelationshipSelector::GetSelectionCriterion, msopc/IOpcRelationshipSelector::GetSelectionCriterion, opc.iopcrelationshipselector_getselectioncriterion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcRelationshipSelector::GetSelectionCriterion method
+# IOpcRelationshipSelector::GetSelectionCriterion
 
 
 ## -description

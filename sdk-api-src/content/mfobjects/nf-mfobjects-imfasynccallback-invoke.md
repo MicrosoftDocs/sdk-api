@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAsyncCallback.Invoke
-title: IMFAsyncCallback::Invoke method
+title: IMFAsyncCallback::Invoke
 author: windows-driver-content
 description: Called when an asynchronous operation is completed.
 old-location: mf\imfasynccallback_invoke.htm
 old-project: medfound
 ms.assetid: 22473605-637e-4783-a8cb-98248b0a0327
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 22473605-637e-4783-a8cb-98248b0a0327, IMFAsyncCallback, IMFAsyncCallback interface [Media Foundation], Invoke method, IMFAsyncCallback::Invoke, Invoke method [Media Foundation], Invoke method [Media Foundation], IMFAsyncCallback interface, Invoke,IMFAsyncCallback.Invoke, mf.imfasynccallback_invoke, mfobjects/IMFAsyncCallback::Invoke
+ms.date: 5/3/2018
+ms.keywords: 22473605-637e-4783-a8cb-98248b0a0327, IMFAsyncCallback interface [Media Foundation],Invoke method, IMFAsyncCallback.Invoke, IMFAsyncCallback::Invoke, Invoke, Invoke method [Media Foundation], Invoke method [Media Foundation],IMFAsyncCallback interface, mf.imfasynccallback_invoke, mfobjects/IMFAsyncCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAsyncCallback::Invoke method
+# IMFAsyncCallback::Invoke
 
 
 ## -description

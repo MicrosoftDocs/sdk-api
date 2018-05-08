@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotificationEx.NotifySessionChangeEx
-title: ITsSbResourceNotificationEx::NotifySessionChangeEx method
+title: ITsSbResourceNotificationEx::NotifySessionChangeEx
 author: windows-driver-content
 description: Notifies registered plug-ins about state changes in a session object.
 old-location: termserv\itssbresourcenotificationex_notifysessionchangeex.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 75f7371a-fd3e-4045-b8fe-23d57d75b27a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourceNotificationEx, ITsSbResourceNotificationEx interface [Remote Desktop Services], NotifySessionChangeEx method, ITsSbResourceNotificationEx::NotifySessionChangeEx, NotifySessionChangeEx method [Remote Desktop Services], NotifySessionChangeEx method [Remote Desktop Services], ITsSbResourceNotificationEx interface, NotifySessionChangeEx,ITsSbResourceNotificationEx.NotifySessionChangeEx, sbtsv/ITsSbResourceNotificationEx::NotifySessionChangeEx, termserv.itssbresourcenotificationex_notifysessionchangeex
+ms.keywords: ITsSbResourceNotificationEx interface [Remote Desktop Services],NotifySessionChangeEx method, ITsSbResourceNotificationEx.NotifySessionChangeEx, ITsSbResourceNotificationEx::NotifySessionChangeEx, NotifySessionChangeEx, NotifySessionChangeEx method [Remote Desktop Services], NotifySessionChangeEx method [Remote Desktop Services],ITsSbResourceNotificationEx interface, sbtsv/ITsSbResourceNotificationEx::NotifySessionChangeEx, termserv.itssbresourcenotificationex_notifysessionchangeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourceNotificationEx::NotifySessionChangeEx method
+# ITsSbResourceNotificationEx::NotifySessionChangeEx
 
 
 ## -description

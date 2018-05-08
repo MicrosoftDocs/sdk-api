@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.IEnumAgentSession.Reset
-title: IEnumAgentSession::Reset method
+title: IEnumAgentSession::Reset
 author: windows-driver-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: tapi3\ienumagentsession_reset.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 38640376-0093-4fa4-9d27-b174c6df1bf4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IEnumAgentSession, IEnumAgentSession interface [TAPI 2.2], Reset method, IEnumAgentSession::Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2], IEnumAgentSession interface, Reset,IEnumAgentSession.Reset, _tapi3_ienumagentsession_reset, tapi3.ienumagentsession_reset, tapi3cc/IEnumAgentSession::Reset
+ms.keywords: IEnumAgentSession interface [TAPI 2.2],Reset method, IEnumAgentSession.Reset, IEnumAgentSession::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumAgentSession interface, _tapi3_ienumagentsession_reset, tapi3.ienumagentsession_reset, tapi3cc/IEnumAgentSession::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumAgentSession::Reset method
+# IEnumAgentSession::Reset
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.AddPortal
-title: IVdsIscsiPortalGroup::AddPortal method
+title: IVdsIscsiPortalGroup::AddPortal
 author: windows-driver-content
 description: Adds a portal to a portal group.
 old-location: base\ivdsiscsiportalgroup_addportal.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 6a2c1427-5137-47d4-a4b9-88a1bbc1e6c9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: AddPortal method [VDS], AddPortal method [VDS], IVdsIscsiPortalGroup interface, AddPortal,IVdsIscsiPortalGroup.AddPortal, IVdsIscsiPortalGroup, IVdsIscsiPortalGroup interface [VDS], AddPortal method, IVdsIscsiPortalGroup::AddPortal, base.ivdsiscsiportalgroup_addportal, vds/IVdsIscsiPortalGroup::AddPortal, vdshwprv/IVdsIscsiPortalGroup::AddPortal
+ms.keywords: AddPortal, AddPortal method [VDS], AddPortal method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],AddPortal method, IVdsIscsiPortalGroup.AddPortal, IVdsIscsiPortalGroup::AddPortal, base.ivdsiscsiportalgroup_addportal, vds/IVdsIscsiPortalGroup::AddPortal, vdshwprv/IVdsIscsiPortalGroup::AddPortal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsIscsiPortalGroup::AddPortal method
+# IVdsIscsiPortalGroup::AddPortal
 
 
 ## -description

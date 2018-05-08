@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.CreateApplicationGroup
-title: IAzApplication::CreateApplicationGroup method
+title: IAzApplication::CreateApplicationGroup
 author: windows-driver-content
 description: Creates an IAzApplicationGroup object with the specified name.
 old-location: security\iazapplication_createapplicationgroup.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 86f1694e-09a4-4a53-ae63-cfdb5d2e44ed
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplication object [Security], CreateApplicationGroup method, CreateApplicationGroup method [Security], CreateApplicationGroup method [Security], AzApplication object, CreateApplicationGroup method [Security], IAzApplication interface, CreateApplicationGroup,IAzApplication.CreateApplicationGroup, IAzApplication, IAzApplication interface [Security], CreateApplicationGroup method, IAzApplication::CreateApplicationGroup, azroles/IAzApplication::CreateApplicationGroup, security.iazapplication_createapplicationgroup
+ms.keywords: AzApplication object [Security],CreateApplicationGroup method, CreateApplicationGroup, CreateApplicationGroup method [Security], CreateApplicationGroup method [Security],AzApplication object, CreateApplicationGroup method [Security],IAzApplication interface, IAzApplication interface [Security],CreateApplicationGroup method, IAzApplication.CreateApplicationGroup, IAzApplication::CreateApplicationGroup, azroles/IAzApplication::CreateApplicationGroup, security.iazapplication_createapplicationgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::CreateApplicationGroup method
+# IAzApplication::CreateApplicationGroup
 
 
 ## -description

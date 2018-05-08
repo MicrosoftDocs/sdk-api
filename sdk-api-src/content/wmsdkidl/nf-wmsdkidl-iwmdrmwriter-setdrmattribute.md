@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter.SetDRMAttribute
-title: IWMDRMWriter::SetDRMAttribute method
+title: IWMDRMWriter::SetDRMAttribute
 author: windows-driver-content
 description: The SetDRMAttribute method sets DRM-header attributes as well as other DRM run-time properties.
 old-location: wmformat\iwmdrmwriter_setdrmattribute.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: f54bba2a-872e-4ed1-b2c6-3e6b85a48df6
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMDRMWriter, IWMDRMWriter interface [windows Media Format], SetDRMAttribute method, IWMDRMWriter::SetDRMAttribute, IWMDRMWriterSetDRMAttribute, SetDRMAttribute method [windows Media Format], SetDRMAttribute method [windows Media Format], IWMDRMWriter interface, SetDRMAttribute,IWMDRMWriter.SetDRMAttribute, wmformat.iwmdrmwriter_setdrmattribute, wmsdkidl/IWMDRMWriter::SetDRMAttribute
+ms.keywords: IWMDRMWriter interface [windows Media Format],SetDRMAttribute method, IWMDRMWriter.SetDRMAttribute, IWMDRMWriter::SetDRMAttribute, IWMDRMWriterSetDRMAttribute, SetDRMAttribute, SetDRMAttribute method [windows Media Format], SetDRMAttribute method [windows Media Format],IWMDRMWriter interface, wmformat.iwmdrmwriter_setdrmattribute, wmsdkidl/IWMDRMWriter::SetDRMAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMWriter::SetDRMAttribute method
+# IWMDRMWriter::SetDRMAttribute
 
 
 ## -description

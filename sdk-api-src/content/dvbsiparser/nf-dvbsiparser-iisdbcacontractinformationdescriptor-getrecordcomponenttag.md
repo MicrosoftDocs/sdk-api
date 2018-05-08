@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetRecordComponentTag
-title: IIsdbCAContractInformationDescriptor::GetRecordComponentTag method
+title: IIsdbCAContractInformationDescriptor::GetRecordComponentTag
 author: windows-driver-content
 description: Gets the broadcaster-defined tag that identifies a component record from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
 old-location: mstv\iisdbcacontractinformationdescriptor_getrecordcomponenttag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cd032a24-228a-47e3-97f4-1046b426c587
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordComponentTag method [Microsoft TV Technologies], GetRecordComponentTag method [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface, GetRecordComponentTag,IIsdbCAContractInformationDescriptor.GetRecordComponentTag, IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], GetRecordComponentTag method, IIsdbCAContractInformationDescriptor::GetRecordComponentTag, dvbsiparser/IIsdbCAContractInformationDescriptor::GetRecordComponentTag, mstv.iisdbcacontractinformationdescriptor_getrecordcomponenttag
+ms.keywords: GetRecordComponentTag, GetRecordComponentTag method [Microsoft TV Technologies], GetRecordComponentTag method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetRecordComponentTag method, IIsdbCAContractInformationDescriptor.GetRecordComponentTag, IIsdbCAContractInformationDescriptor::GetRecordComponentTag, dvbsiparser/IIsdbCAContractInformationDescriptor::GetRecordComponentTag, mstv.iisdbcacontractinformationdescriptor_getrecordcomponenttag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbCAContractInformationDescriptor::GetRecordComponentTag method
+# IIsdbCAContractInformationDescriptor::GetRecordComponentTag
 
 
 ## -description

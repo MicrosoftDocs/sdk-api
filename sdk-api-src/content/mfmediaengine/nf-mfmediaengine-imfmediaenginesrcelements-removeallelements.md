@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.RemoveAllElements
-title: IMFMediaEngineSrcElements::RemoveAllElements method
+title: IMFMediaEngineSrcElements::RemoveAllElements
 author: windows-driver-content
 description: Removes all of the source elements from the list.
 old-location: mf\imfmediaenginesrcelements_removeallelements.htm
 old-project: medfound
 ms.assetid: 4E867439-CBBA-4D36-9E0F-9034D3803688
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngineSrcElements, IMFMediaEngineSrcElements interface [Media Foundation], RemoveAllElements method, IMFMediaEngineSrcElements::RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation], IMFMediaEngineSrcElements interface, RemoveAllElements,IMFMediaEngineSrcElements.RemoveAllElements, mf.imfmediaenginesrcelements_removeallelements, mfmediaengine/IMFMediaEngineSrcElements::RemoveAllElements
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngineSrcElements interface [Media Foundation],RemoveAllElements method, IMFMediaEngineSrcElements.RemoveAllElements, IMFMediaEngineSrcElements::RemoveAllElements, RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation],IMFMediaEngineSrcElements interface, mf.imfmediaenginesrcelements_removeallelements, mfmediaengine/IMFMediaEngineSrcElements::RemoveAllElements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineSrcElements::RemoveAllElements method
+# IMFMediaEngineSrcElements::RemoveAllElements
 
 
 ## -description

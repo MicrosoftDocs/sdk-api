@@ -8,7 +8,7 @@ old-project: P2PSdk
 ms.assetid: 454b40f6-a7de-4b59-ae35-a809c4510133
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
-ms.keywords: PFNPEER_SECURE_RECORD, PFNPEER_SECURE_RECORD callback function [Peer Networking], p2p.pfnpeer_secure_record, p2p/PFNPEER_SECURE_RECORD
+ms.keywords: PFNPEER_SECURE_RECORD, PFNPEER_SECURE_RECORD callback, PFNPEER_SECURE_RECORD callback function [Peer Networking], p2p.pfnpeer_secure_record, p2p/PFNPEER_SECURE_RECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PFNPEER_SECURE_RECORD callback
+# PFNPEER_SECURE_RECORD callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: search\isearchmanager2.htm
 old-project: search
 ms.assetid: EE08AC43-D2E9-4B70-BBA5-52E36DD7F9A1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchManager2, ISearchManager2 interface [search], ISearchManager2 interface [search], described, search.isearchmanager2, searchapi/ISearchManager2
+ms.date: 5/4/2018
+ms.keywords: ISearchManager2, ISearchManager2 interface [search], ISearchManager2 interface [search],described, search.isearchmanager2, searchapi/ISearchManager2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

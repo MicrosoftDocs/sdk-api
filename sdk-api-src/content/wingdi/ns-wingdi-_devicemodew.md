@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DEVMODEW, *PDEVMODEW, *NPDEVMODEW, *LPDEVMODEW, DEVMODEW, *PDEVMODEW, *NPDEVMODEW, *LPDEVMODEW
+req.typenames: DEVMODEW, *PDEVMODEW, *NPDEVMODEW, *LPDEVMODEW
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -390,6 +390,50 @@ This member is not used for printers.
  
 
 
+### -field DUMMYUNIONNAME2.dmDisplayFlags
+
+For displays, specifies a display device's display mode. This member can be one of the following values:
+
+
+
+This member is not used for printers.
+
+
+### -field DUMMYUNIONNAME2.dmNup
+
+For printers, specifies whether the print system handles "N-up" printing (playing multiple EMF logical pages onto a single physical page). The value of this member can be one of the following:
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
+DMNUP_SYSTEM
+
+</td>
+<td>
+The print system handles "N-up" printing. 
+
+</td>
+</tr>
+<tr>
+<td>
+DMNUP_ONEUP
+
+</td>
+<td>
+The print system does not handle "N-up" printing. An application can set <b>dmNup</b> to DMNUP_ONEUP if it intends to carry out "N-up" printing on its own.
+
+</td>
+</tr>
+</table>
+ 
+
+This member is not used for displays.
+
+
 ### -field dmDisplayFrequency
 
 For displays, specifies the frequency, in hertz, of a display device in its current mode.
@@ -437,60 +481,14 @@ Is reserved for system use and should be ignored by the driver.
 Is reserved for system use and should be ignored by the driver.
 
 
-#### - dmDisplayFlags
-
-For displays, specifies a display device's display mode. This member can be one of the following values:
-
-
-
-
-
-#### DM_GRAYSCALE
+##### - dmDisplayFlags.DM_GRAYSCALE
 
 Specifies that the display is not a color device. If this flag is not set, color is assumed.
 
 
-
-#### DM_INTERLACED
+##### - dmDisplayFlags.DM_INTERLACED
 
 Specifies that the display mode is interlaced. If the flag is not set, noninterlaced is assumed.
-
-This member is not used for printers.
-
-
-#### - dmNup
-
-For printers, specifies whether the print system handles "N-up" printing (playing multiple EMF logical pages onto a single physical page). The value of this member can be one of the following:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DMNUP_SYSTEM
-
-</td>
-<td>
-The print system handles "N-up" printing. 
-
-</td>
-</tr>
-<tr>
-<td>
-DMNUP_ONEUP
-
-</td>
-<td>
-The print system does not handle "N-up" printing. An application can set <b>dmNup</b> to DMNUP_ONEUP if it intends to carry out "N-up" printing on its own.
-
-</td>
-</tr>
-</table>
- 
-
-This member is not used for displays.
 
 
 ## -remarks

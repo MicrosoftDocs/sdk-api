@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsADSystemInfo.RefreshSchemaCache
-title: IADsADSystemInfo::RefreshSchemaCache method
+title: IADsADSystemInfo::RefreshSchemaCache
 author: windows-driver-content
 description: The IADsADSystemInfo::RefreshSchemaCache method refreshes the Active Directory schema cache.
 old-location: adsi\iadsadsysteminfo_refreshschemacache.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 4531c041-a5a7-4de1-a3c4-c544cb4d6820
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsADSystemInfo, IADsADSystemInfo interface [ADSI], RefreshSchemaCache method, IADsADSystemInfo::RefreshSchemaCache, RefreshSchemaCache method [ADSI], RefreshSchemaCache method [ADSI], IADsADSystemInfo interface, RefreshSchemaCache,IADsADSystemInfo.RefreshSchemaCache, _ds_iadsadsysteminfo_refreshschemacache, adsi.iadsadsysteminfo__refreshschemacache, adsi.iadsadsysteminfo_refreshschemacache, iads/IADsADSystemInfo::RefreshSchemaCache
+ms.keywords: IADsADSystemInfo interface [ADSI],RefreshSchemaCache method, IADsADSystemInfo.RefreshSchemaCache, IADsADSystemInfo::RefreshSchemaCache, RefreshSchemaCache, RefreshSchemaCache method [ADSI], RefreshSchemaCache method [ADSI],IADsADSystemInfo interface, _ds_iadsadsysteminfo_refreshschemacache, adsi.iadsadsysteminfo__refreshschemacache, adsi.iadsadsysteminfo_refreshschemacache, iads/IADsADSystemInfo::RefreshSchemaCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsADSystemInfo::RefreshSchemaCache method
+# IADsADSystemInfo::RefreshSchemaCache
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CurrentCanSelectMultiple
-title: IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple method
+title: IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple
 author: windows-driver-content
 description: Indicates whether more than one item in the container can be selected at one time.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CurrentCanSelectMultiple.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 71a0f6aa-7605-47b3-98ce-3d413f1efa66
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentCanSelectMultiple property [Windows Accessibility], CurrentCanSelectMultiple property [Windows Accessibility], IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern, IUIAutomationSelectionPattern interface [Windows Accessibility], CurrentCanSelectMultiple property, IUIAutomationSelectionPattern.CurrentCanSelectMultiple, IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple, get_CurrentCanSelectMultiple,IUIAutomationSelectionPattern.get_CurrentCanSelectMultiple, uiauto.uiauto_IUIAutomationSelectionPattern_CurrentCanSelectMultiple, uiauto_IUIAutomationSelectionPattern_CurrentCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::CurrentCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple, winauto.uiauto_IUIAutomationSelectionPattern_CurrentCanSelectMultiple
+ms.keywords: CurrentCanSelectMultiple property [Windows Accessibility], CurrentCanSelectMultiple property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CurrentCanSelectMultiple property, IUIAutomationSelectionPattern.CurrentCanSelectMultiple, IUIAutomationSelectionPattern.get_CurrentCanSelectMultiple, IUIAutomationSelectionPattern::CurrentCanSelectMultiple, IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple, get_CurrentCanSelectMultiple, uiauto.uiauto_IUIAutomationSelectionPattern_CurrentCanSelectMultiple, uiauto_IUIAutomationSelectionPattern_CurrentCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::CurrentCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple, winauto.uiauto_IUIAutomationSelectionPattern_CurrentCanSelectMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple method
+# IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplate.InitializeDecode
-title: IX509ExtensionTemplate::InitializeDecode method
+title: IX509ExtensionTemplate::InitializeDecode
 author: windows-driver-content
 description: Initializes the extension from a DER-encoded byte array that contains the extension value.
 old-location: security\ix509extensiontemplate_initializedecode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: c35a6108-9f5e-4876-9ea1-ce8b568abfde
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionTemplate, IX509ExtensionTemplate interface [Security], InitializeDecode method, IX509ExtensionTemplate::InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security], IX509ExtensionTemplate interface, InitializeDecode,IX509ExtensionTemplate.InitializeDecode, certenroll/IX509ExtensionTemplate::InitializeDecode, security.ix509extensiontemplate_initializedecode_method
+ms.keywords: IX509ExtensionTemplate interface [Security],InitializeDecode method, IX509ExtensionTemplate.InitializeDecode, IX509ExtensionTemplate::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::InitializeDecode, security.ix509extensiontemplate_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionTemplate::InitializeDecode method
+# IX509ExtensionTemplate::InitializeDecode
 
 
 ## -description

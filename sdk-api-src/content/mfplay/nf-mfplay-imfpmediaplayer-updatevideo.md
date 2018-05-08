@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.UpdateVideo
-title: IMFPMediaPlayer::UpdateVideo method
+title: IMFPMediaPlayer::UpdateVideo
 author: windows-driver-content
 description: Updates the video frame.
 old-location: mf\imfpmediaplayer_updatevideo.htm
 old-project: medfound
 ms.assetid: de583e74-b31b-407e-af4b-c36649e1ca84
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], UpdateVideo method, IMFPMediaPlayer::UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation], IMFPMediaPlayer interface, UpdateVideo,IMFPMediaPlayer.UpdateVideo, mf.imfpmediaplayer_updatevideo, mfplay/IMFPMediaPlayer::UpdateVideo
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaPlayer interface [Media Foundation],UpdateVideo method, IMFPMediaPlayer.UpdateVideo, IMFPMediaPlayer::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_updatevideo, mfplay/IMFPMediaPlayer::UpdateVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::UpdateVideo method
+# IMFPMediaPlayer::UpdateVideo
 
 
 ## -description

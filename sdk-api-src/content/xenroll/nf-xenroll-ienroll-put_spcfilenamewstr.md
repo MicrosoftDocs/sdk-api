@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.put_SPCFileNameWStr
-title: IEnroll::put_SPCFileNameWStr method
+title: IEnroll::put_SPCFileNameWStr
 author: windows-driver-content
 description: The SPCFileNameWStr property of IEnroll4 sets or retrieves the name of the file to which to write the base64-encoded PKCS #7 (in BSTR form) as returned from the certification authority.
 old-location: security\ienroll4_spcfilenamewstr.htm
 old-project: SecCrypto
 ms.assetid: 75e9327e-72d6-4247-a339-1ca494bc8408
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], SPCFileNameWStr property, IEnroll.SPCFileNameWStr, IEnroll::get_SPCFileNameWStr, IEnroll::put_SPCFileNameWStr, SPCFileNameWStr property [Security], SPCFileNameWStr property [Security], IEnroll interface, put_SPCFileNameWStr,IEnroll.put_SPCFileNameWStr, security.ienroll4_spcfilenamewstr, xenroll/IEnroll::SPCFileNameWStr, xenroll/IEnroll::get_SPCFileNameWStr, xenroll/IEnroll::put_SPCFileNameWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],SPCFileNameWStr property, IEnroll.SPCFileNameWStr, IEnroll.put_SPCFileNameWStr, IEnroll::SPCFileNameWStr, IEnroll::get_SPCFileNameWStr, IEnroll::put_SPCFileNameWStr, SPCFileNameWStr property [Security], SPCFileNameWStr property [Security],IEnroll interface, put_SPCFileNameWStr, security.ienroll4_spcfilenamewstr, xenroll/IEnroll::SPCFileNameWStr, xenroll/IEnroll::get_SPCFileNameWStr, xenroll/IEnroll::put_SPCFileNameWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::put_SPCFileNameWStr method
+# IEnroll::put_SPCFileNameWStr
 
 
 ## -description

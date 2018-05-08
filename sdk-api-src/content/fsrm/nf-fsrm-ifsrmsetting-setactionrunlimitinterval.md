@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmSetting.SetActionRunLimitInterval
-title: IFsrmSetting::SetActionRunLimitInterval method
+title: IFsrmSetting::SetActionRunLimitInterval
 author: windows-driver-content
 description: Sets the time that an action that uses the global run limit interval must wait before the action is run again.
 old-location: fsrm\ifsrmsetting_setactionrunlimitinterval.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 4cd4d583-2906-4ba0-b113-c21db143dec2
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmSetting class [File Server Resource Manager], SetActionRunLimitInterval method, IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], SetActionRunLimitInterval method, IFsrmSetting::SetActionRunLimitInterval, SetActionRunLimitInterval method [File Server Resource Manager], SetActionRunLimitInterval method [File Server Resource Manager], FsrmSetting class, SetActionRunLimitInterval method [File Server Resource Manager], IFsrmSetting interface, SetActionRunLimitInterval,IFsrmSetting.SetActionRunLimitInterval, fs.ifsrmsetting_setactionrunlimitinterval, fsrm.ifsrmsetting_setactionrunlimitinterval, fsrm/IFsrmSetting::SetActionRunLimitInterval
+ms.keywords: FsrmSetting class [File Server Resource Manager],SetActionRunLimitInterval method, IFsrmSetting interface [File Server Resource Manager],SetActionRunLimitInterval method, IFsrmSetting.SetActionRunLimitInterval, IFsrmSetting::SetActionRunLimitInterval, SetActionRunLimitInterval, SetActionRunLimitInterval method [File Server Resource Manager], SetActionRunLimitInterval method [File Server Resource Manager],FsrmSetting class, SetActionRunLimitInterval method [File Server Resource Manager],IFsrmSetting interface, fs.ifsrmsetting_setactionrunlimitinterval, fsrm.ifsrmsetting_setactionrunlimitinterval, fsrm/IFsrmSetting::SetActionRunLimitInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmSetting::SetActionRunLimitInterval method
+# IFsrmSetting::SetActionRunLimitInterval
 
 
 ## -description

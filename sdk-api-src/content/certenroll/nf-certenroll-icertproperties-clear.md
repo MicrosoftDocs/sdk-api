@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperties.Clear
-title: ICertProperties::Clear method
+title: ICertProperties::Clear
 author: windows-driver-content
 description: Removes all properties from the collection.
 old-location: security\icertproperties_clear_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b75f6ed2-7f7e-48d6-b5f3-a49dfac68d08
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Clear method [Security], Clear method [Security], ICertProperties interface, Clear,ICertProperties.Clear, ICertProperties, ICertProperties interface [Security], Clear method, ICertProperties::Clear, certenroll/ICertProperties::Clear, security.icertproperties_clear_method
+ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertProperties interface, ICertProperties interface [Security],Clear method, ICertProperties.Clear, ICertProperties::Clear, certenroll/ICertProperties::Clear, security.icertproperties_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertProperties::Clear method
+# ICertProperties::Clear
 
 
 ## -description

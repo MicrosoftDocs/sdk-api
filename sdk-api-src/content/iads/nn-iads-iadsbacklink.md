@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 2876e8c5-8cfa-4bcc-91ba-c2f71bfbe622
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BackLink, IADsBackLink, IADsBackLink interface [ADSI], IADsBackLink interface [ADSI], described, _ds_iadsbacklink, adsi.iadsbacklink, iads/IADsBackLink
+ms.keywords: BackLink, IADsBackLink, IADsBackLink interface [ADSI], IADsBackLink interface [ADSI],described, _ds_iadsbacklink, adsi.iadsbacklink, iads/IADsBackLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

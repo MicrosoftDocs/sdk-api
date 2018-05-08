@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePackageFromFile1
-title: IXpsOMObjectFactory1::CreatePackageFromFile1 method
+title: IXpsOMObjectFactory1::CreatePackageFromFile1
 author: windows-driver-content
 description: Opens an XPS package file and returns an instantiated XPS document object tree. This method will read a file that contains an XPS document that is of type XPS_DOCUMENT_TYPE_ XPS or XPS_DOCUMENT_TYPE_ OPENXPS.
 old-location: xps\ixpsomobjectfactory1_createpackagefromfile1.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c5641576-9280-48a5-9fb6-ef3d2811386a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePackageFromFile1 method [XPS Documents and Packaging], CreatePackageFromFile1 method [XPS Documents and Packaging], IXpsOMObjectFactory1 interface, CreatePackageFromFile1,IXpsOMObjectFactory1.CreatePackageFromFile1, IXpsOMObjectFactory1, IXpsOMObjectFactory1 interface [XPS Documents and Packaging], CreatePackageFromFile1 method, IXpsOMObjectFactory1::CreatePackageFromFile1, xps.ixpsomobjectfactory1_createpackagefromfile1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageFromFile1
+ms.keywords: CreatePackageFromFile1, CreatePackageFromFile1 method [XPS Documents and Packaging], CreatePackageFromFile1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePackageFromFile1 method, IXpsOMObjectFactory1.CreatePackageFromFile1, IXpsOMObjectFactory1::CreatePackageFromFile1, xps.ixpsomobjectfactory1_createpackagefromfile1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageFromFile1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory1::CreatePackageFromFile1 method
+# IXpsOMObjectFactory1::CreatePackageFromFile1
 
 
 ## -description

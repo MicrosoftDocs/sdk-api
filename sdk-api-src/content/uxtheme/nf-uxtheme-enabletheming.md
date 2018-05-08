@@ -7,7 +7,7 @@ old-location: controls\EnableTheming.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\enabletheming.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: EnableTheming, EnableTheming function [Windows Controls], controls.EnableTheming, controls.inet_EnableTheming, inet_EnableTheming, inet_EnableTheming_cpp, uxtheme/EnableTheming
 ms.prod: windows-hardware
 ms.technology: windows-devices

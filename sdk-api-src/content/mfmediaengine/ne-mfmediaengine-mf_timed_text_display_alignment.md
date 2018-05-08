@@ -7,7 +7,7 @@ old-location: mf\mf_timed_text_display_alignment.htm
 old-project: medfound
 ms.assetid: CB7C4067-7410-4F20-A6E8-8DED44AF5C83
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MF_TIMED_TEXT_DISPLAY_ALIGNMENT, MF_TIMED_TEXT_DISPLAY_ALIGNMENT enumeration [Media Foundation], MF_TIMED_TEXT_DISPLAY_ALIGNMENT_AFTER, MF_TIMED_TEXT_DISPLAY_ALIGNMENT_BEFORE, MF_TIMED_TEXT_DISPLAY_ALIGNMENT_CENTER, mf.mf_timed_text_display_alignment, mfmediaengine/MF_TIMED_TEXT_DISPLAY_ALIGNMENT, mfmediaengine/MF_TIMED_TEXT_DISPLAY_ALIGNMENT_AFTER, mfmediaengine/MF_TIMED_TEXT_DISPLAY_ALIGNMENT_BEFORE, mfmediaengine/MF_TIMED_TEXT_DISPLAY_ALIGNMENT_CENTER
 ms.prod: windows-hardware
 ms.technology: windows-devices

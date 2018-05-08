@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsServiceOperations.Stop
-title: IADsServiceOperations::Stop method
+title: IADsServiceOperations::Stop
 author: windows-driver-content
 description: The IADsServiceOperations::Stop method stops a currently active network service.
 old-location: adsi\iadsserviceoperations_stop.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 5e3b6c3e-0621-4760-8751-15f084b3aaa6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsServiceOperations, IADsServiceOperations interface [ADSI], Stop method, IADsServiceOperations::Stop, Stop method [ADSI], Stop method [ADSI], IADsServiceOperations interface, Stop,IADsServiceOperations.Stop, _ds_iadsserviceoperations_stop, adsi.iadsserviceoperations__stop, adsi.iadsserviceoperations_stop, iads/IADsServiceOperations::Stop
+ms.keywords: IADsServiceOperations interface [ADSI],Stop method, IADsServiceOperations.Stop, IADsServiceOperations::Stop, Stop, Stop method [ADSI], Stop method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_stop, adsi.iadsserviceoperations__stop, adsi.iadsserviceoperations_stop, iads/IADsServiceOperations::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsServiceOperations::Stop method
+# IADsServiceOperations::Stop
 
 
 ## -description

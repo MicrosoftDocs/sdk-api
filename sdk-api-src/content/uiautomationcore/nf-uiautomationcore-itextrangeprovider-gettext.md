@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.GetText
-title: ITextRangeProvider::GetText method
+title: ITextRangeProvider::GetText
 author: windows-driver-content
 description: Retrieves the plain text of the range.
 old-location: winauto\uiauto_ITextRangeProvider_GetText.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: f3c5f0cc-15a5-4a13-b3be-355de6633c66
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetText method [Windows Accessibility], GetText method [Windows Accessibility], ITextRangeProvider interface, GetText,ITextRangeProvider.GetText, ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], GetText method, ITextRangeProvider::GetText, uiauto.uiauto_ITextRangeProvider_GetText, uiauto_ITextRangeProvider_GetText, uiautomationcore/ITextRangeProvider::GetText, winauto.uiauto_ITextRangeProvider_GetText
+ms.keywords: GetText, GetText method [Windows Accessibility], GetText method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetText method, ITextRangeProvider.GetText, ITextRangeProvider::GetText, uiauto.uiauto_ITextRangeProvider_GetText, uiauto_ITextRangeProvider_GetText, uiautomationcore/ITextRangeProvider::GetText, winauto.uiauto_ITextRangeProvider_GetText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRangeProvider::GetText method
+# ITextRangeProvider::GetText
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchProtocolThreadContext.ThreadIdle
-title: ISearchProtocolThreadContext::ThreadIdle method
+title: ISearchProtocolThreadContext::ThreadIdle
 author: windows-driver-content
 description: Notifies the protocol handler that the filtering thread is idle, so that the protocol handler can clean up any cache it might have built up.
 old-location: search\_search_ISearchProtocolThreadContext_ThreadIdle.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadidle.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchProtocolThreadContext, ISearchProtocolThreadContext interface [search], ThreadIdle method, ISearchProtocolThreadContext::ThreadIdle, ThreadIdle method [search], ThreadIdle method [search], ISearchProtocolThreadContext interface, ThreadIdle,ISearchProtocolThreadContext.ThreadIdle, _search_ISearchProtocolThreadContext_ThreadIdle, search._search_ISearchProtocolThreadContext_ThreadIdle, searchapi/ISearchProtocolThreadContext::ThreadIdle
+ms.date: 5/4/2018
+ms.keywords: ISearchProtocolThreadContext interface [search],ThreadIdle method, ISearchProtocolThreadContext.ThreadIdle, ISearchProtocolThreadContext::ThreadIdle, ThreadIdle, ThreadIdle method [search], ThreadIdle method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadIdle, search._search_ISearchProtocolThreadContext_ThreadIdle, searchapi/ISearchProtocolThreadContext::ThreadIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchProtocolThreadContext::ThreadIdle method
+# ISearchProtocolThreadContext::ThreadIdle
 
 
 ## -description

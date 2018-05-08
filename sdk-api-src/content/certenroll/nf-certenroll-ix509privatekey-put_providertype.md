@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ProviderType
-title: IX509PrivateKey::put_ProviderType method
+title: IX509PrivateKey::put_ProviderType
 author: windows-driver-content
 description: Specifies or retrieves the type of cryptographic provider associated with the private key.
 old-location: security\ix509privatekey_providertype.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 5f4d2e29-8c02-4d9c-a3a6-15c222650c3e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], ProviderType property, IX509PrivateKey.ProviderType, IX509PrivateKey::get_ProviderType, IX509PrivateKey::put_ProviderType, ProviderType property [Security], ProviderType property [Security], IX509PrivateKey interface, certenroll/IX509PrivateKey::ProviderType, certenroll/IX509PrivateKey::get_ProviderType, certenroll/IX509PrivateKey::put_ProviderType, put_ProviderType,IX509PrivateKey.put_ProviderType, security.ix509privatekey_providertype
+ms.keywords: IX509PrivateKey interface [Security],ProviderType property, IX509PrivateKey.ProviderType, IX509PrivateKey.put_ProviderType, IX509PrivateKey::ProviderType, IX509PrivateKey::get_ProviderType, IX509PrivateKey::put_ProviderType, ProviderType property [Security], ProviderType property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ProviderType, certenroll/IX509PrivateKey::get_ProviderType, certenroll/IX509PrivateKey::put_ProviderType, put_ProviderType, security.ix509privatekey_providertype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PrivateKey::put_ProviderType method
+# IX509PrivateKey::put_ProviderType
 
 
 ## -description

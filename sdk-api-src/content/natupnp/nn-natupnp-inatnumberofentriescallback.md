@@ -7,8 +7,8 @@ old-location: ics\inatnumberofentriescallback.htm
 old-project: ICS
 ms.assetid: c64e5ce3-78f6-4f51-8ae1-c871c4716d26
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INATNumberOfEntriesCallback, INATNumberOfEntriesCallback interface [ICS/ICF], INATNumberOfEntriesCallback interface [ICS/ICF], described, _ics_inatnumberofentriescallback, ics.inatnumberofentriescallback, natupnp/INATNumberOfEntriesCallback
+ms.date: 5/1/2018
+ms.keywords: INATNumberOfEntriesCallback, INATNumberOfEntriesCallback interface [ICS/ICF], INATNumberOfEntriesCallback interface [ICS/ICF],described, _ics_inatnumberofentriescallback, ics.inatnumberofentriescallback, natupnp/INATNumberOfEntriesCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

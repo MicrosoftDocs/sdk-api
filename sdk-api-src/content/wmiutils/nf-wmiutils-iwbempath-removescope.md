@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.RemoveScope
-title: IWbemPath::RemoveScope method
+title: IWbemPath::RemoveScope
 author: windows-driver-content
 description: The IWbemPath::RemoveScope method removes a scope based on the index.
 old-location: wmi\iwbempath_removescope.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: ae7f4e88-32ca-45e1-8934-2801cfbe4cee
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], RemoveScope method, IWbemPath::RemoveScope, RemoveScope method [Windows Management Instrumentation], RemoveScope method [Windows Management Instrumentation], IWbemPath interface, RemoveScope,IWbemPath.RemoveScope, _hmm_iwbempath_removescope, wmi.iwbempath_removescope, wmiutils/IWbemPath::RemoveScope
+ms.keywords: IWbemPath interface [Windows Management Instrumentation],RemoveScope method, IWbemPath.RemoveScope, IWbemPath::RemoveScope, RemoveScope, RemoveScope method [Windows Management Instrumentation], RemoveScope method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_removescope, wmi.iwbempath_removescope, wmiutils/IWbemPath::RemoveScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPath::RemoveScope method
+# IWbemPath::RemoveScope
 
 
 ## -description

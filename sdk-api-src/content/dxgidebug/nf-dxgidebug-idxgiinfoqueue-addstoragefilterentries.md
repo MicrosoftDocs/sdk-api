@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.AddStorageFilterEntries
-title: IDXGIInfoQueue::AddStorageFilterEntries method
+title: IDXGIInfoQueue::AddStorageFilterEntries
 author: windows-driver-content
 description: Adds storage filters to the top of the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_addstoragefilterentries.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 34FC5AE3-7B72-4480-ACFA-53C7FB5425DA
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: AddStorageFilterEntries method [DXGI], AddStorageFilterEntries method [DXGI], IDXGIInfoQueue interface, AddStorageFilterEntries,IDXGIInfoQueue.AddStorageFilterEntries, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], AddStorageFilterEntries method, IDXGIInfoQueue::AddStorageFilterEntries, direct3ddxgi.idxgiinfoqueue_addstoragefilterentries, dxgidebug/IDXGIInfoQueue::AddStorageFilterEntries
+ms.keywords: AddStorageFilterEntries, AddStorageFilterEntries method [DXGI], AddStorageFilterEntries method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddStorageFilterEntries method, IDXGIInfoQueue.AddStorageFilterEntries, IDXGIInfoQueue::AddStorageFilterEntries, direct3ddxgi.idxgiinfoqueue_addstoragefilterentries, dxgidebug/IDXGIInfoQueue::AddStorageFilterEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::AddStorageFilterEntries method
+# IDXGIInfoQueue::AddStorageFilterEntries
 
 
 ## -description

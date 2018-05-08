@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.SetContentProtectionManager
-title: IMFMediaEngineProtectedContent::SetContentProtectionManager method
+title: IMFMediaEngineProtectedContent::SetContentProtectionManager
 author: windows-driver-content
 description: Sets the content protection manager (CPM).
 old-location: mf\imfmediaengineprotectedcontent_setcontentprotectionmanager.htm
 old-project: medfound
 ms.assetid: 8F150CB5-43AB-4709-A254-636440113642
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], SetContentProtectionManager method, IMFMediaEngineProtectedContent::SetContentProtectionManager, SetContentProtectionManager method [Media Foundation], SetContentProtectionManager method [Media Foundation], IMFMediaEngineProtectedContent interface, SetContentProtectionManager,IMFMediaEngineProtectedContent.SetContentProtectionManager, mf.imfmediaengineprotectedcontent_setcontentprotectionmanager, mfmediaengine/IMFMediaEngineProtectedContent::SetContentProtectionManager
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetContentProtectionManager method, IMFMediaEngineProtectedContent.SetContentProtectionManager, IMFMediaEngineProtectedContent::SetContentProtectionManager, SetContentProtectionManager, SetContentProtectionManager method [Media Foundation], SetContentProtectionManager method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_setcontentprotectionmanager, mfmediaengine/IMFMediaEngineProtectedContent::SetContentProtectionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineProtectedContent::SetContentProtectionManager method
+# IMFMediaEngineProtectedContent::SetContentProtectionManager
 
 
 ## -description

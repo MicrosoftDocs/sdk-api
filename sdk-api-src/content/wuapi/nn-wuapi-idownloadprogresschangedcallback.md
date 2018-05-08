@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 8fc414da-835c-438f-b607-8a273e7f9064
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IDownloadProgressChangedCallback, IDownloadProgressChangedCallback interface [Windows Update Agent], IDownloadProgressChangedCallback interface [Windows Update Agent], described, wua.idownloadprogresschangedcallback, wuapi/IDownloadProgressChangedCallback
+ms.keywords: IDownloadProgressChangedCallback, IDownloadProgressChangedCallback interface [Windows Update Agent], IDownloadProgressChangedCallback interface [Windows Update Agent],described, wua.idownloadprogresschangedcallback, wuapi/IDownloadProgressChangedCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

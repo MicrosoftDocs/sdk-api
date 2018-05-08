@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IQueueCommand.InvokeAtStreamTime
-title: IQueueCommand::InvokeAtStreamTime method
+title: IQueueCommand::InvokeAtStreamTime
 author: windows-driver-content
 description: The InvokeAtStreamTime method queues a method or property change for execution at a specified stream time (that is, presentation time relative to the current stream time offset).
 old-location: dshow\iqueuecommand_invokeatstreamtime.htm
 old-project: DirectShow
 ms.assetid: 350b6842-207c-47db-a3f8-9e2784d9da67
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IQueueCommand, IQueueCommand interface [DirectShow], InvokeAtStreamTime method, IQueueCommand::InvokeAtStreamTime, IQueueCommandInvokeAtStreamTime, InvokeAtStreamTime method [DirectShow], InvokeAtStreamTime method [DirectShow], IQueueCommand interface, InvokeAtStreamTime,IQueueCommand.InvokeAtStreamTime, control/IQueueCommand::InvokeAtStreamTime, dshow.iqueuecommand_invokeatstreamtime
+ms.date: 4/30/2018
+ms.keywords: IQueueCommand interface [DirectShow],InvokeAtStreamTime method, IQueueCommand.InvokeAtStreamTime, IQueueCommand::InvokeAtStreamTime, IQueueCommandInvokeAtStreamTime, InvokeAtStreamTime, InvokeAtStreamTime method [DirectShow], InvokeAtStreamTime method [DirectShow],IQueueCommand interface, control/IQueueCommand::InvokeAtStreamTime, dshow.iqueuecommand_invokeatstreamtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IQueueCommand::InvokeAtStreamTime method
+# IQueueCommand::InvokeAtStreamTime
 
 
 ## -description

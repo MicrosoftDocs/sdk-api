@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTopoLoader.Load
-title: IMFTopoLoader::Load method
+title: IMFTopoLoader::Load
 author: windows-driver-content
 description: Creates a fully loaded topology from the input partial topology.
 old-location: mf\imftopoloader_load.htm
 old-project: medfound
 ms.assetid: 02ce47db-54a1-456a-a763-c62039aea2c9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 02ce47db-54a1-456a-a763-c62039aea2c9, IMFTopoLoader, IMFTopoLoader interface [Media Foundation], Load method, IMFTopoLoader::Load, Load method [Media Foundation], Load method [Media Foundation], IMFTopoLoader interface, Load,IMFTopoLoader.Load, mf.imftopoloader_load, mfidl/IMFTopoLoader::Load
+ms.date: 5/3/2018
+ms.keywords: 02ce47db-54a1-456a-a763-c62039aea2c9, IMFTopoLoader interface [Media Foundation],Load method, IMFTopoLoader.Load, IMFTopoLoader::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFTopoLoader interface, mf.imftopoloader_load, mfidl/IMFTopoLoader::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTopoLoader::Load method
+# IMFTopoLoader::Load
 
 
 ## -description

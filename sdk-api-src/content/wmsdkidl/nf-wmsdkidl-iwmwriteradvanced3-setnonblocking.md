@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced3.SetNonBlocking
-title: IWMWriterAdvanced3::SetNonBlocking method
+title: IWMWriterAdvanced3::SetNonBlocking
 author: windows-driver-content
 description: The SetNonBlocking method configures the writer so that the calling thread is not blocked while writing samples.
 old-location: wmformat\iwmwriteradvanced3_setnonblocking.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 4bec5e6c-5f77-433c-95e0-e3df4dba905c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterAdvanced3, IWMWriterAdvanced3 interface [windows Media Format], SetNonBlocking method, IWMWriterAdvanced3::SetNonBlocking, IWMWriterAdvanced3SetNonBlocking, SetNonBlocking method [windows Media Format], SetNonBlocking method [windows Media Format], IWMWriterAdvanced3 interface, SetNonBlocking,IWMWriterAdvanced3.SetNonBlocking, wmformat.iwmwriteradvanced3_setnonblocking, wmsdkidl/IWMWriterAdvanced3::SetNonBlocking
+ms.keywords: IWMWriterAdvanced3 interface [windows Media Format],SetNonBlocking method, IWMWriterAdvanced3.SetNonBlocking, IWMWriterAdvanced3::SetNonBlocking, IWMWriterAdvanced3SetNonBlocking, SetNonBlocking, SetNonBlocking method [windows Media Format], SetNonBlocking method [windows Media Format],IWMWriterAdvanced3 interface, wmformat.iwmwriteradvanced3_setnonblocking, wmsdkidl/IWMWriterAdvanced3::SetNonBlocking
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterAdvanced3::SetNonBlocking method
+# IWMWriterAdvanced3::SetNonBlocking
 
 
 ## -description

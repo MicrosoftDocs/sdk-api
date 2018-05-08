@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_IPV6Filter.GetMulticastMode
-title: IBDA_IPV6Filter::GetMulticastMode method
+title: IBDA_IPV6Filter::GetMulticastMode
 author: windows-driver-content
 description: The GetMulticastMode method retrieves the mode(s) of the multicast.
 old-location: mstv\ibda_ipv6filter_getmulticastmode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 158e9569-b535-4744-ba12-c8a09f3e8491
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetMulticastMode method [Microsoft TV Technologies], GetMulticastMode method [Microsoft TV Technologies], IBDA_IPV6Filter interface, GetMulticastMode,IBDA_IPV6Filter.GetMulticastMode, IBDA_IPV6Filter, IBDA_IPV6Filter interface [Microsoft TV Technologies], GetMulticastMode method, IBDA_IPV6Filter::GetMulticastMode, IBDA_IPV6FilterGetMulticastMode, bdaiface/IBDA_IPV6Filter::GetMulticastMode, mstv.ibda_ipv6filter_getmulticastmode
+ms.keywords: GetMulticastMode, GetMulticastMode method [Microsoft TV Technologies], GetMulticastMode method [Microsoft TV Technologies],IBDA_IPV6Filter interface, IBDA_IPV6Filter interface [Microsoft TV Technologies],GetMulticastMode method, IBDA_IPV6Filter.GetMulticastMode, IBDA_IPV6Filter::GetMulticastMode, IBDA_IPV6FilterGetMulticastMode, bdaiface/IBDA_IPV6Filter::GetMulticastMode, mstv.ibda_ipv6filter_getmulticastmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_IPV6Filter::GetMulticastMode method
+# IBDA_IPV6Filter::GetMulticastMode
 
 
 ## -description

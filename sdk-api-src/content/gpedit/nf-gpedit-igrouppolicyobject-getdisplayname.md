@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetDisplayName
-title: IGroupPolicyObject::GetDisplayName method
+title: IGroupPolicyObject::GetDisplayName
 author: windows-driver-content
 description: The GetDisplayName method retrieves the display name for the GPO.
 old-location: policy\igrouppolicyobject_getdisplayname.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: a16592c3-8fa1-4859-b379-ef31999a3fdd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDisplayName method [Group Policy], GetDisplayName method [Group Policy], IGroupPolicyObject interface, GetDisplayName,IGroupPolicyObject.GetDisplayName, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], GetDisplayName method, IGroupPolicyObject::GetDisplayName, _win32_igrouppolicyobject_getdisplayname, gpedit/IGroupPolicyObject::GetDisplayName, policy.igrouppolicyobject_getdisplayname
+ms.keywords: GetDisplayName, GetDisplayName method [Group Policy], GetDisplayName method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetDisplayName method, IGroupPolicyObject.GetDisplayName, IGroupPolicyObject::GetDisplayName, _win32_igrouppolicyobject_getdisplayname, gpedit/IGroupPolicyObject::GetDisplayName, policy.igrouppolicyobject_getdisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGroupPolicyObject::GetDisplayName method
+# IGroupPolicyObject::GetDisplayName
 
 
 ## -description

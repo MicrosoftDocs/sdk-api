@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_VirtualChannelManager
-title: IRDPSRAPISharingSession::get_VirtualChannelManager method
+title: IRDPSRAPISharingSession::get_VirtualChannelManager
 author: windows-driver-content
 description: Retrieves an object implementing the IRDPSRAPIVirtualChannelManager interface.
 old-location: rdp\irdpsrapisharingsession_virtualchannelmanager.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: ba951d8a-cf8e-4183-a40b-beba45fd48ef
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPISharingSession, IRDPSRAPISharingSession interface [RDP], VirtualChannelManager property, IRDPSRAPISharingSession.VirtualChannelManager, IRDPSRAPISharingSession2 interface [RDP], VirtualChannelManager property, IRDPSRAPISharingSession2.VirtualChannelManager, IRDPSRAPISharingSession2::get_VirtualChannelManager, IRDPSRAPISharingSession::get_VirtualChannelManager, RDPSession object [RDP], VirtualChannelManager property, VirtualChannelManager property [RDP], VirtualChannelManager property [RDP], IRDPSRAPISharingSession interface, VirtualChannelManager property [RDP], IRDPSRAPISharingSession2 interface, VirtualChannelManager property [RDP], RDPSession object, get_VirtualChannelManager,IRDPSRAPISharingSession.get_VirtualChannelManager, rdp.irdpsrapisharingsession_virtualchannelmanager, rdpencomapi/IRDPSRAPISharingSession2::VirtualChannelManager, rdpencomapi/IRDPSRAPISharingSession2::get_VirtualChannelManager, rdpencomapi/IRDPSRAPISharingSession::VirtualChannelManager, rdpencomapi/IRDPSRAPISharingSession::get_VirtualChannelManager
+ms.keywords: IRDPSRAPISharingSession interface [RDP],VirtualChannelManager property, IRDPSRAPISharingSession.VirtualChannelManager, IRDPSRAPISharingSession.get_VirtualChannelManager, IRDPSRAPISharingSession2 interface [RDP],VirtualChannelManager property, IRDPSRAPISharingSession2.VirtualChannelManager, IRDPSRAPISharingSession2::VirtualChannelManager, IRDPSRAPISharingSession2::get_VirtualChannelManager, IRDPSRAPISharingSession::get_VirtualChannelManager, RDPSession object [RDP],VirtualChannelManager property, VirtualChannelManager property [RDP], VirtualChannelManager property [RDP],IRDPSRAPISharingSession interface, VirtualChannelManager property [RDP],IRDPSRAPISharingSession2 interface, VirtualChannelManager property [RDP],RDPSession object, get_VirtualChannelManager, rdp.irdpsrapisharingsession_virtualchannelmanager, rdpencomapi/IRDPSRAPISharingSession2::VirtualChannelManager, rdpencomapi/IRDPSRAPISharingSession2::get_VirtualChannelManager, rdpencomapi/IRDPSRAPISharingSession::VirtualChannelManager, rdpencomapi/IRDPSRAPISharingSession::get_VirtualChannelManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPISharingSession::get_VirtualChannelManager method
+# IRDPSRAPISharingSession::get_VirtualChannelManager
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.put_DaysOfWeek
-title: IMonthlyDOWTrigger::put_DaysOfWeek method
+title: IMonthlyDOWTrigger::put_DaysOfWeek
 author: windows-driver-content
 description: Gets or sets the days of the week during which the task runs.
 old-location: taskschd\imonthlydowtrigger_daysofweek.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 553a0a51-fc2f-4ace-a69d-6aef4d9b06af
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Scheduler], IMonthlyDOWTrigger interface, IMonthlyDOWTrigger, IMonthlyDOWTrigger interface [Task Scheduler], DaysOfWeek property, IMonthlyDOWTrigger.DaysOfWeek, IMonthlyDOWTrigger::get_DaysOfWeek, IMonthlyDOWTrigger::put_DaysOfWeek, put_DaysOfWeek,IMonthlyDOWTrigger.put_DaysOfWeek, taskschd.imonthlydowtrigger_daysofweek, taskschd/IMonthlyDOWTrigger::DaysOfWeek, taskschd/IMonthlyDOWTrigger::get_DaysOfWeek, taskschd/IMonthlyDOWTrigger::put_DaysOfWeek
+ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Scheduler],IMonthlyDOWTrigger interface, IMonthlyDOWTrigger interface [Task Scheduler],DaysOfWeek property, IMonthlyDOWTrigger.DaysOfWeek, IMonthlyDOWTrigger.put_DaysOfWeek, IMonthlyDOWTrigger::DaysOfWeek, IMonthlyDOWTrigger::get_DaysOfWeek, IMonthlyDOWTrigger::put_DaysOfWeek, put_DaysOfWeek, taskschd.imonthlydowtrigger_daysofweek, taskschd/IMonthlyDOWTrigger::DaysOfWeek, taskschd/IMonthlyDOWTrigger::get_DaysOfWeek, taskschd/IMonthlyDOWTrigger::put_DaysOfWeek
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMonthlyDOWTrigger::put_DaysOfWeek method
+# IMonthlyDOWTrigger::put_DaysOfWeek
 
 
 ## -description

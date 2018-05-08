@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendSyncEvent
-title: IRDPViewerInputSink::SendSyncEvent method
+title: IRDPViewerInputSink::SendSyncEvent
 author: windows-driver-content
 description: Sends an event message to indicate a change in the state of the keyboard, such as when the Caps Lock key is pressed.
 old-location: rdp\irdpviewerinputsink_sendsyncevent.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: C8B59CAF-DFBE-4569-99B2-DECF1F1DBB56
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPViewerInputSink, IRDPViewerInputSink interface [RDP], SendSyncEvent method, IRDPViewerInputSink::SendSyncEvent, SendSyncEvent method [RDP], SendSyncEvent method [RDP], IRDPViewerInputSink interface, SendSyncEvent,IRDPViewerInputSink.SendSyncEvent, rdp.irdpviewerinputsink_sendsyncevent, rdpencomapi/IRDPViewerInputSink::SendSyncEvent
+ms.keywords: IRDPViewerInputSink interface [RDP],SendSyncEvent method, IRDPViewerInputSink.SendSyncEvent, IRDPViewerInputSink::SendSyncEvent, SendSyncEvent, SendSyncEvent method [RDP], SendSyncEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendsyncevent, rdpencomapi/IRDPViewerInputSink::SendSyncEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPViewerInputSink::SendSyncEvent method
+# IRDPViewerInputSink::SendSyncEvent
 
 
 ## -description

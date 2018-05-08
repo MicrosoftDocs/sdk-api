@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEventTrigger.get_Delay
-title: IEventTrigger::get_Delay method
+title: IEventTrigger::get_Delay
 author: windows-driver-content
 description: Gets or sets a value that indicates the amount of time between when the event occurs and when the task is started.
 old-location: taskschd\ieventtrigger_delay.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 2731ad62-6384-4c66-b66f-b159a5b15cb1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler], IEventTrigger interface, IEventTrigger, IEventTrigger interface [Task Scheduler], Delay property, IEventTrigger.Delay, IEventTrigger::get_Delay, IEventTrigger::put_Delay, get_Delay,IEventTrigger.get_Delay, taskschd.ieventtrigger_delay, taskschd/IEventTrigger::Delay, taskschd/IEventTrigger::get_Delay, taskschd/IEventTrigger::put_Delay
+ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],IEventTrigger interface, IEventTrigger interface [Task Scheduler],Delay property, IEventTrigger.Delay, IEventTrigger.get_Delay, IEventTrigger::Delay, IEventTrigger::get_Delay, IEventTrigger::put_Delay, get_Delay, taskschd.ieventtrigger_delay, taskschd/IEventTrigger::Delay, taskschd/IEventTrigger::get_Delay, taskschd/IEventTrigger::put_Delay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEventTrigger::get_Delay method
+# IEventTrigger::get_Delay
 
 
 ## -description

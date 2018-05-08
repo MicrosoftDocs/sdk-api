@@ -7,7 +7,7 @@ old-location: controls\CHARFORMAT2.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charformat2.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: CFE_ALLCAPS, CFE_AUTOBACKCOLOR, CFE_AUTOCOLOR, CFE_BOLD, CFE_DISABLED, CFE_EMBOSS, CFE_EXTENDED, CFE_FONTBOUND, CFE_HIDDEN, CFE_IMPRINT, CFE_ITALIC, CFE_LINK, CFE_LINKPROTECTED, CFE_MATH, CFE_MATHNOBUILDUP, CFE_MATHORDINARY, CFE_OUTLINE, CFE_PROTECTED, CFE_REVISED, CFE_SHADOW, CFE_SMALLCAPS, CFE_STRIKEOUT, CFE_SUBSCRIPT, CFE_SUPERSCRIPT, CFE_UNDERLINE, CFM_ALL, CFM_ALL2, CFM_ALLCAPS, CFM_ANIMATION, CFM_BACKCOLOR, CFM_BOLD, CFM_CHARSET, CFM_COLOR, CFM_COOKIE, CFM_DISABLED, CFM_EFFECTS, CFM_EFFECTS2, CFM_EMBOSS, CFM_EXTENDED, CFM_FACE, CFM_FONTBOUND, CFM_HIDDEN, CFM_IMPRINT, CFM_ITALIC, CFM_KERNING, CFM_LCID, CFM_LINK, CFM_LINKPROTECTED, CFM_MATH, CFM_MATHNOBUILDUP, CFM_MATHORDINARY, CFM_OFFSET, CFM_OUTLINE, CFM_PROTECTED, CFM_REVAUTHOR, CFM_REVISED, CFM_SHADOW, CFM_SIZE, CFM_SMALLCAPS, CFM_SPACING, CFM_STRIKEOUT, CFM_STYLE, CFM_SUBSCRIPT, CFM_SUPERSCRIPT, CFM_UNDERLINE, CFM_UNDERLINETYPE, CFM_WEIGHT, CFU_CF1UNDERLINE, CFU_INVERT, CFU_UNDERLINE, CFU_UNDERLINEDASH, CFU_UNDERLINEDASHDOT, CFU_UNDERLINEDASHDOTDOT, CFU_UNDERLINEDOTTED, CFU_UNDERLINEDOUBLE, CFU_UNDERLINEDOUBLEWAVE, CFU_UNDERLINEHAIRLINE, CFU_UNDERLINEHEAVYWAVE, CFU_UNDERLINELONGDASH, CFU_UNDERLINENONE, CFU_UNDERLINETHICK, CFU_UNDERLINETHICKDASH, CFU_UNDERLINETHICKDASHDOT, CFU_UNDERLINETHICKDASHDOTDOT, CFU_UNDERLINETHICKDOTTED, CFU_UNDERLINETHICKLONGDASH, CFU_UNDERLINEWAVE, CFU_UNDERLINEWORD, CHARFORMAT2, CHARFORMAT2 structure [Windows Controls], CHARFORMAT2A, CHARFORMAT2W, _charformat2a, _win32_CHARFORMAT2_str, _win32_CHARFORMAT2_str_cpp, controls.CHARFORMAT2, controls._win32_CHARFORMAT2_str, richedit/CHARFORMAT2, richedit/CHARFORMAT2A, richedit/CHARFORMAT2W
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -890,6 +890,13 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 A 32-bit locale identifier that contains a language identifier in the lower word and a sorting identifier and reserved value in the upper word. This member has no effect on the text displayed by a rich edit control, but spelling and grammar checkers can use it to deal with language-dependent problems. You can use the  macro to create an <b>LCID</b> value. To use this member, set the <b>CFM_LCID</b> flag in the <b>dwMask</b> member. 
 
 
+### -field dwCookie
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Client cookie. This member is opaque to a rich edit control.
+
+
 ### -field dwReserved
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
@@ -1170,13 +1177,6 @@ An index that identifies the author making a revision. The rich edit control use
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
 Underline color. 
-
-
-#### - dwCookie
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Client cookie. This member is opaque to a rich edit control.
 
 
 ## -remarks

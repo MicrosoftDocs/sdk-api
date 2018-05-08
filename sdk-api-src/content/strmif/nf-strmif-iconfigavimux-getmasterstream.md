@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IConfigAviMux.GetMasterStream
-title: IConfigAviMux::GetMasterStream method
+title: IConfigAviMux::GetMasterStream
 author: windows-driver-content
 description: The GetMasterStream method queries which stream will be used to synchronize the other streams in the file.
 old-location: dshow\iconfigavimux_getmasterstream.htm
 old-project: DirectShow
 ms.assetid: 2085a510-16d5-4a82-b372-824026203ef6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMasterStream method [DirectShow], GetMasterStream method [DirectShow], IConfigAviMux interface, GetMasterStream,IConfigAviMux.GetMasterStream, IConfigAviMux, IConfigAviMux interface [DirectShow], GetMasterStream method, IConfigAviMux::GetMasterStream, IConfigAviMuxGetMasterStream, dshow.iconfigavimux_getmasterstream, strmif/IConfigAviMux::GetMasterStream
+ms.date: 4/30/2018
+ms.keywords: GetMasterStream, GetMasterStream method [DirectShow], GetMasterStream method [DirectShow],IConfigAviMux interface, IConfigAviMux interface [DirectShow],GetMasterStream method, IConfigAviMux.GetMasterStream, IConfigAviMux::GetMasterStream, IConfigAviMuxGetMasterStream, dshow.iconfigavimux_getmasterstream, strmif/IConfigAviMux::GetMasterStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IConfigAviMux::GetMasterStream method
+# IConfigAviMux::GetMasterStream
 
 
 ## -description

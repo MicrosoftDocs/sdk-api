@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IMediaObject.AllocateStreamingResources
-title: IMediaObject::AllocateStreamingResources method
+title: IMediaObject::AllocateStreamingResources
 author: windows-driver-content
 description: The AllocateStreamingResources method allocates any resources needed by the DMO. Calling this method is always optional.
 old-location: dshow\imediaobject_allocatestreamingresources.htm
 old-project: DirectShow
 ms.assetid: cd608bf2-50a5-4037-aeb5-c5c380c3d6df
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AllocateStreamingResources method [DirectShow], AllocateStreamingResources method [DirectShow], IMediaObject interface, AllocateStreamingResources,IMediaObject.AllocateStreamingResources, IMediaObject, IMediaObject interface [DirectShow], AllocateStreamingResources method, IMediaObject::AllocateStreamingResources, IMediaObjectAllocateStreamingResources, dshow.imediaobject_allocatestreamingresources, mediaobj/IMediaObject::AllocateStreamingResources
+ms.date: 4/30/2018
+ms.keywords: AllocateStreamingResources, AllocateStreamingResources method [DirectShow], AllocateStreamingResources method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],AllocateStreamingResources method, IMediaObject.AllocateStreamingResources, IMediaObject::AllocateStreamingResources, IMediaObjectAllocateStreamingResources, dshow.imediaobject_allocatestreamingresources, mediaobj/IMediaObject::AllocateStreamingResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaObject::AllocateStreamingResources method
+# IMediaObject::AllocateStreamingResources
 
 
 ## -description

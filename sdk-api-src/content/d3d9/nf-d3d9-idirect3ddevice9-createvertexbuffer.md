@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateVertexBuffer
-title: IDirect3DDevice9::CreateVertexBuffer method
+title: IDirect3DDevice9::CreateVertexBuffer
 author: windows-driver-content
 description: Creates a vertex buffer.
 old-location: direct3d9\idirect3ddevice9__createvertexbuffer.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createvertexbuffer.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: CreateVertexBuffer method [Direct3D 9], CreateVertexBuffer method [Direct3D 9], IDirect3DDevice9 interface, CreateVertexBuffer,IDirect3DDevice9.CreateVertexBuffer, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], CreateVertexBuffer method, IDirect3DDevice9::CreateVertexBuffer, d3d9helper/IDirect3DDevice9::CreateVertexBuffer, direct3d9.idirect3ddevice9__createvertexbuffer, f6027373-8860-696b-558e-21f53073f7c8
+ms.keywords: CreateVertexBuffer, CreateVertexBuffer method [Direct3D 9], CreateVertexBuffer method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateVertexBuffer method, IDirect3DDevice9.CreateVertexBuffer, IDirect3DDevice9::CreateVertexBuffer, d3d9helper/IDirect3DDevice9::CreateVertexBuffer, direct3d9.idirect3ddevice9__createvertexbuffer, f6027373-8860-696b-558e-21f53073f7c8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::CreateVertexBuffer method
+# IDirect3DDevice9::CreateVertexBuffer
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables2.GetMetaDataStreamInfo
-title: IMetaDataTables2::GetMetaDataStreamInfo method
+title: IMetaDataTables2::GetMetaDataStreamInfo
 author: windows-driver-content
 description: Gets the name, size, and contents of the metadata stream at the specified index.
 old-location: winrt\imetadatatables2_getmetadatastreaminfo.htm
 old-project: WinRT
 ms.assetid: a292a32a-b9c2-46b5-a2c4-074e616d7675
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetMetaDataStreamInfo method [Windows Runtime], GetMetaDataStreamInfo method [Windows Runtime], IMetaDataTables2 interface, GetMetaDataStreamInfo,IMetaDataTables2.GetMetaDataStreamInfo, IMetaDataTables2, IMetaDataTables2 interface [Windows Runtime], GetMetaDataStreamInfo method, IMetaDataTables2::GetMetaDataStreamInfo, rometadataapi/IMetaDataTables2::GetMetaDataStreamInfo, winrt.imetadatatables2_getmetadatastreaminfo
+ms.date: 5/4/2018
+ms.keywords: GetMetaDataStreamInfo, GetMetaDataStreamInfo method [Windows Runtime], GetMetaDataStreamInfo method [Windows Runtime],IMetaDataTables2 interface, IMetaDataTables2 interface [Windows Runtime],GetMetaDataStreamInfo method, IMetaDataTables2.GetMetaDataStreamInfo, IMetaDataTables2::GetMetaDataStreamInfo, rometadataapi/IMetaDataTables2::GetMetaDataStreamInfo, winrt.imetadatatables2_getmetadatastreaminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataTables2::GetMetaDataStreamInfo method
+# IMetaDataTables2::GetMetaDataStreamInfo
 
 
 ## -description

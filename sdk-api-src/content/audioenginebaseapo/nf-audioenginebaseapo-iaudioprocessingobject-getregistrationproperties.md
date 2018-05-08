@@ -1,14 +1,14 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.GetRegistrationProperties
-title: IAudioProcessingObject::GetRegistrationProperties method
+title: IAudioProcessingObject::GetRegistrationProperties
 author: windows-driver-content
 description: GetRegistrationProperties returns the registration properties of the audio processing object (APO).
 old-location: audio\iaudioprocessingobject_getregistrationproperties.htm
 old-project: audio
 ms.assetid: A0D0BAA9-7942-4952-AC9D-087EE7FE6DD0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetRegistrationProperties method [Audio Devices], GetRegistrationProperties method [Audio Devices], IAudioProcessingObject interface, GetRegistrationProperties,IAudioProcessingObject.GetRegistrationProperties, IAudioProcessingObject, IAudioProcessingObject interface [Audio Devices], GetRegistrationProperties method, IAudioProcessingObject::GetRegistrationProperties, audio.iaudioprocessingobject_getregistrationproperties, audioenginebaseapo/IAudioProcessingObject::GetRegistrationProperties
+ms.date: 5/1/2018
+ms.keywords: GetRegistrationProperties, GetRegistrationProperties method [Audio Devices], GetRegistrationProperties method [Audio Devices],IAudioProcessingObject interface, IAudioProcessingObject interface [Audio Devices],GetRegistrationProperties method, IAudioProcessingObject.GetRegistrationProperties, IAudioProcessingObject::GetRegistrationProperties, audio.iaudioprocessingobject_getregistrationproperties, audioenginebaseapo/IAudioProcessingObject::GetRegistrationProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: Any level
 ---
 
-# IAudioProcessingObject::GetRegistrationProperties method
+# IAudioProcessingObject::GetRegistrationProperties
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_EndPort
-title: IWdsTransportServicePolicy::get_EndPort method
+title: IWdsTransportServicePolicy::get_EndPort
 author: windows-driver-content
 description: Enables a WDS client computer to configure the end of a UDP port range that is used by WDS transport services.
 old-location: wds\iwdstransportservicepolicy_endport.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: ee458ab8-38f1-43ec-a9b4-a2c31f80fce2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EndPort property [Windows Deployment Services], EndPort property [Windows Deployment Services], IWdsTransportServicePolicy interface, IWdsTransportServicePolicy, IWdsTransportServicePolicy interface [Windows Deployment Services], EndPort property, IWdsTransportServicePolicy.EndPort, IWdsTransportServicePolicy::get_EndPort, IWdsTransportServicePolicy::put_EndPort, get_EndPort,IWdsTransportServicePolicy.get_EndPort, wds.iwdstransportservicepolicy_endport, wdstptmgmt/IWdsTransportServicePolicy::EndPort, wdstptmgmt/IWdsTransportServicePolicy::get_EndPort, wdstptmgmt/IWdsTransportServicePolicy::put_EndPort
+ms.keywords: EndPort property [Windows Deployment Services], EndPort property [Windows Deployment Services],IWdsTransportServicePolicy interface, IWdsTransportServicePolicy interface [Windows Deployment Services],EndPort property, IWdsTransportServicePolicy.EndPort, IWdsTransportServicePolicy.get_EndPort, IWdsTransportServicePolicy::EndPort, IWdsTransportServicePolicy::get_EndPort, IWdsTransportServicePolicy::put_EndPort, get_EndPort, wds.iwdstransportservicepolicy_endport, wdstptmgmt/IWdsTransportServicePolicy::EndPort, wdstptmgmt/IWdsTransportServicePolicy::get_EndPort, wdstptmgmt/IWdsTransportServicePolicy::put_EndPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportServicePolicy::get_EndPort method
+# IWdsTransportServicePolicy::get_EndPort
 
 
 ## -description

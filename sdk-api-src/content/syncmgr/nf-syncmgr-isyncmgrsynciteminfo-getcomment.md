@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.GetComment
-title: ISyncMgrSyncItemInfo::GetComment method
+title: ISyncMgrSyncItemInfo::GetComment
 author: windows-driver-content
 description: Gets a string that contains commentary regarding the item.
 old-location: shell\ISyncMgrSyncItemInfo_GetComment.htm
 old-project: shell
 ms.assetid: 3959784b-2926-43fd-b8e5-bb1884e5d321
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetComment method [Windows Shell], GetComment method [Windows Shell], ISyncMgrSyncItemInfo interface, GetComment,ISyncMgrSyncItemInfo.GetComment, ISyncMgrSyncItemInfo, ISyncMgrSyncItemInfo interface [Windows Shell], GetComment method, ISyncMgrSyncItemInfo::GetComment, _shell_ISyncMgrSyncItemInfo_GetComment, shell.ISyncMgrSyncItemInfo_GetComment, syncmgr/ISyncMgrSyncItemInfo::GetComment
+ms.date: 5/3/2018
+ms.keywords: GetComment, GetComment method [Windows Shell], GetComment method [Windows Shell],ISyncMgrSyncItemInfo interface, ISyncMgrSyncItemInfo interface [Windows Shell],GetComment method, ISyncMgrSyncItemInfo.GetComment, ISyncMgrSyncItemInfo::GetComment, _shell_ISyncMgrSyncItemInfo_GetComment, shell.ISyncMgrSyncItemInfo_GetComment, syncmgr/ISyncMgrSyncItemInfo::GetComment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrSyncItemInfo::GetComment method
+# ISyncMgrSyncItemInfo::GetComment
 
 
 ## -description

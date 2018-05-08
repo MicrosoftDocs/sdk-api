@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMedia.get_attributeCount
-title: IWMPMedia::get_attributeCount method
+title: IWMPMedia::get_attributeCount
 author: windows-driver-content
 description: The get_attributeCount method retrieves the number of attributes that can be queried and/or set for the media item.
 old-location: wmp\iwmpmedia_get_attributecount.htm
 old-project: WMP
 ms.assetid: 33e29da2-7439-41d1-9dd9-9b66e87aeb4b
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], get_attributeCount method, IWMPMedia2 interface [Windows Media Player], get_attributeCount method, IWMPMedia2::get_attributeCount, IWMPMedia3 interface [Windows Media Player], get_attributeCount method, IWMPMedia3::get_attributeCount, IWMPMedia::get_attributeCount, IWMPMediaget_attributeCount, get_attributeCount method [Windows Media Player], get_attributeCount method [Windows Media Player], IWMPMedia interface, get_attributeCount method [Windows Media Player], IWMPMedia2 interface, get_attributeCount method [Windows Media Player], IWMPMedia3 interface, get_attributeCount,IWMPMedia.get_attributeCount, wmp.iwmpmedia_get_attributecount, wmp/IWMPMedia2::get_attributeCount, wmp/IWMPMedia3::get_attributeCount, wmp/IWMPMedia::get_attributeCount
+ms.date: 5/4/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],get_attributeCount method, IWMPMedia.get_attributeCount, IWMPMedia2 interface [Windows Media Player],get_attributeCount method, IWMPMedia2::get_attributeCount, IWMPMedia3 interface [Windows Media Player],get_attributeCount method, IWMPMedia3::get_attributeCount, IWMPMedia::get_attributeCount, IWMPMediaget_attributeCount, get_attributeCount, get_attributeCount method [Windows Media Player], get_attributeCount method [Windows Media Player],IWMPMedia interface, get_attributeCount method [Windows Media Player],IWMPMedia2 interface, get_attributeCount method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_attributecount, wmp/IWMPMedia2::get_attributeCount, wmp/IWMPMedia3::get_attributeCount, wmp/IWMPMedia::get_attributeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMedia::get_attributeCount method
+# IWMPMedia::get_attributeCount
 
 
 ## -description

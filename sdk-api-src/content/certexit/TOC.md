@@ -1,0 +1,8 @@
+# [Authentication](../_security/index.md)
+## [Certexit.h](index.md)
+### [ICertExit::GetDescription](../certexit/nf-certexit-icertexit-getdescription.md)
+### [ICertExit::Initialize](../certexit/nf-certexit-icertexit-initialize.md)
+### [ICertExit::Notify](../certexit/nf-certexit-icertexit-notify.md)
+### [ICertExit2::GetManageModule](../certexit/nf-certexit-icertexit2-getmanagemodule.md)
+### [ICertExit interface](../certexit/nn-certexit-icertexit.md)
+### [ICertExit2 interface](../certexit/nn-certexit-icertexit2.md)

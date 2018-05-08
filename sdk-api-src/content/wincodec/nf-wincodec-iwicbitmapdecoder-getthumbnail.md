@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetThumbnail
-title: IWICBitmapDecoder::GetThumbnail method
+title: IWICBitmapDecoder::GetThumbnail
 author: windows-driver-content
 description: Retrieves a bitmap thumbnail of the image, if one exists
 old-location: wic\_wic_codec_iwicbitmapdecoder_getthumbnail.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: dbfe61d9-50ca-4d44-a8a3-2acae3413985
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetThumbnail method [Windows Imaging Component], GetThumbnail method [Windows Imaging Component], IWICBitmapDecoder interface, GetThumbnail,IWICBitmapDecoder.GetThumbnail, IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], GetThumbnail method, IWICBitmapDecoder::GetThumbnail, _wic_codec_iwicbitmapdecoder_getthumbnail, wic._wic_codec_iwicbitmapdecoder_getthumbnail, wincodec/IWICBitmapDecoder::GetThumbnail
+ms.keywords: GetThumbnail, GetThumbnail method [Windows Imaging Component], GetThumbnail method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetThumbnail method, IWICBitmapDecoder.GetThumbnail, IWICBitmapDecoder::GetThumbnail, _wic_codec_iwicbitmapdecoder_getthumbnail, wic._wic_codec_iwicbitmapdecoder_getthumbnail, wincodec/IWICBitmapDecoder::GetThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapDecoder::GetThumbnail method
+# IWICBitmapDecoder::GetThumbnail
 
 
 ## -description

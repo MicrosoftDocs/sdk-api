@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetclientoptions.htm
 old-project: DHCP
 ms.assetid: 60f4db5f-0359-4738-980e-2a56adbf551e
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpGetClientOptions, DhcpGetClientOptions function [DHCP], dhcp.dhcpgetclientoptions, dhcpsapi/DhcpGetClientOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

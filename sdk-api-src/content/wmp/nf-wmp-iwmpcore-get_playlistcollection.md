@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCore.get_playlistCollection
-title: IWMPCore::get_playlistCollection method
+title: IWMPCore::get_playlistCollection
 author: windows-driver-content
 description: The get_playlistCollection method retrieves a pointer to an IWMPPlaylistCollection interface.
 old-location: wmp\iwmpcore_get_playlistcollection.htm
 old-project: WMP
 ms.assetid: 8f6ab34f-e055-4a18-b1b8-e3c7b8f9c76a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_playlistCollection method, IWMPCore::get_playlistCollection, IWMPCoreget_playlistCollection, get_playlistCollection method [Windows Media Player], get_playlistCollection method [Windows Media Player], IWMPCore interface, get_playlistCollection,IWMPCore.get_playlistCollection, wmp.iwmpcore_get_playlistcollection, wmp/IWMPCore::get_playlistCollection
+ms.date: 5/4/2018
+ms.keywords: IWMPCore interface [Windows Media Player],get_playlistCollection method, IWMPCore.get_playlistCollection, IWMPCore::get_playlistCollection, IWMPCoreget_playlistCollection, get_playlistCollection, get_playlistCollection method [Windows Media Player], get_playlistCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_playlistcollection, wmp/IWMPCore::get_playlistCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCore::get_playlistCollection method
+# IWMPCore::get_playlistCollection
 
 
 ## -description

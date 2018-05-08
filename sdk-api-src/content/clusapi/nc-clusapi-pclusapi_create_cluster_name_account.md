@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 82BBEE9D-C787-4935-BB5F-09438676B37A
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT, PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT, mscs.createclusternameaccount
+ms.keywords: PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT, PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT callback, PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT, mscs.createclusternameaccount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT callback
+# PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT callback function
 
 
 ## -description

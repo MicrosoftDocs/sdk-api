@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.BeginSubscribeToMultipleOperations
-title: IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations method
+title: IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations
 author: windows-driver-content
 description: Initializes an asynchronous operation that subscribes to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_beginsubscribetomultipleoperations.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 54c6ac58-4272-45ad-80cc-2114ba6f466e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: BeginSubscribeToMultipleOperations method, BeginSubscribeToMultipleOperations method, IWSDServiceProxyEventing interface, BeginSubscribeToMultipleOperations,IWSDServiceProxyEventing.BeginSubscribeToMultipleOperations, IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, BeginSubscribeToMultipleOperations method, IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_beginsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations
+ms.keywords: BeginSubscribeToMultipleOperations, BeginSubscribeToMultipleOperations method, BeginSubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginSubscribeToMultipleOperations method, IWSDServiceProxyEventing.BeginSubscribeToMultipleOperations, IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_beginsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations method
+# IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations
 
 
 ## -description

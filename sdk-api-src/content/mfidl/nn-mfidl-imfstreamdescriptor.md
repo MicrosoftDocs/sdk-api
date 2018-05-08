@@ -7,8 +7,8 @@ old-location: mf\imfstreamdescriptor.htm
 old-project: medfound
 ms.assetid: a076dc6e-d9cb-4f7e-8cc2-b66292da295f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFStreamDescriptor, IMFStreamDescriptor interface [Media Foundation], IMFStreamDescriptor interface [Media Foundation], described, a076dc6e-d9cb-4f7e-8cc2-b66292da295f, mf.imfstreamdescriptor, mfidl/IMFStreamDescriptor
+ms.date: 5/3/2018
+ms.keywords: IMFStreamDescriptor, IMFStreamDescriptor interface [Media Foundation], IMFStreamDescriptor interface [Media Foundation],described, a076dc6e-d9cb-4f7e-8cc2-b66292da295f, mf.imfstreamdescriptor, mfidl/IMFStreamDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

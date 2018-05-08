@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Rename
-title: IWMDMStorageControl::Rename method
+title: IWMDMStorageControl::Rename
 author: windows-driver-content
 description: The Rename method renames the current storage.
 old-location: wmdm\iwmdmstoragecontrol_rename.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 06cd302b-7876-4256-aa75-27127eb45ac9
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMStorageControl, IWMDMStorageControl interface [windows Media Device Manager], Rename method, IWMDMStorageControl::Rename, IWMDMStorageControlRename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager], IWMDMStorageControl interface, Rename,IWMDMStorageControl.Rename, mswmdm/IWMDMStorageControl::Rename, wmdm.iwmdmstoragecontrol_rename
+ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Rename method, IWMDMStorageControl.Rename, IWMDMStorageControl::Rename, IWMDMStorageControlRename, Rename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Rename, wmdm.iwmdmstoragecontrol_rename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMStorageControl::Rename method
+# IWMDMStorageControl::Rename
 
 
 ## -description

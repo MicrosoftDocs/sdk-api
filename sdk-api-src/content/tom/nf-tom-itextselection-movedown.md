@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextSelection.MoveDown
-title: ITextSelection::MoveDown method
+title: ITextSelection::MoveDown
 author: windows-driver-content
 description: Mimics the functionality of the Down Arrow and Page Down keys.
 old-location: controls\ITextSelection_MoveDown.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movedown.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextSelection, ITextSelection interface [Windows Controls], MoveDown method, ITextSelection::MoveDown, MoveDown method [Windows Controls], MoveDown method [Windows Controls], ITextSelection interface, MoveDown,ITextSelection.MoveDown, _win32_ITextSelection_MoveDown, _win32_ITextSelection_MoveDown_cpp, controls.ITextSelection_MoveDown, controls._win32_ITextSelection_MoveDown, tom/ITextSelection::MoveDown
+ms.date: 4/27/2018
+ms.keywords: ITextSelection interface [Windows Controls],MoveDown method, ITextSelection.MoveDown, ITextSelection::MoveDown, MoveDown, MoveDown method [Windows Controls], MoveDown method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveDown, _win32_ITextSelection_MoveDown_cpp, controls.ITextSelection_MoveDown, controls._win32_ITextSelection_MoveDown, tom/ITextSelection::MoveDown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextSelection::MoveDown method
+# ITextSelection::MoveDown
 
 
 ## -description

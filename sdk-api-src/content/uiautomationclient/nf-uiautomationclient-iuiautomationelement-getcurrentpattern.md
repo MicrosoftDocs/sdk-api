@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCurrentPattern
-title: IUIAutomationElement::GetCurrentPattern method
+title: IUIAutomationElement::GetCurrentPattern
 author: windows-driver-content
 description: Retrieves the IUnknown interface of the specified control pattern on this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCurrentPattern.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3ad4df7c-979d-464f-9600-d1f3de064b59
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCurrentPattern method [Windows Accessibility], GetCurrentPattern method [Windows Accessibility], IUIAutomationElement interface, GetCurrentPattern,IUIAutomationElement.GetCurrentPattern, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], GetCurrentPattern method, IUIAutomationElement::GetCurrentPattern, uiauto.uiauto_IUIAutomationElement_GetCurrentPattern, uiauto_IUIAutomationElement_GetCurrentPattern, uiautomationclient/IUIAutomationElement::GetCurrentPattern, winauto.uiauto_IUIAutomationElement_GetCurrentPattern
+ms.keywords: GetCurrentPattern, GetCurrentPattern method [Windows Accessibility], GetCurrentPattern method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCurrentPattern method, IUIAutomationElement.GetCurrentPattern, IUIAutomationElement::GetCurrentPattern, uiauto.uiauto_IUIAutomationElement_GetCurrentPattern, uiauto_IUIAutomationElement_GetCurrentPattern, uiautomationclient/IUIAutomationElement::GetCurrentPattern, winauto.uiauto_IUIAutomationElement_GetCurrentPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::GetCurrentPattern method
+# IUIAutomationElement::GetCurrentPattern
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.RegisterVideoProcessorSoftwareDevice
-title: IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice method
+title: IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice
 author: windows-driver-content
 description: Registers a software video processing device.
 old-location: mf\idirectxvideoprocessorservice_registervideoprocessorsoftwaredevice.htm
 old-project: medfound
 ms.assetid: 3d0bdd60-6cc7-4229-aed9-40b407167456
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 3d0bdd60-6cc7-4229-aed9-40b407167456, IDirectXVideoProcessorService, IDirectXVideoProcessorService interface [Media Foundation], RegisterVideoProcessorSoftwareDevice method, IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice, RegisterVideoProcessorSoftwareDevice method [Media Foundation], RegisterVideoProcessorSoftwareDevice method [Media Foundation], IDirectXVideoProcessorService interface, RegisterVideoProcessorSoftwareDevice,IDirectXVideoProcessorService.RegisterVideoProcessorSoftwareDevice, dxva2api/IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice, mf.idirectxvideoprocessorservice_registervideoprocessorsoftwaredevice
+ms.date: 5/3/2018
+ms.keywords: 3d0bdd60-6cc7-4229-aed9-40b407167456, IDirectXVideoProcessorService interface [Media Foundation],RegisterVideoProcessorSoftwareDevice method, IDirectXVideoProcessorService.RegisterVideoProcessorSoftwareDevice, IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice, RegisterVideoProcessorSoftwareDevice, RegisterVideoProcessorSoftwareDevice method [Media Foundation], RegisterVideoProcessorSoftwareDevice method [Media Foundation],IDirectXVideoProcessorService interface, dxva2api/IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice, mf.idirectxvideoprocessorservice_registervideoprocessorsoftwaredevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice method
+# IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice
 
 
 ## -description

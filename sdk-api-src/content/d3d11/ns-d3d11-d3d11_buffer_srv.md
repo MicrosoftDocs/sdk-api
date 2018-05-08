@@ -57,28 +57,7 @@ Specifies the elements in a buffer resource to use in a shader-resource view.
 
 
 
-
-
-#### - ElementOffset
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
-
-
-              The offset of the first element in the view to access, relative to element 0.
-            
-
-
-#### - ElementWidth
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
-
-
-              The width of each element (in bytes).
-              This can be determined from the format stored in the shader-resource-view description.
-            
-
-
-#### - FirstElement
+### -field FirstElement
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
@@ -87,12 +66,31 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
             
 
 
-#### - NumElements
+### -field ElementOffset
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+
+              The offset of the first element in the view to access, relative to element 0.
+            
+
+
+### -field NumElements
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 
               The total number of elements in the view.
+            
+
+
+### -field ElementWidth
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+
+              The width of each element (in bytes).
+              This can be determined from the format stored in the shader-resource-view description.
             
 
 

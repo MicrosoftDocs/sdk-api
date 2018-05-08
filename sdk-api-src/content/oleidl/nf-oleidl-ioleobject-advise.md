@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.Advise
-title: IOleObject::Advise method
+title: IOleObject::Advise
 author: windows-driver-content
 description: Establishes an advisory connection between a compound document object and the calling object's advise sink, through which the calling object receives notification when the compound document object is renamed, saved, or closed.
 old-location: com\ioleobject_advise.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 6a68c9e9-6e06-4def-89a5-18e184e76a26
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Advise method [COM], Advise method [COM], IOleObject interface, Advise,IOleObject.Advise, IOleObject, IOleObject interface [COM], Advise method, IOleObject::Advise, _ole_ioleobject_advise, com.ioleobject_advise, oleidl/IOleObject::Advise
+ms.keywords: Advise, Advise method [COM], Advise method [COM],IOleObject interface, IOleObject interface [COM],Advise method, IOleObject.Advise, IOleObject::Advise, _ole_ioleobject_advise, com.ioleobject_advise, oleidl/IOleObject::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleObject::Advise method
+# IOleObject::Advise
 
 
 ## -description

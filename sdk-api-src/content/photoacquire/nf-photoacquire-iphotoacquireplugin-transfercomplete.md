@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.TransferComplete
-title: IPhotoAcquirePlugin::TransferComplete method
+title: IPhotoAcquirePlugin::TransferComplete
 author: windows-driver-content
 description: Provides extended functionality when a transfer session is completed. The application provides the implementation of the TransferComplete method.
 old-location: picacq\iphotoacquireplugin_transfercomplete.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 915e676a-4aaa-4b10-b913-51b856c61dba
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoAcquirePlugin, IPhotoAcquirePlugin interface [Picture Acquisition], TransferComplete method, IPhotoAcquirePlugin::TransferComplete, IPhotoAcquirePluginTransferComplete, TransferComplete method [Picture Acquisition], TransferComplete method [Picture Acquisition], IPhotoAcquirePlugin interface, TransferComplete,IPhotoAcquirePlugin.TransferComplete, photoacquire/IPhotoAcquirePlugin::TransferComplete, picacq.iphotoacquireplugin_transfercomplete
+ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],TransferComplete method, IPhotoAcquirePlugin.TransferComplete, IPhotoAcquirePlugin::TransferComplete, IPhotoAcquirePluginTransferComplete, TransferComplete, TransferComplete method [Picture Acquisition], TransferComplete method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::TransferComplete, picacq.iphotoacquireplugin_transfercomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquirePlugin::TransferComplete method
+# IPhotoAcquirePlugin::TransferComplete
 
 
 ## -description

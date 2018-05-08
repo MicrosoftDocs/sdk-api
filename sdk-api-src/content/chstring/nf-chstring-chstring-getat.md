@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.GetAt
-title: CHString::GetAt method
+title: CHString::GetAt
 author: windows-driver-content
 description: Returns a single character specified by an index number.
 old-location: wmi\chstring_getat.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: ed038b41-211c-4483-99cd-0bc43b241761
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHString, CHString interface [Windows Management Instrumentation], GetAt method, CHString::GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation], CHString interface, GetAt,CHString.GetAt, _hmm_chstring_getat, chstring/CHString::GetAt, wmi.chstring_getat
+ms.keywords: CHString interface [Windows Management Instrumentation],GetAt method, CHString.GetAt, CHString::GetAt, GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getat, chstring/CHString::GetAt, wmi.chstring_getat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::GetAt method
+# CHString::GetAt
 
 
 ## -description

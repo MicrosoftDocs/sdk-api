@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.EnumFormatEtc
-title: IDataObject::EnumFormatEtc method
+title: IDataObject::EnumFormatEtc
 author: windows-driver-content
 description: Creates an object to enumerate the formats supported by a data object.
 old-location: com\idataobject_enumformatetc.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 657a7394-4481-4e0c-912d-40a9348caf16
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: EnumFormatEtc method [COM], EnumFormatEtc method [COM], IDataObject interface, EnumFormatEtc,IDataObject.EnumFormatEtc, IDataObject, IDataObject interface [COM], EnumFormatEtc method, IDataObject::EnumFormatEtc, _ole_idataobject_enumformatetc, com.idataobject_enumformatetc, objidl/IDataObject::EnumFormatEtc
+ms.keywords: EnumFormatEtc, EnumFormatEtc method [COM], EnumFormatEtc method [COM],IDataObject interface, IDataObject interface [COM],EnumFormatEtc method, IDataObject.EnumFormatEtc, IDataObject::EnumFormatEtc, _ole_idataobject_enumformatetc, com.idataobject_enumformatetc, objidl/IDataObject::EnumFormatEtc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataObject::EnumFormatEtc method
+# IDataObject::EnumFormatEtc
 
 
 ## -description

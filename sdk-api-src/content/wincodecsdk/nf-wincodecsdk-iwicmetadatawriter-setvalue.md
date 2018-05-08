@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.SetValue
-title: IWICMetadataWriter::SetValue method
+title: IWICMetadataWriter::SetValue
 author: windows-driver-content
 description: Sets the given metadata item.
 old-location: wic\_wic_codec_iwicmetadatawriter_setvalue.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: bda3f959-40d1-45df-a82c-3eba2be33859
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICMetadataWriter, IWICMetadataWriter interface [Windows Imaging Component], SetValue method, IWICMetadataWriter::SetValue, SetValue method [Windows Imaging Component], SetValue method [Windows Imaging Component], IWICMetadataWriter interface, SetValue,IWICMetadataWriter.SetValue, _wic_codec_iwicmetadatawriter_setvalue, wic._wic_codec_iwicmetadatawriter_setvalue, wincodecsdk/IWICMetadataWriter::SetValue
+ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],SetValue method, IWICMetadataWriter.SetValue, IWICMetadataWriter::SetValue, SetValue, SetValue method [Windows Imaging Component], SetValue method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_setvalue, wic._wic_codec_iwicmetadatawriter_setvalue, wincodecsdk/IWICMetadataWriter::SetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataWriter::SetValue method
+# IWICMetadataWriter::SetValue
 
 
 ## -description

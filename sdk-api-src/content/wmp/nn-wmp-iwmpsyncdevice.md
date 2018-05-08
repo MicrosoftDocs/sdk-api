@@ -7,8 +7,8 @@ old-location: wmp\iwmpsyncdevice.htm
 old-project: WMP
 ms.assetid: 981648e4-0cb1-4d7a-bd3b-50e1b9a7282c
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], IWMPSyncDevice interface [Windows Media Player], described, IWMPSyncDeviceInterface, wmp.iwmpsyncdevice, wmp/IWMPSyncDevice
+ms.date: 5/4/2018
+ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], IWMPSyncDevice interface [Windows Media Player],described, IWMPSyncDeviceInterface, wmp.iwmpsyncdevice, wmp/IWMPSyncDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

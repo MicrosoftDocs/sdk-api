@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_BufferingProgress
-title: IAMNetworkStatus::get_BufferingProgress method
+title: IAMNetworkStatus::get_BufferingProgress
 author: windows-driver-content
 description: The get_BufferingProgress method retrieves a value indicating the buffering progress.
 old-location: dshow\iamnetworkstatus_get_bufferingprogress.htm
 old-project: DirectShow
 ms.assetid: 76276bdc-1f19-4fb9-8ae9-1edeb5639741
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], get_BufferingProgress method, IAMNetworkStatus::get_BufferingProgress, IAMNetworkStatusget_BufferingProgress, dshow.iamnetworkstatus_get_bufferingprogress, get_BufferingProgress method [DirectShow], get_BufferingProgress method [DirectShow], IAMNetworkStatus interface, get_BufferingProgress,IAMNetworkStatus.get_BufferingProgress, qnetwork/IAMNetworkStatus::get_BufferingProgress
+ms.date: 4/30/2018
+ms.keywords: IAMNetworkStatus interface [DirectShow],get_BufferingProgress method, IAMNetworkStatus.get_BufferingProgress, IAMNetworkStatus::get_BufferingProgress, IAMNetworkStatusget_BufferingProgress, dshow.iamnetworkstatus_get_bufferingprogress, get_BufferingProgress, get_BufferingProgress method [DirectShow], get_BufferingProgress method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_BufferingProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetworkStatus::get_BufferingProgress method
+# IAMNetworkStatus::get_BufferingProgress
 
 
 ## -description

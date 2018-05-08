@@ -8,7 +8,7 @@ old-project: PerfCtrs
 ms.assetid: 709d5339-cedd-4b03-9d8e-c125eb3bcac0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
-ms.keywords: "*PPERF_COUNTERSET_INSTANCE, PERF_COUNTERSET_INSTANCE, PERF_COUNTERSET_INSTANCE structure [Perf], PERF_COUNTERSET_INSTANCE, *PPERF_COUNTERSET_INSTANCE, PERF_COUNTERSET_INSTANCE, *PPERF_COUNTERSET_INSTANCE structure [Perf], _PERF_COUNTERSET_INSTANCE, base.perf_counterset_instance, perf.perf_counterset_instance, perflib/PERF_COUNTERSET_INSTANCE"
+ms.keywords: "*PPERF_COUNTERSET_INSTANCE, PERF_COUNTERSET_INSTANCE, PERF_COUNTERSET_INSTANCE structure [Perf], PERF_COUNTERSET_INSTANCE,*PPERF_COUNTERSET_INSTANCE, PERF_COUNTERSET_INSTANCE,*PPERF_COUNTERSET_INSTANCE structure [Perf], _PERF_COUNTERSET_INSTANCE, base.perf_counterset_instance, perf.perf_counterset_instance, perflib/PERF_COUNTERSET_INSTANCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

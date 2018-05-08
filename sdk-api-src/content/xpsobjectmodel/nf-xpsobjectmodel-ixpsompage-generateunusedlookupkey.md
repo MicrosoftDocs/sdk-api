@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GenerateUnusedLookupKey
-title: IXpsOMPage::GenerateUnusedLookupKey method
+title: IXpsOMPage::GenerateUnusedLookupKey
 author: windows-driver-content
 description: Generates a unique name that can be used as a lookup key by a resource in a resource dictionary.
 old-location: xps\ixpsompage_generateunusedlookupkey.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 79599ede-fd81-4d1a-b71b-ac5742e384ca
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GenerateUnusedLookupKey method [XPS Documents and Packaging], GenerateUnusedLookupKey method [XPS Documents and Packaging], IXpsOMPage interface, GenerateUnusedLookupKey,IXpsOMPage.GenerateUnusedLookupKey, IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], GenerateUnusedLookupKey method, IXpsOMPage::GenerateUnusedLookupKey, xps.ixpsompage_generateunusedlookupkey, xpsobjectmodel/IXpsOMPage::GenerateUnusedLookupKey
+ms.keywords: GenerateUnusedLookupKey, GenerateUnusedLookupKey method [XPS Documents and Packaging], GenerateUnusedLookupKey method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GenerateUnusedLookupKey method, IXpsOMPage.GenerateUnusedLookupKey, IXpsOMPage::GenerateUnusedLookupKey, xps.ixpsompage_generateunusedlookupkey, xpsobjectmodel/IXpsOMPage::GenerateUnusedLookupKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::GenerateUnusedLookupKey method
+# IXpsOMPage::GenerateUnusedLookupKey
 
 
 ## -description

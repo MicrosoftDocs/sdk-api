@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFByteStream.BeginRead
-title: IMFByteStream::BeginRead method
+title: IMFByteStream::BeginRead
 author: windows-driver-content
 description: Begins an asynchronous read operation from the stream.
 old-location: mf\imfbytestream_beginread.htm
 old-project: medfound
 ms.assetid: ed4aaf2a-270c-4518-b04d-cdac966bf9a5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: BeginRead method [Media Foundation], BeginRead method [Media Foundation], IMFByteStream interface, BeginRead,IMFByteStream.BeginRead, IMFByteStream, IMFByteStream interface [Media Foundation], BeginRead method, IMFByteStream::BeginRead, ed4aaf2a-270c-4518-b04d-cdac966bf9a5, mf.imfbytestream_beginread, mfobjects/IMFByteStream::BeginRead
+ms.date: 5/3/2018
+ms.keywords: BeginRead, BeginRead method [Media Foundation], BeginRead method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],BeginRead method, IMFByteStream.BeginRead, IMFByteStream::BeginRead, ed4aaf2a-270c-4518-b04d-cdac966bf9a5, mf.imfbytestream_beginread, mfobjects/IMFByteStream::BeginRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStream::BeginRead method
+# IMFByteStream::BeginRead
 
 
 ## -description

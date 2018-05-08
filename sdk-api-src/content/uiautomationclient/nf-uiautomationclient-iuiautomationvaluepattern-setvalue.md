@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationValuePattern.SetValue
-title: IUIAutomationValuePattern::SetValue method
+title: IUIAutomationValuePattern::SetValue
 author: windows-driver-content
 description: Sets the value of the element.
 old-location: winauto\uiauto_IUIAutomationValuePattern_SetValue.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9b4caa59-bda4-4cc6-b2d8-ff47ea292746
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationValuePattern, IUIAutomationValuePattern interface [Windows Accessibility], SetValue method, IUIAutomationValuePattern::SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility], IUIAutomationValuePattern interface, SetValue,IUIAutomationValuePattern.SetValue, uiauto.uiauto_IUIAutomationValuePattern_SetValue, uiauto_IUIAutomationValuePattern_SetValue, uiautomationclient/IUIAutomationValuePattern::SetValue, winauto.uiauto_IUIAutomationValuePattern_SetValue
+ms.keywords: IUIAutomationValuePattern interface [Windows Accessibility],SetValue method, IUIAutomationValuePattern.SetValue, IUIAutomationValuePattern::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IUIAutomationValuePattern interface, uiauto.uiauto_IUIAutomationValuePattern_SetValue, uiauto_IUIAutomationValuePattern_SetValue, uiautomationclient/IUIAutomationValuePattern::SetValue, winauto.uiauto_IUIAutomationValuePattern_SetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationValuePattern::SetValue method
+# IUIAutomationValuePattern::SetValue
 
 
 ## -description

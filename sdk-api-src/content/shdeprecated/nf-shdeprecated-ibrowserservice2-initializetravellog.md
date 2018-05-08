@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.InitializeTravelLog
-title: IBrowserService2::InitializeTravelLog method
+title: IBrowserService2::InitializeTravelLog
 author: windows-driver-content
 description: Deprecated. Allows the derived class to specify a navigation record to be used in a new window.
 old-location: shell\IBrowserService2_InitializeTravelLog.htm
 old-project: shell
 ms.assetid: ff2165da-e195-4cc1-ba89-c11eb37ac4c3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], InitializeTravelLog method, IBrowserService2::InitializeTravelLog, InitializeTravelLog method [Windows Shell], InitializeTravelLog method [Windows Shell], IBrowserService2 interface, InitializeTravelLog,IBrowserService2.InitializeTravelLog, shdeprecated/IBrowserService2::InitializeTravelLog, shell.IBrowserService2_InitializeTravelLog, zone_IBrowserService2_InitializeTravelLog
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],InitializeTravelLog method, IBrowserService2.InitializeTravelLog, IBrowserService2::InitializeTravelLog, InitializeTravelLog, InitializeTravelLog method [Windows Shell], InitializeTravelLog method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeTravelLog, shell.IBrowserService2_InitializeTravelLog, zone_IBrowserService2_InitializeTravelLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::InitializeTravelLog method
+# IBrowserService2::InitializeTravelLog
 
 
 ## -description

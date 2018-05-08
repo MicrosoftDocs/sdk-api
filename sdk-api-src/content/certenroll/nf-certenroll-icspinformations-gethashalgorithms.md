@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.GetHashAlgorithms
-title: ICspInformations::GetHashAlgorithms method
+title: ICspInformations::GetHashAlgorithms
 author: windows-driver-content
 description: Retrieves the collection of hash algorithms supported by a provider.
 old-location: security\icspinformations_gethashalgorithms_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 647cad18-ed2e-4f3a-92d4-28fcfe60a800
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetHashAlgorithms method [Security], GetHashAlgorithms method [Security], ICspInformations interface, GetHashAlgorithms,ICspInformations.GetHashAlgorithms, ICspInformations, ICspInformations interface [Security], GetHashAlgorithms method, ICspInformations::GetHashAlgorithms, certenroll/ICspInformations::GetHashAlgorithms, security.icspinformations_gethashalgorithms_method
+ms.keywords: GetHashAlgorithms, GetHashAlgorithms method [Security], GetHashAlgorithms method [Security],ICspInformations interface, ICspInformations interface [Security],GetHashAlgorithms method, ICspInformations.GetHashAlgorithms, ICspInformations::GetHashAlgorithms, certenroll/ICspInformations::GetHashAlgorithms, security.icspinformations_gethashalgorithms_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformations::GetHashAlgorithms method
+# ICspInformations::GetHashAlgorithms
 
 
 ## -description

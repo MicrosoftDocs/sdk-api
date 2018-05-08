@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextServices.TxQueryHitPoint
-title: ITextServices::TxQueryHitPoint method
+title: ITextServices::TxQueryHitPoint
 author: windows-driver-content
 description: Tests whether a specified point is within the rectangle of the text services object.
 old-location: controls\ITextServices_TxQueryHitPoint.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txqueryhitpoint.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices, ITextServices interface [Windows Controls], TxQueryHitPoint method, ITextServices::TxQueryHitPoint, TXTHITRESULT_CLOSE, TXTHITRESULT_HIT, TXTHITRESULT_NOHIT, TXTHITRESULT_TRANSPARENT, TxQueryHitPoint method [Windows Controls], TxQueryHitPoint method [Windows Controls], ITextServices interface, TxQueryHitPoint,ITextServices.TxQueryHitPoint, _win32_ITextServices_TxQueryHitPoint, _win32_ITextServices_TxQueryHitPoint_cpp, controls.ITextServices_TxQueryHitPoint, controls._win32_ITextServices_TxQueryHitPoint, textserv/ITextServices::TxQueryHitPoint
+ms.date: 4/27/2018
+ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices interface [Windows Controls],TxQueryHitPoint method, ITextServices.TxQueryHitPoint, ITextServices::TxQueryHitPoint, TXTHITRESULT_CLOSE, TXTHITRESULT_HIT, TXTHITRESULT_NOHIT, TXTHITRESULT_TRANSPARENT, TxQueryHitPoint, TxQueryHitPoint method [Windows Controls], TxQueryHitPoint method [Windows Controls],ITextServices interface, _win32_ITextServices_TxQueryHitPoint, _win32_ITextServices_TxQueryHitPoint_cpp, controls.ITextServices_TxQueryHitPoint, controls._win32_ITextServices_TxQueryHitPoint, textserv/ITextServices::TxQueryHitPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextServices::TxQueryHitPoint method
+# ITextServices::TxQueryHitPoint
 
 
 ## -description

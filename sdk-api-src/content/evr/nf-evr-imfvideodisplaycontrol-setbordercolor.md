@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetBorderColor
-title: IMFVideoDisplayControl::SetBorderColor method
+title: IMFVideoDisplayControl::SetBorderColor
 author: windows-driver-content
 description: Sets the border color for the video.
 old-location: mf\imfvideodisplaycontrol_setbordercolor.htm
 old-project: medfound
 ms.assetid: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71, IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], SetBorderColor method, IMFVideoDisplayControl::SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation], IMFVideoDisplayControl interface, SetBorderColor,IMFVideoDisplayControl.SetBorderColor, evr/IMFVideoDisplayControl::SetBorderColor, mf.imfvideodisplaycontrol_setbordercolor
+ms.date: 5/3/2018
+ms.keywords: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71, IMFVideoDisplayControl interface [Media Foundation],SetBorderColor method, IMFVideoDisplayControl.SetBorderColor, IMFVideoDisplayControl::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetBorderColor, mf.imfvideodisplaycontrol_setbordercolor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoDisplayControl::SetBorderColor method
+# IMFVideoDisplayControl::SetBorderColor
 
 
 ## -description

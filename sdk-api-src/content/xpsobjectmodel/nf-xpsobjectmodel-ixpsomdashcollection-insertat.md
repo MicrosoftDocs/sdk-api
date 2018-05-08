@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.InsertAt
-title: IXpsOMDashCollection::InsertAt method
+title: IXpsOMDashCollection::InsertAt
 author: windows-driver-content
 description: Inserts an XPS_DASH structure at a specified location in the collection.
 old-location: xps\ixpsomdashcollection_insertat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d9ef0ea9-f427-41ff-b33e-c9b5f49cb7d9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMDashCollection, IXpsOMDashCollection interface [XPS Documents and Packaging], InsertAt method, IXpsOMDashCollection::InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging], IXpsOMDashCollection interface, InsertAt,IXpsOMDashCollection.InsertAt, xps.ixpsomdashcollection_insertat, xpsobjectmodel/IXpsOMDashCollection::InsertAt
+ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMDashCollection.InsertAt, IXpsOMDashCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_insertat, xpsobjectmodel/IXpsOMDashCollection::InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDashCollection::InsertAt method
+# IXpsOMDashCollection::InsertAt
 
 
 ## -description

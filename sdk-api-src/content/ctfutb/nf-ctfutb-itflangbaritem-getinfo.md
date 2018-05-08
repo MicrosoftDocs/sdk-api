@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.GetInfo
-title: ITfLangBarItem::GetInfo method
+title: ITfLangBarItem::GetInfo
 author: windows-driver-content
 description: ITfLangBarItem::GetInfo method
 old-location: tsf\itflangbaritem_getinfo.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: b32e433a-c0d6-418e-bf11-2291c85373c2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetInfo method [Text Services Framework], GetInfo method [Text Services Framework], ITfLangBarItem interface, GetInfo,ITfLangBarItem.GetInfo, ITfLangBarItem, ITfLangBarItem interface [Text Services Framework], GetInfo method, ITfLangBarItem::GetInfo, _tsf_itflangbaritem_getinfo_ref, ctfutb/ITfLangBarItem::GetInfo, tsf.itflangbaritem_getinfo
+ms.keywords: GetInfo, GetInfo method [Text Services Framework], GetInfo method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetInfo method, ITfLangBarItem.GetInfo, ITfLangBarItem::GetInfo, _tsf_itflangbaritem_getinfo_ref, ctfutb/ITfLangBarItem::GetInfo, tsf.itflangbaritem_getinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItem::GetInfo method
+# ITfLangBarItem::GetInfo
 
 
 ## -description

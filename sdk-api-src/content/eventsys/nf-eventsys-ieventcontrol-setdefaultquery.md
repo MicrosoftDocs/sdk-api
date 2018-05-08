@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventControl.SetDefaultQuery
-title: IEventControl::SetDefaultQuery method
+title: IEventControl::SetDefaultQuery
 author: windows-driver-content
 description: Sets the default query to determine subscribers.
 old-location: cos\ieventcontrol_setdefaultquery.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: ea0cc4b8-e345-44bc-969e-f35f25b641f9
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventControl, IEventControl interface [COM+], SetDefaultQuery method, IEventControl::SetDefaultQuery, SetDefaultQuery method [COM+], SetDefaultQuery method [COM+], IEventControl interface, SetDefaultQuery,IEventControl.SetDefaultQuery, _cos_IEventControl_SetDefaultQuery, cos.ieventcontrol_setdefaultquery, eventsys/IEventControl::SetDefaultQuery
+ms.keywords: IEventControl interface [COM+],SetDefaultQuery method, IEventControl.SetDefaultQuery, IEventControl::SetDefaultQuery, SetDefaultQuery, SetDefaultQuery method [COM+], SetDefaultQuery method [COM+],IEventControl interface, _cos_IEventControl_SetDefaultQuery, cos.ieventcontrol_setdefaultquery, eventsys/IEventControl::SetDefaultQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventControl::SetDefaultQuery method
+# IEventControl::SetDefaultQuery
 
 
 ## -description

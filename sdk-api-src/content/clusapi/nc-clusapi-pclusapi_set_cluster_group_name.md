@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: d2dc3837-24d3-4455-8e3e-bb74b95b1d44
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_SET_CLUSTER_GROUP_NAME, PCLUSAPI_SET_CLUSTER_GROUP_NAME callback function [Failover Cluster], _wolf_setclustergroupname, clusapi/PCLUSAPI_SET_CLUSTER_GROUP_NAME, mscs.setclustergroupname
+ms.keywords: PCLUSAPI_SET_CLUSTER_GROUP_NAME, PCLUSAPI_SET_CLUSTER_GROUP_NAME callback, PCLUSAPI_SET_CLUSTER_GROUP_NAME callback function [Failover Cluster], _wolf_setclustergroupname, clusapi/PCLUSAPI_SET_CLUSTER_GROUP_NAME, mscs.setclustergroupname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_SET_CLUSTER_GROUP_NAME callback
+# PCLUSAPI_SET_CLUSTER_GROUP_NAME callback function
 
 
 ## -description

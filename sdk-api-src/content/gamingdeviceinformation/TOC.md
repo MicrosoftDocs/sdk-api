@@ -1,0 +1,6 @@
+# [Gaming Device Information](../_gamingdvcinfo/index.md)
+## [Gamingdeviceinformation.h](index.md)
+### [GAMING_DEVICE_DEVICE_ID enumeration](../gamingdeviceinformation/ne-gamingdeviceinformation-gaming_device_device_id.md)
+### [GAMING_DEVICE_VENDOR_ID enumeration](../gamingdeviceinformation/ne-gamingdeviceinformation-gaming_device_vendor_id.md)
+### [GetGamingDeviceModelInformation function](../gamingdeviceinformation/nf-gamingdeviceinformation-getgamingdevicemodelinformation.md)
+### [GAMING_DEVICE_MODEL_INFORMATION structure](../gamingdeviceinformation/ns-gamingdeviceinformation-gaming_device_model_information.md)

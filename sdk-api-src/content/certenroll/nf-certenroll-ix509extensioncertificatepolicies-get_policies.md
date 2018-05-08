@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionCertificatePolicies.get_Policies
-title: IX509ExtensionCertificatePolicies::get_Policies method
+title: IX509ExtensionCertificatePolicies::get_Policies
 author: windows-driver-content
 description: Retrieves a collection of certificate policies.
 old-location: security\ix509extensioncertificatepolicies_policies_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: eefb515d-62dc-4ad7-b0c4-c65a4da5742e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionCertificatePolicies, IX509ExtensionCertificatePolicies interface [Security], Policies property, IX509ExtensionCertificatePolicies.Policies, IX509ExtensionCertificatePolicies::get_Policies, Policies property [Security], Policies property [Security], IX509ExtensionCertificatePolicies interface, certenroll/IX509ExtensionCertificatePolicies::Policies, certenroll/IX509ExtensionCertificatePolicies::get_Policies, get_Policies,IX509ExtensionCertificatePolicies.get_Policies, security.ix509extensioncertificatepolicies_policies_property
+ms.keywords: IX509ExtensionCertificatePolicies interface [Security],Policies property, IX509ExtensionCertificatePolicies.Policies, IX509ExtensionCertificatePolicies.get_Policies, IX509ExtensionCertificatePolicies::Policies, IX509ExtensionCertificatePolicies::get_Policies, Policies property [Security], Policies property [Security],IX509ExtensionCertificatePolicies interface, certenroll/IX509ExtensionCertificatePolicies::Policies, certenroll/IX509ExtensionCertificatePolicies::get_Policies, get_Policies, security.ix509extensioncertificatepolicies_policies_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionCertificatePolicies::get_Policies method
+# IX509ExtensionCertificatePolicies::get_Policies
 
 
 ## -description

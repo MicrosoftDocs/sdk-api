@@ -1,14 +1,14 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetServiceState
-title: IAMLine21Decoder::SetServiceState method
+title: IAMLine21Decoder::SetServiceState
 author: windows-driver-content
 description: The SetServiceState method enables or disables closed captions.
 old-location: dshow\iamline21decoder_setservicestate.htm
 old-project: DirectShow
 ms.assetid: 009e7d14-5946-42f0-8832-7fd8c565a877
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], SetServiceState method, IAMLine21Decoder::SetServiceState, IAMLine21DecoderSetServiceState, SetServiceState method [DirectShow], SetServiceState method [DirectShow], IAMLine21Decoder interface, SetServiceState,IAMLine21Decoder.SetServiceState, dshow.iamline21decoder_setservicestate, il21dec/IAMLine21Decoder::SetServiceState
+ms.date: 4/30/2018
+ms.keywords: IAMLine21Decoder interface [DirectShow],SetServiceState method, IAMLine21Decoder.SetServiceState, IAMLine21Decoder::SetServiceState, IAMLine21DecoderSetServiceState, SetServiceState, SetServiceState method [DirectShow], SetServiceState method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setservicestate, il21dec/IAMLine21Decoder::SetServiceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMLine21Decoder::SetServiceState method
+# IAMLine21Decoder::SetServiceState
 
 
 ## -description

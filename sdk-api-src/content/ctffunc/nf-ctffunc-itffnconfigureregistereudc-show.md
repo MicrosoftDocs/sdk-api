@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnConfigureRegisterEudc.Show
-title: ITfFnConfigureRegisterEudc::Show method
+title: ITfFnConfigureRegisterEudc::Show
 author: windows-driver-content
 description: The ITfFnConfigureRegisterEudc::Show method shows the EUDC key sequence register UI.
 old-location: tsf\itffnconfigureregistereudc_show.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 40279381-7c1c-4b11-92c9-200b763e7c7d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [Text Services Framework], Show method, ITfFnConfigureRegisterEudc::Show, Show method [Text Services Framework], Show method [Text Services Framework], ITfFnConfigureRegisterEudc interface, Show,ITfFnConfigureRegisterEudc.Show, ctffunc/ITfFnConfigureRegisterEudc::Show, tsf.itffnconfigureregistereudc_show
+ms.keywords: ITfFnConfigureRegisterEudc interface [Text Services Framework],Show method, ITfFnConfigureRegisterEudc.Show, ITfFnConfigureRegisterEudc::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnConfigureRegisterEudc interface, ctffunc/ITfFnConfigureRegisterEudc::Show, tsf.itffnconfigureregistereudc_show
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfFnConfigureRegisterEudc::Show method
+# ITfFnConfigureRegisterEudc::Show
 
 
 ## -description

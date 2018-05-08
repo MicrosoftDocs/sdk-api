@@ -73,6 +73,16 @@ The length, in bytes, of <b>TypeBitMaps</b>.
 Reserved. Do not use.
 
 
+### -field size_is
+
+ 
+
+
+### -field size_is.wTypeBitMapsLength
+
+ 
+
+
 ### -field TypeBitMaps
 
 A <b>BYTE</b> array that contains a bitmap that specifies which RR types are supported by the NSEC RR owner. Each bit in the array corresponds to a <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Record Type</a> as defined in section in section 4.1.2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.

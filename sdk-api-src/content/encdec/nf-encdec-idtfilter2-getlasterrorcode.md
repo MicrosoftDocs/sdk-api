@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter2.GetLastErrorCode
-title: IDTFilter2::GetLastErrorCode method
+title: IDTFilter2::GetLastErrorCode
 author: windows-driver-content
 description: The GetLastErrorCode method returns the most recent error code from the Decrypter/Detagger filter.
 old-location: mstv\idtfilter2_getlasterrorcode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e4de424c-0db6-408e-ab1a-57ae8899f4a7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies], IDTFilter2 interface, GetLastErrorCode,IDTFilter2.GetLastErrorCode, IDTFilter2, IDTFilter2 interface [Microsoft TV Technologies], GetLastErrorCode method, IDTFilter2::GetLastErrorCode, IDTFilter2GetLastErrorCode, encdec/IDTFilter2::GetLastErrorCode, mstv.idtfilter2_getlasterrorcode
+ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IDTFilter2 interface, IDTFilter2 interface [Microsoft TV Technologies],GetLastErrorCode method, IDTFilter2.GetLastErrorCode, IDTFilter2::GetLastErrorCode, IDTFilter2GetLastErrorCode, encdec/IDTFilter2::GetLastErrorCode, mstv.idtfilter2_getlasterrorcode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDTFilter2::GetLastErrorCode method
+# IDTFilter2::GetLastErrorCode
 
 
 ## -description

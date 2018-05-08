@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.RelationshipExists
-title: IOpcRelationshipSet::RelationshipExists method
+title: IOpcRelationshipSet::RelationshipExists
 author: windows-driver-content
 description: Gets a value that indicates whether a specified relationship is represented as a relationship object in the set.
 old-location: opc\iopcrelationshipset_relationshipexists.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 18c989e2-8def-492d-ac57-014f9b6fcb22
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcRelationshipSet, IOpcRelationshipSet interface [Open Packaging Conventions], RelationshipExists method, IOpcRelationshipSet::RelationshipExists, RelationshipExists method [Open Packaging Conventions], RelationshipExists method [Open Packaging Conventions], IOpcRelationshipSet interface, RelationshipExists,IOpcRelationshipSet.RelationshipExists, msopc/IOpcRelationshipSet::RelationshipExists, opc.iopcrelationshipset_relationshipexists
+ms.keywords: IOpcRelationshipSet interface [Open Packaging Conventions],RelationshipExists method, IOpcRelationshipSet.RelationshipExists, IOpcRelationshipSet::RelationshipExists, RelationshipExists, RelationshipExists method [Open Packaging Conventions], RelationshipExists method [Open Packaging Conventions],IOpcRelationshipSet interface, msopc/IOpcRelationshipSet::RelationshipExists, opc.iopcrelationshipset_relationshipexists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcRelationshipSet::RelationshipExists method
+# IOpcRelationshipSet::RelationshipExists
 
 
 ## -description

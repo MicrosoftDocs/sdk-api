@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.get_ModuleImplementation
-title: IFsrmPipelineModuleConnector::get_ModuleImplementation method
+title: IFsrmPipelineModuleConnector::get_ModuleImplementation
 author: windows-driver-content
 description: The interface that implements the pipeline module.
 old-location: fsrm\ifsrmpipelinemoduleconnector_moduleimplementation.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 0399ffd6-39c1-40fe-8cfa-c627bbd59680
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager], ModuleImplementation property, IFsrmPipelineModuleConnector, IFsrmPipelineModuleConnector interface [File Server Resource Manager], ModuleImplementation property, IFsrmPipelineModuleConnector.ModuleImplementation, IFsrmPipelineModuleConnector::get_ModuleImplementation, ModuleImplementation property [File Server Resource Manager], ModuleImplementation property [File Server Resource Manager], FsrmPipelineModuleConnector class, ModuleImplementation property [File Server Resource Manager], IFsrmPipelineModuleConnector interface, fs.ifsrmpipelinemoduleconnector_moduleimplementation, fsrm.ifsrmpipelinemoduleconnector_moduleimplementation, fsrmpipeline/IFsrmPipelineModuleConnector::ModuleImplementation, fsrmpipeline/IFsrmPipelineModuleConnector::get_ModuleImplementation, get_ModuleImplementation,IFsrmPipelineModuleConnector.get_ModuleImplementation
+ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],ModuleImplementation property, IFsrmPipelineModuleConnector interface [File Server Resource Manager],ModuleImplementation property, IFsrmPipelineModuleConnector.ModuleImplementation, IFsrmPipelineModuleConnector.get_ModuleImplementation, IFsrmPipelineModuleConnector::ModuleImplementation, IFsrmPipelineModuleConnector::get_ModuleImplementation, ModuleImplementation property [File Server Resource Manager], ModuleImplementation property [File Server Resource Manager],FsrmPipelineModuleConnector class, ModuleImplementation property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, fs.ifsrmpipelinemoduleconnector_moduleimplementation, fsrm.ifsrmpipelinemoduleconnector_moduleimplementation, fsrmpipeline/IFsrmPipelineModuleConnector::ModuleImplementation, fsrmpipeline/IFsrmPipelineModuleConnector::get_ModuleImplementation, get_ModuleImplementation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPipelineModuleConnector::get_ModuleImplementation method
+# IFsrmPipelineModuleConnector::get_ModuleImplementation
 
 
 ## -description

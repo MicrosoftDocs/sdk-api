@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.ITfMSAAControl.SystemDisableMSAA
-title: ITfMSAAControl::SystemDisableMSAA method
+title: ITfMSAAControl::SystemDisableMSAA
 author: windows-driver-content
 description: ITfMSAAControl::SystemDisableMSAA method
 old-location: tsf\itfmsaacontrol_systemdisablemsaa.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 344cabbb-286e-415d-980f-349fb637a78d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfMSAAControl, ITfMSAAControl interface [Text Services Framework], SystemDisableMSAA method, ITfMSAAControl::SystemDisableMSAA, SystemDisableMSAA method [Text Services Framework], SystemDisableMSAA method [Text Services Framework], ITfMSAAControl interface, SystemDisableMSAA,ITfMSAAControl.SystemDisableMSAA, msaatext/ITfMSAAControl::SystemDisableMSAA, tsf.itfmsaacontrol_systemdisablemsaa
+ms.keywords: ITfMSAAControl interface [Text Services Framework],SystemDisableMSAA method, ITfMSAAControl.SystemDisableMSAA, ITfMSAAControl::SystemDisableMSAA, SystemDisableMSAA, SystemDisableMSAA method [Text Services Framework], SystemDisableMSAA method [Text Services Framework],ITfMSAAControl interface, msaatext/ITfMSAAControl::SystemDisableMSAA, tsf.itfmsaacontrol_systemdisablemsaa
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfMSAAControl::SystemDisableMSAA method
+# ITfMSAAControl::SystemDisableMSAA
 
 
 ## -description

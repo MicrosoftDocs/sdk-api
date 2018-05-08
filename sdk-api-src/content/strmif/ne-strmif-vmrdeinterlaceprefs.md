@@ -7,7 +7,7 @@ old-location: dshow\vmrdeinterlaceprefs.htm
 old-project: DirectShow
 ms.assetid: 3f88abac-fc57-4f31-9a4c-cf0f7317d6f8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: DeinterlacePref_BOB, DeinterlacePref_Mask, DeinterlacePref_NextBest, DeinterlacePref_Weave, VMRDeinterlacePrefs, VMRDeinterlacePrefs enumeration [DirectShow], VMRDeinterlacePrefsEnumeration, dshow.vmrdeinterlaceprefs, strmif/DeinterlacePref_BOB, strmif/DeinterlacePref_Mask, strmif/DeinterlacePref_NextBest, strmif/DeinterlacePref_Weave, strmif/VMRDeinterlacePrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

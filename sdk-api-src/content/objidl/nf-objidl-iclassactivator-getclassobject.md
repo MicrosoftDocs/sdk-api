@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IClassActivator.GetClassObject
-title: IClassActivator::GetClassObject method
+title: IClassActivator::GetClassObject
 author: windows-driver-content
 description: Retrieves a class object.
 old-location: com\iclassactivator_getclassobject.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1bbffe63-bd3a-40c8-aece-63121a437269
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetClassObject method [COM], GetClassObject method [COM], IClassActivator interface, GetClassObject,IClassActivator.GetClassObject, IClassActivator, IClassActivator interface [COM], GetClassObject method, IClassActivator::GetClassObject, _com_iclassactivator_getclassobject, com.iclassactivator_getclassobject, objidl/IClassActivator::GetClassObject
+ms.keywords: GetClassObject, GetClassObject method [COM], GetClassObject method [COM],IClassActivator interface, IClassActivator interface [COM],GetClassObject method, IClassActivator.GetClassObject, IClassActivator::GetClassObject, _com_iclassactivator_getclassobject, com.iclassactivator_getclassobject, objidl/IClassActivator::GetClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IClassActivator::GetClassObject method
+# IClassActivator::GetClassObject
 
 
 ## -description

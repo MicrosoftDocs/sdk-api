@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPOParameters.GetParameters
-title: IXAPOParameters::GetParameters method
+title: IXAPOParameters::GetParameters
 author: windows-driver-content
 description: Gets the current values for any effect-specific parameters.
 old-location: xaudio2\ixapoparameters_interface_getparameters.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters.GetParameters(void@,UINT32)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: GetParameters method [XAudio2 Audio Mixing APIs], GetParameters method [XAudio2 Audio Mixing APIs], IXAPOParameters interface, GetParameters,IXAPOParameters.GetParameters, IXAPOParameters, IXAPOParameters interface [XAudio2 Audio Mixing APIs], GetParameters method, IXAPOParameters::GetParameters, xapo/IXAPOParameters::GetParameters, xaudio2.ixapoparameters_interface_getparameters
+ms.keywords: GetParameters, GetParameters method [XAudio2 Audio Mixing APIs], GetParameters method [XAudio2 Audio Mixing APIs],IXAPOParameters interface, IXAPOParameters interface [XAudio2 Audio Mixing APIs],GetParameters method, IXAPOParameters.GetParameters, IXAPOParameters::GetParameters, xapo/IXAPOParameters::GetParameters, xaudio2.ixapoparameters_interface_getparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAPOParameters::GetParameters method
+# IXAPOParameters::GetParameters
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_AllowLogon
-title: IADsTSUserEx::get_AllowLogon method
+title: IADsTSUserEx::get_AllowLogon
 author: windows-driver-content
 description: A value that specifies whether the user is allowed to log on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_allowlogon.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 60271637-b25a-4857-896d-109737d2f046
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: AllowLogon property [Remote Desktop Services], AllowLogon property [Remote Desktop Services], IADsTSUserEx interface, IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], AllowLogon property, IADsTSUserEx.AllowLogon, IADsTSUserEx::get_AllowLogon, IADsTSUserEx::put_AllowLogon, get_AllowLogon,IADsTSUserEx.get_AllowLogon, termserv.iadstsuserex_allowlogon, tsuserex/IADsTSUserEx::AllowLogon, tsuserex/IADsTSUserEx::get_AllowLogon, tsuserex/IADsTSUserEx::put_AllowLogon
+ms.keywords: AllowLogon property [Remote Desktop Services], AllowLogon property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],AllowLogon property, IADsTSUserEx.AllowLogon, IADsTSUserEx.get_AllowLogon, IADsTSUserEx::AllowLogon, IADsTSUserEx::get_AllowLogon, IADsTSUserEx::put_AllowLogon, get_AllowLogon, termserv.iadstsuserex_allowlogon, tsuserex/IADsTSUserEx::AllowLogon, tsuserex/IADsTSUserEx::get_AllowLogon, tsuserex/IADsTSUserEx::put_AllowLogon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IADsTSUserEx::get_AllowLogon method
+# IADsTSUserEx::get_AllowLogon
 
 
 ## -description

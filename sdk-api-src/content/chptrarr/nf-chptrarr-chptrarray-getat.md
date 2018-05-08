@@ -1,6 +1,6 @@
 ---
 UID: NF:chptrarr.CHPtrArray.GetAt
-title: CHPtrArray::GetAt method
+title: CHPtrArray::GetAt
 author: windows-driver-content
 description: The GetAt method accesses an element in a CHPtrArray array.
 old-location: wmi\chptrarray_getat.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 7c2f029f-22a1-4433-971e-35ce48c004e0
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetAt@CHPtrArray@@QBEPAXH@Z, CHPtrArray, CHPtrArray interface [Windows Management Instrumentation], GetAt method, CHPtrArray::GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation], CHPtrArray interface, GetAt,CHPtrArray.GetAt, chptrarr/CHPtrArray::GetAt, wmi.chptrarray_getat"
+ms.keywords: "?GetAt@CHPtrArray@@QBEPAXH@Z, CHPtrArray interface [Windows Management Instrumentation],GetAt method, CHPtrArray.GetAt, CHPtrArray::GetAt, GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::GetAt, wmi.chptrarray_getat"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHPtrArray::GetAt method
+# CHPtrArray::GetAt
 
 
 ## -description

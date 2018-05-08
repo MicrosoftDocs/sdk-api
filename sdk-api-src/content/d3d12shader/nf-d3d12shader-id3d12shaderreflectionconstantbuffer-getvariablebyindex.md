@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionConstantBuffer.GetVariableByIndex
-title: ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex method
+title: ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex
 author: windows-driver-content
 description: Gets a shader-reflection variable by index.
 old-location: direct3d12\id3d12shaderreflectionconstantbuffer_getvariablebyindex.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: F7083A4D-ADD4-4C6F-A031-ABF16A3C351C
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetVariableByIndex method, GetVariableByIndex method, ID3D12ShaderReflectionConstantBuffer interface, GetVariableByIndex,ID3D12ShaderReflectionConstantBuffer.GetVariableByIndex, ID3D12ShaderReflectionConstantBuffer, ID3D12ShaderReflectionConstantBuffer interface, GetVariableByIndex method, ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex, direct3d12.id3d12shaderreflectionconstantbuffer_getvariablebyindex
+ms.keywords: GetVariableByIndex, GetVariableByIndex method, GetVariableByIndex method,ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,GetVariableByIndex method, ID3D12ShaderReflectionConstantBuffer.GetVariableByIndex, ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex, direct3d12.id3d12shaderreflectionconstantbuffer_getvariablebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex method
+# ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex
 
 
 ## -description

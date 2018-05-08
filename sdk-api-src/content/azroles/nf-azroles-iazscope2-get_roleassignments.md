@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope2.get_RoleAssignments
-title: IAzScope2::get_RoleAssignments method
+title: IAzScope2::get_RoleAssignments
 author: windows-driver-content
 description: Retrieves an IAzRoleAssignments object that represents the collection of IAzRoleAssignment objects associated with this scope.
 old-location: security\iazscope2_roleassignments.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 9f844f6b-8c31-4cec-ae72-a3fd4e947d49
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzScope2, IAzScope2 interface [Security], RoleAssignments property, IAzScope2.RoleAssignments, IAzScope2::get_RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security], IAzScope2 interface, azroles/IAzScope2::RoleAssignments, azroles/IAzScope2::get_RoleAssignments, get_RoleAssignments,IAzScope2.get_RoleAssignments, security.iazscope2_roleassignments
+ms.keywords: IAzScope2 interface [Security],RoleAssignments property, IAzScope2.RoleAssignments, IAzScope2.get_RoleAssignments, IAzScope2::RoleAssignments, IAzScope2::get_RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzScope2 interface, azroles/IAzScope2::RoleAssignments, azroles/IAzScope2::get_RoleAssignments, get_RoleAssignments, security.iazscope2_roleassignments
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope2::get_RoleAssignments method
+# IAzScope2::get_RoleAssignments
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:certcli.ICertConfig.Reset
-title: ICertConfig::Reset method
+title: ICertConfig::Reset
 author: windows-driver-content
 description: Resets the configuration query state to point at the Certificate Services server configuration indexed on the specified configuration point. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_reset.htm
 old-project: SecCrypto
 ms.assetid: 62c24bda-463a-4238-be70-14e28bcbfb39
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertConfig object [Security], Reset method, ICertConfig, ICertConfig interface [Security], Reset method, ICertConfig2 interface [Security], Reset method, ICertConfig2::Reset, ICertConfig::Reset, Reset method [Security], Reset method [Security], CCertConfig object, Reset method [Security], ICertConfig interface, Reset method [Security], ICertConfig2 interface, Reset,ICertConfig.Reset, _certsrv_icertconfig_reset, certcli/ICertConfig2::Reset, certcli/ICertConfig::Reset, security.icertconfig2_reset
+ms.date: 4/30/2018
+ms.keywords: CCertConfig object [Security],Reset method, ICertConfig interface [Security],Reset method, ICertConfig.Reset, ICertConfig2 interface [Security],Reset method, ICertConfig2::Reset, ICertConfig::Reset, Reset, Reset method [Security], Reset method [Security],CCertConfig object, Reset method [Security],ICertConfig interface, Reset method [Security],ICertConfig2 interface, _certsrv_icertconfig_reset, certcli/ICertConfig2::Reset, certcli/ICertConfig::Reset, security.icertconfig2_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertConfig::Reset method
+# ICertConfig::Reset
 
 
 ## -description

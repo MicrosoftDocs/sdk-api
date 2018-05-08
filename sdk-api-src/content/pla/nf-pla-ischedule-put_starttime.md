@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ISchedule.put_StartTime
-title: ISchedule::put_StartTime method
+title: ISchedule::put_StartTime
 author: windows-driver-content
 description: Retrieves or sets the time of day when the data collector set runs.
 old-location: pla\ischedule_starttime.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 296c9d7d-5629-456f-9119-f06d8b8c476f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISchedule, ISchedule interface [PLA], StartTime property, ISchedule.StartTime, ISchedule::get_StartTime, ISchedule::put_StartTime, StartTime property [PLA], StartTime property [PLA], ISchedule interface, base.ischedule_starttime, pla.ischedule_starttime, pla/ISchedule::StartTime, pla/ISchedule::get_StartTime, pla/ISchedule::put_StartTime, put_StartTime,ISchedule.put_StartTime
+ms.keywords: ISchedule interface [PLA],StartTime property, ISchedule.StartTime, ISchedule.put_StartTime, ISchedule::StartTime, ISchedule::get_StartTime, ISchedule::put_StartTime, StartTime property [PLA], StartTime property [PLA],ISchedule interface, base.ischedule_starttime, pla.ischedule_starttime, pla/ISchedule::StartTime, pla/ISchedule::get_StartTime, pla/ISchedule::put_StartTime, put_StartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISchedule::put_StartTime method
+# ISchedule::put_StartTime
 
 
 ## -description

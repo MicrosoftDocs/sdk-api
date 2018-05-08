@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMetadataPicture.get_mimeType
-title: IWMPMetadataPicture::get_mimeType method
+title: IWMPMetadataPicture::get_mimeType
 author: windows-driver-content
 description: The get_mimeType method retrieves a pointer to a string specifying the MIME type of the metadata image.
 old-location: wmp\iwmpmetadatapicture_get_mimetype.htm
 old-project: WMP
 ms.assetid: bfc5243f-3f7c-4f4a-9057-7720c862a983
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMetadataPicture, IWMPMetadataPicture interface [Windows Media Player], get_mimeType method, IWMPMetadataPicture::get_mimeType, IWMPMetadataPictureget_mimeType, get_mimeType method [Windows Media Player], get_mimeType method [Windows Media Player], IWMPMetadataPicture interface, get_mimeType,IWMPMetadataPicture.get_mimeType, wmp.iwmpmetadatapicture_get_mimetype, wmp/IWMPMetadataPicture::get_mimeType
+ms.date: 5/4/2018
+ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_mimeType method, IWMPMetadataPicture.get_mimeType, IWMPMetadataPicture::get_mimeType, IWMPMetadataPictureget_mimeType, get_mimeType, get_mimeType method [Windows Media Player], get_mimeType method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_mimetype, wmp/IWMPMetadataPicture::get_mimeType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMetadataPicture::get_mimeType method
+# IWMPMetadataPicture::get_mimeType
 
 
 ## -description

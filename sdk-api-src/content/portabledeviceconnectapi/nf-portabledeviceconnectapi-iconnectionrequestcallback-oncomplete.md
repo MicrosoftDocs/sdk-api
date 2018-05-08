@@ -1,14 +1,14 @@
 ---
 UID: NF:portabledeviceconnectapi.IConnectionRequestCallback.OnComplete
-title: IConnectionRequestCallback::OnComplete method
+title: IConnectionRequestCallback::OnComplete
 author: windows-driver-content
 description: Notifies an application that a previously scheduled Connect or Disconnect request to the MTP/Bluetooth device has completed.
 old-location: wpdsdk\iconnectionrequestcallback_oncomplete.htm
 old-project: wpd_sdk
 ms.assetid: 1588d0ec-0d6a-4379-bfdc-4ba5fdaa4665
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IConnectionRequestCallback, IConnectionRequestCallback interface [Windows Portable Devices SDK], OnComplete method, IConnectionRequestCallback::OnComplete, OnComplete method [Windows Portable Devices SDK], OnComplete method [Windows Portable Devices SDK], IConnectionRequestCallback interface, OnComplete,IConnectionRequestCallback.OnComplete, devpkey/IConnectionRequestCallback::OnComplete, portabledeviceconnectapi/IConnectionRequestCallback::OnComplete, wpdsdk.iconnectionrequestcallback_oncomplete
+ms.date: 4/11/2018
+ms.keywords: IConnectionRequestCallback interface [Windows Portable Devices SDK],OnComplete method, IConnectionRequestCallback.OnComplete, IConnectionRequestCallback::OnComplete, OnComplete, OnComplete method [Windows Portable Devices SDK], OnComplete method [Windows Portable Devices SDK],IConnectionRequestCallback interface, devpkey/IConnectionRequestCallback::OnComplete, portabledeviceconnectapi/IConnectionRequestCallback::OnComplete, wpdsdk.iconnectionrequestcallback_oncomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,10 +42,10 @@ targetos: Windows
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IConnectionRequestCallback::OnComplete method
+# IConnectionRequestCallback::OnComplete
 
 
 ## -description

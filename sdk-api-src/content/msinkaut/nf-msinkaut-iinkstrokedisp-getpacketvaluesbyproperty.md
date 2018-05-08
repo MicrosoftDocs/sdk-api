@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetPacketValuesByProperty
-title: IInkStrokeDisp::GetPacketValuesByProperty method
+title: IInkStrokeDisp::GetPacketValuesByProperty
 author: windows-driver-content
 description: Retrieves the data for a known packet property from one or more packets in the stroke.
 old-location: tablet\iinkstrokedisp_getpacketvaluesbyproperty.htm
 old-project: tablet
 ms.assetid: 135dcd06-f533-4470-b5b0-ea559c20e3c4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 135dcd06-f533-4470-b5b0-ea559c20e3c4, GetPacketValuesByProperty method [Tablet PC], GetPacketValuesByProperty method [Tablet PC], IInkStrokeDisp interface, GetPacketValuesByProperty,IInkStrokeDisp.GetPacketValuesByProperty, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], GetPacketValuesByProperty method, IInkStrokeDisp::GetPacketValuesByProperty, msinkaut/IInkStrokeDisp::GetPacketValuesByProperty, tablet.iinkstrokedisp_getpacketvaluesbyproperty
+ms.date: 5/2/2018
+ms.keywords: 135dcd06-f533-4470-b5b0-ea559c20e3c4, GetPacketValuesByProperty, GetPacketValuesByProperty method [Tablet PC], GetPacketValuesByProperty method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetPacketValuesByProperty method, IInkStrokeDisp.GetPacketValuesByProperty, IInkStrokeDisp::GetPacketValuesByProperty, msinkaut/IInkStrokeDisp::GetPacketValuesByProperty, tablet.iinkstrokedisp_getpacketvaluesbyproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::GetPacketValuesByProperty method
+# IInkStrokeDisp::GetPacketValuesByProperty
 
 
 ## -description

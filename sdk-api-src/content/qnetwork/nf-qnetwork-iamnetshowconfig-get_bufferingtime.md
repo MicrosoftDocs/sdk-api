@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_BufferingTime
-title: IAMNetShowConfig::get_BufferingTime method
+title: IAMNetShowConfig::get_BufferingTime
 author: windows-driver-content
 description: The get_BufferingTime method retrieves the buffering time.
 old-location: dshow\iamnetshowconfig_get_bufferingtime.htm
 old-project: DirectShow
 ms.assetid: 8594f8dd-9545-4e6d-b1d7-9a278dcb4129
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], get_BufferingTime method, IAMNetShowConfig::get_BufferingTime, IAMNetShowConfigget_BufferingTime, dshow.iamnetshowconfig_get_bufferingtime, get_BufferingTime method [DirectShow], get_BufferingTime method [DirectShow], IAMNetShowConfig interface, get_BufferingTime,IAMNetShowConfig.get_BufferingTime, qnetwork/IAMNetShowConfig::get_BufferingTime
+ms.date: 4/30/2018
+ms.keywords: IAMNetShowConfig interface [DirectShow],get_BufferingTime method, IAMNetShowConfig.get_BufferingTime, IAMNetShowConfig::get_BufferingTime, IAMNetShowConfigget_BufferingTime, dshow.iamnetshowconfig_get_bufferingtime, get_BufferingTime, get_BufferingTime method [DirectShow], get_BufferingTime method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_BufferingTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetShowConfig::get_BufferingTime method
+# IAMNetShowConfig::get_BufferingTime
 
 
 ## -description

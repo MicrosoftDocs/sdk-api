@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponentEx.GetPrepareForBackupFailureMsg
-title: IVssComponentEx::GetPrepareForBackupFailureMsg method
+title: IVssComponentEx::GetPrepareForBackupFailureMsg
 author: windows-driver-content
 description: Returns the PrepareForBackup failure message string that a writer has set for a given component.
 old-location: base\ivsscomponentex_getprepareforbackupfailuremsg.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: b086ff8d-ff51-4550-887d-e7741e2469f2
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetPrepareForBackupFailureMsg method, GetPrepareForBackupFailureMsg method, IVssComponentEx interface, GetPrepareForBackupFailureMsg,IVssComponentEx.GetPrepareForBackupFailureMsg, IVssComponentEx, IVssComponentEx interface, GetPrepareForBackupFailureMsg method, IVssComponentEx::GetPrepareForBackupFailureMsg, base.ivsscomponentex_getprepareforbackupfailuremsg, vswriter/IVssComponentEx::GetPrepareForBackupFailureMsg
+ms.keywords: GetPrepareForBackupFailureMsg, GetPrepareForBackupFailureMsg method, GetPrepareForBackupFailureMsg method,IVssComponentEx interface, IVssComponentEx interface,GetPrepareForBackupFailureMsg method, IVssComponentEx.GetPrepareForBackupFailureMsg, IVssComponentEx::GetPrepareForBackupFailureMsg, base.ivsscomponentex_getprepareforbackupfailuremsg, vswriter/IVssComponentEx::GetPrepareForBackupFailureMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponentEx::GetPrepareForBackupFailureMsg method
+# IVssComponentEx::GetPrepareForBackupFailureMsg
 
 
 ## -description

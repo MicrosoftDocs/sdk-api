@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.CreateEventInstance
-title: ITraceRelogger::CreateEventInstance method
+title: ITraceRelogger::CreateEventInstance
 author: windows-driver-content
 description: Generates a new event.
 old-location: etw\itracerelogger_createeventinstance.htm
@@ -8,7 +8,7 @@ old-project: ETW
 ms.assetid: 1a000e38-018d-4077-bf4c-0bfec6cdb676
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: CreateEventInstance method [ETW], CreateEventInstance method [ETW], ITraceRelogger interface, CreateEventInstance,ITraceRelogger.CreateEventInstance, ITraceRelogger, ITraceRelogger interface [ETW], CreateEventInstance method, ITraceRelogger::CreateEventInstance, etw.itracerelogger_createeventinstance, relogger/ITraceRelogger::CreateEventInstance
+ms.keywords: CreateEventInstance, CreateEventInstance method [ETW], CreateEventInstance method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],CreateEventInstance method, ITraceRelogger.CreateEventInstance, ITraceRelogger::CreateEventInstance, etw.itracerelogger_createeventinstance, relogger/ITraceRelogger::CreateEventInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceRelogger::CreateEventInstance method
+# ITraceRelogger::CreateEventInstance
 
 
 ## -description

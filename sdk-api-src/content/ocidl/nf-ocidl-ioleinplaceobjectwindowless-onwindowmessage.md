@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceObjectWindowless.OnWindowMessage
-title: IOleInPlaceObjectWindowless::OnWindowMessage method
+title: IOleInPlaceObjectWindowless::OnWindowMessage
 author: windows-driver-content
 description: Dispatches a message from a container to a windowless object that is in-place active.
 old-location: com\ioleinplaceobjectwindowless_onwindowmessage.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: e9deaed5-485f-40e4-96ee-391dc3d12a86
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceObjectWindowless, IOleInPlaceObjectWindowless interface [COM], OnWindowMessage method, IOleInPlaceObjectWindowless::OnWindowMessage, OnWindowMessage method [COM], OnWindowMessage method [COM], IOleInPlaceObjectWindowless interface, OnWindowMessage,IOleInPlaceObjectWindowless.OnWindowMessage, _ole_ioleinplaceobjectwindowless_onwindowmessage, com.ioleinplaceobjectwindowless_onwindowmessage, ocidl/IOleInPlaceObjectWindowless::OnWindowMessage
+ms.keywords: IOleInPlaceObjectWindowless interface [COM],OnWindowMessage method, IOleInPlaceObjectWindowless.OnWindowMessage, IOleInPlaceObjectWindowless::OnWindowMessage, OnWindowMessage, OnWindowMessage method [COM], OnWindowMessage method [COM],IOleInPlaceObjectWindowless interface, _ole_ioleinplaceobjectwindowless_onwindowmessage, com.ioleinplaceobjectwindowless_onwindowmessage, ocidl/IOleInPlaceObjectWindowless::OnWindowMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceObjectWindowless::OnWindowMessage method
+# IOleInPlaceObjectWindowless::OnWindowMessage
 
 
 ## -description

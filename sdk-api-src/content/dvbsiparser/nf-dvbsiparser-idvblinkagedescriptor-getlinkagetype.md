@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetLinkageType
-title: IDvbLinkageDescriptor::GetLinkageType method
+title: IDvbLinkageDescriptor::GetLinkageType
 author: windows-driver-content
 description: Gets a code that uniquely identifies the linkage type from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getlinkagetype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 54e17da4-df93-40a5-a359-274da77f585d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLinkageType method [Microsoft TV Technologies], GetLinkageType method [Microsoft TV Technologies], IDvbLinkageDescriptor interface, GetLinkageType,IDvbLinkageDescriptor.GetLinkageType, IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft TV Technologies], GetLinkageType method, IDvbLinkageDescriptor::GetLinkageType, dvbsiparser/IDvbLinkageDescriptor::GetLinkageType, mstv.idvblinkagedescriptor_getlinkagetype
+ms.keywords: GetLinkageType, GetLinkageType method [Microsoft TV Technologies], GetLinkageType method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetLinkageType method, IDvbLinkageDescriptor.GetLinkageType, IDvbLinkageDescriptor::GetLinkageType, dvbsiparser/IDvbLinkageDescriptor::GetLinkageType, mstv.idvblinkagedescriptor_getlinkagetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLinkageDescriptor::GetLinkageType method
+# IDvbLinkageDescriptor::GetLinkageType
 
 
 ## -description

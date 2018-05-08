@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12LibraryReflection.GetDesc
-title: ID3D12LibraryReflection::GetDesc method
+title: ID3D12LibraryReflection::GetDesc
 author: windows-driver-content
 description: Fills the library descriptor structure for the library reflection.
 old-location: direct3d12\id3d12libraryreflection_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: BF7CC078-3F68-4645-B49C-1F4DEBCA6A48
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetDesc method, GetDesc method, ID3D12LibraryReflection interface, GetDesc,ID3D12LibraryReflection.GetDesc, ID3D12LibraryReflection, ID3D12LibraryReflection interface, GetDesc method, ID3D12LibraryReflection::GetDesc, d3d12shader/ID3D12LibraryReflection::GetDesc, direct3d12.id3d12libraryreflection_getdesc
+ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,GetDesc method, ID3D12LibraryReflection.GetDesc, ID3D12LibraryReflection::GetDesc, d3d12shader/ID3D12LibraryReflection::GetDesc, direct3d12.id3d12libraryreflection_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12LibraryReflection::GetDesc method
+# ID3D12LibraryReflection::GetDesc
 
 
 ## -description

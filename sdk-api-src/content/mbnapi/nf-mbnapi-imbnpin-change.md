@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.Change
-title: IMbnPin::Change method
+title: IMbnPin::Change
 author: windows-driver-content
 description: Changes the PIN.
 old-location: mbn\imbnpin_change.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: cf4fac68-65c8-456e-8381-e3f582fc836c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Change method [Microsoft Broadband Networks], Change method [Microsoft Broadband Networks], IMbnPin interface, Change,IMbnPin.Change, IMbnPin, IMbnPin interface [Microsoft Broadband Networks], Change method, IMbnPin::Change, mbn.imbnpin_change, mbnapi/IMbnPin::Change
+ms.keywords: Change, Change method [Microsoft Broadband Networks], Change method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Change method, IMbnPin.Change, IMbnPin::Change, mbn.imbnpin_change, mbnapi/IMbnPin::Change
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnPin::Change method
+# IMbnPin::Change
 
 
 ## -description

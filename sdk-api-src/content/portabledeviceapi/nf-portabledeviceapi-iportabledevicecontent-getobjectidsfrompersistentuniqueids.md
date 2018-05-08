@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.GetObjectIDsFromPersistentUniqueIDs
-title: IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs method
+title: IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs
 author: windows-driver-content
 description: The GetObjectIDsFromPersistentUniqueIDs method retrieves the current object ID of one or more objects, given their persistent unique IDs (PUIDs).
 old-location: wpdsdk\iportabledevicecontent_getobjectidsfrompersistentuniqueids.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: ee2aa718-0616-44b8-a9c6-cc835636500c
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetObjectIDsFromPersistentUniqueIDs method [Windows Portable Devices SDK], GetObjectIDsFromPersistentUniqueIDs method [Windows Portable Devices SDK], IPortableDeviceContent interface, GetObjectIDsFromPersistentUniqueIDs,IPortableDeviceContent.GetObjectIDsFromPersistentUniqueIDs, IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], GetObjectIDsFromPersistentUniqueIDs method, IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs, IPortableDeviceContentGetObjectIDsFromPersistentUniqueIDs, portabledeviceapi/IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs, wpdsdk.iportabledevicecontent_getobjectidsfrompersistentuniqueids
+ms.keywords: GetObjectIDsFromPersistentUniqueIDs, GetObjectIDsFromPersistentUniqueIDs method [Windows Portable Devices SDK], GetObjectIDsFromPersistentUniqueIDs method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],GetObjectIDsFromPersistentUniqueIDs method, IPortableDeviceContent.GetObjectIDsFromPersistentUniqueIDs, IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs, IPortableDeviceContentGetObjectIDsFromPersistentUniqueIDs, portabledeviceapi/IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs, wpdsdk.iportabledevicecontent_getobjectidsfrompersistentuniqueids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs method
+# IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs
 
 
 ## -description

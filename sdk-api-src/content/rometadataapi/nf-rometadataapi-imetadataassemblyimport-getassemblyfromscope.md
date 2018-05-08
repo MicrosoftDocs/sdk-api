@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetAssemblyFromScope
-title: IMetaDataAssemblyImport::GetAssemblyFromScope method
+title: IMetaDataAssemblyImport::GetAssemblyFromScope
 author: windows-driver-content
 description: Gets a pointer to the assembly in the current scope.
 old-location: winrt\imetadataassemblyimport_getassemblyfromscope.htm
 old-project: WinRT
 ms.assetid: b7b7d650-2db6-4e7c-92e0-5d0055a0a5a9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetAssemblyFromScope method [Windows Runtime], GetAssemblyFromScope method [Windows Runtime], IMetaDataAssemblyImport interface, GetAssemblyFromScope,IMetaDataAssemblyImport.GetAssemblyFromScope, IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], GetAssemblyFromScope method, IMetaDataAssemblyImport::GetAssemblyFromScope, rometadataapi/IMetaDataAssemblyImport::GetAssemblyFromScope, winrt.imetadataassemblyimport_getassemblyfromscope
+ms.date: 5/4/2018
+ms.keywords: GetAssemblyFromScope, GetAssemblyFromScope method [Windows Runtime], GetAssemblyFromScope method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetAssemblyFromScope method, IMetaDataAssemblyImport.GetAssemblyFromScope, IMetaDataAssemblyImport::GetAssemblyFromScope, rometadataapi/IMetaDataAssemblyImport::GetAssemblyFromScope, winrt.imetadataassemblyimport_getassemblyfromscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataAssemblyImport::GetAssemblyFromScope method
+# IMetaDataAssemblyImport::GetAssemblyFromScope
 
 
 ## -description

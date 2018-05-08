@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetTitleParentalLevels
-title: IDvdInfo::GetTitleParentalLevels method
+title: IDvdInfo::GetTitleParentalLevels
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the parental levels that are defined for a particular title.
 old-location: dshow\idvdinfo_gettitleparentallevels.htm
 old-project: DirectShow
 ms.assetid: 1a843346-9e24-4321-971f-07e4eed3fc72
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetTitleParentalLevels method [DirectShow], GetTitleParentalLevels method [DirectShow], IDvdInfo interface, GetTitleParentalLevels,IDvdInfo.GetTitleParentalLevels, IDvdInfo, IDvdInfo interface [DirectShow], GetTitleParentalLevels method, IDvdInfo::GetTitleParentalLevels, IDvdInfoGetTitleParentalLevels, dshow.idvdinfo_gettitleparentallevels, strmif/IDvdInfo::GetTitleParentalLevels
+ms.date: 4/30/2018
+ms.keywords: GetTitleParentalLevels, GetTitleParentalLevels method [DirectShow], GetTitleParentalLevels method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTitleParentalLevels method, IDvdInfo.GetTitleParentalLevels, IDvdInfo::GetTitleParentalLevels, IDvdInfoGetTitleParentalLevels, dshow.idvdinfo_gettitleparentallevels, strmif/IDvdInfo::GetTitleParentalLevels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetTitleParentalLevels method
+# IDvdInfo::GetTitleParentalLevels
 
 
 ## -description

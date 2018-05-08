@@ -7,8 +7,8 @@ old-location: controls\irichedituiaoverrides.htm
 old-project: Controls
 ms.assetid: 2590002F-A6B0-4AA7-A54C-A5AB5304D9FA
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IRicheditUiaOverrides, IRicheditUiaOverrides interface [Windows Controls], IRicheditUiaOverrides interface [Windows Controls], described, controls.irichedituiaoverrides, textserv/IRicheditUiaOverrides
+ms.date: 4/27/2018
+ms.keywords: IRicheditUiaOverrides, IRicheditUiaOverrides interface [Windows Controls], IRicheditUiaOverrides interface [Windows Controls],described, controls.irichedituiaoverrides, textserv/IRicheditUiaOverrides
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

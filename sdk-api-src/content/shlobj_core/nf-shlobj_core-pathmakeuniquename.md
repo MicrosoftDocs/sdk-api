@@ -7,7 +7,7 @@ old-location: shell\PathMakeUniqueName.htm
 old-project: shell
 ms.assetid: 8456ae0c-e83c-43d0-a86a-1861a373d237
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: PathMakeUniqueName, PathMakeUniqueName function [Windows Shell], _win32_PathMakeUniqueName, shell.PathMakeUniqueName, shlobj_core/PathMakeUniqueName
 ms.prod: windows-hardware
 ms.technology: windows-devices

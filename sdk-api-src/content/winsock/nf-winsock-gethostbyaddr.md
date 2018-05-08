@@ -7,7 +7,7 @@ old-location: winsock\gethostbyaddr_2.htm
 old-project: WinSock
 ms.assetid: 303023e1-a486-4457-80f6-8aa80f6b2c79
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: AF_INET, AF_INET6, AF_NETBIOS, _win32_gethostbyaddr_2, gethostbyaddr, gethostbyaddr function [Winsock], winsock.gethostbyaddr_2, wsipv6ok/gethostbyaddr
 ms.prod: windows-hardware
 ms.technology: windows-devices

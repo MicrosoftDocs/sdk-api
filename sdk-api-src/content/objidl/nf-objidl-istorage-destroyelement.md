@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.DestroyElement
-title: IStorage::DestroyElement method
+title: IStorage::DestroyElement
 author: windows-driver-content
 description: Removes the specified storage or stream from this storage object.
 old-location: stg\istorage_destroyelement.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 70ad7f8c-15ea-42f1-ac18-006bc6ad5e81
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: DestroyElement method [Structured Storage], DestroyElement method [Structured Storage], IStorage interface, DestroyElement,IStorage.DestroyElement, IStorage, IStorage interface [Structured Storage], DestroyElement method, IStorage::DestroyElement, _stg_istorage_destroyelement, objidl/IStorage::DestroyElement, stg.istorage_destroyelement
+ms.keywords: DestroyElement, DestroyElement method [Structured Storage], DestroyElement method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],DestroyElement method, IStorage.DestroyElement, IStorage::DestroyElement, _stg_istorage_destroyelement, objidl/IStorage::DestroyElement, stg.istorage_destroyelement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStorage::DestroyElement method
+# IStorage::DestroyElement
 
 
 ## -description

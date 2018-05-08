@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.CreateVirtualChannel
-title: IWRdsProtocolConnection::CreateVirtualChannel method
+title: IWRdsProtocolConnection::CreateVirtualChannel
 author: windows-driver-content
 description: Requests that the protocol create a virtual channel.
 old-location: termserv\iwrdsprotocolconnection_createvirtualchannel.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: c0302081-06af-44af-a9ed-936d705e711b
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CreateVirtualChannel method [Remote Desktop Services], CreateVirtualChannel method [Remote Desktop Services], IWRdsProtocolConnection interface, CreateVirtualChannel,IWRdsProtocolConnection.CreateVirtualChannel, FALSE, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], CreateVirtualChannel method, IWRdsProtocolConnection::CreateVirtualChannel, TRUE, termserv.iwrdsprotocolconnection_createvirtualchannel, wtsprotocol/IWRdsProtocolConnection::CreateVirtualChannel
+ms.keywords: CreateVirtualChannel, CreateVirtualChannel method [Remote Desktop Services], CreateVirtualChannel method [Remote Desktop Services],IWRdsProtocolConnection interface, FALSE, IWRdsProtocolConnection interface [Remote Desktop Services],CreateVirtualChannel method, IWRdsProtocolConnection.CreateVirtualChannel, IWRdsProtocolConnection::CreateVirtualChannel, TRUE, termserv.iwrdsprotocolconnection_createvirtualchannel, wtsprotocol/IWRdsProtocolConnection::CreateVirtualChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::CreateVirtualChannel method
+# IWRdsProtocolConnection::CreateVirtualChannel
 
 
 ## -description

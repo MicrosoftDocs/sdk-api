@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IProviderConverter.Initialize
-title: IProviderConverter::Initialize method
+title: IProviderConverter::Initialize
 author: windows-driver-content
 description: When implemented by a derived class, initializes the IProviderConverter object with the ISyncProvider object to be converted to IKnowledgeSyncProvider.
 old-location: winsync\iproviderconverter_initialize.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 5bdb8b16-cda3-4f0d-b147-4dcfce81f592
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IProviderConverter, IProviderConverter interface [Windows Sync], Initialize method, IProviderConverter::Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync], IProviderConverter interface, Initialize,IProviderConverter.Initialize, winsync.iproviderconverter_initialize, winsync/IProviderConverter::Initialize
+ms.keywords: IProviderConverter interface [Windows Sync],Initialize method, IProviderConverter.Initialize, IProviderConverter::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IProviderConverter interface, winsync.iproviderconverter_initialize, winsync/IProviderConverter::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IProviderConverter::Initialize method
+# IProviderConverter::Initialize
 
 
 ## -description

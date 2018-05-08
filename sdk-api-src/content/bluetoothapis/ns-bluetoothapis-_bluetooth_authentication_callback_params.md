@@ -77,12 +77,12 @@ A <a href="https://msdn.microsoft.com/f1cd4fc9-5206-4f38-a2b9-621ca4c6ab86">BLUE
 A <a href="https://msdn.microsoft.com/644372af-d613-4fd6-adcd-7faf0afb0033">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a> specifies the 'Man in the Middle' protection required for authentication.
 
 
-#### - Numeric_Value
+### -field Numeric_Value
 
 A <b>ULONG</b> value used for Numeric Comparison authentication.
 
 
-#### - Passkey
+### -field Passkey
 
 A <b>ULONG</b> value used as  the passkey used for authentication.
 

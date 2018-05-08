@@ -7,8 +7,8 @@ old-location: mf\iplaytocontrol.htm
 old-project: medfound
 ms.assetid: 53355EEA-559B-4803-89F6-D454E15F9254
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IPlayToControl, IPlayToControl interface [Media Foundation], IPlayToControl interface [Media Foundation], described, mf.iplaytocontrol, mfsharingengine/IPlayToControl
+ms.date: 5/3/2018
+ms.keywords: IPlayToControl, IPlayToControl interface [Media Foundation], IPlayToControl interface [Media Foundation],described, mf.iplaytocontrol, mfsharingengine/IPlayToControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

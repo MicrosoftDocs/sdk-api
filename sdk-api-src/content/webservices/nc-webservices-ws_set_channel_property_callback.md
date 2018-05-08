@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 8f7f90dd-0967-4caf-a781-5fc9c588238d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_SET_CHANNEL_PROPERTY_CALLBACK, WS_SET_CHANNEL_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_SET_CHANNEL_PROPERTY_CALLBACK, wsw.ws_set_channel_property_callback
+ms.keywords: WS_SET_CHANNEL_PROPERTY_CALLBACK, WS_SET_CHANNEL_PROPERTY_CALLBACK callback, WS_SET_CHANNEL_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_SET_CHANNEL_PROPERTY_CALLBACK, wsw.ws_set_channel_property_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_SET_CHANNEL_PROPERTY_CALLBACK callback
+# WS_SET_CHANNEL_PROPERTY_CALLBACK callback function
 
 
 ## -description

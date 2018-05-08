@@ -7,7 +7,7 @@ old-location: shell\NOTIFYICONDATA.htm
 old-project: shell
 ms.assetid: fdcc42c1-b3e5-4b04-8d79-7b6c29699d53
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: "*PNOTIFYICONDATAW, 0, NIF_GUID, NIF_ICON, NIF_INFO, NIF_MESSAGE, NIF_REALTIME, NIF_SHOWTIP, NIF_STATE, NIF_TIP, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, NIS_HIDDEN, NIS_SHAREDICON, NOTIFYICONDATA, NOTIFYICONDATA structure [Windows Shell], NOTIFYICONDATAW, NOTIFYICON_VERSION, NOTIFYICON_VERSION_4, PNOTIFYICONDATA, PNOTIFYICONDATA structure pointer [Windows Shell], _NOTIFYICONDATAW, _win32_NOTIFYICONDATA, shell.NOTIFYICONDATA, shellapi/NOTIFYICONDATA, shellapi/PNOTIFYICONDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -225,6 +225,26 @@ Type: <b>TCHAR[256]</b>
 ### -field DUMMYUNIONNAME
 
  
+
+
+### -field DUMMYUNIONNAME.uTimeout
+
+Type: <b>UINT</b>
+
+<b>Windows 2000 and later</b>. 
+    
+                            
+
+<div class="alert"><b>Note</b>  This member is deprecated as of Windows Vista. Notification display times are now based on system accessibility settings.</div>
+<div> </div>
+Union with <b>uVersion</b>. The timeout value, in milliseconds, for notification. The system enforces minimum and maximum timeout values. Values specified in <b>uTimeout</b> that are too large are set to the maximum value. Values that are too small default to the minimum value. The system minimum and maximum timeout values are currently set at 10 seconds and 30 seconds, respectively. See Remarks for further discussion of <b>uTimeout</b>.
+
+
+### -field DUMMYUNIONNAME.uVersion
+
+Type: <b>UINT</b>
+
+<b>Windows 2000 and later</b>. Union with <b>uTimeout</b> (deprecated as of Windows Vista). Specifies which version of the Shell notification icon interface should be used. For more information on the differences in these versions, see <a href="https://msdn.microsoft.com/a316bc29-5f19-4a04-a32b-f4caeea0c029">Shell_NotifyIcon</a>. This member is employed only when using <b>Shell_NotifyIcon</b> to send an <b>NIM_SETVERSION</b> message.
 
 
 ### -field szInfoTitle
@@ -464,44 +484,6 @@ If the current user is not in quiet time, this flag has no effect.
 ##### - uFlags.NIF_TIP (0x00000004)
 
 0x00000004. The <b>szTip</b> member is valid.
-
-
-#### - uTimeout
-
-Type: <b>UINT</b>
-
-<b>Windows 2000 and later</b>. 
-    
-                            
-
-<div class="alert"><b>Note</b>  This member is deprecated as of Windows Vista. Notification display times are now based on system accessibility settings.</div>
-<div> </div>
-Union with <b>uVersion</b>. The timeout value, in milliseconds, for notification. The system enforces minimum and maximum timeout values. Values specified in <b>uTimeout</b> that are too large are set to the maximum value. Values that are too small default to the minimum value. The system minimum and maximum timeout values are currently set at 10 seconds and 30 seconds, respectively. See Remarks for further discussion of <b>uTimeout</b>.
-
-
-#### - uVersion
-
-Type: <b>UINT</b>
-
-<b>Windows 2000 and later</b>. Union with <b>uTimeout</b> (deprecated as of Windows Vista). Specifies which version of the Shell notification icon interface should be used. For more information on the differences in these versions, see <a href="https://msdn.microsoft.com/a316bc29-5f19-4a04-a32b-f4caeea0c029">Shell_NotifyIcon</a>. This member is employed only when using <b>Shell_NotifyIcon</b> to send an <b>NIM_SETVERSION</b> message.
-
-
-
-#### 0
-
-Use this value for applications designed for Windows versions prior to Windows 2000.
-
-
-
-#### NOTIFYICON_VERSION
-
-Use the Windows 2000 behavior. Use this value for applications designed for Windows 2000 and later.
-
-
-
-#### NOTIFYICON_VERSION_4
-
-Use the current behavior. Use this value for applications designed for Windows Vista and later.
 
 
 ##### - uVersion.0

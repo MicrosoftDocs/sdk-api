@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon.DisplayUnlock
-title: ISensLogon::DisplayUnlock method
+title: ISensLogon::DisplayUnlock
 author: windows-driver-content
 description: The DisplayUnLock method notifies an application that the screen display is unlocked.
 old-location: sens\isenslogon_displayunlock.htm
@@ -8,7 +8,7 @@ old-project: Sens
 ms.assetid: aa1b1beb-f59a-4990-84e1-deca1432f6cf
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DisplayUnLock method [SENS], DisplayUnLock method [SENS], ISensLogon interface, DisplayUnlock,ISensLogon.DisplayUnlock, ISensLogon, ISensLogon interface [SENS], DisplayUnLock method, ISensLogon::DisplayUnLock, ISensLogon::DisplayUnlock, _zaw_isenslogon_displayunlock, sens.isenslogon_displayunlock, sensevts/ISensLogon::DisplayUnLock, syncmgr.isenslogon_displayunlock
+ms.keywords: DisplayUnLock method [SENS], DisplayUnLock method [SENS],ISensLogon interface, DisplayUnlock, ISensLogon interface [SENS],DisplayUnLock method, ISensLogon.DisplayUnlock, ISensLogon::DisplayUnLock, ISensLogon::DisplayUnlock, _zaw_isenslogon_displayunlock, sens.isenslogon_displayunlock, sensevts/ISensLogon::DisplayUnLock, syncmgr.isenslogon_displayunlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISensLogon::DisplayUnlock method
+# ISensLogon::DisplayUnlock
 
 
 ## -description

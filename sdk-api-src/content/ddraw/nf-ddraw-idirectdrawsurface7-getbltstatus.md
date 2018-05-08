@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetBltStatus
-title: IDirectDrawSurface7::GetBltStatus method
+title: IDirectDrawSurface7::GetBltStatus
 author: windows-driver-content
 description: Obtains status about a bit block transfer (bitblt) operation.
 old-location: directdraw\idirectdrawsurface7_getbltstatus.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 1f446300-065b-47c1-9778-fb4a5b2ea4bd
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DDGBS_CANBLT, DDGBS_ISBLTDONE, GetBltStatus method [DirectDraw], GetBltStatus method [DirectDraw], IDirectDrawSurface7 interface, GetBltStatus,IDirectDrawSurface7.GetBltStatus, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], GetBltStatus method, IDirectDrawSurface7::GetBltStatus, ddraw/IDirectDrawSurface7::GetBltStatus, directdraw.idirectdrawsurface7_getbltstatus
+ms.keywords: DDGBS_CANBLT, DDGBS_ISBLTDONE, GetBltStatus, GetBltStatus method [DirectDraw], GetBltStatus method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetBltStatus method, IDirectDrawSurface7.GetBltStatus, IDirectDrawSurface7::GetBltStatus, ddraw/IDirectDrawSurface7::GetBltStatus, directdraw.idirectdrawsurface7_getbltstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::GetBltStatus method
+# IDirectDrawSurface7::GetBltStatus
 
 
 ## -description

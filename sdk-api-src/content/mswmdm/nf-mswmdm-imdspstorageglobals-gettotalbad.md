@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetTotalBad
-title: IMDSPStorageGlobals::GetTotalBad method
+title: IMDSPStorageGlobals::GetTotalBad
 author: windows-driver-content
 description: The GetTotalBad method retrieves the total amount of unusable space on the storage medium, in bytes.
 old-location: wmdm\imdspstorageglobals_gettotalbad.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: b0cbf636-e2c4-4a30-9b6d-5833090330a4
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetTotalBad method [windows Media Device Manager], GetTotalBad method [windows Media Device Manager], IMDSPStorageGlobals interface, GetTotalBad,IMDSPStorageGlobals.GetTotalBad, IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], GetTotalBad method, IMDSPStorageGlobals::GetTotalBad, IMDSPStorageGlobalsGetTotalBad, mswmdm/IMDSPStorageGlobals::GetTotalBad, wmdm.imdspstorageglobals_gettotalbad
+ms.keywords: GetTotalBad, GetTotalBad method [windows Media Device Manager], GetTotalBad method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetTotalBad method, IMDSPStorageGlobals.GetTotalBad, IMDSPStorageGlobals::GetTotalBad, IMDSPStorageGlobalsGetTotalBad, mswmdm/IMDSPStorageGlobals::GetTotalBad, wmdm.imdspstorageglobals_gettotalbad
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPStorageGlobals::GetTotalBad method
+# IMDSPStorageGlobals::GetTotalBad
 
 
 ## -description

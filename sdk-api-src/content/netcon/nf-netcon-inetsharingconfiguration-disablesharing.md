@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.DisableSharing
-title: INetSharingConfiguration::DisableSharing method
+title: INetSharingConfiguration::DisableSharing
 author: windows-driver-content
 description: The DisableSharing method disables sharing on this connection. It also disables all mappings on this connection. It does not disable Internet Connection Firewall or bridge configuration.
 old-location: ics\inetsharingconfiguration_disablesharing.htm
 old-project: ICS
 ms.assetid: 85fda578-603c-4447-8546-374077235943
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: DisableSharing method [ICS/ICF], DisableSharing method [ICS/ICF], INetSharingConfiguration interface, DisableSharing,INetSharingConfiguration.DisableSharing, INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], DisableSharing method, INetSharingConfiguration::DisableSharing, _ics_inetsharingconfiguration_disablesharing, ics.inetsharingconfiguration_disablesharing, netcon/INetSharingConfiguration::DisableSharing
+ms.date: 5/1/2018
+ms.keywords: DisableSharing, DisableSharing method [ICS/ICF], DisableSharing method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],DisableSharing method, INetSharingConfiguration.DisableSharing, INetSharingConfiguration::DisableSharing, _ics_inetsharingconfiguration_disablesharing, ics.inetsharingconfiguration_disablesharing, netcon/INetSharingConfiguration::DisableSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingConfiguration::DisableSharing method
+# INetSharingConfiguration::DisableSharing
 
 
 ## -description

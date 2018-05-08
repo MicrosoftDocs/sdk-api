@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetPackageObjectReference
-title: IOpcDigitalSignature::GetPackageObjectReference method
+title: IOpcDigitalSignature::GetPackageObjectReference
 author: windows-driver-content
 description: Gets an IOpcSignatureReference interface pointer that represents the reference to the package-specific Object element that has been signed.
 old-location: opc\iopcdigitalsignature_getpackageobjectreference.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 67f4404f-518c-4a47-8c8e-b5b8d13e18cb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetPackageObjectReference method [Open Packaging Conventions], GetPackageObjectReference method [Open Packaging Conventions], IOpcDigitalSignature interface, GetPackageObjectReference,IOpcDigitalSignature.GetPackageObjectReference, IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], GetPackageObjectReference method, IOpcDigitalSignature::GetPackageObjectReference, msopc/IOpcDigitalSignature::GetPackageObjectReference, opc.iopcdigitalsignature_getpackageobjectreference
+ms.keywords: GetPackageObjectReference, GetPackageObjectReference method [Open Packaging Conventions], GetPackageObjectReference method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetPackageObjectReference method, IOpcDigitalSignature.GetPackageObjectReference, IOpcDigitalSignature::GetPackageObjectReference, msopc/IOpcDigitalSignature::GetPackageObjectReference, opc.iopcdigitalsignature_getpackageobjectreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignature::GetPackageObjectReference method
+# IOpcDigitalSignature::GetPackageObjectReference
 
 
 ## -description

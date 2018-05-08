@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetGlyphIndices
-title: IXpsOMGlyphsEditor::SetGlyphIndices method
+title: IXpsOMGlyphsEditor::SetGlyphIndices
 author: windows-driver-content
 description: Sets an XPS_GLYPH_INDEX structure array that describes which glyph indices are to be used in the font.
 old-location: xps\ixpsomglyphseditor_setglyphindices.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: a95aaf48-9a55-4a62-b8e1-7b8d077f1b2e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], SetGlyphIndices method, IXpsOMGlyphsEditor::SetGlyphIndices, SetGlyphIndices method [XPS Documents and Packaging], SetGlyphIndices method [XPS Documents and Packaging], IXpsOMGlyphsEditor interface, SetGlyphIndices,IXpsOMGlyphsEditor.SetGlyphIndices, xps.ixpsomglyphseditor_setglyphindices, xpsobjectmodel/IXpsOMGlyphsEditor::SetGlyphIndices
+ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetGlyphIndices method, IXpsOMGlyphsEditor.SetGlyphIndices, IXpsOMGlyphsEditor::SetGlyphIndices, SetGlyphIndices, SetGlyphIndices method [XPS Documents and Packaging], SetGlyphIndices method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setglyphindices, xpsobjectmodel/IXpsOMGlyphsEditor::SetGlyphIndices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphsEditor::SetGlyphIndices method
+# IXpsOMGlyphsEditor::SetGlyphIndices
 
 
 ## -description

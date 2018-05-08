@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.get_Default
-title: IX509PolicyServerUrl::get_Default method
+title: IX509PolicyServerUrl::get_Default
 author: windows-driver-content
 description: Specifies and retrieves a Boolean value that indicates whether this is the default certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_default.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 957ccbbb-5bd1-4aa8-bf3e-09dd078f1593
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Default property [Security], Default property [Security], IX509PolicyServerUrl interface, IX509PolicyServerUrl, IX509PolicyServerUrl interface [Security], Default property, IX509PolicyServerUrl.Default, IX509PolicyServerUrl::get_Default, IX509PolicyServerUrl::put_Default, certenroll/IX509PolicyServerUrl::Default, certenroll/IX509PolicyServerUrl::get_Default, certenroll/IX509PolicyServerUrl::put_Default, get_Default,IX509PolicyServerUrl.get_Default, security.ix509policyserverurl_default
+ms.keywords: Default property [Security], Default property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],Default property, IX509PolicyServerUrl.Default, IX509PolicyServerUrl.get_Default, IX509PolicyServerUrl::Default, IX509PolicyServerUrl::get_Default, IX509PolicyServerUrl::put_Default, certenroll/IX509PolicyServerUrl::Default, certenroll/IX509PolicyServerUrl::get_Default, certenroll/IX509PolicyServerUrl::put_Default, get_Default, security.ix509policyserverurl_default
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509PolicyServerUrl::get_Default method
+# IX509PolicyServerUrl::get_Default
 
 
 ## -description

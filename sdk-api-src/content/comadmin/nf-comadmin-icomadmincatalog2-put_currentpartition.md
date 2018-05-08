@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.put_CurrentPartition
-title: ICOMAdminCatalog2::put_CurrentPartition method
+title: ICOMAdminCatalog2::put_CurrentPartition
 author: windows-driver-content
 description: Sets the current destination partition.
 old-location: cos\icomadmincatalog2_currentpartition.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 1df71c0b-0abe-48c3-baa2-8c04b2aa171d
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CurrentPartition property [COM+], CurrentPartition property [COM+], ICOMAdminCatalog2 interface, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], CurrentPartition property, ICOMAdminCatalog2.CurrentPartition, ICOMAdminCatalog2::put_CurrentPartition, _cos_IComAdminCatalog2_put_CurrentPartition, comadmin/ICOMAdminCatalog2::CurrentPartition, comadmin/ICOMAdminCatalog2::put_CurrentPartition, cos.icomadmincatalog2_currentpartition, put_CurrentPartition,ICOMAdminCatalog2.put_CurrentPartition
+ms.keywords: CurrentPartition property [COM+], CurrentPartition property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartition property, ICOMAdminCatalog2.CurrentPartition, ICOMAdminCatalog2.put_CurrentPartition, ICOMAdminCatalog2::CurrentPartition, ICOMAdminCatalog2::put_CurrentPartition, _cos_IComAdminCatalog2_put_CurrentPartition, comadmin/ICOMAdminCatalog2::CurrentPartition, comadmin/ICOMAdminCatalog2::put_CurrentPartition, cos.icomadmincatalog2_currentpartition, put_CurrentPartition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::put_CurrentPartition method
+# ICOMAdminCatalog2::put_CurrentPartition
 
 
 ## -description

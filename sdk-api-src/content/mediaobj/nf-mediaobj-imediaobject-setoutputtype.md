@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IMediaObject.SetOutputType
-title: IMediaObject::SetOutputType method
+title: IMediaObject::SetOutputType
 author: windows-driver-content
 description: The SetOutputType method sets the media type on an output stream, or tests whether a media type is acceptable.
 old-location: dshow\imediaobject_setoutputtype.htm
 old-project: DirectShow
 ms.assetid: 1dda3c55-d37b-4e04-9509-0e5197d6b019
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaObject, IMediaObject interface [DirectShow], SetOutputType method, IMediaObject::SetOutputType, IMediaObjectSetOutputType, SetOutputType method [DirectShow], SetOutputType method [DirectShow], IMediaObject interface, SetOutputType,IMediaObject.SetOutputType, dshow.imediaobject_setoutputtype, mediaobj/IMediaObject::SetOutputType
+ms.date: 4/30/2018
+ms.keywords: IMediaObject interface [DirectShow],SetOutputType method, IMediaObject.SetOutputType, IMediaObject::SetOutputType, IMediaObjectSetOutputType, SetOutputType, SetOutputType method [DirectShow], SetOutputType method [DirectShow],IMediaObject interface, dshow.imediaobject_setoutputtype, mediaobj/IMediaObject::SetOutputType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaObject::SetOutputType method
+# IMediaObject::SetOutputType
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetMethodContext
-title: CInstance::GetMethodContext method
+title: CInstance::GetMethodContext
 author: windows-driver-content
 description: The GetMethodContext method returns a pointer to a MethodContext object.
 old-location: wmi\cinstance_getmethodcontext.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: a2033754-4fd0-405f-9ad9-737eb8931016
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetMethodContext@CInstance@@QBEPAVMethodContext@@XZ, ?GetMethodContext@CInstance@@QEBAPEAVMethodContext@@XZ, CInstance, CInstance interface [Windows Management Instrumentation], GetMethodContext method, CInstance::GetMethodContext, GetMethodContext method [Windows Management Instrumentation], GetMethodContext method [Windows Management Instrumentation], CInstance interface, GetMethodContext,CInstance.GetMethodContext, _hmm_cinstance_getmethodcontext, instance/CInstance::GetMethodContext, wmi.cinstance_getmethodcontext"
+ms.keywords: "?GetMethodContext@CInstance@@QBEPAVMethodContext@@XZ, ?GetMethodContext@CInstance@@QEBAPEAVMethodContext@@XZ, CInstance interface [Windows Management Instrumentation],GetMethodContext method, CInstance.GetMethodContext, CInstance::GetMethodContext, GetMethodContext, GetMethodContext method [Windows Management Instrumentation], GetMethodContext method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getmethodcontext, instance/CInstance::GetMethodContext, wmi.cinstance_getmethodcontext"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::GetMethodContext method
+# CInstance::GetMethodContext
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: winrt\pdfcreaterenderer.htm
 old-project: WinRT
 ms.assetid: 6C61B35A-FD43-434F-BD56-C912E2FCE464
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: PdfCreateRenderer, PdfCreateRenderer function [Windows Runtime], windows/PdfCreateRenderer, winrt.pdfcreaterenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices

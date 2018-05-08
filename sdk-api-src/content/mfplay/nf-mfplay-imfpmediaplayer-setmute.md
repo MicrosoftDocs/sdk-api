@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetMute
-title: IMFPMediaPlayer::SetMute method
+title: IMFPMediaPlayer::SetMute
 author: windows-driver-content
 description: Mutes or unmutes the audio.
 old-location: mf\imfpmediaplayer_setmute.htm
 old-project: medfound
 ms.assetid: 81e2fb76-a125-4665-9aa5-8971410ee554
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], SetMute method, IMFPMediaPlayer::SetMute, SetMute method [Media Foundation], SetMute method [Media Foundation], IMFPMediaPlayer interface, SetMute,IMFPMediaPlayer.SetMute, mf.imfpmediaplayer_setmute, mfplay/IMFPMediaPlayer::SetMute
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetMute method, IMFPMediaPlayer.SetMute, IMFPMediaPlayer::SetMute, SetMute, SetMute method [Media Foundation], SetMute method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setmute, mfplay/IMFPMediaPlayer::SetMute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::SetMute method
+# IMFPMediaPlayer::SetMute
 
 
 ## -description

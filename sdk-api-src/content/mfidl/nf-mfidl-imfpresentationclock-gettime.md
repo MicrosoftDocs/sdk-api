@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.GetTime
-title: IMFPresentationClock::GetTime method
+title: IMFPresentationClock::GetTime
 author: windows-driver-content
 description: Retrieves the latest clock time.
 old-location: mf\imfpresentationclock_gettime.htm
 old-project: medfound
 ms.assetid: 31037b75-9fa5-48e0-a58c-a451b445147f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 31037b75-9fa5-48e0-a58c-a451b445147f, GetTime method [Media Foundation], GetTime method [Media Foundation], IMFPresentationClock interface, GetTime,IMFPresentationClock.GetTime, IMFPresentationClock, IMFPresentationClock interface [Media Foundation], GetTime method, IMFPresentationClock::GetTime, mf.imfpresentationclock_gettime, mfidl/IMFPresentationClock::GetTime
+ms.date: 5/3/2018
+ms.keywords: 31037b75-9fa5-48e0-a58c-a451b445147f, GetTime, GetTime method [Media Foundation], GetTime method [Media Foundation],IMFPresentationClock interface, IMFPresentationClock interface [Media Foundation],GetTime method, IMFPresentationClock.GetTime, IMFPresentationClock::GetTime, mf.imfpresentationclock_gettime, mfidl/IMFPresentationClock::GetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPresentationClock::GetTime method
+# IMFPresentationClock::GetTime
 
 
 ## -description

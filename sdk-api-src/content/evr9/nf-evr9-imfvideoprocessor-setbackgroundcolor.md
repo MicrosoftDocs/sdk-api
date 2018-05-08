@@ -1,14 +1,14 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.SetBackgroundColor
-title: IMFVideoProcessor::SetBackgroundColor method
+title: IMFVideoProcessor::SetBackgroundColor
 author: windows-driver-content
 description: Sets the background color for the composition rectangle. The background color is used for letterboxing the video image.
 old-location: mf\imfvideoprocessor_setbackgroundcolor.htm
 old-project: medfound
 ms.assetid: fb654dba-1f03-48a7-ac8e-fa0c82f29849
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], SetBackgroundColor method, IMFVideoProcessor::SetBackgroundColor, SetBackgroundColor method [Media Foundation], SetBackgroundColor method [Media Foundation], IMFVideoProcessor interface, SetBackgroundColor,IMFVideoProcessor.SetBackgroundColor, evr9/IMFVideoProcessor::SetBackgroundColor, fb654dba-1f03-48a7-ac8e-fa0c82f29849, mf.imfvideoprocessor_setbackgroundcolor
+ms.date: 5/3/2018
+ms.keywords: IMFVideoProcessor interface [Media Foundation],SetBackgroundColor method, IMFVideoProcessor.SetBackgroundColor, IMFVideoProcessor::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [Media Foundation], SetBackgroundColor method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetBackgroundColor, fb654dba-1f03-48a7-ac8e-fa0c82f29849, mf.imfvideoprocessor_setbackgroundcolor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoProcessor::SetBackgroundColor method
+# IMFVideoProcessor::SetBackgroundColor
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetRecordNumberOfTable
-title: IIsdbSIParameterDescriptor::GetRecordNumberOfTable method
+title: IIsdbSIParameterDescriptor::GetRecordNumberOfTable
 author: windows-driver-content
 description: Gets the number of table descriptors in a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_getrecordnumberoftable.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 12f7af61-494e-4597-8672-47ea9552be62
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordNumberOfTable method [Microsoft TV Technologies], GetRecordNumberOfTable method [Microsoft TV Technologies], IIsdbSIParameterDescriptor interface, GetRecordNumberOfTable,IIsdbSIParameterDescriptor.GetRecordNumberOfTable, IIsdbSIParameterDescriptor, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies], GetRecordNumberOfTable method, IIsdbSIParameterDescriptor::GetRecordNumberOfTable, dvbsiparser/IIsdbSIParameterDescriptor::GetRecordNumberOfTable, mstv.iisdbsiparameterdescriptor_getrecordnumberoftable
+ms.keywords: GetRecordNumberOfTable, GetRecordNumberOfTable method [Microsoft TV Technologies], GetRecordNumberOfTable method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetRecordNumberOfTable method, IIsdbSIParameterDescriptor.GetRecordNumberOfTable, IIsdbSIParameterDescriptor::GetRecordNumberOfTable, dvbsiparser/IIsdbSIParameterDescriptor::GetRecordNumberOfTable, mstv.iisdbsiparameterdescriptor_getrecordnumberoftable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbSIParameterDescriptor::GetRecordNumberOfTable method
+# IIsdbSIParameterDescriptor::GetRecordNumberOfTable
 
 
 ## -description

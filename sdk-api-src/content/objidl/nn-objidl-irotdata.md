@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 44ae8377-c375-4dc3-9f54-a5674e24763f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IROTData, IROTData interface [COM], IROTData interface [COM], described, _com_irotdata, com.irotdata, objidl/IROTData
+ms.keywords: IROTData, IROTData interface [COM], IROTData interface [COM],described, _com_irotdata, com.irotdata, objidl/IROTData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

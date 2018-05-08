@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CLUSPROP_BINARY, *PCLUSPROP_BINARY, CLUSPROP_BINARY, *PCLUSPROP_BINARY
+req.typenames: CLUSPROP_BINARY, *PCLUSPROP_BINARY
 topic_type:
 -	APIRef
 -	kbSyntax

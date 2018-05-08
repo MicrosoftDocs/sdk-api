@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo.GetChannelCount
-title: IWICPixelFormatInfo::GetChannelCount method
+title: IWICPixelFormatInfo::GetChannelCount
 author: windows-driver-content
 description: Gets the number of channels the pixel format contains.
 old-location: wic\_wic_codec_iwicpixelformatinfo_getchannelcount.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 884262b8-dddf-4b8b-87aa-52d9e7952c91
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetChannelCount method [Windows Imaging Component], GetChannelCount method [Windows Imaging Component], IWICPixelFormatInfo interface, GetChannelCount,IWICPixelFormatInfo.GetChannelCount, IWICPixelFormatInfo, IWICPixelFormatInfo interface [Windows Imaging Component], GetChannelCount method, IWICPixelFormatInfo::GetChannelCount, _wic_codec_iwicpixelformatinfo_getchannelcount, wic._wic_codec_iwicpixelformatinfo_getchannelcount, wincodec/IWICPixelFormatInfo::GetChannelCount
+ms.keywords: GetChannelCount, GetChannelCount method [Windows Imaging Component], GetChannelCount method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetChannelCount method, IWICPixelFormatInfo.GetChannelCount, IWICPixelFormatInfo::GetChannelCount, _wic_codec_iwicpixelformatinfo_getchannelcount, wic._wic_codec_iwicpixelformatinfo_getchannelcount, wincodec/IWICPixelFormatInfo::GetChannelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICPixelFormatInfo::GetChannelCount method
+# IWICPixelFormatInfo::GetChannelCount
 
 
 ## -description

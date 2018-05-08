@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRules.Add
-title: IFaxOutboundRoutingRules::Add method
+title: IFaxOutboundRoutingRules::Add
 author: windows-driver-content
 description: The IFaxOutboundRoutingRules::Add method adds an outbound routing rule (IFaxOutboundRoutingRule interface) to the collection defined by the IFaxOutboundRoutingRules interface.
 old-location: fax\_mfax_faxoutboundroutingrules_add_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_50f8_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Add method [Fax Service], Add method [Fax Service], IFaxOutboundRoutingRules interface, Add,IFaxOutboundRoutingRules.Add, IFaxOutboundRoutingRules, IFaxOutboundRoutingRules interface [Fax Service], Add method, IFaxOutboundRoutingRules::Add, _mfax_faxoutboundroutingrules.add_cpp, fax._mfax_faxoutboundroutingrules_add_cpp, faxcomex/IFaxOutboundRoutingRules::Add
+ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxOutboundRoutingRules interface, IFaxOutboundRoutingRules interface [Fax Service],Add method, IFaxOutboundRoutingRules.Add, IFaxOutboundRoutingRules::Add, _mfax_faxoutboundroutingrules.add_cpp, fax._mfax_faxoutboundroutingrules_add_cpp, faxcomex/IFaxOutboundRoutingRules::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutboundRoutingRules::Add method
+# IFaxOutboundRoutingRules::Add
 
 
 ## -description

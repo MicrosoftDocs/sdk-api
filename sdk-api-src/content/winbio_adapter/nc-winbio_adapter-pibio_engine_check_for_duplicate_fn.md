@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 0c73e8b3-2bec-419c-bcb0-3e35d1520f05
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterCheckForDuplicate, EngineAdapterCheckForDuplicate callback function [Windows Biometric Framework API], PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN, secbiomet.engineadaptercheckforduplicate, winbio_adapter/EngineAdapterCheckForDuplicate
+ms.keywords: EngineAdapterCheckForDuplicate, EngineAdapterCheckForDuplicate callback function [Windows Biometric Framework API], PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN, PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN callback, secbiomet.engineadaptercheckforduplicate, winbio_adapter/EngineAdapterCheckForDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN callback
+# PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN callback function
 
 
 ## -description

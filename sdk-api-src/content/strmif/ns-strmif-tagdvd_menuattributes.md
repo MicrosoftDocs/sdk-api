@@ -7,7 +7,7 @@ old-location: dshow\dvd_menuattributes.htm
 old-project: DirectShow
 ms.assetid: 074593e2-f4f4-44d3-a37c-209b4e798a52
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: DVD_MenuAttributes, DVD_MenuAttributes structure [DirectShow], DVD_MenuAttributesStructure, dshow.dvd_menuattributes, strmif/DVD_MenuAttributes, tagDVD_MenuAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

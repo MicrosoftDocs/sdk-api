@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.RegisterForCallbacks
-title: IXAudio2::RegisterForCallbacks method
+title: IXAudio2::RegisterForCallbacks
 author: windows-driver-content
 description: Adds an IXAudio2EngineCallback pointer to the XAudio2 engine callback list.
 old-location: xaudio2\ixaudio2_interface_registerforcallbacks.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.RegisterForCallbacks(IXAudio2EngineCallback)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], RegisterForCallbacks method, IXAudio2::RegisterForCallbacks, RegisterForCallbacks method [XAudio2 Audio Mixing APIs], RegisterForCallbacks method [XAudio2 Audio Mixing APIs], IXAudio2 interface, RegisterForCallbacks,IXAudio2.RegisterForCallbacks, xaudio2.ixaudio2_interface_registerforcallbacks, xaudio2/IXAudio2::RegisterForCallbacks
+ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],RegisterForCallbacks method, IXAudio2.RegisterForCallbacks, IXAudio2::RegisterForCallbacks, RegisterForCallbacks, RegisterForCallbacks method [XAudio2 Audio Mixing APIs], RegisterForCallbacks method [XAudio2 Audio Mixing APIs],IXAudio2 interface, xaudio2.ixaudio2_interface_registerforcallbacks, xaudio2/IXAudio2::RegisterForCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2::RegisterForCallbacks method
+# IXAudio2::RegisterForCallbacks
 
 
 ## -description

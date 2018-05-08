@@ -1,14 +1,14 @@
 ---
 UID: NF:audioenginebaseapo.IAudioSystemEffectsCustomFormats.GetFormatRepresentation
-title: IAudioSystemEffectsCustomFormats::GetFormatRepresentation method
+title: IAudioSystemEffectsCustomFormats::GetFormatRepresentation
 author: windows-driver-content
 description: The GetFormatRepresentation method retrieves a string representation of the custom format so that it can be displayed on a user-interface.
 old-location: audio\iaudiosystemeffectscustomformats_getformatrepresentation.htm
 old-project: audio
 ms.assetid: 35953b82-8832-4e7b-9186-e336fdc65362
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetFormatRepresentation method [Audio Devices], GetFormatRepresentation method [Audio Devices], IAudioSystemEffectsCustomFormats interface, GetFormatRepresentation,IAudioSystemEffectsCustomFormats.GetFormatRepresentation, IAudioSystemEffectsCustomFormats, IAudioSystemEffectsCustomFormats interface [Audio Devices], GetFormatRepresentation method, IAudioSystemEffectsCustomFormats::GetFormatRepresentation, audio.iaudiosystemeffectscustomformats_getformatrepresentation, audio_syseffects_r_0164d130-f6cc-423b-9195-e5e87ee6bf2f.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatRepresentation
+ms.date: 5/1/2018
+ms.keywords: GetFormatRepresentation, GetFormatRepresentation method [Audio Devices], GetFormatRepresentation method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormatRepresentation method, IAudioSystemEffectsCustomFormats.GetFormatRepresentation, IAudioSystemEffectsCustomFormats::GetFormatRepresentation, audio.iaudiosystemeffectscustomformats_getformatrepresentation, audio_syseffects_r_0164d130-f6cc-423b-9195-e5e87ee6bf2f.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatRepresentation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: All levels.
 ---
 
-# IAudioSystemEffectsCustomFormats::GetFormatRepresentation method
+# IAudioSystemEffectsCustomFormats::GetFormatRepresentation
 
 
 ## -description

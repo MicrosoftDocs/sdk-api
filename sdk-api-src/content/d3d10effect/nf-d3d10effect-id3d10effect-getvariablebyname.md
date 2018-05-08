@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetVariableByName
-title: ID3D10Effect::GetVariableByName method
+title: ID3D10Effect::GetVariableByName
 author: windows-driver-content
 description: Get a variable by name.
 old-location: direct3d10\id3d10effect_getvariablebyname.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getvariablebyname.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetVariableByName method [Direct3D 10], GetVariableByName method [Direct3D 10], ID3D10Effect interface, GetVariableByName,ID3D10Effect.GetVariableByName, ID3D10Effect, ID3D10Effect interface [Direct3D 10], GetVariableByName method, ID3D10Effect::GetVariableByName, c08eacd5-3abc-89d5-a465-058f2f195794, d3d10effect/ID3D10Effect::GetVariableByName, direct3d10.id3d10effect_getvariablebyname
+ms.keywords: GetVariableByName, GetVariableByName method [Direct3D 10], GetVariableByName method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetVariableByName method, ID3D10Effect.GetVariableByName, ID3D10Effect::GetVariableByName, c08eacd5-3abc-89d5-a465-058f2f195794, d3d10effect/ID3D10Effect::GetVariableByName, direct3d10.id3d10effect_getvariablebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Effect::GetVariableByName method
+# ID3D10Effect::GetVariableByName
 
 
 ## -description

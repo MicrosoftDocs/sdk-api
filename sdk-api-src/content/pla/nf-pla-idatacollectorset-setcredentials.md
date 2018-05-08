@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.SetCredentials
-title: IDataCollectorSet::SetCredentials method
+title: IDataCollectorSet::SetCredentials
 author: windows-driver-content
 description: Specifies the user account under which the data collector set runs.
 old-location: pla\idatacollectorset_setcredentials.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 39275154-fe85-492e-9d64-79d17cb4f88d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], SetCredentials method, IDataCollectorSet::SetCredentials, SetCredentials method [PLA], SetCredentials method [PLA], IDataCollectorSet interface, SetCredentials,IDataCollectorSet.SetCredentials, base.idatacollectorset_setcredentials, pla.idatacollectorset_setcredentials, pla/IDataCollectorSet::SetCredentials
+ms.keywords: IDataCollectorSet interface [PLA],SetCredentials method, IDataCollectorSet.SetCredentials, IDataCollectorSet::SetCredentials, SetCredentials, SetCredentials method [PLA], SetCredentials method [PLA],IDataCollectorSet interface, base.idatacollectorset_setcredentials, pla.idatacollectorset_setcredentials, pla/IDataCollectorSet::SetCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::SetCredentials method
+# IDataCollectorSet::SetCredentials
 
 
 ## -description

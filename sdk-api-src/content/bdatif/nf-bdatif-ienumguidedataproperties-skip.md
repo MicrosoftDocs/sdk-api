@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IEnumGuideDataProperties.Skip
-title: IEnumGuideDataProperties::Skip method
+title: IEnumGuideDataProperties::Skip
 author: windows-driver-content
 description: Not implemented for this release.
 old-location: mstv\ienumguidedataproperties_skip.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bd8096cb-478a-4d23-b5e1-231c98ca21d1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IEnumGuideDataProperties, IEnumGuideDataProperties interface [Microsoft TV Technologies], Skip method, IEnumGuideDataProperties::Skip, IEnumGuideDataPropertiesSkip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies], IEnumGuideDataProperties interface, Skip,IEnumGuideDataProperties.Skip, bdatif/IEnumGuideDataProperties::Skip, mstv.ienumguidedataproperties_skip
+ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Skip method, IEnumGuideDataProperties.Skip, IEnumGuideDataProperties::Skip, IEnumGuideDataPropertiesSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Skip, mstv.ienumguidedataproperties_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumGuideDataProperties::Skip method
+# IEnumGuideDataProperties::Skip
 
 
 ## -description

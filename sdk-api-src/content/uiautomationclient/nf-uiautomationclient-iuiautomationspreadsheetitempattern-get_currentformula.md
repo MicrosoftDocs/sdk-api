@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.get_CurrentFormula
-title: IUIAutomationSpreadsheetItemPattern::get_CurrentFormula method
+title: IUIAutomationSpreadsheetItemPattern::get_CurrentFormula
 author: windows-driver-content
 description: Retrieves the formula for this cell.
 old-location: winauto\uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: CBE97F32-9640-4093-9612-8751C4508563
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentFormula property [Windows Accessibility], CurrentFormula property [Windows Accessibility], IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility], CurrentFormula property, IUIAutomationSpreadsheetItemPattern.CurrentFormula, IUIAutomationSpreadsheetItemPattern::get_CurrentFormula, get_CurrentFormula,IUIAutomationSpreadsheetItemPattern.get_CurrentFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::CurrentFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CurrentFormula, winauto.uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula
+ms.keywords: CurrentFormula property [Windows Accessibility], CurrentFormula property [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],CurrentFormula property, IUIAutomationSpreadsheetItemPattern.CurrentFormula, IUIAutomationSpreadsheetItemPattern.get_CurrentFormula, IUIAutomationSpreadsheetItemPattern::CurrentFormula, IUIAutomationSpreadsheetItemPattern::get_CurrentFormula, get_CurrentFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::CurrentFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CurrentFormula, winauto.uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationSpreadsheetItemPattern::get_CurrentFormula method
+# IUIAutomationSpreadsheetItemPattern::get_CurrentFormula
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:micaut.IMathInputControl.LoadInk
-title: IMathInputControl::LoadInk method
+title: IMathInputControl::LoadInk
 author: windows-driver-content
 description: Processes ink and triggers recognition.
 old-location: tablet\imathinputcontrol_loadink.htm
 old-project: tablet
 ms.assetid: 3313cb16-3400-48d5-8ba0-b3bd593b37ea
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], LoadInk method, IMathInputControl::LoadInk, LoadInk method [Tablet PC], LoadInk method [Tablet PC], IMathInputControl interface, LoadInk,IMathInputControl.LoadInk, micaut/IMathInputControl::LoadInk, tablet.imathinputcontrol_loadink
+ms.date: 5/2/2018
+ms.keywords: IMathInputControl interface [Tablet PC],LoadInk method, IMathInputControl.LoadInk, IMathInputControl::LoadInk, LoadInk, LoadInk method [Tablet PC], LoadInk method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::LoadInk, tablet.imathinputcontrol_loadink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMathInputControl::LoadInk method
+# IMathInputControl::LoadInk
 
 
 ## -description

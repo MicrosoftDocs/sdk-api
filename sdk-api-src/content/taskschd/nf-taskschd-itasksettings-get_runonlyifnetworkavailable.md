@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_RunOnlyIfNetworkAvailable
-title: ITaskSettings::get_RunOnlyIfNetworkAvailable method
+title: ITaskSettings::get_RunOnlyIfNetworkAvailable
 author: windows-driver-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler will run the task only when a network is available.
 old-location: taskschd\itasksettings_runonlyifnetworkavailable.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: d0926d75-e7d9-469c-aaa0-ddee8fe22dcd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskSettings, ITaskSettings interface [Task Scheduler], RunOnlyIfNetworkAvailable property, ITaskSettings.RunOnlyIfNetworkAvailable, ITaskSettings::get_RunOnlyIfNetworkAvailable, ITaskSettings::put_RunOnlyIfNetworkAvailable, RunOnlyIfNetworkAvailable property [Task Scheduler], RunOnlyIfNetworkAvailable property [Task Scheduler], ITaskSettings interface, get_RunOnlyIfNetworkAvailable,ITaskSettings.get_RunOnlyIfNetworkAvailable, taskschd.itasksettings_runonlyifnetworkavailable, taskschd/ITaskSettings::RunOnlyIfNetworkAvailable, taskschd/ITaskSettings::get_RunOnlyIfNetworkAvailable, taskschd/ITaskSettings::put_RunOnlyIfNetworkAvailable
+ms.keywords: ITaskSettings interface [Task Scheduler],RunOnlyIfNetworkAvailable property, ITaskSettings.RunOnlyIfNetworkAvailable, ITaskSettings.get_RunOnlyIfNetworkAvailable, ITaskSettings::RunOnlyIfNetworkAvailable, ITaskSettings::get_RunOnlyIfNetworkAvailable, ITaskSettings::put_RunOnlyIfNetworkAvailable, RunOnlyIfNetworkAvailable property [Task Scheduler], RunOnlyIfNetworkAvailable property [Task Scheduler],ITaskSettings interface, get_RunOnlyIfNetworkAvailable, taskschd.itasksettings_runonlyifnetworkavailable, taskschd/ITaskSettings::RunOnlyIfNetworkAvailable, taskschd/ITaskSettings::get_RunOnlyIfNetworkAvailable, taskschd/ITaskSettings::put_RunOnlyIfNetworkAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskSettings::get_RunOnlyIfNetworkAvailable method
+# ITaskSettings::get_RunOnlyIfNetworkAvailable
 
 
 ## -description

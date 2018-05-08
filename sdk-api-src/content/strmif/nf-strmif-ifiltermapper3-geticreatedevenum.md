@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterMapper3.GetICreateDevEnum
-title: IFilterMapper3::GetICreateDevEnum method
+title: IFilterMapper3::GetICreateDevEnum
 author: windows-driver-content
 description: The GetICreateDevEnum method returns a pointer to the ICreateDevEnum interface. You can use the ICreateDevEnum interface to create an enumerator for a category of filters, such as video capture devices or audio capture devices.
 old-location: dshow\ifiltermapper3_geticreatedevenum.htm
 old-project: DirectShow
 ms.assetid: e54a1276-5c86-4127-9005-f2935e1664d0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetICreateDevEnum method [DirectShow], GetICreateDevEnum method [DirectShow], IFilterMapper3 interface, GetICreateDevEnum,IFilterMapper3.GetICreateDevEnum, IFilterMapper3, IFilterMapper3 interface [DirectShow], GetICreateDevEnum method, IFilterMapper3::GetICreateDevEnum, IFilterMapper3GetICreateDevEnum, dshow.ifiltermapper3_geticreatedevenum, strmif/IFilterMapper3::GetICreateDevEnum
+ms.date: 4/30/2018
+ms.keywords: GetICreateDevEnum, GetICreateDevEnum method [DirectShow], GetICreateDevEnum method [DirectShow],IFilterMapper3 interface, IFilterMapper3 interface [DirectShow],GetICreateDevEnum method, IFilterMapper3.GetICreateDevEnum, IFilterMapper3::GetICreateDevEnum, IFilterMapper3GetICreateDevEnum, dshow.ifiltermapper3_geticreatedevenum, strmif/IFilterMapper3::GetICreateDevEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterMapper3::GetICreateDevEnum method
+# IFilterMapper3::GetICreateDevEnum
 
 
 ## -description

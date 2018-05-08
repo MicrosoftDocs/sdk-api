@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyBackedUp.get_BackedUpTime
-title: ICertPropertyBackedUp::get_BackedUpTime method
+title: ICertPropertyBackedUp::get_BackedUpTime
 author: windows-driver-content
 description: Retrieves the date and time at which the certificate was backed up.
 old-location: security\icertpropertybackedup_backeduptime_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 5515fbd5-a711-421d-b80d-3e77c83f7549
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: BackedUpTime property [Security], BackedUpTime property [Security], ICertPropertyBackedUp interface, ICertPropertyBackedUp, ICertPropertyBackedUp interface [Security], BackedUpTime property, ICertPropertyBackedUp.BackedUpTime, ICertPropertyBackedUp::get_BackedUpTime, certenroll/ICertPropertyBackedUp::BackedUpTime, certenroll/ICertPropertyBackedUp::get_BackedUpTime, get_BackedUpTime,ICertPropertyBackedUp.get_BackedUpTime, security.icertpropertybackedup_backeduptime_property
+ms.keywords: BackedUpTime property [Security], BackedUpTime property [Security],ICertPropertyBackedUp interface, ICertPropertyBackedUp interface [Security],BackedUpTime property, ICertPropertyBackedUp.BackedUpTime, ICertPropertyBackedUp.get_BackedUpTime, ICertPropertyBackedUp::BackedUpTime, ICertPropertyBackedUp::get_BackedUpTime, certenroll/ICertPropertyBackedUp::BackedUpTime, certenroll/ICertPropertyBackedUp::get_BackedUpTime, get_BackedUpTime, security.icertpropertybackedup_backeduptime_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyBackedUp::get_BackedUpTime method
+# ICertPropertyBackedUp::get_BackedUpTime
 
 
 ## -description

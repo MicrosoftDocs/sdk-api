@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.BroadcastEventEx
-title: IMSVidStreamBufferV2SourceEvent::BroadcastEventEx method
+title: IMSVidStreamBufferV2SourceEvent::BroadcastEventEx
 author: windows-driver-content
 description: Fired when an SBE2 source filter receives any event fired by a call to IBroadcastEventEx::FireEx.
 old-location: mstv\imsvidstreambufferv2sourceevent_broadcasteventex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 731baecc-72f9-4ecd-bc01-40ad31c67051
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: BroadcastEventEx method [Microsoft TV Technologies], BroadcastEventEx method [Microsoft TV Technologies], IMSVidStreamBufferV2SourceEvent interface, BroadcastEventEx,IMSVidStreamBufferV2SourceEvent.BroadcastEventEx, IMSVidStreamBufferV2SourceEvent, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies], BroadcastEventEx method, IMSVidStreamBufferV2SourceEvent::BroadcastEventEx, mstv.imsvidstreambufferv2sourceevent_broadcasteventex, segment/IMSVidStreamBufferV2SourceEvent::BroadcastEventEx
+ms.keywords: BroadcastEventEx, BroadcastEventEx method [Microsoft TV Technologies], BroadcastEventEx method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],BroadcastEventEx method, IMSVidStreamBufferV2SourceEvent.BroadcastEventEx, IMSVidStreamBufferV2SourceEvent::BroadcastEventEx, mstv.imsvidstreambufferv2sourceevent_broadcasteventex, segment/IMSVidStreamBufferV2SourceEvent::BroadcastEventEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferV2SourceEvent::BroadcastEventEx method
+# IMSVidStreamBufferV2SourceEvent::BroadcastEventEx
 
 
 ## -description

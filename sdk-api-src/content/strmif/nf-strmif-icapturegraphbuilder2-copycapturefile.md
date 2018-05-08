@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.CopyCaptureFile
-title: ICaptureGraphBuilder2::CopyCaptureFile method
+title: ICaptureGraphBuilder2::CopyCaptureFile
 author: windows-driver-content
 description: The CopyCaptureFile method copies the valid media data from a capture file.
 old-location: dshow\icapturegraphbuilder2_copycapturefile.htm
 old-project: DirectShow
 ms.assetid: d4084b12-b082-45c2-9f07-625b980c7e4c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CopyCaptureFile method [DirectShow], CopyCaptureFile method [DirectShow], ICaptureGraphBuilder2 interface, CopyCaptureFile,ICaptureGraphBuilder2.CopyCaptureFile, ICaptureGraphBuilder2, ICaptureGraphBuilder2 interface [DirectShow], CopyCaptureFile method, ICaptureGraphBuilder2::CopyCaptureFile, ICaptureGraphBuilder2CopyCaptureFile, dshow.icapturegraphbuilder2_copycapturefile, strmif/ICaptureGraphBuilder2::CopyCaptureFile
+ms.date: 4/30/2018
+ms.keywords: CopyCaptureFile, CopyCaptureFile method [DirectShow], CopyCaptureFile method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],CopyCaptureFile method, ICaptureGraphBuilder2.CopyCaptureFile, ICaptureGraphBuilder2::CopyCaptureFile, ICaptureGraphBuilder2CopyCaptureFile, dshow.icapturegraphbuilder2_copycapturefile, strmif/ICaptureGraphBuilder2::CopyCaptureFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ICaptureGraphBuilder2::CopyCaptureFile method
+# ICaptureGraphBuilder2::CopyCaptureFile
 
 
 ## -description

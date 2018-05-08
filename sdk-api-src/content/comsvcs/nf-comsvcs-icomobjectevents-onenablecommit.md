@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnEnableCommit
-title: IComObjectEvents::OnEnableCommit method
+title: IComObjectEvents::OnEnableCommit
 author: windows-driver-content
 description: Generated when the client calls EnableCommit on a context.
 old-location: cos\icomobjectevents_onenablecommit.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 88fdf857-1dbd-4a6b-87c6-0d72eeeab9b4
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComObjectEvents, IComObjectEvents interface [COM+], OnEnableCommit method, IComObjectEvents::OnEnableCommit, OnEnableCommit method [COM+], OnEnableCommit method [COM+], IComObjectEvents interface, OnEnableCommit,IComObjectEvents.OnEnableCommit, _dtc_IComObjectEvents_OnEnableCommit, comsvcs/IComObjectEvents::OnEnableCommit, cos.icomobjectevents_onenablecommit
+ms.keywords: IComObjectEvents interface [COM+],OnEnableCommit method, IComObjectEvents.OnEnableCommit, IComObjectEvents::OnEnableCommit, OnEnableCommit, OnEnableCommit method [COM+], OnEnableCommit method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnEnableCommit, comsvcs/IComObjectEvents::OnEnableCommit, cos.icomobjectevents_onenablecommit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComObjectEvents::OnEnableCommit method
+# IComObjectEvents::OnEnableCommit
 
 
 ## -description

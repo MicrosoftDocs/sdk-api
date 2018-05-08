@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ReleaseContact
-title: IDirectManipulationViewport::ReleaseContact method
+title: IDirectManipulationViewport::ReleaseContact
 author: windows-driver-content
 description: Removes a contact that is associated with a viewport.
 old-location: directmanipulation\idirectmanipulationviewport_releasecontact.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: fbb5cfba-4722-4470-aad5-2d192825244b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], ReleaseContact method, IDirectManipulationViewport::ReleaseContact, ReleaseContact method [Direct Manipulation], ReleaseContact method [Direct Manipulation], IDirectManipulationViewport interface, ReleaseContact,IDirectManipulationViewport.ReleaseContact, directmanipulation.idirectmanipulationviewport_releasecontact, directmanipulation/IDirectManipulationViewport::ReleaseContact
+ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],ReleaseContact method, IDirectManipulationViewport.ReleaseContact, IDirectManipulationViewport::ReleaseContact, ReleaseContact, ReleaseContact method [Direct Manipulation], ReleaseContact method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_releasecontact, directmanipulation/IDirectManipulationViewport::ReleaseContact
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::ReleaseContact method
+# IDirectManipulationViewport::ReleaseContact
 
 
 ## -description

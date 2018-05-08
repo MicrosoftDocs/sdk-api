@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_MediaState
-title: IAMExtTransport::put_MediaState method
+title: IAMExtTransport::put_MediaState
 author: windows-driver-content
 description: The put_MediaState method sets the current state of the media.
 old-location: dshow\iamexttransport_put_mediastate.htm
 old-project: DirectShow
 ms.assetid: e5a4638e-3246-44dd-a7f8-52d0da12fc9c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], put_MediaState method, IAMExtTransport::put_MediaState, IAMExtTransportput_MediaState, dshow.iamexttransport_put_mediastate, put_MediaState method [DirectShow], put_MediaState method [DirectShow], IAMExtTransport interface, put_MediaState,IAMExtTransport.put_MediaState, strmif/IAMExtTransport::put_MediaState
+ms.date: 4/30/2018
+ms.keywords: IAMExtTransport interface [DirectShow],put_MediaState method, IAMExtTransport.put_MediaState, IAMExtTransport::put_MediaState, IAMExtTransportput_MediaState, dshow.iamexttransport_put_mediastate, put_MediaState, put_MediaState method [DirectShow], put_MediaState method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_MediaState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::put_MediaState method
+# IAMExtTransport::put_MediaState
 
 
 ## -description

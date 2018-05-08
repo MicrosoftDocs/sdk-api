@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCore.get_network
-title: IWMPCore::get_network method
+title: IWMPCore::get_network
 author: windows-driver-content
 description: The get_network method retrieves a pointer to an IWMPNetwork interface.
 old-location: wmp\iwmpcore_get_network.htm
 old-project: WMP
 ms.assetid: 8100008a-50da-4496-9d5a-77bcca94e903
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_network method, IWMPCore::get_network, IWMPCoreget_network, get_network method [Windows Media Player], get_network method [Windows Media Player], IWMPCore interface, get_network,IWMPCore.get_network, wmp.iwmpcore_get_network, wmp/IWMPCore::get_network
+ms.date: 5/4/2018
+ms.keywords: IWMPCore interface [Windows Media Player],get_network method, IWMPCore.get_network, IWMPCore::get_network, IWMPCoreget_network, get_network, get_network method [Windows Media Player], get_network method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_network, wmp/IWMPCore::get_network
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCore::get_network method
+# IWMPCore::get_network
 
 
 ## -description

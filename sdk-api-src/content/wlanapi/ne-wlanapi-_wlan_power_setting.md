@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WLAN_POWER_SETTING, *PWLAN_POWER_SETTING, WLAN_POWER_SETTING, *PWLAN_POWER_SETTING
+req.typenames: WLAN_POWER_SETTING, *PWLAN_POWER_SETTING
 topic_type:
 -	APIRef
 -	kbSyntax

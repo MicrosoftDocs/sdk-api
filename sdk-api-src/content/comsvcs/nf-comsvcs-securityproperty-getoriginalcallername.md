@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.SecurityProperty.GetOriginalCallerName
-title: SecurityProperty::GetOriginalCallerName method
+title: SecurityProperty::GetOriginalCallerName
 author: windows-driver-content
 description: Retrieves the user name associated with the base process that initiated the sequence of calls from which the call into the current object originated.
 old-location: cos\securityproperty_getoriginalcallername.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: ca57950c-3079-42bd-a832-9b7753c61a39
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetOriginalCallerName method [COM+], GetOriginalCallerName method [COM+], SecurityProperty interface, GetOriginalCallerName,SecurityProperty.GetOriginalCallerName, SecurityProperty, SecurityProperty interface [COM+], GetOriginalCallerName method, SecurityProperty::GetOriginalCallerName, _cos_SecurityProperty_GetOriginalCallerName, comsvcs/SecurityProperty::GetOriginalCallerName, cos.securityproperty_getoriginalcallername
+ms.keywords: GetOriginalCallerName, GetOriginalCallerName method [COM+], GetOriginalCallerName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetOriginalCallerName method, SecurityProperty.GetOriginalCallerName, SecurityProperty::GetOriginalCallerName, _cos_SecurityProperty_GetOriginalCallerName, comsvcs/SecurityProperty::GetOriginalCallerName, cos.securityproperty_getoriginalcallername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# SecurityProperty::GetOriginalCallerName method
+# SecurityProperty::GetOriginalCallerName
 
 
 ## -description

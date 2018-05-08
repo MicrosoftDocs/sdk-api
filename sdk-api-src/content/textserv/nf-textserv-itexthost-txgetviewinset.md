@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxGetViewInset
-title: ITextHost::TxGetViewInset method
+title: ITextHost::TxGetViewInset
 author: windows-driver-content
 description: Requests the dimensions of the white space inset around the text in the text host window.
 old-location: controls\ITextHost_TxGetViewInset.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetviewinset.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxGetViewInset method, ITextHost::TxGetViewInset, TxGetViewInset method [Windows Controls], TxGetViewInset method [Windows Controls], ITextHost interface, TxGetViewInset,ITextHost.TxGetViewInset, _win32_ITextHost_TxGetViewInset, _win32_ITextHost_TxGetViewInset_cpp, controls.ITextHost_TxGetViewInset, controls._win32_ITextHost_TxGetViewInset, textserv/ITextHost::TxGetViewInset
+ms.date: 4/27/2018
+ms.keywords: ITextHost interface [Windows Controls],TxGetViewInset method, ITextHost.TxGetViewInset, ITextHost::TxGetViewInset, TxGetViewInset, TxGetViewInset method [Windows Controls], TxGetViewInset method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetViewInset, _win32_ITextHost_TxGetViewInset_cpp, controls.ITextHost_TxGetViewInset, controls._win32_ITextHost_TxGetViewInset, textserv/ITextHost::TxGetViewInset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxGetViewInset method
+# ITextHost::TxGetViewInset
 
 
 ## -description

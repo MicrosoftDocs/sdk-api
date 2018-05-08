@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.GetUserClassID
-title: IOleObject::GetUserClassID method
+title: IOleObject::GetUserClassID
 author: windows-driver-content
 description: Retrieves an object's class identifier, the CLSID corresponding to the string identifying the object to an end user.
 old-location: com\ioleobject_getuserclassid.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 4b3c0292-0476-4f56-abd2-2f3a82195c67
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetUserClassID method [COM], GetUserClassID method [COM], IOleObject interface, GetUserClassID,IOleObject.GetUserClassID, IOleObject, IOleObject interface [COM], GetUserClassID method, IOleObject::GetUserClassID, _ole_ioleobject_getuserclassid, com.ioleobject_getuserclassid, oleidl/IOleObject::GetUserClassID
+ms.keywords: GetUserClassID, GetUserClassID method [COM], GetUserClassID method [COM],IOleObject interface, IOleObject interface [COM],GetUserClassID method, IOleObject.GetUserClassID, IOleObject::GetUserClassID, _ole_ioleobject_getuserclassid, com.ioleobject_getuserclassid, oleidl/IOleObject::GetUserClassID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleObject::GetUserClassID method
+# IOleObject::GetUserClassID
 
 
 ## -description

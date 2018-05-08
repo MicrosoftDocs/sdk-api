@@ -7,8 +7,8 @@ old-location: wia\_wia_IWiaItemExtras.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\iwiaitemextras.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaItemExtras, IWiaItemExtras interface [WIA], IWiaItemExtras interface [WIA], described, _wia_IWiaItemExtras, wia._wia_IWiaItemExtras, wia_xp/IWiaItemExtras
+ms.date: 5/3/2018
+ms.keywords: IWiaItemExtras, IWiaItemExtras interface [WIA], IWiaItemExtras interface [WIA],described, _wia_IWiaItemExtras, wia._wia_IWiaItemExtras, wia_xp/IWiaItemExtras
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

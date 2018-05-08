@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMedia.setItemInfo
-title: IWMPMedia::setItemInfo method
+title: IWMPMedia::setItemInfo
 author: windows-driver-content
 description: The setItemInfo method sets the value of the specified attribute for the media item.
 old-location: wmp\iwmpmedia_setiteminfo.htm
 old-project: WMP
 ms.assetid: 919fe92f-9519-4229-8097-4970a8f6cc25
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], setItemInfo method, IWMPMedia2 interface [Windows Media Player], setItemInfo method, IWMPMedia2::setItemInfo, IWMPMedia3 interface [Windows Media Player], setItemInfo method, IWMPMedia3::setItemInfo, IWMPMedia::setItemInfo, IWMPMediasetItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player], IWMPMedia interface, setItemInfo method [Windows Media Player], IWMPMedia2 interface, setItemInfo method [Windows Media Player], IWMPMedia3 interface, setItemInfo,IWMPMedia.setItemInfo, wmp.iwmpmedia_setiteminfo, wmp/IWMPMedia2::setItemInfo, wmp/IWMPMedia3::setItemInfo, wmp/IWMPMedia::setItemInfo
+ms.date: 5/4/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],setItemInfo method, IWMPMedia.setItemInfo, IWMPMedia2 interface [Windows Media Player],setItemInfo method, IWMPMedia2::setItemInfo, IWMPMedia3 interface [Windows Media Player],setItemInfo method, IWMPMedia3::setItemInfo, IWMPMedia::setItemInfo, IWMPMediasetItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPMedia interface, setItemInfo method [Windows Media Player],IWMPMedia2 interface, setItemInfo method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_setiteminfo, wmp/IWMPMedia2::setItemInfo, wmp/IWMPMedia3::setItemInfo, wmp/IWMPMedia::setItemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMedia::setItemInfo method
+# IWMPMedia::setItemInfo
 
 
 ## -description

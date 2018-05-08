@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaItemExtras.CancelPendingIO
-title: IWiaItemExtras::CancelPendingIO method
+title: IWiaItemExtras::CancelPendingIO
 author: windows-driver-content
 description: The IWiaItemExtras::CancelPendingIO method cancels all pending input/output operations on the driver.
 old-location: wia\_wia_IWiaItemExtras_CancelPendingIO.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\cancelpendingio.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: CancelPendingIO method [WIA], CancelPendingIO method [WIA], IWiaItemExtras interface, CancelPendingIO,IWiaItemExtras.CancelPendingIO, IWiaItemExtras, IWiaItemExtras interface [WIA], CancelPendingIO method, IWiaItemExtras::CancelPendingIO, _wia_IWiaItemExtras_CancelPendingIO, wia._wia_IWiaItemExtras_CancelPendingIO, wia_xp/IWiaItemExtras::CancelPendingIO
+ms.date: 5/3/2018
+ms.keywords: CancelPendingIO, CancelPendingIO method [WIA], CancelPendingIO method [WIA],IWiaItemExtras interface, IWiaItemExtras interface [WIA],CancelPendingIO method, IWiaItemExtras.CancelPendingIO, IWiaItemExtras::CancelPendingIO, _wia_IWiaItemExtras_CancelPendingIO, wia._wia_IWiaItemExtras_CancelPendingIO, wia_xp/IWiaItemExtras::CancelPendingIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaItemExtras::CancelPendingIO method
+# IWiaItemExtras::CancelPendingIO
 
 
 ## -description

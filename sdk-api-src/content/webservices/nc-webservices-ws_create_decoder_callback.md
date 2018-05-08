@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 85311349-5c82-4545-8a2b-d8b9e629f04d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_CREATE_DECODER_CALLBACK, WS_CREATE_DECODER_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_DECODER_CALLBACK, wsw.ws_create_decoder_callback
+ms.keywords: WS_CREATE_DECODER_CALLBACK, WS_CREATE_DECODER_CALLBACK callback, WS_CREATE_DECODER_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_DECODER_CALLBACK, wsw.ws_create_decoder_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_CREATE_DECODER_CALLBACK callback
+# WS_CREATE_DECODER_CALLBACK callback function
 
 
 ## -description

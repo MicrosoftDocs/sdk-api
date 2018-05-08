@@ -1,14 +1,14 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.CreateDefaultConfiguration
-title: IFhConfigMgr::CreateDefaultConfiguration method
+title: IFhConfigMgr::CreateDefaultConfiguration
 author: windows-driver-content
 description: Creates File History configuration files with default settings for the current user and loads them into an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_createdefaultconfiguration.htm
 old-project: DevNotes
 ms.assetid: 70F67D8D-E449-4006-BB14-0E5E9B91D517
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: CreateDefaultConfiguration method [Windows API], CreateDefaultConfiguration method [Windows API], FhConfigMgr class, CreateDefaultConfiguration method [Windows API], IFhConfigMgr interface, CreateDefaultConfiguration,IFhConfigMgr.CreateDefaultConfiguration, FhConfigMgr class [Windows API], CreateDefaultConfiguration method, IFhConfigMgr, IFhConfigMgr interface [Windows API], CreateDefaultConfiguration method, IFhConfigMgr::CreateDefaultConfiguration, fhcfg/IFhConfigMgr::CreateDefaultConfiguration, winprog.ifhconfigmgr_createdefaultconfiguration
+ms.date: 5/4/2018
+ms.keywords: CreateDefaultConfiguration, CreateDefaultConfiguration method [Windows API], CreateDefaultConfiguration method [Windows API],FhConfigMgr class, CreateDefaultConfiguration method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],CreateDefaultConfiguration method, IFhConfigMgr interface [Windows API],CreateDefaultConfiguration method, IFhConfigMgr.CreateDefaultConfiguration, IFhConfigMgr::CreateDefaultConfiguration, fhcfg/IFhConfigMgr::CreateDefaultConfiguration, winprog.ifhconfigmgr_createdefaultconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFhConfigMgr::CreateDefaultConfiguration method
+# IFhConfigMgr::CreateDefaultConfiguration
 
 
 ## -description

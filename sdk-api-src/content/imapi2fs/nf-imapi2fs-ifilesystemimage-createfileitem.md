@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.CreateFileItem
-title: IFileSystemImage::CreateFileItem method
+title: IFileSystemImage::CreateFileItem
 author: windows-driver-content
 description: Create a file item with the specified name.
 old-location: imapi\ifilesystemimage_createfileitem.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 8e90e367-e7c3-41db-a8c9-9b0220cf402b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateFileItem method [IMAPI], CreateFileItem method [IMAPI], IFileSystemImage interface, CreateFileItem,IFileSystemImage.CreateFileItem, IFileSystemImage, IFileSystemImage interface [IMAPI], CreateFileItem method, IFileSystemImage::CreateFileItem, imapi.ifilesystemimage_createfileitem, imapi2fs/IFileSystemImage::CreateFileItem
+ms.keywords: CreateFileItem, CreateFileItem method [IMAPI], CreateFileItem method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CreateFileItem method, IFileSystemImage.CreateFileItem, IFileSystemImage::CreateFileItem, imapi.ifilesystemimage_createfileitem, imapi2fs/IFileSystemImage::CreateFileItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::CreateFileItem method
+# IFileSystemImage::CreateFileItem
 
 
 ## -description

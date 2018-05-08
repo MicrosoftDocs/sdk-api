@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingService.DockWindow
-title: IAccessibilityDockingService::DockWindow method
+title: IAccessibilityDockingService::DockWindow
 author: windows-driver-content
 description: Docks the specified window handle to the specified monitor handle.
 old-location: com\iaccessibilitydockingservice_dockwindow.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 99C6A82C-A421-4A5E-B23A-167384A7AB90
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: DockWindow method [COM], DockWindow method [COM], IAccessibilityDockingService interface, DockWindow,IAccessibilityDockingService.DockWindow, IAccessibilityDockingService, IAccessibilityDockingService interface [COM], DockWindow method, IAccessibilityDockingService::DockWindow, com.iaccessibilitydockingservice_dockwindow, shobjidl/IAccessibilityDockingService::DockWindow
+ms.keywords: DockWindow, DockWindow method [COM], DockWindow method [COM],IAccessibilityDockingService interface, IAccessibilityDockingService interface [COM],DockWindow method, IAccessibilityDockingService.DockWindow, IAccessibilityDockingService::DockWindow, com.iaccessibilitydockingservice_dockwindow, shobjidl/IAccessibilityDockingService::DockWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IAccessibilityDockingService::DockWindow method
+# IAccessibilityDockingService::DockWindow
 
 
 ## -description

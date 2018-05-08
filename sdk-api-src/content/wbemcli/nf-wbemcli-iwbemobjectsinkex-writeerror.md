@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteError
-title: IWbemObjectSinkEx::WriteError method
+title: IWbemObjectSinkEx::WriteError
 author: windows-driver-content
 description: TBD
 old-location: wmi\iwbemobjectsinkex_writeerror.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 908b46de-a64e-4db0-957f-6aeb4870ad46
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemObjectSinkEx, IWbemObjectSinkEx interface [Windows Management Instrumentation], WriteError method, IWbemObjectSinkEx::WriteError, WriteError method [Windows Management Instrumentation], WriteError method [Windows Management Instrumentation], IWbemObjectSinkEx interface, WriteError,IWbemObjectSinkEx.WriteError, wbemcli/IWbemObjectSinkEx::WriteError, wmi.iwbemobjectsinkex_writeerror
+ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteError method, IWbemObjectSinkEx.WriteError, IWbemObjectSinkEx::WriteError, WriteError, WriteError method [Windows Management Instrumentation], WriteError method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteError, wmi.iwbemobjectsinkex_writeerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemObjectSinkEx::WriteError method
+# IWbemObjectSinkEx::WriteError
 
 
 ## -description

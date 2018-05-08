@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IPoolManager.ShutdownPool
-title: IPoolManager::ShutdownPool method
+title: IPoolManager::ShutdownPool
 author: windows-driver-content
 description: Shuts down the object pool.
 old-location: cos\ipoolmanager_shutdownpool.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: c374b0a4-d984-4fa6-80a7-8bc4d0aff284
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IPoolManager, IPoolManager interface [COM+], ShutdownPool method, IPoolManager::ShutdownPool, ShutdownPool method [COM+], ShutdownPool method [COM+], IPoolManager interface, ShutdownPool,IPoolManager.ShutdownPool, _cos_IPoolManager_ShutdownPool, comsvcs/IPoolManager::ShutdownPool, cos.ipoolmanager_shutdownpool
+ms.keywords: IPoolManager interface [COM+],ShutdownPool method, IPoolManager.ShutdownPool, IPoolManager::ShutdownPool, ShutdownPool, ShutdownPool method [COM+], ShutdownPool method [COM+],IPoolManager interface, _cos_IPoolManager_ShutdownPool, comsvcs/IPoolManager::ShutdownPool, cos.ipoolmanager_shutdownpool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPoolManager::ShutdownPool method
+# IPoolManager::ShutdownPool
 
 
 ## -description

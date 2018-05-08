@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.ShowCheckbox
-title: IPhotoProgressDialog::ShowCheckbox method
+title: IPhotoProgressDialog::ShowCheckbox
 author: windows-driver-content
 description: The ShowCheckbox method indicates whether to show the check box in the progress dialog box indicating whether to delete images after transfer.
 old-location: picacq\iphotoprogressdialog_showcheckbox.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 6518c073-b4d9-49df-819f-473028ad230a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], ShowCheckbox method, IPhotoProgressDialog::ShowCheckbox, IPhotoProgressDialogShowCheckbox, ShowCheckbox method [Picture Acquisition], ShowCheckbox method [Picture Acquisition], IPhotoProgressDialog interface, ShowCheckbox,IPhotoProgressDialog.ShowCheckbox, photoacquire/IPhotoProgressDialog::ShowCheckbox, picacq.iphotoprogressdialog_showcheckbox
+ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],ShowCheckbox method, IPhotoProgressDialog.ShowCheckbox, IPhotoProgressDialog::ShowCheckbox, IPhotoProgressDialogShowCheckbox, ShowCheckbox, ShowCheckbox method [Picture Acquisition], ShowCheckbox method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::ShowCheckbox, picacq.iphotoprogressdialog_showcheckbox
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoProgressDialog::ShowCheckbox method
+# IPhotoProgressDialog::ShowCheckbox
 
 
 ## -description

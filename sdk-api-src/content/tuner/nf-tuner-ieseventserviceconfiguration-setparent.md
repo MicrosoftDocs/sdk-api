@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEventServiceConfiguration.SetParent
-title: IESEventServiceConfiguration::SetParent method
+title: IESEventServiceConfiguration::SetParent
 author: windows-driver-content
 description: Sets a parent event service for an event service that implements the IESEventService interface. Once an event service has set a parent, it can receive advise events from the parent.
 old-location: mstv\ieseventserviceconfiguration_setparent.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cfb931e9-f20f-4812-9d6b-cf8b651b7e7a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IESEventServiceConfiguration, IESEventServiceConfiguration interface [Microsoft TV Technologies], SetParent method, IESEventServiceConfiguration::SetParent, SetParent method [Microsoft TV Technologies], SetParent method [Microsoft TV Technologies], IESEventServiceConfiguration interface, SetParent,IESEventServiceConfiguration.SetParent, mstv.ieseventserviceconfiguration_setparent, tuner/IESEventServiceConfiguration::SetParent
+ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetParent method, IESEventServiceConfiguration.SetParent, IESEventServiceConfiguration::SetParent, SetParent, SetParent method [Microsoft TV Technologies], SetParent method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setparent, tuner/IESEventServiceConfiguration::SetParent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESEventServiceConfiguration::SetParent method
+# IESEventServiceConfiguration::SetParent
 
 
 ## -description

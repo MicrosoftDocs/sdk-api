@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_ClientName
-title: IDiscFormat2Erase::get_ClientName method
+title: IDiscFormat2Erase::get_ClientName
 author: windows-driver-content
 description: Retrieves the friendly name of the client.
 old-location: imapi\idiscformat2erase_get_clientname.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: be52c76d-3c6a-44b7-a948-4d0b02a7a7bb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Erase, IDiscFormat2Erase interface [IMAPI], get_ClientName method, IDiscFormat2Erase::get_ClientName, get_ClientName method [IMAPI], get_ClientName method [IMAPI], IDiscFormat2Erase interface, get_ClientName,IDiscFormat2Erase.get_ClientName, imapi.idiscformat2erase_get_clientname, imapi2/IDiscFormat2Erase::get_ClientName
+ms.keywords: IDiscFormat2Erase interface [IMAPI],get_ClientName method, IDiscFormat2Erase.get_ClientName, IDiscFormat2Erase::get_ClientName, get_ClientName, get_ClientName method [IMAPI], get_ClientName method [IMAPI],IDiscFormat2Erase interface, imapi.idiscformat2erase_get_clientname, imapi2/IDiscFormat2Erase::get_ClientName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Erase::get_ClientName method
+# IDiscFormat2Erase::get_ClientName
 
 
 ## -description

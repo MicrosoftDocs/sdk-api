@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetDescription
-title: ISettingsResult::GetDescription method
+title: ISettingsResult::GetDescription
 author: windows-driver-content
 description: Returns the description of the error.
 old-location: smi\isettingsresult_getdescription.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: d020bd46-8967-4105-856d-ee448b527852
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDescription method [SMI], GetDescription method [SMI], ISettingsResult interface, GetDescription,ISettingsResult.GetDescription, ISettingsResult, ISettingsResult interface [SMI], GetDescription method, ISettingsResult::GetDescription, smi.isettingsresult_getdescription, wcmconfig/ISettingsResult::GetDescription
+ms.keywords: GetDescription, GetDescription method [SMI], GetDescription method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetDescription method, ISettingsResult.GetDescription, ISettingsResult::GetDescription, smi.isettingsresult_getdescription, wcmconfig/ISettingsResult::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsResult::GetDescription method
+# ISettingsResult::GetDescription
 
 
 ## -description

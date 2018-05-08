@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.Clone
-title: IXpsOMPageReference::Clone method
+title: IXpsOMPageReference::Clone
 author: windows-driver-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsompagereference_clone.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 30511ddc-19c3-4122-864d-c368df9619a3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging], IXpsOMPageReference interface, Clone,IXpsOMPageReference.Clone, IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], Clone method, IXpsOMPageReference::Clone, xps.ixpsompagereference_clone, xpsobjectmodel/IXpsOMPageReference::Clone
+ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],Clone method, IXpsOMPageReference.Clone, IXpsOMPageReference::Clone, xps.ixpsompagereference_clone, xpsobjectmodel/IXpsOMPageReference::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReference::Clone method
+# IXpsOMPageReference::Clone
 
 
 ## -description

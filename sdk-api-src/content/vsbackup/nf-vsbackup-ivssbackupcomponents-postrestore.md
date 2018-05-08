@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.PostRestore
-title: IVssBackupComponents::PostRestore method
+title: IVssBackupComponents::PostRestore
 author: windows-driver-content
 description: The PostRestore method will cause VSS to generate a PostRestore event, signaling writers that the current restore operation has finished.
 old-location: base\ivssbackupcomponents_postrestore.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 01cf3931-59ef-4572-9f2e-aa210da0ac2d
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], PostRestore method, IVssBackupComponents::PostRestore, PostRestore method [VSS], PostRestore method [VSS], IVssBackupComponents interface, PostRestore,IVssBackupComponents.PostRestore, _win32_ivssbackupcomponents_postrestore, base.ivssbackupcomponents_postrestore, vsbackup/IVssBackupComponents::PostRestore
+ms.keywords: IVssBackupComponents interface [VSS],PostRestore method, IVssBackupComponents.PostRestore, IVssBackupComponents::PostRestore, PostRestore, PostRestore method [VSS], PostRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_postrestore, base.ivssbackupcomponents_postrestore, vsbackup/IVssBackupComponents::PostRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::PostRestore method
+# IVssBackupComponents::PostRestore
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.SetPreference
-title: IOfflineFilesSetting::SetPreference method
+title: IOfflineFilesSetting::SetPreference
 author: windows-driver-content
 description: Sets a per-computer or per-user preference associated with an Offline Files setting.
 old-location: of\iofflinefilessetting_setpreference.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: a5dc0522-4a1b-450f-bddb-17e67007f809
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], SetPreference method, IOfflineFilesSetting::SetPreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, SetPreference method [Offline Files], SetPreference method [Offline Files], IOfflineFilesSetting interface, SetPreference,IOfflineFilesSetting.SetPreference, cscobj/IOfflineFilesSetting::SetPreference, of.iofflinefilessetting_setpreference
+ms.keywords: IOfflineFilesSetting interface [Offline Files],SetPreference method, IOfflineFilesSetting.SetPreference, IOfflineFilesSetting::SetPreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, SetPreference, SetPreference method [Offline Files], SetPreference method [Offline Files],IOfflineFilesSetting interface, cscobj/IOfflineFilesSetting::SetPreference, of.iofflinefilessetting_setpreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSetting::SetPreference method
+# IOfflineFilesSetting::SetPreference
 
 
 ## -description

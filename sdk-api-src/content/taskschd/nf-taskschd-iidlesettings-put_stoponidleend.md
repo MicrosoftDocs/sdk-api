@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IIdleSettings.put_StopOnIdleEnd
-title: IIdleSettings::put_StopOnIdleEnd method
+title: IIdleSettings::put_StopOnIdleEnd
 author: windows-driver-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler will terminate the task if the idle condition ends before the task is completed. The idle condition ends when the computer is no longer idle.
 old-location: taskschd\iidlesettings_stoponidleend.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 0799194f-dd3d-4aa6-b17b-0abe933f9b55
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IIdleSettings, IIdleSettings interface [Task Scheduler], StopOnIdleEnd property, IIdleSettings.StopOnIdleEnd, IIdleSettings::get_StopOnIdleEnd, IIdleSettings::put_StopOnIdleEnd, StopOnIdleEnd property [Task Scheduler], StopOnIdleEnd property [Task Scheduler], IIdleSettings interface, put_StopOnIdleEnd,IIdleSettings.put_StopOnIdleEnd, taskschd.iidlesettings_stoponidleend, taskschd/IIdleSettings::StopOnIdleEnd, taskschd/IIdleSettings::get_StopOnIdleEnd, taskschd/IIdleSettings::put_StopOnIdleEnd
+ms.keywords: IIdleSettings interface [Task Scheduler],StopOnIdleEnd property, IIdleSettings.StopOnIdleEnd, IIdleSettings.put_StopOnIdleEnd, IIdleSettings::StopOnIdleEnd, IIdleSettings::get_StopOnIdleEnd, IIdleSettings::put_StopOnIdleEnd, StopOnIdleEnd property [Task Scheduler], StopOnIdleEnd property [Task Scheduler],IIdleSettings interface, put_StopOnIdleEnd, taskschd.iidlesettings_stoponidleend, taskschd/IIdleSettings::StopOnIdleEnd, taskschd/IIdleSettings::get_StopOnIdleEnd, taskschd/IIdleSettings::put_StopOnIdleEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IIdleSettings::put_StopOnIdleEnd method
+# IIdleSettings::put_StopOnIdleEnd
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: EDP
 ms.assetid: CB75BAFE-EB2A-43F2-8689-34E798C3B9F5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EDP.srpdisablepermissivemodefileencryption_, SrpDisablePermissiveModeFileEncryption, SrpDisablePermissiveModeFileEncryption function, srpapi/SrpDisablePermissiveModeFileEncryption
+ms.keywords: EDP.srpdisablepermissivemodefileencryption_, SrpDisablePermissiveModeFileEncryption, SrpDisablePermissiveModeFileEncryption , SrpDisablePermissiveModeFileEncryption function, srpapi/SrpDisablePermissiveModeFileEncryption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

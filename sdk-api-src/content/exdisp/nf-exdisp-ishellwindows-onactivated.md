@@ -1,14 +1,14 @@
 ---
 UID: NF:exdisp.IShellWindows.OnActivated
-title: IShellWindows::OnActivated method
+title: IShellWindows::OnActivated
 author: windows-driver-content
 description: Occurs when a Shell window's activation state changes.
 old-location: shell\IShellWindows_OnActivated.htm
 old-project: shell
 ms.assetid: ccd93f0f-3cd2-4b18-b6d2-834665d8b658
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], OnActivated method, IShellWindows::OnActivated, OnActivated method [Windows Shell], OnActivated method [Windows Shell], IShellWindows interface, OnActivated,IShellWindows.OnActivated, _win32_IShellWindows_OnActivated, exdisp/IShellWindows::OnActivated, shell.IShellWindows_OnActivated
+ms.date: 5/3/2018
+ms.keywords: IShellWindows interface [Windows Shell],OnActivated method, IShellWindows.OnActivated, IShellWindows::OnActivated, OnActivated, OnActivated method [Windows Shell], OnActivated method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnActivated, exdisp/IShellWindows::OnActivated, shell.IShellWindows_OnActivated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IShellWindows::OnActivated method
+# IShellWindows::OnActivated
 
 
 ## -description

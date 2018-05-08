@@ -7,7 +7,7 @@ old-location: tablet\reco_lattice_element.htm
 old-project: tablet
 ms.assetid: c4100cb9-d666-4e74-ac12-7f242b3c60d4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/2/2018
 ms.keywords: RECO_LATTICE_ELEMENT, RECO_LATTICE_ELEMENT structure [Tablet PC], c4100cb9-d666-4e74-ac12-7f242b3c60d4, rectypes/RECO_LATTICE_ELEMENT, tablet.reco_lattice_element, tagRECO_LATTICE_ELEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_LATTICE_ELEMENT, RECO_LATTICE_ELEMENT
+req.typenames: RECO_LATTICE_ELEMENT
 topic_type:
 -	APIRef
 -	kbSyntax

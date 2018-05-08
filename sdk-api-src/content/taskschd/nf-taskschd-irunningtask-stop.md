@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTask.Stop
-title: IRunningTask::Stop method
+title: IRunningTask::Stop
 author: windows-driver-content
 description: Stops this instance of the task.
 old-location: taskschd\irunningtask_stop.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 2fdf325f-5652-42b0-99e3-3950dba1ef11
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRunningTask, IRunningTask interface [Task Scheduler], Stop method, IRunningTask::Stop, Stop method [Task Scheduler], Stop method [Task Scheduler], IRunningTask interface, Stop,IRunningTask.Stop, taskschd.irunningtask_stop, taskschd/IRunningTask::Stop
+ms.keywords: IRunningTask interface [Task Scheduler],Stop method, IRunningTask.Stop, IRunningTask::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],IRunningTask interface, taskschd.irunningtask_stop, taskschd/IRunningTask::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRunningTask::Stop method
+# IRunningTask::Stop
 
 
 ## -description

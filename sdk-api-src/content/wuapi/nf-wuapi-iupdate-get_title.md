@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Title
-title: IUpdate::get_Title method
+title: IUpdate::get_Title
 author: windows-driver-content
 description: Gets the localized title of the update.
 old-location: wua\iupdate_title.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 83b1bcfc-d974-4804-8ed0-1ccde335b5ac
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], Title property, IUpdate.Title, IUpdate::get_Title, Title property [Windows Update Agent], Title property [Windows Update Agent], IUpdate interface, get_Title,IUpdate.get_Title, wua.iupdate_title, wuapi/IUpdate::Title, wuapi/IUpdate::get_Title
+ms.keywords: IUpdate interface [Windows Update Agent],Title property, IUpdate.Title, IUpdate.get_Title, IUpdate::Title, IUpdate::get_Title, Title property [Windows Update Agent], Title property [Windows Update Agent],IUpdate interface, get_Title, wua.iupdate_title, wuapi/IUpdate::Title, wuapi/IUpdate::get_Title
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_Title method
+# IUpdate::get_Title
 
 
 ## -description

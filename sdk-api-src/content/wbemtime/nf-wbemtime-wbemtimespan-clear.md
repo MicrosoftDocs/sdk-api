@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.Clear
-title: WBEMTimeSpan::Clear method
+title: WBEMTimeSpan::Clear
 author: windows-driver-content
 description: The Clear method sets the time span to INVALID_TIME.
 old-location: wmi\wbemtimespan_clear.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 8bd964ed-d815-489a-8ddf-c92970701b05
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Clear method [Windows Management Instrumentation], Clear method [Windows Management Instrumentation], WBEMTimeSpan interface, Clear,WBEMTimeSpan.Clear, WBEMTimeSpan, WBEMTimeSpan interface [Windows Management Instrumentation], Clear method, WBEMTimeSpan::Clear, _hmm_wbemtimespan_clear, wbemtime/WBEMTimeSpan::Clear, wmi.wbemtimespan_clear
+ms.keywords: Clear, Clear method [Windows Management Instrumentation], Clear method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],Clear method, WBEMTimeSpan.Clear, WBEMTimeSpan::Clear, _hmm_wbemtimespan_clear, wbemtime/WBEMTimeSpan::Clear, wmi.wbemtimespan_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WBEMTimeSpan::Clear method
+# WBEMTimeSpan::Clear
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.SetIsFilled
-title: IXpsOMGeometryFigure::SetIsFilled method
+title: IXpsOMGeometryFigure::SetIsFilled
 author: windows-driver-content
 description: Sets a value that indicates whether the figure is filled.
 old-location: xps\ixpsomgeometryfigure_setisfilled.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 18054987-35a9-4049-ba0f-1425e2e54ed3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FALSE, IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], SetIsFilled method, IXpsOMGeometryFigure::SetIsFilled, SetIsFilled method [XPS Documents and Packaging], SetIsFilled method [XPS Documents and Packaging], IXpsOMGeometryFigure interface, SetIsFilled,IXpsOMGeometryFigure.SetIsFilled, TRUE, xps.ixpsomgeometryfigure_setisfilled, xpsobjectmodel/IXpsOMGeometryFigure::SetIsFilled
+ms.keywords: FALSE, IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetIsFilled method, IXpsOMGeometryFigure.SetIsFilled, IXpsOMGeometryFigure::SetIsFilled, SetIsFilled, SetIsFilled method [XPS Documents and Packaging], SetIsFilled method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, TRUE, xps.ixpsomgeometryfigure_setisfilled, xpsobjectmodel/IXpsOMGeometryFigure::SetIsFilled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigure::SetIsFilled method
+# IXpsOMGeometryFigure::SetIsFilled
 
 
 ## -description

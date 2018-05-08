@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_DrawingAttributes
-title: IInkCursor::get_DrawingAttributes method
+title: IInkCursor::get_DrawingAttributes
 author: windows-driver-content
 description: Gets or sets the drawing attributes to apply to ink as it is drawn.
 old-location: tablet\iinkcursor_drawingattributes.htm
 old-project: tablet
 ms.assetid: de8b2473-092d-4ff9-adbc-3ba378b035e2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC], IInkCursor interface, IInkCursor, IInkCursor interface [Tablet PC], DrawingAttributes property, IInkCursor.DrawingAttributes, IInkCursor.get_DrawingAttributes, IInkCursor::get_DrawingAttributes, IInkCursor::putref_DrawingAttributes, de8b2473-092d-4ff9-adbc-3ba378b035e2, get_DrawingAttributes,IInkCursor.get_DrawingAttributes, msinkaut/IInkCursor::DrawingAttributes, msinkaut/IInkCursor::get_DrawingAttributes, msinkaut/IInkCursor::putref_DrawingAttributes, tablet.iinkcursor_drawingattributes
+ms.date: 5/2/2018
+ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IInkCursor interface, IInkCursor interface [Tablet PC],DrawingAttributes property, IInkCursor.DrawingAttributes, IInkCursor.get_DrawingAttributes, IInkCursor::DrawingAttributes, IInkCursor::get_DrawingAttributes, IInkCursor::putref_DrawingAttributes, de8b2473-092d-4ff9-adbc-3ba378b035e2, get_DrawingAttributes, msinkaut/IInkCursor::DrawingAttributes, msinkaut/IInkCursor::get_DrawingAttributes, msinkaut/IInkCursor::putref_DrawingAttributes, tablet.iinkcursor_drawingattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkCursor::get_DrawingAttributes method
+# IInkCursor::get_DrawingAttributes
 
 
 ## -description

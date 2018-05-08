@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.AddClockStateSink
-title: IMFPresentationClock::AddClockStateSink method
+title: IMFPresentationClock::AddClockStateSink
 author: windows-driver-content
 description: Registers an object to be notified whenever the clock starts, stops, or pauses, or changes rate.
 old-location: mf\imfpresentationclock_addclockstatesink.htm
 old-project: medfound
 ms.assetid: c90c3d26-51fa-4cd6-a154-6f72c21219d2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddClockStateSink method [Media Foundation], AddClockStateSink method [Media Foundation], IMFPresentationClock interface, AddClockStateSink,IMFPresentationClock.AddClockStateSink, IMFPresentationClock, IMFPresentationClock interface [Media Foundation], AddClockStateSink method, IMFPresentationClock::AddClockStateSink, c90c3d26-51fa-4cd6-a154-6f72c21219d2, mf.imfpresentationclock_addclockstatesink, mfidl/IMFPresentationClock::AddClockStateSink
+ms.date: 5/3/2018
+ms.keywords: AddClockStateSink, AddClockStateSink method [Media Foundation], AddClockStateSink method [Media Foundation],IMFPresentationClock interface, IMFPresentationClock interface [Media Foundation],AddClockStateSink method, IMFPresentationClock.AddClockStateSink, IMFPresentationClock::AddClockStateSink, c90c3d26-51fa-4cd6-a154-6f72c21219d2, mf.imfpresentationclock_addclockstatesink, mfidl/IMFPresentationClock::AddClockStateSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPresentationClock::AddClockStateSink method
+# IMFPresentationClock::AddClockStateSink
 
 
 ## -description

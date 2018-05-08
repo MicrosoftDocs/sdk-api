@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioStreamVolume.SetChannelVolume
-title: IAudioStreamVolume::SetChannelVolume method
+title: IAudioStreamVolume::SetChannelVolume
 author: windows-driver-content
 description: The SetChannelVolume method sets the volume level for the specified channel in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_setchannelvolume.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 49452b32-5ad0-446b-b237-2f17d60ff3f0
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioStreamVolume, IAudioStreamVolume interface [Core Audio], SetChannelVolume method, IAudioStreamVolume::SetChannelVolume, IAudioStreamVolumeSetChannelVolume, SetChannelVolume method [Core Audio], SetChannelVolume method [Core Audio], IAudioStreamVolume interface, SetChannelVolume,IAudioStreamVolume.SetChannelVolume, audioclient/IAudioStreamVolume::SetChannelVolume, coreaudio.iaudiostreamvolume_setchannelvolume
+ms.keywords: IAudioStreamVolume interface [Core Audio],SetChannelVolume method, IAudioStreamVolume.SetChannelVolume, IAudioStreamVolume::SetChannelVolume, IAudioStreamVolumeSetChannelVolume, SetChannelVolume, SetChannelVolume method [Core Audio], SetChannelVolume method [Core Audio],IAudioStreamVolume interface, audioclient/IAudioStreamVolume::SetChannelVolume, coreaudio.iaudiostreamvolume_setchannelvolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioStreamVolume::SetChannelVolume method
+# IAudioStreamVolume::SetChannelVolume
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: shell\LongPtrAdd.htm
 old-project: shell
 ms.assetid: 1c5f3112-12f1-409f-9a0f-74d4d35abb48
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: LongPtrAdd, LongPtrAdd function [Windows Shell], intsafe/LongPtrAdd, shell.LongPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

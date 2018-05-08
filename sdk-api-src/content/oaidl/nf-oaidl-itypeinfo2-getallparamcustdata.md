@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetAllParamCustData
-title: ITypeInfo2::GetAllParamCustData method
+title: ITypeInfo2::GetAllParamCustData
 author: windows-driver-content
 description: Gets all of the custom data for the specified function parameter.
 old-location: automat\itypeinfo2_getallparamcustdata.htm
 old-project: automat
 ms.assetid: cb5ab67e-b5ff-40fd-a25f-d8dfb1e2c636
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetAllParamCustData method [Automation], GetAllParamCustData method [Automation], ITypeInfo2 interface, GetAllParamCustData,ITypeInfo2.GetAllParamCustData, ITypeInfo2, ITypeInfo2 interface [Automation], GetAllParamCustData method, ITypeInfo2::GetAllParamCustData, _oa96_ITypeInfo2_GetAllParamCustData, automat.itypeinfo2_getallparamcustdata, oaidl/ITypeInfo2::GetAllParamCustData
+ms.date: 5/4/2018
+ms.keywords: GetAllParamCustData, GetAllParamCustData method [Automation], GetAllParamCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllParamCustData method, ITypeInfo2.GetAllParamCustData, ITypeInfo2::GetAllParamCustData, _oa96_ITypeInfo2_GetAllParamCustData, automat.itypeinfo2_getallparamcustdata, oaidl/ITypeInfo2::GetAllParamCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo2::GetAllParamCustData method
+# ITypeInfo2::GetAllParamCustData
 
 
 ## -description

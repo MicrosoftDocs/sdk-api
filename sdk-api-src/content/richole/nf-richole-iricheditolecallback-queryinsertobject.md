@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOleCallback.QueryInsertObject
-title: IRichEditOleCallback::QueryInsertObject method
+title: IRichEditOleCallback::QueryInsertObject
 author: windows-driver-content
 description: Queries the application as to whether an object should be inserted. The member is called when pasting and when reading Rich Text Format (RTF).
 old-location: controls\IRichEditOleCallback_QueryInsertObject.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryinsertobject.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], QueryInsertObject method, IRichEditOleCallback::QueryInsertObject, QueryInsertObject method [Windows Controls], QueryInsertObject method [Windows Controls], IRichEditOleCallback interface, QueryInsertObject,IRichEditOleCallback.QueryInsertObject, _win32_IRichEditOleCallback_QueryInsertObject, _win32_IRichEditOleCallback_QueryInsertObject_cpp, controls.IRichEditOleCallback_QueryInsertObject, controls._win32_IRichEditOleCallback_QueryInsertObject, richole/IRichEditOleCallback::QueryInsertObject
+ms.date: 4/27/2018
+ms.keywords: IRichEditOleCallback interface [Windows Controls],QueryInsertObject method, IRichEditOleCallback.QueryInsertObject, IRichEditOleCallback::QueryInsertObject, QueryInsertObject, QueryInsertObject method [Windows Controls], QueryInsertObject method [Windows Controls],IRichEditOleCallback interface, _win32_IRichEditOleCallback_QueryInsertObject, _win32_IRichEditOleCallback_QueryInsertObject_cpp, controls.IRichEditOleCallback_QueryInsertObject, controls._win32_IRichEditOleCallback_QueryInsertObject, richole/IRichEditOleCallback::QueryInsertObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOleCallback::QueryInsertObject method
+# IRichEditOleCallback::QueryInsertObject
 
 
 ## -description

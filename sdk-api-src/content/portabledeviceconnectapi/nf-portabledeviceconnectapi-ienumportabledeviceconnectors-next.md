@@ -1,14 +1,14 @@
 ---
 UID: NF:portabledeviceconnectapi.IEnumPortableDeviceConnectors.Next
-title: IEnumPortableDeviceConnectors::Next method
+title: IEnumPortableDeviceConnectors::Next
 author: windows-driver-content
 description: Retrieves the next one or more IPortableDeviceConnector objects in the enumeration sequence.
 old-location: wpdsdk\ienumportabledeviceconnectors_next.htm
 old-project: wpd_sdk
 ms.assetid: 5aed563a-5ecc-49c0-8a0c-622405453896
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IEnumPortableDeviceConnectors, IEnumPortableDeviceConnectors interface [Windows Portable Devices SDK], Next method, IEnumPortableDeviceConnectors::Next, Next method [Windows Portable Devices SDK], Next method [Windows Portable Devices SDK], IEnumPortableDeviceConnectors interface, Next,IEnumPortableDeviceConnectors.Next, devpkey/IEnumPortableDeviceConnectors::Next, portabledeviceconnectapi/IEnumPortableDeviceConnectors::Next, wpdsdk.ienumportabledeviceconnectors_next
+ms.date: 4/11/2018
+ms.keywords: IEnumPortableDeviceConnectors interface [Windows Portable Devices SDK],Next method, IEnumPortableDeviceConnectors.Next, IEnumPortableDeviceConnectors::Next, Next, Next method [Windows Portable Devices SDK], Next method [Windows Portable Devices SDK],IEnumPortableDeviceConnectors interface, devpkey/IEnumPortableDeviceConnectors::Next, portabledeviceconnectapi/IEnumPortableDeviceConnectors::Next, wpdsdk.ienumportabledeviceconnectors_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,10 +42,10 @@ targetos: Windows
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumPortableDeviceConnectors::Next method
+# IEnumPortableDeviceConnectors::Next
 
 
 ## -description

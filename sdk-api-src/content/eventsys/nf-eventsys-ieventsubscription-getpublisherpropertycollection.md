@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetPublisherPropertyCollection
-title: IEventSubscription::GetPublisherPropertyCollection method
+title: IEventSubscription::GetPublisherPropertyCollection
 author: windows-driver-content
 description: Retrieves a collection of properties and values stored in the publisher property bag.
 old-location: cos\ieventsubscription_getpublisherpropertycollection.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: d59b46bc-cfc4-400b-8b91-6d0f68f8d9b3
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetPublisherPropertyCollection method [COM+], GetPublisherPropertyCollection method [COM+], IEventSubscription interface, GetPublisherPropertyCollection,IEventSubscription.GetPublisherPropertyCollection, IEventSubscription, IEventSubscription interface [COM+], GetPublisherPropertyCollection method, IEventSubscription::GetPublisherPropertyCollection, _cos_IEventSubscription_GetPublisherPropertyCollection, cos.ieventsubscription_getpublisherpropertycollection, eventsys/IEventSubscription::GetPublisherPropertyCollection
+ms.keywords: GetPublisherPropertyCollection, GetPublisherPropertyCollection method [COM+], GetPublisherPropertyCollection method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetPublisherPropertyCollection method, IEventSubscription.GetPublisherPropertyCollection, IEventSubscription::GetPublisherPropertyCollection, _cos_IEventSubscription_GetPublisherPropertyCollection, cos.ieventsubscription_getpublisherpropertycollection, eventsys/IEventSubscription::GetPublisherPropertyCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::GetPublisherPropertyCollection method
+# IEventSubscription::GetPublisherPropertyCollection
 
 
 ## -description

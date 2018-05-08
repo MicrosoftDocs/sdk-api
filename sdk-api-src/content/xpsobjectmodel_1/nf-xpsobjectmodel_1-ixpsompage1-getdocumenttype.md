@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMPage1.GetDocumentType
-title: IXpsOMPage1::GetDocumentType method
+title: IXpsOMPage1::GetDocumentType
 author: windows-driver-content
 description: Gets the type of FixedPage markup that was used to initialize this page. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.
 old-location: xps\ixpsompage1_getdocumenttype.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b2456ffc-7a9d-41c2-b693-eb71909ccf3d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging], IXpsOMPage1 interface, GetDocumentType,IXpsOMPage1.GetDocumentType, IXpsOMPage1, IXpsOMPage1 interface [XPS Documents and Packaging], GetDocumentType method, IXpsOMPage1::GetDocumentType, xps.ixpsompage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPage1::GetDocumentType
+ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMPage1 interface, IXpsOMPage1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMPage1.GetDocumentType, IXpsOMPage1::GetDocumentType, xps.ixpsompage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPage1::GetDocumentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage1::GetDocumentType method
+# IXpsOMPage1::GetDocumentType
 
 
 ## -description

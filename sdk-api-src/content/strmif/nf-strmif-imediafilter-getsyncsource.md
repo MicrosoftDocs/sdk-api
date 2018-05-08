@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaFilter.GetSyncSource
-title: IMediaFilter::GetSyncSource method
+title: IMediaFilter::GetSyncSource
 author: windows-driver-content
 description: The GetSyncSource method retrieves the current reference clock.
 old-location: dshow\imediafilter_getsyncsource.htm
 old-project: DirectShow
 ms.assetid: 5f5eb31c-3a12-45f4-9c95-caafc0267481
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSyncSource method [DirectShow], GetSyncSource method [DirectShow], IMediaFilter interface, GetSyncSource,IMediaFilter.GetSyncSource, IMediaFilter, IMediaFilter interface [DirectShow], GetSyncSource method, IMediaFilter::GetSyncSource, IMediaFilterGetSyncSource, dshow.imediafilter_getsyncsource, strmif/IMediaFilter::GetSyncSource
+ms.date: 4/30/2018
+ms.keywords: GetSyncSource, GetSyncSource method [DirectShow], GetSyncSource method [DirectShow],IMediaFilter interface, IMediaFilter interface [DirectShow],GetSyncSource method, IMediaFilter.GetSyncSource, IMediaFilter::GetSyncSource, IMediaFilterGetSyncSource, dshow.imediafilter_getsyncsource, strmif/IMediaFilter::GetSyncSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaFilter::GetSyncSource method
+# IMediaFilter::GetSyncSource
 
 
 ## -description

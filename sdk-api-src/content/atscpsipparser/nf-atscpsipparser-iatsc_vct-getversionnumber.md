@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetVersionNumber
-title: IATSC_VCT::GetVersionNumber method
+title: IATSC_VCT::GetVersionNumber
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getversionnumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c89e2fde-958f-4193-84d9-2d98e7560c6a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies], IATSC_VCT interface, GetVersionNumber,IATSC_VCT.GetVersionNumber, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetVersionNumber method, IATSC_VCT::GetVersionNumber, IATSC_VCTGetVersionNumber, atscpsipparser/IATSC_VCT::GetVersionNumber, mstv.iatsc_vct_getversionnumber
+ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetVersionNumber method, IATSC_VCT.GetVersionNumber, IATSC_VCT::GetVersionNumber, IATSC_VCTGetVersionNumber, atscpsipparser/IATSC_VCT::GetVersionNumber, mstv.iatsc_vct_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_VCT::GetVersionNumber method
+# IATSC_VCT::GetVersionNumber
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: winrt\windowsreplacestring.htm
 old-project: WinRT
 ms.assetid: 9675A3EA-12F9-4EE9-93D1-1138FEEB7CA4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: WindowsReplaceString, WindowsReplaceString function [Windows Runtime], winrt.windowsreplacestring, winstring/WindowsReplaceString
 ms.prod: windows-hardware
 ms.technology: windows-devices

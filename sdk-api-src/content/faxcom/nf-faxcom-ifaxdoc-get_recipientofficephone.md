@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientOfficePhone
-title: IFaxDoc::get_RecipientOfficePhone method
+title: IFaxDoc::get_RecipientOfficePhone
 author: windows-driver-content
 description: Sets or retrieves the RecipientOfficePhone property of a FaxDoc object. The RecipientOfficePhone property is a null-terminated string that contains the office telephone number of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientofficephone_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3945.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], RecipientOfficePhone property, IFaxDoc, IFaxDoc::get_RecipientOfficePhone, RecipientOfficePhone property [Fax Service], RecipientOfficePhone property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientofficephone, fax._mfax_ifaxdoc_get_recipientofficephone, fax._mfax_ifaxdoc_get_recipientofficephone_vb, get_RecipientOfficePhone,IFaxDoc.get_RecipientOfficePhone
+ms.keywords: FaxDoc object [Fax Service],RecipientOfficePhone property, FaxDoc.RecipientOfficePhone, IFaxDoc.get_RecipientOfficePhone, IFaxDoc::get_RecipientOfficePhone, RecipientOfficePhone property [Fax Service], RecipientOfficePhone property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientofficephone, fax._mfax_ifaxdoc_get_recipientofficephone, fax._mfax_ifaxdoc_get_recipientofficephone_vb, get_RecipientOfficePhone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::get_RecipientOfficePhone method
+# IFaxDoc::get_RecipientOfficePhone
 
 
 ## -description

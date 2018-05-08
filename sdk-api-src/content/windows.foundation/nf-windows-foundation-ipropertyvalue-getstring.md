@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetString
-title: IPropertyValue::GetString method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the string value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getstring.htm
 old-project: WinRT
 ms.assetid: 56376A64-78F7-4C28-B3A7-9CE6594342E4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetString method [Windows Runtime], GetString method [Windows Runtime], IPropertyValue interface, GetString,IPropertyValue.GetString, IPropertyValue, IPropertyValue interface [Windows Runtime], GetString method, IPropertyValue::GetString, windows/IPropertyValue::GetString, winrt.ipropertyvalue_getstring
+ms.date: 5/4/2018
+ms.keywords: GetString, GetString method [Windows Runtime], GetString method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetString method, IPropertyValue.GetString, IPropertyValue.IPropertyValue, IPropertyValue::GetString, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetString, winrt.ipropertyvalue_getstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetString method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

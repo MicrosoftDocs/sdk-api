@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.put_CspInformations
-title: IX509CertificateRequest::put_CspInformations method
+title: IX509CertificateRequest::put_CspInformations
 author: windows-driver-content
 description: Specifies and retrieves a collection of cryptographic providers available for use by the request object.
 old-location: security\ix509certificaterequest_cspinformations_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 7be532ab-0ab0-4c22-b274-c925fd5827d5
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CspInformations property [Security], CspInformations property [Security], IX509CertificateRequest interface, IX509CertificateRequest, IX509CertificateRequest interface [Security], CspInformations property, IX509CertificateRequest.CspInformations, IX509CertificateRequest::get_CspInformations, IX509CertificateRequest::put_CspInformations, certenroll/IX509CertificateRequest::CspInformations, certenroll/IX509CertificateRequest::get_CspInformations, certenroll/IX509CertificateRequest::put_CspInformations, put_CspInformations,IX509CertificateRequest.put_CspInformations, security.ix509certificaterequest_cspinformations_property
+ms.keywords: CspInformations property [Security], CspInformations property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],CspInformations property, IX509CertificateRequest.CspInformations, IX509CertificateRequest.put_CspInformations, IX509CertificateRequest::CspInformations, IX509CertificateRequest::get_CspInformations, IX509CertificateRequest::put_CspInformations, certenroll/IX509CertificateRequest::CspInformations, certenroll/IX509CertificateRequest::get_CspInformations, certenroll/IX509CertificateRequest::put_CspInformations, put_CspInformations, security.ix509certificaterequest_cspinformations_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequest::put_CspInformations method
+# IX509CertificateRequest::put_CspInformations
 
 
 ## -description

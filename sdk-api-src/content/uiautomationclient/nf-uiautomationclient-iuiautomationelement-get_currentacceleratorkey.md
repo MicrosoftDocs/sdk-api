@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentAcceleratorKey
-title: IUIAutomationElement::get_CurrentAcceleratorKey method
+title: IUIAutomationElement::get_CurrentAcceleratorKey
 author: windows-driver-content
 description: Retrieves the accelerator key for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAcceleratorKey.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 393f63b4-e3f4-4b62-af92-1fb9bee079ba
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentAcceleratorKey property [Windows Accessibility], CurrentAcceleratorKey property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentAcceleratorKey property, IUIAutomationElement.CurrentAcceleratorKey, IUIAutomationElement::get_CurrentAcceleratorKey, get_CurrentAcceleratorKey,IUIAutomationElement.get_CurrentAcceleratorKey, uiauto.uiauto_IUIAutomationElement_CurrentAcceleratorKey, uiauto_IUIAutomationElement_CurrentAcceleratorKey, uiautomationclient/IUIAutomationElement::CurrentAcceleratorKey, uiautomationclient/IUIAutomationElement::get_CurrentAcceleratorKey, winauto.uiauto_IUIAutomationElement_CurrentAcceleratorKey
+ms.keywords: CurrentAcceleratorKey property [Windows Accessibility], CurrentAcceleratorKey property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAcceleratorKey property, IUIAutomationElement.CurrentAcceleratorKey, IUIAutomationElement.get_CurrentAcceleratorKey, IUIAutomationElement::CurrentAcceleratorKey, IUIAutomationElement::get_CurrentAcceleratorKey, get_CurrentAcceleratorKey, uiauto.uiauto_IUIAutomationElement_CurrentAcceleratorKey, uiauto_IUIAutomationElement_CurrentAcceleratorKey, uiautomationclient/IUIAutomationElement::CurrentAcceleratorKey, uiautomationclient/IUIAutomationElement::get_CurrentAcceleratorKey, winauto.uiauto_IUIAutomationElement_CurrentAcceleratorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CurrentAcceleratorKey method
+# IUIAutomationElement::get_CurrentAcceleratorKey
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetDocumentSequence
-title: IXpsOMPackage::SetDocumentSequence method
+title: IXpsOMPackage::SetDocumentSequence
 author: windows-driver-content
 description: Sets the IXpsOMDocumentSequence interface of the XPS package.
 old-location: xps\ixpsompackage_setdocumentsequence.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: cc159b7e-7cce-4f3b-ad0d-ce7b625b61d3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], SetDocumentSequence method, IXpsOMPackage::SetDocumentSequence, SetDocumentSequence method [XPS Documents and Packaging], SetDocumentSequence method [XPS Documents and Packaging], IXpsOMPackage interface, SetDocumentSequence,IXpsOMPackage.SetDocumentSequence, xps.ixpsompackage_setdocumentsequence, xpsobjectmodel/IXpsOMPackage::SetDocumentSequence
+ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetDocumentSequence method, IXpsOMPackage.SetDocumentSequence, IXpsOMPackage::SetDocumentSequence, SetDocumentSequence, SetDocumentSequence method [XPS Documents and Packaging], SetDocumentSequence method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setdocumentsequence, xpsobjectmodel/IXpsOMPackage::SetDocumentSequence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPackage::SetDocumentSequence method
+# IXpsOMPackage::SetDocumentSequence
 
 
 ## -description

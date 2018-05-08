@@ -7,7 +7,7 @@ old-location: shell\DoEnvironmentSubst.htm
 old-project: shell
 ms.assetid: cdf8bf2d-f446-4e0d-8664-bff2c45f74ec
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: DoEnvironmentSubst, DoEnvironmentSubst function [Windows Shell], DoEnvironmentSubstA, DoEnvironmentSubstW, _win32_DoEnvironmentSubst, shell.DoEnvironmentSubst, shellapi/DoEnvironmentSubst, shellapi/DoEnvironmentSubstA, shellapi/DoEnvironmentSubstW
 ms.prod: windows-hardware
 ms.technology: windows-devices

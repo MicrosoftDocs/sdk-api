@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetForceRerunAutoProxyDetection
-title: IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection method
+title: IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection
 author: windows-driver-content
 description: The SetForceRerunAutoProxyDetection method enables or disables forced rerun detection.
 old-location: wmformat\iwmreadernetworkconfig_setforcererunautoproxydetection.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3c84fc2a-5933-45da-a7a3-728a8837d851
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetForceRerunAutoProxyDetection method, IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection, IWMReaderNetworkConfigSetForceRerunAutoProxyDetection, SetForceRerunAutoProxyDetection method [windows Media Format], SetForceRerunAutoProxyDetection method [windows Media Format], IWMReaderNetworkConfig interface, SetForceRerunAutoProxyDetection,IWMReaderNetworkConfig.SetForceRerunAutoProxyDetection, wmformat.iwmreadernetworkconfig_setforcererunautoproxydetection, wmsdkidl/IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection
+ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetForceRerunAutoProxyDetection method, IWMReaderNetworkConfig.SetForceRerunAutoProxyDetection, IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection, IWMReaderNetworkConfigSetForceRerunAutoProxyDetection, SetForceRerunAutoProxyDetection, SetForceRerunAutoProxyDetection method [windows Media Format], SetForceRerunAutoProxyDetection method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setforcererunautoproxydetection, wmsdkidl/IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection method
+# IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection
 
 
 ## -description

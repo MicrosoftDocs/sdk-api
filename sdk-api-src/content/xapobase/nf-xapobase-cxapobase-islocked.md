@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOBase.IsLocked
-title: CXAPOBase::IsLocked method
+title: CXAPOBase::IsLocked
 author: windows-driver-content
 description: Queries whether the XAPO is locked.
 old-location: xaudio2\cxapobase_islocked.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.IsLocked
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CXAPOBase, CXAPOBase interface [XAudio2 Audio Mixing APIs], IsLocked method, CXAPOBase::IsLocked, IsLocked method [XAudio2 Audio Mixing APIs], IsLocked method [XAudio2 Audio Mixing APIs], CXAPOBase interface, IsLocked,CXAPOBase.IsLocked, xapobase/CXAPOBase::IsLocked, xaudio2.cxapobase_islocked
+ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],IsLocked method, CXAPOBase.IsLocked, CXAPOBase::IsLocked, IsLocked, IsLocked method [XAudio2 Audio Mixing APIs], IsLocked method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::IsLocked, xaudio2.cxapobase_islocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# CXAPOBase::IsLocked method
+# CXAPOBase::IsLocked
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFByteStream.GetLength
-title: IMFByteStream::GetLength method
+title: IMFByteStream::GetLength
 author: windows-driver-content
 description: Retrieves the length of the stream.
 old-location: mf\imfbytestream_getlength.htm
 old-project: medfound
 ms.assetid: 6fb817a6-5b43-4716-a997-bbd8a0b9305d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 6fb817a6-5b43-4716-a997-bbd8a0b9305d, GetLength method [Media Foundation], GetLength method [Media Foundation], IMFByteStream interface, GetLength,IMFByteStream.GetLength, IMFByteStream, IMFByteStream interface [Media Foundation], GetLength method, IMFByteStream::GetLength, mf.imfbytestream_getlength, mfobjects/IMFByteStream::GetLength
+ms.date: 5/3/2018
+ms.keywords: 6fb817a6-5b43-4716-a997-bbd8a0b9305d, GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],GetLength method, IMFByteStream.GetLength, IMFByteStream::GetLength, mf.imfbytestream_getlength, mfobjects/IMFByteStream::GetLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStream::GetLength method
+# IMFByteStream::GetLength
 
 
 ## -description

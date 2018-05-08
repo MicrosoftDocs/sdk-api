@@ -7,7 +7,7 @@ old-location: winrt\roregisteractivationfactories.htm
 old-project: WinRT
 ms.assetid: 8213f5de-3b1c-44c3-ad37-b2ebac8dbcd8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: RoRegisterActivationFactories, RoRegisterActivationFactories function [Windows Runtime], WinRTRegisterActivationFactories, roapi/RoRegisterActivationFactories, roapi/WinRTRegisterActivationFactories, winrt.roregisteractivationfactories, winrt.winrtregisteractivationfactories
 ms.prod: windows-hardware
 ms.technology: windows-devices

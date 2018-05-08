@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestResourcesEnumerator.MoveNext
-title: IAppxManifestResourcesEnumerator::MoveNext method
+title: IAppxManifestResourcesEnumerator::MoveNext
 author: windows-driver-content
 description: Advances the position of the enumerator to the next resource.
 old-location: appxpkg\iappxmanifestresourcesenumerator_movenext.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: CD5A7FF9-A28E-4857-AE7B-92F8EEBA0235
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxManifestResourcesEnumerator, IAppxManifestResourcesEnumerator interface [App packaging and management], MoveNext method, IAppxManifestResourcesEnumerator::MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management], IAppxManifestResourcesEnumerator interface, MoveNext,IAppxManifestResourcesEnumerator.MoveNext, appxpackaging/IAppxManifestResourcesEnumerator::MoveNext, appxpkg.iappxmanifestresourcesenumerator_movenext
+ms.keywords: IAppxManifestResourcesEnumerator interface [App packaging and management],MoveNext method, IAppxManifestResourcesEnumerator.MoveNext, IAppxManifestResourcesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestResourcesEnumerator interface, appxpackaging/IAppxManifestResourcesEnumerator::MoveNext, appxpkg.iappxmanifestresourcesenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestResourcesEnumerator::MoveNext method
+# IAppxManifestResourcesEnumerator::MoveNext
 
 
 ## -description

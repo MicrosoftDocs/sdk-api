@@ -7,7 +7,7 @@ old-location: dshow\dvd_titleattributes.htm
 old-project: DirectShow
 ms.assetid: e80baf09-93b7-4285-ac9a-af72cae137de
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: DVD_TitleAttributes, DVD_TitleAttributes structure [DirectShow], DVD_TitleAttributesStructure, dshow.dvd_titleattributes, strmif/DVD_TitleAttributes, tagDVD_TitleMainAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,6 +59,18 @@ req.product: Windows XP with SP1
 
 
 
+### -field AppMode
+
+
+            A variable of type <a href="https://msdn.microsoft.com/f0a12b00-89a5-4b70-9a78-519ae36d1bac">DVD_TITLE_APPMODE</a> indicating whether the Navigator is in karaoke mode.
+          
+
+
+### -field TitleLength
+
+A <a href="https://msdn.microsoft.com/8f2990f6-a8f5-4b16-ae30-d51ea55496ea">DVD_HMSF_TIMECODE</a> structure.
+
+
 ### -field VideoAttributes
 
 
@@ -98,18 +110,6 @@ The number of audio streams available in the title.
 
             An array of <a href="https://msdn.microsoft.com/55ddfa21-5600-4aa9-b554-7ff7f3c05b91">DVD_SubpictureAttributes</a> structures that contain information about each available subpicture stream in the title.
           
-
-
-#### - AppMode
-
-
-            A variable of type <a href="https://msdn.microsoft.com/f0a12b00-89a5-4b70-9a78-519ae36d1bac">DVD_TITLE_APPMODE</a> indicating whether the Navigator is in karaoke mode.
-          
-
-
-#### - TitleLength
-
-A <a href="https://msdn.microsoft.com/8f2990f6-a8f5-4b16-ae30-d51ea55496ea">DVD_HMSF_TIMECODE</a> structure.
 
 
 ## -remarks

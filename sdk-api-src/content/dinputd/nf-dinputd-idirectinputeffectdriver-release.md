@@ -1,14 +1,14 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.Release
-title: IDirectInputEffectDriver::Release method
+title: IDirectInputEffectDriver::Release
 author: windows-driver-content
 description: The IDirectInputEffectDriver::Release method decreases the reference count of the DirectInputEffectDriver object by 1. This method is part of the IUnknown interface inherited by DirectInputEffectDriver.
 old-location: hid\idirectinputeffectdriver_release.htm
 old-project: hid
 ms.assetid: 04f8c7ab-56d4-4173-be84-b24253a231ab
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IDirectInputEffectDriver, IDirectInputEffectDriver interface [Human Input Devices], Release method, IDirectInputEffectDriver::Release, Release method [Human Input Devices], Release method [Human Input Devices], IDirectInputEffectDriver interface, Release,IDirectInputEffectDriver.Release, di_ref_1363e951-bfbc-4918-9c35-3178d2670990.xml, dinputd/IDirectInputEffectDriver::Release, hid.idirectinputeffectdriver_release
+ms.date: 4/30/2018
+ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],Release method, IDirectInputEffectDriver.Release, IDirectInputEffectDriver::Release, Release, Release method [Human Input Devices], Release method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_1363e951-bfbc-4918-9c35-3178d2670990.xml, dinputd/IDirectInputEffectDriver::Release, hid.idirectinputeffectdriver_release
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectInputEffectDriver::Release method
+# IDirectInputEffectDriver::Release
 
 
 ## -description

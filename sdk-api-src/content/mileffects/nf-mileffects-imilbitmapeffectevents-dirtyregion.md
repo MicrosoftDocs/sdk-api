@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectEvents.DirtyRegion
-title: IMILBitmapEffectEvents::DirtyRegion method
+title: IMILBitmapEffectEvents::DirtyRegion
 author: windows-driver-content
 description: Invalidates the specified region of the given IMILBitmapEffectPrimitive.
 old-location: wibe\_wibe_imilbitmapeffectevents_dirtyregion.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectevents\dirtyregion.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: DirtyRegion method [WPF Bitmap Effects], DirtyRegion method [WPF Bitmap Effects], IMILBitmapEffectEvents interface, DirtyRegion,IMILBitmapEffectEvents.DirtyRegion, IMILBitmapEffectEvents, IMILBitmapEffectEvents interface [WPF Bitmap Effects], DirtyRegion method, IMILBitmapEffectEvents::DirtyRegion, _wibe_imilbitmapeffectevents_dirtyregion, mileffects/IMILBitmapEffectEvents::DirtyRegion, wibe._wibe_imilbitmapeffectevents_dirtyregion
+ms.keywords: DirtyRegion, DirtyRegion method [WPF Bitmap Effects], DirtyRegion method [WPF Bitmap Effects],IMILBitmapEffectEvents interface, IMILBitmapEffectEvents interface [WPF Bitmap Effects],DirtyRegion method, IMILBitmapEffectEvents.DirtyRegion, IMILBitmapEffectEvents::DirtyRegion, _wibe_imilbitmapeffectevents_dirtyregion, mileffects/IMILBitmapEffectEvents::DirtyRegion, wibe._wibe_imilbitmapeffectevents_dirtyregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectEvents::DirtyRegion method
+# IMILBitmapEffectEvents::DirtyRegion
 
 
 ## -description

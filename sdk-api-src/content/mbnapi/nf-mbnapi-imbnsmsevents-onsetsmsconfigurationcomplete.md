@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSetSmsConfigurationComplete
-title: IMbnSmsEvents::OnSetSmsConfigurationComplete method
+title: IMbnSmsEvents::OnSetSmsConfigurationComplete
 author: windows-driver-content
 description: Notification method signaling that a set SMS configuration operation has completed, or that the SMS subsystem is initialized and ready for operation.
 old-location: mbn\imbnsmsevents_onsetsmsconfigurationcomplete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: d5e5b1fc-88c3-4438-a160-f9969ed6d91a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnSmsEvents, IMbnSmsEvents interface [Microsoft Broadband Networks], OnSetSmsConfigurationComplete method, IMbnSmsEvents::OnSetSmsConfigurationComplete, OnSetSmsConfigurationComplete method [Microsoft Broadband Networks], OnSetSmsConfigurationComplete method [Microsoft Broadband Networks], IMbnSmsEvents interface, OnSetSmsConfigurationComplete,IMbnSmsEvents.OnSetSmsConfigurationComplete, S_OK, mbn.imbnsmsevents_onsetsmsconfigurationcomplete, mbnapi/IMbnSmsEvents::OnSetSmsConfigurationComplete
+ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnSmsEvents interface [Microsoft Broadband Networks],OnSetSmsConfigurationComplete method, IMbnSmsEvents.OnSetSmsConfigurationComplete, IMbnSmsEvents::OnSetSmsConfigurationComplete, OnSetSmsConfigurationComplete, OnSetSmsConfigurationComplete method [Microsoft Broadband Networks], OnSetSmsConfigurationComplete method [Microsoft Broadband Networks],IMbnSmsEvents interface, S_OK, mbn.imbnsmsevents_onsetsmsconfigurationcomplete, mbnapi/IMbnSmsEvents::OnSetSmsConfigurationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSmsEvents::OnSetSmsConfigurationComplete method
+# IMbnSmsEvents::OnSetSmsConfigurationComplete
 
 
 ## -description

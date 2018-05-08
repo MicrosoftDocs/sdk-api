@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertySystem.RegisterPropertySchema
-title: IPropertySystem::RegisterPropertySchema method
+title: IPropertySystem::RegisterPropertySchema
 author: windows-driver-content
 description: Informs the schema subsystem of the addition of a property description schema file.
 old-location: properties\IPropertySystem_RegisterPropertySchema.htm
 old-project: properties
 ms.assetid: 752cc873-3fa8-4e05-97e7-41e90f059e4f
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: IPropertySystem, IPropertySystem interface [Windows Properties], RegisterPropertySchema method, IPropertySystem::RegisterPropertySchema, RegisterPropertySchema method [Windows Properties], RegisterPropertySchema method [Windows Properties], IPropertySystem interface, RegisterPropertySchema,IPropertySystem.RegisterPropertySchema, properties.IPropertySystem_RegisterPropertySchema, propsys/IPropertySystem::RegisterPropertySchema, shell.IPropertySystem_RegisterPropertySchema, shell_IPropertySystem_RegisterPropertySchema
+ms.date: 4/27/2018
+ms.keywords: IPropertySystem interface [Windows Properties],RegisterPropertySchema method, IPropertySystem.RegisterPropertySchema, IPropertySystem::RegisterPropertySchema, RegisterPropertySchema, RegisterPropertySchema method [Windows Properties], RegisterPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_RegisterPropertySchema, propsys/IPropertySystem::RegisterPropertySchema, shell.IPropertySystem_RegisterPropertySchema, shell_IPropertySystem_RegisterPropertySchema
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertySystem::RegisterPropertySchema method
+# IPropertySystem::RegisterPropertySchema
 
 
 ## -description

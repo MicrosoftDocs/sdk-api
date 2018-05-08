@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsControllerPort.Reset
-title: IVdsControllerPort::Reset method
+title: IVdsControllerPort::Reset
 author: windows-driver-content
 description: Reinitializes the controller port.
 old-location: base\ivdscontrollerport_reset.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: e298ef9d-8abb-450b-97d3-e97d64f0e734
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], Reset method, IVdsControllerPort::Reset, Reset method [VDS], Reset method [VDS], IVdsControllerPort interface, Reset,IVdsControllerPort.Reset, base.ivdscontrollerport_reset, vds/IVdsControllerPort::Reset
+ms.keywords: IVdsControllerPort interface [VDS],Reset method, IVdsControllerPort.Reset, IVdsControllerPort::Reset, Reset, Reset method [VDS], Reset method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_reset, vds/IVdsControllerPort::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsControllerPort::Reset method
+# IVdsControllerPort::Reset
 
 
 ## -description

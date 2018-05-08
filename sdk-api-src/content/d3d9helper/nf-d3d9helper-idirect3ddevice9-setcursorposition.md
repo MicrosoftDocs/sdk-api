@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetCursorPosition
-title: IDirect3DDevice9::SetCursorPosition method
+title: IDirect3DDevice9::SetCursorPosition
 author: windows-driver-content
 description: Sets the cursor position and update options.
 old-location: direct3d9\idirect3ddevice9__setcursorposition.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setcursorposition.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 40c9d24c-baf1-aaaf-5f7b-a462b05b36b5, D3DCURSOR_IMMEDIATE_UPDATE, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetCursorPosition method, IDirect3DDevice9::SetCursorPosition, SetCursorPosition method [Direct3D 9], SetCursorPosition method [Direct3D 9], IDirect3DDevice9 interface, SetCursorPosition,IDirect3DDevice9.SetCursorPosition, d3d9helper/IDirect3DDevice9::SetCursorPosition, direct3d9.idirect3ddevice9__setcursorposition
+ms.keywords: 40c9d24c-baf1-aaaf-5f7b-a462b05b36b5, D3DCURSOR_IMMEDIATE_UPDATE, IDirect3DDevice9 interface [Direct3D 9],SetCursorPosition method, IDirect3DDevice9.SetCursorPosition, IDirect3DDevice9::SetCursorPosition, SetCursorPosition, SetCursorPosition method [Direct3D 9], SetCursorPosition method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetCursorPosition, direct3d9.idirect3ddevice9__setcursorposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::SetCursorPosition method
+# IDirect3DDevice9::SetCursorPosition
 
 
 ## -description

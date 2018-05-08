@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCdromRip.get_ripState
-title: IWMPCdromRip::get_ripState method
+title: IWMPCdromRip::get_ripState
 author: windows-driver-content
 description: The get_ripState method retrieves an enumeration value that indicates the current state of the ripping process.
 old-location: wmp\iwmpcdromrip_get_ripstate.htm
 old-project: WMP
 ms.assetid: 81c7ba1d-81d7-4f64-9f7d-c88d6959bee0
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], get_ripState method, IWMPCdromRip::get_ripState, IWMPCdromRipget_ripState, get_ripState method [Windows Media Player], get_ripState method [Windows Media Player], IWMPCdromRip interface, get_ripState,IWMPCdromRip.get_ripState, wmp.iwmpcdromrip_get_ripstate, wmp/IWMPCdromRip::get_ripState
+ms.date: 5/4/2018
+ms.keywords: IWMPCdromRip interface [Windows Media Player],get_ripState method, IWMPCdromRip.get_ripState, IWMPCdromRip::get_ripState, IWMPCdromRipget_ripState, get_ripState, get_ripState method [Windows Media Player], get_ripState method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_get_ripstate, wmp/IWMPCdromRip::get_ripState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCdromRip::get_ripState method
+# IWMPCdromRip::get_ripState
 
 
 ## -description

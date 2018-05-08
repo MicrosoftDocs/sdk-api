@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: a5d7b9ff-eb6f-40be-b246-17189cad92be
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISettingsNamespace, ISettingsNamespace interface [SMI], ISettingsNamespace interface [SMI], described, smi.isettingsnamespace, wcmconfig/ISettingsNamespace
+ms.keywords: ISettingsNamespace, ISettingsNamespace interface [SMI], ISettingsNamespace interface [SMI],described, smi.isettingsnamespace, wcmconfig/ISettingsNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

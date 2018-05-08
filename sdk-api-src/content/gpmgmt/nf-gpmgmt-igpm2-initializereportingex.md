@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM2.InitializeReportingEx
-title: IGPM2::InitializeReportingEx method
+title: IGPM2::InitializeReportingEx
 author: windows-driver-content
 description: Sets the location to search for .adm files and the reporting option to determine whether to include comments in the report. This method initializes reporting in an asynchronous manner.
 old-location: gpmc\igpm2_initializereportingex.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 3de74745-d9b3-47a7-8ba7-08b4e57d2ab7
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IGPM2, IGPM2 interface [GPMC], InitializeReportingEx method, IGPM2::InitializeReportingEx, InitializeReportingEx method [GPMC], InitializeReportingEx method [GPMC], IGPM2 interface, InitializeReportingEx,IGPM2.InitializeReportingEx, gpmc.igpm2_initializereportingex, gpmgmt/IGPM2::InitializeReportingEx
+ms.keywords: IGPM2 interface [GPMC],InitializeReportingEx method, IGPM2.InitializeReportingEx, IGPM2::InitializeReportingEx, InitializeReportingEx, InitializeReportingEx method [GPMC], InitializeReportingEx method [GPMC],IGPM2 interface, gpmc.igpm2_initializereportingex, gpmgmt/IGPM2::InitializeReportingEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPM2::InitializeReportingEx method
+# IGPM2::InitializeReportingEx
 
 
 ## -description

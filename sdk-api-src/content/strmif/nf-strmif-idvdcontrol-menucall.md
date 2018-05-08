@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.MenuCall
-title: IDvdControl::MenuCall method
+title: IDvdControl::MenuCall
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Displays the specified menu on the screen.
 old-location: dshow\idvdcontrol_menucall.htm
 old-project: DirectShow
 ms.assetid: b0e27b7a-cf14-4b4c-849e-0fa7f6b1c0ed
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl, IDvdControl interface [DirectShow], MenuCall method, IDvdControl::MenuCall, IDvdControlMenuCall, MenuCall method [DirectShow], MenuCall method [DirectShow], IDvdControl interface, MenuCall,IDvdControl.MenuCall, dshow.idvdcontrol_menucall, strmif/IDvdControl::MenuCall
+ms.date: 4/30/2018
+ms.keywords: IDvdControl interface [DirectShow],MenuCall method, IDvdControl.MenuCall, IDvdControl::MenuCall, IDvdControlMenuCall, MenuCall, MenuCall method [DirectShow], MenuCall method [DirectShow],IDvdControl interface, dshow.idvdcontrol_menucall, strmif/IDvdControl::MenuCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::MenuCall method
+# IDvdControl::MenuCall
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Object.GetPrivateData
-title: ID3D12Object::GetPrivateData method
+title: ID3D12Object::GetPrivateData
 author: windows-driver-content
 description: Gets application-defined data from a device object.
 old-location: direct3d12\id3d12object_getprivatedata.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: B2F1FFBE-1680-40D7-8B99-07FCA3F3EA0B
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetPrivateData method, GetPrivateData method, ID3D12Object interface, GetPrivateData,ID3D12Object.GetPrivateData, ID3D12Object, ID3D12Object interface, GetPrivateData method, ID3D12Object::GetPrivateData, d3d12/ID3D12Object::GetPrivateData, direct3d12.id3d12object_getprivatedata
+ms.keywords: GetPrivateData, GetPrivateData method, GetPrivateData method,ID3D12Object interface, ID3D12Object interface,GetPrivateData method, ID3D12Object.GetPrivateData, ID3D12Object::GetPrivateData, d3d12/ID3D12Object::GetPrivateData, direct3d12.id3d12object_getprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Object::GetPrivateData method
+# ID3D12Object::GetPrivateData
 
 
 ## -description

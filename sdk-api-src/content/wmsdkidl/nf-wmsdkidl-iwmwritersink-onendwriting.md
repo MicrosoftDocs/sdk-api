@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.OnEndWriting
-title: IWMWriterSink::OnEndWriting method
+title: IWMWriterSink::OnEndWriting
 author: windows-driver-content
 description: The OnEndWriting method is called by the writer when writing is complete. This method should conclude operations for your sink. For example, the writer file sink closes and indexes the file.
 old-location: wmformat\iwmwritersink_onendwriting.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e5f653cc-e756-4f33-a6ce-3158e83129c8
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterSink, IWMWriterSink interface [windows Media Format], OnEndWriting method, IWMWriterSink::OnEndWriting, IWMWriterSinkOnEndWriting, OnEndWriting method [windows Media Format], OnEndWriting method [windows Media Format], IWMWriterSink interface, OnEndWriting,IWMWriterSink.OnEndWriting, wmformat.iwmwritersink_onendwriting, wmsdkidl/IWMWriterSink::OnEndWriting
+ms.keywords: IWMWriterSink interface [windows Media Format],OnEndWriting method, IWMWriterSink.OnEndWriting, IWMWriterSink::OnEndWriting, IWMWriterSinkOnEndWriting, OnEndWriting, OnEndWriting method [windows Media Format], OnEndWriting method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_onendwriting, wmsdkidl/IWMWriterSink::OnEndWriting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterSink::OnEndWriting method
+# IWMWriterSink::OnEndWriting
 
 
 ## -description

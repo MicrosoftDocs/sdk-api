@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 6d8115e3-2a47-4bc3-9a69-24e26f555f41
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsDrive2, IVdsDrive2 interface, IVdsDrive2 interface, described, base.ivdsdrive2, vds/IVdsDrive2, vdshwprv/IVdsDrive2
+ms.keywords: IVdsDrive2, IVdsDrive2 interface, IVdsDrive2 interface,described, base.ivdsdrive2, vds/IVdsDrive2, vdshwprv/IVdsDrive2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

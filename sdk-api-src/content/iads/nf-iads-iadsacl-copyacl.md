@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsAcl.CopyAcl
-title: IADsAcl::CopyAcl method
+title: IADsAcl::CopyAcl
 author: windows-driver-content
 description: The IADsAcl::CopyAcl method makes a copy of the existing ACL.
 old-location: adsi\iadsacl_copyacl.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 9ed78d7d-3448-4a49-920f-97221584541c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CopyAcl method [ADSI], CopyAcl method [ADSI], IADsAcl interface, CopyAcl,IADsAcl.CopyAcl, IADsAcl, IADsAcl interface [ADSI], CopyAcl method, IADsAcl::CopyAcl, _ds_iadsacl_copyacl, adsi.iadsacl__copyacl, adsi.iadsacl_copyacl, iads/IADsAcl::CopyAcl
+ms.keywords: CopyAcl, CopyAcl method [ADSI], CopyAcl method [ADSI],IADsAcl interface, IADsAcl interface [ADSI],CopyAcl method, IADsAcl.CopyAcl, IADsAcl::CopyAcl, _ds_iadsacl_copyacl, adsi.iadsacl__copyacl, adsi.iadsacl_copyacl, iads/IADsAcl::CopyAcl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsAcl::CopyAcl method
+# IADsAcl::CopyAcl
 
 
 ## -description

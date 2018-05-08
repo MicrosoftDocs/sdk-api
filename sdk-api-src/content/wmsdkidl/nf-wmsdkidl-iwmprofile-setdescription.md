@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.SetDescription
-title: IWMProfile::SetDescription method
+title: IWMProfile::SetDescription
 author: windows-driver-content
 description: The SetDescription method specifies the description of a profile. The description is a string that contains an explanation of what the profile should be used for.
 old-location: wmformat\iwmprofile_setdescription.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 79ff6ba8-b94b-4c06-a7a5-18b6a8ebc222
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMProfile, IWMProfile interface [windows Media Format], SetDescription method, IWMProfile2 interface [windows Media Format], SetDescription method, IWMProfile2::SetDescription, IWMProfile3 interface [windows Media Format], SetDescription method, IWMProfile3::SetDescription, IWMProfile::SetDescription, IWMProfileSetDescription, SetDescription method [windows Media Format], SetDescription method [windows Media Format], IWMProfile interface, SetDescription method [windows Media Format], IWMProfile2 interface, SetDescription method [windows Media Format], IWMProfile3 interface, SetDescription,IWMProfile.SetDescription, wmformat.iwmprofile_setdescription, wmsdkidl/IWMProfile2::SetDescription, wmsdkidl/IWMProfile3::SetDescription, wmsdkidl/IWMProfile::SetDescription
+ms.keywords: IWMProfile interface [windows Media Format],SetDescription method, IWMProfile.SetDescription, IWMProfile2 interface [windows Media Format],SetDescription method, IWMProfile2::SetDescription, IWMProfile3 interface [windows Media Format],SetDescription method, IWMProfile3::SetDescription, IWMProfile::SetDescription, IWMProfileSetDescription, SetDescription, SetDescription method [windows Media Format], SetDescription method [windows Media Format],IWMProfile interface, SetDescription method [windows Media Format],IWMProfile2 interface, SetDescription method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_setdescription, wmsdkidl/IWMProfile2::SetDescription, wmsdkidl/IWMProfile3::SetDescription, wmsdkidl/IWMProfile::SetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfile::SetDescription method
+# IWMProfile::SetDescription
 
 
 ## -description

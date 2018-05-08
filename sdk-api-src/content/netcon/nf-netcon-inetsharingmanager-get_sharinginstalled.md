@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingManager.get_SharingInstalled
-title: INetSharingManager::get_SharingInstalled method
+title: INetSharingManager::get_SharingInstalled
 author: windows-driver-content
 description: Reports whether the currently-installed version of Windows XP supports connection sharing.
 old-location: ics\inetsharingmanager_get_sharinginstalled.htm
 old-project: ICS
 ms.assetid: 7cf705dd-41c3-4ac7-a75f-5677a7b49645
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingManager, INetSharingManager interface [ICS/ICF], get_SharingInstalled method, INetSharingManager::get_SharingInstalled, _ics_inetsharingmanager_get_sharinginstalled, get_SharingInstalled method [ICS/ICF], get_SharingInstalled method [ICS/ICF], INetSharingManager interface, get_SharingInstalled,INetSharingManager.get_SharingInstalled, ics.inetsharingmanager_get_sharinginstalled, netcon/INetSharingManager::get_SharingInstalled
+ms.date: 5/1/2018
+ms.keywords: INetSharingManager interface [ICS/ICF],get_SharingInstalled method, INetSharingManager.get_SharingInstalled, INetSharingManager::get_SharingInstalled, _ics_inetsharingmanager_get_sharinginstalled, get_SharingInstalled, get_SharingInstalled method [ICS/ICF], get_SharingInstalled method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_sharinginstalled, netcon/INetSharingManager::get_SharingInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingManager::get_SharingInstalled method
+# INetSharingManager::get_SharingInstalled
 
 
 ## -description

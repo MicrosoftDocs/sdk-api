@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.GetSizeParams
-title: IWMDMLogger::GetSizeParams method
+title: IWMDMLogger::GetSizeParams
 author: windows-driver-content
 description: The GetSizeParams method retrieves the current size parameters of the current log file.
 old-location: wmdm\iwmdmlogger_getsizeparams.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: c8775cea-3764-44cf-a977-c4c529e2133e
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetSizeParams method [windows Media Device Manager], GetSizeParams method [windows Media Device Manager], IWMDMLogger interface, GetSizeParams,IWMDMLogger.GetSizeParams, IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], GetSizeParams method, IWMDMLogger::GetSizeParams, IWMDMLoggerGetSizeParams, wmdm.iwmdmlogger_getsizeparams, wmdmlog/IWMDMLogger::GetSizeParams
+ms.keywords: GetSizeParams, GetSizeParams method [windows Media Device Manager], GetSizeParams method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],GetSizeParams method, IWMDMLogger.GetSizeParams, IWMDMLogger::GetSizeParams, IWMDMLoggerGetSizeParams, wmdm.iwmdmlogger_getsizeparams, wmdmlog/IWMDMLogger::GetSizeParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDMLogger::GetSizeParams method
+# IWMDMLogger::GetSizeParams
 
 
 ## -description

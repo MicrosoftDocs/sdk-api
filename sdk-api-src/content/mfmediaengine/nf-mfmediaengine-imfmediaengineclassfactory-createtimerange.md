@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactory.CreateTimeRange
-title: IMFMediaEngineClassFactory::CreateTimeRange method
+title: IMFMediaEngineClassFactory::CreateTimeRange
 author: windows-driver-content
 description: Creates a time range object.
 old-location: mf\imfmediaengineclassfactory_createtimerange.htm
 old-project: medfound
 ms.assetid: 293769E8-8C8A-40D1-AF51-1DBB773F88D5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateTimeRange method [Media Foundation], CreateTimeRange method [Media Foundation], IMFMediaEngineClassFactory interface, CreateTimeRange,IMFMediaEngineClassFactory.CreateTimeRange, IMFMediaEngineClassFactory, IMFMediaEngineClassFactory interface [Media Foundation], CreateTimeRange method, IMFMediaEngineClassFactory::CreateTimeRange, mf.imfmediaengineclassfactory_createtimerange, mfmediaengine/IMFMediaEngineClassFactory::CreateTimeRange
+ms.date: 5/3/2018
+ms.keywords: CreateTimeRange, CreateTimeRange method [Media Foundation], CreateTimeRange method [Media Foundation],IMFMediaEngineClassFactory interface, IMFMediaEngineClassFactory interface [Media Foundation],CreateTimeRange method, IMFMediaEngineClassFactory.CreateTimeRange, IMFMediaEngineClassFactory::CreateTimeRange, mf.imfmediaengineclassfactory_createtimerange, mfmediaengine/IMFMediaEngineClassFactory::CreateTimeRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineClassFactory::CreateTimeRange method
+# IMFMediaEngineClassFactory::CreateTimeRange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnBufferStart
-title: IXAudio2VoiceCallback::OnBufferStart method
+title: IXAudio2VoiceCallback::OnBufferStart
 author: windows-driver-content
 description: Called when the voice is about to start processing a new audio buffer.
 old-location: xaudio2\ixaudio2voicecallback_interface_onbufferstart.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnBufferStart(void)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], OnBufferStart method, IXAudio2VoiceCallback::OnBufferStart, OnBufferStart method [XAudio2 Audio Mixing APIs], OnBufferStart method [XAudio2 Audio Mixing APIs], IXAudio2VoiceCallback interface, OnBufferStart,IXAudio2VoiceCallback.OnBufferStart, xaudio2.ixaudio2voicecallback_interface_onbufferstart, xaudio2/IXAudio2VoiceCallback::OnBufferStart
+ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnBufferStart method, IXAudio2VoiceCallback.OnBufferStart, IXAudio2VoiceCallback::OnBufferStart, OnBufferStart, OnBufferStart method [XAudio2 Audio Mixing APIs], OnBufferStart method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onbufferstart, xaudio2/IXAudio2VoiceCallback::OnBufferStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2VoiceCallback::OnBufferStart method
+# IXAudio2VoiceCallback::OnBufferStart
 
 
 ## -description

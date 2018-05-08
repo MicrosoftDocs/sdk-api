@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 1322652f-ed9f-435f-b4ed-fa9ea425c5ae
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_ASYNC_CALLBACK, WS_ASYNC_CALLBACK callback function [Web Services for Windows], webservices/WS_ASYNC_CALLBACK, wsw.ws_async_callback
+ms.keywords: WS_ASYNC_CALLBACK, WS_ASYNC_CALLBACK callback, WS_ASYNC_CALLBACK callback function [Web Services for Windows], webservices/WS_ASYNC_CALLBACK, wsw.ws_async_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_ASYNC_CALLBACK callback
+# WS_ASYNC_CALLBACK callback function
 
 
 ## -description

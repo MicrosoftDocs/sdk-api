@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Delete
-title: IWSManSession::Delete method
+title: IWSManSession::Delete
 author: windows-driver-content
 description: Deletes the resource specified in the resource URI.
 old-location: winrm\iwsmansession_delete.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 63674a3a-4819-4695-a8f5-648787d78cc4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Delete method [Windows Remote Management], Delete method [Windows Remote Management], IWSManSession interface, Delete,IWSManSession.Delete, IWSManSession, IWSManSession interface [Windows Remote Management], Delete method, IWSManSession::Delete, winrm.iwsmansession_delete, wsmandisp/IWSManSession::Delete
+ms.keywords: Delete, Delete method [Windows Remote Management], Delete method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Delete method, IWSManSession.Delete, IWSManSession::Delete, winrm.iwsmansession_delete, wsmandisp/IWSManSession::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManSession::Delete method
+# IWSManSession::Delete
 
 
 ## -description

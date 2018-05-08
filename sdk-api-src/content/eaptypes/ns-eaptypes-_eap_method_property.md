@@ -68,6 +68,16 @@ An <a href="https://msdn.microsoft.com/49a62be4-5a8c-4e44-bdd1-aba37e3e7029">EAP
 An <a href="https://msdn.microsoft.com/17ef654a-d4a0-45ba-a49d-45add8e78b28">EAP_METHOD_PROPERTY_VALUE_TYPE</a> enumeration value that describes the data type of the value specified in <b>eapMethodPropertyValue</b>.
 
 
+### -field eapMethodPropertyValue.switch_is
+
+ 
+
+
+### -field eapMethodPropertyValue.switch_is.eapMethodPropertyValueType
+
+ 
+
+
 ### -field eapMethodPropertyValue
 
 An <a href="https://msdn.microsoft.com/298b59d3-245f-4a29-b8a1-2265d65d30e6">EAP_METHOD_PROPERTY_VALUE</a> union that contains the method property value.

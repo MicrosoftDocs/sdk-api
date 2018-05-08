@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTunerEx.SetScanSignalTypeFilter
-title: IScanningTunerEx::SetScanSignalTypeFilter method
+title: IScanningTunerEx::SetScanSignalTypeFilter
 author: windows-driver-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_setscansignaltypefilter.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 223a904a-1f15-4010-b25f-8551c1e9fc25
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IScanningTunerEx, IScanningTunerEx interface [Microsoft TV Technologies], SetScanSignalTypeFilter method, IScanningTunerEx::SetScanSignalTypeFilter, IScanningTunerExSetScanSignalTypeFilter, SetScanSignalTypeFilter method [Microsoft TV Technologies], SetScanSignalTypeFilter method [Microsoft TV Technologies], IScanningTunerEx interface, SetScanSignalTypeFilter,IScanningTunerEx.SetScanSignalTypeFilter, mstv.iscanningtunerex_setscansignaltypefilter, tuner/IScanningTunerEx::SetScanSignalTypeFilter
+ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],SetScanSignalTypeFilter method, IScanningTunerEx.SetScanSignalTypeFilter, IScanningTunerEx::SetScanSignalTypeFilter, IScanningTunerExSetScanSignalTypeFilter, SetScanSignalTypeFilter, SetScanSignalTypeFilter method [Microsoft TV Technologies], SetScanSignalTypeFilter method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_setscansignaltypefilter, tuner/IScanningTunerEx::SetScanSignalTypeFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IScanningTunerEx::SetScanSignalTypeFilter method
+# IScanningTunerEx::SetScanSignalTypeFilter
 
 
 ## -description

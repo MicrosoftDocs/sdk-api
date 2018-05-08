@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICStreamProvider.GetStream
-title: IWICStreamProvider::GetStream method
+title: IWICStreamProvider::GetStream
 author: windows-driver-content
 description: Gets the stream held by the component.
 old-location: wic\_wic_codec_iwicstreamprovider_getstream.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: c86e507b-0b1d-4de0-8af5-c46d7870fb09
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetStream method [Windows Imaging Component], GetStream method [Windows Imaging Component], IWICStreamProvider interface, GetStream,IWICStreamProvider.GetStream, IWICStreamProvider, IWICStreamProvider interface [Windows Imaging Component], GetStream method, IWICStreamProvider::GetStream, _wic_codec_iwicstreamprovider_getstream, wic._wic_codec_iwicstreamprovider_getstream, wincodecsdk/IWICStreamProvider::GetStream
+ms.keywords: GetStream, GetStream method [Windows Imaging Component], GetStream method [Windows Imaging Component],IWICStreamProvider interface, IWICStreamProvider interface [Windows Imaging Component],GetStream method, IWICStreamProvider.GetStream, IWICStreamProvider::GetStream, _wic_codec_iwicstreamprovider_getstream, wic._wic_codec_iwicstreamprovider_getstream, wincodecsdk/IWICStreamProvider::GetStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICStreamProvider::GetStream method
+# IWICStreamProvider::GetStream
 
 
 ## -description

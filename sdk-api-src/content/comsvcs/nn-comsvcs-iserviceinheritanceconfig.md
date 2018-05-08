@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 8bb95aef-7470-43cc-941d-2105cdf48f37
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IServiceInheritanceConfig, IServiceInheritanceConfig interface [COM+], IServiceInheritanceConfig interface [COM+], described, _cos_IServiceInheritanceConfig, comsvcs/IServiceInheritanceConfig, cos.iserviceinheritanceconfig
+ms.keywords: IServiceInheritanceConfig, IServiceInheritanceConfig interface [COM+], IServiceInheritanceConfig interface [COM+],described, _cos_IServiceInheritanceConfig, comsvcs/IServiceInheritanceConfig, cos.iserviceinheritanceconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

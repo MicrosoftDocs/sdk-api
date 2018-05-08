@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: CA616076-CD04-4753-9605-093C9529C826
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomation4, IUIAutomation4 interface [Windows Accessibility], IUIAutomation4 interface [Windows Accessibility], described, uiautomationclient/IUIAutomation4, winauto.uiauto_IUIAutomation4
+ms.keywords: IUIAutomation4, IUIAutomation4 interface [Windows Accessibility], IUIAutomation4 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation4, winauto.uiauto_IUIAutomation4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

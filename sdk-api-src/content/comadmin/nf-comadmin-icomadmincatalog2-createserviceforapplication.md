@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.CreateServiceForApplication
-title: ICOMAdminCatalog2::CreateServiceForApplication method
+title: ICOMAdminCatalog2::CreateServiceForApplication
 author: windows-driver-content
 description: Configures a COM+ application to run as a Windows service.
 old-location: cos\icomadmincatalog2_createserviceforapplication.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 9ffc7366-c47a-487e-b40c-bdcea5dbf052
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateServiceForApplication method [COM+], CreateServiceForApplication method [COM+], ICOMAdminCatalog2 interface, CreateServiceForApplication,ICOMAdminCatalog2.CreateServiceForApplication, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], CreateServiceForApplication method, ICOMAdminCatalog2::CreateServiceForApplication, _cos_icomadmincatalog2_CreateServiceForApplication, comadmin/ICOMAdminCatalog2::CreateServiceForApplication, cos.icomadmincatalog2_createserviceforapplication
+ms.keywords: CreateServiceForApplication, CreateServiceForApplication method [COM+], CreateServiceForApplication method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CreateServiceForApplication method, ICOMAdminCatalog2.CreateServiceForApplication, ICOMAdminCatalog2::CreateServiceForApplication, _cos_icomadmincatalog2_CreateServiceForApplication, comadmin/ICOMAdminCatalog2::CreateServiceForApplication, cos.icomadmincatalog2_createserviceforapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::CreateServiceForApplication method
+# ICOMAdminCatalog2::CreateServiceForApplication
 
 
 ## -description

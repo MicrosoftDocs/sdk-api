@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnRowsetEvent
-title: IRowsetEvents::OnRowsetEvent method
+title: IRowsetEvents::OnRowsetEvent
 author: windows-driver-content
 description: Called by the indexer to notify clients of an event related to the client rowset.
 old-location: search\_search_IRowsetEvents_OnRowsetEvent.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onrowsetevent.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IRowsetEvents, IRowsetEvents interface [search], OnRowsetEvent method, IRowsetEvents::OnRowsetEvent, OnRowsetEvent method [search], OnRowsetEvent method [search], IRowsetEvents interface, OnRowsetEvent,IRowsetEvents.OnRowsetEvent, _search_IRowsetEvents_OnRowsetEvent, search._search_IRowsetEvents_OnRowsetEvent, searchapi/IRowsetEvents::OnRowsetEvent
+ms.date: 5/4/2018
+ms.keywords: IRowsetEvents interface [search],OnRowsetEvent method, IRowsetEvents.OnRowsetEvent, IRowsetEvents::OnRowsetEvent, OnRowsetEvent, OnRowsetEvent method [search], OnRowsetEvent method [search],IRowsetEvents interface, _search_IRowsetEvents_OnRowsetEvent, search._search_IRowsetEvents_OnRowsetEvent, searchapi/IRowsetEvents::OnRowsetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRowsetEvents::OnRowsetEvent method
+# IRowsetEvents::OnRowsetEvent
 
 
 ## -description

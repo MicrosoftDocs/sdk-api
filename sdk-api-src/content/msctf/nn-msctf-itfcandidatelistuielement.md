@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 1f39aa06-3c94-4959-b857-ca61498d5b5c
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], ITfCandidateListUIElement interface [Text Services Framework], described, _tsf_itfcandidatelistuielement_ref, msctf/ITfCandidateListUIElement, tsf.itfcandidatelistuielement
+ms.keywords: ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], ITfCandidateListUIElement interface [Text Services Framework],described, _tsf_itfcandidatelistuielement_ref, msctf/ITfCandidateListUIElement, tsf.itfcandidatelistuielement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: WinProg
 ms.assetid: 2275A6AC-E9F9-4469-884B-38D86B53E0DE
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: UnsignedMultiplyHigh, UnsignedMultiplyHigh function [Windows API], winnt/UnsignedMultiplyHigh, winprog.unsignedmulitplyhigh
+ms.keywords: UnsignedMulitplyHigh, UnsignedMultiplyHigh, UnsignedMultiplyHigh function [Windows API], winnt/UnsignedMultiplyHigh, winprog.unsignedmulitplyhigh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

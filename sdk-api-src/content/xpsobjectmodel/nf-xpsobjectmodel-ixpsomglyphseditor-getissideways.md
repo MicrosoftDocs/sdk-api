@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetIsSideways
-title: IXpsOMGlyphsEditor::GetIsSideways method
+title: IXpsOMGlyphsEditor::GetIsSideways
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether the text is to be rendered with the glyphs rotated sideways.
 old-location: xps\ixpsomglyphseditor_getissideways.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d115dbce-a81c-458f-8929-9e49e84a575d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FALSE, GetIsSideways method [XPS Documents and Packaging], GetIsSideways method [XPS Documents and Packaging], IXpsOMGlyphsEditor interface, GetIsSideways,IXpsOMGlyphsEditor.GetIsSideways, IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], GetIsSideways method, IXpsOMGlyphsEditor::GetIsSideways, TRUE, xps.ixpsomglyphseditor_getissideways, xpsobjectmodel/IXpsOMGlyphsEditor::GetIsSideways
+ms.keywords: FALSE, GetIsSideways, GetIsSideways method [XPS Documents and Packaging], GetIsSideways method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetIsSideways method, IXpsOMGlyphsEditor.GetIsSideways, IXpsOMGlyphsEditor::GetIsSideways, TRUE, xps.ixpsomglyphseditor_getissideways, xpsobjectmodel/IXpsOMGlyphsEditor::GetIsSideways
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphsEditor::GetIsSideways method
+# IXpsOMGlyphsEditor::GetIsSideways
 
 
 ## -description

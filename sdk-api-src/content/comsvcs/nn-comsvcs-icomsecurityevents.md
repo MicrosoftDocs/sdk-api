@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 83366f18-8dd4-4c3d-8362-4fbcc4c33b95
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComSecurityEvents, IComSecurityEvents interface [COM+], IComSecurityEvents interface [COM+], described, _dtc_IComSecurityEvents, comsvcs/IComSecurityEvents, cos.icomsecurityevents
+ms.keywords: IComSecurityEvents, IComSecurityEvents interface [COM+], IComSecurityEvents interface [COM+],described, _dtc_IComSecurityEvents, comsvcs/IComSecurityEvents, cos.icomsecurityevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

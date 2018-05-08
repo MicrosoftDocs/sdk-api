@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_CoverpageNote
-title: IFaxDoc::put_CoverpageNote method
+title: IFaxDoc::put_CoverpageNote
 author: windows-driver-content
 description: Sets or retrieves the CoverpageNote property of a FaxDoc object. The CoverpageNote property is a null-terminated string that contains the text of a message or note from the sender that pertains to the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_coverpagenote_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4t7p.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CoverpageNote property [Fax Service], CoverpageNote property [Fax Service], FaxDoc object, FaxDoc object [Fax Service], CoverpageNote property, IFaxDoc, IFaxDoc::put_CoverpageNote, _mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_get_coverpagenote_vb, put_CoverpageNote,IFaxDoc.put_CoverpageNote
+ms.keywords: CoverpageNote property [Fax Service], CoverpageNote property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],CoverpageNote property, FaxDoc.CoverpageNote, IFaxDoc.put_CoverpageNote, IFaxDoc::put_CoverpageNote, _mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_get_coverpagenote_vb, put_CoverpageNote
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_CoverpageNote method
+# IFaxDoc::put_CoverpageNote
 
 
 ## -description

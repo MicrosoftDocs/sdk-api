@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IRegisterServiceProvider.RegisterService
-title: IRegisterServiceProvider::RegisterService method
+title: IRegisterServiceProvider::RegisterService
 author: windows-driver-content
 description: The RegisterService method registers an object as a service.
 old-location: dshow\iregisterserviceprovider_registerservice.htm
 old-project: DirectShow
 ms.assetid: be8c3a89-687e-4a53-9fd0-0ec676e27ce0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IRegisterServiceProvider, IRegisterServiceProvider interface [DirectShow], RegisterService method, IRegisterServiceProvider::RegisterService, IRegisterServiceProviderRegisterService, RegisterService method [DirectShow], RegisterService method [DirectShow], IRegisterServiceProvider interface, RegisterService,IRegisterServiceProvider.RegisterService, dshow.iregisterserviceprovider_registerservice, strmif/IRegisterServiceProvider::RegisterService
+ms.date: 4/30/2018
+ms.keywords: IRegisterServiceProvider interface [DirectShow],RegisterService method, IRegisterServiceProvider.RegisterService, IRegisterServiceProvider::RegisterService, IRegisterServiceProviderRegisterService, RegisterService, RegisterService method [DirectShow], RegisterService method [DirectShow],IRegisterServiceProvider interface, dshow.iregisterserviceprovider_registerservice, strmif/IRegisterServiceProvider::RegisterService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IRegisterServiceProvider::RegisterService method
+# IRegisterServiceProvider::RegisterService
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponents.EnumComponents
-title: IComponents::EnumComponents method
+title: IComponents::EnumComponents
 author: windows-driver-content
 description: The EnumComponents method returns an enumerator for the components in the collection.
 old-location: mstv\icomponents_enumcomponents.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 214030ff-8aec-46df-8b59-f31fe926d8aa
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: EnumComponents method [Microsoft TV Technologies], EnumComponents method [Microsoft TV Technologies], IComponents interface, EnumComponents,IComponents.EnumComponents, IComponents, IComponents interface [Microsoft TV Technologies], EnumComponents method, IComponents::EnumComponents, IComponentsEnumComponents, mstv.icomponents_enumcomponents, tuner/IComponents::EnumComponents
+ms.keywords: EnumComponents, EnumComponents method [Microsoft TV Technologies], EnumComponents method [Microsoft TV Technologies],IComponents interface, IComponents interface [Microsoft TV Technologies],EnumComponents method, IComponents.EnumComponents, IComponents::EnumComponents, IComponentsEnumComponents, mstv.icomponents_enumcomponents, tuner/IComponents::EnumComponents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IComponents::EnumComponents method
+# IComponents::EnumComponents
 
 
 ## -description

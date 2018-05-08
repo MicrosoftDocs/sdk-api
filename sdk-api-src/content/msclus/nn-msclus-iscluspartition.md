@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: b7af8ab1-83dc-4164-bf59-901cc9fae56f
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ClusPartition, ClusPartition object [Failover Cluster], ClusPartition object [Failover Cluster], described, ISClusPartition, _wolf_cluspartition_object, msclus/ClusPartition, mscs.cluspartition_object
+ms.keywords: ClusPartition, ClusPartition object [Failover Cluster], ClusPartition object [Failover Cluster],described, ISClusPartition, _wolf_cluspartition_object, msclus/ClusPartition, mscs.cluspartition_object
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

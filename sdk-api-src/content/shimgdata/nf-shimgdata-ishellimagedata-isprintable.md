@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsPrintable
-title: IShellImageData::IsPrintable method
+title: IShellImageData::IsPrintable
 author: windows-driver-content
 description: Determines whether the image can be printed.
 old-location: shell\IShellImageData_IsPrintable.htm
 old-project: shell
 ms.assetid: 5c50e919-cb5b-4332-bc17-ad24f31cf680
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IsPrintable method, IShellImageData::IsPrintable, IsPrintable method [Windows Shell], IsPrintable method [Windows Shell], IShellImageData interface, IsPrintable,IShellImageData.IsPrintable, _shell_IShellImageData_IsPrintable, shell.IShellImageData_IsPrintable, shimgdata/IShellImageData::IsPrintable
+ms.date: 5/3/2018
+ms.keywords: IShellImageData interface [Windows Shell],IsPrintable method, IShellImageData.IsPrintable, IShellImageData::IsPrintable, IsPrintable, IsPrintable method [Windows Shell], IsPrintable method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsPrintable, shell.IShellImageData_IsPrintable, shimgdata/IShellImageData::IsPrintable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::IsPrintable method
+# IShellImageData::IsPrintable
 
 
 ## -description

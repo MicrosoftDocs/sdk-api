@@ -7,7 +7,7 @@ old-location: rpc\rpcssdestroyclientcontext.htm
 old-project: Rpc
 ms.assetid: 7c4fe939-eda9-45c3-84fb-491ac96e7c78
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcSsDestroyClientContext, RpcSsDestroyClientContext function [RPC], _rpc_rpcssdestroyclientcontext, rpc.rpcssdestroyclientcontext, rpcndr/RpcSsDestroyClientContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

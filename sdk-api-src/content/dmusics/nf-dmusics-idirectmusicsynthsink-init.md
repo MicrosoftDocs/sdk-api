@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.Init
-title: IDirectMusicSynthSink::Init method
+title: IDirectMusicSynthSink::Init
 author: windows-driver-content
 description: The Init method initializes the synth-sink object.
 old-location: audio\idirectmusicsynthsink_init.htm
 old-project: audio
 ms.assetid: d390c54d-18f6-47e1-9d52-057c984d284a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IDirectMusicSynthSink, IDirectMusicSynthSink interface [Audio Devices], Init method, IDirectMusicSynthSink::Init, Init method [Audio Devices], Init method [Audio Devices], IDirectMusicSynthSink interface, Init,IDirectMusicSynthSink.Init, audio.idirectmusicsynthsink_init, audmp-routines_d4f2d6c1-4bb6-453e-ad40-d0daab7775a3.xml, dmusics/IDirectMusicSynthSink::Init
+ms.date: 5/1/2018
+ms.keywords: IDirectMusicSynthSink interface [Audio Devices],Init method, IDirectMusicSynthSink.Init, IDirectMusicSynthSink::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_init, audmp-routines_d4f2d6c1-4bb6-453e-ad40-d0daab7775a3.xml, dmusics/IDirectMusicSynthSink::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectMusicSynthSink::Init method
+# IDirectMusicSynthSink::Init
 
 
 ## -description

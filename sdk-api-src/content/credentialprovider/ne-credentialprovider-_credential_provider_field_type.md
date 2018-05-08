@@ -7,7 +7,7 @@ old-location: shell\CREDENTIAL_PROVIDER_FIELD_TYPE.htm
 old-project: shell
 ms.assetid: 5af9f007-9588-4574-a5ce-3f01ec0b45e8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: CPFT_CHECKBOX, CPFT_COMBOBOX, CPFT_COMMAND_LINK, CPFT_EDIT_TEXT, CPFT_INVALID, CPFT_LARGE_TEXT, CPFT_PASSWORD_TEXT, CPFT_SMALL_TEXT, CPFT_SUBMIT_BUTTON, CPFT_TILE_IMAGE, CREDENTIAL_PROVIDER_FIELD_TYPE, CREDENTIAL_PROVIDER_FIELD_TYPE enumeration [Windows Shell], _CREDENTIAL_PROVIDER_FIELD_TYPE, credentialprovider/CPFT_CHECKBOX, credentialprovider/CPFT_COMBOBOX, credentialprovider/CPFT_COMMAND_LINK, credentialprovider/CPFT_EDIT_TEXT, credentialprovider/CPFT_INVALID, credentialprovider/CPFT_LARGE_TEXT, credentialprovider/CPFT_PASSWORD_TEXT, credentialprovider/CPFT_SMALL_TEXT, credentialprovider/CPFT_SUBMIT_BUTTON, credentialprovider/CPFT_TILE_IMAGE, credentialprovider/CREDENTIAL_PROVIDER_FIELD_TYPE, shell.CREDENTIAL_PROVIDER_FIELD_TYPE, shell_CREDENTIAL_PROVIDER_FIELD_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

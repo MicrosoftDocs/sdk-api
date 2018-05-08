@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.get__NewEnum
-title: INetFwAuthorizedApplications::get__NewEnum method
+title: INetFwAuthorizedApplications::get__NewEnum
 author: windows-driver-content
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the applications in the collection.
 old-location: ics\_newenum_property_of_inetfwauthorizedapplications_newenum.htm
 old-project: ICS
 ms.assetid: c0ac9311-64a4-44cb-a0d3-6986f4de6b94
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwAuthorizedApplications, INetFwAuthorizedApplications interface [ICS/ICF], _NewEnum property, INetFwAuthorizedApplications._NewEnum, INetFwAuthorizedApplications::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF], INetFwAuthorizedApplications interface, get__NewEnum,INetFwAuthorizedApplications.get__NewEnum, ics._newenum_property_of_inetfwauthorizedapplications_newenum, netfw/INetFwAuthorizedApplications::_NewEnum, netfw/INetFwAuthorizedApplications::get__NewEnum
+ms.date: 5/1/2018
+ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],_NewEnum property, INetFwAuthorizedApplications._NewEnum, INetFwAuthorizedApplications.get__NewEnum, INetFwAuthorizedApplications::_NewEnum, INetFwAuthorizedApplications::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwAuthorizedApplications interface, get__NewEnum, ics._newenum_property_of_inetfwauthorizedapplications_newenum, netfw/INetFwAuthorizedApplications::_NewEnum, netfw/INetFwAuthorizedApplications::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwAuthorizedApplications::get__NewEnum method
+# INetFwAuthorizedApplications::get__NewEnum
 
 
 ## -description

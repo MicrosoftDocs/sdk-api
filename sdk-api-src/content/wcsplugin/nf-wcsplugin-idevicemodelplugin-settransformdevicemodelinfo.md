@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.SetTransformDeviceModelInfo
-title: IDeviceModelPlugIn::SetTransformDeviceModelInfo method
+title: IDeviceModelPlugIn::SetTransformDeviceModelInfo
 author: windows-driver-content
 description: Provides the plug-in with parameters to determine where in the transform sequence the specific plug-in occurs.
 old-location: wcs\IDeviceModelPlugIn_SetTransformDeviceModelInfo.htm
@@ -8,7 +8,7 @@ old-project: WCS
 ms.assetid: 01d0815d-1a6b-48f3-9a81-65df0e185e8f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], SetTransformDeviceModelInfo method, IDeviceModelPlugIn::SetTransformDeviceModelInfo, SetTransformDeviceModelInfo method [Windows Color System], SetTransformDeviceModelInfo method [Windows Color System], IDeviceModelPlugIn interface, SetTransformDeviceModelInfo,IDeviceModelPlugIn.SetTransformDeviceModelInfo, _color_IDeviceModelPlugIn::SetTransformDeviceModelInfo, wcs.IDeviceModelPlugIn_SetTransformDeviceModelInfo, wcsplugin/IDeviceModelPlugIn::SetTransformDeviceModelInfo
+ms.keywords: IDeviceModelPlugIn interface [Windows Color System],SetTransformDeviceModelInfo method, IDeviceModelPlugIn.SetTransformDeviceModelInfo, IDeviceModelPlugIn::SetTransformDeviceModelInfo, SetTransformDeviceModelInfo, SetTransformDeviceModelInfo method [Windows Color System], SetTransformDeviceModelInfo method [Windows Color System],IDeviceModelPlugIn interface, _color_IDeviceModelPlugIn::SetTransformDeviceModelInfo, wcs.IDeviceModelPlugIn_SetTransformDeviceModelInfo, wcsplugin/IDeviceModelPlugIn::SetTransformDeviceModelInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IDeviceModelPlugIn::SetTransformDeviceModelInfo method
+# IDeviceModelPlugIn::SetTransformDeviceModelInfo
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncCallback.AsyncOperationComplete
-title: IWSDAsyncCallback::AsyncOperationComplete method
+title: IWSDAsyncCallback::AsyncOperationComplete
 author: windows-driver-content
 description: Indicates that the asynchronous operation has completed.
 old-location: ncd\iwsdasynccallback_asyncoperationcomplete_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: f2272d1e-bb12-43cd-a0ae-80530ad25fcf
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AsyncOperationComplete method, AsyncOperationComplete method, IWSDAsyncCallback interface, AsyncOperationComplete,IWSDAsyncCallback.AsyncOperationComplete, IWSDAsyncCallback, IWSDAsyncCallback interface, AsyncOperationComplete method, IWSDAsyncCallback::AsyncOperationComplete, ncd.iwsdasynccallback_asyncoperationcomplete_method, wsdclient/IWSDAsyncCallback::AsyncOperationComplete
+ms.keywords: AsyncOperationComplete, AsyncOperationComplete method, AsyncOperationComplete method,IWSDAsyncCallback interface, IWSDAsyncCallback interface,AsyncOperationComplete method, IWSDAsyncCallback.AsyncOperationComplete, IWSDAsyncCallback::AsyncOperationComplete, ncd.iwsdasynccallback_asyncoperationcomplete_method, wsdclient/IWSDAsyncCallback::AsyncOperationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDAsyncCallback::AsyncOperationComplete method
+# IWSDAsyncCallback::AsyncOperationComplete
 
 
 ## -description

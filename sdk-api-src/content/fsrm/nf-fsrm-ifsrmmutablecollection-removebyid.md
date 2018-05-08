@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmMutableCollection.RemoveById
-title: IFsrmMutableCollection::RemoveById method
+title: IFsrmMutableCollection::RemoveById
 author: windows-driver-content
 description: Removes the specified object from the collection using an object identifier.
 old-location: fsrm\ifsrmmutablecollection_removebyid.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 42f6fc4c-72fe-47c8-91c5-21987fa91848
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmMutableCollection, IFsrmMutableCollection interface [File Server Resource Manager], RemoveById method, IFsrmMutableCollection::RemoveById, RemoveById method [File Server Resource Manager], RemoveById method [File Server Resource Manager], IFsrmMutableCollection interface, RemoveById,IFsrmMutableCollection.RemoveById, fs.ifsrmmutablecollection_removebyid, fsrm.ifsrmmutablecollection_removebyid, fsrm/IFsrmMutableCollection::RemoveById
+ms.keywords: IFsrmMutableCollection interface [File Server Resource Manager],RemoveById method, IFsrmMutableCollection.RemoveById, IFsrmMutableCollection::RemoveById, RemoveById, RemoveById method [File Server Resource Manager], RemoveById method [File Server Resource Manager],IFsrmMutableCollection interface, fs.ifsrmmutablecollection_removebyid, fsrm.ifsrmmutablecollection_removebyid, fsrm/IFsrmMutableCollection::RemoveById
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmMutableCollection::RemoveById method
+# IFsrmMutableCollection::RemoveById
 
 
 ## -description

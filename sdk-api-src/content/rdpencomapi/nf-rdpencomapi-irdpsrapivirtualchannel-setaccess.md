@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.SetAccess
-title: IRDPSRAPIVirtualChannel::SetAccess method
+title: IRDPSRAPIVirtualChannel::SetAccess
 author: windows-driver-content
 description: Enables the channel for an attendee.
 old-location: rdp\irdpsrapivirtualchannel_setaccess.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 7d4a19d3-b089-4689-9062-a5b52251776f
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: CHANNEL_ACCESS_ENUM_NONE, CHANNEL_ACCESS_ENUM_SENDRECEIVE, IRDPSRAPIVirtualChannel, IRDPSRAPIVirtualChannel interface [RDP], SetAccess method, IRDPSRAPIVirtualChannel::SetAccess, SetAccess method [RDP], SetAccess method [RDP], IRDPSRAPIVirtualChannel interface, SetAccess,IRDPSRAPIVirtualChannel.SetAccess, rdp.irdpsrapivirtualchannel_setaccess, rdpencomapi/IRDPSRAPIVirtualChannel::SetAccess
+ms.keywords: CHANNEL_ACCESS_ENUM_NONE, CHANNEL_ACCESS_ENUM_SENDRECEIVE, IRDPSRAPIVirtualChannel interface [RDP],SetAccess method, IRDPSRAPIVirtualChannel.SetAccess, IRDPSRAPIVirtualChannel::SetAccess, SetAccess, SetAccess method [RDP], SetAccess method [RDP],IRDPSRAPIVirtualChannel interface, rdp.irdpsrapivirtualchannel_setaccess, rdpencomapi/IRDPSRAPIVirtualChannel::SetAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIVirtualChannel::SetAccess method
+# IRDPSRAPIVirtualChannel::SetAccess
 
 
 ## -description

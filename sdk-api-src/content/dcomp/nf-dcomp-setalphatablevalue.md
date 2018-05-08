@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 6f4e04e0-1ec6-a475-264e-d64f68e23fb9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetAlphaTableValue, SetAlphaTableValue methods [DirectComposition], dcomp/SetAlphaTableValue, directcomp.idcompositiontabletransfereffect_setalphatablevalue_overloaded
+ms.keywords: IDCompositionTableTransferEffect::SetAlphaTableValue, SetAlphaTableValue, SetAlphaTableValue methods [DirectComposition], dcomp/SetAlphaTableValue, directcomp.idcompositiontabletransfereffect_setalphatablevalue_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

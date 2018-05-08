@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.AllocateDataUnit
-title: IWMWriterSink::AllocateDataUnit method
+title: IWMWriterSink::AllocateDataUnit
 author: windows-driver-content
 description: The AllocateDataUnit method is called by the writer object when it needs a buffer to deliver a data unit.
 old-location: wmformat\iwmwritersink_allocatedataunit.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 56a16163-84e7-4235-8bf3-03e81696bb63
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AllocateDataUnit method [windows Media Format], AllocateDataUnit method [windows Media Format], IWMWriterSink interface, AllocateDataUnit,IWMWriterSink.AllocateDataUnit, IWMWriterSink, IWMWriterSink interface [windows Media Format], AllocateDataUnit method, IWMWriterSink::AllocateDataUnit, IWMWriterSinkAllocateDataUnit, wmformat.iwmwritersink_allocatedataunit, wmsdkidl/IWMWriterSink::AllocateDataUnit
+ms.keywords: AllocateDataUnit, AllocateDataUnit method [windows Media Format], AllocateDataUnit method [windows Media Format],IWMWriterSink interface, IWMWriterSink interface [windows Media Format],AllocateDataUnit method, IWMWriterSink.AllocateDataUnit, IWMWriterSink::AllocateDataUnit, IWMWriterSinkAllocateDataUnit, wmformat.iwmwritersink_allocatedataunit, wmsdkidl/IWMWriterSink::AllocateDataUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterSink::AllocateDataUnit method
+# IWMWriterSink::AllocateDataUnit
 
 
 ## -description

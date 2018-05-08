@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_RoutingData
-title: IFaxRoutingMethod::get_RoutingData method
+title: IFaxRoutingMethod::get_RoutingData
 author: windows-driver-content
 description: The RoutingData property is a null-terminated string that contains the routing string for an incoming fax transmission.
 old-location: fax\_mfax_ifaxroutingmethod_get_routingdata_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_700x.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxRoutingMethod object [Fax Service], RoutingData property, IFaxRoutingMethod, IFaxRoutingMethod::get_RoutingData, RoutingData property [Fax Service], RoutingData property [Fax Service], FaxRoutingMethod object, _mfax_ifaxroutingmethod_get_routingdata, fax._mfax_ifaxroutingmethod_get_routingdata, fax._mfax_ifaxroutingmethod_get_routingdata_vb, get_RoutingData,IFaxRoutingMethod.get_RoutingData
+ms.keywords: FaxRoutingMethod object [Fax Service],RoutingData property, FaxRoutingMethod.RoutingData, IFaxRoutingMethod.get_RoutingData, IFaxRoutingMethod::get_RoutingData, RoutingData property [Fax Service], RoutingData property [Fax Service],FaxRoutingMethod object, _mfax_ifaxroutingmethod_get_routingdata, fax._mfax_ifaxroutingmethod_get_routingdata, fax._mfax_ifaxroutingmethod_get_routingdata_vb, get_RoutingData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxRoutingMethod::get_RoutingData method
+# IFaxRoutingMethod::get_RoutingData
 
 
 ## -description

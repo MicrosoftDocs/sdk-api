@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.GetDuplicate
-title: ITextRange::GetDuplicate method
+title: ITextRange::GetDuplicate
 author: windows-driver-content
 description: Gets a duplicate of this range object.
 old-location: controls\ITextRange_GetDuplicate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange\itextrangegetduplicate.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls], ITextRange interface, GetDuplicate,ITextRange.GetDuplicate, ITextRange, ITextRange interface [Windows Controls], GetDuplicate method, ITextRange::GetDuplicate, _win32_ITextRange_GetDuplicate, _win32_ITextRange_GetDuplicate_cpp, controls.ITextRange_GetDuplicate, controls._win32_ITextRange_GetDuplicate, tom/ITextRange::GetDuplicate
+ms.date: 4/27/2018
+ms.keywords: GetDuplicate, GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetDuplicate method, ITextRange.GetDuplicate, ITextRange::GetDuplicate, _win32_ITextRange_GetDuplicate, _win32_ITextRange_GetDuplicate_cpp, controls.ITextRange_GetDuplicate, controls._win32_ITextRange_GetDuplicate, tom/ITextRange::GetDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::GetDuplicate method
+# ITextRange::GetDuplicate
 
 
 ## -description

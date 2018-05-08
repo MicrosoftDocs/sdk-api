@@ -7,7 +7,7 @@ old-location: automat\createtypelib.htm
 old-project: automat
 ms.assetid: c7a94d5b-7ac5-4b7c-8aed-ead23de9ea75
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: CreateTypeLib, CreateTypeLib function [Automation], _oa96_CreateTypeLib, automat.createtypelib, oleauto/CreateTypeLib
 ms.prod: windows-hardware
 ms.technology: windows-devices

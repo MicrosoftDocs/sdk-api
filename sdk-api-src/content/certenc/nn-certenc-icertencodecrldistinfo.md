@@ -7,8 +7,8 @@ old-location: security\icertencodecrldistinfo.htm
 old-project: SecCrypto
 ms.assetid: e9c0053f-263f-4d7b-9356-bc33af989dbe
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], ICertEncodeCRLDistInfo interface [Security], described, _certsrv_icertencodecrldistinfo, certenc/ICertEncodeCRLDistInfo, security.icertencodecrldistinfo
+ms.date: 4/30/2018
+ms.keywords: ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], ICertEncodeCRLDistInfo interface [Security],described, _certsrv_icertencodecrldistinfo, certenc/ICertEncodeCRLDistInfo, security.icertencodecrldistinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfMenu.AddMenuItem
-title: ITfMenu::AddMenuItem method
+title: ITfMenu::AddMenuItem
 author: windows-driver-content
 description: ITfMenu::AddMenuItem method
 old-location: tsf\itfmenu_addmenuitem.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c00048d1-d7c1-4ea3-a132-5f5aa570148f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AddMenuItem method [Text Services Framework], AddMenuItem method [Text Services Framework], ITfMenu interface, AddMenuItem,ITfMenu.AddMenuItem, ITfMenu, ITfMenu interface [Text Services Framework], AddMenuItem method, ITfMenu::AddMenuItem, _tsf_itfmenu_addmenuitem_ref, ctfutb/ITfMenu::AddMenuItem, tsf.itfmenu_addmenuitem
+ms.keywords: AddMenuItem, AddMenuItem method [Text Services Framework], AddMenuItem method [Text Services Framework],ITfMenu interface, ITfMenu interface [Text Services Framework],AddMenuItem method, ITfMenu.AddMenuItem, ITfMenu::AddMenuItem, _tsf_itfmenu_addmenuitem_ref, ctfutb/ITfMenu::AddMenuItem, tsf.itfmenu_addmenuitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfMenu::AddMenuItem method
+# ITfMenu::AddMenuItem
 
 
 ## -description

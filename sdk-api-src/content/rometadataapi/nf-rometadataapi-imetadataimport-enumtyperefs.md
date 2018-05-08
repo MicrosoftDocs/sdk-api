@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumTypeRefs
-title: IMetaDataImport::EnumTypeRefs method
+title: IMetaDataImport::EnumTypeRefs
 author: windows-driver-content
 description: Enumerates TypeRef tokens defined in the current metadata scope.
 old-location: winrt\imetadataimport_enumtyperefs.htm
 old-project: WinRT
 ms.assetid: 8d77548d-dfba-4be1-b19d-41b21ab3a112
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumTypeRefs method [Windows Runtime], EnumTypeRefs method [Windows Runtime], IMetaDataImport interface, EnumTypeRefs,IMetaDataImport.EnumTypeRefs, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumTypeRefs method, IMetaDataImport::EnumTypeRefs, rometadataapi/IMetaDataImport::EnumTypeRefs, winrt.imetadataimport_enumtyperefs
+ms.date: 5/4/2018
+ms.keywords: EnumTypeRefs, EnumTypeRefs method [Windows Runtime], EnumTypeRefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumTypeRefs method, IMetaDataImport.EnumTypeRefs, IMetaDataImport::EnumTypeRefs, rometadataapi/IMetaDataImport::EnumTypeRefs, winrt.imetadataimport_enumtyperefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumTypeRefs method
+# IMetaDataImport::EnumTypeRefs
 
 
 ## -description

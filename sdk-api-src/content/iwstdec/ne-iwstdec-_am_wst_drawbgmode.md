@@ -7,8 +7,8 @@ old-location: dshow\am_wst_drawbgmode.htm
 old-project: DirectShow
 ms.assetid: 1c27f3e1-a097-4f0e-af01-62cf500a3264
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: "*PAM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE enumeration [DirectShow], AM_WST_DRAWBGMODEEnumeration, AM_WST_DRAWBGMODE_Opaque, AM_WST_DRAWBGMODE_Transparent, PAM_WST_DRAWBGMODE, PAM_WST_DRAWBGMODE enumeration pointer [DirectShow], _AM_WST_DRAWBGMODE, dshow.am_wst_drawbgmode, iwstdec/AM_WST_DRAWBGMODE, iwstdec/AM_WST_DRAWBGMODE_Opaque, iwstdec/AM_WST_DRAWBGMODE_Transparent, iwstdec/PAM_WST_DRAWBGMODE"
+ms.date: 4/30/2018
+ms.keywords: "*PAM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE , AM_WST_DRAWBGMODE enumeration [DirectShow], AM_WST_DRAWBGMODEEnumeration, AM_WST_DRAWBGMODE_Opaque, AM_WST_DRAWBGMODE_Transparent, PAM_WST_DRAWBGMODE, PAM_WST_DRAWBGMODE enumeration pointer [DirectShow], _AM_WST_DRAWBGMODE, dshow.am_wst_drawbgmode, iwstdec/AM_WST_DRAWBGMODE, iwstdec/AM_WST_DRAWBGMODE_Opaque, iwstdec/AM_WST_DRAWBGMODE_Transparent, iwstdec/PAM_WST_DRAWBGMODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -25,7 +25,7 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: Wsccapi.lib
+req.type-library: 
 req.typenames: AM_WST_DRAWBGMODE, *PAM_WST_DRAWBGMODE
 topic_type:
 -	APIRef

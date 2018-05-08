@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IWizardExtension.GetFirstPage
-title: IWizardExtension::GetFirstPage method
+title: IWizardExtension::GetFirstPage
 author: windows-driver-content
 description: Gets a handle to the first page of the wizard extension.
 old-location: shell\IWizardExtension_GetFirstPage.htm
 old-project: shell
 ms.assetid: 1276b63d-6d5e-4e60-b936-b307cd922b4b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetFirstPage method [Windows Shell], GetFirstPage method [Windows Shell], IWizardExtension interface, GetFirstPage,IWizardExtension.GetFirstPage, IWizardExtension, IWizardExtension interface [Windows Shell], GetFirstPage method, IWizardExtension::GetFirstPage, _shell_IWizardExtension_GetFirstPage, shell.IWizardExtension_GetFirstPage, shobjidl/IWizardExtension::GetFirstPage
+ms.date: 5/3/2018
+ms.keywords: GetFirstPage, GetFirstPage method [Windows Shell], GetFirstPage method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],GetFirstPage method, IWizardExtension.GetFirstPage, IWizardExtension::GetFirstPage, _shell_IWizardExtension_GetFirstPage, shell.IWizardExtension_GetFirstPage, shobjidl/IWizardExtension::GetFirstPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IWizardExtension::GetFirstPage method
+# IWizardExtension::GetFirstPage
 
 
 ## -description

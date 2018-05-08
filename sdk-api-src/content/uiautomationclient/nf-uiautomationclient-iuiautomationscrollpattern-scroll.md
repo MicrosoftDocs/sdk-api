@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.Scroll
-title: IUIAutomationScrollPattern::Scroll method
+title: IUIAutomationScrollPattern::Scroll
 author: windows-driver-content
 description: Scrolls the visible region of the content area horizontally and vertically.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_Scroll.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2deb7399-604d-45eb-95d6-f1135550a18f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationScrollPattern, IUIAutomationScrollPattern interface [Windows Accessibility], Scroll method, IUIAutomationScrollPattern::Scroll, Scroll method [Windows Accessibility], Scroll method [Windows Accessibility], IUIAutomationScrollPattern interface, Scroll,IUIAutomationScrollPattern.Scroll, uiauto.uiauto_IUIAutomationScrollPattern_Scroll, uiauto_IUIAutomationScrollPattern_Scroll, uiautomationclient/IUIAutomationScrollPattern::Scroll, winauto.uiauto_IUIAutomationScrollPattern_Scroll
+ms.keywords: IUIAutomationScrollPattern interface [Windows Accessibility],Scroll method, IUIAutomationScrollPattern.Scroll, IUIAutomationScrollPattern::Scroll, Scroll, Scroll method [Windows Accessibility], Scroll method [Windows Accessibility],IUIAutomationScrollPattern interface, uiauto.uiauto_IUIAutomationScrollPattern_Scroll, uiauto_IUIAutomationScrollPattern_Scroll, uiautomationclient/IUIAutomationScrollPattern::Scroll, winauto.uiauto_IUIAutomationScrollPattern_Scroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationScrollPattern::Scroll method
+# IUIAutomationScrollPattern::Scroll
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfPropertyValue.Reset
-title: IEnumTfPropertyValue::Reset method
+title: IEnumTfPropertyValue::Reset
 author: windows-driver-content
 description: IEnumTfPropertyValue::Reset method
 old-location: tsf\ienumtfpropertyvalue_reset.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: d18fd066-94a3-48af-8db4-0def6c51565e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfPropertyValue, IEnumTfPropertyValue interface [Text Services Framework], Reset method, IEnumTfPropertyValue::Reset, Reset method [Text Services Framework], Reset method [Text Services Framework], IEnumTfPropertyValue interface, Reset,IEnumTfPropertyValue.Reset, _tsf_ienumtfpropertyvalue_reset_ref, msctf/IEnumTfPropertyValue::Reset, tsf.ienumtfpropertyvalue_reset
+ms.keywords: IEnumTfPropertyValue interface [Text Services Framework],Reset method, IEnumTfPropertyValue.Reset, IEnumTfPropertyValue::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfPropertyValue interface, _tsf_ienumtfpropertyvalue_reset_ref, msctf/IEnumTfPropertyValue::Reset, tsf.ienumtfpropertyvalue_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfPropertyValue::Reset method
+# IEnumTfPropertyValue::Reset
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: e8c1fcd1-59fb-49d6-94b9-52b7c8551651
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventClass, IEventClass interface [COM+], IEventClass interface [COM+], described, _cos_IEventClass, cos.ieventclass, eventsys/IEventClass
+ms.keywords: IEventClass, IEventClass interface [COM+], IEventClass interface [COM+],described, _cos_IEventClass, cos.ieventclass, eventsys/IEventClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

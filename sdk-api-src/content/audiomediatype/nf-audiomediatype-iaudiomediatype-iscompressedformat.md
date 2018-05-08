@@ -1,14 +1,14 @@
 ---
 UID: NF:audiomediatype.IAudioMediaType.IsCompressedFormat
-title: IAudioMediaType::IsCompressedFormat method
+title: IAudioMediaType::IsCompressedFormat
 author: windows-driver-content
 description: The IsCompressedFormat method determines whether the audio data format is a compressed format.
 old-location: audio\iaudiomediatype_iscompressedformat.htm
 old-project: audio
 ms.assetid: db3ee751-7a7e-4e94-8dba-94065a7046f1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IAudioMediaType, IAudioMediaType interface [Audio Devices], IsCompressedFormat method, IAudioMediaType::IsCompressedFormat, IsCompressedFormat method [Audio Devices], IsCompressedFormat method [Audio Devices], IAudioMediaType interface, IsCompressedFormat,IAudioMediaType.IsCompressedFormat, audio.iaudiomediatype_iscompressedformat, audio_syseffects_r_be58a0a1-340a-49bd-b47b-6f53ad5258ae.xml, audiomediatype/IAudioMediaType::IsCompressedFormat
+ms.date: 5/1/2018
+ms.keywords: IAudioMediaType interface [Audio Devices],IsCompressedFormat method, IAudioMediaType.IsCompressedFormat, IAudioMediaType::IsCompressedFormat, IsCompressedFormat, IsCompressedFormat method [Audio Devices], IsCompressedFormat method [Audio Devices],IAudioMediaType interface, audio.iaudiomediatype_iscompressedformat, audio_syseffects_r_be58a0a1-340a-49bd-b47b-6f53ad5258ae.xml, audiomediatype/IAudioMediaType::IsCompressedFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: All levels
 ---
 
-# IAudioMediaType::IsCompressedFormat method
+# IAudioMediaType::IsCompressedFormat
 
 
 ## -description

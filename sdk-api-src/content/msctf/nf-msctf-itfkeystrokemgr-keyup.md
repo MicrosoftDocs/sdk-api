@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.KeyUp
-title: ITfKeystrokeMgr::KeyUp method
+title: ITfKeystrokeMgr::KeyUp
 author: windows-driver-content
 description: ITfKeystrokeMgr::KeyUp method
 old-location: tsf\itfkeystrokemgr_keyup.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 14415de3-f397-4866-b7d1-167c0931a80c
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfKeystrokeMgr, ITfKeystrokeMgr interface [Text Services Framework], KeyUp method, ITfKeystrokeMgr::KeyUp, KeyUp method [Text Services Framework], KeyUp method [Text Services Framework], ITfKeystrokeMgr interface, KeyUp,ITfKeystrokeMgr.KeyUp, _tsf_itfkeystrokemgr_keyup_ref, msctf/ITfKeystrokeMgr::KeyUp, tsf.itfkeystrokemgr_keyup
+ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],KeyUp method, ITfKeystrokeMgr.KeyUp, ITfKeystrokeMgr::KeyUp, KeyUp, KeyUp method [Text Services Framework], KeyUp method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_keyup_ref, msctf/ITfKeystrokeMgr::KeyUp, tsf.itfkeystrokemgr_keyup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfKeystrokeMgr::KeyUp method
+# ITfKeystrokeMgr::KeyUp
 
 
 ## -description

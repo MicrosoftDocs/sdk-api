@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.Recognize
-title: IInkLineInfo::Recognize method
+title: IInkLineInfo::Recognize
 author: windows-driver-content
 description: Reserved.
 old-location: tablet\iinklineinfo_recognize.htm
 old-project: tablet
 ms.assetid: b6a0f559-72e8-40db-ba9a-0f1b27ba6a96
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInkLineInfo, IInkLineInfo interface [Tablet PC], Recognize method, IInkLineInfo::Recognize, Recognize method [Tablet PC], Recognize method [Tablet PC], IInkLineInfo interface, Recognize,IInkLineInfo.Recognize, b6a0f559-72e8-40db-ba9a-0f1b27ba6a96, msinkaut/IInkLineInfo::Recognize, tablet.iinklineinfo_recognize
+ms.date: 5/2/2018
+ms.keywords: IInkLineInfo interface [Tablet PC],Recognize method, IInkLineInfo.Recognize, IInkLineInfo::Recognize, Recognize, Recognize method [Tablet PC], Recognize method [Tablet PC],IInkLineInfo interface, b6a0f559-72e8-40db-ba9a-0f1b27ba6a96, msinkaut/IInkLineInfo::Recognize, tablet.iinklineinfo_recognize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkLineInfo::Recognize method
+# IInkLineInfo::Recognize
 
 
 ## -description

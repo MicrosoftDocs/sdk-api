@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_PreallocateFile
-title: ITraceDataCollector::get_PreallocateFile method
+title: ITraceDataCollector::get_PreallocateFile
 author: windows-driver-content
 description: Retrieves or sets a value that indicates whether PLA should allocate the entire log file size before logging.
 old-location: pla\itracedatacollector_preallocatefile.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 7d05055b-a596-40b0-b289-31641957a72f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], PreallocateFile property, ITraceDataCollector.PreallocateFile, ITraceDataCollector::get_PreallocateFile, ITraceDataCollector::put_PreallocateFile, PreallocateFile property [PLA], PreallocateFile property [PLA], ITraceDataCollector interface, base.itracedatacollector_preallocatefile, get_PreallocateFile,ITraceDataCollector.get_PreallocateFile, pla.itracedatacollector_preallocatefile, pla/ITraceDataCollector::PreallocateFile, pla/ITraceDataCollector::get_PreallocateFile, pla/ITraceDataCollector::put_PreallocateFile
+ms.keywords: ITraceDataCollector interface [PLA],PreallocateFile property, ITraceDataCollector.PreallocateFile, ITraceDataCollector.get_PreallocateFile, ITraceDataCollector::PreallocateFile, ITraceDataCollector::get_PreallocateFile, ITraceDataCollector::put_PreallocateFile, PreallocateFile property [PLA], PreallocateFile property [PLA],ITraceDataCollector interface, base.itracedatacollector_preallocatefile, get_PreallocateFile, pla.itracedatacollector_preallocatefile, pla/ITraceDataCollector::PreallocateFile, pla/ITraceDataCollector::get_PreallocateFile, pla/ITraceDataCollector::put_PreallocateFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataCollector::get_PreallocateFile method
+# ITraceDataCollector::get_PreallocateFile
 
 
 ## -description

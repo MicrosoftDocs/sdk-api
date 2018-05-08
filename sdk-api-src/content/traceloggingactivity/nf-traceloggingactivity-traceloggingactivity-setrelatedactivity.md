@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingActivity.SetRelatedActivity
-title: TraceLoggingActivity::SetRelatedActivity method
+title: TraceLoggingActivity::SetRelatedActivity
 author: windows-driver-content
 description: Sets the related activity for this TraceLoggingActivity object.
 old-location: tracelogging\traceloggingactivity_setrelatedactivity.htm
@@ -8,7 +8,7 @@ old-project: tracelogging
 ms.assetid: 3A756D11-2595-451B-9BE6-BBE950252D3F
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: SetRelatedActivity method, SetRelatedActivity method, TraceLoggingActivity interface, SetRelatedActivity,TraceLoggingActivity.SetRelatedActivity, TraceLoggingActivity, TraceLoggingActivity interface, SetRelatedActivity method, TraceLoggingActivity::SetRelatedActivity, tracelogging.traceloggingactivity_setrelatedactivity, traceloggingactivity/TraceLoggingActivity::SetRelatedActivity
+ms.keywords: SetRelatedActivity, SetRelatedActivity method, SetRelatedActivity method,TraceLoggingActivity interface, TraceLoggingActivity interface,SetRelatedActivity method, TraceLoggingActivity.SetRelatedActivity, TraceLoggingActivity::SetRelatedActivity, tracelogging.traceloggingactivity_setrelatedactivity, traceloggingactivity/TraceLoggingActivity::SetRelatedActivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# TraceLoggingActivity::SetRelatedActivity method
+# TraceLoggingActivity::SetRelatedActivity
 
 
 ## -description

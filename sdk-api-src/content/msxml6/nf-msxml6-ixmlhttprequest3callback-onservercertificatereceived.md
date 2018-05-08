@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest3Callback.OnServerCertificateReceived
-title: IXMLHTTPRequest3Callback::OnServerCertificateReceived method
+title: IXMLHTTPRequest3Callback::OnServerCertificateReceived
 author: windows-driver-content
 description: Occurs when a client receives certificate errors or a server certificate chain during SSL negotiation with the server.
 old-location: ixhr2\ixmlhttprequest3callback_onservercertificatereceived.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: 5b00ab76-880b-4450-a6b2-fda399cc9e8b
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest3Callback, IXMLHTTPRequest3Callback interface [XMLHttpRequest2], OnServerCertificateReceived method, IXMLHTTPRequest3Callback::OnServerCertificateReceived, OnServerCertificateReceived method [XMLHttpRequest2], OnServerCertificateReceived method [XMLHttpRequest2], IXMLHTTPRequest3Callback interface, OnServerCertificateReceived,IXMLHTTPRequest3Callback.OnServerCertificateReceived, ixhr2.ixmlhttprequest3callback_onservercertificatereceived, msxml6/IXMLHTTPRequest3Callback::OnServerCertificateReceived
+ms.keywords: IXMLHTTPRequest3Callback interface [XMLHttpRequest2],OnServerCertificateReceived method, IXMLHTTPRequest3Callback.OnServerCertificateReceived, IXMLHTTPRequest3Callback::OnServerCertificateReceived, OnServerCertificateReceived, OnServerCertificateReceived method [XMLHttpRequest2], OnServerCertificateReceived method [XMLHttpRequest2],IXMLHTTPRequest3Callback interface, ixhr2.ixmlhttprequest3callback_onservercertificatereceived, msxml6/IXMLHTTPRequest3Callback::OnServerCertificateReceived
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest3Callback::OnServerCertificateReceived method
+# IXMLHTTPRequest3Callback::OnServerCertificateReceived
 
 
 ## -description

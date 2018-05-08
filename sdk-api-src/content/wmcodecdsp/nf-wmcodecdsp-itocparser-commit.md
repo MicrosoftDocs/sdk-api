@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.Commit
-title: ITocParser::Commit method
+title: ITocParser::Commit
 author: windows-driver-content
 description: The Commit method stores the current state of the TOC Parser object in its associated media file.
 old-location: mf\itocparser_commit.htm
 old-project: medfound
 ms.assetid: 549c170e-2e4d-4edb-b84e-178bfbb13fed
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: Commit method [Media Foundation], Commit method [Media Foundation], ITocParser interface, Commit,ITocParser.Commit, ITocParser, ITocParser interface [Media Foundation], Commit method, ITocParser::Commit, codecapi.itocparser_commit, mf.itocparser_commit, wmcodecdsp/ITocParser::Commit
+ms.date: 5/3/2018
+ms.keywords: Commit, Commit method [Media Foundation], Commit method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],Commit method, ITocParser.Commit, ITocParser::Commit, codecapi.itocparser_commit, mf.itocparser_commit, wmcodecdsp/ITocParser::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocParser::Commit method
+# ITocParser::Commit
 
 
 ## -description

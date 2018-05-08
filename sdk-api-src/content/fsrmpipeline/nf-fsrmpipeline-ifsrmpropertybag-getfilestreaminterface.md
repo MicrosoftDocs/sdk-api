@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.GetFileStreamInterface
-title: IFsrmPropertyBag::GetFileStreamInterface method
+title: IFsrmPropertyBag::GetFileStreamInterface
 author: windows-driver-content
 description: Retrieves a file stream interface that you can use to access the contents of the file.
 old-location: fsrm\ifsrmpropertybag_getfilestreaminterface.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: e5250f0f-c8b4-4579-a4c2-b4f6ee48acdc
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: GetFileStreamInterface method [File Server Resource Manager], GetFileStreamInterface method [File Server Resource Manager], IFsrmPropertyBag interface, GetFileStreamInterface,IFsrmPropertyBag.GetFileStreamInterface, IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], GetFileStreamInterface method, IFsrmPropertyBag::GetFileStreamInterface, fs.ifsrmpropertybag_getfilestreaminterface, fsrm.ifsrmpropertybag_getfilestreaminterface, fsrmpipeline/IFsrmPropertyBag::GetFileStreamInterface
+ms.keywords: GetFileStreamInterface, GetFileStreamInterface method [File Server Resource Manager], GetFileStreamInterface method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],GetFileStreamInterface method, IFsrmPropertyBag.GetFileStreamInterface, IFsrmPropertyBag::GetFileStreamInterface, fs.ifsrmpropertybag_getfilestreaminterface, fsrm.ifsrmpropertybag_getfilestreaminterface, fsrmpipeline/IFsrmPropertyBag::GetFileStreamInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyBag::GetFileStreamInterface method
+# IFsrmPropertyBag::GetFileStreamInterface
 
 
 ## -description

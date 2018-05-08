@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScopes.get_Count
-title: IAzScopes::get_Count method
+title: IAzScopes::get_Count
 author: windows-driver-content
 description: Retrieves the number of IAzScope objects in the collection.
 old-location: security\iazscopes_count.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: aff809a6-c768-4cfe-a41f-ee227f77a3b1
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzScopes object [Security], Count property, Count property [Security], Count property [Security], AzScopes object, Count property [Security], IAzScopes interface, IAzScopes, IAzScopes interface [Security], Count property, IAzScopes.Count, IAzScopes::get_Count, azroles/IAzScopes::Count, azroles/IAzScopes::get_Count, get_Count,IAzScopes.get_Count, security.iazscopes_count
+ms.keywords: AzScopes object [Security],Count property, Count property [Security], Count property [Security],AzScopes object, Count property [Security],IAzScopes interface, IAzScopes interface [Security],Count property, IAzScopes.Count, IAzScopes.get_Count, IAzScopes::Count, IAzScopes::get_Count, azroles/IAzScopes::Count, azroles/IAzScopes::get_Count, get_Count, security.iazscopes_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScopes::get_Count method
+# IAzScopes::get_Count
 
 
 ## -description

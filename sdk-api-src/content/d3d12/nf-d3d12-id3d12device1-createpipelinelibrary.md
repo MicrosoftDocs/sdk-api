@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device1.CreatePipelineLibrary
-title: ID3D12Device1::CreatePipelineLibrary method
+title: ID3D12Device1::CreatePipelineLibrary
 author: windows-driver-content
 description: Creates a cached pipeline library.
 old-location: direct3d12\id3d12device1_createpipelinelibrary.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 572A95A6-A02F-4512-9BDE-2A8CA58A0A27
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreatePipelineLibrary method, CreatePipelineLibrary method, ID3D12Device1 interface, CreatePipelineLibrary,ID3D12Device1.CreatePipelineLibrary, ID3D12Device1, ID3D12Device1 interface, CreatePipelineLibrary method, ID3D12Device1::CreatePipelineLibrary, d3d12/ID3D12Device1::CreatePipelineLibrary, direct3d12.id3d12device1_createpipelinelibrary
+ms.keywords: CreatePipelineLibrary, CreatePipelineLibrary method, CreatePipelineLibrary method,ID3D12Device1 interface, ID3D12Device1 interface,CreatePipelineLibrary method, ID3D12Device1.CreatePipelineLibrary, ID3D12Device1::CreatePipelineLibrary, d3d12/ID3D12Device1::CreatePipelineLibrary, direct3d12.id3d12device1_createpipelinelibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12Device1::CreatePipelineLibrary method
+# ID3D12Device1::CreatePipelineLibrary
 
 
 ## -description

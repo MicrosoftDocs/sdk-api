@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfMessagePump.PeekMessageA
-title: ITfMessagePump::PeekMessageA method
+title: ITfMessagePump::PeekMessageA
 author: windows-driver-content
 description: ITfMessagePump::PeekMessageA method
 old-location: tsf\itfmessagepump_peekmessagea.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4b20fa18-f5c3-4f3b-bb93-0e352d620d31
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfMessagePump, ITfMessagePump interface [Text Services Framework], PeekMessageA method, ITfMessagePump::PeekMessageA, PeekMessageA method [Text Services Framework], PeekMessageA method [Text Services Framework], ITfMessagePump interface, PeekMessageA,ITfMessagePump.PeekMessageA, _tsf_itfmessagepump_peekmessagea_ref, msctf/ITfMessagePump::PeekMessageA, tsf.itfmessagepump_peekmessagea
+ms.keywords: ITfMessagePump interface [Text Services Framework],PeekMessageA method, ITfMessagePump.PeekMessageA, ITfMessagePump::PeekMessageA, PeekMessageA, PeekMessageA method [Text Services Framework], PeekMessageA method [Text Services Framework],ITfMessagePump interface, _tsf_itfmessagepump_peekmessagea_ref, msctf/ITfMessagePump::PeekMessageA, tsf.itfmessagepump_peekmessagea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfMessagePump::PeekMessageA method
+# ITfMessagePump::PeekMessageA
 
 
 ## -description

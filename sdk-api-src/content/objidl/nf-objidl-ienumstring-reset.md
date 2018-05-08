@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumString.Reset
-title: IEnumString::Reset method
+title: IEnumString::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumstring_reset.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 6f134738-b5ed-4f45-bf91-eeb28c8965c6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumString, IEnumString interface [COM], Reset method, IEnumString::Reset, Reset method [COM], Reset method [COM], IEnumString interface, Reset,IEnumString.Reset, _com_ienumstring_reset, com.ienumstring_reset, objidlbase/IEnumString::Reset
+ms.keywords: IEnumString interface [COM],Reset method, IEnumString.Reset, IEnumString::Reset, Reset, Reset method [COM], Reset method [COM],IEnumString interface, _com_ienumstring_reset, com.ienumstring_reset, objidlbase/IEnumString::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumString::Reset method
+# IEnumString::Reset
 
 
 ## -description

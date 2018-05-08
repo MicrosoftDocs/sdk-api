@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetOutputByteStream
-title: IMFCaptureRecordSink::SetOutputByteStream method
+title: IMFCaptureRecordSink::SetOutputByteStream
 author: windows-driver-content
 description: Specifies a byte stream that will receive the data for the recording.
 old-location: mf\imfcapturerecordsink_setoutputbytestream.htm
 old-project: medfound
 ms.assetid: C33357C8-882A-4350-8638-46C2220FC445
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureRecordSink, IMFCaptureRecordSink interface [Media Foundation], SetOutputByteStream method, IMFCaptureRecordSink::SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation], IMFCaptureRecordSink interface, SetOutputByteStream,IMFCaptureRecordSink.SetOutputByteStream, mf.imfcapturerecordsink_setoutputbytestream, mfcaptureengine/IMFCaptureRecordSink::SetOutputByteStream
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetOutputByteStream method, IMFCaptureRecordSink.SetOutputByteStream, IMFCaptureRecordSink::SetOutputByteStream, SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setoutputbytestream, mfcaptureengine/IMFCaptureRecordSink::SetOutputByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureRecordSink::SetOutputByteStream method
+# IMFCaptureRecordSink::SetOutputByteStream
 
 
 ## -description

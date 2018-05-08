@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.RemoveAllScopes
-title: IWbemPath::RemoveAllScopes method
+title: IWbemPath::RemoveAllScopes
 author: windows-driver-content
 description: The IWbemPath::RemoveAllScopes method removes all scopes from the path.
 old-location: wmi\iwbempath_removeallscopes.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 46c3215f-d038-4d0b-a9ce-b58e9381059e
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], RemoveAllScopes method, IWbemPath::RemoveAllScopes, RemoveAllScopes method [Windows Management Instrumentation], RemoveAllScopes method [Windows Management Instrumentation], IWbemPath interface, RemoveAllScopes,IWbemPath.RemoveAllScopes, _hmm_iwbempath_removeallscopes, wmi.iwbempath_removeallscopes, wmiutils/IWbemPath::RemoveAllScopes
+ms.keywords: IWbemPath interface [Windows Management Instrumentation],RemoveAllScopes method, IWbemPath.RemoveAllScopes, IWbemPath::RemoveAllScopes, RemoveAllScopes, RemoveAllScopes method [Windows Management Instrumentation], RemoveAllScopes method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_removeallscopes, wmi.iwbempath_removeallscopes, wmiutils/IWbemPath::RemoveAllScopes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPath::RemoveAllScopes method
+# IWbemPath::RemoveAllScopes
 
 
 ## -description

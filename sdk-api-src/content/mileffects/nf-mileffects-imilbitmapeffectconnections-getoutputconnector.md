@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnections.GetOutputConnector
-title: IMILBitmapEffectConnections::GetOutputConnector method
+title: IMILBitmapEffectConnections::GetOutputConnector
 author: windows-driver-content
 description: Retrieves the output connector associated with the given pin index.
 old-location: wibe\_wibe_imilbitmapeffectconnections_getoutputconnector.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnections\getoutputconnector.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetOutputConnector method [WPF Bitmap Effects], GetOutputConnector method [WPF Bitmap Effects], IMILBitmapEffectConnections interface, GetOutputConnector,IMILBitmapEffectConnections.GetOutputConnector, IMILBitmapEffectConnections, IMILBitmapEffectConnections interface [WPF Bitmap Effects], GetOutputConnector method, IMILBitmapEffectConnections::GetOutputConnector, _wibe_imilbitmapeffectconnections_getoutputconnector, mileffects/IMILBitmapEffectConnections::GetOutputConnector, wibe._wibe_imilbitmapeffectconnections_getoutputconnector
+ms.keywords: GetOutputConnector, GetOutputConnector method [WPF Bitmap Effects], GetOutputConnector method [WPF Bitmap Effects],IMILBitmapEffectConnections interface, IMILBitmapEffectConnections interface [WPF Bitmap Effects],GetOutputConnector method, IMILBitmapEffectConnections.GetOutputConnector, IMILBitmapEffectConnections::GetOutputConnector, _wibe_imilbitmapeffectconnections_getoutputconnector, mileffects/IMILBitmapEffectConnections::GetOutputConnector, wibe._wibe_imilbitmapeffectconnections_getoutputconnector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectConnections::GetOutputConnector method
+# IMILBitmapEffectConnections::GetOutputConnector
 
 
 ## -description

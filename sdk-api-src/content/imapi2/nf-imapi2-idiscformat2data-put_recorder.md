@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_Recorder
-title: IDiscFormat2Data::put_Recorder method
+title: IDiscFormat2Data::put_Recorder
 author: windows-driver-content
 description: Sets the recording device to use for the write operation.
 old-location: imapi\idiscformat2data_put_recorder.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d8d1f6ec-09cb-4144-b44c-970555451aee
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], put_Recorder method, IDiscFormat2Data::put_Recorder, imapi.idiscformat2data_put_recorder, imapi2/IDiscFormat2Data::put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI], IDiscFormat2Data interface, put_Recorder,IDiscFormat2Data.put_Recorder
+ms.keywords: IDiscFormat2Data interface [IMAPI],put_Recorder method, IDiscFormat2Data.put_Recorder, IDiscFormat2Data::put_Recorder, imapi.idiscformat2data_put_recorder, imapi2/IDiscFormat2Data::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IDiscFormat2Data interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Data::put_Recorder method
+# IDiscFormat2Data::put_Recorder
 
 
 ## -description

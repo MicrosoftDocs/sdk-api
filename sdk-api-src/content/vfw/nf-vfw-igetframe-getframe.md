@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IGetFrame.GetFrame
-title: IGetFrame::GetFrame method
+title: IGetFrame::GetFrame
 author: windows-driver-content
 description: The GetFrame method retrieves a decompressed copy of a frame from a stream. Called when an application uses the AVIStreamGetFrame function.
 old-location: multimedia\igetframe_getframe.htm
 old-project: Multimedia
 ms.assetid: e2b76aad-e2db-4e04-be54-b697830e8644
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: GetFrame method [Windows Multimedia], GetFrame method [Windows Multimedia], IGetFrame interface, GetFrame,IGetFrame.GetFrame, IGetFrame, IGetFrame interface [Windows Multimedia], GetFrame method, IGetFrame::GetFrame, _win32_IGetFrame_GetFrame, multimedia.igetframe_getframe, vfw/IGetFrame::GetFrame
+ms.date: 5/4/2018
+ms.keywords: GetFrame, GetFrame method [Windows Multimedia], GetFrame method [Windows Multimedia],IGetFrame interface, IGetFrame interface [Windows Multimedia],GetFrame method, IGetFrame.GetFrame, IGetFrame::GetFrame, _win32_IGetFrame_GetFrame, multimedia.igetframe_getframe, vfw/IGetFrame::GetFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IGetFrame::GetFrame method
+# IGetFrame::GetFrame
 
 
 ## -description

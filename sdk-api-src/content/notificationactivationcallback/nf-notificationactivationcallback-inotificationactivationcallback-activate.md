@@ -1,6 +1,6 @@
 ---
 UID: NF:notificationactivationcallback.INotificationActivationCallback.Activate
-title: INotificationActivationCallback::Activate method
+title: INotificationActivationCallback::Activate
 author: windows-driver-content
 description: Called when a user interacts with a toast in the action center.
 old-location: win32_tile_badge_notif\inotificationactivationcallback_activate.htm
@@ -8,7 +8,7 @@ old-project: win32_tile_badge_notif
 ms.assetid: C366FE9F-D962-485F-B029-A96AA3358942
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Activate method, Activate method, INotificationActivationCallback interface, Activate,INotificationActivationCallback.Activate, INotificationActivationCallback, INotificationActivationCallback interface, Activate method, INotificationActivationCallback::Activate, notificationactivationcallback/INotificationActivationCallback::Activate, win32_tile_badge_notif.inotificationactivationcallback_activate
+ms.keywords: Activate, Activate method, Activate method,INotificationActivationCallback interface, INotificationActivationCallback interface,Activate method, INotificationActivationCallback.Activate, INotificationActivationCallback::Activate, notificationactivationcallback/INotificationActivationCallback::Activate, win32_tile_badge_notif.inotificationactivationcallback_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INotificationActivationCallback::Activate method
+# INotificationActivationCallback::Activate
 
 
 ## -description

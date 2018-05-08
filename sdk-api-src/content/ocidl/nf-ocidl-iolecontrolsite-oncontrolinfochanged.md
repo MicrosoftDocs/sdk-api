@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControlSite.OnControlInfoChanged
-title: IOleControlSite::OnControlInfoChanged method
+title: IOleControlSite::OnControlInfoChanged
 author: windows-driver-content
 description: Informs the container that the control's CONTROLINFO structure has changed and that the container should call the control's IOleControl::GetControlInfo for an update.
 old-location: com\iolecontrolsite_oncontrolinfochanged.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d9e915c0-3443-4464-9e3e-e1fbfe37e838
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleControlSite, IOleControlSite interface [COM], OnControlInfoChanged method, IOleControlSite::OnControlInfoChanged, OnControlInfoChanged method [COM], OnControlInfoChanged method [COM], IOleControlSite interface, OnControlInfoChanged,IOleControlSite.OnControlInfoChanged, _ctrl_iolecontrolsite_oncontrolinfochanged, com.iolecontrolsite_oncontrolinfochanged, ocidl/IOleControlSite::OnControlInfoChanged
+ms.keywords: IOleControlSite interface [COM],OnControlInfoChanged method, IOleControlSite.OnControlInfoChanged, IOleControlSite::OnControlInfoChanged, OnControlInfoChanged, OnControlInfoChanged method [COM], OnControlInfoChanged method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_oncontrolinfochanged, com.iolecontrolsite_oncontrolinfochanged, ocidl/IOleControlSite::OnControlInfoChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleControlSite::OnControlInfoChanged method
+# IOleControlSite::OnControlInfoChanged
 
 
 ## -description

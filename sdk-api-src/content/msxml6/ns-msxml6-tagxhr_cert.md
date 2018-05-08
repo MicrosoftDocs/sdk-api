@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_CERT, XHR_CERT
+req.typenames: XHR_CERT
 topic_type:
 -	APIRef
 -	kbSyntax

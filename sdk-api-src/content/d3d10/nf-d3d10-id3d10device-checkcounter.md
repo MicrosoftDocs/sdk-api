@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CheckCounter
-title: ID3D10Device::CheckCounter method
+title: ID3D10Device::CheckCounter
 author: windows-driver-content
 description: Get the type, name, units of measure, and a description of an existing counter.
 old-location: direct3d10\id3d10device_checkcounter.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_checkcounter.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 16cb87e3-fdfa-0b39-e72e-a725642eb2ba, CheckCounter method [Direct3D 10], CheckCounter method [Direct3D 10], ID3D10Device interface, CheckCounter,ID3D10Device.CheckCounter, ID3D10Device, ID3D10Device interface [Direct3D 10], CheckCounter method, ID3D10Device::CheckCounter, d3d10/ID3D10Device::CheckCounter, direct3d10.id3d10device_checkcounter
+ms.keywords: 16cb87e3-fdfa-0b39-e72e-a725642eb2ba, CheckCounter, CheckCounter method [Direct3D 10], CheckCounter method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CheckCounter method, ID3D10Device.CheckCounter, ID3D10Device::CheckCounter, d3d10/ID3D10Device::CheckCounter, direct3d10.id3d10device_checkcounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::CheckCounter method
+# ID3D10Device::CheckCounter
 
 
 ## -description

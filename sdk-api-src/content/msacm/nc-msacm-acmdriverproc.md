@@ -7,8 +7,8 @@ old-location: multimedia\acmdriverproc.htm
 old-project: Multimedia
 ms.assetid: e29c157d-e56e-4242-abb8-2736d5599caa
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: "_win32_acmDriverProc, acmDriverProc, acmDriverProc callback function [Windows Multimedia], msacm/acmDriverProc, multimedia.acmdriverproc"
+ms.date: 5/4/2018
+ms.keywords: "_win32_acmDriverProc, acmDriverProc, acmDriverProc callback, acmDriverProc callback function [Windows Multimedia], msacm/acmDriverProc, multimedia.acmdriverproc"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ACMDRIVERPROC callback
+# ACMDRIVERPROC callback function
 
 
 ## -description

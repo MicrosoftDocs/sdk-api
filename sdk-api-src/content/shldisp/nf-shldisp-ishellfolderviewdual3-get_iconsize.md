@@ -1,14 +1,14 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.get_IconSize
-title: IShellFolderViewDual3::get_IconSize method
+title: IShellFolderViewDual3::get_IconSize
 author: windows-driver-content
 description: Gets the icon size setting for the current folder.
 old-location: shell\IShellFolderViewDual3_get_IconSize.htm
 old-project: shell
 ms.assetid: 005c440f-2340-4965-b717-5aa0f4e5142f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellFolderViewDual3, IShellFolderViewDual3 interface [Windows Shell], get_IconSize method, IShellFolderViewDual3::get_IconSize, _shell_IShellFolderViewDual3_get_IconSize, get_IconSize method [Windows Shell], get_IconSize method [Windows Shell], IShellFolderViewDual3 interface, get_IconSize,IShellFolderViewDual3.get_IconSize, shell.IShellFolderViewDual3_get_IconSize, shldisp/IShellFolderViewDual3::get_IconSize
+ms.date: 5/3/2018
+ms.keywords: IShellFolderViewDual3 interface [Windows Shell],get_IconSize method, IShellFolderViewDual3.get_IconSize, IShellFolderViewDual3::get_IconSize, _shell_IShellFolderViewDual3_get_IconSize, get_IconSize, get_IconSize method [Windows Shell], get_IconSize method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_get_IconSize, shldisp/IShellFolderViewDual3::get_IconSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellFolderViewDual3::get_IconSize method
+# IShellFolderViewDual3::get_IconSize
 
 
 ## -description

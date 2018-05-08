@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_FilePropertyNames
-title: IFsrmPropertyBag::get_FilePropertyNames method
+title: IFsrmPropertyBag::get_FilePropertyNames
 author: windows-driver-content
 description: A list of the names of the properties that the bag contains.
 old-location: fsrm\ifsrmpropertybag_filepropertynames.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 5dfbf1a8-99a4-4348-8fc4-9d582330be57
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FilePropertyNames property [File Server Resource Manager], FilePropertyNames property [File Server Resource Manager], IFsrmPropertyBag interface, IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], FilePropertyNames property, IFsrmPropertyBag.FilePropertyNames, IFsrmPropertyBag::get_FilePropertyNames, fs.ifsrmpropertybag_filepropertynames, fsrm.ifsrmpropertybag_filepropertynames, fsrmpipeline/IFsrmPropertyBag::FilePropertyNames, fsrmpipeline/IFsrmPropertyBag::get_FilePropertyNames, get_FilePropertyNames,IFsrmPropertyBag.get_FilePropertyNames
+ms.keywords: FilePropertyNames property [File Server Resource Manager], FilePropertyNames property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],FilePropertyNames property, IFsrmPropertyBag.FilePropertyNames, IFsrmPropertyBag.get_FilePropertyNames, IFsrmPropertyBag::FilePropertyNames, IFsrmPropertyBag::get_FilePropertyNames, fs.ifsrmpropertybag_filepropertynames, fsrm.ifsrmpropertybag_filepropertynames, fsrmpipeline/IFsrmPropertyBag::FilePropertyNames, fsrmpipeline/IFsrmPropertyBag::get_FilePropertyNames, get_FilePropertyNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyBag::get_FilePropertyNames method
+# IFsrmPropertyBag::get_FilePropertyNames
 
 
 ## -description

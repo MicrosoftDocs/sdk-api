@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: cb23cbe2-764c-47e4-bd32-2791ddde9eee
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcRelationshipSelectorSet, IOpcRelationshipSelectorSet interface [Open Packaging Conventions], IOpcRelationshipSelectorSet interface [Open Packaging Conventions], described, msopc/IOpcRelationshipSelectorSet, opc.iopcrelationshipselectorset
+ms.keywords: IOpcRelationshipSelectorSet, IOpcRelationshipSelectorSet interface [Open Packaging Conventions], IOpcRelationshipSelectorSet interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSelectorSet, opc.iopcrelationshipselectorset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

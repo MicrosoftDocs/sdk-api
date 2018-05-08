@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManagerEvents.OnConnectionProfileRemoval
-title: IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval method
+title: IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval
 author: windows-driver-content
 description: Notification method that indicates a connection profile has been removed from the system.
 old-location: mbn\imbnconnectionprofilemanagerevents_onconnectionprofileremoval.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 30b8c7fb-5a48-4025-aa94-18f17e7c8d19
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnConnectionProfileManagerEvents, IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks], OnConnectionProfileRemoval method, IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval, OnConnectionProfileRemoval method [Microsoft Broadband Networks], OnConnectionProfileRemoval method [Microsoft Broadband Networks], IMbnConnectionProfileManagerEvents interface, OnConnectionProfileRemoval,IMbnConnectionProfileManagerEvents.OnConnectionProfileRemoval, mbn.imbnconnectionprofilemanagerevents_onconnectionprofileremoval, mbnapi/IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval
+ms.keywords: IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks],OnConnectionProfileRemoval method, IMbnConnectionProfileManagerEvents.OnConnectionProfileRemoval, IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval, OnConnectionProfileRemoval, OnConnectionProfileRemoval method [Microsoft Broadband Networks], OnConnectionProfileRemoval method [Microsoft Broadband Networks],IMbnConnectionProfileManagerEvents interface, mbn.imbnconnectionprofilemanagerevents_onconnectionprofileremoval, mbnapi/IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval method
+# IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval
 
 
 ## -description

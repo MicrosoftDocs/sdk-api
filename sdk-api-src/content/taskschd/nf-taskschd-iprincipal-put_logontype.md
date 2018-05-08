@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal.put_LogonType
-title: IPrincipal::put_LogonType method
+title: IPrincipal::put_LogonType
 author: windows-driver-content
 description: Gets or sets the security logon method that is required to run the tasks that are associated with the principal.
 old-location: taskschd\iprincipal_logontype.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: cf0a8ad4-f1bb-46a2-ae92-d00e08b8d459
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPrincipal, IPrincipal interface [Task Scheduler], LogonType property, IPrincipal.LogonType, IPrincipal::get_LogonType, IPrincipal::put_LogonType, LogonType property [Task Scheduler], LogonType property [Task Scheduler], IPrincipal interface, TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, TASK_LOGON_NONE, TASK_LOGON_PASSWORD, TASK_LOGON_S4U, TASK_LOGON_SERVICE_ACCOUNT, put_LogonType,IPrincipal.put_LogonType, taskschd.iprincipal_logontype, taskschd/IPrincipal::LogonType, taskschd/IPrincipal::get_LogonType, taskschd/IPrincipal::put_LogonType
+ms.keywords: IPrincipal interface [Task Scheduler],LogonType property, IPrincipal.LogonType, IPrincipal.put_LogonType, IPrincipal::LogonType, IPrincipal::get_LogonType, IPrincipal::put_LogonType, LogonType property [Task Scheduler], LogonType property [Task Scheduler],IPrincipal interface, TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, TASK_LOGON_NONE, TASK_LOGON_PASSWORD, TASK_LOGON_S4U, TASK_LOGON_SERVICE_ACCOUNT, put_LogonType, taskschd.iprincipal_logontype, taskschd/IPrincipal::LogonType, taskschd/IPrincipal::get_LogonType, taskschd/IPrincipal::put_LogonType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IPrincipal::put_LogonType method
+# IPrincipal::put_LogonType
 
 
 ## -description

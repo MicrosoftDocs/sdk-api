@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetRegisteredDeviceByID
-title: IWMDeviceRegistration::GetRegisteredDeviceByID method
+title: IWMDeviceRegistration::GetRegisteredDeviceByID
 author: windows-driver-content
 description: The GetRegisteredDeviceByID method retrieves information about a registered device by the device identifier.
 old-location: wmformat\iwmdeviceregistration_getregistereddevicebyid.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 26ded37b-1169-4c47-8880-bd19c977171e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetRegisteredDeviceByID method [windows Media Format], GetRegisteredDeviceByID method [windows Media Format], IWMDeviceRegistration interface, GetRegisteredDeviceByID,IWMDeviceRegistration.GetRegisteredDeviceByID, IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], GetRegisteredDeviceByID method, IWMDeviceRegistration::GetRegisteredDeviceByID, IWMDeviceRegistrationGetRegisteredDeviceByID, wmformat.iwmdeviceregistration_getregistereddevicebyid, wmsdkidl/IWMDeviceRegistration::GetRegisteredDeviceByID
+ms.keywords: GetRegisteredDeviceByID, GetRegisteredDeviceByID method [windows Media Format], GetRegisteredDeviceByID method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetRegisteredDeviceByID method, IWMDeviceRegistration.GetRegisteredDeviceByID, IWMDeviceRegistration::GetRegisteredDeviceByID, IWMDeviceRegistrationGetRegisteredDeviceByID, wmformat.iwmdeviceregistration_getregistereddevicebyid, wmsdkidl/IWMDeviceRegistration::GetRegisteredDeviceByID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDeviceRegistration::GetRegisteredDeviceByID method
+# IWMDeviceRegistration::GetRegisteredDeviceByID
 
 
 ## -description

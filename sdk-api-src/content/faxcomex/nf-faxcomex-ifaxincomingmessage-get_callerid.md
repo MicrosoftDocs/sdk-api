@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_CallerId
-title: IFaxIncomingMessage::get_CallerId method
+title: IFaxIncomingMessage::get_CallerId
 author: windows-driver-content
 description: The CallerId property is a null-terminated string that identifies the calling device associated with the inbound fax message.
 old-location: fax\_mfax_faxincomingmessage_callerid_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1bfo.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service], FaxIncomingMessage object, FaxIncomingMessage object [Fax Service], CallerId property, IFaxIncomingMessage, IFaxIncomingMessage::get_CallerId, _mfax_faxincomingmessage.callerid, fax._mfax_faxincomingmessage_callerid, fax._mfax_faxincomingmessage_callerid_vb, get_CallerId,IFaxIncomingMessage.get_CallerId
+ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],FaxIncomingMessage object, FaxIncomingMessage object [Fax Service],CallerId property, FaxIncomingMessage.CallerId, IFaxIncomingMessage.get_CallerId, IFaxIncomingMessage::get_CallerId, _mfax_faxincomingmessage.callerid, fax._mfax_faxincomingmessage_callerid, fax._mfax_faxincomingmessage_callerid_vb, get_CallerId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxIncomingMessage::get_CallerId method
+# IFaxIncomingMessage::get_CallerId
 
 
 ## -description

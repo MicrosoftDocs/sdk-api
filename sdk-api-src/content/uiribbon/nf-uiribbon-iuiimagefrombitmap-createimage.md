@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIImageFromBitmap.CreateImage
-title: IUIImageFromBitmap::CreateImage method
+title: IUIImageFromBitmap::CreateImage
 author: windows-driver-content
 description: Creates an IUIImage object from a bitmap image.
 old-location: windowsribbon\windowsribbon_iuiimagefrombitmap_createimage.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimagefrombitmap\createimage.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateImage method [Windows Ribbon], CreateImage method [Windows Ribbon], IUIImageFromBitmap interface, CreateImage,IUIImageFromBitmap.CreateImage, IUIImageFromBitmap, IUIImageFromBitmap interface [Windows Ribbon], CreateImage method, IUIImageFromBitmap::CreateImage, scenicintent_IUIImageFromBitmap_CreateImage, uiribbon/IUIImageFromBitmap::CreateImage, windowsribbon.windowsribbon_iuiimagefrombitmap_createimage
+ms.keywords: CreateImage, CreateImage method [Windows Ribbon], CreateImage method [Windows Ribbon],IUIImageFromBitmap interface, IUIImageFromBitmap interface [Windows Ribbon],CreateImage method, IUIImageFromBitmap.CreateImage, IUIImageFromBitmap::CreateImage, scenicintent_IUIImageFromBitmap_CreateImage, uiribbon/IUIImageFromBitmap::CreateImage, windowsribbon.windowsribbon_iuiimagefrombitmap_createimage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUIImageFromBitmap::CreateImage method
+# IUIImageFromBitmap::CreateImage
 
 
 ## -description

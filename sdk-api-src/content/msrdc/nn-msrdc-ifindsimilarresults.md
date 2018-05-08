@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 3118cf53-c544-48bc-ac38-79ca2252f83f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFindSimilarResults, IFindSimilarResults interface [Remote Differential Compression], IFindSimilarResults interface [Remote Differential Compression], described, fs.ifindsimilarresults, msrdc/IFindSimilarResults, rdc.ifindsimilarresults
+ms.keywords: IFindSimilarResults, IFindSimilarResults interface [Remote Differential Compression], IFindSimilarResults interface [Remote Differential Compression],described, fs.ifindsimilarresults, msrdc/IFindSimilarResults, rdc.ifindsimilarresults
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

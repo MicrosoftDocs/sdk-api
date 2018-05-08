@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.GetType
-title: IConnector::GetType method
+title: IConnector::GetType
 author: windows-driver-content
 description: The GetType method gets the type of this connector.
 old-location: coreaudio\iconnector_gettype.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 0e50d371-0a2e-4004-9225-4a9da7c3f139
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetType method [Core Audio], GetType method [Core Audio], IConnector interface, GetType,IConnector.GetType, IConnector, IConnector interface [Core Audio], GetType method, IConnector::GetType, IConnectorGetType, coreaudio.iconnector_gettype, devicetopology/IConnector::GetType
+ms.keywords: GetType, GetType method [Core Audio], GetType method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetType method, IConnector.GetType, IConnector::GetType, IConnectorGetType, coreaudio.iconnector_gettype, devicetopology/IConnector::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IConnector::GetType method
+# IConnector::GetType
 
 
 ## -description

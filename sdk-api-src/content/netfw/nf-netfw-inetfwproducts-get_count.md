@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwProducts.get_Count
-title: INetFwProducts::get_Count method
+title: INetFwProducts::get_Count
 author: windows-driver-content
 description: Indicates the number of registered third-party firewall products.
 old-location: ics\inetfwproducts_count.htm
 old-project: ICS
 ms.assetid: 2090603e-33c8-4b2a-86d4-efc1c5665af8
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF], INetFwProducts interface, INetFwProducts, INetFwProducts interface [ICS/ICF], Count property, INetFwProducts.Count, INetFwProducts::get_Count, get_Count,INetFwProducts.get_Count, ics.inetfwproducts_count, netfw/INetFwProducts::Count, netfw/INetFwProducts::get_Count
+ms.date: 5/1/2018
+ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwProducts interface, INetFwProducts interface [ICS/ICF],Count property, INetFwProducts.Count, INetFwProducts.get_Count, INetFwProducts::Count, INetFwProducts::get_Count, get_Count, ics.inetfwproducts_count, netfw/INetFwProducts::Count, netfw/INetFwProducts::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwProducts::get_Count method
+# INetFwProducts::get_Count
 
 
 ## -description

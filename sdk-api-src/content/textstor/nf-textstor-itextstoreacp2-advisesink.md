@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.AdviseSink
-title: ITextStoreACP2::AdviseSink method
+title: ITextStoreACP2::AdviseSink
 author: windows-driver-content
 description: Installs a new advise sink from the ITextStoreACPSink interface or modifies an existing advise sink. The sink interface is specified by the punk parameter.
 old-location: tsf\itextstoreacp2_advisesink.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 15fa2f85-3fe8-4e2d-bd3b-a270182adc66
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework], ITextStoreACP2 interface, AdviseSink,ITextStoreACP2.AdviseSink, ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], AdviseSink method, ITextStoreACP2::AdviseSink, textstor/ITextStoreACP2::AdviseSink, tsf.itextstoreacp2_advisesink
+ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],AdviseSink method, ITextStoreACP2.AdviseSink, ITextStoreACP2::AdviseSink, textstor/ITextStoreACP2::AdviseSink, tsf.itextstoreacp2_advisesink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP2::AdviseSink method
+# ITextStoreACP2::AdviseSink
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.Reset
-title: ICertEncodeLongArray::Reset method
+title: ICertEncodeLongArray::Reset
 author: windows-driver-content
 description: Specifies the size of the array in this object.
 old-location: security\icertencodelongarray_reset.htm
 old-project: SecCrypto
 ms.assetid: 4b5821e0-c81a-47b7-98b0-2a293967d8f6
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeLongArray object [Security], Reset method, ICertEncodeLongArray, ICertEncodeLongArray interface [Security], Reset method, ICertEncodeLongArray::Reset, Reset method [Security], Reset method [Security], CCertEncodeLongArray object, Reset method [Security], ICertEncodeLongArray interface, Reset,ICertEncodeLongArray.Reset, _certsrv_icertencodelongarray_reset, certenc/ICertEncodeLongArray::Reset, security.icertencodelongarray_reset
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeLongArray object [Security],Reset method, ICertEncodeLongArray interface [Security],Reset method, ICertEncodeLongArray.Reset, ICertEncodeLongArray::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeLongArray object, Reset method [Security],ICertEncodeLongArray interface, _certsrv_icertencodelongarray_reset, certenc/ICertEncodeLongArray::Reset, security.icertencodelongarray_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeLongArray::Reset method
+# ICertEncodeLongArray::Reset
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCProviderState.Disable
-title: IWPCProviderState::Disable method
+title: IWPCProviderState::Disable
 author: windows-driver-content
 description: Notifies the third-party application that it is not the current provider.
 old-location: parcon\iwpcproviderstate_disable.htm
@@ -8,7 +8,7 @@ old-project: parcon
 ms.assetid: 2aa1a236-b681-4226-a337-507d0854955d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Disable method, Disable method, IWPCProviderState interface, Disable,IWPCProviderState.Disable, IWPCProviderState, IWPCProviderState interface, Disable method, IWPCProviderState::Disable, parcon.iwpcproviderstate_disable, wpcapi/IWPCProviderState::Disable
+ms.keywords: Disable, Disable method, Disable method,IWPCProviderState interface, IWPCProviderState interface,Disable method, IWPCProviderState.Disable, IWPCProviderState::Disable, parcon.iwpcproviderstate_disable, wpcapi/IWPCProviderState::Disable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWPCProviderState::Disable method
+# IWPCProviderState::Disable
 
 
 ## -description

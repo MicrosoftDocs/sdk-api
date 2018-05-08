@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.AddRealtimeTraceStream
-title: ITraceRelogger::AddRealtimeTraceStream method
+title: ITraceRelogger::AddRealtimeTraceStream
 author: windows-driver-content
 description: Adds a new real-time ETW trace stream to the relogger.
 old-location: etw\itracerelogger_addrealtimetracestream.htm
@@ -8,7 +8,7 @@ old-project: ETW
 ms.assetid: 68bb5715-49b8-45bc-ae98-0b4a519c8e62
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AddRealtimeTraceStream method [ETW], AddRealtimeTraceStream method [ETW], ITraceRelogger interface, AddRealtimeTraceStream,ITraceRelogger.AddRealtimeTraceStream, ITraceRelogger, ITraceRelogger interface [ETW], AddRealtimeTraceStream method, ITraceRelogger::AddRealtimeTraceStream, etw.itracerelogger_addrealtimetracestream, relogger/ITraceRelogger::AddRealtimeTraceStream
+ms.keywords: AddRealtimeTraceStream, AddRealtimeTraceStream method [ETW], AddRealtimeTraceStream method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],AddRealtimeTraceStream method, ITraceRelogger.AddRealtimeTraceStream, ITraceRelogger::AddRealtimeTraceStream, etw.itracerelogger_addrealtimetracestream, relogger/ITraceRelogger::AddRealtimeTraceStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceRelogger::AddRealtimeTraceStream method
+# ITraceRelogger::AddRealtimeTraceStream
 
 
 ## -description

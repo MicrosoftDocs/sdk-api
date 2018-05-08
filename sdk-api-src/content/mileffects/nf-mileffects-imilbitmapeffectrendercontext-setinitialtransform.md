@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetInitialTransform
-title: IMILBitmapEffectRenderContext::SetInitialTransform method
+title: IMILBitmapEffectRenderContext::SetInitialTransform
 author: windows-driver-content
 description: Gets the initial MILMatrixF transform.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setinitialtransform.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setinitialtransform.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffectRenderContext, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects], SetInitialTransform method, IMILBitmapEffectRenderContext::SetInitialTransform, SetInitialTransform method [WPF Bitmap Effects], SetInitialTransform method [WPF Bitmap Effects], IMILBitmapEffectRenderContext interface, SetInitialTransform,IMILBitmapEffectRenderContext.SetInitialTransform, _wibe_imilbitmapeffectrendercontext_setinitialtransform, mileffects/IMILBitmapEffectRenderContext::SetInitialTransform, wibe._wibe_imilbitmapeffectrendercontext_setinitialtransform
+ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetInitialTransform method, IMILBitmapEffectRenderContext.SetInitialTransform, IMILBitmapEffectRenderContext::SetInitialTransform, SetInitialTransform, SetInitialTransform method [WPF Bitmap Effects], SetInitialTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setinitialtransform, mileffects/IMILBitmapEffectRenderContext::SetInitialTransform, wibe._wibe_imilbitmapeffectrendercontext_setinitialtransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectRenderContext::SetInitialTransform method
+# IMILBitmapEffectRenderContext::SetInitialTransform
 
 
 ## -description

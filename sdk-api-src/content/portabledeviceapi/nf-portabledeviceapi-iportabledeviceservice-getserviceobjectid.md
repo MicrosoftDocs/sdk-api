@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.GetServiceObjectID
-title: IPortableDeviceService::GetServiceObjectID method
+title: IPortableDeviceService::GetServiceObjectID
 author: windows-driver-content
 description: Retrieves an object identifier for the service. This object identifier can be used to access the properties of the service, for example.
 old-location: wpdsdk\iportabledeviceservice_getserviceobjectid.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: f86907c4-5d8a-4659-ab57-3c235face8cf
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetServiceObjectID method [Windows Portable Devices SDK], GetServiceObjectID method [Windows Portable Devices SDK], IPortableDeviceService interface, GetServiceObjectID,IPortableDeviceService.GetServiceObjectID, IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], GetServiceObjectID method, IPortableDeviceService::GetServiceObjectID, portabledeviceapi/IPortableDeviceService::GetServiceObjectID, wpdsdk.iportabledeviceservice_getserviceobjectid
+ms.keywords: GetServiceObjectID, GetServiceObjectID method [Windows Portable Devices SDK], GetServiceObjectID method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],GetServiceObjectID method, IPortableDeviceService.GetServiceObjectID, IPortableDeviceService::GetServiceObjectID, portabledeviceapi/IPortableDeviceService::GetServiceObjectID, wpdsdk.iportabledeviceservice_getserviceobjectid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceService::GetServiceObjectID method
+# IPortableDeviceService::GetServiceObjectID
 
 
 ## -description

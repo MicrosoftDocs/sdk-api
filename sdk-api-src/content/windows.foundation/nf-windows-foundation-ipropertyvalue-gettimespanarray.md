@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetTimeSpanArray
-title: IPropertyValue::GetTimeSpanArray method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of TimeSpan values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_gettimespanarray.htm
 old-project: WinRT
 ms.assetid: a52a665c-4c3a-4489-bd7b-e8ecb8dfe9cc
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetTimeSpanArray method [Windows Runtime], GetTimeSpanArray method [Windows Runtime], IPropertyValue interface, GetTimeSpanArray,IPropertyValue.GetTimeSpanArray, IPropertyValue, IPropertyValue interface [Windows Runtime], GetTimeSpanArray method, IPropertyValue::GetTimeSpanArray, windows/IPropertyValue::GetTimeSpanArray, winrt.ipropertyvalue_gettimespanarray
+ms.date: 5/4/2018
+ms.keywords: GetTimeSpanArray, GetTimeSpanArray method [Windows Runtime], GetTimeSpanArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetTimeSpanArray method, IPropertyValue.GetTimeSpanArray, IPropertyValue.IPropertyValue, IPropertyValue::GetTimeSpanArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetTimeSpanArray, winrt.ipropertyvalue_gettimespanarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetTimeSpanArray method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

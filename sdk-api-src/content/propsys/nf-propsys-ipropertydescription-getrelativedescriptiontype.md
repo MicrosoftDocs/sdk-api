@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetRelativeDescriptionType
-title: IPropertyDescription::GetRelativeDescriptionType method
+title: IPropertyDescription::GetRelativeDescriptionType
 author: windows-driver-content
 description: Gets the relative description type for a property description.
 old-location: properties\IPropertyDescription_GetRelativeDescriptionType.htm
 old-project: properties
 ms.assetid: b3778988-63ac-4827-8098-c3c5b6b13e38
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetRelativeDescriptionType method [Windows Properties], GetRelativeDescriptionType method [Windows Properties], IPropertyDescription interface, GetRelativeDescriptionType,IPropertyDescription.GetRelativeDescriptionType, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetRelativeDescriptionType method, IPropertyDescription::GetRelativeDescriptionType, properties.IPropertyDescription_GetRelativeDescriptionType, propsys/IPropertyDescription::GetRelativeDescriptionType, shell.IPropertyDescription_GetRelativeDescriptionType, shell_IPropertyDescription_GetRelativeDescriptionType
+ms.date: 4/27/2018
+ms.keywords: GetRelativeDescriptionType, GetRelativeDescriptionType method [Windows Properties], GetRelativeDescriptionType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetRelativeDescriptionType method, IPropertyDescription.GetRelativeDescriptionType, IPropertyDescription::GetRelativeDescriptionType, properties.IPropertyDescription_GetRelativeDescriptionType, propsys/IPropertyDescription::GetRelativeDescriptionType, shell.IPropertyDescription_GetRelativeDescriptionType, shell_IPropertyDescription_GetRelativeDescriptionType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescription::GetRelativeDescriptionType method
+# IPropertyDescription::GetRelativeDescriptionType
 
 
 ## -description

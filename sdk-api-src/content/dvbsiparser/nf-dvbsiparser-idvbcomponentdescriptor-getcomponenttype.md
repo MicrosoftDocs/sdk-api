@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetComponentType
-title: IDvbComponentDescriptor::GetComponentType method
+title: IDvbComponentDescriptor::GetComponentType
 author: windows-driver-content
 description: Gets the component type code for a Digital Video Broadcast (DVB) component descriptor.
 old-location: mstv\idvbcomponentdescriptor_getcomponenttype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c7bf5e21-1c88-4b5e-b043-33a127fad65f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetComponentType method [Microsoft TV Technologies], GetComponentType method [Microsoft TV Technologies], IDvbComponentDescriptor interface, GetComponentType,IDvbComponentDescriptor.GetComponentType, IDvbComponentDescriptor, IDvbComponentDescriptor interface [Microsoft TV Technologies], GetComponentType method, IDvbComponentDescriptor::GetComponentType, dvbsiparser/IDvbComponentDescriptor::GetComponentType, mstv.idvbcomponentdescriptor_getcomponenttype
+ms.keywords: GetComponentType, GetComponentType method [Microsoft TV Technologies], GetComponentType method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetComponentType method, IDvbComponentDescriptor.GetComponentType, IDvbComponentDescriptor::GetComponentType, dvbsiparser/IDvbComponentDescriptor::GetComponentType, mstv.idvbcomponentdescriptor_getcomponenttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbComponentDescriptor::GetComponentType method
+# IDvbComponentDescriptor::GetComponentType
 
 
 ## -description

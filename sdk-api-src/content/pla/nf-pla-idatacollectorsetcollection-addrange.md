@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.AddRange
-title: IDataCollectorSetCollection::AddRange method
+title: IDataCollectorSetCollection::AddRange
 author: windows-driver-content
 description: Adds one or more data collector sets to the collection.
 old-location: pla\idatacollectorsetcollection_addrange.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 52a7d9ba-9bff-428e-a43c-cc354157fd24
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddRange method [PLA], AddRange method [PLA], IDataCollectorSetCollection interface, AddRange,IDataCollectorSetCollection.AddRange, IDataCollectorSetCollection, IDataCollectorSetCollection interface [PLA], AddRange method, IDataCollectorSetCollection::AddRange, base.idatacollectorsetcollection_addrange, pla.idatacollectorsetcollection_addrange, pla/IDataCollectorSetCollection::AddRange
+ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],AddRange method, IDataCollectorSetCollection.AddRange, IDataCollectorSetCollection::AddRange, base.idatacollectorsetcollection_addrange, pla.idatacollectorsetcollection_addrange, pla/IDataCollectorSetCollection::AddRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSetCollection::AddRange method
+# IDataCollectorSetCollection::AddRange
 
 
 ## -description

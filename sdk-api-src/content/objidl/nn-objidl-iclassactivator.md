@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 4f34c5a4-46c0-4391-9c64-cbb6a366e2dc
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IClassActivator, IClassActivator interface [COM], IClassActivator interface [COM], described, _com_iclassactivator, com.iclassactivator, objidl/IClassActivator
+ms.keywords: IClassActivator, IClassActivator interface [COM], IClassActivator interface [COM],described, _com_iclassactivator, com.iclassactivator, objidl/IClassActivator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

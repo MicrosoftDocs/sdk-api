@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 49c413b3-3523-4602-9ec1-19f4e0fe5651
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPersistStreamInit, IPersistStreamInit interface [COM], IPersistStreamInit interface [COM], described, _com_ipersiststreaminit, com.ipersiststreaminit, ocidl/IPersistStreamInit
+ms.keywords: IPersistStreamInit, IPersistStreamInit interface [COM], IPersistStreamInit interface [COM],described, _com_ipersiststreaminit, com.ipersiststreaminit, ocidl/IPersistStreamInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IXDSCodec.GetLastErrorCode
-title: IXDSCodec::GetLastErrorCode method
+title: IXDSCodec::GetLastErrorCode
 author: windows-driver-content
 description: Not implemented in this release.
 old-location: mstv\ixdscodec_getlasterrorcode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 57fd833a-00cc-41d5-acf9-6b07aa8dc115
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies], IXDSCodec interface, GetLastErrorCode,IXDSCodec.GetLastErrorCode, IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], GetLastErrorCode method, IXDSCodec::GetLastErrorCode, IXDSCodecGetLastErrorCode, encdec/IXDSCodec::GetLastErrorCode, mstv.ixdscodec_getlasterrorcode
+ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetLastErrorCode method, IXDSCodec.GetLastErrorCode, IXDSCodec::GetLastErrorCode, IXDSCodecGetLastErrorCode, encdec/IXDSCodec::GetLastErrorCode, mstv.ixdscodec_getlasterrorcode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IXDSCodec::GetLastErrorCode method
+# IXDSCodec::GetLastErrorCode
 
 
 ## -description

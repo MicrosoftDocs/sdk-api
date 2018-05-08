@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IInitializeNetworkFolder.Initialize
-title: IInitializeNetworkFolder::Initialize method
+title: IInitializeNetworkFolder::Initialize
 author: windows-driver-content
 description: Initializes a network folder, as specified.
 old-location: shell\IInitializeNetworkFolder_Initialize.htm
 old-project: shell
 ms.assetid: a547b6f9-a4cc-4924-97f3-9fe08e6efc06
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IInitializeNetworkFolder, IInitializeNetworkFolder interface [Windows Shell], Initialize method, IInitializeNetworkFolder::Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell], IInitializeNetworkFolder interface, Initialize,IInitializeNetworkFolder.Initialize, _shell_IInitializeNetworkFolder_Initialize, shell.IInitializeNetworkFolder_Initialize, shobjidl/IInitializeNetworkFolder::Initialize
+ms.date: 5/3/2018
+ms.keywords: IInitializeNetworkFolder interface [Windows Shell],Initialize method, IInitializeNetworkFolder.Initialize, IInitializeNetworkFolder::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeNetworkFolder interface, _shell_IInitializeNetworkFolder_Initialize, shell.IInitializeNetworkFolder_Initialize, shobjidl/IInitializeNetworkFolder::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IInitializeNetworkFolder::Initialize method
+# IInitializeNetworkFolder::Initialize
 
 
 ## -description

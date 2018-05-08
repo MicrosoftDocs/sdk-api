@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.get_ClassificationReportFormats
-title: IFsrmClassificationManager::get_ClassificationReportFormats method
+title: IFsrmClassificationManager::get_ClassificationReportFormats
 author: windows-driver-content
 description: The list of formats in which to generate the classification reports.
 old-location: fsrm\ifsrmclassificationmanager_classificationreportformats.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: a9402faa-06f9-4cfe-9a36-a2fc1a581824
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ClassificationReportFormats property [File Server Resource Manager], ClassificationReportFormats property [File Server Resource Manager], FsrmClassificationManager class, ClassificationReportFormats property [File Server Resource Manager], IFsrmClassificationManager interface, ClassificationReportFormats property [File Server Resource Manager], IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager], ClassificationReportFormats property, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], ClassificationReportFormats property, IFsrmClassificationManager.ClassificationReportFormats, IFsrmClassificationManager2 interface [File Server Resource Manager], ClassificationReportFormats property, IFsrmClassificationManager2.ClassificationReportFormats, IFsrmClassificationManager2::get_ClassificationReportFormats, IFsrmClassificationManager2::put_ClassificationReportFormats, IFsrmClassificationManager::get_ClassificationReportFormats, IFsrmClassificationManager::put_ClassificationReportFormats, fs.ifsrmclassificationmanager_classificationreportformats, fsrm.ifsrmclassificationmanager_classificationreportformats, fsrmpipeline/IFsrmClassificationManager2::ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager2::put_ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager::ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager::put_ClassificationReportFormats, get_ClassificationReportFormats,IFsrmClassificationManager.get_ClassificationReportFormats
+ms.keywords: ClassificationReportFormats property [File Server Resource Manager], ClassificationReportFormats property [File Server Resource Manager],FsrmClassificationManager class, ClassificationReportFormats property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationReportFormats property [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassificationReportFormats property, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationReportFormats property, IFsrmClassificationManager.ClassificationReportFormats, IFsrmClassificationManager.get_ClassificationReportFormats, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationReportFormats property, IFsrmClassificationManager2.ClassificationReportFormats, IFsrmClassificationManager2::get_ClassificationReportFormats, IFsrmClassificationManager2::put_ClassificationReportFormats, IFsrmClassificationManager::ClassificationReportFormats, IFsrmClassificationManager::get_ClassificationReportFormats, IFsrmClassificationManager::put_ClassificationReportFormats, fs.ifsrmclassificationmanager_classificationreportformats, fsrm.ifsrmclassificationmanager_classificationreportformats, fsrmpipeline/IFsrmClassificationManager2::ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager2::put_ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager::ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager::put_ClassificationReportFormats, get_ClassificationReportFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassificationManager::get_ClassificationReportFormats method
+# IFsrmClassificationManager::get_ClassificationReportFormats
 
 
 ## -description

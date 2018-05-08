@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.RangeFromPoint2
-title: ITextDocument2::RangeFromPoint2 method
+title: ITextDocument2::RangeFromPoint2
 author: windows-driver-content
 description: Retrieves the degenerate range at (or nearest to) a particular point on the screen.
 old-location: controls\itextdocument2_rangefrompoint2.htm
 old-project: Controls
 ms.assetid: 3212c6cc-a1fb-44ca-aba9-2234414e7a39
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], RangeFromPoint2 method, ITextDocument2::RangeFromPoint2, RangeFromPoint2 method [Windows Controls], RangeFromPoint2 method [Windows Controls], ITextDocument2 interface, RangeFromPoint2,ITextDocument2.RangeFromPoint2, controls.itextdocument2_rangefrompoint2, tom/ITextDocument2::RangeFromPoint2
+ms.date: 4/27/2018
+ms.keywords: ITextDocument2 interface [Windows Controls],RangeFromPoint2 method, ITextDocument2.RangeFromPoint2, ITextDocument2::RangeFromPoint2, RangeFromPoint2, RangeFromPoint2 method [Windows Controls], RangeFromPoint2 method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_rangefrompoint2, tom/ITextDocument2::RangeFromPoint2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::RangeFromPoint2 method
+# ITextDocument2::RangeFromPoint2
 
 
 ## -description

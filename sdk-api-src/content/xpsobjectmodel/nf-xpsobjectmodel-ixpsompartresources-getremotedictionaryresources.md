@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetRemoteDictionaryResources
-title: IXpsOMPartResources::GetRemoteDictionaryResources method
+title: IXpsOMPartResources::GetRemoteDictionaryResources
 author: windows-driver-content
 description: Gets the IXpsOMRemoteDictionaryResourceCollection interface that contains the remote resource dictionaries that are used in the XPS document.
 old-location: xps\ixpsompartresources_getremotedictionaryresources.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: cb12fe80-9e94-4797-adf5-a1986512bf57
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetRemoteDictionaryResources method [XPS Documents and Packaging], GetRemoteDictionaryResources method [XPS Documents and Packaging], IXpsOMPartResources interface, GetRemoteDictionaryResources,IXpsOMPartResources.GetRemoteDictionaryResources, IXpsOMPartResources, IXpsOMPartResources interface [XPS Documents and Packaging], GetRemoteDictionaryResources method, IXpsOMPartResources::GetRemoteDictionaryResources, xps.ixpsompartresources_getremotedictionaryresources, xpsobjectmodel/IXpsOMPartResources::GetRemoteDictionaryResources
+ms.keywords: GetRemoteDictionaryResources, GetRemoteDictionaryResources method [XPS Documents and Packaging], GetRemoteDictionaryResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetRemoteDictionaryResources method, IXpsOMPartResources.GetRemoteDictionaryResources, IXpsOMPartResources::GetRemoteDictionaryResources, xps.ixpsompartresources_getremotedictionaryresources, xpsobjectmodel/IXpsOMPartResources::GetRemoteDictionaryResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPartResources::GetRemoteDictionaryResources method
+# IXpsOMPartResources::GetRemoteDictionaryResources
 
 
 ## -description

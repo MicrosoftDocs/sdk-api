@@ -1,14 +1,14 @@
 ---
 UID: NF:bitscfg.IBITSExtensionSetup.DisableBITSUploads
-title: IBITSExtensionSetup::DisableBITSUploads method
+title: IBITSExtensionSetup::DisableBITSUploads
 author: windows-driver-content
 description: Use the DisableBITSUploads method to disable BITS upload on the virtual directory to which the ADSI object points. This method sets the BITSUploadEnabled IIS extension property.
 old-location: bits\ibitsextensionsetup_disablebitsuploads.htm
 old-project: Bits
 ms.assetid: 3d439054-a751-4f63-9e82-223d1ce9c551
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: DisableBITSUploads method [BITS], DisableBITSUploads method [BITS], IBITSExtensionSetup interface, DisableBITSUploads,IBITSExtensionSetup.DisableBITSUploads, IBITSExtensionSetup, IBITSExtensionSetup interface [BITS], DisableBITSUploads method, IBITSExtensionSetup::DisableBITSUploads, _drz_ibitsextensionsetup_disablebitsuploads, bits.ibitsextensionsetup_disablebitsuploads, bitscfg/IBITSExtensionSetup::DisableBITSUploads
+ms.date: 4/27/2018
+ms.keywords: DisableBITSUploads, DisableBITSUploads method [BITS], DisableBITSUploads method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],DisableBITSUploads method, IBITSExtensionSetup.DisableBITSUploads, IBITSExtensionSetup::DisableBITSUploads, _drz_ibitsextensionsetup_disablebitsuploads, bits.ibitsextensionsetup_disablebitsuploads, bitscfg/IBITSExtensionSetup::DisableBITSUploads
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: BitsMgr.dll
 req.irql: 
 ---
 
-# IBITSExtensionSetup::DisableBITSUploads method
+# IBITSExtensionSetup::DisableBITSUploads
 
 
 ## -description

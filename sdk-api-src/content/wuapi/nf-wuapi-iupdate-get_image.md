@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Image
-title: IUpdate::get_Image method
+title: IUpdate::get_Image
 author: windows-driver-content
 description: Gets an interface that contains information about an image that is associated with the update.
 old-location: wua\iupdate_image.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 0cae0b5b-8a47-461f-ab91-b9ac80418e20
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], Image property, IUpdate.Image, IUpdate::get_Image, Image property [Windows Update Agent], Image property [Windows Update Agent], IUpdate interface, get_Image,IUpdate.get_Image, wua.iupdate_image, wuapi/IUpdate::Image, wuapi/IUpdate::get_Image
+ms.keywords: IUpdate interface [Windows Update Agent],Image property, IUpdate.Image, IUpdate.get_Image, IUpdate::Image, IUpdate::get_Image, Image property [Windows Update Agent], Image property [Windows Update Agent],IUpdate interface, get_Image, wua.iupdate_image, wuapi/IUpdate::Image, wuapi/IUpdate::get_Image
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_Image method
+# IUpdate::get_Image
 
 
 ## -description

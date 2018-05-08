@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignaturePartReferenceEnumerator
-title: IOpcDigitalSignature::GetSignaturePartReferenceEnumerator method
+title: IOpcDigitalSignature::GetSignaturePartReferenceEnumerator
 author: windows-driver-content
 description: Gets an enumerator of IOpcSignaturePartReference interface pointers, which represent references to parts that have been signed.
 old-location: opc\iopcdigitalsignature_getsignaturepartreferenceenumerator.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: d8d1507e-b72f-4eb7-bd3d-4f4a26516c18
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignaturePartReferenceEnumerator method [Open Packaging Conventions], GetSignaturePartReferenceEnumerator method [Open Packaging Conventions], IOpcDigitalSignature interface, GetSignaturePartReferenceEnumerator,IOpcDigitalSignature.GetSignaturePartReferenceEnumerator, IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], GetSignaturePartReferenceEnumerator method, IOpcDigitalSignature::GetSignaturePartReferenceEnumerator, msopc/IOpcDigitalSignature::GetSignaturePartReferenceEnumerator, opc.iopcdigitalsignature_getsignaturepartreferenceenumerator
+ms.keywords: GetSignaturePartReferenceEnumerator, GetSignaturePartReferenceEnumerator method [Open Packaging Conventions], GetSignaturePartReferenceEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignaturePartReferenceEnumerator method, IOpcDigitalSignature.GetSignaturePartReferenceEnumerator, IOpcDigitalSignature::GetSignaturePartReferenceEnumerator, msopc/IOpcDigitalSignature::GetSignaturePartReferenceEnumerator, opc.iopcdigitalsignature_getsignaturepartreferenceenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignature::GetSignaturePartReferenceEnumerator method
+# IOpcDigitalSignature::GetSignaturePartReferenceEnumerator
 
 
 ## -description

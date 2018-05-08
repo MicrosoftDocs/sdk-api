@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetMediaTime
-title: IAMMediaTypeSample::SetMediaTime method
+title: IAMMediaTypeSample::SetMediaTime
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The SetMediaTime method sets the media time stamps for this sample.
 old-location: dshow\iammediatypesample_setmediatime.htm
 old-project: DirectShow
 ms.assetid: d255840f-9ff5-4eb0-b3b4-1295d77403f8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], SetMediaTime method, IAMMediaTypeSample::SetMediaTime, IAMMediaTypeSampleSetMediaTime, SetMediaTime method [DirectShow], SetMediaTime method [DirectShow], IAMMediaTypeSample interface, SetMediaTime,IAMMediaTypeSample.SetMediaTime, amstream/IAMMediaTypeSample::SetMediaTime, dshow.iammediatypesample_setmediatime
+ms.date: 4/30/2018
+ms.keywords: IAMMediaTypeSample interface [DirectShow],SetMediaTime method, IAMMediaTypeSample.SetMediaTime, IAMMediaTypeSample::SetMediaTime, IAMMediaTypeSampleSetMediaTime, SetMediaTime, SetMediaTime method [DirectShow], SetMediaTime method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetMediaTime, dshow.iammediatypesample_setmediatime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaTypeSample::SetMediaTime method
+# IAMMediaTypeSample::SetMediaTime
 
 
 ## -description

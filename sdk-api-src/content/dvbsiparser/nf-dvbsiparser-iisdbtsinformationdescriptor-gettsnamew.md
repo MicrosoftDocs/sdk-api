@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetTSNameW
-title: IIsdbTSInformationDescriptor::GetTSNameW method
+title: IIsdbTSInformationDescriptor::GetTSNameW
 author: windows-driver-content
 description: Gets the transport stream name from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor, in Unicode string format.
 old-location: mstv\iisdbtsinformationdescriptor_gettsnamew.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4c8900d1-1047-4b11-87e0-da1a72f511f7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTSNameW method [Microsoft TV Technologies], GetTSNameW method [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface, GetTSNameW,IIsdbTSInformationDescriptor.GetTSNameW, IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], GetTSNameW method, IIsdbTSInformationDescriptor::GetTSNameW, dvbsiparser/IIsdbTSInformationDescriptor::GetTSNameW, mstv.iisdbtsinformationdescriptor_gettsnamew
+ms.keywords: GetTSNameW, GetTSNameW method [Microsoft TV Technologies], GetTSNameW method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetTSNameW method, IIsdbTSInformationDescriptor.GetTSNameW, IIsdbTSInformationDescriptor::GetTSNameW, dvbsiparser/IIsdbTSInformationDescriptor::GetTSNameW, mstv.iisdbtsinformationdescriptor_gettsnamew
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbTSInformationDescriptor::GetTSNameW method
+# IIsdbTSInformationDescriptor::GetTSNameW
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_DiscId
-title: IFileSystemImageResult::get_DiscId method
+title: IFileSystemImageResult::get_DiscId
 author: windows-driver-content
 description: Retrieves the disc volume name for this file system image.
 old-location: imapi\ifilesystemimageresult_get_discid.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 2288b4e4-6f36-4830-a077-dcf710741911
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImageResult, IFileSystemImageResult interface [IMAPI], get_DiscId method, IFileSystemImageResult::get_DiscId, get_DiscId method [IMAPI], get_DiscId method [IMAPI], IFileSystemImageResult interface, get_DiscId,IFileSystemImageResult.get_DiscId, imapi.ifilesystemimageresult_get_discid, imapi2fs/IFileSystemImageResult::get_DiscId
+ms.keywords: IFileSystemImageResult interface [IMAPI],get_DiscId method, IFileSystemImageResult.get_DiscId, IFileSystemImageResult::get_DiscId, get_DiscId, get_DiscId method [IMAPI], get_DiscId method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_discid, imapi2fs/IFileSystemImageResult::get_DiscId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImageResult::get_DiscId method
+# IFileSystemImageResult::get_DiscId
 
 
 ## -description

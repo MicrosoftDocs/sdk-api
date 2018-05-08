@@ -74,7 +74,7 @@ Describes a portion of a texture for the purpose of texture copies.
           
 
 
-#### - PlacedFootprint
+### -field PlacedFootprint
 
 
               Specifies a texture layout, with offset, dimensions, and pitches, for the hardware to understand how to treat a section of a buffer resource as a multi-dimensional texture.
@@ -83,7 +83,7 @@ Describes a portion of a texture for the purpose of texture copies.
             
 
 
-#### - SubresourceIndex
+### -field SubresourceIndex
 
 
               Specifies the index of the subresource of an arrayed, mip-mapped, or planar texture should be used for the copy operation.

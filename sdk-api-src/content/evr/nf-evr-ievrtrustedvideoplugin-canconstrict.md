@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.CanConstrict
-title: IEVRTrustedVideoPlugin::CanConstrict method
+title: IEVRTrustedVideoPlugin::CanConstrict
 author: windows-driver-content
 description: Queries whether the plug-in can limit the effective video resolution.
 old-location: mf\ievrtrustedvideoplugin_canconstrict.htm
 old-project: medfound
 ms.assetid: 16bb31c3-51f7-4d9b-946c-f366fb6e5dee
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 16bb31c3-51f7-4d9b-946c-f366fb6e5dee, CanConstrict method [Media Foundation], CanConstrict method [Media Foundation], IEVRTrustedVideoPlugin interface, CanConstrict,IEVRTrustedVideoPlugin.CanConstrict, IEVRTrustedVideoPlugin, IEVRTrustedVideoPlugin interface [Media Foundation], CanConstrict method, IEVRTrustedVideoPlugin::CanConstrict, evr/IEVRTrustedVideoPlugin::CanConstrict, mf.ievrtrustedvideoplugin_canconstrict
+ms.date: 5/3/2018
+ms.keywords: 16bb31c3-51f7-4d9b-946c-f366fb6e5dee, CanConstrict, CanConstrict method [Media Foundation], CanConstrict method [Media Foundation],IEVRTrustedVideoPlugin interface, IEVRTrustedVideoPlugin interface [Media Foundation],CanConstrict method, IEVRTrustedVideoPlugin.CanConstrict, IEVRTrustedVideoPlugin::CanConstrict, evr/IEVRTrustedVideoPlugin::CanConstrict, mf.ievrtrustedvideoplugin_canconstrict
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEVRTrustedVideoPlugin::CanConstrict method
+# IEVRTrustedVideoPlugin::CanConstrict
 
 
 ## -description

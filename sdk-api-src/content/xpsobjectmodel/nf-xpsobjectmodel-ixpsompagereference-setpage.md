@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetPage
-title: IXpsOMPageReference::SetPage method
+title: IXpsOMPageReference::SetPage
 author: windows-driver-content
 description: Sets the IXpsOMPage interface of the page reference.
 old-location: xps\ixpsompagereference_setpage.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 7d1381ad-6ac8-4ea4-99a2-8bc5d95773c7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], SetPage method, IXpsOMPageReference::SetPage, SetPage method [XPS Documents and Packaging], SetPage method [XPS Documents and Packaging], IXpsOMPageReference interface, SetPage,IXpsOMPageReference.SetPage, xps.ixpsompagereference_setpage, xpsobjectmodel/IXpsOMPageReference::SetPage
+ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetPage method, IXpsOMPageReference.SetPage, IXpsOMPageReference::SetPage, SetPage, SetPage method [XPS Documents and Packaging], SetPage method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setpage, xpsobjectmodel/IXpsOMPageReference::SetPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReference::SetPage method
+# IXpsOMPageReference::SetPage
 
 
 ## -description

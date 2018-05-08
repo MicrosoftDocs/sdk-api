@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: c61bbe3a-ad02-4182-bf10-1ed5fe307bd4
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IEnumDot11AdHocInterfaces, IEnumDot11AdHocInterfaces interface [NativeWIFI], IEnumDot11AdHocInterfaces interface [NativeWIFI], described, adhoc/IEnumDot11AdHocInterfaces, nwifi.ienumdot11adhocinterfaces
+ms.keywords: IEnumDot11AdHocInterfaces, IEnumDot11AdHocInterfaces interface [NativeWIFI], IEnumDot11AdHocInterfaces interface [NativeWIFI],described, adhoc/IEnumDot11AdHocInterfaces, nwifi.ienumdot11adhocinterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

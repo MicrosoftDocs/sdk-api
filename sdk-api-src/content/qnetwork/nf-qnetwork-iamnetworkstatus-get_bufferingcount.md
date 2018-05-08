@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_BufferingCount
-title: IAMNetworkStatus::get_BufferingCount method
+title: IAMNetworkStatus::get_BufferingCount
 author: windows-driver-content
 description: The get_BufferingCount method retrieves the number of times the network source has buffered the data.
 old-location: dshow\iamnetworkstatus_get_bufferingcount.htm
 old-project: DirectShow
 ms.assetid: 82c1994b-9326-48a7-8ff5-2b2df274b3e2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], get_BufferingCount method, IAMNetworkStatus::get_BufferingCount, IAMNetworkStatusget_BufferingCount, dshow.iamnetworkstatus_get_bufferingcount, get_BufferingCount method [DirectShow], get_BufferingCount method [DirectShow], IAMNetworkStatus interface, get_BufferingCount,IAMNetworkStatus.get_BufferingCount, qnetwork/IAMNetworkStatus::get_BufferingCount
+ms.date: 4/30/2018
+ms.keywords: IAMNetworkStatus interface [DirectShow],get_BufferingCount method, IAMNetworkStatus.get_BufferingCount, IAMNetworkStatus::get_BufferingCount, IAMNetworkStatusget_BufferingCount, dshow.iamnetworkstatus_get_bufferingcount, get_BufferingCount, get_BufferingCount method [DirectShow], get_BufferingCount method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_BufferingCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetworkStatus::get_BufferingCount method
+# IAMNetworkStatus::get_BufferingCount
 
 
 ## -description

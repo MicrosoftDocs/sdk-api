@@ -1,14 +1,14 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.GetVersions
-title: IDirectInputEffectDriver::GetVersions method
+title: IDirectInputEffectDriver::GetVersions
 author: windows-driver-content
 description: The IDirectInputEffectDriver::GetVersions method obtains version information about the force-feedback hardware and driver.
 old-location: hid\idirectinputeffectdriver_getversions.htm
 old-project: hid
 ms.assetid: eda284d2-3e9c-436f-ad28-6397ff75d8ca
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: GetVersions method [Human Input Devices], GetVersions method [Human Input Devices], IDirectInputEffectDriver interface, GetVersions,IDirectInputEffectDriver.GetVersions, IDirectInputEffectDriver, IDirectInputEffectDriver interface [Human Input Devices], GetVersions method, IDirectInputEffectDriver::GetVersions, di_ref_edc7dd85-8838-4835-9987-54458f3c0bd6.xml, dinputd/IDirectInputEffectDriver::GetVersions, hid.idirectinputeffectdriver_getversions
+ms.date: 4/30/2018
+ms.keywords: GetVersions, GetVersions method [Human Input Devices], GetVersions method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],GetVersions method, IDirectInputEffectDriver.GetVersions, IDirectInputEffectDriver::GetVersions, di_ref_edc7dd85-8838-4835-9987-54458f3c0bd6.xml, dinputd/IDirectInputEffectDriver::GetVersions, hid.idirectinputeffectdriver_getversions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectInputEffectDriver::GetVersions method
+# IDirectInputEffectDriver::GetVersions
 
 
 ## -description

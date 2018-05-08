@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenser.OpenScopeOnMemory
-title: IMetaDataDispenser::OpenScopeOnMemory method
+title: IMetaDataDispenser::OpenScopeOnMemory
 author: windows-driver-content
 description: Opens an area of memory that contains existing metadata. That is, this method opens a specified area of memory in which the existing data is treated as metadata.
 old-location: winrt\imetadatadispenser_openscopeonmemory.htm
 old-project: WinRT
 ms.assetid: 4558b229-0fe9-4ff7-a666-e69b47cb8170
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IMetaDataDispenser, IMetaDataDispenser interface [Windows Runtime], OpenScopeOnMemory method, IMetaDataDispenser::OpenScopeOnMemory, OpenScopeOnMemory method [Windows Runtime], OpenScopeOnMemory method [Windows Runtime], IMetaDataDispenser interface, OpenScopeOnMemory,IMetaDataDispenser.OpenScopeOnMemory, rometadataapi/IMetaDataDispenser::OpenScopeOnMemory, winrt.imetadatadispenser_openscopeonmemory
+ms.date: 5/4/2018
+ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScopeOnMemory method, IMetaDataDispenser.OpenScopeOnMemory, IMetaDataDispenser::OpenScopeOnMemory, OpenScopeOnMemory, OpenScopeOnMemory method [Windows Runtime], OpenScopeOnMemory method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScopeOnMemory, winrt.imetadatadispenser_openscopeonmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataDispenser::OpenScopeOnMemory method
+# IMetaDataDispenser::OpenScopeOnMemory
 
 
 ## -description

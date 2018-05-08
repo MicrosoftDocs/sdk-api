@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetDateTime
-title: CInstance::GetDateTime method
+title: CInstance::GetDateTime
 author: windows-driver-content
 description: The GetDateTime method returns a datetime property.
 old-location: wmi\cinstance_getdatetime.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: b7474d1c-4ed9-4669-a0e6-01230a3bf8fa
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], GetDateTime method, CInstance::GetDateTime, GetDateTime method [Windows Management Instrumentation], GetDateTime method [Windows Management Instrumentation], CInstance interface, GetDateTime,CInstance.GetDateTime, _hmm_cinstance_getdatetime, instance/CInstance::GetDateTime, wmi.cinstance_getdatetime
+ms.keywords: CInstance interface [Windows Management Instrumentation],GetDateTime method, CInstance.GetDateTime, CInstance::GetDateTime, GetDateTime, GetDateTime method [Windows Management Instrumentation], GetDateTime method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdatetime, instance/CInstance::GetDateTime, wmi.cinstance_getdatetime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::GetDateTime method
+# CInstance::GetDateTime
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCreated
-title: IXpsOMCoreProperties::GetCreated method
+title: IXpsOMCoreProperties::GetCreated
 author: windows-driver-content
 description: Gets the created property.
 old-location: xps\ixpsomcoreproperties_getcreated.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 8ee96d96-bd66-4738-bfae-fbbc98ba8621
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCreated method [XPS Documents and Packaging], GetCreated method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetCreated,IXpsOMCoreProperties.GetCreated, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetCreated method, IXpsOMCoreProperties::GetCreated, xps.ixpsomcoreproperties_getcreated, xpsobjectmodel/IXpsOMCoreProperties::GetCreated
+ms.keywords: GetCreated, GetCreated method [XPS Documents and Packaging], GetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreated method, IXpsOMCoreProperties.GetCreated, IXpsOMCoreProperties::GetCreated, xps.ixpsomcoreproperties_getcreated, xpsobjectmodel/IXpsOMCoreProperties::GetCreated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetCreated method
+# IXpsOMCoreProperties::GetCreated
 
 
 ## -description

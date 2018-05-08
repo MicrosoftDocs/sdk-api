@@ -179,12 +179,37 @@ Height of the surface to be created, in pixels.
 Width of the surface to be created, in pixels.
 
 
+### -field DUMMYUNIONNAMEN.lPitch
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwLinearSize
+
+ 
+
+
 ### -field dwBackBufferCount
 
 Number of back buffers.
 
 
 ### -field DUMMYUNIONNAMEN
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwMipMapCount
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwZBufferBitDepth
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwRefreshRate
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.ProcessInput
-title: IDirectManipulationManager::ProcessInput method
+title: IDirectManipulationManager::ProcessInput
 author: windows-driver-content
 description: Passes keyboard and mouse messages to the manipulation manager on the app's UI thread.
 old-location: directmanipulation\idirectmanipulationmanager_processinput.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: ed7fa19b-acfe-4d5d-bd71-a77e5016fe68
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationManager, IDirectManipulationManager interface [Direct Manipulation], ProcessInput method, IDirectManipulationManager::ProcessInput, ProcessInput method [Direct Manipulation], ProcessInput method [Direct Manipulation], IDirectManipulationManager interface, ProcessInput,IDirectManipulationManager.ProcessInput, directmanipulation.idirectmanipulationmanager_processinput, directmanipulation/IDirectManipulationManager::ProcessInput
+ms.keywords: IDirectManipulationManager interface [Direct Manipulation],ProcessInput method, IDirectManipulationManager.ProcessInput, IDirectManipulationManager::ProcessInput, ProcessInput, ProcessInput method [Direct Manipulation], ProcessInput method [Direct Manipulation],IDirectManipulationManager interface, directmanipulation.idirectmanipulationmanager_processinput, directmanipulation/IDirectManipulationManager::ProcessInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationManager::ProcessInput method
+# IDirectManipulationManager::ProcessInput
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: automat\lpsafearray_usersize64.htm
 old-project: automat
 ms.assetid: 5F41D197-027E-4640-833A-4F6239F0DFB0
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: LPSAFEARRAY_UserSize64, LPSAFEARRAY_UserSize64 function [Automation], automat.lpsafearray_usersize64, wia_xp/LPSAFEARRAY_UserSize64
 ms.prod: windows-hardware
 ms.technology: windows-devices

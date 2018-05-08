@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: A251C5A3-2C9F-4030-8013-4846AD83A2E9
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, mscs.clusternodeopenenumex
+ms.keywords: PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX callback, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, mscs.clusternodeopenenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -42,7 +42,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX callback
+# PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX callback function
 
 
 ## -description

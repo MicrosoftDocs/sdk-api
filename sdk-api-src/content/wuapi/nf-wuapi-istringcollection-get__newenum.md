@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.get__NewEnum
-title: IStringCollection::get__NewEnum method
+title: IStringCollection::get__NewEnum
 author: windows-driver-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\istringcollection__newenum.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: b131b276-4254-4a08-8121-3a86e28d08cb
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IStringCollection, IStringCollection interface [Windows Update Agent], _NewEnum property, IStringCollection._NewEnum, IStringCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent], IStringCollection interface, get__NewEnum,IStringCollection.get__NewEnum, wua.istringcollection__newenum, wuapi/IStringCollection::_NewEnum, wuapi/IStringCollection::get__NewEnum
+ms.keywords: IStringCollection interface [Windows Update Agent],_NewEnum property, IStringCollection._NewEnum, IStringCollection.get__NewEnum, IStringCollection::_NewEnum, IStringCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IStringCollection interface, get__NewEnum, wua.istringcollection__newenum, wuapi/IStringCollection::_NewEnum, wuapi/IStringCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IStringCollection::get__NewEnum method
+# IStringCollection::get__NewEnum
 
 
 ## -description

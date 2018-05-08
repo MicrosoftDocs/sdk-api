@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIObject.SetPrivateData
-title: IDXGIObject::SetPrivateData method
+title: IDXGIObject::SetPrivateData
 author: windows-driver-content
 description: Sets application-defined data to the object and associates that data with a GUID.
 old-location: direct3ddxgi\idxgiobject_setprivatedata.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_setprivatedata.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 5949633e-2d65-5d04-b6ba-29414dfded94, IDXGIObject, IDXGIObject interface [DXGI], SetPrivateData method, IDXGIObject::SetPrivateData, SetPrivateData method [DXGI], SetPrivateData method [DXGI], IDXGIObject interface, SetPrivateData,IDXGIObject.SetPrivateData, direct3ddxgi.idxgiobject_setprivatedata, dxgi/IDXGIObject::SetPrivateData
+ms.keywords: 5949633e-2d65-5d04-b6ba-29414dfded94, IDXGIObject interface [DXGI],SetPrivateData method, IDXGIObject.SetPrivateData, IDXGIObject::SetPrivateData, SetPrivateData, SetPrivateData method [DXGI], SetPrivateData method [DXGI],IDXGIObject interface, direct3ddxgi.idxgiobject_setprivatedata, dxgi/IDXGIObject::SetPrivateData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIObject::SetPrivateData method
+# IDXGIObject::SetPrivateData
 
 
 ## -description

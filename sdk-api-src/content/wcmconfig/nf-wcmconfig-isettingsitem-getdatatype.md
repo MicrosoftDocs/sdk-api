@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetDataType
-title: ISettingsItem::GetDataType method
+title: ISettingsItem::GetDataType
 author: windows-driver-content
 description: Gets the type information for the item.
 old-location: smi\isettingsitem_getdatatype.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 6ccb99aa-35d5-4f0b-a4f3-a42c4579bc4a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDataType method [SMI], GetDataType method [SMI], ISettingsItem interface, GetDataType,ISettingsItem.GetDataType, ISettingsItem, ISettingsItem interface [SMI], GetDataType method, ISettingsItem::GetDataType, smi.isettingsitem_getdatatype, wcmconfig/ISettingsItem::GetDataType
+ms.keywords: GetDataType, GetDataType method [SMI], GetDataType method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetDataType method, ISettingsItem.GetDataType, ISettingsItem::GetDataType, smi.isettingsitem_getdatatype, wcmconfig/ISettingsItem::GetDataType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsItem::GetDataType method
+# ISettingsItem::GetDataType
 
 
 ## -description

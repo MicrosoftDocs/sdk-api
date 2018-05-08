@@ -1,14 +1,14 @@
 ---
 UID: NF:evr9.IMFVideoMixerBitmap.SetAlphaBitmap
-title: IMFVideoMixerBitmap::SetAlphaBitmap method
+title: IMFVideoMixerBitmap::SetAlphaBitmap
 author: windows-driver-content
 description: Sets a bitmap image for the enhanced video renderer (EVR) to alpha-blend with the video.
 old-location: mf\imfvideomixerbitmap_setalphabitmap.htm
 old-project: medfound
 ms.assetid: a70e6734-bf49-4dea-8bf6-917b8465cc78
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoMixerBitmap, IMFVideoMixerBitmap interface [Media Foundation], SetAlphaBitmap method, IMFVideoMixerBitmap::SetAlphaBitmap, SetAlphaBitmap method [Media Foundation], SetAlphaBitmap method [Media Foundation], IMFVideoMixerBitmap interface, SetAlphaBitmap,IMFVideoMixerBitmap.SetAlphaBitmap, a70e6734-bf49-4dea-8bf6-917b8465cc78, evr9/IMFVideoMixerBitmap::SetAlphaBitmap, mf.imfvideomixerbitmap_setalphabitmap
+ms.date: 5/3/2018
+ms.keywords: IMFVideoMixerBitmap interface [Media Foundation],SetAlphaBitmap method, IMFVideoMixerBitmap.SetAlphaBitmap, IMFVideoMixerBitmap::SetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [Media Foundation], SetAlphaBitmap method [Media Foundation],IMFVideoMixerBitmap interface, a70e6734-bf49-4dea-8bf6-917b8465cc78, evr9/IMFVideoMixerBitmap::SetAlphaBitmap, mf.imfvideomixerbitmap_setalphabitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoMixerBitmap::SetAlphaBitmap method
+# IMFVideoMixerBitmap::SetAlphaBitmap
 
 
 ## -description

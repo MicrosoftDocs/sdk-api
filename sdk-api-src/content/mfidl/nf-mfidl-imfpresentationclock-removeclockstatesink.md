@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.RemoveClockStateSink
-title: IMFPresentationClock::RemoveClockStateSink method
+title: IMFPresentationClock::RemoveClockStateSink
 author: windows-driver-content
 description: Unregisters an object that is receiving state-change notifications from the clock.
 old-location: mf\imfpresentationclock_removeclockstatesink.htm
 old-project: medfound
 ms.assetid: c037183d-a81f-4f49-9e02-06dc2476471f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPresentationClock, IMFPresentationClock interface [Media Foundation], RemoveClockStateSink method, IMFPresentationClock::RemoveClockStateSink, RemoveClockStateSink method [Media Foundation], RemoveClockStateSink method [Media Foundation], IMFPresentationClock interface, RemoveClockStateSink,IMFPresentationClock.RemoveClockStateSink, c037183d-a81f-4f49-9e02-06dc2476471f, mf.imfpresentationclock_removeclockstatesink, mfidl/IMFPresentationClock::RemoveClockStateSink
+ms.date: 5/3/2018
+ms.keywords: IMFPresentationClock interface [Media Foundation],RemoveClockStateSink method, IMFPresentationClock.RemoveClockStateSink, IMFPresentationClock::RemoveClockStateSink, RemoveClockStateSink, RemoveClockStateSink method [Media Foundation], RemoveClockStateSink method [Media Foundation],IMFPresentationClock interface, c037183d-a81f-4f49-9e02-06dc2476471f, mf.imfpresentationclock_removeclockstatesink, mfidl/IMFPresentationClock::RemoveClockStateSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPresentationClock::RemoveClockStateSink method
+# IMFPresentationClock::RemoveClockStateSink
 
 
 ## -description

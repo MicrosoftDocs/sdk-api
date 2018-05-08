@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetLastModifiedBy
-title: IXpsOMCoreProperties::SetLastModifiedBy method
+title: IXpsOMCoreProperties::SetLastModifiedBy
 author: windows-driver-content
 description: Sets the lastModifiedBy property.
 old-location: xps\ixpsomcoreproperties_setlastmodifiedby.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 4c19e7c8-d790-42b8-a0c4-bfd95c7de2c5
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], SetLastModifiedBy method, IXpsOMCoreProperties::SetLastModifiedBy, SetLastModifiedBy method [XPS Documents and Packaging], SetLastModifiedBy method [XPS Documents and Packaging], IXpsOMCoreProperties interface, SetLastModifiedBy,IXpsOMCoreProperties.SetLastModifiedBy, xps.ixpsomcoreproperties_setlastmodifiedby, xpsobjectmodel/IXpsOMCoreProperties::SetLastModifiedBy
+ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetLastModifiedBy method, IXpsOMCoreProperties.SetLastModifiedBy, IXpsOMCoreProperties::SetLastModifiedBy, SetLastModifiedBy, SetLastModifiedBy method [XPS Documents and Packaging], SetLastModifiedBy method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setlastmodifiedby, xpsobjectmodel/IXpsOMCoreProperties::SetLastModifiedBy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::SetLastModifiedBy method
+# IXpsOMCoreProperties::SetLastModifiedBy
 
 
 ## -description

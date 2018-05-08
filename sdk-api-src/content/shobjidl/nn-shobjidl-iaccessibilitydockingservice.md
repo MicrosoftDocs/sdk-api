@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: DBAFE260-0AC6-4801-8590-DE058667C9A6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAccessibilityDockingService, IAccessibilityDockingService interface [COM], IAccessibilityDockingService interface [COM], described, com.iaccessibilitydockingservice, shobjidl/IAccessibilityDockingService
+ms.keywords: IAccessibilityDockingService, IAccessibilityDockingService interface [COM], IAccessibilityDockingService interface [COM],described, com.iaccessibilitydockingservice, shobjidl/IAccessibilityDockingService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

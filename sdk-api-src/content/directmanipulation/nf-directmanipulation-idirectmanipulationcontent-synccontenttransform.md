@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.SyncContentTransform
-title: IDirectManipulationContent::SyncContentTransform method
+title: IDirectManipulationContent::SyncContentTransform
 author: windows-driver-content
 description: Modifies the content transform while maintaining the output transform.
 old-location: directmanipulation\idirectmanipulationcontent_synccontenttransform.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 3e70b208-05b5-4b84-a582-fd835acdd777
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationContent, IDirectManipulationContent interface [Direct Manipulation], SyncContentTransform method, IDirectManipulationContent::SyncContentTransform, SyncContentTransform method [Direct Manipulation], SyncContentTransform method [Direct Manipulation], IDirectManipulationContent interface, SyncContentTransform,IDirectManipulationContent.SyncContentTransform, directmanipulation.idirectmanipulationcontent_synccontenttransform, directmanipulation/IDirectManipulationContent::SyncContentTransform
+ms.keywords: IDirectManipulationContent interface [Direct Manipulation],SyncContentTransform method, IDirectManipulationContent.SyncContentTransform, IDirectManipulationContent::SyncContentTransform, SyncContentTransform, SyncContentTransform method [Direct Manipulation], SyncContentTransform method [Direct Manipulation],IDirectManipulationContent interface, directmanipulation.idirectmanipulationcontent_synccontenttransform, directmanipulation/IDirectManipulationContent::SyncContentTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationContent::SyncContentTransform method
+# IDirectManipulationContent::SyncContentTransform
 
 
 ## -description

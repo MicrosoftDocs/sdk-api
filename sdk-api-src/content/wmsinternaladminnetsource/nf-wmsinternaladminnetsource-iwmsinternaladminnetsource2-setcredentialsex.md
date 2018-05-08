@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource2.SetCredentialsEx
-title: IWMSInternalAdminNetSource2::SetCredentialsEx method
+title: IWMSInternalAdminNetSource2::SetCredentialsEx
 author: windows-driver-content
 description: The SetCredentialsEx method adds a password to the cache.
 old-location: wmformat\iwmsinternaladminnetsource2_setcredentialsex.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ca45626e-3f4d-415d-a4d1-90ce0177bd10
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSInternalAdminNetSource2, IWMSInternalAdminNetSource2 interface [windows Media Format], SetCredentialsEx method, IWMSInternalAdminNetSource2::SetCredentialsEx, IWMSInternalAdminNetSource2SetCredentialsEx, SetCredentialsEx method [windows Media Format], SetCredentialsEx method [windows Media Format], IWMSInternalAdminNetSource2 interface, SetCredentialsEx,IWMSInternalAdminNetSource2.SetCredentialsEx, wmformat.iwmsinternaladminnetsource2_setcredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::SetCredentialsEx
+ms.keywords: IWMSInternalAdminNetSource2 interface [windows Media Format],SetCredentialsEx method, IWMSInternalAdminNetSource2.SetCredentialsEx, IWMSInternalAdminNetSource2::SetCredentialsEx, IWMSInternalAdminNetSource2SetCredentialsEx, SetCredentialsEx, SetCredentialsEx method [windows Media Format], SetCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, wmformat.iwmsinternaladminnetsource2_setcredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::SetCredentialsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSInternalAdminNetSource2::SetCredentialsEx method
+# IWMSInternalAdminNetSource2::SetCredentialsEx
 
 
 ## -description

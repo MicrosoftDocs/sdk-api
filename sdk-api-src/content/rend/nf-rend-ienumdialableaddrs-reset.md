@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Reset
-title: IEnumDialableAddrs::Reset method
+title: IEnumDialableAddrs::Reset
 author: windows-driver-content
 description: The Reset method resets to the beginning of the enumeration sequence.
 old-location: tapi3\ienumdialableaddrs_reset.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: c996ea76-bf72-40bd-996b-335448ceb93c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IEnumDialableAddrs, IEnumDialableAddrs interface [TAPI 2.2], Reset method, IEnumDialableAddrs::Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2], IEnumDialableAddrs interface, Reset,IEnumDialableAddrs.Reset, _tapi3_ienumdialableaddrs_reset, rend/IEnumDialableAddrs::Reset, tapi3.ienumdialableaddrs_reset
+ms.keywords: IEnumDialableAddrs interface [TAPI 2.2],Reset method, IEnumDialableAddrs.Reset, IEnumDialableAddrs::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumDialableAddrs interface, _tapi3_ienumdialableaddrs_reset, rend/IEnumDialableAddrs::Reset, tapi3.ienumdialableaddrs_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumDialableAddrs::Reset method
+# IEnumDialableAddrs::Reset
 
 
 ## -description

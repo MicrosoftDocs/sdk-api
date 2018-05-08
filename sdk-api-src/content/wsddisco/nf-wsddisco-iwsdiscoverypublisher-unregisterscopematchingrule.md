@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.UnRegisterScopeMatchingRule
-title: IWSDiscoveryPublisher::UnRegisterScopeMatchingRule method
+title: IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
 author: windows-driver-content
 description: Removes support for a custom scope matching rule.
 old-location: ncd\iwsdiscoverypublisher_unregisterscopematchingrule_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 82af2ea1-8415-45f7-ab05-805a66689482
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, UnRegisterScopeMatchingRule method, IWSDiscoveryPublisher::UnRegisterScopeMatchingRule, UnRegisterScopeMatchingRule method, UnRegisterScopeMatchingRule method, IWSDiscoveryPublisher interface, UnRegisterScopeMatchingRule,IWSDiscoveryPublisher.UnRegisterScopeMatchingRule, ncd.iwsdiscoverypublisher_unregisterscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
+ms.keywords: IWSDiscoveryPublisher interface,UnRegisterScopeMatchingRule method, IWSDiscoveryPublisher.UnRegisterScopeMatchingRule, IWSDiscoveryPublisher::UnRegisterScopeMatchingRule, UnRegisterScopeMatchingRule, UnRegisterScopeMatchingRule method, UnRegisterScopeMatchingRule method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unregisterscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryPublisher::UnRegisterScopeMatchingRule method
+# IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
 
 
 ## -description

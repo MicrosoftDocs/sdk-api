@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSMan.get_Error
-title: IWSMan::get_Error method
+title: IWSMan::get_Error
 author: windows-driver-content
 description: Gets additional error information, in an XML stream, for the preceding call to an IWSMan method if Windows Remote Management service was unable to create an IWSManSession object, an IWSManConnectionOptions object, or an IWSManResourceLocator object.
 old-location: winrm\iwsman_error.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: e85f2e93-9a56-47ca-9bf4-d677dbe07717
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management], IWSMan interface, IWSMan, IWSMan interface [Windows Remote Management], Error property, IWSMan.Error, IWSMan::get_Error, get_Error,IWSMan.get_Error, winrm.iwsman_error, wsmandisp/IWSMan::Error, wsmandisp/IWSMan::get_Error
+ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],Error property, IWSMan.Error, IWSMan.get_Error, IWSMan::Error, IWSMan::get_Error, get_Error, winrm.iwsman_error, wsmandisp/IWSMan::Error, wsmandisp/IWSMan::get_Error
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSMan::get_Error method
+# IWSMan::get_Error
 
 
 ## -description

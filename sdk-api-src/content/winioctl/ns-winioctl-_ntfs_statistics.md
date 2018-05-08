@@ -91,26 +91,22 @@ The number of bytes written to the MFT.
 ### -field MftWritesUserLevel
 
 
-
-#### Write
+### -field MftWritesUserLevel.Write
 
 The number of MFT writes due to a write operation.
 
 
-
-#### Create
+### -field MftWritesUserLevel.Create
 
 The number of MFT writes due to a create operation.
 
 
-
-#### SetInfo
+### -field MftWritesUserLevel.SetInfo
 
 The number of MFT writes due to setting file information.
 
 
-
-#### Flush
+### -field MftWritesUserLevel.Flush
 
 The number of MFT writes due to a flush operation.
 
@@ -143,26 +139,22 @@ The number of bytes written to the MFT mirror.
 ### -field Mft2WritesUserLevel
 
 
-
-#### Write
+### -field Mft2WritesUserLevel.Write
 
 The number of MFT mirror writes due to a write operation.
 
 
-
-#### Create
+### -field Mft2WritesUserLevel.Create
 
 The number of MFT mirror writes due to a create operation.
 
 
-
-#### SetInfo
+### -field Mft2WritesUserLevel.SetInfo
 
 The number of MFT mirror writes due to setting file information.
 
 
-
-#### Flush
+### -field Mft2WritesUserLevel.Flush
 
 The number of MFT mirror writes due to a flush operation.
 
@@ -240,20 +232,17 @@ Reserved.
 ### -field BitmapWritesUserLevel
 
 
-
-#### Write
+### -field BitmapWritesUserLevel.Write
 
 The number of bitmap writes due to a write operation.
 
 
-
-#### Create
+### -field BitmapWritesUserLevel.Create
 
 The number of bitmap writes due to a create operation.
 
 
-
-#### SetInfo
+### -field BitmapWritesUserLevel.SetInfo
 
 The number of bitmap writes due to setting file information.
 
@@ -296,26 +285,22 @@ Reserved.
 ### -field MftBitmapWritesUserLevel
 
 
-
-#### Write
+### -field MftBitmapWritesUserLevel.Write
 
 The number of MFT bitmap writes due to a write operation.
 
 
-
-#### Create
+### -field MftBitmapWritesUserLevel.Create
 
 The number of bitmap writes due to a create operation.
 
 
-
-#### SetInfo
+### -field MftBitmapWritesUserLevel.SetInfo
 
 The number of bitmap writes due to setting file information.
 
 
-
-#### Flush
+### -field MftBitmapWritesUserLevel.Flush
 
 The number of bitmap writes due to a flush operation.
 
@@ -363,62 +348,52 @@ The number of bytes written to the log file.
 ### -field Allocate
 
 
-
-#### Calls
+### -field Allocate.Calls
 
 The number of individual calls to allocate clusters.
 
 
-
-#### Clusters
+### -field Allocate.Clusters
 
 The number of clusters allocated.
 
 
-
-#### Hints
+### -field Allocate.Hints
 
 The number of times a hint was specified.
 
 
-
-#### RunsReturned
+### -field Allocate.RunsReturned
 
 The number of runs used to satisfy all the requests.
 
 
-
-#### HintsHonored
+### -field Allocate.HintsHonored
 
 The number of times the hint was useful.
 
 
-
-#### HintsClusters
+### -field Allocate.HintsClusters
 
 The number of clusters allocated through the hint.
 
 
-
-#### Cache
+### -field Allocate.Cache
 
 The number of times the cache was useful other than the hint.
 
 
-
-#### CacheClusters
+### -field Allocate.CacheClusters
 
 The number of clusters allocated through the cache other than the hint.
 
 
-
-#### CacheMiss
+### -field Allocate.CacheMiss
 
 The number of times the cache was not useful.
 
 
-
-#### CacheMissClusters
+### -field Allocate.CacheMissClusters
 
 The number of clusters allocated without the cache.
 

@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: b0089d3d-a1e6-4662-9e79-4c0b22c08d7f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IChangeConflict, IChangeConflict interface [Windows Sync], IChangeConflict interface [Windows Sync], described, winsync.ichangeconflict, winsync/IChangeConflict
+ms.keywords: IChangeConflict, IChangeConflict interface [Windows Sync], IChangeConflict interface [Windows Sync],described, winsync.ichangeconflict, winsync/IChangeConflict
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

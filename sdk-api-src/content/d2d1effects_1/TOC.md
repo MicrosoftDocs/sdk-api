@@ -1,0 +1,5 @@
+# [Direct2D](../_direct2d/index.md)
+## [D2D1Effects_1.h](index.md)
+### [D2D1_YCBCR_CHROMA_SUBSAMPLING enumeration](../d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_chroma_subsampling.md)
+### [D2D1_YCBCR_INTERPOLATION_MODE enumeration](../d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_interpolation_mode.md)
+### [D2D1_YCBCR_PROP enumeration](../d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_prop.md)

@@ -106,6 +106,21 @@ The number of elements in the <b>lpsaActions</b> array.
 If this value is 0, but <b>lpsaActions</b> is not NULL, the reset period and array of failure actions are deleted.
 
 
+### -field cActions.range
+
+ 
+
+
+### -field cActions.range.0
+
+ 
+
+
+### -field cActions.range.1024
+
+ 
+
+
 ### -field lpsaActions
 
 A pointer to an array of 
@@ -115,6 +130,18 @@ A pointer to an array of
 
 
 If this value is NULL, the <b>cActions</b> and <b>dwResetPeriod</b> members are ignored.
+
+
+### -field lpsaActions.size_is
+
+ 
+
+
+### -field lpsaActions.size_is.cActions
+
+ 
+
+
 
 
 ## -remarks

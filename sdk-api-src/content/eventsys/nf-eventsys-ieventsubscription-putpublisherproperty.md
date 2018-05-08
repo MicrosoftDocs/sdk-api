@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.PutPublisherProperty
-title: IEventSubscription::PutPublisherProperty method
+title: IEventSubscription::PutPublisherProperty
 author: windows-driver-content
 description: Writes a property and its value to the property bag to define publisher context.
 old-location: cos\ieventsubscription_putpublisherproperty.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: af8ae243-d28b-4909-a4e8-98ffe336fc9a
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventSubscription, IEventSubscription interface [COM+], PutPublisherProperty method, IEventSubscription::PutPublisherProperty, PutPublisherProperty method [COM+], PutPublisherProperty method [COM+], IEventSubscription interface, PutPublisherProperty,IEventSubscription.PutPublisherProperty, _cos_IEventSubscription_PutPublisherProperty, cos.ieventsubscription_putpublisherproperty, eventsys/IEventSubscription::PutPublisherProperty
+ms.keywords: IEventSubscription interface [COM+],PutPublisherProperty method, IEventSubscription.PutPublisherProperty, IEventSubscription::PutPublisherProperty, PutPublisherProperty, PutPublisherProperty method [COM+], PutPublisherProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_PutPublisherProperty, cos.ieventsubscription_putpublisherproperty, eventsys/IEventSubscription::PutPublisherProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::PutPublisherProperty method
+# IEventSubscription::PutPublisherProperty
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPSITables.GetTable
-title: IPSITables::GetTable method
+title: IPSITables::GetTable
 author: windows-driver-content
 description: Gets an MPEG-2 Program Specific Information (PSI) table from an MPEG-2 transport stream. The table that is returned and its contents depend on the values of the three input parameters to this method.
 old-location: mstv\ipsitables_gettable.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4b2362c7-bfcb-40b8-813d-1a904149600e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies], IPSITables interface, GetTable,IPSITables.GetTable, IPSITables, IPSITables interface [Microsoft TV Technologies], GetTable method, IPSITables::GetTable, mpeg2psiparser/IPSITables::GetTable, mstv.ipsitables_gettable
+ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies],IPSITables interface, IPSITables interface [Microsoft TV Technologies],GetTable method, IPSITables.GetTable, IPSITables::GetTable, mpeg2psiparser/IPSITables::GetTable, mstv.ipsitables_gettable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IPSITables::GetTable method
+# IPSITables::GetTable
 
 
 ## -description

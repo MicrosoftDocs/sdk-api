@@ -61,16 +61,14 @@ The <b>WEB_SOCKET_BUFFER</b> structure contains data for a specific WebSocket ac
 ### -field Data
 
 
-
-#### pbBuffer
+### -field Data.pbBuffer
 
 <b>Type: <b>PBYTE</b>
 </b>
 Pointer to the WebSocket buffer data.
 
 
-
-#### ulBufferLength
+### -field Data.ulBufferLength
 
 <b>Type: <b>ULONG</b>
 </b>
@@ -80,24 +78,21 @@ Length, in bytes, of the buffer pointed to by <b>pbBuffer</b>.
 ### -field CloseStatus
 
 
-
-#### pbReason
+### -field CloseStatus.pbReason
 
 <b>Type: <b>PBYTE</b>
 </b>
 A point to a UTF-8 string that represents the reason the connection is closed. If <b>ulReasonLength</b> is 0, this must be <b>NULL</b>.
 
 
-
-#### ulReasonLength
+### -field CloseStatus.ulReasonLength
 
 <b>Type: <b>ULONG</b>
 </b>
 Length, in bytes, of the buffer pointed to by <b>pbReason</b>. It cannot exceed <b>WEB_SOCKET_MAX_CLOSE_REASON_LENGTH</b> (123 bytes).
 
 
-
-#### usStatus
+### -field CloseStatus.usStatus
 
 <b>Type: <b>USHORT</b>
 </b>

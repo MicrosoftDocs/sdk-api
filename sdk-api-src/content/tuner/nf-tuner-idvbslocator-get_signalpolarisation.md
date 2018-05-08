@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.get_SignalPolarisation
-title: IDVBSLocator::get_SignalPolarisation method
+title: IDVBSLocator::get_SignalPolarisation
 author: windows-driver-content
 description: The get_SignalPolarisation method retrieves the signal polarisation.
 old-location: mstv\idvbslocator_get_signalpolarisation.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: adb9d7b6-5876-4b3f-9d82-f5e740feb1eb
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBSLocator, IDVBSLocator interface [Microsoft TV Technologies], get_SignalPolarisation method, IDVBSLocator::get_SignalPolarisation, IDVBSLocatorget_SignalPolarisation, get_SignalPolarisation method [Microsoft TV Technologies], get_SignalPolarisation method [Microsoft TV Technologies], IDVBSLocator interface, get_SignalPolarisation,IDVBSLocator.get_SignalPolarisation, mstv.idvbslocator_get_signalpolarisation, tuner/IDVBSLocator::get_SignalPolarisation
+ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_SignalPolarisation method, IDVBSLocator.get_SignalPolarisation, IDVBSLocator::get_SignalPolarisation, IDVBSLocatorget_SignalPolarisation, get_SignalPolarisation, get_SignalPolarisation method [Microsoft TV Technologies], get_SignalPolarisation method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_signalpolarisation, tuner/IDVBSLocator::get_SignalPolarisation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBSLocator::get_SignalPolarisation method
+# IDVBSLocator::get_SignalPolarisation
 
 
 ## -description

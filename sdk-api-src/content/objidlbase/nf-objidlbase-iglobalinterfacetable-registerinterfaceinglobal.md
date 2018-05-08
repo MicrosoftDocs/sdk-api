@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IGlobalInterfaceTable.RegisterInterfaceInGlobal
-title: IGlobalInterfaceTable::RegisterInterfaceInGlobal method
+title: IGlobalInterfaceTable::RegisterInterfaceInGlobal
 author: windows-driver-content
 description: Registers the specified interface on an object residing in one apartment of a process as a global interface, enabling other apartments access to that interface.
 old-location: com\iglobalinterfacetable_registerinterfaceinglobal.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 5282b0b8-4eab-4114-8061-6d74db3756b7
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IGlobalInterfaceTable, IGlobalInterfaceTable interface [COM], RegisterInterfaceInGlobal method, IGlobalInterfaceTable::RegisterInterfaceInGlobal, RegisterInterfaceInGlobal method [COM], RegisterInterfaceInGlobal method [COM], IGlobalInterfaceTable interface, RegisterInterfaceInGlobal,IGlobalInterfaceTable.RegisterInterfaceInGlobal, _com_iglobalinterfacetable_registerinterfaceinglobal, com.iglobalinterfacetable_registerinterfaceinglobal, objidlbase/IGlobalInterfaceTable::RegisterInterfaceInGlobal
+ms.keywords: IGlobalInterfaceTable interface [COM],RegisterInterfaceInGlobal method, IGlobalInterfaceTable.RegisterInterfaceInGlobal, IGlobalInterfaceTable::RegisterInterfaceInGlobal, RegisterInterfaceInGlobal, RegisterInterfaceInGlobal method [COM], RegisterInterfaceInGlobal method [COM],IGlobalInterfaceTable interface, _com_iglobalinterfacetable_registerinterfaceinglobal, com.iglobalinterfacetable_registerinterfaceinglobal, objidlbase/IGlobalInterfaceTable::RegisterInterfaceInGlobal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IGlobalInterfaceTable::RegisterInterfaceInGlobal method
+# IGlobalInterfaceTable::RegisterInterfaceInGlobal
 
 
 ## -description

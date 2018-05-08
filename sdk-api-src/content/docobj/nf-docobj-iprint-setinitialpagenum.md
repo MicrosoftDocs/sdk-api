@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IPrint.SetInitialPageNum
-title: IPrint::SetInitialPageNum method
+title: IPrint::SetInitialPageNum
 author: windows-driver-content
 description: Sets the page number of the first page of a document.
 old-location: com\iprint_setinitialpagenum.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 352a4dc0-c79e-46e3-8212-55fd7d2916bc
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPrint, IPrint interface [COM], SetInitialPageNum method, IPrint::SetInitialPageNum, SetInitialPageNum method [COM], SetInitialPageNum method [COM], IPrint interface, SetInitialPageNum,IPrint.SetInitialPageNum, _ctrl_iprint_setinitialpagenum, com.iprint_setinitialpagenum, docobj/IPrint::SetInitialPageNum
+ms.keywords: IPrint interface [COM],SetInitialPageNum method, IPrint.SetInitialPageNum, IPrint::SetInitialPageNum, SetInitialPageNum, SetInitialPageNum method [COM], SetInitialPageNum method [COM],IPrint interface, _ctrl_iprint_setinitialpagenum, com.iprint_setinitialpagenum, docobj/IPrint::SetInitialPageNum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPrint::SetInitialPageNum method
+# IPrint::SetInitialPageNum
 
 
 ## -description

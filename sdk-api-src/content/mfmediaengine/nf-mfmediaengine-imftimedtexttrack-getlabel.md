@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetLabel
-title: IMFTimedTextTrack::GetLabel method
+title: IMFTimedTextTrack::GetLabel
 author: windows-driver-content
 description: Gets the label of the track.
 old-location: mf\imftimedtexttrack_getlabel.htm
 old-project: medfound
 ms.assetid: BB3B1089-6489-4C70-BAFD-22D72DE3CB38
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetLabel method [Media Foundation], GetLabel method [Media Foundation], IMFTimedTextTrack interface, GetLabel,IMFTimedTextTrack.GetLabel, IMFTimedTextTrack, IMFTimedTextTrack interface [Media Foundation], GetLabel method, IMFTimedTextTrack::GetLabel, mf.imftimedtexttrack_getlabel, mfmediaengine/IMFTimedTextTrack::GetLabel
+ms.date: 5/3/2018
+ms.keywords: GetLabel, GetLabel method [Media Foundation], GetLabel method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetLabel method, IMFTimedTextTrack.GetLabel, IMFTimedTextTrack::GetLabel, mf.imftimedtexttrack_getlabel, mfmediaengine/IMFTimedTextTrack::GetLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextTrack::GetLabel method
+# IMFTimedTextTrack::GetLabel
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityIdentityColl.get__NewEnum
-title: ISecurityIdentityColl::get__NewEnum method
+title: ISecurityIdentityColl::get__NewEnum
 author: windows-driver-content
 description: Retrieves an enumerator for the security identity collection.
 old-location: cos\isecurityidentitycoll_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 8e138b0b-cea1-47ca-a73b-473b9f5860db
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ISecurityIdentityColl, ISecurityIdentityColl interface [COM+], get__NewEnum method, ISecurityIdentityColl::get__NewEnum, _cos_ISecurityIdentityColl_get__NewEnum, comsvcs/ISecurityIdentityColl::get__NewEnum, cos.isecurityidentitycoll_get__newenum, get__NewEnum method [COM+], get__NewEnum method [COM+], ISecurityIdentityColl interface, get__NewEnum,ISecurityIdentityColl.get__NewEnum
+ms.keywords: ISecurityIdentityColl interface [COM+],get__NewEnum method, ISecurityIdentityColl.get__NewEnum, ISecurityIdentityColl::get__NewEnum, _cos_ISecurityIdentityColl_get__NewEnum, comsvcs/ISecurityIdentityColl::get__NewEnum, cos.isecurityidentitycoll_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISecurityIdentityColl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISecurityIdentityColl::get__NewEnum method
+# ISecurityIdentityColl::get__NewEnum
 
 
 ## -description

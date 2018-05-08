@@ -7,8 +7,8 @@ old-location: security\certenumsystemstorelocationcallback.htm
 old-project: SecCrypto
 ms.assetid: a5f1badd-3e68-4e0f-9a42-1b1876c9cb56
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CertEnumSystemStoreLocationCallback, CertEnumSystemStoreLocationCallback callback function [Security], PFN_CERT_ENUM_SYSTEM_STORE_LOCATION, security.certenumsystemstorelocationcallback, wincrypt/CertEnumSystemStoreLocationCallback
+ms.date: 4/30/2018
+ms.keywords: CertEnumSystemStoreLocationCallback, CertEnumSystemStoreLocationCallback callback function [Security], PFN_CERT_ENUM_SYSTEM_STORE_LOCATION, PFN_CERT_ENUM_SYSTEM_STORE_LOCATION callback, security.certenumsystemstorelocationcallback, wincrypt/CertEnumSystemStoreLocationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFN_CERT_ENUM_SYSTEM_STORE_LOCATION callback
+# PFN_CERT_ENUM_SYSTEM_STORE_LOCATION callback function
 
 
 ## -description

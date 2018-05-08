@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.Map
-title: ID3D11DeviceContext::Map method
+title: ID3D11DeviceContext::Map
 author: windows-driver-content
 description: Gets a pointer to the data contained in a subresource, and denies the GPU access to that subresource.
 old-location: direct3d11\id3d11devicecontext_map.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: c9d57873-1faa-42fa-855c-26f565e3b27c
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 8c85eb6d-c7f1-0944-a729-628dc7dd5fbc, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], Map method, ID3D11DeviceContext::Map, Map method [Direct3D 11], Map method [Direct3D 11], ID3D11DeviceContext interface, Map,ID3D11DeviceContext.Map, d3d11/ID3D11DeviceContext::Map, direct3d11.id3d11devicecontext_map
+ms.keywords: 8c85eb6d-c7f1-0944-a729-628dc7dd5fbc, ID3D11DeviceContext interface [Direct3D 11],Map method, ID3D11DeviceContext.Map, ID3D11DeviceContext::Map, Map, Map method [Direct3D 11], Map method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::Map, direct3d11.id3d11devicecontext_map
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::Map method
+# ID3D11DeviceContext::Map
 
 
 ## -description

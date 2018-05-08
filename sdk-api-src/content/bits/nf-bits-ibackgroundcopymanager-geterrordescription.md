@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyManager.GetErrorDescription
-title: IBackgroundCopyManager::GetErrorDescription method
+title: IBackgroundCopyManager::GetErrorDescription
 author: windows-driver-content
 description: Retrieves a description for the specified error code.
 old-location: bits\ibackgroundcopymanager_geterrordescription.htm
 old-project: Bits
 ms.assetid: e62e2bde-485d-42d4-b824-a682ab9e16ca
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetErrorDescription method [BITS], GetErrorDescription method [BITS], IBackgroundCopyManager interface, GetErrorDescription,IBackgroundCopyManager.GetErrorDescription, IBackgroundCopyManager, IBackgroundCopyManager interface [BITS], GetErrorDescription method, IBackgroundCopyManager::GetErrorDescription, _drz_ibackgroundcopymanager_geterrordescription, bits.ibackgroundcopymanager_geterrordescription, bits/IBackgroundCopyManager::GetErrorDescription
+ms.date: 4/27/2018
+ms.keywords: GetErrorDescription, GetErrorDescription method [BITS], GetErrorDescription method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],GetErrorDescription method, IBackgroundCopyManager.GetErrorDescription, IBackgroundCopyManager::GetErrorDescription, _drz_ibackgroundcopymanager_geterrordescription, bits.ibackgroundcopymanager_geterrordescription, bits/IBackgroundCopyManager::GetErrorDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyManager::GetErrorDescription method
+# IBackgroundCopyManager::GetErrorDescription
 
 
 ## -description

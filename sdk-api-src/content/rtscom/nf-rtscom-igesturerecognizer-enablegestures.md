@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.EnableGestures
-title: IGestureRecognizer::EnableGestures method
+title: IGestureRecognizer::EnableGestures
 author: windows-driver-content
 description: Sets a value that indicates to which application gestures the GestureRecognizer Class object responds.
 old-location: tablet\igesturerecognizer_enablegestures.htm
 old-project: tablet
 ms.assetid: 59d39c2c-1c92-4325-b534-36b97a7df20f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 59d39c2c-1c92-4325-b534-36b97a7df20f, EnableGestures method [Tablet PC], EnableGestures method [Tablet PC], IGestureRecognizer interface, EnableGestures,IGestureRecognizer.EnableGestures, IGestureRecognizer, IGestureRecognizer interface [Tablet PC], EnableGestures method, IGestureRecognizer::EnableGestures, rtscom/IGestureRecognizer::EnableGestures, tablet.igesturerecognizer_enablegestures
+ms.date: 5/2/2018
+ms.keywords: 59d39c2c-1c92-4325-b534-36b97a7df20f, EnableGestures, EnableGestures method [Tablet PC], EnableGestures method [Tablet PC],IGestureRecognizer interface, IGestureRecognizer interface [Tablet PC],EnableGestures method, IGestureRecognizer.EnableGestures, IGestureRecognizer::EnableGestures, rtscom/IGestureRecognizer::EnableGestures, tablet.igesturerecognizer_enablegestures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IGestureRecognizer::EnableGestures method
+# IGestureRecognizer::EnableGestures
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2Component.put_ProgramNumber
-title: IMPEG2Component::put_ProgramNumber method
+title: IMPEG2Component::put_ProgramNumber
 author: windows-driver-content
 description: The put_ProgramNumber method sets the program number for this substream.
 old-location: mstv\impeg2component_put_programnumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f8bc605f-6e3f-427c-a91e-2d4cbb59b65e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMPEG2Component, IMPEG2Component interface [Microsoft TV Technologies], put_ProgramNumber method, IMPEG2Component::put_ProgramNumber, IMPEG2Componentput_ProgramNumber, mstv.impeg2component_put_programnumber, put_ProgramNumber method [Microsoft TV Technologies], put_ProgramNumber method [Microsoft TV Technologies], IMPEG2Component interface, put_ProgramNumber,IMPEG2Component.put_ProgramNumber, tuner/IMPEG2Component::put_ProgramNumber
+ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],put_ProgramNumber method, IMPEG2Component.put_ProgramNumber, IMPEG2Component::put_ProgramNumber, IMPEG2Componentput_ProgramNumber, mstv.impeg2component_put_programnumber, put_ProgramNumber, put_ProgramNumber method [Microsoft TV Technologies], put_ProgramNumber method [Microsoft TV Technologies],IMPEG2Component interface, tuner/IMPEG2Component::put_ProgramNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMPEG2Component::put_ProgramNumber method
+# IMPEG2Component::put_ProgramNumber
 
 
 ## -description

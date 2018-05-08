@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnSubscriberInformationChange
-title: IMbnInterfaceEvents::OnSubscriberInformationChange method
+title: IMbnInterfaceEvents::OnSubscriberInformationChange
 author: windows-driver-content
 description: This notification method is called by the Mobile Broadband service to indicate that the subscriber information for the device has changed.
 old-location: mbn\imbninterfaceevents_onsubscriberinformationchange.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 26d4fbdb-9c13-4934-a6bb-df581d0c18e9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnInterfaceEvents, IMbnInterfaceEvents interface [Microsoft Broadband Networks], OnSubscriberInformationChange method, IMbnInterfaceEvents::OnSubscriberInformationChange, OnSubscriberInformationChange method [Microsoft Broadband Networks], OnSubscriberInformationChange method [Microsoft Broadband Networks], IMbnInterfaceEvents interface, OnSubscriberInformationChange,IMbnInterfaceEvents.OnSubscriberInformationChange, mbn.imbninterfaceevents_onsubscriberinformationchange, mbnapi/IMbnInterfaceEvents::OnSubscriberInformationChange
+ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnSubscriberInformationChange method, IMbnInterfaceEvents.OnSubscriberInformationChange, IMbnInterfaceEvents::OnSubscriberInformationChange, OnSubscriberInformationChange, OnSubscriberInformationChange method [Microsoft Broadband Networks], OnSubscriberInformationChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onsubscriberinformationchange, mbnapi/IMbnInterfaceEvents::OnSubscriberInformationChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnInterfaceEvents::OnSubscriberInformationChange method
+# IMbnInterfaceEvents::OnSubscriberInformationChange
 
 
 ## -description

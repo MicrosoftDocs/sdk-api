@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetName
-title: IAppxFile::GetName method
+title: IAppxFile::GetName
 author: windows-driver-content
 description: Retrieves the name of the file, including its path relative to the package root directory.
 old-location: appxpkg\iappxfile_getname.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: B56F7A31-686A-4A8B-9388-E30718632AE9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetName method [App packaging and management], GetName method [App packaging and management], IAppxFile interface, GetName,IAppxFile.GetName, IAppxFile, IAppxFile interface [App packaging and management], GetName method, IAppxFile::GetName, appxpackaging/IAppxFile::GetName, appxpkg.iappxfile_getname
+ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetName method, IAppxFile.GetName, IAppxFile::GetName, appxpackaging/IAppxFile::GetName, appxpkg.iappxfile_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxFile::GetName method
+# IAppxFile::GetName
 
 
 ## -description

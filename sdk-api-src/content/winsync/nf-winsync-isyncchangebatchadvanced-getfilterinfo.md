@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.GetFilterInfo
-title: ISyncChangeBatchAdvanced::GetFilterInfo method
+title: ISyncChangeBatchAdvanced::GetFilterInfo
 author: windows-driver-content
 description: Gets the ISyncFilterInfo that was specified when the change batch was created.
 old-location: winsync\isyncchangebatchadvanced_getfilterinfo.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: f630f806-cc5a-408e-bd84-49555ebb41c1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetFilterInfo method [Windows Sync], GetFilterInfo method [Windows Sync], ISyncChangeBatchAdvanced interface, GetFilterInfo,ISyncChangeBatchAdvanced.GetFilterInfo, ISyncChangeBatchAdvanced, ISyncChangeBatchAdvanced interface [Windows Sync], GetFilterInfo method, ISyncChangeBatchAdvanced::GetFilterInfo, winsync.isyncchangebatchadvanced_getfilterinfo, winsync/ISyncChangeBatchAdvanced::GetFilterInfo
+ms.keywords: GetFilterInfo, GetFilterInfo method [Windows Sync], GetFilterInfo method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetFilterInfo method, ISyncChangeBatchAdvanced.GetFilterInfo, ISyncChangeBatchAdvanced::GetFilterInfo, winsync.isyncchangebatchadvanced_getfilterinfo, winsync/ISyncChangeBatchAdvanced::GetFilterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchAdvanced::GetFilterInfo method
+# ISyncChangeBatchAdvanced::GetFilterInfo
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.PauseApplicationInstances
-title: ICOMAdminCatalog2::PauseApplicationInstances method
+title: ICOMAdminCatalog2::PauseApplicationInstances
 author: windows-driver-content
 description: Pauses the specified application server processes.
 old-location: cos\icomadmincatalog2_pauseapplicationinstances.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 59771a5d-894b-46de-9874-ece4aca7232f
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], PauseApplicationInstances method, ICOMAdminCatalog2::PauseApplicationInstances, PauseApplicationInstances method [COM+], PauseApplicationInstances method [COM+], ICOMAdminCatalog2 interface, PauseApplicationInstances,ICOMAdminCatalog2.PauseApplicationInstances, _cos_icomadmincatalog2_PauseApplicationInstances, comadmin/ICOMAdminCatalog2::PauseApplicationInstances, cos.icomadmincatalog2_pauseapplicationinstances
+ms.keywords: ICOMAdminCatalog2 interface [COM+],PauseApplicationInstances method, ICOMAdminCatalog2.PauseApplicationInstances, ICOMAdminCatalog2::PauseApplicationInstances, PauseApplicationInstances, PauseApplicationInstances method [COM+], PauseApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_PauseApplicationInstances, comadmin/ICOMAdminCatalog2::PauseApplicationInstances, cos.icomadmincatalog2_pauseapplicationinstances
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::PauseApplicationInstances method
+# ICOMAdminCatalog2::PauseApplicationInstances
 
 
 ## -description

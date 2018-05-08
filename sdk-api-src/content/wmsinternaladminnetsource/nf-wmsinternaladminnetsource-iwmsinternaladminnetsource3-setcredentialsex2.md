@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource3.SetCredentialsEx2
-title: IWMSInternalAdminNetSource3::SetCredentialsEx2 method
+title: IWMSInternalAdminNetSource3::SetCredentialsEx2
 author: windows-driver-content
 description: The SetCredentialsEx2 method adds a password to the cache. This improved version of IWMSInternalAdminNetSource2::SetCredentialsEx adds a flag (fClearTextAuthentication) that indicates whether credentials were sent in unencrypted form over the network.
 old-location: wmformat\iwmsinternaladminnetsource3_setcredentialsex2.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 6d4fbd40-46f8-4f9e-b2bc-43c09acf4d67
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSInternalAdminNetSource3, IWMSInternalAdminNetSource3 interface [windows Media Format], SetCredentialsEx2 method, IWMSInternalAdminNetSource3::SetCredentialsEx2, IWMSInternalAdminNetSource3SetCredentialsEx3, SetCredentialsEx2 method [windows Media Format], SetCredentialsEx2 method [windows Media Format], IWMSInternalAdminNetSource3 interface, SetCredentialsEx2,IWMSInternalAdminNetSource3.SetCredentialsEx2, wmformat.iwmsinternaladminnetsource3_setcredentialsex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::SetCredentialsEx2
+ms.keywords: IWMSInternalAdminNetSource3 interface [windows Media Format],SetCredentialsEx2 method, IWMSInternalAdminNetSource3.SetCredentialsEx2, IWMSInternalAdminNetSource3::SetCredentialsEx2, IWMSInternalAdminNetSource3SetCredentialsEx3, SetCredentialsEx2, SetCredentialsEx2 method [windows Media Format], SetCredentialsEx2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, wmformat.iwmsinternaladminnetsource3_setcredentialsex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::SetCredentialsEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSInternalAdminNetSource3::SetCredentialsEx2 method
+# IWMSInternalAdminNetSource3::SetCredentialsEx2
 
 
 ## -description

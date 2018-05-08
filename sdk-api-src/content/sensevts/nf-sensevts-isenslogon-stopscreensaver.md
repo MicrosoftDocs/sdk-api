@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon.StopScreenSaver
-title: ISensLogon::StopScreenSaver method
+title: ISensLogon::StopScreenSaver
 author: windows-driver-content
 description: The StopScreenSaver method notifies an application that a screen saver is stopped.
 old-location: sens\isenslogon_stopscreensaver.htm
@@ -8,7 +8,7 @@ old-project: Sens
 ms.assetid: 61a6434b-1a80-4a37-9175-636c3792a865
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISensLogon, ISensLogon interface [SENS], StopScreenSaver method, ISensLogon::StopScreenSaver, StopScreenSaver method [SENS], StopScreenSaver method [SENS], ISensLogon interface, StopScreenSaver,ISensLogon.StopScreenSaver, _zaw_isenslogon_stopscreensaver, sens.isenslogon_stopscreensaver, sensevts/ISensLogon::StopScreenSaver, syncmgr.isenslogon_stopscreensaver
+ms.keywords: ISensLogon interface [SENS],StopScreenSaver method, ISensLogon.StopScreenSaver, ISensLogon::StopScreenSaver, StopScreenSaver, StopScreenSaver method [SENS], StopScreenSaver method [SENS],ISensLogon interface, _zaw_isenslogon_stopscreensaver, sens.isenslogon_stopscreensaver, sensevts/ISensLogon::StopScreenSaver, syncmgr.isenslogon_stopscreensaver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISensLogon::StopScreenSaver method
+# ISensLogon::StopScreenSaver
 
 
 ## -description

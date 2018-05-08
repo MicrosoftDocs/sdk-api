@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.MouseUp
-title: IWMPEvents::MouseUp method
+title: IWMPEvents::MouseUp
 author: windows-driver-content
 description: The MouseUp event occurs when a mouse button is released.
 old-location: wmp\iwmpevents_iwmpevents__mouseup.htm
 old-project: WMP
 ms.assetid: 314d633f-e2f4-43ff-951f-1403c1ccd571
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MouseUp method, IWMPEvents::MouseUp, IWMPEventsMouseUp, MouseUp method [Windows Media Player], MouseUp method [Windows Media Player], IWMPEvents interface, MouseUp,IWMPEvents.MouseUp, wmp.iwmpevents_iwmpevents__mouseup, wmp/IWMPEvents::MouseUp
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],MouseUp method, IWMPEvents.MouseUp, IWMPEvents::MouseUp, IWMPEventsMouseUp, MouseUp, MouseUp method [Windows Media Player], MouseUp method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mouseup, wmp/IWMPEvents::MouseUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::MouseUp method
+# IWMPEvents::MouseUp
 
 
 ## -description

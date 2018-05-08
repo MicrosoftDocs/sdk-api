@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ExcludeChangeUnit
-title: ISyncKnowledge::ExcludeChangeUnit method
+title: ISyncKnowledge::ExcludeChangeUnit
 author: windows-driver-content
 description: Removes knowledge about the specified change unit from the knowledge.
 old-location: winsync\isyncknowledge_excludechangeunit.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 0b9e39a8-6610-468a-a0e6-3950b8c17d58
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ExcludeChangeUnit method [Windows Sync], ExcludeChangeUnit method [Windows Sync], ISyncKnowledge interface, ExcludeChangeUnit,ISyncKnowledge.ExcludeChangeUnit, ISyncKnowledge, ISyncKnowledge interface [Windows Sync], ExcludeChangeUnit method, ISyncKnowledge::ExcludeChangeUnit, winsync.isyncknowledge_excludechangeunit, winsync/ISyncKnowledge::ExcludeChangeUnit
+ms.keywords: ExcludeChangeUnit, ExcludeChangeUnit method [Windows Sync], ExcludeChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ExcludeChangeUnit method, ISyncKnowledge.ExcludeChangeUnit, ISyncKnowledge::ExcludeChangeUnit, winsync.isyncknowledge_excludechangeunit, winsync/ISyncKnowledge::ExcludeChangeUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::ExcludeChangeUnit method
+# ISyncKnowledge::ExcludeChangeUnit
 
 
 ## -description

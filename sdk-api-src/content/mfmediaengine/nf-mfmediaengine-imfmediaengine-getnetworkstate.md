@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetNetworkState
-title: IMFMediaEngine::GetNetworkState method
+title: IMFMediaEngine::GetNetworkState
 author: windows-driver-content
 description: Gets the current network state of the media engine.
 old-location: mf\imfmediaengine_getnetworkstate.htm
 old-project: medfound
 ms.assetid: 7CCA902A-51E9-4B6D-B16C-643177BE1BC9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetNetworkState method [Media Foundation], GetNetworkState method [Media Foundation], IMFMediaEngine interface, GetNetworkState,IMFMediaEngine.GetNetworkState, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetNetworkState method, IMFMediaEngine::GetNetworkState, mf.imfmediaengine_getnetworkstate, mfmediaengine/IMFMediaEngine::GetNetworkState
+ms.date: 5/3/2018
+ms.keywords: GetNetworkState, GetNetworkState method [Media Foundation], GetNetworkState method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetNetworkState method, IMFMediaEngine.GetNetworkState, IMFMediaEngine::GetNetworkState, mf.imfmediaengine_getnetworkstate, mfmediaengine/IMFMediaEngine::GetNetworkState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::GetNetworkState method
+# IMFMediaEngine::GetNetworkState
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactManager.SetMeContact
-title: IContactManager::SetMeContact method
+title: IContactManager::SetMeContact
 author: windows-driver-content
 description: Sets the local user account concept of 'me' to specified user.
 old-location: wincontacts\_wincontacts_IContactManager_SetMeContact.htm
@@ -8,7 +8,7 @@ old-project: wincontacts
 ms.assetid: 3922ea46-da14-44ad-a9bf-8a10480722da
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IContactManager, IContactManager interface [Windows Contacts], SetMeContact method, IContactManager::SetMeContact, SetMeContact method [Windows Contacts], SetMeContact method [Windows Contacts], IContactManager interface, SetMeContact,IContactManager.SetMeContact, _wincontacts_IContactManager_SetMeContact, icontact/IContactManager::SetMeContact, wincontacts._wincontacts_IContactManager_SetMeContact
+ms.keywords: IContactManager interface [Windows Contacts],SetMeContact method, IContactManager.SetMeContact, IContactManager::SetMeContact, SetMeContact, SetMeContact method [Windows Contacts], SetMeContact method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_SetMeContact, icontact/IContactManager::SetMeContact, wincontacts._wincontacts_IContactManager_SetMeContact
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IContactManager::SetMeContact method
+# IContactManager::SetMeContact
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.put_Description
-title: IFsrmReport::put_Description method
+title: IFsrmReport::put_Description
 author: windows-driver-content
 description: Retrieves or sets the description of the report.
 old-location: fsrm\ifsrmreport_description.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: b91a770d-8118-4a7e-adb5-36f6d59ea484
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager], IFsrmReport interface, IFsrmReport, IFsrmReport interface [File Server Resource Manager], Description property, IFsrmReport.Description, IFsrmReport::get_Description, IFsrmReport::put_Description, fs.ifsrmreport_description, fsrm.ifsrmreport_description, fsrmreports/IFsrmReport::Description, fsrmreports/IFsrmReport::get_Description, fsrmreports/IFsrmReport::put_Description, put_Description,IFsrmReport.put_Description
+ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],Description property, IFsrmReport.Description, IFsrmReport.put_Description, IFsrmReport::Description, IFsrmReport::get_Description, IFsrmReport::put_Description, fs.ifsrmreport_description, fsrm.ifsrmreport_description, fsrmreports/IFsrmReport::Description, fsrmreports/IFsrmReport::get_Description, fsrmreports/IFsrmReport::put_Description, put_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReport::put_Description method
+# IFsrmReport::put_Description
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_PercentCompletion
-title: IWdsTransportClient::get_PercentCompletion method
+title: IWdsTransportClient::get_PercentCompletion
 author: windows-driver-content
 description: Receives the percentage of the current object that has been downloaded.
 old-location: wds\iwdstransportclient_percentcompletion.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 7d093d69-822c-4b89-893c-d9b070bd8133
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], PercentCompletion property, IWdsTransportClient.PercentCompletion, IWdsTransportClient::get_PercentCompletion, PercentCompletion property [Windows Deployment Services], PercentCompletion property [Windows Deployment Services], IWdsTransportClient interface, get_PercentCompletion,IWdsTransportClient.get_PercentCompletion, wds.iwdstransportclient_percentcompletion, wdstptmgmt/IWdsTransportClient::PercentCompletion, wdstptmgmt/IWdsTransportClient::get_PercentCompletion
+ms.keywords: IWdsTransportClient interface [Windows Deployment Services],PercentCompletion property, IWdsTransportClient.PercentCompletion, IWdsTransportClient.get_PercentCompletion, IWdsTransportClient::PercentCompletion, IWdsTransportClient::get_PercentCompletion, PercentCompletion property [Windows Deployment Services], PercentCompletion property [Windows Deployment Services],IWdsTransportClient interface, get_PercentCompletion, wds.iwdstransportclient_percentcompletion, wdstptmgmt/IWdsTransportClient::PercentCompletion, wdstptmgmt/IWdsTransportClient::get_PercentCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportClient::get_PercentCompletion method
+# IWdsTransportClient::get_PercentCompletion
 
 
 ## -description

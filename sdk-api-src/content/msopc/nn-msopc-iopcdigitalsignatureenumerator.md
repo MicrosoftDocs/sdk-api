@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 73fd0e47-7503-470d-b649-e4b2ba492bf1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcDigitalSignatureEnumerator, IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions], IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions], described, msopc/IOpcDigitalSignatureEnumerator, opc.iopcdigitalsignatureenumerator
+ms.keywords: IOpcDigitalSignatureEnumerator, IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions], IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignatureEnumerator, opc.iopcdigitalsignatureenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

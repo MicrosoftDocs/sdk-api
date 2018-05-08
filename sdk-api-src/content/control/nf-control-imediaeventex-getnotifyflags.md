@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaEventEx.GetNotifyFlags
-title: IMediaEventEx::GetNotifyFlags method
+title: IMediaEventEx::GetNotifyFlags
 author: windows-driver-content
 description: The GetNotifyFlags method determines whether event notifications are enabled.
 old-location: dshow\imediaeventex_getnotifyflags.htm
 old-project: DirectShow
 ms.assetid: 797c5ee2-5a3c-4e95-b4b8-e29b39460ee0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetNotifyFlags method [DirectShow], GetNotifyFlags method [DirectShow], IMediaEventEx interface, GetNotifyFlags,IMediaEventEx.GetNotifyFlags, IMediaEventEx, IMediaEventEx interface [DirectShow], GetNotifyFlags method, IMediaEventEx::GetNotifyFlags, IMediaEventExGetNotifyFlags, control/IMediaEventEx::GetNotifyFlags, dshow.imediaeventex_getnotifyflags
+ms.date: 4/30/2018
+ms.keywords: GetNotifyFlags, GetNotifyFlags method [DirectShow], GetNotifyFlags method [DirectShow],IMediaEventEx interface, IMediaEventEx interface [DirectShow],GetNotifyFlags method, IMediaEventEx.GetNotifyFlags, IMediaEventEx::GetNotifyFlags, IMediaEventExGetNotifyFlags, control/IMediaEventEx::GetNotifyFlags, dshow.imediaeventex_getnotifyflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaEventEx::GetNotifyFlags method
+# IMediaEventEx::GetNotifyFlags
 
 
 ## -description

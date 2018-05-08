@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IMediaObject.Discontinuity
-title: IMediaObject::Discontinuity method
+title: IMediaObject::Discontinuity
 author: windows-driver-content
 description: The Discontinuity method signals a discontinuity on the specified input stream.
 old-location: dshow\imediaobject_discontinuity.htm
 old-project: DirectShow
 ms.assetid: 1a8e51e2-5d19-423d-acd2-8f1c0a143cf3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Discontinuity method [DirectShow], Discontinuity method [DirectShow], IMediaObject interface, Discontinuity,IMediaObject.Discontinuity, IMediaObject, IMediaObject interface [DirectShow], Discontinuity method, IMediaObject::Discontinuity, IMediaObjectDiscontinuity, dshow.imediaobject_discontinuity, mediaobj/IMediaObject::Discontinuity
+ms.date: 4/30/2018
+ms.keywords: Discontinuity, Discontinuity method [DirectShow], Discontinuity method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],Discontinuity method, IMediaObject.Discontinuity, IMediaObject::Discontinuity, IMediaObjectDiscontinuity, dshow.imediaobject_discontinuity, mediaobj/IMediaObject::Discontinuity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaObject::Discontinuity method
+# IMediaObject::Discontinuity
 
 
 ## -description

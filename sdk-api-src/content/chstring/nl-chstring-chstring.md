@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: e2e4378f-d842-4bca-bffc-a60e718caed3
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "??1CHString@@QAE@XZ, ??1CHString@@QEAA@XZ, CHString, CHString class [Windows Management Instrumentation], CHString class [Windows Management Instrumentation], described, _hmm_chstring, chstring/CHString, wmi.chstring"
+ms.keywords: "??1CHString@@QAE@XZ, ??1CHString@@QEAA@XZ, CHString, CHString class [Windows Management Instrumentation], CHString class [Windows Management Instrumentation],described, _hmm_chstring, chstring/CHString, wmi.chstring"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

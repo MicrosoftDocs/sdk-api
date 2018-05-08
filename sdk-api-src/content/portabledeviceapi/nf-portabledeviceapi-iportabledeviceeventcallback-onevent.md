@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceEventCallback.OnEvent
-title: IPortableDeviceEventCallback::OnEvent method
+title: IPortableDeviceEventCallback::OnEvent
 author: windows-driver-content
 description: The OnEvent method is called by the SDK to notify the application about asynchronous events.
 old-location: wpdsdk\iportabledeviceeventcallback_onevent.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 14659de0-5cea-458a-bf57-fe8b071c778a
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceEventCallback, IPortableDeviceEventCallback interface [Windows Portable Devices SDK], OnEvent method, IPortableDeviceEventCallback::OnEvent, IPortableDeviceEventCallbackOnEvent, OnEvent method [Windows Portable Devices SDK], OnEvent method [Windows Portable Devices SDK], IPortableDeviceEventCallback interface, OnEvent,IPortableDeviceEventCallback.OnEvent, portabledeviceapi/IPortableDeviceEventCallback::OnEvent, wpdsdk.iportabledeviceeventcallback_onevent
+ms.keywords: IPortableDeviceEventCallback interface [Windows Portable Devices SDK],OnEvent method, IPortableDeviceEventCallback.OnEvent, IPortableDeviceEventCallback::OnEvent, IPortableDeviceEventCallbackOnEvent, OnEvent, OnEvent method [Windows Portable Devices SDK], OnEvent method [Windows Portable Devices SDK],IPortableDeviceEventCallback interface, portabledeviceapi/IPortableDeviceEventCallback::OnEvent, wpdsdk.iportabledeviceeventcallback_onevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceEventCallback::OnEvent method
+# IPortableDeviceEventCallback::OnEvent
 
 
 ## -description

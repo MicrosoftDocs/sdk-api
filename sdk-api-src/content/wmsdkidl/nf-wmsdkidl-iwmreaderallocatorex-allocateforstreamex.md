@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAllocatorEx.AllocateForStreamEx
-title: IWMReaderAllocatorEx::AllocateForStreamEx method
+title: IWMReaderAllocatorEx::AllocateForStreamEx
 author: windows-driver-content
 description: The AllocateForStreamEx method allocates a user-created buffer for samples delivered to the IWMReaderCallbackAdvanced::OnStreamSample method.
 old-location: wmformat\iwmreaderallocatorex_allocateforstreamex.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: bb12f0e1-dc9c-447e-a28d-30c45eb95d09
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AllocateForStreamEx method [windows Media Format], AllocateForStreamEx method [windows Media Format], IWMReaderAllocatorEx interface, AllocateForStreamEx,IWMReaderAllocatorEx.AllocateForStreamEx, IWMReaderAllocatorEx, IWMReaderAllocatorEx interface [windows Media Format], AllocateForStreamEx method, IWMReaderAllocatorEx::AllocateForStreamEx, IWMReaderAllocatorExAllocateForStreamEx, wmformat.iwmreaderallocatorex_allocateforstreamex, wmsdkidl/IWMReaderAllocatorEx::AllocateForStreamEx
+ms.keywords: AllocateForStreamEx, AllocateForStreamEx method [windows Media Format], AllocateForStreamEx method [windows Media Format],IWMReaderAllocatorEx interface, IWMReaderAllocatorEx interface [windows Media Format],AllocateForStreamEx method, IWMReaderAllocatorEx.AllocateForStreamEx, IWMReaderAllocatorEx::AllocateForStreamEx, IWMReaderAllocatorExAllocateForStreamEx, wmformat.iwmreaderallocatorex_allocateforstreamex, wmsdkidl/IWMReaderAllocatorEx::AllocateForStreamEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAllocatorEx::AllocateForStreamEx method
+# IWMReaderAllocatorEx::AllocateForStreamEx
 
 
 ## -description

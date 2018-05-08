@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_DefaultInPlaceState
-title: ITextInputPanel::get_DefaultInPlaceState method
+title: ITextInputPanel::get_DefaultInPlaceState
 author: windows-driver-content
 description: Gets or sets the default in-place state as specified by the InPlaceState Enumeration.
 old-location: tablet\itextinputpanel_defaultinplacestate.htm
 old-project: tablet
 ms.assetid: 00778a2c-9903-46a0-a5b3-c2ac4c355462
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 00778a2c-9903-46a0-a5b3-c2ac4c355462, DefaultInPlaceState property [Tablet PC], DefaultInPlaceState property [Tablet PC], ITextInputPanel interface, ITextInputPanel, ITextInputPanel interface [Tablet PC], DefaultInPlaceState property, ITextInputPanel.DefaultInPlaceState, ITextInputPanel.get_DefaultInPlaceState, ITextInputPanel.put_DefaultInPlaceState, ITextInputPanel::get_DefaultInPlaceState, ITextInputPanel::put_DefaultInPlaceState, get_DefaultInPlaceState,ITextInputPanel.get_DefaultInPlaceState, peninputpanel/ITextInputPanel::DefaultInPlaceState, peninputpanel/ITextInputPanel::get_DefaultInPlaceState, peninputpanel/ITextInputPanel::put_DefaultInPlaceState, tablet.itextinputpanel_defaultinplacestate
+ms.date: 5/2/2018
+ms.keywords: 00778a2c-9903-46a0-a5b3-c2ac4c355462, DefaultInPlaceState property [Tablet PC], DefaultInPlaceState property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],DefaultInPlaceState property, ITextInputPanel.DefaultInPlaceState, ITextInputPanel.get_DefaultInPlaceState, ITextInputPanel.put_DefaultInPlaceState, ITextInputPanel::DefaultInPlaceState, ITextInputPanel::get_DefaultInPlaceState, ITextInputPanel::put_DefaultInPlaceState, get_DefaultInPlaceState, peninputpanel/ITextInputPanel::DefaultInPlaceState, peninputpanel/ITextInputPanel::get_DefaultInPlaceState, peninputpanel/ITextInputPanel::put_DefaultInPlaceState, tablet.itextinputpanel_defaultinplacestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanel::get_DefaultInPlaceState method
+# ITextInputPanel::get_DefaultInPlaceState
 
 
 ## -description

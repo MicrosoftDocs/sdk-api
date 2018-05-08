@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaPosition.put_Rate
-title: IMediaPosition::put_Rate method
+title: IMediaPosition::put_Rate
 author: windows-driver-content
 description: The put_Rate method sets the playback rate.
 old-location: dshow\imediaposition_put_rate.htm
 old-project: DirectShow
 ms.assetid: fba6bb5a-6709-41e6-bf76-182c88ee42e3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], put_Rate method, IMediaPosition::put_Rate, IMediaPositionput_Rate, control/IMediaPosition::put_Rate, dshow.imediaposition_put_rate, put_Rate method [DirectShow], put_Rate method [DirectShow], IMediaPosition interface, put_Rate,IMediaPosition.put_Rate
+ms.date: 4/30/2018
+ms.keywords: IMediaPosition interface [DirectShow],put_Rate method, IMediaPosition.put_Rate, IMediaPosition::put_Rate, IMediaPositionput_Rate, control/IMediaPosition::put_Rate, dshow.imediaposition_put_rate, put_Rate, put_Rate method [DirectShow], put_Rate method [DirectShow],IMediaPosition interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaPosition::put_Rate method
+# IMediaPosition::put_Rate
 
 
 ## -description

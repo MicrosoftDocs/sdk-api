@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter
-title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter method
+title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter
 author: windows-driver-content
 description: Creates an ISpatialAudioMetadataWriter object for writing spatial audio metadata items to an ISpatialAudioMetadataItems object.
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadatawriter.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 0A30C838-E9B0-4CC3-BE88-9354160B8084
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ActivateSpatialAudioMetadataWriter method [Core Audio], ActivateSpatialAudioMetadataWriter method [Core Audio], ISpatialAudioMetadataClient interface, ActivateSpatialAudioMetadataWriter,ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter, ISpatialAudioMetadataClient, ISpatialAudioMetadataClient interface [Core Audio], ActivateSpatialAudioMetadataWriter method, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatawriter, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter
+ms.keywords: ActivateSpatialAudioMetadataWriter, ActivateSpatialAudioMetadataWriter method [Core Audio], ActivateSpatialAudioMetadataWriter method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataWriter method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatawriter, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter method
+# ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter
 
 
 ## -description

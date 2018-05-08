@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IComHandlerAction.get_ClassId
-title: IComHandlerAction::get_ClassId method
+title: IComHandlerAction::get_ClassId
 author: windows-driver-content
 description: Gets or sets the identifier of the handler class.
 old-location: taskschd\icomhandleraction_classid.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 7a197ed1-613c-4eb3-95eb-5452218f5d48
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ClassId property [Task Scheduler], ClassId property [Task Scheduler], IComHandlerAction interface, IComHandlerAction, IComHandlerAction interface [Task Scheduler], ClassId property, IComHandlerAction.ClassId, IComHandlerAction::get_ClassId, IComHandlerAction::put_ClassId, get_ClassId,IComHandlerAction.get_ClassId, taskschd.icomhandleraction_classid, taskschd/IComHandlerAction::ClassId, taskschd/IComHandlerAction::get_ClassId, taskschd/IComHandlerAction::put_ClassId
+ms.keywords: ClassId property [Task Scheduler], ClassId property [Task Scheduler],IComHandlerAction interface, IComHandlerAction interface [Task Scheduler],ClassId property, IComHandlerAction.ClassId, IComHandlerAction.get_ClassId, IComHandlerAction::ClassId, IComHandlerAction::get_ClassId, IComHandlerAction::put_ClassId, get_ClassId, taskschd.icomhandleraction_classid, taskschd/IComHandlerAction::ClassId, taskschd/IComHandlerAction::get_ClassId, taskschd/IComHandlerAction::put_ClassId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IComHandlerAction::get_ClassId method
+# IComHandlerAction::get_ClassId
 
 
 ## -description

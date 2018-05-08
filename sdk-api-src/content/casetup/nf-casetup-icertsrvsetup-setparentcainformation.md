@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetParentCAInformation
-title: ICertSrvSetup::SetParentCAInformation method
+title: ICertSrvSetup::SetParentCAInformation
 author: windows-driver-content
 description: Sets the parent certification authority (CA) information for a subordinate CA configuration.
 old-location: security\icertsrvsetup_setparentcainformation.htm
 old-project: SecCrypto
 ms.assetid: 73c4782d-579d-48d7-b999-f15a2443bbca
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], SetParentCAInformation method, ICertSrvSetup::SetParentCAInformation, SetParentCAInformation method [Security], SetParentCAInformation method [Security], ICertSrvSetup interface, SetParentCAInformation,ICertSrvSetup.SetParentCAInformation, casetup/ICertSrvSetup::SetParentCAInformation, security.icertsrvsetup_setparentcainformation
+ms.date: 4/30/2018
+ms.keywords: ICertSrvSetup interface [Security],SetParentCAInformation method, ICertSrvSetup.SetParentCAInformation, ICertSrvSetup::SetParentCAInformation, SetParentCAInformation, SetParentCAInformation method [Security], SetParentCAInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetParentCAInformation, security.icertsrvsetup_setparentcainformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetup::SetParentCAInformation method
+# ICertSrvSetup::SetParentCAInformation
 
 
 ## -description

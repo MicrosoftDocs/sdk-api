@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoProperties.PropCount
-title: IComTrackingInfoProperties::PropCount method
+title: IComTrackingInfoProperties::PropCount
 author: windows-driver-content
 description: Retrieves the number of properties defined for a tracking information object.
 old-location: cos\icomtrackinginfoproperties_propcount.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: f8036da8-3bd4-4500-a707-a43ac9dd5a52
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComTrackingInfoProperties, IComTrackingInfoProperties interface [COM+], PropCount method, IComTrackingInfoProperties::PropCount, PropCount method [COM+], PropCount method [COM+], IComTrackingInfoProperties interface, PropCount,IComTrackingInfoProperties.PropCount, _dtc_IComTrackingInfoProperties_PropCount, comsvcs/IComTrackingInfoProperties::PropCount, cos.icomtrackinginfoproperties_propcount
+ms.keywords: IComTrackingInfoProperties interface [COM+],PropCount method, IComTrackingInfoProperties.PropCount, IComTrackingInfoProperties::PropCount, PropCount, PropCount method [COM+], PropCount method [COM+],IComTrackingInfoProperties interface, _dtc_IComTrackingInfoProperties_PropCount, comsvcs/IComTrackingInfoProperties::PropCount, cos.icomtrackinginfoproperties_propcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComTrackingInfoProperties::PropCount method
+# IComTrackingInfoProperties::PropCount
 
 
 ## -description

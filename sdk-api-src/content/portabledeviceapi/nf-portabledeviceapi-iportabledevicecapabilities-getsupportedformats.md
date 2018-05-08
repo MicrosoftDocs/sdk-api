@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedFormats
-title: IPortableDeviceCapabilities::GetSupportedFormats method
+title: IPortableDeviceCapabilities::GetSupportedFormats
 author: windows-driver-content
 description: The GetSupportedFormats method retrieves the supported formats for a specified object type on the device. For example, specifying audio objects might return WPD_OBJECT_FORMAT_WMA, WPD_OBJECT_FORMAT_WAV, and WPD_OBJECT_FORMAT_MP3.
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedformats.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 7568f5cf-2f9e-459c-ae08-d23b9e37ce4e
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetSupportedFormats method [Windows Portable Devices SDK], GetSupportedFormats method [Windows Portable Devices SDK], IPortableDeviceCapabilities interface, GetSupportedFormats,IPortableDeviceCapabilities.GetSupportedFormats, IPortableDeviceCapabilities, IPortableDeviceCapabilities interface [Windows Portable Devices SDK], GetSupportedFormats method, IPortableDeviceCapabilities::GetSupportedFormats, IPortableDeviceCapabilitiesGetSupportedFormats, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedFormats, wpdsdk.iportabledevicecapabilities_getsupportedformats
+ms.keywords: GetSupportedFormats, GetSupportedFormats method [Windows Portable Devices SDK], GetSupportedFormats method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormats method, IPortableDeviceCapabilities.GetSupportedFormats, IPortableDeviceCapabilities::GetSupportedFormats, IPortableDeviceCapabilitiesGetSupportedFormats, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedFormats, wpdsdk.iportabledevicecapabilities_getsupportedformats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceCapabilities::GetSupportedFormats method
+# IPortableDeviceCapabilities::GetSupportedFormats
 
 
 ## -description

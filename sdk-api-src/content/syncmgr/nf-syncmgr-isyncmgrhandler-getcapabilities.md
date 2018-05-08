@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetCapabilities
-title: ISyncMgrHandler::GetCapabilities method
+title: ISyncMgrHandler::GetCapabilities
 author: windows-driver-content
 description: Gets a set of flags describing the handler's defined capabilities.
 old-location: shell\ISyncMgrHandler_GetCapabilities.htm
 old-project: shell
 ms.assetid: 3eb43984-f284-4df9-934b-1dd2f0e62e26
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell], ISyncMgrHandler interface, GetCapabilities,ISyncMgrHandler.GetCapabilities, ISyncMgrHandler, ISyncMgrHandler interface [Windows Shell], GetCapabilities method, ISyncMgrHandler::GetCapabilities, _shell_ISyncMgrHandler_GetCapabilities, shell.ISyncMgrHandler_GetCapabilities, syncmgr/ISyncMgrHandler::GetCapabilities
+ms.date: 5/3/2018
+ms.keywords: GetCapabilities, GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetCapabilities method, ISyncMgrHandler.GetCapabilities, ISyncMgrHandler::GetCapabilities, _shell_ISyncMgrHandler_GetCapabilities, shell.ISyncMgrHandler_GetCapabilities, syncmgr/ISyncMgrHandler::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrHandler::GetCapabilities method
+# ISyncMgrHandler::GetCapabilities
 
 
 ## -description

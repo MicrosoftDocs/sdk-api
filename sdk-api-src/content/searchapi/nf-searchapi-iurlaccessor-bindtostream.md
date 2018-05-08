@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IUrlAccessor.BindToStream
-title: IUrlAccessor::BindToStream method
+title: IUrlAccessor::BindToStream
 author: windows-driver-content
 description: Binds the item being processed to an IStream interface [Structured Storage] data stream and retrieves a pointer to that stream.
 old-location: search\_search_IUrlAccessor_BindToStream.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\bindtostream.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: BindToStream method [search], BindToStream method [search], IUrlAccessor interface, BindToStream,IUrlAccessor.BindToStream, IUrlAccessor, IUrlAccessor interface [search], BindToStream method, IUrlAccessor::BindToStream, _search_IUrlAccessor_BindToStream, search._search_IUrlAccessor_BindToStream, searchapi/IUrlAccessor::BindToStream
+ms.date: 5/4/2018
+ms.keywords: BindToStream, BindToStream method [search], BindToStream method [search],IUrlAccessor interface, IUrlAccessor interface [search],BindToStream method, IUrlAccessor.BindToStream, IUrlAccessor::BindToStream, _search_IUrlAccessor_BindToStream, search._search_IUrlAccessor_BindToStream, searchapi/IUrlAccessor::BindToStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUrlAccessor::BindToStream method
+# IUrlAccessor::BindToStream
 
 
 ## -description

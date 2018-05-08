@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMDecoderCaps.GetDecoderCaps
-title: IAMDecoderCaps::GetDecoderCaps method
+title: IAMDecoderCaps::GetDecoderCaps
 author: windows-driver-content
 description: The GetDecoderCaps method queries the decoder for its capabilities.
 old-location: dshow\iamdecodercaps_getdecodercaps.htm
 old-project: DirectShow
 ms.assetid: 727db98f-96a1-4fe1-8315-0280541817c2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDecoderCaps method [DirectShow], GetDecoderCaps method [DirectShow], IAMDecoderCaps interface, GetDecoderCaps,IAMDecoderCaps.GetDecoderCaps, IAMDecoderCaps, IAMDecoderCaps interface [DirectShow], GetDecoderCaps method, IAMDecoderCaps::GetDecoderCaps, IAMDecoderCapsGetDecoderCaps, dshow.iamdecodercaps_getdecodercaps, strmif/IAMDecoderCaps::GetDecoderCaps
+ms.date: 4/30/2018
+ms.keywords: GetDecoderCaps, GetDecoderCaps method [DirectShow], GetDecoderCaps method [DirectShow],IAMDecoderCaps interface, IAMDecoderCaps interface [DirectShow],GetDecoderCaps method, IAMDecoderCaps.GetDecoderCaps, IAMDecoderCaps::GetDecoderCaps, IAMDecoderCapsGetDecoderCaps, dshow.iamdecodercaps_getdecodercaps, strmif/IAMDecoderCaps::GetDecoderCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMDecoderCaps::GetDecoderCaps method
+# IAMDecoderCaps::GetDecoderCaps
 
 
 ## -description

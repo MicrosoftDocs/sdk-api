@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteMessage
-title: IWbemObjectSinkEx::WriteMessage method
+title: IWbemObjectSinkEx::WriteMessage
 author: windows-driver-content
 description: TBD
 old-location: wmi\iwbemobjectsinkex_writemessage.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 7b9df753-9148-4578-8265-2cb85526bdc9
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemObjectSinkEx, IWbemObjectSinkEx interface [Windows Management Instrumentation], WriteMessage method, IWbemObjectSinkEx::WriteMessage, WriteMessage method [Windows Management Instrumentation], WriteMessage method [Windows Management Instrumentation], IWbemObjectSinkEx interface, WriteMessage,IWbemObjectSinkEx.WriteMessage, wbemcli/IWbemObjectSinkEx::WriteMessage, wmi.iwbemobjectsinkex_writemessage
+ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteMessage method, IWbemObjectSinkEx.WriteMessage, IWbemObjectSinkEx::WriteMessage, WriteMessage, WriteMessage method [Windows Management Instrumentation], WriteMessage method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteMessage, wmi.iwbemobjectsinkex_writemessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemObjectSinkEx::WriteMessage method
+# IWbemObjectSinkEx::WriteMessage
 
 
 ## -description

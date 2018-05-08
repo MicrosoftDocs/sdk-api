@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.RelativePathTo
-title: IMoniker::RelativePathTo method
+title: IMoniker::RelativePathTo
 author: windows-driver-content
 description: Creates a relative moniker between this moniker and the specified moniker.
 old-location: com\imoniker_relativepathto.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 92e2e7d7-043e-4e95-8540-5a895b5a54f9
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMoniker, IMoniker interface [COM], RelativePathTo method, IMoniker::RelativePathTo, RelativePathTo method [COM], RelativePathTo method [COM], IMoniker interface, RelativePathTo,IMoniker.RelativePathTo, _com_imoniker_relativepathto, com.imoniker_relativepathto, objidl/IMoniker::RelativePathTo
+ms.keywords: IMoniker interface [COM],RelativePathTo method, IMoniker.RelativePathTo, IMoniker::RelativePathTo, RelativePathTo, RelativePathTo method [COM], RelativePathTo method [COM],IMoniker interface, _com_imoniker_relativepathto, com.imoniker_relativepathto, objidl/IMoniker::RelativePathTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMoniker::RelativePathTo method
+# IMoniker::RelativePathTo
 
 
 ## -description

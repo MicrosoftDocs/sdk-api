@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.GetIUnknown
-title: IManagedObjectInfo::GetIUnknown method
+title: IManagedObjectInfo::GetIUnknown
 author: windows-driver-content
 description: Retrieves the IUnknown interface that is associated with the managed object.
 old-location: cos\imanagedobjectinfo_getiunknown.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 1c0d27cb-1725-4654-ab15-0ef815ce6657
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetIUnknown method [COM+], GetIUnknown method [COM+], IManagedObjectInfo interface, GetIUnknown,IManagedObjectInfo.GetIUnknown, IManagedObjectInfo, IManagedObjectInfo interface [COM+], GetIUnknown method, IManagedObjectInfo::GetIUnknown, _cos_IManagedObjectInfo_GetIUnknown, comsvcs/IManagedObjectInfo::GetIUnknown, cos.imanagedobjectinfo_getiunknown
+ms.keywords: GetIUnknown, GetIUnknown method [COM+], GetIUnknown method [COM+],IManagedObjectInfo interface, IManagedObjectInfo interface [COM+],GetIUnknown method, IManagedObjectInfo.GetIUnknown, IManagedObjectInfo::GetIUnknown, _cos_IManagedObjectInfo_GetIUnknown, comsvcs/IManagedObjectInfo::GetIUnknown, cos.imanagedobjectinfo_getiunknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IManagedObjectInfo::GetIUnknown method
+# IManagedObjectInfo::GetIUnknown
 
 
 ## -description

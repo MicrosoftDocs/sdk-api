@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.IRecordInfo.IsMatchingType
-title: IRecordInfo::IsMatchingType method
+title: IRecordInfo::IsMatchingType
 author: windows-driver-content
 description: Determines whether the record that is passed in matches that of the current record information.
 old-location: automat\irecordinfo_ismatchingtype.htm
 old-project: automat
 ms.assetid: 3db29912-3864-4750-b255-77dcffe711cf
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: IRecordInfo, IRecordInfo interface [Automation], IsMatchingType method, IRecordInfo::IsMatchingType, IsMatchingType method [Automation], IsMatchingType method [Automation], IRecordInfo interface, IsMatchingType,IRecordInfo.IsMatchingType, _oa96_IRecordInfo_IsMatchingType, automat.irecordinfo_ismatchingtype, oaidl/IRecordInfo::IsMatchingType
+ms.date: 5/4/2018
+ms.keywords: IRecordInfo interface [Automation],IsMatchingType method, IRecordInfo.IsMatchingType, IRecordInfo::IsMatchingType, IsMatchingType, IsMatchingType method [Automation], IsMatchingType method [Automation],IRecordInfo interface, _oa96_IRecordInfo_IsMatchingType, automat.irecordinfo_ismatchingtype, oaidl/IRecordInfo::IsMatchingType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRecordInfo::IsMatchingType method
+# IRecordInfo::IsMatchingType
 
 
 ## -description

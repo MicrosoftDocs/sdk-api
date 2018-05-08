@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayerCallback.OnMediaPlayerEvent
-title: IMFPMediaPlayerCallback::OnMediaPlayerEvent method
+title: IMFPMediaPlayerCallback::OnMediaPlayerEvent
 author: windows-driver-content
 description: Called by the MFPlay player object to notify the application of a playback event.
 old-location: mf\imfpmediaplayercallback_onmediaplayerevent.htm
 old-project: medfound
 ms.assetid: 2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaPlayerCallback, IMFPMediaPlayerCallback interface [Media Foundation], OnMediaPlayerEvent method, IMFPMediaPlayerCallback::OnMediaPlayerEvent, OnMediaPlayerEvent method [Media Foundation], OnMediaPlayerEvent method [Media Foundation], IMFPMediaPlayerCallback interface, OnMediaPlayerEvent,IMFPMediaPlayerCallback.OnMediaPlayerEvent, mf.imfpmediaplayercallback_onmediaplayerevent, mfplay/IMFPMediaPlayerCallback::OnMediaPlayerEvent
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaPlayerCallback interface [Media Foundation],OnMediaPlayerEvent method, IMFPMediaPlayerCallback.OnMediaPlayerEvent, IMFPMediaPlayerCallback::OnMediaPlayerEvent, OnMediaPlayerEvent, OnMediaPlayerEvent method [Media Foundation], OnMediaPlayerEvent method [Media Foundation],IMFPMediaPlayerCallback interface, mf.imfpmediaplayercallback_onmediaplayerevent, mfplay/IMFPMediaPlayerCallback::OnMediaPlayerEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayerCallback::OnMediaPlayerEvent method
+# IMFPMediaPlayerCallback::OnMediaPlayerEvent
 
 
 ## -description

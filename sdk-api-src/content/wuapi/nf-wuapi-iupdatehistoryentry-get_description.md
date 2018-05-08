@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_Description
-title: IUpdateHistoryEntry::get_Description method
+title: IUpdateHistoryEntry::get_Description
 author: windows-driver-content
 description: Gets the description of an update.
 old-location: wua\iupdatehistoryentry_description.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 355d4623-a84e-4994-ad41-cb4237feeaab
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent], IUpdateHistoryEntry interface, IUpdateHistoryEntry, IUpdateHistoryEntry interface [Windows Update Agent], Description property, IUpdateHistoryEntry.Description, IUpdateHistoryEntry::get_Description, get_Description,IUpdateHistoryEntry.get_Description, wua.iupdatehistoryentry_description, wuapi/IUpdateHistoryEntry::Description, wuapi/IUpdateHistoryEntry::get_Description
+ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent],IUpdateHistoryEntry interface, IUpdateHistoryEntry interface [Windows Update Agent],Description property, IUpdateHistoryEntry.Description, IUpdateHistoryEntry.get_Description, IUpdateHistoryEntry::Description, IUpdateHistoryEntry::get_Description, get_Description, wua.iupdatehistoryentry_description, wuapi/IUpdateHistoryEntry::Description, wuapi/IUpdateHistoryEntry::get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateHistoryEntry::get_Description method
+# IUpdateHistoryEntry::get_Description
 
 
 ## -description

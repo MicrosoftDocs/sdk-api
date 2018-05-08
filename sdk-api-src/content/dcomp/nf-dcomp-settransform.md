@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: a59498c2-8659-dd35-8dc2-87457f493965
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetTransform, SetTransform methods [DirectComposition], dcomp/SetTransform, directcomp.idcompositionvisual3_settransform_overloaded
+ms.keywords: IDCompositionVisual3::SetTransform, SetTransform, SetTransform methods [DirectComposition], dcomp/SetTransform, directcomp.idcompositionvisual3_settransform_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

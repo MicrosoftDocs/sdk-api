@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumTypeSpecs
-title: IMetaDataImport::EnumTypeSpecs method
+title: IMetaDataImport::EnumTypeSpecs
 author: windows-driver-content
 description: Enumerates TypeSpec tokens defined in the current metadata scope.
 old-location: winrt\imetadataimport_enumtypespecs.htm
 old-project: WinRT
 ms.assetid: 81b3b750-b9bd-42f1-b49d-134a10493ae5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumTypeSpecs method [Windows Runtime], EnumTypeSpecs method [Windows Runtime], IMetaDataImport interface, EnumTypeSpecs,IMetaDataImport.EnumTypeSpecs, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumTypeSpecs method, IMetaDataImport::EnumTypeSpecs, rometadataapi/IMetaDataImport::EnumTypeSpecs, winrt.imetadataimport_enumtypespecs
+ms.date: 5/4/2018
+ms.keywords: EnumTypeSpecs, EnumTypeSpecs method [Windows Runtime], EnumTypeSpecs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumTypeSpecs method, IMetaDataImport.EnumTypeSpecs, IMetaDataImport::EnumTypeSpecs, rometadataapi/IMetaDataImport::EnumTypeSpecs, winrt.imetadataimport_enumtypespecs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumTypeSpecs method
+# IMetaDataImport::EnumTypeSpecs
 
 
 ## -description

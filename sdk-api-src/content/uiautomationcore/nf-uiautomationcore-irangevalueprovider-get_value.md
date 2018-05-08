@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_Value
-title: IRangeValueProvider::get_Value method
+title: IRangeValueProvider::get_Value
 author: windows-driver-content
 description: Specifies the value of the control.
 old-location: winauto\uiauto_IRangeValueProvider_Value.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: b17ca8c8-948b-4d92-a6c7-79e610aa8e4a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IRangeValueProvider, IRangeValueProvider interface [Windows Accessibility], Value property, IRangeValueProvider.Value, IRangeValueProvider::get_Value, Value property [Windows Accessibility], Value property [Windows Accessibility], IRangeValueProvider interface, get_Value,IRangeValueProvider.get_Value, uiauto.uiauto_IRangeValueProvider_Value, uiauto_IRangeValueProvider_Value, uiautomationcore/IRangeValueProvider::Value, uiautomationcore/IRangeValueProvider::get_Value, winauto.uiauto_IRangeValueProvider_Value
+ms.keywords: IRangeValueProvider interface [Windows Accessibility],Value property, IRangeValueProvider.Value, IRangeValueProvider.get_Value, IRangeValueProvider::Value, IRangeValueProvider::get_Value, Value property [Windows Accessibility], Value property [Windows Accessibility],IRangeValueProvider interface, get_Value, uiauto.uiauto_IRangeValueProvider_Value, uiauto_IRangeValueProvider_Value, uiautomationcore/IRangeValueProvider::Value, uiautomationcore/IRangeValueProvider::get_Value, winauto.uiauto_IRangeValueProvider_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRangeValueProvider::get_Value method
+# IRangeValueProvider::get_Value
 
 
 ## -description

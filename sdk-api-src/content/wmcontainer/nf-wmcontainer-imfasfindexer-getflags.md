@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetFlags
-title: IMFASFIndexer::GetFlags method
+title: IMFASFIndexer::GetFlags
 author: windows-driver-content
 description: Retrieves the flags that indicate the selected indexer options.
 old-location: mf\imfasfindexer_getflags.htm
 old-project: medfound
 ms.assetid: 97809620-57ad-48f1-94ba-a2e121cdfee6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 97809620-57ad-48f1-94ba-a2e121cdfee6, GetFlags method [Media Foundation], GetFlags method [Media Foundation], IMFASFIndexer interface, GetFlags,IMFASFIndexer.GetFlags, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], GetFlags method, IMFASFIndexer::GetFlags, mf.imfasfindexer_getflags, wmcontainer/IMFASFIndexer::GetFlags
+ms.date: 5/3/2018
+ms.keywords: 97809620-57ad-48f1-94ba-a2e121cdfee6, GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetFlags method, IMFASFIndexer.GetFlags, IMFASFIndexer::GetFlags, mf.imfasfindexer_getflags, wmcontainer/IMFASFIndexer::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFIndexer::GetFlags method
+# IMFASFIndexer::GetFlags
 
 
 ## -description

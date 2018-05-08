@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_IsHierarchical
-title: ISearchRoot::put_IsHierarchical method
+title: ISearchRoot::put_IsHierarchical
 author: windows-driver-content
 description: Sets a value that indicates whether the search is rooted on a hierarchical tree structure.
 old-location: search\_search_ISearchRoot_put_IsHierarchical.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_ishierarchical.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchRoot, ISearchRoot interface [search], put_IsHierarchical method, ISearchRoot::put_IsHierarchical, _search_ISearchRoot_put_IsHierarchical, put_IsHierarchical method [search], put_IsHierarchical method [search], ISearchRoot interface, put_IsHierarchical,ISearchRoot.put_IsHierarchical, search._search_ISearchRoot_put_IsHierarchical, searchapi/ISearchRoot::put_IsHierarchical
+ms.date: 5/4/2018
+ms.keywords: ISearchRoot interface [search],put_IsHierarchical method, ISearchRoot.put_IsHierarchical, ISearchRoot::put_IsHierarchical, _search_ISearchRoot_put_IsHierarchical, put_IsHierarchical, put_IsHierarchical method [search], put_IsHierarchical method [search],ISearchRoot interface, search._search_ISearchRoot_put_IsHierarchical, searchapi/ISearchRoot::put_IsHierarchical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchRoot::put_IsHierarchical method
+# ISearchRoot::put_IsHierarchical
 
 
 ## -description

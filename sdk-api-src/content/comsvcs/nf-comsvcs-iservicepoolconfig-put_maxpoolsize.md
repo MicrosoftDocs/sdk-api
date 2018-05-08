@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_MaxPoolSize
-title: IServicePoolConfig::put_MaxPoolSize method
+title: IServicePoolConfig::put_MaxPoolSize
 author: windows-driver-content
 description: Sets the maximum number of objects in the pool.
 old-location: cos\iservicepoolconfig_put_maxpoolsize.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 618d4969-c29e-4944-8954-a982a90f3c15
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IServicePoolConfig, IServicePoolConfig interface [COM+], put_MaxPoolSize method, IServicePoolConfig::put_MaxPoolSize, comsvcs/IServicePoolConfig::put_MaxPoolSize, cos.iservicepoolconfig_put_maxpoolsize, put_MaxPoolSize method [COM+], put_MaxPoolSize method [COM+], IServicePoolConfig interface, put_MaxPoolSize,IServicePoolConfig.put_MaxPoolSize
+ms.keywords: IServicePoolConfig interface [COM+],put_MaxPoolSize method, IServicePoolConfig.put_MaxPoolSize, IServicePoolConfig::put_MaxPoolSize, comsvcs/IServicePoolConfig::put_MaxPoolSize, cos.iservicepoolconfig_put_maxpoolsize, put_MaxPoolSize, put_MaxPoolSize method [COM+], put_MaxPoolSize method [COM+],IServicePoolConfig interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServicePoolConfig::put_MaxPoolSize method
+# IServicePoolConfig::put_MaxPoolSize
 
 
 ## -description

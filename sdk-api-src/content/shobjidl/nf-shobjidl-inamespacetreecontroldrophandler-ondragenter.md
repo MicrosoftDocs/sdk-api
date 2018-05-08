@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDragEnter
-title: INameSpaceTreeControlDropHandler::OnDragEnter method
+title: INameSpaceTreeControlDropHandler::OnDragEnter
 author: windows-driver-content
 description: Called on drag enter to set drag effect, as specified.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDragEnter.htm
 old-project: shell
 ms.assetid: b9a87024-d62e-4006-a716-c1461d9c9ffe
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: INameSpaceTreeControlDropHandler, INameSpaceTreeControlDropHandler interface [Windows Shell], OnDragEnter method, INameSpaceTreeControlDropHandler::OnDragEnter, OnDragEnter method [Windows Shell], OnDragEnter method [Windows Shell], INameSpaceTreeControlDropHandler interface, OnDragEnter,INameSpaceTreeControlDropHandler.OnDragEnter, _shell_INameSpaceTreeControlDropHandler_OnDragEnter, shell.INameSpaceTreeControlDropHandler_OnDragEnter, shobjidl/INameSpaceTreeControlDropHandler::OnDragEnter
+ms.date: 5/3/2018
+ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDragEnter method, INameSpaceTreeControlDropHandler.OnDragEnter, INameSpaceTreeControlDropHandler::OnDragEnter, OnDragEnter, OnDragEnter method [Windows Shell], OnDragEnter method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDragEnter, shell.INameSpaceTreeControlDropHandler_OnDragEnter, shobjidl/INameSpaceTreeControlDropHandler::OnDragEnter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeControlDropHandler::OnDragEnter method
+# INameSpaceTreeControlDropHandler::OnDragEnter
 
 
 ## -description

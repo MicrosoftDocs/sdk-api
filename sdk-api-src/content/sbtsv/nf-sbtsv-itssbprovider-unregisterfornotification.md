@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.UnRegisterForNotification
-title: ITsSbProvider::UnRegisterForNotification method
+title: ITsSbProvider::UnRegisterForNotification
 author: windows-driver-content
 description: Requests that Remote Desktop Connection Broker (RD Connection Broker) not send notifications about specified events.
 old-location: termserv\itssbprovider_unregisterfornotification.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: e2fa297e-9923-4e60-9e6e-caa6e4b8c963
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], UnRegisterForNotification method, ITsSbProvider::UnRegisterForNotification, TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE, TSSB_NOTIFY_SESSION_CHANGE, TSSB_NOTIFY_TARGET_CHANGE, UnRegisterForNotification method [Remote Desktop Services], UnRegisterForNotification method [Remote Desktop Services], ITsSbProvider interface, UnRegisterForNotification,ITsSbProvider.UnRegisterForNotification, sbtsv/ITsSbProvider::UnRegisterForNotification, termserv.itssbprovider_unregisterfornotification
+ms.keywords: ITsSbProvider interface [Remote Desktop Services],UnRegisterForNotification method, ITsSbProvider.UnRegisterForNotification, ITsSbProvider::UnRegisterForNotification, TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE, TSSB_NOTIFY_SESSION_CHANGE, TSSB_NOTIFY_TARGET_CHANGE, UnRegisterForNotification, UnRegisterForNotification method [Remote Desktop Services], UnRegisterForNotification method [Remote Desktop Services],ITsSbProvider interface, sbtsv/ITsSbProvider::UnRegisterForNotification, termserv.itssbprovider_unregisterfornotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbProvider::UnRegisterForNotification method
+# ITsSbProvider::UnRegisterForNotification
 
 
 ## -description

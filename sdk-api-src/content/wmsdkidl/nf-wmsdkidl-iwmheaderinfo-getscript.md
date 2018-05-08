@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetScript
-title: IWMHeaderInfo::GetScript method
+title: IWMHeaderInfo::GetScript
 author: windows-driver-content
 description: The GetScript method returns the type and command strings, and the presentation time, of a script.
 old-location: wmformat\iwmheaderinfo_getscript.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 779a7618-9f22-4caf-8a4e-b622e422c30d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetScript method [windows Media Format], GetScript method [windows Media Format], IWMHeaderInfo interface, GetScript method [windows Media Format], IWMHeaderInfo2 interface, GetScript method [windows Media Format], IWMHeaderInfo3 interface, GetScript,IWMHeaderInfo.GetScript, IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], GetScript method, IWMHeaderInfo2 interface [windows Media Format], GetScript method, IWMHeaderInfo2::GetScript, IWMHeaderInfo3 interface [windows Media Format], GetScript method, IWMHeaderInfo3::GetScript, IWMHeaderInfo::GetScript, IWMHeaderInfoGetScript, wmformat.iwmheaderinfo_getscript, wmsdkidl/IWMHeaderInfo2::GetScript, wmsdkidl/IWMHeaderInfo3::GetScript, wmsdkidl/IWMHeaderInfo::GetScript
+ms.keywords: GetScript, GetScript method [windows Media Format], GetScript method [windows Media Format],IWMHeaderInfo interface, GetScript method [windows Media Format],IWMHeaderInfo2 interface, GetScript method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetScript method, IWMHeaderInfo.GetScript, IWMHeaderInfo2 interface [windows Media Format],GetScript method, IWMHeaderInfo2::GetScript, IWMHeaderInfo3 interface [windows Media Format],GetScript method, IWMHeaderInfo3::GetScript, IWMHeaderInfo::GetScript, IWMHeaderInfoGetScript, wmformat.iwmheaderinfo_getscript, wmsdkidl/IWMHeaderInfo2::GetScript, wmsdkidl/IWMHeaderInfo3::GetScript, wmsdkidl/IWMHeaderInfo::GetScript
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMHeaderInfo::GetScript method
+# IWMHeaderInfo::GetScript
 
 
 ## -description

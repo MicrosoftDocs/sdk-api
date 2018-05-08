@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Reset
-title: IEnumCERTVIEWEXTENSION::Reset method
+title: IEnumCERTVIEWEXTENSION::Reset
 author: windows-driver-content
 description: Moves to the beginning of the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_reset.htm
 old-project: SecCrypto
 ms.assetid: 7af29b1f-5b43-4ab7-81fa-d03e065f014f
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnumCERTVIEWEXTENSION, IEnumCERTVIEWEXTENSION interface [Security], Reset method, IEnumCERTVIEWEXTENSION object [Security], Reset method, IEnumCERTVIEWEXTENSION::Reset, Reset method [Security], Reset method [Security], IEnumCERTVIEWEXTENSION interface, Reset method [Security], IEnumCERTVIEWEXTENSION object, Reset,IEnumCERTVIEWEXTENSION.Reset, _certsrv_ienumcertviewextension_reset, certview/IEnumCERTVIEWEXTENSION::Reset, security.ienumcertviewextension_reset
+ms.date: 4/30/2018
+ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Reset method, IEnumCERTVIEWEXTENSION object [Security],Reset method, IEnumCERTVIEWEXTENSION.Reset, IEnumCERTVIEWEXTENSION::Reset, Reset, Reset method [Security], Reset method [Security],IEnumCERTVIEWEXTENSION interface, Reset method [Security],IEnumCERTVIEWEXTENSION object, _certsrv_ienumcertviewextension_reset, certview/IEnumCERTVIEWEXTENSION::Reset, security.ienumcertviewextension_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWEXTENSION::Reset method
+# IEnumCERTVIEWEXTENSION::Reset
 
 
 ## -description

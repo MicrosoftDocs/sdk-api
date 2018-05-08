@@ -1,14 +1,14 @@
 ---
 UID: NF:effects.IWMPEffects.GoFullscreen
-title: IWMPEffects::GoFullscreen method
+title: IWMPEffects::GoFullscreen
 author: windows-driver-content
 description: The GoFullscreen method instructs the visualization to switch to full-screen mode.
 old-location: wmp\iwmpeffects_gofullscreen.htm
 old-project: WMP
 ms.assetid: daf69206-5756-4504-9738-e16b9af39790
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: EffectsGoFullscreen, GoFullscreen method [Windows Media Player], GoFullscreen method [Windows Media Player], IWMPEffects interface, GoFullscreen,IWMPEffects.GoFullscreen, IWMPEffects, IWMPEffects interface [Windows Media Player], GoFullscreen method, IWMPEffects::GoFullscreen, effects/IWMPEffects::GoFullscreen, wmp.iwmpeffects_gofullscreen
+ms.date: 5/4/2018
+ms.keywords: EffectsGoFullscreen, GoFullscreen, GoFullscreen method [Windows Media Player], GoFullscreen method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GoFullscreen method, IWMPEffects.GoFullscreen, IWMPEffects::GoFullscreen, effects/IWMPEffects::GoFullscreen, wmp.iwmpeffects_gofullscreen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IWMPEffects::GoFullscreen method
+# IWMPEffects::GoFullscreen
 
 
 ## -description

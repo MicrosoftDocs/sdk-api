@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetModeInfo
-title: IFullScreenVideoEx::GetModeInfo method
+title: IFullScreenVideoEx::GetModeInfo
 author: windows-driver-content
 description: The GetModeInfo method retrieves information about a specified display mode supported by the Full Screen Renderer filter.
 old-location: dshow\ifullscreenvideoex_getmodeinfo.htm
 old-project: DirectShow
 ms.assetid: c1a4aea8-8c48-4073-80ed-060db5adb514
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetModeInfo method [DirectShow], GetModeInfo method [DirectShow], IFullScreenVideoEx interface, GetModeInfo,IFullScreenVideoEx.GetModeInfo, IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], GetModeInfo method, IFullScreenVideoEx::GetModeInfo, IFullScreenVideoGetModeInfo, amvideo/IFullScreenVideoEx::GetModeInfo, dshow.ifullscreenvideoex_getmodeinfo
+ms.date: 4/30/2018
+ms.keywords: GetModeInfo, GetModeInfo method [DirectShow], GetModeInfo method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetModeInfo method, IFullScreenVideoEx.GetModeInfo, IFullScreenVideoEx::GetModeInfo, IFullScreenVideoGetModeInfo, amvideo/IFullScreenVideoEx::GetModeInfo, dshow.ifullscreenvideoex_getmodeinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IFullScreenVideoEx::GetModeInfo method
+# IFullScreenVideoEx::GetModeInfo
 
 
 ## -description

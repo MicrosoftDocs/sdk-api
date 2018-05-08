@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.QueryApplicationFile
-title: ICOMAdminCatalog::QueryApplicationFile method
+title: ICOMAdminCatalog::QueryApplicationFile
 author: windows-driver-content
 description: Retrieves information about a COM+ application from an application file.
 old-location: cos\icomadmincatalog_queryapplicationfile.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 5f90da9d-06eb-4ec0-8ea1-d040c8e084b7
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], QueryApplicationFile method, ICOMAdminCatalog::QueryApplicationFile, QueryApplicationFile method [COM+], QueryApplicationFile method [COM+], ICOMAdminCatalog interface, QueryApplicationFile,ICOMAdminCatalog.QueryApplicationFile, _cos_ICOMAdminCatalog_QueryApplicationFile, comadmin/ICOMAdminCatalog::QueryApplicationFile, cos.icomadmincatalog_queryapplicationfile
+ms.keywords: ICOMAdminCatalog interface [COM+],QueryApplicationFile method, ICOMAdminCatalog.QueryApplicationFile, ICOMAdminCatalog::QueryApplicationFile, QueryApplicationFile, QueryApplicationFile method [COM+], QueryApplicationFile method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_QueryApplicationFile, comadmin/ICOMAdminCatalog::QueryApplicationFile, cos.icomadmincatalog_queryapplicationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::QueryApplicationFile method
+# ICOMAdminCatalog::QueryApplicationFile
 
 
 ## -description

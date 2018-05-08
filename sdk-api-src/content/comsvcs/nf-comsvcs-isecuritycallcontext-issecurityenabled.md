@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.IsSecurityEnabled
-title: ISecurityCallContext::IsSecurityEnabled method
+title: ISecurityCallContext::IsSecurityEnabled
 author: windows-driver-content
 description: Determines whether security is enabled for the object.
 old-location: cos\isecuritycallcontext_issecurityenabled.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: b247d430-56b1-40be-a85a-5ed141d90c85
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ISecurityCallContext, ISecurityCallContext interface [COM+], IsSecurityEnabled method, ISecurityCallContext::IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+], ISecurityCallContext interface, IsSecurityEnabled,ISecurityCallContext.IsSecurityEnabled, _cos_ISecurityCallContext_IsSecurityEnabled, comsvcs/ISecurityCallContext::IsSecurityEnabled, cos.isecuritycallcontext_issecurityenabled
+ms.keywords: ISecurityCallContext interface [COM+],IsSecurityEnabled method, ISecurityCallContext.IsSecurityEnabled, ISecurityCallContext::IsSecurityEnabled, IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsSecurityEnabled, comsvcs/ISecurityCallContext::IsSecurityEnabled, cos.isecuritycallcontext_issecurityenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISecurityCallContext::IsSecurityEnabled method
+# ISecurityCallContext::IsSecurityEnabled
 
 
 ## -description

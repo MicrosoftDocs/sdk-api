@@ -1,6 +1,6 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.Terminate
-title: IRendezvousSession::Terminate method
+title: IRendezvousSession::Terminate
 author: windows-driver-content
 description: Terminates the remote RendezvousApplication.
 old-location: remoteassist\remoteassist_IRendezvousSession_Terminate.htm
@@ -8,7 +8,7 @@ old-project: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\terminate.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRendezvousSession, IRendezvousSession interface [Remote Assistance], Terminate method, IRendezvousSession::Terminate, Terminate method [Remote Assistance], Terminate method [Remote Assistance], IRendezvousSession interface, Terminate,IRendezvousSession.Terminate, remoteassist.remoteassist_IRendezvousSession_Terminate, remoteassist_IRendezvousSession_Terminate, rendezvoussession/IRendezvousSession::Terminate
+ms.keywords: IRendezvousSession interface [Remote Assistance],Terminate method, IRendezvousSession.Terminate, IRendezvousSession::Terminate, Terminate, Terminate method [Remote Assistance], Terminate method [Remote Assistance],IRendezvousSession interface, remoteassist.remoteassist_IRendezvousSession_Terminate, remoteassist_IRendezvousSession_Terminate, rendezvoussession/IRendezvousSession::Terminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRendezvousSession::Terminate method
+# IRendezvousSession::Terminate
 
 
 ## -description

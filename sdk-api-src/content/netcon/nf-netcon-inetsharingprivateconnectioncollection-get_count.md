@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingPrivateConnectionCollection.get_Count
-title: INetSharingPrivateConnectionCollection::get_Count method
+title: INetSharingPrivateConnectionCollection::get_Count
 author: windows-driver-content
 description: The get__Count method retrieves the number of items in the private connections collection.
 old-location: ics\inetsharingprivateconnectioncollection_get_count.htm
 old-project: ICS
 ms.assetid: 599ffa10-6932-48bd-a736-60512f25271c
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingPrivateConnectionCollection, INetSharingPrivateConnectionCollection interface [ICS/ICF], get_Count method, INetSharingPrivateConnectionCollection::get_Count, _ics_inetsharingprivateconnectioncollection_get_count, get_Count method [ICS/ICF], get_Count method [ICS/ICF], INetSharingPrivateConnectionCollection interface, get_Count,INetSharingPrivateConnectionCollection.get_Count, ics.inetsharingprivateconnectioncollection_get_count, netcon/INetSharingPrivateConnectionCollection::get_Count
+ms.date: 5/1/2018
+ms.keywords: INetSharingPrivateConnectionCollection interface [ICS/ICF],get_Count method, INetSharingPrivateConnectionCollection.get_Count, INetSharingPrivateConnectionCollection::get_Count, _ics_inetsharingprivateconnectioncollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingPrivateConnectionCollection interface, ics.inetsharingprivateconnectioncollection_get_count, netcon/INetSharingPrivateConnectionCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingPrivateConnectionCollection::get_Count method
+# INetSharingPrivateConnectionCollection::get_Count
 
 
 ## -description

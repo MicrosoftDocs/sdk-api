@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignatureMethod
-title: IOpcSigningOptions::GetSignatureMethod method
+title: IOpcSigningOptions::GetSignatureMethod
 author: windows-driver-content
 description: Gets the signature method to use to calculate and encrypt the hash value of the SignedInfo element, which will be serialized as the SignatureValue element of the signature.
 old-location: opc\iopcsigningoptions_getsignaturemethod.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: d325ed58-9acd-4ebd-9acc-28f8602a53eb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignatureMethod method [Open Packaging Conventions], GetSignatureMethod method [Open Packaging Conventions], IOpcSigningOptions interface, GetSignatureMethod,IOpcSigningOptions.GetSignatureMethod, IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], GetSignatureMethod method, IOpcSigningOptions::GetSignatureMethod, msopc/IOpcSigningOptions::GetSignatureMethod, opc.iopcsigningoptions_getsignaturemethod
+ms.keywords: GetSignatureMethod, GetSignatureMethod method [Open Packaging Conventions], GetSignatureMethod method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignatureMethod method, IOpcSigningOptions.GetSignatureMethod, IOpcSigningOptions::GetSignatureMethod, msopc/IOpcSigningOptions::GetSignatureMethod, opc.iopcsigningoptions_getsignaturemethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSigningOptions::GetSignatureMethod method
+# IOpcSigningOptions::GetSignatureMethod
 
 
 ## -description

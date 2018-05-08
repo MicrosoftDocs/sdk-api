@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter2.AddExternalPackageReference
-title: IAppxEncryptedBundleWriter2::AddExternalPackageReference method
+title: IAppxEncryptedBundleWriter2::AddExternalPackageReference
 author: windows-driver-content
 description: Adds a reference within the encrypted package bundle to an external app package.
 old-location: appxpkg\iappxencryptedbundlewriter2_addexternalpackagereference.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: F1572E99-17C0-4239-9F95-47880CC50C64
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AddExternalPackageReference method [App packaging and management], AddExternalPackageReference method [App packaging and management], IAppxEncryptedBundleWriter2 interface, AddExternalPackageReference,IAppxEncryptedBundleWriter2.AddExternalPackageReference, IAppxEncryptedBundleWriter2, IAppxEncryptedBundleWriter2 interface [App packaging and management], AddExternalPackageReference method, IAppxEncryptedBundleWriter2::AddExternalPackageReference, appxpackaging/IAppxEncryptedBundleWriter2::AddExternalPackageReference, appxpkg.iappxencryptedbundlewriter2_addexternalpackagereference
+ms.keywords: AddExternalPackageReference, AddExternalPackageReference method [App packaging and management], AddExternalPackageReference method [App packaging and management],IAppxEncryptedBundleWriter2 interface, IAppxEncryptedBundleWriter2 interface [App packaging and management],AddExternalPackageReference method, IAppxEncryptedBundleWriter2.AddExternalPackageReference, IAppxEncryptedBundleWriter2::AddExternalPackageReference, appxpackaging/IAppxEncryptedBundleWriter2::AddExternalPackageReference, appxpkg.iappxencryptedbundlewriter2_addexternalpackagereference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxEncryptedBundleWriter2::AddExternalPackageReference method
+# IAppxEncryptedBundleWriter2::AddExternalPackageReference
 
 
 ## -description

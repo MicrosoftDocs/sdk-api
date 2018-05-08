@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsModeAvailable
-title: IFullScreenVideoEx::IsModeAvailable method
+title: IFullScreenVideoEx::IsModeAvailable
 author: windows-driver-content
 description: The IsModeAvailable method queries whether a specified display mode is available.
 old-location: dshow\ifullscreenvideoex_ismodeavailable.htm
 old-project: DirectShow
 ms.assetid: 9b05d6c6-522c-46b8-90b5-c4650cee5f6b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], IsModeAvailable method, IFullScreenVideoEx::IsModeAvailable, IFullScreenVideoIsModeAvailable, IsModeAvailable method [DirectShow], IsModeAvailable method [DirectShow], IFullScreenVideoEx interface, IsModeAvailable,IFullScreenVideoEx.IsModeAvailable, amvideo/IFullScreenVideoEx::IsModeAvailable, dshow.ifullscreenvideoex_ismodeavailable
+ms.date: 4/30/2018
+ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeAvailable method, IFullScreenVideoEx.IsModeAvailable, IFullScreenVideoEx::IsModeAvailable, IFullScreenVideoIsModeAvailable, IsModeAvailable, IsModeAvailable method [DirectShow], IsModeAvailable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsModeAvailable, dshow.ifullscreenvideoex_ismodeavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IFullScreenVideoEx::IsModeAvailable method
+# IFullScreenVideoEx::IsModeAvailable
 
 
 ## -description

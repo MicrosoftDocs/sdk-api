@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: B2BC04A1-DE22-4543-9F10-33B0B99E0F92
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIAudioStream, IRDPSRAPIAudioStream class [RDP], IRDPSRAPIAudioStream class [RDP], described, rdp.irdpsrapiaudiostream, rdpencomapi/IRDPSRAPIAudioStream
+ms.keywords: IRDPSRAPIAudioStream, IRDPSRAPIAudioStream class [RDP], IRDPSRAPIAudioStream class [RDP],described, rdp.irdpsrapiaudiostream, rdpencomapi/IRDPSRAPIAudioStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

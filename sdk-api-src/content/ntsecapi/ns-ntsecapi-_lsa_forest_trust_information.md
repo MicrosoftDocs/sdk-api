@@ -58,6 +58,31 @@ The <b>LSA_FOREST_TRUST_INFORMATION</b> structure contains <a href="https://msdn
 
 
 
+### -field RecordCount.range
+
+ 
+
+
+### -field RecordCount.range.0
+
+ 
+
+
+### -field RecordCount.range.MAX_RECORDS_IN_FOREST_TRUST_INFO
+
+ 
+
+
+### -field Entries.size_is
+
+ 
+
+
+### -field Entries.size_is.RecordCount
+
+ 
+
+
 ### -field RecordCount
 
 Number of <a href="https://msdn.microsoft.com/19b4ee56-664f-4f37-bfc9-129032ebeb22">LSA_FOREST_TRUST_RECORD</a> structures in the array pointed to by the <b>Entries</b> member.

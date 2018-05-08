@@ -1,14 +1,14 @@
 ---
 UID: NF:bits10_1.IBackgroundCopyFile6.UpdateDownloadPosition
-title: IBackgroundCopyFile6::UpdateDownloadPosition method
+title: IBackgroundCopyFile6::UpdateDownloadPosition
 author: windows-driver-content
 description: Specifies a position to prioritize downloading missing data from.
 old-location: bits\ibackgroundcopyfile6_updatedownloadposition.htm
 old-project: Bits
 ms.assetid: 243F9D5A-32D8-4D39-A9B2-E452CF745844
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyFile6, IBackgroundCopyFile6 interface [BITS], UpdateDownloadPosition method, IBackgroundCopyFile6::UpdateDownloadPosition, UpdateDownloadPosition method [BITS], UpdateDownloadPosition method [BITS], IBackgroundCopyFile6 interface, UpdateDownloadPosition,IBackgroundCopyFile6.UpdateDownloadPosition, bits.ibackgroundcopyfile6_updatedownloadposition, bits10_1/IBackgroundCopyFile6::UpdateDownloadPosition
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyFile6 interface [BITS],UpdateDownloadPosition method, IBackgroundCopyFile6.UpdateDownloadPosition, IBackgroundCopyFile6::UpdateDownloadPosition, UpdateDownloadPosition, UpdateDownloadPosition method [BITS], UpdateDownloadPosition method [BITS],IBackgroundCopyFile6 interface, bits.ibackgroundcopyfile6_updatedownloadposition, bits10_1/IBackgroundCopyFile6::UpdateDownloadPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBackgroundCopyFile6::UpdateDownloadPosition method
+# IBackgroundCopyFile6::UpdateDownloadPosition
 
 
 ## -description

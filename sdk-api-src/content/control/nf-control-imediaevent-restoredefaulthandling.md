@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaEvent.RestoreDefaultHandling
-title: IMediaEvent::RestoreDefaultHandling method
+title: IMediaEvent::RestoreDefaultHandling
 author: windows-driver-content
 description: The RestoreDefaultHandling method restores the Filter Graph Manager's default handling for a specified event.
 old-location: dshow\imediaevent_restoredefaulthandling.htm
 old-project: DirectShow
 ms.assetid: 2df616b0-b944-44ab-8147-4f70796dd2a2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaEvent, IMediaEvent interface [DirectShow], RestoreDefaultHandling method, IMediaEvent::RestoreDefaultHandling, IMediaEventRestoreDefaultHandling, RestoreDefaultHandling method [DirectShow], RestoreDefaultHandling method [DirectShow], IMediaEvent interface, RestoreDefaultHandling,IMediaEvent.RestoreDefaultHandling, control/IMediaEvent::RestoreDefaultHandling, dshow.imediaevent_restoredefaulthandling
+ms.date: 4/30/2018
+ms.keywords: IMediaEvent interface [DirectShow],RestoreDefaultHandling method, IMediaEvent.RestoreDefaultHandling, IMediaEvent::RestoreDefaultHandling, IMediaEventRestoreDefaultHandling, RestoreDefaultHandling, RestoreDefaultHandling method [DirectShow], RestoreDefaultHandling method [DirectShow],IMediaEvent interface, control/IMediaEvent::RestoreDefaultHandling, dshow.imediaevent_restoredefaulthandling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaEvent::RestoreDefaultHandling method
+# IMediaEvent::RestoreDefaultHandling
 
 
 ## -description

@@ -122,6 +122,16 @@ Pointer to the context data passed to the API that generated the event.  For exa
  
 
 
+### -field statusChange.bootstrapAddresses.cntAddress
+
+ 
+
+
+### -field statusChange.bootstrapAddresses.pAddresses
+
+ 
+
+
 
 
 #### - ( unnamed union )

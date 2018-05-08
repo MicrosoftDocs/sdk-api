@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.AddLoggingUrl
-title: IWMReaderNetworkConfig::AddLoggingUrl method
+title: IWMReaderNetworkConfig::AddLoggingUrl
 author: windows-driver-content
 description: The AddLoggingUrl method specifies a server that receive logging information from the reader object.
 old-location: wmformat\iwmreadernetworkconfig_addloggingurl.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 471b17c8-20e4-44f3-88ee-48a35cd8930c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddLoggingUrl method [windows Media Format], AddLoggingUrl method [windows Media Format], IWMReaderNetworkConfig interface, AddLoggingUrl,IWMReaderNetworkConfig.AddLoggingUrl, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], AddLoggingUrl method, IWMReaderNetworkConfig::AddLoggingUrl, IWMReaderNetworkConfigAddLoggingUrl, wmformat.iwmreadernetworkconfig_addloggingurl, wmsdkidl/IWMReaderNetworkConfig::AddLoggingUrl
+ms.keywords: AddLoggingUrl, AddLoggingUrl method [windows Media Format], AddLoggingUrl method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],AddLoggingUrl method, IWMReaderNetworkConfig.AddLoggingUrl, IWMReaderNetworkConfig::AddLoggingUrl, IWMReaderNetworkConfigAddLoggingUrl, wmformat.iwmreadernetworkconfig_addloggingurl, wmsdkidl/IWMReaderNetworkConfig::AddLoggingUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::AddLoggingUrl method
+# IWMReaderNetworkConfig::AddLoggingUrl
 
 
 ## -description

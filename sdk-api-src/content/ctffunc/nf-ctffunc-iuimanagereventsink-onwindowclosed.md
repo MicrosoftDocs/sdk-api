@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowClosed
-title: IUIManagerEventSink::OnWindowClosed method
+title: IUIManagerEventSink::OnWindowClosed
 author: windows-driver-content
 description: Called by the TSF after closing the IME UI.
 old-location: tsf\iuimanagereventsink_onwindowclosed.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: F63D022D-30EC-430C-8ACE-8EBD97AB8B6A
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IUIManagerEventSink, IUIManagerEventSink interface [Text Services Framework], OnWindowClosed method, IUIManagerEventSink::OnWindowClosed, OnWindowClosed method [Text Services Framework], OnWindowClosed method [Text Services Framework], IUIManagerEventSink interface, OnWindowClosed,IUIManagerEventSink.OnWindowClosed, ctffunc/IUIManagerEventSink::OnWindowClosed, tsf.iuimanagereventsink_onwindowclosed
+ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowClosed method, IUIManagerEventSink.OnWindowClosed, IUIManagerEventSink::OnWindowClosed, OnWindowClosed, OnWindowClosed method [Text Services Framework], OnWindowClosed method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowClosed, tsf.iuimanagereventsink_onwindowclosed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IUIManagerEventSink::OnWindowClosed method
+# IUIManagerEventSink::OnWindowClosed
 
 
 ## -description

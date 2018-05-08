@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 357D7166-C115-4F32-AE8B-AA31018F700C
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxEncryptedBundleWriter2, IAppxEncryptedBundleWriter2 interface [App packaging and management], IAppxEncryptedBundleWriter2 interface [App packaging and management], described, appxpackaging/IAppxEncryptedBundleWriter2, appxpkg.iappxencryptedbundlewriter2
+ms.keywords: IAppxEncryptedBundleWriter2, IAppxEncryptedBundleWriter2 interface [App packaging and management], IAppxEncryptedBundleWriter2 interface [App packaging and management],described, appxpackaging/IAppxEncryptedBundleWriter2, appxpkg.iappxencryptedbundlewriter2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

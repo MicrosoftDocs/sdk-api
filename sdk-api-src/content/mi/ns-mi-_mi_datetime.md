@@ -66,14 +66,12 @@ If <b>isTimestamp</b> is nonzero, timestamp is used.  If <b>isTimestamp</b> is 0
 ### -field u
 
 
-
-#### timestamp
+### -field u.timestamp
 
 If <b>isTimestamp</b> is nonzero, <b>MI_Datetime</b> is used to represent an absolute date/time.
 
 
-
-#### interval
+### -field u.interval
 
 If <b>isTimestamp</b> is nonzero,  <b>MI_Datetime</b> is used to represent a relative date/time from when it is needed.
 

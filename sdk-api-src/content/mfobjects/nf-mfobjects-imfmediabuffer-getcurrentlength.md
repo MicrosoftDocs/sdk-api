@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.GetCurrentLength
-title: IMFMediaBuffer::GetCurrentLength method
+title: IMFMediaBuffer::GetCurrentLength
 author: windows-driver-content
 description: Retrieves the length of the valid data in the buffer.
 old-location: mf\imfmediabuffer_getcurrentlength.htm
 old-project: medfound
 ms.assetid: 772e3e6c-0616-41f6-a681-d76da97d85fb
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 772e3e6c-0616-41f6-a681-d76da97d85fb, GetCurrentLength method [Media Foundation], GetCurrentLength method [Media Foundation], IMFMediaBuffer interface, GetCurrentLength,IMFMediaBuffer.GetCurrentLength, IMFMediaBuffer, IMFMediaBuffer interface [Media Foundation], GetCurrentLength method, IMFMediaBuffer::GetCurrentLength, mf.imfmediabuffer_getcurrentlength, mfobjects/IMFMediaBuffer::GetCurrentLength
+ms.date: 5/3/2018
+ms.keywords: 772e3e6c-0616-41f6-a681-d76da97d85fb, GetCurrentLength, GetCurrentLength method [Media Foundation], GetCurrentLength method [Media Foundation],IMFMediaBuffer interface, IMFMediaBuffer interface [Media Foundation],GetCurrentLength method, IMFMediaBuffer.GetCurrentLength, IMFMediaBuffer::GetCurrentLength, mf.imfmediabuffer_getcurrentlength, mfobjects/IMFMediaBuffer::GetCurrentLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaBuffer::GetCurrentLength method
+# IMFMediaBuffer::GetCurrentLength
 
 
 ## -description

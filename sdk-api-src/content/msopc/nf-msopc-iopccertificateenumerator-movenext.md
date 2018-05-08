@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.MoveNext
-title: IOpcCertificateEnumerator::MoveNext method
+title: IOpcCertificateEnumerator::MoveNext
 author: windows-driver-content
 description: Moves the current position of the enumerator to the next CERT_CONTEXT structure.
 old-location: opc\iopccertificateenumerator_movenext.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 81918b97-0d10-4d7c-aaad-fc886d55e664
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcCertificateEnumerator, IOpcCertificateEnumerator interface [Open Packaging Conventions], MoveNext method, IOpcCertificateEnumerator::MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions], IOpcCertificateEnumerator interface, MoveNext,IOpcCertificateEnumerator.MoveNext, msopc/IOpcCertificateEnumerator::MoveNext, opc.iopccertificateenumerator_movenext
+ms.keywords: IOpcCertificateEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcCertificateEnumerator.MoveNext, IOpcCertificateEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcCertificateEnumerator interface, msopc/IOpcCertificateEnumerator::MoveNext, opc.iopccertificateenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcCertificateEnumerator::MoveNext method
+# IOpcCertificateEnumerator::MoveNext
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSample.GetMediaType
-title: IMediaSample::GetMediaType method
+title: IMediaSample::GetMediaType
 author: windows-driver-content
 description: The GetMediaType method retrieves the media type, if the media type differs from the previous sample.
 old-location: dshow\imediasample_getmediatype.htm
 old-project: DirectShow
 ms.assetid: abccec09-c5a0-4192-9bdf-9240d1b73357
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMediaType method [DirectShow], GetMediaType method [DirectShow], IMediaSample interface, GetMediaType,IMediaSample.GetMediaType, IMediaSample, IMediaSample interface [DirectShow], GetMediaType method, IMediaSample::GetMediaType, IMediaSampleGetMediaType, dshow.imediasample_getmediatype, strmif/IMediaSample::GetMediaType
+ms.date: 4/30/2018
+ms.keywords: GetMediaType, GetMediaType method [DirectShow], GetMediaType method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetMediaType method, IMediaSample.GetMediaType, IMediaSample::GetMediaType, IMediaSampleGetMediaType, dshow.imediasample_getmediatype, strmif/IMediaSample::GetMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSample::GetMediaType method
+# IMediaSample::GetMediaType
 
 
 ## -description

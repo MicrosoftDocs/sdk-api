@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IResourceManager.Register
-title: IResourceManager::Register method
+title: IResourceManager::Register
 author: windows-driver-content
 description: The Register method registers a single named resource with the resource manager.
 old-location: dshow\iresourcemanager_register.htm
 old-project: DirectShow
 ms.assetid: 23fa6830-144b-479f-8a8e-b637d82f51d1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IResourceManager, IResourceManager interface [DirectShow], Register method, IResourceManager::Register, IResourceManagerRegister, Register method [DirectShow], Register method [DirectShow], IResourceManager interface, Register,IResourceManager.Register, dshow.iresourcemanager_register, strmif/IResourceManager::Register
+ms.date: 4/30/2018
+ms.keywords: IResourceManager interface [DirectShow],Register method, IResourceManager.Register, IResourceManager::Register, IResourceManagerRegister, Register, Register method [DirectShow], Register method [DirectShow],IResourceManager interface, dshow.iresourcemanager_register, strmif/IResourceManager::Register
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IResourceManager::Register method
+# IResourceManager::Register
 
 
 ## -description

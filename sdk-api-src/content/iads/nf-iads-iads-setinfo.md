@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADs.SetInfo
-title: IADs::SetInfo method
+title: IADs::SetInfo
 author: windows-driver-content
 description: The IADs::SetInfo method saves the cached property values of the ADSI object to the underlying directory store.
 old-location: adsi\iads_setinfo.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: e7ff6acd-b7c4-463d-a34f-fd793067c63a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADs, IADs interface [ADSI], SetInfo method, IADs::SetInfo, SetInfo method [ADSI], SetInfo method [ADSI], IADs interface, SetInfo,IADs.SetInfo, _ds_iads_setinfo, adsi.iads__setinfo, adsi.iads_setinfo, iads/IADs::SetInfo
+ms.keywords: IADs interface [ADSI],SetInfo method, IADs.SetInfo, IADs::SetInfo, SetInfo, SetInfo method [ADSI], SetInfo method [ADSI],IADs interface, _ds_iads_setinfo, adsi.iads__setinfo, adsi.iads_setinfo, iads/IADs::SetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADs::SetInfo method
+# IADs::SetInfo
 
 
 ## -description

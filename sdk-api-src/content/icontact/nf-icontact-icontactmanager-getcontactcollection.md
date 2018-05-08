@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactManager.GetContactCollection
-title: IContactManager::GetContactCollection method
+title: IContactManager::GetContactCollection
 author: windows-driver-content
 description: Returns an IContactCollection object that contains all known contacts.
 old-location: wincontacts\_wincontacts_IContactManager_GetContactCollection.htm
@@ -8,7 +8,7 @@ old-project: wincontacts
 ms.assetid: 6b9d7ba5-e2cd-452f-8479-fdaad183b1ac
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetContactCollection method [Windows Contacts], GetContactCollection method [Windows Contacts], IContactManager interface, GetContactCollection,IContactManager.GetContactCollection, IContactManager, IContactManager interface [Windows Contacts], GetContactCollection method, IContactManager::GetContactCollection, _wincontacts_IContactManager_GetContactCollection, icontact/IContactManager::GetContactCollection, wincontacts._wincontacts_IContactManager_GetContactCollection
+ms.keywords: GetContactCollection, GetContactCollection method [Windows Contacts], GetContactCollection method [Windows Contacts],IContactManager interface, IContactManager interface [Windows Contacts],GetContactCollection method, IContactManager.GetContactCollection, IContactManager::GetContactCollection, _wincontacts_IContactManager_GetContactCollection, icontact/IContactManager::GetContactCollection, wincontacts._wincontacts_IContactManager_GetContactCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IContactManager::GetContactCollection method
+# IContactManager::GetContactCollection
 
 
 ## -description

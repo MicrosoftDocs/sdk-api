@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.IsSelectedForRestore
-title: IVssComponent::IsSelectedForRestore method
+title: IVssComponent::IsSelectedForRestore
 author: windows-driver-content
 description: The IsSelectedForRestore method determines whether the current component has been selected to be restored.
 old-location: base\ivsscomponent_isselectedforrestore.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 76d0461d-a0ac-49c7-84b1-16f21114b72d
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssComponent, IVssComponent interface [VSS], IsSelectedForRestore method, IVssComponent::IsSelectedForRestore, IsSelectedForRestore method [VSS], IsSelectedForRestore method [VSS], IVssComponent interface, IsSelectedForRestore,IVssComponent.IsSelectedForRestore, _win32_ivsscomponent_isselectedforrestore, base.ivsscomponent_isselectedforrestore, vswriter/IVssComponent::IsSelectedForRestore
+ms.keywords: IVssComponent interface [VSS],IsSelectedForRestore method, IVssComponent.IsSelectedForRestore, IVssComponent::IsSelectedForRestore, IsSelectedForRestore, IsSelectedForRestore method [VSS], IsSelectedForRestore method [VSS],IVssComponent interface, _win32_ivsscomponent_isselectedforrestore, base.ivsscomponent_isselectedforrestore, vswriter/IVssComponent::IsSelectedForRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::IsSelectedForRestore method
+# IVssComponent::IsSelectedForRestore
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorProcessActivity.GetStreamingMode
-title: IMFSensorProcessActivity::GetStreamingMode method
+title: IMFSensorProcessActivity::GetStreamingMode
 author: windows-driver-content
 description: Gets the streaming mode of the sensor process.
 old-location: mf\imfsensorprocessactivity_getstreamingmode.htm
 old-project: medfound
 ms.assetid: 1881652A-005C-4EFB-B4ED-3BEAC35A460A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamingMode method [Media Foundation], GetStreamingMode method [Media Foundation], IMFSensorProcessActivity interface, GetStreamingMode,IMFSensorProcessActivity.GetStreamingMode, IMFSensorProcessActivity, IMFSensorProcessActivity interface [Media Foundation], GetStreamingMode method, IMFSensorProcessActivity::GetStreamingMode, mf.imfsensorprocessactivity_getstreamingmode, mfidl/IMFSensorProcessActivity::GetStreamingMode
+ms.date: 5/3/2018
+ms.keywords: GetStreamingMode, GetStreamingMode method [Media Foundation], GetStreamingMode method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetStreamingMode method, IMFSensorProcessActivity.GetStreamingMode, IMFSensorProcessActivity::GetStreamingMode, mf.imfsensorprocessactivity_getstreamingmode, mfidl/IMFSensorProcessActivity::GetStreamingMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorProcessActivity::GetStreamingMode method
+# IMFSensorProcessActivity::GetStreamingMode
 
 
 ## -description

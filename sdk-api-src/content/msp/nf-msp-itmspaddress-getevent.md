@@ -1,6 +1,6 @@
 ---
 UID: NF:msp.ITMSPAddress.GetEvent
-title: ITMSPAddress::GetEvent method
+title: ITMSPAddress::GetEvent
 author: windows-driver-content
 description: Retrieves event information.
 old-location: tapi3\itmspaddress_getevent.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: df5263f2-9d76-472d-b7fc-724d36f0b58f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetEvent method [TAPI 2.2], GetEvent method [TAPI 2.2], ITMSPAddress interface, GetEvent,ITMSPAddress.GetEvent, ITMSPAddress, ITMSPAddress interface [TAPI 2.2], GetEvent method, ITMSPAddress::GetEvent, _tapi3_itmspaddress_getevent, msp/ITMSPAddress::GetEvent, tapi3.itmspaddress_getevent
+ms.keywords: GetEvent, GetEvent method [TAPI 2.2], GetEvent method [TAPI 2.2],ITMSPAddress interface, ITMSPAddress interface [TAPI 2.2],GetEvent method, ITMSPAddress.GetEvent, ITMSPAddress::GetEvent, _tapi3_itmspaddress_getevent, msp/ITMSPAddress::GetEvent, tapi3.itmspaddress_getevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITMSPAddress::GetEvent method
+# ITMSPAddress::GetEvent
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.Check
-title: ISpellCheckProvider::Check method
+title: ISpellCheckProvider::Check
 author: windows-driver-content
 description: Checks the spelling of the supplied text and returns a collection of spelling errors.
 old-location: intl\ispellcheckprovider_check.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: B8C62B56-FF72-4C94-AC77-A6BEFCFE2589
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Check method [Internationalization for Windows Applications], Check method [Internationalization for Windows Applications], ISpellCheckProvider interface, Check,ISpellCheckProvider.Check, ISpellCheckProvider, ISpellCheckProvider interface [Internationalization for Windows Applications], Check method, ISpellCheckProvider::Check, intl.ispellcheckprovider_check, spellcheckprovider/ISpellCheckProvider::Check
+ms.keywords: Check, Check method [Internationalization for Windows Applications], Check method [Internationalization for Windows Applications],ISpellCheckProvider interface, ISpellCheckProvider interface [Internationalization for Windows Applications],Check method, ISpellCheckProvider.Check, ISpellCheckProvider::Check, intl.ispellcheckprovider_check, spellcheckprovider/ISpellCheckProvider::Check
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellCheckProvider::Check method
+# ISpellCheckProvider::Check
 
 
 ## -description

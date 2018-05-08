@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetUINT32
-title: IMFAttributes::GetUINT32 method
+title: IMFAttributes::GetUINT32
 author: windows-driver-content
 description: Retrieves a UINT32 value associated with a key.
 old-location: mf\imfattributes_getuint32.htm
 old-project: medfound
 ms.assetid: e47495e0-3274-4ce2-9fd3-d2fb2afb7578
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetUINT32 method [Media Foundation], GetUINT32 method [Media Foundation], IMFAttributes interface, GetUINT32,IMFAttributes.GetUINT32, IMFAttributes, IMFAttributes interface [Media Foundation], GetUINT32 method, IMFAttributes::GetUINT32, e47495e0-3274-4ce2-9fd3-d2fb2afb7578, mf.imfattributes_getuint32, mfobjects/IMFAttributes::GetUINT32
+ms.date: 5/3/2018
+ms.keywords: GetUINT32, GetUINT32 method [Media Foundation], GetUINT32 method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetUINT32 method, IMFAttributes.GetUINT32, IMFAttributes::GetUINT32, e47495e0-3274-4ce2-9fd3-d2fb2afb7578, mf.imfattributes_getuint32, mfobjects/IMFAttributes::GetUINT32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAttributes::GetUINT32 method
+# IMFAttributes::GetUINT32
 
 
 ## -description

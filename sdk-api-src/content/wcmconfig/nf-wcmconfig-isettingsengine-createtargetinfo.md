@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateTargetInfo
-title: ISettingsEngine::CreateTargetInfo method
+title: ISettingsEngine::CreateTargetInfo
 author: windows-driver-content
 description: Creates an empty target.
 old-location: smi\isettingsengine_createtargetinfo.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: f3d31643-c606-4fc1-96a8-cf5cb26bcf3f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateTargetInfo method [SMI], CreateTargetInfo method [SMI], ISettingsEngine interface, CreateTargetInfo,ISettingsEngine.CreateTargetInfo, ISettingsEngine, ISettingsEngine interface [SMI], CreateTargetInfo method, ISettingsEngine::CreateTargetInfo, smi.isettingsengine_createtargetinfo, wcmconfig/ISettingsEngine::CreateTargetInfo
+ms.keywords: CreateTargetInfo, CreateTargetInfo method [SMI], CreateTargetInfo method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],CreateTargetInfo method, ISettingsEngine.CreateTargetInfo, ISettingsEngine::CreateTargetInfo, smi.isettingsengine_createtargetinfo, wcmconfig/ISettingsEngine::CreateTargetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsEngine::CreateTargetInfo method
+# ISettingsEngine::CreateTargetInfo
 
 
 ## -description

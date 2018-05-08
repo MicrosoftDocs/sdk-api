@@ -8,7 +8,7 @@ old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sharpen.htm
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Sharpen, Sharpen class [GDI+], Sharpen class [GDI+], described, _gdiplus_CLASS_Sharpen_Class, gdiplus._gdiplus_CLASS_Sharpen_Class, gdipluseffects/Sharpen
+ms.keywords: Sharpen, Sharpen class [GDI+], Sharpen class [GDI+],described, _gdiplus_CLASS_Sharpen_Class, gdiplus._gdiplus_CLASS_Sharpen_Class, gdipluseffects/Sharpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class
@@ -38,10 +38,10 @@ api_name:
 -	Sharpen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
-req.product: GDI+ 1.0
+req.product: GDI+ 1.1
 ---
 
 # Sharpen class

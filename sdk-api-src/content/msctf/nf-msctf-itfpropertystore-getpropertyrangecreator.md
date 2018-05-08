@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.GetPropertyRangeCreator
-title: ITfPropertyStore::GetPropertyRangeCreator method
+title: ITfPropertyStore::GetPropertyRangeCreator
 author: windows-driver-content
 description: ITfPropertyStore::GetPropertyRangeCreator method
 old-location: tsf\itfpropertystore_getpropertyrangecreator.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 94fa2e8f-5bdd-4ec0-b632-269d4a7b3f73
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetPropertyRangeCreator method [Text Services Framework], GetPropertyRangeCreator method [Text Services Framework], ITfPropertyStore interface, GetPropertyRangeCreator,ITfPropertyStore.GetPropertyRangeCreator, ITfPropertyStore, ITfPropertyStore interface [Text Services Framework], GetPropertyRangeCreator method, ITfPropertyStore::GetPropertyRangeCreator, _tsf_itfpropertystore_getpropertyrangecreator_ref, msctf/ITfPropertyStore::GetPropertyRangeCreator, tsf.itfpropertystore_getpropertyrangecreator
+ms.keywords: GetPropertyRangeCreator, GetPropertyRangeCreator method [Text Services Framework], GetPropertyRangeCreator method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],GetPropertyRangeCreator method, ITfPropertyStore.GetPropertyRangeCreator, ITfPropertyStore::GetPropertyRangeCreator, _tsf_itfpropertystore_getpropertyrangecreator_ref, msctf/ITfPropertyStore::GetPropertyRangeCreator, tsf.itfpropertystore_getpropertyrangecreator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfPropertyStore::GetPropertyRangeCreator method
+# ITfPropertyStore::GetPropertyRangeCreator
 
 
 ## -description

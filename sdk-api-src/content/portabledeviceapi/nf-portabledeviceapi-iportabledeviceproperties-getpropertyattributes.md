@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.GetPropertyAttributes
-title: IPortableDeviceProperties::GetPropertyAttributes method
+title: IPortableDeviceProperties::GetPropertyAttributes
 author: windows-driver-content
 description: The GetPropertyAttributes method retrieves attributes of a specified object property on a device.
 old-location: wpdsdk\iportabledeviceproperties_getpropertyattributes.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: bb2206ff-e1d4-4bc5-819b-b008a293c43d
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetPropertyAttributes method [Windows Portable Devices SDK], GetPropertyAttributes method [Windows Portable Devices SDK], IPortableDeviceProperties interface, GetPropertyAttributes,IPortableDeviceProperties.GetPropertyAttributes, IPortableDeviceProperties, IPortableDeviceProperties interface [Windows Portable Devices SDK], GetPropertyAttributes method, IPortableDeviceProperties::GetPropertyAttributes, IPortableDevicePropertiesGetPropertyAttributes, portabledeviceapi/IPortableDeviceProperties::GetPropertyAttributes, wpdsdk.iportabledeviceproperties_getpropertyattributes
+ms.keywords: GetPropertyAttributes, GetPropertyAttributes method [Windows Portable Devices SDK], GetPropertyAttributes method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],GetPropertyAttributes method, IPortableDeviceProperties.GetPropertyAttributes, IPortableDeviceProperties::GetPropertyAttributes, IPortableDevicePropertiesGetPropertyAttributes, portabledeviceapi/IPortableDeviceProperties::GetPropertyAttributes, wpdsdk.iportabledeviceproperties_getpropertyattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceProperties::GetPropertyAttributes method
+# IPortableDeviceProperties::GetPropertyAttributes
 
 
 ## -description

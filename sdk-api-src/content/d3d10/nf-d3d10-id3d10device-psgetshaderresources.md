@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSGetShaderResources
-title: ID3D10Device::PSGetShaderResources method
+title: ID3D10Device::PSGetShaderResources
 author: windows-driver-content
 description: Get the pixel shader resources.
 old-location: direct3d10\id3d10device_psgetshaderresources.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_psgetshaderresources.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 54b6aa73-f39a-9734-0be4-f47362f38b2f, ID3D10Device, ID3D10Device interface [Direct3D 10], PSGetShaderResources method, ID3D10Device::PSGetShaderResources, PSGetShaderResources method [Direct3D 10], PSGetShaderResources method [Direct3D 10], ID3D10Device interface, PSGetShaderResources,ID3D10Device.PSGetShaderResources, d3d10/ID3D10Device::PSGetShaderResources, direct3d10.id3d10device_psgetshaderresources
+ms.keywords: 54b6aa73-f39a-9734-0be4-f47362f38b2f, ID3D10Device interface [Direct3D 10],PSGetShaderResources method, ID3D10Device.PSGetShaderResources, ID3D10Device::PSGetShaderResources, PSGetShaderResources, PSGetShaderResources method [Direct3D 10], PSGetShaderResources method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSGetShaderResources, direct3d10.id3d10device_psgetshaderresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::PSGetShaderResources method
+# ID3D10Device::PSGetShaderResources
 
 
 ## -description

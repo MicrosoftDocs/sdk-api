@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.GetCspStatusFromOperations
-title: ICspInformation::GetCspStatusFromOperations method
+title: ICspInformation::GetCspStatusFromOperations
 author: windows-driver-content
 description: Creates an ICspStatus object for the first supported algorithm that is consistent with the specified signature, encryption, hashing, or cipher operation.
 old-location: security\icspinformation_getcspstatusfromoperations.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 6b551e72-2f0a-4ae8-ba06-dff1508a7d83
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetCspStatusFromOperations method [Security], GetCspStatusFromOperations method [Security], ICspInformation interface, GetCspStatusFromOperations,ICspInformation.GetCspStatusFromOperations, ICspInformation, ICspInformation interface [Security], GetCspStatusFromOperations method, ICspInformation::GetCspStatusFromOperations, certenroll/ICspInformation::GetCspStatusFromOperations, security.icspinformation_getcspstatusfromoperations
+ms.keywords: GetCspStatusFromOperations, GetCspStatusFromOperations method [Security], GetCspStatusFromOperations method [Security],ICspInformation interface, ICspInformation interface [Security],GetCspStatusFromOperations method, ICspInformation.GetCspStatusFromOperations, ICspInformation::GetCspStatusFromOperations, certenroll/ICspInformation::GetCspStatusFromOperations, security.icspinformation_getcspstatusfromoperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformation::GetCspStatusFromOperations method
+# ICspInformation::GetCspStatusFromOperations
 
 
 ## -description

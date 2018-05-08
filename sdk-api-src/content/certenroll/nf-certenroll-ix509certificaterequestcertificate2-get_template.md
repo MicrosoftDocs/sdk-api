@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate2.get_Template
-title: IX509CertificateRequestCertificate2::get_Template method
+title: IX509CertificateRequestCertificate2::get_Template
 author: windows-driver-content
 description: Retrieves the certificate request template used during initialization.
 old-location: security\ix509certificaterequestcertificate2_template.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 0332c4d5-84a9-4e1b-bd43-e1df1024b3c8
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestCertificate2, IX509CertificateRequestCertificate2 interface [Security], Template property, IX509CertificateRequestCertificate2.Template, IX509CertificateRequestCertificate2::get_Template, Template property [Security], Template property [Security], IX509CertificateRequestCertificate2 interface, certenroll/IX509CertificateRequestCertificate2::Template, certenroll/IX509CertificateRequestCertificate2::get_Template, get_Template,IX509CertificateRequestCertificate2.get_Template, security.ix509certificaterequestcertificate2_template
+ms.keywords: IX509CertificateRequestCertificate2 interface [Security],Template property, IX509CertificateRequestCertificate2.Template, IX509CertificateRequestCertificate2.get_Template, IX509CertificateRequestCertificate2::Template, IX509CertificateRequestCertificate2::get_Template, Template property [Security], Template property [Security],IX509CertificateRequestCertificate2 interface, certenroll/IX509CertificateRequestCertificate2::Template, certenroll/IX509CertificateRequestCertificate2::get_Template, get_Template, security.ix509certificaterequestcertificate2_template
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509CertificateRequestCertificate2::get_Template method
+# IX509CertificateRequestCertificate2::get_Template
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchManager.get_PortNumber
-title: ISearchManager::get_PortNumber method
+title: ISearchManager::get_PortNumber
 author: windows-driver-content
 description: Retrieves the port number used to communicate with the proxy server. This port number is stored in the indexer and is set by the ISearchManager::SetProxy method.
 old-location: search\_search_ISearchManager_get_PortNumber.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_portnumber.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchManager, ISearchManager interface [search], get_PortNumber method, ISearchManager::get_PortNumber, _search_ISearchManager_get_PortNumber, get_PortNumber method [search], get_PortNumber method [search], ISearchManager interface, get_PortNumber,ISearchManager.get_PortNumber, search._search_ISearchManager_get_PortNumber, searchapi/ISearchManager::get_PortNumber
+ms.date: 5/4/2018
+ms.keywords: ISearchManager interface [search],get_PortNumber method, ISearchManager.get_PortNumber, ISearchManager::get_PortNumber, _search_ISearchManager_get_PortNumber, get_PortNumber, get_PortNumber method [search], get_PortNumber method [search],ISearchManager interface, search._search_ISearchManager_get_PortNumber, searchapi/ISearchManager::get_PortNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchManager::get_PortNumber method
+# ISearchManager::get_PortNumber
 
 
 ## -description

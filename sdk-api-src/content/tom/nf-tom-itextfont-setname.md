@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetName
-title: ITextFont::SetName method
+title: ITextFont::SetName
 author: windows-driver-content
 description: Sets the font name.
 old-location: controls\ITextFont_SetName.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setname.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetName method, ITextFont::SetName, SetName method [Windows Controls], SetName method [Windows Controls], ITextFont interface, SetName,ITextFont.SetName, _win32_ITextFont_SetName, _win32_ITextFont_SetName_cpp, controls.ITextFont_SetName, controls._win32_ITextFont_SetName, tom/ITextFont::SetName
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetName method, ITextFont.SetName, ITextFont::SetName, SetName, SetName method [Windows Controls], SetName method [Windows Controls],ITextFont interface, _win32_ITextFont_SetName, _win32_ITextFont_SetName_cpp, controls.ITextFont_SetName, controls._win32_ITextFont_SetName, tom/ITextFont::SetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetName method
+# ITextFont::SetName
 
 
 ## -description

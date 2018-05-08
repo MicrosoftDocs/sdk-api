@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.put_MinFreeDisk
-title: IDataManager::put_MinFreeDisk method
+title: IDataManager::put_MinFreeDisk
 author: windows-driver-content
 description: Retrieves or sets the minimum free disk space that needs to exist before data collection begins.
 old-location: pla\idatamanager_minfreedisk.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: e5f4f752-ae96-4a1b-99a4-ff3b73fe3743
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataManager, IDataManager interface [PLA], MinFreeDisk property, IDataManager.MinFreeDisk, IDataManager::get_MinFreeDisk, IDataManager::put_MinFreeDisk, MinFreeDisk property [PLA], MinFreeDisk property [PLA], IDataManager interface, base.idatamanager_minfreedisk, pla.idatamanager_minfreedisk, pla/IDataManager::MinFreeDisk, pla/IDataManager::get_MinFreeDisk, pla/IDataManager::put_MinFreeDisk, put_MinFreeDisk,IDataManager.put_MinFreeDisk
+ms.keywords: IDataManager interface [PLA],MinFreeDisk property, IDataManager.MinFreeDisk, IDataManager.put_MinFreeDisk, IDataManager::MinFreeDisk, IDataManager::get_MinFreeDisk, IDataManager::put_MinFreeDisk, MinFreeDisk property [PLA], MinFreeDisk property [PLA],IDataManager interface, base.idatamanager_minfreedisk, pla.idatamanager_minfreedisk, pla/IDataManager::MinFreeDisk, pla/IDataManager::get_MinFreeDisk, pla/IDataManager::put_MinFreeDisk, put_MinFreeDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataManager::put_MinFreeDisk method
+# IDataManager::put_MinFreeDisk
 
 
 ## -description

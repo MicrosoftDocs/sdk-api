@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsDecoded
-title: IShellImageData::IsDecoded method
+title: IShellImageData::IsDecoded
 author: windows-driver-content
 description: Determines whether the image has been decoded by calling IShellImageData::Decode. Many operations return a failure code if the image is not first decoded.
 old-location: shell\IShellImageData_IsDecoded.htm
 old-project: shell
 ms.assetid: f02dbf35-4dc7-4750-978d-b703338514df
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IsDecoded method, IShellImageData::IsDecoded, IsDecoded method [Windows Shell], IsDecoded method [Windows Shell], IShellImageData interface, IsDecoded,IShellImageData.IsDecoded, _shell_IShellImageData_IsDecoded, shell.IShellImageData_IsDecoded, shimgdata/IShellImageData::IsDecoded
+ms.date: 5/3/2018
+ms.keywords: IShellImageData interface [Windows Shell],IsDecoded method, IShellImageData.IsDecoded, IShellImageData::IsDecoded, IsDecoded, IsDecoded method [Windows Shell], IsDecoded method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsDecoded, shell.IShellImageData_IsDecoded, shimgdata/IShellImageData::IsDecoded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::IsDecoded method
+# IShellImageData::IsDecoded
 
 
 ## -description

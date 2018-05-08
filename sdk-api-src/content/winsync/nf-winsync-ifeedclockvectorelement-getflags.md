@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IFeedClockVectorElement.GetFlags
-title: IFeedClockVectorElement::GetFlags method
+title: IFeedClockVectorElement::GetFlags
 author: windows-driver-content
 description: Gets flags that specify additional information about the clock vector element.
 old-location: winsync\ifeedclockvectorelement_getflags.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 9c618ca9-de6b-4e3e-a0cc-cac3886199d5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetFlags method [Windows Sync], GetFlags method [Windows Sync], IFeedClockVectorElement interface, GetFlags,IFeedClockVectorElement.GetFlags, IFeedClockVectorElement, IFeedClockVectorElement interface [Windows Sync], GetFlags method, IFeedClockVectorElement::GetFlags, winsync.ifeedclockvectorelement_getflags, winsync/IFeedClockVectorElement::GetFlags
+ms.keywords: GetFlags, GetFlags method [Windows Sync], GetFlags method [Windows Sync],IFeedClockVectorElement interface, IFeedClockVectorElement interface [Windows Sync],GetFlags method, IFeedClockVectorElement.GetFlags, IFeedClockVectorElement::GetFlags, winsync.ifeedclockvectorelement_getflags, winsync/IFeedClockVectorElement::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IFeedClockVectorElement::GetFlags method
+# IFeedClockVectorElement::GetFlags
 
 
 ## -description

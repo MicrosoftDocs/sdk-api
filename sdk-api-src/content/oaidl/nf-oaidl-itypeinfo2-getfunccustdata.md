@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetFuncCustData
-title: ITypeInfo2::GetFuncCustData method
+title: ITypeInfo2::GetFuncCustData
 author: windows-driver-content
 description: Gets the custom data from the specified function.
 old-location: automat\itypeinfo2_getfunccustdata.htm
 old-project: automat
 ms.assetid: d3a7b13f-6296-45ee-9697-4d52b5965c4b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetFuncCustData method [Automation], GetFuncCustData method [Automation], ITypeInfo2 interface, GetFuncCustData,ITypeInfo2.GetFuncCustData, ITypeInfo2, ITypeInfo2 interface [Automation], GetFuncCustData method, ITypeInfo2::GetFuncCustData, _oa96_ITypeInfo2_GetFuncCustData, automat.itypeinfo2_getfunccustdata, oaidl/ITypeInfo2::GetFuncCustData
+ms.date: 5/4/2018
+ms.keywords: GetFuncCustData, GetFuncCustData method [Automation], GetFuncCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetFuncCustData method, ITypeInfo2.GetFuncCustData, ITypeInfo2::GetFuncCustData, _oa96_ITypeInfo2_GetFuncCustData, automat.itypeinfo2_getfunccustdata, oaidl/ITypeInfo2::GetFuncCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo2::GetFuncCustData method
+# ITypeInfo2::GetFuncCustData
 
 
 ## -description

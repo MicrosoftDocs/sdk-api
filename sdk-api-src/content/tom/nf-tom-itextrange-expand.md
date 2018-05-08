@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.Expand
-title: ITextRange::Expand method
+title: ITextRange::Expand
 author: windows-driver-content
 description: Expands this range so that any partial units it contains are completely contained.
 old-location: controls\ITextRange_Expand.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\expand.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: Expand method [Windows Controls], Expand method [Windows Controls], ITextRange interface, Expand,ITextRange.Expand, ITextRange, ITextRange interface [Windows Controls], Expand method, ITextRange::Expand, _win32_ITextRange_Expand, _win32_ITextRange_Expand_cpp, controls.ITextRange_Expand, controls._win32_ITextRange_Expand, tom/ITextRange::Expand
+ms.date: 4/27/2018
+ms.keywords: Expand, Expand method [Windows Controls], Expand method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Expand method, ITextRange.Expand, ITextRange::Expand, _win32_ITextRange_Expand, _win32_ITextRange_Expand_cpp, controls.ITextRange_Expand, controls._win32_ITextRange_Expand, tom/ITextRange::Expand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::Expand method
+# ITextRange::Expand
 
 
 ## -description

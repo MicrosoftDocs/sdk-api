@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFilesEnumerator.GetHasCurrent
-title: IAppxFilesEnumerator::GetHasCurrent method
+title: IAppxFilesEnumerator::GetHasCurrent
 author: windows-driver-content
 description: Determines whether there is a payload file at the current position of the enumerator.
 old-location: appxpkg\iappxfilesenumerator_gethascurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 4CC798E4-5FD2-45DE-BD3A-0B036601BEDB
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management], IAppxFilesEnumerator interface, GetHasCurrent,IAppxFilesEnumerator.GetHasCurrent, IAppxFilesEnumerator, IAppxFilesEnumerator interface [App packaging and management], GetHasCurrent method, IAppxFilesEnumerator::GetHasCurrent, appxpackaging/IAppxFilesEnumerator::GetHasCurrent, appxpkg.iappxfilesenumerator_gethascurrent
+ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxFilesEnumerator interface, IAppxFilesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxFilesEnumerator.GetHasCurrent, IAppxFilesEnumerator::GetHasCurrent, appxpackaging/IAppxFilesEnumerator::GetHasCurrent, appxpkg.iappxfilesenumerator_gethascurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxFilesEnumerator::GetHasCurrent method
+# IAppxFilesEnumerator::GetHasCurrent
 
 
 ## -description

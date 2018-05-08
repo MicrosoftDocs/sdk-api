@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.QueryInsert
-title: ITextStoreACP2::QueryInsert method
+title: ITextStoreACP2::QueryInsert
 author: windows-driver-content
 description: Determines whether the specified start and end character positions are valid. Use this method to adjust an edit to a document before executing the edit. The method must not return values outside the range of the document.
 old-location: tsf\itextstoreacp2_queryinsert.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 3a1cf233-5185-414a-99c6-2cfdbe07b8c9
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], QueryInsert method, ITextStoreACP2::QueryInsert, QueryInsert method [Text Services Framework], QueryInsert method [Text Services Framework], ITextStoreACP2 interface, QueryInsert,ITextStoreACP2.QueryInsert, textstor/ITextStoreACP2::QueryInsert, tsf.itextstoreacp2_queryinsert
+ms.keywords: ITextStoreACP2 interface [Text Services Framework],QueryInsert method, ITextStoreACP2.QueryInsert, ITextStoreACP2::QueryInsert, QueryInsert, QueryInsert method [Text Services Framework], QueryInsert method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::QueryInsert, tsf.itextstoreacp2_queryinsert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP2::QueryInsert method
+# ITextStoreACP2::QueryInsert
 
 
 ## -description

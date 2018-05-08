@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations._IManipulationEvents.ManipulationStarted
-title: "_IManipulationEvents::ManipulationStarted method"
+title: "_IManipulationEvents::ManipulationStarted"
 author: windows-driver-content
 description: Handles the event for when manipulation or inertia begins.
 old-location: wintouch\_imanipulationevents_manipulationstarted.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: c3e63eb7-65e7-4394-89e4-d95d7e7877cf
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: ManipulationStarted method [Windows Touch], ManipulationStarted method [Windows Touch], _IManipulationEvents interface, ManipulationStarted,_IManipulationEvents.ManipulationStarted, _IManipulationEvents, _IManipulationEvents interface [Windows Touch], ManipulationStarted method, _IManipulationEvents::ManipulationStarted, manipulations/_IManipulationEvents::ManipulationStarted, wintouch._imanipulationevents_manipulationstarted
+ms.keywords: ManipulationStarted, ManipulationStarted method [Windows Touch], ManipulationStarted method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationStarted method, _IManipulationEvents.ManipulationStarted, _IManipulationEvents::ManipulationStarted, manipulations/_IManipulationEvents::ManipulationStarted, wintouch._imanipulationevents_manipulationstarted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# _IManipulationEvents::ManipulationStarted method
+# _IManipulationEvents::ManipulationStarted
 
 
 ## -description

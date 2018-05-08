@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 40bbb994-fece-4c38-8480-2c50011aac64
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [Text Services Framework], ITfFnConfigureRegisterEudc interface [Text Services Framework], described, _tsf_itffnconfigureregistereudc_ref, ctffunc/ITfFnConfigureRegisterEudc, tsf.itffnconfigureregistereudc
+ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [Text Services Framework], ITfFnConfigureRegisterEudc interface [Text Services Framework],described, _tsf_itffnconfigureregistereudc_ref, ctffunc/ITfFnConfigureRegisterEudc, tsf.itffnconfigureregistereudc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

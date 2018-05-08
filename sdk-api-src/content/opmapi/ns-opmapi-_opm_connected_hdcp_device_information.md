@@ -7,7 +7,7 @@ old-location: mf\opm_connected_hdcp_device_information.htm
 old-project: medfound
 ms.assetid: 1fb59959-782b-44e8-81b1-eca3c32a0783
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: OPM_CONNECTED_HDCP_DEVICE_INFORMATION, OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure [Media Foundation], OPM_HDCP_FLAG_NONE, OPM_HDCP_FLAG_REPEATER, _OPM_CONNECTED_HDCP_DEVICE_INFORMATION, mf.opm_connected_hdcp_device_information, opmapi/OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

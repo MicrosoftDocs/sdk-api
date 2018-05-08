@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: fdd91f65-e45c-4f14-a55c-a44be1661950
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IControlInterface, IControlInterface interface [Core Audio], IControlInterface interface [Core Audio], described, coreaudio.icontrolinterface, devicetopology/IControlInterface
+ms.keywords: IControlInterface, IControlInterface interface [Core Audio], IControlInterface interface [Core Audio],described, coreaudio.icontrolinterface, devicetopology/IControlInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

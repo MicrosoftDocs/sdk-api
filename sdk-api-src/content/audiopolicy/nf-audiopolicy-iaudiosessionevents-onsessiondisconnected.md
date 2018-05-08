@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnSessionDisconnected
-title: IAudioSessionEvents::OnSessionDisconnected method
+title: IAudioSessionEvents::OnSessionDisconnected
 author: windows-driver-content
 description: The OnSessionDisconnected method notifies the client that the audio session has been disconnected.
 old-location: coreaudio\iaudiosessionevents_onsessiondisconnected.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 9fd653f0-c9d1-4155-9c1e-7e6124b40cca
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], OnSessionDisconnected method, IAudioSessionEvents::OnSessionDisconnected, IAudioSessionEventsOnSessionDisconnected, OnSessionDisconnected method [Core Audio], OnSessionDisconnected method [Core Audio], IAudioSessionEvents interface, OnSessionDisconnected,IAudioSessionEvents.OnSessionDisconnected, audiopolicy/IAudioSessionEvents::OnSessionDisconnected, coreaudio.iaudiosessionevents_onsessiondisconnected
+ms.keywords: IAudioSessionEvents interface [Core Audio],OnSessionDisconnected method, IAudioSessionEvents.OnSessionDisconnected, IAudioSessionEvents::OnSessionDisconnected, IAudioSessionEventsOnSessionDisconnected, OnSessionDisconnected, OnSessionDisconnected method [Core Audio], OnSessionDisconnected method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnSessionDisconnected, coreaudio.iaudiosessionevents_onsessiondisconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionEvents::OnSessionDisconnected method
+# IAudioSessionEvents::OnSessionDisconnected
 
 
 ## -description

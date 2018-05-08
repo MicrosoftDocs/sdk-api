@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPService.AddCallback
-title: IUPnPService::AddCallback method
+title: IUPnPService::AddCallback
 author: windows-driver-content
 description: The AddCallback method registers an application's callback with the UPnP framework.
 old-location: upnp\iupnpservice_addcallback.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: f5797907-ae65-48e6-adf8-b717bfb5101f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: AddCallback method [UPnP APIs], AddCallback method [UPnP APIs], IUPnPService interface, AddCallback,IUPnPService.AddCallback, IUPnPService, IUPnPService interface [UPnP APIs], AddCallback method, IUPnPService::AddCallback, _upnp_iupnpservice_addcallback, upnp.iupnpservice_addcallback, upnp/IUPnPService::AddCallback
+ms.keywords: AddCallback, AddCallback method [UPnP APIs], AddCallback method [UPnP APIs],IUPnPService interface, IUPnPService interface [UPnP APIs],AddCallback method, IUPnPService.AddCallback, IUPnPService::AddCallback, _upnp_iupnpservice_addcallback, upnp.iupnpservice_addcallback, upnp/IUPnPService::AddCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPService::AddCallback method
+# IUPnPService::AddCallback
 
 
 ## -description

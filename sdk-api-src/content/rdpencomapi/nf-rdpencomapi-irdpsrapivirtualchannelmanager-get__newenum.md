@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannelManager.get__NewEnum
-title: IRDPSRAPIVirtualChannelManager::get__NewEnum method
+title: IRDPSRAPIVirtualChannelManager::get__NewEnum
 author: windows-driver-content
 description: An enumerator interface for the virtual channel collection.
 old-location: rdp\irdpsrapivirtualchannelmanager__newenum.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 791a7d27-b4c0-4476-b048-16bfee0eb7f4
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIVirtualChannelManager, IRDPSRAPIVirtualChannelManager interface [RDP], _NewEnum property, IRDPSRAPIVirtualChannelManager._NewEnum, IRDPSRAPIVirtualChannelManager::get__NewEnum, RDPSRAPIVirtualChannelManager object [RDP], _NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP], IRDPSRAPIVirtualChannelManager interface, _NewEnum property [RDP], RDPSRAPIVirtualChannelManager object, get__NewEnum,IRDPSRAPIVirtualChannelManager.get__NewEnum, rdp.irdpsrapivirtualchannelmanager__newenum, rdpencomapi/IRDPSRAPIVirtualChannelManager::_NewEnum, rdpencomapi/IRDPSRAPIVirtualChannelManager::get__NewEnum
+ms.keywords: IRDPSRAPIVirtualChannelManager interface [RDP],_NewEnum property, IRDPSRAPIVirtualChannelManager._NewEnum, IRDPSRAPIVirtualChannelManager.get__NewEnum, IRDPSRAPIVirtualChannelManager::_NewEnum, IRDPSRAPIVirtualChannelManager::get__NewEnum, RDPSRAPIVirtualChannelManager object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIVirtualChannelManager interface, _NewEnum property [RDP],RDPSRAPIVirtualChannelManager object, get__NewEnum, rdp.irdpsrapivirtualchannelmanager__newenum, rdpencomapi/IRDPSRAPIVirtualChannelManager::_NewEnum, rdpencomapi/IRDPSRAPIVirtualChannelManager::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIVirtualChannelManager::get__NewEnum method
+# IRDPSRAPIVirtualChannelManager::get__NewEnum
 
 
 ## -description

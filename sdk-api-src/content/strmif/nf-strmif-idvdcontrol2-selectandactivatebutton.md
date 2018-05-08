@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectAndActivateButton
-title: IDvdControl2::SelectAndActivateButton method
+title: IDvdControl2::SelectAndActivateButton
 author: windows-driver-content
 description: The SelectAndActivateButton method selects and activates the specified menu button.
 old-location: dshow\idvdcontrol2_selectandactivatebutton.htm
 old-project: DirectShow
 ms.assetid: 1e5ad753-bc35-4a98-83d8-82ffccbbe3ed
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SelectAndActivateButton method, IDvdControl2::SelectAndActivateButton, IDvdControl2SelectAndActivateButton, SelectAndActivateButton method [DirectShow], SelectAndActivateButton method [DirectShow], IDvdControl2 interface, SelectAndActivateButton,IDvdControl2.SelectAndActivateButton, dshow.idvdcontrol2_selectandactivatebutton, strmif/IDvdControl2::SelectAndActivateButton
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],SelectAndActivateButton method, IDvdControl2.SelectAndActivateButton, IDvdControl2::SelectAndActivateButton, IDvdControl2SelectAndActivateButton, SelectAndActivateButton, SelectAndActivateButton method [DirectShow], SelectAndActivateButton method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectandactivatebutton, strmif/IDvdControl2::SelectAndActivateButton
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::SelectAndActivateButton method
+# IDvdControl2::SelectAndActivateButton
 
 
 ## -description

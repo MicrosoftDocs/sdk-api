@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetKerning
-title: ITextFont::GetKerning method
+title: ITextFont::GetKerning
 author: windows-driver-content
 description: Gets the minimum font size at which kerning occurs.
 old-location: controls\ITextFont_GetKerning.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkerning.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetKerning method [Windows Controls], GetKerning method [Windows Controls], ITextFont interface, GetKerning,ITextFont.GetKerning, ITextFont, ITextFont interface [Windows Controls], GetKerning method, ITextFont::GetKerning, _win32_ITextFont_GetKerning, _win32_ITextFont_GetKerning_cpp, controls.ITextFont_GetKerning, controls._win32_ITextFont_GetKerning, tom/ITextFont::GetKerning
+ms.date: 4/27/2018
+ms.keywords: GetKerning, GetKerning method [Windows Controls], GetKerning method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetKerning method, ITextFont.GetKerning, ITextFont::GetKerning, _win32_ITextFont_GetKerning, _win32_ITextFont_GetKerning_cpp, controls.ITextFont_GetKerning, controls._win32_ITextFont_GetKerning, tom/ITextFont::GetKerning
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetKerning method
+# ITextFont::GetKerning
 
 
 ## -description

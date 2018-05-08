@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.get_DeviceId
-title: IFaxPort::get_DeviceId method
+title: IFaxPort::get_DeviceId
 author: windows-driver-content
 description: The DeviceId property is a number representing the permanent line identifier for the fax port.
 old-location: fax\_mfax_ifaxport_get_deviceid_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8gf8.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service], FaxPort object, FaxPort object [Fax Service], DeviceId property, IFaxPort, IFaxPort::get_DeviceId, _mfax_ifaxport_get_deviceid, fax._mfax_ifaxport_get_deviceid, fax._mfax_ifaxport_get_deviceid_vb, get_DeviceId,IFaxPort.get_DeviceId
+ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],FaxPort object, FaxPort object [Fax Service],DeviceId property, FaxPort.DeviceId, IFaxPort.get_DeviceId, IFaxPort::get_DeviceId, _mfax_ifaxport_get_deviceid, fax._mfax_ifaxport_get_deviceid, fax._mfax_ifaxport_get_deviceid_vb, get_DeviceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxPort::get_DeviceId method
+# IFaxPort::get_DeviceId
 
 
 ## -description

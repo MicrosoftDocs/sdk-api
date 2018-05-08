@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.SetRect
-title: IOleDocumentView::SetRect method
+title: IOleDocumentView::SetRect
 author: windows-driver-content
 description: Sets the rectangular coordinates of the viewport in which the view is to be activated or resets the coordinates of the viewport in which a view is currently activated.
 old-location: com\ioledocumentview_setrect.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 994eddef-65e6-4ccd-92e7-1e76a7c11681
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], SetRect method, IOleDocumentView::SetRect, SetRect method [COM], SetRect method [COM], IOleDocumentView interface, SetRect,IOleDocumentView.SetRect, _ole_ioledocumentview_setrect, com.ioledocumentview_setrect, docobj/IOleDocumentView::SetRect
+ms.keywords: IOleDocumentView interface [COM],SetRect method, IOleDocumentView.SetRect, IOleDocumentView::SetRect, SetRect, SetRect method [COM], SetRect method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrect, com.ioledocumentview_setrect, docobj/IOleDocumentView::SetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IOleDocumentView::SetRect method
+# IOleDocumentView::SetRect
 
 
 ## -description

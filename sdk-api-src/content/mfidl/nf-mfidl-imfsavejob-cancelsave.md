@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSaveJob.CancelSave
-title: IMFSaveJob::CancelSave method
+title: IMFSaveJob::CancelSave
 author: windows-driver-content
 description: Cancels the operation started by IMFSaveJob::BeginSave.
 old-location: mf\imfsavejob_cancelsave.htm
 old-project: medfound
 ms.assetid: ce3ec53a-eeca-430f-a939-3d941b9b2570
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CancelSave method [Media Foundation], CancelSave method [Media Foundation], IMFSaveJob interface, CancelSave,IMFSaveJob.CancelSave, IMFSaveJob, IMFSaveJob interface [Media Foundation], CancelSave method, IMFSaveJob::CancelSave, ce3ec53a-eeca-430f-a939-3d941b9b2570, mf.imfsavejob_cancelsave, mfidl/IMFSaveJob::CancelSave
+ms.date: 5/3/2018
+ms.keywords: CancelSave, CancelSave method [Media Foundation], CancelSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],CancelSave method, IMFSaveJob.CancelSave, IMFSaveJob::CancelSave, ce3ec53a-eeca-430f-a939-3d941b9b2570, mf.imfsavejob_cancelsave, mfidl/IMFSaveJob::CancelSave
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSaveJob::CancelSave method
+# IMFSaveJob::CancelSave
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_LocalRevocationInformation
-title: IOCSPCAConfiguration::get_LocalRevocationInformation method
+title: IOCSPCAConfiguration::get_LocalRevocationInformation
 author: windows-driver-content
 description: Gets or sets the certificate revocation list (CRL) of the local machine.
 old-location: security\iocspcaconfiguration_localrevocationinformation.htm
 old-project: SecCrypto
 ms.assetid: 76581c1c-9eba-456c-b1cb-ff61e530a53a
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], LocalRevocationInformation property, IOCSPCAConfiguration.LocalRevocationInformation, IOCSPCAConfiguration::get_LocalRevocationInformation, IOCSPCAConfiguration::put_LocalRevocationInformation, LocalRevocationInformation property [Security], LocalRevocationInformation property [Security], IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::LocalRevocationInformation, certadm/IOCSPCAConfiguration::get_LocalRevocationInformation, certadm/IOCSPCAConfiguration::put_LocalRevocationInformation, get_LocalRevocationInformation,IOCSPCAConfiguration.get_LocalRevocationInformation, security.iocspcaconfiguration_localrevocationinformation
+ms.date: 4/30/2018
+ms.keywords: IOCSPCAConfiguration interface [Security],LocalRevocationInformation property, IOCSPCAConfiguration.LocalRevocationInformation, IOCSPCAConfiguration.get_LocalRevocationInformation, IOCSPCAConfiguration::LocalRevocationInformation, IOCSPCAConfiguration::get_LocalRevocationInformation, IOCSPCAConfiguration::put_LocalRevocationInformation, LocalRevocationInformation property [Security], LocalRevocationInformation property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::LocalRevocationInformation, certadm/IOCSPCAConfiguration::get_LocalRevocationInformation, certadm/IOCSPCAConfiguration::put_LocalRevocationInformation, get_LocalRevocationInformation, security.iocspcaconfiguration_localrevocationinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPCAConfiguration::get_LocalRevocationInformation method
+# IOCSPCAConfiguration::get_LocalRevocationInformation
 
 
 ## -description

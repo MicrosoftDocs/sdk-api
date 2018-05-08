@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_STT.GetTableDescriptorByTag
-title: IATSC_STT::GetTableDescriptorByTag method
+title: IATSC_STT::GetTableDescriptorByTag
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_stt_gettabledescriptorbytag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e520dd8d-95f7-4b29-817c-14e3c663fdfc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies], IATSC_STT interface, GetTableDescriptorByTag,IATSC_STT.GetTableDescriptorByTag, IATSC_STT, IATSC_STT interface [Microsoft TV Technologies], GetTableDescriptorByTag method, IATSC_STT::GetTableDescriptorByTag, IATSC_STTGetTableDescriptorByTag, atscpsipparser/IATSC_STT::GetTableDescriptorByTag, mstv.iatsc_stt_gettabledescriptorbytag
+ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IATSC_STT.GetTableDescriptorByTag, IATSC_STT::GetTableDescriptorByTag, IATSC_STTGetTableDescriptorByTag, atscpsipparser/IATSC_STT::GetTableDescriptorByTag, mstv.iatsc_stt_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_STT::GetTableDescriptorByTag method
+# IATSC_STT::GetTableDescriptorByTag
 
 
 ## -description

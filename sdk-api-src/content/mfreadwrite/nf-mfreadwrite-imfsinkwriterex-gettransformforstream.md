@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterEx.GetTransformForStream
-title: IMFSinkWriterEx::GetTransformForStream method
+title: IMFSinkWriterEx::GetTransformForStream
 author: windows-driver-content
 description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
 old-location: mf\imfsinkwriterex_gettransformforstream.htm
 old-project: medfound
 ms.assetid: 72EEC01F-ED62-4DD7-A18C-766D01705CAE
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTransformForStream method [Media Foundation], GetTransformForStream method [Media Foundation], IMFSinkWriterEx interface, GetTransformForStream,IMFSinkWriterEx.GetTransformForStream, IMFSinkWriterEx, IMFSinkWriterEx interface [Media Foundation], GetTransformForStream method, IMFSinkWriterEx::GetTransformForStream, mf.imfsinkwriterex_gettransformforstream, mfreadwrite/IMFSinkWriterEx::GetTransformForStream
+ms.date: 5/3/2018
+ms.keywords: GetTransformForStream, GetTransformForStream method [Media Foundation], GetTransformForStream method [Media Foundation],IMFSinkWriterEx interface, IMFSinkWriterEx interface [Media Foundation],GetTransformForStream method, IMFSinkWriterEx.GetTransformForStream, IMFSinkWriterEx::GetTransformForStream, mf.imfsinkwriterex_gettransformforstream, mfreadwrite/IMFSinkWriterEx::GetTransformForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSinkWriterEx::GetTransformForStream method
+# IMFSinkWriterEx::GetTransformForStream
 
 
 ## -description

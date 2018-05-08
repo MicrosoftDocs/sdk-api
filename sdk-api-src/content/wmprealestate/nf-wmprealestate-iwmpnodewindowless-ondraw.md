@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPNodeWindowless.OnDraw
-title: IWMPNodeWindowless::OnDraw method
+title: IWMPNodeWindowless::OnDraw
 author: windows-driver-content
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
 old-location: wmp\iwmpnodewindowless_ondraw.htm
 old-project: WMP
 ms.assetid: 2691cce8-590c-4604-9607-16f6e0799618
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNodeWindowless, IWMPNodeWindowless interface [Windows Media Player], OnDraw method, IWMPNodeWindowless::OnDraw, IWMPNodeWindowlessOnDrawRendering, OnDraw method [Windows Media Player], OnDraw method [Windows Media Player], IWMPNodeWindowless interface, OnDraw,IWMPNodeWindowless.OnDraw, wmp.iwmpnodewindowless_ondraw, wmprealestate/IWMPNodeWindowless::OnDraw
+ms.date: 5/2/2018
+ms.keywords: IWMPNodeWindowless interface [Windows Media Player],OnDraw method, IWMPNodeWindowless.OnDraw, IWMPNodeWindowless::OnDraw, IWMPNodeWindowlessOnDrawRendering, OnDraw, OnDraw method [Windows Media Player], OnDraw method [Windows Media Player],IWMPNodeWindowless interface, wmp.iwmpnodewindowless_ondraw, wmprealestate/IWMPNodeWindowless::OnDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNodeWindowless::OnDraw method
+# IWMPNodeWindowless::OnDraw
 
 
 ## -description

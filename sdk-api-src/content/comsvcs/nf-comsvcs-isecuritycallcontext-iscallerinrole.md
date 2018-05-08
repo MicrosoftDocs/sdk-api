@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.IsCallerInRole
-title: ISecurityCallContext::IsCallerInRole method
+title: ISecurityCallContext::IsCallerInRole
 author: windows-driver-content
 description: Determines whether the direct caller is in the specified role.
 old-location: cos\isecuritycallcontext_iscallerinrole.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 544deb46-6427-4936-97a6-ea995b5e77ba
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ISecurityCallContext, ISecurityCallContext interface [COM+], IsCallerInRole method, ISecurityCallContext::IsCallerInRole, IsCallerInRole method [COM+], IsCallerInRole method [COM+], ISecurityCallContext interface, IsCallerInRole,ISecurityCallContext.IsCallerInRole, _cos_ISecurityCallContext_IsCallerInRole, comsvcs/ISecurityCallContext::IsCallerInRole, cos.isecuritycallcontext_iscallerinrole
+ms.keywords: ISecurityCallContext interface [COM+],IsCallerInRole method, ISecurityCallContext.IsCallerInRole, ISecurityCallContext::IsCallerInRole, IsCallerInRole, IsCallerInRole method [COM+], IsCallerInRole method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsCallerInRole, comsvcs/ISecurityCallContext::IsCallerInRole, cos.isecuritycallcontext_iscallerinrole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISecurityCallContext::IsCallerInRole method
+# ISecurityCallContext::IsCallerInRole
 
 
 ## -description

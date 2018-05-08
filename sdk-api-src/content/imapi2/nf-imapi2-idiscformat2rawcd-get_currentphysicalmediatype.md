@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_CurrentPhysicalMediaType
-title: IDiscFormat2RawCD::get_CurrentPhysicalMediaType method
+title: IDiscFormat2RawCD::get_CurrentPhysicalMediaType
 author: windows-driver-content
 description: Retrieves the type of media in the disc device.
 old-location: imapi\idiscformat2rawcd_get_currentphysicalmediatype.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 76fae45e-c58a-4a25-a2d2-ec99c12374b9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], get_CurrentPhysicalMediaType method, IDiscFormat2RawCD::get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType method [IMAPI], get_CurrentPhysicalMediaType method [IMAPI], IDiscFormat2RawCD interface, get_CurrentPhysicalMediaType,IDiscFormat2RawCD.get_CurrentPhysicalMediaType, imapi.idiscformat2rawcd_get_currentphysicalmediatype, imapi2/IDiscFormat2RawCD::get_CurrentPhysicalMediaType
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_CurrentPhysicalMediaType method, IDiscFormat2RawCD.get_CurrentPhysicalMediaType, IDiscFormat2RawCD::get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType method [IMAPI], get_CurrentPhysicalMediaType method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_currentphysicalmediatype, imapi2/IDiscFormat2RawCD::get_CurrentPhysicalMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCD::get_CurrentPhysicalMediaType method
+# IDiscFormat2RawCD::get_CurrentPhysicalMediaType
 
 
 ## -description

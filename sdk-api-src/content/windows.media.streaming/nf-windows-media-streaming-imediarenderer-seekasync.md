@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.SeekAsync
-title: IMediaRenderer::SeekAsync method
+title: IMediaRenderer::streaming
 author: windows-driver-content
 description: Instructs the DMR asynchronously to seek to a particular time offset.
 old-location: mediastreaming\imediarenderer_seekasync.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 3179A942-7756-4763-A2F8-629D89D39542
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], SeekAsync method, IMediaRenderer::SeekAsync, SeekAsync method [Media Streaming API], SeekAsync method [Media Streaming API], IMediaRenderer interface, SeekAsync,IMediaRenderer.SeekAsync, mediastreaming.imediarenderer_seekasync, windows/IMediaRenderer::SeekAsync
+ms.keywords: IMediaRenderer interface [Media Streaming API],SeekAsync method, IMediaRenderer.SeekAsync, IMediaRenderer.streaming, IMediaRenderer::SeekAsync, IMediaRenderer::streaming, SeekAsync, SeekAsync method [Media Streaming API], SeekAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_seekasync, windows/IMediaRenderer::SeekAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IMediaRenderer::SeekAsync method
+# IMediaRenderer::streaming
 
 
 ## -description

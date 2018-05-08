@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.SetRemoteAddress
-title: IWSDMessageParameters::SetRemoteAddress method
+title: IWSDMessageParameters::SetRemoteAddress
 author: windows-driver-content
 description: Sets the generic address object representing the remote address to where the message is sent.
 old-location: ncd\iwsdmessageparameters_setremoteaddress.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 7e762942-37b2-43ca-96e3-98594b929d98
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDMessageParameters, IWSDMessageParameters interface, SetRemoteAddress method, IWSDMessageParameters::SetRemoteAddress, SetRemoteAddress method, SetRemoteAddress method, IWSDMessageParameters interface, SetRemoteAddress,IWSDMessageParameters.SetRemoteAddress, ncd.iwsdmessageparameters_setremoteaddress, wsdbase/IWSDMessageParameters::SetRemoteAddress
+ms.keywords: IWSDMessageParameters interface,SetRemoteAddress method, IWSDMessageParameters.SetRemoteAddress, IWSDMessageParameters::SetRemoteAddress, SetRemoteAddress, SetRemoteAddress method, SetRemoteAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setremoteaddress, wsdbase/IWSDMessageParameters::SetRemoteAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDMessageParameters::SetRemoteAddress method
+# IWSDMessageParameters::SetRemoteAddress
 
 
 ## -description

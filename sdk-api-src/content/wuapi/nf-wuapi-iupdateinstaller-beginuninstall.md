@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.BeginUninstall
-title: IUpdateInstaller::BeginUninstall method
+title: IUpdateInstaller::BeginUninstall
 author: windows-driver-content
 description: Starts an asynchronous uninstallation of the updates.
 old-location: wua\iupdateinstaller_beginuninstall.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 6ff82120-aa8f-4daf-b9f9-e0129fad0a24
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: BeginUninstall method [Windows Update Agent], BeginUninstall method [Windows Update Agent], IUpdateInstaller interface, BeginUninstall,IUpdateInstaller.BeginUninstall, IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], BeginUninstall method, IUpdateInstaller::BeginUninstall, wua.iupdateinstaller_beginuninstall, wuapi/IUpdateInstaller::BeginUninstall
+ms.keywords: BeginUninstall, BeginUninstall method [Windows Update Agent], BeginUninstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],BeginUninstall method, IUpdateInstaller.BeginUninstall, IUpdateInstaller::BeginUninstall, wua.iupdateinstaller_beginuninstall, wuapi/IUpdateInstaller::BeginUninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateInstaller::BeginUninstall method
+# IUpdateInstaller::BeginUninstall
 
 
 ## -description

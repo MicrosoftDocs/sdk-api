@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.put_Item
-title: IStringCollection::put_Item method
+title: IStringCollection::put_Item
 author: windows-driver-content
 description: Gets or sets a string in the collection.
 old-location: wua\istringcollection_item.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: ae92e856-ed3c-4745-827b-a5bb8e2f5938
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IStringCollection, IStringCollection interface [Windows Update Agent], Item property, IStringCollection.Item, IStringCollection::get_Item, IStringCollection::put_Item, Item property [Windows Update Agent], Item property [Windows Update Agent], IStringCollection interface, put_Item,IStringCollection.put_Item, wua.istringcollection_item, wuapi/IStringCollection::Item, wuapi/IStringCollection::get_Item, wuapi/IStringCollection::put_Item
+ms.keywords: IStringCollection interface [Windows Update Agent],Item property, IStringCollection.Item, IStringCollection.put_Item, IStringCollection::Item, IStringCollection::get_Item, IStringCollection::put_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IStringCollection interface, put_Item, wua.istringcollection_item, wuapi/IStringCollection::Item, wuapi/IStringCollection::get_Item, wuapi/IStringCollection::put_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IStringCollection::put_Item method
+# IStringCollection::put_Item
 
 
 ## -description

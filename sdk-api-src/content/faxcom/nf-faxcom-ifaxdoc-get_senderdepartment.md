@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_SenderDepartment
-title: IFaxDoc::get_SenderDepartment method
+title: IFaxDoc::get_SenderDepartment
 author: windows-driver-content
 description: Sets or retrieves the SenderDepartment property of a FaxDoc object. The SenderDepartment property is a null-terminated string that contains the department of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_senderdepartment_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0m7o.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], SenderDepartment property, IFaxDoc, IFaxDoc::get_SenderDepartment, SenderDepartment property [Fax Service], SenderDepartment property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_senderdepartment, fax._mfax_ifaxdoc_get_senderdepartment, fax._mfax_ifaxdoc_get_senderdepartment_vb, get_SenderDepartment,IFaxDoc.get_SenderDepartment
+ms.keywords: FaxDoc object [Fax Service],SenderDepartment property, FaxDoc.SenderDepartment, IFaxDoc.get_SenderDepartment, IFaxDoc::get_SenderDepartment, SenderDepartment property [Fax Service], SenderDepartment property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderdepartment, fax._mfax_ifaxdoc_get_senderdepartment, fax._mfax_ifaxdoc_get_senderdepartment_vb, get_SenderDepartment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::get_SenderDepartment method
+# IFaxDoc::get_SenderDepartment
 
 
 ## -description

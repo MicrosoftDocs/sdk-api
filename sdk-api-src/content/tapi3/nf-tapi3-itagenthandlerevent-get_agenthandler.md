@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentHandlerEvent.get_AgentHandler
-title: ITAgentHandlerEvent::get_AgentHandler method
+title: ITAgentHandlerEvent::get_AgentHandler
 author: windows-driver-content
 description: The get_AgentHandler method gets the ITAgentHandler interface pointer.
 old-location: tapi3\itagenthandlerevent_get_agenthandler.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 7288edb3-e7df-4e31-815d-dc8fc44bb5bc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgentHandlerEvent, ITAgentHandlerEvent interface [TAPI 2.2], get_AgentHandler method, ITAgentHandlerEvent::get_AgentHandler, _tapi3_itagenthandlerevent_get_agenthandler, get_AgentHandler method [TAPI 2.2], get_AgentHandler method [TAPI 2.2], ITAgentHandlerEvent interface, get_AgentHandler,ITAgentHandlerEvent.get_AgentHandler, tapi3.itagenthandlerevent_get_agenthandler, tapi3cc/ITAgentHandlerEvent::get_AgentHandler
+ms.keywords: ITAgentHandlerEvent interface [TAPI 2.2],get_AgentHandler method, ITAgentHandlerEvent.get_AgentHandler, ITAgentHandlerEvent::get_AgentHandler, _tapi3_itagenthandlerevent_get_agenthandler, get_AgentHandler, get_AgentHandler method [TAPI 2.2], get_AgentHandler method [TAPI 2.2],ITAgentHandlerEvent interface, tapi3.itagenthandlerevent_get_agenthandler, tapi3cc/ITAgentHandlerEvent::get_AgentHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentHandlerEvent::get_AgentHandler method
+# ITAgentHandlerEvent::get_AgentHandler
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.GetCspStatusFromProviderName
-title: ICspInformations::GetCspStatusFromProviderName method
+title: ICspInformations::GetCspStatusFromProviderName
 author: windows-driver-content
 description: Retrieves an ICspStatus object for a legacy provider by provider name and supported key operations.
 old-location: security\icspinformations_getcspstatusfromprovidername_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: f73d40cb-dde3-46a5-ba9f-f7cbfa2efe70
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetCspStatusFromProviderName method [Security], GetCspStatusFromProviderName method [Security], ICspInformations interface, GetCspStatusFromProviderName,ICspInformations.GetCspStatusFromProviderName, ICspInformations, ICspInformations interface [Security], GetCspStatusFromProviderName method, ICspInformations::GetCspStatusFromProviderName, certenroll/ICspInformations::GetCspStatusFromProviderName, security.icspinformations_getcspstatusfromprovidername_method
+ms.keywords: GetCspStatusFromProviderName, GetCspStatusFromProviderName method [Security], GetCspStatusFromProviderName method [Security],ICspInformations interface, ICspInformations interface [Security],GetCspStatusFromProviderName method, ICspInformations.GetCspStatusFromProviderName, ICspInformations::GetCspStatusFromProviderName, certenroll/ICspInformations::GetCspStatusFromProviderName, security.icspinformations_getcspstatusfromprovidername_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformations::GetCspStatusFromProviderName method
+# ICspInformations::GetCspStatusFromProviderName
 
 
 ## -description

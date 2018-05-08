@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMDeviceRemoval.Disassociate
-title: IAMDeviceRemoval::Disassociate method
+title: IAMDeviceRemoval::Disassociate
 author: windows-driver-content
 description: The Disassociate method disassociates the KsProxy filter from the device by closing the device handle. The Filter Graph Manager calls this method if it receives a notification that the device was removed.
 old-location: dshow\iamdeviceremoval_disassociate.htm
 old-project: DirectShow
 ms.assetid: cf868f5d-3ec1-4c01-9154-27420d136fe5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Disassociate method [DirectShow], Disassociate method [DirectShow], IAMDeviceRemoval interface, Disassociate,IAMDeviceRemoval.Disassociate, IAMDeviceRemoval, IAMDeviceRemoval interface [DirectShow], Disassociate method, IAMDeviceRemoval::Disassociate, IAMDeviceRemovalDisassociate, dshow.iamdeviceremoval_disassociate, strmif/IAMDeviceRemoval::Disassociate
+ms.date: 4/30/2018
+ms.keywords: Disassociate, Disassociate method [DirectShow], Disassociate method [DirectShow],IAMDeviceRemoval interface, IAMDeviceRemoval interface [DirectShow],Disassociate method, IAMDeviceRemoval.Disassociate, IAMDeviceRemoval::Disassociate, IAMDeviceRemovalDisassociate, dshow.iamdeviceremoval_disassociate, strmif/IAMDeviceRemoval::Disassociate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMDeviceRemoval::Disassociate method
+# IAMDeviceRemoval::Disassociate
 
 
 ## -description

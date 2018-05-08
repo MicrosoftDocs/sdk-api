@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.CreateInstance
-title: IVisualTreeService::CreateInstance method
+title: IVisualTreeService::CreateInstance
 author: windows-driver-content
 description: Creates an instance of any XAML runtime, enum, or primitive type.
 old-location: xaml_diagnostics\ivisualtreeservice_createinstance.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 214BE795-5883-4761-9040-2C7A679F5258
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: CreateInstance method, CreateInstance method, IVisualTreeService interface, CreateInstance,IVisualTreeService.CreateInstance, IVisualTreeService, IVisualTreeService interface, CreateInstance method, IVisualTreeService::CreateInstance, xaml_diagnostics.ivisualtreeservice_createinstance, xamlom/IVisualTreeService::CreateInstance
+ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IVisualTreeService interface, IVisualTreeService interface,CreateInstance method, IVisualTreeService.CreateInstance, IVisualTreeService::CreateInstance, xaml_diagnostics.ivisualtreeservice_createinstance, xamlom/IVisualTreeService::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeService::CreateInstance method
+# IVisualTreeService::CreateInstance
 
 
 ## -description

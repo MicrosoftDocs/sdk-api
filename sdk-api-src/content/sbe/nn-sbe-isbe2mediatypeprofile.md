@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b2fb3d08-cbef-4dbf-a60b-8363ccee4fbf
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ISBE2MediaTypeProfile, ISBE2MediaTypeProfile interface [Microsoft TV Technologies], ISBE2MediaTypeProfile interface [Microsoft TV Technologies], described, mstv.isbe2mediatypeprofile, sbe/ISBE2MediaTypeProfile
+ms.keywords: ISBE2MediaTypeProfile, ISBE2MediaTypeProfile interface [Microsoft TV Technologies], ISBE2MediaTypeProfile interface [Microsoft TV Technologies],described, mstv.isbe2mediatypeprofile, sbe/ISBE2MediaTypeProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

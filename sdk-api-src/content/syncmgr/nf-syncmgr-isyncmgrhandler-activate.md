@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.Activate
-title: ISyncMgrHandler::Activate method
+title: ISyncMgrHandler::Activate
 author: windows-driver-content
 description: Requests that the handler is activated or deactivated. An active handler can be synchronized; an inactive handler cannot.
 old-location: shell\ISyncMgrHandler_Activate.htm
 old-project: shell
 ms.assetid: 0061387d-516d-44c5-b511-3236593382a9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Activate method [Windows Shell], Activate method [Windows Shell], ISyncMgrHandler interface, Activate,ISyncMgrHandler.Activate, ISyncMgrHandler, ISyncMgrHandler interface [Windows Shell], Activate method, ISyncMgrHandler::Activate, _shell_ISyncMgrHandler_Activate, shell.ISyncMgrHandler_Activate, syncmgr/ISyncMgrHandler::Activate
+ms.date: 5/3/2018
+ms.keywords: Activate, Activate method [Windows Shell], Activate method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Activate method, ISyncMgrHandler.Activate, ISyncMgrHandler::Activate, _shell_ISyncMgrHandler_Activate, shell.ISyncMgrHandler_Activate, syncmgr/ISyncMgrHandler::Activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrHandler::Activate method
+# ISyncMgrHandler::Activate
 
 
 ## -description

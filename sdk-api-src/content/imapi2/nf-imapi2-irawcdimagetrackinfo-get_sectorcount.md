@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_SectorCount
-title: IRawCDImageTrackInfo::get_SectorCount method
+title: IRawCDImageTrackInfo::get_SectorCount
 author: windows-driver-content
 description: Retrieves the number of user sectors in this track.
 old-location: imapi\irawcdimagetrackinfo_get_sectorcount.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 1762620b-b429-4674-85e2-f6f206de1a4f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IRawCDImageTrackInfo, IRawCDImageTrackInfo interface [IMAPI], get_SectorCount method, IRawCDImageTrackInfo::get_SectorCount, get_SectorCount method [IMAPI], get_SectorCount method [IMAPI], IRawCDImageTrackInfo interface, get_SectorCount,IRawCDImageTrackInfo.get_SectorCount, imapi.irawcdimagetrackinfo_get_sectorcount, imapi2/IRawCDImageTrackInfo::get_SectorCount
+ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_SectorCount method, IRawCDImageTrackInfo.get_SectorCount, IRawCDImageTrackInfo::get_SectorCount, get_SectorCount, get_SectorCount method [IMAPI], get_SectorCount method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_sectorcount, imapi2/IRawCDImageTrackInfo::get_SectorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRawCDImageTrackInfo::get_SectorCount method
+# IRawCDImageTrackInfo::get_SectorCount
 
 
 ## -description

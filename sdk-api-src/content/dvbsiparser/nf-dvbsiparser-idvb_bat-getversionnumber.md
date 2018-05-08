@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.GetVersionNumber
-title: IDVB_BAT::GetVersionNumber method
+title: IDVB_BAT::GetVersionNumber
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_getversionnumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2548a4b5-7789-42ef-9094-22deb6d72260
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies], IDVB_BAT interface, GetVersionNumber,IDVB_BAT.GetVersionNumber, IDVB_BAT, IDVB_BAT interface [Microsoft TV Technologies], GetVersionNumber method, IDVB_BAT::GetVersionNumber, IDVB_BATGetVersionNumber, dvbsiparser/IDVB_BAT::GetVersionNumber, mstv.idvb_bat_getversionnumber
+ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetVersionNumber method, IDVB_BAT.GetVersionNumber, IDVB_BAT::GetVersionNumber, IDVB_BATGetVersionNumber, dvbsiparser/IDVB_BAT::GetVersionNumber, mstv.idvb_bat_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_BAT::GetVersionNumber method
+# IDVB_BAT::GetVersionNumber
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Tsid
-title: IFaxStatus::get_Tsid method
+title: IFaxStatus::get_Tsid
 author: windows-driver-content
 description: Retrieves the Tsid property for the FaxStatus object of a parent FaxPort object. The Tsid property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax port.
 old-location: fax\_mfax_ifaxstatus_get_tsid_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_22p0.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxStatus object [Fax Service], Tsid property, IFaxStatus, IFaxStatus::get_Tsid, Tsid property [Fax Service], Tsid property [Fax Service], FaxStatus object, _mfax_ifaxstatus_get_tsid, fax._mfax_ifaxstatus_get_tsid, fax._mfax_ifaxstatus_get_tsid_vb, get_Tsid,IFaxStatus.get_Tsid
+ms.keywords: FaxStatus object [Fax Service],Tsid property, FaxStatus.Tsid, IFaxStatus.get_Tsid, IFaxStatus::get_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_tsid, fax._mfax_ifaxstatus_get_tsid, fax._mfax_ifaxstatus_get_tsid_vb, get_Tsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxStatus::get_Tsid method
+# IFaxStatus::get_Tsid
 
 
 ## -description

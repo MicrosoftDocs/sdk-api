@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_FreeMediaBlocks
-title: IFileSystemImage::put_FreeMediaBlocks method
+title: IFileSystemImage::put_FreeMediaBlocks
 author: windows-driver-content
 description: Sets the maximum number of blocks available for the image.
 old-location: imapi\ifilesystemimage_put_freemediablocks.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 7ffa2736-6480-4bda-8144-b949bf43e580
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], put_FreeMediaBlocks method, IFileSystemImage::put_FreeMediaBlocks, imapi.ifilesystemimage_put_freemediablocks, imapi2fs/IFileSystemImage::put_FreeMediaBlocks, put_FreeMediaBlocks method [IMAPI], put_FreeMediaBlocks method [IMAPI], IFileSystemImage interface, put_FreeMediaBlocks,IFileSystemImage.put_FreeMediaBlocks
+ms.keywords: IFileSystemImage interface [IMAPI],put_FreeMediaBlocks method, IFileSystemImage.put_FreeMediaBlocks, IFileSystemImage::put_FreeMediaBlocks, imapi.ifilesystemimage_put_freemediablocks, imapi2fs/IFileSystemImage::put_FreeMediaBlocks, put_FreeMediaBlocks, put_FreeMediaBlocks method [IMAPI], put_FreeMediaBlocks method [IMAPI],IFileSystemImage interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::put_FreeMediaBlocks method
+# IFileSystemImage::put_FreeMediaBlocks
 
 
 ## -description

@@ -59,6 +59,9 @@ The
 
 
 
+### -field _Align8
+
+
 ### -field dwVersion
 
 
@@ -117,9 +120,6 @@ Pointer to the
 
 Pointer to the 
 <a href="https://msdn.microsoft.com/f70bd4bb-8d3c-4408-9e83-4482c5ef8d70">ValidateRoute</a> function provided by the router manager for the routing protocol.
-
-
-#### - _Align8
 
 
 ## -see-also

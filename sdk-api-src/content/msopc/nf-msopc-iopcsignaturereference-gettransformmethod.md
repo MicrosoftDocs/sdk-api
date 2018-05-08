@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetTransformMethod
-title: IOpcSignatureReference::GetTransformMethod method
+title: IOpcSignatureReference::GetTransformMethod
 author: windows-driver-content
 description: Gets the canonicalization method to use on the referenced XML element, when the element is signed.
 old-location: opc\iopcsignaturereference_gettransformmethod.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: f3f3f6a8-c15e-420a-b56d-5dac0a054fac
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetTransformMethod method [Open Packaging Conventions], GetTransformMethod method [Open Packaging Conventions], IOpcSignatureReference interface, GetTransformMethod,IOpcSignatureReference.GetTransformMethod, IOpcSignatureReference, IOpcSignatureReference interface [Open Packaging Conventions], GetTransformMethod method, IOpcSignatureReference::GetTransformMethod, msopc/IOpcSignatureReference::GetTransformMethod, opc.iopcsignaturereference_gettransformmethod
+ms.keywords: GetTransformMethod, GetTransformMethod method [Open Packaging Conventions], GetTransformMethod method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetTransformMethod method, IOpcSignatureReference.GetTransformMethod, IOpcSignatureReference::GetTransformMethod, msopc/IOpcSignatureReference::GetTransformMethod, opc.iopcsignaturereference_gettransformmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureReference::GetTransformMethod method
+# IOpcSignatureReference::GetTransformMethod
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: shell\LongPtrToLong.htm
 old-project: shell
 ms.assetid: e57140d5-bd92-48e3-8e3a-a112559e3e0c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: LongPtrToLong, LongPtrToLong function [Windows Shell], _shell_LongPtrToLong, intsafe/LongPtrToLong, shell.LongPtrToLong
+ms.date: 5/3/2018
+ms.keywords: LongPtrToLong, LongPtrToLong function [Windows Shell], SSIZETToLong, _shell_LongPtrToLong, intsafe/LongPtrToLong, shell.LongPtrToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,6 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>SSIZETToLong</b> is an alias for this function.
 
 
 

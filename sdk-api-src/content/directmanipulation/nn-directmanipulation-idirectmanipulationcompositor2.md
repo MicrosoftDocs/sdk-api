@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: e428ddaa-3913-498a-a3fd-bed10289cd8d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationCompositor2, IDirectManipulationCompositor2 interface [Direct Manipulation], IDirectManipulationCompositor2 interface [Direct Manipulation], described, directmanipulation.idirectmanipulationcompositor2, directmanipulation/IDirectManipulationCompositor2
+ms.keywords: IDirectManipulationCompositor2, IDirectManipulationCompositor2 interface [Direct Manipulation], IDirectManipulationCompositor2 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcompositor2, directmanipulation/IDirectManipulationCompositor2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

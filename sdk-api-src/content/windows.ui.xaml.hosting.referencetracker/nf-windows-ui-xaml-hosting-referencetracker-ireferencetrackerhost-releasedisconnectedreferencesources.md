@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.ReleaseDisconnectedReferenceSources
-title: IReferenceTrackerHost::ReleaseDisconnectedReferenceSources method
+title: IReferenceTrackerHost::xaml
 author: windows-driver-content
 description: Requests that the host call IUnknown::Release on any reference tracker objects that have been disconnected by a reference source.
 old-location: winrt\ireferencetrackerhost_releasedisconnectedreferencesources.htm
 old-project: WinRT
 ms.assetid: c8b6f458-a9b9-41b7-a718-a193803842d8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], ReleaseDisconnectedReferenceSources method, IReferenceTrackerHost::ReleaseDisconnectedReferenceSources, ReleaseDisconnectedReferenceSources method [Windows Runtime], ReleaseDisconnectedReferenceSources method [Windows Runtime], IReferenceTrackerHost interface, ReleaseDisconnectedReferenceSources,IReferenceTrackerHost.ReleaseDisconnectedReferenceSources, windows/IReferenceTrackerHost::ReleaseDisconnectedReferenceSources, winrt.ireferencetrackerhost_releasedisconnectedreferencesources
+ms.date: 5/4/2018
+ms.keywords: IReferenceTrackerHost interface [Windows Runtime],ReleaseDisconnectedReferenceSources method, IReferenceTrackerHost.ReleaseDisconnectedReferenceSources, IReferenceTrackerHost.xaml, IReferenceTrackerHost::ReleaseDisconnectedReferenceSources, IReferenceTrackerHost::xaml, ReleaseDisconnectedReferenceSources, ReleaseDisconnectedReferenceSources method [Windows Runtime], ReleaseDisconnectedReferenceSources method [Windows Runtime],IReferenceTrackerHost interface, windows/IReferenceTrackerHost::ReleaseDisconnectedReferenceSources, winrt.ireferencetrackerhost_releasedisconnectedreferencesources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IReferenceTrackerHost::ReleaseDisconnectedReferenceSources method
+# IReferenceTrackerHost::xaml
 
 
 ## -description

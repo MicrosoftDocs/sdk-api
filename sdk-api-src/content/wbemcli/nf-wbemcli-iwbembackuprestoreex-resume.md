@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemBackupRestoreEx.Resume
-title: IWbemBackupRestoreEx::Resume method
+title: IWbemBackupRestoreEx::Resume
 author: windows-driver-content
 description: The IWbemBackUpRestoreEx::Resume method releases a lock on the Windows Management Instrumentation (WMI) repository so operations can continue.
 old-location: wmi\iwbembackuprestoreex_resume.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: fa31860b-36f5-4182-a58c-b8747af0e628
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemBackupRestoreEx, IWbemBackupRestoreEx interface [Windows Management Instrumentation], Resume method, IWbemBackupRestoreEx::Resume, Resume method [Windows Management Instrumentation], Resume method [Windows Management Instrumentation], IWbemBackupRestoreEx interface, Resume,IWbemBackupRestoreEx.Resume, wbemcli/IWbemBackupRestoreEx::Resume, wmi.iwbembackuprestoreex_resume
+ms.keywords: IWbemBackupRestoreEx interface [Windows Management Instrumentation],Resume method, IWbemBackupRestoreEx.Resume, IWbemBackupRestoreEx::Resume, Resume, Resume method [Windows Management Instrumentation], Resume method [Windows Management Instrumentation],IWbemBackupRestoreEx interface, wbemcli/IWbemBackupRestoreEx::Resume, wmi.iwbembackuprestoreex_resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemBackupRestoreEx::Resume method
+# IWbemBackupRestoreEx::Resume
 
 
 ## -description

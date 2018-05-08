@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.FindTextEnd
-title: ITextRange::FindTextEnd method
+title: ITextRange::FindTextEnd
 author: windows-driver-content
 description: Searches up to Count characters for the string, bstr, starting from the range's End cp.
 old-location: controls\ITextRange_FindTextEnd.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtextend.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: FindTextEnd method [Windows Controls], FindTextEnd method [Windows Controls], ITextRange interface, FindTextEnd,ITextRange.FindTextEnd, ITextRange, ITextRange interface [Windows Controls], FindTextEnd method, ITextRange::FindTextEnd, _win32_ITextRange_FindTextEnd, _win32_ITextRange_FindTextEnd_cpp, controls.ITextRange_FindTextEnd, controls._win32_ITextRange_FindTextEnd, tom/ITextRange::FindTextEnd
+ms.date: 4/27/2018
+ms.keywords: FindTextEnd, FindTextEnd method [Windows Controls], FindTextEnd method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],FindTextEnd method, ITextRange.FindTextEnd, ITextRange::FindTextEnd, _win32_ITextRange_FindTextEnd, _win32_ITextRange_FindTextEnd_cpp, controls.ITextRange_FindTextEnd, controls._win32_ITextRange_FindTextEnd, tom/ITextRange::FindTextEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::FindTextEnd method
+# ITextRange::FindTextEnd
 
 
 ## -description

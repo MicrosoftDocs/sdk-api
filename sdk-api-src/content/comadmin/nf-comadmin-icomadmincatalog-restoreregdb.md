@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.RestoreREGDB
-title: ICOMAdminCatalog::RestoreREGDB method
+title: ICOMAdminCatalog::RestoreREGDB
 author: windows-driver-content
 description: Restores the COM+ class registration database (RegDB) from the specified file. For this to take effect, a system reboot is required.
 old-location: cos\icomadmincatalog_restoreregdb.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 7cb2201c-601c-4add-8608-3f98ef92c26d
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], RestoreREGDB method, ICOMAdminCatalog::RestoreREGDB, RestoreREGDB method [COM+], RestoreREGDB method [COM+], ICOMAdminCatalog interface, RestoreREGDB,ICOMAdminCatalog.RestoreREGDB, _cos_ICOMAdminCatalog_RestoreREGDB, comadmin/ICOMAdminCatalog::RestoreREGDB, cos.icomadmincatalog_restoreregdb
+ms.keywords: ICOMAdminCatalog interface [COM+],RestoreREGDB method, ICOMAdminCatalog.RestoreREGDB, ICOMAdminCatalog::RestoreREGDB, RestoreREGDB, RestoreREGDB method [COM+], RestoreREGDB method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_RestoreREGDB, comadmin/ICOMAdminCatalog::RestoreREGDB, cos.icomadmincatalog_restoreregdb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::RestoreREGDB method
+# ICOMAdminCatalog::RestoreREGDB
 
 
 ## -description

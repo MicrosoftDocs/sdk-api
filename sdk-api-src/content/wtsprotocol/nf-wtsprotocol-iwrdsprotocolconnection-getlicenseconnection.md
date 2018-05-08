@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLicenseConnection
-title: IWRdsProtocolConnection::GetLicenseConnection method
+title: IWRdsProtocolConnection::GetLicenseConnection
 author: windows-driver-content
 description: Retrieves an IWRdsProtocolLicenseConnection object that is used to begin the client licensing process.
 old-location: termserv\iwrdsprotocolconnection_getlicenseconnection.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 6c75f80a-0d47-489d-b684-f718326e2b0d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetLicenseConnection method [Remote Desktop Services], GetLicenseConnection method [Remote Desktop Services], IWRdsProtocolConnection interface, GetLicenseConnection,IWRdsProtocolConnection.GetLicenseConnection, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], GetLicenseConnection method, IWRdsProtocolConnection::GetLicenseConnection, termserv.iwrdsprotocolconnection_getlicenseconnection, wtsprotocol/IWRdsProtocolConnection::GetLicenseConnection
+ms.keywords: GetLicenseConnection, GetLicenseConnection method [Remote Desktop Services], GetLicenseConnection method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetLicenseConnection method, IWRdsProtocolConnection.GetLicenseConnection, IWRdsProtocolConnection::GetLicenseConnection, termserv.iwrdsprotocolconnection_getlicenseconnection, wtsprotocol/IWRdsProtocolConnection::GetLicenseConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::GetLicenseConnection method
+# IWRdsProtocolConnection::GetLicenseConnection
 
 
 ## -description

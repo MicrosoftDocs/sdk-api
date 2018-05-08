@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPControls.get_isAvailable
-title: IWMPControls::get_isAvailable method
+title: IWMPControls::get_isAvailable
 author: windows-driver-content
 description: The get_isAvailable method indicates whether a specified type of information is available or a specified action can be performed.
 old-location: wmp\iwmpcontrols_get_isavailable.htm
 old-project: WMP
 ms.assetid: 702e09f2-e086-45e3-9ae1-b62ec3e9561f
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], get_isAvailable method, IWMPControls::get_isAvailable, IWMPControlsget_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player], IWMPControls interface, get_isAvailable,IWMPControls.get_isAvailable, wmp.iwmpcontrols_get_isavailable, wmp/IWMPControls::get_isAvailable
+ms.date: 5/4/2018
+ms.keywords: IWMPControls interface [Windows Media Player],get_isAvailable method, IWMPControls.get_isAvailable, IWMPControls::get_isAvailable, IWMPControlsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_isavailable, wmp/IWMPControls::get_isAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPControls::get_isAvailable method
+# IWMPControls::get_isAvailable
 
 
 ## -description

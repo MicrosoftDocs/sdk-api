@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.get_MaxStrokeCount
-title: IGestureRecognizer::get_MaxStrokeCount method
+title: IGestureRecognizer::get_MaxStrokeCount
 author: windows-driver-content
 description: Gets or sets the maximum number of strokes allowed per gesture recognition.
 old-location: tablet\igesturerecognizer_maxstrokecount.htm
 old-project: tablet
 ms.assetid: d7f40294-437a-4d5c-9389-1798102d0d8f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IGestureRecognizer, IGestureRecognizer interface [Tablet PC], MaxStrokeCount property, IGestureRecognizer.MaxStrokeCount, IGestureRecognizer.get_MaxStrokeCount, IGestureRecognizer.put_MaxStrokeCount, IGestureRecognizer::get_MaxStrokeCount, IGestureRecognizer::put_MaxStrokeCount, MaxStrokeCount property [Tablet PC], MaxStrokeCount property [Tablet PC], IGestureRecognizer interface, d7f40294-437a-4d5c-9389-1798102d0d8f, get_MaxStrokeCount,IGestureRecognizer.get_MaxStrokeCount, rtscom/IGestureRecognizer::MaxStrokeCount, rtscom/IGestureRecognizer::get_MaxStrokeCount, rtscom/IGestureRecognizer::put_MaxStrokeCount, tablet.igesturerecognizer_maxstrokecount
+ms.date: 5/2/2018
+ms.keywords: IGestureRecognizer interface [Tablet PC],MaxStrokeCount property, IGestureRecognizer.MaxStrokeCount, IGestureRecognizer.get_MaxStrokeCount, IGestureRecognizer.put_MaxStrokeCount, IGestureRecognizer::MaxStrokeCount, IGestureRecognizer::get_MaxStrokeCount, IGestureRecognizer::put_MaxStrokeCount, MaxStrokeCount property [Tablet PC], MaxStrokeCount property [Tablet PC],IGestureRecognizer interface, d7f40294-437a-4d5c-9389-1798102d0d8f, get_MaxStrokeCount, rtscom/IGestureRecognizer::MaxStrokeCount, rtscom/IGestureRecognizer::get_MaxStrokeCount, rtscom/IGestureRecognizer::put_MaxStrokeCount, tablet.igesturerecognizer_maxstrokecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IGestureRecognizer::get_MaxStrokeCount method
+# IGestureRecognizer::get_MaxStrokeCount
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatch.EndUnorderedGroup
-title: ISyncChangeBatch::EndUnorderedGroup method
+title: ISyncChangeBatch::EndUnorderedGroup
 author: windows-driver-content
 description: Closes a previously opened unordered group in the change batch.
 old-location: winsync\isyncchangebatch_endunorderedgroup.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: ca9c37ca-6aa0-437d-b933-ca7d943e4ef2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: EndUnorderedGroup method [Windows Sync], EndUnorderedGroup method [Windows Sync], ISyncChangeBatch interface, EndUnorderedGroup,ISyncChangeBatch.EndUnorderedGroup, ISyncChangeBatch, ISyncChangeBatch interface [Windows Sync], EndUnorderedGroup method, ISyncChangeBatch::EndUnorderedGroup, winsync.isyncchangebatch_endunorderedgroup, winsync/ISyncChangeBatch::EndUnorderedGroup
+ms.keywords: EndUnorderedGroup, EndUnorderedGroup method [Windows Sync], EndUnorderedGroup method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],EndUnorderedGroup method, ISyncChangeBatch.EndUnorderedGroup, ISyncChangeBatch::EndUnorderedGroup, winsync.isyncchangebatch_endunorderedgroup, winsync/ISyncChangeBatch::EndUnorderedGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatch::EndUnorderedGroup method
+# ISyncChangeBatch::EndUnorderedGroup
 
 
 ## -description

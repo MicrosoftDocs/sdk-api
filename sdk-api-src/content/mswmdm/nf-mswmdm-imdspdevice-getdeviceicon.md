@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetDeviceIcon
-title: IMDSPDevice::GetDeviceIcon method
+title: IMDSPDevice::GetDeviceIcon
 author: windows-driver-content
 description: The GetDeviceIcon method returns a HICON that represents the icon that the device service provider indicates must be used to represent this device.
 old-location: wmdm\imdspdevice_getdeviceicon.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 0a7fcae6-cf7f-4b78-847c-de9db8c32871
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetDeviceIcon method [windows Media Device Manager], GetDeviceIcon method [windows Media Device Manager], IMDSPDevice interface, GetDeviceIcon,IMDSPDevice.GetDeviceIcon, IMDSPDevice, IMDSPDevice interface [windows Media Device Manager], GetDeviceIcon method, IMDSPDevice::GetDeviceIcon, IMDSPDeviceGetDeviceIcon, mswmdm/IMDSPDevice::GetDeviceIcon, wmdm.imdspdevice_getdeviceicon
+ms.keywords: GetDeviceIcon, GetDeviceIcon method [windows Media Device Manager], GetDeviceIcon method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetDeviceIcon method, IMDSPDevice.GetDeviceIcon, IMDSPDevice::GetDeviceIcon, IMDSPDeviceGetDeviceIcon, mswmdm/IMDSPDevice::GetDeviceIcon, wmdm.imdspdevice_getdeviceicon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPDevice::GetDeviceIcon method
+# IMDSPDevice::GetDeviceIcon
 
 
 ## -description

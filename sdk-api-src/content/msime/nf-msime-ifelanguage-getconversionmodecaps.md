@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFELanguage.GetConversionModeCaps
-title: IFELanguage::GetConversionModeCaps method
+title: IFELanguage::GetConversionModeCaps
 author: windows-driver-content
 description: Gets the conversion mode capability of the IFELanguage object.
 old-location: intl\ifelanguage_getconversionmodecaps.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: B1A3D121-C650-4D04-9278-791A12F73A2E
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: FELANG_CMODE_AUTOMATIC, FELANG_CMODE_BESTFIRST, FELANG_CMODE_BOPOMOFO, FELANG_CMODE_CONVERSATION, FELANG_CMODE_FULLWIDTHOUT, FELANG_CMODE_HALFWIDTHOUT, FELANG_CMODE_HANGUL, FELANG_CMODE_HIRAGANAOUT, FELANG_CMODE_KATAKANAOUT, FELANG_CMODE_MERGECAND, FELANG_CMODE_MONORUBY, FELANG_CMODE_NAME, FELANG_CMODE_NOINVISIBLECHAR, FELANG_CMODE_NONE, FELANG_CMODE_NOPRUNING, FELANG_CMODE_PHRASEPREDICT, FELANG_CMODE_PINYIN, FELANG_CMODE_PLAURALCLAUSE, FELANG_CMODE_PRECONV, FELANG_CMODE_RADICAL, FELANG_CMODE_ROMAN, FELANG_CMODE_SINGLECONVERT, FELANG_CMODE_UNKNOWNREADING, FELANG_CMODE_USENOREVWORDS, GetConversionModeCaps method [Internationalization for Windows Applications], GetConversionModeCaps method [Internationalization for Windows Applications], IFELanguage interface, GetConversionModeCaps,IFELanguage.GetConversionModeCaps, IFELanguage, IFELanguage interface [Internationalization for Windows Applications], GetConversionModeCaps method, IFELanguage::GetConversionModeCaps, intl.ifelanguage_getconversionmodecaps, msime/IFELanguage::GetConversionModeCaps
+ms.keywords: FELANG_CMODE_AUTOMATIC, FELANG_CMODE_BESTFIRST, FELANG_CMODE_BOPOMOFO, FELANG_CMODE_CONVERSATION, FELANG_CMODE_FULLWIDTHOUT, FELANG_CMODE_HALFWIDTHOUT, FELANG_CMODE_HANGUL, FELANG_CMODE_HIRAGANAOUT, FELANG_CMODE_KATAKANAOUT, FELANG_CMODE_MERGECAND, FELANG_CMODE_MONORUBY, FELANG_CMODE_NAME, FELANG_CMODE_NOINVISIBLECHAR, FELANG_CMODE_NONE, FELANG_CMODE_NOPRUNING, FELANG_CMODE_PHRASEPREDICT, FELANG_CMODE_PINYIN, FELANG_CMODE_PLAURALCLAUSE, FELANG_CMODE_PRECONV, FELANG_CMODE_RADICAL, FELANG_CMODE_ROMAN, FELANG_CMODE_SINGLECONVERT, FELANG_CMODE_UNKNOWNREADING, FELANG_CMODE_USENOREVWORDS, GetConversionModeCaps, GetConversionModeCaps method [Internationalization for Windows Applications], GetConversionModeCaps method [Internationalization for Windows Applications],IFELanguage interface, IFELanguage interface [Internationalization for Windows Applications],GetConversionModeCaps method, IFELanguage.GetConversionModeCaps, IFELanguage::GetConversionModeCaps, intl.ifelanguage_getconversionmodecaps, msime/IFELanguage::GetConversionModeCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFELanguage::GetConversionModeCaps method
+# IFELanguage::GetConversionModeCaps
 
 
 ## -description

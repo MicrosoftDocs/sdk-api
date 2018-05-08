@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.ConvertJpegXRToHDPhoto
-title: IXpsOMObjectFactory1::ConvertJpegXRToHDPhoto method
+title: IXpsOMObjectFactory1::ConvertJpegXRToHDPhoto
 author: windows-driver-content
 description: Converts an image resource from a JpegXR to an HD Photo.
 old-location: xps\ixpsomobjectfactory1_convertjpegxrtohdphoto.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 98cb0eca-229e-4224-bc9c-605f56cc298b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: ConvertJpegXRToHDPhoto method [XPS Documents and Packaging], ConvertJpegXRToHDPhoto method [XPS Documents and Packaging], IXpsOMObjectFactory1 interface, ConvertJpegXRToHDPhoto,IXpsOMObjectFactory1.ConvertJpegXRToHDPhoto, IXpsOMObjectFactory1, IXpsOMObjectFactory1 interface [XPS Documents and Packaging], ConvertJpegXRToHDPhoto method, IXpsOMObjectFactory1::ConvertJpegXRToHDPhoto, xps.ixpsomobjectfactory1_convertjpegxrtohdphoto, xpsobjectmodel_1/IXpsOMObjectFactory1::ConvertJpegXRToHDPhoto
+ms.keywords: ConvertJpegXRToHDPhoto, ConvertJpegXRToHDPhoto method [XPS Documents and Packaging], ConvertJpegXRToHDPhoto method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],ConvertJpegXRToHDPhoto method, IXpsOMObjectFactory1.ConvertJpegXRToHDPhoto, IXpsOMObjectFactory1::ConvertJpegXRToHDPhoto, xps.ixpsomobjectfactory1_convertjpegxrtohdphoto, xpsobjectmodel_1/IXpsOMObjectFactory1::ConvertJpegXRToHDPhoto
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory1::ConvertJpegXRToHDPhoto method
+# IXpsOMObjectFactory1::ConvertJpegXRToHDPhoto
 
 
 ## -description

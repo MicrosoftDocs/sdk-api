@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMBufferNegotiation.GetAllocatorProperties
-title: IAMBufferNegotiation::GetAllocatorProperties method
+title: IAMBufferNegotiation::GetAllocatorProperties
 author: windows-driver-content
 description: The GetAllocatorProperties method retrieves the allocator properties that the pin is using.
 old-location: dshow\iambuffernegotiation_getallocatorproperties.htm
 old-project: DirectShow
 ms.assetid: 85bbb900-772c-4091-83e3-f2a5dd198d39
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAllocatorProperties method [DirectShow], GetAllocatorProperties method [DirectShow], IAMBufferNegotiation interface, GetAllocatorProperties,IAMBufferNegotiation.GetAllocatorProperties, IAMBufferNegotiation, IAMBufferNegotiation interface [DirectShow], GetAllocatorProperties method, IAMBufferNegotiation::GetAllocatorProperties, IAMBufferNegotiationGetAllocatorProperties, dshow.iambuffernegotiation_getallocatorproperties, strmif/IAMBufferNegotiation::GetAllocatorProperties
+ms.date: 4/30/2018
+ms.keywords: GetAllocatorProperties, GetAllocatorProperties method [DirectShow], GetAllocatorProperties method [DirectShow],IAMBufferNegotiation interface, IAMBufferNegotiation interface [DirectShow],GetAllocatorProperties method, IAMBufferNegotiation.GetAllocatorProperties, IAMBufferNegotiation::GetAllocatorProperties, IAMBufferNegotiationGetAllocatorProperties, dshow.iambuffernegotiation_getallocatorproperties, strmif/IAMBufferNegotiation::GetAllocatorProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMBufferNegotiation::GetAllocatorProperties method
+# IAMBufferNegotiation::GetAllocatorProperties
 
 
 ## -description

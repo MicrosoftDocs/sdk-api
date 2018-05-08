@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnAfterContextMenu
-title: INameSpaceTreeControlEvents::OnAfterContextMenu method
+title: INameSpaceTreeControlEvents::OnAfterContextMenu
 author: windows-driver-content
 description: Called after a context menu is displayed.
 old-location: shell\INameSpaceTreeControlEvents_OnAfterContextMenu.htm
 old-project: shell
 ms.assetid: 6d562938-9816-4df9-b5b6-0ed52b1e4835
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnAfterContextMenu method, INameSpaceTreeControlEvents::OnAfterContextMenu, OnAfterContextMenu method [Windows Shell], OnAfterContextMenu method [Windows Shell], INameSpaceTreeControlEvents interface, OnAfterContextMenu,INameSpaceTreeControlEvents.OnAfterContextMenu, _shell_INameSpaceTreeControlEvents_OnAfterContextMenu, shell.INameSpaceTreeControlEvents_OnAfterContextMenu, shobjidl/INameSpaceTreeControlEvents::OnAfterContextMenu
+ms.date: 5/3/2018
+ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnAfterContextMenu method, INameSpaceTreeControlEvents.OnAfterContextMenu, INameSpaceTreeControlEvents::OnAfterContextMenu, OnAfterContextMenu, OnAfterContextMenu method [Windows Shell], OnAfterContextMenu method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnAfterContextMenu, shell.INameSpaceTreeControlEvents_OnAfterContextMenu, shobjidl/INameSpaceTreeControlEvents::OnAfterContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeControlEvents::OnAfterContextMenu method
+# INameSpaceTreeControlEvents::OnAfterContextMenu
 
 
 ## -description

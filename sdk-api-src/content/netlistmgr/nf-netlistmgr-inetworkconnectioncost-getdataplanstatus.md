@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionCost.GetDataPlanStatus
-title: INetworkConnectionCost::GetDataPlanStatus method
+title: INetworkConnectionCost::GetDataPlanStatus
 author: windows-driver-content
 description: GetDataPlanStatus method retrieves the status of the data plan associated with a connection.
 old-location: nla\inetworkconnectioncost_getdataplanstatus.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 861ED7D2-569A-4B62-BAB6-CA649CA9B524
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDataPlanStatus method [Network Awareness], GetDataPlanStatus method [Network Awareness], INetworkConnectionCost interface, GetDataPlanStatus,INetworkConnectionCost.GetDataPlanStatus, INetworkConnectionCost, INetworkConnectionCost interface [Network Awareness], GetDataPlanStatus method, INetworkConnectionCost::GetDataPlanStatus, netlistmgr/INetworkConnectionCost::GetDataPlanStatus, nla.inetworkconnectioncost_getdataplanstatus
+ms.keywords: GetDataPlanStatus, GetDataPlanStatus method [Network Awareness], GetDataPlanStatus method [Network Awareness],INetworkConnectionCost interface, INetworkConnectionCost interface [Network Awareness],GetDataPlanStatus method, INetworkConnectionCost.GetDataPlanStatus, INetworkConnectionCost::GetDataPlanStatus, netlistmgr/INetworkConnectionCost::GetDataPlanStatus, nla.inetworkconnectioncost_getdataplanstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkConnectionCost::GetDataPlanStatus method
+# INetworkConnectionCost::GetDataPlanStatus
 
 
 ## -description

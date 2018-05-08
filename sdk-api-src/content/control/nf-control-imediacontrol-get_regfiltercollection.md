@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaControl.get_RegFilterCollection
-title: IMediaControl::get_RegFilterCollection method
+title: IMediaControl::get_RegFilterCollection
 author: windows-driver-content
 description: The get_RegFilterCollection method retrieves a collection of all the filters listed in the registry.
 old-location: dshow\imediacontrol_get_regfiltercollection.htm
 old-project: DirectShow
 ms.assetid: 55257cef-2777-4a88-8805-e474e3b13c75
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaControl, IMediaControl interface [DirectShow], get_RegFilterCollection method, IMediaControl::get_RegFilterCollection, IMediaControlget_RegFilterCollection, control/IMediaControl::get_RegFilterCollection, dshow.imediacontrol_get_regfiltercollection, get_RegFilterCollection method [DirectShow], get_RegFilterCollection method [DirectShow], IMediaControl interface, get_RegFilterCollection,IMediaControl.get_RegFilterCollection
+ms.date: 4/30/2018
+ms.keywords: IMediaControl interface [DirectShow],get_RegFilterCollection method, IMediaControl.get_RegFilterCollection, IMediaControl::get_RegFilterCollection, IMediaControlget_RegFilterCollection, control/IMediaControl::get_RegFilterCollection, dshow.imediacontrol_get_regfiltercollection, get_RegFilterCollection, get_RegFilterCollection method [DirectShow], get_RegFilterCollection method [DirectShow],IMediaControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaControl::get_RegFilterCollection method
+# IMediaControl::get_RegFilterCollection
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt2.GetMinDiffAreaSize
-title: IVssSnapshotMgmt2::GetMinDiffAreaSize method
+title: IVssSnapshotMgmt2::GetMinDiffAreaSize
 author: windows-driver-content
 description: Returns the current minimum size of the shadow copy storage area.
 old-location: base\ivsssnapshotmgmt2_getmindiffareasize.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: d1ee4499-07cb-4373-a3c9-892129a257db
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetMinDiffAreaSize method [VSS], GetMinDiffAreaSize method [VSS], IVssSnapshotMgmt2 interface, GetMinDiffAreaSize,IVssSnapshotMgmt2.GetMinDiffAreaSize, IVssSnapshotMgmt2, IVssSnapshotMgmt2 interface [VSS], GetMinDiffAreaSize method, IVssSnapshotMgmt2::GetMinDiffAreaSize, base.ivsssnapshotmgmt2_getmindiffareasize, vsmgmt/IVssSnapshotMgmt2::GetMinDiffAreaSize
+ms.keywords: GetMinDiffAreaSize, GetMinDiffAreaSize method [VSS], GetMinDiffAreaSize method [VSS],IVssSnapshotMgmt2 interface, IVssSnapshotMgmt2 interface [VSS],GetMinDiffAreaSize method, IVssSnapshotMgmt2.GetMinDiffAreaSize, IVssSnapshotMgmt2::GetMinDiffAreaSize, base.ivsssnapshotmgmt2_getmindiffareasize, vsmgmt/IVssSnapshotMgmt2::GetMinDiffAreaSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssSnapshotMgmt2::GetMinDiffAreaSize method
+# IVssSnapshotMgmt2::GetMinDiffAreaSize
 
 
 ## -description

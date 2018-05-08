@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSGetState
-title: ID3D10Device::RSGetState method
+title: ID3D10Device::RSGetState
 author: windows-driver-content
 description: Get the rasterizer state from the rasterizer stage of the pipeline.
 old-location: direct3d10\id3d10device_rsgetstate.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rsgetstate.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10Device, ID3D10Device interface [Direct3D 10], RSGetState method, ID3D10Device::RSGetState, RSGetState method [Direct3D 10], RSGetState method [Direct3D 10], ID3D10Device interface, RSGetState,ID3D10Device.RSGetState, d3d10/ID3D10Device::RSGetState, direct3d10.id3d10device_rsgetstate, e6855c5c-5337-9573-7375-39d3e0d3e83c
+ms.keywords: ID3D10Device interface [Direct3D 10],RSGetState method, ID3D10Device.RSGetState, ID3D10Device::RSGetState, RSGetState, RSGetState method [Direct3D 10], RSGetState method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::RSGetState, direct3d10.id3d10device_rsgetstate, e6855c5c-5337-9573-7375-39d3e0d3e83c
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::RSGetState method
+# ID3D10Device::RSGetState
 
 
 ## -description

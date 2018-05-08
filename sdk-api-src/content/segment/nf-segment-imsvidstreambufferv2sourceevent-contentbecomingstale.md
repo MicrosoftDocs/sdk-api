@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.ContentBecomingStale
-title: IMSVidStreamBufferV2SourceEvent::ContentBecomingStale method
+title: IMSVidStreamBufferV2SourceEvent::ContentBecomingStale
 author: windows-driver-content
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_CONTENT_BECOMING_STALE event, which indicates the stream buffer source lags behind the stream buffer sink by more than a preset number of files.For more information, see IStreamBufferConfigure::GetBackingFileCount.
 old-location: mstv\imsvidstreambufferv2sourceevent_contentbecomingstale.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b9af548a-9796-4dc0-8b78-46e529a484ce
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ContentBecomingStale method [Microsoft TV Technologies], ContentBecomingStale method [Microsoft TV Technologies], IMSVidStreamBufferV2SourceEvent interface, ContentBecomingStale,IMSVidStreamBufferV2SourceEvent.ContentBecomingStale, IMSVidStreamBufferV2SourceEvent, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies], ContentBecomingStale method, IMSVidStreamBufferV2SourceEvent::ContentBecomingStale, mstv.imsvidstreambufferv2sourceevent_contentbecomingstale, segment/IMSVidStreamBufferV2SourceEvent::ContentBecomingStale
+ms.keywords: ContentBecomingStale, ContentBecomingStale method [Microsoft TV Technologies], ContentBecomingStale method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],ContentBecomingStale method, IMSVidStreamBufferV2SourceEvent.ContentBecomingStale, IMSVidStreamBufferV2SourceEvent::ContentBecomingStale, mstv.imsvidstreambufferv2sourceevent_contentbecomingstale, segment/IMSVidStreamBufferV2SourceEvent::ContentBecomingStale
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferV2SourceEvent::ContentBecomingStale method
+# IMSVidStreamBufferV2SourceEvent::ContentBecomingStale
 
 
 ## -description

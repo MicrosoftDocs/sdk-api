@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 37e2cc95-d765-4c2c-ae8a-5a072a43ad5a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IGridProvider, IGridProvider interface [Windows Accessibility], IGridProvider interface [Windows Accessibility], described, uiauto.uiauto_IGridProvider, uiauto_IGridProvider, uiautomationcore/IGridProvider, winauto.uiauto_IGridProvider
+ms.keywords: IGridProvider, IGridProvider interface [Windows Accessibility], IGridProvider interface [Windows Accessibility],described, uiauto.uiauto_IGridProvider, uiauto_IGridProvider, uiautomationcore/IGridProvider, winauto.uiauto_IGridProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

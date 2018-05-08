@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponentEx.GetRestoreName
-title: IVssComponentEx::GetRestoreName method
+title: IVssComponentEx::GetRestoreName
 author: windows-driver-content
 description: Obtains the logical name assigned to a component that is being restored.
 old-location: base\ivsscomponentex_getrestorename.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: a544bcc1-6a42-4cda-824c-2b027b8a4a6f
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetRestoreName method, GetRestoreName method, IVssComponentEx interface, GetRestoreName,IVssComponentEx.GetRestoreName, IVssComponentEx, IVssComponentEx interface, GetRestoreName method, IVssComponentEx::GetRestoreName, base.ivsscomponentex_getrestorename, vswriter/IVssComponentEx::GetRestoreName
+ms.keywords: GetRestoreName, GetRestoreName method, GetRestoreName method,IVssComponentEx interface, IVssComponentEx interface,GetRestoreName method, IVssComponentEx.GetRestoreName, IVssComponentEx::GetRestoreName, base.ivsscomponentex_getrestorename, vswriter/IVssComponentEx::GetRestoreName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponentEx::GetRestoreName method
+# IVssComponentEx::GetRestoreName
 
 
 ## -description

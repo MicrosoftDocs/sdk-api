@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVideoCompression.put_PFramesPerKeyFrame
-title: IAMVideoCompression::put_PFramesPerKeyFrame method
+title: IAMVideoCompression::put_PFramesPerKeyFrame
 author: windows-driver-content
 description: The put_PFramesPerKeyFrame method sets the rate of predicted (P) frames per key frame.
 old-location: dshow\iamvideocompression_put_pframesperkeyframe.htm
 old-project: DirectShow
 ms.assetid: bf1dfc28-a6c7-4c0d-96ea-8cf417b13a10
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVideoCompression, IAMVideoCompression interface [DirectShow], put_PFramesPerKeyFrame method, IAMVideoCompression::put_PFramesPerKeyFrame, IAMVideoCompressionput_PFramesPerKeyFrame, dshow.iamvideocompression_put_pframesperkeyframe, put_PFramesPerKeyFrame method [DirectShow], put_PFramesPerKeyFrame method [DirectShow], IAMVideoCompression interface, put_PFramesPerKeyFrame,IAMVideoCompression.put_PFramesPerKeyFrame, strmif/IAMVideoCompression::put_PFramesPerKeyFrame
+ms.date: 4/30/2018
+ms.keywords: IAMVideoCompression interface [DirectShow],put_PFramesPerKeyFrame method, IAMVideoCompression.put_PFramesPerKeyFrame, IAMVideoCompression::put_PFramesPerKeyFrame, IAMVideoCompressionput_PFramesPerKeyFrame, dshow.iamvideocompression_put_pframesperkeyframe, put_PFramesPerKeyFrame, put_PFramesPerKeyFrame method [DirectShow], put_PFramesPerKeyFrame method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_PFramesPerKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVideoCompression::put_PFramesPerKeyFrame method
+# IAMVideoCompression::put_PFramesPerKeyFrame
 
 
 ## -description

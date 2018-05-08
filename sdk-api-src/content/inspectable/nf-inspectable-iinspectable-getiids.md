@@ -1,14 +1,14 @@
 ---
 UID: NF:inspectable.IInspectable.GetIids
-title: IInspectable::GetIids method
+title: IInspectable::GetIids
 author: windows-driver-content
 description: Gets the interfaces that are implemented by the current Windows Runtime class.
 old-location: winrt\iinspectable_getiids.htm
 old-project: WinRT
 ms.assetid: 560094E6-3ED2-4BF3-85C7-07736ECBACC8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetIids method [Windows Runtime], GetIids method [Windows Runtime], IInputPaneInterop interface, GetIids method [Windows Runtime], IInspectable interface, GetIids,IInspectable.GetIids, IInputPaneInterop interface [Windows Runtime], GetIids method, IInputPaneInterop::GetIids, IInspectable, IInspectable interface [Windows Runtime], GetIids method, IInspectable::GetIids, inspectable/IInputPaneInterop::GetIids, inspectable/IInspectable::GetIids, winrt.iinspectable_getiids
+ms.date: 5/4/2018
+ms.keywords: GetIids, GetIids method [Windows Runtime], GetIids method [Windows Runtime],IInputPaneInterop interface, GetIids method [Windows Runtime],IInspectable interface, IInputPaneInterop interface [Windows Runtime],GetIids method, IInputPaneInterop::GetIids, IInspectable interface [Windows Runtime],GetIids method, IInspectable.GetIids, IInspectable::GetIids, inspectable/IInputPaneInterop::GetIids, inspectable/IInspectable::GetIids, winrt.iinspectable_getiids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInspectable::GetIids method
+# IInspectable::GetIids
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.GetTargetRect
-title: IDXGIDecodeSwapChain::GetTargetRect method
+title: IDXGIDecodeSwapChain::GetTargetRect
 author: windows-driver-content
 description: Gets the rectangle that defines the target region for the video processing blit operation.
 old-location: direct3ddxgi\idxgidecodeswapchain_gettargetrect.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 1B42CE33-7130-433F-940F-B45D3152BB33
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetTargetRect method [DXGI], GetTargetRect method [DXGI], IDXGIDecodeSwapChain interface, GetTargetRect,IDXGIDecodeSwapChain.GetTargetRect, IDXGIDecodeSwapChain, IDXGIDecodeSwapChain interface [DXGI], GetTargetRect method, IDXGIDecodeSwapChain::GetTargetRect, direct3ddxgi.idxgidecodeswapchain_gettargetrect, dxgi1_3/IDXGIDecodeSwapChain::GetTargetRect
+ms.keywords: GetTargetRect, GetTargetRect method [DXGI], GetTargetRect method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetTargetRect method, IDXGIDecodeSwapChain.GetTargetRect, IDXGIDecodeSwapChain::GetTargetRect, direct3ddxgi.idxgidecodeswapchain_gettargetrect, dxgi1_3/IDXGIDecodeSwapChain::GetTargetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDecodeSwapChain::GetTargetRect method
+# IDXGIDecodeSwapChain::GetTargetRect
 
 
 ## -description

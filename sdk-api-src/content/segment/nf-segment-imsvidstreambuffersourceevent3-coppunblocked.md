@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent3.COPPUnblocked
-title: IMSVidStreamBufferSourceEvent3::COPPUnblocked method
+title: IMSVidStreamBufferSourceEvent3::COPPUnblocked
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersourceevent3_coppunblocked.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e206253e-40af-4b61-8dcb-465a05cfa8f9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: COPPUnblocked method [Microsoft TV Technologies], COPPUnblocked method [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent3 interface, COPPUnblocked,IMSVidStreamBufferSourceEvent3.COPPUnblocked, IMSVidStreamBufferSourceEvent3, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies], COPPUnblocked method, IMSVidStreamBufferSourceEvent3::COPPUnblocked, IMSVidStreamBufferSourceEvent3COPPUnblocked, mstv.imsvidstreambuffersourceevent3_coppunblocked, segment/IMSVidStreamBufferSourceEvent3::COPPUnblocked
+ms.keywords: COPPUnblocked, COPPUnblocked method [Microsoft TV Technologies], COPPUnblocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],COPPUnblocked method, IMSVidStreamBufferSourceEvent3.COPPUnblocked, IMSVidStreamBufferSourceEvent3::COPPUnblocked, IMSVidStreamBufferSourceEvent3COPPUnblocked, mstv.imsvidstreambuffersourceevent3_coppunblocked, segment/IMSVidStreamBufferSourceEvent3::COPPUnblocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSourceEvent3::COPPUnblocked method
+# IMSVidStreamBufferSourceEvent3::COPPUnblocked
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Resource.GetEvictionPriority
-title: ID3D11Resource::GetEvictionPriority method
+title: ID3D11Resource::GetEvictionPriority
 author: windows-driver-content
 description: Get the eviction priority of a resource.
 old-location: direct3d11\id3d11resource_getevictionpriority.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 2ea8607a-56c1-4c1d-8c09-d16f9d3d914d
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 6697dbf5-60e9-3ccc-6423-5ef98be8d001, GetEvictionPriority method [Direct3D 11], GetEvictionPriority method [Direct3D 11], ID3D11Resource interface, GetEvictionPriority,ID3D11Resource.GetEvictionPriority, ID3D11Resource, ID3D11Resource interface [Direct3D 11], GetEvictionPriority method, ID3D11Resource::GetEvictionPriority, d3d11/ID3D11Resource::GetEvictionPriority, direct3d11.id3d11resource_getevictionpriority
+ms.keywords: 6697dbf5-60e9-3ccc-6423-5ef98be8d001, GetEvictionPriority, GetEvictionPriority method [Direct3D 11], GetEvictionPriority method [Direct3D 11],ID3D11Resource interface, ID3D11Resource interface [Direct3D 11],GetEvictionPriority method, ID3D11Resource.GetEvictionPriority, ID3D11Resource::GetEvictionPriority, d3d11/ID3D11Resource::GetEvictionPriority, direct3d11.id3d11resource_getevictionpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11Resource::GetEvictionPriority method
+# ID3D11Resource::GetEvictionPriority
 
 
 ## -description

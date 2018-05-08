@@ -7,7 +7,7 @@ old-location: automat\varbstrfromui1.htm
 old-project: automat
 ms.assetid: 5e71d9f2-55bb-414f-916a-9a3529ff73bd
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromUI1, VarBstrFromUI1 function [Automation], _oa96_VarBstrFromUI1, automat.varbstrfromui1, oleauto/VarBstrFromUI1
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.SetDDrawObject
-title: IDDrawExclModeVideo::SetDDrawObject method
+title: IDDrawExclModeVideo::SetDDrawObject
 author: windows-driver-content
 description: The SetDDrawObject method sets the DirectDraw object to be used in subsequent drawing.
 old-location: dshow\iddrawexclmodevideo_setddrawobject.htm
 old-project: DirectShow
 ms.assetid: fce1b5df-c3df-475c-adde-392c25d05e4c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDDrawExclModeVideo, IDDrawExclModeVideo interface [DirectShow], SetDDrawObject method, IDDrawExclModeVideo::SetDDrawObject, IDDrawExclModeVideoSetDDrawObject, SetDDrawObject method [DirectShow], SetDDrawObject method [DirectShow], IDDrawExclModeVideo interface, SetDDrawObject,IDDrawExclModeVideo.SetDDrawObject, dshow.iddrawexclmodevideo_setddrawobject, strmif/IDDrawExclModeVideo::SetDDrawObject
+ms.date: 4/30/2018
+ms.keywords: IDDrawExclModeVideo interface [DirectShow],SetDDrawObject method, IDDrawExclModeVideo.SetDDrawObject, IDDrawExclModeVideo::SetDDrawObject, IDDrawExclModeVideoSetDDrawObject, SetDDrawObject, SetDDrawObject method [DirectShow], SetDDrawObject method [DirectShow],IDDrawExclModeVideo interface, dshow.iddrawexclmodevideo_setddrawobject, strmif/IDDrawExclModeVideo::SetDDrawObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDDrawExclModeVideo::SetDDrawObject method
+# IDDrawExclModeVideo::SetDDrawObject
 
 
 ## -description

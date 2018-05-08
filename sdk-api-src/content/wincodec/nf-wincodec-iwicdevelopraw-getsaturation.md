@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetSaturation
-title: IWICDevelopRaw::GetSaturation method
+title: IWICDevelopRaw::GetSaturation
 author: windows-driver-content
 description: Gets the saturation value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getsaturation.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 621868d6-3444-48f9-a069-f52ebacd7bbb
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetSaturation method [Windows Imaging Component], GetSaturation method [Windows Imaging Component], IWICDevelopRaw interface, GetSaturation,IWICDevelopRaw.GetSaturation, IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], GetSaturation method, IWICDevelopRaw::GetSaturation, _wic_codec_iwicdevelopraw_getsaturation, wic._wic_codec_iwicdevelopraw_getsaturation, wincodec/IWICDevelopRaw::GetSaturation
+ms.keywords: GetSaturation, GetSaturation method [Windows Imaging Component], GetSaturation method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetSaturation method, IWICDevelopRaw.GetSaturation, IWICDevelopRaw::GetSaturation, _wic_codec_iwicdevelopraw_getsaturation, wic._wic_codec_iwicdevelopraw_getsaturation, wincodec/IWICDevelopRaw::GetSaturation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::GetSaturation method
+# IWICDevelopRaw::GetSaturation
 
 
 ## -description

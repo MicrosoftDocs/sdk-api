@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 458bd455-6984-414b-a0b7-62887d9dad7c
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemContext, IWbemContext interface [Windows Management Instrumentation], IWbemContext interface [Windows Management Instrumentation], described, WbemContext, _hmm_iwbemcontext, wbemcli/IWbemContext, wmi.iwbemcontext
+ms.keywords: IWbemContext, IWbemContext interface [Windows Management Instrumentation], IWbemContext interface [Windows Management Instrumentation],described, WbemContext, _hmm_iwbemcontext, wbemcli/IWbemContext, wmi.iwbemcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

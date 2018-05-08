@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 51d92eab-1cf0-451c-aefb-ca36360e29f7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAuxInTuningSpace2, IAuxInTuningSpace2 interface [Microsoft TV Technologies], IAuxInTuningSpace2 interface [Microsoft TV Technologies], described, IAuxInTuningSpace2Interface, mstv.iauxintuningspace2, tuner/IAuxInTuningSpace2
+ms.keywords: IAuxInTuningSpace2, IAuxInTuningSpace2 interface [Microsoft TV Technologies], IAuxInTuningSpace2 interface [Microsoft TV Technologies],described, IAuxInTuningSpace2Interface, mstv.iauxintuningspace2, tuner/IAuxInTuningSpace2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

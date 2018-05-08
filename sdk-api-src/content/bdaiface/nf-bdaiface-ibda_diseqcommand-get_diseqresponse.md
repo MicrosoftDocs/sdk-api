@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.get_DiseqResponse
-title: IBDA_DiseqCommand::get_DiseqResponse method
+title: IBDA_DiseqCommand::get_DiseqResponse
 author: windows-driver-content
 description: Gets the driver's response to a Digital Satellite Equipment Control (DiSEqC) command.
 old-location: mstv\ibda_diseqcommand_get_diseqresponse.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ed481bfb-dd80-44fa-bf64-a0f8e903ae35
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DiseqCommand, IBDA_DiseqCommand interface [Microsoft TV Technologies], get_DiseqResponse method, IBDA_DiseqCommand::get_DiseqResponse, bdaiface/IBDA_DiseqCommand::get_DiseqResponse, get_DiseqResponse method [Microsoft TV Technologies], get_DiseqResponse method [Microsoft TV Technologies], IBDA_DiseqCommand interface, get_DiseqResponse,IBDA_DiseqCommand.get_DiseqResponse, mstv.ibda_diseqcommand_get_diseqresponse
+ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],get_DiseqResponse method, IBDA_DiseqCommand.get_DiseqResponse, IBDA_DiseqCommand::get_DiseqResponse, bdaiface/IBDA_DiseqCommand::get_DiseqResponse, get_DiseqResponse, get_DiseqResponse method [Microsoft TV Technologies], get_DiseqResponse method [Microsoft TV Technologies],IBDA_DiseqCommand interface, mstv.ibda_diseqcommand_get_diseqresponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DiseqCommand::get_DiseqResponse method
+# IBDA_DiseqCommand::get_DiseqResponse
 
 
 ## -description

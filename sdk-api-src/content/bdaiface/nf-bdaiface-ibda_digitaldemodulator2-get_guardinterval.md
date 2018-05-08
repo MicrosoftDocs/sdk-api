@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.get_GuardInterval
-title: IBDA_DigitalDemodulator2::get_GuardInterval method
+title: IBDA_DigitalDemodulator2::get_GuardInterval
 author: windows-driver-content
 description: Gets the demodulator's guard interval.
 old-location: mstv\ibda_digitaldemodulator2_get_guardinterval.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e122fac7-bad8-4fbf-bf7d-ffbfad75a5d8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DigitalDemodulator2, IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies], get_GuardInterval method, IBDA_DigitalDemodulator2::get_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::get_GuardInterval, get_GuardInterval method [Microsoft TV Technologies], get_GuardInterval method [Microsoft TV Technologies], IBDA_DigitalDemodulator2 interface, get_GuardInterval,IBDA_DigitalDemodulator2.get_GuardInterval, mstv.ibda_digitaldemodulator2_get_guardinterval
+ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_GuardInterval method, IBDA_DigitalDemodulator2.get_GuardInterval, IBDA_DigitalDemodulator2::get_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::get_GuardInterval, get_GuardInterval, get_GuardInterval method [Microsoft TV Technologies], get_GuardInterval method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_guardinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DigitalDemodulator2::get_GuardInterval method
+# IBDA_DigitalDemodulator2::get_GuardInterval
 
 
 ## -description

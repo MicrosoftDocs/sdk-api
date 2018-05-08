@@ -7,7 +7,7 @@ old-location: properties\VariantToString.htm
 old-project: properties
 ms.assetid: 4850f9b8-8f86-4428-bf3b-f3abdc6047c1
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: VariantToString, VariantToString function [Windows Properties], _shell_VariantToString, properties.VariantToString, propvarutil/VariantToString, shell.VariantToString
 ms.prod: windows-hardware
 ms.technology: windows-devices

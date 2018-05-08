@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IClientSecurity.CopyProxy
-title: IClientSecurity::CopyProxy method
+title: IClientSecurity::CopyProxy
 author: windows-driver-content
 description: Makes a private copy of the proxy for the specified interface.
 old-location: com\iclientsecurity_copyproxy.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 4664351b-d43b-45dc-800e-574685afd0f6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: CopyProxy method [COM], CopyProxy method [COM], IClientSecurity interface, CopyProxy,IClientSecurity.CopyProxy, IClientSecurity, IClientSecurity interface [COM], CopyProxy method, IClientSecurity::CopyProxy, _com_iclientsecurity_copyproxy, com.iclientsecurity_copyproxy, objidlbase/IClientSecurity::CopyProxy
+ms.keywords: CopyProxy, CopyProxy method [COM], CopyProxy method [COM],IClientSecurity interface, IClientSecurity interface [COM],CopyProxy method, IClientSecurity.CopyProxy, IClientSecurity::CopyProxy, _com_iclientsecurity_copyproxy, com.iclientsecurity_copyproxy, objidlbase/IClientSecurity::CopyProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IClientSecurity::CopyProxy method
+# IClientSecurity::CopyProxy
 
 
 ## -description

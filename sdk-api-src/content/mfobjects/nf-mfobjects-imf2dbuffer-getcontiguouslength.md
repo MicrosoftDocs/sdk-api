@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.GetContiguousLength
-title: IMF2DBuffer::GetContiguousLength method
+title: IMF2DBuffer::GetContiguousLength
 author: windows-driver-content
 description: Retrieves the number of bytes needed to store the contents of the buffer in contiguous format.
 old-location: mf\imf2dbuffer_getcontiguouslength.htm
 old-project: medfound
 ms.assetid: 413d50f6-a047-4561-985d-9d1927825617
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 413d50f6-a047-4561-985d-9d1927825617, GetContiguousLength method [Media Foundation], GetContiguousLength method [Media Foundation], IMF2DBuffer interface, GetContiguousLength,IMF2DBuffer.GetContiguousLength, IMF2DBuffer, IMF2DBuffer interface [Media Foundation], GetContiguousLength method, IMF2DBuffer::GetContiguousLength, mf.imf2dbuffer_getcontiguouslength, mfobjects/IMF2DBuffer::GetContiguousLength
+ms.date: 5/3/2018
+ms.keywords: 413d50f6-a047-4561-985d-9d1927825617, GetContiguousLength, GetContiguousLength method [Media Foundation], GetContiguousLength method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],GetContiguousLength method, IMF2DBuffer.GetContiguousLength, IMF2DBuffer::GetContiguousLength, mf.imf2dbuffer_getcontiguouslength, mfobjects/IMF2DBuffer::GetContiguousLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMF2DBuffer::GetContiguousLength method
+# IMF2DBuffer::GetContiguousLength
 
 
 ## -description

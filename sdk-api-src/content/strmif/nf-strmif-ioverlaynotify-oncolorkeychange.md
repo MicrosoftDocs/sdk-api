@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnColorKeyChange
-title: IOverlayNotify::OnColorKeyChange method
+title: IOverlayNotify::OnColorKeyChange
 author: windows-driver-content
 description: The OnColorKeyChange method provides notification that the window's color key has changed.
 old-location: dshow\ioverlaynotify_oncolorkeychange.htm
 old-project: DirectShow
 ms.assetid: a1e7fc88-a50a-4832-9b29-21b94184f1c7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IOverlayNotify, IOverlayNotify interface [DirectShow], OnColorKeyChange method, IOverlayNotify::OnColorKeyChange, IOverlayNotifyOnColorKeyChange, OnColorKeyChange method [DirectShow], OnColorKeyChange method [DirectShow], IOverlayNotify interface, OnColorKeyChange,IOverlayNotify.OnColorKeyChange, dshow.ioverlaynotify_oncolorkeychange, strmif/IOverlayNotify::OnColorKeyChange
+ms.date: 4/30/2018
+ms.keywords: IOverlayNotify interface [DirectShow],OnColorKeyChange method, IOverlayNotify.OnColorKeyChange, IOverlayNotify::OnColorKeyChange, IOverlayNotifyOnColorKeyChange, OnColorKeyChange, OnColorKeyChange method [DirectShow], OnColorKeyChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_oncolorkeychange, strmif/IOverlayNotify::OnColorKeyChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IOverlayNotify::OnColorKeyChange method
+# IOverlayNotify::OnColorKeyChange
 
 
 ## -description

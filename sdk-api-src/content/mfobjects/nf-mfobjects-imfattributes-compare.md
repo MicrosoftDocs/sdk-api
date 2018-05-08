@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAttributes.Compare
-title: IMFAttributes::Compare method
+title: IMFAttributes::Compare
 author: windows-driver-content
 description: Compares the attributes on this object with the attributes on another object.
 old-location: mf\imfattributes_compare.htm
 old-project: medfound
 ms.assetid: 1d0c9d1c-448d-4851-b183-94b04acb2ab5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 1d0c9d1c-448d-4851-b183-94b04acb2ab5, Compare method [Media Foundation], Compare method [Media Foundation], IMFAttributes interface, Compare,IMFAttributes.Compare, IMFAttributes, IMFAttributes interface [Media Foundation], Compare method, IMFAttributes::Compare, mf.imfattributes_compare, mfobjects/IMFAttributes::Compare
+ms.date: 5/3/2018
+ms.keywords: 1d0c9d1c-448d-4851-b183-94b04acb2ab5, Compare, Compare method [Media Foundation], Compare method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],Compare method, IMFAttributes.Compare, IMFAttributes::Compare, mf.imfattributes_compare, mfobjects/IMFAttributes::Compare
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAttributes::Compare method
+# IMFAttributes::Compare
 
 
 ## -description

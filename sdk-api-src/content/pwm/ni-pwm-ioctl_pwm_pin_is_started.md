@@ -8,7 +8,7 @@ old-project: DevIO
 ms.assetid: 3C03AF3B-B40D-4909-89B1-BDF783154C28
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IOCTL_PWM_PIN_IS_STARTED, IOCTL_PWM_PIN_IS_STARTED control code, base.ioctl_pwm_pin_is_started, pwm/IOCTL_PWM_PIN_IS_STARTED
+ms.keywords: IOCTL_PWM_PIN_IS_STARTED, IOCTL_PWM_PIN_IS_STARTED control, IOCTL_PWM_PIN_IS_STARTED control code, base.ioctl_pwm_pin_is_started, pwm/IOCTL_PWM_PIN_IS_STARTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

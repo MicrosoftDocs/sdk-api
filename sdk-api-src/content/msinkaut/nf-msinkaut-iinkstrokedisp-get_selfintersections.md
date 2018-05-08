@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_SelfIntersections
-title: IInkStrokeDisp::get_SelfIntersections method
+title: IInkStrokeDisp::get_SelfIntersections
 author: windows-driver-content
 description: Gets the self-intersections of the stroke.
 old-location: tablet\iinkstrokedisp_selfintersections.htm
 old-project: tablet
 ms.assetid: d3b97071-d0bd-4910-93a4-409241e427eb
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], SelfIntersections property, IInkStrokeDisp.SelfIntersections, IInkStrokeDisp.get_SelfIntersections, IInkStrokeDisp::get_SelfIntersections, SelfIntersections property [Tablet PC], SelfIntersections property [Tablet PC], IInkStrokeDisp interface, d3b97071-d0bd-4910-93a4-409241e427eb, get_SelfIntersections,IInkStrokeDisp.get_SelfIntersections, msinkaut/IInkStrokeDisp::SelfIntersections, msinkaut/IInkStrokeDisp::get_SelfIntersections, tablet.iinkstrokedisp_selfintersections
+ms.date: 5/2/2018
+ms.keywords: IInkStrokeDisp interface [Tablet PC],SelfIntersections property, IInkStrokeDisp.SelfIntersections, IInkStrokeDisp.get_SelfIntersections, IInkStrokeDisp::SelfIntersections, IInkStrokeDisp::get_SelfIntersections, SelfIntersections property [Tablet PC], SelfIntersections property [Tablet PC],IInkStrokeDisp interface, d3b97071-d0bd-4910-93a4-409241e427eb, get_SelfIntersections, msinkaut/IInkStrokeDisp::SelfIntersections, msinkaut/IInkStrokeDisp::get_SelfIntersections, tablet.iinkstrokedisp_selfintersections
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::get_SelfIntersections method
+# IInkStrokeDisp::get_SelfIntersections
 
 
 ## -description

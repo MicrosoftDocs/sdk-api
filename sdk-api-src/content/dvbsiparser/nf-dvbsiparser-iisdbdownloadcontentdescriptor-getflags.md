@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetFlags
-title: IIsdbDownloadContentDescriptor::GetFlags method
+title: IIsdbDownloadContentDescriptor::GetFlags
 author: windows-driver-content
 description: Gets flag values from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_getflags.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: df104d6d-1436-4c7d-b250-b740e1f70c07
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetFlags method [Microsoft TV Technologies], GetFlags method [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface, GetFlags,IIsdbDownloadContentDescriptor.GetFlags, IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], GetFlags method, IIsdbDownloadContentDescriptor::GetFlags, dvbsiparser/IIsdbDownloadContentDescriptor::GetFlags, mstv.iisdbdownloadcontentdescriptor_getflags
+ms.keywords: GetFlags, GetFlags method [Microsoft TV Technologies], GetFlags method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetFlags method, IIsdbDownloadContentDescriptor.GetFlags, IIsdbDownloadContentDescriptor::GetFlags, dvbsiparser/IIsdbDownloadContentDescriptor::GetFlags, mstv.iisdbdownloadcontentdescriptor_getflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDownloadContentDescriptor::GetFlags method
+# IIsdbDownloadContentDescriptor::GetFlags
 
 
 ## -description

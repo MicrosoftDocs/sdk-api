@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.ResolveTypeRef
-title: IMetaDataImport::ResolveTypeRef method
+title: IMetaDataImport::ResolveTypeRef
 author: windows-driver-content
 description: Resolves a Type reference represented by the specified TypeRef token.
 old-location: winrt\imetadataimport_resolvetyperef.htm
 old-project: WinRT
 ms.assetid: d19d47c7-bf06-4daa-bda6-8aca6939a543
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IMetaDataImport, IMetaDataImport interface [Windows Runtime], ResolveTypeRef method, IMetaDataImport::ResolveTypeRef, ResolveTypeRef method [Windows Runtime], ResolveTypeRef method [Windows Runtime], IMetaDataImport interface, ResolveTypeRef,IMetaDataImport.ResolveTypeRef, rometadataapi/IMetaDataImport::ResolveTypeRef, winrt.imetadataimport_resolvetyperef
+ms.date: 5/4/2018
+ms.keywords: IMetaDataImport interface [Windows Runtime],ResolveTypeRef method, IMetaDataImport.ResolveTypeRef, IMetaDataImport::ResolveTypeRef, ResolveTypeRef, ResolveTypeRef method [Windows Runtime], ResolveTypeRef method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::ResolveTypeRef, winrt.imetadataimport_resolvetyperef
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::ResolveTypeRef method
+# IMetaDataImport::ResolveTypeRef
 
 
 ## -description

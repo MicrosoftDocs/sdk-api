@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetSandbox
-title: IXblIdpAuthTokenResult::GetSandbox method
+title: IXblIdpAuthTokenResult::GetSandbox
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getsandbox.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: BDE93755-27E8-4D5A-A777-527954BA5E4C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSandbox method, GetSandbox method, IXblIdpAuthTokenResult interface, GetSandbox,IXblIdpAuthTokenResult.GetSandbox, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetSandbox method, IXblIdpAuthTokenResult::GetSandbox, xblidp.ixblidpauthtokenresult_getsandbox, xblidpauthmanager/IXblIdpAuthTokenResult::GetSandbox
+ms.keywords: GetSandbox, GetSandbox method, GetSandbox method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetSandbox method, IXblIdpAuthTokenResult.GetSandbox, IXblIdpAuthTokenResult::GetSandbox, xblidp.ixblidpauthtokenresult_getsandbox, xblidpauthmanager/IXblIdpAuthTokenResult::GetSandbox
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetSandbox method
+# IXblIdpAuthTokenResult::GetSandbox
 
 
 ## -description

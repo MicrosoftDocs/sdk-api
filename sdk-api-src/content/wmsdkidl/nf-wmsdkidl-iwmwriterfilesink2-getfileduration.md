@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.GetFileDuration
-title: IWMWriterFileSink2::GetFileDuration method
+title: IWMWriterFileSink2::GetFileDuration
 author: windows-driver-content
 description: The GetFileDuration method retrieves the duration of the portion of the file that has been written.
 old-location: wmformat\iwmwriterfilesink2_getfileduration.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: b0685760-929d-4c65-84e0-a9745635eddd
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetFileDuration method [windows Media Format], GetFileDuration method [windows Media Format], IWMWriterFileSink2 interface, GetFileDuration,IWMWriterFileSink2.GetFileDuration, IWMWriterFileSink2, IWMWriterFileSink2 interface [windows Media Format], GetFileDuration method, IWMWriterFileSink2::GetFileDuration, IWMWriterFileSink2GetFileDuration, wmformat.iwmwriterfilesink2_getfileduration, wmsdkidl/IWMWriterFileSink2::GetFileDuration
+ms.keywords: GetFileDuration, GetFileDuration method [windows Media Format], GetFileDuration method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],GetFileDuration method, IWMWriterFileSink2.GetFileDuration, IWMWriterFileSink2::GetFileDuration, IWMWriterFileSink2GetFileDuration, wmformat.iwmwriterfilesink2_getfileduration, wmsdkidl/IWMWriterFileSink2::GetFileDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterFileSink2::GetFileDuration method
+# IWMWriterFileSink2::GetFileDuration
 
 
 ## -description

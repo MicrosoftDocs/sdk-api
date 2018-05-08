@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsKeepPixelAspectRatio
-title: IFullScreenVideoEx::IsKeepPixelAspectRatio method
+title: IFullScreenVideoEx::IsKeepPixelAspectRatio
 author: windows-driver-content
 description: The IsKeepPixelAspectRatio method queries whether the pixel aspect ratio is maintained. The Full Screen Renderer filter does not support this method; it always maintains the pixel aspect ratio.
 old-location: dshow\ifullscreenvideoex_iskeeppixelaspectratio.htm
 old-project: DirectShow
 ms.assetid: 3f3b55d9-b504-42a3-b60a-65073d1e1447
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], IsKeepPixelAspectRatio method, IFullScreenVideoEx::IsKeepPixelAspectRatio, IFullScreenVideoExIsKeepPixelAspectRatio, IsKeepPixelAspectRatio method [DirectShow], IsKeepPixelAspectRatio method [DirectShow], IFullScreenVideoEx interface, IsKeepPixelAspectRatio,IFullScreenVideoEx.IsKeepPixelAspectRatio, amvideo/IFullScreenVideoEx::IsKeepPixelAspectRatio, dshow.ifullscreenvideoex_iskeeppixelaspectratio
+ms.date: 4/30/2018
+ms.keywords: IFullScreenVideoEx interface [DirectShow],IsKeepPixelAspectRatio method, IFullScreenVideoEx.IsKeepPixelAspectRatio, IFullScreenVideoEx::IsKeepPixelAspectRatio, IFullScreenVideoExIsKeepPixelAspectRatio, IsKeepPixelAspectRatio, IsKeepPixelAspectRatio method [DirectShow], IsKeepPixelAspectRatio method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsKeepPixelAspectRatio, dshow.ifullscreenvideoex_iskeeppixelaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IFullScreenVideoEx::IsKeepPixelAspectRatio method
+# IFullScreenVideoEx::IsKeepPixelAspectRatio
 
 
 ## -description

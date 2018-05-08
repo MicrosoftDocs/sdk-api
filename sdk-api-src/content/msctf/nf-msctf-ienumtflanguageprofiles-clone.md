@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Clone
-title: IEnumTfLanguageProfiles::Clone method
+title: IEnumTfLanguageProfiles::Clone
 author: windows-driver-content
 description: IEnumTfLanguageProfiles::Clone method
 old-location: tsf\ienumtflanguageprofiles_clone.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 77fbb195-b3c8-4254-a4d9-117ea8052951
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Clone method [Text Services Framework], Clone method [Text Services Framework], IEnumTfLanguageProfiles interface, Clone,IEnumTfLanguageProfiles.Clone, IEnumTfLanguageProfiles, IEnumTfLanguageProfiles interface [Text Services Framework], Clone method, IEnumTfLanguageProfiles::Clone, _tsf_ienumtflanguageprofiles_clone_ref, msctf/IEnumTfLanguageProfiles::Clone, tsf.ienumtflanguageprofiles_clone
+ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfLanguageProfiles interface, IEnumTfLanguageProfiles interface [Text Services Framework],Clone method, IEnumTfLanguageProfiles.Clone, IEnumTfLanguageProfiles::Clone, _tsf_ienumtflanguageprofiles_clone_ref, msctf/IEnumTfLanguageProfiles::Clone, tsf.ienumtflanguageprofiles_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfLanguageProfiles::Clone method
+# IEnumTfLanguageProfiles::Clone
 
 
 ## -description

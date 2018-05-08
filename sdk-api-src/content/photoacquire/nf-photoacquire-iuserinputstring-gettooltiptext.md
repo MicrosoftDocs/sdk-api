@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetTooltipText
-title: IUserInputString::GetTooltipText method
+title: IUserInputString::GetTooltipText
 author: windows-driver-content
 description: The GetTooltipText method retrieves the tooltip text displayed for a control.
 old-location: picacq\iuserinputstring_gettooltiptext.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: f57b247c-bd6d-46ea-be95-a239c1b087ce
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTooltipText method [Picture Acquisition], GetTooltipText method [Picture Acquisition], IUserInputString interface, GetTooltipText,IUserInputString.GetTooltipText, IUserInputString, IUserInputString interface [Picture Acquisition], GetTooltipText method, IUserInputString::GetTooltipText, IUserInputStringGetTooltipText, photoacquire/IUserInputString::GetTooltipText, picacq.iuserinputstring_gettooltiptext
+ms.keywords: GetTooltipText, GetTooltipText method [Picture Acquisition], GetTooltipText method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetTooltipText method, IUserInputString.GetTooltipText, IUserInputString::GetTooltipText, IUserInputStringGetTooltipText, photoacquire/IUserInputString::GetTooltipText, picacq.iuserinputstring_gettooltiptext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUserInputString::GetTooltipText method
+# IUserInputString::GetTooltipText
 
 
 ## -description

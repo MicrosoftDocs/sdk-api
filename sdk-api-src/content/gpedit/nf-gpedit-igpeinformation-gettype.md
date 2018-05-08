@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetType
-title: IGPEInformation::GetType method
+title: IGPEInformation::GetType
 author: windows-driver-content
 description: The GetType method retrieves type information for the GPO being edited.
 old-location: policy\igpeinformation_gettype.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: 47769405-d32c-4f4f-86fc-970d89bba848
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GetType method [Group Policy], GetType method [Group Policy], IGPEInformation interface, GetType,IGPEInformation.GetType, IGPEInformation, IGPEInformation interface [Group Policy], GetType method, IGPEInformation::GetType, _win32_igpeinformation_gettype, gpedit/IGPEInformation::GetType, policy.igpeinformation_gettype
+ms.keywords: GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GetType, GetType method [Group Policy], GetType method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetType method, IGPEInformation.GetType, IGPEInformation::GetType, _win32_igpeinformation_gettype, gpedit/IGPEInformation::GetType, policy.igpeinformation_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPEInformation::GetType method
+# IGPEInformation::GetType
 
 
 ## -description

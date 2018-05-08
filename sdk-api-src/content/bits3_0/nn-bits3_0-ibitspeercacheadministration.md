@@ -7,8 +7,8 @@ old-location: bits\ibitspeercacheadministration.htm
 old-project: Bits
 ms.assetid: 5fa30b4e-f13c-4341-af65-a2e3d2703b96
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBitsPeerCacheAdministration, IBitsPeerCacheAdministration interface [BITS], IBitsPeerCacheAdministration interface [BITS], described, bits.ibitspeercacheadministration, bits3_0/IBitsPeerCacheAdministration
+ms.date: 4/27/2018
+ms.keywords: IBitsPeerCacheAdministration, IBitsPeerCacheAdministration interface [BITS], IBitsPeerCacheAdministration interface [BITS],described, bits.ibitspeercacheadministration, bits3_0/IBitsPeerCacheAdministration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -40,7 +40,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Bits.lib
-req.dll: 
+req.dll: BitsPrx4.dll
 req.irql: 
 ---
 

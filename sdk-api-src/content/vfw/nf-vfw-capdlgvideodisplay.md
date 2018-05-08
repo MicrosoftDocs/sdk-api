@@ -7,7 +7,7 @@ old-location: multimedia\capdlgvideodisplay.htm
 old-project: Multimedia
 ms.assetid: 3feb6964-b897-4d5b-8861-7fca829e25e4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: "_win32_capDlgVideoDisplay, capDlgVideoDisplay, capDlgVideoDisplay macro [Windows Multimedia], multimedia.capdlgvideodisplay, vfw/capDlgVideoDisplay"
 ms.prod: windows-hardware
 ms.technology: windows-devices

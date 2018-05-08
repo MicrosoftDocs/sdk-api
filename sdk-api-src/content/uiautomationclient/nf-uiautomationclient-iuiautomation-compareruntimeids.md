@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CompareRuntimeIds
-title: IUIAutomation::CompareRuntimeIds method
+title: IUIAutomation::CompareRuntimeIds
 author: windows-driver-content
 description: Compares two integer arrays containing run-time identifiers (IDs) to determine whether their content is the same and they belong to the same UI element.
 old-location: winauto\uiauto_IUIAutomation_CompareRuntimeIds.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: b0c481eb-3545-439c-bf6a-347b98ea35de
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CompareRuntimeIds method [Windows Accessibility], CompareRuntimeIds method [Windows Accessibility], IUIAutomation interface, CompareRuntimeIds,IUIAutomation.CompareRuntimeIds, IUIAutomation, IUIAutomation interface [Windows Accessibility], CompareRuntimeIds method, IUIAutomation::CompareRuntimeIds, uiauto.uiauto_IUIAutomation_CompareRuntimeIds, uiauto_IUIAutomation_CompareRuntimeIds, uiautomationclient/IUIAutomation::CompareRuntimeIds, winauto.uiauto_IUIAutomation_CompareRuntimeIds
+ms.keywords: CompareRuntimeIds, CompareRuntimeIds method [Windows Accessibility], CompareRuntimeIds method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CompareRuntimeIds method, IUIAutomation.CompareRuntimeIds, IUIAutomation::CompareRuntimeIds, uiauto.uiauto_IUIAutomation_CompareRuntimeIds, uiauto_IUIAutomation_CompareRuntimeIds, uiautomationclient/IUIAutomation::CompareRuntimeIds, winauto.uiauto_IUIAutomation_CompareRuntimeIds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::CompareRuntimeIds method
+# IUIAutomation::CompareRuntimeIds
 
 
 ## -description

@@ -130,6 +130,18 @@ req.product: Windows Address Book 5.0
                 
 
 
+### -field out.issuerAddress
+
+ 
+
+
+### -field out.requestSecurityTokenTemplate
+
+ 
+
+
+
+
 ## -remarks
 
 

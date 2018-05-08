@@ -7,8 +7,8 @@ old-location: security\pfn_crypt_object_locator_provider_free_identifier.htm
 old-project: SecCrypto
 ms.assetid: C2ED3B51-8B98-412C-A571-D107F2BEC5F1
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER function pointer [Security], security.pfn_crypt_object_locator_provider_free_identifier, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
+ms.date: 4/30/2018
+ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER function, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER function pointer [Security], security.pfn_crypt_object_locator_provider_free_identifier, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback
+# PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback function
 
 
 ## -description

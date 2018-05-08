@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemUnboundObjectSink.IndicateToConsumer
-title: IWbemUnboundObjectSink::IndicateToConsumer method
+title: IWbemUnboundObjectSink::IndicateToConsumer
 author: windows-driver-content
 description: Called by WMI to actually deliver events to a consumer.
 old-location: wmi\iwbemunboundobjectsink_indicatetoconsumer.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 70fe9976-cfa9-442d-93a4-12293e80d1fa
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemUnboundObjectSink, IWbemUnboundObjectSink interface [Windows Management Instrumentation], IndicateToConsumer method, IWbemUnboundObjectSink::IndicateToConsumer, IndicateToConsumer method [Windows Management Instrumentation], IndicateToConsumer method [Windows Management Instrumentation], IWbemUnboundObjectSink interface, IndicateToConsumer,IWbemUnboundObjectSink.IndicateToConsumer, _hmm_iwbemunboundobjectsink_indicatetoconsumer, wbemprov/IWbemUnboundObjectSink::IndicateToConsumer, wmi.iwbemunboundobjectsink_indicatetoconsumer
+ms.keywords: IWbemUnboundObjectSink interface [Windows Management Instrumentation],IndicateToConsumer method, IWbemUnboundObjectSink.IndicateToConsumer, IWbemUnboundObjectSink::IndicateToConsumer, IndicateToConsumer, IndicateToConsumer method [Windows Management Instrumentation], IndicateToConsumer method [Windows Management Instrumentation],IWbemUnboundObjectSink interface, _hmm_iwbemunboundobjectsink_indicatetoconsumer, wbemprov/IWbemUnboundObjectSink::IndicateToConsumer, wmi.iwbemunboundobjectsink_indicatetoconsumer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemUnboundObjectSink::IndicateToConsumer method
+# IWbemUnboundObjectSink::IndicateToConsumer
 
 
 ## -description

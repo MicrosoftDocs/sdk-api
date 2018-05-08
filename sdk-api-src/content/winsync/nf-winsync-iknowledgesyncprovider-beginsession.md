@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.BeginSession
-title: IKnowledgeSyncProvider::BeginSession method
+title: IKnowledgeSyncProvider::BeginSession
 author: windows-driver-content
 description: Notifies the provider that it is joining a synchronization session.
 old-location: winsync\iknowledgesyncprovider_beginsession.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 15aae98e-96c6-45f3-906f-1729fa79ebdb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: BeginSession method [Windows Sync], BeginSession method [Windows Sync], IKnowledgeSyncProvider interface, BeginSession,IKnowledgeSyncProvider.BeginSession, IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], BeginSession method, IKnowledgeSyncProvider::BeginSession, winsync.iknowledgesyncprovider_beginsession, winsync/IKnowledgeSyncProvider::BeginSession
+ms.keywords: BeginSession, BeginSession method [Windows Sync], BeginSession method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],BeginSession method, IKnowledgeSyncProvider.BeginSession, IKnowledgeSyncProvider::BeginSession, winsync.iknowledgesyncprovider_beginsession, winsync/IKnowledgeSyncProvider::BeginSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IKnowledgeSyncProvider::BeginSession method
+# IKnowledgeSyncProvider::BeginSession
 
 
 ## -description

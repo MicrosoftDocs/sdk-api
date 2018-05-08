@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents3.StringCollectionChange
-title: IWMPEvents3::StringCollectionChange method
+title: IWMPEvents3::StringCollectionChange
 author: windows-driver-content
 description: The StringCollectionChange event occurs when a string collection changes.
 old-location: wmp\iwmpevents3_iwmpevents3__stringcollectionchange.htm
 old-project: WMP
 ms.assetid: 93880116-e354-49d0-ba02-391fbb4d3f8c
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents3, IWMPEvents3 interface [Windows Media Player], StringCollectionChange method, IWMPEvents3::StringCollectionChange, IWMPEvents3StringCollectionChange, StringCollectionChange method [Windows Media Player], StringCollectionChange method [Windows Media Player], IWMPEvents3 interface, StringCollectionChange,IWMPEvents3.StringCollectionChange, wmp.iwmpevents3_iwmpevents3__stringcollectionchange, wmp/IWMPEvents3::StringCollectionChange
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents3 interface [Windows Media Player],StringCollectionChange method, IWMPEvents3.StringCollectionChange, IWMPEvents3::StringCollectionChange, IWMPEvents3StringCollectionChange, StringCollectionChange, StringCollectionChange method [Windows Media Player], StringCollectionChange method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__stringcollectionchange, wmp/IWMPEvents3::StringCollectionChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents3::StringCollectionChange method
+# IWMPEvents3::StringCollectionChange
 
 
 ## -description

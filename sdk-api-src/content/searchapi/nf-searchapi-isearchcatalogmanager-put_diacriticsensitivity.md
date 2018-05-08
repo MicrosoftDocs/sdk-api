@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.put_DiacriticSensitivity
-title: ISearchCatalogManager::put_DiacriticSensitivity method
+title: ISearchCatalogManager::put_DiacriticSensitivity
 author: windows-driver-content
 description: Sets a value that determines whether the catalog is sensitive to diacritics. A diacritic is a mark added to a letter to indicate a special phonetic value or pronunciation.
 old-location: search\_search_ISearchCatalogManager_put_DiacriticSensitivity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\put_diacriticsensitivity.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], put_DiacriticSensitivity method, ISearchCatalogManager::put_DiacriticSensitivity, _search_ISearchCatalogManager_put_DiacriticSensitivity, put_DiacriticSensitivity method [search], put_DiacriticSensitivity method [search], ISearchCatalogManager interface, put_DiacriticSensitivity,ISearchCatalogManager.put_DiacriticSensitivity, search._search_ISearchCatalogManager_put_DiacriticSensitivity, searchapi/ISearchCatalogManager::put_DiacriticSensitivity
+ms.date: 5/4/2018
+ms.keywords: ISearchCatalogManager interface [search],put_DiacriticSensitivity method, ISearchCatalogManager.put_DiacriticSensitivity, ISearchCatalogManager::put_DiacriticSensitivity, _search_ISearchCatalogManager_put_DiacriticSensitivity, put_DiacriticSensitivity, put_DiacriticSensitivity method [search], put_DiacriticSensitivity method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_put_DiacriticSensitivity, searchapi/ISearchCatalogManager::put_DiacriticSensitivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::put_DiacriticSensitivity method
+# ISearchCatalogManager::put_DiacriticSensitivity
 
 
 ## -description

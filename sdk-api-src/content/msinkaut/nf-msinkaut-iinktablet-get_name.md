@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkTablet.get_Name
-title: IInkTablet::get_Name method
+title: IInkTablet::get_Name
 author: windows-driver-content
 description: Gets the name of the object.
 old-location: tablet\iinktablet_name.htm
 old-project: tablet
 ms.assetid: 8388ca02-b464-47e4-9911-1c55ce398557
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInkTablet, IInkTablet interface [Tablet PC], Name property, IInkTablet.Name, IInkTablet.get_Name, IInkTablet::get_Name, Name property [Tablet PC], Name property [Tablet PC], IInkTablet interface, get_Name,IInkTablet.get_Name, msinkaut/IInkTablet::Name, msinkaut/IInkTablet::get_Name, tablet.iinktablet_name
+ms.date: 5/2/2018
+ms.keywords: IInkTablet interface [Tablet PC],Name property, IInkTablet.Name, IInkTablet.get_Name, IInkTablet::Name, IInkTablet::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkTablet interface, get_Name, msinkaut/IInkTablet::Name, msinkaut/IInkTablet::get_Name, tablet.iinktablet_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkTablet::get_Name method
+# IInkTablet::get_Name
 
 
 ## -description

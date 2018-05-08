@@ -1,6 +1,6 @@
 ---
 UID: NF:imepad.IImePadApplet.CreateUI
-title: IImePadApplet::CreateUI method
+title: IImePadApplet::CreateUI
 author: windows-driver-content
 description: Called from IImePad to get the applet's window handle, style, and size.
 old-location: intl\iimepadapplet_createui.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: B4F79A20-E69E-4EA0-A992-4415B8AA4790
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: CreateUI method [Internationalization for Windows Applications], CreateUI method [Internationalization for Windows Applications], IImePadApplet interface, CreateUI,IImePadApplet.CreateUI, IImePadApplet, IImePadApplet interface [Internationalization for Windows Applications], CreateUI method, IImePadApplet::CreateUI, imepad/IImePadApplet::CreateUI, intl.iimepadapplet_createui
+ms.keywords: CreateUI, CreateUI method [Internationalization for Windows Applications], CreateUI method [Internationalization for Windows Applications],IImePadApplet interface, IImePadApplet interface [Internationalization for Windows Applications],CreateUI method, IImePadApplet.CreateUI, IImePadApplet::CreateUI, imepad/IImePadApplet::CreateUI, intl.iimepadapplet_createui
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IImePadApplet::CreateUI method
+# IImePadApplet::CreateUI
 
 
 ## -description

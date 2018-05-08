@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IRegisterTuner.Register
-title: IRegisterTuner::Register method
+title: IRegisterTuner::Register
 author: windows-driver-content
 description: This feature is expected to be available on a future version of the Windows operating system.
 old-location: mstv\iregistertuner_register.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 17a59666-1915-496f-9474-ddd6b3da58f5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IRegisterTuner, IRegisterTuner interface [Microsoft TV Technologies], Register method, IRegisterTuner::Register, IRegisterTunerRegister, Register method [Microsoft TV Technologies], Register method [Microsoft TV Technologies], IRegisterTuner interface, Register,IRegisterTuner.Register, mstv.iregistertuner_register, tuner/IRegisterTuner::Register
+ms.keywords: IRegisterTuner interface [Microsoft TV Technologies],Register method, IRegisterTuner.Register, IRegisterTuner::Register, IRegisterTunerRegister, Register, Register method [Microsoft TV Technologies], Register method [Microsoft TV Technologies],IRegisterTuner interface, mstv.iregistertuner_register, tuner/IRegisterTuner::Register
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegisterTuner::Register method
+# IRegisterTuner::Register
 
 
 ## -description

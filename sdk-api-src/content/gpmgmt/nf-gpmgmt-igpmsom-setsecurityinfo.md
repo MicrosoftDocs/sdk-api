@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.SetSecurityInfo
-title: IGPMSOM::SetSecurityInfo method
+title: IGPMSOM::SetSecurityInfo
 author: windows-driver-content
 description: Sets the list of permissions for the scope of management (SOM) to that of the specified object.
 old-location: gpmc\igpmsom_setsecurityinfo.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 675de64c-4eef-47c8-a06c-9167559b11a9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMSOM class [GPMC], SetSecurityInfo method, IGPMSOM, IGPMSOM interface [GPMC], SetSecurityInfo method, IGPMSOM::SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC], GPMSOM class, SetSecurityInfo method [GPMC], IGPMSOM interface, SetSecurityInfo,IGPMSOM.SetSecurityInfo, _win32_igpmsom_setsecurityinfo, gpmc.igpmsom_setsecurityinfo, gpmgmt/IGPMSOM::SetSecurityInfo
+ms.keywords: GPMSOM class [GPMC],SetSecurityInfo method, IGPMSOM interface [GPMC],SetSecurityInfo method, IGPMSOM.SetSecurityInfo, IGPMSOM::SetSecurityInfo, SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC],GPMSOM class, SetSecurityInfo method [GPMC],IGPMSOM interface, _win32_igpmsom_setsecurityinfo, gpmc.igpmsom_setsecurityinfo, gpmgmt/IGPMSOM::SetSecurityInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMSOM::SetSecurityInfo method
+# IGPMSOM::SetSecurityInfo
 
 
 ## -description

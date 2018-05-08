@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_Url
-title: ITDirectoryObjectConference::put_Url method
+title: ITDirectoryObjectConference::put_Url
 author: windows-driver-content
 description: The put_Url method sets a URL.
 old-location: tapi3\itdirectoryobjectconference_put_url.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: ca275c06-fd8f-4044-b528-cc197e4f1177
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], put_Url method, ITDirectoryObjectConference::put_Url, _tapi3_itdirectoryobjectconference_put_url, put_Url method [TAPI 2.2], put_Url method [TAPI 2.2], ITDirectoryObjectConference interface, put_Url,ITDirectoryObjectConference.put_Url, rend/ITDirectoryObjectConference::put_Url, tapi3.itdirectoryobjectconference_put_url
+ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Url method, ITDirectoryObjectConference.put_Url, ITDirectoryObjectConference::put_Url, _tapi3_itdirectoryobjectconference_put_url, put_Url, put_Url method [TAPI 2.2], put_Url method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Url, tapi3.itdirectoryobjectconference_put_url
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectoryObjectConference::put_Url method
+# ITDirectoryObjectConference::put_Url
 
 
 ## -description

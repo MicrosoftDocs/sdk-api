@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.UnadviseItemsSink
-title: ITfLangBarItemMgr::UnadviseItemsSink method
+title: ITfLangBarItemMgr::UnadviseItemsSink
 author: windows-driver-content
 description: ITfLangBarItemMgr::UnadviseItemsSink method
 old-location: tsf\itflangbaritemmgr_unadviseitemssink.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: e15fb870-bedc-412d-9561-4db6c0515799
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Framework], UnadviseItemsSink method, ITfLangBarItemMgr::UnadviseItemsSink, UnadviseItemsSink method [Text Services Framework], UnadviseItemsSink method [Text Services Framework], ITfLangBarItemMgr interface, UnadviseItemsSink,ITfLangBarItemMgr.UnadviseItemsSink, _tsf_itflangbaritemmgr_unadviseitemssink_ref, ctfutb/ITfLangBarItemMgr::UnadviseItemsSink, tsf.itflangbaritemmgr_unadviseitemssink
+ms.keywords: ITfLangBarItemMgr interface [Text Services Framework],UnadviseItemsSink method, ITfLangBarItemMgr.UnadviseItemsSink, ITfLangBarItemMgr::UnadviseItemsSink, UnadviseItemsSink, UnadviseItemsSink method [Text Services Framework], UnadviseItemsSink method [Text Services Framework],ITfLangBarItemMgr interface, _tsf_itflangbaritemmgr_unadviseitemssink_ref, ctfutb/ITfLangBarItemMgr::UnadviseItemsSink, tsf.itflangbaritemmgr_unadviseitemssink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemMgr::UnadviseItemsSink method
+# ITfLangBarItemMgr::UnadviseItemsSink
 
 
 ## -description

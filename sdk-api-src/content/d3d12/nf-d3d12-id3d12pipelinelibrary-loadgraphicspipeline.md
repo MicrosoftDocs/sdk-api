@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12PipelineLibrary.LoadGraphicsPipeline
-title: ID3D12PipelineLibrary::LoadGraphicsPipeline method
+title: ID3D12PipelineLibrary::LoadGraphicsPipeline
 author: windows-driver-content
 description: Retrieves the requested PSO from the library.
 old-location: direct3d12\id3d12pipelinelibrary_loadgraphicspipeline.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 1DDD1348-2039-4BF4-9ED8-7AA087D0B654
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12PipelineLibrary, ID3D12PipelineLibrary interface, LoadGraphicsPipeline method, ID3D12PipelineLibrary::LoadGraphicsPipeline, LoadGraphicsPipeline method, LoadGraphicsPipeline method, ID3D12PipelineLibrary interface, LoadGraphicsPipeline,ID3D12PipelineLibrary.LoadGraphicsPipeline, d3d12/ID3D12PipelineLibrary::LoadGraphicsPipeline, direct3d12.id3d12pipelinelibrary_loadgraphicspipeline
+ms.keywords: ID3D12PipelineLibrary interface,LoadGraphicsPipeline method, ID3D12PipelineLibrary.LoadGraphicsPipeline, ID3D12PipelineLibrary::LoadGraphicsPipeline, LoadGraphicsPipeline, LoadGraphicsPipeline method, LoadGraphicsPipeline method,ID3D12PipelineLibrary interface, d3d12/ID3D12PipelineLibrary::LoadGraphicsPipeline, direct3d12.id3d12pipelinelibrary_loadgraphicspipeline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12PipelineLibrary::LoadGraphicsPipeline method
+# ID3D12PipelineLibrary::LoadGraphicsPipeline
 
 
 ## -description

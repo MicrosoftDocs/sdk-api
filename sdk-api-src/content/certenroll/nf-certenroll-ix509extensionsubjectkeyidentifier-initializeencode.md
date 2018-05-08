@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionSubjectKeyIdentifier.InitializeEncode
-title: IX509ExtensionSubjectKeyIdentifier::InitializeEncode method
+title: IX509ExtensionSubjectKeyIdentifier::InitializeEncode
 author: windows-driver-content
 description: Initializes the extension from a byte array that contains the key identifier.
 old-location: security\ix509extensionsubjectkeyidentifier_initializeencode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 0faf3567-3908-473e-9f5c-392991ea668c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionSubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier interface [Security], InitializeEncode method, IX509ExtensionSubjectKeyIdentifier::InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security], IX509ExtensionSubjectKeyIdentifier interface, InitializeEncode,IX509ExtensionSubjectKeyIdentifier.InitializeEncode, certenroll/IX509ExtensionSubjectKeyIdentifier::InitializeEncode, security.ix509extensionsubjectkeyidentifier_initializeencode_method
+ms.keywords: IX509ExtensionSubjectKeyIdentifier interface [Security],InitializeEncode method, IX509ExtensionSubjectKeyIdentifier.InitializeEncode, IX509ExtensionSubjectKeyIdentifier::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionSubjectKeyIdentifier interface, certenroll/IX509ExtensionSubjectKeyIdentifier::InitializeEncode, security.ix509extensionsubjectkeyidentifier_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionSubjectKeyIdentifier::InitializeEncode method
+# IX509ExtensionSubjectKeyIdentifier::InitializeEncode
 
 
 ## -description

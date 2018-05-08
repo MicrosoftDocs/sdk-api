@@ -7,7 +7,7 @@ old-location: controls\Header_ClearFilter.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_clearfilter.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: Header_ClearFilter, Header_ClearFilter macro [Windows Controls], _win32_Header_ClearFilter, _win32_Header_ClearFilter_cpp, commctrl/Header_ClearFilter, controls.Header_ClearFilter, controls._win32_Header_ClearFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

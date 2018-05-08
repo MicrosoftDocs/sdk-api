@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_AverageTalkTime
-title: ITAgentSession::get_AverageTalkTime method
+title: ITAgentSession::get_AverageTalkTime
 author: windows-driver-content
 description: The get_AverageTalkTime method gets the average time (in seconds) spent talking per ACD call, during this agent session (by this agent).
 old-location: tapi3\itagentsession_get_averagetalktime.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: b6025053-b21f-478e-86d7-a8572ed2b205
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], get_AverageTalkTime method, ITAgentSession::get_AverageTalkTime, _tapi3_itagentsession_get_averagetalktime, get_AverageTalkTime method [TAPI 2.2], get_AverageTalkTime method [TAPI 2.2], ITAgentSession interface, get_AverageTalkTime,ITAgentSession.get_AverageTalkTime, tapi3.itagentsession_get_averagetalktime, tapi3cc/ITAgentSession::get_AverageTalkTime
+ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageTalkTime method, ITAgentSession.get_AverageTalkTime, ITAgentSession::get_AverageTalkTime, _tapi3_itagentsession_get_averagetalktime, get_AverageTalkTime, get_AverageTalkTime method [TAPI 2.2], get_AverageTalkTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagetalktime, tapi3cc/ITAgentSession::get_AverageTalkTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentSession::get_AverageTalkTime method
+# ITAgentSession::get_AverageTalkTime
 
 
 ## -description

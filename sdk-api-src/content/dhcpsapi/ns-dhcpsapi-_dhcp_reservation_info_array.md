@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_reservation_info_array.htm
 old-project: DHCP
 ms.assetid: 9823ee47-6b61-4256-8fac-d301d72774ec
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_RESERVATION_INFO_ARRAY, DHCP_RESERVATION_INFO_ARRAY, DHCP_RESERVATION_INFO_ARRAY structure [DHCP], LPDHCP_RESERVATION_INFO_ARRAY, LPDHCP_RESERVATION_INFO_ARRAY structure pointer [DHCP], _DHCP_RESERVATION_INFO_ARRAY, dhcp.dhcp_reservation_info_array, dhcpsapi/DHCP_RESERVATION_INFO_ARRAY, dhcpsapi/LPDHCP_RESERVATION_INFO_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Integer that specifies the number of IPv4 client reservations in <b>Elements</b>
 ### -field Elements
 
 Pointer to an array of <a href="https://msdn.microsoft.com/4f0110b5-3770-4aae-8df7-d2481eac3417">DHCP_IP_RESERVATION_INFO</a> structures that contain IPv4 client reservations.
+
+
+### -field Elements.size_is
+
+ 
+
+
+### -field Elements.size_is.NumElements
+
+ 
+
+
 
 
 ## -see-also

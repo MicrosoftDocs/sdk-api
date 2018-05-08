@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.GetStreamAllocatorRequirements
-title: IAMMediaTypeStream::GetStreamAllocatorRequirements method
+title: IAMMediaTypeStream::GetStreamAllocatorRequirements
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The GetStreamAllocatorRequirements retrieves the allocator requirements for the stream. This method is not currently implemented.
 old-location: dshow\iammediatypestream_getstreamallocatorrequirements.htm
 old-project: DirectShow
 ms.assetid: 0a1ad5c5-0cbf-44a5-833f-951c9934bd19
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetStreamAllocatorRequirements method [DirectShow], GetStreamAllocatorRequirements method [DirectShow], IAMMediaTypeStream interface, GetStreamAllocatorRequirements,IAMMediaTypeStream.GetStreamAllocatorRequirements, IAMMediaTypeStream, IAMMediaTypeStream interface [DirectShow], GetStreamAllocatorRequirements method, IAMMediaTypeStream::GetStreamAllocatorRequirements, IAMMediaTypeStreamGetStreamAllocatorRequirements, amstream/IAMMediaTypeStream::GetStreamAllocatorRequirements, dshow.iammediatypestream_getstreamallocatorrequirements
+ms.date: 4/30/2018
+ms.keywords: GetStreamAllocatorRequirements, GetStreamAllocatorRequirements method [DirectShow], GetStreamAllocatorRequirements method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],GetStreamAllocatorRequirements method, IAMMediaTypeStream.GetStreamAllocatorRequirements, IAMMediaTypeStream::GetStreamAllocatorRequirements, IAMMediaTypeStreamGetStreamAllocatorRequirements, amstream/IAMMediaTypeStream::GetStreamAllocatorRequirements, dshow.iammediatypestream_getstreamallocatorrequirements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaTypeStream::GetStreamAllocatorRequirements method
+# IAMMediaTypeStream::GetStreamAllocatorRequirements
 
 
 ## -description

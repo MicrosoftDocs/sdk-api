@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 21857592-0f98-4eb4-a153-4ce20edf26c7
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IForegroundTransfer, IForegroundTransfer interface [COM], IForegroundTransfer interface [COM], described, _com_iforegroundtransfer, com.iforegroundtransfer, objidl/IForegroundTransfer
+ms.keywords: IForegroundTransfer, IForegroundTransfer interface [COM], IForegroundTransfer interface [COM],described, _com_iforegroundtransfer, com.iforegroundtransfer, objidl/IForegroundTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

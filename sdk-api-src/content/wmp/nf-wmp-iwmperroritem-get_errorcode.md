@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_errorCode
-title: IWMPErrorItem::get_errorCode method
+title: IWMPErrorItem::get_errorCode
 author: windows-driver-content
 description: The get_errorCode method retrieves the current error code.
 old-location: wmp\iwmperroritem_get_errorcode.htm
 old-project: WMP
 ms.assetid: e809a1bf-1c7e-4006-9d27-e9921f2f14b2
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], get_errorCode method, IWMPErrorItem::get_errorCode, IWMPErrorItemget_errorCode, get_errorCode method [Windows Media Player], get_errorCode method [Windows Media Player], IWMPErrorItem interface, get_errorCode,IWMPErrorItem.get_errorCode, wmp.iwmperroritem_get_errorcode, wmp/IWMPErrorItem::get_errorCode
+ms.date: 5/4/2018
+ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorCode method, IWMPErrorItem.get_errorCode, IWMPErrorItem::get_errorCode, IWMPErrorItemget_errorCode, get_errorCode, get_errorCode method [Windows Media Player], get_errorCode method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errorcode, wmp/IWMPErrorItem::get_errorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPErrorItem::get_errorCode method
+# IWMPErrorItem::get_errorCode
 
 
 ## -description

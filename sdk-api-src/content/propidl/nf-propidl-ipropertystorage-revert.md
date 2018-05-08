@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertyStorage.Revert
-title: IPropertyStorage::Revert method
+title: IPropertyStorage::Revert
 author: windows-driver-content
 description: The Revert method discards all changes to the named property set since it was last opened or discards changes that were last committed to the property set. This method has no effect on a direct-mode property set.
 old-location: stg\ipropertystorage_revert.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 31e0d3e7-8575-4788-b42e-606221cf5a4c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], Revert method, IPropertyStorage::Revert, Revert method [Structured Storage], Revert method [Structured Storage], IPropertyStorage interface, Revert,IPropertyStorage.Revert, _stg_ipropertystorage_revert, propidl/IPropertyStorage::Revert, stg.ipropertystorage_revert
+ms.keywords: IPropertyStorage interface [Structured Storage],Revert method, IPropertyStorage.Revert, IPropertyStorage::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_revert, propidl/IPropertyStorage::Revert, stg.ipropertystorage_revert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyStorage::Revert method
+# IPropertyStorage::Revert
 
 
 ## -description

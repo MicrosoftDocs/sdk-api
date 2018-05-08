@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 37d33f27-a811-4c97-bc80-ff8a5b8fcb7c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ItsPubPlugin, ItsPubPlugin interface [Remote Desktop Services], ItsPubPlugin interface [Remote Desktop Services], described, termserv.itspubplugin, tspubplugincom/ItsPubPlugin
+ms.keywords: ItsPubPlugin, ItsPubPlugin interface [Remote Desktop Services], ItsPubPlugin interface [Remote Desktop Services],described, termserv.itspubplugin, tspubplugincom/ItsPubPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

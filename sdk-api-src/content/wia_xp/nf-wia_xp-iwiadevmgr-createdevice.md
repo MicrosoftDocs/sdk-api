@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.CreateDevice
-title: IWiaDevMgr::CreateDevice method
+title: IWiaDevMgr::CreateDevice
 author: windows-driver-content
 description: The IWiaDevMgr::CreateDevice creates a hierarchical tree of IWiaItem objects for a Windows Image Acquisition (WIA) device.
 old-location: wia\_wia_IWiaDevMgr_CreateDevice.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\createdevice.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: CreateDevice method [WIA], CreateDevice method [WIA], IWiaDevMgr interface, CreateDevice,IWiaDevMgr.CreateDevice, IWiaDevMgr, IWiaDevMgr interface [WIA], CreateDevice method, IWiaDevMgr::CreateDevice, _wia_IWiaDevMgr_CreateDevice, wia._wia_IWiaDevMgr_CreateDevice, wia_xp/IWiaDevMgr::CreateDevice
+ms.date: 5/3/2018
+ms.keywords: CreateDevice, CreateDevice method [WIA], CreateDevice method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],CreateDevice method, IWiaDevMgr.CreateDevice, IWiaDevMgr::CreateDevice, _wia_IWiaDevMgr_CreateDevice, wia._wia_IWiaDevMgr_CreateDevice, wia_xp/IWiaDevMgr::CreateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaDevMgr::CreateDevice method
+# IWiaDevMgr::CreateDevice
 
 
 ## -description

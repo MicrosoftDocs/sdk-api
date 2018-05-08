@@ -1,14 +1,14 @@
 ---
 UID: NF:qmgr.IBackgroundCopyQMgr.GetGroup
-title: IBackgroundCopyQMgr::GetGroup method
+title: IBackgroundCopyQMgr::GetGroup
 author: windows-driver-content
 description: Use the GetGroup method to retrieve a group from the download queue.
 old-location: bits\ibackgroundcopyqmgr_getgroup.htm
 old-project: Bits
 ms.assetid: 36836fe5-4858-4c6e-8ce8-1bb71c8e9f5a
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetGroup method [BITS], GetGroup method [BITS], IBackgroundCopyQMgr interface, GetGroup,IBackgroundCopyQMgr.GetGroup, IBackgroundCopyQMgr, IBackgroundCopyQMgr interface [BITS], GetGroup method, IBackgroundCopyQMgr::GetGroup, bits.ibackgroundcopyqmgr_getgroup, qmgr/IBackgroundCopyQMgr::GetGroup
+ms.date: 4/27/2018
+ms.keywords: GetGroup, GetGroup method [BITS], GetGroup method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],GetGroup method, IBackgroundCopyQMgr.GetGroup, IBackgroundCopyQMgr::GetGroup, bits.ibackgroundcopyqmgr_getgroup, qmgr/IBackgroundCopyQMgr::GetGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBackgroundCopyQMgr::GetGroup method
+# IBackgroundCopyQMgr::GetGroup
 
 
 ## -description

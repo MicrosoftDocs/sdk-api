@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.GetErrorInfo
-title: IWSDEndpointProxy::GetErrorInfo method
+title: IWSDEndpointProxy::GetErrorInfo
 author: windows-driver-content
 description: Retrieves information on the last error.
 old-location: ncd\iwsdendpointproxy_geterrorinfo.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 950f5634-1cc5-4981-9053-e9090374cc5e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetErrorInfo method, GetErrorInfo method, IWSDEndpointProxy interface, GetErrorInfo,IWSDEndpointProxy.GetErrorInfo, IWSDEndpointProxy, IWSDEndpointProxy interface, GetErrorInfo method, IWSDEndpointProxy::GetErrorInfo, ncd.iwsdendpointproxy_geterrorinfo, wsdclient/IWSDEndpointProxy::GetErrorInfo
+ms.keywords: GetErrorInfo, GetErrorInfo method, GetErrorInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetErrorInfo method, IWSDEndpointProxy.GetErrorInfo, IWSDEndpointProxy::GetErrorInfo, ncd.iwsdendpointproxy_geterrorinfo, wsdclient/IWSDEndpointProxy::GetErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDEndpointProxy::GetErrorInfo method
+# IWSDEndpointProxy::GetErrorInfo
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.GetOption
-title: IMetaDataDispenserEx::GetOption method
+title: IMetaDataDispenserEx::GetOption
 author: windows-driver-content
 description: Gets the value of the specified option for the current metadata scope. The option controls how calls to the current metadata scope are handled.
 old-location: winrt\imetadatadispenserex_getoption.htm
 old-project: WinRT
 ms.assetid: 862948bd-6fce-4af9-9c68-1d3291e13053
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetOption method [Windows Runtime], GetOption method [Windows Runtime], IMetaDataDispenserEx interface, GetOption,IMetaDataDispenserEx.GetOption, IMetaDataDispenserEx, IMetaDataDispenserEx interface [Windows Runtime], GetOption method, IMetaDataDispenserEx::GetOption, rometadataapi/IMetaDataDispenserEx::GetOption, winrt.imetadatadispenserex_getoption
+ms.date: 5/4/2018
+ms.keywords: GetOption, GetOption method [Windows Runtime], GetOption method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],GetOption method, IMetaDataDispenserEx.GetOption, IMetaDataDispenserEx::GetOption, rometadataapi/IMetaDataDispenserEx::GetOption, winrt.imetadatadispenserex_getoption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataDispenserEx::GetOption method
+# IMetaDataDispenserEx::GetOption
 
 
 ## -description

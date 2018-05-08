@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingActivity.SetRelatedActivityId
-title: TraceLoggingActivity::SetRelatedActivityId method
+title: TraceLoggingActivity::SetRelatedActivityId
 author: windows-driver-content
 description: Uses the unique identifier of an activity to set the related activity for this TraceLoggingActivity object.
 old-location: tracelogging\traceloggingactivity_setrelatedactivityid.htm
@@ -8,7 +8,7 @@ old-project: tracelogging
 ms.assetid: 3FA5E266-A921-42A8-B880-AC8748180E1B
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: SetRelatedActivityId method, SetRelatedActivityId method, TraceLoggingActivity interface, SetRelatedActivityId,TraceLoggingActivity.SetRelatedActivityId, TraceLoggingActivity, TraceLoggingActivity interface, SetRelatedActivityId method, TraceLoggingActivity::SetRelatedActivityId, tracelogging.traceloggingactivity_setrelatedactivityid, traceloggingactivity/TraceLoggingActivity::SetRelatedActivityId
+ms.keywords: SetRelatedActivityId, SetRelatedActivityId method, SetRelatedActivityId method,TraceLoggingActivity interface, TraceLoggingActivity interface,SetRelatedActivityId method, TraceLoggingActivity.SetRelatedActivityId, TraceLoggingActivity::SetRelatedActivityId, tracelogging.traceloggingactivity_setrelatedactivityid, traceloggingactivity/TraceLoggingActivity::SetRelatedActivityId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# TraceLoggingActivity::SetRelatedActivityId method
+# TraceLoggingActivity::SetRelatedActivityId
 
 
 ## -description

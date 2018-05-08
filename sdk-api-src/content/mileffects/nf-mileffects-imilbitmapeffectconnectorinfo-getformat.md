@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectorInfo.GetFormat
-title: IMILBitmapEffectConnectorInfo::GetFormat method
+title: IMILBitmapEffectConnectorInfo::GetFormat
 author: windows-driver-content
 description: Retrieves the pixel format for the given pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getformat.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\getformat.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetFormat method [WPF Bitmap Effects], GetFormat method [WPF Bitmap Effects], IMILBitmapEffectConnectorInfo interface, GetFormat,IMILBitmapEffectConnectorInfo.GetFormat, IMILBitmapEffectConnectorInfo, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects], GetFormat method, IMILBitmapEffectConnectorInfo::GetFormat, _wibe_imilbitmapeffectconnectorinfo_getformat, mileffects/IMILBitmapEffectConnectorInfo::GetFormat, wibe._wibe_imilbitmapeffectconnectorinfo_getformat
+ms.keywords: GetFormat, GetFormat method [WPF Bitmap Effects], GetFormat method [WPF Bitmap Effects],IMILBitmapEffectConnectorInfo interface, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects],GetFormat method, IMILBitmapEffectConnectorInfo.GetFormat, IMILBitmapEffectConnectorInfo::GetFormat, _wibe_imilbitmapeffectconnectorinfo_getformat, mileffects/IMILBitmapEffectConnectorInfo::GetFormat, wibe._wibe_imilbitmapeffectconnectorinfo_getformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectConnectorInfo::GetFormat method
+# IMILBitmapEffectConnectorInfo::GetFormat
 
 
 ## -description

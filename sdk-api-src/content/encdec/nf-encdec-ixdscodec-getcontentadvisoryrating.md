@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IXDSCodec.GetContentAdvisoryRating
-title: IXDSCodec::GetContentAdvisoryRating method
+title: IXDSCodec::GetContentAdvisoryRating
 author: windows-driver-content
 description: The GetContentAdvisoryRating method retrieves the most recent ratings information parsed by the XDSToRat object.
 old-location: mstv\ixdscodec_getcontentadvisoryrating.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 725e444c-ecf4-49da-a800-cc3faf627eea
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetContentAdvisoryRating method [Microsoft TV Technologies], GetContentAdvisoryRating method [Microsoft TV Technologies], IXDSCodec interface, GetContentAdvisoryRating,IXDSCodec.GetContentAdvisoryRating, IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], GetContentAdvisoryRating method, IXDSCodec::GetContentAdvisoryRating, IXDSCodecGetContentAdvisoryRating, encdec/IXDSCodec::GetContentAdvisoryRating, mstv.ixdscodec_getcontentadvisoryrating
+ms.keywords: GetContentAdvisoryRating, GetContentAdvisoryRating method [Microsoft TV Technologies], GetContentAdvisoryRating method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetContentAdvisoryRating method, IXDSCodec.GetContentAdvisoryRating, IXDSCodec::GetContentAdvisoryRating, IXDSCodecGetContentAdvisoryRating, encdec/IXDSCodec::GetContentAdvisoryRating, mstv.ixdscodec_getcontentadvisoryrating
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IXDSCodec::GetContentAdvisoryRating method
+# IXDSCodec::GetContentAdvisoryRating
 
 
 ## -description

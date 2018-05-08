@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.OnFrameWindowActivate
-title: IOleInPlaceActiveObject::OnFrameWindowActivate method
+title: IOleInPlaceActiveObject::OnFrameWindowActivate
 author: windows-driver-content
 description: Notifies the object when the container's top-level frame window is activated or deactivated.
 old-location: com\ioleinplaceactiveobject_onframewindowactivate.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 6534ea03-5f1b-4d3e-b6d8-b8d478a0a144
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceActiveObject, IOleInPlaceActiveObject interface [COM], OnFrameWindowActivate method, IOleInPlaceActiveObject::OnFrameWindowActivate, OnFrameWindowActivate method [COM], OnFrameWindowActivate method [COM], IOleInPlaceActiveObject interface, OnFrameWindowActivate,IOleInPlaceActiveObject.OnFrameWindowActivate, _ole_ioleinplaceactiveobject_onframewindowactivate, com.ioleinplaceactiveobject_onframewindowactivate, oleidl/IOleInPlaceActiveObject::OnFrameWindowActivate
+ms.keywords: IOleInPlaceActiveObject interface [COM],OnFrameWindowActivate method, IOleInPlaceActiveObject.OnFrameWindowActivate, IOleInPlaceActiveObject::OnFrameWindowActivate, OnFrameWindowActivate, OnFrameWindowActivate method [COM], OnFrameWindowActivate method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_onframewindowactivate, com.ioleinplaceactiveobject_onframewindowactivate, oleidl/IOleInPlaceActiveObject::OnFrameWindowActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceActiveObject::OnFrameWindowActivate method
+# IOleInPlaceActiveObject::OnFrameWindowActivate
 
 
 ## -description

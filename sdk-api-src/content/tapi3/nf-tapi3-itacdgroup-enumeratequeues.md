@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITACDGroup.EnumerateQueues
-title: ITACDGroup::EnumerateQueues method
+title: ITACDGroup::EnumerateQueues
 author: windows-driver-content
 description: The EnumerateQueues method enumerates queues currently on the ACD group. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Queues method.
 old-location: tapi3\itacdgroup_enumeratequeues.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 1d9e0dcf-ce43-494f-8adc-845d2856bdd1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: EnumerateQueues method [TAPI 2.2], EnumerateQueues method [TAPI 2.2], ITACDGroup interface, EnumerateQueues,ITACDGroup.EnumerateQueues, ITACDGroup, ITACDGroup interface [TAPI 2.2], EnumerateQueues method, ITACDGroup::EnumerateQueues, _tapi3_itacdgroup_enumeratequeues, tapi3.itacdgroup_enumeratequeues, tapi3cc/ITACDGroup::EnumerateQueues
+ms.keywords: EnumerateQueues, EnumerateQueues method [TAPI 2.2], EnumerateQueues method [TAPI 2.2],ITACDGroup interface, ITACDGroup interface [TAPI 2.2],EnumerateQueues method, ITACDGroup.EnumerateQueues, ITACDGroup::EnumerateQueues, _tapi3_itacdgroup_enumeratequeues, tapi3.itacdgroup_enumeratequeues, tapi3cc/ITACDGroup::EnumerateQueues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITACDGroup::EnumerateQueues method
+# ITACDGroup::EnumerateQueues
 
 
 ## -description

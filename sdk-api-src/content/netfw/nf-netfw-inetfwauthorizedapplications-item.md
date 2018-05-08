@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.Item
-title: INetFwAuthorizedApplications::Item method
+title: INetFwAuthorizedApplications::Item
 author: windows-driver-content
 description: The Item method returns the specified application if it is in the collection.
 old-location: ics\inetfwauthorizedapplications_item.htm
 old-project: ICS
 ms.assetid: 3c9eac16-9ba5-43f6-b52e-4340598745d8
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwAuthorizedApplications, INetFwAuthorizedApplications interface [ICS/ICF], Item method, INetFwAuthorizedApplications::Item, Item method [ICS/ICF], Item method [ICS/ICF], INetFwAuthorizedApplications interface, Item,INetFwAuthorizedApplications.Item, ics.inetfwauthorizedapplications_item, netfw/INetFwAuthorizedApplications::Item
+ms.date: 5/1/2018
+ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Item method, INetFwAuthorizedApplications.Item, INetFwAuthorizedApplications::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_item, netfw/INetFwAuthorizedApplications::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwAuthorizedApplications::Item method
+# INetFwAuthorizedApplications::Item
 
 
 ## -description

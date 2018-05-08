@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetCreator
-title: IScheduledWorkItem::GetCreator method
+title: IScheduledWorkItem::GetCreator
 author: windows-driver-content
 description: Retrieves the name of the creator of the work item.
 old-location: taskschd\ischeduledworkitem_getcreator.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 25bbb200-3418-4ca9-87a5-5db537baceee
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetCreator method [Task Scheduler], GetCreator method [Task Scheduler], IScheduledWorkItem interface, GetCreator,IScheduledWorkItem.GetCreator, IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], GetCreator method, IScheduledWorkItem::GetCreator, _msb_ischeduledworkitem_getcreator, mstask/IScheduledWorkItem::GetCreator, taskschd.ischeduledworkitem_getcreator
+ms.keywords: GetCreator, GetCreator method [Task Scheduler], GetCreator method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetCreator method, IScheduledWorkItem.GetCreator, IScheduledWorkItem::GetCreator, _msb_ischeduledworkitem_getcreator, mstask/IScheduledWorkItem::GetCreator, taskschd.ischeduledworkitem_getcreator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::GetCreator method
+# IScheduledWorkItem::GetCreator
 
 
 ## -description

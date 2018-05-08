@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFStreamDescriptor.GetMediaTypeHandler
-title: IMFStreamDescriptor::GetMediaTypeHandler method
+title: IMFStreamDescriptor::GetMediaTypeHandler
 author: windows-driver-content
 description: Retrieves a media type handler for the stream. The media type handler can be used to enumerate supported media types for the stream, get the current media type, and set the media type.
 old-location: mf\imfstreamdescriptor_getmediatypehandler.htm
 old-project: medfound
 ms.assetid: 8e991417-fe15-4749-94c4-26c621692b52
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 8e991417-fe15-4749-94c4-26c621692b52, GetMediaTypeHandler method [Media Foundation], GetMediaTypeHandler method [Media Foundation], IMFStreamDescriptor interface, GetMediaTypeHandler,IMFStreamDescriptor.GetMediaTypeHandler, IMFStreamDescriptor, IMFStreamDescriptor interface [Media Foundation], GetMediaTypeHandler method, IMFStreamDescriptor::GetMediaTypeHandler, mf.imfstreamdescriptor_getmediatypehandler, mfidl/IMFStreamDescriptor::GetMediaTypeHandler
+ms.date: 5/3/2018
+ms.keywords: 8e991417-fe15-4749-94c4-26c621692b52, GetMediaTypeHandler, GetMediaTypeHandler method [Media Foundation], GetMediaTypeHandler method [Media Foundation],IMFStreamDescriptor interface, IMFStreamDescriptor interface [Media Foundation],GetMediaTypeHandler method, IMFStreamDescriptor.GetMediaTypeHandler, IMFStreamDescriptor::GetMediaTypeHandler, mf.imfstreamdescriptor_getmediatypehandler, mfidl/IMFStreamDescriptor::GetMediaTypeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFStreamDescriptor::GetMediaTypeHandler method
+# IMFStreamDescriptor::GetMediaTypeHandler
 
 
 ## -description

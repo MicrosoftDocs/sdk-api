@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.put_MailTo
-title: IFsrmReportJob::put_MailTo method
+title: IFsrmReportJob::put_MailTo
 author: windows-driver-content
 description: Retrieves or sets the email addresses of those that will receive the reports via email.
 old-location: fsrm\ifsrmreportjob_mailto.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 8ec5d65a-9729-4d68-bceb-b07a2f56755e
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], MailTo property, IFsrmReportJob.MailTo, IFsrmReportJob::get_MailTo, IFsrmReportJob::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager], IFsrmReportJob interface, fs.ifsrmreportjob_mailto, fsrm.ifsrmreportjob_mailto, fsrmreports/IFsrmReportJob::MailTo, fsrmreports/IFsrmReportJob::get_MailTo, fsrmreports/IFsrmReportJob::put_MailTo, put_MailTo,IFsrmReportJob.put_MailTo
+ms.keywords: IFsrmReportJob interface [File Server Resource Manager],MailTo property, IFsrmReportJob.MailTo, IFsrmReportJob.put_MailTo, IFsrmReportJob::MailTo, IFsrmReportJob::get_MailTo, IFsrmReportJob::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_mailto, fsrm.ifsrmreportjob_mailto, fsrmreports/IFsrmReportJob::MailTo, fsrmreports/IFsrmReportJob::get_MailTo, fsrmreports/IFsrmReportJob::put_MailTo, put_MailTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReportJob::put_MailTo method
+# IFsrmReportJob::put_MailTo
 
 
 ## -description

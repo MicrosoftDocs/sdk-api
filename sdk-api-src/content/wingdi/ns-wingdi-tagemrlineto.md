@@ -8,7 +8,7 @@ old-project: gdi
 ms.assetid: 876db90d-3775-48e8-8911-e6612a3484ae
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: "*PEMRLINETO, *PEMRMOVETOEX, EMRLINETO, EMRLINETO structure [Windows GDI], EMRLINETO, EMRMOVETOEX, EMRLINETO, EMRMOVETOEX structure [Windows GDI], EMRMOVETOEX, EMRMOVETOEX structure [Windows GDI], PEMRLINETO, PEMRLINETO structure pointer [Windows GDI], PEMRMOVETOEX, PEMRMOVETOEX structure pointer [Windows GDI], _win32_EMRLINETO_str, gdi.emrlineto__emrmovetoex, tagEMRLINETO, wingdi/EMRLINETO, EMRMOVETOEX, wingdi/EMRMOVETOEX, wingdi/PEMRLINETO, wingdi/PEMRMOVETOEX"
+ms.keywords: "*PEMRLINETO, *PEMRMOVETOEX, EMRLINETO, EMRLINETO structure [Windows GDI], EMRLINETO,EMRMOVETOEX, EMRLINETO,EMRMOVETOEX structure [Windows GDI], EMRMOVETOEX, EMRMOVETOEX structure [Windows GDI], PEMRLINETO, PEMRLINETO structure pointer [Windows GDI], PEMRMOVETOEX, PEMRMOVETOEX structure pointer [Windows GDI], _win32_EMRLINETO_str, gdi.emrlineto__emrmovetoex, tagEMRLINETO, wingdi/EMRLINETO,EMRMOVETOEX, wingdi/EMRMOVETOEX, wingdi/PEMRLINETO, wingdi/PEMRMOVETOEX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

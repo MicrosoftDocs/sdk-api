@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetFinalIntegerValue
-title: IUIAnimationVariable::GetFinalIntegerValue method
+title: IUIAnimationVariable::GetFinalIntegerValue
 author: windows-driver-content
 description: Gets the final value of the animation variable as an integer. This is the value after all currently scheduled animations have completed.
 old-location: uianimation\iuianimationvariable_getfinalintegervalue.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 19d71abc-e3f8-48d4-9ceb-5920dcc9c007
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetFinalIntegerValue method [Windows Animation], GetFinalIntegerValue method [Windows Animation], IUIAnimationVariable interface, GetFinalIntegerValue,IUIAnimationVariable.GetFinalIntegerValue, IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], GetFinalIntegerValue method, IUIAnimationVariable::GetFinalIntegerValue, uianimation.iuianimationvariable_getfinalintegervalue, uianimation/IUIAnimationVariable::GetFinalIntegerValue
+ms.keywords: GetFinalIntegerValue, GetFinalIntegerValue method [Windows Animation], GetFinalIntegerValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetFinalIntegerValue method, IUIAnimationVariable.GetFinalIntegerValue, IUIAnimationVariable::GetFinalIntegerValue, uianimation.iuianimationvariable_getfinalintegervalue, uianimation/IUIAnimationVariable::GetFinalIntegerValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable::GetFinalIntegerValue method
+# IUIAnimationVariable::GetFinalIntegerValue
 
 
 ## -description

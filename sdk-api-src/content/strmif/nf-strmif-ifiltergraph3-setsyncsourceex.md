@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterGraph3.SetSyncSourceEx
-title: IFilterGraph3::SetSyncSourceEx method
+title: IFilterGraph3::SetSyncSourceEx
 author: windows-driver-content
 description: The SetSyncSourceEx method establishes two reference clocks for the filter graph:\_a primary clock that is used by most of the filters, and a secondary clock that is used only by one specified filter.
 old-location: dshow\ifiltergraph3_setsyncsourceex.htm
 old-project: DirectShow
 ms.assetid: 153a0584-d613-499d-8dbb-c4207c7f60b3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFilterGraph3, IFilterGraph3 interface [DirectShow], SetSyncSourceEx method, IFilterGraph3::SetSyncSourceEx, IFilterGraph3SetSyncSourceEx, SetSyncSourceEx method [DirectShow], SetSyncSourceEx method [DirectShow], IFilterGraph3 interface, SetSyncSourceEx,IFilterGraph3.SetSyncSourceEx, dshow.ifiltergraph3_setsyncsourceex, strmif/IFilterGraph3::SetSyncSourceEx
+ms.date: 4/30/2018
+ms.keywords: IFilterGraph3 interface [DirectShow],SetSyncSourceEx method, IFilterGraph3.SetSyncSourceEx, IFilterGraph3::SetSyncSourceEx, IFilterGraph3SetSyncSourceEx, SetSyncSourceEx, SetSyncSourceEx method [DirectShow], SetSyncSourceEx method [DirectShow],IFilterGraph3 interface, dshow.ifiltergraph3_setsyncsourceex, strmif/IFilterGraph3::SetSyncSourceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterGraph3::SetSyncSourceEx method
+# IFilterGraph3::SetSyncSourceEx
 
 
 ## -description

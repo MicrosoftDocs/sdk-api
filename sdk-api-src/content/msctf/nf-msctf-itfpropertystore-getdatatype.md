@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.GetDataType
-title: ITfPropertyStore::GetDataType method
+title: ITfPropertyStore::GetDataType
 author: windows-driver-content
 description: ITfPropertyStore::GetDataType method
 old-location: tsf\itfpropertystore_getdatatype.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 700c704f-d336-443d-825b-cb376bba966c
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetDataType method [Text Services Framework], GetDataType method [Text Services Framework], ITfPropertyStore interface, GetDataType,ITfPropertyStore.GetDataType, ITfPropertyStore, ITfPropertyStore interface [Text Services Framework], GetDataType method, ITfPropertyStore::GetDataType, _tsf_itfpropertystore_getdatatype_ref, msctf/ITfPropertyStore::GetDataType, tsf.itfpropertystore_getdatatype
+ms.keywords: GetDataType, GetDataType method [Text Services Framework], GetDataType method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],GetDataType method, ITfPropertyStore.GetDataType, ITfPropertyStore::GetDataType, _tsf_itfpropertystore_getdatatype_ref, msctf/ITfPropertyStore::GetDataType, tsf.itfpropertystore_getdatatype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfPropertyStore::GetDataType method
+# ITfPropertyStore::GetDataType
 
 
 ## -description

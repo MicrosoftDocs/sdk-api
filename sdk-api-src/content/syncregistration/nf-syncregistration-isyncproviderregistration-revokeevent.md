@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.RevokeEvent
-title: ISyncProviderRegistration::RevokeEvent method
+title: ISyncProviderRegistration::RevokeEvent
 author: windows-driver-content
 description: Unregisters the user from the notification of the arrival of new registration events.
 old-location: winsync\isyncproviderregistration_revokeevent.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: fcc4901a-1507-461e-bbcc-a9e440ec05ce
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncProviderRegistration, ISyncProviderRegistration interface [Windows Sync], RevokeEvent method, ISyncProviderRegistration::RevokeEvent, RevokeEvent method [Windows Sync], RevokeEvent method [Windows Sync], ISyncProviderRegistration interface, RevokeEvent,ISyncProviderRegistration.RevokeEvent, syncregistration/ISyncProviderRegistration::RevokeEvent, winsync.isyncproviderregistration_revokeevent
+ms.keywords: ISyncProviderRegistration interface [Windows Sync],RevokeEvent method, ISyncProviderRegistration.RevokeEvent, ISyncProviderRegistration::RevokeEvent, RevokeEvent, RevokeEvent method [Windows Sync], RevokeEvent method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::RevokeEvent, winsync.isyncproviderregistration_revokeevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderRegistration::RevokeEvent method
+# ISyncProviderRegistration::RevokeEvent
 
 
 ## -description

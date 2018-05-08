@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtinqserverprincname.htm
 old-project: Rpc
 ms.assetid: 2666adb4-8a89-480e-8855-9179a7128e35
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcMgmtInqServerPrincName, RpcMgmtInqServerPrincName function [RPC], RpcMgmtInqServerPrincNameA, RpcMgmtInqServerPrincNameW, _rpc_rpcmgmtinqserverprincname, rpc.rpcmgmtinqserverprincname, rpcdce/RpcMgmtInqServerPrincName, rpcdce/RpcMgmtInqServerPrincNameA, rpcdce/RpcMgmtInqServerPrincNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

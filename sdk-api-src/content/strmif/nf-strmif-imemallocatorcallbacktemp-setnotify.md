@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMemAllocatorCallbackTemp.SetNotify
-title: IMemAllocatorCallbackTemp::SetNotify method
+title: IMemAllocatorCallbackTemp::SetNotify
 author: windows-driver-content
 description: The SetNotify method sets or removes a callback on the allocator. The allocator calls the callback method whenever the allocator's IMemAllocator::ReleaseBuffer method is called.
 old-location: dshow\imemallocatorcallbacktemp_setnotify.htm
 old-project: DirectShow
 ms.assetid: 70e885d6-8b8d-479f-a3c5-095446dfc58e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMemAllocatorCallbackTemp, IMemAllocatorCallbackTemp interface [DirectShow], SetNotify method, IMemAllocatorCallbackTemp::SetNotify, IMemAllocatorCallbackTempSetNotify, SetNotify method [DirectShow], SetNotify method [DirectShow], IMemAllocatorCallbackTemp interface, SetNotify,IMemAllocatorCallbackTemp.SetNotify, dshow.imemallocatorcallbacktemp_setnotify, strmif/IMemAllocatorCallbackTemp::SetNotify
+ms.date: 4/30/2018
+ms.keywords: IMemAllocatorCallbackTemp interface [DirectShow],SetNotify method, IMemAllocatorCallbackTemp.SetNotify, IMemAllocatorCallbackTemp::SetNotify, IMemAllocatorCallbackTempSetNotify, SetNotify, SetNotify method [DirectShow], SetNotify method [DirectShow],IMemAllocatorCallbackTemp interface, dshow.imemallocatorcallbacktemp_setnotify, strmif/IMemAllocatorCallbackTemp::SetNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMemAllocatorCallbackTemp::SetNotify method
+# IMemAllocatorCallbackTemp::SetNotify
 
 
 ## -description

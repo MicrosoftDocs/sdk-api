@@ -1,14 +1,14 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObj.GetPageCounts
-title: IDsAdminNewObj::GetPageCounts method
+title: IDsAdminNewObj::GetPageCounts
 author: windows-driver-content
 description: The IDsAdminNewObj::GetPageCounts method obtains the total number of pages in the wizard as well as the index of the first page of the extension.
 old-location: ad\idsadminnewobj_getpagecounts.htm
 old-project: AD
 ms.assetid: babc5baf-33d6-47e9-a99e-81ed339f71d6
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetPageCounts method [Active Directory], GetPageCounts method [Active Directory], IDsAdminNewObj interface, GetPageCounts,IDsAdminNewObj.GetPageCounts, IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], GetPageCounts method, IDsAdminNewObj::GetPageCounts, _glines_idsadminnewobj_getpagecounts, ad.idsadminnewobj__getpagecounts, ad.idsadminnewobj_getpagecounts, dsadmin/IDsAdminNewObj::GetPageCounts
+ms.date: 5/1/2018
+ms.keywords: GetPageCounts, GetPageCounts method [Active Directory], GetPageCounts method [Active Directory],IDsAdminNewObj interface, IDsAdminNewObj interface [Active Directory],GetPageCounts method, IDsAdminNewObj.GetPageCounts, IDsAdminNewObj::GetPageCounts, _glines_idsadminnewobj_getpagecounts, ad.idsadminnewobj__getpagecounts, ad.idsadminnewobj_getpagecounts, dsadmin/IDsAdminNewObj::GetPageCounts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: DSAdmin.dll
 req.irql: 
 ---
 
-# IDsAdminNewObj::GetPageCounts method
+# IDsAdminNewObj::GetPageCounts
 
 
 ## -description

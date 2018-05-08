@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CachedAnnotationTypes
-title: IUIAutomationElement4::get_CachedAnnotationTypes method
+title: IUIAutomationElement4::get_CachedAnnotationTypes
 author: windows-driver-content
 description: Returns the cached list of annotation types associated with this element, such as comment, header, footer, and so on.
 old-location: winauto\uiauto_IUIAutomationElement4_CachedAnnotationTypes.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 1F3E9CD4-8E4A-47B0-BDEA-A869735B2538
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedAnnotationTypes property [Windows Accessibility], CachedAnnotationTypes property [Windows Accessibility], IUIAutomationElement4 interface, IUIAutomationElement4, IUIAutomationElement4 interface [Windows Accessibility], CachedAnnotationTypes property, IUIAutomationElement4.CachedAnnotationTypes, IUIAutomationElement4::get_CachedAnnotationTypes, get_CachedAnnotationTypes,IUIAutomationElement4.get_CachedAnnotationTypes, uiautomationclient/IUIAutomationElement4::CachedAnnotationTypes, uiautomationclient/IUIAutomationElement4::get_CachedAnnotationTypes, winauto.uiauto_IUIAutomationElement4_CachedAnnotationTypes
+ms.keywords: CachedAnnotationTypes property [Windows Accessibility], CachedAnnotationTypes property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedAnnotationTypes property, IUIAutomationElement4.CachedAnnotationTypes, IUIAutomationElement4.get_CachedAnnotationTypes, IUIAutomationElement4::CachedAnnotationTypes, IUIAutomationElement4::get_CachedAnnotationTypes, get_CachedAnnotationTypes, uiautomationclient/IUIAutomationElement4::CachedAnnotationTypes, uiautomationclient/IUIAutomationElement4::get_CachedAnnotationTypes, winauto.uiauto_IUIAutomationElement4_CachedAnnotationTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement4::get_CachedAnnotationTypes method
+# IUIAutomationElement4::get_CachedAnnotationTypes
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectId.get_FriendlyName
-title: IObjectId::get_FriendlyName method
+title: IObjectId::get_FriendlyName
 author: windows-driver-content
 description: Specifies and retrieves a display name for the object identifier.
 old-location: security\iobjectid_friendlyname_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 9360f652-afeb-4f30-a423-402f397b9255
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: FriendlyName property [Security], FriendlyName property [Security], IObjectId interface, IObjectId, IObjectId interface [Security], FriendlyName property, IObjectId.FriendlyName, IObjectId::get_FriendlyName, IObjectId::put_FriendlyName, certenroll/IObjectId::FriendlyName, certenroll/IObjectId::get_FriendlyName, certenroll/IObjectId::put_FriendlyName, get_FriendlyName,IObjectId.get_FriendlyName, security.iobjectid_friendlyname_property
+ms.keywords: FriendlyName property [Security], FriendlyName property [Security],IObjectId interface, IObjectId interface [Security],FriendlyName property, IObjectId.FriendlyName, IObjectId.get_FriendlyName, IObjectId::FriendlyName, IObjectId::get_FriendlyName, IObjectId::put_FriendlyName, certenroll/IObjectId::FriendlyName, certenroll/IObjectId::get_FriendlyName, certenroll/IObjectId::put_FriendlyName, get_FriendlyName, security.iobjectid_friendlyname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IObjectId::get_FriendlyName method
+# IObjectId::get_FriendlyName
 
 
 ## -description

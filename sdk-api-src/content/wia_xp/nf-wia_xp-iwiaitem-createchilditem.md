@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaItem.CreateChildItem
-title: IWiaItem::CreateChildItem method
+title: IWiaItem::CreateChildItem
 author: windows-driver-content
 description: The IWiaItem::CreateChildItem method is used by applications to add IWiaItem objects to the IWiaItem tree of a device.
 old-location: wia\_wia_IWiaItem_CreateChildItem.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\createchilditem.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: CreateChildItem method [WIA], CreateChildItem method [WIA], IWiaItem interface, CreateChildItem,IWiaItem.CreateChildItem, IWiaItem, IWiaItem interface [WIA], CreateChildItem method, IWiaItem::CreateChildItem, _wia_IWiaItem_CreateChildItem, wia._wia_IWiaItem_CreateChildItem, wia_xp/IWiaItem::CreateChildItem
+ms.date: 5/3/2018
+ms.keywords: CreateChildItem, CreateChildItem method [WIA], CreateChildItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],CreateChildItem method, IWiaItem.CreateChildItem, IWiaItem::CreateChildItem, _wia_IWiaItem_CreateChildItem, wia._wia_IWiaItem_CreateChildItem, wia_xp/IWiaItem::CreateChildItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaItem::CreateChildItem method
+# IWiaItem::CreateChildItem
 
 
 ## -description

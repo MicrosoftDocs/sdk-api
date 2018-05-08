@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.SetActiveObject
-title: IOleInPlaceUIWindow::SetActiveObject method
+title: IOleInPlaceUIWindow::SetActiveObject
 author: windows-driver-content
 description: Provides a direct channel of communication between the object and each of the frame and document windows.
 old-location: com\ioleinplaceuiwindow_setactiveobject.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 6ed1b09a-44e4-41dc-aa35-27efb3df66d6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceUIWindow, IOleInPlaceUIWindow interface [COM], SetActiveObject method, IOleInPlaceUIWindow::SetActiveObject, SetActiveObject method [COM], SetActiveObject method [COM], IOleInPlaceUIWindow interface, SetActiveObject,IOleInPlaceUIWindow.SetActiveObject, _ole_ioleinplaceuiwindow_setactiveobject, com.ioleinplaceuiwindow_setactiveobject, oleidl/IOleInPlaceUIWindow::SetActiveObject
+ms.keywords: IOleInPlaceUIWindow interface [COM],SetActiveObject method, IOleInPlaceUIWindow.SetActiveObject, IOleInPlaceUIWindow::SetActiveObject, SetActiveObject, SetActiveObject method [COM], SetActiveObject method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_setactiveobject, com.ioleinplaceuiwindow_setactiveobject, oleidl/IOleInPlaceUIWindow::SetActiveObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceUIWindow::SetActiveObject method
+# IOleInPlaceUIWindow::SetActiveObject
 
 
 ## -description

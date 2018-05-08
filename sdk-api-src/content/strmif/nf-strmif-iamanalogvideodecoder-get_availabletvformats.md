@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.get_AvailableTVFormats
-title: IAMAnalogVideoDecoder::get_AvailableTVFormats method
+title: IAMAnalogVideoDecoder::get_AvailableTVFormats
 author: windows-driver-content
 description: The get_AvailableTVFormats method retrieves the analog video formats that the decoder supports.
 old-location: dshow\iamanalogvideodecoder_get_availabletvformats.htm
 old-project: DirectShow
 ms.assetid: 651f902f-de27-4185-b368-ce2cbf12cfae
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAnalogVideoDecoder, IAMAnalogVideoDecoder interface [DirectShow], get_AvailableTVFormats method, IAMAnalogVideoDecoder::get_AvailableTVFormats, IAMAnalogVideoDecoderget_AvailableTVFormats, dshow.iamanalogvideodecoder_get_availabletvformats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow], IAMAnalogVideoDecoder interface, get_AvailableTVFormats,IAMAnalogVideoDecoder.get_AvailableTVFormats, strmif/IAMAnalogVideoDecoder::get_AvailableTVFormats
+ms.date: 4/30/2018
+ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_AvailableTVFormats method, IAMAnalogVideoDecoder.get_AvailableTVFormats, IAMAnalogVideoDecoder::get_AvailableTVFormats, IAMAnalogVideoDecoderget_AvailableTVFormats, dshow.iamanalogvideodecoder_get_availabletvformats, get_AvailableTVFormats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_AvailableTVFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAnalogVideoDecoder::get_AvailableTVFormats method
+# IAMAnalogVideoDecoder::get_AvailableTVFormats
 
 
 ## -description

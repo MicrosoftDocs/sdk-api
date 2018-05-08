@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetLength
-title: IDvbTerrestrialDeliverySystemDescriptor::GetLength method
+title: IDvbTerrestrialDeliverySystemDescriptor::GetLength
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 14677ccd-fe8a-4d0f-9229-891bb0b5c35a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IDvbTerrestrialDeliverySystemDescriptor interface, GetLength,IDvbTerrestrialDeliverySystemDescriptor.GetLength, IDvbTerrestrialDeliverySystemDescriptor, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], GetLength method, IDvbTerrestrialDeliverySystemDescriptor::GetLength, IDvbTerrestrialDeliverySystemDescriptorGetLength, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetLength, mstv.idvbterrestrialdeliverysystemdescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbTerrestrialDeliverySystemDescriptor.GetLength, IDvbTerrestrialDeliverySystemDescriptor::GetLength, IDvbTerrestrialDeliverySystemDescriptorGetLength, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetLength, mstv.idvbterrestrialdeliverysystemdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbTerrestrialDeliverySystemDescriptor::GetLength method
+# IDvbTerrestrialDeliverySystemDescriptor::GetLength
 
 
 ## -description

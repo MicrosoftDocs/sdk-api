@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.SuspendKeystrokeHandling
-title: ITfThreadMgr2::SuspendKeystrokeHandling method
+title: ITfThreadMgr2::SuspendKeystrokeHandling
 author: windows-driver-content
 description: Suspends handling keystrokes.
 old-location: tsf\itfthreadmgr2_suspendkeystrokehandling.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 98E0D017-F0A2-4F80-9CD3-16D22170BFDF
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], SuspendKeystrokeHandling method, ITfThreadMgr2::SuspendKeystrokeHandling, SuspendKeystrokeHandling method [Text Services Framework], SuspendKeystrokeHandling method [Text Services Framework], ITfThreadMgr2 interface, SuspendKeystrokeHandling,ITfThreadMgr2.SuspendKeystrokeHandling, msctf/ITfThreadMgr2::SuspendKeystrokeHandling, tsf.itfthreadmgr2_suspendkeystrokehandling
+ms.keywords: ITfThreadMgr2 interface [Text Services Framework],SuspendKeystrokeHandling method, ITfThreadMgr2.SuspendKeystrokeHandling, ITfThreadMgr2::SuspendKeystrokeHandling, SuspendKeystrokeHandling, SuspendKeystrokeHandling method [Text Services Framework], SuspendKeystrokeHandling method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::SuspendKeystrokeHandling, tsf.itfthreadmgr2_suspendkeystrokehandling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr2::SuspendKeystrokeHandling method
+# ITfThreadMgr2::SuspendKeystrokeHandling
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetMGT
-title: IAtscPsipParser::GetMGT method
+title: IAtscPsipParser::GetMGT
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_getmgt.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: abdfb558-aab9-4929-822a-08b35235c22f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetMGT method [Microsoft TV Technologies], GetMGT method [Microsoft TV Technologies], IAtscPsipParser interface, GetMGT,IAtscPsipParser.GetMGT, IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], GetMGT method, IAtscPsipParser::GetMGT, IAtscPsipParserGetMGT, atscpsipparser/IAtscPsipParser::GetMGT, mstv.iatscpsipparser_getmgt
+ms.keywords: GetMGT, GetMGT method [Microsoft TV Technologies], GetMGT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetMGT method, IAtscPsipParser.GetMGT, IAtscPsipParser::GetMGT, IAtscPsipParserGetMGT, atscpsipparser/IAtscPsipParser::GetMGT, mstv.iatscpsipparser_getmgt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAtscPsipParser::GetMGT method
+# IAtscPsipParser::GetMGT
 
 
 ## -description

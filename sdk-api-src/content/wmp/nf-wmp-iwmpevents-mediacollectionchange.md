@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaCollectionChange
-title: IWMPEvents::MediaCollectionChange method
+title: IWMPEvents::MediaCollectionChange
 author: windows-driver-content
 description: The MediaCollectionChange event occurs when the media collection changes.
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionchange.htm
 old-project: WMP
 ms.assetid: 8de74905-a0be-46a7-8653-bb955c098257
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MediaCollectionChange method, IWMPEvents::MediaCollectionChange, IWMPEventsMediaCollectionChange, MediaCollectionChange method [Windows Media Player], MediaCollectionChange method [Windows Media Player], IWMPEvents interface, MediaCollectionChange,IWMPEvents.MediaCollectionChange, wmp.iwmpevents_iwmpevents__mediacollectionchange, wmp/IWMPEvents::MediaCollectionChange
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],MediaCollectionChange method, IWMPEvents.MediaCollectionChange, IWMPEvents::MediaCollectionChange, IWMPEventsMediaCollectionChange, MediaCollectionChange, MediaCollectionChange method [Windows Media Player], MediaCollectionChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediacollectionchange, wmp/IWMPEvents::MediaCollectionChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::MediaCollectionChange method
+# IWMPEvents::MediaCollectionChange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_JobId
-title: IFaxJob::get_JobId method
+title: IFaxJob::get_JobId
 author: windows-driver-content
 description: The JobId property is a number that uniquely identifies the specified fax job.
 old-location: fax\_mfax_ifaxjob_get_jobid_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0xwk.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxJob object [Fax Service], JobId property, IFaxJob, IFaxJob::get_JobId, JobId property [Fax Service], JobId property [Fax Service], FaxJob object, _mfax_ifaxjob_get_jobid, fax._mfax_ifaxjob_get_jobid, fax._mfax_ifaxjob_get_jobid_vb, get_JobId,IFaxJob.get_JobId
+ms.keywords: FaxJob object [Fax Service],JobId property, FaxJob.JobId, IFaxJob.get_JobId, IFaxJob::get_JobId, JobId property [Fax Service], JobId property [Fax Service],FaxJob object, _mfax_ifaxjob_get_jobid, fax._mfax_ifaxjob_get_jobid, fax._mfax_ifaxjob_get_jobid_vb, get_JobId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxJob::get_JobId method
+# IFaxJob::get_JobId
 
 
 ## -description

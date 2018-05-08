@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifySettingsChange
-title: IWRdsProtocolManager::NotifySettingsChange method
+title: IWRdsProtocolManager::NotifySettingsChange
 author: windows-driver-content
 description: Notifies the protocol provider of changes in the settings within the Remote Desktop Services service.
 old-location: termserv\iwrdsprotocolmanager_notifysettingschange.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 80292d9b-fced-4726-8f83-5ba355df06a2
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolManager, IWRdsProtocolManager interface [Remote Desktop Services], NotifySettingsChange method, IWRdsProtocolManager::NotifySettingsChange, NotifySettingsChange method [Remote Desktop Services], NotifySettingsChange method [Remote Desktop Services], IWRdsProtocolManager interface, NotifySettingsChange,IWRdsProtocolManager.NotifySettingsChange, termserv.iwrdsprotocolmanager_notifysettingschange, wtsprotocol/IWRdsProtocolManager::NotifySettingsChange
+ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySettingsChange method, IWRdsProtocolManager.NotifySettingsChange, IWRdsProtocolManager::NotifySettingsChange, NotifySettingsChange, NotifySettingsChange method [Remote Desktop Services], NotifySettingsChange method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifysettingschange, wtsprotocol/IWRdsProtocolManager::NotifySettingsChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolManager::NotifySettingsChange method
+# IWRdsProtocolManager::NotifySettingsChange
 
 
 ## -description

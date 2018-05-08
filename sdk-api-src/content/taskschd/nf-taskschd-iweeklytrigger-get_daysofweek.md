@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IWeeklyTrigger.get_DaysOfWeek
-title: IWeeklyTrigger::get_DaysOfWeek method
+title: IWeeklyTrigger::get_DaysOfWeek
 author: windows-driver-content
 description: Gets or sets the days of the week in which the task runs.
 old-location: taskschd\iweeklytrigger_daysofweek.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 3d4bb891-8620-401e-b1ce-39d593c1038a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Scheduler], IWeeklyTrigger interface, IWeeklyTrigger, IWeeklyTrigger interface [Task Scheduler], DaysOfWeek property, IWeeklyTrigger.DaysOfWeek, IWeeklyTrigger::get_DaysOfWeek, IWeeklyTrigger::put_DaysOfWeek, get_DaysOfWeek,IWeeklyTrigger.get_DaysOfWeek, taskschd.iweeklytrigger_daysofweek, taskschd/IWeeklyTrigger::DaysOfWeek, taskschd/IWeeklyTrigger::get_DaysOfWeek, taskschd/IWeeklyTrigger::put_DaysOfWeek
+ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Scheduler],IWeeklyTrigger interface, IWeeklyTrigger interface [Task Scheduler],DaysOfWeek property, IWeeklyTrigger.DaysOfWeek, IWeeklyTrigger.get_DaysOfWeek, IWeeklyTrigger::DaysOfWeek, IWeeklyTrigger::get_DaysOfWeek, IWeeklyTrigger::put_DaysOfWeek, get_DaysOfWeek, taskschd.iweeklytrigger_daysofweek, taskschd/IWeeklyTrigger::DaysOfWeek, taskschd/IWeeklyTrigger::get_DaysOfWeek, taskschd/IWeeklyTrigger::put_DaysOfWeek
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWeeklyTrigger::get_DaysOfWeek method
+# IWeeklyTrigger::get_DaysOfWeek
 
 
 ## -description

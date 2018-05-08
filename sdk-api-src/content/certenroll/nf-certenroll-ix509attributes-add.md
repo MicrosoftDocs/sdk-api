@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Attributes.Add
-title: IX509Attributes::Add method
+title: IX509Attributes::Add
 author: windows-driver-content
 description: Adds an IX509Attribute object to the collection.
 old-location: security\ix509attributes_add_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 769293d8-0ae0-419f-9399-3c501d700251
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Add method [Security], Add method [Security], IX509Attributes interface, Add,IX509Attributes.Add, IX509Attributes, IX509Attributes interface [Security], Add method, IX509Attributes::Add, certenroll/IX509Attributes::Add, security.ix509attributes_add_method
+ms.keywords: Add, Add method [Security], Add method [Security],IX509Attributes interface, IX509Attributes interface [Security],Add method, IX509Attributes.Add, IX509Attributes::Add, certenroll/IX509Attributes::Add, security.ix509attributes_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509Attributes::Add method
+# IX509Attributes::Add
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\nl_suffix_origin.htm
 old-project: netvista
 ms.assetid: 6208e368-00b3-4584-9562-5c0b01cd0db2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: IpSuffixOriginDhcp, IpSuffixOriginLinkLayerAddress, IpSuffixOriginManual, IpSuffixOriginOther, IpSuffixOriginRandom, IpSuffixOriginUnchanged, IpSuffixOriginWellKnown, NL_SUFFIX_ORIGIN, NL_SUFFIX_ORIGIN enumeration [Network Drivers Starting with Windows Vista], NlsoDhcp, NlsoLinkLayerAddress, NlsoManual, NlsoOther, NlsoRandom, NlsoWellKnown, iphelper_bd3c07f6-3bc2-4862-a0d9-beca1678f09a.xml, netvista.nl_suffix_origin, nldef/IpSuffixOriginDhcp, nldef/IpSuffixOriginLinkLayerAddress, nldef/IpSuffixOriginManual, nldef/IpSuffixOriginOther, nldef/IpSuffixOriginRandom, nldef/IpSuffixOriginUnchanged, nldef/IpSuffixOriginWellKnown, nldef/NL_SUFFIX_ORIGIN, nldef/NlsoDhcp, nldef/NlsoLinkLayerAddress, nldef/NlsoManual, nldef/NlsoOther, nldef/NlsoRandom, nldef/NlsoWellKnown
 ms.prod: windows-hardware
 ms.technology: windows-devices

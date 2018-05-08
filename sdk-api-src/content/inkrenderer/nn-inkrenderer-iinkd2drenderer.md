@@ -8,7 +8,7 @@ old-project: input_ink
 ms.assetid: d1bd910d-ce64-4424-a0e1-4f55110b0265
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IInkD2DRenderer, IInkD2DRenderer interface, IInkD2DRenderer interface, described, inkrenderer/IInkD2DRenderer, input_ink.iinkd2drenderer
+ms.keywords: IInkD2DRenderer, IInkD2DRenderer interface, IInkD2DRenderer interface,described, inkrenderer/IInkD2DRenderer, input_ink.iinkd2drenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

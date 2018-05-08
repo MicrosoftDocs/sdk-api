@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_InitialRadius
-title: IInertiaProcessor::get_InitialRadius method
+title: IInertiaProcessor::get_InitialRadius
 author: windows-driver-content
 description: The InitialRadius property specifies the distance from the edge of the target to its center before the object was changed.
 old-location: wintouch\iinertiaprocessor_initialradius.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 53179559-e65a-4b5b-b82a-f1fea0cb4509
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], InitialRadius property, IInertiaProcessor.InitialRadius, IInertiaProcessor::get_InitialRadius, IInertiaProcessor::put_InitialRadius, InitialRadius property [Windows Touch], InitialRadius property [Windows Touch], IInertiaProcessor interface, get_InitialRadius,IInertiaProcessor.get_InitialRadius, manipulations/IInertiaProcessor::InitialRadius, manipulations/IInertiaProcessor::get_InitialRadius, manipulations/IInertiaProcessor::put_InitialRadius, wintouch.iinertiaprocessor_initialradius
+ms.keywords: IInertiaProcessor interface [Windows Touch],InitialRadius property, IInertiaProcessor.InitialRadius, IInertiaProcessor.get_InitialRadius, IInertiaProcessor::InitialRadius, IInertiaProcessor::get_InitialRadius, IInertiaProcessor::put_InitialRadius, InitialRadius property [Windows Touch], InitialRadius property [Windows Touch],IInertiaProcessor interface, get_InitialRadius, manipulations/IInertiaProcessor::InitialRadius, manipulations/IInertiaProcessor::get_InitialRadius, manipulations/IInertiaProcessor::put_InitialRadius, wintouch.iinertiaprocessor_initialradius
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::get_InitialRadius method
+# IInertiaProcessor::get_InitialRadius
 
 
 ## -description

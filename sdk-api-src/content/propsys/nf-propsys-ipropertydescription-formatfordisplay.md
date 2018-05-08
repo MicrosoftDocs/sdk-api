@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescription.FormatForDisplay
-title: IPropertyDescription::FormatForDisplay method
+title: IPropertyDescription::FormatForDisplay
 author: windows-driver-content
 description: Gets a formatted, Unicode string representation of a property value.
 old-location: properties\IPropertyDescription_FormatForDisplay.htm
 old-project: properties
 ms.assetid: c900fce9-4462-4429-a5a1-9f0d1e73c681
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: FormatForDisplay method [Windows Properties], FormatForDisplay method [Windows Properties], IPropertyDescription interface, FormatForDisplay,IPropertyDescription.FormatForDisplay, IPropertyDescription, IPropertyDescription interface [Windows Properties], FormatForDisplay method, IPropertyDescription::FormatForDisplay, properties.IPropertyDescription_FormatForDisplay, propsys/IPropertyDescription::FormatForDisplay, shell.IPropertyDescription_FormatForDisplay, shell_IPropertyDescription_FormatForDisplay
+ms.date: 4/27/2018
+ms.keywords: FormatForDisplay, FormatForDisplay method [Windows Properties], FormatForDisplay method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],FormatForDisplay method, IPropertyDescription.FormatForDisplay, IPropertyDescription::FormatForDisplay, properties.IPropertyDescription_FormatForDisplay, propsys/IPropertyDescription::FormatForDisplay, shell.IPropertyDescription_FormatForDisplay, shell_IPropertyDescription_FormatForDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescription::FormatForDisplay method
+# IPropertyDescription::FormatForDisplay
 
 
 ## -description

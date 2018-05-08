@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.Refresh
-title: ITSGPolicyEngine::Refresh method
+title: ITSGPolicyEngine::Refresh
 author: windows-driver-content
 description: This method is reserved.
 old-location: termserv\itsgpolicyengine_refresh.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 29432884-c844-4c38-92e6-e1bcbba32b2b
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITSGPolicyEngine, ITSGPolicyEngine interface [Remote Desktop Services], Refresh method, ITSGPolicyEngine::Refresh, Refresh method [Remote Desktop Services], Refresh method [Remote Desktop Services], ITSGPolicyEngine interface, Refresh,ITSGPolicyEngine.Refresh, termserv.itsgpolicyengine_refresh, tsgpolicyengine/ITSGPolicyEngine::Refresh
+ms.keywords: ITSGPolicyEngine interface [Remote Desktop Services],Refresh method, ITSGPolicyEngine.Refresh, ITSGPolicyEngine::Refresh, Refresh, Refresh method [Remote Desktop Services], Refresh method [Remote Desktop Services],ITSGPolicyEngine interface, termserv.itsgpolicyengine_refresh, tsgpolicyengine/ITSGPolicyEngine::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITSGPolicyEngine::Refresh method
+# ITSGPolicyEngine::Refresh
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetMaxStreamSampleSize
-title: IWMSyncReader::GetMaxStreamSampleSize method
+title: IWMSyncReader::GetMaxStreamSampleSize
 author: windows-driver-content
 description: The GetMaxStreamSampleSize method retrieves the maximum sample size for a specified stream in the file that is open in the synchronous reader.
 old-location: wmformat\iwmsyncreader_getmaxstreamsamplesize.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 8b098985-4eb2-4292-a9b9-cfdd051e9c0e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetMaxStreamSampleSize method [windows Media Format], GetMaxStreamSampleSize method [windows Media Format], IWMSyncReader interface, GetMaxStreamSampleSize,IWMSyncReader.GetMaxStreamSampleSize, IWMSyncReader, IWMSyncReader interface [windows Media Format], GetMaxStreamSampleSize method, IWMSyncReader::GetMaxStreamSampleSize, IWMSyncReaderGetMaxStreamSampleSize, wmformat.iwmsyncreader_getmaxstreamsamplesize, wmsdkidl/IWMSyncReader::GetMaxStreamSampleSize
+ms.keywords: GetMaxStreamSampleSize, GetMaxStreamSampleSize method [windows Media Format], GetMaxStreamSampleSize method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetMaxStreamSampleSize method, IWMSyncReader.GetMaxStreamSampleSize, IWMSyncReader::GetMaxStreamSampleSize, IWMSyncReaderGetMaxStreamSampleSize, wmformat.iwmsyncreader_getmaxstreamsamplesize, wmsdkidl/IWMSyncReader::GetMaxStreamSampleSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader::GetMaxStreamSampleSize method
+# IWMSyncReader::GetMaxStreamSampleSize
 
 
 ## -description

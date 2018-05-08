@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCustomReferenceSet
-title: IOpcSigningOptions::GetCustomReferenceSet method
+title: IOpcSigningOptions::GetCustomReferenceSet
 author: windows-driver-content
 description: Gets an IOpcSignatureReferenceSet interface pointer.
 old-location: opc\iopcsigningoptions_getcustomreferenceset.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 2222772a-e396-4d78-a7e4-a12f19ec689b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCustomReferenceSet method [Open Packaging Conventions], GetCustomReferenceSet method [Open Packaging Conventions], IOpcSigningOptions interface, GetCustomReferenceSet,IOpcSigningOptions.GetCustomReferenceSet, IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], GetCustomReferenceSet method, IOpcSigningOptions::GetCustomReferenceSet, msopc/IOpcSigningOptions::GetCustomReferenceSet, opc.iopcsigningoptions_getcustomreferenceset
+ms.keywords: GetCustomReferenceSet, GetCustomReferenceSet method [Open Packaging Conventions], GetCustomReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCustomReferenceSet method, IOpcSigningOptions.GetCustomReferenceSet, IOpcSigningOptions::GetCustomReferenceSet, msopc/IOpcSigningOptions::GetCustomReferenceSet, opc.iopcsigningoptions_getcustomreferenceset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSigningOptions::GetCustomReferenceSet method
+# IOpcSigningOptions::GetCustomReferenceSet
 
 
 ## -description

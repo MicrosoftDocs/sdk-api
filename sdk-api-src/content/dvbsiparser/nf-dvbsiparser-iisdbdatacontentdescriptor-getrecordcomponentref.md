@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetRecordComponentRef
-title: IIsdbDataContentDescriptor::GetRecordComponentRef method
+title: IIsdbDataContentDescriptor::GetRecordComponentRef
 author: windows-driver-content
 description: Gets the value of the component_ref field from a specified component record in an Integrated Services Digital Broadcasting (ISDB) data content descriptor. This field contains the broadcaster-defined component tag that identifies a component stream.
 old-location: mstv\iisdbdatacontentdescriptor_getrecordcomponentref.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3668c323-6808-4bc4-b372-37647ef3fdd8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordComponentRef method [Microsoft TV Technologies], GetRecordComponentRef method [Microsoft TV Technologies], IIsdbDataContentDescriptor interface, GetRecordComponentRef,IIsdbDataContentDescriptor.GetRecordComponentRef, IIsdbDataContentDescriptor, IIsdbDataContentDescriptor interface [Microsoft TV Technologies], GetRecordComponentRef method, IIsdbDataContentDescriptor::GetRecordComponentRef, dvbsiparser/IIsdbDataContentDescriptor::GetRecordComponentRef, mstv.iisdbdatacontentdescriptor_getrecordcomponentref
+ms.keywords: GetRecordComponentRef, GetRecordComponentRef method [Microsoft TV Technologies], GetRecordComponentRef method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetRecordComponentRef method, IIsdbDataContentDescriptor.GetRecordComponentRef, IIsdbDataContentDescriptor::GetRecordComponentRef, dvbsiparser/IIsdbDataContentDescriptor::GetRecordComponentRef, mstv.iisdbdatacontentdescriptor_getrecordcomponentref
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDataContentDescriptor::GetRecordComponentRef method
+# IIsdbDataContentDescriptor::GetRecordComponentRef
 
 
 ## -description

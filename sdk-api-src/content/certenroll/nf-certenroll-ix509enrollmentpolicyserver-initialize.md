@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.Initialize
-title: IX509EnrollmentPolicyServer::Initialize method
+title: IX509EnrollmentPolicyServer::Initialize
 author: windows-driver-content
 description: Initializes an IX509EnrollmentPolicyServer object.
 old-location: security\ix509enrollmentpolicyserver_initialize.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b0d848a2-1bac-4a30-ae02-26d5af719688
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], Initialize method, IX509EnrollmentPolicyServer::Initialize, Initialize method [Security], Initialize method [Security], IX509EnrollmentPolicyServer interface, Initialize,IX509EnrollmentPolicyServer.Initialize, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentPolicyServer::Initialize, security.ix509enrollmentpolicyserver_initialize
+ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentPolicyServer interface [Security],Initialize method, IX509EnrollmentPolicyServer.Initialize, IX509EnrollmentPolicyServer::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentPolicyServer interface, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentPolicyServer::Initialize, security.ix509enrollmentpolicyserver_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509EnrollmentPolicyServer::Initialize method
+# IX509EnrollmentPolicyServer::Initialize
 
 
 ## -description

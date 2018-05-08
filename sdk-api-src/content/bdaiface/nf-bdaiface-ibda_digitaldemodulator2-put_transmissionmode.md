@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.put_TransmissionMode
-title: IBDA_DigitalDemodulator2::put_TransmissionMode method
+title: IBDA_DigitalDemodulator2::put_TransmissionMode
 author: windows-driver-content
 description: Sets the demodulator's transmission mode.
 old-location: mstv\ibda_digitaldemodulator2_put_transmissionmode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e10c63a5-7025-49a7-9b2e-6043fabf2999
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DigitalDemodulator2, IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies], put_TransmissionMode method, IBDA_DigitalDemodulator2::put_TransmissionMode, bdaiface/IBDA_DigitalDemodulator2::put_TransmissionMode, mstv.ibda_digitaldemodulator2_put_transmissionmode, put_TransmissionMode method [Microsoft TV Technologies], put_TransmissionMode method [Microsoft TV Technologies], IBDA_DigitalDemodulator2 interface, put_TransmissionMode,IBDA_DigitalDemodulator2.put_TransmissionMode
+ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_TransmissionMode method, IBDA_DigitalDemodulator2.put_TransmissionMode, IBDA_DigitalDemodulator2::put_TransmissionMode, bdaiface/IBDA_DigitalDemodulator2::put_TransmissionMode, mstv.ibda_digitaldemodulator2_put_transmissionmode, put_TransmissionMode, put_TransmissionMode method [Microsoft TV Technologies], put_TransmissionMode method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DigitalDemodulator2::put_TransmissionMode method
+# IBDA_DigitalDemodulator2::put_TransmissionMode
 
 
 ## -description

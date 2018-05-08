@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.InsertEmbedded
-title: ITextStoreACP2::InsertEmbedded method
+title: ITextStoreACP2::InsertEmbedded
 author: windows-driver-content
 description: Inserts an embedded object at the specified character.
 old-location: tsf\itextstoreacp2_insertembedded.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 1f5003e0-0d6d-4212-beea-3b2685991749
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], InsertEmbedded method, ITextStoreACP2::InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework], ITextStoreACP2 interface, InsertEmbedded,ITextStoreACP2.InsertEmbedded, textstor/ITextStoreACP2::InsertEmbedded, tsf.itextstoreacp2_insertembedded
+ms.keywords: ITextStoreACP2 interface [Text Services Framework],InsertEmbedded method, ITextStoreACP2.InsertEmbedded, ITextStoreACP2::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::InsertEmbedded, tsf.itextstoreacp2_insertembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP2::InsertEmbedded method
+# ITextStoreACP2::InsertEmbedded
 
 
 ## -description

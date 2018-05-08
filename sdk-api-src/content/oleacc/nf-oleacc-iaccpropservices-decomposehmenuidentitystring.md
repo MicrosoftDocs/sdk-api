@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.DecomposeHmenuIdentityString
-title: IAccPropServices::DecomposeHmenuIdentityString method
+title: IAccPropServices::DecomposeHmenuIdentityString
 author: windows-driver-content
 description: Use this method to determine the HMENU, object ID, and child ID for the accessible element identified by the identity string.
 old-location: winauto\iaccpropservices_iaccpropservices__decomposehmenuidentitystring.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: b76c4ba8-fb9a-438b-8547-b73b3c459ec6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DecomposeHmenuIdentityString method [Windows Accessibility], DecomposeHmenuIdentityString method [Windows Accessibility], IAccPropServices interface, DecomposeHmenuIdentityString,IAccPropServices.DecomposeHmenuIdentityString, IAccPropServices, IAccPropServices interface [Windows Accessibility], DecomposeHmenuIdentityString method, IAccPropServices::DecomposeHmenuIdentityString, oleacc/IAccPropServices::DecomposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehmenuidentitystring
+ms.keywords: DecomposeHmenuIdentityString, DecomposeHmenuIdentityString method [Windows Accessibility], DecomposeHmenuIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],DecomposeHmenuIdentityString method, IAccPropServices.DecomposeHmenuIdentityString, IAccPropServices::DecomposeHmenuIdentityString, oleacc/IAccPropServices::DecomposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehmenuidentitystring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccPropServices::DecomposeHmenuIdentityString method
+# IAccPropServices::DecomposeHmenuIdentityString
 
 
 ## -description

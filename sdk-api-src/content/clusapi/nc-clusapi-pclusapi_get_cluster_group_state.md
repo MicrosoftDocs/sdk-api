@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 5f794dee-aeee-4906-ba63-c154bfda4d17
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_GET_CLUSTER_GROUP_STATE, PCLUSAPI_GET_CLUSTER_GROUP_STATE callback function [Failover Cluster], _wolf_getclustergroupstate, clusapi/PCLUSAPI_GET_CLUSTER_GROUP_STATE, mscs.getclustergroupstate
+ms.keywords: PCLUSAPI_GET_CLUSTER_GROUP_STATE, PCLUSAPI_GET_CLUSTER_GROUP_STATE callback, PCLUSAPI_GET_CLUSTER_GROUP_STATE callback function [Failover Cluster], _wolf_getclustergroupstate, clusapi/PCLUSAPI_GET_CLUSTER_GROUP_STATE, mscs.getclustergroupstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_GET_CLUSTER_GROUP_STATE callback
+# PCLUSAPI_GET_CLUSTER_GROUP_STATE callback function
 
 
 ## -description

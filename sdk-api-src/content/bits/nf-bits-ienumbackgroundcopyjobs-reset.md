@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyJobs.Reset
-title: IEnumBackgroundCopyJobs::Reset method
+title: IEnumBackgroundCopyJobs::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbackgroundcopyjobs_reset.htm
 old-project: Bits
 ms.assetid: 045df884-88e0-4d5a-a790-6b3b9ba2d4f5
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEnumBackgroundCopyJobs, IEnumBackgroundCopyJobs interface [BITS], Reset method, IEnumBackgroundCopyJobs::Reset, Reset method [BITS], Reset method [BITS], IEnumBackgroundCopyJobs interface, Reset,IEnumBackgroundCopyJobs.Reset, _drz_ienumbackgroundcopyjobs_reset, bits.ienumbackgroundcopyjobs_reset, bits/IEnumBackgroundCopyJobs::Reset
+ms.date: 4/27/2018
+ms.keywords: IEnumBackgroundCopyJobs interface [BITS],Reset method, IEnumBackgroundCopyJobs.Reset, IEnumBackgroundCopyJobs::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyJobs interface, _drz_ienumbackgroundcopyjobs_reset, bits.ienumbackgroundcopyjobs_reset, bits/IEnumBackgroundCopyJobs::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IEnumBackgroundCopyJobs::Reset method
+# IEnumBackgroundCopyJobs::Reset
 
 
 ## -description

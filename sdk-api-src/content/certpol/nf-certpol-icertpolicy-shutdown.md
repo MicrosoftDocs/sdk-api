@@ -1,14 +1,14 @@
 ---
 UID: NF:certpol.ICertPolicy.ShutDown
-title: ICertPolicy::ShutDown method
+title: ICertPolicy::ShutDown
 author: windows-driver-content
 description: Called by the server engine before the server is terminated.
 old-location: security\icertpolicy2_shutdown.htm
 old-project: SecCrypto
 ms.assetid: 2a796acb-b179-4b6f-8864-9e96f4049389
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertPolicy object [Security], ShutDown method, ICertPolicy, ICertPolicy interface [Security], ShutDown method, ICertPolicy2 interface [Security], ShutDown method, ICertPolicy2::ShutDown, ICertPolicy::ShutDown, ShutDown method [Security], ShutDown method [Security], CCertPolicy object, ShutDown method [Security], ICertPolicy interface, ShutDown method [Security], ICertPolicy2 interface, ShutDown,ICertPolicy.ShutDown, _certsrv_icertpolicy_shutdown, certpol/ICertPolicy2::ShutDown, certpol/ICertPolicy::ShutDown, security.icertpolicy2_shutdown
+ms.date: 4/30/2018
+ms.keywords: CCertPolicy object [Security],ShutDown method, ICertPolicy interface [Security],ShutDown method, ICertPolicy.ShutDown, ICertPolicy2 interface [Security],ShutDown method, ICertPolicy2::ShutDown, ICertPolicy::ShutDown, ShutDown, ShutDown method [Security], ShutDown method [Security],CCertPolicy object, ShutDown method [Security],ICertPolicy interface, ShutDown method [Security],ICertPolicy2 interface, _certsrv_icertpolicy_shutdown, certpol/ICertPolicy2::ShutDown, certpol/ICertPolicy::ShutDown, security.icertpolicy2_shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICertPolicy::ShutDown method
+# ICertPolicy::ShutDown
 
 
 ## -description

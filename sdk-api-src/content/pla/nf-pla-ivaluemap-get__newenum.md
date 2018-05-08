@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.get__NewEnum
-title: IValueMap::get__NewEnum method
+title: IValueMap::get__NewEnum
 author: windows-driver-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\ivaluemap__newenum.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 1d40104c-c0a4-41d2-8427-364c37b52e02
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IValueMap, IValueMap interface [PLA], _NewEnum property, IValueMap._NewEnum, IValueMap::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA], IValueMap interface, get__NewEnum,IValueMap.get__NewEnum, pla.ivaluemap__newenum, pla/IValueMap::_NewEnum, pla/IValueMap::get__NewEnum
+ms.keywords: IValueMap interface [PLA],_NewEnum property, IValueMap._NewEnum, IValueMap.get__NewEnum, IValueMap::_NewEnum, IValueMap::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],IValueMap interface, get__NewEnum, pla.ivaluemap__newenum, pla/IValueMap::_NewEnum, pla/IValueMap::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IValueMap::get__NewEnum method
+# IValueMap::get__NewEnum
 
 
 ## -description

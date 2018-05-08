@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateGeneratorParameters
-title: IRdcLibrary::CreateGeneratorParameters method
+title: IRdcLibrary::CreateGeneratorParameters
 author: windows-driver-content
 description: Returns an IRdcGeneratorParameters interface pointer initialized with the parameters necessary for a signature generator.
 old-location: rdc\irdclibrary_creategeneratorparameters.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: a39e26bc-7493-4def-af6d-cf3620ec8a9f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateGeneratorParameters method [Remote Differential Compression], CreateGeneratorParameters method [Remote Differential Compression], IRdcLibrary interface, CreateGeneratorParameters,IRdcLibrary.CreateGeneratorParameters, IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], CreateGeneratorParameters method, IRdcLibrary::CreateGeneratorParameters, fs.irdclibrary_creategeneratorparameters, msrdc/IRdcLibrary::CreateGeneratorParameters, rdc.irdclibrary_creategeneratorparameters
+ms.keywords: CreateGeneratorParameters, CreateGeneratorParameters method [Remote Differential Compression], CreateGeneratorParameters method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateGeneratorParameters method, IRdcLibrary.CreateGeneratorParameters, IRdcLibrary::CreateGeneratorParameters, fs.irdclibrary_creategeneratorparameters, msrdc/IRdcLibrary::CreateGeneratorParameters, rdc.irdclibrary_creategeneratorparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcLibrary::CreateGeneratorParameters method
+# IRdcLibrary::CreateGeneratorParameters
 
 
 ## -description

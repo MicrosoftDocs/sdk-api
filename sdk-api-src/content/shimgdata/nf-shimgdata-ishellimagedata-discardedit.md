@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.DiscardEdit
-title: IShellImageData::DiscardEdit method
+title: IShellImageData::DiscardEdit
 author: windows-driver-content
 description: Discards edits made to an image.
 old-location: shell\IShellImageData_DiscardEdit.htm
 old-project: shell
 ms.assetid: 9bd16fa1-530d-46c7-bd1b-4ec9bf596881
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: DiscardEdit method [Windows Shell], DiscardEdit method [Windows Shell], IShellImageData interface, DiscardEdit,IShellImageData.DiscardEdit, IShellImageData, IShellImageData interface [Windows Shell], DiscardEdit method, IShellImageData::DiscardEdit, _shell_IShellImageData_DiscardEdit, shell.IShellImageData_DiscardEdit, shimgdata/IShellImageData::DiscardEdit
+ms.date: 5/3/2018
+ms.keywords: DiscardEdit, DiscardEdit method [Windows Shell], DiscardEdit method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],DiscardEdit method, IShellImageData.DiscardEdit, IShellImageData::DiscardEdit, _shell_IShellImageData_DiscardEdit, shell.IShellImageData_DiscardEdit, shimgdata/IShellImageData::DiscardEdit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::DiscardEdit method
+# IShellImageData::DiscardEdit
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetInvertPolarity
-title: IVPBaseConfig::SetInvertPolarity method
+title: IVPBaseConfig::SetInvertPolarity
 author: windows-driver-content
 description: The SetInvertPolarity method reverses the current polarity the device uses.
 old-location: dshow\ivpbaseconfig_setinvertpolarity.htm
 old-project: DirectShow
 ms.assetid: 2c33cea2-2c83-4978-9059-c15706f14f85
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], SetInvertPolarity method, IVPBaseConfig::SetInvertPolarity, IVPBaseConfigSetInvertPolarity, SetInvertPolarity method [DirectShow], SetInvertPolarity method [DirectShow], IVPBaseConfig interface, SetInvertPolarity,IVPBaseConfig.SetInvertPolarity, dshow.ivpbaseconfig_setinvertpolarity, vpconfig/IVPBaseConfig::SetInvertPolarity
+ms.date: 4/30/2018
+ms.keywords: IVPBaseConfig interface [DirectShow],SetInvertPolarity method, IVPBaseConfig.SetInvertPolarity, IVPBaseConfig::SetInvertPolarity, IVPBaseConfigSetInvertPolarity, SetInvertPolarity, SetInvertPolarity method [DirectShow], SetInvertPolarity method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setinvertpolarity, vpconfig/IVPBaseConfig::SetInvertPolarity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVPBaseConfig::SetInvertPolarity method
+# IVPBaseConfig::SetInvertPolarity
 
 
 ## -description

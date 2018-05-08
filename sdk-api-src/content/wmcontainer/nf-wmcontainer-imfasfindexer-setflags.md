@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.SetFlags
-title: IMFASFIndexer::SetFlags method
+title: IMFASFIndexer::SetFlags
 author: windows-driver-content
 description: Sets indexer options.
 old-location: mf\imfasfindexer_setflags.htm
 old-project: medfound
 ms.assetid: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], SetFlags method, IMFASFIndexer::SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation], IMFASFIndexer interface, SetFlags,IMFASFIndexer.SetFlags, mf.imfasfindexer_setflags, wmcontainer/IMFASFIndexer::SetFlags
+ms.date: 5/3/2018
+ms.keywords: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1, IMFASFIndexer interface [Media Foundation],SetFlags method, IMFASFIndexer.SetFlags, IMFASFIndexer::SetFlags, SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation],IMFASFIndexer interface, mf.imfasfindexer_setflags, wmcontainer/IMFASFIndexer::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFIndexer::SetFlags method
+# IMFASFIndexer::SetFlags
 
 
 ## -description

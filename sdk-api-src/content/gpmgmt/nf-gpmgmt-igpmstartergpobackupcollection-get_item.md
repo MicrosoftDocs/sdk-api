@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackupCollection.get_Item
-title: IGPMStarterGPOBackupCollection::get_Item method
+title: IGPMStarterGPOBackupCollection::get_Item
 author: windows-driver-content
 description: Given an index, returns an GPMStarterGPOBackup object from the collection.
 old-location: gpmc\igpmstartergpobackupcollection_get_item.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 295b00ed-856e-4199-8b93-7c676a5ab8bb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IGPMStarterGPOBackupCollection, IGPMStarterGPOBackupCollection interface [GPMC], Item property, IGPMStarterGPOBackupCollection.Item, IGPMStarterGPOBackupCollection::get_Item, Item property [GPMC], Item property [GPMC], IGPMStarterGPOBackupCollection interface, get_Item,IGPMStarterGPOBackupCollection.get_Item, gpmc.igpmstartergpobackupcollection_get_item, gpmgmt/IGPMStarterGPOBackupCollection::Item, gpmgmt/IGPMStarterGPOBackupCollection::get_Item
+ms.keywords: IGPMStarterGPOBackupCollection interface [GPMC],Item property, IGPMStarterGPOBackupCollection.Item, IGPMStarterGPOBackupCollection.get_Item, IGPMStarterGPOBackupCollection::Item, IGPMStarterGPOBackupCollection::get_Item, Item property [GPMC], Item property [GPMC],IGPMStarterGPOBackupCollection interface, get_Item, gpmc.igpmstartergpobackupcollection_get_item, gpmgmt/IGPMStarterGPOBackupCollection::Item, gpmgmt/IGPMStarterGPOBackupCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMStarterGPOBackupCollection::get_Item method
+# IGPMStarterGPOBackupCollection::get_Item
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: buses\winusb_readisochpipeasap.htm
 old-project: usbref
 ms.assetid: E9AD5DD2-AAC1-46C9-BF57-1C97CF619936
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/3/2018
 ms.keywords: WinUsb_ReadIsochPipeAsap, WinUsb_ReadIsochPipeAsap routine [Buses], buses.winusb_readisochpipeasap, winusb/WinUsb_ReadIsochPipeAsap
 ms.prod: windows-hardware
 ms.technology: windows-devices

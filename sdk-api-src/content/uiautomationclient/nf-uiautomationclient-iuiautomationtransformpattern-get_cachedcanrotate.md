@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CachedCanRotate
-title: IUIAutomationTransformPattern::get_CachedCanRotate method
+title: IUIAutomationTransformPattern::get_CachedCanRotate
 author: windows-driver-content
 description: Retrieves a cached value that indicates whether the element can be rotated.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CachedCanRotate.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2718fb12-0cd9-48e3-8c45-f58c45b474eb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedCanRotate property [Windows Accessibility], CachedCanRotate property [Windows Accessibility], IUIAutomationTransformPattern interface, IUIAutomationTransformPattern, IUIAutomationTransformPattern interface [Windows Accessibility], CachedCanRotate property, IUIAutomationTransformPattern.CachedCanRotate, IUIAutomationTransformPattern::get_CachedCanRotate, get_CachedCanRotate,IUIAutomationTransformPattern.get_CachedCanRotate, uiauto.uiauto_IUIAutomationTransformPattern_CachedCanRotate, uiauto_IUIAutomationTransformPattern_CachedCanRotate, uiautomationclient/IUIAutomationTransformPattern::CachedCanRotate, uiautomationclient/IUIAutomationTransformPattern::get_CachedCanRotate, winauto.uiauto_IUIAutomationTransformPattern_CachedCanRotate
+ms.keywords: CachedCanRotate property [Windows Accessibility], CachedCanRotate property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CachedCanRotate property, IUIAutomationTransformPattern.CachedCanRotate, IUIAutomationTransformPattern.get_CachedCanRotate, IUIAutomationTransformPattern::CachedCanRotate, IUIAutomationTransformPattern::get_CachedCanRotate, get_CachedCanRotate, uiauto.uiauto_IUIAutomationTransformPattern_CachedCanRotate, uiauto_IUIAutomationTransformPattern_CachedCanRotate, uiautomationclient/IUIAutomationTransformPattern::CachedCanRotate, uiautomationclient/IUIAutomationTransformPattern::get_CachedCanRotate, winauto.uiauto_IUIAutomationTransformPattern_CachedCanRotate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTransformPattern::get_CachedCanRotate method
+# IUIAutomationTransformPattern::get_CachedCanRotate
 
 
 ## -description

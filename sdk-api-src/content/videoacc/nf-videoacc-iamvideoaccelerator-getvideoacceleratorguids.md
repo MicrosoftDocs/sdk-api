@@ -1,14 +1,14 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetVideoAcceleratorGUIDs
-title: IAMVideoAccelerator::GetVideoAcceleratorGUIDs method
+title: IAMVideoAccelerator::GetVideoAcceleratorGUIDs
 author: windows-driver-content
 description: The GetVideoAcceleratorGUIDs method gets a list of DirectX Video Acceleration (DXVA) profiles supported by the display driver.
 old-location: dshow\iamvideoaccelerator_getvideoacceleratorguids.htm
 old-project: DirectShow
 ms.assetid: 808ba120-f0e1-4348-94e7-69a27c77cf42
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetVideoAcceleratorGUIDs method [DirectShow], GetVideoAcceleratorGUIDs method [DirectShow], IAMVideoAccelerator interface, GetVideoAcceleratorGUIDs,IAMVideoAccelerator.GetVideoAcceleratorGUIDs, IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], GetVideoAcceleratorGUIDs method, IAMVideoAccelerator::GetVideoAcceleratorGUIDs, IAMVideoAcceleratorGetVideoAcceleratorGUIDs, dshow.iamvideoaccelerator_getvideoacceleratorguids, videoacc/IAMVideoAccelerator::GetVideoAcceleratorGUIDs
+ms.date: 4/30/2018
+ms.keywords: GetVideoAcceleratorGUIDs, GetVideoAcceleratorGUIDs method [DirectShow], GetVideoAcceleratorGUIDs method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetVideoAcceleratorGUIDs method, IAMVideoAccelerator.GetVideoAcceleratorGUIDs, IAMVideoAccelerator::GetVideoAcceleratorGUIDs, IAMVideoAcceleratorGetVideoAcceleratorGUIDs, dshow.iamvideoaccelerator_getvideoacceleratorguids, videoacc/IAMVideoAccelerator::GetVideoAcceleratorGUIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAMVideoAccelerator::GetVideoAcceleratorGUIDs method
+# IAMVideoAccelerator::GetVideoAcceleratorGUIDs
 
 
 ## -description

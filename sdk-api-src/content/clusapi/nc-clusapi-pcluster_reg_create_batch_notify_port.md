@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 1eca2ba5-c0c3-4388-9384-db9dbcfc8405
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT, PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT callback function [Failover Cluster], clusapi/PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT, mscs.clusterregcreatebatchnotifyport
+ms.keywords: PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT, PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT callback, PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT callback function [Failover Cluster], clusapi/PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT, mscs.clusterregcreatebatchnotifyport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT callback
+# PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT callback function
 
 
 ## -description

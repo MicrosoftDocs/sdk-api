@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.ReindexMatchingURLs
-title: ISearchCatalogManager::ReindexMatchingURLs method
+title: ISearchCatalogManager::ReindexMatchingURLs
 author: windows-driver-content
 description: Reindexes all items that match the provided pattern. This method was not implemented prior to Windows 7.
 old-location: search\_search_ISearchCatalogManager_ReindexMatchingURLs.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reindexmatchingurls.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], ReindexMatchingURLs method, ISearchCatalogManager::ReindexMatchingURLs, ReindexMatchingURLs method [search], ReindexMatchingURLs method [search], ISearchCatalogManager interface, ReindexMatchingURLs,ISearchCatalogManager.ReindexMatchingURLs, _search_ISearchCatalogManager_ReindexMatchingURLs, search._search_ISearchCatalogManager_ReindexMatchingURLs, searchapi/ISearchCatalogManager::ReindexMatchingURLs
+ms.date: 5/4/2018
+ms.keywords: ISearchCatalogManager interface [search],ReindexMatchingURLs method, ISearchCatalogManager.ReindexMatchingURLs, ISearchCatalogManager::ReindexMatchingURLs, ReindexMatchingURLs, ReindexMatchingURLs method [search], ReindexMatchingURLs method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_ReindexMatchingURLs, search._search_ISearchCatalogManager_ReindexMatchingURLs, searchapi/ISearchCatalogManager::ReindexMatchingURLs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::ReindexMatchingURLs method
+# ISearchCatalogManager::ReindexMatchingURLs
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage.GetPropertyStorage
-title: IPersistSerializedPropStorage::GetPropertyStorage method
+title: IPersistSerializedPropStorage::GetPropertyStorage
 author: windows-driver-content
 description: Gets the serialized property storage data from the property store instance.
 old-location: shell\IPersistSerializedPropStorage_GetPropertyStorage.htm
 old-project: shell
 ms.assetid: 86a1d7ec-759a-4b8a-91e1-4cfa28a17b41
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell], IPersistSerializedPropStorage interface, GetPropertyStorage,IPersistSerializedPropStorage.GetPropertyStorage, IPersistSerializedPropStorage, IPersistSerializedPropStorage interface [Windows Shell], GetPropertyStorage method, IPersistSerializedPropStorage::GetPropertyStorage, _shell_IPersistSerializedPropStorage_GetPropertyStorage, propsys/IPersistSerializedPropStorage::GetPropertyStorage, shell.IPersistSerializedPropStorage_GetPropertyStorage
+ms.date: 5/3/2018
+ms.keywords: GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell],IPersistSerializedPropStorage interface, IPersistSerializedPropStorage interface [Windows Shell],GetPropertyStorage method, IPersistSerializedPropStorage.GetPropertyStorage, IPersistSerializedPropStorage::GetPropertyStorage, _shell_IPersistSerializedPropStorage_GetPropertyStorage, propsys/IPersistSerializedPropStorage::GetPropertyStorage, shell.IPersistSerializedPropStorage_GetPropertyStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistSerializedPropStorage::GetPropertyStorage method
+# IPersistSerializedPropStorage::GetPropertyStorage
 
 
 ## -description

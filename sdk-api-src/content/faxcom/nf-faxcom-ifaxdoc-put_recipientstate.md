@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientState
-title: IFaxDoc::put_RecipientState method
+title: IFaxDoc::put_RecipientState
 author: windows-driver-content
 description: Sets or retrieves the RecipientState property of a FaxDoc object. The RecipientState property is a null-terminated string that contains the state of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientstate_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3vqd.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], RecipientState property, IFaxDoc, IFaxDoc::put_RecipientState, RecipientState property [Fax Service], RecipientState property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientstate, fax._mfax_ifaxdoc_get_recipientstate, fax._mfax_ifaxdoc_get_recipientstate_vb, put_RecipientState,IFaxDoc.put_RecipientState
+ms.keywords: FaxDoc object [Fax Service],RecipientState property, FaxDoc.RecipientState, IFaxDoc.put_RecipientState, IFaxDoc::put_RecipientState, RecipientState property [Fax Service], RecipientState property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientstate, fax._mfax_ifaxdoc_get_recipientstate, fax._mfax_ifaxdoc_get_recipientstate_vb, put_RecipientState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_RecipientState method
+# IFaxDoc::put_RecipientState
 
 
 ## -description

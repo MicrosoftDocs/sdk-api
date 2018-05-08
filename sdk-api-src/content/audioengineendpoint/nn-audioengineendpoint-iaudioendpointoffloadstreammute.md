@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: F102CBB2-6751-416C-B59B-F91440583594
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioEndpointOffloadStreamMute, IAudioEndpointOffloadStreamMute interface [Core Audio], IAudioEndpointOffloadStreamMute interface [Core Audio], described, audioengineendpoint/IAudioEndpointOffloadStreamMute, coreaudio.iaudioendpointoffloadstreammute
+ms.keywords: IAudioEndpointOffloadStreamMute, IAudioEndpointOffloadStreamMute interface [Core Audio], IAudioEndpointOffloadStreamMute interface [Core Audio],described, audioengineendpoint/IAudioEndpointOffloadStreamMute, coreaudio.iaudioendpointoffloadstreammute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

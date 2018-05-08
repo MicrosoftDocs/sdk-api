@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperty.SetValueOnCertificate
-title: ICertProperty::SetValueOnCertificate method
+title: ICertProperty::SetValueOnCertificate
 author: windows-driver-content
 description: Associates a property value with an existing certificate.
 old-location: security\icertproperty_setvalueoncertificate_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 46c409c4-46bd-4349-8363-1983f4411bc2
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertProperty, ICertProperty interface [Security], SetValueOnCertificate method, ICertProperty::SetValueOnCertificate, SetValueOnCertificate method [Security], SetValueOnCertificate method [Security], ICertProperty interface, SetValueOnCertificate,ICertProperty.SetValueOnCertificate, certenroll/ICertProperty::SetValueOnCertificate, security.icertproperty_setvalueoncertificate_method
+ms.keywords: ICertProperty interface [Security],SetValueOnCertificate method, ICertProperty.SetValueOnCertificate, ICertProperty::SetValueOnCertificate, SetValueOnCertificate, SetValueOnCertificate method [Security], SetValueOnCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::SetValueOnCertificate, security.icertproperty_setvalueoncertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertProperty::SetValueOnCertificate method
+# ICertProperty::SetValueOnCertificate
 
 
 ## -description

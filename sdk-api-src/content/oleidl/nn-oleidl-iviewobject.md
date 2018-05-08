@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 4310c987-3542-4a59-a6fb-951143001741
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IViewObject, IViewObject interface [COM], IViewObject interface [COM], described, _ole_iviewobject, com.iviewobject, oleidl/IViewObject
+ms.keywords: IViewObject, IViewObject interface [COM], IViewObject interface [COM],described, _ole_iviewobject, com.iviewobject, oleidl/IViewObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

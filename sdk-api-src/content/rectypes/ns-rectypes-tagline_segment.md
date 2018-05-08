@@ -7,7 +7,7 @@ old-location: tablet\line_segment.htm
 old-project: tablet
 ms.assetid: e9d4079d-28d2-4975-a33f-1f4ec5175c36
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/2/2018
 ms.keywords: LINE_SEGMENT, LINE_SEGMENT structure [Tablet PC], e9d4079d-28d2-4975-a33f-1f4ec5175c36, rectypes/LINE_SEGMENT, tablet.line_segment, tagLINE_SEGMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LINE_SEGMENT, LINE_SEGMENT
+req.typenames: LINE_SEGMENT
 topic_type:
 -	APIRef
 -	kbSyntax

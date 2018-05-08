@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Tilt
-title: ICameraControl::put_Tilt method
+title: ICameraControl::put_Tilt
 author: windows-driver-content
 description: The put_Tilt method sets the camera's tilt angle.
 old-location: dshow\icameracontrol_put_tilt.htm
 old-project: DirectShow
 ms.assetid: e75adedb-5cf2-4b2c-bb57-1bfedfc81979
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_Tilt method, ICameraControl::put_Tilt, ICameraControlput_Tilt, dshow.icameracontrol_put_tilt, put_Tilt method [DirectShow], put_Tilt method [DirectShow], ICameraControl interface, put_Tilt,ICameraControl.put_Tilt, vidcap/ICameraControl::put_Tilt
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],put_Tilt method, ICameraControl.put_Tilt, ICameraControl::put_Tilt, ICameraControlput_Tilt, dshow.icameracontrol_put_tilt, put_Tilt, put_Tilt method [DirectShow], put_Tilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Tilt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::put_Tilt method
+# ICameraControl::put_Tilt
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: winsock\wspproc_table.htm
 old-project: WinSock
 ms.assetid: f6fbf6da-58c5-4cef-8897-789a1e02aabb
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPWSPPROC_TABLE, FAR * LPWSPPROC_TABLE, FAR * LPWSPPROC_TABLE structure [Winsock], WSPPROC_TABLE, WSPPROC_TABLE structure [Winsock], _WSPPROC_TABLE, winsock.wspproc_table, ws2spi/FAR * LPWSPPROC_TABLE, ws2spi/WSPPROC_TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

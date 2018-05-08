@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryReader.GetMetadataByName
-title: IWICMetadataQueryReader::GetMetadataByName method
+title: IWICMetadataQueryReader::GetMetadataByName
 author: windows-driver-content
 description: Retrieves the metadata block or item identified by a metadata query expression.
 old-location: wic\_wic_codec_iwicmetadataqueryreader_getmetadatabyname.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 29d53a14-0509-4a96-9b8b-59952770559a
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetMetadataByName method [Windows Imaging Component], GetMetadataByName method [Windows Imaging Component], IWICMetadataQueryReader interface, GetMetadataByName,IWICMetadataQueryReader.GetMetadataByName, IWICMetadataQueryReader, IWICMetadataQueryReader interface [Windows Imaging Component], GetMetadataByName method, IWICMetadataQueryReader::GetMetadataByName, _wic_codec_iwicmetadataqueryreader_getmetadatabyname, wic._wic_codec_iwicmetadataqueryreader_getmetadatabyname, wincodec/IWICMetadataQueryReader::GetMetadataByName
+ms.keywords: GetMetadataByName, GetMetadataByName method [Windows Imaging Component], GetMetadataByName method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetMetadataByName method, IWICMetadataQueryReader.GetMetadataByName, IWICMetadataQueryReader::GetMetadataByName, _wic_codec_iwicmetadataqueryreader_getmetadatabyname, wic._wic_codec_iwicmetadataqueryreader_getmetadatabyname, wincodec/IWICMetadataQueryReader::GetMetadataByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataQueryReader::GetMetadataByName method
+# IWICMetadataQueryReader::GetMetadataByName
 
 
 ## -description

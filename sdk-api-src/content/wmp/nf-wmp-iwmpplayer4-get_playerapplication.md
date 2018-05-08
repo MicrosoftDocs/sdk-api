@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayer4.get_playerApplication
-title: IWMPPlayer4::get_playerApplication method
+title: IWMPPlayer4::get_playerApplication
 author: windows-driver-content
 description: The get_playerApplication method retrieves a pointer to an IWMPPlayerApplication interface when a remoted Windows Media Player control is running.
 old-location: wmp\iwmpplayer4_get_playerapplication.htm
 old-project: WMP
 ms.assetid: 37b4b0b1-f16e-42ed-830e-9b0468a66eeb
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayer4, IWMPPlayer4 interface [Windows Media Player], get_playerApplication method, IWMPPlayer4::get_playerApplication, IWMPPlayer4get_playerApplication, get_playerApplication method [Windows Media Player], get_playerApplication method [Windows Media Player], IWMPPlayer4 interface, get_playerApplication,IWMPPlayer4.get_playerApplication, wmp.iwmpplayer4_get_playerapplication, wmp/IWMPPlayer4::get_playerApplication
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayer4 interface [Windows Media Player],get_playerApplication method, IWMPPlayer4.get_playerApplication, IWMPPlayer4::get_playerApplication, IWMPPlayer4get_playerApplication, get_playerApplication, get_playerApplication method [Windows Media Player], get_playerApplication method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_get_playerapplication, wmp/IWMPPlayer4::get_playerApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayer4::get_playerApplication method
+# IWMPPlayer4::get_playerApplication
 
 
 ## -description

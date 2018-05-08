@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectContext.IsSecurityEnabled
-title: ObjectContext::IsSecurityEnabled method
+title: ObjectContext::IsSecurityEnabled
 author: windows-driver-content
 description: Indicates whether security is enabled for the current object.
 old-location: cos\objectcontext_issecurityenabled.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: c7b3a301-9f94-40de-a3d2-5387fb4e0596
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+], ObjectContext interface, IsSecurityEnabled,ObjectContext.IsSecurityEnabled, ObjectContext, ObjectContext interface [COM+], IsSecurityEnabled method, ObjectContext::IsSecurityEnabled, _cos_ObjectContext_IsSecurityEnabled, comsvcs/ObjectContext::IsSecurityEnabled, cos.objectcontext_issecurityenabled
+ms.keywords: IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+],ObjectContext interface, ObjectContext interface [COM+],IsSecurityEnabled method, ObjectContext.IsSecurityEnabled, ObjectContext::IsSecurityEnabled, _cos_ObjectContext_IsSecurityEnabled, comsvcs/ObjectContext::IsSecurityEnabled, cos.objectcontext_issecurityenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ObjectContext::IsSecurityEnabled method
+# ObjectContext::IsSecurityEnabled
 
 
 ## -description

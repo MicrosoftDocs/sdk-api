@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetBlockMap
-title: IAppxPackageReader::GetBlockMap method
+title: IAppxPackageReader::GetBlockMap
 author: windows-driver-content
 description: Retrieves the block map object model of the package.
 old-location: appxpkg\iappxpackagereader_getblockmap.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: FEBCA2E4-9B32-499B-AD31-9D90525A42DB
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetBlockMap method [App packaging and management], GetBlockMap method [App packaging and management], IAppxPackageReader interface, GetBlockMap,IAppxPackageReader.GetBlockMap, IAppxPackageReader, IAppxPackageReader interface [App packaging and management], GetBlockMap method, IAppxPackageReader::GetBlockMap, appxpackaging/IAppxPackageReader::GetBlockMap, appxpkg.iappxpackagereader_getblockmap
+ms.keywords: GetBlockMap, GetBlockMap method [App packaging and management], GetBlockMap method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetBlockMap method, IAppxPackageReader.GetBlockMap, IAppxPackageReader::GetBlockMap, appxpackaging/IAppxPackageReader::GetBlockMap, appxpkg.iappxpackagereader_getblockmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxPackageReader::GetBlockMap method
+# IAppxPackageReader::GetBlockMap
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 781eda1e-1f13-4bb4-ae8e-c9bf4c08e125
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsSecurityUtility, IADsSecurityUtility interface [ADSI], IADsSecurityUtility interface [ADSI], described, _ds_iadssecurityutility, adsi.iadssecurityutility, iads/IADsSecurityUtility
+ms.keywords: IADsSecurityUtility, IADsSecurityUtility interface [ADSI], IADsSecurityUtility interface [ADSI],described, _ds_iadssecurityutility, adsi.iadssecurityutility, iads/IADsSecurityUtility
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

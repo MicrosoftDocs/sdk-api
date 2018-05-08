@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestApplicationsEnumerator.GetHasCurrent
-title: IAppxManifestApplicationsEnumerator::GetHasCurrent method
+title: IAppxManifestApplicationsEnumerator::GetHasCurrent
 author: windows-driver-content
 description: Determines whether there is an application at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestapplicationsenumerator_gethascurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 3A497746-3AEB-4B20-9AD0-CD7B5F35853C
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management], IAppxManifestApplicationsEnumerator interface, GetHasCurrent,IAppxManifestApplicationsEnumerator.GetHasCurrent, IAppxManifestApplicationsEnumerator, IAppxManifestApplicationsEnumerator interface [App packaging and management], GetHasCurrent method, IAppxManifestApplicationsEnumerator::GetHasCurrent, appxpackaging/IAppxManifestApplicationsEnumerator::GetHasCurrent, appxpkg.iappxmanifestapplicationsenumerator_gethascurrent
+ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxManifestApplicationsEnumerator interface, IAppxManifestApplicationsEnumerator interface [App packaging and management],GetHasCurrent method, IAppxManifestApplicationsEnumerator.GetHasCurrent, IAppxManifestApplicationsEnumerator::GetHasCurrent, appxpackaging/IAppxManifestApplicationsEnumerator::GetHasCurrent, appxpkg.iappxmanifestapplicationsenumerator_gethascurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestApplicationsEnumerator::GetHasCurrent method
+# IAppxManifestApplicationsEnumerator::GetHasCurrent
 
 
 ## -description

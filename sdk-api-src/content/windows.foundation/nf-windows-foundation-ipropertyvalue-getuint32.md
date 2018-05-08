@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt32
-title: IPropertyValue::GetUInt32 method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the unsigned 32-bit integer value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getuint32.htm
 old-project: WinRT
 ms.assetid: 3675764D-7073-479B-8B9A-0AD037A963FB
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetUInt32 method [Windows Runtime], GetUInt32 method [Windows Runtime], IPropertyValue interface, GetUInt32,IPropertyValue.GetUInt32, IPropertyValue, IPropertyValue interface [Windows Runtime], GetUInt32 method, IPropertyValue::GetUInt32, windows/IPropertyValue::GetUInt32, winrt.ipropertyvalue_getuint32
+ms.date: 5/4/2018
+ms.keywords: GetUInt32, GetUInt32 method [Windows Runtime], GetUInt32 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt32 method, IPropertyValue.GetUInt32, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt32, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt32, winrt.ipropertyvalue_getuint32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetUInt32 method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

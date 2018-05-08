@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 8bd53f1e-731f-420b-a529-ca3f6c3fd97c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITextProvider, ITextProvider interface [Windows Accessibility], ITextProvider interface [Windows Accessibility], described, uiauto.uiauto_ITextProvider, uiauto_ITextProvider, uiautomationcore/ITextProvider, winauto.uiauto_ITextProvider
+ms.keywords: ITextProvider, ITextProvider interface [Windows Accessibility], ITextProvider interface [Windows Accessibility],described, uiauto.uiauto_ITextProvider, uiauto_ITextProvider, uiautomationcore/ITextProvider, winauto.uiauto_ITextProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

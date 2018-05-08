@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Format
-title: IMsmConfigurableItem::get_Format method
+title: IMsmConfigurableItem::get_Format
 author: windows-driver-content
 description: The get_Format method retrieves the Format property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_format.htm
@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: 85db7d8b-e3f2-4a7a-840f-2d690aa82917
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, get_Format method, IMsmConfigurableItem::get_Format, _msi_get_format_function, get_Format method, get_Format method, IMsmConfigurableItem interface, get_Format,IMsmConfigurableItem.get_Format, mergemod/IMsmConfigurableItem::get_Format, setup.imsmconfigurableitem_get_format
+ms.keywords: IMsmConfigurableItem interface,get_Format method, IMsmConfigurableItem.get_Format, IMsmConfigurableItem::get_Format, _msi_get_format_function, get_Format, get_Format method, get_Format method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Format, setup.imsmconfigurableitem_get_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMsmConfigurableItem::get_Format method
+# IMsmConfigurableItem::get_Format
 
 
 ## -description

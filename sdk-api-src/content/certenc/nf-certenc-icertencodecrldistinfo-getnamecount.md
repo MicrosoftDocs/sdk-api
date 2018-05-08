@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.GetNameCount
-title: ICertEncodeCRLDistInfo::GetNameCount method
+title: ICertEncodeCRLDistInfo::GetNameCount
 author: windows-driver-content
 description: Returns the number of names in a certificate revocation list (CRL) distribution point.
 old-location: security\icertencodecrldistinfo_getnamecount.htm
 old-project: SecCrypto
 ms.assetid: 64102b89-defe-4f26-b6b2-8c3903e08347
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeCRLDistInfo object [Security], GetNameCount method, GetNameCount method [Security], GetNameCount method [Security], CCertEncodeCRLDistInfo object, GetNameCount method [Security], ICertEncodeCRLDistInfo interface, GetNameCount,ICertEncodeCRLDistInfo.GetNameCount, ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], GetNameCount method, ICertEncodeCRLDistInfo::GetNameCount, _certsrv_icertencodecrldistinfo_getnamecount, certenc/ICertEncodeCRLDistInfo::GetNameCount, security.icertencodecrldistinfo_getnamecount
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeCRLDistInfo object [Security],GetNameCount method, GetNameCount, GetNameCount method [Security], GetNameCount method [Security],CCertEncodeCRLDistInfo object, GetNameCount method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetNameCount method, ICertEncodeCRLDistInfo.GetNameCount, ICertEncodeCRLDistInfo::GetNameCount, _certsrv_icertencodecrldistinfo_getnamecount, certenc/ICertEncodeCRLDistInfo::GetNameCount, security.icertencodecrldistinfo_getnamecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeCRLDistInfo::GetNameCount method
+# ICertEncodeCRLDistInfo::GetNameCount
 
 
 ## -description

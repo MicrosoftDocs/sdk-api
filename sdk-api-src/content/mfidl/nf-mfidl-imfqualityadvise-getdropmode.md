@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise.GetDropMode
-title: IMFQualityAdvise::GetDropMode method
+title: IMFQualityAdvise::GetDropMode
 author: windows-driver-content
 description: Retrieves the current drop mode.
 old-location: mf\imfqualityadvise_getdropmode.htm
 old-project: medfound
 ms.assetid: bb700a3e-837f-4e88-a9b7-294c41143402
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDropMode method [Media Foundation], GetDropMode method [Media Foundation], IMFQualityAdvise interface, GetDropMode,IMFQualityAdvise.GetDropMode, IMFQualityAdvise, IMFQualityAdvise interface [Media Foundation], GetDropMode method, IMFQualityAdvise::GetDropMode, bb700a3e-837f-4e88-a9b7-294c41143402, mf.imfqualityadvise_getdropmode, mfidl/IMFQualityAdvise::GetDropMode
+ms.date: 5/3/2018
+ms.keywords: GetDropMode, GetDropMode method [Media Foundation], GetDropMode method [Media Foundation],IMFQualityAdvise interface, IMFQualityAdvise interface [Media Foundation],GetDropMode method, IMFQualityAdvise.GetDropMode, IMFQualityAdvise::GetDropMode, bb700a3e-837f-4e88-a9b7-294c41143402, mf.imfqualityadvise_getdropmode, mfidl/IMFQualityAdvise::GetDropMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFQualityAdvise::GetDropMode method
+# IMFQualityAdvise::GetDropMode
 
 
 ## -description

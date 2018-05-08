@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetContext
-title: IWSDHttpMessageParameters::SetContext method
+title: IWSDHttpMessageParameters::SetContext
 author: windows-driver-content
 description: Sets the private transmission context for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_setcontext.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 8e1bbfbe-b7a7-4235-bb2d-8ee0ef301871
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, SetContext method, IWSDHttpMessageParameters::SetContext, SetContext method, SetContext method, IWSDHttpMessageParameters interface, SetContext,IWSDHttpMessageParameters.SetContext, ncd.iwsdhttpmessageparameters_setcontext, wsdbase/IWSDHttpMessageParameters::SetContext
+ms.keywords: IWSDHttpMessageParameters interface,SetContext method, IWSDHttpMessageParameters.SetContext, IWSDHttpMessageParameters::SetContext, SetContext, SetContext method, SetContext method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setcontext, wsdbase/IWSDHttpMessageParameters::SetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDHttpMessageParameters::SetContext method
+# IWSDHttpMessageParameters::SetContext
 
 
 ## -description

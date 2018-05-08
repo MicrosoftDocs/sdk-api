@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: f94bdf80-abea-4a97-9d41-add498e314b1
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_WRITE_TYPE_CALLBACK, WS_WRITE_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_TYPE_CALLBACK, wsw.ws_write_type_callback
+ms.keywords: WS_WRITE_TYPE_CALLBACK, WS_WRITE_TYPE_CALLBACK callback, WS_WRITE_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_TYPE_CALLBACK, wsw.ws_write_type_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_WRITE_TYPE_CALLBACK callback
+# WS_WRITE_TYPE_CALLBACK callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.Move
-title: IUIAutomationTransformPattern::Move method
+title: IUIAutomationTransformPattern::Move
 author: windows-driver-content
 description: Moves the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Move.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 6529de7b-cb7d-4e18-b274-bc6bf003f912
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationTransformPattern, IUIAutomationTransformPattern interface [Windows Accessibility], Move method, IUIAutomationTransformPattern::Move, Move method [Windows Accessibility], Move method [Windows Accessibility], IUIAutomationTransformPattern interface, Move,IUIAutomationTransformPattern.Move, uiauto.uiauto_IUIAutomationTransformPattern_Move, uiauto_IUIAutomationTransformPattern_Move, uiautomationclient/IUIAutomationTransformPattern::Move, winauto.uiauto_IUIAutomationTransformPattern_Move
+ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Move method, IUIAutomationTransformPattern.Move, IUIAutomationTransformPattern::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],IUIAutomationTransformPattern interface, uiauto.uiauto_IUIAutomationTransformPattern_Move, uiauto_IUIAutomationTransformPattern_Move, uiautomationclient/IUIAutomationTransformPattern::Move, winauto.uiauto_IUIAutomationTransformPattern_Move
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTransformPattern::Move method
+# IUIAutomationTransformPattern::Move
 
 
 ## -description

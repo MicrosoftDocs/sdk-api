@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICreateWithTipTransactionEx.CreateInstance
-title: ICreateWithTipTransactionEx::CreateInstance method
+title: ICreateWithTipTransactionEx::CreateInstance
 author: windows-driver-content
 description: Creates a COM+ object that executes within the scope of the manual transaction specified by a TIP transaction URL.
 old-location: cos\icreatewithtiptransactionex_createinstance.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 3f0572eb-8633-4dc3-a013-9cf859241cd7
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateInstance method [COM+], CreateInstance method [COM+], ICreateWithTipTransactionEx interface, CreateInstance,ICreateWithTipTransactionEx.CreateInstance, ICreateWithTipTransactionEx, ICreateWithTipTransactionEx interface [COM+], CreateInstance method, ICreateWithTipTransactionEx::CreateInstance, _dtc_ICreateWithTipTransactionEx_CreateInstance, comsvcs/ICreateWithTipTransactionEx::CreateInstance, cos.icreatewithtiptransactionex_createinstance
+ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ICreateWithTipTransactionEx interface, ICreateWithTipTransactionEx interface [COM+],CreateInstance method, ICreateWithTipTransactionEx.CreateInstance, ICreateWithTipTransactionEx::CreateInstance, _dtc_ICreateWithTipTransactionEx_CreateInstance, comsvcs/ICreateWithTipTransactionEx::CreateInstance, cos.icreatewithtiptransactionex_createinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICreateWithTipTransactionEx::CreateInstance method
+# ICreateWithTipTransactionEx::CreateInstance
 
 
 ## -description

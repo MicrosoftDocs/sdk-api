@@ -8,7 +8,7 @@ old-project: dedup
 ms.assetid: 45AACC37-3C83-4DBA-8C18-26D76ED831BB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDedupBackupSupport, IDedupBackupSupport interface [Data Deduplication API], IDedupBackupSupport interface [Data Deduplication API], described, ddpbackup/IDedupBackupSupport, dedup.idedupbackupsupport
+ms.keywords: IDedupBackupSupport, IDedupBackupSupport interface [Data Deduplication API], IDedupBackupSupport interface [Data Deduplication API],described, ddpbackup/IDedupBackupSupport, dedup.idedupbackupsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

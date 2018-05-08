@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.DoubleClick
-title: IWMPEvents::DoubleClick method
+title: IWMPEvents::DoubleClick
 author: windows-driver-content
 description: The DoubleClick event occurs when the user double-clicks a mouse button.
 old-location: wmp\iwmpevents_iwmpevents__doubleclick.htm
 old-project: WMP
 ms.assetid: 76b1eebb-45d9-40fc-a845-24a7dac8c96c
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: DoubleClick method [Windows Media Player], DoubleClick method [Windows Media Player], IWMPEvents interface, DoubleClick,IWMPEvents.DoubleClick, IWMPEvents, IWMPEvents interface [Windows Media Player], DoubleClick method, IWMPEvents::DoubleClick, IWMPEventsDoubleClick, wmp.iwmpevents_iwmpevents__doubleclick, wmp/IWMPEvents::DoubleClick
+ms.date: 5/4/2018
+ms.keywords: DoubleClick, DoubleClick method [Windows Media Player], DoubleClick method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DoubleClick method, IWMPEvents.DoubleClick, IWMPEvents::DoubleClick, IWMPEventsDoubleClick, wmp.iwmpevents_iwmpevents__doubleclick, wmp/IWMPEvents::DoubleClick
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::DoubleClick method
+# IWMPEvents::DoubleClick
 
 
 ## -description

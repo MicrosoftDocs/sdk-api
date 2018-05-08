@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbFrequencyListDescriptor.GetTag
-title: IDvbFrequencyListDescriptor::GetTag method
+title: IDvbFrequencyListDescriptor::GetTag
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbfrequencylistdescriptor_gettag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 05c607b4-c5de-4a57-93c0-412c85d9f2fa
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbFrequencyListDescriptor interface, GetTag,IDvbFrequencyListDescriptor.GetTag, IDvbFrequencyListDescriptor, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbFrequencyListDescriptor::GetTag, IDvbFrequencyListDescriptorGetTag, dvbsiparser/IDvbFrequencyListDescriptor::GetTag, mstv.idvbfrequencylistdescriptor_gettag
+ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbFrequencyListDescriptor.GetTag, IDvbFrequencyListDescriptor::GetTag, IDvbFrequencyListDescriptorGetTag, dvbsiparser/IDvbFrequencyListDescriptor::GetTag, mstv.idvbfrequencylistdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbFrequencyListDescriptor::GetTag method
+# IDvbFrequencyListDescriptor::GetTag
 
 
 ## -description

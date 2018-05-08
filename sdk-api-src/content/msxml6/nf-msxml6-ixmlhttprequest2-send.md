@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.Send
-title: IXMLHTTPRequest2::Send method
+title: IXMLHTTPRequest2::Send
 author: windows-driver-content
 description: Sends an HTTP request to the server asynchronously. On success, methods on the IXMLHTTPRequest2Callback interface implemented by the app are called to process the response.
 old-location: ixhr2\ixmlhttprequest2_send.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: E46DB550-8346-41F2-9B35-4DFD9732B0D8
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest2, IXMLHTTPRequest2 interface [XMLHttpRequest2], Send method, IXMLHTTPRequest2::Send, Send method [XMLHttpRequest2], Send method [XMLHttpRequest2], IXMLHTTPRequest2 interface, Send,IXMLHTTPRequest2.Send, ixhr2.ixmlhttprequest2_send, msxml6/IXMLHTTPRequest2::Send
+ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],Send method, IXMLHTTPRequest2.Send, IXMLHTTPRequest2::Send, Send, Send method [XMLHttpRequest2], Send method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_send, msxml6/IXMLHTTPRequest2::Send
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest2::Send method
+# IXMLHTTPRequest2::Send
 
 
 ## -description

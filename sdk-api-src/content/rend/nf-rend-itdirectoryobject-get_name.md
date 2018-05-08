@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObject.get_Name
-title: ITDirectoryObject::get_Name method
+title: ITDirectoryObject::get_Name
 author: windows-driver-content
 description: The get_Name method gets the name of the directory object.
 old-location: tapi3\itdirectoryobject_get_name.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: b24c1e69-5ba1-4597-86fb-2233707a1acf
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITDirectoryObject, ITDirectoryObject interface [TAPI 2.2], get_Name method, ITDirectoryObject::get_Name, _tapi3_itdirectoryobject_get_name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2], ITDirectoryObject interface, get_Name,ITDirectoryObject.get_Name, rend/ITDirectoryObject::get_Name, tapi3.itdirectoryobject_get_name
+ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_Name method, ITDirectoryObject.get_Name, ITDirectoryObject::get_Name, _tapi3_itdirectoryobject_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_Name, tapi3.itdirectoryobject_get_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectoryObject::get_Name method
+# ITDirectoryObject::get_Name
 
 
 ## -description

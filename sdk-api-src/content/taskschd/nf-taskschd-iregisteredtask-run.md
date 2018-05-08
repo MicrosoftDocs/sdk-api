@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.Run
-title: IRegisteredTask::Run method
+title: IRegisteredTask::Run
 author: windows-driver-content
 description: Runs the registered task immediately.
 old-location: taskschd\iregisteredtask_run.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 6b237ddd-e4e8-47f7-97e7-360e79841acc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], Run method, IRegisteredTask::Run, Run method [Task Scheduler], Run method [Task Scheduler], IRegisteredTask interface, Run,IRegisteredTask.Run, taskschd.iregisteredtask_run, taskschd/IRegisteredTask::Run
+ms.keywords: IRegisteredTask interface [Task Scheduler],Run method, IRegisteredTask.Run, IRegisteredTask::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_run, taskschd/IRegisteredTask::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegisteredTask::Run method
+# IRegisteredTask::Run
 
 
 ## -description

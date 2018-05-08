@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVideoCompression.get_PFramesPerKeyFrame
-title: IAMVideoCompression::get_PFramesPerKeyFrame method
+title: IAMVideoCompression::get_PFramesPerKeyFrame
 author: windows-driver-content
 description: The get_PFramesPerKeyFrame method retrieves the rate of predicted (P) frames per key frame.
 old-location: dshow\iamvideocompression_get_pframesperkeyframe.htm
 old-project: DirectShow
 ms.assetid: 621292dd-42d9-4458-8971-929db39ed8b9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVideoCompression, IAMVideoCompression interface [DirectShow], get_PFramesPerKeyFrame method, IAMVideoCompression::get_PFramesPerKeyFrame, IAMVideoCompressionget_PFramesPerKeyFrame, dshow.iamvideocompression_get_pframesperkeyframe, get_PFramesPerKeyFrame method [DirectShow], get_PFramesPerKeyFrame method [DirectShow], IAMVideoCompression interface, get_PFramesPerKeyFrame,IAMVideoCompression.get_PFramesPerKeyFrame, strmif/IAMVideoCompression::get_PFramesPerKeyFrame
+ms.date: 4/30/2018
+ms.keywords: IAMVideoCompression interface [DirectShow],get_PFramesPerKeyFrame method, IAMVideoCompression.get_PFramesPerKeyFrame, IAMVideoCompression::get_PFramesPerKeyFrame, IAMVideoCompressionget_PFramesPerKeyFrame, dshow.iamvideocompression_get_pframesperkeyframe, get_PFramesPerKeyFrame, get_PFramesPerKeyFrame method [DirectShow], get_PFramesPerKeyFrame method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_PFramesPerKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVideoCompression::get_PFramesPerKeyFrame method
+# IAMVideoCompression::get_PFramesPerKeyFrame
 
 
 ## -description

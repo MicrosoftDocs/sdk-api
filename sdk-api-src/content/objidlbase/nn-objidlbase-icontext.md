@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 89c41d9c-186c-4927-990d-92aa501f7d35
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IContext, IContext interface [COM], IContext interface [COM], described, _com_icontext, com.icontext, objidlbase/IContext
+ms.keywords: IContext, IContext interface [COM], IContext interface [COM],described, _com_icontext, com.icontext, objidlbase/IContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

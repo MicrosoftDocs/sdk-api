@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.OnTime
-title: IWMReaderCallbackAdvanced::OnTime method
+title: IWMReaderCallbackAdvanced::OnTime
 author: windows-driver-content
 description: The OnTime method notifies the application of the clock time the reader is working to. This method is used when a user-provided clock has been specified.
 old-location: wmformat\iwmreadercallbackadvanced_ontime.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 9913bbc4-df59-484f-b050-324e2ecdeb1c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderCallbackAdvanced, IWMReaderCallbackAdvanced interface [windows Media Format], OnTime method, IWMReaderCallbackAdvanced::OnTime, IWMReaderCallbackAdvancedOnTime, OnTime method [windows Media Format], OnTime method [windows Media Format], IWMReaderCallbackAdvanced interface, OnTime,IWMReaderCallbackAdvanced.OnTime, wmformat.iwmreadercallbackadvanced_ontime, wmsdkidl/IWMReaderCallbackAdvanced::OnTime
+ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnTime method, IWMReaderCallbackAdvanced.OnTime, IWMReaderCallbackAdvanced::OnTime, IWMReaderCallbackAdvancedOnTime, OnTime, OnTime method [windows Media Format], OnTime method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_ontime, wmsdkidl/IWMReaderCallbackAdvanced::OnTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderCallbackAdvanced::OnTime method
+# IWMReaderCallbackAdvanced::OnTime
 
 
 ## -description

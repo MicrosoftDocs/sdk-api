@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.Pop
-title: ITfDocumentMgr::Pop method
+title: ITfDocumentMgr::Pop
 author: windows-driver-content
 description: ITfDocumentMgr::Pop method
 old-location: tsf\itfdocumentmgr_pop.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: bbf65d8d-5a59-4c4b-a132-fa28babcd70b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfDocumentMgr, ITfDocumentMgr interface [Text Services Framework], Pop method, ITfDocumentMgr::Pop, Pop method [Text Services Framework], Pop method [Text Services Framework], ITfDocumentMgr interface, Pop,ITfDocumentMgr.Pop, _tsf_itfdocumentmgr_pop_ref, msctf/ITfDocumentMgr::Pop, tsf.itfdocumentmgr_pop
+ms.keywords: ITfDocumentMgr interface [Text Services Framework],Pop method, ITfDocumentMgr.Pop, ITfDocumentMgr::Pop, Pop, Pop method [Text Services Framework], Pop method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_pop_ref, msctf/ITfDocumentMgr::Pop, tsf.itfdocumentmgr_pop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfDocumentMgr::Pop method
+# ITfDocumentMgr::Pop
 
 
 ## -description

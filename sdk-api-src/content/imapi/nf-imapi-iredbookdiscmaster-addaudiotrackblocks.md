@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.AddAudioTrackBlocks
-title: IRedbookDiscMaster::AddAudioTrackBlocks method
+title: IRedbookDiscMaster::AddAudioTrackBlocks
 author: windows-driver-content
 description: Adds blocks of audio data to the currently open track. This method can be called repeatedly until there is no space available or the track is full.
 old-location: imapi\iredbookdiscmaster_addaudiotrackblocks.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d9bd4f3c-4ff5-4f6e-9520-27fef3736636
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddAudioTrackBlocks method [IMAPI], AddAudioTrackBlocks method [IMAPI], IRedbookDiscMaster interface, AddAudioTrackBlocks,IRedbookDiscMaster.AddAudioTrackBlocks, IRedbookDiscMaster, IRedbookDiscMaster interface [IMAPI], AddAudioTrackBlocks method, IRedbookDiscMaster::AddAudioTrackBlocks, _win32_iredbookdiscmaster_addaudiotrackblocks, base.iredbookdiscmaster_addaudiotrackblocks, imapi.iredbookdiscmaster_addaudiotrackblocks, imapi/IRedbookDiscMaster::AddAudioTrackBlocks
+ms.keywords: AddAudioTrackBlocks, AddAudioTrackBlocks method [IMAPI], AddAudioTrackBlocks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],AddAudioTrackBlocks method, IRedbookDiscMaster.AddAudioTrackBlocks, IRedbookDiscMaster::AddAudioTrackBlocks, _win32_iredbookdiscmaster_addaudiotrackblocks, base.iredbookdiscmaster_addaudiotrackblocks, imapi.iredbookdiscmaster_addaudiotrackblocks, imapi/IRedbookDiscMaster::AddAudioTrackBlocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRedbookDiscMaster::AddAudioTrackBlocks method
+# IRedbookDiscMaster::AddAudioTrackBlocks
 
 
 ## -description

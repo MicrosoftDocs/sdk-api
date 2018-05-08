@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.GetAsyncState
-title: IWSDAsyncResult::GetAsyncState method
+title: IWSDAsyncResult::GetAsyncState
 author: windows-driver-content
 description: Gets the state of the asynchronous operation.
 old-location: ncd\iwsdasyncresult_getasyncstate_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 4f4115bd-748e-41cd-928f-3dd3a354d336
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetAsyncState method, GetAsyncState method, IWSDAsyncResult interface, GetAsyncState,IWSDAsyncResult.GetAsyncState, IWSDAsyncResult, IWSDAsyncResult interface, GetAsyncState method, IWSDAsyncResult::GetAsyncState, ncd.iwsdasyncresult_getasyncstate_method, wsdclient/IWSDAsyncResult::GetAsyncState
+ms.keywords: GetAsyncState, GetAsyncState method, GetAsyncState method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetAsyncState method, IWSDAsyncResult.GetAsyncState, IWSDAsyncResult::GetAsyncState, ncd.iwsdasyncresult_getasyncstate_method, wsdclient/IWSDAsyncResult::GetAsyncState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDAsyncResult::GetAsyncState method
+# IWSDAsyncResult::GetAsyncState
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction
-title: IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction method
+title: IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction
 author: windows-driver-content
 description: Retrieves the Microsoft Active Accessibility default action for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: acd43075-4f53-48d3-a039-0882a4833d9e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedDefaultAction property [Windows Accessibility], CachedDefaultAction property [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], CachedDefaultAction property, IUIAutomationLegacyIAccessiblePattern.CachedDefaultAction, IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction, get_CachedDefaultAction,IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction
+ms.keywords: CachedDefaultAction property [Windows Accessibility], CachedDefaultAction property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedDefaultAction property, IUIAutomationLegacyIAccessiblePattern.CachedDefaultAction, IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction, IUIAutomationLegacyIAccessiblePattern::CachedDefaultAction, IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction, get_CachedDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction method
+# IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction
 
 
 ## -description

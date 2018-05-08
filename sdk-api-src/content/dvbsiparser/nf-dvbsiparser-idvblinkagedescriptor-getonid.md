@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetONId
-title: IDvbLinkageDescriptor::GetONId method
+title: IDvbLinkageDescriptor::GetONId
 author: windows-driver-content
 description: Gets the network identifier of the broadcast system that originated an information service from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getonid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e7c27f45-032a-46d5-b5ae-8a4ef2ee2ebc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetONId method [Microsoft TV Technologies], GetONId method [Microsoft TV Technologies], IDvbLinkageDescriptor interface, GetONId,IDvbLinkageDescriptor.GetONId, IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft TV Technologies], GetONId method, IDvbLinkageDescriptor::GetONId, dvbsiparser/IDvbLinkageDescriptor::GetONId, mstv.idvblinkagedescriptor_getonid
+ms.keywords: GetONId, GetONId method [Microsoft TV Technologies], GetONId method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetONId method, IDvbLinkageDescriptor.GetONId, IDvbLinkageDescriptor::GetONId, dvbsiparser/IDvbLinkageDescriptor::GetONId, mstv.idvblinkagedescriptor_getonid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLinkageDescriptor::GetONId method
+# IDvbLinkageDescriptor::GetONId
 
 
 ## -description

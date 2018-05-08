@@ -7,7 +7,7 @@ old-location: security\cryptgetdefaultoidfunctionaddress.htm
 old-project: SecCrypto
 ms.assetid: 3977368c-ad13-43f9-859b-10c7f170f482
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CryptGetDefaultOIDFunctionAddress, CryptGetDefaultOIDFunctionAddress function [Security], _crypto2_cryptgetdefaultoidfunctionaddress, security.cryptgetdefaultoidfunctionaddress, wincrypt/CryptGetDefaultOIDFunctionAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

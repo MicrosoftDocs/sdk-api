@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.AddContent
-title: IDirectManipulationViewport::AddContent method
+title: IDirectManipulationViewport::AddContent
 author: windows-driver-content
 description: Adds secondary content, such as a panning indicator, to a viewport.
 old-location: directmanipulation\idirectmanipulationviewport_addcontent.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 1c404e9a-832d-47af-b162-2783faa05237
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddContent method [Direct Manipulation], AddContent method [Direct Manipulation], IDirectManipulationViewport interface, AddContent,IDirectManipulationViewport.AddContent, IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], AddContent method, IDirectManipulationViewport::AddContent, directmanipulation.idirectmanipulationviewport_addcontent, directmanipulation/IDirectManipulationViewport::AddContent
+ms.keywords: AddContent, AddContent method [Direct Manipulation], AddContent method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddContent method, IDirectManipulationViewport.AddContent, IDirectManipulationViewport::AddContent, directmanipulation.idirectmanipulationviewport_addcontent, directmanipulation/IDirectManipulationViewport::AddContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::AddContent method
+# IDirectManipulationViewport::AddContent
 
 
 ## -description

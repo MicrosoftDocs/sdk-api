@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetMutualExclusion
-title: IWMProfile::GetMutualExclusion method
+title: IWMProfile::GetMutualExclusion
 author: windows-driver-content
 description: The GetMutualExclusion method retrieves a mutual exclusion object from the profile.
 old-location: wmformat\iwmprofile_getmutualexclusion.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 949bb57f-8656-420e-b317-8ca7eb977a4e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetMutualExclusion method [windows Media Format], GetMutualExclusion method [windows Media Format], IWMProfile interface, GetMutualExclusion method [windows Media Format], IWMProfile2 interface, GetMutualExclusion method [windows Media Format], IWMProfile3 interface, GetMutualExclusion,IWMProfile.GetMutualExclusion, IWMProfile, IWMProfile interface [windows Media Format], GetMutualExclusion method, IWMProfile2 interface [windows Media Format], GetMutualExclusion method, IWMProfile2::GetMutualExclusion, IWMProfile3 interface [windows Media Format], GetMutualExclusion method, IWMProfile3::GetMutualExclusion, IWMProfile::GetMutualExclusion, IWMProfileGetMutualExclusion, wmformat.iwmprofile_getmutualexclusion, wmsdkidl/IWMProfile2::GetMutualExclusion, wmsdkidl/IWMProfile3::GetMutualExclusion, wmsdkidl/IWMProfile::GetMutualExclusion
+ms.keywords: GetMutualExclusion, GetMutualExclusion method [windows Media Format], GetMutualExclusion method [windows Media Format],IWMProfile interface, GetMutualExclusion method [windows Media Format],IWMProfile2 interface, GetMutualExclusion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetMutualExclusion method, IWMProfile.GetMutualExclusion, IWMProfile2 interface [windows Media Format],GetMutualExclusion method, IWMProfile2::GetMutualExclusion, IWMProfile3 interface [windows Media Format],GetMutualExclusion method, IWMProfile3::GetMutualExclusion, IWMProfile::GetMutualExclusion, IWMProfileGetMutualExclusion, wmformat.iwmprofile_getmutualexclusion, wmsdkidl/IWMProfile2::GetMutualExclusion, wmsdkidl/IWMProfile3::GetMutualExclusion, wmsdkidl/IWMProfile::GetMutualExclusion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfile::GetMutualExclusion method
+# IWMProfile::GetMutualExclusion
 
 
 ## -description

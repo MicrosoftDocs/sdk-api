@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentDomain
-title: IDvdInfo::GetCurrentDomain method
+title: IDvdInfo::GetCurrentDomain
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current DVD domain of the DVD player.
 old-location: dshow\idvdinfo_getcurrentdomain.htm
 old-project: DirectShow
 ms.assetid: 35f173d5-fb8f-47e2-ab32-87fdb197710a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentDomain method [DirectShow], GetCurrentDomain method [DirectShow], IDvdInfo interface, GetCurrentDomain,IDvdInfo.GetCurrentDomain, IDvdInfo, IDvdInfo interface [DirectShow], GetCurrentDomain method, IDvdInfo::GetCurrentDomain, IDvdInfoGetCurrentDomain, dshow.idvdinfo_getcurrentdomain, strmif/IDvdInfo::GetCurrentDomain
+ms.date: 4/30/2018
+ms.keywords: GetCurrentDomain, GetCurrentDomain method [DirectShow], GetCurrentDomain method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentDomain method, IDvdInfo.GetCurrentDomain, IDvdInfo::GetCurrentDomain, IDvdInfoGetCurrentDomain, dshow.idvdinfo_getcurrentdomain, strmif/IDvdInfo::GetCurrentDomain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetCurrentDomain method
+# IDvdInfo::GetCurrentDomain
 
 
 ## -description

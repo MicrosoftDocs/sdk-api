@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.SetFlags
-title: IVdsVolume::SetFlags method
+title: IVdsVolume::SetFlags
 author: windows-driver-content
 description: Sets the volume flags.
 old-location: base\ivdsvolume_setflags.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: f426b089-6c5f-4ab4-aa92-127e24cb57b1
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsVolume, IVdsVolume interface [VDS], SetFlags method, IVdsVolume::SetFlags, SetFlags method [VDS], SetFlags method [VDS], IVdsVolume interface, SetFlags,IVdsVolume.SetFlags, base.ivdsvolume_setflags, vds/IVdsVolume::SetFlags
+ms.keywords: IVdsVolume interface [VDS],SetFlags method, IVdsVolume.SetFlags, IVdsVolume::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsVolume interface, base.ivdsvolume_setflags, vds/IVdsVolume::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolume::SetFlags method
+# IVdsVolume::SetFlags
 
 
 ## -description

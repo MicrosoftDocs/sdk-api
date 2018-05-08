@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Skip
-title: IEnumBitsPeers::Skip method
+title: IEnumBitsPeers::Skip
 author: windows-driver-content
 description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 old-location: bits\ienumbitspeers_skip.htm
 old-project: Bits
 ms.assetid: 23a9b424-11a3-4cbf-a867-93026f0725cc
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEnumBitsPeers, IEnumBitsPeers interface [BITS], Skip method, IEnumBitsPeers::Skip, Skip method [BITS], Skip method [BITS], IEnumBitsPeers interface, Skip,IEnumBitsPeers.Skip, bits.ienumbitspeers_skip, bits3_0/IEnumBitsPeers::Skip
+ms.date: 4/27/2018
+ms.keywords: IEnumBitsPeers interface [BITS],Skip method, IEnumBitsPeers.Skip, IEnumBitsPeers::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_skip, bits3_0/IEnumBitsPeers::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumBitsPeers::Skip method
+# IEnumBitsPeers::Skip
 
 
 ## -description

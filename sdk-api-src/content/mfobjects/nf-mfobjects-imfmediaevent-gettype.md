@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaEvent.GetType
-title: IMFMediaEvent::GetType method
+title: IMFMediaEvent::GetType
 author: windows-driver-content
 description: Retrieves the event type. The event type indicates what happened to trigger the event. It also defines the meaning of the event value.
 old-location: mf\imfmediaevent_gettype.htm
 old-project: medfound
 ms.assetid: b62e0d9f-dada-4b75-a8d3-568ee2955888
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetType method [Media Foundation], GetType method [Media Foundation], IMFMediaEvent interface, GetType,IMFMediaEvent.GetType, IMFMediaEvent, IMFMediaEvent interface [Media Foundation], GetType method, IMFMediaEvent::GetType, b62e0d9f-dada-4b75-a8d3-568ee2955888, mf.imfmediaevent_gettype, mfobjects/IMFMediaEvent::GetType
+ms.date: 5/3/2018
+ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetType method, IMFMediaEvent.GetType, IMFMediaEvent::GetType, b62e0d9f-dada-4b75-a8d3-568ee2955888, mf.imfmediaevent_gettype, mfobjects/IMFMediaEvent::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEvent::GetType method
+# IMFMediaEvent::GetType
 
 
 ## -description

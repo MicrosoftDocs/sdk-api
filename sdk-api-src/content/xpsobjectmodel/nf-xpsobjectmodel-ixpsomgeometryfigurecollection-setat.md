@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.SetAt
-title: IXpsOMGeometryFigureCollection::SetAt method
+title: IXpsOMGeometryFigureCollection::SetAt
 author: windows-driver-content
 description: Replaces an IXpsOMGeometryFigure interface pointer at a specified location in the collection.
 old-location: xps\ixpsomgeometryfigurecollection_setat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 59612109-8500-4bd9-a37c-120ef12aded4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGeometryFigureCollection, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging], SetAt method, IXpsOMGeometryFigureCollection::SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging], IXpsOMGeometryFigureCollection interface, SetAt,IXpsOMGeometryFigureCollection.SetAt, xps.ixpsomgeometryfigurecollection_setat, xpsobjectmodel/IXpsOMGeometryFigureCollection::SetAt
+ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMGeometryFigureCollection.SetAt, IXpsOMGeometryFigureCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, xps.ixpsomgeometryfigurecollection_setat, xpsobjectmodel/IXpsOMGeometryFigureCollection::SetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigureCollection::SetAt method
+# IXpsOMGeometryFigureCollection::SetAt
 
 
 ## -description

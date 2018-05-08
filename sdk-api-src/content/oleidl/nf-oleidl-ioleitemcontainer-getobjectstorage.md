@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleItemContainer.GetObjectStorage
-title: IOleItemContainer::GetObjectStorage method
+title: IOleItemContainer::GetObjectStorage
 author: windows-driver-content
 description: Retrieves a pointer to the storage for the specified object.
 old-location: com\ioleitemcontainer_getobjectstorage.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 13a094bc-bacc-40d5-9682-ecc6072966fa
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetObjectStorage method [COM], GetObjectStorage method [COM], IOleItemContainer interface, GetObjectStorage,IOleItemContainer.GetObjectStorage, IOleItemContainer, IOleItemContainer interface [COM], GetObjectStorage method, IOleItemContainer::GetObjectStorage, _com_ioleitemcontainer_getobjectstorage, com.ioleitemcontainer_getobjectstorage, oleidl/IOleItemContainer::GetObjectStorage
+ms.keywords: GetObjectStorage, GetObjectStorage method [COM], GetObjectStorage method [COM],IOleItemContainer interface, IOleItemContainer interface [COM],GetObjectStorage method, IOleItemContainer.GetObjectStorage, IOleItemContainer::GetObjectStorage, _com_ioleitemcontainer_getobjectstorage, com.ioleitemcontainer_getobjectstorage, oleidl/IOleItemContainer::GetObjectStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleItemContainer::GetObjectStorage method
+# IOleItemContainer::GetObjectStorage
 
 
 ## -description

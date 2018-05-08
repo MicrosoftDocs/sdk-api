@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.CreateContent
-title: IDirectManipulationManager::CreateContent method
+title: IDirectManipulationManager::CreateContent
 author: windows-driver-content
 description: The factory method that is used to create an instance of secondary content (such as a panning indicator) inside a viewport.
 old-location: directmanipulation\idirectmanipulationmanager_createcontent.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: f8a2fbb2-f662-4eb7-88fb-64286205f19e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateContent method [Direct Manipulation], CreateContent method [Direct Manipulation], IDirectManipulationManager interface, CreateContent,IDirectManipulationManager.CreateContent, IDirectManipulationManager, IDirectManipulationManager interface [Direct Manipulation], CreateContent method, IDirectManipulationManager::CreateContent, directmanipulation.idirectmanipulationmanager_createcontent, directmanipulation/IDirectManipulationManager::CreateContent
+ms.keywords: CreateContent, CreateContent method [Direct Manipulation], CreateContent method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],CreateContent method, IDirectManipulationManager.CreateContent, IDirectManipulationManager::CreateContent, directmanipulation.idirectmanipulationmanager_createcontent, directmanipulation/IDirectManipulationManager::CreateContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationManager::CreateContent method
+# IDirectManipulationManager::CreateContent
 
 
 ## -description

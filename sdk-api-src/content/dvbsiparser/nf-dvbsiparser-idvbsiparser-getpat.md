@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetPAT
-title: IDvbSiParser::GetPAT method
+title: IDvbSiParser::GetPAT
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_getpat.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 09413d56-e735-4ecf-a505-7d9e2c31d190
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPAT method [Microsoft TV Technologies], GetPAT method [Microsoft TV Technologies], IDvbSiParser interface, GetPAT,IDvbSiParser.GetPAT, IDvbSiParser, IDvbSiParser interface [Microsoft TV Technologies], GetPAT method, IDvbSiParser::GetPAT, IDvbSiParserGetPAT, dvbsiparser/IDvbSiParser::GetPAT, mstv.idvbsiparser_getpat
+ms.keywords: GetPAT, GetPAT method [Microsoft TV Technologies], GetPAT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetPAT method, IDvbSiParser.GetPAT, IDvbSiParser::GetPAT, IDvbSiParserGetPAT, dvbsiparser/IDvbSiParser::GetPAT, mstv.idvbsiparser_getpat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbSiParser::GetPAT method
+# IDvbSiParser::GetPAT
 
 
 ## -description

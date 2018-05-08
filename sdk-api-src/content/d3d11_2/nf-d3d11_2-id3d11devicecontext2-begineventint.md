@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.BeginEventInt
-title: ID3D11DeviceContext2::BeginEventInt method
+title: ID3D11DeviceContext2::BeginEventInt
 author: windows-driver-content
 description: Allows applications to annotate the beginning of a range of graphics commands.
 old-location: direct3d11\id3d11devicecontext2_begineventint.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 9a45e16f-a598-4196-ad9c-8a157ae94de0
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: BeginEventInt method [Direct3D 11], BeginEventInt method [Direct3D 11], ID3D11DeviceContext2 interface, BeginEventInt,ID3D11DeviceContext2.BeginEventInt, ID3D11DeviceContext2, ID3D11DeviceContext2 interface [Direct3D 11], BeginEventInt method, ID3D11DeviceContext2::BeginEventInt, d3d11_2/ID3D11DeviceContext2::BeginEventInt, direct3d11.id3d11devicecontext2_begineventint
+ms.keywords: BeginEventInt, BeginEventInt method [Direct3D 11], BeginEventInt method [Direct3D 11],ID3D11DeviceContext2 interface, ID3D11DeviceContext2 interface [Direct3D 11],BeginEventInt method, ID3D11DeviceContext2.BeginEventInt, ID3D11DeviceContext2::BeginEventInt, d3d11_2/ID3D11DeviceContext2::BeginEventInt, direct3d11.id3d11devicecontext2_begineventint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext2::BeginEventInt method
+# ID3D11DeviceContext2::BeginEventInt
 
 
 ## -description

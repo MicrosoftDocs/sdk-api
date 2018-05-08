@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 8a1b3b1f-1c9c-429f-958e-757b383c7e2a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMPlayerTimestampHook, IWMPlayerTimestampHook interface [windows Media Format], IWMPlayerTimestampHook interface [windows Media Format], described, IWMPlayerTimestampHookInterface, wmdxva/IWMPlayerTimestampHook, wmformat.iwmplayertimestamphook
+ms.keywords: IWMPlayerTimestampHook, IWMPlayerTimestampHook interface [windows Media Format], IWMPlayerTimestampHook interface [windows Media Format],described, IWMPlayerTimestampHookInterface, wmdxva/IWMPlayerTimestampHook, wmformat.iwmplayertimestamphook
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

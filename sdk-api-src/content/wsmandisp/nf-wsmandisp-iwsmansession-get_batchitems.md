@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.get_BatchItems
-title: IWSManSession::get_BatchItems method
+title: IWSManSession::get_BatchItems
 author: windows-driver-content
 description: Sets and gets the number of items in each enumeration batch.
 old-location: winrm\iwsmansession_batchitems.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 883fc265-b84e-4757-a9b1-8c52174cb701
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BatchItems property [Windows Remote Management], BatchItems property [Windows Remote Management], IWSManSession interface, IWSManSession, IWSManSession interface [Windows Remote Management], BatchItems property, IWSManSession.BatchItems, IWSManSession::get_BatchItems, IWSManSession::put_BatchItems, get_BatchItems,IWSManSession.get_BatchItems, winrm.iwsmansession_batchitems, wsmandisp/IWSManSession::BatchItems, wsmandisp/IWSManSession::get_BatchItems, wsmandisp/IWSManSession::put_BatchItems
+ms.keywords: BatchItems property [Windows Remote Management], BatchItems property [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],BatchItems property, IWSManSession.BatchItems, IWSManSession.get_BatchItems, IWSManSession::BatchItems, IWSManSession::get_BatchItems, IWSManSession::put_BatchItems, get_BatchItems, winrm.iwsmansession_batchitems, wsmandisp/IWSManSession::BatchItems, wsmandisp/IWSManSession::get_BatchItems, wsmandisp/IWSManSession::put_BatchItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManSession::get_BatchItems method
+# IWSManSession::get_BatchItems
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3DInclude, ID3DInclude interface [Direct3D 11], ID3DInclude interface [Direct3D 11], described, d3dcommon/ID3DInclude, direct3d11.id3dinclude
+ms.keywords: ID3DInclude, ID3DInclude interface [Direct3D 11], ID3DInclude interface [Direct3D 11],described, d3dcommon/ID3DInclude, direct3d11.id3dinclude
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

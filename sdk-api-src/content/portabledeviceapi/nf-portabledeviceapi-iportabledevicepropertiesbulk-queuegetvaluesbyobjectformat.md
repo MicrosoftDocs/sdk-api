@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulk.QueueGetValuesByObjectFormat
-title: IPortableDevicePropertiesBulk::QueueGetValuesByObjectFormat method
+title: IPortableDevicePropertiesBulk::QueueGetValuesByObjectFormat
 author: windows-driver-content
 description: The QueueGetValuesByObjectFormat interface queues a request for properties of objects of a specific format on a device.
 old-location: wpdsdk\iportabledevicepropertiesbulk_queuegetvaluesbyobjectformat.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: a52b45b5-fd9b-4af5-bb82-293816190e38
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDevicePropertiesBulk, IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK], QueueGetValuesByObjectFormat method, IPortableDevicePropertiesBulk::QueueGetValuesByObjectFormat, IPortableDevicePropertiesBulkQueueGetValuesByObjectFormat, QueueGetValuesByObjectFormat method [Windows Portable Devices SDK], QueueGetValuesByObjectFormat method [Windows Portable Devices SDK], IPortableDevicePropertiesBulk interface, QueueGetValuesByObjectFormat,IPortableDevicePropertiesBulk.QueueGetValuesByObjectFormat, portabledeviceapi/IPortableDevicePropertiesBulk::QueueGetValuesByObjectFormat, wpdsdk.iportabledevicepropertiesbulk_queuegetvaluesbyobjectformat
+ms.keywords: IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],QueueGetValuesByObjectFormat method, IPortableDevicePropertiesBulk.QueueGetValuesByObjectFormat, IPortableDevicePropertiesBulk::QueueGetValuesByObjectFormat, IPortableDevicePropertiesBulkQueueGetValuesByObjectFormat, QueueGetValuesByObjectFormat, QueueGetValuesByObjectFormat method [Windows Portable Devices SDK], QueueGetValuesByObjectFormat method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, portabledeviceapi/IPortableDevicePropertiesBulk::QueueGetValuesByObjectFormat, wpdsdk.iportabledevicepropertiesbulk_queuegetvaluesbyobjectformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDevicePropertiesBulk::QueueGetValuesByObjectFormat method
+# IPortableDevicePropertiesBulk::QueueGetValuesByObjectFormat
 
 
 ## -description

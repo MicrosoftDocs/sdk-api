@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionManagerEvents.OnConnectionArrival
-title: IMbnConnectionManagerEvents::OnConnectionArrival method
+title: IMbnConnectionManagerEvents::OnConnectionArrival
 author: windows-driver-content
 description: Notification method that indicates a new connection was added to the system.
 old-location: mbn\imbnconnectionmanagerevents_onconnectionarrival.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 88e48ce0-b2eb-431e-be0f-03b1d22ca61b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnConnectionManagerEvents, IMbnConnectionManagerEvents interface [Microsoft Broadband Networks], OnConnectionArrival method, IMbnConnectionManagerEvents::OnConnectionArrival, OnConnectionArrival method [Microsoft Broadband Networks], OnConnectionArrival method [Microsoft Broadband Networks], IMbnConnectionManagerEvents interface, OnConnectionArrival,IMbnConnectionManagerEvents.OnConnectionArrival, mbn.imbnconnectionmanagerevents_onconnectionarrival, mbnapi/IMbnConnectionManagerEvents::OnConnectionArrival
+ms.keywords: IMbnConnectionManagerEvents interface [Microsoft Broadband Networks],OnConnectionArrival method, IMbnConnectionManagerEvents.OnConnectionArrival, IMbnConnectionManagerEvents::OnConnectionArrival, OnConnectionArrival, OnConnectionArrival method [Microsoft Broadband Networks], OnConnectionArrival method [Microsoft Broadband Networks],IMbnConnectionManagerEvents interface, mbn.imbnconnectionmanagerevents_onconnectionarrival, mbnapi/IMbnConnectionManagerEvents::OnConnectionArrival
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnectionManagerEvents::OnConnectionArrival method
+# IMbnConnectionManagerEvents::OnConnectionArrival
 
 
 ## -description

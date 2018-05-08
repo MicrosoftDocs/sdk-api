@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.GetInputStreamInfo
-title: IMFTransform::GetInputStreamInfo method
+title: IMFTransform::GetInputStreamInfo
 author: windows-driver-content
 description: Gets the buffer requirements and other information for an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getinputstreaminfo.htm
 old-project: medfound
 ms.assetid: d57ffac7-1a92-4c6b-bd59-0acd7239c0a6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetInputStreamInfo method [Media Foundation], GetInputStreamInfo method [Media Foundation], IMFTransform interface, GetInputStreamInfo,IMFTransform.GetInputStreamInfo, IMFTransform, IMFTransform interface [Media Foundation], GetInputStreamInfo method, IMFTransform::GetInputStreamInfo, d57ffac7-1a92-4c6b-bd59-0acd7239c0a6, mf.imftransform_getinputstreaminfo, mftransform/IMFTransform::GetInputStreamInfo
+ms.date: 5/3/2018
+ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [Media Foundation], GetInputStreamInfo method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamInfo method, IMFTransform.GetInputStreamInfo, IMFTransform::GetInputStreamInfo, d57ffac7-1a92-4c6b-bd59-0acd7239c0a6, mf.imftransform_getinputstreaminfo, mftransform/IMFTransform::GetInputStreamInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::GetInputStreamInfo method
+# IMFTransform::GetInputStreamInfo
 
 
 ## -description

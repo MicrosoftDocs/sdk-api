@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocInterfaces.Skip
-title: IEnumDot11AdHocInterfaces::Skip method
+title: IEnumDot11AdHocInterfaces::Skip
 author: windows-driver-content
 description: Skips over the next specified number of elements in the enumeration sequence.
 old-location: nwifi\ienumdot11adhocinterfaces_skip.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: e5c61005-3de0-420e-a1ff-2c5f08bcc67f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IEnumDot11AdHocInterfaces, IEnumDot11AdHocInterfaces interface [NativeWIFI], Skip method, IEnumDot11AdHocInterfaces::Skip, Skip method [NativeWIFI], Skip method [NativeWIFI], IEnumDot11AdHocInterfaces interface, Skip,IEnumDot11AdHocInterfaces.Skip, adhoc/IEnumDot11AdHocInterfaces::Skip, nwifi.ienumdot11adhocinterfaces_skip
+ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Skip method, IEnumDot11AdHocInterfaces.Skip, IEnumDot11AdHocInterfaces::Skip, Skip, Skip method [NativeWIFI], Skip method [NativeWIFI],IEnumDot11AdHocInterfaces interface, adhoc/IEnumDot11AdHocInterfaces::Skip, nwifi.ienumdot11adhocinterfaces_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumDot11AdHocInterfaces::Skip method
+# IEnumDot11AdHocInterfaces::Skip
 
 
 ## -description

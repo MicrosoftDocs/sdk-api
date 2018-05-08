@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 8570d40c-25c2-405c-b52a-dae6c0eb50e0
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMStatusMessage, IGPMStatusMessage, IGPMStatusMessage interface [GPMC], IGPMStatusMessage interface [GPMC], described, _win32_igpmstatusmessage, gpmc.igpmstatusmessage, gpmgmt/IGPMStatusMessage
+ms.keywords: GPMStatusMessage, IGPMStatusMessage, IGPMStatusMessage interface [GPMC], IGPMStatusMessage interface [GPMC],described, _win32_igpmstatusmessage, gpmc.igpmstatusmessage, gpmgmt/IGPMStatusMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDecimateVideoImage.ResetDecimationImageSize
-title: IDecimateVideoImage::ResetDecimationImageSize method
+title: IDecimateVideoImage::ResetDecimationImageSize
 author: windows-driver-content
 description: The ResetDecimationImageSize method specifies that the decoder should no longer decimate its output image.
 old-location: dshow\idecimatevideoimage_resetdecimationimagesize.htm
 old-project: DirectShow
 ms.assetid: cae80d57-d04a-4835-bb45-2198f36c0539
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDecimateVideoImage, IDecimateVideoImage interface [DirectShow], ResetDecimationImageSize method, IDecimateVideoImage::ResetDecimationImageSize, IDecimateVideoImageResetDecimationImageSize, ResetDecimationImageSize method [DirectShow], ResetDecimationImageSize method [DirectShow], IDecimateVideoImage interface, ResetDecimationImageSize,IDecimateVideoImage.ResetDecimationImageSize, dshow.idecimatevideoimage_resetdecimationimagesize, strmif/IDecimateVideoImage::ResetDecimationImageSize
+ms.date: 4/30/2018
+ms.keywords: IDecimateVideoImage interface [DirectShow],ResetDecimationImageSize method, IDecimateVideoImage.ResetDecimationImageSize, IDecimateVideoImage::ResetDecimationImageSize, IDecimateVideoImageResetDecimationImageSize, ResetDecimationImageSize, ResetDecimationImageSize method [DirectShow], ResetDecimationImageSize method [DirectShow],IDecimateVideoImage interface, dshow.idecimatevideoimage_resetdecimationimagesize, strmif/IDecimateVideoImage::ResetDecimationImageSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDecimateVideoImage::ResetDecimationImageSize method
+# IDecimateVideoImage::ResetDecimationImageSize
 
 
 ## -description

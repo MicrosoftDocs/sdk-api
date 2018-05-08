@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLogonErrorRedirector.RedirectStatus
-title: IWRdsProtocolLogonErrorRedirector::RedirectStatus method
+title: IWRdsProtocolLogonErrorRedirector::RedirectStatus
 author: windows-driver-content
 description: Queries the protocol regarding how to redirect the client logon status update.
 old-location: termserv\iwrdsprotocollogonerrorredirector_redirectstatus.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: f1f6caec-6e26-4508-b19d-ac0e12758b28
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolLogonErrorRedirector, IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services], RedirectStatus method, IWRdsProtocolLogonErrorRedirector::RedirectStatus, RedirectStatus method [Remote Desktop Services], RedirectStatus method [Remote Desktop Services], IWRdsProtocolLogonErrorRedirector interface, RedirectStatus,IWRdsProtocolLogonErrorRedirector.RedirectStatus, termserv.iwrdsprotocollogonerrorredirector_redirectstatus, wtsprotocol/IWRdsProtocolLogonErrorRedirector::RedirectStatus
+ms.keywords: IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectStatus method, IWRdsProtocolLogonErrorRedirector.RedirectStatus, IWRdsProtocolLogonErrorRedirector::RedirectStatus, RedirectStatus, RedirectStatus method [Remote Desktop Services], RedirectStatus method [Remote Desktop Services],IWRdsProtocolLogonErrorRedirector interface, termserv.iwrdsprotocollogonerrorredirector_redirectstatus, wtsprotocol/IWRdsProtocolLogonErrorRedirector::RedirectStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolLogonErrorRedirector::RedirectStatus method
+# IWRdsProtocolLogonErrorRedirector::RedirectStatus
 
 
 ## -description

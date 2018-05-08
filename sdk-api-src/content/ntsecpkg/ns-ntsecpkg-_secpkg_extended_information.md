@@ -74,44 +74,38 @@ A value from the
 Structure that contains the information.
 
 
-
-#### GssInfo
+### -field Info.GssInfo
 
 A 
 <a href="https://msdn.microsoft.com/a2df73ee-6c95-40d9-b1cb-9eaddb4100d6">SECPKG_GSS_INFO</a> structure that contains information used for GSS-compatible negotiations.
 
 
-
-#### ContextThunks
+### -field Info.ContextThunks
 
 A 
 <a href="https://msdn.microsoft.com/66604eaf-37f1-4c46-a62a-d8c821ad9039">SECPKG_CONTEXT_THUNKS</a> structure that contains information about 
 <a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> calls to be executed in LSA mode.
 
 
-
-#### MutualAuthLevel
+### -field Info.MutualAuthLevel
 
 A 
 <a href="https://msdn.microsoft.com/f56cd322-8f82-43d7-a666-7067bf23b0a7">SECPKG_MUTUAL_AUTH_LEVEL</a> structure that contains the authentication level used by a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.
 
 
-
-#### WowClientDll
+### -field Info.WowClientDll
 
 A 
 <a href="https://msdn.microsoft.com/AA48B271-E63F-4742-9776-6C85ED3A2BAB">SECPKG_WOW_CLIENT_DLL</a> structure that contains the path to the  WOW client's 32-bit version of the DLL used by a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>. LSA operations are done by the 64-bit version. When the security context is handed back to the client,  the 32-bit WOW-aware version is loaded and hands it any information from the 64-bit version.
 
 
-
-#### ExtraOids
+### -field Info.ExtraOids
 
 A 
 <a href="https://msdn.microsoft.com/188EB248-F056-40F4-8A27-6BEC75F14154">SECPKG_EXTRA_OIDS</a> structure that contains the extra object identifiers (OIDs) used by a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.
 
 
-
-#### Nego2Info
+### -field Info.Nego2Info
 
 A 
 <a href="https://msdn.microsoft.com/8B093B74-DBF2-4DBD-9FDC-72FD6CC3CCA6">SECPKG_NEGO2_INFO</a> structure that contains the Nego2 information used by a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.

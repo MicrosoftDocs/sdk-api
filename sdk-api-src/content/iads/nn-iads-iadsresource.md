@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 217749a4-55dc-457f-8582-1513ff3b0666
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsResource, IADsResource interface [ADSI], IADsResource interface [ADSI], described, _ds_iadsresource, adsi.iadsresource, iads/IADsResource
+ms.keywords: IADsResource, IADsResource interface [ADSI], IADsResource interface [ADSI],described, _ds_iadsresource, adsi.iadsresource, iads/IADsResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroup.GetFiles
-title: IAppxContentGroup::GetFiles method
+title: IAppxContentGroup::GetFiles
 author: windows-driver-content
 description: Gets files from a content group.
 old-location: appxpkg\iappxcontentgroup_getfiles.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: AC946014-C0A2-45F8-9287-5852FD1B9981
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetFiles method [App packaging and management], GetFiles method [App packaging and management], IAppxContentGroup interface, GetFiles,IAppxContentGroup.GetFiles, IAppxContentGroup, IAppxContentGroup interface [App packaging and management], GetFiles method, IAppxContentGroup::GetFiles, appxpackaging/IAppxContentGroup::GetFiles, appxpkg.iappxcontentgroup_getfiles
+ms.keywords: GetFiles, GetFiles method [App packaging and management], GetFiles method [App packaging and management],IAppxContentGroup interface, IAppxContentGroup interface [App packaging and management],GetFiles method, IAppxContentGroup.GetFiles, IAppxContentGroup::GetFiles, appxpackaging/IAppxContentGroup::GetFiles, appxpkg.iappxcontentgroup_getfiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxContentGroup::GetFiles method
+# IAppxContentGroup::GetFiles
 
 
 ## -description

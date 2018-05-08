@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromInt16.htm
 old-project: properties
 ms.assetid: fb58c71c-f6ff-408e-9375-98654a41cf11
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: InitPropVariantFromInt16, InitPropVariantFromInt16 function [Windows Properties], properties.InitPropVariantFromInt16, propvarutil/InitPropVariantFromInt16, shell.InitPropVariantFromInt16, shell_InitPropVariantFromInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices

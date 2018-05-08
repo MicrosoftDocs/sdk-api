@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableUDP
-title: IAMNetShowConfig::put_EnableUDP method
+title: IAMNetShowConfig::put_EnableUDP
 author: windows-driver-content
 description: The put_EnableUDP method enables or disablles UDP-based streaming.
 old-location: dshow\iamnetshowconfig_put_enableudp.htm
 old-project: DirectShow
 ms.assetid: 2573573e-97e0-4ed4-b702-8c54ef47c5f4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], put_EnableUDP method, IAMNetShowConfig::put_EnableUDP, IAMNetShowConfigput_EnableUDP, dshow.iamnetshowconfig_put_enableudp, put_EnableUDP method [DirectShow], put_EnableUDP method [DirectShow], IAMNetShowConfig interface, put_EnableUDP,IAMNetShowConfig.put_EnableUDP, qnetwork/IAMNetShowConfig::put_EnableUDP
+ms.date: 4/30/2018
+ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableUDP method, IAMNetShowConfig.put_EnableUDP, IAMNetShowConfig::put_EnableUDP, IAMNetShowConfigput_EnableUDP, dshow.iamnetshowconfig_put_enableudp, put_EnableUDP, put_EnableUDP method [DirectShow], put_EnableUDP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableUDP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetShowConfig::put_EnableUDP method
+# IAMNetShowConfig::put_EnableUDP
 
 
 ## -description

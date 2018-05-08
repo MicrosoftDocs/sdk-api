@@ -120,14 +120,14 @@ Reserved for system use. Do not use in your driver.
 Supported starting with Windows 8.1.
 
 
+### -field DUMMYUNIONNAME.videoStandard
+
+The video standard (if any) that defines the video signal. For a list of possible values, see the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff546632">D3DKMDT_VIDEO_SIGNAL_STANDARD</a> enumerated type.
+
+
 ### -field scanLineOrdering
 
 The scan-line ordering (for example, progressive or interlaced) of the video signal. For a list of possible values, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553977">DISPLAYCONFIG_SCANLINE_ORDERING</a> enumerated type.
-
-
-#### - videoStandard
-
-The video standard (if any) that defines the video signal. For a list of possible values, see the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff546632">D3DKMDT_VIDEO_SIGNAL_STANDARD</a> enumerated type.
 
 
 ## -see-also

@@ -7,8 +7,8 @@ old-location: dshow\iamvideoprocamp.htm
 old-project: DirectShow
 ms.assetid: 28c45790-2e5a-4acb-8a53-93f19c51dc6a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVideoProcAmp, IAMVideoProcAmp interface [DirectShow], IAMVideoProcAmp interface [DirectShow], described, IAMVideoProcAmpInterface, dshow.iamvideoprocamp, strmif/IAMVideoProcAmp
+ms.date: 4/30/2018
+ms.keywords: IAMVideoProcAmp, IAMVideoProcAmp interface [DirectShow], IAMVideoProcAmp interface [DirectShow],described, IAMVideoProcAmpInterface, dshow.iamvideoprocamp, strmif/IAMVideoProcAmp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

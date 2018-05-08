@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPProperty.get_Value
-title: IOCSPProperty::get_Value method
+title: IOCSPProperty::get_Value
 author: windows-driver-content
 description: Gets or sets the data part of the name-value pair represented by an OCSPProperty object.
 old-location: security\iocspproperty_value_method.htm
 old-project: SecCrypto
 ms.assetid: 6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IOCSPProperty, IOCSPProperty interface [Security], Value property, IOCSPProperty.Value, IOCSPProperty::get_Value, IOCSPProperty::put_Value, Value property [Security], Value property [Security], IOCSPProperty interface, certadm/IOCSPProperty::Value, certadm/IOCSPProperty::get_Value, certadm/IOCSPProperty::put_Value, get_Value,IOCSPProperty.get_Value, security.iocspproperty_value_method
+ms.date: 4/30/2018
+ms.keywords: IOCSPProperty interface [Security],Value property, IOCSPProperty.Value, IOCSPProperty.get_Value, IOCSPProperty::Value, IOCSPProperty::get_Value, IOCSPProperty::put_Value, Value property [Security], Value property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Value, certadm/IOCSPProperty::get_Value, certadm/IOCSPProperty::put_Value, get_Value, security.iocspproperty_value_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPProperty::get_Value method
+# IOCSPProperty::get_Value
 
 
 ## -description

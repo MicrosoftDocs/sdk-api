@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.ErrorAdvise
-title: IPhotoAcquireProgressCB::ErrorAdvise method
+title: IPhotoAcquireProgressCB::ErrorAdvise
 author: windows-driver-content
 description: The ErrorAdvise method provides custom error handling for errors that occur during acquisition. The application provides the implementation of the ErrorAdvise method.
 old-location: picacq\iphotoacquireprogresscb_erroradvise.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 60454ae7-9be9-4414-9865-2b874bbe54c1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ErrorAdvise method [Picture Acquisition], ErrorAdvise method [Picture Acquisition], IPhotoAcquireProgressCB interface, ErrorAdvise,IPhotoAcquireProgressCB.ErrorAdvise, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], ErrorAdvise method, IPhotoAcquireProgressCB::ErrorAdvise, IPhotoAcquireProgressCBErrorAdvise, photoacquire/IPhotoAcquireProgressCB::ErrorAdvise, picacq.iphotoacquireprogresscb_erroradvise
+ms.keywords: ErrorAdvise, ErrorAdvise method [Picture Acquisition], ErrorAdvise method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],ErrorAdvise method, IPhotoAcquireProgressCB.ErrorAdvise, IPhotoAcquireProgressCB::ErrorAdvise, IPhotoAcquireProgressCBErrorAdvise, photoacquire/IPhotoAcquireProgressCB::ErrorAdvise, picacq.iphotoacquireprogresscb_erroradvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireProgressCB::ErrorAdvise method
+# IPhotoAcquireProgressCB::ErrorAdvise
 
 
 ## -description

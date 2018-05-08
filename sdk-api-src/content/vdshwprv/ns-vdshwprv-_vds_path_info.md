@@ -78,38 +78,38 @@ The status of the path, enumerated by
       <a href="https://msdn.microsoft.com/f0682db1-9058-4514-abb2-c10b936d4f41">VDS_PATH_STATUS</a>.
 
 
-#### - controllerPortId
+### -field controllerPortId
 
 The <b>VDS_OBJECT_ID</b> of the controller port object on the other end of the 
        path.
 
 
-#### - hbaPortId
+### -field targetPortalId
+
+The <b>VDS_OBJECT_ID</b> of the target portal object on the other end of the 
+       path.
+
+
+### -field hbaPortId
 
 The <b>VDS_OBJECT_ID</b> of the HBA port.
 
 
-#### - initiatorAdapterId
+### -field initiatorAdapterId
 
 The <b>VDS_OBJECT_ID</b> of the initiator adapter.
 
 
-#### - pHbaPortProp
+### -field pHbaPortProp
 
 A pointer to a <a href="https://msdn.microsoft.com/297ccb5c-3fa2-4bb0-bdd2-60d4685dc55c">VDS_HBAPORT_PROP</a> structure 
        containing properties of the HBA port on one end of the path.
 
 
-#### - pInitiatorPortalIpAddr
+### -field pInitiatorPortalIpAddr
 
 A pointer to a <a href="https://msdn.microsoft.com/42e8b161-5e47-4aae-aa23-94b5cacb5698">VDS_IPADDRESS</a> structure containing 
        the IP address and port information for the initiator portal.
-
-
-#### - targetPortalId
-
-The <b>VDS_OBJECT_ID</b> of the target portal object on the other end of the 
-       path.
 
 
 ## -see-also

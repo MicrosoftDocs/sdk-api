@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetNativeCallConvFromSig
-title: IMetaDataImport::GetNativeCallConvFromSig method
+title: IMetaDataImport::GetNativeCallConvFromSig
 author: windows-driver-content
 description: Gets the native calling convention for the method that is represented by the specified signature pointer.
 old-location: winrt\imetadataimport_getnativecallconvfromsig.htm
 old-project: WinRT
 ms.assetid: 90e09d3d-c77e-44c3-b4d0-6b2aee995b1e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetNativeCallConvFromSig method [Windows Runtime], GetNativeCallConvFromSig method [Windows Runtime], IMetaDataImport interface, GetNativeCallConvFromSig,IMetaDataImport.GetNativeCallConvFromSig, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetNativeCallConvFromSig method, IMetaDataImport::GetNativeCallConvFromSig, rometadataapi/IMetaDataImport::GetNativeCallConvFromSig, winrt.imetadataimport_getnativecallconvfromsig
+ms.date: 5/4/2018
+ms.keywords: GetNativeCallConvFromSig, GetNativeCallConvFromSig method [Windows Runtime], GetNativeCallConvFromSig method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNativeCallConvFromSig method, IMetaDataImport.GetNativeCallConvFromSig, IMetaDataImport::GetNativeCallConvFromSig, rometadataapi/IMetaDataImport::GetNativeCallConvFromSig, winrt.imetadataimport_getnativecallconvfromsig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetNativeCallConvFromSig method
+# IMetaDataImport::GetNativeCallConvFromSig
 
 
 ## -description

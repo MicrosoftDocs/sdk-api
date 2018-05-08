@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReadOnlyProperty.GetValue
-title: ITfReadOnlyProperty::GetValue method
+title: ITfReadOnlyProperty::GetValue
 author: windows-driver-content
 description: ITfReadOnlyProperty::GetValue method
 old-location: tsf\itfreadonlyproperty_getvalue.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c82ef360-e0b1-4e1a-b839-36b8e9c52347
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetValue method [Text Services Framework], GetValue method [Text Services Framework], ITfReadOnlyProperty interface, GetValue,ITfReadOnlyProperty.GetValue, ITfReadOnlyProperty, ITfReadOnlyProperty interface [Text Services Framework], GetValue method, ITfReadOnlyProperty::GetValue, _tsf_itfreadonlyproperty_getvalue_ref, msctf/ITfReadOnlyProperty::GetValue, tsf.itfreadonlyproperty_getvalue
+ms.keywords: GetValue, GetValue method [Text Services Framework], GetValue method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],GetValue method, ITfReadOnlyProperty.GetValue, ITfReadOnlyProperty::GetValue, _tsf_itfreadonlyproperty_getvalue_ref, msctf/ITfReadOnlyProperty::GetValue, tsf.itfreadonlyproperty_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfReadOnlyProperty::GetValue method
+# ITfReadOnlyProperty::GetValue
 
 
 ## -description

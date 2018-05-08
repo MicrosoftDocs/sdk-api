@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: CC5128D8-9863-4B9F-B82D-AE2A0D5A45C5
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_ACTIVATE_FN, SensorAdapterActivate, SensorAdapterActivate callback function [Windows Biometric Framework API], secbiomet.sensoradapteractivate, winbio_adapter/SensorAdapterActivate
+ms.keywords: PIBIO_SENSOR_ACTIVATE_FN, PIBIO_SENSOR_ACTIVATE_FN callback, SensorAdapterActivate, SensorAdapterActivate callback function [Windows Biometric Framework API], secbiomet.sensoradapteractivate, winbio_adapter/SensorAdapterActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_ACTIVATE_FN callback
+# PIBIO_SENSOR_ACTIVATE_FN callback function
 
 
 ## -description

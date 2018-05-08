@@ -7,7 +7,7 @@ old-location: controls\PARAFORMAT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\paraformat.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: 0, 1, 2, 3, 4, 5, PARAFORMAT, PARAFORMAT structure [Windows Controls], PFA_CENTER, PFA_LEFT, PFA_RIGHT, PFE_RLTPARA, PFM_ALIGNMENT, PFM_NUMBERING, PFM_OFFSET, PFM_OFFSETINDENT, PFM_RIGHTINDENT, PFM_RTLPARA, PFM_STARTINDENT, PFM_TABSTOPS, _paraformat, _win32_PARAFORMAT_str, _win32_PARAFORMAT_str_cpp, controls.PARAFORMAT, controls._win32_PARAFORMAT_str, richedit/PARAFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -173,6 +173,49 @@ The <i>cTabStobs</i> and <i>rgxTabStops</i> members are valid.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
 
 Value specifying numbering options. This member can be zero or PFN_BULLET. 
+
+
+### -field wReserved
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+
+<b>Rich Edit 1.0:</b>: This member is named <b>wReserved</b>. Reserved; the value must be zero. 
+                
+
+<b>Rich Edit 2.0:</b> This member is named <b>wEffects</b>. A bit flag that specifies a paragraph effect. It is included only for compatibility with TOM interfaces; the rich edit control stores the value but does not use it to display the text. This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="0"></a><dl>
+<dt><b>0</b></dt>
+</dl>
+</td>
+<td width="60%">
+Displays text using left-to-right reading order. This is the default.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_RLTPARA"></a><a id="pfe_rltpara"></a><dl>
+<dt><b>PFE_RLTPARA</b></dt>
+</dl>
+</td>
+<td width="60%">
+Displays text using right-to-left reading order.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field wEffects
+
+ 
 
 
 ### -field dxStartIndent
@@ -388,44 +431,6 @@ Thick line leader
 </td>
 <td width="60%">
 Double line leader
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - wReserved
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
-
-<b>Rich Edit 1.0:</b>: This member is named <b>wReserved</b>. Reserved; the value must be zero. 
-                
-
-<b>Rich Edit 2.0:</b> This member is named <b>wEffects</b>. A bit flag that specifies a paragraph effect. It is included only for compatibility with TOM interfaces; the rich edit control stores the value but does not use it to display the text. This parameter can be one of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="0"></a><dl>
-<dt><b>0</b></dt>
-</dl>
-</td>
-<td width="60%">
-Displays text using left-to-right reading order. This is the default.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_RLTPARA"></a><a id="pfe_rltpara"></a><dl>
-<dt><b>PFE_RLTPARA</b></dt>
-</dl>
-</td>
-<td width="60%">
-Displays text using right-to-left reading order.
 
 </td>
 </tr>

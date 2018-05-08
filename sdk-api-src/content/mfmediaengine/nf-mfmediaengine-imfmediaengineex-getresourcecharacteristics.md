@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetResourceCharacteristics
-title: IMFMediaEngineEx::GetResourceCharacteristics method
+title: IMFMediaEngineEx::GetResourceCharacteristics
 author: windows-driver-content
 description: Gets various flags that describe the media resource.
 old-location: mf\imfmediaengineex_getresourcecharacteristics.htm
 old-project: medfound
 ms.assetid: 534595D7-007F-450B-A1C7-FA08F3958417
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetResourceCharacteristics method [Media Foundation], GetResourceCharacteristics method [Media Foundation], IMFMediaEngineEx interface, GetResourceCharacteristics,IMFMediaEngineEx.GetResourceCharacteristics, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetResourceCharacteristics method, IMFMediaEngineEx::GetResourceCharacteristics, mf.imfmediaengineex_getresourcecharacteristics, mfmediaengine/IMFMediaEngineEx::GetResourceCharacteristics
+ms.date: 5/3/2018
+ms.keywords: GetResourceCharacteristics, GetResourceCharacteristics method [Media Foundation], GetResourceCharacteristics method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetResourceCharacteristics method, IMFMediaEngineEx.GetResourceCharacteristics, IMFMediaEngineEx::GetResourceCharacteristics, mf.imfmediaengineex_getresourcecharacteristics, mfmediaengine/IMFMediaEngineEx::GetResourceCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::GetResourceCharacteristics method
+# IMFMediaEngineEx::GetResourceCharacteristics
 
 
 ## -description

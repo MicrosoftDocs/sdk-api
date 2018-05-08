@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon2.SessionReconnect
-title: ISensLogon2::SessionReconnect method
+title: ISensLogon2::SessionReconnect
 author: windows-driver-content
 description: The session was reconnected. The SessionReconnect method is used when you reconnect to a Fast User Switching session or a Remote Desktop Connection. This is different from logging on to a new session.
 old-location: sens\isenslogon2_sessionreconnect.htm
@@ -8,7 +8,7 @@ old-project: Sens
 ms.assetid: b789a75d-e842-40b4-9e8d-b9374b5ba6b0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISensLogon2, ISensLogon2 interface [SENS], SessionReconnect method, ISensLogon2::SessionReconnect, SessionReconnect method [SENS], SessionReconnect method [SENS], ISensLogon2 interface, SessionReconnect,ISensLogon2.SessionReconnect, _zaw_isenslogon2_sessionreconnect, sens.isenslogon2_sessionreconnect, sensevts/ISensLogon2::SessionReconnect, syncmgr.isenslogon2_sessionreconnect
+ms.keywords: ISensLogon2 interface [SENS],SessionReconnect method, ISensLogon2.SessionReconnect, ISensLogon2::SessionReconnect, SessionReconnect, SessionReconnect method [SENS], SessionReconnect method [SENS],ISensLogon2 interface, _zaw_isenslogon2_sessionreconnect, sens.isenslogon2_sessionreconnect, sensevts/ISensLogon2::SessionReconnect, syncmgr.isenslogon2_sessionreconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISensLogon2::SessionReconnect method
+# ISensLogon2::SessionReconnect
 
 
 ## -description

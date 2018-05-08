@@ -78,23 +78,21 @@ The identifier of the adapter that this source or target mode information relate
  
 
 
+### -field DUMMYUNIONNAME.targetMode
+
+A valid <a href="https://msdn.microsoft.com/library/windows/hardware/ff553993">DISPLAYCONFIG_TARGET_MODE</a> structure that describes the specified target only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_TARGET.
 
 
-#### - desktopImageInfo
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt622102">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure that describes information about the desktop image only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_. 
-
-Supported starting in Windows 10.
-
-
-#### - sourceMode
+### -field DUMMYUNIONNAME.sourceMode
 
 A valid <a href="https://msdn.microsoft.com/library/windows/hardware/ff553986">DISPLAYCONFIG_SOURCE_MODE</a> structure that describes the specified source only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE.
 
 
-#### - targetMode
+### -field DUMMYUNIONNAME.desktopImageInfo
 
-A valid <a href="https://msdn.microsoft.com/library/windows/hardware/ff553993">DISPLAYCONFIG_TARGET_MODE</a> structure that describes the specified target only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_TARGET.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt622102">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure that describes information about the desktop image only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_. 
+
+Supported starting in Windows 10.
 
 
 ## -see-also

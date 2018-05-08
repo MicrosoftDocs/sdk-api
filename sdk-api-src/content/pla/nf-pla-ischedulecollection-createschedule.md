@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IScheduleCollection.CreateSchedule
-title: IScheduleCollection::CreateSchedule method
+title: IScheduleCollection::CreateSchedule
 author: windows-driver-content
 description: Creates a schedule object.
 old-location: pla\ischedulecollection_createschedule.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 8fa10cd9-d1ae-47c7-80e2-416165164491
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateSchedule method [PLA], CreateSchedule method [PLA], IScheduleCollection interface, CreateSchedule,IScheduleCollection.CreateSchedule, IScheduleCollection, IScheduleCollection interface [PLA], CreateSchedule method, IScheduleCollection::CreateSchedule, pla.ischedulecollection_createschedule, pla/IScheduleCollection::CreateSchedule
+ms.keywords: CreateSchedule, CreateSchedule method [PLA], CreateSchedule method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],CreateSchedule method, IScheduleCollection.CreateSchedule, IScheduleCollection::CreateSchedule, pla.ischedulecollection_createschedule, pla/IScheduleCollection::CreateSchedule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduleCollection::CreateSchedule method
+# IScheduleCollection::CreateSchedule
 
 
 ## -description

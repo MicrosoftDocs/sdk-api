@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.GetTooltipString
-title: ITfLangBarItem::GetTooltipString method
+title: ITfLangBarItem::GetTooltipString
 author: windows-driver-content
 description: ITfLangBarItem::GetTooltipString method
 old-location: tsf\itflangbaritem_gettooltipstring.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: f0bb3c7f-c21e-443a-965a-0601de0210b5
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetTooltipString method [Text Services Framework], GetTooltipString method [Text Services Framework], ITfLangBarItem interface, GetTooltipString,ITfLangBarItem.GetTooltipString, ITfLangBarItem, ITfLangBarItem interface [Text Services Framework], GetTooltipString method, ITfLangBarItem::GetTooltipString, _tsf_itflangbaritem_gettooltipstring_ref, ctfutb/ITfLangBarItem::GetTooltipString, tsf.itflangbaritem_gettooltipstring
+ms.keywords: GetTooltipString, GetTooltipString method [Text Services Framework], GetTooltipString method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetTooltipString method, ITfLangBarItem.GetTooltipString, ITfLangBarItem::GetTooltipString, _tsf_itflangbaritem_gettooltipstring_ref, ctfutb/ITfLangBarItem::GetTooltipString, tsf.itflangbaritem_gettooltipstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItem::GetTooltipString method
+# ITfLangBarItem::GetTooltipString
 
 
 ## -description

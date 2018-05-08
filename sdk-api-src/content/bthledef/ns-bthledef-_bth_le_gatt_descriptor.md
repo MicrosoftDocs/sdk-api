@@ -7,7 +7,7 @@ old-location: bltooth\bth_le_gatt_descriptor.htm
 old-project: bltooth
 ms.assetid: DE738ADA-AE8E-4679-887C-A6194E88386E
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 4/27/2018
 ms.keywords: "*PBTH_LE_GATT_DESCRIPTOR, BTH_LE_GATT_DESCRIPTOR, BTH_LE_GATT_DESCRIPTOR structure [Bluetooth Devices], PBTH_LE_GATT_DESCRIPTOR, PBTH_LE_GATT_DESCRIPTOR structure pointer [Bluetooth Devices], _BTH_LE_GATT_DESCRIPTOR, bltooth.bth_le_gatt_descriptor, bthledef/BTH_LE_GATT_DESCRIPTOR, bthledef/PBTH_LE_GATT_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

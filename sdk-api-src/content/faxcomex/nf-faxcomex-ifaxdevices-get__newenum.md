@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevices.get__NewEnum
-title: IFaxDevices::get__NewEnum method
+title: IFaxDevices::get__NewEnum
 author: windows-driver-content
 description: The IFaxDevices::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the FaxDevices collection.
 old-location: fax\_mfax_ifaxdevices_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2iel.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxDevices, IFaxDevices interface [Fax Service], get__NewEnum method, IFaxDevices::get__NewEnum, _mfax_ifaxdevices_get__newenum, fax._mfax_ifaxdevices_get__newenum, faxcomex/IFaxDevices::get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service], IFaxDevices interface, get__NewEnum,IFaxDevices.get__NewEnum
+ms.keywords: IFaxDevices interface [Fax Service],get__NewEnum method, IFaxDevices.get__NewEnum, IFaxDevices::get__NewEnum, _mfax_ifaxdevices_get__newenum, fax._mfax_ifaxdevices_get__newenum, faxcomex/IFaxDevices::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxDevices interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDevices::get__NewEnum method
+# IFaxDevices::get__NewEnum
 
 
 ## -description

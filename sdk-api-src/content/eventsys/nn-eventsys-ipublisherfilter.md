@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: affc0af4-36f8-4479-8685-f91c29111d76
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IPublisherFilter, IPublisherFilter interface [COM+], IPublisherFilter interface [COM+], described, _cos_IPublisherFilter, cos.ipublisherfilter, eventsys/IPublisherFilter
+ms.keywords: IPublisherFilter, IPublisherFilter interface [COM+], IPublisherFilter interface [COM+],described, _cos_IPublisherFilter, cos.ipublisherfilter, eventsys/IPublisherFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

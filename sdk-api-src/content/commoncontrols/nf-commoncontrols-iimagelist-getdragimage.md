@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.GetDragImage
-title: IImageList::GetDragImage method
+title: IImageList::GetDragImage
 author: windows-driver-content
 description: Gets the temporary image list that is used for the drag image. The function also retrieves the current drag position and the offset of the drag image relative to the drag position.
 old-location: controls\IImageList_GetDragImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getdragimage.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetDragImage method [Windows Controls], GetDragImage method [Windows Controls], IImageList interface, GetDragImage,IImageList.GetDragImage, IImageList, IImageList interface [Windows Controls], GetDragImage method, IImageList::GetDragImage, comctl_IImageList_GetDragImage, comctl_IImageList_GetDragImage_cpp, commoncontrols/IImageList::GetDragImage, controls.IImageList_GetDragImage, controls.comctl_IImageList_GetDragImage
+ms.date: 4/27/2018
+ms.keywords: GetDragImage, GetDragImage method [Windows Controls], GetDragImage method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetDragImage method, IImageList.GetDragImage, IImageList::GetDragImage, comctl_IImageList_GetDragImage, comctl_IImageList_GetDragImage_cpp, commoncontrols/IImageList::GetDragImage, controls.IImageList_GetDragImage, controls.comctl_IImageList_GetDragImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::GetDragImage method
+# IImageList::GetDragImage
 
 
 ## -description

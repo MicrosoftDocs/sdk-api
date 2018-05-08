@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIOutput4.CheckOverlayColorSpaceSupport
-title: IDXGIOutput4::CheckOverlayColorSpaceSupport method
+title: IDXGIOutput4::CheckOverlayColorSpaceSupport
 author: windows-driver-content
 description: Checks for overlay color space support.
 old-location: direct3ddxgi\idxgioutput4_checkoverlaycolorspacesupport.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: C9F582EA-DB16-4FF3-B7BD-ACEA019FF7D4
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: CheckOverlayColorSpaceSupport method [DXGI], CheckOverlayColorSpaceSupport method [DXGI], IDXGIOutput4 interface, CheckOverlayColorSpaceSupport,IDXGIOutput4.CheckOverlayColorSpaceSupport, IDXGIOutput4, IDXGIOutput4 interface [DXGI], CheckOverlayColorSpaceSupport method, IDXGIOutput4::CheckOverlayColorSpaceSupport, direct3ddxgi.idxgioutput4_checkoverlaycolorspacesupport, dxgi1_4/IDXGIOutput4::CheckOverlayColorSpaceSupport
+ms.keywords: CheckOverlayColorSpaceSupport, CheckOverlayColorSpaceSupport method [DXGI], CheckOverlayColorSpaceSupport method [DXGI],IDXGIOutput4 interface, IDXGIOutput4 interface [DXGI],CheckOverlayColorSpaceSupport method, IDXGIOutput4.CheckOverlayColorSpaceSupport, IDXGIOutput4::CheckOverlayColorSpaceSupport, direct3ddxgi.idxgioutput4_checkoverlaycolorspacesupport, dxgi1_4/IDXGIOutput4::CheckOverlayColorSpaceSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput4::CheckOverlayColorSpaceSupport method
+# IDXGIOutput4::CheckOverlayColorSpaceSupport
 
 
 ## -description

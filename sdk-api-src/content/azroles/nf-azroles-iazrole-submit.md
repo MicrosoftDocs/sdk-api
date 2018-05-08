@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.Submit
-title: IAzRole::Submit method
+title: IAzRole::Submit
 author: windows-driver-content
 description: Persists changes made to the IAzRole object.
 old-location: security\iazrole_submit.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 97f2018a-92f0-4ebb-85f1-78c140003d8f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzRole object [Security], Submit method, IAzRole, IAzRole interface [Security], Submit method, IAzRole::Submit, Submit method [Security], Submit method [Security], AzRole object, Submit method [Security], IAzRole interface, Submit,IAzRole.Submit, azroles/IAzRole::Submit, security.iazrole_submit
+ms.keywords: AzRole object [Security],Submit method, IAzRole interface [Security],Submit method, IAzRole.Submit, IAzRole::Submit, Submit, Submit method [Security], Submit method [Security],AzRole object, Submit method [Security],IAzRole interface, azroles/IAzRole::Submit, security.iazrole_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzRole::Submit method
+# IAzRole::Submit
 
 
 ## -description

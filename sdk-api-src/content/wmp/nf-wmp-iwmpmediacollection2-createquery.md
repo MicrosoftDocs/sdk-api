@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMediaCollection2.createQuery
-title: IWMPMediaCollection2::createQuery method
+title: IWMPMediaCollection2::createQuery
 author: windows-driver-content
 description: The createQuery method retrieves a pointer to an IWMPQuery interface that represents a new query.
 old-location: wmp\iwmpmediacollection2_createquery.htm
 old-project: WMP
 ms.assetid: b1e6bf08-3b81-4c04-92ff-73eac5f7495a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMediaCollection2, IWMPMediaCollection2 interface [Windows Media Player], createQuery method, IWMPMediaCollection2::createQuery, IWMPMediaCollection2createQuery, createQuery method [Windows Media Player], createQuery method [Windows Media Player], IWMPMediaCollection2 interface, createQuery,IWMPMediaCollection2.createQuery, wmp.iwmpmediacollection2_createquery, wmp/IWMPMediaCollection2::createQuery
+ms.date: 5/4/2018
+ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],createQuery method, IWMPMediaCollection2.createQuery, IWMPMediaCollection2::createQuery, IWMPMediaCollection2createQuery, createQuery, createQuery method [Windows Media Player], createQuery method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_createquery, wmp/IWMPMediaCollection2::createQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMediaCollection2::createQuery method
+# IWMPMediaCollection2::createQuery
 
 
 ## -description

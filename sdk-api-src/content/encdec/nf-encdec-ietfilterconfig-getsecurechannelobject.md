@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IETFilterConfig.GetSecureChannelObject
-title: IETFilterConfig::GetSecureChannelObject method
+title: IETFilterConfig::GetSecureChannelObject
 author: windows-driver-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\ietfilterconfig_getsecurechannelobject.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 385f4525-97b0-4973-8b74-a05816e43556
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies], IETFilterConfig interface, GetSecureChannelObject,IETFilterConfig.GetSecureChannelObject, IETFilterConfig, IETFilterConfig interface [Microsoft TV Technologies], GetSecureChannelObject method, IETFilterConfig::GetSecureChannelObject, IETFilterConfigGetSecureChannelObject, encdec/IETFilterConfig::GetSecureChannelObject, mstv.ietfilterconfig_getsecurechannelobject
+ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies],IETFilterConfig interface, IETFilterConfig interface [Microsoft TV Technologies],GetSecureChannelObject method, IETFilterConfig.GetSecureChannelObject, IETFilterConfig::GetSecureChannelObject, IETFilterConfigGetSecureChannelObject, encdec/IETFilterConfig::GetSecureChannelObject, mstv.ietfilterconfig_getsecurechannelobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IETFilterConfig::GetSecureChannelObject method
+# IETFilterConfig::GetSecureChannelObject
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystem.QueryLuns
-title: IVdsSubSystem::QueryLuns method
+title: IVdsSubSystem::QueryLuns
 author: windows-driver-content
 description: Returns an enumeration of LUNs surfaced in the subsystem. This method applies to hardware provider objects only.
 old-location: base\ivdssubsystem_queryluns.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: b8e17085-03cd-40d1-accf-6ea5fa69de65
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsSubSystem, IVdsSubSystem interface [VDS], QueryLuns method, IVdsSubSystem::QueryLuns, QueryLuns method [VDS], QueryLuns method [VDS], IVdsSubSystem interface, QueryLuns,IVdsSubSystem.QueryLuns, base.ivdssubsystem_queryluns, vds/IVdsSubSystem::QueryLuns, vdshwprv/IVdsSubSystem::QueryLuns
+ms.keywords: IVdsSubSystem interface [VDS],QueryLuns method, IVdsSubSystem.QueryLuns, IVdsSubSystem::QueryLuns, QueryLuns, QueryLuns method [VDS], QueryLuns method [VDS],IVdsSubSystem interface, base.ivdssubsystem_queryluns, vds/IVdsSubSystem::QueryLuns, vdshwprv/IVdsSubSystem::QueryLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsSubSystem::QueryLuns method
+# IVdsSubSystem::QueryLuns
 
 
 ## -description

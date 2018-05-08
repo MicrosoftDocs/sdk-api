@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 49c5ad02-f24b-4ef9-b943-483728c0bbcd
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDAsyncResult, IWSDAsyncResult interface, IWSDAsyncResult interface, described, ncd.iwsdasyncresult, wsdclient/IWSDAsyncResult
+ms.keywords: IWSDAsyncResult, IWSDAsyncResult interface, IWSDAsyncResult interface,described, ncd.iwsdasyncresult, wsdclient/IWSDAsyncResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

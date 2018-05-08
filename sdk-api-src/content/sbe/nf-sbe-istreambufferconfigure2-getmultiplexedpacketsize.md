@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure2.GetMultiplexedPacketSize
-title: IStreamBufferConfigure2::GetMultiplexedPacketSize method
+title: IStreamBufferConfigure2::GetMultiplexedPacketSize
 author: windows-driver-content
 description: The GetMultiplexedPacketSize method returns the size of the multiplexed packets in the backing files for the Stream Buffer Engine.
 old-location: mstv\istreambufferconfigure2_getmultiplexedpacketsize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 36b5cd06-ba6a-4546-98b6-4c8b47f7f62b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetMultiplexedPacketSize method [Microsoft TV Technologies], GetMultiplexedPacketSize method [Microsoft TV Technologies], IStreamBufferConfigure2 interface, GetMultiplexedPacketSize,IStreamBufferConfigure2.GetMultiplexedPacketSize, IStreamBufferConfigure2, IStreamBufferConfigure2 interface [Microsoft TV Technologies], GetMultiplexedPacketSize method, IStreamBufferConfigure2::GetMultiplexedPacketSize, IStreamBufferConfigure2GetMultiplexedPacketSize, mstv.istreambufferconfigure2_getmultiplexedpacketsize, sbe/IStreamBufferConfigure2::GetMultiplexedPacketSize
+ms.keywords: GetMultiplexedPacketSize, GetMultiplexedPacketSize method [Microsoft TV Technologies], GetMultiplexedPacketSize method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, IStreamBufferConfigure2 interface [Microsoft TV Technologies],GetMultiplexedPacketSize method, IStreamBufferConfigure2.GetMultiplexedPacketSize, IStreamBufferConfigure2::GetMultiplexedPacketSize, IStreamBufferConfigure2GetMultiplexedPacketSize, mstv.istreambufferconfigure2_getmultiplexedpacketsize, sbe/IStreamBufferConfigure2::GetMultiplexedPacketSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferConfigure2::GetMultiplexedPacketSize method
+# IStreamBufferConfigure2::GetMultiplexedPacketSize
 
 
 ## -description

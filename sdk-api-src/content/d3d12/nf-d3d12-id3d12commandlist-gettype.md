@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandList.GetType
-title: ID3D12CommandList::GetType method
+title: ID3D12CommandList::GetType
 author: windows-driver-content
 description: Gets the type of the command list, such as direct, bundle, compute, or copy.
 old-location: direct3d12\id3d12commandlist_gettype.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 39F9EF96-9761-410A-B5DD-A088F6863923
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetType method, GetType method, ID3D12CommandList interface, GetType,ID3D12CommandList.GetType, ID3D12CommandList, ID3D12CommandList interface, GetType method, ID3D12CommandList::GetType, d3d12/ID3D12CommandList::GetType, direct3d12.id3d12commandlist_gettype
+ms.keywords: GetType, GetType method, GetType method,ID3D12CommandList interface, ID3D12CommandList interface,GetType method, ID3D12CommandList.GetType, ID3D12CommandList::GetType, d3d12/ID3D12CommandList::GetType, direct3d12.id3d12commandlist_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12CommandList::GetType method
+# ID3D12CommandList::GetType
 
 
 ## -description

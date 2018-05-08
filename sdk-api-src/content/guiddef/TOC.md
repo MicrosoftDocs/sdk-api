@@ -1,0 +1,5 @@
+# [Component Object Model (COM)](../_com/index.md)
+## [Guiddef.h](index.md)
+### [IsEqualCLSID macro](../guiddef/nf-guiddef-isequalclsid.md)
+### [IsEqualGUID macro](../guiddef/nf-guiddef-isequalguid.md)
+### [IsEqualIID macro](../guiddef/nf-guiddef-isequaliid.md)

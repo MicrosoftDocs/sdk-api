@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeThickness
-title: IXpsOMPath::SetStrokeThickness method
+title: IXpsOMPath::SetStrokeThickness
 author: windows-driver-content
 description: Sets the stroke thickness.
 old-location: xps\ixpsompath_setstrokethickness.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e16774e2-9c70-46b6-a894-e289cdee47b3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], SetStrokeThickness method, IXpsOMPath::SetStrokeThickness, SetStrokeThickness method [XPS Documents and Packaging], SetStrokeThickness method [XPS Documents and Packaging], IXpsOMPath interface, SetStrokeThickness,IXpsOMPath.SetStrokeThickness, xps.ixpsompath_setstrokethickness, xpsobjectmodel/IXpsOMPath::SetStrokeThickness
+ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeThickness method, IXpsOMPath.SetStrokeThickness, IXpsOMPath::SetStrokeThickness, SetStrokeThickness, SetStrokeThickness method [XPS Documents and Packaging], SetStrokeThickness method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokethickness, xpsobjectmodel/IXpsOMPath::SetStrokeThickness
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::SetStrokeThickness method
+# IXpsOMPath::SetStrokeThickness
 
 
 ## -description

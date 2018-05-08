@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCollection.get__NewEnum
-title: IWdsTransportCollection::get__NewEnum method
+title: IWdsTransportCollection::get__NewEnum
 author: windows-driver-content
 description: Receives a pointer to an enumerator that can be used to iterate over the objects in this collection.
 old-location: wds\iwdstransportcollection__newenum.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: b1b51f0b-ae79-4e59-8517-456d8ef2048c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportCollection, IWdsTransportCollection interface [Windows Deployment Services], _NewEnum property, IWdsTransportCollection._NewEnum, IWdsTransportCollection::get__NewEnum, _NewEnum property [Windows Deployment Services], _NewEnum property [Windows Deployment Services], IWdsTransportCollection interface, get__NewEnum,IWdsTransportCollection.get__NewEnum, wds.iwdstransportcollection__newenum, wdstptmgmt/IWdsTransportCollection::_NewEnum, wdstptmgmt/IWdsTransportCollection::get__NewEnum
+ms.keywords: IWdsTransportCollection interface [Windows Deployment Services],_NewEnum property, IWdsTransportCollection._NewEnum, IWdsTransportCollection.get__NewEnum, IWdsTransportCollection::_NewEnum, IWdsTransportCollection::get__NewEnum, _NewEnum property [Windows Deployment Services], _NewEnum property [Windows Deployment Services],IWdsTransportCollection interface, get__NewEnum, wds.iwdstransportcollection__newenum, wdstptmgmt/IWdsTransportCollection::_NewEnum, wdstptmgmt/IWdsTransportCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportCollection::get__NewEnum method
+# IWdsTransportCollection::get__NewEnum
 
 
 ## -description

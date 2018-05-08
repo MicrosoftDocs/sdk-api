@@ -7,7 +7,7 @@ old-location: ad\dsquerysitesbycost.htm
 old-project: AD
 ms.assetid: 7a4cbd1c-8445-4882-8559-d44b6e5693e7
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DsQuerySitesByCost, DsQuerySitesByCost function [Active Directory], DsQuerySitesByCostA, DsQuerySitesByCostW, ad.dsquerysitesbycost, ntdsapi/DsQuerySitesByCost, ntdsapi/DsQuerySitesByCostA, ntdsapi/DsQuerySitesByCostW
 ms.prod: windows-hardware
 ms.technology: windows-devices

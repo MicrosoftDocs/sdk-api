@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache2.RenameItemEx
-title: IOfflineFilesCache2::RenameItemEx method
+title: IOfflineFilesCache2::RenameItemEx
 author: windows-driver-content
 description: Renames an item in the cache. This method is identical to the IOfflineFilesCache::RenameItem method, except that it will attempt to do the rename operation right away.
 old-location: of\iofflinefilescache2_renameitemex.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 766ABFE7-4417-47BA-ADF2-AA876C3A868A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesCache2, IOfflineFilesCache2 interface [Offline Files], RenameItemEx method, IOfflineFilesCache2::RenameItemEx, RenameItemEx method [Offline Files], RenameItemEx method [Offline Files], IOfflineFilesCache2 interface, RenameItemEx,IOfflineFilesCache2.RenameItemEx, cscobj/IOfflineFilesCache2::RenameItemEx, of.iofflinefilescache2_renameitemex
+ms.keywords: IOfflineFilesCache2 interface [Offline Files],RenameItemEx method, IOfflineFilesCache2.RenameItemEx, IOfflineFilesCache2::RenameItemEx, RenameItemEx, RenameItemEx method [Offline Files], RenameItemEx method [Offline Files],IOfflineFilesCache2 interface, cscobj/IOfflineFilesCache2::RenameItemEx, of.iofflinefilescache2_renameitemex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesCache2::RenameItemEx method
+# IOfflineFilesCache2::RenameItemEx
 
 
 ## -description

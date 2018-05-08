@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetVariableByName
-title: ID3D11ShaderReflection::GetVariableByName method
+title: ID3D11ShaderReflection::GetVariableByName
 author: windows-driver-content
 description: Gets a variable by name.
 old-location: direct3d11\id3d11shaderreflection_getvariablebyname.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 8c21756f-40f0-4459-852b-445053aa03e8
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 714dbbf5-52e2-8540-c5c1-aa03dcf32bf2, GetVariableByName method [Direct3D 11], GetVariableByName method [Direct3D 11], ID3D11ShaderReflection interface, GetVariableByName,ID3D11ShaderReflection.GetVariableByName, ID3D11ShaderReflection, ID3D11ShaderReflection interface [Direct3D 11], GetVariableByName method, ID3D11ShaderReflection::GetVariableByName, d3d11shader/ID3D11ShaderReflection::GetVariableByName, direct3d11.id3d11shaderreflection_getvariablebyname
+ms.keywords: 714dbbf5-52e2-8540-c5c1-aa03dcf32bf2, GetVariableByName, GetVariableByName method [Direct3D 11], GetVariableByName method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetVariableByName method, ID3D11ShaderReflection.GetVariableByName, ID3D11ShaderReflection::GetVariableByName, d3d11shader/ID3D11ShaderReflection::GetVariableByName, direct3d11.id3d11shaderreflection_getvariablebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ShaderReflection::GetVariableByName method
+# ID3D11ShaderReflection::GetVariableByName
 
 
 ## -description

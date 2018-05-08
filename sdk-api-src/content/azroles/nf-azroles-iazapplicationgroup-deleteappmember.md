@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteAppMember
-title: IAzApplicationGroup::DeleteAppMember method
+title: IAzApplicationGroup::DeleteAppMember
 author: windows-driver-content
 description: Removes the specified IAzApplicationGroup object from the list of application groups that belong to this application group.
 old-location: security\iazapplicationgroup_deleteappmember.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 856d9b18-927a-462a-b238-78b704bcc58b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplicationGroup object [Security], DeleteAppMember method, DeleteAppMember method [Security], DeleteAppMember method [Security], AzApplicationGroup object, DeleteAppMember method [Security], IAzApplicationGroup interface, DeleteAppMember,IAzApplicationGroup.DeleteAppMember, IAzApplicationGroup, IAzApplicationGroup interface [Security], DeleteAppMember method, IAzApplicationGroup::DeleteAppMember, azroles/IAzApplicationGroup::DeleteAppMember, security.iazapplicationgroup_deleteappmember
+ms.keywords: AzApplicationGroup object [Security],DeleteAppMember method, DeleteAppMember, DeleteAppMember method [Security], DeleteAppMember method [Security],AzApplicationGroup object, DeleteAppMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteAppMember method, IAzApplicationGroup.DeleteAppMember, IAzApplicationGroup::DeleteAppMember, azroles/IAzApplicationGroup::DeleteAppMember, security.iazapplicationgroup_deleteappmember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplicationGroup::DeleteAppMember method
+# IAzApplicationGroup::DeleteAppMember
 
 
 ## -description

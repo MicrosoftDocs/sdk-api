@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMInputMediaProps.GetGroupName
-title: IWMInputMediaProps::GetGroupName method
+title: IWMInputMediaProps::GetGroupName
 author: windows-driver-content
 description: The GetGroupName method is not implemented, and returns an empty string.
 old-location: wmformat\iwminputmediaprops_getgroupname.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 795cd065-62f1-4346-b2ff-f77ec4306d64
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetGroupName method [windows Media Format], GetGroupName method [windows Media Format], IWMInputMediaProps interface, GetGroupName,IWMInputMediaProps.GetGroupName, IWMInputMediaProps, IWMInputMediaProps interface [windows Media Format], GetGroupName method, IWMInputMediaProps::GetGroupName, IWMInputMediaPropsGetGroupName, wmformat.iwminputmediaprops_getgroupname, wmsdkidl/IWMInputMediaProps::GetGroupName
+ms.keywords: GetGroupName, GetGroupName method [windows Media Format], GetGroupName method [windows Media Format],IWMInputMediaProps interface, IWMInputMediaProps interface [windows Media Format],GetGroupName method, IWMInputMediaProps.GetGroupName, IWMInputMediaProps::GetGroupName, IWMInputMediaPropsGetGroupName, wmformat.iwminputmediaprops_getgroupname, wmsdkidl/IWMInputMediaProps::GetGroupName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMInputMediaProps::GetGroupName method
+# IWMInputMediaProps::GetGroupName
 
 
 ## -description

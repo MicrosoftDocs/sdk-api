@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.GetAccessEntryCount
-title: IWMAddressAccess::GetAccessEntryCount method
+title: IWMAddressAccess::GetAccessEntryCount
 author: windows-driver-content
 description: The GetAccessEntryCount method retrieves the number of entries in the IP address access list.
 old-location: wmformat\iwmaddressaccess_getaccessentrycount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 996d8a8a-887e-4e2f-b810-c57a4251f771
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetAccessEntryCount method [windows Media Format], GetAccessEntryCount method [windows Media Format], IWMAddressAccess interface, GetAccessEntryCount,IWMAddressAccess.GetAccessEntryCount, IWMAddressAccess, IWMAddressAccess interface [windows Media Format], GetAccessEntryCount method, IWMAddressAccess::GetAccessEntryCount, IWMAddressAccessGetAccessEntryCount, wmformat.iwmaddressaccess_getaccessentrycount, wmsdkidl/IWMAddressAccess::GetAccessEntryCount
+ms.keywords: GetAccessEntryCount, GetAccessEntryCount method [windows Media Format], GetAccessEntryCount method [windows Media Format],IWMAddressAccess interface, IWMAddressAccess interface [windows Media Format],GetAccessEntryCount method, IWMAddressAccess.GetAccessEntryCount, IWMAddressAccess::GetAccessEntryCount, IWMAddressAccessGetAccessEntryCount, wmformat.iwmaddressaccess_getaccessentrycount, wmsdkidl/IWMAddressAccess::GetAccessEntryCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMAddressAccess::GetAccessEntryCount method
+# IWMAddressAccess::GetAccessEntryCount
 
 
 ## -description

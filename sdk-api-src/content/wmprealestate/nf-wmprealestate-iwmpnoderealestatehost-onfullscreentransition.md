@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPNodeRealEstateHost.OnFullScreenTransition
-title: IWMPNodeRealEstateHost::OnFullScreenTransition method
+title: IWMPNodeRealEstateHost::OnFullScreenTransition
 author: windows-driver-content
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
 old-location: wmp\iwmpnoderealestatehost_onfullscreentransition.htm
 old-project: WMP
 ms.assetid: 0519dc05-7517-4ea4-9940-757bfa6296ff
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNodeRealEstateHost, IWMPNodeRealEstateHost interface [Windows Media Player], OnFullScreenTransition method, IWMPNodeRealEstateHost::OnFullScreenTransition, IWMPNodeRealEstateHostOnFullScreenTransitionRendering, OnFullScreenTransition method [Windows Media Player], OnFullScreenTransition method [Windows Media Player], IWMPNodeRealEstateHost interface, OnFullScreenTransition,IWMPNodeRealEstateHost.OnFullScreenTransition, wmp.iwmpnoderealestatehost_onfullscreentransition, wmprealestate/IWMPNodeRealEstateHost::OnFullScreenTransition
+ms.date: 5/2/2018
+ms.keywords: IWMPNodeRealEstateHost interface [Windows Media Player],OnFullScreenTransition method, IWMPNodeRealEstateHost.OnFullScreenTransition, IWMPNodeRealEstateHost::OnFullScreenTransition, IWMPNodeRealEstateHostOnFullScreenTransitionRendering, OnFullScreenTransition, OnFullScreenTransition method [Windows Media Player], OnFullScreenTransition method [Windows Media Player],IWMPNodeRealEstateHost interface, wmp.iwmpnoderealestatehost_onfullscreentransition, wmprealestate/IWMPNodeRealEstateHost::OnFullScreenTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNodeRealEstateHost::OnFullScreenTransition method
+# IWMPNodeRealEstateHost::OnFullScreenTransition
 
 
 ## -description

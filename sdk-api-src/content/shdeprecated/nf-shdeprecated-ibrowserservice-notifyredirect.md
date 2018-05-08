@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.NotifyRedirect
-title: IBrowserService::NotifyRedirect method
+title: IBrowserService::NotifyRedirect
 author: windows-driver-content
 description: Deprecated. Updates the browser to the specified pointer to an item identifier list (PIDL), navigating if necessary. This method is called when a page is redirected.
 old-location: shell\IBrowserService_NotifyRedirect.htm
 old-project: shell
 ms.assetid: a37c20b9-e2c6-438b-9fd5-749c680d5ee0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], NotifyRedirect method, IBrowserService::NotifyRedirect, NotifyRedirect method [Windows Shell], NotifyRedirect method [Windows Shell], IBrowserService interface, NotifyRedirect,IBrowserService.NotifyRedirect, shdeprecated/IBrowserService::NotifyRedirect, shell.IBrowserService_NotifyRedirect, zone_IBrowserService_NotifyRedirect
+ms.date: 5/3/2018
+ms.keywords: IBrowserService interface [Windows Shell],NotifyRedirect method, IBrowserService.NotifyRedirect, IBrowserService::NotifyRedirect, NotifyRedirect, NotifyRedirect method [Windows Shell], NotifyRedirect method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::NotifyRedirect, shell.IBrowserService_NotifyRedirect, zone_IBrowserService_NotifyRedirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::NotifyRedirect method
+# IBrowserService::NotifyRedirect
 
 
 ## -description

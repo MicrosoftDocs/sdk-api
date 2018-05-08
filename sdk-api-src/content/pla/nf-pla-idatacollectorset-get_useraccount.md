@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_UserAccount
-title: IDataCollectorSet::get_UserAccount method
+title: IDataCollectorSet::get_UserAccount
 author: windows-driver-content
 description: Retrieves the user account under which the data collector set will run.
 old-location: pla\idatacollectorset_get_useraccount.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 32fe1dcf-9682-40fd-b301-45385fa33cbe
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], UserAccount property, IDataCollectorSet.UserAccount, IDataCollectorSet::get_UserAccount, UserAccount property [PLA], UserAccount property [PLA], IDataCollectorSet interface, base.idatacollectorset_get_useraccount, get_UserAccount,IDataCollectorSet.get_UserAccount, pla.idatacollectorset_get_useraccount, pla/IDataCollectorSet::UserAccount, pla/IDataCollectorSet::get_UserAccount
+ms.keywords: IDataCollectorSet interface [PLA],UserAccount property, IDataCollectorSet.UserAccount, IDataCollectorSet.get_UserAccount, IDataCollectorSet::UserAccount, IDataCollectorSet::get_UserAccount, UserAccount property [PLA], UserAccount property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_useraccount, get_UserAccount, pla.idatacollectorset_get_useraccount, pla/IDataCollectorSet::UserAccount, pla/IDataCollectorSet::get_UserAccount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::get_UserAccount method
+# IDataCollectorSet::get_UserAccount
 
 
 ## -description

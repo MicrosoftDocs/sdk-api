@@ -1,14 +1,14 @@
 ---
 UID: NF:objectarray.IObjectArray.GetCount
-title: IObjectArray::GetCount method
+title: IObjectArray::GetCount
 author: windows-driver-content
 description: Provides a count of the objects in the collection.
 old-location: shell\IObjectArray_GetCount.htm
 old-project: shell
 ms.assetid: 2803d8b1-7fc2-499b-a16b-b82b420cba66
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCount method [Windows Shell], GetCount method [Windows Shell], IObjectArray interface, GetCount,IObjectArray.GetCount, IObjectArray, IObjectArray interface [Windows Shell], GetCount method, IObjectArray::GetCount, _shell_IObjectArray_GetCount, objectarray/IObjectArray::GetCount, shell.IObjectArray_GetCount
+ms.date: 5/3/2018
+ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],IObjectArray interface, IObjectArray interface [Windows Shell],GetCount method, IObjectArray.GetCount, IObjectArray::GetCount, _shell_IObjectArray_GetCount, objectarray/IObjectArray::GetCount, shell.IObjectArray_GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IObjectArray::GetCount method
+# IObjectArray::GetCount
 
 
 ## -description

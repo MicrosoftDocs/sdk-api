@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_BacklightCompensation
-title: IVideoProcAmp::getRange_BacklightCompensation method
+title: IVideoProcAmp::getRange_BacklightCompensation
 author: windows-driver-content
 description: The getRange_BacklightCompensation method returns the range of backlight compensation settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_backlightcompensation.htm
 old-project: DirectShow
 ms.assetid: 4527e7e9-372c-4883-a068-1ce53eb2256a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_BacklightCompensation method, IVideoProcAmp::getRange_BacklightCompensation, IVideoProcAmpgetRange_BacklightCompensation, dshow.ivideoprocamp_getrange_backlightcompensation, getRange_BacklightCompensation method [DirectShow], getRange_BacklightCompensation method [DirectShow], IVideoProcAmp interface, getRange_BacklightCompensation,IVideoProcAmp.getRange_BacklightCompensation, vidcap/IVideoProcAmp::getRange_BacklightCompensation
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],getRange_BacklightCompensation method, IVideoProcAmp.getRange_BacklightCompensation, IVideoProcAmp::getRange_BacklightCompensation, IVideoProcAmpgetRange_BacklightCompensation, dshow.ivideoprocamp_getrange_backlightcompensation, getRange_BacklightCompensation, getRange_BacklightCompensation method [DirectShow], getRange_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_BacklightCompensation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::getRange_BacklightCompensation method
+# IVideoProcAmp::getRange_BacklightCompensation
 
 
 ## -description

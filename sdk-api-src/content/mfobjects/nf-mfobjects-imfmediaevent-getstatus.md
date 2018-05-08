@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaEvent.GetStatus
-title: IMFMediaEvent::GetStatus method
+title: IMFMediaEvent::GetStatus
 author: windows-driver-content
 description: Retrieves an HRESULT that specifies the event status.
 old-location: mf\imfmediaevent_getstatus.htm
 old-project: medfound
 ms.assetid: e2fc6c81-11c0-4947-b647-3e74a73ee5a2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStatus method [Media Foundation], GetStatus method [Media Foundation], IMFMediaEvent interface, GetStatus,IMFMediaEvent.GetStatus, IMFMediaEvent, IMFMediaEvent interface [Media Foundation], GetStatus method, IMFMediaEvent::GetStatus, e2fc6c81-11c0-4947-b647-3e74a73ee5a2, mf.imfmediaevent_getstatus, mfobjects/IMFMediaEvent::GetStatus
+ms.date: 5/3/2018
+ms.keywords: GetStatus, GetStatus method [Media Foundation], GetStatus method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetStatus method, IMFMediaEvent.GetStatus, IMFMediaEvent::GetStatus, e2fc6c81-11c0-4947-b647-3e74a73ee5a2, mf.imfmediaevent_getstatus, mfobjects/IMFMediaEvent::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEvent::GetStatus method
+# IMFMediaEvent::GetStatus
 
 
 ## -description

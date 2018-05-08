@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 37D9494A-A5C0-4ABA-99BC-7F9B10E8D06C
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxPackageEditor, IAppxPackageEditor interface [App packaging and management], IAppxPackageEditor interface [App packaging and management], described, appxpackaging/IAppxPackageEditor, appxpkg.iappxpackageeditor
+ms.keywords: IAppxPackageEditor, IAppxPackageEditor interface [App packaging and management], IAppxPackageEditor interface [App packaging and management],described, appxpackaging/IAppxPackageEditor, appxpkg.iappxpackageeditor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

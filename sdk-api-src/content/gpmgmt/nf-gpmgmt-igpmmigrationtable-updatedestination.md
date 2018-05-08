@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.UpdateDestination
-title: IGPMMigrationTable::UpdateDestination method
+title: IGPMMigrationTable::UpdateDestination
 author: windows-driver-content
 description: Updates the destination field of an entry in a migration table. You can specify the destination option and the destination.
 old-location: gpmc\igpmmigrationtable_updatedestination.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: c47ad9d7-cf04-4ab4-9c44-78a5e54fc04e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMigrationTable class [GPMC], UpdateDestination method, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], UpdateDestination method, IGPMMigrationTable::UpdateDestination, UpdateDestination method [GPMC], UpdateDestination method [GPMC], GPMigrationTable class, UpdateDestination method [GPMC], IGPMMigrationTable interface, UpdateDestination,IGPMMigrationTable.UpdateDestination, gpmc.igpmmigrationtable_updatedestination, gpmgmt/IGPMMigrationTable::UpdateDestination
+ms.keywords: GPMigrationTable class [GPMC],UpdateDestination method, IGPMMigrationTable interface [GPMC],UpdateDestination method, IGPMMigrationTable.UpdateDestination, IGPMMigrationTable::UpdateDestination, UpdateDestination, UpdateDestination method [GPMC], UpdateDestination method [GPMC],GPMigrationTable class, UpdateDestination method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_updatedestination, gpmgmt/IGPMMigrationTable::UpdateDestination
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMMigrationTable::UpdateDestination method
+# IGPMMigrationTable::UpdateDestination
 
 
 ## -description

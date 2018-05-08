@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayChaptersAutoStop
-title: IDvdControl2::PlayChaptersAutoStop method
+title: IDvdControl2::PlayChaptersAutoStop
 author: windows-driver-content
 description: The PlayChaptersAutoStop method plays the number of chapters specified, starting at the specified chapter within the specified title.
 old-location: dshow\idvdcontrol2_playchaptersautostop.htm
 old-project: DirectShow
 ms.assetid: fdf9642b-ac90-4ffc-a813-4a5b22a973dd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], PlayChaptersAutoStop method, IDvdControl2::PlayChaptersAutoStop, IDvdControl2PlayChaptersAutoStop, PlayChaptersAutoStop method [DirectShow], PlayChaptersAutoStop method [DirectShow], IDvdControl2 interface, PlayChaptersAutoStop,IDvdControl2.PlayChaptersAutoStop, dshow.idvdcontrol2_playchaptersautostop, strmif/IDvdControl2::PlayChaptersAutoStop
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],PlayChaptersAutoStop method, IDvdControl2.PlayChaptersAutoStop, IDvdControl2::PlayChaptersAutoStop, IDvdControl2PlayChaptersAutoStop, PlayChaptersAutoStop, PlayChaptersAutoStop method [DirectShow], PlayChaptersAutoStop method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchaptersautostop, strmif/IDvdControl2::PlayChaptersAutoStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::PlayChaptersAutoStop method
+# IDvdControl2::PlayChaptersAutoStop
 
 
 ## -description

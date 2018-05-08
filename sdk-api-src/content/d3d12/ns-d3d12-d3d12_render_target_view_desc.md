@@ -67,42 +67,42 @@ A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI
 A <a href="https://msdn.microsoft.com/16689D46-D5DC-4119-8148-BCFF0E358D6E">D3D12_RTV_DIMENSION</a>-typed value that specifies how the render-target resource will be accessed. This type specifies how the resource will be accessed. This member also determines which _RTV to use in the following union.
 
 
-#### - Buffer
+### -field Buffer
 
 A <a href="https://msdn.microsoft.com/B4BDA7DE-6FB1-4806-9207-42EA0BFC69AE">D3D12_BUFFER_RTV</a> structure that specifies which buffer elements can be accessed.
 
 
-#### - Texture1D
+### -field Texture1D
 
 A <a href="https://msdn.microsoft.com/F675EC46-C747-4F05-8676-ECB8745F5064">D3D12_TEX1D_RTV</a> structure that specifies the subresources in a 1D texture that can be accessed.
 
 
-#### - Texture1DArray
+### -field Texture1DArray
 
 A <a href="https://msdn.microsoft.com/AA297BF7-682B-4141-9F5B-D0C3B271C15A">D3D12_TEX1D_ARRAY_RTV</a> structure that specifies the subresources in a 1D texture array that can be accessed.
 
 
-#### - Texture2D
+### -field Texture2D
 
 A <a href="https://msdn.microsoft.com/E85CC5DF-96A9-488E-95A3-60175FA7B63E">D3D12_TEX2D_RTV</a> structure that specifies the subresources in a 2D texture that can be accessed.
 
 
-#### - Texture2DArray
+### -field Texture2DArray
 
 A <a href="https://msdn.microsoft.com/E20A8045-46A4-40CB-98E9-B148AD2B9BDA">D3D12_TEX2D_ARRAY_RTV</a> structure that specifies the subresources in a 2D texture array that can be accessed.
 
 
-#### - Texture2DMS
+### -field Texture2DMS
 
 A <a href="https://msdn.microsoft.com/000B37D4-261D-48E1-B7ED-EEA1EC2DA0DD">D3D12_TEX2DMS_RTV</a> structure that specifies a single subresource because a multisampled 2D texture only contains one subresource.
 
 
-#### - Texture2DMSArray
+### -field Texture2DMSArray
 
 A <a href="https://msdn.microsoft.com/9EA35677-1680-4F57-BDE1-5649C1D48661">D3D12_TEX2DMS_ARRAY_RTV</a> structure that specifies the subresources in a multisampled 2D texture array that can be accessed.
 
 
-#### - Texture3D
+### -field Texture3D
 
 A <a href="https://msdn.microsoft.com/D640C247-FDE9-49DD-88AB-BCCC3B8880D1">D3D12_TEX3D_RTV</a> structure that specifies subresources in a 3D texture that can be accessed.
 

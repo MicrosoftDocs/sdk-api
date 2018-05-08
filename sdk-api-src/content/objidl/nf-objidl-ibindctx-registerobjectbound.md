@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBindCtx.RegisterObjectBound
-title: IBindCtx::RegisterObjectBound method
+title: IBindCtx::RegisterObjectBound
 author: windows-driver-content
 description: Registers an object with the bind context to ensure that the object remains active until the bind context is released.
 old-location: com\ibindctx_registerobjectbound.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 84d49231-5fdd-4a89-8e76-1f0e56bc553f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IBindCtx, IBindCtx interface [COM], RegisterObjectBound method, IBindCtx::RegisterObjectBound, RegisterObjectBound method [COM], RegisterObjectBound method [COM], IBindCtx interface, RegisterObjectBound,IBindCtx.RegisterObjectBound, _com_ibindctx_registerobjectbound, com.ibindctx_registerobjectbound, objidl/IBindCtx::RegisterObjectBound
+ms.keywords: IBindCtx interface [COM],RegisterObjectBound method, IBindCtx.RegisterObjectBound, IBindCtx::RegisterObjectBound, RegisterObjectBound, RegisterObjectBound method [COM], RegisterObjectBound method [COM],IBindCtx interface, _com_ibindctx_registerobjectbound, com.ibindctx_registerobjectbound, objidl/IBindCtx::RegisterObjectBound
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBindCtx::RegisterObjectBound method
+# IBindCtx::RegisterObjectBound
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator2.put_SignalPilot
-title: IDVBSLocator2::put_SignalPilot method
+title: IDVBSLocator2::put_SignalPilot
 author: windows-driver-content
 description: Specifies the pilot mode for a Digital Video Broadcasting-Satellite, Second Generation (DVB-S2) signal.
 old-location: mstv\idvbslocator2_signalpilot.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a8e99945-0c71-4a1f-b476-b97f0c017e36
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBSLocator2, IDVBSLocator2 interface [Microsoft TV Technologies], SignalPilot property, IDVBSLocator2.SignalPilot, IDVBSLocator2::get_SignalPilot, IDVBSLocator2::put_SignalPilot, SignalPilot property [Microsoft TV Technologies], SignalPilot property [Microsoft TV Technologies], IDVBSLocator2 interface, mstv.idvbslocator2_signalpilot, put_SignalPilot,IDVBSLocator2.put_SignalPilot, tuner/IDVBSLocator2::SignalPilot, tuner/IDVBSLocator2::get_SignalPilot, tuner/IDVBSLocator2::put_SignalPilot
+ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],SignalPilot property, IDVBSLocator2.SignalPilot, IDVBSLocator2.put_SignalPilot, IDVBSLocator2::SignalPilot, IDVBSLocator2::get_SignalPilot, IDVBSLocator2::put_SignalPilot, SignalPilot property [Microsoft TV Technologies], SignalPilot property [Microsoft TV Technologies],IDVBSLocator2 interface, mstv.idvbslocator2_signalpilot, put_SignalPilot, tuner/IDVBSLocator2::SignalPilot, tuner/IDVBSLocator2::get_SignalPilot, tuner/IDVBSLocator2::put_SignalPilot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBSLocator2::put_SignalPilot method
+# IDVBSLocator2::put_SignalPilot
 
 
 ## -description

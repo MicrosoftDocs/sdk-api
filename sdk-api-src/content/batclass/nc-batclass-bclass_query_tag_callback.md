@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 030b7f5f-8ace-4dfc-8330-97aace86a1eb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BCLASS_QUERY_TAG_CALLBACK, BatteryMiniQueryTag, BatteryMiniQueryTag callback function [Battery Devices], bat-mini_67f7c8df-433f-43fa-bca1-206f9e0932bb.xml, batclass/BatteryMiniQueryTag, battery.batteryminiquerytag
+ms.keywords: BCLASS_QUERY_TAG_CALLBACK, BCLASS_QUERY_TAG_CALLBACK callback, BatteryMiniQueryTag, BatteryMiniQueryTag callback function [Battery Devices], bat-mini_67f7c8df-433f-43fa-bca1-206f9e0932bb.xml, batclass/BatteryMiniQueryTag, battery.batteryminiquerytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: PASSIVE_LEVEL
 ---
 
-# BCLASS_QUERY_TAG_CALLBACK callback
+# BCLASS_QUERY_TAG_CALLBACK callback function
 
 
 ## -description

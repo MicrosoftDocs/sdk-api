@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroup.GetInteriorInputConnector
-title: IMILBitmapEffectGroup::GetInteriorInputConnector method
+title: IMILBitmapEffectGroup::GetInteriorInputConnector
 author: windows-driver-content
 description: Retrieves the input connector for an effect at the given index.
 old-location: wibe\_wibe_imilbitmapeffectgroup_getinteriorinputconnector.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroup\getinteriorinputconnector.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetInteriorInputConnector method [WPF Bitmap Effects], GetInteriorInputConnector method [WPF Bitmap Effects], IMILBitmapEffectGroup interface, GetInteriorInputConnector,IMILBitmapEffectGroup.GetInteriorInputConnector, IMILBitmapEffectGroup, IMILBitmapEffectGroup interface [WPF Bitmap Effects], GetInteriorInputConnector method, IMILBitmapEffectGroup::GetInteriorInputConnector, _wibe_imilbitmapeffectgroup_getinteriorinputconnector, mileffects/IMILBitmapEffectGroup::GetInteriorInputConnector, wibe._wibe_imilbitmapeffectgroup_getinteriorinputconnector
+ms.keywords: GetInteriorInputConnector, GetInteriorInputConnector method [WPF Bitmap Effects], GetInteriorInputConnector method [WPF Bitmap Effects],IMILBitmapEffectGroup interface, IMILBitmapEffectGroup interface [WPF Bitmap Effects],GetInteriorInputConnector method, IMILBitmapEffectGroup.GetInteriorInputConnector, IMILBitmapEffectGroup::GetInteriorInputConnector, _wibe_imilbitmapeffectgroup_getinteriorinputconnector, mileffects/IMILBitmapEffectGroup::GetInteriorInputConnector, wibe._wibe_imilbitmapeffectgroup_getinteriorinputconnector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectGroup::GetInteriorInputConnector method
+# IMILBitmapEffectGroup::GetInteriorInputConnector
 
 
 ## -description

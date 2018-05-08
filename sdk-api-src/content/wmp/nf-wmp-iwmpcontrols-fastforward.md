@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPControls.fastForward
-title: IWMPControls::fastForward method
+title: IWMPControls::fastForward
 author: windows-driver-content
 description: The fastForward method starts fast play of the media item in the forward direction.
 old-location: wmp\iwmpcontrols_fastforward.htm
 old-project: WMP
 ms.assetid: a741da8d-f1a2-4a96-acb6-7c40077f6b5e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], fastForward method, IWMPControls::fastForward, IWMPControlsfastForward, fastForward method [Windows Media Player], fastForward method [Windows Media Player], IWMPControls interface, fastForward,IWMPControls.fastForward, wmp.iwmpcontrols_fastforward, wmp/IWMPControls::fastForward
+ms.date: 5/4/2018
+ms.keywords: IWMPControls interface [Windows Media Player],fastForward method, IWMPControls.fastForward, IWMPControls::fastForward, IWMPControlsfastForward, fastForward, fastForward method [Windows Media Player], fastForward method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_fastforward, wmp/IWMPControls::fastForward
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPControls::fastForward method
+# IWMPControls::fastForward
 
 
 ## -description

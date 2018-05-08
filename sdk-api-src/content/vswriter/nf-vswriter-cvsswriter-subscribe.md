@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.Subscribe
-title: CVssWriter::Subscribe method
+title: CVssWriter::Subscribe
 author: windows-driver-content
 description: The Subscribe method subscribes the writer with VSS.
 old-location: base\cvsswriter_subscribe.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: ab9520c9-bd6b-4c81-87fc-f5cda6ee9c94
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriter, CVssWriter interface [VSS], Subscribe method, CVssWriter::Subscribe, Subscribe method [VSS], Subscribe method [VSS], CVssWriter interface, Subscribe,CVssWriter.Subscribe, _win32_cvsswriter_subscribe, base.cvsswriter_subscribe, vswriter/CVssWriter::Subscribe
+ms.keywords: CVssWriter interface [VSS],Subscribe method, CVssWriter.Subscribe, CVssWriter::Subscribe, Subscribe, Subscribe method [VSS], Subscribe method [VSS],CVssWriter interface, _win32_cvsswriter_subscribe, base.cvsswriter_subscribe, vswriter/CVssWriter::Subscribe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriter::Subscribe method
+# CVssWriter::Subscribe
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenser.OpenScope
-title: IMetaDataDispenser::OpenScope method
+title: IMetaDataDispenser::OpenScope
 author: windows-driver-content
 description: Opens an existing, on-disk file and maps its metadata into memory.
 old-location: winrt\imetadatadispenser_openscope.htm
 old-project: WinRT
 ms.assetid: 77ba5ee6-082c-478f-83fc-7f6c31ee3c74
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IMetaDataDispenser, IMetaDataDispenser interface [Windows Runtime], OpenScope method, IMetaDataDispenser::OpenScope, OpenScope method [Windows Runtime], OpenScope method [Windows Runtime], IMetaDataDispenser interface, OpenScope,IMetaDataDispenser.OpenScope, rometadataapi/IMetaDataDispenser::OpenScope, winrt.imetadatadispenser_openscope
+ms.date: 5/4/2018
+ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScope method, IMetaDataDispenser.OpenScope, IMetaDataDispenser::OpenScope, OpenScope, OpenScope method [Windows Runtime], OpenScope method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScope, winrt.imetadatadispenser_openscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataDispenser::OpenScope method
+# IMetaDataDispenser::OpenScope
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.RegisterEndpointNotificationCallback
-title: IMMDeviceEnumerator::RegisterEndpointNotificationCallback method
+title: IMMDeviceEnumerator::RegisterEndpointNotificationCallback
 author: windows-driver-content
 description: The RegisterEndpointNotificationCallback method registers a client's notification callback interface.
 old-location: coreaudio\immdeviceenumerator_registerendpointnotificationcallback.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 2c524f64-0b35-4433-9768-582dcb580a74
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IMMDeviceEnumerator, IMMDeviceEnumerator interface [Core Audio], RegisterEndpointNotificationCallback method, IMMDeviceEnumerator::RegisterEndpointNotificationCallback, IMMDeviceEnumeratorRegisterEndpointNotificationCal, RegisterEndpointNotificationCallback method [Core Audio], RegisterEndpointNotificationCallback method [Core Audio], IMMDeviceEnumerator interface, RegisterEndpointNotificationCallback,IMMDeviceEnumerator.RegisterEndpointNotificationCallback, coreaudio.immdeviceenumerator_registerendpointnotificationcallback, mmdeviceapi/IMMDeviceEnumerator::RegisterEndpointNotificationCallback
+ms.keywords: IMMDeviceEnumerator interface [Core Audio],RegisterEndpointNotificationCallback method, IMMDeviceEnumerator.RegisterEndpointNotificationCallback, IMMDeviceEnumerator::RegisterEndpointNotificationCallback, IMMDeviceEnumeratorRegisterEndpointNotificationCal, RegisterEndpointNotificationCallback, RegisterEndpointNotificationCallback method [Core Audio], RegisterEndpointNotificationCallback method [Core Audio],IMMDeviceEnumerator interface, coreaudio.immdeviceenumerator_registerendpointnotificationcallback, mmdeviceapi/IMMDeviceEnumerator::RegisterEndpointNotificationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMMDeviceEnumerator::RegisterEndpointNotificationCallback method
+# IMMDeviceEnumerator::RegisterEndpointNotificationCallback
 
 
 ## -description

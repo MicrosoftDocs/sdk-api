@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IRpcChannelBuffer.IsConnected
-title: IRpcChannelBuffer::IsConnected method
+title: IRpcChannelBuffer::IsConnected
 author: windows-driver-content
 description: Determines whether the RPC channel is connected.
 old-location: com\irpcchannelbuffer_isconnected.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 4068f0bb-35fb-452b-8ab1-1a38b1a0c2fa
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IRpcChannelBuffer, IRpcChannelBuffer interface [COM], IsConnected method, IRpcChannelBuffer::IsConnected, IsConnected method [COM], IsConnected method [COM], IRpcChannelBuffer interface, IsConnected,IRpcChannelBuffer.IsConnected, _com_irpcchannelbuffer_isconnected, com.irpcchannelbuffer_isconnected, objidlbase/IRpcChannelBuffer::IsConnected
+ms.keywords: IRpcChannelBuffer interface [COM],IsConnected method, IRpcChannelBuffer.IsConnected, IRpcChannelBuffer::IsConnected, IsConnected, IsConnected method [COM], IsConnected method [COM],IRpcChannelBuffer interface, _com_irpcchannelbuffer_isconnected, com.irpcchannelbuffer_isconnected, objidlbase/IRpcChannelBuffer::IsConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRpcChannelBuffer::IsConnected method
+# IRpcChannelBuffer::IsConnected
 
 
 ## -description

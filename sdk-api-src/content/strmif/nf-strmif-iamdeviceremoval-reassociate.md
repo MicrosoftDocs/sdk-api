@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMDeviceRemoval.Reassociate
-title: IAMDeviceRemoval::Reassociate method
+title: IAMDeviceRemoval::Reassociate
 author: windows-driver-content
 description: The Reassociate method reassociates the KsProxy filter with the device. The Filter Graph Manager calls this method if it receives a notification that the device has returned after being removed.
 old-location: dshow\iamdeviceremoval_reassociate.htm
 old-project: DirectShow
 ms.assetid: 214b98c7-4143-4466-a359-1e9c9e4c778d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMDeviceRemoval, IAMDeviceRemoval interface [DirectShow], Reassociate method, IAMDeviceRemoval::Reassociate, IAMDeviceRemovalReassociate, Reassociate method [DirectShow], Reassociate method [DirectShow], IAMDeviceRemoval interface, Reassociate,IAMDeviceRemoval.Reassociate, dshow.iamdeviceremoval_reassociate, strmif/IAMDeviceRemoval::Reassociate
+ms.date: 4/30/2018
+ms.keywords: IAMDeviceRemoval interface [DirectShow],Reassociate method, IAMDeviceRemoval.Reassociate, IAMDeviceRemoval::Reassociate, IAMDeviceRemovalReassociate, Reassociate, Reassociate method [DirectShow], Reassociate method [DirectShow],IAMDeviceRemoval interface, dshow.iamdeviceremoval_reassociate, strmif/IAMDeviceRemoval::Reassociate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMDeviceRemoval::Reassociate method
+# IAMDeviceRemoval::Reassociate
 
 
 ## -description

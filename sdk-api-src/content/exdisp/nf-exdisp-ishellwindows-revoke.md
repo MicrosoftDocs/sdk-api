@@ -1,14 +1,14 @@
 ---
 UID: NF:exdisp.IShellWindows.Revoke
-title: IShellWindows::Revoke method
+title: IShellWindows::Revoke
 author: windows-driver-content
 description: Revokes a Shell window's registration and removes the window from the Shell windows collection.
 old-location: shell\IShellWindows_Revoke.htm
 old-project: shell
 ms.assetid: 66ca2569-b763-445b-b5b5-98ef32c64578
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], Revoke method, IShellWindows::Revoke, Revoke method [Windows Shell], Revoke method [Windows Shell], IShellWindows interface, Revoke,IShellWindows.Revoke, _win32_IShellWindows_Revoke, exdisp/IShellWindows::Revoke, shell.IShellWindows_Revoke
+ms.date: 5/3/2018
+ms.keywords: IShellWindows interface [Windows Shell],Revoke method, IShellWindows.Revoke, IShellWindows::Revoke, Revoke, Revoke method [Windows Shell], Revoke method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Revoke, exdisp/IShellWindows::Revoke, shell.IShellWindows_Revoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IShellWindows::Revoke method
+# IShellWindows::Revoke
 
 
 ## -description

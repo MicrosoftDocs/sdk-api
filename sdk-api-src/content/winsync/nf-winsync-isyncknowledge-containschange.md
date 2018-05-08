@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ContainsChange
-title: ISyncKnowledge::ContainsChange method
+title: ISyncKnowledge::ContainsChange
 author: windows-driver-content
 description: Indicates whether the specified item change is known by this knowledge.
 old-location: winsync\isyncknowledge_containschange.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 4c304d76-f27a-4382-99ad-1d158da93de6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ContainsChange method [Windows Sync], ContainsChange method [Windows Sync], ISyncKnowledge interface, ContainsChange,ISyncKnowledge.ContainsChange, ISyncKnowledge, ISyncKnowledge interface [Windows Sync], ContainsChange method, ISyncKnowledge::ContainsChange, winsync.isyncknowledge_containschange, winsync/ISyncKnowledge::ContainsChange
+ms.keywords: ContainsChange, ContainsChange method [Windows Sync], ContainsChange method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ContainsChange method, ISyncKnowledge.ContainsChange, ISyncKnowledge::ContainsChange, winsync.isyncknowledge_containschange, winsync/ISyncKnowledge::ContainsChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::ContainsChange method
+# ISyncKnowledge::ContainsChange
 
 
 ## -description

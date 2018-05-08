@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Authenticate
-title: IWMPContentPartner::Authenticate method
+title: IWMPContentPartner::Authenticate
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Authenticate method initiates an attempt to authenticate the user.
 old-location: wmp\iwmpcontentpartner_authenticate.htm
 old-project: WMP
 ms.assetid: 0fb3a94d-8c8e-4d04-b9ca-56ad2e066aac
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: Authenticate method [Windows Media Player], Authenticate method [Windows Media Player], IWMPContentPartner interface, Authenticate,IWMPContentPartner.Authenticate, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], Authenticate method, IWMPContentPartner::Authenticate, IWMPContentPartnerAuthenticate, contentpartner/IWMPContentPartner::Authenticate, wmp.iwmpcontentpartner_authenticate
+ms.date: 5/4/2018
+ms.keywords: Authenticate, Authenticate method [Windows Media Player], Authenticate method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Authenticate method, IWMPContentPartner.Authenticate, IWMPContentPartner::Authenticate, IWMPContentPartnerAuthenticate, contentpartner/IWMPContentPartner::Authenticate, wmp.iwmpcontentpartner_authenticate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::Authenticate method
+# IWMPContentPartner::Authenticate
 
 
 ## -description

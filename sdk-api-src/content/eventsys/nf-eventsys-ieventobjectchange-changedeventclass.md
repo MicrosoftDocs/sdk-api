@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventObjectChange.ChangedEventClass
-title: IEventObjectChange::ChangedEventClass method
+title: IEventObjectChange::ChangedEventClass
 author: windows-driver-content
 description: Indicates that an event class object has been added, modified, or deleted.
 old-location: cos\ieventobjectchange_changedeventclass.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 8db711c8-7c01-4fb0-975c-a66c83063124
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ChangedEventClass method [COM+], ChangedEventClass method [COM+], IEventObjectChange interface, ChangedEventClass,IEventObjectChange.ChangedEventClass, IEventObjectChange, IEventObjectChange interface [COM+], ChangedEventClass method, IEventObjectChange::ChangedEventClass, _cos_IEventObjectChange_ChangedEventClass, cos.ieventobjectchange_changedeventclass, eventsys/IEventObjectChange::ChangedEventClass
+ms.keywords: ChangedEventClass, ChangedEventClass method [COM+], ChangedEventClass method [COM+],IEventObjectChange interface, IEventObjectChange interface [COM+],ChangedEventClass method, IEventObjectChange.ChangedEventClass, IEventObjectChange::ChangedEventClass, _cos_IEventObjectChange_ChangedEventClass, cos.ieventobjectchange_changedeventclass, eventsys/IEventObjectChange::ChangedEventClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventObjectChange::ChangedEventClass method
+# IEventObjectChange::ChangedEventClass
 
 
 ## -description

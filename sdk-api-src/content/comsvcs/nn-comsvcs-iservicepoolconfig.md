@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 026abfcf-56b5-4821-a9d4-37beeb3a052b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IServicePoolConfig, IServicePoolConfig interface [COM+], IServicePoolConfig interface [COM+], described, _cos_IServicePoolConfig, comsvcs/IServicePoolConfig, cos.iservicepoolconfig
+ms.keywords: IServicePoolConfig, IServicePoolConfig interface [COM+], IServicePoolConfig interface [COM+],described, _cos_IServicePoolConfig, comsvcs/IServicePoolConfig, cos.iservicepoolconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

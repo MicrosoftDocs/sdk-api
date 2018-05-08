@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPackage.GetRelationshipSet
-title: IOpcPackage::GetRelationshipSet method
+title: IOpcPackage::GetRelationshipSet
 author: windows-driver-content
 description: Gets a relationship set object that represents the Relationships part that stores package relationships.
 old-location: opc\iopcpackage_getrelationshipset.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 316fe21c-675a-47ec-b17e-0fe505a06c7f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRelationshipSet method [Open Packaging Conventions], GetRelationshipSet method [Open Packaging Conventions], IOpcPackage interface, GetRelationshipSet,IOpcPackage.GetRelationshipSet, IOpcPackage, IOpcPackage interface [Open Packaging Conventions], GetRelationshipSet method, IOpcPackage::GetRelationshipSet, msopc/IOpcPackage::GetRelationshipSet, opc.iopcpackage_getrelationshipset
+ms.keywords: GetRelationshipSet, GetRelationshipSet method [Open Packaging Conventions], GetRelationshipSet method [Open Packaging Conventions],IOpcPackage interface, IOpcPackage interface [Open Packaging Conventions],GetRelationshipSet method, IOpcPackage.GetRelationshipSet, IOpcPackage::GetRelationshipSet, msopc/IOpcPackage::GetRelationshipSet, opc.iopcpackage_getrelationshipset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPackage::GetRelationshipSet method
+# IOpcPackage::GetRelationshipSet
 
 
 ## -description

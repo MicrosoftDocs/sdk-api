@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_VoidTransform.Stop
-title: IBDA_VoidTransform::Stop method
+title: IBDA_VoidTransform::Stop
 author: windows-driver-content
 description: The Stop method stops data flow through a control node.
 old-location: mstv\ibda_voidtransform_stop.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ff061aef-1058-4d1d-802e-89e7f4ebfe3c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_VoidTransform, IBDA_VoidTransform interface [Microsoft TV Technologies], Stop method, IBDA_VoidTransform::Stop, IBDA_VoidTransformStop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies], IBDA_VoidTransform interface, Stop,IBDA_VoidTransform.Stop, bdaiface/IBDA_VoidTransform::Stop, mstv.ibda_voidtransform_stop
+ms.keywords: IBDA_VoidTransform interface [Microsoft TV Technologies],Stop method, IBDA_VoidTransform.Stop, IBDA_VoidTransform::Stop, IBDA_VoidTransformStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IBDA_VoidTransform interface, bdaiface/IBDA_VoidTransform::Stop, mstv.ibda_voidtransform_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_VoidTransform::Stop method
+# IBDA_VoidTransform::Stop
 
 
 ## -description

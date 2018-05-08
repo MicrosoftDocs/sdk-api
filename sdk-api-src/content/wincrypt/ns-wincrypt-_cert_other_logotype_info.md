@@ -7,7 +7,7 @@ old-location: security\cert_other_logotype_info.htm
 old-project: SecCrypto
 ms.assetid: 104cc412-a268-4b5f-bb9d-9df27f4df6b7
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCERT_OTHER_LOGOTYPE_INFO, CERT_OTHER_LOGOTYPE_INFO, CERT_OTHER_LOGOTYPE_INFO structure [Security], PCERT_OTHER_LOGOTYPE_INFO, PCERT_OTHER_LOGOTYPE_INFO structure pointer [Security], _CERT_OTHER_LOGOTYPE_INFO, security.cert_other_logotype_info, szOID_BACKGROUND_OTHER_LOGOTYPE, szOID_LOYALTY_OTHER_LOGOTYPE, wincrypt/CERT_OTHER_LOGOTYPE_INFO, wincrypt/PCERT_OTHER_LOGOTYPE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

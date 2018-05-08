@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.GetDevices
-title: IFaxServer::GetDevices method
+title: IFaxServer::GetDevices
 author: windows-driver-content
 description: The IFaxServer::GetDevices method creates a IFaxDevices interface, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
 old-location: fax\_mfax_faxserver_getdevices_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7hrn_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: GetDevices method [Fax Service], GetDevices method [Fax Service], IFaxServer interface, GetDevices,IFaxServer.GetDevices, IFaxServer, IFaxServer interface [Fax Service], GetDevices method, IFaxServer::GetDevices, _mfax_faxserver.getdevices_cpp, fax._mfax_faxserver_getdevices_cpp, faxcomex/IFaxServer::GetDevices
+ms.keywords: GetDevices, GetDevices method [Fax Service], GetDevices method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetDevices method, IFaxServer.GetDevices, IFaxServer::GetDevices, _mfax_faxserver.getdevices_cpp, fax._mfax_faxserver_getdevices_cpp, faxcomex/IFaxServer::GetDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxServer::GetDevices method
+# IFaxServer::GetDevices
 
 
 ## -description

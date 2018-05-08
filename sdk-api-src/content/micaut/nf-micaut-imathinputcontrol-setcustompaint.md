@@ -1,14 +1,14 @@
 ---
 UID: NF:micaut.IMathInputControl.SetCustomPaint
-title: IMathInputControl::SetCustomPaint method
+title: IMathInputControl::SetCustomPaint
 author: windows-driver-content
 description: Determines whether a button or background has custom painting.
 old-location: tablet\imathinputcontrol_setcustompaint.htm
 old-project: tablet
 ms.assetid: f734b73c-88a9-45d0-a657-ff048d1f5ffe
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], SetCustomPaint method, IMathInputControl::SetCustomPaint, SetCustomPaint method [Tablet PC], SetCustomPaint method [Tablet PC], IMathInputControl interface, SetCustomPaint,IMathInputControl.SetCustomPaint, micaut/IMathInputControl::SetCustomPaint, tablet.imathinputcontrol_setcustompaint
+ms.date: 5/2/2018
+ms.keywords: IMathInputControl interface [Tablet PC],SetCustomPaint method, IMathInputControl.SetCustomPaint, IMathInputControl::SetCustomPaint, SetCustomPaint, SetCustomPaint method [Tablet PC], SetCustomPaint method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetCustomPaint, tablet.imathinputcontrol_setcustompaint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMathInputControl::SetCustomPaint method
+# IMathInputControl::SetCustomPaint
 
 
 ## -description

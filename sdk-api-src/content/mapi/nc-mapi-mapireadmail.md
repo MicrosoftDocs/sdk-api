@@ -8,7 +8,7 @@ old-project: WindowsMAPI
 ms.assetid: 46a8ff9f-17d9-4c33-8ca4-0a3978013f52
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: MAPIReadMail, MAPIReadMail callback function, MAPI_BODY_AS_FILE, MAPI_ENVELOPE_ONLY, MAPI_PEEK, MAPI_SUPPRESS_ATTACH, mapi.mapireadmail, mapi/MAPIReadMail
+ms.keywords: MAPIReadMail, MAPIReadMail callback, MAPIReadMail callback function, MAPI_BODY_AS_FILE, MAPI_ENVELOPE_ONLY, MAPI_PEEK, MAPI_SUPPRESS_ATTACH, mapi.mapireadmail, mapi/MAPIReadMail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# MAPIREADMAIL callback
+# MAPIREADMAIL callback function
 
 
 ## -description

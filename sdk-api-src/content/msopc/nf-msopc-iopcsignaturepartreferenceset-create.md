@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceSet.Create
-title: IOpcSignaturePartReferenceSet::Create method
+title: IOpcSignaturePartReferenceSet::Create
 author: windows-driver-content
 description: Creates an IOpcSignaturePartReference interface pointer that represents a reference to a part to be signed, and adds the new interface to the set.
 old-location: opc\iopcsignaturepartreferenceset_create.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 63162b37-0262-4d92-a14f-726fe4c87cc1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Create method [Open Packaging Conventions], Create method [Open Packaging Conventions], IOpcSignaturePartReferenceSet interface, Create,IOpcSignaturePartReferenceSet.Create, IOpcSignaturePartReferenceSet, IOpcSignaturePartReferenceSet interface [Open Packaging Conventions], Create method, IOpcSignaturePartReferenceSet::Create, msopc/IOpcSignaturePartReferenceSet::Create, opc.iopcsignaturepartreferenceset_create
+ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignaturePartReferenceSet interface, IOpcSignaturePartReferenceSet interface [Open Packaging Conventions],Create method, IOpcSignaturePartReferenceSet.Create, IOpcSignaturePartReferenceSet::Create, msopc/IOpcSignaturePartReferenceSet::Create, opc.iopcsignaturepartreferenceset_create
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignaturePartReferenceSet::Create method
+# IOpcSignaturePartReferenceSet::Create
 
 
 ## -description

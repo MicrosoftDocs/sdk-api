@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADs.GetInfo
-title: IADs::GetInfo method
+title: IADs::GetInfo
 author: windows-driver-content
 description: Loads into the property cache values of the supported properties of this ADSI object from the underlying directory store.
 old-location: adsi\iads_getinfo.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 73ceaeb1-9a6b-449a-9851-3756736dbad7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetInfo method [ADSI], GetInfo method [ADSI], IADs interface, GetInfo,IADs.GetInfo, IADs, IADs interface [ADSI], GetInfo method, IADs::GetInfo, _ds_iads_getinfo, adsi.iads__getinfo, adsi.iads_getinfo, iads/IADs::GetInfo
+ms.keywords: GetInfo, GetInfo method [ADSI], GetInfo method [ADSI],IADs interface, IADs interface [ADSI],GetInfo method, IADs.GetInfo, IADs::GetInfo, _ds_iads_getinfo, adsi.iads__getinfo, adsi.iads_getinfo, iads/IADs::GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADs::GetInfo method
+# IADs::GetInfo
 
 
 ## -description

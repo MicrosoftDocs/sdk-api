@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IETFilter.SetRecordingOn
-title: IETFilter::SetRecordingOn method
+title: IETFilter::SetRecordingOn
 author: windows-driver-content
 description: The SetRecordingOn method signals to the Encrypter/Tagger filter that the Video Control is about to start or stop recording.
 old-location: mstv\ietfilter_setrecordingon.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4579b897-8b68-4b95-8dd4-e5fd94195742
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IETFilter, IETFilter interface [Microsoft TV Technologies], SetRecordingOn method, IETFilter::SetRecordingOn, IETFilterSetRecordingOn, SetRecordingOn method [Microsoft TV Technologies], SetRecordingOn method [Microsoft TV Technologies], IETFilter interface, SetRecordingOn,IETFilter.SetRecordingOn, encdec/IETFilter::SetRecordingOn, mstv.ietfilter_setrecordingon
+ms.keywords: IETFilter interface [Microsoft TV Technologies],SetRecordingOn method, IETFilter.SetRecordingOn, IETFilter::SetRecordingOn, IETFilterSetRecordingOn, SetRecordingOn, SetRecordingOn method [Microsoft TV Technologies], SetRecordingOn method [Microsoft TV Technologies],IETFilter interface, encdec/IETFilter::SetRecordingOn, mstv.ietfilter_setrecordingon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IETFilter::SetRecordingOn method
+# IETFilter::SetRecordingOn
 
 
 ## -description

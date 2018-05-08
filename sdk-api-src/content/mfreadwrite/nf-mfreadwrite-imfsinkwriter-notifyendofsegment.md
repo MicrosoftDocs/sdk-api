@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.NotifyEndOfSegment
-title: IMFSinkWriter::NotifyEndOfSegment method
+title: IMFSinkWriter::NotifyEndOfSegment
 author: windows-driver-content
 description: Notifies the media sink that a stream has reached the end of a segment.
 old-location: mf\imfsinkwriter_notifyendofsegment.htm
 old-project: medfound
 ms.assetid: cb5b76b4-ff08-4cac-bd30-d4f3b57acb78
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSinkWriter, IMFSinkWriter interface [Media Foundation], NotifyEndOfSegment method, IMFSinkWriter::NotifyEndOfSegment, NotifyEndOfSegment method [Media Foundation], NotifyEndOfSegment method [Media Foundation], IMFSinkWriter interface, NotifyEndOfSegment,IMFSinkWriter.NotifyEndOfSegment, mf.imfsinkwriter_notifyendofsegment, mfreadwrite/IMFSinkWriter::NotifyEndOfSegment
+ms.date: 5/3/2018
+ms.keywords: IMFSinkWriter interface [Media Foundation],NotifyEndOfSegment method, IMFSinkWriter.NotifyEndOfSegment, IMFSinkWriter::NotifyEndOfSegment, NotifyEndOfSegment, NotifyEndOfSegment method [Media Foundation], NotifyEndOfSegment method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_notifyendofsegment, mfreadwrite/IMFSinkWriter::NotifyEndOfSegment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSinkWriter::NotifyEndOfSegment method
+# IMFSinkWriter::NotifyEndOfSegment
 
 
 ## -description

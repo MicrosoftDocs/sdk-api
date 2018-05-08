@@ -7,8 +7,8 @@ old-location: wia\_wia_IWiaDataTransfer.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\iwiadatatransfer.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], IWiaDataTransfer interface [WIA], described, _wia_IWiaDataTransfer, wia._wia_IWiaDataTransfer, wia_xp/IWiaDataTransfer
+ms.date: 5/3/2018
+ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], IWiaDataTransfer interface [WIA],described, _wia_IWiaDataTransfer, wia._wia_IWiaDataTransfer, wia_xp/IWiaDataTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

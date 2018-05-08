@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ICallFactory.CreateCall
-title: ICallFactory::CreateCall method
+title: ICallFactory::CreateCall
 author: windows-driver-content
 description: Creates an instance of the call object that corresponds to a specified asynchronous interface.
 old-location: com\icallfactory_createcall.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8df51aeb-4852-4dab-b1e9-e149ee115ea8
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: CreateCall method [COM], CreateCall method [COM], ICallFactory interface, CreateCall,ICallFactory.CreateCall, ICallFactory, ICallFactory interface [COM], CreateCall method, ICallFactory::CreateCall, _com_icallfactory_createcall, com.icallfactory_createcall, objidlbase/ICallFactory::CreateCall
+ms.keywords: CreateCall, CreateCall method [COM], CreateCall method [COM],ICallFactory interface, ICallFactory interface [COM],CreateCall method, ICallFactory.CreateCall, ICallFactory::CreateCall, _com_icallfactory_createcall, com.icallfactory_createcall, objidlbase/ICallFactory::CreateCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICallFactory::CreateCall method
+# ICallFactory::CreateCall
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetItemInfo
-title: IWMPContentPartner::GetItemInfo method
+title: IWMPContentPartner::GetItemInfo
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_getiteminfo.htm
 old-project: WMP
 ms.assetid: b7355c45-fb58-45f4-b7e4-3dd2c3f8c918
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetItemInfo method [Windows Media Player], GetItemInfo method [Windows Media Player], IWMPContentPartner interface, GetItemInfo,IWMPContentPartner.GetItemInfo, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], GetItemInfo method, IWMPContentPartner::GetItemInfo, IWMPContentPartnerGetItemInfo, contentpartner/IWMPContentPartner::GetItemInfo, wmp.iwmpcontentpartner_getiteminfo
+ms.date: 5/4/2018
+ms.keywords: GetItemInfo, GetItemInfo method [Windows Media Player], GetItemInfo method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetItemInfo method, IWMPContentPartner.GetItemInfo, IWMPContentPartner::GetItemInfo, IWMPContentPartnerGetItemInfo, contentpartner/IWMPContentPartner::GetItemInfo, wmp.iwmpcontentpartner_getiteminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::GetItemInfo method
+# IWMPContentPartner::GetItemInfo
 
 
 ## -description

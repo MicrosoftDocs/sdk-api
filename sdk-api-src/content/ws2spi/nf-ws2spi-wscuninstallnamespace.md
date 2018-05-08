@@ -7,7 +7,7 @@ old-location: winsock\wscuninstallnamespace_2.htm
 old-project: WinSock
 ms.assetid: 5267f986-99fc-4e53-9fbb-3850bb9d24cf
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: WSCUnInstallNameSpace, WSCUnInstallNameSpace function [Winsock], _win32_wscuninstallnamespace_2, winsock.wscuninstallnamespace_2, ws2spi/WSCUnInstallNameSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

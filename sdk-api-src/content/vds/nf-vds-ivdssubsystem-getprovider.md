@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystem.GetProvider
-title: IVdsSubSystem::GetProvider method
+title: IVdsSubSystem::GetProvider
 author: windows-driver-content
 description: Returns the provider that manages the subsystem.
 old-location: base\ivdssubsystem_getprovider.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 317e4aa3-2635-4e1b-af2d-ad7c6170bf33
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetProvider method [VDS], GetProvider method [VDS], IVdsSubSystem interface, GetProvider,IVdsSubSystem.GetProvider, IVdsSubSystem, IVdsSubSystem interface [VDS], GetProvider method, IVdsSubSystem::GetProvider, base.ivdssubsystem_getprovider, vds/IVdsSubSystem::GetProvider, vdshwprv/IVdsSubSystem::GetProvider
+ms.keywords: GetProvider, GetProvider method [VDS], GetProvider method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetProvider method, IVdsSubSystem.GetProvider, IVdsSubSystem::GetProvider, base.ivdssubsystem_getprovider, vds/IVdsSubSystem::GetProvider, vdshwprv/IVdsSubSystem::GetProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsSubSystem::GetProvider method
+# IVdsSubSystem::GetProvider
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipEnumerator.MovePrevious
-title: IOpcRelationshipEnumerator::MovePrevious method
+title: IOpcRelationshipEnumerator::MovePrevious
 author: windows-driver-content
 description: Moves the current position of the enumerator to the previous IOpcRelationship interface pointer.
 old-location: opc\iopcrelationshipenumerator_moveprevious.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 8ee69fea-b542-4c48-be4f-03595d227cde
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcRelationshipEnumerator, IOpcRelationshipEnumerator interface [Open Packaging Conventions], MovePrevious method, IOpcRelationshipEnumerator::MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions], IOpcRelationshipEnumerator interface, MovePrevious,IOpcRelationshipEnumerator.MovePrevious, msopc/IOpcRelationshipEnumerator::MovePrevious, opc.iopcrelationshipenumerator_moveprevious
+ms.keywords: IOpcRelationshipEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcRelationshipEnumerator.MovePrevious, IOpcRelationshipEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcRelationshipEnumerator interface, msopc/IOpcRelationshipEnumerator::MovePrevious, opc.iopcrelationshipenumerator_moveprevious
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcRelationshipEnumerator::MovePrevious method
+# IOpcRelationshipEnumerator::MovePrevious
 
 
 ## -description

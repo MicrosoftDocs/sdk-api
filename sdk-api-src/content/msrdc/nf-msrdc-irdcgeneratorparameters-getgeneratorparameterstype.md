@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.GetGeneratorParametersType
-title: IRdcGeneratorParameters::GetGeneratorParametersType method
+title: IRdcGeneratorParameters::GetGeneratorParametersType
 author: windows-driver-content
 description: Returns the specific type of the parameters.
 old-location: rdc\irdcgeneratorparameters_getgeneratorparameterstype.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: d9fd60d5-a542-4a00-becd-85c7dafbe105
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetGeneratorParametersType method [Remote Differential Compression], GetGeneratorParametersType method [Remote Differential Compression], IRdcGeneratorParameters interface, GetGeneratorParametersType,IRdcGeneratorParameters.GetGeneratorParametersType, IRdcGeneratorParameters, IRdcGeneratorParameters interface [Remote Differential Compression], GetGeneratorParametersType method, IRdcGeneratorParameters::GetGeneratorParametersType, fs.irdcgeneratorparameters_getgeneratorparameterstype, msrdc/IRdcGeneratorParameters::GetGeneratorParametersType, rdc.irdcgeneratorparameters_getgeneratorparameterstype
+ms.keywords: GetGeneratorParametersType, GetGeneratorParametersType method [Remote Differential Compression], GetGeneratorParametersType method [Remote Differential Compression],IRdcGeneratorParameters interface, IRdcGeneratorParameters interface [Remote Differential Compression],GetGeneratorParametersType method, IRdcGeneratorParameters.GetGeneratorParametersType, IRdcGeneratorParameters::GetGeneratorParametersType, fs.irdcgeneratorparameters_getgeneratorparameterstype, msrdc/IRdcGeneratorParameters::GetGeneratorParametersType, rdc.irdcgeneratorparameters_getgeneratorparameterstype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcGeneratorParameters::GetGeneratorParametersType method
+# IRdcGeneratorParameters::GetGeneratorParametersType
 
 
 ## -description

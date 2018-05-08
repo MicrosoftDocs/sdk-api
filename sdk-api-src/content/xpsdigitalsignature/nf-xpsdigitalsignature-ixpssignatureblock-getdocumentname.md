@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.GetDocumentName
-title: IXpsSignatureBlock::GetDocumentName method
+title: IXpsSignatureBlock::GetDocumentName
 author: windows-driver-content
 description: Gets a pointer to the IOpcPartUri interface that contains the URI of the document part.
 old-location: xps\ixpssignatureblock_getdocumentname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f93e94ff-c56f-4b3c-8af8-983253bd5657
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDocumentName method [XPS Documents and Packaging], GetDocumentName method [XPS Documents and Packaging], IXpsSignatureBlock interface, GetDocumentName,IXpsSignatureBlock.GetDocumentName, IXpsSignatureBlock, IXpsSignatureBlock interface [XPS Documents and Packaging], GetDocumentName method, IXpsSignatureBlock::GetDocumentName, xps.ixpssignatureblock_getdocumentname, xpsdigitalsignature/IXpsSignatureBlock::GetDocumentName
+ms.keywords: GetDocumentName, GetDocumentName method [XPS Documents and Packaging], GetDocumentName method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetDocumentName method, IXpsSignatureBlock.GetDocumentName, IXpsSignatureBlock::GetDocumentName, xps.ixpssignatureblock_getdocumentname, xpsdigitalsignature/IXpsSignatureBlock::GetDocumentName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureBlock::GetDocumentName method
+# IXpsSignatureBlock::GetDocumentName
 
 
 ## -description

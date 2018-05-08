@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetPacketData
-title: IInkStrokeDisp::GetPacketData method
+title: IInkStrokeDisp::GetPacketData
 author: windows-driver-content
 description: Retrieves the packet data for a range of packets within the IInkStrokeDisp object.
 old-location: tablet\iinkstrokedisp_getpacketdata.htm
 old-project: tablet
 ms.assetid: 015ca2ca-3bcc-443c-a38c-7f67b69c5907
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 015ca2ca-3bcc-443c-a38c-7f67b69c5907, GetPacketData method [Tablet PC], GetPacketData method [Tablet PC], IInkStrokeDisp interface, GetPacketData,IInkStrokeDisp.GetPacketData, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], GetPacketData method, IInkStrokeDisp::GetPacketData, msinkaut/IInkStrokeDisp::GetPacketData, tablet.iinkstrokedisp_getpacketdata
+ms.date: 5/2/2018
+ms.keywords: 015ca2ca-3bcc-443c-a38c-7f67b69c5907, GetPacketData, GetPacketData method [Tablet PC], GetPacketData method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetPacketData method, IInkStrokeDisp.GetPacketData, IInkStrokeDisp::GetPacketData, msinkaut/IInkStrokeDisp::GetPacketData, tablet.iinkstrokedisp_getpacketdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::GetPacketData method
+# IInkStrokeDisp::GetPacketData
 
 
 ## -description

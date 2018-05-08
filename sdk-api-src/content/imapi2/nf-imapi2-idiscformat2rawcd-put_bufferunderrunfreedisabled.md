@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.put_BufferUnderrunFreeDisabled
-title: IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled method
+title: IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled
 author: windows-driver-content
 description: Determines if Buffer Underrun Free recording is enabled.
 old-location: imapi\idiscformat2rawcd_put_bufferunderrunfreedisabled.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 66b35ca9-2bc7-419e-8fff-4449a64f9f5f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], put_BufferUnderrunFreeDisabled method, IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled, imapi.idiscformat2rawcd_put_bufferunderrunfreedisabled, imapi2/IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled method [IMAPI], put_BufferUnderrunFreeDisabled method [IMAPI], IDiscFormat2RawCD interface, put_BufferUnderrunFreeDisabled,IDiscFormat2RawCD.put_BufferUnderrunFreeDisabled
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],put_BufferUnderrunFreeDisabled method, IDiscFormat2RawCD.put_BufferUnderrunFreeDisabled, IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled, imapi.idiscformat2rawcd_put_bufferunderrunfreedisabled, imapi2/IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled method [IMAPI], put_BufferUnderrunFreeDisabled method [IMAPI],IDiscFormat2RawCD interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled method
+# IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled
 
 
 ## -description

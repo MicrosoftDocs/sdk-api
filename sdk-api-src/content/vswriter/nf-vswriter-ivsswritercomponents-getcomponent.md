@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssWriterComponents.GetComponent
-title: IVssWriterComponents::GetComponent method
+title: IVssWriterComponents::GetComponent
 author: windows-driver-content
 description: The GetComponent method returns an IVssComponent interface to one of a given writer's components explicitly stored in the Backup Components Document.
 old-location: base\ivsswritercomponents_getcomponent.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: ee816d83-31f3-47ff-b581-cc4dcd878f22
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetComponent method [VSS], GetComponent method [VSS], IVssWriterComponents interface, GetComponent,IVssWriterComponents.GetComponent, IVssWriterComponents, IVssWriterComponents interface [VSS], GetComponent method, IVssWriterComponents::GetComponent, _win32_ivsswritercomponents_getcomponent, base.ivsswritercomponents_getcomponent, vswriter/IVssWriterComponents::GetComponent
+ms.keywords: GetComponent, GetComponent method [VSS], GetComponent method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetComponent method, IVssWriterComponents.GetComponent, IVssWriterComponents::GetComponent, _win32_ivsswritercomponents_getcomponent, base.ivsswritercomponents_getcomponent, vswriter/IVssWriterComponents::GetComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssWriterComponents::GetComponent method
+# IVssWriterComponents::GetComponent
 
 
 ## -description

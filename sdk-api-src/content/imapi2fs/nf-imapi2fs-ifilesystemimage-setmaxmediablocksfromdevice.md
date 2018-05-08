@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.SetMaxMediaBlocksFromDevice
-title: IFileSystemImage::SetMaxMediaBlocksFromDevice method
+title: IFileSystemImage::SetMaxMediaBlocksFromDevice
 author: windows-driver-content
 description: Set maximum number of blocks available based on the capabilities of the recorder.
 old-location: imapi\ifilesystemimage_setmaxmediablocksfromdevice.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 201e7390-68f3-48a4-9036-b07219fa3d80
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], SetMaxMediaBlocksFromDevice method, IFileSystemImage::SetMaxMediaBlocksFromDevice, SetMaxMediaBlocksFromDevice method [IMAPI], SetMaxMediaBlocksFromDevice method [IMAPI], IFileSystemImage interface, SetMaxMediaBlocksFromDevice,IFileSystemImage.SetMaxMediaBlocksFromDevice, imapi.ifilesystemimage_setmaxmediablocksfromdevice, imapi2fs/IFileSystemImage::SetMaxMediaBlocksFromDevice
+ms.keywords: IFileSystemImage interface [IMAPI],SetMaxMediaBlocksFromDevice method, IFileSystemImage.SetMaxMediaBlocksFromDevice, IFileSystemImage::SetMaxMediaBlocksFromDevice, SetMaxMediaBlocksFromDevice, SetMaxMediaBlocksFromDevice method [IMAPI], SetMaxMediaBlocksFromDevice method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_setmaxmediablocksfromdevice, imapi2fs/IFileSystemImage::SetMaxMediaBlocksFromDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::SetMaxMediaBlocksFromDevice method
+# IFileSystemImage::SetMaxMediaBlocksFromDevice
 
 
 ## -description

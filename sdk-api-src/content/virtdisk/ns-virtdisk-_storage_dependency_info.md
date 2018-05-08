@@ -68,12 +68,12 @@ A <a href="https://msdn.microsoft.com/80437477-3f5e-4dac-a773-9339c5b742e2">STOR
 Number of entries returned in the following unioned members.
 
 
-#### - Version1Entries
+### -field Version1Entries
 
 Variable-length array containing <a href="https://msdn.microsoft.com/63296975-583d-415c-8c1f-f0cccfc5a1b3">STORAGE_DEPENDENCY_INFO_TYPE_1</a> structures.
 
 
-#### - Version2Entries
+### -field Version2Entries
 
 Variable-length array containing <a href="https://msdn.microsoft.com/f3e57773-0008-4715-9136-a9b990beea58">STORAGE_DEPENDENCY_INFO_TYPE_2</a> structures.
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.AddScanPackageService
-title: IUpdateServiceManager::AddScanPackageService method
+title: IUpdateServiceManager::AddScanPackageService
 author: windows-driver-content
 description: Registers a scan package as a service with Windows Update Agent (WUA) and then returns an IUpdateService interface.
 old-location: wua\iupdateservicemanager_addscanpackageservice.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 5b0677bb-9f19-4bb4-9942-8ca3da18b29a
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AddScanPackageService method [Windows Update Agent], AddScanPackageService method [Windows Update Agent], IUpdateServiceManager interface, AddScanPackageService,IUpdateServiceManager.AddScanPackageService, IUpdateServiceManager, IUpdateServiceManager interface [Windows Update Agent], AddScanPackageService method, IUpdateServiceManager::AddScanPackageService, wua.iupdateservicemanager_addscanpackageservice, wuapi/IUpdateServiceManager::AddScanPackageService
+ms.keywords: AddScanPackageService, AddScanPackageService method [Windows Update Agent], AddScanPackageService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddScanPackageService method, IUpdateServiceManager.AddScanPackageService, IUpdateServiceManager::AddScanPackageService, wua.iupdateservicemanager_addscanpackageservice, wuapi/IUpdateServiceManager::AddScanPackageService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateServiceManager::AddScanPackageService method
+# IUpdateServiceManager::AddScanPackageService
 
 
 ## -description

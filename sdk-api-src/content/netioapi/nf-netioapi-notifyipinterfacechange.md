@@ -7,7 +7,7 @@ old-location: iphlp\notifyipinterfacechange.htm
 old-project: IpHlp
 ms.assetid: 745128cf-7737-4f95-9712-26e0f6ae39b4
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyIpInterfaceChange, NotifyIpInterfaceChange function [IP Helper], iphlp.notifyipinterfacechange, netioapi/NotifyIpInterfaceChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

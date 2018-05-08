@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByAuthor
-title: IWMPMediaCollection::getByAuthor method
+title: IWMPMediaCollection::getByAuthor
 author: windows-driver-content
 description: The getByAuthor method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items for the specified author.
 old-location: wmp\iwmpmediacollection_getbyauthor.htm
 old-project: WMP
 ms.assetid: 415dfbe5-c709-4674-bcdd-38742150d11f
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], getByAuthor method, IWMPMediaCollection::getByAuthor, IWMPMediaCollectiongetByAuthor, getByAuthor method [Windows Media Player], getByAuthor method [Windows Media Player], IWMPMediaCollection interface, getByAuthor,IWMPMediaCollection.getByAuthor, wmp.iwmpmediacollection_getbyauthor, wmp/IWMPMediaCollection::getByAuthor
+ms.date: 5/4/2018
+ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByAuthor method, IWMPMediaCollection.getByAuthor, IWMPMediaCollection::getByAuthor, IWMPMediaCollectiongetByAuthor, getByAuthor, getByAuthor method [Windows Media Player], getByAuthor method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyauthor, wmp/IWMPMediaCollection::getByAuthor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMediaCollection::getByAuthor method
+# IWMPMediaCollection::getByAuthor
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFStreamSink.ProcessSample
-title: IMFStreamSink::ProcessSample method
+title: IMFStreamSink::ProcessSample
 author: windows-driver-content
 description: Delivers a sample to the stream. The media sink processes the sample.
 old-location: mf\imfstreamsink_processsample.htm
 old-project: medfound
 ms.assetid: 30e2bdb5-a99d-4a2e-ab36-7b4e383c645f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 30e2bdb5-a99d-4a2e-ab36-7b4e383c645f, IMFStreamSink, IMFStreamSink interface [Media Foundation], ProcessSample method, IMFStreamSink::ProcessSample, ProcessSample method [Media Foundation], ProcessSample method [Media Foundation], IMFStreamSink interface, ProcessSample,IMFStreamSink.ProcessSample, mf.imfstreamsink_processsample, mfidl/IMFStreamSink::ProcessSample
+ms.date: 5/3/2018
+ms.keywords: 30e2bdb5-a99d-4a2e-ab36-7b4e383c645f, IMFStreamSink interface [Media Foundation],ProcessSample method, IMFStreamSink.ProcessSample, IMFStreamSink::ProcessSample, ProcessSample, ProcessSample method [Media Foundation], ProcessSample method [Media Foundation],IMFStreamSink interface, mf.imfstreamsink_processsample, mfidl/IMFStreamSink::ProcessSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFStreamSink::ProcessSample method
+# IMFStreamSink::ProcessSample
 
 
 ## -description

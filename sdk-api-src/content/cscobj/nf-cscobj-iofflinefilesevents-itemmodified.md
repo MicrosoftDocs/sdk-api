@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemModified
-title: IOfflineFilesEvents::ItemModified method
+title: IOfflineFilesEvents::ItemModified
 author: windows-driver-content
 description: Reports that an item in the Offline Files cache has been modified.
 old-location: of\iofflinefilesevents_itemmodified.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: e689b111-d6d1-436e-b468-570e575a5170
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], ItemModified method, IOfflineFilesEvents::ItemModified, ItemModified method [Offline Files], ItemModified method [Offline Files], IOfflineFilesEvents interface, ItemModified,IOfflineFilesEvents.ItemModified, cscobj/IOfflineFilesEvents::ItemModified, of.iofflinefilesevents_itemmodified
+ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemModified method, IOfflineFilesEvents.ItemModified, IOfflineFilesEvents::ItemModified, ItemModified, ItemModified method [Offline Files], ItemModified method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemModified, of.iofflinefilesevents_itemmodified
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents::ItemModified method
+# IOfflineFilesEvents::ItemModified
 
 
 ## -description

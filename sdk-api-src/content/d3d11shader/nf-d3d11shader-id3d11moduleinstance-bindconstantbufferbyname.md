@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindConstantBufferByName
-title: ID3D11ModuleInstance::BindConstantBufferByName method
+title: ID3D11ModuleInstance::BindConstantBufferByName
 author: windows-driver-content
 description: Rebinds a constant buffer by name to a destination slot.
 old-location: direct3d11\id3d11moduleinstance_bindconstantbufferbyname.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: ACC4A9C6-8B6A-4923-A51E-66AB423F12D5
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: BindConstantBufferByName method [Direct3D 11], BindConstantBufferByName method [Direct3D 11], ID3D11ModuleInstance interface, BindConstantBufferByName,ID3D11ModuleInstance.BindConstantBufferByName, ID3D11ModuleInstance, ID3D11ModuleInstance interface [Direct3D 11], BindConstantBufferByName method, ID3D11ModuleInstance::BindConstantBufferByName, d3d11shader/ID3D11ModuleInstance::BindConstantBufferByName, direct3d11.id3d11moduleinstance_bindconstantbufferbyname
+ms.keywords: BindConstantBufferByName, BindConstantBufferByName method [Direct3D 11], BindConstantBufferByName method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindConstantBufferByName method, ID3D11ModuleInstance.BindConstantBufferByName, ID3D11ModuleInstance::BindConstantBufferByName, d3d11shader/ID3D11ModuleInstance::BindConstantBufferByName, direct3d11.id3d11moduleinstance_bindconstantbufferbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ModuleInstance::BindConstantBufferByName method
+# ID3D11ModuleInstance::BindConstantBufferByName
 
 
 ## -description

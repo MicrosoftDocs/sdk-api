@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.EnumFileGroups
-title: IFsrmFileGroupManager::EnumFileGroups method
+title: IFsrmFileGroupManager::EnumFileGroups
 author: windows-driver-content
 description: Enumerates the file groups in FSRM.
 old-location: fsrm\ifsrmfilegroupmanager_enumfilegroups.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 317eb6cf-7bcc-4042-a7b7-05efac84a0c2
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EnumFileGroups method [File Server Resource Manager], EnumFileGroups method [File Server Resource Manager], FsrmFileGroupManager class, EnumFileGroups method [File Server Resource Manager], IFsrmFileGroupManager interface, EnumFileGroups,IFsrmFileGroupManager.EnumFileGroups, FsrmFileGroupManager class [File Server Resource Manager], EnumFileGroups method, IFsrmFileGroupManager, IFsrmFileGroupManager interface [File Server Resource Manager], EnumFileGroups method, IFsrmFileGroupManager::EnumFileGroups, fs.ifsrmfilegroupmanager_enumfilegroups, fsrm.ifsrmfilegroupmanager_enumfilegroups, fsrmscreen/IFsrmFileGroupManager::EnumFileGroups
+ms.keywords: EnumFileGroups, EnumFileGroups method [File Server Resource Manager], EnumFileGroups method [File Server Resource Manager],FsrmFileGroupManager class, EnumFileGroups method [File Server Resource Manager],IFsrmFileGroupManager interface, FsrmFileGroupManager class [File Server Resource Manager],EnumFileGroups method, IFsrmFileGroupManager interface [File Server Resource Manager],EnumFileGroups method, IFsrmFileGroupManager.EnumFileGroups, IFsrmFileGroupManager::EnumFileGroups, fs.ifsrmfilegroupmanager_enumfilegroups, fsrm.ifsrmfilegroupmanager_enumfilegroups, fsrmscreen/IFsrmFileGroupManager::EnumFileGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileGroupManager::EnumFileGroups method
+# IFsrmFileGroupManager::EnumFileGroups
 
 
 ## -description

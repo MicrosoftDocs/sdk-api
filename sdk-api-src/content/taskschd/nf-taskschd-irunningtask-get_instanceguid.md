@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTask.get_InstanceGuid
-title: IRunningTask::get_InstanceGuid method
+title: IRunningTask::get_InstanceGuid
 author: windows-driver-content
 description: Gets the GUID identifier for this instance of the task.
 old-location: taskschd\irunningtask_instanceguid.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 993682d1-c77c-48d8-bec6-aab810c8bcda
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRunningTask, IRunningTask interface [Task Scheduler], InstanceGuid property, IRunningTask.InstanceGuid, IRunningTask::get_InstanceGuid, InstanceGuid property [Task Scheduler], InstanceGuid property [Task Scheduler], IRunningTask interface, get_InstanceGuid,IRunningTask.get_InstanceGuid, taskschd.irunningtask_instanceguid, taskschd/IRunningTask::InstanceGuid, taskschd/IRunningTask::get_InstanceGuid
+ms.keywords: IRunningTask interface [Task Scheduler],InstanceGuid property, IRunningTask.InstanceGuid, IRunningTask.get_InstanceGuid, IRunningTask::InstanceGuid, IRunningTask::get_InstanceGuid, InstanceGuid property [Task Scheduler], InstanceGuid property [Task Scheduler],IRunningTask interface, get_InstanceGuid, taskschd.irunningtask_instanceguid, taskschd/IRunningTask::InstanceGuid, taskschd/IRunningTask::get_InstanceGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRunningTask::get_InstanceGuid method
+# IRunningTask::get_InstanceGuid
 
 
 ## -description

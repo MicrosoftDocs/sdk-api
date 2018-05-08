@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.GetNextColumnName
-title: IDirectorySearch::GetNextColumnName method
+title: IDirectorySearch::GetNextColumnName
 author: windows-driver-content
 description: The IDirectorySearch::GetNextColumnName method gets the name of the next column in the search result that contains data.
 old-location: adsi\idirectorysearch_getnextcolumnname.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: e3d95cc6-02f0-4a51-8dc5-4007cc8c63c8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetNextColumnName method [ADSI], GetNextColumnName method [ADSI], IDirectorySearch interface, GetNextColumnName,IDirectorySearch.GetNextColumnName, IDirectorySearch, IDirectorySearch interface [ADSI], GetNextColumnName method, IDirectorySearch::GetNextColumnName, _ds_idirectorysearch_getnextcolumnname, adsi.idirectorysearch__getnextcolumnname, adsi.idirectorysearch_getnextcolumnname, iads/IDirectorySearch::GetNextColumnName
+ms.keywords: GetNextColumnName, GetNextColumnName method [ADSI], GetNextColumnName method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetNextColumnName method, IDirectorySearch.GetNextColumnName, IDirectorySearch::GetNextColumnName, _ds_idirectorysearch_getnextcolumnname, adsi.idirectorysearch__getnextcolumnname, adsi.idirectorysearch_getnextcolumnname, iads/IDirectorySearch::GetNextColumnName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDirectorySearch::GetNextColumnName method
+# IDirectorySearch::GetNextColumnName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIKeyedMutex.ReleaseSync
-title: IDXGIKeyedMutex::ReleaseSync method
+title: IDXGIKeyedMutex::ReleaseSync
 author: windows-driver-content
 description: Using a key, releases exclusive rendering access to a shared resource.
 old-location: direct3ddxgi\idxgikeyedmutex_releasesync.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 324741c9-33f2-4420-8c3f-4984e2ca0962
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 33872a53-bb15-32f2-c1f4-cfc8bdbac157, IDXGIKeyedMutex, IDXGIKeyedMutex interface [DXGI], ReleaseSync method, IDXGIKeyedMutex::ReleaseSync, ReleaseSync method [DXGI], ReleaseSync method [DXGI], IDXGIKeyedMutex interface, ReleaseSync,IDXGIKeyedMutex.ReleaseSync, direct3ddxgi.idxgikeyedmutex_releasesync, dxgi/IDXGIKeyedMutex::ReleaseSync
+ms.keywords: 33872a53-bb15-32f2-c1f4-cfc8bdbac157, IDXGIKeyedMutex interface [DXGI],ReleaseSync method, IDXGIKeyedMutex.ReleaseSync, IDXGIKeyedMutex::ReleaseSync, ReleaseSync, ReleaseSync method [DXGI], ReleaseSync method [DXGI],IDXGIKeyedMutex interface, direct3ddxgi.idxgikeyedmutex_releasesync, dxgi/IDXGIKeyedMutex::ReleaseSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIKeyedMutex::ReleaseSync method
+# IDXGIKeyedMutex::ReleaseSync
 
 
 ## -description

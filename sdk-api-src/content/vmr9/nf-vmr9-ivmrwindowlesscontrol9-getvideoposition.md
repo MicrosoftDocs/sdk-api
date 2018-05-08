@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetVideoPosition
-title: IVMRWindowlessControl9::GetVideoPosition method
+title: IVMRWindowlessControl9::GetVideoPosition
 author: windows-driver-content
 description: The GetVideoPosition method retrieves the current source and destination rectangles used to display the video.
 old-location: dshow\ivmrwindowlesscontrol9_getvideoposition.htm
 old-project: DirectShow
 ms.assetid: 0963ec09-8637-441c-b10e-fecc11788e39
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetVideoPosition method [DirectShow], GetVideoPosition method [DirectShow], IVMRWindowlessControl9 interface, GetVideoPosition,IVMRWindowlessControl9.GetVideoPosition, IVMRWindowlessControl9, IVMRWindowlessControl9 interface [DirectShow], GetVideoPosition method, IVMRWindowlessControl9::GetVideoPosition, IVMRWindowlessControl9GetVideoPosition, dshow.ivmrwindowlesscontrol9_getvideoposition, vmr9/IVMRWindowlessControl9::GetVideoPosition
+ms.date: 4/30/2018
+ms.keywords: GetVideoPosition, GetVideoPosition method [DirectShow], GetVideoPosition method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetVideoPosition method, IVMRWindowlessControl9.GetVideoPosition, IVMRWindowlessControl9::GetVideoPosition, IVMRWindowlessControl9GetVideoPosition, dshow.ivmrwindowlesscontrol9_getvideoposition, vmr9/IVMRWindowlessControl9::GetVideoPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRWindowlessControl9::GetVideoPosition method
+# IVMRWindowlessControl9::GetVideoPosition
 
 
 ## -description

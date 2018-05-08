@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3ebf80d0-b5b0-4024-805d-e0a3855574bf
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: INSSBuffer3, INSSBuffer3 interface [windows Media Format], INSSBuffer3 interface [windows Media Format], described, INSSBuffer3Interface, wmformat.inssbuffer3, wmsbuffer/INSSBuffer3
+ms.keywords: INSSBuffer3, INSSBuffer3 interface [windows Media Format], INSSBuffer3 interface [windows Media Format],described, INSSBuffer3Interface, wmformat.inssbuffer3, wmsbuffer/INSSBuffer3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

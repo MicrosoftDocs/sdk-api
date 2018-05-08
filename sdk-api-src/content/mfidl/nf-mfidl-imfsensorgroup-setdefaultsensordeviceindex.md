@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.SetDefaultSensorDeviceIndex
-title: IMFSensorGroup::SetDefaultSensorDeviceIndex method
+title: IMFSensorGroup::SetDefaultSensorDeviceIndex
 author: windows-driver-content
 description: Configures one of the devices in the sensor group as the default device.
 old-location: mf\imfsensorgroup_setdefaultsensordeviceindex.htm
 old-project: medfound
 ms.assetid: 06E2E2DB-8361-49BB-9369-0D0C33DF0C32
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSensorGroup, IMFSensorGroup interface [Media Foundation], SetDefaultSensorDeviceIndex method, IMFSensorGroup::SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex method [Media Foundation], SetDefaultSensorDeviceIndex method [Media Foundation], IMFSensorGroup interface, SetDefaultSensorDeviceIndex,IMFSensorGroup.SetDefaultSensorDeviceIndex, mf.imfsensorgroup_setdefaultsensordeviceindex, mfidl/IMFSensorGroup::SetDefaultSensorDeviceIndex
+ms.date: 5/3/2018
+ms.keywords: IMFSensorGroup interface [Media Foundation],SetDefaultSensorDeviceIndex method, IMFSensorGroup.SetDefaultSensorDeviceIndex, IMFSensorGroup::SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex method [Media Foundation], SetDefaultSensorDeviceIndex method [Media Foundation],IMFSensorGroup interface, mf.imfsensorgroup_setdefaultsensordeviceindex, mfidl/IMFSensorGroup::SetDefaultSensorDeviceIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorGroup::SetDefaultSensorDeviceIndex method
+# IMFSensorGroup::SetDefaultSensorDeviceIndex
 
 
 ## -description

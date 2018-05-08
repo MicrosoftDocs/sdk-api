@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetRefRecordEvent
-title: IIsdbEventGroupDescriptor::GetRefRecordEvent method
+title: IIsdbEventGroupDescriptor::GetRefRecordEvent
 author: windows-driver-content
 description: Gets data from a related event record in an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor_getrefrecordevent.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: fede6a0e-5ac1-472e-aaa8-9d31737a8a1d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRefRecordEvent method [Microsoft TV Technologies], GetRefRecordEvent method [Microsoft TV Technologies], IIsdbEventGroupDescriptor interface, GetRefRecordEvent,IIsdbEventGroupDescriptor.GetRefRecordEvent, IIsdbEventGroupDescriptor, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies], GetRefRecordEvent method, IIsdbEventGroupDescriptor::GetRefRecordEvent, dvbsiparser/IIsdbEventGroupDescriptor::GetRefRecordEvent, mstv.iisdbeventgroupdescriptor_getrefrecordevent
+ms.keywords: GetRefRecordEvent, GetRefRecordEvent method [Microsoft TV Technologies], GetRefRecordEvent method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetRefRecordEvent method, IIsdbEventGroupDescriptor.GetRefRecordEvent, IIsdbEventGroupDescriptor::GetRefRecordEvent, dvbsiparser/IIsdbEventGroupDescriptor::GetRefRecordEvent, mstv.iisdbeventgroupdescriptor_getrefrecordevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbEventGroupDescriptor::GetRefRecordEvent method
+# IIsdbEventGroupDescriptor::GetRefRecordEvent
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 84b6cd51-4cb5-4a43-9ac2-88ca8049b950
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_NetworkProvider, IBDA_NetworkProvider interface [Microsoft TV Technologies], IBDA_NetworkProvider interface [Microsoft TV Technologies], described, IBDA_NetworkProviderInterface, bdaiface/IBDA_NetworkProvider, mstv.ibda_networkprovider
+ms.keywords: IBDA_NetworkProvider, IBDA_NetworkProvider interface [Microsoft TV Technologies], IBDA_NetworkProvider interface [Microsoft TV Technologies],described, IBDA_NetworkProviderInterface, bdaiface/IBDA_NetworkProvider, mstv.ibda_networkprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

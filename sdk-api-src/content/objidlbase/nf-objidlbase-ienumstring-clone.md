@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IEnumString.Clone
-title: IEnumString::Clone method
+title: IEnumString::Clone
 author: windows-driver-content
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumstring_clone.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d61ecfb3-9f3b-45ee-9872-9a92240f1234
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Clone method [COM], Clone method [COM], IEnumString interface, Clone,IEnumString.Clone, IEnumString, IEnumString interface [COM], Clone method, IEnumString::Clone, _com_ienumstring_clone, com.ienumstring_clone, objidlbase/IEnumString::Clone
+ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumString interface, IEnumString interface [COM],Clone method, IEnumString.Clone, IEnumString::Clone, _com_ienumstring_clone, com.ienumstring_clone, objidlbase/IEnumString::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumString::Clone method
+# IEnumString::Clone
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 4b4c1080-3ea1-4557-92d6-45a80a788071
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IRemoteDesktopClient, IRemoteDesktopClient interface [Remote Desktop Services], IRemoteDesktopClient interface [Remote Desktop Services], described, rdpappcontainerclient/IRemoteDesktopClient, termserv.iremotedesktopclient
+ms.keywords: IRemoteDesktopClient, IRemoteDesktopClient interface [Remote Desktop Services], IRemoteDesktopClient interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClient, termserv.iremotedesktopclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -7,8 +7,8 @@ old-location: dshow\ifilesinkfilter.htm
 old-project: DirectShow
 ms.assetid: aa1d3f8e-9790-4442-ba7e-896981bf1b96
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFileSinkFilter, IFileSinkFilter interface [DirectShow], IFileSinkFilter interface [DirectShow], described, IFileSinkFilterInterface, dshow.ifilesinkfilter, strmif/IFileSinkFilter
+ms.date: 4/30/2018
+ms.keywords: IFileSinkFilter, IFileSinkFilter interface [DirectShow], IFileSinkFilter interface [DirectShow],described, IFileSinkFilterInterface, dshow.ifilesinkfilter, strmif/IFileSinkFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

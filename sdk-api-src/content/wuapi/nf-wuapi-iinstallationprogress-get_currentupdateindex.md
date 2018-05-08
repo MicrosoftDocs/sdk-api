@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationProgress.get_CurrentUpdateIndex
-title: IInstallationProgress::get_CurrentUpdateIndex method
+title: IInstallationProgress::get_CurrentUpdateIndex
 author: windows-driver-content
 description: Gets a zero-based index value. This value specifies the update that is currently being installed or uninstalled when multiple updates have been selected.
 old-location: wua\iinstallationprogress_currentupdateindex.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 9e52e1f3-2115-49b9-8f94-daa89378a371
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CurrentUpdateIndex property [Windows Update Agent], CurrentUpdateIndex property [Windows Update Agent], IInstallationProgress interface, IInstallationProgress, IInstallationProgress interface [Windows Update Agent], CurrentUpdateIndex property, IInstallationProgress.CurrentUpdateIndex, IInstallationProgress::get_CurrentUpdateIndex, get_CurrentUpdateIndex,IInstallationProgress.get_CurrentUpdateIndex, wua.iinstallationprogress_currentupdateindex, wuapi/IInstallationProgress::CurrentUpdateIndex, wuapi/IInstallationProgress::get_CurrentUpdateIndex
+ms.keywords: CurrentUpdateIndex property [Windows Update Agent], CurrentUpdateIndex property [Windows Update Agent],IInstallationProgress interface, IInstallationProgress interface [Windows Update Agent],CurrentUpdateIndex property, IInstallationProgress.CurrentUpdateIndex, IInstallationProgress.get_CurrentUpdateIndex, IInstallationProgress::CurrentUpdateIndex, IInstallationProgress::get_CurrentUpdateIndex, get_CurrentUpdateIndex, wua.iinstallationprogress_currentupdateindex, wuapi/IInstallationProgress::CurrentUpdateIndex, wuapi/IInstallationProgress::get_CurrentUpdateIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInstallationProgress::get_CurrentUpdateIndex method
+# IInstallationProgress::get_CurrentUpdateIndex
 
 
 ## -description

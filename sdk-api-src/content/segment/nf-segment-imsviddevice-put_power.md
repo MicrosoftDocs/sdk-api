@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDevice.put_Power
-title: IMSVidDevice::put_Power method
+title: IMSVidDevice::put_Power
 author: windows-driver-content
 description: The put_Power method turns the device on or off.
 old-location: mstv\imsviddevice_put_power.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6a0122a8-6015-4255-a7d6-ab72b4025bd6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidDevice, IMSVidDevice interface [Microsoft TV Technologies], put_Power method, IMSVidDevice::put_Power, IMSVidDeviceput_Power, mstv.imsviddevice_put_power, put_Power method [Microsoft TV Technologies], put_Power method [Microsoft TV Technologies], IMSVidDevice interface, put_Power,IMSVidDevice.put_Power, segment/IMSVidDevice::put_Power
+ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],put_Power method, IMSVidDevice.put_Power, IMSVidDevice::put_Power, IMSVidDeviceput_Power, mstv.imsviddevice_put_power, put_Power, put_Power method [Microsoft TV Technologies], put_Power method [Microsoft TV Technologies],IMSVidDevice interface, segment/IMSVidDevice::put_Power
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidDevice::put_Power method
+# IMSVidDevice::put_Power
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityCallersColl.get_Item
-title: ISecurityCallersColl::get_Item method
+title: ISecurityCallersColl::get_Item
 author: windows-driver-content
 description: Retrieves a specified caller in the security callers collection.
 old-location: cos\isecuritycallerscoll_get_item.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 24473ebe-8d29-46cd-817d-48f24b03c405
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ISecurityCallersColl, ISecurityCallersColl interface [COM+], get_Item method, ISecurityCallersColl::get_Item, _cos_ISecurityCallersColl_get_Item, comsvcs/ISecurityCallersColl::get_Item, cos.isecuritycallerscoll_get_item, get_Item method [COM+], get_Item method [COM+], ISecurityCallersColl interface, get_Item,ISecurityCallersColl.get_Item
+ms.keywords: ISecurityCallersColl interface [COM+],get_Item method, ISecurityCallersColl.get_Item, ISecurityCallersColl::get_Item, _cos_ISecurityCallersColl_get_Item, comsvcs/ISecurityCallersColl::get_Item, cos.isecuritycallerscoll_get_item, get_Item, get_Item method [COM+], get_Item method [COM+],ISecurityCallersColl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISecurityCallersColl::get_Item method
+# ISecurityCallersColl::get_Item
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEncoderAPI.GetValue
-title: IEncoderAPI::GetValue method
+title: IEncoderAPI::GetValue
 author: windows-driver-content
 description: The GetValue method retrieves the current value of a specified parameter.
 old-location: mstv\iencoderapi_getvalue.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 62f69677-05cd-46ab-8b77-96e10f8fbb1d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetValue method [Microsoft TV Technologies], GetValue method [Microsoft TV Technologies], IEncoderAPI interface, GetValue,IEncoderAPI.GetValue, IEncoderAPI, IEncoderAPI interface [Microsoft TV Technologies], GetValue method, IEncoderAPI::GetValue, IEncoderAPIGetValue, mstv.iencoderapi_getvalue, strmif/IEncoderAPI::GetValue
+ms.keywords: GetValue, GetValue method [Microsoft TV Technologies], GetValue method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetValue method, IEncoderAPI.GetValue, IEncoderAPI::GetValue, IEncoderAPIGetValue, mstv.iencoderapi_getvalue, strmif/IEncoderAPI::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEncoderAPI::GetValue method
+# IEncoderAPI::GetValue
 
 
 ## -description

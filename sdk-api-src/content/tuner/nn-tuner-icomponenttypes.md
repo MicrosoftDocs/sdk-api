@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 47c3837b-1348-4359-ad3d-3d82c5fe3781
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IComponentTypes, IComponentTypes interface [Microsoft TV Technologies], IComponentTypes interface [Microsoft TV Technologies], described, IComponentTypesInterface, mstv.icomponenttypes, tuner/IComponentTypes
+ms.keywords: IComponentTypes, IComponentTypes interface [Microsoft TV Technologies], IComponentTypes interface [Microsoft TV Technologies],described, IComponentTypesInterface, mstv.icomponenttypes, tuner/IComponentTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

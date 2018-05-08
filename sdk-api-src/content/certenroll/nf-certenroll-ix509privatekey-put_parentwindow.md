@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ParentWindow
-title: IX509PrivateKey::put_ParentWindow method
+title: IX509PrivateKey::put_ParentWindow
 author: windows-driver-content
 description: Specifies or retrieves the ID of the window used to display key information.
 old-location: security\ix509privatekey_parentwindow_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 97243031-ef60-467d-ba65-6c7e6432d51f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], ParentWindow property, IX509PrivateKey.ParentWindow, IX509PrivateKey::get_ParentWindow, IX509PrivateKey::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security], IX509PrivateKey interface, certenroll/IX509PrivateKey::ParentWindow, certenroll/IX509PrivateKey::get_ParentWindow, certenroll/IX509PrivateKey::put_ParentWindow, put_ParentWindow,IX509PrivateKey.put_ParentWindow, security.ix509privatekey_parentwindow_property
+ms.keywords: IX509PrivateKey interface [Security],ParentWindow property, IX509PrivateKey.ParentWindow, IX509PrivateKey.put_ParentWindow, IX509PrivateKey::ParentWindow, IX509PrivateKey::get_ParentWindow, IX509PrivateKey::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ParentWindow, certenroll/IX509PrivateKey::get_ParentWindow, certenroll/IX509PrivateKey::put_ParentWindow, put_ParentWindow, security.ix509privatekey_parentwindow_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PrivateKey::put_ParentWindow method
+# IX509PrivateKey::put_ParentWindow
 
 
 ## -description

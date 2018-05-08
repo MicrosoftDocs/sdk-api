@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.SetStreamSelection
-title: IMFSourceReader::SetStreamSelection method
+title: IMFSourceReader::SetStreamSelection
 author: windows-driver-content
 description: Selects or deselects one or more streams.
 old-location: mf\imfsourcereader_setstreamselection.htm
 old-project: medfound
 ms.assetid: 5efadce6-347c-48cf-b42c-d461922b2523
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSourceReader, IMFSourceReader interface [Media Foundation], SetStreamSelection method, IMFSourceReader::SetStreamSelection, MF_SOURCE_READER_ALL_STREAMS, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation], IMFSourceReader interface, SetStreamSelection,IMFSourceReader.SetStreamSelection, mf.imfsourcereader_setstreamselection, mfreadwrite/IMFSourceReader::SetStreamSelection
+ms.date: 5/3/2018
+ms.keywords: IMFSourceReader interface [Media Foundation],SetStreamSelection method, IMFSourceReader.SetStreamSelection, IMFSourceReader::SetStreamSelection, MF_SOURCE_READER_ALL_STREAMS, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_setstreamselection, mfreadwrite/IMFSourceReader::SetStreamSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceReader::SetStreamSelection method
+# IMFSourceReader::SetStreamSelection
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: rpc\rpcnsbindingimportnext.htm
 old-project: Rpc
 ms.assetid: c437cd19-0cf8-4fc9-b6fb-cb09cde9a82e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcNsBindingImportNext, RpcNsBindingImportNext function [RPC], _rpc_rpcnsbindingimportnext, rpc.rpcnsbindingimportnext, rpcnsi/RpcNsBindingImportNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

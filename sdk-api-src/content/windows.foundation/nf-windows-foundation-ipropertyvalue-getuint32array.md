@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt32Array
-title: IPropertyValue::GetUInt32Array method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of unsigned 32-bit integer values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getuint32array.htm
 old-project: WinRT
 ms.assetid: abea0460-73f1-4828-9cf7-d6bcad90f2ab
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetUInt32Array method [Windows Runtime], GetUInt32Array method [Windows Runtime], IPropertyValue interface, GetUInt32Array,IPropertyValue.GetUInt32Array, IPropertyValue, IPropertyValue interface [Windows Runtime], GetUInt32Array method, IPropertyValue::GetUInt32Array, windows/IPropertyValue::GetUInt32Array, winrt.ipropertyvalue_getuint32array
+ms.date: 5/4/2018
+ms.keywords: GetUInt32Array, GetUInt32Array method [Windows Runtime], GetUInt32Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt32Array method, IPropertyValue.GetUInt32Array, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt32Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt32Array, winrt.ipropertyvalue_getuint32array
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetUInt32Array method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

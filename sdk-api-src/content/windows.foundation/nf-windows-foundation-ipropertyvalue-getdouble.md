@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetDouble
-title: IPropertyValue::GetDouble method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the 64-bit floating point value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getdouble.htm
 old-project: WinRT
 ms.assetid: 93EC7793-DAEF-4E1D-A9B8-2D79A3CBBBDC
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetDouble method [Windows Runtime], GetDouble method [Windows Runtime], IPropertyValue interface, GetDouble,IPropertyValue.GetDouble, IPropertyValue, IPropertyValue interface [Windows Runtime], GetDouble method, IPropertyValue::GetDouble, windows/IPropertyValue::GetDouble, winrt.ipropertyvalue_getdouble
+ms.date: 5/4/2018
+ms.keywords: GetDouble, GetDouble method [Windows Runtime], GetDouble method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDouble method, IPropertyValue.GetDouble, IPropertyValue.IPropertyValue, IPropertyValue::GetDouble, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDouble, winrt.ipropertyvalue_getdouble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetDouble method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

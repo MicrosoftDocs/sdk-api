@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcSimilarityGenerator.EnableSimilarity
-title: IRdcSimilarityGenerator::EnableSimilarity method
+title: IRdcSimilarityGenerator::EnableSimilarity
 author: windows-driver-content
 description: Enables the signature generator to generate similarity data.
 old-location: rdc\irdcsimilaritygenerator_enablesimilarity.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 1d67be55-ed00-4e41-9319-10947d1d88a0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EnableSimilarity method [Remote Differential Compression], EnableSimilarity method [Remote Differential Compression], IRdcSimilarityGenerator interface, EnableSimilarity,IRdcSimilarityGenerator.EnableSimilarity, IRdcSimilarityGenerator, IRdcSimilarityGenerator interface [Remote Differential Compression], EnableSimilarity method, IRdcSimilarityGenerator::EnableSimilarity, fs.irdcsimilaritygenerator_enablesimilarity, msrdc/IRdcSimilarityGenerator::EnableSimilarity, rdc.irdcsimilaritygenerator_enablesimilarity
+ms.keywords: EnableSimilarity, EnableSimilarity method [Remote Differential Compression], EnableSimilarity method [Remote Differential Compression],IRdcSimilarityGenerator interface, IRdcSimilarityGenerator interface [Remote Differential Compression],EnableSimilarity method, IRdcSimilarityGenerator.EnableSimilarity, IRdcSimilarityGenerator::EnableSimilarity, fs.irdcsimilaritygenerator_enablesimilarity, msrdc/IRdcSimilarityGenerator::EnableSimilarity, rdc.irdcsimilaritygenerator_enablesimilarity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcSimilarityGenerator::EnableSimilarity method
+# IRdcSimilarityGenerator::EnableSimilarity
 
 
 ## -description

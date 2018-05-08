@@ -7,7 +7,7 @@ old-location: automat\safearrayredim.htm
 old-project: automat
 ms.assetid: 1c7fa627-e5e4-4bb9-8237-2f7358ebc4b8
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: SafeArrayRedim, SafeArrayRedim function [Automation], _oa96_SafeArrayRedim, automat.safearrayredim, oleauto/SafeArrayRedim
 ms.prod: windows-hardware
 ms.technology: windows-devices

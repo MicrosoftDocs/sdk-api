@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetLocale
-title: IGetClusterUIInfo::GetLocale method
+title: IGetClusterUIInfo::GetLocale
 author: windows-driver-content
 description: Returns the locale identifier to be used with property and wizard pages.
 old-location: mscs\igetclusteruiinfo_getlocale.htm
@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 1ab4e6bb-0aba-4115-b068-171aaf0b7cef
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetLocale method [Failover Cluster], GetLocale method [Failover Cluster], IGetClusterUIInfo interface, GetLocale,IGetClusterUIInfo.GetLocale, IGetClusterUIInfo, IGetClusterUIInfo interface [Failover Cluster], GetLocale method, IGetClusterUIInfo::GetLocale, _wolf_igetclusteruiinfo_getlocale, cluadmex/IGetClusterUIInfo::GetLocale, mscs.igetclusteruiinfo_getlocale
+ms.keywords: GetLocale, GetLocale method [Failover Cluster], GetLocale method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetLocale method, IGetClusterUIInfo.GetLocale, IGetClusterUIInfo::GetLocale, _wolf_igetclusteruiinfo_getlocale, cluadmex/IGetClusterUIInfo::GetLocale, mscs.igetclusteruiinfo_getlocale
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetClusterUIInfo::GetLocale method
+# IGetClusterUIInfo::GetLocale
 
 
 ## -description

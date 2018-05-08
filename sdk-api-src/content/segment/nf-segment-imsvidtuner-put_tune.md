@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidTuner.put_Tune
-title: IMSVidTuner::put_Tune method
+title: IMSVidTuner::put_Tune
 author: windows-driver-content
 description: The put_Tune method specifies the tune request.
 old-location: mstv\imsvidtuner_put_tune.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 31139b6f-aad9-495b-9e8c-39026c8e81a9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidTuner, IMSVidTuner interface [Microsoft TV Technologies], put_Tune method, IMSVidTuner::put_Tune, IMSVidTunerput_Tune, mstv.imsvidtuner_put_tune, put_Tune method [Microsoft TV Technologies], put_Tune method [Microsoft TV Technologies], IMSVidTuner interface, put_Tune,IMSVidTuner.put_Tune, segment/IMSVidTuner::put_Tune
+ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],put_Tune method, IMSVidTuner.put_Tune, IMSVidTuner::put_Tune, IMSVidTunerput_Tune, mstv.imsvidtuner_put_tune, put_Tune, put_Tune method [Microsoft TV Technologies], put_Tune method [Microsoft TV Technologies],IMSVidTuner interface, segment/IMSVidTuner::put_Tune
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidTuner::put_Tune method
+# IMSVidTuner::put_Tune
 
 
 ## -description

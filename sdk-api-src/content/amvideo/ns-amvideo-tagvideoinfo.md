@@ -7,7 +7,7 @@ old-location: dshow\videoinfo.htm
 old-project: DirectShow
 ms.assetid: f08a449c-fed4-400b-a2fc-817bd59ba3fd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: VIDEOINFO, VIDEOINFO structure [DirectShow], VIDEOINFOStructure, amvideo/VIDEOINFO, dshow.videoinfo, tagVIDEOINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,24 +104,24 @@ If you are writing a video filter, you can use this structure to guarantee that 
           
 
 
-#### - TrueColorInfo
-
-
-<a href="https://msdn.microsoft.com/8269d8c2-ff8e-48e0-b4f6-06900a7ecfdc">TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
-            
-
-
-#### - bmiColors
+### -field bmiColors
 
 
               Array of Win32 <a href="https://msdn.microsoft.com/22e0991d-078e-4b44-9f03-004137e31f6c">RGBQUAD</a> structures that specifies the video's color palette. Each structure represents a single color, which is a combination of red, green, and blue intensities.
             
 
 
-#### - dwBitMasks
+### -field dwBitMasks
 
 
               Array of <b>DWORD</b> values that specify true-color bitmasks.
+            
+
+
+### -field TrueColorInfo
+
+
+<a href="https://msdn.microsoft.com/8269d8c2-ff8e-48e0-b4f6-06900a7ecfdc">TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
             
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials
-title: ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials method
+title: ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials
 author: windows-driver-content
 description: Specifies user account information for the application pool in which the Certificate Enrollment Web Service (CES) runs.
 old-location: security\icertificateenrollmentserversetup_setapplicationpoolcredentials.htm
 old-project: SecCrypto
 ms.assetid: E85DA115-C705-44B8-B4D4-E862634CDC41
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertificateEnrollmentServerSetup, ICertificateEnrollmentServerSetup interface [Security], SetApplicationPoolCredentials method, ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, SetApplicationPoolCredentials method [Security], SetApplicationPoolCredentials method [Security], ICertificateEnrollmentServerSetup interface, SetApplicationPoolCredentials,ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials, casetup/ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, security.icertificateenrollmentserversetup_setapplicationpoolcredentials
+ms.date: 4/30/2018
+ms.keywords: ICertificateEnrollmentServerSetup interface [Security],SetApplicationPoolCredentials method, ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials, ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, SetApplicationPoolCredentials, SetApplicationPoolCredentials method [Security], SetApplicationPoolCredentials method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, security.icertificateenrollmentserversetup_setapplicationpoolcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials method
+# ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials
 
 
 ## -description

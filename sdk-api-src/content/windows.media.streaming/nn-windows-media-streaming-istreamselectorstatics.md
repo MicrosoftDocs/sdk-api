@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 746BFF49-C75F-417B-A54A-841A4A0E84C5
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IStreamSelectorStatics, IStreamSelectorStatics interface [Media Streaming API], IStreamSelectorStatics interface [Media Streaming API], described, mediastreaming.istreamselectorstatics, windows/IStreamSelectorStatics
+ms.keywords: IStreamSelectorStatics, IStreamSelectorStatics interface [Media Streaming API], IStreamSelectorStatics interface [Media Streaming API],described, mediastreaming.istreamselectorstatics, windows/IStreamSelectorStatics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

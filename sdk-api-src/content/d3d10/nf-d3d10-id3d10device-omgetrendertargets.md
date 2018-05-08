@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.OMGetRenderTargets
-title: ID3D10Device::OMGetRenderTargets method
+title: ID3D10Device::OMGetRenderTargets
 author: windows-driver-content
 description: Get pointers to the render targets and the depth-stencil buffer that are available to the output-merger stage.
 old-location: direct3d10\id3d10device_omgetrendertargets.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omgetrendertargets.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10Device, ID3D10Device interface [Direct3D 10], OMGetRenderTargets method, ID3D10Device::OMGetRenderTargets, OMGetRenderTargets method [Direct3D 10], OMGetRenderTargets method [Direct3D 10], ID3D10Device interface, OMGetRenderTargets,ID3D10Device.OMGetRenderTargets, d3d10/ID3D10Device::OMGetRenderTargets, direct3d10.id3d10device_omgetrendertargets, f378deb9-1829-aecc-36fe-7c3ab163d523
+ms.keywords: ID3D10Device interface [Direct3D 10],OMGetRenderTargets method, ID3D10Device.OMGetRenderTargets, ID3D10Device::OMGetRenderTargets, OMGetRenderTargets, OMGetRenderTargets method [Direct3D 10], OMGetRenderTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMGetRenderTargets, direct3d10.id3d10device_omgetrendertargets, f378deb9-1829-aecc-36fe-7c3ab163d523
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::OMGetRenderTargets method
+# ID3D10Device::OMGetRenderTargets
 
 
 ## -description

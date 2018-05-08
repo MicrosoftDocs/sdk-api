@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetVariant
-title: CInstance::GetVariant method
+title: CInstance::GetVariant
 author: windows-driver-content
 description: The GetVariant method retrieves a VARIANT property.
 old-location: wmi\cinstance_getvariant.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 84160043-bb63-422b-99be-3f55df4c15be
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z, CInstance, CInstance interface [Windows Management Instrumentation], GetVariant method, CInstance::GetVariant, GetVariant method [Windows Management Instrumentation], GetVariant method [Windows Management Instrumentation], CInstance interface, GetVariant,CInstance.GetVariant, _hmm_cinstance_getvariant, instance/CInstance::GetVariant, wmi.cinstance_getvariant"
+ms.keywords: "?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z, CInstance interface [Windows Management Instrumentation],GetVariant method, CInstance.GetVariant, CInstance::GetVariant, GetVariant, GetVariant method [Windows Management Instrumentation], GetVariant method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getvariant, instance/CInstance::GetVariant, wmi.cinstance_getvariant"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::GetVariant method
+# CInstance::GetVariant
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.Skip
-title: IEnumCERTVIEWCOLUMN::Skip method
+title: IEnumCERTVIEWCOLUMN::Skip
 author: windows-driver-content
-description: Skips a specified number of attributes in the attribute-enumeration sequence.
-old-location: security\ienumcertviewattribute_skip.htm
+description: Skips a specified number of columns in the column-enumeration sequence.
+old-location: security\ienumcertviewcolumn_skip.htm
 old-project: SecCrypto
-ms.assetid: 546e7ad7-73f2-4f6e-8d02-a9ca5401ecce
+ms.assetid: 9a101e5b-a137-4e15-81b6-90e0fc14b887
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], Skip method, IEnumCERTVIEWCOLUMN object [Security], Skip method, IEnumCERTVIEWCOLUMN::Skip, Skip method [Security], Skip method [Security], IEnumCERTVIEWCOLUMN interface, Skip method [Security], IEnumCERTVIEWCOLUMN object, Skip,IEnumCERTVIEWCOLUMN.Skip, _certsrv_ienumcertviewattribute_skip, certview/IEnumCERTVIEWCOLUMN::Skip, security.ienumcertviewattribute_skip
+ms.date: 4/30/2018
+ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Skip method, IEnumCERTVIEWCOLUMN object [Security],Skip method, IEnumCERTVIEWCOLUMN.Skip, IEnumCERTVIEWCOLUMN::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWCOLUMN interface, Skip method [Security],IEnumCERTVIEWCOLUMN object, _certsrv_ienumcertviewcolumn_skip, certview/IEnumCERTVIEWCOLUMN::Skip, security.ienumcertviewcolumn_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,13 +44,13 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWCOLUMN::Skip method
+# IEnumCERTVIEWCOLUMN::Skip
 
 
 ## -description
 
 
-The <b>Skip</b> method skips a specified number of attributes in the attribute-enumeration sequence.
+The <b>Skip</b> method skips a specified number of columns in the column-enumeration sequence.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>Skip</b> method skips a specified number of attributes in the attribute-e
 
 ### -param celt [in]
 
-The number of attributes to skip. A positive value for the <i>celt</i> parameter  causes the attribute-enumeration sequence to skip forward in the sequence. A negative value for the <i>celt</i> parameter causes the attribute-enumeration sequence to skip backward in the sequence.
+The number of columns to skip. A positive value for the <i>celt</i> parameter causes the column-enumeration sequence to skip forward in the enumeration sequence. A negative value causes column-enumeration to skip backward in the enumeration sequence.
 
 
 ## -returns
@@ -70,7 +70,7 @@ The number of attributes to skip. A positive value for the <i>celt</i> parameter
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-A return value of E_INVALIDARG indicates that a negative value for the <i>celt</i> parameter caused the attribute-enumeration sequence index to become less than zero.
+A return value of E_INVALIDARG indicates that a negative value in the   <i>celt</i> parameter caused the column-enumeration sequence index to become less than zero.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
@@ -81,23 +81,26 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-Upon successful completion of this method, call the 
-<a href="https://msdn.microsoft.com/2903ccda-e06d-4690-accf-79bc73d8569f">IEnumCERTVIEWATTRIBUTE::Next</a> method to reference the current attribute in the attribute-enumeration sequence.  The attribute name and value can be accessed through the 
-following methods:
+Upon successful completion of this function, call the 
+<a href="https://msdn.microsoft.com/4c77d1c7-af3a-4a7d-bf42-69be887c881e">IEnumCERTVIEWCOLUMN::Next</a> method to reference the current column in the column-enumeration sequence. After this second call is made, the information in the column can be obtained by calling one of the following methods:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/c2409bf1-0571-479e-8499-010d52cfb776">IEnumCERTVIEWATTRIBUTE::GetName</a>
-</li>
+<a href="https://msdn.microsoft.com/be76cec1-9ac0-4cc0-bddb-992b2d3590d7">IEnumCERTVIEWCOLUMN::GetName</a>: Retrieves the nonlocalized name of the column.</li>
 <li>
-<a href="https://msdn.microsoft.com/a03a6da4-d286-487e-a292-8a02626325a8">IEnumCERTVIEWATTRIBUTE::GetValue</a>
-</li>
+<a href="https://msdn.microsoft.com/e7fd06f7-7b42-47ed-be03-867d0d03594a">IEnumCERTVIEWCOLUMN::GetDisplayName</a>: Retrieves the localized name of the column.</li>
+<li>
+<a href="https://msdn.microsoft.com/5cc14bd1-7963-4b11-aef6-4ef3b0b7f6c1">IEnumCERTVIEWCOLUMN::GetValue</a>: Retrieves the data in the column.</li>
+<li>
+<a href="https://msdn.microsoft.com/53297e9e-6583-4edf-85f4-e2b2e4ba28b3">IEnumCERTVIEWCOLUMN::GetType</a>: Retrieves the type of data in the column.</li>
+<li>
+<a href="https://msdn.microsoft.com/20cd5f5a-2e19-43ca-9b84-70e6dd1a4cad">IEnumCERTVIEWCOLUMN::GetMaxLength</a>: Retrieves the maximum length, in bytes, of the column.</li>
 </ul>
-The attribute-enumeration sequence maintains an internal  zero-based index. The call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a> method causes this index to increase or decrease by the number of attributes specified in the  <i>celt</i> parameter.
+The column-enumeration sequence maintains an internal  zero-based index. The call to the <b>Skip</b> method causes this index to increase or decrease based on the setting of the <i>celt</i> parameter.
 
-If a negative value of the <i>celt</i> parameter causes the index to be less than zero, the behavior of subsequent calls to <a href="https://msdn.microsoft.com/2903ccda-e06d-4690-accf-79bc73d8569f">IEnumCERTVIEWATTRIBUTE::Next</a> is undefined.
+If a negative value of the <i>celt</i> parameter causes the index to be less than zero, the behavior of subsequent calls to <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a> is undefined.
 
-If a positive value of the <i>celt</i> parameter causes the  index to exceed the last attribute in the enumeration sequence, a subsequent call to the <a href="https://msdn.microsoft.com/2903ccda-e06d-4690-accf-79bc73d8569f">IEnumCERTVIEWATTRIBUTE::Next</a> method will fail.
+If a positive value of the <i>celt</i> parameter causes the index to exceed the last row in the enumeration sequence, a subsequent call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a> method will fail.
 
 
 #### Examples
@@ -111,16 +114,16 @@ If a positive value of the <i>celt</i> parameter causes the  index to exceed the
 <pre>HRESULT  hr;
 LONG     Index;
 
-// pEnumAttr is previously instantiated IEnumCERTVIEWATTRIBUTE object
-// skip the next 5 attributes
-hr = pEnumAttr-&gt;Skip(5);
-if (S_OK == hr)
+// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
+// skip the next five columns
+hr = pEnumCol-&gt;Skip(5);
+if (S_OK == hr) 
 {
-    // get the next attribute
-    hr = pEnumAttr-&gt;Next(&amp;Index);
+    // get the next column
+    hr = pEnumCol-&gt;Next(&amp;Index);
     if (S_OK == hr)
     {
-        // Use this attribute as needed.
+        // Use this column as needed.
     }
 }</pre>
 </td>
@@ -134,19 +137,15 @@ if (S_OK == hr)
 
 
 
-<a href="https://msdn.microsoft.com/fc1eb29d-27d9-4331-b588-dc0632b3db6a">IEnumCERTVIEWATTRIBUTE</a>
+<a href="https://msdn.microsoft.com/6e6547f9-44b2-4050-be90-ac8ede892adc">IEnumCERTVIEWCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f5b8ee0-2820-481b-8836-b2926aec0933">IEnumCERTVIEWATTRIBUTE::Reset</a>
+<a href="https://msdn.microsoft.com/0be00eb0-1a22-4849-95ca-276099bbfa74">IEnumCERTVIEWCOLUMN::Reset</a>
 
 
 
-<a href="https://msdn.microsoft.com/2903ccda-e06d-4690-accf-79bc73d8569f">IEnumCERTVIEWATTRIBUTE:Next</a>
-
-
-
-<b>IEnumCERTVIEWCOLUMN</b>
+<a href="https://msdn.microsoft.com/4c77d1c7-af3a-4a7d-bf42-69be887c881e">IEnumCERTVIEWCOLUMN:Next</a>
  
 
  

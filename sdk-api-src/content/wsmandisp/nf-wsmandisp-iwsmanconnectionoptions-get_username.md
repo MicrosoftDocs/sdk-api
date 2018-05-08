@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptions.get_UserName
-title: IWSManConnectionOptions::get_UserName method
+title: IWSManConnectionOptions::get_UserName
 author: windows-driver-content
 description: Sets and gets the user name of a local or a domain account on the remote computer. This property determines the user name for authentication.
 old-location: winrm\iwsmanconnectionoptions_username.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 7b20fcac-0481-4619-aa57-f72318a9a68d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManConnectionOptions, IWSManConnectionOptions interface [Windows Remote Management], UserName property, IWSManConnectionOptions.UserName, IWSManConnectionOptions::get_UserName, IWSManConnectionOptions::put_UserName, UserName property [Windows Remote Management], UserName property [Windows Remote Management], IWSManConnectionOptions interface, get_UserName,IWSManConnectionOptions.get_UserName, winrm.iwsmanconnectionoptions_username, wsmandisp/IWSManConnectionOptions::UserName, wsmandisp/IWSManConnectionOptions::get_UserName, wsmandisp/IWSManConnectionOptions::put_UserName
+ms.keywords: IWSManConnectionOptions interface [Windows Remote Management],UserName property, IWSManConnectionOptions.UserName, IWSManConnectionOptions.get_UserName, IWSManConnectionOptions::UserName, IWSManConnectionOptions::get_UserName, IWSManConnectionOptions::put_UserName, UserName property [Windows Remote Management], UserName property [Windows Remote Management],IWSManConnectionOptions interface, get_UserName, winrm.iwsmanconnectionoptions_username, wsmandisp/IWSManConnectionOptions::UserName, wsmandisp/IWSManConnectionOptions::get_UserName, wsmandisp/IWSManConnectionOptions::put_UserName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManConnectionOptions::get_UserName method
+# IWSManConnectionOptions::get_UserName
 
 
 ## -description

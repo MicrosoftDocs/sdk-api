@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.AddExtension
-title: IMpeg2TableFilter::AddExtension method
+title: IMpeg2TableFilter::AddExtension
 author: windows-driver-content
 description: The AddExtension method adds a table extension to the list of MPEG-2 table sections that the filter sends.
 old-location: mstv\impeg2tablefilter_addextension.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 20484b0e-c6c8-4741-9672-a991ba368e92
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AddExtension method [Microsoft TV Technologies], AddExtension method [Microsoft TV Technologies], IMpeg2TableFilter interface, AddExtension,IMpeg2TableFilter.AddExtension, IMpeg2TableFilter, IMpeg2TableFilter interface [Microsoft TV Technologies], AddExtension method, IMpeg2TableFilter::AddExtension, IMpeg2TableFilterAddExtension, mpeg2data/IMpeg2TableFilter::AddExtension, mstv.impeg2tablefilter_addextension
+ms.keywords: AddExtension, AddExtension method [Microsoft TV Technologies], AddExtension method [Microsoft TV Technologies],IMpeg2TableFilter interface, IMpeg2TableFilter interface [Microsoft TV Technologies],AddExtension method, IMpeg2TableFilter.AddExtension, IMpeg2TableFilter::AddExtension, IMpeg2TableFilterAddExtension, mpeg2data/IMpeg2TableFilter::AddExtension, mstv.impeg2tablefilter_addextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMpeg2TableFilter::AddExtension method
+# IMpeg2TableFilter::AddExtension
 
 
 ## -description

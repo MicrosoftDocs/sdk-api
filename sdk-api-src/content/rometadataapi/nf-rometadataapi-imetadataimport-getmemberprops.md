@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetMemberProps
-title: IMetaDataImport::GetMemberProps method
+title: IMetaDataImport::GetMemberProps
 author: windows-driver-content
 description: Gets metadata information, including the name, binary signature, and relative virtual address, of the Type member referenced by the specified metadata token.
 old-location: winrt\imetadataimport_getmemberprops.htm
 old-project: WinRT
 ms.assetid: b278947f-4e84-4438-bb93-11bfd2d56be3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetMemberProps method [Windows Runtime], GetMemberProps method [Windows Runtime], IMetaDataImport interface, GetMemberProps,IMetaDataImport.GetMemberProps, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetMemberProps method, IMetaDataImport::GetMemberProps, rometadataapi/IMetaDataImport::GetMemberProps, winrt.imetadataimport_getmemberprops
+ms.date: 5/4/2018
+ms.keywords: GetMemberProps, GetMemberProps method [Windows Runtime], GetMemberProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetMemberProps method, IMetaDataImport.GetMemberProps, IMetaDataImport::GetMemberProps, rometadataapi/IMetaDataImport::GetMemberProps, winrt.imetadataimport_getmemberprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetMemberProps method
+# IMetaDataImport::GetMemberProps
 
 
 ## -description

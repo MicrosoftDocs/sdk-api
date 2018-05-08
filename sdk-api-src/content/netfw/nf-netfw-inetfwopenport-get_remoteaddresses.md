@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_RemoteAddresses
-title: INetFwOpenPort::get_RemoteAddresses method
+title: INetFwOpenPort::get_RemoteAddresses
 author: windows-driver-content
 description: Specifies a set of remote addresses from which the port can listen for traffic.
 old-location: ics\inetfwopenport_remoteaddresses.htm
 old-project: ICS
 ms.assetid: 5c38a9fc-b7d9-436d-92e6-8b0aec5e8628
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwOpenPort, INetFwOpenPort interface [ICS/ICF], RemoteAddresses property, INetFwOpenPort.RemoteAddresses, INetFwOpenPort::get_RemoteAddresses, INetFwOpenPort::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF], INetFwOpenPort interface, get_RemoteAddresses,INetFwOpenPort.get_RemoteAddresses, ics.inetfwopenport_remoteaddresses, netfw/INetFwOpenPort::RemoteAddresses, netfw/INetFwOpenPort::get_RemoteAddresses, netfw/INetFwOpenPort::put_RemoteAddresses
+ms.date: 5/1/2018
+ms.keywords: INetFwOpenPort interface [ICS/ICF],RemoteAddresses property, INetFwOpenPort.RemoteAddresses, INetFwOpenPort.get_RemoteAddresses, INetFwOpenPort::RemoteAddresses, INetFwOpenPort::get_RemoteAddresses, INetFwOpenPort::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwOpenPort interface, get_RemoteAddresses, ics.inetfwopenport_remoteaddresses, netfw/INetFwOpenPort::RemoteAddresses, netfw/INetFwOpenPort::get_RemoteAddresses, netfw/INetFwOpenPort::put_RemoteAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwOpenPort::get_RemoteAddresses method
+# INetFwOpenPort::get_RemoteAddresses
 
 
 ## -description

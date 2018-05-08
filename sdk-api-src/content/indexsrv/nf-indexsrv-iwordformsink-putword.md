@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IWordFormSink.PutWord
-title: IWordFormSink::PutWord method
+title: IWordFormSink::PutWord
 author: windows-driver-content
 description: Puts the original word form in the WordFormSink.
 old-location: indexsrv\iwordformsink_putword.htm
@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_7qlg.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWordFormSink, IWordFormSink interface [Indexing Service], PutWord method, IWordFormSink::PutWord, PutWord method [Indexing Service], PutWord method [Indexing Service], IWordFormSink interface, PutWord,IWordFormSink.PutWord, _idxs_StemSink_PutWord, indexsrv.iwordformsink_putword, indexsrv/IWordFormSink::PutWord
+ms.keywords: IWordFormSink interface [Indexing Service],PutWord method, IWordFormSink.PutWord, IWordFormSink::PutWord, PutWord, PutWord method [Indexing Service], PutWord method [Indexing Service],IWordFormSink interface, _idxs_StemSink_PutWord, indexsrv.iwordformsink_putword, indexsrv/IWordFormSink::PutWord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWordFormSink::PutWord method
+# IWordFormSink::PutWord
 
 
 ## -description

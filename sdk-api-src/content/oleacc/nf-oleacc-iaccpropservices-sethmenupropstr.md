@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetHmenuPropStr
-title: IAccPropServices::SetHmenuPropStr method
+title: IAccPropServices::SetHmenuPropStr
 author: windows-driver-content
 description: This method wraps SetPropValue, providing a more convenient entry point for callers who are annotating HMENU-based accessible elements.
 old-location: winauto\iaccpropservices_iaccpropservices__sethmenupropstr.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 891af40a-819b-4fce-a1bb-28db145b87f1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], SetHmenuPropStr method, IAccPropServices::SetHmenuPropStr, SetHmenuPropStr method [Windows Accessibility], SetHmenuPropStr method [Windows Accessibility], IAccPropServices interface, SetHmenuPropStr,IAccPropServices.SetHmenuPropStr, oleacc/IAccPropServices::SetHmenuPropStr, winauto.iaccpropservices_iaccpropservices__sethmenupropstr
+ms.keywords: IAccPropServices interface [Windows Accessibility],SetHmenuPropStr method, IAccPropServices.SetHmenuPropStr, IAccPropServices::SetHmenuPropStr, SetHmenuPropStr, SetHmenuPropStr method [Windows Accessibility], SetHmenuPropStr method [Windows Accessibility],IAccPropServices interface, oleacc/IAccPropServices::SetHmenuPropStr, winauto.iaccpropservices_iaccpropservices__sethmenupropstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccPropServices::SetHmenuPropStr method
+# IAccPropServices::SetHmenuPropStr
 
 
 ## -description

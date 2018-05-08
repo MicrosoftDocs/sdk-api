@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule.get_IcmpTypesAndCodes
-title: INetFwRule::get_IcmpTypesAndCodes method
+title: INetFwRule::get_IcmpTypesAndCodes
 author: windows-driver-content
 description: Specifies the list of ICMP types and codes for this rule.
 old-location: ics\inetfwrule_icmptypesandcodes.htm
 old-project: ICS
 ms.assetid: 5b1e2e50-7ca1-4a96-a1c3-1f55f51a6a4f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], IcmpTypesAndCodes property, INetFwRule.IcmpTypesAndCodes, INetFwRule::get_IcmpTypesAndCodes, INetFwRule::put_IcmpTypesAndCodes, IcmpTypesAndCodes property [ICS/ICF], IcmpTypesAndCodes property [ICS/ICF], INetFwRule interface, get_IcmpTypesAndCodes,INetFwRule.get_IcmpTypesAndCodes, ics.inetfwrule_icmptypesandcodes, netfw/INetFwRule::IcmpTypesAndCodes, netfw/INetFwRule::get_IcmpTypesAndCodes, netfw/INetFwRule::put_IcmpTypesAndCodes
+ms.date: 5/1/2018
+ms.keywords: INetFwRule interface [ICS/ICF],IcmpTypesAndCodes property, INetFwRule.IcmpTypesAndCodes, INetFwRule.get_IcmpTypesAndCodes, INetFwRule::IcmpTypesAndCodes, INetFwRule::get_IcmpTypesAndCodes, INetFwRule::put_IcmpTypesAndCodes, IcmpTypesAndCodes property [ICS/ICF], IcmpTypesAndCodes property [ICS/ICF],INetFwRule interface, get_IcmpTypesAndCodes, ics.inetfwrule_icmptypesandcodes, netfw/INetFwRule::IcmpTypesAndCodes, netfw/INetFwRule::get_IcmpTypesAndCodes, netfw/INetFwRule::put_IcmpTypesAndCodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule::get_IcmpTypesAndCodes method
+# INetFwRule::get_IcmpTypesAndCodes
 
 
 ## -description

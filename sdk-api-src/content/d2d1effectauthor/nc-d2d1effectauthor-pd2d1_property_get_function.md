@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: A6F6F22A-762A-4D77-8008-8226C75AD205
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: PD2D1_PROPERTY_GET_FUNCTION, PD2D1_PROPERTY_GET_FUNCTION function pointer [Direct2D], d2d1effectauthor/PD2D1_PROPERTY_GET_FUNCTION, direct2d.pd2d1_property_get_function
+ms.keywords: PD2D1_PROPERTY_GET_FUNCTION, PD2D1_PROPERTY_GET_FUNCTION function, PD2D1_PROPERTY_GET_FUNCTION function pointer [Direct2D], d2d1effectauthor/PD2D1_PROPERTY_GET_FUNCTION, direct2d.pd2d1_property_get_function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PD2D1_PROPERTY_GET_FUNCTION callback
+# PD2D1_PROPERTY_GET_FUNCTION callback function
 
 
 ## -description

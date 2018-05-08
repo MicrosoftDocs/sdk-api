@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.GetOverlapping
-title: ITextFont2::GetOverlapping method
+title: ITextFont2::GetOverlapping
 author: windows-driver-content
 description: Gets whether overlapping text is active.
 old-location: controls\itextfont2_getoverlapping.htm
 old-project: Controls
 ms.assetid: 26937777-a44b-4196-aa6b-f35787f934a9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetOverlapping method [Windows Controls], GetOverlapping method [Windows Controls], ITextFont2 interface, GetOverlapping,ITextFont2.GetOverlapping, ITextFont2, ITextFont2 interface [Windows Controls], GetOverlapping method, ITextFont2::GetOverlapping, controls.itextfont2_getoverlapping, tom/ITextFont2::GetOverlapping
+ms.date: 4/27/2018
+ms.keywords: GetOverlapping, GetOverlapping method [Windows Controls], GetOverlapping method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetOverlapping method, ITextFont2.GetOverlapping, ITextFont2::GetOverlapping, controls.itextfont2_getoverlapping, tom/ITextFont2::GetOverlapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::GetOverlapping method
+# ITextFont2::GetOverlapping
 
 
 ## -description

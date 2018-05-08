@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFPMPServer.CreateObjectByCLSID
-title: IMFPMPServer::CreateObjectByCLSID method
+title: IMFPMPServer::CreateObjectByCLSID
 author: windows-driver-content
 description: Creates an object in the protected media path (PMP) process.
 old-location: mf\imfpmpserver_createobjectbyclsid.htm
 old-project: medfound
 ms.assetid: ece956bb-ee83-42c7-9410-90f34956fdde
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateObjectByCLSID method [Media Foundation], CreateObjectByCLSID method [Media Foundation], IMFPMPServer interface, CreateObjectByCLSID,IMFPMPServer.CreateObjectByCLSID, IMFPMPServer, IMFPMPServer interface [Media Foundation], CreateObjectByCLSID method, IMFPMPServer::CreateObjectByCLSID, ece956bb-ee83-42c7-9410-90f34956fdde, mf.imfpmpserver_createobjectbyclsid, mfidl/IMFPMPServer::CreateObjectByCLSID
+ms.date: 5/3/2018
+ms.keywords: CreateObjectByCLSID, CreateObjectByCLSID method [Media Foundation], CreateObjectByCLSID method [Media Foundation],IMFPMPServer interface, IMFPMPServer interface [Media Foundation],CreateObjectByCLSID method, IMFPMPServer.CreateObjectByCLSID, IMFPMPServer::CreateObjectByCLSID, ece956bb-ee83-42c7-9410-90f34956fdde, mf.imfpmpserver_createobjectbyclsid, mfidl/IMFPMPServer::CreateObjectByCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMPServer::CreateObjectByCLSID method
+# IMFPMPServer::CreateObjectByCLSID
 
 
 ## -description

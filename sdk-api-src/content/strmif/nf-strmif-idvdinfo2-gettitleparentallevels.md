@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetTitleParentalLevels
-title: IDvdInfo2::GetTitleParentalLevels method
+title: IDvdInfo2::GetTitleParentalLevels
 author: windows-driver-content
 description: The GetTitleParentalLevels method retrieves the parental levels that are defined for a particular title.
 old-location: dshow\idvdinfo2_gettitleparentallevels.htm
 old-project: DirectShow
 ms.assetid: 00c9d1e5-1b1f-41b3-b06c-0b78e2d2db0b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetTitleParentalLevels method [DirectShow], GetTitleParentalLevels method [DirectShow], IDvdInfo2 interface, GetTitleParentalLevels,IDvdInfo2.GetTitleParentalLevels, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetTitleParentalLevels method, IDvdInfo2::GetTitleParentalLevels, IDvdInfo2GetTitleParentalLevels, dshow.idvdinfo2_gettitleparentallevels, strmif/IDvdInfo2::GetTitleParentalLevels
+ms.date: 4/30/2018
+ms.keywords: GetTitleParentalLevels, GetTitleParentalLevels method [DirectShow], GetTitleParentalLevels method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTitleParentalLevels method, IDvdInfo2.GetTitleParentalLevels, IDvdInfo2::GetTitleParentalLevels, IDvdInfo2GetTitleParentalLevels, dshow.idvdinfo2_gettitleparentallevels, strmif/IDvdInfo2::GetTitleParentalLevels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo2::GetTitleParentalLevels method
+# IDvdInfo2::GetTitleParentalLevels
 
 
 ## -description

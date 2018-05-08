@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentRole
-title: IUIAutomationLegacyIAccessiblePattern::get_CurrentRole method
+title: IUIAutomationLegacyIAccessiblePattern::get_CurrentRole
 author: windows-driver-content
 description: Retrieves the Microsoft Active Accessibility role identifier of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9159e114-edc6-4dfa-b32f-a5a786dabe99
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentRole property [Windows Accessibility], CurrentRole property [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], CurrentRole property, IUIAutomationLegacyIAccessiblePattern.CurrentRole, IUIAutomationLegacyIAccessiblePattern::get_CurrentRole, get_CurrentRole,IUIAutomationLegacyIAccessiblePattern.get_CurrentRole, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentRole, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole
+ms.keywords: CurrentRole property [Windows Accessibility], CurrentRole property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentRole property, IUIAutomationLegacyIAccessiblePattern.CurrentRole, IUIAutomationLegacyIAccessiblePattern.get_CurrentRole, IUIAutomationLegacyIAccessiblePattern::CurrentRole, IUIAutomationLegacyIAccessiblePattern::get_CurrentRole, get_CurrentRole, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentRole, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationLegacyIAccessiblePattern::get_CurrentRole method
+# IUIAutomationLegacyIAccessiblePattern::get_CurrentRole
 
 
 ## -description

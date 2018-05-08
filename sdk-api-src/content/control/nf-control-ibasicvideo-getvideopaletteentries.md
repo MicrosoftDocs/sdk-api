@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicVideo.GetVideoPaletteEntries
-title: IBasicVideo::GetVideoPaletteEntries method
+title: IBasicVideo::GetVideoPaletteEntries
 author: windows-driver-content
 description: The GetVideoPaletteEntries method retrieves the palette colors for the video.
 old-location: dshow\ibasicvideo_getvideopaletteentries.htm
 old-project: DirectShow
 ms.assetid: 9a022bc5-56f5-41c0-940f-f9074791a353
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetVideoPaletteEntries method [DirectShow], GetVideoPaletteEntries method [DirectShow], IBasicVideo interface, GetVideoPaletteEntries,IBasicVideo.GetVideoPaletteEntries, IBasicVideo, IBasicVideo interface [DirectShow], GetVideoPaletteEntries method, IBasicVideo::GetVideoPaletteEntries, IBasicVideoGetVideoPaletteEntries, control/IBasicVideo::GetVideoPaletteEntries, dshow.ibasicvideo_getvideopaletteentries
+ms.date: 4/30/2018
+ms.keywords: GetVideoPaletteEntries, GetVideoPaletteEntries method [DirectShow], GetVideoPaletteEntries method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetVideoPaletteEntries method, IBasicVideo.GetVideoPaletteEntries, IBasicVideo::GetVideoPaletteEntries, IBasicVideoGetVideoPaletteEntries, control/IBasicVideo::GetVideoPaletteEntries, dshow.ibasicvideo_getvideopaletteentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicVideo::GetVideoPaletteEntries method
+# IBasicVideo::GetVideoPaletteEntries
 
 
 ## -description

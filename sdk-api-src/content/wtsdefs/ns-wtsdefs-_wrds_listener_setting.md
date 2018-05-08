@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WRDS_LISTENER_SETTING, *PWRDS_LISTENERN_SETTING, WRDS_LISTENER_SETTING, *PWRDS_LISTENERN_SETTING
+req.typenames: WRDS_LISTENER_SETTING, *PWRDS_LISTENERN_SETTING
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,7 +63,22 @@ Contains different levels of listener settings for a remote desktop connection.
 A <a href="https://msdn.microsoft.com/F8F35CED-16EC-4FBB-A3CA-2A5545A88B4A">WRDS_LISTENER_SETTINGS_1</a> structure.
 
 
+### -field WRdsListenerSettings1.case
+
+ 
+
+
+### -field WRdsListenerSettings1.case.WRDS_LISTENER_SETTING_LEVEL_1
+
+ 
+
+
 ### -field switch_type
+
+ 
+
+
+### -field switch_type.WRDS_LISTENER_SETTING_LEVEL
 
  
 

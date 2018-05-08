@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmObject.Commit
-title: IFsrmObject::Commit method
+title: IFsrmObject::Commit
 author: windows-driver-content
 description: Saves the object in the server's list of objects.
 old-location: fsrm\ifsrmobject_commit.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 81c9b1db-7756-47b2-98e6-8e819d93cd0f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Commit method [File Server Resource Manager], Commit method [File Server Resource Manager], IFsrmObject interface, Commit,IFsrmObject.Commit, IFsrmObject, IFsrmObject interface [File Server Resource Manager], Commit method, IFsrmObject::Commit, fs.ifsrmobject_commit, fsrm.ifsrmobject_commit, fsrm/IFsrmObject::Commit
+ms.keywords: Commit, Commit method [File Server Resource Manager], Commit method [File Server Resource Manager],IFsrmObject interface, IFsrmObject interface [File Server Resource Manager],Commit method, IFsrmObject.Commit, IFsrmObject::Commit, fs.ifsrmobject_commit, fsrm.ifsrmobject_commit, fsrm/IFsrmObject::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmObject::Commit method
+# IFsrmObject::Commit
 
 
 ## -description

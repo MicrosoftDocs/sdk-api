@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesPinInfo.IsPinnedForComputer
-title: IOfflineFilesPinInfo::IsPinnedForComputer method
+title: IOfflineFilesPinInfo::IsPinnedForComputer
 author: windows-driver-content
 description: Determines whether the item was pinned for all users on the computer by Group Policy.
 old-location: of\iofflinefilespininfo_ispinnedforcomputer.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 67d2c444-2498-4848-a4fb-8cae5ff77eaf
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesPinInfo, IOfflineFilesPinInfo interface [Offline Files], IsPinnedForComputer method, IOfflineFilesPinInfo::IsPinnedForComputer, IsPinnedForComputer method [Offline Files], IsPinnedForComputer method [Offline Files], IOfflineFilesPinInfo interface, IsPinnedForComputer,IOfflineFilesPinInfo.IsPinnedForComputer, cscobj/IOfflineFilesPinInfo::IsPinnedForComputer, of.iofflinefilespininfo_ispinnedforcomputer
+ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForComputer method, IOfflineFilesPinInfo.IsPinnedForComputer, IOfflineFilesPinInfo::IsPinnedForComputer, IsPinnedForComputer, IsPinnedForComputer method [Offline Files], IsPinnedForComputer method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinnedForComputer, of.iofflinefilespininfo_ispinnedforcomputer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesPinInfo::IsPinnedForComputer method
+# IOfflineFilesPinInfo::IsPinnedForComputer
 
 
 ## -description

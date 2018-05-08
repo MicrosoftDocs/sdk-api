@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxGetPasswordChar
-title: ITextHost::TxGetPasswordChar method
+title: ITextHost::TxGetPasswordChar
 author: windows-driver-content
 description: Requests the text host's password character.
 old-location: controls\ITextHost_TxGetPasswordChar.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetpasswordchar.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxGetPasswordChar method, ITextHost::TxGetPasswordChar, TxGetPasswordChar method [Windows Controls], TxGetPasswordChar method [Windows Controls], ITextHost interface, TxGetPasswordChar,ITextHost.TxGetPasswordChar, _win32_ITextHost_TxGetPasswordChar, _win32_ITextHost_TxGetPasswordChar_cpp, controls.ITextHost_TxGetPasswordChar, controls._win32_ITextHost_TxGetPasswordChar, textserv/ITextHost::TxGetPasswordChar
+ms.date: 4/27/2018
+ms.keywords: ITextHost interface [Windows Controls],TxGetPasswordChar method, ITextHost.TxGetPasswordChar, ITextHost::TxGetPasswordChar, TxGetPasswordChar, TxGetPasswordChar method [Windows Controls], TxGetPasswordChar method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetPasswordChar, _win32_ITextHost_TxGetPasswordChar_cpp, controls.ITextHost_TxGetPasswordChar, controls._win32_ITextHost_TxGetPasswordChar, textserv/ITextHost::TxGetPasswordChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxGetPasswordChar method
+# ITextHost::TxGetPasswordChar
 
 
 ## -description

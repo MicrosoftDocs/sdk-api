@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetNumMessagesDiscardedByMessageCountLimit
-title: ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit method
+title: ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit
 author: windows-driver-content
 description: Get the number of messages that were discarded due to the message count limit.
 old-location: direct3d12\id3d12infoqueue_getnummessagesdiscardedbymessagecountlimit.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: EB6C6D7F-7B28-4E5B-9E35-332A9D957102
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetNumMessagesDiscardedByMessageCountLimit method, GetNumMessagesDiscardedByMessageCountLimit method, ID3D12InfoQueue interface, GetNumMessagesDiscardedByMessageCountLimit,ID3D12InfoQueue.GetNumMessagesDiscardedByMessageCountLimit, ID3D12InfoQueue, ID3D12InfoQueue interface, GetNumMessagesDiscardedByMessageCountLimit method, ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, direct3d12.id3d12infoqueue_getnummessagesdiscardedbymessagecountlimit
+ms.keywords: GetNumMessagesDiscardedByMessageCountLimit, GetNumMessagesDiscardedByMessageCountLimit method, GetNumMessagesDiscardedByMessageCountLimit method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumMessagesDiscardedByMessageCountLimit method, ID3D12InfoQueue.GetNumMessagesDiscardedByMessageCountLimit, ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, direct3d12.id3d12infoqueue_getnummessagesdiscardedbymessagecountlimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit method
+# ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit
 
 
 ## -description

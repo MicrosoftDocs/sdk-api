@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.INetworkSettings.put_Id
-title: INetworkSettings::put_Id method
+title: INetworkSettings::put_Id
 author: windows-driver-content
 description: Gets or sets a GUID value that identifies a network profile.
 old-location: taskschd\inetworksettings_id.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 490a8e0a-a980-4634-924a-00c571e93a59
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetworkSettings, INetworkSettings interface [Task Scheduler], Id property, INetworkSettings.Id, INetworkSettings::get_Id, INetworkSettings::put_Id, Id property [Task Scheduler], Id property [Task Scheduler], INetworkSettings interface, put_Id,INetworkSettings.put_Id, taskschd.inetworksettings_id, taskschd/INetworkSettings::Id, taskschd/INetworkSettings::get_Id, taskschd/INetworkSettings::put_Id
+ms.keywords: INetworkSettings interface [Task Scheduler],Id property, INetworkSettings.Id, INetworkSettings.put_Id, INetworkSettings::Id, INetworkSettings::get_Id, INetworkSettings::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],INetworkSettings interface, put_Id, taskschd.inetworksettings_id, taskschd/INetworkSettings::Id, taskschd/INetworkSettings::get_Id, taskschd/INetworkSettings::put_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# INetworkSettings::put_Id method
+# INetworkSettings::put_Id
 
 
 ## -description

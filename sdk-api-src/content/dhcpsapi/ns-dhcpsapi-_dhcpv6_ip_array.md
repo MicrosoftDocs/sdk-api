@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6_ip_array.htm
 old-project: DHCP
 ms.assetid: B87CF991-FFC8-4CB4-8EE9-66716EC9B58D
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY structure [DHCP], PDHCPV6_IP_ARRAY, PDHCPV6_IP_ARRAY structure pointer [DHCP], _DHCPV6_IP_ARRAY, dhcp.dhcpv6_ip_array, dhcpsapi/DHCPV6_IP_ARRAY, dhcpsapi/PDHCPV6_IP_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,4 +65,16 @@ The number of elements in <b>Elements</b>.
 ### -field Elements
 
 An array of <a href="https://msdn.microsoft.com/9623e866-81e5-4d5a-8801-33f0f8973ed3">DHCP_IPV6_ADDRESS</a> structures.
+
+
+### -field Elements.size_is
+
+ 
+
+
+### -field Elements.size_is.NumElements
+
+ 
+
+
 

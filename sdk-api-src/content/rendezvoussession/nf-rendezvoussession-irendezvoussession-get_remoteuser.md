@@ -1,6 +1,6 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.get_RemoteUser
-title: IRendezvousSession::get_RemoteUser method
+title: IRendezvousSession::get_RemoteUser
 author: windows-driver-content
 description: Retrieves a pointer to a BSTR that contains the Windows Messenger contact name.
 old-location: remoteassist\remoteassist_IRendezvousSession_RemoteUser.htm
@@ -8,7 +8,7 @@ old-project: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\remoteuser.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRendezvousSession, IRendezvousSession interface [Remote Assistance], RemoteUser property, IRendezvousSession.RemoteUser, IRendezvousSession::get_RemoteUser, RemoteUser property [Remote Assistance], RemoteUser property [Remote Assistance], IRendezvousSession interface, get_RemoteUser,IRendezvousSession.get_RemoteUser, remoteassist.remoteassist_IRendezvousSession_RemoteUser, remoteassist_IRendezvousSession_RemoteUser, rendezvoussession/IRendezvousSession::RemoteUser, rendezvoussession/IRendezvousSession::get_RemoteUser
+ms.keywords: IRendezvousSession interface [Remote Assistance],RemoteUser property, IRendezvousSession.RemoteUser, IRendezvousSession.get_RemoteUser, IRendezvousSession::RemoteUser, IRendezvousSession::get_RemoteUser, RemoteUser property [Remote Assistance], RemoteUser property [Remote Assistance],IRendezvousSession interface, get_RemoteUser, remoteassist.remoteassist_IRendezvousSession_RemoteUser, remoteassist_IRendezvousSession_RemoteUser, rendezvoussession/IRendezvousSession::RemoteUser, rendezvoussession/IRendezvousSession::get_RemoteUser
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRendezvousSession::get_RemoteUser method
+# IRendezvousSession::get_RemoteUser
 
 
 ## -description

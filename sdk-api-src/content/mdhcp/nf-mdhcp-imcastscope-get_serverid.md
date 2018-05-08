@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastScope.get_ServerID
-title: IMcastScope::get_ServerID method
+title: IMcastScope::get_ServerID
 author: windows-driver-content
 description: The get_ServerID method obtains the server ID associated with this scope.
 old-location: tapi3\imcastscope_get_serverid.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 80c0ecca-647f-4e5e-92d6-fc95368715ad
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], get_ServerID method, IMcastScope::get_ServerID, _tapi3_imcastscope_get_serverid, get_ServerID method [TAPI 2.2], get_ServerID method [TAPI 2.2], IMcastScope interface, get_ServerID,IMcastScope.get_ServerID, mdhcp/IMcastScope::get_ServerID, tapi3.imcastscope_get_serverid
+ms.keywords: IMcastScope interface [TAPI 2.2],get_ServerID method, IMcastScope.get_ServerID, IMcastScope::get_ServerID, _tapi3_imcastscope_get_serverid, get_ServerID, get_ServerID method [TAPI 2.2], get_ServerID method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ServerID, tapi3.imcastscope_get_serverid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMcastScope::get_ServerID method
+# IMcastScope::get_ServerID
 
 
 ## -description

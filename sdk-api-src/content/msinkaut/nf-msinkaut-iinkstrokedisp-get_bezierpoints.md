@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_BezierPoints
-title: IInkStrokeDisp::get_BezierPoints method
+title: IInkStrokeDisp::get_BezierPoints
 author: windows-driver-content
 description: Gets the array of control points that represent the Bezier approximation of the stroke.
 old-location: tablet\iinkstrokedisp_bezierpoints.htm
 old-project: tablet
 ms.assetid: 76bb749d-76cd-4c40-add3-4065d46ed6cb
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 76bb749d-76cd-4c40-add3-4065d46ed6cb, BezierPoints property [Tablet PC], BezierPoints property [Tablet PC], IInkStrokeDisp interface, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], BezierPoints property, IInkStrokeDisp.BezierPoints, IInkStrokeDisp.get_BezierPoints, IInkStrokeDisp::get_BezierPoints, get_BezierPoints,IInkStrokeDisp.get_BezierPoints, msinkaut/IInkStrokeDisp::BezierPoints, msinkaut/IInkStrokeDisp::get_BezierPoints, tablet.iinkstrokedisp_bezierpoints
+ms.date: 5/2/2018
+ms.keywords: 76bb749d-76cd-4c40-add3-4065d46ed6cb, BezierPoints property [Tablet PC], BezierPoints property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],BezierPoints property, IInkStrokeDisp.BezierPoints, IInkStrokeDisp.get_BezierPoints, IInkStrokeDisp::BezierPoints, IInkStrokeDisp::get_BezierPoints, get_BezierPoints, msinkaut/IInkStrokeDisp::BezierPoints, msinkaut/IInkStrokeDisp::get_BezierPoints, tablet.iinkstrokedisp_bezierpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::get_BezierPoints method
+# IInkStrokeDisp::get_BezierPoints
 
 
 ## -description

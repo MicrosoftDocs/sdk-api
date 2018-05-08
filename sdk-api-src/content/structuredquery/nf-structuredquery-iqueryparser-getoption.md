@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IQueryParser.GetOption
-title: IQueryParser::GetOption method
+title: IQueryParser::GetOption
 author: windows-driver-content
 description: Retrieves a specified simple option value for this query parser.
 old-location: search\_search_IQueryParser_GetOption.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\getoption.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetOption method [search], GetOption method [search], IQueryParser interface, GetOption,IQueryParser.GetOption, IQueryParser, IQueryParser interface [search], GetOption method, IQueryParser::GetOption, _search_IQueryParser_GetOption, search._search_IQueryParser_GetOption, structuredquery/IQueryParser::GetOption
+ms.date: 5/4/2018
+ms.keywords: GetOption, GetOption method [search], GetOption method [search],IQueryParser interface, IQueryParser interface [search],GetOption method, IQueryParser.GetOption, IQueryParser::GetOption, _search_IQueryParser_GetOption, search._search_IQueryParser_GetOption, structuredquery/IQueryParser::GetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IQueryParser::GetOption method
+# IQueryParser::GetOption
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.Select
-title: ITextRange::Select method
+title: ITextRange::Select
 author: windows-driver-content
 description: Sets the start and end positions, and story values of the active selection, to those of this range.
 old-location: controls\ITextRange_Select.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\select.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange, ITextRange interface [Windows Controls], Select method, ITextRange::Select, Select method [Windows Controls], Select method [Windows Controls], ITextRange interface, Select,ITextRange.Select, _win32_ITextRange_Select, _win32_ITextRange_Select_cpp, controls.ITextRange_Select, controls._win32_ITextRange_Select, tom/ITextRange::Select
+ms.date: 4/27/2018
+ms.keywords: ITextRange interface [Windows Controls],Select method, ITextRange.Select, ITextRange::Select, Select, Select method [Windows Controls], Select method [Windows Controls],ITextRange interface, _win32_ITextRange_Select, _win32_ITextRange_Select_cpp, controls.ITextRange_Select, controls._win32_ITextRange_Select, tom/ITextRange::Select
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::Select method
+# ITextRange::Select
 
 
 ## -description

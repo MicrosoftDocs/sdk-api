@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskTrigger.GetTrigger
-title: ITaskTrigger::GetTrigger method
+title: ITaskTrigger::GetTrigger
 author: windows-driver-content
 description: The GetTrigger method retrieves the current task trigger.
 old-location: taskschd\itasktrigger_gettrigger.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: d6c9110d-c79e-475d-871b-83dca6577fc5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTrigger method [Task Scheduler], GetTrigger method [Task Scheduler], ITaskTrigger interface, GetTrigger,ITaskTrigger.GetTrigger, ITaskTrigger, ITaskTrigger interface [Task Scheduler], GetTrigger method, ITaskTrigger::GetTrigger, _msb_itasktrigger_gettrigger, mstask/ITaskTrigger::GetTrigger, taskschd.itasktrigger_gettrigger
+ms.keywords: GetTrigger, GetTrigger method [Task Scheduler], GetTrigger method [Task Scheduler],ITaskTrigger interface, ITaskTrigger interface [Task Scheduler],GetTrigger method, ITaskTrigger.GetTrigger, ITaskTrigger::GetTrigger, _msb_itasktrigger_gettrigger, mstask/ITaskTrigger::GetTrigger, taskschd.itasktrigger_gettrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITaskTrigger::GetTrigger method
+# ITaskTrigger::GetTrigger
 
 
 ## -description

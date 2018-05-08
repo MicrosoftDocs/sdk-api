@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 4c14143b-3b5f-401d-9df7-f17374abcd99
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], IDirectManipulationViewport interface [Direct Manipulation], described, directmanipulation.idirectmanipulationviewport, directmanipulation/IDirectManipulationViewport
+ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], IDirectManipulationViewport interface [Direct Manipulation],described, directmanipulation.idirectmanipulationviewport, directmanipulation/IDirectManipulationViewport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

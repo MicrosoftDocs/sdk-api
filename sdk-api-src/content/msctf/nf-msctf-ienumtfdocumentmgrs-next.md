@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Next
-title: IEnumTfDocumentMgrs::Next method
+title: IEnumTfDocumentMgrs::Next
 author: windows-driver-content
 description: IEnumTfDocumentMgrs::Next method
 old-location: tsf\ienumtfdocumentmgrs_next.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2fe1beed-9952-4e6c-9c45-eb21c4918288
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfDocumentMgrs, IEnumTfDocumentMgrs interface [Text Services Framework], Next method, IEnumTfDocumentMgrs::Next, Next method [Text Services Framework], Next method [Text Services Framework], IEnumTfDocumentMgrs interface, Next,IEnumTfDocumentMgrs.Next, _tsf_ienumtfdocumentmgrs_next_ref, msctf/IEnumTfDocumentMgrs::Next, tsf.ienumtfdocumentmgrs_next
+ms.keywords: IEnumTfDocumentMgrs interface [Text Services Framework],Next method, IEnumTfDocumentMgrs.Next, IEnumTfDocumentMgrs::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfDocumentMgrs interface, _tsf_ienumtfdocumentmgrs_next_ref, msctf/IEnumTfDocumentMgrs::Next, tsf.ienumtfdocumentmgrs_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfDocumentMgrs::Next method
+# IEnumTfDocumentMgrs::Next
 
 
 ## -description

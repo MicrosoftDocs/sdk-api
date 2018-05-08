@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.CreateObjectWithPropertiesOnly
-title: IPortableDeviceContent::CreateObjectWithPropertiesOnly method
+title: IPortableDeviceContent::CreateObjectWithPropertiesOnly
 author: windows-driver-content
 description: The CreateObjectWithPropertiesOnly method creates an object with only properties on the device.
 old-location: wpdsdk\iportabledevicecontent_createobjectwithpropertiesonly.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 0695d3d6-1f0d-45b4-8461-a76d759b6c09
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CreateObjectWithPropertiesOnly method [Windows Portable Devices SDK], CreateObjectWithPropertiesOnly method [Windows Portable Devices SDK], IPortableDeviceContent interface, CreateObjectWithPropertiesOnly,IPortableDeviceContent.CreateObjectWithPropertiesOnly, IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], CreateObjectWithPropertiesOnly method, IPortableDeviceContent::CreateObjectWithPropertiesOnly, IPortableDeviceContentCreateObjectWithPropertiesOnly, portabledeviceapi/IPortableDeviceContent::CreateObjectWithPropertiesOnly, wpdsdk.iportabledevicecontent_createobjectwithpropertiesonly
+ms.keywords: CreateObjectWithPropertiesOnly, CreateObjectWithPropertiesOnly method [Windows Portable Devices SDK], CreateObjectWithPropertiesOnly method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],CreateObjectWithPropertiesOnly method, IPortableDeviceContent.CreateObjectWithPropertiesOnly, IPortableDeviceContent::CreateObjectWithPropertiesOnly, IPortableDeviceContentCreateObjectWithPropertiesOnly, portabledeviceapi/IPortableDeviceContent::CreateObjectWithPropertiesOnly, wpdsdk.iportabledevicecontent_createobjectwithpropertiesonly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceContent::CreateObjectWithPropertiesOnly method
+# IPortableDeviceContent::CreateObjectWithPropertiesOnly
 
 
 ## -description

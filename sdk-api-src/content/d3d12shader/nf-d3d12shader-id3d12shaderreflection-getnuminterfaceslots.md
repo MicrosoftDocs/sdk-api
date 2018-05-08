@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetNumInterfaceSlots
-title: ID3D12ShaderReflection::GetNumInterfaceSlots method
+title: ID3D12ShaderReflection::GetNumInterfaceSlots
 author: windows-driver-content
 description: Gets the number of interface slots in a shader.
 old-location: direct3d12\id3d12shaderreflection_getnuminterfaceslots.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 9D81990B-D5C3-495F-A0AC-E43712481093
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetNumInterfaceSlots method, GetNumInterfaceSlots method, ID3D12ShaderReflection interface, GetNumInterfaceSlots,ID3D12ShaderReflection.GetNumInterfaceSlots, ID3D12ShaderReflection, ID3D12ShaderReflection interface, GetNumInterfaceSlots method, ID3D12ShaderReflection::GetNumInterfaceSlots, d3d12shader/ID3D12ShaderReflection::GetNumInterfaceSlots, direct3d12.id3d12shaderreflection_getnuminterfaceslots
+ms.keywords: GetNumInterfaceSlots, GetNumInterfaceSlots method, GetNumInterfaceSlots method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetNumInterfaceSlots method, ID3D12ShaderReflection.GetNumInterfaceSlots, ID3D12ShaderReflection::GetNumInterfaceSlots, d3d12shader/ID3D12ShaderReflection::GetNumInterfaceSlots, direct3d12.id3d12shaderreflection_getnuminterfaceslots
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflection::GetNumInterfaceSlots method
+# ID3D12ShaderReflection::GetNumInterfaceSlots
 
 
 ## -description

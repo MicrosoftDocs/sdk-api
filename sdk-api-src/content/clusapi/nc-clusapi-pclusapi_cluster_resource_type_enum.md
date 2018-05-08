@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 956300f4-a7e8-4a8b-ab7e-e8fc3a37bf21
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM callback function [Failover Cluster], _wolf_clusterresourcetypeenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM, mscs.clusterresourcetypeenum
+ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM callback, PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM callback function [Failover Cluster], _wolf_clusterresourcetypeenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM, mscs.clusterresourcetypeenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM callback
+# PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM callback function
 
 
 ## -description

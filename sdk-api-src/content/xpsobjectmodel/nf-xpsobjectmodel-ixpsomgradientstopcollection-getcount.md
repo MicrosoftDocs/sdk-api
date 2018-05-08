@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.GetCount
-title: IXpsOMGradientStopCollection::GetCount method
+title: IXpsOMGradientStopCollection::GetCount
 author: windows-driver-content
 description: Gets the number of IXpsOMGradientStop interface pointers in the collection.
 old-location: xps\ixpsomgradientstopcollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c8f26de2-1237-4c41-bc91-de221739eb76
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging], IXpsOMGradientStopCollection interface, GetCount,IXpsOMGradientStopCollection.GetCount, IXpsOMGradientStopCollection, IXpsOMGradientStopCollection interface [XPS Documents and Packaging], GetCount method, IXpsOMGradientStopCollection::GetCount, xps.ixpsomgradientstopcollection_getcount, xpsobjectmodel/IXpsOMGradientStopCollection::GetCount
+ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMGradientStopCollection.GetCount, IXpsOMGradientStopCollection::GetCount, xps.ixpsomgradientstopcollection_getcount, xpsobjectmodel/IXpsOMGradientStopCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientStopCollection::GetCount method
+# IXpsOMGradientStopCollection::GetCount
 
 
 ## -description

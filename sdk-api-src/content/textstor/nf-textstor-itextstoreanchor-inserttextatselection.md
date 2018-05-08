@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.InsertTextAtSelection
-title: ITextStoreAnchor::InsertTextAtSelection method
+title: ITextStoreAnchor::InsertTextAtSelection
 author: windows-driver-content
 description: ITextStoreAnchor::InsertTextAtSelection method
 old-location: tsf\itextstoreanchor_inserttextatselection.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: f5cb512a-d9f5-451f-b6cb-2020ba32e855
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], InsertTextAtSelection method, ITextStoreAnchor::InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework], ITextStoreAnchor interface, InsertTextAtSelection,ITextStoreAnchor.InsertTextAtSelection, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, textstor/ITextStoreAnchor::InsertTextAtSelection, tsf.itextstoreanchor_inserttextatselection
+ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertTextAtSelection method, ITextStoreAnchor.InsertTextAtSelection, ITextStoreAnchor::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreAnchor interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, textstor/ITextStoreAnchor::InsertTextAtSelection, tsf.itextstoreanchor_inserttextatselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::InsertTextAtSelection method
+# ITextStoreAnchor::InsertTextAtSelection
 
 
 ## -description

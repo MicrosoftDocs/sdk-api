@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnSetFocus
-title: ITfKeyEventSink::OnSetFocus method
+title: ITfKeyEventSink::OnSetFocus
 author: windows-driver-content
 description: ITfKeyEventSink::OnSetFocus method
 old-location: tsf\itfkeyeventsink_onsetfocus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 999c7ead-7ca6-42a5-a530-706fb3283b21
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfKeyEventSink, ITfKeyEventSink interface [Text Services Framework], OnSetFocus method, ITfKeyEventSink::OnSetFocus, OnSetFocus method [Text Services Framework], OnSetFocus method [Text Services Framework], ITfKeyEventSink interface, OnSetFocus,ITfKeyEventSink.OnSetFocus, _tsf_itfkeyeventsink_onsetfocus_ref, msctf/ITfKeyEventSink::OnSetFocus, tsf.itfkeyeventsink_onsetfocus
+ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnSetFocus method, ITfKeyEventSink.OnSetFocus, ITfKeyEventSink::OnSetFocus, OnSetFocus, OnSetFocus method [Text Services Framework], OnSetFocus method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onsetfocus_ref, msctf/ITfKeyEventSink::OnSetFocus, tsf.itfkeyeventsink_onsetfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfKeyEventSink::OnSetFocus method
+# ITfKeyEventSink::OnSetFocus
 
 
 ## -description

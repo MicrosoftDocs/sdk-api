@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: c0fa6841-56bf-421e-9949-c6a037cf9fd4
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioCaptureClient, IAudioCaptureClient interface [Core Audio], IAudioCaptureClient interface [Core Audio], described, audioclient/IAudioCaptureClient, coreaudio.iaudiocaptureclient
+ms.keywords: IAudioCaptureClient, IAudioCaptureClient interface [Core Audio], IAudioCaptureClient interface [Core Audio],described, audioclient/IAudioCaptureClient, coreaudio.iaudiocaptureclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

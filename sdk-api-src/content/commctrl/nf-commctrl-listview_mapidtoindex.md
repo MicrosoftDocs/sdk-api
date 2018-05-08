@@ -7,7 +7,7 @@ old-location: controls\ListView_MapIDToIndex.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_mapidtoindex.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: ListView_MapIDToIndex, ListView_MapIDToIndex macro [Windows Controls], _win32_ListView_MapIDToIndex, _win32_ListView_MapIDToIndex_cpp, commctrl/ListView_MapIDToIndex, controls.ListView_MapIDToIndex, controls._win32_ListView_MapIDToIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

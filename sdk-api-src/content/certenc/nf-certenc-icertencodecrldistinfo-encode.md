@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.Encode
-title: ICertEncodeCRLDistInfo::Encode method
+title: ICertEncodeCRLDistInfo::Encode
 author: windows-driver-content
 description: Performs Abstract Syntax Notation One (ASN.1) encoding on a certificate revocation list (CRL) distribution information array stored in the COM object and returns the ASN.1-encoded extension.
 old-location: security\icertencodecrldistinfo_encode.htm
 old-project: SecCrypto
 ms.assetid: 46520e3a-1f15-4d1c-9f44-b9b420fb4f25
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeCRLDistInfo object [Security], Encode method, Encode method [Security], Encode method [Security], CCertEncodeCRLDistInfo object, Encode method [Security], ICertEncodeCRLDistInfo interface, Encode,ICertEncodeCRLDistInfo.Encode, ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], Encode method, ICertEncodeCRLDistInfo::Encode, _certsrv_icertencodecrldistinfo_encode, certenc/ICertEncodeCRLDistInfo::Encode, security.icertencodecrldistinfo_encode
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeCRLDistInfo object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeCRLDistInfo object, Encode method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],Encode method, ICertEncodeCRLDistInfo.Encode, ICertEncodeCRLDistInfo::Encode, _certsrv_icertencodecrldistinfo_encode, certenc/ICertEncodeCRLDistInfo::Encode, security.icertencodecrldistinfo_encode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeCRLDistInfo::Encode method
+# ICertEncodeCRLDistInfo::Encode
 
 
 ## -description

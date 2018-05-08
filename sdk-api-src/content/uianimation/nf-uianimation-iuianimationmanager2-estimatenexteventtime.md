@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.EstimateNextEventTime
-title: IUIAnimationManager2::EstimateNextEventTime method
+title: IUIAnimationManager2::EstimateNextEventTime
 author: windows-driver-content
 description: Retrieves an estimate of the time interval before the next animation event.
 old-location: uianimation\iuianimationmanager2_estimatenexteventtime.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: C2F049B7-287F-4EC2-A737-965E01515056
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: EstimateNextEventTime method [Windows Animation], EstimateNextEventTime method [Windows Animation], IUIAnimationManager2 interface, EstimateNextEventTime,IUIAnimationManager2.EstimateNextEventTime, IUIAnimationManager2, IUIAnimationManager2 interface [Windows Animation], EstimateNextEventTime method, IUIAnimationManager2::EstimateNextEventTime, uianimation.iuianimationmanager2_estimatenexteventtime, uianimation/IUIAnimationManager2::EstimateNextEventTime
+ms.keywords: EstimateNextEventTime, EstimateNextEventTime method [Windows Animation], EstimateNextEventTime method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],EstimateNextEventTime method, IUIAnimationManager2.EstimateNextEventTime, IUIAnimationManager2::EstimateNextEventTime, uianimation.iuianimationmanager2_estimatenexteventtime, uianimation/IUIAnimationManager2::EstimateNextEventTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager2::EstimateNextEventTime method
+# IUIAnimationManager2::EstimateNextEventTime
 
 
 ## -description

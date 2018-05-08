@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISupportLastWriteTime.GetItemChangeTime
-title: ISupportLastWriteTime::GetItemChangeTime method
+title: ISupportLastWriteTime::GetItemChangeTime
 author: windows-driver-content
 description: Gets the date and time when the specified item was last changed.
 old-location: winsync\isupportlastwritetime_getitemchangetime.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 15cbd398-81d9-4ea6-bfe4-1bf00510b419
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetItemChangeTime method [Windows Sync], GetItemChangeTime method [Windows Sync], ISupportLastWriteTime interface, GetItemChangeTime,ISupportLastWriteTime.GetItemChangeTime, ISupportLastWriteTime, ISupportLastWriteTime interface [Windows Sync], GetItemChangeTime method, ISupportLastWriteTime::GetItemChangeTime, winsync.isupportlastwritetime_getitemchangetime, winsync/ISupportLastWriteTime::GetItemChangeTime
+ms.keywords: GetItemChangeTime, GetItemChangeTime method [Windows Sync], GetItemChangeTime method [Windows Sync],ISupportLastWriteTime interface, ISupportLastWriteTime interface [Windows Sync],GetItemChangeTime method, ISupportLastWriteTime.GetItemChangeTime, ISupportLastWriteTime::GetItemChangeTime, winsync.isupportlastwritetime_getitemchangetime, winsync/ISupportLastWriteTime::GetItemChangeTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISupportLastWriteTime::GetItemChangeTime method
+# ISupportLastWriteTime::GetItemChangeTime
 
 
 ## -description

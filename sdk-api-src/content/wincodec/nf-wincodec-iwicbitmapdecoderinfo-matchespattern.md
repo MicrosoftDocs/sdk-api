@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoderInfo.MatchesPattern
-title: IWICBitmapDecoderInfo::MatchesPattern method
+title: IWICBitmapDecoderInfo::MatchesPattern
 author: windows-driver-content
 description: Retrieves a value that indicates whether the codec recognizes the pattern within a specified stream.
 old-location: wic\_wic_codec_iwicbitmapdecoderinfo_matchespattern.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 159459a4-f14e-4441-94a6-d55b3bacb868
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICBitmapDecoderInfo, IWICBitmapDecoderInfo interface [Windows Imaging Component], MatchesPattern method, IWICBitmapDecoderInfo::MatchesPattern, MatchesPattern method [Windows Imaging Component], MatchesPattern method [Windows Imaging Component], IWICBitmapDecoderInfo interface, MatchesPattern,IWICBitmapDecoderInfo.MatchesPattern, _wic_codec_iwicbitmapdecoderinfo_matchespattern, wic._wic_codec_iwicbitmapdecoderinfo_matchespattern, wincodec/IWICBitmapDecoderInfo::MatchesPattern
+ms.keywords: IWICBitmapDecoderInfo interface [Windows Imaging Component],MatchesPattern method, IWICBitmapDecoderInfo.MatchesPattern, IWICBitmapDecoderInfo::MatchesPattern, MatchesPattern, MatchesPattern method [Windows Imaging Component], MatchesPattern method [Windows Imaging Component],IWICBitmapDecoderInfo interface, _wic_codec_iwicbitmapdecoderinfo_matchespattern, wic._wic_codec_iwicbitmapdecoderinfo_matchespattern, wincodec/IWICBitmapDecoderInfo::MatchesPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapDecoderInfo::MatchesPattern method
+# IWICBitmapDecoderInfo::MatchesPattern
 
 
 ## -description

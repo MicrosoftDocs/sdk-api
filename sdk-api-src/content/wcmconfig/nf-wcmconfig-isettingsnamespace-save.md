@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.Save
-title: ISettingsNamespace::Save method
+title: ISettingsNamespace::Save
 author: windows-driver-content
 description: Updates the settings namespace to persistent and visible.
 old-location: smi\isettingsnamespace_save.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 368c1d0b-c8a2-47af-82f8-bcc1ccf8930b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISettingsNamespace, ISettingsNamespace interface [SMI], Save method, ISettingsNamespace::Save, Save method [SMI], Save method [SMI], ISettingsNamespace interface, Save,ISettingsNamespace.Save, smi.isettingsnamespace_save, wcmconfig/ISettingsNamespace::Save
+ms.keywords: ISettingsNamespace interface [SMI],Save method, ISettingsNamespace.Save, ISettingsNamespace::Save, Save, Save method [SMI], Save method [SMI],ISettingsNamespace interface, smi.isettingsnamespace_save, wcmconfig/ISettingsNamespace::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsNamespace::Save method
+# ISettingsNamespace::Save
 
 
 ## -description

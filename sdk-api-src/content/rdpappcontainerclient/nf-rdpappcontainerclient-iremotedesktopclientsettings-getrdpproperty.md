@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.GetRdpProperty
-title: IRemoteDesktopClientSettings::GetRdpProperty method
+title: IRemoteDesktopClientSettings::GetRdpProperty
 author: windows-driver-content
 description: Retrieves a single named RDP property value.
 old-location: termserv\iremotedesktopclientsettings_getrdpproperty.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: e172098a-d3c1-46cc-8c46-cdf14c46b43a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetRdpProperty method [Remote Desktop Services], GetRdpProperty method [Remote Desktop Services], IRemoteDesktopClientSettings interface, GetRdpProperty,IRemoteDesktopClientSettings.GetRdpProperty, IRemoteDesktopClientSettings, IRemoteDesktopClientSettings interface [Remote Desktop Services], GetRdpProperty method, IRemoteDesktopClientSettings::GetRdpProperty, rdpappcontainerclient/IRemoteDesktopClientSettings::GetRdpProperty, termserv.iremotedesktopclientsettings_getrdpproperty
+ms.keywords: GetRdpProperty, GetRdpProperty method [Remote Desktop Services], GetRdpProperty method [Remote Desktop Services],IRemoteDesktopClientSettings interface, IRemoteDesktopClientSettings interface [Remote Desktop Services],GetRdpProperty method, IRemoteDesktopClientSettings.GetRdpProperty, IRemoteDesktopClientSettings::GetRdpProperty, rdpappcontainerclient/IRemoteDesktopClientSettings::GetRdpProperty, termserv.iremotedesktopclientsettings_getrdpproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRemoteDesktopClientSettings::GetRdpProperty method
+# IRemoteDesktopClientSettings::GetRdpProperty
 
 
 ## -description

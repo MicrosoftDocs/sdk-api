@@ -7,8 +7,8 @@ old-location: wmp\iwmpcontentpartnercallback.htm
 old-project: WMP
 ms.assetid: 3c66052b-2b82-44aa-868d-5d5a4501c457
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], IWMPContentPartnerCallback interface [Windows Media Player], described, IWMPContentPartnerCallbackInterface, contentpartner/IWMPContentPartnerCallback, wmp.iwmpcontentpartnercallback
+ms.date: 5/4/2018
+ms.keywords: IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], IWMPContentPartnerCallback interface [Windows Media Player],described, IWMPContentPartnerCallbackInterface, contentpartner/IWMPContentPartnerCallback, wmp.iwmpcontentpartnercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

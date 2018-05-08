@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.Copy
-title: IImageList::Copy method
+title: IImageList::Copy
 author: windows-driver-content
 description: Copies images from a given image list.
 old-location: controls\IImageList_Copy.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\copy.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: Copy method [Windows Controls], Copy method [Windows Controls], IImageList interface, Copy,IImageList.Copy, IImageList, IImageList interface [Windows Controls], Copy method, IImageList::Copy, comctl_IImageList_Copy, comctl_IImageList_Copy_cpp, commoncontrols/IImageList::Copy, controls.IImageList_Copy, controls.comctl_IImageList_Copy
+ms.date: 4/27/2018
+ms.keywords: Copy, Copy method [Windows Controls], Copy method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Copy method, IImageList.Copy, IImageList::Copy, comctl_IImageList_Copy, comctl_IImageList_Copy_cpp, commoncontrols/IImageList::Copy, controls.IImageList_Copy, controls.comctl_IImageList_Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::Copy method
+# IImageList::Copy
 
 
 ## -description

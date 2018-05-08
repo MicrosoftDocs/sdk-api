@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.RegisterWaitEvent
-title: CMSPCallMultiGraph::RegisterWaitEvent method
+title: CMSPCallMultiGraph::RegisterWaitEvent
 author: windows-driver-content
 description: The RegisterWaitEvent method should be called only within a critical section on the call object.
 old-location: tapi3\cmspcallmultigraph_registerwaitevent.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 3c75ed75-a0b2-435b-aa49-c1e7dadf260f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph interface [TAPI 2.2], RegisterWaitEvent method, CMSPCallMultiGraph::RegisterWaitEvent, RegisterWaitEvent method [TAPI 2.2], RegisterWaitEvent method [TAPI 2.2], CMSPCallMultiGraph interface, RegisterWaitEvent,CMSPCallMultiGraph.RegisterWaitEvent, _tapi3_cmspcallmultigraph_registerwaitevent, mspcall/CMSPCallMultiGraph::RegisterWaitEvent, tapi3.cmspcallmultigraph_registerwaitevent
+ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],RegisterWaitEvent method, CMSPCallMultiGraph.RegisterWaitEvent, CMSPCallMultiGraph::RegisterWaitEvent, RegisterWaitEvent, RegisterWaitEvent method [TAPI 2.2], RegisterWaitEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_registerwaitevent, mspcall/CMSPCallMultiGraph::RegisterWaitEvent, tapi3.cmspcallmultigraph_registerwaitevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPCallMultiGraph::RegisterWaitEvent method
+# CMSPCallMultiGraph::RegisterWaitEvent
 
 
 ## -description

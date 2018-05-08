@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.SetSingleTabletMode
-title: IRealTimeStylus::SetSingleTabletMode method
+title: IRealTimeStylus::SetSingleTabletMode
 author: windows-driver-content
 description: Modifies the mode for RealTimeStylus Class (RTS) object to collect input from only one tablet object representing a digitizer attached to the Tablet PC. Stylus input from other digitizers is ignored by the RealTimeStylus.
 old-location: tablet\irealtimestylus_setsingletabletmode.htm
 old-project: tablet
 ms.assetid: 7f3645fd-cb1e-4bd5-a995-d70197c61afc
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 7f3645fd-cb1e-4bd5-a995-d70197c61afc, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], SetSingleTabletMode method, IRealTimeStylus::SetSingleTabletMode, SetSingleTabletMode method [Tablet PC], SetSingleTabletMode method [Tablet PC], IRealTimeStylus interface, SetSingleTabletMode,IRealTimeStylus.SetSingleTabletMode, rtscom/IRealTimeStylus::SetSingleTabletMode, tablet.irealtimestylus_setsingletabletmode
+ms.date: 5/2/2018
+ms.keywords: 7f3645fd-cb1e-4bd5-a995-d70197c61afc, IRealTimeStylus interface [Tablet PC],SetSingleTabletMode method, IRealTimeStylus.SetSingleTabletMode, IRealTimeStylus::SetSingleTabletMode, SetSingleTabletMode, SetSingleTabletMode method [Tablet PC], SetSingleTabletMode method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::SetSingleTabletMode, tablet.irealtimestylus_setsingletabletmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylus::SetSingleTabletMode method
+# IRealTimeStylus::SetSingleTabletMode
 
 
 ## -description

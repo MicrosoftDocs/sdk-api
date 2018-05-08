@@ -7,7 +7,7 @@ old-location: security\certfindattribute.htm
 old-project: SecCrypto
 ms.assetid: 99d690fb-ea85-4cb1-9fb0-bdb02e4ac50a
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CertFindAttribute, CertFindAttribute function [Security], _crypto2_certfindattribute, security.certfindattribute, wincrypt/CertFindAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

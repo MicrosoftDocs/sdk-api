@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationUpdateEvents.OnCssChanged
-title: IWebApplicationUpdateEvents::OnCssChanged method
+title: IWebApplicationUpdateEvents::OnCssChanged
 author: windows-driver-content
 description: Notifies the authoring app that the Cascading Style Sheets (CSS) has changed.
 old-location: debug\iwebapplicationupdateevents_oncsschanged.htm
@@ -8,7 +8,7 @@ old-project: debug_wwahost
 ms.assetid: 8C959152-3576-4131-BD32-5777F1F570A1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWebApplicationUpdateEvents, IWebApplicationUpdateEvents interface [Debugging Windows Store apps], OnCssChanged method, IWebApplicationUpdateEvents::OnCssChanged, OnCssChanged method [Debugging Windows Store apps], OnCssChanged method [Debugging Windows Store apps], IWebApplicationUpdateEvents interface, OnCssChanged,IWebApplicationUpdateEvents.OnCssChanged, debug.iwebapplicationupdateevents_oncsschanged, webapplication/IWebApplicationUpdateEvents::OnCssChanged
+ms.keywords: IWebApplicationUpdateEvents interface [Debugging Windows Store apps],OnCssChanged method, IWebApplicationUpdateEvents.OnCssChanged, IWebApplicationUpdateEvents::OnCssChanged, OnCssChanged, OnCssChanged method [Debugging Windows Store apps], OnCssChanged method [Debugging Windows Store apps],IWebApplicationUpdateEvents interface, debug.iwebapplicationupdateevents_oncsschanged, webapplication/IWebApplicationUpdateEvents::OnCssChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWebApplicationUpdateEvents::OnCssChanged method
+# IWebApplicationUpdateEvents::OnCssChanged
 
 
 ## -description

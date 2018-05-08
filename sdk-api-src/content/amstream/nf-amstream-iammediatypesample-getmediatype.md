@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetMediaType
-title: IAMMediaTypeSample::GetMediaType method
+title: IAMMediaTypeSample::GetMediaType
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The GetMediaType method retrieves the media type of the sample. If the format has not changed from the previous sample, the sample might not carry a media type.
 old-location: dshow\iammediatypesample_getmediatype.htm
 old-project: DirectShow
 ms.assetid: 40a2640e-aaeb-44f2-a772-2deda2fd3999
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMediaType method [DirectShow], GetMediaType method [DirectShow], IAMMediaTypeSample interface, GetMediaType,IAMMediaTypeSample.GetMediaType, IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], GetMediaType method, IAMMediaTypeSample::GetMediaType, IAMMediaTypeSampleGetMediaType, amstream/IAMMediaTypeSample::GetMediaType, dshow.iammediatypesample_getmediatype
+ms.date: 4/30/2018
+ms.keywords: GetMediaType, GetMediaType method [DirectShow], GetMediaType method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetMediaType method, IAMMediaTypeSample.GetMediaType, IAMMediaTypeSample::GetMediaType, IAMMediaTypeSampleGetMediaType, amstream/IAMMediaTypeSample::GetMediaType, dshow.iammediatypesample_getmediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaTypeSample::GetMediaType method
+# IAMMediaTypeSample::GetMediaType
 
 
 ## -description

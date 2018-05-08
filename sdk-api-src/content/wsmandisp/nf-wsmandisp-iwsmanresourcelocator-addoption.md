@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.AddOption
-title: IWSManResourceLocator::AddOption method
+title: IWSManResourceLocator::AddOption
 author: windows-driver-content
 description: Adds data required to process the request. For example, some WMI providers may require an IWbemContext or SWbemNamedValueSet object with provider-specific information.
 old-location: winrm\iwsmanresourcelocator_addoption.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: a6709cb7-35a1-41b6-981e-13d3f1bf9816
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddOption method [Windows Remote Management], AddOption method [Windows Remote Management], IWSManResourceLocator interface, AddOption,IWSManResourceLocator.AddOption, IWSManResourceLocator, IWSManResourceLocator interface [Windows Remote Management], AddOption method, IWSManResourceLocator::AddOption, winrm.iwsmanresourcelocator_addoption, wsmandisp/IWSManResourceLocator::AddOption
+ms.keywords: AddOption, AddOption method [Windows Remote Management], AddOption method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],AddOption method, IWSManResourceLocator.AddOption, IWSManResourceLocator::AddOption, winrm.iwsmanresourcelocator_addoption, wsmandisp/IWSManResourceLocator::AddOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManResourceLocator::AddOption method
+# IWSManResourceLocator::AddOption
 
 
 ## -description

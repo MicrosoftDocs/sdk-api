@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetDepthStencilSurface
-title: IDirect3DDevice9::GetDepthStencilSurface method
+title: IDirect3DDevice9::GetDepthStencilSurface
 author: windows-driver-content
 description: Gets the depth-stencil surface owned by the Direct3DDevice object.
 old-location: direct3d9\idirect3ddevice9__getdepthstencilsurface.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getdepthstencilsurface.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 838c2e61-ca4b-a0a4-7c79-dcedf679f8be, GetDepthStencilSurface method [Direct3D 9], GetDepthStencilSurface method [Direct3D 9], IDirect3DDevice9 interface, GetDepthStencilSurface,IDirect3DDevice9.GetDepthStencilSurface, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetDepthStencilSurface method, IDirect3DDevice9::GetDepthStencilSurface, d3d9helper/IDirect3DDevice9::GetDepthStencilSurface, direct3d9.idirect3ddevice9__getdepthstencilsurface
+ms.keywords: 838c2e61-ca4b-a0a4-7c79-dcedf679f8be, GetDepthStencilSurface, GetDepthStencilSurface method [Direct3D 9], GetDepthStencilSurface method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetDepthStencilSurface method, IDirect3DDevice9.GetDepthStencilSurface, IDirect3DDevice9::GetDepthStencilSurface, d3d9helper/IDirect3DDevice9::GetDepthStencilSurface, direct3d9.idirect3ddevice9__getdepthstencilsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::GetDepthStencilSurface method
+# IDirect3DDevice9::GetDepthStencilSurface
 
 
 ## -description

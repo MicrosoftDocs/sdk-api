@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayerApplication.switchToControl
-title: IWMPPlayerApplication::switchToControl method
+title: IWMPPlayerApplication::switchToControl
 author: windows-driver-content
 description: The switchToControl method switches a remoted Windows Media Player control to the docked state.
 old-location: wmp\iwmpplayerapplication_switchtocontrol.htm
 old-project: WMP
 ms.assetid: 15be3a28-4e51-46bf-bb64-e45e20ae3524
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayerApplication, IWMPPlayerApplication interface [Windows Media Player], switchToControl method, IWMPPlayerApplication::switchToControl, IWMPPlayerApplicationswitchToControl, switchToControl method [Windows Media Player], switchToControl method [Windows Media Player], IWMPPlayerApplication interface, switchToControl,IWMPPlayerApplication.switchToControl, wmp.iwmpplayerapplication_switchtocontrol, wmp/IWMPPlayerApplication::switchToControl
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayerApplication interface [Windows Media Player],switchToControl method, IWMPPlayerApplication.switchToControl, IWMPPlayerApplication::switchToControl, IWMPPlayerApplicationswitchToControl, switchToControl, switchToControl method [Windows Media Player], switchToControl method [Windows Media Player],IWMPPlayerApplication interface, wmp.iwmpplayerapplication_switchtocontrol, wmp/IWMPPlayerApplication::switchToControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayerApplication::switchToControl method
+# IWMPPlayerApplication::switchToControl
 
 
 ## -description

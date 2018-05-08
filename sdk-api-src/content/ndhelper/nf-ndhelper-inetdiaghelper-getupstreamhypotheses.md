@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetUpStreamHypotheses
-title: INetDiagHelper::GetUpStreamHypotheses method
+title: INetDiagHelper::GetUpStreamHypotheses
 author: windows-driver-content
 description: Generate hypotheses for possible causes of high utilization in the upstream network components.
 old-location: ndf\inetdiaghelpe_getupstreathypotheses.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: e683a2eb-8dec-47e2-ae3d-6c12a9b2773d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetUpStreamHypotheses method [NDF], GetUpStreamHypotheses method [NDF], INetDiagHelper interface, GetUpStreamHypotheses,INetDiagHelper.GetUpStreamHypotheses, INetDiagHelper, INetDiagHelper interface [NDF], GetUpStreamHypotheses method, INetDiagHelper::GetUpStreamHypotheses, ndf.inetdiaghelpe_getupstreathypotheses, ndhelper/INetDiagHelper::GetUpStreamHypotheses
+ms.keywords: GetUpStreamHypotheses, GetUpStreamHypotheses method [NDF], GetUpStreamHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetUpStreamHypotheses method, INetDiagHelper.GetUpStreamHypotheses, INetDiagHelper::GetUpStreamHypotheses, ndf.inetdiaghelpe_getupstreathypotheses, ndhelper/INetDiagHelper::GetUpStreamHypotheses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::GetUpStreamHypotheses method
+# INetDiagHelper::GetUpStreamHypotheses
 
 
 ## -description

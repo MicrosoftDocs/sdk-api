@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperty.InitializeDecode
-title: ICertProperty::InitializeDecode method
+title: ICertProperty::InitializeDecode
 author: windows-driver-content
 description: Initializes the object from a byte array that contains the property value.
 old-location: security\icertproperty_initializedecode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 38b51242-cd4a-402e-b7ff-286f7bf66953
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertProperty, ICertProperty interface [Security], InitializeDecode method, ICertProperty::InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security], ICertProperty interface, InitializeDecode,ICertProperty.InitializeDecode, certenroll/ICertProperty::InitializeDecode, security.icertproperty_initializedecode_method
+ms.keywords: ICertProperty interface [Security],InitializeDecode method, ICertProperty.InitializeDecode, ICertProperty::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeDecode, security.icertproperty_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertProperty::InitializeDecode method
+# ICertProperty::InitializeDecode
 
 
 ## -description

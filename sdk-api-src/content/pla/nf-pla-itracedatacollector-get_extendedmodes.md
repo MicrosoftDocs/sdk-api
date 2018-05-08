@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_ExtendedModes
-title: ITraceDataCollector::get_ExtendedModes method
+title: ITraceDataCollector::get_ExtendedModes
 author: windows-driver-content
 description: Retrieves or sets the extended log file modes.
 old-location: pla\itracedatacollector_extendedmodes.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: c9f20dd2-4411-4069-8455-9095939581e8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ExtendedModes property [PLA], ExtendedModes property [PLA], ITraceDataCollector interface, ITraceDataCollector, ITraceDataCollector interface [PLA], ExtendedModes property, ITraceDataCollector.ExtendedModes, ITraceDataCollector::get_ExtendedModes, ITraceDataCollector::put_ExtendedModes, base.itracedatacollector_extendedmodes, get_ExtendedModes,ITraceDataCollector.get_ExtendedModes, pla.itracedatacollector_extendedmodes, pla/ITraceDataCollector::ExtendedModes, pla/ITraceDataCollector::get_ExtendedModes, pla/ITraceDataCollector::put_ExtendedModes
+ms.keywords: ExtendedModes property [PLA], ExtendedModes property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],ExtendedModes property, ITraceDataCollector.ExtendedModes, ITraceDataCollector.get_ExtendedModes, ITraceDataCollector::ExtendedModes, ITraceDataCollector::get_ExtendedModes, ITraceDataCollector::put_ExtendedModes, base.itracedatacollector_extendedmodes, get_ExtendedModes, pla.itracedatacollector_extendedmodes, pla/ITraceDataCollector::ExtendedModes, pla/ITraceDataCollector::get_ExtendedModes, pla/ITraceDataCollector::put_ExtendedModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataCollector::get_ExtendedModes method
+# ITraceDataCollector::get_ExtendedModes
 
 
 ## -description

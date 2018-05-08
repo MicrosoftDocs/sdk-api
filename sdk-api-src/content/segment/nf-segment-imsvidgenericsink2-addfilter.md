@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidGenericSink2.AddFilter
-title: IMSVidGenericSink2::AddFilter method
+title: IMSVidGenericSink2::AddFilter
 author: windows-driver-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
 old-location: mstv\imsvidgenericsink2_addfilter.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b0044995-5bca-4f49-a22b-00df8f73b47f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AddFilter method [Microsoft TV Technologies], AddFilter method [Microsoft TV Technologies], IMSVidGenericSink2 interface, AddFilter,IMSVidGenericSink2.AddFilter, IMSVidGenericSink2, IMSVidGenericSink2 interface [Microsoft TV Technologies], AddFilter method, IMSVidGenericSink2::AddFilter, IMSVidGenericSink2AddFilter, mstv.imsvidgenericsink2_addfilter, segment/IMSVidGenericSink2::AddFilter
+ms.keywords: AddFilter, AddFilter method [Microsoft TV Technologies], AddFilter method [Microsoft TV Technologies],IMSVidGenericSink2 interface, IMSVidGenericSink2 interface [Microsoft TV Technologies],AddFilter method, IMSVidGenericSink2.AddFilter, IMSVidGenericSink2::AddFilter, IMSVidGenericSink2AddFilter, mstv.imsvidgenericsink2_addfilter, segment/IMSVidGenericSink2::AddFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidGenericSink2::AddFilter method
+# IMSVidGenericSink2::AddFilter
 
 
 ## -description

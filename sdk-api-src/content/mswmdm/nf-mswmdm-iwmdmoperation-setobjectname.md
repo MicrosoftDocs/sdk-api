@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.SetObjectName
-title: IWMDMOperation::SetObjectName method
+title: IWMDMOperation::SetObjectName
 author: windows-driver-content
 description: The SetObjectName method assigns a name to the content being read or written. This method is currently not called by Windows Media Device Manager.
 old-location: wmdm\iwmdmoperation_setobjectname.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: d15b9cb0-6984-401e-9f81-97d0aae17b76
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMOperation, IWMDMOperation interface [windows Media Device Manager], SetObjectName method, IWMDMOperation::SetObjectName, IWMDMOperationSetObjectName, SetObjectName method [windows Media Device Manager], SetObjectName method [windows Media Device Manager], IWMDMOperation interface, SetObjectName,IWMDMOperation.SetObjectName, mswmdm/IWMDMOperation::SetObjectName, wmdm.iwmdmoperation_setobjectname
+ms.keywords: IWMDMOperation interface [windows Media Device Manager],SetObjectName method, IWMDMOperation.SetObjectName, IWMDMOperation::SetObjectName, IWMDMOperationSetObjectName, SetObjectName, SetObjectName method [windows Media Device Manager], SetObjectName method [windows Media Device Manager],IWMDMOperation interface, mswmdm/IWMDMOperation::SetObjectName, wmdm.iwmdmoperation_setobjectname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMOperation::SetObjectName method
+# IWMDMOperation::SetObjectName
 
 
 ## -description

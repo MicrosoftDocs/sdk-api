@@ -65,6 +65,18 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">
 Specifies the IP version. In tunnel mode, this is the version of the outer header.
 
 
+### -field v4Address
+
+ 
+
+
+### -field v6Address
+
+ 
+
+
+
+
 #### - ( unnamed union )
 
 switch_type(FWP_IP_VERSION), switch_is(ipVersion)

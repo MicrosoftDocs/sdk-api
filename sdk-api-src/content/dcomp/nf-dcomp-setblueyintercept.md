@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 34bff151-4844-73fa-8e7e-9a542373b820
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetBlueYIntercept, SetBlueYIntercept methods [DirectComposition], dcomp/SetBlueYIntercept, directcomp.idcompositionlineartransfereffect_setblueyintercept_overloaded
+ms.keywords: IDCompositionLinearTransferEffect::SetBlueYIntercept, SetBlueYIntercept, SetBlueYIntercept methods [DirectComposition], dcomp/SetBlueYIntercept, directcomp.idcompositionlineartransfereffect_setblueyintercept_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

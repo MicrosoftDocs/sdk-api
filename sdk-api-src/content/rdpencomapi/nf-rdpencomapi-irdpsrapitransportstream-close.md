@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.Close
-title: IRDPSRAPITransportStream::Close method
+title: IRDPSRAPITransportStream::Close
 author: windows-driver-content
 description: Called by the Remote Desktop Protocol (RDP) stack to close the stream.
 old-location: rdp\irdpsrapitransportstream_close.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 1c9ddc69-bc40-4c75-b4ff-3ff622dcf76c
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: Close method [RDP], Close method [RDP], IRDPSRAPITransportStream interface, Close,IRDPSRAPITransportStream.Close, IRDPSRAPITransportStream, IRDPSRAPITransportStream interface [RDP], Close method, IRDPSRAPITransportStream::Close, rdp.irdpsrapitransportstream_close, rdpencomapi/IRDPSRAPITransportStream::Close
+ms.keywords: Close, Close method [RDP], Close method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],Close method, IRDPSRAPITransportStream.Close, IRDPSRAPITransportStream::Close, rdp.irdpsrapitransportstream_close, rdpencomapi/IRDPSRAPITransportStream::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITransportStream::Close method
+# IRDPSRAPITransportStream::Close
 
 
 ## -description

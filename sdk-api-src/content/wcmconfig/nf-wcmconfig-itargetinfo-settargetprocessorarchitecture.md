@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetTargetProcessorArchitecture
-title: ITargetInfo::SetTargetProcessorArchitecture method
+title: ITargetInfo::SetTargetProcessorArchitecture
 author: windows-driver-content
 description: Sets the processor architecture associated with the current target.
 old-location: smi\itargetinfo_settargetprocessorarchitecture.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 15056182-4355-48f5-b996-195e3c72235e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITargetInfo, ITargetInfo interface [SMI], SetTargetProcessorArchitecture method, ITargetInfo::SetTargetProcessorArchitecture, SetTargetProcessorArchitecture method [SMI], SetTargetProcessorArchitecture method [SMI], ITargetInfo interface, SetTargetProcessorArchitecture,ITargetInfo.SetTargetProcessorArchitecture, smi.itargetinfo_settargetprocessorarchitecture, wcmconfig/ITargetInfo::SetTargetProcessorArchitecture
+ms.keywords: ITargetInfo interface [SMI],SetTargetProcessorArchitecture method, ITargetInfo.SetTargetProcessorArchitecture, ITargetInfo::SetTargetProcessorArchitecture, SetTargetProcessorArchitecture, SetTargetProcessorArchitecture method [SMI], SetTargetProcessorArchitecture method [SMI],ITargetInfo interface, smi.itargetinfo_settargetprocessorarchitecture, wcmconfig/ITargetInfo::SetTargetProcessorArchitecture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::SetTargetProcessorArchitecture method
+# ITargetInfo::SetTargetProcessorArchitecture
 
 
 ## -description

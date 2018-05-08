@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPageSite.OnStatusChange
-title: IPropertyPageSite::OnStatusChange method
+title: IPropertyPageSite::OnStatusChange
 author: windows-driver-content
 description: Informs the frame that the property page managed by this site has changed its state, that is, one or more property values have been changed in the page. Property pages should call this method whenever changes occur in their dialog boxes.
 old-location: com\ipropertypagesite_onstatuschange.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: cea36260-b0f6-489a-b02a-3ca3576c6431
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPropertyPageSite, IPropertyPageSite interface [COM], OnStatusChange method, IPropertyPageSite::OnStatusChange, OnStatusChange method [COM], OnStatusChange method [COM], IPropertyPageSite interface, OnStatusChange,IPropertyPageSite.OnStatusChange, PROPPAGESTATUS_DIRTY, PROPPAGESTATUS_VALIDATE, _ctrl_ipropertypagesite_onstatuschange, com.ipropertypagesite_onstatuschange, ocidl/IPropertyPageSite::OnStatusChange
+ms.keywords: IPropertyPageSite interface [COM],OnStatusChange method, IPropertyPageSite.OnStatusChange, IPropertyPageSite::OnStatusChange, OnStatusChange, OnStatusChange method [COM], OnStatusChange method [COM],IPropertyPageSite interface, PROPPAGESTATUS_DIRTY, PROPPAGESTATUS_VALIDATE, _ctrl_ipropertypagesite_onstatuschange, com.ipropertypagesite_onstatuschange, ocidl/IPropertyPageSite::OnStatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyPageSite::OnStatusChange method
+# IPropertyPageSite::OnStatusChange
 
 
 ## -description

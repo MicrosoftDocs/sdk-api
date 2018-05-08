@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromIAccessibleBuildCache
-title: IUIAutomation::ElementFromIAccessibleBuildCache method
+title: IUIAutomation::ElementFromIAccessibleBuildCache
 author: windows-driver-content
 description: Retrieves a UI Automation element for the specified accessible object from a Microsoft Active Accessibility server, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_ElementFromIAccessibleBuildCache.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7feadfc9-0be3-40ec-a986-526b207d1f38
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ElementFromIAccessibleBuildCache method [Windows Accessibility], ElementFromIAccessibleBuildCache method [Windows Accessibility], IUIAutomation interface, ElementFromIAccessibleBuildCache,IUIAutomation.ElementFromIAccessibleBuildCache, IUIAutomation, IUIAutomation interface [Windows Accessibility], ElementFromIAccessibleBuildCache method, IUIAutomation::ElementFromIAccessibleBuildCache, uiauto.uiauto_IUIAutomation_ElementFromIAccessibleBuildCache, uiauto_IUIAutomation_ElementFromIAccessibleBuildCache, uiautomationclient/IUIAutomation::ElementFromIAccessibleBuildCache, winauto.uiauto_IUIAutomation_ElementFromIAccessibleBuildCache
+ms.keywords: ElementFromIAccessibleBuildCache, ElementFromIAccessibleBuildCache method [Windows Accessibility], ElementFromIAccessibleBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromIAccessibleBuildCache method, IUIAutomation.ElementFromIAccessibleBuildCache, IUIAutomation::ElementFromIAccessibleBuildCache, uiauto.uiauto_IUIAutomation_ElementFromIAccessibleBuildCache, uiauto_IUIAutomation_ElementFromIAccessibleBuildCache, uiautomationclient/IUIAutomation::ElementFromIAccessibleBuildCache, winauto.uiauto_IUIAutomation_ElementFromIAccessibleBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::ElementFromIAccessibleBuildCache method
+# IUIAutomation::ElementFromIAccessibleBuildCache
 
 
 ## -description

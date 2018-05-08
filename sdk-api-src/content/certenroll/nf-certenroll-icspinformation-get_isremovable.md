@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_IsRemovable
-title: ICspInformation::get_IsRemovable method
+title: ICspInformation::get_IsRemovable
 author: windows-driver-content
 description: Retrieves a Boolean value that specifies whether the token that contains the key can be removed.
 old-location: security\icspinformation_isremovable_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: ee67670b-80a9-4637-a5ed-84d3430853ea
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspInformation, ICspInformation interface [Security], IsRemovable property, ICspInformation.IsRemovable, ICspInformation::get_IsRemovable, IsRemovable property [Security], IsRemovable property [Security], ICspInformation interface, certenroll/ICspInformation::IsRemovable, certenroll/ICspInformation::get_IsRemovable, get_IsRemovable,ICspInformation.get_IsRemovable, security.icspinformation_isremovable_property
+ms.keywords: ICspInformation interface [Security],IsRemovable property, ICspInformation.IsRemovable, ICspInformation.get_IsRemovable, ICspInformation::IsRemovable, ICspInformation::get_IsRemovable, IsRemovable property [Security], IsRemovable property [Security],ICspInformation interface, certenroll/ICspInformation::IsRemovable, certenroll/ICspInformation::get_IsRemovable, get_IsRemovable, security.icspinformation_isremovable_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformation::get_IsRemovable method
+# ICspInformation::get_IsRemovable
 
 
 ## -description

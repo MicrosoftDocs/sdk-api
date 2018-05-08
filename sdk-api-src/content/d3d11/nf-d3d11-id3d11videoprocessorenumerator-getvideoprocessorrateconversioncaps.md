@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.GetVideoProcessorRateConversionCaps
-title: ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps method
+title: ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps
 author: windows-driver-content
 description: Returns a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorrateconversioncaps.htm
 old-project: medfound
 ms.assetid: 2DB74CB9-C6B3-477A-9EF9-6E2EC1DE37D6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoProcessorRateConversionCaps method [Media Foundation], GetVideoProcessorRateConversionCaps method [Media Foundation], ID3D11VideoProcessorEnumerator interface, GetVideoProcessorRateConversionCaps,ID3D11VideoProcessorEnumerator.GetVideoProcessorRateConversionCaps, ID3D11VideoProcessorEnumerator, ID3D11VideoProcessorEnumerator interface [Media Foundation], GetVideoProcessorRateConversionCaps method, ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps, mf.id3d11videoprocessorenumerator_getvideoprocessorrateconversioncaps
+ms.date: 5/3/2018
+ms.keywords: GetVideoProcessorRateConversionCaps, GetVideoProcessorRateConversionCaps method [Media Foundation], GetVideoProcessorRateConversionCaps method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],GetVideoProcessorRateConversionCaps method, ID3D11VideoProcessorEnumerator.GetVideoProcessorRateConversionCaps, ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps, mf.id3d11videoprocessorenumerator_getvideoprocessorrateconversioncaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps method
+# ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps
 
 
 ## -description

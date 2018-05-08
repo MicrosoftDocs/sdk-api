@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAttributes.DeleteItem
-title: IMFAttributes::DeleteItem method
+title: IMFAttributes::DeleteItem
 author: windows-driver-content
 description: Removes a key/value pair from the object's attribute list.
 old-location: mf\imfattributes_deleteitem.htm
 old-project: medfound
 ms.assetid: ac72e6e4-f930-4de6-92a2-f15e5f9e5d74
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: DeleteItem method [Media Foundation], DeleteItem method [Media Foundation], IMFAttributes interface, DeleteItem,IMFAttributes.DeleteItem, IMFAttributes, IMFAttributes interface [Media Foundation], DeleteItem method, IMFAttributes::DeleteItem, ac72e6e4-f930-4de6-92a2-f15e5f9e5d74, mf.imfattributes_deleteitem, mfobjects/IMFAttributes::DeleteItem
+ms.date: 5/3/2018
+ms.keywords: DeleteItem, DeleteItem method [Media Foundation], DeleteItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],DeleteItem method, IMFAttributes.DeleteItem, IMFAttributes::DeleteItem, ac72e6e4-f930-4de6-92a2-f15e5f9e5d74, mf.imfattributes_deleteitem, mfobjects/IMFAttributes::DeleteItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAttributes::DeleteItem method
+# IMFAttributes::DeleteItem
 
 
 ## -description

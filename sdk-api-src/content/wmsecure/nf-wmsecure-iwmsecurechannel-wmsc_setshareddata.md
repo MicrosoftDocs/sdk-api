@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_SetSharedData
-title: IWMSecureChannel::WMSC_SetSharedData method
+title: IWMSecureChannel::WMSC_SetSharedData
 author: windows-driver-content
 description: The WMSC_SetSharedData method is used during the connection negotiation process.
 old-location: wmformat\iwmsecurechannel_wmsc_setshareddata.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: b6a87115-f781-4283-b343-301fdf7c5845
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSecureChannel, IWMSecureChannel interface [windows Media Format], WMSC_SetSharedData method, IWMSecureChannel::WMSC_SetSharedData, WMSC_SetSharedData method [windows Media Format], WMSC_SetSharedData method [windows Media Format], IWMSecureChannel interface, WMSC_SetSharedData,IWMSecureChannel.WMSC_SetSharedData, wmformat.iwmsecurechannel_wmsc_setshareddata, wmsecure/IWMSecureChannel::WMSC_SetSharedData
+ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_SetSharedData method, IWMSecureChannel.WMSC_SetSharedData, IWMSecureChannel::WMSC_SetSharedData, WMSC_SetSharedData, WMSC_SetSharedData method [windows Media Format], WMSC_SetSharedData method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_setshareddata, wmsecure/IWMSecureChannel::WMSC_SetSharedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSecureChannel::WMSC_SetSharedData method
+# IWMSecureChannel::WMSC_SetSharedData
 
 
 ## -description

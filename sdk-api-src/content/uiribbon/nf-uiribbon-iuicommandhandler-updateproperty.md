@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICommandHandler.UpdateProperty
-title: IUICommandHandler::UpdateProperty method
+title: IUICommandHandler::UpdateProperty
 author: windows-driver-content
 description: Responds to property update requests from the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuicommandhandler_updateproperty.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicommandhandler\updateproperty.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IUICommandHandler, IUICommandHandler interface [Windows Ribbon], UpdateProperty method, IUICommandHandler::UpdateProperty, UpdateProperty method [Windows Ribbon], UpdateProperty method [Windows Ribbon], IUICommandHandler interface, UpdateProperty,IUICommandHandler.UpdateProperty, scenicintent_IUICommandHandler_UpdateProperty, uiribbon/IUICommandHandler::UpdateProperty, windowsribbon.windowsribbon_iuicommandhandler_updateproperty
+ms.keywords: IUICommandHandler interface [Windows Ribbon],UpdateProperty method, IUICommandHandler.UpdateProperty, IUICommandHandler::UpdateProperty, UpdateProperty, UpdateProperty method [Windows Ribbon], UpdateProperty method [Windows Ribbon],IUICommandHandler interface, scenicintent_IUICommandHandler_UpdateProperty, uiribbon/IUICommandHandler::UpdateProperty, windowsribbon.windowsribbon_iuicommandhandler_updateproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUICommandHandler::UpdateProperty method
+# IUICommandHandler::UpdateProperty
 
 
 ## -description

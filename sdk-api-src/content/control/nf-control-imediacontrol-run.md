@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaControl.Run
-title: IMediaControl::Run method
+title: IMediaControl::Run
 author: windows-driver-content
 description: The Run method runs all the filters in the filter graph. While the graph is running, data moves through the graph and is rendered.
 old-location: dshow\imediacontrol_run.htm
 old-project: DirectShow
 ms.assetid: b52a5fa7-96f8-4949-9cf0-2d526f23bee1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaControl, IMediaControl interface [DirectShow], Run method, IMediaControl::Run, IMediaControlRun, Run method [DirectShow], Run method [DirectShow], IMediaControl interface, Run,IMediaControl.Run, control/IMediaControl::Run, dshow.imediacontrol_run
+ms.date: 4/30/2018
+ms.keywords: IMediaControl interface [DirectShow],Run method, IMediaControl.Run, IMediaControl::Run, IMediaControlRun, Run, Run method [DirectShow], Run method [DirectShow],IMediaControl interface, control/IMediaControl::Run, dshow.imediacontrol_run
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaControl::Run method
+# IMediaControl::Run
 
 
 ## -description

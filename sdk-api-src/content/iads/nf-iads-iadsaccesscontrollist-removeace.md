@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsAccessControlList.RemoveAce
-title: IADsAccessControlList::RemoveAce method
+title: IADsAccessControlList::RemoveAce
 author: windows-driver-content
 description: Removes an access-control entry (ACE) from the access-control list (ACL).
 old-location: adsi\iadsaccesscontrollist_removeace.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 29c1ffcc-5a66-4ee3-889a-747953c604a4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsAccessControlList, IADsAccessControlList interface [ADSI], RemoveAce method, IADsAccessControlList::RemoveAce, RemoveAce method [ADSI], RemoveAce method [ADSI], IADsAccessControlList interface, RemoveAce,IADsAccessControlList.RemoveAce, _ds_iadsaccesscontrollist_removeace, adsi.iadsaccesscontrollist__removeace, adsi.iadsaccesscontrollist_removeace, iads/IADsAccessControlList::RemoveAce
+ms.keywords: IADsAccessControlList interface [ADSI],RemoveAce method, IADsAccessControlList.RemoveAce, IADsAccessControlList::RemoveAce, RemoveAce, RemoveAce method [ADSI], RemoveAce method [ADSI],IADsAccessControlList interface, _ds_iadsaccesscontrollist_removeace, adsi.iadsaccesscontrollist__removeace, adsi.iadsaccesscontrollist_removeace, iads/IADsAccessControlList::RemoveAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsAccessControlList::RemoveAce method
+# IADsAccessControlList::RemoveAce
 
 
 ## -description

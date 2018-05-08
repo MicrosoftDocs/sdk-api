@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_DiscountSend
-title: IFaxDoc::put_DiscountSend method
+title: IFaxDoc::put_DiscountSend
 author: windows-driver-content
 description: Sets or retrieves the DiscountSend property for a FaxDoc object. The DiscountSend property is a Boolean value that indicates whether the fax server transmits faxes during the discount period.
 old-location: fax\_mfax_ifaxdoc_get_discountsend_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2usk.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service], FaxDoc object, FaxDoc object [Fax Service], DiscountSend property, IFaxDoc, IFaxDoc::put_DiscountSend, _mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend_vb, put_DiscountSend,IFaxDoc.put_DiscountSend
+ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],DiscountSend property, FaxDoc.DiscountSend, IFaxDoc.put_DiscountSend, IFaxDoc::put_DiscountSend, _mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend_vb, put_DiscountSend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_DiscountSend method
+# IFaxDoc::put_DiscountSend
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mixerocx.IMixerOCX.GetVideoSize
-title: IMixerOCX::GetVideoSize method
+title: IMixerOCX::GetVideoSize
 author: windows-driver-content
 description: The GetVideoSize method retrieves the current size of the video rectangle.
 old-location: dshow\imixerocx_getvideosize.htm
 old-project: DirectShow
 ms.assetid: e4cc71b6-23a5-4610-ac59-06484af6d0b4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetVideoSize method [DirectShow], GetVideoSize method [DirectShow], IMixerOCX interface, GetVideoSize,IMixerOCX.GetVideoSize, IMixerOCX, IMixerOCX interface [DirectShow], GetVideoSize method, IMixerOCX::GetVideoSize, IMixerOCXGetVideoSize, dshow.imixerocx_getvideosize, mixerocx/IMixerOCX::GetVideoSize
+ms.date: 4/30/2018
+ms.keywords: GetVideoSize, GetVideoSize method [DirectShow], GetVideoSize method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],GetVideoSize method, IMixerOCX.GetVideoSize, IMixerOCX::GetVideoSize, IMixerOCXGetVideoSize, dshow.imixerocx_getvideosize, mixerocx/IMixerOCX::GetVideoSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMixerOCX::GetVideoSize method
+# IMixerOCX::GetVideoSize
 
 
 ## -description

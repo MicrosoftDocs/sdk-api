@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetTypeDefProps
-title: IMetaDataImport::GetTypeDefProps method
+title: IMetaDataImport::GetTypeDefProps
 author: windows-driver-content
 description: Returns metadata information for the Type represented by the specified TypeDef token.
 old-location: winrt\imetadataimport_gettypedefprops.htm
 old-project: WinRT
 ms.assetid: 447937af-5edb-4e5e-89a1-13d1a733b3f7
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetTypeDefProps method [Windows Runtime], GetTypeDefProps method [Windows Runtime], IMetaDataImport interface, GetTypeDefProps,IMetaDataImport.GetTypeDefProps, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetTypeDefProps method, IMetaDataImport::GetTypeDefProps, rometadataapi/IMetaDataImport::GetTypeDefProps, winrt.imetadataimport_gettypedefprops
+ms.date: 5/4/2018
+ms.keywords: GetTypeDefProps, GetTypeDefProps method [Windows Runtime], GetTypeDefProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetTypeDefProps method, IMetaDataImport.GetTypeDefProps, IMetaDataImport::GetTypeDefProps, rometadataapi/IMetaDataImport::GetTypeDefProps, winrt.imetadataimport_gettypedefprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetTypeDefProps method
+# IMetaDataImport::GetTypeDefProps
 
 
 ## -description

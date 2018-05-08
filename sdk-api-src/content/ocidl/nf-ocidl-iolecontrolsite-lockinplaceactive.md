@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControlSite.LockInPlaceActive
-title: IOleControlSite::LockInPlaceActive method
+title: IOleControlSite::LockInPlaceActive
 author: windows-driver-content
 description: Indicates whether a control should remain in-place active. Calls to this method typically nest an event to ensure that the object's activation state remains stable throughout the processing of the event.
 old-location: com\iolecontrolsite_lockinplaceactive.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: abd9a6c6-1551-4423-b1d6-f735159f6df4
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleControlSite, IOleControlSite interface [COM], LockInPlaceActive method, IOleControlSite::LockInPlaceActive, LockInPlaceActive method [COM], LockInPlaceActive method [COM], IOleControlSite interface, LockInPlaceActive,IOleControlSite.LockInPlaceActive, _ctrl_iolecontrolsite_lockinplaceactive, com.iolecontrolsite_lockinplaceactive, ocidl/IOleControlSite::LockInPlaceActive
+ms.keywords: IOleControlSite interface [COM],LockInPlaceActive method, IOleControlSite.LockInPlaceActive, IOleControlSite::LockInPlaceActive, LockInPlaceActive, LockInPlaceActive method [COM], LockInPlaceActive method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_lockinplaceactive, com.iolecontrolsite_lockinplaceactive, ocidl/IOleControlSite::LockInPlaceActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleControlSite::LockInPlaceActive method
+# IOleControlSite::LockInPlaceActive
 
 
 ## -description

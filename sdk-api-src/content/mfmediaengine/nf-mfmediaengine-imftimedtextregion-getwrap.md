@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetWrap
-title: IMFTimedTextRegion::GetWrap method
+title: IMFTimedTextRegion::GetWrap
 author: windows-driver-content
 description: Determines whether the word wrap feature is enabled in the region.
 old-location: mf\imftimedtextregion_getwrap.htm
 old-project: medfound
 ms.assetid: 634B686C-A083-4F11-9330-4BD22D93A066
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetWrap method [Media Foundation], GetWrap method [Media Foundation], IMFTimedTextRegion interface, GetWrap,IMFTimedTextRegion.GetWrap, IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], GetWrap method, IMFTimedTextRegion::GetWrap, mf.imftimedtextregion_getwrap, mfmediaengine/IMFTimedTextRegion::GetWrap
+ms.date: 5/3/2018
+ms.keywords: GetWrap, GetWrap method [Media Foundation], GetWrap method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetWrap method, IMFTimedTextRegion.GetWrap, IMFTimedTextRegion::GetWrap, mf.imftimedtextregion_getwrap, mfmediaengine/IMFTimedTextRegion::GetWrap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextRegion::GetWrap method
+# IMFTimedTextRegion::GetWrap
 
 
 ## -description

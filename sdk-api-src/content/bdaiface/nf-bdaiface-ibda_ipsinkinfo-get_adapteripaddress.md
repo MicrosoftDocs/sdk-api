@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_IPSinkInfo.get_AdapterIPAddress
-title: IBDA_IPSinkInfo::get_AdapterIPAddress method
+title: IBDA_IPSinkInfo::get_AdapterIPAddress
 author: windows-driver-content
 description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
 old-location: mstv\ibda_ipsinkinfo_get_adapteripaddress.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3518bad7-d732-4ef7-a8b6-135193eaf9d6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_IPSinkInfo, IBDA_IPSinkInfo interface [Microsoft TV Technologies], get_AdapterIPAddress method, IBDA_IPSinkInfo::get_AdapterIPAddress, IBDA_IPSinkInfoget_AdapterIPAddress, bdaiface/IBDA_IPSinkInfo::get_AdapterIPAddress, get_AdapterIPAddress method [Microsoft TV Technologies], get_AdapterIPAddress method [Microsoft TV Technologies], IBDA_IPSinkInfo interface, get_AdapterIPAddress,IBDA_IPSinkInfo.get_AdapterIPAddress, mstv.ibda_ipsinkinfo_get_adapteripaddress
+ms.keywords: IBDA_IPSinkInfo interface [Microsoft TV Technologies],get_AdapterIPAddress method, IBDA_IPSinkInfo.get_AdapterIPAddress, IBDA_IPSinkInfo::get_AdapterIPAddress, IBDA_IPSinkInfoget_AdapterIPAddress, bdaiface/IBDA_IPSinkInfo::get_AdapterIPAddress, get_AdapterIPAddress, get_AdapterIPAddress method [Microsoft TV Technologies], get_AdapterIPAddress method [Microsoft TV Technologies],IBDA_IPSinkInfo interface, mstv.ibda_ipsinkinfo_get_adapteripaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_IPSinkInfo::get_AdapterIPAddress method
+# IBDA_IPSinkInfo::get_AdapterIPAddress
 
 
 ## -description

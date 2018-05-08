@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetServerDrainMode
-title: ITsSbResourcePluginStore::SetServerDrainMode method
+title: ITsSbResourcePluginStore::SetServerDrainMode
 author: windows-driver-content
 description: Sets the drain mode of the specified server.
 old-location: termserv\itssbresourcepluginstore_setserverdrainmode.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: E0213889-7CC9-446A-9EFF-7C8B02E4A35D
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], SetServerDrainMode method, ITsSbResourcePluginStore::SetServerDrainMode, SetServerDrainMode method [Remote Desktop Services], SetServerDrainMode method [Remote Desktop Services], ITsSbResourcePluginStore interface, SetServerDrainMode,ITsSbResourcePluginStore.SetServerDrainMode, sbtsv/ITsSbResourcePluginStore::SetServerDrainMode, termserv.itssbresourcepluginstore_setserverdrainmode
+ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetServerDrainMode method, ITsSbResourcePluginStore.SetServerDrainMode, ITsSbResourcePluginStore::SetServerDrainMode, SetServerDrainMode, SetServerDrainMode method [Remote Desktop Services], SetServerDrainMode method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetServerDrainMode, termserv.itssbresourcepluginstore_setserverdrainmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::SetServerDrainMode method
+# ITsSbResourcePluginStore::SetServerDrainMode
 
 
 ## -description

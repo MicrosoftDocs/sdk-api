@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Texture2D.Map
-title: ID3D10Texture2D::Map method
+title: ID3D10Texture2D::Map
 author: windows-driver-content
 description: Get a pointer to the data contained in a subresource, and deny GPU access to that subresource.
 old-location: direct3d10\id3d10texture2d_map.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture2d_map.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 2f53ee75-643c-3909-1e4f-aa32b40994c3, ID3D10Texture2D, ID3D10Texture2D interface [Direct3D 10], Map method, ID3D10Texture2D::Map, Map method [Direct3D 10], Map method [Direct3D 10], ID3D10Texture2D interface, Map,ID3D10Texture2D.Map, d3d10/ID3D10Texture2D::Map, direct3d10.id3d10texture2d_map
+ms.keywords: 2f53ee75-643c-3909-1e4f-aa32b40994c3, ID3D10Texture2D interface [Direct3D 10],Map method, ID3D10Texture2D.Map, ID3D10Texture2D::Map, Map, Map method [Direct3D 10], Map method [Direct3D 10],ID3D10Texture2D interface, d3d10/ID3D10Texture2D::Map, direct3d10.id3d10texture2d_map
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Texture2D::Map method
+# ID3D10Texture2D::Map
 
 
 ## -description

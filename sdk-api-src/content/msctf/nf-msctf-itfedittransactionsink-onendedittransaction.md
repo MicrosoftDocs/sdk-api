@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfEditTransactionSink.OnEndEditTransaction
-title: ITfEditTransactionSink::OnEndEditTransaction method
+title: ITfEditTransactionSink::OnEndEditTransaction
 author: windows-driver-content
 description: ITfEditTransactionSink::OnEndEditTransaction method
 old-location: tsf\itfedittransactionsink_onendedittransaction.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 9ca9eac8-f30b-4a52-b851-3ad7a5c4dfb7
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfEditTransactionSink, ITfEditTransactionSink interface [Text Services Framework], OnEndEditTransaction method, ITfEditTransactionSink::OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework], ITfEditTransactionSink interface, OnEndEditTransaction,ITfEditTransactionSink.OnEndEditTransaction, _tsf_itfedittransactionsink_onendedittransaction_ref, msctf/ITfEditTransactionSink::OnEndEditTransaction, tsf.itfedittransactionsink_onendedittransaction
+ms.keywords: ITfEditTransactionSink interface [Text Services Framework],OnEndEditTransaction method, ITfEditTransactionSink.OnEndEditTransaction, ITfEditTransactionSink::OnEndEditTransaction, OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework],ITfEditTransactionSink interface, _tsf_itfedittransactionsink_onendedittransaction_ref, msctf/ITfEditTransactionSink::OnEndEditTransaction, tsf.itfedittransactionsink_onendedittransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfEditTransactionSink::OnEndEditTransaction method
+# ITfEditTransactionSink::OnEndEditTransaction
 
 
 ## -description

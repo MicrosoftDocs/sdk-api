@@ -8,7 +8,7 @@ old-project: win32_tile_badge_notif
 ms.assetid: 9DB90C47-6FFA-44CA-8D33-709DD8CDDA29
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INotificationActivationCallback, INotificationActivationCallback interface, INotificationActivationCallback interface, described, notificationactivationcallback/INotificationActivationCallback, win32_tile_badge_notif.inotificationactivationcallback
+ms.keywords: INotificationActivationCallback, INotificationActivationCallback interface, INotificationActivationCallback interface,described, notificationactivationcallback/INotificationActivationCallback, win32_tile_badge_notif.inotificationactivationcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

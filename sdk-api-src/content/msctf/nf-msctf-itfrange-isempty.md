@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.IsEmpty
-title: ITfRange::IsEmpty method
+title: ITfRange::IsEmpty
 author: windows-driver-content
 description: The ITfRange::IsEmpty method verifies that the range of text is empty because the start and end anchors occupy the same position.
 old-location: tsf\itfrange_isempty.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4cc720c1-acc1-445e-830e-91135fdfeeed
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfRange, ITfRange interface [Text Services Framework], IsEmpty method, ITfRange::IsEmpty, IsEmpty method [Text Services Framework], IsEmpty method [Text Services Framework], ITfRange interface, IsEmpty,ITfRange.IsEmpty, _tsf_itfrange_isempty_ref, msctf/ITfRange::IsEmpty, tsf.itfrange_isempty
+ms.keywords: ITfRange interface [Text Services Framework],IsEmpty method, ITfRange.IsEmpty, ITfRange::IsEmpty, IsEmpty, IsEmpty method [Text Services Framework], IsEmpty method [Text Services Framework],ITfRange interface, _tsf_itfrange_isempty_ref, msctf/ITfRange::IsEmpty, tsf.itfrange_isempty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfRange::IsEmpty method
+# ITfRange::IsEmpty
 
 
 ## -description

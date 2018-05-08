@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx3.SessionFlagUseCredSsp
-title: IWSManEx3::SessionFlagUseCredSsp method
+title: IWSManEx3::SessionFlagUseCredSsp
 author: windows-driver-content
 description: Returns the value of the authentication flag WSManFlagUseCredSsp for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex3_sessionflagusecredssp.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 69c62ad1-319e-4716-a2c7-61b931567244
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManEx3, IWSManEx3 interface [Windows Remote Management], SessionFlagUseCredSsp method, IWSManEx3::SessionFlagUseCredSsp, SessionFlagUseCredSsp method [Windows Remote Management], SessionFlagUseCredSsp method [Windows Remote Management], IWSManEx3 interface, SessionFlagUseCredSsp,IWSManEx3.SessionFlagUseCredSsp, winrm.iwsmanex3_sessionflagusecredssp, wsmandisp/IWSManEx3::SessionFlagUseCredSsp
+ms.keywords: IWSManEx3 interface [Windows Remote Management],SessionFlagUseCredSsp method, IWSManEx3.SessionFlagUseCredSsp, IWSManEx3::SessionFlagUseCredSsp, SessionFlagUseCredSsp, SessionFlagUseCredSsp method [Windows Remote Management], SessionFlagUseCredSsp method [Windows Remote Management],IWSManEx3 interface, winrm.iwsmanex3_sessionflagusecredssp, wsmandisp/IWSManEx3::SessionFlagUseCredSsp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx3::SessionFlagUseCredSsp method
+# IWSManEx3::SessionFlagUseCredSsp
 
 
 ## -description

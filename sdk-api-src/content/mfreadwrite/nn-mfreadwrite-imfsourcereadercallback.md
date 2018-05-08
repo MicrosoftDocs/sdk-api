@@ -7,8 +7,8 @@ old-location: mf\imfsourcereadercallback.htm
 old-project: medfound
 ms.assetid: fff8b6e6-5d56-4301-b3ce-f3ff49398593
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSourceReaderCallback, IMFSourceReaderCallback interface [Media Foundation], IMFSourceReaderCallback interface [Media Foundation], described, mf.imfsourcereadercallback, mfreadwrite/IMFSourceReaderCallback
+ms.date: 5/3/2018
+ms.keywords: IMFSourceReaderCallback, IMFSourceReaderCallback interface [Media Foundation], IMFSourceReaderCallback interface [Media Foundation],described, mf.imfsourcereadercallback, mfreadwrite/IMFSourceReaderCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

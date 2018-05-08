@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetPrimarySamples
-title: IDeviceModelPlugIn::GetPrimarySamples method
+title: IDeviceModelPlugIn::GetPrimarySamples
 author: windows-driver-content
 description: Returns the measurement color for the primary sample.
 old-location: wcs\IDeviceModelPlugIn_GetPrimarySamples.htm
@@ -8,7 +8,7 @@ old-project: WCS
 ms.assetid: 46253246-e07c-4f55-92fa-91941abaefcd
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetPrimarySamples method [Windows Color System], GetPrimarySamples method [Windows Color System], IDeviceModelPlugIn interface, GetPrimarySamples,IDeviceModelPlugIn.GetPrimarySamples, IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], GetPrimarySamples method, IDeviceModelPlugIn::GetPrimarySamples, _color_IDeviceModelPlugIn::GetPrimarySamples, wcs.IDeviceModelPlugIn_GetPrimarySamples, wcsplugin/IDeviceModelPlugIn::GetPrimarySamples
+ms.keywords: GetPrimarySamples, GetPrimarySamples method [Windows Color System], GetPrimarySamples method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetPrimarySamples method, IDeviceModelPlugIn.GetPrimarySamples, IDeviceModelPlugIn::GetPrimarySamples, _color_IDeviceModelPlugIn::GetPrimarySamples, wcs.IDeviceModelPlugIn_GetPrimarySamples, wcsplugin/IDeviceModelPlugIn::GetPrimarySamples
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IDeviceModelPlugIn::GetPrimarySamples method
+# IDeviceModelPlugIn::GetPrimarySamples
 
 
 ## -description

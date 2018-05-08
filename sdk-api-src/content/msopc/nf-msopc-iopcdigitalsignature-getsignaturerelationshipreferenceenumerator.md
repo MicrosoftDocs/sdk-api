@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator
-title: IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator method
+title: IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator
 author: windows-driver-content
 description: Gets an enumerator of IOpcSignatureRelationshipReference interface pointers, which represent references to relationships that have been signed.
 old-location: opc\iopcdigitalsignature_getsignaturerelationshipreferenceenumerator.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: ffb74828-1177-4c3d-8a8c-e40bb0c4cbf0
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignatureRelationshipReferenceEnumerator method [Open Packaging Conventions], GetSignatureRelationshipReferenceEnumerator method [Open Packaging Conventions], IOpcDigitalSignature interface, GetSignatureRelationshipReferenceEnumerator,IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator, IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], GetSignatureRelationshipReferenceEnumerator method, IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator, msopc/IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator, opc.iopcdigitalsignature_getsignaturerelationshipreferenceenumerator
+ms.keywords: GetSignatureRelationshipReferenceEnumerator, GetSignatureRelationshipReferenceEnumerator method [Open Packaging Conventions], GetSignatureRelationshipReferenceEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureRelationshipReferenceEnumerator method, IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator, IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator, msopc/IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator, opc.iopcdigitalsignature_getsignaturerelationshipreferenceenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator method
+# IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator
 
 
 ## -description

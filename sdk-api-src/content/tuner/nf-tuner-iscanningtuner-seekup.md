@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTuner.SeekUp
-title: IScanningTuner::SeekUp method
+title: IScanningTuner::SeekUp
 author: windows-driver-content
 description: The SeekUp method changes the channel to the next higher channel with valid programming.
 old-location: mstv\iscanningtuner_seekup.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 43588b31-cac0-44c4-a282-b5939fed4ce7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IScanningTuner, IScanningTuner interface [Microsoft TV Technologies], SeekUp method, IScanningTuner::SeekUp, IScanningTunerSeekUp, SeekUp method [Microsoft TV Technologies], SeekUp method [Microsoft TV Technologies], IScanningTuner interface, SeekUp,IScanningTuner.SeekUp, mstv.iscanningtuner_seekup, tuner/IScanningTuner::SeekUp
+ms.keywords: IScanningTuner interface [Microsoft TV Technologies],SeekUp method, IScanningTuner.SeekUp, IScanningTuner::SeekUp, IScanningTunerSeekUp, SeekUp, SeekUp method [Microsoft TV Technologies], SeekUp method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_seekup, tuner/IScanningTuner::SeekUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IScanningTuner::SeekUp method
+# IScanningTuner::SeekUp
 
 
 ## -description

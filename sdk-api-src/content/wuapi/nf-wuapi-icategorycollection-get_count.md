@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategoryCollection.get_Count
-title: ICategoryCollection::get_Count method
+title: ICategoryCollection::get_Count
 author: windows-driver-content
 description: Gets the number of elements in the collection.
 old-location: wua\icategorycollection_count.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 4e13069d-c1e2-4826-abab-5e015c4beb33
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent], ICategoryCollection interface, ICategoryCollection, ICategoryCollection interface [Windows Update Agent], Count property, ICategoryCollection.Count, ICategoryCollection::get_Count, get_Count,ICategoryCollection.get_Count, wua.icategorycollection_count, wuapi/ICategoryCollection::Count, wuapi/ICategoryCollection::get_Count
+ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],ICategoryCollection interface, ICategoryCollection interface [Windows Update Agent],Count property, ICategoryCollection.Count, ICategoryCollection.get_Count, ICategoryCollection::Count, ICategoryCollection::get_Count, get_Count, wua.icategorycollection_count, wuapi/ICategoryCollection::Count, wuapi/ICategoryCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ICategoryCollection::get_Count method
+# ICategoryCollection::get_Count
 
 
 ## -description

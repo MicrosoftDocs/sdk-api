@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtensionNotify.OnSourceOpen
-title: IMFMediaSourceExtensionNotify::OnSourceOpen method
+title: IMFMediaSourceExtensionNotify::OnSourceOpen
 author: windows-driver-content
 description: Used to indicate that the media source has opened.
 old-location: mf\imfmediasourceextensionnotify_onsourceopen.htm
 old-project: medfound
 ms.assetid: 45120acf-48e1-4b4a-af50-f6052acdb533
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaSourceExtensionNotify, IMFMediaSourceExtensionNotify interface [Media Foundation], OnSourceOpen method, IMFMediaSourceExtensionNotify::OnSourceOpen, OnSourceOpen method [Media Foundation], OnSourceOpen method [Media Foundation], IMFMediaSourceExtensionNotify interface, OnSourceOpen,IMFMediaSourceExtensionNotify.OnSourceOpen, mf.imfmediasourceextensionnotify_onsourceopen, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceOpen
+ms.date: 5/3/2018
+ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceOpen method, IMFMediaSourceExtensionNotify.OnSourceOpen, IMFMediaSourceExtensionNotify::OnSourceOpen, OnSourceOpen, OnSourceOpen method [Media Foundation], OnSourceOpen method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceopen, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSourceExtensionNotify::OnSourceOpen method
+# IMFMediaSourceExtensionNotify::OnSourceOpen
 
 
 ## -description

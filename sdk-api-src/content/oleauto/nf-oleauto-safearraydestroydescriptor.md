@@ -7,7 +7,7 @@ old-location: automat\safearraydestroydescriptor.htm
 old-project: automat
 ms.assetid: f1e8de45-673b-4f20-a639-18c724c82df1
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: SafeArrayDestroyDescriptor, SafeArrayDestroyDescriptor function [Automation], _oa96_SafeArrayDestroyDescriptor, automat.safearraydestroydescriptor, oleauto/SafeArrayDestroyDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPreferenceScope
-title: IOfflineFilesSetting::GetPreferenceScope method
+title: IOfflineFilesSetting::GetPreferenceScope
 author: windows-driver-content
 description: Indicates the scope of the preference associated with this setting.
 old-location: of\iofflinefilessetting_getpreferencescope.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 618a83b7-a86d-4356-8312-7aba8923e8a4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetPreferenceScope method [Offline Files], GetPreferenceScope method [Offline Files], IOfflineFilesSetting interface, GetPreferenceScope,IOfflineFilesSetting.GetPreferenceScope, IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], GetPreferenceScope method, IOfflineFilesSetting::GetPreferenceScope, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreferenceScope, of.iofflinefilessetting_getpreferencescope
+ms.keywords: GetPreferenceScope, GetPreferenceScope method [Offline Files], GetPreferenceScope method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPreferenceScope method, IOfflineFilesSetting.GetPreferenceScope, IOfflineFilesSetting::GetPreferenceScope, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreferenceScope, of.iofflinefilessetting_getpreferencescope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSetting::GetPreferenceScope method
+# IOfflineFilesSetting::GetPreferenceScope
 
 
 ## -description

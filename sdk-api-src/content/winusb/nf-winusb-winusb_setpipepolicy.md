@@ -7,7 +7,7 @@ old-location: buses\winusb_setpipepolicy.htm
 old-project: usbref
 ms.assetid: 34bd7798-4c5f-48c9-bcd1-1492693b0639
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/3/2018
 ms.keywords: WinUsb_SetPipePolicy, WinUsb_SetPipePolicy function [Buses], buses.winusb_setpipepolicy, winusb/WinUsb_SetPipePolicy, winusbfunc_8a973602-4564-42df-9adf-b7ea6a0339e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

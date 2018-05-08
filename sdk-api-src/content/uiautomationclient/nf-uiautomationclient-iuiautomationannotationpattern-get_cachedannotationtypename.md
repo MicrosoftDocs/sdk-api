@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CachedAnnotationTypeName
-title: IUIAutomationAnnotationPattern::get_CachedAnnotationTypeName method
+title: IUIAutomationAnnotationPattern::get_CachedAnnotationTypeName
 author: windows-driver-content
 description: Retrieves the cached localized name of this annotation's type.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedAnnotationTypeName.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: C3F7F20A-DBDD-4CB9-87CB-6765FDD238CB
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedAnnotationTypeName property [Windows Accessibility], CachedAnnotationTypeName property [Windows Accessibility], IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern, IUIAutomationAnnotationPattern interface [Windows Accessibility], CachedAnnotationTypeName property, IUIAutomationAnnotationPattern.CachedAnnotationTypeName, IUIAutomationAnnotationPattern::get_CachedAnnotationTypeName, get_CachedAnnotationTypeName,IUIAutomationAnnotationPattern.get_CachedAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::CachedAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedAnnotationTypeName, winauto.uiauto_IUIAutomationAnnotationPattern_CachedAnnotationTypeName
+ms.keywords: CachedAnnotationTypeName property [Windows Accessibility], CachedAnnotationTypeName property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CachedAnnotationTypeName property, IUIAutomationAnnotationPattern.CachedAnnotationTypeName, IUIAutomationAnnotationPattern.get_CachedAnnotationTypeName, IUIAutomationAnnotationPattern::CachedAnnotationTypeName, IUIAutomationAnnotationPattern::get_CachedAnnotationTypeName, get_CachedAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::CachedAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedAnnotationTypeName, winauto.uiauto_IUIAutomationAnnotationPattern_CachedAnnotationTypeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationAnnotationPattern::get_CachedAnnotationTypeName method
+# IUIAutomationAnnotationPattern::get_CachedAnnotationTypeName
 
 
 ## -description

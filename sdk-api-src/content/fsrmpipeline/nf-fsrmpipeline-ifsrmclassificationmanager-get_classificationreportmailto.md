@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.get_ClassificationReportMailTo
-title: IFsrmClassificationManager::get_ClassificationReportMailTo method
+title: IFsrmClassificationManager::get_ClassificationReportMailTo
 author: windows-driver-content
 description: The email address to which to send the classification reports, if any.
 old-location: fsrm\ifsrmclassificationmanager_classificationreportmailto.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: fa998edc-7ef8-43fa-a83a-7e4ba911e970
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ClassificationReportMailTo property [File Server Resource Manager], ClassificationReportMailTo property [File Server Resource Manager], FsrmClassificationManager class, ClassificationReportMailTo property [File Server Resource Manager], IFsrmClassificationManager interface, ClassificationReportMailTo property [File Server Resource Manager], IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager], ClassificationReportMailTo property, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], ClassificationReportMailTo property, IFsrmClassificationManager.ClassificationReportMailTo, IFsrmClassificationManager2 interface [File Server Resource Manager], ClassificationReportMailTo property, IFsrmClassificationManager2.ClassificationReportMailTo, IFsrmClassificationManager2::get_ClassificationReportMailTo, IFsrmClassificationManager2::put_ClassificationReportMailTo, IFsrmClassificationManager::get_ClassificationReportMailTo, IFsrmClassificationManager::put_ClassificationReportMailTo, fs.ifsrmclassificationmanager_classificationreportmailto, fsrm.ifsrmclassificationmanager_classificationreportmailto, fsrmpipeline/IFsrmClassificationManager2::ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager2::put_ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager::ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager::put_ClassificationReportMailTo, get_ClassificationReportMailTo,IFsrmClassificationManager.get_ClassificationReportMailTo
+ms.keywords: ClassificationReportMailTo property [File Server Resource Manager], ClassificationReportMailTo property [File Server Resource Manager],FsrmClassificationManager class, ClassificationReportMailTo property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationReportMailTo property [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassificationReportMailTo property, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationReportMailTo property, IFsrmClassificationManager.ClassificationReportMailTo, IFsrmClassificationManager.get_ClassificationReportMailTo, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationReportMailTo property, IFsrmClassificationManager2.ClassificationReportMailTo, IFsrmClassificationManager2::get_ClassificationReportMailTo, IFsrmClassificationManager2::put_ClassificationReportMailTo, IFsrmClassificationManager::ClassificationReportMailTo, IFsrmClassificationManager::get_ClassificationReportMailTo, IFsrmClassificationManager::put_ClassificationReportMailTo, fs.ifsrmclassificationmanager_classificationreportmailto, fsrm.ifsrmclassificationmanager_classificationreportmailto, fsrmpipeline/IFsrmClassificationManager2::ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager2::put_ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager::ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager::put_ClassificationReportMailTo, get_ClassificationReportMailTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassificationManager::get_ClassificationReportMailTo method
+# IFsrmClassificationManager::get_ClassificationReportMailTo
 
 
 ## -description

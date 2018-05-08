@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawGammaControl.SetGammaRamp
-title: IDirectDrawGammaControl::SetGammaRamp method
+title: IDirectDrawGammaControl::SetGammaRamp
 author: windows-driver-content
 description: Sets the red, green, and blue gamma ramps for the primary surface.
 old-location: directdraw\idirectdrawgammacontrol_setgammaramp.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 3bde7ba7-8498-42e5-bd5a-625e162fc1db
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawGammaControl, IDirectDrawGammaControl interface [DirectDraw], SetGammaRamp method, IDirectDrawGammaControl::SetGammaRamp, SetGammaRamp method [DirectDraw], SetGammaRamp method [DirectDraw], IDirectDrawGammaControl interface, SetGammaRamp,IDirectDrawGammaControl.SetGammaRamp, ddraw/IDirectDrawGammaControl::SetGammaRamp, directdraw.idirectdrawgammacontrol_setgammaramp
+ms.keywords: IDirectDrawGammaControl interface [DirectDraw],SetGammaRamp method, IDirectDrawGammaControl.SetGammaRamp, IDirectDrawGammaControl::SetGammaRamp, SetGammaRamp, SetGammaRamp method [DirectDraw], SetGammaRamp method [DirectDraw],IDirectDrawGammaControl interface, ddraw/IDirectDrawGammaControl::SetGammaRamp, directdraw.idirectdrawgammacontrol_setgammaramp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawGammaControl::SetGammaRamp method
+# IDirectDrawGammaControl::SetGammaRamp
 
 
 ## -description

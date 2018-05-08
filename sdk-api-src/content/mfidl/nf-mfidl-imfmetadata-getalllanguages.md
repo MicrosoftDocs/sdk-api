@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMetadata.GetAllLanguages
-title: IMFMetadata::GetAllLanguages method
+title: IMFMetadata::GetAllLanguages
 author: windows-driver-content
 description: Gets a list of the languages in which metadata is available.
 old-location: mf\imfmetadata_getalllanguages.htm
 old-project: medfound
 ms.assetid: 69296ec5-5811-4f0f-ae9c-cabca3e66158
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 69296ec5-5811-4f0f-ae9c-cabca3e66158, GetAllLanguages method [Media Foundation], GetAllLanguages method [Media Foundation], IMFMetadata interface, GetAllLanguages,IMFMetadata.GetAllLanguages, IMFMetadata, IMFMetadata interface [Media Foundation], GetAllLanguages method, IMFMetadata::GetAllLanguages, mf.imfmetadata_getalllanguages, mfidl/IMFMetadata::GetAllLanguages
+ms.date: 5/3/2018
+ms.keywords: 69296ec5-5811-4f0f-ae9c-cabca3e66158, GetAllLanguages, GetAllLanguages method [Media Foundation], GetAllLanguages method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetAllLanguages method, IMFMetadata.GetAllLanguages, IMFMetadata::GetAllLanguages, mf.imfmetadata_getalllanguages, mfidl/IMFMetadata::GetAllLanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMetadata::GetAllLanguages method
+# IMFMetadata::GetAllLanguages
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSSetSamplers
-title: ID3D11DeviceContext::HSSetSamplers method
+title: ID3D11DeviceContext::HSSetSamplers
 author: windows-driver-content
 description: Set an array of sampler states to the hull-shader stage.
 old-location: direct3d11\id3d11devicecontext_hssetsamplers.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: f573f65b-abd4-4ddd-9471-032c2c5552d7
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: HSSetSamplers method [Direct3D 11], HSSetSamplers method [Direct3D 11], ID3D11DeviceContext interface, HSSetSamplers,ID3D11DeviceContext.HSSetSamplers, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], HSSetSamplers method, ID3D11DeviceContext::HSSetSamplers, d3d11/ID3D11DeviceContext::HSSetSamplers, dc00dc72-4c31-569c-34d1-1720b5e61cfe, direct3d11.id3d11devicecontext_hssetsamplers
+ms.keywords: HSSetSamplers, HSSetSamplers method [Direct3D 11], HSSetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSSetSamplers method, ID3D11DeviceContext.HSSetSamplers, ID3D11DeviceContext::HSSetSamplers, d3d11/ID3D11DeviceContext::HSSetSamplers, dc00dc72-4c31-569c-34d1-1720b5e61cfe, direct3d11.id3d11devicecontext_hssetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::HSSetSamplers method
+# ID3D11DeviceContext::HSSetSamplers
 
 
 ## -description

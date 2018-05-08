@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Title
-title: IAMMediaContent::get_Title method
+title: IAMMediaContent::get_Title
 author: windows-driver-content
 description: The get_Title method retrieves the title.
 old-location: dshow\iammediacontent_get_title.htm
 old-project: DirectShow
 ms.assetid: 60543438-9547-44fe-8468-baee03d6ebc9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_Title method, IAMMediaContent::get_Title, IAMMediaContentget_Title, dshow.iammediacontent_get_title, get_Title method [DirectShow], get_Title method [DirectShow], IAMMediaContent interface, get_Title,IAMMediaContent.get_Title, qnetwork/IAMMediaContent::get_Title
+ms.date: 4/30/2018
+ms.keywords: IAMMediaContent interface [DirectShow],get_Title method, IAMMediaContent.get_Title, IAMMediaContent::get_Title, IAMMediaContentget_Title, dshow.iammediacontent_get_title, get_Title, get_Title method [DirectShow], get_Title method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Title
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMMediaContent::get_Title method
+# IAMMediaContent::get_Title
 
 
 ## -description

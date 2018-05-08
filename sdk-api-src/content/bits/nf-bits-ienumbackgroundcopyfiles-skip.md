@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.Skip
-title: IEnumBackgroundCopyFiles::Skip method
+title: IEnumBackgroundCopyFiles::Skip
 author: windows-driver-content
 description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 old-location: bits\ienumbackgroundcopyfiles_skip.htm
 old-project: Bits
 ms.assetid: 41488586-cb91-4b87-b11d-2808bc162d42
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEnumBackgroundCopyFiles, IEnumBackgroundCopyFiles interface [BITS], Skip method, IEnumBackgroundCopyFiles::Skip, Skip method [BITS], Skip method [BITS], IEnumBackgroundCopyFiles interface, Skip,IEnumBackgroundCopyFiles.Skip, _drz_ienumbackgroundcopyfiles_skip, bits.ienumbackgroundcopyfiles_skip, bits/IEnumBackgroundCopyFiles::Skip
+ms.date: 4/27/2018
+ms.keywords: IEnumBackgroundCopyFiles interface [BITS],Skip method, IEnumBackgroundCopyFiles.Skip, IEnumBackgroundCopyFiles::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBackgroundCopyFiles interface, _drz_ienumbackgroundcopyfiles_skip, bits.ienumbackgroundcopyfiles_skip, bits/IEnumBackgroundCopyFiles::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IEnumBackgroundCopyFiles::Skip method
+# IEnumBackgroundCopyFiles::Skip
 
 
 ## -description

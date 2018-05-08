@@ -1,6 +1,6 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop2.RequestAccessForAppWithAuditingInfoForWindowAsync
-title: IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync method
+title: IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync
 author: windows-driver-content
 description: Request access to enterprise-protected content for a specific target app.
 old-location: edp\iprotectionpolicymanagerinterop2_requestaccessforappwithauditinginfoforwindowasync.htm
@@ -8,7 +8,7 @@ old-project: EDP
 ms.assetid: 91DEC69B-066E-427F-9C25-47B15EAD0D89
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccessforappwithauditinginfoforwindowasync, IProtectionPolicyManagerInterop2, IProtectionPolicyManagerInterop2 interface, RequestAccessForAppWithAuditingInfoForWindowAsync method, IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync, RequestAccessForAppWithAuditingInfoForWindowAsync method, RequestAccessForAppWithAuditingInfoForWindowAsync method, IProtectionPolicyManagerInterop2 interface, RequestAccessForAppWithAuditingInfoForWindowAsync,IProtectionPolicyManagerInterop2.RequestAccessForAppWithAuditingInfoForWindowAsync, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync
+ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccessforappwithauditinginfoforwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessForAppWithAuditingInfoForWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessForAppWithAuditingInfoForWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync, RequestAccessForAppWithAuditingInfoForWindowAsync, RequestAccessForAppWithAuditingInfoForWindowAsync method, RequestAccessForAppWithAuditingInfoForWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync method
+# IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync
 
 
 ## -description

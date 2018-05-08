@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetFillBrushLocal
-title: IXpsOMPath::SetFillBrushLocal method
+title: IXpsOMPath::SetFillBrushLocal
 author: windows-driver-content
 description: Sets the pointer to the local, unshared IXpsOMBrush interface to be used as the fill brush.
 old-location: xps\ixpsompath_setfillbrushlocal.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: ddec7d68-16a5-4c34-87c1-6a5de97aaa0c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], SetFillBrushLocal method, IXpsOMPath::SetFillBrushLocal, SetFillBrushLocal method [XPS Documents and Packaging], SetFillBrushLocal method [XPS Documents and Packaging], IXpsOMPath interface, SetFillBrushLocal,IXpsOMPath.SetFillBrushLocal, xps.ixpsompath_setfillbrushlocal, xpsobjectmodel/IXpsOMPath::SetFillBrushLocal
+ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetFillBrushLocal method, IXpsOMPath.SetFillBrushLocal, IXpsOMPath::SetFillBrushLocal, SetFillBrushLocal, SetFillBrushLocal method [XPS Documents and Packaging], SetFillBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setfillbrushlocal, xpsobjectmodel/IXpsOMPath::SetFillBrushLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::SetFillBrushLocal method
+# IXpsOMPath::SetFillBrushLocal
 
 
 ## -description

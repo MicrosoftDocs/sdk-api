@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetErrorRetryCount
-title: IScheduledWorkItem::GetErrorRetryCount method
+title: IScheduledWorkItem::GetErrorRetryCount
 author: windows-driver-content
 description: Retrieves the number of times that the Task Scheduler will retry an operation when an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_geterrorretrycount.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: f9935325-124b-4c21-be9c-e9d48fb69791
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetErrorRetryCount method [Task Scheduler], GetErrorRetryCount method [Task Scheduler], IScheduledWorkItem interface, GetErrorRetryCount,IScheduledWorkItem.GetErrorRetryCount, IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], GetErrorRetryCount method, IScheduledWorkItem::GetErrorRetryCount, _msb_ischeduledworkitem_geterrorretrycount, mstask/IScheduledWorkItem::GetErrorRetryCount, taskschd.ischeduledworkitem_geterrorretrycount
+ms.keywords: GetErrorRetryCount, GetErrorRetryCount method [Task Scheduler], GetErrorRetryCount method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetErrorRetryCount method, IScheduledWorkItem.GetErrorRetryCount, IScheduledWorkItem::GetErrorRetryCount, _msb_ischeduledworkitem_geterrorretrycount, mstask/IScheduledWorkItem::GetErrorRetryCount, taskschd.ischeduledworkitem_geterrorretrycount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::GetErrorRetryCount method
+# IScheduledWorkItem::GetErrorRetryCount
 
 
 ## -description

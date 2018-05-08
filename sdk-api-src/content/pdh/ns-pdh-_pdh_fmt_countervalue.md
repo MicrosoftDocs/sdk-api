@@ -66,29 +66,29 @@ Counter status that indicates if the counter value is valid. Check this member b
 <a href="https://msdn.microsoft.com/00ea5521-bc28-4a87-aba9-46c911631503">Checking PDH Interface Return Values</a>.
 
 
-#### - AnsiStringValue
+### -field longValue
 
-The computed counter value as a <b>LPCSTR</b>. Not supported.
-
-
-#### - WideStringValue
-
-The computed counter value as a <b>LPCWSTR</b>. Not supported.
+The computed counter value as a <b>LONG</b>.
 
 
-#### - doubleValue
+### -field doubleValue
 
 The computed counter value as a <b>DOUBLE</b>.
 
 
-#### - largeValue
+### -field largeValue
 
 The computed counter value as a <b>LONGLONG</b>.
 
 
-#### - longValue
+### -field AnsiStringValue
 
-The computed counter value as a <b>LONG</b>.
+The computed counter value as a <b>LPCSTR</b>. Not supported.
+
+
+### -field WideStringValue
+
+The computed counter value as a <b>LPCWSTR</b>. Not supported.
 
 
 ## -remarks

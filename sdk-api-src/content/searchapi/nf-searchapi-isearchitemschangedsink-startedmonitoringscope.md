@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchItemsChangedSink.StartedMonitoringScope
-title: ISearchItemsChangedSink::StartedMonitoringScope method
+title: ISearchItemsChangedSink::StartedMonitoringScope
 author: windows-driver-content
 description: Permits an index-managed notification source to add itself to a list of &#0034;monitored scopes&#0034;.
 old-location: search\_search_ISearchItemsChangedSink_StartedMonitoringScope.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\startedmonitoringscope.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchItemsChangedSink, ISearchItemsChangedSink interface [search], StartedMonitoringScope method, ISearchItemsChangedSink::StartedMonitoringScope, StartedMonitoringScope method [search], StartedMonitoringScope method [search], ISearchItemsChangedSink interface, StartedMonitoringScope,ISearchItemsChangedSink.StartedMonitoringScope, _search_ISearchItemsChangedSink_StartedMonitoringScope, search._search_ISearchItemsChangedSink_StartedMonitoringScope, searchapi/ISearchItemsChangedSink::StartedMonitoringScope
+ms.date: 5/4/2018
+ms.keywords: ISearchItemsChangedSink interface [search],StartedMonitoringScope method, ISearchItemsChangedSink.StartedMonitoringScope, ISearchItemsChangedSink::StartedMonitoringScope, StartedMonitoringScope, StartedMonitoringScope method [search], StartedMonitoringScope method [search],ISearchItemsChangedSink interface, _search_ISearchItemsChangedSink_StartedMonitoringScope, search._search_ISearchItemsChangedSink_StartedMonitoringScope, searchapi/ISearchItemsChangedSink::StartedMonitoringScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchItemsChangedSink::StartedMonitoringScope method
+# ISearchItemsChangedSink::StartedMonitoringScope
 
 
 ## -description

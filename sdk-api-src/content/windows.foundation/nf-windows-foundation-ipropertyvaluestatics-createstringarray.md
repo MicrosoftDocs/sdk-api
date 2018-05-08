@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateStringArray
-title: IPropertyValueStatics::CreateStringArray method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified array of string values.
 old-location: winrt\ipropertyvaluestatics_createstringarray.htm
 old-project: WinRT
 ms.assetid: b9741a88-4585-4eda-b21d-5af0e541ef48
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateStringArray method [Windows Runtime], CreateStringArray method [Windows Runtime], IPropertyValueStatics interface, CreateStringArray,IPropertyValueStatics.CreateStringArray, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateStringArray method, IPropertyValueStatics::CreateStringArray, windows/IPropertyValueStatics::CreateStringArray, winrt.ipropertyvaluefactory_createstringarray, winrt.ipropertyvaluestatics_createstringarray
+ms.date: 5/4/2018
+ms.keywords: CreateStringArray, CreateStringArray method [Windows Runtime], CreateStringArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateStringArray method, IPropertyValueStatics.CreateStringArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateStringArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateStringArray, winrt.ipropertyvaluefactory_createstringarray, winrt.ipropertyvaluestatics_createstringarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateStringArray method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

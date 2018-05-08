@@ -7,8 +7,8 @@ old-location: dshow\idirectdrawstreamsample.htm
 old-project: DirectShow
 ms.assetid: afc8ac84-4629-4c5d-b4b2-59c1eb1af35d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDirectDrawStreamSample, IDirectDrawStreamSample interface [DirectShow], IDirectDrawStreamSample interface [DirectShow], described, IDirectDrawStreamSampleInterface, ddstream/IDirectDrawStreamSample, dshow.idirectdrawstreamsample
+ms.date: 4/30/2018
+ms.keywords: IDirectDrawStreamSample, IDirectDrawStreamSample interface [DirectShow], IDirectDrawStreamSample interface [DirectShow],described, IDirectDrawStreamSampleInterface, ddstream/IDirectDrawStreamSample, dshow.idirectdrawstreamsample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

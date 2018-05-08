@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.enumContainersWStr
-title: IEnroll::enumContainersWStr method
+title: IEnroll::enumContainersWStr
 author: windows-driver-content
 description: Retrieves the names of containers for the cryptographic service provider (CSP) specified by the ProviderNameWStr property.
 old-location: security\ienroll4_enumcontainerswstr.htm
 old-project: SecCrypto
 ms.assetid: a08d97c9-8ee9-464e-862e-18c335695927
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], enumContainersWStr method, IEnroll::enumContainersWStr, enumContainersWStr method [Security], enumContainersWStr method [Security], IEnroll interface, enumContainersWStr,IEnroll.enumContainersWStr, security.ienroll4_enumcontainerswstr, xenroll/IEnroll::enumContainersWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],enumContainersWStr method, IEnroll.enumContainersWStr, IEnroll::enumContainersWStr, enumContainersWStr, enumContainersWStr method [Security], enumContainersWStr method [Security],IEnroll interface, security.ienroll4_enumcontainerswstr, xenroll/IEnroll::enumContainersWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::enumContainersWStr method
+# IEnroll::enumContainersWStr
 
 
 ## -description

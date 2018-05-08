@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceVisibilityChanged
-title: ITextInputPanelEventSink::InPlaceVisibilityChanged method
+title: ITextInputPanelEventSink::InPlaceVisibilityChanged
 author: windows-driver-content
 description: Occurs when the Tablet PC Input Panel has switched between visible and invisible.
 old-location: tablet\itextinputpaneleventsink_inplacevisibilitychanged.htm
 old-project: tablet
 ms.assetid: 7ec8acd4-fbb9-4801-880b-fe0d5d3fa3c2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 7ec8acd4-fbb9-4801-880b-fe0d5d3fa3c2, ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], InPlaceVisibilityChanged method, ITextInputPanelEventSink::InPlaceVisibilityChanged, InPlaceVisibilityChanged method [Tablet PC], InPlaceVisibilityChanged method [Tablet PC], ITextInputPanelEventSink interface, InPlaceVisibilityChanged,ITextInputPanelEventSink.InPlaceVisibilityChanged, peninputpanel/ITextInputPanelEventSink::InPlaceVisibilityChanged, tablet.itextinputpaneleventsink_inplacevisibilitychanged
+ms.date: 5/2/2018
+ms.keywords: 7ec8acd4-fbb9-4801-880b-fe0d5d3fa3c2, ITextInputPanelEventSink interface [Tablet PC],InPlaceVisibilityChanged method, ITextInputPanelEventSink.InPlaceVisibilityChanged, ITextInputPanelEventSink::InPlaceVisibilityChanged, InPlaceVisibilityChanged, InPlaceVisibilityChanged method [Tablet PC], InPlaceVisibilityChanged method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::InPlaceVisibilityChanged, tablet.itextinputpaneleventsink_inplacevisibilitychanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanelEventSink::InPlaceVisibilityChanged method
+# ITextInputPanelEventSink::InPlaceVisibilityChanged
 
 
 ## -description

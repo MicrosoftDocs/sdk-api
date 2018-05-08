@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSample.GetPointer
-title: IMediaSample::GetPointer method
+title: IMediaSample::GetPointer
 author: windows-driver-content
 description: The GetPointer method retrieves a read/write pointer to the media sample's buffer.
 old-location: dshow\imediasample_getpointer.htm
 old-project: DirectShow
 ms.assetid: a3c69dfb-6ee4-401b-8dcb-4e42a8cd8156
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPointer method [DirectShow], GetPointer method [DirectShow], IMediaSample interface, GetPointer,IMediaSample.GetPointer, IMediaSample, IMediaSample interface [DirectShow], GetPointer method, IMediaSample::GetPointer, IMediaSampleGetPointer, dshow.imediasample_getpointer, strmif/IMediaSample::GetPointer
+ms.date: 4/30/2018
+ms.keywords: GetPointer, GetPointer method [DirectShow], GetPointer method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetPointer method, IMediaSample.GetPointer, IMediaSample::GetPointer, IMediaSampleGetPointer, dshow.imediasample_getpointer, strmif/IMediaSample::GetPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSample::GetPointer method
+# IMediaSample::GetPointer
 
 
 ## -description

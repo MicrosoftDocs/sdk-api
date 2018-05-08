@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_LogoIconURL
-title: IAMMediaContent::get_LogoIconURL method
+title: IAMMediaContent::get_LogoIconURL
 author: windows-driver-content
 description: The get_LogoIconURL method retrieves a URL for the logo icon.
 old-location: dshow\iammediacontent_get_logoiconurl.htm
 old-project: DirectShow
 ms.assetid: 249f06ad-1571-4259-aaae-d0bc8208b9e5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_LogoIconURL method, IAMMediaContent::get_LogoIconURL, IAMMediaContentget_LogoIconURL, dshow.iammediacontent_get_logoiconurl, get_LogoIconURL method [DirectShow], get_LogoIconURL method [DirectShow], IAMMediaContent interface, get_LogoIconURL,IAMMediaContent.get_LogoIconURL, qnetwork/IAMMediaContent::get_LogoIconURL
+ms.date: 4/30/2018
+ms.keywords: IAMMediaContent interface [DirectShow],get_LogoIconURL method, IAMMediaContent.get_LogoIconURL, IAMMediaContent::get_LogoIconURL, IAMMediaContentget_LogoIconURL, dshow.iammediacontent_get_logoiconurl, get_LogoIconURL, get_LogoIconURL method [DirectShow], get_LogoIconURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_LogoIconURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMMediaContent::get_LogoIconURL method
+# IAMMediaContent::get_LogoIconURL
 
 
 ## -description

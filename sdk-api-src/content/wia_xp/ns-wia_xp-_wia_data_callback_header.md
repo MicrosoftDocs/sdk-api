@@ -7,7 +7,7 @@ old-location: wia\_wia_WIA_DATA_CALLBACK_HEADER.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_data_callback_header.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/3/2018
 ms.keywords: "*PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER structure pointer [WIA], WIA_DATA_CALLBACK_HEADER, WIA_DATA_CALLBACK_HEADER structure [WIA], _WIA_DATA_CALLBACK_HEADER, _wia_WIA_DATA_CALLBACK_HEADER, wia._wia_WIA_DATA_CALLBACK_HEADER, wia_xp/PWIA_DATA_CALLBACK_HEADER, wia_xp/WIA_DATA_CALLBACK_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

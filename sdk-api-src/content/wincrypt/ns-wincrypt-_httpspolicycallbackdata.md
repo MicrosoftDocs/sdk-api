@@ -7,7 +7,7 @@ old-location: security\ssl_extra_cert_chain_policy_para.htm
 old-project: SecCrypto
 ms.assetid: 3422693a-3fad-4ed8-9fab-d9a185476123
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PHTTPSPolicyCallbackData, *PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHTYPE_CLIENT, AUTHTYPE_SERVER, HTTPSPolicyCallbackData, HTTPSPolicyCallbackData structure [Security], PHTTPSPolicyCallbackData, PHTTPSPolicyCallbackData structure pointer [Security], PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, PSSL_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], SECURITY_FLAG_IGNORE_CERT_CN_INVALID, SECURITY_FLAG_IGNORE_CERT_DATE_INVALID, SECURITY_FLAG_IGNORE_REVOCATION, SECURITY_FLAG_IGNORE_UNKNOWN_CA, SECURITY_FLAG_IGNORE_WRONG_USAGE, SSL_EXTRA_CERT_CHAIN_POLICY_PARA, SSL_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], _HTTPSPolicyCallbackData, security.ssl_extra_cert_chain_policy_para, wincrypt/PHTTPSPolicyCallbackData, wincrypt/PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/SSL_EXTRA_CERT_CHAIN_POLICY_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,6 +61,16 @@ The <b>SSL_EXTRA_CERT_CHAIN_POLICY_PARA</b> structure, also identified by the na
 ### -field DUMMYUNIONNAME
 
  
+
+
+### -field DUMMYUNIONNAME.cbStruct
+
+<b>DWORD</b> value that specifies the number of bytes in this structure.
+
+
+### -field DUMMYUNIONNAME.cbSize
+
+<b>DWORD</b> value that specifies the size, in bytes,  of this structure.
 
 
 ### -field dwAuthType
@@ -173,14 +183,4 @@ A pointer to a null-terminated wide character string that contains the server na
 If the string is Punycode encoded, then the server name from the certificate, either the DNS name or common name, is converted to a Punycode encoded string. Matching is then performed, label-by-label if the name contains wildcards, or a case-insensitive exact match otherwise. 
 
 If the string contains Unicode characters outside of the ASCII character set and the subject name, either the DNS name or common name, is a Punycode encoded string then it is Punycode encoded before comparison.
-
-
-#### - cbSize
-
-<b>DWORD</b> value that specifies the size, in bytes,  of this structure.
-
-
-#### - cbStruct
-
-<b>DWORD</b> value that specifies the number of bytes in this structure.
 

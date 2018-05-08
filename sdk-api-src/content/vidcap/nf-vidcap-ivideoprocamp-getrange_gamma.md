@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Gamma
-title: IVideoProcAmp::getRange_Gamma method
+title: IVideoProcAmp::getRange_Gamma
 author: windows-driver-content
 description: The getRange_Gamma method returns the range of gamma settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_gamma.htm
 old-project: DirectShow
 ms.assetid: 36914aed-d11c-42c0-a0e5-ba1d3ba6dd22
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_Gamma method, IVideoProcAmp::getRange_Gamma, IVideoProcAmpgetRange_Gamma, dshow.ivideoprocamp_getrange_gamma, getRange_Gamma method [DirectShow], getRange_Gamma method [DirectShow], IVideoProcAmp interface, getRange_Gamma,IVideoProcAmp.getRange_Gamma, vidcap/IVideoProcAmp::getRange_Gamma
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Gamma method, IVideoProcAmp.getRange_Gamma, IVideoProcAmp::getRange_Gamma, IVideoProcAmpgetRange_Gamma, dshow.ivideoprocamp_getrange_gamma, getRange_Gamma, getRange_Gamma method [DirectShow], getRange_Gamma method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Gamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::getRange_Gamma method
+# IVideoProcAmp::getRange_Gamma
 
 
 ## -description

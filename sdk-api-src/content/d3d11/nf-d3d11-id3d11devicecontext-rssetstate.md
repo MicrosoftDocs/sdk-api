@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.RSSetState
-title: ID3D11DeviceContext::RSSetState method
+title: ID3D11DeviceContext::RSSetState
 author: windows-driver-content
 description: Set the rasterizer state for the rasterizer stage of the pipeline.
 old-location: direct3d11\id3d11devicecontext_rssetstate.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: aa76cd3f-5d08-48e7-bd38-ff4d7119eae3
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 6a517464-81db-3af7-335a-c1eefddd9385, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], RSSetState method, ID3D11DeviceContext::RSSetState, RSSetState method [Direct3D 11], RSSetState method [Direct3D 11], ID3D11DeviceContext interface, RSSetState,ID3D11DeviceContext.RSSetState, d3d11/ID3D11DeviceContext::RSSetState, direct3d11.id3d11devicecontext_rssetstate
+ms.keywords: 6a517464-81db-3af7-335a-c1eefddd9385, ID3D11DeviceContext interface [Direct3D 11],RSSetState method, ID3D11DeviceContext.RSSetState, ID3D11DeviceContext::RSSetState, RSSetState, RSSetState method [Direct3D 11], RSSetState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::RSSetState, direct3d11.id3d11devicecontext_rssetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::RSSetState method
+# ID3D11DeviceContext::RSSetState
 
 
 ## -description

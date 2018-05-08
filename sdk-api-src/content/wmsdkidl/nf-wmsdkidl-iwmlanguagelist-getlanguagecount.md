@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLanguageList.GetLanguageCount
-title: IWMLanguageList::GetLanguageCount method
+title: IWMLanguageList::GetLanguageCount
 author: windows-driver-content
 description: The GetLanguageCount method retrieves the total number of supported languages in the language list.
 old-location: wmformat\iwmlanguagelist_getlanguagecount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 81c2edae-a793-421b-9aa2-39e280c43aeb
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetLanguageCount method [windows Media Format], GetLanguageCount method [windows Media Format], IWMLanguageList interface, GetLanguageCount,IWMLanguageList.GetLanguageCount, IWMLanguageList, IWMLanguageList interface [windows Media Format], GetLanguageCount method, IWMLanguageList::GetLanguageCount, IWMLanguageListGetLanguageCount, wmformat.iwmlanguagelist_getlanguagecount, wmsdkidl/IWMLanguageList::GetLanguageCount
+ms.keywords: GetLanguageCount, GetLanguageCount method [windows Media Format], GetLanguageCount method [windows Media Format],IWMLanguageList interface, IWMLanguageList interface [windows Media Format],GetLanguageCount method, IWMLanguageList.GetLanguageCount, IWMLanguageList::GetLanguageCount, IWMLanguageListGetLanguageCount, wmformat.iwmlanguagelist_getlanguagecount, wmsdkidl/IWMLanguageList::GetLanguageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMLanguageList::GetLanguageCount method
+# IWMLanguageList::GetLanguageCount
 
 
 ## -description

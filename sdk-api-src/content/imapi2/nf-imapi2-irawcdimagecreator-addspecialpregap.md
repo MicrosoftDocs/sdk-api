@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.AddSpecialPregap
-title: IRawCDImageCreator::AddSpecialPregap method
+title: IRawCDImageCreator::AddSpecialPregap
 author: windows-driver-content
 description: Accepts the provided IStream object and saves the associated pointer to be used as data for the pre-gap for track 1.
 old-location: imapi\irawcdimagecreator_addspecialpregap.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 953ac9e9-b097-4fe5-8bcf-db4f9f15816e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddSpecialPregap method [IMAPI], AddSpecialPregap method [IMAPI], IRawCDImageCreator interface, AddSpecialPregap,IRawCDImageCreator.AddSpecialPregap, IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], AddSpecialPregap method, IRawCDImageCreator::AddSpecialPregap, imapi.irawcdimagecreator_addspecialpregap, imapi2/IRawCDImageCreator::AddSpecialPregap
+ms.keywords: AddSpecialPregap, AddSpecialPregap method [IMAPI], AddSpecialPregap method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddSpecialPregap method, IRawCDImageCreator.AddSpecialPregap, IRawCDImageCreator::AddSpecialPregap, imapi.irawcdimagecreator_addspecialpregap, imapi2/IRawCDImageCreator::AddSpecialPregap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRawCDImageCreator::AddSpecialPregap method
+# IRawCDImageCreator::AddSpecialPregap
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: winsock\linger_2.htm
 old-project: WinSock
 ms.assetid: c1dbabcf-b5cd-4a9d-9bf9-b04c62117d74
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPLINGER, *PLINGER, LINGER, _win32_linger_2, linger, linger structure [Winsock], winsock.linger_2, winsock/linger"
 ms.prod: windows-hardware
 ms.technology: windows-devices

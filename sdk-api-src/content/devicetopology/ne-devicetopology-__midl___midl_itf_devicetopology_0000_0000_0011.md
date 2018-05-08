@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: bdc2336c-5609-43f2-9b65-d8806f0fc63b
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: DataFlow, DataFlow enumeration [Core Audio], In, Out, __MIDL___MIDL_itf_devicetopology_0000_0000_0011, coreaudio.dataflow, devicetopology/DataFlow, devicetopology/In, devicetopology/Out
+ms.keywords: DataFlow, DataFlow , DataFlow enumeration [Core Audio], In, Out, __MIDL___MIDL_itf_devicetopology_0000_0000_0011, coreaudio.dataflow, devicetopology/DataFlow, devicetopology/In, devicetopology/Out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

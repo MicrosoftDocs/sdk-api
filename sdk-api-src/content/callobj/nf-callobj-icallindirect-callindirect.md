@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallIndirect.CallIndirect
-title: ICallIndirect::CallIndirect method
+title: ICallIndirect::CallIndirect
 author: windows-driver-content
 description: Invokes one of the methods in the interface with an indirect reference to the arguments of the invocation.
 old-location: com\icallindirect_callindirect.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d017ad36-8779-4107-8ee3-f44589f9e802
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: CallIndirect method [COM], CallIndirect method [COM], ICallIndirect interface, CallIndirect,ICallIndirect.CallIndirect, ICallIndirect, ICallIndirect interface [COM], CallIndirect method, ICallIndirect::CallIndirect, _com_icallindirect_callindirect, callobj/ICallIndirect::CallIndirect, com.icallindirect_callindirect
+ms.keywords: CallIndirect, CallIndirect method [COM], CallIndirect method [COM],ICallIndirect interface, ICallIndirect interface [COM],CallIndirect method, ICallIndirect.CallIndirect, ICallIndirect::CallIndirect, _com_icallindirect_callindirect, callobj/ICallIndirect::CallIndirect, com.icallindirect_callindirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallIndirect::CallIndirect method
+# ICallIndirect::CallIndirect
 
 
 ## -description

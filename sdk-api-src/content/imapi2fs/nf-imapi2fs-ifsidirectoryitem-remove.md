@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.Remove
-title: IFsiDirectoryItem::Remove method
+title: IFsiDirectoryItem::Remove
 author: windows-driver-content
 description: Removes the specified item from the file system image.
 old-location: imapi\ifsidirectoryitem_remove.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: bbd45185-439a-4847-8481-7139e81b34fd
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiDirectoryItem, IFsiDirectoryItem interface [IMAPI], Remove method, IFsiDirectoryItem::Remove, Remove method [IMAPI], Remove method [IMAPI], IFsiDirectoryItem interface, Remove,IFsiDirectoryItem.Remove, imapi.ifsidirectoryitem_remove, imapi2fs/IFsiDirectoryItem::Remove
+ms.keywords: IFsiDirectoryItem interface [IMAPI],Remove method, IFsiDirectoryItem.Remove, IFsiDirectoryItem::Remove, Remove, Remove method [IMAPI], Remove method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_remove, imapi2fs/IFsiDirectoryItem::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiDirectoryItem::Remove method
+# IFsiDirectoryItem::Remove
 
 
 ## -description

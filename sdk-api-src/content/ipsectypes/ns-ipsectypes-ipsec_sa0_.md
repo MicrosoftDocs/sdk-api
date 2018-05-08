@@ -70,21 +70,35 @@ Transform type of the SA specifying the IPsec security protocol.
 See <a href="https://msdn.microsoft.com/068f17f2-8696-4419-9daa-d8f6486e39a3">IPSEC_TRANSFORM_TYPE</a> for more information.
 
 
-#### - ahInformation
+### -field ahInformation
 
 Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_AH</b>.
 
 See <a href="https://msdn.microsoft.com/54a03edd-94cb-478a-a647-473872408701">IPSEC_SA_AUTH_INFORMATION0</a> for more information.
 
 
-#### - espAuthAndCipherInformation
+### -field espAuthInformation
+
+Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH</b>.
+
+See <a href="https://msdn.microsoft.com/54a03edd-94cb-478a-a647-473872408701">IPSEC_SA_AUTH_INFORMATION0</a> for more information.
+
+
+### -field espCipherInformation
+
+Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_CIPHER</b>.
+
+See <a href="https://msdn.microsoft.com/2a5105ad-b77f-46b7-9a79-50514b88e7ce">IPSEC_SA_CIPHER_INFORMATION0</a> for more information.
+
+
+### -field espAuthAndCipherInformation
 
 Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER</b>.
 
 See <a href="https://msdn.microsoft.com/0e213ba0-3993-41da-8ddd-5ecde7942a95">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a> for more information.
 
 
-#### - espAuthFwInformation
+### -field espAuthFwInformation
 
 Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH_FW</b>.
 
@@ -92,20 +106,6 @@ Security algorithms of the SA transform. Available when <b>saTransformType</b> i
 <div class="alert"><b>Note</b>  Available only on Windows Server 2008 R2, Windows 7, or later.</div>
 <div> </div>
 
-
-
-#### - espAuthInformation
-
-Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH</b>.
-
-See <a href="https://msdn.microsoft.com/54a03edd-94cb-478a-a647-473872408701">IPSEC_SA_AUTH_INFORMATION0</a> for more information.
-
-
-#### - espCipherInformation
-
-Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_CIPHER</b>.
-
-See <a href="https://msdn.microsoft.com/2a5105ad-b77f-46b7-9a79-50514b88e7ce">IPSEC_SA_CIPHER_INFORMATION0</a> for more information.
 
 
 ## -remarks

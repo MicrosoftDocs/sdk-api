@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetAspectRatioMode
-title: IMFVideoDisplayControl::SetAspectRatioMode method
+title: IMFVideoDisplayControl::SetAspectRatioMode
 author: windows-driver-content
 description: Specifies how the enhanced video renderer (EVR) handles the aspect ratio of the source video.
 old-location: mf\imfvideodisplaycontrol_setaspectratiomode.htm
 old-project: medfound
 ms.assetid: dd49a110-1c11-4eca-9e7b-6021f3bdd397
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], SetAspectRatioMode method, IMFVideoDisplayControl::SetAspectRatioMode, SetAspectRatioMode method [Media Foundation], SetAspectRatioMode method [Media Foundation], IMFVideoDisplayControl interface, SetAspectRatioMode,IMFVideoDisplayControl.SetAspectRatioMode, dd49a110-1c11-4eca-9e7b-6021f3bdd397, evr/IMFVideoDisplayControl::SetAspectRatioMode, mf.imfvideodisplaycontrol_setaspectratiomode
+ms.date: 5/3/2018
+ms.keywords: IMFVideoDisplayControl interface [Media Foundation],SetAspectRatioMode method, IMFVideoDisplayControl.SetAspectRatioMode, IMFVideoDisplayControl::SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [Media Foundation], SetAspectRatioMode method [Media Foundation],IMFVideoDisplayControl interface, dd49a110-1c11-4eca-9e7b-6021f3bdd397, evr/IMFVideoDisplayControl::SetAspectRatioMode, mf.imfvideodisplaycontrol_setaspectratiomode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoDisplayControl::SetAspectRatioMode method
+# IMFVideoDisplayControl::SetAspectRatioMode
 
 
 ## -description

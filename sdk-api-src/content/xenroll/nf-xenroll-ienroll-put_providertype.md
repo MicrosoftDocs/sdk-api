@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.put_ProviderType
-title: IEnroll::put_ProviderType method
+title: IEnroll::put_ProviderType
 author: windows-driver-content
 description: Sets or retrieves the type of provider.
 old-location: security\ienroll4_providertype.htm
 old-project: SecCrypto
 ms.assetid: d4ab2b0e-127f-4ec0-9e4a-4314561912e3
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], ProviderType property, IEnroll.ProviderType, IEnroll::get_ProviderType, IEnroll::put_ProviderType, ProviderType property [Security], ProviderType property [Security], IEnroll interface, put_ProviderType,IEnroll.put_ProviderType, security.ienroll4_providertype, xenroll/IEnroll::ProviderType, xenroll/IEnroll::get_ProviderType, xenroll/IEnroll::put_ProviderType
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],ProviderType property, IEnroll.ProviderType, IEnroll.put_ProviderType, IEnroll::ProviderType, IEnroll::get_ProviderType, IEnroll::put_ProviderType, ProviderType property [Security], ProviderType property [Security],IEnroll interface, put_ProviderType, security.ienroll4_providertype, xenroll/IEnroll::ProviderType, xenroll/IEnroll::get_ProviderType, xenroll/IEnroll::put_ProviderType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::put_ProviderType method
+# IEnroll::put_ProviderType
 
 
 ## -description

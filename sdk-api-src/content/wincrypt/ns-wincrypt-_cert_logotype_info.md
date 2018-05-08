@@ -7,7 +7,7 @@ old-location: security\cert_logotype_info.htm
 old-project: SecCrypto
 ms.assetid: 7ce801bf-38fd-4490-8465-40ed5078bbff
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCERT_LOGOTYPE_INFO, CERT_LOGOTYPE_DIRECT_INFO_CHOICE, CERT_LOGOTYPE_INDIRECT_INFO_CHOICE, CERT_LOGOTYPE_INFO, CERT_LOGOTYPE_INFO structure [Security], PCERT_LOGOTYPE_INFO, PCERT_LOGOTYPE_INFO structure pointer [Security], _CERT_LOGOTYPE_INFO, security.cert_logotype_info, wincrypt/CERT_LOGOTYPE_INFO, wincrypt/PCERT_LOGOTYPE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,14 +96,12 @@ The logotype data is available through a reference. The <b>pLogotypeIndirectInfo
  
 
 
-
-
-#### - pLogotypeDirectInfo
+### -field DUMMYUNIONNAME.pLogotypeDirectInfo
 
 The address of a <a href="https://msdn.microsoft.com/f170dd48-a0f4-45e0-b5b8-a5f446d1a86e">CERT_LOGOTYPE_DATA</a> structure that contains the actual logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_DIRECT_INFO_CHOICE</b>.
 
 
-#### - pLogotypeIndirectInfo
+### -field DUMMYUNIONNAME.pLogotypeIndirectInfo
 
 The address of a <a href="https://msdn.microsoft.com/22e6492e-afc2-4160-ad6c-0b65265eafeb">CERT_LOGOTYPE_REFERENCE</a> structure that contains references to the logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_INDIRECT_INFO_CHOICE</b>.
 

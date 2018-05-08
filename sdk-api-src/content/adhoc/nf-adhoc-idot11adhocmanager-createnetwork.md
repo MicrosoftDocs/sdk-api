@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.CreateNetwork
-title: IDot11AdHocManager::CreateNetwork method
+title: IDot11AdHocManager::CreateNetwork
 author: windows-driver-content
 description: Creates a wireless ad hoc network.
 old-location: nwifi\idot11adhocmanager_createnetwork.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: 1d9930b3-7bc4-4015-b096-a21fe01f54f5
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: CreateNetwork method [NativeWIFI], CreateNetwork method [NativeWIFI], IDot11AdHocManager interface, CreateNetwork,IDot11AdHocManager.CreateNetwork, IDot11AdHocManager, IDot11AdHocManager interface [NativeWIFI], CreateNetwork method, IDot11AdHocManager::CreateNetwork, adhoc/IDot11AdHocManager::CreateNetwork, nwifi.idot11adhocmanager_createnetwork
+ms.keywords: CreateNetwork, CreateNetwork method [NativeWIFI], CreateNetwork method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],CreateNetwork method, IDot11AdHocManager.CreateNetwork, IDot11AdHocManager::CreateNetwork, adhoc/IDot11AdHocManager::CreateNetwork, nwifi.idot11adhocmanager_createnetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDot11AdHocManager::CreateNetwork method
+# IDot11AdHocManager::CreateNetwork
 
 
 ## -description

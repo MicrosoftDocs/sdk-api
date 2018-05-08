@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.put_Rect
-title: IMSVidRect::put_Rect method
+title: IMSVidRect::put_Rect
 author: windows-driver-content
 description: The put_Rect method copies the values of another rectangle to this rectangle.
 old-location: mstv\imsvidrect_put_rect.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e50fd657-d913-49f5-b4dd-fb4c0d207417
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], put_Rect method, IMSVidRect::put_Rect, IMSVidRectput_Rect, mstv.imsvidrect_put_rect, put_Rect method [Microsoft TV Technologies], put_Rect method [Microsoft TV Technologies], IMSVidRect interface, put_Rect,IMSVidRect.put_Rect, segment/IMSVidRect::put_Rect
+ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Rect method, IMSVidRect.put_Rect, IMSVidRect::put_Rect, IMSVidRectput_Rect, mstv.imsvidrect_put_rect, put_Rect, put_Rect method [Microsoft TV Technologies], put_Rect method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Rect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidRect::put_Rect method
+# IMSVidRect::put_Rect
 
 
 ## -description

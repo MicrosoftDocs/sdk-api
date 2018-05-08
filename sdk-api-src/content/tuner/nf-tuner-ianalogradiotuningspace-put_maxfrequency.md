@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace.put_MaxFrequency
-title: IAnalogRadioTuningSpace::put_MaxFrequency method
+title: IAnalogRadioTuningSpace::put_MaxFrequency
 author: windows-driver-content
 description: The put_MaxFrequency method sets the maximum frequency for this tuning space.
 old-location: mstv\ianalogradiotuningspace_put_maxfrequency.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2c5c3d7b-820a-4741-8a3a-4c1ffd67870a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAnalogRadioTuningSpace, IAnalogRadioTuningSpace interface [Microsoft TV Technologies], put_MaxFrequency method, IAnalogRadioTuningSpace::put_MaxFrequency, IAnalogRadioTuningSpaceput_MaxFrequency, mstv.ianalogradiotuningspace_put_maxfrequency, put_MaxFrequency method [Microsoft TV Technologies], put_MaxFrequency method [Microsoft TV Technologies], IAnalogRadioTuningSpace interface, put_MaxFrequency,IAnalogRadioTuningSpace.put_MaxFrequency, tuner/IAnalogRadioTuningSpace::put_MaxFrequency
+ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],put_MaxFrequency method, IAnalogRadioTuningSpace.put_MaxFrequency, IAnalogRadioTuningSpace::put_MaxFrequency, IAnalogRadioTuningSpaceput_MaxFrequency, mstv.ianalogradiotuningspace_put_maxfrequency, put_MaxFrequency, put_MaxFrequency method [Microsoft TV Technologies], put_MaxFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, tuner/IAnalogRadioTuningSpace::put_MaxFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnalogRadioTuningSpace::put_MaxFrequency method
+# IAnalogRadioTuningSpace::put_MaxFrequency
 
 
 ## -description

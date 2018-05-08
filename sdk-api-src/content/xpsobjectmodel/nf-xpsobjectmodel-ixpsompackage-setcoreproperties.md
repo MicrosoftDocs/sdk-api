@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetCoreProperties
-title: IXpsOMPackage::SetCoreProperties method
+title: IXpsOMPackage::SetCoreProperties
 author: windows-driver-content
 description: Sets the IXpsOMCoreProperties interface of the XPS package.
 old-location: xps\ixpsompackage_setcoreproperties.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e1be5c48-1e2b-4f94-98ec-b61bc255e63b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], SetCoreProperties method, IXpsOMPackage::SetCoreProperties, SetCoreProperties method [XPS Documents and Packaging], SetCoreProperties method [XPS Documents and Packaging], IXpsOMPackage interface, SetCoreProperties,IXpsOMPackage.SetCoreProperties, xps.ixpsompackage_setcoreproperties, xpsobjectmodel/IXpsOMPackage::SetCoreProperties
+ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetCoreProperties method, IXpsOMPackage.SetCoreProperties, IXpsOMPackage::SetCoreProperties, SetCoreProperties, SetCoreProperties method [XPS Documents and Packaging], SetCoreProperties method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setcoreproperties, xpsobjectmodel/IXpsOMPackage::SetCoreProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPackage::SetCoreProperties method
+# IXpsOMPackage::SetCoreProperties
 
 
 ## -description

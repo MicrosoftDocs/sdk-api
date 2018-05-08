@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 801428f1-9ce5-4348-acab-23cc9ea8cac3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMWMIFilter, IGPMWMIFilter, IGPMWMIFilter interface [GPMC], IGPMWMIFilter interface [GPMC], described, _win32_igpmwmifilter, gpmc.igpmwmifilter, gpmgmt/IGPMWMIFilter
+ms.keywords: GPMWMIFilter, IGPMWMIFilter, IGPMWMIFilter interface [GPMC], IGPMWMIFilter interface [GPMC],described, _win32_igpmwmifilter, gpmc.igpmwmifilter, gpmgmt/IGPMWMIFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

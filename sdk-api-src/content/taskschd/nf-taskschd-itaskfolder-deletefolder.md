@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.DeleteFolder
-title: ITaskFolder::DeleteFolder method
+title: ITaskFolder::DeleteFolder
 author: windows-driver-content
 description: Deletes a subfolder from the parent folder.
 old-location: taskschd\itaskfolder_deletefolder.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 7758afc5-73d8-456c-98a9-89e4b7ad42b9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DeleteFolder method [Task Scheduler], DeleteFolder method [Task Scheduler], ITaskFolder interface, DeleteFolder,ITaskFolder.DeleteFolder, ITaskFolder, ITaskFolder interface [Task Scheduler], DeleteFolder method, ITaskFolder::DeleteFolder, taskschd.itaskfolder_deletefolder, taskschd/ITaskFolder::DeleteFolder
+ms.keywords: DeleteFolder, DeleteFolder method [Task Scheduler], DeleteFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],DeleteFolder method, ITaskFolder.DeleteFolder, ITaskFolder::DeleteFolder, taskschd.itaskfolder_deletefolder, taskschd/ITaskFolder::DeleteFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskFolder::DeleteFolder method
+# ITaskFolder::DeleteFolder
 
 
 ## -description

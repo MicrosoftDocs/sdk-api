@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlockCollection.GetCount
-title: IXpsSignatureBlockCollection::GetCount method
+title: IXpsSignatureBlockCollection::GetCount
 author: windows-driver-content
 description: Gets the number of IXpsSignatureBlock interface pointers in the collection.
 old-location: xps\ixpssignatureblockcollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d748e974-7350-44cd-9599-111f402d20e2
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging], IXpsSignatureBlockCollection interface, GetCount,IXpsSignatureBlockCollection.GetCount, IXpsSignatureBlockCollection, IXpsSignatureBlockCollection interface [XPS Documents and Packaging], GetCount method, IXpsSignatureBlockCollection::GetCount, xps.ixpssignatureblockcollection_getcount, xpsdigitalsignature/IXpsSignatureBlockCollection::GetCount
+ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsSignatureBlockCollection interface, IXpsSignatureBlockCollection interface [XPS Documents and Packaging],GetCount method, IXpsSignatureBlockCollection.GetCount, IXpsSignatureBlockCollection::GetCount, xps.ixpssignatureblockcollection_getcount, xpsdigitalsignature/IXpsSignatureBlockCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureBlockCollection::GetCount method
+# IXpsSignatureBlockCollection::GetCount
 
 
 ## -description

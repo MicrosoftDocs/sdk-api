@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentFillColor
-title: IUIAutomationStylesPattern::get_CurrentFillColor method
+title: IUIAutomationStylesPattern::get_CurrentFillColor
 author: windows-driver-content
 description: Retrieves the fill color of an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentFillColor.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3B1C3731-72E5-4407-AFA8-4E5ACB3F1FD2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentFillColor property [Windows Accessibility], CurrentFillColor property [Windows Accessibility], IUIAutomationStylesPattern interface, IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], CurrentFillColor property, IUIAutomationStylesPattern.CurrentFillColor, IUIAutomationStylesPattern::get_CurrentFillColor, get_CurrentFillColor,IUIAutomationStylesPattern.get_CurrentFillColor, uiautomationclient/IUIAutomationStylesPattern::CurrentFillColor, uiautomationclient/IUIAutomationStylesPattern::get_CurrentFillColor, winauto.uiauto_IUIAutomationStylesPattern_CurrentFillColor
+ms.keywords: CurrentFillColor property [Windows Accessibility], CurrentFillColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentFillColor property, IUIAutomationStylesPattern.CurrentFillColor, IUIAutomationStylesPattern.get_CurrentFillColor, IUIAutomationStylesPattern::CurrentFillColor, IUIAutomationStylesPattern::get_CurrentFillColor, get_CurrentFillColor, uiautomationclient/IUIAutomationStylesPattern::CurrentFillColor, uiautomationclient/IUIAutomationStylesPattern::get_CurrentFillColor, winauto.uiauto_IUIAutomationStylesPattern_CurrentFillColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationStylesPattern::get_CurrentFillColor method
+# IUIAutomationStylesPattern::get_CurrentFillColor
 
 
 ## -description

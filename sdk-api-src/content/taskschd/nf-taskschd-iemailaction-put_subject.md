@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Subject
-title: IEmailAction::put_Subject method
+title: IEmailAction::put_Subject
 author: windows-driver-content
 description: Gets or sets the subject of the email message.
 old-location: taskschd\iemailaction_subject.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 7e5e6e84-7d2f-4aa3-946f-fe7fac6e49db
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEmailAction, IEmailAction interface [Task Scheduler], Subject property, IEmailAction.Subject, IEmailAction::get_Subject, IEmailAction::put_Subject, Subject property [Task Scheduler], Subject property [Task Scheduler], IEmailAction interface, put_Subject,IEmailAction.put_Subject, taskschd.iemailaction_subject, taskschd/IEmailAction::Subject, taskschd/IEmailAction::get_Subject, taskschd/IEmailAction::put_Subject
+ms.keywords: IEmailAction interface [Task Scheduler],Subject property, IEmailAction.Subject, IEmailAction.put_Subject, IEmailAction::Subject, IEmailAction::get_Subject, IEmailAction::put_Subject, Subject property [Task Scheduler], Subject property [Task Scheduler],IEmailAction interface, put_Subject, taskschd.iemailaction_subject, taskschd/IEmailAction::Subject, taskschd/IEmailAction::get_Subject, taskschd/IEmailAction::put_Subject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEmailAction::put_Subject method
+# IEmailAction::put_Subject
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.GetIAccessible
-title: IUIAutomationLegacyIAccessiblePattern::GetIAccessible method
+title: IUIAutomationLegacyIAccessiblePattern::GetIAccessible
 author: windows-driver-content
 description: Retrieves an IAccessible object that corresponds to the Microsoft UI Automation element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 58ce3005-dfac-4ffe-b874-69a2f994e7a6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetIAccessible method [Windows Accessibility], GetIAccessible method [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, GetIAccessible,IUIAutomationLegacyIAccessiblePattern.GetIAccessible, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], GetIAccessible method, IUIAutomationLegacyIAccessiblePattern::GetIAccessible, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible, uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::GetIAccessible, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible
+ms.keywords: GetIAccessible, GetIAccessible method [Windows Accessibility], GetIAccessible method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],GetIAccessible method, IUIAutomationLegacyIAccessiblePattern.GetIAccessible, IUIAutomationLegacyIAccessiblePattern::GetIAccessible, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible, uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::GetIAccessible, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationLegacyIAccessiblePattern::GetIAccessible method
+# IUIAutomationLegacyIAccessiblePattern::GetIAccessible
 
 
 ## -description

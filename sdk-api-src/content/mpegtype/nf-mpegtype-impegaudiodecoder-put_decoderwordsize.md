@@ -1,14 +1,14 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_DecoderWordSize
-title: IMpegAudioDecoder::put_DecoderWordSize method
+title: IMpegAudioDecoder::put_DecoderWordSize
 author: windows-driver-content
 description: Specifies the word size used by the decoder.
 old-location: dshow\impegaudiodecoder_put_decoderwordsize.htm
 old-project: DirectShow
 ms.assetid: bd5ea824-5ac7-44e3-b7db-636e1b350d4e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], put_DecoderWordSize method, IMpegAudioDecoder::put_DecoderWordSize, IMpegAudioDecoderputDecoderWordSize, dshow.impegaudiodecoder_put_decoderwordsize, mpegtype/IMpegAudioDecoder::put_DecoderWordSize, put_DecoderWordSize method [DirectShow], put_DecoderWordSize method [DirectShow], IMpegAudioDecoder interface, put_DecoderWordSize,IMpegAudioDecoder.put_DecoderWordSize
+ms.date: 4/30/2018
+ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DecoderWordSize method, IMpegAudioDecoder.put_DecoderWordSize, IMpegAudioDecoder::put_DecoderWordSize, IMpegAudioDecoderputDecoderWordSize, dshow.impegaudiodecoder_put_decoderwordsize, mpegtype/IMpegAudioDecoder::put_DecoderWordSize, put_DecoderWordSize, put_DecoderWordSize method [DirectShow], put_DecoderWordSize method [DirectShow],IMpegAudioDecoder interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMpegAudioDecoder::put_DecoderWordSize method
+# IMpegAudioDecoder::put_DecoderWordSize
 
 
 ## -description

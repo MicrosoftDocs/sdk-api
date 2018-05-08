@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IExpDispSupport.OnInvoke
-title: IExpDispSupport::OnInvoke method
+title: IExpDispSupport::OnInvoke
 author: windows-driver-content
 description: Deprecated. Gets ambient properties.
 old-location: shell\IExpDispSupport_OnInvoke.htm
 old-project: shell
 ms.assetid: 92228340-2472-4920-90b7-ce46cab7406e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IExpDispSupport, IExpDispSupport interface [Windows Shell], OnInvoke method, IExpDispSupport::OnInvoke, OnInvoke method [Windows Shell], OnInvoke method [Windows Shell], IExpDispSupport interface, OnInvoke,IExpDispSupport.OnInvoke, shdeprecated/IExpDispSupport::OnInvoke, shell.IExpDispSupport_OnInvoke, zone_IExpDispSupport_OnInvoke
+ms.date: 5/3/2018
+ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IExpDispSupport interface [Windows Shell],OnInvoke method, IExpDispSupport.OnInvoke, IExpDispSupport::OnInvoke, OnInvoke, OnInvoke method [Windows Shell], OnInvoke method [Windows Shell],IExpDispSupport interface, shdeprecated/IExpDispSupport::OnInvoke, shell.IExpDispSupport_OnInvoke, zone_IExpDispSupport_OnInvoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IExpDispSupport::OnInvoke method
+# IExpDispSupport::OnInvoke
 
 
 ## -description

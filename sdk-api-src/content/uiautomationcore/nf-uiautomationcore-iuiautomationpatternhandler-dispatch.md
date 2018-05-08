@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationPatternHandler.Dispatch
-title: IUIAutomationPatternHandler::Dispatch method
+title: IUIAutomationPatternHandler::Dispatch
 author: windows-driver-content
 description: Dispatches a method or property getter to a custom control pattern provider.
 old-location: winauto\uiauto_IUIAutomationPatternHandler_Dispatch.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: c94d650e-74a8-4d4f-92bf-5402576f8773
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Dispatch method [Windows Accessibility], Dispatch method [Windows Accessibility], IUIAutomationPatternHandler interface, Dispatch,IUIAutomationPatternHandler.Dispatch, IUIAutomationPatternHandler, IUIAutomationPatternHandler interface [Windows Accessibility], Dispatch method, IUIAutomationPatternHandler::Dispatch, uiauto.uiauto_IUIAutomationPatternHandler_Dispatch, uiauto_IUIAutomationPatternHandler_Dispatch, uiautomationcore/IUIAutomationPatternHandler::Dispatch, winauto.uiauto_IUIAutomationPatternHandler_Dispatch
+ms.keywords: Dispatch, Dispatch method [Windows Accessibility], Dispatch method [Windows Accessibility],IUIAutomationPatternHandler interface, IUIAutomationPatternHandler interface [Windows Accessibility],Dispatch method, IUIAutomationPatternHandler.Dispatch, IUIAutomationPatternHandler::Dispatch, uiauto.uiauto_IUIAutomationPatternHandler_Dispatch, uiauto_IUIAutomationPatternHandler_Dispatch, uiautomationcore/IUIAutomationPatternHandler::Dispatch, winauto.uiauto_IUIAutomationPatternHandler_Dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationPatternHandler::Dispatch method
+# IUIAutomationPatternHandler::Dispatch
 
 
 ## -description

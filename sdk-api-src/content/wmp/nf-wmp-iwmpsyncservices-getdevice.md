@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSyncServices.getDevice
-title: IWMPSyncServices::getDevice method
+title: IWMPSyncServices::getDevice
 author: windows-driver-content
 description: The getDevice method retrieves a pointer to a device interface.
 old-location: wmp\iwmpsyncservices_getdevice.htm
 old-project: WMP
 ms.assetid: 4c34b823-57ce-4053-9e98-308a5d4ffdef
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSyncServices, IWMPSyncServices interface [Windows Media Player], getDevice method, IWMPSyncServices::getDevice, IWMPSyncServicesgetDevice, getDevice method [Windows Media Player], getDevice method [Windows Media Player], IWMPSyncServices interface, getDevice,IWMPSyncServices.getDevice, wmp.iwmpsyncservices_getdevice, wmp/IWMPSyncServices::getDevice
+ms.date: 5/4/2018
+ms.keywords: IWMPSyncServices interface [Windows Media Player],getDevice method, IWMPSyncServices.getDevice, IWMPSyncServices::getDevice, IWMPSyncServicesgetDevice, getDevice, getDevice method [Windows Media Player], getDevice method [Windows Media Player],IWMPSyncServices interface, wmp.iwmpsyncservices_getdevice, wmp/IWMPSyncServices::getDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSyncServices::getDevice method
+# IWMPSyncServices::getDevice
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetClientInfo
-title: IWMReaderAdvanced::SetClientInfo method
+title: IWMReaderAdvanced::SetClientInfo
 author: windows-driver-content
 description: The SetClientInfo method sets client-side information used for logging.
 old-location: wmformat\iwmreaderadvanced_setclientinfo.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: dec93690-8285-4672-bf70-63f3c10294bf
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], SetClientInfo method, IWMReaderAdvanced::SetClientInfo, IWMReaderAdvancedSetClientInfo, SetClientInfo method [windows Media Format], SetClientInfo method [windows Media Format], IWMReaderAdvanced interface, SetClientInfo,IWMReaderAdvanced.SetClientInfo, wmformat.iwmreaderadvanced_setclientinfo, wmsdkidl/IWMReaderAdvanced::SetClientInfo
+ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetClientInfo method, IWMReaderAdvanced.SetClientInfo, IWMReaderAdvanced::SetClientInfo, IWMReaderAdvancedSetClientInfo, SetClientInfo, SetClientInfo method [windows Media Format], SetClientInfo method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setclientinfo, wmsdkidl/IWMReaderAdvanced::SetClientInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced::SetClientInfo method
+# IWMReaderAdvanced::SetClientInfo
 
 
 ## -description

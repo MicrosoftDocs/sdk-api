@@ -7,7 +7,7 @@ old-location: automat\funcdesc.htm
 old-project: automat
 ms.assetid: 9998e0cb-5aa3-4cd8-86eb-34760eb1164e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPFUNCDESC, FUNCDESC, FUNCDESC structure [Automation], LPFUNCDESC, LPFUNCDESC structure pointer [Automation], _oa96_FUNCDESC, automat.funcdesc, oaidl/FUNCDESC, oaidl/LPFUNCDESC, tagFUNCDESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation2.get_TransactionTimeout
-title: IUIAutomation2::get_TransactionTimeout method
+title: IUIAutomation2::get_TransactionTimeout
 author: windows-driver-content
 description: Specifies the length of time that UI Automation will wait for a provider to respond to a client request for information about an automation element.
 old-location: winauto\uiauto_iuiautomation2_transactiontimeout.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 05E010BA-E35D-45D7-8B2C-0099CE086FE3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomation2, IUIAutomation2 interface [Windows Accessibility], TransactionTimeout property, IUIAutomation2.TransactionTimeout, IUIAutomation2::get_TransactionTimeout, IUIAutomation2::put_TransactionTimeout, TransactionTimeout property [Windows Accessibility], TransactionTimeout property [Windows Accessibility], IUIAutomation2 interface, get_TransactionTimeout,IUIAutomation2.get_TransactionTimeout, uiautomationclient/IUIAutomation2::TransactionTimeout, uiautomationclient/IUIAutomation2::get_TransactionTimeout, uiautomationclient/IUIAutomation2::put_TransactionTimeout, winauto.uiauto_iuiautomation2_transactiontimeout
+ms.keywords: IUIAutomation2 interface [Windows Accessibility],TransactionTimeout property, IUIAutomation2.TransactionTimeout, IUIAutomation2.get_TransactionTimeout, IUIAutomation2::TransactionTimeout, IUIAutomation2::get_TransactionTimeout, IUIAutomation2::put_TransactionTimeout, TransactionTimeout property [Windows Accessibility], TransactionTimeout property [Windows Accessibility],IUIAutomation2 interface, get_TransactionTimeout, uiautomationclient/IUIAutomation2::TransactionTimeout, uiautomationclient/IUIAutomation2::get_TransactionTimeout, uiautomationclient/IUIAutomation2::put_TransactionTimeout, winauto.uiauto_iuiautomation2_transactiontimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation2::get_TransactionTimeout method
+# IUIAutomation2::get_TransactionTimeout
 
 
 ## -description

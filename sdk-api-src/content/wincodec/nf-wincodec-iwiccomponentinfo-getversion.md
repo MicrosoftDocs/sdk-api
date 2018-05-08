@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetVersion
-title: IWICComponentInfo::GetVersion method
+title: IWICComponentInfo::GetVersion
 author: windows-driver-content
 description: Retrieves the component's version.
 old-location: wic\_wic_codec_iwiccomponentinfo_getversion.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: f65d13ae-ccec-49a8-8818-225464b3a117
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetVersion method [Windows Imaging Component], GetVersion method [Windows Imaging Component], IWICComponentInfo interface, GetVersion,IWICComponentInfo.GetVersion, IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], GetVersion method, IWICComponentInfo::GetVersion, _wic_codec_iwiccomponentinfo_getversion, wic._wic_codec_iwiccomponentinfo_getversion, wincodec/IWICComponentInfo::GetVersion
+ms.keywords: GetVersion, GetVersion method [Windows Imaging Component], GetVersion method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetVersion method, IWICComponentInfo.GetVersion, IWICComponentInfo::GetVersion, _wic_codec_iwiccomponentinfo_getversion, wic._wic_codec_iwiccomponentinfo_getversion, wincodec/IWICComponentInfo::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICComponentInfo::GetVersion method
+# IWICComponentInfo::GetVersion
 
 
 ## -description

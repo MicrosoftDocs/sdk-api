@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderConfigUIInfos.Reset
-title: IEnumSyncProviderConfigUIInfos::Reset method
+title: IEnumSyncProviderConfigUIInfos::Reset
 author: windows-driver-content
 description: Resets the enumerator to the beginning of the collection of ISyncProviderConfigUIInfo objects.
 old-location: winsync\ienumsyncproviderconfiguiinfos_reset.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: ae976a03-c0e3-4a47-8153-8ba947ac8ea0
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumSyncProviderConfigUIInfos, IEnumSyncProviderConfigUIInfos interface [Windows Sync], Reset method, IEnumSyncProviderConfigUIInfos::Reset, Reset method [Windows Sync], Reset method [Windows Sync], IEnumSyncProviderConfigUIInfos interface, Reset,IEnumSyncProviderConfigUIInfos.Reset, syncregistration/IEnumSyncProviderConfigUIInfos::Reset, winsync.ienumsyncproviderconfiguiinfos_reset
+ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Reset method, IEnumSyncProviderConfigUIInfos.Reset, IEnumSyncProviderConfigUIInfos::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Reset, winsync.ienumsyncproviderconfiguiinfos_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumSyncProviderConfigUIInfos::Reset method
+# IEnumSyncProviderConfigUIInfos::Reset
 
 
 ## -description

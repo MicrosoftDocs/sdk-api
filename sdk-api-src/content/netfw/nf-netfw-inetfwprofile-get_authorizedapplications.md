@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwProfile.get_AuthorizedApplications
-title: INetFwProfile::get_AuthorizedApplications method
+title: INetFwProfile::get_AuthorizedApplications
 author: windows-driver-content
 description: Retrieves the collection of authorized applications of the profile.
 old-location: ics\inetfwprofile_authorizedapplications.htm
 old-project: ICS
 ms.assetid: 230f7dc0-6afd-4355-a02c-92343d3e10cd
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: AuthorizedApplications property [ICS/ICF], AuthorizedApplications property [ICS/ICF], INetFwProfile interface, INetFwProfile, INetFwProfile interface [ICS/ICF], AuthorizedApplications property, INetFwProfile.AuthorizedApplications, INetFwProfile::get_AuthorizedApplications, get_AuthorizedApplications,INetFwProfile.get_AuthorizedApplications, ics.inetfwprofile_authorizedapplications, netfw/INetFwProfile::AuthorizedApplications, netfw/INetFwProfile::get_AuthorizedApplications
+ms.date: 5/1/2018
+ms.keywords: AuthorizedApplications property [ICS/ICF], AuthorizedApplications property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],AuthorizedApplications property, INetFwProfile.AuthorizedApplications, INetFwProfile.get_AuthorizedApplications, INetFwProfile::AuthorizedApplications, INetFwProfile::get_AuthorizedApplications, get_AuthorizedApplications, ics.inetfwprofile_authorizedapplications, netfw/INetFwProfile::AuthorizedApplications, netfw/INetFwProfile::get_AuthorizedApplications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwProfile::get_AuthorizedApplications method
+# INetFwProfile::get_AuthorizedApplications
 
 
 ## -description

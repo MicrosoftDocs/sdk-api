@@ -1,14 +1,14 @@
 ---
 UID: NF:effects.IWMPEffects2.RenderWindowed
-title: IWMPEffects2::RenderWindowed method
+title: IWMPEffects2::RenderWindowed
 author: windows-driver-content
 description: The RenderWindowed method is called by Windows Media Player to render a windowed visualization.
 old-location: wmp\iwmpeffects2_renderwindowed.htm
 old-project: WMP
 ms.assetid: 95a0b71e-6485-4b14-81cf-b853a664b3cc
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEffects2, IWMPEffects2 interface [Windows Media Player], RenderWindowed method, IWMPEffects2::RenderWindowed, IWMPEffectsRenderWindowed, RenderWindowed method [Windows Media Player], RenderWindowed method [Windows Media Player], IWMPEffects2 interface, RenderWindowed,IWMPEffects2.RenderWindowed, effects/IWMPEffects2::RenderWindowed, wmp.iwmpeffects2_renderwindowed
+ms.date: 5/4/2018
+ms.keywords: IWMPEffects2 interface [Windows Media Player],RenderWindowed method, IWMPEffects2.RenderWindowed, IWMPEffects2::RenderWindowed, IWMPEffectsRenderWindowed, RenderWindowed, RenderWindowed method [Windows Media Player], RenderWindowed method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::RenderWindowed, wmp.iwmpeffects2_renderwindowed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IWMPEffects2::RenderWindowed method
+# IWMPEffects2::RenderWindowed
 
 
 ## -description

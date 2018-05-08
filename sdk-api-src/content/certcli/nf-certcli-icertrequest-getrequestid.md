@@ -1,14 +1,14 @@
 ---
 UID: NF:certcli.ICertRequest.GetRequestId
-title: ICertRequest::GetRequestId method
+title: ICertRequest::GetRequestId
 author: windows-driver-content
 description: Gets the current internal request number for the request and subsequent certificate.
 old-location: security\icertrequest2_getrequestid.htm
 old-project: SecCrypto
 ms.assetid: bb808834-7083-4b14-bce7-96b6fef242cc
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertRequest object [Security], GetRequestId method, GetRequestId method [Security], GetRequestId method [Security], CCertRequest object, GetRequestId method [Security], ICertRequest interface, GetRequestId method [Security], ICertRequest2 interface, GetRequestId method [Security], ICertRequest3 interface, GetRequestId,ICertRequest.GetRequestId, ICertRequest, ICertRequest interface [Security], GetRequestId method, ICertRequest2 interface [Security], GetRequestId method, ICertRequest2::GetRequestId, ICertRequest3 interface [Security], GetRequestId method, ICertRequest3::GetRequestId, ICertRequest::GetRequestId, certcli/ICertRequest2::GetRequestId, certcli/ICertRequest3::GetRequestId, certcli/ICertRequest::GetRequestId, security.icertrequest2_getrequestid
+ms.date: 4/30/2018
+ms.keywords: CCertRequest object [Security],GetRequestId method, GetRequestId, GetRequestId method [Security], GetRequestId method [Security],CCertRequest object, GetRequestId method [Security],ICertRequest interface, GetRequestId method [Security],ICertRequest2 interface, GetRequestId method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetRequestId method, ICertRequest.GetRequestId, ICertRequest2 interface [Security],GetRequestId method, ICertRequest2::GetRequestId, ICertRequest3 interface [Security],GetRequestId method, ICertRequest3::GetRequestId, ICertRequest::GetRequestId, certcli/ICertRequest2::GetRequestId, certcli/ICertRequest3::GetRequestId, certcli/ICertRequest::GetRequestId, security.icertrequest2_getrequestid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertRequest::GetRequestId method
+# ICertRequest::GetRequestId
 
 
 ## -description

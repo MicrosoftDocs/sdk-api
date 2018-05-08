@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMCameraControl.Set
-title: IAMCameraControl::Set method
+title: IAMCameraControl::Set
 author: windows-driver-content
 description: The Set method sets a specified property on the camera.
 old-location: dshow\iamcameracontrol_set.htm
 old-project: DirectShow
 ms.assetid: d896fb5e-a43b-4cb8-a5d1-4ce6e60831be
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMCameraControl, IAMCameraControl interface [DirectShow], Set method, IAMCameraControl::Set, IAMCameraControlSet, Set method [DirectShow], Set method [DirectShow], IAMCameraControl interface, Set,IAMCameraControl.Set, dshow.iamcameracontrol_set, strmif/IAMCameraControl::Set
+ms.date: 4/30/2018
+ms.keywords: IAMCameraControl interface [DirectShow],Set method, IAMCameraControl.Set, IAMCameraControl::Set, IAMCameraControlSet, Set, Set method [DirectShow], Set method [DirectShow],IAMCameraControl interface, dshow.iamcameracontrol_set, strmif/IAMCameraControl::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMCameraControl::Set method
+# IAMCameraControl::Set
 
 
 ## -description

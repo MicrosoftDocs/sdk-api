@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IEnumNames.Clone
-title: IEnumNames::Clone method
+title: IEnumNames::Clone
 author: windows-driver-content
 description: Creates an enumerator that contains the same enumeration state as the current one.
 old-location: cos\ienumnames_clone.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: ea57be73-076a-445d-9b0d-4a1041befa2d
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: Clone method [COM+], Clone method [COM+], IEnumNames interface, Clone,IEnumNames.Clone, IEnumNames, IEnumNames interface [COM+], Clone method, IEnumNames::Clone, _cos_IEnumNames_Clone, comsvcs/IEnumNames::Clone, cos.ienumnames_clone
+ms.keywords: Clone, Clone method [COM+], Clone method [COM+],IEnumNames interface, IEnumNames interface [COM+],Clone method, IEnumNames.Clone, IEnumNames::Clone, _cos_IEnumNames_Clone, comsvcs/IEnumNames::Clone, cos.ienumnames_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumNames::Clone method
+# IEnumNames::Clone
 
 
 ## -description

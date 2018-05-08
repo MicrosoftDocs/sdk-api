@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetPrivateDevices
-title: IPortableDeviceManager::GetPrivateDevices method
+title: IPortableDeviceManager::GetPrivateDevices
 author: windows-driver-content
 description: The GetPrivateDevices method retrieves a list of private portable devices connected to the computer. These private devices are only accessible through an application that is designed for these particular devices.
 old-location: wpdsdk\iportabledevicemanager_getprivatedevices.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: f25a8eb4-be40-43c0-bb3c-00031b7f08db
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetPrivateDevices method [Windows Portable Devices SDK], GetPrivateDevices method [Windows Portable Devices SDK], IPortableDeviceManager interface, GetPrivateDevices,IPortableDeviceManager.GetPrivateDevices, IPortableDeviceManager, IPortableDeviceManager interface [Windows Portable Devices SDK], GetPrivateDevices method, IPortableDeviceManager::GetPrivateDevices, IPortableDeviceManagerGetPrivateDevices, portabledeviceapi/IPortableDeviceManager::GetPrivateDevices, wpdsdk.iportabledevicemanager_getprivatedevices
+ms.keywords: GetPrivateDevices, GetPrivateDevices method [Windows Portable Devices SDK], GetPrivateDevices method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetPrivateDevices method, IPortableDeviceManager.GetPrivateDevices, IPortableDeviceManager::GetPrivateDevices, IPortableDeviceManagerGetPrivateDevices, portabledeviceapi/IPortableDeviceManager::GetPrivateDevices, wpdsdk.iportabledevicemanager_getprivatedevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceManager::GetPrivateDevices method
+# IPortableDeviceManager::GetPrivateDevices
 
 
 ## -description

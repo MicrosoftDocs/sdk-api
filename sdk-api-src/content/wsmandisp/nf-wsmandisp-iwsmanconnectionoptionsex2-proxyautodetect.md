@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyAutoDetect
-title: IWSManConnectionOptionsEx2::ProxyAutoDetect method
+title: IWSManConnectionOptionsEx2::ProxyAutoDetect
 author: windows-driver-content
 description: Returns the value of the proxy access type flag WSManProxyAutoDetect for use in the accessType parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyautodetect.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 8c277ce3-2655-4efc-abb4-224c28531d97
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManConnectionOptionsEx2, IWSManConnectionOptionsEx2 interface [Windows Remote Management], ProxyAutoDetect method, IWSManConnectionOptionsEx2::ProxyAutoDetect, ProxyAutoDetect method [Windows Remote Management], ProxyAutoDetect method [Windows Remote Management], IWSManConnectionOptionsEx2 interface, ProxyAutoDetect,IWSManConnectionOptionsEx2.ProxyAutoDetect, winrm.iwsmanconnectionoptionsex2_proxyautodetect, wsmandisp/IWSManConnectionOptionsEx2::ProxyAutoDetect
+ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAutoDetect method, IWSManConnectionOptionsEx2.ProxyAutoDetect, IWSManConnectionOptionsEx2::ProxyAutoDetect, ProxyAutoDetect, ProxyAutoDetect method [Windows Remote Management], ProxyAutoDetect method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyautodetect, wsmandisp/IWSManConnectionOptionsEx2::ProxyAutoDetect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManConnectionOptionsEx2::ProxyAutoDetect method
+# IWSManConnectionOptionsEx2::ProxyAutoDetect
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.AddMediaStream
-title: IAMMultiMediaStream::AddMediaStream method
+title: IAMMultiMediaStream::AddMediaStream
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The AddMediaStream method adds a new media stream to the filter graph.
 old-location: dshow\iammultimediastream_addmediastream.htm
 old-project: DirectShow
 ms.assetid: 3ccfb776-6a4e-48da-857d-6693cf916c40
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AddMediaStream method [DirectShow], AddMediaStream method [DirectShow], IAMMultiMediaStream interface, AddMediaStream,IAMMultiMediaStream.AddMediaStream, IAMMultiMediaStream, IAMMultiMediaStream interface [DirectShow], AddMediaStream method, IAMMultiMediaStream::AddMediaStream, IAMMultiMediaStreamAddMediaStream, amstream/IAMMultiMediaStream::AddMediaStream, dshow.iammultimediastream_addmediastream
+ms.date: 4/30/2018
+ms.keywords: AddMediaStream, AddMediaStream method [DirectShow], AddMediaStream method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],AddMediaStream method, IAMMultiMediaStream.AddMediaStream, IAMMultiMediaStream::AddMediaStream, IAMMultiMediaStreamAddMediaStream, amstream/IAMMultiMediaStream::AddMediaStream, dshow.iammultimediastream_addmediastream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMultiMediaStream::AddMediaStream method
+# IAMMultiMediaStream::AddMediaStream
 
 
 ## -description

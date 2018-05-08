@@ -1,14 +1,14 @@
 ---
 UID: NF:natupnp.INATEventManager.put_NumberOfEntriesCallback
-title: INATEventManager::put_NumberOfEntriesCallback method
+title: INATEventManager::put_NumberOfEntriesCallback
 author: windows-driver-content
 description: The put_NumberOfEntriesCallback method enables the NAT application with UPnP technology to register a callback interface with the NAT. The system calls the first method in this callback interface if the number of NAT port mappings changes.
 old-location: ics\inateventmanager_put_numberofentriescallback.htm
 old-project: ICS
 ms.assetid: a02a0f1e-5085-444b-adc4-c3cd919f7e25
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INATEventManager, INATEventManager interface [ICS/ICF], put_NumberOfEntriesCallback method, INATEventManager::put_NumberOfEntriesCallback, _ics_inateventmanager_put_numberofentriescallback, ics.inateventmanager_put_numberofentriescallback, natupnp/INATEventManager::put_NumberOfEntriesCallback, put_NumberOfEntriesCallback method [ICS/ICF], put_NumberOfEntriesCallback method [ICS/ICF], INATEventManager interface, put_NumberOfEntriesCallback,INATEventManager.put_NumberOfEntriesCallback
+ms.date: 5/1/2018
+ms.keywords: INATEventManager interface [ICS/ICF],put_NumberOfEntriesCallback method, INATEventManager.put_NumberOfEntriesCallback, INATEventManager::put_NumberOfEntriesCallback, _ics_inateventmanager_put_numberofentriescallback, ics.inateventmanager_put_numberofentriescallback, natupnp/INATEventManager::put_NumberOfEntriesCallback, put_NumberOfEntriesCallback, put_NumberOfEntriesCallback method [ICS/ICF], put_NumberOfEntriesCallback method [ICS/ICF],INATEventManager interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INATEventManager::put_NumberOfEntriesCallback method
+# INATEventManager::put_NumberOfEntriesCallback
 
 
 ## -description

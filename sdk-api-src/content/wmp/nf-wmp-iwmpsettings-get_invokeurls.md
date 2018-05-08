@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSettings.get_invokeURLs
-title: IWMPSettings::get_invokeURLs method
+title: IWMPSettings::get_invokeURLs
 author: windows-driver-content
 description: The get_invokeURLs method retrieves a value indicating whether URL events should launch a Web browser.
 old-location: wmp\iwmpsettings_get_invokeurls.htm
 old-project: WMP
 ms.assetid: a29ea1ba-8994-4d0f-8c53-8abba8fe997d
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], get_invokeURLs method, IWMPSettings::get_invokeURLs, IWMPSettingsget_invokeURLs, get_invokeURLs method [Windows Media Player], get_invokeURLs method [Windows Media Player], IWMPSettings interface, get_invokeURLs,IWMPSettings.get_invokeURLs, wmp.iwmpsettings_get_invokeurls, wmp/IWMPSettings::get_invokeURLs
+ms.date: 5/4/2018
+ms.keywords: IWMPSettings interface [Windows Media Player],get_invokeURLs method, IWMPSettings.get_invokeURLs, IWMPSettings::get_invokeURLs, IWMPSettingsget_invokeURLs, get_invokeURLs, get_invokeURLs method [Windows Media Player], get_invokeURLs method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_invokeurls, wmp/IWMPSettings::get_invokeURLs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSettings::get_invokeURLs method
+# IWMPSettings::get_invokeURLs
 
 
 ## -description

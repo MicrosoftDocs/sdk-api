@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetOriginalNetworkId
-title: IISDB_BIT::GetOriginalNetworkId method
+title: IISDB_BIT::GetOriginalNetworkId
 author: windows-driver-content
 description: Gets an identifier that identifies the broadcaster that originated the MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getoriginalnetworkid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: eb10f0a9-d673-46eb-bde1-3f22c518b05d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies], IISDB_BIT interface, GetOriginalNetworkId,IISDB_BIT.GetOriginalNetworkId, IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], GetOriginalNetworkId method, IISDB_BIT::GetOriginalNetworkId, dvbsiparser/IISDB_BIT::GetOriginalNetworkId, mstv.iisdb_bit_getoriginalnetworkid
+ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IISDB_BIT.GetOriginalNetworkId, IISDB_BIT::GetOriginalNetworkId, dvbsiparser/IISDB_BIT::GetOriginalNetworkId, mstv.iisdb_bit_getoriginalnetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_BIT::GetOriginalNetworkId method
+# IISDB_BIT::GetOriginalNetworkId
 
 
 ## -description

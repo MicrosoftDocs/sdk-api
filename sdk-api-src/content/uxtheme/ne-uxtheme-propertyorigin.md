@@ -7,7 +7,7 @@ old-location: controls\PROPERTYORIGIN.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\propertyorigin.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: PO_CLASS, PO_GLOBAL, PO_NOTFOUND, PO_PART, PO_STATE, PROPERTYORIGIN, PROPERTYORIGIN enumeration [Windows Controls], controls.PROPERTYORIGIN, controls.inet_PROPERTYORIGIN, inet_PROPERTYORIGIN, inet_PROPERTYORIGIN_cpp, uxtheme/PO_CLASS, uxtheme/PO_GLOBAL, uxtheme/PO_NOTFOUND, uxtheme/PO_PART, uxtheme/PO_STATE, uxtheme/PROPERTYORIGIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Sidebar.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: Sidebar.Exe (version 1.00 or later)
+req.dll: 
 req.irql: 
 req.product: Windows UI
 ---

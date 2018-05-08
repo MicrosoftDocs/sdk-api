@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: NS_CONTEXT_ATTRIBUTES, NS_CONTEXT_ATTRIBUTES, *PNS_CONTEXT_ATTRIBUTES
+req.typenames: NS_CONTEXT_ATTRIBUTES, *PNS_CONTEXT_ATTRIBUTES
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -67,6 +67,11 @@ The version of the helper.
 ### -field dwReserved
 
 Reserved. Must be zero.
+
+
+### -field _ullAlign
+
+ 
 
 
 ### -field pwszContext

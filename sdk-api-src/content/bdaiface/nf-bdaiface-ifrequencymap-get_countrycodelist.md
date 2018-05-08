@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.get_CountryCodeList
-title: IFrequencyMap::get_CountryCodeList method
+title: IFrequencyMap::get_CountryCodeList
 author: windows-driver-content
 description: The get_CountryCodeList method returns a list of all the country/region codes for which the Network Provider has a frequency table.
 old-location: mstv\ifrequencymap_get_countrycodelist.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cc9e2f2e-3187-446e-b1e6-ae32da4413b9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IFrequencyMap, IFrequencyMap interface [Microsoft TV Technologies], get_CountryCodeList method, IFrequencyMap::get_CountryCodeList, IFrequencyMapget_CountryCodeList, bdaiface/IFrequencyMap::get_CountryCodeList, get_CountryCodeList method [Microsoft TV Technologies], get_CountryCodeList method [Microsoft TV Technologies], IFrequencyMap interface, get_CountryCodeList,IFrequencyMap.get_CountryCodeList, mstv.ifrequencymap_get_countrycodelist
+ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_CountryCodeList method, IFrequencyMap.get_CountryCodeList, IFrequencyMap::get_CountryCodeList, IFrequencyMapget_CountryCodeList, bdaiface/IFrequencyMap::get_CountryCodeList, get_CountryCodeList, get_CountryCodeList method [Microsoft TV Technologies], get_CountryCodeList method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_countrycodelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IFrequencyMap::get_CountryCodeList method
+# IFrequencyMap::get_CountryCodeList
 
 
 ## -description

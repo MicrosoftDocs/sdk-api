@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 9f70b554-3cdd-4a4b-b180-c6de6182a46a
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEnumNames, IEnumNames interface [COM+], IEnumNames interface [COM+], described, _cos_IEnumNames, comsvcs/IEnumNames, cos.ienumnames
+ms.keywords: IEnumNames, IEnumNames interface [COM+], IEnumNames interface [COM+],described, _cos_IEnumNames, comsvcs/IEnumNames, cos.ienumnames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

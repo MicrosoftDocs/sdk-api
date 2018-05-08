@@ -7,7 +7,7 @@ old-location: ad\ds_repl_attr_value_meta_data_ext.htm
 old-project: AD
 ms.assetid: CA41C6BF-A485-4AC7-B761-3A07159C2FF1
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DS_REPL_ATTR_VALUE_META_DATA_EXT, DS_REPL_ATTR_VALUE_META_DATA_EXT structure [Active Directory], _DS_REPL_ATTR_VALUE_META_DATA_EXT, ad.ds_repl_attr_value_meta_data_ext, ntdsapi/DS_REPL_ATTR_VALUE_META_DATA_EXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,6 +69,16 @@ The zero-based index of the next entry to retrieve if more entries are available
       the <i>dwEnumerationContext</i> parameter in the next call to 
       <a href="https://msdn.microsoft.com/5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d">DsReplicaGetInfo2</a> to retrieve the next block of 
       entries. If no more entries are available, this member contains -1.
+
+
+### -field rgMetaData.size_is
+
+ 
+
+
+### -field rgMetaData.size_is.cNumEntries
+
+ 
 
 
 ### -field rgMetaData

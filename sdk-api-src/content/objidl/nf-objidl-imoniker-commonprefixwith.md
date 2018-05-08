@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.CommonPrefixWith
-title: IMoniker::CommonPrefixWith method
+title: IMoniker::CommonPrefixWith
 author: windows-driver-content
 description: Creates a new moniker based on the prefix that this moniker has in common with the specified moniker.
 old-location: com\imoniker_commonprefixwith.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ef2a3191-7b7c-4e51-ab55-cf601f444561
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: CommonPrefixWith method [COM], CommonPrefixWith method [COM], IMoniker interface, CommonPrefixWith,IMoniker.CommonPrefixWith, IMoniker, IMoniker interface [COM], CommonPrefixWith method, IMoniker::CommonPrefixWith, _com_imoniker_commonprefixwith, com.imoniker_commonprefixwith, objidl/IMoniker::CommonPrefixWith
+ms.keywords: CommonPrefixWith, CommonPrefixWith method [COM], CommonPrefixWith method [COM],IMoniker interface, IMoniker interface [COM],CommonPrefixWith method, IMoniker.CommonPrefixWith, IMoniker::CommonPrefixWith, _com_imoniker_commonprefixwith, com.imoniker_commonprefixwith, objidl/IMoniker::CommonPrefixWith
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMoniker::CommonPrefixWith method
+# IMoniker::CommonPrefixWith
 
 
 ## -description

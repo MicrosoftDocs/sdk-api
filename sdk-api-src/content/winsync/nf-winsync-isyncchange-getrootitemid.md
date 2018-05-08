@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetRootItemId
-title: ISyncChange::GetRootItemId method
+title: ISyncChange::GetRootItemId
 author: windows-driver-content
 description: Gets the ID of the changed item.
 old-location: winsync\isyncchange_getrootitemid.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 775868d5-8cab-431a-913b-b22b2d516f0d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRootItemId method [Windows Sync], GetRootItemId method [Windows Sync], ISyncChange interface, GetRootItemId,ISyncChange.GetRootItemId, ISyncChange, ISyncChange interface [Windows Sync], GetRootItemId method, ISyncChange::GetRootItemId, winsync.isyncchange_getrootitemid, winsync/ISyncChange::GetRootItemId
+ms.keywords: GetRootItemId, GetRootItemId method [Windows Sync], GetRootItemId method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetRootItemId method, ISyncChange.GetRootItemId, ISyncChange::GetRootItemId, winsync.isyncchange_getrootitemid, winsync/ISyncChange::GetRootItemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChange::GetRootItemId method
+# ISyncChange::GetRootItemId
 
 
 ## -description

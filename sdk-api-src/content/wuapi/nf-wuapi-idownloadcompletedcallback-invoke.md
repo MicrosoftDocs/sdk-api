@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadCompletedCallback.Invoke
-title: IDownloadCompletedCallback::Invoke method
+title: IDownloadCompletedCallback::Invoke
 author: windows-driver-content
 description: Notifies the caller that the download is complete.
 old-location: wua\idownloadcompletedcallback_invoke.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 87334ff3-bfb0-48cb-b2e1-ea6d4617638d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IDownloadCompletedCallback, IDownloadCompletedCallback interface [Windows Update Agent], Invoke method, IDownloadCompletedCallback::Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent], IDownloadCompletedCallback interface, Invoke,IDownloadCompletedCallback.Invoke, wua.idownloadcompletedcallback_invoke, wuapi/IDownloadCompletedCallback::Invoke
+ms.keywords: IDownloadCompletedCallback interface [Windows Update Agent],Invoke method, IDownloadCompletedCallback.Invoke, IDownloadCompletedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IDownloadCompletedCallback interface, wua.idownloadcompletedcallback_invoke, wuapi/IDownloadCompletedCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IDownloadCompletedCallback::Invoke method
+# IDownloadCompletedCallback::Invoke
 
 
 ## -description

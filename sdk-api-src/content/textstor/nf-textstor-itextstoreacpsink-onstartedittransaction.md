@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnStartEditTransaction
-title: ITextStoreACPSink::OnStartEditTransaction method
+title: ITextStoreACPSink::OnStartEditTransaction
 author: windows-driver-content
 description: ITextStoreACPSink::OnStartEditTransaction method
 old-location: tsf\itextstoreacpsink_onstartedittransaction.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 1d5452a1-b2f3-42d6-a32d-95965c2af8d3
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACPSink, ITextStoreACPSink interface [Text Services Framework], OnStartEditTransaction method, ITextStoreACPSink::OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework], ITextStoreACPSink interface, OnStartEditTransaction,ITextStoreACPSink.OnStartEditTransaction, _tsf_itextstoreacpsink_onstartedittransaction_ref, textstor/ITextStoreACPSink::OnStartEditTransaction, tsf.itextstoreacpsink_onstartedittransaction
+ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnStartEditTransaction method, ITextStoreACPSink.OnStartEditTransaction, ITextStoreACPSink::OnStartEditTransaction, OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onstartedittransaction_ref, textstor/ITextStoreACPSink::OnStartEditTransaction, tsf.itextstoreacpsink_onstartedittransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACPSink::OnStartEditTransaction method
+# ITextStoreACPSink::OnStartEditTransaction
 
 
 ## -description

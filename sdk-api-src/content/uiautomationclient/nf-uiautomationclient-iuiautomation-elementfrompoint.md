@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromPoint
-title: IUIAutomation::ElementFromPoint method
+title: IUIAutomation::ElementFromPoint
 author: windows-driver-content
 description: Retrieves the UI Automation element at the specified point on the desktop.
 old-location: winauto\uiauto_IUIAutomation_ElementFromPoint.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 4233cc97-94c8-4861-a364-823cca1e5ff8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ElementFromPoint method [Windows Accessibility], ElementFromPoint method [Windows Accessibility], IUIAutomation interface, ElementFromPoint,IUIAutomation.ElementFromPoint, IUIAutomation, IUIAutomation interface [Windows Accessibility], ElementFromPoint method, IUIAutomation::ElementFromPoint, uiauto.uiauto_IUIAutomation_ElementFromPoint, uiauto_IUIAutomation_ElementFromPoint, uiautomationclient/IUIAutomation::ElementFromPoint, winauto.uiauto_IUIAutomation_ElementFromPoint
+ms.keywords: ElementFromPoint, ElementFromPoint method [Windows Accessibility], ElementFromPoint method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromPoint method, IUIAutomation.ElementFromPoint, IUIAutomation::ElementFromPoint, uiauto.uiauto_IUIAutomation_ElementFromPoint, uiauto_IUIAutomation_ElementFromPoint, uiautomationclient/IUIAutomation::ElementFromPoint, winauto.uiauto_IUIAutomation_ElementFromPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::ElementFromPoint method
+# IUIAutomation::ElementFromPoint
 
 
 ## -description

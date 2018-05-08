@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.ISynchronizeHandle.GetHandle
-title: ISynchronizeHandle::GetHandle method
+title: ISynchronizeHandle::GetHandle
 author: windows-driver-content
 description: Retrieves a handle to the synchronization object.
 old-location: com\isynchronizehandle_gethandle.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 951bc2e4-2ef9-48cf-91a1-1a39c2361f42
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetHandle method [COM], GetHandle method [COM], ISynchronizeHandle interface, GetHandle,ISynchronizeHandle.GetHandle, ISynchronizeHandle, ISynchronizeHandle interface [COM], GetHandle method, ISynchronizeHandle::GetHandle, _com_isynchronizehandle_gethandle, com.isynchronizehandle_gethandle, objidlbase/ISynchronizeHandle::GetHandle
+ms.keywords: GetHandle, GetHandle method [COM], GetHandle method [COM],ISynchronizeHandle interface, ISynchronizeHandle interface [COM],GetHandle method, ISynchronizeHandle.GetHandle, ISynchronizeHandle::GetHandle, _com_isynchronizehandle_gethandle, com.isynchronizehandle_gethandle, objidlbase/ISynchronizeHandle::GetHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISynchronizeHandle::GetHandle method
+# ISynchronizeHandle::GetHandle
 
 
 ## -description

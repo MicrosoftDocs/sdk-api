@@ -68,6 +68,16 @@ The total size, in bytes, of the <b>WLAN_RAW_DATA_LIST</b> structure.
 The number of raw data entries or blobs in the <b>WLAN_RAW_DATA_LIST</b> structure. The maximum value of the <b>dwNumberOfItems</b> may be restricted by the type of data that is stored in the <b>WLAN_RAW_DATA_LIST</b> structure.
 
 
+### -field dwDataOffset
+
+ 
+
+
+### -field dwDataSize
+
+ 
+
+
 ### -field DataList
 
 An array of raw data entries or blobs that make up the data list.

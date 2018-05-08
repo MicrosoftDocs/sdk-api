@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.GetMaxSpeedFactor
-title: IWMReaderAdvanced4::GetMaxSpeedFactor method
+title: IWMReaderAdvanced4::GetMaxSpeedFactor
 author: windows-driver-content
 description: The GetMaxSpeedFactor method retrieves the maximum playback rate that can be delivered by the source. For network content, this value reflects the available bandwidth relative to the maximum bit rate of the content.
 old-location: wmformat\iwmreaderadvanced4_getmaxspeedfactor.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 5617304f-30ed-4072-a0d7-28463ef90a10
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetMaxSpeedFactor method [windows Media Format], GetMaxSpeedFactor method [windows Media Format], IWMReaderAdvanced4 interface, GetMaxSpeedFactor,IWMReaderAdvanced4.GetMaxSpeedFactor, IWMReaderAdvanced4, IWMReaderAdvanced4 interface [windows Media Format], GetMaxSpeedFactor method, IWMReaderAdvanced4::GetMaxSpeedFactor, IWMReaderAdvanced4GetMaxSpeedFactor, wmformat.iwmreaderadvanced4_getmaxspeedfactor, wmsdkidl/IWMReaderAdvanced4::GetMaxSpeedFactor
+ms.keywords: GetMaxSpeedFactor, GetMaxSpeedFactor method [windows Media Format], GetMaxSpeedFactor method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetMaxSpeedFactor method, IWMReaderAdvanced4.GetMaxSpeedFactor, IWMReaderAdvanced4::GetMaxSpeedFactor, IWMReaderAdvanced4GetMaxSpeedFactor, wmformat.iwmreaderadvanced4_getmaxspeedfactor, wmsdkidl/IWMReaderAdvanced4::GetMaxSpeedFactor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced4::GetMaxSpeedFactor method
+# IWMReaderAdvanced4::GetMaxSpeedFactor
 
 
 ## -description

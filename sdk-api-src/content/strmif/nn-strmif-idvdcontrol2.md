@@ -7,8 +7,8 @@ old-location: dshow\idvdcontrol2.htm
 old-project: DirectShow
 ms.assetid: eda43b20-1c4d-4769-bb87-3942716af13c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], IDvdControl2 interface [DirectShow], described, IDvdControl2Interface, dshow.idvdcontrol2, strmif/IDvdControl2
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], IDvdControl2 interface [DirectShow],described, IDvdControl2Interface, dshow.idvdcontrol2, strmif/IDvdControl2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

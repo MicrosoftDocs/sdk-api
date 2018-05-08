@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionState.SetForgottenKnowledgeRecoveryRange
-title: ISyncSessionState::SetForgottenKnowledgeRecoveryRange method
+title: ISyncSessionState::SetForgottenKnowledgeRecoveryRange
 author: windows-driver-content
 description: Sets the recovery range when the session is performing forgotten knowledge recovery.
 old-location: winsync\isyncsessionstate_setforgottenknowledgerecoveryrange.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 2de6bfb3-bde9-49ee-97eb-acc1671efd0d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncSessionState, ISyncSessionState interface [Windows Sync], SetForgottenKnowledgeRecoveryRange method, ISyncSessionState::SetForgottenKnowledgeRecoveryRange, SetForgottenKnowledgeRecoveryRange method [Windows Sync], SetForgottenKnowledgeRecoveryRange method [Windows Sync], ISyncSessionState interface, SetForgottenKnowledgeRecoveryRange,ISyncSessionState.SetForgottenKnowledgeRecoveryRange, winsync.isyncsessionstate_setforgottenknowledgerecoveryrange, winsync/ISyncSessionState::SetForgottenKnowledgeRecoveryRange
+ms.keywords: ISyncSessionState interface [Windows Sync],SetForgottenKnowledgeRecoveryRange method, ISyncSessionState.SetForgottenKnowledgeRecoveryRange, ISyncSessionState::SetForgottenKnowledgeRecoveryRange, SetForgottenKnowledgeRecoveryRange, SetForgottenKnowledgeRecoveryRange method [Windows Sync], SetForgottenKnowledgeRecoveryRange method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_setforgottenknowledgerecoveryrange, winsync/ISyncSessionState::SetForgottenKnowledgeRecoveryRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncSessionState::SetForgottenKnowledgeRecoveryRange method
+# ISyncSessionState::SetForgottenKnowledgeRecoveryRange
 
 
 ## -description

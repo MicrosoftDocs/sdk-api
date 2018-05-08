@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Content
-title: IPortableDevice::Content method
+title: IPortableDevice::Content
 author: windows-driver-content
 description: The Content method retrieves an interface that you can use to access objects on a device.
 old-location: wpdsdk\iportabledevice_content.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: f65ff0b5-ca3b-498f-9c5e-36a76104d220
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Content method [Windows Portable Devices SDK], Content method [Windows Portable Devices SDK], IPortableDevice interface, Content,IPortableDevice.Content, IPortableDevice, IPortableDevice interface [Windows Portable Devices SDK], Content method, IPortableDevice::Content, IPortableDeviceContent, portabledeviceapi/IPortableDevice::Content, wpdsdk.iportabledevice_content
+ms.keywords: Content, Content method [Windows Portable Devices SDK], Content method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Content method, IPortableDevice.Content, IPortableDevice::Content, IPortableDeviceContent, portabledeviceapi/IPortableDevice::Content, wpdsdk.iportabledevice_content
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDevice::Content method
+# IPortableDevice::Content
 
 
 ## -description

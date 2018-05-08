@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMTSActivity.SynchronousCall
-title: IMTSActivity::SynchronousCall method
+title: IMTSActivity::SynchronousCall
 author: windows-driver-content
 description: Performs the user-defined work synchronously.
 old-location: cos\imtsactivity_synchronouscall.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 4f69956b-fdb3-47c4-9a19-e9f39a8d5e06
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IMTSActivity, IMTSActivity interface [COM+], SynchronousCall method, IMTSActivity::SynchronousCall, SynchronousCall method [COM+], SynchronousCall method [COM+], IMTSActivity interface, SynchronousCall,IMTSActivity.SynchronousCall, _cos_IMTSActivity_SynchronousCall, comsvcs/IMTSActivity::SynchronousCall, cos.imtsactivity_synchronouscall
+ms.keywords: IMTSActivity interface [COM+],SynchronousCall method, IMTSActivity.SynchronousCall, IMTSActivity::SynchronousCall, SynchronousCall, SynchronousCall method [COM+], SynchronousCall method [COM+],IMTSActivity interface, _cos_IMTSActivity_SynchronousCall, comsvcs/IMTSActivity::SynchronousCall, cos.imtsactivity_synchronouscall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMTSActivity::SynchronousCall method
+# IMTSActivity::SynchronousCall
 
 
 ## -description

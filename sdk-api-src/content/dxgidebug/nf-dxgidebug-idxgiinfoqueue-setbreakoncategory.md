@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetBreakOnCategory
-title: IDXGIInfoQueue::SetBreakOnCategory method
+title: IDXGIInfoQueue::SetBreakOnCategory
 author: windows-driver-content
 description: Sets a message category to break on when a message with that category passes through the storage filter.
 old-location: direct3ddxgi\idxgiinfoqueue_setbreakoncategory.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 834C803B-EA7D-4D4C-B74E-9CF7914E0A4E
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], SetBreakOnCategory method, IDXGIInfoQueue::SetBreakOnCategory, SetBreakOnCategory method [DXGI], SetBreakOnCategory method [DXGI], IDXGIInfoQueue interface, SetBreakOnCategory,IDXGIInfoQueue.SetBreakOnCategory, direct3ddxgi.idxgiinfoqueue_setbreakoncategory, dxgidebug/IDXGIInfoQueue::SetBreakOnCategory
+ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnCategory method, IDXGIInfoQueue.SetBreakOnCategory, IDXGIInfoQueue::SetBreakOnCategory, SetBreakOnCategory, SetBreakOnCategory method [DXGI], SetBreakOnCategory method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setbreakoncategory, dxgidebug/IDXGIInfoQueue::SetBreakOnCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::SetBreakOnCategory method
+# IDXGIInfoQueue::SetBreakOnCategory
 
 
 ## -description

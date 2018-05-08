@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.DecryptionBlt
-title: ID3D11VideoContext::DecryptionBlt method
+title: ID3D11VideoContext::DecryptionBlt
 author: windows-driver-content
 description: Writes encrypted data to a protected surface.
 old-location: mf\id3d11videocontext_decryptionblt.htm
 old-project: medfound
 ms.assetid: E693D97A-E21F-4133-B56A-490F92CBD945
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: DecryptionBlt method [Media Foundation], DecryptionBlt method [Media Foundation], ID3D11VideoContext interface, DecryptionBlt,ID3D11VideoContext.DecryptionBlt, ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], DecryptionBlt method, ID3D11VideoContext::DecryptionBlt, d3d11/ID3D11VideoContext::DecryptionBlt, mf.id3d11videocontext_decryptionblt
+ms.date: 5/3/2018
+ms.keywords: DecryptionBlt, DecryptionBlt method [Media Foundation], DecryptionBlt method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecryptionBlt method, ID3D11VideoContext.DecryptionBlt, ID3D11VideoContext::DecryptionBlt, d3d11/ID3D11VideoContext::DecryptionBlt, mf.id3d11videocontext_decryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::DecryptionBlt method
+# ID3D11VideoContext::DecryptionBlt
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal.get_GroupId
-title: IPrincipal::get_GroupId method
+title: IPrincipal::get_GroupId
 author: windows-driver-content
 description: Gets or sets the identifier of the user group that is required to run the tasks that are associated with the principal.
 old-location: taskschd\iprincipal_groupid.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: df4bffa3-ee38-49cd-bec7-28edda48a953
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GroupId property [Task Scheduler], GroupId property [Task Scheduler], IPrincipal interface, IPrincipal, IPrincipal interface [Task Scheduler], GroupId property, IPrincipal.GroupId, IPrincipal::get_GroupId, IPrincipal::put_GroupId, get_GroupId,IPrincipal.get_GroupId, taskschd.iprincipal_groupid, taskschd/IPrincipal::GroupId, taskschd/IPrincipal::get_GroupId, taskschd/IPrincipal::put_GroupId
+ms.keywords: GroupId property [Task Scheduler], GroupId property [Task Scheduler],IPrincipal interface, IPrincipal interface [Task Scheduler],GroupId property, IPrincipal.GroupId, IPrincipal.get_GroupId, IPrincipal::GroupId, IPrincipal::get_GroupId, IPrincipal::put_GroupId, get_GroupId, taskschd.iprincipal_groupid, taskschd/IPrincipal::GroupId, taskschd/IPrincipal::get_GroupId, taskschd/IPrincipal::put_GroupId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IPrincipal::get_GroupId method
+# IPrincipal::get_GroupId
 
 
 ## -description

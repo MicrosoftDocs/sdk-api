@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncFileResult
-title: IOfflineFilesEvents::SyncFileResult method
+title: IOfflineFilesEvents::SyncFileResult
 author: windows-driver-content
 description: Reports the result of synchronizing a particular file.
 old-location: of\iofflinefilesevents_syncfileresult.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 3770e966-7481-449e-9b57-44a7329d26db
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], SyncFileResult method, IOfflineFilesEvents::SyncFileResult, SyncFileResult method [Offline Files], SyncFileResult method [Offline Files], IOfflineFilesEvents interface, SyncFileResult,IOfflineFilesEvents.SyncFileResult, cscobj/IOfflineFilesEvents::SyncFileResult, of.iofflinefilesevents_syncfileresult
+ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncFileResult method, IOfflineFilesEvents.SyncFileResult, IOfflineFilesEvents::SyncFileResult, SyncFileResult, SyncFileResult method [Offline Files], SyncFileResult method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncFileResult, of.iofflinefilesevents_syncfileresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents::SyncFileResult method
+# IOfflineFilesEvents::SyncFileResult
 
 
 ## -description

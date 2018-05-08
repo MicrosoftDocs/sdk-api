@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulk.Start
-title: IPortableDevicePropertiesBulk::Start method
+title: IPortableDevicePropertiesBulk::Start
 author: windows-driver-content
 description: The Start method starts a queued operation.
 old-location: wpdsdk\iportabledevicepropertiesbulk_start.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: a69afdc9-622d-45fc-b71e-6058d9d528b0
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDevicePropertiesBulk, IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK], Start method, IPortableDevicePropertiesBulk::Start, IPortableDevicePropertiesBulkStart, Start method [Windows Portable Devices SDK], Start method [Windows Portable Devices SDK], IPortableDevicePropertiesBulk interface, Start,IPortableDevicePropertiesBulk.Start, portabledeviceapi/IPortableDevicePropertiesBulk::Start, wpdsdk.iportabledevicepropertiesbulk_start
+ms.keywords: IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],Start method, IPortableDevicePropertiesBulk.Start, IPortableDevicePropertiesBulk::Start, IPortableDevicePropertiesBulkStart, Start, Start method [Windows Portable Devices SDK], Start method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, portabledeviceapi/IPortableDevicePropertiesBulk::Start, wpdsdk.iportabledevicepropertiesbulk_start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDevicePropertiesBulk::Start method
+# IPortableDevicePropertiesBulk::Start
 
 
 ## -description

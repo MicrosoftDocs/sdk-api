@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 05fe9700-19e6-4e63-9693-cfa4b019f643
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPartUriCollection, IXpsOMPartUriCollection interface [XPS Documents and Packaging], IXpsOMPartUriCollection interface [XPS Documents and Packaging], described, xps.ixpsomparturicollection, xpsobjectmodel/IXpsOMPartUriCollection
+ms.keywords: IXpsOMPartUriCollection, IXpsOMPartUriCollection interface [XPS Documents and Packaging], IXpsOMPartUriCollection interface [XPS Documents and Packaging],described, xps.ixpsomparturicollection, xpsobjectmodel/IXpsOMPartUriCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

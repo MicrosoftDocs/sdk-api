@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMPushSource.SetPushSourceFlags
-title: IAMPushSource::SetPushSourceFlags method
+title: IAMPushSource::SetPushSourceFlags
 author: windows-driver-content
 description: The SetPushSourceFlags method sets flags that specify the behavior of the filter. Currently, applications should not call this method, because request flags are not supported and an application should not override the flags set by the filter.
 old-location: dshow\iampushsource_setpushsourceflags.htm
 old-project: DirectShow
 ms.assetid: c07bbf7e-8d81-4eba-a5a1-fde02e8e8c35
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMPushSource, IAMPushSource interface [DirectShow], SetPushSourceFlags method, IAMPushSource::SetPushSourceFlags, IAMPushSourceSetPushSourceFlags, SetPushSourceFlags method [DirectShow], SetPushSourceFlags method [DirectShow], IAMPushSource interface, SetPushSourceFlags,IAMPushSource.SetPushSourceFlags, dshow.iampushsource_setpushsourceflags, strmif/IAMPushSource::SetPushSourceFlags
+ms.date: 4/30/2018
+ms.keywords: IAMPushSource interface [DirectShow],SetPushSourceFlags method, IAMPushSource.SetPushSourceFlags, IAMPushSource::SetPushSourceFlags, IAMPushSourceSetPushSourceFlags, SetPushSourceFlags, SetPushSourceFlags method [DirectShow], SetPushSourceFlags method [DirectShow],IAMPushSource interface, dshow.iampushsource_setpushsourceflags, strmif/IAMPushSource::SetPushSourceFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMPushSource::SetPushSourceFlags method
+# IAMPushSource::SetPushSourceFlags
 
 
 ## -description

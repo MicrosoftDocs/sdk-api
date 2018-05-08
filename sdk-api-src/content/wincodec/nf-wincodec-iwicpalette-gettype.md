@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.GetType
-title: IWICPalette::GetType method
+title: IWICPalette::GetType
 author: windows-driver-content
 description: Retrieves the WICBitmapPaletteType that describes the palette.
 old-location: wic\_wic_codec_iwicpalette_gettype.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 62b15cbb-60fd-496f-8dc6-2f5292fe4e76
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetType method [Windows Imaging Component], GetType method [Windows Imaging Component], IWICPalette interface, GetType,IWICPalette.GetType, IWICPalette, IWICPalette interface [Windows Imaging Component], GetType method, IWICPalette::GetType, _wic_codec_iwicpalette_gettype, wic._wic_codec_iwicpalette_gettype, wincodec/IWICPalette::GetType
+ms.keywords: GetType, GetType method [Windows Imaging Component], GetType method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],GetType method, IWICPalette.GetType, IWICPalette::GetType, _wic_codec_iwicpalette_gettype, wic._wic_codec_iwicpalette_gettype, wincodec/IWICPalette::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICPalette::GetType method
+# IWICPalette::GetType
 
 
 ## -description

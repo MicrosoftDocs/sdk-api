@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_IsBroadcast
-title: IAMNetworkStatus::get_IsBroadcast method
+title: IAMNetworkStatus::get_IsBroadcast
 author: windows-driver-content
 description: The get_IsBroadcast method retrieves a value indicating whether the current stream is a broadcast stream.
 old-location: dshow\iamnetworkstatus_get_isbroadcast.htm
 old-project: DirectShow
 ms.assetid: 578fe82b-0c87-47ea-9600-91d68f4c733f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], get_IsBroadcast method, IAMNetworkStatus::get_IsBroadcast, IAMNetworkStatusget_IsBroadcast, dshow.iamnetworkstatus_get_isbroadcast, get_IsBroadcast method [DirectShow], get_IsBroadcast method [DirectShow], IAMNetworkStatus interface, get_IsBroadcast,IAMNetworkStatus.get_IsBroadcast, qnetwork/IAMNetworkStatus::get_IsBroadcast
+ms.date: 4/30/2018
+ms.keywords: IAMNetworkStatus interface [DirectShow],get_IsBroadcast method, IAMNetworkStatus.get_IsBroadcast, IAMNetworkStatus::get_IsBroadcast, IAMNetworkStatusget_IsBroadcast, dshow.iamnetworkstatus_get_isbroadcast, get_IsBroadcast, get_IsBroadcast method [DirectShow], get_IsBroadcast method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_IsBroadcast
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetworkStatus::get_IsBroadcast method
+# IAMNetworkStatus::get_IsBroadcast
 
 
 ## -description

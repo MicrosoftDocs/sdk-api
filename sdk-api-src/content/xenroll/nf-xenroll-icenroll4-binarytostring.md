@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll4.binaryToString
-title: ICEnroll4::binaryToString method
+title: ICEnroll4::binaryToString
 author: windows-driver-content
 description: Converts a binary data BLOB to a string. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_binarytostring.htm
 old-project: SecCrypto
 ms.assetid: 43358d84-ccdd-49a8-be1d-bb5e8ddd1397
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], binaryToString method, ICEnroll4, ICEnroll4 interface [Security], binaryToString method, ICEnroll4::binaryToString, _xen_icenroll4_binarytostring, binaryToString method [Security], binaryToString method [Security], CEnroll object, binaryToString method [Security], ICEnroll4 interface, binaryToString,ICEnroll4.binaryToString, security.icenroll4_binarytostring, xenroll/ICEnroll4::binaryToString
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],binaryToString method, ICEnroll4 interface [Security],binaryToString method, ICEnroll4.binaryToString, ICEnroll4::binaryToString, _xen_icenroll4_binarytostring, binaryToString, binaryToString method [Security], binaryToString method [Security],CEnroll object, binaryToString method [Security],ICEnroll4 interface, security.icenroll4_binarytostring, xenroll/ICEnroll4::binaryToString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll4::binaryToString method
+# ICEnroll4::binaryToString
 
 
 ## -description

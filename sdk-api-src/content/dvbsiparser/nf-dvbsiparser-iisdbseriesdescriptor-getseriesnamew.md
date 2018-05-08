@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetSeriesNameW
-title: IIsdbSeriesDescriptor::GetSeriesNameW method
+title: IIsdbSeriesDescriptor::GetSeriesNameW
 author: windows-driver-content
 description: Gets the series name from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getseriesnamew.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7638dc5b-6542-42f4-9996-f851704098a0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSeriesNameW method [Microsoft TV Technologies], GetSeriesNameW method [Microsoft TV Technologies], IIsdbSeriesDescriptor interface, GetSeriesNameW,IIsdbSeriesDescriptor.GetSeriesNameW, IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], GetSeriesNameW method, IIsdbSeriesDescriptor::GetSeriesNameW, dvbsiparser/IIsdbSeriesDescriptor::GetSeriesNameW, mstv.iisdbseriesdescriptor_getseriesnamew
+ms.keywords: GetSeriesNameW, GetSeriesNameW method [Microsoft TV Technologies], GetSeriesNameW method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetSeriesNameW method, IIsdbSeriesDescriptor.GetSeriesNameW, IIsdbSeriesDescriptor::GetSeriesNameW, dvbsiparser/IIsdbSeriesDescriptor::GetSeriesNameW, mstv.iisdbseriesdescriptor_getseriesnamew
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbSeriesDescriptor::GetSeriesNameW method
+# IIsdbSeriesDescriptor::GetSeriesNameW
 
 
 ## -description

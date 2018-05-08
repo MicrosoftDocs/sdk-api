@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 548d8411-ca03-4316-9adb-3b4b48a740d9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ConnectClient, ConnectClient callback function [RAS], PCONNECT_CLIENT, _mpr_connectclient, routprot/ConnectClient, rras.connectclient
+ms.keywords: ConnectClient, ConnectClient callback function [RAS], PCONNECT_CLIENT, PCONNECT_CLIENT callback, _mpr_connectclient, routprot/ConnectClient, rras.connectclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PCONNECT_CLIENT callback
+# PCONNECT_CLIENT callback function
 
 
 ## -description

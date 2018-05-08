@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSecurity.put_InformationType
-title: IFaxSecurity::put_InformationType method
+title: IFaxSecurity::put_InformationType
 author: windows-driver-content
 description: The IFaxSecurity::InformationType property represents the security information type.
 old-location: fax\_mfax_faxsecurity_informationtype_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4up1_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxSecurity, IFaxSecurity interface [Fax Service], InformationType property, IFaxSecurity.InformationType, IFaxSecurity::get_InformationType, IFaxSecurity::put_InformationType, InformationType property [Fax Service], InformationType property [Fax Service], IFaxSecurity interface, _mfax_faxsecurity.informationtype_cpp, fax._mfax_faxsecurity_informationtype_cpp, faxcomex/IFaxSecurity::InformationType, faxcomex/IFaxSecurity::get_InformationType, faxcomex/IFaxSecurity::put_InformationType, put_InformationType,IFaxSecurity.put_InformationType
+ms.keywords: IFaxSecurity interface [Fax Service],InformationType property, IFaxSecurity.InformationType, IFaxSecurity.put_InformationType, IFaxSecurity::InformationType, IFaxSecurity::get_InformationType, IFaxSecurity::put_InformationType, InformationType property [Fax Service], InformationType property [Fax Service],IFaxSecurity interface, _mfax_faxsecurity.informationtype_cpp, fax._mfax_faxsecurity_informationtype_cpp, faxcomex/IFaxSecurity::InformationType, faxcomex/IFaxSecurity::get_InformationType, faxcomex/IFaxSecurity::put_InformationType, put_InformationType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxSecurity::put_InformationType method
+# IFaxSecurity::put_InformationType
 
 
 ## -description

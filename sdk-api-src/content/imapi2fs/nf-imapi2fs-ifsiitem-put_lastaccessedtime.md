@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.put_LastAccessedTime
-title: IFsiItem::put_LastAccessedTime method
+title: IFsiItem::put_LastAccessedTime
 author: windows-driver-content
 description: Sets the date and time that the directory or file item was last accessed in the file system image.
 old-location: imapi\ifsiitem_put_lastaccessedtime.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 6192bff5-9535-4845-9c99-d5ceeea0335f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiItem, IFsiItem interface [IMAPI], put_LastAccessedTime method, IFsiItem::put_LastAccessedTime, imapi.ifsiitem_put_lastaccessedtime, imapi2fs/IFsiItem::put_LastAccessedTime, put_LastAccessedTime method [IMAPI], put_LastAccessedTime method [IMAPI], IFsiItem interface, put_LastAccessedTime,IFsiItem.put_LastAccessedTime
+ms.keywords: IFsiItem interface [IMAPI],put_LastAccessedTime method, IFsiItem.put_LastAccessedTime, IFsiItem::put_LastAccessedTime, imapi.ifsiitem_put_lastaccessedtime, imapi2fs/IFsiItem::put_LastAccessedTime, put_LastAccessedTime, put_LastAccessedTime method [IMAPI], put_LastAccessedTime method [IMAPI],IFsiItem interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiItem::put_LastAccessedTime method
+# IFsiItem::put_LastAccessedTime
 
 
 ## -description

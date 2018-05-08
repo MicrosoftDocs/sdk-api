@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.IEnumNetSharingEveryConnection.Reset
-title: IEnumNetSharingEveryConnection::Reset method
+title: IEnumNetSharingEveryConnection::Reset
 author: windows-driver-content
 description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.
 old-location: ics\ienumnetsharingeveryconnection_reset.htm
 old-project: ICS
 ms.assetid: c41539b9-2596-4bb4-9194-fa9accde165d
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], Reset method, IEnumNetSharingEveryConnection::Reset, Reset method [ICS/ICF], Reset method [ICS/ICF], IEnumNetSharingEveryConnection interface, Reset,IEnumNetSharingEveryConnection.Reset, _ics_ienumnetsharingeveryconnection_reset, ics.ienumnetsharingeveryconnection_reset, netcon/IEnumNetSharingEveryConnection::Reset
+ms.date: 5/1/2018
+ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Reset method, IEnumNetSharingEveryConnection.Reset, IEnumNetSharingEveryConnection::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_reset, ics.ienumnetsharingeveryconnection_reset, netcon/IEnumNetSharingEveryConnection::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumNetSharingEveryConnection::Reset method
+# IEnumNetSharingEveryConnection::Reset
 
 
 ## -description

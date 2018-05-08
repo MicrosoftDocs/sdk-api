@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetPropertyFlags
-title: ICertPropertyEnrollmentPolicyServer::GetPropertyFlags method
+title: ICertPropertyEnrollmentPolicyServer::GetPropertyFlags
 author: windows-driver-content
 description: Retrieves a value that specifies the default policy server URL.
 old-location: security\icertpropertyenrollmentpolicyserver_getpropertyflags.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 80d1af3c-2d1a-4d19-aed6-8cb2d3e52535
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: DefaultNone, DefaultPolicyServer, GetPropertyFlags method [Security], GetPropertyFlags method [Security], ICertPropertyEnrollmentPolicyServer interface, GetPropertyFlags,ICertPropertyEnrollmentPolicyServer.GetPropertyFlags, ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], GetPropertyFlags method, ICertPropertyEnrollmentPolicyServer::GetPropertyFlags, certenroll/ICertPropertyEnrollmentPolicyServer::GetPropertyFlags, security.icertpropertyenrollmentpolicyserver_getpropertyflags
+ms.keywords: DefaultNone, DefaultPolicyServer, GetPropertyFlags, GetPropertyFlags method [Security], GetPropertyFlags method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPropertyFlags method, ICertPropertyEnrollmentPolicyServer.GetPropertyFlags, ICertPropertyEnrollmentPolicyServer::GetPropertyFlags, certenroll/ICertPropertyEnrollmentPolicyServer::GetPropertyFlags, security.icertpropertyenrollmentpolicyserver_getpropertyflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICertPropertyEnrollmentPolicyServer::GetPropertyFlags method
+# ICertPropertyEnrollmentPolicyServer::GetPropertyFlags
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:evr9.IMFVideoMixerBitmap.ClearAlphaBitmap
-title: IMFVideoMixerBitmap::ClearAlphaBitmap method
+title: IMFVideoMixerBitmap::ClearAlphaBitmap
 author: windows-driver-content
 description: Removes the current bitmap and releases any resources associated with it.
 old-location: mf\imfvideomixerbitmap_clearalphabitmap.htm
 old-project: medfound
 ms.assetid: 79a0f24c-9388-4c64-885f-5d04e671669e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 79a0f24c-9388-4c64-885f-5d04e671669e, ClearAlphaBitmap method [Media Foundation], ClearAlphaBitmap method [Media Foundation], IMFVideoMixerBitmap interface, ClearAlphaBitmap,IMFVideoMixerBitmap.ClearAlphaBitmap, IMFVideoMixerBitmap, IMFVideoMixerBitmap interface [Media Foundation], ClearAlphaBitmap method, IMFVideoMixerBitmap::ClearAlphaBitmap, evr9/IMFVideoMixerBitmap::ClearAlphaBitmap, mf.imfvideomixerbitmap_clearalphabitmap
+ms.date: 5/3/2018
+ms.keywords: 79a0f24c-9388-4c64-885f-5d04e671669e, ClearAlphaBitmap, ClearAlphaBitmap method [Media Foundation], ClearAlphaBitmap method [Media Foundation],IMFVideoMixerBitmap interface, IMFVideoMixerBitmap interface [Media Foundation],ClearAlphaBitmap method, IMFVideoMixerBitmap.ClearAlphaBitmap, IMFVideoMixerBitmap::ClearAlphaBitmap, evr9/IMFVideoMixerBitmap::ClearAlphaBitmap, mf.imfvideomixerbitmap_clearalphabitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoMixerBitmap::ClearAlphaBitmap method
+# IMFVideoMixerBitmap::ClearAlphaBitmap
 
 
 ## -description

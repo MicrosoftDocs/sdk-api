@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IMediaBuffer.GetMaxLength
-title: IMediaBuffer::GetMaxLength method
+title: IMediaBuffer::GetMaxLength
 author: windows-driver-content
 description: The GetMaxLength method retrieves the maximum number of bytes this buffer can hold.
 old-location: dshow\imediabuffer_getmaxlength.htm
 old-project: DirectShow
 ms.assetid: 9e312d3b-4994-4493-861c-cc0f6f112362
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMaxLength method [DirectShow], GetMaxLength method [DirectShow], IMediaBuffer interface, GetMaxLength,IMediaBuffer.GetMaxLength, IMediaBuffer, IMediaBuffer interface [DirectShow], GetMaxLength method, IMediaBuffer::GetMaxLength, IMediaBufferGetMaxLength, dshow.imediabuffer_getmaxlength, mediaobj/IMediaBuffer::GetMaxLength
+ms.date: 4/30/2018
+ms.keywords: GetMaxLength, GetMaxLength method [DirectShow], GetMaxLength method [DirectShow],IMediaBuffer interface, IMediaBuffer interface [DirectShow],GetMaxLength method, IMediaBuffer.GetMaxLength, IMediaBuffer::GetMaxLength, IMediaBufferGetMaxLength, dshow.imediabuffer_getmaxlength, mediaobj/IMediaBuffer::GetMaxLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaBuffer::GetMaxLength method
+# IMediaBuffer::GetMaxLength
 
 
 ## -description

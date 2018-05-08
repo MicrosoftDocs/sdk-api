@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentHandler.get_Name
-title: ITAgentHandler::get_Name method
+title: ITAgentHandler::get_Name
 author: windows-driver-content
 description: The get_Name method gets the agent handler name.
 old-location: tapi3\itagenthandler_get_name.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 18596742-9a0e-44c1-97e1-1d13d84cc10c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgentHandler, ITAgentHandler interface [TAPI 2.2], get_Name method, ITAgentHandler::get_Name, _tapi3_itagenthandler_get_name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2], ITAgentHandler interface, get_Name,ITAgentHandler.get_Name, tapi3.itagenthandler_get_name, tapi3cc/ITAgentHandler::get_Name
+ms.keywords: ITAgentHandler interface [TAPI 2.2],get_Name method, ITAgentHandler.get_Name, ITAgentHandler::get_Name, _tapi3_itagenthandler_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_name, tapi3cc/ITAgentHandler::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentHandler::get_Name method
+# ITAgentHandler::get_Name
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_GetImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getimagelist.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: TabCtrl_GetImageList, TabCtrl_GetImageList macro [Windows Controls], _win32_TabCtrl_GetImageList, _win32_TabCtrl_GetImageList_cpp, commctrl/TabCtrl_GetImageList, controls.TabCtrl_GetImageList, controls._win32_TabCtrl_GetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices

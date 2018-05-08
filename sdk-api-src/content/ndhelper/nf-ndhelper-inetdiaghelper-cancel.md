@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Cancel
-title: INetDiagHelper::Cancel method
+title: INetDiagHelper::Cancel
 author: windows-driver-content
 description: Cancels an ongoing diagnosis or repair.
 old-location: ndf\inetdiaghelpe_cancel.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 0df79e75-f3a6-43fd-82a3-2798ac1d99cd
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Cancel method [NDF], Cancel method [NDF], INetDiagHelper interface, Cancel,INetDiagHelper.Cancel, INetDiagHelper, INetDiagHelper interface [NDF], Cancel method, INetDiagHelper::Cancel, ndf.inetdiaghelpe_cancel, ndhelper/INetDiagHelper::Cancel
+ms.keywords: Cancel, Cancel method [NDF], Cancel method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],Cancel method, INetDiagHelper.Cancel, INetDiagHelper::Cancel, ndf.inetdiaghelpe_cancel, ndhelper/INetDiagHelper::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::Cancel method
+# INetDiagHelper::Cancel
 
 
 ## -description

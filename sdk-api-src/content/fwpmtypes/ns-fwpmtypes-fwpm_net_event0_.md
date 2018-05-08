@@ -68,14 +68,42 @@ A <a href="https://msdn.microsoft.com/2fbb805d-d38b-4918-a291-fe1000ac2ea2">FWPM
 A <a href="https://msdn.microsoft.com/75dd3b0f-d809-421e-ac70-b8bf5d38757c">FWPM_NET_EVENT_TYPE</a> value that specifies the type of event.
 
 
-#### - classifyDrop
+### -field ikeMmFailure
+
+Address of an <a href="https://msdn.microsoft.com/66845a68-e465-44d9-afc0-3d95b10cc69f">FWPM_NET_EVENT_IKEEXT_MM_FAILURE0</a> structure that contains information about  an IKE main mode failure.
+
+Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE</b>.
+
+
+### -field ikeQmFailure
+
+Address of an <a href="https://msdn.microsoft.com/a9cffcee-67a2-4a04-9ff1-85e2e02fa9a9">FWPM_NET_EVENT_IKEEXT_QM_FAILURE0</a> structure that contains information about  an IKE quick mode failure.
+
+Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_QM_FAILURE</b>.
+
+
+### -field ikeEmFailure
+
+Address of an <a href="https://msdn.microsoft.com/53b28166-8f19-4891-aeb0-603628d95053">FWPM_NET_EVENT_IKEEXT_EM_FAILURE0</a> structure that contains information about  an IKE user mode failure.
+
+Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE</b>.
+
+
+### -field classifyDrop
 
 Address of an <a href="https://msdn.microsoft.com/9688ff75-292f-44f2-b3ed-41a9dd1ef918">FWPM_NET_EVENT_CLASSIFY_DROP0</a> structure that contains information about  a drop event.
 
 Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_CLASSIFY_DROP</b>.
 
 
-#### - idpDrop
+### -field ipsecDrop
+
+Address of an <a href="https://msdn.microsoft.com/ef970199-3603-4012-9033-afa4a7301fea">FWPM_NET_EVENT_IPSEC_KERNEL_DROP0</a> structure that contains information about an IPsec kernel drop event.
+
+Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IPSEC_KERNEL_DROP</b>.
+
+
+### -field idpDrop
 
 Address of an <a href="https://msdn.microsoft.com/7b28a81f-bf80-4739-989e-a276a0ca8a3a">FWPM_NET_EVENT_IPSEC_DOSP_DROP0</a> structure that contains information about an IPsec DoS Protection event.
 
@@ -83,34 +111,6 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_IPSEC_DOSP_DROP</b>.
 
 <div class="alert"><b>Note</b>  Available only in Windows Server 2008 R2, Windows 7, and later.</div>
 <div> </div>
-
-#### - ikeEmFailure
-
-Address of an <a href="https://msdn.microsoft.com/53b28166-8f19-4891-aeb0-603628d95053">FWPM_NET_EVENT_IKEEXT_EM_FAILURE0</a> structure that contains information about  an IKE user mode failure.
-
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE</b>.
-
-
-#### - ikeMmFailure
-
-Address of an <a href="https://msdn.microsoft.com/66845a68-e465-44d9-afc0-3d95b10cc69f">FWPM_NET_EVENT_IKEEXT_MM_FAILURE0</a> structure that contains information about  an IKE main mode failure.
-
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE</b>.
-
-
-#### - ikeQmFailure
-
-Address of an <a href="https://msdn.microsoft.com/a9cffcee-67a2-4a04-9ff1-85e2e02fa9a9">FWPM_NET_EVENT_IKEEXT_QM_FAILURE0</a> structure that contains information about  an IKE quick mode failure.
-
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_QM_FAILURE</b>.
-
-
-#### - ipsecDrop
-
-Address of an <a href="https://msdn.microsoft.com/ef970199-3603-4012-9033-afa4a7301fea">FWPM_NET_EVENT_IPSEC_KERNEL_DROP0</a> structure that contains information about an IPsec kernel drop event.
-
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IPSEC_KERNEL_DROP</b>.
-
 
 ## -see-also
 

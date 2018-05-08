@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.CommitPendingInput
-title: ITextInputPanel::CommitPendingInput method
+title: ITextInputPanel::CommitPendingInput
 author: windows-driver-content
 description: Sends collected ink to the recognizer and posts the recognition result.
 old-location: tablet\itextinputpanel_commitpendinginput.htm
 old-project: tablet
 ms.assetid: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94, CommitPendingInput method [Tablet PC], CommitPendingInput method [Tablet PC], ITextInputPanel interface, CommitPendingInput,ITextInputPanel.CommitPendingInput, ITextInputPanel, ITextInputPanel interface [Tablet PC], CommitPendingInput method, ITextInputPanel::CommitPendingInput, peninputpanel/ITextInputPanel::CommitPendingInput, tablet.itextinputpanel_commitpendinginput
+ms.date: 5/2/2018
+ms.keywords: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94, CommitPendingInput, CommitPendingInput method [Tablet PC], CommitPendingInput method [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CommitPendingInput method, ITextInputPanel.CommitPendingInput, ITextInputPanel::CommitPendingInput, peninputpanel/ITextInputPanel::CommitPendingInput, tablet.itextinputpanel_commitpendinginput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanel::CommitPendingInput method
+# ITextInputPanel::CommitPendingInput
 
 
 ## -description

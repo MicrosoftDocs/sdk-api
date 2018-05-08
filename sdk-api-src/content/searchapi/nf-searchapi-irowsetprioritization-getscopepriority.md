@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IRowsetPrioritization.GetScopePriority
-title: IRowsetPrioritization::GetScopePriority method
+title: IRowsetPrioritization::GetScopePriority
 author: windows-driver-content
 description: Retrieves the current indexer prioritization level for the scope specified by this query.
 old-location: search\_search_IRowsetPrioritization_GetScopePriority.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\getscopepriority.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetScopePriority method [search], GetScopePriority method [search], IRowsetPrioritization interface, GetScopePriority,IRowsetPrioritization.GetScopePriority, IRowsetPrioritization, IRowsetPrioritization interface [search], GetScopePriority method, IRowsetPrioritization::GetScopePriority, _search_IRowsetPrioritization_GetScopePriority, search._search_IRowsetPrioritization_GetScopePriority, searchapi/IRowsetPrioritization::GetScopePriority
+ms.date: 5/4/2018
+ms.keywords: GetScopePriority, GetScopePriority method [search], GetScopePriority method [search],IRowsetPrioritization interface, IRowsetPrioritization interface [search],GetScopePriority method, IRowsetPrioritization.GetScopePriority, IRowsetPrioritization::GetScopePriority, _search_IRowsetPrioritization_GetScopePriority, search._search_IRowsetPrioritization_GetScopePriority, searchapi/IRowsetPrioritization::GetScopePriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRowsetPrioritization::GetScopePriority method
+# IRowsetPrioritization::GetScopePriority
 
 
 ## -description

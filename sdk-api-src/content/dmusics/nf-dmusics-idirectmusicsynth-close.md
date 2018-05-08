@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Close
-title: IDirectMusicSynth::Close method
+title: IDirectMusicSynth::Close
 author: windows-driver-content
 description: The Close method closes a DirectMusic &#0034;port&#0034;, which is a DirectMusic term for a device that sends or receives music data.
 old-location: audio\idirectmusicsynth_close.htm
 old-project: audio
 ms.assetid: 275d9ad3-9dde-4cfb-a67f-24da3a0ad2ce
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: Close method [Audio Devices], Close method [Audio Devices], IDirectMusicSynth interface, Close,IDirectMusicSynth.Close, IDirectMusicSynth, IDirectMusicSynth interface [Audio Devices], Close method, IDirectMusicSynth::Close, audio.idirectmusicsynth_close, audmp-routines_e0ff55d1-46e2-42a0-afe4-a4129e663ddd.xml, dmusics/IDirectMusicSynth::Close
+ms.date: 5/1/2018
+ms.keywords: Close, Close method [Audio Devices], Close method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Close method, IDirectMusicSynth.Close, IDirectMusicSynth::Close, audio.idirectmusicsynth_close, audmp-routines_e0ff55d1-46e2-42a0-afe4-a4129e663ddd.xml, dmusics/IDirectMusicSynth::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectMusicSynth::Close method
+# IDirectMusicSynth::Close
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient.Initialize
-title: IAudioClient::Initialize method
+title: IAudioClient::Initialize
 author: windows-driver-content
 description: The Initialize method initializes the audio stream.
 old-location: coreaudio\iaudioclient_initialize.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: eb778503-06f8-4705-9f8d-9a4fd886ae27
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioClient, IAudioClient interface [Core Audio], Initialize method, IAudioClient::Initialize, IAudioClientInitialize, Initialize method [Core Audio], Initialize method [Core Audio], IAudioClient interface, Initialize,IAudioClient.Initialize, audioclient/IAudioClient::Initialize, coreaudio.iaudioclient_initialize
+ms.keywords: IAudioClient interface [Core Audio],Initialize method, IAudioClient.Initialize, IAudioClient::Initialize, IAudioClientInitialize, Initialize, Initialize method [Core Audio], Initialize method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Initialize, coreaudio.iaudioclient_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioClient::Initialize method
+# IAudioClient::Initialize
 
 
 ## -description

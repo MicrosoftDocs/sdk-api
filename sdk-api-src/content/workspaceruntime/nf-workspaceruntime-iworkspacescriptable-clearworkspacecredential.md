@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable.ClearWorkspaceCredential
-title: IWorkspaceScriptable::ClearWorkspaceCredential method
+title: IWorkspaceScriptable::ClearWorkspaceCredential
 author: windows-driver-content
 description: Deletes the user credentials associated with the specified connection ID.
 old-location: termserv\iworkspacescriptable_clearworkspacecredential.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: f21df395-3ff7-43c0-b1cd-010ae2c1d16b
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ClearWorkspaceCredential method [Remote Desktop Services], ClearWorkspaceCredential method [Remote Desktop Services], IWorkspaceScriptable interface, ClearWorkspaceCredential method [Remote Desktop Services], IWorkspaceScriptable2 interface, ClearWorkspaceCredential method [Remote Desktop Services], IWorkspaceScriptable3 interface, ClearWorkspaceCredential method [Remote Desktop Services], Workspace object, ClearWorkspaceCredential,IWorkspaceScriptable.ClearWorkspaceCredential, IWorkspaceScriptable, IWorkspaceScriptable interface [Remote Desktop Services], ClearWorkspaceCredential method, IWorkspaceScriptable2 interface [Remote Desktop Services], ClearWorkspaceCredential method, IWorkspaceScriptable2::ClearWorkspaceCredential, IWorkspaceScriptable3 interface [Remote Desktop Services], ClearWorkspaceCredential method, IWorkspaceScriptable3::ClearWorkspaceCredential, IWorkspaceScriptable::ClearWorkspaceCredential, Workspace object [Remote Desktop Services], ClearWorkspaceCredential method, termserv.iworkspacescriptable_clearworkspacecredential, workspaceruntime/IWorkspaceScriptable2::ClearWorkspaceCredential, workspaceruntime/IWorkspaceScriptable3::ClearWorkspaceCredential, workspaceruntime/IWorkspaceScriptable::ClearWorkspaceCredential
+ms.keywords: ClearWorkspaceCredential, ClearWorkspaceCredential method [Remote Desktop Services], ClearWorkspaceCredential method [Remote Desktop Services],IWorkspaceScriptable interface, ClearWorkspaceCredential method [Remote Desktop Services],IWorkspaceScriptable2 interface, ClearWorkspaceCredential method [Remote Desktop Services],IWorkspaceScriptable3 interface, ClearWorkspaceCredential method [Remote Desktop Services],Workspace object, IWorkspaceScriptable interface [Remote Desktop Services],ClearWorkspaceCredential method, IWorkspaceScriptable.ClearWorkspaceCredential, IWorkspaceScriptable2 interface [Remote Desktop Services],ClearWorkspaceCredential method, IWorkspaceScriptable2::ClearWorkspaceCredential, IWorkspaceScriptable3 interface [Remote Desktop Services],ClearWorkspaceCredential method, IWorkspaceScriptable3::ClearWorkspaceCredential, IWorkspaceScriptable::ClearWorkspaceCredential, Workspace object [Remote Desktop Services],ClearWorkspaceCredential method, termserv.iworkspacescriptable_clearworkspacecredential, workspaceruntime/IWorkspaceScriptable2::ClearWorkspaceCredential, workspaceruntime/IWorkspaceScriptable3::ClearWorkspaceCredential, workspaceruntime/IWorkspaceScriptable::ClearWorkspaceCredential
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWorkspaceScriptable::ClearWorkspaceCredential method
+# IWorkspaceScriptable::ClearWorkspaceCredential
 
 
 ## -description

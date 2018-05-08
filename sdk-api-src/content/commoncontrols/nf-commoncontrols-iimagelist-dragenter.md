@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.DragEnter
-title: IImageList::DragEnter method
+title: IImageList::DragEnter
 author: windows-driver-content
 description: Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window.
 old-location: controls\IImageList_DragEnter.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragenter.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: DragEnter method [Windows Controls], DragEnter method [Windows Controls], IImageList interface, DragEnter,IImageList.DragEnter, IImageList, IImageList interface [Windows Controls], DragEnter method, IImageList::DragEnter, comctl_IImageList_DragEnter, comctl_IImageList_DragEnter_cpp, commoncontrols/IImageList::DragEnter, controls.IImageList_DragEnter, controls.comctl_IImageList_DragEnter
+ms.date: 4/27/2018
+ms.keywords: DragEnter, DragEnter method [Windows Controls], DragEnter method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragEnter method, IImageList.DragEnter, IImageList::DragEnter, comctl_IImageList_DragEnter, comctl_IImageList_DragEnter_cpp, commoncontrols/IImageList::DragEnter, controls.IImageList_DragEnter, controls.comctl_IImageList_DragEnter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::DragEnter method
+# IImageList::DragEnter
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntryCollection.get__NewEnum
-title: IUpdateHistoryEntryCollection::get__NewEnum method
+title: IUpdateHistoryEntryCollection::get__NewEnum
 author: windows-driver-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\iupdatehistoryentrycollection__newenum.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: ff34cf19-c189-41ce-a14e-c833e6366487
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateHistoryEntryCollection, IUpdateHistoryEntryCollection interface [Windows Update Agent], _NewEnum property, IUpdateHistoryEntryCollection._NewEnum, IUpdateHistoryEntryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent], IUpdateHistoryEntryCollection interface, get__NewEnum,IUpdateHistoryEntryCollection.get__NewEnum, wua.iupdatehistoryentrycollection__newenum, wuapi/IUpdateHistoryEntryCollection::_NewEnum, wuapi/IUpdateHistoryEntryCollection::get__NewEnum
+ms.keywords: IUpdateHistoryEntryCollection interface [Windows Update Agent],_NewEnum property, IUpdateHistoryEntryCollection._NewEnum, IUpdateHistoryEntryCollection.get__NewEnum, IUpdateHistoryEntryCollection::_NewEnum, IUpdateHistoryEntryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateHistoryEntryCollection interface, get__NewEnum, wua.iupdatehistoryentrycollection__newenum, wuapi/IUpdateHistoryEntryCollection::_NewEnum, wuapi/IUpdateHistoryEntryCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateHistoryEntryCollection::get__NewEnum method
+# IUpdateHistoryEntryCollection::get__NewEnum
 
 
 ## -description

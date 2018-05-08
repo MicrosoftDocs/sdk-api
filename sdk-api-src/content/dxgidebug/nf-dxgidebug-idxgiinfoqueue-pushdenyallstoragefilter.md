@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushDenyAllStorageFilter
-title: IDXGIInfoQueue::PushDenyAllStorageFilter method
+title: IDXGIInfoQueue::PushDenyAllStorageFilter
 author: windows-driver-content
 description: Pushes a deny-all storage filter onto the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushdenyallstoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 7985F43F-B0D3-4FF1-83D9-EEB568B29664
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], PushDenyAllStorageFilter method, IDXGIInfoQueue::PushDenyAllStorageFilter, PushDenyAllStorageFilter method [DXGI], PushDenyAllStorageFilter method [DXGI], IDXGIInfoQueue interface, PushDenyAllStorageFilter,IDXGIInfoQueue.PushDenyAllStorageFilter, direct3ddxgi.idxgiinfoqueue_pushdenyallstoragefilter, dxgidebug/IDXGIInfoQueue::PushDenyAllStorageFilter
+ms.keywords: IDXGIInfoQueue interface [DXGI],PushDenyAllStorageFilter method, IDXGIInfoQueue.PushDenyAllStorageFilter, IDXGIInfoQueue::PushDenyAllStorageFilter, PushDenyAllStorageFilter, PushDenyAllStorageFilter method [DXGI], PushDenyAllStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushdenyallstoragefilter, dxgidebug/IDXGIInfoQueue::PushDenyAllStorageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::PushDenyAllStorageFilter method
+# IDXGIInfoQueue::PushDenyAllStorageFilter
 
 
 ## -description

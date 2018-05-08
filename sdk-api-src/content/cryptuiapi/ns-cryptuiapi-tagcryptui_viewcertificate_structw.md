@@ -7,7 +7,7 @@ old-location: security\cryptui_viewcertificate_struct.htm
 old-project: SecCrypto
 ms.assetid: 7bbd58df-3a1b-4d82-9a90-7c94260a7165
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPTUI_VIEWCERTIFICATE_STRUCTW, CRYPTUI_ACCEPT_DECLINE_STYLE, CRYPTUI_CACHE_ONLY_URL_RETRIEVAL, CRYPTUI_DISABLE_ADDTOSTORE, CRYPTUI_DISABLE_EDITPROPERTIES, CRYPTUI_DISABLE_EXPORT, CRYPTUI_DISABLE_HTMLLINK, CRYPTUI_DISABLE_ISSUERSTATEMENT, CRYPTUI_DONT_OPEN_STORES, CRYPTUI_ENABLE_ADDTOSTORE, CRYPTUI_ENABLE_EDITPROPERTIES, CRYPTUI_ENABLE_REVOCATION_CHECKING, CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN, CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CRYPTUI_ENABLE_REVOCATION_CHECK_END_CERT, CRYPTUI_HIDE_DETAILPAGE, CRYPTUI_HIDE_HIERARCHYPAGE, CRYPTUI_IGNORE_UNTRUSTED_ROOT, CRYPTUI_ONLY_OPEN_ROOT_STORE, CRYPTUI_VIEWCERTIFICATE_STRUCT, CRYPTUI_VIEWCERTIFICATE_STRUCT structure [Security], CRYPTUI_VIEWCERTIFICATE_STRUCTA, CRYPTUI_VIEWCERTIFICATE_STRUCTW, CRYPTUI_WARN_REMOTE_TRUST, CRYPTUI_WARN_UNTRUSTED_ROOT, PCCRYPTUI_VIEWCERTIFICATE_STRUCT, PCCRYPTUI_VIEWCERTIFICATE_STRUCT structure pointer [Security], PCRYPTUI_VIEWCERTIFICATE_STRUCT, PCRYPTUI_VIEWCERTIFICATE_STRUCT structure pointer [Security], cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCT, cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCTA, cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCTW, cryptuiapi/PCCRYPTUI_VIEWCERTIFICATE_STRUCT, cryptuiapi/PCRYPTUI_VIEWCERTIFICATE_STRUCT, security.cryptui_viewcertificate_struct, security.cryptui_viewcertificate_structw, tagCRYPTUI_VIEWCERTIFICATE_STRUCTW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -310,6 +310,16 @@ An array of pointers to null-terminated strings that contain the purposes for wh
 The number of purposes in the <b>rgszPurposes</b> array.
 
 
+### -field pCryptProviderData
+
+If the <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> function has already been called for the certificate and the <a href="https://msdn.microsoft.com/ca2ca612-2da6-4fe1-8b1e-bc6307eb92af">WTHelperProvDataFromStateData</a> function was also called, pass in a pointer to the state structure that was acquired from the call to <b>WTHelperProvDataFromStateData</b>. If <b>pCryptProviderData</b> is set,  <b>fpCryptProviderDataTrustedUsage</b>, <b>idxSigner</b>, <b>idxCert</b>, and <b>fCounterSignature</b> must also be set.
+
+
+### -field hWVTStateData
+
+If <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> has already been called for the certificate and <a href="https://msdn.microsoft.com/ca2ca612-2da6-4fe1-8b1e-bc6307eb92af">WTHelperProvDataFromStateData</a> was not called, pass in the <b>hWVTStateData</b> member of the <a href="https://msdn.microsoft.com/8fb68f44-6f69-4eac-90de-02689e3e86cf">WINTRUST_DATA</a> structure. If <b>hWVTStateData</b> is set,  <b>fpCryptProviderDataTrustedUsage</b>, <b>idxSigner</b>, <b>idxCert</b>, and <b>fCounterSignature</b> must also be set.
+
+
 ### -field fpCryptProviderDataTrustedUsage
 
 If <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> was called, this is the result of whether the certificate was trusted.
@@ -358,16 +368,6 @@ An array of property pages to add to the dialog box.                        Each
 ### -field nStartPage
 
 The index of the initial page that will be displayed.  If the highest bit (0x8000) is set, the index is assumed to index <b>rgPropSheetPages</b> (after the highest bit has been stripped off, for example, 0x8000 will indicate the first page in <b>rgPropSheetPages</b>).  If the highest bit is zero,  <b>nStartPage</b> will be the starting index of the default certificate dialog box property pages.
-
-
-#### - hWVTStateData
-
-If <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> has already been called for the certificate and <a href="https://msdn.microsoft.com/ca2ca612-2da6-4fe1-8b1e-bc6307eb92af">WTHelperProvDataFromStateData</a> was not called, pass in the <b>hWVTStateData</b> member of the <a href="https://msdn.microsoft.com/8fb68f44-6f69-4eac-90de-02689e3e86cf">WINTRUST_DATA</a> structure. If <b>hWVTStateData</b> is set,  <b>fpCryptProviderDataTrustedUsage</b>, <b>idxSigner</b>, <b>idxCert</b>, and <b>fCounterSignature</b> must also be set.
-
-
-#### - pCryptProviderData
-
-If the <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> function has already been called for the certificate and the <a href="https://msdn.microsoft.com/ca2ca612-2da6-4fe1-8b1e-bc6307eb92af">WTHelperProvDataFromStateData</a> function was also called, pass in a pointer to the state structure that was acquired from the call to <b>WTHelperProvDataFromStateData</b>. If <b>pCryptProviderData</b> is set,  <b>fpCryptProviderDataTrustedUsage</b>, <b>idxSigner</b>, <b>idxCert</b>, and <b>fCounterSignature</b> must also be set.
 
 
 ## -see-also

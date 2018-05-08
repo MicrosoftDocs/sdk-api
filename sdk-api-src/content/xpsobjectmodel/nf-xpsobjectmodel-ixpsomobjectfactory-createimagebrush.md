@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateImageBrush
-title: IXpsOMObjectFactory::CreateImageBrush method
+title: IXpsOMObjectFactory::CreateImageBrush
 author: windows-driver-content
 description: Creates an IXpsOMImageBrush interface.
 old-location: xps\ixpsomobjectfactory_createimagebrush.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f271e152-8120-49c4-804d-069e224c6597
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateImageBrush method [XPS Documents and Packaging], CreateImageBrush method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateImageBrush,IXpsOMObjectFactory.CreateImageBrush, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateImageBrush method, IXpsOMObjectFactory::CreateImageBrush, xps.ixpsomobjectfactory_createimagebrush, xpsobjectmodel/IXpsOMObjectFactory::CreateImageBrush
+ms.keywords: CreateImageBrush, CreateImageBrush method [XPS Documents and Packaging], CreateImageBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateImageBrush method, IXpsOMObjectFactory.CreateImageBrush, IXpsOMObjectFactory::CreateImageBrush, xps.ixpsomobjectfactory_createimagebrush, xpsobjectmodel/IXpsOMObjectFactory::CreateImageBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateImageBrush method
+# IXpsOMObjectFactory::CreateImageBrush
 
 
 ## -description

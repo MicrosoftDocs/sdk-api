@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.SetSimulatedProfileInfo
-title: INetworkListManager::SetSimulatedProfileInfo method
+title: INetworkListManager::SetSimulatedProfileInfo
 author: windows-driver-content
 description: The SetSimulatedProfileInfo method applies a specific set of connection profile values to the internet connection profile in support of the simulation of specific metered internet connection conditions.
 old-location: nla\inetworklistmanager_setsimulatedprofileinfo.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 168501A6-F8B2-4635-97BB-538994074D2C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetworkListManager, INetworkListManager interface [Network Awareness], SetSimulatedProfileInfo method, INetworkListManager::SetSimulatedProfileInfo, SetSimulatedProfileInfo method [Network Awareness], SetSimulatedProfileInfo method [Network Awareness], INetworkListManager interface, SetSimulatedProfileInfo,INetworkListManager.SetSimulatedProfileInfo, netlistmgr/INetworkListManager::SetSimulatedProfileInfo, nla.inetworklistmanager_setsimulatedprofileinfo
+ms.keywords: INetworkListManager interface [Network Awareness],SetSimulatedProfileInfo method, INetworkListManager.SetSimulatedProfileInfo, INetworkListManager::SetSimulatedProfileInfo, SetSimulatedProfileInfo, SetSimulatedProfileInfo method [Network Awareness], SetSimulatedProfileInfo method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::SetSimulatedProfileInfo, nla.inetworklistmanager_setsimulatedprofileinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkListManager::SetSimulatedProfileInfo method
+# INetworkListManager::SetSimulatedProfileInfo
 
 
 ## -description

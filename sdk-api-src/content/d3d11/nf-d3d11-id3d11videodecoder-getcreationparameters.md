@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoDecoder.GetCreationParameters
-title: ID3D11VideoDecoder::GetCreationParameters method
+title: ID3D11VideoDecoder::GetCreationParameters
 author: windows-driver-content
 description: Gets the parameters that were used to create the decoder.
 old-location: mf\id3d11videodecoder_getcreationparameters.htm
 old-project: medfound
 ms.assetid: 6F104317-19C2-4FCB-8CA7-34FD0C237822
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation], ID3D11VideoDecoder interface, GetCreationParameters,ID3D11VideoDecoder.GetCreationParameters, ID3D11VideoDecoder, ID3D11VideoDecoder interface [Media Foundation], GetCreationParameters method, ID3D11VideoDecoder::GetCreationParameters, d3d11/ID3D11VideoDecoder::GetCreationParameters, mf.id3d11videodecoder_getcreationparameters
+ms.date: 5/3/2018
+ms.keywords: GetCreationParameters, GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation],ID3D11VideoDecoder interface, ID3D11VideoDecoder interface [Media Foundation],GetCreationParameters method, ID3D11VideoDecoder.GetCreationParameters, ID3D11VideoDecoder::GetCreationParameters, d3d11/ID3D11VideoDecoder::GetCreationParameters, mf.id3d11videodecoder_getcreationparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoDecoder::GetCreationParameters method
+# ID3D11VideoDecoder::GetCreationParameters
 
 
 ## -description

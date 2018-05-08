@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowConnection.Stop
-title: IWRdsProtocolShadowConnection::Stop method
+title: IWRdsProtocolShadowConnection::Stop
 author: windows-driver-content
 description: Notifies the protocol that shadowing has stopped.
 old-location: termserv\iwrdsprotocolshadowconnection_stop.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: b6abe698-a390-485a-9a31-823ff25351c2
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolShadowConnection, IWRdsProtocolShadowConnection interface [Remote Desktop Services], Stop method, IWRdsProtocolShadowConnection::Stop, Stop method [Remote Desktop Services], Stop method [Remote Desktop Services], IWRdsProtocolShadowConnection interface, Stop,IWRdsProtocolShadowConnection.Stop, termserv.iwrdsprotocolshadowconnection_stop, wtsprotocol/IWRdsProtocolShadowConnection::Stop
+ms.keywords: IWRdsProtocolShadowConnection interface [Remote Desktop Services],Stop method, IWRdsProtocolShadowConnection.Stop, IWRdsProtocolShadowConnection::Stop, Stop, Stop method [Remote Desktop Services], Stop method [Remote Desktop Services],IWRdsProtocolShadowConnection interface, termserv.iwrdsprotocolshadowconnection_stop, wtsprotocol/IWRdsProtocolShadowConnection::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolShadowConnection::Stop method
+# IWRdsProtocolShadowConnection::Stop
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.EnumUIElements
-title: ITfUIElementMgr::EnumUIElements method
+title: ITfUIElementMgr::EnumUIElements
 author: windows-driver-content
 description: The ITfUIElementMgr::EnumUIElements method returns IEnumTfUIElements interface pointer to enumerate the ITfUIElement.
 old-location: tsf\itfuielementmgr_enumuielements.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: cdede376-be18-4deb-ae79-594aebb085a6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnumUIElements method [Text Services Framework], EnumUIElements method [Text Services Framework], ITfUIElementMgr interface, EnumUIElements,ITfUIElementMgr.EnumUIElements, ITfUIElementMgr, ITfUIElementMgr interface [Text Services Framework], EnumUIElements method, ITfUIElementMgr::EnumUIElements, msctf/ITfUIElementMgr::EnumUIElements, tsf.itfuielementmgr_enumuielements
+ms.keywords: EnumUIElements, EnumUIElements method [Text Services Framework], EnumUIElements method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],EnumUIElements method, ITfUIElementMgr.EnumUIElements, ITfUIElementMgr::EnumUIElements, msctf/ITfUIElementMgr::EnumUIElements, tsf.itfuielementmgr_enumuielements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfUIElementMgr::EnumUIElements method
+# ITfUIElementMgr::EnumUIElements
 
 
 ## -description

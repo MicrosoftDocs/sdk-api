@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSize
-title: IPropertyValue::GetSize method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the Size value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getsize.htm
 old-project: WinRT
 ms.assetid: c864cf0e-8e7e-44b0-93dc-3d2d9f2326a7
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetSize method [Windows Runtime], GetSize method [Windows Runtime], IPropertyValue interface, GetSize,IPropertyValue.GetSize, IPropertyValue, IPropertyValue interface [Windows Runtime], GetSize method, IPropertyValue::GetSize, windows/IPropertyValue::GetSize, winrt.ipropertyvalue_getsize
+ms.date: 5/4/2018
+ms.keywords: GetSize, GetSize method [Windows Runtime], GetSize method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSize method, IPropertyValue.GetSize, IPropertyValue.IPropertyValue, IPropertyValue::GetSize, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSize, winrt.ipropertyvalue_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetSize method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

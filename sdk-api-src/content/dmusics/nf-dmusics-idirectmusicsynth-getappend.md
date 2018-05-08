@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.GetAppend
-title: IDirectMusicSynth::GetAppend method
+title: IDirectMusicSynth::GetAppend
 author: windows-driver-content
 description: The GetAppend method outputs the number of additional wave samples that the DirectMusic &#0034;port&#0034; needs to have appended to the end of a download buffer.
 old-location: audio\idirectmusicsynth_getappend.htm
 old-project: audio
 ms.assetid: fc250e51-2e7d-4406-a8cf-7b7430a0ef7c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetAppend method [Audio Devices], GetAppend method [Audio Devices], IDirectMusicSynth interface, GetAppend,IDirectMusicSynth.GetAppend, IDirectMusicSynth, IDirectMusicSynth interface [Audio Devices], GetAppend method, IDirectMusicSynth::GetAppend, audio.idirectmusicsynth_getappend, audmp-routines_691b2730-4c18-43c7-b5cd-1ee1f94c5e3d.xml, dmusics/IDirectMusicSynth::GetAppend
+ms.date: 5/1/2018
+ms.keywords: GetAppend, GetAppend method [Audio Devices], GetAppend method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetAppend method, IDirectMusicSynth.GetAppend, IDirectMusicSynth::GetAppend, audio.idirectmusicsynth_getappend, audmp-routines_691b2730-4c18-43c7-b5cd-1ee1f94c5e3d.xml, dmusics/IDirectMusicSynth::GetAppend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectMusicSynth::GetAppend method
+# IDirectMusicSynth::GetAppend
 
 
 ## -description

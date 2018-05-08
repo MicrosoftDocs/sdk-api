@@ -7,7 +7,7 @@ old-location: controls\NMTTCUSTOMDRAW.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\nmttcustomdraw.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: "*LPNMTTCUSTOMDRAW, LPNMTTCUSTOMDRAW, LPNMTTCUSTOMDRAW structure pointer [Windows Controls], NMTTCUSTOMDRAW, NMTTCUSTOMDRAW structure [Windows Controls], _win32_NMTTCUSTOMDRAW, _win32_NMTTCUSTOMDRAW_cpp, commctrl/LPNMTTCUSTOMDRAW, commctrl/NMTTCUSTOMDRAW, controls.NMTTCUSTOMDRAW, controls._win32_NMTTCUSTOMDRAW, tagNMTTCUSTOMDRAW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

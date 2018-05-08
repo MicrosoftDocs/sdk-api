@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetIsFilled
-title: IXpsOMGeometryFigure::GetIsFilled method
+title: IXpsOMGeometryFigure::GetIsFilled
 author: windows-driver-content
 description: Gets a value that indicates whether the figure is filled.
 old-location: xps\ixpsomgeometryfigure_getisfilled.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 22da5239-c79f-4306-ad60-9b3e5bcae988
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FALSE, GetIsFilled method [XPS Documents and Packaging], GetIsFilled method [XPS Documents and Packaging], IXpsOMGeometryFigure interface, GetIsFilled,IXpsOMGeometryFigure.GetIsFilled, IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], GetIsFilled method, IXpsOMGeometryFigure::GetIsFilled, TRUE, xps.ixpsomgeometryfigure_getisfilled, xpsobjectmodel/IXpsOMGeometryFigure::GetIsFilled
+ms.keywords: FALSE, GetIsFilled, GetIsFilled method [XPS Documents and Packaging], GetIsFilled method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetIsFilled method, IXpsOMGeometryFigure.GetIsFilled, IXpsOMGeometryFigure::GetIsFilled, TRUE, xps.ixpsomgeometryfigure_getisfilled, xpsobjectmodel/IXpsOMGeometryFigure::GetIsFilled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigure::GetIsFilled method
+# IXpsOMGeometryFigure::GetIsFilled
 
 
 ## -description

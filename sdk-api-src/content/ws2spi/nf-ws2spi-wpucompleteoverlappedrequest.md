@@ -7,7 +7,7 @@ old-location: winsock\wpucompleteoverlappedrequest_2.htm
 old-project: WinSock
 ms.assetid: b0e5015f-d23f-46da-91b1-f646111f70f9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: WPUCompleteOverlappedRequest, WPUCompleteOverlappedRequest function [Winsock], _win32_wpucompleteoverlappedrequest_2, winsock.wpucompleteoverlappedrequest_2, ws2spi/WPUCompleteOverlappedRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

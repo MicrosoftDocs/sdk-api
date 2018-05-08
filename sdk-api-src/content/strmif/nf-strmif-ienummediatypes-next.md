@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Next
-title: IEnumMediaTypes::Next method
+title: IEnumMediaTypes::Next
 author: windows-driver-content
 description: The Next method retrieves a specified number of media types.
 old-location: dshow\ienummediatypes_next.htm
 old-project: DirectShow
 ms.assetid: 7a57fa8e-756b-457c-918a-154fbd085ea3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumMediaTypes, IEnumMediaTypes interface [DirectShow], Next method, IEnumMediaTypes::Next, IEnumMediaTypesNext, Next method [DirectShow], Next method [DirectShow], IEnumMediaTypes interface, Next,IEnumMediaTypes.Next, dshow.ienummediatypes_next, strmif/IEnumMediaTypes::Next
+ms.date: 4/30/2018
+ms.keywords: IEnumMediaTypes interface [DirectShow],Next method, IEnumMediaTypes.Next, IEnumMediaTypes::Next, IEnumMediaTypesNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumMediaTypes interface, dshow.ienummediatypes_next, strmif/IEnumMediaTypes::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEnumMediaTypes::Next method
+# IEnumMediaTypes::Next
 
 
 ## -description

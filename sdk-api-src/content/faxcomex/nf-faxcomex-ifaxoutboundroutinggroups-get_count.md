@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.get_Count
-title: IFaxOutboundRoutingGroups::get_Count method
+title: IFaxOutboundRoutingGroups::get_Count
 author: windows-driver-content
 description: The Count property represents the number of objects in the FaxOutboundRoutingGroups collection. This is the total number of outbound routing groups associated with the fax server.
 old-location: fax\_mfax_faxoutboundroutinggroups_count_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5kac.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service], FaxOutboundRoutingGroups object, FaxOutboundRoutingGroups object [Fax Service], Count property, IFaxOutboundRoutingGroups, IFaxOutboundRoutingGroups::get_Count, _mfax_faxoutboundroutinggroups.count, fax._mfax_faxoutboundroutinggroups_count, fax._mfax_faxoutboundroutinggroups_count_vb, get_Count,IFaxOutboundRoutingGroups.get_Count
+ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxOutboundRoutingGroups object, FaxOutboundRoutingGroups object [Fax Service],Count property, FaxOutboundRoutingGroups.Count, IFaxOutboundRoutingGroups.get_Count, IFaxOutboundRoutingGroups::get_Count, _mfax_faxoutboundroutinggroups.count, fax._mfax_faxoutboundroutinggroups_count, fax._mfax_faxoutboundroutinggroups_count_vb, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutboundRoutingGroups::get_Count method
+# IFaxOutboundRoutingGroups::get_Count
 
 
 ## -description

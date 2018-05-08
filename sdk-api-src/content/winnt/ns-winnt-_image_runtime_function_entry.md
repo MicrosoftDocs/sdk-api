@@ -73,11 +73,16 @@ The address of the end of the function.
  
 
 
-
-
-#### - UnwindInfoAddress
+### -field DUMMYUNIONNAME.UnwindInfoAddress
 
 The address of the unwind information for the function.
+
+
+### -field DUMMYUNIONNAME.UnwindData
+
+ 
+
+
 
 
 ## -see-also

@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsContainer, IADsContainer interface [ADSI], IADsContainer interface [ADSI], described, _ds_iadscontainer, adsi.iadscontainer, iads/IADsContainer
+ms.keywords: IADsContainer, IADsContainer interface [ADSI], IADsContainer interface [ADSI],described, _ds_iadscontainer, adsi.iadscontainer, iads/IADsContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

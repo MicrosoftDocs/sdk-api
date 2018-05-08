@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetPath
-title: IDiscRecorder::GetPath method
+title: IDiscRecorder::GetPath
 author: windows-driver-content
 description: Retrieves a path to the device within the operating system. This path should be used in conjunction with the display name to completely identify an available disc recorder.
 old-location: imapi\idiscrecorder_getpath.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: bceb7302-e5e6-4ee5-9adb-1736ab62e819
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetPath method [IMAPI], GetPath method [IMAPI], IDiscRecorder interface, GetPath,IDiscRecorder.GetPath, IDiscRecorder, IDiscRecorder interface [IMAPI], GetPath method, IDiscRecorder::GetPath, _win32_idiscrecorder_getpath, base.idiscrecorder_getpath, imapi.idiscrecorder_getpath, imapi/IDiscRecorder::GetPath
+ms.keywords: GetPath, GetPath method [IMAPI], GetPath method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetPath method, IDiscRecorder.GetPath, IDiscRecorder::GetPath, _win32_idiscrecorder_getpath, base.idiscrecorder_getpath, imapi.idiscrecorder_getpath, imapi/IDiscRecorder::GetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder::GetPath method
+# IDiscRecorder::GetPath
 
 
 ## -description

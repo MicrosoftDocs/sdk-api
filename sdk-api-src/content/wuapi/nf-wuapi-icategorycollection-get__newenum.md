@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategoryCollection.get__NewEnum
-title: ICategoryCollection::get__NewEnum method
+title: ICategoryCollection::get__NewEnum
 author: windows-driver-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\icategorycollection__newenum.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 4d908686-0e19-401c-a4b9-943b37d8c49c
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ICategoryCollection, ICategoryCollection interface [Windows Update Agent], _NewEnum property, ICategoryCollection._NewEnum, ICategoryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent], ICategoryCollection interface, get__NewEnum,ICategoryCollection.get__NewEnum, wua.icategorycollection__newenum, wuapi/ICategoryCollection::_NewEnum, wuapi/ICategoryCollection::get__NewEnum
+ms.keywords: ICategoryCollection interface [Windows Update Agent],_NewEnum property, ICategoryCollection._NewEnum, ICategoryCollection.get__NewEnum, ICategoryCollection::_NewEnum, ICategoryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],ICategoryCollection interface, get__NewEnum, wua.icategorycollection__newenum, wuapi/ICategoryCollection::_NewEnum, wuapi/ICategoryCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ICategoryCollection::get__NewEnum method
+# ICategoryCollection::get__NewEnum
 
 
 ## -description

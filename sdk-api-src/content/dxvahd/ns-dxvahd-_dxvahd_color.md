@@ -7,7 +7,7 @@ old-location: mf\dxvahd_color.htm
 old-project: medfound
 ms.assetid: 833bb91b-d891-4c3f-be20-367b0a23e97e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: DXVAHD_COLOR, DXVAHD_COLOR union [Media Foundation], _DXVAHD_COLOR, dxvahd/DXVAHD_COLOR, mf.dxvahd_color
 ms.prod: windows-hardware
 ms.technology: windows-devices

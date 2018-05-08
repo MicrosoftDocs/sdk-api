@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesContext.get_MaxDataSize
-title: IMbnDeviceServicesContext::get_MaxDataSize method
+title: IMbnDeviceServicesContext::get_MaxDataSize
 author: windows-driver-content
 description: The maximum length, in bytes, of data that can be written to or read from a device service session.
 old-location: mbn\imbndeviceservicescontext_maxdatasize.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: E6E29974-083D-4EC8-A4FF-5AACE7435444
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceServicesContext, IMbnDeviceServicesContext interface [Microsoft Broadband Networks], MaxDataSize property, IMbnDeviceServicesContext.MaxDataSize, IMbnDeviceServicesContext::get_MaxDataSize, MaxDataSize property [Microsoft Broadband Networks], MaxDataSize property [Microsoft Broadband Networks], IMbnDeviceServicesContext interface, get_MaxDataSize,IMbnDeviceServicesContext.get_MaxDataSize, mbn.imbndeviceservicescontext_maxdatasize, mbnapi/IMbnDeviceServicesContext::MaxDataSize, mbnapi/IMbnDeviceServicesContext::get_MaxDataSize
+ms.keywords: IMbnDeviceServicesContext interface [Microsoft Broadband Networks],MaxDataSize property, IMbnDeviceServicesContext.MaxDataSize, IMbnDeviceServicesContext.get_MaxDataSize, IMbnDeviceServicesContext::MaxDataSize, IMbnDeviceServicesContext::get_MaxDataSize, MaxDataSize property [Microsoft Broadband Networks], MaxDataSize property [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, get_MaxDataSize, mbn.imbndeviceservicescontext_maxdatasize, mbnapi/IMbnDeviceServicesContext::MaxDataSize, mbnapi/IMbnDeviceServicesContext::get_MaxDataSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceServicesContext::get_MaxDataSize method
+# IMbnDeviceServicesContext::get_MaxDataSize
 
 
 ## -description

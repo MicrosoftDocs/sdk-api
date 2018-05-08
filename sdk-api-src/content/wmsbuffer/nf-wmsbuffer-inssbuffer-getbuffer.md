@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.GetBuffer
-title: INSSBuffer::GetBuffer method
+title: INSSBuffer::GetBuffer
 author: windows-driver-content
 description: The GetBuffer method retrieves the location of the buffer controlled by the buffer object.
 old-location: wmformat\inssbuffer_getbuffer.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3f9e8408-52ce-48aa-ba85-51bdbbfd8b51
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetBuffer method [windows Media Format], GetBuffer method [windows Media Format], INSSBuffer interface, GetBuffer,INSSBuffer.GetBuffer, INSSBuffer, INSSBuffer interface [windows Media Format], GetBuffer method, INSSBuffer::GetBuffer, INSSBufferGetBuffer, wmformat.inssbuffer_getbuffer, wmsbuffer/INSSBuffer::GetBuffer
+ms.keywords: GetBuffer, GetBuffer method [windows Media Format], GetBuffer method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetBuffer method, INSSBuffer.GetBuffer, INSSBuffer::GetBuffer, INSSBufferGetBuffer, wmformat.inssbuffer_getbuffer, wmsbuffer/INSSBuffer::GetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# INSSBuffer::GetBuffer method
+# INSSBuffer::GetBuffer
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.GetDefaultSecurityDescriptor
-title: ICspInformation::GetDefaultSecurityDescriptor method
+title: ICspInformation::GetDefaultSecurityDescriptor
 author: windows-driver-content
 description: Retrieves the default private key security descriptor.
 old-location: security\icspinformation_getdefaultsecuritydescriptor.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b4594400-29f2-47e2-8b4f-87ee82ea5e82
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetDefaultSecurityDescriptor method [Security], GetDefaultSecurityDescriptor method [Security], ICspInformation interface, GetDefaultSecurityDescriptor,ICspInformation.GetDefaultSecurityDescriptor, ICspInformation, ICspInformation interface [Security], GetDefaultSecurityDescriptor method, ICspInformation::GetDefaultSecurityDescriptor, certenroll/ICspInformation::GetDefaultSecurityDescriptor, security.icspinformation_getdefaultsecuritydescriptor
+ms.keywords: GetDefaultSecurityDescriptor, GetDefaultSecurityDescriptor method [Security], GetDefaultSecurityDescriptor method [Security],ICspInformation interface, ICspInformation interface [Security],GetDefaultSecurityDescriptor method, ICspInformation.GetDefaultSecurityDescriptor, ICspInformation::GetDefaultSecurityDescriptor, certenroll/ICspInformation::GetDefaultSecurityDescriptor, security.icspinformation_getdefaultsecuritydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformation::GetDefaultSecurityDescriptor method
+# ICspInformation::GetDefaultSecurityDescriptor
 
 
 ## -description

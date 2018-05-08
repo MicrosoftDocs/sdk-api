@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 1BCE3EC3-8B48-4F16-8E91-78776C07F309
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: IXamlDiagnostics, IXamlDiagnostics interface, IXamlDiagnostics interface, described, xaml_diagnostics.ixamldiagnostics, xamlom/IXamlDiagnostics
+ms.keywords: IXamlDiagnostics, IXamlDiagnostics interface, IXamlDiagnostics interface,described, xaml_diagnostics.ixamldiagnostics, xamlom/IXamlDiagnostics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

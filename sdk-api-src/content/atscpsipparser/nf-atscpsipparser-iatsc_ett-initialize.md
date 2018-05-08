@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_ETT.Initialize
-title: IATSC_ETT::Initialize method
+title: IATSC_ETT::Initialize
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_ett_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2278b4e0-f30d-4405-a05b-8cd93b1de185
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IATSC_ETT, IATSC_ETT interface [Microsoft TV Technologies], Initialize method, IATSC_ETT::Initialize, IATSC_ETTInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IATSC_ETT interface, Initialize,IATSC_ETT.Initialize, atscpsipparser/IATSC_ETT::Initialize, mstv.iatsc_ett_initialize
+ms.keywords: IATSC_ETT interface [Microsoft TV Technologies],Initialize method, IATSC_ETT.Initialize, IATSC_ETT::Initialize, IATSC_ETTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IATSC_ETT interface, atscpsipparser/IATSC_ETT::Initialize, mstv.iatsc_ett_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_ETT::Initialize method
+# IATSC_ETT::Initialize
 
 
 ## -description

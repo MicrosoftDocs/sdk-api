@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.SetPara2
-title: ITextRange2::SetPara2 method
+title: ITextRange2::SetPara2
 author: windows-driver-content
 description: Sets the paragraph format attributes of a range.
 old-location: controls\itextrange2_setpara2.htm
 old-project: Controls
 ms.assetid: ffd25a04-27a8-47c0-95a4-d66291971819
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange2, ITextRange2 interface [Windows Controls], SetPara2 method, ITextRange2::SetPara2, SetPara2 method [Windows Controls], SetPara2 method [Windows Controls], ITextRange2 interface, SetPara2,ITextRange2.SetPara2, controls.itextrange2_setpara2, tom/ITextRange2::SetPara2
+ms.date: 4/27/2018
+ms.keywords: ITextRange2 interface [Windows Controls],SetPara2 method, ITextRange2.SetPara2, ITextRange2::SetPara2, SetPara2, SetPara2 method [Windows Controls], SetPara2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_setpara2, tom/ITextRange2::SetPara2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::SetPara2 method
+# ITextRange2::SetPara2
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 8E9A059E-D7E2-4179-9ECA-D66BC9CD3757
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIDisplayControl, IDXGIDisplayControl interface [DXGI], IDXGIDisplayControl interface [DXGI], described, direct3ddxgi.idxgidisplaycontrol, dxgi1_2/IDXGIDisplayControl
+ms.keywords: IDXGIDisplayControl, IDXGIDisplayControl interface [DXGI], IDXGIDisplayControl interface [DXGI],described, direct3ddxgi.idxgidisplaycontrol, dxgi1_2/IDXGIDisplayControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

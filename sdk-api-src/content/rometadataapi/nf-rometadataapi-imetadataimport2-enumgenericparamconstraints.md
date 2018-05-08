@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.EnumGenericParamConstraints
-title: IMetaDataImport2::EnumGenericParamConstraints method
+title: IMetaDataImport2::EnumGenericParamConstraints
 author: windows-driver-content
 description: Gets an enumerator for an array of generic parameter constraints associated with the generic parameter represented by the specified token.
 old-location: winrt\imetadataimport2_enumgenericparamconstraints.htm
 old-project: WinRT
 ms.assetid: 5e8ba48d-7c94-4fc6-8def-db296065fdce
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumGenericParamConstraints method [Windows Runtime], EnumGenericParamConstraints method [Windows Runtime], IMetaDataImport2 interface, EnumGenericParamConstraints,IMetaDataImport2.EnumGenericParamConstraints, IMetaDataImport2, IMetaDataImport2 interface [Windows Runtime], EnumGenericParamConstraints method, IMetaDataImport2::EnumGenericParamConstraints, rometadataapi/IMetaDataImport2::EnumGenericParamConstraints, winrt.imetadataimport2_enumgenericparamconstraints
+ms.date: 5/4/2018
+ms.keywords: EnumGenericParamConstraints, EnumGenericParamConstraints method [Windows Runtime], EnumGenericParamConstraints method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],EnumGenericParamConstraints method, IMetaDataImport2.EnumGenericParamConstraints, IMetaDataImport2::EnumGenericParamConstraints, rometadataapi/IMetaDataImport2::EnumGenericParamConstraints, winrt.imetadataimport2_enumgenericparamconstraints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport2::EnumGenericParamConstraints method
+# IMetaDataImport2::EnumGenericParamConstraints
 
 
 ## -description

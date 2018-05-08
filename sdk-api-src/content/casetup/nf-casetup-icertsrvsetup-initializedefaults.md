@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetup.InitializeDefaults
-title: ICertSrvSetup::InitializeDefaults method
+title: ICertSrvSetup::InitializeDefaults
 author: windows-driver-content
 description: Initializes a CCertSrvSetup object with default values to enable installation of the Certification Authority role.
 old-location: security\icertsrvsetup_initializedefaults.htm
 old-project: SecCrypto
 ms.assetid: dff7e2e2-291a-4ea9-858a-8d98d96f79ac
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], InitializeDefaults method, ICertSrvSetup::InitializeDefaults, InitializeDefaults method [Security], InitializeDefaults method [Security], ICertSrvSetup interface, InitializeDefaults,ICertSrvSetup.InitializeDefaults, casetup/ICertSrvSetup::InitializeDefaults, security.icertsrvsetup_initializedefaults
+ms.date: 4/30/2018
+ms.keywords: ICertSrvSetup interface [Security],InitializeDefaults method, ICertSrvSetup.InitializeDefaults, ICertSrvSetup::InitializeDefaults, InitializeDefaults, InitializeDefaults method [Security], InitializeDefaults method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::InitializeDefaults, security.icertsrvsetup_initializedefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetup::InitializeDefaults method
+# ICertSrvSetup::InitializeDefaults
 
 
 ## -description

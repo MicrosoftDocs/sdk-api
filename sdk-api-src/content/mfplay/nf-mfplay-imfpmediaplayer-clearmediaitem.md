@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.ClearMediaItem
-title: IMFPMediaPlayer::ClearMediaItem method
+title: IMFPMediaPlayer::ClearMediaItem
 author: windows-driver-content
 description: Clears the current media item.
 old-location: mf\imfpmediaplayer_clearmediaitem.htm
 old-project: medfound
 ms.assetid: 2c2b23ab-b282-445f-a5a0-4291ee6f22ba
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ClearMediaItem method [Media Foundation], ClearMediaItem method [Media Foundation], IMFPMediaPlayer interface, ClearMediaItem,IMFPMediaPlayer.ClearMediaItem, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], ClearMediaItem method, IMFPMediaPlayer::ClearMediaItem, mf.imfpmediaplayer_clearmediaitem, mfplay/IMFPMediaPlayer::ClearMediaItem
+ms.date: 5/3/2018
+ms.keywords: ClearMediaItem, ClearMediaItem method [Media Foundation], ClearMediaItem method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],ClearMediaItem method, IMFPMediaPlayer.ClearMediaItem, IMFPMediaPlayer::ClearMediaItem, mf.imfpmediaplayer_clearmediaitem, mfplay/IMFPMediaPlayer::ClearMediaItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::ClearMediaItem method
+# IMFPMediaPlayer::ClearMediaItem
 
 
 ## -description

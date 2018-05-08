@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.SetModalInput
-title: ITfLangBarMgr::SetModalInput method
+title: ITfLangBarMgr::SetModalInput
 author: windows-driver-content
 description: ITfLangBarMgr::SetModalInput method
 old-location: tsf\itflangbarmgr_setmodalinput.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 754376e0-e7e4-4bd2-b89c-43d211634c65
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarMgr, ITfLangBarMgr interface [Text Services Framework], SetModalInput method, ITfLangBarMgr::SetModalInput, SetModalInput method [Text Services Framework], SetModalInput method [Text Services Framework], ITfLangBarMgr interface, SetModalInput,ITfLangBarMgr.SetModalInput, _tsf_itflangbarmgr_setmodalinput_ref, ctfutb/ITfLangBarMgr::SetModalInput, tsf.itflangbarmgr_setmodalinput
+ms.keywords: ITfLangBarMgr interface [Text Services Framework],SetModalInput method, ITfLangBarMgr.SetModalInput, ITfLangBarMgr::SetModalInput, SetModalInput, SetModalInput method [Text Services Framework], SetModalInput method [Text Services Framework],ITfLangBarMgr interface, _tsf_itflangbarmgr_setmodalinput_ref, ctfutb/ITfLangBarMgr::SetModalInput, tsf.itflangbarmgr_setmodalinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarMgr::SetModalInput method
+# ITfLangBarMgr::SetModalInput
 
 
 ## -description

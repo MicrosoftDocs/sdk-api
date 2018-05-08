@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.Backup
-title: IGPMStarterGPO::Backup method
+title: IGPMStarterGPO::Backup
 author: windows-driver-content
 description: Creates a backup of the current Starter GPO.
 old-location: gpmc\igpmstartergpo_backup.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: bf419f56-803f-44c2-ae08-7e428940f79d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Backup method [GPMC], Backup method [GPMC], IGPMStarterGPO interface, Backup,IGPMStarterGPO.Backup, IGPMStarterGPO, IGPMStarterGPO interface [GPMC], Backup method, IGPMStarterGPO::Backup, gpmc.igpmstartergpo_backup, gpmgmt/IGPMStarterGPO::Backup
+ms.keywords: Backup, Backup method [GPMC], Backup method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],Backup method, IGPMStarterGPO.Backup, IGPMStarterGPO::Backup, gpmc.igpmstartergpo_backup, gpmgmt/IGPMStarterGPO::Backup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMStarterGPO::Backup method
+# IGPMStarterGPO::Backup
 
 
 ## -description

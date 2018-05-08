@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStreamAttribute
-title: IMFMediaEngineEx::GetStreamAttribute method
+title: IMFMediaEngineEx::GetStreamAttribute
 author: windows-driver-content
 description: Gets a stream-level attribute from the media resource.
 old-location: mf\imfmediaengineex_getstreamattribute.htm
 old-project: medfound
 ms.assetid: 2C64CD7B-F376-47DF-AD5A-DE5EBC665288
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation], IMFMediaEngineEx interface, GetStreamAttribute,IMFMediaEngineEx.GetStreamAttribute, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetStreamAttribute method, IMFMediaEngineEx::GetStreamAttribute, mf.imfmediaengineex_getstreamattribute, mfmediaengine/IMFMediaEngineEx::GetStreamAttribute
+ms.date: 5/3/2018
+ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStreamAttribute method, IMFMediaEngineEx.GetStreamAttribute, IMFMediaEngineEx::GetStreamAttribute, mf.imfmediaengineex_getstreamattribute, mfmediaengine/IMFMediaEngineEx::GetStreamAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::GetStreamAttribute method
+# IMFMediaEngineEx::GetStreamAttribute
 
 
 ## -description

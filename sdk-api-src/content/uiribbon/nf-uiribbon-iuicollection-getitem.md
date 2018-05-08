@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollection.GetItem
-title: IUICollection::GetItem method
+title: IUICollection::GetItem
 author: windows-driver-content
 description: Retrieves an item from the IUICollection at the specified index.
 old-location: windowsribbon\windowsribbon_iuicollection_getitem.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\getitem.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetItem method [Windows Ribbon], GetItem method [Windows Ribbon], IUICollection interface, GetItem,IUICollection.GetItem, IUICollection, IUICollection interface [Windows Ribbon], GetItem method, IUICollection::GetItem, scenicintent_IUICollection_GetItem, uiribbon/IUICollection::GetItem, windowsribbon.windowsribbon_iuicollection_getitem
+ms.keywords: GetItem, GetItem method [Windows Ribbon], GetItem method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],GetItem method, IUICollection.GetItem, IUICollection::GetItem, scenicintent_IUICollection_GetItem, uiribbon/IUICollection::GetItem, windowsribbon.windowsribbon_iuicollection_getitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUICollection::GetItem method
+# IUICollection::GetItem
 
 
 ## -description

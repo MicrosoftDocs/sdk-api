@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetDescription
-title: IXpsOMCoreProperties::GetDescription method
+title: IXpsOMCoreProperties::GetDescription
 author: windows-driver-content
 description: Gets the description property.
 old-location: xps\ixpsomcoreproperties_getdescription.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 56a6367d-8ab7-40ac-989b-d5a60126eae5
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDescription method [XPS Documents and Packaging], GetDescription method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetDescription,IXpsOMCoreProperties.GetDescription, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetDescription method, IXpsOMCoreProperties::GetDescription, xps.ixpsomcoreproperties_getdescription, xpsobjectmodel/IXpsOMCoreProperties::GetDescription
+ms.keywords: GetDescription, GetDescription method [XPS Documents and Packaging], GetDescription method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetDescription method, IXpsOMCoreProperties.GetDescription, IXpsOMCoreProperties::GetDescription, xps.ixpsomcoreproperties_getdescription, xpsobjectmodel/IXpsOMCoreProperties::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetDescription method
+# IXpsOMCoreProperties::GetDescription
 
 
 ## -description

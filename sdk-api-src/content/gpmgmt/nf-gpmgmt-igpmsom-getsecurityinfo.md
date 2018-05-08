@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.GetSecurityInfo
-title: IGPMSOM::GetSecurityInfo method
+title: IGPMSOM::GetSecurityInfo
 author: windows-driver-content
 description: Returns an object that represents the collection of GPMPermission objects for the scope of management (SOM).
 old-location: gpmc\igpmsom_getsecurityinfo.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 7b120bf6-17f8-43d7-a27c-b7674535c1d3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMSOM class [GPMC], GetSecurityInfo method, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC], GPMSOM class, GetSecurityInfo method [GPMC], IGPMSOM interface, GetSecurityInfo,IGPMSOM.GetSecurityInfo, IGPMSOM, IGPMSOM interface [GPMC], GetSecurityInfo method, IGPMSOM::GetSecurityInfo, _win32_igpmsom_getsecurityinfo, gpmc.igpmsom_getsecurityinfo, gpmgmt/IGPMSOM::GetSecurityInfo
+ms.keywords: GPMSOM class [GPMC],GetSecurityInfo method, GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],GPMSOM class, GetSecurityInfo method [GPMC],IGPMSOM interface, IGPMSOM interface [GPMC],GetSecurityInfo method, IGPMSOM.GetSecurityInfo, IGPMSOM::GetSecurityInfo, _win32_igpmsom_getsecurityinfo, gpmc.igpmsom_getsecurityinfo, gpmgmt/IGPMSOM::GetSecurityInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMSOM::GetSecurityInfo method
+# IGPMSOM::GetSecurityInfo
 
 
 ## -description

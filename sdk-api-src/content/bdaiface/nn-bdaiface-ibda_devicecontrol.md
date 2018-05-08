@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 41e167b0-100e-41d2-8759-0411a10931ae
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DeviceControl, IBDA_DeviceControl interface [Microsoft TV Technologies], IBDA_DeviceControl interface [Microsoft TV Technologies], described, IBDA_DeviceControlInterface, bdaiface/IBDA_DeviceControl, mstv.ibda_devicecontrol
+ms.keywords: IBDA_DeviceControl, IBDA_DeviceControl interface [Microsoft TV Technologies], IBDA_DeviceControl interface [Microsoft TV Technologies],described, IBDA_DeviceControlInterface, bdaiface/IBDA_DeviceControl, mstv.ibda_devicecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

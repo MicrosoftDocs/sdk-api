@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.SetFlags
-title: IVdsService::SetFlags method
+title: IVdsService::SetFlags
 author: windows-driver-content
 description: Sets service object flags.
 old-location: base\ivdsservice_setflags.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 9c82746e-fbf0-4754-b246-82a174410cef
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsService, IVdsService interface [VDS], SetFlags method, IVdsService::SetFlags, SetFlags method [VDS], SetFlags method [VDS], IVdsService interface, SetFlags,IVdsService.SetFlags, base.ivdsservice_setflags, vds/IVdsService::SetFlags
+ms.keywords: IVdsService interface [VDS],SetFlags method, IVdsService.SetFlags, IVdsService::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsService interface, base.ivdsservice_setflags, vds/IVdsService::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsService::SetFlags method
+# IVdsService::SetFlags
 
 
 ## -description

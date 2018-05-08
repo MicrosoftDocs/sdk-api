@@ -7,7 +7,7 @@ old-location: winprog\netlogon_info_2.htm
 old-project: DevNotes
 ms.assetid: ab29013d-e93a-4f15-84e1-c0e3e55b288d
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: "*PNETLOGON_INFO_2, NETLOGON_DNS_UPDATE_FAILURE, NETLOGON_FULL_SYNC_REPLICATION, NETLOGON_HAS_IP, NETLOGON_HAS_TIMESERV, NETLOGON_INFO_2, NETLOGON_INFO_2 structure [Windows API], NETLOGON_REDO_NEEDED, NETLOGON_REPLICATION_IN_PROGRESS, NETLOGON_REPLICATION_NEEDED, NETLOGON_VERIFY_STATUS_RETURNED, PNETLOGON_INFO_2, PNETLOGON_INFO_2 structure pointer [Windows API], _NETLOGON_INFO_2, lmaccess/NETLOGON_INFO_2, lmaccess/PNETLOGON_INFO_2, winprog.netlogon_info_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -162,6 +162,11 @@ Trust verification status was returned in the <b>netlog2_pdc_connection_status</
 ### -field netlog2_pdc_connection_status
 
 An enumerated integer value that contains a status code defined in Lmerr.h, with a value greater than 2100.   If <b>NETLOGON_VERIFY_STATUS_RETURNED</b> is set in <b>netlog2_flags</b>, this value represents the trust verification status of all domain members  collectively.
+
+
+### -field netlog2_trusted_dc_name.string
+
+ 
 
 
 ### -field netlog2_trusted_dc_name

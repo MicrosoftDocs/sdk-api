@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetSelection
-title: ITextStoreAnchor::GetSelection method
+title: ITextStoreAnchor::GetSelection
 author: windows-driver-content
 description: The ITextStoreAnchor::GetSelection method returns the offset of a text selection in a text stream. This method supports multiple text selections. The caller must have a read-only lock on the document before calling this method.
 old-location: tsf\itextstoreanchor_getselection.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: df1b21b7-b539-4546-96be-243a8e7ea75a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetSelection method [Text Services Framework], GetSelection method [Text Services Framework], ITextStoreAnchor interface, GetSelection,ITextStoreAnchor.GetSelection, ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], GetSelection method, ITextStoreAnchor::GetSelection, textstor/ITextStoreAnchor::GetSelection, tsf.itextstoreanchor_getselection
+ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetSelection method, ITextStoreAnchor.GetSelection, ITextStoreAnchor::GetSelection, textstor/ITextStoreAnchor::GetSelection, tsf.itextstoreanchor_getselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::GetSelection method
+# ITextStoreAnchor::GetSelection
 
 
 ## -description

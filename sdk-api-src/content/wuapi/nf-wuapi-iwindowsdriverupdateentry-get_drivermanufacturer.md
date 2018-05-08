@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntry.get_DriverManufacturer
-title: IWindowsDriverUpdateEntry::get_DriverManufacturer method
+title: IWindowsDriverUpdateEntry::get_DriverManufacturer
 author: windows-driver-content
 description: Gets the language-invariant name of the manufacturer of the Windows driver update.
 old-location: wua\iwindowsdriverupdateentry_drivermanufacturer.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 5f0a0afa-72fa-4e7a-9ae2-75004bf65e31
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DriverManufacturer property [Windows Update Agent], DriverManufacturer property [Windows Update Agent], IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry, IWindowsDriverUpdateEntry interface [Windows Update Agent], DriverManufacturer property, IWindowsDriverUpdateEntry.DriverManufacturer, IWindowsDriverUpdateEntry::get_DriverManufacturer, get_DriverManufacturer,IWindowsDriverUpdateEntry.get_DriverManufacturer, wua.iwindowsdriverupdateentry_drivermanufacturer, wuapi/IWindowsDriverUpdateEntry::DriverManufacturer, wuapi/IWindowsDriverUpdateEntry::get_DriverManufacturer
+ms.keywords: DriverManufacturer property [Windows Update Agent], DriverManufacturer property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverManufacturer property, IWindowsDriverUpdateEntry.DriverManufacturer, IWindowsDriverUpdateEntry.get_DriverManufacturer, IWindowsDriverUpdateEntry::DriverManufacturer, IWindowsDriverUpdateEntry::get_DriverManufacturer, get_DriverManufacturer, wua.iwindowsdriverupdateentry_drivermanufacturer, wuapi/IWindowsDriverUpdateEntry::DriverManufacturer, wuapi/IWindowsDriverUpdateEntry::get_DriverManufacturer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IWindowsDriverUpdateEntry::get_DriverManufacturer method
+# IWindowsDriverUpdateEntry::get_DriverManufacturer
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.StartReverseConnectListener
-title: IRDPSRAPIViewer::StartReverseConnectListener method
+title: IRDPSRAPIViewer::StartReverseConnectListener
 author: windows-driver-content
 description: Initiates a listener for accepting reverse connections from the sharer to the viewer, or obtains the connection string that the sharer uses to reverse connect to the viewer.
 old-location: rdp\irdpsrapiviewer_startreverseconnectlistener.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 6e45e21f-f3a5-4a9e-9d63-45d7a1972114
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIViewer, IRDPSRAPIViewer interface [RDP], StartReverseConnectListener method, IRDPSRAPIViewer::StartReverseConnectListener, StartReverseConnectListener method [RDP], StartReverseConnectListener method [RDP], IRDPSRAPIViewer interface, StartReverseConnectListener,IRDPSRAPIViewer.StartReverseConnectListener, rdp.irdpsrapiviewer_startreverseconnectlistener, rdpencomapi/IRDPSRAPIViewer::StartReverseConnectListener
+ms.keywords: IRDPSRAPIViewer interface [RDP],StartReverseConnectListener method, IRDPSRAPIViewer.StartReverseConnectListener, IRDPSRAPIViewer::StartReverseConnectListener, StartReverseConnectListener, StartReverseConnectListener method [RDP], StartReverseConnectListener method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_startreverseconnectlistener, rdpencomapi/IRDPSRAPIViewer::StartReverseConnectListener
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIViewer::StartReverseConnectListener method
+# IRDPSRAPIViewer::StartReverseConnectListener
 
 
 ## -description

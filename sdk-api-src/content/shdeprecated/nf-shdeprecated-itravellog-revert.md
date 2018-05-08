@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.ITravelLog.Revert
-title: ITravelLog::Revert method
+title: ITravelLog::Revert
 author: windows-driver-content
 description: Deprecated. Reverts to the current entry, dropping the result of ITravelLog::AddEntry in the case of a failed navigation.
 old-location: shell\ITravelLog_Revert.htm
 old-project: shell
 ms.assetid: 202ce028-d64c-4733-8006-1bdb1efa8ad3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ITravelLog, ITravelLog interface [Windows Shell], Revert method, ITravelLog::Revert, Revert method [Windows Shell], Revert method [Windows Shell], ITravelLog interface, Revert,ITravelLog.Revert, shdeprecated/ITravelLog::Revert, shell.ITravelLog_Revert, zone_ITravelLog_Revert
+ms.date: 5/3/2018
+ms.keywords: ITravelLog interface [Windows Shell],Revert method, ITravelLog.Revert, ITravelLog::Revert, Revert, Revert method [Windows Shell], Revert method [Windows Shell],ITravelLog interface, shdeprecated/ITravelLog::Revert, shell.ITravelLog_Revert, zone_ITravelLog_Revert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# ITravelLog::Revert method
+# ITravelLog::Revert
 
 
 ## -description

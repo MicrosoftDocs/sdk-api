@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.Init
-title: IWSDDeviceHost::Init method
+title: IWSDDeviceHost::Init
 author: windows-driver-content
 description: Initializes an instance of an IWSDDeviceHost object.
 old-location: ncd\iwsddevicehost_init_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: a66f0600-0bac-4bef-af43-6db60b60605e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, Init method, IWSDDeviceHost::Init, Init method, Init method, IWSDDeviceHost interface, Init,IWSDDeviceHost.Init, ncd.iwsddevicehost_init_method, wsdhost/IWSDDeviceHost::Init
+ms.keywords: IWSDDeviceHost interface,Init method, IWSDDeviceHost.Init, IWSDDeviceHost::Init, Init, Init method, Init method,IWSDDeviceHost interface, ncd.iwsddevicehost_init_method, wsdhost/IWSDDeviceHost::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceHost::Init method
+# IWSDDeviceHost::Init
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.Submit
-title: IAzScope::Submit method
+title: IAzScope::Submit
 author: windows-driver-content
 description: Persists changes made to the IAzScope object.
 old-location: security\iazscope_submit.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: c06f1994-71d9-4867-a5ed-8fa90206994f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzScope object [Security], Submit method, IAzScope, IAzScope interface [Security], Submit method, IAzScope::Submit, Submit method [Security], Submit method [Security], AzScope object, Submit method [Security], IAzScope interface, Submit,IAzScope.Submit, azroles/IAzScope::Submit, security.iazscope_submit
+ms.keywords: AzScope object [Security],Submit method, IAzScope interface [Security],Submit method, IAzScope.Submit, IAzScope::Submit, Submit, Submit method [Security], Submit method [Security],AzScope object, Submit method [Security],IAzScope interface, azroles/IAzScope::Submit, security.iazscope_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope::Submit method
+# IAzScope::Submit
 
 
 ## -description

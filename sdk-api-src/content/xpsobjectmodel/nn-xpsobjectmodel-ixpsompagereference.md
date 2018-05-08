@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: cdebab24-f918-4235-b4d5-5ee1007ade87
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], IXpsOMPageReference interface [XPS Documents and Packaging], described, xps.ixpsompagereference, xpsobjectmodel/IXpsOMPageReference
+ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], IXpsOMPageReference interface [XPS Documents and Packaging],described, xps.ixpsompagereference, xpsobjectmodel/IXpsOMPageReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

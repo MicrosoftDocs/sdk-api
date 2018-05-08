@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: f41b1689-d9fe-4697-91e9-a176d3b592c7
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateSearcher, IUpdateSearcher interface [Windows Update Agent], IUpdateSearcher interface [Windows Update Agent], described, wua.iupdatesearcher, wuapi/IUpdateSearcher
+ms.keywords: IUpdateSearcher, IUpdateSearcher interface [Windows Update Agent], IUpdateSearcher interface [Windows Update Agent],described, wua.iupdatesearcher, wuapi/IUpdateSearcher
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

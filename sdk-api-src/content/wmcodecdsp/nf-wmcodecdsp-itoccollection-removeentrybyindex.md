@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.RemoveEntryByIndex
-title: ITocCollection::RemoveEntryByIndex method
+title: ITocCollection::RemoveEntryByIndex
 author: windows-driver-content
 description: The RemoveEntryByIndex method removes a table of contents, specified by an index, from the collection.
 old-location: mf\itoccollection_removeentrybyindex.htm
 old-project: medfound
 ms.assetid: 1fc6abad-2e9b-47f5-8b00-48ae480f3dd8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ITocCollection, ITocCollection interface [Media Foundation], RemoveEntryByIndex method, ITocCollection::RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation], ITocCollection interface, RemoveEntryByIndex,ITocCollection.RemoveEntryByIndex, codecapi.itoccollection_removeentrybyindex, mf.itoccollection_removeentrybyindex, wmcodecdsp/ITocCollection::RemoveEntryByIndex
+ms.date: 5/3/2018
+ms.keywords: ITocCollection interface [Media Foundation],RemoveEntryByIndex method, ITocCollection.RemoveEntryByIndex, ITocCollection::RemoveEntryByIndex, RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation],ITocCollection interface, codecapi.itoccollection_removeentrybyindex, mf.itoccollection_removeentrybyindex, wmcodecdsp/ITocCollection::RemoveEntryByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocCollection::RemoveEntryByIndex method
+# ITocCollection::RemoveEntryByIndex
 
 
 ## -description

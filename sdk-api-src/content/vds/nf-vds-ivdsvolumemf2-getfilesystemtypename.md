@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF2.GetFileSystemTypeName
-title: IVdsVolumeMF2::GetFileSystemTypeName method
+title: IVdsVolumeMF2::GetFileSystemTypeName
 author: windows-driver-content
 description: Retrieves the name of the file system on a volume.
 old-location: base\ivdsvolumemf2_getfilesystemtypename.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: f9e8627b-0531-4dcb-9818-7560372aa4b0
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetFileSystemTypeName method, GetFileSystemTypeName method, IVdsVolumeMF2 interface, GetFileSystemTypeName,IVdsVolumeMF2.GetFileSystemTypeName, IVdsVolumeMF2, IVdsVolumeMF2 interface, GetFileSystemTypeName method, IVdsVolumeMF2::GetFileSystemTypeName, base.ivdsvolumemf2_getfilesystemtypename, vds/IVdsVolumeMF2::GetFileSystemTypeName
+ms.keywords: GetFileSystemTypeName, GetFileSystemTypeName method, GetFileSystemTypeName method,IVdsVolumeMF2 interface, IVdsVolumeMF2 interface,GetFileSystemTypeName method, IVdsVolumeMF2.GetFileSystemTypeName, IVdsVolumeMF2::GetFileSystemTypeName, base.ivdsvolumemf2_getfilesystemtypename, vds/IVdsVolumeMF2::GetFileSystemTypeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolumeMF2::GetFileSystemTypeName method
+# IVdsVolumeMF2::GetFileSystemTypeName
 
 
 ## -description

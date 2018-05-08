@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.SetMetadata
-title: IWSDDeviceHost::SetMetadata method
+title: IWSDDeviceHost::SetMetadata
 author: windows-driver-content
 description: Sets the metadata for a device, excluding user-defined service metadata.
 old-location: ncd\iwsddevicehost_setmetadata_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: dc4cbed9-9ec4-4bbd-b1c9-89c4c11ff424
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, SetMetadata method, IWSDDeviceHost::SetMetadata, SetMetadata method, SetMetadata method, IWSDDeviceHost interface, SetMetadata,IWSDDeviceHost.SetMetadata, ncd.iwsddevicehost_setmetadata_method, wsdhost/IWSDDeviceHost::SetMetadata
+ms.keywords: IWSDDeviceHost interface,SetMetadata method, IWSDDeviceHost.SetMetadata, IWSDDeviceHost::SetMetadata, SetMetadata, SetMetadata method, SetMetadata method,IWSDDeviceHost interface, ncd.iwsddevicehost_setmetadata_method, wsdhost/IWSDDeviceHost::SetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceHost::SetMetadata method
+# IWSDDeviceHost::SetMetadata
 
 
 ## -description

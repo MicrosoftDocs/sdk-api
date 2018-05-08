@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.ReadSample
-title: IMFSourceReader::ReadSample method
+title: IMFSourceReader::ReadSample
 author: windows-driver-content
 description: Reads the next sample from the media source.
 old-location: mf\imfsourcereader_readsample.htm
 old-project: medfound
 ms.assetid: 99bd9bd7-d8d1-433a-bc5a-4b9761de5048
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSourceReader, IMFSourceReader interface [Media Foundation], ReadSample method, IMFSourceReader::ReadSample, MF_SOURCE_READER_ANY_STREAM, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, ReadSample method [Media Foundation], ReadSample method [Media Foundation], IMFSourceReader interface, ReadSample,IMFSourceReader.ReadSample, mf.imfsourcereader_readsample, mfreadwrite/IMFSourceReader::ReadSample
+ms.date: 5/3/2018
+ms.keywords: IMFSourceReader interface [Media Foundation],ReadSample method, IMFSourceReader.ReadSample, IMFSourceReader::ReadSample, MF_SOURCE_READER_ANY_STREAM, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, ReadSample, ReadSample method [Media Foundation], ReadSample method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_readsample, mfreadwrite/IMFSourceReader::ReadSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceReader::ReadSample method
+# IMFSourceReader::ReadSample
 
 
 ## -description

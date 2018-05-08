@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IStreamInterleave.Initialize
-title: IStreamInterleave::Initialize method
+title: IStreamInterleave::Initialize
 author: windows-driver-content
 description: Initialize this interleaved stream from an array of input streams and interleave sizes.
 old-location: imapi\istreaminterleave_initialize.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 889db097-3a16-4c35-9a79-e4a9d8060832
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IStreamInterleave, IStreamInterleave interface [IMAPI], Initialize method, IStreamInterleave::Initialize, Initialize method [IMAPI], Initialize method [IMAPI], IStreamInterleave interface, Initialize,IStreamInterleave.Initialize, imapi.istreaminterleave_initialize, imapi2/IStreamInterleave::Initialize
+ms.keywords: IStreamInterleave interface [IMAPI],Initialize method, IStreamInterleave.Initialize, IStreamInterleave::Initialize, Initialize, Initialize method [IMAPI], Initialize method [IMAPI],IStreamInterleave interface, imapi.istreaminterleave_initialize, imapi2/IStreamInterleave::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IStreamInterleave::Initialize method
+# IStreamInterleave::Initialize
 
 
 ## -description

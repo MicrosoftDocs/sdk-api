@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument.Freeze
-title: ITextDocument::Freeze method
+title: ITextDocument::Freeze
 author: windows-driver-content
 description: Increments the freeze count.
 old-location: controls\ITextDocument_Freeze.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\freeze.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: Freeze method [Windows Controls], Freeze method [Windows Controls], ITextDocument interface, Freeze,ITextDocument.Freeze, ITextDocument, ITextDocument interface [Windows Controls], Freeze method, ITextDocument::Freeze, _win32_ITextDocument_Freeze, _win32_ITextDocument_Freeze_cpp, controls.ITextDocument_Freeze, controls._win32_ITextDocument_Freeze, tom/ITextDocument::Freeze
+ms.date: 4/27/2018
+ms.keywords: Freeze, Freeze method [Windows Controls], Freeze method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],Freeze method, ITextDocument.Freeze, ITextDocument::Freeze, _win32_ITextDocument_Freeze, _win32_ITextDocument_Freeze_cpp, controls.ITextDocument_Freeze, controls._win32_ITextDocument_Freeze, tom/ITextDocument::Freeze
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument::Freeze method
+# ITextDocument::Freeze
 
 
 ## -description

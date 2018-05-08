@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_3.ID3D11RasterizerState2.GetDesc2
-title: ID3D11RasterizerState2::GetDesc2 method
+title: ID3D11RasterizerState2::GetDesc2
 author: windows-driver-content
 description: Gets the description for rasterizer state that you used to create the rasterizer-state object.
 old-location: direct3d11\id3d11rasterizerstate2_getdesc2.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 23A3BCDF-9D3D-4984-BFA9-E598773DBC44
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetDesc2 method [Direct3D 11], GetDesc2 method [Direct3D 11], ID3D11RasterizerState2 interface, GetDesc2,ID3D11RasterizerState2.GetDesc2, ID3D11RasterizerState2, ID3D11RasterizerState2 interface [Direct3D 11], GetDesc2 method, ID3D11RasterizerState2::GetDesc2, d3d11_3/ID3D11RasterizerState2::GetDesc2, direct3d11.id3d11rasterizerstate2_getdesc2
+ms.keywords: GetDesc2, GetDesc2 method [Direct3D 11], GetDesc2 method [Direct3D 11],ID3D11RasterizerState2 interface, ID3D11RasterizerState2 interface [Direct3D 11],GetDesc2 method, ID3D11RasterizerState2.GetDesc2, ID3D11RasterizerState2::GetDesc2, d3d11_3/ID3D11RasterizerState2::GetDesc2, direct3d11.id3d11rasterizerstate2_getdesc2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11RasterizerState2::GetDesc2 method
+# ID3D11RasterizerState2::GetDesc2
 
 
 ## -description

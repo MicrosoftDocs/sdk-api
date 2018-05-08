@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f034436f-e24e-4b99-9fb9-b0400d3ebb72
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IStdMarshalInfo, IStdMarshalInfo interface [COM], IStdMarshalInfo interface [COM], described, _com_istdmarshalinfo, com.istdmarshalinfo, objidlbase/IStdMarshalInfo
+ms.keywords: IStdMarshalInfo, IStdMarshalInfo interface [COM], IStdMarshalInfo interface [COM],described, _com_istdmarshalinfo, com.istdmarshalinfo, objidlbase/IStdMarshalInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.UpdateOutputBounds
-title: IMILBitmapEffectRenderContextImpl::UpdateOutputBounds method
+title: IMILBitmapEffectRenderContextImpl::UpdateOutputBounds
 author: windows-driver-content
 description: Updates the output bounds with the given region.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\updateoutputbounds.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffectRenderContextImpl, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects], UpdateOutputBounds method, IMILBitmapEffectRenderContextImpl::UpdateOutputBounds, UpdateOutputBounds method [WPF Bitmap Effects], UpdateOutputBounds method [WPF Bitmap Effects], IMILBitmapEffectRenderContextImpl interface, UpdateOutputBounds,IMILBitmapEffectRenderContextImpl.UpdateOutputBounds, _wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds, mileffects/IMILBitmapEffectRenderContextImpl::UpdateOutputBounds, wibe._wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds
+ms.keywords: IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],UpdateOutputBounds method, IMILBitmapEffectRenderContextImpl.UpdateOutputBounds, IMILBitmapEffectRenderContextImpl::UpdateOutputBounds, UpdateOutputBounds, UpdateOutputBounds method [WPF Bitmap Effects], UpdateOutputBounds method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, _wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds, mileffects/IMILBitmapEffectRenderContextImpl::UpdateOutputBounds, wibe._wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectRenderContextImpl::UpdateOutputBounds method
+# IMILBitmapEffectRenderContextImpl::UpdateOutputBounds
 
 
 ## -description

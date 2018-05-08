@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.GetSnapshot
-title: IRemoteDesktopClientActions::GetSnapshot method
+title: IRemoteDesktopClientActions::GetSnapshot
 author: windows-driver-content
 description: Causes a snapshot of the Remote Desktop Protocol (RDP) app container client's in-session desktop to be taken.
 old-location: termserv\iremotedesktopclientactions_getsnapshot.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: c80fe6e3-6ca7-4595-aa0e-c1ed0f6632a5
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetSnapshot method [Remote Desktop Services], GetSnapshot method [Remote Desktop Services], IRemoteDesktopClientActions interface, GetSnapshot,IRemoteDesktopClientActions.GetSnapshot, IRemoteDesktopClientActions, IRemoteDesktopClientActions interface [Remote Desktop Services], GetSnapshot method, IRemoteDesktopClientActions::GetSnapshot, rdpappcontainerclient/IRemoteDesktopClientActions::GetSnapshot, termserv.iremotedesktopclientactions_getsnapshot
+ms.keywords: GetSnapshot, GetSnapshot method [Remote Desktop Services], GetSnapshot method [Remote Desktop Services],IRemoteDesktopClientActions interface, IRemoteDesktopClientActions interface [Remote Desktop Services],GetSnapshot method, IRemoteDesktopClientActions.GetSnapshot, IRemoteDesktopClientActions::GetSnapshot, rdpappcontainerclient/IRemoteDesktopClientActions::GetSnapshot, termserv.iremotedesktopclientactions_getsnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRemoteDesktopClientActions::GetSnapshot method
+# IRemoteDesktopClientActions::GetSnapshot
 
 
 ## -description

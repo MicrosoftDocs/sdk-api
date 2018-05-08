@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContextEvents.OnProvisionedContextListChange
-title: IMbnConnectionContextEvents::OnProvisionedContextListChange method
+title: IMbnConnectionContextEvents::OnProvisionedContextListChange
 author: windows-driver-content
 description: Notification method called by the Mobile Broadband service to indicate that a provisioned context stored in the device is available or updated.
 old-location: mbn\imbnconnectioncontextevents_onprovisionedcontextlistchange.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 3c8fa150-7c36-4ad8-ada8-2b17693671d9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnConnectionContextEvents, IMbnConnectionContextEvents interface [Microsoft Broadband Networks], OnProvisionedContextListChange method, IMbnConnectionContextEvents::OnProvisionedContextListChange, OnProvisionedContextListChange method [Microsoft Broadband Networks], OnProvisionedContextListChange method [Microsoft Broadband Networks], IMbnConnectionContextEvents interface, OnProvisionedContextListChange,IMbnConnectionContextEvents.OnProvisionedContextListChange, mbn.imbnconnectioncontextevents_onprovisionedcontextlistchange, mbnapi/IMbnConnectionContextEvents::OnProvisionedContextListChange
+ms.keywords: IMbnConnectionContextEvents interface [Microsoft Broadband Networks],OnProvisionedContextListChange method, IMbnConnectionContextEvents.OnProvisionedContextListChange, IMbnConnectionContextEvents::OnProvisionedContextListChange, OnProvisionedContextListChange, OnProvisionedContextListChange method [Microsoft Broadband Networks], OnProvisionedContextListChange method [Microsoft Broadband Networks],IMbnConnectionContextEvents interface, mbn.imbnconnectioncontextevents_onprovisionedcontextlistchange, mbnapi/IMbnConnectionContextEvents::OnProvisionedContextListChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnectionContextEvents::OnProvisionedContextListChange method
+# IMbnConnectionContextEvents::OnProvisionedContextListChange
 
 
 ## -description

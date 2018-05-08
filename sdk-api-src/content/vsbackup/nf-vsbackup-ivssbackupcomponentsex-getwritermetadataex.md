@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx.GetWriterMetadataEx
-title: IVssBackupComponentsEx::GetWriterMetadataEx method
+title: IVssBackupComponentsEx::GetWriterMetadataEx
 author: windows-driver-content
 description: The GetWriterMetadataEx method returns the metadata for a specific writer instance running on the system.
 old-location: base\ivssbackupcomponentsex_getwritermetadataex.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 19a31627-54e0-4b0d-87cf-ac18b3049310
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetWriterMetadataEx method [VSS], GetWriterMetadataEx method [VSS], IVssBackupComponentsEx interface, GetWriterMetadataEx,IVssBackupComponentsEx.GetWriterMetadataEx, IVssBackupComponentsEx, IVssBackupComponentsEx interface [VSS], GetWriterMetadataEx method, IVssBackupComponentsEx::GetWriterMetadataEx, base.ivssbackupcomponentsex_getwritermetadataex, vsbackup/IVssBackupComponentsEx::GetWriterMetadataEx
+ms.keywords: GetWriterMetadataEx, GetWriterMetadataEx method [VSS], GetWriterMetadataEx method [VSS],IVssBackupComponentsEx interface, IVssBackupComponentsEx interface [VSS],GetWriterMetadataEx method, IVssBackupComponentsEx.GetWriterMetadataEx, IVssBackupComponentsEx::GetWriterMetadataEx, base.ivssbackupcomponentsex_getwritermetadataex, vsbackup/IVssBackupComponentsEx::GetWriterMetadataEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponentsEx::GetWriterMetadataEx method
+# IVssBackupComponentsEx::GetWriterMetadataEx
 
 
 ## -description

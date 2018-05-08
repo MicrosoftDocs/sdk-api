@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.Move
-title: IPortableDeviceContent::Move method
+title: IPortableDeviceContent::Move
 author: windows-driver-content
 description: The Move method moves one or more objects from one location on the device to another.
 old-location: wpdsdk\iportabledevicecontent_move.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 938a6a06-31c5-44d1-b87b-a108995ae9a1
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], Move method, IPortableDeviceContent::Move, IPortableDeviceContentMove, Move method [Windows Portable Devices SDK], Move method [Windows Portable Devices SDK], IPortableDeviceContent interface, Move,IPortableDeviceContent.Move, portabledeviceapi/IPortableDeviceContent::Move, wpdsdk.iportabledevicecontent_move
+ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Move method, IPortableDeviceContent.Move, IPortableDeviceContent::Move, IPortableDeviceContentMove, Move, Move method [Windows Portable Devices SDK], Move method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Move, wpdsdk.iportabledevicecontent_move
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceContent::Move method
+# IPortableDeviceContent::Move
 
 
 ## -description

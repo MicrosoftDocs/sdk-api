@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CMSPAddress.GetDynamicTerminalClasses
-title: CMSPAddress::GetDynamicTerminalClasses method
+title: CMSPAddress::GetDynamicTerminalClasses
 author: windows-driver-content
 description: The GetDynamicTerminalClasses method is called by our wrapper methods to get an array of dynamic terminal classes that can be used on this address.
 old-location: tapi3\cmspaddress_getdynamicterminalclasses.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 62ded118-ee43-4500-97e2-4177518465a6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPAddress, CMSPAddress interface [TAPI 2.2], GetDynamicTerminalClasses method, CMSPAddress::GetDynamicTerminalClasses, GetDynamicTerminalClasses method [TAPI 2.2], GetDynamicTerminalClasses method [TAPI 2.2], CMSPAddress interface, GetDynamicTerminalClasses,CMSPAddress.GetDynamicTerminalClasses, _tapi3_cmspaddress_getdynamicterminalclasses, mspaddr/CMSPAddress::GetDynamicTerminalClasses, tapi3.cmspaddress_getdynamicterminalclasses
+ms.keywords: CMSPAddress interface [TAPI 2.2],GetDynamicTerminalClasses method, CMSPAddress.GetDynamicTerminalClasses, CMSPAddress::GetDynamicTerminalClasses, GetDynamicTerminalClasses, GetDynamicTerminalClasses method [TAPI 2.2], GetDynamicTerminalClasses method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getdynamicterminalclasses, mspaddr/CMSPAddress::GetDynamicTerminalClasses, tapi3.cmspaddress_getdynamicterminalclasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPAddress::GetDynamicTerminalClasses method
+# CMSPAddress::GetDynamicTerminalClasses
 
 
 ## -description

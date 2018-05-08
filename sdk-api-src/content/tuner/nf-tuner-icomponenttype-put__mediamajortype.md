@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentType.put__MediaMajorType
-title: IComponentType::put__MediaMajorType method
+title: IComponentType::put__MediaMajorType
 author: windows-driver-content
 description: The put__MediaMajorType method sets the DirectShow media major type.
 old-location: mstv\icomponenttype_put__mediamajortype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3886f7fe-1520-4fee-a88b-26ee1cdf32fe
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies], put__MediaMajorType method, IComponentType::put__MediaMajorType, IComponentTypeput__MediaMajorType, mstv.icomponenttype_put__mediamajortype, put__MediaMajorType method [Microsoft TV Technologies], put__MediaMajorType method [Microsoft TV Technologies], IComponentType interface, put__MediaMajorType,IComponentType.put__MediaMajorType, tuner/IComponentType::put__MediaMajorType
+ms.keywords: IComponentType interface [Microsoft TV Technologies],put__MediaMajorType method, IComponentType.put__MediaMajorType, IComponentType::put__MediaMajorType, IComponentTypeput__MediaMajorType, mstv.icomponenttype_put__mediamajortype, put__MediaMajorType, put__MediaMajorType method [Microsoft TV Technologies], put__MediaMajorType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put__MediaMajorType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IComponentType::put__MediaMajorType method
+# IComponentType::put__MediaMajorType
 
 
 ## -description

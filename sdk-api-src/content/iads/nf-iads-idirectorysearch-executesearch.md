@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.ExecuteSearch
-title: IDirectorySearch::ExecuteSearch method
+title: IDirectorySearch::ExecuteSearch
 author: windows-driver-content
 description: The IDirectorySearch::ExecuteSearch method executes a search and passes the results to the caller.
 old-location: adsi\idirectorysearch_executesearch.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 7514b372-1a7a-4a42-a814-af70a727c477
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ExecuteSearch method [ADSI], ExecuteSearch method [ADSI], IDirectorySearch interface, ExecuteSearch,IDirectorySearch.ExecuteSearch, IDirectorySearch, IDirectorySearch interface [ADSI], ExecuteSearch method, IDirectorySearch::ExecuteSearch, _ds_idirectorysearch_executesearch, adsi.idirectorysearch__executesearch, adsi.idirectorysearch_executesearch, iads/IDirectorySearch::ExecuteSearch
+ms.keywords: ExecuteSearch, ExecuteSearch method [ADSI], ExecuteSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],ExecuteSearch method, IDirectorySearch.ExecuteSearch, IDirectorySearch::ExecuteSearch, _ds_idirectorysearch_executesearch, adsi.idirectorysearch__executesearch, adsi.idirectorysearch_executesearch, iads/IDirectorySearch::ExecuteSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDirectorySearch::ExecuteSearch method
+# IDirectorySearch::ExecuteSearch
 
 
 ## -description

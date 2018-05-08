@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetNamespaceAt
-title: IWbemPath::SetNamespaceAt method
+title: IWbemPath::SetNamespaceAt
 author: windows-driver-content
 description: The IWbemPath::SetNamespace method sets a namespace in a path using zero-based indexing to designate where in the path the namespace is positioned.
 old-location: wmi\iwbempath_setnamespaceat.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 59e8d4bc-1bf6-4fe7-a269-22f0317b876c
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], SetNamespaceAt method, IWbemPath::SetNamespaceAt, SetNamespaceAt method [Windows Management Instrumentation], SetNamespaceAt method [Windows Management Instrumentation], IWbemPath interface, SetNamespaceAt,IWbemPath.SetNamespaceAt, _hmm_iwbempath_setnamespaceat, wmi.iwbempath_setnamespaceat, wmiutils/IWbemPath::SetNamespaceAt
+ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetNamespaceAt method, IWbemPath.SetNamespaceAt, IWbemPath::SetNamespaceAt, SetNamespaceAt, SetNamespaceAt method [Windows Management Instrumentation], SetNamespaceAt method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_setnamespaceat, wmi.iwbempath_setnamespaceat, wmiutils/IWbemPath::SetNamespaceAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPath::SetNamespaceAt method
+# IWbemPath::SetNamespaceAt
 
 
 ## -description

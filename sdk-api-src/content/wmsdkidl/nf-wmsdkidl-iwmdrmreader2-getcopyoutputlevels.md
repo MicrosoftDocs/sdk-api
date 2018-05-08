@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader2.GetCopyOutputLevels
-title: IWMDRMReader2::GetCopyOutputLevels method
+title: IWMDRMReader2::GetCopyOutputLevels
 author: windows-driver-content
 description: The GetCopyOutputLevels method retrieves the output protection levels (OPLs) that apply to the copy action in the license of the file loaded in the reader.
 old-location: wmformat\iwmdrmreader2_getcopyoutputlevels.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 32c8110b-1a96-432d-a82c-5769757dd4f6
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetCopyOutputLevels method [windows Media Format], GetCopyOutputLevels method [windows Media Format], IWMDRMReader2 interface, GetCopyOutputLevels,IWMDRMReader2.GetCopyOutputLevels, IWMDRMReader2, IWMDRMReader2 interface [windows Media Format], GetCopyOutputLevels method, IWMDRMReader2::GetCopyOutputLevels, IWMDRMReader2GetCopyOutputLevels, wmformat.iwmdrmreader2_getcopyoutputlevels, wmsdkidl/IWMDRMReader2::GetCopyOutputLevels
+ms.keywords: GetCopyOutputLevels, GetCopyOutputLevels method [windows Media Format], GetCopyOutputLevels method [windows Media Format],IWMDRMReader2 interface, IWMDRMReader2 interface [windows Media Format],GetCopyOutputLevels method, IWMDRMReader2.GetCopyOutputLevels, IWMDRMReader2::GetCopyOutputLevels, IWMDRMReader2GetCopyOutputLevels, wmformat.iwmdrmreader2_getcopyoutputlevels, wmsdkidl/IWMDRMReader2::GetCopyOutputLevels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMReader2::GetCopyOutputLevels method
+# IWMDRMReader2::GetCopyOutputLevels
 
 
 ## -description

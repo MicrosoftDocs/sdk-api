@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.GetFiltergraph
-title: ICaptureGraphBuilder::GetFiltergraph method
+title: ICaptureGraphBuilder::GetFiltergraph
 author: windows-driver-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Retrieves the filter graph that the builder is using.
 old-location: dshow\icapturegraphbuilder_getfiltergraph.htm
 old-project: DirectShow
 ms.assetid: 9cb43dca-79f1-4467-8e17-6f2a0b4db785
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow], ICaptureGraphBuilder interface, GetFiltergraph,ICaptureGraphBuilder.GetFiltergraph, ICaptureGraphBuilder, ICaptureGraphBuilder interface [DirectShow], GetFiltergraph method, ICaptureGraphBuilder::GetFiltergraph, ICaptureGraphBuilderGetFiltergraph, dshow.icapturegraphbuilder_getfiltergraph, strmif/ICaptureGraphBuilder::GetFiltergraph
+ms.date: 4/30/2018
+ms.keywords: GetFiltergraph, GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],GetFiltergraph method, ICaptureGraphBuilder.GetFiltergraph, ICaptureGraphBuilder::GetFiltergraph, ICaptureGraphBuilderGetFiltergraph, dshow.icapturegraphbuilder_getfiltergraph, strmif/ICaptureGraphBuilder::GetFiltergraph
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ICaptureGraphBuilder::GetFiltergraph method
+# ICaptureGraphBuilder::GetFiltergraph
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_EncryptionStrength
-title: IX509CertificateRequestCmc::get_EncryptionStrength method
+title: IX509CertificateRequestCmc::get_EncryptionStrength
 author: windows-driver-content
 description: Specifies or retrieves the relative encryption level applied to the private key to be archived.
 old-location: security\ix509certificaterequestcmc_encryptionstrength_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 9cade9f0-d614-4838-bf42-0a19b4ce53d5
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: EncryptionStrength property [Security], EncryptionStrength property [Security], IX509CertificateRequestCmc interface, IX509CertificateRequestCmc, IX509CertificateRequestCmc interface [Security], EncryptionStrength property, IX509CertificateRequestCmc.EncryptionStrength, IX509CertificateRequestCmc::get_EncryptionStrength, IX509CertificateRequestCmc::put_EncryptionStrength, certenroll/IX509CertificateRequestCmc::EncryptionStrength, certenroll/IX509CertificateRequestCmc::get_EncryptionStrength, certenroll/IX509CertificateRequestCmc::put_EncryptionStrength, get_EncryptionStrength,IX509CertificateRequestCmc.get_EncryptionStrength, security.ix509certificaterequestcmc_encryptionstrength_property
+ms.keywords: EncryptionStrength property [Security], EncryptionStrength property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],EncryptionStrength property, IX509CertificateRequestCmc.EncryptionStrength, IX509CertificateRequestCmc.get_EncryptionStrength, IX509CertificateRequestCmc::EncryptionStrength, IX509CertificateRequestCmc::get_EncryptionStrength, IX509CertificateRequestCmc::put_EncryptionStrength, certenroll/IX509CertificateRequestCmc::EncryptionStrength, certenroll/IX509CertificateRequestCmc::get_EncryptionStrength, certenroll/IX509CertificateRequestCmc::put_EncryptionStrength, get_EncryptionStrength, security.ix509certificaterequestcmc_encryptionstrength_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestCmc::get_EncryptionStrength method
+# IX509CertificateRequestCmc::get_EncryptionStrength
 
 
 ## -description

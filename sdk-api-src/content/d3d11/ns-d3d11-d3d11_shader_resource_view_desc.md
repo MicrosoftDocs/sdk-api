@@ -71,81 +71,81 @@ Type: <b><a href="https://msdn.microsoft.com/0b3ae8b9-12fc-4de9-b99d-e9b9e17adfb
 The resource type of the view. See <a href="https://msdn.microsoft.com/0b3ae8b9-12fc-4de9-b99d-e9b9e17adfb4">D3D11_SRV_DIMENSION</a>. This should be the same as the resource type of the underlying resource. This parameter also determines which _SRV to use in the union below.
 
 
-#### - Buffer
+### -field Buffer
 
 Type: <b><a href="https://msdn.microsoft.com/2ada8526-bef3-4998-8775-6e062f972a1c">D3D11_BUFFER_SRV</a></b>
 
 View the resource as a buffer using information from a shader-resource view (see <a href="https://msdn.microsoft.com/2ada8526-bef3-4998-8775-6e062f972a1c">D3D11_BUFFER_SRV</a>).
 
 
-#### - BufferEx
-
-Type: <b><a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a></b>
-
-View the resource as a raw buffer using information from a shader-resource view (see <a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a>). For more info about raw viewing of buffers, see <a href="overviews_direct3d_11_resources_intro.htm">Raw Views of Buffers</a>.
-
-
-#### - Texture1D
+### -field Texture1D
 
 Type: <b><a href="https://msdn.microsoft.com/255e97ac-e978-4a70-a908-f4537337dfeb">D3D11_TEX1D_SRV</a></b>
 
 View the resource as a 1D texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/255e97ac-e978-4a70-a908-f4537337dfeb">D3D11_TEX1D_SRV</a>).
 
 
-#### - Texture1DArray
+### -field Texture1DArray
 
 Type: <b><a href="https://msdn.microsoft.com/e0caf038-d0d7-4fd4-bec3-f0023035a82a">D3D11_TEX1D_ARRAY_SRV</a></b>
 
 View the resource as a 1D-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/e0caf038-d0d7-4fd4-bec3-f0023035a82a">D3D11_TEX1D_ARRAY_SRV</a>).
 
 
-#### - Texture2D
+### -field Texture2D
 
 Type: <b><a href="https://msdn.microsoft.com/2edfe9bd-6f26-4007-a2bd-0911649e7237">D3D11_TEX2D_SRV</a></b>
 
 View the resource as a 2D-texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/2edfe9bd-6f26-4007-a2bd-0911649e7237">D3D11_TEX2D_SRV</a>).
 
 
-#### - Texture2DArray
+### -field Texture2DArray
 
 Type: <b><a href="https://msdn.microsoft.com/274e7a15-ac54-41e2-87d7-484e3e768a38">D3D11_TEX2D_ARRAY_SRV</a></b>
 
 View the resource as a 2D-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/274e7a15-ac54-41e2-87d7-484e3e768a38">D3D11_TEX2D_ARRAY_SRV</a>).
 
 
-#### - Texture2DMS
+### -field Texture2DMS
 
 Type: <b><a href="https://msdn.microsoft.com/ba896737-a94e-49d0-8f35-2e4ef5a335e7">D3D11_TEX2DMS_SRV</a></b>
 
 View the resource as a 2D-multisampled texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/ba896737-a94e-49d0-8f35-2e4ef5a335e7">D3D11_TEX2DMS_SRV</a>).
 
 
-#### - Texture2DMSArray
+### -field Texture2DMSArray
 
 Type: <b><a href="https://msdn.microsoft.com/ce020ea2-4b2e-4d80-8ad2-5982cc7ee051">D3D11_TEX2DMS_ARRAY_SRV</a></b>
 
 View the resource as a 2D-multisampled-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/ce020ea2-4b2e-4d80-8ad2-5982cc7ee051">D3D11_TEX2DMS_ARRAY_SRV</a>).
 
 
-#### - Texture3D
+### -field Texture3D
 
 Type: <b><a href="https://msdn.microsoft.com/d6aacaa5-5314-4ea1-b12e-0ffba850e74c">D3D11_TEX3D_SRV</a></b>
 
 View the resource as a 3D texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/d6aacaa5-5314-4ea1-b12e-0ffba850e74c">D3D11_TEX3D_SRV</a>).
 
 
-#### - TextureCube
+### -field TextureCube
 
 Type: <b><a href="https://msdn.microsoft.com/ca320e06-699f-44f9-9a66-93746935b4cd">D3D11_TEXCUBE_SRV</a></b>
 
 View the resource as a 3D-cube texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/ca320e06-699f-44f9-9a66-93746935b4cd">D3D11_TEXCUBE_SRV</a>).
 
 
-#### - TextureCubeArray
+### -field TextureCubeArray
 
 Type: <b><a href="https://msdn.microsoft.com/e8b496a7-89d9-4168-908a-1731ce045851">D3D11_TEXCUBE_ARRAY_SRV</a></b>
 
 View the resource as a 3D-cube-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/e8b496a7-89d9-4168-908a-1731ce045851">D3D11_TEXCUBE_ARRAY_SRV</a>).
+
+
+### -field BufferEx
+
+Type: <b><a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a></b>
+
+View the resource as a raw buffer using information from a shader-resource view (see <a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a>). For more info about raw viewing of buffers, see <a href="overviews_direct3d_11_resources_intro.htm">Raw Views of Buffers</a>.
 
 
 ## -remarks

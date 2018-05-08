@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.HitTestCircle
-title: IInkStrokeDisp::HitTestCircle method
+title: IInkStrokeDisp::HitTestCircle
 author: windows-driver-content
 description: Determines whether a stroke is either completely inside or intersected by a given circle.
 old-location: tablet\iinkstrokedisp_hittestcircle.htm
 old-project: tablet
 ms.assetid: b87a1bc0-b17b-419b-947e-48746f4903e8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: HitTestCircle method [Tablet PC], HitTestCircle method [Tablet PC], IInkStrokeDisp interface, HitTestCircle,IInkStrokeDisp.HitTestCircle, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], HitTestCircle method, IInkStrokeDisp::HitTestCircle, b87a1bc0-b17b-419b-947e-48746f4903e8, msinkaut/IInkStrokeDisp::HitTestCircle, tablet.iinkstrokedisp_hittestcircle
+ms.date: 5/2/2018
+ms.keywords: HitTestCircle, HitTestCircle method [Tablet PC], HitTestCircle method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],HitTestCircle method, IInkStrokeDisp.HitTestCircle, IInkStrokeDisp::HitTestCircle, b87a1bc0-b17b-419b-947e-48746f4903e8, msinkaut/IInkStrokeDisp::HitTestCircle, tablet.iinkstrokedisp_hittestcircle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::HitTestCircle method
+# IInkStrokeDisp::HitTestCircle
 
 
 ## -description

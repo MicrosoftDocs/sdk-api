@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterGraph2.ReconnectEx
-title: IFilterGraph2::ReconnectEx method
+title: IFilterGraph2::ReconnectEx
 author: windows-driver-content
 description: The ReconnectEx method breaks the existing pin connection and reconnects it to the same pin, using a specified media type.
 old-location: dshow\ifiltergraph2_reconnectex.htm
 old-project: DirectShow
 ms.assetid: a72cf427-056b-4751-9c4a-665251e549f8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFilterGraph2, IFilterGraph2 interface [DirectShow], ReconnectEx method, IFilterGraph2::ReconnectEx, IFilterGraph2ReconnectEx, ReconnectEx method [DirectShow], ReconnectEx method [DirectShow], IFilterGraph2 interface, ReconnectEx,IFilterGraph2.ReconnectEx, dshow.ifiltergraph2_reconnectex, strmif/IFilterGraph2::ReconnectEx
+ms.date: 4/30/2018
+ms.keywords: IFilterGraph2 interface [DirectShow],ReconnectEx method, IFilterGraph2.ReconnectEx, IFilterGraph2::ReconnectEx, IFilterGraph2ReconnectEx, ReconnectEx, ReconnectEx method [DirectShow], ReconnectEx method [DirectShow],IFilterGraph2 interface, dshow.ifiltergraph2_reconnectex, strmif/IFilterGraph2::ReconnectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterGraph2::ReconnectEx method
+# IFilterGraph2::ReconnectEx
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.Export
-title: IX509EnrollmentPolicyServer::Export method
+title: IX509EnrollmentPolicyServer::Export
 author: windows-driver-content
 description: Exports templates and object identifiers associated with the certificate enrollment policy (CEP) server to a buffer.
 old-location: security\ix509enrollmentpolicyserver_export.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b821329b-2ec6-4f47-ba5f-2e1cd7ffb06f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Export method [Security], Export method [Security], IX509EnrollmentPolicyServer interface, Export,IX509EnrollmentPolicyServer.Export, ExportOIDs, ExportTemplates, IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], Export method, IX509EnrollmentPolicyServer::Export, certenroll/IX509EnrollmentPolicyServer::Export, security.ix509enrollmentpolicyserver_export
+ms.keywords: Export, Export method [Security], Export method [Security],IX509EnrollmentPolicyServer interface, ExportOIDs, ExportTemplates, IX509EnrollmentPolicyServer interface [Security],Export method, IX509EnrollmentPolicyServer.Export, IX509EnrollmentPolicyServer::Export, certenroll/IX509EnrollmentPolicyServer::Export, security.ix509enrollmentpolicyserver_export
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509EnrollmentPolicyServer::Export method
+# IX509EnrollmentPolicyServer::Export
 
 
 ## -description

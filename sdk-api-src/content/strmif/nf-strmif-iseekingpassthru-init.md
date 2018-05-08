@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ISeekingPassThru.Init
-title: ISeekingPassThru::Init method
+title: ISeekingPassThru::Init
 author: windows-driver-content
 description: The Init method initializes the seeking helper object.
 old-location: dshow\iseekingpassthru_init.htm
 old-project: DirectShow
 ms.assetid: bb32c20c-bbae-403a-885b-f07c6dcf46f4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISeekingPassThru, ISeekingPassThru interface [DirectShow], Init method, ISeekingPassThru::Init, ISeekingPassThruInit, Init method [DirectShow], Init method [DirectShow], ISeekingPassThru interface, Init,ISeekingPassThru.Init, dshow.iseekingpassthru_init, strmif/ISeekingPassThru::Init
+ms.date: 4/30/2018
+ms.keywords: ISeekingPassThru interface [DirectShow],Init method, ISeekingPassThru.Init, ISeekingPassThru::Init, ISeekingPassThruInit, Init, Init method [DirectShow], Init method [DirectShow],ISeekingPassThru interface, dshow.iseekingpassthru_init, strmif/ISeekingPassThru::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ISeekingPassThru::Init method
+# ISeekingPassThru::Init
 
 
 ## -description

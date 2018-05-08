@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMTSActivity.UnbindFromThread
-title: IMTSActivity::UnbindFromThread method
+title: IMTSActivity::UnbindFromThread
 author: windows-driver-content
 description: Unbinds the batch work that is submitted using IMTSActivity::AsyncCall or IMTSActivity::SynchronousCall from the thread on which it is running.
 old-location: cos\imtsactivity_unbindfromthread.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: cb4c4f63-2a6e-4df7-8886-19d45e28d81a
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IMTSActivity, IMTSActivity interface [COM+], UnbindFromThread method, IMTSActivity::UnbindFromThread, UnbindFromThread method [COM+], UnbindFromThread method [COM+], IMTSActivity interface, UnbindFromThread,IMTSActivity.UnbindFromThread, _cos_IMTSActivity_UnbindFromThread, comsvcs/IMTSActivity::UnbindFromThread, cos.imtsactivity_unbindfromthread
+ms.keywords: IMTSActivity interface [COM+],UnbindFromThread method, IMTSActivity.UnbindFromThread, IMTSActivity::UnbindFromThread, UnbindFromThread, UnbindFromThread method [COM+], UnbindFromThread method [COM+],IMTSActivity interface, _cos_IMTSActivity_UnbindFromThread, comsvcs/IMTSActivity::UnbindFromThread, cos.imtsactivity_unbindfromthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMTSActivity::UnbindFromThread method
+# IMTSActivity::UnbindFromThread
 
 
 ## -description

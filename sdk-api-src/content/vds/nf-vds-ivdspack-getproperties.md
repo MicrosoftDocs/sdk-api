@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.GetProperties
-title: IVdsPack::GetProperties method
+title: IVdsPack::GetProperties
 author: windows-driver-content
 description: Returns the property details of a pack object.
 old-location: base\ivdspack_getproperties.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 0793642c-1905-470c-a69f-8bf5f8bbe90d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetProperties method [VDS], GetProperties method [VDS], IVdsPack interface, GetProperties,IVdsPack.GetProperties, IVdsPack, IVdsPack interface [VDS], GetProperties method, IVdsPack::GetProperties, base.ivdspack_getproperties, vds/IVdsPack::GetProperties
+ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsPack interface, IVdsPack interface [VDS],GetProperties method, IVdsPack.GetProperties, IVdsPack::GetProperties, base.ivdspack_getproperties, vds/IVdsPack::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsPack::GetProperties method
+# IVdsPack::GetProperties
 
 
 ## -description

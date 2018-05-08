@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CopyResource
-title: ID3D10Device::CopyResource method
+title: ID3D10Device::CopyResource
 author: windows-driver-content
 description: Copy the entire contents of the source resource to the destination resource using the GPU.
 old-location: direct3d10\id3d10device_copyresource.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_copyresource.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 7cc09321-049c-23b4-3867-f1b76d332515, CopyResource method [Direct3D 10], CopyResource method [Direct3D 10], ID3D10Device interface, CopyResource,ID3D10Device.CopyResource, ID3D10Device, ID3D10Device interface [Direct3D 10], CopyResource method, ID3D10Device::CopyResource, d3d10/ID3D10Device::CopyResource, direct3d10.id3d10device_copyresource
+ms.keywords: 7cc09321-049c-23b4-3867-f1b76d332515, CopyResource, CopyResource method [Direct3D 10], CopyResource method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CopyResource method, ID3D10Device.CopyResource, ID3D10Device::CopyResource, d3d10/ID3D10Device::CopyResource, direct3d10.id3d10device_copyresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::CopyResource method
+# ID3D10Device::CopyResource
 
 
 ## -description

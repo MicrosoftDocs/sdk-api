@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 614d3ed6-255f-46ed-9354-7a73a21cac87
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ClusResTypes, ClusResTypes collection [Failover Cluster], ClusResTypes collection [Failover Cluster], described, ISClusResTypes, _wolf_clusrestypes_collection, msclus/ClusResTypes, mscs.clusrestypes_collection
+ms.keywords: ClusResTypes, ClusResTypes collection [Failover Cluster], ClusResTypes collection [Failover Cluster],described, ISClusResTypes, _wolf_clusrestypes_collection, msclus/ClusResTypes, mscs.clusrestypes_collection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

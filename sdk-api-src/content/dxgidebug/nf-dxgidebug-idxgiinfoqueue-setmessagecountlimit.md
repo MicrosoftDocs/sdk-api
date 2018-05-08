@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetMessageCountLimit
-title: IDXGIInfoQueue::SetMessageCountLimit method
+title: IDXGIInfoQueue::SetMessageCountLimit
 author: windows-driver-content
 description: Sets the maximum number of messages that can be added to the message queue.
 old-location: direct3ddxgi\idxgiinfoqueue_setmessagecountlimit.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 77FFF3EA-DEBC-4D92-9C10-E382CD663D20
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], SetMessageCountLimit method, IDXGIInfoQueue::SetMessageCountLimit, SetMessageCountLimit method [DXGI], SetMessageCountLimit method [DXGI], IDXGIInfoQueue interface, SetMessageCountLimit,IDXGIInfoQueue.SetMessageCountLimit, direct3ddxgi.idxgiinfoqueue_setmessagecountlimit, dxgidebug/IDXGIInfoQueue::SetMessageCountLimit
+ms.keywords: IDXGIInfoQueue interface [DXGI],SetMessageCountLimit method, IDXGIInfoQueue.SetMessageCountLimit, IDXGIInfoQueue::SetMessageCountLimit, SetMessageCountLimit, SetMessageCountLimit method [DXGI], SetMessageCountLimit method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setmessagecountlimit, dxgidebug/IDXGIInfoQueue::SetMessageCountLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::SetMessageCountLimit method
+# IDXGIInfoQueue::SetMessageCountLimit
 
 
 ## -description

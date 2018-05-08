@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndSession
-title: IPhotoAcquireProgressCB::EndSession method
+title: IPhotoAcquireProgressCB::EndSession
 author: windows-driver-content
 description: The EndSession method provides extended functionality when an acquisition session is completed. The application provides the implementation of the EndSession method.
 old-location: picacq\iphotoacquireprogresscb_endsession.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: fb22709a-c1f8-4608-b984-46181e7c704e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EndSession method [Picture Acquisition], EndSession method [Picture Acquisition], IPhotoAcquireProgressCB interface, EndSession,IPhotoAcquireProgressCB.EndSession, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], EndSession method, IPhotoAcquireProgressCB::EndSession, IPhotoAcquireProgressCBEndSession, photoacquire/IPhotoAcquireProgressCB::EndSession, picacq.iphotoacquireprogresscb_endsession
+ms.keywords: EndSession, EndSession method [Picture Acquisition], EndSession method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndSession method, IPhotoAcquireProgressCB.EndSession, IPhotoAcquireProgressCB::EndSession, IPhotoAcquireProgressCBEndSession, photoacquire/IPhotoAcquireProgressCB::EndSession, picacq.iphotoacquireprogresscb_endsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireProgressCB::EndSession method
+# IPhotoAcquireProgressCB::EndSession
 
 
 ## -description

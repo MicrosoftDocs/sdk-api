@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 905ef0c9-ac32-4dfd-a25a-820cafa04815
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioEndpointVolumeEx, IAudioEndpointVolumeEx interface [Core Audio], IAudioEndpointVolumeEx interface [Core Audio], described, coreaudio.iaudioendpointvolumeex, endpointvolume/IAudioEndpointVolumeEx
+ms.keywords: IAudioEndpointVolumeEx, IAudioEndpointVolumeEx interface [Core Audio], IAudioEndpointVolumeEx interface [Core Audio],described, coreaudio.iaudioendpointvolumeex, endpointvolume/IAudioEndpointVolumeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDdsEncoder.GetParameters
-title: IWICDdsEncoder::GetParameters method
+title: IWICDdsEncoder::GetParameters
 author: windows-driver-content
 description: Gets DDS-specific data.
 old-location: wic\iwicddsencoder_getparameters.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 2172A086-D0F6-4CFE-849C-A2EF1E89C050
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetParameters method [Windows Imaging Component], GetParameters method [Windows Imaging Component], IWICDdsEncoder interface, GetParameters,IWICDdsEncoder.GetParameters, IWICDdsEncoder, IWICDdsEncoder interface [Windows Imaging Component], GetParameters method, IWICDdsEncoder::GetParameters, wic.iwicddsencoder_getparameters, wincodec/IWICDdsEncoder::GetParameters
+ms.keywords: GetParameters, GetParameters method [Windows Imaging Component], GetParameters method [Windows Imaging Component],IWICDdsEncoder interface, IWICDdsEncoder interface [Windows Imaging Component],GetParameters method, IWICDdsEncoder.GetParameters, IWICDdsEncoder::GetParameters, wic.iwicddsencoder_getparameters, wincodec/IWICDdsEncoder::GetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDdsEncoder::GetParameters method
+# IWICDdsEncoder::GetParameters
 
 
 ## -description

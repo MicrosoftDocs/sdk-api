@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DeviceStatus
-title: IWindowsDriverUpdate::get_DeviceStatus method
+title: IWindowsDriverUpdate::get_DeviceStatus
 author: windows-driver-content
 description: Gets the status of the matching device for the Windows driver update.
 old-location: wua\iwindowsdriverupdate_devicestatus.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 15455dad-4829-4dd4-8384-cf08ab42ded2
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DeviceStatus property [Windows Update Agent], DeviceStatus property [Windows Update Agent], IWindowsDriverUpdate interface, IWindowsDriverUpdate, IWindowsDriverUpdate interface [Windows Update Agent], DeviceStatus property, IWindowsDriverUpdate.DeviceStatus, IWindowsDriverUpdate::get_DeviceStatus, get_DeviceStatus,IWindowsDriverUpdate.get_DeviceStatus, wua.iwindowsdriverupdate_devicestatus, wuapi/IWindowsDriverUpdate::DeviceStatus, wuapi/IWindowsDriverUpdate::get_DeviceStatus
+ms.keywords: DeviceStatus property [Windows Update Agent], DeviceStatus property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DeviceStatus property, IWindowsDriverUpdate.DeviceStatus, IWindowsDriverUpdate.get_DeviceStatus, IWindowsDriverUpdate::DeviceStatus, IWindowsDriverUpdate::get_DeviceStatus, get_DeviceStatus, wua.iwindowsdriverupdate_devicestatus, wuapi/IWindowsDriverUpdate::DeviceStatus, wuapi/IWindowsDriverUpdate::get_DeviceStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IWindowsDriverUpdate::get_DeviceStatus method
+# IWindowsDriverUpdate::get_DeviceStatus
 
 
 ## -description

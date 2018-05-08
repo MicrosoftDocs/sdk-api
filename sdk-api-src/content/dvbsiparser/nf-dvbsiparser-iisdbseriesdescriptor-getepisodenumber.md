@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetEpisodeNumber
-title: IIsdbSeriesDescriptor::GetEpisodeNumber method
+title: IIsdbSeriesDescriptor::GetEpisodeNumber
 author: windows-driver-content
 description: Gets the episode number from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getepisodenumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1a28ff17-4a5e-4245-845e-1307830fb3fd
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetEpisodeNumber method [Microsoft TV Technologies], GetEpisodeNumber method [Microsoft TV Technologies], IIsdbSeriesDescriptor interface, GetEpisodeNumber,IIsdbSeriesDescriptor.GetEpisodeNumber, IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], GetEpisodeNumber method, IIsdbSeriesDescriptor::GetEpisodeNumber, dvbsiparser/IIsdbSeriesDescriptor::GetEpisodeNumber, mstv.iisdbseriesdescriptor_getepisodenumber
+ms.keywords: GetEpisodeNumber, GetEpisodeNumber method [Microsoft TV Technologies], GetEpisodeNumber method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetEpisodeNumber method, IIsdbSeriesDescriptor.GetEpisodeNumber, IIsdbSeriesDescriptor::GetEpisodeNumber, dvbsiparser/IIsdbSeriesDescriptor::GetEpisodeNumber, mstv.iisdbseriesdescriptor_getepisodenumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbSeriesDescriptor::GetEpisodeNumber method
+# IIsdbSeriesDescriptor::GetEpisodeNumber
 
 
 ## -description

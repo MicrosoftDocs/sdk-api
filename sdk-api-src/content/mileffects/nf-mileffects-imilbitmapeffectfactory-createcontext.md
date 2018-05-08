@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectFactory.CreateContext
-title: IMILBitmapEffectFactory::CreateContext method
+title: IMILBitmapEffectFactory::CreateContext
 author: windows-driver-content
 description: Creates an IMILBitmapEffectRenderContext object.
 old-location: wibe\_wibe_imilbitmapeffectfactory_createcontext.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\createcontext.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: CreateContext method [WPF Bitmap Effects], CreateContext method [WPF Bitmap Effects], IMILBitmapEffectFactory interface, CreateContext,IMILBitmapEffectFactory.CreateContext, IMILBitmapEffectFactory, IMILBitmapEffectFactory interface [WPF Bitmap Effects], CreateContext method, IMILBitmapEffectFactory::CreateContext, _wibe_imilbitmapeffectfactory_createcontext, mileffects/IMILBitmapEffectFactory::CreateContext, wibe._wibe_imilbitmapeffectfactory_createcontext
+ms.keywords: CreateContext, CreateContext method [WPF Bitmap Effects], CreateContext method [WPF Bitmap Effects],IMILBitmapEffectFactory interface, IMILBitmapEffectFactory interface [WPF Bitmap Effects],CreateContext method, IMILBitmapEffectFactory.CreateContext, IMILBitmapEffectFactory::CreateContext, _wibe_imilbitmapeffectfactory_createcontext, mileffects/IMILBitmapEffectFactory::CreateContext, wibe._wibe_imilbitmapeffectfactory_createcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectFactory::CreateContext method
+# IMILBitmapEffectFactory::CreateContext
 
 
 ## -description

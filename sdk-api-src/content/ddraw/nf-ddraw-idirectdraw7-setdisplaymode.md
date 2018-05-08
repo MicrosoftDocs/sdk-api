@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.SetDisplayMode
-title: IDirectDraw7::SetDisplayMode method
+title: IDirectDraw7::SetDisplayMode
 author: windows-driver-content
 description: Sets the mode of the display-device hardware.
 old-location: directdraw\idirectdraw7_setdisplaymode.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 385918cd-64f1-449c-822a-0034a8184fb9
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDraw7, IDirectDraw7 interface [DirectDraw], SetDisplayMode method, IDirectDraw7::SetDisplayMode, SetDisplayMode method [DirectDraw], SetDisplayMode method [DirectDraw], IDirectDraw7 interface, SetDisplayMode,IDirectDraw7.SetDisplayMode, ddraw/IDirectDraw7::SetDisplayMode, directdraw.idirectdraw7_setdisplaymode
+ms.keywords: IDirectDraw7 interface [DirectDraw],SetDisplayMode method, IDirectDraw7.SetDisplayMode, IDirectDraw7::SetDisplayMode, SetDisplayMode, SetDisplayMode method [DirectDraw], SetDisplayMode method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::SetDisplayMode, directdraw.idirectdraw7_setdisplaymode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDraw7::SetDisplayMode method
+# IDirectDraw7::SetDisplayMode
 
 
 ## -description

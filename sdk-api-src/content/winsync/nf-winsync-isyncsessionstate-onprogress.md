@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionState.OnProgress
-title: ISyncSessionState::OnProgress method
+title: ISyncSessionState::OnProgress
 author: windows-driver-content
 description: Reports synchronization progress to the application.
 old-location: winsync\isyncsessionstate_onprogress.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: a2983f9c-ed2d-47b4-bec7-b00dc4d75f3f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncSessionState, ISyncSessionState interface [Windows Sync], OnProgress method, ISyncSessionState::OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync], ISyncSessionState interface, OnProgress,ISyncSessionState.OnProgress, winsync.isyncsessionstate_onprogress, winsync/ISyncSessionState::OnProgress
+ms.keywords: ISyncSessionState interface [Windows Sync],OnProgress method, ISyncSessionState.OnProgress, ISyncSessionState::OnProgress, OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_onprogress, winsync/ISyncSessionState::OnProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncSessionState::OnProgress method
+# ISyncSessionState::OnProgress
 
 
 ## -description

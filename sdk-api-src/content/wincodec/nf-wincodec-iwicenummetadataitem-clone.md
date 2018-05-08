@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICEnumMetadataItem.Clone
-title: IWICEnumMetadataItem::Clone method
+title: IWICEnumMetadataItem::Clone
 author: windows-driver-content
 description: Creates a copy of the current IWICEnumMetadataItem.
 old-location: wic\_wic_codec_iwicenummetadataitem_clone.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 08477910-027e-497d-a3e7-16e92f1a53e9
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Clone method [Windows Imaging Component], Clone method [Windows Imaging Component], IWICEnumMetadataItem interface, Clone,IWICEnumMetadataItem.Clone, IWICEnumMetadataItem, IWICEnumMetadataItem interface [Windows Imaging Component], Clone method, IWICEnumMetadataItem::Clone, _wic_codec_iwicenummetadataitem_clone, wic._wic_codec_iwicenummetadataitem_clone, wincodec/IWICEnumMetadataItem::Clone
+ms.keywords: Clone, Clone method [Windows Imaging Component], Clone method [Windows Imaging Component],IWICEnumMetadataItem interface, IWICEnumMetadataItem interface [Windows Imaging Component],Clone method, IWICEnumMetadataItem.Clone, IWICEnumMetadataItem::Clone, _wic_codec_iwicenummetadataitem_clone, wic._wic_codec_iwicenummetadataitem_clone, wincodec/IWICEnumMetadataItem::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICEnumMetadataItem::Clone method
+# IWICEnumMetadataItem::Clone
 
 
 ## -description

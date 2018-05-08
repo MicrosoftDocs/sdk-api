@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVDisk.GetDeviceName
-title: IVdsVDisk::GetDeviceName method
+title: IVdsVDisk::GetDeviceName
 author: windows-driver-content
 description: Returns the device name for the volume where the virtual disk resides.
 old-location: base\ivdsvdisk_getdevicename.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 4ce60f7f-a7f2-4e1e-aae0-bd082b62480f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDeviceName method, GetDeviceName method, IVdsVDisk interface, GetDeviceName,IVdsVDisk.GetDeviceName, IVdsVDisk, IVdsVDisk interface, GetDeviceName method, IVdsVDisk::GetDeviceName, base.ivdsvdisk_getdevicename, vds/IVdsVDisk::GetDeviceName
+ms.keywords: GetDeviceName, GetDeviceName method, GetDeviceName method,IVdsVDisk interface, IVdsVDisk interface,GetDeviceName method, IVdsVDisk.GetDeviceName, IVdsVDisk::GetDeviceName, base.ivdsvdisk_getdevicename, vds/IVdsVDisk::GetDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVDisk::GetDeviceName method
+# IVdsVDisk::GetDeviceName
 
 
 ## -description

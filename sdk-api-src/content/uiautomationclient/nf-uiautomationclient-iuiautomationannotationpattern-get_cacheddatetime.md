@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CachedDateTime
-title: IUIAutomationAnnotationPattern::get_CachedDateTime method
+title: IUIAutomationAnnotationPattern::get_CachedDateTime
 author: windows-driver-content
 description: Retrieves the cached date and time that this annotation was created.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedDateTime.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 506019F7-0EC3-4FEA-9B22-C84548ACD8A6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedDateTime property [Windows Accessibility], CachedDateTime property [Windows Accessibility], IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern, IUIAutomationAnnotationPattern interface [Windows Accessibility], CachedDateTime property, IUIAutomationAnnotationPattern.CachedDateTime, IUIAutomationAnnotationPattern::get_CachedDateTime, get_CachedDateTime,IUIAutomationAnnotationPattern.get_CachedDateTime, uiautomationclient/IUIAutomationAnnotationPattern::CachedDateTime, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedDateTime, winauto.uiauto_IUIAutomationAnnotationPattern_CachedDateTime
+ms.keywords: CachedDateTime property [Windows Accessibility], CachedDateTime property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CachedDateTime property, IUIAutomationAnnotationPattern.CachedDateTime, IUIAutomationAnnotationPattern.get_CachedDateTime, IUIAutomationAnnotationPattern::CachedDateTime, IUIAutomationAnnotationPattern::get_CachedDateTime, get_CachedDateTime, uiautomationclient/IUIAutomationAnnotationPattern::CachedDateTime, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedDateTime, winauto.uiauto_IUIAutomationAnnotationPattern_CachedDateTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationAnnotationPattern::get_CachedDateTime method
+# IUIAutomationAnnotationPattern::get_CachedDateTime
 
 
 ## -description

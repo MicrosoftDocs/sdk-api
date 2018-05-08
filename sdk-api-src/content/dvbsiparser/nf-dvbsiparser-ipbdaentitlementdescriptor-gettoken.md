@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDAEntitlementDescriptor.GetToken
-title: IPBDAEntitlementDescriptor::GetToken method
+title: IPBDAEntitlementDescriptor::GetToken
 author: windows-driver-content
 description: Gets the entitlement token from the entitlement descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.
 old-location: mstv\ipbdaentitlementdescriptor_gettoken.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3fc73b0c-cacb-491b-b25b-49eb57154a37
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetToken method [Microsoft TV Technologies], GetToken method [Microsoft TV Technologies], IPBDAEntitlementDescriptor interface, GetToken,IPBDAEntitlementDescriptor.GetToken, IPBDAEntitlementDescriptor, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies], GetToken method, IPBDAEntitlementDescriptor::GetToken, dvbsiparser/IPBDAEntitlementDescriptor::GetToken, mstv.ipbdaentitlementdescriptor_gettoken
+ms.keywords: GetToken, GetToken method [Microsoft TV Technologies], GetToken method [Microsoft TV Technologies],IPBDAEntitlementDescriptor interface, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],GetToken method, IPBDAEntitlementDescriptor.GetToken, IPBDAEntitlementDescriptor::GetToken, dvbsiparser/IPBDAEntitlementDescriptor::GetToken, mstv.ipbdaentitlementdescriptor_gettoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IPBDAEntitlementDescriptor::GetToken method
+# IPBDAEntitlementDescriptor::GetToken
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageTargetFactory.CreateDocumentPackageTargetForPrintJob
-title: IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob method
+title: IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob
 author: windows-driver-content
 description: Acts as the entry point for creating an IPrintDocumentPackageTarget object.
 old-location: xps\iprintdocumentpackagetargetfactory_createdocumentpackagetargetforprintjob.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: F611305F-B577-403F-AD8A-402ABE8F6768
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateDocumentPackageTargetForPrintJob method [XPS Documents and Packaging], CreateDocumentPackageTargetForPrintJob method [XPS Documents and Packaging], IPrintDocumentPackageTargetFactory interface, CreateDocumentPackageTargetForPrintJob,IPrintDocumentPackageTargetFactory.CreateDocumentPackageTargetForPrintJob, IPrintDocumentPackageTargetFactory, IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging], CreateDocumentPackageTargetForPrintJob method, IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob, documenttarget/IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob, xps.iprintdocumentpackagetargetfactory_createdocumentpackagetargetforprintjob
+ms.keywords: CreateDocumentPackageTargetForPrintJob, CreateDocumentPackageTargetForPrintJob method [XPS Documents and Packaging], CreateDocumentPackageTargetForPrintJob method [XPS Documents and Packaging],IPrintDocumentPackageTargetFactory interface, IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging],CreateDocumentPackageTargetForPrintJob method, IPrintDocumentPackageTargetFactory.CreateDocumentPackageTargetForPrintJob, IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob, documenttarget/IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob, xps.iprintdocumentpackagetargetfactory_createdocumentpackagetargetforprintjob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob method
+# IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob
 
 
 ## -description

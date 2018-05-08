@@ -7,7 +7,7 @@ old-location: ad\ds_repl_neighbors.htm
 old-project: AD
 ms.assetid: 1307399b-de29-43ec-97b4-05cd70c1a92d
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DS_REPL_NEIGHBORS, DS_REPL_NEIGHBORS structure [Active Directory], DS_REPL_NEIGHBORSW, _DS_REPL_NEIGHBORSW, _glines_ds_repl_neighbors, ad.ds__repl__neighbors, ad.ds_repl_neighbors, ntdsapi/DS_REPL_NEIGHBORS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,6 +66,16 @@ Contains  the number of elements in the <b>rgNeighbor</b> array.
 ### -field dwReserved
 
 Reserved for future use.
+
+
+### -field rgNeighbor.size_is
+
+ 
+
+
+### -field rgNeighbor.size_is.cNumNeighbors
+
+ 
 
 
 ### -field rgNeighbor

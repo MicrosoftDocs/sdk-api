@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.RegisterOcclusionStatusEvent
-title: IDXGIFactory2::RegisterOcclusionStatusEvent method
+title: IDXGIFactory2::RegisterOcclusionStatusEvent
 author: windows-driver-content
 description: Registers to receive notification of changes in occlusion status by using event signaling.
 old-location: direct3ddxgi\idxgifactory2_registerocclusionstatusevent.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 9DCB6309-C1FF-403F-94E1-ABA769D18170
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIFactory2, IDXGIFactory2 interface [DXGI], RegisterOcclusionStatusEvent method, IDXGIFactory2::RegisterOcclusionStatusEvent, RegisterOcclusionStatusEvent method [DXGI], RegisterOcclusionStatusEvent method [DXGI], IDXGIFactory2 interface, RegisterOcclusionStatusEvent,IDXGIFactory2.RegisterOcclusionStatusEvent, direct3ddxgi.idxgifactory2_registerocclusionstatusevent, dxgi1_2/IDXGIFactory2::RegisterOcclusionStatusEvent
+ms.keywords: IDXGIFactory2 interface [DXGI],RegisterOcclusionStatusEvent method, IDXGIFactory2.RegisterOcclusionStatusEvent, IDXGIFactory2::RegisterOcclusionStatusEvent, RegisterOcclusionStatusEvent, RegisterOcclusionStatusEvent method [DXGI], RegisterOcclusionStatusEvent method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_registerocclusionstatusevent, dxgi1_2/IDXGIFactory2::RegisterOcclusionStatusEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIFactory2::RegisterOcclusionStatusEvent method
+# IDXGIFactory2::RegisterOcclusionStatusEvent
 
 
 ## -description

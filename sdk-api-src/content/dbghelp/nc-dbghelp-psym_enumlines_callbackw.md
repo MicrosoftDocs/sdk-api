@@ -8,7 +8,7 @@ old-project: Debug
 ms.assetid: 7379dd04-72a4-45b6-b02a-d3e8a5aaf0d7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: PSYM_ENUMLINES_CALLBACK, PSYM_ENUMLINES_CALLBACKW, SymEnumLinesProc, SymEnumLinesProc callback function, base.symenumlinesproc, dbghelp/SymEnumLinesProc
+ms.keywords: PSYM_ENUMLINES_CALLBACK, PSYM_ENUMLINES_CALLBACKW, SymEnumLinesProc, SymEnumLinesProc callback, SymEnumLinesProc callback function, base.symenumlinesproc, dbghelp/SymEnumLinesProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PSYM_ENUMLINES_CALLBACKW callback
+# PSYM_ENUMLINES_CALLBACKW callback function
 
 
 ## -description

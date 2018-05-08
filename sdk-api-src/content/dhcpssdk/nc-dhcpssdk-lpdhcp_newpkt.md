@@ -7,8 +7,8 @@ old-location: dhcp\dhcpnewpkthook.htm
 old-project: DHCP
 ms.assetid: 2bff8750-aeb2-4164-9a6e-4239a6736beb
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
-ms.keywords: DhcpNewPktHook, DhcpNewPktHook callback function [DHCP], LPDHCP_NEWPKT, _dhcp_dhcpnewpkthook, dhcp.dhcpnewpkthook, dhcpssdk/DhcpNewPktHook
+ms.date: 5/2/2018
+ms.keywords: DhcpNewPktHook, DhcpNewPktHook callback function [DHCP], LPDHCP_NEWPKT, LPDHCP_NEWPKT callback, _dhcp_dhcpnewpkthook, dhcp.dhcpnewpkthook, dhcpssdk/DhcpNewPktHook
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# LPDHCP_NEWPKT callback
+# LPDHCP_NEWPKT callback function
 
 
 ## -description

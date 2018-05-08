@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.Query
-title: IVssSoftwareSnapshotProvider::Query method
+title: IVssSoftwareSnapshotProvider::Query
 author: windows-driver-content
 description: Queries the provider for information about the shadow copies that the provider has completed.
 old-location: base\ivsssoftwaresnapshotprovider_query.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: bb238acc-7af0-43cf-bc2e-70e255978fb1
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, Query method, IVssSoftwareSnapshotProvider::Query, Query method, Query method, IVssSoftwareSnapshotProvider interface, Query,IVssSoftwareSnapshotProvider.Query, base.ivsssoftwaresnapshotprovider_query, vsprov/IVssSoftwareSnapshotProvider::Query
+ms.keywords: IVssSoftwareSnapshotProvider interface,Query method, IVssSoftwareSnapshotProvider.Query, IVssSoftwareSnapshotProvider::Query, Query, Query method, Query method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_query, vsprov/IVssSoftwareSnapshotProvider::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssSoftwareSnapshotProvider::Query method
+# IVssSoftwareSnapshotProvider::Query
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.put_Updates
-title: IUpdateDownloader::put_Updates method
+title: IUpdateDownloader::put_Updates
 author: windows-driver-content
 description: Gets and sets an interface that contains a read-only collection of the updates that are specified for download.
 old-location: wua\iupdatedownloader_updates.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 7c0444be-a9eb-461a-858e-1dea670afd06
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateDownloader, IUpdateDownloader interface [Windows Update Agent], Updates property, IUpdateDownloader.Updates, IUpdateDownloader::get_Updates, IUpdateDownloader::put_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent], IUpdateDownloader interface, put_Updates,IUpdateDownloader.put_Updates, wua.iupdatedownloader_updates, wuapi/IUpdateDownloader::Updates, wuapi/IUpdateDownloader::get_Updates, wuapi/IUpdateDownloader::put_Updates
+ms.keywords: IUpdateDownloader interface [Windows Update Agent],Updates property, IUpdateDownloader.Updates, IUpdateDownloader.put_Updates, IUpdateDownloader::Updates, IUpdateDownloader::get_Updates, IUpdateDownloader::put_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IUpdateDownloader interface, put_Updates, wua.iupdatedownloader_updates, wuapi/IUpdateDownloader::Updates, wuapi/IUpdateDownloader::get_Updates, wuapi/IUpdateDownloader::put_Updates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateDownloader::put_Updates method
+# IUpdateDownloader::put_Updates
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.put_StartPort
-title: IWdsTransportServicePolicy::put_StartPort method
+title: IWdsTransportServicePolicy::put_StartPort
 author: windows-driver-content
 description: Enables a WDS client computer to configure the start of a UDP port range that is used by WDS transport services.
 old-location: wds\iwdstransportservicepolicy_startport.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 0ef74479-f732-4b7b-8d40-29c359901837
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportServicePolicy, IWdsTransportServicePolicy interface [Windows Deployment Services], StartPort property, IWdsTransportServicePolicy.StartPort, IWdsTransportServicePolicy::get_StartPort, IWdsTransportServicePolicy::put_StartPort, StartPort property [Windows Deployment Services], StartPort property [Windows Deployment Services], IWdsTransportServicePolicy interface, put_StartPort,IWdsTransportServicePolicy.put_StartPort, wds.iwdstransportservicepolicy_startport, wdstptmgmt/IWdsTransportServicePolicy::StartPort, wdstptmgmt/IWdsTransportServicePolicy::get_StartPort, wdstptmgmt/IWdsTransportServicePolicy::put_StartPort
+ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],StartPort property, IWdsTransportServicePolicy.StartPort, IWdsTransportServicePolicy.put_StartPort, IWdsTransportServicePolicy::StartPort, IWdsTransportServicePolicy::get_StartPort, IWdsTransportServicePolicy::put_StartPort, StartPort property [Windows Deployment Services], StartPort property [Windows Deployment Services],IWdsTransportServicePolicy interface, put_StartPort, wds.iwdstransportservicepolicy_startport, wdstptmgmt/IWdsTransportServicePolicy::StartPort, wdstptmgmt/IWdsTransportServicePolicy::get_StartPort, wdstptmgmt/IWdsTransportServicePolicy::put_StartPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportServicePolicy::put_StartPort method
+# IWdsTransportServicePolicy::put_StartPort
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetToneCurve
-title: IWICDevelopRaw::SetToneCurve method
+title: IWICDevelopRaw::SetToneCurve
 author: windows-driver-content
 description: Sets the tone curve for the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_settonecurve.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: cfb0b67d-7eb1-4bbb-90be-33ca82b9460f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetToneCurve method, IWICDevelopRaw::SetToneCurve, SetToneCurve method [Windows Imaging Component], SetToneCurve method [Windows Imaging Component], IWICDevelopRaw interface, SetToneCurve,IWICDevelopRaw.SetToneCurve, _wic_codec_iwicdevelopraw_settonecurve, wic._wic_codec_iwicdevelopraw_settonecurve, wincodec/IWICDevelopRaw::SetToneCurve
+ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetToneCurve method, IWICDevelopRaw.SetToneCurve, IWICDevelopRaw::SetToneCurve, SetToneCurve, SetToneCurve method [Windows Imaging Component], SetToneCurve method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_settonecurve, wic._wic_codec_iwicdevelopraw_settonecurve, wincodec/IWICDevelopRaw::SetToneCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::SetToneCurve method
+# IWICDevelopRaw::SetToneCurve
 
 
 ## -description

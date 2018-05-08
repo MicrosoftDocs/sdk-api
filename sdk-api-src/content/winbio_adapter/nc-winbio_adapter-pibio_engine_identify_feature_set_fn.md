@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 838f839d-0bb0-4194-b0a2-ad6936d7b0e4
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterIdentifyFeatureSet, EngineAdapterIdentifyFeatureSet callback function [Windows Biometric Framework API], PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN, secbiomet.engineadapteridentifyfeatureset, winbio_adapter/EngineAdapterIdentifyFeatureSet
+ms.keywords: EngineAdapterIdentifyFeatureSet, EngineAdapterIdentifyFeatureSet callback function [Windows Biometric Framework API], PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN, PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN callback, secbiomet.engineadapteridentifyfeatureset, winbio_adapter/EngineAdapterIdentifyFeatureSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN callback
+# PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN callback function
 
 
 ## -description

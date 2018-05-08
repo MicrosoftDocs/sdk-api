@@ -7,7 +7,7 @@ old-location: security\cmsg_signer_encode_info.htm
 old-project: SecCrypto
 ms.assetid: f599226d-ddd7-455f-b650-74b91674d8f9
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMSG_SIGNER_ENCODE_INFO, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_SIGNER_ENCODE_INFO, CMSG_SIGNER_ENCODE_INFO structure [Security], PCMSG_SIGNER_ENCODE_INFO, PCMSG_SIGNER_ENCODE_INFO structure pointer [Security], _CMSG_SIGNER_ENCODE_INFO, _crypto2_cmsg_signer_encode_info, security.cmsg_signer_encode_info, wincrypt/CMSG_SIGNER_ENCODE_INFO, wincrypt/PCMSG_SIGNER_ENCODE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,6 +79,22 @@ The <b>pbData</b> members of the <b>Issuer</b> and <b>SerialNumber</b> structure
 
 
 ### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.hCryptProv
+
+A handle to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP).
+If <b>HashEncryptionAlgorithm</b> is set to szOID_PKIX_NO_SIGNATURE, this handle can be the handle of a CSP acquired by using the <i>dwFlags</i> parameter set to <b>CRYPT_VERIFYCONTEXT</b>. The CNG function <a href="https://msdn.microsoft.com/ad841c2e-8097-4b07-914e-8e7240d55585">NCryptIsKeyHandle</a> is called to determine the union choice.
+
+
+### -field DUMMYUNIONNAME.hNCryptKey
+
+A handle to the CNG CSP. The CNG function <a href="https://msdn.microsoft.com/ad841c2e-8097-4b07-914e-8e7240d55585">NCryptIsKeyHandle</a> is called to determine the union choice. New encrypt algorithms are only supported in CNG functions. The CNG function <a href="https://msdn.microsoft.com/0c339864-b598-430c-a597-09d3571fdbb2">NCryptTranslateHandle</a> will be called to convert the CryptoAPI <i>hCryptProv</i> choice where necessary. We recommend that applications pass, to the <i>hNCryptKey</i> member, the CNG CSP handle that is returned from the <a href="https://msdn.microsoft.com/581c5d89-730d-4d8c-b3bb-a28edec25910">NCryptOpenKey</a> function.
+
+
+### -field DUMMYUNIONNAME.hBCryptKey
 
  
 
@@ -182,17 +198,6 @@ This member is  used with CMS for PKCS #7 processing and can be used only if CMS
 
 This member is not used. This member must be set to <b>NULL</b> if it is present in the data structure.
 This member is present only if CMSG_SIGNER_ENCODE_INFO_HAS_CMS_FIELDS is defined.
-
-
-#### - hCryptProv
-
-A handle to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP).
-If <b>HashEncryptionAlgorithm</b> is set to szOID_PKIX_NO_SIGNATURE, this handle can be the handle of a CSP acquired by using the <i>dwFlags</i> parameter set to <b>CRYPT_VERIFYCONTEXT</b>. The CNG function <a href="https://msdn.microsoft.com/ad841c2e-8097-4b07-914e-8e7240d55585">NCryptIsKeyHandle</a> is called to determine the union choice.
-
-
-#### - hNCryptKey
-
-A handle to the CNG CSP. The CNG function <a href="https://msdn.microsoft.com/ad841c2e-8097-4b07-914e-8e7240d55585">NCryptIsKeyHandle</a> is called to determine the union choice. New encrypt algorithms are only supported in CNG functions. The CNG function <a href="https://msdn.microsoft.com/0c339864-b598-430c-a597-09d3571fdbb2">NCryptTranslateHandle</a> will be called to convert the CryptoAPI <i>hCryptProv</i> choice where necessary. We recommend that applications pass, to the <i>hNCryptKey</i> member, the CNG CSP handle that is returned from the <a href="https://msdn.microsoft.com/581c5d89-730d-4d8c-b3bb-a28edec25910">NCryptOpenKey</a> function.
 
 
 ## -see-also

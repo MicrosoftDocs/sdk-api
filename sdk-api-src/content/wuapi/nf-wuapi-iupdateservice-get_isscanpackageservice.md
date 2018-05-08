@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_IsScanPackageService
-title: IUpdateService::get_IsScanPackageService method
+title: IUpdateService::get_IsScanPackageService
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether a service is based on a scan package.
 old-location: wua\iupdateservice_isscanpackageservice.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 1fbd0bb7-23f9-4030-a61e-a85ddc177744
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateService, IUpdateService interface [Windows Update Agent], IsScanPackageService property, IUpdateService.IsScanPackageService, IUpdateService::get_IsScanPackageService, IsScanPackageService property [Windows Update Agent], IsScanPackageService property [Windows Update Agent], IUpdateService interface, get_IsScanPackageService,IUpdateService.get_IsScanPackageService, wua.iupdateservice_isscanpackageservice, wuapi/IUpdateService::IsScanPackageService, wuapi/IUpdateService::get_IsScanPackageService
+ms.keywords: IUpdateService interface [Windows Update Agent],IsScanPackageService property, IUpdateService.IsScanPackageService, IUpdateService.get_IsScanPackageService, IUpdateService::IsScanPackageService, IUpdateService::get_IsScanPackageService, IsScanPackageService property [Windows Update Agent], IsScanPackageService property [Windows Update Agent],IUpdateService interface, get_IsScanPackageService, wua.iupdateservice_isscanpackageservice, wuapi/IUpdateService::IsScanPackageService, wuapi/IUpdateService::get_IsScanPackageService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateService::get_IsScanPackageService method
+# IUpdateService::get_IsScanPackageService
 
 
 ## -description

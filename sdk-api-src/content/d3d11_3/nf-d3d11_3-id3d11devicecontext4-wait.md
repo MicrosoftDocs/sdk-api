@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_3.ID3D11DeviceContext4.Wait
-title: ID3D11DeviceContext4::Wait method
+title: ID3D11DeviceContext4::Wait
 author: windows-driver-content
 description: Waits until the specified fence reaches or exceeds the specified value before future work can begin.
 old-location: direct3d11\id3d11devicecontext4_wait.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 91576E2D-A28F-43A8-B9FE-5888779877F9
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11DeviceContext4, ID3D11DeviceContext4 interface [Direct3D 11], Wait method, ID3D11DeviceContext4::Wait, Wait method [Direct3D 11], Wait method [Direct3D 11], ID3D11DeviceContext4 interface, Wait,ID3D11DeviceContext4.Wait, d3d11_3/ID3D11DeviceContext4::Wait, direct3d11.id3d11devicecontext4_wait
+ms.keywords: ID3D11DeviceContext4 interface [Direct3D 11],Wait method, ID3D11DeviceContext4.Wait, ID3D11DeviceContext4::Wait, Wait, Wait method [Direct3D 11], Wait method [Direct3D 11],ID3D11DeviceContext4 interface, d3d11_3/ID3D11DeviceContext4::Wait, direct3d11.id3d11devicecontext4_wait
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext4::Wait method
+# ID3D11DeviceContext4::Wait
 
 
 ## -description

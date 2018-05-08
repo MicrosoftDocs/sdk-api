@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.GetCodecEnumerationSetting
-title: IWMCodecInfo3::GetCodecEnumerationSetting method
+title: IWMCodecInfo3::GetCodecEnumerationSetting
 author: windows-driver-content
 description: The GetCodecEnumerationSetting method retrieves the current value for one codec enumeration setting.
 old-location: wmformat\iwmcodecinfo3_getcodecenumerationsetting.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 9a8f34ef-4d52-47d4-b6d5-e6f07f27cc8d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetCodecEnumerationSetting method [windows Media Format], GetCodecEnumerationSetting method [windows Media Format], IWMCodecInfo3 interface, GetCodecEnumerationSetting,IWMCodecInfo3.GetCodecEnumerationSetting, IWMCodecInfo3, IWMCodecInfo3 interface [windows Media Format], GetCodecEnumerationSetting method, IWMCodecInfo3::GetCodecEnumerationSetting, IWMCodecInfo3GetCodecEnumerationSetting, wmformat.iwmcodecinfo3_getcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::GetCodecEnumerationSetting
+ms.keywords: GetCodecEnumerationSetting, GetCodecEnumerationSetting method [windows Media Format], GetCodecEnumerationSetting method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecEnumerationSetting method, IWMCodecInfo3.GetCodecEnumerationSetting, IWMCodecInfo3::GetCodecEnumerationSetting, IWMCodecInfo3GetCodecEnumerationSetting, wmformat.iwmcodecinfo3_getcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::GetCodecEnumerationSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecInfo3::GetCodecEnumerationSetting method
+# IWMCodecInfo3::GetCodecEnumerationSetting
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.Initialize
-title: IX509PolicyServerListManager::Initialize method
+title: IX509PolicyServerListManager::Initialize
 author: windows-driver-content
 description: Initializes an IX509PolicyServerListManager object.
 old-location: security\ix509policyserverlistmanager_initialize.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 9b3d2913-a0a8-4ec0-b705-8525b54e5494
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerListManager, IX509PolicyServerListManager interface [Security], Initialize method, IX509PolicyServerListManager::Initialize, Initialize method [Security], Initialize method [Security], IX509PolicyServerListManager interface, Initialize,IX509PolicyServerListManager.Initialize, PsfLocationGroupPolicy, PsfLocationRegistry, certenroll/IX509PolicyServerListManager::Initialize, security.ix509policyserverlistmanager_initialize
+ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerListManager interface [Security],Initialize method, IX509PolicyServerListManager.Initialize, IX509PolicyServerListManager::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PolicyServerListManager interface, PsfLocationGroupPolicy, PsfLocationRegistry, certenroll/IX509PolicyServerListManager::Initialize, security.ix509policyserverlistmanager_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PolicyServerListManager::Initialize method
+# IX509PolicyServerListManager::Initialize
 
 
 ## -description

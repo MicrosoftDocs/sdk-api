@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedVerticalViewSize
-title: IUIAutomationScrollPattern::get_CachedVerticalViewSize method
+title: IUIAutomationScrollPattern::get_CachedVerticalViewSize
 author: windows-driver-content
 description: Retrieves the cached vertical size of the viewable region of a scrollable element.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedVerticalViewSize.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: d0fedff8-27b7-403c-a431-345605045458
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedVerticalViewSize property [Windows Accessibility], CachedVerticalViewSize property [Windows Accessibility], IUIAutomationScrollPattern interface, IUIAutomationScrollPattern, IUIAutomationScrollPattern interface [Windows Accessibility], CachedVerticalViewSize property, IUIAutomationScrollPattern.CachedVerticalViewSize, IUIAutomationScrollPattern::get_CachedVerticalViewSize, get_CachedVerticalViewSize,IUIAutomationScrollPattern.get_CachedVerticalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CachedVerticalViewSize, uiauto_IUIAutomationScrollPattern_CachedVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::CachedVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CachedVerticalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CachedVerticalViewSize
+ms.keywords: CachedVerticalViewSize property [Windows Accessibility], CachedVerticalViewSize property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedVerticalViewSize property, IUIAutomationScrollPattern.CachedVerticalViewSize, IUIAutomationScrollPattern.get_CachedVerticalViewSize, IUIAutomationScrollPattern::CachedVerticalViewSize, IUIAutomationScrollPattern::get_CachedVerticalViewSize, get_CachedVerticalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CachedVerticalViewSize, uiauto_IUIAutomationScrollPattern_CachedVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::CachedVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CachedVerticalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CachedVerticalViewSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationScrollPattern::get_CachedVerticalViewSize method
+# IUIAutomationScrollPattern::get_CachedVerticalViewSize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetMessageType
-title: IWSDUdpAddress::GetMessageType method
+title: IWSDUdpAddress::GetMessageType
 author: windows-driver-content
 description: Gets the message type for this UDP address configuration.
 old-location: ncd\iwsdudpaddress_getmessagetype.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 258d7067-9b2b-4375-8b1a-c1d45cf55788
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetMessageType method, GetMessageType method, IWSDUdpAddress interface, GetMessageType,IWSDUdpAddress.GetMessageType, IWSDUdpAddress, IWSDUdpAddress interface, GetMessageType method, IWSDUdpAddress::GetMessageType, ncd.iwsdudpaddress_getmessagetype, wsdbase/IWSDUdpAddress::GetMessageType
+ms.keywords: GetMessageType, GetMessageType method, GetMessageType method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetMessageType method, IWSDUdpAddress.GetMessageType, IWSDUdpAddress::GetMessageType, ncd.iwsdudpaddress_getmessagetype, wsdbase/IWSDUdpAddress::GetMessageType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDUdpAddress::GetMessageType method
+# IWSDUdpAddress::GetMessageType
 
 
 ## -description

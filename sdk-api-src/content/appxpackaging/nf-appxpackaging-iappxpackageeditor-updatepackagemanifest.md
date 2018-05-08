@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.UpdatePackageManifest
-title: IAppxPackageEditor::UpdatePackageManifest method
+title: IAppxPackageEditor::UpdatePackageManifest
 author: windows-driver-content
 description: Updates an app package manifest.
 old-location: appxpkg\iappxpackageeditor_updatepackagemanifest.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: A30B3A7E-28FA-4780-9ED3-4F19887189E8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxPackageEditor, IAppxPackageEditor interface [App packaging and management], UpdatePackageManifest method, IAppxPackageEditor::UpdatePackageManifest, UpdatePackageManifest method [App packaging and management], UpdatePackageManifest method [App packaging and management], IAppxPackageEditor interface, UpdatePackageManifest,IAppxPackageEditor.UpdatePackageManifest, appxpackaging/IAppxPackageEditor::UpdatePackageManifest, appxpkg.iappxpackageeditor_updatepackagemanifest
+ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdatePackageManifest method, IAppxPackageEditor.UpdatePackageManifest, IAppxPackageEditor::UpdatePackageManifest, UpdatePackageManifest, UpdatePackageManifest method [App packaging and management], UpdatePackageManifest method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdatePackageManifest, appxpkg.iappxpackageeditor_updatepackagemanifest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxPackageEditor::UpdatePackageManifest method
+# IAppxPackageEditor::UpdatePackageManifest
 
 
 ## -description

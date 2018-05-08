@@ -7,7 +7,7 @@ old-location: automat\varui2fromi1.htm
 old-project: automat
 ms.assetid: f9dd9caf-353b-4b60-b0da-9c68ae3fd63c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarUI2FromI1, VarUI2FromI1 function [Automation], _oa96_VarUI2FromI1, automat.varui2fromi1, oleauto/VarUI2FromI1
 ms.prod: windows-hardware
 ms.technology: windows-devices

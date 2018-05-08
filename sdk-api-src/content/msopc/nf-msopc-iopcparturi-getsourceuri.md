@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartUri.GetSourceUri
-title: IOpcPartUri::GetSourceUri method
+title: IOpcPartUri::GetSourceUri
 author: windows-driver-content
 description: Gets the source URI of the relationships that are stored in a Relationships part. The current part URI object represents the part name of that Relationships part.
 old-location: opc\iopcparturi_getsourceuri.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 02e8570b-3826-4619-b4f5-c1f74e27aefc
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions], IOpcPartUri interface, GetSourceUri,IOpcPartUri.GetSourceUri, IOpcPartUri, IOpcPartUri interface [Open Packaging Conventions], GetSourceUri method, IOpcPartUri::GetSourceUri, msopc/IOpcPartUri::GetSourceUri, opc.iopcparturi_getsourceuri
+ms.keywords: GetSourceUri, GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions],IOpcPartUri interface, IOpcPartUri interface [Open Packaging Conventions],GetSourceUri method, IOpcPartUri.GetSourceUri, IOpcPartUri::GetSourceUri, msopc/IOpcPartUri::GetSourceUri, opc.iopcparturi_getsourceuri
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPartUri::GetSourceUri method
+# IOpcPartUri::GetSourceUri
 
 
 ## -description

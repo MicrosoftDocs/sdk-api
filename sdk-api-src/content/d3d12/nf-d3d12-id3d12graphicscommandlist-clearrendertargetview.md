@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearRenderTargetView
-title: ID3D12GraphicsCommandList::ClearRenderTargetView method
+title: ID3D12GraphicsCommandList::ClearRenderTargetView
 author: windows-driver-content
 description: Sets all the elements in a render target to one value.
 old-location: direct3d12\id3d12graphicscommandlist_clearrendertargetview.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 5AB13E36-A189-41B4-AEF8-B5C5831655DB
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ClearRenderTargetView method, ClearRenderTargetView method, ID3D12GraphicsCommandList interface, ClearRenderTargetView,ID3D12GraphicsCommandList.ClearRenderTargetView, ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, ClearRenderTargetView method, ID3D12GraphicsCommandList::ClearRenderTargetView, d3d12/ID3D12GraphicsCommandList::ClearRenderTargetView, direct3d12.id3d12graphicscommandlist_clearrendertargetview
+ms.keywords: ClearRenderTargetView, ClearRenderTargetView method, ClearRenderTargetView method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearRenderTargetView method, ID3D12GraphicsCommandList.ClearRenderTargetView, ID3D12GraphicsCommandList::ClearRenderTargetView, d3d12/ID3D12GraphicsCommandList::ClearRenderTargetView, direct3d12.id3d12graphicscommandlist_clearrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::ClearRenderTargetView method
+# ID3D12GraphicsCommandList::ClearRenderTargetView
 
 
 ## -description

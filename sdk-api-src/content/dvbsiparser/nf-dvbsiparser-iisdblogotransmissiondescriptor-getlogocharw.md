@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetLogoCharW
-title: IIsdbLogoTransmissionDescriptor::GetLogoCharW method
+title: IIsdbLogoTransmissionDescriptor::GetLogoCharW
 author: windows-driver-content
 description: Gets the character string for a simple logo from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
 old-location: mstv\iisdblogotransmissiondescriptor_getlogocharw.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bb4ba9f1-f633-4cb4-adc4-6671bb5fc239
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLogoCharW method [Microsoft TV Technologies], GetLogoCharW method [Microsoft TV Technologies], IIsdbLogoTransmissionDescriptor interface, GetLogoCharW,IIsdbLogoTransmissionDescriptor.GetLogoCharW, IIsdbLogoTransmissionDescriptor, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies], GetLogoCharW method, IIsdbLogoTransmissionDescriptor::GetLogoCharW, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoCharW, mstv.iisdblogotransmissiondescriptor_getlogocharw
+ms.keywords: GetLogoCharW, GetLogoCharW method [Microsoft TV Technologies], GetLogoCharW method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLogoCharW method, IIsdbLogoTransmissionDescriptor.GetLogoCharW, IIsdbLogoTransmissionDescriptor::GetLogoCharW, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoCharW, mstv.iisdblogotransmissiondescriptor_getlogocharw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbLogoTransmissionDescriptor::GetLogoCharW method
+# IIsdbLogoTransmissionDescriptor::GetLogoCharW
 
 
 ## -description

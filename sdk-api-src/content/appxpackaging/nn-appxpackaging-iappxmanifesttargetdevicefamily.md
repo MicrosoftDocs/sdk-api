@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 52C2950B-FB7F-44A8-BAB5-BCC238B012FE
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxManifestTargetDeviceFamily, IAppxManifestTargetDeviceFamily interface [App packaging and management], IAppxManifestTargetDeviceFamily interface [App packaging and management], described, appxpackaging/IAppxManifestTargetDeviceFamily, appxpkg.iappxmanifesttargetdevicefamily
+ms.keywords: IAppxManifestTargetDeviceFamily, IAppxManifestTargetDeviceFamily interface [App packaging and management], IAppxManifestTargetDeviceFamily interface [App packaging and management],described, appxpackaging/IAppxManifestTargetDeviceFamily, appxpkg.iappxmanifesttargetdevicefamily
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

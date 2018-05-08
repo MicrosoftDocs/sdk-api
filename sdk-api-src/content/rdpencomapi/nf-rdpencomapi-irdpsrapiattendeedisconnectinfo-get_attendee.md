@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeDisconnectInfo.get_Attendee
-title: IRDPSRAPIAttendeeDisconnectInfo::get_Attendee method
+title: IRDPSRAPIAttendeeDisconnectInfo::get_Attendee
 author: windows-driver-content
 description: The attendee that was disconnected.
 old-location: rdp\irdpsrapiattendeedisconnectinfo_attendee.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 08847b58-1860-45dc-9145-b5e7a745a21c
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: Attendee property [RDP], Attendee property [RDP], IRDPSRAPIAttendeeDisconnectInfo interface, Attendee property [RDP], RDPSRAPIAttendeeDisconnectInfo object, IRDPSRAPIAttendeeDisconnectInfo, IRDPSRAPIAttendeeDisconnectInfo interface [RDP], Attendee property, IRDPSRAPIAttendeeDisconnectInfo.Attendee, IRDPSRAPIAttendeeDisconnectInfo::get_Attendee, RDPSRAPIAttendeeDisconnectInfo object [RDP], Attendee property, get_Attendee,IRDPSRAPIAttendeeDisconnectInfo.get_Attendee, rdp.irdpsrapiattendeedisconnectinfo_attendee, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::Attendee, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::get_Attendee
+ms.keywords: Attendee property [RDP], Attendee property [RDP],IRDPSRAPIAttendeeDisconnectInfo interface, Attendee property [RDP],RDPSRAPIAttendeeDisconnectInfo object, IRDPSRAPIAttendeeDisconnectInfo interface [RDP],Attendee property, IRDPSRAPIAttendeeDisconnectInfo.Attendee, IRDPSRAPIAttendeeDisconnectInfo.get_Attendee, IRDPSRAPIAttendeeDisconnectInfo::Attendee, IRDPSRAPIAttendeeDisconnectInfo::get_Attendee, RDPSRAPIAttendeeDisconnectInfo object [RDP],Attendee property, get_Attendee, rdp.irdpsrapiattendeedisconnectinfo_attendee, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::Attendee, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::get_Attendee
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIAttendeeDisconnectInfo::get_Attendee method
+# IRDPSRAPIAttendeeDisconnectInfo::get_Attendee
 
 
 ## -description

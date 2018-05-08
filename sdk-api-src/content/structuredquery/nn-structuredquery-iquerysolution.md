@@ -7,8 +7,8 @@ old-location: search\_search_IQuerySolution.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\iquerysolution.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IQuerySolution, IQuerySolution interface [search], IQuerySolution interface [search], described, _search_IQuerySolution, search._search_IQuerySolution, structuredquery/IQuerySolution
+ms.date: 5/4/2018
+ms.keywords: IQuerySolution, IQuerySolution interface [search], IQuerySolution interface [search],described, _search_IQuerySolution, search._search_IQuerySolution, structuredquery/IQuerySolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara2.GetDuplicate2
-title: ITextPara2::GetDuplicate2 method
+title: ITextPara2::GetDuplicate2
 author: windows-driver-content
 description: Gets a duplicate of this text paragraph format object.
 old-location: controls\itextpara2_getduplicate2.htm
 old-project: Controls
 ms.assetid: 1b7855ca-1e69-48c8-b186-99b191a7ee29
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetDuplicate2 method [Windows Controls], GetDuplicate2 method [Windows Controls], ITextPara2 interface, GetDuplicate2,ITextPara2.GetDuplicate2, ITextPara2, ITextPara2 interface [Windows Controls], GetDuplicate2 method, ITextPara2::GetDuplicate2, controls.itextpara2_getduplicate2, tom/ITextPara2::GetDuplicate2
+ms.date: 4/27/2018
+ms.keywords: GetDuplicate2, GetDuplicate2 method [Windows Controls], GetDuplicate2 method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetDuplicate2 method, ITextPara2.GetDuplicate2, ITextPara2::GetDuplicate2, controls.itextpara2_getduplicate2, tom/ITextPara2::GetDuplicate2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara2::GetDuplicate2 method
+# ITextPara2::GetDuplicate2
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystem.QueryDrives
-title: IVdsSubSystem::QueryDrives method
+title: IVdsSubSystem::QueryDrives
 author: windows-driver-content
 description: Returns an object that enumerates the drives in the subsystem.
 old-location: base\ivdssubsystem_querydrives.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 7d54922f-0531-4eab-afa9-f51ce6c75bfe
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsSubSystem, IVdsSubSystem interface [VDS], QueryDrives method, IVdsSubSystem::QueryDrives, QueryDrives method [VDS], QueryDrives method [VDS], IVdsSubSystem interface, QueryDrives,IVdsSubSystem.QueryDrives, base.ivdssubsystem_querydrives, vds/IVdsSubSystem::QueryDrives, vdshwprv/IVdsSubSystem::QueryDrives
+ms.keywords: IVdsSubSystem interface [VDS],QueryDrives method, IVdsSubSystem.QueryDrives, IVdsSubSystem::QueryDrives, QueryDrives, QueryDrives method [VDS], QueryDrives method [VDS],IVdsSubSystem interface, base.ivdssubsystem_querydrives, vds/IVdsSubSystem::QueryDrives, vdshwprv/IVdsSubSystem::QueryDrives
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsSubSystem::QueryDrives method
+# IVdsSubSystem::QueryDrives
 
 
 ## -description

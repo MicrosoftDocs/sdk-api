@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.QueryGetData
-title: IDataObject::QueryGetData method
+title: IDataObject::QueryGetData
 author: windows-driver-content
 description: Determines whether the data object is capable of rendering the data as specified. Objects attempting a paste or drop operation can call this method before calling IDataObject::GetData to get an indication of whether the operation may be successful.
 old-location: com\idataobject_querygetdata.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 38a1bb4f-7762-4e74-a386-4ae05e59d15f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IDataObject, IDataObject interface [COM], QueryGetData method, IDataObject::QueryGetData, QueryGetData method [COM], QueryGetData method [COM], IDataObject interface, QueryGetData,IDataObject.QueryGetData, _ole_idataobject_querygetdata, com.idataobject_querygetdata, objidl/IDataObject::QueryGetData
+ms.keywords: IDataObject interface [COM],QueryGetData method, IDataObject.QueryGetData, IDataObject::QueryGetData, QueryGetData, QueryGetData method [COM], QueryGetData method [COM],IDataObject interface, _ole_idataobject_querygetdata, com.idataobject_querygetdata, objidl/IDataObject::QueryGetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataObject::QueryGetData method
+# IDataObject::QueryGetData
 
 
 ## -description

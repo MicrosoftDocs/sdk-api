@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.get_HashAlgorithm
-title: IX509SignatureInformation::get_HashAlgorithm method
+title: IX509SignatureInformation::get_HashAlgorithm
 author: windows-driver-content
 description: Specifies and retrieves an object identifier (OID) for the hashing algorithm used in the GetSignatureAlgorithm method.
 old-location: security\ix509signatureinformation_hashalgorithm_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b5242975-50e5-49d6-be1f-3a09ada03593
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security], IX509SignatureInformation interface, IX509SignatureInformation, IX509SignatureInformation interface [Security], HashAlgorithm property, IX509SignatureInformation.HashAlgorithm, IX509SignatureInformation::get_HashAlgorithm, IX509SignatureInformation::put_HashAlgorithm, certenroll/IX509SignatureInformation::HashAlgorithm, certenroll/IX509SignatureInformation::get_HashAlgorithm, certenroll/IX509SignatureInformation::put_HashAlgorithm, get_HashAlgorithm,IX509SignatureInformation.get_HashAlgorithm, security.ix509signatureinformation_hashalgorithm_property
+ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],HashAlgorithm property, IX509SignatureInformation.HashAlgorithm, IX509SignatureInformation.get_HashAlgorithm, IX509SignatureInformation::HashAlgorithm, IX509SignatureInformation::get_HashAlgorithm, IX509SignatureInformation::put_HashAlgorithm, certenroll/IX509SignatureInformation::HashAlgorithm, certenroll/IX509SignatureInformation::get_HashAlgorithm, certenroll/IX509SignatureInformation::put_HashAlgorithm, get_HashAlgorithm, security.ix509signatureinformation_hashalgorithm_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509SignatureInformation::get_HashAlgorithm method
+# IX509SignatureInformation::get_HashAlgorithm
 
 
 ## -description

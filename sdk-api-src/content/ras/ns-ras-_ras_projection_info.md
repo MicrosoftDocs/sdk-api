@@ -68,6 +68,18 @@ A <a href="https://msdn.microsoft.com/da0026a3-0ccc-46aa-a62e-3d334c5bfe11">RASA
 A <a href="https://msdn.microsoft.com/ac288100-a346-4d9b-9bf4-8144372f54a3">RASPROJECTION_INFO_TYPE</a> value that specifies the connection type in <b>union</b>.
 
 
+### -field ppp
+
+ 
+
+
+### -field ikev2
+
+ 
+
+
+
+
 #### - union
 
 

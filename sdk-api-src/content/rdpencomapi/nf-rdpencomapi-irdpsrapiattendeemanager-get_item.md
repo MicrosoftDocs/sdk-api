@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeManager.get_Item
-title: IRDPSRAPIAttendeeManager::get_Item method
+title: IRDPSRAPIAttendeeManager::get_Item
 author: windows-driver-content
 description: An item in the attendee collection.
 old-location: rdp\irdpsrapiattendeemanager_item.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 963f795a-3da4-45d0-b609-8fcc2d6e5700
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIAttendeeManager, IRDPSRAPIAttendeeManager interface [RDP], Item property, IRDPSRAPIAttendeeManager.Item, IRDPSRAPIAttendeeManager::get_Item, Item property [RDP], Item property [RDP], IRDPSRAPIAttendeeManager interface, Item property [RDP], RDPSRAPIAttendeeManager object, RDPSRAPIAttendeeManager object [RDP], Item property, get_Item,IRDPSRAPIAttendeeManager.get_Item, rdp.irdpsrapiattendeemanager_item, rdpencomapi/IRDPSRAPIAttendeeManager::Item, rdpencomapi/IRDPSRAPIAttendeeManager::get_Item
+ms.keywords: IRDPSRAPIAttendeeManager interface [RDP],Item property, IRDPSRAPIAttendeeManager.Item, IRDPSRAPIAttendeeManager.get_Item, IRDPSRAPIAttendeeManager::Item, IRDPSRAPIAttendeeManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIAttendeeManager interface, Item property [RDP],RDPSRAPIAttendeeManager object, RDPSRAPIAttendeeManager object [RDP],Item property, get_Item, rdp.irdpsrapiattendeemanager_item, rdpencomapi/IRDPSRAPIAttendeeManager::Item, rdpencomapi/IRDPSRAPIAttendeeManager::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIAttendeeManager::get_Item method
+# IRDPSRAPIAttendeeManager::get_Item
 
 
 ## -description

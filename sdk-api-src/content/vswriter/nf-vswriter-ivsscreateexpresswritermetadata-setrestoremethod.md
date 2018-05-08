@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.SetRestoreMethod
-title: IVssCreateExpressWriterMetadata::SetRestoreMethod method
+title: IVssCreateExpressWriterMetadata::SetRestoreMethod
 author: windows-driver-content
 description: Specifies how an express writer's data is to be restored.
 old-location: base\ivsscreateexpresswritermetadata_setrestoremethod.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 220e399b-aafd-4b72-bef4-abc3f39f202f
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, SetRestoreMethod method, IVssCreateExpressWriterMetadata::SetRestoreMethod, SetRestoreMethod method, SetRestoreMethod method, IVssCreateExpressWriterMetadata interface, SetRestoreMethod,IVssCreateExpressWriterMetadata.SetRestoreMethod, base.ivsscreateexpresswritermetadata_setrestoremethod, vswriter/IVssCreateExpressWriterMetadata::SetRestoreMethod
+ms.keywords: IVssCreateExpressWriterMetadata interface,SetRestoreMethod method, IVssCreateExpressWriterMetadata.SetRestoreMethod, IVssCreateExpressWriterMetadata::SetRestoreMethod, SetRestoreMethod, SetRestoreMethod method, SetRestoreMethod method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_setrestoremethod, vswriter/IVssCreateExpressWriterMetadata::SetRestoreMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssCreateExpressWriterMetadata::SetRestoreMethod method
+# IVssCreateExpressWriterMetadata::SetRestoreMethod
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: DevIO
 ms.assetid: b4705882-30ce-4527-a1b5-c0b296b70274
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IOCTL_STORAGE_CHECK_VERIFY, IOCTL_STORAGE_CHECK_VERIFY control code, _win32_ioctl_storage_check_verify, base.ioctl_storage_check_verify, winioctl/IOCTL_STORAGE_CHECK_VERIFY
+ms.keywords: IOCTL_STORAGE_CHECK_VERIFY, IOCTL_STORAGE_CHECK_VERIFY control, IOCTL_STORAGE_CHECK_VERIFY control code, _win32_ioctl_storage_check_verify, base.ioctl_storage_check_verify, winioctl/IOCTL_STORAGE_CHECK_VERIFY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

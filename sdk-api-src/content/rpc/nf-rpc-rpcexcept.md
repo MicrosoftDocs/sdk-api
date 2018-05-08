@@ -7,7 +7,7 @@ old-location: rpc\rpcexcept.htm
 old-project: Rpc
 ms.assetid: 5bd57250-1fd7-4aeb-aa53-4fd2c8d84836
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcExcept, RpcExcept macro [RPC], _rpc_rpcexcept, rpc.rpcexcept, rpc/RpcExcept
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 92c8c960-d548-4a44-8b10-b6180c974473
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssSnapshotMgmt2, IVssSnapshotMgmt2 interface [Files], IVssSnapshotMgmt2 interface [Files], described, base.ivsssnapshotmgmt2, vsmgmt/IVssSnapshotMgmt2
+ms.keywords: IVssSnapshotMgmt2, IVssSnapshotMgmt2 interface [Files], IVssSnapshotMgmt2 interface [Files],described, base.ivsssnapshotmgmt2, vsmgmt/IVssSnapshotMgmt2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

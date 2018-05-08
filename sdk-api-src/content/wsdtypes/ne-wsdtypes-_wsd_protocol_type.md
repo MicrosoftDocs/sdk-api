@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wsdhost.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -38,8 +38,8 @@ api_name:
 -	WSD_PROTOCOL_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Wsdapi.lib
+req.dll: Wsdapi.dll
 req.irql: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---

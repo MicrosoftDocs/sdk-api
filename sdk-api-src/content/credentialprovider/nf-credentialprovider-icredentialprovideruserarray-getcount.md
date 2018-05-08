@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUserArray.GetCount
-title: ICredentialProviderUserArray::GetCount method
+title: ICredentialProviderUserArray::GetCount
 author: windows-driver-content
 description: Retrieves the number of ICredentialProviderUser objects in the user array.
 old-location: shell\ICredentialProviderUserArray_GetCount.htm
 old-project: shell
 ms.assetid: 524A9FA1-5106-42d2-A4B6-5D3B83E3A6BA
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCount method [Windows Shell], GetCount method [Windows Shell], ICredentialProviderUserArray interface, GetCount,ICredentialProviderUserArray.GetCount, ICredentialProviderUserArray, ICredentialProviderUserArray interface [Windows Shell], GetCount method, ICredentialProviderUserArray::GetCount, credentialprovider/ICredentialProviderUserArray::GetCount, shell.ICredentialProviderUserArray_GetCount
+ms.date: 5/3/2018
+ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetCount method, ICredentialProviderUserArray.GetCount, ICredentialProviderUserArray::GetCount, credentialprovider/ICredentialProviderUserArray::GetCount, shell.ICredentialProviderUserArray_GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Authui.dll
 req.irql: 
 ---
 
-# ICredentialProviderUserArray::GetCount method
+# ICredentialProviderUserArray::GetCount
 
 
 ## -description

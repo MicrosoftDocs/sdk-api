@@ -7,7 +7,7 @@ old-location: winsock\wspjoinleaf_2.htm
 old-project: WinSock
 ms.assetid: 3b0451e2-0e4c-4da7-b16c-37c242632bdd
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: LPWSPJOINLEAF, WSPJoinLeaf, WSPJoinLeaf function [Winsock], _win32_wspjoinleaf_2, winsock.wspjoinleaf_2, ws2spi/WSPJoinLeaf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# LPWSPJOINLEAF callback
+# LPWSPJOINLEAF callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_ServiceID
-title: IUpdateHistoryEntry::get_ServiceID method
+title: IUpdateHistoryEntry::get_ServiceID
 author: windows-driver-content
 description: Gets the service identifier of an update service that is not a Windows update.
 old-location: wua\iupdatehistoryentry_serviceid.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 01e430fa-6ff6-47f9-bac7-7d611b0f934f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateHistoryEntry, IUpdateHistoryEntry interface [Windows Update Agent], ServiceID property, IUpdateHistoryEntry.ServiceID, IUpdateHistoryEntry::get_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent], IUpdateHistoryEntry interface, get_ServiceID,IUpdateHistoryEntry.get_ServiceID, wua.iupdatehistoryentry_serviceid, wuapi/IUpdateHistoryEntry::ServiceID, wuapi/IUpdateHistoryEntry::get_ServiceID
+ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ServiceID property, IUpdateHistoryEntry.ServiceID, IUpdateHistoryEntry.get_ServiceID, IUpdateHistoryEntry::ServiceID, IUpdateHistoryEntry::get_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent],IUpdateHistoryEntry interface, get_ServiceID, wua.iupdatehistoryentry_serviceid, wuapi/IUpdateHistoryEntry::ServiceID, wuapi/IUpdateHistoryEntry::get_ServiceID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateHistoryEntry::get_ServiceID method
+# IUpdateHistoryEntry::get_ServiceID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Frequency
-title: IBDA_FrequencyFilter::put_Frequency method
+title: IBDA_FrequencyFilter::put_Frequency
 author: windows-driver-content
 description: The put_Frequency method specifies the frequency.
 old-location: mstv\ibda_frequencyfilter_put_frequency.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 70d50a4b-b0f8-42a1-9fa2-1d09376903fe
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], put_Frequency method, IBDA_FrequencyFilter::put_Frequency, IBDA_FrequencyFilterput_Frequency, bdaiface/IBDA_FrequencyFilter::put_Frequency, mstv.ibda_frequencyfilter_put_frequency, put_Frequency method [Microsoft TV Technologies], put_Frequency method [Microsoft TV Technologies], IBDA_FrequencyFilter interface, put_Frequency,IBDA_FrequencyFilter.put_Frequency
+ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Frequency method, IBDA_FrequencyFilter.put_Frequency, IBDA_FrequencyFilter::put_Frequency, IBDA_FrequencyFilterput_Frequency, bdaiface/IBDA_FrequencyFilter::put_Frequency, mstv.ibda_frequencyfilter_put_frequency, put_Frequency, put_Frequency method [Microsoft TV Technologies], put_Frequency method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_FrequencyFilter::put_Frequency method
+# IBDA_FrequencyFilter::put_Frequency
 
 
 ## -description

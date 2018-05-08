@@ -1,14 +1,14 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.AddPages
-title: IDsAdminNewObjExt::AddPages method
+title: IDsAdminNewObjExt::AddPages
 author: windows-driver-content
 description: The IDsAdminNewObjExt::AddPages method is called to enable the object creation wizard extension to add the desired pages to the wizard.
 old-location: ad\idsadminnewobjext_addpages.htm
 old-project: AD
 ms.assetid: 4e16385f-b38a-4961-95ec-c81fd538ae2b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: AddPages method [Active Directory], AddPages method [Active Directory], IDsAdminNewObjExt interface, AddPages,IDsAdminNewObjExt.AddPages, IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], AddPages method, IDsAdminNewObjExt::AddPages, _glines_idsadminnewobjext_addpages, ad.idsadminnewobjext__addpages, ad.idsadminnewobjext_addpages, dsadmin/IDsAdminNewObjExt::AddPages
+ms.date: 5/1/2018
+ms.keywords: AddPages, AddPages method [Active Directory], AddPages method [Active Directory],IDsAdminNewObjExt interface, IDsAdminNewObjExt interface [Active Directory],AddPages method, IDsAdminNewObjExt.AddPages, IDsAdminNewObjExt::AddPages, _glines_idsadminnewobjext_addpages, ad.idsadminnewobjext__addpages, ad.idsadminnewobjext_addpages, dsadmin/IDsAdminNewObjExt::AddPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: DSAdmin.dll
 req.irql: 
 ---
 
-# IDsAdminNewObjExt::AddPages method
+# IDsAdminNewObjExt::AddPages
 
 
 ## -description

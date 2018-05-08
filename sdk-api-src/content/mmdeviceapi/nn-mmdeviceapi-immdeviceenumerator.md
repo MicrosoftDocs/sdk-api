@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 1abdeac1-c156-40b8-8b8c-5ddb51e410aa
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IMMDeviceEnumerator, IMMDeviceEnumerator interface [Core Audio], IMMDeviceEnumerator interface [Core Audio], described, coreaudio.immdeviceenumerator, mmdeviceapi/IMMDeviceEnumerator
+ms.keywords: IMMDeviceEnumerator, IMMDeviceEnumerator interface [Core Audio], IMMDeviceEnumerator interface [Core Audio],described, coreaudio.immdeviceenumerator, mmdeviceapi/IMMDeviceEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetToolbarItem
-title: IBrowserService2::_GetToolbarItem method
+title: IBrowserService2::_GetToolbarItem
 author: windows-driver-content
 description: Deprecated. Gets a specific item from a toolbar.
 old-location: shell\IBrowserService2__GetToolbarItem.htm
 old-project: shell
 ms.assetid: 9bce71ca-189e-4072-9acf-10c8b3a34c5c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _GetToolbarItem method, IBrowserService2::_GetToolbarItem, _GetToolbarItem method [Windows Shell], _GetToolbarItem method [Windows Shell], IBrowserService2 interface, _GetToolbarItem,IBrowserService2._GetToolbarItem, shdeprecated/IBrowserService2::_GetToolbarItem, shell.IBrowserService2__GetToolbarItem, zone_IBrowserService2__GetToolbarItem
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],_GetToolbarItem method, IBrowserService2._GetToolbarItem, IBrowserService2::_GetToolbarItem, _GetToolbarItem, _GetToolbarItem method [Windows Shell], _GetToolbarItem method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetToolbarItem, shell.IBrowserService2__GetToolbarItem, zone_IBrowserService2__GetToolbarItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::_GetToolbarItem method
+# IBrowserService2::_GetToolbarItem
 
 
 ## -description

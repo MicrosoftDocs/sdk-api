@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.put__NetworkType
-title: ITuningSpace::put__NetworkType method
+title: ITuningSpace::put__NetworkType
 author: windows-driver-content
 description: The put_NetworkType method specifies the network type of the tuning space.
 old-location: mstv\ituningspace_put__networktype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 02e4ec53-e527-4cd2-a424-66c2f3fe4e43
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], put__NetworkType method, ITuningSpace::put__NetworkType, ITuningSpaceput__NetworkType, mstv.ituningspace_put__networktype, put__NetworkType method [Microsoft TV Technologies], put__NetworkType method [Microsoft TV Technologies], ITuningSpace interface, put__NetworkType,ITuningSpace.put__NetworkType, tuner/ITuningSpace::put__NetworkType
+ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put__NetworkType method, ITuningSpace.put__NetworkType, ITuningSpace::put__NetworkType, ITuningSpaceput__NetworkType, mstv.ituningspace_put__networktype, put__NetworkType, put__NetworkType method [Microsoft TV Technologies], put__NetworkType method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put__NetworkType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpace::put__NetworkType method
+# ITuningSpace::put__NetworkType
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.ReleaseTargetLock
-title: ITsSbResourcePluginStore::ReleaseTargetLock method
+title: ITsSbResourcePluginStore::ReleaseTargetLock
 author: windows-driver-content
 description: Releases a lock on a target.
 old-location: termserv\itssbresourcepluginstore_releasetargetlock.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 37c22f94-c00d-471b-bd6c-067b3229f99b
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], ReleaseTargetLock method, ITsSbResourcePluginStore::ReleaseTargetLock, ReleaseTargetLock method [Remote Desktop Services], ReleaseTargetLock method [Remote Desktop Services], ITsSbResourcePluginStore interface, ReleaseTargetLock,ITsSbResourcePluginStore.ReleaseTargetLock, sbtsv/ITsSbResourcePluginStore::ReleaseTargetLock, termserv.itssbresourcepluginstore_releasetargetlock
+ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],ReleaseTargetLock method, ITsSbResourcePluginStore.ReleaseTargetLock, ITsSbResourcePluginStore::ReleaseTargetLock, ReleaseTargetLock, ReleaseTargetLock method [Remote Desktop Services], ReleaseTargetLock method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::ReleaseTargetLock, termserv.itssbresourcepluginstore_releasetargetlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::ReleaseTargetLock method
+# ITsSbResourcePluginStore::ReleaseTargetLock
 
 
 ## -description

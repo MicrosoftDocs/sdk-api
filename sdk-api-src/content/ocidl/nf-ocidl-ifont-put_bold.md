@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Bold
-title: IFont::put_Bold method
+title: IFont::put_Bold
 author: windows-driver-content
 description: Sets the font's Bold property.
 old-location: com\ifont_put_bold.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c25738fe-daf4-4eac-b4b0-354950e29f27
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFont, IFont interface [COM], put_Bold method, IFont::put_Bold, _ctrl_ifont_put_bold, com.ifont_put_bold, ocidl/IFont::put_Bold, put_Bold method [COM], put_Bold method [COM], IFont interface, put_Bold,IFont.put_Bold
+ms.keywords: IFont interface [COM],put_Bold method, IFont.put_Bold, IFont::put_Bold, _ctrl_ifont_put_bold, com.ifont_put_bold, ocidl/IFont::put_Bold, put_Bold, put_Bold method [COM], put_Bold method [COM],IFont interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFont::put_Bold method
+# IFont::put_Bold
 
 
 ## -description

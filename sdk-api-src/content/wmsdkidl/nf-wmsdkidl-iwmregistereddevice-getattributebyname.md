@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetAttributeByName
-title: IWMRegisteredDevice::GetAttributeByName method
+title: IWMRegisteredDevice::GetAttributeByName
 author: windows-driver-content
 description: The GetAttributeByName method retrieves an attribute associated with the device. This method uses an attribute name to specify the attribute to retrieve.
 old-location: wmformat\iwmregistereddevice_getattributebyname.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e74bd544-295d-4e83-8804-5a99d7efdbb8
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetAttributeByName method [windows Media Format], GetAttributeByName method [windows Media Format], IWMRegisteredDevice interface, GetAttributeByName,IWMRegisteredDevice.GetAttributeByName, IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], GetAttributeByName method, IWMRegisteredDevice::GetAttributeByName, IWMRegisteredDeviceGetAttributeByName, wmformat.iwmregistereddevice_getattributebyname, wmsdkidl/IWMRegisteredDevice::GetAttributeByName
+ms.keywords: GetAttributeByName, GetAttributeByName method [windows Media Format], GetAttributeByName method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeByName method, IWMRegisteredDevice.GetAttributeByName, IWMRegisteredDevice::GetAttributeByName, IWMRegisteredDeviceGetAttributeByName, wmformat.iwmregistereddevice_getattributebyname, wmsdkidl/IWMRegisteredDevice::GetAttributeByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMRegisteredDevice::GetAttributeByName method
+# IWMRegisteredDevice::GetAttributeByName
 
 
 ## -description

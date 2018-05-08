@@ -159,6 +159,16 @@ The length, in bytes, of <b>Key</b>. This value is determined by the algorithm t
 Reserved. Do not use.
 
 
+### -field size_is
+
+ 
+
+
+### -field size_is.wKeyLength
+
+ 
+
+
 ### -field Key
 
 A BYTE array that contains the public key for the algorithm specified in <b>chAlgorithm</b>. Its length is determined by <b>wKeyLength</b>.

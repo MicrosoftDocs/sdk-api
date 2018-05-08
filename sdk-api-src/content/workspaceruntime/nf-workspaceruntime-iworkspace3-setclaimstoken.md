@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspace3.SetClaimsToken
-title: IWorkspace3::SetClaimsToken method
+title: IWorkspace3::SetClaimsToken
 author: windows-driver-content
 description: Sets the claims token.
 old-location: termserv\iworkspace3_setclaimstoken.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 221b0e8f-b43a-4942-9e70-152daf5b1ef0
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWorkspace3, IWorkspace3 interface [Remote Desktop Services], SetClaimsToken method, IWorkspace3::SetClaimsToken, SetClaimsToken method [Remote Desktop Services], SetClaimsToken method [Remote Desktop Services], IWorkspace3 interface, SetClaimsToken,IWorkspace3.SetClaimsToken, termserv.iworkspace3_setclaimstoken, workspaceruntime/IWorkspace3::SetClaimsToken
+ms.keywords: IWorkspace3 interface [Remote Desktop Services],SetClaimsToken method, IWorkspace3.SetClaimsToken, IWorkspace3::SetClaimsToken, SetClaimsToken, SetClaimsToken method [Remote Desktop Services], SetClaimsToken method [Remote Desktop Services],IWorkspace3 interface, termserv.iworkspace3_setclaimstoken, workspaceruntime/IWorkspace3::SetClaimsToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWorkspace3::SetClaimsToken method
+# IWorkspace3::SetClaimsToken
 
 
 ## -description

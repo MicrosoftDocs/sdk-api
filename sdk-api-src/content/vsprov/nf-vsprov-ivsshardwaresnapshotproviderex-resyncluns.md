@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProviderEx.ResyncLuns
-title: IVssHardwareSnapshotProviderEx::ResyncLuns method
+title: IVssHardwareSnapshotProviderEx::ResyncLuns
 author: windows-driver-content
 description: The VSS service calls this method to notify hardware providers that a LUN resynchronization is needed.
 old-location: base\ivsshardwaresnapshotproviderex_resyncluns.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 27322ba0-e318-45d4-824e-8c81a18abd49
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssHardwareSnapshotProviderEx, IVssHardwareSnapshotProviderEx interface, ResyncLuns method, IVssHardwareSnapshotProviderEx::ResyncLuns, ResyncLuns method, ResyncLuns method, IVssHardwareSnapshotProviderEx interface, ResyncLuns,IVssHardwareSnapshotProviderEx.ResyncLuns, base.ivsshardwaresnapshotproviderex_resyncluns, vsprov/IVssHardwareSnapshotProviderEx::ResyncLuns
+ms.keywords: IVssHardwareSnapshotProviderEx interface,ResyncLuns method, IVssHardwareSnapshotProviderEx.ResyncLuns, IVssHardwareSnapshotProviderEx::ResyncLuns, ResyncLuns, ResyncLuns method, ResyncLuns method,IVssHardwareSnapshotProviderEx interface, base.ivsshardwaresnapshotproviderex_resyncluns, vsprov/IVssHardwareSnapshotProviderEx::ResyncLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssHardwareSnapshotProviderEx::ResyncLuns method
+# IVssHardwareSnapshotProviderEx::ResyncLuns
 
 
 ## -description

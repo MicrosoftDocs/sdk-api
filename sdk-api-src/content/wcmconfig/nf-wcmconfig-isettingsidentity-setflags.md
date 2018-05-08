@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.SetFlags
-title: ISettingsIdentity::SetFlags method
+title: ISettingsIdentity::SetFlags
 author: windows-driver-content
 description: Sets the identity flags for a namespace identity.
 old-location: smi\isettingsidentity_setflags.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: f31f6ea1-e101-40c0-a431-ab3bdc9f02be
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISettingsIdentity, ISettingsIdentity interface [SMI], SetFlags method, ISettingsIdentity::SetFlags, SetFlags method [SMI], SetFlags method [SMI], ISettingsIdentity interface, SetFlags,ISettingsIdentity.SetFlags, smi.isettingsidentity_setflags, wcmconfig/ISettingsIdentity::SetFlags
+ms.keywords: ISettingsIdentity interface [SMI],SetFlags method, ISettingsIdentity.SetFlags, ISettingsIdentity::SetFlags, SetFlags, SetFlags method [SMI], SetFlags method [SMI],ISettingsIdentity interface, smi.isettingsidentity_setflags, wcmconfig/ISettingsIdentity::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsIdentity::SetFlags method
+# ISettingsIdentity::SetFlags
 
 
 ## -description

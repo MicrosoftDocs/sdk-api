@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.FindTypeDefByName
-title: IMetaDataImport::FindTypeDefByName method
+title: IMetaDataImport::FindTypeDefByName
 author: windows-driver-content
 description: Gets a pointer to the TypeDef metadata token for the Type with the specified name.
 old-location: winrt\imetadataimport_findtypedefbyname.htm
 old-project: WinRT
 ms.assetid: dd4dd7d9-dfdf-4095-881b-c730ebfb083c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: FindTypeDefByName method [Windows Runtime], FindTypeDefByName method [Windows Runtime], IMetaDataImport interface, FindTypeDefByName,IMetaDataImport.FindTypeDefByName, IMetaDataImport, IMetaDataImport interface [Windows Runtime], FindTypeDefByName method, IMetaDataImport::FindTypeDefByName, rometadataapi/IMetaDataImport::FindTypeDefByName, winrt.imetadataimport_findtypedefbyname
+ms.date: 5/4/2018
+ms.keywords: FindTypeDefByName, FindTypeDefByName method [Windows Runtime], FindTypeDefByName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],FindTypeDefByName method, IMetaDataImport.FindTypeDefByName, IMetaDataImport::FindTypeDefByName, rometadataapi/IMetaDataImport::FindTypeDefByName, winrt.imetadataimport_findtypedefbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::FindTypeDefByName method
+# IMetaDataImport::FindTypeDefByName
 
 
 ## -description

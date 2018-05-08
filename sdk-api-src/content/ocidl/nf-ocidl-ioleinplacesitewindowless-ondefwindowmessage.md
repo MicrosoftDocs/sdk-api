@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.OnDefWindowMessage
-title: IOleInPlaceSiteWindowless::OnDefWindowMessage method
+title: IOleInPlaceSiteWindowless::OnDefWindowMessage
 author: windows-driver-content
 description: Invokes the default processing for all messages passed to an object.
 old-location: com\ioleinplacesitewindowless_ondefwindowmessage.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 14017061-57e3-49a9-93cc-6373522ab1dc
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], OnDefWindowMessage method, IOleInPlaceSiteWindowless::OnDefWindowMessage, OnDefWindowMessage method [COM], OnDefWindowMessage method [COM], IOleInPlaceSiteWindowless interface, OnDefWindowMessage,IOleInPlaceSiteWindowless.OnDefWindowMessage, _ole_ioleinplacesitewindowless_ondefwindowmessage, com.ioleinplacesitewindowless_ondefwindowmessage, ocidl/IOleInPlaceSiteWindowless::OnDefWindowMessage
+ms.keywords: IOleInPlaceSiteWindowless interface [COM],OnDefWindowMessage method, IOleInPlaceSiteWindowless.OnDefWindowMessage, IOleInPlaceSiteWindowless::OnDefWindowMessage, OnDefWindowMessage, OnDefWindowMessage method [COM], OnDefWindowMessage method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_ondefwindowmessage, com.ioleinplacesitewindowless_ondefwindowmessage, ocidl/IOleInPlaceSiteWindowless::OnDefWindowMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSiteWindowless::OnDefWindowMessage method
+# IOleInPlaceSiteWindowless::OnDefWindowMessage
 
 
 ## -description

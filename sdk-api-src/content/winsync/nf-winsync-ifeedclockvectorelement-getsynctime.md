@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IFeedClockVectorElement.GetSyncTime
-title: IFeedClockVectorElement::GetSyncTime method
+title: IFeedClockVectorElement::GetSyncTime
 author: windows-driver-content
 description: Gets a SYNC_TIME value that corresponds to the when value for the item.
 old-location: winsync\ifeedclockvectorelement_getsynctime.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: f39b3bdf-a37e-4673-a620-5b14109718cb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSyncTime method [Windows Sync], GetSyncTime method [Windows Sync], IFeedClockVectorElement interface, GetSyncTime,IFeedClockVectorElement.GetSyncTime, IFeedClockVectorElement, IFeedClockVectorElement interface [Windows Sync], GetSyncTime method, IFeedClockVectorElement::GetSyncTime, winsync.ifeedclockvectorelement_getsynctime, winsync/IFeedClockVectorElement::GetSyncTime
+ms.keywords: GetSyncTime, GetSyncTime method [Windows Sync], GetSyncTime method [Windows Sync],IFeedClockVectorElement interface, IFeedClockVectorElement interface [Windows Sync],GetSyncTime method, IFeedClockVectorElement.GetSyncTime, IFeedClockVectorElement::GetSyncTime, winsync.ifeedclockvectorelement_getsynctime, winsync/IFeedClockVectorElement::GetSyncTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IFeedClockVectorElement::GetSyncTime method
+# IFeedClockVectorElement::GetSyncTime
 
 
 ## -description

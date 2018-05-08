@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: a4de3031-7199-4537-a97e-f33059383d6b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: "*PHelperAttributeInfo, HelperAttributeInfo, HelperAttributeInfo structure [NDF], HelperAttributeInfo, *PHelperAttributeInfo, HelperAttributeInfo, *PHelperAttributeInfo structure [NDF], ndf.helperattributeinfo, ndhelper/HelperAttributeInfo, tagHelperAttributeInfo"
+ms.keywords: "*PHelperAttributeInfo, HelperAttributeInfo, HelperAttributeInfo structure [NDF], HelperAttributeInfo,*PHelperAttributeInfo, HelperAttributeInfo,*PHelperAttributeInfo structure [NDF], ndf.helperattributeinfo, ndhelper/HelperAttributeInfo, tagHelperAttributeInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ndhelper.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 

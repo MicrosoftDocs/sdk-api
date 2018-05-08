@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetOutboundHttpHeaders
-title: IWSDHttpMessageParameters::GetOutboundHttpHeaders method
+title: IWSDHttpMessageParameters::GetOutboundHttpHeaders
 author: windows-driver-content
 description: Retrieves the current HTTP headers used for outbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_getoutboundhttpheaders.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: c366773a-1869-4181-a457-560a1a9c84cd
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetOutboundHttpHeaders method, GetOutboundHttpHeaders method, IWSDHttpMessageParameters interface, GetOutboundHttpHeaders,IWSDHttpMessageParameters.GetOutboundHttpHeaders, IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, GetOutboundHttpHeaders method, IWSDHttpMessageParameters::GetOutboundHttpHeaders, ncd.iwsdhttpmessageparameters_getoutboundhttpheaders, wsdbase/IWSDHttpMessageParameters::GetOutboundHttpHeaders
+ms.keywords: GetOutboundHttpHeaders, GetOutboundHttpHeaders method, GetOutboundHttpHeaders method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetOutboundHttpHeaders method, IWSDHttpMessageParameters.GetOutboundHttpHeaders, IWSDHttpMessageParameters::GetOutboundHttpHeaders, ncd.iwsdhttpmessageparameters_getoutboundhttpheaders, wsdbase/IWSDHttpMessageParameters::GetOutboundHttpHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDHttpMessageParameters::GetOutboundHttpHeaders method
+# IWSDHttpMessageParameters::GetOutboundHttpHeaders
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionManager.GetConnection
-title: IMbnConnectionManager::GetConnection method
+title: IMbnConnectionManager::GetConnection
 author: windows-driver-content
 description: Gets a connection.
 old-location: mbn\imbnconnectionmanager_getconnection.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: fbeac057-77e3-438e-a7a9-b6f223a09dbe
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetConnection method [Microsoft Broadband Networks], GetConnection method [Microsoft Broadband Networks], IMbnConnectionManager interface, GetConnection,IMbnConnectionManager.GetConnection, IMbnConnectionManager, IMbnConnectionManager interface [Microsoft Broadband Networks], GetConnection method, IMbnConnectionManager::GetConnection, mbn.imbnconnectionmanager_getconnection, mbnapi/IMbnConnectionManager::GetConnection
+ms.keywords: GetConnection, GetConnection method [Microsoft Broadband Networks], GetConnection method [Microsoft Broadband Networks],IMbnConnectionManager interface, IMbnConnectionManager interface [Microsoft Broadband Networks],GetConnection method, IMbnConnectionManager.GetConnection, IMbnConnectionManager::GetConnection, mbn.imbnconnectionmanager_getconnection, mbnapi/IMbnConnectionManager::GetConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnectionManager::GetConnection method
+# IMbnConnectionManager::GetConnection
 
 
 ## -description

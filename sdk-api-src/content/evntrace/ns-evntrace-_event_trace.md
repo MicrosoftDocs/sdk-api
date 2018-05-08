@@ -63,11 +63,6 @@ req.product: Windows Media Format 9 Series or later
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
 ### -field Header
 
 An 
@@ -102,16 +97,21 @@ Pointer to the beginning of the event-specific data for this event.
 Number of bytes to which <b>MofData</b> points.
 
 
-#### - BufferContext
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.ClientContext
+
+Reserved.
+
+
+### -field DUMMYUNIONNAME.BufferContext
 
 Provides information about the event such as the session identifier and processor number of the CPU on which the provider process ran. For details, see the <a href="https://msdn.microsoft.com/75577305-fb3f-40a2-8fe6-9cd82c3f4e69">ETW_BUFFER_CONTEXT</a> structure.
 
 <b>Prior to Windows Vista:  </b>Not supported.
-
-
-#### - ClientContext
-
-Reserved.
 
 
 ## -remarks

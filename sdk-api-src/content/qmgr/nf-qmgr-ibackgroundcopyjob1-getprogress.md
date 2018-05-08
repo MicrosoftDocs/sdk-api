@@ -1,14 +1,14 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.GetProgress
-title: IBackgroundCopyJob1::GetProgress method
+title: IBackgroundCopyJob1::GetProgress
 author: windows-driver-content
 description: Use the GetProgress method to retrieve the job's progress.
 old-location: bits\ibackgroundcopyjob1_getprogress.htm
 old-project: Bits
 ms.assetid: 4d4444b6-e40a-4138-9462-49809ec84ccd
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetProgress method [BITS], GetProgress method [BITS], IBackgroundCopyJob1 interface, GetProgress,IBackgroundCopyJob1.GetProgress, IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], GetProgress method, IBackgroundCopyJob1::GetProgress, QM_PROGRESS_PERCENT_DONE, QM_PROGRESS_SIZE_DONE, QM_PROGRESS_TIME_DONE, bits.ibackgroundcopyjob1_getprogress, qmgr/IBackgroundCopyJob1::GetProgress
+ms.date: 4/27/2018
+ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetProgress method, IBackgroundCopyJob1.GetProgress, IBackgroundCopyJob1::GetProgress, QM_PROGRESS_PERCENT_DONE, QM_PROGRESS_SIZE_DONE, QM_PROGRESS_TIME_DONE, bits.ibackgroundcopyjob1_getprogress, qmgr/IBackgroundCopyJob1::GetProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBackgroundCopyJob1::GetProgress method
+# IBackgroundCopyJob1::GetProgress
 
 
 ## -description

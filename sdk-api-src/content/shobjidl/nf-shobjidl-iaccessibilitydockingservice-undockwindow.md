@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingService.UndockWindow
-title: IAccessibilityDockingService::UndockWindow method
+title: IAccessibilityDockingService::UndockWindow
 author: windows-driver-content
 description: Undocks the specified window handle if it is currently docked.
 old-location: com\iaccessibilitydockingservice_undockwindow.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8A88D02C-E542-49F0-B423-771E755D506D
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAccessibilityDockingService, IAccessibilityDockingService interface [COM], UndockWindow method, IAccessibilityDockingService::UndockWindow, UndockWindow method [COM], UndockWindow method [COM], IAccessibilityDockingService interface, UndockWindow,IAccessibilityDockingService.UndockWindow, com.iaccessibilitydockingservice_undockwindow, shobjidl/IAccessibilityDockingService::UndockWindow
+ms.keywords: IAccessibilityDockingService interface [COM],UndockWindow method, IAccessibilityDockingService.UndockWindow, IAccessibilityDockingService::UndockWindow, UndockWindow, UndockWindow method [COM], UndockWindow method [COM],IAccessibilityDockingService interface, com.iaccessibilitydockingservice_undockwindow, shobjidl/IAccessibilityDockingService::UndockWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IAccessibilityDockingService::UndockWindow method
+# IAccessibilityDockingService::UndockWindow
 
 
 ## -description

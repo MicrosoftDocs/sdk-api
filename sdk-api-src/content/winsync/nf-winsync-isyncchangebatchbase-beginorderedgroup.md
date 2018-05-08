@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.BeginOrderedGroup
-title: ISyncChangeBatchBase::BeginOrderedGroup method
+title: ISyncChangeBatchBase::BeginOrderedGroup
 author: windows-driver-content
 description: Opens an ordered group in the change batch. This group is ordered by item ID.
 old-location: winsync\isyncchangebatchbase_beginorderedgroup.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 093c0014-fa03-4609-a38f-5e69a3d3c4d6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: BeginOrderedGroup method [Windows Sync], BeginOrderedGroup method [Windows Sync], ISyncChangeBatchBase interface, BeginOrderedGroup,ISyncChangeBatchBase.BeginOrderedGroup, ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], BeginOrderedGroup method, ISyncChangeBatchBase::BeginOrderedGroup, winsync.isyncchangebatchbase_beginorderedgroup, winsync/ISyncChangeBatchBase::BeginOrderedGroup
+ms.keywords: BeginOrderedGroup, BeginOrderedGroup method [Windows Sync], BeginOrderedGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],BeginOrderedGroup method, ISyncChangeBatchBase.BeginOrderedGroup, ISyncChangeBatchBase::BeginOrderedGroup, winsync.isyncchangebatchbase_beginorderedgroup, winsync/ISyncChangeBatchBase::BeginOrderedGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchBase::BeginOrderedGroup method
+# ISyncChangeBatchBase::BeginOrderedGroup
 
 
 ## -description

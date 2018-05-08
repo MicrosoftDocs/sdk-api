@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentStrokes
-title: IXpsOMGeometryFigure::GetSegmentStrokes method
+title: IXpsOMGeometryFigure::GetSegmentStrokes
 author: windows-driver-content
 description: Gets stroke definitions for the figure's segments.
 old-location: xps\ixpsomgeometryfigure_getsegmentstrokes.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 97832bcb-c193-48e2-84f5-21b9c5a55cc9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FALSE, GetSegmentStrokes method [XPS Documents and Packaging], GetSegmentStrokes method [XPS Documents and Packaging], IXpsOMGeometryFigure interface, GetSegmentStrokes,IXpsOMGeometryFigure.GetSegmentStrokes, IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], GetSegmentStrokes method, IXpsOMGeometryFigure::GetSegmentStrokes, TRUE, xps.ixpsomgeometryfigure_getsegmentstrokes, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokes
+ms.keywords: FALSE, GetSegmentStrokes, GetSegmentStrokes method [XPS Documents and Packaging], GetSegmentStrokes method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentStrokes method, IXpsOMGeometryFigure.GetSegmentStrokes, IXpsOMGeometryFigure::GetSegmentStrokes, TRUE, xps.ixpsomgeometryfigure_getsegmentstrokes, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigure::GetSegmentStrokes method
+# IXpsOMGeometryFigure::GetSegmentStrokes
 
 
 ## -description

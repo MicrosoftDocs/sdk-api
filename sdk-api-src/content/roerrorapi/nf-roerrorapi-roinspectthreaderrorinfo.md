@@ -7,7 +7,7 @@ old-location: winrt\roinspectthreaderrorinfo.htm
 old-project: WinRT
 ms.assetid: DE7A930A-89CD-45C0-A232-800E5A5648F8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: RoInspectThreadErrorInfo, RoInspectThreadErrorInfo function [Windows Runtime], roerrorapi/RoInspectThreadErrorInfo, winrt.roinspectthreaderrorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

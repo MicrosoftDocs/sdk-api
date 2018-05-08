@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICPersistStream.SaveEx
-title: IWICPersistStream::SaveEx method
+title: IWICPersistStream::SaveEx
 author: windows-driver-content
 description: Saves the IWICPersistStream to the given input IStream using the given parameters.
 old-location: wic\_wic_codec_iwicpersiststream_saveex.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 8820ad87-a808-48db-91d8-c76bca1c832c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICPersistStream, IWICPersistStream interface [Windows Imaging Component], SaveEx method, IWICPersistStream::SaveEx, SaveEx method [Windows Imaging Component], SaveEx method [Windows Imaging Component], IWICPersistStream interface, SaveEx,IWICPersistStream.SaveEx, _wic_codec_iwicpersiststream_saveex, wic._wic_codec_iwicpersiststream_saveex, wincodecsdk/IWICPersistStream::SaveEx
+ms.keywords: IWICPersistStream interface [Windows Imaging Component],SaveEx method, IWICPersistStream.SaveEx, IWICPersistStream::SaveEx, SaveEx, SaveEx method [Windows Imaging Component], SaveEx method [Windows Imaging Component],IWICPersistStream interface, _wic_codec_iwicpersiststream_saveex, wic._wic_codec_iwicpersiststream_saveex, wincodecsdk/IWICPersistStream::SaveEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICPersistStream::SaveEx method
+# IWICPersistStream::SaveEx
 
 
 ## -description

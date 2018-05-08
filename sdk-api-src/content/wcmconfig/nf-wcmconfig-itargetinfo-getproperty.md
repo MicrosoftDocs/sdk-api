@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetProperty
-title: ITargetInfo::GetProperty method
+title: ITargetInfo::GetProperty
 author: windows-driver-content
 description: Gets a property value for the offline installation location.
 old-location: smi\itargetinfo_getproperty.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: f4366d23-e2dd-4561-af79-870212631ebf
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetProperty method [SMI], GetProperty method [SMI], ITargetInfo interface, GetProperty,ITargetInfo.GetProperty, ITargetInfo, ITargetInfo interface [SMI], GetProperty method, ITargetInfo::GetProperty, smi.itargetinfo_getproperty, wcmconfig/ITargetInfo::GetProperty
+ms.keywords: GetProperty, GetProperty method [SMI], GetProperty method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetProperty method, ITargetInfo.GetProperty, ITargetInfo::GetProperty, smi.itargetinfo_getproperty, wcmconfig/ITargetInfo::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::GetProperty method
+# ITargetInfo::GetProperty
 
 
 ## -description

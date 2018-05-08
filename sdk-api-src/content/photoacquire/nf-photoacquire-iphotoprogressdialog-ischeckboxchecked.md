@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.IsCheckboxChecked
-title: IPhotoProgressDialog::IsCheckboxChecked method
+title: IPhotoProgressDialog::IsCheckboxChecked
 author: windows-driver-content
 description: The IsCheckboxChecked method indicates whether the check box in the progress dialog box (typically indicating whether to delete files after transfer) is selected.
 old-location: picacq\iphotoprogressdialog_ischeckboxchecked.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 05810577-c23a-4f75-9cd5-0b5b6be7d181
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], IsCheckboxChecked method, IPhotoProgressDialog::IsCheckboxChecked, IPhotoProgressDialogIsCheckboxChecked, IsCheckboxChecked method [Picture Acquisition], IsCheckboxChecked method [Picture Acquisition], IPhotoProgressDialog interface, IsCheckboxChecked,IPhotoProgressDialog.IsCheckboxChecked, photoacquire/IPhotoProgressDialog::IsCheckboxChecked, picacq.iphotoprogressdialog_ischeckboxchecked
+ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],IsCheckboxChecked method, IPhotoProgressDialog.IsCheckboxChecked, IPhotoProgressDialog::IsCheckboxChecked, IPhotoProgressDialogIsCheckboxChecked, IsCheckboxChecked, IsCheckboxChecked method [Picture Acquisition], IsCheckboxChecked method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::IsCheckboxChecked, picacq.iphotoprogressdialog_ischeckboxchecked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoProgressDialog::IsCheckboxChecked method
+# IPhotoProgressDialog::IsCheckboxChecked
 
 
 ## -description

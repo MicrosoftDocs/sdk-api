@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetVersionNumber
-title: IPMT::GetVersionNumber method
+title: IPMT::GetVersionNumber
 author: windows-driver-content
 description: The GetVersionNumber method returns the version number for the PMT.
 old-location: mstv\ipmt_getversionnumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 00385ea4-27a9-47f4-91af-22fa82d83668
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies], IPMT interface, GetVersionNumber,IPMT.GetVersionNumber, IPMT, IPMT interface [Microsoft TV Technologies], GetVersionNumber method, IPMT::GetVersionNumber, IPMTGetVersionNumber, mpeg2psiparser/IPMT::GetVersionNumber, mstv.ipmt_getversionnumber
+ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetVersionNumber method, IPMT.GetVersionNumber, IPMT::GetVersionNumber, IPMTGetVersionNumber, mpeg2psiparser/IPMT::GetVersionNumber, mstv.ipmt_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IPMT::GetVersionNumber method
+# IPMT::GetVersionNumber
 
 
 ## -description

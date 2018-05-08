@@ -1,6 +1,6 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentPersistInfo.Save
-title: ISceSvcAttachmentPersistInfo::Save method
+title: ISceSvcAttachmentPersistInfo::Save
 author: windows-driver-content
 description: The Save method causes the snap-in extension to return information about the data that needs to be saved. The caller is responsible for saving the data.
 old-location: security\iscesvcattachmentpersistinfo_save.htm
@@ -8,7 +8,7 @@ old-project: SecMgmt
 ms.assetid: bdec64b8-2a92-4165-95ff-0de981f2d878
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ISceSvcAttachmentPersistInfo, ISceSvcAttachmentPersistInfo interface [Security], Save method, ISceSvcAttachmentPersistInfo::Save, Save method [Security], Save method [Security], ISceSvcAttachmentPersistInfo interface, Save,ISceSvcAttachmentPersistInfo.Save, _config_iscesvcattachmentpersistinfo_save, scesvc/ISceSvcAttachmentPersistInfo::Save, security.iscesvcattachmentpersistinfo_save
+ms.keywords: ISceSvcAttachmentPersistInfo interface [Security],Save method, ISceSvcAttachmentPersistInfo.Save, ISceSvcAttachmentPersistInfo::Save, Save, Save method [Security], Save method [Security],ISceSvcAttachmentPersistInfo interface, _config_iscesvcattachmentpersistinfo_save, scesvc/ISceSvcAttachmentPersistInfo::Save, security.iscesvcattachmentpersistinfo_save
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISceSvcAttachmentPersistInfo::Save method
+# ISceSvcAttachmentPersistInfo::Save
 
 
 ## -description

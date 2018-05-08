@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentStructureResource.GetStream
-title: IXpsOMDocumentStructureResource::GetStream method
+title: IXpsOMDocumentStructureResource::GetStream
 author: windows-driver-content
 description: Gets a new, read-only copy of the stream that is associated with this resource.
 old-location: xps\ixpsomdocumentstructureresource_getstream.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 77c08ced-bc0d-4ebf-a257-d4298c7a352d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging], IXpsOMDocumentStructureResource interface, GetStream,IXpsOMDocumentStructureResource.GetStream, IXpsOMDocumentStructureResource, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging], GetStream method, IXpsOMDocumentStructureResource::GetStream, xps.ixpsomdocumentstructureresource_getstream, xpsobjectmodel/IXpsOMDocumentStructureResource::GetStream
+ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMDocumentStructureResource interface, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],GetStream method, IXpsOMDocumentStructureResource.GetStream, IXpsOMDocumentStructureResource::GetStream, xps.ixpsomdocumentstructureresource_getstream, xpsobjectmodel/IXpsOMDocumentStructureResource::GetStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDocumentStructureResource::GetStream method
+# IXpsOMDocumentStructureResource::GetStream
 
 
 ## -description

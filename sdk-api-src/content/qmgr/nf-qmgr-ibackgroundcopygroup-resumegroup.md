@@ -1,14 +1,14 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.ResumeGroup
-title: IBackgroundCopyGroup::ResumeGroup method
+title: IBackgroundCopyGroup::ResumeGroup
 author: windows-driver-content
 description: Use the ResumeGroup method to start a group that has been suspended in the download queue.
 old-location: bits\ibackgroundcopygroup_resumegroup.htm
 old-project: Bits
 ms.assetid: a9b0b7df-9149-4d09-a37c-c0a4f5dc6e45
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], ResumeGroup method, IBackgroundCopyGroup::ResumeGroup, ResumeGroup method [BITS], ResumeGroup method [BITS], IBackgroundCopyGroup interface, ResumeGroup,IBackgroundCopyGroup.ResumeGroup, bits.ibackgroundcopygroup_resumegroup, qmgr/IBackgroundCopyGroup::ResumeGroup
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyGroup interface [BITS],ResumeGroup method, IBackgroundCopyGroup.ResumeGroup, IBackgroundCopyGroup::ResumeGroup, ResumeGroup, ResumeGroup method [BITS], ResumeGroup method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_resumegroup, qmgr/IBackgroundCopyGroup::ResumeGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBackgroundCopyGroup::ResumeGroup method
+# IBackgroundCopyGroup::ResumeGroup
 
 
 ## -description

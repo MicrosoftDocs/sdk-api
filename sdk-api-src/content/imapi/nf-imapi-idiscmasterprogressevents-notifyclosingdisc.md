@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyClosingDisc
-title: IDiscMasterProgressEvents::NotifyClosingDisc method
+title: IDiscMasterProgressEvents::NotifyClosingDisc
 author: windows-driver-content
 description: Notifies the application that it is has started closing the disc. No further notifications are sent until the burn is finished.
 old-location: imapi\idiscmasterprogressevents_notifyclosingdisc.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 2eeccb4e-0e49-40a9-b659-f0784f921074
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscMasterProgressEvents, IDiscMasterProgressEvents interface [IMAPI], NotifyClosingDisc method, IDiscMasterProgressEvents::NotifyClosingDisc, NotifyClosingDisc method [IMAPI], NotifyClosingDisc method [IMAPI], IDiscMasterProgressEvents interface, NotifyClosingDisc,IDiscMasterProgressEvents.NotifyClosingDisc, _win32_idiscmasterprogressevents_notifyclosingdisc, base.idiscmasterprogressevents_notifyclosingdisc, imapi.idiscmasterprogressevents_notifyclosingdisc, imapi/IDiscMasterProgressEvents::NotifyClosingDisc
+ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyClosingDisc method, IDiscMasterProgressEvents.NotifyClosingDisc, IDiscMasterProgressEvents::NotifyClosingDisc, NotifyClosingDisc, NotifyClosingDisc method [IMAPI], NotifyClosingDisc method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyclosingdisc, base.idiscmasterprogressevents_notifyclosingdisc, imapi.idiscmasterprogressevents_notifyclosingdisc, imapi/IDiscMasterProgressEvents::NotifyClosingDisc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscMasterProgressEvents::NotifyClosingDisc method
+# IDiscMasterProgressEvents::NotifyClosingDisc
 
 
 ## -description

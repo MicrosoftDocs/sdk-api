@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetName
-title: IWMDMDevice::GetName method
+title: IWMDMDevice::GetName
 author: windows-driver-content
 description: The GetName method retrieves the human-readable name of the media device.
 old-location: wmdm\iwmdmdevice_getname.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 4bc5d550-6631-40ea-b020-2f5bb55899d6
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetName method [windows Media Device Manager], GetName method [windows Media Device Manager], IWMDMDevice interface, GetName,IWMDMDevice.GetName, IWMDMDevice, IWMDMDevice interface [windows Media Device Manager], GetName method, IWMDMDevice::GetName, IWMDMDeviceGetName, mswmdm/IWMDMDevice::GetName, wmdm.iwmdmdevice_getname
+ms.keywords: GetName, GetName method [windows Media Device Manager], GetName method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetName method, IWMDMDevice.GetName, IWMDMDevice::GetName, IWMDMDeviceGetName, mswmdm/IWMDMDevice::GetName, wmdm.iwmdmdevice_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMDevice::GetName method
+# IWMDMDevice::GetName
 
 
 ## -description

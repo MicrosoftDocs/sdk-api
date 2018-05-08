@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_SBESink
-title: IMSVidStreamBufferSink::get_SBESink method
+title: IMSVidStreamBufferSink::get_SBESink
 author: windows-driver-content
 description: The get_SBESink method retrieves a pointer to the Stream Buffer Sink filter.
 old-location: mstv\imsvidstreambuffersink_get_sbesink.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ea911a70-1926-4ba8-b9dd-1188debee00a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSink, IMSVidStreamBufferSink interface [Microsoft TV Technologies], get_SBESink method, IMSVidStreamBufferSink::get_SBESink, IMSVidStreamBufferSinkget_DVRConfigure, get_SBESink method [Microsoft TV Technologies], get_SBESink method [Microsoft TV Technologies], IMSVidStreamBufferSink interface, get_SBESink,IMSVidStreamBufferSink.get_SBESink, mstv.imsvidstreambuffersink_get_sbesink, segment/IMSVidStreamBufferSink::get_SBESink
+ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_SBESink method, IMSVidStreamBufferSink.get_SBESink, IMSVidStreamBufferSink::get_SBESink, IMSVidStreamBufferSinkget_DVRConfigure, get_SBESink, get_SBESink method [Microsoft TV Technologies], get_SBESink method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_sbesink, segment/IMSVidStreamBufferSink::get_SBESink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSink::get_SBESink method
+# IMSVidStreamBufferSink::get_SBESink
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.EnumSettingObjects
-title: IOfflineFilesCache::EnumSettingObjects method
+title: IOfflineFilesCache::EnumSettingObjects
 author: windows-driver-content
 description: Creates an enumerator of instances of IOfflineFilesSetting.
 old-location: of\iofflinefilescache_enumsettingobjects.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 1f2bb562-810a-4cc1-a072-eb870149954a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EnumSettingObjects method [Offline Files], EnumSettingObjects method [Offline Files], IOfflineFilesCache interface, EnumSettingObjects,IOfflineFilesCache.EnumSettingObjects, IOfflineFilesCache, IOfflineFilesCache interface [Offline Files], EnumSettingObjects method, IOfflineFilesCache::EnumSettingObjects, cscobj/IOfflineFilesCache::EnumSettingObjects, of.iofflinefilescache_enumsettingobjects
+ms.keywords: EnumSettingObjects, EnumSettingObjects method [Offline Files], EnumSettingObjects method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],EnumSettingObjects method, IOfflineFilesCache.EnumSettingObjects, IOfflineFilesCache::EnumSettingObjects, cscobj/IOfflineFilesCache::EnumSettingObjects, of.iofflinefilescache_enumsettingobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesCache::EnumSettingObjects method
+# IOfflineFilesCache::EnumSettingObjects
 
 
 ## -description

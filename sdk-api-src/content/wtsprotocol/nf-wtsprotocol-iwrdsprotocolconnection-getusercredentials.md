@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetUserCredentials
-title: IWRdsProtocolConnection::GetUserCredentials method
+title: IWRdsProtocolConnection::GetUserCredentials
 author: windows-driver-content
 description: Returns user credentials.
 old-location: termserv\iwrdsprotocolconnection_getusercredentials.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: dcd8de76-e260-4b3b-98ca-4f486b3b6635
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetUserCredentials method [Remote Desktop Services], GetUserCredentials method [Remote Desktop Services], IWRdsProtocolConnection interface, GetUserCredentials,IWRdsProtocolConnection.GetUserCredentials, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], GetUserCredentials method, IWRdsProtocolConnection::GetUserCredentials, termserv.iwrdsprotocolconnection_getusercredentials, wtsprotocol/IWRdsProtocolConnection::GetUserCredentials
+ms.keywords: GetUserCredentials, GetUserCredentials method [Remote Desktop Services], GetUserCredentials method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetUserCredentials method, IWRdsProtocolConnection.GetUserCredentials, IWRdsProtocolConnection::GetUserCredentials, termserv.iwrdsprotocolconnection_getusercredentials, wtsprotocol/IWRdsProtocolConnection::GetUserCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::GetUserCredentials method
+# IWRdsProtocolConnection::GetUserCredentials
 
 
 ## -description

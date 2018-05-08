@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetPrerequisite
-title: IAppxManifestReader::GetPrerequisite method
+title: IAppxManifestReader::GetPrerequisite
 author: windows-driver-content
 description: Gets the specified prerequisite as defined in the package manifest.
 old-location: appxpkg\iappxmanifestreader_getprerequisite.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 1CF44513-AA07-4591-9134-A156A538C8F1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPrerequisite method [App packaging and management], GetPrerequisite method [App packaging and management], IAppxManifestReader interface, GetPrerequisite,IAppxManifestReader.GetPrerequisite, IAppxManifestReader, IAppxManifestReader interface [App packaging and management], GetPrerequisite method, IAppxManifestReader::GetPrerequisite, appxpackaging/IAppxManifestReader::GetPrerequisite, appxpkg.iappxmanifestreader_getprerequisite
+ms.keywords: GetPrerequisite, GetPrerequisite method [App packaging and management], GetPrerequisite method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetPrerequisite method, IAppxManifestReader.GetPrerequisite, IAppxManifestReader::GetPrerequisite, appxpackaging/IAppxManifestReader::GetPrerequisite, appxpkg.iappxmanifestreader_getprerequisite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestReader::GetPrerequisite method
+# IAppxManifestReader::GetPrerequisite
 
 
 ## -description

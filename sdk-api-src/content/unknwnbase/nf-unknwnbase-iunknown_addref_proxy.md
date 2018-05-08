@@ -7,7 +7,7 @@ old-location: rpc\iunknown_addref_proxy.htm
 old-project: Rpc
 ms.assetid: a95efffc-1761-40ae-80d2-c2a4ceddab6c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: IUnknown_AddRef_Proxy, IUnknown_AddRef_Proxy function [RPC], rpc.iunknown_addref_proxy, unknwnbase/IUnknown_AddRef_Proxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

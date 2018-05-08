@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMaster.Open
-title: IDiscMaster::Open method
+title: IDiscMaster::Open
 author: windows-driver-content
 description: Opens an upper-level IMAPI object for access by a client application.
 old-location: imapi\idiscmaster_open.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: f9d64a07-67d9-4cc1-aeb5-64762a4e8153
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscMaster, IDiscMaster interface [IMAPI], Open method, IDiscMaster::Open, Open method [IMAPI], Open method [IMAPI], IDiscMaster interface, Open,IDiscMaster.Open, _win32_idiscmaster_open, base.idiscmaster_open, imapi.idiscmaster_open, imapi/IDiscMaster::Open
+ms.keywords: IDiscMaster interface [IMAPI],Open method, IDiscMaster.Open, IDiscMaster::Open, Open, Open method [IMAPI], Open method [IMAPI],IDiscMaster interface, _win32_idiscmaster_open, base.idiscmaster_open, imapi.idiscmaster_open, imapi/IDiscMaster::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscMaster::Open method
+# IDiscMaster::Open
 
 
 ## -description

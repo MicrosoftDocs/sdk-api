@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetQuantizationTable
-title: IWICJpegFrameDecode::GetQuantizationTable method
+title: IWICJpegFrameDecode::GetQuantizationTable
 author: windows-driver-content
 description: Retrieves a copy of the quantization table.
 old-location: wic\iwicjpegframedecode_getquantizationtable.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 58A0FA55-7626-4FB7-BA35-1806B6C3AAAA
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetQuantizationTable method [Windows Imaging Component], GetQuantizationTable method [Windows Imaging Component], IWICJpegFrameDecode interface, GetQuantizationTable,IWICJpegFrameDecode.GetQuantizationTable, IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], GetQuantizationTable method, IWICJpegFrameDecode::GetQuantizationTable, wic.iwicjpegframedecode_getquantizationtable, wincodec/IWICJpegFrameDecode::GetQuantizationTable
+ms.keywords: GetQuantizationTable, GetQuantizationTable method [Windows Imaging Component], GetQuantizationTable method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetQuantizationTable method, IWICJpegFrameDecode.GetQuantizationTable, IWICJpegFrameDecode::GetQuantizationTable, wic.iwicjpegframedecode_getquantizationtable, wincodec/IWICJpegFrameDecode::GetQuantizationTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICJpegFrameDecode::GetQuantizationTable method
+# IWICJpegFrameDecode::GetQuantizationTable
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetSupportedTimeFormat
-title: IMediaParamInfo::GetSupportedTimeFormat method
+title: IMediaParamInfo::GetSupportedTimeFormat
 author: windows-driver-content
 description: The GetSupportedTimeFormat method retrieves a supported time format.
 old-location: dshow\imediaparaminfo_getsupportedtimeformat.htm
 old-project: DirectShow
 ms.assetid: 04e4c9ea-4570-4fd0-986b-c835c692b73b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSupportedTimeFormat method [DirectShow], GetSupportedTimeFormat method [DirectShow], IMediaParamInfo interface, GetSupportedTimeFormat,IMediaParamInfo.GetSupportedTimeFormat, IMediaParamInfo, IMediaParamInfo interface [DirectShow], GetSupportedTimeFormat method, IMediaParamInfo::GetSupportedTimeFormat, IMediaParamInfoGetSupportedTimeFormat, dshow.imediaparaminfo_getsupportedtimeformat, medparam/IMediaParamInfo::GetSupportedTimeFormat
+ms.date: 4/30/2018
+ms.keywords: GetSupportedTimeFormat, GetSupportedTimeFormat method [DirectShow], GetSupportedTimeFormat method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetSupportedTimeFormat method, IMediaParamInfo.GetSupportedTimeFormat, IMediaParamInfo::GetSupportedTimeFormat, IMediaParamInfoGetSupportedTimeFormat, dshow.imediaparaminfo_getsupportedtimeformat, medparam/IMediaParamInfo::GetSupportedTimeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaParamInfo::GetSupportedTimeFormat method
+# IMediaParamInfo::GetSupportedTimeFormat
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumMoniker.Next
-title: IEnumMoniker::Next method
+title: IEnumMoniker::Next
 author: windows-driver-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienummoniker_next.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ab4fd626-bddc-42b4-b279-b89d1f79b1e1
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumMoniker, IEnumMoniker interface [COM], Next method, IEnumMoniker::Next, Next method [COM], Next method [COM], IEnumMoniker interface, Next,IEnumMoniker.Next, _ole_ienummoniker_next, com.ienummoniker_next, objidl/IEnumMoniker::Next
+ms.keywords: IEnumMoniker interface [COM],Next method, IEnumMoniker.Next, IEnumMoniker::Next, Next, Next method [COM], Next method [COM],IEnumMoniker interface, _ole_ienummoniker_next, com.ienummoniker_next, objidl/IEnumMoniker::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumMoniker::Next method
+# IEnumMoniker::Next
 
 
 ## -description

@@ -122,6 +122,16 @@ This member is reserved and must be set to <b>NULL</b>.
  
 
 
+### -field DUMMYUNIONNAME.pReserved
+
+This member is reserved and must be set to <b>NULL</b>.
+
+
+### -field DUMMYUNIONNAME.pProviderGuid
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> of a migrated publisher. The value of this member is converted to a string and stored in the registry if the caller is a migrated publisher.
+
+
 ### -field dwObjectTypeNameCount
 
 The number of objects in the <i>ObjectTypeNames</i> array.
@@ -130,16 +140,6 @@ The number of objects in the <i>ObjectTypeNames</i> array.
 ### -field ObjectTypeNames
 
 An array of <a href="https://msdn.microsoft.com/2ec39edc-7819-41a5-8798-dc51c00ba85e">AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET</a> structures that represents the object types for the events.
-
-
-#### - pProviderGuid
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> of a migrated publisher. The value of this member is converted to a string and stored in the registry if the caller is a migrated publisher.
-
-
-#### - pReserved
-
-This member is reserved and must be set to <b>NULL</b>.
 
 
 ## -see-also

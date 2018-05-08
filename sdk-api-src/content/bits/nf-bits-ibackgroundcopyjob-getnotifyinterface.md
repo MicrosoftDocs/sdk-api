@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetNotifyInterface
-title: IBackgroundCopyJob::GetNotifyInterface method
+title: IBackgroundCopyJob::GetNotifyInterface
 author: windows-driver-content
 description: Retrieves the interface pointer to your implementation of the IBackgroundCopyCallback interface.
 old-location: bits\ibackgroundcopyjob_getnotifyinterface.htm
 old-project: Bits
 ms.assetid: 6a954fbc-baf6-4efa-bec0-dd86b4b7a916
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetNotifyInterface method [BITS], GetNotifyInterface method [BITS], IBackgroundCopyJob interface, GetNotifyInterface,IBackgroundCopyJob.GetNotifyInterface, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetNotifyInterface method, IBackgroundCopyJob::GetNotifyInterface, _drz_ibackgroundcopyjob_getnotifyinterface, bits.ibackgroundcopyjob_getnotifyinterface, bits/IBackgroundCopyJob::GetNotifyInterface
+ms.date: 4/27/2018
+ms.keywords: GetNotifyInterface, GetNotifyInterface method [BITS], GetNotifyInterface method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNotifyInterface method, IBackgroundCopyJob.GetNotifyInterface, IBackgroundCopyJob::GetNotifyInterface, _drz_ibackgroundcopyjob_getnotifyinterface, bits.ibackgroundcopyjob_getnotifyinterface, bits/IBackgroundCopyJob::GetNotifyInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::GetNotifyInterface method
+# IBackgroundCopyJob::GetNotifyInterface
 
 
 ## -description

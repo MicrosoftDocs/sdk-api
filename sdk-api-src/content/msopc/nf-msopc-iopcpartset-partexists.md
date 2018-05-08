@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartSet.PartExists
-title: IOpcPartSet::PartExists method
+title: IOpcPartSet::PartExists
 author: windows-driver-content
 description: Gets a value that indicates whether a specified part is represented as a part object in the set.
 old-location: opc\iopcpartset_partexists.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 721e0252-330a-4218-9267-b3dd0dea7598
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcPartSet, IOpcPartSet interface [Open Packaging Conventions], PartExists method, IOpcPartSet::PartExists, PartExists method [Open Packaging Conventions], PartExists method [Open Packaging Conventions], IOpcPartSet interface, PartExists,IOpcPartSet.PartExists, msopc/IOpcPartSet::PartExists, opc.iopcpartset_partexists
+ms.keywords: IOpcPartSet interface [Open Packaging Conventions],PartExists method, IOpcPartSet.PartExists, IOpcPartSet::PartExists, PartExists, PartExists method [Open Packaging Conventions], PartExists method [Open Packaging Conventions],IOpcPartSet interface, msopc/IOpcPartSet::PartExists, opc.iopcpartset_partexists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPartSet::PartExists method
+# IOpcPartSet::PartExists
 
 
 ## -description

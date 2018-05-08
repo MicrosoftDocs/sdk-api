@@ -7,8 +7,8 @@ old-location: multimedia\capwavestreamcallback.htm
 old-project: Multimedia
 ms.assetid: e7047d3d-9393-4611-a034-d36d6e92ee01
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: CAPWAVECALLBACK, _win32_capWaveStreamCallback, capWaveStreamCallback, capWaveStreamCallback callback function [Windows Multimedia], multimedia.capwavestreamcallback, vfw/capWaveStreamCallback
+ms.date: 5/4/2018
+ms.keywords: CAPWAVECALLBACK, _win32_capWaveStreamCallback, capWaveStreamCallback, capWaveStreamCallback callback, capWaveStreamCallback callback function [Windows Multimedia], multimedia.capwavestreamcallback, vfw/capWaveStreamCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CAPWAVECALLBACK callback
+# CAPWAVECALLBACK callback function
 
 
 ## -description

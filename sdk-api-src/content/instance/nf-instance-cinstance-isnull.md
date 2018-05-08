@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.IsNull
-title: CInstance::IsNull method
+title: CInstance::IsNull
 author: windows-driver-content
 description: The IsNull method determines if the value of a particular property is NULL.
 old-location: wmi\cinstance_isnull.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 54d0135f-f387-43f5-ab5a-aa134141d3b0
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?IsNull@CInstance@@QBE_NPBG@Z, ?IsNull@CInstance@@QEBA_NPEBG@Z, CInstance, CInstance interface [Windows Management Instrumentation], IsNull method, CInstance::IsNull, IsNull method [Windows Management Instrumentation], IsNull method [Windows Management Instrumentation], CInstance interface, IsNull,CInstance.IsNull, _hmm_cinstance_isnull, instance/CInstance::IsNull, wmi.cinstance_isnull"
+ms.keywords: "?IsNull@CInstance@@QBE_NPBG@Z, ?IsNull@CInstance@@QEBA_NPEBG@Z, CInstance interface [Windows Management Instrumentation],IsNull method, CInstance.IsNull, CInstance::IsNull, IsNull, IsNull method [Windows Management Instrumentation], IsNull method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_isnull, instance/CInstance::IsNull, wmi.cinstance_isnull"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::IsNull method
+# CInstance::IsNull
 
 
 ## -description

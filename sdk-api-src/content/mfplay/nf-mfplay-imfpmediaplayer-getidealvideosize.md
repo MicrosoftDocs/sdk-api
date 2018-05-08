@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetIdealVideoSize
-title: IMFPMediaPlayer::GetIdealVideoSize method
+title: IMFPMediaPlayer::GetIdealVideoSize
 author: windows-driver-content
 description: Gets the range of video sizes that can be displayed without significantly degrading performance or image quality.
 old-location: mf\imfpmediaplayer_getidealvideosize.htm
 old-project: medfound
 ms.assetid: e6835852-10f0-4453-a22a-a567457bd7c5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetIdealVideoSize method [Media Foundation], GetIdealVideoSize method [Media Foundation], IMFPMediaPlayer interface, GetIdealVideoSize,IMFPMediaPlayer.GetIdealVideoSize, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetIdealVideoSize method, IMFPMediaPlayer::GetIdealVideoSize, mf.imfpmediaplayer_getidealvideosize, mfplay/IMFPMediaPlayer::GetIdealVideoSize
+ms.date: 5/3/2018
+ms.keywords: GetIdealVideoSize, GetIdealVideoSize method [Media Foundation], GetIdealVideoSize method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetIdealVideoSize method, IMFPMediaPlayer.GetIdealVideoSize, IMFPMediaPlayer::GetIdealVideoSize, mf.imfpmediaplayer_getidealvideosize, mfplay/IMFPMediaPlayer::GetIdealVideoSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::GetIdealVideoSize method
+# IMFPMediaPlayer::GetIdealVideoSize
 
 
 ## -description

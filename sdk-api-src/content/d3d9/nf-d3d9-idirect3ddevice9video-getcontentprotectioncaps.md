@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Video.GetContentProtectionCaps
-title: IDirect3DDevice9Video::GetContentProtectionCaps method
+title: IDirect3DDevice9Video::GetContentProtectionCaps
 author: windows-driver-content
 description: Queries the display driver for its content protection capabilities.
 old-location: mf\idirect3ddevice9video_getcontentprotectioncaps.htm
 old-project: medfound
 ms.assetid: 4093e64c-340d-4f66-97ed-45bae3b259eb
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: D3DCRYPTOTYPE_AES128_CTR, D3DCRYPTOTYPE_PROPRIETARY, GetContentProtectionCaps method [Media Foundation], GetContentProtectionCaps method [Media Foundation], IDirect3DDevice9Video interface, GetContentProtectionCaps,IDirect3DDevice9Video.GetContentProtectionCaps, IDirect3DDevice9Video, IDirect3DDevice9Video interface [Media Foundation], GetContentProtectionCaps method, IDirect3DDevice9Video::GetContentProtectionCaps, d3d9/IDirect3DDevice9Video::GetContentProtectionCaps, mf.idirect3ddevice9video_getcontentprotectioncaps
+ms.date: 5/3/2018
+ms.keywords: D3DCRYPTOTYPE_AES128_CTR, D3DCRYPTOTYPE_PROPRIETARY, GetContentProtectionCaps, GetContentProtectionCaps method [Media Foundation], GetContentProtectionCaps method [Media Foundation],IDirect3DDevice9Video interface, IDirect3DDevice9Video interface [Media Foundation],GetContentProtectionCaps method, IDirect3DDevice9Video.GetContentProtectionCaps, IDirect3DDevice9Video::GetContentProtectionCaps, d3d9/IDirect3DDevice9Video::GetContentProtectionCaps, mf.idirect3ddevice9video_getcontentprotectioncaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9Video::GetContentProtectionCaps method
+# IDirect3DDevice9Video::GetContentProtectionCaps
 
 
 ## -description

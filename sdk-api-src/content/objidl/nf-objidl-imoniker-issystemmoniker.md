@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.IsSystemMoniker
-title: IMoniker::IsSystemMoniker method
+title: IMoniker::IsSystemMoniker
 author: windows-driver-content
 description: Determines whether this moniker is one of the system-provided moniker classes.
 old-location: com\imoniker_issystemmoniker.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: a61c0df9-786e-45e7-8b3d-f950decc596d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMoniker, IMoniker interface [COM], IsSystemMoniker method, IMoniker::IsSystemMoniker, IsSystemMoniker method [COM], IsSystemMoniker method [COM], IMoniker interface, IsSystemMoniker,IMoniker.IsSystemMoniker, _com_imoniker_issystemmoniker, com.imoniker_issystemmoniker, objidl/IMoniker::IsSystemMoniker
+ms.keywords: IMoniker interface [COM],IsSystemMoniker method, IMoniker.IsSystemMoniker, IMoniker::IsSystemMoniker, IsSystemMoniker, IsSystemMoniker method [COM], IsSystemMoniker method [COM],IMoniker interface, _com_imoniker_issystemmoniker, com.imoniker_issystemmoniker, objidl/IMoniker::IsSystemMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMoniker::IsSystemMoniker method
+# IMoniker::IsSystemMoniker
 
 
 ## -description

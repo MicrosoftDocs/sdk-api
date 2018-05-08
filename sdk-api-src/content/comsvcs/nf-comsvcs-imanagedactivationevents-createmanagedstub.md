@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IManagedActivationEvents.CreateManagedStub
-title: IManagedActivationEvents::CreateManagedStub method
+title: IManagedActivationEvents::CreateManagedStub
 author: windows-driver-content
 description: Creates a stub for a managed object within the current COM+ context.
 old-location: cos\imanagedactivationevents_createmanagedstub.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: a2ba7ece-ac17-42fb-b22f-976ad849eca5
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateManagedStub method [COM+], CreateManagedStub method [COM+], IManagedActivationEvents interface, CreateManagedStub,IManagedActivationEvents.CreateManagedStub, IManagedActivationEvents, IManagedActivationEvents interface [COM+], CreateManagedStub method, IManagedActivationEvents::CreateManagedStub, _cos_IManagedActivationEvents_CreateManagedStub, comsvcs/IManagedActivationEvents::CreateManagedStub, cos.imanagedactivationevents_createmanagedstub
+ms.keywords: CreateManagedStub, CreateManagedStub method [COM+], CreateManagedStub method [COM+],IManagedActivationEvents interface, IManagedActivationEvents interface [COM+],CreateManagedStub method, IManagedActivationEvents.CreateManagedStub, IManagedActivationEvents::CreateManagedStub, _cos_IManagedActivationEvents_CreateManagedStub, comsvcs/IManagedActivationEvents::CreateManagedStub, cos.imanagedactivationevents_createmanagedstub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IManagedActivationEvents::CreateManagedStub method
+# IManagedActivationEvents::CreateManagedStub
 
 
 ## -description

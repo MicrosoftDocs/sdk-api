@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeUnitException.GetItemId
-title: IChangeUnitException::GetItemId method
+title: IChangeUnitException::GetItemId
 author: windows-driver-content
 description: Gets the item ID for the item that contains the change unit that is associated with the exception.
 old-location: winsync\ichangeunitexception_getitemid.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: d5c76ecf-bd3f-4a0a-9fba-4fd51591d39f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetItemId method [Windows Sync], GetItemId method [Windows Sync], IChangeUnitException interface, GetItemId,IChangeUnitException.GetItemId, IChangeUnitException, IChangeUnitException interface [Windows Sync], GetItemId method, IChangeUnitException::GetItemId, winsync.ichangeunitexception_getitemid, winsync/IChangeUnitException::GetItemId
+ms.keywords: GetItemId, GetItemId method [Windows Sync], GetItemId method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetItemId method, IChangeUnitException.GetItemId, IChangeUnitException::GetItemId, winsync.ichangeunitexception_getitemid, winsync/IChangeUnitException::GetItemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IChangeUnitException::GetItemId method
+# IChangeUnitException::GetItemId
 
 
 ## -description

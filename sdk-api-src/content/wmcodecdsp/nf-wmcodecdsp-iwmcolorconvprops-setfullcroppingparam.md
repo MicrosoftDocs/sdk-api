@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMColorConvProps.SetFullCroppingParam
-title: IWMColorConvProps::SetFullCroppingParam method
+title: IWMColorConvProps::SetFullCroppingParam
 author: windows-driver-content
 description: Sets the source and destination rectangles.
 old-location: mf\iwmcolorconvpropssetfullcroppingparam.htm
 old-project: medfound
 ms.assetid: 73545bbb-6630-463d-ad58-d24937e3b546
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMColorConvProps, IWMColorConvProps interface [Media Foundation], SetFullCroppingParam method, IWMColorConvProps::SetFullCroppingParam, SetFullCroppingParam method [Media Foundation], SetFullCroppingParam method [Media Foundation], IWMColorConvProps interface, SetFullCroppingParam,IWMColorConvProps.SetFullCroppingParam, codecapi.iwmcolorconvpropssetfullcroppingparam, mf.iwmcolorconvpropssetfullcroppingparam, wmcodecdsp/ IWMColorConvProps::SetFullCroppingParam
+ms.date: 5/3/2018
+ms.keywords: IWMColorConvProps interface [Media Foundation],SetFullCroppingParam method, IWMColorConvProps.SetFullCroppingParam, IWMColorConvProps::SetFullCroppingParam, SetFullCroppingParam, SetFullCroppingParam method [Media Foundation], SetFullCroppingParam method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetfullcroppingparam, mf.iwmcolorconvpropssetfullcroppingparam, wmcodecdsp/ IWMColorConvProps::SetFullCroppingParam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMColorConvProps::SetFullCroppingParam method
+# IWMColorConvProps::SetFullCroppingParam
 
 
 ## -description

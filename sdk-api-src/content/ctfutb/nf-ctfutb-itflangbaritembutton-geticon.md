@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemButton.GetIcon
-title: ITfLangBarItemButton::GetIcon method
+title: ITfLangBarItemButton::GetIcon
 author: windows-driver-content
 description: ITfLangBarItemButton::GetIcon method
 old-location: tsf\itflangbaritembutton_geticon.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6134f747-a138-4ec4-8a89-c25beddcf319
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetIcon method [Text Services Framework], GetIcon method [Text Services Framework], ITfLangBarItemButton interface, GetIcon,ITfLangBarItemButton.GetIcon, ITfLangBarItemButton, ITfLangBarItemButton interface [Text Services Framework], GetIcon method, ITfLangBarItemButton::GetIcon, _tsf_itflangbaritembutton_geticon_ref, ctfutb/ITfLangBarItemButton::GetIcon, tsf.itflangbaritembutton_geticon
+ms.keywords: GetIcon, GetIcon method [Text Services Framework], GetIcon method [Text Services Framework],ITfLangBarItemButton interface, ITfLangBarItemButton interface [Text Services Framework],GetIcon method, ITfLangBarItemButton.GetIcon, ITfLangBarItemButton::GetIcon, _tsf_itflangbaritembutton_geticon_ref, ctfutb/ITfLangBarItemButton::GetIcon, tsf.itflangbaritembutton_geticon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemButton::GetIcon method
+# ITfLangBarItemButton::GetIcon
 
 
 ## -description

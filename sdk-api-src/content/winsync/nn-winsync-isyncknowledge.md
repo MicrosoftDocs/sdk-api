@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: cfb08476-7b5d-4953-b723-5160330e57be
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncKnowledge, ISyncKnowledge interface [Windows Sync], ISyncKnowledge interface [Windows Sync], described, winsync.isyncknowledge, winsync/ISyncKnowledge
+ms.keywords: ISyncKnowledge, ISyncKnowledge interface [Windows Sync], ISyncKnowledge interface [Windows Sync],described, winsync.isyncknowledge, winsync/ISyncKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

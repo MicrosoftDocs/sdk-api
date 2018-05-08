@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetNumberOfStreams
-title: IMFPMediaItem::GetNumberOfStreams method
+title: IMFPMediaItem::GetNumberOfStreams
 author: windows-driver-content
 description: Gets the number of streams (audio, video, and other) in the media item.
 old-location: mf\imfpmediaitem_getnumberofstreams.htm
 old-project: medfound
 ms.assetid: 65a3cfc8-9171-4206-b1b6-54bb0d3ecdd1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation], IMFPMediaItem interface, GetNumberOfStreams,IMFPMediaItem.GetNumberOfStreams, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], GetNumberOfStreams method, IMFPMediaItem::GetNumberOfStreams, mf.imfpmediaitem_getnumberofstreams, mfplay/IMFPMediaItem::GetNumberOfStreams
+ms.date: 5/3/2018
+ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetNumberOfStreams method, IMFPMediaItem.GetNumberOfStreams, IMFPMediaItem::GetNumberOfStreams, mf.imfpmediaitem_getnumberofstreams, mfplay/IMFPMediaItem::GetNumberOfStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaItem::GetNumberOfStreams method
+# IMFPMediaItem::GetNumberOfStreams
 
 
 ## -description

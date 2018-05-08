@@ -1,6 +1,6 @@
 ---
 UID: NF:vss.IVssEnumObject.Skip
-title: IVssEnumObject::Skip method
+title: IVssEnumObject::Skip
 author: windows-driver-content
 description: Skips the specified number of objects.
 old-location: base\ivssenumobject_skip.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: a655978e-49fa-445d-8576-ba82b523750c
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssEnumObject, IVssEnumObject interface [VSS], Skip method, IVssEnumObject::Skip, Skip method [VSS], Skip method [VSS], IVssEnumObject interface, Skip,IVssEnumObject.Skip, _win32_ivssenumobject_skip, base.ivssenumobject_skip, vss/IVssEnumObject::Skip
+ms.keywords: IVssEnumObject interface [VSS],Skip method, IVssEnumObject.Skip, IVssEnumObject::Skip, Skip, Skip method [VSS], Skip method [VSS],IVssEnumObject interface, _win32_ivssenumobject_skip, base.ivssenumobject_skip, vss/IVssEnumObject::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssEnumObject::Skip method
+# IVssEnumObject::Skip
 
 
 ## -description

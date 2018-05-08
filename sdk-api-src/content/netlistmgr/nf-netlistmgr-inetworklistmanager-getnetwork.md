@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetNetwork
-title: INetworkListManager::GetNetwork method
+title: INetworkListManager::GetNetwork
 author: windows-driver-content
 description: The GetNetwork method retrieves a network based on a supplied network ID.
 old-location: nla\inetworklistmanager_getnetwork.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: a4418884-8df6-4f5b-b9ef-c3cae2bcee47
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetNetwork method [Network Awareness], GetNetwork method [Network Awareness], INetworkListManager interface, GetNetwork,INetworkListManager.GetNetwork, INetworkListManager, INetworkListManager interface [Network Awareness], GetNetwork method, INetworkListManager::GetNetwork, netlistmgr/INetworkListManager::GetNetwork, nla.inetworklistmanager_getnetwork
+ms.keywords: GetNetwork, GetNetwork method [Network Awareness], GetNetwork method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetwork method, INetworkListManager.GetNetwork, INetworkListManager::GetNetwork, netlistmgr/INetworkListManager::GetNetwork, nla.inetworklistmanager_getnetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkListManager::GetNetwork method
+# INetworkListManager::GetNetwork
 
 
 ## -description

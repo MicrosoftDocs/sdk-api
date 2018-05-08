@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.GetPropertyValueToApply
-title: IFsrmClassifierModuleImplementation::GetPropertyValueToApply method
+title: IFsrmClassifierModuleImplementation::GetPropertyValueToApply
 author: windows-driver-content
 description: Retrieves the value from the classifier that should be applied for the specified property of the file most recently specified by the IFsrmClassifierModuleImplementation::OnBeginFile method.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_getpropertyvaluetoapply.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 70277473-de96-40e1-980b-4eec6e7b035d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: GetPropertyValueToApply method [File Server Resource Manager], GetPropertyValueToApply method [File Server Resource Manager], IFsrmClassifierModuleImplementation interface, GetPropertyValueToApply,IFsrmClassifierModuleImplementation.GetPropertyValueToApply, IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplementation interface [File Server Resource Manager], GetPropertyValueToApply method, IFsrmClassifierModuleImplementation::GetPropertyValueToApply, fs.ifsrmclassifiermoduleimplementation_getpropertyvaluetoapply, fsrm.ifsrmclassifiermoduleimplementation_getpropertyvaluetoapply, fsrmpipeline/IFsrmClassifierModuleImplementation::GetPropertyValueToApply
+ms.keywords: GetPropertyValueToApply, GetPropertyValueToApply method [File Server Resource Manager], GetPropertyValueToApply method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, IFsrmClassifierModuleImplementation interface [File Server Resource Manager],GetPropertyValueToApply method, IFsrmClassifierModuleImplementation.GetPropertyValueToApply, IFsrmClassifierModuleImplementation::GetPropertyValueToApply, fs.ifsrmclassifiermoduleimplementation_getpropertyvaluetoapply, fsrm.ifsrmclassifiermoduleimplementation_getpropertyvaluetoapply, fsrmpipeline/IFsrmClassifierModuleImplementation::GetPropertyValueToApply
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassifierModuleImplementation::GetPropertyValueToApply method
+# IFsrmClassifierModuleImplementation::GetPropertyValueToApply
 
 
 ## -description

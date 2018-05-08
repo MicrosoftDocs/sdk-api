@@ -1,14 +1,14 @@
 ---
 UID: NF:amaudio.IAMDirectSound.GetFocusWindow
-title: IAMDirectSound::GetFocusWindow method
+title: IAMDirectSound::GetFocusWindow
 author: windows-driver-content
 description: The GetFocusWindow method retrieves the window that is handling sound playback.
 old-location: dshow\iamdirectsound_getfocuswindow.htm
 old-project: DirectShow
 ms.assetid: e103abb3-01fc-452f-a151-0f2d24859fba
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetFocusWindow method [DirectShow], GetFocusWindow method [DirectShow], IAMDirectSound interface, GetFocusWindow,IAMDirectSound.GetFocusWindow, IAMDirectSound, IAMDirectSound interface [DirectShow], GetFocusWindow method, IAMDirectSound::GetFocusWindow, IAMDirectSoundGetWindowFocus, amaudio/IAMDirectSound::GetFocusWindow, dshow.iamdirectsound_getfocuswindow
+ms.date: 4/30/2018
+ms.keywords: GetFocusWindow, GetFocusWindow method [DirectShow], GetFocusWindow method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetFocusWindow method, IAMDirectSound.GetFocusWindow, IAMDirectSound::GetFocusWindow, IAMDirectSoundGetWindowFocus, amaudio/IAMDirectSound::GetFocusWindow, dshow.iamdirectsound_getfocuswindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMDirectSound::GetFocusWindow method
+# IAMDirectSound::GetFocusWindow
 
 
 ## -description

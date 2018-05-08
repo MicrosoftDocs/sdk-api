@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.ICommDlgBrowser3.OnPreViewCreated
-title: ICommDlgBrowser3::OnPreViewCreated method
+title: ICommDlgBrowser3::OnPreViewCreated
 author: windows-driver-content
 description: Called after a specified preview is created in the IShellView interface.
 old-location: shell\ICommDlgBrowser3_OnPreViewCreated.htm
 old-project: shell
 ms.assetid: 1506f553-e0b0-4d6b-9d63-15f3a2d38112
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICommDlgBrowser3, ICommDlgBrowser3 interface [Windows Shell], OnPreViewCreated method, ICommDlgBrowser3::OnPreViewCreated, OnPreViewCreated method [Windows Shell], OnPreViewCreated method [Windows Shell], ICommDlgBrowser3 interface, OnPreViewCreated,ICommDlgBrowser3.OnPreViewCreated, _shell_ICommDlgBrowser3_OnPreViewCreated, shell.ICommDlgBrowser3_OnPreViewCreated, shobjidl/ICommDlgBrowser3::OnPreViewCreated
+ms.date: 5/3/2018
+ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnPreViewCreated method, ICommDlgBrowser3.OnPreViewCreated, ICommDlgBrowser3::OnPreViewCreated, OnPreViewCreated, OnPreViewCreated method [Windows Shell], OnPreViewCreated method [Windows Shell],ICommDlgBrowser3 interface, _shell_ICommDlgBrowser3_OnPreViewCreated, shell.ICommDlgBrowser3_OnPreViewCreated, shobjidl/ICommDlgBrowser3::OnPreViewCreated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ICommDlgBrowser3::OnPreViewCreated method
+# ICommDlgBrowser3::OnPreViewCreated
 
 
 ## -description

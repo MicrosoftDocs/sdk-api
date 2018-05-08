@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateEmpty
-title: IPropertyValueStatics::CreateEmpty method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that represents an empty value.
 old-location: winrt\ipropertyvaluestatics_createempty.htm
 old-project: WinRT
 ms.assetid: B1189E10-BB04-4648-87F9-447026E441D8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateEmpty method [Windows Runtime], CreateEmpty method [Windows Runtime], IPropertyValueStatics interface, CreateEmpty,IPropertyValueStatics.CreateEmpty, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateEmpty method, IPropertyValueStatics::CreateEmpty, windows/IPropertyValueStatics::CreateEmpty, winrt.ipropertyvaluefactory_createempty, winrt.ipropertyvaluestatics_createempty
+ms.date: 5/4/2018
+ms.keywords: CreateEmpty, CreateEmpty method [Windows Runtime], CreateEmpty method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateEmpty method, IPropertyValueStatics.CreateEmpty, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateEmpty, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateEmpty, winrt.ipropertyvaluefactory_createempty, winrt.ipropertyvaluestatics_createempty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateEmpty method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

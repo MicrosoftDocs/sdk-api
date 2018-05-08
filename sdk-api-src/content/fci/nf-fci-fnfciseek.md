@@ -7,7 +7,7 @@ old-location: winprog\fnfciseek.htm
 old-project: DevNotes
 ms.assetid: e5a14c98-4de6-452e-8993-afb7964aeee7
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: FNFCISEEK, FNFCISEEK macro [Windows API], fci/FNFCISEEK, winprog.fnfciseek
 ms.prod: windows-hardware
 ms.technology: windows-devices

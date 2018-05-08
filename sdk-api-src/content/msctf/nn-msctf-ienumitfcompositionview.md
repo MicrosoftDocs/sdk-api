@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: d842b367-a605-4ed0-887d-89dfcf6893a6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumITfCompositionView, IEnumITfCompositionView interface [Text Services Framework], IEnumITfCompositionView interface [Text Services Framework], described, _tsf_ienumitfcompositionview_ref, msctf/IEnumITfCompositionView, tsf.ienumitfcompositionview
+ms.keywords: IEnumITfCompositionView, IEnumITfCompositionView interface [Text Services Framework], IEnumITfCompositionView interface [Text Services Framework],described, _tsf_ienumitfcompositionview_ref, msctf/IEnumITfCompositionView, tsf.ienumitfcompositionview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

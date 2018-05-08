@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get__CustomCompositor
-title: IMSVidVideoRenderer::get__CustomCompositor method
+title: IMSVidVideoRenderer::get__CustomCompositor
 author: windows-driver-content
 description: The get__CustomCompositor method retrieves the Video Mixing Renderer's current image compositor.
 old-location: mstv\imsvidvideorenderer_get__customcompositor.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cafdc512-2994-4374-9396-b0bb946bc490
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], get__CustomCompositor method, IMSVidVideoRenderer::get__CustomCompositor, IMSVidVideoRendererget__CustomCompositor, get__CustomCompositor method [Microsoft TV Technologies], get__CustomCompositor method [Microsoft TV Technologies], IMSVidVideoRenderer interface, get__CustomCompositor,IMSVidVideoRenderer.get__CustomCompositor, mstv.imsvidvideorenderer_get__customcompositor, segment/IMSVidVideoRenderer::get__CustomCompositor
+ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get__CustomCompositor method, IMSVidVideoRenderer.get__CustomCompositor, IMSVidVideoRenderer::get__CustomCompositor, IMSVidVideoRendererget__CustomCompositor, get__CustomCompositor, get__CustomCompositor method [Microsoft TV Technologies], get__CustomCompositor method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get__customcompositor, segment/IMSVidVideoRenderer::get__CustomCompositor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer::get__CustomCompositor method
+# IMSVidVideoRenderer::get__CustomCompositor
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5fa1344f-d8c4-40d1-99df-3c493673ad87
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfKeyEventSink, ITfKeyEventSink interface [Text Services Framework], ITfKeyEventSink interface [Text Services Framework], described, _tsf_itfkeyeventsink_ref, msctf/ITfKeyEventSink, tsf.itfkeyeventsink
+ms.keywords: ITfKeyEventSink, ITfKeyEventSink interface [Text Services Framework], ITfKeyEventSink interface [Text Services Framework],described, _tsf_itfkeyeventsink_ref, msctf/ITfKeyEventSink, tsf.itfkeyeventsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

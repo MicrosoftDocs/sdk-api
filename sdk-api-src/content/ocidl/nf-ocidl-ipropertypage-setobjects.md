@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.SetObjects
-title: IPropertyPage::SetObjects method
+title: IPropertyPage::SetObjects
 author: windows-driver-content
 description: Provides the property page with an array of pointers to objects associated with this property page.
 old-location: com\ipropertypage_setobjects.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 0d7a73ce-8e3c-40c5-9040-6370df5edc2b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPropertyPage, IPropertyPage interface [COM], SetObjects method, IPropertyPage::SetObjects, SetObjects method [COM], SetObjects method [COM], IPropertyPage interface, SetObjects,IPropertyPage.SetObjects, _ctrl_ipropertypage_setobjects, com.ipropertypage_setobjects, ocidl/IPropertyPage::SetObjects
+ms.keywords: IPropertyPage interface [COM],SetObjects method, IPropertyPage.SetObjects, IPropertyPage::SetObjects, SetObjects, SetObjects method [COM], SetObjects method [COM],IPropertyPage interface, _ctrl_ipropertypage_setobjects, com.ipropertypage_setobjects, ocidl/IPropertyPage::SetObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyPage::SetObjects method
+# IPropertyPage::SetObjects
 
 
 ## -description

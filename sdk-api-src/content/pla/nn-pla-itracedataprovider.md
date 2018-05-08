@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: bd2a49c1-8e18-4a14-a797-07f2b9c25812
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITraceDataProvider, ITraceDataProvider interface [PLA], ITraceDataProvider interface [PLA], described, base.itracedataprovider, pla.itracedataprovider, pla/ITraceDataProvider
+ms.keywords: ITraceDataProvider, ITraceDataProvider interface [PLA], ITraceDataProvider interface [PLA],described, base.itracedataprovider, pla.itracedataprovider, pla/ITraceDataProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityAdvise.IdentityUpdated
-title: IIdentityAdvise::IdentityUpdated method
+title: IIdentityAdvise::IdentityUpdated
 author: windows-driver-content
 description: Is called by an identity provider to notify a calling application that an identity event occurred.
 old-location: security\iidentityadvise_identityupdated.htm
@@ -8,7 +8,7 @@ old-project: SecAuthN
 ms.assetid: c41ca389-eac9-4c74-b0e7-950cd21f2199
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IDENTITY_ASSOCIATED, IDENTITY_CONNECTED, IDENTITY_CREATED, IDENTITY_DELETED, IDENTITY_DISASSOCIATED, IDENTITY_DISCONNECTED, IDENTITY_IMPORTED, IDENTITY_PROPCHANGE, IIdentityAdvise, IIdentityAdvise interface [Security], IdentityUpdated method, IIdentityAdvise::IdentityUpdated, IdentityUpdated method [Security], IdentityUpdated method [Security], IIdentityAdvise interface, IdentityUpdated,IIdentityAdvise.IdentityUpdated, identityprovider/IIdentityAdvise::IdentityUpdated, identitystore/IIdentityAdvise::IdentityUpdated, security.iidentityadvise_identityupdated
+ms.keywords: IDENTITY_ASSOCIATED, IDENTITY_CONNECTED, IDENTITY_CREATED, IDENTITY_DELETED, IDENTITY_DISASSOCIATED, IDENTITY_DISCONNECTED, IDENTITY_IMPORTED, IDENTITY_PROPCHANGE, IIdentityAdvise interface [Security],IdentityUpdated method, IIdentityAdvise.IdentityUpdated, IIdentityAdvise::IdentityUpdated, IdentityUpdated, IdentityUpdated method [Security], IdentityUpdated method [Security],IIdentityAdvise interface, identityprovider/IIdentityAdvise::IdentityUpdated, identitystore/IIdentityAdvise::IdentityUpdated, security.iidentityadvise_identityupdated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IIdentityAdvise::IdentityUpdated method
+# IIdentityAdvise::IdentityUpdated
 
 
 ## -description

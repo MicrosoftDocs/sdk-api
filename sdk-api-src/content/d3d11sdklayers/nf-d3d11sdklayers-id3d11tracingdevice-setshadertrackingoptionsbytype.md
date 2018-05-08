@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11TracingDevice.SetShaderTrackingOptionsByType
-title: ID3D11TracingDevice::SetShaderTrackingOptionsByType method
+title: ID3D11TracingDevice::SetShaderTrackingOptionsByType
 author: windows-driver-content
 description: Sets the reference rasterizer's default race-condition tracking options for the specified resource types.
 old-location: direct3d11\id3d11tracingdevice_setshadertrackingoptionsbytype.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: ABB83CE4-D612-4797-A9AD-F3C2954E669D
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11TracingDevice, ID3D11TracingDevice interface [Direct3D 11], SetShaderTrackingOptionsByType method, ID3D11TracingDevice::SetShaderTrackingOptionsByType, SetShaderTrackingOptionsByType method [Direct3D 11], SetShaderTrackingOptionsByType method [Direct3D 11], ID3D11TracingDevice interface, SetShaderTrackingOptionsByType,ID3D11TracingDevice.SetShaderTrackingOptionsByType, d3d11sdklayers/ID3D11TracingDevice::SetShaderTrackingOptionsByType, direct3d11.id3d11tracingdevice_setshadertrackingoptionsbytype
+ms.keywords: ID3D11TracingDevice interface [Direct3D 11],SetShaderTrackingOptionsByType method, ID3D11TracingDevice.SetShaderTrackingOptionsByType, ID3D11TracingDevice::SetShaderTrackingOptionsByType, SetShaderTrackingOptionsByType, SetShaderTrackingOptionsByType method [Direct3D 11], SetShaderTrackingOptionsByType method [Direct3D 11],ID3D11TracingDevice interface, d3d11sdklayers/ID3D11TracingDevice::SetShaderTrackingOptionsByType, direct3d11.id3d11tracingdevice_setshadertrackingoptionsbytype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11TracingDevice::SetShaderTrackingOptionsByType method
+# ID3D11TracingDevice::SetShaderTrackingOptionsByType
 
 
 ## -description

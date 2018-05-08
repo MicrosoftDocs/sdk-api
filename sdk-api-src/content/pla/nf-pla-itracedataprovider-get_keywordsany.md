@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_KeywordsAny
-title: ITraceDataProvider::get_KeywordsAny method
+title: ITraceDataProvider::get_KeywordsAny
 author: windows-driver-content
 description: Retrieves the list of keywords that determine the category of events that you want the provider to write.
 old-location: pla\itracedataprovider_keywordsany.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 10159c09-609a-4263-a515-241ab942c3e8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITraceDataProvider, ITraceDataProvider interface [PLA], KeywordsAny property, ITraceDataProvider.KeywordsAny, ITraceDataProvider::get_KeywordsAny, KeywordsAny property [PLA], KeywordsAny property [PLA], ITraceDataProvider interface, get_KeywordsAny,ITraceDataProvider.get_KeywordsAny, pla.itracedataprovider_keywordsany, pla/ITraceDataProvider::KeywordsAny, pla/ITraceDataProvider::get_KeywordsAny
+ms.keywords: ITraceDataProvider interface [PLA],KeywordsAny property, ITraceDataProvider.KeywordsAny, ITraceDataProvider.get_KeywordsAny, ITraceDataProvider::KeywordsAny, ITraceDataProvider::get_KeywordsAny, KeywordsAny property [PLA], KeywordsAny property [PLA],ITraceDataProvider interface, get_KeywordsAny, pla.itracedataprovider_keywordsany, pla/ITraceDataProvider::KeywordsAny, pla/ITraceDataProvider::get_KeywordsAny
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataProvider::get_KeywordsAny method
+# ITraceDataProvider::get_KeywordsAny
 
 
 ## -description

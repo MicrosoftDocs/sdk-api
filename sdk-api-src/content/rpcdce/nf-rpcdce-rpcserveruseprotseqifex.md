@@ -7,7 +7,7 @@ old-location: rpc\rpcserveruseprotseqifex.htm
 old-project: Rpc
 ms.assetid: 28238ff2-0ed0-4cb5-8117-b6c544d8c098
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcServerUseProtseqIfEx, RpcServerUseProtseqIfEx function [RPC], RpcServerUseProtseqIfExA, RpcServerUseProtseqIfExW, _rpc_rpcserveruseprotseqifex, rpc.rpcserveruseprotseqifex, rpcdce/RpcServerUseProtseqIfEx, rpcdce/RpcServerUseProtseqIfExA, rpcdce/RpcServerUseProtseqIfExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

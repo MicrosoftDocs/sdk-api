@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.GetFullEnumerationChangeBatch
-title: IKnowledgeSyncProvider::GetFullEnumerationChangeBatch method
+title: IKnowledgeSyncProvider::GetFullEnumerationChangeBatch
 author: windows-driver-content
 description: Gets a change batch that contains item metadata for items that have IDs greater than the specified lower bound, as part of a full enumeration.
 old-location: winsync\iknowledgesyncprovider_getfullenumerationchangebatch.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 344d0921-1e4e-4813-a095-8ae9ddf734f1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetFullEnumerationChangeBatch method [Windows Sync], GetFullEnumerationChangeBatch method [Windows Sync], IKnowledgeSyncProvider interface, GetFullEnumerationChangeBatch,IKnowledgeSyncProvider.GetFullEnumerationChangeBatch, IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], GetFullEnumerationChangeBatch method, IKnowledgeSyncProvider::GetFullEnumerationChangeBatch, winsync.iknowledgesyncprovider_getfullenumerationchangebatch, winsync/IKnowledgeSyncProvider::GetFullEnumerationChangeBatch
+ms.keywords: GetFullEnumerationChangeBatch, GetFullEnumerationChangeBatch method [Windows Sync], GetFullEnumerationChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetFullEnumerationChangeBatch method, IKnowledgeSyncProvider.GetFullEnumerationChangeBatch, IKnowledgeSyncProvider::GetFullEnumerationChangeBatch, winsync.iknowledgesyncprovider_getfullenumerationchangebatch, winsync/IKnowledgeSyncProvider::GetFullEnumerationChangeBatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IKnowledgeSyncProvider::GetFullEnumerationChangeBatch method
+# IKnowledgeSyncProvider::GetFullEnumerationChangeBatch
 
 
 ## -description

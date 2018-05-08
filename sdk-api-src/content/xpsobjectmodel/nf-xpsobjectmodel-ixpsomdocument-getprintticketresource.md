@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetPrintTicketResource
-title: IXpsOMDocument::GetPrintTicketResource method
+title: IXpsOMDocument::GetPrintTicketResource
 author: windows-driver-content
 description: Gets the IXpsOMPrintTicketResource interface of the document-level print ticket.
 old-location: xps\ixpsomdocument_getprintticketresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 381bfbb3-1dfd-4761-acdc-cfe64a3aeeb5
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetPrintTicketResource method [XPS Documents and Packaging], GetPrintTicketResource method [XPS Documents and Packaging], IXpsOMDocument interface, GetPrintTicketResource,IXpsOMDocument.GetPrintTicketResource, IXpsOMDocument, IXpsOMDocument interface [XPS Documents and Packaging], GetPrintTicketResource method, IXpsOMDocument::GetPrintTicketResource, xps.ixpsomdocument_getprintticketresource, xpsobjectmodel/IXpsOMDocument::GetPrintTicketResource
+ms.keywords: GetPrintTicketResource, GetPrintTicketResource method [XPS Documents and Packaging], GetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetPrintTicketResource method, IXpsOMDocument.GetPrintTicketResource, IXpsOMDocument::GetPrintTicketResource, xps.ixpsomdocument_getprintticketresource, xpsobjectmodel/IXpsOMDocument::GetPrintTicketResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDocument::GetPrintTicketResource method
+# IXpsOMDocument::GetPrintTicketResource
 
 
 ## -description

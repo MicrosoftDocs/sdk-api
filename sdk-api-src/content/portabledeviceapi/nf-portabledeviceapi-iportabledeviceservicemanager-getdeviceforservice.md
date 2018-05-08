@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceManager.GetDeviceForService
-title: IPortableDeviceServiceManager::GetDeviceForService method
+title: IPortableDeviceServiceManager::GetDeviceForService
 author: windows-driver-content
 description: Retrieves the device associated with the specified service.
 old-location: wpdsdk\iportabledeviceservicemanager_getdeviceforservice.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 2cdb03fb-8cb2-4eee-af90-3aec0a055fc5
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetDeviceForService method [Windows Portable Devices SDK], GetDeviceForService method [Windows Portable Devices SDK], IPortableDeviceServiceManager interface, GetDeviceForService,IPortableDeviceServiceManager.GetDeviceForService, IPortableDeviceServiceManager, IPortableDeviceServiceManager interface [Windows Portable Devices SDK], GetDeviceForService method, IPortableDeviceServiceManager::GetDeviceForService, portabledeviceapi/IPortableDeviceServiceManager::GetDeviceForService, wpdsdk.iportabledeviceservicemanager_getdeviceforservice
+ms.keywords: GetDeviceForService, GetDeviceForService method [Windows Portable Devices SDK], GetDeviceForService method [Windows Portable Devices SDK],IPortableDeviceServiceManager interface, IPortableDeviceServiceManager interface [Windows Portable Devices SDK],GetDeviceForService method, IPortableDeviceServiceManager.GetDeviceForService, IPortableDeviceServiceManager::GetDeviceForService, portabledeviceapi/IPortableDeviceServiceManager::GetDeviceForService, wpdsdk.iportabledeviceservicemanager_getdeviceforservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceManager::GetDeviceForService method
+# IPortableDeviceServiceManager::GetDeviceForService
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.RedrawWindow
-title: IWTSProtocolConnectionCallback::RedrawWindow method
+title: IWTSProtocolConnectionCallback::RedrawWindow
 author: windows-driver-content
 description: IWTSProtocolConnectionCallback::RedrawWindow is no longer available. Instead, use IWRdsProtocolConnectionCallback::RedrawWindow.
 old-location: termserv\iwtsprotocolconnectioncallback_redrawwindow.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 8c5f7167-53c0-47fd-a62d-5137c341177d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolConnectionCallback, IWTSProtocolConnectionCallback interface [Remote Desktop Services], RedrawWindow method, IWTSProtocolConnectionCallback::RedrawWindow, RedrawWindow method [Remote Desktop Services], RedrawWindow method [Remote Desktop Services], IWTSProtocolConnectionCallback interface, RedrawWindow,IWTSProtocolConnectionCallback.RedrawWindow, termserv.iwtsprotocolconnectioncallback_redrawwindow, wtsprotocol/IWTSProtocolConnectionCallback::RedrawWindow
+ms.keywords: IWTSProtocolConnectionCallback interface [Remote Desktop Services],RedrawWindow method, IWTSProtocolConnectionCallback.RedrawWindow, IWTSProtocolConnectionCallback::RedrawWindow, RedrawWindow, RedrawWindow method [Remote Desktop Services], RedrawWindow method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, termserv.iwtsprotocolconnectioncallback_redrawwindow, wtsprotocol/IWTSProtocolConnectionCallback::RedrawWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolConnectionCallback::RedrawWindow method
+# IWTSProtocolConnectionCallback::RedrawWindow
 
 
 ## -description

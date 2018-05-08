@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.Clone
-title: IEnumCERTVIEWCOLUMN::Clone method
+title: IEnumCERTVIEWCOLUMN::Clone
 author: windows-driver-content
 description: Creates a copy of the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_clone.htm
 old-project: SecCrypto
 ms.assetid: a0870155-3f16-4cfb-b180-7a8e617dfcd8
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: Clone method [Security], Clone method [Security], IEnumCERTVIEWCOLUMN interface, Clone,IEnumCERTVIEWCOLUMN.Clone, IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], Clone method, IEnumCERTVIEWCOLUMN::Clone, _certsrv_ienumcertviewcolumn_clone, certview/IEnumCERTVIEWCOLUMN::Clone, security.ienumcertviewcolumn_clone
+ms.date: 4/30/2018
+ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],Clone method, IEnumCERTVIEWCOLUMN.Clone, IEnumCERTVIEWCOLUMN::Clone, _certsrv_ienumcertviewcolumn_clone, certview/IEnumCERTVIEWCOLUMN::Clone, security.ienumcertviewcolumn_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWCOLUMN::Clone method
+# IEnumCERTVIEWCOLUMN::Clone
 
 
 ## -description

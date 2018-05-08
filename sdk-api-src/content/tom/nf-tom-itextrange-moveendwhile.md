@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.MoveEndWhile
-title: ITextRange::MoveEndWhile method
+title: ITextRange::MoveEndWhile
 author: windows-driver-content
 description: Moves the end of the range either Count characters or just past all contiguous characters that are found in the set of characters specified by Cset, whichever is less.
 old-location: controls\ITextRange_MoveEndWhile.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveendwhile.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange, ITextRange interface [Windows Controls], MoveEndWhile method, ITextRange::MoveEndWhile, MoveEndWhile method [Windows Controls], MoveEndWhile method [Windows Controls], ITextRange interface, MoveEndWhile,ITextRange.MoveEndWhile, _win32_ITextRange_MoveEndWhile, _win32_ITextRange_MoveEndWhile_cpp, controls.ITextRange_MoveEndWhile, controls._win32_ITextRange_MoveEndWhile, tom/ITextRange::MoveEndWhile
+ms.date: 4/27/2018
+ms.keywords: ITextRange interface [Windows Controls],MoveEndWhile method, ITextRange.MoveEndWhile, ITextRange::MoveEndWhile, MoveEndWhile, MoveEndWhile method [Windows Controls], MoveEndWhile method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveEndWhile, _win32_ITextRange_MoveEndWhile_cpp, controls.ITextRange_MoveEndWhile, controls._win32_ITextRange_MoveEndWhile, tom/ITextRange::MoveEndWhile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::MoveEndWhile method
+# ITextRange::MoveEndWhile
 
 
 ## -description

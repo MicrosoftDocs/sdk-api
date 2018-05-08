@@ -7,7 +7,7 @@ old-location: security\cert_biometric_data.htm
 old-project: SecCrypto
 ms.assetid: 544297e2-b6a6-4a33-94b6-47066262506a
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA structure [Security], CERT_BIOMETRIC_OID_DATA_CHOICE, CERT_BIOMETRIC_PICTURE_TYPE, CERT_BIOMETRIC_PREDEFINED_DATA_CHOICE, CERT_BIOMETRIC_SIGNATURE_TYPE, PCERT_BIOMETRIC_DATA, PCERT_BIOMETRIC_DATA structure pointer [Security], _CERT_BIOMETRIC_DATA, security.cert_biometric_data, wincrypt/CERT_BIOMETRIC_DATA, wincrypt/PCERT_BIOMETRIC_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,12 +96,7 @@ The biometric data type is identified by the <b>pszObjId</b> member.
  
 
 
-### -field HashedUrl
-
-A <a href="https://msdn.microsoft.com/961feb88-b924-4834-bc68-d87f410259f1">CERT_HASHED_URL</a> structure that contains the hashed URL of the biometric data.
-
-
-#### - dwPredefined
+### -field DUMMYUNIONNAME.dwPredefined
 
 Specifies one of the predefined biometric data types. This member is only used if the <b>dwTypeOfBiometricDataChoice</b> member contains <b>CERT_BIOMETRIC_PREDEFINED_DATA_CHOICE</b>. This can be one of the following values.
 
@@ -134,9 +129,14 @@ The biometric data is a signature.
  
 
 
-#### - pszObjId
+### -field DUMMYUNIONNAME.pszObjId
 
 The address of a null-terminated ANSI string that contains the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) of the biometric data type. This member is only used if the <b>dwTypeOfBiometricDataChoice</b> member contains <b>CERT_BIOMETRIC_OID_DATA_CHOICE</b>. 
+
+
+### -field HashedUrl
+
+A <a href="https://msdn.microsoft.com/961feb88-b924-4834-bc68-d87f410259f1">CERT_HASHED_URL</a> structure that contains the hashed URL of the biometric data.
 
 
 ## -see-also

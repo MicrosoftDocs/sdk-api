@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 22c2ce7b-6e30-40e1-bbe8-f0e479ddcc77
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN, StorageAdapterNotifyPowerChange, StorageAdapterNotifyPowerChange callback function [Windows Biometric Framework API], secbiomet.storageadapternotifypowerchange, winbio_adapter/StorageAdapterNotifyPowerChange
+ms.keywords: PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN, PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN callback, StorageAdapterNotifyPowerChange, StorageAdapterNotifyPowerChange callback function [Windows Biometric Framework API], secbiomet.storageadapternotifypowerchange, winbio_adapter/StorageAdapterNotifyPowerChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN callback
+# PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN callback function
 
 
 ## -description

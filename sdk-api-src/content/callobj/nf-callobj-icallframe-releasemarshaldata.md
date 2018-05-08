@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.ReleaseMarshalData
-title: ICallFrame::ReleaseMarshalData method
+title: ICallFrame::ReleaseMarshalData
 author: windows-driver-content
 description: Releases resources that are held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet, and calls the CoReleaseMarshalData function on each one.
 old-location: com\icallframe_releasemarshaldata.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c82107ad-68d1-4a46-ba78-37592d445c57
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICallFrame, ICallFrame interface [COM], ReleaseMarshalData method, ICallFrame::ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM], ICallFrame interface, ReleaseMarshalData,ICallFrame.ReleaseMarshalData, _com_icallframe_releasemarshaldata, callobj/ICallFrame::ReleaseMarshalData, com.icallframe_releasemarshaldata
+ms.keywords: ICallFrame interface [COM],ReleaseMarshalData method, ICallFrame.ReleaseMarshalData, ICallFrame::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],ICallFrame interface, _com_icallframe_releasemarshaldata, callobj/ICallFrame::ReleaseMarshalData, com.icallframe_releasemarshaldata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallFrame::ReleaseMarshalData method
+# ICallFrame::ReleaseMarshalData
 
 
 ## -description

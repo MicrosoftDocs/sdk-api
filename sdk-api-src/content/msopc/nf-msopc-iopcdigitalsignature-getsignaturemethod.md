@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureMethod
-title: IOpcDigitalSignature::GetSignatureMethod method
+title: IOpcDigitalSignature::GetSignatureMethod
 author: windows-driver-content
 description: Gets the signature method used to calculate the value in the SignatureValue element of the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturemethod.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: a4dfd99f-16d7-4bf1-9852-d6d1fd4a3f06
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignatureMethod method [Open Packaging Conventions], GetSignatureMethod method [Open Packaging Conventions], IOpcDigitalSignature interface, GetSignatureMethod,IOpcDigitalSignature.GetSignatureMethod, IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], GetSignatureMethod method, IOpcDigitalSignature::GetSignatureMethod, msopc/IOpcDigitalSignature::GetSignatureMethod, opc.iopcdigitalsignature_getsignaturemethod
+ms.keywords: GetSignatureMethod, GetSignatureMethod method [Open Packaging Conventions], GetSignatureMethod method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureMethod method, IOpcDigitalSignature.GetSignatureMethod, IOpcDigitalSignature::GetSignatureMethod, msopc/IOpcDigitalSignature::GetSignatureMethod, opc.iopcdigitalsignature_getsignaturemethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignature::GetSignatureMethod method
+# IOpcDigitalSignature::GetSignatureMethod
 
 
 ## -description

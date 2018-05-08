@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_filter_enum_info.htm
 old-project: DHCP
 ms.assetid: f393987c-12dd-468c-98c6-84f4d36744b2
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_FILTER_ENUM_INFO, DHCP_FILTER_ENUM_INFO, DHCP_FILTER_ENUM_INFO structure [DHCP], PDHCP_FILTER_ENUM_INFO, PDHCP_FILTER_ENUM_INFO structure pointer [DHCP], _DHCP_FILTER_ENUM_INFO, dhcp.dhcp_filter_enum_info, dhcpsapi/DHCP_FILTER_ENUM_INFO, dhcpsapi/PDHCP_FILTER_ENUM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Integer value that specifies the number of link-layer filter records contained i
 ### -field pEnumRecords
 
 Pointer to an array of <a href="https://msdn.microsoft.com/5f8531fe-cc30-4baf-904b-15627d1ff750">DHCP_FILTER_RECORD</a> structures that contain link-layer filter records.
+
+
+### -field pEnumRecords.size_is
+
+ 
+
+
+### -field pEnumRecords.size_is.NumElements
+
+ 
+
+
 
 
 ## -see-also

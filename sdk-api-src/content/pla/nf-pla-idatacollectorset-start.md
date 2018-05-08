@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.Start
-title: IDataCollectorSet::Start method
+title: IDataCollectorSet::Start
 author: windows-driver-content
 description: Manually starts the data collector set.
 old-location: pla\idatacollectorset_start.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 63f0c7b7-0dc6-4491-a2f5-eaae9d22da61
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], Start method, IDataCollectorSet::Start, Start method [PLA], Start method [PLA], IDataCollectorSet interface, Start,IDataCollectorSet.Start, base.idatacollectorset_start, pla.idatacollectorset_start, pla/IDataCollectorSet::Start
+ms.keywords: IDataCollectorSet interface [PLA],Start method, IDataCollectorSet.Start, IDataCollectorSet::Start, Start, Start method [PLA], Start method [PLA],IDataCollectorSet interface, base.idatacollectorset_start, pla.idatacollectorset_start, pla/IDataCollectorSet::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::Start method
+# IDataCollectorSet::Start
 
 
 ## -description

@@ -63,6 +63,11 @@ Contains process mitigation policy settings for data execution prevention (DEP).
  
 
 
+### -field DUMMYUNIONNAME.Flags
+
+This member is reserved for system use.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -96,11 +101,6 @@ ATL thunk emulation is disabled for the process if this flag is set.
 #### - Enable : 1
 
 DEP is enabled for the process if this flag is set.
-
-
-#### - Flags
-
-This member is reserved for system use.
 
 
 #### - ReservedFlags : 30

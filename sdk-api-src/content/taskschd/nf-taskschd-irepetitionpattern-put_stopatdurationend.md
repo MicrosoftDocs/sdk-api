@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRepetitionPattern.put_StopAtDurationEnd
-title: IRepetitionPattern::put_StopAtDurationEnd method
+title: IRepetitionPattern::put_StopAtDurationEnd
 author: windows-driver-content
 description: Gets or sets a Boolean value that indicates if a running instance of the task is stopped at the end of the repetition pattern duration.
 old-location: taskschd\irepetitionpattern_stopatdurationend.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: a43b5b32-a496-4f59-89f2-4b8566332e03
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRepetitionPattern, IRepetitionPattern interface [Task Scheduler], StopAtDurationEnd property, IRepetitionPattern.StopAtDurationEnd, IRepetitionPattern::get_StopAtDurationEnd, IRepetitionPattern::put_StopAtDurationEnd, StopAtDurationEnd property [Task Scheduler], StopAtDurationEnd property [Task Scheduler], IRepetitionPattern interface, put_StopAtDurationEnd,IRepetitionPattern.put_StopAtDurationEnd, taskschd.irepetitionpattern_stopatdurationend, taskschd/IRepetitionPattern::StopAtDurationEnd, taskschd/IRepetitionPattern::get_StopAtDurationEnd, taskschd/IRepetitionPattern::put_StopAtDurationEnd
+ms.keywords: IRepetitionPattern interface [Task Scheduler],StopAtDurationEnd property, IRepetitionPattern.StopAtDurationEnd, IRepetitionPattern.put_StopAtDurationEnd, IRepetitionPattern::StopAtDurationEnd, IRepetitionPattern::get_StopAtDurationEnd, IRepetitionPattern::put_StopAtDurationEnd, StopAtDurationEnd property [Task Scheduler], StopAtDurationEnd property [Task Scheduler],IRepetitionPattern interface, put_StopAtDurationEnd, taskschd.irepetitionpattern_stopatdurationend, taskschd/IRepetitionPattern::StopAtDurationEnd, taskschd/IRepetitionPattern::get_StopAtDurationEnd, taskschd/IRepetitionPattern::put_StopAtDurationEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRepetitionPattern::put_StopAtDurationEnd method
+# IRepetitionPattern::put_StopAtDurationEnd
 
 
 ## -description

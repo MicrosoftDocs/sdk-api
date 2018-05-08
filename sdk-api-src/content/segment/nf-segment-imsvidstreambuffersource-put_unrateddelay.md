@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.put_UnratedDelay
-title: IMSVidStreamBufferSource::put_UnratedDelay method
+title: IMSVidStreamBufferSource::put_UnratedDelay
 author: windows-driver-content
 description: The put_UnratedDelay method specifies how long the Video Control will play unrated content before blocking it. The value is ignored until the put_BlockUnrated method is called with the value VARIANT_TRUE.
 old-location: mstv\imsvidstreambuffersource_put_unrateddelay.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7b4e1ac4-dfb8-45c0-9079-16f8babcb494
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSource, IMSVidStreamBufferSource interface [Microsoft TV Technologies], put_UnratedDelay method, IMSVidStreamBufferSource::put_UnratedDelay, IMSVidStreamBufferSourceput_UnratedDelay, mstv.imsvidstreambuffersource_put_unrateddelay, put_UnratedDelay method [Microsoft TV Technologies], put_UnratedDelay method [Microsoft TV Technologies], IMSVidStreamBufferSource interface, put_UnratedDelay,IMSVidStreamBufferSource.put_UnratedDelay, segment/IMSVidStreamBufferSource::put_UnratedDelay
+ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],put_UnratedDelay method, IMSVidStreamBufferSource.put_UnratedDelay, IMSVidStreamBufferSource::put_UnratedDelay, IMSVidStreamBufferSourceput_UnratedDelay, mstv.imsvidstreambuffersource_put_unrateddelay, put_UnratedDelay, put_UnratedDelay method [Microsoft TV Technologies], put_UnratedDelay method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, segment/IMSVidStreamBufferSource::put_UnratedDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSource::put_UnratedDelay method
+# IMSVidStreamBufferSource::put_UnratedDelay
 
 
 ## -description

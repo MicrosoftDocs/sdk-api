@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-=
-title: WBEMTimeSpan::operator-= method
+title: WBEMTimeSpan::operator-=
 author: windows-driver-content
 description: Compares two WBEMTimeSpan objects using the subtract and assign operator (&#8211;=).
 old-location: wmi\wbemtimespan_operator_minus_equal.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 4cf466bc-278e-4352-a818-ed74ff65903a
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: WBEMTimeSpan, WBEMTimeSpan interface [Windows Management Instrumentation], operator-= method, WBEMTimeSpan::operator-=, _hmm_wbemtimespan_operator_minus_equal, operator-= method [Windows Management Instrumentation], operator-= method [Windows Management Instrumentation], WBEMTimeSpan interface, operator-=,WBEMTimeSpan.operator-=, wbemtime/WBEMTimeSpan::operator-=, wmi.wbemtimespan_operator_minus_equal
+ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator-= method, WBEMTimeSpan.operator-=, WBEMTimeSpan::operator-=, _hmm_wbemtimespan_operator_minus_equal, operator-=, operator-= method [Windows Management Instrumentation], operator-= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator-=, wmi.wbemtimespan_operator_minus_equal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WBEMTimeSpan::operator-= method
+# WBEMTimeSpan::operator-=
 
 
 ## -description

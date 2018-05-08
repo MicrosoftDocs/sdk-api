@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.GetAllocLength
-title: CHString::GetAllocLength method
+title: CHString::GetAllocLength
 author: windows-driver-content
 description: The GetAllocLength method returns the size of the allocated string buffer.
 old-location: wmi\chstring_getalloclength.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: f6761c83-d5f2-4900-9863-96692fe897fa
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetAllocLength@CHString@@QBEHXZ, CHString, CHString interface [Windows Management Instrumentation], GetAllocLength method, CHString::GetAllocLength, GetAllocLength method [Windows Management Instrumentation], GetAllocLength method [Windows Management Instrumentation], CHString interface, GetAllocLength,CHString.GetAllocLength, _hmm_chstring_getalloclength, chstring/CHString::GetAllocLength, wmi.chstring_getalloclength"
+ms.keywords: "?GetAllocLength@CHString@@QBEHXZ, CHString interface [Windows Management Instrumentation],GetAllocLength method, CHString.GetAllocLength, CHString::GetAllocLength, GetAllocLength, GetAllocLength method [Windows Management Instrumentation], GetAllocLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getalloclength, chstring/CHString::GetAllocLength, wmi.chstring_getalloclength"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::GetAllocLength method
+# CHString::GetAllocLength
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: hid\ioctl_keyboard_set_indicators.htm
 old-project: hid
 ms.assetid: 25631717-8aee-4eac-8337-46b13aa714a4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_KEYBOARD_SET_INDICATORS, IOCTL_KEYBOARD_SET_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_set_indicators, kref_de568d6c-e4d3-494b-a4fc-c5537e7b59b9.xml, ntddkbd/IOCTL_KEYBOARD_SET_INDICATORS
+ms.date: 4/30/2018
+ms.keywords: IOCTL_KEYBOARD_SET_INDICATORS, IOCTL_KEYBOARD_SET_INDICATORS control, IOCTL_KEYBOARD_SET_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_set_indicators, kref_de568d6c-e4d3-494b-a4fc-c5537e7b59b9.xml, ntddkbd/IOCTL_KEYBOARD_SET_INDICATORS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

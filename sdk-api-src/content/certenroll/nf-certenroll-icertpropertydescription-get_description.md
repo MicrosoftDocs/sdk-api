@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyDescription.get_Description
-title: ICertPropertyDescription::get_Description method
+title: ICertPropertyDescription::get_Description
 author: windows-driver-content
 description: Retrieves a description of the certificate.
 old-location: security\icertpropertydescription_description_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: afc8c4f4-186b-4f00-b12b-54b50913865d
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Description property [Security], Description property [Security], ICertPropertyDescription interface, ICertPropertyDescription, ICertPropertyDescription interface [Security], Description property, ICertPropertyDescription.Description, ICertPropertyDescription::get_Description, certenroll/ICertPropertyDescription::Description, certenroll/ICertPropertyDescription::get_Description, get_Description,ICertPropertyDescription.get_Description, security.icertpropertydescription_description_property
+ms.keywords: Description property [Security], Description property [Security],ICertPropertyDescription interface, ICertPropertyDescription interface [Security],Description property, ICertPropertyDescription.Description, ICertPropertyDescription.get_Description, ICertPropertyDescription::Description, ICertPropertyDescription::get_Description, certenroll/ICertPropertyDescription::Description, certenroll/ICertPropertyDescription::get_Description, get_Description, security.icertpropertydescription_description_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyDescription::get_Description method
+# ICertPropertyDescription::get_Description
 
 
 ## -description

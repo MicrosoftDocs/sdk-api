@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.DisplayModeChanged
-title: IVMRWindowlessControl9::DisplayModeChanged method
+title: IVMRWindowlessControl9::DisplayModeChanged
 author: windows-driver-content
 description: The DisplayModeChanged method informs the VMR that a WM_DISPLAYCHANGE message has been received by the application.
 old-location: dshow\ivmrwindowlesscontrol9_displaymodechanged.htm
 old-project: DirectShow
 ms.assetid: ad023fa0-3540-4009-abdc-a1c980f906ec
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: DisplayModeChanged method [DirectShow], DisplayModeChanged method [DirectShow], IVMRWindowlessControl9 interface, DisplayModeChanged,IVMRWindowlessControl9.DisplayModeChanged, IVMRWindowlessControl9, IVMRWindowlessControl9 interface [DirectShow], DisplayModeChanged method, IVMRWindowlessControl9::DisplayModeChanged, IVMRWindowlessControl9DisplayModeChanged, dshow.ivmrwindowlesscontrol9_displaymodechanged, vmr9/IVMRWindowlessControl9::DisplayModeChanged
+ms.date: 4/30/2018
+ms.keywords: DisplayModeChanged, DisplayModeChanged method [DirectShow], DisplayModeChanged method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],DisplayModeChanged method, IVMRWindowlessControl9.DisplayModeChanged, IVMRWindowlessControl9::DisplayModeChanged, IVMRWindowlessControl9DisplayModeChanged, dshow.ivmrwindowlesscontrol9_displaymodechanged, vmr9/IVMRWindowlessControl9::DisplayModeChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRWindowlessControl9::DisplayModeChanged method
+# IVMRWindowlessControl9::DisplayModeChanged
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: search\icolumnmapper.htm
 old-project: search
 ms.assetid: CBC7EE6C-299D-4B9D-839A-0A2755CA8112
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IColumnMapper, IColumnMapper interface [search], IColumnMapper interface [search], described, indexsrv/IColumnMapper, search.icolumnmapper
+ms.date: 5/4/2018
+ms.keywords: IColumnMapper, IColumnMapper interface [search], IColumnMapper interface [search],described, indexsrv/IColumnMapper, search.icolumnmapper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

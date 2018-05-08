@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Deadline
-title: ITsSbTaskInfo::get_Deadline method
+title: ITsSbTaskInfo::get_Deadline
 author: windows-driver-content
 description: Retrieves the time by which the task must be initiated. This is used to prioritize patches. The patch with the earliest deadline will get initiated first.
 old-location: termserv\itssbtaskinfo_deadline.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 498e8dcd-108c-4fc4-8c62-5f68effbfaaa
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Deadline property [Remote Desktop Services], Deadline property [Remote Desktop Services], ITsSbTaskInfo interface, ITsSbTaskInfo, ITsSbTaskInfo interface [Remote Desktop Services], Deadline property, ITsSbTaskInfo.Deadline, ITsSbTaskInfo::get_Deadline, get_Deadline,ITsSbTaskInfo.get_Deadline, sbtsv/ITsSbTaskInfo::Deadline, sbtsv/ITsSbTaskInfo::get_Deadline, termserv.itssbtaskinfo_deadline
+ms.keywords: Deadline property [Remote Desktop Services], Deadline property [Remote Desktop Services],ITsSbTaskInfo interface, ITsSbTaskInfo interface [Remote Desktop Services],Deadline property, ITsSbTaskInfo.Deadline, ITsSbTaskInfo.get_Deadline, ITsSbTaskInfo::Deadline, ITsSbTaskInfo::get_Deadline, get_Deadline, sbtsv/ITsSbTaskInfo::Deadline, sbtsv/ITsSbTaskInfo::get_Deadline, termserv.itssbtaskinfo_deadline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbTaskInfo::get_Deadline method
+# ITsSbTaskInfo::get_Deadline
 
 
 ## -description

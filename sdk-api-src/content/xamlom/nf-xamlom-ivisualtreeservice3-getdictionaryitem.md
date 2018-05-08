@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService3.GetDictionaryItem
-title: IVisualTreeService3::GetDictionaryItem method
+title: IVisualTreeService3::GetDictionaryItem
 author: windows-driver-content
 description: Gets an item from a ResourceDictionary.
 old-location: xaml_diagnostics\ivisualtreeservice3_getdictionaryitem.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: E836FE12-A49A-427C-8013-F1AFBD2C08A2
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: GetDictionaryItem method, GetDictionaryItem method, IVisualTreeService3 interface, GetDictionaryItem,IVisualTreeService3.GetDictionaryItem, IVisualTreeService3, IVisualTreeService3 interface, GetDictionaryItem method, IVisualTreeService3::GetDictionaryItem, xaml_diagnostics.ivisualtreeservice3_getdictionaryitem, xamlom/IVisualTreeService3::GetDictionaryItem
+ms.keywords: GetDictionaryItem, GetDictionaryItem method, GetDictionaryItem method,IVisualTreeService3 interface, IVisualTreeService3 interface,GetDictionaryItem method, IVisualTreeService3.GetDictionaryItem, IVisualTreeService3::GetDictionaryItem, xaml_diagnostics.ivisualtreeservice3_getdictionaryitem, xamlom/IVisualTreeService3::GetDictionaryItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeService3::GetDictionaryItem method
+# IVisualTreeService3::GetDictionaryItem
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetReplicaKeyMap
-title: ISyncKnowledge::GetReplicaKeyMap method
+title: ISyncKnowledge::GetReplicaKeyMap
 author: windows-driver-content
 description: Gets the IReplicaKeyMap object that is associated with this knowledge.
 old-location: winsync\isyncknowledge_getreplicakeymap.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 5f4052f8-ad58-4805-be75-5456d2d1e7bc
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetReplicaKeyMap method [Windows Sync], GetReplicaKeyMap method [Windows Sync], ISyncKnowledge interface, GetReplicaKeyMap,ISyncKnowledge.GetReplicaKeyMap, ISyncKnowledge, ISyncKnowledge interface [Windows Sync], GetReplicaKeyMap method, ISyncKnowledge::GetReplicaKeyMap, winsync.isyncknowledge_getreplicakeymap, winsync/ISyncKnowledge::GetReplicaKeyMap
+ms.keywords: GetReplicaKeyMap, GetReplicaKeyMap method [Windows Sync], GetReplicaKeyMap method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetReplicaKeyMap method, ISyncKnowledge.GetReplicaKeyMap, ISyncKnowledge::GetReplicaKeyMap, winsync.isyncknowledge_getreplicakeymap, winsync/ISyncKnowledge::GetReplicaKeyMap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::GetReplicaKeyMap method
+# ISyncKnowledge::GetReplicaKeyMap
 
 
 ## -description

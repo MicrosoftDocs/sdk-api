@@ -75,8 +75,7 @@ The number of attributes specified by the <b>Attribute</b> member.
 ### -field Attribute
 
 
-
-#### pAttributeV1
+### -field Attribute.pAttributeV1
 
 An array of <a href="https://msdn.microsoft.com/0c4778bb-1b5d-4422-b066-d2a6aaa1f351">AUTHZ_SECURITY_ATTRIBUTE_V1</a> structures of the length of the <b>AttributeCount</b> member.
 

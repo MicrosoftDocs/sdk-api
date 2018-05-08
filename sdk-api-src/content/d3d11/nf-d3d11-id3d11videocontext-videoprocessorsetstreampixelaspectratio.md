@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio
-title: ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio method
+title: ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio
 author: windows-driver-content
 description: Sets the pixel aspect ratio for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreampixelaspectratio.htm
 old-project: medfound
 ms.assetid: 4205F6F0-4AF3-42B1-8636-64FCFC865856
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorSetStreamPixelAspectRatio method, ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio, VideoProcessorSetStreamPixelAspectRatio method [Media Foundation], VideoProcessorSetStreamPixelAspectRatio method [Media Foundation], ID3D11VideoContext interface, VideoProcessorSetStreamPixelAspectRatio,ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio, d3d11/ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio, mf.id3d11videocontext_videoprocessorsetstreampixelaspectratio
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamPixelAspectRatio method, ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio, ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio, VideoProcessorSetStreamPixelAspectRatio, VideoProcessorSetStreamPixelAspectRatio method [Media Foundation], VideoProcessorSetStreamPixelAspectRatio method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio, mf.id3d11videocontext_videoprocessorsetstreampixelaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio method
+# ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 8920259f-e52d-4141-87ff-0e1ac1396517
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_DECODER_GET_CONTENT_TYPE_CALLBACK, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK, wsw.ws_decoder_get_content_type_callback
+ms.keywords: WS_DECODER_GET_CONTENT_TYPE_CALLBACK, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK, wsw.ws_decoder_get_content_type_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback
+# WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback function
 
 
 ## -description

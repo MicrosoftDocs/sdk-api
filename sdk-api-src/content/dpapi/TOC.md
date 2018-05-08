@@ -1,0 +1,8 @@
+# [Authentication](../_security/index.md)
+## [Dpapi.h](index.md)
+### [CryptProtectData function](../dpapi/nf-dpapi-cryptprotectdata.md)
+### [CryptProtectMemory function](../dpapi/nf-dpapi-cryptprotectmemory.md)
+### [CryptUnprotectData function](../dpapi/nf-dpapi-cryptunprotectdata.md)
+### [CryptUnprotectMemory function](../dpapi/nf-dpapi-cryptunprotectmemory.md)
+### [CryptUpdateProtectedState function](../dpapi/nf-dpapi-cryptupdateprotectedstate.md)
+### [_CRYPTPROTECT_PROMPTSTRUCT structure](../dpapi/ns-dpapi-_cryptprotect_promptstruct.md)

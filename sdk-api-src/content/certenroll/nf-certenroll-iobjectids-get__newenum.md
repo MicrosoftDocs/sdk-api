@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectIds.get__NewEnum
-title: IObjectIds::get__NewEnum method
+title: IObjectIds::get__NewEnum
 author: windows-driver-content
 description: Retrieves the enumerator for the collection.
 old-location: security\iobjectids__newenum_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 1c70e20e-4ed9-4b03-99b0-ae47148c6bac
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IObjectIds, IObjectIds interface [Security], _NewEnum property, IObjectIds._NewEnum, IObjectIds::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], IObjectIds interface, certenroll/IObjectIds::_NewEnum, certenroll/IObjectIds::get__NewEnum, get__NewEnum,IObjectIds.get__NewEnum, security.iobjectids__newenum_property
+ms.keywords: IObjectIds interface [Security],_NewEnum property, IObjectIds._NewEnum, IObjectIds.get__NewEnum, IObjectIds::_NewEnum, IObjectIds::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IObjectIds interface, certenroll/IObjectIds::_NewEnum, certenroll/IObjectIds::get__NewEnum, get__NewEnum, security.iobjectids__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IObjectIds::get__NewEnum method
+# IObjectIds::get__NewEnum
 
 
 ## -description

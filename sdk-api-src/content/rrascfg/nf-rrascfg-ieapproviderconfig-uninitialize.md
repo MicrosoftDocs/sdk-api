@@ -1,6 +1,6 @@
 ---
 UID: NF:rrascfg.IEAPProviderConfig.Uninitialize
-title: IEAPProviderConfig::Uninitialize method
+title: IEAPProviderConfig::Uninitialize
 author: windows-driver-content
 description: The system calls the Uninitialize method to shut down the specified EAP configuration session.
 old-location: eap\ieapproviderconfig_uninitialize.htm
@@ -8,7 +8,7 @@ old-project: EAP
 ms.assetid: f96ffa3f-cd3c-4979-87b3-1a2afb7a3621
 ms.author: windowsdriverdev
 ms.date: 3/22/2018
-ms.keywords: IEAPProviderConfig, IEAPProviderConfig interface [EAP], Uninitialize method, IEAPProviderConfig::Uninitialize, Uninitialize method [EAP], Uninitialize method [EAP], IEAPProviderConfig interface, Uninitialize,IEAPProviderConfig.Uninitialize, _eap_ieapproviderconfig_uninitialize, eap.ieapproviderconfig_uninitialize, rrascfg/IEAPProviderConfig::Uninitialize
+ms.keywords: IEAPProviderConfig interface [EAP],Uninitialize method, IEAPProviderConfig.Uninitialize, IEAPProviderConfig::Uninitialize, Uninitialize, Uninitialize method [EAP], Uninitialize method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_uninitialize, eap.ieapproviderconfig_uninitialize, rrascfg/IEAPProviderConfig::Uninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEAPProviderConfig::Uninitialize method
+# IEAPProviderConfig::Uninitialize
 
 
 ## -description

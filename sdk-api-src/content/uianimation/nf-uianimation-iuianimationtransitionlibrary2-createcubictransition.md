@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateCubicTransition
-title: IUIAnimationTransitionLibrary2::CreateCubicTransition method
+title: IUIAnimationTransitionLibrary2::CreateCubicTransition
 author: windows-driver-content
 description: Creates a cubic scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createcubictransition.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 63ADBD53-2552-4D68-AABD-E3B1F83831EB
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateCubicTransition method [Windows Animation], CreateCubicTransition method [Windows Animation], IUIAnimationTransitionLibrary2 interface, CreateCubicTransition,IUIAnimationTransitionLibrary2.CreateCubicTransition, IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], CreateCubicTransition method, IUIAnimationTransitionLibrary2::CreateCubicTransition, uianimation.iuianimationtransitionlibrary2_createcubictransition, uianimation/IUIAnimationTransitionLibrary2::CreateCubicTransition
+ms.keywords: CreateCubicTransition, CreateCubicTransition method [Windows Animation], CreateCubicTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateCubicTransition method, IUIAnimationTransitionLibrary2.CreateCubicTransition, IUIAnimationTransitionLibrary2::CreateCubicTransition, uianimation.iuianimationtransitionlibrary2_createcubictransition, uianimation/IUIAnimationTransitionLibrary2::CreateCubicTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary2::CreateCubicTransition method
+# IUIAnimationTransitionLibrary2::CreateCubicTransition
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.SetRenderingPrefs
-title: IVMRFilterConfig9::SetRenderingPrefs method
+title: IVMRFilterConfig9::SetRenderingPrefs
 author: windows-driver-content
 description: The SetRenderingPrefs method sets various application preferences related to video rendering.
 old-location: dshow\ivmrfilterconfig9_setrenderingprefs.htm
 old-project: DirectShow
 ms.assetid: ce274528-c759-4b43-80c7-0ba1e1275b7d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRFilterConfig9, IVMRFilterConfig9 interface [DirectShow], SetRenderingPrefs method, IVMRFilterConfig9::SetRenderingPrefs, IVMRFilterConfig9SetRenderingPrefs, SetRenderingPrefs method [DirectShow], SetRenderingPrefs method [DirectShow], IVMRFilterConfig9 interface, SetRenderingPrefs,IVMRFilterConfig9.SetRenderingPrefs, dshow.ivmrfilterconfig9_setrenderingprefs, vmr9/IVMRFilterConfig9::SetRenderingPrefs
+ms.date: 4/30/2018
+ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetRenderingPrefs method, IVMRFilterConfig9.SetRenderingPrefs, IVMRFilterConfig9::SetRenderingPrefs, IVMRFilterConfig9SetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [DirectShow], SetRenderingPrefs method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setrenderingprefs, vmr9/IVMRFilterConfig9::SetRenderingPrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRFilterConfig9::SetRenderingPrefs method
+# IVMRFilterConfig9::SetRenderingPrefs
 
 
 ## -description

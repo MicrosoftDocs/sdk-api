@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetCurrentTime
-title: IMFMediaEngine::SetCurrentTime method
+title: IMFMediaEngine::SetCurrentTime
 author: windows-driver-content
 description: Seeks to a new playback position.
 old-location: mf\imfmediaengine_setcurrenttime.htm
 old-project: medfound
 ms.assetid: C64BCBA0-097E-4035-BFEE-F9EC949B109A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], SetCurrentTime method, IMFMediaEngine::SetCurrentTime, SetCurrentTime method [Media Foundation], SetCurrentTime method [Media Foundation], IMFMediaEngine interface, SetCurrentTime,IMFMediaEngine.SetCurrentTime, mf.imfmediaengine_setcurrenttime, mfmediaengine/IMFMediaEngine::SetCurrentTime
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngine interface [Media Foundation],SetCurrentTime method, IMFMediaEngine.SetCurrentTime, IMFMediaEngine::SetCurrentTime, SetCurrentTime, SetCurrentTime method [Media Foundation], SetCurrentTime method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setcurrenttime, mfmediaengine/IMFMediaEngine::SetCurrentTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::SetCurrentTime method
+# IMFMediaEngine::SetCurrentTime
 
 
 ## -description

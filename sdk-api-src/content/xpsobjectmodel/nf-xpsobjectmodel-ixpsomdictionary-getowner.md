@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetOwner
-title: IXpsOMDictionary::GetOwner method
+title: IXpsOMDictionary::GetOwner
 author: windows-driver-content
 description: Gets a pointer to the interface that contains the dictionary.
 old-location: xps\ixpsomdictionary_getowner.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 3570ad03-2b68-4294-b236-86bd372876a2
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging], IXpsOMDictionary interface, GetOwner,IXpsOMDictionary.GetOwner, IXpsOMDictionary, IXpsOMDictionary interface [XPS Documents and Packaging], GetOwner method, IXpsOMDictionary::GetOwner, xps.ixpsomdictionary_getowner, xpsobjectmodel/IXpsOMDictionary::GetOwner
+ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetOwner method, IXpsOMDictionary.GetOwner, IXpsOMDictionary::GetOwner, xps.ixpsomdictionary_getowner, xpsobjectmodel/IXpsOMDictionary::GetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDictionary::GetOwner method
+# IXpsOMDictionary::GetOwner
 
 
 ## -description

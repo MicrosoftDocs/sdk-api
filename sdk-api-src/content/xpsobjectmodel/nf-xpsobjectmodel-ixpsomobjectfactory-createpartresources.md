@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePartResources
-title: IXpsOMObjectFactory::CreatePartResources method
+title: IXpsOMObjectFactory::CreatePartResources
 author: windows-driver-content
 description: Creates an IXpsOMPartResources interface that can contain part-based resources.
 old-location: xps\ixpsomobjectfactory_createpartresources.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f525139b-a94f-41ee-966f-408079a9e676
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePartResources method [XPS Documents and Packaging], CreatePartResources method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreatePartResources,IXpsOMObjectFactory.CreatePartResources, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreatePartResources method, IXpsOMObjectFactory::CreatePartResources, xps.ixpsomobjectfactory_createpartresources, xpsobjectmodel/IXpsOMObjectFactory::CreatePartResources
+ms.keywords: CreatePartResources, CreatePartResources method [XPS Documents and Packaging], CreatePartResources method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartResources method, IXpsOMObjectFactory.CreatePartResources, IXpsOMObjectFactory::CreatePartResources, xps.ixpsomobjectfactory_createpartresources, xpsobjectmodel/IXpsOMObjectFactory::CreatePartResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreatePartResources method
+# IXpsOMObjectFactory::CreatePartResources
 
 
 ## -description

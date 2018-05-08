@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsControllerPort.QueryAssociatedLuns
-title: IVdsControllerPort::QueryAssociatedLuns method
+title: IVdsControllerPort::QueryAssociatedLuns
 author: windows-driver-content
 description: Returns an enumeration of the LUNs with which the controller port is associated&#8212;the LUNs for which the controller is active. This method replaces IVdsController::QueryAssociatedLuns.
 old-location: base\ivdscontrollerport_queryassociatedluns.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 062b820e-f384-4c2e-a2f7-c90748c74976
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], QueryAssociatedLuns method, IVdsControllerPort::QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS], IVdsControllerPort interface, QueryAssociatedLuns,IVdsControllerPort.QueryAssociatedLuns, base.ivdscontrollerport_queryassociatedluns, vds/IVdsControllerPort::QueryAssociatedLuns
+ms.keywords: IVdsControllerPort interface [VDS],QueryAssociatedLuns method, IVdsControllerPort.QueryAssociatedLuns, IVdsControllerPort::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_queryassociatedluns, vds/IVdsControllerPort::QueryAssociatedLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsControllerPort::QueryAssociatedLuns method
+# IVdsControllerPort::QueryAssociatedLuns
 
 
 ## -description

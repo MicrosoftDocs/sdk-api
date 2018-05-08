@@ -7,8 +7,8 @@ old-location: wmp\iwmplibrary.htm
 old-project: WMP
 ms.assetid: add0ed43-d83f-4793-b1f6-ccad0f01854c
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPLibrary, IWMPLibrary interface [Windows Media Player], IWMPLibrary interface [Windows Media Player], described, IWMPLibraryInterface, wmp.iwmplibrary, wmp/IWMPLibrary
+ms.date: 5/4/2018
+ms.keywords: IWMPLibrary, IWMPLibrary interface [Windows Media Player], IWMPLibrary interface [Windows Media Player],described, IWMPLibraryInterface, wmp.iwmplibrary, wmp/IWMPLibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

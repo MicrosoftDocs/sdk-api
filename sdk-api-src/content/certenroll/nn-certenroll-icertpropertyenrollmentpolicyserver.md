@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 1af7b178-3226-43c3-bfbe-08738f9ef851
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], ICertPropertyEnrollmentPolicyServer interface [Security], described, certenroll/ICertPropertyEnrollmentPolicyServer, security.icertpropertyenrollmentpolicyserver
+ms.keywords: ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], ICertPropertyEnrollmentPolicyServer interface [Security],described, certenroll/ICertPropertyEnrollmentPolicyServer, security.icertpropertyenrollmentpolicyserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

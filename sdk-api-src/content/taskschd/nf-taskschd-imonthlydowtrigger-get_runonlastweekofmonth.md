@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.get_RunOnLastWeekOfMonth
-title: IMonthlyDOWTrigger::get_RunOnLastWeekOfMonth method
+title: IMonthlyDOWTrigger::get_RunOnLastWeekOfMonth
 author: windows-driver-content
 description: Gets or sets a Boolean value that indicates that the task runs on the last week of the month.
 old-location: taskschd\imonthlydowtrigger_runonlastweekofmonth.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: a45d3207-6202-4aee-9ef7-c257884fcfed
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IMonthlyDOWTrigger, IMonthlyDOWTrigger interface [Task Scheduler], RunOnLastWeekOfMonth property, IMonthlyDOWTrigger.RunOnLastWeekOfMonth, IMonthlyDOWTrigger::get_RunOnLastWeekOfMonth, IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth, RunOnLastWeekOfMonth property [Task Scheduler], RunOnLastWeekOfMonth property [Task Scheduler], IMonthlyDOWTrigger interface, get_RunOnLastWeekOfMonth,IMonthlyDOWTrigger.get_RunOnLastWeekOfMonth, taskschd.imonthlydowtrigger_runonlastweekofmonth, taskschd/IMonthlyDOWTrigger::RunOnLastWeekOfMonth, taskschd/IMonthlyDOWTrigger::get_RunOnLastWeekOfMonth, taskschd/IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth
+ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],RunOnLastWeekOfMonth property, IMonthlyDOWTrigger.RunOnLastWeekOfMonth, IMonthlyDOWTrigger.get_RunOnLastWeekOfMonth, IMonthlyDOWTrigger::RunOnLastWeekOfMonth, IMonthlyDOWTrigger::get_RunOnLastWeekOfMonth, IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth, RunOnLastWeekOfMonth property [Task Scheduler], RunOnLastWeekOfMonth property [Task Scheduler],IMonthlyDOWTrigger interface, get_RunOnLastWeekOfMonth, taskschd.imonthlydowtrigger_runonlastweekofmonth, taskschd/IMonthlyDOWTrigger::RunOnLastWeekOfMonth, taskschd/IMonthlyDOWTrigger::get_RunOnLastWeekOfMonth, taskschd/IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMonthlyDOWTrigger::get_RunOnLastWeekOfMonth method
+# IMonthlyDOWTrigger::get_RunOnLastWeekOfMonth
 
 
 ## -description

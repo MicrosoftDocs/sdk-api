@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.Suggest
-title: ISpellCheckProvider::Suggest method
+title: ISpellCheckProvider::Suggest
 author: windows-driver-content
 description: Retrieves spelling suggestions for the supplied text.
 old-location: intl\ispellcheckprovider_suggest.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 4A66619C-8A12-4465-889C-B880C43031AB
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISpellCheckProvider, ISpellCheckProvider interface [Internationalization for Windows Applications], Suggest method, ISpellCheckProvider::Suggest, Suggest method [Internationalization for Windows Applications], Suggest method [Internationalization for Windows Applications], ISpellCheckProvider interface, Suggest,ISpellCheckProvider.Suggest, intl.ispellcheckprovider_suggest, spellcheckprovider/ISpellCheckProvider::Suggest
+ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],Suggest method, ISpellCheckProvider.Suggest, ISpellCheckProvider::Suggest, Suggest, Suggest method [Internationalization for Windows Applications], Suggest method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_suggest, spellcheckprovider/ISpellCheckProvider::Suggest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellCheckProvider::Suggest method
+# ISpellCheckProvider::Suggest
 
 
 ## -description

@@ -208,6 +208,42 @@ Type: <b>UINT8</b>
 The IP protocol specified as an IPPROTO value. See the <a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a> reference topic for more information on possible protocol values.
 
 
+### -field localAddrV4
+
+Type: <b>UINT32</b>
+
+The IPv4 local address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field localAddrV6
+
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a></b>
+
+The IPv6 local address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
+### -field remoteAddrV4
+
+Type: <b>UINT32</b>
+
+The IPv4 remote address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field remoteAddrV6
+
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a></b>
+
+The IPv6 remote address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
 ### -field localPort
 
 Type: <b>UINT16</b>
@@ -257,42 +293,6 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_NONE</b>.
 Type: <b>SID*</b>
 
 The security identifier (SID) representing the package identifier (also referred to as the app container SID) intending to send or receive the network traffic.
-
-
-#### - localAddrV4
-
-Type: <b>UINT32</b>
-
-The IPv4 local address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - localAddrV6
-
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a></b>
-
-The IPv6 local address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
-
-
-#### - remoteAddrV4
-
-Type: <b>UINT32</b>
-
-The IPv4 remote address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - remoteAddrV6
-
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a></b>
-
-The IPv6 remote address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 
 ## -see-also

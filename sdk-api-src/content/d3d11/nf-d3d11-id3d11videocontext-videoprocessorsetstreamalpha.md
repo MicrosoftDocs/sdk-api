@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamAlpha
-title: ID3D11VideoContext::VideoProcessorSetStreamAlpha method
+title: ID3D11VideoContext::VideoProcessorSetStreamAlpha
 author: windows-driver-content
 description: Sets the planar alpha for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamalpha.htm
 old-project: medfound
 ms.assetid: DA869E3F-25BB-4794-B7AE-A3C2DA968800
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorSetStreamAlpha method, ID3D11VideoContext::VideoProcessorSetStreamAlpha, VideoProcessorSetStreamAlpha method [Media Foundation], VideoProcessorSetStreamAlpha method [Media Foundation], ID3D11VideoContext interface, VideoProcessorSetStreamAlpha,ID3D11VideoContext.VideoProcessorSetStreamAlpha, d3d11/ID3D11VideoContext::VideoProcessorSetStreamAlpha, mf.id3d11videocontext_videoprocessorsetstreamalpha
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamAlpha method, ID3D11VideoContext.VideoProcessorSetStreamAlpha, ID3D11VideoContext::VideoProcessorSetStreamAlpha, VideoProcessorSetStreamAlpha, VideoProcessorSetStreamAlpha method [Media Foundation], VideoProcessorSetStreamAlpha method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamAlpha, mf.id3d11videocontext_videoprocessorsetstreamalpha
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::VideoProcessorSetStreamAlpha method
+# ID3D11VideoContext::VideoProcessorSetStreamAlpha
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSingleItemExceptions.Next
-title: IEnumSingleItemExceptions::Next method
+title: IEnumSingleItemExceptions::Next
 author: windows-driver-content
 description: Returns the next elements in the single-item exception set, if they are available.
 old-location: winsync\ienumsingleitemexceptions_next.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: a9605eaa-2b68-4bc6-9dcf-c2bebc4e6f1b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumSingleItemExceptions, IEnumSingleItemExceptions interface [Windows Sync], Next method, IEnumSingleItemExceptions::Next, Next method [Windows Sync], Next method [Windows Sync], IEnumSingleItemExceptions interface, Next,IEnumSingleItemExceptions.Next, winsync.ienumsingleitemexceptions_next, winsync/IEnumSingleItemExceptions::Next
+ms.keywords: IEnumSingleItemExceptions interface [Windows Sync],Next method, IEnumSingleItemExceptions.Next, IEnumSingleItemExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSingleItemExceptions interface, winsync.ienumsingleitemexceptions_next, winsync/IEnumSingleItemExceptions::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumSingleItemExceptions::Next method
+# IEnumSingleItemExceptions::Next
 
 
 ## -description

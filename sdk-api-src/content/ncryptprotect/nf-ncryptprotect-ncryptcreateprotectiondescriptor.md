@@ -7,7 +7,7 @@ old-location: security\ncryptcreateprotectiondescriptor.htm
 old-project: SecCNG
 ms.assetid: BA6B15AC-2CD8-4D9A-817F-65CF9C09D22C
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NCryptCreateProtectionDescriptor, NCryptCreateProtectionDescriptor function [Security], ncryptprotect/NCryptCreateProtectionDescriptor, security.ncryptcreateprotectiondescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

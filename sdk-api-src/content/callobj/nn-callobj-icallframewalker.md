@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1eeb00a3-d3c5-46f0-95a8-f694f802894b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICallFrameWalker, ICallFrameWalker interface [COM], ICallFrameWalker interface [COM], described, _com_icallframewalker, callobj/ICallFrameWalker, com.icallframewalker
+ms.keywords: ICallFrameWalker, ICallFrameWalker interface [COM], ICallFrameWalker interface [COM],described, _com_icallframewalker, callobj/ICallFrameWalker, com.icallframewalker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

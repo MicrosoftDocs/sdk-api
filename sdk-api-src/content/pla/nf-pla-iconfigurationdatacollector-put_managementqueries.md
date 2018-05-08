@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.put_ManagementQueries
-title: IConfigurationDataCollector::put_ManagementQueries method
+title: IConfigurationDataCollector::put_ManagementQueries
 author: windows-driver-content
 description: Retrieves or sets Windows Management Instrumentation (WMI) queries to run.
 old-location: pla\iconfigurationdatacollector_managementqueries.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 183762e4-d312-4a0c-8195-d38d1b79d17d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IConfigurationDataCollector, IConfigurationDataCollector interface [PLA], ManagementQueries property, IConfigurationDataCollector.ManagementQueries, IConfigurationDataCollector::get_ManagementQueries, IConfigurationDataCollector::put_ManagementQueries, ManagementQueries property [PLA], ManagementQueries property [PLA], IConfigurationDataCollector interface, base.iconfigurationdatacollector_managementqueries, pla.iconfigurationdatacollector_managementqueries, pla/IConfigurationDataCollector::ManagementQueries, pla/IConfigurationDataCollector::get_ManagementQueries, pla/IConfigurationDataCollector::put_ManagementQueries, put_ManagementQueries,IConfigurationDataCollector.put_ManagementQueries
+ms.keywords: IConfigurationDataCollector interface [PLA],ManagementQueries property, IConfigurationDataCollector.ManagementQueries, IConfigurationDataCollector.put_ManagementQueries, IConfigurationDataCollector::ManagementQueries, IConfigurationDataCollector::get_ManagementQueries, IConfigurationDataCollector::put_ManagementQueries, ManagementQueries property [PLA], ManagementQueries property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_managementqueries, pla.iconfigurationdatacollector_managementqueries, pla/IConfigurationDataCollector::ManagementQueries, pla/IConfigurationDataCollector::get_ManagementQueries, pla/IConfigurationDataCollector::put_ManagementQueries, put_ManagementQueries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IConfigurationDataCollector::put_ManagementQueries method
+# IConfigurationDataCollector::put_ManagementQueries
 
 
 ## -description

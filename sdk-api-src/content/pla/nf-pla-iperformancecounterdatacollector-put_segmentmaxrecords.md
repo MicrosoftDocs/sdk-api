@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.put_SegmentMaxRecords
-title: IPerformanceCounterDataCollector::put_SegmentMaxRecords method
+title: IPerformanceCounterDataCollector::put_SegmentMaxRecords
 author: windows-driver-content
 description: Retrieves or sets the maximum number of samples to log.
 old-location: pla\iperformancecounterdatacollector_segmentmaxrecords.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: cc987959-dbf6-44da-8f1a-d66a3ad791a5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPerformanceCounterDataCollector, IPerformanceCounterDataCollector interface [PLA], SegmentMaxRecords property, IPerformanceCounterDataCollector.SegmentMaxRecords, IPerformanceCounterDataCollector::get_SegmentMaxRecords, IPerformanceCounterDataCollector::put_SegmentMaxRecords, SegmentMaxRecords property [PLA], SegmentMaxRecords property [PLA], IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_segmentmaxrecords, pla.iperformancecounterdatacollector_segmentmaxrecords, pla/IPerformanceCounterDataCollector::SegmentMaxRecords, pla/IPerformanceCounterDataCollector::get_SegmentMaxRecords, pla/IPerformanceCounterDataCollector::put_SegmentMaxRecords, put_SegmentMaxRecords,IPerformanceCounterDataCollector.put_SegmentMaxRecords
+ms.keywords: IPerformanceCounterDataCollector interface [PLA],SegmentMaxRecords property, IPerformanceCounterDataCollector.SegmentMaxRecords, IPerformanceCounterDataCollector.put_SegmentMaxRecords, IPerformanceCounterDataCollector::SegmentMaxRecords, IPerformanceCounterDataCollector::get_SegmentMaxRecords, IPerformanceCounterDataCollector::put_SegmentMaxRecords, SegmentMaxRecords property [PLA], SegmentMaxRecords property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_segmentmaxrecords, pla.iperformancecounterdatacollector_segmentmaxrecords, pla/IPerformanceCounterDataCollector::SegmentMaxRecords, pla/IPerformanceCounterDataCollector::get_SegmentMaxRecords, pla/IPerformanceCounterDataCollector::put_SegmentMaxRecords, put_SegmentMaxRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPerformanceCounterDataCollector::put_SegmentMaxRecords method
+# IPerformanceCounterDataCollector::put_SegmentMaxRecords
 
 
 ## -description

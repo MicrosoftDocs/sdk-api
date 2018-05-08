@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.UnregisterDevice
-title: IWMDeviceRegistration::UnregisterDevice method
+title: IWMDeviceRegistration::UnregisterDevice
 author: windows-driver-content
 description: The UnregisterDevice method removes a device from the device registration database.
 old-location: wmformat\iwmdeviceregistration_unregisterdevice.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 5cb1282a-5744-4264-8f73-ecad2854a125
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], UnregisterDevice method, IWMDeviceRegistration::UnregisterDevice, IWMDeviceRegistrationUnregisterDevice, UnregisterDevice method [windows Media Format], UnregisterDevice method [windows Media Format], IWMDeviceRegistration interface, UnregisterDevice,IWMDeviceRegistration.UnregisterDevice, wmformat.iwmdeviceregistration_unregisterdevice, wmsdkidl/IWMDeviceRegistration::UnregisterDevice
+ms.keywords: IWMDeviceRegistration interface [windows Media Format],UnregisterDevice method, IWMDeviceRegistration.UnregisterDevice, IWMDeviceRegistration::UnregisterDevice, IWMDeviceRegistrationUnregisterDevice, UnregisterDevice, UnregisterDevice method [windows Media Format], UnregisterDevice method [windows Media Format],IWMDeviceRegistration interface, wmformat.iwmdeviceregistration_unregisterdevice, wmsdkidl/IWMDeviceRegistration::UnregisterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDeviceRegistration::UnregisterDevice method
+# IWMDeviceRegistration::UnregisterDevice
 
 
 ## -description

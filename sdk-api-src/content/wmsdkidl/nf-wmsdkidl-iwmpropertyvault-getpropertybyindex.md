@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.GetPropertyByIndex
-title: IWMPropertyVault::GetPropertyByIndex method
+title: IWMPropertyVault::GetPropertyByIndex
 author: windows-driver-content
 description: The GetPropertyByIndex method retrieves a property from the vault by its index value.
 old-location: wmformat\iwmpropertyvault_getpropertybyindex.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: edecc6d2-f784-4205-bd79-6098e553d5cd
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetPropertyByIndex method [windows Media Format], GetPropertyByIndex method [windows Media Format], IWMPropertyVault interface, GetPropertyByIndex,IWMPropertyVault.GetPropertyByIndex, IWMPropertyVault, IWMPropertyVault interface [windows Media Format], GetPropertyByIndex method, IWMPropertyVault::GetPropertyByIndex, IWMPropertyVaultGetPropertyByIndex, wmformat.iwmpropertyvault_getpropertybyindex, wmsdkidl/IWMPropertyVault::GetPropertyByIndex
+ms.keywords: GetPropertyByIndex, GetPropertyByIndex method [windows Media Format], GetPropertyByIndex method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyByIndex method, IWMPropertyVault.GetPropertyByIndex, IWMPropertyVault::GetPropertyByIndex, IWMPropertyVaultGetPropertyByIndex, wmformat.iwmpropertyvault_getpropertybyindex, wmsdkidl/IWMPropertyVault::GetPropertyByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPropertyVault::GetPropertyByIndex method
+# IWMPropertyVault::GetPropertyByIndex
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.GetOptionDescription
-title: ISpellChecker::GetOptionDescription method
+title: ISpellChecker::GetOptionDescription
 author: windows-driver-content
 description: Retrieves the information (id, description, heading and labels) of a specific option.
 old-location: intl\ispellchecker_getoptiondescription.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 5947f6ee-ad52-4d4d-a013-0c7dced273c3
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetOptionDescription method [Internationalization for Windows Applications], GetOptionDescription method [Internationalization for Windows Applications], ISpellChecker interface, GetOptionDescription,ISpellChecker.GetOptionDescription, ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], GetOptionDescription method, ISpellChecker::GetOptionDescription, intl.ispellchecker_getoptiondescription, spellcheck/ISpellChecker::GetOptionDescription
+ms.keywords: GetOptionDescription, GetOptionDescription method [Internationalization for Windows Applications], GetOptionDescription method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],GetOptionDescription method, ISpellChecker.GetOptionDescription, ISpellChecker::GetOptionDescription, intl.ispellchecker_getoptiondescription, spellcheck/ISpellChecker::GetOptionDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellChecker::GetOptionDescription method
+# ISpellChecker::GetOptionDescription
 
 
 ## -description

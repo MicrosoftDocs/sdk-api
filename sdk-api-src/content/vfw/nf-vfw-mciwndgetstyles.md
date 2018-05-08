@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetstyles.htm
 old-project: Multimedia
 ms.assetid: 06d022a7-7772-4442-b21c-4f18e9eedbc3
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: MCIWndGetStyles, MCIWndGetStyles macro [Windows Multimedia], _win32_MCIWndGetStyles, multimedia.mciwndgetstyles, vfw/MCIWndGetStyles
 ms.prod: windows-hardware
 ms.technology: windows-devices

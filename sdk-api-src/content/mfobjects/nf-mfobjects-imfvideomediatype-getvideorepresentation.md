@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFVideoMediaType.GetVideoRepresentation
-title: IMFVideoMediaType::GetVideoRepresentation method
+title: IMFVideoMediaType::GetVideoRepresentation
 author: windows-driver-content
 description: Retrieves an alternative representation of the media type.
 old-location: mf\imfvideomediatype_getvideorepresentation.htm
 old-project: medfound
 ms.assetid: 2f8fddef-b9b8-4473-a8d0-d6e44ad32648
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 2f8fddef-b9b8-4473-a8d0-d6e44ad32648, GetVideoRepresentation method [Media Foundation], GetVideoRepresentation method [Media Foundation], IMFVideoMediaType interface, GetVideoRepresentation,IMFVideoMediaType.GetVideoRepresentation, IMFVideoMediaType, IMFVideoMediaType interface [Media Foundation], GetVideoRepresentation method, IMFVideoMediaType::GetVideoRepresentation, mf.imfvideomediatype_getvideorepresentation, mfobjects/IMFVideoMediaType::GetVideoRepresentation
+ms.date: 5/3/2018
+ms.keywords: 2f8fddef-b9b8-4473-a8d0-d6e44ad32648, GetVideoRepresentation, GetVideoRepresentation method [Media Foundation], GetVideoRepresentation method [Media Foundation],IMFVideoMediaType interface, IMFVideoMediaType interface [Media Foundation],GetVideoRepresentation method, IMFVideoMediaType.GetVideoRepresentation, IMFVideoMediaType::GetVideoRepresentation, mf.imfvideomediatype_getvideorepresentation, mfobjects/IMFVideoMediaType::GetVideoRepresentation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFVideoMediaType::GetVideoRepresentation method
+# IMFVideoMediaType::GetVideoRepresentation
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.SetOffset
-title: IXpsOMGradientStop::SetOffset method
+title: IXpsOMGradientStop::SetOffset
 author: windows-driver-content
 description: Sets the offset location of the gradient stop.
 old-location: xps\ixpsomgradientstop_setoffset.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 8c1932b0-386b-4779-a4e4-e239e42e1d16
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and Packaging], SetOffset method, IXpsOMGradientStop::SetOffset, SetOffset method [XPS Documents and Packaging], SetOffset method [XPS Documents and Packaging], IXpsOMGradientStop interface, SetOffset,IXpsOMGradientStop.SetOffset, xps.ixpsomgradientstop_setoffset, xpsobjectmodel/IXpsOMGradientStop::SetOffset
+ms.keywords: IXpsOMGradientStop interface [XPS Documents and Packaging],SetOffset method, IXpsOMGradientStop.SetOffset, IXpsOMGradientStop::SetOffset, SetOffset, SetOffset method [XPS Documents and Packaging], SetOffset method [XPS Documents and Packaging],IXpsOMGradientStop interface, xps.ixpsomgradientstop_setoffset, xpsobjectmodel/IXpsOMGradientStop::SetOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientStop::SetOffset method
+# IXpsOMGradientStop::SetOffset
 
 
 ## -description

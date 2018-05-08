@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.AddSessionToStore
-title: ITsSbResourcePluginStore::AddSessionToStore method
+title: ITsSbResourcePluginStore::AddSessionToStore
 author: windows-driver-content
 description: Adds a new session to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_addsessiontostore.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 354ca945-cefe-42f6-a255-9918b8ffc339
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: AddSessionToStore method [Remote Desktop Services], AddSessionToStore method [Remote Desktop Services], ITsSbResourcePluginStore interface, AddSessionToStore method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, AddSessionToStore,ITsSbResourcePluginStore.AddSessionToStore, ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], AddSessionToStore method, ITsSbResourcePluginStore::AddSessionToStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], AddSessionToStore method, ITsSbResourcePluginStoreEx::AddSessionToStore, sbtsv/ITsSbResourcePluginStore::AddSessionToStore, sbtsv/ITsSbResourcePluginStoreEx::AddSessionToStore, termserv.itssbresourcepluginstore_addsessiontostore
+ms.keywords: AddSessionToStore, AddSessionToStore method [Remote Desktop Services], AddSessionToStore method [Remote Desktop Services],ITsSbResourcePluginStore interface, AddSessionToStore method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AddSessionToStore method, ITsSbResourcePluginStore.AddSessionToStore, ITsSbResourcePluginStore::AddSessionToStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],AddSessionToStore method, ITsSbResourcePluginStoreEx::AddSessionToStore, sbtsv/ITsSbResourcePluginStore::AddSessionToStore, sbtsv/ITsSbResourcePluginStoreEx::AddSessionToStore, termserv.itssbresourcepluginstore_addsessiontostore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::AddSessionToStore method
+# ITsSbResourcePluginStore::AddSessionToStore
 
 
 ## -description

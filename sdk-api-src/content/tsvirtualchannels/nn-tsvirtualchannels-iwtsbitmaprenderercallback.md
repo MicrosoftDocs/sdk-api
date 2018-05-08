@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: bdb8280b-6ebc-47e4-9789-47e3bda96efc
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSBitmapRendererCallback, IWTSBitmapRendererCallback interface [Remote Desktop Services], IWTSBitmapRendererCallback interface [Remote Desktop Services], described, termserv.iwtsbitmaprenderercallback, tsvirtualchannels/IWTSBitmapRendererCallback
+ms.keywords: IWTSBitmapRendererCallback, IWTSBitmapRendererCallback interface [Remote Desktop Services], IWTSBitmapRendererCallback interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderercallback, tsvirtualchannels/IWTSBitmapRendererCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

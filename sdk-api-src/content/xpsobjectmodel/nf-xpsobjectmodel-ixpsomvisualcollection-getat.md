@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.GetAt
-title: IXpsOMVisualCollection::GetAt method
+title: IXpsOMVisualCollection::GetAt
 author: windows-driver-content
 description: Gets an IXpsOMVisual interface pointer from a specified location in the collection.
 old-location: xps\ixpsomvisualcollection_getat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 8bd54fab-64e8-42a5-ac9d-fa19328b1acb
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging], IXpsOMVisualCollection interface, GetAt,IXpsOMVisualCollection.GetAt, IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Documents and Packaging], GetAt method, IXpsOMVisualCollection::GetAt, xps.ixpsomvisualcollection_getat, xpsobjectmodel/IXpsOMVisualCollection::GetAt
+ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, IXpsOMVisualCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMVisualCollection.GetAt, IXpsOMVisualCollection::GetAt, xps.ixpsomvisualcollection_getat, xpsobjectmodel/IXpsOMVisualCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisualCollection::GetAt method
+# IXpsOMVisualCollection::GetAt
 
 
 ## -description

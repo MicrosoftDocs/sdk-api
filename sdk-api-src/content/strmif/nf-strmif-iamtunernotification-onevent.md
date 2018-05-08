@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTunerNotification.OnEvent
-title: IAMTunerNotification::OnEvent method
+title: IAMTunerNotification::OnEvent
 author: windows-driver-content
 description: Note  The IAMTunerNotification interface is deprecated. The OnEvent method handles events from the TV tuner card.
 old-location: dshow\iamtunernotification_onevent.htm
 old-project: DirectShow
 ms.assetid: ac28a445-dfa0-4e88-861d-3364106c2b20
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTunerNotification, IAMTunerNotification interface [DirectShow], OnEvent method, IAMTunerNotification::OnEvent, IAMTunerNotificationOnEvent, OnEvent method [DirectShow], OnEvent method [DirectShow], IAMTunerNotification interface, OnEvent,IAMTunerNotification.OnEvent, dshow.iamtunernotification_onevent, strmif/IAMTunerNotification::OnEvent
+ms.date: 4/30/2018
+ms.keywords: IAMTunerNotification interface [DirectShow],OnEvent method, IAMTunerNotification.OnEvent, IAMTunerNotification::OnEvent, IAMTunerNotificationOnEvent, OnEvent, OnEvent method [DirectShow], OnEvent method [DirectShow],IAMTunerNotification interface, dshow.iamtunernotification_onevent, strmif/IAMTunerNotification::OnEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTunerNotification::OnEvent method
+# IAMTunerNotification::OnEvent
 
 
 ## -description

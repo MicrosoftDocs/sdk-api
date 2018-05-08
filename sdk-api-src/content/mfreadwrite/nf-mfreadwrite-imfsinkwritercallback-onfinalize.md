@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterCallback.OnFinalize
-title: IMFSinkWriterCallback::OnFinalize method
+title: IMFSinkWriterCallback::OnFinalize
 author: windows-driver-content
 description: Called when the IMFSinkWriter::Finalize method completes.
 old-location: mf\imfsinkwritercallback_onfinalize.htm
 old-project: medfound
 ms.assetid: 9da7bb55-bf9f-4579-ae8e-b33ce5461950
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSinkWriterCallback, IMFSinkWriterCallback interface [Media Foundation], OnFinalize method, IMFSinkWriterCallback::OnFinalize, OnFinalize method [Media Foundation], OnFinalize method [Media Foundation], IMFSinkWriterCallback interface, OnFinalize,IMFSinkWriterCallback.OnFinalize, mf.imfsinkwritercallback_onfinalize, mfreadwrite/IMFSinkWriterCallback::OnFinalize
+ms.date: 5/3/2018
+ms.keywords: IMFSinkWriterCallback interface [Media Foundation],OnFinalize method, IMFSinkWriterCallback.OnFinalize, IMFSinkWriterCallback::OnFinalize, OnFinalize, OnFinalize method [Media Foundation], OnFinalize method [Media Foundation],IMFSinkWriterCallback interface, mf.imfsinkwritercallback_onfinalize, mfreadwrite/IMFSinkWriterCallback::OnFinalize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSinkWriterCallback::OnFinalize method
+# IMFSinkWriterCallback::OnFinalize
 
 
 ## -description

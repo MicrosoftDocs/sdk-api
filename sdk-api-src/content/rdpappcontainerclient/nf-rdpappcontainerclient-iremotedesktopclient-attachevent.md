@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.attachEvent
-title: IRemoteDesktopClient::attachEvent method
+title: IRemoteDesktopClient::attachEvent
 author: windows-driver-content
 description: Attaches an event handler to an event.
 old-location: termserv\iremotedesktopclient_attachevent.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: a904827b-644b-459b-b1bd-399bad21f94f
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IRemoteDesktopClient, IRemoteDesktopClient interface [Remote Desktop Services], attachEvent method, IRemoteDesktopClient::attachEvent, attachEvent method [Remote Desktop Services], attachEvent method [Remote Desktop Services], IRemoteDesktopClient interface, attachEvent,IRemoteDesktopClient.attachEvent, rdpappcontainerclient/IRemoteDesktopClient::attachEvent, termserv.iremotedesktopclient_attachevent
+ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],attachEvent method, IRemoteDesktopClient.attachEvent, IRemoteDesktopClient::attachEvent, attachEvent, attachEvent method [Remote Desktop Services], attachEvent method [Remote Desktop Services],IRemoteDesktopClient interface, rdpappcontainerclient/IRemoteDesktopClient::attachEvent, termserv.iremotedesktopclient_attachevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRemoteDesktopClient::attachEvent method
+# IRemoteDesktopClient::attachEvent
 
 
 ## -description

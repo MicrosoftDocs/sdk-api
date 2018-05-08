@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IStylusPlugin.Error
-title: IStylusPlugin::Error method
+title: IStylusPlugin::Error
 author: windows-driver-content
 description: Notifies the implementing object that this plug-in or one of the previous plug-ins in either the IStylusAsyncPlugin or IStylusSyncPlugin collection threw an exception.
 old-location: tablet\istylusplugin_error.htm
 old-project: tablet
 ms.assetid: 236589f8-a6ae-4db3-8be4-68c5babeb9f0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 236589f8-a6ae-4db3-8be4-68c5babeb9f0, Error method [Tablet PC], Error method [Tablet PC], IStylusPlugin interface, Error,IStylusPlugin.Error, IStylusPlugin, IStylusPlugin interface [Tablet PC], Error method, IStylusPlugin::Error, rtscom/IStylusPlugin::Error, tablet.istylusplugin_error
+ms.date: 5/2/2018
+ms.keywords: 236589f8-a6ae-4db3-8be4-68c5babeb9f0, Error, Error method [Tablet PC], Error method [Tablet PC],IStylusPlugin interface, IStylusPlugin interface [Tablet PC],Error method, IStylusPlugin.Error, IStylusPlugin::Error, rtscom/IStylusPlugin::Error, tablet.istylusplugin_error
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStylusPlugin::Error method
+# IStylusPlugin::Error
 
 
 ## -description

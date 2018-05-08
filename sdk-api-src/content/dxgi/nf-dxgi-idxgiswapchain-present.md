@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.Present
-title: IDXGISwapChain::Present method
+title: IDXGISwapChain::Present
 author: windows-driver-content
 description: Presents a rendered image to the user.
 old-location: direct3ddxgi\idxgiswapchain_present.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_present.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 5dfc8ba6-2dcd-cb78-b6d3-50ba63314d3c, IDXGISwapChain, IDXGISwapChain interface [DXGI], Present method, IDXGISwapChain::Present, Present method [DXGI], Present method [DXGI], IDXGISwapChain interface, Present,IDXGISwapChain.Present, direct3ddxgi.idxgiswapchain_present, dxgi/IDXGISwapChain::Present
+ms.keywords: 5dfc8ba6-2dcd-cb78-b6d3-50ba63314d3c, IDXGISwapChain interface [DXGI],Present method, IDXGISwapChain.Present, IDXGISwapChain::Present, Present, Present method [DXGI], Present method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_present, dxgi/IDXGISwapChain::Present
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain::Present method
+# IDXGISwapChain::Present
 
 
 ## -description

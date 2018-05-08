@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 3791C64F-76D7-4580-A444-F2CEA3EB10CE
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12Heap, ID3D12Heap interface, ID3D12Heap interface, described, d3d12/ID3D12Heap, direct3d12.id3d12heap
+ms.keywords: ID3D12Heap, ID3D12Heap interface, ID3D12Heap interface,described, d3d12/ID3D12Heap, direct3d12.id3d12heap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

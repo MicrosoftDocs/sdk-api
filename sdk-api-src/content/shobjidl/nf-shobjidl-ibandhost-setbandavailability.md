@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IBandHost.SetBandAvailability
-title: IBandHost::SetBandAvailability method
+title: IBandHost::SetBandAvailability
 author: windows-driver-content
 description: Sets the availability of a specified band.
 old-location: shell\IBandHost_SetBandAvailability.htm
 old-project: shell
 ms.assetid: a3e41e8f-45dd-4160-8a65-ec82b7e9abe7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBandHost, IBandHost interface [Windows Shell], SetBandAvailability method, IBandHost::SetBandAvailability, SetBandAvailability method [Windows Shell], SetBandAvailability method [Windows Shell], IBandHost interface, SetBandAvailability,IBandHost.SetBandAvailability, _shell_IBandHost_SetBandAvailability, shell.IBandHost_SetBandAvailability, shobjidl/IBandHost::SetBandAvailability
+ms.date: 5/3/2018
+ms.keywords: IBandHost interface [Windows Shell],SetBandAvailability method, IBandHost.SetBandAvailability, IBandHost::SetBandAvailability, SetBandAvailability, SetBandAvailability method [Windows Shell], SetBandAvailability method [Windows Shell],IBandHost interface, _shell_IBandHost_SetBandAvailability, shell.IBandHost_SetBandAvailability, shobjidl/IBandHost::SetBandAvailability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IBandHost::SetBandAvailability method
+# IBandHost::SetBandAvailability
 
 
 ## -description

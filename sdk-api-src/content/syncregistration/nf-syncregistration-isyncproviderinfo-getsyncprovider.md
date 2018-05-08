@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderInfo.GetSyncProvider
-title: ISyncProviderInfo::GetSyncProvider method
+title: ISyncProviderInfo::GetSyncProvider
 author: windows-driver-content
 description: Creates an instance of the synchronization provider.
 old-location: winsync\isyncproviderinfo_getsyncprovider.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 74b70f31-0934-4599-9515-e94b6622d440
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSyncProvider method [Windows Sync], GetSyncProvider method [Windows Sync], ISyncProviderInfo interface, GetSyncProvider,ISyncProviderInfo.GetSyncProvider, ISyncProviderInfo, ISyncProviderInfo interface [Windows Sync], GetSyncProvider method, ISyncProviderInfo::GetSyncProvider, syncregistration/ISyncProviderInfo::GetSyncProvider, winsync.isyncproviderinfo_getsyncprovider
+ms.keywords: GetSyncProvider, GetSyncProvider method [Windows Sync], GetSyncProvider method [Windows Sync],ISyncProviderInfo interface, ISyncProviderInfo interface [Windows Sync],GetSyncProvider method, ISyncProviderInfo.GetSyncProvider, ISyncProviderInfo::GetSyncProvider, syncregistration/ISyncProviderInfo::GetSyncProvider, winsync.isyncproviderinfo_getsyncprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderInfo::GetSyncProvider method
+# ISyncProviderInfo::GetSyncProvider
 
 
 ## -description

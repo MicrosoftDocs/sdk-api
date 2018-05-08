@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.ICancelMethodCalls.TestCancel
-title: ICancelMethodCalls::TestCancel method
+title: ICancelMethodCalls::TestCancel
 author: windows-driver-content
 description: Determines whether a call has been canceled.
 old-location: com\icancelmethodcalls_testcancel.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 31141d97-241e-4717-b707-e37d86c2267d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICancelMethodCalls, ICancelMethodCalls interface [COM], TestCancel method, ICancelMethodCalls::TestCancel, TestCancel method [COM], TestCancel method [COM], ICancelMethodCalls interface, TestCancel,ICancelMethodCalls.TestCancel, _com_icancelmethodcalls_testcancel, com.icancelmethodcalls_testcancel, objidlbase/ICancelMethodCalls::TestCancel
+ms.keywords: ICancelMethodCalls interface [COM],TestCancel method, ICancelMethodCalls.TestCancel, ICancelMethodCalls::TestCancel, TestCancel, TestCancel method [COM], TestCancel method [COM],ICancelMethodCalls interface, _com_icancelmethodcalls_testcancel, com.icancelmethodcalls_testcancel, objidlbase/ICancelMethodCalls::TestCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICancelMethodCalls::TestCancel method
+# ICancelMethodCalls::TestCancel
 
 
 ## -description

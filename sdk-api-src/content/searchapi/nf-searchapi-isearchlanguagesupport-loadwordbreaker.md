@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.LoadWordBreaker
-title: ISearchLanguageSupport::LoadWordBreaker method
+title: ISearchLanguageSupport::LoadWordBreaker
 author: windows-driver-content
 description: Retrieves an interface to the word breaker registered for the specified language code identifier (LCID).
 old-location: search\_search_ISearchLanguageSupport_LoadWordBreaker.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\loadwordbreaker.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchLanguageSupport, ISearchLanguageSupport interface [search], LoadWordBreaker method, ISearchLanguageSupport::LoadWordBreaker, LoadWordBreaker method [search], LoadWordBreaker method [search], ISearchLanguageSupport interface, LoadWordBreaker,ISearchLanguageSupport.LoadWordBreaker, _search_ISearchLanguageSupport_LoadWordBreaker, search._search_ISearchLanguageSupport_LoadWordBreaker, searchapi/ISearchLanguageSupport::LoadWordBreaker
+ms.date: 5/4/2018
+ms.keywords: ISearchLanguageSupport interface [search],LoadWordBreaker method, ISearchLanguageSupport.LoadWordBreaker, ISearchLanguageSupport::LoadWordBreaker, LoadWordBreaker, LoadWordBreaker method [search], LoadWordBreaker method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_LoadWordBreaker, search._search_ISearchLanguageSupport_LoadWordBreaker, searchapi/ISearchLanguageSupport::LoadWordBreaker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchLanguageSupport::LoadWordBreaker method
+# ISearchLanguageSupport::LoadWordBreaker
 
 
 ## -description

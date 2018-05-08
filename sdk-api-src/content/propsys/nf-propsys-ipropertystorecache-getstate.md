@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyStoreCache.GetState
-title: IPropertyStoreCache::GetState method
+title: IPropertyStoreCache::GetState
 author: windows-driver-content
 description: Gets the state of a specified property key.
 old-location: properties\IPropertyStoreCache_GetState.htm
 old-project: properties
 ms.assetid: bee9275d-9529-4285-8dee-8e4683def46d
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetState method [Windows Properties], GetState method [Windows Properties], IPropertyStoreCache interface, GetState,IPropertyStoreCache.GetState, IPropertyStoreCache, IPropertyStoreCache interface [Windows Properties], GetState method, IPropertyStoreCache::GetState, _shell_IPropertyStoreCache_GetState, properties.IPropertyStoreCache_GetState, propsys/IPropertyStoreCache::GetState, shell.IPropertyStoreCache_GetState
+ms.date: 4/27/2018
+ms.keywords: GetState, GetState method [Windows Properties], GetState method [Windows Properties],IPropertyStoreCache interface, IPropertyStoreCache interface [Windows Properties],GetState method, IPropertyStoreCache.GetState, IPropertyStoreCache::GetState, _shell_IPropertyStoreCache_GetState, properties.IPropertyStoreCache_GetState, propsys/IPropertyStoreCache::GetState, shell.IPropertyStoreCache_GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyStoreCache::GetState method
+# IPropertyStoreCache::GetState
 
 
 ## -description

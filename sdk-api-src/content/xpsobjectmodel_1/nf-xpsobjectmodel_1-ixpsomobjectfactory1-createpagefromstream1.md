@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePageFromStream1
-title: IXpsOMObjectFactory1::CreatePageFromStream1 method
+title: IXpsOMObjectFactory1::CreatePageFromStream1
 author: windows-driver-content
 description: Reads the page markup from the specified stream to create and populate an IXpsOMPage1 interface.
 old-location: xps\ixpsomobjectfactory1_createpagefromstream1.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 6a400006-0f8f-4eb2-88c0-b559c6a4a0ba
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePageFromStream1 method [XPS Documents and Packaging], CreatePageFromStream1 method [XPS Documents and Packaging], IXpsOMObjectFactory1 interface, CreatePageFromStream1,IXpsOMObjectFactory1.CreatePageFromStream1, IXpsOMObjectFactory1, IXpsOMObjectFactory1 interface [XPS Documents and Packaging], CreatePageFromStream1 method, IXpsOMObjectFactory1::CreatePageFromStream1, xps.ixpsomobjectfactory1_createpagefromstream1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePageFromStream1
+ms.keywords: CreatePageFromStream1, CreatePageFromStream1 method [XPS Documents and Packaging], CreatePageFromStream1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePageFromStream1 method, IXpsOMObjectFactory1.CreatePageFromStream1, IXpsOMObjectFactory1::CreatePageFromStream1, xps.ixpsomobjectfactory1_createpagefromstream1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePageFromStream1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory1::CreatePageFromStream1 method
+# IXpsOMObjectFactory1::CreatePageFromStream1
 
 
 ## -description

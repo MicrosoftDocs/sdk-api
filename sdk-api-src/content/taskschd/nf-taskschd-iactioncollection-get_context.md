@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IActionCollection.get_Context
-title: IActionCollection::get_Context method
+title: IActionCollection::get_Context
 author: windows-driver-content
 description: Gets or sets the identifier of the principal for the task.
 old-location: taskschd\iactioncollection_context.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: e365955e-1648-4e11-b602-016dcbeb129e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Context property [Task Scheduler], Context property [Task Scheduler], IActionCollection interface, IActionCollection, IActionCollection interface [Task Scheduler], Context property, IActionCollection.Context, IActionCollection::get_Context, IActionCollection::put_Context, get_Context,IActionCollection.get_Context, taskschd.iactioncollection_context, taskschd/IActionCollection::Context, taskschd/IActionCollection::get_Context, taskschd/IActionCollection::put_Context
+ms.keywords: Context property [Task Scheduler], Context property [Task Scheduler],IActionCollection interface, IActionCollection interface [Task Scheduler],Context property, IActionCollection.Context, IActionCollection.get_Context, IActionCollection::Context, IActionCollection::get_Context, IActionCollection::put_Context, get_Context, taskschd.iactioncollection_context, taskschd/IActionCollection::Context, taskschd/IActionCollection::get_Context, taskschd/IActionCollection::put_Context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IActionCollection::get_Context method
+# IActionCollection::get_Context
 
 
 ## -description

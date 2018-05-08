@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetTexture
-title: IDirect3DDevice9::SetTexture method
+title: IDirect3DDevice9::SetTexture
 author: windows-driver-content
 description: Assigns a texture to a stage for a device.
 old-location: direct3d9\idirect3ddevice9__settexture.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__settexture.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 30fa2907-7b07-b99a-b9b6-50d38166ea7d, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetTexture method, IDirect3DDevice9::SetTexture, SetTexture method [Direct3D 9], SetTexture method [Direct3D 9], IDirect3DDevice9 interface, SetTexture,IDirect3DDevice9.SetTexture, d3d9helper/IDirect3DDevice9::SetTexture, direct3d9.idirect3ddevice9__settexture
+ms.keywords: 30fa2907-7b07-b99a-b9b6-50d38166ea7d, IDirect3DDevice9 interface [Direct3D 9],SetTexture method, IDirect3DDevice9.SetTexture, IDirect3DDevice9::SetTexture, SetTexture, SetTexture method [Direct3D 9], SetTexture method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetTexture, direct3d9.idirect3ddevice9__settexture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::SetTexture method
+# IDirect3DDevice9::SetTexture
 
 
 ## -description

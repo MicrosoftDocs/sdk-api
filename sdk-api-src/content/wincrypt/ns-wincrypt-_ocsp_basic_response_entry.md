@@ -7,7 +7,7 @@ old-location: security\ocsp_basic_response_entry.htm
 old-project: SecCrypto
 ms.assetid: c22f25fd-bbee-45de-9ca0-064b159abb7c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*POCSP_BASIC_RESPONSE_ENTRY, OCSP_BASIC_GOOD_CERT_STATUS, OCSP_BASIC_RESPONSE_ENTRY, OCSP_BASIC_RESPONSE_ENTRY structure [Security], OCSP_BASIC_REVOKED_CERT_STATUS, OCSP_BASIC_UNKNOWN_CERT_STATUS, POCSP_BASIC_RESPONSE_ENTRY, POCSP_BASIC_RESPONSE_ENTRY structure pointer [Security], _OCSP_BASIC_RESPONSE_ENTRY, security.ocsp_basic_response_entry, wincrypt/OCSP_BASIC_RESPONSE_ENTRY, wincrypt/POCSP_BASIC_RESPONSE_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,6 +119,11 @@ The responder has no information for the target certificate.
  
 
 
+### -field DUMMYUNIONNAME.pRevokedInfo
+
+A pointer to an <a href="https://msdn.microsoft.com/4475cf2a-bf25-427d-8e53-5e5b96dd676a">OCSP_BASIC_REVOKED_INFO</a> structure that specifies the reason the target certificate was revoked.
+
+
 ### -field ThisUpdate
 
 The date and time at which the response indicated by <i>dwCertStatus</i> is known to be correct.
@@ -137,11 +142,6 @@ The number of elements in the <b>rgExtension</b> array.
 ### -field rgExtension
 
 An array of pointers to  <a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a> structures, each of which contains additional information about the response.
-
-
-#### - pRevokedInfo
-
-A pointer to an <a href="https://msdn.microsoft.com/4475cf2a-bf25-427d-8e53-5e5b96dd676a">OCSP_BASIC_REVOKED_INFO</a> structure that specifies the reason the target certificate was revoked.
 
 
 ## -see-also

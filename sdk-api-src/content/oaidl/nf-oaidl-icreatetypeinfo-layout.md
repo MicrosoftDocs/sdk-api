@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.LayOut
-title: ICreateTypeInfo::LayOut method
+title: ICreateTypeInfo::LayOut
 author: windows-driver-content
 description: Assigns VTBL offsets for virtual functions and instance offsets for per-instance data members, and creates the two type descriptions for dual interfaces.
 old-location: automat\icreatetypeinfo_layout.htm
 old-project: automat
 ms.assetid: 3880aad3-8a6f-43e6-8420-25c4d1b9a71a
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], LayOut method, ICreateTypeInfo::LayOut, LayOut method [Automation], LayOut method [Automation], ICreateTypeInfo interface, LayOut,ICreateTypeInfo.LayOut, _oa96_ICreateTypeInfo_LayOut, automat.icreatetypeinfo_layout, oaidl/ICreateTypeInfo::LayOut
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo interface [Automation],LayOut method, ICreateTypeInfo.LayOut, ICreateTypeInfo::LayOut, LayOut, LayOut method [Automation], LayOut method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_LayOut, automat.icreatetypeinfo_layout, oaidl/ICreateTypeInfo::LayOut
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo::LayOut method
+# ICreateTypeInfo::LayOut
 
 
 ## -description

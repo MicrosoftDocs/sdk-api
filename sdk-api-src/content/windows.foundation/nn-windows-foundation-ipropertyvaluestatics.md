@@ -7,8 +7,8 @@ old-location: winrt\ipropertyvaluestatics.htm
 old-project: WinRT
 ms.assetid: 946BD4F9-318C-4452-AEDB-DF2212A2D3CA
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], IPropertyValueStatics interface [Windows Runtime], described, windows/IPropertyValueStatics, winrt.ipropertyvaluefactory, winrt.ipropertyvaluestatics
+ms.date: 5/4/2018
+ms.keywords: IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], IPropertyValueStatics interface [Windows Runtime],described, windows/IPropertyValueStatics, winrt.ipropertyvaluefactory, winrt.ipropertyvaluestatics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

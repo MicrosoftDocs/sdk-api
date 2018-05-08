@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IPin.QueryId
-title: IPin::QueryId method
+title: IPin::QueryId
 author: windows-driver-content
 description: The QueryId method retrieves an identifier for the pin.
 old-location: dshow\ipin_queryid.htm
 old-project: DirectShow
 ms.assetid: d4fb2713-549d-4c0d-9768-386bcffd696f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IPin, IPin interface [DirectShow], QueryId method, IPin::QueryId, IPinQueryId, QueryId method [DirectShow], QueryId method [DirectShow], IPin interface, QueryId,IPin.QueryId, dshow.ipin_queryid, strmif/IPin::QueryId
+ms.date: 4/30/2018
+ms.keywords: IPin interface [DirectShow],QueryId method, IPin.QueryId, IPin::QueryId, IPinQueryId, QueryId, QueryId method [DirectShow], QueryId method [DirectShow],IPin interface, dshow.ipin_queryid, strmif/IPin::QueryId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IPin::QueryId method
+# IPin::QueryId
 
 
 ## -description

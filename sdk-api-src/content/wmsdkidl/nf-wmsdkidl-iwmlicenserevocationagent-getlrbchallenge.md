@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRevocationAgent.GetLRBChallenge
-title: IWMLicenseRevocationAgent::GetLRBChallenge method
+title: IWMLicenseRevocationAgent::GetLRBChallenge
 author: windows-driver-content
 description: The GetLRBChallenge method generates a response to a license revocation challenge message. Your application must send the response to the license server.
 old-location: wmformat\iwmlicenserevocationagent_getlrbchallenge.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 9006f6c5-f9e7-4d00-a7c2-bbdfcfdd85e7
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetLRBChallenge method [windows Media Format], GetLRBChallenge method [windows Media Format], IWMLicenseRevocationAgent interface, GetLRBChallenge,IWMLicenseRevocationAgent.GetLRBChallenge, IWMLicenseRevocationAgent, IWMLicenseRevocationAgent interface [windows Media Format], GetLRBChallenge method, IWMLicenseRevocationAgent::GetLRBChallenge, IWMLicenseRevocationAgentGetLRBChallenge, wmformat.iwmlicenserevocationagent_getlrbchallenge, wmsdkidl/IWMLicenseRevocationAgent::GetLRBChallenge
+ms.keywords: GetLRBChallenge, GetLRBChallenge method [windows Media Format], GetLRBChallenge method [windows Media Format],IWMLicenseRevocationAgent interface, IWMLicenseRevocationAgent interface [windows Media Format],GetLRBChallenge method, IWMLicenseRevocationAgent.GetLRBChallenge, IWMLicenseRevocationAgent::GetLRBChallenge, IWMLicenseRevocationAgentGetLRBChallenge, wmformat.iwmlicenserevocationagent_getlrbchallenge, wmsdkidl/IWMLicenseRevocationAgent::GetLRBChallenge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMLicenseRevocationAgent::GetLRBChallenge method
+# IWMLicenseRevocationAgent::GetLRBChallenge
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaItem.AnalyzeItem
-title: IWiaItem::AnalyzeItem method
+title: IWiaItem::AnalyzeItem
 author: windows-driver-content
 description: The IWiaItem::AnalyzeItem method causes the Windows Image Acquisition (WIA) hardware device to acquire and try to detect what data types are present.
 old-location: wia\_wia_IWiaItem_AnalyzeItem.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\analyzeitem.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: AnalyzeItem method [WIA], AnalyzeItem method [WIA], IWiaItem interface, AnalyzeItem,IWiaItem.AnalyzeItem, IWiaItem, IWiaItem interface [WIA], AnalyzeItem method, IWiaItem::AnalyzeItem, _wia_IWiaItem_AnalyzeItem, wia._wia_IWiaItem_AnalyzeItem, wia_xp/IWiaItem::AnalyzeItem
+ms.date: 5/3/2018
+ms.keywords: AnalyzeItem, AnalyzeItem method [WIA], AnalyzeItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],AnalyzeItem method, IWiaItem.AnalyzeItem, IWiaItem::AnalyzeItem, _wia_IWiaItem_AnalyzeItem, wia._wia_IWiaItem_AnalyzeItem, wia_xp/IWiaItem::AnalyzeItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaItem::AnalyzeItem method
+# IWiaItem::AnalyzeItem
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.GetConnectedInitiators
-title: IVdsIscsiTarget::GetConnectedInitiators method
+title: IVdsIscsiTarget::GetConnectedInitiators
 author: windows-driver-content
 description: Returns the list of iSCSI names of the initiators currently logged into the target.
 old-location: base\ivdsiscsitarget_getconnectedinitiators.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 2060f012-169c-4077-a6ed-cef362f926d4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetConnectedInitiators method [VDS], GetConnectedInitiators method [VDS], IVdsIscsiTarget interface, GetConnectedInitiators,IVdsIscsiTarget.GetConnectedInitiators, IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], GetConnectedInitiators method, IVdsIscsiTarget::GetConnectedInitiators, base.ivdsiscsitarget_getconnectedinitiators, vds/IVdsIscsiTarget::GetConnectedInitiators, vdshwprv/IVdsIscsiTarget::GetConnectedInitiators
+ms.keywords: GetConnectedInitiators, GetConnectedInitiators method [VDS], GetConnectedInitiators method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],GetConnectedInitiators method, IVdsIscsiTarget.GetConnectedInitiators, IVdsIscsiTarget::GetConnectedInitiators, base.ivdsiscsitarget_getconnectedinitiators, vds/IVdsIscsiTarget::GetConnectedInitiators, vdshwprv/IVdsIscsiTarget::GetConnectedInitiators
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsIscsiTarget::GetConnectedInitiators method
+# IVdsIscsiTarget::GetConnectedInitiators
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.GetIdentity
-title: ISettingsNamespace::GetIdentity method
+title: ISettingsNamespace::GetIdentity
 author: windows-driver-content
 description: Gets the identity of the namespace.
 old-location: smi\isettingsnamespace_getidentity.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: a61c629f-4f7b-46f8-bdeb-543523bc2bea
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetIdentity method [SMI], GetIdentity method [SMI], ISettingsNamespace interface, GetIdentity,ISettingsNamespace.GetIdentity, ISettingsNamespace, ISettingsNamespace interface [SMI], GetIdentity method, ISettingsNamespace::GetIdentity, smi.isettingsnamespace_getidentity, wcmconfig/ISettingsNamespace::GetIdentity
+ms.keywords: GetIdentity, GetIdentity method [SMI], GetIdentity method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],GetIdentity method, ISettingsNamespace.GetIdentity, ISettingsNamespace::GetIdentity, smi.isettingsnamespace_getidentity, wcmconfig/ISettingsNamespace::GetIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsNamespace::GetIdentity method
+# ISettingsNamespace::GetIdentity
 
 
 ## -description

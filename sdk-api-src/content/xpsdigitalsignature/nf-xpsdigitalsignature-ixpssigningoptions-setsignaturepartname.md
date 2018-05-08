@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetSignaturePartName
-title: IXpsSigningOptions::SetSignaturePartName method
+title: IXpsSigningOptions::SetSignaturePartName
 author: windows-driver-content
 description: Sets the part name of the document's signature part.
 old-location: xps\ixpssigningoptions_setsignaturepartname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 24addd5c-09a5-4f1b-90eb-c398aa7dd9a1
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], SetSignaturePartName method, IXpsSigningOptions::SetSignaturePartName, SetSignaturePartName method [XPS Documents and Packaging], SetSignaturePartName method [XPS Documents and Packaging], IXpsSigningOptions interface, SetSignaturePartName,IXpsSigningOptions.SetSignaturePartName, xps.ixpssigningoptions_setsignaturepartname, xpsdigitalsignature/IXpsSigningOptions::SetSignaturePartName
+ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignaturePartName method, IXpsSigningOptions.SetSignaturePartName, IXpsSigningOptions::SetSignaturePartName, SetSignaturePartName, SetSignaturePartName method [XPS Documents and Packaging], SetSignaturePartName method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignaturepartname, xpsdigitalsignature/IXpsSigningOptions::SetSignaturePartName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSigningOptions::SetSignaturePartName method
+# IXpsSigningOptions::SetSignaturePartName
 
 
 ## -description

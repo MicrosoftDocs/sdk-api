@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetProcAmpControlRange
-title: IVMRMixerControl9::GetProcAmpControlRange method
+title: IVMRMixerControl9::GetProcAmpControlRange
 author: windows-driver-content
 description: The GetProcAmpControlRange method retrieves the range of values for an image adjustment setting, such as brightness, contrast, hue, or saturation.
 old-location: dshow\ivmrmixercontrol9_getprocampcontrolrange.htm
 old-project: DirectShow
 ms.assetid: e7db2b22-b3d2-4c6f-84fc-5a287761ed7a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetProcAmpControlRange method [DirectShow], GetProcAmpControlRange method [DirectShow], IVMRMixerControl9 interface, GetProcAmpControlRange,IVMRMixerControl9.GetProcAmpControlRange, IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], GetProcAmpControlRange method, IVMRMixerControl9::GetProcAmpControlRange, IVMRMixerControl9GetProcAmpControlRange, dshow.ivmrmixercontrol9_getprocampcontrolrange, vmr9/IVMRMixerControl9::GetProcAmpControlRange
+ms.date: 4/30/2018
+ms.keywords: GetProcAmpControlRange, GetProcAmpControlRange method [DirectShow], GetProcAmpControlRange method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetProcAmpControlRange method, IVMRMixerControl9.GetProcAmpControlRange, IVMRMixerControl9::GetProcAmpControlRange, IVMRMixerControl9GetProcAmpControlRange, dshow.ivmrmixercontrol9_getprocampcontrolrange, vmr9/IVMRMixerControl9::GetProcAmpControlRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRMixerControl9::GetProcAmpControlRange method
+# IVMRMixerControl9::GetProcAmpControlRange
 
 
 ## -description

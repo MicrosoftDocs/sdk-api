@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.GetPreferredClsidByIndex
-title: IMFPluginControl::GetPreferredClsidByIndex method
+title: IMFPluginControl::GetPreferredClsidByIndex
 author: windows-driver-content
 description: Gets a class identifier (CLSID) from the preferred list, specified by index value.
 old-location: mf\imfplugincontrol_imfplugincontrol__getpreferredclsidbyindex.htm
 old-project: medfound
 ms.assetid: d99511ec-ac22-4166-b944-b0136ffcf01a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetPreferredClsidByIndex method [Media Foundation], GetPreferredClsidByIndex method [Media Foundation], IMFPluginControl interface, GetPreferredClsidByIndex,IMFPluginControl.GetPreferredClsidByIndex, IMFPluginControl, IMFPluginControl interface [Media Foundation], GetPreferredClsidByIndex method, IMFPluginControl::GetPreferredClsidByIndex, mf.imfplugincontrol_imfplugincontrol__getpreferredclsidbyindex, mfobjects/IMFPluginControl::GetPreferredClsidByIndex
+ms.date: 5/3/2018
+ms.keywords: GetPreferredClsidByIndex, GetPreferredClsidByIndex method [Media Foundation], GetPreferredClsidByIndex method [Media Foundation],IMFPluginControl interface, IMFPluginControl interface [Media Foundation],GetPreferredClsidByIndex method, IMFPluginControl.GetPreferredClsidByIndex, IMFPluginControl::GetPreferredClsidByIndex, mf.imfplugincontrol_imfplugincontrol__getpreferredclsidbyindex, mfobjects/IMFPluginControl::GetPreferredClsidByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPluginControl::GetPreferredClsidByIndex method
+# IMFPluginControl::GetPreferredClsidByIndex
 
 
 ## -description

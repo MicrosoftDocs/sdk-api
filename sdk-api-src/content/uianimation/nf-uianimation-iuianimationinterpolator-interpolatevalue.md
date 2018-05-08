@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.InterpolateValue
-title: IUIAnimationInterpolator::InterpolateValue method
+title: IUIAnimationInterpolator::InterpolateValue
 author: windows-driver-content
 description: Interpolates the value of an animation variable at the specified offset.
 old-location: uianimation\iuianimationinterpolator_interpolatevalue.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 5f1cccd7-8b22-47a3-9704-0f22a1431c99
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationInterpolator, IUIAnimationInterpolator interface [Windows Animation], InterpolateValue method, IUIAnimationInterpolator::InterpolateValue, InterpolateValue method [Windows Animation], InterpolateValue method [Windows Animation], IUIAnimationInterpolator interface, InterpolateValue,IUIAnimationInterpolator.InterpolateValue, uianimation.iuianimationinterpolator_interpolatevalue, uianimation/IUIAnimationInterpolator::InterpolateValue
+ms.keywords: IUIAnimationInterpolator interface [Windows Animation],InterpolateValue method, IUIAnimationInterpolator.InterpolateValue, IUIAnimationInterpolator::InterpolateValue, InterpolateValue, InterpolateValue method [Windows Animation], InterpolateValue method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_interpolatevalue, uianimation/IUIAnimationInterpolator::InterpolateValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationInterpolator::InterpolateValue method
+# IUIAnimationInterpolator::InterpolateValue
 
 
 ## -description

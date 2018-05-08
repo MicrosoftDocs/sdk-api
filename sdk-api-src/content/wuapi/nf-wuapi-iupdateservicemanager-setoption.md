@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.SetOption
-title: IUpdateServiceManager::SetOption method
+title: IUpdateServiceManager::SetOption
 author: windows-driver-content
 description: Set options for the object that specifies the service ID. The SetOption method is also used to determine whether a warning is displayed when you change the registration of Automatic Updates.
 old-location: wua\iupdateservicemanager_setoption.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: dbf0b70c-5be0-4acc-9c44-bf32f6f752fd
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateServiceManager, IUpdateServiceManager interface [Windows Update Agent], SetOption method, IUpdateServiceManager::SetOption, SetOption method [Windows Update Agent], SetOption method [Windows Update Agent], IUpdateServiceManager interface, SetOption,IUpdateServiceManager.SetOption, wua.iupdateservicemanager_setoption, wuapi/IUpdateServiceManager::SetOption
+ms.keywords: IUpdateServiceManager interface [Windows Update Agent],SetOption method, IUpdateServiceManager.SetOption, IUpdateServiceManager::SetOption, SetOption, SetOption method [Windows Update Agent], SetOption method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_setoption, wuapi/IUpdateServiceManager::SetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateServiceManager::SetOption method
+# IUpdateServiceManager::SetOption
 
 
 ## -description

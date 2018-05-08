@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetStream
-title: IPhotoAcquireItem::GetStream method
+title: IPhotoAcquireItem::GetStream
 author: windows-driver-content
 description: The GetStream method retrieves a read-only stream containing the contents of an item.
 old-location: picacq\iphotoacquireitem_getstream.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: d0b138aa-42df-4bb6-905d-647b2289df58
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetStream method [Picture Acquisition], GetStream method [Picture Acquisition], IPhotoAcquireItem interface, GetStream,IPhotoAcquireItem.GetStream, IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], GetStream method, IPhotoAcquireItem::GetStream, IPhotoAcquireItemGetStream, photoacquire/IPhotoAcquireItem::GetStream, picacq.iphotoacquireitem_getstream
+ms.keywords: GetStream, GetStream method [Picture Acquisition], GetStream method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetStream method, IPhotoAcquireItem.GetStream, IPhotoAcquireItem::GetStream, IPhotoAcquireItemGetStream, photoacquire/IPhotoAcquireItem::GetStream, picacq.iphotoacquireitem_getstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireItem::GetStream method
+# IPhotoAcquireItem::GetStream
 
 
 ## -description

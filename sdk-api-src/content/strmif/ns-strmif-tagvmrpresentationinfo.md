@@ -7,7 +7,7 @@ old-location: dshow\vmrpresentationinfo.htm
 old-project: DirectShow
 ms.assetid: cddbe3de-c5e2-4161-801f-f3497714922c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: VMRPRESENTATIONINFO, VMRPRESENTATIONINFO structure [DirectShow], VMRPRESENTATIONINFOStructure, dshow.vmrpresentationinfo, strmif/VMRPRESENTATIONINFO, tagVMRPRESENTATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

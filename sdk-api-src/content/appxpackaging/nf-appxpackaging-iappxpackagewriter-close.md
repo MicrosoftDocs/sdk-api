@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageWriter.Close
-title: IAppxPackageWriter::Close method
+title: IAppxPackageWriter::Close
 author: windows-driver-content
 description: Writes footprint files at the end of the app package, and closes the package writer object's output stream.
 old-location: appxpkg\iappxpackagewriter_close.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 294625B2-1141-44EE-A769-365C3B37EBD9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Close method [App packaging and management], Close method [App packaging and management], IAppxPackageWriter interface, Close,IAppxPackageWriter.Close, IAppxPackageWriter, IAppxPackageWriter interface [App packaging and management], Close method, IAppxPackageWriter::Close, appxpackaging/IAppxPackageWriter::Close, appxpkg.iappxpackagewriter_close
+ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxPackageWriter interface, IAppxPackageWriter interface [App packaging and management],Close method, IAppxPackageWriter.Close, IAppxPackageWriter::Close, appxpackaging/IAppxPackageWriter::Close, appxpkg.iappxpackagewriter_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxPackageWriter::Close method
+# IAppxPackageWriter::Close
 
 
 ## -description

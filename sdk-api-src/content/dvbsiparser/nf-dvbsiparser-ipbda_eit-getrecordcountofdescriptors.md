@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordCountOfDescriptors
-title: IPBDA_EIT::GetRecordCountOfDescriptors method
+title: IPBDA_EIT::GetRecordCountOfDescriptors
 author: windows-driver-content
 description: Gets the number of event records from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecordcountofdescriptors.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c491b2d0-6426-4a76-b3a1-4477fdf1779c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies], IPBDA_EIT interface, GetRecordCountOfDescriptors,IPBDA_EIT.GetRecordCountOfDescriptors, IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], GetRecordCountOfDescriptors method, IPBDA_EIT::GetRecordCountOfDescriptors, dvbsiparser/IPBDA_EIT::GetRecordCountOfDescriptors, mstv.ipbda_eit_getrecordcountofdescriptors
+ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IPBDA_EIT.GetRecordCountOfDescriptors, IPBDA_EIT::GetRecordCountOfDescriptors, dvbsiparser/IPBDA_EIT::GetRecordCountOfDescriptors, mstv.ipbda_eit_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IPBDA_EIT::GetRecordCountOfDescriptors method
+# IPBDA_EIT::GetRecordCountOfDescriptors
 
 
 ## -description

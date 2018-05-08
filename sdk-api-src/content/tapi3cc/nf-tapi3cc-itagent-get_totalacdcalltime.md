@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_TotalACDCallTime
-title: ITAgent::get_TotalACDCallTime method
+title: ITAgent::get_TotalACDCallTime
 author: windows-driver-content
 description: The get_TotalACDCallTime gets the number of seconds spent on ACD calls by this agent (across all sessions). This value includes the time spent on the phone plus wrap-up time.
 old-location: tapi3\itagent_get_totalacdcalltime.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 432e22b7-16c3-447d-bbec-59ab7713039c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], get_TotalACDCallTime method, ITAgent::get_TotalACDCallTime, _tapi3_itagent_get_totalacdcalltime, get_TotalACDCallTime method [TAPI 2.2], get_TotalACDCallTime method [TAPI 2.2], ITAgent interface, get_TotalACDCallTime,ITAgent.get_TotalACDCallTime, tapi3.itagent_get_totalacdcalltime, tapi3cc/ITAgent::get_TotalACDCallTime
+ms.keywords: ITAgent interface [TAPI 2.2],get_TotalACDCallTime method, ITAgent.get_TotalACDCallTime, ITAgent::get_TotalACDCallTime, _tapi3_itagent_get_totalacdcalltime, get_TotalACDCallTime, get_TotalACDCallTime method [TAPI 2.2], get_TotalACDCallTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalacdcalltime, tapi3cc/ITAgent::get_TotalACDCallTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgent::get_TotalACDCallTime method
+# ITAgent::get_TotalACDCallTime
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: e99e9bdb-6a3a-438d-8fac-92ef96c8dfdd
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfDocumentMgr, ITfDocumentMgr interface [Text Services Framework], ITfDocumentMgr interface [Text Services Framework], described, _tsf_itfdocumentmgr_ref, msctf/ITfDocumentMgr, tsf.itfdocumentmgr
+ms.keywords: ITfDocumentMgr, ITfDocumentMgr interface [Text Services Framework], ITfDocumentMgr interface [Text Services Framework],described, _tsf_itfdocumentmgr_ref, msctf/ITfDocumentMgr, tsf.itfdocumentmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

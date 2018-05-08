@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_ISO9660InterchangeLevelsSupported
-title: IFileSystemImage::get_ISO9660InterchangeLevelsSupported method
+title: IFileSystemImage::get_ISO9660InterchangeLevelsSupported
 author: windows-driver-content
 description: Retrieves the supported ISO9660 compatibility levels.
 old-location: imapi\ifilesystemimage_get_iso9660interchangelevelssupported.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: fd19c3ce-ef84-4f15-9032-679115b8b21f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_ISO9660InterchangeLevelsSupported method, IFileSystemImage::get_ISO9660InterchangeLevelsSupported, get_ISO9660InterchangeLevelsSupported method [IMAPI], get_ISO9660InterchangeLevelsSupported method [IMAPI], IFileSystemImage interface, get_ISO9660InterchangeLevelsSupported,IFileSystemImage.get_ISO9660InterchangeLevelsSupported, imapi.ifilesystemimage_get_iso9660interchangelevelssupported, imapi2fs/IFileSystemImage::get_ISO9660InterchangeLevelsSupported
+ms.keywords: IFileSystemImage interface [IMAPI],get_ISO9660InterchangeLevelsSupported method, IFileSystemImage.get_ISO9660InterchangeLevelsSupported, IFileSystemImage::get_ISO9660InterchangeLevelsSupported, get_ISO9660InterchangeLevelsSupported, get_ISO9660InterchangeLevelsSupported method [IMAPI], get_ISO9660InterchangeLevelsSupported method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_iso9660interchangelevelssupported, imapi2fs/IFileSystemImage::get_ISO9660InterchangeLevelsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::get_ISO9660InterchangeLevelsSupported method
+# IFileSystemImage::get_ISO9660InterchangeLevelsSupported
 
 
 ## -description

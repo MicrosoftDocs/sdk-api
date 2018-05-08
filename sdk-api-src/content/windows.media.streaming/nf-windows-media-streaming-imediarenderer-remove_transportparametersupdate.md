@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.remove_TransportParametersUpdate
-title: IMediaRenderer::remove_TransportParametersUpdate method
+title: IMediaRenderer::streaming
 author: windows-driver-content
 description: Unregisters an event handler for the TransportParametersUpdate event.
 old-location: mediastreaming\imediarenderer_remove_transportparametersupdate.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 7AA7B336-5C51-4774-89A1-F710603A7B23
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], remove_TransportParametersUpdate method, IMediaRenderer::remove_TransportParametersUpdate, mediastreaming.imediarenderer_remove_transportparametersupdate, remove_TransportParametersUpdate method [Media Streaming API], remove_TransportParametersUpdate method [Media Streaming API], IMediaRenderer interface, remove_TransportParametersUpdate,IMediaRenderer.remove_TransportParametersUpdate, windows/IMediaRenderer::remove_TransportParametersUpdate
+ms.keywords: IMediaRenderer interface [Media Streaming API],remove_TransportParametersUpdate method, IMediaRenderer.remove_TransportParametersUpdate, IMediaRenderer.streaming, IMediaRenderer::remove_TransportParametersUpdate, IMediaRenderer::streaming, mediastreaming.imediarenderer_remove_transportparametersupdate, remove_TransportParametersUpdate, remove_TransportParametersUpdate method [Media Streaming API], remove_TransportParametersUpdate method [Media Streaming API],IMediaRenderer interface, windows/IMediaRenderer::remove_TransportParametersUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IMediaRenderer::remove_TransportParametersUpdate method
+# IMediaRenderer::streaming
 
 
 ## -description

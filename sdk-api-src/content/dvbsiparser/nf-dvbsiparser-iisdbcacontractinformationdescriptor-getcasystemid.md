@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetCASystemId
-title: IIsdbCAContractInformationDescriptor::GetCASystemId method
+title: IIsdbCAContractInformationDescriptor::GetCASystemId
 author: windows-driver-content
 description: Gets the value of the CA_system_id field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field identifies the conditional access system associated with the contract information.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcasystemid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cb9f55c1-7967-43e4-9cb3-1d7cdf20c70a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface, GetCASystemId,IIsdbCAContractInformationDescriptor.GetCASystemId, IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], GetCASystemId method, IIsdbCAContractInformationDescriptor::GetCASystemId, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCASystemId, mstv.iisdbcacontractinformationdescriptor_getcasystemid
+ms.keywords: GetCASystemId, GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCASystemId method, IIsdbCAContractInformationDescriptor.GetCASystemId, IIsdbCAContractInformationDescriptor::GetCASystemId, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCASystemId, mstv.iisdbcacontractinformationdescriptor_getcasystemid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbCAContractInformationDescriptor::GetCASystemId method
+# IIsdbCAContractInformationDescriptor::GetCASystemId
 
 
 ## -description

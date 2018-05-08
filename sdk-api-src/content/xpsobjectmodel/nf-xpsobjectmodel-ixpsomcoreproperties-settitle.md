@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetTitle
-title: IXpsOMCoreProperties::SetTitle method
+title: IXpsOMCoreProperties::SetTitle
 author: windows-driver-content
 description: Sets the title property.
 old-location: xps\ixpsomcoreproperties_settitle.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 55562670-576f-483d-abcf-f69ce279245d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], SetTitle method, IXpsOMCoreProperties::SetTitle, SetTitle method [XPS Documents and Packaging], SetTitle method [XPS Documents and Packaging], IXpsOMCoreProperties interface, SetTitle,IXpsOMCoreProperties.SetTitle, xps.ixpsomcoreproperties_settitle, xpsobjectmodel/IXpsOMCoreProperties::SetTitle
+ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetTitle method, IXpsOMCoreProperties.SetTitle, IXpsOMCoreProperties::SetTitle, SetTitle, SetTitle method [XPS Documents and Packaging], SetTitle method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_settitle, xpsobjectmodel/IXpsOMCoreProperties::SetTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::SetTitle method
+# IXpsOMCoreProperties::SetTitle
 
 
 ## -description

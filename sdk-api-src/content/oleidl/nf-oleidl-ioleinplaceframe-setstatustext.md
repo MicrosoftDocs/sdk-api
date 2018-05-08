@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.SetStatusText
-title: IOleInPlaceFrame::SetStatusText method
+title: IOleInPlaceFrame::SetStatusText
 author: windows-driver-content
 description: Sets and displays status text about the in-place object in the container's frame window status line.
 old-location: com\ioleinplaceframe_setstatustext.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: e857bdbe-5510-4e35-ba73-d52b239e5b77
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceFrame, IOleInPlaceFrame interface [COM], SetStatusText method, IOleInPlaceFrame::SetStatusText, SetStatusText method [COM], SetStatusText method [COM], IOleInPlaceFrame interface, SetStatusText,IOleInPlaceFrame.SetStatusText, _ole_ioleinplaceframe_setstatustext, com.ioleinplaceframe_setstatustext, oleidl/IOleInPlaceFrame::SetStatusText
+ms.keywords: IOleInPlaceFrame interface [COM],SetStatusText method, IOleInPlaceFrame.SetStatusText, IOleInPlaceFrame::SetStatusText, SetStatusText, SetStatusText method [COM], SetStatusText method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_setstatustext, com.ioleinplaceframe_setstatustext, oleidl/IOleInPlaceFrame::SetStatusText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceFrame::SetStatusText method
+# IOleInPlaceFrame::SetStatusText
 
 
 ## -description

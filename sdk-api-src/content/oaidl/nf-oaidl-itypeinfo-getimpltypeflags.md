@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetImplTypeFlags
-title: ITypeInfo::GetImplTypeFlags method
+title: ITypeInfo::GetImplTypeFlags
 author: windows-driver-content
 description: Retrieves the IMPLTYPEFLAGS enumeration for one implemented interface or base interface in a type description.
 old-location: automat\itypeinfo_getimpltypeflags.htm
 old-project: automat
 ms.assetid: b3773111-b09d-4ae0-9a91-3c4adff5b803
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetImplTypeFlags method [Automation], GetImplTypeFlags method [Automation], ITypeInfo interface, GetImplTypeFlags,ITypeInfo.GetImplTypeFlags, ITypeInfo, ITypeInfo interface [Automation], GetImplTypeFlags method, ITypeInfo::GetImplTypeFlags, _oa96_ITypeInfo_GetImplTypeFlags, automat.itypeinfo_getimpltypeflags, oaidl/ITypeInfo::GetImplTypeFlags
+ms.date: 5/4/2018
+ms.keywords: GetImplTypeFlags, GetImplTypeFlags method [Automation], GetImplTypeFlags method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetImplTypeFlags method, ITypeInfo.GetImplTypeFlags, ITypeInfo::GetImplTypeFlags, _oa96_ITypeInfo_GetImplTypeFlags, automat.itypeinfo_getimpltypeflags, oaidl/ITypeInfo::GetImplTypeFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo::GetImplTypeFlags method
+# ITypeInfo::GetImplTypeFlags
 
 
 ## -description

@@ -63,24 +63,21 @@ Defines an IP address object.
 An IP version 4 (IPv4) or IP version 6 (IPv6) address object.
 
 
-
-#### v4
+### -field IP.v4
 
 <b>Type: <b>IN_ADDR</b>
 </b>
 An IPv4 address.
 
 
-
-#### v6
+### -field IP.v6
 
 <b>Type: <b>IN6_ADDR</b>
 </b>
 An IPv6 address.
 
 
-
-#### Addr
+### -field IP.Addr
 
 <b>Type: <b>UCHAR[sizeof(IN6_ADDR)]</b>
 </b>

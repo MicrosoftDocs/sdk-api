@@ -7,7 +7,7 @@ old-location: multimedia\acmdriverremove.htm
 old-project: Multimedia
 ms.assetid: 7182d452-a935-4ed5-808a-595fca4f0429
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: "_win32_acmDriverRemove, acmDriverRemove, acmDriverRemove function [Windows Multimedia], msacm/acmDriverRemove, multimedia.acmdriverremove"
 ms.prod: windows-hardware
 ms.technology: windows-devices

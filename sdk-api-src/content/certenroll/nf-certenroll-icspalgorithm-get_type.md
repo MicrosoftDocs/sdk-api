@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_Type
-title: ICspAlgorithm::get_Type method
+title: ICspAlgorithm::get_Type
 author: windows-driver-content
 description: Retrieves the algorithm type.
 old-location: security\icspalgorithm_type_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 28bffe60-10f2-462e-8067-943b12285982
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], Type property, ICspAlgorithm.Type, ICspAlgorithm::get_Type, Type property [Security], Type property [Security], ICspAlgorithm interface, XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, XCN_BCRYPT_CIPHER_INTERFACE, XCN_BCRYPT_HASH_INTERFACE, XCN_BCRYPT_RNG_INTERFACE, XCN_BCRYPT_SECRET_AGREEMENT_INTERFACE, XCN_BCRYPT_SIGNATURE_INTERFACE, XCN_BCRYPT_UNKNOWN_INTERFACE, certenroll/ICspAlgorithm::Type, certenroll/ICspAlgorithm::get_Type, get_Type,ICspAlgorithm.get_Type, security.icspalgorithm_type_property
+ms.keywords: ICspAlgorithm interface [Security],Type property, ICspAlgorithm.Type, ICspAlgorithm.get_Type, ICspAlgorithm::Type, ICspAlgorithm::get_Type, Type property [Security], Type property [Security],ICspAlgorithm interface, XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, XCN_BCRYPT_CIPHER_INTERFACE, XCN_BCRYPT_HASH_INTERFACE, XCN_BCRYPT_RNG_INTERFACE, XCN_BCRYPT_SECRET_AGREEMENT_INTERFACE, XCN_BCRYPT_SIGNATURE_INTERFACE, XCN_BCRYPT_UNKNOWN_INTERFACE, certenroll/ICspAlgorithm::Type, certenroll/ICspAlgorithm::get_Type, get_Type, security.icspalgorithm_type_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspAlgorithm::get_Type method
+# ICspAlgorithm::get_Type
 
 
 ## -description

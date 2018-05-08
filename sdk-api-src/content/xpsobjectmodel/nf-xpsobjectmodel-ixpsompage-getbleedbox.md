@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetBleedBox
-title: IXpsOMPage::GetBleedBox method
+title: IXpsOMPage::GetBleedBox
 author: windows-driver-content
 description: Gets the dimensions of the page's bleed box.
 old-location: xps\ixpsompage_getbleedbox.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 2ce82a0e-b01c-4c1e-8907-31f51dc51f10
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetBleedBox method [XPS Documents and Packaging], GetBleedBox method [XPS Documents and Packaging], IXpsOMPage interface, GetBleedBox,IXpsOMPage.GetBleedBox, IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], GetBleedBox method, IXpsOMPage::GetBleedBox, xps.ixpsompage_getbleedbox, xpsobjectmodel/IXpsOMPage::GetBleedBox
+ms.keywords: GetBleedBox, GetBleedBox method [XPS Documents and Packaging], GetBleedBox method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetBleedBox method, IXpsOMPage.GetBleedBox, IXpsOMPage::GetBleedBox, xps.ixpsompage_getbleedbox, xpsobjectmodel/IXpsOMPage::GetBleedBox
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::GetBleedBox method
+# IXpsOMPage::GetBleedBox
 
 
 ## -description

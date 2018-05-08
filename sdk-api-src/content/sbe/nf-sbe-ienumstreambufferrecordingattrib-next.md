@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IEnumStreamBufferRecordingAttrib.Next
-title: IEnumStreamBufferRecordingAttrib::Next method
+title: IEnumStreamBufferRecordingAttrib::Next
 author: windows-driver-content
 description: The Next method returns a specified number of attributes in the enumeration sequence.
 old-location: mstv\ienumstreambufferrecordingattrib_next.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 760b2e2c-799d-45e5-9dbd-2407e7431918
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IEnumStreamBufferRecordingAttrib, IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies], Next method, IEnumStreamBufferRecordingAttrib::Next, IEnumStreamBufferRecordingAttribNext, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies], IEnumStreamBufferRecordingAttrib interface, Next,IEnumStreamBufferRecordingAttrib.Next, mstv.ienumstreambufferrecordingattrib_next, sbe/IEnumStreamBufferRecordingAttrib::Next
+ms.keywords: IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies],Next method, IEnumStreamBufferRecordingAttrib.Next, IEnumStreamBufferRecordingAttrib::Next, IEnumStreamBufferRecordingAttribNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumStreamBufferRecordingAttrib interface, mstv.ienumstreambufferrecordingattrib_next, sbe/IEnumStreamBufferRecordingAttrib::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumStreamBufferRecordingAttrib::Next method
+# IEnumStreamBufferRecordingAttrib::Next
 
 
 ## -description

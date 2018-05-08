@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyCallback.JobError
-title: IBackgroundCopyCallback::JobError method
+title: IBackgroundCopyCallback::JobError
 author: windows-driver-content
 description: BITS calls your implementation of the JobError method when the state of the job changes to BG_JOB_STATE_ERROR.
 old-location: bits\ibackgroundcopycallback_joberror.htm
 old-project: Bits
 ms.assetid: 3e206195-1a8c-435e-9b8f-6517b8e3c4ca
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyCallback, IBackgroundCopyCallback interface [BITS], JobError method, IBackgroundCopyCallback::JobError, JobError method [BITS], JobError method [BITS], IBackgroundCopyCallback interface, JobError,IBackgroundCopyCallback.JobError, _drz_ibackgroundcopycallback_joberror, bits.ibackgroundcopycallback_joberror, bits/IBackgroundCopyCallback::JobError
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyCallback interface [BITS],JobError method, IBackgroundCopyCallback.JobError, IBackgroundCopyCallback::JobError, JobError, JobError method [BITS], JobError method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_joberror, bits.ibackgroundcopycallback_joberror, bits/IBackgroundCopyCallback::JobError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBackgroundCopyCallback::JobError method
+# IBackgroundCopyCallback::JobError
 
 
 ## -description

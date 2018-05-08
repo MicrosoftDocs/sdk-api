@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IMediaObject.ProcessInput
-title: IMediaObject::ProcessInput method
+title: IMediaObject::ProcessInput
 author: windows-driver-content
 description: The ProcessInput method delivers a buffer to the specified input stream.
 old-location: dshow\imediaobject_processinput.htm
 old-project: DirectShow
 ms.assetid: f52e9586-f65d-418f-8c1a-c97c0a81d253
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaObject, IMediaObject interface [DirectShow], ProcessInput method, IMediaObject::ProcessInput, IMediaObjectProcessInput, ProcessInput method [DirectShow], ProcessInput method [DirectShow], IMediaObject interface, ProcessInput,IMediaObject.ProcessInput, dshow.imediaobject_processinput, mediaobj/IMediaObject::ProcessInput
+ms.date: 4/30/2018
+ms.keywords: IMediaObject interface [DirectShow],ProcessInput method, IMediaObject.ProcessInput, IMediaObject::ProcessInput, IMediaObjectProcessInput, ProcessInput, ProcessInput method [DirectShow], ProcessInput method [DirectShow],IMediaObject interface, dshow.imediaobject_processinput, mediaobj/IMediaObject::ProcessInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaObject::ProcessInput method
+# IMediaObject::ProcessInput
 
 
 ## -description

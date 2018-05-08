@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsControllerPort.SetStatus
-title: IVdsControllerPort::SetStatus method
+title: IVdsControllerPort::SetStatus
 author: windows-driver-content
 description: Sets the status of a controller port to the specified value.
 old-location: base\ivdscontrollerport_setstatus.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 1338e1e7-80c8-409d-aa54-575618fd9797
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], SetStatus method, IVdsControllerPort::SetStatus, SetStatus method [VDS], SetStatus method [VDS], IVdsControllerPort interface, SetStatus,IVdsControllerPort.SetStatus, base.ivdscontrollerport_setstatus, vds/IVdsControllerPort::SetStatus
+ms.keywords: IVdsControllerPort interface [VDS],SetStatus method, IVdsControllerPort.SetStatus, IVdsControllerPort::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_setstatus, vds/IVdsControllerPort::SetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsControllerPort::SetStatus method
+# IVdsControllerPort::SetStatus
 
 
 ## -description

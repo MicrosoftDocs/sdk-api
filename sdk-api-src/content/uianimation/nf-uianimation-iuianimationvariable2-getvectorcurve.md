@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetVectorCurve
-title: IUIAnimationVariable2::GetVectorCurve method
+title: IUIAnimationVariable2::GetVectorCurve
 author: windows-driver-content
 description: Gets the animation curve of the animation variable for the specified dimension.
 old-location: uianimation\iuianimationvariable2_getvectorcurve.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: CAC7D415-5B0F-4587-8F1C-65399D2A5A58
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetVectorCurve method [Windows Animation], GetVectorCurve method [Windows Animation], IUIAnimationVariable2 interface, GetVectorCurve,IUIAnimationVariable2.GetVectorCurve, IUIAnimationVariable2, IUIAnimationVariable2 interface [Windows Animation], GetVectorCurve method, IUIAnimationVariable2::GetVectorCurve, uianimation.iuianimationvariable2_getvectorcurve, uianimation/IUIAnimationVariable2::GetVectorCurve
+ms.keywords: GetVectorCurve, GetVectorCurve method [Windows Animation], GetVectorCurve method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetVectorCurve method, IUIAnimationVariable2.GetVectorCurve, IUIAnimationVariable2::GetVectorCurve, uianimation.iuianimationvariable2_getvectorcurve, uianimation/IUIAnimationVariable2::GetVectorCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable2::GetVectorCurve method
+# IUIAnimationVariable2::GetVectorCurve
 
 
 ## -description

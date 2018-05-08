@@ -7,7 +7,7 @@ old-location: iphlp\icmpclosehandle.htm
 old-project: IpHlp
 ms.assetid: ce8f11bb-1e33-41bd-adb9-c18efadd4d0b
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: IcmpCloseHandle, IcmpCloseHandle function [IP Helper], _iphlp_icmpclosehandle, icmpapi/IcmpCloseHandle, iphlp.icmpclosehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

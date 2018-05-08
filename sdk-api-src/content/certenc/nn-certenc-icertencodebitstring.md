@@ -7,8 +7,8 @@ old-location: security\icertencodebitstring.htm
 old-project: SecCrypto
 ms.assetid: 51178b67-46da-49f8-9bd7-a500e846e0a8
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertEncodeBitString, ICertEncodeBitString interface [Security], ICertEncodeBitString interface [Security], described, _certsrv_icertencodebitstring, certenc/ICertEncodeBitString, security.icertencodebitstring
+ms.date: 4/30/2018
+ms.keywords: ICertEncodeBitString, ICertEncodeBitString interface [Security], ICertEncodeBitString interface [Security],described, _certsrv_icertencodebitstring, certenc/ICertEncodeBitString, security.icertencodebitstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

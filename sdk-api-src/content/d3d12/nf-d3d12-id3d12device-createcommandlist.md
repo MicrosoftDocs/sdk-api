@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateCommandList
-title: ID3D12Device::CreateCommandList method
+title: ID3D12Device::CreateCommandList
 author: windows-driver-content
 description: Creates a command list.
 old-location: direct3d12\id3d12device_createcommandlist.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 4C615D7D-6DBC-4EDA-8D72-271EC53047BF
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateCommandList method, CreateCommandList method, ID3D12Device interface, CreateCommandList,ID3D12Device.CreateCommandList, ID3D12Device, ID3D12Device interface, CreateCommandList method, ID3D12Device::CreateCommandList, d3d12/ID3D12Device::CreateCommandList, direct3d12.id3d12device_createcommandlist
+ms.keywords: CreateCommandList, CreateCommandList method, CreateCommandList method,ID3D12Device interface, ID3D12Device interface,CreateCommandList method, ID3D12Device.CreateCommandList, ID3D12Device::CreateCommandList, d3d12/ID3D12Device::CreateCommandList, direct3d12.id3d12device_createcommandlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CreateCommandList method
+# ID3D12Device::CreateCommandList
 
 
 ## -description

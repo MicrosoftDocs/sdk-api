@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPart.GetCompressionOptions
-title: IOpcPart::GetCompressionOptions method
+title: IOpcPart::GetCompressionOptions
 author: windows-driver-content
 description: Gets a value that describes the way part content is compressed.
 old-location: opc\iopcpart_getcompressionoptions.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: aee8e3a2-3fac-40da-bea2-1fd4e2224c81
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCompressionOptions method [Open Packaging Conventions], GetCompressionOptions method [Open Packaging Conventions], IOpcPart interface, GetCompressionOptions,IOpcPart.GetCompressionOptions, IOpcPart, IOpcPart interface [Open Packaging Conventions], GetCompressionOptions method, IOpcPart::GetCompressionOptions, msopc/IOpcPart::GetCompressionOptions, opc.iopcpart_getcompressionoptions
+ms.keywords: GetCompressionOptions, GetCompressionOptions method [Open Packaging Conventions], GetCompressionOptions method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetCompressionOptions method, IOpcPart.GetCompressionOptions, IOpcPart::GetCompressionOptions, msopc/IOpcPart::GetCompressionOptions, opc.iopcpart_getcompressionoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPart::GetCompressionOptions method
+# IOpcPart::GetCompressionOptions
 
 
 ## -description

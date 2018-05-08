@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.GetActiveLanguageProfile
-title: ITfInputProcessorProfiles::GetActiveLanguageProfile method
+title: ITfInputProcessorProfiles::GetActiveLanguageProfile
 author: windows-driver-content
 description: ITfInputProcessorProfiles::GetActiveLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_getactivelanguageprofile.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 446bfda3-63d9-4070-b758-bdaf267c9911
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetActiveLanguageProfile method [Text Services Framework], GetActiveLanguageProfile method [Text Services Framework], ITfInputProcessorProfiles interface, GetActiveLanguageProfile,ITfInputProcessorProfiles.GetActiveLanguageProfile, ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], GetActiveLanguageProfile method, ITfInputProcessorProfiles::GetActiveLanguageProfile, _tsf_itfinputprocessorprofiles_getactivelanguageprofile_ref, msctf/ITfInputProcessorProfiles::GetActiveLanguageProfile, tsf.itfinputprocessorprofiles_getactivelanguageprofile
+ms.keywords: GetActiveLanguageProfile, GetActiveLanguageProfile method [Text Services Framework], GetActiveLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetActiveLanguageProfile method, ITfInputProcessorProfiles.GetActiveLanguageProfile, ITfInputProcessorProfiles::GetActiveLanguageProfile, _tsf_itfinputprocessorprofiles_getactivelanguageprofile_ref, msctf/ITfInputProcessorProfiles::GetActiveLanguageProfile, tsf.itfinputprocessorprofiles_getactivelanguageprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfiles::GetActiveLanguageProfile method
+# ITfInputProcessorProfiles::GetActiveLanguageProfile
 
 
 ## -description

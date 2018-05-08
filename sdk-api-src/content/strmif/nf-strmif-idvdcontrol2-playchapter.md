@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayChapter
-title: IDvdControl2::PlayChapter method
+title: IDvdControl2::PlayChapter
 author: windows-driver-content
 description: The PlayChapter method starts playback from the specified chapter in the current title.
 old-location: dshow\idvdcontrol2_playchapter.htm
 old-project: DirectShow
 ms.assetid: b624aa7e-ff88-417c-8536-4ac38e8ae1ca
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], PlayChapter method, IDvdControl2::PlayChapter, IDvdControl2PlayChapter, PlayChapter method [DirectShow], PlayChapter method [DirectShow], IDvdControl2 interface, PlayChapter,IDvdControl2.PlayChapter, dshow.idvdcontrol2_playchapter, strmif/IDvdControl2::PlayChapter
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],PlayChapter method, IDvdControl2.PlayChapter, IDvdControl2::PlayChapter, IDvdControl2PlayChapter, PlayChapter, PlayChapter method [DirectShow], PlayChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchapter, strmif/IDvdControl2::PlayChapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::PlayChapter method
+# IDvdControl2::PlayChapter
 
 
 ## -description

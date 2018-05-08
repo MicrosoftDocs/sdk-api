@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateManager.ImportTemplates
-title: IFsrmQuotaTemplateManager::ImportTemplates method
+title: IFsrmQuotaTemplateManager::ImportTemplates
 author: windows-driver-content
 description: Imports the specified quota templates from an XML string.
 old-location: fsrm\ifsrmquotatemplatemanager_importtemplates.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: f530d7fc-8b41-4a5e-a10a-b9211c7fe2bb
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmQuotaTemplateManager class [File Server Resource Manager], ImportTemplates method, IFsrmQuotaTemplateManager, IFsrmQuotaTemplateManager interface [File Server Resource Manager], ImportTemplates method, IFsrmQuotaTemplateManager::ImportTemplates, ImportTemplates method [File Server Resource Manager], ImportTemplates method [File Server Resource Manager], FsrmQuotaTemplateManager class, ImportTemplates method [File Server Resource Manager], IFsrmQuotaTemplateManager interface, ImportTemplates,IFsrmQuotaTemplateManager.ImportTemplates, fs.ifsrmquotatemplatemanager_importtemplates, fsrm.ifsrmquotatemplatemanager_importtemplates, fsrmquota/IFsrmQuotaTemplateManager::ImportTemplates
+ms.keywords: FsrmQuotaTemplateManager class [File Server Resource Manager],ImportTemplates method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],ImportTemplates method, IFsrmQuotaTemplateManager.ImportTemplates, IFsrmQuotaTemplateManager::ImportTemplates, ImportTemplates, ImportTemplates method [File Server Resource Manager], ImportTemplates method [File Server Resource Manager],FsrmQuotaTemplateManager class, ImportTemplates method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, fs.ifsrmquotatemplatemanager_importtemplates, fsrm.ifsrmquotatemplatemanager_importtemplates, fsrmquota/IFsrmQuotaTemplateManager::ImportTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaTemplateManager::ImportTemplates method
+# IFsrmQuotaTemplateManager::ImportTemplates
 
 
 ## -description

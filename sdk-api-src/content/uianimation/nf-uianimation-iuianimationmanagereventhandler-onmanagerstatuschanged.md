@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManagerEventHandler.OnManagerStatusChanged
-title: IUIAnimationManagerEventHandler::OnManagerStatusChanged method
+title: IUIAnimationManagerEventHandler::OnManagerStatusChanged
 author: windows-driver-content
 description: Handles status changes to an animation manager.
 old-location: uianimation\iuianimationmanagereventhandler_onmanagerstatuschanged.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 17f98ff5-f18e-44be-a8bd-bc5a6467fa83
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationManagerEventHandler, IUIAnimationManagerEventHandler interface [Windows Animation], OnManagerStatusChanged method, IUIAnimationManagerEventHandler::OnManagerStatusChanged, OnManagerStatusChanged method [Windows Animation], OnManagerStatusChanged method [Windows Animation], IUIAnimationManagerEventHandler interface, OnManagerStatusChanged,IUIAnimationManagerEventHandler.OnManagerStatusChanged, uianimation.iuianimationmanagereventhandler_onmanagerstatuschanged, uianimation/IUIAnimationManagerEventHandler::OnManagerStatusChanged
+ms.keywords: IUIAnimationManagerEventHandler interface [Windows Animation],OnManagerStatusChanged method, IUIAnimationManagerEventHandler.OnManagerStatusChanged, IUIAnimationManagerEventHandler::OnManagerStatusChanged, OnManagerStatusChanged, OnManagerStatusChanged method [Windows Animation], OnManagerStatusChanged method [Windows Animation],IUIAnimationManagerEventHandler interface, uianimation.iuianimationmanagereventhandler_onmanagerstatuschanged, uianimation/IUIAnimationManagerEventHandler::OnManagerStatusChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManagerEventHandler::OnManagerStatusChanged method
+# IUIAnimationManagerEventHandler::OnManagerStatusChanged
 
 
 ## -description

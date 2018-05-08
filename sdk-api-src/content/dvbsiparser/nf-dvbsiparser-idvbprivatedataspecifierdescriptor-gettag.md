@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbPrivateDataSpecifierDescriptor.GetTag
-title: IDvbPrivateDataSpecifierDescriptor::GetTag method
+title: IDvbPrivateDataSpecifierDescriptor::GetTag
 author: windows-driver-content
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) private data descriptor.
 old-location: mstv\idvbprivatedataspecifierdescriptor_gettag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bccca68c-d480-47d0-a0db-7a7d3f8376c2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbPrivateDataSpecifierDescriptor interface, GetTag,IDvbPrivateDataSpecifierDescriptor.GetTag, IDvbPrivateDataSpecifierDescriptor, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbPrivateDataSpecifierDescriptor::GetTag, dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetTag, mstv.idvbprivatedataspecifierdescriptor_gettag
+ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbPrivateDataSpecifierDescriptor interface, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbPrivateDataSpecifierDescriptor.GetTag, IDvbPrivateDataSpecifierDescriptor::GetTag, dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetTag, mstv.idvbprivatedataspecifierdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbPrivateDataSpecifierDescriptor::GetTag method
+# IDvbPrivateDataSpecifierDescriptor::GetTag
 
 
 ## -description

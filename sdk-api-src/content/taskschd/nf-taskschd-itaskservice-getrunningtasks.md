@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskService.GetRunningTasks
-title: ITaskService::GetRunningTasks method
+title: ITaskService::GetRunningTasks
 author: windows-driver-content
 description: Gets a collection of running tasks.
 old-location: taskschd\itaskservice_getrunningtasks.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 6248cf51-acd8-4317-9837-99dcf918e816
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetRunningTasks method [Task Scheduler], GetRunningTasks method [Task Scheduler], ITaskService interface, GetRunningTasks,ITaskService.GetRunningTasks, ITaskService, ITaskService interface [Task Scheduler], GetRunningTasks method, ITaskService::GetRunningTasks, taskschd.itaskservice_getrunningtasks, taskschd/ITaskService::GetRunningTasks
+ms.keywords: GetRunningTasks, GetRunningTasks method [Task Scheduler], GetRunningTasks method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],GetRunningTasks method, ITaskService.GetRunningTasks, ITaskService::GetRunningTasks, taskschd.itaskservice_getrunningtasks, taskschd/ITaskService::GetRunningTasks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskService::GetRunningTasks method
+# ITaskService::GetRunningTasks
 
 
 ## -description

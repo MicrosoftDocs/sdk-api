@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.ReleaseAddress
-title: IMcastAddressAllocation::ReleaseAddress method
+title: IMcastAddressAllocation::ReleaseAddress
 author: windows-driver-content
 description: The ReleaseAddress method releases a lease that was obtained previously.
 old-location: tapi3\imcastaddressallocation_releaseaddress.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 6b5fd18b-1b13-4e2a-9ff9-4a66212213a7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IMcastAddressAllocation, IMcastAddressAllocation interface [TAPI 2.2], ReleaseAddress method, IMcastAddressAllocation::ReleaseAddress, ReleaseAddress method [TAPI 2.2], ReleaseAddress method [TAPI 2.2], IMcastAddressAllocation interface, ReleaseAddress,IMcastAddressAllocation.ReleaseAddress, _tapi3_imcastaddressallocation_releaseaddress, mdhcp/IMcastAddressAllocation::ReleaseAddress, tapi3.imcastaddressallocation_releaseaddress
+ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],ReleaseAddress method, IMcastAddressAllocation.ReleaseAddress, IMcastAddressAllocation::ReleaseAddress, ReleaseAddress, ReleaseAddress method [TAPI 2.2], ReleaseAddress method [TAPI 2.2],IMcastAddressAllocation interface, _tapi3_imcastaddressallocation_releaseaddress, mdhcp/IMcastAddressAllocation::ReleaseAddress, tapi3.imcastaddressallocation_releaseaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMcastAddressAllocation::ReleaseAddress method
+# IMcastAddressAllocation::ReleaseAddress
 
 
 ## -description

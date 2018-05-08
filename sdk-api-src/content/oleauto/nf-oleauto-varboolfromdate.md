@@ -7,7 +7,7 @@ old-location: automat\varboolfromdate.htm
 old-project: automat
 ms.assetid: 3ba9e701-56c6-471c-9c82-a31c893a3a1c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarBoolFromDate, VarBoolFromDate function [Automation], _oa96_VarBoolFromDate, automat.varboolfromdate, oleauto/VarBoolFromDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

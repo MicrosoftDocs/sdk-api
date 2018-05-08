@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 4102AF77-3EC7-42CD-8B9C-6D0CC999529A
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12ShaderReflectionConstantBuffer, ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface, described, d3d12shader/ID3D12ShaderReflectionConstantBuffer, direct3d12.id3d12shaderreflectionconstantbuffer
+ms.keywords: ID3D12ShaderReflectionConstantBuffer, ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,described, d3d12shader/ID3D12ShaderReflectionConstantBuffer, direct3d12.id3d12shaderreflectionconstantbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

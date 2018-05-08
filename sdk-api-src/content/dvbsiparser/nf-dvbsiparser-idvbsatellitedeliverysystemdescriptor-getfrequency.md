@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetFrequency
-title: IDvbSatelliteDeliverySystemDescriptor::GetFrequency method
+title: IDvbSatelliteDeliverySystemDescriptor::GetFrequency
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getfrequency.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: dc298f61-f7f1-42dc-a585-bfe9f58b1629
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetFrequency method [Microsoft TV Technologies], GetFrequency method [Microsoft TV Technologies], IDvbSatelliteDeliverySystemDescriptor interface, GetFrequency,IDvbSatelliteDeliverySystemDescriptor.GetFrequency, IDvbSatelliteDeliverySystemDescriptor, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies], GetFrequency method, IDvbSatelliteDeliverySystemDescriptor::GetFrequency, IDvbSatelliteDeliverySystemDescriptorGetFrequency, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFrequency, mstv.idvbsatellitedeliverysystemdescriptor_getfrequency
+ms.keywords: GetFrequency, GetFrequency method [Microsoft TV Technologies], GetFrequency method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFrequency method, IDvbSatelliteDeliverySystemDescriptor.GetFrequency, IDvbSatelliteDeliverySystemDescriptor::GetFrequency, IDvbSatelliteDeliverySystemDescriptorGetFrequency, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFrequency, mstv.idvbsatellitedeliverysystemdescriptor_getfrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbSatelliteDeliverySystemDescriptor::GetFrequency method
+# IDvbSatelliteDeliverySystemDescriptor::GetFrequency
 
 
 ## -description

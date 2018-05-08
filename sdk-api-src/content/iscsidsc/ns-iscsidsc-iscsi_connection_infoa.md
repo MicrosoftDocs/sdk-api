@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: ISCSI_CONNECTION_INFOW (Unicode) and ISCSI_CONNECTION_INFOA (ANSI)
 req.idl: 
 req.max-support: 
-req.namespace: Root\WMI
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.typenames: ISCSI_CONNECTION_INFOA, *PISCSI_CONNECTION_INFOA

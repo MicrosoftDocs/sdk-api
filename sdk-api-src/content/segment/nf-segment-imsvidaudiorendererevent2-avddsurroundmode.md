@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDDSurroundMode
-title: IMSVidAudioRendererEvent2::AVDDSurroundMode method
+title: IMSVidAudioRendererEvent2::AVDDSurroundMode
 author: windows-driver-content
 description: Indicates a change in the AVDDSurroundMode codec property.
 old-location: mstv\imsvidaudiorendererevent2_avddsurroundmode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 30a4d8d7-ee77-43bb-b1fc-5be13a9b6872
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AVDDSurroundMode method [Microsoft TV Technologies], AVDDSurroundMode method [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface, AVDDSurroundMode,IMSVidAudioRendererEvent2.AVDDSurroundMode, IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], AVDDSurroundMode method, IMSVidAudioRendererEvent2::AVDDSurroundMode, mstv.imsvidaudiorendererevent2_avddsurroundmode, segment/IMSVidAudioRendererEvent2::AVDDSurroundMode
+ms.keywords: AVDDSurroundMode, AVDDSurroundMode method [Microsoft TV Technologies], AVDDSurroundMode method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDDSurroundMode method, IMSVidAudioRendererEvent2.AVDDSurroundMode, IMSVidAudioRendererEvent2::AVDDSurroundMode, mstv.imsvidaudiorendererevent2_avddsurroundmode, segment/IMSVidAudioRendererEvent2::AVDDSurroundMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidAudioRendererEvent2::AVDDSurroundMode method
+# IMSVidAudioRendererEvent2::AVDDSurroundMode
 
 
 ## -description

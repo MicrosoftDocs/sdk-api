@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoProcessorEnumerator
-title: ID3D11VideoDevice::CreateVideoProcessorEnumerator method
+title: ID3D11VideoDevice::CreateVideoProcessorEnumerator
 author: windows-driver-content
 description: Enumerates the video processor capabilities of the driver.
 old-location: mf\id3d11videodevice_createvideoprocessorenumerator.htm
 old-project: medfound
 ms.assetid: 992C699D-A499-494E-AEDF-A6688CB14D70
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateVideoProcessorEnumerator method [Media Foundation], CreateVideoProcessorEnumerator method [Media Foundation], ID3D11VideoDevice interface, CreateVideoProcessorEnumerator,ID3D11VideoDevice.CreateVideoProcessorEnumerator, ID3D11VideoDevice, ID3D11VideoDevice interface [Media Foundation], CreateVideoProcessorEnumerator method, ID3D11VideoDevice::CreateVideoProcessorEnumerator, d3d11/ID3D11VideoDevice::CreateVideoProcessorEnumerator, mf.id3d11videodevice_createvideoprocessorenumerator
+ms.date: 5/3/2018
+ms.keywords: CreateVideoProcessorEnumerator, CreateVideoProcessorEnumerator method [Media Foundation], CreateVideoProcessorEnumerator method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessorEnumerator method, ID3D11VideoDevice.CreateVideoProcessorEnumerator, ID3D11VideoDevice::CreateVideoProcessorEnumerator, d3d11/ID3D11VideoDevice::CreateVideoProcessorEnumerator, mf.id3d11videodevice_createvideoprocessorenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoDevice::CreateVideoProcessorEnumerator method
+# ID3D11VideoDevice::CreateVideoProcessorEnumerator
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: tablet\irealtimestylus.htm
 old-project: tablet
 ms.assetid: bfd13012-decf-423a-bc1a-39fb9b0eb64e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IRealTimeStylus, IRealTimeStylus interface [Tablet PC], IRealTimeStylus interface [Tablet PC], described, bfd13012-decf-423a-bc1a-39fb9b0eb64e, rtscom/IRealTimeStylus, tablet.irealtimestylus
+ms.date: 5/2/2018
+ms.keywords: IRealTimeStylus, IRealTimeStylus interface [Tablet PC], IRealTimeStylus interface [Tablet PC],described, bfd13012-decf-423a-bc1a-39fb9b0eb64e, rtscom/IRealTimeStylus, tablet.irealtimestylus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

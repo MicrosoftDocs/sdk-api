@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemDeleted
-title: INameSpaceTreeControlEvents::OnItemDeleted method
+title: INameSpaceTreeControlEvents::OnItemDeleted
 author: windows-driver-content
 description: Called after an IShellItem has been deleted.
 old-location: shell\INameSpaceTreeControlEvents_OnItemDeleted.htm
 old-project: shell
 ms.assetid: be5894ce-bf4c-4738-9096-da9c9d8688ee
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnItemDeleted method, INameSpaceTreeControlEvents::OnItemDeleted, OnItemDeleted method [Windows Shell], OnItemDeleted method [Windows Shell], INameSpaceTreeControlEvents interface, OnItemDeleted,INameSpaceTreeControlEvents.OnItemDeleted, _shell_INameSpaceTreeControlEvents_OnItemDeleted, shell.INameSpaceTreeControlEvents_OnItemDeleted, shobjidl/INameSpaceTreeControlEvents::OnItemDeleted
+ms.date: 5/3/2018
+ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemDeleted method, INameSpaceTreeControlEvents.OnItemDeleted, INameSpaceTreeControlEvents::OnItemDeleted, OnItemDeleted, OnItemDeleted method [Windows Shell], OnItemDeleted method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemDeleted, shell.INameSpaceTreeControlEvents_OnItemDeleted, shobjidl/INameSpaceTreeControlEvents::OnItemDeleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeControlEvents::OnItemDeleted method
+# INameSpaceTreeControlEvents::OnItemDeleted
 
 
 ## -description

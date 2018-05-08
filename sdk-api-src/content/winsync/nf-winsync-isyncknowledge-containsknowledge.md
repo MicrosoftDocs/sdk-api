@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ContainsKnowledge
-title: ISyncKnowledge::ContainsKnowledge method
+title: ISyncKnowledge::ContainsKnowledge
 author: windows-driver-content
 description: Indicates whether the specified knowledge is known by this knowledge.
 old-location: winsync\isyncknowledge_containsknowledge.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: b6b58390-84be-48ff-a3b9-3b3c83d4f661
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ContainsKnowledge method [Windows Sync], ContainsKnowledge method [Windows Sync], ISyncKnowledge interface, ContainsKnowledge,ISyncKnowledge.ContainsKnowledge, ISyncKnowledge, ISyncKnowledge interface [Windows Sync], ContainsKnowledge method, ISyncKnowledge::ContainsKnowledge, winsync.isyncknowledge_containsknowledge, winsync/ISyncKnowledge::ContainsKnowledge
+ms.keywords: ContainsKnowledge, ContainsKnowledge method [Windows Sync], ContainsKnowledge method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ContainsKnowledge method, ISyncKnowledge.ContainsKnowledge, ISyncKnowledge::ContainsKnowledge, winsync.isyncknowledge_containsknowledge, winsync/ISyncKnowledge::ContainsKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::ContainsKnowledge method
+# ISyncKnowledge::ContainsKnowledge
 
 
 ## -description

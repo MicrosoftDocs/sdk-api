@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumSTATDATA.Skip
-title: IEnumSTATDATA::Skip method
+title: IEnumSTATDATA::Skip
 author: windows-driver-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumstatdata_skip.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: fe3d45bc-bdcf-4e05-a03f-a40780b016e4
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumSTATDATA, IEnumSTATDATA interface [COM], Skip method, IEnumSTATDATA::Skip, Skip method [COM], Skip method [COM], IEnumSTATDATA interface, Skip,IEnumSTATDATA.Skip, _ole_ienumstatdata_skip, com.ienumstatdata_skip, objidl/IEnumSTATDATA::Skip
+ms.keywords: IEnumSTATDATA interface [COM],Skip method, IEnumSTATDATA.Skip, IEnumSTATDATA::Skip, Skip, Skip method [COM], Skip method [COM],IEnumSTATDATA interface, _ole_ienumstatdata_skip, com.ienumstatdata_skip, objidl/IEnumSTATDATA::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumSTATDATA::Skip method
+# IEnumSTATDATA::Skip
 
 
 ## -description

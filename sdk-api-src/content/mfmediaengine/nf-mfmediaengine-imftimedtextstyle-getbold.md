@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetBold
-title: IMFTimedTextStyle::GetBold method
+title: IMFTimedTextStyle::GetBold
 author: windows-driver-content
 description: Determines whether the style of timed text is bold.
 old-location: mf\imftimedtextstyle_getbold.htm
 old-project: medfound
 ms.assetid: 53CAE4C9-061B-44F3-A81B-A276085C69F2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetBold method [Media Foundation], GetBold method [Media Foundation], IMFTimedTextStyle interface, GetBold,IMFTimedTextStyle.GetBold, IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], GetBold method, IMFTimedTextStyle::GetBold, mf.imftimedtextstyle_getbold, mfmediaengine/IMFTimedTextStyle::GetBold
+ms.date: 5/3/2018
+ms.keywords: GetBold, GetBold method [Media Foundation], GetBold method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetBold method, IMFTimedTextStyle.GetBold, IMFTimedTextStyle::GetBold, mf.imftimedtextstyle_getbold, mfmediaengine/IMFTimedTextStyle::GetBold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextStyle::GetBold method
+# IMFTimedTextStyle::GetBold
 
 
 ## -description

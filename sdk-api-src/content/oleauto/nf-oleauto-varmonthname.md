@@ -7,7 +7,7 @@ old-location: automat\varmonthname.htm
 old-project: automat
 ms.assetid: 8bb760ae-2306-4c32-805d-58e5402e6d78
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarMonthName, VarMonthName function [Automation], _oa96_VarMonthName, automat.varmonthname, oleauto/VarMonthName
 ms.prod: windows-hardware
 ms.technology: windows-devices

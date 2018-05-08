@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PostHeapMinimize
-title: IMallocSpy::PostHeapMinimize method
+title: IMallocSpy::PostHeapMinimize
 author: windows-driver-content
 description: Performs operations required after calling IMalloc::HeapMinimize.
 old-location: com\imallocspy_postheapminimize.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 9d51c34e-6ed1-493d-8999-e67c4a60f6b6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMallocSpy, IMallocSpy interface [COM], PostHeapMinimize method, IMallocSpy::PostHeapMinimize, PostHeapMinimize method [COM], PostHeapMinimize method [COM], IMallocSpy interface, PostHeapMinimize,IMallocSpy.PostHeapMinimize, _com_imallocspy_postheapminimize, com.imallocspy_postheapminimize, objidl/IMallocSpy::PostHeapMinimize
+ms.keywords: IMallocSpy interface [COM],PostHeapMinimize method, IMallocSpy.PostHeapMinimize, IMallocSpy::PostHeapMinimize, PostHeapMinimize, PostHeapMinimize method [COM], PostHeapMinimize method [COM],IMallocSpy interface, _com_imallocspy_postheapminimize, com.imallocspy_postheapminimize, objidl/IMallocSpy::PostHeapMinimize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMallocSpy::PostHeapMinimize method
+# IMallocSpy::PostHeapMinimize
 
 
 ## -description

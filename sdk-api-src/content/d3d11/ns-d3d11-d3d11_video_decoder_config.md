@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_decoder_config.htm
 old-project: medfound
 ms.assetid: AB963FAD-F16C-47F6-8C78-FF4C234FBC60
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: D3D11_VIDEO_DECODER_CONFIG, D3D11_VIDEO_DECODER_CONFIG structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_CONFIG, mf.d3d11_video_decoder_config
 ms.prod: windows-hardware
 ms.technology: windows-devices

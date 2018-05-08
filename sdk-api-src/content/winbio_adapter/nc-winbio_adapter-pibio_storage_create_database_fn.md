@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 7b9e034e-51d4-4209-9092-14e21e9fff3c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_CREATE_DATABASE_FN, StorageAdapterCreateDatabase, StorageAdapterCreateDatabase callback function [Windows Biometric Framework API], secbiomet.storageadaptercreatedatabase, winbio_adapter/StorageAdapterCreateDatabase
+ms.keywords: PIBIO_STORAGE_CREATE_DATABASE_FN, PIBIO_STORAGE_CREATE_DATABASE_FN callback, StorageAdapterCreateDatabase, StorageAdapterCreateDatabase callback function [Windows Biometric Framework API], secbiomet.storageadaptercreatedatabase, winbio_adapter/StorageAdapterCreateDatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_CREATE_DATABASE_FN callback
+# PIBIO_STORAGE_CREATE_DATABASE_FN callback function
 
 
 ## -description

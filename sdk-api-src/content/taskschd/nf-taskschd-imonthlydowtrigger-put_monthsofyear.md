@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.put_MonthsOfYear
-title: IMonthlyDOWTrigger::put_MonthsOfYear method
+title: IMonthlyDOWTrigger::put_MonthsOfYear
 author: windows-driver-content
 description: Gets or sets the months of the year during which the task runs.
 old-location: taskschd\imonthlydowtrigger_monthsofyear.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: cbc246cf-c577-49a5-8a4e-4b00be5c3e9d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IMonthlyDOWTrigger, IMonthlyDOWTrigger interface [Task Scheduler], MonthsOfYear property, IMonthlyDOWTrigger.MonthsOfYear, IMonthlyDOWTrigger::get_MonthsOfYear, IMonthlyDOWTrigger::put_MonthsOfYear, MonthsOfYear property [Task Scheduler], MonthsOfYear property [Task Scheduler], IMonthlyDOWTrigger interface, put_MonthsOfYear,IMonthlyDOWTrigger.put_MonthsOfYear, taskschd.imonthlydowtrigger_monthsofyear, taskschd/IMonthlyDOWTrigger::MonthsOfYear, taskschd/IMonthlyDOWTrigger::get_MonthsOfYear, taskschd/IMonthlyDOWTrigger::put_MonthsOfYear
+ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],MonthsOfYear property, IMonthlyDOWTrigger.MonthsOfYear, IMonthlyDOWTrigger.put_MonthsOfYear, IMonthlyDOWTrigger::MonthsOfYear, IMonthlyDOWTrigger::get_MonthsOfYear, IMonthlyDOWTrigger::put_MonthsOfYear, MonthsOfYear property [Task Scheduler], MonthsOfYear property [Task Scheduler],IMonthlyDOWTrigger interface, put_MonthsOfYear, taskschd.imonthlydowtrigger_monthsofyear, taskschd/IMonthlyDOWTrigger::MonthsOfYear, taskschd/IMonthlyDOWTrigger::get_MonthsOfYear, taskschd/IMonthlyDOWTrigger::put_MonthsOfYear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMonthlyDOWTrigger::put_MonthsOfYear method
+# IMonthlyDOWTrigger::put_MonthsOfYear
 
 
 ## -description

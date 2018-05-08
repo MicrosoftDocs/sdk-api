@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.AddListContents
-title: IWMPContentPartnerCallback::AddListContents method
+title: IWMPContentPartnerCallback::AddListContents
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The AddListContents method adds a set of media items to a list.
 old-location: wmp\iwmpcontentpartnercallback_addlistcontents.htm
 old-project: WMP
 ms.assetid: 22d28495-310e-4f3d-a0e3-8f6679c78c40
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: AddListContents method [Windows Media Player], AddListContents method [Windows Media Player], IWMPContentPartnerCallback interface, AddListContents,IWMPContentPartnerCallback.AddListContents, IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], AddListContents method, IWMPContentPartnerCallback::AddListContents, IWMPContentPartnerCallbackAddListContents, contentpartner/IWMPContentPartnerCallback::AddListContents, wmp.iwmpcontentpartnercallback_addlistcontents
+ms.date: 5/4/2018
+ms.keywords: AddListContents, AddListContents method [Windows Media Player], AddListContents method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],AddListContents method, IWMPContentPartnerCallback.AddListContents, IWMPContentPartnerCallback::AddListContents, IWMPContentPartnerCallbackAddListContents, contentpartner/IWMPContentPartnerCallback::AddListContents, wmp.iwmpcontentpartnercallback_addlistcontents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartnerCallback::AddListContents method
+# IWMPContentPartnerCallback::AddListContents
 
 
 ## -description

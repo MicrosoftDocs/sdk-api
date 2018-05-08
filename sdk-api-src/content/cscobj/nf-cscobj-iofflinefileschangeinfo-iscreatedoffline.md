@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsCreatedOffline
-title: IOfflineFilesChangeInfo::IsCreatedOffline method
+title: IOfflineFilesChangeInfo::IsCreatedOffline
 author: windows-driver-content
 description: Determines whether an item was created in the Offline Files cache while working offline.
 old-location: of\iofflinefileschangeinfo_iscreatedoffline.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 2074df23-a2dd-45ea-9ef4-5619cebebe31
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesChangeInfo, IOfflineFilesChangeInfo interface [Offline Files], IsCreatedOffline method, IOfflineFilesChangeInfo::IsCreatedOffline, IsCreatedOffline method [Offline Files], IsCreatedOffline method [Offline Files], IOfflineFilesChangeInfo interface, IsCreatedOffline,IOfflineFilesChangeInfo.IsCreatedOffline, cscobj/IOfflineFilesChangeInfo::IsCreatedOffline, of.iofflinefileschangeinfo_iscreatedoffline
+ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsCreatedOffline method, IOfflineFilesChangeInfo.IsCreatedOffline, IOfflineFilesChangeInfo::IsCreatedOffline, IsCreatedOffline, IsCreatedOffline method [Offline Files], IsCreatedOffline method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsCreatedOffline, of.iofflinefileschangeinfo_iscreatedoffline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesChangeInfo::IsCreatedOffline method
+# IOfflineFilesChangeInfo::IsCreatedOffline
 
 
 ## -description

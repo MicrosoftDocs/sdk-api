@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfSourceSingle.AdviseSingleSink
-title: ITfSourceSingle::AdviseSingleSink method
+title: ITfSourceSingle::AdviseSingleSink
 author: windows-driver-content
 description: ITfSourceSingle::AdviseSingleSink method
 old-location: tsf\itfsourcesingle_advisesinglesink.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: d9231f36-24c4-4d46-97e7-518f5fcc1ce2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AdviseSingleSink method [Text Services Framework], AdviseSingleSink method [Text Services Framework], ITfSourceSingle interface, AdviseSingleSink,ITfSourceSingle.AdviseSingleSink, IID_ITfCleanupContextDurationSink, IID_ITfFunctionProvider, ITfSourceSingle, ITfSourceSingle interface [Text Services Framework], AdviseSingleSink method, ITfSourceSingle::AdviseSingleSink, _tsf_itfsourcesingle_advisesinglesink_ref, msctf/ITfSourceSingle::AdviseSingleSink, tsf.itfsourcesingle_advisesinglesink
+ms.keywords: AdviseSingleSink, AdviseSingleSink method [Text Services Framework], AdviseSingleSink method [Text Services Framework],ITfSourceSingle interface, IID_ITfCleanupContextDurationSink, IID_ITfFunctionProvider, ITfSourceSingle interface [Text Services Framework],AdviseSingleSink method, ITfSourceSingle.AdviseSingleSink, ITfSourceSingle::AdviseSingleSink, _tsf_itfsourcesingle_advisesinglesink_ref, msctf/ITfSourceSingle::AdviseSingleSink, tsf.itfsourcesingle_advisesinglesink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfSourceSingle::AdviseSingleSink method
+# ITfSourceSingle::AdviseSingleSink
 
 
 ## -description

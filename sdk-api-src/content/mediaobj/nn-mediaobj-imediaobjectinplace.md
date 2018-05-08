@@ -8,8 +8,8 @@ old-location: dshow\imediaobjectinplace.htm
 old-project: DirectShow
 ms.assetid: c2105141-6c5e-4edb-aa3b-3227ca223329
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaObjectInPlace, IMediaObjectInPlace interface [DirectShow], IMediaObjectInPlace interface [DirectShow], described, IMediaObjectInPlaceInterface, dshow.imediaobjectinplace, mediaobj/IMediaObjectInPlace
+ms.date: 4/30/2018
+ms.keywords: IMediaObjectInPlace, IMediaObjectInPlace interface [DirectShow], IMediaObjectInPlace interface [DirectShow],described, IMediaObjectInPlaceInterface, dshow.imediaobjectinplace, mediaobj/IMediaObjectInPlace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

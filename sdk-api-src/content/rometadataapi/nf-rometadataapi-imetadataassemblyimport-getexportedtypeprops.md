@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetExportedTypeProps
-title: IMetaDataAssemblyImport::GetExportedTypeProps method
+title: IMetaDataAssemblyImport::GetExportedTypeProps
 author: windows-driver-content
 description: Gets the set of properties of the exported type with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getexportedtypeprops.htm
 old-project: WinRT
 ms.assetid: bbdd4f9c-f070-463e-91af-4a7c6c6a45d2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetExportedTypeProps method [Windows Runtime], GetExportedTypeProps method [Windows Runtime], IMetaDataAssemblyImport interface, GetExportedTypeProps,IMetaDataAssemblyImport.GetExportedTypeProps, IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], GetExportedTypeProps method, IMetaDataAssemblyImport::GetExportedTypeProps, rometadataapi/IMetaDataAssemblyImport::GetExportedTypeProps, winrt.imetadataassemblyimport_getexportedtypeprops
+ms.date: 5/4/2018
+ms.keywords: GetExportedTypeProps, GetExportedTypeProps method [Windows Runtime], GetExportedTypeProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetExportedTypeProps method, IMetaDataAssemblyImport.GetExportedTypeProps, IMetaDataAssemblyImport::GetExportedTypeProps, rometadataapi/IMetaDataAssemblyImport::GetExportedTypeProps, winrt.imetadataassemblyimport_getexportedtypeprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataAssemblyImport::GetExportedTypeProps method
+# IMetaDataAssemblyImport::GetExportedTypeProps
 
 
 ## -description

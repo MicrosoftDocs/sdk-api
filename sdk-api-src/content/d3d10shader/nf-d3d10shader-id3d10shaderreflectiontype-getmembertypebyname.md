@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflectionType.GetMemberTypeByName
-title: ID3D10ShaderReflectionType::GetMemberTypeByName method
+title: ID3D10ShaderReflectionType::GetMemberTypeByName
 author: windows-driver-content
 description: Get a shader-reflection-variable type by name.
 old-location: direct3d10\id3d10shaderreflectiontype_getmembertypebyname.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectiontype_getmembertypebyname.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetMemberTypeByName method [Direct3D 10], GetMemberTypeByName method [Direct3D 10], ID3D10ShaderReflectionType interface, GetMemberTypeByName,ID3D10ShaderReflectionType.GetMemberTypeByName, ID3D10ShaderReflectionType, ID3D10ShaderReflectionType interface [Direct3D 10], GetMemberTypeByName method, ID3D10ShaderReflectionType::GetMemberTypeByName, d3d10shader/ID3D10ShaderReflectionType::GetMemberTypeByName, d7735138-8dfe-8eb2-a7a0-debca04496e6, direct3d10.id3d10shaderreflectiontype_getmembertypebyname
+ms.keywords: GetMemberTypeByName, GetMemberTypeByName method [Direct3D 10], GetMemberTypeByName method [Direct3D 10],ID3D10ShaderReflectionType interface, ID3D10ShaderReflectionType interface [Direct3D 10],GetMemberTypeByName method, ID3D10ShaderReflectionType.GetMemberTypeByName, ID3D10ShaderReflectionType::GetMemberTypeByName, d3d10shader/ID3D10ShaderReflectionType::GetMemberTypeByName, d7735138-8dfe-8eb2-a7a0-debca04496e6, direct3d10.id3d10shaderreflectiontype_getmembertypebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10ShaderReflectionType::GetMemberTypeByName method
+# ID3D10ShaderReflectionType::GetMemberTypeByName
 
 
 ## -description

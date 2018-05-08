@@ -7,7 +7,7 @@ old-location: winprog\fnread.htm
 old-project: DevNotes
 ms.assetid: 0a8c6c9f-051c-43a0-b43b-1fd8b4fef10c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: FNREAD, FNREAD macro [Windows API], fdi/FNREAD, winprog.fnread
 ms.prod: windows-hardware
 ms.technology: windows-devices

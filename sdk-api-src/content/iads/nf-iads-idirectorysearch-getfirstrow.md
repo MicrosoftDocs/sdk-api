@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.GetFirstRow
-title: IDirectorySearch::GetFirstRow method
+title: IDirectorySearch::GetFirstRow
 author: windows-driver-content
 description: The GetFirstRow method gets the first row of a search result. This method will issue or reissue a new search, even if this method has been called before.
 old-location: adsi\idirectorysearch_getfirstrow.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 99ece6d1-3963-40bc-993e-f03aa9039c2d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetFirstRow method [ADSI], GetFirstRow method [ADSI], IDirectorySearch interface, GetFirstRow,IDirectorySearch.GetFirstRow, IDirectorySearch, IDirectorySearch interface [ADSI], GetFirstRow method, IDirectorySearch::GetFirstRow, _ds_idirectorysearch_getfirstrow, adsi.idirectorysearch__getfirstrow, adsi.idirectorysearch_getfirstrow, iads/IDirectorySearch::GetFirstRow
+ms.keywords: GetFirstRow, GetFirstRow method [ADSI], GetFirstRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetFirstRow method, IDirectorySearch.GetFirstRow, IDirectorySearch::GetFirstRow, _ds_idirectorysearch_getfirstrow, adsi.idirectorysearch__getfirstrow, adsi.idirectorysearch_getfirstrow, iads/IDirectorySearch::GetFirstRow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDirectorySearch::GetFirstRow method
+# IDirectorySearch::GetFirstRow
 
 
 ## -description

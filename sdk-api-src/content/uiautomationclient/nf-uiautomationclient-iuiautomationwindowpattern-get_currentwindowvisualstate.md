@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentWindowVisualState
-title: IUIAutomationWindowPattern::get_CurrentWindowVisualState method
+title: IUIAutomationWindowPattern::get_CurrentWindowVisualState
 author: windows-driver-content
 description: Retrieves the visual state of the window; that is, whether it is in the normal, maximized, or minimized state.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 307b995c-c656-4c91-8de2-94186ab9f5b3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentWindowVisualState property [Windows Accessibility], CurrentWindowVisualState property [Windows Accessibility], IUIAutomationWindowPattern interface, IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], CurrentWindowVisualState property, IUIAutomationWindowPattern.CurrentWindowVisualState, IUIAutomationWindowPattern::get_CurrentWindowVisualState, get_CurrentWindowVisualState,IUIAutomationWindowPattern.get_CurrentWindowVisualState, uiauto.uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState, uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::CurrentWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::get_CurrentWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState
+ms.keywords: CurrentWindowVisualState property [Windows Accessibility], CurrentWindowVisualState property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentWindowVisualState property, IUIAutomationWindowPattern.CurrentWindowVisualState, IUIAutomationWindowPattern.get_CurrentWindowVisualState, IUIAutomationWindowPattern::CurrentWindowVisualState, IUIAutomationWindowPattern::get_CurrentWindowVisualState, get_CurrentWindowVisualState, uiauto.uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState, uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::CurrentWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::get_CurrentWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationWindowPattern::get_CurrentWindowVisualState method
+# IUIAutomationWindowPattern::get_CurrentWindowVisualState
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 9c7098d5-17aa-3154-02a7-7acf972a212d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetBlueTableValue, SetBlueTableValue methods [DirectComposition], dcomp/SetBlueTableValue, directcomp.idcompositiontabletransfereffect_setbluetablevalue_overloaded
+ms.keywords: IDCompositionTableTransferEffect::SetBlueTableValue, SetBlueTableValue, SetBlueTableValue methods [DirectComposition], dcomp/SetBlueTableValue, directcomp.idcompositiontabletransfereffect_setbluetablevalue_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

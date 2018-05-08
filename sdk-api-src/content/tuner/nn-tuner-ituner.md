@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1bc965a5-6bc9-488a-a2f9-f35d0cfbcccd
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], ITuner interface [Microsoft TV Technologies], described, ITunerInterface, mstv.ituner, tuner/ITuner
+ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], ITuner interface [Microsoft TV Technologies],described, ITunerInterface, mstv.ituner, tuner/ITuner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

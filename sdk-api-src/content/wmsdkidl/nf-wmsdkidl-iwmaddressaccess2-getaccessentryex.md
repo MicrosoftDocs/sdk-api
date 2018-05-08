@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess2.GetAccessEntryEx
-title: IWMAddressAccess2::GetAccessEntryEx method
+title: IWMAddressAccess2::GetAccessEntryEx
 author: windows-driver-content
 description: The GetAccessEntryEx method retrieves an entry from the IP address access list.
 old-location: wmformat\iwmaddressaccess2_getaccessentryex.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 477e6b28-bfa0-4ce9-b2e0-eb51eaba6476
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetAccessEntryEx method [windows Media Format], GetAccessEntryEx method [windows Media Format], IWMAddressAccess2 interface, GetAccessEntryEx,IWMAddressAccess2.GetAccessEntryEx, IWMAddressAccess2, IWMAddressAccess2 interface [windows Media Format], GetAccessEntryEx method, IWMAddressAccess2::GetAccessEntryEx, IWMAddressAccess2GetAccessEntryEx, wmformat.iwmaddressaccess2_getaccessentryex, wmsdkidl/IWMAddressAccess2::GetAccessEntryEx
+ms.keywords: GetAccessEntryEx, GetAccessEntryEx method [windows Media Format], GetAccessEntryEx method [windows Media Format],IWMAddressAccess2 interface, IWMAddressAccess2 interface [windows Media Format],GetAccessEntryEx method, IWMAddressAccess2.GetAccessEntryEx, IWMAddressAccess2::GetAccessEntryEx, IWMAddressAccess2GetAccessEntryEx, wmformat.iwmaddressaccess2_getaccessentryex, wmsdkidl/IWMAddressAccess2::GetAccessEntryEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMAddressAccess2::GetAccessEntryEx method
+# IWMAddressAccess2::GetAccessEntryEx
 
 
 ## -description

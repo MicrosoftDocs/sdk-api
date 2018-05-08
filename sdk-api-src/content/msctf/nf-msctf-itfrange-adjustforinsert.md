@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.AdjustForInsert
-title: ITfRange::AdjustForInsert method
+title: ITfRange::AdjustForInsert
 author: windows-driver-content
 description: The ITfRange::AdjustForInsert method expands or contracts a range of text to adjust for text insertion.
 old-location: tsf\itfrange_adjustforinsert.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: b286266c-d6cf-4291-b4b2-24d5a3d4e1ad
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AdjustForInsert method [Text Services Framework], AdjustForInsert method [Text Services Framework], ITfRange interface, AdjustForInsert,ITfRange.AdjustForInsert, ITfRange, ITfRange interface [Text Services Framework], AdjustForInsert method, ITfRange::AdjustForInsert, _tsf_itfrange_adjustforinsert_ref, msctf/ITfRange::AdjustForInsert, tsf.itfrange_adjustforinsert
+ms.keywords: AdjustForInsert, AdjustForInsert method [Text Services Framework], AdjustForInsert method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],AdjustForInsert method, ITfRange.AdjustForInsert, ITfRange::AdjustForInsert, _tsf_itfrange_adjustforinsert_ref, msctf/ITfRange::AdjustForInsert, tsf.itfrange_adjustforinsert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfRange::AdjustForInsert method
+# ITfRange::AdjustForInsert
 
 
 ## -description

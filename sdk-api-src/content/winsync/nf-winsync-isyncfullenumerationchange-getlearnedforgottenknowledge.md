@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChange.GetLearnedForgottenKnowledge
-title: ISyncFullEnumerationChange::GetLearnedForgottenKnowledge method
+title: ISyncFullEnumerationChange::GetLearnedForgottenKnowledge
 author: windows-driver-content
 description: Gets the forgotten knowledge that the destination replica learns when the destination provider applies this change during recovery synchronization.
 old-location: winsync\isyncfullenumerationchange_getlearnedforgottenknowledge.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 958bca82-67a7-401f-a9d3-a17f60496cba
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetLearnedForgottenKnowledge method [Windows Sync], GetLearnedForgottenKnowledge method [Windows Sync], ISyncFullEnumerationChange interface, GetLearnedForgottenKnowledge,ISyncFullEnumerationChange.GetLearnedForgottenKnowledge, ISyncFullEnumerationChange, ISyncFullEnumerationChange interface [Windows Sync], GetLearnedForgottenKnowledge method, ISyncFullEnumerationChange::GetLearnedForgottenKnowledge, winsync.isyncfullenumerationchange_getlearnedforgottenknowledge, winsync/ISyncFullEnumerationChange::GetLearnedForgottenKnowledge
+ms.keywords: GetLearnedForgottenKnowledge, GetLearnedForgottenKnowledge method [Windows Sync], GetLearnedForgottenKnowledge method [Windows Sync],ISyncFullEnumerationChange interface, ISyncFullEnumerationChange interface [Windows Sync],GetLearnedForgottenKnowledge method, ISyncFullEnumerationChange.GetLearnedForgottenKnowledge, ISyncFullEnumerationChange::GetLearnedForgottenKnowledge, winsync.isyncfullenumerationchange_getlearnedforgottenknowledge, winsync/ISyncFullEnumerationChange::GetLearnedForgottenKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncFullEnumerationChange::GetLearnedForgottenKnowledge method
+# ISyncFullEnumerationChange::GetLearnedForgottenKnowledge
 
 
 ## -description

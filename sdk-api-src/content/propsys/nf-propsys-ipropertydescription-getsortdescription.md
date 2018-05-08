@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetSortDescription
-title: IPropertyDescription::GetSortDescription method
+title: IPropertyDescription::GetSortDescription
 author: windows-driver-content
 description: Gets the current sort description flags for the property, which indicate the particular wordings of sort offerings.
 old-location: properties\IPropertyDescription_GetSortDescription.htm
 old-project: properties
 ms.assetid: 71f565b3-cf77-498c-b2a5-3a49a71c102f
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetSortDescription method [Windows Properties], GetSortDescription method [Windows Properties], IPropertyDescription interface, GetSortDescription,IPropertyDescription.GetSortDescription, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetSortDescription method, IPropertyDescription::GetSortDescription, PDSD_A_Z, PDSD_GENERAL, PDSD_LOWEST_HIGHEST, PDSD_OLDEST_NEWEST, PDSD_SMALLEST_BIGGEST, properties.IPropertyDescription_GetSortDescription, propsys/IPropertyDescription::GetSortDescription, shell.IPropertyDescription_GetSortDescription, shell_IPropertyDescription_GetSortDescription
+ms.date: 4/27/2018
+ms.keywords: GetSortDescription, GetSortDescription method [Windows Properties], GetSortDescription method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescription method, IPropertyDescription.GetSortDescription, IPropertyDescription::GetSortDescription, PDSD_A_Z, PDSD_GENERAL, PDSD_LOWEST_HIGHEST, PDSD_OLDEST_NEWEST, PDSD_SMALLEST_BIGGEST, properties.IPropertyDescription_GetSortDescription, propsys/IPropertyDescription::GetSortDescription, shell.IPropertyDescription_GetSortDescription, shell_IPropertyDescription_GetSortDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescription::GetSortDescription method
+# IPropertyDescription::GetSortDescription
 
 
 ## -description

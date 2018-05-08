@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEventServiceConfiguration.RemoveGraph
-title: IESEventServiceConfiguration::RemoveGraph method
+title: IESEventServiceConfiguration::RemoveGraph
 author: windows-driver-content
 description: Removes an event service that implements the IESEventService interface from a filter graph. This method prevents the processing of events from Protected Broadcast Driver Architecture (PBDA) devices in the graph.
 old-location: mstv\ieseventserviceconfiguration_removegraph.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ba3d9748-5d3b-49ec-ac69-287a253caa12
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IESEventServiceConfiguration, IESEventServiceConfiguration interface [Microsoft TV Technologies], RemoveGraph method, IESEventServiceConfiguration::RemoveGraph, RemoveGraph method [Microsoft TV Technologies], RemoveGraph method [Microsoft TV Technologies], IESEventServiceConfiguration interface, RemoveGraph,IESEventServiceConfiguration.RemoveGraph, mstv.ieseventserviceconfiguration_removegraph, tuner/IESEventServiceConfiguration::RemoveGraph
+ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],RemoveGraph method, IESEventServiceConfiguration.RemoveGraph, IESEventServiceConfiguration::RemoveGraph, RemoveGraph, RemoveGraph method [Microsoft TV Technologies], RemoveGraph method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_removegraph, tuner/IESEventServiceConfiguration::RemoveGraph
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESEventServiceConfiguration::RemoveGraph method
+# IESEventServiceConfiguration::RemoveGraph
 
 
 ## -description

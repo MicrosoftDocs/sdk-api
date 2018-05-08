@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapScaler
-title: IWICImagingFactory::CreateBitmapScaler method
+title: IWICImagingFactory::CreateBitmapScaler
 author: windows-driver-content
 description: Creates a new instance of an IWICBitmapScaler.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapscaler.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 4da6b185-4a94-4032-a1d6-e64b96a5da97
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateBitmapScaler method [Windows Imaging Component], CreateBitmapScaler method [Windows Imaging Component], IWICImagingFactory interface, CreateBitmapScaler,IWICImagingFactory.CreateBitmapScaler, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateBitmapScaler method, IWICImagingFactory::CreateBitmapScaler, _wic_codec_iwicimagingfactory_createbitmapscaler, wic._wic_codec_iwicimagingfactory_createbitmapscaler, wincodec/IWICImagingFactory::CreateBitmapScaler
+ms.keywords: CreateBitmapScaler, CreateBitmapScaler method [Windows Imaging Component], CreateBitmapScaler method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapScaler method, IWICImagingFactory.CreateBitmapScaler, IWICImagingFactory::CreateBitmapScaler, _wic_codec_iwicimagingfactory_createbitmapscaler, wic._wic_codec_iwicimagingfactory_createbitmapscaler, wincodec/IWICImagingFactory::CreateBitmapScaler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICImagingFactory::CreateBitmapScaler method
+# IWICImagingFactory::CreateBitmapScaler
 
 
 ## -description

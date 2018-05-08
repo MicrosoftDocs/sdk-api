@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollection.RemoveAt
-title: IUICollection::RemoveAt method
+title: IUICollection::RemoveAt
 author: windows-driver-content
 description: Removes an item from the IUICollection at the specified index.
 old-location: windowsribbon\windowsribbon_iuicollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\removeat.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IUICollection, IUICollection interface [Windows Ribbon], RemoveAt method, IUICollection::RemoveAt, RemoveAt method [Windows Ribbon], RemoveAt method [Windows Ribbon], IUICollection interface, RemoveAt,IUICollection.RemoveAt, scenicintent_IUICollection_RemoveAt, uiribbon/IUICollection::RemoveAt, windowsribbon.windowsribbon_iuicollection_removeat
+ms.keywords: IUICollection interface [Windows Ribbon],RemoveAt method, IUICollection.RemoveAt, IUICollection::RemoveAt, RemoveAt, RemoveAt method [Windows Ribbon], RemoveAt method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_RemoveAt, uiribbon/IUICollection::RemoveAt, windowsribbon.windowsribbon_iuicollection_removeat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUICollection::RemoveAt method
+# IUICollection::RemoveAt
 
 
 ## -description

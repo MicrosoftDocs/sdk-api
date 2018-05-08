@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetRestoreOptions
-title: IVssComponent::GetRestoreOptions method
+title: IVssComponent::GetRestoreOptions
 author: windows-driver-content
 description: The GetRestoreOptions method gets the restore options specified to the current writer by a requester using IVssBackupComponents::SetRestoreOptions.
 old-location: base\ivsscomponent_getrestoreoptions.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 818fd713-1b41-4abd-aca4-c74383fa3594
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetRestoreOptions method [VSS], GetRestoreOptions method [VSS], IVssComponent interface, GetRestoreOptions,IVssComponent.GetRestoreOptions, IVssComponent, IVssComponent interface [VSS], GetRestoreOptions method, IVssComponent::GetRestoreOptions, _win32_ivsscomponent_getrestoreoptions, base.ivsscomponent_getrestoreoptions, vswriter/IVssComponent::GetRestoreOptions
+ms.keywords: GetRestoreOptions, GetRestoreOptions method [VSS], GetRestoreOptions method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreOptions method, IVssComponent.GetRestoreOptions, IVssComponent::GetRestoreOptions, _win32_ivsscomponent_getrestoreoptions, base.ivsscomponent_getrestoreoptions, vswriter/IVssComponent::GetRestoreOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetRestoreOptions method
+# IVssComponent::GetRestoreOptions
 
 
 ## -description

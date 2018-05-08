@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.EndTouchFrame
-title: IRDPViewerInputSink::EndTouchFrame method
+title: IRDPViewerInputSink::EndTouchFrame
 author: windows-driver-content
 description: Stops to accept a series of touch inputs.
 old-location: rdp\irdpviewerinputsink_endtouchframe.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 31E84AEB-7A89-4EF1-9744-3102AAEA2C1E
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: EndTouchFrame method [RDP], EndTouchFrame method [RDP], IRDPViewerInputSink interface, EndTouchFrame,IRDPViewerInputSink.EndTouchFrame, IRDPViewerInputSink, IRDPViewerInputSink interface [RDP], EndTouchFrame method, IRDPViewerInputSink::EndTouchFrame, rdp.irdpviewerinputsink_endtouchframe, rdpencomapi/IRDPViewerInputSink::EndTouchFrame
+ms.keywords: EndTouchFrame, EndTouchFrame method [RDP], EndTouchFrame method [RDP],IRDPViewerInputSink interface, IRDPViewerInputSink interface [RDP],EndTouchFrame method, IRDPViewerInputSink.EndTouchFrame, IRDPViewerInputSink::EndTouchFrame, rdp.irdpviewerinputsink_endtouchframe, rdpencomapi/IRDPViewerInputSink::EndTouchFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPViewerInputSink::EndTouchFrame method
+# IRDPViewerInputSink::EndTouchFrame
 
 
 ## -description

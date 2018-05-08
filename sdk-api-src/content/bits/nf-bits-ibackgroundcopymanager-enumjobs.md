@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyManager.EnumJobs
-title: IBackgroundCopyManager::EnumJobs method
+title: IBackgroundCopyManager::EnumJobs
 author: windows-driver-content
 description: Retrieves an interface pointer to an enumerator object that you use to enumerate the jobs in the transfer queue. The order of the jobs in the enumerator is arbitrary.
 old-location: bits\ibackgroundcopymanager_enumjobs.htm
 old-project: Bits
 ms.assetid: e8b73060-dff9-4ab3-8009-d2b41502fc1a
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: BG_JOB_ENUM_ALL_USERS, EnumJobs method [BITS], EnumJobs method [BITS], IBackgroundCopyManager interface, EnumJobs,IBackgroundCopyManager.EnumJobs, IBackgroundCopyManager, IBackgroundCopyManager interface [BITS], EnumJobs method, IBackgroundCopyManager::EnumJobs, _drz_ibackgroundcopymanager_enumjobs, bits.ibackgroundcopymanager_enumjobs, bits/IBackgroundCopyManager::EnumJobs
+ms.date: 4/27/2018
+ms.keywords: BG_JOB_ENUM_ALL_USERS, EnumJobs, EnumJobs method [BITS], EnumJobs method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],EnumJobs method, IBackgroundCopyManager.EnumJobs, IBackgroundCopyManager::EnumJobs, _drz_ibackgroundcopymanager_enumjobs, bits.ibackgroundcopymanager_enumjobs, bits/IBackgroundCopyManager::EnumJobs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyManager::EnumJobs method
+# IBackgroundCopyManager::EnumJobs
 
 
 ## -description

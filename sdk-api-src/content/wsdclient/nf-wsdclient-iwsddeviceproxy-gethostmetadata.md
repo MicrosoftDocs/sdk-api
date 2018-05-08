@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetHostMetadata
-title: IWSDDeviceProxy::GetHostMetadata method
+title: IWSDDeviceProxy::GetHostMetadata
 author: windows-driver-content
 description: Retrieves class-specific metadata for the device describing the features of the device and the services it hosts.
 old-location: ncd\iwsddeviceproxy_gethostmetadata.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: e1e81f75-baeb-4406-8de0-f575db573fe8
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetHostMetadata method, GetHostMetadata method, IWSDDeviceProxy interface, GetHostMetadata,IWSDDeviceProxy.GetHostMetadata, IWSDDeviceProxy, IWSDDeviceProxy interface, GetHostMetadata method, IWSDDeviceProxy::GetHostMetadata, ncd.iwsddeviceproxy_gethostmetadata, wsdclient/IWSDDeviceProxy::GetHostMetadata
+ms.keywords: GetHostMetadata, GetHostMetadata method, GetHostMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetHostMetadata method, IWSDDeviceProxy.GetHostMetadata, IWSDDeviceProxy::GetHostMetadata, ncd.iwsddeviceproxy_gethostmetadata, wsdclient/IWSDDeviceProxy::GetHostMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceProxy::GetHostMetadata method
+# IWSDDeviceProxy::GetHostMetadata
 
 
 ## -description

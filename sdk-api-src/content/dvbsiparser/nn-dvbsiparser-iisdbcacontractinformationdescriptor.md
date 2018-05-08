@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d877a625-d683-4472-98de-f24c165c753a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IIsdbCAContractInformationDescriptor, mstv.iisdbcacontractinformationdescriptor
+ms.keywords: IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCAContractInformationDescriptor, mstv.iisdbcacontractinformationdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

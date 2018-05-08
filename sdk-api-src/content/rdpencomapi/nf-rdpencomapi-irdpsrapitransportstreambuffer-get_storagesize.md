@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.get_StorageSize
-title: IRDPSRAPITransportStreamBuffer::get_StorageSize method
+title: IRDPSRAPITransportStreamBuffer::get_StorageSize
 author: windows-driver-content
 description: The size, in bytes, of the internal storage buffer for the stream.
 old-location: rdp\irdpsrapitransportstreambuffer_storagesize.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: e422febe-6b7f-4ce5-af5c-214200b6723e
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer interface [RDP], StorageSize property, IRDPSRAPITransportStreamBuffer.StorageSize, IRDPSRAPITransportStreamBuffer::get_StorageSize, StorageSize property [RDP], StorageSize property [RDP], IRDPSRAPITransportStreamBuffer interface, get_StorageSize,IRDPSRAPITransportStreamBuffer.get_StorageSize, rdp.irdpsrapitransportstreambuffer_storagesize, rdpencomapi/IRDPSRAPITransportStreamBuffer::StorageSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_StorageSize
+ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],StorageSize property, IRDPSRAPITransportStreamBuffer.StorageSize, IRDPSRAPITransportStreamBuffer.get_StorageSize, IRDPSRAPITransportStreamBuffer::StorageSize, IRDPSRAPITransportStreamBuffer::get_StorageSize, StorageSize property [RDP], StorageSize property [RDP],IRDPSRAPITransportStreamBuffer interface, get_StorageSize, rdp.irdpsrapitransportstreambuffer_storagesize, rdpencomapi/IRDPSRAPITransportStreamBuffer::StorageSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_StorageSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITransportStreamBuffer::get_StorageSize method
+# IRDPSRAPITransportStreamBuffer::get_StorageSize
 
 
 ## -description

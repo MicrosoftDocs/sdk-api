@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspace.GetProcessId
-title: IWorkspace::GetProcessId method
+title: IWorkspace::GetProcessId
 author: windows-driver-content
 description: Retrieves the process ID of the current connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspace_getprocessid.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: f703dfac-a896-472e-847c-cf44a96d9d9e
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetProcessId method [Remote Desktop Services], GetProcessId method [Remote Desktop Services], IWorkspace interface, GetProcessId method [Remote Desktop Services], IWorkspace2 interface, GetProcessId method [Remote Desktop Services], IWorkspace3 interface, GetProcessId method [Remote Desktop Services], Workspace object, GetProcessId,IWorkspace.GetProcessId, IWorkspace, IWorkspace interface [Remote Desktop Services], GetProcessId method, IWorkspace2 interface [Remote Desktop Services], GetProcessId method, IWorkspace2::GetProcessId, IWorkspace3 interface [Remote Desktop Services], GetProcessId method, IWorkspace3::GetProcessId, IWorkspace::GetProcessId, Workspace object [Remote Desktop Services], GetProcessId method, termserv.iworkspace_getprocessid, workspaceruntime/IWorkspace2::GetProcessId, workspaceruntime/IWorkspace3::GetProcessId, workspaceruntime/IWorkspace::GetProcessId
+ms.keywords: GetProcessId, GetProcessId method [Remote Desktop Services], GetProcessId method [Remote Desktop Services],IWorkspace interface, GetProcessId method [Remote Desktop Services],IWorkspace2 interface, GetProcessId method [Remote Desktop Services],IWorkspace3 interface, GetProcessId method [Remote Desktop Services],Workspace object, IWorkspace interface [Remote Desktop Services],GetProcessId method, IWorkspace.GetProcessId, IWorkspace2 interface [Remote Desktop Services],GetProcessId method, IWorkspace2::GetProcessId, IWorkspace3 interface [Remote Desktop Services],GetProcessId method, IWorkspace3::GetProcessId, IWorkspace::GetProcessId, Workspace object [Remote Desktop Services],GetProcessId method, termserv.iworkspace_getprocessid, workspaceruntime/IWorkspace2::GetProcessId, workspaceruntime/IWorkspace3::GetProcessId, workspaceruntime/IWorkspace::GetProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWorkspace::GetProcessId method
+# IWorkspace::GetProcessId
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.SetVisualLocal
-title: IXpsOMVisualBrush::SetVisualLocal method
+title: IXpsOMVisualBrush::SetVisualLocal
 author: windows-driver-content
 description: Sets the interface pointer of the local, unshared visual used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_setvisuallocal.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 8ef37838-ff5f-4c8f-9fa3-30d11417c09d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMVisualBrush, IXpsOMVisualBrush interface [XPS Documents and Packaging], SetVisualLocal method, IXpsOMVisualBrush::SetVisualLocal, SetVisualLocal method [XPS Documents and Packaging], SetVisualLocal method [XPS Documents and Packaging], IXpsOMVisualBrush interface, SetVisualLocal,IXpsOMVisualBrush.SetVisualLocal, xps.ixpsomvisualbrush_setvisuallocal, xpsobjectmodel/IXpsOMVisualBrush::SetVisualLocal
+ms.keywords: IXpsOMVisualBrush interface [XPS Documents and Packaging],SetVisualLocal method, IXpsOMVisualBrush.SetVisualLocal, IXpsOMVisualBrush::SetVisualLocal, SetVisualLocal, SetVisualLocal method [XPS Documents and Packaging], SetVisualLocal method [XPS Documents and Packaging],IXpsOMVisualBrush interface, xps.ixpsomvisualbrush_setvisuallocal, xpsobjectmodel/IXpsOMVisualBrush::SetVisualLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisualBrush::SetVisualLocal method
+# IXpsOMVisualBrush::SetVisualLocal
 
 
 ## -description

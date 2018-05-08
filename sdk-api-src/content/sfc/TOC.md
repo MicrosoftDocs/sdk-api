@@ -1,0 +1,5 @@
+# [Setup API](../_setup/index.md)
+## [Sfc.h](index.md)
+### [SfcGetNextProtectedFile function](../sfc/nf-sfc-sfcgetnextprotectedfile.md)
+### [SfcIsFileProtected function](../sfc/nf-sfc-sfcisfileprotected.md)
+### [SfcIsKeyProtected function](../sfc/nf-sfc-sfciskeyprotected.md)

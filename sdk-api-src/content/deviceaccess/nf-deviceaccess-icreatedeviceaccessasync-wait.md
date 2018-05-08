@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.Wait
-title: ICreateDeviceAccessAsync::Wait method
+title: ICreateDeviceAccessAsync::Wait
 author: windows-driver-content
 description: The Wait method waits a specified length of time for an asynchronous bind operation that is in progress to finish.
 old-location: deviceaccess\icreatedeviceaccessasync_wait.htm
@@ -8,7 +8,7 @@ old-project: deviceaccess
 ms.assetid: 6fdab230-f8f7-47fa-838f-97316a4e78b9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ICreateDeviceAccessAsync, ICreateDeviceAccessAsync interface [Device Access Broker API], Wait method, ICreateDeviceAccessAsync::Wait, Wait method [Device Access Broker API], Wait method [Device Access Broker API], ICreateDeviceAccessAsync interface, Wait,ICreateDeviceAccessAsync.Wait, deviceaccess.icreatedeviceaccessasync_wait, deviceaccess/ICreateDeviceAccessAsync::Wait
+ms.keywords: ICreateDeviceAccessAsync interface [Device Access Broker API],Wait method, ICreateDeviceAccessAsync.Wait, ICreateDeviceAccessAsync::Wait, Wait, Wait method [Device Access Broker API], Wait method [Device Access Broker API],ICreateDeviceAccessAsync interface, deviceaccess.icreatedeviceaccessasync_wait, deviceaccess/ICreateDeviceAccessAsync::Wait
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICreateDeviceAccessAsync::Wait method
+# ICreateDeviceAccessAsync::Wait
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetBandwidthSharingCount
-title: IWMProfile3::GetBandwidthSharingCount method
+title: IWMProfile3::GetBandwidthSharingCount
 author: windows-driver-content
 description: The GetBandwidthSharingCount method retrieves the total number of bandwidth sharing objects that have been added to the profile.
 old-location: wmformat\iwmprofile3_getbandwidthsharingcount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 7f5a11a7-d81a-4ca1-8b0f-1d561f736523
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetBandwidthSharingCount method [windows Media Format], GetBandwidthSharingCount method [windows Media Format], IWMProfile3 interface, GetBandwidthSharingCount,IWMProfile3.GetBandwidthSharingCount, IWMProfile3, IWMProfile3 interface [windows Media Format], GetBandwidthSharingCount method, IWMProfile3::GetBandwidthSharingCount, IWMProfile3GetBandwidthSharingCount, wmformat.iwmprofile3_getbandwidthsharingcount, wmsdkidl/IWMProfile3::GetBandwidthSharingCount
+ms.keywords: GetBandwidthSharingCount, GetBandwidthSharingCount method [windows Media Format], GetBandwidthSharingCount method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetBandwidthSharingCount method, IWMProfile3.GetBandwidthSharingCount, IWMProfile3::GetBandwidthSharingCount, IWMProfile3GetBandwidthSharingCount, wmformat.iwmprofile3_getbandwidthsharingcount, wmsdkidl/IWMProfile3::GetBandwidthSharingCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfile3::GetBandwidthSharingCount method
+# IWMProfile3::GetBandwidthSharingCount
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITQueue.put_MeasurementPeriod
-title: ITQueue::put_MeasurementPeriod method
+title: ITQueue::put_MeasurementPeriod
 author: windows-driver-content
 description: The put_MeasurementPeriod method sets the period (in seconds) for which the switch and/or implementation stores and calculates information.
 old-location: tapi3\itqueue_put_measurementperiod.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 9e32b2ae-c4e5-4624-b970-673c950dee3b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITQueue, ITQueue interface [TAPI 2.2], put_MeasurementPeriod method, ITQueue::put_MeasurementPeriod, _tapi3_itqueue_put_measurementperiod, put_MeasurementPeriod method [TAPI 2.2], put_MeasurementPeriod method [TAPI 2.2], ITQueue interface, put_MeasurementPeriod,ITQueue.put_MeasurementPeriod, tapi3.itqueue_put_measurementperiod, tapi3cc/ITQueue::put_MeasurementPeriod
+ms.keywords: ITQueue interface [TAPI 2.2],put_MeasurementPeriod method, ITQueue.put_MeasurementPeriod, ITQueue::put_MeasurementPeriod, _tapi3_itqueue_put_measurementperiod, put_MeasurementPeriod, put_MeasurementPeriod method [TAPI 2.2], put_MeasurementPeriod method [TAPI 2.2],ITQueue interface, tapi3.itqueue_put_measurementperiod, tapi3cc/ITQueue::put_MeasurementPeriod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITQueue::put_MeasurementPeriod method
+# ITQueue::put_MeasurementPeriod
 
 
 ## -description

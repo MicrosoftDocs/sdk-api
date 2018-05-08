@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideDataProperty.get_Value
-title: IGuideDataProperty::get_Value method
+title: IGuideDataProperty::get_Value
 author: windows-driver-content
 description: The get_Value method retrieves the value associated with the property.
 old-location: mstv\iguidedataproperty_get_value.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3a6014aa-a8a2-4436-b7a3-d083f2f0fa98
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IGuideDataProperty, IGuideDataProperty interface [Microsoft TV Technologies], get_Value method, IGuideDataProperty::get_Value, IGuideDataPropertyget_Value, bdatif/IGuideDataProperty::get_Value, get_Value method [Microsoft TV Technologies], get_Value method [Microsoft TV Technologies], IGuideDataProperty interface, get_Value,IGuideDataProperty.get_Value, mstv.iguidedataproperty_get_value
+ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Value method, IGuideDataProperty.get_Value, IGuideDataProperty::get_Value, IGuideDataPropertyget_Value, bdatif/IGuideDataProperty::get_Value, get_Value, get_Value method [Microsoft TV Technologies], get_Value method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_value
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGuideDataProperty::get_Value method
+# IGuideDataProperty::get_Value
 
 
 ## -description

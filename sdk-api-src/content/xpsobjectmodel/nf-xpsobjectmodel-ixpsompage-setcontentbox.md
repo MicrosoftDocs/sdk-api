@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetContentBox
-title: IXpsOMPage::SetContentBox method
+title: IXpsOMPage::SetContentBox
 author: windows-driver-content
 description: Sets the dimensions of the page's content box.
 old-location: xps\ixpsompage_setcontentbox.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 5262ce99-8112-4f4f-a173-5927341b4a2e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], SetContentBox method, IXpsOMPage::SetContentBox, SetContentBox method [XPS Documents and Packaging], SetContentBox method [XPS Documents and Packaging], IXpsOMPage interface, SetContentBox,IXpsOMPage.SetContentBox, xps.ixpsompage_setcontentbox, xpsobjectmodel/IXpsOMPage::SetContentBox
+ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetContentBox method, IXpsOMPage.SetContentBox, IXpsOMPage::SetContentBox, SetContentBox, SetContentBox method [XPS Documents and Packaging], SetContentBox method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setcontentbox, xpsobjectmodel/IXpsOMPage::SetContentBox
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::SetContentBox method
+# IXpsOMPage::SetContentBox
 
 
 ## -description

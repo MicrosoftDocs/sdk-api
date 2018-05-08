@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPRemoteMediaServices.GetServiceType
-title: IWMPRemoteMediaServices::GetServiceType method
+title: IWMPRemoteMediaServices::GetServiceType
 author: windows-driver-content
 description: The GetServiceType method is called by Windows Media Player to determine whether a host program wants to run its embedded control remotely.
 old-location: wmp\iwmpremotemediaservices_getservicetype.htm
 old-project: WMP
 ms.assetid: 866e7ee7-5df1-4e6b-8b41-85c6ff8b64d5
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetServiceType method [Windows Media Player], GetServiceType method [Windows Media Player], IWMPRemoteMediaServices interface, GetServiceType,IWMPRemoteMediaServices.GetServiceType, IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], GetServiceType method, IWMPRemoteMediaServices::GetServiceType, IWMPRemoteMediaServicesGetServiceType, wmp.iwmpremotemediaservices_getservicetype, wmp/IWMPRemoteMediaServices::GetServiceType
+ms.date: 5/4/2018
+ms.keywords: GetServiceType, GetServiceType method [Windows Media Player], GetServiceType method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetServiceType method, IWMPRemoteMediaServices.GetServiceType, IWMPRemoteMediaServices::GetServiceType, IWMPRemoteMediaServicesGetServiceType, wmp.iwmpremotemediaservices_getservicetype, wmp/IWMPRemoteMediaServices::GetServiceType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPRemoteMediaServices::GetServiceType method
+# IWMPRemoteMediaServices::GetServiceType
 
 
 ## -description

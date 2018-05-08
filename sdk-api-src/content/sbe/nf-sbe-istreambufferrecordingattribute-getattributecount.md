@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.GetAttributeCount
-title: IStreamBufferRecordingAttribute::GetAttributeCount method
+title: IStreamBufferRecordingAttribute::GetAttributeCount
 author: windows-driver-content
 description: The GetAttributeCount method returns the number of attributes that are currently defined for this stream buffer file.
 old-location: mstv\istreambufferrecordingattribute_getattributecount.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 44ff4991-f6f2-4f70-bdf5-b8e1dc06611c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetAttributeCount method [Microsoft TV Technologies], GetAttributeCount method [Microsoft TV Technologies], IStreamBufferRecordingAttribute interface, GetAttributeCount,IStreamBufferRecordingAttribute.GetAttributeCount, IStreamBufferRecordingAttribute, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies], GetAttributeCount method, IStreamBufferRecordingAttribute::GetAttributeCount, IStreamBufferRecordingAttributeGetAttributeCount, mstv.istreambufferrecordingattribute_getattributecount, sbe/IStreamBufferRecordingAttribute::GetAttributeCount
+ms.keywords: GetAttributeCount, GetAttributeCount method [Microsoft TV Technologies], GetAttributeCount method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],GetAttributeCount method, IStreamBufferRecordingAttribute.GetAttributeCount, IStreamBufferRecordingAttribute::GetAttributeCount, IStreamBufferRecordingAttributeGetAttributeCount, mstv.istreambufferrecordingattribute_getattributecount, sbe/IStreamBufferRecordingAttribute::GetAttributeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferRecordingAttribute::GetAttributeCount method
+# IStreamBufferRecordingAttribute::GetAttributeCount
 
 
 ## -description

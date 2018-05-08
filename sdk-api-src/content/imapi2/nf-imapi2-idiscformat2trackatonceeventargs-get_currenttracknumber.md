@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnceEventArgs.get_CurrentTrackNumber
-title: IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber method
+title: IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber
 author: windows-driver-content
 description: Retrieves the current track number being written to the media.
 old-location: imapi\idiscformat2trackatonceeventargs_get_currenttracknumber.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: e30afc06-b56b-49bc-8ad0-7446e16bdc95
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2TrackAtOnceEventArgs, IDiscFormat2TrackAtOnceEventArgs interface [IMAPI], get_CurrentTrackNumber method, IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber, get_CurrentTrackNumber method [IMAPI], get_CurrentTrackNumber method [IMAPI], IDiscFormat2TrackAtOnceEventArgs interface, get_CurrentTrackNumber,IDiscFormat2TrackAtOnceEventArgs.get_CurrentTrackNumber, imapi.idiscformat2trackatonceeventargs_get_currenttracknumber, imapi2/IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber
+ms.keywords: IDiscFormat2TrackAtOnceEventArgs interface [IMAPI],get_CurrentTrackNumber method, IDiscFormat2TrackAtOnceEventArgs.get_CurrentTrackNumber, IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber, get_CurrentTrackNumber, get_CurrentTrackNumber method [IMAPI], get_CurrentTrackNumber method [IMAPI],IDiscFormat2TrackAtOnceEventArgs interface, imapi.idiscformat2trackatonceeventargs_get_currenttracknumber, imapi2/IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber method
+# IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber
 
 
 ## -description

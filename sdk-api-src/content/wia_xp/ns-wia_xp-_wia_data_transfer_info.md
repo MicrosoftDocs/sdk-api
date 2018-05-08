@@ -7,7 +7,7 @@ old-location: wia\_wia_WIA_DATA_TRANSFER_INFO.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_data_transfer_info.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/3/2018
 ms.keywords: "*PWIA_DATA_TRANSFER_INFO, PWIA_DATA_TRANSFER_INFO, PWIA_DATA_TRANSFER_INFO structure pointer [WIA], WIA_DATA_TRANSFER_INFO, WIA_DATA_TRANSFER_INFO structure [WIA], _WIA_DATA_TRANSFER_INFO, _wia_WIA_DATA_TRANSFER_INFO, wia._wia_WIA_DATA_TRANSFER_INFO, wia_xp/PWIA_DATA_TRANSFER_INFO, wia_xp/WIA_DATA_TRANSFER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

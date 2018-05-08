@@ -1,0 +1,5 @@
+# [The Windows Shell](../_shell/index.md)
+## [Appnotify.h](index.md)
+### [PAPPSTATE_CHANGE_ROUTINE callback function](../appnotify/nc-appnotify-pappstate_change_routine.md)
+### [RegisterAppStateChangeNotification function](../appnotify/nf-appnotify-registerappstatechangenotification.md)
+### [UnregisterAppStateChangeNotification function](../appnotify/nf-appnotify-unregisterappstatechangenotification.md)

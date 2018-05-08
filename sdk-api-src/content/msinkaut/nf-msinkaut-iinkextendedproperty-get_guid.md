@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperty.get_Guid
-title: IInkExtendedProperty::get_Guid method
+title: IInkExtendedProperty::get_Guid
 author: windows-driver-content
 description: Gets the globally unique identifier (GUID) of the IInkExtendedProperty object.
 old-location: tablet\iinkextendedproperty_guid.htm
 old-project: tablet
 ms.assetid: cd029ffc-11c4-41f7-86bc-c11fac38ec72
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Guid property [Tablet PC], Guid property [Tablet PC], IInkExtendedProperty interface, IInkExtendedProperty, IInkExtendedProperty interface [Tablet PC], Guid property, IInkExtendedProperty.Guid, IInkExtendedProperty.get_Guid, IInkExtendedProperty::get_Guid, cd029ffc-11c4-41f7-86bc-c11fac38ec72, get_Guid,IInkExtendedProperty.get_Guid, msinkaut/IInkExtendedProperty::Guid, msinkaut/IInkExtendedProperty::get_Guid, tablet.iinkextendedproperty_guid
+ms.date: 5/2/2018
+ms.keywords: Guid property [Tablet PC], Guid property [Tablet PC],IInkExtendedProperty interface, IInkExtendedProperty interface [Tablet PC],Guid property, IInkExtendedProperty.Guid, IInkExtendedProperty.get_Guid, IInkExtendedProperty::Guid, IInkExtendedProperty::get_Guid, cd029ffc-11c4-41f7-86bc-c11fac38ec72, get_Guid, msinkaut/IInkExtendedProperty::Guid, msinkaut/IInkExtendedProperty::get_Guid, tablet.iinkextendedproperty_guid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkExtendedProperty::get_Guid method
+# IInkExtendedProperty::get_Guid
 
 
 ## -description

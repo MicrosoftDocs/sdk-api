@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 00b84246-b5f2-48c2-a0ab-eaaa1ec80262
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateSession, IUpdateSession interface [Windows Update Agent], IUpdateSession interface [Windows Update Agent], described, wua.iupdatesession, wuapi/IUpdateSession
+ms.keywords: IUpdateSession, IUpdateSession interface [Windows Update Agent], IUpdateSession interface [Windows Update Agent],described, wua.iupdatesession, wuapi/IUpdateSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

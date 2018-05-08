@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICStream.InitializeFromIStreamRegion
-title: IWICStream::InitializeFromIStreamRegion method
+title: IWICStream::InitializeFromIStreamRegion
 author: windows-driver-content
 description: Initializes the stream as a substream of another stream.
 old-location: wic\_wic_codec_iwicstream_initializefromistreamregion.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 508e1972-22ef-4211-adcf-03f8138624c9
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICStream, IWICStream interface [Windows Imaging Component], InitializeFromIStreamRegion method, IWICStream::InitializeFromIStreamRegion, InitializeFromIStreamRegion method [Windows Imaging Component], InitializeFromIStreamRegion method [Windows Imaging Component], IWICStream interface, InitializeFromIStreamRegion,IWICStream.InitializeFromIStreamRegion, _wic_codec_iwicstream_initializefromistreamregion, wic._wic_codec_iwicstream_initializefromistreamregion, wincodec/IWICStream::InitializeFromIStreamRegion
+ms.keywords: IWICStream interface [Windows Imaging Component],InitializeFromIStreamRegion method, IWICStream.InitializeFromIStreamRegion, IWICStream::InitializeFromIStreamRegion, InitializeFromIStreamRegion, InitializeFromIStreamRegion method [Windows Imaging Component], InitializeFromIStreamRegion method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefromistreamregion, wic._wic_codec_iwicstream_initializefromistreamregion, wincodec/IWICStream::InitializeFromIStreamRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICStream::InitializeFromIStreamRegion method
+# IWICStream::InitializeFromIStreamRegion
 
 
 ## -description

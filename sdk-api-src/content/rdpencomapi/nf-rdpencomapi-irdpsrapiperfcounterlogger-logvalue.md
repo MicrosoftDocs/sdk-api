@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIPerfCounterLogger.LogValue
-title: IRDPSRAPIPerfCounterLogger::LogValue method
+title: IRDPSRAPIPerfCounterLogger::LogValue
 author: windows-driver-content
 description: Logs a value.
 old-location: rdp\irdpsrapiperfcounterlogger_logvalue.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: B6EF608E-5AA9-4AB7-920D-F6E567E1258C
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIPerfCounterLogger, IRDPSRAPIPerfCounterLogger interface [RDP], LogValue method, IRDPSRAPIPerfCounterLogger::LogValue, LogValue method [RDP], LogValue method [RDP], IRDPSRAPIPerfCounterLogger interface, LogValue,IRDPSRAPIPerfCounterLogger.LogValue, rdp.irdpsrapiperfcounterlogger_logvalue, rdpencomapi/IRDPSRAPIPerfCounterLogger::LogValue
+ms.keywords: IRDPSRAPIPerfCounterLogger interface [RDP],LogValue method, IRDPSRAPIPerfCounterLogger.LogValue, IRDPSRAPIPerfCounterLogger::LogValue, LogValue, LogValue method [RDP], LogValue method [RDP],IRDPSRAPIPerfCounterLogger interface, rdp.irdpsrapiperfcounterlogger_logvalue, rdpencomapi/IRDPSRAPIPerfCounterLogger::LogValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIPerfCounterLogger::LogValue method
+# IRDPSRAPIPerfCounterLogger::LogValue
 
 
 ## -description

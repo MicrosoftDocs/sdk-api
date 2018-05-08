@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetControlNode
-title: IBDA_Topology::GetControlNode method
+title: IBDA_Topology::GetControlNode
 author: windows-driver-content
 description: The GetControlNode method retrieves an IUnknown interface pointer for a specified control node.
 old-location: mstv\ibda_topology_getcontrolnode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: eff76633-10c0-4f71-a267-b2e454dcfa6c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetControlNode method [Microsoft TV Technologies], GetControlNode method [Microsoft TV Technologies], IBDA_Topology interface, GetControlNode,IBDA_Topology.GetControlNode, IBDA_Topology, IBDA_Topology interface [Microsoft TV Technologies], GetControlNode method, IBDA_Topology::GetControlNode, IBDA_TopologyGetControlNode, bdaiface/IBDA_Topology::GetControlNode, mstv.ibda_topology_getcontrolnode
+ms.keywords: GetControlNode, GetControlNode method [Microsoft TV Technologies], GetControlNode method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetControlNode method, IBDA_Topology.GetControlNode, IBDA_Topology::GetControlNode, IBDA_TopologyGetControlNode, bdaiface/IBDA_Topology::GetControlNode, mstv.ibda_topology_getcontrolnode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_Topology::GetControlNode method
+# IBDA_Topology::GetControlNode
 
 
 ## -description

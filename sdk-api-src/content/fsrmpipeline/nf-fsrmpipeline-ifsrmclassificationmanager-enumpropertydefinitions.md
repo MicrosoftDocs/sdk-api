@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.EnumPropertyDefinitions
-title: IFsrmClassificationManager::EnumPropertyDefinitions method
+title: IFsrmClassificationManager::EnumPropertyDefinitions
 author: windows-driver-content
 description: Enumerates the property definitions.
 old-location: fsrm\ifsrmclassificationmanager_enumpropertydefinitions.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: c97cb2f1-6e03-444e-a15e-faa85f7a7915
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EnumPropertyDefinitions method [File Server Resource Manager], EnumPropertyDefinitions method [File Server Resource Manager], FsrmClassificationManager class, EnumPropertyDefinitions method [File Server Resource Manager], IFsrmClassificationManager interface, EnumPropertyDefinitions method [File Server Resource Manager], IFsrmClassificationManager2 interface, EnumPropertyDefinitions,IFsrmClassificationManager.EnumPropertyDefinitions, FsrmClassificationManager class [File Server Resource Manager], EnumPropertyDefinitions method, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], EnumPropertyDefinitions method, IFsrmClassificationManager2 interface [File Server Resource Manager], EnumPropertyDefinitions method, IFsrmClassificationManager2::EnumPropertyDefinitions, IFsrmClassificationManager::EnumPropertyDefinitions, fs.ifsrmclassificationmanager_enumpropertydefinitions, fsrm.ifsrmclassificationmanager_enumpropertydefinitions, fsrmpipeline/IFsrmClassificationManager2::EnumPropertyDefinitions, fsrmpipeline/IFsrmClassificationManager::EnumPropertyDefinitions
+ms.keywords: EnumPropertyDefinitions, EnumPropertyDefinitions method [File Server Resource Manager], EnumPropertyDefinitions method [File Server Resource Manager],FsrmClassificationManager class, EnumPropertyDefinitions method [File Server Resource Manager],IFsrmClassificationManager interface, EnumPropertyDefinitions method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumPropertyDefinitions method, IFsrmClassificationManager interface [File Server Resource Manager],EnumPropertyDefinitions method, IFsrmClassificationManager.EnumPropertyDefinitions, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumPropertyDefinitions method, IFsrmClassificationManager2::EnumPropertyDefinitions, IFsrmClassificationManager::EnumPropertyDefinitions, fs.ifsrmclassificationmanager_enumpropertydefinitions, fsrm.ifsrmclassificationmanager_enumpropertydefinitions, fsrmpipeline/IFsrmClassificationManager2::EnumPropertyDefinitions, fsrmpipeline/IFsrmClassificationManager::EnumPropertyDefinitions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassificationManager::EnumPropertyDefinitions method
+# IFsrmClassificationManager::EnumPropertyDefinitions
 
 
 ## -description

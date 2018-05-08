@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocator.AdviseNotify
-title: IVMRSurfaceAllocator::AdviseNotify method
+title: IVMRSurfaceAllocator::AdviseNotify
 author: windows-driver-content
 description: The AdviseNotify method provides the allocator-presenter with the VMR-7 filter's interface for notification callbacks.
 old-location: dshow\ivmrsurfaceallocator_advisenotify.htm
 old-project: DirectShow
 ms.assetid: d4d9998f-e7d6-4c06-8a37-2e9c8e29106b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AdviseNotify method [DirectShow], AdviseNotify method [DirectShow], IVMRSurfaceAllocator interface, AdviseNotify,IVMRSurfaceAllocator.AdviseNotify, IVMRSurfaceAllocator, IVMRSurfaceAllocator interface [DirectShow], AdviseNotify method, IVMRSurfaceAllocator::AdviseNotify, IVMRSurfaceAllocatorAdviseNotify, dshow.ivmrsurfaceallocator_advisenotify, strmif/IVMRSurfaceAllocator::AdviseNotify
+ms.date: 4/30/2018
+ms.keywords: AdviseNotify, AdviseNotify method [DirectShow], AdviseNotify method [DirectShow],IVMRSurfaceAllocator interface, IVMRSurfaceAllocator interface [DirectShow],AdviseNotify method, IVMRSurfaceAllocator.AdviseNotify, IVMRSurfaceAllocator::AdviseNotify, IVMRSurfaceAllocatorAdviseNotify, dshow.ivmrsurfaceallocator_advisenotify, strmif/IVMRSurfaceAllocator::AdviseNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRSurfaceAllocator::AdviseNotify method
+# IVMRSurfaceAllocator::AdviseNotify
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.Synchronize
-title: ISyncMgrSynchronize::Synchronize method
+title: ISyncMgrSynchronize::Synchronize
 author: windows-driver-content
 description: Called by the synchronization manager once for each selected group after the user has chosen the registered applications to be synchronized.
 old-location: shell\syncmgr_isyncmgrsynchronize_synchronize.htm
 old-project: shell
 ms.assetid: 78c202dd-9f8c-43c1-a7be-48030bc34a9c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSynchronize, ISyncMgrSynchronize interface [Windows Shell], Synchronize method, ISyncMgrSynchronize::Synchronize, Synchronize method [Windows Shell], Synchronize method [Windows Shell], ISyncMgrSynchronize interface, Synchronize,ISyncMgrSynchronize.Synchronize, mobsync/ISyncMgrSynchronize::Synchronize, shell.syncmgr_isyncmgrsynchronize_synchronize, syncmgr.isyncmgrsynchronize_synchronize
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSynchronize interface [Windows Shell],Synchronize method, ISyncMgrSynchronize.Synchronize, ISyncMgrSynchronize::Synchronize, Synchronize, Synchronize method [Windows Shell], Synchronize method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::Synchronize, shell.syncmgr_isyncmgrsynchronize_synchronize, syncmgr.isyncmgrsynchronize_synchronize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronize::Synchronize method
+# ISyncMgrSynchronize::Synchronize
 
 
 ## -description

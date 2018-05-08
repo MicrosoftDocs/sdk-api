@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.put_TreeFilter
-title: IUIAutomationCacheRequest::put_TreeFilter method
+title: IUIAutomationCacheRequest::put_TreeFilter
 author: windows-driver-content
 description: Specifies the view of the UI Automation element tree that is used when caching.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_TreeFilter.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: da9c9c9a-7ada-4f72-a025-1202e500241d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationCacheRequest, IUIAutomationCacheRequest interface [Windows Accessibility], TreeFilter property, IUIAutomationCacheRequest.TreeFilter, IUIAutomationCacheRequest::get_TreeFilter, IUIAutomationCacheRequest::put_TreeFilter, TreeFilter property [Windows Accessibility], TreeFilter property [Windows Accessibility], IUIAutomationCacheRequest interface, put_TreeFilter,IUIAutomationCacheRequest.put_TreeFilter, uiauto.uiauto_IUIAutomationCacheRequest_TreeFilter, uiauto_IUIAutomationCacheRequest_TreeFilter, uiautomationclient/IUIAutomationCacheRequest::TreeFilter, uiautomationclient/IUIAutomationCacheRequest::get_TreeFilter, uiautomationclient/IUIAutomationCacheRequest::put_TreeFilter, winauto.uiauto_IUIAutomationCacheRequest_TreeFilter
+ms.keywords: IUIAutomationCacheRequest interface [Windows Accessibility],TreeFilter property, IUIAutomationCacheRequest.TreeFilter, IUIAutomationCacheRequest.put_TreeFilter, IUIAutomationCacheRequest::TreeFilter, IUIAutomationCacheRequest::get_TreeFilter, IUIAutomationCacheRequest::put_TreeFilter, TreeFilter property [Windows Accessibility], TreeFilter property [Windows Accessibility],IUIAutomationCacheRequest interface, put_TreeFilter, uiauto.uiauto_IUIAutomationCacheRequest_TreeFilter, uiauto_IUIAutomationCacheRequest_TreeFilter, uiautomationclient/IUIAutomationCacheRequest::TreeFilter, uiautomationclient/IUIAutomationCacheRequest::get_TreeFilter, uiautomationclient/IUIAutomationCacheRequest::put_TreeFilter, winauto.uiauto_IUIAutomationCacheRequest_TreeFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationCacheRequest::put_TreeFilter method
+# IUIAutomationCacheRequest::put_TreeFilter
 
 
 ## -description

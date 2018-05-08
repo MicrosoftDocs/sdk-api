@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.GetClipList
-title: IDirectDrawClipper::GetClipList method
+title: IDirectDrawClipper::GetClipList
 author: windows-driver-content
 description: Retrieves a copy of the clip list that is associated with a DirectDrawClipper object. To select a subset of the clip list, you can pass a rectangle that clips the clip list.
 old-location: directdraw\idirectdrawclipper_getcliplist.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 0446f8b9-c965-4336-ae78-5bb791861844
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetClipList method [DirectDraw], GetClipList method [DirectDraw], IDirectDrawClipper interface, GetClipList,IDirectDrawClipper.GetClipList, IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], GetClipList method, IDirectDrawClipper::GetClipList, ddraw/IDirectDrawClipper::GetClipList, directdraw.idirectdrawclipper_getcliplist
+ms.keywords: GetClipList, GetClipList method [DirectDraw], GetClipList method [DirectDraw],IDirectDrawClipper interface, IDirectDrawClipper interface [DirectDraw],GetClipList method, IDirectDrawClipper.GetClipList, IDirectDrawClipper::GetClipList, ddraw/IDirectDrawClipper::GetClipList, directdraw.idirectdrawclipper_getcliplist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawClipper::GetClipList method
+# IDirectDrawClipper::GetClipList
 
 
 ## -description

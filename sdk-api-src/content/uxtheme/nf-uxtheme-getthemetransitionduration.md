@@ -7,7 +7,7 @@ old-location: controls\GetThemeTransitionDuration.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetransitionduration.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: GetThemeTransitionDuration, GetThemeTransitionDuration function [Windows Controls], _shell_GetThemeTransitionDuration, _shell_GetThemeTransitionDuration_cpp, controls.GetThemeTransitionDuration, controls._shell_GetThemeTransitionDuration, uxtheme/GetThemeTransitionDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

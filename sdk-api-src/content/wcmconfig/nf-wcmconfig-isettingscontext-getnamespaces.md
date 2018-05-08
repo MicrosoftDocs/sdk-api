@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.GetNamespaces
-title: ISettingsContext::GetNamespaces method
+title: ISettingsContext::GetNamespaces
 author: windows-driver-content
 description: Gets the namespaces that exist in the context.
 old-location: smi\isettingscontext_getnamespaces.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 844ef731-9ccf-4cf5-9bb9-218312cbb07c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetNamespaces method [SMI], GetNamespaces method [SMI], ISettingsContext interface, GetNamespaces,ISettingsContext.GetNamespaces, ISettingsContext, ISettingsContext interface [SMI], GetNamespaces method, ISettingsContext::GetNamespaces, smi.isettingscontext_getnamespaces, wcmconfig/ISettingsContext::GetNamespaces
+ms.keywords: GetNamespaces, GetNamespaces method [SMI], GetNamespaces method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],GetNamespaces method, ISettingsContext.GetNamespaces, ISettingsContext::GetNamespaces, smi.isettingscontext_getnamespaces, wcmconfig/ISettingsContext::GetNamespaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsContext::GetNamespaces method
+# ISettingsContext::GetNamespaces
 
 
 ## -description

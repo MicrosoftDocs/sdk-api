@@ -7,7 +7,7 @@ old-location: multimedia\drawdibgetbuffer.htm
 old-project: Multimedia
 ms.assetid: 6b3e1d3a-2227-4a27-91aa-8767a3d76bc4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: DrawDibGetBuffer, DrawDibGetBuffer function [Windows Multimedia], _win32_DrawDibGetBuffer, multimedia.drawdibgetbuffer, vfw/DrawDibGetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

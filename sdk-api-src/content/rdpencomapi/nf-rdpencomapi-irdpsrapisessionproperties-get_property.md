@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISessionProperties.get_Property
-title: IRDPSRAPISessionProperties::get_Property method
+title: IRDPSRAPISessionProperties::get_Property
 author: windows-driver-content
 description: Sets or gets a named session property.
 old-location: rdp\irdpsrapisessionproperties_property.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 01aee262-95c0-4065-8f8c-e21db66f2a8c
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPISessionProperties, IRDPSRAPISessionProperties interface [RDP], Property property, IRDPSRAPISessionProperties.Property, IRDPSRAPISessionProperties::get_Property, IRDPSRAPISessionProperties::put_Property, Property property [RDP], Property property [RDP], IRDPSRAPISessionProperties interface, Property property [RDP], RDPSRAPISessionProperties object, RDPSRAPISessionProperties object [RDP], Property property, get_Property,IRDPSRAPISessionProperties.get_Property, rdp.irdpsrapisessionproperties_property, rdpencomapi/IRDPSRAPISessionProperties::Property, rdpencomapi/IRDPSRAPISessionProperties::get_Property, rdpencomapi/IRDPSRAPISessionProperties::put_Property
+ms.keywords: IRDPSRAPISessionProperties interface [RDP],Property property, IRDPSRAPISessionProperties.Property, IRDPSRAPISessionProperties.get_Property, IRDPSRAPISessionProperties::Property, IRDPSRAPISessionProperties::get_Property, IRDPSRAPISessionProperties::put_Property, Property property [RDP], Property property [RDP],IRDPSRAPISessionProperties interface, Property property [RDP],RDPSRAPISessionProperties object, RDPSRAPISessionProperties object [RDP],Property property, get_Property, rdp.irdpsrapisessionproperties_property, rdpencomapi/IRDPSRAPISessionProperties::Property, rdpencomapi/IRDPSRAPISessionProperties::get_Property, rdpencomapi/IRDPSRAPISessionProperties::put_Property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPISessionProperties::get_Property method
+# IRDPSRAPISessionProperties::get_Property
 
 
 ## -description

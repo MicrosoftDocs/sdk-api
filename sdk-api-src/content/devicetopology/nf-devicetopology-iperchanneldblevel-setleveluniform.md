@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.SetLevelUniform
-title: IPerChannelDbLevel::SetLevelUniform method
+title: IPerChannelDbLevel::SetLevelUniform
 author: windows-driver-content
 description: The SetLevelUniform method sets all channels in the audio stream to the same uniform volume level, in decibels.
 old-location: coreaudio\iperchanneldblevel_setleveluniform.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: b78bebcb-d32b-4eda-a805-35d4459b6b4f
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], SetLevelUniform method, IPerChannelDbLevel::SetLevelUniform, IPerChannelDbLevelSetLevelUniform, SetLevelUniform method [Core Audio], SetLevelUniform method [Core Audio], IPerChannelDbLevel interface, SetLevelUniform,IPerChannelDbLevel.SetLevelUniform, coreaudio.iperchanneldblevel_setleveluniform, devicetopology/IPerChannelDbLevel::SetLevelUniform
+ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevelUniform method, IPerChannelDbLevel.SetLevelUniform, IPerChannelDbLevel::SetLevelUniform, IPerChannelDbLevelSetLevelUniform, SetLevelUniform, SetLevelUniform method [Core Audio], SetLevelUniform method [Core Audio],IPerChannelDbLevel interface, coreaudio.iperchanneldblevel_setleveluniform, devicetopology/IPerChannelDbLevel::SetLevelUniform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPerChannelDbLevel::SetLevelUniform method
+# IPerChannelDbLevel::SetLevelUniform
 
 
 ## -description

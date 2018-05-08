@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IActionCollection.Remove
-title: IActionCollection::Remove method
+title: IActionCollection::Remove
 author: windows-driver-content
 description: Removes the specified action from the collection.
 old-location: taskschd\iactioncollection_remove.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 91332ec0-8225-421a-baae-1a106be157a9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IActionCollection, IActionCollection interface [Task Scheduler], Remove method, IActionCollection::Remove, Remove method [Task Scheduler], Remove method [Task Scheduler], IActionCollection interface, Remove,IActionCollection.Remove, actions [Task Scheduler], removing, taskschd.iactioncollection_remove, taskschd/IActionCollection::Remove
+ms.keywords: IActionCollection interface [Task Scheduler],Remove method, IActionCollection.Remove, IActionCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],IActionCollection interface, actions [Task Scheduler],removing, taskschd.iactioncollection_remove, taskschd/IActionCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IActionCollection::Remove method
+# IActionCollection::Remove
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.PrepareForBackup
-title: IVssBackupComponents::PrepareForBackup method
+title: IVssBackupComponents::PrepareForBackup
 author: windows-driver-content
 description: The PrepareForBackup method will cause VSS to generate a PrepareForBackup event, signaling writers to prepare for an upcoming backup operation. This makes a requester's Backup Components Document available to writers.
 old-location: base\ivssbackupcomponents_prepareforbackup.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 46ce8282-a434-4b0b-b66e-40810052b34b
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], PrepareForBackup method, IVssBackupComponents::PrepareForBackup, PrepareForBackup method [VSS], PrepareForBackup method [VSS], IVssBackupComponents interface, PrepareForBackup,IVssBackupComponents.PrepareForBackup, _win32_ivssbackupcomponents_prepareforbackup, base.ivssbackupcomponents_prepareforbackup, vsbackup/IVssBackupComponents::PrepareForBackup
+ms.keywords: IVssBackupComponents interface [VSS],PrepareForBackup method, IVssBackupComponents.PrepareForBackup, IVssBackupComponents::PrepareForBackup, PrepareForBackup, PrepareForBackup method [VSS], PrepareForBackup method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_prepareforbackup, base.ivssbackupcomponents_prepareforbackup, vsbackup/IVssBackupComponents::PrepareForBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::PrepareForBackup method
+# IVssBackupComponents::PrepareForBackup
 
 
 ## -description

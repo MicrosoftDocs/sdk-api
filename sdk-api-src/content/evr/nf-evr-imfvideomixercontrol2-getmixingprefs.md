@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoMixerControl2.GetMixingPrefs
-title: IMFVideoMixerControl2::GetMixingPrefs method
+title: IMFVideoMixerControl2::GetMixingPrefs
 author: windows-driver-content
 description: Gets the current preferences for video deinterlacing.
 old-location: mf\imfvideomixercontrol2_getmixingprefs.htm
 old-project: medfound
 ms.assetid: 4ec03db2-9e7f-4a11-8d69-7654391a33d8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetMixingPrefs method [Media Foundation], GetMixingPrefs method [Media Foundation], IMFVideoMixerControl2 interface, GetMixingPrefs,IMFVideoMixerControl2.GetMixingPrefs, IMFVideoMixerControl2, IMFVideoMixerControl2 interface [Media Foundation], GetMixingPrefs method, IMFVideoMixerControl2::GetMixingPrefs, evr/IMFVideoMixerControl2::GetMixingPrefs, mf.imfvideomixercontrol2_getmixingprefs
+ms.date: 5/3/2018
+ms.keywords: GetMixingPrefs, GetMixingPrefs method [Media Foundation], GetMixingPrefs method [Media Foundation],IMFVideoMixerControl2 interface, IMFVideoMixerControl2 interface [Media Foundation],GetMixingPrefs method, IMFVideoMixerControl2.GetMixingPrefs, IMFVideoMixerControl2::GetMixingPrefs, evr/IMFVideoMixerControl2::GetMixingPrefs, mf.imfvideomixercontrol2_getmixingprefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoMixerControl2::GetMixingPrefs method
+# IMFVideoMixerControl2::GetMixingPrefs
 
 
 ## -description

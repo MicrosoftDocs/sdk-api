@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_Branding
-title: IFaxConfiguration::put_Branding method
+title: IFaxConfiguration::put_Branding
 author: windows-driver-content
 description: Sets or retrieves a value that indicates whether the fax server generates a branding mark on outgoing faxes.
 old-location: fax\_mfax_FaxConfiguration_Branding_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\branding.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Branding property [Fax Service], Branding property [Fax Service], FaxConfiguration object, FaxConfiguration object [Fax Service], Branding property, IFaxConfiguration, IFaxConfiguration::put_Branding, _mfax_IFaxConfiguration_Branding, fax._mfax_FaxConfiguration_Branding_vb, put_Branding,IFaxConfiguration.put_Branding
+ms.keywords: Branding property [Fax Service], Branding property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],Branding property, FaxConfiguration.Branding, IFaxConfiguration.put_Branding, IFaxConfiguration::put_Branding, _mfax_IFaxConfiguration_Branding, fax._mfax_FaxConfiguration_Branding_vb, put_Branding
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::put_Branding method
+# IFaxConfiguration::put_Branding
 
 
 ## -description

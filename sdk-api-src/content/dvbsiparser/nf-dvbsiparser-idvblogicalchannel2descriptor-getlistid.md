@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListId
-title: IDvbLogicalChannel2Descriptor::GetListId method
+title: IDvbLogicalChannel2Descriptor::GetListId
 author: windows-driver-content
 description: Gets the identifier for a channel list from a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 39f97d38-d588-43d0-8aea-6ef4e1b3440b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetListId method [Microsoft TV Technologies], GetListId method [Microsoft TV Technologies], IDvbLogicalChannel2Descriptor interface, GetListId,IDvbLogicalChannel2Descriptor.GetListId, IDvbLogicalChannel2Descriptor, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies], GetListId method, IDvbLogicalChannel2Descriptor::GetListId, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListId, mstv.idvblogicalchannel2descriptor_getlistid
+ms.keywords: GetListId, GetListId method [Microsoft TV Technologies], GetListId method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListId method, IDvbLogicalChannel2Descriptor.GetListId, IDvbLogicalChannel2Descriptor::GetListId, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListId, mstv.idvblogicalchannel2descriptor_getlistid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLogicalChannel2Descriptor::GetListId method
+# IDvbLogicalChannel2Descriptor::GetListId
 
 
 ## -description

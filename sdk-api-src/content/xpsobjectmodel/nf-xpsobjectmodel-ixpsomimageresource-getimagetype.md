@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResource.GetImageType
-title: IXpsOMImageResource::GetImageType method
+title: IXpsOMImageResource::GetImageType
 author: windows-driver-content
 description: Gets the type of image resource.
 old-location: xps\ixpsomimageresource_getimagetype.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c38af0c0-e05c-4ba4-92d5-114350cae05f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetImageType method [XPS Documents and Packaging], GetImageType method [XPS Documents and Packaging], IXpsOMImageResource interface, GetImageType,IXpsOMImageResource.GetImageType, IXpsOMImageResource, IXpsOMImageResource interface [XPS Documents and Packaging], GetImageType method, IXpsOMImageResource::GetImageType, xps.ixpsomimageresource_getimagetype, xpsobjectmodel/IXpsOMImageResource::GetImageType
+ms.keywords: GetImageType, GetImageType method [XPS Documents and Packaging], GetImageType method [XPS Documents and Packaging],IXpsOMImageResource interface, IXpsOMImageResource interface [XPS Documents and Packaging],GetImageType method, IXpsOMImageResource.GetImageType, IXpsOMImageResource::GetImageType, xps.ixpsomimageresource_getimagetype, xpsobjectmodel/IXpsOMImageResource::GetImageType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMImageResource::GetImageType method
+# IXpsOMImageResource::GetImageType
 
 
 ## -description

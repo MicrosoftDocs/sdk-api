@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: bb71bc95-049d-4ade-ad10-c33b0bf739ce
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesGhostInfo, IOfflineFilesGhostInfo interface [Offline Files], IOfflineFilesGhostInfo interface [Offline Files], described, cscobj/IOfflineFilesGhostInfo, of.iofflinefilesghostinfo
+ms.keywords: IOfflineFilesGhostInfo, IOfflineFilesGhostInfo interface [Offline Files], IOfflineFilesGhostInfo interface [Offline Files],described, cscobj/IOfflineFilesGhostInfo, of.iofflinefilesghostinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

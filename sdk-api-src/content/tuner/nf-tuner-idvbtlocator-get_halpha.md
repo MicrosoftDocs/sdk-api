@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_HAlpha
-title: IDVBTLocator::get_HAlpha method
+title: IDVBTLocator::get_HAlpha
 author: windows-driver-content
 description: The get_HAlpha method retrieves the hierarchy alpha.
 old-location: mstv\idvbtlocator_get_halpha.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 523222c3-ae40-4eed-af22-6cba56df4959
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], get_HAlpha method, IDVBTLocator::get_HAlpha, IDVBTLocatorget_HAlpha, get_HAlpha method [Microsoft TV Technologies], get_HAlpha method [Microsoft TV Technologies], IDVBTLocator interface, get_HAlpha,IDVBTLocator.get_HAlpha, mstv.idvbtlocator_get_halpha, tuner/IDVBTLocator::get_HAlpha
+ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_HAlpha method, IDVBTLocator.get_HAlpha, IDVBTLocator::get_HAlpha, IDVBTLocatorget_HAlpha, get_HAlpha, get_HAlpha method [Microsoft TV Technologies], get_HAlpha method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_halpha, tuner/IDVBTLocator::get_HAlpha
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBTLocator::get_HAlpha method
+# IDVBTLocator::get_HAlpha
 
 
 ## -description

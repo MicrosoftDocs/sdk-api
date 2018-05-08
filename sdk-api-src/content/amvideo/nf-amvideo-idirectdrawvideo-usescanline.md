@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.UseScanLine
-title: IDirectDrawVideo::UseScanLine method
+title: IDirectDrawVideo::UseScanLine
 author: windows-driver-content
 description: The UseScanLine method determines whether the renderer should check the current scan line when drawing a video.
 old-location: dshow\idirectdrawvideo_usescanline.htm
 old-project: DirectShow
 ms.assetid: 8378582d-ef82-47ff-a801-934c900ac328
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], UseScanLine method, IDirectDrawVideo::UseScanLine, IDirectDrawVideoUseScanLine, UseScanLine method [DirectShow], UseScanLine method [DirectShow], IDirectDrawVideo interface, UseScanLine,IDirectDrawVideo.UseScanLine, amvideo/IDirectDrawVideo::UseScanLine, dshow.idirectdrawvideo_usescanline
+ms.date: 4/30/2018
+ms.keywords: IDirectDrawVideo interface [DirectShow],UseScanLine method, IDirectDrawVideo.UseScanLine, IDirectDrawVideo::UseScanLine, IDirectDrawVideoUseScanLine, UseScanLine, UseScanLine method [DirectShow], UseScanLine method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseScanLine, dshow.idirectdrawvideo_usescanline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawVideo::UseScanLine method
+# IDirectDrawVideo::UseScanLine
 
 
 ## -description

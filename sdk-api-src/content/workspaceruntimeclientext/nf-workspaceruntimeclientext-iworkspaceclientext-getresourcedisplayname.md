@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntimeclientext.IWorkspaceClientExt.GetResourceDisplayName
-title: IWorkspaceClientExt::GetResourceDisplayName method
+title: IWorkspaceClientExt::GetResourceDisplayName
 author: windows-driver-content
 description: Returns the display name of the custom client in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceclientext_getresourcedisplayname.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: f67fa6f3-621a-4015-8fcf-85b1302a3c8a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetResourceDisplayName method [Remote Desktop Services], GetResourceDisplayName method [Remote Desktop Services], IWorkspaceClientExt interface, GetResourceDisplayName,IWorkspaceClientExt.GetResourceDisplayName, IWorkspaceClientExt, IWorkspaceClientExt interface [Remote Desktop Services], GetResourceDisplayName method, IWorkspaceClientExt::GetResourceDisplayName, termserv.iworkspaceclientext_getresourcedisplayname, workspaceruntimeclientext/IWorkspaceClientExt::GetResourceDisplayName
+ms.keywords: GetResourceDisplayName, GetResourceDisplayName method [Remote Desktop Services], GetResourceDisplayName method [Remote Desktop Services],IWorkspaceClientExt interface, IWorkspaceClientExt interface [Remote Desktop Services],GetResourceDisplayName method, IWorkspaceClientExt.GetResourceDisplayName, IWorkspaceClientExt::GetResourceDisplayName, termserv.iworkspaceclientext_getresourcedisplayname, workspaceruntimeclientext/IWorkspaceClientExt::GetResourceDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWorkspaceClientExt::GetResourceDisplayName method
+# IWorkspaceClientExt::GetResourceDisplayName
 
 
 ## -description

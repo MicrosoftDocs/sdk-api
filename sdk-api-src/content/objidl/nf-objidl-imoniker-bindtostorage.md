@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.BindToStorage
-title: IMoniker::BindToStorage method
+title: IMoniker::BindToStorage
 author: windows-driver-content
 description: Binds to the storage for the specified object. Unlike the IMoniker::BindToObject method, this method does not activate the object identified by the moniker.
 old-location: com\imoniker_bindtostorage.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 94c8219f-8131-45dd-b350-878ffd6161ea
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: BindToStorage method [COM], BindToStorage method [COM], IMoniker interface, BindToStorage,IMoniker.BindToStorage, IMoniker, IMoniker interface [COM], BindToStorage method, IMoniker::BindToStorage, _com_imoniker_bindtostorage, com.imoniker_bindtostorage, objidl/IMoniker::BindToStorage
+ms.keywords: BindToStorage, BindToStorage method [COM], BindToStorage method [COM],IMoniker interface, IMoniker interface [COM],BindToStorage method, IMoniker.BindToStorage, IMoniker::BindToStorage, _com_imoniker_bindtostorage, com.imoniker_bindtostorage, objidl/IMoniker::BindToStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMoniker::BindToStorage method
+# IMoniker::BindToStorage
 
 
 ## -description

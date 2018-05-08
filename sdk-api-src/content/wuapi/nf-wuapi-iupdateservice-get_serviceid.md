@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_ServiceID
-title: IUpdateService::get_ServiceID method
+title: IUpdateService::get_ServiceID
 author: windows-driver-content
 description: Retrieves or sets the identifier for a service.
 old-location: wua\iupdateservice_serviceid.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 55cea655-09ac-410e-b802-f54b797ac609
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateService, IUpdateService interface [Windows Update Agent], ServiceID property, IUpdateService.ServiceID, IUpdateService::get_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent], IUpdateService interface, get_ServiceID,IUpdateService.get_ServiceID, wua.iupdateservice_serviceid, wuapi/IUpdateService::ServiceID, wuapi/IUpdateService::get_ServiceID
+ms.keywords: IUpdateService interface [Windows Update Agent],ServiceID property, IUpdateService.ServiceID, IUpdateService.get_ServiceID, IUpdateService::ServiceID, IUpdateService::get_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent],IUpdateService interface, get_ServiceID, wua.iupdateservice_serviceid, wuapi/IUpdateService::ServiceID, wuapi/IUpdateService::get_ServiceID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateService::get_ServiceID method
+# IUpdateService::get_ServiceID
 
 
 ## -description

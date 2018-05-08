@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo2.IsAudioStreamEnabled
-title: IDvdInfo2::IsAudioStreamEnabled method
+title: IDvdInfo2::IsAudioStreamEnabled
 author: windows-driver-content
 description: The IsAudioStreamEnabled method determines if the specified audio stream is enabled in the current title.
 old-location: dshow\idvdinfo2_isaudiostreamenabled.htm
 old-project: DirectShow
 ms.assetid: 34938f9b-d3d8-4f38-95b4-bd65a5e88458
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdInfo2, IDvdInfo2 interface [DirectShow], IsAudioStreamEnabled method, IDvdInfo2::IsAudioStreamEnabled, IDvdInfo2IsAudioStreamEnabled, IsAudioStreamEnabled method [DirectShow], IsAudioStreamEnabled method [DirectShow], IDvdInfo2 interface, IsAudioStreamEnabled,IDvdInfo2.IsAudioStreamEnabled, dshow.idvdinfo2_isaudiostreamenabled, strmif/IDvdInfo2::IsAudioStreamEnabled
+ms.date: 4/30/2018
+ms.keywords: IDvdInfo2 interface [DirectShow],IsAudioStreamEnabled method, IDvdInfo2.IsAudioStreamEnabled, IDvdInfo2::IsAudioStreamEnabled, IDvdInfo2IsAudioStreamEnabled, IsAudioStreamEnabled, IsAudioStreamEnabled method [DirectShow], IsAudioStreamEnabled method [DirectShow],IDvdInfo2 interface, dshow.idvdinfo2_isaudiostreamenabled, strmif/IDvdInfo2::IsAudioStreamEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo2::IsAudioStreamEnabled method
+# IDvdInfo2::IsAudioStreamEnabled
 
 
 ## -description

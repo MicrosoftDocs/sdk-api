@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 847aea86-48e9-428e-ae4d-e6a7e1e13428
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMGPOCollection, IGPMGPOCollection, IGPMGPOCollection interface [GPMC], IGPMGPOCollection interface [GPMC], described, _win32_igpmgpocollection, gpmc.igpmgpocollection, gpmgmt/IGPMGPOCollection
+ms.keywords: GPMGPOCollection, IGPMGPOCollection, IGPMGPOCollection interface [GPMC], IGPMGPOCollection interface [GPMC],described, _win32_igpmgpocollection, gpmc.igpmgpocollection, gpmgmt/IGPMGPOCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

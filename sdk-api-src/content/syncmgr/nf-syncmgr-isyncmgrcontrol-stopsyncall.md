@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StopSyncAll
-title: ISyncMgrControl::StopSyncAll method
+title: ISyncMgrControl::StopSyncAll
 author: windows-driver-content
 description: Stops the synchronization of all items managed by all handlers.
 old-location: shell\ISyncMgrControl_StopSyncAll.htm
 old-project: shell
 ms.assetid: c6f75833-a1b8-46d0-a339-99e5bf814f7f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrControl, ISyncMgrControl interface [Windows Shell], StopSyncAll method, ISyncMgrControl::StopSyncAll, StopSyncAll method [Windows Shell], StopSyncAll method [Windows Shell], ISyncMgrControl interface, StopSyncAll,ISyncMgrControl.StopSyncAll, _shell_ISyncMgrControl_StopSyncAll, shell.ISyncMgrControl_StopSyncAll, syncmgr/ISyncMgrControl::StopSyncAll
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrControl interface [Windows Shell],StopSyncAll method, ISyncMgrControl.StopSyncAll, ISyncMgrControl::StopSyncAll, StopSyncAll, StopSyncAll method [Windows Shell], StopSyncAll method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StopSyncAll, shell.ISyncMgrControl_StopSyncAll, syncmgr/ISyncMgrControl::StopSyncAll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrControl::StopSyncAll method
+# ISyncMgrControl::StopSyncAll
 
 
 ## -description

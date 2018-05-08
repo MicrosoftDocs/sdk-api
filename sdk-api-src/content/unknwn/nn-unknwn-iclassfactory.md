@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f624f833-2b69-43bc-92cd-c4ecbe6051c5
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interface [COM], described, _com_iclassfactory, com.iclassfactory, unknwnbase/IClassFactory
+ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interface [COM],described, _com_iclassfactory, com.iclassfactory, unknwnbase/IClassFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

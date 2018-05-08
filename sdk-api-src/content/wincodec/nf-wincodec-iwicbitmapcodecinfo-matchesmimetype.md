@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.MatchesMimeType
-title: IWICBitmapCodecInfo::MatchesMimeType method
+title: IWICBitmapCodecInfo::MatchesMimeType
 author: windows-driver-content
 description: Retrieves a value indicating whether the given mime type matches the mime type of the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_matchesmimetype.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 43704d5c-d2c2-4817-b61b-a752d32105aa
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], MatchesMimeType method, IWICBitmapCodecInfo::MatchesMimeType, MatchesMimeType method [Windows Imaging Component], MatchesMimeType method [Windows Imaging Component], IWICBitmapCodecInfo interface, MatchesMimeType,IWICBitmapCodecInfo.MatchesMimeType, _wic_codec_iwicbitmapcodecinfo_matchesmimetype, wic._wic_codec_iwicbitmapcodecinfo_matchesmimetype, wincodec/IWICBitmapCodecInfo::MatchesMimeType
+ms.keywords: IWICBitmapCodecInfo interface [Windows Imaging Component],MatchesMimeType method, IWICBitmapCodecInfo.MatchesMimeType, IWICBitmapCodecInfo::MatchesMimeType, MatchesMimeType, MatchesMimeType method [Windows Imaging Component], MatchesMimeType method [Windows Imaging Component],IWICBitmapCodecInfo interface, _wic_codec_iwicbitmapcodecinfo_matchesmimetype, wic._wic_codec_iwicbitmapcodecinfo_matchesmimetype, wincodec/IWICBitmapCodecInfo::MatchesMimeType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapCodecInfo::MatchesMimeType method
+# IWICBitmapCodecInfo::MatchesMimeType
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.ISectionList.GetTableIdentifier
-title: ISectionList::GetTableIdentifier method
+title: ISectionList::GetTableIdentifier
 author: windows-driver-content
 description: The GetTableIdentifier method returns the table identifier (TID) of the packets that this object is receiving.
 old-location: mstv\isectionlist_gettableidentifier.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e0fd82ec-283e-4d6f-aa74-c65f15df651f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableIdentifier method [Microsoft TV Technologies], GetTableIdentifier method [Microsoft TV Technologies], ISectionList interface, GetTableIdentifier,ISectionList.GetTableIdentifier, ISectionList, ISectionList interface [Microsoft TV Technologies], GetTableIdentifier method, ISectionList::GetTableIdentifier, ISectionListGetTableIdentifier, mpeg2data/ISectionList::GetTableIdentifier, mstv.isectionlist_gettableidentifier
+ms.keywords: GetTableIdentifier, GetTableIdentifier method [Microsoft TV Technologies], GetTableIdentifier method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetTableIdentifier method, ISectionList.GetTableIdentifier, ISectionList::GetTableIdentifier, ISectionListGetTableIdentifier, mpeg2data/ISectionList::GetTableIdentifier, mstv.isectionlist_gettableidentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISectionList::GetTableIdentifier method
+# ISectionList::GetTableIdentifier
 
 
 ## -description

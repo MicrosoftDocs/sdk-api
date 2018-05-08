@@ -7,7 +7,7 @@ old-location: iphlp\rtlethernetaddresstostring.htm
 old-project: IpHlp
 ms.assetid: 5DE1A1EF-86B3-4414-A21F-90635B48242A
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: RtlEthernetAddressToString, RtlEthernetAddressToString function [IP Helper], RtlEthernetAddressToStringA, RtlEthernetAddressToStringW, ip2string/RtlEthernetAddressToString, ip2string/RtlEthernetAddressToStringA, ip2string/RtlEthernetAddressToStringW, iphlp.rtlethernetaddresstostring
 ms.prod: windows-hardware
 ms.technology: windows-devices

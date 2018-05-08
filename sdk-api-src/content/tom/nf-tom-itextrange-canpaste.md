@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.CanPaste
-title: ITextRange::CanPaste method
+title: ITextRange::CanPaste
 author: windows-driver-content
 description: Determines if a data object can be pasted, using a specified format, into the current range.
 old-location: controls\ITextRange_CanPaste.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\canpaste.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: CanPaste method [Windows Controls], CanPaste method [Windows Controls], ITextRange interface, CanPaste,ITextRange.CanPaste, ITextRange, ITextRange interface [Windows Controls], CanPaste method, ITextRange::CanPaste, _win32_ITextRange_CanPaste, _win32_ITextRange_CanPaste_cpp, controls.ITextRange_CanPaste, controls._win32_ITextRange_CanPaste, tom/ITextRange::CanPaste
+ms.date: 4/27/2018
+ms.keywords: CanPaste, CanPaste method [Windows Controls], CanPaste method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],CanPaste method, ITextRange.CanPaste, ITextRange::CanPaste, _win32_ITextRange_CanPaste, _win32_ITextRange_CanPaste_cpp, controls.ITextRange_CanPaste, controls._win32_ITextRange_CanPaste, tom/ITextRange::CanPaste
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::CanPaste method
+# ITextRange::CanPaste
 
 
 ## -description

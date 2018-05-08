@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_SizeAllocated
-title: IFsrmPropertyBag::get_SizeAllocated method
+title: IFsrmPropertyBag::get_SizeAllocated
 author: windows-driver-content
 description: The allocation size of the file.
 old-location: fsrm\ifsrmpropertybag_sizeallocated.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: d1ec946b-2769-4e0d-b01c-08ef6032df16
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], SizeAllocated property, IFsrmPropertyBag.SizeAllocated, IFsrmPropertyBag::get_SizeAllocated, SizeAllocated property [File Server Resource Manager], SizeAllocated property [File Server Resource Manager], IFsrmPropertyBag interface, fs.ifsrmpropertybag_sizeallocated, fsrm.ifsrmpropertybag_sizeallocated, fsrmpipeline/IFsrmPropertyBag::SizeAllocated, fsrmpipeline/IFsrmPropertyBag::get_SizeAllocated, get_SizeAllocated,IFsrmPropertyBag.get_SizeAllocated
+ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],SizeAllocated property, IFsrmPropertyBag.SizeAllocated, IFsrmPropertyBag.get_SizeAllocated, IFsrmPropertyBag::SizeAllocated, IFsrmPropertyBag::get_SizeAllocated, SizeAllocated property [File Server Resource Manager], SizeAllocated property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_sizeallocated, fsrm.ifsrmpropertybag_sizeallocated, fsrmpipeline/IFsrmPropertyBag::SizeAllocated, fsrmpipeline/IFsrmPropertyBag::get_SizeAllocated, get_SizeAllocated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyBag::get_SizeAllocated method
+# IFsrmPropertyBag::get_SizeAllocated
 
 
 ## -description

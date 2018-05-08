@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.GetMatrixTransposeArray
-title: ID3D10EffectMatrixVariable::GetMatrixTransposeArray method
+title: ID3D10EffectMatrixVariable::GetMatrixTransposeArray
 author: windows-driver-content
 description: Transpose and get an array of floating-point matrices.
 old-location: direct3d10\id3d10effectmatrixvariable_getmatrixtransposearray.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_getmatrixtransposearray.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 97f65a10-d90a-eb86-1a16-97e8d6e33352, GetMatrixTransposeArray method [Direct3D 10], GetMatrixTransposeArray method [Direct3D 10], ID3D10EffectMatrixVariable interface, GetMatrixTransposeArray,ID3D10EffectMatrixVariable.GetMatrixTransposeArray, ID3D10EffectMatrixVariable, ID3D10EffectMatrixVariable interface [Direct3D 10], GetMatrixTransposeArray method, ID3D10EffectMatrixVariable::GetMatrixTransposeArray, d3d10effect/ID3D10EffectMatrixVariable::GetMatrixTransposeArray, direct3d10.id3d10effectmatrixvariable_getmatrixtransposearray
+ms.keywords: 97f65a10-d90a-eb86-1a16-97e8d6e33352, GetMatrixTransposeArray, GetMatrixTransposeArray method [Direct3D 10], GetMatrixTransposeArray method [Direct3D 10],ID3D10EffectMatrixVariable interface, ID3D10EffectMatrixVariable interface [Direct3D 10],GetMatrixTransposeArray method, ID3D10EffectMatrixVariable.GetMatrixTransposeArray, ID3D10EffectMatrixVariable::GetMatrixTransposeArray, d3d10effect/ID3D10EffectMatrixVariable::GetMatrixTransposeArray, direct3d10.id3d10effectmatrixvariable_getmatrixtransposearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectMatrixVariable::GetMatrixTransposeArray method
+# ID3D10EffectMatrixVariable::GetMatrixTransposeArray
 
 
 ## -description

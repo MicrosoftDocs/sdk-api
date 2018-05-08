@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetZOrder
-title: IVMRMixerControl::SetZOrder method
+title: IVMRMixerControl::SetZOrder
 author: windows-driver-content
 description: The SetZOrder method sets this video stream's position in the Z-order; larger values are further away.
 old-location: dshow\ivmrmixercontrol_setzorder.htm
 old-project: DirectShow
 ms.assetid: f1ef562e-049c-4edf-a83c-76675e2113c6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRMixerControl, IVMRMixerControl interface [DirectShow], SetZOrder method, IVMRMixerControl::SetZOrder, IVMRMixerControlSetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow], IVMRMixerControl interface, SetZOrder,IVMRMixerControl.SetZOrder, dshow.ivmrmixercontrol_setzorder, strmif/IVMRMixerControl::SetZOrder
+ms.date: 4/30/2018
+ms.keywords: IVMRMixerControl interface [DirectShow],SetZOrder method, IVMRMixerControl.SetZOrder, IVMRMixerControl::SetZOrder, IVMRMixerControlSetZOrder, SetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setzorder, strmif/IVMRMixerControl::SetZOrder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRMixerControl::SetZOrder method
+# IVMRMixerControl::SetZOrder
 
 
 ## -description

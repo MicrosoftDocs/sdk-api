@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Skip
-title: IEnumCERTVIEWEXTENSION::Skip method
+title: IEnumCERTVIEWEXTENSION::Skip
 author: windows-driver-content
 description: Skips a specified number of extensions in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_skip.htm
 old-project: SecCrypto
 ms.assetid: b354cf0e-2f15-42a5-8e84-4db9bc4e6a8d
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnumCERTVIEWEXTENSION, IEnumCERTVIEWEXTENSION interface [Security], Skip method, IEnumCERTVIEWEXTENSION object [Security], Skip method, IEnumCERTVIEWEXTENSION::Skip, Skip method [Security], Skip method [Security], IEnumCERTVIEWEXTENSION interface, Skip method [Security], IEnumCERTVIEWEXTENSION object, Skip,IEnumCERTVIEWEXTENSION.Skip, _certsrv_ienumcertviewextension_skip, certview/IEnumCERTVIEWEXTENSION::Skip, security.ienumcertviewextension_skip
+ms.date: 4/30/2018
+ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Skip method, IEnumCERTVIEWEXTENSION object [Security],Skip method, IEnumCERTVIEWEXTENSION.Skip, IEnumCERTVIEWEXTENSION::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWEXTENSION interface, Skip method [Security],IEnumCERTVIEWEXTENSION object, _certsrv_ienumcertviewextension_skip, certview/IEnumCERTVIEWEXTENSION::Skip, security.ienumcertviewextension_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWEXTENSION::Skip method
+# IEnumCERTVIEWEXTENSION::Skip
 
 
 ## -description

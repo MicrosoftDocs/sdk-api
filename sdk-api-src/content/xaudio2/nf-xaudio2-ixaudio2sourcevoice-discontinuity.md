@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.Discontinuity
-title: IXAudio2SourceVoice::Discontinuity method
+title: IXAudio2SourceVoice::Discontinuity
 author: windows-driver-content
 description: Notifies an XAudio2 voice that no more buffers are coming after the last one that is currently in its queue.
 old-location: xaudio2\ixaudio2sourcevoice_interface_discontinuity_.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Discontinuity
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: Discontinuity method [XAudio2 Audio Mixing APIs], Discontinuity method [XAudio2 Audio Mixing APIs], IXAudio2SourceVoice interface, Discontinuity,IXAudio2SourceVoice.Discontinuity, IXAudio2SourceVoice, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs], Discontinuity method, IXAudio2SourceVoice::Discontinuity, xaudio2.ixaudio2sourcevoice_interface_discontinuity_, xaudio2/IXAudio2SourceVoice::Discontinuity
+ms.keywords: Discontinuity, Discontinuity method [XAudio2 Audio Mixing APIs], Discontinuity method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Discontinuity method, IXAudio2SourceVoice.Discontinuity, IXAudio2SourceVoice::Discontinuity, xaudio2.ixaudio2sourcevoice_interface_discontinuity_, xaudio2/IXAudio2SourceVoice::Discontinuity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2SourceVoice::Discontinuity method
+# IXAudio2SourceVoice::Discontinuity
 
 
 ## -description

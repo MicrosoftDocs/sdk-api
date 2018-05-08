@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.GetPropertyHandle
-title: IWbemObjectAccess::GetPropertyHandle method
+title: IWbemObjectAccess::GetPropertyHandle
 author: windows-driver-content
 description: The GetPropertyHandle method returns a unique handle that identifies a property. You can use this handle to identify properties when using IWbemObjectAccess methods to read or write property values.
 old-location: wmi\iwbemobjectaccess_getpropertyhandle.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 889d90cd-f53f-460e-b1c2-ed2b87863d58
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetPropertyHandle method [Windows Management Instrumentation], GetPropertyHandle method [Windows Management Instrumentation], IWbemObjectAccess interface, GetPropertyHandle,IWbemObjectAccess.GetPropertyHandle, IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], GetPropertyHandle method, IWbemObjectAccess::GetPropertyHandle, _hmm_iwbemobjectaccess_getpropertyhandle, wbemcli/IWbemObjectAccess::GetPropertyHandle, wmi.iwbemobjectaccess_getpropertyhandle
+ms.keywords: GetPropertyHandle, GetPropertyHandle method [Windows Management Instrumentation], GetPropertyHandle method [Windows Management Instrumentation],IWbemObjectAccess interface, IWbemObjectAccess interface [Windows Management Instrumentation],GetPropertyHandle method, IWbemObjectAccess.GetPropertyHandle, IWbemObjectAccess::GetPropertyHandle, _hmm_iwbemobjectaccess_getpropertyhandle, wbemcli/IWbemObjectAccess::GetPropertyHandle, wmi.iwbemobjectaccess_getpropertyhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemObjectAccess::GetPropertyHandle method
+# IWbemObjectAccess::GetPropertyHandle
 
 
 ## -description

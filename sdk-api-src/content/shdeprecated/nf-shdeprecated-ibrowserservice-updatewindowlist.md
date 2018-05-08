@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.UpdateWindowList
-title: IBrowserService::UpdateWindowList method
+title: IBrowserService::UpdateWindowList
 author: windows-driver-content
 description: Deprecated. Instructs the browser to update the pointer to an item identifier list (PIDL) in the window list. This method is called after navigation.
 old-location: shell\IBrowserService_UpdateWindowList.htm
 old-project: shell
 ms.assetid: 0c82a486-f8ad-4868-80ab-ae4a2ebcc95f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], UpdateWindowList method, IBrowserService::UpdateWindowList, UpdateWindowList method [Windows Shell], UpdateWindowList method [Windows Shell], IBrowserService interface, UpdateWindowList,IBrowserService.UpdateWindowList, shdeprecated/IBrowserService::UpdateWindowList, shell.IBrowserService_UpdateWindowList, zone_IBrowserService_UpdateWindowList
+ms.date: 5/3/2018
+ms.keywords: IBrowserService interface [Windows Shell],UpdateWindowList method, IBrowserService.UpdateWindowList, IBrowserService::UpdateWindowList, UpdateWindowList, UpdateWindowList method [Windows Shell], UpdateWindowList method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::UpdateWindowList, shell.IBrowserService_UpdateWindowList, zone_IBrowserService_UpdateWindowList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::UpdateWindowList method
+# IBrowserService::UpdateWindowList
 
 
 ## -description

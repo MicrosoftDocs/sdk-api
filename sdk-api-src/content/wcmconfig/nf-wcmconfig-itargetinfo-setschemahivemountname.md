@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetSchemaHiveMountName
-title: ITargetInfo::SetSchemaHiveMountName method
+title: ITargetInfo::SetSchemaHiveMountName
 author: windows-driver-content
 description: Sets the name of the mount location of the schema hive.
 old-location: smi\itargetinfo_setschemahivemountname.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 128cf457-c66e-49b7-88a7-3f5d87800a20
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITargetInfo, ITargetInfo interface [SMI], SetSchemaHiveMountName method, ITargetInfo::SetSchemaHiveMountName, SetSchemaHiveMountName method [SMI], SetSchemaHiveMountName method [SMI], ITargetInfo interface, SetSchemaHiveMountName,ITargetInfo.SetSchemaHiveMountName, smi.itargetinfo_setschemahivemountname, wcmconfig/ITargetInfo::SetSchemaHiveMountName
+ms.keywords: ITargetInfo interface [SMI],SetSchemaHiveMountName method, ITargetInfo.SetSchemaHiveMountName, ITargetInfo::SetSchemaHiveMountName, SetSchemaHiveMountName, SetSchemaHiveMountName method [SMI], SetSchemaHiveMountName method [SMI],ITargetInfo interface, smi.itargetinfo_setschemahivemountname, wcmconfig/ITargetInfo::SetSchemaHiveMountName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::SetSchemaHiveMountName method
+# ITargetInfo::SetSchemaHiveMountName
 
 
 ## -description

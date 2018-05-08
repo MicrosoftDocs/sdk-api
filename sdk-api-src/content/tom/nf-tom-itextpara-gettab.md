@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetTab
-title: ITextPara::GetTab method
+title: ITextPara::GetTab
 author: windows-driver-content
 description: Retrieves tab parameters (displacement, alignment, and leader style) for a specified tab.
 old-location: controls\ITextPara_GetTab.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettab.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetTab method [Windows Controls], GetTab method [Windows Controls], ITextPara interface, GetTab,ITextPara.GetTab, ITextPara, ITextPara interface [Windows Controls], GetTab method, ITextPara::GetTab, _win32_ITextPara_GetTab, _win32_ITextPara_GetTab_cpp, controls.ITextPara_GetTab, controls._win32_ITextPara_GetTab, tom/ITextPara::GetTab
+ms.date: 4/27/2018
+ms.keywords: GetTab, GetTab method [Windows Controls], GetTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetTab method, ITextPara.GetTab, ITextPara::GetTab, _win32_ITextPara_GetTab, _win32_ITextPara_GetTab_cpp, controls.ITextPara_GetTab, controls._win32_ITextPara_GetTab, tom/ITextPara::GetTab
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetTab method
+# ITextPara::GetTab
 
 
 ## -description

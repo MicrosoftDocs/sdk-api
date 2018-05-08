@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_subnet_element_data_v6.htm
 old-project: DHCP
 ms.assetid: de5fa8c5-5cd7-4358-bacd-f27f4b7f3761
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_DATA_V6, DHCP_SUBNET_ELEMENT_DATA_V6, DHCP_SUBNET_ELEMENT_DATA_V6 structure [DHCP], PDHCP_SUBNET_ELEMENT_DATA_V6, PDHCP_SUBNET_ELEMENT_DATA_V6 structure pointer [DHCP], _DHCP_SUBNET_ELEMENT_DATA_V6, dhcp.dhcp_subnet_element_data_v6, dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V6, dhcpsapi/PDHCP_SUBNET_ELEMENT_DATA_V6"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,25 +62,72 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V6</b> structure contains definitions for the el
 Defines the set of possible prefix element types. This value is used to determine which of the values are chosen from the subsequent union element.
 
 
+### -field Element.IpRange.case
+
+ 
+
+
+### -field Element.IpRange.case.Dhcpv6IpRanges
+
+ 
+
+
+### -field Element.ReservedIp.case
+
+ 
+
+
+### -field Element.ReservedIp.case.Dhcpv6ReservedIps
+
+ 
+
+
+### -field Element.ExcludeIpRange.case
+
+ 
+
+
+### -field Element.ExcludeIpRange.case.Dhcpv6ExcludedIpRanges
+
+ 
+
+
+### -field Element.switch_is
+
+ 
+
+
+### -field Element.switch_is.ELEMENT_MASK(ElementType)
+
+ 
+
+
+### -field Element.switch_type
+
+ 
+
+
+### -field Element.switch_type.DHCP_SUBNET_ELEMENT_TYPE_V6
+
+ 
+
+
 ### -field Element
 
 A union of different IPv6 prefix element types. The value of this union is dependent on the <b>ElementType</b> member.
 
 
-
-#### IpRange
+### -field Element.IpRange
 
 Pointer to a <a href="https://msdn.microsoft.com/3a918a2b-beff-4562-9c7f-acee2cc8f2da">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 range for this IPv6 prefix.
 
 
-
-#### ReservedIp
+### -field Element.ReservedIp
 
 Pointer to a <a href="https://msdn.microsoft.com/f1595632-018b-4626-b3c6-49f0e5b3752c">DHCP_IP_RESERVATION_V6</a> structure that contains the IPv6 reservation information.
 
 
-
-#### ExcludeIpRange
+### -field Element.ExcludeIpRange
 
 Pointer to a <a href="https://msdn.microsoft.com/3a918a2b-beff-4562-9c7f-acee2cc8f2da">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 exclusion range information.
 

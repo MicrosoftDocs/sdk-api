@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSMan.CreateSession
-title: IWSMan::CreateSession method
+title: IWSMan::CreateSession
 author: windows-driver-content
 description: Creates a Session object that can then be used for subsequent network operations.
 old-location: winrm\iwsman_createsession.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 0ccab9bf-f8b4-432e-92d1-b5a5d3a2dfe5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateSession method [Windows Remote Management], CreateSession method [Windows Remote Management], IWSMan interface, CreateSession,IWSMan.CreateSession, IWSMan, IWSMan interface [Windows Remote Management], CreateSession method, IWSMan::CreateSession, winrm.iwsman_createsession, wsmandisp/IWSMan::CreateSession
+ms.keywords: CreateSession, CreateSession method [Windows Remote Management], CreateSession method [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CreateSession method, IWSMan.CreateSession, IWSMan::CreateSession, winrm.iwsman_createsession, wsmandisp/IWSMan::CreateSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSMan::CreateSession method
+# IWSMan::CreateSession
 
 
 ## -description

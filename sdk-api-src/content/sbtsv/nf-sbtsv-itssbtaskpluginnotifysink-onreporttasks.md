@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnReportTasks
-title: ITsSbTaskPluginNotifySink::OnReportTasks method
+title: ITsSbTaskPluginNotifySink::OnReportTasks
 author: windows-driver-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) of a new task report.
 old-location: termserv\itssbtaskpluginnotifysink_onreporttasks.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: e3b722c2-e6fa-46c5-a851-a039553b8e95
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbTaskPluginNotifySink, ITsSbTaskPluginNotifySink interface [Remote Desktop Services], OnReportTasks method, ITsSbTaskPluginNotifySink::OnReportTasks, OnReportTasks method [Remote Desktop Services], OnReportTasks method [Remote Desktop Services], ITsSbTaskPluginNotifySink interface, OnReportTasks,ITsSbTaskPluginNotifySink.OnReportTasks, sbtsv/ITsSbTaskPluginNotifySink::OnReportTasks, termserv.itssbtaskpluginnotifysink_onreporttasks
+ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnReportTasks method, ITsSbTaskPluginNotifySink.OnReportTasks, ITsSbTaskPluginNotifySink::OnReportTasks, OnReportTasks, OnReportTasks method [Remote Desktop Services], OnReportTasks method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnReportTasks, termserv.itssbtaskpluginnotifysink_onreporttasks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbTaskPluginNotifySink::OnReportTasks method
+# ITsSbTaskPluginNotifySink::OnReportTasks
 
 
 ## -description

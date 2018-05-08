@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_DrawingAttributes
-title: IInkStrokeDisp::get_DrawingAttributes method
+title: IInkStrokeDisp::get_DrawingAttributes
 author: windows-driver-content
 description: Gets or sets the drawing attributes to apply to ink as it is drawn.
 old-location: tablet\iinkstrokedisp_drawingattributes.htm
 old-project: tablet
 ms.assetid: f41de939-0c20-4128-bee4-22a0c434159f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC], IInkStrokeDisp interface, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], DrawingAttributes property, IInkStrokeDisp.DrawingAttributes, IInkStrokeDisp.get_DrawingAttributes, IInkStrokeDisp.put_DrawingAttributes, IInkStrokeDisp::get_DrawingAttributes, IInkStrokeDisp::put_DrawingAttributes, get_DrawingAttributes,IInkStrokeDisp.get_DrawingAttributes, msinkaut/IInkStrokeDisp::DrawingAttributes, msinkaut/IInkStrokeDisp::get_DrawingAttributes, msinkaut/IInkStrokeDisp::put_DrawingAttributes, tablet.iinkstrokedisp_drawingattributes
+ms.date: 5/2/2018
+ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],DrawingAttributes property, IInkStrokeDisp.DrawingAttributes, IInkStrokeDisp.get_DrawingAttributes, IInkStrokeDisp.put_DrawingAttributes, IInkStrokeDisp::DrawingAttributes, IInkStrokeDisp::get_DrawingAttributes, IInkStrokeDisp::put_DrawingAttributes, get_DrawingAttributes, msinkaut/IInkStrokeDisp::DrawingAttributes, msinkaut/IInkStrokeDisp::get_DrawingAttributes, msinkaut/IInkStrokeDisp::put_DrawingAttributes, tablet.iinkstrokedisp_drawingattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::get_DrawingAttributes method
+# IInkStrokeDisp::get_DrawingAttributes
 
 
 ## -description

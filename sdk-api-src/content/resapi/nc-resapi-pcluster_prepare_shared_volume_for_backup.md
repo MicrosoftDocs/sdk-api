@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: d30f1a5b-f231-4874-8e79-6d25cfd094a5
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP, PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP callback function [Failover Cluster], mscs.clusterpreparesharedvolumeforbackup, resapi/PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP
+ms.keywords: PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP, PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP callback, PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP callback function [Failover Cluster], mscs.clusterpreparesharedvolumeforbackup, resapi/PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP callback
+# PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP callback function
 
 
 ## -description

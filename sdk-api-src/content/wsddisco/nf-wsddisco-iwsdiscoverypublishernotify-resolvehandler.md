@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisherNotify.ResolveHandler
-title: IWSDiscoveryPublisherNotify::ResolveHandler method
+title: IWSDiscoveryPublisherNotify::ResolveHandler
 author: windows-driver-content
 description: Is called when a Resolve is received by the discovery publisher.
 old-location: ncd\iwsdiscoverypublishernotify_resolvehandler_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: b0dd2b82-5d08-4dd3-8e6a-892ebaf71045
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryPublisherNotify, IWSDiscoveryPublisherNotify interface, ResolveHandler method, IWSDiscoveryPublisherNotify::ResolveHandler, ResolveHandler method, ResolveHandler method, IWSDiscoveryPublisherNotify interface, ResolveHandler,IWSDiscoveryPublisherNotify.ResolveHandler, ncd.iwsdiscoverypublishernotify_resolvehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ResolveHandler
+ms.keywords: IWSDiscoveryPublisherNotify interface,ResolveHandler method, IWSDiscoveryPublisherNotify.ResolveHandler, IWSDiscoveryPublisherNotify::ResolveHandler, ResolveHandler, ResolveHandler method, ResolveHandler method,IWSDiscoveryPublisherNotify interface, ncd.iwsdiscoverypublishernotify_resolvehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ResolveHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryPublisherNotify::ResolveHandler method
+# IWSDiscoveryPublisherNotify::ResolveHandler
 
 
 ## -description

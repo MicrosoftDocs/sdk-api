@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMClientConnections2.GetClientInfo
-title: IWMClientConnections2::GetClientInfo method
+title: IWMClientConnections2::GetClientInfo
 author: windows-driver-content
 description: The GetClientInfo method retrieves information about a client attached to a writer network sink.
 old-location: wmformat\iwmclientconnections2_getclientinfo.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 39731e6a-cfd7-48c5-9107-bf5373dfeb4a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetClientInfo method [windows Media Format], GetClientInfo method [windows Media Format], IWMClientConnections2 interface, GetClientInfo,IWMClientConnections2.GetClientInfo, IWMClientConnections2, IWMClientConnections2 interface [windows Media Format], GetClientInfo method, IWMClientConnections2::GetClientInfo, IWMClientConnections2GetClientInfo, wmformat.iwmclientconnections2_getclientinfo, wmsdkidl/IWMClientConnections2::GetClientInfo
+ms.keywords: GetClientInfo, GetClientInfo method [windows Media Format], GetClientInfo method [windows Media Format],IWMClientConnections2 interface, IWMClientConnections2 interface [windows Media Format],GetClientInfo method, IWMClientConnections2.GetClientInfo, IWMClientConnections2::GetClientInfo, IWMClientConnections2GetClientInfo, wmformat.iwmclientconnections2_getclientinfo, wmsdkidl/IWMClientConnections2::GetClientInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMClientConnections2::GetClientInfo method
+# IWMClientConnections2::GetClientInfo
 
 
 ## -description

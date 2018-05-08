@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent4.WriteFailureClear
-title: IMSVidStreamBufferSinkEvent4::WriteFailureClear method
+title: IMSVidStreamBufferSinkEvent4::WriteFailureClear
 author: windows-driver-content
 description: The WriteFailureClear method is called when a write error from the Stream Buffer Sink filter has been cleared.
 old-location: mstv\imsvidstreambuffersinkevent4_writefailureclear.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c5968d45-5fd2-460a-bbd8-38671bb98a14
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSinkEvent4, IMSVidStreamBufferSinkEvent4::WriteFailureClear, IMSVidstreamBufferSinkEvent4 interface [Microsoft TV Technologies], WriteFailureClear method, IMSVidstreamBufferSinkEvent4::WriteFailureClear, WriteFailureClear method [Microsoft TV Technologies], WriteFailureClear method [Microsoft TV Technologies], IMSVidstreamBufferSinkEvent4 interface, WriteFailureClear,IMSVidStreamBufferSinkEvent4.WriteFailureClear, mstv.imsvidstreambuffersinkevent4_writefailureclear, segment/IMSVidstreamBufferSinkEvent4::WriteFailureClear
+ms.keywords: IMSVidStreamBufferSinkEvent4.WriteFailureClear, IMSVidStreamBufferSinkEvent4::WriteFailureClear, IMSVidstreamBufferSinkEvent4 interface [Microsoft TV Technologies],WriteFailureClear method, IMSVidstreamBufferSinkEvent4::WriteFailureClear, WriteFailureClear, WriteFailureClear method [Microsoft TV Technologies], WriteFailureClear method [Microsoft TV Technologies],IMSVidstreamBufferSinkEvent4 interface, mstv.imsvidstreambuffersinkevent4_writefailureclear, segment/IMSVidstreamBufferSinkEvent4::WriteFailureClear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSinkEvent4::WriteFailureClear method
+# IMSVidStreamBufferSinkEvent4::WriteFailureClear
 
 
 ## -description

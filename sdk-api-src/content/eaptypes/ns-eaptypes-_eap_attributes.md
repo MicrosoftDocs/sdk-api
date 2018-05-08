@@ -63,6 +63,16 @@ The <b>EAP_ATTRIBUTES</b> structure contains an array of EAP attributes.
 The number of <a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> structures in <b>pAttribs</b>.
 
 
+### -field pAttribs.size_is
+
+ 
+
+
+### -field pAttribs.size_is.dwNumberOfAttributes
+
+ 
+
+
 ### -field pAttribs
 
 Pointer to the address of the first element in an array of <a href="https://msdn.microsoft.com/a8fe754a-ce6f-45f4-9536-7ffda2183e9e">EAP_ATTRIBUTE</a> structures. The total number of elements is specified in <b>dwNumberOfAttributes</b>.

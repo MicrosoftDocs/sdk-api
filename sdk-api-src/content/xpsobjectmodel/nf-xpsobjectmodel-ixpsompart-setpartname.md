@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPart.SetPartName
-title: IXpsOMPart::SetPartName method
+title: IXpsOMPart::SetPartName
 author: windows-driver-content
 description: Sets the name that will be used when the part is serialized.
 old-location: xps\ixpsompart_setpartname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d17083f3-38b2-43bd-8e87-1092cf397f29
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPart, IXpsOMPart interface [XPS Documents and Packaging], SetPartName method, IXpsOMPart::SetPartName, SetPartName method [XPS Documents and Packaging], SetPartName method [XPS Documents and Packaging], IXpsOMPart interface, SetPartName,IXpsOMPart.SetPartName, xps.ixpsompart_setpartname, xpsobjectmodel/IXpsOMPart::SetPartName
+ms.keywords: IXpsOMPart interface [XPS Documents and Packaging],SetPartName method, IXpsOMPart.SetPartName, IXpsOMPart::SetPartName, SetPartName, SetPartName method [XPS Documents and Packaging], SetPartName method [XPS Documents and Packaging],IXpsOMPart interface, xps.ixpsompart_setpartname, xpsobjectmodel/IXpsOMPart::SetPartName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPart::SetPartName method
+# IXpsOMPart::SetPartName
 
 
 ## -description

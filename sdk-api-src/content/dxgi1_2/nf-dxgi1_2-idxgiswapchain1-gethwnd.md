@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetHwnd
-title: IDXGISwapChain1::GetHwnd method
+title: IDXGISwapChain1::GetHwnd
 author: windows-driver-content
 description: Retrieves the underlying HWND for this swap-chain object.
 old-location: direct3ddxgi\idxgiswapchain1_gethwnd.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: C1690710-FA63-4841-B3E2-68200E0B7B23
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetHwnd method [DXGI], GetHwnd method [DXGI], IDXGISwapChain1 interface, GetHwnd,IDXGISwapChain1.GetHwnd, IDXGISwapChain1, IDXGISwapChain1 interface [DXGI], GetHwnd method, IDXGISwapChain1::GetHwnd, direct3ddxgi.idxgiswapchain1_gethwnd, dxgi1_2/IDXGISwapChain1::GetHwnd
+ms.keywords: GetHwnd, GetHwnd method [DXGI], GetHwnd method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetHwnd method, IDXGISwapChain1.GetHwnd, IDXGISwapChain1::GetHwnd, direct3ddxgi.idxgiswapchain1_gethwnd, dxgi1_2/IDXGISwapChain1::GetHwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain1::GetHwnd method
+# IDXGISwapChain1::GetHwnd
 
 
 ## -description

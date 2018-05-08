@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CLUSTER_NODE_ENUM, CLUSTER_NODE_ENUM
+req.typenames: CLUSTER_NODE_ENUM
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetPartialFile
-title: IVssComponent::GetPartialFile method
+title: IVssComponent::GetPartialFile
 author: windows-driver-content
 description: The GetPartialFile method returns information on a partial file associated with this component.
 old-location: base\ivsscomponent_getpartialfile.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: ed589ae8-2abb-4c3b-9695-12649fc89818
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetPartialFile method [VSS], GetPartialFile method [VSS], IVssComponent interface, GetPartialFile,IVssComponent.GetPartialFile, IVssComponent, IVssComponent interface [VSS], GetPartialFile method, IVssComponent::GetPartialFile, _win32_ivsscomponent_getpartialfile, base.ivsscomponent_getpartialfile, vswriter/IVssComponent::GetPartialFile
+ms.keywords: GetPartialFile, GetPartialFile method [VSS], GetPartialFile method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPartialFile method, IVssComponent.GetPartialFile, IVssComponent::GetPartialFile, _win32_ivsscomponent_getpartialfile, base.ivsscomponent_getpartialfile, vswriter/IVssComponent::GetPartialFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetPartialFile method
+# IVssComponent::GetPartialFile
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.get_Error
-title: IWSManSession::get_Error method
+title: IWSManSession::get_Error
 author: windows-driver-content
 description: Gets additional error information in an XML stream for the preceding call to an IWSManSession object method.
 old-location: winrm\iwsmansession_error.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 9fa89b5d-60c3-4a0d-9d4b-62a266e884aa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management], IWSManSession interface, IWSManSession, IWSManSession interface [Windows Remote Management], Error property, IWSManSession.Error, IWSManSession::get_Error, get_Error,IWSManSession.get_Error, winrm.iwsmansession_error, wsmandisp/IWSManSession::Error, wsmandisp/IWSManSession::get_Error
+ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Error property, IWSManSession.Error, IWSManSession.get_Error, IWSManSession::Error, IWSManSession::get_Error, get_Error, winrm.iwsmansession_error, wsmandisp/IWSManSession::Error, wsmandisp/IWSManSession::get_Error
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManSession::get_Error method
+# IWSManSession::get_Error
 
 
 ## -description

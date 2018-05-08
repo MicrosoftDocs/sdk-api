@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 7c24ead4-d69f-467d-b3d8-a81adbc49a7b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], ICatalogCollection interface [COM+], described, _cos_ICatalogCollection_Interface, comadmin/ICatalogCollection, cos.icatalogcollection
+ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], ICatalogCollection interface [COM+],described, _cos_ICatalogCollection_Interface, comadmin/ICatalogCollection, cos.icatalogcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

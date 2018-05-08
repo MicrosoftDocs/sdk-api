@@ -7,7 +7,7 @@ old-location: security\cmsg_key_agree_encrypt_info.htm
 old-project: SecCrypto
 ms.assetid: 7604ac82-a1a2-451b-8615-98303ce1d83e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMSG_KEY_AGREE_ENCRYPT_INFO, CMSG_KEY_AGREE_ENCRYPT_FREE_MATERIAL_FLAG, CMSG_KEY_AGREE_ENCRYPT_FREE_OBJID_FLAG, CMSG_KEY_AGREE_ENCRYPT_FREE_PARA_FLAG, CMSG_KEY_AGREE_ENCRYPT_FREE_PUBKEY_ALG_FLAG, CMSG_KEY_AGREE_ENCRYPT_FREE_PUBKEY_BITS_FLAG, CMSG_KEY_AGREE_ENCRYPT_FREE_PUBKEY_PARA_FLAG, CMSG_KEY_AGREE_ENCRYPT_INFO, CMSG_KEY_AGREE_ENCRYPT_INFO structure [Security], CMSG_KEY_AGREE_ORIGINATOR_CERT, CMSG_KEY_AGREE_ORIGINATOR_PUBLIC_KEY, PCMSG_KEY_AGREE_ENCRYPT_INFO, PCMSG_KEY_AGREE_ENCRYPT_INFO structure pointer [Security], _CMSG_KEY_AGREE_ENCRYPT_INFO, security.cmsg_key_agree_encrypt_info, wincrypt/CMSG_KEY_AGREE_ENCRYPT_INFO, wincrypt/PCMSG_KEY_AGREE_ENCRYPT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,6 +116,16 @@ OriginatorPublicKeyInfo
  
 
 
+### -field DUMMYUNIONNAME.OriginatorCertId
+
+A <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a> structure that identifies the public key of the message originator.
+
+
+### -field DUMMYUNIONNAME.OriginatorPublicKeyInfo
+
+A <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure that contains the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> of the message originator.
+
+
 ### -field cKeyAgreeKeyEncryptInfo
 
 A value that specifies the number of recipients in the <i>rgpKeyAgreeKeyEncryptInfo</i> parameter.
@@ -203,16 +213,6 @@ The <b>Algorithm.Parameters</b> member of the <a href="https://msdn.microsoft.co
 </tr>
 </table>
  
-
-
-#### - OriginatorCertId
-
-A <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a> structure that identifies the public key of the message originator.
-
-
-#### - OriginatorPublicKeyInfo
-
-A <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure that contains the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> of the message originator.
 
 
 ## -remarks

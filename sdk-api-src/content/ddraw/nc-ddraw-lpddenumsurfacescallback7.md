@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: DA0FBED3-B61F-4CC3-9B6D-132A9F8ECFE0
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: EnumSurfacesCallback7, EnumSurfacesCallback7 callback function [DirectDraw], LPDDENUMSURFACESCALLBACK7, ddraw/EnumSurfacesCallback7, directdraw.enumsurfacescallback7
+ms.keywords: EnumSurfacesCallback7, EnumSurfacesCallback7 callback function [DirectDraw], LPDDENUMSURFACESCALLBACK7, LPDDENUMSURFACESCALLBACK7 callback, ddraw/EnumSurfacesCallback7, directdraw.enumsurfacescallback7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# LPDDENUMSURFACESCALLBACK7 callback
+# LPDDENUMSURFACESCALLBACK7 callback function
 
 
 ## -description

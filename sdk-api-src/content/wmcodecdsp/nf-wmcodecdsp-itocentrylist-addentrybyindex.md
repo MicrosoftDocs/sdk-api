@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.AddEntryByIndex
-title: ITocEntryList::AddEntryByIndex method
+title: ITocEntryList::AddEntryByIndex
 author: windows-driver-content
 description: The AddEntryByIndex method adds an individual entry to the list and associates a caller-supplied index with the entry.
 old-location: mf\itocentrylist_addentrybyindex.htm
 old-project: medfound
 ms.assetid: c8146c0f-ac91-42c7-9368-dd2db6079d3d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddEntryByIndex method [Media Foundation], AddEntryByIndex method [Media Foundation], ITocEntryList interface, AddEntryByIndex,ITocEntryList.AddEntryByIndex, ITocEntryList, ITocEntryList interface [Media Foundation], AddEntryByIndex method, ITocEntryList::AddEntryByIndex, codecapi.itocentrylist_addentrybyindex, mf.itocentrylist_addentrybyindex, wmcodecdsp/ITocEntryList::AddEntryByIndex
+ms.date: 5/3/2018
+ms.keywords: AddEntryByIndex, AddEntryByIndex method [Media Foundation], AddEntryByIndex method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],AddEntryByIndex method, ITocEntryList.AddEntryByIndex, ITocEntryList::AddEntryByIndex, codecapi.itocentrylist_addentrybyindex, mf.itocentrylist_addentrybyindex, wmcodecdsp/ITocEntryList::AddEntryByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocEntryList::AddEntryByIndex method
+# ITocEntryList::AddEntryByIndex
 
 
 ## -description

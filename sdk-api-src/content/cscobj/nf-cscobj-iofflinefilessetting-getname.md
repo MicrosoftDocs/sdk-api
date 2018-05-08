@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetName
-title: IOfflineFilesSetting::GetName method
+title: IOfflineFilesSetting::GetName
 author: windows-driver-content
 description: Retrieves a name associated with a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getname.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 2e4591b5-c8a9-4645-8001-8ac09c706ee2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetName method [Offline Files], GetName method [Offline Files], IOfflineFilesSetting interface, GetName,IOfflineFilesSetting.GetName, IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], GetName method, IOfflineFilesSetting::GetName, cscobj/IOfflineFilesSetting::GetName, of.iofflinefilessetting_getname
+ms.keywords: GetName, GetName method [Offline Files], GetName method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetName method, IOfflineFilesSetting.GetName, IOfflineFilesSetting::GetName, cscobj/IOfflineFilesSetting::GetName, of.iofflinefilessetting_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSetting::GetName method
+# IOfflineFilesSetting::GetName
 
 
 ## -description

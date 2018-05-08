@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth8.AssignChannelToBuses
-title: IDirectMusicSynth8::AssignChannelToBuses method
+title: IDirectMusicSynth8::AssignChannelToBuses
 author: windows-driver-content
 description: AssignChannelToBuses is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_assignchanneltobuses.htm
 old-project: audio
 ms.assetid: 311C64D2-2455-4A1D-98F1-13313011CDB3
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: AssignChannelToBuses method [Audio Devices], AssignChannelToBuses method [Audio Devices], IDirectMusicSynth8 interface, AssignChannelToBuses,IDirectMusicSynth8.AssignChannelToBuses, IDirectMusicSynth8, IDirectMusicSynth8 interface [Audio Devices], AssignChannelToBuses method, IDirectMusicSynth8::AssignChannelToBuses, audio.idirectmusicsynth8_assignchanneltobuses, dmusics/IDirectMusicSynth8::AssignChannelToBuses
+ms.date: 5/1/2018
+ms.keywords: AssignChannelToBuses, AssignChannelToBuses method [Audio Devices], AssignChannelToBuses method [Audio Devices],IDirectMusicSynth8 interface, IDirectMusicSynth8 interface [Audio Devices],AssignChannelToBuses method, IDirectMusicSynth8.AssignChannelToBuses, IDirectMusicSynth8::AssignChannelToBuses, audio.idirectmusicsynth8_assignchanneltobuses, dmusics/IDirectMusicSynth8::AssignChannelToBuses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectMusicSynth8::AssignChannelToBuses method
+# IDirectMusicSynth8::AssignChannelToBuses
 
 
 ## -description

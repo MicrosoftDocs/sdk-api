@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.GetID
-title: IFunctionInstance::GetID method
+title: IFunctionInstance::GetID
 author: windows-driver-content
 description: Gets the identifier string for the function instance.
 old-location: ncd\ifunctioninstance_getid_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 8a198bc4-cdec-4d46-a1a2-3952d4dc2a7d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetID method, GetID method, IFunctionInstance interface, GetID,IFunctionInstance.GetID, IFunctionInstance, IFunctionInstance interface, GetID method, IFunctionInstance::GetID, functiondiscoveryapi/IFunctionInstance::GetID, ncd.ifunctioninstance_getid_method
+ms.keywords: GetID, GetID method, GetID method,IFunctionInstance interface, IFunctionInstance interface,GetID method, IFunctionInstance.GetID, IFunctionInstance::GetID, functiondiscoveryapi/IFunctionInstance::GetID, ncd.ifunctioninstance_getid_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionInstance::GetID method
+# IFunctionInstance::GetID
 
 
 ## -description

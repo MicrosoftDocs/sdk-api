@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IInitializeSpy.PreInitialize
-title: IInitializeSpy::PreInitialize method
+title: IInitializeSpy::PreInitialize
 author: windows-driver-content
 description: Performs initialization steps required before calling the CoInitializeEx function.
 old-location: com\iinitializespy_preinitialize.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f5b345d1-ab37-401a-9cb4-b01ef7254fc8
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IInitializeSpy, IInitializeSpy interface [COM], PreInitialize method, IInitializeSpy::PreInitialize, PreInitialize method [COM], PreInitialize method [COM], IInitializeSpy interface, PreInitialize,IInitializeSpy.PreInitialize, _com_iinitializespy_preinitialize, com.iinitializespy_preinitialize, objidl/IInitializeSpy::PreInitialize
+ms.keywords: IInitializeSpy interface [COM],PreInitialize method, IInitializeSpy.PreInitialize, IInitializeSpy::PreInitialize, PreInitialize, PreInitialize method [COM], PreInitialize method [COM],IInitializeSpy interface, _com_iinitializespy_preinitialize, com.iinitializespy_preinitialize, objidl/IInitializeSpy::PreInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInitializeSpy::PreInitialize method
+# IInitializeSpy::PreInitialize
 
 
 ## -description

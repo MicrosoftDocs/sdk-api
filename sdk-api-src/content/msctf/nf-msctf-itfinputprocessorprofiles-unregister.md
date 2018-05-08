@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.Unregister
-title: ITfInputProcessorProfiles::Unregister method
+title: ITfInputProcessorProfiles::Unregister
 author: windows-driver-content
 description: ITfInputProcessorProfiles::Unregister method
 old-location: tsf\itfinputprocessorprofiles_unregister.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 53de09dd-3d99-4968-8861-397b67daf8c5
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], Unregister method, ITfInputProcessorProfiles::Unregister, Unregister method [Text Services Framework], Unregister method [Text Services Framework], ITfInputProcessorProfiles interface, Unregister,ITfInputProcessorProfiles.Unregister, _tsf_itfinputprocessorprofiles_unregister_ref, msctf/ITfInputProcessorProfiles::Unregister, tsf.itfinputprocessorprofiles_unregister
+ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],Unregister method, ITfInputProcessorProfiles.Unregister, ITfInputProcessorProfiles::Unregister, Unregister, Unregister method [Text Services Framework], Unregister method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_unregister_ref, msctf/ITfInputProcessorProfiles::Unregister, tsf.itfinputprocessorprofiles_unregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfiles::Unregister method
+# ITfInputProcessorProfiles::Unregister
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetDeviceIcon
-title: IWMDMDevice::GetDeviceIcon method
+title: IWMDMDevice::GetDeviceIcon
 author: windows-driver-content
 description: The GetDeviceIcon method retrieves a handle to the icon that the device manufacturer wants to display when the device is connected.
 old-location: wmdm\iwmdmdevice_getdeviceicon.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 55da3443-ad5b-469d-a493-0e2e8ea21f0c
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetDeviceIcon method [windows Media Device Manager], GetDeviceIcon method [windows Media Device Manager], IWMDMDevice interface, GetDeviceIcon,IWMDMDevice.GetDeviceIcon, IWMDMDevice, IWMDMDevice interface [windows Media Device Manager], GetDeviceIcon method, IWMDMDevice::GetDeviceIcon, IWMDMDeviceGetDeviceIcon, mswmdm/IWMDMDevice::GetDeviceIcon, wmdm.iwmdmdevice_getdeviceicon
+ms.keywords: GetDeviceIcon, GetDeviceIcon method [windows Media Device Manager], GetDeviceIcon method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetDeviceIcon method, IWMDMDevice.GetDeviceIcon, IWMDMDevice::GetDeviceIcon, IWMDMDeviceGetDeviceIcon, mswmdm/IWMDMDevice::GetDeviceIcon, wmdm.iwmdmdevice_getdeviceicon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMDevice::GetDeviceIcon method
+# IWMDMDevice::GetDeviceIcon
 
 
 ## -description

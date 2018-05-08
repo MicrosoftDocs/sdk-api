@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IStylusPlugin.Packets
-title: IStylusPlugin::Packets method
+title: IStylusPlugin::Packets
 author: windows-driver-content
 description: Notifies the object implementing the plug-in that the tablet pen is moving on the digitizer.
 old-location: tablet\istylusplugin_packets.htm
 old-project: tablet
 ms.assetid: c6a3d563-4776-4ac6-bdc3-798192ba4546
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], Packets method, IStylusPlugin::Packets, Packets method [Tablet PC], Packets method [Tablet PC], IStylusPlugin interface, Packets,IStylusPlugin.Packets, c6a3d563-4776-4ac6-bdc3-798192ba4546, rtscom/IStylusPlugin::Packets, tablet.istylusplugin_packets
+ms.date: 5/2/2018
+ms.keywords: IStylusPlugin interface [Tablet PC],Packets method, IStylusPlugin.Packets, IStylusPlugin::Packets, Packets, Packets method [Tablet PC], Packets method [Tablet PC],IStylusPlugin interface, c6a3d563-4776-4ac6-bdc3-798192ba4546, rtscom/IStylusPlugin::Packets, tablet.istylusplugin_packets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStylusPlugin::Packets method
+# IStylusPlugin::Packets
 
 
 ## -description

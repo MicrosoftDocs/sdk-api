@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_21ys.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxPort, IFaxPort interface [Fax Service], IFaxPort interface [Fax Service], described, _mfax_ifaxport, fax._mfax_ifaxport, faxcom/IFaxPort
+ms.keywords: IFaxPort, IFaxPort interface [Fax Service], IFaxPort interface [Fax Service],described, _mfax_ifaxport, fax._mfax_ifaxport, faxcom/IFaxPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

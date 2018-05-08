@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnection.GetConnectionState
-title: IMbnConnection::GetConnectionState method
+title: IMbnConnection::GetConnectionState
 author: windows-driver-content
 description: Gets the current connection state of the device.
 old-location: mbn\imbnconnection_getconnectionstate.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 85f3e0bb-c694-4870-b423-cb4ac7a0477d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetConnectionState method [Microsoft Broadband Networks], GetConnectionState method [Microsoft Broadband Networks], IMbnConnection interface, GetConnectionState,IMbnConnection.GetConnectionState, IMbnConnection, IMbnConnection interface [Microsoft Broadband Networks], GetConnectionState method, IMbnConnection::GetConnectionState, mbn.imbnconnection_getconnectionstate, mbnapi/IMbnConnection::GetConnectionState
+ms.keywords: GetConnectionState, GetConnectionState method [Microsoft Broadband Networks], GetConnectionState method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetConnectionState method, IMbnConnection.GetConnectionState, IMbnConnection::GetConnectionState, mbn.imbnconnection_getconnectionstate, mbnapi/IMbnConnection::GetConnectionState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnection::GetConnectionState method
+# IMbnConnection::GetConnectionState
 
 
 ## -description

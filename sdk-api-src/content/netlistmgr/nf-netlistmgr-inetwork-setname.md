@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.SetName
-title: INetwork::SetName method
+title: INetwork::SetName
 author: windows-driver-content
 description: The SetName method sets or renames a network.
 old-location: nla\inetwork_setname.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 7495e26f-b7cf-4abd-ab7d-82b0d4bd4d87
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetwork, INetwork interface [Network Awareness], SetName method, INetwork::SetName, SetName method [Network Awareness], SetName method [Network Awareness], INetwork interface, SetName,INetwork.SetName, netlistmgr/INetwork::SetName, nla.inetwork_setname
+ms.keywords: INetwork interface [Network Awareness],SetName method, INetwork.SetName, INetwork::SetName, SetName, SetName method [Network Awareness], SetName method [Network Awareness],INetwork interface, netlistmgr/INetwork::SetName, nla.inetwork_setname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetwork::SetName method
+# INetwork::SetName
 
 
 ## -description

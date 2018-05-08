@@ -7,7 +7,7 @@ old-location: shell\OVERLAPPED.htm
 old-project: shell
 ms.assetid: 2b5964e5-dfc8-44f9-86a7-5ea5acc68c1b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: "*LPOVERLAPPED, LPOVERLAPPED, LPOVERLAPPED structure pointer [Windows Shell], OVERLAPPED, OVERLAPPED structure [Windows Shell], _OVERLAPPED, _shell_OVERLAPPED, shell.OVERLAPPED, shobjidl/LPOVERLAPPED, shobjidl/OVERLAPPED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,6 +86,13 @@ Type: <b>DWORD</b>
 High-order word of the file position at which to start the transfer.
 
 
+### -field Pointer
+
+Type: <b>PVOID</b>
+
+Reserved.
+
+
 ### -field hEvent
 
 Type: <b>handle</b>
@@ -95,13 +102,6 @@ Handle to an event that is set to the signaled state when the operation has been
 Functions such as <a href="https://msdn.microsoft.com/c0046a89-1427-465e-a5f3-2398ebff04f3">IStreamAsync::ReadAsync</a> and <a href="https://msdn.microsoft.com/c5004923-191b-4ec1-83af-f066209c786a">IStreamAsync::WriteAsync</a> set this handle to the nonsignaled state before they begin an I/O operation. When the operation has completed, the handle is set to the signaled state.
 
 Functions such as <a href="https://msdn.microsoft.com/5a53934f-bbff-4bb0-b374-01adb629a041">IStreamAsync::OverlappedResult</a> and the wait functions reset auto-reset events to the nonsignaled state. Therefore, if an auto-reset event is used, the application can stop responding if it waits for the operation to complete and then calls <b>IStreamAsync::OverlappedResult</b>.
-
-
-#### - Pointer
-
-Type: <b>PVOID</b>
-
-Reserved.
 
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkDesktopHost.CreateInkPresenter
-title: IInkDesktopHost::CreateInkPresenter method
+title: IInkDesktopHost::CreateInkPresenter
 author: windows-driver-content
 description: Creates an IInkPresenterDesktop object on an application thread.
 old-location: input_ink\iinkdesktophost_createinkpresenter.htm
@@ -8,7 +8,7 @@ old-project: input_ink
 ms.assetid: 17480bbd-7d4f-4ba9-9d54-80f440104055
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateInkPresenter method, CreateInkPresenter method, IInkDesktopHost interface, CreateInkPresenter,IInkDesktopHost.CreateInkPresenter, IInkDesktopHost, IInkDesktopHost interface, CreateInkPresenter method, IInkDesktopHost::CreateInkPresenter, InkPresenterDesktop.iinkdesktophost_createinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateInkPresenter, input_ink.iinkdesktophost_createinkpresenter
+ms.keywords: CreateInkPresenter, CreateInkPresenter method, CreateInkPresenter method,IInkDesktopHost interface, IInkDesktopHost interface,CreateInkPresenter method, IInkDesktopHost.CreateInkPresenter, IInkDesktopHost::CreateInkPresenter, InkPresenterDesktop.iinkdesktophost_createinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateInkPresenter, input_ink.iinkdesktophost_createinkpresenter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInkDesktopHost::CreateInkPresenter method
+# IInkDesktopHost::CreateInkPresenter
 
 
 ## -description

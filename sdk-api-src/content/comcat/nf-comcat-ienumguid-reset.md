@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.IEnumGUID.Reset
-title: IEnumGUID::Reset method
+title: IEnumGUID::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumguid_reset.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 5f31c45a-c7a2-4cdc-a468-76a31a9ba1e9
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumGUID, IEnumGUID interface [COM], Reset method, IEnumGUID::Reset, Reset method [COM], Reset method [COM], IEnumGUID interface, Reset,IEnumGUID.Reset, _com_ienumguid_reset, com.ienumguid_reset, comcat/IEnumGUID::Reset
+ms.keywords: IEnumGUID interface [COM],Reset method, IEnumGUID.Reset, IEnumGUID::Reset, Reset, Reset method [COM], Reset method [COM],IEnumGUID interface, _com_ienumguid_reset, com.ienumguid_reset, comcat/IEnumGUID::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumGUID::Reset method
+# IEnumGUID::Reset
 
 
 ## -description

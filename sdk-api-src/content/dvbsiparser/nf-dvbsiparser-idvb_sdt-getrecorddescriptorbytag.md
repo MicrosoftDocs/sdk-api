@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.GetRecordDescriptorByTag
-title: IDVB_SDT::GetRecordDescriptorByTag method
+title: IDVB_SDT::GetRecordDescriptorByTag
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_getrecorddescriptorbytag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f4801a47-7cdb-4c31-8bb5-b59df14f0550
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies], IDVB_SDT interface, GetRecordDescriptorByTag,IDVB_SDT.GetRecordDescriptorByTag, IDVB_SDT, IDVB_SDT interface [Microsoft TV Technologies], GetRecordDescriptorByTag method, IDVB_SDT::GetRecordDescriptorByTag, IDVB_SDTGetRecordDescriptorByTag, dvbsiparser/IDVB_SDT::GetRecordDescriptorByTag, mstv.idvb_sdt_getrecorddescriptorbytag
+ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IDVB_SDT.GetRecordDescriptorByTag, IDVB_SDT::GetRecordDescriptorByTag, IDVB_SDTGetRecordDescriptorByTag, dvbsiparser/IDVB_SDT::GetRecordDescriptorByTag, mstv.idvb_sdt_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_SDT::GetRecordDescriptorByTag method
+# IDVB_SDT::GetRecordDescriptorByTag
 
 
 ## -description

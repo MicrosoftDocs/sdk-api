@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetSchemaHiveMountName
-title: ITargetInfo::GetSchemaHiveMountName method
+title: ITargetInfo::GetSchemaHiveMountName
 author: windows-driver-content
 description: Gets the name of the mount location of the schema hive.
 old-location: smi\itargetinfo_getschemahivemountname.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: d63e3f49-bb7b-4ef6-a573-811b9bbdd9b0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSchemaHiveMountName method [SMI], GetSchemaHiveMountName method [SMI], ITargetInfo interface, GetSchemaHiveMountName,ITargetInfo.GetSchemaHiveMountName, ITargetInfo, ITargetInfo interface [SMI], GetSchemaHiveMountName method, ITargetInfo::GetSchemaHiveMountName, smi.itargetinfo_getschemahivemountname, wcmconfig/ITargetInfo::GetSchemaHiveMountName
+ms.keywords: GetSchemaHiveMountName, GetSchemaHiveMountName method [SMI], GetSchemaHiveMountName method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetSchemaHiveMountName method, ITargetInfo.GetSchemaHiveMountName, ITargetInfo::GetSchemaHiveMountName, smi.itargetinfo_getschemahivemountname, wcmconfig/ITargetInfo::GetSchemaHiveMountName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::GetSchemaHiveMountName method
+# ITargetInfo::GetSchemaHiveMountName
 
 
 ## -description

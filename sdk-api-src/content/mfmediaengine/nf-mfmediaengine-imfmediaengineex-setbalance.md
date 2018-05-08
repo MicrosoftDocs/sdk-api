@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetBalance
-title: IMFMediaEngineEx::SetBalance method
+title: IMFMediaEngineEx::SetBalance
 author: windows-driver-content
 description: Sets the audio balance.
 old-location: mf\imfmediaengineex_setbalance.htm
 old-project: medfound
 ms.assetid: 11187826-B873-4182-A77B-FD9CCECFBAE5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], SetBalance method, IMFMediaEngineEx::SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation], IMFMediaEngineEx interface, SetBalance,IMFMediaEngineEx.SetBalance, mf.imfmediaengineex_setbalance, mfmediaengine/IMFMediaEngineEx::SetBalance
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetBalance method, IMFMediaEngineEx.SetBalance, IMFMediaEngineEx::SetBalance, SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setbalance, mfmediaengine/IMFMediaEngineEx::SetBalance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::SetBalance method
+# IMFMediaEngineEx::SetBalance
 
 
 ## -description

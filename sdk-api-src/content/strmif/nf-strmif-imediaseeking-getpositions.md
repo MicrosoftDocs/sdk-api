@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetPositions
-title: IMediaSeeking::GetPositions method
+title: IMediaSeeking::GetPositions
 author: windows-driver-content
 description: The GetPositions method retrieves the current position and the stop position, relative to the total duration of the stream.
 old-location: dshow\imediaseeking_getpositions.htm
 old-project: DirectShow
 ms.assetid: 1b267c02-ec2d-4251-aac7-f2f711b16062
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPositions method [DirectShow], GetPositions method [DirectShow], IMediaSeeking interface, GetPositions,IMediaSeeking.GetPositions, IMediaSeeking, IMediaSeeking interface [DirectShow], GetPositions method, IMediaSeeking::GetPositions, IMediaSeekingGetPositions, dshow.imediaseeking_getpositions, strmif/IMediaSeeking::GetPositions
+ms.date: 4/30/2018
+ms.keywords: GetPositions, GetPositions method [DirectShow], GetPositions method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetPositions method, IMediaSeeking.GetPositions, IMediaSeeking::GetPositions, IMediaSeekingGetPositions, dshow.imediaseeking_getpositions, strmif/IMediaSeeking::GetPositions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSeeking::GetPositions method
+# IMediaSeeking::GetPositions
 
 
 ## -description

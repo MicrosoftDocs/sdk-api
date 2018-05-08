@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IEnumVdsObject.Next
-title: IEnumVdsObject::Next method
+title: IEnumVdsObject::Next
 author: windows-driver-content
 description: Returns a specified number of objects in the enumeration, beginning from the current point. For more information, see Working with Enumeration Objects.
 old-location: base\ienumvdsobject_next.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 372eff29-7481-45aa-ad66-73147f7a631f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IEnumVdsObject, IEnumVdsObject interface [VDS], Next method, IEnumVdsObject::Next, Next method [VDS], Next method [VDS], IEnumVdsObject interface, Next,IEnumVdsObject.Next, base.ienumvdsobject_next, vds/IEnumVdsObject::Next, vdshwprv/IEnumVdsObject::Next
+ms.keywords: IEnumVdsObject interface [VDS],Next method, IEnumVdsObject.Next, IEnumVdsObject::Next, Next, Next method [VDS], Next method [VDS],IEnumVdsObject interface, base.ienumvdsobject_next, vds/IEnumVdsObject::Next, vdshwprv/IEnumVdsObject::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IEnumVdsObject::Next method
+# IEnumVdsObject::Next
 
 
 ## -description

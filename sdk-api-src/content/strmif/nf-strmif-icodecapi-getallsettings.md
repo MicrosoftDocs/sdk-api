@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ICodecAPI.GetAllSettings
-title: ICodecAPI::GetAllSettings method
+title: ICodecAPI::GetAllSettings
 author: windows-driver-content
 description: The GetAllSettings method gets the codec's current properties and writes them to a stream.
 old-location: dshow\icodecapi_getallsettings.htm
 old-project: DirectShow
 ms.assetid: 45685033-73cc-4810-90f2-49343494641b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAllSettings method [DirectShow], GetAllSettings method [DirectShow], ICodecAPI interface, GetAllSettings,ICodecAPI.GetAllSettings, ICodecAPI, ICodecAPI interface [DirectShow], GetAllSettings method, ICodecAPI::GetAllSettings, ICodecAPIGetAllSettings, dshow.icodecapi_getallsettings, strmif/ICodecAPI::GetAllSettings
+ms.date: 4/30/2018
+ms.keywords: GetAllSettings, GetAllSettings method [DirectShow], GetAllSettings method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetAllSettings method, ICodecAPI.GetAllSettings, ICodecAPI::GetAllSettings, ICodecAPIGetAllSettings, dshow.icodecapi_getallsettings, strmif/ICodecAPI::GetAllSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ICodecAPI::GetAllSettings method
+# ICodecAPI::GetAllSettings
 
 
 ## -description

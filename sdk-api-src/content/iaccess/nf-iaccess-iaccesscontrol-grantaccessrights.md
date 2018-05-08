@@ -1,6 +1,6 @@
 ---
 UID: NF:iaccess.IAccessControl.GrantAccessRights
-title: IAccessControl::GrantAccessRights method
+title: IAccessControl::GrantAccessRights
 author: windows-driver-content
 description: Merges the new list of access rights with the existing access rights on the object.
 old-location: com\iaccesscontrol_grantaccessrights.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f8ec6743-633b-4c79-afac-68eb20e07b2a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GrantAccessRights method [COM], GrantAccessRights method [COM], IAccessControl interface, GrantAccessRights,IAccessControl.GrantAccessRights, IAccessControl, IAccessControl interface [COM], GrantAccessRights method, IAccessControl::GrantAccessRights, _com_iaccesscontrol_grantaccessrights, com.iaccesscontrol_grantaccessrights, iaccess/IAccessControl::GrantAccessRights
+ms.keywords: GrantAccessRights, GrantAccessRights method [COM], GrantAccessRights method [COM],IAccessControl interface, IAccessControl interface [COM],GrantAccessRights method, IAccessControl.GrantAccessRights, IAccessControl::GrantAccessRights, _com_iaccesscontrol_grantaccessrights, com.iaccesscontrol_grantaccessrights, iaccess/IAccessControl::GrantAccessRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAccessControl::GrantAccessRights method
+# IAccessControl::GrantAccessRights
 
 
 ## -description

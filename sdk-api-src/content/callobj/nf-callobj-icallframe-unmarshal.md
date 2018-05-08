@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.Unmarshal
-title: ICallFrame::Unmarshal method
+title: ICallFrame::Unmarshal
 author: windows-driver-content
 description: Unmarshals a packet of data containing the previously marshaled [out] parameters of a call into this already existing activation record.
 old-location: com\icallframe_unmarshal.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 9f604366-0e1f-4e04-9843-13c77ea573ab
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICallFrame, ICallFrame interface [COM], Unmarshal method, ICallFrame::Unmarshal, Unmarshal method [COM], Unmarshal method [COM], ICallFrame interface, Unmarshal,ICallFrame.Unmarshal, _com_icallframe_unmarshal, callobj/ICallFrame::Unmarshal, com.icallframe_unmarshal
+ms.keywords: ICallFrame interface [COM],Unmarshal method, ICallFrame.Unmarshal, ICallFrame::Unmarshal, Unmarshal, Unmarshal method [COM], Unmarshal method [COM],ICallFrame interface, _com_icallframe_unmarshal, callobj/ICallFrame::Unmarshal, com.icallframe_unmarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallFrame::Unmarshal method
+# ICallFrame::Unmarshal
 
 
 ## -description

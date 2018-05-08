@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.BeginRenewMultipleOperations
-title: IWSDServiceProxyEventing::BeginRenewMultipleOperations method
+title: IWSDServiceProxyEventing::BeginRenewMultipleOperations
 author: windows-driver-content
 description: Initializes an asynchronous operation that renews a collection of existing notification subscriptions by submitting a new duration.
 old-location: ncd\iwsdserviceproxyeventing_beginrenewmultipleoperations.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: ac93a29a-789f-4aa0-b804-b4d0a5b89ee2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: BeginRenewMultipleOperations method, BeginRenewMultipleOperations method, IWSDServiceProxyEventing interface, BeginRenewMultipleOperations,IWSDServiceProxyEventing.BeginRenewMultipleOperations, IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, BeginRenewMultipleOperations method, IWSDServiceProxyEventing::BeginRenewMultipleOperations, ncd.iwsdserviceproxyeventing_beginrenewmultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginRenewMultipleOperations
+ms.keywords: BeginRenewMultipleOperations, BeginRenewMultipleOperations method, BeginRenewMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginRenewMultipleOperations method, IWSDServiceProxyEventing.BeginRenewMultipleOperations, IWSDServiceProxyEventing::BeginRenewMultipleOperations, ncd.iwsdserviceproxyeventing_beginrenewmultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginRenewMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxyEventing::BeginRenewMultipleOperations method
+# IWSDServiceProxyEventing::BeginRenewMultipleOperations
 
 
 ## -description

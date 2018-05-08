@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMembers
-title: IMetaDataImport::EnumMembers method
+title: IMetaDataImport::EnumMembers
 author: windows-driver-content
 description: Enumerates MemberDef tokens representing members of the specified type.
 old-location: winrt\imetadataimport_enummembers.htm
 old-project: WinRT
 ms.assetid: cb1e90fe-e5c8-4f6d-b38a-ae7f46cb34e9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumMembers method [Windows Runtime], EnumMembers method [Windows Runtime], IMetaDataImport interface, EnumMembers,IMetaDataImport.EnumMembers, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumMembers method, IMetaDataImport::EnumMembers, rometadataapi/IMetaDataImport::EnumMembers, winrt.imetadataimport_enummembers
+ms.date: 5/4/2018
+ms.keywords: EnumMembers, EnumMembers method [Windows Runtime], EnumMembers method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMembers method, IMetaDataImport.EnumMembers, IMetaDataImport::EnumMembers, rometadataapi/IMetaDataImport::EnumMembers, winrt.imetadataimport_enummembers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumMembers method
+# IMetaDataImport::EnumMembers
 
 
 ## -description

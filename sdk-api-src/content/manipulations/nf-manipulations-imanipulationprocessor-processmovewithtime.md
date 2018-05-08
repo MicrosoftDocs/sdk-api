@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessMoveWithTime
-title: IManipulationProcessor::ProcessMoveWithTime method
+title: IManipulationProcessor::ProcessMoveWithTime
 author: windows-driver-content
 description: Feeds movement data, including a time stamp, for the target object to its manipulation processor.
 old-location: wintouch\imanpiulationprocessor_processmovewithtime.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 0840ef85-9b18-4248-96fe-93653274a89a
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IManipulationProcessor, IManipulationProcessor interface [Windows Touch], ProcessMoveWithTime method, IManipulationProcessor::ProcessMoveWithTime, ProcessMoveWithTime method [Windows Touch], ProcessMoveWithTime method [Windows Touch], IManipulationProcessor interface, ProcessMoveWithTime,IManipulationProcessor.ProcessMoveWithTime, manipulations/IManipulationProcessor::ProcessMoveWithTime, wintouch.imanpiulationprocessor_processmovewithtime
+ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMoveWithTime method, IManipulationProcessor.ProcessMoveWithTime, IManipulationProcessor::ProcessMoveWithTime, ProcessMoveWithTime, ProcessMoveWithTime method [Windows Touch], ProcessMoveWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessMoveWithTime, wintouch.imanpiulationprocessor_processmovewithtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IManipulationProcessor::ProcessMoveWithTime method
+# IManipulationProcessor::ProcessMoveWithTime
 
 
 ## -description

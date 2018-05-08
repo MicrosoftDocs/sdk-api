@@ -8,7 +8,7 @@ old-project: FileIO
 ms.assetid: 77027740-CDFD-422A-B458-C36B2E346EFD
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_STORAGE_PROTOCOL_COMMAND, IOCTL_STORAGE_PROTOCOL_COMMAND control code [Files], fs.ioctl_storage_protocol_command, winioctl/IOCTL_STORAGE_PROTOCOL_COMMAND
+ms.keywords: IOCTL_STORAGE_PROTOCOL_COMMAND, IOCTL_STORAGE_PROTOCOL_COMMAND control, IOCTL_STORAGE_PROTOCOL_COMMAND control code [Files], fs.ioctl_storage_protocol_command, winioctl/IOCTL_STORAGE_PROTOCOL_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

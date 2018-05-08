@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetSupportedRates
-title: IMFPMediaPlayer::GetSupportedRates method
+title: IMFPMediaPlayer::GetSupportedRates
 author: windows-driver-content
 description: Gets the range of supported playback rates.
 old-location: mf\imfpmediaplayer_getsupportedrates.htm
 old-project: medfound
 ms.assetid: e0e738e4-b8e4-41da-8b74-74ce06f17274
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetSupportedRates method [Media Foundation], GetSupportedRates method [Media Foundation], IMFPMediaPlayer interface, GetSupportedRates,IMFPMediaPlayer.GetSupportedRates, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetSupportedRates method, IMFPMediaPlayer::GetSupportedRates, mf.imfpmediaplayer_getsupportedrates, mfplay/IMFPMediaPlayer::GetSupportedRates
+ms.date: 5/3/2018
+ms.keywords: GetSupportedRates, GetSupportedRates method [Media Foundation], GetSupportedRates method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetSupportedRates method, IMFPMediaPlayer.GetSupportedRates, IMFPMediaPlayer::GetSupportedRates, mf.imfpmediaplayer_getsupportedrates, mfplay/IMFPMediaPlayer::GetSupportedRates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::GetSupportedRates method
+# IMFPMediaPlayer::GetSupportedRates
 
 
 ## -description

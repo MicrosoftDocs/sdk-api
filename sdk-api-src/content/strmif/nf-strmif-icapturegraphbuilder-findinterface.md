@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.FindInterface
-title: ICaptureGraphBuilder::FindInterface method
+title: ICaptureGraphBuilder::FindInterface
 author: windows-driver-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Looks for the specified interface on the filter, upstream and downstream from the filter, and, optionally, only on the output pin of the given category.
 old-location: dshow\icapturegraphbuilder_findinterface.htm
 old-project: DirectShow
 ms.assetid: 23fe9a5a-0f3b-44b3-9d37-6889214657bf
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: FindInterface method [DirectShow], FindInterface method [DirectShow], ICaptureGraphBuilder interface, FindInterface,ICaptureGraphBuilder.FindInterface, ICaptureGraphBuilder, ICaptureGraphBuilder interface [DirectShow], FindInterface method, ICaptureGraphBuilder::FindInterface, ICaptureGraphBuilderFindInterface, dshow.icapturegraphbuilder_findinterface, strmif/ICaptureGraphBuilder::FindInterface
+ms.date: 4/30/2018
+ms.keywords: FindInterface, FindInterface method [DirectShow], FindInterface method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],FindInterface method, ICaptureGraphBuilder.FindInterface, ICaptureGraphBuilder::FindInterface, ICaptureGraphBuilderFindInterface, dshow.icapturegraphbuilder_findinterface, strmif/ICaptureGraphBuilder::FindInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ICaptureGraphBuilder::FindInterface method
+# ICaptureGraphBuilder::FindInterface
 
 
 ## -description

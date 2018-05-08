@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.get_Count
-title: IOCSPPropertyCollection::get_Count method
+title: IOCSPPropertyCollection::get_Count
 author: windows-driver-content
 description: Gets the number of properties in a property set.
 old-location: security\iocsppropertycollection_count_method.htm
 old-project: SecCrypto
 ms.assetid: 28cf1108-42a8-41d1-baf4-140b5789fb24
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: Count property [Security], Count property [Security], IOCSPPropertyCollection interface, IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], Count property, IOCSPPropertyCollection.Count, IOCSPPropertyCollection::get_Count, certadm/IOCSPPropertyCollection::Count, certadm/IOCSPPropertyCollection::get_Count, get_Count,IOCSPPropertyCollection.get_Count, security.iocsppropertycollection_count_method
+ms.date: 4/30/2018
+ms.keywords: Count property [Security], Count property [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],Count property, IOCSPPropertyCollection.Count, IOCSPPropertyCollection.get_Count, IOCSPPropertyCollection::Count, IOCSPPropertyCollection::get_Count, certadm/IOCSPPropertyCollection::Count, certadm/IOCSPPropertyCollection::get_Count, get_Count, security.iocsppropertycollection_count_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPPropertyCollection::get_Count method
+# IOCSPPropertyCollection::get_Count
 
 
 ## -description

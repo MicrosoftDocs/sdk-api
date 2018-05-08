@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Notify
-title: IWMPContentPartner::Notify method
+title: IWMPContentPartner::Notify
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_notify.htm
 old-project: WMP
 ms.assetid: 9464ce82-cd84-4a35-83d2-e46198c0c1e7
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], Notify method, IWMPContentPartner::Notify, IWMPContentPartnerNotify, Notify method [Windows Media Player], Notify method [Windows Media Player], IWMPContentPartner interface, Notify,IWMPContentPartner.Notify, contentpartner/IWMPContentPartner::Notify, wmp.iwmpcontentpartner_notify
+ms.date: 5/4/2018
+ms.keywords: IWMPContentPartner interface [Windows Media Player],Notify method, IWMPContentPartner.Notify, IWMPContentPartner::Notify, IWMPContentPartnerNotify, Notify, Notify method [Windows Media Player], Notify method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::Notify, wmp.iwmpcontentpartner_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::Notify method
+# IWMPContentPartner::Notify
 
 
 ## -description

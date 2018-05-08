@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WLAN_ADHOC_NETWORK_STATE, *PWLAN_ADHOC_NETWORK_STATE, WLAN_ADHOC_NETWORK_STATE, *PWLAN_ADHOC_NETWORK_STATE
+req.typenames: WLAN_ADHOC_NETWORK_STATE, *PWLAN_ADHOC_NETWORK_STATE
 topic_type:
 -	APIRef
 -	kbSyntax

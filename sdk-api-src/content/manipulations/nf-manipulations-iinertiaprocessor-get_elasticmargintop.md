@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_ElasticMarginTop
-title: IInertiaProcessor::get_ElasticMarginTop method
+title: IInertiaProcessor::get_ElasticMarginTop
 author: windows-driver-content
 description: The ElasticMarginTop property specifies the topmost region for bouncing the target object.
 old-location: wintouch\iinertiaprocessor_elasticmargintop.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 76e332bf-180b-466f-8c22-cec4e44a7ab6
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: ElasticMarginTop property [Windows Touch], ElasticMarginTop property [Windows Touch], IInertiaProcessor interface, IInertiaProcessor, IInertiaProcessor interface [Windows Touch], ElasticMarginTop property, IInertiaProcessor.ElasticMarginTop, IInertiaProcessor::get_ElasticMarginTop, IInertiaProcessor::put_ElasticMarginTop, get_ElasticMarginTop,IInertiaProcessor.get_ElasticMarginTop, manipulations/IInertiaProcessor::ElasticMarginTop, manipulations/IInertiaProcessor::get_ElasticMarginTop, manipulations/IInertiaProcessor::put_ElasticMarginTop, wintouch.iinertiaprocessor_elasticmargintop
+ms.keywords: ElasticMarginTop property [Windows Touch], ElasticMarginTop property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginTop property, IInertiaProcessor.ElasticMarginTop, IInertiaProcessor.get_ElasticMarginTop, IInertiaProcessor::ElasticMarginTop, IInertiaProcessor::get_ElasticMarginTop, IInertiaProcessor::put_ElasticMarginTop, get_ElasticMarginTop, manipulations/IInertiaProcessor::ElasticMarginTop, manipulations/IInertiaProcessor::get_ElasticMarginTop, manipulations/IInertiaProcessor::put_ElasticMarginTop, wintouch.iinertiaprocessor_elasticmargintop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::get_ElasticMarginTop method
+# IInertiaProcessor::get_ElasticMarginTop
 
 
 ## -description

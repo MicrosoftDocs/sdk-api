@@ -8,7 +8,7 @@ old-project: ETW
 ms.assetid: e5b12f7a-4a00-41a0-90df-7d1317d63a4a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: "*PEVENT_MAP_ENTRY, EVENT_MAP_ENTRY, EVENT_MAP_ENTRY structure [ETW], EVENT_MAP_ENTRY, *PEVENT_MAP_ENTRY, EVENT_MAP_ENTRY, *PEVENT_MAP_ENTRY structure [ETW], _EVENT_MAP_ENTRY, etw.event_map_entry_struct, tdh.event_map_entry_struct, tdh/EVENT_MAP_ENTRY"
+ms.keywords: "*PEVENT_MAP_ENTRY, EVENT_MAP_ENTRY, EVENT_MAP_ENTRY structure [ETW], EVENT_MAP_ENTRY,*PEVENT_MAP_ENTRY, EVENT_MAP_ENTRY,*PEVENT_MAP_ENTRY structure [ETW], _EVENT_MAP_ENTRY, etw.event_map_entry_struct, tdh.event_map_entry_struct, tdh/EVENT_MAP_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -64,16 +64,16 @@ req.product: Windows XP with SP1 and later
 Offset from the beginning of the <a href="https://msdn.microsoft.com/dc7f14e7-16d7-4dfc-8c1a-5db6fa999d98">EVENT_MAP_INFO</a> structure to a null-terminated Unicode string that contains the string associated with the map value in <b>Value</b> or <b>InputOffset</b>.
 
 
-#### - InputOffset
+### -field Value
+
+If the <b>MapEntryValueType</b> member of <a href="https://msdn.microsoft.com/dc7f14e7-16d7-4dfc-8c1a-5db6fa999d98">EVENT_MAP_INFO</a>  is EVENTMAP_ENTRY_VALUETYPE_ULONG, use this member to access the map value.
+
+
+### -field InputOffset
 
 Offset from the beginning of the <a href="https://msdn.microsoft.com/dc7f14e7-16d7-4dfc-8c1a-5db6fa999d98">EVENT_MAP_INFO</a> structure to the null-terminated Unicode string that contains the map value.
 
 The offset is used for pattern maps and WMI value maps that map strings to strings. 
-
-
-#### - Value
-
-If the <b>MapEntryValueType</b> member of <a href="https://msdn.microsoft.com/dc7f14e7-16d7-4dfc-8c1a-5db6fa999d98">EVENT_MAP_INFO</a>  is EVENTMAP_ENTRY_VALUETYPE_ULONG, use this member to access the map value.
 
 
 ## -remarks

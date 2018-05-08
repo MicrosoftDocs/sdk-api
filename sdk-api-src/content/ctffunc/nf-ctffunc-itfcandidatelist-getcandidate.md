@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.GetCandidate
-title: ITfCandidateList::GetCandidate method
+title: ITfCandidateList::GetCandidate
 author: windows-driver-content
 description: ITfCandidateList::GetCandidate method
 old-location: tsf\itfcandidatelist_getcandidate.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4cb2127c-cce5-4815-b40b-e6e15058eab5
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetCandidate method [Text Services Framework], GetCandidate method [Text Services Framework], ITfCandidateList interface, GetCandidate,ITfCandidateList.GetCandidate, ITfCandidateList, ITfCandidateList interface [Text Services Framework], GetCandidate method, ITfCandidateList::GetCandidate, _tsf_itfcandidatelist_getcandidate_ref, ctffunc/ITfCandidateList::GetCandidate, tsf.itfcandidatelist_getcandidate
+ms.keywords: GetCandidate, GetCandidate method [Text Services Framework], GetCandidate method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],GetCandidate method, ITfCandidateList.GetCandidate, ITfCandidateList::GetCandidate, _tsf_itfcandidatelist_getcandidate_ref, ctffunc/ITfCandidateList::GetCandidate, tsf.itfcandidatelist_getcandidate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Tiptsf.dll
 req.irql: 
 ---
 
-# ITfCandidateList::GetCandidate method
+# ITfCandidateList::GetCandidate
 
 
 ## -description

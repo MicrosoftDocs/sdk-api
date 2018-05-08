@@ -1,6 +1,6 @@
 ---
 UID: NF:ddpbackup.IDedupReadFileCallback.PreviewContainerRead
-title: IDedupReadFileCallback::PreviewContainerRead method
+title: IDedupReadFileCallback::PreviewContainerRead
 author: windows-driver-content
 description: Provides the application with a preview of the sequence of reads that are pending for a given container file extent.
 old-location: dedup\idedupreadfilecallback_previewcontainerread.htm
@@ -8,7 +8,7 @@ old-project: dedup
 ms.assetid: A3AFB530-ED97-4BEC-BF9D-668115E36A36
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDedupReadFileCallback, IDedupReadFileCallback interface [Data Deduplication API], PreviewContainerRead method, IDedupReadFileCallback::PreviewContainerRead, PreviewContainerRead method [Data Deduplication API], PreviewContainerRead method [Data Deduplication API], IDedupReadFileCallback interface, PreviewContainerRead,IDedupReadFileCallback.PreviewContainerRead, ddpbackup/IDedupReadFileCallback::PreviewContainerRead, dedup.idedupreadfilecallback_previewcontainerread
+ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],PreviewContainerRead method, IDedupReadFileCallback.PreviewContainerRead, IDedupReadFileCallback::PreviewContainerRead, PreviewContainerRead, PreviewContainerRead method [Data Deduplication API], PreviewContainerRead method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::PreviewContainerRead, dedup.idedupreadfilecallback_previewcontainerread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDedupReadFileCallback::PreviewContainerRead method
+# IDedupReadFileCallback::PreviewContainerRead
 
 
 ## -description

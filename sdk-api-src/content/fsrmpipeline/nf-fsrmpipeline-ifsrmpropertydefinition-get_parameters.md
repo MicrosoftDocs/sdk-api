@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.get_Parameters
-title: IFsrmPropertyDefinition::get_Parameters method
+title: IFsrmPropertyDefinition::get_Parameters
 author: windows-driver-content
 description: The parameters for the property definition.
 old-location: fsrm\ifsrmpropertydefinition_parameters.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 52656c5d-2ded-40da-a6a3-595c4f8eb14e
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPropertyDefinition, IFsrmPropertyDefinition interface [File Server Resource Manager], Parameters property, IFsrmPropertyDefinition.Parameters, IFsrmPropertyDefinition::get_Parameters, IFsrmPropertyDefinition::put_Parameters, Parameters property [File Server Resource Manager], Parameters property [File Server Resource Manager], IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_parameters, fsrm.ifsrmpropertydefinition_parameters, fsrmpipeline/IFsrmPropertyDefinition::Parameters, fsrmpipeline/IFsrmPropertyDefinition::get_Parameters, fsrmpipeline/IFsrmPropertyDefinition::put_Parameters, get_Parameters,IFsrmPropertyDefinition.get_Parameters
+ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],Parameters property, IFsrmPropertyDefinition.Parameters, IFsrmPropertyDefinition.get_Parameters, IFsrmPropertyDefinition::Parameters, IFsrmPropertyDefinition::get_Parameters, IFsrmPropertyDefinition::put_Parameters, Parameters property [File Server Resource Manager], Parameters property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_parameters, fsrm.ifsrmpropertydefinition_parameters, fsrmpipeline/IFsrmPropertyDefinition::Parameters, fsrmpipeline/IFsrmPropertyDefinition::get_Parameters, fsrmpipeline/IFsrmPropertyDefinition::put_Parameters, get_Parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyDefinition::get_Parameters method
+# IFsrmPropertyDefinition::get_Parameters
 
 
 ## -description

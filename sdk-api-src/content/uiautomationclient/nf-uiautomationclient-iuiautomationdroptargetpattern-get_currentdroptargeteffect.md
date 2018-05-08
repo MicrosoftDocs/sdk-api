@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDropTargetPattern.get_CurrentDropTargetEffect
-title: IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect method
+title: IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect
 author: windows-driver-content
 description: Retrieves a localized string that describes what happens when the user drops the grabbed element on this drop target.
 old-location: winauto\uiauto_iuiautomationdroptargetpattern_currentdroptargeteffect.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: C7A2C62B-D61B-4884-BEF0-E4EB1088D1AB
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentDropTargetEffect property [Windows Accessibility], CurrentDropTargetEffect property [Windows Accessibility], IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern, IUIAutomationDropTargetPattern interface [Windows Accessibility], CurrentDropTargetEffect property, IUIAutomationDropTargetPattern.CurrentDropTargetEffect, IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect, get_CurrentDropTargetEffect,IUIAutomationDropTargetPattern.get_CurrentDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::CurrentDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect, winauto.uiauto_iuiautomationdroptargetpattern_currentdroptargeteffect
+ms.keywords: CurrentDropTargetEffect property [Windows Accessibility], CurrentDropTargetEffect property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CurrentDropTargetEffect property, IUIAutomationDropTargetPattern.CurrentDropTargetEffect, IUIAutomationDropTargetPattern.get_CurrentDropTargetEffect, IUIAutomationDropTargetPattern::CurrentDropTargetEffect, IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect, get_CurrentDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::CurrentDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect, winauto.uiauto_iuiautomationdroptargetpattern_currentdroptargeteffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect method
+# IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect
 
 
 ## -description

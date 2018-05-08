@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.DoesPropertyExist
-title: IInkExtendedProperties::DoesPropertyExist method
+title: IInkExtendedProperties::DoesPropertyExist
 author: windows-driver-content
 description: Retrieves a value that indicates whether an IInkExtendedProperty object exists within an IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_doespropertyexist.htm
 old-project: tablet
 ms.assetid: 285d6ce3-f7f9-48b0-aaa2-d9ff8db732eb
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 285d6ce3-f7f9-48b0-aaa2-d9ff8db732eb, DoesPropertyExist method [Tablet PC], DoesPropertyExist method [Tablet PC], IInkExtendedProperties interface, DoesPropertyExist,IInkExtendedProperties.DoesPropertyExist, IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], DoesPropertyExist method, IInkExtendedProperties::DoesPropertyExist, msinkaut/IInkExtendedProperties::DoesPropertyExist, tablet.iinkextendedproperties_doespropertyexist
+ms.date: 5/2/2018
+ms.keywords: 285d6ce3-f7f9-48b0-aaa2-d9ff8db732eb, DoesPropertyExist, DoesPropertyExist method [Tablet PC], DoesPropertyExist method [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],DoesPropertyExist method, IInkExtendedProperties.DoesPropertyExist, IInkExtendedProperties::DoesPropertyExist, msinkaut/IInkExtendedProperties::DoesPropertyExist, tablet.iinkextendedproperties_doespropertyexist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkExtendedProperties::DoesPropertyExist method
+# IInkExtendedProperties::DoesPropertyExist
 
 
 ## -description

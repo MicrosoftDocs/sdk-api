@@ -8,7 +8,7 @@ old-project: psapi
 ms.assetid: eb3610fb-2c95-4f7b-973d-8dc41d2829f1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EnumPageFilesProc, EnumPageFilesProc callback function [PSAPI], PENUM_PAGE_FILE_CALLBACKA, PENUM_PAGE_FILE_CALLBACKW, _win32_enumpagefilesproc, base.enumpagefilesproc, psapi.enumpagefilesproc, psapi/EnumPageFilesProc, psapi/PENUM_PAGE_FILE_CALLBACKA, psapi/PENUM_PAGE_FILE_CALLBACKW
+ms.keywords: EnumPageFilesProc, EnumPageFilesProc callback, EnumPageFilesProc callback function [PSAPI], PENUM_PAGE_FILE_CALLBACKA, PENUM_PAGE_FILE_CALLBACKW, _win32_enumpagefilesproc, base.enumpagefilesproc, psapi.enumpagefilesproc, psapi/EnumPageFilesProc, psapi/PENUM_PAGE_FILE_CALLBACKA, psapi/PENUM_PAGE_FILE_CALLBACKW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PENUM_PAGE_FILE_CALLBACKA callback
+# PENUM_PAGE_FILE_CALLBACKA callback function
 
 
 ## -description

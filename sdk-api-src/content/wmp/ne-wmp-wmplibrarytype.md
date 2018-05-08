@@ -7,7 +7,7 @@ old-location: wmp\wmplibrarytype.htm
 old-project: WMP
 ms.assetid: bf0e7140-5a33-4841-bd55-ac07dae09c41
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/4/2018
 ms.keywords: WMPLibraryType, WMPLibraryType enumeration [Windows Media Player], wmp.wmplibrarytype, wmp/WMPLibraryType, wmp/wmpltAll, wmp/wmpltDisc, wmp/wmpltLocal, wmp/wmpltPortableDevice, wmp/wmpltRemote, wmp/wmpltUnknown, wmpltAll, wmpltDisc, wmpltLocal, wmpltPortableDevice, wmpltRemote, wmpltUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

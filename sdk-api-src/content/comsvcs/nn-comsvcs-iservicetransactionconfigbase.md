@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: e4740bf4-51b1-474f-9637-7c5d78f0def5
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IServiceTransactionConfigBase, IServiceTransactionConfigBase interface [COM+], IServiceTransactionConfigBase interface [COM+], described, _cos_IServiceTransactionConfigBase, comsvcs/IServiceTransactionConfigBase, cos.iservicetransactionconfigbase
+ms.keywords: IServiceTransactionConfigBase, IServiceTransactionConfigBase interface [COM+], IServiceTransactionConfigBase interface [COM+],described, _cos_IServiceTransactionConfigBase, comsvcs/IServiceTransactionConfigBase, cos.iservicetransactionconfigbase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetTimes
-title: IBackgroundCopyJob::GetTimes method
+title: IBackgroundCopyJob::GetTimes
 author: windows-driver-content
 description: Retrieves job-related time stamps, such as the time that the job was created or last modified.
 old-location: bits\ibackgroundcopyjob_gettimes.htm
 old-project: Bits
 ms.assetid: acc29cc2-b437-4799-9cdb-388a60f117e9
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetTimes method [BITS], GetTimes method [BITS], IBackgroundCopyJob interface, GetTimes,IBackgroundCopyJob.GetTimes, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetTimes method, IBackgroundCopyJob::GetTimes, _drz_ibackgroundcopyjob_gettimes, bits.ibackgroundcopyjob_gettimes, bits/IBackgroundCopyJob::GetTimes
+ms.date: 4/27/2018
+ms.keywords: GetTimes, GetTimes method [BITS], GetTimes method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetTimes method, IBackgroundCopyJob.GetTimes, IBackgroundCopyJob::GetTimes, _drz_ibackgroundcopyjob_gettimes, bits.ibackgroundcopyjob_gettimes, bits/IBackgroundCopyJob::GetTimes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::GetTimes method
+# IBackgroundCopyJob::GetTimes
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D.SuspendDraw
-title: ISurfaceImageSourceNativeWithD2D::SuspendDraw method
+title: ISurfaceImageSourceNativeWithD2D::xaml
 author: windows-driver-content
 description: Suspends the drawing operation.
 old-location: winrt\isurfaceimagesourcenativewithd2d_suspenddraw.htm
 old-project: WinRT
 ms.assetid: 022B6A31-35B4-4E31-9B6E-12F75A156378
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISurfaceImageSourceNativeWithD2D, ISurfaceImageSourceNativeWithD2D interface [Windows Runtime], SuspendDraw method, ISurfaceImageSourceNativeWithD2D::SuspendDraw, SuspendDraw method [Windows Runtime], SuspendDraw method [Windows Runtime], ISurfaceImageSourceNativeWithD2D interface, SuspendDraw,ISurfaceImageSourceNativeWithD2D.SuspendDraw, windows/ISurfaceImageSourceNativeWithD2D::SuspendDraw, winrt.isurfaceimagesourcenativewithd2d_suspenddraw
+ms.date: 5/4/2018
+ms.keywords: ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],SuspendDraw method, ISurfaceImageSourceNativeWithD2D.SuspendDraw, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::SuspendDraw, ISurfaceImageSourceNativeWithD2D::xaml, SuspendDraw, SuspendDraw method [Windows Runtime], SuspendDraw method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, windows/ISurfaceImageSourceNativeWithD2D::SuspendDraw, winrt.isurfaceimagesourcenativewithd2d_suspenddraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISurfaceImageSourceNativeWithD2D::SuspendDraw method
+# ISurfaceImageSourceNativeWithD2D::xaml
 
 
 ## -description

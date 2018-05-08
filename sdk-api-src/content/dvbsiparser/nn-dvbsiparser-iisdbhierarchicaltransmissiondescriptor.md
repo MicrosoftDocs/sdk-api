@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6586360b-60d8-4c3c-aa6e-b657e1784b6d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IIsdbHierarchicalTransmissionDescriptor, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies], IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor, mstv.iisdbhierarchicaltransmissiondescriptor
+ms.keywords: IIsdbHierarchicalTransmissionDescriptor, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies], IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor, mstv.iisdbhierarchicaltransmissiondescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

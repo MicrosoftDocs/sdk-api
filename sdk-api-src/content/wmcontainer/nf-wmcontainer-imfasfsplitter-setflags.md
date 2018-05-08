@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.SetFlags
-title: IMFASFSplitter::SetFlags method
+title: IMFASFSplitter::SetFlags
 author: windows-driver-content
 description: Sets option flags on the Advanced Systems Format (ASF) splitter.
 old-location: mf\imfasfsplitter_setflags.htm
 old-project: medfound
 ms.assetid: 5c70e5a0-7dd5-49c5-af35-4d9568871b41
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 5c70e5a0-7dd5-49c5-af35-4d9568871b41, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], SetFlags method, IMFASFSplitter::SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation], IMFASFSplitter interface, SetFlags,IMFASFSplitter.SetFlags, mf.imfasfsplitter_setflags, wmcontainer/IMFASFSplitter::SetFlags
+ms.date: 5/3/2018
+ms.keywords: 5c70e5a0-7dd5-49c5-af35-4d9568871b41, IMFASFSplitter interface [Media Foundation],SetFlags method, IMFASFSplitter.SetFlags, IMFASFSplitter::SetFlags, SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation],IMFASFSplitter interface, mf.imfasfsplitter_setflags, wmcontainer/IMFASFSplitter::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFSplitter::SetFlags method
+# IMFASFSplitter::SetFlags
 
 
 ## -description

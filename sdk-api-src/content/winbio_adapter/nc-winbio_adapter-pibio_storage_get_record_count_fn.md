@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: dc7891c3-33f7-498c-acb1-4687909debb7
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_GET_RECORD_COUNT_FN, StorageAdapterGetRecordCount, StorageAdapterGetRecordCount callback function [Windows Biometric Framework API], secbiomet.storageadaptergetrecordcount, winbio_adapter/StorageAdapterGetRecordCount
+ms.keywords: PIBIO_STORAGE_GET_RECORD_COUNT_FN, PIBIO_STORAGE_GET_RECORD_COUNT_FN callback, StorageAdapterGetRecordCount, StorageAdapterGetRecordCount callback function [Windows Biometric Framework API], secbiomet.storageadaptergetrecordcount, winbio_adapter/StorageAdapterGetRecordCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_GET_RECORD_COUNT_FN callback
+# PIBIO_STORAGE_GET_RECORD_COUNT_FN callback function
 
 
 ## -description

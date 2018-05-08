@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.RequestSupportedAttrs
-title: ITextStoreACP::RequestSupportedAttrs method
+title: ITextStoreACP::RequestSupportedAttrs
 author: windows-driver-content
 description: Get the attributes that are supported in the document.
 old-location: tsf\itextstoreacp_requestsupportedattrs.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 243cd002-c882-4ce9-b528-1a2229c46f4a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACP, ITextStoreACP interface [Text Services Framework], RequestSupportedAttrs method, ITextStoreACP::RequestSupportedAttrs, RequestSupportedAttrs method [Text Services Framework], RequestSupportedAttrs method [Text Services Framework], ITextStoreACP interface, RequestSupportedAttrs,ITextStoreACP.RequestSupportedAttrs, _tsf_itextstoreacp_requestsupportedattrs_ref, textstor/ITextStoreACP::RequestSupportedAttrs, tsf.itextstoreacp_requestsupportedattrs
+ms.keywords: ITextStoreACP interface [Text Services Framework],RequestSupportedAttrs method, ITextStoreACP.RequestSupportedAttrs, ITextStoreACP::RequestSupportedAttrs, RequestSupportedAttrs, RequestSupportedAttrs method [Text Services Framework], RequestSupportedAttrs method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_requestsupportedattrs_ref, textstor/ITextStoreACP::RequestSupportedAttrs, tsf.itextstoreacp_requestsupportedattrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP::RequestSupportedAttrs method
+# ITextStoreACP::RequestSupportedAttrs
 
 
 ## -description

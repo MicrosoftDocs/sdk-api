@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetOffset
-title: IAppxBundleManifestPackageInfo::GetOffset method
+title: IAppxBundleManifestPackageInfo::GetOffset
 author: windows-driver-content
 description: Retrieves the offset of the package relative to the beginning of the bundle.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getoffset.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: A55DB4B6-2EA0-4392-B05A-FEE091913573
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetOffset method [App packaging and management], GetOffset method [App packaging and management], IAppxBundleManifestPackageInfo interface, GetOffset,IAppxBundleManifestPackageInfo.GetOffset, IAppxBundleManifestPackageInfo, IAppxBundleManifestPackageInfo interface [App packaging and management], GetOffset method, IAppxBundleManifestPackageInfo::GetOffset, appxpackaging/IAppxBundleManifestPackageInfo::GetOffset, appxpkg.iappxbundlemanifestpackageinfo_getoffset
+ms.keywords: GetOffset, GetOffset method [App packaging and management], GetOffset method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetOffset method, IAppxBundleManifestPackageInfo.GetOffset, IAppxBundleManifestPackageInfo::GetOffset, appxpackaging/IAppxBundleManifestPackageInfo::GetOffset, appxpkg.iappxbundlemanifestpackageinfo_getoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleManifestPackageInfo::GetOffset method
+# IAppxBundleManifestPackageInfo::GetOffset
 
 
 ## -description

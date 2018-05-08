@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetScope
-title: IWbemPath::SetScope method
+title: IWbemPath::SetScope
 author: windows-driver-content
 description: The IWbemPath::SetScope method sets a scope in the path based upon an index. The index is always 0 (zero) and the scope is the class or key portion of the path. This method also sets the class name.
 old-location: wmi\iwbempath_setscope.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 0b4597ec-0d08-4929-9591-21588ded66bb
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], SetScope method, IWbemPath::SetScope, SetScope method [Windows Management Instrumentation], SetScope method [Windows Management Instrumentation], IWbemPath interface, SetScope,IWbemPath.SetScope, _hmm_iwbempath_setscope, wmi.iwbempath_setscope, wmiutils/IWbemPath::SetScope
+ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetScope method, IWbemPath.SetScope, IWbemPath::SetScope, SetScope, SetScope method [Windows Management Instrumentation], SetScope method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_setscope, wmi.iwbempath_setscope, wmiutils/IWbemPath::SetScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPath::SetScope method
+# IWbemPath::SetScope
 
 
 ## -description

@@ -215,32 +215,27 @@ The number of values specified in the <b>Values</b> member.
 ### -field Values
 
 
-
-#### pInt64
-
-A pointer to one or more numeric attribute values.
-
-
-
-#### pUint64
+### -field Values.pInt64
 
 A pointer to one or more numeric attribute values.
 
 
+### -field Values.pUint64
 
-#### ppString
+A pointer to one or more numeric attribute values.
+
+
+### -field Values.ppString
 
 A pointer to one or more string attribute values.
 
 
-
-#### pFqbn
+### -field Values.pFqbn
 
 A pointer to one or more <a href="https://msdn.microsoft.com/05b4bf7d-a0d9-473c-b215-9cf566b2a996">AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE</a> structures.
 
 
-
-#### pOctetString
+### -field Values.pOctetString
 
 A pointer to one or more <a href="https://msdn.microsoft.com/aebe20d5-280f-45d3-a11d-279a08a1a165">AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> structures.
 

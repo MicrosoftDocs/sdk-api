@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader2.GetPlayOutputLevels
-title: IWMDRMReader2::GetPlayOutputLevels method
+title: IWMDRMReader2::GetPlayOutputLevels
 author: windows-driver-content
 description: The GetPlayOutputLevels method retrieves the output protection levels (OPLs) that apply to the play action in the license of the file loaded in the reader.
 old-location: wmformat\iwmdrmreader2_getplayoutputlevels.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a53d58cc-655f-4441-9c16-5afc5b53a233
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetPlayOutputLevels method [windows Media Format], GetPlayOutputLevels method [windows Media Format], IWMDRMReader2 interface, GetPlayOutputLevels,IWMDRMReader2.GetPlayOutputLevels, IWMDRMReader2, IWMDRMReader2 interface [windows Media Format], GetPlayOutputLevels method, IWMDRMReader2::GetPlayOutputLevels, IWMDRMReader2GetPlayOutputLevels, wmformat.iwmdrmreader2_getplayoutputlevels, wmsdkidl/IWMDRMReader2::GetPlayOutputLevels
+ms.keywords: GetPlayOutputLevels, GetPlayOutputLevels method [windows Media Format], GetPlayOutputLevels method [windows Media Format],IWMDRMReader2 interface, IWMDRMReader2 interface [windows Media Format],GetPlayOutputLevels method, IWMDRMReader2.GetPlayOutputLevels, IWMDRMReader2::GetPlayOutputLevels, IWMDRMReader2GetPlayOutputLevels, wmformat.iwmdrmreader2_getplayoutputlevels, wmsdkidl/IWMDRMReader2::GetPlayOutputLevels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMReader2::GetPlayOutputLevels method
+# IWMDRMReader2::GetPlayOutputLevels
 
 
 ## -description

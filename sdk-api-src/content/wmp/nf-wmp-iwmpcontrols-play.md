@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPControls.play
-title: IWMPControls::play method
+title: IWMPControls::play
 author: windows-driver-content
 description: The play method causes the current media item to start playing, or resumes play of a paused item.
 old-location: wmp\iwmpcontrols_play.htm
 old-project: WMP
 ms.assetid: 45b5634b-6d23-4e61-90e4-ef0cc9d90a14
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], play method, IWMPControls::play, IWMPControlsplay, play method [Windows Media Player], play method [Windows Media Player], IWMPControls interface, play,IWMPControls.play, wmp.iwmpcontrols_play, wmp/IWMPControls::play
+ms.date: 5/4/2018
+ms.keywords: IWMPControls interface [Windows Media Player],play method, IWMPControls.play, IWMPControls::play, IWMPControlsplay, play, play method [Windows Media Player], play method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_play, wmp/IWMPControls::play
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPControls::play method
+# IWMPControls::play
 
 
 ## -description

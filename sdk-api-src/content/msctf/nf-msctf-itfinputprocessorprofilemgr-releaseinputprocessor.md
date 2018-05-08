@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.ReleaseInputProcessor
-title: ITfInputProcessorProfileMgr::ReleaseInputProcessor method
+title: ITfInputProcessorProfileMgr::ReleaseInputProcessor
 author: windows-driver-content
 description: The ITfInputProcessorProfileMgr::ReleaseInputProcessor method deactivates the profiles belonging to the text services of the specified CLSID and releases the instance of ITfTextInputProcessorEx interface.
 old-location: tsf\itfinputprocessorprofilemgr_releaseinputprocessor.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a7bcc50a-9f94-4a55-aca2-db9a40be2157
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfInputProcessorProfileMgr, ITfInputProcessorProfileMgr interface [Text Services Framework], ReleaseInputProcessor method, ITfInputProcessorProfileMgr::ReleaseInputProcessor, ReleaseInputProcessor method [Text Services Framework], ReleaseInputProcessor method [Text Services Framework], ITfInputProcessorProfileMgr interface, ReleaseInputProcessor,ITfInputProcessorProfileMgr.ReleaseInputProcessor, TF_RIP_FLAG_FREEUNUSEDLIBRARIES, msctf/ITfInputProcessorProfileMgr::ReleaseInputProcessor, tsf.itfinputprocessorprofilemgr_releaseinputprocessor
+ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],ReleaseInputProcessor method, ITfInputProcessorProfileMgr.ReleaseInputProcessor, ITfInputProcessorProfileMgr::ReleaseInputProcessor, ReleaseInputProcessor, ReleaseInputProcessor method [Text Services Framework], ReleaseInputProcessor method [Text Services Framework],ITfInputProcessorProfileMgr interface, TF_RIP_FLAG_FREEUNUSEDLIBRARIES, msctf/ITfInputProcessorProfileMgr::ReleaseInputProcessor, tsf.itfinputprocessorprofilemgr_releaseinputprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfileMgr::ReleaseInputProcessor method
+# ITfInputProcessorProfileMgr::ReleaseInputProcessor
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.GetCanonicalFormatEtc
-title: IDataObject::GetCanonicalFormatEtc method
+title: IDataObject::GetCanonicalFormatEtc
 author: windows-driver-content
 description: Provides a potentially different but logically equivalent FORMATETC structure. You use this method to determine whether two different FORMATETC structures would return the same data, removing the need for duplicate rendering.
 old-location: com\idataobject_getcanonicalformatetc.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 3a5009a0-8d92-483a-b055-8a97f326dccd
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetCanonicalFormatEtc method [COM], GetCanonicalFormatEtc method [COM], IDataObject interface, GetCanonicalFormatEtc,IDataObject.GetCanonicalFormatEtc, IDataObject, IDataObject interface [COM], GetCanonicalFormatEtc method, IDataObject::GetCanonicalFormatEtc, _ole_idataobject_getcanonicalformatetc, com.idataobject_getcanonicalformatetc, objidl/IDataObject::GetCanonicalFormatEtc
+ms.keywords: GetCanonicalFormatEtc, GetCanonicalFormatEtc method [COM], GetCanonicalFormatEtc method [COM],IDataObject interface, IDataObject interface [COM],GetCanonicalFormatEtc method, IDataObject.GetCanonicalFormatEtc, IDataObject::GetCanonicalFormatEtc, _ole_idataobject_getcanonicalformatetc, com.idataobject_getcanonicalformatetc, objidl/IDataObject::GetCanonicalFormatEtc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataObject::GetCanonicalFormatEtc method
+# IDataObject::GetCanonicalFormatEtc
 
 
 ## -description

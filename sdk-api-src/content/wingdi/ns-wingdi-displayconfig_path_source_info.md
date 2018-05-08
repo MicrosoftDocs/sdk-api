@@ -71,8 +71,7 @@ The source identifier on the specified adapter that this path relates to.
 ### -field DUMMYUNIONNAME
 
 
-
-#### modeInfoIdx
+### -field DUMMYUNIONNAME.modeInfoIdx
 
 A valid index into the mode information table that contains the source mode information for this path only when DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE is not set. If source mode information is not available, the value of <b>modeInfoIdx</b> is DISPLAYCONFIG_PATH_MODE_IDX_INVALID.
 

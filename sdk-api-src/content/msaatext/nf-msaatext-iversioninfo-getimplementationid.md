@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetImplementationID
-title: IVersionInfo::GetImplementationID method
+title: IVersionInfo::GetImplementationID
 author: windows-driver-content
 description: Clients call IVersionInfo::GetImplementationID to retrieve a unique identifier for the component.
 old-location: winauto\iversioninfo_iversioninfo__getimplementationid.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 018834df-bd03-4bf5-8af2-b325f7a6a586
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetImplementationID method [Windows Accessibility], GetImplementationID method [Windows Accessibility], IVersionInfo interface, GetImplementationID,IVersionInfo.GetImplementationID, IVersionInfo, IVersionInfo interface [Windows Accessibility], GetImplementationID method, IVersionInfo::GetImplementationID, _msaa_IVersionInfo_GetImplementationID, msaa.iversioninfo_iversioninfo__getimplementationid, msaatext/IVersionInfo::GetImplementationID, winauto.iversioninfo_iversioninfo__getimplementationid
+ms.keywords: GetImplementationID, GetImplementationID method [Windows Accessibility], GetImplementationID method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetImplementationID method, IVersionInfo.GetImplementationID, IVersionInfo::GetImplementationID, _msaa_IVersionInfo_GetImplementationID, msaa.iversioninfo_iversioninfo__getimplementationid, msaatext/IVersionInfo::GetImplementationID, winauto.iversioninfo_iversioninfo__getimplementationid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IVersionInfo::GetImplementationID method
+# IVersionInfo::GetImplementationID
 
 
 ## -description

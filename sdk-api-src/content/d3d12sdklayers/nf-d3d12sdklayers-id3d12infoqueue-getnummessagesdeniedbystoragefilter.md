@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter
-title: ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter method
+title: ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter
 author: windows-driver-content
 description: Get the number of messages that were denied passage through a storage filter.
 old-location: direct3d12\id3d12infoqueue_getnummessagesdeniedbystoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: A1702C92-516C-4ECF-AD75-3D2CCFE360D2
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetNumMessagesDeniedByStorageFilter method, GetNumMessagesDeniedByStorageFilter method, ID3D12InfoQueue interface, GetNumMessagesDeniedByStorageFilter,ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter, ID3D12InfoQueue, ID3D12InfoQueue interface, GetNumMessagesDeniedByStorageFilter method, ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, direct3d12.id3d12infoqueue_getnummessagesdeniedbystoragefilter
+ms.keywords: GetNumMessagesDeniedByStorageFilter, GetNumMessagesDeniedByStorageFilter method, GetNumMessagesDeniedByStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumMessagesDeniedByStorageFilter method, ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter, ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, direct3d12.id3d12infoqueue_getnummessagesdeniedbystoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter method
+# ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter
 
 
 ## -description

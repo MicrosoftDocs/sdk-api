@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsContainer.MoveHere
-title: IADsContainer::MoveHere method
+title: IADsContainer::MoveHere
 author: windows-driver-content
 description: Moves a specified object to the container that implements this interface.
 old-location: adsi\iadscontainer_movehere.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 132b1cdc-6fb5-43b1-a5de-3b25c361e8e1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsContainer, IADsContainer interface [ADSI], MoveHere method, IADsContainer::MoveHere, MoveHere method [ADSI], MoveHere method [ADSI], IADsContainer interface, MoveHere,IADsContainer.MoveHere, _ds_iadscontainer_movehere, adsi.iadscontainer__movehere, adsi.iadscontainer_movehere, iads/IADsContainer::MoveHere
+ms.keywords: IADsContainer interface [ADSI],MoveHere method, IADsContainer.MoveHere, IADsContainer::MoveHere, MoveHere, MoveHere method [ADSI], MoveHere method [ADSI],IADsContainer interface, _ds_iadscontainer_movehere, adsi.iadscontainer__movehere, adsi.iadscontainer_movehere, iads/IADsContainer::MoveHere
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsContainer::MoveHere method
+# IADsContainer::MoveHere
 
 
 ## -description

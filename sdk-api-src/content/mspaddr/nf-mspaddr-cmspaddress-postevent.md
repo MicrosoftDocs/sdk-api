@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CMSPAddress.PostEvent
-title: CMSPAddress::PostEvent method
+title: CMSPAddress::PostEvent
 author: windows-driver-content
 description: The PostEvent method is called by the MSPCall to post an event to TAPI3. This method puts the event at the end of the event list and signals TAPI3. Locks the event list.
 old-location: tapi3\cmspaddress_postevent.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 25050c11-c270-4fc0-85b4-0f48622a5ec5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPAddress, CMSPAddress interface [TAPI 2.2], PostEvent method, CMSPAddress::PostEvent, PostEvent method [TAPI 2.2], PostEvent method [TAPI 2.2], CMSPAddress interface, PostEvent,CMSPAddress.PostEvent, _tapi3_cmspaddress_postevent, mspaddr/CMSPAddress::PostEvent, tapi3.cmspaddress_postevent
+ms.keywords: CMSPAddress interface [TAPI 2.2],PostEvent method, CMSPAddress.PostEvent, CMSPAddress::PostEvent, PostEvent, PostEvent method [TAPI 2.2], PostEvent method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_postevent, mspaddr/CMSPAddress::PostEvent, tapi3.cmspaddress_postevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPAddress::PostEvent method
+# CMSPAddress::PostEvent
 
 
 ## -description

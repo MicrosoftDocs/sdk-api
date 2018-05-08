@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_VoidTransform.Start
-title: IBDA_VoidTransform::Start method
+title: IBDA_VoidTransform::Start
 author: windows-driver-content
 description: The Start method restarts data flow through a control node.
 old-location: mstv\ibda_voidtransform_start.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bc89fd31-56c2-4de0-b2aa-239173e1997d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_VoidTransform, IBDA_VoidTransform interface [Microsoft TV Technologies], Start method, IBDA_VoidTransform::Start, IBDA_VoidTransformStart, Start method [Microsoft TV Technologies], Start method [Microsoft TV Technologies], IBDA_VoidTransform interface, Start,IBDA_VoidTransform.Start, bdaiface/IBDA_VoidTransform::Start, mstv.ibda_voidtransform_start
+ms.keywords: IBDA_VoidTransform interface [Microsoft TV Technologies],Start method, IBDA_VoidTransform.Start, IBDA_VoidTransform::Start, IBDA_VoidTransformStart, Start, Start method [Microsoft TV Technologies], Start method [Microsoft TV Technologies],IBDA_VoidTransform interface, bdaiface/IBDA_VoidTransform::Start, mstv.ibda_voidtransform_start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_VoidTransform::Start method
+# IBDA_VoidTransform::Start
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetStatus
-title: IDirectManipulationViewport::GetStatus method
+title: IDirectManipulationViewport::GetStatus
 author: windows-driver-content
 description: Gets the state of the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_getstatus.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 1c02b2b2-8291-4151-b9c9-d80bf71f5ef5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetStatus method [Direct Manipulation], GetStatus method [Direct Manipulation], IDirectManipulationViewport interface, GetStatus,IDirectManipulationViewport.GetStatus, IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], GetStatus method, IDirectManipulationViewport::GetStatus, directmanipulation.idirectmanipulationviewport_getstatus, directmanipulation/IDirectManipulationViewport::GetStatus
+ms.keywords: GetStatus, GetStatus method [Direct Manipulation], GetStatus method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetStatus method, IDirectManipulationViewport.GetStatus, IDirectManipulationViewport::GetStatus, directmanipulation.idirectmanipulationviewport_getstatus, directmanipulation/IDirectManipulationViewport::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::GetStatus method
+# IDirectManipulationViewport::GetStatus
 
 
 ## -description

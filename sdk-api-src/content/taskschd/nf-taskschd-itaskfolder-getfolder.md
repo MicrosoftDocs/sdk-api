@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.GetFolder
-title: ITaskFolder::GetFolder method
+title: ITaskFolder::GetFolder
 author: windows-driver-content
 description: Gets a folder that contains tasks at a specified location.
 old-location: taskschd\itaskfolder_getfolder.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 62a0b946-ba06-46cf-bf38-e6774bdaae0a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetFolder method [Task Scheduler], GetFolder method [Task Scheduler], ITaskFolder interface, GetFolder,ITaskFolder.GetFolder, ITaskFolder, ITaskFolder interface [Task Scheduler], GetFolder method, ITaskFolder::GetFolder, taskschd.itaskfolder_getfolder, taskschd/ITaskFolder::GetFolder
+ms.keywords: GetFolder, GetFolder method [Task Scheduler], GetFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetFolder method, ITaskFolder.GetFolder, ITaskFolder::GetFolder, taskschd.itaskfolder_getfolder, taskschd/ITaskFolder::GetFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskFolder::GetFolder method
+# ITaskFolder::GetFolder
 
 
 ## -description

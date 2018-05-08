@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOBase.ProcessThru
-title: CXAPOBase::ProcessThru method
+title: CXAPOBase::ProcessThru
 author: windows-driver-content
 description: Called by an IXAPO::Process implementation when an XAPO is disabled for thru processing.
 old-location: xaudio2\cxapobase_processthru.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ProcessThru(void,FLOAT32,UINT32,WORD,WORD,BOOL)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CXAPOBase, CXAPOBase interface [XAudio2 Audio Mixing APIs], ProcessThru method, CXAPOBase::ProcessThru, ProcessThru method [XAudio2 Audio Mixing APIs], ProcessThru method [XAudio2 Audio Mixing APIs], CXAPOBase interface, ProcessThru,CXAPOBase.ProcessThru, xapobase/CXAPOBase::ProcessThru, xaudio2.cxapobase_processthru
+ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],ProcessThru method, CXAPOBase.ProcessThru, CXAPOBase::ProcessThru, ProcessThru, ProcessThru method [XAudio2 Audio Mixing APIs], ProcessThru method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::ProcessThru, xaudio2.cxapobase_processthru
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# CXAPOBase::ProcessThru method
+# CXAPOBase::ProcessThru
 
 
 ## -description

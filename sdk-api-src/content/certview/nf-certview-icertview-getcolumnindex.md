@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.ICertView.GetColumnIndex
-title: ICertView::GetColumnIndex method
+title: ICertView::GetColumnIndex
 author: windows-driver-content
 description: Retrieves the zero-based index of a column.
 old-location: security\icertview2_getcolumnindex.htm
 old-project: SecCrypto
 ms.assetid: 3d869db9-b4df-4fcd-85e7-19fe773b4262
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertView object [Security], GetColumnIndex method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, GetColumnIndex method [Security], GetColumnIndex method [Security], CCertView object, GetColumnIndex method [Security], ICertView interface, GetColumnIndex method [Security], ICertView2 interface, GetColumnIndex,ICertView.GetColumnIndex, ICertView, ICertView interface [Security], GetColumnIndex method, ICertView2 interface [Security], GetColumnIndex method, ICertView2::GetColumnIndex, ICertView::GetColumnIndex, certview/ICertView2::GetColumnIndex, certview/ICertView::GetColumnIndex, security.icertview2_getcolumnindex
+ms.date: 4/30/2018
+ms.keywords: CCertView object [Security],GetColumnIndex method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, GetColumnIndex, GetColumnIndex method [Security], GetColumnIndex method [Security],CCertView object, GetColumnIndex method [Security],ICertView interface, GetColumnIndex method [Security],ICertView2 interface, ICertView interface [Security],GetColumnIndex method, ICertView.GetColumnIndex, ICertView2 interface [Security],GetColumnIndex method, ICertView2::GetColumnIndex, ICertView::GetColumnIndex, certview/ICertView2::GetColumnIndex, certview/ICertView::GetColumnIndex, security.icertview2_getcolumnindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# ICertView::GetColumnIndex method
+# ICertView::GetColumnIndex
 
 
 ## -description

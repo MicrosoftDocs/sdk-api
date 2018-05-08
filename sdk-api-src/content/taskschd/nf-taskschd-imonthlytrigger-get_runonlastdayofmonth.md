@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.get_RunOnLastDayOfMonth
-title: IMonthlyTrigger::get_RunOnLastDayOfMonth method
+title: IMonthlyTrigger::get_RunOnLastDayOfMonth
 author: windows-driver-content
 description: Gets or sets a Boolean value that indicates that the task runs on the last day of the month.
 old-location: taskschd\imonthlytrigger_runonlastdayofmonth.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 0355f164-f883-4502-bd55-a6d0d60fca4e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IMonthlyTrigger, IMonthlyTrigger interface [Task Scheduler], RunOnLastDayOfMonth property, IMonthlyTrigger.RunOnLastDayOfMonth, IMonthlyTrigger::get_RunOnLastDayOfMonth, IMonthlyTrigger::put_RunOnLastDayOfMonth, RunOnLastDayOfMonth property [Task Scheduler], RunOnLastDayOfMonth property [Task Scheduler], IMonthlyTrigger interface, get_RunOnLastDayOfMonth,IMonthlyTrigger.get_RunOnLastDayOfMonth, taskschd.imonthlytrigger_runonlastdayofmonth, taskschd/IMonthlyTrigger::RunOnLastDayOfMonth, taskschd/IMonthlyTrigger::get_RunOnLastDayOfMonth, taskschd/IMonthlyTrigger::put_RunOnLastDayOfMonth
+ms.keywords: IMonthlyTrigger interface [Task Scheduler],RunOnLastDayOfMonth property, IMonthlyTrigger.RunOnLastDayOfMonth, IMonthlyTrigger.get_RunOnLastDayOfMonth, IMonthlyTrigger::RunOnLastDayOfMonth, IMonthlyTrigger::get_RunOnLastDayOfMonth, IMonthlyTrigger::put_RunOnLastDayOfMonth, RunOnLastDayOfMonth property [Task Scheduler], RunOnLastDayOfMonth property [Task Scheduler],IMonthlyTrigger interface, get_RunOnLastDayOfMonth, taskschd.imonthlytrigger_runonlastdayofmonth, taskschd/IMonthlyTrigger::RunOnLastDayOfMonth, taskschd/IMonthlyTrigger::get_RunOnLastDayOfMonth, taskschd/IMonthlyTrigger::put_RunOnLastDayOfMonth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMonthlyTrigger::get_RunOnLastDayOfMonth method
+# IMonthlyTrigger::get_RunOnLastDayOfMonth
 
 
 ## -description

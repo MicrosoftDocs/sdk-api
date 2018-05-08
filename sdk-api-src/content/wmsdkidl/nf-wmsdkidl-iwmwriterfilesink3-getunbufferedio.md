@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.GetUnbufferedIO
-title: IWMWriterFileSink3::GetUnbufferedIO method
+title: IWMWriterFileSink3::GetUnbufferedIO
 author: windows-driver-content
 description: The GetUnbufferedIO method ascertains whether unbuffered I/O is used for the file sink.
 old-location: wmformat\iwmwriterfilesink3_getunbufferedio.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e87222eb-6ed1-49b7-a544-27703ba9806b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetUnbufferedIO method [windows Media Format], GetUnbufferedIO method [windows Media Format], IWMWriterFileSink3 interface, GetUnbufferedIO,IWMWriterFileSink3.GetUnbufferedIO, IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], GetUnbufferedIO method, IWMWriterFileSink3::GetUnbufferedIO, IWMWriterFileSink3GetUnbufferedIO, wmformat.iwmwriterfilesink3_getunbufferedio, wmsdkidl/IWMWriterFileSink3::GetUnbufferedIO
+ms.keywords: GetUnbufferedIO, GetUnbufferedIO method [windows Media Format], GetUnbufferedIO method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],GetUnbufferedIO method, IWMWriterFileSink3.GetUnbufferedIO, IWMWriterFileSink3::GetUnbufferedIO, IWMWriterFileSink3GetUnbufferedIO, wmformat.iwmwriterfilesink3_getunbufferedio, wmsdkidl/IWMWriterFileSink3::GetUnbufferedIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterFileSink3::GetUnbufferedIO method
+# IWMWriterFileSink3::GetUnbufferedIO
 
 
 ## -description

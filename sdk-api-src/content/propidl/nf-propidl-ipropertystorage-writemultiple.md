@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertyStorage.WriteMultiple
-title: IPropertyStorage::WriteMultiple method
+title: IPropertyStorage::WriteMultiple
 author: windows-driver-content
 description: Writes a specified group of properties to the current property set.
 old-location: stg\ipropertystorage_writemultiple.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 480a2be3-ccb0-4135-a085-733f6ab48ccd
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], WriteMultiple method, IPropertyStorage::WriteMultiple, WriteMultiple method [Structured Storage], WriteMultiple method [Structured Storage], IPropertyStorage interface, WriteMultiple,IPropertyStorage.WriteMultiple, _stg_ipropertystorage_writemultiple, propidl/IPropertyStorage::WriteMultiple, stg.ipropertystorage_writemultiple
+ms.keywords: IPropertyStorage interface [Structured Storage],WriteMultiple method, IPropertyStorage.WriteMultiple, IPropertyStorage::WriteMultiple, WriteMultiple, WriteMultiple method [Structured Storage], WriteMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_writemultiple, propidl/IPropertyStorage::WriteMultiple, stg.ipropertystorage_writemultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyStorage::WriteMultiple method
+# IPropertyStorage::WriteMultiple
 
 
 ## -description

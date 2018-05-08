@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.OnTextUpdated
-title: ITfPropertyStore::OnTextUpdated method
+title: ITfPropertyStore::OnTextUpdated
 author: windows-driver-content
 description: ITfPropertyStore::OnTextUpdated method
 old-location: tsf\itfpropertystore_ontextupdated.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6e3d6341-6e5b-445e-b6ac-48853a5b56f2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfPropertyStore, ITfPropertyStore interface [Text Services Framework], OnTextUpdated method, ITfPropertyStore::OnTextUpdated, OnTextUpdated method [Text Services Framework], OnTextUpdated method [Text Services Framework], ITfPropertyStore interface, OnTextUpdated,ITfPropertyStore.OnTextUpdated, TF_TU_CORRECTION, _tsf_itfpropertystore_ontextupdated_ref, msctf/ITfPropertyStore::OnTextUpdated, tsf.itfpropertystore_ontextupdated
+ms.keywords: ITfPropertyStore interface [Text Services Framework],OnTextUpdated method, ITfPropertyStore.OnTextUpdated, ITfPropertyStore::OnTextUpdated, OnTextUpdated, OnTextUpdated method [Text Services Framework], OnTextUpdated method [Text Services Framework],ITfPropertyStore interface, TF_TU_CORRECTION, _tsf_itfpropertystore_ontextupdated_ref, msctf/ITfPropertyStore::OnTextUpdated, tsf.itfpropertystore_ontextupdated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfPropertyStore::OnTextUpdated method
+# ITfPropertyStore::OnTextUpdated
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnAttrsChange
-title: ITextStoreAnchorSink::OnAttrsChange method
+title: ITextStoreAnchorSink::OnAttrsChange
 author: windows-driver-content
 description: The ITextStoreAnchorSink::OnAttrsChange method is called when the value of one or more text attributes changes.
 old-location: tsf\itextstoreanchorsink_onattrschange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: aa7226dd-1d4a-44ed-94b7-b93813bca2f8
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchorSink, ITextStoreAnchorSink interface [Text Services Framework], OnAttrsChange method, ITextStoreAnchorSink::OnAttrsChange, OnAttrsChange method [Text Services Framework], OnAttrsChange method [Text Services Framework], ITextStoreAnchorSink interface, OnAttrsChange,ITextStoreAnchorSink.OnAttrsChange, _tsf_itextstoreanchorsink_onattrschange_ref, textstor/ITextStoreAnchorSink::OnAttrsChange, tsf.itextstoreanchorsink_onattrschange
+ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnAttrsChange method, ITextStoreAnchorSink.OnAttrsChange, ITextStoreAnchorSink::OnAttrsChange, OnAttrsChange, OnAttrsChange method [Text Services Framework], OnAttrsChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onattrschange_ref, textstor/ITextStoreAnchorSink::OnAttrsChange, tsf.itextstoreanchorsink_onattrschange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchorSink::OnAttrsChange method
+# ITextStoreAnchorSink::OnAttrsChange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectId.InitializeFromValue
-title: IObjectId::InitializeFromValue method
+title: IObjectId::InitializeFromValue
 author: windows-driver-content
 description: Initializes the object from a string that contains a dotted decimal object identifier (OID).
 old-location: security\iobjectid_initializefromvalue_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 2bb2ee69-02c3-41b9-a67b-036c7154a44e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IObjectId, IObjectId interface [Security], InitializeFromValue method, IObjectId::InitializeFromValue, InitializeFromValue method [Security], InitializeFromValue method [Security], IObjectId interface, InitializeFromValue,IObjectId.InitializeFromValue, certenroll/IObjectId::InitializeFromValue, security.iobjectid_initializefromvalue_method
+ms.keywords: IObjectId interface [Security],InitializeFromValue method, IObjectId.InitializeFromValue, IObjectId::InitializeFromValue, InitializeFromValue, InitializeFromValue method [Security], InitializeFromValue method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromValue, security.iobjectid_initializefromvalue_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IObjectId::InitializeFromValue method
+# IObjectId::InitializeFromValue
 
 
 ## -description

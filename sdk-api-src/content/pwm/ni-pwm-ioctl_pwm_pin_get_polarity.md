@@ -8,7 +8,7 @@ old-project: DevIO
 ms.assetid: 834C7CBA-179E-4C1E-9664-A70EB38D74BE
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IOCTL_PWM_PIN_GET_POLARITY, IOCTL_PWM_PIN_GET_POLARITY control code, base.ioctl_pwm_pin_get_polarity, pwm/IOCTL_PWM_PIN_GET_POLARITY
+ms.keywords: IOCTL_PWM_PIN_GET_POLARITY, IOCTL_PWM_PIN_GET_POLARITY control, IOCTL_PWM_PIN_GET_POLARITY control code, base.ioctl_pwm_pin_get_polarity, pwm/IOCTL_PWM_PIN_GET_POLARITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

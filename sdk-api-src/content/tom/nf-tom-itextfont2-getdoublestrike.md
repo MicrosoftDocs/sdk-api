@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.GetDoubleStrike
-title: ITextFont2::GetDoubleStrike method
+title: ITextFont2::GetDoubleStrike
 author: windows-driver-content
 description: Gets whether characters are displayed with double horizontal lines through the center.
 old-location: controls\itextfont2_getdoublestrike.htm
 old-project: Controls
 ms.assetid: 9e599c29-4b47-4043-b9c7-75a736ca64fa
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetDoubleStrike method [Windows Controls], GetDoubleStrike method [Windows Controls], ITextFont2 interface, GetDoubleStrike,ITextFont2.GetDoubleStrike, ITextFont2, ITextFont2 interface [Windows Controls], GetDoubleStrike method, ITextFont2::GetDoubleStrike, controls.itextfont2_getdoublestrike, tom/ITextFont2::GetDoubleStrike
+ms.date: 4/27/2018
+ms.keywords: GetDoubleStrike, GetDoubleStrike method [Windows Controls], GetDoubleStrike method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetDoubleStrike method, ITextFont2.GetDoubleStrike, ITextFont2::GetDoubleStrike, controls.itextfont2_getdoublestrike, tom/ITextFont2::GetDoubleStrike
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::GetDoubleStrike method
+# ITextFont2::GetDoubleStrike
 
 
 ## -description

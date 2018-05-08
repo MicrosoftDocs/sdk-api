@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderHurryup.SetHurryup
-title: IWMVideoDecoderHurryup::SetHurryup method
+title: IWMVideoDecoderHurryup::SetHurryup
 author: windows-driver-content
 description: Sets the speed mode of the video decoder.
 old-location: mf\iwmvideodecoderhurryupsethurryup.htm
 old-project: medfound
 ms.assetid: ef01d2ab-2525-4caf-87d9-3acdc0b3b1b3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMVideoDecoderHurryup, IWMVideoDecoderHurryup interface [Media Foundation], SetHurryup method, IWMVideoDecoderHurryup::SetHurryup, SetHurryup method [Media Foundation], SetHurryup method [Media Foundation], IWMVideoDecoderHurryup interface, SetHurryup,IWMVideoDecoderHurryup.SetHurryup, codecapi.iwmvideodecoderhurryupsethurryup, mf.iwmvideodecoderhurryupsethurryup, wmcodecdsp/ IWMVideoDecoderHurryup::SetHurryup
+ms.date: 5/3/2018
+ms.keywords: IWMVideoDecoderHurryup interface [Media Foundation],SetHurryup method, IWMVideoDecoderHurryup.SetHurryup, IWMVideoDecoderHurryup::SetHurryup, SetHurryup, SetHurryup method [Media Foundation], SetHurryup method [Media Foundation],IWMVideoDecoderHurryup interface, codecapi.iwmvideodecoderhurryupsethurryup, mf.iwmvideodecoderhurryupsethurryup, wmcodecdsp/ IWMVideoDecoderHurryup::SetHurryup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMVideoDecoderHurryup::SetHurryup method
+# IWMVideoDecoderHurryup::SetHurryup
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetData
-title: IMFTimedTextCue::GetData method
+title: IMFTimedTextCue::GetData
 author: windows-driver-content
 description: Gets the data content of the timed-text cue.
 old-location: mf\imftimedtextcue_getdata.htm
 old-project: medfound
 ms.assetid: 18884B70-DE34-494E-A029-6DD48AB0BA13
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetData method [Media Foundation], GetData method [Media Foundation], IMFTimedTextCue interface, GetData,IMFTimedTextCue.GetData, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetData method, IMFTimedTextCue::GetData, mf.imftimedtextcue_getdata, mfmediaengine/IMFTimedTextCue::GetData
+ms.date: 5/3/2018
+ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetData method, IMFTimedTextCue.GetData, IMFTimedTextCue::GetData, mf.imftimedtextcue_getdata, mfmediaengine/IMFTimedTextCue::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextCue::GetData method
+# IMFTimedTextCue::GetData
 
 
 ## -description

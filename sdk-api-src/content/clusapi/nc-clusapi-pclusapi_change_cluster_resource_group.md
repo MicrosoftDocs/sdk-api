@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 99720615-ad5d-4d9a-a6ae-8ba1cd2499f2
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP callback function [Failover Cluster], _wolf_changeclusterresourcegroup, clusapi/PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, mscs.changeclusterresourcegroup
+ms.keywords: PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP callback, PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP callback function [Failover Cluster], _wolf_changeclusterresourcegroup, clusapi/PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, mscs.changeclusterresourcegroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP callback
+# PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_ClientApplicationID
-title: IUpdateSearcher::get_ClientApplicationID method
+title: IUpdateSearcher::get_ClientApplicationID
 author: windows-driver-content
 description: Identifies the current client application.
 old-location: wua\iupdatesearcherclientapplicationid.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 5b9ae823-5304-4ec4-937e-684d35bd3aed
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent], IUpdateSearcher interface, IUpdateSearcher, IUpdateSearcher interface [Windows Update Agent], ClientApplicationID property, IUpdateSearcher.ClientApplicationID, IUpdateSearcher::get_ClientApplicationID, IUpdateSearcher::put_ClientApplicationID, get_ClientApplicationID,IUpdateSearcher.get_ClientApplicationID, wua.iupdatesearcherclientapplicationid, wuapi/IUpdateSearcher::ClientApplicationID, wuapi/IUpdateSearcher::get_ClientApplicationID, wuapi/IUpdateSearcher::put_ClientApplicationID
+ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],ClientApplicationID property, IUpdateSearcher.ClientApplicationID, IUpdateSearcher.get_ClientApplicationID, IUpdateSearcher::ClientApplicationID, IUpdateSearcher::get_ClientApplicationID, IUpdateSearcher::put_ClientApplicationID, get_ClientApplicationID, wua.iupdatesearcherclientapplicationid, wuapi/IUpdateSearcher::ClientApplicationID, wuapi/IUpdateSearcher::get_ClientApplicationID, wuapi/IUpdateSearcher::put_ClientApplicationID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSearcher::get_ClientApplicationID method
+# IUpdateSearcher::get_ClientApplicationID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetFeaturePage
-title: IDiscRecorder2Ex::GetFeaturePage method
+title: IDiscRecorder2Ex::GetFeaturePage
 author: windows-driver-content
 description: Retrieves the specified feature page from the device.
 old-location: imapi\idiscrecorder2ex_getfeaturepage.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: a3cf0d33-25ea-4764-8fdb-5ef47c7b1e50
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetFeaturePage method [IMAPI], GetFeaturePage method [IMAPI], IDiscRecorder2Ex interface, GetFeaturePage,IDiscRecorder2Ex.GetFeaturePage, IDiscRecorder2Ex, IDiscRecorder2Ex interface [IMAPI], GetFeaturePage method, IDiscRecorder2Ex::GetFeaturePage, imapi.idiscrecorder2ex_getfeaturepage, imapi2/IDiscRecorder2Ex::GetFeaturePage
+ms.keywords: GetFeaturePage, GetFeaturePage method [IMAPI], GetFeaturePage method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetFeaturePage method, IDiscRecorder2Ex.GetFeaturePage, IDiscRecorder2Ex::GetFeaturePage, imapi.idiscrecorder2ex_getfeaturepage, imapi2/IDiscRecorder2Ex::GetFeaturePage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2Ex::GetFeaturePage method
+# IDiscRecorder2Ex::GetFeaturePage
 
 
 ## -description

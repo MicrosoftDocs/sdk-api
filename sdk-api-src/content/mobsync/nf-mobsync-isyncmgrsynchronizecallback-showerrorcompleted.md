@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.ShowErrorCompleted
-title: ISyncMgrSynchronizeCallback::ShowErrorCompleted method
+title: ISyncMgrSynchronizeCallback::ShowErrorCompleted
 author: windows-driver-content
 description: Called by the registered application's handler before or after its PrepareForSync operation has been completed.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_showerrorcompleted.htm
 old-project: shell
 ms.assetid: 7441f8d3-1b9b-400f-a2c4-ec67f7677a32
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], ShowErrorCompleted method, ISyncMgrSynchronizeCallback::ShowErrorCompleted, ShowErrorCompleted method [Windows Shell], ShowErrorCompleted method [Windows Shell], ISyncMgrSynchronizeCallback interface, ShowErrorCompleted,ISyncMgrSynchronizeCallback.ShowErrorCompleted, mobsync/ISyncMgrSynchronizeCallback::ShowErrorCompleted, shell.syncmgr_isyncmgrsynchronizecallback_showerrorcompleted, syncmgr.isyncmgrsynchronizecallback_showerrorcompleted
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],ShowErrorCompleted method, ISyncMgrSynchronizeCallback.ShowErrorCompleted, ISyncMgrSynchronizeCallback::ShowErrorCompleted, ShowErrorCompleted, ShowErrorCompleted method [Windows Shell], ShowErrorCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::ShowErrorCompleted, shell.syncmgr_isyncmgrsynchronizecallback_showerrorcompleted, syncmgr.isyncmgrsynchronizecallback_showerrorcompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronizeCallback::ShowErrorCompleted method
+# ISyncMgrSynchronizeCallback::ShowErrorCompleted
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetDiscInformation
-title: IDiscRecorder2Ex::GetDiscInformation method
+title: IDiscRecorder2Ex::GetDiscInformation
 author: windows-driver-content
 description: Retrieves the disc information from the media.
 old-location: imapi\idiscrecorder2ex_getdiscinformation.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 4f2888cb-3f9e-4dc3-ba9a-c13a0a46f731
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetDiscInformation method [IMAPI], GetDiscInformation method [IMAPI], IDiscRecorder2Ex interface, GetDiscInformation,IDiscRecorder2Ex.GetDiscInformation, IDiscRecorder2Ex, IDiscRecorder2Ex interface [IMAPI], GetDiscInformation method, IDiscRecorder2Ex::GetDiscInformation, imapi.idiscrecorder2ex_getdiscinformation, imapi2/IDiscRecorder2Ex::GetDiscInformation
+ms.keywords: GetDiscInformation, GetDiscInformation method [IMAPI], GetDiscInformation method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetDiscInformation method, IDiscRecorder2Ex.GetDiscInformation, IDiscRecorder2Ex::GetDiscInformation, imapi.idiscrecorder2ex_getdiscinformation, imapi2/IDiscRecorder2Ex::GetDiscInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2Ex::GetDiscInformation method
+# IDiscRecorder2Ex::GetDiscInformation
 
 
 ## -description

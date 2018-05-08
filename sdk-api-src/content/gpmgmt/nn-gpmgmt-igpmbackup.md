@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: a593740a-9541-465a-9a2d-64ddf29793bf
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMBackup, IGPMBackup, IGPMBackup interface [GPMC], IGPMBackup interface [GPMC], described, _win32_igpmbackup, gpmc.igpmbackup, gpmgmt/IGPMBackup
+ms.keywords: GPMBackup, IGPMBackup, IGPMBackup interface [GPMC], IGPMBackup interface [GPMC],described, _win32_igpmbackup, gpmc.igpmbackup, gpmgmt/IGPMBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

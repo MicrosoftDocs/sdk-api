@@ -58,6 +58,16 @@ The <b>SECURITY_CAPABILITIES</b> structure defines the security capabilities of 
 
 
 
+### -field Capabilities.size_is
+
+ 
+
+
+### -field Capabilities.size_is.CapabilityCount
+
+ 
+
+
 ### -field AppContainerSid
 
 The SID of the app container.

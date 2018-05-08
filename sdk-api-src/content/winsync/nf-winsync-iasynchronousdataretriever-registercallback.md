@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IAsynchronousDataRetriever.RegisterCallback
-title: IAsynchronousDataRetriever::RegisterCallback method
+title: IAsynchronousDataRetriever::RegisterCallback
 author: windows-driver-content
 description: Registers a callback interface that will be called by the IAsynchronousDataRetriever object when an asynchronous method finishes processing.
 old-location: winsync\iasynchronousdataretriever_registercallback.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 4148db4a-a460-40ca-863a-861065f89c5c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IAsynchronousDataRetriever, IAsynchronousDataRetriever interface [Windows Sync], RegisterCallback method, IAsynchronousDataRetriever::RegisterCallback, RegisterCallback method [Windows Sync], RegisterCallback method [Windows Sync], IAsynchronousDataRetriever interface, RegisterCallback,IAsynchronousDataRetriever.RegisterCallback, winsync.iasynchronousdataretriever_registercallback, winsync/IAsynchronousDataRetriever::RegisterCallback
+ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],RegisterCallback method, IAsynchronousDataRetriever.RegisterCallback, IAsynchronousDataRetriever::RegisterCallback, RegisterCallback, RegisterCallback method [Windows Sync], RegisterCallback method [Windows Sync],IAsynchronousDataRetriever interface, winsync.iasynchronousdataretriever_registercallback, winsync/IAsynchronousDataRetriever::RegisterCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAsynchronousDataRetriever::RegisterCallback method
+# IAsynchronousDataRetriever::RegisterCallback
 
 
 ## -description

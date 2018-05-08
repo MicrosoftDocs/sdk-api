@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionBasicConstraints.get_IsCA
-title: IX509ExtensionBasicConstraints::get_IsCA method
+title: IX509ExtensionBasicConstraints::get_IsCA
 author: windows-driver-content
 description: Retrieves a Boolean value that identifies whether the subject of the certificate is a certification authority (CA).
 old-location: security\ix509extensionbasicconstraints_isca_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 1547d015-b497-4f91-acc2-4cbb2a69709f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionBasicConstraints, IX509ExtensionBasicConstraints interface [Security], IsCA property, IX509ExtensionBasicConstraints.IsCA, IX509ExtensionBasicConstraints::get_IsCA, IsCA property [Security], IsCA property [Security], IX509ExtensionBasicConstraints interface, certenroll/IX509ExtensionBasicConstraints::IsCA, certenroll/IX509ExtensionBasicConstraints::get_IsCA, get_IsCA,IX509ExtensionBasicConstraints.get_IsCA, security.ix509extensionbasicconstraints_isca_property
+ms.keywords: IX509ExtensionBasicConstraints interface [Security],IsCA property, IX509ExtensionBasicConstraints.IsCA, IX509ExtensionBasicConstraints.get_IsCA, IX509ExtensionBasicConstraints::IsCA, IX509ExtensionBasicConstraints::get_IsCA, IsCA property [Security], IsCA property [Security],IX509ExtensionBasicConstraints interface, certenroll/IX509ExtensionBasicConstraints::IsCA, certenroll/IX509ExtensionBasicConstraints::get_IsCA, get_IsCA, security.ix509extensionbasicconstraints_isca_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionBasicConstraints::get_IsCA method
+# IX509ExtensionBasicConstraints::get_IsCA
 
 
 ## -description

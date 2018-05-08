@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_DefaultInputArea
-title: ITextInputPanel::put_DefaultInputArea method
+title: ITextInputPanel::put_DefaultInputArea
 author: windows-driver-content
 description: Gets or sets the default input area as specified by the PanelInputArea Enumeration.
 old-location: tablet\itextinputpanel_defaultinputarea.htm
 old-project: tablet
 ms.assetid: 3e221516-631a-4d15-a9ef-bd05c6928067
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 3e221516-631a-4d15-a9ef-bd05c6928067, DefaultInputArea property [Tablet PC], DefaultInputArea property [Tablet PC], ITextInputPanel interface, ITextInputPanel, ITextInputPanel interface [Tablet PC], DefaultInputArea property, ITextInputPanel.DefaultInputArea, ITextInputPanel.get_DefaultInputArea, ITextInputPanel.put_DefaultInputArea, ITextInputPanel::get_DefaultInputArea, ITextInputPanel::put_DefaultInputArea, peninputpanel/ITextInputPanel::DefaultInputArea, peninputpanel/ITextInputPanel::get_DefaultInputArea, peninputpanel/ITextInputPanel::put_DefaultInputArea, put_DefaultInputArea,ITextInputPanel.put_DefaultInputArea, tablet.itextinputpanel_defaultinputarea
+ms.date: 5/2/2018
+ms.keywords: 3e221516-631a-4d15-a9ef-bd05c6928067, DefaultInputArea property [Tablet PC], DefaultInputArea property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],DefaultInputArea property, ITextInputPanel.DefaultInputArea, ITextInputPanel.get_DefaultInputArea, ITextInputPanel.put_DefaultInputArea, ITextInputPanel::DefaultInputArea, ITextInputPanel::get_DefaultInputArea, ITextInputPanel::put_DefaultInputArea, peninputpanel/ITextInputPanel::DefaultInputArea, peninputpanel/ITextInputPanel::get_DefaultInputArea, peninputpanel/ITextInputPanel::put_DefaultInputArea, put_DefaultInputArea, tablet.itextinputpanel_defaultinputarea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanel::put_DefaultInputArea method
+# ITextInputPanel::put_DefaultInputArea
 
 
 ## -description

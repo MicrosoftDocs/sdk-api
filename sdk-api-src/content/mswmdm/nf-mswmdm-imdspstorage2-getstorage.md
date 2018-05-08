@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage2.GetStorage
-title: IMDSPStorage2::GetStorage method
+title: IMDSPStorage2::GetStorage
 author: windows-driver-content
 description: The GetStorage method makes it possible to go directly to a storage object from a storage name instead of enumerating through all storages to find it.
 old-location: wmdm\imdspstorage2_getstorage.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 2ddfdfc8-db43-4acc-aebc-617d3e746a4f
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager], IMDSPStorage2 interface, GetStorage,IMDSPStorage2.GetStorage, IMDSPStorage2, IMDSPStorage2 interface [windows Media Device Manager], GetStorage method, IMDSPStorage2::GetStorage, IMDSPStorage2GetStorage, mswmdm/IMDSPStorage2::GetStorage, wmdm.imdspstorage2_getstorage
+ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager],IMDSPStorage2 interface, IMDSPStorage2 interface [windows Media Device Manager],GetStorage method, IMDSPStorage2.GetStorage, IMDSPStorage2::GetStorage, IMDSPStorage2GetStorage, mswmdm/IMDSPStorage2::GetStorage, wmdm.imdspstorage2_getstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPStorage2::GetStorage method
+# IMDSPStorage2::GetStorage
 
 
 ## -description

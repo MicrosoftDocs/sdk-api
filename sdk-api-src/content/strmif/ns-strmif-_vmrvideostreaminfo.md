@@ -7,7 +7,7 @@ old-location: dshow\vmrvideostreaminfo.htm
 old-project: DirectShow
 ms.assetid: 1425b3aa-f419-49ee-b262-d8d215466a2c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: VMRVIDEOSTREAMINFO, VMRVIDEOSTREAMINFO structure [DirectShow], VMRVIDEOSTREAMINFOStructure, _VMRVIDEOSTREAMINFO, dshow.vmrvideostreaminfo, strmif/VMRVIDEOSTREAMINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

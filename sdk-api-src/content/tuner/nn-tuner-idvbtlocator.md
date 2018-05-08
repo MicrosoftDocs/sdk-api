@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f5a95a68-fee0-404c-b9c6-6b808977f8d2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], IDVBTLocator interface [Microsoft TV Technologies], described, IDVBTLocatorInterface, mstv.idvbtlocator, tuner/IDVBTLocator
+ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], IDVBTLocator interface [Microsoft TV Technologies],described, IDVBTLocatorInterface, mstv.idvbtlocator, tuner/IDVBTLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

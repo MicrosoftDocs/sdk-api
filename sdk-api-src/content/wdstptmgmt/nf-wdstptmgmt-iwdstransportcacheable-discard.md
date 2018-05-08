@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCacheable.Discard
-title: IWdsTransportCacheable::Discard method
+title: IWdsTransportCacheable::Discard
 author: windows-driver-content
 description: Discards all changes made to the object data members by clearing the IWdsTransportCacheable::Dirty property and then calling the object's IWdsTransportCacheable::Refresh method to reread the current object data.
 old-location: wds\iwdstransportcacheable_discard.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 5c8495b9-6c76-4bb0-8237-5f9008cefc91
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Discard method [Windows Deployment Services], Discard method [Windows Deployment Services], IWdsTransportCacheable interface, Discard,IWdsTransportCacheable.Discard, IWdsTransportCacheable, IWdsTransportCacheable interface [Windows Deployment Services], Discard method, IWdsTransportCacheable::Discard, wds.iwdstransportcacheable_discard, wdstptmgmt/IWdsTransportCacheable::Discard
+ms.keywords: Discard, Discard method [Windows Deployment Services], Discard method [Windows Deployment Services],IWdsTransportCacheable interface, IWdsTransportCacheable interface [Windows Deployment Services],Discard method, IWdsTransportCacheable.Discard, IWdsTransportCacheable::Discard, wds.iwdstransportcacheable_discard, wdstptmgmt/IWdsTransportCacheable::Discard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportCacheable::Discard method
+# IWdsTransportCacheable::Discard
 
 
 ## -description

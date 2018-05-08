@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.AccessCheck
-title: IAzClientContext::AccessCheck method
+title: IAzClientContext::AccessCheck
 author: windows-driver-content
 description: Determines whether the current client context is allowed to perform the specified operations.
 old-location: security\iazclientcontext_accesscheck.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 0bd16cdb-3dba-4656-b264-32e622732155
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AccessCheck method [Security], AccessCheck method [Security], AzClientContext object, AccessCheck method [Security], IAzClientContext interface, AccessCheck,IAzClientContext.AccessCheck, AzClientContext object [Security], AccessCheck method, IAzClientContext, IAzClientContext interface [Security], AccessCheck method, IAzClientContext::AccessCheck, azroles/IAzClientContext::AccessCheck, security.iazclientcontext_accesscheck
+ms.keywords: AccessCheck, AccessCheck method [Security], AccessCheck method [Security],AzClientContext object, AccessCheck method [Security],IAzClientContext interface, AzClientContext object [Security],AccessCheck method, IAzClientContext interface [Security],AccessCheck method, IAzClientContext.AccessCheck, IAzClientContext::AccessCheck, azroles/IAzClientContext::AccessCheck, security.iazclientcontext_accesscheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzClientContext::AccessCheck method
+# IAzClientContext::AccessCheck
 
 
 ## -description

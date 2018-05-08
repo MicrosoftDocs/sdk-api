@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaSession.GetSessionCapabilities
-title: IMFMediaSession::GetSessionCapabilities method
+title: IMFMediaSession::GetSessionCapabilities
 author: windows-driver-content
 description: Retrieves the capabilities of the Media Session, based on the current presentation.
 old-location: mf\imfmediasession_getsessioncapabilities.htm
 old-project: medfound
 ms.assetid: 3534cfb9-23ff-42a6-a3db-b5032d427cf2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 3534cfb9-23ff-42a6-a3db-b5032d427cf2, GetSessionCapabilities method [Media Foundation], GetSessionCapabilities method [Media Foundation], IMFMediaSession interface, GetSessionCapabilities,IMFMediaSession.GetSessionCapabilities, IMFMediaSession, IMFMediaSession interface [Media Foundation], GetSessionCapabilities method, IMFMediaSession::GetSessionCapabilities, MFSESSIONCAP_PAUSE, MFSESSIONCAP_RATE_FORWARD, MFSESSIONCAP_RATE_REVERSE, MFSESSIONCAP_SEEK, MFSESSIONCAP_START, mf.imfmediasession_getsessioncapabilities, mfidl/IMFMediaSession::GetSessionCapabilities
+ms.date: 5/3/2018
+ms.keywords: 3534cfb9-23ff-42a6-a3db-b5032d427cf2, GetSessionCapabilities, GetSessionCapabilities method [Media Foundation], GetSessionCapabilities method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetSessionCapabilities method, IMFMediaSession.GetSessionCapabilities, IMFMediaSession::GetSessionCapabilities, MFSESSIONCAP_PAUSE, MFSESSIONCAP_RATE_FORWARD, MFSESSIONCAP_RATE_REVERSE, MFSESSIONCAP_SEEK, MFSESSIONCAP_START, mf.imfmediasession_getsessioncapabilities, mfidl/IMFMediaSession::GetSessionCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSession::GetSessionCapabilities method
+# IMFMediaSession::GetSessionCapabilities
 
 
 ## -description

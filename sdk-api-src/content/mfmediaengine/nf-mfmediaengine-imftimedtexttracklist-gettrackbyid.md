@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrackList.GetTrackById
-title: IMFTimedTextTrackList::GetTrackById method
+title: IMFTimedTextTrackList::GetTrackById
 author: windows-driver-content
 description: Gets a text track in the list from the identifier of the track.
 old-location: mf\imftimedtexttracklist_gettrackbyid.htm
 old-project: medfound
 ms.assetid: 5653ED8A-36B1-488C-9D76-50D64BA78BA8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTrackById method [Media Foundation], GetTrackById method [Media Foundation], IMFTimedTextTrackList interface, GetTrackById,IMFTimedTextTrackList.GetTrackById, IMFTimedTextTrackList, IMFTimedTextTrackList interface [Media Foundation], GetTrackById method, IMFTimedTextTrackList::GetTrackById, mf.imftimedtexttracklist_gettrackbyid, mfmediaengine/IMFTimedTextTrackList::GetTrackById
+ms.date: 5/3/2018
+ms.keywords: GetTrackById, GetTrackById method [Media Foundation], GetTrackById method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetTrackById method, IMFTimedTextTrackList.GetTrackById, IMFTimedTextTrackList::GetTrackById, mf.imftimedtexttracklist_gettrackbyid, mfmediaengine/IMFTimedTextTrackList::GetTrackById
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextTrackList::GetTrackById method
+# IMFTimedTextTrackList::GetTrackById
 
 
 ## -description

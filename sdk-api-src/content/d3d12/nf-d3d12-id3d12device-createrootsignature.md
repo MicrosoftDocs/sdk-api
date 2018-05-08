@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateRootSignature
-title: ID3D12Device::CreateRootSignature method
+title: ID3D12Device::CreateRootSignature
 author: windows-driver-content
 description: Creates a root signature layout.
 old-location: direct3d12\id3d12device_createrootsignature.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: CD3389EC-4086-40F0-B1DB-BCBCF9DDE6BA
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateRootSignature method, CreateRootSignature method, ID3D12Device interface, CreateRootSignature,ID3D12Device.CreateRootSignature, ID3D12Device, ID3D12Device interface, CreateRootSignature method, ID3D12Device::CreateRootSignature, d3d12/ID3D12Device::CreateRootSignature, direct3d12.id3d12device_createrootsignature
+ms.keywords: CreateRootSignature, CreateRootSignature method, CreateRootSignature method,ID3D12Device interface, ID3D12Device interface,CreateRootSignature method, ID3D12Device.CreateRootSignature, ID3D12Device::CreateRootSignature, d3d12/ID3D12Device::CreateRootSignature, direct3d12.id3d12device_createrootsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CreateRootSignature method
+# ID3D12Device::CreateRootSignature
 
 
 ## -description

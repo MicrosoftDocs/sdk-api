@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.GetControlInterfaceCount
-title: IPart::GetControlInterfaceCount method
+title: IPart::GetControlInterfaceCount
 author: windows-driver-content
 description: The GetControlInterfaceCount method gets the number of control interfaces that this part supports.
 old-location: coreaudio\ipart_getcontrolinterfacecount.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 8b82f69a-9b15-4bdf-9676-f2015ed67cfc
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetControlInterfaceCount method [Core Audio], GetControlInterfaceCount method [Core Audio], IPart interface, GetControlInterfaceCount,IPart.GetControlInterfaceCount, IPart, IPart interface [Core Audio], GetControlInterfaceCount method, IPart::GetControlInterfaceCount, IPartGetControlInterfaceCount, coreaudio.ipart_getcontrolinterfacecount, devicetopology/IPart::GetControlInterfaceCount
+ms.keywords: GetControlInterfaceCount, GetControlInterfaceCount method [Core Audio], GetControlInterfaceCount method [Core Audio],IPart interface, IPart interface [Core Audio],GetControlInterfaceCount method, IPart.GetControlInterfaceCount, IPart::GetControlInterfaceCount, IPartGetControlInterfaceCount, coreaudio.ipart_getcontrolinterfacecount, devicetopology/IPart::GetControlInterfaceCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPart::GetControlInterfaceCount method
+# IPart::GetControlInterfaceCount
 
 
 ## -description

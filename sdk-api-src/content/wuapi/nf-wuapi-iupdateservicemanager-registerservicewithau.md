@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.RegisterServiceWithAU
-title: IUpdateServiceManager::RegisterServiceWithAU method
+title: IUpdateServiceManager::RegisterServiceWithAU
 author: windows-driver-content
 description: Registers a service with Automatic Updates.
 old-location: wua\iupdateservicemanager_registerservicewithau.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: ea54d96a-9ffb-4abd-a032-4dfcc7ba6403
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateServiceManager, IUpdateServiceManager interface [Windows Update Agent], RegisterServiceWithAU method, IUpdateServiceManager::RegisterServiceWithAU, RegisterServiceWithAU method [Windows Update Agent], RegisterServiceWithAU method [Windows Update Agent], IUpdateServiceManager interface, RegisterServiceWithAU,IUpdateServiceManager.RegisterServiceWithAU, wua.iupdateservicemanager_registerservicewithau, wuapi/IUpdateServiceManager::RegisterServiceWithAU
+ms.keywords: IUpdateServiceManager interface [Windows Update Agent],RegisterServiceWithAU method, IUpdateServiceManager.RegisterServiceWithAU, IUpdateServiceManager::RegisterServiceWithAU, RegisterServiceWithAU, RegisterServiceWithAU method [Windows Update Agent], RegisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_registerservicewithau, wuapi/IUpdateServiceManager::RegisterServiceWithAU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateServiceManager::RegisterServiceWithAU method
+# IUpdateServiceManager::RegisterServiceWithAU
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorCollection.Add
-title: IDataCollectorCollection::Add method
+title: IDataCollectorCollection::Add
 author: windows-driver-content
 description: Adds a data collector to the collection.
 old-location: pla\idatacollectorcollection_add.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 6302e144-74ef-4251-a857-d3e066c9763d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Add method [PLA], Add method [PLA], IDataCollectorCollection interface, Add,IDataCollectorCollection.Add, IDataCollectorCollection, IDataCollectorCollection interface [PLA], Add method, IDataCollectorCollection::Add, base.idatacollectorcollection_add, pla.idatacollectorcollection_add, pla/IDataCollectorCollection::Add
+ms.keywords: Add, Add method [PLA], Add method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],Add method, IDataCollectorCollection.Add, IDataCollectorCollection::Add, base.idatacollectorcollection_add, pla.idatacollectorcollection_add, pla/IDataCollectorCollection::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorCollection::Add method
+# IDataCollectorCollection::Add
 
 
 ## -description

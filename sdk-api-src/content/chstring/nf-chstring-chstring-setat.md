@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.SetAt
-title: CHString::SetAt method
+title: CHString::SetAt
 author: windows-driver-content
 description: Overwrites one character specified by an index number.
 old-location: wmi\chstring_setat.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: ccac0f07-a272-41b0-950c-7e5d97d9f1d7
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHString, CHString interface [Windows Management Instrumentation], SetAt method, CHString::SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation], CHString interface, SetAt,CHString.SetAt, _hmm_chstring_setat, chstring/CHString::SetAt, wmi.chstring_setat
+ms.keywords: CHString interface [Windows Management Instrumentation],SetAt method, CHString.SetAt, CHString::SetAt, SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_setat, chstring/CHString::SetAt, wmi.chstring_setat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::SetAt method
+# CHString::SetAt
 
 
 ## -description

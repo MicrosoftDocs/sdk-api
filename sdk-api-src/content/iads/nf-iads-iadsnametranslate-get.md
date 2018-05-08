@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsNameTranslate.Get
-title: IADsNameTranslate::Get method
+title: IADsNameTranslate::Get
 author: windows-driver-content
 description: Retrieves the name of a directory object in the specified format.
 old-location: adsi\iadsnametranslate_get.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 6c8246a9-657e-4db1-ae8f-d9c0a2d41397
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Get method [ADSI], Get method [ADSI], IADsNameTranslate interface, Get,IADsNameTranslate.Get, IADsNameTranslate, IADsNameTranslate interface [ADSI], Get method, IADsNameTranslate::Get, _ds_iadsnametranslate_get, adsi.iadsnametranslate__get, adsi.iadsnametranslate_get, iads/IADsNameTranslate::Get
+ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADsNameTranslate interface, IADsNameTranslate interface [ADSI],Get method, IADsNameTranslate.Get, IADsNameTranslate::Get, _ds_iadsnametranslate_get, adsi.iadsnametranslate__get, adsi.iadsnametranslate_get, iads/IADsNameTranslate::Get
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsNameTranslate::Get method
+# IADsNameTranslate::Get
 
 
 ## -description

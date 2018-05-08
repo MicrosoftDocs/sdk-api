@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMapItem.put_Description
-title: IValueMapItem::put_Description method
+title: IValueMapItem::put_Description
 author: windows-driver-content
 description: Retrieves or sets a description of the item.
 old-location: pla\ivaluemapitem_description.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: ee0669f1-6400-4c32-9f5f-82fd69b7cacd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Description property [PLA], Description property [PLA], IValueMapItem interface, IValueMapItem, IValueMapItem interface [PLA], Description property, IValueMapItem.Description, IValueMapItem::get_Description, IValueMapItem::put_Description, base.ivaluemapitem_description, pla.ivaluemapitem_description, pla/IValueMapItem::Description, pla/IValueMapItem::get_Description, pla/IValueMapItem::put_Description, put_Description,IValueMapItem.put_Description
+ms.keywords: Description property [PLA], Description property [PLA],IValueMapItem interface, IValueMapItem interface [PLA],Description property, IValueMapItem.Description, IValueMapItem.put_Description, IValueMapItem::Description, IValueMapItem::get_Description, IValueMapItem::put_Description, base.ivaluemapitem_description, pla.ivaluemapitem_description, pla/IValueMapItem::Description, pla/IValueMapItem::get_Description, pla/IValueMapItem::put_Description, put_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IValueMapItem::put_Description method
+# IValueMapItem::put_Description
 
 
 ## -description

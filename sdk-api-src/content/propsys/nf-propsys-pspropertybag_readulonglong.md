@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadULONGLONG.htm
 old-project: properties
 ms.assetid: 6DB59A95-D571-452b-8974-76B4CC3FA36F
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: PSPropertyBag_ReadULONGLONG, PSPropertyBag_ReadULONGLONG function [Windows Properties], properties.PSPropertyBag_ReadULONGLONG, propsys/PSPropertyBag_ReadULONGLONG, shell.PSPropertyBag_ReadULONGLONG, shell_PSPropertyBag_ReadULONGLONG
 ms.prod: windows-hardware
 ms.technology: windows-devices

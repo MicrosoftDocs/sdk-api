@@ -1,6 +1,6 @@
 ---
 UID: NF:txlogpub.ILog.SetAccessPolicyHint
-title: ILog::SetAccessPolicyHint method
+title: ILog::SetAccessPolicyHint
 author: windows-driver-content
 description: Provides a hint to the implementation about the pattern in which records will be read.
 old-location: com\ilog_setaccesspolicyhint.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: a0a34300-e5de-4e47-9c61-389272283b61
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ILog, ILog interface [COM], SetAccessPolicyHint method, ILog::SetAccessPolicyHint, SetAccessPolicyHint method [COM], SetAccessPolicyHint method [COM], ILog interface, SetAccessPolicyHint,ILog.SetAccessPolicyHint, _com_ilog_setaccesspolicyhint, com.ilog_setaccesspolicyhint, txlogpub/ILog::SetAccessPolicyHint
+ms.keywords: ILog interface [COM],SetAccessPolicyHint method, ILog.SetAccessPolicyHint, ILog::SetAccessPolicyHint, SetAccessPolicyHint, SetAccessPolicyHint method [COM], SetAccessPolicyHint method [COM],ILog interface, _com_ilog_setaccesspolicyhint, com.ilog_setaccesspolicyhint, txlogpub/ILog::SetAccessPolicyHint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILog::SetAccessPolicyHint method
+# ILog::SetAccessPolicyHint
 
 
 ## -description

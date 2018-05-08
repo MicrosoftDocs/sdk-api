@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 4b92923a-659d-4340-8843-eb42aea69d47
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemEventProvider, IWbemEventProvider interface [Windows Management Instrumentation], IWbemEventProvider interface [Windows Management Instrumentation], described, _hmm_iwbemeventprovider, wbemprov/IWbemEventProvider, wmi.iwbemeventprovider
+ms.keywords: IWbemEventProvider, IWbemEventProvider interface [Windows Management Instrumentation], IWbemEventProvider interface [Windows Management Instrumentation],described, _hmm_iwbemeventprovider, wbemprov/IWbemEventProvider, wmi.iwbemeventprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

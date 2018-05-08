@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetAllSPRMs
-title: IDvdInfo::GetAllSPRMs method
+title: IDvdInfo::GetAllSPRMs
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current contents of all system parameter registers (SPRMs).
 old-location: dshow\idvdinfo_getallsprms.htm
 old-project: DirectShow
 ms.assetid: c96e0e7c-eee3-47ca-9350-94db895f1c6c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAllSPRMs method [DirectShow], GetAllSPRMs method [DirectShow], IDvdInfo interface, GetAllSPRMs,IDvdInfo.GetAllSPRMs, IDvdInfo, IDvdInfo interface [DirectShow], GetAllSPRMs method, IDvdInfo::GetAllSPRMs, IDvdInfoGetAllSPRMs, dshow.idvdinfo_getallsprms, strmif/IDvdInfo::GetAllSPRMs
+ms.date: 4/30/2018
+ms.keywords: GetAllSPRMs, GetAllSPRMs method [DirectShow], GetAllSPRMs method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetAllSPRMs method, IDvdInfo.GetAllSPRMs, IDvdInfo::GetAllSPRMs, IDvdInfoGetAllSPRMs, dshow.idvdinfo_getallsprms, strmif/IDvdInfo::GetAllSPRMs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetAllSPRMs method
+# IDvdInfo::GetAllSPRMs
 
 
 ## -description

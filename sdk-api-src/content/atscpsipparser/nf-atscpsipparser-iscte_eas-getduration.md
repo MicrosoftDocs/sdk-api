@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDuration
-title: ISCTE_EAS::GetDuration method
+title: ISCTE_EAS::GetDuration
 author: windows-driver-content
 description: The GetDuration method returns the expected duration of the alert.
 old-location: mstv\iscte_eas_getduration.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: de644588-6247-44d2-9d19-53272af8529b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDuration method [Microsoft TV Technologies], GetDuration method [Microsoft TV Technologies], ISCTE_EAS interface, GetDuration,ISCTE_EAS.GetDuration, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetDuration method, ISCTE_EAS::GetDuration, ISCTE_EASGetDuration, atscpsipparser/ISCTE_EAS::GetDuration, mstv.iscte_eas_getduration
+ms.keywords: GetDuration, GetDuration method [Microsoft TV Technologies], GetDuration method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDuration method, ISCTE_EAS.GetDuration, ISCTE_EAS::GetDuration, ISCTE_EASGetDuration, atscpsipparser/ISCTE_EAS::GetDuration, mstv.iscte_eas_getduration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetDuration method
+# ISCTE_EAS::GetDuration
 
 
 ## -description

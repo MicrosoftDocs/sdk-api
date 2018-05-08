@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.NavigateComplete
-title: IWebApplicationNavigationEvents::NavigateComplete method
+title: IWebApplicationNavigationEvents::NavigateComplete
 author: windows-driver-content
 description: Fired when the document being navigated to becomes visible and enters the navigation stack.
 old-location: debug\iwebapplicationnavigationevents_navigatecomplete.htm
@@ -8,7 +8,7 @@ old-project: debug_wwahost
 ms.assetid: 51a80227-69ec-4f12-8d19-d2b932fbbfc0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWebApplicationNavigationEvents, IWebApplicationNavigationEvents interface [Debugging Windows Store apps], NavigateComplete method, IWebApplicationNavigationEvents::NavigateComplete, NavigateComplete method [Debugging Windows Store apps], NavigateComplete method [Debugging Windows Store apps], IWebApplicationNavigationEvents interface, NavigateComplete,IWebApplicationNavigationEvents.NavigateComplete, debug.iwebapplicationnavigationevents_navigatecomplete, webapplication/IWebApplicationNavigationEvents::NavigateComplete
+ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store apps],NavigateComplete method, IWebApplicationNavigationEvents.NavigateComplete, IWebApplicationNavigationEvents::NavigateComplete, NavigateComplete, NavigateComplete method [Debugging Windows Store apps], NavigateComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, debug.iwebapplicationnavigationevents_navigatecomplete, webapplication/IWebApplicationNavigationEvents::NavigateComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWebApplicationNavigationEvents::NavigateComplete method
+# IWebApplicationNavigationEvents::NavigateComplete
 
 
 ## -description

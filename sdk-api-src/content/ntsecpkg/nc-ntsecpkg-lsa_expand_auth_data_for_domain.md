@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# LSA_EXPAND_AUTH_DATA_FOR_DOMAIN callback
+# LSA_EXPAND_AUTH_DATA_FOR_DOMAIN callback function
 
 
 ## -description

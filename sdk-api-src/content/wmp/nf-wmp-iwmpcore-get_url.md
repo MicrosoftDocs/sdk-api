@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCore.get_URL
-title: IWMPCore::get_URL method
+title: IWMPCore::get_URL
 author: windows-driver-content
 description: The get_URL method retrieves the name of the clip to play.
 old-location: wmp\iwmpcore_get_url.htm
 old-project: WMP
 ms.assetid: 54d43a1c-807a-40a5-a703-262d75f88ca0
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_URL method, IWMPCore::get_URL, IWMPCoreget_URL, get_URL method [Windows Media Player], get_URL method [Windows Media Player], IWMPCore interface, get_URL,IWMPCore.get_URL, wmp.iwmpcore_get_url, wmp/IWMPCore::get_URL
+ms.date: 5/4/2018
+ms.keywords: IWMPCore interface [Windows Media Player],get_URL method, IWMPCore.get_URL, IWMPCore::get_URL, IWMPCoreget_URL, get_URL, get_URL method [Windows Media Player], get_URL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_url, wmp/IWMPCore::get_URL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCore::get_URL method
+# IWMPCore::get_URL
 
 
 ## -description

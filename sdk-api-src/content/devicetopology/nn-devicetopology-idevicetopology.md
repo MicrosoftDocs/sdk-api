@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 1b509f69-6277-40c0-a293-02afc30d464a
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IDeviceTopology, IDeviceTopology interface [Core Audio], IDeviceTopology interface [Core Audio], described, coreaudio.idevicetopology, devicetopology/IDeviceTopology
+ms.keywords: IDeviceTopology, IDeviceTopology interface [Core Audio], IDeviceTopology interface [Core Audio],described, coreaudio.idevicetopology, devicetopology/IDeviceTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

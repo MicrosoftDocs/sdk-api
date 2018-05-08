@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDMetadataExchange.GetMetadata
-title: IWSDMetadataExchange::GetMetadata method
+title: IWSDMetadataExchange::GetMetadata
 author: windows-driver-content
 description: Retrieves metadata for an object.
 old-location: ncd\iwsdmetadataexchange_getmetadata_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: ab84ed56-37a5-48ff-a616-cb92dc07a8ee
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetMetadata method, GetMetadata method, IWSDMetadataExchange interface, GetMetadata,IWSDMetadataExchange.GetMetadata, IWSDMetadataExchange, IWSDMetadataExchange interface, GetMetadata method, IWSDMetadataExchange::GetMetadata, ncd.iwsdmetadataexchange_getmetadata_method, wsdclient/IWSDMetadataExchange::GetMetadata
+ms.keywords: GetMetadata, GetMetadata method, GetMetadata method,IWSDMetadataExchange interface, IWSDMetadataExchange interface,GetMetadata method, IWSDMetadataExchange.GetMetadata, IWSDMetadataExchange::GetMetadata, ncd.iwsdmetadataexchange_getmetadata_method, wsdclient/IWSDMetadataExchange::GetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDMetadataExchange::GetMetadata method
+# IWSDMetadataExchange::GetMetadata
 
 
 ## -description

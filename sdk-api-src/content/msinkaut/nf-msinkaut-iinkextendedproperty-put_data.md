@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperty.put_Data
-title: IInkExtendedProperty::put_Data method
+title: IInkExtendedProperty::put_Data
 author: windows-driver-content
 description: Gets or sets the data of the extended property.
 old-location: tablet\iinkextendedproperty_data.htm
 old-project: tablet
 ms.assetid: cde7772a-9996-4011-ae9d-d43caddfef83
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Data property [Tablet PC], Data property [Tablet PC], IInkExtendedProperty interface, IInkExtendedProperty, IInkExtendedProperty interface [Tablet PC], Data property, IInkExtendedProperty.Data, IInkExtendedProperty.get_Data, IInkExtendedProperty.put_Data, IInkExtendedProperty::get_Data, IInkExtendedProperty::put_Data, cde7772a-9996-4011-ae9d-d43caddfef83, msinkaut/IInkExtendedProperty::Data, msinkaut/IInkExtendedProperty::get_Data, msinkaut/IInkExtendedProperty::put_Data, put_Data,IInkExtendedProperty.put_Data, tablet.iinkextendedproperty_data
+ms.date: 5/2/2018
+ms.keywords: Data property [Tablet PC], Data property [Tablet PC],IInkExtendedProperty interface, IInkExtendedProperty interface [Tablet PC],Data property, IInkExtendedProperty.Data, IInkExtendedProperty.get_Data, IInkExtendedProperty.put_Data, IInkExtendedProperty::Data, IInkExtendedProperty::get_Data, IInkExtendedProperty::put_Data, cde7772a-9996-4011-ae9d-d43caddfef83, msinkaut/IInkExtendedProperty::Data, msinkaut/IInkExtendedProperty::get_Data, msinkaut/IInkExtendedProperty::put_Data, put_Data, tablet.iinkextendedproperty_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkExtendedProperty::put_Data method
+# IInkExtendedProperty::put_Data
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITPluggableTerminalEventSink.FireEvent
-title: ITPluggableTerminalEventSink::FireEvent method
+title: ITPluggableTerminalEventSink::FireEvent
 author: windows-driver-content
 description: The FireEvent method results in a message that notifies the client application of a change in the pluggable terminal.
 old-location: tapi3\itpluggableterminaleventsink_fireevent.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 67386c32-5714-4b01-b860-25192349aa6c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: FireEvent method [TAPI 2.2], FireEvent method [TAPI 2.2], ITPluggableTerminalEventSink interface, FireEvent,ITPluggableTerminalEventSink.FireEvent, ITPluggableTerminalEventSink, ITPluggableTerminalEventSink interface [TAPI 2.2], FireEvent method, ITPluggableTerminalEventSink::FireEvent, _tapi3_itpluggableterminaleventsink_fireevent, msp/ITPluggableTerminalEventSink::FireEvent, tapi3.itpluggableterminaleventsink_fireevent
+ms.keywords: FireEvent, FireEvent method [TAPI 2.2], FireEvent method [TAPI 2.2],ITPluggableTerminalEventSink interface, ITPluggableTerminalEventSink interface [TAPI 2.2],FireEvent method, ITPluggableTerminalEventSink.FireEvent, ITPluggableTerminalEventSink::FireEvent, _tapi3_itpluggableterminaleventsink_fireevent, msp/ITPluggableTerminalEventSink::FireEvent, tapi3.itpluggableterminaleventsink_fireevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITPluggableTerminalEventSink::FireEvent method
+# ITPluggableTerminalEventSink::FireEvent
 
 
 ## -description

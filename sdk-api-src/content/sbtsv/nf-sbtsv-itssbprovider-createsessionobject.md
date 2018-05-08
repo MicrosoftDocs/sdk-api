@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateSessionObject
-title: ITsSbProvider::CreateSessionObject method
+title: ITsSbProvider::CreateSessionObject
 author: windows-driver-content
 description: Plug-ins can use the CreateSessionObject method to create an ITsSbSession session object.
 old-location: termserv\itssbprovider_createsessionobject.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 14c800f8-a3d6-4d12-b568-94ef2d8e0aaf
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CreateSessionObject method [Remote Desktop Services], CreateSessionObject method [Remote Desktop Services], ITsSbProvider interface, CreateSessionObject,ITsSbProvider.CreateSessionObject, ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], CreateSessionObject method, ITsSbProvider::CreateSessionObject, sbtsv/ITsSbProvider::CreateSessionObject, termserv.itssbprovider_createsessionobject
+ms.keywords: CreateSessionObject, CreateSessionObject method [Remote Desktop Services], CreateSessionObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateSessionObject method, ITsSbProvider.CreateSessionObject, ITsSbProvider::CreateSessionObject, sbtsv/ITsSbProvider::CreateSessionObject, termserv.itssbprovider_createsessionobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbProvider::CreateSessionObject method
+# ITsSbProvider::CreateSessionObject
 
 
 ## -description

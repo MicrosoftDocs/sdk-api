@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDirectWriterLock.ReleaseWriteAccess
-title: IDirectWriterLock::ReleaseWriteAccess method
+title: IDirectWriterLock::ReleaseWriteAccess
 author: windows-driver-content
 description: The ReleaseWriteAccess method releases the write lock previously obtained.
 old-location: stg\idirectwriterlock_releasewriteaccess.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 849eeb79-60fd-4345-9e04-2ed7a7ede5ca
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IDirectWriterLock, IDirectWriterLock interface [Structured Storage], ReleaseWriteAccess method, IDirectWriterLock::ReleaseWriteAccess, ReleaseWriteAccess method [Structured Storage], ReleaseWriteAccess method [Structured Storage], IDirectWriterLock interface, ReleaseWriteAccess,IDirectWriterLock.ReleaseWriteAccess, _stg_idirectwriterlock_releasewriteaccess, objidl/IDirectWriterLock::ReleaseWriteAccess, stg.idirectwriterlock_releasewriteaccess
+ms.keywords: IDirectWriterLock interface [Structured Storage],ReleaseWriteAccess method, IDirectWriterLock.ReleaseWriteAccess, IDirectWriterLock::ReleaseWriteAccess, ReleaseWriteAccess, ReleaseWriteAccess method [Structured Storage], ReleaseWriteAccess method [Structured Storage],IDirectWriterLock interface, _stg_idirectwriterlock_releasewriteaccess, objidl/IDirectWriterLock::ReleaseWriteAccess, stg.idirectwriterlock_releasewriteaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDirectWriterLock::ReleaseWriteAccess method
+# IDirectWriterLock::ReleaseWriteAccess
 
 
 ## -description

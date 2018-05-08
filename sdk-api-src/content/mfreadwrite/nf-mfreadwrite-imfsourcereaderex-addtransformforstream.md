@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderEx.AddTransformForStream
-title: IMFSourceReaderEx::AddTransformForStream method
+title: IMFSourceReaderEx::AddTransformForStream
 author: windows-driver-content
 description: Adds a transform, such as an audio or video effect, to a stream.
 old-location: mf\imfsourcereaderex_addtransformforstream.htm
 old-project: medfound
 ms.assetid: 493BB3CF-044D-4E83-9FF7-BD2039358501
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddTransformForStream method [Media Foundation], AddTransformForStream method [Media Foundation], IMFSourceReaderEx interface, AddTransformForStream,IMFSourceReaderEx.AddTransformForStream, IMFSourceReaderEx, IMFSourceReaderEx interface [Media Foundation], AddTransformForStream method, IMFSourceReaderEx::AddTransformForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereaderex_addtransformforstream, mfreadwrite/IMFSourceReaderEx::AddTransformForStream
+ms.date: 5/3/2018
+ms.keywords: AddTransformForStream, AddTransformForStream method [Media Foundation], AddTransformForStream method [Media Foundation],IMFSourceReaderEx interface, IMFSourceReaderEx interface [Media Foundation],AddTransformForStream method, IMFSourceReaderEx.AddTransformForStream, IMFSourceReaderEx::AddTransformForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereaderex_addtransformforstream, mfreadwrite/IMFSourceReaderEx::AddTransformForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceReaderEx::AddTransformForStream method
+# IMFSourceReaderEx::AddTransformForStream
 
 
 ## -description

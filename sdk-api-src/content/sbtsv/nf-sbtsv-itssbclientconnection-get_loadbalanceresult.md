@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_LoadBalanceResult
-title: ITsSbClientConnection::get_LoadBalanceResult method
+title: ITsSbClientConnection::get_LoadBalanceResult
 author: windows-driver-content
 description: Retrieves a value that indicates the name of the target computer returned by load balancing.
 old-location: termserv\itssbclientconnection_loadbalanceresult.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: fdcd094c-d50b-4cdd-8164-23c24bb7017b
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], LoadBalanceResult property, ITsSbClientConnection.LoadBalanceResult, ITsSbClientConnection::get_LoadBalanceResult, LoadBalanceResult property [Remote Desktop Services], LoadBalanceResult property [Remote Desktop Services], ITsSbClientConnection interface, get_LoadBalanceResult,ITsSbClientConnection.get_LoadBalanceResult, sbtsv/ITsSbClientConnection::LoadBalanceResult, sbtsv/ITsSbClientConnection::get_LoadBalanceResult, termserv.itssbclientconnection_loadbalanceresult
+ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],LoadBalanceResult property, ITsSbClientConnection.LoadBalanceResult, ITsSbClientConnection.get_LoadBalanceResult, ITsSbClientConnection::LoadBalanceResult, ITsSbClientConnection::get_LoadBalanceResult, LoadBalanceResult property [Remote Desktop Services], LoadBalanceResult property [Remote Desktop Services],ITsSbClientConnection interface, get_LoadBalanceResult, sbtsv/ITsSbClientConnection::LoadBalanceResult, sbtsv/ITsSbClientConnection::get_LoadBalanceResult, termserv.itssbclientconnection_loadbalanceresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbClientConnection::get_LoadBalanceResult method
+# ITsSbClientConnection::get_LoadBalanceResult
 
 
 ## -description

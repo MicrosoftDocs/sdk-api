@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetSnapsToPixels
-title: IXpsOMPath::GetSnapsToPixels method
+title: IXpsOMPath::GetSnapsToPixels
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether the path is to be snapped to device pixels when the path is rendered.
 old-location: xps\ixpsompath_getsnapstopixels.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c0a4a8b5-f7cf-4cbe-9221-41cde4f63557
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FALSE, GetSnapsToPixels method [XPS Documents and Packaging], GetSnapsToPixels method [XPS Documents and Packaging], IXpsOMPath interface, GetSnapsToPixels,IXpsOMPath.GetSnapsToPixels, IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], GetSnapsToPixels method, IXpsOMPath::GetSnapsToPixels, TRUE, xps.ixpsompath_getsnapstopixels, xpsobjectmodel/IXpsOMPath::GetSnapsToPixels
+ms.keywords: FALSE, GetSnapsToPixels, GetSnapsToPixels method [XPS Documents and Packaging], GetSnapsToPixels method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetSnapsToPixels method, IXpsOMPath.GetSnapsToPixels, IXpsOMPath::GetSnapsToPixels, TRUE, xps.ixpsompath_getsnapstopixels, xpsobjectmodel/IXpsOMPath::GetSnapsToPixels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::GetSnapsToPixels method
+# IXpsOMPath::GetSnapsToPixels
 
 
 ## -description

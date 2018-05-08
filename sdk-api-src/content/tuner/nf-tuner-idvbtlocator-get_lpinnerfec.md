@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_LPInnerFEC
-title: IDVBTLocator::get_LPInnerFEC method
+title: IDVBTLocator::get_LPInnerFEC
 author: windows-driver-content
 description: The get_LPInnerFEC method retrieves the inner FEC type of the low-priority stream.
 old-location: mstv\idvbtlocator_get_lpinnerfec.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 069904ad-5faa-4ac4-bf30-538284de2de8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], get_LPInnerFEC method, IDVBTLocator::get_LPInnerFEC, IDVBTLocatorget_LPInnerFEC, get_LPInnerFEC method [Microsoft TV Technologies], get_LPInnerFEC method [Microsoft TV Technologies], IDVBTLocator interface, get_LPInnerFEC,IDVBTLocator.get_LPInnerFEC, mstv.idvbtlocator_get_lpinnerfec, tuner/IDVBTLocator::get_LPInnerFEC
+ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_LPInnerFEC method, IDVBTLocator.get_LPInnerFEC, IDVBTLocator::get_LPInnerFEC, IDVBTLocatorget_LPInnerFEC, get_LPInnerFEC, get_LPInnerFEC method [Microsoft TV Technologies], get_LPInnerFEC method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_lpinnerfec, tuner/IDVBTLocator::get_LPInnerFEC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBTLocator::get_LPInnerFEC method
+# IDVBTLocator::get_LPInnerFEC
 
 
 ## -description

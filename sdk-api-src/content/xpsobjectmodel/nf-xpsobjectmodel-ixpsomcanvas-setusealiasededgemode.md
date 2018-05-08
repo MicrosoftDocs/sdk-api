@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetUseAliasedEdgeMode
-title: IXpsOMCanvas::SetUseAliasedEdgeMode method
+title: IXpsOMCanvas::SetUseAliasedEdgeMode
 author: windows-driver-content
 description: Sets the value that determines whether the edges of objects in this canvas will be rendered using the aliased edge mode.
 old-location: xps\ixpsomcanvas_setusealiasededgemode.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: a16b10fe-5065-4044-b632-452a79f61e90
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FALSE, IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], SetUseAliasedEdgeMode method, IXpsOMCanvas::SetUseAliasedEdgeMode, SetUseAliasedEdgeMode method [XPS Documents and Packaging], SetUseAliasedEdgeMode method [XPS Documents and Packaging], IXpsOMCanvas interface, SetUseAliasedEdgeMode,IXpsOMCanvas.SetUseAliasedEdgeMode, TRUE, xps.ixpsomcanvas_setusealiasededgemode, xpsobjectmodel/IXpsOMCanvas::SetUseAliasedEdgeMode
+ms.keywords: FALSE, IXpsOMCanvas interface [XPS Documents and Packaging],SetUseAliasedEdgeMode method, IXpsOMCanvas.SetUseAliasedEdgeMode, IXpsOMCanvas::SetUseAliasedEdgeMode, SetUseAliasedEdgeMode, SetUseAliasedEdgeMode method [XPS Documents and Packaging], SetUseAliasedEdgeMode method [XPS Documents and Packaging],IXpsOMCanvas interface, TRUE, xps.ixpsomcanvas_setusealiasededgemode, xpsobjectmodel/IXpsOMCanvas::SetUseAliasedEdgeMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCanvas::SetUseAliasedEdgeMode method
+# IXpsOMCanvas::SetUseAliasedEdgeMode
 
 
 ## -description

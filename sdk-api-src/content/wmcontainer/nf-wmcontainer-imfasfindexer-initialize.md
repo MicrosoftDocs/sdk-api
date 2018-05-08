@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.Initialize
-title: IMFASFIndexer::Initialize method
+title: IMFASFIndexer::Initialize
 author: windows-driver-content
 description: Initializes the indexer object.
 old-location: mf\imfasfindexer_initialize.htm
 old-project: medfound
 ms.assetid: c02931d3-7b43-43a9-9e4e-00945ba3c8d8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFASFIndexer, IMFASFIndexer interface [Media Foundation], Initialize method, IMFASFIndexer::Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation], IMFASFIndexer interface, Initialize,IMFASFIndexer.Initialize, c02931d3-7b43-43a9-9e4e-00945ba3c8d8, mf.imfasfindexer_initialize, wmcontainer/IMFASFIndexer::Initialize
+ms.date: 5/3/2018
+ms.keywords: IMFASFIndexer interface [Media Foundation],Initialize method, IMFASFIndexer.Initialize, IMFASFIndexer::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFIndexer interface, c02931d3-7b43-43a9-9e4e-00945ba3c8d8, mf.imfasfindexer_initialize, wmcontainer/IMFASFIndexer::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFIndexer::Initialize method
+# IMFASFIndexer::Initialize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfProperties.Clone
-title: IEnumTfProperties::Clone method
+title: IEnumTfProperties::Clone
 author: windows-driver-content
 description: IEnumTfProperties::Clone method
 old-location: tsf\ienumtfproperties_clone.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: ee90f452-7e50-4b9a-b81d-b5d4244f55b4
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Clone method [Text Services Framework], Clone method [Text Services Framework], IEnumTfProperties interface, Clone,IEnumTfProperties.Clone, IEnumTfProperties, IEnumTfProperties interface [Text Services Framework], Clone method, IEnumTfProperties::Clone, _tsf_ienumtfproperties_clone_ref, msctf/IEnumTfProperties::Clone, tsf.ienumtfproperties_clone
+ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfProperties interface, IEnumTfProperties interface [Text Services Framework],Clone method, IEnumTfProperties.Clone, IEnumTfProperties::Clone, _tsf_ienumtfproperties_clone_ref, msctf/IEnumTfProperties::Clone, tsf.ienumtfproperties_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfProperties::Clone method
+# IEnumTfProperties::Clone
 
 
 ## -description

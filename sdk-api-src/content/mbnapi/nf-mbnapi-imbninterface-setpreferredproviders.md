@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.SetPreferredProviders
-title: IMbnInterface::SetPreferredProviders method
+title: IMbnInterface::SetPreferredProviders
 author: windows-driver-content
 description: Updates the preferred providers list for the device.
 old-location: mbn\imbninterface_setpreferredproviders.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 2ea95b4a-07d9-40d6-bb82-091b49c965c4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnInterface, IMbnInterface interface [Microsoft Broadband Networks], SetPreferredProviders method, IMbnInterface::SetPreferredProviders, SetPreferredProviders method [Microsoft Broadband Networks], SetPreferredProviders method [Microsoft Broadband Networks], IMbnInterface interface, SetPreferredProviders,IMbnInterface.SetPreferredProviders, mbn.imbninterface_setpreferredproviders, mbnapi/IMbnInterface::SetPreferredProviders
+ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],SetPreferredProviders method, IMbnInterface.SetPreferredProviders, IMbnInterface::SetPreferredProviders, SetPreferredProviders, SetPreferredProviders method [Microsoft Broadband Networks], SetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_setpreferredproviders, mbnapi/IMbnInterface::SetPreferredProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnInterface::SetPreferredProviders method
+# IMbnInterface::SetPreferredProviders
 
 
 ## -description

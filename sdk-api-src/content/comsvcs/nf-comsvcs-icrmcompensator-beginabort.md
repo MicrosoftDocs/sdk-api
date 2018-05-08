@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.BeginAbort
-title: ICrmCompensator::BeginAbort method
+title: ICrmCompensator::BeginAbort
 author: windows-driver-content
 description: Notifies the CRM Compensator of the abort phase of the transaction completion and that records are about to be delivered.
 old-location: cos\icrmcompensator_beginabort.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 443d0a09-0f5f-4237-870b-5cc47c80e2fe
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: BeginAbort method [COM+], BeginAbort method [COM+], ICrmCompensator interface, BeginAbort,ICrmCompensator.BeginAbort, ICrmCompensator, ICrmCompensator interface [COM+], BeginAbort method, ICrmCompensator::BeginAbort, _dtc_ICrmCompensator_BeginAbort, comsvcs/ICrmCompensator::BeginAbort, cos.icrmcompensator_beginabort
+ms.keywords: BeginAbort, BeginAbort method [COM+], BeginAbort method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],BeginAbort method, ICrmCompensator.BeginAbort, ICrmCompensator::BeginAbort, _dtc_ICrmCompensator_BeginAbort, comsvcs/ICrmCompensator::BeginAbort, cos.icrmcompensator_beginabort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmCompensator::BeginAbort method
+# ICrmCompensator::BeginAbort
 
 
 ## -description

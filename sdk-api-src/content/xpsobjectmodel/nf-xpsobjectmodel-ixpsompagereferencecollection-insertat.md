@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.InsertAt
-title: IXpsOMPageReferenceCollection::InsertAt method
+title: IXpsOMPageReferenceCollection::InsertAt
 author: windows-driver-content
 description: Inserts an IXpsOMPageReference interface pointer at a specified location in the collection.
 old-location: xps\ixpsompagereferencecollection_insertat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 829d0b81-90e2-4051-a9a7-7f71602f8c13
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPageReferenceCollection, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging], InsertAt method, IXpsOMPageReferenceCollection::InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging], IXpsOMPageReferenceCollection interface, InsertAt,IXpsOMPageReferenceCollection.InsertAt, xps.ixpsompagereferencecollection_insertat, xpsobjectmodel/IXpsOMPageReferenceCollection::InsertAt
+ms.keywords: IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMPageReferenceCollection.InsertAt, IXpsOMPageReferenceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, xps.ixpsompagereferencecollection_insertat, xpsobjectmodel/IXpsOMPageReferenceCollection::InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReferenceCollection::InsertAt method
+# IXpsOMPageReferenceCollection::InsertAt
 
 
 ## -description

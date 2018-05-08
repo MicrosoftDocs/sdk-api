@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_SessionName
-title: ITraceDataCollector::put_SessionName method
+title: ITraceDataCollector::put_SessionName
 author: windows-driver-content
 description: Retrieves or sets the name of the session.
 old-location: pla\itracedatacollector_sessionname.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: eef98aa2-8494-46d6-bbc2-1115eff30996
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], SessionName property, ITraceDataCollector.SessionName, ITraceDataCollector::get_SessionName, ITraceDataCollector::put_SessionName, SessionName property [PLA], SessionName property [PLA], ITraceDataCollector interface, base.itracedatacollector_sessionname, pla.itracedatacollector_sessionname, pla/ITraceDataCollector::SessionName, pla/ITraceDataCollector::get_SessionName, pla/ITraceDataCollector::put_SessionName, put_SessionName,ITraceDataCollector.put_SessionName
+ms.keywords: ITraceDataCollector interface [PLA],SessionName property, ITraceDataCollector.SessionName, ITraceDataCollector.put_SessionName, ITraceDataCollector::SessionName, ITraceDataCollector::get_SessionName, ITraceDataCollector::put_SessionName, SessionName property [PLA], SessionName property [PLA],ITraceDataCollector interface, base.itracedatacollector_sessionname, pla.itracedatacollector_sessionname, pla/ITraceDataCollector::SessionName, pla/ITraceDataCollector::get_SessionName, pla/ITraceDataCollector::put_SessionName, put_SessionName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataCollector::put_SessionName method
+# ITraceDataCollector::put_SessionName
 
 
 ## -description

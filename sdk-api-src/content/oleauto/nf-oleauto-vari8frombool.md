@@ -7,7 +7,7 @@ old-location: automat\vari8frombool.htm
 old-project: automat
 ms.assetid: 5de56332-2e1c-444d-af14-3d217cd4494a
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarI8FromBool, VarI8FromBool function [Automation], _oa96_VarI8FromBool, automat.vari8frombool, oleauto/VarI8FromBool
 ms.prod: windows-hardware
 ms.technology: windows-devices

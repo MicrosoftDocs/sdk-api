@@ -7,7 +7,7 @@ old-location: controls\ImageList_GetImageCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getimagecount.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: ImageList_GetImageCount, ImageList_GetImageCount function [Windows Controls], _win32_ImageList_GetImageCount, _win32_ImageList_GetImageCount_cpp, commctrl/ImageList_GetImageCount, controls.ImageList_GetImageCount, controls._win32_ImageList_GetImageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.SetInputMediaType
-title: IMFSinkWriter::SetInputMediaType method
+title: IMFSinkWriter::SetInputMediaType
 author: windows-driver-content
 description: Sets the input format for a stream on the sink writer.
 old-location: mf\imfsinkwriter_setinputmediatype.htm
 old-project: medfound
 ms.assetid: 02a73f73-3b25-4578-9a7e-c9f8a4c8cd99
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSinkWriter, IMFSinkWriter interface [Media Foundation], SetInputMediaType method, IMFSinkWriter::SetInputMediaType, SetInputMediaType method [Media Foundation], SetInputMediaType method [Media Foundation], IMFSinkWriter interface, SetInputMediaType,IMFSinkWriter.SetInputMediaType, mf.imfsinkwriter_setinputmediatype, mfreadwrite/IMFSinkWriter::SetInputMediaType
+ms.date: 5/3/2018
+ms.keywords: IMFSinkWriter interface [Media Foundation],SetInputMediaType method, IMFSinkWriter.SetInputMediaType, IMFSinkWriter::SetInputMediaType, SetInputMediaType, SetInputMediaType method [Media Foundation], SetInputMediaType method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_setinputmediatype, mfreadwrite/IMFSinkWriter::SetInputMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSinkWriter::SetInputMediaType method
+# IMFSinkWriter::SetInputMediaType
 
 
 ## -description

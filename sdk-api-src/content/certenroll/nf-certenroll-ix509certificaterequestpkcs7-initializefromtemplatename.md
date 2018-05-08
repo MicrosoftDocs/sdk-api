@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.InitializeFromTemplateName
-title: IX509CertificateRequestPkcs7::InitializeFromTemplateName method
+title: IX509CertificateRequestPkcs7::InitializeFromTemplateName
 author: windows-driver-content
 description: Initializes the certificate request by using a template.
 old-location: security\ix509certificaterequestpkcs7_initializefromtemplatename_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: d6c15fcb-1883-4d87-af29-721102676535
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestPkcs7, IX509CertificateRequestPkcs7 interface [Security], InitializeFromTemplateName method, IX509CertificateRequestPkcs7::InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security], IX509CertificateRequestPkcs7 interface, InitializeFromTemplateName,IX509CertificateRequestPkcs7.InitializeFromTemplateName, certenroll/IX509CertificateRequestPkcs7::InitializeFromTemplateName, security.ix509certificaterequestpkcs7_initializefromtemplatename_method
+ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromTemplateName method, IX509CertificateRequestPkcs7.InitializeFromTemplateName, IX509CertificateRequestPkcs7::InitializeFromTemplateName, InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromTemplateName, security.ix509certificaterequestpkcs7_initializefromtemplatename_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs7::InitializeFromTemplateName method
+# IX509CertificateRequestPkcs7::InitializeFromTemplateName
 
 
 ## -description

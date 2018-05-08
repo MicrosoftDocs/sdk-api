@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObject.EnumerateDialableAddrs
-title: ITDirectoryObject::EnumerateDialableAddrs method
+title: ITDirectoryObject::EnumerateDialableAddrs
 author: windows-driver-content
 description: The EnumerateDialableAddrs method creates an enumerator of all dialable addresses of a given type from the directory.
 old-location: tapi3\itdirectoryobject_enumeratedialableaddrs.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: cee7a00e-e601-47bf-b64b-61085511da97
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: EnumerateDialableAddrs method [TAPI 2.2], EnumerateDialableAddrs method [TAPI 2.2], ITDirectoryObject interface, EnumerateDialableAddrs,ITDirectoryObject.EnumerateDialableAddrs, ITDirectoryObject, ITDirectoryObject interface [TAPI 2.2], EnumerateDialableAddrs method, ITDirectoryObject::EnumerateDialableAddrs, _tapi3_itdirectoryobject_enumeratedialableaddrs, rend/ITDirectoryObject::EnumerateDialableAddrs, tapi3.itdirectoryobject_enumeratedialableaddrs
+ms.keywords: EnumerateDialableAddrs, EnumerateDialableAddrs method [TAPI 2.2], EnumerateDialableAddrs method [TAPI 2.2],ITDirectoryObject interface, ITDirectoryObject interface [TAPI 2.2],EnumerateDialableAddrs method, ITDirectoryObject.EnumerateDialableAddrs, ITDirectoryObject::EnumerateDialableAddrs, _tapi3_itdirectoryobject_enumeratedialableaddrs, rend/ITDirectoryObject::EnumerateDialableAddrs, tapi3.itdirectoryobject_enumeratedialableaddrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectoryObject::EnumerateDialableAddrs method
+# ITDirectoryObject::EnumerateDialableAddrs
 
 
 ## -description

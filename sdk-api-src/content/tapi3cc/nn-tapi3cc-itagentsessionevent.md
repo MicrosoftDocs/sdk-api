@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 70d37d06-b1a6-4f7e-bfe5-731d1b4cd66b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgentSessionEvent, ITAgentSessionEvent interface [TAPI 2.2], ITAgentSessionEvent interface [TAPI 2.2], described, _tapi3_itagentsessionevent, tapi3.itagentsessionevent, tapi3cc/ITAgentSessionEvent
+ms.keywords: ITAgentSessionEvent, ITAgentSessionEvent interface [TAPI 2.2], ITAgentSessionEvent interface [TAPI 2.2],described, _tapi3_itagentsessionevent, tapi3.itagentsessionevent, tapi3cc/ITAgentSessionEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

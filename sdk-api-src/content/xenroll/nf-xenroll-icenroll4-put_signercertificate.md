@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll4.put_SignerCertificate
-title: ICEnroll4::put_SignerCertificate method
+title: ICEnroll4::put_SignerCertificate
 author: windows-driver-content
 description: Sets the signer's certificate.
 old-location: security\icenroll4_signercertificate.htm
 old-project: SecCrypto
 ms.assetid: 3e5b8964-f737-407e-b265-fe095bd6f8ad
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], SignerCertificate property, ICEnroll4, ICEnroll4 interface [Security], SignerCertificate property, ICEnroll4.SignerCertificate, ICEnroll4::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security], CEnroll object, SignerCertificate property [Security], ICEnroll4 interface, put_SignerCertificate,ICEnroll4.put_SignerCertificate, security.icenroll4_signercertificate, xenroll/ICEnroll4::SignerCertificate, xenroll/ICEnroll4::put_SignerCertificate
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],SignerCertificate property, ICEnroll4 interface [Security],SignerCertificate property, ICEnroll4.SignerCertificate, ICEnroll4.put_SignerCertificate, ICEnroll4::SignerCertificate, ICEnroll4::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],CEnroll object, SignerCertificate property [Security],ICEnroll4 interface, put_SignerCertificate, security.icenroll4_signercertificate, xenroll/ICEnroll4::SignerCertificate, xenroll/ICEnroll4::put_SignerCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll4::put_SignerCertificate method
+# ICEnroll4::put_SignerCertificate
 
 
 ## -description

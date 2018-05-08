@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.SetPresenterNextStep
-title: ISyncMgrConflictResolveInfo::SetPresenterNextStep method
+title: ISyncMgrConflictResolveInfo::SetPresenterNextStep
 author: windows-driver-content
 description: Sets what the presenter wants to do as the next step in the sync manager conflict resolution.
 old-location: shell\ISyncMgrConflictResolveInfo_SetPresenterNextStep.htm
 old-project: shell
 ms.assetid: a56ca252-89e5-4ad0-bc9a-f8c7b70bd536
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrConflictResolveInfo, ISyncMgrConflictResolveInfo interface [Windows Shell], SetPresenterNextStep method, ISyncMgrConflictResolveInfo::SetPresenterNextStep, SetPresenterNextStep method [Windows Shell], SetPresenterNextStep method [Windows Shell], ISyncMgrConflictResolveInfo interface, SetPresenterNextStep,ISyncMgrConflictResolveInfo.SetPresenterNextStep, _shell_ISyncMgrConflictResolveInfo_SetPresenterNextStep, shell.ISyncMgrConflictResolveInfo_SetPresenterNextStep, syncmgr/ISyncMgrConflictResolveInfo::SetPresenterNextStep
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrConflictResolveInfo interface [Windows Shell],SetPresenterNextStep method, ISyncMgrConflictResolveInfo.SetPresenterNextStep, ISyncMgrConflictResolveInfo::SetPresenterNextStep, SetPresenterNextStep, SetPresenterNextStep method [Windows Shell], SetPresenterNextStep method [Windows Shell],ISyncMgrConflictResolveInfo interface, _shell_ISyncMgrConflictResolveInfo_SetPresenterNextStep, shell.ISyncMgrConflictResolveInfo_SetPresenterNextStep, syncmgr/ISyncMgrConflictResolveInfo::SetPresenterNextStep
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrConflictResolveInfo::SetPresenterNextStep method
+# ISyncMgrConflictResolveInfo::SetPresenterNextStep
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CurrentMinimum
-title: IUIAutomationRangeValuePattern::get_CurrentMinimum method
+title: IUIAutomationRangeValuePattern::get_CurrentMinimum
 author: windows-driver-content
 description: Retrieves the minimum value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentMinimum.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 1bb98417-750c-4b03-a4a2-d652d0c2fb6e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentMinimum property [Windows Accessibility], CurrentMinimum property [Windows Accessibility], IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern, IUIAutomationRangeValuePattern interface [Windows Accessibility], CurrentMinimum property, IUIAutomationRangeValuePattern.CurrentMinimum, IUIAutomationRangeValuePattern::get_CurrentMinimum, get_CurrentMinimum,IUIAutomationRangeValuePattern.get_CurrentMinimum, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentMinimum, uiauto_IUIAutomationRangeValuePattern_CurrentMinimum, uiautomationclient/IUIAutomationRangeValuePattern::CurrentMinimum, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentMinimum, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentMinimum
+ms.keywords: CurrentMinimum property [Windows Accessibility], CurrentMinimum property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentMinimum property, IUIAutomationRangeValuePattern.CurrentMinimum, IUIAutomationRangeValuePattern.get_CurrentMinimum, IUIAutomationRangeValuePattern::CurrentMinimum, IUIAutomationRangeValuePattern::get_CurrentMinimum, get_CurrentMinimum, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentMinimum, uiauto_IUIAutomationRangeValuePattern_CurrentMinimum, uiautomationclient/IUIAutomationRangeValuePattern::CurrentMinimum, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentMinimum, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentMinimum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationRangeValuePattern::get_CurrentMinimum method
+# IUIAutomationRangeValuePattern::get_CurrentMinimum
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableError.GetChangeWithRecoverableError
-title: IRecoverableError::GetChangeWithRecoverableError method
+title: IRecoverableError::GetChangeWithRecoverableError
 author: windows-driver-content
 description: Gets the item change that caused the error.
 old-location: winsync\irecoverableerror_getchangewithrecoverableerror.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: c7ddc479-1428-43d9-9a26-4166cf4eec3d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetChangeWithRecoverableError method [Windows Sync], GetChangeWithRecoverableError method [Windows Sync], IRecoverableError interface, GetChangeWithRecoverableError,IRecoverableError.GetChangeWithRecoverableError, IRecoverableError, IRecoverableError interface [Windows Sync], GetChangeWithRecoverableError method, IRecoverableError::GetChangeWithRecoverableError, winsync.irecoverableerror_getchangewithrecoverableerror, winsync/IRecoverableError::GetChangeWithRecoverableError
+ms.keywords: GetChangeWithRecoverableError, GetChangeWithRecoverableError method [Windows Sync], GetChangeWithRecoverableError method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetChangeWithRecoverableError method, IRecoverableError.GetChangeWithRecoverableError, IRecoverableError::GetChangeWithRecoverableError, winsync.irecoverableerror_getchangewithrecoverableerror, winsync/IRecoverableError::GetChangeWithRecoverableError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IRecoverableError::GetChangeWithRecoverableError method
+# IRecoverableError::GetChangeWithRecoverableError
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_HelpLocation
-title: IMsmConfigurableItem::get_HelpLocation method
+title: IMsmConfigurableItem::get_HelpLocation
 author: windows-driver-content
 description: The get_HelpLocation method retrieves the HelpLocation property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_helplocation.htm
@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: a66f2934-048e-4df2-a004-287faf42445d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, get_HelpLocation method, IMsmConfigurableItem::get_HelpLocation, _msi_get_helplocation_function, get_HelpLocation method, get_HelpLocation method, IMsmConfigurableItem interface, get_HelpLocation,IMsmConfigurableItem.get_HelpLocation, mergemod/IMsmConfigurableItem::get_HelpLocation, setup.imsmconfigurableitem_get_helplocation
+ms.keywords: IMsmConfigurableItem interface,get_HelpLocation method, IMsmConfigurableItem.get_HelpLocation, IMsmConfigurableItem::get_HelpLocation, _msi_get_helplocation_function, get_HelpLocation, get_HelpLocation method, get_HelpLocation method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_HelpLocation, setup.imsmconfigurableitem_get_helplocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMsmConfigurableItem::get_HelpLocation method
+# IMsmConfigurableItem::get_HelpLocation
 
 
 ## -description

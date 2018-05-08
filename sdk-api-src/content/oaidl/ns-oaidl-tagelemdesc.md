@@ -7,7 +7,7 @@ old-location: automat\elemdesc.htm
 old-project: automat
 ms.assetid: 2187a4c6-f8ba-4373-9240-1b1a9af92507
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPELEMDESC, ELEMDESC, ELEMDESC structure [Automation], LPELEMDESC, LPELEMDESC structure pointer [Automation], _oa96_ELEMDESC, automat.elemdesc, oaidl/ELEMDESC, oaidl/LPELEMDESC, tagELEMDESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: ELEMDESC, ELEMDESC, *LPELEMDESC
+req.typenames: ELEMDESC, *LPELEMDESC
 topic_type:
 -	APIRef
 -	kbSyntax

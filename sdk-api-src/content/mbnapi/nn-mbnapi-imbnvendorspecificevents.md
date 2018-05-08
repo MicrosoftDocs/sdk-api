@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 28507e68-5eaa-4b9d-bbb4-e276f4c213d5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnVendorSpecificEvents, IMbnVendorSpecificEvents interface [Microsoft Broadband Networks], IMbnVendorSpecificEvents interface [Microsoft Broadband Networks], described, mbn.imbnvendorspecificevents, mbnapi/IMbnVendorSpecificEvents
+ms.keywords: IMbnVendorSpecificEvents, IMbnVendorSpecificEvents interface [Microsoft Broadband Networks], IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],described, mbn.imbnvendorspecificevents, mbnapi/IMbnVendorSpecificEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

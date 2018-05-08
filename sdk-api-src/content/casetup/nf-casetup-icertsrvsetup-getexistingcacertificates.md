@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetExistingCACertificates
-title: ICertSrvSetup::GetExistingCACertificates method
+title: ICertSrvSetup::GetExistingCACertificates
 author: windows-driver-content
 description: Gets the collection of CertSrvSetupKeyInformation objects that represent valid certification authority (CA) certificates currently installed on the computer.
 old-location: security\icertsrvsetup_getexistingcacertificates.htm
 old-project: SecCrypto
 ms.assetid: fd8c7bac-b6db-41f2-a648-e01ebd09c41c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetExistingCACertificates method [Security], GetExistingCACertificates method [Security], ICertSrvSetup interface, GetExistingCACertificates,ICertSrvSetup.GetExistingCACertificates, ICertSrvSetup, ICertSrvSetup interface [Security], GetExistingCACertificates method, ICertSrvSetup::GetExistingCACertificates, casetup/ICertSrvSetup::GetExistingCACertificates, security.icertsrvsetup_getexistingcacertificates
+ms.date: 4/30/2018
+ms.keywords: GetExistingCACertificates, GetExistingCACertificates method [Security], GetExistingCACertificates method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetExistingCACertificates method, ICertSrvSetup.GetExistingCACertificates, ICertSrvSetup::GetExistingCACertificates, casetup/ICertSrvSetup::GetExistingCACertificates, security.icertsrvsetup_getexistingcacertificates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetup::GetExistingCACertificates method
+# ICertSrvSetup::GetExistingCACertificates
 
 
 ## -description

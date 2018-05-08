@@ -1,0 +1,7 @@
+# [Component Object Model (COM)](../_com/index.md)
+## [Ole.h](index.md)
+### [OleCreate function](../ole/nf-ole-olecreate.md)
+### [OleCreateFromFile function](../ole/nf-ole-olecreatefromfile.md)
+### [OleDraw function](../ole/nf-ole-oledraw.md)
+### [OleLoadFromStream function](../ole/nf-ole-oleloadfromstream.md)
+### [OleSaveToStream function](../ole/nf-ole-olesavetostream.md)

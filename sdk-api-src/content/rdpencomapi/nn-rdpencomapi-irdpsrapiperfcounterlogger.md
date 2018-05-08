@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: EAAA22B1-5D8A-4ED8-813B-58671B0EF7AA
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIPerfCounterLogger, IRDPSRAPIPerfCounterLogger class [RDP], IRDPSRAPIPerfCounterLogger class [RDP], described, rdp.irdpsrapiperfcounterlogger, rdpencomapi/IRDPSRAPIPerfCounterLogger
+ms.keywords: IRDPSRAPIPerfCounterLogger, IRDPSRAPIPerfCounterLogger class [RDP], IRDPSRAPIPerfCounterLogger class [RDP],described, rdp.irdpsrapiperfcounterlogger, rdpencomapi/IRDPSRAPIPerfCounterLogger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

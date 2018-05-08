@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.get_KillTimeOut
-title: IFsrmActionCommand::get_KillTimeOut method
+title: IFsrmActionCommand::get_KillTimeOut
 author: windows-driver-content
 description: Retrieves or sets the number of minutes the server waits before terminating the process that is running the executable program specified in the ExecutablePath property.
 old-location: fsrm\ifsrmactioncommand_killtimeout.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 2873f1c4-6827-411f-b12f-9c282cf91119
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmActionCommand, IFsrmActionCommand interface [File Server Resource Manager], KillTimeOut property, IFsrmActionCommand.KillTimeOut, IFsrmActionCommand::get_KillTimeOut, IFsrmActionCommand::put_KillTimeOut, KillTimeOut property [File Server Resource Manager], KillTimeOut property [File Server Resource Manager], IFsrmActionCommand interface, fs.ifsrmactioncommand_killtimeout, fsrm.ifsrmactioncommand_killtimeout, fsrm/IFsrmActionCommand::KillTimeOut, fsrm/IFsrmActionCommand::get_KillTimeOut, fsrm/IFsrmActionCommand::put_KillTimeOut, get_KillTimeOut,IFsrmActionCommand.get_KillTimeOut
+ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],KillTimeOut property, IFsrmActionCommand.KillTimeOut, IFsrmActionCommand.get_KillTimeOut, IFsrmActionCommand::KillTimeOut, IFsrmActionCommand::get_KillTimeOut, IFsrmActionCommand::put_KillTimeOut, KillTimeOut property [File Server Resource Manager], KillTimeOut property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_killtimeout, fsrm.ifsrmactioncommand_killtimeout, fsrm/IFsrmActionCommand::KillTimeOut, fsrm/IFsrmActionCommand::get_KillTimeOut, fsrm/IFsrmActionCommand::put_KillTimeOut, get_KillTimeOut
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmActionCommand::get_KillTimeOut method
+# IFsrmActionCommand::get_KillTimeOut
 
 
 ## -description

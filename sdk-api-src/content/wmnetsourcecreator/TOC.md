@@ -1,0 +1,6 @@
+# [Windows Media Format 11 SDK](../_wmformat/index.md)
+## [Wmnetsourcecreator.h](index.md)
+### [INSNetSourceCreator::GetNetSourceAdminInterface](../wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-getnetsourceadmininterface.md)
+### [INSNetSourceCreator::Initialize](../wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-initialize.md)
+### [INSNetSourceCreator::Shutdown](../wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-shutdown.md)
+### [INSNetSourceCreator interface](../wmnetsourcecreator/nn-wmnetsourcecreator-insnetsourcecreator.md)

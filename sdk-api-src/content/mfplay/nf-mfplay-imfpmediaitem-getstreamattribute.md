@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetStreamAttribute
-title: IMFPMediaItem::GetStreamAttribute method
+title: IMFPMediaItem::GetStreamAttribute
 author: windows-driver-content
 description: Queries the media item for a stream attribute.
 old-location: mf\imfpmediaitem_getstreamattribute.htm
 old-project: medfound
 ms.assetid: 8c40ce33-2077-4e7b-8a1c-c080e82df078
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation], IMFPMediaItem interface, GetStreamAttribute,IMFPMediaItem.GetStreamAttribute, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], GetStreamAttribute method, IMFPMediaItem::GetStreamAttribute, mf.imfpmediaitem_getstreamattribute, mfplay/IMFPMediaItem::GetStreamAttribute
+ms.date: 5/3/2018
+ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamAttribute method, IMFPMediaItem.GetStreamAttribute, IMFPMediaItem::GetStreamAttribute, mf.imfpmediaitem_getstreamattribute, mfplay/IMFPMediaItem::GetStreamAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaItem::GetStreamAttribute method
+# IMFPMediaItem::GetStreamAttribute
 
 
 ## -description

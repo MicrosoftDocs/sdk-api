@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectContext.get_Item
-title: ObjectContext::get_Item method
+title: ObjectContext::get_Item
 author: windows-driver-content
 description: Retrieves a named property.
 old-location: cos\objectcontext_get_item.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: fc39d63b-a210-4760-9027-eb315f63924d
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ObjectContext, ObjectContext interface [COM+], get_Item method, ObjectContext::get_Item, _cos_ObjectContext_get_Item, comsvcs/ObjectContext::get_Item, cos.objectcontext_get_item, get_Item method [COM+], get_Item method [COM+], ObjectContext interface, get_Item,ObjectContext.get_Item
+ms.keywords: ObjectContext interface [COM+],get_Item method, ObjectContext.get_Item, ObjectContext::get_Item, _cos_ObjectContext_get_Item, comsvcs/ObjectContext::get_Item, cos.objectcontext_get_item, get_Item, get_Item method [COM+], get_Item method [COM+],ObjectContext interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ObjectContext::get_Item method
+# ObjectContext::get_Item
 
 
 ## -description

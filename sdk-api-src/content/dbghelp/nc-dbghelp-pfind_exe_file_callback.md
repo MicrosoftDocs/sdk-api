@@ -8,7 +8,7 @@ old-project: Debug
 ms.assetid: cbd8cd63-8fdb-4314-8737-9f934de74f89
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FindExecutableImageProc, FindExecutableImageProc callback function, PFIND_EXE_FILE_CALLBACK, PFIND_EXE_FILE_CALLBACKW, _win32_findexecutableimageproc, base.findexecutableimageproc, dbghelp/FindExecutableImageProc
+ms.keywords: FindExecutableImageProc, FindExecutableImageProc callback, FindExecutableImageProc callback function, PFIND_EXE_FILE_CALLBACK, PFIND_EXE_FILE_CALLBACKW, _win32_findexecutableimageproc, base.findexecutableimageproc, dbghelp/FindExecutableImageProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PFIND_EXE_FILE_CALLBACK callback
+# PFIND_EXE_FILE_CALLBACK callback function
 
 
 ## -description

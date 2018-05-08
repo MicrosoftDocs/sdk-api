@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.GetEncoderInfo
-title: IWICBitmapEncoder::GetEncoderInfo method
+title: IWICBitmapEncoder::GetEncoderInfo
 author: windows-driver-content
 description: Retrieves an IWICBitmapEncoderInfo for the encoder.
 old-location: wic\_wic_codec_iwicbitmapencoder_getencoderinfo.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: af723a68-89c8-4d0c-88ef-cda4abaad6f7
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetEncoderInfo method [Windows Imaging Component], GetEncoderInfo method [Windows Imaging Component], IWICBitmapEncoder interface, GetEncoderInfo,IWICBitmapEncoder.GetEncoderInfo, IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], GetEncoderInfo method, IWICBitmapEncoder::GetEncoderInfo, _wic_codec_iwicbitmapencoder_getencoderinfo, wic._wic_codec_iwicbitmapencoder_getencoderinfo, wincodec/IWICBitmapEncoder::GetEncoderInfo
+ms.keywords: GetEncoderInfo, GetEncoderInfo method [Windows Imaging Component], GetEncoderInfo method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],GetEncoderInfo method, IWICBitmapEncoder.GetEncoderInfo, IWICBitmapEncoder::GetEncoderInfo, _wic_codec_iwicbitmapencoder_getencoderinfo, wic._wic_codec_iwicbitmapencoder_getencoderinfo, wincodec/IWICBitmapEncoder::GetEncoderInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapEncoder::GetEncoderInfo method
+# IWICBitmapEncoder::GetEncoderInfo
 
 
 ## -description

@@ -1,0 +1,5 @@
+# [Windows Search](../_search/index.md)
+## [Filtereg.h](index.md)
+### [ILoadFilter::LoadIFilter](../filtereg/nf-filtereg-iloadfilter-loadifilter.md)
+### [ILoadFilter interface](../filtereg/nn-filtereg-iloadfilter.md)
+### [_FILTERED_DATA_SOURCES structure](../filtereg/ns-filtereg-_filtered_data_sources.md)

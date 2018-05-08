@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetNextSiblingElement
-title: IUIAutomationTreeWalker::GetNextSiblingElement method
+title: IUIAutomationTreeWalker::GetNextSiblingElement
 author: windows-driver-content
 description: Retrieves the next sibling element of the specified UI Automation element, and caches properties and control patterns.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetNextSibling.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: a1e42cb4-0b87-42c2-9ea5-67630c0b895a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetNextSiblingElement method [Windows Accessibility], GetNextSiblingElement method [Windows Accessibility], IUIAutomationTreeWalker interface, GetNextSiblingElement,IUIAutomationTreeWalker.GetNextSiblingElement, IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], GetNextSiblingElement method, IUIAutomationTreeWalker::GetNextSiblingElement, uiauto.uiauto_IUIAutomationTreeWalker_GetNextSibling, uiauto_IUIAutomationTreeWalker_GetNextSibling, uiautomationclient/IUIAutomationTreeWalker::GetNextSiblingElement, winauto.uiauto_IUIAutomationTreeWalker_GetNextSibling
+ms.keywords: GetNextSiblingElement, GetNextSiblingElement method [Windows Accessibility], GetNextSiblingElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetNextSiblingElement method, IUIAutomationTreeWalker.GetNextSiblingElement, IUIAutomationTreeWalker::GetNextSiblingElement, uiauto.uiauto_IUIAutomationTreeWalker_GetNextSibling, uiauto_IUIAutomationTreeWalker_GetNextSibling, uiautomationclient/IUIAutomationTreeWalker::GetNextSiblingElement, winauto.uiauto_IUIAutomationTreeWalker_GetNextSibling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTreeWalker::GetNextSiblingElement method
+# IUIAutomationTreeWalker::GetNextSiblingElement
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_MultisessionInterfaces
-title: IFileSystemImage::get_MultisessionInterfaces method
+title: IFileSystemImage::get_MultisessionInterfaces
 author: windows-driver-content
 description: Retrieves the list of multi-session interfaces for the optical media.
 old-location: imapi\ifilesystemimage_get_multisessioninterfaces.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 10c0b02e-965e-47ca-95f4-237c21b505ad
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_MultisessionInterfaces method, IFileSystemImage::get_MultisessionInterfaces, get_MultisessionInterfaces method [IMAPI], get_MultisessionInterfaces method [IMAPI], IFileSystemImage interface, get_MultisessionInterfaces,IFileSystemImage.get_MultisessionInterfaces, imapi.ifilesystemimage_get_multisessioninterfaces, imapi2fs/IFileSystemImage::get_MultisessionInterfaces
+ms.keywords: IFileSystemImage interface [IMAPI],get_MultisessionInterfaces method, IFileSystemImage.get_MultisessionInterfaces, IFileSystemImage::get_MultisessionInterfaces, get_MultisessionInterfaces, get_MultisessionInterfaces method [IMAPI], get_MultisessionInterfaces method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_multisessioninterfaces, imapi2fs/IFileSystemImage::get_MultisessionInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::get_MultisessionInterfaces method
+# IFileSystemImage::get_MultisessionInterfaces
 
 
 ## -description

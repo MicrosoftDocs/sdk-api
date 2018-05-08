@@ -1,14 +1,14 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyFromIDList
-title: CItemIDFactory::GetPropertyFromIDList method
+title: CItemIDFactory::GetPropertyFromIDList
 author: windows-driver-content
 description: Gets a property from the IPropertyStore within the IDList as a variant, using the key.
 old-location: shell\citemidfactory_getpropertyfromidlist_key.htm
 old-project: shell
 ms.assetid: 2BC0557F-57B2-4389-ABC6-9186A4FCF814
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CItemIDFactory, CItemIDFactory interface [Windows Shell], GetPropertyFromIDList method, CItemIDFactory::GetPropertyFromIDList, GetPropertyFromIDList method [Windows Shell], GetPropertyFromIDList method [Windows Shell], CItemIDFactory interface, GetPropertyFromIDList,CItemIDFactory.GetPropertyFromIDList, shell.citemidfactory_getpropertyfromidlist_key, shidfact/CItemIDFactory::GetPropertyFromIDList
+ms.date: 5/3/2018
+ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyFromIDList method, CItemIDFactory.GetPropertyFromIDList, CItemIDFactory::GetPropertyFromIDList, GetPropertyFromIDList, GetPropertyFromIDList method [Windows Shell], GetPropertyFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertyfromidlist_key, shidfact/CItemIDFactory::GetPropertyFromIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# CItemIDFactory::GetPropertyFromIDList method
+# CItemIDFactory::GetPropertyFromIDList
 
 
 ## -description
@@ -63,12 +63,12 @@ Gets a property from the <a href="https://msdn.microsoft.com/library/windows/har
 A PIDL identifying the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>.
 
 
-### -param rkey [in]
+#### - rkey [in]
 
 The key for the selected property.
 
 
-### -param pvar [out]
+#### - pvar [out]
 
 When this method returns, contains a pointer to the property. If <i>rkey</i> is not found, <i>pvar</i> will be <b>VT_EMPTY</b>.
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_CspAlgorithms
-title: ICspInformation::get_CspAlgorithms method
+title: ICspInformation::get_CspAlgorithms
 author: windows-driver-content
 description: Retrieves a collection of ICspAlgorithm interfaces that contain information about the algorithms supported by the provider.
 old-location: security\icspinformation_cspalgorithms_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: e74f1aa3-883b-40e4-8052-6651eaa4b63f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CspAlgorithms property [Security], CspAlgorithms property [Security], ICspInformation interface, ICspInformation, ICspInformation interface [Security], CspAlgorithms property, ICspInformation.CspAlgorithms, ICspInformation::get_CspAlgorithms, certenroll/ICspInformation::CspAlgorithms, certenroll/ICspInformation::get_CspAlgorithms, get_CspAlgorithms,ICspInformation.get_CspAlgorithms, security.icspinformation_cspalgorithms_property
+ms.keywords: CspAlgorithms property [Security], CspAlgorithms property [Security],ICspInformation interface, ICspInformation interface [Security],CspAlgorithms property, ICspInformation.CspAlgorithms, ICspInformation.get_CspAlgorithms, ICspInformation::CspAlgorithms, ICspInformation::get_CspAlgorithms, certenroll/ICspInformation::CspAlgorithms, certenroll/ICspInformation::get_CspAlgorithms, get_CspAlgorithms, security.icspinformation_cspalgorithms_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformation::get_CspAlgorithms method
+# ICspInformation::get_CspAlgorithms
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetByte
-title: CInstance::SetByte method
+title: CInstance::SetByte
 author: windows-driver-content
 description: The SetByte method sets a BYTE property.
 old-location: wmi\cinstance_setbyte.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: d6ecbada-4eb6-40ad-9e59-ba77fd3b883a
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], SetByte method, CInstance::SetByte, SetByte method [Windows Management Instrumentation], SetByte method [Windows Management Instrumentation], CInstance interface, SetByte,CInstance.SetByte, _hmm_cinstance_setbyte, instance/CInstance::SetByte, wmi.cinstance_setbyte
+ms.keywords: CInstance interface [Windows Management Instrumentation],SetByte method, CInstance.SetByte, CInstance::SetByte, SetByte, SetByte method [Windows Management Instrumentation], SetByte method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setbyte, instance/CInstance::SetByte, wmi.cinstance_setbyte
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::SetByte method
+# CInstance::SetByte
 
 
 ## -description

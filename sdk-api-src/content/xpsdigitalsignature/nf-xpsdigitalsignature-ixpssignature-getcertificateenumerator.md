@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetCertificateEnumerator
-title: IXpsSignature::GetCertificateEnumerator method
+title: IXpsSignature::GetCertificateEnumerator
 author: windows-driver-content
 description: Gets a pointer to an IOpcCertificateEnumerator interface, which enumerates the package certificates that are attached to the signature.
 old-location: xps\ixpssignature_getcertificateenumerator.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e4af0aa3-8420-4297-993c-dda4d4f7cf61
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCertificateEnumerator method [XPS Documents and Packaging], GetCertificateEnumerator method [XPS Documents and Packaging], IXpsSignature interface, GetCertificateEnumerator,IXpsSignature.GetCertificateEnumerator, IXpsSignature, IXpsSignature interface [XPS Documents and Packaging], GetCertificateEnumerator method, IXpsSignature::GetCertificateEnumerator, xps.ixpssignature_getcertificateenumerator, xpsdigitalsignature/IXpsSignature::GetCertificateEnumerator
+ms.keywords: GetCertificateEnumerator, GetCertificateEnumerator method [XPS Documents and Packaging], GetCertificateEnumerator method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetCertificateEnumerator method, IXpsSignature.GetCertificateEnumerator, IXpsSignature::GetCertificateEnumerator, xps.ixpssignature_getcertificateenumerator, xpsdigitalsignature/IXpsSignature::GetCertificateEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignature::GetCertificateEnumerator method
+# IXpsSignature::GetCertificateEnumerator
 
 
 ## -description

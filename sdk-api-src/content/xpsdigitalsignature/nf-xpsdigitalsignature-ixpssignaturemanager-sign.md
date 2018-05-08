@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.Sign
-title: IXpsSignatureManager::Sign method
+title: IXpsSignatureManager::Sign
 author: windows-driver-content
 description: Signs the contents of an XPS package as specified by the signing options and returns the resulting digital signature.
 old-location: xps\ixpssignaturemanager_sign.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 82a57ca8-edc7-4248-92d1-8092f6dce4f8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], Sign method, IXpsSignatureManager::Sign, Sign method [XPS Documents and Packaging], Sign method [XPS Documents and Packaging], IXpsSignatureManager interface, Sign,IXpsSignatureManager.Sign, xps.ixpssignaturemanager_sign, xpsdigitalsignature/IXpsSignatureManager::Sign
+ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],Sign method, IXpsSignatureManager.Sign, IXpsSignatureManager::Sign, Sign, Sign method [XPS Documents and Packaging], Sign method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_sign, xpsdigitalsignature/IXpsSignatureManager::Sign
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureManager::Sign method
+# IXpsSignatureManager::Sign
 
 
 ## -description

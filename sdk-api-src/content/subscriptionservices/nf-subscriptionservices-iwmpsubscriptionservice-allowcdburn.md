@@ -1,14 +1,14 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService.allowCDBurn
-title: IWMPSubscriptionService::allowCDBurn method
+title: IWMPSubscriptionService::allowCDBurn
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice_allowcdburn.htm
 old-project: WMP
 ms.assetid: a17ab1c3-8208-481f-8566-164e2d817e05
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSubscriptionService, IWMPSubscriptionService interface [Windows Media Player], allowCDBurn method, IWMPSubscriptionService::allowCDBurn, IWMPSubscriptionServiceallowCDBurn, allowCDBurn method [Windows Media Player], allowCDBurn method [Windows Media Player], IWMPSubscriptionService interface, allowCDBurn,IWMPSubscriptionService.allowCDBurn, subscriptionservices/IWMPSubscriptionService::allowCDBurn, wmp.iwmpsubscriptionservice_allowcdburn
+ms.date: 5/4/2018
+ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowCDBurn method, IWMPSubscriptionService.allowCDBurn, IWMPSubscriptionService::allowCDBurn, IWMPSubscriptionServiceallowCDBurn, allowCDBurn, allowCDBurn method [Windows Media Player], allowCDBurn method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowCDBurn, wmp.iwmpsubscriptionservice_allowcdburn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWMPSubscriptionService::allowCDBurn method
+# IWMPSubscriptionService::allowCDBurn
 
 
 ## -description

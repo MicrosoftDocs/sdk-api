@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCollection.get_Item
-title: IWdsTransportCollection::get_Item method
+title: IWdsTransportCollection::get_Item
 author: windows-driver-content
 description: Receives a pointer to the object that matches the specified index.
 old-location: wds\iwdstransportcollection_item.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 4849923f-7463-46ee-9ec8-d2d5bcefd5ad
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportCollection, IWdsTransportCollection interface [Windows Deployment Services], Item property, IWdsTransportCollection.Item, IWdsTransportCollection::get_Item, IWdsTransportCollection::put_Item, Item property [Windows Deployment Services], Item property [Windows Deployment Services], IWdsTransportCollection interface, get_Item,IWdsTransportCollection.get_Item, wds.iwdstransportcollection_item, wdstptmgmt/IWdsTransportCollection::Item, wdstptmgmt/IWdsTransportCollection::get_Item, wdstptmgmt/IWdsTransportCollection::put_Item
+ms.keywords: IWdsTransportCollection interface [Windows Deployment Services],Item property, IWdsTransportCollection.Item, IWdsTransportCollection.get_Item, IWdsTransportCollection::Item, IWdsTransportCollection::get_Item, IWdsTransportCollection::put_Item, Item property [Windows Deployment Services], Item property [Windows Deployment Services],IWdsTransportCollection interface, get_Item, wds.iwdstransportcollection_item, wdstptmgmt/IWdsTransportCollection::Item, wdstptmgmt/IWdsTransportCollection::get_Item, wdstptmgmt/IWdsTransportCollection::put_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportCollection::get_Item method
+# IWdsTransportCollection::get_Item
 
 
 ## -description

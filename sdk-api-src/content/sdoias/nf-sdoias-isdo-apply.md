@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdo.Apply
-title: ISdo::Apply method
+title: ISdo::Apply
 author: windows-driver-content
 description: The Apply method writes to persistent storage the changes made by calls to the ISdo::PutProperty method.
 old-location: nps\SDO_isdo_apply.htm
@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: aceca2f9-7b17-46a5-bcd1-e6fec3c369ed
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Apply method [Network Policy Server], Apply method [Network Policy Server], ISdo interface, Apply,ISdo.Apply, ISdo, ISdo interface [Network Policy Server], Apply method, ISdo::Apply, _sdo_isdo_apply, nps.SDO_isdo_apply, sdo.isdo_apply, sdoias/ISdo::Apply
+ms.keywords: Apply, Apply method [Network Policy Server], Apply method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],Apply method, ISdo.Apply, ISdo::Apply, _sdo_isdo_apply, nps.SDO_isdo_apply, sdo.isdo_apply, sdoias/ISdo::Apply
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISdo::Apply method
+# ISdo::Apply
 
 
 ## -description

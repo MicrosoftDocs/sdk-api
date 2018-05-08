@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbContentDescriptor.GetTag
-title: IDvbContentDescriptor::GetTag method
+title: IDvbContentDescriptor::GetTag
 author: windows-driver-content
 description: Gets the tag for a Digital Video Broadcast (DVB) content descriptor.
 old-location: mstv\idvbcontentdescriptor_gettag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3cfbda01-ef69-4b69-90f4-04dd3044ae1f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbContentDescriptor interface, GetTag,IDvbContentDescriptor.GetTag, IDvbContentDescriptor, IDvbContentDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbContentDescriptor::GetTag, dvbsiparser/IDvbContentDescriptor::GetTag, mstv.idvbcontentdescriptor_gettag
+ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbContentDescriptor interface, IDvbContentDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbContentDescriptor.GetTag, IDvbContentDescriptor::GetTag, dvbsiparser/IDvbContentDescriptor::GetTag, mstv.idvbcontentdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbContentDescriptor::GetTag method
+# IDvbContentDescriptor::GetTag
 
 
 ## -description

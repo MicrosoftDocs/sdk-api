@@ -8,7 +8,7 @@ old-project: WindowsMAPI
 ms.assetid: b149ef88-de0e-4a99-9150-7250d2b9540a
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: MAPIDeleteMail, MAPIDeleteMail callback function, mapi.mapideletemail, mapi/MAPIDeleteMail
+ms.keywords: MAPIDeleteMail, MAPIDeleteMail callback, MAPIDeleteMail callback function, mapi.mapideletemail, mapi/MAPIDeleteMail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# MAPIDELETEMAIL callback
+# MAPIDELETEMAIL callback function
 
 
 ## -description

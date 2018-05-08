@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoManager.GetLastUndoDescription
-title: IOleUndoManager::GetLastUndoDescription method
+title: IOleUndoManager::GetLastUndoDescription
 author: windows-driver-content
 description: Retrieves the description for the top-level undo unit that is on top of the undo stack.
 old-location: com\ioleundomanager_getlastundodescription.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 65679f9e-2ea8-4462-bdd3-fa12c1904c51
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetLastUndoDescription method [COM], GetLastUndoDescription method [COM], IOleUndoManager interface, GetLastUndoDescription,IOleUndoManager.GetLastUndoDescription, IOleUndoManager, IOleUndoManager interface [COM], GetLastUndoDescription method, IOleUndoManager::GetLastUndoDescription, _ole_ioleundomanager_getlastundodescription, com.ioleundomanager_getlastundodescription, ocidl/IOleUndoManager::GetLastUndoDescription
+ms.keywords: GetLastUndoDescription, GetLastUndoDescription method [COM], GetLastUndoDescription method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],GetLastUndoDescription method, IOleUndoManager.GetLastUndoDescription, IOleUndoManager::GetLastUndoDescription, _ole_ioleundomanager_getlastundodescription, com.ioleundomanager_getlastundodescription, ocidl/IOleUndoManager::GetLastUndoDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleUndoManager::GetLastUndoDescription method
+# IOleUndoManager::GetLastUndoDescription
 
 
 ## -description

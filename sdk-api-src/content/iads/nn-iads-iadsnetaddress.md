@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 71e48dd4-4e86-494f-835e-38bda29fc543
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsNetAddress, IADsNetAddress interface [ADSI], IADsNetAddress interface [ADSI], described, NetAddress, _ds_iadsnetaddress, adsi.iadsnetaddress, iads/IADsNetAddress
+ms.keywords: IADsNetAddress, IADsNetAddress interface [ADSI], IADsNetAddress interface [ADSI],described, NetAddress, _ds_iadsnetaddress, adsi.iadsnetaddress, iads/IADsNetAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

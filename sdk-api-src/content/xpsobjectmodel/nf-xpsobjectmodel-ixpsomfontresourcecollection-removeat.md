@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.RemoveAt
-title: IXpsOMFontResourceCollection::RemoveAt method
+title: IXpsOMFontResourceCollection::RemoveAt
 author: windows-driver-content
 description: Removes and releases an IXpsOMFontResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomfontresourcecollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: adcb8673-47ab-4d2f-829f-49d78ab26273
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMFontResourceCollection, IXpsOMFontResourceCollection interface [XPS Documents and Packaging], RemoveAt method, IXpsOMFontResourceCollection::RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging], IXpsOMFontResourceCollection interface, RemoveAt,IXpsOMFontResourceCollection.RemoveAt, xps.ixpsomfontresourcecollection_removeat, xpsobjectmodel/IXpsOMFontResourceCollection::RemoveAt
+ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMFontResourceCollection.RemoveAt, IXpsOMFontResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_removeat, xpsobjectmodel/IXpsOMFontResourceCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMFontResourceCollection::RemoveAt method
+# IXpsOMFontResourceCollection::RemoveAt
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.Add
-title: IValueMap::Add method
+title: IValueMap::Add
 author: windows-driver-content
 description: Adds an item to the collection.
 old-location: pla\ivaluemap_add.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 4a6f074d-8d18-44ea-bbbc-8d3a7f6c033a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Add method [PLA], Add method [PLA], IValueMap interface, Add,IValueMap.Add, IValueMap, IValueMap interface [PLA], Add method, IValueMap::Add, base.ivaluemap_add, pla.ivaluemap_add, pla/IValueMap::Add
+ms.keywords: Add, Add method [PLA], Add method [PLA],IValueMap interface, IValueMap interface [PLA],Add method, IValueMap.Add, IValueMap::Add, base.ivaluemap_add, pla.ivaluemap_add, pla/IValueMap::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IValueMap::Add method
+# IValueMap::Add
 
 
 ## -description

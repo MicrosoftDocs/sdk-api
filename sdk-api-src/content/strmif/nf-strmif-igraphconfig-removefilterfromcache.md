@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IGraphConfig.RemoveFilterFromCache
-title: IGraphConfig::RemoveFilterFromCache method
+title: IGraphConfig::RemoveFilterFromCache
 author: windows-driver-content
 description: The RemoveFilterFromCache method removes a filter from the filter cache.
 old-location: dshow\igraphconfig_removefilterfromcache.htm
 old-project: DirectShow
 ms.assetid: a23710d0-85aa-4ae0-84ea-03b9e22091ad
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], RemoveFilterFromCache method, IGraphConfig::RemoveFilterFromCache, IGraphConfigRemoveFilterFromCache, RemoveFilterFromCache method [DirectShow], RemoveFilterFromCache method [DirectShow], IGraphConfig interface, RemoveFilterFromCache,IGraphConfig.RemoveFilterFromCache, dshow.igraphconfig_removefilterfromcache, strmif/IGraphConfig::RemoveFilterFromCache
+ms.date: 4/30/2018
+ms.keywords: IGraphConfig interface [DirectShow],RemoveFilterFromCache method, IGraphConfig.RemoveFilterFromCache, IGraphConfig::RemoveFilterFromCache, IGraphConfigRemoveFilterFromCache, RemoveFilterFromCache, RemoveFilterFromCache method [DirectShow], RemoveFilterFromCache method [DirectShow],IGraphConfig interface, dshow.igraphconfig_removefilterfromcache, strmif/IGraphConfig::RemoveFilterFromCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IGraphConfig::RemoveFilterFromCache method
+# IGraphConfig::RemoveFilterFromCache
 
 
 ## -description

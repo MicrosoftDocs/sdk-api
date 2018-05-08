@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.Help
-title: IPropertyPage::Help method
+title: IPropertyPage::Help
 author: windows-driver-content
 description: Invokes the property page help in response to an end-user request.
 old-location: com\ipropertypage_help.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ba715518-1aa0-42de-bad7-f2d0d0f00460
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Help method [COM], Help method [COM], IPropertyPage interface, Help,IPropertyPage.Help, IPropertyPage, IPropertyPage interface [COM], Help method, IPropertyPage::Help, _ctrl_ipropertypage_help, com.ipropertypage_help, ocidl/IPropertyPage::Help
+ms.keywords: Help, Help method [COM], Help method [COM],IPropertyPage interface, IPropertyPage interface [COM],Help method, IPropertyPage.Help, IPropertyPage::Help, _ctrl_ipropertypage_help, com.ipropertypage_help, ocidl/IPropertyPage::Help
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyPage::Help method
+# IPropertyPage::Help
 
 
 ## -description

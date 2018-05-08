@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: cdb2c94e-a5a7-41c3-b847-b23ea077abd3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationProxyFactory, IUIAutomationProxyFactory interface [Windows Accessibility], IUIAutomationProxyFactory interface [Windows Accessibility], described, uiauto.uiauto_IUIAutomationProxyFactory, uiauto_IUIAutomationProxyFactory, uiautomationclient/IUIAutomationProxyFactory, winauto.uiauto_IUIAutomationProxyFactory
+ms.keywords: IUIAutomationProxyFactory, IUIAutomationProxyFactory interface [Windows Accessibility], IUIAutomationProxyFactory interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationProxyFactory, uiauto_IUIAutomationProxyFactory, uiautomationclient/IUIAutomationProxyFactory, winauto.uiauto_IUIAutomationProxyFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

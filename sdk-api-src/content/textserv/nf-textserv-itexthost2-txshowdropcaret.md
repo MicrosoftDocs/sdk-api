@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost2.TxShowDropCaret
-title: ITextHost2::TxShowDropCaret method
+title: ITextHost2::TxShowDropCaret
 author: windows-driver-content
 description: Shows or hides the caret during the drop portion of a drag-and-drop operation (Direct2D only).
 old-location: controls\itexthost2_txshowdropcaret.htm
 old-project: Controls
 ms.assetid: D7FAD45E-3467-4F07-A0D9-3131E48C314B
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], TxShowDropCaret method, ITextHost2::TxShowDropCaret, TxShowDropCaret method [Windows Controls], TxShowDropCaret method [Windows Controls], ITextHost2 interface, TxShowDropCaret,ITextHost2.TxShowDropCaret, controls.itexthost2_txshowdropcaret, textserv/ITextHost2::TxShowDropCaret
+ms.date: 4/27/2018
+ms.keywords: ITextHost2 interface [Windows Controls],TxShowDropCaret method, ITextHost2.TxShowDropCaret, ITextHost2::TxShowDropCaret, TxShowDropCaret, TxShowDropCaret method [Windows Controls], TxShowDropCaret method [Windows Controls],ITextHost2 interface, controls.itexthost2_txshowdropcaret, textserv/ITextHost2::TxShowDropCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost2::TxShowDropCaret method
+# ITextHost2::TxShowDropCaret
 
 
 ## -description

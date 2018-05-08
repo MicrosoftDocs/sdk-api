@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.ChooseImageDefaults
-title: IFileSystemImage::ChooseImageDefaults method
+title: IFileSystemImage::ChooseImageDefaults
 author: windows-driver-content
 description: Sets the default file system types and the image size based on the current media.
 old-location: imapi\ifilesystemimage_chooseimagedefaults.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 9211b8af-9331-4d0d-a6f5-f52f8db42e8c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ChooseImageDefaults method [IMAPI], ChooseImageDefaults method [IMAPI], IFileSystemImage interface, ChooseImageDefaults,IFileSystemImage.ChooseImageDefaults, IFileSystemImage, IFileSystemImage interface [IMAPI], ChooseImageDefaults method, IFileSystemImage::ChooseImageDefaults, imapi.ifilesystemimage_chooseimagedefaults, imapi2fs/IFileSystemImage::ChooseImageDefaults
+ms.keywords: ChooseImageDefaults, ChooseImageDefaults method [IMAPI], ChooseImageDefaults method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],ChooseImageDefaults method, IFileSystemImage.ChooseImageDefaults, IFileSystemImage::ChooseImageDefaults, imapi.ifilesystemimage_chooseimagedefaults, imapi2fs/IFileSystemImage::ChooseImageDefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::ChooseImageDefaults method
+# IFileSystemImage::ChooseImageDefaults
 
 
 ## -description

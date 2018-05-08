@@ -1,14 +1,14 @@
 ---
 UID: NF:certcli.ICertRequest.GetDispositionMessage
-title: ICertRequest::GetDispositionMessage method
+title: ICertRequest::GetDispositionMessage
 author: windows-driver-content
 description: Gets a human-readable message that gives the current disposition of the certificate request.
 old-location: security\icertrequest2_getdispositionmessage.htm
 old-project: SecCrypto
 ms.assetid: c3639cf6-c70f-4f15-a0ed-e60abe2955cb
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertRequest object [Security], GetDispositionMessage method, GetDispositionMessage method [Security], GetDispositionMessage method [Security], CCertRequest object, GetDispositionMessage method [Security], ICertRequest interface, GetDispositionMessage method [Security], ICertRequest2 interface, GetDispositionMessage method [Security], ICertRequest3 interface, GetDispositionMessage,ICertRequest.GetDispositionMessage, ICertRequest, ICertRequest interface [Security], GetDispositionMessage method, ICertRequest2 interface [Security], GetDispositionMessage method, ICertRequest2::GetDispositionMessage, ICertRequest3 interface [Security], GetDispositionMessage method, ICertRequest3::GetDispositionMessage, ICertRequest::GetDispositionMessage, certcli/ICertRequest2::GetDispositionMessage, certcli/ICertRequest3::GetDispositionMessage, certcli/ICertRequest::GetDispositionMessage, security.icertrequest2_getdispositionmessage
+ms.date: 4/30/2018
+ms.keywords: CCertRequest object [Security],GetDispositionMessage method, GetDispositionMessage, GetDispositionMessage method [Security], GetDispositionMessage method [Security],CCertRequest object, GetDispositionMessage method [Security],ICertRequest interface, GetDispositionMessage method [Security],ICertRequest2 interface, GetDispositionMessage method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetDispositionMessage method, ICertRequest.GetDispositionMessage, ICertRequest2 interface [Security],GetDispositionMessage method, ICertRequest2::GetDispositionMessage, ICertRequest3 interface [Security],GetDispositionMessage method, ICertRequest3::GetDispositionMessage, ICertRequest::GetDispositionMessage, certcli/ICertRequest2::GetDispositionMessage, certcli/ICertRequest3::GetDispositionMessage, certcli/ICertRequest::GetDispositionMessage, security.icertrequest2_getdispositionmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertRequest::GetDispositionMessage method
+# ICertRequest::GetDispositionMessage
 
 
 ## -description

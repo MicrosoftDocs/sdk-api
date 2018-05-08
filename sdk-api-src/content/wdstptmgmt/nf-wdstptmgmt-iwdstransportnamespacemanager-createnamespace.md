@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespaceManager.CreateNamespace
-title: IWdsTransportNamespaceManager::CreateNamespace method
+title: IWdsTransportNamespaceManager::CreateNamespace
 author: windows-driver-content
 description: Creates an object of an IWdsTransportNamespace interface that can be registered on the current WDS transport server.
 old-location: wds\iwdstransportnamespacemanager_createnamespace.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: fda205d6-f99a-4fec-96bb-0e37e9ca16ce
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateNamespace method [Windows Deployment Services], CreateNamespace method [Windows Deployment Services], IWdsTransportNamespaceManager interface, CreateNamespace,IWdsTransportNamespaceManager.CreateNamespace, IWdsTransportNamespaceManager, IWdsTransportNamespaceManager interface [Windows Deployment Services], CreateNamespace method, IWdsTransportNamespaceManager::CreateNamespace, wds.iwdstransportnamespacemanager_createnamespace, wdstptmgmt/IWdsTransportNamespaceManager::CreateNamespace
+ms.keywords: CreateNamespace, CreateNamespace method [Windows Deployment Services], CreateNamespace method [Windows Deployment Services],IWdsTransportNamespaceManager interface, IWdsTransportNamespaceManager interface [Windows Deployment Services],CreateNamespace method, IWdsTransportNamespaceManager.CreateNamespace, IWdsTransportNamespaceManager::CreateNamespace, wds.iwdstransportnamespacemanager_createnamespace, wdstptmgmt/IWdsTransportNamespaceManager::CreateNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportNamespaceManager::CreateNamespace method
+# IWdsTransportNamespaceManager::CreateNamespace
 
 
 ## -description

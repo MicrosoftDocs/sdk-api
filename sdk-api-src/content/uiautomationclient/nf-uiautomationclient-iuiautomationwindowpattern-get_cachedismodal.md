@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedIsModal
-title: IUIAutomationWindowPattern::get_CachedIsModal method
+title: IUIAutomationWindowPattern::get_CachedIsModal
 author: windows-driver-content
 description: Retrieves a cached value that indicates whether the window is modal.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedIsModal.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 0eeba231-2992-4dae-beb6-47408ebb333d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedIsModal property [Windows Accessibility], CachedIsModal property [Windows Accessibility], IUIAutomationWindowPattern interface, IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], CachedIsModal property, IUIAutomationWindowPattern.CachedIsModal, IUIAutomationWindowPattern::get_CachedIsModal, get_CachedIsModal,IUIAutomationWindowPattern.get_CachedIsModal, uiauto.uiauto_IUIAutomationWindowPattern_CachedIsModal, uiauto_IUIAutomationWindowPattern_CachedIsModal, uiautomationclient/IUIAutomationWindowPattern::CachedIsModal, uiautomationclient/IUIAutomationWindowPattern::get_CachedIsModal, winauto.uiauto_IUIAutomationWindowPattern_CachedIsModal
+ms.keywords: CachedIsModal property [Windows Accessibility], CachedIsModal property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedIsModal property, IUIAutomationWindowPattern.CachedIsModal, IUIAutomationWindowPattern.get_CachedIsModal, IUIAutomationWindowPattern::CachedIsModal, IUIAutomationWindowPattern::get_CachedIsModal, get_CachedIsModal, uiauto.uiauto_IUIAutomationWindowPattern_CachedIsModal, uiauto_IUIAutomationWindowPattern_CachedIsModal, uiautomationclient/IUIAutomationWindowPattern::CachedIsModal, uiautomationclient/IUIAutomationWindowPattern::get_CachedIsModal, winauto.uiauto_IUIAutomationWindowPattern_CachedIsModal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationWindowPattern::get_CachedIsModal method
+# IUIAutomationWindowPattern::get_CachedIsModal
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuneRequest.put_MajorChannel
-title: IDigitalCableTuneRequest::put_MajorChannel method
+title: IDigitalCableTuneRequest::put_MajorChannel
 author: windows-driver-content
 description: The put_MajorChannel method sets the major channel number.
 old-location: mstv\idigitalcabletunerequest_put_majorchannel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1d3bc106-0ce0-4184-89fe-ebc30e95124e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDigitalCableTuneRequest, IDigitalCableTuneRequest interface [Microsoft TV Technologies], put_MajorChannel method, IDigitalCableTuneRequest::put_MajorChannel, IDigitalCableTuneRequestput_MajorChannel, mstv.idigitalcabletunerequest_put_majorchannel, put_MajorChannel method [Microsoft TV Technologies], put_MajorChannel method [Microsoft TV Technologies], IDigitalCableTuneRequest interface, put_MajorChannel,IDigitalCableTuneRequest.put_MajorChannel, tuner/IDigitalCableTuneRequest::put_MajorChannel
+ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],put_MajorChannel method, IDigitalCableTuneRequest.put_MajorChannel, IDigitalCableTuneRequest::put_MajorChannel, IDigitalCableTuneRequestput_MajorChannel, mstv.idigitalcabletunerequest_put_majorchannel, put_MajorChannel, put_MajorChannel method [Microsoft TV Technologies], put_MajorChannel method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, tuner/IDigitalCableTuneRequest::put_MajorChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDigitalCableTuneRequest::put_MajorChannel method
+# IDigitalCableTuneRequest::put_MajorChannel
 
 
 ## -description

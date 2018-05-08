@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfTextInputProcessor.Activate
-title: ITfTextInputProcessor::Activate method
+title: ITfTextInputProcessor::Activate
 author: windows-driver-content
 description: ITfTextInputProcessor::Activate method
 old-location: tsf\itftextinputprocessor_activate.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c5fd6b5c-0a78-4b5b-aad5-0c398798cf30
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Activate method [Text Services Framework], Activate method [Text Services Framework], ITfTextInputProcessor interface, Activate,ITfTextInputProcessor.Activate, ITfTextInputProcessor, ITfTextInputProcessor interface [Text Services Framework], Activate method, ITfTextInputProcessor::Activate, _tsf_itftextinputprocessor_activate_ref, msctf/ITfTextInputProcessor::Activate, tsf.itftextinputprocessor_activate
+ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfTextInputProcessor interface, ITfTextInputProcessor interface [Text Services Framework],Activate method, ITfTextInputProcessor.Activate, ITfTextInputProcessor::Activate, _tsf_itftextinputprocessor_activate_ref, msctf/ITfTextInputProcessor::Activate, tsf.itftextinputprocessor_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfTextInputProcessor::Activate method
+# ITfTextInputProcessor::Activate
 
 
 ## -description

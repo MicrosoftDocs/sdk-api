@@ -7,7 +7,7 @@ old-location: mf\mf_byte_stream_cache_range.htm
 old-project: medfound
 ms.assetid: BE684626-32AC-4BF1-8CF1-D68F8A0ABB9E
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MF_BYTE_STREAM_CACHE_RANGE, MF_BYTE_STREAM_CACHE_RANGE structure [Media Foundation], __MIDL___MIDL_itf_mfidl_0000_0058_0001, mf.mf_byte_stream_cache_range, mfidl/MF_BYTE_STREAM_CACHE_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices

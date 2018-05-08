@@ -7,7 +7,7 @@ old-location: winrt\rorevokeactivationfactories.htm
 old-project: WinRT
 ms.assetid: 0311bd92-3b12-46bc-a21d-13bd57a2c545
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: RoRevokeActivationFactories, RoRevokeActivationFactories function [Windows Runtime], WinRTRevokeActivationFactories, roapi/RoRevokeActivationFactories, roapi/WinRTRevokeActivationFactories, winrt.rorevokeactivationfactories, winrt.winrtrevokeactivationfactories
 ms.prod: windows-hardware
 ms.technology: windows-devices

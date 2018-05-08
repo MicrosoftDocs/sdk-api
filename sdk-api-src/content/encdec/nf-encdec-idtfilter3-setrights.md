@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter3.SetRights
-title: IDTFilter3::SetRights method
+title: IDTFilter3::SetRights
 author: windows-driver-content
 description: Not implemented in this release.
 old-location: mstv\idtfilter3_setrights.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d5c93f87-6988-4ca8-b50a-b6c7bdf3e76c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDTFilter3, IDTFilter3 interface [Microsoft TV Technologies], SetRights method, IDTFilter3::SetRights, IDTFilter3SetRights, SetRights method [Microsoft TV Technologies], SetRights method [Microsoft TV Technologies], IDTFilter3 interface, SetRights,IDTFilter3.SetRights, encdec/IDTFilter3::SetRights, mstv.idtfilter3_setrights
+ms.keywords: IDTFilter3 interface [Microsoft TV Technologies],SetRights method, IDTFilter3.SetRights, IDTFilter3::SetRights, IDTFilter3SetRights, SetRights, SetRights method [Microsoft TV Technologies], SetRights method [Microsoft TV Technologies],IDTFilter3 interface, encdec/IDTFilter3::SetRights, mstv.idtfilter3_setrights
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDTFilter3::SetRights method
+# IDTFilter3::SetRights
 
 
 ## -description

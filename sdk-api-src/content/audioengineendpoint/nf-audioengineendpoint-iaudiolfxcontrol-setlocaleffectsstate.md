@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioLfxControl.SetLocalEffectsState
-title: IAudioLfxControl::SetLocalEffectsState method
+title: IAudioLfxControl::SetLocalEffectsState
 author: windows-driver-content
 description: The SetLocalEffectsState method sets the local effects state that is to be applied to the offloaded audio stream.
 old-location: coreaudio\iaudiolfxcontrol_setlocaleffectsstate.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: F89C2610-BC71-4309-BCDA-5529B16A3FA7
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioLfxControl, IAudioLfxControl interface [Core Audio], SetLocalEffectsState method, IAudioLfxControl::SetLocalEffectsState, SetLocalEffectsState method [Core Audio], SetLocalEffectsState method [Core Audio], IAudioLfxControl interface, SetLocalEffectsState,IAudioLfxControl.SetLocalEffectsState, audioengineendpoint/IAudioLfxControl::SetLocalEffectsState, coreaudio.iaudiolfxcontrol_setlocaleffectsstate
+ms.keywords: IAudioLfxControl interface [Core Audio],SetLocalEffectsState method, IAudioLfxControl.SetLocalEffectsState, IAudioLfxControl::SetLocalEffectsState, SetLocalEffectsState, SetLocalEffectsState method [Core Audio], SetLocalEffectsState method [Core Audio],IAudioLfxControl interface, audioengineendpoint/IAudioLfxControl::SetLocalEffectsState, coreaudio.iaudiolfxcontrol_setlocaleffectsstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioLfxControl::SetLocalEffectsState method
+# IAudioLfxControl::SetLocalEffectsState
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.GetIntegerAttribute
-title: IWCNDevice::GetIntegerAttribute method
+title: IWCNDevice::GetIntegerAttribute
 author: windows-driver-content
 description: The GetIntegerAttribute method gets a cached attribute from the device as an integer.
 old-location: wcn\iwcndevice_getintegerattribute.htm
@@ -8,7 +8,7 @@ old-project: wcn
 ms.assetid: 95ad3427-c8c9-4ac9-8c8e-c9bedf855a37
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetIntegerAttribute method [Windows Connect Now], GetIntegerAttribute method [Windows Connect Now], IWCNDevice interface, GetIntegerAttribute,IWCNDevice.GetIntegerAttribute, IWCNDevice, IWCNDevice interface [Windows Connect Now], GetIntegerAttribute method, IWCNDevice::GetIntegerAttribute, wcn.iwcndevice_getintegerattribute, wcndevice/IWCNDevice::GetIntegerAttribute
+ms.keywords: GetIntegerAttribute, GetIntegerAttribute method [Windows Connect Now], GetIntegerAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetIntegerAttribute method, IWCNDevice.GetIntegerAttribute, IWCNDevice::GetIntegerAttribute, wcn.iwcndevice_getintegerattribute, wcndevice/IWCNDevice::GetIntegerAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWCNDevice::GetIntegerAttribute method
+# IWCNDevice::GetIntegerAttribute
 
 
 ## -description

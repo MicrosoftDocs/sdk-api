@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFSample.SetSampleTime
-title: IMFSample::SetSampleTime method
+title: IMFSample::SetSampleTime
 author: windows-driver-content
 description: Sets the presentation time of the sample.
 old-location: mf\imfsample_setsampletime.htm
 old-project: medfound
 ms.assetid: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc, IMFSample, IMFSample interface [Media Foundation], SetSampleTime method, IMFSample::SetSampleTime, SetSampleTime method [Media Foundation], SetSampleTime method [Media Foundation], IMFSample interface, SetSampleTime,IMFSample.SetSampleTime, mf.imfsample_setsampletime, mfobjects/IMFSample::SetSampleTime
+ms.date: 5/3/2018
+ms.keywords: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc, IMFSample interface [Media Foundation],SetSampleTime method, IMFSample.SetSampleTime, IMFSample::SetSampleTime, SetSampleTime, SetSampleTime method [Media Foundation], SetSampleTime method [Media Foundation],IMFSample interface, mf.imfsample_setsampletime, mfobjects/IMFSample::SetSampleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSample::SetSampleTime method
+# IMFSample::SetSampleTime
 
 
 ## -description

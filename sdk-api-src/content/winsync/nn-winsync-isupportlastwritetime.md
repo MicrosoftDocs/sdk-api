@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: b95e2b75-add7-4cdd-b18a-21918e9c8c08
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISupportLastWriteTime, ISupportLastWriteTime interface [Windows Sync], ISupportLastWriteTime interface [Windows Sync], described, winsync.isupportlastwritetime, winsync/ISupportLastWriteTime
+ms.keywords: ISupportLastWriteTime, ISupportLastWriteTime interface [Windows Sync], ISupportLastWriteTime interface [Windows Sync],described, winsync.isupportlastwritetime, winsync/ISupportLastWriteTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

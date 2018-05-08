@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannel.Close
-title: IWTSVirtualChannel::Close method
+title: IWTSVirtualChannel::Close
 author: windows-driver-content
 description: Closes the channel.
 old-location: termserv\iwtsvirtualchannel_close.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: b900789d-c7da-4974-8c46-72ea8ffd6892
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Close method [Remote Desktop Services], Close method [Remote Desktop Services], IWTSVirtualChannel interface, Close,IWTSVirtualChannel.Close, IWTSVirtualChannel, IWTSVirtualChannel interface [Remote Desktop Services], Close method, IWTSVirtualChannel::Close, termserv.iwtsvirtualchannel_close, tsvirtualchannels/IWTSVirtualChannel::Close
+ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWTSVirtualChannel interface, IWTSVirtualChannel interface [Remote Desktop Services],Close method, IWTSVirtualChannel.Close, IWTSVirtualChannel::Close, termserv.iwtsvirtualchannel_close, tsvirtualchannels/IWTSVirtualChannel::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWTSVirtualChannel::Close method
+# IWTSVirtualChannel::Close
 
 
 ## -description

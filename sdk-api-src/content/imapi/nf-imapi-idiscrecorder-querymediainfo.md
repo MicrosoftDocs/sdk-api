@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.QueryMediaInfo
-title: IDiscRecorder::QueryMediaInfo method
+title: IDiscRecorder::QueryMediaInfo
 author: windows-driver-content
 description: Retrieves information about the currently mounted media, such as the total number of blocks used on the media.
 old-location: imapi\idiscrecorder_querymediainfo.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 5e97d5e5-1a10-4ef2-b083-427d4070283f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscRecorder, IDiscRecorder interface [IMAPI], QueryMediaInfo method, IDiscRecorder::QueryMediaInfo, QueryMediaInfo method [IMAPI], QueryMediaInfo method [IMAPI], IDiscRecorder interface, QueryMediaInfo,IDiscRecorder.QueryMediaInfo, _win32_idiscrecorder_querymediainfo, base.idiscrecorder_querymediainfo, imapi.idiscrecorder_querymediainfo, imapi/IDiscRecorder::QueryMediaInfo
+ms.keywords: IDiscRecorder interface [IMAPI],QueryMediaInfo method, IDiscRecorder.QueryMediaInfo, IDiscRecorder::QueryMediaInfo, QueryMediaInfo, QueryMediaInfo method [IMAPI], QueryMediaInfo method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_querymediainfo, base.idiscrecorder_querymediainfo, imapi.idiscrecorder_querymediainfo, imapi/IDiscRecorder::QueryMediaInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder::QueryMediaInfo method
+# IDiscRecorder::QueryMediaInfo
 
 
 ## -description

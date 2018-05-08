@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.Update
-title: ITextDocument2::Update method
+title: ITextDocument2::Update
 author: windows-driver-content
 description: Updates the selection and caret.
 old-location: controls\itextdocument2_update.htm
 old-project: Controls
 ms.assetid: 0ac5c944-227d-4ba3-afcf-ccb969902383
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], Update method, ITextDocument2::Update, Update method [Windows Controls], Update method [Windows Controls], ITextDocument2 interface, Update,ITextDocument2.Update, controls.itextdocument2_update, tom/ITextDocument2::Update
+ms.date: 4/27/2018
+ms.keywords: ITextDocument2 interface [Windows Controls],Update method, ITextDocument2.Update, ITextDocument2::Update, Update, Update method [Windows Controls], Update method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_update, tom/ITextDocument2::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::Update method
+# ITextDocument2::Update
 
 
 ## -description

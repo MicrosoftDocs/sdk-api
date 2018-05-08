@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.SetOverlapping
-title: ITextFont2::SetOverlapping method
+title: ITextFont2::SetOverlapping
 author: windows-driver-content
 description: Sets whether overlapping text is active.
 old-location: controls\itextfont2_setoverlapping.htm
 old-project: Controls
 ms.assetid: 40addd31-5c0e-45bd-a649-c65973ae8340
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetOverlapping method, ITextFont2::SetOverlapping, SetOverlapping method [Windows Controls], SetOverlapping method [Windows Controls], ITextFont2 interface, SetOverlapping,ITextFont2.SetOverlapping, controls.itextfont2_setoverlapping, tom/ITextFont2::SetOverlapping
+ms.date: 4/27/2018
+ms.keywords: ITextFont2 interface [Windows Controls],SetOverlapping method, ITextFont2.SetOverlapping, ITextFont2::SetOverlapping, SetOverlapping, SetOverlapping method [Windows Controls], SetOverlapping method [Windows Controls],ITextFont2 interface, controls.itextfont2_setoverlapping, tom/ITextFont2::SetOverlapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::SetOverlapping method
+# ITextFont2::SetOverlapping
 
 
 ## -description

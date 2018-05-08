@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMTranscryptor.Close
-title: IWMDRMTranscryptor::Close method
+title: IWMDRMTranscryptor::Close
 author: windows-driver-content
 description: The Close method unloads the file from the DRM transcryptor and releases all associated resources.
 old-location: wmformat\iwmdrmtranscryptor_close.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c277e3fa-069d-4eaf-947c-220730c5d61e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Close method [windows Media Format], Close method [windows Media Format], IWMDRMTranscryptor interface, Close,IWMDRMTranscryptor.Close, IWMDRMTranscryptor, IWMDRMTranscryptor interface [windows Media Format], Close method, IWMDRMTranscryptor::Close, IWMDRMTranscryptorClose, wmformat.iwmdrmtranscryptor_close, wmsdkidl/IWMDRMTranscryptor::Close
+ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMDRMTranscryptor interface, IWMDRMTranscryptor interface [windows Media Format],Close method, IWMDRMTranscryptor.Close, IWMDRMTranscryptor::Close, IWMDRMTranscryptorClose, wmformat.iwmdrmtranscryptor_close, wmsdkidl/IWMDRMTranscryptor::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMTranscryptor::Close method
+# IWMDRMTranscryptor::Close
 
 
 ## -description

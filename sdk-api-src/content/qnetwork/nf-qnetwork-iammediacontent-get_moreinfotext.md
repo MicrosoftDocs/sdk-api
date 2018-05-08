@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_MoreInfoText
-title: IAMMediaContent::get_MoreInfoText method
+title: IAMMediaContent::get_MoreInfoText
 author: windows-driver-content
 description: The get_MoreInfoText method retrieves additional information as text.
 old-location: dshow\iammediacontent_get_moreinfotext.htm
 old-project: DirectShow
 ms.assetid: 4a511c86-0a3a-48d3-8a3a-2ab52ff7dcea
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_MoreInfoText method, IAMMediaContent::get_MoreInfoText, IAMMediaContentget_MoreInfoText, dshow.iammediacontent_get_moreinfotext, get_MoreInfoText method [DirectShow], get_MoreInfoText method [DirectShow], IAMMediaContent interface, get_MoreInfoText,IAMMediaContent.get_MoreInfoText, qnetwork/IAMMediaContent::get_MoreInfoText
+ms.date: 4/30/2018
+ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoText method, IAMMediaContent.get_MoreInfoText, IAMMediaContent::get_MoreInfoText, IAMMediaContentget_MoreInfoText, dshow.iammediacontent_get_moreinfotext, get_MoreInfoText, get_MoreInfoText method [DirectShow], get_MoreInfoText method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMMediaContent::get_MoreInfoText method
+# IAMMediaContent::get_MoreInfoText
 
 
 ## -description

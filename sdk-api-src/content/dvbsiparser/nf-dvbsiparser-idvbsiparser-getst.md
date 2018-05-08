@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetST
-title: IDvbSiParser::GetST method
+title: IDvbSiParser::GetST
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_getst.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 417f7651-dd6f-4399-8a32-d1b7505efb71
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetST method [Microsoft TV Technologies], GetST method [Microsoft TV Technologies], IDvbSiParser interface, GetST,IDvbSiParser.GetST, IDvbSiParser, IDvbSiParser interface [Microsoft TV Technologies], GetST method, IDvbSiParser::GetST, IDvbSiParserGetST, dvbsiparser/IDvbSiParser::GetST, mstv.idvbsiparser_getst
+ms.keywords: GetST, GetST method [Microsoft TV Technologies], GetST method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetST method, IDvbSiParser.GetST, IDvbSiParser::GetST, IDvbSiParserGetST, dvbsiparser/IDvbSiParser::GetST, mstv.idvbsiparser_getst
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbSiParser::GetST method
+# IDvbSiParser::GetST
 
 
 ## -description

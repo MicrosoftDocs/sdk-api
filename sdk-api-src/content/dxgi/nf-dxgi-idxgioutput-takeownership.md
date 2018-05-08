@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.TakeOwnership
-title: IDXGIOutput::TakeOwnership method
+title: IDXGIOutput::TakeOwnership
 author: windows-driver-content
 description: Takes ownership of an output.
 old-location: direct3ddxgi\idxgioutput_takeownership.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_takeownership.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIOutput, IDXGIOutput interface [DXGI], TakeOwnership method, IDXGIOutput::TakeOwnership, TakeOwnership method [DXGI], TakeOwnership method [DXGI], IDXGIOutput interface, TakeOwnership,IDXGIOutput.TakeOwnership, bb1e2d75-a9d5-a0db-2197-ed0246f07a00, direct3ddxgi.idxgioutput_takeownership, dxgi/IDXGIOutput::TakeOwnership
+ms.keywords: IDXGIOutput interface [DXGI],TakeOwnership method, IDXGIOutput.TakeOwnership, IDXGIOutput::TakeOwnership, TakeOwnership, TakeOwnership method [DXGI], TakeOwnership method [DXGI],IDXGIOutput interface, bb1e2d75-a9d5-a0db-2197-ed0246f07a00, direct3ddxgi.idxgioutput_takeownership, dxgi/IDXGIOutput::TakeOwnership
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput::TakeOwnership method
+# IDXGIOutput::TakeOwnership
 
 
 ## -description

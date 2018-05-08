@@ -89,8 +89,7 @@ A <b>GUID</b> that uniquely identifies the  reparse point. When setting a repars
 ### -field GenericReparseBuffer
 
 
-
-#### DataBuffer
+### -field GenericReparseBuffer.DataBuffer
 
 The user-defined data for the reparse point. The contents are determined by the reparse point implementer. 
        The tag in the <b>ReparseTag</b> member and the <b>GUID</b> in the 

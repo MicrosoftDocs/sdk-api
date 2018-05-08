@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.GetProviderInstanceID
-title: IFunctionInstance::GetProviderInstanceID method
+title: IFunctionInstance::GetProviderInstanceID
 author: windows-driver-content
 description: Gets the identifier string for the provider instance.
 old-location: ncd\ifunctioninstance_getproviderinstanceid_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: fad5e3f0-a440-4b09-ba8c-04bae2d14a2a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetProviderInstanceID method, GetProviderInstanceID method, IFunctionInstance interface, GetProviderInstanceID,IFunctionInstance.GetProviderInstanceID, IFunctionInstance, IFunctionInstance interface, GetProviderInstanceID method, IFunctionInstance::GetProviderInstanceID, functiondiscoveryapi/IFunctionInstance::GetProviderInstanceID, ncd.ifunctioninstance_getproviderinstanceid_method
+ms.keywords: GetProviderInstanceID, GetProviderInstanceID method, GetProviderInstanceID method,IFunctionInstance interface, IFunctionInstance interface,GetProviderInstanceID method, IFunctionInstance.GetProviderInstanceID, IFunctionInstance::GetProviderInstanceID, functiondiscoveryapi/IFunctionInstance::GetProviderInstanceID, ncd.ifunctioninstance_getproviderinstanceid_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionInstance::GetProviderInstanceID method
+# IFunctionInstance::GetProviderInstanceID
 
 
 ## -description

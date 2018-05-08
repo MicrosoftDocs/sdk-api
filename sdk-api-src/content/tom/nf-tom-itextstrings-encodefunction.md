@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextStrings.EncodeFunction
-title: ITextStrings::EncodeFunction method
+title: ITextStrings::EncodeFunction
 author: windows-driver-content
 description: Encodes an object, given a set of argument strings.
 old-location: controls\itextstrings_encodefunction.htm
 old-project: Controls
 ms.assetid: f22bb343-4fcc-4473-84cc-807011b5a7b0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: EncodeFunction method [Windows Controls], EncodeFunction method [Windows Controls], ITextStrings interface, EncodeFunction,ITextStrings.EncodeFunction, ITextStrings, ITextStrings interface [Windows Controls], EncodeFunction method, ITextStrings::EncodeFunction, controls.itextstrings_encodefunction, tom/ITextStrings::EncodeFunction
+ms.date: 4/27/2018
+ms.keywords: EncodeFunction, EncodeFunction method [Windows Controls], EncodeFunction method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],EncodeFunction method, ITextStrings.EncodeFunction, ITextStrings::EncodeFunction, controls.itextstrings_encodefunction, tom/ITextStrings::EncodeFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStrings::EncodeFunction method
+# ITextStrings::EncodeFunction
 
 
 ## -description

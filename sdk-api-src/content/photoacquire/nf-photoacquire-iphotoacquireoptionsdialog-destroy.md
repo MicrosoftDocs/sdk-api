@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.Destroy
-title: IPhotoAcquireOptionsDialog::Destroy method
+title: IPhotoAcquireOptionsDialog::Destroy
 author: windows-driver-content
 description: The Destroy method closes and destroys the modeless dialog box created with the Create method.
 old-location: picacq\iphotoacquireoptionsdialog_destroy.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 787e12e9-b134-416a-9191-5a2cc6a922fd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Destroy method [Picture Acquisition], Destroy method [Picture Acquisition], IPhotoAcquireOptionsDialog interface, Destroy,IPhotoAcquireOptionsDialog.Destroy, IPhotoAcquireOptionsDialog, IPhotoAcquireOptionsDialog interface [Picture Acquisition], Destroy method, IPhotoAcquireOptionsDialog::Destroy, IPhotoAcquireOptionsDialogDestroy, photoacquire/IPhotoAcquireOptionsDialog::Destroy, picacq.iphotoacquireoptionsdialog_destroy
+ms.keywords: Destroy, Destroy method [Picture Acquisition], Destroy method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, IPhotoAcquireOptionsDialog interface [Picture Acquisition],Destroy method, IPhotoAcquireOptionsDialog.Destroy, IPhotoAcquireOptionsDialog::Destroy, IPhotoAcquireOptionsDialogDestroy, photoacquire/IPhotoAcquireOptionsDialog::Destroy, picacq.iphotoacquireoptionsdialog_destroy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireOptionsDialog::Destroy method
+# IPhotoAcquireOptionsDialog::Destroy
 
 
 ## -description

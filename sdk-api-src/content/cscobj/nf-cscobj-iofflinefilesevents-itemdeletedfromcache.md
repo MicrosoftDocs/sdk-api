@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemDeletedFromCache
-title: IOfflineFilesEvents::ItemDeletedFromCache method
+title: IOfflineFilesEvents::ItemDeletedFromCache
 author: windows-driver-content
 description: Reports that an item has been removed from the Offline Files cache.
 old-location: of\iofflinefilesevents_itemdeletedfromcache.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 358b358a-65cc-4f37-8beb-be492b83c222
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], ItemDeletedFromCache method, IOfflineFilesEvents::ItemDeletedFromCache, ItemDeletedFromCache method [Offline Files], ItemDeletedFromCache method [Offline Files], IOfflineFilesEvents interface, ItemDeletedFromCache,IOfflineFilesEvents.ItemDeletedFromCache, cscobj/IOfflineFilesEvents::ItemDeletedFromCache, of.iofflinefilesevents_itemdeletedfromcache
+ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemDeletedFromCache method, IOfflineFilesEvents.ItemDeletedFromCache, IOfflineFilesEvents::ItemDeletedFromCache, ItemDeletedFromCache, ItemDeletedFromCache method [Offline Files], ItemDeletedFromCache method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemDeletedFromCache, of.iofflinefilesevents_itemdeletedfromcache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents::ItemDeletedFromCache method
+# IOfflineFilesEvents::ItemDeletedFromCache
 
 
 ## -description

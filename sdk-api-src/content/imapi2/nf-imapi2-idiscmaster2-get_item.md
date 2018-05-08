@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscMaster2.get_Item
-title: IDiscMaster2::get_Item method
+title: IDiscMaster2::get_Item
 author: windows-driver-content
 description: Retrieves the unique identifier of the specified disc device.
 old-location: imapi\idiscmaster2_get_item.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: e909acb9-850b-404d-a2f7-efb37faf3506
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscMaster2, IDiscMaster2 interface [IMAPI], get_Item method, IDiscMaster2::get_Item, get_Item method [IMAPI], get_Item method [IMAPI], IDiscMaster2 interface, get_Item,IDiscMaster2.get_Item, imapi.idiscmaster2_get_item, imapi2/IDiscMaster2::get_Item
+ms.keywords: IDiscMaster2 interface [IMAPI],get_Item method, IDiscMaster2.get_Item, IDiscMaster2::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_item, imapi2/IDiscMaster2::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscMaster2::get_Item method
+# IDiscMaster2::get_Item
 
 
 ## -description

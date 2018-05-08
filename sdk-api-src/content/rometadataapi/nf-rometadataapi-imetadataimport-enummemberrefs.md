@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMemberRefs
-title: IMetaDataImport::EnumMemberRefs method
+title: IMetaDataImport::EnumMemberRefs
 author: windows-driver-content
 description: Enumerates MemberRef tokens representing members of the specified type.
 old-location: winrt\imetadataimport_enummemberrefs.htm
 old-project: WinRT
 ms.assetid: 900777d4-14fc-4d64-a01c-395f5fafe5e4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumMemberRefs method [Windows Runtime], EnumMemberRefs method [Windows Runtime], IMetaDataImport interface, EnumMemberRefs,IMetaDataImport.EnumMemberRefs, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumMemberRefs method, IMetaDataImport::EnumMemberRefs, rometadataapi/IMetaDataImport::EnumMemberRefs, winrt.imetadataimport_enummemberrefs
+ms.date: 5/4/2018
+ms.keywords: EnumMemberRefs, EnumMemberRefs method [Windows Runtime], EnumMemberRefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMemberRefs method, IMetaDataImport.EnumMemberRefs, IMetaDataImport::EnumMemberRefs, rometadataapi/IMetaDataImport::EnumMemberRefs, winrt.imetadataimport_enummemberrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumMemberRefs method
+# IMetaDataImport::EnumMemberRefs
 
 
 ## -description

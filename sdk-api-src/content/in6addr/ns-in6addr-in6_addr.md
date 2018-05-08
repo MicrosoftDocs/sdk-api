@@ -7,7 +7,7 @@ old-location: netvista\in6_addr.htm
 old-project: netvista
 ms.assetid: 218b07e8-94cf-42f2-a762-13fc1f7c4473
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPIN6_ADDR, *PIN6_ADDR, IN6_ADDR, IN6_ADDR structure [Network Drivers Starting with Windows Vista], LPIN6_ADDR, LPIN6_ADDR structure pointer [Network Drivers Starting with Windows Vista], PIN6_ADDR, PIN6_ADDR structure pointer [Network Drivers Starting with Windows Vista], in6_addr, in6addr/IN6_ADDR, in6addr/LPIN6_ADDR, in6addr/PIN6_ADDR, netvista.in6_addr, wskref_fd9f043f-fd21-4d2e-b683-0437cf3523c1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,14 +64,12 @@ A union that contains the following different representations of the IPv6 transp
      address:
 
 
-
-#### Byte
+### -field u.Byte
 
 An array that contains 16 UCHAR-typed values.
 
 
-
-#### Word
+### -field u.Word
 
 An array that contains eight USHORT-typed values.
 

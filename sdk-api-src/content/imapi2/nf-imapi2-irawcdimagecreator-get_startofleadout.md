@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_StartOfLeadout
-title: IRawCDImageCreator::get_StartOfLeadout method
+title: IRawCDImageCreator::get_StartOfLeadout
 author: windows-driver-content
 description: Retrieves the value that defines the LBA for the start of the Leadout. This method can be utilized to determine if the image can be written to a piece of media by comparing it against the LastPossibleStartOfLeadout for the media.
 old-location: imapi\irawcdimagecreator_get_startofleadout.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 5bf40179-31f5-453f-a989-4bcd116a45aa
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], get_StartOfLeadout method, IRawCDImageCreator::get_StartOfLeadout, get_StartOfLeadout method [IMAPI], get_StartOfLeadout method [IMAPI], IRawCDImageCreator interface, get_StartOfLeadout,IRawCDImageCreator.get_StartOfLeadout, imapi.irawcdimagecreator_get_startofleadout, imapi2/IRawCDImageCreator::get_StartOfLeadout
+ms.keywords: IRawCDImageCreator interface [IMAPI],get_StartOfLeadout method, IRawCDImageCreator.get_StartOfLeadout, IRawCDImageCreator::get_StartOfLeadout, get_StartOfLeadout, get_StartOfLeadout method [IMAPI], get_StartOfLeadout method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_startofleadout, imapi2/IRawCDImageCreator::get_StartOfLeadout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRawCDImageCreator::get_StartOfLeadout method
+# IRawCDImageCreator::get_StartOfLeadout
 
 
 ## -description

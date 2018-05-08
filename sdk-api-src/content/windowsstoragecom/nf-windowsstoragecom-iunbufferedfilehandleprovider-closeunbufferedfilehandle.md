@@ -1,14 +1,14 @@
 ---
 UID: NF:windowsstoragecom.IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle
-title: IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle method
+title: IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle
 author: windows-driver-content
 description: Closes the handle from a random-access byte stream that you created by calling IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle.
 old-location: winrt\iunbufferedfilehandleprovider_closeunbufferedfilehandle.htm
 old-project: WinRT
 ms.assetid: 8D6CD3A2-0CCD-49F4-86B3-99823A6E4EA8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CloseUnbufferedFileHandle method [Windows Runtime], CloseUnbufferedFileHandle method [Windows Runtime], IUnbufferedFileHandleProvider interface, CloseUnbufferedFileHandle,IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle, IUnbufferedFileHandleProvider, IUnbufferedFileHandleProvider interface [Windows Runtime], CloseUnbufferedFileHandle method, IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle, windowsstoragecom/IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle, winrt.iunbufferedfilehandleprovider_closeunbufferedfilehandle
+ms.date: 5/4/2018
+ms.keywords: CloseUnbufferedFileHandle, CloseUnbufferedFileHandle method [Windows Runtime], CloseUnbufferedFileHandle method [Windows Runtime],IUnbufferedFileHandleProvider interface, IUnbufferedFileHandleProvider interface [Windows Runtime],CloseUnbufferedFileHandle method, IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle, IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle, windowsstoragecom/IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle, winrt.iunbufferedfilehandleprovider_closeunbufferedfilehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle method
+# IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsGrp.get_Count
-title: IMtsGrp::get_Count method
+title: IMtsGrp::get_Count
 author: windows-driver-content
 description: Retrieves the number of running packages in the catalog.
 old-location: cos\imtsgrp_get_count.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 84d1d2e1-ea06-4e3f-81d9-bb2ed02cf021
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IMtsGrp, IMtsGrp interface [COM+], get_Count method, IMtsGrp::get_Count, _dtc_IMtsGrp_get_Count, comsvcs/IMtsGrp::get_Count, cos.imtsgrp_get_count, get_Count method [COM+], get_Count method [COM+], IMtsGrp interface, get_Count,IMtsGrp.get_Count
+ms.keywords: IMtsGrp interface [COM+],get_Count method, IMtsGrp.get_Count, IMtsGrp::get_Count, _dtc_IMtsGrp_get_Count, comsvcs/IMtsGrp::get_Count, cos.imtsgrp_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],IMtsGrp interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMtsGrp::get_Count method
+# IMtsGrp::get_Count
 
 
 ## -description

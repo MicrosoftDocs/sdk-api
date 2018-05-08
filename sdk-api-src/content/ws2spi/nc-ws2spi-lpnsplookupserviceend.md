@@ -7,7 +7,7 @@ old-location: winsock\nsplookupserviceend_2.htm
 old-project: WinSock
 ms.assetid: ec72c89a-a74b-449c-996a-02057dff9137
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: LPNSPLOOKUPSERVICEEND, NSPLookupServiceEnd, NSPLookupServiceEnd function [Winsock], _win32_nsplookupserviceend_2, winsock.nsplookupserviceend_2, ws2spi/NSPLookupServiceEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# LPNSPLOOKUPSERVICEEND callback
+# LPNSPLOOKUPSERVICEEND callback function
 
 
 ## -description

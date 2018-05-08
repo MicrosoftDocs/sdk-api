@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetStreamSourceFreq
-title: IDirect3DDevice9::GetStreamSourceFreq method
+title: IDirect3DDevice9::GetStreamSourceFreq
 author: windows-driver-content
 description: Gets the stream source frequency divider value.
 old-location: direct3d9\idirect3ddevice9__getstreamsourcefreq.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getstreamsourcefreq.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 5a7d1b69-c1ef-f38d-2536-b01c718bd9b6, GetStreamSourceFreq method [Direct3D 9], GetStreamSourceFreq method [Direct3D 9], IDirect3DDevice9 interface, GetStreamSourceFreq,IDirect3DDevice9.GetStreamSourceFreq, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetStreamSourceFreq method, IDirect3DDevice9::GetStreamSourceFreq, d3d9helper/IDirect3DDevice9::GetStreamSourceFreq, direct3d9.idirect3ddevice9__getstreamsourcefreq
+ms.keywords: 5a7d1b69-c1ef-f38d-2536-b01c718bd9b6, GetStreamSourceFreq, GetStreamSourceFreq method [Direct3D 9], GetStreamSourceFreq method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetStreamSourceFreq method, IDirect3DDevice9.GetStreamSourceFreq, IDirect3DDevice9::GetStreamSourceFreq, d3d9helper/IDirect3DDevice9::GetStreamSourceFreq, direct3d9.idirect3ddevice9__getstreamsourcefreq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::GetStreamSourceFreq method
+# IDirect3DDevice9::GetStreamSourceFreq
 
 
 ## -description

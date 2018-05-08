@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSettings.get_isAvailable
-title: IWMPSettings::get_isAvailable method
+title: IWMPSettings::get_isAvailable
 author: windows-driver-content
 description: The get_isAvailable method indicates whether a specified action can be performed.
 old-location: wmp\iwmpsettings_get_isavailable.htm
 old-project: WMP
 ms.assetid: 0773792f-4046-4d58-9673-cbfef0ec5bf5
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], get_isAvailable method, IWMPSettings::get_isAvailable, IWMPSettingsget_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player], IWMPSettings interface, get_isAvailable,IWMPSettings.get_isAvailable, wmp.iwmpsettings_get_isavailable, wmp/IWMPSettings::get_isAvailable
+ms.date: 5/4/2018
+ms.keywords: IWMPSettings interface [Windows Media Player],get_isAvailable method, IWMPSettings.get_isAvailable, IWMPSettings::get_isAvailable, IWMPSettingsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_isavailable, wmp/IWMPSettings::get_isAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSettings::get_isAvailable method
+# IWMPSettings::get_isAvailable
 
 
 ## -description

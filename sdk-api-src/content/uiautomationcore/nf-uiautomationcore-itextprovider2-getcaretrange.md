@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextProvider2.GetCaretRange
-title: ITextProvider2::GetCaretRange method
+title: ITextProvider2::GetCaretRange
 author: windows-driver-content
 description: Provides a zero-length text range at the location of the caret that belongs to the text-based control.
 old-location: winauto\uiauto_ITextProvider2_GetCaretRange.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9DD77361-25E8-40A3-BDF4-AFE06F9D36F4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCaretRange method [Windows Accessibility], GetCaretRange method [Windows Accessibility], ITextProvider2 interface, GetCaretRange,ITextProvider2.GetCaretRange, ITextProvider2, ITextProvider2 interface [Windows Accessibility], GetCaretRange method, ITextProvider2::GetCaretRange, uiautomationcore/ITextProvider2::GetCaretRange, winauto.uiauto_ITextProvider2_GetCaretRange
+ms.keywords: GetCaretRange, GetCaretRange method [Windows Accessibility], GetCaretRange method [Windows Accessibility],ITextProvider2 interface, ITextProvider2 interface [Windows Accessibility],GetCaretRange method, ITextProvider2.GetCaretRange, ITextProvider2::GetCaretRange, uiautomationcore/ITextProvider2::GetCaretRange, winauto.uiauto_ITextProvider2_GetCaretRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextProvider2::GetCaretRange method
+# ITextProvider2::GetCaretRange
 
 
 ## -description

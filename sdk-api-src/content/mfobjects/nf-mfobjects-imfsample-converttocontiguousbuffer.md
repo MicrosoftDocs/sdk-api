@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFSample.ConvertToContiguousBuffer
-title: IMFSample::ConvertToContiguousBuffer method
+title: IMFSample::ConvertToContiguousBuffer
 author: windows-driver-content
 description: Converts a sample with multiple buffers into a sample with a single buffer.
 old-location: mf\imfsample_converttocontiguousbuffer.htm
 old-project: medfound
 ms.assetid: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66, ConvertToContiguousBuffer method [Media Foundation], ConvertToContiguousBuffer method [Media Foundation], IMFSample interface, ConvertToContiguousBuffer,IMFSample.ConvertToContiguousBuffer, IMFSample, IMFSample interface [Media Foundation], ConvertToContiguousBuffer method, IMFSample::ConvertToContiguousBuffer, mf.imfsample_converttocontiguousbuffer, mfobjects/IMFSample::ConvertToContiguousBuffer
+ms.date: 5/3/2018
+ms.keywords: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66, ConvertToContiguousBuffer, ConvertToContiguousBuffer method [Media Foundation], ConvertToContiguousBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],ConvertToContiguousBuffer method, IMFSample.ConvertToContiguousBuffer, IMFSample::ConvertToContiguousBuffer, mf.imfsample_converttocontiguousbuffer, mfobjects/IMFSample::ConvertToContiguousBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSample::ConvertToContiguousBuffer method
+# IMFSample::ConvertToContiguousBuffer
 
 
 ## -description

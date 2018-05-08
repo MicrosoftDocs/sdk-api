@@ -1,14 +1,14 @@
 ---
 UID: NF:micaut.IMathInputControl.GetPosition
-title: IMathInputControl::GetPosition method
+title: IMathInputControl::GetPosition
 author: windows-driver-content
 description: Retrieves the position and size of the control.
 old-location: tablet\imathinputcontrol_getposition.htm
 old-project: tablet
 ms.assetid: 4928f92d-7150-434c-abe4-d65a48ce1a56
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetPosition method [Tablet PC], GetPosition method [Tablet PC], IMathInputControl interface, GetPosition,IMathInputControl.GetPosition, IMathInputControl, IMathInputControl interface [Tablet PC], GetPosition method, IMathInputControl::GetPosition, micaut/IMathInputControl::GetPosition, tablet.imathinputcontrol_getposition
+ms.date: 5/2/2018
+ms.keywords: GetPosition, GetPosition method [Tablet PC], GetPosition method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetPosition method, IMathInputControl.GetPosition, IMathInputControl::GetPosition, micaut/IMathInputControl::GetPosition, tablet.imathinputcontrol_getposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMathInputControl::GetPosition method
+# IMathInputControl::GetPosition
 
 
 ## -description

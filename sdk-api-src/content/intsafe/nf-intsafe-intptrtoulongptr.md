@@ -7,7 +7,7 @@ old-location: shell\IntPtrToDWordPtr.htm
 old-project: shell
 ms.assetid: 8db60307-c88d-4251-a7d0-dace412700f4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: IntPtrToDWordPtr, IntPtrToDWordPtr function [Windows Shell], IntPtrToULongPtr, _shell_IntPtrToDWordPtr, intsafe/IntPtrToDWordPtr, shell.IntPtrToDWordPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

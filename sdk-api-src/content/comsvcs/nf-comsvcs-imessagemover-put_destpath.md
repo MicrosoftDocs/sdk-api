@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMessageMover.put_DestPath
-title: IMessageMover::put_DestPath method
+title: IMessageMover::put_DestPath
 author: windows-driver-content
 description: Sets the path of the destination (output) queue.
 old-location: cos\imessagemover_put_destpath.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 79ed8030-097d-4017-be8e-e812f4b14a46
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IMessageMover, IMessageMover interface [COM+], put_DestPath method, IMessageMover::put_DestPath, comsvcs/IMessageMover::put_DestPath, cos.imessagemover_put_destpath, put_DestPath method [COM+], put_DestPath method [COM+], IMessageMover interface, put_DestPath,IMessageMover.put_DestPath
+ms.keywords: IMessageMover interface [COM+],put_DestPath method, IMessageMover.put_DestPath, IMessageMover::put_DestPath, comsvcs/IMessageMover::put_DestPath, cos.imessagemover_put_destpath, put_DestPath, put_DestPath method [COM+], put_DestPath method [COM+],IMessageMover interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMessageMover::put_DestPath method
+# IMessageMover::put_DestPath
 
 
 ## -description

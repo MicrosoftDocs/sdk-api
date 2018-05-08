@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CurrentCurrentSelectedItem
-title: IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem method
+title: IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem
 author: windows-driver-content
 description: Gets an IUIAutomationElement object representing the currently selected item.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CurrentCurrentSelectedItem.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: EAADE4DE-4255-4E70-A498-0EB786818D27
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentCurrentSelectedItem property [Windows Accessibility], CurrentCurrentSelectedItem property [Windows Accessibility], IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2, IUIAutomationSelectionPattern2 interface [Windows Accessibility], CurrentCurrentSelectedItem property, IUIAutomationSelectionPattern2.CurrentCurrentSelectedItem, IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem, get_CurrentCurrentSelectedItem,IUIAutomationSelectionPattern2.get_CurrentCurrentSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CurrentCurrentSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CurrentCurrentSelectedItem
+ms.keywords: CurrentCurrentSelectedItem property [Windows Accessibility], CurrentCurrentSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CurrentCurrentSelectedItem property, IUIAutomationSelectionPattern2.CurrentCurrentSelectedItem, IUIAutomationSelectionPattern2.get_CurrentCurrentSelectedItem, IUIAutomationSelectionPattern2::CurrentCurrentSelectedItem, IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem, get_CurrentCurrentSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CurrentCurrentSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CurrentCurrentSelectedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem method
+# IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem
 
 
 ## -description

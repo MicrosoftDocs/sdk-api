@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.Init
-title: ISyncProviderConfigUI::Init method
+title: ISyncProviderConfigUI::Init
 author: windows-driver-content
 description: Initializes the configuration UI for a synchronization provider.
 old-location: winsync\isyncproviderconfigui_init.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: c4705bc9-c5ab-46f9-ace8-7e96c16dfb75
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncProviderConfigUI, ISyncProviderConfigUI interface [Windows Sync], Init method, ISyncProviderConfigUI::Init, Init method [Windows Sync], Init method [Windows Sync], ISyncProviderConfigUI interface, Init,ISyncProviderConfigUI.Init, syncregistration/ISyncProviderConfigUI::Init, winsync.isyncproviderconfigui_init
+ms.keywords: ISyncProviderConfigUI interface [Windows Sync],Init method, ISyncProviderConfigUI.Init, ISyncProviderConfigUI::Init, Init, Init method [Windows Sync], Init method [Windows Sync],ISyncProviderConfigUI interface, syncregistration/ISyncProviderConfigUI::Init, winsync.isyncproviderconfigui_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderConfigUI::Init method
+# ISyncProviderConfigUI::Init
 
 
 ## -description

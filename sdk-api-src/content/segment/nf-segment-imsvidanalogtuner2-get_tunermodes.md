@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner2.get_TunerModes
-title: IMSVidAnalogTuner2::get_TunerModes method
+title: IMSVidAnalogTuner2::get_TunerModes
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\imsvidanalogtuner2_get_tunermodes.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: dc5652d4-aa1d-480e-a5f4-05ed9d9b1887
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidAnalogTuner2, IMSVidAnalogTuner2 interface [Microsoft TV Technologies], get_TunerModes method, IMSVidAnalogTuner2::get_TunerModes, IMSVidAnalogTuner2getTunerModes, get_TunerModes method [Microsoft TV Technologies], get_TunerModes method [Microsoft TV Technologies], IMSVidAnalogTuner2 interface, get_TunerModes,IMSVidAnalogTuner2.get_TunerModes, mstv.imsvidanalogtuner2_get_tunermodes, segment/IMSVidAnalogTuner2::get_TunerModes
+ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_TunerModes method, IMSVidAnalogTuner2.get_TunerModes, IMSVidAnalogTuner2::get_TunerModes, IMSVidAnalogTuner2getTunerModes, get_TunerModes, get_TunerModes method [Microsoft TV Technologies], get_TunerModes method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_tunermodes, segment/IMSVidAnalogTuner2::get_TunerModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidAnalogTuner2::get_TunerModes method
+# IMSVidAnalogTuner2::get_TunerModes
 
 
 ## -description

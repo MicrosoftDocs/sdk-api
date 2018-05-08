@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTranscodeSinkInfoProvider.GetSinkInfo
-title: IMFTranscodeSinkInfoProvider::GetSinkInfo method
+title: IMFTranscodeSinkInfoProvider::GetSinkInfo
 author: windows-driver-content
 description: Gets the media types for the audio and video streams specified in the transcode profile.
 old-location: mf\imftranscodesinkinfoprovider_getsinkinfo.htm
 old-project: medfound
 ms.assetid: d880e13a-879e-4882-a69d-f1920225e478
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetSinkInfo method [Media Foundation], GetSinkInfo method [Media Foundation], IMFTranscodeSinkInfoProvider interface, GetSinkInfo,IMFTranscodeSinkInfoProvider.GetSinkInfo, IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], GetSinkInfo method, IMFTranscodeSinkInfoProvider::GetSinkInfo, mf.imftranscodesinkinfoprovider_getsinkinfo, mfidl/IMFTranscodeSinkInfoProvider::GetSinkInfo
+ms.date: 5/3/2018
+ms.keywords: GetSinkInfo, GetSinkInfo method [Media Foundation], GetSinkInfo method [Media Foundation],IMFTranscodeSinkInfoProvider interface, IMFTranscodeSinkInfoProvider interface [Media Foundation],GetSinkInfo method, IMFTranscodeSinkInfoProvider.GetSinkInfo, IMFTranscodeSinkInfoProvider::GetSinkInfo, mf.imftranscodesinkinfoprovider_getsinkinfo, mfidl/IMFTranscodeSinkInfoProvider::GetSinkInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTranscodeSinkInfoProvider::GetSinkInfo method
+# IMFTranscodeSinkInfoProvider::GetSinkInfo
 
 
 ## -description

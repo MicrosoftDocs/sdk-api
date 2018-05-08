@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResource.SetContent
-title: IXpsOMImageResource::SetContent method
+title: IXpsOMImageResource::SetContent
 author: windows-driver-content
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomimageresource_setcontent.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 91dc565f-4ccb-497c-b5d2-f9b60884b094
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMImageResource, IXpsOMImageResource interface [XPS Documents and Packaging], SetContent method, IXpsOMImageResource::SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging], IXpsOMImageResource interface, SetContent,IXpsOMImageResource.SetContent, xps.ixpsomimageresource_setcontent, xpsobjectmodel/IXpsOMImageResource::SetContent
+ms.keywords: IXpsOMImageResource interface [XPS Documents and Packaging],SetContent method, IXpsOMImageResource.SetContent, IXpsOMImageResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMImageResource interface, xps.ixpsomimageresource_setcontent, xpsobjectmodel/IXpsOMImageResource::SetContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMImageResource::SetContent method
+# IXpsOMImageResource::SetContent
 
 
 ## -description

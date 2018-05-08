@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.StartPreview
-title: IMFCaptureEngine::StartPreview method
+title: IMFCaptureEngine::StartPreview
 author: windows-driver-content
 description: Starts preview.
 old-location: mf\imfcaptureengine_startpreview.htm
 old-project: medfound
 ms.assetid: C5BCF990-E7F9-48E9-B082-79953F5ED27C
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], StartPreview method, IMFCaptureEngine::StartPreview, StartPreview method [Media Foundation], StartPreview method [Media Foundation], IMFCaptureEngine interface, StartPreview,IMFCaptureEngine.StartPreview, mf.imfcaptureengine_startpreview, mfcaptureengine/IMFCaptureEngine::StartPreview
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureEngine interface [Media Foundation],StartPreview method, IMFCaptureEngine.StartPreview, IMFCaptureEngine::StartPreview, StartPreview, StartPreview method [Media Foundation], StartPreview method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_startpreview, mfcaptureengine/IMFCaptureEngine::StartPreview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureEngine::StartPreview method
+# IMFCaptureEngine::StartPreview
 
 
 ## -description

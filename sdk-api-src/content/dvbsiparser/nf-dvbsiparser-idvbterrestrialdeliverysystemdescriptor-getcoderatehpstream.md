@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream
-title: IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream method
+title: IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 84cc3e77-aa46-40b0-ad04-27541216bb6f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCodeRateHPStream method [Microsoft TV Technologies], GetCodeRateHPStream method [Microsoft TV Technologies], IDvbTerrestrialDeliverySystemDescriptor interface, GetCodeRateHPStream,IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream, IDvbTerrestrialDeliverySystemDescriptor, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], GetCodeRateHPStream method, IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream, IDvbTerrestrialDeliverySystemDescriptorGetCodeRateHPStream, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream, mstv.idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream
+ms.keywords: GetCodeRateHPStream, GetCodeRateHPStream method [Microsoft TV Technologies], GetCodeRateHPStream method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCodeRateHPStream method, IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream, IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream, IDvbTerrestrialDeliverySystemDescriptorGetCodeRateHPStream, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream, mstv.idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream method
+# IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetStatus
-title: ITextStoreACP2::GetStatus method
+title: ITextStoreACP2::GetStatus
 author: windows-driver-content
 description: Gets the document status. The document status is returned through the TS_STATUS structure.
 old-location: tsf\itextstoreacp2_getstatus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6b767f85-0a92-467c-b358-3629582f0d43
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetStatus method [Text Services Framework], GetStatus method [Text Services Framework], ITextStoreACP2 interface, GetStatus,ITextStoreACP2.GetStatus, ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], GetStatus method, ITextStoreACP2::GetStatus, textstor/ITextStoreACP2::GetStatus, tsf.itextstoreacp2_getstatus
+ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetStatus method, ITextStoreACP2.GetStatus, ITextStoreACP2::GetStatus, textstor/ITextStoreACP2::GetStatus, tsf.itextstoreacp2_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP2::GetStatus method
+# ITextStoreACP2::GetStatus
 
 
 ## -description

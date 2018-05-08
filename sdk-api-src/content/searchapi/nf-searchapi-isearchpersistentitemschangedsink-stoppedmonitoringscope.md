@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchPersistentItemsChangedSink.StoppedMonitoringScope
-title: ISearchPersistentItemsChangedSink::StoppedMonitoringScope method
+title: ISearchPersistentItemsChangedSink::StoppedMonitoringScope
 author: windows-driver-content
 description: Called by a notifications provider to notify the indexer to stop monitoring changes to items within a specified hierarchical scope.
 old-location: search\_search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\stoppedmonitoringscope.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchPersistentItemsChangedSink, ISearchPersistentItemsChangedSink interface [search], StoppedMonitoringScope method, ISearchPersistentItemsChangedSink::StoppedMonitoringScope, StoppedMonitoringScope method [search], StoppedMonitoringScope method [search], ISearchPersistentItemsChangedSink interface, StoppedMonitoringScope,ISearchPersistentItemsChangedSink.StoppedMonitoringScope, _search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope, search._search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope, searchapi/ISearchPersistentItemsChangedSink::StoppedMonitoringScope
+ms.date: 5/4/2018
+ms.keywords: ISearchPersistentItemsChangedSink interface [search],StoppedMonitoringScope method, ISearchPersistentItemsChangedSink.StoppedMonitoringScope, ISearchPersistentItemsChangedSink::StoppedMonitoringScope, StoppedMonitoringScope, StoppedMonitoringScope method [search], StoppedMonitoringScope method [search],ISearchPersistentItemsChangedSink interface, _search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope, search._search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope, searchapi/ISearchPersistentItemsChangedSink::StoppedMonitoringScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchPersistentItemsChangedSink::StoppedMonitoringScope method
+# ISearchPersistentItemsChangedSink::StoppedMonitoringScope
 
 
 ## -description

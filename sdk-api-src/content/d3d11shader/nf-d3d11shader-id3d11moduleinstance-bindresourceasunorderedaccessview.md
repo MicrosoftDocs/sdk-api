@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindResourceAsUnorderedAccessView
-title: ID3D11ModuleInstance::BindResourceAsUnorderedAccessView method
+title: ID3D11ModuleInstance::BindResourceAsUnorderedAccessView
 author: windows-driver-content
 description: Rebinds a resource as an unordered access view (UAV) from source slot to destination slot.
 old-location: direct3d11\id3d11moduleinstance_bindresourceasunorderedaccessview.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: A9E61E17-F1FE-4BF1-8A4A-F73B23FEDD08
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: BindResourceAsUnorderedAccessView method [Direct3D 11], BindResourceAsUnorderedAccessView method [Direct3D 11], ID3D11ModuleInstance interface, BindResourceAsUnorderedAccessView,ID3D11ModuleInstance.BindResourceAsUnorderedAccessView, ID3D11ModuleInstance, ID3D11ModuleInstance interface [Direct3D 11], BindResourceAsUnorderedAccessView method, ID3D11ModuleInstance::BindResourceAsUnorderedAccessView, d3d11shader/ID3D11ModuleInstance::BindResourceAsUnorderedAccessView, direct3d11.id3d11moduleinstance_bindresourceasunorderedaccessview
+ms.keywords: BindResourceAsUnorderedAccessView, BindResourceAsUnorderedAccessView method [Direct3D 11], BindResourceAsUnorderedAccessView method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindResourceAsUnorderedAccessView method, ID3D11ModuleInstance.BindResourceAsUnorderedAccessView, ID3D11ModuleInstance::BindResourceAsUnorderedAccessView, d3d11shader/ID3D11ModuleInstance::BindResourceAsUnorderedAccessView, direct3d11.id3d11moduleinstance_bindresourceasunorderedaccessview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ModuleInstance::BindResourceAsUnorderedAccessView method
+# ID3D11ModuleInstance::BindResourceAsUnorderedAccessView
 
 
 ## -description

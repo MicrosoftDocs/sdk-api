@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation3.TransferObjectDataOnClearChannel
-title: IWMDMOperation3::TransferObjectDataOnClearChannel method
+title: IWMDMOperation3::TransferObjectDataOnClearChannel
 author: windows-driver-content
 description: The TransferObjectDataOnClearChannel method is a more efficient implementation of IWMDMOperation::TransferObjectData.
 old-location: wmdm\iwmdmoperation3__transferobjectdataonclearchannel.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: a5cc0151-35c0-4de6-9bb3-f07339c60042
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMOperation3, IWMDMOperation3 interface [windows Media Device Manager], TransferObjectDataOnClearChannel method, IWMDMOperation3::TransferObjectDataOnClearChannel, IWMDMOperation3TransferObjectDataOnClearChannel, TransferObjectDataOnClearChannel method [windows Media Device Manager], TransferObjectDataOnClearChannel method [windows Media Device Manager], IWMDMOperation3 interface, TransferObjectDataOnClearChannel,IWMDMOperation3.TransferObjectDataOnClearChannel, mswmdm/IWMDMOperation3::TransferObjectDataOnClearChannel, wmdm.iwmdmoperation3__transferobjectdataonclearchannel
+ms.keywords: IWMDMOperation3 interface [windows Media Device Manager],TransferObjectDataOnClearChannel method, IWMDMOperation3.TransferObjectDataOnClearChannel, IWMDMOperation3::TransferObjectDataOnClearChannel, IWMDMOperation3TransferObjectDataOnClearChannel, TransferObjectDataOnClearChannel, TransferObjectDataOnClearChannel method [windows Media Device Manager], TransferObjectDataOnClearChannel method [windows Media Device Manager],IWMDMOperation3 interface, mswmdm/IWMDMOperation3::TransferObjectDataOnClearChannel, wmdm.iwmdmoperation3__transferobjectdataonclearchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMOperation3::TransferObjectDataOnClearChannel method
+# IWMDMOperation3::TransferObjectDataOnClearChannel
 
 
 ## -description

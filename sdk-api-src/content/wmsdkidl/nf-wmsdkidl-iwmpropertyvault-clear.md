@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.Clear
-title: IWMPropertyVault::Clear method
+title: IWMPropertyVault::Clear
 author: windows-driver-content
 description: The Clear method removes all items from the property vault.
 old-location: wmformat\iwmpropertyvault_clear.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 567d69f3-cebf-4bb7-84df-c843cfc928a5
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Clear method [windows Media Format], Clear method [windows Media Format], IWMPropertyVault interface, Clear,IWMPropertyVault.Clear, IWMPropertyVault, IWMPropertyVault interface [windows Media Format], Clear method, IWMPropertyVault::Clear, IWMPropertyVaultClear, wmformat.iwmpropertyvault_clear, wmsdkidl/IWMPropertyVault::Clear
+ms.keywords: Clear, Clear method [windows Media Format], Clear method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],Clear method, IWMPropertyVault.Clear, IWMPropertyVault::Clear, IWMPropertyVaultClear, wmformat.iwmpropertyvault_clear, wmsdkidl/IWMPropertyVault::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPropertyVault::Clear method
+# IWMPropertyVault::Clear
 
 
 ## -description

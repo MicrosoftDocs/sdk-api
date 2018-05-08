@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMsaTarget
-title: IXblIdpAuthTokenResult::GetMsaTarget method
+title: IXblIdpAuthTokenResult::GetMsaTarget
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getmsatarget.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 5289E451-58E7-4233-8498-555BFD7C3732
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetMsaTarget method, GetMsaTarget method, IXblIdpAuthTokenResult interface, GetMsaTarget,IXblIdpAuthTokenResult.GetMsaTarget, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetMsaTarget method, IXblIdpAuthTokenResult::GetMsaTarget, xblidp.ixblidpauthtokenresult_getmsatarget, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaTarget
+ms.keywords: GetMsaTarget, GetMsaTarget method, GetMsaTarget method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaTarget method, IXblIdpAuthTokenResult.GetMsaTarget, IXblIdpAuthTokenResult::GetMsaTarget, xblidp.ixblidpauthtokenresult_getmsatarget, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetMsaTarget method
+# IXblIdpAuthTokenResult::GetMsaTarget
 
 
 ## -description

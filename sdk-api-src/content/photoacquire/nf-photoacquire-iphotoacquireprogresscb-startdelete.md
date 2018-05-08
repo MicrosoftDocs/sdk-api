@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartDelete
-title: IPhotoAcquireProgressCB::StartDelete method
+title: IPhotoAcquireProgressCB::StartDelete
 author: windows-driver-content
 description: The StartDelete method provides extended functionality when deletion of items from the device begins.
 old-location: picacq\iphotoacquireprogresscb_startdelete.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 510999eb-068e-41e9-98b7-de6e67dbfe2f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], StartDelete method, IPhotoAcquireProgressCB::StartDelete, IPhotoAcquireProgressCBStartDelete, StartDelete method [Picture Acquisition], StartDelete method [Picture Acquisition], IPhotoAcquireProgressCB interface, StartDelete,IPhotoAcquireProgressCB.StartDelete, photoacquire/IPhotoAcquireProgressCB::StartDelete, picacq.iphotoacquireprogresscb_startdelete
+ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartDelete method, IPhotoAcquireProgressCB.StartDelete, IPhotoAcquireProgressCB::StartDelete, IPhotoAcquireProgressCBStartDelete, StartDelete, StartDelete method [Picture Acquisition], StartDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartDelete, picacq.iphotoacquireprogresscb_startdelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireProgressCB::StartDelete method
+# IPhotoAcquireProgressCB::StartDelete
 
 
 ## -description

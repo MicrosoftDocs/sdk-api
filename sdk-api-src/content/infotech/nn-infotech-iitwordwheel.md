@@ -8,7 +8,7 @@ old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelinterface.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IITWordWheel, IITWordWheel interface [HTML Help Workshop], IITWordWheel interface [HTML Help Workshop], described, htmlhelp.iitwordwheel, infotech/IITWordWheel, refIITWordWheelInterface
+ms.keywords: IITWordWheel, IITWordWheel interface [HTML Help Workshop], IITWordWheel interface [HTML Help Workshop],described, htmlhelp.iitwordwheel, infotech/IITWordWheel, refIITWordWheelInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

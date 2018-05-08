@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyCallback.JobModification
-title: IBackgroundCopyCallback::JobModification method
+title: IBackgroundCopyCallback::JobModification
 author: windows-driver-content
 description: BITS calls your implementation of the JobModification method when the job has been modified.
 old-location: bits\ibackgroundcopycallback_jobmodification.htm
 old-project: Bits
 ms.assetid: 7614756d-92d1-4b71-a589-c0e39728a51c
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyCallback, IBackgroundCopyCallback interface [BITS], JobModification method, IBackgroundCopyCallback::JobModification, JobModification method [BITS], JobModification method [BITS], IBackgroundCopyCallback interface, JobModification,IBackgroundCopyCallback.JobModification, _drz_ibackgroundcopycallback_jobmodification, bits.ibackgroundcopycallback_jobmodification, bits/IBackgroundCopyCallback::JobModification
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyCallback interface [BITS],JobModification method, IBackgroundCopyCallback.JobModification, IBackgroundCopyCallback::JobModification, JobModification, JobModification method [BITS], JobModification method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_jobmodification, bits.ibackgroundcopycallback_jobmodification, bits/IBackgroundCopyCallback::JobModification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBackgroundCopyCallback::JobModification method
+# IBackgroundCopyCallback::JobModification
 
 
 ## -description

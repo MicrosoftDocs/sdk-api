@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMRemoteDictionaryResource1.Write1
-title: IXpsOMRemoteDictionaryResource1::Write1 method
+title: IXpsOMRemoteDictionaryResource1::Write1
 author: windows-driver-content
 description: Serializes the remote dictionary resource to a stream.
 old-location: xps\ixpsomremotedictionaryresource1_write1.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 5C5C2DC9-1F03-44F9-9466-7AFD1BD5D098
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMRemoteDictionaryResource1, IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging], Write1 method, IXpsOMRemoteDictionaryResource1::Write1, Write1 method [XPS Documents and Packaging], Write1 method [XPS Documents and Packaging], IXpsOMRemoteDictionaryResource1 interface, Write1,IXpsOMRemoteDictionaryResource1.Write1, xps.ixpsomremotedictionaryresource1_write1, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::Write1
+ms.keywords: IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging],Write1 method, IXpsOMRemoteDictionaryResource1.Write1, IXpsOMRemoteDictionaryResource1::Write1, Write1, Write1 method [XPS Documents and Packaging], Write1 method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource1 interface, xps.ixpsomremotedictionaryresource1_write1, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::Write1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMRemoteDictionaryResource1::Write1 method
+# IXpsOMRemoteDictionaryResource1::Write1
 
 
 ## -description

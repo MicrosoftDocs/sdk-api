@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFGetService.GetService
-title: IMFGetService::GetService method
+title: IMFGetService::GetService
 author: windows-driver-content
 description: Retrieves a service interface.
 old-location: mf\imfgetservice_getservice.htm
 old-project: medfound
 ms.assetid: 4287dd1f-1718-4231-bc62-b58e0e61d688
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 4287dd1f-1718-4231-bc62-b58e0e61d688, GetService method [Media Foundation], GetService method [Media Foundation], IMFGetService interface, GetService,IMFGetService.GetService, IMFGetService, IMFGetService interface [Media Foundation], GetService method, IMFGetService::GetService, mf.imfgetservice_getservice, mfidl/IMFGetService::GetService
+ms.date: 5/3/2018
+ms.keywords: 4287dd1f-1718-4231-bc62-b58e0e61d688, GetService, GetService method [Media Foundation], GetService method [Media Foundation],IMFGetService interface, IMFGetService interface [Media Foundation],GetService method, IMFGetService.GetService, IMFGetService::GetService, mf.imfgetservice_getservice, mfidl/IMFGetService::GetService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFGetService::GetService method
+# IMFGetService::GetService
 
 
 ## -description

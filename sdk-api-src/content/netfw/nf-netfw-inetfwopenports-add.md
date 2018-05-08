@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.Add
-title: INetFwOpenPorts::Add method
+title: INetFwOpenPorts::Add
 author: windows-driver-content
 description: Opens a new port and adds it to the collection.
 old-location: ics\inetfwopenports_add.htm
 old-project: ICS
 ms.assetid: fd97333d-9bd5-4ab2-9189-75a7f7f52622
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Add method [ICS/ICF], Add method [ICS/ICF], INetFwOpenPorts interface, Add,INetFwOpenPorts.Add, INetFwOpenPorts, INetFwOpenPorts interface [ICS/ICF], Add method, INetFwOpenPorts::Add, ics.inetfwopenports_add, netfw/INetFwOpenPorts::Add
+ms.date: 5/1/2018
+ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwOpenPorts interface, INetFwOpenPorts interface [ICS/ICF],Add method, INetFwOpenPorts.Add, INetFwOpenPorts::Add, ics.inetfwopenports_add, netfw/INetFwOpenPorts::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwOpenPorts::Add method
+# INetFwOpenPorts::Add
 
 
 ## -description

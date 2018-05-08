@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProvider.BeginPrepareSnapshot
-title: IVssHardwareSnapshotProvider::BeginPrepareSnapshot method
+title: IVssHardwareSnapshotProvider::BeginPrepareSnapshot
 author: windows-driver-content
 description: Called for each shadow copy that is added to the shadow copy set.
 old-location: base\ivsshardwaresnapshotprovider_beginpreparesnapshot.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 4a8bdffa-bb6e-425d-a708-1f31af302da9
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: BeginPrepareSnapshot method [VSS], BeginPrepareSnapshot method [VSS], IVssHardwareSnapshotProvider interface, BeginPrepareSnapshot,IVssHardwareSnapshotProvider.BeginPrepareSnapshot, IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interface [VSS], BeginPrepareSnapshot method, IVssHardwareSnapshotProvider::BeginPrepareSnapshot, base.ivsshardwaresnapshotprovider_beginpreparesnapshot, vsprov/IVssHardwareSnapshotProvider::BeginPrepareSnapshot
+ms.keywords: BeginPrepareSnapshot, BeginPrepareSnapshot method [VSS], BeginPrepareSnapshot method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],BeginPrepareSnapshot method, IVssHardwareSnapshotProvider.BeginPrepareSnapshot, IVssHardwareSnapshotProvider::BeginPrepareSnapshot, base.ivsshardwaresnapshotprovider_beginpreparesnapshot, vsprov/IVssHardwareSnapshotProvider::BeginPrepareSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssHardwareSnapshotProvider::BeginPrepareSnapshot method
+# IVssHardwareSnapshotProvider::BeginPrepareSnapshot
 
 
 ## -description

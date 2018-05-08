@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityDestroy
-title: IComActivityEvents::OnActivityDestroy method
+title: IComActivityEvents::OnActivityDestroy
 author: windows-driver-content
 description: Generated when an activity is finished.
 old-location: cos\icomactivityevents_onactivitydestroy.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: af69bcf7-a925-42e2-a7a8-4ebf745955b9
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComActivityEvents, IComActivityEvents interface [COM+], OnActivityDestroy method, IComActivityEvents::OnActivityDestroy, OnActivityDestroy method [COM+], OnActivityDestroy method [COM+], IComActivityEvents interface, OnActivityDestroy,IComActivityEvents.OnActivityDestroy, _dtc_IComActivityEvents_OnActivityDestroy, comsvcs/IComActivityEvents::OnActivityDestroy, cos.icomactivityevents_onactivitydestroy
+ms.keywords: IComActivityEvents interface [COM+],OnActivityDestroy method, IComActivityEvents.OnActivityDestroy, IComActivityEvents::OnActivityDestroy, OnActivityDestroy, OnActivityDestroy method [COM+], OnActivityDestroy method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityDestroy, comsvcs/IComActivityEvents::OnActivityDestroy, cos.icomactivityevents_onactivitydestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComActivityEvents::OnActivityDestroy method
+# IComActivityEvents::OnActivityDestroy
 
 
 ## -description

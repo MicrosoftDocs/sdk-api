@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidFeatures.Add
-title: IMSVidFeatures::Add method
+title: IMSVidFeatures::Add
 author: windows-driver-content
 description: The Add method adds a feature to the collection.
 old-location: mstv\imsvidfeatures_add.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1bdb5e4a-4dd7-49dc-bb9c-b6a9e435219b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies], IMSVidFeatures interface, Add,IMSVidFeatures.Add, IMSVidFeatures, IMSVidFeatures interface [Microsoft TV Technologies], Add method, IMSVidFeatures::Add, IMSVidFeaturesAdd, mstv.imsvidfeatures_add, segment/IMSVidFeatures::Add
+ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidFeatures interface, IMSVidFeatures interface [Microsoft TV Technologies],Add method, IMSVidFeatures.Add, IMSVidFeatures::Add, IMSVidFeaturesAdd, mstv.imsvidfeatures_add, segment/IMSVidFeatures::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidFeatures::Add method
+# IMSVidFeatures::Add
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.RegisterOcclusionStatusWindow
-title: IDXGIFactory2::RegisterOcclusionStatusWindow method
+title: IDXGIFactory2::RegisterOcclusionStatusWindow
 author: windows-driver-content
 description: Registers an application window to receive notification messages of changes of occlusion status.
 old-location: direct3ddxgi\idxgifactory2_registerocclusionstatuswindow.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 8E8E3C2A-F973-4DC3-A226-DB3FF32F9CC4
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIFactory2, IDXGIFactory2 interface [DXGI], RegisterOcclusionStatusWindow method, IDXGIFactory2::RegisterOcclusionStatusWindow, RegisterOcclusionStatusWindow method [DXGI], RegisterOcclusionStatusWindow method [DXGI], IDXGIFactory2 interface, RegisterOcclusionStatusWindow,IDXGIFactory2.RegisterOcclusionStatusWindow, direct3ddxgi.idxgifactory2_registerocclusionstatuswindow, dxgi1_2/IDXGIFactory2::RegisterOcclusionStatusWindow
+ms.keywords: IDXGIFactory2 interface [DXGI],RegisterOcclusionStatusWindow method, IDXGIFactory2.RegisterOcclusionStatusWindow, IDXGIFactory2::RegisterOcclusionStatusWindow, RegisterOcclusionStatusWindow, RegisterOcclusionStatusWindow method [DXGI], RegisterOcclusionStatusWindow method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_registerocclusionstatuswindow, dxgi1_2/IDXGIFactory2::RegisterOcclusionStatusWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIFactory2::RegisterOcclusionStatusWindow method
+# IDXGIFactory2::RegisterOcclusionStatusWindow
 
 
 ## -description

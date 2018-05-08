@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetUDPPortRanges
-title: IWMReaderNetworkConfig::SetUDPPortRanges method
+title: IWMReaderNetworkConfig::SetUDPPortRanges
 author: windows-driver-content
 description: The SetUDPPortRanges method specifies the UDP port number ranges that are used for receiving data.
 old-location: wmformat\iwmreadernetworkconfig_setudpportranges.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 9a61943a-8ff9-4504-b76f-25e3c5c8d4a4
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetUDPPortRanges method, IWMReaderNetworkConfig::SetUDPPortRanges, IWMReaderNetworkConfigSetUDPPortRanges, SetUDPPortRanges method [windows Media Format], SetUDPPortRanges method [windows Media Format], IWMReaderNetworkConfig interface, SetUDPPortRanges,IWMReaderNetworkConfig.SetUDPPortRanges, wmformat.iwmreadernetworkconfig_setudpportranges, wmsdkidl/IWMReaderNetworkConfig::SetUDPPortRanges
+ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetUDPPortRanges method, IWMReaderNetworkConfig.SetUDPPortRanges, IWMReaderNetworkConfig::SetUDPPortRanges, IWMReaderNetworkConfigSetUDPPortRanges, SetUDPPortRanges, SetUDPPortRanges method [windows Media Format], SetUDPPortRanges method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setudpportranges, wmsdkidl/IWMReaderNetworkConfig::SetUDPPortRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::SetUDPPortRanges method
+# IWMReaderNetworkConfig::SetUDPPortRanges
 
 
 ## -description

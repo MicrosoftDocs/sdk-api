@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.Cancelled
-title: IPhotoAcquireProgressCB::Cancelled method
+title: IPhotoAcquireProgressCB::Cancelled
 author: windows-driver-content
 description: The Cancelled method provides extended functionality when a cancellation occurs during an acquisition session. The application provides the implementation of the Cancelled method.
 old-location: picacq\iphotoacquireprogresscb_cancelled.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 7a37934c-dc0b-433e-99cf-6c26341e582c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Cancelled method [Picture Acquisition], Cancelled method [Picture Acquisition], IPhotoAcquireProgressCB interface, Cancelled,IPhotoAcquireProgressCB.Cancelled, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], Cancelled method, IPhotoAcquireProgressCB::Cancelled, IPhotoAcquireProgressCBCancelled, photoacquire/IPhotoAcquireProgressCB::Cancelled, picacq.iphotoacquireprogresscb_cancelled
+ms.keywords: Cancelled, Cancelled method [Picture Acquisition], Cancelled method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],Cancelled method, IPhotoAcquireProgressCB.Cancelled, IPhotoAcquireProgressCB::Cancelled, IPhotoAcquireProgressCBCancelled, photoacquire/IPhotoAcquireProgressCB::Cancelled, picacq.iphotoacquireprogresscb_cancelled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireProgressCB::Cancelled method
+# IPhotoAcquireProgressCB::Cancelled
 
 
 ## -description

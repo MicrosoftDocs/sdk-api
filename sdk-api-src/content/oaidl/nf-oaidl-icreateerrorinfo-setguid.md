@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetGUID
-title: ICreateErrorInfo::SetGUID method
+title: ICreateErrorInfo::SetGUID
 author: windows-driver-content
 description: Sets the globally unique identifier (GUID) of the interface that defined the error.
 old-location: automat\icreateerrorinfo_setguid.htm
 old-project: automat
 ms.assetid: f7570ba3-d738-40d3-aefc-fbf6f4ca633e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], SetGUID method, ICreateErrorInfo::SetGUID, SetGUID method [Automation], SetGUID method [Automation], ICreateErrorInfo interface, SetGUID,ICreateErrorInfo.SetGUID, _oa96_ICreateErrorInfo_SetGUID, automat.icreateerrorinfo_setguid, oaidl/ICreateErrorInfo::SetGUID
+ms.date: 5/4/2018
+ms.keywords: ICreateErrorInfo interface [Automation],SetGUID method, ICreateErrorInfo.SetGUID, ICreateErrorInfo::SetGUID, SetGUID, SetGUID method [Automation], SetGUID method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetGUID, automat.icreateerrorinfo_setguid, oaidl/ICreateErrorInfo::SetGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateErrorInfo::SetGUID method
+# ICreateErrorInfo::SetGUID
 
 
 ## -description

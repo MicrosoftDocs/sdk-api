@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreatePoint
-title: IPropertyValueStatics::CreatePoint method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified Point value.
 old-location: winrt\ipropertyvaluestatics_createpoint.htm
 old-project: WinRT
 ms.assetid: b4cf8b1b-1673-4ac0-a66d-d83b98eec741
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreatePoint method [Windows Runtime], CreatePoint method [Windows Runtime], IPropertyValueStatics interface, CreatePoint,IPropertyValueStatics.CreatePoint, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreatePoint method, IPropertyValueStatics::CreatePoint, windows/IPropertyValueStatics::CreatePoint, winrt.ipropertyvaluefactory_createpoint, winrt.ipropertyvaluestatics_createpoint
+ms.date: 5/4/2018
+ms.keywords: CreatePoint, CreatePoint method [Windows Runtime], CreatePoint method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreatePoint method, IPropertyValueStatics.CreatePoint, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreatePoint, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreatePoint, winrt.ipropertyvaluefactory_createpoint, winrt.ipropertyvaluestatics_createpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreatePoint method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

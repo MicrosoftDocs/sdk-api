@@ -194,6 +194,91 @@ The surface contains z information in the pixels.
 A FourCC code.
 
 
+### -field DUMMYUNIONNAMEN.dwRGBBitCount
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwYUVBitCount
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwZBufferBitDepth
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwAlphaBitDepth
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwLuminanceBitCount
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwBumpBitCount
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwPrivateFormatBitCount
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwRBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwYBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwStencilBitDepth
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwLuminanceBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwBumpDuBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwOperations
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwGBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwUBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwZBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwBumpDvBitMask
+
+ 
+
+
 ### -field DUMMYUNIONNAMEN.MultiSampleCaps
 
  
@@ -209,7 +294,52 @@ A FourCC code.
  
 
 
+### -field DUMMYUNIONNAMEN.dwBBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwVBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwStencilBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwBumpLuminanceBitMask
+
+ 
+
+
 ### -field DUMMYUNIONNAMEN
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwRGBAlphaBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwYUVAlphaBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwLuminanceAlphaBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwRGBZBitMask
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwYUVZBitMask
 
  
 

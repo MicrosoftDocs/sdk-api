@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetOriginalNetworkId
-title: IISDB_CDT::GetOriginalNetworkId method
+title: IISDB_CDT::GetOriginalNetworkId
 author: windows-driver-content
 description: Gets an identifier that identifies the broadcaster that originated the MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getoriginalnetworkid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 67adf536-1163-45e3-893c-e9501fefafe7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies], IISDB_CDT interface, GetOriginalNetworkId,IISDB_CDT.GetOriginalNetworkId, IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], GetOriginalNetworkId method, IISDB_CDT::GetOriginalNetworkId, dvbsiparser/IISDB_CDT::GetOriginalNetworkId, mstv.iisdb_cdt_getoriginalnetworkid
+ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IISDB_CDT.GetOriginalNetworkId, IISDB_CDT::GetOriginalNetworkId, dvbsiparser/IISDB_CDT::GetOriginalNetworkId, mstv.iisdb_cdt_getoriginalnetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_CDT::GetOriginalNetworkId method
+# IISDB_CDT::GetOriginalNetworkId
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertySystem.EnumeratePropertyDescriptions
-title: IPropertySystem::EnumeratePropertyDescriptions method
+title: IPropertySystem::EnumeratePropertyDescriptions
 author: windows-driver-content
 description: Gets an instance of the subsystem object that implements IPropertyDescriptionList, to obtain either the entire or a partial list of property descriptions in the system.
 old-location: properties\IPropertySystem_EnumeratePropertyDescriptions.htm
 old-project: properties
 ms.assetid: eb87e6b6-2a48-497a-8a42-9c929a742502
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: EnumeratePropertyDescriptions method [Windows Properties], EnumeratePropertyDescriptions method [Windows Properties], IPropertySystem interface, EnumeratePropertyDescriptions,IPropertySystem.EnumeratePropertyDescriptions, IPropertySystem, IPropertySystem interface [Windows Properties], EnumeratePropertyDescriptions method, IPropertySystem::EnumeratePropertyDescriptions, properties.IPropertySystem_EnumeratePropertyDescriptions, propsys/IPropertySystem::EnumeratePropertyDescriptions, shell.IPropertySystem_EnumeratePropertyDescriptions, shell_IPropertySystem_EnumeratePropertyDescriptions
+ms.date: 4/27/2018
+ms.keywords: EnumeratePropertyDescriptions, EnumeratePropertyDescriptions method [Windows Properties], EnumeratePropertyDescriptions method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],EnumeratePropertyDescriptions method, IPropertySystem.EnumeratePropertyDescriptions, IPropertySystem::EnumeratePropertyDescriptions, properties.IPropertySystem_EnumeratePropertyDescriptions, propsys/IPropertySystem::EnumeratePropertyDescriptions, shell.IPropertySystem_EnumeratePropertyDescriptions, shell_IPropertySystem_EnumeratePropertyDescriptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertySystem::EnumeratePropertyDescriptions method
+# IPropertySystem::EnumeratePropertyDescriptions
 
 
 ## -description

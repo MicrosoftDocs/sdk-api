@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetPageCount
-title: IShellImageData::GetPageCount method
+title: IShellImageData::GetPageCount
 author: windows-driver-content
 description: Gets the number of pages in a multipage image.
 old-location: shell\IShellImageData_GetPageCount.htm
 old-project: shell
 ms.assetid: 5967a167-2cd5-4662-b624-e136c0092118
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPageCount method [Windows Shell], GetPageCount method [Windows Shell], IShellImageData interface, GetPageCount,IShellImageData.GetPageCount, IShellImageData, IShellImageData interface [Windows Shell], GetPageCount method, IShellImageData::GetPageCount, _shell_IShellImageData_GetPageCount, shell.IShellImageData_GetPageCount, shimgdata/IShellImageData::GetPageCount
+ms.date: 5/3/2018
+ms.keywords: GetPageCount, GetPageCount method [Windows Shell], GetPageCount method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetPageCount method, IShellImageData.GetPageCount, IShellImageData::GetPageCount, _shell_IShellImageData_GetPageCount, shell.IShellImageData_GetPageCount, shimgdata/IShellImageData::GetPageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::GetPageCount method
+# IShellImageData::GetPageCount
 
 
 ## -description

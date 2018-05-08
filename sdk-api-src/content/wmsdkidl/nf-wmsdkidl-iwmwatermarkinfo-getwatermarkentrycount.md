@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWatermarkInfo.GetWatermarkEntryCount
-title: IWMWatermarkInfo::GetWatermarkEntryCount method
+title: IWMWatermarkInfo::GetWatermarkEntryCount
 author: windows-driver-content
 description: The GetWatermarkEntryCount method retrieves the total number of installed watermarking systems of a specified type. Use this method in conjunction with IWMWatermarkInfo::GetWatermarkEntry to enumerate the installed watermarking DMOs.
 old-location: wmformat\iwmwatermarkinfo_getwatermarkentrycount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 27a102b7-a495-49ee-9d65-a0276ca2cf76
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetWatermarkEntryCount method [windows Media Format], GetWatermarkEntryCount method [windows Media Format], IWMWatermarkInfo interface, GetWatermarkEntryCount,IWMWatermarkInfo.GetWatermarkEntryCount, IWMWatermarkInfo, IWMWatermarkInfo interface [windows Media Format], GetWatermarkEntryCount method, IWMWatermarkInfo::GetWatermarkEntryCount, IWMWatermarkInfoGetWatermarkEntryCount, wmformat.iwmwatermarkinfo_getwatermarkentrycount, wmsdkidl/IWMWatermarkInfo::GetWatermarkEntryCount
+ms.keywords: GetWatermarkEntryCount, GetWatermarkEntryCount method [windows Media Format], GetWatermarkEntryCount method [windows Media Format],IWMWatermarkInfo interface, IWMWatermarkInfo interface [windows Media Format],GetWatermarkEntryCount method, IWMWatermarkInfo.GetWatermarkEntryCount, IWMWatermarkInfo::GetWatermarkEntryCount, IWMWatermarkInfoGetWatermarkEntryCount, wmformat.iwmwatermarkinfo_getwatermarkentrycount, wmsdkidl/IWMWatermarkInfo::GetWatermarkEntryCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWatermarkInfo::GetWatermarkEntryCount method
+# IWMWatermarkInfo::GetWatermarkEntryCount
 
 
 ## -description

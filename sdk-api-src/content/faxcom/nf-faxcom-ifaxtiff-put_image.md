@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxTiff.put_Image
-title: IFaxTiff::put_Image method
+title: IFaxTiff::put_Image
 author: windows-driver-content
 description: Sets or retrieves the Image property for a FaxTiff object.
 old-location: fax\_mfax_ifaxtiff_get_image_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0cdh.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxTiff object [Fax Service], Image property, IFaxTiff, IFaxTiff::put_Image, Image property [Fax Service], Image property [Fax Service], FaxTiff object, _mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_get_image_vb, put_Image,IFaxTiff.put_Image
+ms.keywords: FaxTiff object [Fax Service],Image property, FaxTiff.Image, IFaxTiff.put_Image, IFaxTiff::put_Image, Image property [Fax Service], Image property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_get_image_vb, put_Image
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxTiff::put_Image method
+# IFaxTiff::put_Image
 
 
 ## -description

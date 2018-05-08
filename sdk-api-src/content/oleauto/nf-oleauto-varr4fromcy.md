@@ -7,7 +7,7 @@ old-location: automat\varr4fromcy.htm
 old-project: automat
 ms.assetid: 25ac1a9f-b23e-4613-a629-e14cecc8902b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarR4FromCy, VarR4FromCy function [Automation], _oa96_VarR4FromCy, automat.varr4fromcy, oleauto/VarR4FromCy
 ms.prod: windows-hardware
 ms.technology: windows-devices

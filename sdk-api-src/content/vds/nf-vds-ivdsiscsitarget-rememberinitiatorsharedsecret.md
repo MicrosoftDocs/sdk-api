@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.RememberInitiatorSharedSecret
-title: IVdsIscsiTarget::RememberInitiatorSharedSecret method
+title: IVdsIscsiTarget::RememberInitiatorSharedSecret
 author: windows-driver-content
 description: Communicates the initiator CHAP secret that is used for mutual CHAP authentication when the initiator authenticates the target.
 old-location: base\ivdsiscsitarget_rememberinitiatorsharedsecret.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 3546f42c-2c30-4819-982d-9c186d9f858e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], RememberInitiatorSharedSecret method, IVdsIscsiTarget::RememberInitiatorSharedSecret, RememberInitiatorSharedSecret method [VDS], RememberInitiatorSharedSecret method [VDS], IVdsIscsiTarget interface, RememberInitiatorSharedSecret,IVdsIscsiTarget.RememberInitiatorSharedSecret, base.ivdsiscsitarget_rememberinitiatorsharedsecret, vds/IVdsIscsiTarget::RememberInitiatorSharedSecret, vdshwprv/IVdsIscsiTarget::RememberInitiatorSharedSecret
+ms.keywords: IVdsIscsiTarget interface [VDS],RememberInitiatorSharedSecret method, IVdsIscsiTarget.RememberInitiatorSharedSecret, IVdsIscsiTarget::RememberInitiatorSharedSecret, RememberInitiatorSharedSecret, RememberInitiatorSharedSecret method [VDS], RememberInitiatorSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_rememberinitiatorsharedsecret, vds/IVdsIscsiTarget::RememberInitiatorSharedSecret, vdshwprv/IVdsIscsiTarget::RememberInitiatorSharedSecret
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsIscsiTarget::RememberInitiatorSharedSecret method
+# IVdsIscsiTarget::RememberInitiatorSharedSecret
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_Status
-title: IX509Enrollment::get_Status method
+title: IX509Enrollment::get_Status
 author: windows-driver-content
 description: Retrieves an IX509EnrollmentStatus object that can be used to monitor the status of the enrollment process and retrieve error information.
 old-location: security\ix509enrollment_status_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 9ebceb0b-bd78-48a8-ae57-c11fda0fe8a6
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], Status property, IX509Enrollment.Status, IX509Enrollment::get_Status, Status property [Security], Status property [Security], IX509Enrollment interface, certenroll/IX509Enrollment::Status, certenroll/IX509Enrollment::get_Status, get_Status,IX509Enrollment.get_Status, security.ix509enrollment_status_property
+ms.keywords: IX509Enrollment interface [Security],Status property, IX509Enrollment.Status, IX509Enrollment.get_Status, IX509Enrollment::Status, IX509Enrollment::get_Status, Status property [Security], Status property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Status, certenroll/IX509Enrollment::get_Status, get_Status, security.ix509enrollment_status_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509Enrollment::get_Status method
+# IX509Enrollment::get_Status
 
 
 ## -description

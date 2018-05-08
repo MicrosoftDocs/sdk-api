@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetLight
-title: IDirect3DDevice9::SetLight method
+title: IDirect3DDevice9::SetLight
 author: windows-driver-content
 description: Assigns a set of lighting properties for this device.
 old-location: direct3d9\idirect3ddevice9__setlight.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setlight.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 01be5e3b-cd10-6899-0e92-5f0874741380, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetLight method, IDirect3DDevice9::SetLight, SetLight method [Direct3D 9], SetLight method [Direct3D 9], IDirect3DDevice9 interface, SetLight,IDirect3DDevice9.SetLight, d3d9helper/IDirect3DDevice9::SetLight, direct3d9.idirect3ddevice9__setlight
+ms.keywords: 01be5e3b-cd10-6899-0e92-5f0874741380, IDirect3DDevice9 interface [Direct3D 9],SetLight method, IDirect3DDevice9.SetLight, IDirect3DDevice9::SetLight, SetLight, SetLight method [Direct3D 9], SetLight method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetLight, direct3d9.idirect3ddevice9__setlight
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::SetLight method
+# IDirect3DDevice9::SetLight
 
 
 ## -description

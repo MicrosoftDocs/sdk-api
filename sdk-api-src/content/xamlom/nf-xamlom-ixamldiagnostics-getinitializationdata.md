@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetInitializationData
-title: IXamlDiagnostics::GetInitializationData method
+title: IXamlDiagnostics::GetInitializationData
 author: windows-driver-content
 description: Gets the initialization data passed in to XAML Diagnostics.
 old-location: xaml_diagnostics\ixamldiagnostics_getinitializationdata.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: D38409DC-7FB9-428D-B491-E2B5213224CF
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: GetInitializationData method, GetInitializationData method, IXamlDiagnostics interface, GetInitializationData,IXamlDiagnostics.GetInitializationData, IXamlDiagnostics, IXamlDiagnostics interface, GetInitializationData method, IXamlDiagnostics::GetInitializationData, xaml_diagnostics.ixamldiagnostics_getinitializationdata, xamlom/IXamlDiagnostics::GetInitializationData
+ms.keywords: GetInitializationData, GetInitializationData method, GetInitializationData method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetInitializationData method, IXamlDiagnostics.GetInitializationData, IXamlDiagnostics::GetInitializationData, xaml_diagnostics.ixamldiagnostics_getinitializationdata, xamlom/IXamlDiagnostics::GetInitializationData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXamlDiagnostics::GetInitializationData method
+# IXamlDiagnostics::GetInitializationData
 
 
 ## -description

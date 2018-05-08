@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationFilter.get_Windows
-title: IRDPSRAPIApplicationFilter::get_Windows method
+title: IRDPSRAPIApplicationFilter::get_Windows
 author: windows-driver-content
 description: The list of sharable windows.
 old-location: rdp\irdpsrapiapplicationfilter_windows.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: cc964964-0f3a-410c-b1f4-426abd9c1a22
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIApplicationFilter, IRDPSRAPIApplicationFilter interface [RDP], Windows property, IRDPSRAPIApplicationFilter.Windows, IRDPSRAPIApplicationFilter::get_Windows, RDPSRAPIApplicationFilter object [RDP], Windows property, Windows property [RDP], Windows property [RDP], IRDPSRAPIApplicationFilter interface, Windows property [RDP], RDPSRAPIApplicationFilter object, get_Windows,IRDPSRAPIApplicationFilter.get_Windows, rdp.irdpsrapiapplicationfilter_windows, rdpencomapi/IRDPSRAPIApplicationFilter::Windows, rdpencomapi/IRDPSRAPIApplicationFilter::get_Windows
+ms.keywords: IRDPSRAPIApplicationFilter interface [RDP],Windows property, IRDPSRAPIApplicationFilter.Windows, IRDPSRAPIApplicationFilter.get_Windows, IRDPSRAPIApplicationFilter::Windows, IRDPSRAPIApplicationFilter::get_Windows, RDPSRAPIApplicationFilter object [RDP],Windows property, Windows property [RDP], Windows property [RDP],IRDPSRAPIApplicationFilter interface, Windows property [RDP],RDPSRAPIApplicationFilter object, get_Windows, rdp.irdpsrapiapplicationfilter_windows, rdpencomapi/IRDPSRAPIApplicationFilter::Windows, rdpencomapi/IRDPSRAPIApplicationFilter::get_Windows
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIApplicationFilter::get_Windows method
+# IRDPSRAPIApplicationFilter::get_Windows
 
 
 ## -description

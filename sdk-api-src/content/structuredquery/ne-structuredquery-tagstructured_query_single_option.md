@@ -7,7 +7,7 @@ old-location: search\_search_STRUCTURED_QUERY_SINGLE_OPTION.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\structured_query_single_option.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: SQSO_AUTOMATIC_WILDCARD, SQSO_CONNECTOR_CASE, SQSO_IMPLICIT_CONNECTOR, SQSO_LANGUAGE_KEYWORDS, SQSO_LOCALE_WORD_BREAKING, SQSO_NATURAL_SYNTAX, SQSO_SCHEMA, SQSO_SYNTAX, SQSO_TIME_ZONE, SQSO_TRACE_LEVEL, SQSO_WORD_BREAKER, STRUCTURED_QUERY_SINGLE_OPTION, STRUCTURED_QUERY_SINGLE_OPTION enumeration [search], _search_STRUCTURED_QUERY_SINGLE_OPTION, search._search_STRUCTURED_QUERY_SINGLE_OPTION, structuredquery/SQSO_AUTOMATIC_WILDCARD, structuredquery/SQSO_CONNECTOR_CASE, structuredquery/SQSO_IMPLICIT_CONNECTOR, structuredquery/SQSO_LANGUAGE_KEYWORDS, structuredquery/SQSO_LOCALE_WORD_BREAKING, structuredquery/SQSO_NATURAL_SYNTAX, structuredquery/SQSO_SCHEMA, structuredquery/SQSO_SYNTAX, structuredquery/SQSO_TIME_ZONE, structuredquery/SQSO_TRACE_LEVEL, structuredquery/SQSO_WORD_BREAKER, structuredquery/STRUCTURED_QUERY_SINGLE_OPTION, tagSTRUCTURED_QUERY_SINGLE_OPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

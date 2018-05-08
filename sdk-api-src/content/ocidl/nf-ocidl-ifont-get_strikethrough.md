@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.get_Strikethrough
-title: IFont::get_Strikethrough method
+title: IFont::get_Strikethrough
 author: windows-driver-content
 description: Gets the font's current Strikethrough property.
 old-location: com\ifont_get_strikethrough.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: e70ea85a-fc76-412c-a100-c834dc8f0208
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFont, IFont interface [COM], get_Strikethrough method, IFont::get_Strikethrough, _ctrl_ifont_get_strikethrough, com.ifont_get_strikethrough, get_Strikethrough method [COM], get_Strikethrough method [COM], IFont interface, get_Strikethrough,IFont.get_Strikethrough, ocidl/IFont::get_Strikethrough
+ms.keywords: IFont interface [COM],get_Strikethrough method, IFont.get_Strikethrough, IFont::get_Strikethrough, _ctrl_ifont_get_strikethrough, com.ifont_get_strikethrough, get_Strikethrough, get_Strikethrough method [COM], get_Strikethrough method [COM],IFont interface, ocidl/IFont::get_Strikethrough
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFont::get_Strikethrough method
+# IFont::get_Strikethrough
 
 
 ## -description

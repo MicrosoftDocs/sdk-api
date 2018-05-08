@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnPrepareBackup
-title: CVssWriter::OnPrepareBackup method
+title: CVssWriter::OnPrepareBackup
 author: windows-driver-content
 description: The OnPrepareBackup method is called by a writer following a PrepareForBackup event. This method is used to configure a writer's state and its components in preparation for a backup operation.
 old-location: base\cvsswriter_onpreparebackup.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 4e88d92b-48f3-42f9-bf66-61337a745902
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriter, CVssWriter interface [VSS], OnPrepareBackup method, CVssWriter::OnPrepareBackup, OnPrepareBackup method [VSS], OnPrepareBackup method [VSS], CVssWriter interface, OnPrepareBackup,CVssWriter.OnPrepareBackup, _win32_cvsswriter_onpreparebackup, base.cvsswriter_onpreparebackup, vswriter/CVssWriter::OnPrepareBackup
+ms.keywords: CVssWriter interface [VSS],OnPrepareBackup method, CVssWriter.OnPrepareBackup, CVssWriter::OnPrepareBackup, OnPrepareBackup, OnPrepareBackup method [VSS], OnPrepareBackup method [VSS],CVssWriter interface, _win32_cvsswriter_onpreparebackup, base.cvsswriter_onpreparebackup, vswriter/CVssWriter::OnPrepareBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriter::OnPrepareBackup method
+# CVssWriter::OnPrepareBackup
 
 
 ## -description

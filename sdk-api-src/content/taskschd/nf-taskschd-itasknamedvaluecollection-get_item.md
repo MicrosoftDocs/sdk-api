@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.get_Item
-title: ITaskNamedValueCollection::get_Item method
+title: ITaskNamedValueCollection::get_Item
 author: windows-driver-content
 description: Gets the specified name-value pair from the collection.
 old-location: taskschd\itasknamedvaluecollection_item.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: a243b814-7d83-466d-bd49-3414f3240780
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskNamedValueCollection, ITaskNamedValueCollection interface [Task Scheduler], Item property, ITaskNamedValueCollection.Item, ITaskNamedValueCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler], ITaskNamedValueCollection interface, get_Item,ITaskNamedValueCollection.get_Item, taskschd.itasknamedvaluecollection_item, taskschd/ITaskNamedValueCollection::Item, taskschd/ITaskNamedValueCollection::get_Item
+ms.keywords: ITaskNamedValueCollection interface [Task Scheduler],Item property, ITaskNamedValueCollection.Item, ITaskNamedValueCollection.get_Item, ITaskNamedValueCollection::Item, ITaskNamedValueCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],ITaskNamedValueCollection interface, get_Item, taskschd.itasknamedvaluecollection_item, taskschd/ITaskNamedValueCollection::Item, taskschd/ITaskNamedValueCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskNamedValueCollection::get_Item method
+# ITaskNamedValueCollection::get_Item
 
 
 ## -description

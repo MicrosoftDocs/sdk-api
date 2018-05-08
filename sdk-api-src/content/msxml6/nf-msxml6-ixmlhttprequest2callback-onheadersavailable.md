@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnHeadersAvailable
-title: IXMLHTTPRequest2Callback::OnHeadersAvailable method
+title: IXMLHTTPRequest2Callback::OnHeadersAvailable
 author: windows-driver-content
 description: Occurs after an HTTP request has been sent to the server and the server has responded with response headers.
 old-location: ixhr2\ixmlhttprequest2callback_onheadersavailable.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: EB6580C5-B200-4281-BF1F-FA5C3220689E
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest2Callback, IXMLHTTPRequest2Callback interface [XMLHttpRequest2], OnHeadersAvailable method, IXMLHTTPRequest2Callback::OnHeadersAvailable, OnHeadersAvailable method [XMLHttpRequest2], OnHeadersAvailable method [XMLHttpRequest2], IXMLHTTPRequest2Callback interface, OnHeadersAvailable,IXMLHTTPRequest2Callback.OnHeadersAvailable, ixhr2.ixmlhttprequest2callback_onheadersavailable, msxml6/IXMLHTTPRequest2Callback::OnHeadersAvailable
+ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnHeadersAvailable method, IXMLHTTPRequest2Callback.OnHeadersAvailable, IXMLHTTPRequest2Callback::OnHeadersAvailable, OnHeadersAvailable, OnHeadersAvailable method [XMLHttpRequest2], OnHeadersAvailable method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onheadersavailable, msxml6/IXMLHTTPRequest2Callback::OnHeadersAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest2Callback::OnHeadersAvailable method
+# IXMLHTTPRequest2Callback::OnHeadersAvailable
 
 
 ## -description

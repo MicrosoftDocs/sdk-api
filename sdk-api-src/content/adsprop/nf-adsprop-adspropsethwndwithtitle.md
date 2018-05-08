@@ -7,7 +7,7 @@ old-location: ad\adspropsethwndwithtitle.htm
 old-project: AD
 ms.assetid: d0d26f32-1c15-4641-bdeb-0f464a510669
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: ADsPropSetHwndWithTitle, ADsPropSetHwndWithTitle function [Active Directory], ad.adspropsethwndwithtitle, adsprop/ADsPropSetHwndWithTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\vari4fromr4.htm
 old-project: automat
 ms.assetid: 21ceeeaa-e3da-4e55-9f73-80ef967fe859
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarI4FromR4, VarI4FromR4 function [Automation], _oa96_VarI4FromR4, automat.vari4fromr4, oleauto/VarI4FromR4
 ms.prod: windows-hardware
 ms.technology: windows-devices

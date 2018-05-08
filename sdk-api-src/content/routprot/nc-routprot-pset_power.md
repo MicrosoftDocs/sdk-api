@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 595e1743-04eb-4490-8548-1ce5ce00e144
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: PSET_POWER, SetPower, SetPower callback function [RAS], _mpr_setpower, routprot/SetPower, rras.setpower
+ms.keywords: PSET_POWER, PSET_POWER callback, SetPower, SetPower callback function [RAS], _mpr_setpower, routprot/SetPower, rras.setpower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PSET_POWER callback
+# PSET_POWER callback function
 
 
 ## -description

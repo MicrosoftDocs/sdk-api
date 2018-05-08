@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IToc.AddEntryList
-title: IToc::AddEntryList method
+title: IToc::AddEntryList
 author: windows-driver-content
 description: The AddEntryList method adds an entry list to the table of contents and assigns an index to the entry list.
 old-location: mf\itoc_addentrylist.htm
 old-project: medfound
 ms.assetid: 8d04d6b8-d110-45a3-b3bb-5a7b680ddabe
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddEntryList method [Media Foundation], AddEntryList method [Media Foundation], IToc interface, AddEntryList,IToc.AddEntryList, IToc, IToc interface [Media Foundation], AddEntryList method, IToc::AddEntryList, codecapi.itoc_addentrylist, mf.itoc_addentrylist, wmcodecdsp/IToc::AddEntryList
+ms.date: 5/3/2018
+ms.keywords: AddEntryList, AddEntryList method [Media Foundation], AddEntryList method [Media Foundation],IToc interface, IToc interface [Media Foundation],AddEntryList method, IToc.AddEntryList, IToc::AddEntryList, codecapi.itoc_addentrylist, mf.itoc_addentrylist, wmcodecdsp/IToc::AddEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IToc::AddEntryList method
+# IToc::AddEntryList
 
 
 ## -description

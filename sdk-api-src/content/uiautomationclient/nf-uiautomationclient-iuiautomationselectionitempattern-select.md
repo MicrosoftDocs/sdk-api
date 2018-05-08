@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.Select
-title: IUIAutomationSelectionItemPattern::Select method
+title: IUIAutomationSelectionItemPattern::Select
 author: windows-driver-content
 description: Clears any selected items and then selects the current element.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_Select.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 676d3fef-77b8-4f02-9a89-a7471898598f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationSelectionItemPattern, IUIAutomationSelectionItemPattern interface [Windows Accessibility], Select method, IUIAutomationSelectionItemPattern::Select, Select method [Windows Accessibility], Select method [Windows Accessibility], IUIAutomationSelectionItemPattern interface, Select,IUIAutomationSelectionItemPattern.Select, uiauto.uiauto_IUIAutomationSelectionItemPattern_Select, uiauto_IUIAutomationSelectionItemPattern_Select, uiautomationclient/IUIAutomationSelectionItemPattern::Select, winauto.uiauto_IUIAutomationSelectionItemPattern_Select
+ms.keywords: IUIAutomationSelectionItemPattern interface [Windows Accessibility],Select method, IUIAutomationSelectionItemPattern.Select, IUIAutomationSelectionItemPattern::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],IUIAutomationSelectionItemPattern interface, uiauto.uiauto_IUIAutomationSelectionItemPattern_Select, uiauto_IUIAutomationSelectionItemPattern_Select, uiautomationclient/IUIAutomationSelectionItemPattern::Select, winauto.uiauto_IUIAutomationSelectionItemPattern_Select
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationSelectionItemPattern::Select method
+# IUIAutomationSelectionItemPattern::Select
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocManagerNotificationSink.OnNetworkAdd
-title: IDot11AdHocManagerNotificationSink::OnNetworkAdd method
+title: IDot11AdHocManagerNotificationSink::OnNetworkAdd
 author: windows-driver-content
 description: Notifies the client that a new wireless ad hoc network destination is in range and available for connection.
 old-location: nwifi\idot11adhocmanagernotificationsink_onnetworkadd.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: 28cca237-31a5-4018-a382-17d0a13a254b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IDot11AdHocManagerNotificationSink, IDot11AdHocManagerNotificationSink interface [NativeWIFI], OnNetworkAdd method, IDot11AdHocManagerNotificationSink::OnNetworkAdd, OnNetworkAdd method [NativeWIFI], OnNetworkAdd method [NativeWIFI], IDot11AdHocManagerNotificationSink interface, OnNetworkAdd,IDot11AdHocManagerNotificationSink.OnNetworkAdd, adhoc/IDot11AdHocManagerNotificationSink::OnNetworkAdd, nwifi.idot11adhocmanagernotificationsink_onnetworkadd
+ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnNetworkAdd method, IDot11AdHocManagerNotificationSink.OnNetworkAdd, IDot11AdHocManagerNotificationSink::OnNetworkAdd, OnNetworkAdd, OnNetworkAdd method [NativeWIFI], OnNetworkAdd method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnNetworkAdd, nwifi.idot11adhocmanagernotificationsink_onnetworkadd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDot11AdHocManagerNotificationSink::OnNetworkAdd method
+# IDot11AdHocManagerNotificationSink::OnNetworkAdd
 
 
 ## -description

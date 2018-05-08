@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ISearchJob.get_IsCompleted
-title: ISearchJob::get_IsCompleted method
+title: ISearchJob::get_IsCompleted
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether the call to the IUpdateSearch.BeginSearch method is completely processed.
 old-location: wua\isearchjob_iscompleted.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 32bb990d-89ce-4aca-8a9f-28cbd991e506
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ISearchJob, ISearchJob interface [Windows Update Agent], IsCompleted property, ISearchJob.IsCompleted, ISearchJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent], ISearchJob interface, get_IsCompleted,ISearchJob.get_IsCompleted, wua.isearchjob_iscompleted, wuapi/ISearchJob::IsCompleted, wuapi/ISearchJob::get_IsCompleted
+ms.keywords: ISearchJob interface [Windows Update Agent],IsCompleted property, ISearchJob.IsCompleted, ISearchJob.get_IsCompleted, ISearchJob::IsCompleted, ISearchJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent],ISearchJob interface, get_IsCompleted, wua.isearchjob_iscompleted, wuapi/ISearchJob::IsCompleted, wuapi/ISearchJob::get_IsCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISearchJob::get_IsCompleted method
+# ISearchJob::get_IsCompleted
 
 
 ## -description

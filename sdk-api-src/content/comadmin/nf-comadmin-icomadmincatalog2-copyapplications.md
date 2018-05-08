@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.CopyApplications
-title: ICOMAdminCatalog2::CopyApplications method
+title: ICOMAdminCatalog2::CopyApplications
 author: windows-driver-content
 description: Copies the specified COM+ applications from one partition to another.
 old-location: cos\icomadmincatalog2_copyapplications.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 4ddb9cab-2e02-4b96-9216-d6cb064f8107
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CopyApplications method [COM+], CopyApplications method [COM+], ICOMAdminCatalog2 interface, CopyApplications,ICOMAdminCatalog2.CopyApplications, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], CopyApplications method, ICOMAdminCatalog2::CopyApplications, _cos_icomadmincatalog2_CopyApplications, comadmin/ICOMAdminCatalog2::CopyApplications, cos.icomadmincatalog2_copyapplications
+ms.keywords: CopyApplications, CopyApplications method [COM+], CopyApplications method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CopyApplications method, ICOMAdminCatalog2.CopyApplications, ICOMAdminCatalog2::CopyApplications, _cos_icomadmincatalog2_CopyApplications, comadmin/ICOMAdminCatalog2::CopyApplications, cos.icomadmincatalog2_copyapplications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::CopyApplications method
+# ICOMAdminCatalog2::CopyApplications
 
 
 ## -description

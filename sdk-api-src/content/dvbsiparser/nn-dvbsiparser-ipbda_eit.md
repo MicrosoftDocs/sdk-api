@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cb8cd2cc-e498-43c2-ae1e-3543b4ea3b56
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], IPBDA_EIT interface [Microsoft TV Technologies], described, dvbsiparser/IPBDA_EIT, mstv.ipbda_eit
+ms.keywords: IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], IPBDA_EIT interface [Microsoft TV Technologies],described, dvbsiparser/IPBDA_EIT, mstv.ipbda_eit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

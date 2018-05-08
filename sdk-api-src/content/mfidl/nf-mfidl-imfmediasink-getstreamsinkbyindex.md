@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetStreamSinkByIndex
-title: IMFMediaSink::GetStreamSinkByIndex method
+title: IMFMediaSink::GetStreamSinkByIndex
 author: windows-driver-content
 description: Gets a stream sink, specified by index.
 old-location: mf\imfmediasink_getstreamsinkbyindex.htm
 old-project: medfound
 ms.assetid: 01604801-1566-410c-b23a-0568c7298868
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 01604801-1566-410c-b23a-0568c7298868, GetStreamSinkByIndex method [Media Foundation], GetStreamSinkByIndex method [Media Foundation], IMFMediaSink interface, GetStreamSinkByIndex,IMFMediaSink.GetStreamSinkByIndex, IMFMediaSink, IMFMediaSink interface [Media Foundation], GetStreamSinkByIndex method, IMFMediaSink::GetStreamSinkByIndex, mf.imfmediasink_getstreamsinkbyindex, mfidl/IMFMediaSink::GetStreamSinkByIndex
+ms.date: 5/3/2018
+ms.keywords: 01604801-1566-410c-b23a-0568c7298868, GetStreamSinkByIndex, GetStreamSinkByIndex method [Media Foundation], GetStreamSinkByIndex method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetStreamSinkByIndex method, IMFMediaSink.GetStreamSinkByIndex, IMFMediaSink::GetStreamSinkByIndex, mf.imfmediasink_getstreamsinkbyindex, mfidl/IMFMediaSink::GetStreamSinkByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSink::GetStreamSinkByIndex method
+# IMFMediaSink::GetStreamSinkByIndex
 
 
 ## -description

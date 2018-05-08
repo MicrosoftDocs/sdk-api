@@ -7,7 +7,7 @@ old-location: iphlp\gettcpstatistics.htm
 old-project: IpHlp
 ms.assetid: 841cdeaa-6284-4b39-a218-69937eca1982
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: GetTcpStatistics, GetTcpStatistics function [IP Helper], _iphlp_gettcpstatistics, iphlp.gettcpstatistics, iphlpapi/GetTcpStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

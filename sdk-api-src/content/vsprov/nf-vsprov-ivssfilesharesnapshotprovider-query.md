@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.Query
-title: IVssFileShareSnapshotProvider::Query method
+title: IVssFileShareSnapshotProvider::Query
 author: windows-driver-content
 description: Gets an enumeration of VSS_SNAPSHOT_PROP structures for all file share snapshots that are available to the application server.
 old-location: base\ivssfilesharesnapshotprovider_query.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 686d2104-f657-4c3b-967b-d6fb9137be17
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interface [VSS], Query method, IVssFileShareSnapshotProvider::Query, Query method [VSS], Query method [VSS], IVssFileShareSnapshotProvider interface, Query,IVssFileShareSnapshotProvider.Query, base.ivssfilesharesnapshotprovider_query, vsprov/IVssFileShareSnapshotProvider::Query
+ms.keywords: IVssFileShareSnapshotProvider interface [VSS],Query method, IVssFileShareSnapshotProvider.Query, IVssFileShareSnapshotProvider::Query, Query, Query method [VSS], Query method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_query, vsprov/IVssFileShareSnapshotProvider::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssFileShareSnapshotProvider::Query method
+# IVssFileShareSnapshotProvider::Query
 
 
 ## -description

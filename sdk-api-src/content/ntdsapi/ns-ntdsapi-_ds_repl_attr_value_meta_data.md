@@ -7,7 +7,7 @@ old-location: ad\ds_repl_attr_value_meta_data.htm
 old-project: AD
 ms.assetid: b13cdd31-d154-4539-81d6-d7a449e2b3d5
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DS_REPL_ATTR_VALUE_META_DATA, DS_REPL_ATTR_VALUE_META_DATA structure [Active Directory], _DS_REPL_ATTR_VALUE_META_DATA, ad.ds_repl_attr_value_meta_data, ntdsapi/DS_REPL_ATTR_VALUE_META_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,6 +66,16 @@ Contains the number of elements in the <b>rgMetaData</b> array.
 ### -field dwEnumerationContext
 
 Contains the zero-based index of the next entry to retrieve if more entries are available. This value is passed for the <i>dwEnumerationContext</i> parameter in the next call to <a href="https://msdn.microsoft.com/5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d">DsReplicaGetInfo2</a> to retrieve the next block of entries. If no more entries are available, this member contains -1.
+
+
+### -field rgMetaData.size_is
+
+ 
+
+
+### -field rgMetaData.size_is.cNumEntries
+
+ 
 
 
 ### -field rgMetaData

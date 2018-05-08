@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamAttributesManager.GetAttributes
-title: IMFMuxStreamAttributesManager::GetAttributes method
+title: IMFMuxStreamAttributesManager::GetAttributes
 author: windows-driver-content
 description: Gets the IMFAttributes for the substream with the specified index.
 old-location: mf\imfmuxstreamattributesmanager_getattributes.htm
 old-project: medfound
 ms.assetid: 1C00900F-BD8B-4AF7-82E0-37AC370A90E3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetAttributes method [Media Foundation], GetAttributes method [Media Foundation], IMFMuxStreamAttributesManager interface, GetAttributes,IMFMuxStreamAttributesManager.GetAttributes, IMFMuxStreamAttributesManager, IMFMuxStreamAttributesManager interface [Media Foundation], GetAttributes method, IMFMuxStreamAttributesManager::GetAttributes, mf.imfmuxstreamattributesmanager_getattributes, mfobjects/IMFMuxStreamAttributesManager::GetAttributes
+ms.date: 5/3/2018
+ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFMuxStreamAttributesManager interface, IMFMuxStreamAttributesManager interface [Media Foundation],GetAttributes method, IMFMuxStreamAttributesManager.GetAttributes, IMFMuxStreamAttributesManager::GetAttributes, mf.imfmuxstreamattributesmanager_getattributes, mfobjects/IMFMuxStreamAttributesManager::GetAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMuxStreamAttributesManager::GetAttributes method
+# IMFMuxStreamAttributesManager::GetAttributes
 
 
 ## -description

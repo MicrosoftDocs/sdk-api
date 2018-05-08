@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.ScrollIntoView
-title: ITextRangeProvider::ScrollIntoView method
+title: ITextRangeProvider::ScrollIntoView
 author: windows-driver-content
 description: Causes the text control to scroll vertically until the text range is visible in the viewport.
 old-location: winauto\uiauto_ITextRangeProvider_ScrollIntoView.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 58044de0-124f-4efd-a14f-4865f3278421
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], ScrollIntoView method, ITextRangeProvider::ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility], ITextRangeProvider interface, ScrollIntoView,ITextRangeProvider.ScrollIntoView, uiauto.uiauto_ITextRangeProvider_ScrollIntoView, uiauto_ITextRangeProvider_ScrollIntoView, uiautomationcore/ITextRangeProvider::ScrollIntoView, winauto.uiauto_ITextRangeProvider_ScrollIntoView
+ms.keywords: ITextRangeProvider interface [Windows Accessibility],ScrollIntoView method, ITextRangeProvider.ScrollIntoView, ITextRangeProvider::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_ScrollIntoView, uiauto_ITextRangeProvider_ScrollIntoView, uiautomationcore/ITextRangeProvider::ScrollIntoView, winauto.uiauto_ITextRangeProvider_ScrollIntoView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRangeProvider::ScrollIntoView method
+# ITextRangeProvider::ScrollIntoView
 
 
 ## -description

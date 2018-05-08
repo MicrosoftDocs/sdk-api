@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.PutTuningSpace
-title: IBDA_NetworkProvider::PutTuningSpace method
+title: IBDA_NetworkProvider::PutTuningSpace
 author: windows-driver-content
 description: The PutTuningSpace method specifies the tuning space.
 old-location: mstv\ibda_networkprovider_puttuningspace.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4541a675-875b-4a6c-8251-e13abdd46b38
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_NetworkProvider, IBDA_NetworkProvider interface [Microsoft TV Technologies], PutTuningSpace method, IBDA_NetworkProvider::PutTuningSpace, IBDA_NetworkProviderPutTuningSpace, PutTuningSpace method [Microsoft TV Technologies], PutTuningSpace method [Microsoft TV Technologies], IBDA_NetworkProvider interface, PutTuningSpace,IBDA_NetworkProvider.PutTuningSpace, bdaiface/IBDA_NetworkProvider::PutTuningSpace, mstv.ibda_networkprovider_puttuningspace
+ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],PutTuningSpace method, IBDA_NetworkProvider.PutTuningSpace, IBDA_NetworkProvider::PutTuningSpace, IBDA_NetworkProviderPutTuningSpace, PutTuningSpace, PutTuningSpace method [Microsoft TV Technologies], PutTuningSpace method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::PutTuningSpace, mstv.ibda_networkprovider_puttuningspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_NetworkProvider::PutTuningSpace method
+# IBDA_NetworkProvider::PutTuningSpace
 
 
 ## -description

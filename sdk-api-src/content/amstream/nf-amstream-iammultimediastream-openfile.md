@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.OpenFile
-title: IAMMultiMediaStream::OpenFile method
+title: IAMMultiMediaStream::OpenFile
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The OpenFile method opens and automatically creates a filter graph for the specified media file. If DirectShow doesn't support the file format, this method does nothing.
 old-location: dshow\iammultimediastream_openfile.htm
 old-project: DirectShow
 ms.assetid: 0b3f7401-9afe-41e5-827f-e4e8d60b7480
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMultiMediaStream, IAMMultiMediaStream interface [DirectShow], OpenFile method, IAMMultiMediaStream::OpenFile, IAMMultiMediaStreamOpenFile, OpenFile method [DirectShow], OpenFile method [DirectShow], IAMMultiMediaStream interface, OpenFile,IAMMultiMediaStream.OpenFile, amstream/IAMMultiMediaStream::OpenFile, dshow.iammultimediastream_openfile
+ms.date: 4/30/2018
+ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenFile method, IAMMultiMediaStream.OpenFile, IAMMultiMediaStream::OpenFile, IAMMultiMediaStreamOpenFile, OpenFile, OpenFile method [DirectShow], OpenFile method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenFile, dshow.iammultimediastream_openfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMultiMediaStream::OpenFile method
+# IAMMultiMediaStream::OpenFile
 
 
 ## -description

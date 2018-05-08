@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 8D974311-25CB-4D49-B907-2984D0DA58D7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccessibleHostingElementProviders, IAccessibleHostingElementProviders interface [Windows Accessibility], IAccessibleHostingElementProviders interface [Windows Accessibility], described, uiautomationcore/IAccessibleHostingElementProviders, winauto.iaccessiblehostingelementproviders
+ms.keywords: IAccessibleHostingElementProviders, IAccessibleHostingElementProviders interface [Windows Accessibility], IAccessibleHostingElementProviders interface [Windows Accessibility],described, uiautomationcore/IAccessibleHostingElementProviders, winauto.iaccessiblehostingelementproviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

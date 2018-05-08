@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRImageCompositor9.SetStreamMediaType
-title: IVMRImageCompositor9::SetStreamMediaType method
+title: IVMRImageCompositor9::SetStreamMediaType
 author: windows-driver-content
 description: The SetStreamMediaType method sets the media type for the input stream.
 old-location: dshow\ivmrimagecompositor9_setstreammediatype.htm
 old-project: DirectShow
 ms.assetid: 4d994a83-a5be-427c-bf19-0090577d6ee5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRImageCompositor9, IVMRImageCompositor9 interface [DirectShow], SetStreamMediaType method, IVMRImageCompositor9::SetStreamMediaType, IVMRImageCompositor9SetStreamMediaType, SetStreamMediaType method [DirectShow], SetStreamMediaType method [DirectShow], IVMRImageCompositor9 interface, SetStreamMediaType,IVMRImageCompositor9.SetStreamMediaType, dshow.ivmrimagecompositor9_setstreammediatype, vmr9/IVMRImageCompositor9::SetStreamMediaType
+ms.date: 4/30/2018
+ms.keywords: IVMRImageCompositor9 interface [DirectShow],SetStreamMediaType method, IVMRImageCompositor9.SetStreamMediaType, IVMRImageCompositor9::SetStreamMediaType, IVMRImageCompositor9SetStreamMediaType, SetStreamMediaType, SetStreamMediaType method [DirectShow], SetStreamMediaType method [DirectShow],IVMRImageCompositor9 interface, dshow.ivmrimagecompositor9_setstreammediatype, vmr9/IVMRImageCompositor9::SetStreamMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRImageCompositor9::SetStreamMediaType method
+# IVMRImageCompositor9::SetStreamMediaType
 
 
 ## -description

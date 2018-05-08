@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectSamplerVariable.GetBackingStore
-title: ID3D10EffectSamplerVariable::GetBackingStore method
+title: ID3D10EffectSamplerVariable::GetBackingStore
 author: windows-driver-content
 description: Get a pointer to a variable that contains sampler state.
 old-location: direct3d10\id3d10effectsamplervariable_getbackingstore.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectsamplervariable_getbackingstore.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 4dc77fe0-2533-5324-1a51-b4e1cde4e16d, GetBackingStore method [Direct3D 10], GetBackingStore method [Direct3D 10], ID3D10EffectSamplerVariable interface, GetBackingStore,ID3D10EffectSamplerVariable.GetBackingStore, ID3D10EffectSamplerVariable, ID3D10EffectSamplerVariable interface [Direct3D 10], GetBackingStore method, ID3D10EffectSamplerVariable::GetBackingStore, d3d10effect/ID3D10EffectSamplerVariable::GetBackingStore, direct3d10.id3d10effectsamplervariable_getbackingstore
+ms.keywords: 4dc77fe0-2533-5324-1a51-b4e1cde4e16d, GetBackingStore, GetBackingStore method [Direct3D 10], GetBackingStore method [Direct3D 10],ID3D10EffectSamplerVariable interface, ID3D10EffectSamplerVariable interface [Direct3D 10],GetBackingStore method, ID3D10EffectSamplerVariable.GetBackingStore, ID3D10EffectSamplerVariable::GetBackingStore, d3d10effect/ID3D10EffectSamplerVariable::GetBackingStore, direct3d10.id3d10effectsamplervariable_getbackingstore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectSamplerVariable::GetBackingStore method
+# ID3D10EffectSamplerVariable::GetBackingStore
 
 
 ## -description

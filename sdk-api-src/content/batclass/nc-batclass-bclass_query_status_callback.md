@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 04811f63-8a57-4b39-84c5-c9b7f803c057
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BCLASS_QUERY_STATUS_CALLBACK, BatteryMiniQueryStatus, BatteryMiniQueryStatus callback function [Battery Devices], bat-mini_49ffd352-4020-4dd0-92ab-7af4c0dd9074.xml, batclass/BatteryMiniQueryStatus, battery.batteryminiquerystatus
+ms.keywords: BCLASS_QUERY_STATUS_CALLBACK, BCLASS_QUERY_STATUS_CALLBACK callback, BatteryMiniQueryStatus, BatteryMiniQueryStatus callback function [Battery Devices], bat-mini_49ffd352-4020-4dd0-92ab-7af4c0dd9074.xml, batclass/BatteryMiniQueryStatus, battery.batteryminiquerystatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: PASSIVE_LEVEL
 ---
 
-# BCLASS_QUERY_STATUS_CALLBACK callback
+# BCLASS_QUERY_STATUS_CALLBACK callback function
 
 
 ## -description

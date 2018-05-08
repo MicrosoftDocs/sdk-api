@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.GetCachedSupportedViews
-title: IUIAutomationMultipleViewPattern::GetCachedSupportedViews method
+title: IUIAutomationMultipleViewPattern::GetCachedSupportedViews
 author: windows-driver-content
 description: Retrieves a collection of control-specific view identifiers from the cache.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7d6874c2-adf9-441a-931e-15b65b7a427c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCachedSupportedViews method [Windows Accessibility], GetCachedSupportedViews method [Windows Accessibility], IUIAutomationMultipleViewPattern interface, GetCachedSupportedViews,IUIAutomationMultipleViewPattern.GetCachedSupportedViews, IUIAutomationMultipleViewPattern, IUIAutomationMultipleViewPattern interface [Windows Accessibility], GetCachedSupportedViews method, IUIAutomationMultipleViewPattern::GetCachedSupportedViews, uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews, uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews, uiautomationclient/IUIAutomationMultipleViewPattern::GetCachedSupportedViews, winauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews
+ms.keywords: GetCachedSupportedViews, GetCachedSupportedViews method [Windows Accessibility], GetCachedSupportedViews method [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],GetCachedSupportedViews method, IUIAutomationMultipleViewPattern.GetCachedSupportedViews, IUIAutomationMultipleViewPattern::GetCachedSupportedViews, uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews, uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews, uiautomationclient/IUIAutomationMultipleViewPattern::GetCachedSupportedViews, winauto.uiauto_IUIAutomationMultipleViewPattern_GetCachedSupportedViews
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationMultipleViewPattern::GetCachedSupportedViews method
+# IUIAutomationMultipleViewPattern::GetCachedSupportedViews
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: winrt\point.htm
 old-project: WinRT
 ms.assetid: 0cdd5b17-2f7e-4e17-896c-7d7784c8643d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: Point, Point structure [Windows Runtime], windows/Point, winrt.point
 ms.prod: windows-hardware
 ms.technology: windows-devices

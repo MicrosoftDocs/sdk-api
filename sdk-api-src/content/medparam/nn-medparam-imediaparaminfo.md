@@ -7,8 +7,8 @@ old-location: dshow\imediaparaminfo.htm
 old-project: DirectShow
 ms.assetid: 80c7da71-7898-4bda-a181-09ad8906532a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaParamInfo, IMediaParamInfo interface [DirectShow], IMediaParamInfo interface [DirectShow], described, IMediaParamInfoInterface, dshow.imediaparaminfo, medparam/IMediaParamInfo
+ms.date: 4/30/2018
+ms.keywords: IMediaParamInfo, IMediaParamInfo interface [DirectShow], IMediaParamInfo interface [DirectShow],described, IMediaParamInfoInterface, dshow.imediaparaminfo, medparam/IMediaParamInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

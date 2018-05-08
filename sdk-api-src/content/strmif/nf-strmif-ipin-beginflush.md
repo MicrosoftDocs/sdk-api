@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IPin.BeginFlush
-title: IPin::BeginFlush method
+title: IPin::BeginFlush
 author: windows-driver-content
 description: The BeginFlush method begins a flush operation.
 old-location: dshow\ipin_beginflush.htm
 old-project: DirectShow
 ms.assetid: 15563666-5f35-46a0-ad12-215979c9d9c1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: BeginFlush method [DirectShow], BeginFlush method [DirectShow], IPin interface, BeginFlush,IPin.BeginFlush, IPin, IPin interface [DirectShow], BeginFlush method, IPin::BeginFlush, IPinBeginFlush, dshow.ipin_beginflush, strmif/IPin::BeginFlush
+ms.date: 4/30/2018
+ms.keywords: BeginFlush, BeginFlush method [DirectShow], BeginFlush method [DirectShow],IPin interface, IPin interface [DirectShow],BeginFlush method, IPin.BeginFlush, IPin::BeginFlush, IPinBeginFlush, dshow.ipin_beginflush, strmif/IPin::BeginFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IPin::BeginFlush method
+# IPin::BeginFlush
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetCHString
-title: CInstance::SetCHString method
+title: CInstance::SetCHString
 author: windows-driver-content
 description: The CInstance::SetCHString method sets a string property.
 old-location: wmi\cinstance_setchstring.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: a75b574d-9ee7-4930-a003-5d71c5f1d687
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CInstance, CInstance::SetCHString, CInstance::SetCHString methods [Windows Management Instrumentation], SetCHString,CInstance.SetCHString, instance/CInstance::SetCHString, wmi.cinstance_setchstring
+ms.keywords: CInstance.SetCHString, CInstance::SetCHString, CInstance::SetCHString methods [Windows Management Instrumentation], SetCHString, instance/CInstance::SetCHString, wmi.cinstance_setchstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::SetCHString method
+# CInstance::SetCHString
 
 
 ## -description

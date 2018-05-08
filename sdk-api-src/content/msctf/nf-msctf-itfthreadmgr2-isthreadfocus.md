@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.IsThreadFocus
-title: ITfThreadMgr2::IsThreadFocus method
+title: ITfThreadMgr2::IsThreadFocus
 author: windows-driver-content
 description: Determines if the calling thread has the TSF input focus.
 old-location: tsf\itfthreadmgr2_isthreadfocus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 8440BEE8-865F-4403-8558-C77638290A7F
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], IsThreadFocus method, ITfThreadMgr2::IsThreadFocus, IsThreadFocus method [Text Services Framework], IsThreadFocus method [Text Services Framework], ITfThreadMgr2 interface, IsThreadFocus,ITfThreadMgr2.IsThreadFocus, msctf/ITfThreadMgr2::IsThreadFocus, tsf.itfthreadmgr2_isthreadfocus
+ms.keywords: ITfThreadMgr2 interface [Text Services Framework],IsThreadFocus method, ITfThreadMgr2.IsThreadFocus, ITfThreadMgr2::IsThreadFocus, IsThreadFocus, IsThreadFocus method [Text Services Framework], IsThreadFocus method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::IsThreadFocus, tsf.itfthreadmgr2_isthreadfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr2::IsThreadFocus method
+# ITfThreadMgr2::IsThreadFocus
 
 
 ## -description

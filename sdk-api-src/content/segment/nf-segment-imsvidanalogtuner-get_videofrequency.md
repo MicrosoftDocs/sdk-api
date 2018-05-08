@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.get_VideoFrequency
-title: IMSVidAnalogTuner::get_VideoFrequency method
+title: IMSVidAnalogTuner::get_VideoFrequency
 author: windows-driver-content
 description: The get_VideoFrequency method retrieves the tuner's video frequency for testing purposes.
 old-location: mstv\imsvidanalogtuner_get_videofrequency.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c6ed5c47-c2cb-4025-9b93-57db25b5cec5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidAnalogTuner, IMSVidAnalogTuner interface [Microsoft TV Technologies], get_VideoFrequency method, IMSVidAnalogTuner::get_VideoFrequency, IMSVidAnalogTunerget_VideoFrequency, get_VideoFrequency method [Microsoft TV Technologies], get_VideoFrequency method [Microsoft TV Technologies], IMSVidAnalogTuner interface, get_VideoFrequency,IMSVidAnalogTuner.get_VideoFrequency, mstv.imsvidanalogtuner_get_videofrequency, segment/IMSVidAnalogTuner::get_VideoFrequency
+ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_VideoFrequency method, IMSVidAnalogTuner.get_VideoFrequency, IMSVidAnalogTuner::get_VideoFrequency, IMSVidAnalogTunerget_VideoFrequency, get_VideoFrequency, get_VideoFrequency method [Microsoft TV Technologies], get_VideoFrequency method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_videofrequency, segment/IMSVidAnalogTuner::get_VideoFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidAnalogTuner::get_VideoFrequency method
+# IMSVidAnalogTuner::get_VideoFrequency
 
 
 ## -description

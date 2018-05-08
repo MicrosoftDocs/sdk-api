@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetEventID
-title: ISyncMgrEvent::GetEventID method
+title: ISyncMgrEvent::GetEventID
 author: windows-driver-content
 description: Gets the event ID.
 old-location: shell\ISyncMgrEvent_GetEventID.htm
 old-project: shell
 ms.assetid: 2951a015-b365-468b-a143-1b807885a99a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetEventID method [Windows Shell], GetEventID method [Windows Shell], ISyncMgrEvent interface, GetEventID,ISyncMgrEvent.GetEventID, ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], GetEventID method, ISyncMgrEvent::GetEventID, _shell_ISyncMgrEvent_GetEventID, shell.ISyncMgrEvent_GetEventID, syncmgr/ISyncMgrEvent::GetEventID
+ms.date: 5/3/2018
+ms.keywords: GetEventID, GetEventID method [Windows Shell], GetEventID method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetEventID method, ISyncMgrEvent.GetEventID, ISyncMgrEvent::GetEventID, _shell_ISyncMgrEvent_GetEventID, shell.ISyncMgrEvent_GetEventID, syncmgr/ISyncMgrEvent::GetEventID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrEvent::GetEventID method
+# ISyncMgrEvent::GetEventID
 
 
 ## -description

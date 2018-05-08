@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.GetProperty
-title: IAzTask::GetProperty method
+title: IAzTask::GetProperty
 author: windows-driver-content
 description: Returns the IAzTask object property with the specified property ID.
 old-location: security\iaztask_getproperty.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: d484f56c-3d96-48df-a0d1-1bea58e30f26
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_TASK_BIZRULE, AZ_PROP_TASK_BIZRULE_LANGUAGE, AZ_PROP_TASK_IS_ROLE_DEFINITION, AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AZ_PROP_WRITABLE, AzTask object [Security], GetProperty method, GetProperty method [Security], GetProperty method [Security], AzTask object, GetProperty method [Security], IAzTask interface, GetProperty,IAzTask.GetProperty, IAzTask, IAzTask interface [Security], GetProperty method, IAzTask::GetProperty, azroles/IAzTask::GetProperty, security.iaztask_getproperty
+ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_TASK_BIZRULE, AZ_PROP_TASK_BIZRULE_LANGUAGE, AZ_PROP_TASK_IS_ROLE_DEFINITION, AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AZ_PROP_WRITABLE, AzTask object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzTask object, GetProperty method [Security],IAzTask interface, IAzTask interface [Security],GetProperty method, IAzTask.GetProperty, IAzTask::GetProperty, azroles/IAzTask::GetProperty, security.iaztask_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzTask::GetProperty method
+# IAzTask::GetProperty
 
 
 ## -description

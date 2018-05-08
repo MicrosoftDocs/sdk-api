@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: dbdf27dc-5fb9-49ef-9a9b-ffcd7b148479
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFunctionDiscoveryServiceProvider, IFunctionDiscoveryServiceProvider interface, IFunctionDiscoveryServiceProvider interface, described, functiondiscoveryprovider/IFunctionDiscoveryServiceProvider, ncd.ifunctiondiscoveryserviceprovider
+ms.keywords: IFunctionDiscoveryServiceProvider, IFunctionDiscoveryServiceProvider interface, IFunctionDiscoveryServiceProvider interface,described, functiondiscoveryprovider/IFunctionDiscoveryServiceProvider, ncd.ifunctiondiscoveryserviceprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

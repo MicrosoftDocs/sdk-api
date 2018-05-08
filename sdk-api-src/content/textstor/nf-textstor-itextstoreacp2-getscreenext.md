@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetScreenExt
-title: ITextStoreACP2::GetScreenExt method
+title: ITextStoreACP2::GetScreenExt
 author: windows-driver-content
 description: Gets the bounding box screen coordinates of the display surface where the text stream is rendered.
 old-location: tsf\itextstoreacp2_getscreenext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: fdc258ab-b692-495c-be76-0b41d75625e2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework], ITextStoreACP2 interface, GetScreenExt,ITextStoreACP2.GetScreenExt, ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], GetScreenExt method, ITextStoreACP2::GetScreenExt, textstor/ITextStoreACP2::GetScreenExt, tsf.itextstoreacp2_getscreenext
+ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetScreenExt method, ITextStoreACP2.GetScreenExt, ITextStoreACP2::GetScreenExt, textstor/ITextStoreACP2::GetScreenExt, tsf.itextstoreacp2_getscreenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP2::GetScreenExt method
+# ITextStoreACP2::GetScreenExt
 
 
 ## -description

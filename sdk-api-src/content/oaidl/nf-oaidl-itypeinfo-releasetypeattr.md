@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo.ReleaseTypeAttr
-title: ITypeInfo::ReleaseTypeAttr method
+title: ITypeInfo::ReleaseTypeAttr
 author: windows-driver-content
 description: Releases a TYPEATTR previously returned by ITypeInfo::GetTypeAttr.
 old-location: automat\itypeinfo_releasetypeattr.htm
 old-project: automat
 ms.assetid: 86827f7f-d5c7-4297-8eb9-af7b03d16121
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ITypeInfo, ITypeInfo interface [Automation], ReleaseTypeAttr method, ITypeInfo::ReleaseTypeAttr, ReleaseTypeAttr method [Automation], ReleaseTypeAttr method [Automation], ITypeInfo interface, ReleaseTypeAttr,ITypeInfo.ReleaseTypeAttr, _oa96_ITypeInfo_ReleaseTypeAttr, automat.itypeinfo_releasetypeattr, oaidl/ITypeInfo::ReleaseTypeAttr
+ms.date: 5/4/2018
+ms.keywords: ITypeInfo interface [Automation],ReleaseTypeAttr method, ITypeInfo.ReleaseTypeAttr, ITypeInfo::ReleaseTypeAttr, ReleaseTypeAttr, ReleaseTypeAttr method [Automation], ReleaseTypeAttr method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseTypeAttr, automat.itypeinfo_releasetypeattr, oaidl/ITypeInfo::ReleaseTypeAttr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo::ReleaseTypeAttr method
+# ITypeInfo::ReleaseTypeAttr
 
 
 ## -description

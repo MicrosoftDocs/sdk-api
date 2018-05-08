@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.InitializeItemList
-title: IPhotoAcquireSource::InitializeItemList method
+title: IPhotoAcquireSource::InitializeItemList
 author: windows-driver-content
 description: The InitializeItemList method enumerates transferable items on the device and passes each item to the optional progress callback, if it is supplied.
 old-location: picacq\iphotoacquiresource_initializeitemlist.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 1e0ebbc7-888d-4044-8257-47c1719cf7fc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoAcquireSource, IPhotoAcquireSource interface [Picture Acquisition], InitializeItemList method, IPhotoAcquireSource::InitializeItemList, IPhotoAcquireSourceInitializeItemList, InitializeItemList method [Picture Acquisition], InitializeItemList method [Picture Acquisition], IPhotoAcquireSource interface, InitializeItemList,IPhotoAcquireSource.InitializeItemList, photoacquire/IPhotoAcquireSource::InitializeItemList, picacq.iphotoacquiresource_initializeitemlist
+ms.keywords: IPhotoAcquireSource interface [Picture Acquisition],InitializeItemList method, IPhotoAcquireSource.InitializeItemList, IPhotoAcquireSource::InitializeItemList, IPhotoAcquireSourceInitializeItemList, InitializeItemList, InitializeItemList method [Picture Acquisition], InitializeItemList method [Picture Acquisition],IPhotoAcquireSource interface, photoacquire/IPhotoAcquireSource::InitializeItemList, picacq.iphotoacquiresource_initializeitemlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireSource::InitializeItemList method
+# IPhotoAcquireSource::InitializeItemList
 
 
 ## -description

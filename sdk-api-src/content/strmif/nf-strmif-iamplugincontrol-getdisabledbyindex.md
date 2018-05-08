@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMPluginControl.GetDisabledByIndex
-title: IAMPluginControl::GetDisabledByIndex method
+title: IAMPluginControl::GetDisabledByIndex
 author: windows-driver-content
 description: Gets a class identifier (CLSID) from the blocked list.
 old-location: dshow\iamplugincontrol_getdisabledbyindex.htm
 old-project: DirectShow
 ms.assetid: 7c55e37b-46f1-4283-bea4-3884ae730906
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDisabledByIndex method [DirectShow], GetDisabledByIndex method [DirectShow], IAMPluginControl interface, GetDisabledByIndex,IAMPluginControl.GetDisabledByIndex, IAMPluginControl, IAMPluginControl interface [DirectShow], GetDisabledByIndex method, IAMPluginControl::GetDisabledByIndex, dshow.iamplugincontrol_getdisabledbyindex, strmif/IAMPluginControl::GetDisabledByIndex
+ms.date: 4/30/2018
+ms.keywords: GetDisabledByIndex, GetDisabledByIndex method [DirectShow], GetDisabledByIndex method [DirectShow],IAMPluginControl interface, IAMPluginControl interface [DirectShow],GetDisabledByIndex method, IAMPluginControl.GetDisabledByIndex, IAMPluginControl::GetDisabledByIndex, dshow.iamplugincontrol_getdisabledbyindex, strmif/IAMPluginControl::GetDisabledByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMPluginControl::GetDisabledByIndex method
+# IAMPluginControl::GetDisabledByIndex
 
 
 ## -description

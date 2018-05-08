@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.RegisterInstance
-title: IXamlDiagnostics::RegisterInstance method
+title: IXamlDiagnostics::RegisterInstance
 author: windows-driver-content
 description: Adds an IInspectable to the XAML Diagnostics cache and returns the newly created InstanceHandle for the object.
 old-location: xaml_diagnostics\ixamldiagnostics_registerinstance.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: B1BD13CE-6B20-45D0-83E2-AB7E15BDA6FC
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: IXamlDiagnostics, IXamlDiagnostics interface, RegisterInstance method, IXamlDiagnostics::RegisterInstance, RegisterInstance method, RegisterInstance method, IXamlDiagnostics interface, RegisterInstance,IXamlDiagnostics.RegisterInstance, xaml_diagnostics.ixamldiagnostics_registerinstance, xamlom/IXamlDiagnostics::RegisterInstance
+ms.keywords: IXamlDiagnostics interface,RegisterInstance method, IXamlDiagnostics.RegisterInstance, IXamlDiagnostics::RegisterInstance, RegisterInstance, RegisterInstance method, RegisterInstance method,IXamlDiagnostics interface, xaml_diagnostics.ixamldiagnostics_registerinstance, xamlom/IXamlDiagnostics::RegisterInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXamlDiagnostics::RegisterInstance method
+# IXamlDiagnostics::RegisterInstance
 
 
 ## -description

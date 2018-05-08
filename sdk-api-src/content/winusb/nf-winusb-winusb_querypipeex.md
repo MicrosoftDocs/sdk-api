@@ -7,7 +7,7 @@ old-location: buses\winusb_querypipeex.htm
 old-project: usbref
 ms.assetid: 73C291EC-2345-454B-BC7C-8A443DDFF57C
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/3/2018
 ms.keywords: WinUsb_QueryPipeEx, WinUsb_QueryPipeEx routine [Buses], buses.winusb_querypipeex, winusb/WinUsb_QueryPipeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

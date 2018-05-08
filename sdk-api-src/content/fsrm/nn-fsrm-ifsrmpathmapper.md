@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 04e62a10-1719-454b-adfb-6320e31c7a88
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPathMapper, IFsrmPathMapper interface [File Server Resource Manager], IFsrmPathMapper interface [File Server Resource Manager], described, fs.ifsrmpathmapper, fsrm.ifsrmpathmapper, fsrm/IFsrmPathMapper
+ms.keywords: IFsrmPathMapper, IFsrmPathMapper interface [File Server Resource Manager], IFsrmPathMapper interface [File Server Resource Manager],described, fs.ifsrmpathmapper, fsrm.ifsrmpathmapper, fsrm/IFsrmPathMapper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

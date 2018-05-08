@@ -1,6 +1,6 @@
 ---
 UID: NF:msp.ITMSPAddress.ReceiveTSPData
-title: ITMSPAddress::ReceiveTSPData method
+title: ITMSPAddress::ReceiveTSPData
 author: windows-driver-content
 description: The ReceiveTSPData method is called by TAPI 3 when the TSP sends asynchronous data to the MSP.
 old-location: tapi3\itmspaddress_receivetspdata.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 80b8e0aa-3361-4593-bec0-cbe9186c6c41
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITMSPAddress, ITMSPAddress interface [TAPI 2.2], ReceiveTSPData method, ITMSPAddress::ReceiveTSPData, ReceiveTSPData method [TAPI 2.2], ReceiveTSPData method [TAPI 2.2], ITMSPAddress interface, ReceiveTSPData,ITMSPAddress.ReceiveTSPData, _tapi3_itmspaddress_receivetspdata, msp/ITMSPAddress::ReceiveTSPData, tapi3.itmspaddress_receivetspdata
+ms.keywords: ITMSPAddress interface [TAPI 2.2],ReceiveTSPData method, ITMSPAddress.ReceiveTSPData, ITMSPAddress::ReceiveTSPData, ReceiveTSPData, ReceiveTSPData method [TAPI 2.2], ReceiveTSPData method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_receivetspdata, msp/ITMSPAddress::ReceiveTSPData, tapi3.itmspaddress_receivetspdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITMSPAddress::ReceiveTSPData method
+# ITMSPAddress::ReceiveTSPData
 
 
 ## -description

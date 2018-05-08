@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 4cb5beb9-72b8-46cb-8460-56455785a7a0
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMLicenseRevocationAgent, IWMLicenseRevocationAgent interface [windows Media Format], IWMLicenseRevocationAgent interface [windows Media Format], described, IWMLicenseRevocationAgentInterface, wmformat.iwmlicenserevocationagent, wmsdkidl/IWMLicenseRevocationAgent
+ms.keywords: IWMLicenseRevocationAgent, IWMLicenseRevocationAgent interface [windows Media Format], IWMLicenseRevocationAgent interface [windows Media Format],described, IWMLicenseRevocationAgentInterface, wmformat.iwmlicenserevocationagent, wmsdkidl/IWMLicenseRevocationAgent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

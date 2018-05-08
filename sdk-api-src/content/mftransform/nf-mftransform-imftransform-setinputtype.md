@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.SetInputType
-title: IMFTransform::SetInputType method
+title: IMFTransform::SetInputType
 author: windows-driver-content
 description: Sets, tests, or clears the media type for an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_setinputtype.htm
 old-project: medfound
 ms.assetid: 822a83d1-177a-4a8d-842e-eb76f8253283
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 822a83d1-177a-4a8d-842e-eb76f8253283, IMFTransform, IMFTransform interface [Media Foundation], SetInputType method, IMFTransform::SetInputType, SetInputType method [Media Foundation], SetInputType method [Media Foundation], IMFTransform interface, SetInputType,IMFTransform.SetInputType, mf.imftransform_setinputtype, mftransform/IMFTransform::SetInputType
+ms.date: 5/3/2018
+ms.keywords: 822a83d1-177a-4a8d-842e-eb76f8253283, IMFTransform interface [Media Foundation],SetInputType method, IMFTransform.SetInputType, IMFTransform::SetInputType, SetInputType, SetInputType method [Media Foundation], SetInputType method [Media Foundation],IMFTransform interface, mf.imftransform_setinputtype, mftransform/IMFTransform::SetInputType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::SetInputType method
+# IMFTransform::SetInputType
 
 
 ## -description

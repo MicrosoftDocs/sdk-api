@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.PositionChange
-title: IWMPEvents::PositionChange method
+title: IWMPEvents::PositionChange
 author: windows-driver-content
 description: The PositionChange event occurs when the current playback position within the media item has been changed.
 old-location: wmp\iwmpevents_iwmpevents__positionchange.htm
 old-project: WMP
 ms.assetid: 644aaab0-8028-4dd2-9f56-f97db2b22d69
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], PositionChange method, IWMPEvents::PositionChange, IWMPEventsPositionChange, PositionChange method [Windows Media Player], PositionChange method [Windows Media Player], IWMPEvents interface, PositionChange,IWMPEvents.PositionChange, wmp.iwmpevents_iwmpevents__positionchange, wmp/IWMPEvents::PositionChange
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],PositionChange method, IWMPEvents.PositionChange, IWMPEvents::PositionChange, IWMPEventsPositionChange, PositionChange, PositionChange method [Windows Media Player], PositionChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__positionchange, wmp/IWMPEvents::PositionChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::PositionChange method
+# IWMPEvents::PositionChange
 
 
 ## -description

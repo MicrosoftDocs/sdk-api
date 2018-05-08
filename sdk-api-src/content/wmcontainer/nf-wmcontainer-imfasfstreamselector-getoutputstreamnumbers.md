@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputStreamNumbers
-title: IMFASFStreamSelector::GetOutputStreamNumbers method
+title: IMFASFStreamSelector::GetOutputStreamNumbers
 author: windows-driver-content
 description: Retrieves the stream numbers for all of the streams that are associated with an output.
 old-location: mf\imfasfstreamselector_getoutputstreamnumbers.htm
 old-project: medfound
 ms.assetid: 4a999e7a-1b2e-4206-874a-ed93b868150b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 4a999e7a-1b2e-4206-874a-ed93b868150b, GetOutputStreamNumbers method [Media Foundation], GetOutputStreamNumbers method [Media Foundation], IMFASFStreamSelector interface, GetOutputStreamNumbers,IMFASFStreamSelector.GetOutputStreamNumbers, IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], GetOutputStreamNumbers method, IMFASFStreamSelector::GetOutputStreamNumbers, mf.imfasfstreamselector_getoutputstreamnumbers, wmcontainer/IMFASFStreamSelector::GetOutputStreamNumbers
+ms.date: 5/3/2018
+ms.keywords: 4a999e7a-1b2e-4206-874a-ed93b868150b, GetOutputStreamNumbers, GetOutputStreamNumbers method [Media Foundation], GetOutputStreamNumbers method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputStreamNumbers method, IMFASFStreamSelector.GetOutputStreamNumbers, IMFASFStreamSelector::GetOutputStreamNumbers, mf.imfasfstreamselector_getoutputstreamnumbers, wmcontainer/IMFASFStreamSelector::GetOutputStreamNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFStreamSelector::GetOutputStreamNumbers method
+# IMFASFStreamSelector::GetOutputStreamNumbers
 
 
 ## -description

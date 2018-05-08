@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespaceManager.RetrieveNamespaces
-title: IWdsTransportNamespaceManager::RetrieveNamespaces method
+title: IWdsTransportNamespaceManager::RetrieveNamespaces
 author: windows-driver-content
 description: Returns a collection of objects of the IWdsTransportNamespace interface that represent namespaces on the server that match specified criteria.
 old-location: wds\iwdstransportnamespacemanager_retrievenamespaces.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 3151ab6b-7ceb-4ecc-8480-cb5f9700ca9a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportNamespaceManager, IWdsTransportNamespaceManager interface [Windows Deployment Services], RetrieveNamespaces method, IWdsTransportNamespaceManager::RetrieveNamespaces, RetrieveNamespaces method [Windows Deployment Services], RetrieveNamespaces method [Windows Deployment Services], IWdsTransportNamespaceManager interface, RetrieveNamespaces,IWdsTransportNamespaceManager.RetrieveNamespaces, wds.iwdstransportnamespacemanager_retrievenamespaces, wdstptmgmt/IWdsTransportNamespaceManager::RetrieveNamespaces
+ms.keywords: IWdsTransportNamespaceManager interface [Windows Deployment Services],RetrieveNamespaces method, IWdsTransportNamespaceManager.RetrieveNamespaces, IWdsTransportNamespaceManager::RetrieveNamespaces, RetrieveNamespaces, RetrieveNamespaces method [Windows Deployment Services], RetrieveNamespaces method [Windows Deployment Services],IWdsTransportNamespaceManager interface, wds.iwdstransportnamespacemanager_retrievenamespaces, wdstptmgmt/IWdsTransportNamespaceManager::RetrieveNamespaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportNamespaceManager::RetrieveNamespaces method
+# IWdsTransportNamespaceManager::RetrieveNamespaces
 
 
 ## -description

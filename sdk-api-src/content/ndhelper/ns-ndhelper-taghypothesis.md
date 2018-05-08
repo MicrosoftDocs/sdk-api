@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 8f137633-8501-404c-9540-d558be9beeca
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: "*PHYPOTHESIS, HYPOTHESIS, HYPOTHESIS structure [NDF], HYPOTHESIS, *PHYPOTHESIS, HYPOTHESIS, *PHYPOTHESIS structure [NDF], ndf.hypothesis, ndhelper/HYPOTHESIS, tagHYPOTHESIS"
+ms.keywords: "*PHYPOTHESIS, HYPOTHESIS, HYPOTHESIS structure [NDF], HYPOTHESIS,*PHYPOTHESIS, HYPOTHESIS,*PHYPOTHESIS structure [NDF], ndf.hypothesis, ndhelper/HYPOTHESIS, tagHYPOTHESIS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ndhelper.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 

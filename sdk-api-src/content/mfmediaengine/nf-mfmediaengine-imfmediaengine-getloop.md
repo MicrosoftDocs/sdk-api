@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetLoop
-title: IMFMediaEngine::GetLoop method
+title: IMFMediaEngine::GetLoop
 author: windows-driver-content
 description: Queries whether the Media Engine will loop playback.
 old-location: mf\imfmediaengine_getloop.htm
 old-project: medfound
 ms.assetid: EBAB4E73-164D-4AE5-87A4-0D37C10071E9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetLoop method [Media Foundation], GetLoop method [Media Foundation], IMFMediaEngine interface, GetLoop,IMFMediaEngine.GetLoop, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetLoop method, IMFMediaEngine::GetLoop, mf.imfmediaengine_getloop, mfmediaengine/IMFMediaEngine::GetLoop
+ms.date: 5/3/2018
+ms.keywords: GetLoop, GetLoop method [Media Foundation], GetLoop method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetLoop method, IMFMediaEngine.GetLoop, IMFMediaEngine::GetLoop, mf.imfmediaengine_getloop, mfmediaengine/IMFMediaEngine::GetLoop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::GetLoop method
+# IMFMediaEngine::GetLoop
 
 
 ## -description

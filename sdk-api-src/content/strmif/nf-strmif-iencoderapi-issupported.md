@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEncoderAPI.IsSupported
-title: IEncoderAPI::IsSupported method
+title: IEncoderAPI::IsSupported
 author: windows-driver-content
 description: The IsSupported method queries whether a given parameter is supported.
 old-location: mstv\iencoderapi_issupported.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bbcbde18-2b2d-48b0-9f52-185648f502ce
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IEncoderAPI, IEncoderAPI interface [Microsoft TV Technologies], IsSupported method, IEncoderAPI::IsSupported, IEncoderAPIIsSupported, IsSupported method [Microsoft TV Technologies], IsSupported method [Microsoft TV Technologies], IEncoderAPI interface, IsSupported,IEncoderAPI.IsSupported, mstv.iencoderapi_issupported, strmif/IEncoderAPI::IsSupported
+ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsSupported method, IEncoderAPI.IsSupported, IEncoderAPI::IsSupported, IEncoderAPIIsSupported, IsSupported, IsSupported method [Microsoft TV Technologies], IsSupported method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_issupported, strmif/IEncoderAPI::IsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEncoderAPI::IsSupported method
+# IEncoderAPI::IsSupported
 
 
 ## -description

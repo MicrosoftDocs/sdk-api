@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagCredUsernamePassword
-title: IWSManEx::SessionFlagCredUsernamePassword method
+title: IWSManEx::SessionFlagCredUsernamePassword
 author: windows-driver-content
 description: Returns the value of the authentication flag WSManFlagCredUsernamePassword for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagcredusernamepassword.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: e9af95ac-4543-4d8b-ac6e-15e89b73713e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], SessionFlagCredUsernamePassword method, IWSManEx::SessionFlagCredUsernamePassword, SessionFlagCredUsernamePassword method [Windows Remote Management], SessionFlagCredUsernamePassword method [Windows Remote Management], IWSManEx interface, SessionFlagCredUsernamePassword,IWSManEx.SessionFlagCredUsernamePassword, winrm.iwsmanex_sessionflagcredusernamepassword, wsmandisp/IWSManEx::SessionFlagCredUsernamePassword
+ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagCredUsernamePassword method, IWSManEx.SessionFlagCredUsernamePassword, IWSManEx::SessionFlagCredUsernamePassword, SessionFlagCredUsernamePassword, SessionFlagCredUsernamePassword method [Windows Remote Management], SessionFlagCredUsernamePassword method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagcredusernamepassword, wsmandisp/IWSManEx::SessionFlagCredUsernamePassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx::SessionFlagCredUsernamePassword method
+# IWSManEx::SessionFlagCredUsernamePassword
 
 
 ## -description

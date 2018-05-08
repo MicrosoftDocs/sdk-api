@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetAnnotationByIndex
-title: ID3D10EffectVariable::GetAnnotationByIndex method
+title: ID3D10EffectVariable::GetAnnotationByIndex
 author: windows-driver-content
 description: Get an annotation by index.
 old-location: direct3d10\id3d10effectvariable_getannotationbyindex.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getannotationbyindex.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetAnnotationByIndex method [Direct3D 10], GetAnnotationByIndex method [Direct3D 10], ID3D10EffectVariable interface, GetAnnotationByIndex,ID3D10EffectVariable.GetAnnotationByIndex, ID3D10EffectVariable, ID3D10EffectVariable interface [Direct3D 10], GetAnnotationByIndex method, ID3D10EffectVariable::GetAnnotationByIndex, c60bf6b1-5d05-ec0d-545c-b26e3e436ab8, d3d10effect/ID3D10EffectVariable::GetAnnotationByIndex, direct3d10.id3d10effectvariable_getannotationbyindex
+ms.keywords: GetAnnotationByIndex, GetAnnotationByIndex method [Direct3D 10], GetAnnotationByIndex method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetAnnotationByIndex method, ID3D10EffectVariable.GetAnnotationByIndex, ID3D10EffectVariable::GetAnnotationByIndex, c60bf6b1-5d05-ec0d-545c-b26e3e436ab8, d3d10effect/ID3D10EffectVariable::GetAnnotationByIndex, direct3d10.id3d10effectvariable_getannotationbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectVariable::GetAnnotationByIndex method
+# ID3D10EffectVariable::GetAnnotationByIndex
 
 
 ## -description

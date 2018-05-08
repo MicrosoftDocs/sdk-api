@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetVersionNumber
-title: IISDB_LDT::GetVersionNumber method
+title: IISDB_LDT::GetVersionNumber
 author: windows-driver-content
 description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getversionnumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7567ca34-2898-4066-a81c-348e3ac5c066
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies], IISDB_LDT interface, GetVersionNumber,IISDB_LDT.GetVersionNumber, IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], GetVersionNumber method, IISDB_LDT::GetVersionNumber, dvbsiparser/IISDB_LDT::GetVersionNumber, mstv.iisdb_ldt_getversionnumber
+ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_LDT.GetVersionNumber, IISDB_LDT::GetVersionNumber, dvbsiparser/IISDB_LDT::GetVersionNumber, mstv.iisdb_ldt_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_LDT::GetVersionNumber method
+# IISDB_LDT::GetVersionNumber
 
 
 ## -description

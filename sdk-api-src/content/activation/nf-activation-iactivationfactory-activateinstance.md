@@ -1,14 +1,14 @@
 ---
 UID: NF:activation.IActivationFactory.ActivateInstance
-title: IActivationFactory::ActivateInstance method
+title: IActivationFactory::ActivateInstance
 author: windows-driver-content
 description: Creates a new instance of the Windows Runtime class that is associated with the current activation factory.
 old-location: winrt\iactivationfactory_activateinstance.htm
 old-project: WinRT
 ms.assetid: AE3E2D87-3AE7-42C3-AA1D-510E717D2E51
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ActivateInstance method [Windows Runtime], ActivateInstance method [Windows Runtime], IActivationFactory interface, ActivateInstance,IActivationFactory.ActivateInstance, IActivationFactory, IActivationFactory interface [Windows Runtime], ActivateInstance method, IActivationFactory::ActivateInstance, activation/IActivationFactory::ActivateInstance, winrt.iactivationfactory_activateinstance
+ms.date: 5/4/2018
+ms.keywords: ActivateInstance, ActivateInstance method [Windows Runtime], ActivateInstance method [Windows Runtime],IActivationFactory interface, IActivationFactory interface [Windows Runtime],ActivateInstance method, IActivationFactory.ActivateInstance, IActivationFactory::ActivateInstance, activation/IActivationFactory::ActivateInstance, winrt.iactivationfactory_activateinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IActivationFactory::ActivateInstance method
+# IActivationFactory::ActivateInstance
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOle.GetClientSite
-title: IRichEditOle::GetClientSite method
+title: IRichEditOle::GetClientSite
 author: windows-driver-content
 description: Retrieves an IOleClientSite interface to be used when creating a new object. All objects inserted into a rich edit control must use client site interfaces returned by this function. A client site may be used with exactly one object.
 old-location: controls\IRichEditOle_GetClientSite.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetclientsite.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetClientSite method [Windows Controls], GetClientSite method [Windows Controls], IRichEditOle interface, GetClientSite,IRichEditOle.GetClientSite, IRichEditOle, IRichEditOle interface [Windows Controls], GetClientSite method, IRichEditOle::GetClientSite, _win32_IRichEditOle_GetClientSite, _win32_IRichEditOle_GetClientSite_cpp, controls.IRichEditOle_GetClientSite, controls._win32_IRichEditOle_GetClientSite, richole/IRichEditOle::GetClientSite
+ms.date: 4/27/2018
+ms.keywords: GetClientSite, GetClientSite method [Windows Controls], GetClientSite method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetClientSite method, IRichEditOle.GetClientSite, IRichEditOle::GetClientSite, _win32_IRichEditOle_GetClientSite, _win32_IRichEditOle_GetClientSite_cpp, controls.IRichEditOle_GetClientSite, controls._win32_IRichEditOle_GetClientSite, richole/IRichEditOle::GetClientSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOle::GetClientSite method
+# IRichEditOle::GetClientSite
 
 
 ## -description

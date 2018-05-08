@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSender.put_BillingCode
-title: IFaxSender::put_BillingCode method
+title: IFaxSender::put_BillingCode
 author: windows-driver-content
 description: The BillingCode property is a null-terminated string that contains the billing code associated with the sender.
 old-location: fax\_mfax_faxsender_billingcode_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6f39.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service], FaxSender object, FaxSender object [Fax Service], BillingCode property, IFaxSender, IFaxSender::put_BillingCode, _mfax_faxsender.billingcode, fax._mfax_faxsender_billingcode, fax._mfax_faxsender_billingcode_vb, put_BillingCode,IFaxSender.put_BillingCode
+ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service],FaxSender object, FaxSender object [Fax Service],BillingCode property, FaxSender.BillingCode, IFaxSender.put_BillingCode, IFaxSender::put_BillingCode, _mfax_faxsender.billingcode, fax._mfax_faxsender_billingcode, fax._mfax_faxsender_billingcode_vb, put_BillingCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxSender::put_BillingCode method
+# IFaxSender::put_BillingCode
 
 
 ## -description

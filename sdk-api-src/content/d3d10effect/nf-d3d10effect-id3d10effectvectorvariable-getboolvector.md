@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.GetBoolVector
-title: ID3D10EffectVectorVariable::GetBoolVector method
+title: ID3D10EffectVectorVariable::GetBoolVector
 author: windows-driver-content
 description: Get a four-component vector that contains boolean data.
 old-location: direct3d10\id3d10effectvectorvariable_getboolvector.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getboolvector.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 13e85229-5904-0e99-1227-17faf8fb17e1, GetBoolVector method [Direct3D 10], GetBoolVector method [Direct3D 10], ID3D10EffectVectorVariable interface, GetBoolVector,ID3D10EffectVectorVariable.GetBoolVector, ID3D10EffectVectorVariable, ID3D10EffectVectorVariable interface [Direct3D 10], GetBoolVector method, ID3D10EffectVectorVariable::GetBoolVector, d3d10effect/ID3D10EffectVectorVariable::GetBoolVector, direct3d10.id3d10effectvectorvariable_getboolvector
+ms.keywords: 13e85229-5904-0e99-1227-17faf8fb17e1, GetBoolVector, GetBoolVector method [Direct3D 10], GetBoolVector method [Direct3D 10],ID3D10EffectVectorVariable interface, ID3D10EffectVectorVariable interface [Direct3D 10],GetBoolVector method, ID3D10EffectVectorVariable.GetBoolVector, ID3D10EffectVectorVariable::GetBoolVector, d3d10effect/ID3D10EffectVectorVariable::GetBoolVector, direct3d10.id3d10effectvectorvariable_getboolvector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectVectorVariable::GetBoolVector method
+# ID3D10EffectVectorVariable::GetBoolVector
 
 
 ## -description

@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# LSA_ADD_CREDENTIAL callback
+# LSA_ADD_CREDENTIAL callback function
 
 
 ## -description

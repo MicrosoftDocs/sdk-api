@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSeeking.SetRate
-title: IMediaSeeking::SetRate method
+title: IMediaSeeking::SetRate
 author: windows-driver-content
 description: The SetRate method sets the playback rate.
 old-location: dshow\imediaseeking_setrate.htm
 old-project: DirectShow
 ms.assetid: 8cd44480-cadb-4b59-9fe7-4a82b3aed15b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], SetRate method, IMediaSeeking::SetRate, IMediaSeekingSetRate, SetRate method [DirectShow], SetRate method [DirectShow], IMediaSeeking interface, SetRate,IMediaSeeking.SetRate, dshow.imediaseeking_setrate, strmif/IMediaSeeking::SetRate
+ms.date: 4/30/2018
+ms.keywords: IMediaSeeking interface [DirectShow],SetRate method, IMediaSeeking.SetRate, IMediaSeeking::SetRate, IMediaSeekingSetRate, SetRate, SetRate method [DirectShow], SetRate method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_setrate, strmif/IMediaSeeking::SetRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSeeking::SetRate method
+# IMediaSeeking::SetRate
 
 
 ## -description

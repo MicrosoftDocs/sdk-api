@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_SampleInterval
-title: IAlertDataCollector::put_SampleInterval method
+title: IAlertDataCollector::put_SampleInterval
 author: windows-driver-content
 description: Retrieves or sets the time interval to wait between sampling counter data.
 old-location: pla\ialertdatacollector_sampleinterval.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 657a5449-acb6-45cb-a862-815fa8cabdc2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IAlertDataCollector, IAlertDataCollector interface [PLA], SampleInterval property, IAlertDataCollector.SampleInterval, IAlertDataCollector::get_SampleInterval, IAlertDataCollector::put_SampleInterval, SampleInterval property [PLA], SampleInterval property [PLA], IAlertDataCollector interface, base.ialertdatacollector_sampleinterval, pla.ialertdatacollector_sampleinterval, pla/IAlertDataCollector::SampleInterval, pla/IAlertDataCollector::get_SampleInterval, pla/IAlertDataCollector::put_SampleInterval, put_SampleInterval,IAlertDataCollector.put_SampleInterval
+ms.keywords: IAlertDataCollector interface [PLA],SampleInterval property, IAlertDataCollector.SampleInterval, IAlertDataCollector.put_SampleInterval, IAlertDataCollector::SampleInterval, IAlertDataCollector::get_SampleInterval, IAlertDataCollector::put_SampleInterval, SampleInterval property [PLA], SampleInterval property [PLA],IAlertDataCollector interface, base.ialertdatacollector_sampleinterval, pla.ialertdatacollector_sampleinterval, pla/IAlertDataCollector::SampleInterval, pla/IAlertDataCollector::get_SampleInterval, pla/IAlertDataCollector::put_SampleInterval, put_SampleInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAlertDataCollector::put_SampleInterval method
+# IAlertDataCollector::put_SampleInterval
 
 
 ## -description

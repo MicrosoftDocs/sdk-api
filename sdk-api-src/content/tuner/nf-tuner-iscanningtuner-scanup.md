@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTuner.ScanUp
-title: IScanningTuner::ScanUp method
+title: IScanningTuner::ScanUp
 author: windows-driver-content
 description: The ScanUp method changes the channel to the next higher channel with valid programming, pauses for the specified number of milliseconds, then repeats until canceled.
 old-location: mstv\iscanningtuner_scanup.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2fa4d316-9f92-47d6-962f-ffe5c7e90a28
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IScanningTuner, IScanningTuner interface [Microsoft TV Technologies], ScanUp method, IScanningTuner::ScanUp, IScanningTunerScanUp, ScanUp method [Microsoft TV Technologies], ScanUp method [Microsoft TV Technologies], IScanningTuner interface, ScanUp,IScanningTuner.ScanUp, mstv.iscanningtuner_scanup, tuner/IScanningTuner::ScanUp
+ms.keywords: IScanningTuner interface [Microsoft TV Technologies],ScanUp method, IScanningTuner.ScanUp, IScanningTuner::ScanUp, IScanningTunerScanUp, ScanUp, ScanUp method [Microsoft TV Technologies], ScanUp method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_scanup, tuner/IScanningTuner::ScanUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IScanningTuner::ScanUp method
+# IScanningTuner::ScanUp
 
 
 ## -description

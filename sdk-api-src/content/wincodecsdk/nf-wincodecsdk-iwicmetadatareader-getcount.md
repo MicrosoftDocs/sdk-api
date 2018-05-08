@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetCount
-title: IWICMetadataReader::GetCount method
+title: IWICMetadataReader::GetCount
 author: windows-driver-content
 description: Gets the number of metadata items within the reader.
 old-location: wic\_wic_codec_iwicmetadatareader_getcount.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: ce9b0267-112a-4aa9-8786-272ee4da4d8b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetCount method [Windows Imaging Component], GetCount method [Windows Imaging Component], IWICMetadataReader interface, GetCount,IWICMetadataReader.GetCount, IWICMetadataReader, IWICMetadataReader interface [Windows Imaging Component], GetCount method, IWICMetadataReader::GetCount, _wic_codec_iwicmetadatareader_getcount, wic._wic_codec_iwicmetadatareader_getcount, wincodecsdk/IWICMetadataReader::GetCount
+ms.keywords: GetCount, GetCount method [Windows Imaging Component], GetCount method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetCount method, IWICMetadataReader.GetCount, IWICMetadataReader::GetCount, _wic_codec_iwicmetadatareader_getcount, wic._wic_codec_iwicmetadatareader_getcount, wincodecsdk/IWICMetadataReader::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataReader::GetCount method
+# IWICMetadataReader::GetCount
 
 
 ## -description

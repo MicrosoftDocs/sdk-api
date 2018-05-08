@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfspui.ITfSpeechUIServer.UpdateBalloon
-title: ITfSpeechUIServer::UpdateBalloon method
+title: ITfSpeechUIServer::UpdateBalloon
 author: windows-driver-content
 description: ITfSpeechUIServer::UpdateBalloon method
 old-location: tsf\itfspeechuiserver_updateballoon.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5ef25aa6-afc4-4c91-8e49-cb5a7ecec36a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfSpeechUIServer, ITfSpeechUIServer interface [Text Services Framework], UpdateBalloon method, ITfSpeechUIServer::UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework], ITfSpeechUIServer interface, UpdateBalloon,ITfSpeechUIServer.UpdateBalloon, ctfspui/ITfSpeechUIServer::UpdateBalloon, tsf.itfspeechuiserver_updateballoon
+ms.keywords: ITfSpeechUIServer interface [Text Services Framework],UpdateBalloon method, ITfSpeechUIServer.UpdateBalloon, ITfSpeechUIServer::UpdateBalloon, UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::UpdateBalloon, tsf.itfspeechuiserver_updateballoon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Sptip.dll
 req.irql: 
 ---
 
-# ITfSpeechUIServer::UpdateBalloon method
+# ITfSpeechUIServer::UpdateBalloon
 
 
 ## -description

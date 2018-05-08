@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_filter_list_type.htm
 old-project: DHCP
 ms.assetid: 369b705c-2322-4be7-8550-41a42318204b
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_FILTER_LIST_TYPE, Allow, DHCP_FILTER_LIST_TYPE, DHCP_FILTER_LIST_TYPE enumeration [DHCP], Deny, _DHCP_FILTER_LIST_TYPE, dhcp.dhcp_filter_list_type, dhcpsapi/Allow, dhcpsapi/DHCP_FILTER_LIST_TYPE, dhcpsapi/Deny"
 ms.prod: windows-hardware
 ms.technology: windows-devices

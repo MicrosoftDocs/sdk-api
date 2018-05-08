@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetTypeInfo
-title: IRecordInfo::GetTypeInfo method
+title: IRecordInfo::GetTypeInfo
 author: windows-driver-content
 description: Retrieves the type information that describes a UDT or safearray of UDTs.
 old-location: automat\irecordinfo_gettypeinfo.htm
 old-project: automat
 ms.assetid: c8c05c4a-000a-4e48-aace-ff9f9292e3ea
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetTypeInfo method [Automation], GetTypeInfo method [Automation], IRecordInfo interface, GetTypeInfo,IRecordInfo.GetTypeInfo, IRecordInfo, IRecordInfo interface [Automation], GetTypeInfo method, IRecordInfo::GetTypeInfo, _oa96_IRecordInfo_GetTypeInfo, automat.irecordinfo_gettypeinfo, oaidl/IRecordInfo::GetTypeInfo
+ms.date: 5/4/2018
+ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetTypeInfo method, IRecordInfo.GetTypeInfo, IRecordInfo::GetTypeInfo, _oa96_IRecordInfo_GetTypeInfo, automat.irecordinfo_gettypeinfo, oaidl/IRecordInfo::GetTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRecordInfo::GetTypeInfo method
+# IRecordInfo::GetTypeInfo
 
 
 ## -description

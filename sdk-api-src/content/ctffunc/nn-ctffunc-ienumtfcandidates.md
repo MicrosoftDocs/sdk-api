@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4daef7e9-e5ab-4eb8-acb6-a475b84d4de6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfCandidates, IEnumTfCandidates interface [Text Services Framework], IEnumTfCandidates interface [Text Services Framework], described, _tsf_ienumtfcandidates_ref, ctffunc/IEnumTfCandidates, tsf.ienumtfcandidates
+ms.keywords: IEnumTfCandidates, IEnumTfCandidates interface [Text Services Framework], IEnumTfCandidates interface [Text Services Framework],described, _tsf_ienumtfcandidates_ref, ctffunc/IEnumTfCandidates, tsf.ienumtfcandidates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineExtension.BeginCreateObject
-title: IMFMediaEngineExtension::BeginCreateObject method
+title: IMFMediaEngineExtension::BeginCreateObject
 author: windows-driver-content
 description: Begins an asynchronous request to create either a byte stream or a media source.
 old-location: mf\imfmediaengineextension_begincreateobject.htm
 old-project: medfound
 ms.assetid: 804E9F16-E4C9-41F6-8913-950A569FB835
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation], IMFMediaEngineExtension interface, BeginCreateObject,IMFMediaEngineExtension.BeginCreateObject, IMFMediaEngineExtension, IMFMediaEngineExtension interface [Media Foundation], BeginCreateObject method, IMFMediaEngineExtension::BeginCreateObject, MF_OBJECT_BYTESTREAM, MF_OBJECT_MEDIASOURCE, mf.imfmediaengineextension_begincreateobject, mfmediaengine/IMFMediaEngineExtension::BeginCreateObject
+ms.date: 5/3/2018
+ms.keywords: BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],BeginCreateObject method, IMFMediaEngineExtension.BeginCreateObject, IMFMediaEngineExtension::BeginCreateObject, MF_OBJECT_BYTESTREAM, MF_OBJECT_MEDIASOURCE, mf.imfmediaengineextension_begincreateobject, mfmediaengine/IMFMediaEngineExtension::BeginCreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineExtension::BeginCreateObject method
+# IMFMediaEngineExtension::BeginCreateObject
 
 
 ## -description

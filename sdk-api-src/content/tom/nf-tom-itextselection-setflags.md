@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextSelection.SetFlags
-title: ITextSelection::SetFlags method
+title: ITextSelection::SetFlags
 author: windows-driver-content
 description: Sets the text selection flags.
 old-location: controls\ITextSelection_SetFlags.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setflags.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextSelection, ITextSelection interface [Windows Controls], SetFlags method, ITextSelection::SetFlags, SetFlags method [Windows Controls], SetFlags method [Windows Controls], ITextSelection interface, SetFlags,ITextSelection.SetFlags, _win32_ITextSelection_SetFlags, _win32_ITextSelection_SetFlags_cpp, controls.ITextSelection_SetFlags, controls._win32_ITextSelection_SetFlags, tom/ITextSelection::SetFlags
+ms.date: 4/27/2018
+ms.keywords: ITextSelection interface [Windows Controls],SetFlags method, ITextSelection.SetFlags, ITextSelection::SetFlags, SetFlags, SetFlags method [Windows Controls], SetFlags method [Windows Controls],ITextSelection interface, _win32_ITextSelection_SetFlags, _win32_ITextSelection_SetFlags_cpp, controls.ITextSelection_SetFlags, controls._win32_ITextSelection_SetFlags, tom/ITextSelection::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextSelection::SetFlags method
+# ITextSelection::SetFlags
 
 
 ## -description

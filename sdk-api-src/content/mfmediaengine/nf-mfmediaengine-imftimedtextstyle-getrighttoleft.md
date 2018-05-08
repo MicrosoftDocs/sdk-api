@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetRightToLeft
-title: IMFTimedTextStyle::GetRightToLeft method
+title: IMFTimedTextStyle::GetRightToLeft
 author: windows-driver-content
 description: Determines whether the right to left writing mode of the timed-text style is enabled.
 old-location: mf\imftimedtextstyle_getrighttoleft.htm
 old-project: medfound
 ms.assetid: 6BE5C8A0-F577-4E1D-8DB7-3FFBEF059C18
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetRightToLeft method [Media Foundation], GetRightToLeft method [Media Foundation], IMFTimedTextStyle interface, GetRightToLeft,IMFTimedTextStyle.GetRightToLeft, IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], GetRightToLeft method, IMFTimedTextStyle::GetRightToLeft, mf.imftimedtextstyle_getrighttoleft, mfmediaengine/IMFTimedTextStyle::GetRightToLeft
+ms.date: 5/3/2018
+ms.keywords: GetRightToLeft, GetRightToLeft method [Media Foundation], GetRightToLeft method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetRightToLeft method, IMFTimedTextStyle.GetRightToLeft, IMFTimedTextStyle::GetRightToLeft, mf.imftimedtextstyle_getrighttoleft, mfmediaengine/IMFTimedTextStyle::GetRightToLeft
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextStyle::GetRightToLeft method
+# IMFTimedTextStyle::GetRightToLeft
 
 
 ## -description

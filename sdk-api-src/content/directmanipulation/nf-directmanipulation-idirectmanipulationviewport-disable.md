@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Disable
-title: IDirectManipulationViewport::Disable method
+title: IDirectManipulationViewport::Disable
 author: windows-driver-content
 description: Stops input processing by the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_disable.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: ac4f3cbe-2769-468e-abe3-07b76ada5d7e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Disable method [Direct Manipulation], Disable method [Direct Manipulation], IDirectManipulationViewport interface, Disable,IDirectManipulationViewport.Disable, IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], Disable method, IDirectManipulationViewport::Disable, directmanipulation.idirectmanipulationviewport_disable, directmanipulation/IDirectManipulationViewport::Disable
+ms.keywords: Disable, Disable method [Direct Manipulation], Disable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Disable method, IDirectManipulationViewport.Disable, IDirectManipulationViewport::Disable, directmanipulation.idirectmanipulationviewport_disable, directmanipulation/IDirectManipulationViewport::Disable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::Disable method
+# IDirectManipulationViewport::Disable
 
 
 ## -description

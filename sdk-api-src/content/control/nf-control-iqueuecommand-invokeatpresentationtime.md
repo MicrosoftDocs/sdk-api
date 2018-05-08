@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IQueueCommand.InvokeAtPresentationTime
-title: IQueueCommand::InvokeAtPresentationTime method
+title: IQueueCommand::InvokeAtPresentationTime
 author: windows-driver-content
 description: The InvokeAtPresentationTime method queues a method to be invoked at the specified presentation time.
 old-location: dshow\iqueuecommand_invokeatpresentationtime.htm
 old-project: DirectShow
 ms.assetid: 95255a18-d6e3-4970-90cb-c87629560ff6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IQueueCommand, IQueueCommand interface [DirectShow], InvokeAtPresentationTime method, IQueueCommand::InvokeAtPresentationTime, IQueueCommandInvokeAtPresentationTime, InvokeAtPresentationTime method [DirectShow], InvokeAtPresentationTime method [DirectShow], IQueueCommand interface, InvokeAtPresentationTime,IQueueCommand.InvokeAtPresentationTime, control/IQueueCommand::InvokeAtPresentationTime, dshow.iqueuecommand_invokeatpresentationtime
+ms.date: 4/30/2018
+ms.keywords: IQueueCommand interface [DirectShow],InvokeAtPresentationTime method, IQueueCommand.InvokeAtPresentationTime, IQueueCommand::InvokeAtPresentationTime, IQueueCommandInvokeAtPresentationTime, InvokeAtPresentationTime, InvokeAtPresentationTime method [DirectShow], InvokeAtPresentationTime method [DirectShow],IQueueCommand interface, control/IQueueCommand::InvokeAtPresentationTime, dshow.iqueuecommand_invokeatpresentationtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IQueueCommand::InvokeAtPresentationTime method
+# IQueueCommand::InvokeAtPresentationTime
 
 
 ## -description

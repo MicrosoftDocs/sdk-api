@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.ValidateMethodFlags
-title: Provider::ValidateMethodFlags method
+title: Provider::ValidateMethodFlags
 author: windows-driver-content
 description: The ValidateMethodFlags method determines whether a set of flags is valid for an execute method operation.
 old-location: wmi\provider_validatemethodflags.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: febc48d8-8952-4e2f-80fc-40344908f8b2
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?ValidateMethodFlags@Provider@@MAEJJ@Z, ?ValidateMethodFlags@Provider@@MEAAJJ@Z, Provider, Provider interface [Windows Management Instrumentation], ValidateMethodFlags method, Provider::ValidateMethodFlags, ValidateMethodFlags method [Windows Management Instrumentation], ValidateMethodFlags method [Windows Management Instrumentation], Provider interface, ValidateMethodFlags,Provider.ValidateMethodFlags, _hmm_provider_validatemethodflags, provider/Provider::ValidateMethodFlags, wmi.provider_validatemethodflags"
+ms.keywords: "?ValidateMethodFlags@Provider@@MAEJJ@Z, ?ValidateMethodFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateMethodFlags method, Provider.ValidateMethodFlags, Provider::ValidateMethodFlags, ValidateMethodFlags, ValidateMethodFlags method [Windows Management Instrumentation], ValidateMethodFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validatemethodflags, provider/Provider::ValidateMethodFlags, wmi.provider_validatemethodflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# Provider::ValidateMethodFlags method
+# Provider::ValidateMethodFlags
 
 
 ## -description

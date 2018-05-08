@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.Get
-title: IProviderQueryConstraintCollection::Get method
+title: IProviderQueryConstraintCollection::Get
 author: windows-driver-content
 description: Gets the value of the specified query constraint, by name.
 old-location: ncd\iproviderqueryconstraintcollection_get.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 30b66ed6-ef02-4a47-baa0-dc48b6d84187
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Get method, Get method, IProviderQueryConstraintCollection interface, Get,IProviderQueryConstraintCollection.Get, IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, Get method, IProviderQueryConstraintCollection::Get, functiondiscoveryprovider/IProviderQueryConstraintCollection::Get, ncd.iproviderqueryconstraintcollection_get
+ms.keywords: Get, Get method, Get method,IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface,Get method, IProviderQueryConstraintCollection.Get, IProviderQueryConstraintCollection::Get, functiondiscoveryprovider/IProviderQueryConstraintCollection::Get, ncd.iproviderqueryconstraintcollection_get
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IProviderQueryConstraintCollection::Get method
+# IProviderQueryConstraintCollection::Get
 
 
 ## -description

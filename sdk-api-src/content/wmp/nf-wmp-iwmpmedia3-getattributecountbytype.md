@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMedia3.getAttributeCountByType
-title: IWMPMedia3::getAttributeCountByType method
+title: IWMPMedia3::getAttributeCountByType
 author: windows-driver-content
 description: The getAttributeCountByType method retrieves the number of attributes associated with the specified attribute type.
 old-location: wmp\iwmpmedia3_getattributecountbytype.htm
 old-project: WMP
 ms.assetid: 86f5e67a-408f-4b93-b89a-12f42fd31966
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMedia3, IWMPMedia3 interface [Windows Media Player], getAttributeCountByType method, IWMPMedia3::getAttributeCountByType, IWMPMedia3getAttributeCountByType, getAttributeCountByType method [Windows Media Player], getAttributeCountByType method [Windows Media Player], IWMPMedia3 interface, getAttributeCountByType,IWMPMedia3.getAttributeCountByType, wmp.iwmpmedia3_getattributecountbytype, wmp/IWMPMedia3::getAttributeCountByType
+ms.date: 5/4/2018
+ms.keywords: IWMPMedia3 interface [Windows Media Player],getAttributeCountByType method, IWMPMedia3.getAttributeCountByType, IWMPMedia3::getAttributeCountByType, IWMPMedia3getAttributeCountByType, getAttributeCountByType, getAttributeCountByType method [Windows Media Player], getAttributeCountByType method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia3_getattributecountbytype, wmp/IWMPMedia3::getAttributeCountByType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMedia3::getAttributeCountByType method
+# IWMPMedia3::getAttributeCountByType
 
 
 ## -description

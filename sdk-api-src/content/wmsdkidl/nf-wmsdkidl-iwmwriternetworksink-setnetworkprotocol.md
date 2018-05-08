@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.SetNetworkProtocol
-title: IWMWriterNetworkSink::SetNetworkProtocol method
+title: IWMWriterNetworkSink::SetNetworkProtocol
 author: windows-driver-content
 description: The SetNetworkProtocol method sets the network protocol that the network sink uses. Currently, HTTP is the only protocol supported by the network sink.
 old-location: wmformat\iwmwriternetworksink_setnetworkprotocol.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 8ad6b2a4-b50b-45a0-8aa0-cabfc1e59bb7
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterNetworkSink, IWMWriterNetworkSink interface [windows Media Format], SetNetworkProtocol method, IWMWriterNetworkSink::SetNetworkProtocol, IWMWriterNetworkSinkSetNetworkProtocol, SetNetworkProtocol method [windows Media Format], SetNetworkProtocol method [windows Media Format], IWMWriterNetworkSink interface, SetNetworkProtocol,IWMWriterNetworkSink.SetNetworkProtocol, wmformat.iwmwriternetworksink_setnetworkprotocol, wmsdkidl/IWMWriterNetworkSink::SetNetworkProtocol
+ms.keywords: IWMWriterNetworkSink interface [windows Media Format],SetNetworkProtocol method, IWMWriterNetworkSink.SetNetworkProtocol, IWMWriterNetworkSink::SetNetworkProtocol, IWMWriterNetworkSinkSetNetworkProtocol, SetNetworkProtocol, SetNetworkProtocol method [windows Media Format], SetNetworkProtocol method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_setnetworkprotocol, wmsdkidl/IWMWriterNetworkSink::SetNetworkProtocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterNetworkSink::SetNetworkProtocol method
+# IWMWriterNetworkSink::SetNetworkProtocol
 
 
 ## -description

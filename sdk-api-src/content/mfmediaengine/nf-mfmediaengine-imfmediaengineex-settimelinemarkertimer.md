@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetTimelineMarkerTimer
-title: IMFMediaEngineEx::SetTimelineMarkerTimer method
+title: IMFMediaEngineEx::SetTimelineMarkerTimer
 author: windows-driver-content
 description: Specifies a presentation time when the Media Engine will send a marker event.
 old-location: mf\imfmediaengineex_settimelinemarkertimer.htm
 old-project: medfound
 ms.assetid: 2FD65E4A-C70A-4CB4-9038-3A8B791E251C
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], SetTimelineMarkerTimer method, IMFMediaEngineEx::SetTimelineMarkerTimer, SetTimelineMarkerTimer method [Media Foundation], SetTimelineMarkerTimer method [Media Foundation], IMFMediaEngineEx interface, SetTimelineMarkerTimer,IMFMediaEngineEx.SetTimelineMarkerTimer, mf.imfmediaengineex_settimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::SetTimelineMarkerTimer
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetTimelineMarkerTimer method, IMFMediaEngineEx.SetTimelineMarkerTimer, IMFMediaEngineEx::SetTimelineMarkerTimer, SetTimelineMarkerTimer, SetTimelineMarkerTimer method [Media Foundation], SetTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_settimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::SetTimelineMarkerTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::SetTimelineMarkerTimer method
+# IMFMediaEngineEx::SetTimelineMarkerTimer
 
 
 ## -description

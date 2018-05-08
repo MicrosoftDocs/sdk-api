@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: fc861cbb-a14e-499e-8b80-f5912e4f6076
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscRecorder, IDiscRecorder interface [IMAPI], IDiscRecorder interface [IMAPI], described, _win32_idiscrecorder, base.idiscrecorder, imapi.idiscrecorder, imapi/IDiscRecorder
+ms.keywords: IDiscRecorder, IDiscRecorder interface [IMAPI], IDiscRecorder interface [IMAPI],described, _win32_idiscrecorder, base.idiscrecorder, imapi.idiscrecorder, imapi/IDiscRecorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

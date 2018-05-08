@@ -7,7 +7,7 @@ old-location: security\cryptexportpublickeyinfoex.htm
 old-project: SecCrypto
 ms.assetid: 38274222-90b3-4038-86d3-6b2813100ce2
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CryptExportPublicKeyInfoEx, CryptExportPublicKeyInfoEx function [Security], _crypto2_cryptexportpublickeyinfoex, security.cryptexportpublickeyinfoex, wincrypt/CryptExportPublicKeyInfoEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

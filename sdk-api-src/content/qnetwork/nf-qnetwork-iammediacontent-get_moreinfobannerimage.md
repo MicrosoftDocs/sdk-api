@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_MoreInfoBannerImage
-title: IAMMediaContent::get_MoreInfoBannerImage method
+title: IAMMediaContent::get_MoreInfoBannerImage
 author: windows-driver-content
 description: The get_MoreInfoBannerImage method retrieves an image for a related-information banner.
 old-location: dshow\iammediacontent_get_moreinfobannerimage.htm
 old-project: DirectShow
 ms.assetid: ae456ce2-4df8-4a36-88f5-526acb722bda
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_MoreInfoBannerImage method, IAMMediaContent::get_MoreInfoBannerImage, IAMMediaContentget_MoreInfoBannerImage, dshow.iammediacontent_get_moreinfobannerimage, get_MoreInfoBannerImage method [DirectShow], get_MoreInfoBannerImage method [DirectShow], IAMMediaContent interface, get_MoreInfoBannerImage,IAMMediaContent.get_MoreInfoBannerImage, qnetwork/IAMMediaContent::get_MoreInfoBannerImage
+ms.date: 4/30/2018
+ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoBannerImage method, IAMMediaContent.get_MoreInfoBannerImage, IAMMediaContent::get_MoreInfoBannerImage, IAMMediaContentget_MoreInfoBannerImage, dshow.iammediacontent_get_moreinfobannerimage, get_MoreInfoBannerImage, get_MoreInfoBannerImage method [DirectShow], get_MoreInfoBannerImage method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoBannerImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMMediaContent::get_MoreInfoBannerImage method
+# IAMMediaContent::get_MoreInfoBannerImage
 
 
 ## -description

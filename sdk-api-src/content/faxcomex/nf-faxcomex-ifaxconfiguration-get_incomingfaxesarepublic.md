@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_IncomingFaxesArePublic
-title: IFaxConfiguration::get_IncomingFaxesArePublic method
+title: IFaxConfiguration::get_IncomingFaxesArePublic
 author: windows-driver-content
 description: Indicates whether incoming faxes are either viewable by everyone or private.
 old-location: fax\_mfax_FaxConfiguration_IncomingFaxesArePublic_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\incomingfaxesarepublic.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxConfiguration object [Fax Service], IncomingFaxesArePublic property, IFaxConfiguration, IFaxConfiguration::get_IncomingFaxesArePublic, IncomingFaxesArePublic property [Fax Service], IncomingFaxesArePublic property [Fax Service], FaxConfiguration object, _mfax_IFaxConfiguration_IncomingFaxesArePublic, fax._mfax_FaxConfiguration_IncomingFaxesArePublic_vb, get_IncomingFaxesArePublic,IFaxConfiguration.get_IncomingFaxesArePublic
+ms.keywords: FaxConfiguration object [Fax Service],IncomingFaxesArePublic property, FaxConfiguration.IncomingFaxesArePublic, IFaxConfiguration.get_IncomingFaxesArePublic, IFaxConfiguration::get_IncomingFaxesArePublic, IncomingFaxesArePublic property [Fax Service], IncomingFaxesArePublic property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_IncomingFaxesArePublic, fax._mfax_FaxConfiguration_IncomingFaxesArePublic_vb, get_IncomingFaxesArePublic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::get_IncomingFaxesArePublic method
+# IFaxConfiguration::get_IncomingFaxesArePublic
 
 
 ## -description

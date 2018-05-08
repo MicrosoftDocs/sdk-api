@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.AddNotification
-title: IFsrmFileManagementJob::AddNotification method
+title: IFsrmFileManagementJob::AddNotification
 author: windows-driver-content
 description: Adds a new notification value (period) to the file management job's list of notifications.
 old-location: fsrm\ifsrmfilemanagementjob_addnotification.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 95b41aa0-44c9-41a2-8132-6aecc4685243
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AddNotification method [File Server Resource Manager], AddNotification method [File Server Resource Manager], IFsrmFileManagementJob interface, AddNotification,IFsrmFileManagementJob.AddNotification, IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], AddNotification method, IFsrmFileManagementJob::AddNotification, fs.ifsrmfilemanagementjob_addnotification, fsrm.ifsrmfilemanagementjob_addnotification, fsrmreports/IFsrmFileManagementJob::AddNotification
+ms.keywords: AddNotification, AddNotification method [File Server Resource Manager], AddNotification method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],AddNotification method, IFsrmFileManagementJob.AddNotification, IFsrmFileManagementJob::AddNotification, fs.ifsrmfilemanagementjob_addnotification, fsrm.ifsrmfilemanagementjob_addnotification, fsrmreports/IFsrmFileManagementJob::AddNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJob::AddNotification method
+# IFsrmFileManagementJob::AddNotification
 
 
 ## -description

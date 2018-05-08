@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIDevice.SetGPUThreadPriority
-title: IDXGIDevice::SetGPUThreadPriority method
+title: IDXGIDevice::SetGPUThreadPriority
 author: windows-driver-content
 description: Sets the GPU thread priority.
 old-location: direct3ddxgi\idxgidevice_setgputhreadpriority.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_setgputhreadpriority.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIDevice, IDXGIDevice interface [DXGI], SetGPUThreadPriority method, IDXGIDevice::SetGPUThreadPriority, SetGPUThreadPriority method [DXGI], SetGPUThreadPriority method [DXGI], IDXGIDevice interface, SetGPUThreadPriority,IDXGIDevice.SetGPUThreadPriority, b610ce23-f003-9031-4c67-b5013c5af229, direct3ddxgi.idxgidevice_setgputhreadpriority, dxgi/IDXGIDevice::SetGPUThreadPriority
+ms.keywords: IDXGIDevice interface [DXGI],SetGPUThreadPriority method, IDXGIDevice.SetGPUThreadPriority, IDXGIDevice::SetGPUThreadPriority, SetGPUThreadPriority, SetGPUThreadPriority method [DXGI], SetGPUThreadPriority method [DXGI],IDXGIDevice interface, b610ce23-f003-9031-4c67-b5013c5af229, direct3ddxgi.idxgidevice_setgputhreadpriority, dxgi/IDXGIDevice::SetGPUThreadPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDevice::SetGPUThreadPriority method
+# IDXGIDevice::SetGPUThreadPriority
 
 
 ## -description

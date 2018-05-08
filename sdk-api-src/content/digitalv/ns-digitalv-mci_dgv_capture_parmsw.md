@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_capture_parms.htm
 old-project: Multimedia
 ms.assetid: 8ab62c4b-6db2-4a52-b015-a1d635e1edd4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPMCI_DGV_CAPTURE_PARMSW, MCI_DGV_CAPTURE_PARMS, MCI_DGV_CAPTURE_PARMS structure [Windows Multimedia], MCI_DGV_CAPTURE_PARMSW, _win32_MCI_DGV_CAPTURE_PARMS_str, digitalv/MCI_DGV_CAPTURE_PARMS, multimedia.mci_dgv_capture_parms"
 ms.prod: windows-hardware
 ms.technology: windows-devices

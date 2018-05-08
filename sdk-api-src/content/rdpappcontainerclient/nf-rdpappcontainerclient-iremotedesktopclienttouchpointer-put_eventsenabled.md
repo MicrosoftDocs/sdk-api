@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientTouchPointer.put_EventsEnabled
-title: IRemoteDesktopClientTouchPointer::put_EventsEnabled method
+title: IRemoteDesktopClientTouchPointer::put_EventsEnabled
 author: windows-driver-content
 description: Whether touch pointer event notifications are enabled for the RDP app container client control.
 old-location: termserv\iremotedesktopclienttouchpointer_eventsenabled.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 972e0f05-74fb-4997-a1c2-90ecfa4870a3
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EventsEnabled property [Remote Desktop Services], EventsEnabled property [Remote Desktop Services], IRemoteDesktopClientTouchPointer interface, IRemoteDesktopClientTouchPointer, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services], EventsEnabled property, IRemoteDesktopClientTouchPointer.EventsEnabled, IRemoteDesktopClientTouchPointer::get_EventsEnabled, IRemoteDesktopClientTouchPointer::put_EventsEnabled, put_EventsEnabled,IRemoteDesktopClientTouchPointer.put_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::put_EventsEnabled, termserv.iremotedesktopclienttouchpointer_eventsenabled
+ms.keywords: EventsEnabled property [Remote Desktop Services], EventsEnabled property [Remote Desktop Services],IRemoteDesktopClientTouchPointer interface, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],EventsEnabled property, IRemoteDesktopClientTouchPointer.EventsEnabled, IRemoteDesktopClientTouchPointer.put_EventsEnabled, IRemoteDesktopClientTouchPointer::EventsEnabled, IRemoteDesktopClientTouchPointer::get_EventsEnabled, IRemoteDesktopClientTouchPointer::put_EventsEnabled, put_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::put_EventsEnabled, termserv.iremotedesktopclienttouchpointer_eventsenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRemoteDesktopClientTouchPointer::put_EventsEnabled method
+# IRemoteDesktopClientTouchPointer::put_EventsEnabled
 
 
 ## -description

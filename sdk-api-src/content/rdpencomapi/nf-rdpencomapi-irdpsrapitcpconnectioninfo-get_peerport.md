@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITcpConnectionInfo.get_PeerPort
-title: IRDPSRAPITcpConnectionInfo::get_PeerPort method
+title: IRDPSRAPITcpConnectionInfo::get_PeerPort
 author: windows-driver-content
 description: Retrieves the remote port that is being used by the sharer or by the viewer in communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_peerport.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: bc6a6048-50a8-4194-878a-015ab06955f7
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITcpConnectionInfo, IRDPSRAPITcpConnectionInfo interface [RDP], PeerPort property, IRDPSRAPITcpConnectionInfo.PeerPort, IRDPSRAPITcpConnectionInfo::get_PeerPort, PeerPort property [RDP], PeerPort property [RDP], IRDPSRAPITcpConnectionInfo interface, PeerPort property [RDP], RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP], PeerPort property, get_PeerPort,IRDPSRAPITcpConnectionInfo.get_PeerPort, rdp.irdpsrapitcpconnectioninfo_peerport, rdpencomapi/IRDPSRAPITcpConnectionInfo::PeerPort, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_PeerPort
+ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],PeerPort property, IRDPSRAPITcpConnectionInfo.PeerPort, IRDPSRAPITcpConnectionInfo.get_PeerPort, IRDPSRAPITcpConnectionInfo::PeerPort, IRDPSRAPITcpConnectionInfo::get_PeerPort, PeerPort property [RDP], PeerPort property [RDP],IRDPSRAPITcpConnectionInfo interface, PeerPort property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],PeerPort property, get_PeerPort, rdp.irdpsrapitcpconnectioninfo_peerport, rdpencomapi/IRDPSRAPITcpConnectionInfo::PeerPort, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_PeerPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITcpConnectionInfo::get_PeerPort method
+# IRDPSRAPITcpConnectionInfo::get_PeerPort
 
 
 ## -description

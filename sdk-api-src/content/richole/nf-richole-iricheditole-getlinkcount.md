@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOle.GetLinkCount
-title: IRichEditOle::GetLinkCount method
+title: IRichEditOle::GetLinkCount
 author: windows-driver-content
 description: Returns the number of objects in a rich edit control that are links.
 old-location: controls\IRichEditOle_GetLinkCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetlinkcount.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetLinkCount method [Windows Controls], GetLinkCount method [Windows Controls], IRichEditOle interface, GetLinkCount,IRichEditOle.GetLinkCount, IRichEditOle, IRichEditOle interface [Windows Controls], GetLinkCount method, IRichEditOle::GetLinkCount, _win32_IRichEditOle_GetLinkCount, _win32_IRichEditOle_GetLinkCount_cpp, controls.IRichEditOle_GetLinkCount, controls._win32_IRichEditOle_GetLinkCount, richole/IRichEditOle::GetLinkCount
+ms.date: 4/27/2018
+ms.keywords: GetLinkCount, GetLinkCount method [Windows Controls], GetLinkCount method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetLinkCount method, IRichEditOle.GetLinkCount, IRichEditOle::GetLinkCount, _win32_IRichEditOle_GetLinkCount, _win32_IRichEditOle_GetLinkCount_cpp, controls.IRichEditOle_GetLinkCount, controls._win32_IRichEditOle_GetLinkCount, richole/IRichEditOle::GetLinkCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOle::GetLinkCount method
+# IRichEditOle::GetLinkCount
 
 
 ## -description

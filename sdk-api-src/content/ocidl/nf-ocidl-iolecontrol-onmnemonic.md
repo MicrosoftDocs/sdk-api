@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControl.OnMnemonic
-title: IOleControl::OnMnemonic method
+title: IOleControl::OnMnemonic
 author: windows-driver-content
 description: Informs a control that the user has pressed a keystroke that represents a keyboard mneumonic.
 old-location: com\iolecontrol_onmnemonic.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 3b40afc9-89cf-4dfc-ab25-055bdf6964ce
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleControl, IOleControl interface [COM], OnMnemonic method, IOleControl::OnMnemonic, OnMnemonic method [COM], OnMnemonic method [COM], IOleControl interface, OnMnemonic,IOleControl.OnMnemonic, _ctrl_iolecontrol_onmnemonic, com.iolecontrol_onmnemonic, ocidl/IOleControl::OnMnemonic
+ms.keywords: IOleControl interface [COM],OnMnemonic method, IOleControl.OnMnemonic, IOleControl::OnMnemonic, OnMnemonic, OnMnemonic method [COM], OnMnemonic method [COM],IOleControl interface, _ctrl_iolecontrol_onmnemonic, com.iolecontrol_onmnemonic, ocidl/IOleControl::OnMnemonic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleControl::OnMnemonic method
+# IOleControl::OnMnemonic
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCompartmentMgr.GetCompartment
-title: ITfCompartmentMgr::GetCompartment method
+title: ITfCompartmentMgr::GetCompartment
 author: windows-driver-content
 description: ITfCompartmentMgr::GetCompartment method
 old-location: tsf\itfcompartmentmgr_getcompartment.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4f71815b-d352-4303-a3dd-180a71f9a5fe
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetCompartment method [Text Services Framework], GetCompartment method [Text Services Framework], ITfCompartmentMgr interface, GetCompartment,ITfCompartmentMgr.GetCompartment, ITfCompartmentMgr, ITfCompartmentMgr interface [Text Services Framework], GetCompartment method, ITfCompartmentMgr::GetCompartment, _tsf_itfcompartmentmgr_getcompartment_ref, msctf/ITfCompartmentMgr::GetCompartment, tsf.itfcompartmentmgr_getcompartment
+ms.keywords: GetCompartment, GetCompartment method [Text Services Framework], GetCompartment method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],GetCompartment method, ITfCompartmentMgr.GetCompartment, ITfCompartmentMgr::GetCompartment, _tsf_itfcompartmentmgr_getcompartment_ref, msctf/ITfCompartmentMgr::GetCompartment, tsf.itfcompartmentmgr_getcompartment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCompartmentMgr::GetCompartment method
+# ITfCompartmentMgr::GetCompartment
 
 
 ## -description

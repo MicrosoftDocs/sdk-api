@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetGammaRamp
-title: IDirect3DDevice9::GetGammaRamp method
+title: IDirect3DDevice9::GetGammaRamp
 author: windows-driver-content
 description: Retrieves the gamma correction ramp for the swap chain.
 old-location: direct3d9\idirect3ddevice9__getgammaramp.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getgammaramp.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: GetGammaRamp method [Direct3D 9], GetGammaRamp method [Direct3D 9], IDirect3DDevice9 interface, GetGammaRamp,IDirect3DDevice9.GetGammaRamp, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetGammaRamp method, IDirect3DDevice9::GetGammaRamp, b52b118d-254d-ca5b-efc0-a7e22cf186ef, d3d9helper/IDirect3DDevice9::GetGammaRamp, direct3d9.idirect3ddevice9__getgammaramp
+ms.keywords: GetGammaRamp, GetGammaRamp method [Direct3D 9], GetGammaRamp method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetGammaRamp method, IDirect3DDevice9.GetGammaRamp, IDirect3DDevice9::GetGammaRamp, b52b118d-254d-ca5b-efc0-a7e22cf186ef, d3d9helper/IDirect3DDevice9::GetGammaRamp, direct3d9.idirect3ddevice9__getgammaramp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::GetGammaRamp method
+# IDirect3DDevice9::GetGammaRamp
 
 
 ## -description

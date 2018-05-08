@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetRemoteTransportAddress
-title: IWSDiscoveredService::GetRemoteTransportAddress method
+title: IWSDiscoveredService::GetRemoteTransportAddress
 author: windows-driver-content
 description: Retrieves the string representation of the remote transport (IP) address.
 old-location: ncd\iwsdiscoveredservice_getremotetransportaddress.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 15376e12-fd7c-4cf5-a950-bf492392afa3
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetRemoteTransportAddress method, GetRemoteTransportAddress method, IWSDiscoveredService interface, GetRemoteTransportAddress,IWSDiscoveredService.GetRemoteTransportAddress, IWSDiscoveredService, IWSDiscoveredService interface, GetRemoteTransportAddress method, IWSDiscoveredService::GetRemoteTransportAddress, ncd.iwsdiscoveredservice_getremotetransportaddress, wsddisco/IWSDiscoveredService::GetRemoteTransportAddress
+ms.keywords: GetRemoteTransportAddress, GetRemoteTransportAddress method, GetRemoteTransportAddress method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetRemoteTransportAddress method, IWSDiscoveredService.GetRemoteTransportAddress, IWSDiscoveredService::GetRemoteTransportAddress, ncd.iwsdiscoveredservice_getremotetransportaddress, wsddisco/IWSDiscoveredService::GetRemoteTransportAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveredService::GetRemoteTransportAddress method
+# IWSDiscoveredService::GetRemoteTransportAddress
 
 
 ## -description

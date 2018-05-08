@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentHandler.EnumerateUsableAddresses
-title: ITAgentHandler::EnumerateUsableAddresses method
+title: ITAgentHandler::EnumerateUsableAddresses
 author: windows-driver-content
 description: The EnumerateUsableAddresses method enumerates addresses available for receiving ACD calls on this agent handler.
 old-location: tapi3\itagenthandler_enumerateusableaddresses.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 9821b073-c64b-4f2b-b771-6bf027f9aa70
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: EnumerateUsableAddresses method [TAPI 2.2], EnumerateUsableAddresses method [TAPI 2.2], ITAgentHandler interface, EnumerateUsableAddresses,ITAgentHandler.EnumerateUsableAddresses, ITAgentHandler, ITAgentHandler interface [TAPI 2.2], EnumerateUsableAddresses method, ITAgentHandler::EnumerateUsableAddresses, _tapi3_itagenthandler_enumerateusableaddresses, tapi3.itagenthandler_enumerateusableaddresses, tapi3cc/ITAgentHandler::EnumerateUsableAddresses
+ms.keywords: EnumerateUsableAddresses, EnumerateUsableAddresses method [TAPI 2.2], EnumerateUsableAddresses method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],EnumerateUsableAddresses method, ITAgentHandler.EnumerateUsableAddresses, ITAgentHandler::EnumerateUsableAddresses, _tapi3_itagenthandler_enumerateusableaddresses, tapi3.itagenthandler_enumerateusableaddresses, tapi3cc/ITAgentHandler::EnumerateUsableAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentHandler::EnumerateUsableAddresses method
+# ITAgentHandler::EnumerateUsableAddresses
 
 
 ## -description

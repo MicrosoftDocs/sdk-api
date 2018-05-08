@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionAlternativeNames.InitializeEncode
-title: IX509ExtensionAlternativeNames::InitializeEncode method
+title: IX509ExtensionAlternativeNames::InitializeEncode
 author: windows-driver-content
 description: Initializes the extension from an IAlternativeNames collection.
 old-location: security\ix509extensionalternativenames_initializeencode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: e520b2b4-c181-4fb1-98e8-f159bd0d31b4
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionAlternativeNames, IX509ExtensionAlternativeNames interface [Security], InitializeEncode method, IX509ExtensionAlternativeNames::InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security], IX509ExtensionAlternativeNames interface, InitializeEncode,IX509ExtensionAlternativeNames.InitializeEncode, certenroll/IX509ExtensionAlternativeNames::InitializeEncode, security.ix509extensionalternativenames_initializeencode_method
+ms.keywords: IX509ExtensionAlternativeNames interface [Security],InitializeEncode method, IX509ExtensionAlternativeNames.InitializeEncode, IX509ExtensionAlternativeNames::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionAlternativeNames interface, certenroll/IX509ExtensionAlternativeNames::InitializeEncode, security.ix509extensionalternativenames_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionAlternativeNames::InitializeEncode method
+# IX509ExtensionAlternativeNames::InitializeEncode
 
 
 ## -description

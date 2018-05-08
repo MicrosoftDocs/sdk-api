@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetRecorderProperties
-title: IDiscRecorder::GetRecorderProperties method
+title: IDiscRecorder::GetRecorderProperties
 author: windows-driver-content
 description: Retrieves a pointer to an IPropertyStorage interface.
 old-location: imapi\idiscrecorder_getrecorderproperties.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 24d46cbc-56fd-4c9f-933c-0207dea5ada5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRecorderProperties method [IMAPI], GetRecorderProperties method [IMAPI], IDiscRecorder interface, GetRecorderProperties,IDiscRecorder.GetRecorderProperties, IDiscRecorder, IDiscRecorder interface [IMAPI], GetRecorderProperties method, IDiscRecorder::GetRecorderProperties, _win32_idiscrecorder_getrecorderproperties, base.idiscrecorder_getrecorderproperties, imapi.idiscrecorder_getrecorderproperties, imapi/IDiscRecorder::GetRecorderProperties
+ms.keywords: GetRecorderProperties, GetRecorderProperties method [IMAPI], GetRecorderProperties method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderProperties method, IDiscRecorder.GetRecorderProperties, IDiscRecorder::GetRecorderProperties, _win32_idiscrecorder_getrecorderproperties, base.idiscrecorder_getrecorderproperties, imapi.idiscrecorder_getrecorderproperties, imapi/IDiscRecorder::GetRecorderProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder::GetRecorderProperties method
+# IDiscRecorder::GetRecorderProperties
 
 
 ## -description

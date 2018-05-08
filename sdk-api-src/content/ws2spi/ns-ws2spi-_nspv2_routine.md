@@ -7,7 +7,7 @@ old-location: winsock\nspv2_routine.htm
 old-project: WinSock
 ms.assetid: 22a4ee47-030b-4aee-b9b1-c9e33b3e4fce
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPNSPV2_ROUTINE, *PNSPV2_ROUTINE, NSPV2_ROUTINE, NSPV2_ROUTINE structure [Winsock], PNSPV2_ROUTINE, PNSPV2_ROUTINE structure pointer [Winsock], _NSPV2_ROUTINE, winsock.nspv2_routine, ws2spi/NSPV2_ROUTINE, ws2spi/PNSPV2_ROUTINE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 5bdf2892-ce6f-4560-b638-e441166fc309
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], IXpsOMGlyphsEditor interface [XPS Documents and Packaging], described, xps.ixpsomglyphseditor, xpsobjectmodel/IXpsOMGlyphsEditor
+ms.keywords: IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], IXpsOMGlyphsEditor interface [XPS Documents and Packaging],described, xps.ixpsomglyphseditor, xpsobjectmodel/IXpsOMGlyphsEditor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

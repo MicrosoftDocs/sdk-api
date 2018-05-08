@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.MoveEnd
-title: ITextRange::MoveEnd method
+title: ITextRange::MoveEnd
 author: windows-driver-content
 description: Moves the end position of the range.
 old-location: controls\ITextRange_MoveEnd.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveend.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange, ITextRange interface [Windows Controls], MoveEnd method, ITextRange::MoveEnd, MoveEnd method [Windows Controls], MoveEnd method [Windows Controls], ITextRange interface, MoveEnd,ITextRange.MoveEnd, _win32_ITextRange_MoveEnd, _win32_ITextRange_MoveEnd_cpp, controls.ITextRange_MoveEnd, controls._win32_ITextRange_MoveEnd, tom/ITextRange::MoveEnd
+ms.date: 4/27/2018
+ms.keywords: ITextRange interface [Windows Controls],MoveEnd method, ITextRange.MoveEnd, ITextRange::MoveEnd, MoveEnd, MoveEnd method [Windows Controls], MoveEnd method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveEnd, _win32_ITextRange_MoveEnd_cpp, controls.ITextRange_MoveEnd, controls._win32_ITextRange_MoveEnd, tom/ITextRange::MoveEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::MoveEnd method
+# ITextRange::MoveEnd
 
 
 ## -description

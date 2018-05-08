@@ -76,3 +76,15 @@ The size of the <b>Credentials</b> member, in bytes.
 
 Pointer to a set of package-specific supplemental credentials.
 
+
+### -field Credentials.size_is
+
+ 
+
+
+### -field Credentials.size_is.CredentialSize
+
+ 
+
+
+

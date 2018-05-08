@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferDataCounters.GetData
-title: IStreamBufferDataCounters::GetData method
+title: IStreamBufferDataCounters::GetData
 author: windows-driver-content
 description: The GetData method returns performance data for the Stream Buffer Engine.
 old-location: mstv\istreambufferdatacounters_getdata.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 15895ff3-37e5-4f89-bcce-3b9f060c0746
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies], IStreamBufferDataCounters interface, GetData,IStreamBufferDataCounters.GetData, IStreamBufferDataCounters, IStreamBufferDataCounters interface [Microsoft TV Technologies], GetData method, IStreamBufferDataCounters::GetData, IStreamBufferDataCountersGetData, mstv.istreambufferdatacounters_getdata, sbe/IStreamBufferDataCounters::GetData
+ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IStreamBufferDataCounters interface, IStreamBufferDataCounters interface [Microsoft TV Technologies],GetData method, IStreamBufferDataCounters.GetData, IStreamBufferDataCounters::GetData, IStreamBufferDataCountersGetData, mstv.istreambufferdatacounters_getdata, sbe/IStreamBufferDataCounters::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferDataCounters::GetData method
+# IStreamBufferDataCounters::GetData
 
 
 ## -description

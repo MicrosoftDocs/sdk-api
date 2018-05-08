@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IWebWizardExtension.SetErrorURL
-title: IWebWizardExtension::SetErrorURL method
+title: IWebWizardExtension::SetErrorURL
 author: windows-driver-content
 description: Specifies the URL of a page that displays when a user experiences an error while navigating through the wizard extension pages.
 old-location: shell\IWebWizardExtension_SetErrorURL.htm
 old-project: shell
 ms.assetid: 4b7ba688-dfa0-45ee-a32f-08f24a7626d8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IWebWizardExtension, IWebWizardExtension interface [Windows Shell], SetErrorURL method, IWebWizardExtension::SetErrorURL, SetErrorURL method [Windows Shell], SetErrorURL method [Windows Shell], IWebWizardExtension interface, SetErrorURL,IWebWizardExtension.SetErrorURL, _shell_IWebWizardExtension_SetErrorURL, shell.IWebWizardExtension_SetErrorURL, shobjidl/IWebWizardExtension::SetErrorURL
+ms.date: 5/3/2018
+ms.keywords: IWebWizardExtension interface [Windows Shell],SetErrorURL method, IWebWizardExtension.SetErrorURL, IWebWizardExtension::SetErrorURL, SetErrorURL, SetErrorURL method [Windows Shell], SetErrorURL method [Windows Shell],IWebWizardExtension interface, _shell_IWebWizardExtension_SetErrorURL, shell.IWebWizardExtension_SetErrorURL, shobjidl/IWebWizardExtension::SetErrorURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IWebWizardExtension::SetErrorURL method
+# IWebWizardExtension::SetErrorURL
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: winsock\wsaresetevent_2.htm
 old-project: WinSock
 ms.assetid: 99a8b0f3-977f-44cd-a224-0819d7513c90
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: WSAResetEvent, WSAResetEvent function [Winsock], _win32_wsaresetevent_2, winsock.wsaresetevent_2, winsock2/WSAResetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

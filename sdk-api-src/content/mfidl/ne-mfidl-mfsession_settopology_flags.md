@@ -7,7 +7,7 @@ old-location: mf\mfsession_settopology_flags.htm
 old-project: medfound
 ms.assetid: 2993bdf9-cf28-4e20-9f38-f51fb0f6429e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 2993bdf9-cf28-4e20-9f38-f51fb0f6429e, MFSESSION_SETTOPOLOGY_CLEAR_CURRENT, MFSESSION_SETTOPOLOGY_FLAGS, MFSESSION_SETTOPOLOGY_FLAGS enumeration [Media Foundation], MFSESSION_SETTOPOLOGY_IMMEDIATE, MFSESSION_SETTOPOLOGY_NORESOLUTION, mf.mfsession_settopology_flags, mfidl/MFSESSION_SETTOPOLOGY_CLEAR_CURRENT, mfidl/MFSESSION_SETTOPOLOGY_FLAGS, mfidl/MFSESSION_SETTOPOLOGY_IMMEDIATE, mfidl/MFSESSION_SETTOPOLOGY_NORESOLUTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

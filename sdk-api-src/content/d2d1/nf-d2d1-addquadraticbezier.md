@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: 142f0823-0d8d-4216-8f40-9dec7f48032e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: AddQuadraticBezier, AddQuadraticBezier methods [Direct2D], d2d1/AddQuadraticBezier, direct2d.id2d1geometrysink_addquadraticbezier
+ms.keywords: AddQuadraticBezier, AddQuadraticBezier methods [Direct2D], ID2D1GeometrySink::AddQuadraticBezier, d2d1/AddQuadraticBezier, direct2d.id2d1geometrysink_addquadraticbezier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

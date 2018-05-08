@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateLinearTransition
-title: IUIAnimationTransitionLibrary::CreateLinearTransition method
+title: IUIAnimationTransitionLibrary::CreateLinearTransition
 author: windows-driver-content
 description: Creates a linear transition.
 old-location: uianimation\iuianimationtransitionlibrary_createlineartransition.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 51c54bc9-771c-484e-a24f-22ba03c70709
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateLinearTransition method [Windows Animation], CreateLinearTransition method [Windows Animation], IUIAnimationTransitionLibrary interface, CreateLinearTransition,IUIAnimationTransitionLibrary.CreateLinearTransition, IUIAnimationTransitionLibrary, IUIAnimationTransitionLibrary interface [Windows Animation], CreateLinearTransition method, IUIAnimationTransitionLibrary::CreateLinearTransition, uianimation.iuianimationtransitionlibrary_createlineartransition, uianimation/IUIAnimationTransitionLibrary::CreateLinearTransition
+ms.keywords: CreateLinearTransition, CreateLinearTransition method [Windows Animation], CreateLinearTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateLinearTransition method, IUIAnimationTransitionLibrary.CreateLinearTransition, IUIAnimationTransitionLibrary::CreateLinearTransition, uianimation.iuianimationtransitionlibrary_createlineartransition, uianimation/IUIAnimationTransitionLibrary::CreateLinearTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary::CreateLinearTransition method
+# IUIAnimationTransitionLibrary::CreateLinearTransition
 
 
 ## -description

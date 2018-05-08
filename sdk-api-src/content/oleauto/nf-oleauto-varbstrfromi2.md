@@ -7,7 +7,7 @@ old-location: automat\varbstrfromi2.htm
 old-project: automat
 ms.assetid: 0c9051f9-1c2f-4882-bff9-7d28440dd06d
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarBstrFromI2, VarBstrFromI2 function [Automation], _oa96_VarBstrFromI2, automat.varbstrfromi2, oleauto/VarBstrFromI2
 ms.prod: windows-hardware
 ms.technology: windows-devices

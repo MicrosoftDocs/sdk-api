@@ -69,6 +69,16 @@ A pointer to a string that represents the name of the next domain.
 The number of elements in the <b>wTypes</b> array. <b>wNumTypes</b> must be 2 or greater but cannot exceed 8.
 
 
+### -field size_is
+
+ 
+
+
+### -field size_is.wNumTypes
+
+ 
+
+
 ### -field wTypes
 
 A <b>BYTE</b> array that contains a bitmap which specifies the RR types that are present  in the next domain. Each bit in the array corresponds to a <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Record Type</a> as defined in section 5.2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=124775">RFC 2535</a>.

@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.Localize
-title: ISchemaProvider::Localize method
+title: ISchemaProvider::Localize
 author: windows-driver-content
 description: Localizes the currently loaded schema for a specified locale.
 old-location: search\_search_ISchemaProvider_Localize.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\localize.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISchemaProvider, ISchemaProvider interface [search], Localize method, ISchemaProvider::Localize, Localize method [search], Localize method [search], ISchemaProvider interface, Localize,ISchemaProvider.Localize, _search_ISchemaProvider_Localize, search._search_ISchemaProvider_Localize, structuredquery/ISchemaProvider::Localize
+ms.date: 5/4/2018
+ms.keywords: ISchemaProvider interface [search],Localize method, ISchemaProvider.Localize, ISchemaProvider::Localize, Localize, Localize method [search], Localize method [search],ISchemaProvider interface, _search_ISchemaProvider_Localize, search._search_ISchemaProvider_Localize, structuredquery/ISchemaProvider::Localize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISchemaProvider::Localize method
+# ISchemaProvider::Localize
 
 
 ## -description

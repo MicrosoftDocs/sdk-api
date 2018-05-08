@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: e588195c-eb4f-48d3-a2fa-777dd6dc2901
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsPath, IADsPath interface [ADSI], IADsPath interface [ADSI], described, _ds_iadspath, adsi.iadspath, iads/IADsPath
+ms.keywords: IADsPath, IADsPath interface [ADSI], IADsPath interface [ADSI],described, _ds_iadspath, adsi.iadspath, iads/IADsPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSample2Config.GetSurface
-title: IMediaSample2Config::GetSurface method
+title: IMediaSample2Config::GetSurface
 author: windows-driver-content
 description: The GetSurface method returns a pointer to the Direct3D surface managed by this media sample.
 old-location: dshow\imediasample2config_getsurface.htm
 old-project: DirectShow
 ms.assetid: c53306ec-cb5c-4f55-afb0-de72386a166d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSurface method [DirectShow], GetSurface method [DirectShow], IMediaSample2Config interface, GetSurface,IMediaSample2Config.GetSurface, IMediaSample2Config, IMediaSample2Config interface [DirectShow], GetSurface method, IMediaSample2Config::GetSurface, IMediaSample2ConfigGetSurface, dshow.imediasample2config_getsurface, strmif/IMediaSample2Config::GetSurface
+ms.date: 4/30/2018
+ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IMediaSample2Config interface, IMediaSample2Config interface [DirectShow],GetSurface method, IMediaSample2Config.GetSurface, IMediaSample2Config::GetSurface, IMediaSample2ConfigGetSurface, dshow.imediasample2config_getsurface, strmif/IMediaSample2Config::GetSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSample2Config::GetSurface method
+# IMediaSample2Config::GetSurface
 
 
 ## -description

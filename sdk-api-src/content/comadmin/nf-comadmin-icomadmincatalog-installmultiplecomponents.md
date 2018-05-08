@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.InstallMultipleComponents
-title: ICOMAdminCatalog::InstallMultipleComponents method
+title: ICOMAdminCatalog::InstallMultipleComponents
 author: windows-driver-content
 description: Installs components from multiple files into a COM+ application.
 old-location: cos\icomadmincatalog_installmultiplecomponents.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 7206c93b-43ca-402f-9a55-930f872d4201
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], InstallMultipleComponents method, ICOMAdminCatalog::InstallMultipleComponents, InstallMultipleComponents method [COM+], InstallMultipleComponents method [COM+], ICOMAdminCatalog interface, InstallMultipleComponents,ICOMAdminCatalog.InstallMultipleComponents, _cos_ICOMAdminCatalog_InstallMultipleComponents, comadmin/ICOMAdminCatalog::InstallMultipleComponents, cos.icomadmincatalog_installmultiplecomponents
+ms.keywords: ICOMAdminCatalog interface [COM+],InstallMultipleComponents method, ICOMAdminCatalog.InstallMultipleComponents, ICOMAdminCatalog::InstallMultipleComponents, InstallMultipleComponents, InstallMultipleComponents method [COM+], InstallMultipleComponents method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallMultipleComponents, comadmin/ICOMAdminCatalog::InstallMultipleComponents, cos.icomadmincatalog_installmultiplecomponents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::InstallMultipleComponents method
+# ICOMAdminCatalog::InstallMultipleComponents
 
 
 ## -description

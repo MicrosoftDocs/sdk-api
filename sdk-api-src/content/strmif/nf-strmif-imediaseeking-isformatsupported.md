@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSeeking.IsFormatSupported
-title: IMediaSeeking::IsFormatSupported method
+title: IMediaSeeking::IsFormatSupported
 author: windows-driver-content
 description: The IsFormatSupported method determines whether a specified time format is supported for seek operations.
 old-location: dshow\imediaseeking_isformatsupported.htm
 old-project: DirectShow
 ms.assetid: 443a8dbc-c12a-4d50-9005-1fedf701f6fd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], IsFormatSupported method, IMediaSeeking::IsFormatSupported, IMediaSeekingIsFormatSupported, IsFormatSupported method [DirectShow], IsFormatSupported method [DirectShow], IMediaSeeking interface, IsFormatSupported,IMediaSeeking.IsFormatSupported, dshow.imediaseeking_isformatsupported, strmif/IMediaSeeking::IsFormatSupported
+ms.date: 4/30/2018
+ms.keywords: IMediaSeeking interface [DirectShow],IsFormatSupported method, IMediaSeeking.IsFormatSupported, IMediaSeeking::IsFormatSupported, IMediaSeekingIsFormatSupported, IsFormatSupported, IsFormatSupported method [DirectShow], IsFormatSupported method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_isformatsupported, strmif/IMediaSeeking::IsFormatSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSeeking::IsFormatSupported method
+# IMediaSeeking::IsFormatSupported
 
 
 ## -description

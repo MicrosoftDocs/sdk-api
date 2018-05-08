@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetRetrievalFilter
-title: IDXGIInfoQueue::GetRetrievalFilter method
+title: IDXGIInfoQueue::GetRetrievalFilter
 author: windows-driver-content
 description: Gets the retrieval filter at the top of the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_getretrievalfilter.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 95907EF0-858B-4CDF-A112-6E59138769BD
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetRetrievalFilter method [DXGI], GetRetrievalFilter method [DXGI], IDXGIInfoQueue interface, GetRetrievalFilter,IDXGIInfoQueue.GetRetrievalFilter, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], GetRetrievalFilter method, IDXGIInfoQueue::GetRetrievalFilter, direct3ddxgi.idxgiinfoqueue_getretrievalfilter, dxgidebug/IDXGIInfoQueue::GetRetrievalFilter
+ms.keywords: GetRetrievalFilter, GetRetrievalFilter method [DXGI], GetRetrievalFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetRetrievalFilter method, IDXGIInfoQueue.GetRetrievalFilter, IDXGIInfoQueue::GetRetrievalFilter, direct3ddxgi.idxgiinfoqueue_getretrievalfilter, dxgidebug/IDXGIInfoQueue::GetRetrievalFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::GetRetrievalFilter method
+# IDXGIInfoQueue::GetRetrievalFilter
 
 
 ## -description

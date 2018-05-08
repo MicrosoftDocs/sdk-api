@@ -1,0 +1,8 @@
+# [Tablet PC](../_tablet/index.md)
+## [Tpcshrd.h](index.md)
+### [_PROPERTY_UNITS enumeration](../tpcshrd/ne-tpcshrd-_property_units.md)
+### [tagSTROKE_RANGE structure](../tpcshrd/ns-tpcshrd-tagstroke_range.md)
+### [tagSYSTEM_EVENT_DATA structure](../tpcshrd/ns-tpcshrd-tagsystem_event_data.md)
+### [_PACKET_DESCRIPTION structure](../tpcshrd/ns-tpcshrd-_packet_description.md)
+### [_PACKET_PROPERTY structure](../tpcshrd/ns-tpcshrd-_packet_property.md)
+### [_PROPERTY_METRICS structure](../tpcshrd/ns-tpcshrd-_property_metrics.md)

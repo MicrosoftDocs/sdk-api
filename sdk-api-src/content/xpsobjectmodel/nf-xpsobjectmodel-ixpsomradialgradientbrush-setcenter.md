@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.SetCenter
-title: IXpsOMRadialGradientBrush::SetCenter method
+title: IXpsOMRadialGradientBrush::SetCenter
 author: windows-driver-content
 description: Sets the center point of the radial gradient region ellipse.
 old-location: xps\ixpsomradialgradientbrush_setcenter.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 7f1fd304-8495-40b3-b11f-7af9924150eb
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMRadialGradientBrush, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging], SetCenter method, IXpsOMRadialGradientBrush::SetCenter, SetCenter method [XPS Documents and Packaging], SetCenter method [XPS Documents and Packaging], IXpsOMRadialGradientBrush interface, SetCenter,IXpsOMRadialGradientBrush.SetCenter, xps.ixpsomradialgradientbrush_setcenter, xpsobjectmodel/IXpsOMRadialGradientBrush::SetCenter
+ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetCenter method, IXpsOMRadialGradientBrush.SetCenter, IXpsOMRadialGradientBrush::SetCenter, SetCenter, SetCenter method [XPS Documents and Packaging], SetCenter method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setcenter, xpsobjectmodel/IXpsOMRadialGradientBrush::SetCenter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMRadialGradientBrush::SetCenter method
+# IXpsOMRadialGradientBrush::SetCenter
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartUri.IsRelationshipsPartUri
-title: IOpcPartUri::IsRelationshipsPartUri method
+title: IOpcPartUri::IsRelationshipsPartUri
 author: windows-driver-content
 description: Returns a value that indicates whether the current part URI object represents the part name of a Relationships part.
 old-location: opc\iopcparturi_isrelationshipsparturi.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 11d271ab-247c-4060-b769-45e462b66255
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcPartUri, IOpcPartUri interface [Open Packaging Conventions], IsRelationshipsPartUri method, IOpcPartUri::IsRelationshipsPartUri, IsRelationshipsPartUri method [Open Packaging Conventions], IsRelationshipsPartUri method [Open Packaging Conventions], IOpcPartUri interface, IsRelationshipsPartUri,IOpcPartUri.IsRelationshipsPartUri, msopc/IOpcPartUri::IsRelationshipsPartUri, opc.iopcparturi_isrelationshipsparturi
+ms.keywords: IOpcPartUri interface [Open Packaging Conventions],IsRelationshipsPartUri method, IOpcPartUri.IsRelationshipsPartUri, IOpcPartUri::IsRelationshipsPartUri, IsRelationshipsPartUri, IsRelationshipsPartUri method [Open Packaging Conventions], IsRelationshipsPartUri method [Open Packaging Conventions],IOpcPartUri interface, msopc/IOpcPartUri::IsRelationshipsPartUri, opc.iopcparturi_isrelationshipsparturi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPartUri::IsRelationshipsPartUri method
+# IOpcPartUri::IsRelationshipsPartUri
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetOrientation
-title: ISpatialAudioObjectForHrtf::SetOrientation method
+title: ISpatialAudioObjectForHrtf::SetOrientation
 author: windows-driver-content
 description: Sets the orientation in 3D space, relative to the listener's frame of reference, from which the ISpatialAudioObjectForHrtf audio data will be rendered.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setorientation.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 2B88643A-C81A-4F11-BFD0-EEF4C65861C8
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ISpatialAudioObjectForHrtf, ISpatialAudioObjectForHrtf interface [Core Audio], SetOrientation method, ISpatialAudioObjectForHrtf::SetOrientation, SetOrientation method [Core Audio], SetOrientation method [Core Audio], ISpatialAudioObjectForHrtf interface, SetOrientation,ISpatialAudioObjectForHrtf.SetOrientation, coreaudio.ispatialaudioobjectforhrtf_setorientation, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetOrientation
+ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetOrientation method, ISpatialAudioObjectForHrtf.SetOrientation, ISpatialAudioObjectForHrtf::SetOrientation, SetOrientation, SetOrientation method [Core Audio], SetOrientation method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setorientation, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetOrientation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioObjectForHrtf::SetOrientation method
+# ISpatialAudioObjectForHrtf::SetOrientation
 
 
 ## -description

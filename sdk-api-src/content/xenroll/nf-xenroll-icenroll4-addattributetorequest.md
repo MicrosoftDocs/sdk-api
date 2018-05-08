@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll4.addAttributeToRequest
-title: ICEnroll4::addAttributeToRequest method
+title: ICEnroll4::addAttributeToRequest
 author: windows-driver-content
 description: Adds an attribute to the certificate request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_addattributetorequest.htm
 old-project: SecCrypto
 ms.assetid: a15fe06c-e2a5-4292-ad82-ea350e652a07
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], addAttributeToRequest method, ICEnroll4, ICEnroll4 interface [Security], addAttributeToRequest method, ICEnroll4::addAttributeToRequest, _xen_icenroll4_addattributetorequest, addAttributeToRequest method [Security], addAttributeToRequest method [Security], CEnroll object, addAttributeToRequest method [Security], ICEnroll4 interface, addAttributeToRequest,ICEnroll4.addAttributeToRequest, security.icenroll4_addattributetorequest, xenroll/ICEnroll4::addAttributeToRequest
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],addAttributeToRequest method, ICEnroll4 interface [Security],addAttributeToRequest method, ICEnroll4.addAttributeToRequest, ICEnroll4::addAttributeToRequest, _xen_icenroll4_addattributetorequest, addAttributeToRequest, addAttributeToRequest method [Security], addAttributeToRequest method [Security],CEnroll object, addAttributeToRequest method [Security],ICEnroll4 interface, security.icenroll4_addattributetorequest, xenroll/ICEnroll4::addAttributeToRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll4::addAttributeToRequest method
+# ICEnroll4::addAttributeToRequest
 
 
 ## -description

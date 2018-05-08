@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.Initialize
-title: ISyncMgrSynchronize::Initialize method
+title: ISyncMgrSynchronize::Initialize
 author: windows-driver-content
 description: Called by the synchronization manager in a registered application handler to determine whether the handler processes the synchronization event.
 old-location: shell\syncmgr_isyncmgrsynchronize_initialize.htm
 old-project: shell
 ms.assetid: 4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSynchronize, ISyncMgrSynchronize interface [Windows Shell], Initialize method, ISyncMgrSynchronize::Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell], ISyncMgrSynchronize interface, Initialize,ISyncMgrSynchronize.Initialize, mobsync/ISyncMgrSynchronize::Initialize, shell.syncmgr_isyncmgrsynchronize_initialize, syncmgr.isyncmgrsynchronize_initialize
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSynchronize interface [Windows Shell],Initialize method, ISyncMgrSynchronize.Initialize, ISyncMgrSynchronize::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::Initialize, shell.syncmgr_isyncmgrsynchronize_initialize, syncmgr.isyncmgrsynchronize_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronize::Initialize method
+# ISyncMgrSynchronize::Initialize
 
 
 ## -description

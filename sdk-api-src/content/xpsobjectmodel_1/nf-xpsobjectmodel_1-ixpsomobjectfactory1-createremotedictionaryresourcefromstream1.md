@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreateRemoteDictionaryResourceFromStream1
-title: IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1 method
+title: IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1
 author: windows-driver-content
 description: Loads the remote resource dictionary markup into an unrooted IXpsOMRemoteDictionaryResource interface. The dictionary referenced by the dictionaryMarkupStream parameter can contain markup from either the OpenXPS or the MSXPS namespace.
 old-location: xps\ixpsomobjectfactory1_createremotedictionaryresourcefromstream1.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e69a139c-511c-43f3-86a3-22aab36f91fc
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateRemoteDictionaryResourceFromStream1 method [XPS Documents and Packaging], CreateRemoteDictionaryResourceFromStream1 method [XPS Documents and Packaging], IXpsOMObjectFactory1 interface, CreateRemoteDictionaryResourceFromStream1,IXpsOMObjectFactory1.CreateRemoteDictionaryResourceFromStream1, IXpsOMObjectFactory1, IXpsOMObjectFactory1 interface [XPS Documents and Packaging], CreateRemoteDictionaryResourceFromStream1 method, IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1, xps.ixpsomobjectfactory1_createremotedictionaryresourcefromstream1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1
+ms.keywords: CreateRemoteDictionaryResourceFromStream1, CreateRemoteDictionaryResourceFromStream1 method [XPS Documents and Packaging], CreateRemoteDictionaryResourceFromStream1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreateRemoteDictionaryResourceFromStream1 method, IXpsOMObjectFactory1.CreateRemoteDictionaryResourceFromStream1, IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1, xps.ixpsomobjectfactory1_createremotedictionaryresourcefromstream1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1 method
+# IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1
 
 
 ## -description

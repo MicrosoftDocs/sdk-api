@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtensions.get__NewEnum
-title: IFaxInboundRoutingExtensions::get__NewEnum method
+title: IFaxInboundRoutingExtensions::get__NewEnum
 author: windows-driver-content
 description: The IFaxInboundRoutingExtensions::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the IFaxInboundRoutingExtensions collection.
 old-location: fax\_mfax_ifaxinboundroutingextensions_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9965.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxInboundRoutingExtensions, IFaxInboundRoutingExtensions interface [Fax Service], get__NewEnum method, IFaxInboundRoutingExtensions::get__NewEnum, _mfax_ifaxinboundroutingextensions_get__newenum, fax._mfax_ifaxinboundroutingextensions_get__newenum, faxcomex/IFaxInboundRoutingExtensions::get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service], IFaxInboundRoutingExtensions interface, get__NewEnum,IFaxInboundRoutingExtensions.get__NewEnum
+ms.keywords: IFaxInboundRoutingExtensions interface [Fax Service],get__NewEnum method, IFaxInboundRoutingExtensions.get__NewEnum, IFaxInboundRoutingExtensions::get__NewEnum, _mfax_ifaxinboundroutingextensions_get__newenum, fax._mfax_ifaxinboundroutingextensions_get__newenum, faxcomex/IFaxInboundRoutingExtensions::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxInboundRoutingExtensions interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxInboundRoutingExtensions::get__NewEnum method
+# IFaxInboundRoutingExtensions::get__NewEnum
 
 
 ## -description

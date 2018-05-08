@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetESMultiLingualFlag
-title: IIsdbAudioComponentDescriptor::GetESMultiLingualFlag method
+title: IIsdbAudioComponentDescriptor::GetESMultiLingualFlag
 author: windows-driver-content
 description: Gets a flag from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor that indicates whether the stream uses ES multilingual mode.
 old-location: mstv\iisdbaudiocomponentdescriptor_getesmultilingualflag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 10a47ca7-84db-48de-8ba5-0be257438044
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetESMultiLingualFlag method [Microsoft TV Technologies], GetESMultiLingualFlag method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetESMultiLingualFlag,IIsdbAudioComponentDescriptor.GetESMultiLingualFlag, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetESMultiLingualFlag method, IIsdbAudioComponentDescriptor::GetESMultiLingualFlag, dvbsiparser/IIsdbAudioComponentDescriptor::GetESMultiLingualFlag, mstv.iisdbaudiocomponentdescriptor_getesmultilingualflag
+ms.keywords: GetESMultiLingualFlag, GetESMultiLingualFlag method [Microsoft TV Technologies], GetESMultiLingualFlag method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetESMultiLingualFlag method, IIsdbAudioComponentDescriptor.GetESMultiLingualFlag, IIsdbAudioComponentDescriptor::GetESMultiLingualFlag, dvbsiparser/IIsdbAudioComponentDescriptor::GetESMultiLingualFlag, mstv.iisdbaudiocomponentdescriptor_getesmultilingualflag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbAudioComponentDescriptor::GetESMultiLingualFlag method
+# IIsdbAudioComponentDescriptor::GetESMultiLingualFlag
 
 
 ## -description

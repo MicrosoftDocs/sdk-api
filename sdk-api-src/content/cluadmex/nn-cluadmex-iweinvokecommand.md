@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 53997e65-5011-4c3b-9586-ede9ed693ab5
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWEInvokeCommand, IWEInvokeCommand interface [Failover Cluster], IWEInvokeCommand interface [Failover Cluster], described, _wolf_iweinvokecommand, cluadmex/IWEInvokeCommand, mscs.iweinvokecommand
+ms.keywords: IWEInvokeCommand, IWEInvokeCommand interface [Failover Cluster], IWEInvokeCommand interface [Failover Cluster],described, _wolf_iweinvokecommand, cluadmex/IWEInvokeCommand, mscs.iweinvokecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetComponentTag
-title: IDvbDataBroadcastDescriptor::GetComponentTag method
+title: IDvbDataBroadcastDescriptor::GetComponentTag
 author: windows-driver-content
 description: Gets the component tag from a Digital Video Broadcast (DVB) data broadcast descriptor. The component tag identifies a compoment stream within the service.
 old-location: mstv\idvbdatabroadcastdescriptor_getcomponenttag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3b4c93ff-063b-4ebb-bc9a-09ec9cb6d538
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies], IDvbDataBroadcastDescriptor interface, GetComponentTag,IDvbDataBroadcastDescriptor.GetComponentTag, IDvbDataBroadcastDescriptor, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies], GetComponentTag method, IDvbDataBroadcastDescriptor::GetComponentTag, dvbsiparser/IDvbDataBroadcastDescriptor::GetComponentTag, mstv.idvbdatabroadcastdescriptor_getcomponenttag
+ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IDvbDataBroadcastDescriptor.GetComponentTag, IDvbDataBroadcastDescriptor::GetComponentTag, dvbsiparser/IDvbDataBroadcastDescriptor::GetComponentTag, mstv.idvbdatabroadcastdescriptor_getcomponenttag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbDataBroadcastDescriptor::GetComponentTag method
+# IDvbDataBroadcastDescriptor::GetComponentTag
 
 
 ## -description

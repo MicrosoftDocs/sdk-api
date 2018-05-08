@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSize
-title: IUrlAccessor::GetSize method
+title: IUrlAccessor::GetSize
 author: windows-driver-content
 description: Gets the size of the content designated by the URL.
 old-location: search\_search_IUrlAccessor_GetSize.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsize.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetSize method [search], GetSize method [search], IUrlAccessor interface, GetSize,IUrlAccessor.GetSize, IUrlAccessor, IUrlAccessor interface [search], GetSize method, IUrlAccessor::GetSize, _search_IUrlAccessor_GetSize, search._search_IUrlAccessor_GetSize, searchapi/IUrlAccessor::GetSize
+ms.date: 5/4/2018
+ms.keywords: GetSize, GetSize method [search], GetSize method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSize method, IUrlAccessor.GetSize, IUrlAccessor::GetSize, _search_IUrlAccessor_GetSize, search._search_IUrlAccessor_GetSize, searchapi/IUrlAccessor::GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUrlAccessor::GetSize method
+# IUrlAccessor::GetSize
 
 
 ## -description

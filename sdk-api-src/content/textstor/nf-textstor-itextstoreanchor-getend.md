@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetEnd
-title: ITextStoreAnchor::GetEnd method
+title: ITextStoreAnchor::GetEnd
 author: windows-driver-content
 description: The ITextStoreAnchor::GetEnd method returns an anchor positioned at the end of the text stream.
 old-location: tsf\itextstoreanchor_getend.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4c510900-bcff-4ea1-a8f3-95b6f47b3432
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetEnd method [Text Services Framework], GetEnd method [Text Services Framework], ITextStoreAnchor interface, GetEnd,ITextStoreAnchor.GetEnd, ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], GetEnd method, ITextStoreAnchor::GetEnd, textstor/ITextStoreAnchor::GetEnd, tsf.itextstoreanchor_getend
+ms.keywords: GetEnd, GetEnd method [Text Services Framework], GetEnd method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetEnd method, ITextStoreAnchor.GetEnd, ITextStoreAnchor::GetEnd, textstor/ITextStoreAnchor::GetEnd, tsf.itextstoreanchor_getend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::GetEnd method
+# ITextStoreAnchor::GetEnd
 
 
 ## -description

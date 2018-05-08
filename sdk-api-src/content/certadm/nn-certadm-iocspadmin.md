@@ -7,8 +7,8 @@ old-location: security\iocspadmin.htm
 old-project: SecCrypto
 ms.assetid: cf76e934-07a2-46de-b2cf-7f6d3e274d71
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], IOCSPAdmin interface [Security], described, OCSPAdmin object, certadm/IOCSPAdmin, security.iocspadmin
+ms.date: 4/30/2018
+ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], IOCSPAdmin interface [Security],described, OCSPAdmin object, certadm/IOCSPAdmin, security.iocspadmin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

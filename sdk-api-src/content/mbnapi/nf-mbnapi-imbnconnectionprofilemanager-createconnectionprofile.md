@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManager.CreateConnectionProfile
-title: IMbnConnectionProfileManager::CreateConnectionProfile method
+title: IMbnConnectionProfileManager::CreateConnectionProfile
 author: windows-driver-content
 description: Creates a new connection profile for the device.
 old-location: mbn\imbnconnectionprofilemanager_createconnectionprofile.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: b9c191cc-aa6f-4548-ad4a-f2b9808c5f23
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateConnectionProfile method [Microsoft Broadband Networks], CreateConnectionProfile method [Microsoft Broadband Networks], IMbnConnectionProfileManager interface, CreateConnectionProfile,IMbnConnectionProfileManager.CreateConnectionProfile, IMbnConnectionProfileManager, IMbnConnectionProfileManager interface [Microsoft Broadband Networks], CreateConnectionProfile method, IMbnConnectionProfileManager::CreateConnectionProfile, mbn.imbnconnectionprofilemanager_createconnectionprofile, mbnapi/IMbnConnectionProfileManager::CreateConnectionProfile
+ms.keywords: CreateConnectionProfile, CreateConnectionProfile method [Microsoft Broadband Networks], CreateConnectionProfile method [Microsoft Broadband Networks],IMbnConnectionProfileManager interface, IMbnConnectionProfileManager interface [Microsoft Broadband Networks],CreateConnectionProfile method, IMbnConnectionProfileManager.CreateConnectionProfile, IMbnConnectionProfileManager::CreateConnectionProfile, mbn.imbnconnectionprofilemanager_createconnectionprofile, mbnapi/IMbnConnectionProfileManager::CreateConnectionProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnectionProfileManager::CreateConnectionProfile method
+# IMbnConnectionProfileManager::CreateConnectionProfile
 
 
 ## -description

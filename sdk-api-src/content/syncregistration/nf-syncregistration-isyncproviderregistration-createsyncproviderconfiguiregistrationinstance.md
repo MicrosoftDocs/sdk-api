@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance
-title: ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance method
+title: ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance
 author: windows-driver-content
 description: Creates an in-memory instance of a synchronization provider configuration UI.
 old-location: winsync\isyncproviderregistration_createsyncproviderconfiguiregistrationinstance.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: a61b07b3-45ce-429e-9641-4cebc5b44c1b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync], CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync], ISyncProviderRegistration interface, CreateSyncProviderConfigUIRegistrationInstance,ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance, ISyncProviderRegistration, ISyncProviderRegistration interface [Windows Sync], CreateSyncProviderConfigUIRegistrationInstance method, ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance, syncregistration/ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance, winsync.isyncproviderregistration_createsyncproviderconfiguiregistrationinstance
+ms.keywords: CreateSyncProviderConfigUIRegistrationInstance, CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync], CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],CreateSyncProviderConfigUIRegistrationInstance method, ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance, ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance, syncregistration/ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance, winsync.isyncproviderregistration_createsyncproviderconfiguiregistrationinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance method
+# ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance
 
 
 ## -description

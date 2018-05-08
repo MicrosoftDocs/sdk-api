@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.GetTag
-title: IUIAnimationStoryboard2::GetTag method
+title: IUIAnimationStoryboard2::GetTag
 author: windows-driver-content
 description: Gets the tag for a storyboard.
 old-location: uianimation\iuianimationstoryboard2_gettag.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: A73D5003-FC28-4A79-B157-3D0D2E0DEB3D
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetTag method [Windows Animation], GetTag method [Windows Animation], IUIAnimationStoryboard2 interface, GetTag,IUIAnimationStoryboard2.GetTag, IUIAnimationStoryboard2, IUIAnimationStoryboard2 interface [Windows Animation], GetTag method, IUIAnimationStoryboard2::GetTag, uianimation.iuianimationstoryboard2_gettag, uianimation/IUIAnimationStoryboard2::GetTag
+ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],GetTag method, IUIAnimationStoryboard2.GetTag, IUIAnimationStoryboard2::GetTag, uianimation.iuianimationstoryboard2_gettag, uianimation/IUIAnimationStoryboard2::GetTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard2::GetTag method
+# IUIAnimationStoryboard2::GetTag
 
 
 ## -description

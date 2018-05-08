@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.GetAt
-title: IXpsOMGeometryFigureCollection::GetAt method
+title: IXpsOMGeometryFigureCollection::GetAt
 author: windows-driver-content
 description: Gets an IXpsOMGeometryFigure interface pointer from a specified location in the collection.
 old-location: xps\ixpsomgeometryfigurecollection_getat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: adf36d84-7bfd-4a8c-b6e7-5a8622245ae5
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging], IXpsOMGeometryFigureCollection interface, GetAt,IXpsOMGeometryFigureCollection.GetAt, IXpsOMGeometryFigureCollection, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging], GetAt method, IXpsOMGeometryFigureCollection::GetAt, xps.ixpsomgeometryfigurecollection_getat, xpsobjectmodel/IXpsOMGeometryFigureCollection::GetAt
+ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMGeometryFigureCollection.GetAt, IXpsOMGeometryFigureCollection::GetAt, xps.ixpsomgeometryfigurecollection_getat, xpsobjectmodel/IXpsOMGeometryFigureCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigureCollection::GetAt method
+# IXpsOMGeometryFigureCollection::GetAt
 
 
 ## -description

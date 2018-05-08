@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IPin.EndOfStream
-title: IPin::EndOfStream method
+title: IPin::EndOfStream
 author: windows-driver-content
 description: The EndOfStream method notifies the pin that no additional data is expected, until a new run command is issued to the filter.
 old-location: dshow\ipin_endofstream.htm
 old-project: DirectShow
 ms.assetid: b0cca250-9603-4d58-8af5-5b272730e5fa
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EndOfStream method [DirectShow], EndOfStream method [DirectShow], IPin interface, EndOfStream,IPin.EndOfStream, IPin, IPin interface [DirectShow], EndOfStream method, IPin::EndOfStream, IPinEndOfStream, dshow.ipin_endofstream, strmif/IPin::EndOfStream
+ms.date: 4/30/2018
+ms.keywords: EndOfStream, EndOfStream method [DirectShow], EndOfStream method [DirectShow],IPin interface, IPin interface [DirectShow],EndOfStream method, IPin.EndOfStream, IPin::EndOfStream, IPinEndOfStream, dshow.ipin_endofstream, strmif/IPin::EndOfStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IPin::EndOfStream method
+# IPin::EndOfStream
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 97fbb6bf-110e-4393-bf25-1ec378b91bdc
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interface [VSS], IVssHardwareSnapshotProvider interface [VSS], described, base.ivsshardwaresnapshotprovider, vsprov/IVssHardwareSnapshotProvider
+ms.keywords: IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interface [VSS], IVssHardwareSnapshotProvider interface [VSS],described, base.ivsshardwaresnapshotprovider, vsprov/IVssHardwareSnapshotProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

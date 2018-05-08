@@ -64,14 +64,14 @@ The
 The type of information returned.
 
 
-#### - rgbyData
-
-A pointer to the information returned from the opaque query.
-
-
-#### - ullAlign
+### -field ullAlign
 
 The number of bytes that align the information returned.
+
+
+### -field rgbyData
+
+A pointer to the information returned from the opaque query.
 
 
 ## -see-also

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumMoniker.Clone
-title: IEnumMoniker::Clone method
+title: IEnumMoniker::Clone
 author: windows-driver-content
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienummoniker_clone.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 6238e556-9ef4-42c7-95ba-12468cec6b52
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Clone method [COM], Clone method [COM], IEnumMoniker interface, Clone,IEnumMoniker.Clone, IEnumMoniker, IEnumMoniker interface [COM], Clone method, IEnumMoniker::Clone, _ole_ienummoniker_clone, com.ienummoniker_clone, objidl/IEnumMoniker::Clone
+ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumMoniker interface, IEnumMoniker interface [COM],Clone method, IEnumMoniker.Clone, IEnumMoniker::Clone, _ole_ienummoniker_clone, com.ienummoniker_clone, objidl/IEnumMoniker::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumMoniker::Clone method
+# IEnumMoniker::Clone
 
 
 ## -description

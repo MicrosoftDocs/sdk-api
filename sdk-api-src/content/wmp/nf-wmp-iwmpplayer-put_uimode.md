@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayer.put_uiMode
-title: IWMPPlayer::put_uiMode method
+title: IWMPPlayer::put_uiMode
 author: windows-driver-content
 description: The put_uiMode method specifies a value indicating which controls are shown in the user interface.
 old-location: wmp\iwmpplayer_put_uimode.htm
 old-project: WMP
 ms.assetid: 154db914-a0c3-44de-b692-e1b7f9c681f6
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], put_uiMode method, IWMPPlayer::put_uiMode, IWMPPlayerput_uiMode, put_uiMode method [Windows Media Player], put_uiMode method [Windows Media Player], IWMPPlayer interface, put_uiMode,IWMPPlayer.put_uiMode, wmp.iwmpplayer_put_uimode, wmp/IWMPPlayer::put_uiMode
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayer interface [Windows Media Player],put_uiMode method, IWMPPlayer.put_uiMode, IWMPPlayer::put_uiMode, IWMPPlayerput_uiMode, put_uiMode, put_uiMode method [Windows Media Player], put_uiMode method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_uimode, wmp/IWMPPlayer::put_uiMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayer::put_uiMode method
+# IWMPPlayer::put_uiMode
 
 
 ## -description

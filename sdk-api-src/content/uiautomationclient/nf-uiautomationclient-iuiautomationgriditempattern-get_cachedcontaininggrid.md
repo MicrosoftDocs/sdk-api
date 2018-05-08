@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedContainingGrid
-title: IUIAutomationGridItemPattern::get_CachedContainingGrid method
+title: IUIAutomationGridItemPattern::get_CachedContainingGrid
 author: windows-driver-content
 description: Retrieves the cached element that contains the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedContainingGrid.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 4f7bb005-0027-489d-855a-40c8dffe4576
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedContainingGrid property [Windows Accessibility], CachedContainingGrid property [Windows Accessibility], IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern, IUIAutomationGridItemPattern interface [Windows Accessibility], CachedContainingGrid property, IUIAutomationGridItemPattern.CachedContainingGrid, IUIAutomationGridItemPattern::get_CachedContainingGrid, get_CachedContainingGrid,IUIAutomationGridItemPattern.get_CachedContainingGrid, uiauto.uiauto_IUIAutomationGridItemPattern_CachedContainingGrid, uiauto_IUIAutomationGridItemPattern_CachedContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::CachedContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::get_CachedContainingGrid, winauto.uiauto_IUIAutomationGridItemPattern_CachedContainingGrid
+ms.keywords: CachedContainingGrid property [Windows Accessibility], CachedContainingGrid property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedContainingGrid property, IUIAutomationGridItemPattern.CachedContainingGrid, IUIAutomationGridItemPattern.get_CachedContainingGrid, IUIAutomationGridItemPattern::CachedContainingGrid, IUIAutomationGridItemPattern::get_CachedContainingGrid, get_CachedContainingGrid, uiauto.uiauto_IUIAutomationGridItemPattern_CachedContainingGrid, uiauto_IUIAutomationGridItemPattern_CachedContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::CachedContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::get_CachedContainingGrid, winauto.uiauto_IUIAutomationGridItemPattern_CachedContainingGrid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationGridItemPattern::get_CachedContainingGrid method
+# IUIAutomationGridItemPattern::get_CachedContainingGrid
 
 
 ## -description

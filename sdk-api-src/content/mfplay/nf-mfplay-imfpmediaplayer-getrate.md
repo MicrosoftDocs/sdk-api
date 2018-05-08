@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetRate
-title: IMFPMediaPlayer::GetRate method
+title: IMFPMediaPlayer::GetRate
 author: windows-driver-content
 description: Gets the current playback rate.
 old-location: mf\imfpmediaplayer_getrate.htm
 old-project: medfound
 ms.assetid: 51257361-0362-43c4-8aca-81fd49be8482
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetRate method [Media Foundation], GetRate method [Media Foundation], IMFPMediaPlayer interface, GetRate,IMFPMediaPlayer.GetRate, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetRate method, IMFPMediaPlayer::GetRate, mf.imfpmediaplayer_getrate, mfplay/IMFPMediaPlayer::GetRate
+ms.date: 5/3/2018
+ms.keywords: GetRate, GetRate method [Media Foundation], GetRate method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetRate method, IMFPMediaPlayer.GetRate, IMFPMediaPlayer::GetRate, mf.imfpmediaplayer_getrate, mfplay/IMFPMediaPlayer::GetRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::GetRate method
+# IMFPMediaPlayer::GetRate
 
 
 ## -description

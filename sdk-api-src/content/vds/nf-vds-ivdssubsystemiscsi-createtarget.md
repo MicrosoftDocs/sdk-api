@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystemIscsi.CreateTarget
-title: IVdsSubSystemIscsi::CreateTarget method
+title: IVdsSubSystemIscsi::CreateTarget
 author: windows-driver-content
 description: Creates an iSCSI target.
 old-location: base\ivdssubsystemiscsi_createtarget.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 084a1f0e-0764-404a-bd9a-a724e4f12c5f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateTarget method [VDS], CreateTarget method [VDS], IVdsSubSystemIscsi interface, CreateTarget,IVdsSubSystemIscsi.CreateTarget, IVdsSubSystemIscsi, IVdsSubSystemIscsi interface [VDS], CreateTarget method, IVdsSubSystemIscsi::CreateTarget, base.ivdssubsystemiscsi_createtarget, vds/IVdsSubSystemIscsi::CreateTarget, vdshwprv/IVdsSubSystemIscsi::CreateTarget
+ms.keywords: CreateTarget, CreateTarget method [VDS], CreateTarget method [VDS],IVdsSubSystemIscsi interface, IVdsSubSystemIscsi interface [VDS],CreateTarget method, IVdsSubSystemIscsi.CreateTarget, IVdsSubSystemIscsi::CreateTarget, base.ivdssubsystemiscsi_createtarget, vds/IVdsSubSystemIscsi::CreateTarget, vdshwprv/IVdsSubSystemIscsi::CreateTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsSubSystemIscsi::CreateTarget method
+# IVdsSubSystemIscsi::CreateTarget
 
 
 ## -description

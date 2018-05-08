@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.GetAt
-title: IXpsOMPageReferenceCollection::GetAt method
+title: IXpsOMPageReferenceCollection::GetAt
 author: windows-driver-content
 description: Gets an IXpsOMPageReference interface pointer from a specified location in the collection.
 old-location: xps\ixpsompagereferencecollection_getat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 5b888771-fc69-4857-94a4-eea5a068c740
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging], IXpsOMPageReferenceCollection interface, GetAt,IXpsOMPageReferenceCollection.GetAt, IXpsOMPageReferenceCollection, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging], GetAt method, IXpsOMPageReferenceCollection::GetAt, xps.ixpsompagereferencecollection_getat, xpsobjectmodel/IXpsOMPageReferenceCollection::GetAt
+ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMPageReferenceCollection.GetAt, IXpsOMPageReferenceCollection::GetAt, xps.ixpsompagereferencecollection_getat, xpsobjectmodel/IXpsOMPageReferenceCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReferenceCollection::GetAt method
+# IXpsOMPageReferenceCollection::GetAt
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables2.GetMetaDataStorage
-title: IMetaDataTables2::GetMetaDataStorage method
+title: IMetaDataTables2::GetMetaDataStorage
 author: windows-driver-content
 description: Gets the size and contents of the metadata stored in the specified section.
 old-location: winrt\imetadatatables2_getmetadatastorage.htm
 old-project: WinRT
 ms.assetid: 7de4fccb-9cd6-443d-bbd3-ba545e040ca6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetMetaDataStorage method [Windows Runtime], GetMetaDataStorage method [Windows Runtime], IMetaDataTables2 interface, GetMetaDataStorage,IMetaDataTables2.GetMetaDataStorage, IMetaDataTables2, IMetaDataTables2 interface [Windows Runtime], GetMetaDataStorage method, IMetaDataTables2::GetMetaDataStorage, rometadataapi/IMetaDataTables2::GetMetaDataStorage, winrt.imetadatatables2_getmetadatastorage
+ms.date: 5/4/2018
+ms.keywords: GetMetaDataStorage, GetMetaDataStorage method [Windows Runtime], GetMetaDataStorage method [Windows Runtime],IMetaDataTables2 interface, IMetaDataTables2 interface [Windows Runtime],GetMetaDataStorage method, IMetaDataTables2.GetMetaDataStorage, IMetaDataTables2::GetMetaDataStorage, rometadataapi/IMetaDataTables2::GetMetaDataStorage, winrt.imetadatatables2_getmetadatastorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataTables2::GetMetaDataStorage method
+# IMetaDataTables2::GetMetaDataStorage
 
 
 ## -description

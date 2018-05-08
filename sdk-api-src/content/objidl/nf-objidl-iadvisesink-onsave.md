@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IAdviseSink.OnSave
-title: IAdviseSink::OnSave method
+title: IAdviseSink::OnSave
 author: windows-driver-content
 description: Called by the server to notify all registered advisory sinks that the object has been saved.
 old-location: com\iadvisesink_onsave.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 26da5e16-5790-49c0-ba63-5feee49cd4c6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAdviseSink, IAdviseSink interface [COM], OnSave method, IAdviseSink::OnSave, OnSave method [COM], OnSave method [COM], IAdviseSink interface, OnSave,IAdviseSink.OnSave, _ole_iadvisesink_onsave, com.iadvisesink_onsave, objidl/IAdviseSink::OnSave
+ms.keywords: IAdviseSink interface [COM],OnSave method, IAdviseSink.OnSave, IAdviseSink::OnSave, OnSave, OnSave method [COM], OnSave method [COM],IAdviseSink interface, _ole_iadvisesink_onsave, com.iadvisesink_onsave, objidl/IAdviseSink::OnSave
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAdviseSink::OnSave method
+# IAdviseSink::OnSave
 
 
 ## -description

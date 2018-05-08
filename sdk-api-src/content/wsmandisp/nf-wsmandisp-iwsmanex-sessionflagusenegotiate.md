@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseNegotiate
-title: IWSManEx::SessionFlagUseNegotiate method
+title: IWSManEx::SessionFlagUseNegotiate
 author: windows-driver-content
 description: Returns the value of the authentication flag WSManFlagUseNegotiate for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusenegotiate.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 7f9670a5-2bf3-4971-8f7e-8cc677acfb65
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], SessionFlagUseNegotiate method, IWSManEx::SessionFlagUseNegotiate, SessionFlagUseNegotiate method [Windows Remote Management], SessionFlagUseNegotiate method [Windows Remote Management], IWSManEx interface, SessionFlagUseNegotiate,IWSManEx.SessionFlagUseNegotiate, winrm.iwsmanex_sessionflagusenegotiate, wsmandisp/IWSManEx::SessionFlagUseNegotiate
+ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNegotiate method, IWSManEx.SessionFlagUseNegotiate, IWSManEx::SessionFlagUseNegotiate, SessionFlagUseNegotiate, SessionFlagUseNegotiate method [Windows Remote Management], SessionFlagUseNegotiate method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenegotiate, wsmandisp/IWSManEx::SessionFlagUseNegotiate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx::SessionFlagUseNegotiate method
+# IWSManEx::SessionFlagUseNegotiate
 
 
 ## -description

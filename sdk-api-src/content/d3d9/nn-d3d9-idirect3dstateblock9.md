@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dstateblock9.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 4d36b0db-f60c-4be1-3a29-4484c05de1bb, IDirect3DStateBlock9, IDirect3DStateBlock9 interface [Direct3D 9], IDirect3DStateBlock9 interface [Direct3D 9], described, d3d9helper/IDirect3DStateBlock9, direct3d9.idirect3dstateblock9
+ms.keywords: 4d36b0db-f60c-4be1-3a29-4484c05de1bb, IDirect3DStateBlock9, IDirect3DStateBlock9 interface [Direct3D 9], IDirect3DStateBlock9 interface [Direct3D 9],described, d3d9helper/IDirect3DStateBlock9, direct3d9.idirect3dstateblock9
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

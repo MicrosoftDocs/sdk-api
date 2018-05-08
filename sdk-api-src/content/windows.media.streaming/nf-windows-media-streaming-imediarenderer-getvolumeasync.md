@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.GetVolumeAsync
-title: IMediaRenderer::GetVolumeAsync method
+title: IMediaRenderer::streaming
 author: windows-driver-content
 description: Queries the DMR asynchronously for its current audio volume level.
 old-location: mediastreaming\imediarenderer_getvolumeasync.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: CBE8E7EE-DC64-4FB0-B09D-58EC9BACCA26
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: GetVolumeAsync method [Media Streaming API], GetVolumeAsync method [Media Streaming API], IMediaRenderer interface, GetVolumeAsync,IMediaRenderer.GetVolumeAsync, IMediaRenderer, IMediaRenderer interface [Media Streaming API], GetVolumeAsync method, IMediaRenderer::GetVolumeAsync, mediastreaming.imediarenderer_getvolumeasync, windows/IMediaRenderer::GetVolumeAsync
+ms.keywords: GetVolumeAsync, GetVolumeAsync method [Media Streaming API], GetVolumeAsync method [Media Streaming API],IMediaRenderer interface, IMediaRenderer interface [Media Streaming API],GetVolumeAsync method, IMediaRenderer.GetVolumeAsync, IMediaRenderer.streaming, IMediaRenderer::GetVolumeAsync, IMediaRenderer::streaming, mediastreaming.imediarenderer_getvolumeasync, windows/IMediaRenderer::GetVolumeAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IMediaRenderer::GetVolumeAsync method
+# IMediaRenderer::streaming
 
 
 ## -description

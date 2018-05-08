@@ -7,7 +7,7 @@ old-location: controls\ListView_GetHotItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethotitem.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: ListView_GetHotItem, ListView_GetHotItem macro [Windows Controls], _win32_ListView_GetHotItem, _win32_ListView_GetHotItem_cpp, commctrl/ListView_GetHotItem, controls.ListView_GetHotItem, controls._win32_ListView_GetHotItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

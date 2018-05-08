@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetCreationVersion
-title: ISyncChange::GetCreationVersion method
+title: ISyncChange::GetCreationVersion
 author: windows-driver-content
 description: Gets the creation version of the changed item.
 old-location: winsync\isyncchange_getcreationversion.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 2c795cbe-b587-42ef-9200-b7d0d972e7c7
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCreationVersion method [Windows Sync], GetCreationVersion method [Windows Sync], ISyncChange interface, GetCreationVersion,ISyncChange.GetCreationVersion, ISyncChange, ISyncChange interface [Windows Sync], GetCreationVersion method, ISyncChange::GetCreationVersion, winsync.isyncchange_getcreationversion, winsync/ISyncChange::GetCreationVersion
+ms.keywords: GetCreationVersion, GetCreationVersion method [Windows Sync], GetCreationVersion method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetCreationVersion method, ISyncChange.GetCreationVersion, ISyncChange::GetCreationVersion, winsync.isyncchange_getcreationversion, winsync/ISyncChange::GetCreationVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChange::GetCreationVersion method
+# ISyncChange::GetCreationVersion
 
 
 ## -description

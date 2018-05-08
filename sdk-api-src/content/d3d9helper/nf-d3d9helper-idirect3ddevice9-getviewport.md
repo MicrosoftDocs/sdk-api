@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetViewport
-title: IDirect3DDevice9::GetViewport method
+title: IDirect3DDevice9::GetViewport
 author: windows-driver-content
 description: Retrieves the viewport parameters currently set for the device.
 old-location: direct3d9\idirect3ddevice9__getviewport.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getviewport.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 5804c163-148c-f385-7d81-0260f741a050, GetViewport method [Direct3D 9], GetViewport method [Direct3D 9], IDirect3DDevice9 interface, GetViewport,IDirect3DDevice9.GetViewport, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetViewport method, IDirect3DDevice9::GetViewport, d3d9helper/IDirect3DDevice9::GetViewport, direct3d9.idirect3ddevice9__getviewport
+ms.keywords: 5804c163-148c-f385-7d81-0260f741a050, GetViewport, GetViewport method [Direct3D 9], GetViewport method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetViewport method, IDirect3DDevice9.GetViewport, IDirect3DDevice9::GetViewport, d3d9helper/IDirect3DDevice9::GetViewport, direct3d9.idirect3ddevice9__getviewport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::GetViewport method
+# IDirect3DDevice9::GetViewport
 
 
 ## -description

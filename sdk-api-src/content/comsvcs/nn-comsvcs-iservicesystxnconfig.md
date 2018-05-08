@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 8e721496-fc2b-46b8-ae28-432da6c429e6
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IServiceSysTxnConfig, IServiceSysTxnConfig interface [COM+], IServiceSysTxnConfig interface [COM+], described, comsvcs/IServiceSysTxnConfig, cos.iservicesystxnconfig
+ms.keywords: IServiceSysTxnConfig, IServiceSysTxnConfig interface [COM+], IServiceSysTxnConfig interface [COM+],described, comsvcs/IServiceSysTxnConfig, cos.iservicesystxnconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

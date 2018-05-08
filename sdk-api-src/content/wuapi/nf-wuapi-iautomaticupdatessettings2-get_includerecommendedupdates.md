@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates
-title: IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates method
+title: IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates
 author: windows-driver-content
 description: Gets and sets a Boolean value that indicates whether to include optional or recommended updates when a search for updates and installation of updates is performed.
 old-location: wua\iautomaticupdatessettings2_includerecommendedupdates.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 502b0490-8834-496a-8691-d9325ad86799
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IAutomaticUpdatesSettings2, IAutomaticUpdatesSettings2 interface [Windows Update Agent], IncludeRecommendedUpdates property, IAutomaticUpdatesSettings2.IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates, IncludeRecommendedUpdates property [Windows Update Agent], IncludeRecommendedUpdates property [Windows Update Agent], IAutomaticUpdatesSettings2 interface, get_IncludeRecommendedUpdates,IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates, wua.iautomaticupdatessettings2_includerecommendedupdates, wuapi/IAutomaticUpdatesSettings2::IncludeRecommendedUpdates, wuapi/IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates, wuapi/IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates
+ms.keywords: IAutomaticUpdatesSettings2 interface [Windows Update Agent],IncludeRecommendedUpdates property, IAutomaticUpdatesSettings2.IncludeRecommendedUpdates, IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates, IncludeRecommendedUpdates property [Windows Update Agent], IncludeRecommendedUpdates property [Windows Update Agent],IAutomaticUpdatesSettings2 interface, get_IncludeRecommendedUpdates, wua.iautomaticupdatessettings2_includerecommendedupdates, wuapi/IAutomaticUpdatesSettings2::IncludeRecommendedUpdates, wuapi/IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates, wuapi/IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates method
+# IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates
 
 
 ## -description

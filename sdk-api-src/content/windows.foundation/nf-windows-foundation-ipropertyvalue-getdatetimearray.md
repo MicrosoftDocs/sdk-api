@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetDateTimeArray
-title: IPropertyValue::GetDateTimeArray method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of DateTime values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getdatetimearray.htm
 old-project: WinRT
 ms.assetid: 76d18ef4-676c-4130-90e3-e74776e47f33
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetDateTimeArray method [Windows Runtime], GetDateTimeArray method [Windows Runtime], IPropertyValue interface, GetDateTimeArray,IPropertyValue.GetDateTimeArray, IPropertyValue, IPropertyValue interface [Windows Runtime], GetDateTimeArray method, IPropertyValue::GetDateTimeArray, windows/IPropertyValue::GetDateTimeArray, winrt.ipropertyvalue_getdatetimearray
+ms.date: 5/4/2018
+ms.keywords: GetDateTimeArray, GetDateTimeArray method [Windows Runtime], GetDateTimeArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDateTimeArray method, IPropertyValue.GetDateTimeArray, IPropertyValue.IPropertyValue, IPropertyValue::GetDateTimeArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDateTimeArray, winrt.ipropertyvalue_getdatetimearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetDateTimeArray method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

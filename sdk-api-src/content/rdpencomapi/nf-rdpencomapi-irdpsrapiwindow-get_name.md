@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Name
-title: IRDPSRAPIWindow::get_Name method
+title: IRDPSRAPIWindow::get_Name
 author: windows-driver-content
 description: Returns the name for the window object.
 old-location: rdp\irdpsrapiwindow_name.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 14086504-2f67-4ca2-a56c-b5866426e7a4
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], Name property, IRDPSRAPIWindow.Name, IRDPSRAPIWindow::get_Name, Name property [RDP], Name property [RDP], IRDPSRAPIWindow interface, Name property [RDP], RDPSRAPIWindow object, RDPSRAPIWindow object [RDP], Name property, get_Name,IRDPSRAPIWindow.get_Name, rdp.irdpsrapiwindow_name, rdpencomapi/IRDPSRAPIWindow::Name, rdpencomapi/IRDPSRAPIWindow::get_Name
+ms.keywords: IRDPSRAPIWindow interface [RDP],Name property, IRDPSRAPIWindow.Name, IRDPSRAPIWindow.get_Name, IRDPSRAPIWindow::Name, IRDPSRAPIWindow::get_Name, Name property [RDP], Name property [RDP],IRDPSRAPIWindow interface, Name property [RDP],RDPSRAPIWindow object, RDPSRAPIWindow object [RDP],Name property, get_Name, rdp.irdpsrapiwindow_name, rdpencomapi/IRDPSRAPIWindow::Name, rdpencomapi/IRDPSRAPIWindow::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIWindow::get_Name method
+# IRDPSRAPIWindow::get_Name
 
 
 ## -description

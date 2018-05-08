@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_Characteristics
-title: INetConnectionProps::get_Characteristics method
+title: INetConnectionProps::get_Characteristics
 author: windows-driver-content
 description: The get_Characteristics method retrieves the media type for the connection.
 old-location: ics\inetconnectionprops_get_characteristics.htm
 old-project: ICS
 ms.assetid: 7556fd9e-85ce-4c3a-805d-23702ca0e1c2
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetConnectionProps, INetConnectionProps interface [ICS/ICF], get_Characteristics method, INetConnectionProps::get_Characteristics, get_Characteristics method [ICS/ICF], get_Characteristics method [ICS/ICF], INetConnectionProps interface, get_Characteristics,INetConnectionProps.get_Characteristics, ics.inetconnectionprops_get_characteristics, netcon/INetConnectionProps::get_Characteristics
+ms.date: 5/1/2018
+ms.keywords: INetConnectionProps interface [ICS/ICF],get_Characteristics method, INetConnectionProps.get_Characteristics, INetConnectionProps::get_Characteristics, get_Characteristics, get_Characteristics method [ICS/ICF], get_Characteristics method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_characteristics, netcon/INetConnectionProps::get_Characteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetConnectionProps::get_Characteristics method
+# INetConnectionProps::get_Characteristics
 
 
 ## -description

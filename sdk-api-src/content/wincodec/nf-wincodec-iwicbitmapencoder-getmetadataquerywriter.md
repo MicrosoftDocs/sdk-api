@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.GetMetadataQueryWriter
-title: IWICBitmapEncoder::GetMetadataQueryWriter method
+title: IWICBitmapEncoder::GetMetadataQueryWriter
 author: windows-driver-content
 description: Retrieves a metadata query writer for the encoder.
 old-location: wic\_wic_codec_iwicbitmapencoder_getmetadataquerywriter.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 11160c48-dbbe-45b6-864c-6a6713ec9ab5
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component], IWICBitmapEncoder interface, GetMetadataQueryWriter,IWICBitmapEncoder.GetMetadataQueryWriter, IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], GetMetadataQueryWriter method, IWICBitmapEncoder::GetMetadataQueryWriter, _wic_codec_iwicbitmapencoder_getmetadataquerywriter, wic._wic_codec_iwicbitmapencoder_getmetadataquerywriter, wincodec/IWICBitmapEncoder::GetMetadataQueryWriter
+ms.keywords: GetMetadataQueryWriter, GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],GetMetadataQueryWriter method, IWICBitmapEncoder.GetMetadataQueryWriter, IWICBitmapEncoder::GetMetadataQueryWriter, _wic_codec_iwicbitmapencoder_getmetadataquerywriter, wic._wic_codec_iwicbitmapencoder_getmetadataquerywriter, wincodec/IWICBitmapEncoder::GetMetadataQueryWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapEncoder::GetMetadataQueryWriter method
+# IWICBitmapEncoder::GetMetadataQueryWriter
 
 
 ## -description

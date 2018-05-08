@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.FindTextStart
-title: ITextRange::FindTextStart method
+title: ITextRange::FindTextStart
 author: windows-driver-content
 description: Searches up to Count characters for the string, bstr, starting at the range's Start cp (cpFirst).
 old-location: controls\ITextRange_FindTextStart.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtextstart.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: FindTextStart method [Windows Controls], FindTextStart method [Windows Controls], ITextRange interface, FindTextStart,ITextRange.FindTextStart, ITextRange, ITextRange interface [Windows Controls], FindTextStart method, ITextRange::FindTextStart, _win32_ITextRange_FindTextStart, _win32_ITextRange_FindTextStart_cpp, controls.ITextRange_FindTextStart, controls._win32_ITextRange_FindTextStart, tom/ITextRange::FindTextStart
+ms.date: 4/27/2018
+ms.keywords: FindTextStart, FindTextStart method [Windows Controls], FindTextStart method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],FindTextStart method, ITextRange.FindTextStart, ITextRange::FindTextStart, _win32_ITextRange_FindTextStart, _win32_ITextRange_FindTextStart_cpp, controls.ITextRange_FindTextStart, controls._win32_ITextRange_FindTextStart, tom/ITextRange::FindTextStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::FindTextStart method
+# ITextRange::FindTextStart
 
 
 ## -description

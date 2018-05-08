@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbShortEventDescriptor.GetLength
-title: IDvbShortEventDescriptor::GetLength method
+title: IDvbShortEventDescriptor::GetLength
 author: windows-driver-content
 description: Gets the body length of a Digital Video Broadcast (DVB) short event descriptor.
 old-location: mstv\idvbshorteventdescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6cccd096-eb8f-488f-9883-3e16e57d3efb
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IDvbShortEventDescriptor interface, GetLength,IDvbShortEventDescriptor.GetLength, IDvbShortEventDescriptor, IDvbShortEventDescriptor interface [Microsoft TV Technologies], GetLength method, IDvbShortEventDescriptor::GetLength, dvbsiparser/IDvbShortEventDescriptor::GetLength, mstv.idvbshorteventdescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbShortEventDescriptor.GetLength, IDvbShortEventDescriptor::GetLength, dvbsiparser/IDvbShortEventDescriptor::GetLength, mstv.idvbshorteventdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbShortEventDescriptor::GetLength method
+# IDvbShortEventDescriptor::GetLength
 
 
 ## -description

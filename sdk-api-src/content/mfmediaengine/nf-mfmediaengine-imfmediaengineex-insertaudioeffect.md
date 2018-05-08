@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.InsertAudioEffect
-title: IMFMediaEngineEx::InsertAudioEffect method
+title: IMFMediaEngineEx::InsertAudioEffect
 author: windows-driver-content
 description: Inserts an audio effect.
 old-location: mf\imfmediaengineex_insertaudioeffect.htm
 old-project: medfound
 ms.assetid: 0D9ED497-A991-473F-A775-CA780A1E0E06
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: FALSE, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], InsertAudioEffect method, IMFMediaEngineEx::InsertAudioEffect, InsertAudioEffect method [Media Foundation], InsertAudioEffect method [Media Foundation], IMFMediaEngineEx interface, InsertAudioEffect,IMFMediaEngineEx.InsertAudioEffect, TRUE, mf.imfmediaengineex_insertaudioeffect, mfmediaengine/IMFMediaEngineEx::InsertAudioEffect
+ms.date: 5/3/2018
+ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],InsertAudioEffect method, IMFMediaEngineEx.InsertAudioEffect, IMFMediaEngineEx::InsertAudioEffect, InsertAudioEffect, InsertAudioEffect method [Media Foundation], InsertAudioEffect method [Media Foundation],IMFMediaEngineEx interface, TRUE, mf.imfmediaengineex_insertaudioeffect, mfmediaengine/IMFMediaEngineEx::InsertAudioEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::InsertAudioEffect method
+# IMFMediaEngineEx::InsertAudioEffect
 
 
 ## -description

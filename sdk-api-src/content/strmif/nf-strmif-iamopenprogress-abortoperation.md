@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMOpenProgress.AbortOperation
-title: IAMOpenProgress::AbortOperation method
+title: IAMOpenProgress::AbortOperation
 author: windows-driver-content
 description: The AbortOperation method cancels the file-open operation.
 old-location: dshow\iamopenprogress_abortoperation.htm
 old-project: DirectShow
 ms.assetid: 5c20b57c-c491-4465-9626-13335191b5bb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AbortOperation method [DirectShow], AbortOperation method [DirectShow], IAMOpenProgress interface, AbortOperation,IAMOpenProgress.AbortOperation, IAMOpenProgress, IAMOpenProgress interface [DirectShow], AbortOperation method, IAMOpenProgress::AbortOperation, IAMOpenProgressAbortOperation, dshow.iamopenprogress_abortoperation, strmif/IAMOpenProgress::AbortOperation
+ms.date: 4/30/2018
+ms.keywords: AbortOperation, AbortOperation method [DirectShow], AbortOperation method [DirectShow],IAMOpenProgress interface, IAMOpenProgress interface [DirectShow],AbortOperation method, IAMOpenProgress.AbortOperation, IAMOpenProgress::AbortOperation, IAMOpenProgressAbortOperation, dshow.iamopenprogress_abortoperation, strmif/IAMOpenProgress::AbortOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMOpenProgress::AbortOperation method
+# IAMOpenProgress::AbortOperation
 
 
 ## -description

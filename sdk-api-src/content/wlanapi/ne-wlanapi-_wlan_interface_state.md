@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WLAN_INTERFACE_STATE, *PWLAN_INTERFACE_STATE, WLAN_INTERFACE_STATE, *PWLAN_INTERFACE_STATE
+req.typenames: WLAN_INTERFACE_STATE, *PWLAN_INTERFACE_STATE
 topic_type:
 -	APIRef
 -	kbSyntax

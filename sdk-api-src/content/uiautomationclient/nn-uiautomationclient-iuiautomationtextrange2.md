@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 62E95500-5691-FAE8-BC31-0BB31318D8A4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationTextRange2, IUIAutomationTextRange2 interface [Windows Accessibility], IUIAutomationTextRange2 interface [Windows Accessibility], described, uiautomationclient/IUIAutomationTextRange2, winauto.uiauto_IUIAutomationTextRange2
+ms.keywords: IUIAutomationTextRange2, IUIAutomationTextRange2 interface [Windows Accessibility], IUIAutomationTextRange2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextRange2, winauto.uiauto_IUIAutomationTextRange2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

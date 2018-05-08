@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.ListContentsComplete
-title: IWMPContentPartnerCallback::ListContentsComplete method
+title: IWMPContentPartnerCallback::ListContentsComplete
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_listcontentscomplete.htm
 old-project: WMP
 ms.assetid: e46a3378-a8e3-40c1-9cca-b6444286b3b5
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], ListContentsComplete method, IWMPContentPartnerCallback::ListContentsComplete, IWMPContentPartnerCallbackListContentsComplete, ListContentsComplete method [Windows Media Player], ListContentsComplete method [Windows Media Player], IWMPContentPartnerCallback interface, ListContentsComplete,IWMPContentPartnerCallback.ListContentsComplete, contentpartner/IWMPContentPartnerCallback::ListContentsComplete, wmp.iwmpcontentpartnercallback_listcontentscomplete
+ms.date: 5/4/2018
+ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],ListContentsComplete method, IWMPContentPartnerCallback.ListContentsComplete, IWMPContentPartnerCallback::ListContentsComplete, IWMPContentPartnerCallbackListContentsComplete, ListContentsComplete, ListContentsComplete method [Windows Media Player], ListContentsComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::ListContentsComplete, wmp.iwmpcontentpartnercallback_listcontentscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartnerCallback::ListContentsComplete method
+# IWMPContentPartnerCallback::ListContentsComplete
 
 
 ## -description

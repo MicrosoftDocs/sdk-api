@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComInstanceEvents.OnObjectCreate
-title: IComInstanceEvents::OnObjectCreate method
+title: IComInstanceEvents::OnObjectCreate
 author: windows-driver-content
 description: Generated when an object is created by a client.
 old-location: cos\icominstanceevents_onobjectcreate.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 4f3457f6-4956-4411-b38b-46c7d84d342d
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComInstanceEvents, IComInstanceEvents interface [COM+], OnObjectCreate method, IComInstanceEvents::OnObjectCreate, OnObjectCreate method [COM+], OnObjectCreate method [COM+], IComInstanceEvents interface, OnObjectCreate,IComInstanceEvents.OnObjectCreate, _dtc_icominstanceevents_onobjectcreate, comsvcs/IComInstanceEvents::OnObjectCreate, cos.icominstanceevents_onobjectcreate
+ms.keywords: IComInstanceEvents interface [COM+],OnObjectCreate method, IComInstanceEvents.OnObjectCreate, IComInstanceEvents::OnObjectCreate, OnObjectCreate, OnObjectCreate method [COM+], OnObjectCreate method [COM+],IComInstanceEvents interface, _dtc_icominstanceevents_onobjectcreate, comsvcs/IComInstanceEvents::OnObjectCreate, cos.icominstanceevents_onobjectcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComInstanceEvents::OnObjectCreate method
+# IComInstanceEvents::OnObjectCreate
 
 
 ## -description

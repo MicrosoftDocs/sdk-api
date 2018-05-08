@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateNegation
-title: IConditionFactory2::CreateNegation method
+title: IConditionFactory2::CreateNegation
 author: windows-driver-content
 description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
 old-location: search\_search_IConditionFactory2_CreateNegation.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createnegation.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateNegation method [search], CreateNegation method [search], IConditionFactory2 interface, CreateNegation,IConditionFactory2.CreateNegation, IConditionFactory2, IConditionFactory2 interface [search], CreateNegation method, IConditionFactory2::CreateNegation, _search_IConditionFactory2_CreateNegation, search._search_IConditionFactory2_CreateNegation, structuredquery/IConditionFactory2::CreateNegation
+ms.date: 5/4/2018
+ms.keywords: CreateNegation, CreateNegation method [search], CreateNegation method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateNegation method, IConditionFactory2.CreateNegation, IConditionFactory2::CreateNegation, _search_IConditionFactory2_CreateNegation, search._search_IConditionFactory2_CreateNegation, structuredquery/IConditionFactory2::CreateNegation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IConditionFactory2::CreateNegation method
+# IConditionFactory2::CreateNegation
 
 
 ## -description

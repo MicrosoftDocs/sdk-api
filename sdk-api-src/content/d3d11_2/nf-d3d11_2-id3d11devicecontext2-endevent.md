@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.EndEvent
-title: ID3D11DeviceContext2::EndEvent method
+title: ID3D11DeviceContext2::EndEvent
 author: windows-driver-content
 description: Allows applications to annotate the end of a range of graphics commands.
 old-location: direct3d11\id3d11devicecontext2_endevent.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 1684ee4b-637d-4764-bb69-6ebc5c2985f1
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: EndEvent method [Direct3D 11], EndEvent method [Direct3D 11], ID3D11DeviceContext2 interface, EndEvent,ID3D11DeviceContext2.EndEvent, ID3D11DeviceContext2, ID3D11DeviceContext2 interface [Direct3D 11], EndEvent method, ID3D11DeviceContext2::EndEvent, d3d11_2/ID3D11DeviceContext2::EndEvent, direct3d11.id3d11devicecontext2_endevent
+ms.keywords: EndEvent, EndEvent method [Direct3D 11], EndEvent method [Direct3D 11],ID3D11DeviceContext2 interface, ID3D11DeviceContext2 interface [Direct3D 11],EndEvent method, ID3D11DeviceContext2.EndEvent, ID3D11DeviceContext2::EndEvent, d3d11_2/ID3D11DeviceContext2::EndEvent, direct3d11.id3d11devicecontext2_endevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext2::EndEvent method
+# ID3D11DeviceContext2::EndEvent
 
 
 ## -description

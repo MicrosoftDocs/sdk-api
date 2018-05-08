@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Remove
-title: IPolicyQualifiers::Remove method
+title: IPolicyQualifiers::Remove
 author: windows-driver-content
 description: Removes an object from the collection by index value.
 old-location: security\ipolicyqualifiers_remove_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 6071dbc2-210d-42e2-8431-68eef1e89e24
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IPolicyQualifiers, IPolicyQualifiers interface [Security], Remove method, IPolicyQualifiers::Remove, Remove method [Security], Remove method [Security], IPolicyQualifiers interface, Remove,IPolicyQualifiers.Remove, certenroll/IPolicyQualifiers::Remove, security.ipolicyqualifiers_remove_method
+ms.keywords: IPolicyQualifiers interface [Security],Remove method, IPolicyQualifiers.Remove, IPolicyQualifiers::Remove, Remove, Remove method [Security], Remove method [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::Remove, security.ipolicyqualifiers_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IPolicyQualifiers::Remove method
+# IPolicyQualifiers::Remove
 
 
 ## -description

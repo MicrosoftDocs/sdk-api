@@ -65,6 +65,21 @@ Type: <b>DWORD</b>
 The number of profiles in the list.
 
 
+### -field ProfileInfo.unique
+
+ 
+
+
+### -field ProfileInfo.size_is
+
+ 
+
+
+### -field ProfileInfo.size_is.dwNumberOfItems
+
+ 
+
+
 ### -field ProfileInfo
 
 Type: <b><a href="https://msdn.microsoft.com/bf917afa-c6c5-408a-bd34-b4a4c7b991b9">WCM_PROFILE_INFO</a>[1]</b>

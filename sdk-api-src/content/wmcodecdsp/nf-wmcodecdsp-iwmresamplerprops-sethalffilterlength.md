@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMResamplerProps.SetHalfFilterLength
-title: IWMResamplerProps::SetHalfFilterLength method
+title: IWMResamplerProps::SetHalfFilterLength
 author: windows-driver-content
 description: Specifies the quality of the output.
 old-location: mf\iwmresamplerpropssethalffilterlength.htm
 old-project: medfound
 ms.assetid: ac35fafa-d1f1-4470-b4e3-0e6fce792a11
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMResamplerProps, IWMResamplerProps interface [Media Foundation], SetHalfFilterLength method, IWMResamplerProps::SetHalfFilterLength, SetHalfFilterLength method [Media Foundation], SetHalfFilterLength method [Media Foundation], IWMResamplerProps interface, SetHalfFilterLength,IWMResamplerProps.SetHalfFilterLength, codecapi.iwmresamplerpropssethalffilterlength, mf.iwmresamplerpropssethalffilterlength, wmcodecdsp/ IWMResamplerProps::SetHalfFilterLength
+ms.date: 5/3/2018
+ms.keywords: IWMResamplerProps interface [Media Foundation],SetHalfFilterLength method, IWMResamplerProps.SetHalfFilterLength, IWMResamplerProps::SetHalfFilterLength, SetHalfFilterLength, SetHalfFilterLength method [Media Foundation], SetHalfFilterLength method [Media Foundation],IWMResamplerProps interface, codecapi.iwmresamplerpropssethalffilterlength, mf.iwmresamplerpropssethalffilterlength, wmcodecdsp/ IWMResamplerProps::SetHalfFilterLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMResamplerProps::SetHalfFilterLength method
+# IWMResamplerProps::SetHalfFilterLength
 
 
 ## -description

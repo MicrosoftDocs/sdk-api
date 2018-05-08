@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.NotifySessionOfServiceStart
-title: IWTSProtocolManager::NotifySessionOfServiceStart method
+title: IWTSProtocolManager::NotifySessionOfServiceStart
 author: windows-driver-content
 description: IWTSProtocolManager::NotifySessionOfServiceStart is no longer available. Instead, use IWRdsProtocolManager::NotifySessionOfServiceStart.
 old-location: termserv\iwtsprotocolmanager_notifysessionofservicestart.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 8b9e7578-75e1-4447-8ff9-e391bf339fbe
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolManager, IWTSProtocolManager interface [Remote Desktop Services], NotifySessionOfServiceStart method, IWTSProtocolManager::NotifySessionOfServiceStart, NotifySessionOfServiceStart method [Remote Desktop Services], NotifySessionOfServiceStart method [Remote Desktop Services], IWTSProtocolManager interface, NotifySessionOfServiceStart,IWTSProtocolManager.NotifySessionOfServiceStart, termserv.iwtsprotocolmanager_notifysessionofservicestart, wtsprotocol/IWTSProtocolManager::NotifySessionOfServiceStart
+ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifySessionOfServiceStart method, IWTSProtocolManager.NotifySessionOfServiceStart, IWTSProtocolManager::NotifySessionOfServiceStart, NotifySessionOfServiceStart, NotifySessionOfServiceStart method [Remote Desktop Services], NotifySessionOfServiceStart method [Remote Desktop Services],IWTSProtocolManager interface, termserv.iwtsprotocolmanager_notifysessionofservicestart, wtsprotocol/IWTSProtocolManager::NotifySessionOfServiceStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolManager::NotifySessionOfServiceStart method
+# IWTSProtocolManager::NotifySessionOfServiceStart
 
 
 ## -description

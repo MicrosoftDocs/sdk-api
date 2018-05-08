@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaEvent.GetExtendedType
-title: IMFMediaEvent::GetExtendedType method
+title: IMFMediaEvent::GetExtendedType
 author: windows-driver-content
 description: Retrieves the extended type of the event.
 old-location: mf\imfmediaevent_getextendedtype.htm
 old-project: medfound
 ms.assetid: 56284491-6f84-467e-9fac-46b04db4024a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 56284491-6f84-467e-9fac-46b04db4024a, GetExtendedType method [Media Foundation], GetExtendedType method [Media Foundation], IMFMediaEvent interface, GetExtendedType,IMFMediaEvent.GetExtendedType, IMFMediaEvent, IMFMediaEvent interface [Media Foundation], GetExtendedType method, IMFMediaEvent::GetExtendedType, mf.imfmediaevent_getextendedtype, mfobjects/IMFMediaEvent::GetExtendedType
+ms.date: 5/3/2018
+ms.keywords: 56284491-6f84-467e-9fac-46b04db4024a, GetExtendedType, GetExtendedType method [Media Foundation], GetExtendedType method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetExtendedType method, IMFMediaEvent.GetExtendedType, IMFMediaEvent::GetExtendedType, mf.imfmediaevent_getextendedtype, mfobjects/IMFMediaEvent::GetExtendedType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEvent::GetExtendedType method
+# IMFMediaEvent::GetExtendedType
 
 
 ## -description

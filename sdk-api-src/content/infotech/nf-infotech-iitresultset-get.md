@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITResultSet.Get
-title: IITResultSet::Get method
+title: IITResultSet::Get
 author: windows-driver-content
 description: Gets the property in the specified row and column and fills the given property object.
 old-location: htmlhelp\iitresultset_get.htm
@@ -8,7 +8,7 @@ old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetget.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Get method [HTML Help Workshop], Get method [HTML Help Workshop], IITResultSet interface, Get,IITResultSet.Get, IITResultSet, IITResultSet interface [HTML Help Workshop], Get method, IITResultSet::Get, htmlhelp.iitresultset_get, infotech/IITResultSet::Get, refIITResultSetGet
+ms.keywords: Get, Get method [HTML Help Workshop], Get method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Get method, IITResultSet.Get, IITResultSet::Get, htmlhelp.iitresultset_get, infotech/IITResultSet::Get, refIITResultSetGet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IITResultSet::Get method
+# IITResultSet::Get
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessibleWindowlessSite.AcquireObjectIdRange
-title: IAccessibleWindowlessSite::AcquireObjectIdRange method
+title: IAccessibleWindowlessSite::AcquireObjectIdRange
 author: windows-driver-content
 description: Acquires a range of object IDs from the control host and marks them as reserved by a specific windowless control.
 old-location: winauto\uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: EB8BAD4D-0C8F-4926-A1B4-383D03C3B0C4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: AcquireObjectIdRange method [Windows Accessibility], AcquireObjectIdRange method [Windows Accessibility], IAccessibleWindowlessSite interface, AcquireObjectIdRange,IAccessibleWindowlessSite.AcquireObjectIdRange, IAccessibleWindowlessSite, IAccessibleWindowlessSite interface [Windows Accessibility], AcquireObjectIdRange method, IAccessibleWindowlessSite::AcquireObjectIdRange, oleacc/IAccessibleWindowlessSite::AcquireObjectIdRange, winauto.uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange
+ms.keywords: AcquireObjectIdRange, AcquireObjectIdRange method [Windows Accessibility], AcquireObjectIdRange method [Windows Accessibility],IAccessibleWindowlessSite interface, IAccessibleWindowlessSite interface [Windows Accessibility],AcquireObjectIdRange method, IAccessibleWindowlessSite.AcquireObjectIdRange, IAccessibleWindowlessSite::AcquireObjectIdRange, oleacc/IAccessibleWindowlessSite::AcquireObjectIdRange, winauto.uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccessibleWindowlessSite::AcquireObjectIdRange method
+# IAccessibleWindowlessSite::AcquireObjectIdRange
 
 
 ## -description

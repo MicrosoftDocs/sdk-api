@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionManager.GetConnections
-title: IMbnConnectionManager::GetConnections method
+title: IMbnConnectionManager::GetConnections
 author: windows-driver-content
 description: Gets a list of available connections.
 old-location: mbn\imbnconnectionmanager_getconnections.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 5f4fd3b2-ed24-403a-ae5a-31821a2c7033
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetConnections method [Microsoft Broadband Networks], GetConnections method [Microsoft Broadband Networks], IMbnConnectionManager interface, GetConnections,IMbnConnectionManager.GetConnections, IMbnConnectionManager, IMbnConnectionManager interface [Microsoft Broadband Networks], GetConnections method, IMbnConnectionManager::GetConnections, mbn.imbnconnectionmanager_getconnections, mbnapi/IMbnConnectionManager::GetConnections
+ms.keywords: GetConnections, GetConnections method [Microsoft Broadband Networks], GetConnections method [Microsoft Broadband Networks],IMbnConnectionManager interface, IMbnConnectionManager interface [Microsoft Broadband Networks],GetConnections method, IMbnConnectionManager.GetConnections, IMbnConnectionManager::GetConnections, mbn.imbnconnectionmanager_getconnections, mbnapi/IMbnConnectionManager::GetConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnectionManager::GetConnections method
+# IMbnConnectionManager::GetConnections
 
 
 ## -description

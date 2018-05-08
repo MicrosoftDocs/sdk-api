@@ -64,14 +64,12 @@ The
 Union of Tspec and flowspec information.
 
 
-
-#### stspec
+### -field u1.stspec
 
 Sender Tspec, expressed as a <a href="https://msdn.microsoft.com/d7905687-1af8-4469-b8de-a2445afa90f4">SENDER_TSPEC</a> structure.
 
 
-
-#### isflow
+### -field u1.isflow
 
 Integrated Services flowspec information, expressed as an <a href="https://msdn.microsoft.com/1e0cd196-f53c-4d68-a287-7a98b7215d6d">IS_FLOWSPEC</a> structure.
 
@@ -81,14 +79,12 @@ Integrated Services flowspec information, expressed as an <a href="https://msdn.
 Union of sender and filterspec information.
 
 
-
-#### stemp
+### -field u2.stemp
 
 Sender template for the flow, expressed as a <a href="https://msdn.microsoft.com/72d08944-7ac9-496f-a18b-e6fcddb59c56">FILTER_SPEC</a> structure.
 
 
-
-#### fspec
+### -field u2.fspec
 
 Filter spec for the flow, expressed as a <a href="https://msdn.microsoft.com/72d08944-7ac9-496f-a18b-e6fcddb59c56">FILTER_SPEC</a> structure.
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetRetrievalFilter
-title: ID3D12InfoQueue::GetRetrievalFilter method
+title: ID3D12InfoQueue::GetRetrievalFilter
 author: windows-driver-content
 description: Get the retrieval filter at the top of the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_getretrievalfilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: A5F4A602-C5C1-402E-9208-D183EEDF6F27
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetRetrievalFilter method, GetRetrievalFilter method, ID3D12InfoQueue interface, GetRetrievalFilter,ID3D12InfoQueue.GetRetrievalFilter, ID3D12InfoQueue, ID3D12InfoQueue interface, GetRetrievalFilter method, ID3D12InfoQueue::GetRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::GetRetrievalFilter, direct3d12.id3d12infoqueue_getretrievalfilter
+ms.keywords: GetRetrievalFilter, GetRetrievalFilter method, GetRetrievalFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetRetrievalFilter method, ID3D12InfoQueue.GetRetrievalFilter, ID3D12InfoQueue::GetRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::GetRetrievalFilter, direct3d12.id3d12infoqueue_getretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::GetRetrievalFilter method
+# ID3D12InfoQueue::GetRetrievalFilter
 
 
 ## -description

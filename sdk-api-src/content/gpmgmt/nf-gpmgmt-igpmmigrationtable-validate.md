@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.Validate
-title: IGPMMigrationTable::Validate method
+title: IGPMMigrationTable::Validate
 author: windows-driver-content
 description: Validates the migration table.
 old-location: gpmc\igpmmigrationtable_validate.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 1b442155-3dd7-4a74-ad33-db79114459ac
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMMigrationTable class [GPMC], Validate method, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], Validate method, IGPMMigrationTable::Validate, Validate method [GPMC], Validate method [GPMC], GPMMigrationTable class, Validate method [GPMC], IGPMMigrationTable interface, Validate,IGPMMigrationTable.Validate, gpmc.igpmmigrationtable_validate, gpmgmt/IGPMMigrationTable::Validate
+ms.keywords: GPMMigrationTable class [GPMC],Validate method, IGPMMigrationTable interface [GPMC],Validate method, IGPMMigrationTable.Validate, IGPMMigrationTable::Validate, Validate, Validate method [GPMC], Validate method [GPMC],GPMMigrationTable class, Validate method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_validate, gpmgmt/IGPMMigrationTable::Validate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMMigrationTable::Validate method
+# IGPMMigrationTable::Validate
 
 
 ## -description

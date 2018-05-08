@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.ClearHmenuProps
-title: IAccPropServices::ClearHmenuProps method
+title: IAccPropServices::ClearHmenuProps
 author: windows-driver-content
 description: This method wraps ClearProps, and provides a convenient entry point for callers who are annotating HMENU-based accessible elements.
 old-location: winauto\iaccpropservices_iaccpropservices__clearhmenuprops.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: dbff74b0-c67b-4ef4-add7-6063c4760455
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ClearHmenuProps method [Windows Accessibility], ClearHmenuProps method [Windows Accessibility], IAccPropServices interface, ClearHmenuProps,IAccPropServices.ClearHmenuProps, IAccPropServices, IAccPropServices interface [Windows Accessibility], ClearHmenuProps method, IAccPropServices::ClearHmenuProps, oleacc/IAccPropServices::ClearHmenuProps, winauto.iaccpropservices_iaccpropservices__clearhmenuprops
+ms.keywords: ClearHmenuProps, ClearHmenuProps method [Windows Accessibility], ClearHmenuProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearHmenuProps method, IAccPropServices.ClearHmenuProps, IAccPropServices::ClearHmenuProps, oleacc/IAccPropServices::ClearHmenuProps, winauto.iaccpropservices_iaccpropservices__clearhmenuprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccPropServices::ClearHmenuProps method
+# IAccPropServices::ClearHmenuProps
 
 
 ## -description

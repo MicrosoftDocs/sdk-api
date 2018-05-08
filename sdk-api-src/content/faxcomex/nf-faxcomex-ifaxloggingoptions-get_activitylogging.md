@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxLoggingOptions.get_ActivityLogging
-title: IFaxLoggingOptions::get_ActivityLogging method
+title: IFaxLoggingOptions::get_ActivityLogging
 author: windows-driver-content
 description: The ActivityLogging property retrieves the FaxActivityLogging configuration object.
 old-location: fax\_mfax_faxloggingoptions_activitylogging_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0mav.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ActivityLogging property [Fax Service], ActivityLogging property [Fax Service], FaxLoggingOptions object, FaxLoggingOptions object [Fax Service], ActivityLogging property, IFaxLoggingOptions, IFaxLoggingOptions::get_ActivityLogging, _mfax_faxloggingoptions.activitylogging, fax._mfax_faxloggingoptions_activitylogging, fax._mfax_faxloggingoptions_activitylogging_vb, get_ActivityLogging,IFaxLoggingOptions.get_ActivityLogging
+ms.keywords: ActivityLogging property [Fax Service], ActivityLogging property [Fax Service],FaxLoggingOptions object, FaxLoggingOptions object [Fax Service],ActivityLogging property, FaxLoggingOptions.ActivityLogging, IFaxLoggingOptions.get_ActivityLogging, IFaxLoggingOptions::get_ActivityLogging, _mfax_faxloggingoptions.activitylogging, fax._mfax_faxloggingoptions_activitylogging, fax._mfax_faxloggingoptions_activitylogging_vb, get_ActivityLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxLoggingOptions::get_ActivityLogging method
+# IFaxLoggingOptions::get_ActivityLogging
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IVideoWindow.get_Visible
-title: IVideoWindow::get_Visible method
+title: IVideoWindow::get_Visible
 author: windows-driver-content
 description: The get_Visible method queries whether the video window is visible.
 old-location: dshow\ivideowindow_get_visible.htm
 old-project: DirectShow
 ms.assetid: b533398e-80f6-4f33-982b-93b8e0d705e9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], get_Visible method, IVideoWindow::get_Visible, IVideoWindowget_Visible, control/IVideoWindow::get_Visible, dshow.ivideowindow_get_visible, get_Visible method [DirectShow], get_Visible method [DirectShow], IVideoWindow interface, get_Visible,IVideoWindow.get_Visible
+ms.date: 4/30/2018
+ms.keywords: IVideoWindow interface [DirectShow],get_Visible method, IVideoWindow.get_Visible, IVideoWindow::get_Visible, IVideoWindowget_Visible, control/IVideoWindow::get_Visible, dshow.ivideowindow_get_visible, get_Visible, get_Visible method [DirectShow], get_Visible method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IVideoWindow::get_Visible method
+# IVideoWindow::get_Visible
 
 
 ## -description

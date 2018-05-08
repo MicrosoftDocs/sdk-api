@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistFile.IsDirty
-title: IPersistFile::IsDirty method
+title: IPersistFile::IsDirty
 author: windows-driver-content
 description: Determines whether an object has changed since it was last saved to its current file.
 old-location: com\ipersistfile_isdirty.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 4f3df841-d7fe-472e-a13c-124fdf425a35
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPersistFile, IPersistFile interface [COM], IsDirty method, IPersistFile::IsDirty, IsDirty method [COM], IsDirty method [COM], IPersistFile interface, IsDirty,IPersistFile.IsDirty, _com_ipersistfile_isdirty, com.ipersistfile_isdirty, objidl/IPersistFile::IsDirty
+ms.keywords: IPersistFile interface [COM],IsDirty method, IPersistFile.IsDirty, IPersistFile::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistFile interface, _com_ipersistfile_isdirty, com.ipersistfile_isdirty, objidl/IPersistFile::IsDirty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistFile::IsDirty method
+# IPersistFile::IsDirty
 
 
 ## -description

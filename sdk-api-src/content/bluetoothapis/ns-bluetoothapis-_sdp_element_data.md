@@ -94,86 +94,72 @@ Specific type of SDP element, used to further specify generic element types.
 ### -field data
 
 
-
-#### int128
+### -field data.int128
 
 Value for type equals SDP_TYPE_INT, value for <b>specificType</b> equals SDP_ST_INT128.
 
 
-
-#### int64
+### -field data.int64
 
 Value for type equals SDP_TYPE_INT, value for <b>specificType</b> equals SDP_ST_INT64.
 
 
-
-#### int32
+### -field data.int32
 
 Value for type equals SDP_TYPE_INT, value for <b>specificType</b> equals SDP_ST_INT32.
 
 
-
-#### int16
+### -field data.int16
 
 Value for type equals SDP_TYPE_INT, value for <b>specificType</b> equals SDP_ST_INT16.
 
 
-
-#### int8
+### -field data.int8
 
 Value for type equals SDP_TYPE_INT, value for <b>specificType</b> equals SDP_ST_INT8.
 
 
-
-#### uint128
+### -field data.uint128
 
 Value for type equals SDP_TYPE_UINT, value for <b>specificType</b> equals SDP_ST_UINT128.
 
 
-
-#### uint64
+### -field data.uint64
 
 Value for type equals SDP_TYPE_UINT, value for <b>specificType</b> equals SDP_ST_UINT64.
 
 
-
-#### uint32
+### -field data.uint32
 
 Value for type equals SDP_TYPE_UINT, value for <b>specificType</b> equals SDP_ST_UINT32.
 
 
-
-#### uint16
+### -field data.uint16
 
 Value for type equals SDP_TYPE_UINT, value for <b>specificType</b> equals SDP_ST_UINT16.
 
 
-
-#### uint8
+### -field data.uint8
 
 Value for type equals SDP_TYPE_UINT, value for <b>specificType</b> equals SDP_ST_UINT8.
 
 
-
-#### booleanVal
+### -field data.booleanVal
 
 Value for type equals SDP_TYPE_BOOLEAN.
 
 
-
-#### uuid128
+### -field data.uuid128
 
 Value for type equals SDP_TYPE_UUID, value for <b>specificType</b> equals SDP_ST_UUID128.
 
 
-
-#### uuid32
+### -field data.uuid32
 
 Value for type equals SDP_TYPE_UUID, value for <b>specificType</b> equals SDP_ST_UUID32.
 
 
-
-#### uuid16
+### -field data.uuid16
 
 Value for type equals SDP_TYPE_UUID, value for <b>specificType</b> equals SDP_ST_UUID16.
 

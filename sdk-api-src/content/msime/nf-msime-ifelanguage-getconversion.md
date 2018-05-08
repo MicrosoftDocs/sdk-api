@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFELanguage.GetConversion
-title: IFELanguage::GetConversion method
+title: IFELanguage::GetConversion
 author: windows-driver-content
 description: Converts the input string (which usually contains the Hiragana character) to converted strings.
 old-location: intl\ifelanguage_getconversion.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: A1FA36C7-6A1A-4B08-BA29-7F7C8FE8DF16
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetConversion method [Internationalization for Windows Applications], GetConversion method [Internationalization for Windows Applications], IFELanguage interface, GetConversion,IFELanguage.GetConversion, IFELanguage, IFELanguage interface [Internationalization for Windows Applications], GetConversion method, IFELanguage::GetConversion, intl.ifelanguage_getconversion, msime/IFELanguage::GetConversion
+ms.keywords: GetConversion, GetConversion method [Internationalization for Windows Applications], GetConversion method [Internationalization for Windows Applications],IFELanguage interface, IFELanguage interface [Internationalization for Windows Applications],GetConversion method, IFELanguage.GetConversion, IFELanguage::GetConversion, intl.ifelanguage_getconversion, msime/IFELanguage::GetConversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFELanguage::GetConversion method
+# IFELanguage::GetConversion
 
 
 ## -description

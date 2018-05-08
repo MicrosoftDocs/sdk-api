@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkAdded
-title: INetworkEvents::NetworkAdded method
+title: INetworkEvents::NetworkAdded
 author: windows-driver-content
 description: The NetworkAdded method is called when a new network is added. The GUID of the new network is provided.
 old-location: nla\inetworkevents_networkadded.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 2fda364e-ad6a-447a-ba0c-25e5d52ef5c5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetworkEvents, INetworkEvents interface [Network Awareness], NetworkAdded method, INetworkEvents::NetworkAdded, NetworkAdded method [Network Awareness], NetworkAdded method [Network Awareness], INetworkEvents interface, NetworkAdded,INetworkEvents.NetworkAdded, netlistmgr/INetworkEvents::NetworkAdded, nla.inetworkevents_networkadded
+ms.keywords: INetworkEvents interface [Network Awareness],NetworkAdded method, INetworkEvents.NetworkAdded, INetworkEvents::NetworkAdded, NetworkAdded, NetworkAdded method [Network Awareness], NetworkAdded method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkAdded, nla.inetworkevents_networkadded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkEvents::NetworkAdded method
+# INetworkEvents::NetworkAdded
 
 
 ## -description

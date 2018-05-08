@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetTrackerDataAsCollectionObject
-title: IGetAppTrackerData::GetTrackerDataAsCollectionObject method
+title: IGetAppTrackerData::GetTrackerDataAsCollectionObject
 author: windows-driver-content
 description: Retrieves tracking data for all COM+ applications in the form of a collection object.
 old-location: cos\igetapptrackerdata_gettrackerdataascollectionobject.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 215523ad-5f18-4529-8b23-afbd1b738fb5
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetTrackerDataAsCollectionObject method [COM+], GetTrackerDataAsCollectionObject method [COM+], IGetAppTrackerData interface, GetTrackerDataAsCollectionObject,IGetAppTrackerData.GetTrackerDataAsCollectionObject, IGetAppTrackerData, IGetAppTrackerData interface [COM+], GetTrackerDataAsCollectionObject method, IGetAppTrackerData::GetTrackerDataAsCollectionObject, comsvcs/IGetAppTrackerData::GetTrackerDataAsCollectionObject, cos.igetapptrackerdata_gettrackerdataascollectionobject
+ms.keywords: GetTrackerDataAsCollectionObject, GetTrackerDataAsCollectionObject method [COM+], GetTrackerDataAsCollectionObject method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetTrackerDataAsCollectionObject method, IGetAppTrackerData.GetTrackerDataAsCollectionObject, IGetAppTrackerData::GetTrackerDataAsCollectionObject, comsvcs/IGetAppTrackerData::GetTrackerDataAsCollectionObject, cos.igetapptrackerdata_gettrackerdataascollectionobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetAppTrackerData::GetTrackerDataAsCollectionObject method
+# IGetAppTrackerData::GetTrackerDataAsCollectionObject
 
 
 ## -description

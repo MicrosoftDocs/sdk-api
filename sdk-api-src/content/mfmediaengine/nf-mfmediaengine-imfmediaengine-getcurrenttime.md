@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetCurrentTime
-title: IMFMediaEngine::GetCurrentTime method
+title: IMFMediaEngine::GetCurrentTime
 author: windows-driver-content
 description: Gets the current playback position.
 old-location: mf\imfmediaengine_getcurrenttime.htm
 old-project: medfound
 ms.assetid: 49FA2383-8AEC-4DDF-8998-25987EEC8223
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetCurrentTime method [Media Foundation], GetCurrentTime method [Media Foundation], IMFMediaEngine interface, GetCurrentTime,IMFMediaEngine.GetCurrentTime, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetCurrentTime method, IMFMediaEngine::GetCurrentTime, mf.imfmediaengine_getcurrenttime, mfmediaengine/IMFMediaEngine::GetCurrentTime
+ms.date: 5/3/2018
+ms.keywords: GetCurrentTime, GetCurrentTime method [Media Foundation], GetCurrentTime method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetCurrentTime method, IMFMediaEngine.GetCurrentTime, IMFMediaEngine::GetCurrentTime, mf.imfmediaengine_getcurrenttime, mfmediaengine/IMFMediaEngine::GetCurrentTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::GetCurrentTime method
+# IMFMediaEngine::GetCurrentTime
 
 
 ## -description

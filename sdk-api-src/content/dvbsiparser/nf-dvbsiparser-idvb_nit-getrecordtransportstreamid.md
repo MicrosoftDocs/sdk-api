@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetRecordTransportStreamId
-title: IDVB_NIT::GetRecordTransportStreamId method
+title: IDVB_NIT::GetRecordTransportStreamId
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_getrecordtransportstreamid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ed2b9fcc-fd7d-4477-9ff5-cbb7912eac26
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies], IDVB_NIT interface, GetRecordTransportStreamId,IDVB_NIT.GetRecordTransportStreamId, IDVB_NIT, IDVB_NIT interface [Microsoft TV Technologies], GetRecordTransportStreamId method, IDVB_NIT::GetRecordTransportStreamId, IDVB_NITGetRecordTransportStreamId, dvbsiparser/IDVB_NIT::GetRecordTransportStreamId, mstv.idvb_nit_getrecordtransportstreamid
+ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetRecordTransportStreamId method, IDVB_NIT.GetRecordTransportStreamId, IDVB_NIT::GetRecordTransportStreamId, IDVB_NITGetRecordTransportStreamId, dvbsiparser/IDVB_NIT::GetRecordTransportStreamId, mstv.idvb_nit_getrecordtransportstreamid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_NIT::GetRecordTransportStreamId method
+# IDVB_NIT::GetRecordTransportStreamId
 
 
 ## -description

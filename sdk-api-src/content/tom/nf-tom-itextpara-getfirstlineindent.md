@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetFirstLineIndent
-title: ITextPara::GetFirstLineIndent method
+title: ITextPara::GetFirstLineIndent
 author: windows-driver-content
 description: Retrieves the amount used to indent the first line of a paragraph relative to the left indent. The left indent is the indent for all lines of the paragraph except the first line.
 old-location: controls\ITextPara_GetFirstLineIndent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getfirstlineindent.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetFirstLineIndent method [Windows Controls], GetFirstLineIndent method [Windows Controls], ITextPara interface, GetFirstLineIndent,ITextPara.GetFirstLineIndent, ITextPara, ITextPara interface [Windows Controls], GetFirstLineIndent method, ITextPara::GetFirstLineIndent, _win32_ITextPara_GetFirstLineIndent, _win32_ITextPara_GetFirstLineIndent_cpp, controls.ITextPara_GetFirstLineIndent, controls._win32_ITextPara_GetFirstLineIndent, tom/ITextPara::GetFirstLineIndent
+ms.date: 4/27/2018
+ms.keywords: GetFirstLineIndent, GetFirstLineIndent method [Windows Controls], GetFirstLineIndent method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetFirstLineIndent method, ITextPara.GetFirstLineIndent, ITextPara::GetFirstLineIndent, _win32_ITextPara_GetFirstLineIndent, _win32_ITextPara_GetFirstLineIndent_cpp, controls.ITextPara_GetFirstLineIndent, controls._win32_ITextPara_GetFirstLineIndent, tom/ITextPara::GetFirstLineIndent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetFirstLineIndent method
+# ITextPara::GetFirstLineIndent
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.ITravelLog.FindTravelEntry
-title: ITravelLog::FindTravelEntry method
+title: ITravelLog::FindTravelEntry
 author: windows-driver-content
 description: Deprecated. Determines whether a specific travel entry is present in the travel log.
 old-location: shell\ITravelLog_FindTravelEntry.htm
 old-project: shell
 ms.assetid: 128627f3-c010-4b8e-b067-fdc1eed346e4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: FindTravelEntry method [Windows Shell], FindTravelEntry method [Windows Shell], ITravelLog interface, FindTravelEntry,ITravelLog.FindTravelEntry, ITravelLog, ITravelLog interface [Windows Shell], FindTravelEntry method, ITravelLog::FindTravelEntry, shdeprecated/ITravelLog::FindTravelEntry, shell.ITravelLog_FindTravelEntry, zone_ITravelLog_FindTravelEntry
+ms.date: 5/3/2018
+ms.keywords: FindTravelEntry, FindTravelEntry method [Windows Shell], FindTravelEntry method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],FindTravelEntry method, ITravelLog.FindTravelEntry, ITravelLog::FindTravelEntry, shdeprecated/ITravelLog::FindTravelEntry, shell.ITravelLog_FindTravelEntry, zone_ITravelLog_FindTravelEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# ITravelLog::FindTravelEntry method
+# ITravelLog::FindTravelEntry
 
 
 ## -description

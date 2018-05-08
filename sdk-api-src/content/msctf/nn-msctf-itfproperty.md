@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 72bd92f9-d82e-4994-82ad-0989e987903b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfProperty, ITfProperty interface [Text Services Framework], ITfProperty interface [Text Services Framework], described, _tsf_itfproperty_ref, msctf/ITfProperty, tsf.itfproperty
+ms.keywords: ITfProperty, ITfProperty interface [Text Services Framework], ITfProperty interface [Text Services Framework],described, _tsf_itfproperty_ref, msctf/ITfProperty, tsf.itfproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

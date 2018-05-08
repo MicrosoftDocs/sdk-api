@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevice.put_Authorization
-title: IWindowsMediaLibrarySharingDevice::put_Authorization method
+title: IWindowsMediaLibrarySharingDevice::put_Authorization
 author: windows-driver-content
 description: The put_Authorization method authorizes or unauthorizes the device to have access to the current user's media library.
 old-location: wmlss\IWMLSDeviceput_Authorization.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: 26ac8f24-d212-4558-a66e-ffe5e90bd73b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingDevice, IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services], put_Authorization method, IWindowsMediaLibrarySharingDevice::put_Authorization, put_Authorization method [Windows Media Library Sharing Services], put_Authorization method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDevice interface, put_Authorization,IWindowsMediaLibrarySharingDevice.put_Authorization, wmlss.IWMLSDeviceput_Authorization, wmlss/IWindowsMediaLibrarySharingDevice::put_Authorization
+ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],put_Authorization method, IWindowsMediaLibrarySharingDevice.put_Authorization, IWindowsMediaLibrarySharingDevice::put_Authorization, put_Authorization, put_Authorization method [Windows Media Library Sharing Services], put_Authorization method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevice interface, wmlss.IWMLSDeviceput_Authorization, wmlss/IWindowsMediaLibrarySharingDevice::put_Authorization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingDevice::put_Authorization method
+# IWindowsMediaLibrarySharingDevice::put_Authorization
 
 
 ## -description

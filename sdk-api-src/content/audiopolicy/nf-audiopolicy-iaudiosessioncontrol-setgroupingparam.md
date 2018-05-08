@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.SetGroupingParam
-title: IAudioSessionControl::SetGroupingParam method
+title: IAudioSessionControl::SetGroupingParam
 author: windows-driver-content
 description: The SetGroupingParam method assigns a session to a grouping of sessions.
 old-location: coreaudio\iaudiosessioncontrol_setgroupingparam.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 990bebd9-c37d-4f72-b349-a43a074d8992
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioSessionControl, IAudioSessionControl interface [Core Audio], SetGroupingParam method, IAudioSessionControl::SetGroupingParam, IAudioSessionControlSetGroupingParam, SetGroupingParam method [Core Audio], SetGroupingParam method [Core Audio], IAudioSessionControl interface, SetGroupingParam,IAudioSessionControl.SetGroupingParam, audiopolicy/IAudioSessionControl::SetGroupingParam, coreaudio.iaudiosessioncontrol_setgroupingparam
+ms.keywords: IAudioSessionControl interface [Core Audio],SetGroupingParam method, IAudioSessionControl.SetGroupingParam, IAudioSessionControl::SetGroupingParam, IAudioSessionControlSetGroupingParam, SetGroupingParam, SetGroupingParam method [Core Audio], SetGroupingParam method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::SetGroupingParam, coreaudio.iaudiosessioncontrol_setgroupingparam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionControl::SetGroupingParam method
+# IAudioSessionControl::SetGroupingParam
 
 
 ## -description

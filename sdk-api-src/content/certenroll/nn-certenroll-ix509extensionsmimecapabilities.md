@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 06dca62d-282b-4bdd-bc8d-4d2e6eb226b5
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionSmimeCapabilities, IX509ExtensionSmimeCapabilities interface [Security], IX509ExtensionSmimeCapabilities interface [Security], described, certenroll/IX509ExtensionSmimeCapabilities, security.ix509extensionsmimecapabilities
+ms.keywords: IX509ExtensionSmimeCapabilities, IX509ExtensionSmimeCapabilities interface [Security], IX509ExtensionSmimeCapabilities interface [Security],described, certenroll/IX509ExtensionSmimeCapabilities, security.ix509extensionsmimecapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

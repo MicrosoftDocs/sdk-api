@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_Revoked
-title: IRDPSRAPIInvitation::get_Revoked method
+title: IRDPSRAPIInvitation::get_Revoked
 author: windows-driver-content
 description: The revoked state of the invitation.
 old-location: rdp\irdpsrapiinvitation_revoked.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: a5a2d1a4-a51b-4fd4-b79c-3381f296d072
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIInvitation, IRDPSRAPIInvitation interface [RDP], Revoked property, IRDPSRAPIInvitation.Revoked, IRDPSRAPIInvitation::get_Revoked, IRDPSRAPIInvitation::put_Revoked, RDPSRAPIInvitation object [RDP], Revoked property, Revoked property [RDP], Revoked property [RDP], IRDPSRAPIInvitation interface, Revoked property [RDP], RDPSRAPIInvitation object, get_Revoked,IRDPSRAPIInvitation.get_Revoked, rdp.irdpsrapiinvitation_revoked, rdpencomapi/IRDPSRAPIInvitation::Revoked, rdpencomapi/IRDPSRAPIInvitation::get_Revoked, rdpencomapi/IRDPSRAPIInvitation::put_Revoked
+ms.keywords: IRDPSRAPIInvitation interface [RDP],Revoked property, IRDPSRAPIInvitation.Revoked, IRDPSRAPIInvitation.get_Revoked, IRDPSRAPIInvitation::Revoked, IRDPSRAPIInvitation::get_Revoked, IRDPSRAPIInvitation::put_Revoked, RDPSRAPIInvitation object [RDP],Revoked property, Revoked property [RDP], Revoked property [RDP],IRDPSRAPIInvitation interface, Revoked property [RDP],RDPSRAPIInvitation object, get_Revoked, rdp.irdpsrapiinvitation_revoked, rdpencomapi/IRDPSRAPIInvitation::Revoked, rdpencomapi/IRDPSRAPIInvitation::get_Revoked, rdpencomapi/IRDPSRAPIInvitation::put_Revoked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIInvitation::get_Revoked method
+# IRDPSRAPIInvitation::get_Revoked
 
 
 ## -description

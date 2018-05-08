@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.DirectoryCreated
-title: IPhotoAcquireProgressCB::DirectoryCreated method
+title: IPhotoAcquireProgressCB::DirectoryCreated
 author: windows-driver-content
 description: The DirectoryCreated method provides extended functionality when a destination directory is created during the acquisition process. The application provides the implementation of the DirectoryCreated method.
 old-location: picacq\iphotoacquireprogresscb_directorycreated.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: c784750c-3f73-4ebb-ad38-cc05aada0fca
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DirectoryCreated method [Picture Acquisition], DirectoryCreated method [Picture Acquisition], IPhotoAcquireProgressCB interface, DirectoryCreated,IPhotoAcquireProgressCB.DirectoryCreated, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], DirectoryCreated method, IPhotoAcquireProgressCB::DirectoryCreated, IPhotoAcquireProgressCBDirectoryCreated, photoacquire/IPhotoAcquireProgressCB::DirectoryCreated, picacq.iphotoacquireprogresscb_directorycreated
+ms.keywords: DirectoryCreated, DirectoryCreated method [Picture Acquisition], DirectoryCreated method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],DirectoryCreated method, IPhotoAcquireProgressCB.DirectoryCreated, IPhotoAcquireProgressCB::DirectoryCreated, IPhotoAcquireProgressCBDirectoryCreated, photoacquire/IPhotoAcquireProgressCB::DirectoryCreated, picacq.iphotoacquireprogresscb_directorycreated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireProgressCB::DirectoryCreated method
+# IPhotoAcquireProgressCB::DirectoryCreated
 
 
 ## -description

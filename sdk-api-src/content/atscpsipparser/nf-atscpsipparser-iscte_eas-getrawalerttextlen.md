@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawAlertTextLen
-title: ISCTE_EAS::GetRawAlertTextLen method
+title: ISCTE_EAS::GetRawAlertTextLen
 author: windows-driver-content
 description: Gets the length of the alert_text field.
 old-location: mstv\iscte_eas_getrawalerttextlen.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e85b1deb-6e93-4187-8a18-80740ce9e4c9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRawAlertTextLen method [Microsoft TV Technologies], GetRawAlertTextLen method [Microsoft TV Technologies], ISCTE_EAS interface, GetRawAlertTextLen,ISCTE_EAS.GetRawAlertTextLen, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetRawAlertTextLen method, ISCTE_EAS::GetRawAlertTextLen, atscpsipparser/ISCTE_EAS::GetRawAlertTextLen, mstv.iscte_eas_getrawalerttextlen
+ms.keywords: GetRawAlertTextLen, GetRawAlertTextLen method [Microsoft TV Technologies], GetRawAlertTextLen method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawAlertTextLen method, ISCTE_EAS.GetRawAlertTextLen, ISCTE_EAS::GetRawAlertTextLen, atscpsipparser/ISCTE_EAS::GetRawAlertTextLen, mstv.iscte_eas_getrawalerttextlen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetRawAlertTextLen method
+# ISCTE_EAS::GetRawAlertTextLen
 
 
 ## -description

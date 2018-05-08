@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetQueryHelper
-title: ISearchCatalogManager::GetQueryHelper method
+title: ISearchCatalogManager::GetQueryHelper
 author: windows-driver-content
 description: Gets the ISearchQueryHelper interface for the current catalog.
 old-location: search\_search_ISearchCatalogManager_GetQueryHelper.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getqueryhelper.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetQueryHelper method [search], GetQueryHelper method [search], ISearchCatalogManager interface, GetQueryHelper,ISearchCatalogManager.GetQueryHelper, ISearchCatalogManager, ISearchCatalogManager interface [search], GetQueryHelper method, ISearchCatalogManager::GetQueryHelper, _search_ISearchCatalogManager_GetQueryHelper, search._search_ISearchCatalogManager_GetQueryHelper, searchapi/ISearchCatalogManager::GetQueryHelper
+ms.date: 5/4/2018
+ms.keywords: GetQueryHelper, GetQueryHelper method [search], GetQueryHelper method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetQueryHelper method, ISearchCatalogManager.GetQueryHelper, ISearchCatalogManager::GetQueryHelper, _search_ISearchCatalogManager_GetQueryHelper, search._search_ISearchCatalogManager_GetQueryHelper, searchapi/ISearchCatalogManager::GetQueryHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::GetQueryHelper method
+# ISearchCatalogManager::GetQueryHelper
 
 
 ## -description

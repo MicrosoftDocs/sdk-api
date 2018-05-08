@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestMainPackageDependency.GetName
-title: IAppxManifestMainPackageDependency::GetName method
+title: IAppxManifestMainPackageDependency::GetName
 author: windows-driver-content
 description: Gets the name of the main package dependency from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifestmainpackagedependency_getname.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 0D891C01-F149-4BF0-99E7-E2AAD6D781AD
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetName method [App packaging and management], GetName method [App packaging and management], IAppxManifestMainPackageDependency interface, GetName,IAppxManifestMainPackageDependency.GetName, IAppxManifestMainPackageDependency, IAppxManifestMainPackageDependency interface [App packaging and management], GetName method, IAppxManifestMainPackageDependency::GetName, appxpackaging/IAppxManifestMainPackageDependency::GetName, appxpkg.iappxmanifestmainpackagedependency_getname
+ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxManifestMainPackageDependency interface, IAppxManifestMainPackageDependency interface [App packaging and management],GetName method, IAppxManifestMainPackageDependency.GetName, IAppxManifestMainPackageDependency::GetName, appxpackaging/IAppxManifestMainPackageDependency::GetName, appxpkg.iappxmanifestmainpackagedependency_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestMainPackageDependency::GetName method
+# IAppxManifestMainPackageDependency::GetName
 
 
 ## -description

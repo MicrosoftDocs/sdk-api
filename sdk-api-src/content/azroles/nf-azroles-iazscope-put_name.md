@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.put_Name
-title: IAzScope::put_Name method
+title: IAzScope::put_Name
 author: windows-driver-content
 description: Sets or retrieves the name of the scope.
 old-location: security\iazscope_name.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 66c5722a-5217-4e77-b14f-f9cfa4e030c0
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzScope object [Security], Name property, IAzScope, IAzScope interface [Security], Name property, IAzScope.Name, IAzScope::get_Name, IAzScope::put_Name, Name property [Security], Name property [Security], AzScope object, Name property [Security], IAzScope interface, azroles/IAzScope::Name, azroles/IAzScope::get_Name, azroles/IAzScope::put_Name, put_Name,IAzScope.put_Name, security.iazscope_name
+ms.keywords: AzScope object [Security],Name property, IAzScope interface [Security],Name property, IAzScope.Name, IAzScope.put_Name, IAzScope::Name, IAzScope::get_Name, IAzScope::put_Name, Name property [Security], Name property [Security],AzScope object, Name property [Security],IAzScope interface, azroles/IAzScope::Name, azroles/IAzScope::get_Name, azroles/IAzScope::put_Name, put_Name, security.iazscope_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope::put_Name method
+# IAzScope::put_Name
 
 
 ## -description

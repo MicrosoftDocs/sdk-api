@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObject.get_SecurityDescriptor
-title: ITDirectoryObject::get_SecurityDescriptor method
+title: ITDirectoryObject::get_SecurityDescriptor
 author: windows-driver-content
 description: The get_SecurityDescriptor method gets an IDispatch pointer on a directory service security descriptor object describing current security permissions.
 old-location: tapi3\itdirectoryobject_get_securitydescriptor.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 746367e1-4319-4903-843f-7a25d60f4223
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITDirectoryObject, ITDirectoryObject interface [TAPI 2.2], get_SecurityDescriptor method, ITDirectoryObject::get_SecurityDescriptor, _tapi3_itdirectoryobject_get_securitydescriptor, get_SecurityDescriptor method [TAPI 2.2], get_SecurityDescriptor method [TAPI 2.2], ITDirectoryObject interface, get_SecurityDescriptor,ITDirectoryObject.get_SecurityDescriptor, rend/ITDirectoryObject::get_SecurityDescriptor, tapi3.itdirectoryobject_get_securitydescriptor
+ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_SecurityDescriptor method, ITDirectoryObject.get_SecurityDescriptor, ITDirectoryObject::get_SecurityDescriptor, _tapi3_itdirectoryobject_get_securitydescriptor, get_SecurityDescriptor, get_SecurityDescriptor method [TAPI 2.2], get_SecurityDescriptor method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_SecurityDescriptor, tapi3.itdirectoryobject_get_securitydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectoryObject::get_SecurityDescriptor method
+# ITDirectoryObject::get_SecurityDescriptor
 
 
 ## -description

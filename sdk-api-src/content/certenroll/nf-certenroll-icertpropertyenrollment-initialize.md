@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.Initialize
-title: ICertPropertyEnrollment::Initialize method
+title: ICertPropertyEnrollment::Initialize
 author: windows-driver-content
 description: Initializes the property from the certificate request ID, the certification authority (CA) configuration string, and an optional certificate display name.
 old-location: security\icertpropertyenrollment_initialize_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 47e9b11f-3f23-4e2f-817a-4b6311e3d710
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyEnrollment, ICertPropertyEnrollment interface [Security], Initialize method, ICertPropertyEnrollment::Initialize, Initialize method [Security], Initialize method [Security], ICertPropertyEnrollment interface, Initialize,ICertPropertyEnrollment.Initialize, certenroll/ICertPropertyEnrollment::Initialize, security.icertpropertyenrollment_initialize_method
+ms.keywords: ICertPropertyEnrollment interface [Security],Initialize method, ICertPropertyEnrollment.Initialize, ICertPropertyEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyEnrollment interface, certenroll/ICertPropertyEnrollment::Initialize, security.icertpropertyenrollment_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyEnrollment::Initialize method
+# ICertPropertyEnrollment::Initialize
 
 
 ## -description

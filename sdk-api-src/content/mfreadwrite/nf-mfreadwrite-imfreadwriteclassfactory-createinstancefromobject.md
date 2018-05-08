@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFReadWriteClassFactory.CreateInstanceFromObject
-title: IMFReadWriteClassFactory::CreateInstanceFromObject method
+title: IMFReadWriteClassFactory::CreateInstanceFromObject
 author: windows-driver-content
 description: Creates an instance of the sink writer or source reader, given an IUnknown pointer.
 old-location: mf\imfreadwriteclassfactory_createinstancefromobject.htm
 old-project: medfound
 ms.assetid: 5da582c2-37f9-47ee-b8ea-d21f1323f1df
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromObject method [Media Foundation], CreateInstanceFromObject method [Media Foundation], IMFReadWriteClassFactory interface, CreateInstanceFromObject,IMFReadWriteClassFactory.CreateInstanceFromObject, IMFByteStream, IMFMediaSink, IMFMediaSource, IMFReadWriteClassFactory, IMFReadWriteClassFactory interface [Media Foundation], CreateInstanceFromObject method, IMFReadWriteClassFactory::CreateInstanceFromObject, mf.imfreadwriteclassfactory_createinstancefromobject, mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromObject
+ms.date: 5/3/2018
+ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromObject, CreateInstanceFromObject method [Media Foundation], CreateInstanceFromObject method [Media Foundation],IMFReadWriteClassFactory interface, IMFByteStream, IMFMediaSink, IMFMediaSource, IMFReadWriteClassFactory interface [Media Foundation],CreateInstanceFromObject method, IMFReadWriteClassFactory.CreateInstanceFromObject, IMFReadWriteClassFactory::CreateInstanceFromObject, mf.imfreadwriteclassfactory_createinstancefromobject, mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFReadWriteClassFactory::CreateInstanceFromObject method
+# IMFReadWriteClassFactory::CreateInstanceFromObject
 
 
 ## -description

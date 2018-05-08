@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsAccessControlList.AddAce
-title: IADsAccessControlList::AddAce method
+title: IADsAccessControlList::AddAce
 author: windows-driver-content
 description: The IADsAccessControlList::AddAce method adds an IADsAccessControlEntry object to the IADsAccessControlList object.
 old-location: adsi\iadsaccesscontrollist_addace.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 663be55a-29d6-4a8a-adf2-024762413fc3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddAce method [ADSI], AddAce method [ADSI], IADsAccessControlList interface, AddAce,IADsAccessControlList.AddAce, IADsAccessControlList, IADsAccessControlList interface [ADSI], AddAce method, IADsAccessControlList::AddAce, _ds_iadsaccesscontrollist_addace, adsi.iadsaccesscontrollist__addace, adsi.iadsaccesscontrollist_addace, iads/IADsAccessControlList::AddAce
+ms.keywords: AddAce, AddAce method [ADSI], AddAce method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],AddAce method, IADsAccessControlList.AddAce, IADsAccessControlList::AddAce, _ds_iadsaccesscontrollist_addace, adsi.iadsaccesscontrollist__addace, adsi.iadsaccesscontrollist_addace, iads/IADsAccessControlList::AddAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsAccessControlList::AddAce method
+# IADsAccessControlList::AddAce
 
 
 ## -description

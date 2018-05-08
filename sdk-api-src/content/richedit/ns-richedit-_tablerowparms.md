@@ -7,7 +7,7 @@ old-location: controls\tablerowparms.htm
 old-project: Controls
 ms.assetid: 8b538d72-1210-4344-b673-592ef9a8cc85
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: PFA_CENTER, PFA_LEFT, PFA_RIGHT, TABLEROWPARMS, TABLEROWPARMS structure [Windows Controls], _tableRowParms, controls.tablerowparms, richedit/TABLEROWPARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices

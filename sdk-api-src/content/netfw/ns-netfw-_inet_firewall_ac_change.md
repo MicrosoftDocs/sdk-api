@@ -7,7 +7,7 @@ old-location: ics\inet_firewall_ac_change.htm
 old-project: ICS
 ms.assetid: b5f1b85d-3538-4be3-b97b-f9207cc7063b
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: "*PINET_FIREWALL_AC_CHANGE, INET_FIREWALL_AC_CHANGE, INET_FIREWALL_AC_CHANGE structure [ICS/ICF], PINET_FIREWALL_AC_CHANGE, PINET_FIREWALL_AC_CHANGE structure pointer [ICS/ICF], _INET_FIREWALL_AC_BINARIES, _INET_FIREWALL_AC_CHANGE, ics.inet_firewall_ac_change, networkisolation/INET_FIREWALL_AC_CHANGE, networkisolation/PINET_FIREWALL_AC_CHANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,18 +93,18 @@ Type: <b>LPWSTR</b>
 Friendly name of the app container.
 
 
-#### - binaries
-
-Type: <b><a href="https://msdn.microsoft.com/5403303e-e65c-47cf-af84-3d748db8661b">INET_FIREWALL_AC_BINARIES</a></b>
-
-Binary paths to the applications running in the changed app container.
-
-
-#### - capabilities
+### -field capabilities
 
 Type: <b><a href="https://msdn.microsoft.com/37386225-0c64-49c0-a21c-cecd8bdb1f1f">INET_FIREWALL_AC_CAPABILITIES</a></b>
 
 Information about the capabilities of the changed app container.
+
+
+### -field binaries
+
+Type: <b><a href="https://msdn.microsoft.com/5403303e-e65c-47cf-af84-3d748db8661b">INET_FIREWALL_AC_BINARIES</a></b>
+
+Binary paths to the applications running in the changed app container.
 
 
 ## -see-also

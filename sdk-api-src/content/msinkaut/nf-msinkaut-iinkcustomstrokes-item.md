@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.Item
-title: IInkCustomStrokes::Item method
+title: IInkCustomStrokes::Item
 author: windows-driver-content
 description: Retrieves the InkStrokes Collection at the location specified within the IInkCustomStrokes Interface.
 old-location: tablet\iinkcustomstrokes_item.htm
 old-project: tablet
 ms.assetid: 14cdc466-2acf-4af0-8fbc-74233edf3884
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 14cdc466-2acf-4af0-8fbc-74233edf3884, IInkCustomStrokes, IInkCustomStrokes interface [Tablet PC], Item method, IInkCustomStrokes::Item, Item method [Tablet PC], Item method [Tablet PC], IInkCustomStrokes interface, Item,IInkCustomStrokes.Item, msinkaut/IInkCustomStrokes::Item, tablet.iinkcustomstrokes_item
+ms.date: 5/2/2018
+ms.keywords: 14cdc466-2acf-4af0-8fbc-74233edf3884, IInkCustomStrokes interface [Tablet PC],Item method, IInkCustomStrokes.Item, IInkCustomStrokes::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCustomStrokes interface, msinkaut/IInkCustomStrokes::Item, tablet.iinkcustomstrokes_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkCustomStrokes::Item method
+# IInkCustomStrokes::Item
 
 
 ## -description

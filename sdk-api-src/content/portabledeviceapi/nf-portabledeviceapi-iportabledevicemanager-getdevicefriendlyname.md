@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDeviceFriendlyName
-title: IPortableDeviceManager::GetDeviceFriendlyName method
+title: IPortableDeviceManager::GetDeviceFriendlyName
 author: windows-driver-content
 description: Retrieves the user-friendly name for the device.
 old-location: wpdsdk\iportabledevicemanager_getdevicefriendlyname.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 589995bb-fcce-412e-8828-a84e5809af2b
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetDeviceFriendlyName method [Windows Portable Devices SDK], GetDeviceFriendlyName method [Windows Portable Devices SDK], IPortableDeviceManager interface, GetDeviceFriendlyName,IPortableDeviceManager.GetDeviceFriendlyName, IPortableDeviceManager, IPortableDeviceManager interface [Windows Portable Devices SDK], GetDeviceFriendlyName method, IPortableDeviceManager::GetDeviceFriendlyName, IPortableDeviceManagerGetDeviceFriendlyName, portabledeviceapi/IPortableDeviceManager::GetDeviceFriendlyName, wpdsdk.iportabledevicemanager_getdevicefriendlyname
+ms.keywords: GetDeviceFriendlyName, GetDeviceFriendlyName method [Windows Portable Devices SDK], GetDeviceFriendlyName method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceFriendlyName method, IPortableDeviceManager.GetDeviceFriendlyName, IPortableDeviceManager::GetDeviceFriendlyName, IPortableDeviceManagerGetDeviceFriendlyName, portabledeviceapi/IPortableDeviceManager::GetDeviceFriendlyName, wpdsdk.iportabledevicemanager_getdevicefriendlyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceManager::GetDeviceFriendlyName method
+# IPortableDeviceManager::GetDeviceFriendlyName
 
 
 ## -description

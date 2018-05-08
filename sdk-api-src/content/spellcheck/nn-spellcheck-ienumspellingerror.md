@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: bd284569-cafe-4993-a832-0683212c8b92
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumSpellingError, IEnumSpellingError interface [Internationalization for Windows Applications], IEnumSpellingError interface [Internationalization for Windows Applications], described, intl.ienumspellingerror, spellcheck/IEnumSpellingError
+ms.keywords: IEnumSpellingError, IEnumSpellingError interface [Internationalization for Windows Applications], IEnumSpellingError interface [Internationalization for Windows Applications],described, intl.ienumspellingerror, spellcheck/IEnumSpellingError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

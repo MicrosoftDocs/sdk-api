@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldState
-title: ICredentialProviderCredentialEvents::SetFieldState method
+title: ICredentialProviderCredentialEvents::SetFieldState
 author: windows-driver-content
 description: Communicates to the Logon UI or Credential UI that a field state has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldState.htm
 old-project: shell
 ms.assetid: d3498bca-cc31-4a80-9f31-e1e6d020d777
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], SetFieldState method, ICredentialProviderCredentialEvents::SetFieldState, SetFieldState method [Windows Shell], SetFieldState method [Windows Shell], ICredentialProviderCredentialEvents interface, SetFieldState,ICredentialProviderCredentialEvents.SetFieldState, _shell_ICredentialProviderCredentialEvents_SetFieldState, credentialprovider/ICredentialProviderCredentialEvents::SetFieldState, shell.ICredentialProviderCredentialEvents_SetFieldState
+ms.date: 5/3/2018
+ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldState method, ICredentialProviderCredentialEvents.SetFieldState, ICredentialProviderCredentialEvents::SetFieldState, SetFieldState, SetFieldState method [Windows Shell], SetFieldState method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldState, credentialprovider/ICredentialProviderCredentialEvents::SetFieldState, shell.ICredentialProviderCredentialEvents_SetFieldState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProviderCredentialEvents::SetFieldState method
+# ICredentialProviderCredentialEvents::SetFieldState
 
 
 ## -description

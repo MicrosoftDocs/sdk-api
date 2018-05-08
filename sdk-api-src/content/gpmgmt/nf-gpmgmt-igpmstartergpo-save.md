@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.Save
-title: IGPMStarterGPO::Save method
+title: IGPMStarterGPO::Save
 author: windows-driver-content
 description: Saves all Starter GPO settings into a single CAB file.
 old-location: gpmc\igpmstartergpo_save.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 3262513c-9909-47b9-a425-41f913204f16
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IGPMStarterGPO, IGPMStarterGPO interface [GPMC], Save method, IGPMStarterGPO::Save, Save method [GPMC], Save method [GPMC], IGPMStarterGPO interface, Save,IGPMStarterGPO.Save, gpmc.igpmstartergpo_save, gpmgmt/IGPMStarterGPO::Save
+ms.keywords: IGPMStarterGPO interface [GPMC],Save method, IGPMStarterGPO.Save, IGPMStarterGPO::Save, Save, Save method [GPMC], Save method [GPMC],IGPMStarterGPO interface, gpmc.igpmstartergpo_save, gpmgmt/IGPMStarterGPO::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMStarterGPO::Save method
+# IGPMStarterGPO::Save
 
 
 ## -description

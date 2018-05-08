@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestDeviceCapabilitiesEnumerator.MoveNext
-title: IAppxManifestDeviceCapabilitiesEnumerator::MoveNext method
+title: IAppxManifestDeviceCapabilitiesEnumerator::MoveNext
 author: windows-driver-content
 description: Advances the position of the enumerator to the next device capability.
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_movenext.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 2FD0F98C-2B20-47B2-8F86-F59E3E9B9086
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxManifestDeviceCapabilitiesEnumerator, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management], MoveNext method, IAppxManifestDeviceCapabilitiesEnumerator::MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management], IAppxManifestDeviceCapabilitiesEnumerator interface, MoveNext,IAppxManifestDeviceCapabilitiesEnumerator.MoveNext, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::MoveNext, appxpkg.iappxmanifestdevicecapabilitiesenumerator_movenext
+ms.keywords: IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],MoveNext method, IAppxManifestDeviceCapabilitiesEnumerator.MoveNext, IAppxManifestDeviceCapabilitiesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestDeviceCapabilitiesEnumerator interface, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::MoveNext, appxpkg.iappxmanifestdevicecapabilitiesenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestDeviceCapabilitiesEnumerator::MoveNext method
+# IAppxManifestDeviceCapabilitiesEnumerator::MoveNext
 
 
 ## -description

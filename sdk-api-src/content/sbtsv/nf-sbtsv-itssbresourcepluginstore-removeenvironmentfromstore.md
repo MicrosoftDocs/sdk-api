@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.RemoveEnvironmentFromStore
-title: ITsSbResourcePluginStore::RemoveEnvironmentFromStore method
+title: ITsSbResourcePluginStore::RemoveEnvironmentFromStore
 author: windows-driver-content
 description: Removes the specified environment from the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_removeenvironmentfromstore.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: b1922ff2-6322-4868-ab7b-2f18386d7d08
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], RemoveEnvironmentFromStore method, ITsSbResourcePluginStore::RemoveEnvironmentFromStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], RemoveEnvironmentFromStore method, ITsSbResourcePluginStoreEx::RemoveEnvironmentFromStore, RemoveEnvironmentFromStore method [Remote Desktop Services], RemoveEnvironmentFromStore method [Remote Desktop Services], ITsSbResourcePluginStore interface, RemoveEnvironmentFromStore method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, RemoveEnvironmentFromStore,ITsSbResourcePluginStore.RemoveEnvironmentFromStore, sbtsv/ITsSbResourcePluginStore::RemoveEnvironmentFromStore, sbtsv/ITsSbResourcePluginStoreEx::RemoveEnvironmentFromStore, termserv.itssbresourcepluginstore_removeenvironmentfromstore
+ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],RemoveEnvironmentFromStore method, ITsSbResourcePluginStore.RemoveEnvironmentFromStore, ITsSbResourcePluginStore::RemoveEnvironmentFromStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],RemoveEnvironmentFromStore method, ITsSbResourcePluginStoreEx::RemoveEnvironmentFromStore, RemoveEnvironmentFromStore, RemoveEnvironmentFromStore method [Remote Desktop Services], RemoveEnvironmentFromStore method [Remote Desktop Services],ITsSbResourcePluginStore interface, RemoveEnvironmentFromStore method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::RemoveEnvironmentFromStore, sbtsv/ITsSbResourcePluginStoreEx::RemoveEnvironmentFromStore, termserv.itssbresourcepluginstore_removeenvironmentfromstore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::RemoveEnvironmentFromStore method
+# ITsSbResourcePluginStore::RemoveEnvironmentFromStore
 
 
 ## -description

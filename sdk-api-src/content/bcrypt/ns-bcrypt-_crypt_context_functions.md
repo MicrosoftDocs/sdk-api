@@ -7,7 +7,7 @@ old-location: security\crypt_context_functions.htm
 old-project: SecCNG
 ms.assetid: c576f39c-a03a-47aa-90b7-500736070c6f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: "*PCRYPT_CONTEXT_FUNCTIONS, CRYPT_CONTEXT_FUNCTIONS, CRYPT_CONTEXT_FUNCTIONS structure [Security], PCRYPT_CONTEXT_FUNCTIONS, PCRYPT_CONTEXT_FUNCTIONS structure pointer [Security], _CRYPT_CONTEXT_FUNCTIONS, bcrypt/CRYPT_CONTEXT_FUNCTIONS, bcrypt/PCRYPT_CONTEXT_FUNCTIONS, security.crypt_context_functions"
 ms.prod: windows-hardware
 ms.technology: windows-devices

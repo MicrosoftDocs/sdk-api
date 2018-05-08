@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateSignatureBlockResource
-title: IXpsOMObjectFactory::CreateSignatureBlockResource method
+title: IXpsOMObjectFactory::CreateSignatureBlockResource
 author: windows-driver-content
 description: Creates an IXpsOMSignatureBlockResource that can contain one or more signature requests.
 old-location: xps\ixpsomobjectfactory_createsignatureblockresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0948d495-f2da-4361-8365-d4316da72524
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateSignatureBlockResource method [XPS Documents and Packaging], CreateSignatureBlockResource method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateSignatureBlockResource,IXpsOMObjectFactory.CreateSignatureBlockResource, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateSignatureBlockResource method, IXpsOMObjectFactory::CreateSignatureBlockResource, xps.ixpsomobjectfactory_createsignatureblockresource, xpsobjectmodel/IXpsOMObjectFactory::CreateSignatureBlockResource
+ms.keywords: CreateSignatureBlockResource, CreateSignatureBlockResource method [XPS Documents and Packaging], CreateSignatureBlockResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateSignatureBlockResource method, IXpsOMObjectFactory.CreateSignatureBlockResource, IXpsOMObjectFactory::CreateSignatureBlockResource, xps.ixpsomobjectfactory_createsignatureblockresource, xpsobjectmodel/IXpsOMObjectFactory::CreateSignatureBlockResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateSignatureBlockResource method
+# IXpsOMObjectFactory::CreateSignatureBlockResource
 
 
 ## -description

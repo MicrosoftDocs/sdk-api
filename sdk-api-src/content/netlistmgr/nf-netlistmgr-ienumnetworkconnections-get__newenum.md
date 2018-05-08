@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.IEnumNetworkConnections.get__NewEnum
-title: IEnumNetworkConnections::get__NewEnum method
+title: IEnumNetworkConnections::get__NewEnum
 author: windows-driver-content
 description: The get_NewEnum property returns an automation enumerator object that you can use to iterate through the IEnumNetworkConnections collection.
 old-location: nla\ienumnetworkconnections_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 38b3a58e-6ed1-488e-b5b8-50043adae8cc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEnumNetworkConnections, IEnumNetworkConnections interface [Network Awareness], get__NewEnum method, IEnumNetworkConnections::get__NewEnum, get__NewEnum method [Network Awareness], get__NewEnum method [Network Awareness], IEnumNetworkConnections interface, get__NewEnum,IEnumNetworkConnections.get__NewEnum, netlistmgr/IEnumNetworkConnections::get__NewEnum, nla.ienumnetworkconnections_get__newenum
+ms.keywords: IEnumNetworkConnections interface [Network Awareness],get__NewEnum method, IEnumNetworkConnections.get__NewEnum, IEnumNetworkConnections::get__NewEnum, get__NewEnum, get__NewEnum method [Network Awareness], get__NewEnum method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::get__NewEnum, nla.ienumnetworkconnections_get__newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumNetworkConnections::get__NewEnum method
+# IEnumNetworkConnections::get__NewEnum
 
 
 ## -description

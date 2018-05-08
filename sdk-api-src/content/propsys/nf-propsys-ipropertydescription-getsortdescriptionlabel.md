@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetSortDescriptionLabel
-title: IPropertyDescription::GetSortDescriptionLabel method
+title: IPropertyDescription::GetSortDescriptionLabel
 author: windows-driver-content
 description: Gets the localized display string that describes the current sort order.
 old-location: properties\IPropertyDescription_GetSortDescriptionLabel.htm
 old-project: properties
 ms.assetid: 5cfa445b-953b-474f-ba7b-1ed6cfbf981d
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetSortDescriptionLabel method [Windows Properties], GetSortDescriptionLabel method [Windows Properties], IPropertyDescription interface, GetSortDescriptionLabel,IPropertyDescription.GetSortDescriptionLabel, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetSortDescriptionLabel method, IPropertyDescription::GetSortDescriptionLabel, properties.IPropertyDescription_GetSortDescriptionLabel, propsys/IPropertyDescription::GetSortDescriptionLabel, shell.IPropertyDescription_GetSortDescriptionLabel, shell_IPropertyDescription_GetSortDescriptionLabel
+ms.date: 4/27/2018
+ms.keywords: GetSortDescriptionLabel, GetSortDescriptionLabel method [Windows Properties], GetSortDescriptionLabel method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescriptionLabel method, IPropertyDescription.GetSortDescriptionLabel, IPropertyDescription::GetSortDescriptionLabel, properties.IPropertyDescription_GetSortDescriptionLabel, propsys/IPropertyDescription::GetSortDescriptionLabel, shell.IPropertyDescription_GetSortDescriptionLabel, shell_IPropertyDescription_GetSortDescriptionLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescription::GetSortDescriptionLabel method
+# IPropertyDescription::GetSortDescriptionLabel
 
 
 ## -description

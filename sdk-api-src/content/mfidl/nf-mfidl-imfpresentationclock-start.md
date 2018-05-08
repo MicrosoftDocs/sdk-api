@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.Start
-title: IMFPresentationClock::Start method
+title: IMFPresentationClock::Start
 author: windows-driver-content
 description: Starts the presentation clock.
 old-location: mf\imfpresentationclock_start.htm
 old-project: medfound
 ms.assetid: ba5986d1-9c94-4747-a221-43d0583f1fed
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPresentationClock, IMFPresentationClock interface [Media Foundation], Start method, IMFPresentationClock::Start, Start method [Media Foundation], Start method [Media Foundation], IMFPresentationClock interface, Start,IMFPresentationClock.Start, ba5986d1-9c94-4747-a221-43d0583f1fed, mf.imfpresentationclock_start, mfidl/IMFPresentationClock::Start
+ms.date: 5/3/2018
+ms.keywords: IMFPresentationClock interface [Media Foundation],Start method, IMFPresentationClock.Start, IMFPresentationClock::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFPresentationClock interface, ba5986d1-9c94-4747-a221-43d0583f1fed, mf.imfpresentationclock_start, mfidl/IMFPresentationClock::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPresentationClock::Start method
+# IMFPresentationClock::Start
 
 
 ## -description

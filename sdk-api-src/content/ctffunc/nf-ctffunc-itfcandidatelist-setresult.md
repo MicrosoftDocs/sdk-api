@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.SetResult
-title: ITfCandidateList::SetResult method
+title: ITfCandidateList::SetResult
 author: windows-driver-content
 description: ITfCandidateList::SetResult method
 old-location: tsf\itfcandidatelist_setresult.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: dcc172f9-4fc3-46f4-a1db-0e75fceafb28
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCandidateList, ITfCandidateList interface [Text Services Framework], SetResult method, ITfCandidateList::SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework], ITfCandidateList interface, SetResult,ITfCandidateList.SetResult, _tsf_itfcandidatelist_setresult_ref, ctffunc/ITfCandidateList::SetResult, tsf.itfcandidatelist_setresult
+ms.keywords: ITfCandidateList interface [Text Services Framework],SetResult method, ITfCandidateList.SetResult, ITfCandidateList::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfCandidateList interface, _tsf_itfcandidatelist_setresult_ref, ctffunc/ITfCandidateList::SetResult, tsf.itfcandidatelist_setresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Tiptsf.dll
 req.irql: 
 ---
 
-# ITfCandidateList::SetResult method
+# ITfCandidateList::SetResult
 
 
 ## -description

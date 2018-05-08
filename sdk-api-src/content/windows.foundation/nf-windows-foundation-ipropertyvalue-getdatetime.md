@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetDateTime
-title: IPropertyValue::GetDateTime method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the DateTime value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getdatetime.htm
 old-project: WinRT
 ms.assetid: 3ffe8778-ce0e-46bb-9387-48c20d5dddfc
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetDateTime method [Windows Runtime], GetDateTime method [Windows Runtime], IPropertyValue interface, GetDateTime,IPropertyValue.GetDateTime, IPropertyValue, IPropertyValue interface [Windows Runtime], GetDateTime method, IPropertyValue::GetDateTime, windows/IPropertyValue::GetDateTime, winrt.ipropertyvalue_getdatetime
+ms.date: 5/4/2018
+ms.keywords: GetDateTime, GetDateTime method [Windows Runtime], GetDateTime method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDateTime method, IPropertyValue.GetDateTime, IPropertyValue.IPropertyValue, IPropertyValue::GetDateTime, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDateTime, winrt.ipropertyvalue_getdatetime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetDateTime method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

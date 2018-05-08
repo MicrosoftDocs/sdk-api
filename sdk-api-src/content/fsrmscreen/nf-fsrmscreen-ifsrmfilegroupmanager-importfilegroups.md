@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.ImportFileGroups
-title: IFsrmFileGroupManager::ImportFileGroups method
+title: IFsrmFileGroupManager::ImportFileGroups
 author: windows-driver-content
 description: Imports the specified file groups from an XML string.
 old-location: fsrm\ifsrmfilegroupmanager_importfilegroups.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 81f62d49-5fce-4d8c-96b5-506d741c5f77
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmFileGroupManager class [File Server Resource Manager], ImportFileGroups method, IFsrmFileGroupManager, IFsrmFileGroupManager interface [File Server Resource Manager], ImportFileGroups method, IFsrmFileGroupManager::ImportFileGroups, ImportFileGroups method [File Server Resource Manager], ImportFileGroups method [File Server Resource Manager], FsrmFileGroupManager class, ImportFileGroups method [File Server Resource Manager], IFsrmFileGroupManager interface, ImportFileGroups,IFsrmFileGroupManager.ImportFileGroups, fs.ifsrmfilegroupmanager_importfilegroups, fsrm.ifsrmfilegroupmanager_importfilegroups, fsrmscreen/IFsrmFileGroupManager::ImportFileGroups
+ms.keywords: FsrmFileGroupManager class [File Server Resource Manager],ImportFileGroups method, IFsrmFileGroupManager interface [File Server Resource Manager],ImportFileGroups method, IFsrmFileGroupManager.ImportFileGroups, IFsrmFileGroupManager::ImportFileGroups, ImportFileGroups, ImportFileGroups method [File Server Resource Manager], ImportFileGroups method [File Server Resource Manager],FsrmFileGroupManager class, ImportFileGroups method [File Server Resource Manager],IFsrmFileGroupManager interface, fs.ifsrmfilegroupmanager_importfilegroups, fsrm.ifsrmfilegroupmanager_importfilegroups, fsrmscreen/IFsrmFileGroupManager::ImportFileGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileGroupManager::ImportFileGroups method
+# IFsrmFileGroupManager::ImportFileGroups
 
 
 ## -description

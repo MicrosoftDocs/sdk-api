@@ -7,8 +7,8 @@ old-location: mf\imfpresentationdescriptor.htm
 old-project: medfound
 ms.assetid: db03e212-7021-433e-84dc-410b2cf7af87
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPresentationDescriptor, IMFPresentationDescriptor interface [Media Foundation], IMFPresentationDescriptor interface [Media Foundation], described, db03e212-7021-433e-84dc-410b2cf7af87, mf.imfpresentationdescriptor, mfidl/IMFPresentationDescriptor
+ms.date: 5/3/2018
+ms.keywords: IMFPresentationDescriptor, IMFPresentationDescriptor interface [Media Foundation], IMFPresentationDescriptor interface [Media Foundation],described, db03e212-7021-433e-84dc-410b2cf7af87, mf.imfpresentationdescriptor, mfidl/IMFPresentationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

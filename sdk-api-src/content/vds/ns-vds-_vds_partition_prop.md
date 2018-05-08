@@ -91,21 +91,21 @@ The partition offset.
 The size of the partition in bytes.
 
 
-#### - Gpt
-
-
-       If <b>PartitionStyle</b> is <b>VDS_PST_GPT</b>, GPT-specific partition 
-       details. For more information see 
-       <a href="https://msdn.microsoft.com/5c484155-df73-4007-a137-998c7f1c5a7c">VDS_PARTITION_INFO_GPT</a>.
-
-
-#### - Mbr
+### -field Mbr
 
 
        If <b>PartitionStyle</b> is <b>VDS_PST_MBR</b>, MBR-specific partition 
        details. For more information see 
        <a href="https://msdn.microsoft.com/d14a852f-8a78-4631-a288-476701321ac2">VDS_PARTITION_INFO_MBR</a>.
       
+
+
+### -field Gpt
+
+
+       If <b>PartitionStyle</b> is <b>VDS_PST_GPT</b>, GPT-specific partition 
+       details. For more information see 
+       <a href="https://msdn.microsoft.com/5c484155-df73-4007-a137-998c7f1c5a7c">VDS_PARTITION_INFO_GPT</a>.
 
 
 ## -remarks

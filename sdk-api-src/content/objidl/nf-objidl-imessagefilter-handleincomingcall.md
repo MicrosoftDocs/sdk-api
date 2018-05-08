@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMessageFilter.HandleInComingCall
-title: IMessageFilter::HandleInComingCall method
+title: IMessageFilter::HandleInComingCall
 author: windows-driver-content
 description: Provides a single entry point for incoming calls.
 old-location: com\imessagefilter_handleincomingcall.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 7e31b518-ef4f-4bdd-b5c7-e1b16383a5be
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: HandleInComingCall method [COM], HandleInComingCall method [COM], IMessageFilter interface, HandleInComingCall,IMessageFilter.HandleInComingCall, IMessageFilter, IMessageFilter interface [COM], HandleInComingCall method, IMessageFilter::HandleInComingCall, _com_imessagefilter_handleincomingcall, com.imessagefilter_handleincomingcall, objidl/IMessageFilter::HandleInComingCall
+ms.keywords: HandleInComingCall, HandleInComingCall method [COM], HandleInComingCall method [COM],IMessageFilter interface, IMessageFilter interface [COM],HandleInComingCall method, IMessageFilter.HandleInComingCall, IMessageFilter::HandleInComingCall, _com_imessagefilter_handleincomingcall, com.imessagefilter_handleincomingcall, objidl/IMessageFilter::HandleInComingCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMessageFilter::HandleInComingCall method
+# IMessageFilter::HandleInComingCall
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreatePixelShader
-title: ID3D10Device::CreatePixelShader method
+title: ID3D10Device::CreatePixelShader
 author: windows-driver-content
 description: Create a pixel shader.
 old-location: direct3d10\id3d10device_createpixelshader.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createpixelshader.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreatePixelShader method [Direct3D 10], CreatePixelShader method [Direct3D 10], ID3D10Device interface, CreatePixelShader,ID3D10Device.CreatePixelShader, ID3D10Device, ID3D10Device interface [Direct3D 10], CreatePixelShader method, ID3D10Device::CreatePixelShader, d3d10/ID3D10Device::CreatePixelShader, direct3d10.id3d10device_createpixelshader, eaddd998-99a2-ab8d-51dd-98d72c93e291
+ms.keywords: CreatePixelShader, CreatePixelShader method [Direct3D 10], CreatePixelShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreatePixelShader method, ID3D10Device.CreatePixelShader, ID3D10Device::CreatePixelShader, d3d10/ID3D10Device::CreatePixelShader, direct3d10.id3d10device_createpixelshader, eaddd998-99a2-ab8d-51dd-98d72c93e291
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::CreatePixelShader method
+# ID3D10Device::CreatePixelShader
 
 
 ## -description

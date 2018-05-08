@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetLogonErrorRedirector
-title: IWTSProtocolConnection::GetLogonErrorRedirector method
+title: IWTSProtocolConnection::GetLogonErrorRedirector
 author: windows-driver-content
 description: IWTSProtocolConnection::GetLogonErrorRedirector is no longer available. Instead, use IWRdsProtocolConnection::GetLogonErrorRedirector.
 old-location: termserv\iwtsprotocolconnection_getlogonerrorredirector.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 59bd7d50-2903-42b7-b556-4da7b50d8e7a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetLogonErrorRedirector method [Remote Desktop Services], GetLogonErrorRedirector method [Remote Desktop Services], IWTSProtocolConnection interface, GetLogonErrorRedirector,IWTSProtocolConnection.GetLogonErrorRedirector, IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], GetLogonErrorRedirector method, IWTSProtocolConnection::GetLogonErrorRedirector, termserv.iwtsprotocolconnection_getlogonerrorredirector, wtsprotocol/IWTSProtocolConnection::GetLogonErrorRedirector
+ms.keywords: GetLogonErrorRedirector, GetLogonErrorRedirector method [Remote Desktop Services], GetLogonErrorRedirector method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetLogonErrorRedirector method, IWTSProtocolConnection.GetLogonErrorRedirector, IWTSProtocolConnection::GetLogonErrorRedirector, termserv.iwtsprotocolconnection_getlogonerrorredirector, wtsprotocol/IWTSProtocolConnection::GetLogonErrorRedirector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolConnection::GetLogonErrorRedirector method
+# IWTSProtocolConnection::GetLogonErrorRedirector
 
 
 ## -description

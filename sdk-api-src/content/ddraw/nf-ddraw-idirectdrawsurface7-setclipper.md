@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetClipper
-title: IDirectDrawSurface7::SetClipper method
+title: IDirectDrawSurface7::SetClipper
 author: windows-driver-content
 description: Attaches a clipper object to, or deletes one from, this surface.
 old-location: directdraw\idirectdrawsurface7_setclipper.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 18bc8018-b00c-40ef-a54a-e2eecdb835a9
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], SetClipper method, IDirectDrawSurface7::SetClipper, SetClipper method [DirectDraw], SetClipper method [DirectDraw], IDirectDrawSurface7 interface, SetClipper,IDirectDrawSurface7.SetClipper, ddraw/IDirectDrawSurface7::SetClipper, directdraw.idirectdrawsurface7_setclipper
+ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetClipper method, IDirectDrawSurface7.SetClipper, IDirectDrawSurface7::SetClipper, SetClipper, SetClipper method [DirectDraw], SetClipper method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetClipper, directdraw.idirectdrawsurface7_setclipper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::SetClipper method
+# IDirectDrawSurface7::SetClipper
 
 
 ## -description

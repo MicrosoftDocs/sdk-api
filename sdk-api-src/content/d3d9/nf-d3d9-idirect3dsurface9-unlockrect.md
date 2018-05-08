@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.UnlockRect
-title: IDirect3DSurface9::UnlockRect method
+title: IDirect3DSurface9::UnlockRect
 author: windows-driver-content
 description: Unlocks a rectangle on a surface.
 old-location: direct3d9\idirect3dsurface9__unlockrect.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__unlockrect.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DSurface9, IDirect3DSurface9 interface [Direct3D 9], UnlockRect method, IDirect3DSurface9::UnlockRect, UnlockRect method [Direct3D 9], UnlockRect method [Direct3D 9], IDirect3DSurface9 interface, UnlockRect,IDirect3DSurface9.UnlockRect, d3d9helper/IDirect3DSurface9::UnlockRect, direct3d9.idirect3dsurface9__unlockrect, e6bd6fa0-ac07-76bd-8c15-84e5627e84a0
+ms.keywords: IDirect3DSurface9 interface [Direct3D 9],UnlockRect method, IDirect3DSurface9.UnlockRect, IDirect3DSurface9::UnlockRect, UnlockRect, UnlockRect method [Direct3D 9], UnlockRect method [Direct3D 9],IDirect3DSurface9 interface, d3d9helper/IDirect3DSurface9::UnlockRect, direct3d9.idirect3dsurface9__unlockrect, e6bd6fa0-ac07-76bd-8c15-84e5627e84a0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DSurface9::UnlockRect method
+# IDirect3DSurface9::UnlockRect
 
 
 ## -description

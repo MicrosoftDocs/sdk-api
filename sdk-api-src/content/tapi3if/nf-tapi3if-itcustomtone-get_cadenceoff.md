@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCustomTone.get_CadenceOff
-title: ITCustomTone::get_CadenceOff method
+title: ITCustomTone::get_CadenceOff
 author: windows-driver-content
 description: The get_CadenceOff method retrieves the &#0034;off&#0034; duration of the cadence of the custom tone to generate.
 old-location: tapi3\itcustomtone_get_cadenceoff.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 0d561ab6-fc38-4058-9443-d7825eae2dc5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITCustomTone, ITCustomTone interface [TAPI 2.2], get_CadenceOff method, ITCustomTone::get_CadenceOff, _tapi3_itcustomtone_get_cadenceoff, get_CadenceOff method [TAPI 2.2], get_CadenceOff method [TAPI 2.2], ITCustomTone interface, get_CadenceOff,ITCustomTone.get_CadenceOff, tapi3.itcustomtone_get_cadenceoff, tapi3if/ITCustomTone::get_CadenceOff
+ms.keywords: ITCustomTone interface [TAPI 2.2],get_CadenceOff method, ITCustomTone.get_CadenceOff, ITCustomTone::get_CadenceOff, _tapi3_itcustomtone_get_cadenceoff, get_CadenceOff, get_CadenceOff method [TAPI 2.2], get_CadenceOff method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_get_cadenceoff, tapi3if/ITCustomTone::get_CadenceOff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITCustomTone::get_CadenceOff method
+# ITCustomTone::get_CadenceOff
 
 
 ## -description

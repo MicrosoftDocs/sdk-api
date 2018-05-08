@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_UnmappedResultCode
-title: IUpdateHistoryEntry::get_UnmappedResultCode method
+title: IUpdateHistoryEntry::get_UnmappedResultCode
 author: windows-driver-content
 description: Gets the unmapped result code that is returned from an operation on an update.
 old-location: wua\iupdatehistoryentry_unmappedresultcode.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 8c0c49c2-6902-4c4b-95a9-5254b0b83897
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateHistoryEntry, IUpdateHistoryEntry interface [Windows Update Agent], UnmappedResultCode property, IUpdateHistoryEntry.UnmappedResultCode, IUpdateHistoryEntry::get_UnmappedResultCode, UnmappedResultCode property [Windows Update Agent], UnmappedResultCode property [Windows Update Agent], IUpdateHistoryEntry interface, get_UnmappedResultCode,IUpdateHistoryEntry.get_UnmappedResultCode, wua.iupdatehistoryentry_unmappedresultcode, wuapi/IUpdateHistoryEntry::UnmappedResultCode, wuapi/IUpdateHistoryEntry::get_UnmappedResultCode
+ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UnmappedResultCode property, IUpdateHistoryEntry.UnmappedResultCode, IUpdateHistoryEntry.get_UnmappedResultCode, IUpdateHistoryEntry::UnmappedResultCode, IUpdateHistoryEntry::get_UnmappedResultCode, UnmappedResultCode property [Windows Update Agent], UnmappedResultCode property [Windows Update Agent],IUpdateHistoryEntry interface, get_UnmappedResultCode, wua.iupdatehistoryentry_unmappedresultcode, wuapi/IUpdateHistoryEntry::UnmappedResultCode, wuapi/IUpdateHistoryEntry::get_UnmappedResultCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateHistoryEntry::get_UnmappedResultCode method
+# IUpdateHistoryEntry::get_UnmappedResultCode
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: wab
 ms.assetid: VS|wab|~\wab\reference\functions\wabopen.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: WABOpen, WABOpen callback function [Windows Address Book], _wab_WABOpen, wab._wab_WABOpen, wabapi/WABOpen
+ms.keywords: WABOpen, WABOpen callback, WABOpen callback function [Windows Address Book], _wab_WABOpen, wab._wab_WABOpen, wabapi/WABOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.5
 ---
 
-# WABOpen callback
+# WABOpen callback function
 
 
 ## -description

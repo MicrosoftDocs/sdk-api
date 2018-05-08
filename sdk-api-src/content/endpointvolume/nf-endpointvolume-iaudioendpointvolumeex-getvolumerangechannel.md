@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolumeEx.GetVolumeRangeChannel
-title: IAudioEndpointVolumeEx::GetVolumeRangeChannel method
+title: IAudioEndpointVolumeEx::GetVolumeRangeChannel
 author: windows-driver-content
 description: The GetVolumeRangeChannel method gets the volume range for a specified channel.
 old-location: coreaudio\iaudioendpointvolumeex_getvolumerangechannel.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 869fe1cc-aa32-45e5-899f-3ae0d0f1b256
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetVolumeRangeChannel method [Core Audio], GetVolumeRangeChannel method [Core Audio], IAudioEndpointVolumeEx interface, GetVolumeRangeChannel,IAudioEndpointVolumeEx.GetVolumeRangeChannel, IAudioEndpointVolumeEx, IAudioEndpointVolumeEx interface [Core Audio], GetVolumeRangeChannel method, IAudioEndpointVolumeEx::GetVolumeRangeChannel, coreaudio.iaudioendpointvolumeex_getvolumerangechannel, endpointvolume/IAudioEndpointVolumeEx::GetVolumeRangeChannel
+ms.keywords: GetVolumeRangeChannel, GetVolumeRangeChannel method [Core Audio], GetVolumeRangeChannel method [Core Audio],IAudioEndpointVolumeEx interface, IAudioEndpointVolumeEx interface [Core Audio],GetVolumeRangeChannel method, IAudioEndpointVolumeEx.GetVolumeRangeChannel, IAudioEndpointVolumeEx::GetVolumeRangeChannel, coreaudio.iaudioendpointvolumeex_getvolumerangechannel, endpointvolume/IAudioEndpointVolumeEx::GetVolumeRangeChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAudioEndpointVolumeEx::GetVolumeRangeChannel method
+# IAudioEndpointVolumeEx::GetVolumeRangeChannel
 
 
 ## -description

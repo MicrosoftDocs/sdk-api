@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.put_DaysOfMonth
-title: IMonthlyTrigger::put_DaysOfMonth method
+title: IMonthlyTrigger::put_DaysOfMonth
 author: windows-driver-content
 description: Gets or sets the days of the month during which the task runs.
 old-location: taskschd\imonthlytrigger_daysofmonth.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 851668bf-1ee7-47e0-add6-95eb0387a56c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DaysOfMonth property [Task Scheduler], DaysOfMonth property [Task Scheduler], IMonthlyTrigger interface, IMonthlyTrigger, IMonthlyTrigger interface [Task Scheduler], DaysOfMonth property, IMonthlyTrigger.DaysOfMonth, IMonthlyTrigger::get_DaysOfMonth, IMonthlyTrigger::put_DaysOfMonth, put_DaysOfMonth,IMonthlyTrigger.put_DaysOfMonth, taskschd.imonthlytrigger_daysofmonth, taskschd/IMonthlyTrigger::DaysOfMonth, taskschd/IMonthlyTrigger::get_DaysOfMonth, taskschd/IMonthlyTrigger::put_DaysOfMonth
+ms.keywords: DaysOfMonth property [Task Scheduler], DaysOfMonth property [Task Scheduler],IMonthlyTrigger interface, IMonthlyTrigger interface [Task Scheduler],DaysOfMonth property, IMonthlyTrigger.DaysOfMonth, IMonthlyTrigger.put_DaysOfMonth, IMonthlyTrigger::DaysOfMonth, IMonthlyTrigger::get_DaysOfMonth, IMonthlyTrigger::put_DaysOfMonth, put_DaysOfMonth, taskschd.imonthlytrigger_daysofmonth, taskschd/IMonthlyTrigger::DaysOfMonth, taskschd/IMonthlyTrigger::get_DaysOfMonth, taskschd/IMonthlyTrigger::put_DaysOfMonth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMonthlyTrigger::put_DaysOfMonth method
+# IMonthlyTrigger::put_DaysOfMonth
 
 
 ## -description

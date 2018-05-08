@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ISupportErrorInfo.InterfaceSupportsErrorInfo
-title: ISupportErrorInfo::InterfaceSupportsErrorInfo method
+title: ISupportErrorInfo::InterfaceSupportsErrorInfo
 author: windows-driver-content
 description: Indicates whether an interface supports the IErrorInfo interface.
 old-location: automat\isupporterrorinfo_interfacesupportserrorinfo.htm
 old-project: automat
 ms.assetid: a54ef18d-ee3f-4483-ac4a-99d758f0960a
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ISupportErrorInfo, ISupportErrorInfo interface [Automation], InterfaceSupportsErrorInfo method, ISupportErrorInfo::InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo method [Automation], InterfaceSupportsErrorInfo method [Automation], ISupportErrorInfo interface, InterfaceSupportsErrorInfo,ISupportErrorInfo.InterfaceSupportsErrorInfo, _oa96_ISupportErrorInfo_InterfaceSupportsErrorInfo, automat.isupporterrorinfo_interfacesupportserrorinfo, oaidl/ISupportErrorInfo::InterfaceSupportsErrorInfo
+ms.date: 5/4/2018
+ms.keywords: ISupportErrorInfo interface [Automation],InterfaceSupportsErrorInfo method, ISupportErrorInfo.InterfaceSupportsErrorInfo, ISupportErrorInfo::InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo method [Automation], InterfaceSupportsErrorInfo method [Automation],ISupportErrorInfo interface, _oa96_ISupportErrorInfo_InterfaceSupportsErrorInfo, automat.isupporterrorinfo_interfacesupportserrorinfo, oaidl/ISupportErrorInfo::InterfaceSupportsErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISupportErrorInfo::InterfaceSupportsErrorInfo method
+# ISupportErrorInfo::InterfaceSupportsErrorInfo
 
 
 ## -description

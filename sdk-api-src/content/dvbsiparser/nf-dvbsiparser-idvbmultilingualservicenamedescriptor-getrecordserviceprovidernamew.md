@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbMultilingualServiceNameDescriptor.GetRecordServiceProviderNameW
-title: IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW method
+title: IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW
 author: windows-driver-content
 description: Gets the service provider name in string format from a Digital Video Broadcast (DVB) multilingual service name descriptor.
 old-location: mstv\idvbmultilingualservicenamedescriptor_getrecordserviceprovidernamew.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e07ebe5c-b5b3-4604-91c3-3e75042ad074
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordServiceProviderNameW method [Microsoft TV Technologies], GetRecordServiceProviderNameW method [Microsoft TV Technologies], IDvbMultilingualServiceNameDescriptor interface, GetRecordServiceProviderNameW,IDvbMultilingualServiceNameDescriptor.GetRecordServiceProviderNameW, IDvbMultilingualServiceNameDescriptor, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies], GetRecordServiceProviderNameW method, IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW, mstv.idvbmultilingualservicenamedescriptor_getrecordserviceprovidernamew
+ms.keywords: GetRecordServiceProviderNameW, GetRecordServiceProviderNameW method [Microsoft TV Technologies], GetRecordServiceProviderNameW method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetRecordServiceProviderNameW method, IDvbMultilingualServiceNameDescriptor.GetRecordServiceProviderNameW, IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW, mstv.idvbmultilingualservicenamedescriptor_getrecordserviceprovidernamew
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW method
+# IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW
 
 
 ## -description

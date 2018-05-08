@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.MACUpdate
-title: CSecureChannelClient::MACUpdate method
+title: CSecureChannelClient::MACUpdate
 author: windows-driver-content
 description: The MACUpdate method adds a value to a message authentication code (MAC).
 old-location: wmdm\csecurechannelclient_macupdate.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: b868d422-535d-44f5-9713-bfa049da8a4e
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CSecureChannelClient, CSecureChannelClient interface [windows Media Device Manager], MACUpdate method, CSecureChannelClient::MACUpdate, CSecureChannelClientMACUpdate, MACUpdate method [windows Media Device Manager], MACUpdate method [windows Media Device Manager], CSecureChannelClient interface, MACUpdate,CSecureChannelClient.MACUpdate, scclient/CSecureChannelClient::MACUpdate, wmdm.csecurechannelclient_macupdate
+ms.keywords: CSecureChannelClient interface [windows Media Device Manager],MACUpdate method, CSecureChannelClient.MACUpdate, CSecureChannelClient::MACUpdate, CSecureChannelClientMACUpdate, MACUpdate, MACUpdate method [windows Media Device Manager], MACUpdate method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::MACUpdate, wmdm.csecurechannelclient_macupdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CSecureChannelClient::MACUpdate method
+# CSecureChannelClient::MACUpdate
 
 
 ## -description

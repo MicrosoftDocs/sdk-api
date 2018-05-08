@@ -7,8 +7,8 @@ old-location: dshow\impeg2pidmap.htm
 old-project: DirectShow
 ms.assetid: 45c09a02-7da8-460a-9a64-f012c2181b94
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMPEG2PIDMap, IMPEG2PIDMap interface [DirectShow], IMPEG2PIDMap interface [DirectShow], described, IMPEG2PIDMapInterface, bdaiface/IMPEG2PIDMap, dshow.impeg2pidmap
+ms.date: 4/30/2018
+ms.keywords: IMPEG2PIDMap, IMPEG2PIDMap interface [DirectShow], IMPEG2PIDMap interface [DirectShow],described, IMPEG2PIDMapInterface, bdaiface/IMPEG2PIDMap, dshow.impeg2pidmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

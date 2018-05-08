@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceCreate
-title: IComResourceEvents::OnResourceCreate method
+title: IComResourceEvents::OnResourceCreate
 author: windows-driver-content
 description: Generated when a new resource is created and allocated.
 old-location: cos\icomresourceevents_onresourcecreate.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 6c1cb030-c6c7-4f91-a1ea-eebbec41813b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComResourceEvents, IComResourceEvents interface [COM+], OnResourceCreate method, IComResourceEvents::OnResourceCreate, OnResourceCreate method [COM+], OnResourceCreate method [COM+], IComResourceEvents interface, OnResourceCreate,IComResourceEvents.OnResourceCreate, _dtc_IComResourceEvents_OnResourceCreate, comsvcs/IComResourceEvents::OnResourceCreate, cos.icomresourceevents_onresourcecreate
+ms.keywords: IComResourceEvents interface [COM+],OnResourceCreate method, IComResourceEvents.OnResourceCreate, IComResourceEvents::OnResourceCreate, OnResourceCreate, OnResourceCreate method [COM+], OnResourceCreate method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceCreate, comsvcs/IComResourceEvents::OnResourceCreate, cos.icomresourceevents_onresourcecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComResourceEvents::OnResourceCreate method
+# IComResourceEvents::OnResourceCreate
 
 
 ## -description

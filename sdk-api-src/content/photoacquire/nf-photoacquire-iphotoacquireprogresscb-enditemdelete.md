@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndItemDelete
-title: IPhotoAcquireProgressCB::EndItemDelete method
+title: IPhotoAcquireProgressCB::EndItemDelete
 author: windows-driver-content
 description: The EndItemDelete method provides extended functionality each time a file is deleted from the image source. The application provides the implementation of the EndItemDelete method.
 old-location: picacq\iphotoacquireprogresscb_enditemdelete.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 2962b170-941f-4cf1-9969-4066ee0c57d9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EndItemDelete method [Picture Acquisition], EndItemDelete method [Picture Acquisition], IPhotoAcquireProgressCB interface, EndItemDelete,IPhotoAcquireProgressCB.EndItemDelete, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], EndItemDelete method, IPhotoAcquireProgressCB::EndItemDelete, IPhotoAcquireProgressCBEndItemDelete, photoacquire/IPhotoAcquireProgressCB::EndItemDelete, picacq.iphotoacquireprogresscb_enditemdelete
+ms.keywords: EndItemDelete, EndItemDelete method [Picture Acquisition], EndItemDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndItemDelete method, IPhotoAcquireProgressCB.EndItemDelete, IPhotoAcquireProgressCB::EndItemDelete, IPhotoAcquireProgressCBEndItemDelete, photoacquire/IPhotoAcquireProgressCB::EndItemDelete, picacq.iphotoacquireprogresscb_enditemdelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireProgressCB::EndItemDelete method
+# IPhotoAcquireProgressCB::EndItemDelete
 
 
 ## -description

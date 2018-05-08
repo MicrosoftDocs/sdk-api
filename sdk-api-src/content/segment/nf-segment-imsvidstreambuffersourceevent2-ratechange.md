@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent2.RateChange
-title: IMSVidStreamBufferSourceEvent2::RateChange method
+title: IMSVidStreamBufferSourceEvent2::RateChange
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersourceevent2_ratechange.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 5c3b9e5f-51ad-4a36-8181-bec4243499a5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSourceEvent2, IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies], RateChange method, IMSVidStreamBufferSourceEvent2::RateChange, IMSVidStreamBufferSourceEvent2RateChange, RateChange method [Microsoft TV Technologies], RateChange method [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent2 interface, RateChange,IMSVidStreamBufferSourceEvent2.RateChange, mstv.imsvidstreambuffersourceevent2_ratechange, segment/IMSVidStreamBufferSourceEvent2::RateChange
+ms.keywords: IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies],RateChange method, IMSVidStreamBufferSourceEvent2.RateChange, IMSVidStreamBufferSourceEvent2::RateChange, IMSVidStreamBufferSourceEvent2RateChange, RateChange, RateChange method [Microsoft TV Technologies], RateChange method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent2 interface, mstv.imsvidstreambuffersourceevent2_ratechange, segment/IMSVidStreamBufferSourceEvent2::RateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSourceEvent2::RateChange method
+# IMSVidStreamBufferSourceEvent2::RateChange
 
 
 ## -description

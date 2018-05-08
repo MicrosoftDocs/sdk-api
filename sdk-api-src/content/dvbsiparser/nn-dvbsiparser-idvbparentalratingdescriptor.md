@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 667ef815-ef22-4dd1-9457-49af674b24ab
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDvbParentalRatingDescriptor, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies], IDvbParentalRatingDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IDvbParentalRatingDescriptor, mstv.idvbparentalratingdescriptor
+ms.keywords: IDvbParentalRatingDescriptor, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies], IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbParentalRatingDescriptor, mstv.idvbparentalratingdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

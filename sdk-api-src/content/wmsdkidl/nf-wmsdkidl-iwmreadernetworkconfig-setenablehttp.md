@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetEnableHTTP
-title: IWMReaderNetworkConfig::SetEnableHTTP method
+title: IWMReaderNetworkConfig::SetEnableHTTP
 author: windows-driver-content
 description: The SetEnableHTTP method enables or disables HTTP.
 old-location: wmformat\iwmreadernetworkconfig_setenablehttp.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 20667a28-e6e0-4ec0-905b-6735291063db
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetEnableHTTP method, IWMReaderNetworkConfig::SetEnableHTTP, IWMReaderNetworkConfigSetEnableHTTP, SetEnableHTTP method [windows Media Format], SetEnableHTTP method [windows Media Format], IWMReaderNetworkConfig interface, SetEnableHTTP,IWMReaderNetworkConfig.SetEnableHTTP, wmformat.iwmreadernetworkconfig_setenablehttp, wmsdkidl/IWMReaderNetworkConfig::SetEnableHTTP
+ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetEnableHTTP method, IWMReaderNetworkConfig.SetEnableHTTP, IWMReaderNetworkConfig::SetEnableHTTP, IWMReaderNetworkConfigSetEnableHTTP, SetEnableHTTP, SetEnableHTTP method [windows Media Format], SetEnableHTTP method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setenablehttp, wmsdkidl/IWMReaderNetworkConfig::SetEnableHTTP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::SetEnableHTTP method
+# IWMReaderNetworkConfig::SetEnableHTTP
 
 
 ## -description

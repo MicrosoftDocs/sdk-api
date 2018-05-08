@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetStringArray
-title: CInstance::SetStringArray method
+title: CInstance::SetStringArray
 author: windows-driver-content
 description: The SetStringArray method sets a property that represents an array of strings.
 old-location: wmi\cinstance_setstringarray.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: dcd1e108-4914-43ea-aa41-d38d38e8954a
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?SetStringArray@CInstance@@QAE_NPBGABUtagSAFEARRAY@@@Z, ?SetStringArray@CInstance@@QEAA_NPEBGAEBUtagSAFEARRAY@@@Z, CInstance, CInstance interface [Windows Management Instrumentation], SetStringArray method, CInstance::SetStringArray, SetStringArray method [Windows Management Instrumentation], SetStringArray method [Windows Management Instrumentation], CInstance interface, SetStringArray,CInstance.SetStringArray, _hmm_cinstance_setstringarray, instance/CInstance::SetStringArray, wmi.cinstance_setstringarray"
+ms.keywords: "?SetStringArray@CInstance@@QAE_NPBGABUtagSAFEARRAY@@@Z, ?SetStringArray@CInstance@@QEAA_NPEBGAEBUtagSAFEARRAY@@@Z, CInstance interface [Windows Management Instrumentation],SetStringArray method, CInstance.SetStringArray, CInstance::SetStringArray, SetStringArray, SetStringArray method [Windows Management Instrumentation], SetStringArray method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setstringarray, instance/CInstance::SetStringArray, wmi.cinstance_setstringarray"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::SetStringArray method
+# CInstance::SetStringArray
 
 
 ## -description

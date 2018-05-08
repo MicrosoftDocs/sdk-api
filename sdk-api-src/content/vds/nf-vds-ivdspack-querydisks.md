@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.QueryDisks
-title: IVdsPack::QueryDisks method
+title: IVdsPack::QueryDisks
 author: windows-driver-content
 description: Returns an object that enumerates the disks in the pack.
 old-location: base\ivdspack_querydisks.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 115c1900-5fea-4e39-be3e-b6d04ceb8a58
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsPack, IVdsPack interface [VDS], QueryDisks method, IVdsPack::QueryDisks, QueryDisks method [VDS], QueryDisks method [VDS], IVdsPack interface, QueryDisks,IVdsPack.QueryDisks, base.ivdspack_querydisks, vds/IVdsPack::QueryDisks
+ms.keywords: IVdsPack interface [VDS],QueryDisks method, IVdsPack.QueryDisks, IVdsPack::QueryDisks, QueryDisks, QueryDisks method [VDS], QueryDisks method [VDS],IVdsPack interface, base.ivdspack_querydisks, vds/IVdsPack::QueryDisks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsPack::QueryDisks method
+# IVdsPack::QueryDisks
 
 
 ## -description

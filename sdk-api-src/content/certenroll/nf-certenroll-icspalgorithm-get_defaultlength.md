@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_DefaultLength
-title: ICspAlgorithm::get_DefaultLength method
+title: ICspAlgorithm::get_DefaultLength
 author: windows-driver-content
 description: Retrieves the default length of a key.
 old-location: security\icspalgorithm_defaultlength_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 03a487e0-5ba4-4065-86e9-bed667db6ff9
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: DefaultLength property [Security], DefaultLength property [Security], ICspAlgorithm interface, ICspAlgorithm, ICspAlgorithm interface [Security], DefaultLength property, ICspAlgorithm.DefaultLength, ICspAlgorithm::get_DefaultLength, certenroll/ICspAlgorithm::DefaultLength, certenroll/ICspAlgorithm::get_DefaultLength, get_DefaultLength,ICspAlgorithm.get_DefaultLength, security.icspalgorithm_defaultlength_property
+ms.keywords: DefaultLength property [Security], DefaultLength property [Security],ICspAlgorithm interface, ICspAlgorithm interface [Security],DefaultLength property, ICspAlgorithm.DefaultLength, ICspAlgorithm.get_DefaultLength, ICspAlgorithm::DefaultLength, ICspAlgorithm::get_DefaultLength, certenroll/ICspAlgorithm::DefaultLength, certenroll/ICspAlgorithm::get_DefaultLength, get_DefaultLength, security.icspalgorithm_defaultlength_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspAlgorithm::get_DefaultLength method
+# ICspAlgorithm::get_DefaultLength
 
 
 ## -description

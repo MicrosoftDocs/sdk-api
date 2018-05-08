@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DVertexShader9.GetFunction
-title: IDirect3DVertexShader9::GetFunction method
+title: IDirect3DVertexShader9::GetFunction
 author: windows-driver-content
 description: Gets a pointer to the shader data.
 old-location: direct3d9\idirect3dvertexshader9__getfunction.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexshader9__getfunction.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: GetFunction method [Direct3D 9], GetFunction method [Direct3D 9], IDirect3DVertexShader9 interface, GetFunction,IDirect3DVertexShader9.GetFunction, IDirect3DVertexShader9, IDirect3DVertexShader9 interface [Direct3D 9], GetFunction method, IDirect3DVertexShader9::GetFunction, d0abe93b-084e-be3d-d4c2-e12b15c9898f, d3d9helper/IDirect3DVertexShader9::GetFunction, direct3d9.idirect3dvertexshader9__getfunction
+ms.keywords: GetFunction, GetFunction method [Direct3D 9], GetFunction method [Direct3D 9],IDirect3DVertexShader9 interface, IDirect3DVertexShader9 interface [Direct3D 9],GetFunction method, IDirect3DVertexShader9.GetFunction, IDirect3DVertexShader9::GetFunction, d0abe93b-084e-be3d-d4c2-e12b15c9898f, d3d9helper/IDirect3DVertexShader9::GetFunction, direct3d9.idirect3dvertexshader9__getfunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DVertexShader9::GetFunction method
+# IDirect3DVertexShader9::GetFunction
 
 
 ## -description

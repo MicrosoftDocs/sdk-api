@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDrawVideoImage.DrawVideoImageEnd
-title: IDrawVideoImage::DrawVideoImageEnd method
+title: IDrawVideoImage::DrawVideoImageEnd
 author: windows-driver-content
 description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageEnd method turns DirectDraw back on after drawing has been performed.
 old-location: dshow\idrawvideoimage_drawvideoimageend.htm
 old-project: DirectShow
 ms.assetid: 051fa283-849d-494c-bebf-d7adabb807a0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: DrawVideoImageEnd method [DirectShow], DrawVideoImageEnd method [DirectShow], IDrawVideoImage interface, DrawVideoImageEnd,IDrawVideoImage.DrawVideoImageEnd, IDrawVideoImage, IDrawVideoImage interface [DirectShow], DrawVideoImageEnd method, IDrawVideoImage::DrawVideoImageEnd, IDrawVideoImageDrawVideoImageEnd, dshow.idrawvideoimage_drawvideoimageend, strmif/IDrawVideoImage::DrawVideoImageEnd
+ms.date: 4/30/2018
+ms.keywords: DrawVideoImageEnd, DrawVideoImageEnd method [DirectShow], DrawVideoImageEnd method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageEnd method, IDrawVideoImage.DrawVideoImageEnd, IDrawVideoImage::DrawVideoImageEnd, IDrawVideoImageDrawVideoImageEnd, dshow.idrawvideoimage_drawvideoimageend, strmif/IDrawVideoImage::DrawVideoImageEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDrawVideoImage::DrawVideoImageEnd method
+# IDrawVideoImage::DrawVideoImageEnd
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetNextUpdateTime
-title: IX509EnrollmentPolicyServer::GetNextUpdateTime method
+title: IX509EnrollmentPolicyServer::GetNextUpdateTime
 author: windows-driver-content
 description: Retrieves the date and time at which the policy expires and should be refreshed.
 old-location: security\ix509enrollmentpolicyserver_getnextupdatetime.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 23ddd933-2392-410b-a4e6-7f5c00f867b3
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetNextUpdateTime method [Security], GetNextUpdateTime method [Security], IX509EnrollmentPolicyServer interface, GetNextUpdateTime,IX509EnrollmentPolicyServer.GetNextUpdateTime, IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], GetNextUpdateTime method, IX509EnrollmentPolicyServer::GetNextUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetNextUpdateTime, security.ix509enrollmentpolicyserver_getnextupdatetime
+ms.keywords: GetNextUpdateTime, GetNextUpdateTime method [Security], GetNextUpdateTime method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetNextUpdateTime method, IX509EnrollmentPolicyServer.GetNextUpdateTime, IX509EnrollmentPolicyServer::GetNextUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetNextUpdateTime, security.ix509enrollmentpolicyserver_getnextupdatetime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509EnrollmentPolicyServer::GetNextUpdateTime method
+# IX509EnrollmentPolicyServer::GetNextUpdateTime
 
 
 ## -description

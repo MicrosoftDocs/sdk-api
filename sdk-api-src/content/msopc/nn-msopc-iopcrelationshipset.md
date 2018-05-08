@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 6259906d-820d-4b6e-bbeb-d9d044f2b35a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcRelationshipSet, IOpcRelationshipSet interface [Open Packaging Conventions], IOpcRelationshipSet interface [Open Packaging Conventions], described, msopc/IOpcRelationshipSet, opc.iopcrelationshipset
+ms.keywords: IOpcRelationshipSet, IOpcRelationshipSet interface [Open Packaging Conventions], IOpcRelationshipSet interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSet, opc.iopcrelationshipset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

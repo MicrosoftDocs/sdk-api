@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidInputDevices.Remove
-title: IMSVidInputDevices::Remove method
+title: IMSVidInputDevices::Remove
 author: windows-driver-content
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidinputdevices_remove.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c8990564-70d3-4962-9ff2-24664dbc1161
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidInputDevices, IMSVidInputDevices interface [Microsoft TV Technologies], Remove method, IMSVidInputDevices::Remove, IMSVidInputDevicesRemove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies], IMSVidInputDevices interface, Remove,IMSVidInputDevices.Remove, mstv.imsvidinputdevices_remove, segment/IMSVidInputDevices::Remove
+ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],Remove method, IMSVidInputDevices.Remove, IMSVidInputDevices::Remove, IMSVidInputDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidInputDevices interface, mstv.imsvidinputdevices_remove, segment/IMSVidInputDevices::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidInputDevices::Remove method
+# IMSVidInputDevices::Remove
 
 
 ## -description

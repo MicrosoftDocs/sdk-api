@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingPortMappingCollection.get_Count
-title: INetSharingPortMappingCollection::get_Count method
+title: INetSharingPortMappingCollection::get_Count
 author: windows-driver-content
 description: The get__Count method retrieves the number of items in the port mapping collection.
 old-location: ics\inetsharingportmappingcollection_get_count.htm
 old-project: ICS
 ms.assetid: 40a697e8-aac4-4656-9c86-d11b5cdcb9e2
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingPortMappingCollection, INetSharingPortMappingCollection interface [ICS/ICF], get_Count method, INetSharingPortMappingCollection::get_Count, _ics_inetsharingportmappingcollection_get_count, get_Count method [ICS/ICF], get_Count method [ICS/ICF], INetSharingPortMappingCollection interface, get_Count,INetSharingPortMappingCollection.get_Count, ics.inetsharingportmappingcollection_get_count, netcon/INetSharingPortMappingCollection::get_Count
+ms.date: 5/1/2018
+ms.keywords: INetSharingPortMappingCollection interface [ICS/ICF],get_Count method, INetSharingPortMappingCollection.get_Count, INetSharingPortMappingCollection::get_Count, _ics_inetsharingportmappingcollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingPortMappingCollection interface, ics.inetsharingportmappingcollection_get_count, netcon/INetSharingPortMappingCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingPortMappingCollection::get_Count method
+# INetSharingPortMappingCollection::get_Count
 
 
 ## -description

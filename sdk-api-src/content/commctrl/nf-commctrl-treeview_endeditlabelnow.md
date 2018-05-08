@@ -7,7 +7,7 @@ old-location: controls\TreeView_EndEditLabelNow.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_endeditlabelnow.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: TreeView_EndEditLabelNow, TreeView_EndEditLabelNow macro [Windows Controls], _win32_TreeView_EndEditLabelNow, _win32_TreeView_EndEditLabelNow_cpp, commctrl/TreeView_EndEditLabelNow, controls.TreeView_EndEditLabelNow, controls._win32_TreeView_EndEditLabelNow
 ms.prod: windows-hardware
 ms.technology: windows-devices

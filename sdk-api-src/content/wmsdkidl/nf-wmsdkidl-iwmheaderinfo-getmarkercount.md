@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetMarkerCount
-title: IWMHeaderInfo::GetMarkerCount method
+title: IWMHeaderInfo::GetMarkerCount
 author: windows-driver-content
 description: The GetMarkerCount method returns the number of markers currently in the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_getmarkercount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c0d8e61d-8703-407a-9610-9e9f29ab92a1
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetMarkerCount method [windows Media Format], GetMarkerCount method [windows Media Format], IWMHeaderInfo interface, GetMarkerCount method [windows Media Format], IWMHeaderInfo2 interface, GetMarkerCount method [windows Media Format], IWMHeaderInfo3 interface, GetMarkerCount,IWMHeaderInfo.GetMarkerCount, IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], GetMarkerCount method, IWMHeaderInfo2 interface [windows Media Format], GetMarkerCount method, IWMHeaderInfo2::GetMarkerCount, IWMHeaderInfo3 interface [windows Media Format], GetMarkerCount method, IWMHeaderInfo3::GetMarkerCount, IWMHeaderInfo::GetMarkerCount, IWMHeaderInfoGetMarkerCount, wmformat.iwmheaderinfo_getmarkercount, wmsdkidl/IWMHeaderInfo2::GetMarkerCount, wmsdkidl/IWMHeaderInfo3::GetMarkerCount, wmsdkidl/IWMHeaderInfo::GetMarkerCount
+ms.keywords: GetMarkerCount, GetMarkerCount method [windows Media Format], GetMarkerCount method [windows Media Format],IWMHeaderInfo interface, GetMarkerCount method [windows Media Format],IWMHeaderInfo2 interface, GetMarkerCount method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetMarkerCount method, IWMHeaderInfo.GetMarkerCount, IWMHeaderInfo2 interface [windows Media Format],GetMarkerCount method, IWMHeaderInfo2::GetMarkerCount, IWMHeaderInfo3 interface [windows Media Format],GetMarkerCount method, IWMHeaderInfo3::GetMarkerCount, IWMHeaderInfo::GetMarkerCount, IWMHeaderInfoGetMarkerCount, wmformat.iwmheaderinfo_getmarkercount, wmsdkidl/IWMHeaderInfo2::GetMarkerCount, wmsdkidl/IWMHeaderInfo3::GetMarkerCount, wmsdkidl/IWMHeaderInfo::GetMarkerCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMHeaderInfo::GetMarkerCount method
+# IWMHeaderInfo::GetMarkerCount
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Clip
-title: IInkStrokeDisp::Clip method
+title: IInkStrokeDisp::Clip
 author: windows-driver-content
 description: Removes portions of an IInkStrokeDisp object or InkStrokes collection that are outside a rectangle.
 old-location: tablet\iinkstrokedisp_clip.htm
 old-project: tablet
 ms.assetid: d3733613-fc8e-41f2-9172-07b61fc133dd
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Clip method [Tablet PC], Clip method [Tablet PC], IInkStrokeDisp interface, Clip,IInkStrokeDisp.Clip, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], Clip method, IInkStrokeDisp::Clip, d3733613-fc8e-41f2-9172-07b61fc133dd, msinkaut/IInkStrokeDisp::Clip, tablet.iinkstrokedisp_clip
+ms.date: 5/2/2018
+ms.keywords: Clip, Clip method [Tablet PC], Clip method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],Clip method, IInkStrokeDisp.Clip, IInkStrokeDisp::Clip, d3733613-fc8e-41f2-9172-07b61fc133dd, msinkaut/IInkStrokeDisp::Clip, tablet.iinkstrokedisp_clip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::Clip method
+# IInkStrokeDisp::Clip
 
 
 ## -description

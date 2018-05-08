@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreateManifestReader
-title: IAppxFactory::CreateManifestReader method
+title: IAppxFactory::CreateManifestReader
 author: windows-driver-content
 description: Creates a read-only manifest object model from contents provided by an IStream.
 old-location: appxpkg\iappxfactory_createmanifestreader.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: BF6C83FF-8CB1-47C0-84C3-E71059F0796E
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateManifestReader method [App packaging and management], CreateManifestReader method [App packaging and management], IAppxFactory interface, CreateManifestReader,IAppxFactory.CreateManifestReader, IAppxFactory, IAppxFactory interface [App packaging and management], CreateManifestReader method, IAppxFactory::CreateManifestReader, appxpackaging/IAppxFactory::CreateManifestReader, appxpkg.iappxfactory_createmanifestreader
+ms.keywords: CreateManifestReader, CreateManifestReader method [App packaging and management], CreateManifestReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreateManifestReader method, IAppxFactory.CreateManifestReader, IAppxFactory::CreateManifestReader, appxpackaging/IAppxFactory::CreateManifestReader, appxpkg.iappxfactory_createmanifestreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxFactory::CreateManifestReader method
+# IAppxFactory::CreateManifestReader
 
 
 ## -description

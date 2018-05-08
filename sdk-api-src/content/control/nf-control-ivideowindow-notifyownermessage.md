@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IVideoWindow.NotifyOwnerMessage
-title: IVideoWindow::NotifyOwnerMessage method
+title: IVideoWindow::NotifyOwnerMessage
 author: windows-driver-content
 description: The NotifyOwnerMessage method forwards a message to the video window.
 old-location: dshow\ivideowindow_notifyownermessage.htm
 old-project: DirectShow
 ms.assetid: 37d28f32-5da5-4082-ac57-5b274e95ca68
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], NotifyOwnerMessage method, IVideoWindow::NotifyOwnerMessage, IVideoWindowNotifyOwnerMessage, NotifyOwnerMessage method [DirectShow], NotifyOwnerMessage method [DirectShow], IVideoWindow interface, NotifyOwnerMessage,IVideoWindow.NotifyOwnerMessage, control/IVideoWindow::NotifyOwnerMessage, dshow.ivideowindow_notifyownermessage
+ms.date: 4/30/2018
+ms.keywords: IVideoWindow interface [DirectShow],NotifyOwnerMessage method, IVideoWindow.NotifyOwnerMessage, IVideoWindow::NotifyOwnerMessage, IVideoWindowNotifyOwnerMessage, NotifyOwnerMessage, NotifyOwnerMessage method [DirectShow], NotifyOwnerMessage method [DirectShow],IVideoWindow interface, control/IVideoWindow::NotifyOwnerMessage, dshow.ivideowindow_notifyownermessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IVideoWindow::NotifyOwnerMessage method
+# IVideoWindow::NotifyOwnerMessage
 
 
 ## -description

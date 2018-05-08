@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy2.put_TftpMaximumBlockSize
-title: IWdsTransportServicePolicy2::put_TftpMaximumBlockSize method
+title: IWdsTransportServicePolicy2::put_TftpMaximumBlockSize
 author: windows-driver-content
 description: Receives a value for the maximum block size used by the TFTP server. The value enables a WDS client computer to configure the maximum block size.
 old-location: wds\iwdstransportservicepolicy2_tftpmaximumblocksize.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: F1976D40-86A9-4E86-80DD-897AE03A2A0A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportServicePolicy2, IWdsTransportServicePolicy2 interface [Windows Deployment Services], TftpMaximumBlockSize property, IWdsTransportServicePolicy2.TftpMaximumBlockSize, IWdsTransportServicePolicy2::get_TftpMaximumBlockSize, IWdsTransportServicePolicy2::put_TftpMaximumBlockSize, TftpMaximumBlockSize property [Windows Deployment Services], TftpMaximumBlockSize property [Windows Deployment Services], IWdsTransportServicePolicy2 interface, put_TftpMaximumBlockSize,IWdsTransportServicePolicy2.put_TftpMaximumBlockSize, wds.iwdstransportservicepolicy2_tftpmaximumblocksize, wdstptmgmt/IWdsTransportServicePolicy2::TftpMaximumBlockSize, wdstptmgmt/IWdsTransportServicePolicy2::get_TftpMaximumBlockSize, wdstptmgmt/IWdsTransportServicePolicy2::put_TftpMaximumBlockSize
+ms.keywords: IWdsTransportServicePolicy2 interface [Windows Deployment Services],TftpMaximumBlockSize property, IWdsTransportServicePolicy2.TftpMaximumBlockSize, IWdsTransportServicePolicy2.put_TftpMaximumBlockSize, IWdsTransportServicePolicy2::TftpMaximumBlockSize, IWdsTransportServicePolicy2::get_TftpMaximumBlockSize, IWdsTransportServicePolicy2::put_TftpMaximumBlockSize, TftpMaximumBlockSize property [Windows Deployment Services], TftpMaximumBlockSize property [Windows Deployment Services],IWdsTransportServicePolicy2 interface, put_TftpMaximumBlockSize, wds.iwdstransportservicepolicy2_tftpmaximumblocksize, wdstptmgmt/IWdsTransportServicePolicy2::TftpMaximumBlockSize, wdstptmgmt/IWdsTransportServicePolicy2::get_TftpMaximumBlockSize, wdstptmgmt/IWdsTransportServicePolicy2::put_TftpMaximumBlockSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportServicePolicy2::put_TftpMaximumBlockSize method
+# IWdsTransportServicePolicy2::put_TftpMaximumBlockSize
 
 
 ## -description

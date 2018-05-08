@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CLUSPROP_RESOURCE_CLASS, *PCLUSPROP_RESOURCE_CLASS, CLUSPROP_RESOURCE_CLASS, *PCLUSPROP_RESOURCE_CLASS
+req.typenames: CLUSPROP_RESOURCE_CLASS, *PCLUSPROP_RESOURCE_CLASS
 topic_type:
 -	APIRef
 -	kbSyntax

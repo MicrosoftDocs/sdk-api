@@ -1,0 +1,8 @@
+# [Display Devices Reference](../_display/index.md)
+## [Dmemmgr.h](index.md)
+### [HeapVidMemAllocAligned function](../dmemmgr/nf-dmemmgr-heapvidmemallocaligned.md)
+### [VidMemFree function](../dmemmgr/nf-dmemmgr-vidmemfree.md)
+### [_DD_GETHEAPALIGNMENTDATA structure](../dmemmgr/ns-dmemmgr-_dd_getheapalignmentdata.md)
+### [_HEAPALIGNMENT structure](../dmemmgr/ns-dmemmgr-_heapalignment.md)
+### [_SURFACEALIGNMENT structure](../dmemmgr/ns-dmemmgr-_surfacealignment.md)
+### [_VMEMHEAP structure](../dmemmgr/ns-dmemmgr-_vmemheap.md)

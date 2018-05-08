@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IDeviceController.remove_DeviceArrival
-title: IDeviceController::remove_DeviceArrival method
+title: IDeviceController::streaming
 author: windows-driver-content
 description: Unregisters an event handler for the DeviceArrival event.
 old-location: mediastreaming\idevicecontroller_remove_devicearrival.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: D1026B13-627C-4FD4-A402-C05E42CF3DCF
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDeviceController, IDeviceController interface [Media Streaming API], remove_DeviceArrival method, IDeviceController::remove_DeviceArrival, mediastreaming.idevicecontroller_remove_devicearrival, remove_DeviceArrival method [Media Streaming API], remove_DeviceArrival method [Media Streaming API], IDeviceController interface, remove_DeviceArrival,IDeviceController.remove_DeviceArrival, windows/IDeviceController::remove_DeviceArrival
+ms.keywords: IDeviceController interface [Media Streaming API],remove_DeviceArrival method, IDeviceController.remove_DeviceArrival, IDeviceController.streaming, IDeviceController::remove_DeviceArrival, IDeviceController::streaming, mediastreaming.idevicecontroller_remove_devicearrival, remove_DeviceArrival, remove_DeviceArrival method [Media Streaming API], remove_DeviceArrival method [Media Streaming API],IDeviceController interface, windows/IDeviceController::remove_DeviceArrival
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IDeviceController::remove_DeviceArrival method
+# IDeviceController::streaming
 
 
 ## -description

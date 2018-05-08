@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnTestKeyDown
-title: ITfKeyEventSink::OnTestKeyDown method
+title: ITfKeyEventSink::OnTestKeyDown
 author: windows-driver-content
 description: ITfKeyEventSink::OnTestKeyDown method
 old-location: tsf\itfkeyeventsink_ontestkeydown.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 3d8056ef-c012-4989-91ce-65ae8cd39404
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfKeyEventSink, ITfKeyEventSink interface [Text Services Framework], OnTestKeyDown method, ITfKeyEventSink::OnTestKeyDown, OnTestKeyDown method [Text Services Framework], OnTestKeyDown method [Text Services Framework], ITfKeyEventSink interface, OnTestKeyDown,ITfKeyEventSink.OnTestKeyDown, _tsf_itfkeyeventsink_ontestkeydown_ref, msctf/ITfKeyEventSink::OnTestKeyDown, tsf.itfkeyeventsink_ontestkeydown
+ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnTestKeyDown method, ITfKeyEventSink.OnTestKeyDown, ITfKeyEventSink::OnTestKeyDown, OnTestKeyDown, OnTestKeyDown method [Text Services Framework], OnTestKeyDown method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_ontestkeydown_ref, msctf/ITfKeyEventSink::OnTestKeyDown, tsf.itfkeyeventsink_ontestkeydown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfKeyEventSink::OnTestKeyDown method
+# ITfKeyEventSink::OnTestKeyDown
 
 
 ## -description

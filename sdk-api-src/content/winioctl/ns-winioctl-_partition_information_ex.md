@@ -94,18 +94,16 @@ If this member is <b>TRUE</b>, the partition is rewritable. The value of this pa
  
 
 
-
-
-#### - Gpt
-
-A 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563763">PARTITION_INFORMATION_GPT</a> structure that specifies partition information specific to GUID partition table (GPT) disks. The GPT format corresponds to the EFI partition format.
-
-
-#### - Mbr
+### -field DUMMYUNIONNAME.Mbr
 
 A 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563767">PARTITION_INFORMATION_MBR</a> structure that specifies partition information specific to master boot record (MBR) disks. The MBR partition format is the standard <i>AT-style</i> format.
+
+
+### -field DUMMYUNIONNAME.Gpt
+
+A 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563763">PARTITION_INFORMATION_GPT</a> structure that specifies partition information specific to GUID partition table (GPT) disks. The GPT format corresponds to the EFI partition format.
 
 
 ## -remarks

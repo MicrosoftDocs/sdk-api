@@ -1,6 +1,6 @@
 ---
 UID: NF:imepad.IImePadApplet.Terminate
-title: IImePadApplet::Terminate method
+title: IImePadApplet::Terminate
 author: windows-driver-content
 description: Called from IImePad to terminate IImePadApplet when the IMEPad instance exits.
 old-location: intl\iimepadapplet_terminate.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 864E5CBB-8056-46B5-BF78-9A66EC861F8A
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IImePadApplet, IImePadApplet interface [Internationalization for Windows Applications], Terminate method, IImePadApplet::Terminate, Terminate method [Internationalization for Windows Applications], Terminate method [Internationalization for Windows Applications], IImePadApplet interface, Terminate,IImePadApplet.Terminate, imepad/IImePadApplet::Terminate, intl.iimepadapplet_terminate
+ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Terminate method, IImePadApplet.Terminate, IImePadApplet::Terminate, Terminate, Terminate method [Internationalization for Windows Applications], Terminate method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Terminate, intl.iimepadapplet_terminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IImePadApplet::Terminate method
+# IImePadApplet::Terminate
 
 
 ## -description

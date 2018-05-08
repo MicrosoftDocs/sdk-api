@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetValue
-title: IPropertyEnumType::GetValue method
+title: IPropertyEnumType::GetValue
 author: windows-driver-content
 description: Gets a value from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetValue.htm
 old-project: properties
 ms.assetid: e820087b-95fb-4352-9bb0-cf34216d37a6
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetValue method [Windows Properties], GetValue method [Windows Properties], IPropertyEnumType interface, GetValue,IPropertyEnumType.GetValue, IPropertyEnumType, IPropertyEnumType interface [Windows Properties], GetValue method, IPropertyEnumType::GetValue, _shell_IPropertyEnumType_GetValue, properties.IPropertyEnumType_GetValue, propsys/IPropertyEnumType::GetValue, shell.IPropertyEnumType_GetValue
+ms.date: 4/27/2018
+ms.keywords: GetValue, GetValue method [Windows Properties], GetValue method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetValue method, IPropertyEnumType.GetValue, IPropertyEnumType::GetValue, _shell_IPropertyEnumType_GetValue, properties.IPropertyEnumType_GetValue, propsys/IPropertyEnumType::GetValue, shell.IPropertyEnumType_GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyEnumType::GetValue method
+# IPropertyEnumType::GetValue
 
 
 ## -description

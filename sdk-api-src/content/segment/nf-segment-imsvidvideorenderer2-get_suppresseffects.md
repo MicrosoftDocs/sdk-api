@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.get_SuppressEffects
-title: IMSVidVideoRenderer2::get_SuppressEffects method
+title: IMSVidVideoRenderer2::get_SuppressEffects
 author: windows-driver-content
 description: The get_SuppressEffects method retrieves settings that control power management and visual effects.
 old-location: mstv\imsvidvideorenderer2_get_suppresseffects.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 5a8546f8-61de-4e98-bee3-26ca4d0ea2e4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer2, IMSVidVideoRenderer2 interface [Microsoft TV Technologies], get_SuppressEffects method, IMSVidVideoRenderer2::get_SuppressEffects, IMSVidVideoRenderer2get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies], IMSVidVideoRenderer2 interface, get_SuppressEffects,IMSVidVideoRenderer2.get_SuppressEffects, mstv.imsvidvideorenderer2_get_suppresseffects, segment/IMSVidVideoRenderer2::get_SuppressEffects
+ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidVideoRenderer2.get_SuppressEffects, IMSVidVideoRenderer2::get_SuppressEffects, IMSVidVideoRenderer2get_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get_suppresseffects, segment/IMSVidVideoRenderer2::get_SuppressEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer2::get_SuppressEffects method
+# IMSVidVideoRenderer2::get_SuppressEffects
 
 
 ## -description

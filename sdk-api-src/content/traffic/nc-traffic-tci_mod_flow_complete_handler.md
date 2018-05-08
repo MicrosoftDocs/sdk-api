@@ -8,7 +8,7 @@ old-project: QOS
 ms.assetid: 61afc465-d942-4db7-96ee-56f3f1c3cafa
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: ClModifyFlowComplete, ClModifyFlowComplete callback function [QOS], TCI_MOD_FLOW_COMPLETE_HANDLER, TCI_MOD_FLOW_COMPLETE_HANDLER callback function [QOS], _gqos_clmodifyflowcomplete, qos.clmodifyflowcomplete, traffic/ClModifyFlowComplete
+ms.keywords: ClModifyFlowComplete, ClModifyFlowComplete callback, ClModifyFlowComplete callback function [QOS], TCI_MOD_FLOW_COMPLETE_HANDLER, TCI_MOD_FLOW_COMPLETE_HANDLER callback function [QOS], _gqos_clmodifyflowcomplete, qos.clmodifyflowcomplete, traffic/ClModifyFlowComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# TCI_MOD_FLOW_COMPLETE_HANDLER callback
+# TCI_MOD_FLOW_COMPLETE_HANDLER callback function
 
 
 ## -description

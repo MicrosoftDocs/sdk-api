@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 203264d1-f67c-45ba-931b-206d7f57a2a6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskSettings, ITaskSettings interface [Task Scheduler], ITaskSettings interface [Task Scheduler], described, taskschd.itasksettings, taskschd/ITaskSettings
+ms.keywords: ITaskSettings, ITaskSettings interface [Task Scheduler], ITaskSettings interface [Task Scheduler],described, taskschd.itasksettings, taskschd/ITaskSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

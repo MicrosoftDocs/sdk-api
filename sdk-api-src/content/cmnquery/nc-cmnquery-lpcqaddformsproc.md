@@ -7,8 +7,8 @@ old-location: ad\cqaddformsproc.htm
 old-project: AD
 ms.assetid: e4221299-93de-4747-b464-0d152d6e767b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: CQAddFormsProc, CQAddFormsProc callback function [Active Directory], LPCQADDFORMSPROC, LPCQADDFORMSPROC callback function pointer [Active Directory], ad.cqaddformsproc, cmnquery/CQAddFormsProc
+ms.date: 5/1/2018
+ms.keywords: CQAddFormsProc, CQAddFormsProc callback, CQAddFormsProc callback function [Active Directory], LPCQADDFORMSPROC, LPCQADDFORMSPROC callback function pointer [Active Directory], ad.cqaddformsproc, cmnquery/CQAddFormsProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# LPCQADDFORMSPROC callback
+# LPCQADDFORMSPROC callback function
 
 
 ## -description

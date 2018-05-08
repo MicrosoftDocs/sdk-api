@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 1dace3a7-8e97-405c-b1fe-f5a67c05fb0c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: PSTART_COMPLETE, StartComplete, StartComplete callback function [RAS], _mpr_startcomplete, routprot/StartComplete, rras.startcomplete
+ms.keywords: PSTART_COMPLETE, PSTART_COMPLETE callback, StartComplete, StartComplete callback function [RAS], _mpr_startcomplete, routprot/StartComplete, rras.startcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PSTART_COMPLETE callback
+# PSTART_COMPLETE callback function
 
 
 ## -description

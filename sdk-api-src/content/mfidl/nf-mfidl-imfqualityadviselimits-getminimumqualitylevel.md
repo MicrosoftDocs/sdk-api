@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFQualityAdviseLimits.GetMinimumQualityLevel
-title: IMFQualityAdviseLimits::GetMinimumQualityLevel method
+title: IMFQualityAdviseLimits::GetMinimumQualityLevel
 author: windows-driver-content
 description: Gets the minimum quality level that is supported by the component.
 old-location: mf\imfqualityadviselimits_getminimumqualitylevel.htm
 old-project: medfound
 ms.assetid: aea08ae5-4252-4703-964b-afc6bbc01a51
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetMinimumQualityLevel method [Media Foundation], GetMinimumQualityLevel method [Media Foundation], IMFQualityAdviseLimits interface, GetMinimumQualityLevel,IMFQualityAdviseLimits.GetMinimumQualityLevel, IMFQualityAdviseLimits, IMFQualityAdviseLimits interface [Media Foundation], GetMinimumQualityLevel method, IMFQualityAdviseLimits::GetMinimumQualityLevel, mf.imfqualityadviselimits_getminimumqualitylevel, mfidl/IMFQualityAdviseLimits::GetMinimumQualityLevel
+ms.date: 5/3/2018
+ms.keywords: GetMinimumQualityLevel, GetMinimumQualityLevel method [Media Foundation], GetMinimumQualityLevel method [Media Foundation],IMFQualityAdviseLimits interface, IMFQualityAdviseLimits interface [Media Foundation],GetMinimumQualityLevel method, IMFQualityAdviseLimits.GetMinimumQualityLevel, IMFQualityAdviseLimits::GetMinimumQualityLevel, mf.imfqualityadviselimits_getminimumqualitylevel, mfidl/IMFQualityAdviseLimits::GetMinimumQualityLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFQualityAdviseLimits::GetMinimumQualityLevel method
+# IMFQualityAdviseLimits::GetMinimumQualityLevel
 
 
 ## -description

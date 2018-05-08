@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionEvents.NetworkConnectionConnectivityChanged
-title: INetworkConnectionEvents::NetworkConnectionConnectivityChanged method
+title: INetworkConnectionEvents::NetworkConnectionConnectivityChanged
 author: windows-driver-content
 description: The NetworkConnectionConnectivityChanged method notifies a client when connectivity change events occur on a network connection level.
 old-location: nla\inetworkconnectionevents_networkconnectionconnectivitychanged.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 0b245a6e-918c-41de-b33e-87723491e900
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetworkConnectionEvents, INetworkConnectionEvents interface [Network Awareness], NetworkConnectionConnectivityChanged method, INetworkConnectionEvents::NetworkConnectionConnectivityChanged, NetworkConnectionConnectivityChanged method [Network Awareness], NetworkConnectionConnectivityChanged method [Network Awareness], INetworkConnectionEvents interface, NetworkConnectionConnectivityChanged,INetworkConnectionEvents.NetworkConnectionConnectivityChanged, netlistmgr/INetworkConnectionEvents::NetworkConnectionConnectivityChanged, nla.inetworkconnectionevents_networkconnectionconnectivitychanged
+ms.keywords: INetworkConnectionEvents interface [Network Awareness],NetworkConnectionConnectivityChanged method, INetworkConnectionEvents.NetworkConnectionConnectivityChanged, INetworkConnectionEvents::NetworkConnectionConnectivityChanged, NetworkConnectionConnectivityChanged, NetworkConnectionConnectivityChanged method [Network Awareness], NetworkConnectionConnectivityChanged method [Network Awareness],INetworkConnectionEvents interface, netlistmgr/INetworkConnectionEvents::NetworkConnectionConnectivityChanged, nla.inetworkconnectionevents_networkconnectionconnectivitychanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkConnectionEvents::NetworkConnectionConnectivityChanged method
+# INetworkConnectionEvents::NetworkConnectionConnectivityChanged
 
 
 ## -description

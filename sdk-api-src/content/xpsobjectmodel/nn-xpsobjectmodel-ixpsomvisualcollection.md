@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f373b437-3973-40aa-9cac-a6b196a3e5d1
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Documents and Packaging], IXpsOMVisualCollection interface [XPS Documents and Packaging], described, xps.ixpsomvisualcollection, xpsobjectmodel/IXpsOMVisualCollection
+ms.keywords: IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Documents and Packaging], IXpsOMVisualCollection interface [XPS Documents and Packaging],described, xps.ixpsomvisualcollection, xpsobjectmodel/IXpsOMVisualCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

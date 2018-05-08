@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.ReleaseImmContext
-title: ITextDocument2::ReleaseImmContext method
+title: ITextDocument2::ReleaseImmContext
 author: windows-driver-content
 description: Releases an Input Method Manager (IMM) input context.
 old-location: controls\itextdocument2_releaseimmcontext.htm
 old-project: Controls
 ms.assetid: 2172e20b-2343-4a65-a08e-0d8b8c101860
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], ReleaseImmContext method, ITextDocument2::ReleaseImmContext, ReleaseImmContext method [Windows Controls], ReleaseImmContext method [Windows Controls], ITextDocument2 interface, ReleaseImmContext,ITextDocument2.ReleaseImmContext, controls.itextdocument2_releaseimmcontext, tom/ITextDocument2::ReleaseImmContext
+ms.date: 4/27/2018
+ms.keywords: ITextDocument2 interface [Windows Controls],ReleaseImmContext method, ITextDocument2.ReleaseImmContext, ITextDocument2::ReleaseImmContext, ReleaseImmContext, ReleaseImmContext method [Windows Controls], ReleaseImmContext method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_releaseimmcontext, tom/ITextDocument2::ReleaseImmContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::ReleaseImmContext method
+# ITextDocument2::ReleaseImmContext
 
 
 ## -description

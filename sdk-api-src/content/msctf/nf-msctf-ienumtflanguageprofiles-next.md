@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Next
-title: IEnumTfLanguageProfiles::Next method
+title: IEnumTfLanguageProfiles::Next
 author: windows-driver-content
 description: IEnumTfLanguageProfiles::Next method
 old-location: tsf\ienumtflanguageprofiles_next.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 790fb0f4-4abd-4947-8e9a-68739657a8f8
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfLanguageProfiles, IEnumTfLanguageProfiles interface [Text Services Framework], Next method, IEnumTfLanguageProfiles::Next, Next method [Text Services Framework], Next method [Text Services Framework], IEnumTfLanguageProfiles interface, Next,IEnumTfLanguageProfiles.Next, _tsf_ienumtflanguageprofiles_next_ref, msctf/IEnumTfLanguageProfiles::Next, tsf.ienumtflanguageprofiles_next
+ms.keywords: IEnumTfLanguageProfiles interface [Text Services Framework],Next method, IEnumTfLanguageProfiles.Next, IEnumTfLanguageProfiles::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfLanguageProfiles interface, _tsf_ienumtflanguageprofiles_next_ref, msctf/IEnumTfLanguageProfiles::Next, tsf.ienumtflanguageprofiles_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfLanguageProfiles::Next method
+# IEnumTfLanguageProfiles::Next
 
 
 ## -description

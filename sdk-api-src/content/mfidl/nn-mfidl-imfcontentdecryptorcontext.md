@@ -7,8 +7,8 @@ old-location: mf\imfcontentdecryptorcontext.htm
 old-project: medfound
 ms.assetid: 94DB835F-3D2A-4CC8-A1CF-10215E3D30D6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFContentDecryptorContext, IMFContentDecryptorContext interface [Media Foundation], IMFContentDecryptorContext interface [Media Foundation], described, mf.imfcontentdecryptorcontext, mfidl/IMFContentDecryptorContext
+ms.date: 5/3/2018
+ms.keywords: IMFContentDecryptorContext, IMFContentDecryptorContext interface [Media Foundation], IMFContentDecryptorContext interface [Media Foundation],described, mf.imfcontentdecryptorcontext, mfidl/IMFContentDecryptorContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

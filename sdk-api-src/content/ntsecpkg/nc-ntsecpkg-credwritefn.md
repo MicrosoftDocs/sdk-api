@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CredWriteFn callback
+# CredWriteFn callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:cloneviewhelper.IViewHelper.GetProceedOnNewConfiguration
-title: IViewHelper::GetProceedOnNewConfiguration method
+title: IViewHelper::GetProceedOnNewConfiguration
 author: windows-driver-content
 description: The GetProceedOnNewConfiguration method allows the user-mode display driver to suppress the TMM user interface and display changing actions on a new, two-monitor configuration.
 old-location: display\iviewhelper_getproceedonnewconfiguration.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 223fc545-0fe8-4907-870a-7c0e4ec2f2e8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetProceedOnNewConfiguration method [Display Devices], GetProceedOnNewConfiguration method [Display Devices], IViewHelper interface, GetProceedOnNewConfiguration,IViewHelper.GetProceedOnNewConfiguration, IViewHelper, IViewHelper interface [Display Devices], GetProceedOnNewConfiguration method, IViewHelper::GetProceedOnNewConfiguration, TMM_Ref_3cc57f4b-1882-4f95-955c-23b6e8635a98.xml, cloneviewhelper/IViewHelper::GetProceedOnNewConfiguration, display.iviewhelper_getproceedonnewconfiguration
+ms.keywords: GetProceedOnNewConfiguration, GetProceedOnNewConfiguration method [Display Devices], GetProceedOnNewConfiguration method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetProceedOnNewConfiguration method, IViewHelper.GetProceedOnNewConfiguration, IViewHelper::GetProceedOnNewConfiguration, TMM_Ref_3cc57f4b-1882-4f95-955c-23b6e8635a98.xml, cloneviewhelper/IViewHelper::GetProceedOnNewConfiguration, display.iviewhelper_getproceedonnewconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IViewHelper::GetProceedOnNewConfiguration method
+# IViewHelper::GetProceedOnNewConfiguration
 
 
 ## -description

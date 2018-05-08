@@ -1,6 +1,6 @@
 ---
 UID: NF:vss.IVssEnumObject.Next
-title: IVssEnumObject::Next method
+title: IVssEnumObject::Next
 author: windows-driver-content
 description: Returns the specified number of objects from the specified list of enumerated objects.
 old-location: base\ivssenumobject_next.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 9bfaba94-802f-47f5-9843-acc05b32f1b2
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssEnumObject, IVssEnumObject interface [VSS], Next method, IVssEnumObject::Next, Next method [VSS], Next method [VSS], IVssEnumObject interface, Next,IVssEnumObject.Next, _win32_ivssenumobject_next, base.ivssenumobject_next, vss/IVssEnumObject::Next
+ms.keywords: IVssEnumObject interface [VSS],Next method, IVssEnumObject.Next, IVssEnumObject::Next, Next, Next method [VSS], Next method [VSS],IVssEnumObject interface, _win32_ivssenumobject_next, base.ivssenumobject_next, vss/IVssEnumObject::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssEnumObject::Next method
+# IVssEnumObject::Next
 
 
 ## -description

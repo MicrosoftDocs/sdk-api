@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.OnClick
-title: ITfLangBarItemBitmapButton::OnClick method
+title: ITfLangBarItemBitmapButton::OnClick
 author: windows-driver-content
 description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BUTTON style.
 old-location: tsf\itflangbaritembitmapbutton_onclick.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 8d376d22-897d-4032-9c9e-7d0f93d73fac
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarItemBitmapButton, ITfLangBarItemBitmapButton interface [Text Services Framework], OnClick method, ITfLangBarItemBitmapButton::OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework], ITfLangBarItemBitmapButton interface, OnClick,ITfLangBarItemBitmapButton.OnClick, _tsf_itflangbaritembitmapbutton_onclick_ref, ctfutb/ITfLangBarItemBitmapButton::OnClick, tsf.itflangbaritembitmapbutton_onclick
+ms.keywords: ITfLangBarItemBitmapButton interface [Text Services Framework],OnClick method, ITfLangBarItemBitmapButton.OnClick, ITfLangBarItemBitmapButton::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemBitmapButton interface, _tsf_itflangbaritembitmapbutton_onclick_ref, ctfutb/ITfLangBarItemBitmapButton::OnClick, tsf.itflangbaritembitmapbutton_onclick
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemBitmapButton::OnClick method
+# ITfLangBarItemBitmapButton::OnClick
 
 
 ## -description

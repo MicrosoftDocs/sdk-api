@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetNextSample
-title: IMFASFSplitter::GetNextSample method
+title: IMFASFSplitter::GetNextSample
 author: windows-driver-content
 description: Retrieves a sample from the Advanced Systems Format (ASF) splitter after the data has been parsed.
 old-location: mf\imfasfsplitter_getnextsample.htm
 old-project: medfound
 ms.assetid: 85133059-6710-4fb2-b42b-f54747816f9c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 85133059-6710-4fb2-b42b-f54747816f9c, ASF_STATUSFLAGS_INCOMPLETE, GetNextSample method [Media Foundation], GetNextSample method [Media Foundation], IMFASFSplitter interface, GetNextSample,IMFASFSplitter.GetNextSample, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], GetNextSample method, IMFASFSplitter::GetNextSample, Zero, mf.imfasfsplitter_getnextsample, wmcontainer/IMFASFSplitter::GetNextSample
+ms.date: 5/3/2018
+ms.keywords: 85133059-6710-4fb2-b42b-f54747816f9c, ASF_STATUSFLAGS_INCOMPLETE, GetNextSample, GetNextSample method [Media Foundation], GetNextSample method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetNextSample method, IMFASFSplitter.GetNextSample, IMFASFSplitter::GetNextSample, Zero, mf.imfasfsplitter_getnextsample, wmcontainer/IMFASFSplitter::GetNextSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFSplitter::GetNextSample method
+# IMFASFSplitter::GetNextSample
 
 
 ## -description

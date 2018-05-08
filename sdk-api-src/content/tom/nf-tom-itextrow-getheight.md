@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.GetHeight
-title: ITextRow::GetHeight method
+title: ITextRow::GetHeight
 author: windows-driver-content
 description: Gets the height of the row.
 old-location: controls\itextrow_getheight.htm
 old-project: Controls
 ms.assetid: 6befda1a-1a47-4668-b0cf-4fd66e7b633d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetHeight method [Windows Controls], GetHeight method [Windows Controls], ITextRow interface, GetHeight,ITextRow.GetHeight, ITextRow, ITextRow interface [Windows Controls], GetHeight method, ITextRow::GetHeight, controls.itextrow_getheight, tom/ITextRow::GetHeight
+ms.date: 4/27/2018
+ms.keywords: GetHeight, GetHeight method [Windows Controls], GetHeight method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetHeight method, ITextRow.GetHeight, ITextRow::GetHeight, controls.itextrow_getheight, tom/ITextRow::GetHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::GetHeight method
+# ITextRow::GetHeight
 
 
 ## -description

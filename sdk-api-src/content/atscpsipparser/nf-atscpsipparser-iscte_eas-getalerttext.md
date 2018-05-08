@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetAlertText
-title: ISCTE_EAS::GetAlertText method
+title: ISCTE_EAS::GetAlertText
 author: windows-driver-content
 description: The GetAlertText method gets the alert text for a specified ISO 639 language code.
 old-location: mstv\iscte_eas_getalerttext.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4bef1a14-b0f6-40a0-bac0-1d6c00c120e5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetAlertText method [Microsoft TV Technologies], GetAlertText method [Microsoft TV Technologies], ISCTE_EAS interface, GetAlertText,ISCTE_EAS.GetAlertText, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetAlertText method, ISCTE_EAS::GetAlertText, ISCTE_EASGetAlertText, atscpsipparser/ISCTE_EAS::GetAlertText, mstv.iscte_eas_getalerttext
+ms.keywords: GetAlertText, GetAlertText method [Microsoft TV Technologies], GetAlertText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetAlertText method, ISCTE_EAS.GetAlertText, ISCTE_EAS::GetAlertText, ISCTE_EASGetAlertText, atscpsipparser/ISCTE_EAS::GetAlertText, mstv.iscte_eas_getalerttext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetAlertText method
+# ISCTE_EAS::GetAlertText
 
 
 ## -description

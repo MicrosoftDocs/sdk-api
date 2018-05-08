@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 83bc8017-c679-40a8-96a8-bff9aa2273af
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMStoryFragmentsResource, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging], IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging], described, xps.ixpsomstoryfragmentsresource, xpsobjectmodel/IXpsOMStoryFragmentsResource
+ms.keywords: IXpsOMStoryFragmentsResource, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging], IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],described, xps.ixpsomstoryfragmentsresource, xpsobjectmodel/IXpsOMStoryFragmentsResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

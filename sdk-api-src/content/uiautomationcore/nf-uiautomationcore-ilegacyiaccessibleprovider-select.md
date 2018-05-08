@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.Select
-title: ILegacyIAccessibleProvider::Select method
+title: ILegacyIAccessibleProvider::Select
 author: windows-driver-content
 description: Selects the element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Select.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9cdb3f88-c4aa-4a04-94e3-5549c389ad1f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], Select method, ILegacyIAccessibleProvider::Select, Select method [Windows Accessibility], Select method [Windows Accessibility], ILegacyIAccessibleProvider interface, Select,ILegacyIAccessibleProvider.Select, uiauto.uiauto_ILegacyIAccessibleProvider_Select, uiauto_ILegacyIAccessibleProvider_Select, uiautomationcore/ILegacyIAccessibleProvider::Select, winauto.uiauto_ILegacyIAccessibleProvider_Select
+ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Select method, ILegacyIAccessibleProvider.Select, ILegacyIAccessibleProvider::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],ILegacyIAccessibleProvider interface, uiauto.uiauto_ILegacyIAccessibleProvider_Select, uiauto_ILegacyIAccessibleProvider_Select, uiautomationcore/ILegacyIAccessibleProvider::Select, winauto.uiauto_ILegacyIAccessibleProvider_Select
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILegacyIAccessibleProvider::Select method
+# ILegacyIAccessibleProvider::Select
 
 
 ## -description

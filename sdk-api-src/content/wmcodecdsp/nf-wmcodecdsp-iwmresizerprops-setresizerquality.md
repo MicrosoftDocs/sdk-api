@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetResizerQuality
-title: IWMResizerProps::SetResizerQuality method
+title: IWMResizerProps::SetResizerQuality
 author: windows-driver-content
 description: Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.
 old-location: mf\iwmresizerpropssetresizerquality.htm
 old-project: medfound
 ms.assetid: 64a85094-4247-41d8-9bb6-bdaedba62c19
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMResizerProps, IWMResizerProps interface [Media Foundation], SetResizerQuality method, IWMResizerProps::SetResizerQuality, SetResizerQuality method [Media Foundation], SetResizerQuality method [Media Foundation], IWMResizerProps interface, SetResizerQuality,IWMResizerProps.SetResizerQuality, codecapi.iwmresizerpropssetresizerquality, mf.iwmresizerpropssetresizerquality, wmcodecdsp/ IWMResizerProps::SetResizerQuality
+ms.date: 5/3/2018
+ms.keywords: IWMResizerProps interface [Media Foundation],SetResizerQuality method, IWMResizerProps.SetResizerQuality, IWMResizerProps::SetResizerQuality, SetResizerQuality, SetResizerQuality method [Media Foundation], SetResizerQuality method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetresizerquality, mf.iwmresizerpropssetresizerquality, wmcodecdsp/ IWMResizerProps::SetResizerQuality
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMResizerProps::SetResizerQuality method
+# IWMResizerProps::SetResizerQuality
 
 
 ## -description

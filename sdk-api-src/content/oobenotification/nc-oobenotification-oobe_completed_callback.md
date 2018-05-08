@@ -8,7 +8,7 @@ old-project: WNF
 ms.assetid: 9786D6C3-82B1-4546-9BE9-7705AD3B7DBD
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: OOBE_COMPLETED_CALLBACK, OOBE_COMPLETED_CALLBACK callback function, oobenotification/OOBE_COMPLETED_CALLBACK, windowssetupandmigration.oobe_completed_callback
+ms.keywords: OOBE_COMPLETED_CALLBACK, OOBE_COMPLETED_CALLBACK callback, OOBE_COMPLETED_CALLBACK callback function, oobenotification/OOBE_COMPLETED_CALLBACK, windowssetupandmigration.oobe_completed_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# OOBE_COMPLETED_CALLBACK callback
+# OOBE_COMPLETED_CALLBACK callback function
 
 
 ## -description

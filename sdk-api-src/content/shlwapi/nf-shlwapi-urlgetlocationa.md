@@ -7,7 +7,7 @@ old-location: shell\UrlGetLocation.htm
 old-project: shell
 ms.assetid: e75bde92-2ca0-4d34-a276-50b4eeceda1c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: UrlGetLocation, UrlGetLocation function [Windows Shell], UrlGetLocationA, UrlGetLocationW, _win32_UrlGetLocation, shell.UrlGetLocation, shlwapi/UrlGetLocation, shlwapi/UrlGetLocationA, shlwapi/UrlGetLocationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

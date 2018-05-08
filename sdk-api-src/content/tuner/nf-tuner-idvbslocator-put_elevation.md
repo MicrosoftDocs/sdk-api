@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_Elevation
-title: IDVBSLocator::put_Elevation method
+title: IDVBSLocator::put_Elevation
 author: windows-driver-content
 description: The put_Elevation method sets the elevation of the satellite in tenths of a degree.
 old-location: mstv\idvbslocator_put_elevation.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 12db3e20-9102-483c-a4ef-8a90a376b7af
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBSLocator, IDVBSLocator interface [Microsoft TV Technologies], put_Elevation method, IDVBSLocator::put_Elevation, IDVBSLocatorput_Elevation, mstv.idvbslocator_put_elevation, put_Elevation method [Microsoft TV Technologies], put_Elevation method [Microsoft TV Technologies], IDVBSLocator interface, put_Elevation,IDVBSLocator.put_Elevation, tuner/IDVBSLocator::put_Elevation
+ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_Elevation method, IDVBSLocator.put_Elevation, IDVBSLocator::put_Elevation, IDVBSLocatorput_Elevation, mstv.idvbslocator_put_elevation, put_Elevation, put_Elevation method [Microsoft TV Technologies], put_Elevation method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_Elevation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBSLocator::put_Elevation method
+# IDVBSLocator::put_Elevation
 
 
 ## -description

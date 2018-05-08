@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer
-title: IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer method
+title: IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer
 author: windows-driver-content
 description: Releases the output data pointer for the last buffer.
 old-location: coreaudio\iaudioendpointlastbuffercontrol_releaseoutputdatapointerforlastbuffer.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 9ff0232d-acf6-44e7-933a-b5ac91c3acc8
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioEndpointLastBufferControl, IAudioEndpointLastBufferControl interface [Core Audio], ReleaseOutputDataPointerForLastBuffer method, IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer, ReleaseOutputDataPointerForLastBuffer method [Core Audio], ReleaseOutputDataPointerForLastBuffer method [Core Audio], IAudioEndpointLastBufferControl interface, ReleaseOutputDataPointerForLastBuffer,IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer, audioengineendpoint/IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer, coreaudio.iaudioendpointlastbuffercontrol_releaseoutputdatapointerforlastbuffer
+ms.keywords: IAudioEndpointLastBufferControl interface [Core Audio],ReleaseOutputDataPointerForLastBuffer method, IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer, IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer, ReleaseOutputDataPointerForLastBuffer, ReleaseOutputDataPointerForLastBuffer method [Core Audio], ReleaseOutputDataPointerForLastBuffer method [Core Audio],IAudioEndpointLastBufferControl interface, audioengineendpoint/IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer, coreaudio.iaudioendpointlastbuffercontrol_releaseoutputdatapointerforlastbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer method
+# IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSPlugin.Connected
-title: IWTSPlugin::Connected method
+title: IWTSPlugin::Connected
 author: windows-driver-content
 description: Notifies the plug-in that the Remote Desktop Connection (RDC) client has successfully connected to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iwtsplugin_connected.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 089db67e-6c3d-4950-a1dd-de0a3bbe8d5c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Connected method [Remote Desktop Services], Connected method [Remote Desktop Services], IWTSPlugin interface, Connected,IWTSPlugin.Connected, IWTSPlugin, IWTSPlugin interface [Remote Desktop Services], Connected method, IWTSPlugin::Connected, termserv.iwtsplugin_connected, tsvirtualchannels/IWTSPlugin::Connected
+ms.keywords: Connected, Connected method [Remote Desktop Services], Connected method [Remote Desktop Services],IWTSPlugin interface, IWTSPlugin interface [Remote Desktop Services],Connected method, IWTSPlugin.Connected, IWTSPlugin::Connected, termserv.iwtsplugin_connected, tsvirtualchannels/IWTSPlugin::Connected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWTSPlugin::Connected method
+# IWTSPlugin::Connected
 
 
 ## -description

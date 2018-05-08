@@ -7,7 +7,7 @@ old-location: automat\vari2fromi8.htm
 old-project: automat
 ms.assetid: 759dbab4-b99c-4e9b-a44b-f2ca0c187719
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarI2FromI8, VarI2FromI8 function [Automation], _oa96_VarI2FromI8, automat.vari2fromi8, oleauto/VarI2FromI8
 ms.prod: windows-hardware
 ms.technology: windows-devices

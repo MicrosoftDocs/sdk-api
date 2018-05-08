@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterGraph.RemoveFilter
-title: IFilterGraph::RemoveFilter method
+title: IFilterGraph::RemoveFilter
 author: windows-driver-content
 description: The RemoveFilter method removes a filter from the graph.
 old-location: dshow\ifiltergraph_removefilter.htm
 old-project: DirectShow
 ms.assetid: ec681340-0fb9-4eba-8211-d5fa07fb076b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFilterGraph, IFilterGraph interface [DirectShow], RemoveFilter method, IFilterGraph::RemoveFilter, IFilterGraphRemoveFilter, RemoveFilter method [DirectShow], RemoveFilter method [DirectShow], IFilterGraph interface, RemoveFilter,IFilterGraph.RemoveFilter, dshow.ifiltergraph_removefilter, strmif/IFilterGraph::RemoveFilter
+ms.date: 4/30/2018
+ms.keywords: IFilterGraph interface [DirectShow],RemoveFilter method, IFilterGraph.RemoveFilter, IFilterGraph::RemoveFilter, IFilterGraphRemoveFilter, RemoveFilter, RemoveFilter method [DirectShow], RemoveFilter method [DirectShow],IFilterGraph interface, dshow.ifiltergraph_removefilter, strmif/IFilterGraph::RemoveFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterGraph::RemoveFilter method
+# IFilterGraph::RemoveFilter
 
 
 ## -description

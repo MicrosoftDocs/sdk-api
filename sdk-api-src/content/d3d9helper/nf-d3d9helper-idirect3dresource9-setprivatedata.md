@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.SetPrivateData
-title: IDirect3DResource9::SetPrivateData method
+title: IDirect3DResource9::SetPrivateData
 author: windows-driver-content
 description: Associates data with the resource that is intended for use by the application, not by Direct3D. Data is passed by value, and multiple sets of data can be associated with a single resource.
 old-location: direct3d9\idirect3dresource9__setprivatedata.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__setprivatedata.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 0424643d-f9ce-ea1d-5f27-9017b5eed4ea, IDirect3DResource9, IDirect3DResource9 interface [Direct3D 9], SetPrivateData method, IDirect3DResource9::SetPrivateData, SetPrivateData method [Direct3D 9], SetPrivateData method [Direct3D 9], IDirect3DResource9 interface, SetPrivateData,IDirect3DResource9.SetPrivateData, d3d9helper/IDirect3DResource9::SetPrivateData, direct3d9.idirect3dresource9__setprivatedata
+ms.keywords: 0424643d-f9ce-ea1d-5f27-9017b5eed4ea, IDirect3DResource9 interface [Direct3D 9],SetPrivateData method, IDirect3DResource9.SetPrivateData, IDirect3DResource9::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 9], SetPrivateData method [Direct3D 9],IDirect3DResource9 interface, d3d9helper/IDirect3DResource9::SetPrivateData, direct3d9.idirect3dresource9__setprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DResource9::SetPrivateData method
+# IDirect3DResource9::SetPrivateData
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.Reset
-title: IEnumCERTVIEWROW::Reset method
+title: IEnumCERTVIEWROW::Reset
 author: windows-driver-content
 description: Moves to the beginning of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_reset.htm
 old-project: SecCrypto
 ms.assetid: 76bee5db-0443-4673-a59c-0198587736dc
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], Reset method, IEnumCERTVIEWROW object [Security], Reset method, IEnumCERTVIEWROW::Reset, Reset method [Security], Reset method [Security], IEnumCERTVIEWROW interface, Reset method [Security], IEnumCERTVIEWROW object, Reset,IEnumCERTVIEWROW.Reset, _certsrv_ienumcertviewrow_reset, certview/IEnumCERTVIEWROW::Reset, security.ienumcertviewrow_reset
+ms.date: 4/30/2018
+ms.keywords: IEnumCERTVIEWROW interface [Security],Reset method, IEnumCERTVIEWROW object [Security],Reset method, IEnumCERTVIEWROW.Reset, IEnumCERTVIEWROW::Reset, Reset, Reset method [Security], Reset method [Security],IEnumCERTVIEWROW interface, Reset method [Security],IEnumCERTVIEWROW object, _certsrv_ienumcertviewrow_reset, certview/IEnumCERTVIEWROW::Reset, security.ienumcertviewrow_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWROW::Reset method
+# IEnumCERTVIEWROW::Reset
 
 
 ## -description

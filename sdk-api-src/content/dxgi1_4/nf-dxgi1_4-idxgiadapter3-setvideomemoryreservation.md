@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.SetVideoMemoryReservation
-title: IDXGIAdapter3::SetVideoMemoryReservation method
+title: IDXGIAdapter3::SetVideoMemoryReservation
 author: windows-driver-content
 description: This method sends the minimum required physical memory for an application, to the OS.
 old-location: direct3ddxgi\idxgiadapter3_setvideomemoryreservation.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 5D17F57F-9FFA-4B5C-98B6-33E5B3982A63
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIAdapter3, IDXGIAdapter3 interface [DXGI], SetVideoMemoryReservation method, IDXGIAdapter3::SetVideoMemoryReservation, SetVideoMemoryReservation method [DXGI], SetVideoMemoryReservation method [DXGI], IDXGIAdapter3 interface, SetVideoMemoryReservation,IDXGIAdapter3.SetVideoMemoryReservation, direct3ddxgi.idxgiadapter3_setvideomemoryreservation, dxgi1_4/IDXGIAdapter3::SetVideoMemoryReservation
+ms.keywords: IDXGIAdapter3 interface [DXGI],SetVideoMemoryReservation method, IDXGIAdapter3.SetVideoMemoryReservation, IDXGIAdapter3::SetVideoMemoryReservation, SetVideoMemoryReservation, SetVideoMemoryReservation method [DXGI], SetVideoMemoryReservation method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_setvideomemoryreservation, dxgi1_4/IDXGIAdapter3::SetVideoMemoryReservation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIAdapter3::SetVideoMemoryReservation method
+# IDXGIAdapter3::SetVideoMemoryReservation
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_Index
-title: IMbnSmsReadMsgPdu::get_Index method
+title: IMbnSmsReadMsgPdu::get_Index
 author: windows-driver-content
 description: The index of the message in the device SMS store.
 old-location: mbn\imbnsmsreadmsgpdu_index.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: d464fd2f-40fe-4c94-9a6b-fdc45b566b6d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSmsReadMsgPdu, IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks], Index property, IMbnSmsReadMsgPdu.Index, IMbnSmsReadMsgPdu::get_Index, Index property [Microsoft Broadband Networks], Index property [Microsoft Broadband Networks], IMbnSmsReadMsgPdu interface, get_Index,IMbnSmsReadMsgPdu.get_Index, mbn.imbnsmsreadmsgpdu_index, mbnapi/IMbnSmsReadMsgPdu::Index, mbnapi/IMbnSmsReadMsgPdu::get_Index
+ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Index property, IMbnSmsReadMsgPdu.Index, IMbnSmsReadMsgPdu.get_Index, IMbnSmsReadMsgPdu::Index, IMbnSmsReadMsgPdu::get_Index, Index property [Microsoft Broadband Networks], Index property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_Index, mbn.imbnsmsreadmsgpdu_index, mbnapi/IMbnSmsReadMsgPdu::Index, mbnapi/IMbnSmsReadMsgPdu::get_Index
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSmsReadMsgPdu::get_Index method
+# IMbnSmsReadMsgPdu::get_Index
 
 
 ## -description

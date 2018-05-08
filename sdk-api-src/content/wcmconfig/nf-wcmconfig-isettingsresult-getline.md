@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetLine
-title: ISettingsResult::GetLine method
+title: ISettingsResult::GetLine
 author: windows-driver-content
 description: Returns the line number where the error has occurred.
 old-location: smi\isettingsresult_getline.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: c74beea9-5e81-4cd2-ade2-c812b6a035a1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetLine method [SMI], GetLine method [SMI], ISettingsResult interface, GetLine,ISettingsResult.GetLine, ISettingsResult, ISettingsResult interface [SMI], GetLine method, ISettingsResult::GetLine, smi.isettingsresult_getline, wcmconfig/ISettingsResult::GetLine
+ms.keywords: GetLine, GetLine method [SMI], GetLine method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetLine method, ISettingsResult.GetLine, ISettingsResult::GetLine, smi.isettingsresult_getline, wcmconfig/ISettingsResult::GetLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsResult::GetLine method
+# ISettingsResult::GetLine
 
 
 ## -description

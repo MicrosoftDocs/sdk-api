@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.GetProperty
-title: ITextFont2::GetProperty method
+title: ITextFont2::GetProperty
 author: windows-driver-content
 description: Gets the value of the specified property.
 old-location: controls\itextfont2_getproperty.htm
 old-project: Controls
 ms.assetid: 1894788a-5612-43a2-af77-131d02fe1261
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetProperty method [Windows Controls], GetProperty method [Windows Controls], ITextFont2 interface, GetProperty,ITextFont2.GetProperty, ITextFont2, ITextFont2 interface [Windows Controls], GetProperty method, ITextFont2::GetProperty, controls.itextfont2_getproperty, tom/ITextFont2::GetProperty
+ms.date: 4/27/2018
+ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetProperty method, ITextFont2.GetProperty, ITextFont2::GetProperty, controls.itextfont2_getproperty, tom/ITextFont2::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::GetProperty method
+# ITextFont2::GetProperty
 
 
 ## -description

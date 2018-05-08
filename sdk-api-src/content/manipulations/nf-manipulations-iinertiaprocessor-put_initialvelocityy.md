@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialVelocityY
-title: IInertiaProcessor::put_InitialVelocityY method
+title: IInertiaProcessor::put_InitialVelocityY
 author: windows-driver-content
 description: The InitialVelocityY property specifies the initial movement of the target object on the vertical axis.
 old-location: wintouch\iinertiaprocessor_initialvelocityy.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 3ba0aa0c-a819-4833-883b-218702052ce1
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], InitialVelocityY property, IInertiaProcessor.InitialVelocityY, IInertiaProcessor::get_InitialVelocityY, IInertiaProcessor::put_InitialVelocityY, InitialVelocityY property [Windows Touch], InitialVelocityY property [Windows Touch], IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialVelocityY, manipulations/IInertiaProcessor::get_InitialVelocityY, manipulations/IInertiaProcessor::put_InitialVelocityY, put_InitialVelocityY,IInertiaProcessor.put_InitialVelocityY, wintouch.iinertiaprocessor_initialvelocityy
+ms.keywords: IInertiaProcessor interface [Windows Touch],InitialVelocityY property, IInertiaProcessor.InitialVelocityY, IInertiaProcessor.put_InitialVelocityY, IInertiaProcessor::InitialVelocityY, IInertiaProcessor::get_InitialVelocityY, IInertiaProcessor::put_InitialVelocityY, InitialVelocityY property [Windows Touch], InitialVelocityY property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialVelocityY, manipulations/IInertiaProcessor::get_InitialVelocityY, manipulations/IInertiaProcessor::put_InitialVelocityY, put_InitialVelocityY, wintouch.iinertiaprocessor_initialvelocityy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::put_InitialVelocityY method
+# IInertiaProcessor::put_InitialVelocityY
 
 
 ## -description

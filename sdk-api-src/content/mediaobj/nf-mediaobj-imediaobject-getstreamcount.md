@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetStreamCount
-title: IMediaObject::GetStreamCount method
+title: IMediaObject::GetStreamCount
 author: windows-driver-content
 description: The GetStreamCount method retrieves the number of input and output streams.
 old-location: dshow\imediaobject_getstreamcount.htm
 old-project: DirectShow
 ms.assetid: 05c28b44-6b92-418b-bb3f-889e59f4e0c1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetStreamCount method [DirectShow], GetStreamCount method [DirectShow], IMediaObject interface, GetStreamCount,IMediaObject.GetStreamCount, IMediaObject, IMediaObject interface [DirectShow], GetStreamCount method, IMediaObject::GetStreamCount, IMediaObjectGetStreamCount, dshow.imediaobject_getstreamcount, mediaobj/IMediaObject::GetStreamCount
+ms.date: 4/30/2018
+ms.keywords: GetStreamCount, GetStreamCount method [DirectShow], GetStreamCount method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetStreamCount method, IMediaObject.GetStreamCount, IMediaObject::GetStreamCount, IMediaObjectGetStreamCount, dshow.imediaobject_getstreamcount, mediaobj/IMediaObject::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaObject::GetStreamCount method
+# IMediaObject::GetStreamCount
 
 
 ## -description

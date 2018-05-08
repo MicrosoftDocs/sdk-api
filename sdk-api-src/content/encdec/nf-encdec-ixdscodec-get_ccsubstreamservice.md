@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IXDSCodec.get_CCSubstreamService
-title: IXDSCodec::get_CCSubstreamService method
+title: IXDSCodec::get_CCSubstreamService
 author: windows-driver-content
 description: The get_CCSubstreamService method queries which line 21 data channels the XDS Codec filter sends to the XDSToRat object. By default, it sends just the Extended Data Services (XDS) channel.
 old-location: mstv\ixdscodec_get_ccsubstreamservice.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 60523c2c-0d57-46d7-8ab2-eaf065a440d4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], get_CCSubstreamService method, IXDSCodec::get_CCSubstreamService, IXDSCodecget_CCSubstreamService, encdec/IXDSCodec::get_CCSubstreamService, get_CCSubstreamService method [Microsoft TV Technologies], get_CCSubstreamService method [Microsoft TV Technologies], IXDSCodec interface, get_CCSubstreamService,IXDSCodec.get_CCSubstreamService, mstv.ixdscodec_get_ccsubstreamservice
+ms.keywords: IXDSCodec interface [Microsoft TV Technologies],get_CCSubstreamService method, IXDSCodec.get_CCSubstreamService, IXDSCodec::get_CCSubstreamService, IXDSCodecget_CCSubstreamService, encdec/IXDSCodec::get_CCSubstreamService, get_CCSubstreamService, get_CCSubstreamService method [Microsoft TV Technologies], get_CCSubstreamService method [Microsoft TV Technologies],IXDSCodec interface, mstv.ixdscodec_get_ccsubstreamservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IXDSCodec::get_CCSubstreamService method
+# IXDSCodec::get_CCSubstreamService
 
 
 ## -description

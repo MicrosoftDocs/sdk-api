@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10Debug.Validate
-title: ID3D10Debug::Validate method
+title: ID3D10Debug::Validate
 author: windows-driver-content
 description: Check the validity of pipeline state.
 old-location: direct3d10\id3d10debug_validate.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_validate.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10Debug, ID3D10Debug interface [Direct3D 10], Validate method, ID3D10Debug::Validate, Validate method [Direct3D 10], Validate method [Direct3D 10], ID3D10Debug interface, Validate,ID3D10Debug.Validate, c86b1899-e23f-c78e-1175-217019325010, d3d10sdklayers/ID3D10Debug::Validate, direct3d10.id3d10debug_validate
+ms.keywords: ID3D10Debug interface [Direct3D 10],Validate method, ID3D10Debug.Validate, ID3D10Debug::Validate, Validate, Validate method [Direct3D 10], Validate method [Direct3D 10],ID3D10Debug interface, c86b1899-e23f-c78e-1175-217019325010, d3d10sdklayers/ID3D10Debug::Validate, direct3d10.id3d10debug_validate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Debug::Validate method
+# ID3D10Debug::Validate
 
 
 ## -description

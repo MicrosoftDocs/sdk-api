@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Shutdown
-title: IMFMediaSession::Shutdown method
+title: IMFMediaSession::Shutdown
 author: windows-driver-content
 description: Shuts down the Media Session and releases all the resources used by the Media Session.
 old-location: mf\imfmediasession_shutdown.htm
 old-project: medfound
 ms.assetid: 5b9663c2-e32e-4075-b397-59ae01558e15
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 5b9663c2-e32e-4075-b397-59ae01558e15, IMFMediaSession, IMFMediaSession interface [Media Foundation], Shutdown method, IMFMediaSession::Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation], IMFMediaSession interface, Shutdown,IMFMediaSession.Shutdown, mf.imfmediasession_shutdown, mfidl/IMFMediaSession::Shutdown
+ms.date: 5/3/2018
+ms.keywords: 5b9663c2-e32e-4075-b397-59ae01558e15, IMFMediaSession interface [Media Foundation],Shutdown method, IMFMediaSession.Shutdown, IMFMediaSession::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaSession interface, mf.imfmediasession_shutdown, mfidl/IMFMediaSession::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSession::Shutdown method
+# IMFMediaSession::Shutdown
 
 
 ## -description

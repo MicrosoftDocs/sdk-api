@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 0E98D887-A974-4B86-934E-939DEB1946DF
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterActivate, EngineAdapterActivate callback function [Windows Biometric Framework API], PIBIO_ENGINE_ACTIVATE_FN, secbiomet.engineadapteractivate, winbio_adapter/EngineAdapterActivate
+ms.keywords: EngineAdapterActivate, EngineAdapterActivate callback function [Windows Biometric Framework API], PIBIO_ENGINE_ACTIVATE_FN, PIBIO_ENGINE_ACTIVATE_FN callback, secbiomet.engineadapteractivate, winbio_adapter/EngineAdapterActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_ACTIVATE_FN callback
+# PIBIO_ENGINE_ACTIVATE_FN callback function
 
 
 ## -description

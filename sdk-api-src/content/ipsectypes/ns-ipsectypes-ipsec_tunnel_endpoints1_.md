@@ -63,6 +63,26 @@ The <b>IPSEC_TUNNEL_ENDPOINTS1</b> structure is used to store end points of a tu
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a> value that specifies the IP version. In tunnel mode, this is the version of the outer header.
 
 
+### -field localV4Address
+
+ 
+
+
+### -field localV6Address
+
+ 
+
+
+### -field remoteV4Address
+
+ 
+
+
+### -field remoteV6Address
+
+ 
+
+
 ### -field localIfLuid
 
 Optional LUID of the local interface corresponding to the local address specified above.

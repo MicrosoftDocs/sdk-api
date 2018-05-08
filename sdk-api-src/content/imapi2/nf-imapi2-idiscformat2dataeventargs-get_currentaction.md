@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2DataEventArgs.get_CurrentAction
-title: IDiscFormat2DataEventArgs::get_CurrentAction method
+title: IDiscFormat2DataEventArgs::get_CurrentAction
 author: windows-driver-content
 description: Retrieves the current write action being performed.
 old-location: imapi\idiscformat2dataeventargs_get_currentaction.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: ad7db1a4-7ea8-46d7-8c4f-e7b9fb232f63
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2DataEventArgs, IDiscFormat2DataEventArgs interface [IMAPI], get_CurrentAction method, IDiscFormat2DataEventArgs::get_CurrentAction, get_CurrentAction method [IMAPI], get_CurrentAction method [IMAPI], IDiscFormat2DataEventArgs interface, get_CurrentAction,IDiscFormat2DataEventArgs.get_CurrentAction, imapi.idiscformat2dataeventargs_get_currentaction, imapi2/IDiscFormat2DataEventArgs::get_CurrentAction
+ms.keywords: IDiscFormat2DataEventArgs interface [IMAPI],get_CurrentAction method, IDiscFormat2DataEventArgs.get_CurrentAction, IDiscFormat2DataEventArgs::get_CurrentAction, get_CurrentAction, get_CurrentAction method [IMAPI], get_CurrentAction method [IMAPI],IDiscFormat2DataEventArgs interface, imapi.idiscformat2dataeventargs_get_currentaction, imapi2/IDiscFormat2DataEventArgs::get_CurrentAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2DataEventArgs::get_CurrentAction method
+# IDiscFormat2DataEventArgs::get_CurrentAction
 
 
 ## -description

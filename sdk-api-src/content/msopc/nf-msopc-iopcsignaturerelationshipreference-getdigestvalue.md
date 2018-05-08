@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetDigestValue
-title: IOpcSignatureRelationshipReference::GetDigestValue method
+title: IOpcSignatureRelationshipReference::GetDigestValue
 author: windows-driver-content
 description: Gets the digest value calculated for the selected relationships when they are signed.
 old-location: opc\iopcsignaturerelationshipreference_getdigestvalue.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 3c1f3e73-45fc-4325-bc7a-db9241385c4e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetDigestValue method [Open Packaging Conventions], GetDigestValue method [Open Packaging Conventions], IOpcSignatureRelationshipReference interface, GetDigestValue,IOpcSignatureRelationshipReference.GetDigestValue, IOpcSignatureRelationshipReference, IOpcSignatureRelationshipReference interface [Open Packaging Conventions], GetDigestValue method, IOpcSignatureRelationshipReference::GetDigestValue, msopc/IOpcSignatureRelationshipReference::GetDigestValue, opc.iopcsignaturerelationshipreference_getdigestvalue
+ms.keywords: GetDigestValue, GetDigestValue method [Open Packaging Conventions], GetDigestValue method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetDigestValue method, IOpcSignatureRelationshipReference.GetDigestValue, IOpcSignatureRelationshipReference::GetDigestValue, msopc/IOpcSignatureRelationshipReference::GetDigestValue, opc.iopcsignaturerelationshipreference_getdigestvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureRelationshipReference::GetDigestValue method
+# IOpcSignatureRelationshipReference::GetDigestValue
 
 
 ## -description

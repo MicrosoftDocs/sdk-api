@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.Initialize
-title: IDvbSiParser::Initialize method
+title: IDvbSiParser::Initialize
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2724f8b4-99bc-477d-bf9e-cc18f56a465b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDvbSiParser, IDvbSiParser interface [Microsoft TV Technologies], Initialize method, IDvbSiParser::Initialize, IDvbSiParserInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IDvbSiParser interface, Initialize,IDvbSiParser.Initialize, dvbsiparser/IDvbSiParser::Initialize, mstv.idvbsiparser_initialize
+ms.keywords: IDvbSiParser interface [Microsoft TV Technologies],Initialize method, IDvbSiParser.Initialize, IDvbSiParser::Initialize, IDvbSiParserInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDvbSiParser interface, dvbsiparser/IDvbSiParser::Initialize, mstv.idvbsiparser_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbSiParser::Initialize method
+# IDvbSiParser::Initialize
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList2.GetOriginalSize
-title: IImageList2::GetOriginalSize method
+title: IImageList2::GetOriginalSize
 author: windows-driver-content
 description: Gets the original size of a specified image.
 old-location: controls\IImageList2_GetOriginalSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getoriginalsize.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetOriginalSize method [Windows Controls], GetOriginalSize method [Windows Controls], IImageList2 interface, GetOriginalSize,IImageList2.GetOriginalSize, IImageList2, IImageList2 interface [Windows Controls], GetOriginalSize method, IImageList2::GetOriginalSize, ILGOS_ALWAYS, ILGOS_FROMSTANDBY, _shell_IImageList2_GetOriginalSize, _shell_IImageList2_GetOriginalSize_cpp, commoncontrols/IImageList2::GetOriginalSize, controls.IImageList2_GetOriginalSize, controls._shell_IImageList2_GetOriginalSize
+ms.date: 4/27/2018
+ms.keywords: GetOriginalSize, GetOriginalSize method [Windows Controls], GetOriginalSize method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],GetOriginalSize method, IImageList2.GetOriginalSize, IImageList2::GetOriginalSize, ILGOS_ALWAYS, ILGOS_FROMSTANDBY, _shell_IImageList2_GetOriginalSize, _shell_IImageList2_GetOriginalSize_cpp, commoncontrols/IImageList2::GetOriginalSize, controls.IImageList2_GetOriginalSize, controls._shell_IImageList2_GetOriginalSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList2::GetOriginalSize method
+# IImageList2::GetOriginalSize
 
 
 ## -description

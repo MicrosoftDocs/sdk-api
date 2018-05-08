@@ -72,6 +72,21 @@ This member is not used by the wireless service. Applications can use this membe
 <b>dwIndex</b> should always be initialized before use.
 
 
+### -field Network.unique
+
+ 
+
+
+### -field Network.size_is
+
+ 
+
+
+### -field Network.size_is.dwNumberOfItems
+
+ 
+
+
 ### -field Network
 
 An array of <a href="https://msdn.microsoft.com/95f58433-deef-4c47-8f6c-a9e7b0d52dad">DOT11_NETWORK</a> structures that contain 802.11 wireless network information.

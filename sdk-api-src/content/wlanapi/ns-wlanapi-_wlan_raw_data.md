@@ -63,6 +63,21 @@ The <b>WLAN_RAW_DATA</b> structure contains raw data in the form of a blob that 
 The size, in bytes, of the <b>DataBlob</b> member. The maximum value of the <b>dwDataSize</b> may be restricted by type of data that is stored in the <b>WLAN_RAW_DATA</b> structure.
 
 
+### -field DataBlob.unique
+
+ 
+
+
+### -field DataBlob.size_is
+
+ 
+
+
+### -field DataBlob.size_is.dwDataSize
+
+ 
+
+
 ### -field DataBlob
 
 The data blob.

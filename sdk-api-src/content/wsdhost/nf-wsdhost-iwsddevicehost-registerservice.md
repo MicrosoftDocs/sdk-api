@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RegisterService
-title: IWSDDeviceHost::RegisterService method
+title: IWSDDeviceHost::RegisterService
 author: windows-driver-content
 description: Registers a service object for incoming requests and adds the service to the device host metadata.
 old-location: ncd\iwsddevicehost_registerservice_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 8e125e72-4060-4be6-b370-b2f6b24d9da7
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, RegisterService method, IWSDDeviceHost::RegisterService, RegisterService method, RegisterService method, IWSDDeviceHost interface, RegisterService,IWSDDeviceHost.RegisterService, ncd.iwsddevicehost_registerservice_method, wsdhost/IWSDDeviceHost::RegisterService
+ms.keywords: IWSDDeviceHost interface,RegisterService method, IWSDDeviceHost.RegisterService, IWSDDeviceHost::RegisterService, RegisterService, RegisterService method, RegisterService method,IWSDDeviceHost interface, ncd.iwsddevicehost_registerservice_method, wsdhost/IWSDDeviceHost::RegisterService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceHost::RegisterService method
+# IWSDDeviceHost::RegisterService
 
 
 ## -description

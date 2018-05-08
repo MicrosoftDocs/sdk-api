@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPEnumStorage.Next
-title: IMDSPEnumStorage::Next method
+title: IMDSPEnumStorage::Next
 author: windows-driver-content
 description: The Next method returns a pointer to the next celtIMDSPStorage interfaces.
 old-location: wmdm\imdspenumstorage_next.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 7874912a-6350-445c-a7c8-0f885d756aa0
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IMDSPEnumStorage, IMDSPEnumStorage interface [windows Media Device Manager], Next method, IMDSPEnumStorage::Next, IMDSPEnumStorageNext, Next method [windows Media Device Manager], Next method [windows Media Device Manager], IMDSPEnumStorage interface, Next,IMDSPEnumStorage.Next, mswmdm/IMDSPEnumStorage::Next, wmdm.imdspenumstorage_next
+ms.keywords: IMDSPEnumStorage interface [windows Media Device Manager],Next method, IMDSPEnumStorage.Next, IMDSPEnumStorage::Next, IMDSPEnumStorageNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IMDSPEnumStorage interface, mswmdm/IMDSPEnumStorage::Next, wmdm.imdspenumstorage_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPEnumStorage::Next method
+# IMDSPEnumStorage::Next
 
 
 ## -description

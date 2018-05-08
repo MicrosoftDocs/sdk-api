@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionReport.get_MailTo
-title: IFsrmActionReport::get_MailTo method
+title: IFsrmActionReport::get_MailTo
 author: windows-driver-content
 description: Retrieves or sets the email address to which the reports are sent.
 old-location: fsrm\ifsrmactionreport_mailto.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 89c2fc2c-bf14-4a42-b7ab-12988433b275
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmActionReport, IFsrmActionReport interface [File Server Resource Manager], MailTo property, IFsrmActionReport.MailTo, IFsrmActionReport::get_MailTo, IFsrmActionReport::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager], IFsrmActionReport interface, fs.ifsrmactionreport_mailto, fsrm.ifsrmactionreport_mailto, fsrm/IFsrmActionReport::MailTo, fsrm/IFsrmActionReport::get_MailTo, fsrm/IFsrmActionReport::put_MailTo, get_MailTo,IFsrmActionReport.get_MailTo
+ms.keywords: IFsrmActionReport interface [File Server Resource Manager],MailTo property, IFsrmActionReport.MailTo, IFsrmActionReport.get_MailTo, IFsrmActionReport::MailTo, IFsrmActionReport::get_MailTo, IFsrmActionReport::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmActionReport interface, fs.ifsrmactionreport_mailto, fsrm.ifsrmactionreport_mailto, fsrm/IFsrmActionReport::MailTo, fsrm/IFsrmActionReport::get_MailTo, fsrm/IFsrmActionReport::put_MailTo, get_MailTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmActionReport::get_MailTo method
+# IFsrmActionReport::get_MailTo
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.GetEndpointProxy
-title: IWSDServiceProxy::GetEndpointProxy method
+title: IWSDServiceProxy::GetEndpointProxy
 author: windows-driver-content
 description: Gets the endpoint proxy for the device.
 old-location: ncd\iwsdserviceproxy_getendpointproxy.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 9c236f31-e3ba-4678-a4fe-1e078c9f9af3
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetEndpointProxy method, GetEndpointProxy method, IWSDServiceProxy interface, GetEndpointProxy,IWSDServiceProxy.GetEndpointProxy, IWSDServiceProxy, IWSDServiceProxy interface, GetEndpointProxy method, IWSDServiceProxy::GetEndpointProxy, ncd.iwsdserviceproxy_getendpointproxy, wsdclient/IWSDServiceProxy::GetEndpointProxy
+ms.keywords: GetEndpointProxy, GetEndpointProxy method, GetEndpointProxy method,IWSDServiceProxy interface, IWSDServiceProxy interface,GetEndpointProxy method, IWSDServiceProxy.GetEndpointProxy, IWSDServiceProxy::GetEndpointProxy, ncd.iwsdserviceproxy_getendpointproxy, wsdclient/IWSDServiceProxy::GetEndpointProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxy::GetEndpointProxy method
+# IWSDServiceProxy::GetEndpointProxy
 
 
 ## -description

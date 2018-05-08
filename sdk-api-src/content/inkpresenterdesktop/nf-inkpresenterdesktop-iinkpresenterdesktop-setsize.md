@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.SetSize
-title: IInkPresenterDesktop::SetSize method
+title: IInkPresenterDesktop::SetSize
 author: windows-driver-content
 description: Sets the size of the InkPresenter object.
 old-location: input_ink\iinkpresenterdesktop_setsize.htm
@@ -8,7 +8,7 @@ old-project: input_ink
 ms.assetid: ba2576e5-8039-475b-acd8-1e7336a779e7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IInkPresenterDesktop, IInkPresenterDesktop interface, SetSize method, IInkPresenterDesktop::SetSize, InkPresenterDesktop.iinkpresenterdesktop_setsize, SetSize method, SetSize method, IInkPresenterDesktop interface, SetSize,IInkPresenterDesktop.SetSize, inkpresenterdesktop/IInkPresenterDesktop::SetSize, input_ink.iinkpresenterdesktop_setsize
+ms.keywords: IInkPresenterDesktop interface,SetSize method, IInkPresenterDesktop.SetSize, IInkPresenterDesktop::SetSize, InkPresenterDesktop.iinkpresenterdesktop_setsize, SetSize, SetSize method, SetSize method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetSize, input_ink.iinkpresenterdesktop_setsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInkPresenterDesktop::SetSize method
+# IInkPresenterDesktop::SetSize
 
 
 ## -description

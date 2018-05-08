@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.SetGradientOrigin
-title: IXpsOMRadialGradientBrush::SetGradientOrigin method
+title: IXpsOMRadialGradientBrush::SetGradientOrigin
 author: windows-driver-content
 description: Sets the origin point of the radial gradient.
 old-location: xps\ixpsomradialgradientbrush_setgradientorigin.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 101bebbf-854c-49fa-bc5c-8c81c5d2f7f9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMRadialGradientBrush, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging], SetGradientOrigin method, IXpsOMRadialGradientBrush::SetGradientOrigin, SetGradientOrigin method [XPS Documents and Packaging], SetGradientOrigin method [XPS Documents and Packaging], IXpsOMRadialGradientBrush interface, SetGradientOrigin,IXpsOMRadialGradientBrush.SetGradientOrigin, xps.ixpsomradialgradientbrush_setgradientorigin, xpsobjectmodel/IXpsOMRadialGradientBrush::SetGradientOrigin
+ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetGradientOrigin method, IXpsOMRadialGradientBrush.SetGradientOrigin, IXpsOMRadialGradientBrush::SetGradientOrigin, SetGradientOrigin, SetGradientOrigin method [XPS Documents and Packaging], SetGradientOrigin method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setgradientorigin, xpsobjectmodel/IXpsOMRadialGradientBrush::SetGradientOrigin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMRadialGradientBrush::SetGradientOrigin method
+# IXpsOMRadialGradientBrush::SetGradientOrigin
 
 
 ## -description

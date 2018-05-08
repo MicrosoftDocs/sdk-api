@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_CoverPage
-title: IFaxDocument::get_CoverPage method
+title: IFaxDocument::get_CoverPage
 author: windows-driver-content
 description: The CoverPage property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document.
 old-location: fax\_mfax_faxdocument_coverpage_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9fol.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CoverPage property [Fax Service], CoverPage property [Fax Service], FaxDocument object, FaxDocument object [Fax Service], CoverPage property, IFaxDocument, IFaxDocument::get_CoverPage, _mfax_faxdocument.coverpage, fax._mfax_faxdocument_coverpage, fax._mfax_faxdocument_coverpage_vb, get_CoverPage,IFaxDocument.get_CoverPage
+ms.keywords: CoverPage property [Fax Service], CoverPage property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],CoverPage property, FaxDocument.CoverPage, IFaxDocument.get_CoverPage, IFaxDocument::get_CoverPage, _mfax_faxdocument.coverpage, fax._mfax_faxdocument_coverpage, fax._mfax_faxdocument_coverpage_vb, get_CoverPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDocument::get_CoverPage method
+# IFaxDocument::get_CoverPage
 
 
 ## -description

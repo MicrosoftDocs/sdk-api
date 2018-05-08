@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentContainerList.GetTransactionType
-title: IWMPContentContainerList::GetTransactionType method
+title: IWMPContentContainerList::GetTransactionType
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetTransactionType method retrieves the type of the current transaction.
 old-location: wmp\iwmpcontentcontainerlist_gettransactiontype.htm
 old-project: WMP
 ms.assetid: 8712d134-9dd3-4964-ae53-f63c8b69818d
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetTransactionType method [Windows Media Player], GetTransactionType method [Windows Media Player], IWMPContentContainerList interface, GetTransactionType,IWMPContentContainerList.GetTransactionType, IWMPContentContainerList, IWMPContentContainerList interface [Windows Media Player], GetTransactionType method, IWMPContentContainerList::GetTransactionType, IWMPContentContainerListGetTransactionType, contentpartner/IWMPContentContainerList::GetTransactionType, wmp.iwmpcontentcontainerlist_gettransactiontype
+ms.date: 5/4/2018
+ms.keywords: GetTransactionType, GetTransactionType method [Windows Media Player], GetTransactionType method [Windows Media Player],IWMPContentContainerList interface, IWMPContentContainerList interface [Windows Media Player],GetTransactionType method, IWMPContentContainerList.GetTransactionType, IWMPContentContainerList::GetTransactionType, IWMPContentContainerListGetTransactionType, contentpartner/IWMPContentContainerList::GetTransactionType, wmp.iwmpcontentcontainerlist_gettransactiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentContainerList::GetTransactionType method
+# IWMPContentContainerList::GetTransactionType
 
 
 ## -description

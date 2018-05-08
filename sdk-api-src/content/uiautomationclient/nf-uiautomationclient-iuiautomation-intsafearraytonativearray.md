@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.IntSafeArrayToNativeArray
-title: IUIAutomation::IntSafeArrayToNativeArray method
+title: IUIAutomation::IntSafeArrayToNativeArray
 author: windows-driver-content
 description: Converts a SAFEARRAY of integers to an array.
 old-location: winauto\uiauto_IUIAutomation_IntSafeArrayToNativeArray.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 422b1bfc-5f67-4ba5-b573-d3dce9b6d806
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomation, IUIAutomation interface [Windows Accessibility], IntSafeArrayToNativeArray method, IUIAutomation::IntSafeArrayToNativeArray, IntSafeArrayToNativeArray method [Windows Accessibility], IntSafeArrayToNativeArray method [Windows Accessibility], IUIAutomation interface, IntSafeArrayToNativeArray,IUIAutomation.IntSafeArrayToNativeArray, uiauto.uiauto_IUIAutomation_IntSafeArrayToNativeArray, uiauto_IUIAutomation_IntSafeArrayToNativeArray, uiautomationclient/IUIAutomation::IntSafeArrayToNativeArray, winauto.uiauto_IUIAutomation_IntSafeArrayToNativeArray
+ms.keywords: IUIAutomation interface [Windows Accessibility],IntSafeArrayToNativeArray method, IUIAutomation.IntSafeArrayToNativeArray, IUIAutomation::IntSafeArrayToNativeArray, IntSafeArrayToNativeArray, IntSafeArrayToNativeArray method [Windows Accessibility], IntSafeArrayToNativeArray method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_IntSafeArrayToNativeArray, uiauto_IUIAutomation_IntSafeArrayToNativeArray, uiautomationclient/IUIAutomation::IntSafeArrayToNativeArray, winauto.uiauto_IUIAutomation_IntSafeArrayToNativeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::IntSafeArrayToNativeArray method
+# IUIAutomation::IntSafeArrayToNativeArray
 
 
 ## -description

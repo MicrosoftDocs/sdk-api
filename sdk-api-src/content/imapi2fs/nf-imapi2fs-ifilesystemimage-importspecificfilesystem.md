@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.ImportSpecificFileSystem
-title: IFileSystemImage::ImportSpecificFileSystem method
+title: IFileSystemImage::ImportSpecificFileSystem
 author: windows-driver-content
 description: Import a specific file system from disc.
 old-location: imapi\ifilesystemimage_importspecificfilesystem.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 737f1b5a-be70-4869-9ad0-a1373cb865d9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], ImportSpecificFileSystem method, IFileSystemImage::ImportSpecificFileSystem, ImportSpecificFileSystem method [IMAPI], ImportSpecificFileSystem method [IMAPI], IFileSystemImage interface, ImportSpecificFileSystem,IFileSystemImage.ImportSpecificFileSystem, imapi.ifilesystemimage_importspecificfilesystem, imapi2fs/IFileSystemImage::ImportSpecificFileSystem
+ms.keywords: IFileSystemImage interface [IMAPI],ImportSpecificFileSystem method, IFileSystemImage.ImportSpecificFileSystem, IFileSystemImage::ImportSpecificFileSystem, ImportSpecificFileSystem, ImportSpecificFileSystem method [IMAPI], ImportSpecificFileSystem method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_importspecificfilesystem, imapi2fs/IFileSystemImage::ImportSpecificFileSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::ImportSpecificFileSystem method
+# IFileSystemImage::ImportSpecificFileSystem
 
 
 ## -description

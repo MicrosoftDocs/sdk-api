@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.IsInPlaceModificationAllowed
-title: IMILBitmapEffectImpl::IsInPlaceModificationAllowed method
+title: IMILBitmapEffectImpl::IsInPlaceModificationAllowed
 author: windows-driver-content
 description: Determines whether the effect allows in-place modifications.
 old-location: wibe\_wibe_imilbitmapeffectimpl_isinplacemodificationallowed.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\isinplacemodificationallowed.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffectImpl, IMILBitmapEffectImpl interface [WPF Bitmap Effects], IsInPlaceModificationAllowed method, IMILBitmapEffectImpl::IsInPlaceModificationAllowed, IsInPlaceModificationAllowed method [WPF Bitmap Effects], IsInPlaceModificationAllowed method [WPF Bitmap Effects], IMILBitmapEffectImpl interface, IsInPlaceModificationAllowed,IMILBitmapEffectImpl.IsInPlaceModificationAllowed, _wibe_imilbitmapeffectimpl_isinplacemodificationallowed, mileffects/IMILBitmapEffectImpl::IsInPlaceModificationAllowed, wibe._wibe_imilbitmapeffectimpl_isinplacemodificationallowed
+ms.keywords: IMILBitmapEffectImpl interface [WPF Bitmap Effects],IsInPlaceModificationAllowed method, IMILBitmapEffectImpl.IsInPlaceModificationAllowed, IMILBitmapEffectImpl::IsInPlaceModificationAllowed, IsInPlaceModificationAllowed, IsInPlaceModificationAllowed method [WPF Bitmap Effects], IsInPlaceModificationAllowed method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, _wibe_imilbitmapeffectimpl_isinplacemodificationallowed, mileffects/IMILBitmapEffectImpl::IsInPlaceModificationAllowed, wibe._wibe_imilbitmapeffectimpl_isinplacemodificationallowed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectImpl::IsInPlaceModificationAllowed method
+# IMILBitmapEffectImpl::IsInPlaceModificationAllowed
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetRangeMinValue
-title: IPropertyEnumType::GetRangeMinValue method
+title: IPropertyEnumType::GetRangeMinValue
 author: windows-driver-content
 description: Gets a minimum value from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetRangeMinValue.htm
 old-project: properties
 ms.assetid: e25f776d-f343-4c14-931e-ce2f2761ce2b
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetRangeMinValue method [Windows Properties], GetRangeMinValue method [Windows Properties], IPropertyEnumType interface, GetRangeMinValue,IPropertyEnumType.GetRangeMinValue, IPropertyEnumType, IPropertyEnumType interface [Windows Properties], GetRangeMinValue method, IPropertyEnumType::GetRangeMinValue, _shell_IPropertyEnumType_GetRangeMinValue, properties.IPropertyEnumType_GetRangeMinValue, propsys/IPropertyEnumType::GetRangeMinValue, shell.IPropertyEnumType_GetRangeMinValue
+ms.date: 4/27/2018
+ms.keywords: GetRangeMinValue, GetRangeMinValue method [Windows Properties], GetRangeMinValue method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetRangeMinValue method, IPropertyEnumType.GetRangeMinValue, IPropertyEnumType::GetRangeMinValue, _shell_IPropertyEnumType_GetRangeMinValue, properties.IPropertyEnumType_GetRangeMinValue, propsys/IPropertyEnumType::GetRangeMinValue, shell.IPropertyEnumType_GetRangeMinValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyEnumType::GetRangeMinValue method
+# IPropertyEnumType::GetRangeMinValue
 
 
 ## -description

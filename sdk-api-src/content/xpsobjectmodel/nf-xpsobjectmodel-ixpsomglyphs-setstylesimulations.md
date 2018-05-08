@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetStyleSimulations
-title: IXpsOMGlyphs::SetStyleSimulations method
+title: IXpsOMGlyphs::SetStyleSimulations
 author: windows-driver-content
 description: Sets the style simulations that will be applied when the glyphs are rendered.
 old-location: xps\ixpsomglyphs_setstylesimulations.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 2b87f12c-5d9b-47ea-99f0-e457c3e49c92
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], SetStyleSimulations method, IXpsOMGlyphs::SetStyleSimulations, SetStyleSimulations method [XPS Documents and Packaging], SetStyleSimulations method [XPS Documents and Packaging], IXpsOMGlyphs interface, SetStyleSimulations,IXpsOMGlyphs.SetStyleSimulations, xps.ixpsomglyphs_setstylesimulations, xpsobjectmodel/IXpsOMGlyphs::SetStyleSimulations
+ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetStyleSimulations method, IXpsOMGlyphs.SetStyleSimulations, IXpsOMGlyphs::SetStyleSimulations, SetStyleSimulations, SetStyleSimulations method [XPS Documents and Packaging], SetStyleSimulations method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setstylesimulations, xpsobjectmodel/IXpsOMGlyphs::SetStyleSimulations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::SetStyleSimulations method
+# IXpsOMGlyphs::SetStyleSimulations
 
 
 ## -description

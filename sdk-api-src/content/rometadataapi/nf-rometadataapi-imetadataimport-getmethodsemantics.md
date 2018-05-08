@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetMethodSemantics
-title: IMetaDataImport::GetMethodSemantics method
+title: IMetaDataImport::GetMethodSemantics
 author: windows-driver-content
 description: Gets flags indicating the relationship between the method referenced by the specified MethodDef token and the paired property and event referenced by the specified EventProp token.
 old-location: winrt\imetadataimport_getmethodsemantics.htm
 old-project: WinRT
 ms.assetid: b4133bf8-4ae4-43ad-8d07-4f7805e9ef2c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetMethodSemantics method [Windows Runtime], GetMethodSemantics method [Windows Runtime], IMetaDataImport interface, GetMethodSemantics,IMetaDataImport.GetMethodSemantics, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetMethodSemantics method, IMetaDataImport::GetMethodSemantics, rometadataapi/IMetaDataImport::GetMethodSemantics, winrt.imetadataimport_getmethodsemantics
+ms.date: 5/4/2018
+ms.keywords: GetMethodSemantics, GetMethodSemantics method [Windows Runtime], GetMethodSemantics method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetMethodSemantics method, IMetaDataImport.GetMethodSemantics, IMetaDataImport::GetMethodSemantics, rometadataapi/IMetaDataImport::GetMethodSemantics, winrt.imetadataimport_getmethodsemantics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetMethodSemantics method
+# IMetaDataImport::GetMethodSemantics
 
 
 ## -description

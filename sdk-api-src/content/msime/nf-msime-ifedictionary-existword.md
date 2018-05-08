@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.ExistWord
-title: IFEDictionary::ExistWord method
+title: IFEDictionary::ExistWord
 author: windows-driver-content
 description: Determines if the specified word exists in IFEDictionary.
 old-location: intl\ifedictionary_existword.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 70BBC94A-97D6-4237-A0C9-F6861ED6C95D
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ExistWord method [Internationalization for Windows Applications], ExistWord method [Internationalization for Windows Applications], IFEDictionary interface, ExistWord,IFEDictionary.ExistWord, IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], ExistWord method, IFEDictionary::ExistWord, intl.ifedictionary_existword, msime/IFEDictionary::ExistWord
+ms.keywords: ExistWord, ExistWord method [Internationalization for Windows Applications], ExistWord method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],ExistWord method, IFEDictionary.ExistWord, IFEDictionary::ExistWord, intl.ifedictionary_existword, msime/IFEDictionary::ExistWord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFEDictionary::ExistWord method
+# IFEDictionary::ExistWord
 
 
 ## -description

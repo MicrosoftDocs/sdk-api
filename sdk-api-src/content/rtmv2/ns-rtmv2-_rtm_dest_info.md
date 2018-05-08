@@ -84,6 +84,36 @@ Specifies the views to which this destination belongs.
 Indicates the number of ViewInfo structures present in this destination.
 
 
+### -field ViewId
+
+ 
+
+
+### -field NumRoutes
+
+ 
+
+
+### -field Route
+
+ 
+
+
+### -field Owner
+
+ 
+
+
+### -field DestFlags
+
+ 
+
+
+### -field HoldRoute
+
+ 
+
+
 ### -field ViewInfo
 
 Structure of the following components. 

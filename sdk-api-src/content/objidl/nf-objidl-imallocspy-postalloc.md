@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PostAlloc
-title: IMallocSpy::PostAlloc method
+title: IMallocSpy::PostAlloc
 author: windows-driver-content
 description: Performs operations required after calling IMalloc::Alloc.
 old-location: com\imallocspy_postalloc.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: eaf2cb92-afdb-4f1f-a46a-83b6c72db07f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMallocSpy, IMallocSpy interface [COM], PostAlloc method, IMallocSpy::PostAlloc, PostAlloc method [COM], PostAlloc method [COM], IMallocSpy interface, PostAlloc,IMallocSpy.PostAlloc, _com_imallocspy_postalloc, com.imallocspy_postalloc, objidl/IMallocSpy::PostAlloc
+ms.keywords: IMallocSpy interface [COM],PostAlloc method, IMallocSpy.PostAlloc, IMallocSpy::PostAlloc, PostAlloc, PostAlloc method [COM], PostAlloc method [COM],IMallocSpy interface, _com_imallocspy_postalloc, com.imallocspy_postalloc, objidl/IMallocSpy::PostAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMallocSpy::PostAlloc method
+# IMallocSpy::PostAlloc
 
 
 ## -description

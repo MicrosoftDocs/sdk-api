@@ -7,7 +7,7 @@ old-location: winsock\connect_2.htm
 old-project: WinSock
 ms.assetid: 13468139-dc03-45bd-850c-7ac2dbcb6e60
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "_win32_connect_2, connect, connect function [Winsock], winsock.connect_2, winsock2/connect"
 ms.prod: windows-hardware
 ms.technology: windows-devices

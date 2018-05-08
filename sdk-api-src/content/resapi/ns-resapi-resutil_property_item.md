@@ -85,6 +85,36 @@ Describes the format of the property such as <b>CLUSPROP_FORMAT_BINARY</b> or
  
 
 
+### -field DUMMYUNIONNAME.DefaultPtr
+
+ 
+
+
+### -field DUMMYUNIONNAME.Default
+
+ 
+
+
+### -field DUMMYUNIONNAME.lpDefault
+
+ 
+
+
+### -field DUMMYUNIONNAME.LargeIntData
+
+ 
+
+
+### -field DUMMYUNIONNAME.ULargeIntData
+
+ 
+
+
+### -field DUMMYUNIONNAME.FileTimeData
+
+ 
+
+
 ### -field Minimum
 
 Minimum data value for the property. For data values with the 

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.IsClipListChanged
-title: IDirectDrawClipper::IsClipListChanged method
+title: IDirectDrawClipper::IsClipListChanged
 author: windows-driver-content
 description: Retrieves the status of the clip list if a window handle is associated with a DirectDrawClipper object.
 old-location: directdraw\idirectdrawclipper_iscliplistchanged.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: d394b638-6015-47d8-89ea-2ed71611ddb3
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], IsClipListChanged method, IDirectDrawClipper::IsClipListChanged, IsClipListChanged method [DirectDraw], IsClipListChanged method [DirectDraw], IDirectDrawClipper interface, IsClipListChanged,IDirectDrawClipper.IsClipListChanged, ddraw/IDirectDrawClipper::IsClipListChanged, directdraw.idirectdrawclipper_iscliplistchanged
+ms.keywords: IDirectDrawClipper interface [DirectDraw],IsClipListChanged method, IDirectDrawClipper.IsClipListChanged, IDirectDrawClipper::IsClipListChanged, IsClipListChanged, IsClipListChanged method [DirectDraw], IsClipListChanged method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::IsClipListChanged, directdraw.idirectdrawclipper_iscliplistchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawClipper::IsClipListChanged method
+# IDirectDrawClipper::IsClipListChanged
 
 
 ## -description

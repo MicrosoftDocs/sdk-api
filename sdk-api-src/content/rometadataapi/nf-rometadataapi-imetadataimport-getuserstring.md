@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetUserString
-title: IMetaDataImport::GetUserString method
+title: IMetaDataImport::GetUserString
 author: windows-driver-content
 description: Gets the literal string represented by the specified metadata token.
 old-location: winrt\imetadataimport_getuserstring.htm
 old-project: WinRT
 ms.assetid: c809d878-7c9a-4759-83c8-31cb0a72ee9d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetUserString method [Windows Runtime], GetUserString method [Windows Runtime], IMetaDataImport interface, GetUserString,IMetaDataImport.GetUserString, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetUserString method, IMetaDataImport::GetUserString, rometadataapi/IMetaDataImport::GetUserString, winrt.imetadataimport_getuserstring
+ms.date: 5/4/2018
+ms.keywords: GetUserString, GetUserString method [Windows Runtime], GetUserString method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetUserString method, IMetaDataImport.GetUserString, IMetaDataImport::GetUserString, rometadataapi/IMetaDataImport::GetUserString, winrt.imetadataimport_getuserstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetUserString method
+# IMetaDataImport::GetUserString
 
 
 ## -description

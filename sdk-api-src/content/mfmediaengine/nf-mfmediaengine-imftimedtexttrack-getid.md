@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetId
-title: IMFTimedTextTrack::GetId method
+title: IMFTimedTextTrack::GetId
 author: windows-driver-content
 description: Gets the identifier of the track of timed text.
 old-location: mf\imftimedtexttrack_getid.htm
 old-project: medfound
 ms.assetid: 0DDC7864-654E-416B-9EF5-4CD47244E8BE
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetId method [Media Foundation], GetId method [Media Foundation], IMFTimedTextTrack interface, GetId,IMFTimedTextTrack.GetId, IMFTimedTextTrack, IMFTimedTextTrack interface [Media Foundation], GetId method, IMFTimedTextTrack::GetId, mf.imftimedtexttrack_getid, mfmediaengine/IMFTimedTextTrack::GetId
+ms.date: 5/3/2018
+ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetId method, IMFTimedTextTrack.GetId, IMFTimedTextTrack::GetId, mf.imftimedtexttrack_getid, mfmediaengine/IMFTimedTextTrack::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextTrack::GetId method
+# IMFTimedTextTrack::GetId
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator
-title: ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator method
+title: ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator
 author: windows-driver-content
 description: Initializes the object from the DNS name of the local computer.
 old-location: security\icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 466e0767-d13a-4f5d-9715-47bb7b9d4142
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], InitializeFromLocalRequestOriginator method, ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator method [Security], InitializeFromLocalRequestOriginator method [Security], ICertPropertyRequestOriginator interface, InitializeFromLocalRequestOriginator,ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator, certenroll/ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, security.icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method
+ms.keywords: ICertPropertyRequestOriginator interface [Security],InitializeFromLocalRequestOriginator method, ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator, ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator method [Security], InitializeFromLocalRequestOriginator method [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, security.icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator method
+# ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator
 
 
 ## -description

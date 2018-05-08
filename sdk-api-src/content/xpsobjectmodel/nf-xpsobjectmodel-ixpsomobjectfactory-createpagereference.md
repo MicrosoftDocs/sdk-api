@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePageReference
-title: IXpsOMObjectFactory::CreatePageReference method
+title: IXpsOMObjectFactory::CreatePageReference
 author: windows-driver-content
 description: Creates an IXpsOMPageReference interface that enables the virtualization of pages.
 old-location: xps\ixpsomobjectfactory_createpagereference.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 037a7926-def4-4be3-b7c5-3c4c588e75ae
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePageReference method [XPS Documents and Packaging], CreatePageReference method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreatePageReference,IXpsOMObjectFactory.CreatePageReference, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreatePageReference method, IXpsOMObjectFactory::CreatePageReference, xps.ixpsomobjectfactory_createpagereference, xpsobjectmodel/IXpsOMObjectFactory::CreatePageReference
+ms.keywords: CreatePageReference, CreatePageReference method [XPS Documents and Packaging], CreatePageReference method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePageReference method, IXpsOMObjectFactory.CreatePageReference, IXpsOMObjectFactory::CreatePageReference, xps.ixpsomobjectfactory_createpagereference, xpsobjectmodel/IXpsOMObjectFactory::CreatePageReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreatePageReference method
+# IXpsOMObjectFactory::CreatePageReference
 
 
 ## -description

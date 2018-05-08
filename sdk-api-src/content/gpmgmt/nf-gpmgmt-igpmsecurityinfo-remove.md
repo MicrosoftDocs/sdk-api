@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.Remove
-title: IGPMSecurityInfo::Remove method
+title: IGPMSecurityInfo::Remove
 author: windows-driver-content
 description: Removes the permission specified in a given GPMPermission object from the GPMSecurityInfo collection.
 old-location: gpmc\igpmsecurityinfo_remove.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 187ae17c-82c0-4439-8b98-52ba0571d222
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMSecurityInfo class [GPMC], Remove method, IGPMSecurityInfo, IGPMSecurityInfo interface [GPMC], Remove method, IGPMSecurityInfo::Remove, Remove method [GPMC], Remove method [GPMC], GPMSecurityInfo class, Remove method [GPMC], IGPMSecurityInfo interface, Remove,IGPMSecurityInfo.Remove, _win32_igpmsecurityinfo_remove, gpmc.igpmsecurityinfo_remove, gpmgmt/IGPMSecurityInfo::Remove
+ms.keywords: GPMSecurityInfo class [GPMC],Remove method, IGPMSecurityInfo interface [GPMC],Remove method, IGPMSecurityInfo.Remove, IGPMSecurityInfo::Remove, Remove, Remove method [GPMC], Remove method [GPMC],GPMSecurityInfo class, Remove method [GPMC],IGPMSecurityInfo interface, _win32_igpmsecurityinfo_remove, gpmc.igpmsecurityinfo_remove, gpmgmt/IGPMSecurityInfo::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMSecurityInfo::Remove method
+# IGPMSecurityInfo::Remove
 
 
 ## -description

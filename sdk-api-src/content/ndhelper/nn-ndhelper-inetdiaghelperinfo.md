@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 815e2338-0055-4078-a9a5-197db449c33d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: INetDiagHelperInfo, INetDiagHelperInfo interface [NDF], INetDiagHelperInfo interface [NDF], described, ndf.inetdiaghelperinfo, ndhelper/INetDiagHelperInfo
+ms.keywords: INetDiagHelperInfo, INetDiagHelperInfo interface [NDF], INetDiagHelperInfo interface [NDF],described, ndf.inetdiaghelperinfo, ndhelper/INetDiagHelperInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

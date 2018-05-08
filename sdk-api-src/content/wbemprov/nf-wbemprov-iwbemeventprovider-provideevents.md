@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemEventProvider.ProvideEvents
-title: IWbemEventProvider::ProvideEvents method
+title: IWbemEventProvider::ProvideEvents
 author: windows-driver-content
 description: Windows Management calls the IWbemEventProvider::ProvideEvents method to signal an event provider to begin delivery of its events.
 old-location: wmi\iwbemeventprovider_provideevents.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 0ebabdaf-fd91-49f8-8454-38ff77952662
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemEventProvider, IWbemEventProvider interface [Windows Management Instrumentation], ProvideEvents method, IWbemEventProvider::ProvideEvents, ProvideEvents method [Windows Management Instrumentation], ProvideEvents method [Windows Management Instrumentation], IWbemEventProvider interface, ProvideEvents,IWbemEventProvider.ProvideEvents, _hmm_iwbemeventprovider_provideevents, wbemprov/IWbemEventProvider::ProvideEvents, wmi.iwbemeventprovider_provideevents
+ms.keywords: IWbemEventProvider interface [Windows Management Instrumentation],ProvideEvents method, IWbemEventProvider.ProvideEvents, IWbemEventProvider::ProvideEvents, ProvideEvents, ProvideEvents method [Windows Management Instrumentation], ProvideEvents method [Windows Management Instrumentation],IWbemEventProvider interface, _hmm_iwbemeventprovider_provideevents, wbemprov/IWbemEventProvider::ProvideEvents, wmi.iwbemeventprovider_provideevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemEventProvider::ProvideEvents method
+# IWbemEventProvider::ProvideEvents
 
 
 ## -description

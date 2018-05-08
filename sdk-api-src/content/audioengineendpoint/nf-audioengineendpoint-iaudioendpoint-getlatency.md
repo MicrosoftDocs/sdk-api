@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpoint.GetLatency
-title: IAudioEndpoint::GetLatency method
+title: IAudioEndpoint::GetLatency
 author: windows-driver-content
 description: Gets the latency of the audio endpoint.
 old-location: termserv\iaudioendpoint_getlatency.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 9afca6b7-2e0e-40a1-bb4a-932dad21b9eb
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetLatency method [Remote Desktop Services], GetLatency method [Remote Desktop Services], IAudioEndpoint interface, GetLatency,IAudioEndpoint.GetLatency, IAudioEndpoint, IAudioEndpoint interface [Remote Desktop Services], GetLatency method, IAudioEndpoint::GetLatency, audioengineendpoint/IAudioEndpoint::GetLatency, termserv.iaudioendpoint_getlatency
+ms.keywords: GetLatency, GetLatency method [Remote Desktop Services], GetLatency method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetLatency method, IAudioEndpoint.GetLatency, IAudioEndpoint::GetLatency, audioengineendpoint/IAudioEndpoint::GetLatency, termserv.iaudioendpoint_getlatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioEndpoint::GetLatency method
+# IAudioEndpoint::GetLatency
 
 
 ## -description

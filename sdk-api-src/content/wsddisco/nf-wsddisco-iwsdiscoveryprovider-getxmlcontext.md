@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.GetXMLContext
-title: IWSDiscoveryProvider::GetXMLContext method
+title: IWSDiscoveryProvider::GetXMLContext
 author: windows-driver-content
 description: Gets the XML context associated with this provider.
 old-location: ncd\iwsdiscoveryprovider_getxmlcontext.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: ee2a862a-9d1d-4099-982e-259b6ab815f6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetXMLContext method, GetXMLContext method, IWSDiscoveryProvider interface, GetXMLContext,IWSDiscoveryProvider.GetXMLContext, IWSDiscoveryProvider, IWSDiscoveryProvider interface, GetXMLContext method, IWSDiscoveryProvider::GetXMLContext, ncd.iwsdiscoveryprovider_getxmlcontext, wsddisco/IWSDiscoveryProvider::GetXMLContext
+ms.keywords: GetXMLContext, GetXMLContext method, GetXMLContext method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,GetXMLContext method, IWSDiscoveryProvider.GetXMLContext, IWSDiscoveryProvider::GetXMLContext, ncd.iwsdiscoveryprovider_getxmlcontext, wsddisco/IWSDiscoveryProvider::GetXMLContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryProvider::GetXMLContext method
+# IWSDiscoveryProvider::GetXMLContext
 
 
 ## -description

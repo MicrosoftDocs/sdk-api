@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.GetTotalDataBlocks
-title: IJolietDiscMaster::GetTotalDataBlocks method
+title: IJolietDiscMaster::GetTotalDataBlocks
 author: windows-driver-content
 description: Retrieves the total number of blocks available for staging a Joliet data disc.
 old-location: imapi\ijolietdiscmaster_gettotaldatablocks.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: fa5df4de-eecc-406b-a38d-939e7b631fc8
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetTotalDataBlocks method [IMAPI], GetTotalDataBlocks method [IMAPI], IJolietDiscMaster interface, GetTotalDataBlocks,IJolietDiscMaster.GetTotalDataBlocks, IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], GetTotalDataBlocks method, IJolietDiscMaster::GetTotalDataBlocks, _win32_ijolietdiscmaster_gettotaldatablocks, base.ijolietdiscmaster_gettotaldatablocks, imapi.ijolietdiscmaster_gettotaldatablocks, imapi/IJolietDiscMaster::GetTotalDataBlocks
+ms.keywords: GetTotalDataBlocks, GetTotalDataBlocks method [IMAPI], GetTotalDataBlocks method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],GetTotalDataBlocks method, IJolietDiscMaster.GetTotalDataBlocks, IJolietDiscMaster::GetTotalDataBlocks, _win32_ijolietdiscmaster_gettotaldatablocks, base.ijolietdiscmaster_gettotaldatablocks, imapi.ijolietdiscmaster_gettotaldatablocks, imapi/IJolietDiscMaster::GetTotalDataBlocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IJolietDiscMaster::GetTotalDataBlocks method
+# IJolietDiscMaster::GetTotalDataBlocks
 
 
 ## -description

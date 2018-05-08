@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.CreateRule
-title: IFsrmClassificationManager::CreateRule method
+title: IFsrmClassificationManager::CreateRule
 author: windows-driver-content
 description: Creates a rule of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_createrule.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: ca9a97b7-eadd-4f57-8f3a-afa439222f21
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreateRule method [File Server Resource Manager], CreateRule method [File Server Resource Manager], FsrmClassificationManager class, CreateRule method [File Server Resource Manager], IFsrmClassificationManager interface, CreateRule method [File Server Resource Manager], IFsrmClassificationManager2 interface, CreateRule,IFsrmClassificationManager.CreateRule, FsrmClassificationManager class [File Server Resource Manager], CreateRule method, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], CreateRule method, IFsrmClassificationManager2 interface [File Server Resource Manager], CreateRule method, IFsrmClassificationManager2::CreateRule, IFsrmClassificationManager::CreateRule, fs.ifsrmclassificationmanager_createrule, fsrm.ifsrmclassificationmanager_createrule, fsrmpipeline/IFsrmClassificationManager2::CreateRule, fsrmpipeline/IFsrmClassificationManager::CreateRule
+ms.keywords: CreateRule, CreateRule method [File Server Resource Manager], CreateRule method [File Server Resource Manager],FsrmClassificationManager class, CreateRule method [File Server Resource Manager],IFsrmClassificationManager interface, CreateRule method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],CreateRule method, IFsrmClassificationManager interface [File Server Resource Manager],CreateRule method, IFsrmClassificationManager.CreateRule, IFsrmClassificationManager2 interface [File Server Resource Manager],CreateRule method, IFsrmClassificationManager2::CreateRule, IFsrmClassificationManager::CreateRule, fs.ifsrmclassificationmanager_createrule, fsrm.ifsrmclassificationmanager_createrule, fsrmpipeline/IFsrmClassificationManager2::CreateRule, fsrmpipeline/IFsrmClassificationManager::CreateRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassificationManager::CreateRule method
+# IFsrmClassificationManager::CreateRule
 
 
 ## -description

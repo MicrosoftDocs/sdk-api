@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetSubpictureLanguage
-title: IDvdInfo::GetSubpictureLanguage method
+title: IDvdInfo::GetSubpictureLanguage
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the language of the specified subpicture stream within the current title.
 old-location: dshow\idvdinfo_getsubpicturelanguage.htm
 old-project: DirectShow
 ms.assetid: f75ef36d-8556-4ca0-9f7f-6c09b86da24e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSubpictureLanguage method [DirectShow], GetSubpictureLanguage method [DirectShow], IDvdInfo interface, GetSubpictureLanguage,IDvdInfo.GetSubpictureLanguage, IDvdInfo, IDvdInfo interface [DirectShow], GetSubpictureLanguage method, IDvdInfo::GetSubpictureLanguage, IDvdInfoGetSubpictureLanguage, dshow.idvdinfo_getsubpicturelanguage, strmif/IDvdInfo::GetSubpictureLanguage
+ms.date: 4/30/2018
+ms.keywords: GetSubpictureLanguage, GetSubpictureLanguage method [DirectShow], GetSubpictureLanguage method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetSubpictureLanguage method, IDvdInfo.GetSubpictureLanguage, IDvdInfo::GetSubpictureLanguage, IDvdInfoGetSubpictureLanguage, dshow.idvdinfo_getsubpicturelanguage, strmif/IDvdInfo::GetSubpictureLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetSubpictureLanguage method
+# IDvdInfo::GetSubpictureLanguage
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.SetClientSite
-title: IOleObject::SetClientSite method
+title: IOleObject::SetClientSite
 author: windows-driver-content
 description: Informs an embedded object of its display location, called a &#0034;client site,&#0034; within its container.
 old-location: com\ioleobject_setclientsite.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 6690b5a3-bada-496c-89cb-a9ae1fc9dfb0
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleObject, IOleObject interface [COM], SetClientSite method, IOleObject::SetClientSite, SetClientSite method [COM], SetClientSite method [COM], IOleObject interface, SetClientSite,IOleObject.SetClientSite, _ole_ioleobject_setclientsite, com.ioleobject_setclientsite, oleidl/IOleObject::SetClientSite
+ms.keywords: IOleObject interface [COM],SetClientSite method, IOleObject.SetClientSite, IOleObject::SetClientSite, SetClientSite, SetClientSite method [COM], SetClientSite method [COM],IOleObject interface, _ole_ioleobject_setclientsite, com.ioleobject_setclientsite, oleidl/IOleObject::SetClientSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleObject::SetClientSite method
+# IOleObject::SetClientSite
 
 
 ## -description

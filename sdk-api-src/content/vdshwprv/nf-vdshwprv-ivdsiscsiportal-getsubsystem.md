@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.GetSubSystem
-title: IVdsIscsiPortal::GetSubSystem method
+title: IVdsIscsiPortal::GetSubSystem
 author: windows-driver-content
 description: Returns the subsystem to which the portal belongs.
 old-location: base\ivdsiscsiportal_getsubsystem.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 9e222cdc-6399-4e28-b59b-ba912e32eb9d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSubSystem method [VDS], GetSubSystem method [VDS], IVdsIscsiPortal interface, GetSubSystem,IVdsIscsiPortal.GetSubSystem, IVdsIscsiPortal, IVdsIscsiPortal interface [VDS], GetSubSystem method, IVdsIscsiPortal::GetSubSystem, base.ivdsiscsiportal_getsubsystem, vds/IVdsIscsiPortal::GetSubSystem, vdshwprv/IVdsIscsiPortal::GetSubSystem
+ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsIscsiPortal interface, IVdsIscsiPortal interface [VDS],GetSubSystem method, IVdsIscsiPortal.GetSubSystem, IVdsIscsiPortal::GetSubSystem, base.ivdsiscsiportal_getsubsystem, vds/IVdsIscsiPortal::GetSubSystem, vdshwprv/IVdsIscsiPortal::GetSubSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsIscsiPortal::GetSubSystem method
+# IVdsIscsiPortal::GetSubSystem
 
 
 ## -description

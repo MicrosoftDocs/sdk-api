@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_HTTPProxyHost
-title: IAMNetShowConfig::get_HTTPProxyHost method
+title: IAMNetShowConfig::get_HTTPProxyHost
 author: windows-driver-content
 description: The get_HTTPProxyHost method retrieves the HTTP address of the proxy host.
 old-location: dshow\iamnetshowconfig_get_httpproxyhost.htm
 old-project: DirectShow
 ms.assetid: d73aefda-2c51-466a-b590-c8f189db4719
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], get_HTTPProxyHost method, IAMNetShowConfig::get_HTTPProxyHost, IAMNetShowConfigget_HTTPProxyHost, dshow.iamnetshowconfig_get_httpproxyhost, get_HTTPProxyHost method [DirectShow], get_HTTPProxyHost method [DirectShow], IAMNetShowConfig interface, get_HTTPProxyHost,IAMNetShowConfig.get_HTTPProxyHost, qnetwork/IAMNetShowConfig::get_HTTPProxyHost
+ms.date: 4/30/2018
+ms.keywords: IAMNetShowConfig interface [DirectShow],get_HTTPProxyHost method, IAMNetShowConfig.get_HTTPProxyHost, IAMNetShowConfig::get_HTTPProxyHost, IAMNetShowConfigget_HTTPProxyHost, dshow.iamnetshowconfig_get_httpproxyhost, get_HTTPProxyHost, get_HTTPProxyHost method [DirectShow], get_HTTPProxyHost method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_HTTPProxyHost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetShowConfig::get_HTTPProxyHost method
+# IAMNetShowConfig::get_HTTPProxyHost
 
 
 ## -description

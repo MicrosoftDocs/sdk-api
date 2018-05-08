@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStreamByNumber
-title: IMFASFProfile::GetStreamByNumber method
+title: IMFASFProfile::GetStreamByNumber
 author: windows-driver-content
 description: Retrieves an Advanced Systems Format (ASF) stream configuration object for a stream in the profile. This method references the stream by stream number instead of stream index.
 old-location: mf\imfasfprofile_getstreambynumber.htm
 old-project: medfound
 ms.assetid: 1e3fadf0-1549-4d51-b263-727b15c55023
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 1e3fadf0-1549-4d51-b263-727b15c55023, GetStreamByNumber method [Media Foundation], GetStreamByNumber method [Media Foundation], IMFASFProfile interface, GetStreamByNumber,IMFASFProfile.GetStreamByNumber, IMFASFProfile, IMFASFProfile interface [Media Foundation], GetStreamByNumber method, IMFASFProfile::GetStreamByNumber, mf.imfasfprofile_getstreambynumber, wmcontainer/IMFASFProfile::GetStreamByNumber
+ms.date: 5/3/2018
+ms.keywords: 1e3fadf0-1549-4d51-b263-727b15c55023, GetStreamByNumber, GetStreamByNumber method [Media Foundation], GetStreamByNumber method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamByNumber method, IMFASFProfile.GetStreamByNumber, IMFASFProfile::GetStreamByNumber, mf.imfasfprofile_getstreambynumber, wmcontainer/IMFASFProfile::GetStreamByNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFProfile::GetStreamByNumber method
+# IMFASFProfile::GetStreamByNumber
 
 
 ## -description

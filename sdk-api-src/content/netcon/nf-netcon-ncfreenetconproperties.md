@@ -7,7 +7,7 @@ old-location: ics\ncfreenetconproperties.htm
 old-project: ICS
 ms.assetid: ac73b831-81da-48e7-858b-7ca1ee03768e
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NcFreeNetconProperties, NcFreeNetconProperties function [ICS/ICF], ics.ncfreenetconproperties, netcon/NcFreeNetconProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

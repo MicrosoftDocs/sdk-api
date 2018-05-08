@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.CreateRecognizerContext
-title: IInkRecognizer::CreateRecognizerContext method
+title: IInkRecognizer::CreateRecognizerContext
 author: windows-driver-content
 description: Creates a new InkRecognizerContext object.
 old-location: tablet\iinkrecognizer_createrecognizercontext.htm
 old-project: tablet
 ms.assetid: b6aeec3f-8d57-4667-b171-1d8cad95f45c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateRecognizerContext method [Tablet PC], CreateRecognizerContext method [Tablet PC], IInkRecognizer interface, CreateRecognizerContext,IInkRecognizer.CreateRecognizerContext, IInkRecognizer, IInkRecognizer interface [Tablet PC], CreateRecognizerContext method, IInkRecognizer::CreateRecognizerContext, b6aeec3f-8d57-4667-b171-1d8cad95f45c, msinkaut/IInkRecognizer::CreateRecognizerContext, tablet.iinkrecognizer_createrecognizercontext
+ms.date: 5/2/2018
+ms.keywords: CreateRecognizerContext, CreateRecognizerContext method [Tablet PC], CreateRecognizerContext method [Tablet PC],IInkRecognizer interface, IInkRecognizer interface [Tablet PC],CreateRecognizerContext method, IInkRecognizer.CreateRecognizerContext, IInkRecognizer::CreateRecognizerContext, b6aeec3f-8d57-4667-b171-1d8cad95f45c, msinkaut/IInkRecognizer::CreateRecognizerContext, tablet.iinkrecognizer_createrecognizercontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognizer::CreateRecognizerContext method
+# IInkRecognizer::CreateRecognizerContext
 
 
 ## -description

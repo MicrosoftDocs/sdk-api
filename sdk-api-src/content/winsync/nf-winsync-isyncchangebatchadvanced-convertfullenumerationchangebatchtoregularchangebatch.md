@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch
-title: ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch method
+title: ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch
 author: windows-driver-content
 description: Converts an ISyncFullEnumerationChangeBatch object to an ISyncChangeBatch object.
 old-location: winsync\isyncchangebatchadvanced_convertfullenumerationchangebatchtoregularchangebatch.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 073369ab-232e-410f-b6f1-c43bf15cc652
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ConvertFullEnumerationChangeBatchToRegularChangeBatch method [Windows Sync], ConvertFullEnumerationChangeBatchToRegularChangeBatch method [Windows Sync], ISyncChangeBatchAdvanced interface, ConvertFullEnumerationChangeBatchToRegularChangeBatch,ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch, ISyncChangeBatchAdvanced, ISyncChangeBatchAdvanced interface [Windows Sync], ConvertFullEnumerationChangeBatchToRegularChangeBatch method, ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch, winsync.isyncchangebatchadvanced_convertfullenumerationchangebatchtoregularchangebatch, winsync/ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch
+ms.keywords: ConvertFullEnumerationChangeBatchToRegularChangeBatch, ConvertFullEnumerationChangeBatchToRegularChangeBatch method [Windows Sync], ConvertFullEnumerationChangeBatchToRegularChangeBatch method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],ConvertFullEnumerationChangeBatchToRegularChangeBatch method, ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch, ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch, winsync.isyncchangebatchadvanced_convertfullenumerationchangebatchtoregularchangebatch, winsync/ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch method
+# ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch
 
 
 ## -description

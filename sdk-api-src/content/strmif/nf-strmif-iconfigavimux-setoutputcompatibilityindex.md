@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IConfigAviMux.SetOutputCompatibilityIndex
-title: IConfigAviMux::SetOutputCompatibilityIndex method
+title: IConfigAviMux::SetOutputCompatibilityIndex
 author: windows-driver-content
 description: The SetOutputCompatibilityIndex method sets the AVI index format.
 old-location: dshow\iconfigavimux_setoutputcompatibilityindex.htm
 old-project: DirectShow
 ms.assetid: 3b9793e6-e5f4-432f-95f6-62053b955348
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IConfigAviMux, IConfigAviMux interface [DirectShow], SetOutputCompatibilityIndex method, IConfigAviMux::SetOutputCompatibilityIndex, IConfigAviMuxSetOutputCompatibilityIndex, SetOutputCompatibilityIndex method [DirectShow], SetOutputCompatibilityIndex method [DirectShow], IConfigAviMux interface, SetOutputCompatibilityIndex,IConfigAviMux.SetOutputCompatibilityIndex, dshow.iconfigavimux_setoutputcompatibilityindex, strmif/IConfigAviMux::SetOutputCompatibilityIndex
+ms.date: 4/30/2018
+ms.keywords: IConfigAviMux interface [DirectShow],SetOutputCompatibilityIndex method, IConfigAviMux.SetOutputCompatibilityIndex, IConfigAviMux::SetOutputCompatibilityIndex, IConfigAviMuxSetOutputCompatibilityIndex, SetOutputCompatibilityIndex, SetOutputCompatibilityIndex method [DirectShow], SetOutputCompatibilityIndex method [DirectShow],IConfigAviMux interface, dshow.iconfigavimux_setoutputcompatibilityindex, strmif/IConfigAviMux::SetOutputCompatibilityIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IConfigAviMux::SetOutputCompatibilityIndex method
+# IConfigAviMux::SetOutputCompatibilityIndex
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: search\_search_IInterval.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\iinterval.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInterval, IInterval interface [search], IInterval interface [search], described, _search_IInterval, search._search_IInterval, structuredquery/IInterval
+ms.date: 5/4/2018
+ms.keywords: IInterval, IInterval interface [search], IInterval interface [search],described, _search_IInterval, search._search_IInterval, structuredquery/IInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

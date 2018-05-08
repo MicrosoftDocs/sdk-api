@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetComment
-title: IScheduledWorkItem::SetComment method
+title: IScheduledWorkItem::SetComment
 author: windows-driver-content
 description: Sets the comment for the work item.
 old-location: taskschd\ischeduledworkitem_setcomment.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: c6017aa1-8860-454c-a402-becbc1a4ee5c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], SetComment method, IScheduledWorkItem::SetComment, SetComment method [Task Scheduler], SetComment method [Task Scheduler], IScheduledWorkItem interface, SetComment,IScheduledWorkItem.SetComment, _msb_ischeduledworkitem_setcomment, mstask/IScheduledWorkItem::SetComment, taskschd.ischeduledworkitem_setcomment
+ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetComment method, IScheduledWorkItem.SetComment, IScheduledWorkItem::SetComment, SetComment, SetComment method [Task Scheduler], SetComment method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setcomment, mstask/IScheduledWorkItem::SetComment, taskschd.ischeduledworkitem_setcomment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::SetComment method
+# IScheduledWorkItem::SetComment
 
 
 ## -description

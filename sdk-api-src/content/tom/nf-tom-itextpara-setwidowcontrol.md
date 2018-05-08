@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.SetWidowControl
-title: ITextPara::SetWidowControl method
+title: ITextPara::SetWidowControl
 author: windows-driver-content
 description: Controls the suppression of widows and orphans.
 old-location: controls\ITextPara_SetWidowControl.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setwidowcontrol.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextPara, ITextPara interface [Windows Controls], SetWidowControl method, ITextPara::SetWidowControl, SetWidowControl method [Windows Controls], SetWidowControl method [Windows Controls], ITextPara interface, SetWidowControl,ITextPara.SetWidowControl, _win32_ITextPara_SetWidowControl, _win32_ITextPara_SetWidowControl_cpp, controls.ITextPara_SetWidowControl, controls._win32_ITextPara_SetWidowControl, tom/ITextPara::SetWidowControl
+ms.date: 4/27/2018
+ms.keywords: ITextPara interface [Windows Controls],SetWidowControl method, ITextPara.SetWidowControl, ITextPara::SetWidowControl, SetWidowControl, SetWidowControl method [Windows Controls], SetWidowControl method [Windows Controls],ITextPara interface, _win32_ITextPara_SetWidowControl, _win32_ITextPara_SetWidowControl_cpp, controls.ITextPara_SetWidowControl, controls._win32_ITextPara_SetWidowControl, tom/ITextPara::SetWidowControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::SetWidowControl method
+# ITextPara::SetWidowControl
 
 
 ## -description

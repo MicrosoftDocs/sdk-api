@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.getAll
-title: IWMPPlaylistCollection::getAll method
+title: IWMPPlaylistCollection::getAll
 author: windows-driver-content
 description: The getAll method retrieves a pointer to an IWMPPlaylistArray interface representing all of the playlists in the library.
 old-location: wmp\iwmpplaylistcollection_getall.htm
 old-project: WMP
 ms.assetid: 5ebd966f-5fee-4a8a-909e-5adcbdebab54
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlaylistCollection, IWMPPlaylistCollection interface [Windows Media Player], getAll method, IWMPPlaylistCollection::getAll, IWMPPlaylistCollectiongetAll, getAll method [Windows Media Player], getAll method [Windows Media Player], IWMPPlaylistCollection interface, getAll,IWMPPlaylistCollection.getAll, wmp.iwmpplaylistcollection_getall, wmp/IWMPPlaylistCollection::getAll
+ms.date: 5/4/2018
+ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],getAll method, IWMPPlaylistCollection.getAll, IWMPPlaylistCollection::getAll, IWMPPlaylistCollectiongetAll, getAll, getAll method [Windows Media Player], getAll method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_getall, wmp/IWMPPlaylistCollection::getAll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlaylistCollection::getAll method
+# IWMPPlaylistCollection::getAll
 
 
 ## -description

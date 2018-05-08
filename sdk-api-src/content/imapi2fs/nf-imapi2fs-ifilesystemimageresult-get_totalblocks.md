@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_TotalBlocks
-title: IFileSystemImageResult::get_TotalBlocks method
+title: IFileSystemImageResult::get_TotalBlocks
 author: windows-driver-content
 description: Retrieves the number of blocks in the result image.
 old-location: imapi\ifilesystemimageresult_get_totalblocks.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: e895ed4f-67cb-43c2-aeb2-9a3ddb79c4fd
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImageResult, IFileSystemImageResult interface [IMAPI], get_TotalBlocks method, IFileSystemImageResult::get_TotalBlocks, get_TotalBlocks method [IMAPI], get_TotalBlocks method [IMAPI], IFileSystemImageResult interface, get_TotalBlocks,IFileSystemImageResult.get_TotalBlocks, imapi.ifilesystemimageresult_get_totalblocks, imapi2fs/IFileSystemImageResult::get_TotalBlocks
+ms.keywords: IFileSystemImageResult interface [IMAPI],get_TotalBlocks method, IFileSystemImageResult.get_TotalBlocks, IFileSystemImageResult::get_TotalBlocks, get_TotalBlocks, get_TotalBlocks method [IMAPI], get_TotalBlocks method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_totalblocks, imapi2fs/IFileSystemImageResult::get_TotalBlocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImageResult::get_TotalBlocks method
+# IFileSystemImageResult::get_TotalBlocks
 
 
 ## -description

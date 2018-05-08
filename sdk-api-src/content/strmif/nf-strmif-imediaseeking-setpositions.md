@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSeeking.SetPositions
-title: IMediaSeeking::SetPositions method
+title: IMediaSeeking::SetPositions
 author: windows-driver-content
 description: The SetPositions method sets the current position and the stop position.
 old-location: dshow\imediaseeking_setpositions.htm
 old-project: DirectShow
 ms.assetid: aa1369fd-a57a-4246-bb23-969f6ce3cad8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], SetPositions method, IMediaSeeking::SetPositions, IMediaSeekingSetPositions, SetPositions method [DirectShow], SetPositions method [DirectShow], IMediaSeeking interface, SetPositions,IMediaSeeking.SetPositions, dshow.imediaseeking_setpositions, strmif/IMediaSeeking::SetPositions
+ms.date: 4/30/2018
+ms.keywords: IMediaSeeking interface [DirectShow],SetPositions method, IMediaSeeking.SetPositions, IMediaSeeking::SetPositions, IMediaSeekingSetPositions, SetPositions, SetPositions method [DirectShow], SetPositions method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_setpositions, strmif/IMediaSeeking::SetPositions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSeeking::SetPositions method
+# IMediaSeeking::SetPositions
 
 
 ## -description

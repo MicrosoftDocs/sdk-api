@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetNull
-title: CInstance::SetNull method
+title: CInstance::SetNull
 author: windows-driver-content
 description: The SetNull method sets a property to NULL.
 old-location: wmi\cinstance_setnull.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 4157275a-cf71-4aca-ae86-0ae0b0e7fda7
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?SetNull@CInstance@@QAE_NPBG@Z, CInstance, CInstance interface [Windows Management Instrumentation], SetNull method, CInstance::SetNull, SetNull method [Windows Management Instrumentation], SetNull method [Windows Management Instrumentation], CInstance interface, SetNull,CInstance.SetNull, _hmm_cinstance_setnull, instance/CInstance::SetNull, wmi.cinstance_setnull"
+ms.keywords: "?SetNull@CInstance@@QAE_NPBG@Z, CInstance interface [Windows Management Instrumentation],SetNull method, CInstance.SetNull, CInstance::SetNull, SetNull, SetNull method [Windows Management Instrumentation], SetNull method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setnull, instance/CInstance::SetNull, wmi.cinstance_setnull"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::SetNull method
+# CInstance::SetNull
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetContext
-title: IWSDHttpMessageParameters::GetContext method
+title: IWSDHttpMessageParameters::GetContext
 author: windows-driver-content
 description: Retrieves the private transmission context for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_getcontext.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: af93f97f-a3de-4b5c-92c5-2d4ab91e7985
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetContext method, GetContext method, IWSDHttpMessageParameters interface, GetContext,IWSDHttpMessageParameters.GetContext, IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, GetContext method, IWSDHttpMessageParameters::GetContext, ncd.iwsdhttpmessageparameters_getcontext, wsdbase/IWSDHttpMessageParameters::GetContext
+ms.keywords: GetContext, GetContext method, GetContext method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetContext method, IWSDHttpMessageParameters.GetContext, IWSDHttpMessageParameters::GetContext, ncd.iwsdhttpmessageparameters_getcontext, wsdbase/IWSDHttpMessageParameters::GetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDHttpMessageParameters::GetContext method
+# IWSDHttpMessageParameters::GetContext
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.SendCommandNoData
-title: IDiscRecorder2Ex::SendCommandNoData method
+title: IDiscRecorder2Ex::SendCommandNoData
 author: windows-driver-content
 description: Sends a MMC command to the recording device. Use this function when no data buffer is sent to nor received from the device.
 old-location: imapi\idiscrecorder2ex_sendcommandnodata.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 7dc645d5-795d-4f31-a4cf-30875e930e10
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscRecorder2Ex, IDiscRecorder2Ex interface [IMAPI], SendCommandNoData method, IDiscRecorder2Ex::SendCommandNoData, SendCommandNoData method [IMAPI], SendCommandNoData method [IMAPI], IDiscRecorder2Ex interface, SendCommandNoData,IDiscRecorder2Ex.SendCommandNoData, imapi.idiscrecorder2ex_sendcommandnodata, imapi2/IDiscRecorder2Ex::SendCommandNoData
+ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendCommandNoData method, IDiscRecorder2Ex.SendCommandNoData, IDiscRecorder2Ex::SendCommandNoData, SendCommandNoData, SendCommandNoData method [IMAPI], SendCommandNoData method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_sendcommandnodata, imapi2/IDiscRecorder2Ex::SendCommandNoData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2Ex::SendCommandNoData method
+# IDiscRecorder2Ex::SendCommandNoData
 
 
 ## -description

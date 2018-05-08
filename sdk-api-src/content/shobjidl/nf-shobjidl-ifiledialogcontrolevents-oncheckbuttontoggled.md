@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnCheckButtonToggled
-title: IFileDialogControlEvents::OnCheckButtonToggled method
+title: IFileDialogControlEvents::OnCheckButtonToggled
 author: windows-driver-content
 description: Called when the user changes the state of a check button (check box).
 old-location: shell\IFileDialogControlEvents_OnCheckButtonToggled.htm
 old-project: shell
 ms.assetid: 97e6cb2a-1ffc-43ca-abb6-f1b259e8fcd2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFileDialogControlEvents, IFileDialogControlEvents interface [Windows Shell], OnCheckButtonToggled method, IFileDialogControlEvents::OnCheckButtonToggled, OnCheckButtonToggled method [Windows Shell], OnCheckButtonToggled method [Windows Shell], IFileDialogControlEvents interface, OnCheckButtonToggled,IFileDialogControlEvents.OnCheckButtonToggled, shell.IFileDialogControlEvents_OnCheckButtonToggled, shell_IFileDialogControlEvents_OnCheckButtonToggled, shobjidl/IFileDialogControlEvents::OnCheckButtonToggled
+ms.date: 5/3/2018
+ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnCheckButtonToggled method, IFileDialogControlEvents.OnCheckButtonToggled, IFileDialogControlEvents::OnCheckButtonToggled, OnCheckButtonToggled, OnCheckButtonToggled method [Windows Shell], OnCheckButtonToggled method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnCheckButtonToggled, shell_IFileDialogControlEvents_OnCheckButtonToggled, shobjidl/IFileDialogControlEvents::OnCheckButtonToggled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IFileDialogControlEvents::OnCheckButtonToggled method
+# IFileDialogControlEvents::OnCheckButtonToggled
 
 
 ## -description

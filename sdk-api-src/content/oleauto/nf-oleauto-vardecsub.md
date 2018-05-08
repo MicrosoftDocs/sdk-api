@@ -7,7 +7,7 @@ old-location: automat\vardecsub.htm
 old-project: automat
 ms.assetid: d4d25d47-6b8b-4d06-8698-bd9b4d1d8e8c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarDecSub, VarDecSub function [Automation], _oa96_VarDecSub, automat.vardecsub, oleauto/VarDecSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

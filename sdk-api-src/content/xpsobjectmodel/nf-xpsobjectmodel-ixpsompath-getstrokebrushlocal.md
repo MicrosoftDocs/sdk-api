@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeBrushLocal
-title: IXpsOMPath::GetStrokeBrushLocal method
+title: IXpsOMPath::GetStrokeBrushLocal
 author: windows-driver-content
 description: Gets a pointer to the local, unshared IXpsOMBrush interface that contains the stroke brush for the path.
 old-location: xps\ixpsompath_getstrokebrushlocal.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: cf816750-8381-4c04-af20-e5ce3f8ad63c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStrokeBrushLocal method [XPS Documents and Packaging], GetStrokeBrushLocal method [XPS Documents and Packaging], IXpsOMPath interface, GetStrokeBrushLocal,IXpsOMPath.GetStrokeBrushLocal, IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], GetStrokeBrushLocal method, IXpsOMPath::GetStrokeBrushLocal, xps.ixpsompath_getstrokebrushlocal, xpsobjectmodel/IXpsOMPath::GetStrokeBrushLocal
+ms.keywords: GetStrokeBrushLocal, GetStrokeBrushLocal method [XPS Documents and Packaging], GetStrokeBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrushLocal method, IXpsOMPath.GetStrokeBrushLocal, IXpsOMPath::GetStrokeBrushLocal, xps.ixpsompath_getstrokebrushlocal, xpsobjectmodel/IXpsOMPath::GetStrokeBrushLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::GetStrokeBrushLocal method
+# IXpsOMPath::GetStrokeBrushLocal
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetRangeByFrame
-title: IWMSyncReader::SetRangeByFrame method
+title: IWMSyncReader::SetRangeByFrame
 author: windows-driver-content
 description: The SetRangeByFrame method configures the synchronous reader to read a portion of the file specified by a starting video frame number and a number of frames to read.
 old-location: wmformat\iwmsyncreader_setrangebyframe.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3d53838c-0d07-4aa6-8797-9ed7e07cb8fe
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], SetRangeByFrame method, IWMSyncReader::SetRangeByFrame, IWMSyncReaderSetRangeByFrame, SetRangeByFrame method [windows Media Format], SetRangeByFrame method [windows Media Format], IWMSyncReader interface, SetRangeByFrame,IWMSyncReader.SetRangeByFrame, wmformat.iwmsyncreader_setrangebyframe, wmsdkidl/IWMSyncReader::SetRangeByFrame
+ms.keywords: IWMSyncReader interface [windows Media Format],SetRangeByFrame method, IWMSyncReader.SetRangeByFrame, IWMSyncReader::SetRangeByFrame, IWMSyncReaderSetRangeByFrame, SetRangeByFrame, SetRangeByFrame method [windows Media Format], SetRangeByFrame method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setrangebyframe, wmsdkidl/IWMSyncReader::SetRangeByFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader::SetRangeByFrame method
+# IWMSyncReader::SetRangeByFrame
 
 
 ## -description

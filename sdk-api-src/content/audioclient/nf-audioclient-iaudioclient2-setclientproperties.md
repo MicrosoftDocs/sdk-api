@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient2.SetClientProperties
-title: IAudioClient2::SetClientProperties method
+title: IAudioClient2::SetClientProperties
 author: windows-driver-content
 description: Sets the properties of the audio stream by populating an AudioClientProperties structure.
 old-location: coreaudio\iaudioclient2_setclientproperties.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: B9B98EF9-C0E1-430A-9C79-1B414F4D67B5
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioClient2, IAudioClient2 interface [Core Audio], SetClientProperties method, IAudioClient2::SetClientProperties, SetClientProperties method [Core Audio], SetClientProperties method [Core Audio], IAudioClient2 interface, SetClientProperties,IAudioClient2.SetClientProperties, audioclient/IAudioClient2::SetClientProperties, coreaudio.iaudioclient2_setclientproperties
+ms.keywords: IAudioClient2 interface [Core Audio],SetClientProperties method, IAudioClient2.SetClientProperties, IAudioClient2::SetClientProperties, SetClientProperties, SetClientProperties method [Core Audio], SetClientProperties method [Core Audio],IAudioClient2 interface, audioclient/IAudioClient2::SetClientProperties, coreaudio.iaudioclient2_setclientproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioClient2::SetClientProperties method
+# IAudioClient2::SetClientProperties
 
 
 ## -description

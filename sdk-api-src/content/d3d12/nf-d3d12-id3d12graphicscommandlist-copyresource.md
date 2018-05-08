@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.CopyResource
-title: ID3D12GraphicsCommandList::CopyResource method
+title: ID3D12GraphicsCommandList::CopyResource
 author: windows-driver-content
 description: Copies the entire contents of the source resource to the destination resource.
 old-location: direct3d12\id3d12graphicscommandlist_copyresource.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: EFC305CF-FBA9-4192-999B-6C6BFCDFF51F
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CopyResource method, CopyResource method, ID3D12GraphicsCommandList interface, CopyResource,ID3D12GraphicsCommandList.CopyResource, ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, CopyResource method, ID3D12GraphicsCommandList::CopyResource, d3d12/ID3D12GraphicsCommandList::CopyResource, direct3d12.id3d12graphicscommandlist_copyresource
+ms.keywords: CopyResource, CopyResource method, CopyResource method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyResource method, ID3D12GraphicsCommandList.CopyResource, ID3D12GraphicsCommandList::CopyResource, d3d12/ID3D12GraphicsCommandList::CopyResource, direct3d12.id3d12graphicscommandlist_copyresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::CopyResource method
+# ID3D12GraphicsCommandList::CopyResource
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnRedirect
-title: IXMLHTTPRequest2Callback::OnRedirect method
+title: IXMLHTTPRequest2Callback::OnRedirect
 author: windows-driver-content
 description: Occurs when a client sends an HTTP request that the server redirects to a new URL.
 old-location: ixhr2\ixmlhttprequest2callback_onredirect.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: 8492FFD5-99C8-4545-B5FD-465CC01D0038
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest2Callback, IXMLHTTPRequest2Callback interface [XMLHttpRequest2], OnRedirect method, IXMLHTTPRequest2Callback::OnRedirect, OnRedirect method [XMLHttpRequest2], OnRedirect method [XMLHttpRequest2], IXMLHTTPRequest2Callback interface, OnRedirect,IXMLHTTPRequest2Callback.OnRedirect, ixhr2.ixmlhttprequest2callback_onredirect, msxml6/IXMLHTTPRequest2Callback::OnRedirect
+ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnRedirect method, IXMLHTTPRequest2Callback.OnRedirect, IXMLHTTPRequest2Callback::OnRedirect, OnRedirect, OnRedirect method [XMLHttpRequest2], OnRedirect method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onredirect, msxml6/IXMLHTTPRequest2Callback::OnRedirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest2Callback::OnRedirect method
+# IXMLHTTPRequest2Callback::OnRedirect
 
 
 ## -description

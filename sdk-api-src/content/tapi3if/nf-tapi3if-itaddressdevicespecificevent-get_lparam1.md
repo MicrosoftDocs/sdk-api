@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressDeviceSpecificEvent.get_lParam1
-title: ITAddressDeviceSpecificEvent::get_lParam1 method
+title: ITAddressDeviceSpecificEvent::get_lParam1
 author: windows-driver-content
 description: The get_lParam1 method retrieves the first of three buffers specific to a given address device. The precise content and meaning of these buffers is defined by the provider.
 old-location: tapi3\itaddressdevicespecificevent_get_lparam1.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: e0cae67a-0c39-407a-b563-bef14c36f014
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAddressDeviceSpecificEvent, ITAddressDeviceSpecificEvent interface [TAPI 2.2], get_lParam1 method, ITAddressDeviceSpecificEvent::get_lParam1, _tapi3_itaddressdevicespecificevent_get_lparam1, get_lParam1 method [TAPI 2.2], get_lParam1 method [TAPI 2.2], ITAddressDeviceSpecificEvent interface, get_lParam1,ITAddressDeviceSpecificEvent.get_lParam1, tapi3.itaddressdevicespecificevent_get_lparam1, tapi3if/ITAddressDeviceSpecificEvent::get_lParam1
+ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_lParam1 method, ITAddressDeviceSpecificEvent.get_lParam1, ITAddressDeviceSpecificEvent::get_lParam1, _tapi3_itaddressdevicespecificevent_get_lparam1, get_lParam1, get_lParam1 method [TAPI 2.2], get_lParam1 method [TAPI 2.2],ITAddressDeviceSpecificEvent interface, tapi3.itaddressdevicespecificevent_get_lparam1, tapi3if/ITAddressDeviceSpecificEvent::get_lParam1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAddressDeviceSpecificEvent::get_lParam1 method
+# ITAddressDeviceSpecificEvent::get_lParam1
 
 
 ## -description

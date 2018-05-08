@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.ICertView.SetResultColumnCount
-title: ICertView::SetResultColumnCount method
+title: ICertView::SetResultColumnCount
 author: windows-driver-content
 description: Specifies the maximum number of columns for the result set of a customized view of the Certificate Services database.
 old-location: security\icertview2_setresultcolumncount.htm
 old-project: SecCrypto
 ms.assetid: f98b2f45-be9f-47ba-9c6b-63a2912288ac
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertView object [Security], SetResultColumnCount method, CV_COLUMN_LOG_DEFAULT, CV_COLUMN_LOG_FAILED_DEFAULT, CV_COLUMN_QUEUE_DEFAULT, ICertView, ICertView interface [Security], SetResultColumnCount method, ICertView2 interface [Security], SetResultColumnCount method, ICertView2::SetResultColumnCount, ICertView::SetResultColumnCount, SetResultColumnCount method [Security], SetResultColumnCount method [Security], CCertView object, SetResultColumnCount method [Security], ICertView interface, SetResultColumnCount method [Security], ICertView2 interface, SetResultColumnCount,ICertView.SetResultColumnCount, certview/ICertView2::SetResultColumnCount, certview/ICertView::SetResultColumnCount, security.icertview2_setresultcolumncount
+ms.date: 4/30/2018
+ms.keywords: CCertView object [Security],SetResultColumnCount method, CV_COLUMN_LOG_DEFAULT, CV_COLUMN_LOG_FAILED_DEFAULT, CV_COLUMN_QUEUE_DEFAULT, ICertView interface [Security],SetResultColumnCount method, ICertView.SetResultColumnCount, ICertView2 interface [Security],SetResultColumnCount method, ICertView2::SetResultColumnCount, ICertView::SetResultColumnCount, SetResultColumnCount, SetResultColumnCount method [Security], SetResultColumnCount method [Security],CCertView object, SetResultColumnCount method [Security],ICertView interface, SetResultColumnCount method [Security],ICertView2 interface, certview/ICertView2::SetResultColumnCount, certview/ICertView::SetResultColumnCount, security.icertview2_setresultcolumncount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# ICertView::SetResultColumnCount method
+# ICertView::SetResultColumnCount
 
 
 ## -description

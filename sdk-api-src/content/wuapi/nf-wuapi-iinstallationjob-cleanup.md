@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationJob.CleanUp
-title: IInstallationJob::CleanUp method
+title: IInstallationJob::CleanUp
 author: windows-driver-content
 description: Waits for an asynchronous operation to be completed and then releases all the callbacks.
 old-location: wua\iinstallationjob_cleanup.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: ceb42a41-9df0-4075-afbe-f8753d4543d8
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CleanUp method [Windows Update Agent], CleanUp method [Windows Update Agent], IInstallationJob interface, CleanUp,IInstallationJob.CleanUp, IInstallationJob, IInstallationJob interface [Windows Update Agent], CleanUp method, IInstallationJob::CleanUp, wua.iinstallationjob_cleanup, wuapi/IInstallationJob::CleanUp
+ms.keywords: CleanUp, CleanUp method [Windows Update Agent], CleanUp method [Windows Update Agent],IInstallationJob interface, IInstallationJob interface [Windows Update Agent],CleanUp method, IInstallationJob.CleanUp, IInstallationJob::CleanUp, wua.iinstallationjob_cleanup, wuapi/IInstallationJob::CleanUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInstallationJob::CleanUp method
+# IInstallationJob::CleanUp
 
 
 ## -description

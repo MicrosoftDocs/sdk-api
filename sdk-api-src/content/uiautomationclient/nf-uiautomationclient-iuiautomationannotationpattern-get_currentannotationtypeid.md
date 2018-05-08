@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeId
-title: IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId method
+title: IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId
 author: windows-driver-content
 description: Retrieves a value that identifies the annotation's type.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeId.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: BFE58005-31DC-40A5-836C-9E2750DC03BD
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentAnnotationTypeId property [Windows Accessibility], CurrentAnnotationTypeId property [Windows Accessibility], IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern, IUIAutomationAnnotationPattern interface [Windows Accessibility], CurrentAnnotationTypeId property, IUIAutomationAnnotationPattern.CurrentAnnotationTypeId, IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId, get_CurrentAnnotationTypeId,IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeId, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAnnotationTypeId, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeId
+ms.keywords: CurrentAnnotationTypeId property [Windows Accessibility], CurrentAnnotationTypeId property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentAnnotationTypeId property, IUIAutomationAnnotationPattern.CurrentAnnotationTypeId, IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeId, IUIAutomationAnnotationPattern::CurrentAnnotationTypeId, IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId, get_CurrentAnnotationTypeId, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAnnotationTypeId, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId method
+# IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId
 
 
 ## -description

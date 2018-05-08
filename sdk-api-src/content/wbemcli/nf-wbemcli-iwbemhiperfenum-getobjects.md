@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemHiPerfEnum.GetObjects
-title: IWbemHiPerfEnum::GetObjects method
+title: IWbemHiPerfEnum::GetObjects
 author: windows-driver-content
 description: The IWbemHiPerfEnum::GetObjects method retrieves objects currently residing in the enumerator.
 old-location: wmi\iwbemhiperfenum_getobjects.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 27dd9c2c-236e-41be-bfaa-90ebf8dfb1bc
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetObjects method [Windows Management Instrumentation], GetObjects method [Windows Management Instrumentation], IWbemHiPerfEnum interface, GetObjects,IWbemHiPerfEnum.GetObjects, IWbemHiPerfEnum, IWbemHiPerfEnum interface [Windows Management Instrumentation], GetObjects method, IWbemHiPerfEnum::GetObjects, _hmm_iwbemhiperfenum_getobjects, wbemcli/IWbemHiPerfEnum::GetObjects, wmi.iwbemhiperfenum_getobjects
+ms.keywords: GetObjects, GetObjects method [Windows Management Instrumentation], GetObjects method [Windows Management Instrumentation],IWbemHiPerfEnum interface, IWbemHiPerfEnum interface [Windows Management Instrumentation],GetObjects method, IWbemHiPerfEnum.GetObjects, IWbemHiPerfEnum::GetObjects, _hmm_iwbemhiperfenum_getobjects, wbemcli/IWbemHiPerfEnum::GetObjects, wmi.iwbemhiperfenum_getobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemHiPerfEnum::GetObjects method
+# IWbemHiPerfEnum::GetObjects
 
 
 ## -description

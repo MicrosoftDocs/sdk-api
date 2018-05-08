@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DRM.PerformDRMPairing
-title: IBDA_DRM::PerformDRMPairing method
+title: IBDA_DRM::PerformDRMPairing
 author: windows-driver-content
 description: The PerformDRMPairing method requests the tuner to perform a DRM handshake with the user's computer.
 old-location: mstv\ibda_drm_performdrmpairing.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a3cd9e0c-cfb1-445f-bafc-c1a4f24550f8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DRM, IBDA_DRM interface [Microsoft TV Technologies], PerformDRMPairing method, IBDA_DRM::PerformDRMPairing, IBDA_DRMPerformDRMPairing, PerformDRMPairing method [Microsoft TV Technologies], PerformDRMPairing method [Microsoft TV Technologies], IBDA_DRM interface, PerformDRMPairing,IBDA_DRM.PerformDRMPairing, bdaiface/IBDA_DRM::PerformDRMPairing, mstv.ibda_drm_performdrmpairing
+ms.keywords: IBDA_DRM interface [Microsoft TV Technologies],PerformDRMPairing method, IBDA_DRM.PerformDRMPairing, IBDA_DRM::PerformDRMPairing, IBDA_DRMPerformDRMPairing, PerformDRMPairing, PerformDRMPairing method [Microsoft TV Technologies], PerformDRMPairing method [Microsoft TV Technologies],IBDA_DRM interface, bdaiface/IBDA_DRM::PerformDRMPairing, mstv.ibda_drm_performdrmpairing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DRM::PerformDRMPairing method
+# IBDA_DRM::PerformDRMPairing
 
 
 ## -description

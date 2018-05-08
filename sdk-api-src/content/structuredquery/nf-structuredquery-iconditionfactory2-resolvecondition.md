@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.ResolveCondition
-title: IConditionFactory2::ResolveCondition method
+title: IConditionFactory2::ResolveCondition
 author: windows-driver-content
 description: Performs a variety of transformations on a condition tree, and thereby the resolved condition for evaluation. The returned object supports ICondition and ICondition2.
 old-location: search\_search_IConditionFactory2_ResolveCondition.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\resolvecondition.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IConditionFactory2, IConditionFactory2 interface [search], ResolveCondition method, IConditionFactory2::ResolveCondition, ResolveCondition method [search], ResolveCondition method [search], IConditionFactory2 interface, ResolveCondition,IConditionFactory2.ResolveCondition, _search_IConditionFactory2_ResolveCondition, search._search_IConditionFactory2_ResolveCondition, structuredquery/IConditionFactory2::ResolveCondition
+ms.date: 5/4/2018
+ms.keywords: IConditionFactory2 interface [search],ResolveCondition method, IConditionFactory2.ResolveCondition, IConditionFactory2::ResolveCondition, ResolveCondition, ResolveCondition method [search], ResolveCondition method [search],IConditionFactory2 interface, _search_IConditionFactory2_ResolveCondition, search._search_IConditionFactory2_ResolveCondition, structuredquery/IConditionFactory2::ResolveCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IConditionFactory2::ResolveCondition method
+# IConditionFactory2::ResolveCondition
 
 
 ## -description

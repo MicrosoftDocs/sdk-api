@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocatorFactory.CreateProxyLocator
-title: IMFNetProxyLocatorFactory::CreateProxyLocator method
+title: IMFNetProxyLocatorFactory::CreateProxyLocator
 author: windows-driver-content
 description: Creates an IMFNetProxyLocator interface proxy locator object based on the protocol name.
 old-location: mf\imfnetproxylocatorfactory_createproxylocator.htm
 old-project: medfound
 ms.assetid: 0bdc03a8-a01d-453b-92b9-b39d8028b314
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 0bdc03a8-a01d-453b-92b9-b39d8028b314, CreateProxyLocator method [Media Foundation], CreateProxyLocator method [Media Foundation], IMFNetProxyLocatorFactory interface, CreateProxyLocator,IMFNetProxyLocatorFactory.CreateProxyLocator, IMFNetProxyLocatorFactory, IMFNetProxyLocatorFactory interface [Media Foundation], CreateProxyLocator method, IMFNetProxyLocatorFactory::CreateProxyLocator, mf.imfnetproxylocatorfactory_createproxylocator, mfidl/IMFNetProxyLocatorFactory::CreateProxyLocator
+ms.date: 5/3/2018
+ms.keywords: 0bdc03a8-a01d-453b-92b9-b39d8028b314, CreateProxyLocator, CreateProxyLocator method [Media Foundation], CreateProxyLocator method [Media Foundation],IMFNetProxyLocatorFactory interface, IMFNetProxyLocatorFactory interface [Media Foundation],CreateProxyLocator method, IMFNetProxyLocatorFactory.CreateProxyLocator, IMFNetProxyLocatorFactory::CreateProxyLocator, mf.imfnetproxylocatorfactory_createproxylocator, mfidl/IMFNetProxyLocatorFactory::CreateProxyLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFNetProxyLocatorFactory::CreateProxyLocator method
+# IMFNetProxyLocatorFactory::CreateProxyLocator
 
 
 ## -description

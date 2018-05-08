@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Reset
-title: IEnumTfRanges::Reset method
+title: IEnumTfRanges::Reset
 author: windows-driver-content
 description: IEnumTfRanges::Reset method
 old-location: tsf\ienumtfranges_reset.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c7f8ea8d-5627-4dc1-ab22-a9e14f536520
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfRanges, IEnumTfRanges interface [Text Services Framework], Reset method, IEnumTfRanges::Reset, Reset method [Text Services Framework], Reset method [Text Services Framework], IEnumTfRanges interface, Reset,IEnumTfRanges.Reset, _tsf_ienumtfranges_reset_ref, msctf/IEnumTfRanges::Reset, tsf.ienumtfranges_reset
+ms.keywords: IEnumTfRanges interface [Text Services Framework],Reset method, IEnumTfRanges.Reset, IEnumTfRanges::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_reset_ref, msctf/IEnumTfRanges::Reset, tsf.ienumtfranges_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfRanges::Reset method
+# IEnumTfRanges::Reset
 
 
 ## -description

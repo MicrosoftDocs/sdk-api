@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.InitializeClientContextFromName
-title: IAzApplication::InitializeClientContextFromName method
+title: IAzApplication::InitializeClientContextFromName
 author: windows-driver-content
 description: Gets an IAzClientContext object pointer from the client identity as a (domain name, client name) pair.
 old-location: security\iazapplication_initializeclientcontextfromname.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 25628f06-fea7-4acd-b1db-b3667fcd07a2
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplication object [Security], InitializeClientContextFromName method, IAzApplication, IAzApplication interface [Security], InitializeClientContextFromName method, IAzApplication::InitializeClientContextFromName, InitializeClientContextFromName method [Security], InitializeClientContextFromName method [Security], AzApplication object, InitializeClientContextFromName method [Security], IAzApplication interface, InitializeClientContextFromName,IAzApplication.InitializeClientContextFromName, azroles/IAzApplication::InitializeClientContextFromName, security.iazapplication_initializeclientcontextfromname
+ms.keywords: AzApplication object [Security],InitializeClientContextFromName method, IAzApplication interface [Security],InitializeClientContextFromName method, IAzApplication.InitializeClientContextFromName, IAzApplication::InitializeClientContextFromName, InitializeClientContextFromName, InitializeClientContextFromName method [Security], InitializeClientContextFromName method [Security],AzApplication object, InitializeClientContextFromName method [Security],IAzApplication interface, azroles/IAzApplication::InitializeClientContextFromName, security.iazapplication_initializeclientcontextfromname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::InitializeClientContextFromName method
+# IAzApplication::InitializeClientContextFromName
 
 
 ## -description

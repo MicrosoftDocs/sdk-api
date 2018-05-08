@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextStoryRanges.Item
-title: ITextStoryRanges::Item method
+title: ITextStoryRanges::Item
 author: windows-driver-content
 description: Retrieves an ITextRange object for the Indexth story in this story collection.
 old-location: controls\ITextStoryRanges_Item.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\item.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextStoryRanges, ITextStoryRanges interface [Windows Controls], Item method, ITextStoryRanges::Item, Item method [Windows Controls], Item method [Windows Controls], ITextStoryRanges interface, Item,ITextStoryRanges.Item, _win32_ITextStoryRanges_Item, _win32_ITextStoryRanges_Item_cpp, controls.ITextStoryRanges_Item, controls._win32_ITextStoryRanges_Item, tom/ITextStoryRanges::Item
+ms.date: 4/27/2018
+ms.keywords: ITextStoryRanges interface [Windows Controls],Item method, ITextStoryRanges.Item, ITextStoryRanges::Item, Item, Item method [Windows Controls], Item method [Windows Controls],ITextStoryRanges interface, _win32_ITextStoryRanges_Item, _win32_ITextStoryRanges_Item_cpp, controls.ITextStoryRanges_Item, controls._win32_ITextStoryRanges_Item, tom/ITextStoryRanges::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoryRanges::Item method
+# ITextStoryRanges::Item
 
 
 ## -description

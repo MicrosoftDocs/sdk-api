@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectSubpictureStream
-title: IDvdControl2::SelectSubpictureStream method
+title: IDvdControl2::SelectSubpictureStream
 author: windows-driver-content
 description: The SelectSubpictureStream method sets the subpicture stream to display.
 old-location: dshow\idvdcontrol2_selectsubpicturestream.htm
 old-project: DirectShow
 ms.assetid: 0553a0c4-34d3-4774-9a22-acc01c0a832a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SelectSubpictureStream method, IDvdControl2::SelectSubpictureStream, IDvdControl2SelectSubpictureStream, SelectSubpictureStream method [DirectShow], SelectSubpictureStream method [DirectShow], IDvdControl2 interface, SelectSubpictureStream,IDvdControl2.SelectSubpictureStream, dshow.idvdcontrol2_selectsubpicturestream, strmif/IDvdControl2::SelectSubpictureStream
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],SelectSubpictureStream method, IDvdControl2.SelectSubpictureStream, IDvdControl2::SelectSubpictureStream, IDvdControl2SelectSubpictureStream, SelectSubpictureStream, SelectSubpictureStream method [DirectShow], SelectSubpictureStream method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectsubpicturestream, strmif/IDvdControl2::SelectSubpictureStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::SelectSubpictureStream method
+# IDvdControl2::SelectSubpictureStream
 
 
 ## -description

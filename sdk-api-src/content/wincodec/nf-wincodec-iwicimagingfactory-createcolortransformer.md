@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateColorTransformer
-title: IWICImagingFactory::CreateColorTransformer method
+title: IWICImagingFactory::CreateColorTransformer
 author: windows-driver-content
 description: Creates a new instance of the IWICColorTransform class.
 old-location: wic\_wic_codec_iwicimagingfactory_createcolortransformer.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 1cbe7987-2845-4d12-92f4-fcdd4ae6f370
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateColorTransformer method [Windows Imaging Component], CreateColorTransformer method [Windows Imaging Component], IWICImagingFactory interface, CreateColorTransformer,IWICImagingFactory.CreateColorTransformer, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateColorTransformer method, IWICImagingFactory::CreateColorTransformer, _wic_codec_iwicimagingfactory_createcolortransformer, wic._wic_codec_iwicimagingfactory_createcolortransformer, wincodec/IWICImagingFactory::CreateColorTransformer
+ms.keywords: CreateColorTransformer, CreateColorTransformer method [Windows Imaging Component], CreateColorTransformer method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateColorTransformer method, IWICImagingFactory.CreateColorTransformer, IWICImagingFactory::CreateColorTransformer, _wic_codec_iwicimagingfactory_createcolortransformer, wic._wic_codec_iwicimagingfactory_createcolortransformer, wincodec/IWICImagingFactory::CreateColorTransformer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICImagingFactory::CreateColorTransformer method
+# IWICImagingFactory::CreateColorTransformer
 
 
 ## -description

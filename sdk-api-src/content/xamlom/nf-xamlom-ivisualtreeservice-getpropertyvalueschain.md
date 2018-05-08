@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetPropertyValuesChain
-title: IVisualTreeService::GetPropertyValuesChain method
+title: IVisualTreeService::GetPropertyValuesChain
 author: windows-driver-content
 description: Gets an array of all the properties set on the element passed in, and an array of all the styles involved in setting the effective values of the properties.
 old-location: xaml_diagnostics\ivisualtreeservice_getpropertyvalueschain.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 3D997B09-7B20-47BC-B19C-98945CA41D17
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: GetPropertyValuesChain method, GetPropertyValuesChain method, IVisualTreeService interface, GetPropertyValuesChain,IVisualTreeService.GetPropertyValuesChain, IVisualTreeService, IVisualTreeService interface, GetPropertyValuesChain method, IVisualTreeService::GetPropertyValuesChain, xaml_diagnostics.ivisualtreeservice_getpropertyvalueschain, xamlom/IVisualTreeService::GetPropertyValuesChain
+ms.keywords: GetPropertyValuesChain, GetPropertyValuesChain method, GetPropertyValuesChain method,IVisualTreeService interface, IVisualTreeService interface,GetPropertyValuesChain method, IVisualTreeService.GetPropertyValuesChain, IVisualTreeService::GetPropertyValuesChain, xaml_diagnostics.ivisualtreeservice_getpropertyvalueschain, xamlom/IVisualTreeService::GetPropertyValuesChain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeService::GetPropertyValuesChain method
+# IVisualTreeService::GetPropertyValuesChain
 
 
 ## -description

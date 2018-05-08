@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetVolumeStepInfo
-title: IAudioEndpointVolume::GetVolumeStepInfo method
+title: IAudioEndpointVolume::GetVolumeStepInfo
 author: windows-driver-content
 description: The GetVolumeStepInfo method gets information about the current step in the volume range.
 old-location: coreaudio\iaudioendpointvolume_getvolumestepinfo.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 895f5dd1-73f5-464e-9498-b3832edf4dc7
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetVolumeStepInfo method [Core Audio], GetVolumeStepInfo method [Core Audio], IAudioEndpointVolume interface, GetVolumeStepInfo,IAudioEndpointVolume.GetVolumeStepInfo, IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], GetVolumeStepInfo method, IAudioEndpointVolume::GetVolumeStepInfo, IAudioEndpointVolumeGetVolumeStepInfo, coreaudio.iaudioendpointvolume_getvolumestepinfo, endpointvolume/IAudioEndpointVolume::GetVolumeStepInfo
+ms.keywords: GetVolumeStepInfo, GetVolumeStepInfo method [Core Audio], GetVolumeStepInfo method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetVolumeStepInfo method, IAudioEndpointVolume.GetVolumeStepInfo, IAudioEndpointVolume::GetVolumeStepInfo, IAudioEndpointVolumeGetVolumeStepInfo, coreaudio.iaudioendpointvolume_getvolumestepinfo, endpointvolume/IAudioEndpointVolume::GetVolumeStepInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAudioEndpointVolume::GetVolumeStepInfo method
+# IAudioEndpointVolume::GetVolumeStepInfo
 
 
 ## -description

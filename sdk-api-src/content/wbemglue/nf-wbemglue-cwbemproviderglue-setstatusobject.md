@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.SetStatusObject
-title: CWbemProviderGlue::SetStatusObject method
+title: CWbemProviderGlue::SetStatusObject
 author: windows-driver-content
 description: The SetStatusObject method sets the parameters of a status object used to supply more information when an error occurs. This status object is derived from the Win32_PrivilegesStatus class.
 old-location: wmi\cwbemproviderglue_setstatusobject.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 2f094359-66ea-4604-85f8-1f6bc9a81cd1
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?SetStatusObject@CWbemProviderGlue@@SA_NPEAVMethodContext@@PEBG1JPEBUtagSAFEARRAY@@2@Z, ?SetStatusObject@CWbemProviderGlue@@SG_NPAVMethodContext@@PBG1JPBUtagSAFEARRAY@@2@Z, CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], SetStatusObject method, CWbemProviderGlue::SetStatusObject, SetStatusObject method [Windows Management Instrumentation], SetStatusObject method [Windows Management Instrumentation], CWbemProviderGlue interface, SetStatusObject,CWbemProviderGlue.SetStatusObject, _hmm_cwbemproviderglue_setstatusobject, wbemglue/CWbemProviderGlue::SetStatusObject, wmi.cwbemproviderglue_setstatusobject"
+ms.keywords: "?SetStatusObject@CWbemProviderGlue@@SA_NPEAVMethodContext@@PEBG1JPEBUtagSAFEARRAY@@2@Z, ?SetStatusObject@CWbemProviderGlue@@SG_NPAVMethodContext@@PBG1JPBUtagSAFEARRAY@@2@Z, CWbemProviderGlue interface [Windows Management Instrumentation],SetStatusObject method, CWbemProviderGlue.SetStatusObject, CWbemProviderGlue::SetStatusObject, SetStatusObject, SetStatusObject method [Windows Management Instrumentation], SetStatusObject method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_setstatusobject, wbemglue/CWbemProviderGlue::SetStatusObject, wmi.cwbemproviderglue_setstatusobject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# CWbemProviderGlue::SetStatusObject method
+# CWbemProviderGlue::SetStatusObject
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.StartWdsTransportServices
-title: IWdsTransportConfigurationManager::StartWdsTransportServices method
+title: IWdsTransportConfigurationManager::StartWdsTransportServices
 author: windows-driver-content
 description: Starts all WDS transport services. This method provides the means to change the running state of WDS transport services without changing their configuration.
 old-location: wds\iwdstransportconfigurationmanager_startwdstransportservices.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 7612335a-4d81-4ec5-a348-93adefb0cced
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportConfigurationManager, IWdsTransportConfigurationManager interface [Windows Deployment Services], StartWdsTransportServices method, IWdsTransportConfigurationManager::StartWdsTransportServices, StartWdsTransportServices method [Windows Deployment Services], StartWdsTransportServices method [Windows Deployment Services], IWdsTransportConfigurationManager interface, StartWdsTransportServices,IWdsTransportConfigurationManager.StartWdsTransportServices, wds.iwdstransportconfigurationmanager_startwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::StartWdsTransportServices
+ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],StartWdsTransportServices method, IWdsTransportConfigurationManager.StartWdsTransportServices, IWdsTransportConfigurationManager::StartWdsTransportServices, StartWdsTransportServices, StartWdsTransportServices method [Windows Deployment Services], StartWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_startwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::StartWdsTransportServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportConfigurationManager::StartWdsTransportServices method
+# IWdsTransportConfigurationManager::StartWdsTransportServices
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetOwner
-title: IXpsOMDocument::GetOwner method
+title: IXpsOMDocument::GetOwner
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMDocumentSequence interface that contains the document.
 old-location: xps\ixpsomdocument_getowner.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: ae465c16-9756-4c5d-9601-3087ced9c1f0
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging], IXpsOMDocument interface, GetOwner,IXpsOMDocument.GetOwner, IXpsOMDocument, IXpsOMDocument interface [XPS Documents and Packaging], GetOwner method, IXpsOMDocument::GetOwner, xps.ixpsomdocument_getowner, xpsobjectmodel/IXpsOMDocument::GetOwner
+ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetOwner method, IXpsOMDocument.GetOwner, IXpsOMDocument::GetOwner, xps.ixpsomdocument_getowner, xpsobjectmodel/IXpsOMDocument::GetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDocument::GetOwner method
+# IXpsOMDocument::GetOwner
 
 
 ## -description

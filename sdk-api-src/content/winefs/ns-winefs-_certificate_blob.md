@@ -92,11 +92,38 @@ A certificate encoding type. This member can be one of the following values.
 The number of bytes in the <b>pbData</b> buffer.
 
 
+### -field cbData.range
+
+ 
+
+
+### -field cbData.range.0
+
+ 
+
+
+### -field cbData.range.32768
+
+ 
+
+
 ### -field pbData
 
 The binary certificate. The  
       <b>dwCertEncodingType</b> member specifies the format for this certificate.
      
+
+
+### -field pbData.size_is
+
+ 
+
+
+### -field pbData.size_is.cbData
+
+ 
+
+
 
 
 ## -see-also

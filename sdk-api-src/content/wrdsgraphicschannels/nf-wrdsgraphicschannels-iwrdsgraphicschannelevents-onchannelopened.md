@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnChannelOpened
-title: IWRdsGraphicsChannelEvents::OnChannelOpened method
+title: IWRdsGraphicsChannelEvents::OnChannelOpened
 author: windows-driver-content
 description: Called when the channel has been opened and is ready for use, or when an error occurs when a channel is opened.
 old-location: termserv\iwrdsgraphicschannelevents_onchannelopened.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: dafff806-8b63-40cd-8b04-efb0497cb043
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsGraphicsChannelEvents, IWRdsGraphicsChannelEvents interface [Remote Desktop Services], OnChannelOpened method, IWRdsGraphicsChannelEvents::OnChannelOpened, OnChannelOpened method [Remote Desktop Services], OnChannelOpened method [Remote Desktop Services], IWRdsGraphicsChannelEvents interface, OnChannelOpened,IWRdsGraphicsChannelEvents.OnChannelOpened, termserv.iwrdsgraphicschannelevents_onchannelopened, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnChannelOpened
+ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnChannelOpened method, IWRdsGraphicsChannelEvents.OnChannelOpened, IWRdsGraphicsChannelEvents::OnChannelOpened, OnChannelOpened, OnChannelOpened method [Remote Desktop Services], OnChannelOpened method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_onchannelopened, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnChannelOpened
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsGraphicsChannelEvents::OnChannelOpened method
+# IWRdsGraphicsChannelEvents::OnChannelOpened
 
 
 ## -description

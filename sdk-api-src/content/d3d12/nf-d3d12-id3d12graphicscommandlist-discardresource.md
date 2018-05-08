@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.DiscardResource
-title: ID3D12GraphicsCommandList::DiscardResource method
+title: ID3D12GraphicsCommandList::DiscardResource
 author: windows-driver-content
 description: Discards a resource.
 old-location: direct3d12\id3d12graphicscommandlist_discardresource.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 2F4DBA5B-F586-4126-8867-BEE650F6D161
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: DiscardResource method, DiscardResource method, ID3D12GraphicsCommandList interface, DiscardResource,ID3D12GraphicsCommandList.DiscardResource, ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, DiscardResource method, ID3D12GraphicsCommandList::DiscardResource, d3d12/ID3D12GraphicsCommandList::DiscardResource, direct3d12.id3d12graphicscommandlist_discardresource
+ms.keywords: DiscardResource, DiscardResource method, DiscardResource method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,DiscardResource method, ID3D12GraphicsCommandList.DiscardResource, ID3D12GraphicsCommandList::DiscardResource, d3d12/ID3D12GraphicsCommandList::DiscardResource, direct3d12.id3d12graphicscommandlist_discardresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::DiscardResource method
+# ID3D12GraphicsCommandList::DiscardResource
 
 
 ## -description

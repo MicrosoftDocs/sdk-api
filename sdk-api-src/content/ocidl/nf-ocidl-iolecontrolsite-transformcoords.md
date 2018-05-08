@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControlSite.TransformCoords
-title: IOleControlSite::TransformCoords method
+title: IOleControlSite::TransformCoords
 author: windows-driver-content
 description: Converts coordinates expressed in HIMETRIC units (as is standard in OLE) to the units specified by the container.
 old-location: com\iolecontrolsite_transformcoords.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c7add062-4b42-43be-a982-c881c947f8f0
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleControlSite, IOleControlSite interface [COM], TransformCoords method, IOleControlSite::TransformCoords, TransformCoords method [COM], TransformCoords method [COM], IOleControlSite interface, TransformCoords,IOleControlSite.TransformCoords, XFORMCOORDS_CONTAINERTOHIMETRIC, XFORMCOORDS_EVENTCOMPAT, XFORMCOORDS_HIMETRICTOCONTAINER, XFORMCOORDS_POSITION, XFORMCOORDS_SIZE, _ctrl_iolecontrolsite_transformcoords, com.iolecontrolsite_transformcoords, ocidl/IOleControlSite::TransformCoords
+ms.keywords: IOleControlSite interface [COM],TransformCoords method, IOleControlSite.TransformCoords, IOleControlSite::TransformCoords, TransformCoords, TransformCoords method [COM], TransformCoords method [COM],IOleControlSite interface, XFORMCOORDS_CONTAINERTOHIMETRIC, XFORMCOORDS_EVENTCOMPAT, XFORMCOORDS_HIMETRICTOCONTAINER, XFORMCOORDS_POSITION, XFORMCOORDS_SIZE, _ctrl_iolecontrolsite_transformcoords, com.iolecontrolsite_transformcoords, ocidl/IOleControlSite::TransformCoords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleControlSite::TransformCoords method
+# IOleControlSite::TransformCoords
 
 
 ## -description

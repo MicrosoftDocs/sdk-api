@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.AddPID
-title: IMpeg2TableFilter::AddPID method
+title: IMpeg2TableFilter::AddPID
 author: windows-driver-content
 description: The AddPID method adds a packet identifier (PID) to the list of PIDs that the filter sends.
 old-location: mstv\impeg2tablefilter_addpid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7a811d1f-cb1b-4f45-8dee-ba83efd20709
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AddPID method [Microsoft TV Technologies], AddPID method [Microsoft TV Technologies], IMpeg2TableFilter interface, AddPID,IMpeg2TableFilter.AddPID, IMpeg2TableFilter, IMpeg2TableFilter interface [Microsoft TV Technologies], AddPID method, IMpeg2TableFilter::AddPID, IMpeg2TableFilterAddPID, mpeg2data/IMpeg2TableFilter::AddPID, mstv.impeg2tablefilter_addpid
+ms.keywords: AddPID, AddPID method [Microsoft TV Technologies], AddPID method [Microsoft TV Technologies],IMpeg2TableFilter interface, IMpeg2TableFilter interface [Microsoft TV Technologies],AddPID method, IMpeg2TableFilter.AddPID, IMpeg2TableFilter::AddPID, IMpeg2TableFilterAddPID, mpeg2data/IMpeg2TableFilter::AddPID, mstv.impeg2tablefilter_addpid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMpeg2TableFilter::AddPID method
+# IMpeg2TableFilter::AddPID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportDiagnosticsPolicy.put_Enabled
-title: IWdsTransportDiagnosticsPolicy::put_Enabled method
+title: IWdsTransportDiagnosticsPolicy::put_Enabled
 author: windows-driver-content
 description: Receives or sets a value that enables a WDS client to configure diagnostic logging on the server.
 old-location: wds\iwdstransportdiagnosticspolicy_enabled.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 82932331-7e4c-4729-a6df-0d1abdb1861d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Enabled property [Windows Deployment Services], Enabled property [Windows Deployment Services], IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services], Enabled property, IWdsTransportDiagnosticsPolicy.Enabled, IWdsTransportDiagnosticsPolicy::get_Enabled, IWdsTransportDiagnosticsPolicy::put_Enabled, put_Enabled,IWdsTransportDiagnosticsPolicy.put_Enabled, wds.iwdstransportdiagnosticspolicy_enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Enabled
+ms.keywords: Enabled property [Windows Deployment Services], Enabled property [Windows Deployment Services],IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],Enabled property, IWdsTransportDiagnosticsPolicy.Enabled, IWdsTransportDiagnosticsPolicy.put_Enabled, IWdsTransportDiagnosticsPolicy::Enabled, IWdsTransportDiagnosticsPolicy::get_Enabled, IWdsTransportDiagnosticsPolicy::put_Enabled, put_Enabled, wds.iwdstransportdiagnosticspolicy_enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportDiagnosticsPolicy::put_Enabled method
+# IWdsTransportDiagnosticsPolicy::put_Enabled
 
 
 ## -description

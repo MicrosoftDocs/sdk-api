@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 188e76dd-6df6-412f-8d51-fc727075de80
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileScreenException, IFsrmFileScreenException interface [File Server Resource Manager], IFsrmFileScreenException interface [File Server Resource Manager], described, fs.ifsrmfilescreenexception, fsrm.ifsrmfilescreenexception, fsrmscreen/IFsrmFileScreenException
+ms.keywords: IFsrmFileScreenException, IFsrmFileScreenException interface [File Server Resource Manager], IFsrmFileScreenException interface [File Server Resource Manager],described, fs.ifsrmfilescreenexception, fsrm.ifsrmfilescreenexception, fsrmscreen/IFsrmFileScreenException
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

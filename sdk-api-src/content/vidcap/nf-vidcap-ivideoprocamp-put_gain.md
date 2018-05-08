@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Gain
-title: IVideoProcAmp::put_Gain method
+title: IVideoProcAmp::put_Gain
 author: windows-driver-content
 description: The put_Gain method sets the camera's gain setting.
 old-location: dshow\ivideoprocamp_put_gain.htm
 old-project: DirectShow
 ms.assetid: 8256c1d9-ca3f-4b6a-921d-a424932927b5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], put_Gain method, IVideoProcAmp::put_Gain, IVideoProcAmpput_Gain, dshow.ivideoprocamp_put_gain, put_Gain method [DirectShow], put_Gain method [DirectShow], IVideoProcAmp interface, put_Gain,IVideoProcAmp.put_Gain, vidcap/IVideoProcAmp::put_Gain
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],put_Gain method, IVideoProcAmp.put_Gain, IVideoProcAmp::put_Gain, IVideoProcAmpput_Gain, dshow.ivideoprocamp_put_gain, put_Gain, put_Gain method [DirectShow], put_Gain method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Gain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::put_Gain method
+# IVideoProcAmp::put_Gain
 
 
 ## -description

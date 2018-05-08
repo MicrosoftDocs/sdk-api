@@ -7,7 +7,7 @@ old-location: controls\ListView_GetSelectedCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectedcount.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: ListView_GetSelectedCount, ListView_GetSelectedCount macro [Windows Controls], _win32_ListView_GetSelectedCount, _win32_ListView_GetSelectedCount_cpp, commctrl/ListView_GetSelectedCount, controls.ListView_GetSelectedCount, controls._win32_ListView_GetSelectedCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Reset
-title: IEnumStreamIdMap::Reset method
+title: IEnumStreamIdMap::Reset
 author: windows-driver-content
 description: The Reset method moves the iterator to the beginning of the collection.
 old-location: dshow\ienumstreamidmap_reset.htm
 old-project: DirectShow
 ms.assetid: 2e8bc22c-8a13-4a5a-a15d-af4e1ed699bd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumStreamIdMap, IEnumStreamIdMap interface [DirectShow], Reset method, IEnumStreamIdMap::Reset, IEnumStreamIdMapReset, Reset method [DirectShow], Reset method [DirectShow], IEnumStreamIdMap interface, Reset,IEnumStreamIdMap.Reset, dshow.ienumstreamidmap_reset, strmif/IEnumStreamIdMap::Reset
+ms.date: 4/30/2018
+ms.keywords: IEnumStreamIdMap interface [DirectShow],Reset method, IEnumStreamIdMap.Reset, IEnumStreamIdMap::Reset, IEnumStreamIdMapReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_reset, strmif/IEnumStreamIdMap::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEnumStreamIdMap::Reset method
+# IEnumStreamIdMap::Reset
 
 
 ## -description

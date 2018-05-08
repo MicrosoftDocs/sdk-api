@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetStatus
-title: IDot11AdHocNetwork::GetStatus method
+title: IDot11AdHocNetwork::GetStatus
 author: windows-driver-content
 description: Gets the connection status of the network.
 old-location: nwifi\idot11adhocnetwork_getstatus.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: fd627a36-92b7-478b-8fd5-c328b8e54924
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetStatus method [NativeWIFI], GetStatus method [NativeWIFI], IDot11AdHocNetwork interface, GetStatus,IDot11AdHocNetwork.GetStatus, IDot11AdHocNetwork, IDot11AdHocNetwork interface [NativeWIFI], GetStatus method, IDot11AdHocNetwork::GetStatus, adhoc/IDot11AdHocNetwork::GetStatus, nwifi.idot11adhocnetwork_getstatus
+ms.keywords: GetStatus, GetStatus method [NativeWIFI], GetStatus method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetStatus method, IDot11AdHocNetwork.GetStatus, IDot11AdHocNetwork::GetStatus, adhoc/IDot11AdHocNetwork::GetStatus, nwifi.idot11adhocnetwork_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDot11AdHocNetwork::GetStatus method
+# IDot11AdHocNetwork::GetStatus
 
 
 ## -description

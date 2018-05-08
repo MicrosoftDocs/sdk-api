@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.Close
-title: ISpatialAudioMetadataCopier::Close method
+title: ISpatialAudioMetadataCopier::Close
 author: windows-driver-content
 description: Completes any necessary operations on the SpatialAudioMetadataItems object and releases the object.
 old-location: coreaudio\ispatialaudiometadatacopier_close.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 891AFF53-7CAB-49FA-A8D2-CAEEB91E860F
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: Close method [Core Audio], Close method [Core Audio], ISpatialAudioMetadataCopier interface, Close,ISpatialAudioMetadataCopier.Close, ISpatialAudioMetadataCopier, ISpatialAudioMetadataCopier interface [Core Audio], Close method, ISpatialAudioMetadataCopier::Close, coreaudio.ispatialaudiometadatacopier_close, spatialaudiometadata/ISpatialAudioMetadataCopier::Close
+ms.keywords: Close, Close method [Core Audio], Close method [Core Audio],ISpatialAudioMetadataCopier interface, ISpatialAudioMetadataCopier interface [Core Audio],Close method, ISpatialAudioMetadataCopier.Close, ISpatialAudioMetadataCopier::Close, coreaudio.ispatialaudiometadatacopier_close, spatialaudiometadata/ISpatialAudioMetadataCopier::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataCopier::Close method
+# ISpatialAudioMetadataCopier::Close
 
 
 ## -description

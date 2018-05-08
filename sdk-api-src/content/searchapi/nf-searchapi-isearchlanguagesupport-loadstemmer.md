@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.LoadStemmer
-title: ISearchLanguageSupport::LoadStemmer method
+title: ISearchLanguageSupport::LoadStemmer
 author: windows-driver-content
 description: Retrieves an interface to the word stemmer registered for the specified language code identifier (LCID).
 old-location: search\_search_ISearchLanguageSupport_LoadStemmer.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\loadstemmer.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchLanguageSupport, ISearchLanguageSupport interface [search], LoadStemmer method, ISearchLanguageSupport::LoadStemmer, LoadStemmer method [search], LoadStemmer method [search], ISearchLanguageSupport interface, LoadStemmer,ISearchLanguageSupport.LoadStemmer, _search_ISearchLanguageSupport_LoadStemmer, search._search_ISearchLanguageSupport_LoadStemmer, searchapi/ISearchLanguageSupport::LoadStemmer
+ms.date: 5/4/2018
+ms.keywords: ISearchLanguageSupport interface [search],LoadStemmer method, ISearchLanguageSupport.LoadStemmer, ISearchLanguageSupport::LoadStemmer, LoadStemmer, LoadStemmer method [search], LoadStemmer method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_LoadStemmer, search._search_ISearchLanguageSupport_LoadStemmer, searchapi/ISearchLanguageSupport::LoadStemmer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchLanguageSupport::LoadStemmer method
+# ISearchLanguageSupport::LoadStemmer
 
 
 ## -description

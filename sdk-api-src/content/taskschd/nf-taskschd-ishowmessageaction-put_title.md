@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IShowMessageAction.put_Title
-title: IShowMessageAction::put_Title method
+title: IShowMessageAction::put_Title
 author: windows-driver-content
 description: Gets or sets the title of the message box.
 old-location: taskschd\ishowmessageaction_title.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 6ec51ebb-5aa3-4338-bc88-dd8df34d59ac
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IShowMessageAction, IShowMessageAction interface [Task Scheduler], Title property, IShowMessageAction.Title, IShowMessageAction::get_Title, IShowMessageAction::put_Title, Title property [Task Scheduler], Title property [Task Scheduler], IShowMessageAction interface, put_Title,IShowMessageAction.put_Title, taskschd.ishowmessageaction_title, taskschd/IShowMessageAction::Title, taskschd/IShowMessageAction::get_Title, taskschd/IShowMessageAction::put_Title
+ms.keywords: IShowMessageAction interface [Task Scheduler],Title property, IShowMessageAction.Title, IShowMessageAction.put_Title, IShowMessageAction::Title, IShowMessageAction::get_Title, IShowMessageAction::put_Title, Title property [Task Scheduler], Title property [Task Scheduler],IShowMessageAction interface, put_Title, taskschd.ishowmessageaction_title, taskschd/IShowMessageAction::Title, taskschd/IShowMessageAction::get_Title, taskschd/IShowMessageAction::put_Title
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IShowMessageAction::put_Title method
+# IShowMessageAction::put_Title
 
 
 ## -description

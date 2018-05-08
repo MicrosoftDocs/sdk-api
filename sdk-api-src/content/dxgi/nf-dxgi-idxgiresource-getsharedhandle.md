@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIResource.GetSharedHandle
-title: IDXGIResource::GetSharedHandle method
+title: IDXGIResource::GetSharedHandle
 author: windows-driver-content
 description: Gets the handle to a shared resource.
 old-location: direct3ddxgi\idxgiresource_getsharedhandle.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_getsharedhandle.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetSharedHandle method [DXGI], GetSharedHandle method [DXGI], IDXGIResource interface, GetSharedHandle,IDXGIResource.GetSharedHandle, IDXGIResource, IDXGIResource interface [DXGI], GetSharedHandle method, IDXGIResource::GetSharedHandle, direct3ddxgi.idxgiresource_getsharedhandle, dxgi/IDXGIResource::GetSharedHandle, fea59fdb-2526-c2b6-2bd7-58a9fe56c221
+ms.keywords: GetSharedHandle, GetSharedHandle method [DXGI], GetSharedHandle method [DXGI],IDXGIResource interface, IDXGIResource interface [DXGI],GetSharedHandle method, IDXGIResource.GetSharedHandle, IDXGIResource::GetSharedHandle, direct3ddxgi.idxgiresource_getsharedhandle, dxgi/IDXGIResource::GetSharedHandle, fea59fdb-2526-c2b6-2bd7-58a9fe56c221
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIResource::GetSharedHandle method
+# IDXGIResource::GetSharedHandle
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsNameTranslate.SetEx
-title: IADsNameTranslate::SetEx method
+title: IADsNameTranslate::SetEx
 author: windows-driver-content
 description: Establishes an array of objects for name translation.
 old-location: adsi\iadsnametranslate_setex.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: e8a5014e-d848-46b7-a336-7801ff1f6b08
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsNameTranslate, IADsNameTranslate interface [ADSI], SetEx method, IADsNameTranslate::SetEx, SetEx method [ADSI], SetEx method [ADSI], IADsNameTranslate interface, SetEx,IADsNameTranslate.SetEx, _ds_iadsnametranslate_setex, adsi.iadsnametranslate__setex, adsi.iadsnametranslate_setex, iads/IADsNameTranslate::SetEx
+ms.keywords: IADsNameTranslate interface [ADSI],SetEx method, IADsNameTranslate.SetEx, IADsNameTranslate::SetEx, SetEx, SetEx method [ADSI], SetEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_setex, adsi.iadsnametranslate__setex, adsi.iadsnametranslate_setex, iads/IADsNameTranslate::SetEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsNameTranslate::SetEx method
+# IADsNameTranslate::SetEx
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationChangesEventHandler.HandleChangesEvent
-title: IUIAutomationChangesEventHandler::HandleChangesEvent method
+title: IUIAutomationChangesEventHandler::HandleChangesEvent
 author: windows-driver-content
 description: Handles a Microsoft UI Automation changes event.
 old-location: winauto\uiauto_IUIAutomationChangesEventHandler_HandleChangesEvent.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 5BCE09F7-9811-49F5-B2C4-8DABC44CA406
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: HandleChangesEvent method [Windows Accessibility], HandleChangesEvent method [Windows Accessibility], IUIAutomationChangesEventHandler interface, HandleChangesEvent,IUIAutomationChangesEventHandler.HandleChangesEvent, IUIAutomationChangesEventHandler, IUIAutomationChangesEventHandler interface [Windows Accessibility], HandleChangesEvent method, IUIAutomationChangesEventHandler::HandleChangesEvent, uiautomationclient/IUIAutomationChangesEventHandler::HandleChangesEvent, winauto.uiauto_IUIAutomationChangesEventHandler_HandleChangesEvent
+ms.keywords: HandleChangesEvent, HandleChangesEvent method [Windows Accessibility], HandleChangesEvent method [Windows Accessibility],IUIAutomationChangesEventHandler interface, IUIAutomationChangesEventHandler interface [Windows Accessibility],HandleChangesEvent method, IUIAutomationChangesEventHandler.HandleChangesEvent, IUIAutomationChangesEventHandler::HandleChangesEvent, uiautomationclient/IUIAutomationChangesEventHandler::HandleChangesEvent, winauto.uiauto_IUIAutomationChangesEventHandler_HandleChangesEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationChangesEventHandler::HandleChangesEvent method
+# IUIAutomationChangesEventHandler::HandleChangesEvent
 
 
 ## -description

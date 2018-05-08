@@ -7,7 +7,7 @@ old-location: iphlp\notifyteredoportchange.htm
 old-project: IpHlp
 ms.assetid: c0c23531-7629-41c9-acf2-9d2f5e98e02c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: NotifyTeredoPortChange, NotifyTeredoPortChange function [IP Helper], iphlp.notifyteredoportchange, netioapi/NotifyTeredoPortChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

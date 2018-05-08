@@ -7,7 +7,7 @@ old-location: shell\UIntToByte.htm
 old-project: shell
 ms.assetid: ea021531-cf67-4c47-b101-bc56a3663135
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: UIntToByte, UIntToByte function [Windows Shell], UIntToUInt8, _shell_UIntToByte, intsafe/UIntToByte, shell.UIntToByte
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDevice.get_Power
-title: IMSVidDevice::get_Power method
+title: IMSVidDevice::get_Power
 author: windows-driver-content
 description: The get_Power method queries whether the device is off or on.
 old-location: mstv\imsviddevice_get_power.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3be4247b-43d4-4a32-8643-7eb2637aee6f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidDevice, IMSVidDevice interface [Microsoft TV Technologies], get_Power method, IMSVidDevice::get_Power, IMSVidDeviceget_Power, get_Power method [Microsoft TV Technologies], get_Power method [Microsoft TV Technologies], IMSVidDevice interface, get_Power,IMSVidDevice.get_Power, mstv.imsviddevice_get_power, segment/IMSVidDevice::get_Power
+ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Power method, IMSVidDevice.get_Power, IMSVidDevice::get_Power, IMSVidDeviceget_Power, get_Power, get_Power method [Microsoft TV Technologies], get_Power method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_power, segment/IMSVidDevice::get_Power
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidDevice::get_Power method
+# IMSVidDevice::get_Power
 
 
 ## -description

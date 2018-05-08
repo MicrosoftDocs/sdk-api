@@ -78,17 +78,17 @@ The traffic being secured by this IPsec SA as specified by <a href="https://msdn
 Various parameters of the SA as specified by <a href="https://msdn.microsoft.com/65376dd9-e06c-41ff-8689-74be12c47239">IPSEC_SA_BUNDLE0</a>.
 
 
-### -field transportFilter
-
-The transport layer filter corresponding to this IPsec SA as specified by <a href="https://msdn.microsoft.com/e1925824-01c2-426a-a8f0-4d5882812a9e">FWPM_FILTER0</a>.
-
-
-#### - udpEncapsulation
+### -field udpEncapsulation
 
 An <a href="https://msdn.microsoft.com/69cddec0-7311-4833-8b24-293ad714054e">IPSEC_V4_UDP_ENCAPSULATION0</a> structure that stores the UDP 
    encapsulation ports if UDP-ESP encapsulation is enabled on the SA.
 
 Available if <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field transportFilter
+
+The transport layer filter corresponding to this IPsec SA as specified by <a href="https://msdn.microsoft.com/e1925824-01c2-426a-a8f0-4d5882812a9e">FWPM_FILTER0</a>.
 
 
 ## -see-also

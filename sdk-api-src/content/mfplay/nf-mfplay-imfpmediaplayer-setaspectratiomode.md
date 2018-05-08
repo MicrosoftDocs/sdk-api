@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetAspectRatioMode
-title: IMFPMediaPlayer::SetAspectRatioMode method
+title: IMFPMediaPlayer::SetAspectRatioMode
 author: windows-driver-content
 description: Specifies whether the aspect ratio of the video is preserved during playback.
 old-location: mf\imfpmediaplayer_setaspectratiomode.htm
 old-project: medfound
 ms.assetid: b100a422-548f-4c38-afeb-4d4c1d9a9140
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], SetAspectRatioMode method, IMFPMediaPlayer::SetAspectRatioMode, SetAspectRatioMode method [Media Foundation], SetAspectRatioMode method [Media Foundation], IMFPMediaPlayer interface, SetAspectRatioMode,IMFPMediaPlayer.SetAspectRatioMode, mf.imfpmediaplayer_setaspectratiomode, mfplay/IMFPMediaPlayer::SetAspectRatioMode
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetAspectRatioMode method, IMFPMediaPlayer.SetAspectRatioMode, IMFPMediaPlayer::SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [Media Foundation], SetAspectRatioMode method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setaspectratiomode, mfplay/IMFPMediaPlayer::SetAspectRatioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::SetAspectRatioMode method
+# IMFPMediaPlayer::SetAspectRatioMode
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaEventEx.SetNotifyFlags
-title: IMediaEventEx::SetNotifyFlags method
+title: IMediaEventEx::SetNotifyFlags
 author: windows-driver-content
 description: The SetNotifyFlags method enables or disables event notifications.
 old-location: dshow\imediaeventex_setnotifyflags.htm
 old-project: DirectShow
 ms.assetid: 6a41b6eb-3fe9-4b2e-bcbb-a407e0e6ab5e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaEventEx, IMediaEventEx interface [DirectShow], SetNotifyFlags method, IMediaEventEx::SetNotifyFlags, IMediaEventExSetNotifyFlags, SetNotifyFlags method [DirectShow], SetNotifyFlags method [DirectShow], IMediaEventEx interface, SetNotifyFlags,IMediaEventEx.SetNotifyFlags, control/IMediaEventEx::SetNotifyFlags, dshow.imediaeventex_setnotifyflags
+ms.date: 4/30/2018
+ms.keywords: IMediaEventEx interface [DirectShow],SetNotifyFlags method, IMediaEventEx.SetNotifyFlags, IMediaEventEx::SetNotifyFlags, IMediaEventExSetNotifyFlags, SetNotifyFlags, SetNotifyFlags method [DirectShow], SetNotifyFlags method [DirectShow],IMediaEventEx interface, control/IMediaEventEx::SetNotifyFlags, dshow.imediaeventex_setnotifyflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaEventEx::SetNotifyFlags method
+# IMediaEventEx::SetNotifyFlags
 
 
 ## -description

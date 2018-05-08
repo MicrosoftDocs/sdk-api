@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel
-title: IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel method
+title: IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel
 author: windows-driver-content
 description: Gets the value of the quality_flag field from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor. This field indicates the quality level of the hierarchical stream construction.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getqualitylevel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4890c3aa-487f-41c7-9202-636ded2ec46b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetQualityLevel method [Microsoft TV Technologies], GetQualityLevel method [Microsoft TV Technologies], IIsdbHierarchicalTransmissionDescriptor interface, GetQualityLevel,IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel, IIsdbHierarchicalTransmissionDescriptor, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies], GetQualityLevel method, IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel, mstv.iisdbhierarchicaltransmissiondescriptor_getqualitylevel
+ms.keywords: GetQualityLevel, GetQualityLevel method [Microsoft TV Technologies], GetQualityLevel method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetQualityLevel method, IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel, IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel, mstv.iisdbhierarchicaltransmissiondescriptor_getqualitylevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel method
+# IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel
 
 
 ## -description

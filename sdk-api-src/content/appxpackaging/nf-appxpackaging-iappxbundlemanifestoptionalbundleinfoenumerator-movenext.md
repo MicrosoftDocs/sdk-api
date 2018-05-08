@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext
-title: IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext method
+title: IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext
 author: windows-driver-content
 description: Advances the position of the enumerator to the next set of optional bundle information.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator_movenext.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 4A157CF1-8254-47FF-886A-77C15BDCDA76
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxBundleManifestOptionalBundleInfoEnumerator, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management], MoveNext method, IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management], IAppxBundleManifestOptionalBundleInfoEnumerator interface, MoveNext,IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_movenext
+ms.keywords: IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],MoveNext method, IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext, IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBundleManifestOptionalBundleInfoEnumerator interface, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext method
+# IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext
 
 
 ## -description

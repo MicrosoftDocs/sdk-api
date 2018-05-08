@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphsEditor
-title: IXpsOMGlyphs::GetGlyphsEditor method
+title: IXpsOMGlyphs::GetGlyphsEditor
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMGlyphsEditor interface that will be used to edit the glyphs in the object.
 old-location: xps\ixpsomglyphs_getglyphseditor.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1c641d99-9303-484d-82e0-2d71e2c43561
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetGlyphsEditor method [XPS Documents and Packaging], GetGlyphsEditor method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetGlyphsEditor,IXpsOMGlyphs.GetGlyphsEditor, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetGlyphsEditor method, IXpsOMGlyphs::GetGlyphsEditor, xps.ixpsomglyphs_getglyphseditor, xpsobjectmodel/IXpsOMGlyphs::GetGlyphsEditor
+ms.keywords: GetGlyphsEditor, GetGlyphsEditor method [XPS Documents and Packaging], GetGlyphsEditor method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphsEditor method, IXpsOMGlyphs.GetGlyphsEditor, IXpsOMGlyphs::GetGlyphsEditor, xps.ixpsomglyphs_getglyphseditor, xpsobjectmodel/IXpsOMGlyphs::GetGlyphsEditor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetGlyphsEditor method
+# IXpsOMGlyphs::GetGlyphsEditor
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.GetClockCalibration
-title: ID3D12CommandQueue::GetClockCalibration method
+title: ID3D12CommandQueue::GetClockCalibration
 author: windows-driver-content
 description: This method samples the CPU and GPU timestamp counters at the same moment in time.
 old-location: direct3d12\id3d12commandqueue_getclockcalibration.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: B8E0F8D4-D291-41B5-8E40-0C1FB3DCC253
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetClockCalibration method, GetClockCalibration method, ID3D12CommandQueue interface, GetClockCalibration,ID3D12CommandQueue.GetClockCalibration, ID3D12CommandQueue, ID3D12CommandQueue interface, GetClockCalibration method, ID3D12CommandQueue::GetClockCalibration, d3d12/ID3D12CommandQueue::GetClockCalibration, direct3d12.id3d12commandqueue_getclockcalibration
+ms.keywords: GetClockCalibration, GetClockCalibration method, GetClockCalibration method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,GetClockCalibration method, ID3D12CommandQueue.GetClockCalibration, ID3D12CommandQueue::GetClockCalibration, d3d12/ID3D12CommandQueue::GetClockCalibration, direct3d12.id3d12commandqueue_getclockcalibration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12CommandQueue::GetClockCalibration method
+# ID3D12CommandQueue::GetClockCalibration
 
 
 ## -description

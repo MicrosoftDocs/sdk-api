@@ -1,14 +1,14 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.SaveConfiguration
-title: IFhConfigMgr::SaveConfiguration method
+title: IFhConfigMgr::SaveConfiguration
 author: windows-driver-content
 description: Saves to disk all the changes that were made in an FhConfigMgr object since the last time that the LoadConfiguration, CreateDefaultConfiguration or SaveConfiguration method was called for the File History configuration files of the current user.
 old-location: winprog\ifhconfigmgr_saveconfiguration.htm
 old-project: DevNotes
 ms.assetid: 71D6E732-927B-4AA4-9947-6E52B09FF5B8
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: FhConfigMgr class [Windows API], SaveConfiguration method, IFhConfigMgr, IFhConfigMgr interface [Windows API], SaveConfiguration method, IFhConfigMgr::SaveConfiguration, SaveConfiguration method [Windows API], SaveConfiguration method [Windows API], FhConfigMgr class, SaveConfiguration method [Windows API], IFhConfigMgr interface, SaveConfiguration,IFhConfigMgr.SaveConfiguration, fhcfg/IFhConfigMgr::SaveConfiguration, winprog.ifhconfigmgr_saveconfiguration
+ms.date: 5/4/2018
+ms.keywords: FhConfigMgr class [Windows API],SaveConfiguration method, IFhConfigMgr interface [Windows API],SaveConfiguration method, IFhConfigMgr.SaveConfiguration, IFhConfigMgr::SaveConfiguration, SaveConfiguration, SaveConfiguration method [Windows API], SaveConfiguration method [Windows API],FhConfigMgr class, SaveConfiguration method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::SaveConfiguration, winprog.ifhconfigmgr_saveconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFhConfigMgr::SaveConfiguration method
+# IFhConfigMgr::SaveConfiguration
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.FindAttribute
-title: IUIAutomationTextRange::FindAttribute method
+title: IUIAutomationTextRange::FindAttribute
 author: windows-driver-content
 description: Retrieves a text range subset that has the specified text attribute value.
 old-location: winauto\uiauto_IUIAutomationTextRange_FindAttribute.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 12722d22-79ca-4390-8155-61234b821256
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: FindAttribute method [Windows Accessibility], FindAttribute method [Windows Accessibility], IUIAutomationTextRange interface, FindAttribute,IUIAutomationTextRange.FindAttribute, IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], FindAttribute method, IUIAutomationTextRange::FindAttribute, uiauto.uiauto_IUIAutomationTextRange_FindAttribute, uiauto_IUIAutomationTextRange_FindAttribute, uiautomationclient/IUIAutomationTextRange::FindAttribute, winauto.uiauto_IUIAutomationTextRange_FindAttribute
+ms.keywords: FindAttribute, FindAttribute method [Windows Accessibility], FindAttribute method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],FindAttribute method, IUIAutomationTextRange.FindAttribute, IUIAutomationTextRange::FindAttribute, uiauto.uiauto_IUIAutomationTextRange_FindAttribute, uiauto_IUIAutomationTextRange_FindAttribute, uiautomationclient/IUIAutomationTextRange::FindAttribute, winauto.uiauto_IUIAutomationTextRange_FindAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTextRange::FindAttribute method
+# IUIAutomationTextRange::FindAttribute
 
 
 ## -description

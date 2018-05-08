@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputExtension
-title: ID3D11VideoContext::VideoProcessorSetOutputExtension method
+title: ID3D11VideoContext::VideoProcessorSetOutputExtension
 author: windows-driver-content
 description: Sets a driver-specific video processing state.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputextension.htm
 old-project: medfound
 ms.assetid: 38279599-09C8-4BB1-8946-0B066D96E22B
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorSetOutputExtension method, ID3D11VideoContext::VideoProcessorSetOutputExtension, VideoProcessorSetOutputExtension method [Media Foundation], VideoProcessorSetOutputExtension method [Media Foundation], ID3D11VideoContext interface, VideoProcessorSetOutputExtension,ID3D11VideoContext.VideoProcessorSetOutputExtension, d3d11/ID3D11VideoContext::VideoProcessorSetOutputExtension, mf.id3d11videocontext_videoprocessorsetoutputextension
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputExtension method, ID3D11VideoContext.VideoProcessorSetOutputExtension, ID3D11VideoContext::VideoProcessorSetOutputExtension, VideoProcessorSetOutputExtension, VideoProcessorSetOutputExtension method [Media Foundation], VideoProcessorSetOutputExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputExtension, mf.id3d11videocontext_videoprocessorsetoutputextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::VideoProcessorSetOutputExtension method
+# ID3D11VideoContext::VideoProcessorSetOutputExtension
 
 
 ## -description

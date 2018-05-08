@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMtsEventInfo.get_Names
-title: IMtsEventInfo::get_Names method
+title: IMtsEventInfo::get_Names
 author: windows-driver-content
 description: Retrieves an enumerator for the names of the data values.
 old-location: cos\imtseventinfo_get_names.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 83ce3935-2c9a-4ebe-8758-9ac349d4a73b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IMtsEventInfo, IMtsEventInfo interface [COM+], get_Names method, IMtsEventInfo::get_Names, _dtc_IMtsEventInfo_Names, comsvcs/IMtsEventInfo::get_Names, cos.imtseventinfo_get_names, get_Names method [COM+], get_Names method [COM+], IMtsEventInfo interface, get_Names,IMtsEventInfo.get_Names
+ms.keywords: IMtsEventInfo interface [COM+],get_Names method, IMtsEventInfo.get_Names, IMtsEventInfo::get_Names, _dtc_IMtsEventInfo_Names, comsvcs/IMtsEventInfo::get_Names, cos.imtseventinfo_get_names, get_Names, get_Names method [COM+], get_Names method [COM+],IMtsEventInfo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMtsEventInfo::get_Names method
+# IMtsEventInfo::get_Names
 
 
 ## -description

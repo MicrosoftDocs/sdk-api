@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6d56e39d-3c7a-4c55-8d07-00e25eba18bd
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IIsdbCAServiceDescriptor, mstv.iisdbcaservicedescriptor
+ms.keywords: IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCAServiceDescriptor, mstv.iisdbcaservicedescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

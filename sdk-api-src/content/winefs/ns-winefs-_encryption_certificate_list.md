@@ -63,10 +63,37 @@ Contains a list of certificates.
 The number of certificates in the list.
 
 
+### -field nUsers.range
+
+ 
+
+
+### -field nUsers.range.0
+
+ 
+
+
+### -field nUsers.range.500
+
+ 
+
+
 ### -field pUsers
 
 A pointer to the first 
 						<a href="https://msdn.microsoft.com/33b36659-48bb-4297-8142-f8702db03d20">ENCRYPTION_CERTIFICATE</a> structure in the list.
+
+
+### -field pUsers.size_is
+
+ 
+
+
+### -field pUsers.size_is.nUsers
+
+ 
+
+
 
 
 ## -see-also

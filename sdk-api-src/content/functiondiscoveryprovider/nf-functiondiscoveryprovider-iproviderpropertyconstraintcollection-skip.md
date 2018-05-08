@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.Skip
-title: IProviderPropertyConstraintCollection::Skip method
+title: IProviderPropertyConstraintCollection::Skip
 author: windows-driver-content
 description: Skips the next item in the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_skip.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 8e14bddc-d2ae-41a6-b927-15bdfd3bc598
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IProviderPropertyConstraintCollection, IProviderPropertyConstraintCollection interface, Skip method, IProviderPropertyConstraintCollection::Skip, Skip method, Skip method, IProviderPropertyConstraintCollection interface, Skip,IProviderPropertyConstraintCollection.Skip, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Skip, ncd.iproviderpropertyconstraintcollection_skip
+ms.keywords: IProviderPropertyConstraintCollection interface,Skip method, IProviderPropertyConstraintCollection.Skip, IProviderPropertyConstraintCollection::Skip, Skip, Skip method, Skip method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Skip, ncd.iproviderpropertyconstraintcollection_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IProviderPropertyConstraintCollection::Skip method
+# IProviderPropertyConstraintCollection::Skip
 
 
 ## -description

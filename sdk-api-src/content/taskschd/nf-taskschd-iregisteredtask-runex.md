@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.RunEx
-title: IRegisteredTask::RunEx method
+title: IRegisteredTask::RunEx
 author: windows-driver-content
 description: Runs the registered task immediately using specified flags and a session identifier.
 old-location: taskschd\iregisteredtask_runex.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: d6d09ab1-026d-4ee9-b520-c7702e37504e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], RunEx method, IRegisteredTask::RunEx, RunEx method [Task Scheduler], RunEx method [Task Scheduler], IRegisteredTask interface, RunEx,IRegisteredTask.RunEx, taskschd.iregisteredtask_runex, taskschd/IRegisteredTask::RunEx
+ms.keywords: IRegisteredTask interface [Task Scheduler],RunEx method, IRegisteredTask.RunEx, IRegisteredTask::RunEx, RunEx, RunEx method [Task Scheduler], RunEx method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_runex, taskschd/IRegisteredTask::RunEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegisteredTask::RunEx method
+# IRegisteredTask::RunEx
 
 
 ## -description

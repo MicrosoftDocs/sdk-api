@@ -72,11 +72,6 @@ A <a href="https://msdn.microsoft.com/0b3ae8b9-12fc-4de9-b99d-e9b9e17adfb4">D3D1
 A <a href="https://msdn.microsoft.com/2ada8526-bef3-4998-8775-6e062f972a1c">D3D11_BUFFER_SRV</a> structure that views the resource as a buffer.
 
 
-#### - BufferEx
-
-A <a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a> structure that views the resource as a raw buffer. For more info about raw viewing of buffers, see <a href="overviews_direct3d_11_resources_intro.htm">Raw Views of Buffers</a>.
-
-
 #### - Texture1D
 
 A <a href="https://msdn.microsoft.com/255e97ac-e978-4a70-a908-f4537337dfeb">D3D11_TEX1D_SRV</a> structure that views the resource as a 1D texture.
@@ -120,6 +115,11 @@ A <a href="https://msdn.microsoft.com/ca320e06-699f-44f9-9a66-93746935b4cd">D3D1
 #### - TextureCubeArray
 
 A <a href="https://msdn.microsoft.com/e8b496a7-89d9-4168-908a-1731ce045851">D3D11_TEXCUBE_ARRAY_SRV</a> structure that views the resource as a 3D-cube-texture array.
+
+
+#### - BufferEx
+
+A <a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a> structure that views the resource as a raw buffer. For more info about raw viewing of buffers, see <a href="overviews_direct3d_11_resources_intro.htm">Raw Views of Buffers</a>.
 
 
 ## -remarks

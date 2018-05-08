@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 94790b67-690c-4a0f-9b82-801bfcec9eb0
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterAdvanced2, IWMWriterAdvanced2 interface [windows Media Format], IWMWriterAdvanced2 interface [windows Media Format], described, IWMWriterAdvanced2Interface, wmformat.iwmwriteradvanced2, wmsdkidl/IWMWriterAdvanced2
+ms.keywords: IWMWriterAdvanced2, IWMWriterAdvanced2 interface [windows Media Format], IWMWriterAdvanced2 interface [windows Media Format],described, IWMWriterAdvanced2Interface, wmformat.iwmwriteradvanced2, wmsdkidl/IWMWriterAdvanced2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

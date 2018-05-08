@@ -7,7 +7,7 @@ old-location: iphlp\ip_per_adapter_info.htm
 old-project: IpHlp
 ms.assetid: 10cfdded-4184-4d34-9ccd-85446c13d497
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: "*PIP_PER_ADAPTER_INFO, *PIP_PER_ADAPTER_INFO_W2KSP1, IP_PER_ADAPTER_INFO, IP_PER_ADAPTER_INFO structure [IP Helper], IP_PER_ADAPTER_INFO_W2KSP1, PIP_PER_ADAPTER_INFO, PIP_PER_ADAPTER_INFO structure pointer [IP Helper], _IP_PER_ADAPTER_INFO_W2KSP1, _iphlp_ip_per_adapter_info, iphlp.ip_per_adapter_info, iptypes/IP_PER_ADAPTER_INFO, iptypes/PIP_PER_ADAPTER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

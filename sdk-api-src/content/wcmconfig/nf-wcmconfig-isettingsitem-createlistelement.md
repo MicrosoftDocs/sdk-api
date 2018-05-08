@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.CreateListElement
-title: ISettingsItem::CreateListElement method
+title: ISettingsItem::CreateListElement
 author: windows-driver-content
 description: Creates a new list element.
 old-location: smi\isettingsitem_createlistelement.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: c18fd849-aaa5-49d0-9e72-b3134a6f2be8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateListElement method [SMI], CreateListElement method [SMI], ISettingsItem interface, CreateListElement,ISettingsItem.CreateListElement, ISettingsItem, ISettingsItem interface [SMI], CreateListElement method, ISettingsItem::CreateListElement, smi.isettingsitem_createlistelement, wcmconfig/ISettingsItem::CreateListElement
+ms.keywords: CreateListElement, CreateListElement method [SMI], CreateListElement method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],CreateListElement method, ISettingsItem.CreateListElement, ISettingsItem::CreateListElement, smi.isettingsitem_createlistelement, wcmconfig/ISettingsItem::CreateListElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsItem::CreateListElement method
+# ISettingsItem::CreateListElement
 
 
 ## -description

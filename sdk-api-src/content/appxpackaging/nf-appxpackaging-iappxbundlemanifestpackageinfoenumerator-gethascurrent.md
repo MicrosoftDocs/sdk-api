@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfoEnumerator.GetHasCurrent
-title: IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent method
+title: IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent
 author: windows-driver-content
 description: Determines whether there are more elements in the enumerator.
 old-location: appxpkg\iappxbundlemanifestpackageinfoenumerator_gethascurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: ED12F498-1F8D-45B2-9CFE-7215D2D87C3F
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management], IAppxBundleManifestPackageInfoEnumerator interface, GetHasCurrent,IAppxBundleManifestPackageInfoEnumerator.GetHasCurrent, IAppxBundleManifestPackageInfoEnumerator, IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management], GetHasCurrent method, IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent, appxpackaging/IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent, appxpkg.iappxbundlemanifestpackageinfoenumerator_gethascurrent
+ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBundleManifestPackageInfoEnumerator interface, IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBundleManifestPackageInfoEnumerator.GetHasCurrent, IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent, appxpackaging/IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent, appxpkg.iappxbundlemanifestpackageinfoenumerator_gethascurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent method
+# IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent
 
 
 ## -description

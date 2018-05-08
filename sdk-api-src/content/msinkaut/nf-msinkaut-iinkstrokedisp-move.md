@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Move
-title: IInkStrokeDisp::Move method
+title: IInkStrokeDisp::Move
 author: windows-driver-content
 description: Applies a translation to the ink of an IInkStrokeDisp object or InkStrokes collection.
 old-location: tablet\iinkstrokedisp_move.htm
 old-project: tablet
 ms.assetid: 2d3425c0-6000-4478-9c67-5fdb8e2316e5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 2d3425c0-6000-4478-9c67-5fdb8e2316e5, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], Move method, IInkStrokeDisp::Move, Move method [Tablet PC], Move method [Tablet PC], IInkStrokeDisp interface, Move,IInkStrokeDisp.Move, msinkaut/IInkStrokeDisp::Move, tablet.iinkstrokedisp_move
+ms.date: 5/2/2018
+ms.keywords: 2d3425c0-6000-4478-9c67-5fdb8e2316e5, IInkStrokeDisp interface [Tablet PC],Move method, IInkStrokeDisp.Move, IInkStrokeDisp::Move, Move, Move method [Tablet PC], Move method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Move, tablet.iinkstrokedisp_move
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::Move method
+# IInkStrokeDisp::Move
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Enable
-title: IAMAudioInputMixer::get_Enable method
+title: IAMAudioInputMixer::get_Enable
 author: windows-driver-content
 description: The get_Enable method retrieves whether the input is enabled.
 old-location: dshow\iamaudioinputmixer_get_enable.htm
 old-project: DirectShow
 ms.assetid: d3ec509c-9990-4803-a4e3-abc88fc8c522
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], get_Enable method, IAMAudioInputMixer::get_Enable, IAMAudioInputMixerget_Enable, dshow.iamaudioinputmixer_get_enable, get_Enable method [DirectShow], get_Enable method [DirectShow], IAMAudioInputMixer interface, get_Enable,IAMAudioInputMixer.get_Enable, strmif/IAMAudioInputMixer::get_Enable
+ms.date: 4/30/2018
+ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Enable method, IAMAudioInputMixer.get_Enable, IAMAudioInputMixer::get_Enable, IAMAudioInputMixerget_Enable, dshow.iamaudioinputmixer_get_enable, get_Enable, get_Enable method [DirectShow], get_Enable method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAudioInputMixer::get_Enable method
+# IAMAudioInputMixer::get_Enable
 
 
 ## -description

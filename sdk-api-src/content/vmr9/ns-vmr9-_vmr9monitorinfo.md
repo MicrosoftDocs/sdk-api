@@ -7,7 +7,7 @@ old-location: dshow\vmr9monitorinfo.htm
 old-project: DirectShow
 ms.assetid: cb7d5c27-8762-450e-ba47-2a46e3106472
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: VMR9MonitorInfo, VMR9MonitorInfo structure [DirectShow], VMR9MonitorInfoStructure, _VMR9MonitorInfo, dshow.vmr9monitorinfo, vmr9/VMR9MonitorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

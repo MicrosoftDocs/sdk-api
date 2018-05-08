@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.put_VideoAnalysisFilter
-title: IMSVidStreamBufferSink3::put_VideoAnalysisFilter method
+title: IMSVidStreamBufferSink3::put_VideoAnalysisFilter
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_put_videoanalysisfilter.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b1ac3517-2f83-409c-b393-5bcbfff685c3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSink3, IMSVidStreamBufferSink3 interface [Microsoft TV Technologies], put_VideoAnalysisFilter method, IMSVidStreamBufferSink3::put_VideoAnalysisFilter, IMSVidStreamBufferSink3put_VideoAnalysisFilter, mstv.imsvidstreambuffersink3_put_videoanalysisfilter, put_VideoAnalysisFilter method [Microsoft TV Technologies], put_VideoAnalysisFilter method [Microsoft TV Technologies], IMSVidStreamBufferSink3 interface, put_VideoAnalysisFilter,IMSVidStreamBufferSink3.put_VideoAnalysisFilter, segment/IMSVidStreamBufferSink3::put_VideoAnalysisFilter
+ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put_VideoAnalysisFilter method, IMSVidStreamBufferSink3.put_VideoAnalysisFilter, IMSVidStreamBufferSink3::put_VideoAnalysisFilter, IMSVidStreamBufferSink3put_VideoAnalysisFilter, mstv.imsvidstreambuffersink3_put_videoanalysisfilter, put_VideoAnalysisFilter, put_VideoAnalysisFilter method [Microsoft TV Technologies], put_VideoAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, segment/IMSVidStreamBufferSink3::put_VideoAnalysisFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSink3::put_VideoAnalysisFilter method
+# IMSVidStreamBufferSink3::put_VideoAnalysisFilter
 
 
 ## -description

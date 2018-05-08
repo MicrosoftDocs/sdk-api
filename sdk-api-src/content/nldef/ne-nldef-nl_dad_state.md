@@ -7,7 +7,7 @@ old-location: netvista\nl_dad_state.htm
 old-project: netvista
 ms.assetid: 38d88074-efac-475c-b6f6-1c65f21ed4be
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, NL_DAD_STATE, NL_DAD_STATE enumeration [Network Drivers Starting with Windows Vista], NldsDeprecated, NldsDuplicate, NldsInvalid, NldsPreferred, NldsTentative, iphelper_c0c9838a-2b5e-4283-8fdd-c3605433c6f8.xml, netvista.nl_dad_state, nldef/IpDadStateDeprecated, nldef/IpDadStateDuplicate, nldef/IpDadStateInvalid, nldef/IpDadStatePreferred, nldef/IpDadStateTentative, nldef/NL_DAD_STATE, nldef/NldsDeprecated, nldef/NldsDuplicate, nldef/NldsInvalid, nldef/NldsPreferred, nldef/NldsTentative
 ms.prod: windows-hardware
 ms.technology: windows-devices

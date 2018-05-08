@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccDictionary.LookupMnemonicTerm
-title: IAccDictionary::LookupMnemonicTerm method
+title: IAccDictionary::LookupMnemonicTerm
 author: windows-driver-content
 description: Clients call the IAccDictionary::LookupMnemonicTerm method to find the property for a given mnemonic string.
 old-location: winauto\iaccdictionary_iaccdictionary__lookupmnemonicterm.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: a8a4dfde-3721-4bf5-a609-12f06154b5f0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccDictionary, IAccDictionary interface [Windows Accessibility], LookupMnemonicTerm method, IAccDictionary::LookupMnemonicTerm, LookupMnemonicTerm method [Windows Accessibility], LookupMnemonicTerm method [Windows Accessibility], IAccDictionary interface, LookupMnemonicTerm,IAccDictionary.LookupMnemonicTerm, _msaa_IAccDictionary_LookupMnemonicTerm, msaa.iaccdictionary_iaccdictionary__lookupmnemonicterm, msaatext/IAccDictionary::LookupMnemonicTerm, winauto.iaccdictionary_iaccdictionary__lookupmnemonicterm
+ms.keywords: IAccDictionary interface [Windows Accessibility],LookupMnemonicTerm method, IAccDictionary.LookupMnemonicTerm, IAccDictionary::LookupMnemonicTerm, LookupMnemonicTerm, LookupMnemonicTerm method [Windows Accessibility], LookupMnemonicTerm method [Windows Accessibility],IAccDictionary interface, _msaa_IAccDictionary_LookupMnemonicTerm, msaa.iaccdictionary_iaccdictionary__lookupmnemonicterm, msaatext/IAccDictionary::LookupMnemonicTerm, winauto.iaccdictionary_iaccdictionary__lookupmnemonicterm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAccDictionary::LookupMnemonicTerm method
+# IAccDictionary::LookupMnemonicTerm
 
 
 ## -description

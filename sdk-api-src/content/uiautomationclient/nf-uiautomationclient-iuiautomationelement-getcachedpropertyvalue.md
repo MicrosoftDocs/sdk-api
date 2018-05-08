@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCachedPropertyValue
-title: IUIAutomationElement::GetCachedPropertyValue method
+title: IUIAutomationElement::GetCachedPropertyValue
 author: windows-driver-content
 description: Retrieves a property value from the cache for this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCachedPropertyValue.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3cd093fe-04ee-4b09-b5e7-28dad984951e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCachedPropertyValue method [Windows Accessibility], GetCachedPropertyValue method [Windows Accessibility], IUIAutomationElement interface, GetCachedPropertyValue,IUIAutomationElement.GetCachedPropertyValue, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], GetCachedPropertyValue method, IUIAutomationElement::GetCachedPropertyValue, uiauto.uiauto_IUIAutomationElement_GetCachedPropertyValue, uiauto_IUIAutomationElement_GetCachedPropertyValue, uiautomationclient/IUIAutomationElement::GetCachedPropertyValue, winauto.uiauto_IUIAutomationElement_GetCachedPropertyValue
+ms.keywords: GetCachedPropertyValue, GetCachedPropertyValue method [Windows Accessibility], GetCachedPropertyValue method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedPropertyValue method, IUIAutomationElement.GetCachedPropertyValue, IUIAutomationElement::GetCachedPropertyValue, uiauto.uiauto_IUIAutomationElement_GetCachedPropertyValue, uiauto_IUIAutomationElement_GetCachedPropertyValue, uiautomationclient/IUIAutomationElement::GetCachedPropertyValue, winauto.uiauto_IUIAutomationElement_GetCachedPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::GetCachedPropertyValue method
+# IUIAutomationElement::GetCachedPropertyValue
 
 
 ## -description

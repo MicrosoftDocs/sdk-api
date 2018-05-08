@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetDomainType
-title: INetworkConnection::GetDomainType method
+title: INetworkConnection::GetDomainType
 author: windows-driver-content
 description: The GetDomainType method returns the domain type of the network connection.
 old-location: nla\inetworkconnection_getdomaintype.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: e243c1a3-8166-4e08-80f5-32811bcada69
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDomainType method [Network Awareness], GetDomainType method [Network Awareness], INetworkConnection interface, GetDomainType,INetworkConnection.GetDomainType, INetworkConnection, INetworkConnection interface [Network Awareness], GetDomainType method, INetworkConnection::GetDomainType, netlistmgr/INetworkConnection::GetDomainType, nla.inetworkconnection_getdomaintype
+ms.keywords: GetDomainType, GetDomainType method [Network Awareness], GetDomainType method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetDomainType method, INetworkConnection.GetDomainType, INetworkConnection::GetDomainType, netlistmgr/INetworkConnection::GetDomainType, nla.inetworkconnection_getdomaintype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkConnection::GetDomainType method
+# INetworkConnection::GetDomainType
 
 
 ## -description

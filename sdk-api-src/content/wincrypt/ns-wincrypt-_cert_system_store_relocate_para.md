@@ -7,7 +7,7 @@ old-location: security\cert_system_store_relocate_para.htm
 old-project: SecCrypto
 ms.assetid: 3bcb9b64-b9cf-48b2-bfd1-0836b3d221af
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCERT_SYSTEM_STORE_RELOCATE_PARA, CERT_SYSTEM_STORE_RELOCATE_PARA, CERT_SYSTEM_STORE_RELOCATE_PARA structure [Security], PCERT_SYSTEM_STORE_RELOCATE_PARA, PCERT_SYSTEM_STORE_RELOCATE_PARA structure pointer [Security], _CERT_SYSTEM_STORE_RELOCATE_PARA, _crypto2_cert_system_store_relocate_para, security.cert_system_store_relocate_para, wincrypt/CERT_SYSTEM_STORE_RELOCATE_PARA, wincrypt/PCERT_SYSTEM_STORE_RELOCATE_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,34 +64,32 @@ The <b>CERT_SYSTEM_STORE_RELOCATE_PARA</b> structure contains data to be passed 
  
 
 
+### -field DUMMYUNIONNAME.hKeyBase
+
+A handle to registry hKey.
+
+
+### -field DUMMYUNIONNAME.pvBase
+
+A pointer to a void to allow the system store location's base to be passed in a number of different forms.
+
+
 ### -field DUMMYUNIONNAME2
 
  
 
 
-
-
-#### - hKeyBase
-
-A handle to registry hKey.
-
-
-#### - pszSystemStore
-
-A null-terminated <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">ASCII</a> string that names the system store.
-
-
-#### - pvBase
-
-A pointer to a void to allow the system store location's base to be passed in a number of different forms.
-
-
-#### - pvSystemStore
+### -field DUMMYUNIONNAME2.pvSystemStore
 
 A pointer to a void to allow the name of the system store to be passed in various forms.
 
 
-#### - pwszSystemStore
+### -field DUMMYUNIONNAME2.pszSystemStore
+
+A null-terminated <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">ASCII</a> string that names the system store.
+
+
+### -field DUMMYUNIONNAME2.pwszSystemStore
 
 A null-terminated Unicode string that names the system store.
 

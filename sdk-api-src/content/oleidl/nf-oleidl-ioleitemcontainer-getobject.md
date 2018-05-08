@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleItemContainer.GetObject
-title: IOleItemContainer::GetObject method
+title: IOleItemContainer::GetObject
 author: windows-driver-content
 description: Retrieves a pointer to the specified object.
 old-location: com\ioleitemcontainer_getobject.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 08569037-7ecd-4e63-9f94-c2552c327800
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetObject method [COM], GetObject method [COM], IOleItemContainer interface, GetObject,IOleItemContainer.GetObject, IOleItemContainer, IOleItemContainer interface [COM], GetObject method, IOleItemContainer::GetObject, _com_ioleitemcontainer_getobject, com.ioleitemcontainer_getobject, oleidl/IOleItemContainer::GetObject
+ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IOleItemContainer interface, IOleItemContainer interface [COM],GetObject method, IOleItemContainer.GetObject, IOleItemContainer::GetObject, _com_ioleitemcontainer_getobject, com.ioleitemcontainer_getobject, oleidl/IOleItemContainer::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleItemContainer::GetObject method
+# IOleItemContainer::GetObject
 
 
 ## -description

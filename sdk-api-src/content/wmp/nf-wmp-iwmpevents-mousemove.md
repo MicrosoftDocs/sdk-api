@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.MouseMove
-title: IWMPEvents::MouseMove method
+title: IWMPEvents::MouseMove
 author: windows-driver-content
 description: The MouseMove event occurs when the mouse pointer is moved.
 old-location: wmp\iwmpevents_iwmpevents__mousemove.htm
 old-project: WMP
 ms.assetid: ca0b438f-2093-41b0-9170-ec59656b70e1
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MouseMove method, IWMPEvents::MouseMove, IWMPEventsMouseMove, MouseMove method [Windows Media Player], MouseMove method [Windows Media Player], IWMPEvents interface, MouseMove,IWMPEvents.MouseMove, wmp.iwmpevents_iwmpevents__mousemove, wmp/IWMPEvents::MouseMove
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],MouseMove method, IWMPEvents.MouseMove, IWMPEvents::MouseMove, IWMPEventsMouseMove, MouseMove, MouseMove method [Windows Media Player], MouseMove method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mousemove, wmp/IWMPEvents::MouseMove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::MouseMove method
+# IWMPEvents::MouseMove
 
 
 ## -description

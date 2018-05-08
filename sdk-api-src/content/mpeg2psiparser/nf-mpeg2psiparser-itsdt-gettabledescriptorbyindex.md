@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.GetTableDescriptorByIndex
-title: ITSDT::GetTableDescriptorByIndex method
+title: ITSDT::GetTableDescriptorByIndex
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_gettabledescriptorbyindex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9adcc8f6-44a7-41c6-b42a-e45c33cd5d6a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies], ITSDT interface, GetTableDescriptorByIndex,ITSDT.GetTableDescriptorByIndex, ITSDT, ITSDT interface [Microsoft TV Technologies], GetTableDescriptorByIndex method, ITSDT::GetTableDescriptorByIndex, ITSDTGetTableDescriptorByIndex, mpeg2psiparser/ITSDT::GetTableDescriptorByIndex, mstv.itsdt_gettabledescriptorbyindex
+ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, ITSDT.GetTableDescriptorByIndex, ITSDT::GetTableDescriptorByIndex, ITSDTGetTableDescriptorByIndex, mpeg2psiparser/ITSDT::GetTableDescriptorByIndex, mstv.itsdt_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITSDT::GetTableDescriptorByIndex method
+# ITSDT::GetTableDescriptorByIndex
 
 
 ## -description

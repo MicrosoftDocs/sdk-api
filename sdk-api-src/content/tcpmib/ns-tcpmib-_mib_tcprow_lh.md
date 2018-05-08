@@ -60,39 +60,7 @@ The
 
 
 
-### -field dwLocalAddr
-
-Type: <b>DWORD</b>
-
-The local IPv4 address for the TCP connection on the local computer. A value of zero indicates the listener  can accept a connection on any interface.
-
-
-### -field dwLocalPort
-
-Type: <b>DWORD</b>
-
-The local port number in network byte order for the TCP connection on the local computer.
-
- The maximum size of an IP port number is 16 bits, so only the lower 16 bits should be used. The upper 16 bits may contain uninitialized data. 
-
-
-### -field dwRemoteAddr
-
-Type: <b>DWORD</b>
-
-The IPv4 address for the TCP connection on the remote computer. When the <b>dwState</b> member is <b>MIB_TCP_STATE_LISTEN</b>, this value has no meaning.
-
-
-### -field dwRemotePort
-
-Type: <b>DWORD</b>
-
-The remote port number in network byte order for the TCP connection on the remote computer. When the <b>dwState</b> member is <b>MIB_TCP_STATE_LISTEN</b>, this member has no meaning. 
-
-The maximum size of an IP port number is 16 bits, so only the lower 16 bits should be used. The upper 16 bits may contain uninitialized data.
-
-
-#### - dwState
+### -field dwState
 
 Type: <b>DWORD</b>
 
@@ -257,6 +225,43 @@ The TCP connection is in the delete TCB state that represents the deletion of th
 </tr>
 </table>
  
+
+
+### -field State
+
+ 
+
+
+### -field dwLocalAddr
+
+Type: <b>DWORD</b>
+
+The local IPv4 address for the TCP connection on the local computer. A value of zero indicates the listener  can accept a connection on any interface.
+
+
+### -field dwLocalPort
+
+Type: <b>DWORD</b>
+
+The local port number in network byte order for the TCP connection on the local computer.
+
+ The maximum size of an IP port number is 16 bits, so only the lower 16 bits should be used. The upper 16 bits may contain uninitialized data. 
+
+
+### -field dwRemoteAddr
+
+Type: <b>DWORD</b>
+
+The IPv4 address for the TCP connection on the remote computer. When the <b>dwState</b> member is <b>MIB_TCP_STATE_LISTEN</b>, this value has no meaning.
+
+
+### -field dwRemotePort
+
+Type: <b>DWORD</b>
+
+The remote port number in network byte order for the TCP connection on the remote computer. When the <b>dwState</b> member is <b>MIB_TCP_STATE_LISTEN</b>, this member has no meaning. 
+
+The maximum size of an IP port number is 16 bits, so only the lower 16 bits should be used. The upper 16 bits may contain uninitialized data.
 
 
 ## -remarks

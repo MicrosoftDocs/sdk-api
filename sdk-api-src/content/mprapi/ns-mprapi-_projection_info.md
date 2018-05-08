@@ -91,14 +91,14 @@ Data is a <a href="https://msdn.microsoft.com/092ccaf9-d109-41a8-aa45-cf39f6bb70
  
 
 
-#### - Ikev2ProjectionInfo
-
-A <a href="https://msdn.microsoft.com/092ccaf9-d109-41a8-aa45-cf39f6bb70ca">IKEV2_PROJECTION_INFO</a> structure that is used for an IKEv2 based tunnel.
-
-
-#### - PppProjectionInfo
+### -field PppProjectionInfo
 
 A <a href="https://msdn.microsoft.com/f100a7d0-9f22-4cc6-8db0-684cff565e76">PPP_PROJECTION_INFO</a> structure that is used for a PPP based tunnel.
+
+
+### -field Ikev2ProjectionInfo
+
+A <a href="https://msdn.microsoft.com/092ccaf9-d109-41a8-aa45-cf39f6bb70ca">IKEV2_PROJECTION_INFO</a> structure that is used for an IKEv2 based tunnel.
 
 
 ## -see-also

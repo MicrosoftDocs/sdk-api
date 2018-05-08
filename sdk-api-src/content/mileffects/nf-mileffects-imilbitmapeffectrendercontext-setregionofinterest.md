@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetRegionOfInterest
-title: IMILBitmapEffectRenderContext::SetRegionOfInterest method
+title: IMILBitmapEffectRenderContext::SetRegionOfInterest
 author: windows-driver-content
 description: Sets the region of interest for the effect.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setregionofinterest.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setregionofinterest.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffectRenderContext, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects], SetRegionOfInterest method, IMILBitmapEffectRenderContext::SetRegionOfInterest, SetRegionOfInterest method [WPF Bitmap Effects], SetRegionOfInterest method [WPF Bitmap Effects], IMILBitmapEffectRenderContext interface, SetRegionOfInterest,IMILBitmapEffectRenderContext.SetRegionOfInterest, _wibe_imilbitmapeffectrendercontext_setregionofinterest, mileffects/IMILBitmapEffectRenderContext::SetRegionOfInterest, wibe._wibe_imilbitmapeffectrendercontext_setregionofinterest
+ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetRegionOfInterest method, IMILBitmapEffectRenderContext.SetRegionOfInterest, IMILBitmapEffectRenderContext::SetRegionOfInterest, SetRegionOfInterest, SetRegionOfInterest method [WPF Bitmap Effects], SetRegionOfInterest method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setregionofinterest, mileffects/IMILBitmapEffectRenderContext::SetRegionOfInterest, wibe._wibe_imilbitmapeffectrendercontext_setregionofinterest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectRenderContext::SetRegionOfInterest method
+# IMILBitmapEffectRenderContext::SetRegionOfInterest
 
 
 ## -description

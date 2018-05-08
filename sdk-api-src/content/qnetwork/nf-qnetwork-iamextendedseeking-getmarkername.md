@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.GetMarkerName
-title: IAMExtendedSeeking::GetMarkerName method
+title: IAMExtendedSeeking::GetMarkerName
 author: windows-driver-content
 description: The GetMarkerName method retrieves the name associated with the specified marker.
 old-location: dshow\iamextendedseeking_getmarkername.htm
 old-project: DirectShow
 ms.assetid: 899cc32e-3a9f-4be0-97a9-2ddd323bf9ce
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMarkerName method [DirectShow], GetMarkerName method [DirectShow], IAMExtendedSeeking interface, GetMarkerName,IAMExtendedSeeking.GetMarkerName, IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], GetMarkerName method, IAMExtendedSeeking::GetMarkerName, IAMExtendedSeekingGetMarkerName, dshow.iamextendedseeking_getmarkername, qnetwork/IAMExtendedSeeking::GetMarkerName
+ms.date: 4/30/2018
+ms.keywords: GetMarkerName, GetMarkerName method [DirectShow], GetMarkerName method [DirectShow],IAMExtendedSeeking interface, IAMExtendedSeeking interface [DirectShow],GetMarkerName method, IAMExtendedSeeking.GetMarkerName, IAMExtendedSeeking::GetMarkerName, IAMExtendedSeekingGetMarkerName, dshow.iamextendedseeking_getmarkername, qnetwork/IAMExtendedSeeking::GetMarkerName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMExtendedSeeking::GetMarkerName method
+# IAMExtendedSeeking::GetMarkerName
 
 
 ## -description

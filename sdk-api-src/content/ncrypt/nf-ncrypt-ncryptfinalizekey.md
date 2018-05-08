@@ -7,7 +7,7 @@ old-location: security\ncryptfinalizekey_func.htm
 old-project: SecCNG
 ms.assetid: 4386030d-4ce6-4b2e-adc5-a15ddc869349
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NCRYPT_NO_KEY_VALIDATION, NCRYPT_SILENT_FLAG, NCRYPT_WRITE_KEY_TO_LEGACY_STORE_FLAG, NCryptFinalizeKey, NCryptFinalizeKey function [Security], ncrypt/NCryptFinalizeKey, security.ncryptfinalizekey_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

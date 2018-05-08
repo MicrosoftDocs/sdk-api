@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderWindowlessSite.GetAdjacentFragment
-title: IRawElementProviderWindowlessSite::GetAdjacentFragment method
+title: IRawElementProviderWindowlessSite::GetAdjacentFragment
 author: windows-driver-content
 description: Retrieves a fragment pointer for a fragment that is adjacent to the windowless Microsoft ActiveX control owned by this control site.
 old-location: winauto\uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2C43EA00-5C8E-4301-9BFF-9A5D1C585824
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetAdjacentFragment method [Windows Accessibility], GetAdjacentFragment method [Windows Accessibility], IRawElementProviderWindowlessSite interface, GetAdjacentFragment,IRawElementProviderWindowlessSite.GetAdjacentFragment, IRawElementProviderWindowlessSite, IRawElementProviderWindowlessSite interface [Windows Accessibility], GetAdjacentFragment method, IRawElementProviderWindowlessSite::GetAdjacentFragment, uiautomationcore/IRawElementProviderWindowlessSite::GetAdjacentFragment, winauto.uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment
+ms.keywords: GetAdjacentFragment, GetAdjacentFragment method [Windows Accessibility], GetAdjacentFragment method [Windows Accessibility],IRawElementProviderWindowlessSite interface, IRawElementProviderWindowlessSite interface [Windows Accessibility],GetAdjacentFragment method, IRawElementProviderWindowlessSite.GetAdjacentFragment, IRawElementProviderWindowlessSite::GetAdjacentFragment, uiautomationcore/IRawElementProviderWindowlessSite::GetAdjacentFragment, winauto.uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRawElementProviderWindowlessSite::GetAdjacentFragment method
+# IRawElementProviderWindowlessSite::GetAdjacentFragment
 
 
 ## -description

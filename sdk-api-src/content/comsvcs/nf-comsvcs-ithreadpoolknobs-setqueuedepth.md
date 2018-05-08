@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetQueueDepth
-title: IThreadPoolKnobs::SetQueueDepth method
+title: IThreadPoolKnobs::SetQueueDepth
 author: windows-driver-content
 description: Sets the threshold number of execution requests above which a new thread is added to the pool.
 old-location: cos\ithreadpoolknobs_setqueuedepth.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 42c12d8b-d7e6-4dd3-926c-176638433839
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], SetQueueDepth method, IThreadPoolKnobs::SetQueueDepth, SetQueueDepth method [COM+], SetQueueDepth method [COM+], IThreadPoolKnobs interface, SetQueueDepth,IThreadPoolKnobs.SetQueueDepth, _cos_IThreadPoolKnobs_SetQueueDepth, comsvcs/IThreadPoolKnobs::SetQueueDepth, cos.ithreadpoolknobs_setqueuedepth
+ms.keywords: IThreadPoolKnobs interface [COM+],SetQueueDepth method, IThreadPoolKnobs.SetQueueDepth, IThreadPoolKnobs::SetQueueDepth, SetQueueDepth, SetQueueDepth method [COM+], SetQueueDepth method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetQueueDepth, comsvcs/IThreadPoolKnobs::SetQueueDepth, cos.ithreadpoolknobs_setqueuedepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IThreadPoolKnobs::SetQueueDepth method
+# IThreadPoolKnobs::SetQueueDepth
 
 
 ## -description

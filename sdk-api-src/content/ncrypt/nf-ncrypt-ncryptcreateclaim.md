@@ -7,7 +7,7 @@ old-location: security\ncryptcreateclaim.htm
 old-project: SecCNG
 ms.assetid: EBEE3A67-0693-4B85-88B1-580CB2152703
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NCryptCreateClaim, NCryptCreateClaim function [Security], ncrypt/NCryptCreateClaim, security.ncryptcreateclaim
 ms.prod: windows-hardware
 ms.technology: windows-devices

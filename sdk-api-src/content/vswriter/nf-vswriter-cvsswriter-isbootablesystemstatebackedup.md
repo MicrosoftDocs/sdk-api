@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.IsBootableSystemStateBackedUp
-title: CVssWriter::IsBootableSystemStateBackedUp method
+title: CVssWriter::IsBootableSystemStateBackedUp
 author: windows-driver-content
 description: The IsBootableSystemStateBackedUp method indicates whether the bootable state will be backed up.
 old-location: base\cvsswriter_isbootablestatebackedup.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 2ab7628e-c5d4-4a08-bc34-47356aee94bf
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriter, CVssWriter class [VSS], IsBootableSystemStateBackedUp method, CVssWriter::IsBootableSystemStateBackedUp, IsBootableSystemStateBackedUp method [VSS], IsBootableSystemStateBackedUp method [VSS], CVssWriter class, IsBootableSystemStateBackedUp,CVssWriter.IsBootableSystemStateBackedUp, _win32_cvsswriter_isbootablestatebackedup, base.cvsswriter_isbootablestatebackedup, vswriter/CVssWriter::IsBootableSystemStateBackedUp
+ms.keywords: CVssWriter class [VSS],IsBootableSystemStateBackedUp method, CVssWriter.IsBootableSystemStateBackedUp, CVssWriter::IsBootableSystemStateBackedUp, IsBootableSystemStateBackedUp, IsBootableSystemStateBackedUp method [VSS], IsBootableSystemStateBackedUp method [VSS],CVssWriter class, _win32_cvsswriter_isbootablestatebackedup, base.cvsswriter_isbootablestatebackedup, vswriter/CVssWriter::IsBootableSystemStateBackedUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriter::IsBootableSystemStateBackedUp method
+# CVssWriter::IsBootableSystemStateBackedUp
 
 
 ## -description

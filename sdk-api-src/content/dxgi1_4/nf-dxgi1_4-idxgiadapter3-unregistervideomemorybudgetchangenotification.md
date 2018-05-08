@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification
-title: IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification method
+title: IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification
 author: windows-driver-content
 description: This method stops notifying a CPU synchronization object whenever a budget change occurs. An application may switch back to polling the information regularly.
 old-location: direct3ddxgi\idxgiadapter3_unregistervideomemorybudgetchangenotification.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 11695B9E-75B5-44BF-BC09-D377BCEDA341
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIAdapter3, IDXGIAdapter3 interface [DXGI], UnregisterVideoMemoryBudgetChangeNotification method, IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification, UnregisterVideoMemoryBudgetChangeNotification method [DXGI], UnregisterVideoMemoryBudgetChangeNotification method [DXGI], IDXGIAdapter3 interface, UnregisterVideoMemoryBudgetChangeNotification,IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification, direct3ddxgi.idxgiadapter3_unregistervideomemorybudgetchangenotification, dxgi1_4/IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification
+ms.keywords: IDXGIAdapter3 interface [DXGI],UnregisterVideoMemoryBudgetChangeNotification method, IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification, IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification, UnregisterVideoMemoryBudgetChangeNotification, UnregisterVideoMemoryBudgetChangeNotification method [DXGI], UnregisterVideoMemoryBudgetChangeNotification method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_unregistervideomemorybudgetchangenotification, dxgi1_4/IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification method
+# IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification
 
 
 ## -description

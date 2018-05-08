@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9b55e181-ae03-473c-a85a-f169744d911d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IATSCChannelTuneRequest, IATSCChannelTuneRequest interface [Microsoft TV Technologies], IATSCChannelTuneRequest interface [Microsoft TV Technologies], described, IATSCChannelTuneRequestInterface, mstv.iatscchanneltunerequest, tuner/IATSCChannelTuneRequest
+ms.keywords: IATSCChannelTuneRequest, IATSCChannelTuneRequest interface [Microsoft TV Technologies], IATSCChannelTuneRequest interface [Microsoft TV Technologies],described, IATSCChannelTuneRequestInterface, mstv.iatscchanneltunerequest, tuner/IATSCChannelTuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

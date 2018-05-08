@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IXDSCodec.GetXDSPacket
-title: IXDSCodec::GetXDSPacket method
+title: IXDSCodec::GetXDSPacket
 author: windows-driver-content
 description: The GetXDSPacket method retrieves the most recent XDS packet.
 old-location: mstv\ixdscodec_getxdspacket.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 44a74489-4ed7-42f0-b8d5-bf86e0f7072c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetXDSPacket method [Microsoft TV Technologies], GetXDSPacket method [Microsoft TV Technologies], IXDSCodec interface, GetXDSPacket,IXDSCodec.GetXDSPacket, IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], GetXDSPacket method, IXDSCodec::GetXDSPacket, IXDSCodecGetXDSPacket, encdec/IXDSCodec::GetXDSPacket, mstv.ixdscodec_getxdspacket
+ms.keywords: GetXDSPacket, GetXDSPacket method [Microsoft TV Technologies], GetXDSPacket method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetXDSPacket method, IXDSCodec.GetXDSPacket, IXDSCodec::GetXDSPacket, IXDSCodecGetXDSPacket, encdec/IXDSCodec::GetXDSPacket, mstv.ixdscodec_getxdspacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IXDSCodec::GetXDSPacket method
+# IXDSCodec::GetXDSPacket
 
 
 ## -description

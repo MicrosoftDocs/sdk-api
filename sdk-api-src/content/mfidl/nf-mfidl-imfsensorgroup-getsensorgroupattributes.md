@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetSensorGroupAttributes
-title: IMFSensorGroup::GetSensorGroupAttributes method
+title: IMFSensorGroup::GetSensorGroupAttributes
 author: windows-driver-content
 description: Gets the IMFAttributes for the sensor group. The returned object is a live reference to the internal attribute store.
 old-location: mf\imfsensorgroup_getsensorgroupattributes.htm
 old-project: medfound
 ms.assetid: 4EFC4615-AD97-4F58-9BEE-63F965DF8DDE
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetSensorGroupAttributes method [Media Foundation], GetSensorGroupAttributes method [Media Foundation], IMFSensorGroup interface, GetSensorGroupAttributes,IMFSensorGroup.GetSensorGroupAttributes, IMFSensorGroup, IMFSensorGroup interface [Media Foundation], GetSensorGroupAttributes method, IMFSensorGroup::GetSensorGroupAttributes, mf.imfsensorgroup_getsensorgroupattributes, mfidl/IMFSensorGroup::GetSensorGroupAttributes
+ms.date: 5/3/2018
+ms.keywords: GetSensorGroupAttributes, GetSensorGroupAttributes method [Media Foundation], GetSensorGroupAttributes method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorGroupAttributes method, IMFSensorGroup.GetSensorGroupAttributes, IMFSensorGroup::GetSensorGroupAttributes, mf.imfsensorgroup_getsensorgroupattributes, mfidl/IMFSensorGroup::GetSensorGroupAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorGroup::GetSensorGroupAttributes method
+# IMFSensorGroup::GetSensorGroupAttributes
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSupportsSourceTransfer.DetachMediaSource
-title: IMFMediaEngineSupportsSourceTransfer::DetachMediaSource method
+title: IMFMediaEngineSupportsSourceTransfer::DetachMediaSource
 author: windows-driver-content
 description: Detaches the media source.
 old-location: mf\imfmediaenginesupportssourcetransfer_detachmediasource.htm
 old-project: medfound
 ms.assetid: a085fc53-91a3-46bb-862c-dde16fb7fa42
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: DetachMediaSource method [Media Foundation], DetachMediaSource method [Media Foundation], IMFMediaEngineSupportsSourceTransfer interface, DetachMediaSource,IMFMediaEngineSupportsSourceTransfer.DetachMediaSource, IMFMediaEngineSupportsSourceTransfer, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation], DetachMediaSource method, IMFMediaEngineSupportsSourceTransfer::DetachMediaSource, mf.imfmediaenginesupportssourcetransfer_detachmediasource, mfmediaengine/IMFMediaEngineSupportsSourceTransfer::DetachMediaSource
+ms.date: 5/3/2018
+ms.keywords: DetachMediaSource, DetachMediaSource method [Media Foundation], DetachMediaSource method [Media Foundation],IMFMediaEngineSupportsSourceTransfer interface, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],DetachMediaSource method, IMFMediaEngineSupportsSourceTransfer.DetachMediaSource, IMFMediaEngineSupportsSourceTransfer::DetachMediaSource, mf.imfmediaenginesupportssourcetransfer_detachmediasource, mfmediaengine/IMFMediaEngineSupportsSourceTransfer::DetachMediaSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineSupportsSourceTransfer::DetachMediaSource method
+# IMFMediaEngineSupportsSourceTransfer::DetachMediaSource
 
 
 ## -description

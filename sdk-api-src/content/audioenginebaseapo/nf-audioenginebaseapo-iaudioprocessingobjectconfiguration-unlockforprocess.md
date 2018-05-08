@@ -1,14 +1,14 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObjectConfiguration.UnlockForProcess
-title: IAudioProcessingObjectConfiguration::UnlockForProcess method
+title: IAudioProcessingObjectConfiguration::UnlockForProcess
 author: windows-driver-content
 description: The UnlockForProcess method releases the lock that was imposed on the APO by the LockForProcess method.
 old-location: audio\iaudioprocessingobjectconfiguration_unlockforprocess.htm
 old-project: audio
 ms.assetid: 54221040-71b8-4b31-81df-46435f7b2b80
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IAudioProcessingObjectConfiguration, IAudioProcessingObjectConfiguration interface [Audio Devices], UnlockForProcess method, IAudioProcessingObjectConfiguration::UnlockForProcess, UnlockForProcess method [Audio Devices], UnlockForProcess method [Audio Devices], IAudioProcessingObjectConfiguration interface, UnlockForProcess,IAudioProcessingObjectConfiguration.UnlockForProcess, audio.iaudioprocessingobjectconfiguration_unlockforprocess, audio_syseffects_r_23133166-d468-4449-82e1-2fba54e220c6.xml, audioenginebaseapo/IAudioProcessingObjectConfiguration::UnlockForProcess
+ms.date: 5/1/2018
+ms.keywords: IAudioProcessingObjectConfiguration interface [Audio Devices],UnlockForProcess method, IAudioProcessingObjectConfiguration.UnlockForProcess, IAudioProcessingObjectConfiguration::UnlockForProcess, UnlockForProcess, UnlockForProcess method [Audio Devices], UnlockForProcess method [Audio Devices],IAudioProcessingObjectConfiguration interface, audio.iaudioprocessingobjectconfiguration_unlockforprocess, audio_syseffects_r_23133166-d468-4449-82e1-2fba54e220c6.xml, audioenginebaseapo/IAudioProcessingObjectConfiguration::UnlockForProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: All levels
 ---
 
-# IAudioProcessingObjectConfiguration::UnlockForProcess method
+# IAudioProcessingObjectConfiguration::UnlockForProcess
 
 
 ## -description

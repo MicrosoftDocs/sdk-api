@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetFileSize
-title: IBitsPeerCacheRecord::GetFileSize method
+title: IBitsPeerCacheRecord::GetFileSize
 author: windows-driver-content
 description: Gets the size of the file.
 old-location: bits\ibitspeercacherecord_getfilesize.htm
 old-project: Bits
 ms.assetid: 3b997cd0-a947-4ce7-b047-85268ea46b70
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetFileSize method [BITS], GetFileSize method [BITS], IBitsPeerCacheRecord interface, GetFileSize,IBitsPeerCacheRecord.GetFileSize, IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], GetFileSize method, IBitsPeerCacheRecord::GetFileSize, bits.ibitspeercacherecord_getfilesize, bits3_0/IBitsPeerCacheRecord::GetFileSize
+ms.date: 4/27/2018
+ms.keywords: GetFileSize, GetFileSize method [BITS], GetFileSize method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileSize method, IBitsPeerCacheRecord.GetFileSize, IBitsPeerCacheRecord::GetFileSize, bits.ibitspeercacherecord_getfilesize, bits3_0/IBitsPeerCacheRecord::GetFileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsPeerCacheRecord::GetFileSize method
+# IBitsPeerCacheRecord::GetFileSize
 
 
 ## -description

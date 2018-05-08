@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.UseOverlayStretch
-title: IDirectDrawVideo::UseOverlayStretch method
+title: IDirectDrawVideo::UseOverlayStretch
 author: windows-driver-content
 description: The UseOverlayStretch method determines whether the renderer should check overlay stretch limitations.
 old-location: dshow\idirectdrawvideo_useoverlaystretch.htm
 old-project: DirectShow
 ms.assetid: e617b40d-ba5b-4fc8-825e-3c751f72bc2c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], UseOverlayStretch method, IDirectDrawVideo::UseOverlayStretch, IDirectDrawVideoUseOverlayStretch, UseOverlayStretch method [DirectShow], UseOverlayStretch method [DirectShow], IDirectDrawVideo interface, UseOverlayStretch,IDirectDrawVideo.UseOverlayStretch, amvideo/IDirectDrawVideo::UseOverlayStretch, dshow.idirectdrawvideo_useoverlaystretch
+ms.date: 4/30/2018
+ms.keywords: IDirectDrawVideo interface [DirectShow],UseOverlayStretch method, IDirectDrawVideo.UseOverlayStretch, IDirectDrawVideo::UseOverlayStretch, IDirectDrawVideoUseOverlayStretch, UseOverlayStretch, UseOverlayStretch method [DirectShow], UseOverlayStretch method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseOverlayStretch, dshow.idirectdrawvideo_useoverlaystretch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawVideo::UseOverlayStretch method
+# IDirectDrawVideo::UseOverlayStretch
 
 
 ## -description

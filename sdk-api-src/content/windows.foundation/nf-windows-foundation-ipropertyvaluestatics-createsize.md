@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateSize
-title: IPropertyValueStatics::CreateSize method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified Size value.
 old-location: winrt\ipropertyvaluestatics_createsize.htm
 old-project: WinRT
 ms.assetid: 0a5055f1-6873-4396-9a3e-b7a4cc41200e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateSize method [Windows Runtime], CreateSize method [Windows Runtime], IPropertyValueStatics interface, CreateSize,IPropertyValueStatics.CreateSize, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateSize method, IPropertyValueStatics::CreateSize, windows/IPropertyValueStatics::CreateSize, winrt.ipropertyvaluefactory_createsize, winrt.ipropertyvaluestatics_createsize
+ms.date: 5/4/2018
+ms.keywords: CreateSize, CreateSize method [Windows Runtime], CreateSize method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSize method, IPropertyValueStatics.CreateSize, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSize, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSize, winrt.ipropertyvaluefactory_createsize, winrt.ipropertyvaluestatics_createsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateSize method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

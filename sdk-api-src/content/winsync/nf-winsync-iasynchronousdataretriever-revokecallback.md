@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IAsynchronousDataRetriever.RevokeCallback
-title: IAsynchronousDataRetriever::RevokeCallback method
+title: IAsynchronousDataRetriever::RevokeCallback
 author: windows-driver-content
 description: Indicates that the IAsynchronousDataRetriever object must no longer use the specified callback interface and must release any references to it.
 old-location: winsync\iasynchronousdataretriever_revokecallback.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: bb7b1457-03aa-47e0-9e61-6195706a0fcd
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IAsynchronousDataRetriever, IAsynchronousDataRetriever interface [Windows Sync], RevokeCallback method, IAsynchronousDataRetriever::RevokeCallback, RevokeCallback method [Windows Sync], RevokeCallback method [Windows Sync], IAsynchronousDataRetriever interface, RevokeCallback,IAsynchronousDataRetriever.RevokeCallback, winsync.iasynchronousdataretriever_revokecallback, winsync/IAsynchronousDataRetriever::RevokeCallback
+ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],RevokeCallback method, IAsynchronousDataRetriever.RevokeCallback, IAsynchronousDataRetriever::RevokeCallback, RevokeCallback, RevokeCallback method [Windows Sync], RevokeCallback method [Windows Sync],IAsynchronousDataRetriever interface, winsync.iasynchronousdataretriever_revokecallback, winsync/IAsynchronousDataRetriever::RevokeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAsynchronousDataRetriever::RevokeCallback method
+# IAsynchronousDataRetriever::RevokeCallback
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 7855fcf7-e82e-4d74-a29a-99ef86b59637
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IInvalidProductLicenseException, IInvalidProductLicenseException interface [Windows Update Agent], IInvalidProductLicenseException interface [Windows Update Agent], described, wua.iinvalidproductlicenseexception, wuapi/IInvalidProductLicenseException
+ms.keywords: IInvalidProductLicenseException, IInvalidProductLicenseException interface [Windows Update Agent], IInvalidProductLicenseException interface [Windows Update Agent],described, wua.iinvalidproductlicenseexception, wuapi/IInvalidProductLicenseException
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

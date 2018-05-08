@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.GetSignedInfoHash
-title: IWSDSignatureProperty::GetSignedInfoHash method
+title: IWSDSignatureProperty::GetSignedInfoHash
 author: windows-driver-content
 description: Gets the hash of a message signature.
 old-location: ncd\iwsdsignatureproperty_getsignedinfohash.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 95e34e7a-18d1-4402-bfd2-5f73d663c181
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetSignedInfoHash method, GetSignedInfoHash method, IWSDSignatureProperty interface, GetSignedInfoHash,IWSDSignatureProperty.GetSignedInfoHash, IWSDSignatureProperty, IWSDSignatureProperty interface, GetSignedInfoHash method, IWSDSignatureProperty::GetSignedInfoHash, ncd.iwsdsignatureproperty_getsignedinfohash, wsdbase/IWSDSignatureProperty::GetSignedInfoHash
+ms.keywords: GetSignedInfoHash, GetSignedInfoHash method, GetSignedInfoHash method,IWSDSignatureProperty interface, IWSDSignatureProperty interface,GetSignedInfoHash method, IWSDSignatureProperty.GetSignedInfoHash, IWSDSignatureProperty::GetSignedInfoHash, ncd.iwsdsignatureproperty_getsignedinfohash, wsdbase/IWSDSignatureProperty::GetSignedInfoHash
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDSignatureProperty::GetSignedInfoHash method
+# IWSDSignatureProperty::GetSignedInfoHash
 
 
 ## -description

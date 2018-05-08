@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceReportMessage.RegisterErrorLogMessage
-title: IWorkspaceReportMessage::RegisterErrorLogMessage method
+title: IWorkspaceReportMessage::RegisterErrorLogMessage
 author: windows-driver-content
 description: Registers the specified error message to use in the UI.
 old-location: termserv\iworkspacereportmessage_registererrorlogmessage.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 3aca491f-2cbd-4f04-a06c-986c37e6ce5a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWorkspaceReportMessage, IWorkspaceReportMessage interface [Remote Desktop Services], RegisterErrorLogMessage method, IWorkspaceReportMessage::RegisterErrorLogMessage, RegisterErrorLogMessage method [Remote Desktop Services], RegisterErrorLogMessage method [Remote Desktop Services], IWorkspaceReportMessage interface, RegisterErrorLogMessage method [Remote Desktop Services], Workspace object, RegisterErrorLogMessage,IWorkspaceReportMessage.RegisterErrorLogMessage, Workspace object [Remote Desktop Services], RegisterErrorLogMessage method, termserv.iworkspacereportmessage_registererrorlogmessage, workspaceruntime/IWorkspaceReportMessage::RegisterErrorLogMessage
+ms.keywords: IWorkspaceReportMessage interface [Remote Desktop Services],RegisterErrorLogMessage method, IWorkspaceReportMessage.RegisterErrorLogMessage, IWorkspaceReportMessage::RegisterErrorLogMessage, RegisterErrorLogMessage, RegisterErrorLogMessage method [Remote Desktop Services], RegisterErrorLogMessage method [Remote Desktop Services],IWorkspaceReportMessage interface, RegisterErrorLogMessage method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],RegisterErrorLogMessage method, termserv.iworkspacereportmessage_registererrorlogmessage, workspaceruntime/IWorkspaceReportMessage::RegisterErrorLogMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWorkspaceReportMessage::RegisterErrorLogMessage method
+# IWorkspaceReportMessage::RegisterErrorLogMessage
 
 
 ## -description

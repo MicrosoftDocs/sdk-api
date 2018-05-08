@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Notifications
-title: IFsrmFileManagementJob::get_Notifications method
+title: IFsrmFileManagementJob::get_Notifications
 author: windows-driver-content
 description: The list of notification periods defined for the job.
 old-location: fsrm\ifsrmfilemanagementjob_notifications.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: f0aee951-12f3-40d0-bbf4-c72af117952f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], Notifications property, IFsrmFileManagementJob.Notifications, IFsrmFileManagementJob::get_Notifications, Notifications property [File Server Resource Manager], Notifications property [File Server Resource Manager], IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_notifications, fsrm.ifsrmfilemanagementjob_notifications, fsrmreports/IFsrmFileManagementJob::Notifications, fsrmreports/IFsrmFileManagementJob::get_Notifications, get_Notifications,IFsrmFileManagementJob.get_Notifications
+ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Notifications property, IFsrmFileManagementJob.Notifications, IFsrmFileManagementJob.get_Notifications, IFsrmFileManagementJob::Notifications, IFsrmFileManagementJob::get_Notifications, Notifications property [File Server Resource Manager], Notifications property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_notifications, fsrm.ifsrmfilemanagementjob_notifications, fsrmreports/IFsrmFileManagementJob::Notifications, fsrmreports/IFsrmFileManagementJob::get_Notifications, get_Notifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJob::get_Notifications method
+# IFsrmFileManagementJob::get_Notifications
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IFiringControl.FireSubscription
-title: IFiringControl::FireSubscription method
+title: IFiringControl::FireSubscription
 author: windows-driver-content
 description: Fires an event to a single subscriber.
 old-location: cos\ifiringcontrol_firesubscription.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 64aaa99c-70e0-4a96-ab16-2f5b5666d1c4
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: FireSubscription method [COM+], FireSubscription method [COM+], IFiringControl interface, FireSubscription,IFiringControl.FireSubscription, IFiringControl, IFiringControl interface [COM+], FireSubscription method, IFiringControl::FireSubscription, _cos_IFiringControl_FireSubscriptio, cos.ifiringcontrol_firesubscription, eventsys/IFiringControl::FireSubscription
+ms.keywords: FireSubscription, FireSubscription method [COM+], FireSubscription method [COM+],IFiringControl interface, IFiringControl interface [COM+],FireSubscription method, IFiringControl.FireSubscription, IFiringControl::FireSubscription, _cos_IFiringControl_FireSubscriptio, cos.ifiringcontrol_firesubscription, eventsys/IFiringControl::FireSubscription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IFiringControl::FireSubscription method
+# IFiringControl::FireSubscription
 
 
 ## -description

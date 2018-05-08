@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_PatternOrURL
-title: ISearchScopeRule::get_PatternOrURL method
+title: ISearchScopeRule::get_PatternOrURL
 author: windows-driver-content
 description: Gets the pattern or URL for the rule. The scope rules determine what URLs or paths to include or exclude.
 old-location: search\_search_ISearchScopeRule_get_PatternOrURL.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_patternorurl.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchScopeRule, ISearchScopeRule interface [search], get_PatternOrURL method, ISearchScopeRule::get_PatternOrURL, _search_ISearchScopeRule_get_PatternOrURL, get_PatternOrURL method [search], get_PatternOrURL method [search], ISearchScopeRule interface, get_PatternOrURL,ISearchScopeRule.get_PatternOrURL, search._search_ISearchScopeRule_get_PatternOrURL, searchapi/ISearchScopeRule::get_PatternOrURL
+ms.date: 5/4/2018
+ms.keywords: ISearchScopeRule interface [search],get_PatternOrURL method, ISearchScopeRule.get_PatternOrURL, ISearchScopeRule::get_PatternOrURL, _search_ISearchScopeRule_get_PatternOrURL, get_PatternOrURL, get_PatternOrURL method [search], get_PatternOrURL method [search],ISearchScopeRule interface, search._search_ISearchScopeRule_get_PatternOrURL, searchapi/ISearchScopeRule::get_PatternOrURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchScopeRule::get_PatternOrURL method
+# ISearchScopeRule::get_PatternOrURL
 
 
 ## -description

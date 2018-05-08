@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b8c46cc0-e071-4016-b658-1a5cd554a4c9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSignatureCollection, IXpsSignatureCollection interface [XPS Documents and Packaging], IXpsSignatureCollection interface [XPS Documents and Packaging], described, xps.ixpssignaturecollection, xpsdigitalsignature/IXpsSignatureCollection
+ms.keywords: IXpsSignatureCollection, IXpsSignatureCollection interface [XPS Documents and Packaging], IXpsSignatureCollection interface [XPS Documents and Packaging],described, xps.ixpssignaturecollection, xpsdigitalsignature/IXpsSignatureCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

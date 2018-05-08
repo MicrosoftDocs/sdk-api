@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_VolumeNameISO9660
-title: IFileSystemImage::get_VolumeNameISO9660 method
+title: IFileSystemImage::get_VolumeNameISO9660
 author: windows-driver-content
 description: Retrieves the volume name for the ISO9660 system image.
 old-location: imapi\ifilesystemimage_get_volumenameiso9660.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 9f41c273-d56a-4e8f-aa9f-e2a49741f7e3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_VolumeNameISO9660 method, IFileSystemImage::get_VolumeNameISO9660, get_VolumeNameISO9660 method [IMAPI], get_VolumeNameISO9660 method [IMAPI], IFileSystemImage interface, get_VolumeNameISO9660,IFileSystemImage.get_VolumeNameISO9660, imapi.ifilesystemimage_get_volumenameiso9660, imapi2fs/IFileSystemImage::get_VolumeNameISO9660
+ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeNameISO9660 method, IFileSystemImage.get_VolumeNameISO9660, IFileSystemImage::get_VolumeNameISO9660, get_VolumeNameISO9660, get_VolumeNameISO9660 method [IMAPI], get_VolumeNameISO9660 method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumenameiso9660, imapi2fs/IFileSystemImage::get_VolumeNameISO9660
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::get_VolumeNameISO9660 method
+# IFileSystemImage::get_VolumeNameISO9660
 
 
 ## -description

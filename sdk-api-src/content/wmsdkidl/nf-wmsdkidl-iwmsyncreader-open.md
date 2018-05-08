@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.Open
-title: IWMSyncReader::Open method
+title: IWMSyncReader::Open
 author: windows-driver-content
 description: The Open method opens a file for reading. Unlike IWMReader::Open, this method is a synchronous call.
 old-location: wmformat\iwmsyncreader_open.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: dab1a9c4-487c-4b20-909e-05f3504698f5
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], Open method, IWMSyncReader::Open, IWMSyncReaderOpen, Open method [windows Media Format], Open method [windows Media Format], IWMSyncReader interface, Open,IWMSyncReader.Open, wmformat.iwmsyncreader_open, wmsdkidl/IWMSyncReader::Open
+ms.keywords: IWMSyncReader interface [windows Media Format],Open method, IWMSyncReader.Open, IWMSyncReader::Open, IWMSyncReaderOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_open, wmsdkidl/IWMSyncReader::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader::Open method
+# IWMSyncReader::Open
 
 
 ## -description

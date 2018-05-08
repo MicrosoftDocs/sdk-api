@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IResourceManager.NotifyRelease
-title: IResourceManager::NotifyRelease method
+title: IResourceManager::NotifyRelease
 author: windows-driver-content
 description: The NotifyRelease method notifies the resource manager that IResourceConsumer has released a resource.
 old-location: dshow\iresourcemanager_notifyrelease.htm
 old-project: DirectShow
 ms.assetid: a3779a8d-fe78-4f9b-af6c-7a25e0f07a86
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IResourceManager, IResourceManager interface [DirectShow], NotifyRelease method, IResourceManager::NotifyRelease, IResourceManagerNotifyRelease, NotifyRelease method [DirectShow], NotifyRelease method [DirectShow], IResourceManager interface, NotifyRelease,IResourceManager.NotifyRelease, dshow.iresourcemanager_notifyrelease, strmif/IResourceManager::NotifyRelease
+ms.date: 4/30/2018
+ms.keywords: IResourceManager interface [DirectShow],NotifyRelease method, IResourceManager.NotifyRelease, IResourceManager::NotifyRelease, IResourceManagerNotifyRelease, NotifyRelease, NotifyRelease method [DirectShow], NotifyRelease method [DirectShow],IResourceManager interface, dshow.iresourcemanager_notifyrelease, strmif/IResourceManager::NotifyRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IResourceManager::NotifyRelease method
+# IResourceManager::NotifyRelease
 
 
 ## -description

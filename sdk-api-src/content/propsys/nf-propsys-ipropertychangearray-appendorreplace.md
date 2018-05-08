@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.AppendOrReplace
-title: IPropertyChangeArray::AppendOrReplace method
+title: IPropertyChangeArray::AppendOrReplace
 author: windows-driver-content
 description: Replaces the first occurrence of a change that affects the same property key as the provided change. If the property key is not already in the array, this method appends the change to the end of the array.
 old-location: properties\IPropertyChangeArray_AppendOrReplace.htm
 old-project: properties
 ms.assetid: e4006738-d986-4fcb-899c-bbc4853ec6c1
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: AppendOrReplace method [Windows Properties], AppendOrReplace method [Windows Properties], IPropertyChangeArray interface, AppendOrReplace,IPropertyChangeArray.AppendOrReplace, IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], AppendOrReplace method, IPropertyChangeArray::AppendOrReplace, _shell_IPropertyChangeArray_AppendOrReplace, properties.IPropertyChangeArray_AppendOrReplace, propsys/IPropertyChangeArray::AppendOrReplace, shell.IPropertyChangeArray_AppendOrReplace
+ms.date: 4/27/2018
+ms.keywords: AppendOrReplace, AppendOrReplace method [Windows Properties], AppendOrReplace method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],AppendOrReplace method, IPropertyChangeArray.AppendOrReplace, IPropertyChangeArray::AppendOrReplace, _shell_IPropertyChangeArray_AppendOrReplace, properties.IPropertyChangeArray_AppendOrReplace, propsys/IPropertyChangeArray::AppendOrReplace, shell.IPropertyChangeArray_AppendOrReplace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyChangeArray::AppendOrReplace method
+# IPropertyChangeArray::AppendOrReplace
 
 
 ## -description

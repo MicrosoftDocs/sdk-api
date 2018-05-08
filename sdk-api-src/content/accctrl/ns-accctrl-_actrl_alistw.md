@@ -68,6 +68,18 @@ The number of entries in the <b>pPropertyAccessList</b> array.
 An array of <a href="https://msdn.microsoft.com/90b13dd1-0ca6-4674-b9fa-a61aed4637d7">ACTRL_PROPERTY_ENTRY</a> structures. Each structure contains a list of access-control entries for an object or a specified property on the object.
 
 
+### -field pPropertyAccessList.size_is
+
+ 
+
+
+### -field pPropertyAccessList.size_is.cEntries
+
+ 
+
+
+
+
 ## -remarks
 
 

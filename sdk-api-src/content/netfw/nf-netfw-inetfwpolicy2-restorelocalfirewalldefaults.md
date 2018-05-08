@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwPolicy2.RestoreLocalFirewallDefaults
-title: INetFwPolicy2::RestoreLocalFirewallDefaults method
+title: INetFwPolicy2::RestoreLocalFirewallDefaults
 author: windows-driver-content
 description: Restores the local firewall configuration to its default state.
 old-location: ics\inetfwpolicy2_restorelocalfirewalldefaults.htm
 old-project: ICS
 ms.assetid: 420b07ff-e851-41cf-96c4-064430f292a1
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], RestoreLocalFirewallDefaults method, INetFwPolicy2::RestoreLocalFirewallDefaults, RestoreLocalFirewallDefaults method [ICS/ICF], RestoreLocalFirewallDefaults method [ICS/ICF], INetFwPolicy2 interface, RestoreLocalFirewallDefaults,INetFwPolicy2.RestoreLocalFirewallDefaults, ics.inetfwpolicy2_restorelocalfirewalldefaults, netfw/INetFwPolicy2::RestoreLocalFirewallDefaults
+ms.date: 5/1/2018
+ms.keywords: INetFwPolicy2 interface [ICS/ICF],RestoreLocalFirewallDefaults method, INetFwPolicy2.RestoreLocalFirewallDefaults, INetFwPolicy2::RestoreLocalFirewallDefaults, RestoreLocalFirewallDefaults, RestoreLocalFirewallDefaults method [ICS/ICF], RestoreLocalFirewallDefaults method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_restorelocalfirewalldefaults, netfw/INetFwPolicy2::RestoreLocalFirewallDefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwPolicy2::RestoreLocalFirewallDefaults method
+# INetFwPolicy2::RestoreLocalFirewallDefaults
 
 
 ## -description

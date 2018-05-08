@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.EnableService
-title: IAutomaticUpdates::EnableService method
+title: IAutomaticUpdates::EnableService
 author: windows-driver-content
 description: Enables all the components that Automatic Updates requires.
 old-location: wua\iautomaticupdates_enableservice.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 0dd80943-f9d6-4179-8b02-3a03b5ba3636
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EnableService method [Windows Update Agent], EnableService method [Windows Update Agent], IAutomaticUpdates interface, EnableService,IAutomaticUpdates.EnableService, IAutomaticUpdates, IAutomaticUpdates interface [Windows Update Agent], EnableService method, IAutomaticUpdates::EnableService, wua.iautomaticupdates_enableservice, wuapi/IAutomaticUpdates::EnableService
+ms.keywords: EnableService, EnableService method [Windows Update Agent], EnableService method [Windows Update Agent],IAutomaticUpdates interface, IAutomaticUpdates interface [Windows Update Agent],EnableService method, IAutomaticUpdates.EnableService, IAutomaticUpdates::EnableService, wua.iautomaticupdates_enableservice, wuapi/IAutomaticUpdates::EnableService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdates::EnableService method
+# IAutomaticUpdates::EnableService
 
 
 ## -description

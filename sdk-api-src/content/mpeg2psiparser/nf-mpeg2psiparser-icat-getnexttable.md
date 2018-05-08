@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.GetNextTable
-title: ICAT::GetNextTable method
+title: ICAT::GetNextTable
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_getnexttable.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 466643d5-02d1-4ac1-9143-867f503aad09
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies], ICAT interface, GetNextTable,ICAT.GetNextTable, ICAT, ICAT interface [Microsoft TV Technologies], GetNextTable method, ICAT::GetNextTable, ICATGetNextTable, mpeg2psiparser/ICAT::GetNextTable, mstv.icat_getnexttable
+ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetNextTable method, ICAT.GetNextTable, ICAT::GetNextTable, ICATGetNextTable, mpeg2psiparser/ICAT::GetNextTable, mstv.icat_getnexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ICAT::GetNextTable method
+# ICAT::GetNextTable
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.SetPageSite
-title: IPropertyPage::SetPageSite method
+title: IPropertyPage::SetPageSite
 author: windows-driver-content
 description: Initializes a property page and provides the page with a pointer to the IPropertyPageSite interface through which the property page communicates with the property frame.
 old-location: com\ipropertypage_setpagesite.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: a57f3f0c-53c0-4ddf-9827-df912f263a9e
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPropertyPage, IPropertyPage interface [COM], SetPageSite method, IPropertyPage::SetPageSite, SetPageSite method [COM], SetPageSite method [COM], IPropertyPage interface, SetPageSite,IPropertyPage.SetPageSite, _ctrl_ipropertypage_setpagesite, com.ipropertypage_setpagesite, ocidl/IPropertyPage::SetPageSite
+ms.keywords: IPropertyPage interface [COM],SetPageSite method, IPropertyPage.SetPageSite, IPropertyPage::SetPageSite, SetPageSite, SetPageSite method [COM], SetPageSite method [COM],IPropertyPage interface, _ctrl_ipropertypage_setpagesite, com.ipropertypage_setpagesite, ocidl/IPropertyPage::SetPageSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyPage::SetPageSite method
+# IPropertyPage::SetPageSite
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.GetVideoAttributes
-title: IMFTranscodeProfile::GetVideoAttributes method
+title: IMFTranscodeProfile::GetVideoAttributes
 author: windows-driver-content
 description: Gets the video stream settings that are currently set in the transcode profile.
 old-location: mf\imftranscodeprofile_getvideoattributes.htm
 old-project: medfound
 ms.assetid: 734cb4d0-7017-4a30-9d0c-a6b5ce42fec6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoAttributes method [Media Foundation], GetVideoAttributes method [Media Foundation], IMFTranscodeProfile interface, GetVideoAttributes,IMFTranscodeProfile.GetVideoAttributes, IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], GetVideoAttributes method, IMFTranscodeProfile::GetVideoAttributes, mf.imftranscodeprofile_getvideoattributes, mfidl/IMFTranscodeProfile::GetVideoAttributes
+ms.date: 5/3/2018
+ms.keywords: GetVideoAttributes, GetVideoAttributes method [Media Foundation], GetVideoAttributes method [Media Foundation],IMFTranscodeProfile interface, IMFTranscodeProfile interface [Media Foundation],GetVideoAttributes method, IMFTranscodeProfile.GetVideoAttributes, IMFTranscodeProfile::GetVideoAttributes, mf.imftranscodeprofile_getvideoattributes, mfidl/IMFTranscodeProfile::GetVideoAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTranscodeProfile::GetVideoAttributes method
+# IMFTranscodeProfile::GetVideoAttributes
 
 
 ## -description

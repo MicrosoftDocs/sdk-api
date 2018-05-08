@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMedia.get_duration
-title: IWMPMedia::get_duration method
+title: IWMPMedia::get_duration
 author: windows-driver-content
 description: The get_duration method retrieves the duration in seconds of the current media item..
 old-location: wmp\iwmpmedia_get_duration.htm
 old-project: WMP
 ms.assetid: 40313888-faa0-499e-9133-dc437f5ad44f
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], get_duration method, IWMPMedia2 interface [Windows Media Player], get_duration method, IWMPMedia2::get_duration, IWMPMedia3 interface [Windows Media Player], get_duration method, IWMPMedia3::get_duration, IWMPMedia::get_duration, IWMPMediaget_duration, get_duration method [Windows Media Player], get_duration method [Windows Media Player], IWMPMedia interface, get_duration method [Windows Media Player], IWMPMedia2 interface, get_duration method [Windows Media Player], IWMPMedia3 interface, get_duration,IWMPMedia.get_duration, wmp.iwmpmedia_get_duration, wmp/IWMPMedia2::get_duration, wmp/IWMPMedia3::get_duration, wmp/IWMPMedia::get_duration
+ms.date: 5/4/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],get_duration method, IWMPMedia.get_duration, IWMPMedia2 interface [Windows Media Player],get_duration method, IWMPMedia2::get_duration, IWMPMedia3 interface [Windows Media Player],get_duration method, IWMPMedia3::get_duration, IWMPMedia::get_duration, IWMPMediaget_duration, get_duration, get_duration method [Windows Media Player], get_duration method [Windows Media Player],IWMPMedia interface, get_duration method [Windows Media Player],IWMPMedia2 interface, get_duration method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_duration, wmp/IWMPMedia2::get_duration, wmp/IWMPMedia3::get_duration, wmp/IWMPMedia::get_duration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMedia::get_duration method
+# IWMPMedia::get_duration
 
 
 ## -description

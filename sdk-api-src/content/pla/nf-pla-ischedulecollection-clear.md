@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IScheduleCollection.Clear
-title: IScheduleCollection::Clear method
+title: IScheduleCollection::Clear
 author: windows-driver-content
 description: Removes all schedules from the collection.
 old-location: pla\ischedulecollection_clear.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: e9a3afb8-0049-425b-a231-bbb5b56eced7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Clear method [PLA], Clear method [PLA], IScheduleCollection interface, Clear,IScheduleCollection.Clear, IScheduleCollection, IScheduleCollection interface [PLA], Clear method, IScheduleCollection::Clear, base.ischedulecollection_clear, pla.ischedulecollection_clear, pla/IScheduleCollection::Clear
+ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Clear method, IScheduleCollection.Clear, IScheduleCollection::Clear, base.ischedulecollection_clear, pla.ischedulecollection_clear, pla/IScheduleCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduleCollection::Clear method
+# IScheduleCollection::Clear
 
 
 ## -description

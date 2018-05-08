@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.GetWindow
-title: ITextDocument2::GetWindow method
+title: ITextDocument2::GetWindow
 author: windows-driver-content
 description: Gets the handle of the window that the Text Object Model (TOM) engine is using to display output.
 old-location: controls\itextdocument2_getwindow.htm
 old-project: Controls
 ms.assetid: 4bf5e644-292e-4847-8dad-71e8ccf86205
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetWindow method [Windows Controls], GetWindow method [Windows Controls], ITextDocument2 interface, GetWindow,ITextDocument2.GetWindow, ITextDocument2, ITextDocument2 interface [Windows Controls], GetWindow method, ITextDocument2::GetWindow, controls.itextdocument2_getwindow, tom/ITextDocument2::GetWindow
+ms.date: 4/27/2018
+ms.keywords: GetWindow, GetWindow method [Windows Controls], GetWindow method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetWindow method, ITextDocument2.GetWindow, ITextDocument2::GetWindow, controls.itextdocument2_getwindow, tom/ITextDocument2::GetWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::GetWindow method
+# ITextDocument2::GetWindow
 
 
 ## -description

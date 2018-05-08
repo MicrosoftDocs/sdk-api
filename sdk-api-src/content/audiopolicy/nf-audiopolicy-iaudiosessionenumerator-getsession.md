@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEnumerator.GetSession
-title: IAudioSessionEnumerator::GetSession method
+title: IAudioSessionEnumerator::GetSession
 author: windows-driver-content
 description: The GetSession method gets the audio session specified by an audio session number.
 old-location: coreaudio\iaudiosessionenumerator_getsession.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 45b7af16-aca0-49f8-b977-f7e4f1885687
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetSession method [Core Audio], GetSession method [Core Audio], IAudioSessionEnumerator interface, GetSession,IAudioSessionEnumerator.GetSession, IAudioSessionEnumerator, IAudioSessionEnumerator interface [Core Audio], GetSession method, IAudioSessionEnumerator::GetSession, audiopolicy/IAudioSessionEnumerator::GetSession, coreaudio.iaudiosessionenumerator_getsession
+ms.keywords: GetSession, GetSession method [Core Audio], GetSession method [Core Audio],IAudioSessionEnumerator interface, IAudioSessionEnumerator interface [Core Audio],GetSession method, IAudioSessionEnumerator.GetSession, IAudioSessionEnumerator::GetSession, audiopolicy/IAudioSessionEnumerator::GetSession, coreaudio.iaudiosessionenumerator_getsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionEnumerator::GetSession method
+# IAudioSessionEnumerator::GetSession
 
 
 ## -description

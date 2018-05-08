@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IDirectDrawMediaSampleAllocator.GetDirectDraw
-title: IDirectDrawMediaSampleAllocator::GetDirectDraw method
+title: IDirectDrawMediaSampleAllocator::GetDirectDraw
 author: windows-driver-content
 description: The GetDirectDraw method retrieves a pointer to the DirectDraw instance used to allocate surfaces.
 old-location: dshow\idirectdrawmediasampleallocator_getdirectdraw.htm
 old-project: DirectShow
 ms.assetid: 6d6eed9d-635d-424b-ba14-213bbe56f66c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDirectDraw method [DirectShow], GetDirectDraw method [DirectShow], IDirectDrawMediaSampleAllocator interface, GetDirectDraw,IDirectDrawMediaSampleAllocator.GetDirectDraw, IDirectDrawMediaSampleAllocator, IDirectDrawMediaSampleAllocator interface [DirectShow], GetDirectDraw method, IDirectDrawMediaSampleAllocator::GetDirectDraw, IDirectDrawMediaSampleAllocatorGetDirectDraw, amstream/IDirectDrawMediaSampleAllocator::GetDirectDraw, dshow.idirectdrawmediasampleallocator_getdirectdraw
+ms.date: 4/30/2018
+ms.keywords: GetDirectDraw, GetDirectDraw method [DirectShow], GetDirectDraw method [DirectShow],IDirectDrawMediaSampleAllocator interface, IDirectDrawMediaSampleAllocator interface [DirectShow],GetDirectDraw method, IDirectDrawMediaSampleAllocator.GetDirectDraw, IDirectDrawMediaSampleAllocator::GetDirectDraw, IDirectDrawMediaSampleAllocatorGetDirectDraw, amstream/IDirectDrawMediaSampleAllocator::GetDirectDraw, dshow.idirectdrawmediasampleallocator_getdirectdraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawMediaSampleAllocator::GetDirectDraw method
+# IDirectDrawMediaSampleAllocator::GetDirectDraw
 
 
 ## -description

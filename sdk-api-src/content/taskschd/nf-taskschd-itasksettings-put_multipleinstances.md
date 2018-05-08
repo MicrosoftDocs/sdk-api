@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_MultipleInstances
-title: ITaskSettings::put_MultipleInstances method
+title: ITaskSettings::put_MultipleInstances
 author: windows-driver-content
 description: Gets or sets the policy that defines how the Task Scheduler deals with multiple instances of the task.
 old-location: taskschd\itasksettings_multipleinstances.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 2a84b780-2378-4ee8-aaa4-3bc960e32206
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskSettings, ITaskSettings interface [Task Scheduler], MultipleInstances property, ITaskSettings.MultipleInstances, ITaskSettings::get_MultipleInstances, ITaskSettings::put_MultipleInstances, MultipleInstances property [Task Scheduler], MultipleInstances property [Task Scheduler], ITaskSettings interface, TASK_INSTANCES_IGNORE_NEW, TASK_INSTANCES_PARALLEL, TASK_INSTANCES_QUEUE, TASK_INSTANCES_STOP_EXISTING, put_MultipleInstances,ITaskSettings.put_MultipleInstances, taskschd.itasksettings_multipleinstances, taskschd/ITaskSettings::MultipleInstances, taskschd/ITaskSettings::get_MultipleInstances, taskschd/ITaskSettings::put_MultipleInstances
+ms.keywords: ITaskSettings interface [Task Scheduler],MultipleInstances property, ITaskSettings.MultipleInstances, ITaskSettings.put_MultipleInstances, ITaskSettings::MultipleInstances, ITaskSettings::get_MultipleInstances, ITaskSettings::put_MultipleInstances, MultipleInstances property [Task Scheduler], MultipleInstances property [Task Scheduler],ITaskSettings interface, TASK_INSTANCES_IGNORE_NEW, TASK_INSTANCES_PARALLEL, TASK_INSTANCES_QUEUE, TASK_INSTANCES_STOP_EXISTING, put_MultipleInstances, taskschd.itasksettings_multipleinstances, taskschd/ITaskSettings::MultipleInstances, taskschd/ITaskSettings::get_MultipleInstances, taskschd/ITaskSettings::put_MultipleInstances
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskSettings::put_MultipleInstances method
+# ITaskSettings::put_MultipleInstances
 
 
 ## -description

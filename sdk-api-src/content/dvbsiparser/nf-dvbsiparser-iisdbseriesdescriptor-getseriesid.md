@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetSeriesId
-title: IIsdbSeriesDescriptor::GetSeriesId method
+title: IIsdbSeriesDescriptor::GetSeriesId
 author: windows-driver-content
 description: Gets a unique series identifier from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getseriesid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 90de5108-1d40-475b-83fe-20b68fa3f748
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSeriesId method [Microsoft TV Technologies], GetSeriesId method [Microsoft TV Technologies], IIsdbSeriesDescriptor interface, GetSeriesId,IIsdbSeriesDescriptor.GetSeriesId, IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], GetSeriesId method, IIsdbSeriesDescriptor::GetSeriesId, dvbsiparser/IIsdbSeriesDescriptor::GetSeriesId, mstv.iisdbseriesdescriptor_getseriesid
+ms.keywords: GetSeriesId, GetSeriesId method [Microsoft TV Technologies], GetSeriesId method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetSeriesId method, IIsdbSeriesDescriptor.GetSeriesId, IIsdbSeriesDescriptor::GetSeriesId, dvbsiparser/IIsdbSeriesDescriptor::GetSeriesId, mstv.iisdbseriesdescriptor_getseriesid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbSeriesDescriptor::GetSeriesId method
+# IIsdbSeriesDescriptor::GetSeriesId
 
 
 ## -description

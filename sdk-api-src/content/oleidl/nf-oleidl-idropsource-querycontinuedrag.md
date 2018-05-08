@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IDropSource.QueryContinueDrag
-title: IDropSource::QueryContinueDrag method
+title: IDropSource::QueryContinueDrag
 author: windows-driver-content
 description: Determines whether a drag-and-drop operation should be continued, canceled, or completed. You do not call this method directly. The OLE DoDragDrop function calls this method during a drag-and-drop operation.
 old-location: com\idropsource_querycontinuedrag.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 96ea44fc-5046-4e31-abfc-659d8ef3ca8f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IDropSource, IDropSource interface [COM], QueryContinueDrag method, IDropSource::QueryContinueDrag, QueryContinueDrag method [COM], QueryContinueDrag method [COM], IDropSource interface, QueryContinueDrag,IDropSource.QueryContinueDrag, _ole_idropsource_querycontinuedrag, com.idropsource_querycontinuedrag, oleidl/IDropSource::QueryContinueDrag
+ms.keywords: IDropSource interface [COM],QueryContinueDrag method, IDropSource.QueryContinueDrag, IDropSource::QueryContinueDrag, QueryContinueDrag, QueryContinueDrag method [COM], QueryContinueDrag method [COM],IDropSource interface, _ole_idropsource_querycontinuedrag, com.idropsource_querycontinuedrag, oleidl/IDropSource::QueryContinueDrag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDropSource::QueryContinueDrag method
+# IDropSource::QueryContinueDrag
 
 
 ## -description

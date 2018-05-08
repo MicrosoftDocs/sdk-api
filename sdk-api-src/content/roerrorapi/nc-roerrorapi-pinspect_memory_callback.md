@@ -7,8 +7,8 @@ old-location: winrt\pinspect_memory_callback.htm
 old-project: WinRT
 ms.assetid: A5BF207D-BB8D-47C1-8D32-0B6494809E2B
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: PINSPECT_MEMORY_CALLBACK, PINSPECT_MEMORY_CALLBACK callback function [Windows Runtime], roerrorapi/PINSPECT_MEMORY_CALLBACK, winrt.pinspect_memory_callback
+ms.date: 5/4/2018
+ms.keywords: PINSPECT_MEMORY_CALLBACK, PINSPECT_MEMORY_CALLBACK callback, PINSPECT_MEMORY_CALLBACK callback function [Windows Runtime], roerrorapi/PINSPECT_MEMORY_CALLBACK, winrt.pinspect_memory_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PINSPECT_MEMORY_CALLBACK callback
+# PINSPECT_MEMORY_CALLBACK callback function
 
 
 ## -description

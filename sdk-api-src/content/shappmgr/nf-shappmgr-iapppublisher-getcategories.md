@@ -1,14 +1,14 @@
 ---
 UID: NF:shappmgr.IAppPublisher.GetCategories
-title: IAppPublisher::GetCategories method
+title: IAppPublisher::GetCategories
 author: windows-driver-content
 description: Retrieves a structure listing the categories provided by an application publisher.
 old-location: shell\IAppPublisher_GetCategories.htm
 old-project: shell
 ms.assetid: 139a5094-8bb3-4b5d-938d-ba4af5d52d94
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCategories method [Windows Shell], GetCategories method [Windows Shell], IAppPublisher interface, GetCategories,IAppPublisher.GetCategories, IAppPublisher, IAppPublisher interface [Windows Shell], GetCategories method, IAppPublisher::GetCategories, inet_IAppPublisher_GetCategories, shappmgr/IAppPublisher::GetCategories, shell.IAppPublisher_GetCategories
+ms.date: 5/3/2018
+ms.keywords: GetCategories, GetCategories method [Windows Shell], GetCategories method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],GetCategories method, IAppPublisher.GetCategories, IAppPublisher::GetCategories, inet_IAppPublisher_GetCategories, shappmgr/IAppPublisher::GetCategories, shell.IAppPublisher_GetCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAppPublisher::GetCategories method
+# IAppPublisher::GetCategories
 
 
 ## -description

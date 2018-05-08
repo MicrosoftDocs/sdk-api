@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.put_From
-title: IEmailAction::put_From method
+title: IEmailAction::put_From
 author: windows-driver-content
 description: Gets or sets the email address that you want to send the email from.
 old-location: taskschd\iemailaction_from.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: a0e85063-73eb-425a-a306-63ac65ab7ec8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: From property [Task Scheduler], From property [Task Scheduler], IEmailAction interface, IEmailAction, IEmailAction interface [Task Scheduler], From property, IEmailAction.From, IEmailAction::get_From, IEmailAction::put_From, put_From,IEmailAction.put_From, taskschd.iemailaction_from, taskschd/IEmailAction::From, taskschd/IEmailAction::get_From, taskschd/IEmailAction::put_From
+ms.keywords: From property [Task Scheduler], From property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],From property, IEmailAction.From, IEmailAction.put_From, IEmailAction::From, IEmailAction::get_From, IEmailAction::put_From, put_From, taskschd.iemailaction_from, taskschd/IEmailAction::From, taskschd/IEmailAction::get_From, taskschd/IEmailAction::put_From
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEmailAction::put_From method
+# IEmailAction::put_From
 
 
 ## -description

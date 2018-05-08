@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextStrings.DeleteRange
-title: ITextStrings::DeleteRange method
+title: ITextStrings::DeleteRange
 author: windows-driver-content
 description: Deletes the contents of a given range.
 old-location: controls\itextstrings_deleterange.htm
 old-project: Controls
 ms.assetid: 2dd6312a-77ab-4538-a51b-7de49a5457ff
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: DeleteRange method [Windows Controls], DeleteRange method [Windows Controls], ITextStrings interface, DeleteRange,ITextStrings.DeleteRange, ITextStrings, ITextStrings interface [Windows Controls], DeleteRange method, ITextStrings::DeleteRange, controls.itextstrings_deleterange, tom/ITextStrings::DeleteRange
+ms.date: 4/27/2018
+ms.keywords: DeleteRange, DeleteRange method [Windows Controls], DeleteRange method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],DeleteRange method, ITextStrings.DeleteRange, ITextStrings::DeleteRange, controls.itextstrings_deleterange, tom/ITextStrings::DeleteRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStrings::DeleteRange method
+# ITextStrings::DeleteRange
 
 
 ## -description

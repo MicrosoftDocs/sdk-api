@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetMatchingVolume
-title: IEnhancedStorageACT::GetMatchingVolume method
+title: IEnhancedStorageACT::GetMatchingVolume
 author: windows-driver-content
 description: Returns the volume associated with the Addressable Command Target (ACT).
 old-location: enstor\ienhancedstorageact_getmatchingvolume.htm
@@ -8,7 +8,7 @@ old-project: enstor
 ms.assetid: aa5e5d33-0fc8-46bc-b1e8-c2bd341f0b4f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetMatchingVolume method [Enhanced Storage], GetMatchingVolume method [Enhanced Storage], IEnhancedStorageACT interface, GetMatchingVolume,IEnhancedStorageACT.GetMatchingVolume, IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], GetMatchingVolume method, IEnhancedStorageACT::GetMatchingVolume, ehstorapi/IEnhancedStorageACT::GetMatchingVolume, enstor.ienhancedstorageact_getmatchingvolume
+ms.keywords: GetMatchingVolume, GetMatchingVolume method [Enhanced Storage], GetMatchingVolume method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetMatchingVolume method, IEnhancedStorageACT.GetMatchingVolume, IEnhancedStorageACT::GetMatchingVolume, ehstorapi/IEnhancedStorageACT::GetMatchingVolume, enstor.ienhancedstorageact_getmatchingvolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEnhancedStorageACT::GetMatchingVolume method
+# IEnhancedStorageACT::GetMatchingVolume
 
 
 ## -description

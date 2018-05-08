@@ -7,7 +7,7 @@ old-location: security\ncryptstreamupdate.htm
 old-project: SecCNG
 ms.assetid: 417F9267-6055-489C-AF26-BEF5E17CB8B4
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NCryptStreamUpdate, NCryptStreamUpdate function [Security], ncryptprotect/NCryptStreamUpdate, security.ncryptstreamupdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

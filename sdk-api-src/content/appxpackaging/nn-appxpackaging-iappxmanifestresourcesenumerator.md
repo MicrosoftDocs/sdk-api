@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: D76C7512-962F-4AFE-934F-BBC215B5FE99
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxManifestResourcesEnumerator, IAppxManifestResourcesEnumerator interface [App packaging and management], IAppxManifestResourcesEnumerator interface [App packaging and management], described, appxpackaging/IAppxManifestResourcesEnumerator, appxpkg.iappxmanifestresourcesenumerator
+ms.keywords: IAppxManifestResourcesEnumerator, IAppxManifestResourcesEnumerator interface [App packaging and management], IAppxManifestResourcesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestResourcesEnumerator, appxpkg.iappxmanifestresourcesenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 453945d7-11a3-4237-b1c8-928194be558d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IInstallationResult, IInstallationResult interface [Windows Update Agent], IInstallationResult interface [Windows Update Agent], described, wua.iinstallationresult, wuapi/IInstallationResult
+ms.keywords: IInstallationResult, IInstallationResult interface [Windows Update Agent], IInstallationResult interface [Windows Update Agent],described, wua.iinstallationresult, wuapi/IInstallationResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

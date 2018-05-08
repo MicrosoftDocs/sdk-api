@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbContentDescriptor.GetRecordContentNibbles
-title: IDvbContentDescriptor::GetRecordContentNibbles method
+title: IDvbContentDescriptor::GetRecordContentNibbles
 author: windows-driver-content
 description: Gets the two 4-bit fields that make up a DVB-defined identifier for a content descriptor.
 old-location: mstv\idvbcontentdescriptor_getrecordcontentnibbles.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2b05403a-cf9e-4f23-907f-ffb90b6fc5e3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordContentNibbles method [Microsoft TV Technologies], GetRecordContentNibbles method [Microsoft TV Technologies], IDvbContentDescriptor interface, GetRecordContentNibbles,IDvbContentDescriptor.GetRecordContentNibbles, IDvbContentDescriptor, IDvbContentDescriptor interface [Microsoft TV Technologies], GetRecordContentNibbles method, IDvbContentDescriptor::GetRecordContentNibbles, dvbsiparser/IDvbContentDescriptor::GetRecordContentNibbles, mstv.idvbcontentdescriptor_getrecordcontentnibbles
+ms.keywords: GetRecordContentNibbles, GetRecordContentNibbles method [Microsoft TV Technologies], GetRecordContentNibbles method [Microsoft TV Technologies],IDvbContentDescriptor interface, IDvbContentDescriptor interface [Microsoft TV Technologies],GetRecordContentNibbles method, IDvbContentDescriptor.GetRecordContentNibbles, IDvbContentDescriptor::GetRecordContentNibbles, dvbsiparser/IDvbContentDescriptor::GetRecordContentNibbles, mstv.idvbcontentdescriptor_getrecordcontentnibbles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbContentDescriptor::GetRecordContentNibbles method
+# IDvbContentDescriptor::GetRecordContentNibbles
 
 
 ## -description

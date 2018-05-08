@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolListener.StopListen
-title: IWRdsProtocolListener::StopListen method
+title: IWRdsProtocolListener::StopListen
 author: windows-driver-content
 description: Notifies the protocol to stop listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener_stoplisten.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: bfb758e8-3d71-47b9-bf7d-075c0c401177
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolListener, IWRdsProtocolListener interface [Remote Desktop Services], StopListen method, IWRdsProtocolListener::StopListen, StopListen method [Remote Desktop Services], StopListen method [Remote Desktop Services], IWRdsProtocolListener interface, StopListen,IWRdsProtocolListener.StopListen, termserv.iwrdsprotocollistener_stoplisten, wtsprotocol/IWRdsProtocolListener::StopListen
+ms.keywords: IWRdsProtocolListener interface [Remote Desktop Services],StopListen method, IWRdsProtocolListener.StopListen, IWRdsProtocolListener::StopListen, StopListen, StopListen method [Remote Desktop Services], StopListen method [Remote Desktop Services],IWRdsProtocolListener interface, termserv.iwrdsprotocollistener_stoplisten, wtsprotocol/IWRdsProtocolListener::StopListen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolListener::StopListen method
+# IWRdsProtocolListener::StopListen
 
 
 ## -description

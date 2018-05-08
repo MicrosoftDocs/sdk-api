@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTimecodeDisplay.SetTCDisplay
-title: IAMTimecodeDisplay::SetTCDisplay method
+title: IAMTimecodeDisplay::SetTCDisplay
 author: windows-driver-content
 description: The SetTCDisplay method sets the timecode character generator output characteristics.
 old-location: dshow\iamtimecodedisplay_settcdisplay.htm
 old-project: DirectShow
 ms.assetid: 34d55c5a-d213-4fb2-b81c-b117d025f3ec
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTimecodeDisplay, IAMTimecodeDisplay interface [DirectShow], SetTCDisplay method, IAMTimecodeDisplay::SetTCDisplay, IAMTimecodeDisplaySetTCDisplay, SetTCDisplay method [DirectShow], SetTCDisplay method [DirectShow], IAMTimecodeDisplay interface, SetTCDisplay,IAMTimecodeDisplay.SetTCDisplay, dshow.iamtimecodedisplay_settcdisplay, strmif/IAMTimecodeDisplay::SetTCDisplay
+ms.date: 4/30/2018
+ms.keywords: IAMTimecodeDisplay interface [DirectShow],SetTCDisplay method, IAMTimecodeDisplay.SetTCDisplay, IAMTimecodeDisplay::SetTCDisplay, IAMTimecodeDisplaySetTCDisplay, SetTCDisplay, SetTCDisplay method [DirectShow], SetTCDisplay method [DirectShow],IAMTimecodeDisplay interface, dshow.iamtimecodedisplay_settcdisplay, strmif/IAMTimecodeDisplay::SetTCDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTimecodeDisplay::SetTCDisplay method
+# IAMTimecodeDisplay::SetTCDisplay
 
 
 ## -description

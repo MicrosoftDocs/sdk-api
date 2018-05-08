@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 1E008D8E-B28A-4E79-9653-587DF0CB5DD7
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetBottomLeftRadiusX, SetBottomLeftRadiusX methods [DirectComposition], dcomp/SetBottomLeftRadiusX, directcomp.idcompositionrectangleclip_setbottomleftradiusx
+ms.keywords: IDCompositionRectangleClip::SetBottomLeftRadiusX, SetBottomLeftRadiusX, SetBottomLeftRadiusX methods [DirectComposition], dcomp/SetBottomLeftRadiusX, directcomp.idcompositionrectangleclip_setbottomleftradiusx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

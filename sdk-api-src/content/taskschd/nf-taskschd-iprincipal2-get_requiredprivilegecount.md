@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal2.get_RequiredPrivilegeCount
-title: IPrincipal2::get_RequiredPrivilegeCount method
+title: IPrincipal2::get_RequiredPrivilegeCount
 author: windows-driver-content
 description: Gets the number of privileges in the required privileges array.
 old-location: taskschd\iprincipal2_requiredprivilegecount.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: b80cb1ad-8d28-4e38-82c4-92f1ce8fbc55
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPrincipal2, IPrincipal2 interface [Task Scheduler], RequiredPrivilegeCount property, IPrincipal2.RequiredPrivilegeCount, IPrincipal2::get_RequiredPrivilegeCount, RequiredPrivilegeCount property [Task Scheduler], RequiredPrivilegeCount property [Task Scheduler], IPrincipal2 interface, get_RequiredPrivilegeCount,IPrincipal2.get_RequiredPrivilegeCount, taskschd.iprincipal2_requiredprivilegecount, taskschd/IPrincipal2::RequiredPrivilegeCount, taskschd/IPrincipal2::get_RequiredPrivilegeCount
+ms.keywords: IPrincipal2 interface [Task Scheduler],RequiredPrivilegeCount property, IPrincipal2.RequiredPrivilegeCount, IPrincipal2.get_RequiredPrivilegeCount, IPrincipal2::RequiredPrivilegeCount, IPrincipal2::get_RequiredPrivilegeCount, RequiredPrivilegeCount property [Task Scheduler], RequiredPrivilegeCount property [Task Scheduler],IPrincipal2 interface, get_RequiredPrivilegeCount, taskschd.iprincipal2_requiredprivilegecount, taskschd/IPrincipal2::RequiredPrivilegeCount, taskschd/IPrincipal2::get_RequiredPrivilegeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IPrincipal2::get_RequiredPrivilegeCount method
+# IPrincipal2::get_RequiredPrivilegeCount
 
 
 ## -description

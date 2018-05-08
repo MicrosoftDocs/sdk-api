@@ -7,7 +7,7 @@ old-location: iphlp\notifyroutechange.htm
 old-project: IpHlp
 ms.assetid: 39f2ec4d-131a-4a0a-9740-0d96aaea2dc7
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: NotifyRouteChange, NotifyRouteChange function [IP Helper], _iphlp_notifyroutechange, iphlp.notifyroutechange, iphlpapi/NotifyRouteChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

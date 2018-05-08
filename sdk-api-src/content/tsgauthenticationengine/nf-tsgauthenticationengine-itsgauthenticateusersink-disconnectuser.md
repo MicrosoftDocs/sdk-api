@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.DisconnectUser
-title: ITSGAuthenticateUserSink::DisconnectUser method
+title: ITSGAuthenticateUserSink::DisconnectUser
 author: windows-driver-content
 description: Notifies Remote Desktop Gateway (RD Gateway) that it should disconnect the client.
 old-location: termserv\itsgauthenticateusersink_disconnectuser.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 03385453-066d-40a9-bcbb-9623e4fdfadc
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DisconnectUser method [Remote Desktop Services], DisconnectUser method [Remote Desktop Services], ITSGAuthenticateUserSink interface, DisconnectUser,ITSGAuthenticateUserSink.DisconnectUser, ITSGAuthenticateUserSink, ITSGAuthenticateUserSink interface [Remote Desktop Services], DisconnectUser method, ITSGAuthenticateUserSink::DisconnectUser, termserv.itsgauthenticateusersink_disconnectuser, tsgauthenticationengine/ITSGAuthenticateUserSink::DisconnectUser
+ms.keywords: DisconnectUser, DisconnectUser method [Remote Desktop Services], DisconnectUser method [Remote Desktop Services],ITSGAuthenticateUserSink interface, ITSGAuthenticateUserSink interface [Remote Desktop Services],DisconnectUser method, ITSGAuthenticateUserSink.DisconnectUser, ITSGAuthenticateUserSink::DisconnectUser, termserv.itsgauthenticateusersink_disconnectuser, tsgauthenticationengine/ITSGAuthenticateUserSink::DisconnectUser
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITSGAuthenticateUserSink::DisconnectUser method
+# ITSGAuthenticateUserSink::DisconnectUser
 
 
 ## -description

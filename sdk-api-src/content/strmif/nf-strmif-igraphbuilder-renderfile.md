@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IGraphBuilder.RenderFile
-title: IGraphBuilder::RenderFile method
+title: IGraphBuilder::RenderFile
 author: windows-driver-content
 description: The RenderFile method builds a filter graph that renders the specified file.
 old-location: dshow\igraphbuilder_renderfile.htm
 old-project: DirectShow
 ms.assetid: 449aec08-c03e-41d6-8c04-0e871e532d11
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IGraphBuilder, IGraphBuilder interface [DirectShow], RenderFile method, IGraphBuilder::RenderFile, IGraphBuilderRenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow], IGraphBuilder interface, RenderFile,IGraphBuilder.RenderFile, dshow.igraphbuilder_renderfile, strmif/IGraphBuilder::RenderFile
+ms.date: 4/30/2018
+ms.keywords: IGraphBuilder interface [DirectShow],RenderFile method, IGraphBuilder.RenderFile, IGraphBuilder::RenderFile, IGraphBuilderRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_renderfile, strmif/IGraphBuilder::RenderFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IGraphBuilder::RenderFile method
+# IGraphBuilder::RenderFile
 
 
 ## -description

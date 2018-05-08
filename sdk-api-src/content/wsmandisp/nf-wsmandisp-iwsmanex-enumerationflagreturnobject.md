@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagReturnObject
-title: IWSManEx::EnumerationFlagReturnObject method
+title: IWSManEx::EnumerationFlagReturnObject
 author: windows-driver-content
 description: Returns the value of the enumeration constant EnumerationFlagReturnObject for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflagreturnobject.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 19993342-a805-4d92-ac80-40f568b53800
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EnumerationFlagReturnObject method [Windows Remote Management], EnumerationFlagReturnObject method [Windows Remote Management], IWSManEx interface, EnumerationFlagReturnObject,IWSManEx.EnumerationFlagReturnObject, IWSManEx, IWSManEx interface [Windows Remote Management], EnumerationFlagReturnObject method, IWSManEx::EnumerationFlagReturnObject, winrm.iwsmanex_enumerationflagreturnobject, wsmandisp/IWSManEx::EnumerationFlagReturnObject
+ms.keywords: EnumerationFlagReturnObject, EnumerationFlagReturnObject method [Windows Remote Management], EnumerationFlagReturnObject method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagReturnObject method, IWSManEx.EnumerationFlagReturnObject, IWSManEx::EnumerationFlagReturnObject, winrm.iwsmanex_enumerationflagreturnobject, wsmandisp/IWSManEx::EnumerationFlagReturnObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx::EnumerationFlagReturnObject method
+# IWSManEx::EnumerationFlagReturnObject
 
 
 ## -description

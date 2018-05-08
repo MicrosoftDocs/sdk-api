@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunnableObject.LockRunning
-title: IRunnableObject::LockRunning method
+title: IRunnableObject::LockRunning
 author: windows-driver-content
 description: Locks an already running object into its running state or unlocks it from its running state.
 old-location: com\irunnableobject_lockrunning.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ce501785-16ad-4120-abea-41e2d6ca67df
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IRunnableObject, IRunnableObject interface [COM], LockRunning method, IRunnableObject::LockRunning, LockRunning method [COM], LockRunning method [COM], IRunnableObject interface, LockRunning,IRunnableObject.LockRunning, _com_irunnableobject_lockrunning, com.irunnableobject_lockrunning, objidl/IRunnableObject::LockRunning
+ms.keywords: IRunnableObject interface [COM],LockRunning method, IRunnableObject.LockRunning, IRunnableObject::LockRunning, LockRunning, LockRunning method [COM], LockRunning method [COM],IRunnableObject interface, _com_irunnableobject_lockrunning, com.irunnableobject_lockrunning, objidl/IRunnableObject::LockRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRunnableObject::LockRunning method
+# IRunnableObject::LockRunning
 
 
 ## -description

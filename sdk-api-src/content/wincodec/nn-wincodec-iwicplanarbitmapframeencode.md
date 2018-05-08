@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 7ACA58CC-E132-4836-B955-322375ADDAA1
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICPlanarBitmapFrameEncode, IWICPlanarBitmapFrameEncode interface [Windows Imaging Component], IWICPlanarBitmapFrameEncode interface [Windows Imaging Component], described, wic.iwicplanarbitmapframeencode, wincodec/IWICPlanarBitmapFrameEncode
+ms.keywords: IWICPlanarBitmapFrameEncode, IWICPlanarBitmapFrameEncode interface [Windows Imaging Component], IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],described, wic.iwicplanarbitmapframeencode, wincodec/IWICPlanarBitmapFrameEncode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

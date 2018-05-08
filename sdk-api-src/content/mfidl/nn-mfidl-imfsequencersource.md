@@ -7,8 +7,8 @@ old-location: mf\imfsequencersource.htm
 old-project: medfound
 ms.assetid: ba5e8e7b-5b0e-4807-a459-75bd5727d1e2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSequencerSource, IMFSequencerSource interface [Media Foundation], IMFSequencerSource interface [Media Foundation], described, ba5e8e7b-5b0e-4807-a459-75bd5727d1e2, mf.imfsequencersource, mfidl/IMFSequencerSource
+ms.date: 5/3/2018
+ms.keywords: IMFSequencerSource, IMFSequencerSource interface [Media Foundation], IMFSequencerSource interface [Media Foundation],described, ba5e8e7b-5b0e-4807-a459-75bd5727d1e2, mf.imfsequencersource, mfidl/IMFSequencerSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

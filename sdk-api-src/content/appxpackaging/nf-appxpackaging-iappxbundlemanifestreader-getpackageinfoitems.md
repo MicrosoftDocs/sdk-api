@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestReader.GetPackageInfoItems
-title: IAppxBundleManifestReader::GetPackageInfoItems method
+title: IAppxBundleManifestReader::GetPackageInfoItems
 author: windows-driver-content
 description: Retrieves an enumerator over all the &lt;Package&gt; elements under the &lt;Packages&gt; element.
 old-location: appxpkg\iappxbundlemanifestreader_getpackageinfoitems.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: D216C27E-5B73-49B5-90A8-11187C129264
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPackageInfoItems method [App packaging and management], GetPackageInfoItems method [App packaging and management], IAppxBundleManifestReader interface, GetPackageInfoItems,IAppxBundleManifestReader.GetPackageInfoItems, IAppxBundleManifestReader, IAppxBundleManifestReader interface [App packaging and management], GetPackageInfoItems method, IAppxBundleManifestReader::GetPackageInfoItems, appxpackaging/IAppxBundleManifestReader::GetPackageInfoItems, appxpkg.iappxbundlemanifestreader_getpackageinfoitems
+ms.keywords: GetPackageInfoItems, GetPackageInfoItems method [App packaging and management], GetPackageInfoItems method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetPackageInfoItems method, IAppxBundleManifestReader.GetPackageInfoItems, IAppxBundleManifestReader::GetPackageInfoItems, appxpackaging/IAppxBundleManifestReader::GetPackageInfoItems, appxpkg.iappxbundlemanifestreader_getpackageinfoitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleManifestReader::GetPackageInfoItems method
+# IAppxBundleManifestReader::GetPackageInfoItems
 
 
 ## -description

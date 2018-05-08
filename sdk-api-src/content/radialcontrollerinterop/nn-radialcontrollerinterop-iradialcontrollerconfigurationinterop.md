@@ -8,7 +8,7 @@ old-project: Input_Radial
 ms.assetid: eb8672c1-a7e6-45f5-a61f-3bee67f5ff5e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRadialControllerConfigurationInterop, IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface, described, Input_Radial.iradialcontrollerconfigurationinterop, radialcontrollerinterop/IRadialControllerConfigurationInterop
+ms.keywords: IRadialControllerConfigurationInterop, IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,described, Input_Radial.iradialcontrollerconfigurationinterop, radialcontrollerinterop/IRadialControllerConfigurationInterop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

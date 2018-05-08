@@ -200,6 +200,34 @@ The IP version being used.
 The IP protocol specified as an IPPROTO value. See the <a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a> reference topic for more information on possible protocol values.
 
 
+### -field localAddrV4
+
+The IPv4 local address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field localAddrV6
+
+The IPv6 local address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
+### -field remoteAddrV4
+
+The IPv4 remote address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field remoteAddrV6
+
+The IPv6 remote address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
 ### -field localPort
 
 The local port.
@@ -250,34 +278,6 @@ The policy flags for EDP.
 ### -field effectiveName
 
 The EDP remote server used for name-based policy.
-
-
-#### - localAddrV4
-
-The IPv4 local address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - localAddrV6
-
-The IPv6 local address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
-
-
-#### - remoteAddrV4
-
-The IPv4 remote address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - remoteAddrV6
-
-The IPv6 remote address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 
 ## -see-also

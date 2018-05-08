@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingunbind.htm
 old-project: Rpc
 ms.assetid: a9e30764-22ea-4dbf-9311-f37bd55ed2c4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcBindingUnbind, RpcBindingUnbind function [RPC], rpc.rpcbindingunbind, rpcasync/RpcBindingUnbind
 ms.prod: windows-hardware
 ms.technology: windows-devices

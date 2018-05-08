@@ -129,102 +129,102 @@ Type: <b><a href="https://msdn.microsoft.com/e8eae5e7-9240-47a5-851b-1ec51cb07b6
 The type of provider context.
 
 
-### -field providerContextId
+### -field keyingPolicy
 
-Type: <b>UINT64</b>
+Type: <b><a href="https://msdn.microsoft.com/4b574e1c-ce0f-4c72-a14b-5ca0ed8aa005">IPSEC_KEYING_POLICY1</a>*</b>
 
-LUID identifying the context.  This is the context value stored in the <b>FWPS_FILTER1</b> structure for filters that reference a provider context. The <b>FWPS_FILTER1</b> structure is documented in the WDK.
-
-
-#### - authIpMmPolicy
-
-Type: <b><a href="https://msdn.microsoft.com/d6efc1dd-3127-44d0-9f6a-ebf7cba477aa">IKEEXT_POLICY2</a>*</b>
-
-Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_MM_CONTEXT</b>.
+Available when <b>type</b> is <b>FWPM_IPSEC_KEYING_CONTEXT</b>.
 
 
-#### - authipQmTransportPolicy
-
-Type: <b><a href="https://msdn.microsoft.com/fce0ce7e-770c-4cc6-94ea-21af0464f740">IPSEC_TRANSPORT_POLICY2</a>*</b>
-
- [case()][unique] 
-
-
-#### - authipQmTunnelPolicy
-
-Type: <b><a href="https://msdn.microsoft.com/a633505d-86ec-42ba-bb4c-3f61e8768eab">IPSEC_TUNNEL_POLICY2</a>*</b>
-
-Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_QM_TRANSPORT_CONTEXT</b>.
-
-
-#### - classifyOptions
-
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff550079">FWPM_CLASSIFY_OPTIONS0</a>*</b>
-
-Available when <b>type</b> is <b>FWPM_CLASSIFY_OPTIONS_CONTEXT</b>.
-
-
-#### - dataBuffer
-
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>*</b>
-
-Available when <b>type</b> is <b>FWPM_GENERAL_CONTEXT</b>.
-
-
-#### - idpOptions
-
-Type: <b><a href="https://msdn.microsoft.com/7f180a05-ce8a-4f3b-8e97-d0b6f7f9f8ca">IPSEC_DOSP_OPTIONS0</a>*</b>
-
-Available when <b>type</b> is <b>FWPM_IPSEC_DOSP_CONTEXT</b>.
-
-
-#### - ikeMmPolicy
-
-Type: <b><a href="https://msdn.microsoft.com/d6efc1dd-3127-44d0-9f6a-ebf7cba477aa">IKEEXT_POLICY2</a>*</b>
-
-Available when <b>type</b> is <b>FWPM_IPSEC_IKE_MM_CONTEXT</b>.
-
-
-#### - ikeQmTransportPolicy
+### -field ikeQmTransportPolicy
 
 Type: <b><a href="https://msdn.microsoft.com/fce0ce7e-770c-4cc6-94ea-21af0464f740">IPSEC_TRANSPORT_POLICY2</a>*</b>
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKE_QM_TRANSPORT_CONTEXT</b>.
 
 
-#### - ikeQmTunnelPolicy
+### -field ikeQmTunnelPolicy
 
 Type: <b><a href="https://msdn.microsoft.com/a633505d-86ec-42ba-bb4c-3f61e8768eab">IPSEC_TUNNEL_POLICY2</a>*</b>
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKE_QM_TUNNEL_CONTEXT</b>.
 
 
-#### - ikeV2MmPolicy
-
-Type: <b><a href="https://msdn.microsoft.com/d6efc1dd-3127-44d0-9f6a-ebf7cba477aa">IKEEXT_POLICY2</a>*</b>
-
-Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_MM_CONTEXT</b>.
-
-
-#### - ikeV2QmTransportPolicy
+### -field authipQmTransportPolicy
 
 Type: <b><a href="https://msdn.microsoft.com/fce0ce7e-770c-4cc6-94ea-21af0464f740">IPSEC_TRANSPORT_POLICY2</a>*</b>
 
-Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_QM_TRANSPORT_CONTEXT</b>.
+ [case()][unique] 
 
 
-#### - ikeV2QmTunnelPolicy
+### -field authipQmTunnelPolicy
+
+Type: <b><a href="https://msdn.microsoft.com/a633505d-86ec-42ba-bb4c-3f61e8768eab">IPSEC_TUNNEL_POLICY2</a>*</b>
+
+Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_QM_TRANSPORT_CONTEXT</b>.
+
+
+### -field ikeMmPolicy
+
+Type: <b><a href="https://msdn.microsoft.com/d6efc1dd-3127-44d0-9f6a-ebf7cba477aa">IKEEXT_POLICY2</a>*</b>
+
+Available when <b>type</b> is <b>FWPM_IPSEC_IKE_MM_CONTEXT</b>.
+
+
+### -field authIpMmPolicy
+
+Type: <b><a href="https://msdn.microsoft.com/d6efc1dd-3127-44d0-9f6a-ebf7cba477aa">IKEEXT_POLICY2</a>*</b>
+
+Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_MM_CONTEXT</b>.
+
+
+### -field dataBuffer
+
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>*</b>
+
+Available when <b>type</b> is <b>FWPM_GENERAL_CONTEXT</b>.
+
+
+### -field classifyOptions
+
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff550079">FWPM_CLASSIFY_OPTIONS0</a>*</b>
+
+Available when <b>type</b> is <b>FWPM_CLASSIFY_OPTIONS_CONTEXT</b>.
+
+
+### -field ikeV2QmTunnelPolicy
 
 Type: <b><a href="https://msdn.microsoft.com/a633505d-86ec-42ba-bb4c-3f61e8768eab">IPSEC_TUNNEL_POLICY2</a>*</b>
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_QM_TUNNEL_CONTEXT</b>.
 
 
-#### - keyingPolicy
+### -field ikeV2QmTransportPolicy
 
-Type: <b><a href="https://msdn.microsoft.com/4b574e1c-ce0f-4c72-a14b-5ca0ed8aa005">IPSEC_KEYING_POLICY1</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/fce0ce7e-770c-4cc6-94ea-21af0464f740">IPSEC_TRANSPORT_POLICY2</a>*</b>
 
-Available when <b>type</b> is <b>FWPM_IPSEC_KEYING_CONTEXT</b>.
+Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_QM_TRANSPORT_CONTEXT</b>.
+
+
+### -field ikeV2MmPolicy
+
+Type: <b><a href="https://msdn.microsoft.com/d6efc1dd-3127-44d0-9f6a-ebf7cba477aa">IKEEXT_POLICY2</a>*</b>
+
+Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_MM_CONTEXT</b>.
+
+
+### -field idpOptions
+
+Type: <b><a href="https://msdn.microsoft.com/7f180a05-ce8a-4f3b-8e97-d0b6f7f9f8ca">IPSEC_DOSP_OPTIONS0</a>*</b>
+
+Available when <b>type</b> is <b>FWPM_IPSEC_DOSP_CONTEXT</b>.
+
+
+### -field providerContextId
+
+Type: <b>UINT64</b>
+
+LUID identifying the context.  This is the context value stored in the <b>FWPS_FILTER1</b> structure for filters that reference a provider context. The <b>FWPS_FILTER1</b> structure is documented in the WDK.
 
 
 ## -remarks

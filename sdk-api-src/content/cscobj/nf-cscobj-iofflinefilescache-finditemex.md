@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.FindItemEx
-title: IOfflineFilesCache::FindItemEx method
+title: IOfflineFilesCache::FindItemEx
 author: windows-driver-content
 description: Locates a particular file or directory item in the cache.
 old-location: of\iofflinefilescache_finditemex.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: f7a247c0-1bb2-40d5-8914-758c8f6c4c51
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: FindItemEx method [Offline Files], FindItemEx method [Offline Files], IOfflineFilesCache interface, FindItemEx,IOfflineFilesCache.FindItemEx, IOfflineFilesCache, IOfflineFilesCache interface [Offline Files], FindItemEx method, IOfflineFilesCache::FindItemEx, OFFLINEFILES_ITEM_QUERY_ADMIN, OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE, OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE, OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEINFO, cscobj/IOfflineFilesCache::FindItemEx, of.iofflinefilescache_finditemex
+ms.keywords: FindItemEx, FindItemEx method [Offline Files], FindItemEx method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],FindItemEx method, IOfflineFilesCache.FindItemEx, IOfflineFilesCache::FindItemEx, OFFLINEFILES_ITEM_QUERY_ADMIN, OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE, OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE, OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEINFO, cscobj/IOfflineFilesCache::FindItemEx, of.iofflinefilescache_finditemex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesCache::FindItemEx method
+# IOfflineFilesCache::FindItemEx
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoPresenter.GetCurrentMediaType
-title: IMFVideoPresenter::GetCurrentMediaType method
+title: IMFVideoPresenter::GetCurrentMediaType
 author: windows-driver-content
 description: Retrieves the presenter's media type.
 old-location: mf\imfvideopresenter_getcurrentmediatype.htm
 old-project: medfound
 ms.assetid: 4b8f0e56-35de-4b4f-9897-32a7e14171c8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 4b8f0e56-35de-4b4f-9897-32a7e14171c8, GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation], IMFVideoPresenter interface, GetCurrentMediaType,IMFVideoPresenter.GetCurrentMediaType, IMFVideoPresenter, IMFVideoPresenter interface [Media Foundation], GetCurrentMediaType method, IMFVideoPresenter::GetCurrentMediaType, evr/IMFVideoPresenter::GetCurrentMediaType, mf.imfvideopresenter_getcurrentmediatype
+ms.date: 5/3/2018
+ms.keywords: 4b8f0e56-35de-4b4f-9897-32a7e14171c8, GetCurrentMediaType, GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation],IMFVideoPresenter interface, IMFVideoPresenter interface [Media Foundation],GetCurrentMediaType method, IMFVideoPresenter.GetCurrentMediaType, IMFVideoPresenter::GetCurrentMediaType, evr/IMFVideoPresenter::GetCurrentMediaType, mf.imfvideopresenter_getcurrentmediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoPresenter::GetCurrentMediaType method
+# IMFVideoPresenter::GetCurrentMediaType
 
 
 ## -description

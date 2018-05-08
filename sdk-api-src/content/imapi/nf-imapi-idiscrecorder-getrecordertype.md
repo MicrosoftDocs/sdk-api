@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetRecorderType
-title: IDiscRecorder::GetRecorderType method
+title: IDiscRecorder::GetRecorderType
 author: windows-driver-content
 description: Determines whether the disc recorder is a CD-R or CD-RW type device. This does not indicate the type of media that is currently inserted in the device.
 old-location: imapi\idiscrecorder_getrecordertype.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 287516b5-5d27-4277-8bc4-e2409b2a8cd7
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRecorderType method [IMAPI], GetRecorderType method [IMAPI], IDiscRecorder interface, GetRecorderType,IDiscRecorder.GetRecorderType, IDiscRecorder, IDiscRecorder interface [IMAPI], GetRecorderType method, IDiscRecorder::GetRecorderType, RECORDER_CDR, RECORDER_CDRW, _win32_idiscrecorder_getrecordertype, base.idiscrecorder_getrecordertype, imapi.idiscrecorder_getrecordertype, imapi/IDiscRecorder::GetRecorderType
+ms.keywords: GetRecorderType, GetRecorderType method [IMAPI], GetRecorderType method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderType method, IDiscRecorder.GetRecorderType, IDiscRecorder::GetRecorderType, RECORDER_CDR, RECORDER_CDRW, _win32_idiscrecorder_getrecordertype, base.idiscrecorder_getrecordertype, imapi.idiscrecorder_getrecordertype, imapi/IDiscRecorder::GetRecorderType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder::GetRecorderType method
+# IDiscRecorder::GetRecorderType
 
 
 ## -description

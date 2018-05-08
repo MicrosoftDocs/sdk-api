@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.get_HWND
-title: IRealTimeStylus::get_HWND method
+title: IRealTimeStylus::get_HWND
 author: windows-driver-content
 description: Gets or sets the handle value associated with the window the RealTimeStylus object uses.
 old-location: tablet\irealtimestylus_hwnd.htm
 old-project: tablet
 ms.assetid: b6bc8053-80fa-45f3-8096-272b471a5f6d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: HWND property [Tablet PC], HWND property [Tablet PC], IRealTimeStylus interface, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], HWND property, IRealTimeStylus.HWND, IRealTimeStylus.get_HWND, IRealTimeStylus.put_HWND, IRealTimeStylus::get_HWND, IRealTimeStylus::put_HWND, b6bc8053-80fa-45f3-8096-272b471a5f6d, get_HWND,IRealTimeStylus.get_HWND, rtscom/IRealTimeStylus::HWND, rtscom/IRealTimeStylus::get_HWND, rtscom/IRealTimeStylus::put_HWND, tablet.irealtimestylus_hwnd
+ms.date: 5/2/2018
+ms.keywords: HWND property [Tablet PC], HWND property [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],HWND property, IRealTimeStylus.HWND, IRealTimeStylus.get_HWND, IRealTimeStylus.put_HWND, IRealTimeStylus::HWND, IRealTimeStylus::get_HWND, IRealTimeStylus::put_HWND, b6bc8053-80fa-45f3-8096-272b471a5f6d, get_HWND, rtscom/IRealTimeStylus::HWND, rtscom/IRealTimeStylus::get_HWND, rtscom/IRealTimeStylus::put_HWND, tablet.irealtimestylus_hwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylus::get_HWND method
+# IRealTimeStylus::get_HWND
 
 
 ## -description

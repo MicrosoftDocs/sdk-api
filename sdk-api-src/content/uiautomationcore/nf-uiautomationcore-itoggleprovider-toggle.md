@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IToggleProvider.Toggle
-title: IToggleProvider::Toggle method
+title: IToggleProvider::Toggle
 author: windows-driver-content
 description: Cycles through the toggle states of a control.
 old-location: winauto\uiauto_IToggleProvider_Toggle.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: afadbcaf-156f-496e-a0f3-900e7f8d44da
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IToggleProvider, IToggleProvider interface [Windows Accessibility], Toggle method, IToggleProvider::Toggle, Toggle method [Windows Accessibility], Toggle method [Windows Accessibility], IToggleProvider interface, Toggle,IToggleProvider.Toggle, uiauto.uiauto_IToggleProvider_Toggle, uiauto_IToggleProvider_Toggle, uiautomationcore/IToggleProvider::Toggle, winauto.uiauto_IToggleProvider_Toggle
+ms.keywords: IToggleProvider interface [Windows Accessibility],Toggle method, IToggleProvider.Toggle, IToggleProvider::Toggle, Toggle, Toggle method [Windows Accessibility], Toggle method [Windows Accessibility],IToggleProvider interface, uiauto.uiauto_IToggleProvider_Toggle, uiauto_IToggleProvider_Toggle, uiautomationcore/IToggleProvider::Toggle, winauto.uiauto_IToggleProvider_Toggle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IToggleProvider::Toggle method
+# IToggleProvider::Toggle
 
 
 ## -description

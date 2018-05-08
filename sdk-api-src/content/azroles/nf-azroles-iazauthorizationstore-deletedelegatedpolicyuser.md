@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeleteDelegatedPolicyUser
-title: IAzAuthorizationStore::DeleteDelegatedPolicyUser method
+title: IAzAuthorizationStore::DeleteDelegatedPolicyUser
 author: windows-driver-content
 description: Removes the specified security identifier (SID) in text form from the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_deletedelegatedpolicyuser.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: cb00abca-7116-4a71-aed0-87ed9caff0fb
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzAuthorizationStore object [Security], DeleteDelegatedPolicyUser method, DeleteDelegatedPolicyUser method [Security], DeleteDelegatedPolicyUser method [Security], AzAuthorizationStore object, DeleteDelegatedPolicyUser method [Security], IAzAuthorizationStore interface, DeleteDelegatedPolicyUser,IAzAuthorizationStore.DeleteDelegatedPolicyUser, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], DeleteDelegatedPolicyUser method, IAzAuthorizationStore::DeleteDelegatedPolicyUser, azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUser, security.azauthorizationstore_deletedelegatedpolicyuser
+ms.keywords: AzAuthorizationStore object [Security],DeleteDelegatedPolicyUser method, DeleteDelegatedPolicyUser, DeleteDelegatedPolicyUser method [Security], DeleteDelegatedPolicyUser method [Security],AzAuthorizationStore object, DeleteDelegatedPolicyUser method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeleteDelegatedPolicyUser method, IAzAuthorizationStore.DeleteDelegatedPolicyUser, IAzAuthorizationStore::DeleteDelegatedPolicyUser, azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUser, security.azauthorizationstore_deletedelegatedpolicyuser
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::DeleteDelegatedPolicyUser method
+# IAzAuthorizationStore::DeleteDelegatedPolicyUser
 
 
 ## -description

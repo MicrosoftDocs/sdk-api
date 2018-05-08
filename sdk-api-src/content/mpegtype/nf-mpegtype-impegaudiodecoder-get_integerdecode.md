@@ -1,14 +1,14 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_IntegerDecode
-title: IMpegAudioDecoder::get_IntegerDecode method
+title: IMpegAudioDecoder::get_IntegerDecode
 author: windows-driver-content
 description: Returns whether the decoder is currently using integer-based decoding as opposed to floating point decoding.
 old-location: dshow\impegaudiodecoder_get_integerdecode.htm
 old-project: DirectShow
 ms.assetid: 3cb73c5a-8bca-4dc3-a48c-cac57f3d7fbf
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], get_IntegerDecode method, IMpegAudioDecoder::get_IntegerDecode, IMpegAudioDecodergetIntegerDecode, dshow.impegaudiodecoder_get_integerdecode, get_IntegerDecode method [DirectShow], get_IntegerDecode method [DirectShow], IMpegAudioDecoder interface, get_IntegerDecode,IMpegAudioDecoder.get_IntegerDecode, mpegtype/IMpegAudioDecoder::get_IntegerDecode
+ms.date: 4/30/2018
+ms.keywords: IMpegAudioDecoder interface [DirectShow],get_IntegerDecode method, IMpegAudioDecoder.get_IntegerDecode, IMpegAudioDecoder::get_IntegerDecode, IMpegAudioDecodergetIntegerDecode, dshow.impegaudiodecoder_get_integerdecode, get_IntegerDecode, get_IntegerDecode method [DirectShow], get_IntegerDecode method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_IntegerDecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMpegAudioDecoder::get_IntegerDecode method
+# IMpegAudioDecoder::get_IntegerDecode
 
 
 ## -description

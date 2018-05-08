@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetSourceUri
-title: IOpcSignatureRelationshipReference::GetSourceUri method
+title: IOpcSignatureRelationshipReference::GetSourceUri
 author: windows-driver-content
 description: Gets the source URI of the relationships that are stored in the referenced&#160;Relationships part.
 old-location: opc\iopcsignaturerelationshipreference_getsourceuri.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: d08cfbf0-0917-4ca4-85be-5ca62d7029d0
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions], IOpcSignatureRelationshipReference interface, GetSourceUri,IOpcSignatureRelationshipReference.GetSourceUri, IOpcSignatureRelationshipReference, IOpcSignatureRelationshipReference interface [Open Packaging Conventions], GetSourceUri method, IOpcSignatureRelationshipReference::GetSourceUri, msopc/IOpcSignatureRelationshipReference::GetSourceUri, opc.iopcsignaturerelationshipreference_getsourceuri
+ms.keywords: GetSourceUri, GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetSourceUri method, IOpcSignatureRelationshipReference.GetSourceUri, IOpcSignatureRelationshipReference::GetSourceUri, msopc/IOpcSignatureRelationshipReference::GetSourceUri, opc.iopcsignaturerelationshipreference_getsourceuri
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureRelationshipReference::GetSourceUri method
+# IOpcSignatureRelationshipReference::GetSourceUri
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPStringCollection.get_count
-title: IWMPStringCollection::get_count method
+title: IWMPStringCollection::get_count
 author: windows-driver-content
 description: The get_count method retrieves the number of items in the string collection.
 old-location: wmp\iwmpstringcollection_get_count.htm
 old-project: WMP
 ms.assetid: 97865752-e4bf-4f91-b481-22d9c8b3e090
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPStringCollection, IWMPStringCollection interface [Windows Media Player], get_count method, IWMPStringCollection::get_count, IWMPStringCollectionget_count, get_count method [Windows Media Player], get_count method [Windows Media Player], IWMPStringCollection interface, get_count,IWMPStringCollection.get_count, wmp.iwmpstringcollection_get_count, wmp/IWMPStringCollection::get_count
+ms.date: 5/4/2018
+ms.keywords: IWMPStringCollection interface [Windows Media Player],get_count method, IWMPStringCollection.get_count, IWMPStringCollection::get_count, IWMPStringCollectionget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPStringCollection interface, wmp.iwmpstringcollection_get_count, wmp/IWMPStringCollection::get_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPStringCollection::get_count method
+# IWMPStringCollection::get_count
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.put_InputType
-title: IAnalogTVTuningSpace::put_InputType method
+title: IAnalogTVTuningSpace::put_InputType
 author: windows-driver-content
 description: The put_InputType method sets the input type (antenna or cable) intended for the tuning space.
 old-location: mstv\ianalogtvtuningspace_put_inputtype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 399503a2-60e9-4feb-ba69-cafef70b2540
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAnalogTVTuningSpace, IAnalogTVTuningSpace interface [Microsoft TV Technologies], put_InputType method, IAnalogTVTuningSpace::put_InputType, IAnalogTVTuningSpaceput_InputType, mstv.ianalogtvtuningspace_put_inputtype, put_InputType method [Microsoft TV Technologies], put_InputType method [Microsoft TV Technologies], IAnalogTVTuningSpace interface, put_InputType,IAnalogTVTuningSpace.put_InputType, tuner/IAnalogTVTuningSpace::put_InputType
+ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],put_InputType method, IAnalogTVTuningSpace.put_InputType, IAnalogTVTuningSpace::put_InputType, IAnalogTVTuningSpaceput_InputType, mstv.ianalogtvtuningspace_put_inputtype, put_InputType, put_InputType method [Microsoft TV Technologies], put_InputType method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, tuner/IAnalogTVTuningSpace::put_InputType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnalogTVTuningSpace::put_InputType method
+# IAnalogTVTuningSpace::put_InputType
 
 
 ## -description

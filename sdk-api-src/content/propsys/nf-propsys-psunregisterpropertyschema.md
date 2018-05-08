@@ -7,7 +7,7 @@ old-location: properties\PSUnregisterPropertySchema.htm
 old-project: properties
 ms.assetid: 57df82a9-8954-4c2b-b794-82ac542149e2
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: PSUnregisterPropertySchema, PSUnregisterPropertySchema function [Windows Properties], properties.PSUnregisterPropertySchema, propsys/PSUnregisterPropertySchema, shell.PSUnregisterPropertySchema, shell_PSUnregisterPropertySchema
 ms.prod: windows-hardware
 ms.technology: windows-devices

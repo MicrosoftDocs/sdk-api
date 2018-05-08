@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxClientToScreen
-title: ITextHost::TxClientToScreen method
+title: ITextHost::TxClientToScreen
 author: windows-driver-content
 description: Converts text host coordinates to screen coordinates.
 old-location: controls\ITextHost_TxClientToScreen.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txclienttoscreen.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxClientToScreen method, ITextHost::TxClientToScreen, TxClientToScreen method [Windows Controls], TxClientToScreen method [Windows Controls], ITextHost interface, TxClientToScreen,ITextHost.TxClientToScreen, _win32_ITextHost_TxClientToScreen, _win32_ITextHost_TxClientToScreen_cpp, controls.ITextHost_TxClientToScreen, controls._win32_ITextHost_TxClientToScreen, textserv/ITextHost::TxClientToScreen
+ms.date: 4/27/2018
+ms.keywords: ITextHost interface [Windows Controls],TxClientToScreen method, ITextHost.TxClientToScreen, ITextHost::TxClientToScreen, TxClientToScreen, TxClientToScreen method [Windows Controls], TxClientToScreen method [Windows Controls],ITextHost interface, _win32_ITextHost_TxClientToScreen, _win32_ITextHost_TxClientToScreen_cpp, controls.ITextHost_TxClientToScreen, controls._win32_ITextHost_TxClientToScreen, textserv/ITextHost::TxClientToScreen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxClientToScreen method
+# ITextHost::TxClientToScreen
 
 
 ## -description

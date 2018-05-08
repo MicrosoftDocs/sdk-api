@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.put_KeepOriginalFormat
-title: IPicture::put_KeepOriginalFormat method
+title: IPicture::put_KeepOriginalFormat
 author: windows-driver-content
 description: Sets the value of the picture's KeepOriginalFormat property.
 old-location: com\ipicture_put_keeporiginalformat.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 04d952cf-a3c0-4220-9d24-8188ce52f862
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPicture, IPicture interface [COM], put_KeepOriginalFormat method, IPicture::put_KeepOriginalFormat, _ctrl_ipicture_put_keeporiginalformat, com.ipicture_put_keeporiginalformat, ocidl/IPicture::put_KeepOriginalFormat, put_KeepOriginalFormat method [COM], put_KeepOriginalFormat method [COM], IPicture interface, put_KeepOriginalFormat,IPicture.put_KeepOriginalFormat
+ms.keywords: IPicture interface [COM],put_KeepOriginalFormat method, IPicture.put_KeepOriginalFormat, IPicture::put_KeepOriginalFormat, _ctrl_ipicture_put_keeporiginalformat, com.ipicture_put_keeporiginalformat, ocidl/IPicture::put_KeepOriginalFormat, put_KeepOriginalFormat, put_KeepOriginalFormat method [COM], put_KeepOriginalFormat method [COM],IPicture interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPicture::put_KeepOriginalFormat method
+# IPicture::put_KeepOriginalFormat
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyExceptionList
-title: IWMReaderNetworkConfig::SetProxyExceptionList method
+title: IWMReaderNetworkConfig::SetProxyExceptionList
 author: windows-driver-content
 description: The SetProxyExceptionList method specifies the proxy exception list.
 old-location: wmformat\iwmreadernetworkconfig_setproxyexceptionlist.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 1f6c6bb6-3a42-44da-ab80-e72a19b8d272
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetProxyExceptionList method, IWMReaderNetworkConfig::SetProxyExceptionList, IWMReaderNetworkConfigSetProxyExceptionList, SetProxyExceptionList method [windows Media Format], SetProxyExceptionList method [windows Media Format], IWMReaderNetworkConfig interface, SetProxyExceptionList,IWMReaderNetworkConfig.SetProxyExceptionList, wmformat.iwmreadernetworkconfig_setproxyexceptionlist, wmsdkidl/IWMReaderNetworkConfig::SetProxyExceptionList
+ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyExceptionList method, IWMReaderNetworkConfig.SetProxyExceptionList, IWMReaderNetworkConfig::SetProxyExceptionList, IWMReaderNetworkConfigSetProxyExceptionList, SetProxyExceptionList, SetProxyExceptionList method [windows Media Format], SetProxyExceptionList method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyexceptionlist, wmsdkidl/IWMReaderNetworkConfig::SetProxyExceptionList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::SetProxyExceptionList method
+# IWMReaderNetworkConfig::SetProxyExceptionList
 
 
 ## -description

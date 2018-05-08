@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.RemoveValueByIndex
-title: IWICMetadataWriter::RemoveValueByIndex method
+title: IWICMetadataWriter::RemoveValueByIndex
 author: windows-driver-content
 description: Removes the metadata item at the specified index.
 old-location: wic\_wic_codec_iwicmetadatawriter_removevaluebyindex.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 65cf7e21-e474-4652-9ee1-0802362f65ca
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICMetadataWriter, IWICMetadataWriter interface [Windows Imaging Component], RemoveValueByIndex method, IWICMetadataWriter::RemoveValueByIndex, RemoveValueByIndex method [Windows Imaging Component], RemoveValueByIndex method [Windows Imaging Component], IWICMetadataWriter interface, RemoveValueByIndex,IWICMetadataWriter.RemoveValueByIndex, _wic_codec_iwicmetadatawriter_removevaluebyindex, wic._wic_codec_iwicmetadatawriter_removevaluebyindex, wincodecsdk/IWICMetadataWriter::RemoveValueByIndex
+ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],RemoveValueByIndex method, IWICMetadataWriter.RemoveValueByIndex, IWICMetadataWriter::RemoveValueByIndex, RemoveValueByIndex, RemoveValueByIndex method [Windows Imaging Component], RemoveValueByIndex method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_removevaluebyindex, wic._wic_codec_iwicmetadatawriter_removevaluebyindex, wincodecsdk/IWICMetadataWriter::RemoveValueByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataWriter::RemoveValueByIndex method
+# IWICMetadataWriter::RemoveValueByIndex
 
 
 ## -description

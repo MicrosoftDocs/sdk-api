@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.SetDeinterlacePrefs
-title: IVMRDeinterlaceControl9::SetDeinterlacePrefs method
+title: IVMRDeinterlaceControl9::SetDeinterlacePrefs
 author: windows-driver-content
 description: The SetDeinterlacePrefs method specifies how the VMR will select a deinterlacing mode if it cannot use the preferred deinterlacing mode.
 old-location: dshow\ivmrdeinterlacecontrol9_setdeinterlaceprefs.htm
 old-project: DirectShow
 ms.assetid: 5d5b450f-bb87-41a2-bbb1-06b3956ba225
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRDeinterlaceControl9, IVMRDeinterlaceControl9 interface [DirectShow], SetDeinterlacePrefs method, IVMRDeinterlaceControl9::SetDeinterlacePrefs, IVMRDeinterlaceControl9SetDeinterlacePrefs, SetDeinterlacePrefs method [DirectShow], SetDeinterlacePrefs method [DirectShow], IVMRDeinterlaceControl9 interface, SetDeinterlacePrefs,IVMRDeinterlaceControl9.SetDeinterlacePrefs, dshow.ivmrdeinterlacecontrol9_setdeinterlaceprefs, vmr9/IVMRDeinterlaceControl9::SetDeinterlacePrefs
+ms.date: 4/30/2018
+ms.keywords: IVMRDeinterlaceControl9 interface [DirectShow],SetDeinterlacePrefs method, IVMRDeinterlaceControl9.SetDeinterlacePrefs, IVMRDeinterlaceControl9::SetDeinterlacePrefs, IVMRDeinterlaceControl9SetDeinterlacePrefs, SetDeinterlacePrefs, SetDeinterlacePrefs method [DirectShow], SetDeinterlacePrefs method [DirectShow],IVMRDeinterlaceControl9 interface, dshow.ivmrdeinterlacecontrol9_setdeinterlaceprefs, vmr9/IVMRDeinterlaceControl9::SetDeinterlacePrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRDeinterlaceControl9::SetDeinterlacePrefs method
+# IVMRDeinterlaceControl9::SetDeinterlacePrefs
 
 
 ## -description

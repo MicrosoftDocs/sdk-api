@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.get_InstalledFeatures
-title: IWdsTransportSetupManager::get_InstalledFeatures method
+title: IWdsTransportSetupManager::get_InstalledFeatures
 author: windows-driver-content
 description: Receives a value that indicates which WDS features are installed on the server.
 old-location: wds\iwdstransportsetupmanager_installedfeatures.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 885b6e96-2f42-4388-9859-845b715dbe70
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportSetupManager, IWdsTransportSetupManager interface [Windows Deployment Services], InstalledFeatures property, IWdsTransportSetupManager.InstalledFeatures, IWdsTransportSetupManager::get_InstalledFeatures, IWdsTransportSetupManager::put_InstalledFeatures, InstalledFeatures property [Windows Deployment Services], InstalledFeatures property [Windows Deployment Services], IWdsTransportSetupManager interface, get_InstalledFeatures,IWdsTransportSetupManager.get_InstalledFeatures, wds.iwdstransportsetupmanager_installedfeatures, wdstptmgmt/IWdsTransportSetupManager::InstalledFeatures, wdstptmgmt/IWdsTransportSetupManager::get_InstalledFeatures, wdstptmgmt/IWdsTransportSetupManager::put_InstalledFeatures
+ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],InstalledFeatures property, IWdsTransportSetupManager.InstalledFeatures, IWdsTransportSetupManager.get_InstalledFeatures, IWdsTransportSetupManager::InstalledFeatures, IWdsTransportSetupManager::get_InstalledFeatures, IWdsTransportSetupManager::put_InstalledFeatures, InstalledFeatures property [Windows Deployment Services], InstalledFeatures property [Windows Deployment Services],IWdsTransportSetupManager interface, get_InstalledFeatures, wds.iwdstransportsetupmanager_installedfeatures, wdstptmgmt/IWdsTransportSetupManager::InstalledFeatures, wdstptmgmt/IWdsTransportSetupManager::get_InstalledFeatures, wdstptmgmt/IWdsTransportSetupManager::put_InstalledFeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportSetupManager::get_InstalledFeatures method
+# IWdsTransportSetupManager::get_InstalledFeatures
 
 
 ## -description

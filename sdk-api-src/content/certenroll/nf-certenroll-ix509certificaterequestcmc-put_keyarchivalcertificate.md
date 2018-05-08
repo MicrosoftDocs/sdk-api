@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.put_KeyArchivalCertificate
-title: IX509CertificateRequestCmc::put_KeyArchivalCertificate method
+title: IX509CertificateRequestCmc::put_KeyArchivalCertificate
 author: windows-driver-content
 description: Specifies or retrieves a certification authority (CA) encryption certificate.
 old-location: security\ix509certificaterequestcmc_keyarchivalcertificate_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 93f71fd7-33bb-4352-b184-7270bca1363f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestCmc, IX509CertificateRequestCmc interface [Security], KeyArchivalCertificate property, IX509CertificateRequestCmc.KeyArchivalCertificate, IX509CertificateRequestCmc::get_KeyArchivalCertificate, IX509CertificateRequestCmc::put_KeyArchivalCertificate, KeyArchivalCertificate property [Security], KeyArchivalCertificate property [Security], IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::KeyArchivalCertificate, certenroll/IX509CertificateRequestCmc::get_KeyArchivalCertificate, certenroll/IX509CertificateRequestCmc::put_KeyArchivalCertificate, put_KeyArchivalCertificate,IX509CertificateRequestCmc.put_KeyArchivalCertificate, security.ix509certificaterequestcmc_keyarchivalcertificate_property
+ms.keywords: IX509CertificateRequestCmc interface [Security],KeyArchivalCertificate property, IX509CertificateRequestCmc.KeyArchivalCertificate, IX509CertificateRequestCmc.put_KeyArchivalCertificate, IX509CertificateRequestCmc::KeyArchivalCertificate, IX509CertificateRequestCmc::get_KeyArchivalCertificate, IX509CertificateRequestCmc::put_KeyArchivalCertificate, KeyArchivalCertificate property [Security], KeyArchivalCertificate property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::KeyArchivalCertificate, certenroll/IX509CertificateRequestCmc::get_KeyArchivalCertificate, certenroll/IX509CertificateRequestCmc::put_KeyArchivalCertificate, put_KeyArchivalCertificate, security.ix509certificaterequestcmc_keyarchivalcertificate_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestCmc::put_KeyArchivalCertificate method
+# IX509CertificateRequestCmc::put_KeyArchivalCertificate
 
 
 ## -description

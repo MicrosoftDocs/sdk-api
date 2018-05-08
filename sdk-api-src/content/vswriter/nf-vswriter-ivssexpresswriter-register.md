@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssExpressWriter.Register
-title: IVssExpressWriter::Register method
+title: IVssExpressWriter::Register
 author: windows-driver-content
 description: Causes VSS to store the writer's metadata in the express writer metadata store.
 old-location: base\ivssexpresswriter_register.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 75cdc416-5fb6-4c9e-b7ab-f79b091786b2
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssExpressWriter, IVssExpressWriter interface, Register method, IVssExpressWriter::Register, Register method, Register method, IVssExpressWriter interface, Register,IVssExpressWriter.Register, base.ivssexpresswriter_register, vswriter/IVssExpressWriter::Register
+ms.keywords: IVssExpressWriter interface,Register method, IVssExpressWriter.Register, IVssExpressWriter::Register, Register, Register method, Register method,IVssExpressWriter interface, base.ivssexpresswriter_register, vswriter/IVssExpressWriter::Register
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssExpressWriter::Register method
+# IVssExpressWriter::Register
 
 
 ## -description

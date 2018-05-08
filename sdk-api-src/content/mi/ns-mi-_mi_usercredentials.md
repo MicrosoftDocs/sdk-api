@@ -131,14 +131,12 @@ Push/Source Initiated subscriptions only.
 ### -field credentials
 
 
-
-#### usernamePassword
+### -field credentials.usernamePassword
 
 Contains username and password information.
 
 
-
-#### certificateThumbprint
+### -field credentials.certificateThumbprint
 
 Certificate thumbprint for the user.
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchManager.get_UseProxy
-title: ISearchManager::get_UseProxy method
+title: ISearchManager::get_UseProxy
 author: windows-driver-content
 description: Retrieves the proxy server to be used.
 old-location: search\_search_ISearchManager_get_UseProxy.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_useproxy.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchManager, ISearchManager interface [search], get_UseProxy method, ISearchManager::get_UseProxy, _search_ISearchManager_get_UseProxy, get_UseProxy method [search], get_UseProxy method [search], ISearchManager interface, get_UseProxy,ISearchManager.get_UseProxy, search._search_ISearchManager_get_UseProxy, searchapi/ISearchManager::get_UseProxy
+ms.date: 5/4/2018
+ms.keywords: ISearchManager interface [search],get_UseProxy method, ISearchManager.get_UseProxy, ISearchManager::get_UseProxy, _search_ISearchManager_get_UseProxy, get_UseProxy, get_UseProxy method [search], get_UseProxy method [search],ISearchManager interface, search._search_ISearchManager_get_UseProxy, searchapi/ISearchManager::get_UseProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchManager::get_UseProxy method
+# ISearchManager::get_UseProxy
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetBufferingTime
-title: IWMReaderNetworkConfig::SetBufferingTime method
+title: IWMReaderNetworkConfig::SetBufferingTime
 author: windows-driver-content
 description: The SetBufferingTime method specifies how long the network source buffers data before rendering it.
 old-location: wmformat\iwmreadernetworkconfig_setbufferingtime.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 64b8eb13-3b96-4bb7-8d75-0eccb1af5a2f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetBufferingTime method, IWMReaderNetworkConfig::SetBufferingTime, IWMReaderNetworkConfigSetBufferingTime, SetBufferingTime method [windows Media Format], SetBufferingTime method [windows Media Format], IWMReaderNetworkConfig interface, SetBufferingTime,IWMReaderNetworkConfig.SetBufferingTime, wmformat.iwmreadernetworkconfig_setbufferingtime, wmsdkidl/IWMReaderNetworkConfig::SetBufferingTime
+ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetBufferingTime method, IWMReaderNetworkConfig.SetBufferingTime, IWMReaderNetworkConfig::SetBufferingTime, IWMReaderNetworkConfigSetBufferingTime, SetBufferingTime, SetBufferingTime method [windows Media Format], SetBufferingTime method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setbufferingtime, wmsdkidl/IWMReaderNetworkConfig::SetBufferingTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::SetBufferingTime method
+# IWMReaderNetworkConfig::SetBufferingTime
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetGamutBoundaryMeshSize
-title: IDeviceModelPlugIn::GetGamutBoundaryMeshSize method
+title: IDeviceModelPlugIn::GetGamutBoundaryMeshSize
 author: windows-driver-content
 description: Returns the required data structure sizes for the GetGamutBoundaryMesh function.
 old-location: wcs\IDeviceModelPlugIn_GetGamutBoundaryMeshSize.htm
@@ -8,7 +8,7 @@ old-project: WCS
 ms.assetid: 302f8008-c65d-4794-9297-8b47e29e36ce
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetGamutBoundaryMeshSize method [Windows Color System], GetGamutBoundaryMeshSize method [Windows Color System], IDeviceModelPlugIn interface, GetGamutBoundaryMeshSize,IDeviceModelPlugIn.GetGamutBoundaryMeshSize, IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], GetGamutBoundaryMeshSize method, IDeviceModelPlugIn::GetGamutBoundaryMeshSize, _color_IDeviceModelPlugIn::GetGamutBoundaryMeshSize, wcs.IDeviceModelPlugIn_GetGamutBoundaryMeshSize, wcsplugin/IDeviceModelPlugIn::GetGamutBoundaryMeshSize
+ms.keywords: GetGamutBoundaryMeshSize, GetGamutBoundaryMeshSize method [Windows Color System], GetGamutBoundaryMeshSize method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetGamutBoundaryMeshSize method, IDeviceModelPlugIn.GetGamutBoundaryMeshSize, IDeviceModelPlugIn::GetGamutBoundaryMeshSize, _color_IDeviceModelPlugIn::GetGamutBoundaryMeshSize, wcs.IDeviceModelPlugIn_GetGamutBoundaryMeshSize, wcsplugin/IDeviceModelPlugIn::GetGamutBoundaryMeshSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IDeviceModelPlugIn::GetGamutBoundaryMeshSize method
+# IDeviceModelPlugIn::GetGamutBoundaryMeshSize
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPNodeWindowed.GetOwnerWindow
-title: IWMPNodeWindowed::GetOwnerWindow method
+title: IWMPNodeWindowed::GetOwnerWindow
 author: windows-driver-content
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
 old-location: wmp\iwmpnodewindowed_getownerwindow.htm
 old-project: WMP
 ms.assetid: d42bdb97-6821-4e4a-b98d-ed03f978b5c1
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetOwnerWindow method [Windows Media Player], GetOwnerWindow method [Windows Media Player], IWMPNodeWindowed interface, GetOwnerWindow,IWMPNodeWindowed.GetOwnerWindow, IWMPNodeWindowed, IWMPNodeWindowed interface [Windows Media Player], GetOwnerWindow method, IWMPNodeWindowed::GetOwnerWindow, IWMPNodeWindowedGetOwnerWindowRendering, wmp.iwmpnodewindowed_getownerwindow, wmprealestate/IWMPNodeWindowed::GetOwnerWindow
+ms.date: 5/2/2018
+ms.keywords: GetOwnerWindow, GetOwnerWindow method [Windows Media Player], GetOwnerWindow method [Windows Media Player],IWMPNodeWindowed interface, IWMPNodeWindowed interface [Windows Media Player],GetOwnerWindow method, IWMPNodeWindowed.GetOwnerWindow, IWMPNodeWindowed::GetOwnerWindow, IWMPNodeWindowedGetOwnerWindowRendering, wmp.iwmpnodewindowed_getownerwindow, wmprealestate/IWMPNodeWindowed::GetOwnerWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNodeWindowed::GetOwnerWindow method
+# IWMPNodeWindowed::GetOwnerWindow
 
 
 ## -description

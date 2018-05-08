@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncCallback.OnProgress
-title: ISyncCallback::OnProgress method
+title: ISyncCallback::OnProgress
 author: windows-driver-content
 description: Occurs periodically during the synchronization session to report progress.
 old-location: winsync\isynccallback_onprogress.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 4a4dad07-b169-4767-a118-3b5c6c8b9764
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncCallback, ISyncCallback interface [Windows Sync], OnProgress method, ISyncCallback::OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync], ISyncCallback interface, OnProgress,ISyncCallback.OnProgress, winsync.isynccallback_onprogress, winsync/ISyncCallback::OnProgress
+ms.keywords: ISyncCallback interface [Windows Sync],OnProgress method, ISyncCallback.OnProgress, ISyncCallback::OnProgress, OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onprogress, winsync/ISyncCallback::OnProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncCallback::OnProgress method
+# ISyncCallback::OnProgress
 
 
 ## -description

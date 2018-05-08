@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IEnumWIA_FORMAT_INFO.Skip
-title: IEnumWIA_FORMAT_INFO::Skip method
+title: IEnumWIA_FORMAT_INFO::Skip
 author: windows-driver-content
 description: The IEnumWIA_FORMAT_INFO::Skip method skips the specified number of structures in the enumeration.
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO_Skip.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_format_info\skip.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IEnumWIA_FORMAT_INFO, IEnumWIA_FORMAT_INFO interface [WIA], Skip method, IEnumWIA_FORMAT_INFO::Skip, Skip method [WIA], Skip method [WIA], IEnumWIA_FORMAT_INFO interface, Skip,IEnumWIA_FORMAT_INFO.Skip, _wia_IEnumWIA_FORMAT_INFO_Skip, wia._wia_IEnumWIA_FORMAT_INFO_Skip, wia_xp/IEnumWIA_FORMAT_INFO::Skip
+ms.date: 5/3/2018
+ms.keywords: IEnumWIA_FORMAT_INFO interface [WIA],Skip method, IEnumWIA_FORMAT_INFO.Skip, IEnumWIA_FORMAT_INFO::Skip, Skip, Skip method [WIA], Skip method [WIA],IEnumWIA_FORMAT_INFO interface, _wia_IEnumWIA_FORMAT_INFO_Skip, wia._wia_IEnumWIA_FORMAT_INFO_Skip, wia_xp/IEnumWIA_FORMAT_INFO::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IEnumWIA_FORMAT_INFO::Skip method
+# IEnumWIA_FORMAT_INFO::Skip
 
 
 ## -description

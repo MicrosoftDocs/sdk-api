@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Clone
-title: IEnumCERTVIEWEXTENSION::Clone method
+title: IEnumCERTVIEWEXTENSION::Clone
 author: windows-driver-content
 description: Creates a copy of the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_clone.htm
 old-project: SecCrypto
 ms.assetid: 2b8e19e4-459f-45f0-abb6-e1e0e115e0f5
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: Clone method [Security], Clone method [Security], IEnumCERTVIEWEXTENSION interface, Clone,IEnumCERTVIEWEXTENSION.Clone, IEnumCERTVIEWEXTENSION, IEnumCERTVIEWEXTENSION interface [Security], Clone method, IEnumCERTVIEWEXTENSION::Clone, _certsrv_ienumcertviewextension_clone, certview/IEnumCERTVIEWEXTENSION::Clone, security.ienumcertviewextension_clone
+ms.date: 4/30/2018
+ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],Clone method, IEnumCERTVIEWEXTENSION.Clone, IEnumCERTVIEWEXTENSION::Clone, _certsrv_ienumcertviewextension_clone, certview/IEnumCERTVIEWEXTENSION::Clone, security.ienumcertviewextension_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWEXTENSION::Clone method
+# IEnumCERTVIEWEXTENSION::Clone
 
 
 ## -description

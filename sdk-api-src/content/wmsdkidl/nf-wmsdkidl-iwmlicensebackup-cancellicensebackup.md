@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseBackup.CancelLicenseBackup
-title: IWMLicenseBackup::CancelLicenseBackup method
+title: IWMLicenseBackup::CancelLicenseBackup
 author: windows-driver-content
 description: The CancelLicenseBackup method cancels a current backup operation.
 old-location: wmformat\iwmlicensebackup_cancellicensebackup.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: aa226875-d59f-4fac-b38b-f94727fa2f4a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: CancelLicenseBackup method [windows Media Format], CancelLicenseBackup method [windows Media Format], IWMLicenseBackup interface, CancelLicenseBackup,IWMLicenseBackup.CancelLicenseBackup, IWMLicenseBackup, IWMLicenseBackup interface [windows Media Format], CancelLicenseBackup method, IWMLicenseBackup::CancelLicenseBackup, IWMLicenseBackupCancelLicenseBackup, wmformat.iwmlicensebackup_cancellicensebackup, wmsdkidl/IWMLicenseBackup::CancelLicenseBackup
+ms.keywords: CancelLicenseBackup, CancelLicenseBackup method [windows Media Format], CancelLicenseBackup method [windows Media Format],IWMLicenseBackup interface, IWMLicenseBackup interface [windows Media Format],CancelLicenseBackup method, IWMLicenseBackup.CancelLicenseBackup, IWMLicenseBackup::CancelLicenseBackup, IWMLicenseBackupCancelLicenseBackup, wmformat.iwmlicensebackup_cancellicensebackup, wmsdkidl/IWMLicenseBackup::CancelLicenseBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMLicenseBackup::CancelLicenseBackup method
+# IWMLicenseBackup::CancelLicenseBackup
 
 
 ## -description

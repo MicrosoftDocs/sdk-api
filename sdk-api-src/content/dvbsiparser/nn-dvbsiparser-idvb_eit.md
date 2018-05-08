@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 86280e1e-09c3-45a4-bdfb-53eda8e5700e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVB_EIT, IDVB_EIT interface [Microsoft TV Technologies], IDVB_EIT interface [Microsoft TV Technologies], described, IDVB_EITInterface, dvbsiparser/IDVB_EIT, mstv.idvb_eit
+ms.keywords: IDVB_EIT, IDVB_EIT interface [Microsoft TV Technologies], IDVB_EIT interface [Microsoft TV Technologies],described, IDVB_EITInterface, dvbsiparser/IDVB_EIT, mstv.idvb_eit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

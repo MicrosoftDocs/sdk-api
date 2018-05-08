@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetBump
-title: IAMExtTransport::SetBump method
+title: IAMExtTransport::SetBump
 author: windows-driver-content
 description: The SetBump method temporarily changes the playback, for synchronization of multiple external devices.
 old-location: dshow\iamexttransport_setbump.htm
 old-project: DirectShow
 ms.assetid: c2f2b59f-2522-4f13-8861-fb4e2d9d406c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], SetBump method, IAMExtTransport::SetBump, IAMExtTransportSetBump, SetBump method [DirectShow], SetBump method [DirectShow], IAMExtTransport interface, SetBump,IAMExtTransport.SetBump, dshow.iamexttransport_setbump, strmif/IAMExtTransport::SetBump
+ms.date: 4/30/2018
+ms.keywords: IAMExtTransport interface [DirectShow],SetBump method, IAMExtTransport.SetBump, IAMExtTransport::SetBump, IAMExtTransportSetBump, SetBump, SetBump method [DirectShow], SetBump method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_setbump, strmif/IAMExtTransport::SetBump
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::SetBump method
+# IAMExtTransport::SetBump
 
 
 ## -description

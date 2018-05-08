@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterGroupInfo.GetGroupHandle
-title: IGetClusterGroupInfo::GetGroupHandle method
+title: IGetClusterGroupInfo::GetGroupHandle
 author: windows-driver-content
 description: Returns a handle to a group.
 old-location: mscs\igetclustergroupinfo_getgrouphandle.htm
@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: b578b3fa-9c3d-4f94-b35f-ba0fbe1fdd40
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetGroupHandle method [Failover Cluster], GetGroupHandle method [Failover Cluster], IGetClusterGroupInfo interface, GetGroupHandle,IGetClusterGroupInfo.GetGroupHandle, IGetClusterGroupInfo, IGetClusterGroupInfo interface [Failover Cluster], GetGroupHandle method, IGetClusterGroupInfo::GetGroupHandle, _wolf_igetclustergroupinfo_getgrouphandle, cluadmex/IGetClusterGroupInfo::GetGroupHandle, mscs.igetclustergroupinfo_getgrouphandle
+ms.keywords: GetGroupHandle, GetGroupHandle method [Failover Cluster], GetGroupHandle method [Failover Cluster],IGetClusterGroupInfo interface, IGetClusterGroupInfo interface [Failover Cluster],GetGroupHandle method, IGetClusterGroupInfo.GetGroupHandle, IGetClusterGroupInfo::GetGroupHandle, _wolf_igetclustergroupinfo_getgrouphandle, cluadmex/IGetClusterGroupInfo::GetGroupHandle, mscs.igetclustergroupinfo_getgrouphandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetClusterGroupInfo::GetGroupHandle method
+# IGetClusterGroupInfo::GetGroupHandle
 
 
 ## -description

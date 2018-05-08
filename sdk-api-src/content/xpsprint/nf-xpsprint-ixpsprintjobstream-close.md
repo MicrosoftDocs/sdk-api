@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsprint.IXpsPrintJobStream.Close
-title: IXpsPrintJobStream::Close method
+title: IXpsPrintJobStream::Close
 author: windows-driver-content
 description: Closes the stream and indicates to the print job that the entire document has been written to the print queue by the application.
 old-location: gdi\ixpsprintjobstream_close.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 259d0224-4e6e-43c8-905d-3529c781986a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Close method [Windows GDI], Close method [Windows GDI], IXpsPrintJobStream interface, Close,IXpsPrintJobStream.Close, IXpsPrintJobStream, IXpsPrintJobStream interface [Windows GDI], Close method, IXpsPrintJobStream::Close, gdi.ixpsprintjobstream_close, xpsprint/IXpsPrintJobStream::Close
+ms.keywords: Close, Close method [Windows GDI], Close method [Windows GDI],IXpsPrintJobStream interface, IXpsPrintJobStream interface [Windows GDI],Close method, IXpsPrintJobStream.Close, IXpsPrintJobStream::Close, gdi.ixpsprintjobstream_close, xpsprint/IXpsPrintJobStream::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsPrintJobStream::Close method
+# IXpsPrintJobStream::Close
 
 
 ## -description

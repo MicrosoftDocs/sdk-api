@@ -7,7 +7,7 @@ old-location: winsock\wspstartup_2.htm
 old-project: WinSock
 ms.assetid: 9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: WSPStartup, WSPStartup function [Winsock], _win32_wspstartup_2, winsock.wspstartup_2, ws2spi/WSPStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices

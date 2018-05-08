@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 46b8ff26-c00b-45ef-ac30-0aa82786bf9b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsVolumeMF3, IVdsVolumeMF3 interface, IVdsVolumeMF3 interface, described, base.ivdsvolumemf3, vds/IVdsVolumeMF3
+ms.keywords: IVdsVolumeMF3, IVdsVolumeMF3 interface, IVdsVolumeMF3 interface,described, base.ivdsvolumemf3, vds/IVdsVolumeMF3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

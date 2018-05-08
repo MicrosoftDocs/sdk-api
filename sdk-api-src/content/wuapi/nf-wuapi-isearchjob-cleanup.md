@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ISearchJob.CleanUp
-title: ISearchJob::CleanUp method
+title: ISearchJob::CleanUp
 author: windows-driver-content
 description: Waits for an asynchronous operation to complete and then releases all the callbacks.
 old-location: wua\isearchjob_cleanup.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 35f345ac-cf5b-4ba6-9422-5d9da449bcdd
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CleanUp method [Windows Update Agent], CleanUp method [Windows Update Agent], ISearchJob interface, CleanUp,ISearchJob.CleanUp, ISearchJob, ISearchJob interface [Windows Update Agent], CleanUp method, ISearchJob::CleanUp, wua.isearchjob_cleanup, wuapi/ISearchJob::CleanUp
+ms.keywords: CleanUp, CleanUp method [Windows Update Agent], CleanUp method [Windows Update Agent],ISearchJob interface, ISearchJob interface [Windows Update Agent],CleanUp method, ISearchJob.CleanUp, ISearchJob::CleanUp, wua.isearchjob_cleanup, wuapi/ISearchJob::CleanUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISearchJob::CleanUp method
+# ISearchJob::CleanUp
 
 
 ## -description

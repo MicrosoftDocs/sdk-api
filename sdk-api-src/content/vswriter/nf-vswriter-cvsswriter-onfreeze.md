@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnFreeze
-title: CVssWriter::OnFreeze method
+title: CVssWriter::OnFreeze
 author: windows-driver-content
 description: The OnFreeze method is called by a writer on receipt of a Freeze event at the start of a shadow copy freeze. A writer uses this method to perform operations needed to participate in the freeze or to veto the freeze.
 old-location: base\cvsswriter_onfreeze.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 2aff5e87-4053-46a0-a7fb-7411e76166ba
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriter, CVssWriter interface [VSS], OnFreeze method, CVssWriter::OnFreeze, OnFreeze method [VSS], OnFreeze method [VSS], CVssWriter interface, OnFreeze,CVssWriter.OnFreeze, _win32_cvsswriter_onfreeze, base.cvsswriter_onfreeze, vswriter/CVssWriter::OnFreeze
+ms.keywords: CVssWriter interface [VSS],OnFreeze method, CVssWriter.OnFreeze, CVssWriter::OnFreeze, OnFreeze, OnFreeze method [VSS], OnFreeze method [VSS],CVssWriter interface, _win32_cvsswriter_onfreeze, base.cvsswriter_onfreeze, vswriter/CVssWriter::OnFreeze
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriter::OnFreeze method
+# CVssWriter::OnFreeze
 
 
 ## -description

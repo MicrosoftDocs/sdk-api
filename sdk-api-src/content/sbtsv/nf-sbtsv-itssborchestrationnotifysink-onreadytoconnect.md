@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbOrchestrationNotifySink.OnReadyToConnect
-title: ITsSbOrchestrationNotifySink::OnReadyToConnect method
+title: ITsSbOrchestrationNotifySink::OnReadyToConnect
 author: windows-driver-content
 description: Returns an ITsSbTarget object to Remote Desktop Connection Broker (RD Connection Broker) after the target is successfully prepared for a connection.
 old-location: termserv\itssborchestrationnotifysink_onreadytoconnect.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 781cb67c-75bb-4d3c-8b86-fddbe9511255
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbOrchestrationNotifySink, ITsSbOrchestrationNotifySink interface [Remote Desktop Services], OnReadyToConnect method, ITsSbOrchestrationNotifySink::OnReadyToConnect, OnReadyToConnect method [Remote Desktop Services], OnReadyToConnect method [Remote Desktop Services], ITsSbOrchestrationNotifySink interface, OnReadyToConnect,ITsSbOrchestrationNotifySink.OnReadyToConnect, sbtsv/ITsSbOrchestrationNotifySink::OnReadyToConnect, termserv.itssborchestrationnotifysink_onreadytoconnect
+ms.keywords: ITsSbOrchestrationNotifySink interface [Remote Desktop Services],OnReadyToConnect method, ITsSbOrchestrationNotifySink.OnReadyToConnect, ITsSbOrchestrationNotifySink::OnReadyToConnect, OnReadyToConnect, OnReadyToConnect method [Remote Desktop Services], OnReadyToConnect method [Remote Desktop Services],ITsSbOrchestrationNotifySink interface, sbtsv/ITsSbOrchestrationNotifySink::OnReadyToConnect, termserv.itssborchestrationnotifysink_onreadytoconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbOrchestrationNotifySink::OnReadyToConnect method
+# ITsSbOrchestrationNotifySink::OnReadyToConnect
 
 
 ## -description

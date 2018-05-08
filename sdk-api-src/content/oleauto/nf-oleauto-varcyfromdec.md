@@ -7,7 +7,7 @@ old-location: automat\varcyfromdec.htm
 old-project: automat
 ms.assetid: a7bf1ea2-b127-410c-8b11-84b786ad4a34
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarCyFromDec, VarCyFromDec function [Automation], _oa96_VarCyFromDec, automat.varcyfromdec, oleauto/VarCyFromDec
 ms.prod: windows-hardware
 ms.technology: windows-devices

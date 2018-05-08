@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidTunerEvent.TuneChanged
-title: IMSVidTunerEvent::TuneChanged method
+title: IMSVidTunerEvent::TuneChanged
 author: windows-driver-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidtunerevent_tunechanged.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 5fc30a5a-b934-4c75-9cc8-5a039843ebe8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidTunerEvent, IMSVidTunerEvent interface [Microsoft TV Technologies], TuneChanged method, IMSVidTunerEvent::TuneChanged, IMSVidTunerEventTuneChanged, TuneChanged method [Microsoft TV Technologies], TuneChanged method [Microsoft TV Technologies], IMSVidTunerEvent interface, TuneChanged,IMSVidTunerEvent.TuneChanged, mstv.imsvidtunerevent_tunechanged, segment/IMSVidTunerEvent::TuneChanged
+ms.keywords: IMSVidTunerEvent interface [Microsoft TV Technologies],TuneChanged method, IMSVidTunerEvent.TuneChanged, IMSVidTunerEvent::TuneChanged, IMSVidTunerEventTuneChanged, TuneChanged, TuneChanged method [Microsoft TV Technologies], TuneChanged method [Microsoft TV Technologies],IMSVidTunerEvent interface, mstv.imsvidtunerevent_tunechanged, segment/IMSVidTunerEvent::TuneChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidTunerEvent::TuneChanged method
+# IMSVidTunerEvent::TuneChanged
 
 
 ## -description

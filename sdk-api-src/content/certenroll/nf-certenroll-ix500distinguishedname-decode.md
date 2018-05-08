@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX500DistinguishedName.Decode
-title: IX500DistinguishedName::Decode method
+title: IX500DistinguishedName::Decode
 author: windows-driver-content
 description: Initializes the object from a Unicode-encoded distinguished name.
 old-location: security\ix500distinguishedname_decode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 52cc0595-b825-4bf3-805c-21afc468b91e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Decode method [Security], Decode method [Security], IX500DistinguishedName interface, Decode,IX500DistinguishedName.Decode, IX500DistinguishedName, IX500DistinguishedName interface [Security], Decode method, IX500DistinguishedName::Decode, certenroll/IX500DistinguishedName::Decode, security.ix500distinguishedname_decode_method
+ms.keywords: Decode, Decode method [Security], Decode method [Security],IX500DistinguishedName interface, IX500DistinguishedName interface [Security],Decode method, IX500DistinguishedName.Decode, IX500DistinguishedName::Decode, certenroll/IX500DistinguishedName::Decode, security.ix500distinguishedname_decode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX500DistinguishedName::Decode method
+# IX500DistinguishedName::Decode
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannelManager.CreateVirtualChannel
-title: IRDPSRAPIVirtualChannelManager::CreateVirtualChannel method
+title: IRDPSRAPIVirtualChannelManager::CreateVirtualChannel
 author: windows-driver-content
 description: Creates a virtual channel.
 old-location: rdp\irdpsrapivirtualchannelmanager_createvirtualchannel.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 0185af26-a29d-4227-bad6-2633de18617e
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, CreateVirtualChannel method [RDP], CreateVirtualChannel method [RDP], IRDPSRAPIVirtualChannelManager interface, CreateVirtualChannel,IRDPSRAPIVirtualChannelManager.CreateVirtualChannel, IRDPSRAPIVirtualChannelManager, IRDPSRAPIVirtualChannelManager interface [RDP], CreateVirtualChannel method, IRDPSRAPIVirtualChannelManager::CreateVirtualChannel, rdp.irdpsrapivirtualchannelmanager_createvirtualchannel, rdpencomapi/IRDPSRAPIVirtualChannelManager::CreateVirtualChannel
+ms.keywords: CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, CreateVirtualChannel, CreateVirtualChannel method [RDP], CreateVirtualChannel method [RDP],IRDPSRAPIVirtualChannelManager interface, IRDPSRAPIVirtualChannelManager interface [RDP],CreateVirtualChannel method, IRDPSRAPIVirtualChannelManager.CreateVirtualChannel, IRDPSRAPIVirtualChannelManager::CreateVirtualChannel, rdp.irdpsrapivirtualchannelmanager_createvirtualchannel, rdpencomapi/IRDPSRAPIVirtualChannelManager::CreateVirtualChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIVirtualChannelManager::CreateVirtualChannel method
+# IRDPSRAPIVirtualChannelManager::CreateVirtualChannel
 
 
 ## -description

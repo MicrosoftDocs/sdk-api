@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.IOptionDescription.get_Labels
-title: IOptionDescription::get_Labels method
+title: IOptionDescription::get_Labels
 author: windows-driver-content
 description: Gets the label enumerator for the spell checker option.
 old-location: intl\ioptiondescription_labels.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: cead418f-2c89-4b7c-a52e-604f5d8685d1
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOptionDescription, IOptionDescription interface [Internationalization for Windows Applications], Labels property, IOptionDescription.Labels, IOptionDescription::get_Labels, Labels property [Internationalization for Windows Applications], Labels property [Internationalization for Windows Applications], IOptionDescription interface, get_Labels,IOptionDescription.get_Labels, intl.ioptiondescription_labels, spellcheck/IOptionDescription::Labels, spellcheck/IOptionDescription::get_Labels
+ms.keywords: IOptionDescription interface [Internationalization for Windows Applications],Labels property, IOptionDescription.Labels, IOptionDescription.get_Labels, IOptionDescription::Labels, IOptionDescription::get_Labels, Labels property [Internationalization for Windows Applications], Labels property [Internationalization for Windows Applications],IOptionDescription interface, get_Labels, intl.ioptiondescription_labels, spellcheck/IOptionDescription::Labels, spellcheck/IOptionDescription::get_Labels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IOptionDescription::get_Labels method
+# IOptionDescription::get_Labels
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.isIdentical
-title: IWMPSyncDevice::isIdentical method
+title: IWMPSyncDevice::isIdentical
 author: windows-driver-content
 description: The isIdentical method compares the current device to the specified device and retrieves a value indicating whether they are the same device.
 old-location: wmp\iwmpsyncdevice_isidentical.htm
 old-project: WMP
 ms.assetid: 4335d480-5af0-4764-b8f8-0e6edc1598b7
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], isIdentical method, IWMPSyncDevice::isIdentical, IWMPSyncDeviceisIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player], IWMPSyncDevice interface, isIdentical,IWMPSyncDevice.isIdentical, wmp.iwmpsyncdevice_isidentical, wmp/IWMPSyncDevice::isIdentical
+ms.date: 5/4/2018
+ms.keywords: IWMPSyncDevice interface [Windows Media Player],isIdentical method, IWMPSyncDevice.isIdentical, IWMPSyncDevice::isIdentical, IWMPSyncDeviceisIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_isidentical, wmp/IWMPSyncDevice::isIdentical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSyncDevice::isIdentical method
+# IWMPSyncDevice::isIdentical
 
 
 ## -description

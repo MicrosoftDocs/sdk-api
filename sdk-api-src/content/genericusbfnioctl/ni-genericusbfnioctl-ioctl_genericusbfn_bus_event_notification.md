@@ -7,8 +7,8 @@ old-location: buses\ioctl_genericusbfn_bus_event_notification.htm
 old-project: usbref
 ms.assetid: 1DFDF22D-D86D-4875-B11D-45C0577B6281
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION, IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_genericusbfn_bus_event_notification, genericusbfnioctl/IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION
+ms.date: 5/3/2018
+ms.keywords: IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION, IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control, IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_genericusbfn_bus_event_notification, genericusbfnioctl/IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

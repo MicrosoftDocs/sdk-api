@@ -7,7 +7,7 @@ old-location: security\cryptsignhash.htm
 old-project: SecCrypto
 ms.assetid: 9cf0de04-fdad-457d-8137-16d98f915cd5
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptSignHash, CryptSignHash function [Security], CryptSignHashA, CryptSignHashW, _crypto2_cryptsignhash, security.cryptsignhash, wincrypt/CryptSignHash, wincrypt/CryptSignHashA, wincrypt/CryptSignHashW
 ms.prod: windows-hardware
 ms.technology: windows-devices

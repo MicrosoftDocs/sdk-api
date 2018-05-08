@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.get__NewEnum
-title: ICertificationAuthorities::get__NewEnum method
+title: ICertificationAuthorities::get__NewEnum
 author: windows-driver-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icertificationauthorities__newenum.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 8e83859c-8f61-4864-8b4d-5056c604d219
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertificationAuthorities, ICertificationAuthorities interface [Security], _NewEnum property, ICertificationAuthorities._NewEnum, ICertificationAuthorities::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], ICertificationAuthorities interface, certenroll/ICertificationAuthorities::_NewEnum, certenroll/ICertificationAuthorities::get__NewEnum, get__NewEnum,ICertificationAuthorities.get__NewEnum, security.icertificationauthorities__newenum
+ms.keywords: ICertificationAuthorities interface [Security],_NewEnum property, ICertificationAuthorities._NewEnum, ICertificationAuthorities.get__NewEnum, ICertificationAuthorities::_NewEnum, ICertificationAuthorities::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertificationAuthorities interface, certenroll/ICertificationAuthorities::_NewEnum, certenroll/ICertificationAuthorities::get__NewEnum, get__NewEnum, security.icertificationauthorities__newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICertificationAuthorities::get__NewEnum method
+# ICertificationAuthorities::get__NewEnum
 
 
 ## -description

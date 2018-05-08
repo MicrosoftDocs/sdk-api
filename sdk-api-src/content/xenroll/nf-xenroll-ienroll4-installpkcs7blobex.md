@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll4.InstallPKCS7BlobEx
-title: IEnroll4::InstallPKCS7BlobEx method
+title: IEnroll4::InstallPKCS7BlobEx
 author: windows-driver-content
 description: The same as InstallPKCS7Blob except that it returns the number of certificates actually installed in local stores.
 old-location: security\ienroll4_installpkcs7blobex.htm
 old-project: SecCrypto
 ms.assetid: 6a65eac6-3fe5-4464-876d-80eedaca7ae6
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll4, IEnroll4 interface [Security], InstallPKCS7BlobEx method, IEnroll4::InstallPKCS7BlobEx, InstallPKCS7BlobEx method [Security], InstallPKCS7BlobEx method [Security], IEnroll4 interface, InstallPKCS7BlobEx,IEnroll4.InstallPKCS7BlobEx, security.ienroll4_installpkcs7blobex, xenroll/IEnroll4::InstallPKCS7BlobEx
+ms.date: 4/30/2018
+ms.keywords: IEnroll4 interface [Security],InstallPKCS7BlobEx method, IEnroll4.InstallPKCS7BlobEx, IEnroll4::InstallPKCS7BlobEx, InstallPKCS7BlobEx, InstallPKCS7BlobEx method [Security], InstallPKCS7BlobEx method [Security],IEnroll4 interface, security.ienroll4_installpkcs7blobex, xenroll/IEnroll4::InstallPKCS7BlobEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll4::InstallPKCS7BlobEx method
+# IEnroll4::InstallPKCS7BlobEx
 
 
 ## -description

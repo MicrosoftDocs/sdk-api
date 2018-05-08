@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.get_IsConnectedToInternet
-title: INetworkConnection::get_IsConnectedToInternet method
+title: INetworkConnection::get_IsConnectedToInternet
 author: windows-driver-content
 description: The get_IsConnectedToInternet property specifies if the associated network connection has internet connectivity.
 old-location: nla\inetworkconnection_get_isconnectedtointernet.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: c5ac2d6b-c96a-478f-add3-617c544dfaf0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetworkConnection, INetworkConnection interface [Network Awareness], get_IsConnectedToInternet method, INetworkConnection::get_IsConnectedToInternet, get_IsConnectedToInternet method [Network Awareness], get_IsConnectedToInternet method [Network Awareness], INetworkConnection interface, get_IsConnectedToInternet,INetworkConnection.get_IsConnectedToInternet, netlistmgr/INetworkConnection::get_IsConnectedToInternet, nla.inetworkconnection_get_isconnectedtointernet
+ms.keywords: INetworkConnection interface [Network Awareness],get_IsConnectedToInternet method, INetworkConnection.get_IsConnectedToInternet, INetworkConnection::get_IsConnectedToInternet, get_IsConnectedToInternet, get_IsConnectedToInternet method [Network Awareness], get_IsConnectedToInternet method [Network Awareness],INetworkConnection interface, netlistmgr/INetworkConnection::get_IsConnectedToInternet, nla.inetworkconnection_get_isconnectedtointernet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkConnection::get_IsConnectedToInternet method
+# INetworkConnection::get_IsConnectedToInternet
 
 
 ## -description

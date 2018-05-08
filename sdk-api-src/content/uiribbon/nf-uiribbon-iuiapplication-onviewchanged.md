@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIApplication.OnViewChanged
-title: IUIApplication::OnViewChanged method
+title: IUIApplication::OnViewChanged
 author: windows-driver-content
 description: Called when the state of a View changes.
 old-location: windowsribbon\windowsribbon_iuiapplication_onviewchanged.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\onviewchanged.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IUIApplication, IUIApplication interface [Windows Ribbon], OnViewChanged method, IUIApplication::OnViewChanged, OnViewChanged method [Windows Ribbon], OnViewChanged method [Windows Ribbon], IUIApplication interface, OnViewChanged,IUIApplication.OnViewChanged, scenicintent_IUIApplication_OnViewChanged, uiribbon/IUIApplication::OnViewChanged, windowsribbon.windowsribbon_iuiapplication_onviewchanged
+ms.keywords: IUIApplication interface [Windows Ribbon],OnViewChanged method, IUIApplication.OnViewChanged, IUIApplication::OnViewChanged, OnViewChanged, OnViewChanged method [Windows Ribbon], OnViewChanged method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnViewChanged, uiribbon/IUIApplication::OnViewChanged, windowsribbon.windowsribbon_iuiapplication_onviewchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUIApplication::OnViewChanged method
+# IUIApplication::OnViewChanged
 
 
 ## -description

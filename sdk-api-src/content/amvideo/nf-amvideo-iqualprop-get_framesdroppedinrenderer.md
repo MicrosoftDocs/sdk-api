@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IQualProp.get_FramesDroppedInRenderer
-title: IQualProp::get_FramesDroppedInRenderer method
+title: IQualProp::get_FramesDroppedInRenderer
 author: windows-driver-content
 description: The get_FramesDroppedInRenderer method retrieves the number of frames dropped by the renderer.
 old-location: dshow\iqualprop_get_framesdroppedinrenderer.htm
 old-project: DirectShow
 ms.assetid: 342aff30-ed1c-406d-8fbe-0524acbcd2d7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IQualProp, IQualProp interface [DirectShow], get_FramesDroppedInRenderer method, IQualProp::get_FramesDroppedInRenderer, IQualPropget_FramesDroppedInRenderer, amvideo/IQualProp::get_FramesDroppedInRenderer, dshow.iqualprop_get_framesdroppedinrenderer, get_FramesDroppedInRenderer method [DirectShow], get_FramesDroppedInRenderer method [DirectShow], IQualProp interface, get_FramesDroppedInRenderer,IQualProp.get_FramesDroppedInRenderer
+ms.date: 4/30/2018
+ms.keywords: IQualProp interface [DirectShow],get_FramesDroppedInRenderer method, IQualProp.get_FramesDroppedInRenderer, IQualProp::get_FramesDroppedInRenderer, IQualPropget_FramesDroppedInRenderer, amvideo/IQualProp::get_FramesDroppedInRenderer, dshow.iqualprop_get_framesdroppedinrenderer, get_FramesDroppedInRenderer, get_FramesDroppedInRenderer method [DirectShow], get_FramesDroppedInRenderer method [DirectShow],IQualProp interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IQualProp::get_FramesDroppedInRenderer method
+# IQualProp::get_FramesDroppedInRenderer
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: shell\StrChrNW.htm
 old-project: shell
 ms.assetid: f90470c3-62db-4fbb-a045-8fdd300a6aa4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: StrChrNW, StrChrNW function [Windows Shell], _win32_StrChrNW, shell.StrChrNW, shlwapi/StrChrNW
 ms.prod: windows-hardware
 ms.technology: windows-devices

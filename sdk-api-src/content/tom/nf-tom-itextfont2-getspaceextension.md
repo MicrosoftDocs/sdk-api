@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.GetSpaceExtension
-title: ITextFont2::GetSpaceExtension method
+title: ITextFont2::GetSpaceExtension
 author: windows-driver-content
 description: Gets the East Asian space extension value.
 old-location: controls\itextfont2_getspaceextension.htm
 old-project: Controls
 ms.assetid: 36623ab5-3584-49c7-aeba-c34cfc8053e6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetSpaceExtension method [Windows Controls], GetSpaceExtension method [Windows Controls], ITextFont2 interface, GetSpaceExtension,ITextFont2.GetSpaceExtension, ITextFont2, ITextFont2 interface [Windows Controls], GetSpaceExtension method, ITextFont2::GetSpaceExtension, controls.itextfont2_getspaceextension, tom/ITextFont2::GetSpaceExtension
+ms.date: 4/27/2018
+ms.keywords: GetSpaceExtension, GetSpaceExtension method [Windows Controls], GetSpaceExtension method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetSpaceExtension method, ITextFont2.GetSpaceExtension, ITextFont2::GetSpaceExtension, controls.itextfont2_getspaceextension, tom/ITextFont2::GetSpaceExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::GetSpaceExtension method
+# ITextFont2::GetSpaceExtension
 
 
 ## -description

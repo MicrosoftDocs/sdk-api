@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_MaximumBuffers
-title: ITraceDataCollector::put_MaximumBuffers method
+title: ITraceDataCollector::put_MaximumBuffers
 author: windows-driver-content
 description: Retrieves or sets the maximum number of buffers allocated for the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_maximumbuffers.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 545c56e3-b915-4f2a-8563-81368ca9b19e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], MaximumBuffers property, ITraceDataCollector.MaximumBuffers, ITraceDataCollector::get_MaximumBuffers, ITraceDataCollector::put_MaximumBuffers, MaximumBuffers property [PLA], MaximumBuffers property [PLA], ITraceDataCollector interface, base.itracedatacollector_maximumbuffers, pla.itracedatacollector_maximumbuffers, pla/ITraceDataCollector::MaximumBuffers, pla/ITraceDataCollector::get_MaximumBuffers, pla/ITraceDataCollector::put_MaximumBuffers, put_MaximumBuffers,ITraceDataCollector.put_MaximumBuffers
+ms.keywords: ITraceDataCollector interface [PLA],MaximumBuffers property, ITraceDataCollector.MaximumBuffers, ITraceDataCollector.put_MaximumBuffers, ITraceDataCollector::MaximumBuffers, ITraceDataCollector::get_MaximumBuffers, ITraceDataCollector::put_MaximumBuffers, MaximumBuffers property [PLA], MaximumBuffers property [PLA],ITraceDataCollector interface, base.itracedatacollector_maximumbuffers, pla.itracedatacollector_maximumbuffers, pla/ITraceDataCollector::MaximumBuffers, pla/ITraceDataCollector::get_MaximumBuffers, pla/ITraceDataCollector::put_MaximumBuffers, put_MaximumBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataCollector::put_MaximumBuffers method
+# ITraceDataCollector::put_MaximumBuffers
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_FlushTimer
-title: ITraceDataCollector::get_FlushTimer method
+title: ITraceDataCollector::get_FlushTimer
 author: windows-driver-content
 description: Retrieves or sets the time to wait before flushing buffers.
 old-location: pla\itracedatacollector_flushtimer.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 545f40ec-cbe2-4109-a018-d27000eeaf08
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: FlushTimer property [PLA], FlushTimer property [PLA], ITraceDataCollector interface, ITraceDataCollector, ITraceDataCollector interface [PLA], FlushTimer property, ITraceDataCollector.FlushTimer, ITraceDataCollector::get_FlushTimer, ITraceDataCollector::put_FlushTimer, base.itracedatacollector_flushtimer, get_FlushTimer,ITraceDataCollector.get_FlushTimer, pla.itracedatacollector_flushtimer, pla/ITraceDataCollector::FlushTimer, pla/ITraceDataCollector::get_FlushTimer, pla/ITraceDataCollector::put_FlushTimer
+ms.keywords: FlushTimer property [PLA], FlushTimer property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],FlushTimer property, ITraceDataCollector.FlushTimer, ITraceDataCollector.get_FlushTimer, ITraceDataCollector::FlushTimer, ITraceDataCollector::get_FlushTimer, ITraceDataCollector::put_FlushTimer, base.itracedatacollector_flushtimer, get_FlushTimer, pla.itracedatacollector_flushtimer, pla/ITraceDataCollector::FlushTimer, pla/ITraceDataCollector::get_FlushTimer, pla/ITraceDataCollector::put_FlushTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataCollector::get_FlushTimer method
+# ITraceDataCollector::get_FlushTimer
 
 
 ## -description

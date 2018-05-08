@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IEnumSTATPROPSETSTG.Next
-title: IEnumSTATPROPSETSTG::Next method
+title: IEnumSTATPROPSETSTG::Next
 author: windows-driver-content
 description: Retrieves a specified number of STATPROPSETSTG structures that follow subsequently in the enumeration sequence.
 old-location: stg\ienumstatpropsetstg_next.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 3af3c518-3db4-4436-b1c1-86587ce8fbf3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IEnumSTATPROPSETSTG, IEnumSTATPROPSETSTG interface [Structured Storage], Next method, IEnumSTATPROPSETSTG::Next, Next method [Structured Storage], Next method [Structured Storage], IEnumSTATPROPSETSTG interface, Next,IEnumSTATPROPSETSTG.Next, propidlbase/IEnumSTATPROPSETSTG::Next, stg.ienumstatpropsetstg_next
+ms.keywords: IEnumSTATPROPSETSTG interface [Structured Storage],Next method, IEnumSTATPROPSETSTG.Next, IEnumSTATPROPSETSTG::Next, Next, Next method [Structured Storage], Next method [Structured Storage],IEnumSTATPROPSETSTG interface, propidlbase/IEnumSTATPROPSETSTG::Next, stg.ienumstatpropsetstg_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumSTATPROPSETSTG::Next method
+# IEnumSTATPROPSETSTG::Next
 
 
 ## -description

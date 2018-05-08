@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternates.get_Count
-title: IInkRecognitionAlternates::get_Count method
+title: IInkRecognitionAlternates::get_Count
 author: windows-driver-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkrecognitionalternates_count.htm
 old-project: tablet
 ms.assetid: 2bcca92c-ba9f-437f-b7a9-6056da243d1a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Count property [Tablet PC], Count property [Tablet PC], IInkRecognitionAlternates interface, IInkRecognitionAlternates, IInkRecognitionAlternates interface [Tablet PC], Count property, IInkRecognitionAlternates.Count, IInkRecognitionAlternates.get_Count, IInkRecognitionAlternates::get_Count, get_Count,IInkRecognitionAlternates.get_Count, msinkaut/IInkRecognitionAlternates::Count, msinkaut/IInkRecognitionAlternates::get_Count, tablet.iinkrecognitionalternates_count
+ms.date: 5/2/2018
+ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkRecognitionAlternates interface, IInkRecognitionAlternates interface [Tablet PC],Count property, IInkRecognitionAlternates.Count, IInkRecognitionAlternates.get_Count, IInkRecognitionAlternates::Count, IInkRecognitionAlternates::get_Count, get_Count, msinkaut/IInkRecognitionAlternates::Count, msinkaut/IInkRecognitionAlternates::get_Count, tablet.iinkrecognitionalternates_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognitionAlternates::get_Count method
+# IInkRecognitionAlternates::get_Count
 
 
 ## -description

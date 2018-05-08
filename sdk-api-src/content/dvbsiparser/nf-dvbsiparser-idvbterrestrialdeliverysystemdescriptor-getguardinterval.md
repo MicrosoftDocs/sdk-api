@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval
-title: IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval method
+title: IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getguardinterval.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e6c3e121-7214-49cc-b88e-6a1269f5bdbd
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetGuardInterval method [Microsoft TV Technologies], GetGuardInterval method [Microsoft TV Technologies], IDvbTerrestrialDeliverySystemDescriptor interface, GetGuardInterval,IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval, IDvbTerrestrialDeliverySystemDescriptor, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], GetGuardInterval method, IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval, IDvbTerrestrialDeliverySystemDescriptorGetGuardInterval, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval, mstv.idvbterrestrialdeliverysystemdescriptor_getguardinterval
+ms.keywords: GetGuardInterval, GetGuardInterval method [Microsoft TV Technologies], GetGuardInterval method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetGuardInterval method, IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval, IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval, IDvbTerrestrialDeliverySystemDescriptorGetGuardInterval, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval, mstv.idvbterrestrialdeliverysystemdescriptor_getguardinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval method
+# IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval
 
 
 ## -description

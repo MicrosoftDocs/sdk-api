@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: dd0ce1c0-1c04-46a8-9075-93de9b3e3062
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMFontResource, IXpsOMFontResource interface [XPS Documents and Packaging], IXpsOMFontResource interface [XPS Documents and Packaging], described, xps.ixpsomfontresource, xpsobjectmodel/IXpsOMFontResource
+ms.keywords: IXpsOMFontResource, IXpsOMFontResource interface [XPS Documents and Packaging], IXpsOMFontResource interface [XPS Documents and Packaging],described, xps.ixpsomfontresource, xpsobjectmodel/IXpsOMFontResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

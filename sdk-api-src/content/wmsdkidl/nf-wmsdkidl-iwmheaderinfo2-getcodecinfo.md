@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo2.GetCodecInfo
-title: IWMHeaderInfo2::GetCodecInfo method
+title: IWMHeaderInfo2::GetCodecInfo
 author: windows-driver-content
 description: The GetCodecInfo method retrieves information about a codec that is used to create the content of a file.
 old-location: wmformat\iwmheaderinfo2_getcodecinfo.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 685eaf9e-6cc8-4c38-be34-afa4b504a326
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetCodecInfo method [windows Media Format], GetCodecInfo method [windows Media Format], IWMHeaderInfo2 interface, GetCodecInfo method [windows Media Format], IWMHeaderInfo3 interface, GetCodecInfo,IWMHeaderInfo2.GetCodecInfo, IWMHeaderInfo2, IWMHeaderInfo2 interface [windows Media Format], GetCodecInfo method, IWMHeaderInfo2::GetCodecInfo, IWMHeaderInfo2GetCodecInfo, IWMHeaderInfo3 interface [windows Media Format], GetCodecInfo method, IWMHeaderInfo3::GetCodecInfo, wmformat.iwmheaderinfo2_getcodecinfo, wmsdkidl/IWMHeaderInfo2::GetCodecInfo, wmsdkidl/IWMHeaderInfo3::GetCodecInfo
+ms.keywords: GetCodecInfo, GetCodecInfo method [windows Media Format], GetCodecInfo method [windows Media Format],IWMHeaderInfo2 interface, GetCodecInfo method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo2 interface [windows Media Format],GetCodecInfo method, IWMHeaderInfo2.GetCodecInfo, IWMHeaderInfo2::GetCodecInfo, IWMHeaderInfo2GetCodecInfo, IWMHeaderInfo3 interface [windows Media Format],GetCodecInfo method, IWMHeaderInfo3::GetCodecInfo, wmformat.iwmheaderinfo2_getcodecinfo, wmsdkidl/IWMHeaderInfo2::GetCodecInfo, wmsdkidl/IWMHeaderInfo3::GetCodecInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMHeaderInfo2::GetCodecInfo method
+# IWMHeaderInfo2::GetCodecInfo
 
 
 ## -description

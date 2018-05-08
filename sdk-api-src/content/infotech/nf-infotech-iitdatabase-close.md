@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITDatabase.Close
-title: IITDatabase::Close method
+title: IITDatabase::Close
 author: windows-driver-content
 description: Closes a database.
 old-location: htmlhelp\iitdatabase_close.htm
@@ -8,7 +8,7 @@ old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabaseclose.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Close method [HTML Help Workshop], Close method [HTML Help Workshop], IITDatabase interface, Close,IITDatabase.Close, IITDatabase, IITDatabase interface [HTML Help Workshop], Close method, IITDatabase::Close, htmlhelp.iitdatabase_close, infotech/IITDatabase::Close, refIITDatabaseClose
+ms.keywords: Close, Close method [HTML Help Workshop], Close method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],Close method, IITDatabase.Close, IITDatabase::Close, htmlhelp.iitdatabase_close, infotech/IITDatabase::Close, refIITDatabaseClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IITDatabase::Close method
+# IITDatabase::Close
 
 
 ## -description

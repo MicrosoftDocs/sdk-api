@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetIntent
-title: IXpsSignatureRequest::GetIntent method
+title: IXpsSignatureRequest::GetIntent
 author: windows-driver-content
 description: Sets the string that describes the intent or meaning of the signature.
 old-location: xps\ixpssignaturerequest_getintent.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d4da2d1b-e907-4498-a196-fd52742740b6
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetIntent method [XPS Documents and Packaging], GetIntent method [XPS Documents and Packaging], IXpsSignatureRequest interface, GetIntent,IXpsSignatureRequest.GetIntent, IXpsSignatureRequest, IXpsSignatureRequest interface [XPS Documents and Packaging], GetIntent method, IXpsSignatureRequest::GetIntent, xps.ixpssignaturerequest_getintent, xpsdigitalsignature/IXpsSignatureRequest::GetIntent
+ms.keywords: GetIntent, GetIntent method [XPS Documents and Packaging], GetIntent method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetIntent method, IXpsSignatureRequest.GetIntent, IXpsSignatureRequest::GetIntent, xps.ixpssignaturerequest_getintent, xpsdigitalsignature/IXpsSignatureRequest::GetIntent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureRequest::GetIntent method
+# IXpsSignatureRequest::GetIntent
 
 
 ## -description

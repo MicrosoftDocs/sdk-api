@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_TaskRunAsSelf
-title: IAlertDataCollector::put_TaskRunAsSelf method
+title: IAlertDataCollector::put_TaskRunAsSelf
 author: windows-driver-content
 description: Retrieves or sets a value that determines whether the task runs as the data collector set user or as the user specified in the task.
 old-location: pla\ialertdatacollector_taskrunasself.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 2fb36767-5471-4015-a236-23dcc15a38d1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IAlertDataCollector, IAlertDataCollector interface [PLA], TaskRunAsSelf property, IAlertDataCollector.TaskRunAsSelf, IAlertDataCollector::get_TaskRunAsSelf, IAlertDataCollector::put_TaskRunAsSelf, TaskRunAsSelf property [PLA], TaskRunAsSelf property [PLA], IAlertDataCollector interface, pla.ialertdatacollector_taskrunasself, pla/IAlertDataCollector::TaskRunAsSelf, pla/IAlertDataCollector::get_TaskRunAsSelf, pla/IAlertDataCollector::put_TaskRunAsSelf, put_TaskRunAsSelf,IAlertDataCollector.put_TaskRunAsSelf
+ms.keywords: IAlertDataCollector interface [PLA],TaskRunAsSelf property, IAlertDataCollector.TaskRunAsSelf, IAlertDataCollector.put_TaskRunAsSelf, IAlertDataCollector::TaskRunAsSelf, IAlertDataCollector::get_TaskRunAsSelf, IAlertDataCollector::put_TaskRunAsSelf, TaskRunAsSelf property [PLA], TaskRunAsSelf property [PLA],IAlertDataCollector interface, pla.ialertdatacollector_taskrunasself, pla/IAlertDataCollector::TaskRunAsSelf, pla/IAlertDataCollector::get_TaskRunAsSelf, pla/IAlertDataCollector::put_TaskRunAsSelf, put_TaskRunAsSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAlertDataCollector::put_TaskRunAsSelf method
+# IAlertDataCollector::put_TaskRunAsSelf
 
 
 ## -description

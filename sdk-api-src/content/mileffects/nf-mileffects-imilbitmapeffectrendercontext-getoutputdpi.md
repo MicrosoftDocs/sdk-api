@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.GetOutputDPI
-title: IMILBitmapEffectRenderContext::GetOutputDPI method
+title: IMILBitmapEffectRenderContext::GetOutputDPI
 author: windows-driver-content
 description: Gets the output dots per inch (dpi).
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_getoutputdpi.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\getoutputdpi.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetOutputDPI method [WPF Bitmap Effects], GetOutputDPI method [WPF Bitmap Effects], IMILBitmapEffectRenderContext interface, GetOutputDPI,IMILBitmapEffectRenderContext.GetOutputDPI, IMILBitmapEffectRenderContext, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects], GetOutputDPI method, IMILBitmapEffectRenderContext::GetOutputDPI, _wibe_imilbitmapeffectrendercontext_getoutputdpi, mileffects/IMILBitmapEffectRenderContext::GetOutputDPI, wibe._wibe_imilbitmapeffectrendercontext_getoutputdpi
+ms.keywords: GetOutputDPI, GetOutputDPI method [WPF Bitmap Effects], GetOutputDPI method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],GetOutputDPI method, IMILBitmapEffectRenderContext.GetOutputDPI, IMILBitmapEffectRenderContext::GetOutputDPI, _wibe_imilbitmapeffectrendercontext_getoutputdpi, mileffects/IMILBitmapEffectRenderContext::GetOutputDPI, wibe._wibe_imilbitmapeffectrendercontext_getoutputdpi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectRenderContext::GetOutputDPI method
+# IMILBitmapEffectRenderContext::GetOutputDPI
 
 
 ## -description

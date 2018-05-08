@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: cdcb661f-5f17-481a-a4b7-db06d53e1b97
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetworkListManagerEvents, INetworkListManagerEvents interface [Network Awareness], INetworkListManagerEvents interface [Network Awareness], described, netlistmgr/INetworkListManagerEvents, nla.inetworklistmanagerevents
+ms.keywords: INetworkListManagerEvents, INetworkListManagerEvents interface [Network Awareness], INetworkListManagerEvents interface [Network Awareness],described, netlistmgr/INetworkListManagerEvents, nla.inetworklistmanagerevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

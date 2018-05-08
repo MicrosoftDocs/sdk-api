@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.SetWrapperStrength
-title: IManagedObjectInfo::SetWrapperStrength method
+title: IManagedObjectInfo::SetWrapperStrength
 author: windows-driver-content
 description: Sets whether the managed object holds a strong or a weak reference to the COM+ context.
 old-location: cos\imanagedobjectinfo_setwrapperstrength.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 0f03c6cb-4bfc-4871-8f5b-78ccc8df8838
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IManagedObjectInfo, IManagedObjectInfo interface [COM+], SetWrapperStrength method, IManagedObjectInfo::SetWrapperStrength, SetWrapperStrength method [COM+], SetWrapperStrength method [COM+], IManagedObjectInfo interface, SetWrapperStrength,IManagedObjectInfo.SetWrapperStrength, _cos_IManagedObjectInfo_SetWrapperStrength, comsvcs/IManagedObjectInfo::SetWrapperStrength, cos.imanagedobjectinfo_setwrapperstrength
+ms.keywords: IManagedObjectInfo interface [COM+],SetWrapperStrength method, IManagedObjectInfo.SetWrapperStrength, IManagedObjectInfo::SetWrapperStrength, SetWrapperStrength, SetWrapperStrength method [COM+], SetWrapperStrength method [COM+],IManagedObjectInfo interface, _cos_IManagedObjectInfo_SetWrapperStrength, comsvcs/IManagedObjectInfo::SetWrapperStrength, cos.imanagedobjectinfo_setwrapperstrength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IManagedObjectInfo::SetWrapperStrength method
+# IManagedObjectInfo::SetWrapperStrength
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.CopyTo
-title: IGPMStarterGPO::CopyTo method
+title: IGPMStarterGPO::CopyTo
 author: windows-driver-content
 description: The CopyTo method copies the current Starter GPO and returns a pointer to the copy of the Starter GPO.
 old-location: gpmc\igpmstartergpo_copyto.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 28639323-5253-4f63-b1b1-4fd75abaa2b4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CopyTo method [GPMC], CopyTo method [GPMC], IGPMStarterGPO interface, CopyTo,IGPMStarterGPO.CopyTo, IGPMStarterGPO, IGPMStarterGPO interface [GPMC], CopyTo method, IGPMStarterGPO::CopyTo, gpmc.igpmstartergpo_copyto, gpmgmt/IGPMStarterGPO::CopyTo
+ms.keywords: CopyTo, CopyTo method [GPMC], CopyTo method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],CopyTo method, IGPMStarterGPO.CopyTo, IGPMStarterGPO::CopyTo, gpmc.igpmstartergpo_copyto, gpmgmt/IGPMStarterGPO::CopyTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMStarterGPO::CopyTo method
+# IGPMStarterGPO::CopyTo
 
 
 ## -description

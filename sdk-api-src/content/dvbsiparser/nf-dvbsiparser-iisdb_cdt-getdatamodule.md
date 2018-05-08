@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetDataModule
-title: IISDB_CDT::GetDataModule method
+title: IISDB_CDT::GetDataModule
 author: windows-driver-content
 description: Receives the data module from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getdatamodule.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b7ff7e8a-17bd-46aa-bf9b-74f3e33a7ce2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDataModule method [Microsoft TV Technologies], GetDataModule method [Microsoft TV Technologies], IISDB_CDT interface, GetDataModule,IISDB_CDT.GetDataModule, IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], GetDataModule method, IISDB_CDT::GetDataModule, dvbsiparser/IISDB_CDT::GetDataModule, mstv.iisdb_cdt_getdatamodule
+ms.keywords: GetDataModule, GetDataModule method [Microsoft TV Technologies], GetDataModule method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetDataModule method, IISDB_CDT.GetDataModule, IISDB_CDT::GetDataModule, dvbsiparser/IISDB_CDT::GetDataModule, mstv.iisdb_cdt_getdatamodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_CDT::GetDataModule method
+# IISDB_CDT::GetDataModule
 
 
 ## -description

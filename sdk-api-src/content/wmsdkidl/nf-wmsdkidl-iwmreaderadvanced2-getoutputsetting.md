@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetOutputSetting
-title: IWMReaderAdvanced2::GetOutputSetting method
+title: IWMReaderAdvanced2::GetOutputSetting
 author: windows-driver-content
 description: The GetOutputSetting method retrieves a setting for a particular output by name.
 old-location: wmformat\iwmreaderadvanced2_getoutputsetting.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a46da973-8f2f-48b8-9a74-d54e67f68a83
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetOutputSetting method [windows Media Format], GetOutputSetting method [windows Media Format], IWMReaderAdvanced2 interface, GetOutputSetting,IWMReaderAdvanced2.GetOutputSetting, IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], GetOutputSetting method, IWMReaderAdvanced2::GetOutputSetting, IWMReaderAdvanced2GetOutputSetting, wmformat.iwmreaderadvanced2_getoutputsetting, wmsdkidl/IWMReaderAdvanced2::GetOutputSetting
+ms.keywords: GetOutputSetting, GetOutputSetting method [windows Media Format], GetOutputSetting method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetOutputSetting method, IWMReaderAdvanced2.GetOutputSetting, IWMReaderAdvanced2::GetOutputSetting, IWMReaderAdvanced2GetOutputSetting, wmformat.iwmreaderadvanced2_getoutputsetting, wmsdkidl/IWMReaderAdvanced2::GetOutputSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced2::GetOutputSetting method
+# IWMReaderAdvanced2::GetOutputSetting
 
 
 ## -description

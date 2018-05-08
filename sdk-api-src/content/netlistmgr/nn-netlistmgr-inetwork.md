@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 6d483058-f7c4-4a6c-a1a8-816c2fab9994
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetwork, INetwork interface [Network Awareness], INetwork interface [Network Awareness], described, netlistmgr/INetwork, nla.inetwork
+ms.keywords: INetwork, INetwork interface [Network Awareness], INetwork interface [Network Awareness],described, netlistmgr/INetwork, nla.inetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

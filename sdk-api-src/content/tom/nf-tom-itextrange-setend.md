@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.SetEnd
-title: ITextRange::SetEnd method
+title: ITextRange::SetEnd
 author: windows-driver-content
 description: Sets the end position of the range.
 old-location: controls\ITextRange_SetEnd.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setend.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange, ITextRange interface [Windows Controls], SetEnd method, ITextRange::SetEnd, SetEnd method [Windows Controls], SetEnd method [Windows Controls], ITextRange interface, SetEnd,ITextRange.SetEnd, _win32_ITextRange_SetEnd, _win32_ITextRange_SetEnd_cpp, controls.ITextRange_SetEnd, controls._win32_ITextRange_SetEnd, tom/ITextRange::SetEnd
+ms.date: 4/27/2018
+ms.keywords: ITextRange interface [Windows Controls],SetEnd method, ITextRange.SetEnd, ITextRange::SetEnd, SetEnd, SetEnd method [Windows Controls], SetEnd method [Windows Controls],ITextRange interface, _win32_ITextRange_SetEnd, _win32_ITextRange_SetEnd_cpp, controls.ITextRange_SetEnd, controls._win32_ITextRange_SetEnd, tom/ITextRange::SetEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::SetEnd method
+# ITextRange::SetEnd
 
 
 ## -description

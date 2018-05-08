@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 7a324708-4f1b-467c-af1a-da36d1f7eba0
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: MappingCallbackProc, MappingCallbackProc callback function [Internationalization for Windows Applications], PFN_MAPPINGCALLBACKPROC, elscore/MappingCallbackProc, intl.mappingcallbackproc
+ms.keywords: MappingCallbackProc, MappingCallbackProc callback function [Internationalization for Windows Applications], PFN_MAPPINGCALLBACKPROC, PFN_MAPPINGCALLBACKPROC callback, elscore/MappingCallbackProc, intl.mappingcallbackproc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# PFN_MAPPINGCALLBACKPROC callback
+# PFN_MAPPINGCALLBACKPROC callback function
 
 
 ## -description

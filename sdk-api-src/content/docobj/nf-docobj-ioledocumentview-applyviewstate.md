@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.ApplyViewState
-title: IOleDocumentView::ApplyViewState method
+title: IOleDocumentView::ApplyViewState
 author: windows-driver-content
 description: Initializes a view with view state previously saved in call to IOleDocumentView::SaveViewState.
 old-location: com\ioledocumentview_applyviewstate.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f78526b4-977a-4dde-8a2f-7ae0a1c5c7f9
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ApplyViewState method [COM], ApplyViewState method [COM], IOleDocumentView interface, ApplyViewState,IOleDocumentView.ApplyViewState, IOleDocumentView, IOleDocumentView interface [COM], ApplyViewState method, IOleDocumentView::ApplyViewState, _ole_ioledocumentview_applyviewstate, com.ioledocumentview_applyviewstate, docobj/IOleDocumentView::ApplyViewState
+ms.keywords: ApplyViewState, ApplyViewState method [COM], ApplyViewState method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],ApplyViewState method, IOleDocumentView.ApplyViewState, IOleDocumentView::ApplyViewState, _ole_ioledocumentview_applyviewstate, com.ioledocumentview_applyviewstate, docobj/IOleDocumentView::ApplyViewState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IOleDocumentView::ApplyViewState method
+# IOleDocumentView::ApplyViewState
 
 
 ## -description

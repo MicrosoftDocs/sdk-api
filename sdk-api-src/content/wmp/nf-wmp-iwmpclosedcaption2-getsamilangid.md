@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.getSAMILangID
-title: IWMPClosedCaption2::getSAMILangID method
+title: IWMPClosedCaption2::getSAMILangID
 author: windows-driver-content
 description: The getSAMILangID method retrieves the locale identifier (LCID) of a language supported by the current SAMI file.
 old-location: wmp\iwmpclosedcaption2_getsamilangid.htm
 old-project: WMP
 ms.assetid: c17418ce-d653-43b3-9702-62c049eecdfc
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPClosedCaption2, IWMPClosedCaption2 interface [Windows Media Player], getSAMILangID method, IWMPClosedCaption2::getSAMILangID, IWMPClosedCaption2getSAMILangID, getSAMILangID method [Windows Media Player], getSAMILangID method [Windows Media Player], IWMPClosedCaption2 interface, getSAMILangID,IWMPClosedCaption2.getSAMILangID, wmp.iwmpclosedcaption2_getsamilangid, wmp/IWMPClosedCaption2::getSAMILangID
+ms.date: 5/4/2018
+ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],getSAMILangID method, IWMPClosedCaption2.getSAMILangID, IWMPClosedCaption2::getSAMILangID, IWMPClosedCaption2getSAMILangID, getSAMILangID, getSAMILangID method [Windows Media Player], getSAMILangID method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_getsamilangid, wmp/IWMPClosedCaption2::getSAMILangID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPClosedCaption2::getSAMILangID method
+# IWMPClosedCaption2::getSAMILangID
 
 
 ## -description

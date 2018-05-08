@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure3.GetStartRecConfig
-title: IStreamBufferConfigure3::GetStartRecConfig method
+title: IStreamBufferConfigure3::GetStartRecConfig
 author: windows-driver-content
 description: The GetStartRecConfig method queries whether the IStreamBufferRecordControl::Start method automatically stops the current recording.
 old-location: mstv\istreambufferconfigure3_getstartrecconfig.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: caf50c08-5247-4229-8952-9d538362b33d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetStartRecConfig method [Microsoft TV Technologies], GetStartRecConfig method [Microsoft TV Technologies], IStreamBufferConfigure3 interface, GetStartRecConfig,IStreamBufferConfigure3.GetStartRecConfig, IStreamBufferConfigure3, IStreamBufferConfigure3 interface [Microsoft TV Technologies], GetStartRecConfig method, IStreamBufferConfigure3::GetStartRecConfig, IStreamBufferConfigure3GetStartRecConfig, mstv.istreambufferconfigure3_getstartrecconfig, sbe/IStreamBufferConfigure3::GetStartRecConfig
+ms.keywords: GetStartRecConfig, GetStartRecConfig method [Microsoft TV Technologies], GetStartRecConfig method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, IStreamBufferConfigure3 interface [Microsoft TV Technologies],GetStartRecConfig method, IStreamBufferConfigure3.GetStartRecConfig, IStreamBufferConfigure3::GetStartRecConfig, IStreamBufferConfigure3GetStartRecConfig, mstv.istreambufferconfigure3_getstartrecconfig, sbe/IStreamBufferConfigure3::GetStartRecConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferConfigure3::GetStartRecConfig method
+# IStreamBufferConfigure3::GetStartRecConfig
 
 
 ## -description

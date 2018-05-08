@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamDestRect
-title: ID3D11VideoContext::VideoProcessorGetStreamDestRect method
+title: ID3D11VideoContext::VideoProcessorGetStreamDestRect
 author: windows-driver-content
 description: Gets the destination rectangle for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamdestrect.htm
 old-project: medfound
 ms.assetid: F7968C74-8053-4A16-88C7-30729900B95D
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorGetStreamDestRect method, ID3D11VideoContext::VideoProcessorGetStreamDestRect, VideoProcessorGetStreamDestRect method [Media Foundation], VideoProcessorGetStreamDestRect method [Media Foundation], ID3D11VideoContext interface, VideoProcessorGetStreamDestRect,ID3D11VideoContext.VideoProcessorGetStreamDestRect, d3d11/ID3D11VideoContext::VideoProcessorGetStreamDestRect, mf.id3d11videocontext_videoprocessorgetstreamdestrect
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamDestRect method, ID3D11VideoContext.VideoProcessorGetStreamDestRect, ID3D11VideoContext::VideoProcessorGetStreamDestRect, VideoProcessorGetStreamDestRect, VideoProcessorGetStreamDestRect method [Media Foundation], VideoProcessorGetStreamDestRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamDestRect, mf.id3d11videocontext_videoprocessorgetstreamdestrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::VideoProcessorGetStreamDestRect method
+# ID3D11VideoContext::VideoProcessorGetStreamDestRect
 
 
 ## -description

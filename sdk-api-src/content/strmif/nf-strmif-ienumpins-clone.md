@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IEnumPins.Clone
-title: IEnumPins::Clone method
+title: IEnumPins::Clone
 author: windows-driver-content
 description: The Clone method makes a copy of the enumerator with the same enumeration state.
 old-location: dshow\ienumpins_clone.htm
 old-project: DirectShow
 ms.assetid: 946bb08e-6866-46b3-b2d7-de2ab6c5e608
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Clone method [DirectShow], Clone method [DirectShow], IEnumPins interface, Clone,IEnumPins.Clone, IEnumPins, IEnumPins interface [DirectShow], Clone method, IEnumPins::Clone, IEnumPinsClone, dshow.ienumpins_clone, strmif/IEnumPins::Clone
+ms.date: 4/30/2018
+ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumPins interface, IEnumPins interface [DirectShow],Clone method, IEnumPins.Clone, IEnumPins::Clone, IEnumPinsClone, dshow.ienumpins_clone, strmif/IEnumPins::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEnumPins::Clone method
+# IEnumPins::Clone
 
 
 ## -description

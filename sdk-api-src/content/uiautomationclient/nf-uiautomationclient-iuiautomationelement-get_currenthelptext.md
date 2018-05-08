@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentHelpText
-title: IUIAutomationElement::get_CurrentHelpText method
+title: IUIAutomationElement::get_CurrentHelpText
 author: windows-driver-content
 description: Retrieves the help text for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentHelpText.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 02ecfecc-5c3d-458b-827a-a598b8f98916
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentHelpText property [Windows Accessibility], CurrentHelpText property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentHelpText property, IUIAutomationElement.CurrentHelpText, IUIAutomationElement::get_CurrentHelpText, get_CurrentHelpText,IUIAutomationElement.get_CurrentHelpText, uiauto.uiauto_IUIAutomationElement_CurrentHelpText, uiauto_IUIAutomationElement_CurrentHelpText, uiautomationclient/IUIAutomationElement::CurrentHelpText, uiautomationclient/IUIAutomationElement::get_CurrentHelpText, winauto.uiauto_IUIAutomationElement_CurrentHelpText
+ms.keywords: CurrentHelpText property [Windows Accessibility], CurrentHelpText property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentHelpText property, IUIAutomationElement.CurrentHelpText, IUIAutomationElement.get_CurrentHelpText, IUIAutomationElement::CurrentHelpText, IUIAutomationElement::get_CurrentHelpText, get_CurrentHelpText, uiauto.uiauto_IUIAutomationElement_CurrentHelpText, uiauto_IUIAutomationElement_CurrentHelpText, uiautomationclient/IUIAutomationElement::CurrentHelpText, uiautomationclient/IUIAutomationElement::get_CurrentHelpText, winauto.uiauto_IUIAutomationElement_CurrentHelpText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CurrentHelpText method
+# IUIAutomationElement::get_CurrentHelpText
 
 
 ## -description

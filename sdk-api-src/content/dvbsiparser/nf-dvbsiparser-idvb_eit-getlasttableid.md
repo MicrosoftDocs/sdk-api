@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetLastTableId
-title: IDVB_EIT::GetLastTableId method
+title: IDVB_EIT::GetLastTableId
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_getlasttableid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b99ab578-fec3-457c-8be2-f0cb65c5b7f7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLastTableId method [Microsoft TV Technologies], GetLastTableId method [Microsoft TV Technologies], IDVB_EIT interface, GetLastTableId,IDVB_EIT.GetLastTableId, IDVB_EIT, IDVB_EIT interface [Microsoft TV Technologies], GetLastTableId method, IDVB_EIT::GetLastTableId, IDVB_EITGetLastTableId, dvbsiparser/IDVB_EIT::GetLastTableId, mstv.idvb_eit_getlasttableid
+ms.keywords: GetLastTableId, GetLastTableId method [Microsoft TV Technologies], GetLastTableId method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetLastTableId method, IDVB_EIT.GetLastTableId, IDVB_EIT::GetLastTableId, IDVB_EITGetLastTableId, dvbsiparser/IDVB_EIT::GetLastTableId, mstv.idvb_eit_getlasttableid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_EIT::GetLastTableId method
+# IDVB_EIT::GetLastTableId
 
 
 ## -description

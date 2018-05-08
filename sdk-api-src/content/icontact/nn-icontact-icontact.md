@@ -8,7 +8,7 @@ old-project: wincontacts
 ms.assetid: 9dc97b84-ede9-4ec1-939a-2b13e0d68486
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IContact, IContact interface [Windows Contacts], IContact interface [Windows Contacts], described, _wincontacts_IContact, icontact/IContact, wincontacts._wincontacts_IContact
+ms.keywords: IContact, IContact interface [Windows Contacts], IContact interface [Windows Contacts],described, _wincontacts_IContact, icontact/IContact, wincontacts._wincontacts_IContact
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

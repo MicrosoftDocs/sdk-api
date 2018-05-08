@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCache.Cache
-title: IOleCache::Cache method
+title: IOleCache::Cache
 author: windows-driver-content
 description: Specifies the format and other data to be cached inside an embedded object.
 old-location: com\iolecache_cache.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 2a86063a-3ee6-4fc2-a6e0-6e9ffa658348
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Cache method [COM], Cache method [COM], IOleCache interface, Cache,IOleCache.Cache, IOleCache, IOleCache interface [COM], Cache method, IOleCache::Cache, _ole_iolecache_cache, com.iolecache_cache, oleidl/IOleCache::Cache
+ms.keywords: Cache, Cache method [COM], Cache method [COM],IOleCache interface, IOleCache interface [COM],Cache method, IOleCache.Cache, IOleCache::Cache, _ole_iolecache_cache, com.iolecache_cache, oleidl/IOleCache::Cache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleCache::Cache method
+# IOleCache::Cache
 
 
 ## -description

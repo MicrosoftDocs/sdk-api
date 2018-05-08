@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.EnumDisplayModes
-title: IDirectDraw7::EnumDisplayModes method
+title: IDirectDraw7::EnumDisplayModes
 author: windows-driver-content
 description: Enumerates all the display modes that the hardware exposes through the DirectDraw object and that are compatible with a provided surface description.
 old-location: directdraw\idirectdraw7_enumdisplaymodes.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 04ed2545-c611-435d-95ef-a0d854380a69
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DDEDM_REFRESHRATES, DDEDM_STANDARDVGAMODES, EnumDisplayModes method [DirectDraw], EnumDisplayModes method [DirectDraw], IDirectDraw7 interface, EnumDisplayModes,IDirectDraw7.EnumDisplayModes, IDirectDraw7, IDirectDraw7 interface [DirectDraw], EnumDisplayModes method, IDirectDraw7::EnumDisplayModes, ddraw/IDirectDraw7::EnumDisplayModes, directdraw.idirectdraw7_enumdisplaymodes
+ms.keywords: DDEDM_REFRESHRATES, DDEDM_STANDARDVGAMODES, EnumDisplayModes, EnumDisplayModes method [DirectDraw], EnumDisplayModes method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EnumDisplayModes method, IDirectDraw7.EnumDisplayModes, IDirectDraw7::EnumDisplayModes, ddraw/IDirectDraw7::EnumDisplayModes, directdraw.idirectdraw7_enumdisplaymodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDraw7::EnumDisplayModes method
+# IDirectDraw7::EnumDisplayModes
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.AddPropertyItem
-title: IAzTask::AddPropertyItem method
+title: IAzTask::AddPropertyItem
 author: windows-driver-content
 description: Adds the specified entity to the specified list.
 old-location: security\iaztask_addpropertyitem.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 50d8c1f2-11c3-41d8-b935-a8f296d2c18f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AddPropertyItem method [Security], AddPropertyItem method [Security], AzTask object, AddPropertyItem method [Security], IAzTask interface, AddPropertyItem,IAzTask.AddPropertyItem, AzTask object [Security], AddPropertyItem method, IAzTask, IAzTask interface [Security], AddPropertyItem method, IAzTask::AddPropertyItem, azroles/IAzTask::AddPropertyItem, security.iaztask_addpropertyitem
+ms.keywords: AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzTask object, AddPropertyItem method [Security],IAzTask interface, AzTask object [Security],AddPropertyItem method, IAzTask interface [Security],AddPropertyItem method, IAzTask.AddPropertyItem, IAzTask::AddPropertyItem, azroles/IAzTask::AddPropertyItem, security.iaztask_addpropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzTask::AddPropertyItem method
+# IAzTask::AddPropertyItem
 
 
 ## -description

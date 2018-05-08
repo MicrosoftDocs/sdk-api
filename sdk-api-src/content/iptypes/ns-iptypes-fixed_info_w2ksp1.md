@@ -7,7 +7,7 @@ old-location: iphlp\fixed_info.htm
 old-project: IpHlp
 ms.assetid: 6dcf33c6-33dc-4583-9b04-5231948d3d9a
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: "*PFIXED_INFO, *PFIXED_INFO_W2KSP1, BROADCAST_NODETYPE, FIXED_INFO, FIXED_INFO structure [IP Helper], FIXED_INFO_W2KSP1, HYBRID_NODETYPE, MIXED_NODETYPE, PEER_TO_PEER_NODETYPE, PFIXED_INFO, PFIXED_INFO structure pointer [IP Helper], _iphlp_fixed_info, iphlp.fixed_info, iptypes/FIXED_INFO, iptypes/PFIXED_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

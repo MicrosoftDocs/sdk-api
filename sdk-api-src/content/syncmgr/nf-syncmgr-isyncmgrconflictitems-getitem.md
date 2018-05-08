@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictItems.GetItem
-title: ISyncMgrConflictItems::GetItem method
+title: ISyncMgrConflictItems::GetItem
 author: windows-driver-content
 description: Gets a specified conflict data item.
 old-location: shell\ISyncMgrConflictItems_GetItem.htm
 old-project: shell
 ms.assetid: f75a0cc5-1f82-426a-bb66-f34000219300
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetItem method [Windows Shell], GetItem method [Windows Shell], ISyncMgrConflictItems interface, GetItem,ISyncMgrConflictItems.GetItem, ISyncMgrConflictItems, ISyncMgrConflictItems interface [Windows Shell], GetItem method, ISyncMgrConflictItems::GetItem, _shell_ISyncMgrConflictItems_GetItem, shell.ISyncMgrConflictItems_GetItem, syncmgr/ISyncMgrConflictItems::GetItem
+ms.date: 5/3/2018
+ms.keywords: GetItem, GetItem method [Windows Shell], GetItem method [Windows Shell],ISyncMgrConflictItems interface, ISyncMgrConflictItems interface [Windows Shell],GetItem method, ISyncMgrConflictItems.GetItem, ISyncMgrConflictItems::GetItem, _shell_ISyncMgrConflictItems_GetItem, shell.ISyncMgrConflictItems_GetItem, syncmgr/ISyncMgrConflictItems::GetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrConflictItems::GetItem method
+# ISyncMgrConflictItems::GetItem
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: rpc\rpcnsmgmtsetexpage.htm
 old-project: Rpc
 ms.assetid: 9433e8c3-2c52-4994-8661-6af089fa9bc9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcNsMgmtSetExpAge, RpcNsMgmtSetExpAge function [RPC], _rpc_rpcnsmgmtsetexpage, rpc.rpcnsmgmtsetexpage, rpcnsi/RpcNsMgmtSetExpAge
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.GetUtilInterface
-title: ICatalogCollection::GetUtilInterface method
+title: ICatalogCollection::GetUtilInterface
 author: windows-driver-content
 description: Retrieves the utility interface for the collection.
 old-location: cos\icatalogcollection_getutilinterface.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: bac2153d-253b-4be1-be14-2c1207799ada
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetUtilInterface method [COM+], GetUtilInterface method [COM+], ICatalogCollection interface, GetUtilInterface,ICatalogCollection.GetUtilInterface, ICatalogCollection, ICatalogCollection interface [COM+], GetUtilInterface method, ICatalogCollection::GetUtilInterface, _cos_ICatalogCollection_GetUtilInterface, comadmin/ICatalogCollection::GetUtilInterface, cos.icatalogcollection_getutilinterface
+ms.keywords: GetUtilInterface, GetUtilInterface method [COM+], GetUtilInterface method [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],GetUtilInterface method, ICatalogCollection.GetUtilInterface, ICatalogCollection::GetUtilInterface, _cos_ICatalogCollection_GetUtilInterface, comadmin/ICatalogCollection::GetUtilInterface, cos.icatalogcollection_getutilinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICatalogCollection::GetUtilInterface method
+# ICatalogCollection::GetUtilInterface
 
 
 ## -description

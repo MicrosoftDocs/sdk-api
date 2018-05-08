@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.Clone
-title: IXpsOMDictionary::Clone method
+title: IXpsOMDictionary::Clone
 author: windows-driver-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomdictionary_clone.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f0e57247-73c2-466e-beba-b4dd09fb1f3c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging], IXpsOMDictionary interface, Clone,IXpsOMDictionary.Clone, IXpsOMDictionary, IXpsOMDictionary interface [XPS Documents and Packaging], Clone method, IXpsOMDictionary::Clone, xps.ixpsomdictionary_clone, xpsobjectmodel/IXpsOMDictionary::Clone
+ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],Clone method, IXpsOMDictionary.Clone, IXpsOMDictionary::Clone, xps.ixpsomdictionary_clone, xpsobjectmodel/IXpsOMDictionary::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDictionary::Clone method
+# IXpsOMDictionary::Clone
 
 
 ## -description

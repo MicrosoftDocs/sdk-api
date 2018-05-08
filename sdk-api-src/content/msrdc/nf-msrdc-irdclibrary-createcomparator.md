@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateComparator
-title: IRdcLibrary::CreateComparator method
+title: IRdcLibrary::CreateComparator
 author: windows-driver-content
 description: Creates a signature comparator.
 old-location: rdc\irdclibrary_createcomparator.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 21e83ed0-974a-470f-8a7f-1776f1575100
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateComparator method [Remote Differential Compression], CreateComparator method [Remote Differential Compression], IRdcLibrary interface, CreateComparator,IRdcLibrary.CreateComparator, IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], CreateComparator method, IRdcLibrary::CreateComparator, MSRDC_DEFAULT_COMPAREBUFFER, MSRDC_MAXIMUM_COMPAREBUFFER, MSRDC_MINIMUM_COMPAREBUFFER, fs.irdclibrary_createcomparator, msrdc/IRdcLibrary::CreateComparator, rdc.irdclibrary_createcomparator
+ms.keywords: CreateComparator, CreateComparator method [Remote Differential Compression], CreateComparator method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateComparator method, IRdcLibrary.CreateComparator, IRdcLibrary::CreateComparator, MSRDC_DEFAULT_COMPAREBUFFER, MSRDC_MAXIMUM_COMPAREBUFFER, MSRDC_MINIMUM_COMPAREBUFFER, fs.irdclibrary_createcomparator, msrdc/IRdcLibrary::CreateComparator, rdc.irdclibrary_createcomparator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcLibrary::CreateComparator method
+# IRdcLibrary::CreateComparator
 
 
 ## -description

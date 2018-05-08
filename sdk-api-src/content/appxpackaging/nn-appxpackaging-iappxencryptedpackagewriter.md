@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 19096DFB-A8CF-4DEF-863B-3DBB9E893A8D
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxEncryptedPackageWriter, IAppxEncryptedPackageWriter interface [App packaging and management], IAppxEncryptedPackageWriter interface [App packaging and management], described, appxpackaging/IAppxEncryptedPackageWriter, appxpkg.iappxencryptedpackagewriter
+ms.keywords: IAppxEncryptedPackageWriter, IAppxEncryptedPackageWriter interface [App packaging and management], IAppxEncryptedPackageWriter interface [App packaging and management],described, appxpackaging/IAppxEncryptedPackageWriter, appxpkg.iappxencryptedpackagewriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

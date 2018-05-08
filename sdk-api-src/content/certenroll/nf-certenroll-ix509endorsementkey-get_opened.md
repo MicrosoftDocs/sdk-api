@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.get_Opened
-title: IX509EndorsementKey::get_Opened method
+title: IX509EndorsementKey::get_Opened
 author: windows-driver-content
 description: Indicates whether the Open method has been successfully called.
 old-location: security\ix509endorsementkey_opened.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 6bc1030b-66c9-4175-a3bb-6194d039c73f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], Opened property, IX509EndorsementKey.Opened, IX509EndorsementKey::get_Opened, Opened property [Security], Opened property [Security], IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Opened, certenroll/IX509EndorsementKey::get_Opened, get_Opened,IX509EndorsementKey.get_Opened, security.ix509endorsementkey_opened
+ms.keywords: IX509EndorsementKey interface [Security],Opened property, IX509EndorsementKey.Opened, IX509EndorsementKey.get_Opened, IX509EndorsementKey::Opened, IX509EndorsementKey::get_Opened, Opened property [Security], Opened property [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Opened, certenroll/IX509EndorsementKey::get_Opened, get_Opened, security.ix509endorsementkey_opened
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenroll.dll
 req.irql: 
 ---
 
-# IX509EndorsementKey::get_Opened method
+# IX509EndorsementKey::get_Opened
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.put_LogApisRecursively
-title: IApiTracingDataCollector::put_LogApisRecursively method
+title: IApiTracingDataCollector::put_LogApisRecursively
 author: windows-driver-content
 description: Retrieves or sets a value that indicates whether API tracing logs calls that are imported directly by the application.
 old-location: pla\iapitracingdatacollector_logapisrecursively.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 245f4f27-9a57-459c-b6e9-fe11fe58d77a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IApiTracingDataCollector, IApiTracingDataCollector interface [PLA], LogApisRecursively property, IApiTracingDataCollector.LogApisRecursively, IApiTracingDataCollector::get_LogApisRecursively, IApiTracingDataCollector::put_LogApisRecursively, LogApisRecursively property [PLA], LogApisRecursively property [PLA], IApiTracingDataCollector interface, pla.iapitracingdatacollector_logapisrecursively, pla/IApiTracingDataCollector::LogApisRecursively, pla/IApiTracingDataCollector::get_LogApisRecursively, pla/IApiTracingDataCollector::put_LogApisRecursively, put_LogApisRecursively,IApiTracingDataCollector.put_LogApisRecursively
+ms.keywords: IApiTracingDataCollector interface [PLA],LogApisRecursively property, IApiTracingDataCollector.LogApisRecursively, IApiTracingDataCollector.put_LogApisRecursively, IApiTracingDataCollector::LogApisRecursively, IApiTracingDataCollector::get_LogApisRecursively, IApiTracingDataCollector::put_LogApisRecursively, LogApisRecursively property [PLA], LogApisRecursively property [PLA],IApiTracingDataCollector interface, pla.iapitracingdatacollector_logapisrecursively, pla/IApiTracingDataCollector::LogApisRecursively, pla/IApiTracingDataCollector::get_LogApisRecursively, pla/IApiTracingDataCollector::put_LogApisRecursively, put_LogApisRecursively
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IApiTracingDataCollector::put_LogApisRecursively method
+# IApiTracingDataCollector::put_LogApisRecursively
 
 
 ## -description

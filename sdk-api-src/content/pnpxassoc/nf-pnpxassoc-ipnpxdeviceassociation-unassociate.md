@@ -1,6 +1,6 @@
 ---
 UID: NF:pnpxassoc.IPNPXDeviceAssociation.Unassociate
-title: IPNPXDeviceAssociation::Unassociate method
+title: IPNPXDeviceAssociation::Unassociate
 author: windows-driver-content
 description: Marks an association database entry as unassociated and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_unassociate.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: fb420967-c79c-4edd-a432-b982219c0746
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPNPXDeviceAssociation, IPNPXDeviceAssociation interface, Unassociate method, IPNPXDeviceAssociation::Unassociate, Unassociate method, Unassociate method, IPNPXDeviceAssociation interface, Unassociate,IPNPXDeviceAssociation.Unassociate, ncd.ipnpxdeviceassociation_unassociate, pnpxassoc/IPNPXDeviceAssociation::Unassociate
+ms.keywords: IPNPXDeviceAssociation interface,Unassociate method, IPNPXDeviceAssociation.Unassociate, IPNPXDeviceAssociation::Unassociate, Unassociate, Unassociate method, Unassociate method,IPNPXDeviceAssociation interface, ncd.ipnpxdeviceassociation_unassociate, pnpxassoc/IPNPXDeviceAssociation::Unassociate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPNPXDeviceAssociation::Unassociate method
+# IPNPXDeviceAssociation::Unassociate
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.GetSecurityFlags
-title: IBackgroundCopyJobHttpOptions::GetSecurityFlags method
+title: IBackgroundCopyJobHttpOptions::GetSecurityFlags
 author: windows-driver-content
 description: Retrieves the flags for HTTP that determine whether the certificate revocation list is checked and certain certificate errors are ignored, and the policy to use when a server redirects the HTTP request.
 old-location: bits\ibackgroundcopyjobhttpoptions_getsecurityflags.htm
 old-project: Bits
 ms.assetid: 75104dca-086e-45f6-ad9e-a96730b37433
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: BG_HTTP_REDIRECT_POLICY_ALLOW_HTTPS_TO_HTTP, BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT, BG_HTTP_REDIRECT_POLICY_ALLOW_SILENT, BG_HTTP_REDIRECT_POLICY_DISALLOW, BG_HTTP_REDIRECT_POLICY_MASK, BG_SSL_ENABLE_CRL_CHECK, BG_SSL_IGNORE_CERT_CN_INVALID, BG_SSL_IGNORE_CERT_DATE_INVALID, BG_SSL_IGNORE_CERT_WRONG_USAGE, BG_SSL_IGNORE_UNKNOWN_CA, GetSecurityFlags method [BITS], GetSecurityFlags method [BITS], IBackgroundCopyJobHttpOptions interface, GetSecurityFlags,IBackgroundCopyJobHttpOptions.GetSecurityFlags, IBackgroundCopyJobHttpOptions, IBackgroundCopyJobHttpOptions interface [BITS], GetSecurityFlags method, IBackgroundCopyJobHttpOptions::GetSecurityFlags, bits.ibackgroundcopyjobhttpoptions_getsecurityflags, bits2_5/IBackgroundCopyJobHttpOptions::GetSecurityFlags
+ms.date: 4/27/2018
+ms.keywords: BG_HTTP_REDIRECT_POLICY_ALLOW_HTTPS_TO_HTTP, BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT, BG_HTTP_REDIRECT_POLICY_ALLOW_SILENT, BG_HTTP_REDIRECT_POLICY_DISALLOW, BG_HTTP_REDIRECT_POLICY_MASK, BG_SSL_ENABLE_CRL_CHECK, BG_SSL_IGNORE_CERT_CN_INVALID, BG_SSL_IGNORE_CERT_DATE_INVALID, BG_SSL_IGNORE_CERT_WRONG_USAGE, BG_SSL_IGNORE_UNKNOWN_CA, GetSecurityFlags, GetSecurityFlags method [BITS], GetSecurityFlags method [BITS],IBackgroundCopyJobHttpOptions interface, IBackgroundCopyJobHttpOptions interface [BITS],GetSecurityFlags method, IBackgroundCopyJobHttpOptions.GetSecurityFlags, IBackgroundCopyJobHttpOptions::GetSecurityFlags, bits.ibackgroundcopyjobhttpoptions_getsecurityflags, bits2_5/IBackgroundCopyJobHttpOptions::GetSecurityFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBackgroundCopyJobHttpOptions::GetSecurityFlags method
+# IBackgroundCopyJobHttpOptions::GetSecurityFlags
 
 
 ## -description

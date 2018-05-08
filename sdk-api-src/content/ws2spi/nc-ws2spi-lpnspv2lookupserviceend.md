@@ -7,7 +7,7 @@ old-location: winsock\nspv2lookupserviceend.htm
 old-project: WinSock
 ms.assetid: 5f2b56c5-3a8e-4bf9-8f28-d2a06543227b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: LPNSPV2LOOKUPSERVICEEND, NSPv2LookupServiceEnd, NSPv2LookupServiceEnd function [Winsock], winsock.nspv2lookupserviceend, ws2spi/NSPv2LookupServiceEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# LPNSPV2LOOKUPSERVICEEND callback
+# LPNSPV2LOOKUPSERVICEEND callback function
 
 
 ## -description

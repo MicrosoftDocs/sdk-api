@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 90A66286-F17D-40AD-B0CB-6E02C1E1709A
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, PCLUSAPI_CLUSTER_REG_SYNC_DATABASE callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, mscs.clusterregsyncdatabase
+ms.keywords: PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, PCLUSAPI_CLUSTER_REG_SYNC_DATABASE callback, PCLUSAPI_CLUSTER_REG_SYNC_DATABASE callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, mscs.clusterregsyncdatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CLUSTER_REG_SYNC_DATABASE callback
+# PCLUSAPI_CLUSTER_REG_SYNC_DATABASE callback function
 
 
 ## -description

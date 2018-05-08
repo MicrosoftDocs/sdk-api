@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IBDAComparable.CompareExact
-title: IBDAComparable::CompareExact method
+title: IBDAComparable::CompareExact
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable_compareexact.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 65053d86-4c8c-4c68-90a6-118454cf2eb1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CompareExact method [Microsoft TV Technologies], CompareExact method [Microsoft TV Technologies], IBDAComparable interface, CompareExact,IBDAComparable.CompareExact, IBDAComparable, IBDAComparable interface [Microsoft TV Technologies], CompareExact method, IBDAComparable::CompareExact, IBDAComparableCompareExact, mstv.ibdacomparable_compareexact, tuner/IBDAComparable::CompareExact
+ms.keywords: CompareExact, CompareExact method [Microsoft TV Technologies], CompareExact method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],CompareExact method, IBDAComparable.CompareExact, IBDAComparable::CompareExact, IBDAComparableCompareExact, mstv.ibdacomparable_compareexact, tuner/IBDAComparable::CompareExact
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IBDAComparable::CompareExact method
+# IBDAComparable::CompareExact
 
 
 ## -description

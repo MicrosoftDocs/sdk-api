@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.SetNextSourceFromMediaSourceAsync
-title: IMediaRenderer::SetNextSourceFromMediaSourceAsync method
+title: IMediaRenderer::streaming
 author: windows-driver-content
 description: Instructs the DMR asynchronously to prepare the specified content for playing once the current content has finished playing.
 old-location: mediastreaming\imediarenderer_setnextsourcefrommediasourceasync.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 054203C8-766B-4448-A275-CA61C9D177AD
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], SetNextSourceFromMediaSourceAsync method, IMediaRenderer::SetNextSourceFromMediaSourceAsync, SetNextSourceFromMediaSourceAsync method [Media Streaming API], SetNextSourceFromMediaSourceAsync method [Media Streaming API], IMediaRenderer interface, SetNextSourceFromMediaSourceAsync,IMediaRenderer.SetNextSourceFromMediaSourceAsync, mediastreaming.imediarenderer_setnextsourcefrommediasourceasync, windows/IMediaRenderer::SetNextSourceFromMediaSourceAsync
+ms.keywords: IMediaRenderer interface [Media Streaming API],SetNextSourceFromMediaSourceAsync method, IMediaRenderer.SetNextSourceFromMediaSourceAsync, IMediaRenderer.streaming, IMediaRenderer::SetNextSourceFromMediaSourceAsync, IMediaRenderer::streaming, SetNextSourceFromMediaSourceAsync, SetNextSourceFromMediaSourceAsync method [Media Streaming API], SetNextSourceFromMediaSourceAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setnextsourcefrommediasourceasync, windows/IMediaRenderer::SetNextSourceFromMediaSourceAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IMediaRenderer::SetNextSourceFromMediaSourceAsync method
+# IMediaRenderer::streaming
 
 
 ## -description

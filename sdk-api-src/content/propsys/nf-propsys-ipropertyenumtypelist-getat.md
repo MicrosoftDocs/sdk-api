@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyEnumTypeList.GetAt
-title: IPropertyEnumTypeList::GetAt method
+title: IPropertyEnumTypeList::GetAt
 author: windows-driver-content
 description: Gets the IPropertyEnumType object at the specified index in the list.
 old-location: properties\IPropertyEnumTypeList_GetAt.htm
 old-project: properties
 ms.assetid: 1713d16f-58d9-46f9-9795-4e05ff257901
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetAt method [Windows Properties], GetAt method [Windows Properties], IPropertyEnumTypeList interface, GetAt,IPropertyEnumTypeList.GetAt, IPropertyEnumTypeList, IPropertyEnumTypeList interface [Windows Properties], GetAt method, IPropertyEnumTypeList::GetAt, _shell_IPropertyEnumTypeList_GetAt, properties.IPropertyEnumTypeList_GetAt, propsys/IPropertyEnumTypeList::GetAt, shell.IPropertyEnumTypeList_GetAt
+ms.date: 4/27/2018
+ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],GetAt method, IPropertyEnumTypeList.GetAt, IPropertyEnumTypeList::GetAt, _shell_IPropertyEnumTypeList_GetAt, properties.IPropertyEnumTypeList_GetAt, propsys/IPropertyEnumTypeList::GetAt, shell.IPropertyEnumTypeList_GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyEnumTypeList::GetAt method
+# IPropertyEnumTypeList::GetAt
 
 
 ## -description

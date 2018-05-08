@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPrintQueueOperations.PrintJobs
-title: IADsPrintQueueOperations::PrintJobs method
+title: IADsPrintQueueOperations::PrintJobs
 author: windows-driver-content
 description: The IADsPrintQueueOperations::PrintJobs method gets an IADsCollection interface pointer on the collection of the print jobs processed in this print queue.
 old-location: adsi\iadsprintqueueoperations_printjobs.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: fe92fef3-596f-416c-b613-1d93737c298e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsPrintQueueOperations, IADsPrintQueueOperations interface [ADSI], PrintJobs method, IADsPrintQueueOperations::PrintJobs, PrintJobs method [ADSI], PrintJobs method [ADSI], IADsPrintQueueOperations interface, PrintJobs,IADsPrintQueueOperations.PrintJobs, _ds_iadsprintqueueoperations_printjobs, adsi.iadsprintqueueoperations__printjobs, adsi.iadsprintqueueoperations_printjobs, iads/IADsPrintQueueOperations::PrintJobs
+ms.keywords: IADsPrintQueueOperations interface [ADSI],PrintJobs method, IADsPrintQueueOperations.PrintJobs, IADsPrintQueueOperations::PrintJobs, PrintJobs, PrintJobs method [ADSI], PrintJobs method [ADSI],IADsPrintQueueOperations interface, _ds_iadsprintqueueoperations_printjobs, adsi.iadsprintqueueoperations__printjobs, adsi.iadsprintqueueoperations_printjobs, iads/IADsPrintQueueOperations::PrintJobs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsPrintQueueOperations::PrintJobs method
+# IADsPrintQueueOperations::PrintJobs
 
 
 ## -description

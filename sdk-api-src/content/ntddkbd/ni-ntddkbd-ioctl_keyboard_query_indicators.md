@@ -7,8 +7,8 @@ old-location: hid\ioctl_keyboard_query_indicators.htm
 old-project: hid
 ms.assetid: 3d70b34c-e201-40fc-99dd-cd05bdeec5f8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_KEYBOARD_QUERY_INDICATORS, IOCTL_KEYBOARD_QUERY_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_query_indicators, kref_41aef51b-c9f1-4549-b67a-cb7a3a9424c4.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATORS
+ms.date: 4/30/2018
+ms.keywords: IOCTL_KEYBOARD_QUERY_INDICATORS, IOCTL_KEYBOARD_QUERY_INDICATORS control, IOCTL_KEYBOARD_QUERY_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_query_indicators, kref_41aef51b-c9f1-4549-b67a-cb7a3a9424c4.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATORS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

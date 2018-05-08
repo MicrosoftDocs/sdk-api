@@ -8,7 +8,7 @@ old-project: ETW
 ms.assetid: e9f70ae6-906f-4e55-bca7-4355f1ca6091
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ControlCallback, ControlCallback callback function [ETW], WMIDPREQUEST, WMI_DISABLE_EVENTS, WMI_ENABLE_EVENTS, _evt_controlcallback, base.controlcallback, etw.controlcallback, evntrace/ControlCallback
+ms.keywords: ControlCallback, ControlCallback callback function [ETW], WMIDPREQUEST, WMIDPREQUEST callback, WMI_DISABLE_EVENTS, WMI_ENABLE_EVENTS, _evt_controlcallback, base.controlcallback, etw.controlcallback, evntrace/ControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# WMIDPREQUEST callback
+# WMIDPREQUEST callback function
 
 
 ## -description

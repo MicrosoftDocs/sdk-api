@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.get_EnableT61DNEncoding
-title: IEnroll::get_EnableT61DNEncoding method
+title: IEnroll::get_EnableT61DNEncoding
 author: windows-driver-content
 description: Sets or retrieves a Boolean value that determines whether the distinguished name in the request is encoded as a T61 string instead of as a Unicode string.
 old-location: security\ienroll4_enablet61dnencoding.htm
 old-project: SecCrypto
 ms.assetid: 7ed181d1-b06f-40f4-892a-80edf327bf40
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: EnableT61DNEncoding property [Security], EnableT61DNEncoding property [Security], IEnroll interface, IEnroll, IEnroll interface [Security], EnableT61DNEncoding property, IEnroll.EnableT61DNEncoding, IEnroll::get_EnableT61DNEncoding, IEnroll::put_EnableT61DNEncoding, get_EnableT61DNEncoding,IEnroll.get_EnableT61DNEncoding, security.ienroll4_enablet61dnencoding, xenroll/IEnroll::EnableT61DNEncoding, xenroll/IEnroll::get_EnableT61DNEncoding, xenroll/IEnroll::put_EnableT61DNEncoding
+ms.date: 4/30/2018
+ms.keywords: EnableT61DNEncoding property [Security], EnableT61DNEncoding property [Security],IEnroll interface, IEnroll interface [Security],EnableT61DNEncoding property, IEnroll.EnableT61DNEncoding, IEnroll.get_EnableT61DNEncoding, IEnroll::EnableT61DNEncoding, IEnroll::get_EnableT61DNEncoding, IEnroll::put_EnableT61DNEncoding, get_EnableT61DNEncoding, security.ienroll4_enablet61dnencoding, xenroll/IEnroll::EnableT61DNEncoding, xenroll/IEnroll::get_EnableT61DNEncoding, xenroll/IEnroll::put_EnableT61DNEncoding
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::get_EnableT61DNEncoding method
+# IEnroll::get_EnableT61DNEncoding
 
 
 ## -description

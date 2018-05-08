@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetListKeyInformation
-title: ISettingsItem::GetListKeyInformation method
+title: ISettingsItem::GetListKeyInformation
 author: windows-driver-content
 description: Gets the list information for this item.
 old-location: smi\isettingsitem_getlistkeyinformation.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 34ee8457-34d1-4eff-813b-f59c35c4aa95
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetListKeyInformation method [SMI], GetListKeyInformation method [SMI], ISettingsItem interface, GetListKeyInformation,ISettingsItem.GetListKeyInformation, ISettingsItem, ISettingsItem interface [SMI], GetListKeyInformation method, ISettingsItem::GetListKeyInformation, smi.isettingsitem_getlistkeyinformation, wcmconfig/ISettingsItem::GetListKeyInformation
+ms.keywords: GetListKeyInformation, GetListKeyInformation method [SMI], GetListKeyInformation method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetListKeyInformation method, ISettingsItem.GetListKeyInformation, ISettingsItem::GetListKeyInformation, smi.isettingsitem_getlistkeyinformation, wcmconfig/ISettingsItem::GetListKeyInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsItem::GetListKeyInformation method
+# ISettingsItem::GetListKeyInformation
 
 
 ## -description

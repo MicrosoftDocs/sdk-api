@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_ApplicationGroups
-title: IAzScope::get_ApplicationGroups method
+title: IAzScope::get_ApplicationGroups
 author: windows-driver-content
 description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.
 old-location: security\iazscope_applicationgroups.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: a8c9cffa-aebb-4bb1-834b-338082a9c8de
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: ApplicationGroups property [Security], ApplicationGroups property [Security], AzScope object, ApplicationGroups property [Security], IAzScope interface, AzScope object [Security], ApplicationGroups property, IAzScope, IAzScope interface [Security], ApplicationGroups property, IAzScope.ApplicationGroups, IAzScope::get_ApplicationGroups, azroles/IAzScope::ApplicationGroups, azroles/IAzScope::get_ApplicationGroups, get_ApplicationGroups,IAzScope.get_ApplicationGroups, security.iazscope_applicationgroups
+ms.keywords: ApplicationGroups property [Security], ApplicationGroups property [Security],AzScope object, ApplicationGroups property [Security],IAzScope interface, AzScope object [Security],ApplicationGroups property, IAzScope interface [Security],ApplicationGroups property, IAzScope.ApplicationGroups, IAzScope.get_ApplicationGroups, IAzScope::ApplicationGroups, IAzScope::get_ApplicationGroups, azroles/IAzScope::ApplicationGroups, azroles/IAzScope::get_ApplicationGroups, get_ApplicationGroups, security.iazscope_applicationgroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope::get_ApplicationGroups method
+# IAzScope::get_ApplicationGroups
 
 
 ## -description

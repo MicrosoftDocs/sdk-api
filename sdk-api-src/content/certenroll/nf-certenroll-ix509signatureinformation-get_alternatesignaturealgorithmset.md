@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.get_AlternateSignatureAlgorithmSet
-title: IX509SignatureInformation::get_AlternateSignatureAlgorithmSet method
+title: IX509SignatureInformation::get_AlternateSignatureAlgorithmSet
 author: windows-driver-content
 description: Retrieves a Boolean value that specifies whether the AlternateSignatureAlgorithm property has been explicitly set by a caller.
 old-location: security\ix509signatureinformation_alternatesignaturealgorithmset_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: fd28072f-9b79-4068-b4dd-61a6a4f8beda
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: AlternateSignatureAlgorithmSet property [Security], AlternateSignatureAlgorithmSet property [Security], IX509SignatureInformation interface, IX509SignatureInformation, IX509SignatureInformation interface [Security], AlternateSignatureAlgorithmSet property, IX509SignatureInformation.AlternateSignatureAlgorithmSet, IX509SignatureInformation::get_AlternateSignatureAlgorithmSet, certenroll/IX509SignatureInformation::AlternateSignatureAlgorithmSet, certenroll/IX509SignatureInformation::get_AlternateSignatureAlgorithmSet, get_AlternateSignatureAlgorithmSet,IX509SignatureInformation.get_AlternateSignatureAlgorithmSet, security.ix509signatureinformation_alternatesignaturealgorithmset_property
+ms.keywords: AlternateSignatureAlgorithmSet property [Security], AlternateSignatureAlgorithmSet property [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],AlternateSignatureAlgorithmSet property, IX509SignatureInformation.AlternateSignatureAlgorithmSet, IX509SignatureInformation.get_AlternateSignatureAlgorithmSet, IX509SignatureInformation::AlternateSignatureAlgorithmSet, IX509SignatureInformation::get_AlternateSignatureAlgorithmSet, certenroll/IX509SignatureInformation::AlternateSignatureAlgorithmSet, certenroll/IX509SignatureInformation::get_AlternateSignatureAlgorithmSet, get_AlternateSignatureAlgorithmSet, security.ix509signatureinformation_alternatesignaturealgorithmset_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509SignatureInformation::get_AlternateSignatureAlgorithmSet method
+# IX509SignatureInformation::get_AlternateSignatureAlgorithmSet
 
 
 ## -description

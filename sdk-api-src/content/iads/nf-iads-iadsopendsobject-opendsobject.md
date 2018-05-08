@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsOpenDSObject.OpenDSObject
-title: IADsOpenDSObject::OpenDSObject method
+title: IADsOpenDSObject::OpenDSObject
 author: windows-driver-content
 description: Binds to an ADSI object, using the given credentials, and retrieves an IDispatch pointer to the specified object.
 old-location: adsi\iadsopendsobject_opendsobject.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 9984ddb4-58bb-4264-930b-07e6534dc69f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsOpenDSObject, IADsOpenDSObject interface [ADSI], OpenDSObject method, IADsOpenDSObject::OpenDSObject, OpenDSObject method [ADSI], OpenDSObject method [ADSI], IADsOpenDSObject interface, OpenDSObject,IADsOpenDSObject.OpenDSObject, _ds_iadsopendsobject_opendsobject, adsi.iadsopendsobject__opendsobject, adsi.iadsopendsobject_opendsobject, iads/IADsOpenDSObject::OpenDSObject
+ms.keywords: IADsOpenDSObject interface [ADSI],OpenDSObject method, IADsOpenDSObject.OpenDSObject, IADsOpenDSObject::OpenDSObject, OpenDSObject, OpenDSObject method [ADSI], OpenDSObject method [ADSI],IADsOpenDSObject interface, _ds_iadsopendsobject_opendsobject, adsi.iadsopendsobject__opendsobject, adsi.iadsopendsobject_opendsobject, iads/IADsOpenDSObject::OpenDSObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsOpenDSObject::OpenDSObject method
+# IADsOpenDSObject::OpenDSObject
 
 
 ## -description

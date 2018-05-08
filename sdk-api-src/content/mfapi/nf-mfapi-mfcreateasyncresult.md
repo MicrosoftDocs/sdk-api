@@ -7,7 +7,7 @@ old-location: mf\mfcreateasyncresult.htm
 old-project: medfound
 ms.assetid: 6ff773a9-961e-4a5e-ad37-46234022c575
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 6ff773a9-961e-4a5e-ad37-46234022c575, MFCreateAsyncResult, MFCreateAsyncResult function [Media Foundation], mf.mfcreateasyncresult, mfapi/MFCreateAsyncResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

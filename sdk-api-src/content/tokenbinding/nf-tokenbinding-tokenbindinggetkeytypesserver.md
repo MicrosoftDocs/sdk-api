@@ -7,7 +7,7 @@ old-location: security\tokenbindinggetkeytypesserver.htm
 old-project: SecCNG
 ms.assetid: 8ABAC0AF-AF68-4742-9C36-3FB17D303409
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: TokenBindingGetKeyTypesServer, TokenBindingGetKeyTypesServer function [Security], security.tokenbindinggetkeytypesserver, tokenbinding/TokenBindingGetKeyTypesServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

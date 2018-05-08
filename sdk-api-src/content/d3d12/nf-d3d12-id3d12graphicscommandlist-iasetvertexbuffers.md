@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.IASetVertexBuffers
-title: ID3D12GraphicsCommandList::IASetVertexBuffers method
+title: ID3D12GraphicsCommandList::IASetVertexBuffers
 author: windows-driver-content
 description: Sets a CPU descriptor handle for the vertex buffers.
 old-location: direct3d12\id3d12graphicscommandlist_iasetvertexbuffers.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: AADD6CEF-376D-43AB-86E6-37B5D7DD0B25
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IASetVertexBuffers method, IASetVertexBuffers method, ID3D12GraphicsCommandList interface, IASetVertexBuffers,ID3D12GraphicsCommandList.IASetVertexBuffers, ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, IASetVertexBuffers method, ID3D12GraphicsCommandList::IASetVertexBuffers, d3d12/ID3D12GraphicsCommandList::IASetVertexBuffers, direct3d12.id3d12graphicscommandlist_iasetvertexbuffers
+ms.keywords: IASetVertexBuffers, IASetVertexBuffers method, IASetVertexBuffers method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetVertexBuffers method, ID3D12GraphicsCommandList.IASetVertexBuffers, ID3D12GraphicsCommandList::IASetVertexBuffers, d3d12/ID3D12GraphicsCommandList::IASetVertexBuffers, direct3d12.id3d12graphicscommandlist_iasetvertexbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::IASetVertexBuffers method
+# ID3D12GraphicsCommandList::IASetVertexBuffers
 
 
 ## -description

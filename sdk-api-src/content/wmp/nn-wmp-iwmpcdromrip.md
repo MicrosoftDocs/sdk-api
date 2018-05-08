@@ -7,8 +7,8 @@ old-location: wmp\iwmpcdromrip.htm
 old-project: WMP
 ms.assetid: c3e2db46-bef0-4c79-91b5-97ca5a86c6ba
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], IWMPCdromRip interface [Windows Media Player], described, IWMPCdromRipInterface, wmp.iwmpcdromrip, wmp/IWMPCdromRip
+ms.date: 5/4/2018
+ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], IWMPCdromRip interface [Windows Media Player],described, IWMPCdromRipInterface, wmp.iwmpcdromrip, wmp/IWMPCdromRip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

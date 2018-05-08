@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: D04A5C34-6E5D-4F5B-B54D-3FDF7A936D9E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetworkConnectionCost, INetworkConnectionCost interface [Network Awareness], INetworkConnectionCost interface [Network Awareness], described, netlistmgr/INetworkConnectionCost, nla.inetworkconnectcost
+ms.keywords: INetworkConnectionCost, INetworkConnectionCost interface [Network Awareness], INetworkConnectionCost interface [Network Awareness],described, netlistmgr/INetworkConnectionCost, nla.inetworkconnectcost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

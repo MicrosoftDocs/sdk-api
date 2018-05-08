@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRestore.RestoreLicenses
-title: IWMLicenseRestore::RestoreLicenses method
+title: IWMLicenseRestore::RestoreLicenses
 author: windows-driver-content
 description: The RestoreLicenses method restores licenses that were previously backed up.
 old-location: wmformat\iwmlicenserestore_restorelicenses.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 2d645b3a-e856-4745-b80a-89a3bc2b38bd
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMLicenseRestore, IWMLicenseRestore interface [windows Media Format], RestoreLicenses method, IWMLicenseRestore::RestoreLicenses, IWMLicenseRestoreRestoreLicenses, RestoreLicenses method [windows Media Format], RestoreLicenses method [windows Media Format], IWMLicenseRestore interface, RestoreLicenses,IWMLicenseRestore.RestoreLicenses, wmformat.iwmlicenserestore_restorelicenses, wmsdkidl/IWMLicenseRestore::RestoreLicenses
+ms.keywords: IWMLicenseRestore interface [windows Media Format],RestoreLicenses method, IWMLicenseRestore.RestoreLicenses, IWMLicenseRestore::RestoreLicenses, IWMLicenseRestoreRestoreLicenses, RestoreLicenses, RestoreLicenses method [windows Media Format], RestoreLicenses method [windows Media Format],IWMLicenseRestore interface, wmformat.iwmlicenserestore_restorelicenses, wmsdkidl/IWMLicenseRestore::RestoreLicenses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMLicenseRestore::RestoreLicenses method
+# IWMLicenseRestore::RestoreLicenses
 
 
 ## -description

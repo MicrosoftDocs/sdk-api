@@ -7,7 +7,7 @@ old-location: ad\adspropgetinitinfo.htm
 old-project: AD
 ms.assetid: dcc4ea8f-6924-4e26-a675-ce326f35933c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: ADsPropGetInitInfo, ADsPropGetInitInfo function [Active Directory], ad.adspropgetinitinfo, adsprop/ADsPropGetInitInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

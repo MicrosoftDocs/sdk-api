@@ -7,8 +7,8 @@ old-location: tablet\igesturerecognizer.htm
 old-project: tablet
 ms.assetid: dfdc00d6-c843-4298-9773-92775406fbf7
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IGestureRecognizer, IGestureRecognizer interface [Tablet PC], IGestureRecognizer interface [Tablet PC], described, dfdc00d6-c843-4298-9773-92775406fbf7, rtscom/IGestureRecognizer, tablet.igesturerecognizer
+ms.date: 5/2/2018
+ms.keywords: IGestureRecognizer, IGestureRecognizer interface [Tablet PC], IGestureRecognizer interface [Tablet PC],described, dfdc00d6-c843-4298-9773-92775406fbf7, rtscom/IGestureRecognizer, tablet.igesturerecognizer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.get_Send
-title: IFaxPort::get_Send method
+title: IFaxPort::get_Send
 author: windows-driver-content
 description: The Send property is a Boolean value that indicates whether a fax port is enabled to send faxes.
 old-location: fax\_mfax_ifaxport_get_send_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9uqs.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxPort object [Fax Service], Send property, IFaxPort, IFaxPort::get_Send, Send property [Fax Service], Send property [Fax Service], FaxPort object, _mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send_vb, get_Send,IFaxPort.get_Send
+ms.keywords: FaxPort object [Fax Service],Send property, FaxPort.Send, IFaxPort.get_Send, IFaxPort::get_Send, Send property [Fax Service], Send property [Fax Service],FaxPort object, _mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send_vb, get_Send
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxPort::get_Send method
+# IFaxPort::get_Send
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetContentType
-title: IAppxFile::GetContentType method
+title: IAppxFile::GetContentType
 author: windows-driver-content
 description: Retrieves the content type of the file.
 old-location: appxpkg\iappxfile_getcontenttype.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 86EE47E1-B2AD-4610-8C9A-679536F9C51D
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetContentType method [App packaging and management], GetContentType method [App packaging and management], IAppxFile interface, GetContentType,IAppxFile.GetContentType, IAppxFile, IAppxFile interface [App packaging and management], GetContentType method, IAppxFile::GetContentType, appxpackaging/IAppxFile::GetContentType, appxpkg.iappxfile_getcontenttype
+ms.keywords: GetContentType, GetContentType method [App packaging and management], GetContentType method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetContentType method, IAppxFile.GetContentType, IAppxFile::GetContentType, appxpackaging/IAppxFile::GetContentType, appxpkg.iappxfile_getcontenttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxFile::GetContentType method
+# IAppxFile::GetContentType
 
 
 ## -description

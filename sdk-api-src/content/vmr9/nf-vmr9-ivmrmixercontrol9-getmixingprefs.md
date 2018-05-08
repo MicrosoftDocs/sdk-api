@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetMixingPrefs
-title: IVMRMixerControl9::GetMixingPrefs method
+title: IVMRMixerControl9::GetMixingPrefs
 author: windows-driver-content
 description: The GetMixingPrefs method retrieves the mixing preferences for the stream.
 old-location: dshow\ivmrmixercontrol9_getmixingprefs.htm
 old-project: DirectShow
 ms.assetid: 25df0310-124a-48a5-b0fc-bea1dfd35781
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMixingPrefs method [DirectShow], GetMixingPrefs method [DirectShow], IVMRMixerControl9 interface, GetMixingPrefs,IVMRMixerControl9.GetMixingPrefs, IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], GetMixingPrefs method, IVMRMixerControl9::GetMixingPrefs, IVMRMixerControl9GetMixingPrefs, dshow.ivmrmixercontrol9_getmixingprefs, vmr9/IVMRMixerControl9::GetMixingPrefs
+ms.date: 4/30/2018
+ms.keywords: GetMixingPrefs, GetMixingPrefs method [DirectShow], GetMixingPrefs method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetMixingPrefs method, IVMRMixerControl9.GetMixingPrefs, IVMRMixerControl9::GetMixingPrefs, IVMRMixerControl9GetMixingPrefs, dshow.ivmrmixercontrol9_getmixingprefs, vmr9/IVMRMixerControl9::GetMixingPrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRMixerControl9::GetMixingPrefs method
+# IVMRMixerControl9::GetMixingPrefs
 
 
 ## -description

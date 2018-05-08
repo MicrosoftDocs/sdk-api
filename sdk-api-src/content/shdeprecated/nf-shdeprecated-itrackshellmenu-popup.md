@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.ITrackShellMenu.Popup
-title: ITrackShellMenu::Popup method
+title: ITrackShellMenu::Popup
 author: windows-driver-content
 description: Displays a modal pop-up menu at a specific location.
 old-location: shell\ITrackShellMenu_Popup.htm
 old-project: shell
 ms.assetid: a8098143-6f36-496c-81af-f06fb83c9920
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ITrackShellMenu, ITrackShellMenu interface [Windows Shell], Popup method, ITrackShellMenu::Popup, Popup method [Windows Shell], Popup method [Windows Shell], ITrackShellMenu interface, Popup,ITrackShellMenu.Popup, _shell_ITrackShellMenu_Popup, shdeprecated/ITrackShellMenu::Popup, shell.ITrackShellMenu_Popup
+ms.date: 5/3/2018
+ms.keywords: ITrackShellMenu interface [Windows Shell],Popup method, ITrackShellMenu.Popup, ITrackShellMenu::Popup, Popup, Popup method [Windows Shell], Popup method [Windows Shell],ITrackShellMenu interface, _shell_ITrackShellMenu_Popup, shdeprecated/ITrackShellMenu::Popup, shell.ITrackShellMenu_Popup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# ITrackShellMenu::Popup method
+# ITrackShellMenu::Popup
 
 
 ## -description

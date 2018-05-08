@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo2.GetPartitionId
-title: IObjectContextInfo2::GetPartitionId method
+title: IObjectContextInfo2::GetPartitionId
 author: windows-driver-content
 description: Retrieves the identifier of the partition of the current object context.
 old-location: cos\iobjectcontextinfo2_getpartitionid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 090afcec-d124-4b7c-822a-ecb56f9037a6
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetPartitionId method [COM+], GetPartitionId method [COM+], IObjectContextInfo2 interface, GetPartitionId,IObjectContextInfo2.GetPartitionId, IObjectContextInfo2, IObjectContextInfo2 interface [COM+], GetPartitionId method, IObjectContextInfo2::GetPartitionId, _cos_IObjectContextInfo2_GetPartitionId, comsvcs/IObjectContextInfo2::GetPartitionId, cos.iobjectcontextinfo2_getpartitionid
+ms.keywords: GetPartitionId, GetPartitionId method [COM+], GetPartitionId method [COM+],IObjectContextInfo2 interface, IObjectContextInfo2 interface [COM+],GetPartitionId method, IObjectContextInfo2.GetPartitionId, IObjectContextInfo2::GetPartitionId, _cos_IObjectContextInfo2_GetPartitionId, comsvcs/IObjectContextInfo2::GetPartitionId, cos.iobjectcontextinfo2_getpartitionid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IObjectContextInfo2::GetPartitionId method
+# IObjectContextInfo2::GetPartitionId
 
 
 ## -description

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WLAN_IHV_CONTROL_TYPE, *PWLAN_IHV_CONTROL_TYPE, WLAN_IHV_CONTROL_TYPE, *PWLAN_IHV_CONTROL_TYPE
+req.typenames: WLAN_IHV_CONTROL_TYPE, *PWLAN_IHV_CONTROL_TYPE
 topic_type:
 -	APIRef
 -	kbSyntax

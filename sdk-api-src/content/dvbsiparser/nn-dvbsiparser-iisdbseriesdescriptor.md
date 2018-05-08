@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 07c4debc-1817-46ac-9f67-9b8637a04662
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], IIsdbSeriesDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IIsdbSeriesDescriptor, mstv.iisdbseriesdescriptor
+ms.keywords: IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], IIsdbSeriesDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbSeriesDescriptor, mstv.iisdbseriesdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

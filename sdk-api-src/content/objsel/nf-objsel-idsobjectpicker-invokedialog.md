@@ -1,14 +1,14 @@
 ---
 UID: NF:objsel.IDsObjectPicker.InvokeDialog
-title: IDsObjectPicker::InvokeDialog method
+title: IDsObjectPicker::InvokeDialog
 author: windows-driver-content
 description: Displays a modal object picker dialog box and returns the user selections.
 old-location: ad\idsobjectpicker_invokedialog.htm
 old-project: AD
 ms.assetid: 76192a35-10e1-46e3-8724-7637d47d8eca
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: IDsObjectPicker, IDsObjectPicker interface [Active Directory], InvokeDialog method, IDsObjectPicker::InvokeDialog, InvokeDialog method [Active Directory], InvokeDialog method [Active Directory], IDsObjectPicker interface, InvokeDialog,IDsObjectPicker.InvokeDialog, _glines_idsobjectpicker_invokedialog, ad.idsobjectpicker__invokedialog, ad.idsobjectpicker_invokedialog, objsel/IDsObjectPicker::InvokeDialog
+ms.date: 5/1/2018
+ms.keywords: IDsObjectPicker interface [Active Directory],InvokeDialog method, IDsObjectPicker.InvokeDialog, IDsObjectPicker::InvokeDialog, InvokeDialog, InvokeDialog method [Active Directory], InvokeDialog method [Active Directory],IDsObjectPicker interface, _glines_idsobjectpicker_invokedialog, ad.idsobjectpicker__invokedialog, ad.idsobjectpicker_invokedialog, objsel/IDsObjectPicker::InvokeDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDsObjectPicker::InvokeDialog method
+# IDsObjectPicker::InvokeDialog
 
 
 ## -description

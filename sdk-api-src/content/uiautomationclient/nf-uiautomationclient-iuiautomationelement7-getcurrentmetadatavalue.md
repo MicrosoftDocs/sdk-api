@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.GetCurrentMetadataValue
-title: IUIAutomationElement7::GetCurrentMetadataValue method
+title: IUIAutomationElement7::GetCurrentMetadataValue
 author: windows-driver-content
 description: Gets metadata from the UI Automation element that indicates how the information should be interpreted.
 old-location: winauto\uiauto_IUIAutomationElement7_GetCurrentMetadataValue.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 09FAECD6-2BD9-4C35-8798-5FF6311CC672
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCurrentMetadataValue method [Windows Accessibility], GetCurrentMetadataValue method [Windows Accessibility], IUIAutomationElement7 interface, GetCurrentMetadataValue,IUIAutomationElement7.GetCurrentMetadataValue, IUIAutomationElement7, IUIAutomationElement7 interface [Windows Accessibility], GetCurrentMetadataValue method, IUIAutomationElement7::GetCurrentMetadataValue, uiautomationclient/IUIAutomationElement7::GetCurrentMetadataValue, winauto.uiauto_IUIAutomationElement7_GetCurrentMetadataValue
+ms.keywords: GetCurrentMetadataValue, GetCurrentMetadataValue method [Windows Accessibility], GetCurrentMetadataValue method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],GetCurrentMetadataValue method, IUIAutomationElement7.GetCurrentMetadataValue, IUIAutomationElement7::GetCurrentMetadataValue, uiautomationclient/IUIAutomationElement7::GetCurrentMetadataValue, winauto.uiauto_IUIAutomationElement7_GetCurrentMetadataValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement7::GetCurrentMetadataValue method
+# IUIAutomationElement7::GetCurrentMetadataValue
 
 
 ## -description

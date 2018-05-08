@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMOverlayFX.QueryOverlayFXCaps
-title: IAMOverlayFX::QueryOverlayFXCaps method
+title: IAMOverlayFX::QueryOverlayFXCaps
 author: windows-driver-content
 description: The QueryOverlayFXCaps method retrieves information about which overlay effects are available to the Overlay Mixer filter.
 old-location: dshow\iamoverlayfx_queryoverlayfxcaps.htm
 old-project: DirectShow
 ms.assetid: 01fdbe3d-bec7-4e66-87c5-b7e6c1044e8a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMOverlayFX, IAMOverlayFX interface [DirectShow], QueryOverlayFXCaps method, IAMOverlayFX::QueryOverlayFXCaps, IAMOverlayFXQueryOverlayFXCaps, QueryOverlayFXCaps method [DirectShow], QueryOverlayFXCaps method [DirectShow], IAMOverlayFX interface, QueryOverlayFXCaps,IAMOverlayFX.QueryOverlayFXCaps, dshow.iamoverlayfx_queryoverlayfxcaps, strmif/IAMOverlayFX::QueryOverlayFXCaps
+ms.date: 4/30/2018
+ms.keywords: IAMOverlayFX interface [DirectShow],QueryOverlayFXCaps method, IAMOverlayFX.QueryOverlayFXCaps, IAMOverlayFX::QueryOverlayFXCaps, IAMOverlayFXQueryOverlayFXCaps, QueryOverlayFXCaps, QueryOverlayFXCaps method [DirectShow], QueryOverlayFXCaps method [DirectShow],IAMOverlayFX interface, dshow.iamoverlayfx_queryoverlayfxcaps, strmif/IAMOverlayFX::QueryOverlayFXCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMOverlayFX::QueryOverlayFXCaps method
+# IAMOverlayFX::QueryOverlayFXCaps
 
 
 ## -description

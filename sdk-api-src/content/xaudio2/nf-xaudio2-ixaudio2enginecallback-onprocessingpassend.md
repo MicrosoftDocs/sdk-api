@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2EngineCallback.OnProcessingPassEnd
-title: IXAudio2EngineCallback::OnProcessingPassEnd method
+title: IXAudio2EngineCallback::OnProcessingPassEnd
 author: windows-driver-content
 description: Called by XAudio2 just after an audio processing pass ends.
 old-location: xaudio2\ixaudio2enginecallback_onprocessingpassend.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2enginecallback.IXAudio2EngineCallback.OnProcessingPassEnd
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2EngineCallback, IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs], OnProcessingPassEnd method, IXAudio2EngineCallback::OnProcessingPassEnd, OnProcessingPassEnd method [XAudio2 Audio Mixing APIs], OnProcessingPassEnd method [XAudio2 Audio Mixing APIs], IXAudio2EngineCallback interface, OnProcessingPassEnd,IXAudio2EngineCallback.OnProcessingPassEnd, xaudio2.ixaudio2enginecallback_onprocessingpassend, xaudio2/IXAudio2EngineCallback::OnProcessingPassEnd
+ms.keywords: IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs],OnProcessingPassEnd method, IXAudio2EngineCallback.OnProcessingPassEnd, IXAudio2EngineCallback::OnProcessingPassEnd, OnProcessingPassEnd, OnProcessingPassEnd method [XAudio2 Audio Mixing APIs], OnProcessingPassEnd method [XAudio2 Audio Mixing APIs],IXAudio2EngineCallback interface, xaudio2.ixaudio2enginecallback_onprocessingpassend, xaudio2/IXAudio2EngineCallback::OnProcessingPassEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2EngineCallback::OnProcessingPassEnd method
+# IXAudio2EngineCallback::OnProcessingPassEnd
 
 
 ## -description

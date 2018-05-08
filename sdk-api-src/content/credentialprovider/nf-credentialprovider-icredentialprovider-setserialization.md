@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.SetSerialization
-title: ICredentialProvider::SetSerialization method
+title: ICredentialProvider::SetSerialization
 author: windows-driver-content
 description: Sets the serialization characteristics of the credential provider.
 old-location: shell\ICredentialProvider_SetSerialization.htm
 old-project: shell
 ms.assetid: eeeaa3b8-ad0f-4d31-bdd1-646b0e33b7cd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICredentialProvider, ICredentialProvider interface [Windows Shell], SetSerialization method, ICredentialProvider::SetSerialization, SetSerialization method [Windows Shell], SetSerialization method [Windows Shell], ICredentialProvider interface, SetSerialization,ICredentialProvider.SetSerialization, _shell_ICredentialProvider_SetSerialization, credentialprovider/ICredentialProvider::SetSerialization, shell.ICredentialProvider_SetSerialization
+ms.date: 5/3/2018
+ms.keywords: ICredentialProvider interface [Windows Shell],SetSerialization method, ICredentialProvider.SetSerialization, ICredentialProvider::SetSerialization, SetSerialization, SetSerialization method [Windows Shell], SetSerialization method [Windows Shell],ICredentialProvider interface, _shell_ICredentialProvider_SetSerialization, credentialprovider/ICredentialProvider::SetSerialization, shell.ICredentialProvider_SetSerialization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProvider::SetSerialization method
+# ICredentialProvider::SetSerialization
 
 
 ## -description

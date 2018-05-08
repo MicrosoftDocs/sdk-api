@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Name
-title: IFsrmFileManagementJob::get_Name method
+title: IFsrmFileManagementJob::get_Name
 author: windows-driver-content
 description: The name of the file management job.
 old-location: fsrm\ifsrmfilemanagementjob_name.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 48f0b5ad-a986-4d56-a50f-4bb4dfa7a4b8
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], Name property, IFsrmFileManagementJob.Name, IFsrmFileManagementJob::get_Name, IFsrmFileManagementJob::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager], IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_name, fsrm.ifsrmfilemanagementjob_name, fsrmreports/IFsrmFileManagementJob::Name, fsrmreports/IFsrmFileManagementJob::get_Name, fsrmreports/IFsrmFileManagementJob::put_Name, get_Name,IFsrmFileManagementJob.get_Name
+ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Name property, IFsrmFileManagementJob.Name, IFsrmFileManagementJob.get_Name, IFsrmFileManagementJob::Name, IFsrmFileManagementJob::get_Name, IFsrmFileManagementJob::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_name, fsrm.ifsrmfilemanagementjob_name, fsrmreports/IFsrmFileManagementJob::Name, fsrmreports/IFsrmFileManagementJob::get_Name, fsrmreports/IFsrmFileManagementJob::put_Name, get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJob::get_Name method
+# IFsrmFileManagementJob::get_Name
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetOpacityMaskBrushLookup
-title: IXpsOMVisual::SetOpacityMaskBrushLookup method
+title: IXpsOMVisual::SetOpacityMaskBrushLookup
 author: windows-driver-content
 description: Sets the lookup key name of a shared opacity mask brush in a resource dictionary.
 old-location: xps\ixpsomvisual_setopacitymaskbrushlookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 93c76649-dc48-4ccf-b1c5-2fb223c93513
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], SetOpacityMaskBrushLookup method, IXpsOMVisual::SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup method [XPS Documents and Packaging], SetOpacityMaskBrushLookup method [XPS Documents and Packaging], IXpsOMVisual interface, SetOpacityMaskBrushLookup,IXpsOMVisual.SetOpacityMaskBrushLookup, xps.ixpsomvisual_setopacitymaskbrushlookup, xpsobjectmodel/IXpsOMVisual::SetOpacityMaskBrushLookup
+ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacityMaskBrushLookup method, IXpsOMVisual.SetOpacityMaskBrushLookup, IXpsOMVisual::SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup method [XPS Documents and Packaging], SetOpacityMaskBrushLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacitymaskbrushlookup, xpsobjectmodel/IXpsOMVisual::SetOpacityMaskBrushLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::SetOpacityMaskBrushLookup method
+# IXpsOMVisual::SetOpacityMaskBrushLookup
 
 
 ## -description

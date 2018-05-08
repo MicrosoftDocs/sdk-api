@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPRemoteMediaServices.GetCustomUIMode
-title: IWMPRemoteMediaServices::GetCustomUIMode method
+title: IWMPRemoteMediaServices::GetCustomUIMode
 author: windows-driver-content
 description: The GetCustomUIMode method is called by Windows Media Player to retrieve the location of a skin file to apply to the Windows Media Player control.
 old-location: wmp\iwmpremotemediaservices_getcustomuimode.htm
 old-project: WMP
 ms.assetid: 892c2513-9ca2-48fe-b745-0fdc0f445871
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetCustomUIMode method [Windows Media Player], GetCustomUIMode method [Windows Media Player], IWMPRemoteMediaServices interface, GetCustomUIMode,IWMPRemoteMediaServices.GetCustomUIMode, IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], GetCustomUIMode method, IWMPRemoteMediaServices::GetCustomUIMode, IWMPRemoteMediaServicesGetCustomUIMode, wmp.iwmpremotemediaservices_getcustomuimode, wmp/IWMPRemoteMediaServices::GetCustomUIMode
+ms.date: 5/4/2018
+ms.keywords: GetCustomUIMode, GetCustomUIMode method [Windows Media Player], GetCustomUIMode method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetCustomUIMode method, IWMPRemoteMediaServices.GetCustomUIMode, IWMPRemoteMediaServices::GetCustomUIMode, IWMPRemoteMediaServicesGetCustomUIMode, wmp.iwmpremotemediaservices_getcustomuimode, wmp/IWMPRemoteMediaServices::GetCustomUIMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPRemoteMediaServices::GetCustomUIMode method
+# IWMPRemoteMediaServices::GetCustomUIMode
 
 
 ## -description

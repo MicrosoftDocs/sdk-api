@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordGroup
-title: IISDB_SDTT::GetRecordGroup method
+title: IISDB_SDTT::GetRecordGroup
 author: windows-driver-content
 description: Receives the recording download level from a record in an Integrated services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordgroup.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6798e477-754d-49a3-84f1-04d1a60094a7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordGroup method [Microsoft TV Technologies], GetRecordGroup method [Microsoft TV Technologies], IISDB_SDTT interface, GetRecordGroup,IISDB_SDTT.GetRecordGroup, IISDB_SDTT, IISDB_SDTT interface [Microsoft TV Technologies], GetRecordGroup method, IISDB_SDTT::GetRecordGroup, dvbsiparser/IISDB_SDTT::GetRecordGroup, mstv.iisdb_sdtt_getrecordgroup
+ms.keywords: GetRecordGroup, GetRecordGroup method [Microsoft TV Technologies], GetRecordGroup method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordGroup method, IISDB_SDTT.GetRecordGroup, IISDB_SDTT::GetRecordGroup, dvbsiparser/IISDB_SDTT::GetRecordGroup, mstv.iisdb_sdtt_getrecordgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_SDTT::GetRecordGroup method
+# IISDB_SDTT::GetRecordGroup
 
 
 ## -description

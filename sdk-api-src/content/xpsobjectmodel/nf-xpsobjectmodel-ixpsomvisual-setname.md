@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetName
-title: IXpsOMVisual::SetName method
+title: IXpsOMVisual::SetName
 author: windows-driver-content
 description: Sets the Name property of the visual.
 old-location: xps\ixpsomvisual_setname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 8bf30b4c-bddf-4ca8-91c6-af739125829c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], SetName method, IXpsOMVisual::SetName, SetName method [XPS Documents and Packaging], SetName method [XPS Documents and Packaging], IXpsOMVisual interface, SetName,IXpsOMVisual.SetName, xps.ixpsomvisual_setname, xpsobjectmodel/IXpsOMVisual::SetName
+ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetName method, IXpsOMVisual.SetName, IXpsOMVisual::SetName, SetName, SetName method [XPS Documents and Packaging], SetName method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setname, xpsobjectmodel/IXpsOMVisual::SetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::SetName method
+# IXpsOMVisual::SetName
 
 
 ## -description

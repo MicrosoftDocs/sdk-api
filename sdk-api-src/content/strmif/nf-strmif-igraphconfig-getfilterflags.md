@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IGraphConfig.GetFilterFlags
-title: IGraphConfig::GetFilterFlags method
+title: IGraphConfig::GetFilterFlags
 author: windows-driver-content
 description: The GetFilterFlags method retrieves a filter's configuration information.
 old-location: dshow\igraphconfig_getfilterflags.htm
 old-project: DirectShow
 ms.assetid: 747c3865-1969-45e8-a2c9-dbd72a9ea463
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetFilterFlags method [DirectShow], GetFilterFlags method [DirectShow], IGraphConfig interface, GetFilterFlags,IGraphConfig.GetFilterFlags, IGraphConfig, IGraphConfig interface [DirectShow], GetFilterFlags method, IGraphConfig::GetFilterFlags, IGraphConfigGetFilterFlags, dshow.igraphconfig_getfilterflags, strmif/IGraphConfig::GetFilterFlags
+ms.date: 4/30/2018
+ms.keywords: GetFilterFlags, GetFilterFlags method [DirectShow], GetFilterFlags method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],GetFilterFlags method, IGraphConfig.GetFilterFlags, IGraphConfig::GetFilterFlags, IGraphConfigGetFilterFlags, dshow.igraphconfig_getfilterflags, strmif/IGraphConfig::GetFilterFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IGraphConfig::GetFilterFlags method
+# IGraphConfig::GetFilterFlags
 
 
 ## -description

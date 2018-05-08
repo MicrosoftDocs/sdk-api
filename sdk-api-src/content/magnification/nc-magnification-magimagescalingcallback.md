@@ -8,7 +8,7 @@ old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magimagescalingcallback.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: MagImageScalingCallback, MagImageScalingCallback callback function [Magnification API], magapi.magapi_MagImageScalingCallback, magapi_MagImageScalingCallback, magnification/MagImageScalingCallback
+ms.keywords: MagImageScalingCallback, MagImageScalingCallback callback, MagImageScalingCallback callback function [Magnification API], magapi.magapi_MagImageScalingCallback, magapi_MagImageScalingCallback, magnification/MagImageScalingCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# MagImageScalingCallback callback
+# MagImageScalingCallback callback function
 
 
 ## -description

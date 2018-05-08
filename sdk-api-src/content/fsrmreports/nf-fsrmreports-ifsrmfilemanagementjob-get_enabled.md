@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Enabled
-title: IFsrmFileManagementJob::get_Enabled method
+title: IFsrmFileManagementJob::get_Enabled
 author: windows-driver-content
 description: Indicates whether the job enabled (can run).
 old-location: fsrm\ifsrmfilemanagementjob_enabled.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: c52dab05-34fb-4d9d-ac12-cbcee7e1fb9b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Enabled property [File Server Resource Manager], Enabled property [File Server Resource Manager], IFsrmFileManagementJob interface, IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], Enabled property, IFsrmFileManagementJob.Enabled, IFsrmFileManagementJob::get_Enabled, IFsrmFileManagementJob::put_Enabled, fs.ifsrmfilemanagementjob_enabled, fsrm.ifsrmfilemanagementjob_enabled, fsrmreports/IFsrmFileManagementJob::Enabled, fsrmreports/IFsrmFileManagementJob::get_Enabled, fsrmreports/IFsrmFileManagementJob::put_Enabled, get_Enabled,IFsrmFileManagementJob.get_Enabled
+ms.keywords: Enabled property [File Server Resource Manager], Enabled property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Enabled property, IFsrmFileManagementJob.Enabled, IFsrmFileManagementJob.get_Enabled, IFsrmFileManagementJob::Enabled, IFsrmFileManagementJob::get_Enabled, IFsrmFileManagementJob::put_Enabled, fs.ifsrmfilemanagementjob_enabled, fsrm.ifsrmfilemanagementjob_enabled, fsrmreports/IFsrmFileManagementJob::Enabled, fsrmreports/IFsrmFileManagementJob::get_Enabled, fsrmreports/IFsrmFileManagementJob::put_Enabled, get_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJob::get_Enabled method
+# IFsrmFileManagementJob::get_Enabled
 
 
 ## -description

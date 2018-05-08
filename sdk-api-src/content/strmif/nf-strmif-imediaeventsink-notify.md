@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaEventSink.Notify
-title: IMediaEventSink::Notify method
+title: IMediaEventSink::Notify
 author: windows-driver-content
 description: The Notify method notifies the Filter Graph Manager of an event.
 old-location: dshow\imediaeventsink_notify.htm
 old-project: DirectShow
 ms.assetid: 331f8d58-c7c6-40dd-88ca-5678c7b8c8f1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaEventSink, IMediaEventSink interface [DirectShow], Notify method, IMediaEventSink::Notify, IMediaEventSinkNotify, Notify method [DirectShow], Notify method [DirectShow], IMediaEventSink interface, Notify,IMediaEventSink.Notify, dshow.imediaeventsink_notify, strmif/IMediaEventSink::Notify
+ms.date: 4/30/2018
+ms.keywords: IMediaEventSink interface [DirectShow],Notify method, IMediaEventSink.Notify, IMediaEventSink::Notify, IMediaEventSinkNotify, Notify, Notify method [DirectShow], Notify method [DirectShow],IMediaEventSink interface, dshow.imediaeventsink_notify, strmif/IMediaEventSink::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaEventSink::Notify method
+# IMediaEventSink::Notify
 
 
 ## -description

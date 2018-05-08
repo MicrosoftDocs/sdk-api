@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_ContainerName
-title: ICertSrvSetupKeyInformation::put_ContainerName method
+title: ICertSrvSetupKeyInformation::put_ContainerName
 author: windows-driver-content
 description: Gets or sets the name used by the cryptographic service provider (CSP) to generate, store, or access the key.
 old-location: security\icertsrvsetupkeyinformation_containername.htm
 old-project: SecCrypto
 ms.assetid: dc644471-6825-48b1-bbfa-da9af6dd0652
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ContainerName property [Security], ContainerName property [Security], ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation, ICertSrvSetupKeyInformation interface [Security], ContainerName property, ICertSrvSetupKeyInformation.ContainerName, ICertSrvSetupKeyInformation::get_ContainerName, ICertSrvSetupKeyInformation::put_ContainerName, casetup/ICertSrvSetupKeyInformation::ContainerName, casetup/ICertSrvSetupKeyInformation::get_ContainerName, casetup/ICertSrvSetupKeyInformation::put_ContainerName, put_ContainerName,ICertSrvSetupKeyInformation.put_ContainerName, security.icertsrvsetupkeyinformation_containername
+ms.date: 4/30/2018
+ms.keywords: ContainerName property [Security], ContainerName property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],ContainerName property, ICertSrvSetupKeyInformation.ContainerName, ICertSrvSetupKeyInformation.put_ContainerName, ICertSrvSetupKeyInformation::ContainerName, ICertSrvSetupKeyInformation::get_ContainerName, ICertSrvSetupKeyInformation::put_ContainerName, casetup/ICertSrvSetupKeyInformation::ContainerName, casetup/ICertSrvSetupKeyInformation::get_ContainerName, casetup/ICertSrvSetupKeyInformation::put_ContainerName, put_ContainerName, security.icertsrvsetupkeyinformation_containername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetupKeyInformation::put_ContainerName method
+# ICertSrvSetupKeyInformation::put_ContainerName
 
 
 ## -description

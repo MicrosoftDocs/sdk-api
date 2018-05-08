@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITableItemProvider.GetColumnHeaderItems
-title: ITableItemProvider::GetColumnHeaderItems method
+title: ITableItemProvider::GetColumnHeaderItems
 author: windows-driver-content
 description: Retrieves a collection of Microsoft UI Automation provider representing all the column headers associated with a table item or cell.
 old-location: winauto\uiauto_ITableItemProvider_GetColumnHeaderItems.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: b08e20e8-142c-4f83-8422-c0e6ae2b7ebf
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetColumnHeaderItems method [Windows Accessibility], GetColumnHeaderItems method [Windows Accessibility], ITableItemProvider interface, GetColumnHeaderItems,ITableItemProvider.GetColumnHeaderItems, ITableItemProvider, ITableItemProvider interface [Windows Accessibility], GetColumnHeaderItems method, ITableItemProvider::GetColumnHeaderItems, uiauto.uiauto_ITableItemProvider_GetColumnHeaderItems, uiauto_ITableItemProvider_GetColumnHeaderItems, uiautomationcore/ITableItemProvider::GetColumnHeaderItems, winauto.uiauto_ITableItemProvider_GetColumnHeaderItems
+ms.keywords: GetColumnHeaderItems, GetColumnHeaderItems method [Windows Accessibility], GetColumnHeaderItems method [Windows Accessibility],ITableItemProvider interface, ITableItemProvider interface [Windows Accessibility],GetColumnHeaderItems method, ITableItemProvider.GetColumnHeaderItems, ITableItemProvider::GetColumnHeaderItems, uiauto.uiauto_ITableItemProvider_GetColumnHeaderItems, uiauto_ITableItemProvider_GetColumnHeaderItems, uiautomationcore/ITableItemProvider::GetColumnHeaderItems, winauto.uiauto_ITableItemProvider_GetColumnHeaderItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITableItemProvider::GetColumnHeaderItems method
+# ITableItemProvider::GetColumnHeaderItems
 
 
 ## -description

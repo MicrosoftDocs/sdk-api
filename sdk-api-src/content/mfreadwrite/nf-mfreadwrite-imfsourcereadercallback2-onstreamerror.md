@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback2.OnStreamError
-title: IMFSourceReaderCallback2::OnStreamError method
+title: IMFSourceReaderCallback2::OnStreamError
 author: windows-driver-content
 description: Called when an asynchronous error occurs with the IMFSourceReader.
 old-location: mf\imfsourcereadercallback2_onstreamerror.htm
 old-project: medfound
 ms.assetid: 9239DE9E-8CC3-493A-B7FE-AB0294907069
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSourceReaderCallback2, IMFSourceReaderCallback2 interface [Media Foundation], OnStreamError method, IMFSourceReaderCallback2::OnStreamError, OnStreamError method [Media Foundation], OnStreamError method [Media Foundation], IMFSourceReaderCallback2 interface, OnStreamError,IMFSourceReaderCallback2.OnStreamError, mf.imfsourcereadercallback2_onstreamerror, mfreadwrite/IMFSourceReaderCallback2::OnStreamError
+ms.date: 5/3/2018
+ms.keywords: IMFSourceReaderCallback2 interface [Media Foundation],OnStreamError method, IMFSourceReaderCallback2.OnStreamError, IMFSourceReaderCallback2::OnStreamError, OnStreamError, OnStreamError method [Media Foundation], OnStreamError method [Media Foundation],IMFSourceReaderCallback2 interface, mf.imfsourcereadercallback2_onstreamerror, mfreadwrite/IMFSourceReaderCallback2::OnStreamError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceReaderCallback2::OnStreamError method
+# IMFSourceReaderCallback2::OnStreamError
 
 
 ## -description

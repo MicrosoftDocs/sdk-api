@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetVendorGUID
-title: IWICComponentInfo::GetVendorGUID method
+title: IWICComponentInfo::GetVendorGUID
 author: windows-driver-content
 description: Retrieves the vendor GUID.
 old-location: wic\_wic_codec_iwiccomponentinfo_getvendorguid.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: e1ef7bac-6845-4e7f-8cb6-bb3270b344d6
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetVendorGUID method [Windows Imaging Component], GetVendorGUID method [Windows Imaging Component], IWICComponentInfo interface, GetVendorGUID,IWICComponentInfo.GetVendorGUID, IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], GetVendorGUID method, IWICComponentInfo::GetVendorGUID, _wic_codec_iwiccomponentinfo_getvendorguid, wic._wic_codec_iwiccomponentinfo_getvendorguid, wincodec/IWICComponentInfo::GetVendorGUID
+ms.keywords: GetVendorGUID, GetVendorGUID method [Windows Imaging Component], GetVendorGUID method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetVendorGUID method, IWICComponentInfo.GetVendorGUID, IWICComponentInfo::GetVendorGUID, _wic_codec_iwiccomponentinfo_getvendorguid, wic._wic_codec_iwiccomponentinfo_getvendorguid, wincodec/IWICComponentInfo::GetVendorGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICComponentInfo::GetVendorGUID method
+# IWICComponentInfo::GetVendorGUID
 
 
 ## -description

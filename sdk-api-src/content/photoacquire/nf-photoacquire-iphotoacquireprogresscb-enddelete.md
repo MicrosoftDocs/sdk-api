@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndDelete
-title: IPhotoAcquireProgressCB::EndDelete method
+title: IPhotoAcquireProgressCB::EndDelete
 author: windows-driver-content
 description: The EndDelete method provides extended functionality when deletion of files from the image source is complete. The application provides the implementation of the EndDelete method.
 old-location: picacq\iphotoacquireprogresscb_enddelete.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: bc5879a9-851b-4b22-99bb-814464c2712d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EndDelete method [Picture Acquisition], EndDelete method [Picture Acquisition], IPhotoAcquireProgressCB interface, EndDelete,IPhotoAcquireProgressCB.EndDelete, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], EndDelete method, IPhotoAcquireProgressCB::EndDelete, IPhotoAcquireProgressCBEndDelete, photoacquire/IPhotoAcquireProgressCB::EndDelete, picacq.iphotoacquireprogresscb_enddelete
+ms.keywords: EndDelete, EndDelete method [Picture Acquisition], EndDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndDelete method, IPhotoAcquireProgressCB.EndDelete, IPhotoAcquireProgressCB::EndDelete, IPhotoAcquireProgressCBEndDelete, photoacquire/IPhotoAcquireProgressCB::EndDelete, picacq.iphotoacquireprogresscb_enddelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireProgressCB::EndDelete method
+# IPhotoAcquireProgressCB::EndDelete
 
 
 ## -description

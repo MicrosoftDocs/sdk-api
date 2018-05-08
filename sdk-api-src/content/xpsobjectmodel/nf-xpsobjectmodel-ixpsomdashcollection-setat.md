@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.SetAt
-title: IXpsOMDashCollection::SetAt method
+title: IXpsOMDashCollection::SetAt
 author: windows-driver-content
 description: Replaces an XPS_DASH structure at a specified location in the collection.
 old-location: xps\ixpsomdashcollection_setat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c0ea0ae0-2c28-4478-82fc-3e80bc70eef8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMDashCollection, IXpsOMDashCollection interface [XPS Documents and Packaging], SetAt method, IXpsOMDashCollection::SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging], IXpsOMDashCollection interface, SetAt,IXpsOMDashCollection.SetAt, xps.ixpsomdashcollection_setat, xpsobjectmodel/IXpsOMDashCollection::SetAt
+ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMDashCollection.SetAt, IXpsOMDashCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_setat, xpsobjectmodel/IXpsOMDashCollection::SetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDashCollection::SetAt method
+# IXpsOMDashCollection::SetAt
 
 
 ## -description

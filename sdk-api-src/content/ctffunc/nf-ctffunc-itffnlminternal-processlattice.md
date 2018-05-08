@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnLMInternal.ProcessLattice
-title: ITfFnLMInternal::ProcessLattice method
+title: ITfFnLMInternal::ProcessLattice
 author: windows-driver-content
 description: ITfFnLMInternal::ProcessLattice method
 old-location: tsf\itffnlminternal_processlattice.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: bbee5966-b971-4e76-8078-fd2c5d34afcf
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnLMInternal, ITfFnLMInternal interface [Text Services Framework], ProcessLattice method, ITfFnLMInternal::ProcessLattice, ProcessLattice method [Text Services Framework], ProcessLattice method [Text Services Framework], ITfFnLMInternal interface, ProcessLattice,ITfFnLMInternal.ProcessLattice, _tsf_itffnlminternal_processlattice_ref, ctffunc/ITfFnLMInternal::ProcessLattice, tsf.itffnlminternal_processlattice
+ms.keywords: ITfFnLMInternal interface [Text Services Framework],ProcessLattice method, ITfFnLMInternal.ProcessLattice, ITfFnLMInternal::ProcessLattice, ProcessLattice, ProcessLattice method [Text Services Framework], ProcessLattice method [Text Services Framework],ITfFnLMInternal interface, _tsf_itffnlminternal_processlattice_ref, ctffunc/ITfFnLMInternal::ProcessLattice, tsf.itffnlminternal_processlattice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfFnLMInternal::ProcessLattice method
+# ITfFnLMInternal::ProcessLattice
 
 
 ## -description

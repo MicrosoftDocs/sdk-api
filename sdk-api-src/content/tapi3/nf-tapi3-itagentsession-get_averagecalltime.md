@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_AverageCallTime
-title: ITAgentSession::get_AverageCallTime method
+title: ITAgentSession::get_AverageCallTime
 author: windows-driver-content
 description: The get_AverageCallTime method gets the average time (in seconds) spent per ACD call during this agent session. This value includes the time spent on the phone plus wrap-up time.
 old-location: tapi3\itagentsession_get_averagecalltime.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 05029076-cb76-4771-b0a8-0c09e184e6ee
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], get_AverageCallTime method, ITAgentSession::get_AverageCallTime, _tapi3_itagentsession_get_averagecalltime, get_AverageCallTime method [TAPI 2.2], get_AverageCallTime method [TAPI 2.2], ITAgentSession interface, get_AverageCallTime,ITAgentSession.get_AverageCallTime, tapi3.itagentsession_get_averagecalltime, tapi3cc/ITAgentSession::get_AverageCallTime
+ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageCallTime method, ITAgentSession.get_AverageCallTime, ITAgentSession::get_AverageCallTime, _tapi3_itagentsession_get_averagecalltime, get_AverageCallTime, get_AverageCallTime method [TAPI 2.2], get_AverageCallTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagecalltime, tapi3cc/ITAgentSession::get_AverageCallTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentSession::get_AverageCallTime method
+# ITAgentSession::get_AverageCallTime
 
 
 ## -description

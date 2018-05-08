@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.StopRefreshing
-title: IWbemHiPerfProvider::StopRefreshing method
+title: IWbemHiPerfProvider::StopRefreshing
 author: windows-driver-content
 description: Stops refreshing the object or enumerator corresponding to the supplied identifier.
 old-location: wmi\iwbemhiperfprovider_stoprefreshing.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: d1de54de-b57b-4e15-84b3-96cc36bf023b
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemHiPerfProvider, IWbemHiPerfProvider interface [Windows Management Instrumentation], StopRefreshing method, IWbemHiPerfProvider::StopRefreshing, StopRefreshing method [Windows Management Instrumentation], StopRefreshing method [Windows Management Instrumentation], IWbemHiPerfProvider interface, StopRefreshing,IWbemHiPerfProvider.StopRefreshing, _hmm_iwbemhiperfprovider_stoprefreshing, wbemprov/IWbemHiPerfProvider::StopRefreshing, wmi.iwbemhiperfprovider_stoprefreshing
+ms.keywords: IWbemHiPerfProvider interface [Windows Management Instrumentation],StopRefreshing method, IWbemHiPerfProvider.StopRefreshing, IWbemHiPerfProvider::StopRefreshing, StopRefreshing, StopRefreshing method [Windows Management Instrumentation], StopRefreshing method [Windows Management Instrumentation],IWbemHiPerfProvider interface, _hmm_iwbemhiperfprovider_stoprefreshing, wbemprov/IWbemHiPerfProvider::StopRefreshing, wmi.iwbemhiperfprovider_stoprefreshing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemHiPerfProvider::StopRefreshing method
+# IWbemHiPerfProvider::StopRefreshing
 
 
 ## -description

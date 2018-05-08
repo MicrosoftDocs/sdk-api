@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.DownloadTrackComplete
-title: IWMPContentPartner::DownloadTrackComplete method
+title: IWMPContentPartner::DownloadTrackComplete
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_downloadtrackcomplete.htm
 old-project: WMP
 ms.assetid: 9614e266-259c-411f-93cf-9be87c930b16
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: DownloadTrackComplete method [Windows Media Player], DownloadTrackComplete method [Windows Media Player], IWMPContentPartner interface, DownloadTrackComplete,IWMPContentPartner.DownloadTrackComplete, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], DownloadTrackComplete method, IWMPContentPartner::DownloadTrackComplete, IWMPContentPartnerDownloadTrackComplete, contentpartner/IWMPContentPartner::DownloadTrackComplete, wmp.iwmpcontentpartner_downloadtrackcomplete
+ms.date: 5/4/2018
+ms.keywords: DownloadTrackComplete, DownloadTrackComplete method [Windows Media Player], DownloadTrackComplete method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],DownloadTrackComplete method, IWMPContentPartner.DownloadTrackComplete, IWMPContentPartner::DownloadTrackComplete, IWMPContentPartnerDownloadTrackComplete, contentpartner/IWMPContentPartner::DownloadTrackComplete, wmp.iwmpcontentpartner_downloadtrackcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::DownloadTrackComplete method
+# IWMPContentPartner::DownloadTrackComplete
 
 
 ## -description

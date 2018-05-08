@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISupportLastWriteTime.GetChangeUnitChangeTime
-title: ISupportLastWriteTime::GetChangeUnitChangeTime method
+title: ISupportLastWriteTime::GetChangeUnitChangeTime
 author: windows-driver-content
 description: Gets the date and time when the specified change unit was last changed.
 old-location: winsync\isupportlastwritetime_getchangeunitchangetime.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: f289d5a5-c991-4223-b59a-68b31ecffb8c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetChangeUnitChangeTime method [Windows Sync], GetChangeUnitChangeTime method [Windows Sync], ISupportLastWriteTime interface, GetChangeUnitChangeTime,ISupportLastWriteTime.GetChangeUnitChangeTime, ISupportLastWriteTime, ISupportLastWriteTime interface [Windows Sync], GetChangeUnitChangeTime method, ISupportLastWriteTime::GetChangeUnitChangeTime, winsync.isupportlastwritetime_getchangeunitchangetime, winsync/ISupportLastWriteTime::GetChangeUnitChangeTime
+ms.keywords: GetChangeUnitChangeTime, GetChangeUnitChangeTime method [Windows Sync], GetChangeUnitChangeTime method [Windows Sync],ISupportLastWriteTime interface, ISupportLastWriteTime interface [Windows Sync],GetChangeUnitChangeTime method, ISupportLastWriteTime.GetChangeUnitChangeTime, ISupportLastWriteTime::GetChangeUnitChangeTime, winsync.isupportlastwritetime_getchangeunitchangetime, winsync/ISupportLastWriteTime::GetChangeUnitChangeTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISupportLastWriteTime::GetChangeUnitChangeTime method
+# ISupportLastWriteTime::GetChangeUnitChangeTime
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.GenerateForLeaf
-title: IConditionGenerator::GenerateForLeaf method
+title: IConditionGenerator::GenerateForLeaf
 author: windows-driver-content
 description: Generates a special query expression for what would otherwise become a leaf query expression.
 old-location: search\_search_IConditionGenerator_GenerateForLeaf.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\generateforleaf.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GenerateForLeaf method [search], GenerateForLeaf method [search], IConditionGenerator interface, GenerateForLeaf,IConditionGenerator.GenerateForLeaf, IConditionGenerator, IConditionGenerator interface [search], GenerateForLeaf method, IConditionGenerator::GenerateForLeaf, _search_IConditionGenerator_GenerateForLeaf, search._search_IConditionGenerator_GenerateForLeaf, structuredquery/IConditionGenerator::GenerateForLeaf
+ms.date: 5/4/2018
+ms.keywords: GenerateForLeaf, GenerateForLeaf method [search], GenerateForLeaf method [search],IConditionGenerator interface, IConditionGenerator interface [search],GenerateForLeaf method, IConditionGenerator.GenerateForLeaf, IConditionGenerator::GenerateForLeaf, _search_IConditionGenerator_GenerateForLeaf, search._search_IConditionGenerator_GenerateForLeaf, structuredquery/IConditionGenerator::GenerateForLeaf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IConditionGenerator::GenerateForLeaf method
+# IConditionGenerator::GenerateForLeaf
 
 
 ## -description

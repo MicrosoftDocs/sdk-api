@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorBlt
-title: ID3D11VideoContext::VideoProcessorBlt method
+title: ID3D11VideoContext::VideoProcessorBlt
 author: windows-driver-content
 description: Performs a video processing operation on one or more input samples and writes the result to a Direct3D surface.
 old-location: mf\id3d11videocontext_videoprocessorblt.htm
 old-project: medfound
 ms.assetid: D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorBlt method, ID3D11VideoContext::VideoProcessorBlt, VideoProcessorBlt method [Media Foundation], VideoProcessorBlt method [Media Foundation], ID3D11VideoContext interface, VideoProcessorBlt,ID3D11VideoContext.VideoProcessorBlt, d3d11/ID3D11VideoContext::VideoProcessorBlt, mf.id3d11videocontext_videoprocessorblt
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorBlt method, ID3D11VideoContext.VideoProcessorBlt, ID3D11VideoContext::VideoProcessorBlt, VideoProcessorBlt, VideoProcessorBlt method [Media Foundation], VideoProcessorBlt method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorBlt, mf.id3d11videocontext_videoprocessorblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::VideoProcessorBlt method
+# ID3D11VideoContext::VideoProcessorBlt
 
 
 ## -description

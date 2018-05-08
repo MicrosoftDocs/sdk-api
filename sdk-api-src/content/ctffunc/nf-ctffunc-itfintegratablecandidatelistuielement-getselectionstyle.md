@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.GetSelectionStyle
-title: ITfIntegratableCandidateListUIElement::GetSelectionStyle method
+title: ITfIntegratableCandidateListUIElement::GetSelectionStyle
 author: windows-driver-content
 description: Retrieves the selection style.
 old-location: tsf\itfintegratablecandidatelistuielement_getselectionstyle.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: D51E27FE-503E-459C-92F1-1826762A5188
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetSelectionStyle method [Text Services Framework], GetSelectionStyle method [Text Services Framework], ITfIntegratableCandidateListUIElement interface, GetSelectionStyle,ITfIntegratableCandidateListUIElement.GetSelectionStyle, ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], GetSelectionStyle method, ITfIntegratableCandidateListUIElement::GetSelectionStyle, ctffunc/ITfIntegratableCandidateListUIElement::GetSelectionStyle, tsf.itfintegratablecandidatelistuielement_getselectionstyle
+ms.keywords: GetSelectionStyle, GetSelectionStyle method [Text Services Framework], GetSelectionStyle method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ITfIntegratableCandidateListUIElement interface [Text Services Framework],GetSelectionStyle method, ITfIntegratableCandidateListUIElement.GetSelectionStyle, ITfIntegratableCandidateListUIElement::GetSelectionStyle, ctffunc/ITfIntegratableCandidateListUIElement::GetSelectionStyle, tsf.itfintegratablecandidatelistuielement_getselectionstyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITfIntegratableCandidateListUIElement::GetSelectionStyle method
+# ITfIntegratableCandidateListUIElement::GetSelectionStyle
 
 
 ## -description

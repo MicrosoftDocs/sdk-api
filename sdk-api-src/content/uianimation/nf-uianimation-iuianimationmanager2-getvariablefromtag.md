@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.GetVariableFromTag
-title: IUIAnimationManager2::GetVariableFromTag method
+title: IUIAnimationManager2::GetVariableFromTag
 author: windows-driver-content
 description: Gets the animation variable with the specified tag.
 old-location: uianimation\iuianimationmanager2_getvariablefromtag.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: ED367DB7-91D6-4D2E-BDAB-27FA4340F091
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetVariableFromTag method [Windows Animation], GetVariableFromTag method [Windows Animation], IUIAnimationManager2 interface, GetVariableFromTag,IUIAnimationManager2.GetVariableFromTag, IUIAnimationManager2, IUIAnimationManager2 interface [Windows Animation], GetVariableFromTag method, IUIAnimationManager2::GetVariableFromTag, uianimation.iuianimationmanager2_getvariablefromtag, uianimation/IUIAnimationManager2::GetVariableFromTag
+ms.keywords: GetVariableFromTag, GetVariableFromTag method [Windows Animation], GetVariableFromTag method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],GetVariableFromTag method, IUIAnimationManager2.GetVariableFromTag, IUIAnimationManager2::GetVariableFromTag, uianimation.iuianimationmanager2_getvariablefromtag, uianimation/IUIAnimationManager2::GetVariableFromTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager2::GetVariableFromTag method
+# IUIAnimationManager2::GetVariableFromTag
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.SendMessage
-title: IWMPContentPartner::SendMessage method
+title: IWMPContentPartner::SendMessage
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The SendMessage method enables discovery pages to send messages to the plug-in.
 old-location: wmp\iwmpcontentpartner_sendmessage.htm
 old-project: WMP
 ms.assetid: 9e3c3293-db5d-4963-a9ca-db955c80a959
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], SendMessage method, IWMPContentPartner::SendMessage, IWMPContentPartnerSendMessage, SendMessage method [Windows Media Player], SendMessage method [Windows Media Player], IWMPContentPartner interface, SendMessage,IWMPContentPartner.SendMessage, contentpartner/IWMPContentPartner::SendMessage, wmp.iwmpcontentpartner_sendmessage
+ms.date: 5/4/2018
+ms.keywords: IWMPContentPartner interface [Windows Media Player],SendMessage method, IWMPContentPartner.SendMessage, IWMPContentPartner::SendMessage, IWMPContentPartnerSendMessage, SendMessage, SendMessage method [Windows Media Player], SendMessage method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::SendMessage, wmp.iwmpcontentpartner_sendmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::SendMessage method
+# IWMPContentPartner::SendMessage
 
 
 ## -description

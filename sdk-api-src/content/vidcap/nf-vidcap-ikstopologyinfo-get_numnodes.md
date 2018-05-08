@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NumNodes
-title: IKsTopologyInfo::get_NumNodes method
+title: IKsTopologyInfo::get_NumNodes
 author: windows-driver-content
 description: The get_NumNodes method returns the number of nodes in the filter.
 old-location: dshow\ikstopologyinfo_get_numnodes.htm
 old-project: DirectShow
 ms.assetid: fdba99d5-fd44-4d4f-8575-867d98bf3339
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IKsTopologyInfo, IKsTopologyInfo interface [DirectShow], get_NumNodes method, IKsTopologyInfo::get_NumNodes, IKsTopologyInfoget_NumNodes, dshow.ikstopologyinfo_get_numnodes, get_NumNodes method [DirectShow], get_NumNodes method [DirectShow], IKsTopologyInfo interface, get_NumNodes,IKsTopologyInfo.get_NumNodes, vidcap/IKsTopologyInfo::get_NumNodes
+ms.date: 4/30/2018
+ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumNodes method, IKsTopologyInfo.get_NumNodes, IKsTopologyInfo::get_NumNodes, IKsTopologyInfoget_NumNodes, dshow.ikstopologyinfo_get_numnodes, get_NumNodes, get_NumNodes method [DirectShow], get_NumNodes method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumNodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IKsTopologyInfo::get_NumNodes method
+# IKsTopologyInfo::get_NumNodes
 
 
 ## -description

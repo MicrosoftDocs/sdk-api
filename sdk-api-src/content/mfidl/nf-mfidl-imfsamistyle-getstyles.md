@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSAMIStyle.GetStyles
-title: IMFSAMIStyle::GetStyles method
+title: IMFSAMIStyle::GetStyles
 author: windows-driver-content
 description: Gets a list of the style names defined in the SAMI file.
 old-location: mf\imfsamistyle_getstyles.htm
 old-project: medfound
 ms.assetid: e0b183f0-8781-4fc5-97dd-e42b0e7bd5e5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStyles method [Media Foundation], GetStyles method [Media Foundation], IMFSAMIStyle interface, GetStyles,IMFSAMIStyle.GetStyles, IMFSAMIStyle, IMFSAMIStyle interface [Media Foundation], GetStyles method, IMFSAMIStyle::GetStyles, e0b183f0-8781-4fc5-97dd-e42b0e7bd5e5, mf.imfsamistyle_getstyles, mfidl/IMFSAMIStyle::GetStyles
+ms.date: 5/3/2018
+ms.keywords: GetStyles, GetStyles method [Media Foundation], GetStyles method [Media Foundation],IMFSAMIStyle interface, IMFSAMIStyle interface [Media Foundation],GetStyles method, IMFSAMIStyle.GetStyles, IMFSAMIStyle::GetStyles, e0b183f0-8781-4fc5-97dd-e42b0e7bd5e5, mf.imfsamistyle_getstyles, mfidl/IMFSAMIStyle::GetStyles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSAMIStyle::GetStyles method
+# IMFSAMIStyle::GetStyles
 
 
 ## -description

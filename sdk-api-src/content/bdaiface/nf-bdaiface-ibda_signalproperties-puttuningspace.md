@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalProperties.PutTuningSpace
-title: IBDA_SignalProperties::PutTuningSpace method
+title: IBDA_SignalProperties::PutTuningSpace
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties_puttuningspace.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f3ecddfc-a95b-47ba-8a2b-5073de4aad5e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_SignalProperties, IBDA_SignalProperties interface [Microsoft TV Technologies], PutTuningSpace method, IBDA_SignalProperties::PutTuningSpace, IBDA_SignalPropertiesPutTuningSpace, PutTuningSpace method [Microsoft TV Technologies], PutTuningSpace method [Microsoft TV Technologies], IBDA_SignalProperties interface, PutTuningSpace,IBDA_SignalProperties.PutTuningSpace, bdaiface/IBDA_SignalProperties::PutTuningSpace, mstv.ibda_signalproperties_puttuningspace
+ms.keywords: IBDA_SignalProperties interface [Microsoft TV Technologies],PutTuningSpace method, IBDA_SignalProperties.PutTuningSpace, IBDA_SignalProperties::PutTuningSpace, IBDA_SignalPropertiesPutTuningSpace, PutTuningSpace, PutTuningSpace method [Microsoft TV Technologies], PutTuningSpace method [Microsoft TV Technologies],IBDA_SignalProperties interface, bdaiface/IBDA_SignalProperties::PutTuningSpace, mstv.ibda_signalproperties_puttuningspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_SignalProperties::PutTuningSpace method
+# IBDA_SignalProperties::PutTuningSpace
 
 
 ## -description

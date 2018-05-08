@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.GetText
-title: ITextRange::GetText method
+title: ITextRange::GetText
 author: windows-driver-content
 description: Gets the plain text in this range. The Text property is the default property of the ITextRange interface.
 old-location: controls\ITextRange_GetText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettext.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetText method [Windows Controls], GetText method [Windows Controls], ITextRange interface, GetText,ITextRange.GetText, ITextRange, ITextRange interface [Windows Controls], GetText method, ITextRange::GetText, _win32_ITextRange_GetText, _win32_ITextRange_GetText_cpp, controls.ITextRange_GetText, controls._win32_ITextRange_GetText, tom/ITextRange::GetText
+ms.date: 4/27/2018
+ms.keywords: GetText, GetText method [Windows Controls], GetText method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetText method, ITextRange.GetText, ITextRange::GetText, _win32_ITextRange_GetText, _win32_ITextRange_GetText_cpp, controls.ITextRange_GetText, controls._win32_ITextRange_GetText, tom/ITextRange::GetText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::GetText method
+# ITextRange::GetText
 
 
 ## -description

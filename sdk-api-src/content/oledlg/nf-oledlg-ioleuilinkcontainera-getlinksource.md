@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.GetLinkSource
-title: IOleUILinkContainerA::GetLinkSource method
+title: IOleUILinkContainerA::GetLinkSource
 author: windows-driver-content
 description: Retrieves information about a link that can be displayed in the Links dialog box.
 old-location: com\ioleuilinkcontainer_getlinksource.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 10f1bc84-cc09-4a41-8f55-21314338f636
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetLinkSource method [COM], GetLinkSource method [COM], IOleUILinkContainer interface, GetLinkSource method [COM], IOleUILinkContainerA interface, GetLinkSource method [COM], IOleUILinkContainerW interface, GetLinkSource,IOleUILinkContainerA.GetLinkSource, IOleUILinkContainer interface [COM], GetLinkSource method, IOleUILinkContainer::GetLinkSource, IOleUILinkContainerA, IOleUILinkContainerA interface [COM], GetLinkSource method, IOleUILinkContainerA::GetLinkSource, IOleUILinkContainerW interface [COM], GetLinkSource method, IOleUILinkContainerW::GetLinkSource, _ole_IOleUILinkContainer_GetLinkSource, com.ioleuilinkcontainer_getlinksource, oledlg/IOleUILinkContainer::GetLinkSource, oledlg/IOleUILinkContainerA::GetLinkSource, oledlg/IOleUILinkContainerW::GetLinkSource
+ms.keywords: GetLinkSource, GetLinkSource method [COM], GetLinkSource method [COM],IOleUILinkContainer interface, GetLinkSource method [COM],IOleUILinkContainerA interface, GetLinkSource method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],GetLinkSource method, IOleUILinkContainer::GetLinkSource, IOleUILinkContainerA interface [COM],GetLinkSource method, IOleUILinkContainerA.GetLinkSource, IOleUILinkContainerA::GetLinkSource, IOleUILinkContainerW interface [COM],GetLinkSource method, IOleUILinkContainerW::GetLinkSource, _ole_IOleUILinkContainer_GetLinkSource, com.ioleuilinkcontainer_getlinksource, oledlg/IOleUILinkContainer::GetLinkSource, oledlg/IOleUILinkContainerA::GetLinkSource, oledlg/IOleUILinkContainerW::GetLinkSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleUILinkContainerA::GetLinkSource method
+# IOleUILinkContainerA::GetLinkSource
 
 
 ## -description

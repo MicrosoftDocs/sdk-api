@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.IsSeeking
-title: IMFMediaEngine::IsSeeking method
+title: IMFMediaEngine::IsSeeking
 author: windows-driver-content
 description: Queries whether the Media Engine is currently seeking to a new playback position.
 old-location: mf\imfmediaengine_isseeking.htm
 old-project: medfound
 ms.assetid: B314D5E7-EBD4-42CF-9E86-206ABC3027A0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], IsSeeking method, IMFMediaEngine::IsSeeking, IsSeeking method [Media Foundation], IsSeeking method [Media Foundation], IMFMediaEngine interface, IsSeeking,IMFMediaEngine.IsSeeking, mf.imfmediaengine_isseeking, mfmediaengine/IMFMediaEngine::IsSeeking
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngine interface [Media Foundation],IsSeeking method, IMFMediaEngine.IsSeeking, IMFMediaEngine::IsSeeking, IsSeeking, IsSeeking method [Media Foundation], IsSeeking method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_isseeking, mfmediaengine/IMFMediaEngine::IsSeeking
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::IsSeeking method
+# IMFMediaEngine::IsSeeking
 
 
 ## -description

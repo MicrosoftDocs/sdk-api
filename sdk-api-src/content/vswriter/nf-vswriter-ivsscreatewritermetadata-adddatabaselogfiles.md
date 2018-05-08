@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddDatabaseLogFiles
-title: IVssCreateWriterMetadata::AddDatabaseLogFiles method
+title: IVssCreateWriterMetadata::AddDatabaseLogFiles
 author: windows-driver-content
 description: The AddDatabaseLogFiles method indicates the log files that are associated with a database to be backed up, as well as their location.
 old-location: base\ivsscreatewritermetadata_adddatabaselogfiles.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 09bdbdf3-d757-4d3c-8b8b-f792b6cd4ef1
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: AddDatabaseLogFiles method [VSS], AddDatabaseLogFiles method [VSS], IVssCreateWriterMetadata interface, AddDatabaseLogFiles,IVssCreateWriterMetadata.AddDatabaseLogFiles, IVssCreateWriterMetadata, IVssCreateWriterMetadata interface [VSS], AddDatabaseLogFiles method, IVssCreateWriterMetadata::AddDatabaseLogFiles, _win32_ivsscreatewritermetadata_adddatabaselogfiles, base.ivsscreatewritermetadata_adddatabaselogfiles, vswriter/IVssCreateWriterMetadata::AddDatabaseLogFiles
+ms.keywords: AddDatabaseLogFiles, AddDatabaseLogFiles method [VSS], AddDatabaseLogFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddDatabaseLogFiles method, IVssCreateWriterMetadata.AddDatabaseLogFiles, IVssCreateWriterMetadata::AddDatabaseLogFiles, _win32_ivsscreatewritermetadata_adddatabaselogfiles, base.ivsscreatewritermetadata_adddatabaselogfiles, vswriter/IVssCreateWriterMetadata::AddDatabaseLogFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssCreateWriterMetadata::AddDatabaseLogFiles method
+# IVssCreateWriterMetadata::AddDatabaseLogFiles
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: controls\DATETIMEPICKERINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\datetimepickerinfo.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: "*LPDATETIMEPICKERINFO, DATETIMEPICKERINFO, DATETIMEPICKERINFO structure [Windows Controls], LPDATETIMEPICKERINFO, LPDATETIMEPICKERINFO structure pointer [Windows Controls], _shell_DATETIMEPICKERINFO, _shell_DATETIMEPICKERINFO_cpp, commctrl/DATETIMEPICKERINFO, commctrl/LPDATETIMEPICKERINFO, controls.DATETIMEPICKERINFO, controls._shell_DATETIMEPICKERINFO, tagDATETIMEPICKERINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

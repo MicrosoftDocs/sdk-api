@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateInstantaneousTransition
-title: IUIAnimationTransitionLibrary2::CreateInstantaneousTransition method
+title: IUIAnimationTransitionLibrary2::CreateInstantaneousTransition
 author: windows-driver-content
 description: Creates an instantaneous scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createinstantaneoustransition.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: E40313C5-F98E-4BF3-83B8-735271ED1E2C
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateInstantaneousTransition method [Windows Animation], CreateInstantaneousTransition method [Windows Animation], IUIAnimationTransitionLibrary2 interface, CreateInstantaneousTransition,IUIAnimationTransitionLibrary2.CreateInstantaneousTransition, IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], CreateInstantaneousTransition method, IUIAnimationTransitionLibrary2::CreateInstantaneousTransition, uianimation.iuianimationtransitionlibrary2_createinstantaneoustransition, uianimation/IUIAnimationTransitionLibrary2::CreateInstantaneousTransition
+ms.keywords: CreateInstantaneousTransition, CreateInstantaneousTransition method [Windows Animation], CreateInstantaneousTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateInstantaneousTransition method, IUIAnimationTransitionLibrary2.CreateInstantaneousTransition, IUIAnimationTransitionLibrary2::CreateInstantaneousTransition, uianimation.iuianimationtransitionlibrary2_createinstantaneoustransition, uianimation/IUIAnimationTransitionLibrary2::CreateInstantaneousTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary2::CreateInstantaneousTransition method
+# IUIAnimationTransitionLibrary2::CreateInstantaneousTransition
 
 
 ## -description

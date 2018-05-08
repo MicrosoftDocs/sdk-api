@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.SetProperty
-title: IAzApplication::SetProperty method
+title: IAzApplication::SetProperty
 author: windows-driver-content
 description: Sets the specified value to the IAzApplication object property with the specified property ID.
 old-location: security\iazapplication_setproperty.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 077ed5a9-7a38-4477-9fac-1f0b88ab0d33
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AZ_PROP_APPLICATION_AUTHZ_INTERFACE_CLSID, AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLICATION_INTERFACE_CLSID, AZ_PROP_APPLICATION_VERSION, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_DESCRIPTION, AZ_PROP_GENERATE_AUDITS, AZ_PROP_NAME, AzApplication object [Security], SetProperty method, IAzApplication, IAzApplication interface [Security], SetProperty method, IAzApplication::SetProperty, SetProperty method [Security], SetProperty method [Security], AzApplication object, SetProperty method [Security], IAzApplication interface, SetProperty,IAzApplication.SetProperty, azroles/IAzApplication::SetProperty, security.iazapplication_setproperty
+ms.keywords: AZ_PROP_APPLICATION_AUTHZ_INTERFACE_CLSID, AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLICATION_INTERFACE_CLSID, AZ_PROP_APPLICATION_VERSION, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_DESCRIPTION, AZ_PROP_GENERATE_AUDITS, AZ_PROP_NAME, AzApplication object [Security],SetProperty method, IAzApplication interface [Security],SetProperty method, IAzApplication.SetProperty, IAzApplication::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzApplication object, SetProperty method [Security],IAzApplication interface, azroles/IAzApplication::SetProperty, security.iazapplication_setproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::SetProperty method
+# IAzApplication::SetProperty
 
 
 ## -description

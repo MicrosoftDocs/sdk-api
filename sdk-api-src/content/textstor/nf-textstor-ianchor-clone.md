@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.Clone
-title: IAnchor::Clone method
+title: IAnchor::Clone
 author: windows-driver-content
 description: The IAnchor::Clone method produces a new anchor object positioned at the same location, and with the same gravity, as the current anchor.
 old-location: tsf\ianchor_clone.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2c5e767a-5f66-4ecf-89f1-b27ed38e887b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Clone method [Text Services Framework], Clone method [Text Services Framework], IAnchor interface, Clone,IAnchor.Clone, IAnchor, IAnchor interface [Text Services Framework], Clone method, IAnchor::Clone, textstor/IAnchor::Clone, tsf.ianchor_clone
+ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],Clone method, IAnchor.Clone, IAnchor::Clone, textstor/IAnchor::Clone, tsf.ianchor_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnchor::Clone method
+# IAnchor::Clone
 
 
 ## -description

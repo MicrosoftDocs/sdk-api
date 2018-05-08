@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmAutoApplyQuota.CommitAndUpdateDerived
-title: IFsrmAutoApplyQuota::CommitAndUpdateDerived method
+title: IFsrmAutoApplyQuota::CommitAndUpdateDerived
 author: windows-driver-content
 description: Saves the quota and then applies any changes to the derived quotas.
 old-location: fsrm\ifsrmautoapplyquota_commitandupdatederived.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: f988b78d-214a-4f4f-81d4-d7f59fecb02a
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CommitAndUpdateDerived method [File Server Resource Manager], CommitAndUpdateDerived method [File Server Resource Manager], IFsrmAutoApplyQuota interface, CommitAndUpdateDerived,IFsrmAutoApplyQuota.CommitAndUpdateDerived, IFsrmAutoApplyQuota, IFsrmAutoApplyQuota interface [File Server Resource Manager], CommitAndUpdateDerived method, IFsrmAutoApplyQuota::CommitAndUpdateDerived, fs.ifsrmautoapplyquota_commitandupdatederived, fsrm.ifsrmautoapplyquota_commitandupdatederived, fsrmquota/IFsrmAutoApplyQuota::CommitAndUpdateDerived
+ms.keywords: CommitAndUpdateDerived, CommitAndUpdateDerived method [File Server Resource Manager], CommitAndUpdateDerived method [File Server Resource Manager],IFsrmAutoApplyQuota interface, IFsrmAutoApplyQuota interface [File Server Resource Manager],CommitAndUpdateDerived method, IFsrmAutoApplyQuota.CommitAndUpdateDerived, IFsrmAutoApplyQuota::CommitAndUpdateDerived, fs.ifsrmautoapplyquota_commitandupdatederived, fsrm.ifsrmautoapplyquota_commitandupdatederived, fsrmquota/IFsrmAutoApplyQuota::CommitAndUpdateDerived
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmAutoApplyQuota::CommitAndUpdateDerived method
+# IFsrmAutoApplyQuota::CommitAndUpdateDerived
 
 
 ## -description

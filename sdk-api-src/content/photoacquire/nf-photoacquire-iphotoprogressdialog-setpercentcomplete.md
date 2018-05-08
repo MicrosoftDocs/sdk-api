@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetPercentComplete
-title: IPhotoProgressDialog::SetPercentComplete method
+title: IPhotoProgressDialog::SetPercentComplete
 author: windows-driver-content
 description: The SetPercentComplete method sets a value indicating the completed portion of the current operation.
 old-location: picacq\iphotoprogressdialog_setpercentcomplete.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: b2fb225d-6d2b-49f7-bbc9-715107e90df2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], SetPercentComplete method, IPhotoProgressDialog::SetPercentComplete, IPhotoProgressDialogSetPercentComplete, SetPercentComplete method [Picture Acquisition], SetPercentComplete method [Picture Acquisition], IPhotoProgressDialog interface, SetPercentComplete,IPhotoProgressDialog.SetPercentComplete, photoacquire/IPhotoProgressDialog::SetPercentComplete, picacq.iphotoprogressdialog_setpercentcomplete
+ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetPercentComplete method, IPhotoProgressDialog.SetPercentComplete, IPhotoProgressDialog::SetPercentComplete, IPhotoProgressDialogSetPercentComplete, SetPercentComplete, SetPercentComplete method [Picture Acquisition], SetPercentComplete method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetPercentComplete, picacq.iphotoprogressdialog_setpercentcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoProgressDialog::SetPercentComplete method
+# IPhotoProgressDialog::SetPercentComplete
 
 
 ## -description

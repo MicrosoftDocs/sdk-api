@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSeeking.CheckCapabilities
-title: IMediaSeeking::CheckCapabilities method
+title: IMediaSeeking::CheckCapabilities
 author: windows-driver-content
 description: The CheckCapabilities method queries whether a stream has specified seeking capabilities.
 old-location: dshow\imediaseeking_checkcapabilities.htm
 old-project: DirectShow
 ms.assetid: d0062f66-213d-4f91-9f73-780be39ee432
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CheckCapabilities method [DirectShow], CheckCapabilities method [DirectShow], IMediaSeeking interface, CheckCapabilities,IMediaSeeking.CheckCapabilities, IMediaSeeking, IMediaSeeking interface [DirectShow], CheckCapabilities method, IMediaSeeking::CheckCapabilities, IMediaSeekingCheckCapabilities, dshow.imediaseeking_checkcapabilities, strmif/IMediaSeeking::CheckCapabilities
+ms.date: 4/30/2018
+ms.keywords: CheckCapabilities, CheckCapabilities method [DirectShow], CheckCapabilities method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],CheckCapabilities method, IMediaSeeking.CheckCapabilities, IMediaSeeking::CheckCapabilities, IMediaSeekingCheckCapabilities, dshow.imediaseeking_checkcapabilities, strmif/IMediaSeeking::CheckCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSeeking::CheckCapabilities method
+# IMediaSeeking::CheckCapabilities
 
 
 ## -description

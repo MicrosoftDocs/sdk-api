@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: ea4bf623-c93a-4c0f-a84f-e3a979b37d60
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDeviceManager2, IWMDeviceManager2 interface [windows Media Device Manager], IWMDeviceManager2 interface [windows Media Device Manager], described, IWMDeviceManager2Interface, mswmdm/IWMDeviceManager2, wmdm.iwmdevicemanager2
+ms.keywords: IWMDeviceManager2, IWMDeviceManager2 interface [windows Media Device Manager], IWMDeviceManager2 interface [windows Media Device Manager],described, IWMDeviceManager2Interface, mswmdm/IWMDeviceManager2, wmdm.iwmdevicemanager2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

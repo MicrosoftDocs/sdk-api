@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 49407b45-2b7f-43a2-90ff-98cc557edb31
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM callback function [Failover Cluster], _wolf_clusterresourcecloseenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM, mscs.clusterresourcecloseenum
+ms.keywords: PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM callback, PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM callback function [Failover Cluster], _wolf_clusterresourcecloseenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM, mscs.clusterresourcecloseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM callback
+# PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM callback function
 
 
 ## -description

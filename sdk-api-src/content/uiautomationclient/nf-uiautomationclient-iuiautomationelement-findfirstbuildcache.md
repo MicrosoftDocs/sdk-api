@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.FindFirstBuildCache
-title: IUIAutomationElement::FindFirstBuildCache method
+title: IUIAutomationElement::FindFirstBuildCache
 author: windows-driver-content
 description: Retrieves the first child or descendant element that matches the specified condition, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomationElement_FindFirstBuildCache.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: ecb10fbf-ff1d-4bd0-b036-1050560d82fe
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: FindFirstBuildCache method [Windows Accessibility], FindFirstBuildCache method [Windows Accessibility], IUIAutomationElement interface, FindFirstBuildCache,IUIAutomationElement.FindFirstBuildCache, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], FindFirstBuildCache method, IUIAutomationElement::FindFirstBuildCache, uiauto.uiauto_IUIAutomationElement_FindFirstBuildCache, uiauto_IUIAutomationElement_FindFirstBuildCache, uiautomationclient/IUIAutomationElement::FindFirstBuildCache, winauto.uiauto_IUIAutomationElement_FindFirstBuildCache
+ms.keywords: FindFirstBuildCache, FindFirstBuildCache method [Windows Accessibility], FindFirstBuildCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindFirstBuildCache method, IUIAutomationElement.FindFirstBuildCache, IUIAutomationElement::FindFirstBuildCache, uiauto.uiauto_IUIAutomationElement_FindFirstBuildCache, uiauto_IUIAutomationElement_FindFirstBuildCache, uiautomationclient/IUIAutomationElement::FindFirstBuildCache, winauto.uiauto_IUIAutomationElement_FindFirstBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::FindFirstBuildCache method
+# IUIAutomationElement::FindFirstBuildCache
 
 
 ## -description

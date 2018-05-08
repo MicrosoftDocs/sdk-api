@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 93f2be99-0799-4047-ae4e-62f0e74d15c3
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ILog, ILog interface [COM], ILog interface [COM], described, _com_ilog, com.ilog, txlogpub/ILog
+ms.keywords: ILog, ILog interface [COM], ILog interface [COM],described, _com_ilog, com.ilog, txlogpub/ILog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetSid
-title: ICredentialProviderUser::GetSid method
+title: ICredentialProviderUser::GetSid
 author: windows-driver-content
 description: Retrieves the user's security identifier (SID).
 old-location: shell\ICredentialProviderUser_GetSid.htm
 old-project: shell
 ms.assetid: FDC5D586-D72B-4eb1-BE7C-CFD8E0B48F48
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSid method [Windows Shell], GetSid method [Windows Shell], ICredentialProviderUser interface, GetSid,ICredentialProviderUser.GetSid, ICredentialProviderUser, ICredentialProviderUser interface [Windows Shell], GetSid method, ICredentialProviderUser::GetSid, credentialprovider/ICredentialProviderUser::GetSid, shell.ICredentialProviderUser_GetSid
+ms.date: 5/3/2018
+ms.keywords: GetSid, GetSid method [Windows Shell], GetSid method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetSid method, ICredentialProviderUser.GetSid, ICredentialProviderUser::GetSid, credentialprovider/ICredentialProviderUser::GetSid, shell.ICredentialProviderUser_GetSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Authui.dll
 req.irql: 
 ---
 
-# ICredentialProviderUser::GetSid method
+# ICredentialProviderUser::GetSid
 
 
 ## -description

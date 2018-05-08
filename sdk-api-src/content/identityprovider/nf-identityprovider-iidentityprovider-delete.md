@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Delete
-title: IIdentityProvider::Delete method
+title: IIdentityProvider::Delete
 author: windows-driver-content
 description: Removes the specified identity from the identity store or the specified properties from the identity.
 old-location: security\iidentityprovider_delete.htm
@@ -8,7 +8,7 @@ old-project: SecAuthN
 ms.assetid: a21aa2eb-2551-4920-a312-34fa327572ca
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Delete method [Security], Delete method [Security], IIdentityProvider interface, Delete,IIdentityProvider.Delete, IIdentityProvider, IIdentityProvider interface [Security], Delete method, IIdentityProvider::Delete, identityprovider/IIdentityProvider::Delete, security.iidentityprovider_delete
+ms.keywords: Delete, Delete method [Security], Delete method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Delete method, IIdentityProvider.Delete, IIdentityProvider::Delete, identityprovider/IIdentityProvider::Delete, security.iidentityprovider_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IIdentityProvider::Delete method
+# IIdentityProvider::Delete
 
 
 ## -description

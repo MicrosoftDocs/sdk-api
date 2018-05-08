@@ -8,7 +8,7 @@ old-project: wpdauto
 ms.assetid: 537551c9-0773-44a9-b602-7d2a6bf9ad00
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory interface [WPD Automation], IPortableDeviceDispatchFactory interface [WPD Automation], described, portabledeviceapi/IPortableDeviceDispatchFactory, wpdauto.iportabledevicedispatchfactory_interface
+ms.keywords: IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory interface [WPD Automation], IPortableDeviceDispatchFactory interface [WPD Automation],described, portabledeviceapi/IPortableDeviceDispatchFactory, wpdauto.iportabledevicedispatchfactory_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

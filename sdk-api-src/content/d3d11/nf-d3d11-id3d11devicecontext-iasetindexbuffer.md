@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IASetIndexBuffer
-title: ID3D11DeviceContext::IASetIndexBuffer method
+title: ID3D11DeviceContext::IASetIndexBuffer
 author: windows-driver-content
 description: Bind an index buffer to the input-assembler stage.
 old-location: direct3d11\id3d11devicecontext_iasetindexbuffer.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: c556dda2-0808-4701-90cb-16c67a24add1
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 73896724-c6e5-3a60-25c3-af31308264c5, IASetIndexBuffer method [Direct3D 11], IASetIndexBuffer method [Direct3D 11], ID3D11DeviceContext interface, IASetIndexBuffer,ID3D11DeviceContext.IASetIndexBuffer, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], IASetIndexBuffer method, ID3D11DeviceContext::IASetIndexBuffer, d3d11/ID3D11DeviceContext::IASetIndexBuffer, direct3d11.id3d11devicecontext_iasetindexbuffer
+ms.keywords: 73896724-c6e5-3a60-25c3-af31308264c5, IASetIndexBuffer, IASetIndexBuffer method [Direct3D 11], IASetIndexBuffer method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IASetIndexBuffer method, ID3D11DeviceContext.IASetIndexBuffer, ID3D11DeviceContext::IASetIndexBuffer, d3d11/ID3D11DeviceContext::IASetIndexBuffer, direct3d11.id3d11devicecontext_iasetindexbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::IASetIndexBuffer method
+# ID3D11DeviceContext::IASetIndexBuffer
 
 
 ## -description

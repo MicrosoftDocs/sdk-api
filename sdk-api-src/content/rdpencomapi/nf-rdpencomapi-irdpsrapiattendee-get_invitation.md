@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_Invitation
-title: IRDPSRAPIAttendee::get_Invitation method
+title: IRDPSRAPIAttendee::get_Invitation
 author: windows-driver-content
 description: The invitation used to grant the attendee access to the conference.
 old-location: rdp\irdpsrapiattendee_invitation.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 71fed876-8b9d-4b19-a278-45ab620fb61e
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIAttendee, IRDPSRAPIAttendee interface [RDP], Invitation property, IRDPSRAPIAttendee.Invitation, IRDPSRAPIAttendee::get_Invitation, Invitation property [RDP], Invitation property [RDP], IRDPSRAPIAttendee interface, Invitation property [RDP], RDPSRAPIAttendee object, RDPSRAPIAttendee object [RDP], Invitation property, get_Invitation,IRDPSRAPIAttendee.get_Invitation, rdp.irdpsrapiattendee_invitation, rdpencomapi/IRDPSRAPIAttendee::Invitation, rdpencomapi/IRDPSRAPIAttendee::get_Invitation
+ms.keywords: IRDPSRAPIAttendee interface [RDP],Invitation property, IRDPSRAPIAttendee.Invitation, IRDPSRAPIAttendee.get_Invitation, IRDPSRAPIAttendee::Invitation, IRDPSRAPIAttendee::get_Invitation, Invitation property [RDP], Invitation property [RDP],IRDPSRAPIAttendee interface, Invitation property [RDP],RDPSRAPIAttendee object, RDPSRAPIAttendee object [RDP],Invitation property, get_Invitation, rdp.irdpsrapiattendee_invitation, rdpencomapi/IRDPSRAPIAttendee::Invitation, rdpencomapi/IRDPSRAPIAttendee::get_Invitation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIAttendee::get_Invitation method
+# IRDPSRAPIAttendee::get_Invitation
 
 
 ## -description

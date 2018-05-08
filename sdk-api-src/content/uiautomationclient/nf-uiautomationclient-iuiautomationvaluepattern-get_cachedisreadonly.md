@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationValuePattern.get_CachedIsReadOnly
-title: IUIAutomationValuePattern::get_CachedIsReadOnly method
+title: IUIAutomationValuePattern::get_CachedIsReadOnly
 author: windows-driver-content
 description: Retrieves a cached value that indicates whether the value of the element is read-only.
 old-location: winauto\uiauto_IUIAutomationValuePattern_CachedIsReadOnly.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 73b66597-7d53-4b37-a9b6-f3ef4640d301
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedIsReadOnly property [Windows Accessibility], CachedIsReadOnly property [Windows Accessibility], IUIAutomationValuePattern interface, IUIAutomationValuePattern, IUIAutomationValuePattern interface [Windows Accessibility], CachedIsReadOnly property, IUIAutomationValuePattern.CachedIsReadOnly, IUIAutomationValuePattern::get_CachedIsReadOnly, get_CachedIsReadOnly,IUIAutomationValuePattern.get_CachedIsReadOnly, uiauto.uiauto_IUIAutomationValuePattern_CachedIsReadOnly, uiauto_IUIAutomationValuePattern_CachedIsReadOnly, uiautomationclient/IUIAutomationValuePattern::CachedIsReadOnly, uiautomationclient/IUIAutomationValuePattern::get_CachedIsReadOnly, winauto.uiauto_IUIAutomationValuePattern_CachedIsReadOnly
+ms.keywords: CachedIsReadOnly property [Windows Accessibility], CachedIsReadOnly property [Windows Accessibility],IUIAutomationValuePattern interface, IUIAutomationValuePattern interface [Windows Accessibility],CachedIsReadOnly property, IUIAutomationValuePattern.CachedIsReadOnly, IUIAutomationValuePattern.get_CachedIsReadOnly, IUIAutomationValuePattern::CachedIsReadOnly, IUIAutomationValuePattern::get_CachedIsReadOnly, get_CachedIsReadOnly, uiauto.uiauto_IUIAutomationValuePattern_CachedIsReadOnly, uiauto_IUIAutomationValuePattern_CachedIsReadOnly, uiautomationclient/IUIAutomationValuePattern::CachedIsReadOnly, uiautomationclient/IUIAutomationValuePattern::get_CachedIsReadOnly, winauto.uiauto_IUIAutomationValuePattern_CachedIsReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationValuePattern::get_CachedIsReadOnly method
+# IUIAutomationValuePattern::get_CachedIsReadOnly
 
 
 ## -description

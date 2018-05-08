@@ -65,6 +65,34 @@ Internet Protocol (IP) version.
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a> for more information.
 
 
+### -field localV4Address
+
+The local IPv4 address of the IPsec traffic. 
+
+Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field localV6Address
+
+The local IPv6 address of the IPsec traffic.
+
+Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
+### -field remoteV4Address
+
+The remote IPv4 address of the IPsec traffic. 
+
+Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field remoteV6Address
+
+The remote IPv6 address of the IPsec traffic. 
+
+Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
 ### -field trafficType
 
 Type of IPsec traffic.
@@ -72,13 +100,7 @@ Type of IPsec traffic.
 See <a href="https://msdn.microsoft.com/e87154ce-7f19-424c-a577-04e2eb81560e">IPSEC_TRAFFIC_TYPE</a> for more information.
 
 
-### -field remotePort
-
-The remote TCP/UDP port for this traffic. This is used when the remote port condition in the transport
-   layer filter is more generic than the actual remote port.
-
-
-#### - ipsecFilterId
+### -field ipsecFilterId
 
 The LUID of the FWPS transport
    layer filter corresponding to this traffic. 
@@ -86,39 +108,17 @@ The LUID of the FWPS transport
 Available if <b>trafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TRANSPORT</b>.
 
 
-#### - localV4Address
-
-The local IPv4 address of the IPsec traffic. 
-
-Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - localV6Address
-
-The local IPv6 address of the IPsec traffic.
-
-Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
-
-
-#### - remoteV4Address
-
-The remote IPv4 address of the IPsec traffic. 
-
-Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - remoteV6Address
-
-The remote IPv6 address of the IPsec traffic. 
-
-Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
-
-
-#### - tunnelPolicyId
+### -field tunnelPolicyId
 
 The LUID of the associated Quick Mode (QM) tunnel policy. 
 
 Available if <b>trafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TUNNEL</b>.
+
+
+### -field remotePort
+
+The remote TCP/UDP port for this traffic. This is used when the remote port condition in the transport
+   layer filter is more generic than the actual remote port.
 
 
 ## -remarks

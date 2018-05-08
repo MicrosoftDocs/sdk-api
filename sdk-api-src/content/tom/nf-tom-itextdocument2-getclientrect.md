@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.GetClientRect
-title: ITextDocument2::GetClientRect method
+title: ITextDocument2::GetClientRect
 author: windows-driver-content
 description: Retrieves the client rectangle of the rich edit control.
 old-location: controls\itextdocument2_getclientrect.htm
 old-project: Controls
 ms.assetid: a5736c58-e402-421d-aa4a-79b65460b692
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetClientRect method [Windows Controls], GetClientRect method [Windows Controls], ITextDocument2 interface, GetClientRect,ITextDocument2.GetClientRect, ITextDocument2, ITextDocument2 interface [Windows Controls], GetClientRect method, ITextDocument2::GetClientRect, controls.itextdocument2_getclientrect, tom/ITextDocument2::GetClientRect, tomClientCoord, tomIncludeInset, tomTransform
+ms.date: 4/27/2018
+ms.keywords: GetClientRect, GetClientRect method [Windows Controls], GetClientRect method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetClientRect method, ITextDocument2.GetClientRect, ITextDocument2::GetClientRect, controls.itextdocument2_getclientrect, tom/ITextDocument2::GetClientRect, tomClientCoord, tomIncludeInset, tomTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::GetClientRect method
+# ITextDocument2::GetClientRect
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:effects.IWMPEffects.GetPresetTitle
-title: IWMPEffects::GetPresetTitle method
+title: IWMPEffects::GetPresetTitle
 author: windows-driver-content
 description: The GetPresetTitle method gets the title of the current preset.
 old-location: wmp\iwmpeffects_getpresettitle.htm
 old-project: WMP
 ms.assetid: 73e80221-2170-4724-b902-5c30796cb6a4
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: EffectsGetPresetTitle, GetPresetTitle method [Windows Media Player], GetPresetTitle method [Windows Media Player], IWMPEffects interface, GetPresetTitle,IWMPEffects.GetPresetTitle, IWMPEffects, IWMPEffects interface [Windows Media Player], GetPresetTitle method, IWMPEffects::GetPresetTitle, effects/IWMPEffects::GetPresetTitle, wmp.iwmpeffects_getpresettitle
+ms.date: 5/4/2018
+ms.keywords: EffectsGetPresetTitle, GetPresetTitle, GetPresetTitle method [Windows Media Player], GetPresetTitle method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetPresetTitle method, IWMPEffects.GetPresetTitle, IWMPEffects::GetPresetTitle, effects/IWMPEffects::GetPresetTitle, wmp.iwmpeffects_getpresettitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IWMPEffects::GetPresetTitle method
+# IWMPEffects::GetPresetTitle
 
 
 ## -description

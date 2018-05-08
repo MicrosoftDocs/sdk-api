@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemCallResult.GetResultString
-title: IWbemCallResult::GetResultString method
+title: IWbemCallResult::GetResultString
 author: windows-driver-content
 description: The IWbemCallResult::GetResultString method returns the assigned object path of an instance newly created by IWbemServices::PutInstance.
 old-location: wmi\iwbemcallresult_getresultstring.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 7a022519-c112-42d4-b777-c3828439f7dd
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetResultString method [Windows Management Instrumentation], GetResultString method [Windows Management Instrumentation], IWbemCallResult interface, GetResultString,IWbemCallResult.GetResultString, IWbemCallResult, IWbemCallResult interface [Windows Management Instrumentation], GetResultString method, IWbemCallResult::GetResultString, _hmm_iwbemcallresult_getresultstring, wbemcli/IWbemCallResult::GetResultString, wmi.iwbemcallresult_getresultstring
+ms.keywords: GetResultString, GetResultString method [Windows Management Instrumentation], GetResultString method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetResultString method, IWbemCallResult.GetResultString, IWbemCallResult::GetResultString, _hmm_iwbemcallresult_getresultstring, wbemcli/IWbemCallResult::GetResultString, wmi.iwbemcallresult_getresultstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemCallResult::GetResultString method
+# IWbemCallResult::GetResultString
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetAlertPriority
-title: ISCTE_EAS::GetAlertPriority method
+title: ISCTE_EAS::GetAlertPriority
 author: windows-driver-content
 description: The GetAlertPriority method returns the alert priority.
 old-location: mstv\iscte_eas_getalertpriority.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3862ae19-972b-4822-8b52-5a868a2fc58d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetAlertPriority method [Microsoft TV Technologies], GetAlertPriority method [Microsoft TV Technologies], ISCTE_EAS interface, GetAlertPriority,ISCTE_EAS.GetAlertPriority, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetAlertPriority method, ISCTE_EAS::GetAlertPriority, ISCTE_EASGetAlertPriority, atscpsipparser/ISCTE_EAS::GetAlertPriority, mstv.iscte_eas_getalertpriority
+ms.keywords: GetAlertPriority, GetAlertPriority method [Microsoft TV Technologies], GetAlertPriority method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetAlertPriority method, ISCTE_EAS.GetAlertPriority, ISCTE_EAS::GetAlertPriority, ISCTE_EASGetAlertPriority, atscpsipparser/ISCTE_EAS::GetAlertPriority, mstv.iscte_eas_getalertpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetAlertPriority method
+# ISCTE_EAS::GetAlertPriority
 
 
 ## -description

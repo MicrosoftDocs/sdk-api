@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetRecordCopyControl
-title: IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl method
+title: IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl
 author: windows-driver-content
 description: Gets copy control data from a specified component in an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor.
 old-location: mstv\iisdbdigitalcopycontroldescriptor_getrecordcopycontrol.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 800e2263-b04a-4030-9aba-c0b38033b82d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordCopyControl method [Microsoft TV Technologies], GetRecordCopyControl method [Microsoft TV Technologies], IIsdbDigitalCopyControlDescriptor interface, GetRecordCopyControl,IIsdbDigitalCopyControlDescriptor.GetRecordCopyControl, IIsdbDigitalCopyControlDescriptor, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies], GetRecordCopyControl method, IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl, mstv.iisdbdigitalcopycontroldescriptor_getrecordcopycontrol
+ms.keywords: GetRecordCopyControl, GetRecordCopyControl method [Microsoft TV Technologies], GetRecordCopyControl method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetRecordCopyControl method, IIsdbDigitalCopyControlDescriptor.GetRecordCopyControl, IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl, mstv.iisdbdigitalcopycontroldescriptor_getrecordcopycontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl method
+# IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl
 
 
 ## -description

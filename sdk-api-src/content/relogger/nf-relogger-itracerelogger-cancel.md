@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.Cancel
-title: ITraceRelogger::Cancel method
+title: ITraceRelogger::Cancel
 author: windows-driver-content
 description: Terminates the relogging process.
 old-location: etw\itracerelogger_cancel.htm
@@ -8,7 +8,7 @@ old-project: ETW
 ms.assetid: d195f746-7f56-443f-9232-e95a6b026331
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Cancel method [ETW], Cancel method [ETW], ITraceRelogger interface, Cancel,ITraceRelogger.Cancel, ITraceRelogger, ITraceRelogger interface [ETW], Cancel method, ITraceRelogger::Cancel, etw.itracerelogger_cancel, relogger/ITraceRelogger::Cancel
+ms.keywords: Cancel, Cancel method [ETW], Cancel method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],Cancel method, ITraceRelogger.Cancel, ITraceRelogger::Cancel, etw.itracerelogger_cancel, relogger/ITraceRelogger::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceRelogger::Cancel method
+# ITraceRelogger::Cancel
 
 
 ## -description

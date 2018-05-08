@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_NamespaceRoots
-title: IFsrmReportJob::get_NamespaceRoots method
+title: IFsrmReportJob::get_NamespaceRoots
 author: windows-driver-content
 description: Retrieves or sets an array of local directory paths that will be scanned when the report job is run.
 old-location: fsrm\ifsrmreportjob_namespaceroots.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 09c767ce-6a81-4c06-93cb-dd1a79d17d97
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], NamespaceRoots property, IFsrmReportJob.NamespaceRoots, IFsrmReportJob::get_NamespaceRoots, IFsrmReportJob::put_NamespaceRoots, NamespaceRoots property [File Server Resource Manager], NamespaceRoots property [File Server Resource Manager], IFsrmReportJob interface, fs.ifsrmreportjob_namespaceroots, fsrm.ifsrmreportjob_namespaceroots, fsrmreports/IFsrmReportJob::NamespaceRoots, fsrmreports/IFsrmReportJob::get_NamespaceRoots, fsrmreports/IFsrmReportJob::put_NamespaceRoots, get_NamespaceRoots,IFsrmReportJob.get_NamespaceRoots
+ms.keywords: IFsrmReportJob interface [File Server Resource Manager],NamespaceRoots property, IFsrmReportJob.NamespaceRoots, IFsrmReportJob.get_NamespaceRoots, IFsrmReportJob::NamespaceRoots, IFsrmReportJob::get_NamespaceRoots, IFsrmReportJob::put_NamespaceRoots, NamespaceRoots property [File Server Resource Manager], NamespaceRoots property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_namespaceroots, fsrm.ifsrmreportjob_namespaceroots, fsrmreports/IFsrmReportJob::NamespaceRoots, fsrmreports/IFsrmReportJob::get_NamespaceRoots, fsrmreports/IFsrmReportJob::put_NamespaceRoots, get_NamespaceRoots
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReportJob::get_NamespaceRoots method
+# IFsrmReportJob::get_NamespaceRoots
 
 
 ## -description

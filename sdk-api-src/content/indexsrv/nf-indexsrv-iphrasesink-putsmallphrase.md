@@ -1,14 +1,14 @@
 ---
 UID: NF:indexsrv.IPhraseSink.PutSmallPhrase
-title: IPhraseSink::PutSmallPhrase method
+title: IPhraseSink::PutSmallPhrase
 author: windows-driver-content
 description: Puts a small query-time phrase in the IPhraseSink object for WordBreaker.
 old-location: search\iphrasesink_putsmallphrase.htm
 old-project: search
 ms.assetid: AC666D12-220B-4D22-997E-CCBE9967B6AB
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IPhraseSink, IPhraseSink interface [search], PutSmallPhrase method, IPhraseSink::PutSmallPhrase, PutSmallPhrase method [search], PutSmallPhrase method [search], IPhraseSink interface, PutSmallPhrase,IPhraseSink.PutSmallPhrase, indexsrv/IPhraseSink::PutSmallPhrase, search.iphrasesink_putsmallphrase
+ms.date: 5/4/2018
+ms.keywords: IPhraseSink interface [search],PutSmallPhrase method, IPhraseSink.PutSmallPhrase, IPhraseSink::PutSmallPhrase, PutSmallPhrase, PutSmallPhrase method [search], PutSmallPhrase method [search],IPhraseSink interface, indexsrv/IPhraseSink::PutSmallPhrase, search.iphrasesink_putsmallphrase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IPhraseSink::PutSmallPhrase method
+# IPhraseSink::PutSmallPhrase
 
 
 ## -description

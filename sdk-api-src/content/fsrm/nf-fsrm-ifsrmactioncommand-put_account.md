@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.put_Account
-title: IFsrmActionCommand::put_Account method
+title: IFsrmActionCommand::put_Account
 author: windows-driver-content
 description: Retrieves or sets the system account that is used to run the executable program specified in the ExecutablePath property.
 old-location: fsrm\ifsrmactioncommand_account.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 24f0bf5c-064c-4f1e-b69f-23374ea78324
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Account property [File Server Resource Manager], Account property [File Server Resource Manager], IFsrmActionCommand interface, IFsrmActionCommand, IFsrmActionCommand interface [File Server Resource Manager], Account property, IFsrmActionCommand.Account, IFsrmActionCommand::get_Account, IFsrmActionCommand::put_Account, fs.ifsrmactioncommand_account, fsrm.ifsrmactioncommand_account, fsrm/IFsrmActionCommand::Account, fsrm/IFsrmActionCommand::get_Account, fsrm/IFsrmActionCommand::put_Account, put_Account,IFsrmActionCommand.put_Account
+ms.keywords: Account property [File Server Resource Manager], Account property [File Server Resource Manager],IFsrmActionCommand interface, IFsrmActionCommand interface [File Server Resource Manager],Account property, IFsrmActionCommand.Account, IFsrmActionCommand.put_Account, IFsrmActionCommand::Account, IFsrmActionCommand::get_Account, IFsrmActionCommand::put_Account, fs.ifsrmactioncommand_account, fsrm.ifsrmactioncommand_account, fsrm/IFsrmActionCommand::Account, fsrm/IFsrmActionCommand::get_Account, fsrm/IFsrmActionCommand::put_Account, put_Account
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmActionCommand::put_Account method
+# IFsrmActionCommand::put_Account
 
 
 ## -description

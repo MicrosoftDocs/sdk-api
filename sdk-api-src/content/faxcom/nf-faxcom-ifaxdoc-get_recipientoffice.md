@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientOffice
-title: IFaxDoc::get_RecipientOffice method
+title: IFaxDoc::get_RecipientOffice
 author: windows-driver-content
 description: Sets or retrieves the RecipientOffice property of a FaxDoc object. The RecipientOffice property is a null-terminated string that contains the office of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientoffice_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_563p.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], RecipientOffice property, IFaxDoc, IFaxDoc::get_RecipientOffice, RecipientOffice property [Fax Service], RecipientOffice property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientoffice, fax._mfax_ifaxdoc_get_recipientoffice, fax._mfax_ifaxdoc_get_recipientoffice_vb, get_RecipientOffice,IFaxDoc.get_RecipientOffice
+ms.keywords: FaxDoc object [Fax Service],RecipientOffice property, FaxDoc.RecipientOffice, IFaxDoc.get_RecipientOffice, IFaxDoc::get_RecipientOffice, RecipientOffice property [Fax Service], RecipientOffice property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientoffice, fax._mfax_ifaxdoc_get_recipientoffice, fax._mfax_ifaxdoc_get_recipientoffice_vb, get_RecipientOffice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::get_RecipientOffice method
+# IFaxDoc::get_RecipientOffice
 
 
 ## -description

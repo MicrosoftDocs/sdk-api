@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetCurrentStoryboard
-title: IUIAnimationVariable::GetCurrentStoryboard method
+title: IUIAnimationVariable::GetCurrentStoryboard
 author: windows-driver-content
 description: Gets the storyboard that is currently animating the animation variable.
 old-location: uianimation\iuianimationvariable_getcurrentstoryboard.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 56042549-d6f6-4eed-8079-c1b14acbe160
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCurrentStoryboard method [Windows Animation], GetCurrentStoryboard method [Windows Animation], IUIAnimationVariable interface, GetCurrentStoryboard,IUIAnimationVariable.GetCurrentStoryboard, IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], GetCurrentStoryboard method, IUIAnimationVariable::GetCurrentStoryboard, uianimation.iuianimationvariable_getcurrentstoryboard, uianimation/IUIAnimationVariable::GetCurrentStoryboard
+ms.keywords: GetCurrentStoryboard, GetCurrentStoryboard method [Windows Animation], GetCurrentStoryboard method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetCurrentStoryboard method, IUIAnimationVariable.GetCurrentStoryboard, IUIAnimationVariable::GetCurrentStoryboard, uianimation.iuianimationvariable_getcurrentstoryboard, uianimation/IUIAnimationVariable::GetCurrentStoryboard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable::GetCurrentStoryboard method
+# IUIAnimationVariable::GetCurrentStoryboard
 
 
 ## -description

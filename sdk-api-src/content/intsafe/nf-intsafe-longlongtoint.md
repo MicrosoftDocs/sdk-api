@@ -7,7 +7,7 @@ old-location: shell\Int64ToInt.htm
 old-project: shell
 ms.assetid: 3d652b20-35d7-4e37-a1c8-de4a91eebd93
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: Int64ToInt, Int64ToInt function [Windows Shell], LongLongToInt, _shell_Int64ToInt, intsafe/Int64ToInt, shell.Int64ToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

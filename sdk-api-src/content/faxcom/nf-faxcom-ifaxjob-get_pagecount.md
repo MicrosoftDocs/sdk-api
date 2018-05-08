@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_PageCount
-title: IFaxJob::get_PageCount method
+title: IFaxJob::get_PageCount
 author: windows-driver-content
 description: The PageCount property is a number that represents the total number of pages in a fax transmission. The PageCount property applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_get_pagecount_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0nlg.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxJob object [Fax Service], PageCount property, IFaxJob, IFaxJob::get_PageCount, PageCount property [Fax Service], PageCount property [Fax Service], FaxJob object, _mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_get_pagecount_vb, get_PageCount,IFaxJob.get_PageCount
+ms.keywords: FaxJob object [Fax Service],PageCount property, FaxJob.PageCount, IFaxJob.get_PageCount, IFaxJob::get_PageCount, PageCount property [Fax Service], PageCount property [Fax Service],FaxJob object, _mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_get_pagecount_vb, get_PageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxJob::get_PageCount method
+# IFaxJob::get_PageCount
 
 
 ## -description

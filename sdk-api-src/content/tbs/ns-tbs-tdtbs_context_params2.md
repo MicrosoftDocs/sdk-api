@@ -82,9 +82,7 @@ The version of the TBS context implementation. This must be set to 	TPM_VERSION_
  
 
 
-
-
-#### - asUINT32
+### -field asUINT32
 
 Used to access all of the  bits in one variable.
 

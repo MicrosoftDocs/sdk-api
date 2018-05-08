@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateRenderTargetView
-title: ID3D10Device::CreateRenderTargetView method
+title: ID3D10Device::CreateRenderTargetView
 author: windows-driver-content
 description: Create a render-target view for accessing resource data.
 old-location: direct3d10\id3d10device_createrendertargetview.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createrendertargetview.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 080acf2e-83e1-3be3-60d6-8385a6585f49, CreateRenderTargetView method [Direct3D 10], CreateRenderTargetView method [Direct3D 10], ID3D10Device interface, CreateRenderTargetView,ID3D10Device.CreateRenderTargetView, ID3D10Device, ID3D10Device interface [Direct3D 10], CreateRenderTargetView method, ID3D10Device::CreateRenderTargetView, d3d10/ID3D10Device::CreateRenderTargetView, direct3d10.id3d10device_createrendertargetview
+ms.keywords: 080acf2e-83e1-3be3-60d6-8385a6585f49, CreateRenderTargetView, CreateRenderTargetView method [Direct3D 10], CreateRenderTargetView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateRenderTargetView method, ID3D10Device.CreateRenderTargetView, ID3D10Device::CreateRenderTargetView, d3d10/ID3D10Device::CreateRenderTargetView, direct3d10.id3d10device_createrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::CreateRenderTargetView method
+# ID3D10Device::CreateRenderTargetView
 
 
 ## -description

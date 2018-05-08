@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedVerticalScrollPercent
-title: IUIAutomationScrollPattern::get_CachedVerticalScrollPercent method
+title: IUIAutomationScrollPattern::get_CachedVerticalScrollPercent
 author: windows-driver-content
 description: Retrieves the cached vertical scroll position.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: e2b7fb86-1a2b-4b49-8c8f-73445327e4d6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedVerticalScrollPercent property [Windows Accessibility], CachedVerticalScrollPercent property [Windows Accessibility], IUIAutomationScrollPattern interface, IUIAutomationScrollPattern, IUIAutomationScrollPattern interface [Windows Accessibility], CachedVerticalScrollPercent property, IUIAutomationScrollPattern.CachedVerticalScrollPercent, IUIAutomationScrollPattern::get_CachedVerticalScrollPercent, get_CachedVerticalScrollPercent,IUIAutomationScrollPattern.get_CachedVerticalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent, uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CachedVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CachedVerticalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent
+ms.keywords: CachedVerticalScrollPercent property [Windows Accessibility], CachedVerticalScrollPercent property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedVerticalScrollPercent property, IUIAutomationScrollPattern.CachedVerticalScrollPercent, IUIAutomationScrollPattern.get_CachedVerticalScrollPercent, IUIAutomationScrollPattern::CachedVerticalScrollPercent, IUIAutomationScrollPattern::get_CachedVerticalScrollPercent, get_CachedVerticalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent, uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CachedVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CachedVerticalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationScrollPattern::get_CachedVerticalScrollPercent method
+# IUIAutomationScrollPattern::get_CachedVerticalScrollPercent
 
 
 ## -description

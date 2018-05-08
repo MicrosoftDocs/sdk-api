@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumMoniker.Reset
-title: IEnumMoniker::Reset method
+title: IEnumMoniker::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienummoniker_reset.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 0b7c74b4-cbcb-44cc-8bea-feb55abb5643
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumMoniker, IEnumMoniker interface [COM], Reset method, IEnumMoniker::Reset, Reset method [COM], Reset method [COM], IEnumMoniker interface, Reset,IEnumMoniker.Reset, _ole_ienummoniker_reset, com.ienummoniker_reset, objidl/IEnumMoniker::Reset
+ms.keywords: IEnumMoniker interface [COM],Reset method, IEnumMoniker.Reset, IEnumMoniker::Reset, Reset, Reset method [COM], Reset method [COM],IEnumMoniker interface, _ole_ienummoniker_reset, com.ienummoniker_reset, objidl/IEnumMoniker::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumMoniker::Reset method
+# IEnumMoniker::Reset
 
 
 ## -description

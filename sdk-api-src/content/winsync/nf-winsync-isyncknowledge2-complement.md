@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.Complement
-title: ISyncKnowledge2::Complement method
+title: ISyncKnowledge2::Complement
 author: windows-driver-content
 description: Returns the knowledge that is contained in this object but that is not contained in the specified knowledge.
 old-location: winsync\isyncknowledge2_complement.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 12ad8a10-1edb-4ba0-9a16-64fe9fda0125
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Complement method [Windows Sync], Complement method [Windows Sync], ISyncKnowledge2 interface, Complement,ISyncKnowledge2.Complement, ISyncKnowledge2, ISyncKnowledge2 interface [Windows Sync], Complement method, ISyncKnowledge2::Complement, winsync.isyncknowledge2_complement, winsync/ISyncKnowledge2::Complement
+ms.keywords: Complement, Complement method [Windows Sync], Complement method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],Complement method, ISyncKnowledge2.Complement, ISyncKnowledge2::Complement, winsync.isyncknowledge2_complement, winsync/ISyncKnowledge2::Complement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge2::Complement method
+# ISyncKnowledge2::Complement
 
 
 ## -description

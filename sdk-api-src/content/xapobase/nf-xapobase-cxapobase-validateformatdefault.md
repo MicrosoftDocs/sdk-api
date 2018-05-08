@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOBase.ValidateFormatDefault
-title: CXAPOBase::ValidateFormatDefault method
+title: CXAPOBase::ValidateFormatDefault
 author: windows-driver-content
 description: Verifies that an audio format falls within the default ranges supported.
 old-location: xaudio2\cxapobase_validateformatdefault.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ValidateFormatDefault(WAVEFORMATEX,BOOL)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CXAPOBase, CXAPOBase interface [XAudio2 Audio Mixing APIs], ValidateFormatDefault method, CXAPOBase::ValidateFormatDefault, ValidateFormatDefault method [XAudio2 Audio Mixing APIs], ValidateFormatDefault method [XAudio2 Audio Mixing APIs], CXAPOBase interface, ValidateFormatDefault,CXAPOBase.ValidateFormatDefault, xapobase/CXAPOBase::ValidateFormatDefault, xaudio2.cxapobase_validateformatdefault
+ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],ValidateFormatDefault method, CXAPOBase.ValidateFormatDefault, CXAPOBase::ValidateFormatDefault, ValidateFormatDefault, ValidateFormatDefault method [XAudio2 Audio Mixing APIs], ValidateFormatDefault method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::ValidateFormatDefault, xaudio2.cxapobase_validateformatdefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# CXAPOBase::ValidateFormatDefault method
+# CXAPOBase::ValidateFormatDefault
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11ClassLinkage.GetClassInstance
-title: ID3D11ClassLinkage::GetClassInstance method
+title: ID3D11ClassLinkage::GetClassInstance
 author: windows-driver-content
 description: Gets the class-instance object that represents the specified HLSL class.
 old-location: direct3d11\id3d11classlinkage_getclassinstance.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 055f1670-0643-4a0a-8411-ac8a62e98826
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 45d18e06-7ca3-6ff7-a95b-a56150c07b87, GetClassInstance method [Direct3D 11], GetClassInstance method [Direct3D 11], ID3D11ClassLinkage interface, GetClassInstance,ID3D11ClassLinkage.GetClassInstance, ID3D11ClassLinkage, ID3D11ClassLinkage interface [Direct3D 11], GetClassInstance method, ID3D11ClassLinkage::GetClassInstance, d3d11/ID3D11ClassLinkage::GetClassInstance, direct3d11.id3d11classlinkage_getclassinstance
+ms.keywords: 45d18e06-7ca3-6ff7-a95b-a56150c07b87, GetClassInstance, GetClassInstance method [Direct3D 11], GetClassInstance method [Direct3D 11],ID3D11ClassLinkage interface, ID3D11ClassLinkage interface [Direct3D 11],GetClassInstance method, ID3D11ClassLinkage.GetClassInstance, ID3D11ClassLinkage::GetClassInstance, d3d11/ID3D11ClassLinkage::GetClassInstance, direct3d11.id3d11classlinkage_getclassinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11ClassLinkage::GetClassInstance method
+# ID3D11ClassLinkage::GetClassInstance
 
 
 ## -description

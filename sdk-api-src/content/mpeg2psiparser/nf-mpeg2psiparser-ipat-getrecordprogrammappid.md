@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetRecordProgramMapPid
-title: IPAT::GetRecordProgramMapPid method
+title: IPAT::GetRecordProgramMapPid
 author: windows-driver-content
 description: The GetRecordProgramMapPid method returns the packet identifier (PID) for a given record in the PAT.
 old-location: mstv\ipat_getrecordprogrammappid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0b1ca2c0-52c4-447a-8191-8f9b69aecd25
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordProgramMapPid method [Microsoft TV Technologies], GetRecordProgramMapPid method [Microsoft TV Technologies], IPAT interface, GetRecordProgramMapPid,IPAT.GetRecordProgramMapPid, IPAT, IPAT interface [Microsoft TV Technologies], GetRecordProgramMapPid method, IPAT::GetRecordProgramMapPid, IPATGetRecordProgramMapPid, mpeg2psiparser/IPAT::GetRecordProgramMapPid, mstv.ipat_getrecordprogrammappid
+ms.keywords: GetRecordProgramMapPid, GetRecordProgramMapPid method [Microsoft TV Technologies], GetRecordProgramMapPid method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetRecordProgramMapPid method, IPAT.GetRecordProgramMapPid, IPAT::GetRecordProgramMapPid, IPATGetRecordProgramMapPid, mpeg2psiparser/IPAT::GetRecordProgramMapPid, mstv.ipat_getrecordprogrammappid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IPAT::GetRecordProgramMapPid method
+# IPAT::GetRecordProgramMapPid
 
 
 ## -description

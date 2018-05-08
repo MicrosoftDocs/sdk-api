@@ -7,8 +7,8 @@ old-location: shell\UShortAdd.htm
 old-project: shell
 ms.assetid: 3aea6f4b-280f-43a1-8104-222d8f9d92cc
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: UShortAdd, UShortAdd function [Windows Shell], _shell_UShortAdd, intsafe/UShortAdd, shell.UShortAdd
+ms.date: 5/3/2018
+ms.keywords: UShortAdd, UShortAdd function [Windows Shell], WordAdd, _shell_UShortAdd, intsafe/UShortAdd, shell.UShortAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,6 +95,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+<b>WordAdd</b> is an alias for this function.
 
 
 

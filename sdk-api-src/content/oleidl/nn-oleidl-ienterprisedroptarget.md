@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 9ACFE824-5F0D-42CC-8E2F-DF2658AC9908
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnterpriseDropTarget, IEnterpriseDropTarget interface [COM], IEnterpriseDropTarget interface [COM], described, com.ienterprisedroptarget, oleidl/IEnterpriseDropTarget
+ms.keywords: IEnterpriseDropTarget, IEnterpriseDropTarget interface [COM], IEnterpriseDropTarget interface [COM],described, com.ienterprisedroptarget, oleidl/IEnterpriseDropTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

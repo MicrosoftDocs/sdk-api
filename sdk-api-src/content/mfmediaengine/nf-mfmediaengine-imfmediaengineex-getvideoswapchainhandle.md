@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetVideoSwapchainHandle
-title: IMFMediaEngineEx::GetVideoSwapchainHandle method
+title: IMFMediaEngineEx::GetVideoSwapchainHandle
 author: windows-driver-content
 description: Gets a handle to the windowless swap chain.
 old-location: mf\imfmediaengineex_getvideoswapchainhandle.htm
 old-project: medfound
 ms.assetid: 23AE2296-F0BF-4060-9849-F6A0E0C13B86
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoSwapchainHandle method [Media Foundation], GetVideoSwapchainHandle method [Media Foundation], IMFMediaEngineEx interface, GetVideoSwapchainHandle,IMFMediaEngineEx.GetVideoSwapchainHandle, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetVideoSwapchainHandle method, IMFMediaEngineEx::GetVideoSwapchainHandle, mf.imfmediaengineex_getvideoswapchainhandle, mfmediaengine/IMFMediaEngineEx::GetVideoSwapchainHandle
+ms.date: 5/3/2018
+ms.keywords: GetVideoSwapchainHandle, GetVideoSwapchainHandle method [Media Foundation], GetVideoSwapchainHandle method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetVideoSwapchainHandle method, IMFMediaEngineEx.GetVideoSwapchainHandle, IMFMediaEngineEx::GetVideoSwapchainHandle, mf.imfmediaengineex_getvideoswapchainhandle, mfmediaengine/IMFMediaEngineEx::GetVideoSwapchainHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::GetVideoSwapchainHandle method
+# IMFMediaEngineEx::GetVideoSwapchainHandle
 
 
 ## -description

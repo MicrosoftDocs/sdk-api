@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SubdirectoryFormat
-title: IDataCollectorSet::put_SubdirectoryFormat method
+title: IDataCollectorSet::put_SubdirectoryFormat
 author: windows-driver-content
 description: Retrieves or sets flags that describe how to decorate the subdirectory name.
 old-location: pla\idatacollectorset_get_subdirectoryformat.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: f9e6eb88-ac38-4b99-ab64-a408f75f7969
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], SubdirectoryFormat property, IDataCollectorSet.SubdirectoryFormat, IDataCollectorSet::get_SubdirectoryFormat, IDataCollectorSet::put_SubdirectoryFormat, SubdirectoryFormat property [PLA], SubdirectoryFormat property [PLA], IDataCollectorSet interface, base.idatacollectorset_get_subdirectoryformat, pla.idatacollectorset_get_subdirectoryformat, pla/IDataCollectorSet::SubdirectoryFormat, pla/IDataCollectorSet::get_SubdirectoryFormat, pla/IDataCollectorSet::put_SubdirectoryFormat, put_SubdirectoryFormat,IDataCollectorSet.put_SubdirectoryFormat
+ms.keywords: IDataCollectorSet interface [PLA],SubdirectoryFormat property, IDataCollectorSet.SubdirectoryFormat, IDataCollectorSet.put_SubdirectoryFormat, IDataCollectorSet::SubdirectoryFormat, IDataCollectorSet::get_SubdirectoryFormat, IDataCollectorSet::put_SubdirectoryFormat, SubdirectoryFormat property [PLA], SubdirectoryFormat property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_subdirectoryformat, pla.idatacollectorset_get_subdirectoryformat, pla/IDataCollectorSet::SubdirectoryFormat, pla/IDataCollectorSet::get_SubdirectoryFormat, pla/IDataCollectorSet::put_SubdirectoryFormat, put_SubdirectoryFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::put_SubdirectoryFormat method
+# IDataCollectorSet::put_SubdirectoryFormat
 
 
 ## -description

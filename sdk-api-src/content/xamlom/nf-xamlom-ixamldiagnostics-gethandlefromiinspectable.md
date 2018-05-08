@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetHandleFromIInspectable
-title: IXamlDiagnostics::GetHandleFromIInspectable method
+title: IXamlDiagnostics::GetHandleFromIInspectable
 author: windows-driver-content
 description: Gets an InstanceHandle representation of an IInspectable.
 old-location: xaml_diagnostics\ixamldiagnostics_gethandlefromiinspectable.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 334497D9-11ED-4002-AEAB-0454EB62E53C
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: GetHandleFromIInspectable method, GetHandleFromIInspectable method, IXamlDiagnostics interface, GetHandleFromIInspectable,IXamlDiagnostics.GetHandleFromIInspectable, IXamlDiagnostics, IXamlDiagnostics interface, GetHandleFromIInspectable method, IXamlDiagnostics::GetHandleFromIInspectable, xaml_diagnostics.ixamldiagnostics_gethandlefromiinspectable, xamlom/IXamlDiagnostics::GetHandleFromIInspectable
+ms.keywords: GetHandleFromIInspectable, GetHandleFromIInspectable method, GetHandleFromIInspectable method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetHandleFromIInspectable method, IXamlDiagnostics.GetHandleFromIInspectable, IXamlDiagnostics::GetHandleFromIInspectable, xaml_diagnostics.ixamldiagnostics_gethandlefromiinspectable, xamlom/IXamlDiagnostics::GetHandleFromIInspectable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXamlDiagnostics::GetHandleFromIInspectable method
+# IXamlDiagnostics::GetHandleFromIInspectable
 
 
 ## -description

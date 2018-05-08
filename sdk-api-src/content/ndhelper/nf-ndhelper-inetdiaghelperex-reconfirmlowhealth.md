@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelperEx.ReconfirmLowHealth
-title: INetDiagHelperEx::ReconfirmLowHealth method
+title: INetDiagHelperEx::ReconfirmLowHealth
 author: windows-driver-content
 description: Used to add a second Low Health pass after hypotheses have been diagnosed and before repairs are retrieved.
 old-location: ndf\inetdiaghelperex_reconfirmlowhealth.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 4ac1c901-cfc3-4ef6-aceb-d496179145b8
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: INetDiagHelperEx, INetDiagHelperEx interface [NDF], ReconfirmLowHealth method, INetDiagHelperEx::ReconfirmLowHealth, ReconfirmLowHealth method [NDF], ReconfirmLowHealth method [NDF], INetDiagHelperEx interface, ReconfirmLowHealth,INetDiagHelperEx.ReconfirmLowHealth, ndf.inetdiaghelperex_reconfirmlowhealth, ndhelper/INetDiagHelperEx::ReconfirmLowHealth
+ms.keywords: INetDiagHelperEx interface [NDF],ReconfirmLowHealth method, INetDiagHelperEx.ReconfirmLowHealth, INetDiagHelperEx::ReconfirmLowHealth, ReconfirmLowHealth, ReconfirmLowHealth method [NDF], ReconfirmLowHealth method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_reconfirmlowhealth, ndhelper/INetDiagHelperEx::ReconfirmLowHealth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelperEx::ReconfirmLowHealth method
+# INetDiagHelperEx::ReconfirmLowHealth
 
 
 ## -description

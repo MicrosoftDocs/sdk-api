@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingEveryConnectionCollection.get__NewEnum
-title: INetSharingEveryConnectionCollection::get__NewEnum method
+title: INetSharingEveryConnectionCollection::get__NewEnum
 author: windows-driver-content
 description: The get__NewEnum method retrieves an enumerator for the connections collection.
 old-location: ics\inetsharingeveryconnectioncollection_get__newenum.htm
 old-project: ICS
 ms.assetid: 56d2877b-8e94-4e9a-8d84-5a0263ef825d
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingEveryConnectionCollection, INetSharingEveryConnectionCollection interface [ICS/ICF], get__NewEnum method, INetSharingEveryConnectionCollection::get__NewEnum, _ics_inetsharingeveryconnectioncollection_get__newenum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF], INetSharingEveryConnectionCollection interface, get__NewEnum,INetSharingEveryConnectionCollection.get__NewEnum, ics.inetsharingeveryconnectioncollection_get__newenum, netcon/INetSharingEveryConnectionCollection::get__NewEnum
+ms.date: 5/1/2018
+ms.keywords: INetSharingEveryConnectionCollection interface [ICS/ICF],get__NewEnum method, INetSharingEveryConnectionCollection.get__NewEnum, INetSharingEveryConnectionCollection::get__NewEnum, _ics_inetsharingeveryconnectioncollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingEveryConnectionCollection interface, ics.inetsharingeveryconnectioncollection_get__newenum, netcon/INetSharingEveryConnectionCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingEveryConnectionCollection::get__NewEnum method
+# INetSharingEveryConnectionCollection::get__NewEnum
 
 
 ## -description

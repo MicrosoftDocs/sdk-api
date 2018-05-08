@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSecurityDescriptor
-title: IUrlAccessor::GetSecurityDescriptor method
+title: IUrlAccessor::GetSecurityDescriptor
 author: windows-driver-content
 description: Gets the security descriptor for the URL item. Security is applied at query time, so this descriptor identifies security for read access.
 old-location: search\_search_IUrlAccessor_GetSecurityDescriptor.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecuritydescriptor.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetSecurityDescriptor method [search], GetSecurityDescriptor method [search], IUrlAccessor interface, GetSecurityDescriptor,IUrlAccessor.GetSecurityDescriptor, IUrlAccessor, IUrlAccessor interface [search], GetSecurityDescriptor method, IUrlAccessor::GetSecurityDescriptor, _search_IUrlAccessor_GetSecurityDescriptor, search._search_IUrlAccessor_GetSecurityDescriptor, searchapi/IUrlAccessor::GetSecurityDescriptor
+ms.date: 5/4/2018
+ms.keywords: GetSecurityDescriptor, GetSecurityDescriptor method [search], GetSecurityDescriptor method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSecurityDescriptor method, IUrlAccessor.GetSecurityDescriptor, IUrlAccessor::GetSecurityDescriptor, _search_IUrlAccessor_GetSecurityDescriptor, search._search_IUrlAccessor_GetSecurityDescriptor, searchapi/IUrlAccessor::GetSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUrlAccessor::GetSecurityDescriptor method
+# IUrlAccessor::GetSecurityDescriptor
 
 
 ## -description

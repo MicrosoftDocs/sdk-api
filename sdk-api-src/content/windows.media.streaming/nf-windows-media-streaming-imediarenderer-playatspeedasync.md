@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.PlayAtSpeedAsync
-title: IMediaRenderer::PlayAtSpeedAsync method
+title: IMediaRenderer::streaming
 author: windows-driver-content
 description: Instructs the DMR asynchronously to play the content that was specified by calling the SetSourceFromUriAsync, SetSourceFromStreamAsync, or SetSourceFromMediaSourceAsync method at the specified rate.
 old-location: mediastreaming\imediarenderer_playatspeedasync.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 368510CF-FC36-4D92-AE92-024D53EE3BAD
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], PlayAtSpeedAsync method, IMediaRenderer::PlayAtSpeedAsync, PlayAtSpeedAsync method [Media Streaming API], PlayAtSpeedAsync method [Media Streaming API], IMediaRenderer interface, PlayAtSpeedAsync,IMediaRenderer.PlayAtSpeedAsync, mediastreaming.imediarenderer_playatspeedasync, windows/IMediaRenderer::PlayAtSpeedAsync
+ms.keywords: IMediaRenderer interface [Media Streaming API],PlayAtSpeedAsync method, IMediaRenderer.PlayAtSpeedAsync, IMediaRenderer.streaming, IMediaRenderer::PlayAtSpeedAsync, IMediaRenderer::streaming, PlayAtSpeedAsync, PlayAtSpeedAsync method [Media Streaming API], PlayAtSpeedAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_playatspeedasync, windows/IMediaRenderer::PlayAtSpeedAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IMediaRenderer::PlayAtSpeedAsync method
+# IMediaRenderer::streaming
 
 
 ## -description

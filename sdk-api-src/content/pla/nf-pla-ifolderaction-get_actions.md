@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderAction.get_Actions
-title: IFolderAction::get_Actions method
+title: IFolderAction::get_Actions
 author: windows-driver-content
 description: Retrieves or sets the actions that the data manager is to take if both conditions (age and size) are met.
 old-location: pla\ifolderaction_actions.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 7e7672d9-9384-4365-aa4a-bf8dace050c2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Actions property [PLA], Actions property [PLA], IFolderAction interface, IFolderAction, IFolderAction interface [PLA], Actions property, IFolderAction.Actions, IFolderAction::get_Actions, IFolderAction::put_Actions, base.ifolderaction_actions, get_Actions,IFolderAction.get_Actions, pla.ifolderaction_actions, pla/IFolderAction::Actions, pla/IFolderAction::get_Actions, pla/IFolderAction::put_Actions
+ms.keywords: Actions property [PLA], Actions property [PLA],IFolderAction interface, IFolderAction interface [PLA],Actions property, IFolderAction.Actions, IFolderAction.get_Actions, IFolderAction::Actions, IFolderAction::get_Actions, IFolderAction::put_Actions, base.ifolderaction_actions, get_Actions, pla.ifolderaction_actions, pla/IFolderAction::Actions, pla/IFolderAction::get_Actions, pla/IFolderAction::put_Actions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFolderAction::get_Actions method
+# IFolderAction::get_Actions
 
 
 ## -description

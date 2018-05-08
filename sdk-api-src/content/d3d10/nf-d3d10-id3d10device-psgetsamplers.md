@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSGetSamplers
-title: ID3D10Device::PSGetSamplers method
+title: ID3D10Device::PSGetSamplers
 author: windows-driver-content
 description: Get an array of sampler states from the pixel shader pipeline stage.
 old-location: direct3d10\id3d10device_psgetsamplers.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_psgetsamplers.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 192d3ca7-55ed-f763-e7fe-8bb5eb1322a9, ID3D10Device, ID3D10Device interface [Direct3D 10], PSGetSamplers method, ID3D10Device::PSGetSamplers, PSGetSamplers method [Direct3D 10], PSGetSamplers method [Direct3D 10], ID3D10Device interface, PSGetSamplers,ID3D10Device.PSGetSamplers, d3d10/ID3D10Device::PSGetSamplers, direct3d10.id3d10device_psgetsamplers
+ms.keywords: 192d3ca7-55ed-f763-e7fe-8bb5eb1322a9, ID3D10Device interface [Direct3D 10],PSGetSamplers method, ID3D10Device.PSGetSamplers, ID3D10Device::PSGetSamplers, PSGetSamplers, PSGetSamplers method [Direct3D 10], PSGetSamplers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSGetSamplers, direct3d10.id3d10device_psgetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::PSGetSamplers method
+# ID3D10Device::PSGetSamplers
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.GetCurrentOperationMode
-title: IDMOVideoOutputOptimizations::GetCurrentOperationMode method
+title: IDMOVideoOutputOptimizations::GetCurrentOperationMode
 author: windows-driver-content
 description: The GetCurrentOperationMode method retrieves the optimization features in effect.
 old-location: dshow\idmovideooutputoptimizations_getcurrentoperationmode.htm
 old-project: DirectShow
 ms.assetid: ddfc65ea-e336-40b8-a901-53ebc3ee7d86
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentOperationMode method [DirectShow], GetCurrentOperationMode method [DirectShow], IDMOVideoOutputOptimizations interface, GetCurrentOperationMode,IDMOVideoOutputOptimizations.GetCurrentOperationMode, IDMOVideoOutputOptimizations, IDMOVideoOutputOptimizations interface [DirectShow], GetCurrentOperationMode method, IDMOVideoOutputOptimizations::GetCurrentOperationMode, IDMOVideoOutputOptimizationsGetCurrentOperationMode, dshow.idmovideooutputoptimizations_getcurrentoperationmode, mediaobj/IDMOVideoOutputOptimizations::GetCurrentOperationMode
+ms.date: 4/30/2018
+ms.keywords: GetCurrentOperationMode, GetCurrentOperationMode method [DirectShow], GetCurrentOperationMode method [DirectShow],IDMOVideoOutputOptimizations interface, IDMOVideoOutputOptimizations interface [DirectShow],GetCurrentOperationMode method, IDMOVideoOutputOptimizations.GetCurrentOperationMode, IDMOVideoOutputOptimizations::GetCurrentOperationMode, IDMOVideoOutputOptimizationsGetCurrentOperationMode, dshow.idmovideooutputoptimizations_getcurrentoperationmode, mediaobj/IDMOVideoOutputOptimizations::GetCurrentOperationMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDMOVideoOutputOptimizations::GetCurrentOperationMode method
+# IDMOVideoOutputOptimizations::GetCurrentOperationMode
 
 
 ## -description

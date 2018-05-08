@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnChannelVolumeChanged
-title: IAudioSessionEvents::OnChannelVolumeChanged method
+title: IAudioSessionEvents::OnChannelVolumeChanged
 author: windows-driver-content
 description: The OnChannelVolumeChanged method notifies the client that the volume level of an audio channel in the session submix has changed.
 old-location: coreaudio\iaudiosessionevents_onchannelvolumechanged.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: cdd3ec9b-cf72-4c2e-b874-60370d41447d
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], OnChannelVolumeChanged method, IAudioSessionEvents::OnChannelVolumeChanged, IAudioSessionEventsOnChannelVolumeChanged, OnChannelVolumeChanged method [Core Audio], OnChannelVolumeChanged method [Core Audio], IAudioSessionEvents interface, OnChannelVolumeChanged,IAudioSessionEvents.OnChannelVolumeChanged, audiopolicy/IAudioSessionEvents::OnChannelVolumeChanged, coreaudio.iaudiosessionevents_onchannelvolumechanged
+ms.keywords: IAudioSessionEvents interface [Core Audio],OnChannelVolumeChanged method, IAudioSessionEvents.OnChannelVolumeChanged, IAudioSessionEvents::OnChannelVolumeChanged, IAudioSessionEventsOnChannelVolumeChanged, OnChannelVolumeChanged, OnChannelVolumeChanged method [Core Audio], OnChannelVolumeChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnChannelVolumeChanged, coreaudio.iaudiosessionevents_onchannelvolumechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionEvents::OnChannelVolumeChanged method
+# IAudioSessionEvents::OnChannelVolumeChanged
 
 
 ## -description

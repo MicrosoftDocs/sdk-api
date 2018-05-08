@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyExceptionList
-title: IWMPNetwork::getProxyExceptionList method
+title: IWMPNetwork::getProxyExceptionList
 author: windows-driver-content
 description: The getProxyExceptionList method retrieves the proxy exception list.
 old-location: wmp\iwmpnetwork_getproxyexceptionlist.htm
 old-project: WMP
 ms.assetid: ddd3a6b2-3637-4da1-b3ce-f01364e8b818
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], getProxyExceptionList method, IWMPNetwork::getProxyExceptionList, IWMPNetworkgetProxyExceptionList, getProxyExceptionList method [Windows Media Player], getProxyExceptionList method [Windows Media Player], IWMPNetwork interface, getProxyExceptionList,IWMPNetwork.getProxyExceptionList, wmp.iwmpnetwork_getproxyexceptionlist, wmp/IWMPNetwork::getProxyExceptionList
+ms.date: 5/4/2018
+ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyExceptionList method, IWMPNetwork.getProxyExceptionList, IWMPNetwork::getProxyExceptionList, IWMPNetworkgetProxyExceptionList, getProxyExceptionList, getProxyExceptionList method [Windows Media Player], getProxyExceptionList method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxyexceptionlist, wmp/IWMPNetwork::getProxyExceptionList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNetwork::getProxyExceptionList method
+# IWMPNetwork::getProxyExceptionList
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetRecordStartTime
-title: IDVB_EIT::GetRecordStartTime method
+title: IDVB_EIT::GetRecordStartTime
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_getrecordstarttime.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2c392620-750d-4219-86fc-4c47109e6a3f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordStartTime method [Microsoft TV Technologies], GetRecordStartTime method [Microsoft TV Technologies], IDVB_EIT interface, GetRecordStartTime,IDVB_EIT.GetRecordStartTime, IDVB_EIT, IDVB_EIT interface [Microsoft TV Technologies], GetRecordStartTime method, IDVB_EIT::GetRecordStartTime, IDVB_EITGetRecordStartTime, dvbsiparser/IDVB_EIT::GetRecordStartTime, mstv.idvb_eit_getrecordstarttime
+ms.keywords: GetRecordStartTime, GetRecordStartTime method [Microsoft TV Technologies], GetRecordStartTime method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordStartTime method, IDVB_EIT.GetRecordStartTime, IDVB_EIT::GetRecordStartTime, IDVB_EITGetRecordStartTime, dvbsiparser/IDVB_EIT::GetRecordStartTime, mstv.idvb_eit_getrecordstarttime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_EIT::GetRecordStartTime method
+# IDVB_EIT::GetRecordStartTime
 
 
 ## -description

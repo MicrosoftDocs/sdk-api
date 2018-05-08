@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.GetData
-title: CHStringArray::GetData method
+title: CHStringArray::GetData
 author: windows-driver-content
 description: The GetData method gains direct access to the elements in the array.
 old-location: wmi\chstringarray_getdata.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: b59a0c42-e753-43ff-bf39-279f0a8b9d2b
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHStringArray, CHStringArray interface [Windows Management Instrumentation], GetData method, CHStringArray::GetData, GetData method [Windows Management Instrumentation], GetData method [Windows Management Instrumentation], CHStringArray interface, GetData,CHStringArray.GetData, _hmm_chstringarray_getdata, chstrarr/CHStringArray::GetData, wmi.chstringarray_getdata
+ms.keywords: CHStringArray interface [Windows Management Instrumentation],GetData method, CHStringArray.GetData, CHStringArray::GetData, GetData, GetData method [Windows Management Instrumentation], GetData method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getdata, chstrarr/CHStringArray::GetData, wmi.chstringarray_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHStringArray::GetData method
+# CHStringArray::GetData
 
 
 ## -description

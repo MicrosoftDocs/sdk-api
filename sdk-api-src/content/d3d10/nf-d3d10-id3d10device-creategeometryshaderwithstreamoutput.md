@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateGeometryShaderWithStreamOutput
-title: ID3D10Device::CreateGeometryShaderWithStreamOutput method
+title: ID3D10Device::CreateGeometryShaderWithStreamOutput
 author: windows-driver-content
 description: Creates a geometry shader that can write to streaming output buffers.
 old-location: direct3d10\id3d10device_creategeometryshaderwithstreamoutput.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_creategeometryshaderwithstreamoutput.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 1ef110f5-f95f-ec17-1f56-6f491a0ffac4, CreateGeometryShaderWithStreamOutput method [Direct3D 10], CreateGeometryShaderWithStreamOutput method [Direct3D 10], ID3D10Device interface, CreateGeometryShaderWithStreamOutput,ID3D10Device.CreateGeometryShaderWithStreamOutput, ID3D10Device, ID3D10Device interface [Direct3D 10], CreateGeometryShaderWithStreamOutput method, ID3D10Device::CreateGeometryShaderWithStreamOutput, d3d10/ID3D10Device::CreateGeometryShaderWithStreamOutput, direct3d10.id3d10device_creategeometryshaderwithstreamoutput
+ms.keywords: 1ef110f5-f95f-ec17-1f56-6f491a0ffac4, CreateGeometryShaderWithStreamOutput, CreateGeometryShaderWithStreamOutput method [Direct3D 10], CreateGeometryShaderWithStreamOutput method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateGeometryShaderWithStreamOutput method, ID3D10Device.CreateGeometryShaderWithStreamOutput, ID3D10Device::CreateGeometryShaderWithStreamOutput, d3d10/ID3D10Device::CreateGeometryShaderWithStreamOutput, direct3d10.id3d10device_creategeometryshaderwithstreamoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::CreateGeometryShaderWithStreamOutput method
+# ID3D10Device::CreateGeometryShaderWithStreamOutput
 
 
 ## -description

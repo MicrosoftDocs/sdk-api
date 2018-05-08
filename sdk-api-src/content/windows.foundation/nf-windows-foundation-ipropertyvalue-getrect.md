@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetRect
-title: IPropertyValue::GetRect method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the Rect value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getrect.htm
 old-project: WinRT
 ms.assetid: 2333bd80-56db-4fa4-b696-269969fd1362
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetRect method [Windows Runtime], GetRect method [Windows Runtime], IPropertyValue interface, GetRect,IPropertyValue.GetRect, IPropertyValue, IPropertyValue interface [Windows Runtime], GetRect method, IPropertyValue::GetRect, windows/IPropertyValue::GetRect, winrt.ipropertyvalue_getrect
+ms.date: 5/4/2018
+ms.keywords: GetRect, GetRect method [Windows Runtime], GetRect method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetRect method, IPropertyValue.GetRect, IPropertyValue.IPropertyValue, IPropertyValue::GetRect, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetRect, winrt.ipropertyvalue_getrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetRect method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

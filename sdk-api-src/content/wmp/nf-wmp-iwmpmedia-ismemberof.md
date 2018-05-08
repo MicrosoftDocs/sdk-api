@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMedia.isMemberOf
-title: IWMPMedia::isMemberOf method
+title: IWMPMedia::isMemberOf
 author: windows-driver-content
 description: The isMemberOf method retrieves a value indicating whether the specified media item is a member of the specified playlist.
 old-location: wmp\iwmpmedia_ismemberof.htm
 old-project: WMP
 ms.assetid: 5ca46263-1e8e-42db-a131-e7534f79ca8e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], isMemberOf method, IWMPMedia2 interface [Windows Media Player], isMemberOf method, IWMPMedia2::isMemberOf, IWMPMedia3 interface [Windows Media Player], isMemberOf method, IWMPMedia3::isMemberOf, IWMPMedia::isMemberOf, IWMPMediaisMemberOf, isMemberOf method [Windows Media Player], isMemberOf method [Windows Media Player], IWMPMedia interface, isMemberOf method [Windows Media Player], IWMPMedia2 interface, isMemberOf method [Windows Media Player], IWMPMedia3 interface, isMemberOf,IWMPMedia.isMemberOf, wmp.iwmpmedia_ismemberof, wmp/IWMPMedia2::isMemberOf, wmp/IWMPMedia3::isMemberOf, wmp/IWMPMedia::isMemberOf
+ms.date: 5/4/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],isMemberOf method, IWMPMedia.isMemberOf, IWMPMedia2 interface [Windows Media Player],isMemberOf method, IWMPMedia2::isMemberOf, IWMPMedia3 interface [Windows Media Player],isMemberOf method, IWMPMedia3::isMemberOf, IWMPMedia::isMemberOf, IWMPMediaisMemberOf, isMemberOf, isMemberOf method [Windows Media Player], isMemberOf method [Windows Media Player],IWMPMedia interface, isMemberOf method [Windows Media Player],IWMPMedia2 interface, isMemberOf method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_ismemberof, wmp/IWMPMedia2::isMemberOf, wmp/IWMPMedia3::isMemberOf, wmp/IWMPMedia::isMemberOf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMedia::isMemberOf method
+# IWMPMedia::isMemberOf
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 7A1D750D-51F1-48F6-9D74-6439A147F1EC
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12PipelineLibrary, ID3D12PipelineLibrary interface, ID3D12PipelineLibrary interface, described, d3d12/ID3D12PipelineLibrary, direct3d12.id3d12pipelinelibrary
+ms.keywords: ID3D12PipelineLibrary, ID3D12PipelineLibrary interface, ID3D12PipelineLibrary interface,described, d3d12/ID3D12PipelineLibrary, direct3d12.id3d12pipelinelibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

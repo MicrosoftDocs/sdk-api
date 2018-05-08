@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetNamedWhitePoint
-title: IWICDevelopRaw::SetNamedWhitePoint method
+title: IWICDevelopRaw::SetNamedWhitePoint
 author: windows-driver-content
 description: Sets the named white point of the raw file.
 old-location: wic\_wic_codec_iwicdevelopraw_setnamedwhitepoint.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: eb83233d-7967-4160-bebf-2b06378f77ab
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetNamedWhitePoint method, IWICDevelopRaw::SetNamedWhitePoint, SetNamedWhitePoint method [Windows Imaging Component], SetNamedWhitePoint method [Windows Imaging Component], IWICDevelopRaw interface, SetNamedWhitePoint,IWICDevelopRaw.SetNamedWhitePoint, _wic_codec_iwicdevelopraw_setnamedwhitepoint, wic._wic_codec_iwicdevelopraw_setnamedwhitepoint, wincodec/IWICDevelopRaw::SetNamedWhitePoint
+ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetNamedWhitePoint method, IWICDevelopRaw.SetNamedWhitePoint, IWICDevelopRaw::SetNamedWhitePoint, SetNamedWhitePoint, SetNamedWhitePoint method [Windows Imaging Component], SetNamedWhitePoint method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setnamedwhitepoint, wic._wic_codec_iwicdevelopraw_setnamedwhitepoint, wincodec/IWICDevelopRaw::SetNamedWhitePoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::SetNamedWhitePoint method
+# IWICDevelopRaw::SetNamedWhitePoint
 
 
 ## -description

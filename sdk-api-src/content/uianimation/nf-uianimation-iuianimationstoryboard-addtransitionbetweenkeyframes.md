@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.AddTransitionBetweenKeyframes
-title: IUIAnimationStoryboard::AddTransitionBetweenKeyframes method
+title: IUIAnimationStoryboard::AddTransitionBetweenKeyframes
 author: windows-driver-content
 description: Adds a transition between two keyframes.
 old-location: uianimation\iuianimationstoryboard_addtransitionbetweenkeyframes.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 75db41ef-526b-40aa-a62d-a4262cc8d80e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: AddTransitionBetweenKeyframes method [Windows Animation], AddTransitionBetweenKeyframes method [Windows Animation], IUIAnimationStoryboard interface, AddTransitionBetweenKeyframes,IUIAnimationStoryboard.AddTransitionBetweenKeyframes, IUIAnimationStoryboard, IUIAnimationStoryboard interface [Windows Animation], AddTransitionBetweenKeyframes method, IUIAnimationStoryboard::AddTransitionBetweenKeyframes, uianimation.iuianimationstoryboard_addtransitionbetweenkeyframes, uianimation/IUIAnimationStoryboard::AddTransitionBetweenKeyframes
+ms.keywords: AddTransitionBetweenKeyframes, AddTransitionBetweenKeyframes method [Windows Animation], AddTransitionBetweenKeyframes method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddTransitionBetweenKeyframes method, IUIAnimationStoryboard.AddTransitionBetweenKeyframes, IUIAnimationStoryboard::AddTransitionBetweenKeyframes, uianimation.iuianimationstoryboard_addtransitionbetweenkeyframes, uianimation/IUIAnimationStoryboard::AddTransitionBetweenKeyframes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard::AddTransitionBetweenKeyframes method
+# IUIAnimationStoryboard::AddTransitionBetweenKeyframes
 
 
 ## -description

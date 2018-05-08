@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetTransportAudioParameters
-title: IAMExtTransport::GetTransportAudioParameters method
+title: IAMExtTransport::GetTransportAudioParameters
 author: windows-driver-content
 description: The GetTransportAudioParameters method retrieves audio parameter setting for external transport.
 old-location: dshow\iamexttransport_gettransportaudioparameters.htm
 old-project: DirectShow
 ms.assetid: 90650920-f151-4e19-9133-4f1eb5eecbc2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetTransportAudioParameters method [DirectShow], GetTransportAudioParameters method [DirectShow], IAMExtTransport interface, GetTransportAudioParameters,IAMExtTransport.GetTransportAudioParameters, IAMExtTransport, IAMExtTransport interface [DirectShow], GetTransportAudioParameters method, IAMExtTransport::GetTransportAudioParameters, IAMExtTransportGetTransportAudioParameters, dshow.iamexttransport_gettransportaudioparameters, strmif/IAMExtTransport::GetTransportAudioParameters
+ms.date: 4/30/2018
+ms.keywords: GetTransportAudioParameters, GetTransportAudioParameters method [DirectShow], GetTransportAudioParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportAudioParameters method, IAMExtTransport.GetTransportAudioParameters, IAMExtTransport::GetTransportAudioParameters, IAMExtTransportGetTransportAudioParameters, dshow.iamexttransport_gettransportaudioparameters, strmif/IAMExtTransport::GetTransportAudioParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::GetTransportAudioParameters method
+# IAMExtTransport::GetTransportAudioParameters
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFRemoteDesktopPlugin.UpdateTopology
-title: IMFRemoteDesktopPlugin::UpdateTopology method
+title: IMFRemoteDesktopPlugin::UpdateTopology
 author: windows-driver-content
 description: Modifies a topology for use in a Terminal Services environment.
 old-location: mf\imfremotedesktopplugin_updatetopology.htm
 old-project: medfound
 ms.assetid: 799ba0b4-b015-4899-9496-d8c23d033b24
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 799ba0b4-b015-4899-9496-d8c23d033b24, IMFRemoteDesktopPlugin, IMFRemoteDesktopPlugin interface [Media Foundation], UpdateTopology method, IMFRemoteDesktopPlugin::UpdateTopology, UpdateTopology method [Media Foundation], UpdateTopology method [Media Foundation], IMFRemoteDesktopPlugin interface, UpdateTopology,IMFRemoteDesktopPlugin.UpdateTopology, mf.imfremotedesktopplugin_updatetopology, mfidl/IMFRemoteDesktopPlugin::UpdateTopology
+ms.date: 5/3/2018
+ms.keywords: 799ba0b4-b015-4899-9496-d8c23d033b24, IMFRemoteDesktopPlugin interface [Media Foundation],UpdateTopology method, IMFRemoteDesktopPlugin.UpdateTopology, IMFRemoteDesktopPlugin::UpdateTopology, UpdateTopology, UpdateTopology method [Media Foundation], UpdateTopology method [Media Foundation],IMFRemoteDesktopPlugin interface, mf.imfremotedesktopplugin_updatetopology, mfidl/IMFRemoteDesktopPlugin::UpdateTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFRemoteDesktopPlugin::UpdateTopology method
+# IMFRemoteDesktopPlugin::UpdateTopology
 
 
 ## -description

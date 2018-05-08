@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Range
-title: IBDA_FrequencyFilter::put_Range method
+title: IBDA_FrequencyFilter::put_Range
 author: windows-driver-content
 description: The put_Range method specifies the tuner range. The tuner range is the frequency domain on which to find a particular carrier frequency.
 old-location: mstv\ibda_frequencyfilter_put_range.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3567c723-13ef-4306-81dd-2e844abeeb04
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], put_Range method, IBDA_FrequencyFilter::put_Range, IBDA_FrequencyFilterput_Range, bdaiface/IBDA_FrequencyFilter::put_Range, mstv.ibda_frequencyfilter_put_range, put_Range method [Microsoft TV Technologies], put_Range method [Microsoft TV Technologies], IBDA_FrequencyFilter interface, put_Range,IBDA_FrequencyFilter.put_Range
+ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Range method, IBDA_FrequencyFilter.put_Range, IBDA_FrequencyFilter::put_Range, IBDA_FrequencyFilterput_Range, bdaiface/IBDA_FrequencyFilter::put_Range, mstv.ibda_frequencyfilter_put_range, put_Range, put_Range method [Microsoft TV Technologies], put_Range method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_FrequencyFilter::put_Range method
+# IBDA_FrequencyFilter::put_Range
 
 
 ## -description

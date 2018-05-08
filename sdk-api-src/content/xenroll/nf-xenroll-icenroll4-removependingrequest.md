@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll4.removePendingRequest
-title: ICEnroll4::removePendingRequest method
+title: ICEnroll4::removePendingRequest
 author: windows-driver-content
 description: Removes a pending request from the client's request store. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_removependingrequest.htm
 old-project: SecCrypto
 ms.assetid: 22ddd7f8-b2c0-4b9a-a2b3-c2cb470d0502
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], removePendingRequest method, ICEnroll4, ICEnroll4 interface [Security], removePendingRequest method, ICEnroll4::removePendingRequest, _xen_icenroll4_removependingrequest, removePendingRequest method [Security], removePendingRequest method [Security], CEnroll object, removePendingRequest method [Security], ICEnroll4 interface, removePendingRequest,ICEnroll4.removePendingRequest, security.icenroll4_removependingrequest, xenroll/ICEnroll4::removePendingRequest
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],removePendingRequest method, ICEnroll4 interface [Security],removePendingRequest method, ICEnroll4.removePendingRequest, ICEnroll4::removePendingRequest, _xen_icenroll4_removependingrequest, removePendingRequest, removePendingRequest method [Security], removePendingRequest method [Security],CEnroll object, removePendingRequest method [Security],ICEnroll4 interface, security.icenroll4_removependingrequest, xenroll/ICEnroll4::removePendingRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll4::removePendingRequest method
+# ICEnroll4::removePendingRequest
 
 
 ## -description

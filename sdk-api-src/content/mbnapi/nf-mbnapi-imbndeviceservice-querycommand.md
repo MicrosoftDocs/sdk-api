@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.QueryCommand
-title: IMbnDeviceService::QueryCommand method
+title: IMbnDeviceService::QueryCommand
 author: windows-driver-content
 description: Sends a QUERY control command to the device service of a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_querycommand.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: EA68206E-5656-4C83-AFB0-26E7F3692DE2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband Networks], QueryCommand method, IMbnDeviceService::QueryCommand, QueryCommand method [Microsoft Broadband Networks], QueryCommand method [Microsoft Broadband Networks], IMbnDeviceService interface, QueryCommand,IMbnDeviceService.QueryCommand, mbn.imbndeviceservice_querycommand, mbnapi/IMbnDeviceService::QueryCommand
+ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],QueryCommand method, IMbnDeviceService.QueryCommand, IMbnDeviceService::QueryCommand, QueryCommand, QueryCommand method [Microsoft Broadband Networks], QueryCommand method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_querycommand, mbnapi/IMbnDeviceService::QueryCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceService::QueryCommand method
+# IMbnDeviceService::QueryCommand
 
 
 ## -description

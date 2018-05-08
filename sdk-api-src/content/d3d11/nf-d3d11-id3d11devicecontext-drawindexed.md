@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DrawIndexed
-title: ID3D11DeviceContext::DrawIndexed method
+title: ID3D11DeviceContext::DrawIndexed
 author: windows-driver-content
 description: Draw indexed, non-instanced primitives.
 old-location: direct3d11\id3d11devicecontext_drawindexed.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 461a64ec-f3e6-4f6a-8bc4-a349d19501a8
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 45129747-420c-37ba-aae0-05275af46932, DrawIndexed method [Direct3D 11], DrawIndexed method [Direct3D 11], ID3D11DeviceContext interface, DrawIndexed,ID3D11DeviceContext.DrawIndexed, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], DrawIndexed method, ID3D11DeviceContext::DrawIndexed, d3d11/ID3D11DeviceContext::DrawIndexed, direct3d11.id3d11devicecontext_drawindexed
+ms.keywords: 45129747-420c-37ba-aae0-05275af46932, DrawIndexed, DrawIndexed method [Direct3D 11], DrawIndexed method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawIndexed method, ID3D11DeviceContext.DrawIndexed, ID3D11DeviceContext::DrawIndexed, d3d11/ID3D11DeviceContext::DrawIndexed, direct3d11.id3d11devicecontext_drawindexed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::DrawIndexed method
+# ID3D11DeviceContext::DrawIndexed
 
 
 ## -description

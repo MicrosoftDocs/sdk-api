@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.GetParameterValue
-title: IAzBizRuleParameters::GetParameterValue method
+title: IAzBizRuleParameters::GetParameterValue
 author: windows-driver-content
 description: Gets the value type of the business rule (BizRule) parameter with the specified name.
 old-location: security\iazbizruleparameters_getparametervalue_method.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 210dc872-0879-4b4f-bdc3-cbb2208dafbe
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetParameterValue method [Security], GetParameterValue method [Security], IAzBizRuleParameters interface, GetParameterValue,IAzBizRuleParameters.GetParameterValue, IAzBizRuleParameters, IAzBizRuleParameters interface [Security], GetParameterValue method, IAzBizRuleParameters::GetParameterValue, azroles/IAzBizRuleParameters::GetParameterValue, security.iazbizruleparameters_getparametervalue_method
+ms.keywords: GetParameterValue, GetParameterValue method [Security], GetParameterValue method [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],GetParameterValue method, IAzBizRuleParameters.GetParameterValue, IAzBizRuleParameters::GetParameterValue, azroles/IAzBizRuleParameters::GetParameterValue, security.iazbizruleparameters_getparametervalue_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAzBizRuleParameters::GetParameterValue method
+# IAzBizRuleParameters::GetParameterValue
 
 
 ## -description

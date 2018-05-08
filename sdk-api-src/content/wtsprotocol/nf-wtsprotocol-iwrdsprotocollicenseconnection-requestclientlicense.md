@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLicenseConnection.RequestClientLicense
-title: IWRdsProtocolLicenseConnection::RequestClientLicense method
+title: IWRdsProtocolLicenseConnection::RequestClientLicense
 author: windows-driver-content
 description: Requests a license from the client.
 old-location: termserv\iwrdsprotocollicenseconnection_requestclientlicense.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 73660029-2d2e-4240-babe-208daa164290
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolLicenseConnection, IWRdsProtocolLicenseConnection interface [Remote Desktop Services], RequestClientLicense method, IWRdsProtocolLicenseConnection::RequestClientLicense, RequestClientLicense method [Remote Desktop Services], RequestClientLicense method [Remote Desktop Services], IWRdsProtocolLicenseConnection interface, RequestClientLicense,IWRdsProtocolLicenseConnection.RequestClientLicense, termserv.iwrdsprotocollicenseconnection_requestclientlicense, wtsprotocol/IWRdsProtocolLicenseConnection::RequestClientLicense
+ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],RequestClientLicense method, IWRdsProtocolLicenseConnection.RequestClientLicense, IWRdsProtocolLicenseConnection::RequestClientLicense, RequestClientLicense, RequestClientLicense method [Remote Desktop Services], RequestClientLicense method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_requestclientlicense, wtsprotocol/IWRdsProtocolLicenseConnection::RequestClientLicense
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolLicenseConnection::RequestClientLicense method
+# IWRdsProtocolLicenseConnection::RequestClientLicense
 
 
 ## -description

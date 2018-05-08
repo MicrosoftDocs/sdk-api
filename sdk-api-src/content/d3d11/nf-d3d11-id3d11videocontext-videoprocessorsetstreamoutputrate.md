@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamOutputRate
-title: ID3D11VideoContext::VideoProcessorSetStreamOutputRate method
+title: ID3D11VideoContext::VideoProcessorSetStreamOutputRate
 author: windows-driver-content
 description: Sets the rate at which the video processor produces output frames for an input stream.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamoutputrate.htm
 old-project: medfound
 ms.assetid: D353F6E8-B465-46CB-AA47-8B097AB4AF2A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: FALSE, ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorSetStreamOutputRate method, ID3D11VideoContext::VideoProcessorSetStreamOutputRate, TRUE, VideoProcessorSetStreamOutputRate method [Media Foundation], VideoProcessorSetStreamOutputRate method [Media Foundation], ID3D11VideoContext interface, VideoProcessorSetStreamOutputRate,ID3D11VideoContext.VideoProcessorSetStreamOutputRate, d3d11/ID3D11VideoContext::VideoProcessorSetStreamOutputRate, mf.id3d11videocontext_videoprocessorsetstreamoutputrate
+ms.date: 5/3/2018
+ms.keywords: FALSE, ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamOutputRate method, ID3D11VideoContext.VideoProcessorSetStreamOutputRate, ID3D11VideoContext::VideoProcessorSetStreamOutputRate, TRUE, VideoProcessorSetStreamOutputRate, VideoProcessorSetStreamOutputRate method [Media Foundation], VideoProcessorSetStreamOutputRate method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamOutputRate, mf.id3d11videocontext_videoprocessorsetstreamoutputrate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::VideoProcessorSetStreamOutputRate method
+# ID3D11VideoContext::VideoProcessorSetStreamOutputRate
 
 
 ## -description

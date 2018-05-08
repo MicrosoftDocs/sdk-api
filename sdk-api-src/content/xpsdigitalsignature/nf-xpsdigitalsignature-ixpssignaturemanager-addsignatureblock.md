@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.AddSignatureBlock
-title: IXpsSignatureManager::AddSignatureBlock method
+title: IXpsSignatureManager::AddSignatureBlock
 author: windows-driver-content
 description: Creates a new IXpsSignatureBlock interface and adds it to the signature block collection.
 old-location: xps\ixpssignaturemanager_addsignatureblock.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: a299882f-b9f4-4297-8438-e92d148a4014
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: AddSignatureBlock method [XPS Documents and Packaging], AddSignatureBlock method [XPS Documents and Packaging], IXpsSignatureManager interface, AddSignatureBlock,IXpsSignatureManager.AddSignatureBlock, IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], AddSignatureBlock method, IXpsSignatureManager::AddSignatureBlock, xps.ixpssignaturemanager_addsignatureblock, xpsdigitalsignature/IXpsSignatureManager::AddSignatureBlock
+ms.keywords: AddSignatureBlock, AddSignatureBlock method [XPS Documents and Packaging], AddSignatureBlock method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],AddSignatureBlock method, IXpsSignatureManager.AddSignatureBlock, IXpsSignatureManager::AddSignatureBlock, xps.ixpssignaturemanager_addsignatureblock, xpsdigitalsignature/IXpsSignatureManager::AddSignatureBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureManager::AddSignatureBlock method
+# IXpsSignatureManager::AddSignatureBlock
 
 
 ## -description

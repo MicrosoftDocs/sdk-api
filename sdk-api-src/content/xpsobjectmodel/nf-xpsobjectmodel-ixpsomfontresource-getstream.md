@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResource.GetStream
-title: IXpsOMFontResource::GetStream method
+title: IXpsOMFontResource::GetStream
 author: windows-driver-content
 description: Gets a new, read-only copy of the stream that is associated with this resource.
 old-location: xps\ixpsomfontresource_getstream.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d512e862-e2d0-4cc8-a20a-bc3cfbfbcc47
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging], IXpsOMFontResource interface, GetStream,IXpsOMFontResource.GetStream, IXpsOMFontResource, IXpsOMFontResource interface [XPS Documents and Packaging], GetStream method, IXpsOMFontResource::GetStream, xps.ixpsomfontresource_getstream, xpsobjectmodel/IXpsOMFontResource::GetStream
+ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMFontResource interface, IXpsOMFontResource interface [XPS Documents and Packaging],GetStream method, IXpsOMFontResource.GetStream, IXpsOMFontResource::GetStream, xps.ixpsomfontresource_getstream, xpsobjectmodel/IXpsOMFontResource::GetStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMFontResource::GetStream method
+# IXpsOMFontResource::GetStream
 
 
 ## -description

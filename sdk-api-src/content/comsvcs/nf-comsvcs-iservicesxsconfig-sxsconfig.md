@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceSxsConfig.SxsConfig
-title: IServiceSxsConfig::SxsConfig method
+title: IServiceSxsConfig::SxsConfig
 author: windows-driver-content
 description: Configures the side-by-side assembly for the enclosed work.
 old-location: cos\iservicesxsconfig_sxsconfig.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: ce067aca-8bb4-48ac-b466-9080d2166bdd
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IServiceSxsConfig, IServiceSxsConfig interface [COM+], SxsConfig method, IServiceSxsConfig::SxsConfig, SxsConfig method [COM+], SxsConfig method [COM+], IServiceSxsConfig interface, SxsConfig,IServiceSxsConfig.SxsConfig, _cos_IServiceSxsConfig_SxsConfig, comsvcs/IServiceSxsConfig::SxsConfig, cos.iservicesxsconfig_sxsconfig
+ms.keywords: IServiceSxsConfig interface [COM+],SxsConfig method, IServiceSxsConfig.SxsConfig, IServiceSxsConfig::SxsConfig, SxsConfig, SxsConfig method [COM+], SxsConfig method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsConfig, comsvcs/IServiceSxsConfig::SxsConfig, cos.iservicesxsconfig_sxsconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServiceSxsConfig::SxsConfig method
+# IServiceSxsConfig::SxsConfig
 
 
 ## -description

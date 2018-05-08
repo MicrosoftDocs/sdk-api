@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.RequestAttrsAtPosition
-title: ITextStoreACP::RequestAttrsAtPosition method
+title: ITextStoreACP::RequestAttrsAtPosition
 author: windows-driver-content
 description: Gets text attributes at the specified character position.
 old-location: tsf\itextstoreacp_requestattrsatposition.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 39eb59cd-ec55-4057-8cf1-0203b6e6c82b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACP, ITextStoreACP interface [Text Services Framework], RequestAttrsAtPosition method, ITextStoreACP::RequestAttrsAtPosition, RequestAttrsAtPosition method [Text Services Framework], RequestAttrsAtPosition method [Text Services Framework], ITextStoreACP interface, RequestAttrsAtPosition,ITextStoreACP.RequestAttrsAtPosition, _tsf_itextstoreacp_requestattrsatposition_ref, textstor/ITextStoreACP::RequestAttrsAtPosition, tsf.itextstoreacp_requestattrsatposition
+ms.keywords: ITextStoreACP interface [Text Services Framework],RequestAttrsAtPosition method, ITextStoreACP.RequestAttrsAtPosition, ITextStoreACP::RequestAttrsAtPosition, RequestAttrsAtPosition, RequestAttrsAtPosition method [Text Services Framework], RequestAttrsAtPosition method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_requestattrsatposition_ref, textstor/ITextStoreACP::RequestAttrsAtPosition, tsf.itextstoreacp_requestattrsatposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP::RequestAttrsAtPosition method
+# ITextStoreACP::RequestAttrsAtPosition
 
 
 ## -description

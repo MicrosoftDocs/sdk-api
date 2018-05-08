@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.Add
-title: CHStringArray::Add method
+title: CHStringArray::Add
 author: windows-driver-content
 description: The Add method adds a new element to the end of an array, increasing the array by one.
 old-location: wmi\chstringarray_add.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: f5a0b8e6-b40a-4dc7-bf36-ec629e2899db
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?Add@CHStringArray@@QAEHPBG@Z, ?Add@CHStringArray@@QEAAHPEBG@Z, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation], CHStringArray interface, Add,CHStringArray.Add, CHStringArray, CHStringArray interface [Windows Management Instrumentation], Add method, CHStringArray::Add, _hmm_chstringarray_add, chstrarr/CHStringArray::Add, wmi.chstringarray_add"
+ms.keywords: "?Add@CHStringArray@@QAEHPBG@Z, ?Add@CHStringArray@@QEAAHPEBG@Z, Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],CHStringArray interface, CHStringArray interface [Windows Management Instrumentation],Add method, CHStringArray.Add, CHStringArray::Add, _hmm_chstringarray_add, chstrarr/CHStringArray::Add, wmi.chstringarray_add"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHStringArray::Add method
+# CHStringArray::Add
 
 
 ## -description

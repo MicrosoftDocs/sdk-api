@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetViewBorderRect
-title: IBrowserService2::_GetViewBorderRect method
+title: IBrowserService2::_GetViewBorderRect
 author: windows-driver-content
 description: Deprecated. Used with IBrowserService2::_GetEffectiveClientArea to negotiate the size and position of the browser view.
 old-location: shell\IBrowserService2__GetViewBorderRect.htm
 old-project: shell
 ms.assetid: 62ede825-a4f3-47bc-a9dd-9b651bde1ec5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _GetViewBorderRect method, IBrowserService2::_GetViewBorderRect, _GetViewBorderRect method [Windows Shell], _GetViewBorderRect method [Windows Shell], IBrowserService2 interface, _GetViewBorderRect,IBrowserService2._GetViewBorderRect, shdeprecated/IBrowserService2::_GetViewBorderRect, shell.IBrowserService2__GetViewBorderRect, zone_IBrowserService2__GetViewBorderRect
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],_GetViewBorderRect method, IBrowserService2._GetViewBorderRect, IBrowserService2::_GetViewBorderRect, _GetViewBorderRect, _GetViewBorderRect method [Windows Shell], _GetViewBorderRect method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetViewBorderRect, shell.IBrowserService2__GetViewBorderRect, zone_IBrowserService2__GetViewBorderRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::_GetViewBorderRect method
+# IBrowserService2::_GetViewBorderRect
 
 
 ## -description

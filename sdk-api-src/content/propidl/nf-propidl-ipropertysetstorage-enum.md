@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertySetStorage.Enum
-title: IPropertySetStorage::Enum method
+title: IPropertySetStorage::Enum
 author: windows-driver-content
 description: The Enum method creates an enumerator object which contains information on the property sets stored in this property set storage. On return, this method supplies a pointer to the IEnumSTATPROPSETSTG pointer on the enumerator object.
 old-location: stg\ipropertysetstorage_enum.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 979ee86b-fabc-428c-8134-f16c2a33270f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: Enum method [Structured Storage], Enum method [Structured Storage], IPropertySetStorage interface, Enum,IPropertySetStorage.Enum, IPropertySetStorage, IPropertySetStorage interface [Structured Storage], Enum method, IPropertySetStorage::Enum, _stg_ipropertysetstorage_enum, propidl/IPropertySetStorage::Enum, stg.ipropertysetstorage_enum
+ms.keywords: Enum, Enum method [Structured Storage], Enum method [Structured Storage],IPropertySetStorage interface, IPropertySetStorage interface [Structured Storage],Enum method, IPropertySetStorage.Enum, IPropertySetStorage::Enum, _stg_ipropertysetstorage_enum, propidl/IPropertySetStorage::Enum, stg.ipropertysetstorage_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertySetStorage::Enum method
+# IPropertySetStorage::Enum
 
 
 ## -description

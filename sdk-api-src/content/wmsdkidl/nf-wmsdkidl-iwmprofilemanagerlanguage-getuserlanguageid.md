@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManagerLanguage.GetUserLanguageID
-title: IWMProfileManagerLanguage::GetUserLanguageID method
+title: IWMProfileManagerLanguage::GetUserLanguageID
 author: windows-driver-content
 description: The GetUserLanguageID method retrieves the language identifier for the system profiles loaded by the profile manager object.
 old-location: wmformat\iwmprofilemanagerlanguage_getuserlanguageid.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 92d18ac9-8f68-47c6-91d7-de7653df69a6
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetUserLanguageID method [windows Media Format], GetUserLanguageID method [windows Media Format], IWMProfileManagerLanguage interface, GetUserLanguageID,IWMProfileManagerLanguage.GetUserLanguageID, IWMProfileManagerLanguage, IWMProfileManagerLanguage interface [windows Media Format], GetUserLanguageID method, IWMProfileManagerLanguage::GetUserLanguageID, IWMProfileManagerLanguageGetUserLanguageID, wmformat.iwmprofilemanagerlanguage_getuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::GetUserLanguageID
+ms.keywords: GetUserLanguageID, GetUserLanguageID method [windows Media Format], GetUserLanguageID method [windows Media Format],IWMProfileManagerLanguage interface, IWMProfileManagerLanguage interface [windows Media Format],GetUserLanguageID method, IWMProfileManagerLanguage.GetUserLanguageID, IWMProfileManagerLanguage::GetUserLanguageID, IWMProfileManagerLanguageGetUserLanguageID, wmformat.iwmprofilemanagerlanguage_getuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::GetUserLanguageID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfileManagerLanguage::GetUserLanguageID method
+# IWMProfileManagerLanguage::GetUserLanguageID
 
 
 ## -description

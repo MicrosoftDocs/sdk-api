@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetOutputCount
-title: IMFTopologyNode::GetOutputCount method
+title: IMFTopologyNode::GetOutputCount
 author: windows-driver-content
 description: Retrieves the number of output streams that currently exist on this node.
 old-location: mf\imftopologynode_getoutputcount.htm
 old-project: medfound
 ms.assetid: dc964c38-9dac-491f-9d70-b1ba7b7001ad
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetOutputCount method [Media Foundation], GetOutputCount method [Media Foundation], IMFTopologyNode interface, GetOutputCount,IMFTopologyNode.GetOutputCount, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], GetOutputCount method, IMFTopologyNode::GetOutputCount, dc964c38-9dac-491f-9d70-b1ba7b7001ad, mf.imftopologynode_getoutputcount, mfidl/IMFTopologyNode::GetOutputCount
+ms.date: 5/3/2018
+ms.keywords: GetOutputCount, GetOutputCount method [Media Foundation], GetOutputCount method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutputCount method, IMFTopologyNode.GetOutputCount, IMFTopologyNode::GetOutputCount, dc964c38-9dac-491f-9d70-b1ba7b7001ad, mf.imftopologynode_getoutputcount, mfidl/IMFTopologyNode::GetOutputCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTopologyNode::GetOutputCount method
+# IMFTopologyNode::GetOutputCount
 
 
 ## -description

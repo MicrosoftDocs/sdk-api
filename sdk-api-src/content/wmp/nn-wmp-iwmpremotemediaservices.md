@@ -7,8 +7,8 @@ old-location: wmp\iwmpremotemediaservices.htm
 old-project: WMP
 ms.assetid: 594a614a-8da1-4ef0-a6af-01284fb48ef7
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], IWMPRemoteMediaServices interface [Windows Media Player], described, IWMPRemoteMediaServicesInterface, wmp.iwmpremotemediaservices, wmp/IWMPRemoteMediaServices
+ms.date: 5/4/2018
+ms.keywords: IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], IWMPRemoteMediaServices interface [Windows Media Player],described, IWMPRemoteMediaServicesInterface, wmp.iwmpremotemediaservices, wmp/IWMPRemoteMediaServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

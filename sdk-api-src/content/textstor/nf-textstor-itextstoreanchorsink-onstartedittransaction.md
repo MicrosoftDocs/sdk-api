@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnStartEditTransaction
-title: ITextStoreAnchorSink::OnStartEditTransaction method
+title: ITextStoreAnchorSink::OnStartEditTransaction
 author: windows-driver-content
 description: ITextStoreAnchorSink::OnStartEditTransaction method
 old-location: tsf\itextstoreanchorsink_onstartedittransaction.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 9e86d767-8ace-4bd0-af12-2139814b4e44
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchorSink, ITextStoreAnchorSink interface [Text Services Framework], OnStartEditTransaction method, ITextStoreAnchorSink::OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework], ITextStoreAnchorSink interface, OnStartEditTransaction,ITextStoreAnchorSink.OnStartEditTransaction, _tsf_itextstoreanchorsink_onstartedittransaction_ref, textstor/ITextStoreAnchorSink::OnStartEditTransaction, tsf.itextstoreanchorsink_onstartedittransaction
+ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnStartEditTransaction method, ITextStoreAnchorSink.OnStartEditTransaction, ITextStoreAnchorSink::OnStartEditTransaction, OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onstartedittransaction_ref, textstor/ITextStoreAnchorSink::OnStartEditTransaction, tsf.itextstoreanchorsink_onstartedittransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchorSink::OnStartEditTransaction method
+# ITextStoreAnchorSink::OnStartEditTransaction
 
 
 ## -description

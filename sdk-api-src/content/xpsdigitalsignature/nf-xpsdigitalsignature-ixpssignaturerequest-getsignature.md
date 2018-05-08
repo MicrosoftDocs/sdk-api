@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetSignature
-title: IXpsSignatureRequest::GetSignature method
+title: IXpsSignatureRequest::GetSignature
 author: windows-driver-content
 description: Gets a pointer to an IXpsSignature interface that contains the XPS digital signature with the same unique identifier as the signature request.
 old-location: xps\ixpssignaturerequest_getsignature.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 649ab92f-9195-47a9-8a02-546825245e2b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSignature method [XPS Documents and Packaging], GetSignature method [XPS Documents and Packaging], IXpsSignatureRequest interface, GetSignature,IXpsSignatureRequest.GetSignature, IXpsSignatureRequest, IXpsSignatureRequest interface [XPS Documents and Packaging], GetSignature method, IXpsSignatureRequest::GetSignature, xps.ixpssignaturerequest_getsignature, xpsdigitalsignature/IXpsSignatureRequest::GetSignature
+ms.keywords: GetSignature, GetSignature method [XPS Documents and Packaging], GetSignature method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSignature method, IXpsSignatureRequest.GetSignature, IXpsSignatureRequest::GetSignature, xps.ixpssignaturerequest_getsignature, xpsdigitalsignature/IXpsSignatureRequest::GetSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureRequest::GetSignature method
+# IXpsSignatureRequest::GetSignature
 
 
 ## -description

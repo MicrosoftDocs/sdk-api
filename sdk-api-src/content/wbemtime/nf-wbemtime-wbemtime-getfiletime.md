@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetFILETIME
-title: WBEMTime::GetFILETIME method
+title: WBEMTime::GetFILETIME
 author: windows-driver-content
 description: The GetFILETIME method gets the time as an MFC FILETIME structure.
 old-location: wmi\wbemtime_getfiletime.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 3debc121-ff7b-4e2c-9d77-502ee491cad8
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z, GetFILETIME method [Windows Management Instrumentation], GetFILETIME method [Windows Management Instrumentation], WBEMTime interface, GetFILETIME,WBEMTime.GetFILETIME, WBEMTime, WBEMTime interface [Windows Management Instrumentation], GetFILETIME method, WBEMTime::GetFILETIME, _hmm_wbemtime_getfiletime, wbemtime/WBEMTime::GetFILETIME, wmi.wbemtime_getfiletime"
+ms.keywords: "?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z, GetFILETIME, GetFILETIME method [Windows Management Instrumentation], GetFILETIME method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetFILETIME method, WBEMTime.GetFILETIME, WBEMTime::GetFILETIME, _hmm_wbemtime_getfiletime, wbemtime/WBEMTime::GetFILETIME, wmi.wbemtime_getfiletime"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WBEMTime::GetFILETIME method
+# WBEMTime::GetFILETIME
 
 
 ## -description

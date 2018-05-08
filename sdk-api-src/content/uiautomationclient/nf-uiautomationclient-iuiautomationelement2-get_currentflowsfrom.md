@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CurrentFlowsFrom
-title: IUIAutomationElement2::get_CurrentFlowsFrom method
+title: IUIAutomationElement2::get_CurrentFlowsFrom
 author: windows-driver-content
 description: Retrieves an array of elements that indicates the reading order before the current element.
 old-location: winauto\uiauto_iuiautomationelement2_currentflowsfrom.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: E3991700-444C-4673-96EE-E6112FBD7547
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentFlowsFrom property [Windows Accessibility], CurrentFlowsFrom property [Windows Accessibility], IUIAutomationElement2 interface, IUIAutomationElement2, IUIAutomationElement2 interface [Windows Accessibility], CurrentFlowsFrom property, IUIAutomationElement2.CurrentFlowsFrom, IUIAutomationElement2::get_CurrentFlowsFrom, IUIAutomationElement2::put_CurrentFlowsFrom, get_CurrentFlowsFrom,IUIAutomationElement2.get_CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::get_CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::put_CurrentFlowsFrom, winauto.uiauto_iuiautomationelement2_currentflowsfrom
+ms.keywords: CurrentFlowsFrom property [Windows Accessibility], CurrentFlowsFrom property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CurrentFlowsFrom property, IUIAutomationElement2.CurrentFlowsFrom, IUIAutomationElement2.get_CurrentFlowsFrom, IUIAutomationElement2::CurrentFlowsFrom, IUIAutomationElement2::get_CurrentFlowsFrom, IUIAutomationElement2::put_CurrentFlowsFrom, get_CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::get_CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::put_CurrentFlowsFrom, winauto.uiauto_iuiautomationelement2_currentflowsfrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement2::get_CurrentFlowsFrom method
+# IUIAutomationElement2::get_CurrentFlowsFrom
 
 
 ## -description

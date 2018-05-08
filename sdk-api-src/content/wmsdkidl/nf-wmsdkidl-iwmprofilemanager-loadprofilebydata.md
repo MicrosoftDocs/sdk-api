@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.LoadProfileByData
-title: IWMProfileManager::LoadProfileByData method
+title: IWMProfileManager::LoadProfileByData
 author: windows-driver-content
 description: The LoadProfileByData method creates a profile object and populates it with data from a stored string. You must use this method to manipulate custom profiles. System profiles should be accessed using either LoadProfileByID or LoadSystemProfile.
 old-location: wmformat\iwmprofilemanager_loadprofilebydata.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c645b6cc-e10d-4335-91c4-8bfd430ca76b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMProfileManager, IWMProfileManager interface [windows Media Format], LoadProfileByData method, IWMProfileManager::LoadProfileByData, IWMProfileManagerLoadProfileByData, LoadProfileByData method [windows Media Format], LoadProfileByData method [windows Media Format], IWMProfileManager interface, LoadProfileByData,IWMProfileManager.LoadProfileByData, wmformat.iwmprofilemanager_loadprofilebydata, wmsdkidl/IWMProfileManager::LoadProfileByData
+ms.keywords: IWMProfileManager interface [windows Media Format],LoadProfileByData method, IWMProfileManager.LoadProfileByData, IWMProfileManager::LoadProfileByData, IWMProfileManagerLoadProfileByData, LoadProfileByData, LoadProfileByData method [windows Media Format], LoadProfileByData method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadprofilebydata, wmsdkidl/IWMProfileManager::LoadProfileByData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfileManager::LoadProfileByData method
+# IWMProfileManager::LoadProfileByData
 
 
 ## -description

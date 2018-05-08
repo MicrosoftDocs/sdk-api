@@ -136,88 +136,77 @@ Variable of type <b>ULONG</b> that specifies the restriction type. The possible 
 Union of restriction structures describing the filter to be applied. The specific structure included in the <b>res</b> member depends on the value of the <b>rt</b> member. The following list gives the mapping between the structure and the restriction type.
 
 
-
-#### resCompareProps
+### -field res.resCompareProps
 
 <b>Type: <b>SComparePropsRestriction</b>
 </b>
 RES_COMPAREPROPS
 
 
-
-#### resAnd
+### -field res.resAnd
 
 <b>Type: <b>SAndRestriction</b>
 </b>
 RES_AND
 
 
-
-#### resOr
+### -field res.resOr
 
 <b>Type: <b>SOrRestriction</b>
 </b>
 RES_OR
 
 
-
-#### resNot
+### -field res.resNot
 
 <b>Type: <b>SNotRestriction</b>
 </b>
 RES_NOT
 
 
-
-#### resContent
+### -field res.resContent
 
 <b>Type: <b>SContentRestriction</b>
 </b>
 RES_CONTENT
 
 
-
-#### resProperty
+### -field res.resProperty
 
 <b>Type: <b>SPropertyRestriction</b>
 </b>
 RES_PROPERTY
 
 
-
-#### resBitMask
+### -field res.resBitMask
 
 <b>Type: <b>SBitMaskRestriction</b>
 </b>
 RES_BITMASK
 
 
-
-#### resSize
+### -field res.resSize
 
 <b>Type: <b>SSizeRestriction</b>
 </b>
 RES_SIZE
 
 
-
-#### resExist
+### -field res.resExist
 
 <b>Type: <b>SExistRestriction</b>
 </b>
 RES_EXIST
 
 
-
-#### resSub
+### -field res.resSub
 
 <b>Type: <b>SSubRestriction</b>
 </b>
 RES_SUBRESTRICTION
 
 
-
-#### resComment
+### -field res.resComment
 
 <b>Type: <b>SCommentRestriction</b>
 </b>

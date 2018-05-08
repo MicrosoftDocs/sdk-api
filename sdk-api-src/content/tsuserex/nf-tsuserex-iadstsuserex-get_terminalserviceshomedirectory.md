@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_TerminalServicesHomeDirectory
-title: IADsTSUserEx::get_TerminalServicesHomeDirectory method
+title: IADsTSUserEx::get_TerminalServicesHomeDirectory
 author: windows-driver-content
 description: The root directory for the user. Each user on a Remote Desktop Session Host (RD Session Host) server has a unique root directory. This ensures that application information is stored separately for each user in a multiuser environment.
 old-location: termserv\iadstsuserex_terminalserviceshomedirectory.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 3993b664-82bb-4419-a06f-2a4e24003170
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], TerminalServicesHomeDirectory property, IADsTSUserEx.TerminalServicesHomeDirectory, IADsTSUserEx::get_TerminalServicesHomeDirectory, IADsTSUserEx::put_TerminalServicesHomeDirectory, TerminalServicesHomeDirectory property [Remote Desktop Services], TerminalServicesHomeDirectory property [Remote Desktop Services], IADsTSUserEx interface, get_TerminalServicesHomeDirectory,IADsTSUserEx.get_TerminalServicesHomeDirectory, termserv.iadstsuserex_terminalserviceshomedirectory, tsuserex/IADsTSUserEx::TerminalServicesHomeDirectory, tsuserex/IADsTSUserEx::get_TerminalServicesHomeDirectory, tsuserex/IADsTSUserEx::put_TerminalServicesHomeDirectory
+ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesHomeDirectory property, IADsTSUserEx.TerminalServicesHomeDirectory, IADsTSUserEx.get_TerminalServicesHomeDirectory, IADsTSUserEx::TerminalServicesHomeDirectory, IADsTSUserEx::get_TerminalServicesHomeDirectory, IADsTSUserEx::put_TerminalServicesHomeDirectory, TerminalServicesHomeDirectory property [Remote Desktop Services], TerminalServicesHomeDirectory property [Remote Desktop Services],IADsTSUserEx interface, get_TerminalServicesHomeDirectory, termserv.iadstsuserex_terminalserviceshomedirectory, tsuserex/IADsTSUserEx::TerminalServicesHomeDirectory, tsuserex/IADsTSUserEx::get_TerminalServicesHomeDirectory, tsuserex/IADsTSUserEx::put_TerminalServicesHomeDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IADsTSUserEx::get_TerminalServicesHomeDirectory method
+# IADsTSUserEx::get_TerminalServicesHomeDirectory
 
 
 ## -description

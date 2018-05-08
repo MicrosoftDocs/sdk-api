@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetRecordCountOfDescriptors
-title: IISDB_BIT::GetRecordCountOfDescriptors method
+title: IISDB_BIT::GetRecordCountOfDescriptors
 author: windows-driver-content
 description: Returns the number of descriptors for subtables in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getrecordcountofdescriptors.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 08df6f74-dbeb-4d32-8b0f-4ec88d35ff36
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies], IISDB_BIT interface, GetRecordCountOfDescriptors,IISDB_BIT.GetRecordCountOfDescriptors, IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], GetRecordCountOfDescriptors method, IISDB_BIT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_BIT::GetRecordCountOfDescriptors, mstv.iisdb_bit_getrecordcountofdescriptors
+ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IISDB_BIT.GetRecordCountOfDescriptors, IISDB_BIT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_BIT::GetRecordCountOfDescriptors, mstv.iisdb_bit_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_BIT::GetRecordCountOfDescriptors method
+# IISDB_BIT::GetRecordCountOfDescriptors
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\ndk_version.htm
 old-project: netvista
 ms.assetid: 10A5A3E6-7257-4560-8452-607EC7C54397
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_VERSION, NDK_VERSION structure [Network Drivers Starting with Windows Vista], ndkinfo/NDK_VERSION, netvista.ndk_version
 ms.prod: windows-hardware
 ms.technology: windows-devices

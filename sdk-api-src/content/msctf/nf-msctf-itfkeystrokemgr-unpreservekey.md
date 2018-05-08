@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.UnpreserveKey
-title: ITfKeystrokeMgr::UnpreserveKey method
+title: ITfKeystrokeMgr::UnpreserveKey
 author: windows-driver-content
 description: ITfKeystrokeMgr::UnpreserveKey method
 old-location: tsf\itfkeystrokemgr_unpreservekey.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 05975fce-04c3-4316-a9b2-ed015e7aa8fe
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfKeystrokeMgr, ITfKeystrokeMgr interface [Text Services Framework], UnpreserveKey method, ITfKeystrokeMgr::UnpreserveKey, UnpreserveKey method [Text Services Framework], UnpreserveKey method [Text Services Framework], ITfKeystrokeMgr interface, UnpreserveKey,ITfKeystrokeMgr.UnpreserveKey, _tsf_itfkeystrokemgr_unpreservekey_ref, msctf/ITfKeystrokeMgr::UnpreserveKey, tsf.itfkeystrokemgr_unpreservekey
+ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],UnpreserveKey method, ITfKeystrokeMgr.UnpreserveKey, ITfKeystrokeMgr::UnpreserveKey, UnpreserveKey, UnpreserveKey method [Text Services Framework], UnpreserveKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_unpreservekey_ref, msctf/ITfKeystrokeMgr::UnpreserveKey, tsf.itfkeystrokemgr_unpreservekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfKeystrokeMgr::UnpreserveKey method
+# ITfKeystrokeMgr::UnpreserveKey
 
 
 ## -description

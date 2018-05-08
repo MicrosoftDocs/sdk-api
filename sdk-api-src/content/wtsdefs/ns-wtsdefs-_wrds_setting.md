@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WRDS_SETTING, *PWRDS_SETTING, WRDS_SETTING, *PWRDS_SETTING
+req.typenames: WRDS_SETTING, *PWRDS_SETTING
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,7 +63,22 @@ Contains different levels of policy-related settings for a remote desktop connec
 A <a href="https://msdn.microsoft.com/47100A84-49F4-4FF1-8CCB-731638F27C4F">WRDS_SETTINGS_1</a> structure.
 
 
+### -field WRdsSettings1.case
+
+ 
+
+
+### -field WRdsSettings1.case.WRDS_SETTING_LEVEL_1
+
+ 
+
+
 ### -field switch_type
+
+ 
+
+
+### -field switch_type.WRDS_SETTING_LEVEL
 
  
 

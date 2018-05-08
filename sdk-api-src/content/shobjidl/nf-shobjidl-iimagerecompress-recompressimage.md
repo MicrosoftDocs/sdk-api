@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IImageRecompress.RecompressImage
-title: IImageRecompress::RecompressImage method
+title: IImageRecompress::RecompressImage
 author: windows-driver-content
 description: Recompresses an image. Implemented in an ImageRecompress object, this method accepts x and y dimensions with a designation of quality. The method creates a stream containing the new image that has been recompressed to the specified size.
 old-location: shell\IImageRecompress_RecompressImage.htm
 old-project: shell
 ms.assetid: 5fc215b0-c670-4287-8b6d-9fd6345b6439
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IImageRecompress, IImageRecompress interface [Windows Shell], RecompressImage method, IImageRecompress::RecompressImage, RecompressImage method [Windows Shell], RecompressImage method [Windows Shell], IImageRecompress interface, RecompressImage,IImageRecompress.RecompressImage, _win32_IImageRecompress_RecompressImage, shell.IImageRecompress_RecompressImage, shobjidl/IImageRecompress::RecompressImage
+ms.date: 5/3/2018
+ms.keywords: IImageRecompress interface [Windows Shell],RecompressImage method, IImageRecompress.RecompressImage, IImageRecompress::RecompressImage, RecompressImage, RecompressImage method [Windows Shell], RecompressImage method [Windows Shell],IImageRecompress interface, _win32_IImageRecompress_RecompressImage, shell.IImageRecompress_RecompressImage, shobjidl/IImageRecompress::RecompressImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IImageRecompress::RecompressImage method
+# IImageRecompress::RecompressImage
 
 
 ## -description

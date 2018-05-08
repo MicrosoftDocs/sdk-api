@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeConflict.GetDestinationProviderConflictingData
-title: IChangeConflict::GetDestinationProviderConflictingData method
+title: IChangeConflict::GetDestinationProviderConflictingData
 author: windows-driver-content
 description: Gets an object that can be used to retrieve item data for the change item from the destination replica.
 old-location: winsync\ichangeconflict_getdestinationproviderconflictingdata.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 7a63d554-56e0-4c39-94ea-613fecc97331
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetDestinationProviderConflictingData method [Windows Sync], GetDestinationProviderConflictingData method [Windows Sync], IChangeConflict interface, GetDestinationProviderConflictingData,IChangeConflict.GetDestinationProviderConflictingData, IChangeConflict, IChangeConflict interface [Windows Sync], GetDestinationProviderConflictingData method, IChangeConflict::GetDestinationProviderConflictingData, winsync.ichangeconflict_getdestinationproviderconflictingdata, winsync/IChangeConflict::GetDestinationProviderConflictingData
+ms.keywords: GetDestinationProviderConflictingData, GetDestinationProviderConflictingData method [Windows Sync], GetDestinationProviderConflictingData method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetDestinationProviderConflictingData method, IChangeConflict.GetDestinationProviderConflictingData, IChangeConflict::GetDestinationProviderConflictingData, winsync.ichangeconflict_getdestinationproviderconflictingdata, winsync/IChangeConflict::GetDestinationProviderConflictingData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IChangeConflict::GetDestinationProviderConflictingData method
+# IChangeConflict::GetDestinationProviderConflictingData
 
 
 ## -description

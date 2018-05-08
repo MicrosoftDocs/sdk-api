@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILayoutStorage.BeginMonitor
-title: ILayoutStorage::BeginMonitor method
+title: ILayoutStorage::BeginMonitor
 author: windows-driver-content
 description: The BeginMonitor method is used to begin monitoring when a loading operation is started. When the operation is complete, the application must call ILayoutStorage::EndMonitor.
 old-location: stg\ilayoutstorage_beginmonitor.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 16371d6c-adb9-43c2-80a4-377e94854bbb
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: BeginMonitor method [Structured Storage], BeginMonitor method [Structured Storage], ILayoutStorage interface, BeginMonitor,ILayoutStorage.BeginMonitor, ILayoutStorage, ILayoutStorage interface [Structured Storage], BeginMonitor method, ILayoutStorage::BeginMonitor, _stg_ilayoutstorage_beginmonitor, objidl/ILayoutStorage::BeginMonitor, stg.ilayoutstorage_beginmonitor
+ms.keywords: BeginMonitor, BeginMonitor method [Structured Storage], BeginMonitor method [Structured Storage],ILayoutStorage interface, ILayoutStorage interface [Structured Storage],BeginMonitor method, ILayoutStorage.BeginMonitor, ILayoutStorage::BeginMonitor, _stg_ilayoutstorage_beginmonitor, objidl/ILayoutStorage::BeginMonitor, stg.ilayoutstorage_beginmonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ILayoutStorage::BeginMonitor method
+# ILayoutStorage::BeginMonitor
 
 
 ## -description

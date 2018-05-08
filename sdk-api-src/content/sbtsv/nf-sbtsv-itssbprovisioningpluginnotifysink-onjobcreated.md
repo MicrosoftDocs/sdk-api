@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.OnJobCreated
-title: ITsSbProvisioningPluginNotifySink::OnJobCreated method
+title: ITsSbProvisioningPluginNotifySink::OnJobCreated
 author: windows-driver-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a provisioning job is created.
 old-location: termserv\itssbprovisioningpluginnotifysink_onjobcreated.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: daab9172-d984-4b47-9f64-59216513aff7
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbProvisioningPluginNotifySink, ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services], OnJobCreated method, ITsSbProvisioningPluginNotifySink::OnJobCreated, OnJobCreated method [Remote Desktop Services], OnJobCreated method [Remote Desktop Services], ITsSbProvisioningPluginNotifySink interface, OnJobCreated,ITsSbProvisioningPluginNotifySink.OnJobCreated, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCreated, termserv.itssbprovisioningpluginnotifysink_onjobcreated
+ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCreated method, ITsSbProvisioningPluginNotifySink.OnJobCreated, ITsSbProvisioningPluginNotifySink::OnJobCreated, OnJobCreated, OnJobCreated method [Remote Desktop Services], OnJobCreated method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCreated, termserv.itssbprovisioningpluginnotifysink_onjobcreated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbProvisioningPluginNotifySink::OnJobCreated method
+# ITsSbProvisioningPluginNotifySink::OnJobCreated
 
 
 ## -description

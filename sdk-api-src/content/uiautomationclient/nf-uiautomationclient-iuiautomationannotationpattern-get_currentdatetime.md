@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentDateTime
-title: IUIAutomationAnnotationPattern::get_CurrentDateTime method
+title: IUIAutomationAnnotationPattern::get_CurrentDateTime
 author: windows-driver-content
 description: Retrieves the date and time that this annotation was created.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentDateTime.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 391F6C44-F1AF-4EB7-87F1-593541FFF3A8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentDateTime property [Windows Accessibility], CurrentDateTime property [Windows Accessibility], IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern, IUIAutomationAnnotationPattern interface [Windows Accessibility], CurrentDateTime property, IUIAutomationAnnotationPattern.CurrentDateTime, IUIAutomationAnnotationPattern::get_CurrentDateTime, get_CurrentDateTime,IUIAutomationAnnotationPattern.get_CurrentDateTime, uiautomationclient/IUIAutomationAnnotationPattern::CurrentDateTime, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentDateTime, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentDateTime
+ms.keywords: CurrentDateTime property [Windows Accessibility], CurrentDateTime property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentDateTime property, IUIAutomationAnnotationPattern.CurrentDateTime, IUIAutomationAnnotationPattern.get_CurrentDateTime, IUIAutomationAnnotationPattern::CurrentDateTime, IUIAutomationAnnotationPattern::get_CurrentDateTime, get_CurrentDateTime, uiautomationclient/IUIAutomationAnnotationPattern::CurrentDateTime, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentDateTime, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentDateTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationAnnotationPattern::get_CurrentDateTime method
+# IUIAutomationAnnotationPattern::get_CurrentDateTime
 
 
 ## -description

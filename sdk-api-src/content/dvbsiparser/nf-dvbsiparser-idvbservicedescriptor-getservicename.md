@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor.GetServiceName
-title: IDvbServiceDescriptor::GetServiceName method
+title: IDvbServiceDescriptor::GetServiceName
 author: windows-driver-content
 description: Gets the service_name field from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor_getservicename.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d3c59ebc-fc32-49ba-86b3-5737c3af2225
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetServiceName method [Microsoft TV Technologies], GetServiceName method [Microsoft TV Technologies], IDvbServiceDescriptor interface, GetServiceName,IDvbServiceDescriptor.GetServiceName, IDvbServiceDescriptor, IDvbServiceDescriptor interface [Microsoft TV Technologies], GetServiceName method, IDvbServiceDescriptor::GetServiceName, dvbsiparser/IDvbServiceDescriptor::GetServiceName, mstv.idvbservicedescriptor_getservicename
+ms.keywords: GetServiceName, GetServiceName method [Microsoft TV Technologies], GetServiceName method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetServiceName method, IDvbServiceDescriptor.GetServiceName, IDvbServiceDescriptor::GetServiceName, dvbsiparser/IDvbServiceDescriptor::GetServiceName, mstv.idvbservicedescriptor_getservicename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbServiceDescriptor::GetServiceName method
+# IDvbServiceDescriptor::GetServiceName
 
 
 ## -description

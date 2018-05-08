@@ -1,14 +1,14 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.ValidateTarget
-title: IFhConfigMgr::ValidateTarget method
+title: IFhConfigMgr::ValidateTarget
 author: windows-driver-content
 description: Checks whether a certain storage device or network share can be used as a File History backup target.
 old-location: winprog\ifhconfigmgr_validatetarget.htm
 old-project: DevNotes
 ms.assetid: EC41C4EE-A909-4DD4-AA32-5054BBEAF421
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: FhConfigMgr class [Windows API], ValidateTarget method, IFhConfigMgr, IFhConfigMgr interface [Windows API], ValidateTarget method, IFhConfigMgr::ValidateTarget, ValidateTarget method [Windows API], ValidateTarget method [Windows API], FhConfigMgr class, ValidateTarget method [Windows API], IFhConfigMgr interface, ValidateTarget,IFhConfigMgr.ValidateTarget, fhcfg/IFhConfigMgr::ValidateTarget, winprog.ifhconfigmgr_validatetarget
+ms.date: 5/4/2018
+ms.keywords: FhConfigMgr class [Windows API],ValidateTarget method, IFhConfigMgr interface [Windows API],ValidateTarget method, IFhConfigMgr.ValidateTarget, IFhConfigMgr::ValidateTarget, ValidateTarget, ValidateTarget method [Windows API], ValidateTarget method [Windows API],FhConfigMgr class, ValidateTarget method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::ValidateTarget, winprog.ifhconfigmgr_validatetarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFhConfigMgr::ValidateTarget method
+# IFhConfigMgr::ValidateTarget
 
 
 ## -description

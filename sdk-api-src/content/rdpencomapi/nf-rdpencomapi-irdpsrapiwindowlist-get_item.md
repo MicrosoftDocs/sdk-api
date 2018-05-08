@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindowList.get_Item
-title: IRDPSRAPIWindowList::get_Item method
+title: IRDPSRAPIWindowList::get_Item
 author: windows-driver-content
 description: An item in the window collection.
 old-location: rdp\irdpsrapiwindowlist_item.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 5923c094-9378-4c7a-95df-3dd71aadfbd8
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIWindowList, IRDPSRAPIWindowList interface [RDP], Item property, IRDPSRAPIWindowList.Item, IRDPSRAPIWindowList::get_Item, Item property [RDP], Item property [RDP], IRDPSRAPIWindowList interface, Item property [RDP], RDPSRAPIWindowList object, RDPSRAPIWindowList object [RDP], Item property, get_Item,IRDPSRAPIWindowList.get_Item, rdp.irdpsrapiwindowlist_item, rdpencomapi/IRDPSRAPIWindowList::Item, rdpencomapi/IRDPSRAPIWindowList::get_Item
+ms.keywords: IRDPSRAPIWindowList interface [RDP],Item property, IRDPSRAPIWindowList.Item, IRDPSRAPIWindowList.get_Item, IRDPSRAPIWindowList::Item, IRDPSRAPIWindowList::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIWindowList interface, Item property [RDP],RDPSRAPIWindowList object, RDPSRAPIWindowList object [RDP],Item property, get_Item, rdp.irdpsrapiwindowlist_item, rdpencomapi/IRDPSRAPIWindowList::Item, rdpencomapi/IRDPSRAPIWindowList::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIWindowList::get_Item method
+# IRDPSRAPIWindowList::get_Item
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: security\ncryptimportkey_func.htm
 old-project: SecCNG
 ms.assetid: ede0e7e0-cb2c-44c0-b724-58db3480b781
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptImportKey, NCryptImportKey function [Security], ncrypt/NCryptImportKey, security.ncryptimportkey_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

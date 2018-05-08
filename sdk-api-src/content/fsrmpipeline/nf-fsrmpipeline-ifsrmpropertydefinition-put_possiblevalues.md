@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_PossibleValues
-title: IFsrmPropertyDefinition::put_PossibleValues method
+title: IFsrmPropertyDefinition::put_PossibleValues
 author: windows-driver-content
 description: The possible values to which the property can be set.
 old-location: fsrm\ifsrmpropertydefinition_possiblevalues.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: b48dd022-3c8d-41cb-aab5-18d24cad4521
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPropertyDefinition, IFsrmPropertyDefinition interface [File Server Resource Manager], PossibleValues property, IFsrmPropertyDefinition.PossibleValues, IFsrmPropertyDefinition::get_PossibleValues, IFsrmPropertyDefinition::put_PossibleValues, PossibleValues property [File Server Resource Manager], PossibleValues property [File Server Resource Manager], IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_possiblevalues, fsrm.ifsrmpropertydefinition_possiblevalues, fsrmpipeline/IFsrmPropertyDefinition::PossibleValues, fsrmpipeline/IFsrmPropertyDefinition::get_PossibleValues, fsrmpipeline/IFsrmPropertyDefinition::put_PossibleValues, put_PossibleValues,IFsrmPropertyDefinition.put_PossibleValues
+ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],PossibleValues property, IFsrmPropertyDefinition.PossibleValues, IFsrmPropertyDefinition.put_PossibleValues, IFsrmPropertyDefinition::PossibleValues, IFsrmPropertyDefinition::get_PossibleValues, IFsrmPropertyDefinition::put_PossibleValues, PossibleValues property [File Server Resource Manager], PossibleValues property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_possiblevalues, fsrm.ifsrmpropertydefinition_possiblevalues, fsrmpipeline/IFsrmPropertyDefinition::PossibleValues, fsrmpipeline/IFsrmPropertyDefinition::get_PossibleValues, fsrmpipeline/IFsrmPropertyDefinition::put_PossibleValues, put_PossibleValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyDefinition::put_PossibleValues method
+# IFsrmPropertyDefinition::put_PossibleValues
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.GetDataBlockSize
-title: IJolietDiscMaster::GetDataBlockSize method
+title: IJolietDiscMaster::GetDataBlockSize
 author: windows-driver-content
 description: Retrieves the size of a data block.
 old-location: imapi\ijolietdiscmaster_getdatablocksize.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 84bb0330-770d-44ab-8829-e81616f7c805
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetDataBlockSize method [IMAPI], GetDataBlockSize method [IMAPI], IJolietDiscMaster interface, GetDataBlockSize,IJolietDiscMaster.GetDataBlockSize, IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], GetDataBlockSize method, IJolietDiscMaster::GetDataBlockSize, _win32_ijolietdiscmaster_getdatablocksize, base.ijolietdiscmaster_getdatablocksize, imapi.ijolietdiscmaster_getdatablocksize, imapi/IJolietDiscMaster::GetDataBlockSize
+ms.keywords: GetDataBlockSize, GetDataBlockSize method [IMAPI], GetDataBlockSize method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],GetDataBlockSize method, IJolietDiscMaster.GetDataBlockSize, IJolietDiscMaster::GetDataBlockSize, _win32_ijolietdiscmaster_getdatablocksize, base.ijolietdiscmaster_getdatablocksize, imapi.ijolietdiscmaster_getdatablocksize, imapi/IJolietDiscMaster::GetDataBlockSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IJolietDiscMaster::GetDataBlockSize method
+# IJolietDiscMaster::GetDataBlockSize
 
 
 ## -description

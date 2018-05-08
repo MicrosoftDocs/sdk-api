@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMStoryFragmentsResource.SetContent
-title: IXpsOMStoryFragmentsResource::SetContent method
+title: IXpsOMStoryFragmentsResource::SetContent
 author: windows-driver-content
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomstoryfragmentsresource_setcontent.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 861d9688-932b-4830-b52b-acd505524608
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMStoryFragmentsResource, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging], SetContent method, IXpsOMStoryFragmentsResource::SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging], IXpsOMStoryFragmentsResource interface, SetContent,IXpsOMStoryFragmentsResource.SetContent, xps.ixpsomstoryfragmentsresource_setcontent, xpsobjectmodel/IXpsOMStoryFragmentsResource::SetContent
+ms.keywords: IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],SetContent method, IXpsOMStoryFragmentsResource.SetContent, IXpsOMStoryFragmentsResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMStoryFragmentsResource interface, xps.ixpsomstoryfragmentsresource_setcontent, xpsobjectmodel/IXpsOMStoryFragmentsResource::SetContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMStoryFragmentsResource::SetContent method
+# IXpsOMStoryFragmentsResource::SetContent
 
 
 ## -description

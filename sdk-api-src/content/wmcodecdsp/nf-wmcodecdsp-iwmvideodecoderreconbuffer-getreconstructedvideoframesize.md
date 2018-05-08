@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize
-title: IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize method
+title: IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize
 author: windows-driver-content
 description: Note  This method is obsolete and should not be used. Retrieves the size of the current reconstructed video frame.
 old-location: mf\iwmvideodecoderreconbuffergetreconstructedvideoframesize.htm
 old-project: medfound
 ms.assetid: 7faadeed-4c89-4b3e-8e08-51de66224aaa
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetReconstructedVideoFrameSize method [Media Foundation], GetReconstructedVideoFrameSize method [Media Foundation], IWMVideoDecoderReconBuffer interface, GetReconstructedVideoFrameSize,IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize, IWMVideoDecoderReconBuffer, IWMVideoDecoderReconBuffer interface [Media Foundation], GetReconstructedVideoFrameSize method, IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize, codecapi.iwmvideodecoderreconbuffergetreconstructedvideoframesize, mf.iwmvideodecoderreconbuffergetreconstructedvideoframesize, wmcodecdsp/ IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize
+ms.date: 5/3/2018
+ms.keywords: GetReconstructedVideoFrameSize, GetReconstructedVideoFrameSize method [Media Foundation], GetReconstructedVideoFrameSize method [Media Foundation],IWMVideoDecoderReconBuffer interface, IWMVideoDecoderReconBuffer interface [Media Foundation],GetReconstructedVideoFrameSize method, IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize, IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize, codecapi.iwmvideodecoderreconbuffergetreconstructedvideoframesize, mf.iwmvideodecoderreconbuffergetreconstructedvideoframesize, wmcodecdsp/ IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize method
+# IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize
 
 
 ## -description

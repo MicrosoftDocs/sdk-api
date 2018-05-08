@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.GetObjectTotalSize
-title: IWMDMOperation::GetObjectTotalSize method
+title: IWMDMOperation::GetObjectTotalSize
 author: windows-driver-content
 description: Windows Media Device Manager calls GetObjectTotalSize before a file is written to the device in order to retrieve the total size of the object, in bytes.
 old-location: wmdm\iwmdmoperation_getobjecttotalsize.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 50ab01f9-0f38-485e-b7d9-98bc95948427
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetObjectTotalSize method [windows Media Device Manager], GetObjectTotalSize method [windows Media Device Manager], IWMDMOperation interface, GetObjectTotalSize,IWMDMOperation.GetObjectTotalSize, IWMDMOperation, IWMDMOperation interface [windows Media Device Manager], GetObjectTotalSize method, IWMDMOperation::GetObjectTotalSize, IWMDMOperationGetObjectTotalSize, mswmdm/IWMDMOperation::GetObjectTotalSize, wmdm.iwmdmoperation_getobjecttotalsize
+ms.keywords: GetObjectTotalSize, GetObjectTotalSize method [windows Media Device Manager], GetObjectTotalSize method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectTotalSize method, IWMDMOperation.GetObjectTotalSize, IWMDMOperation::GetObjectTotalSize, IWMDMOperationGetObjectTotalSize, mswmdm/IWMDMOperation::GetObjectTotalSize, wmdm.iwmdmoperation_getobjecttotalsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMOperation::GetObjectTotalSize method
+# IWMDMOperation::GetObjectTotalSize
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: LDAP
 ms.assetid: 3c9993b2-8591-46ff-941b-ff16d42650c9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: VERIFYSERVERCERT, VERIFYSERVERCERT callback function [LDAP], _ldap_verifyservercert, ldap.verifyservercert, winldap/VERIFYSERVERCERT
+ms.keywords: VERIFYSERVERCERT, VERIFYSERVERCERT callback, VERIFYSERVERCERT callback function [LDAP], _ldap_verifyservercert, ldap.verifyservercert, winldap/VERIFYSERVERCERT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# VERIFYSERVERCERT callback
+# VERIFYSERVERCERT callback function
 
 
 ## -description

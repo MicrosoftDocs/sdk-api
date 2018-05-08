@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetLength
-title: IDvbServiceListDescriptor::GetLength method
+title: IDvbServiceListDescriptor::GetLength
 author: windows-driver-content
 description: Gets the descriptor_length field value from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicelistdescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 06c161ce-b830-4375-8ed6-19403857f433
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IDvbServiceListDescriptor interface, GetLength,IDvbServiceListDescriptor.GetLength, IDvbServiceListDescriptor, IDvbServiceListDescriptor interface [Microsoft TV Technologies], GetLength method, IDvbServiceListDescriptor::GetLength, dvbsiparser/IDvbServiceListDescriptor::GetLength, mstv.idvbservicelistdescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbServiceListDescriptor interface, IDvbServiceListDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbServiceListDescriptor.GetLength, IDvbServiceListDescriptor::GetLength, dvbsiparser/IDvbServiceListDescriptor::GetLength, mstv.idvbservicelistdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbServiceListDescriptor::GetLength method
+# IDvbServiceListDescriptor::GetLength
 
 
 ## -description

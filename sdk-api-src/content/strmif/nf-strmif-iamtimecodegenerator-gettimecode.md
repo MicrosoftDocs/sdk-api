@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.GetTimecode
-title: IAMTimecodeGenerator::GetTimecode method
+title: IAMTimecodeGenerator::GetTimecode
 author: windows-driver-content
 description: The GetTimecode method retrieves the most recent timecode and/or userbit value available in the stream.
 old-location: dshow\iamtimecodegenerator_gettimecode.htm
 old-project: DirectShow
 ms.assetid: 40f24a99-5a6b-4aff-b22c-e05811c910f4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetTimecode method [DirectShow], GetTimecode method [DirectShow], IAMTimecodeGenerator interface, GetTimecode,IAMTimecodeGenerator.GetTimecode, IAMTimecodeGenerator, IAMTimecodeGenerator interface [DirectShow], GetTimecode method, IAMTimecodeGenerator::GetTimecode, IAMTimecodeGeneratorGetTimecode, dshow.iamtimecodegenerator_gettimecode, strmif/IAMTimecodeGenerator::GetTimecode
+ms.date: 4/30/2018
+ms.keywords: GetTimecode, GetTimecode method [DirectShow], GetTimecode method [DirectShow],IAMTimecodeGenerator interface, IAMTimecodeGenerator interface [DirectShow],GetTimecode method, IAMTimecodeGenerator.GetTimecode, IAMTimecodeGenerator::GetTimecode, IAMTimecodeGeneratorGetTimecode, dshow.iamtimecodegenerator_gettimecode, strmif/IAMTimecodeGenerator::GetTimecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTimecodeGenerator::GetTimecode method
+# IAMTimecodeGenerator::GetTimecode
 
 
 ## -description

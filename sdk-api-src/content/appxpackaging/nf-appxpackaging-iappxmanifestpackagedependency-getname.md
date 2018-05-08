@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependency.GetName
-title: IAppxManifestPackageDependency::GetName method
+title: IAppxManifestPackageDependency::GetName
 author: windows-driver-content
 description: Gets the name of the package on which the current package has a dependency.
 old-location: appxpkg\iappxmanifestpackagedependency_getname.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 0B1888D7-04E6-4684-8131-8295EF2C598B
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetName method [App packaging and management], GetName method [App packaging and management], IAppxManifestPackageDependency interface, GetName,IAppxManifestPackageDependency.GetName, IAppxManifestPackageDependency, IAppxManifestPackageDependency interface [App packaging and management], GetName method, IAppxManifestPackageDependency::GetName, appxpackaging/IAppxManifestPackageDependency::GetName, appxpkg.iappxmanifestpackagedependency_getname
+ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxManifestPackageDependency interface, IAppxManifestPackageDependency interface [App packaging and management],GetName method, IAppxManifestPackageDependency.GetName, IAppxManifestPackageDependency::GetName, appxpackaging/IAppxManifestPackageDependency::GetName, appxpkg.iappxmanifestpackagedependency_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestPackageDependency::GetName method
+# IAppxManifestPackageDependency::GetName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceSet.Delete
-title: IOpcSignatureRelationshipReferenceSet::Delete method
+title: IOpcSignatureRelationshipReferenceSet::Delete
 author: windows-driver-content
 description: Deletes a specified IOpcSignatureRelationshipReference interface pointer from the set.
 old-location: opc\iopcsignaturerelationshipreferenceset_delete.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: b4f09a75-5c9d-4870-80e1-3c589435a6b7
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions], IOpcSignatureRelationshipReferenceSet interface, Delete,IOpcSignatureRelationshipReferenceSet.Delete, IOpcSignatureRelationshipReferenceSet, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions], Delete method, IOpcSignatureRelationshipReferenceSet::Delete, msopc/IOpcSignatureRelationshipReferenceSet::Delete, opc.iopcsignaturerelationshipreferenceset_delete
+ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],Delete method, IOpcSignatureRelationshipReferenceSet.Delete, IOpcSignatureRelationshipReferenceSet::Delete, msopc/IOpcSignatureRelationshipReferenceSet::Delete, opc.iopcsignaturerelationshipreferenceset_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureRelationshipReferenceSet::Delete method
+# IOpcSignatureRelationshipReferenceSet::Delete
 
 
 ## -description

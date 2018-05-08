@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.OnKeyDown
-title: ITfIntegratableCandidateListUIElement::OnKeyDown method
+title: ITfIntegratableCandidateListUIElement::OnKeyDown
 author: windows-driver-content
 description: Processes a key press.
 old-location: tsf\itfintegratablecandidatelistuielement_onkeydown.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: EF6A8FB1-9B48-44BE-A1B4-AA3F2EA0F6BA
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], OnKeyDown method, ITfIntegratableCandidateListUIElement::OnKeyDown, OnKeyDown method [Text Services Framework], OnKeyDown method [Text Services Framework], ITfIntegratableCandidateListUIElement interface, OnKeyDown,ITfIntegratableCandidateListUIElement.OnKeyDown, ctffunc/ITfIntegratableCandidateListUIElement::OnKeyDown, tsf.itfintegratablecandidatelistuielement_onkeydown
+ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],OnKeyDown method, ITfIntegratableCandidateListUIElement.OnKeyDown, ITfIntegratableCandidateListUIElement::OnKeyDown, OnKeyDown, OnKeyDown method [Text Services Framework], OnKeyDown method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::OnKeyDown, tsf.itfintegratablecandidatelistuielement_onkeydown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITfIntegratableCandidateListUIElement::OnKeyDown method
+# ITfIntegratableCandidateListUIElement::OnKeyDown
 
 
 ## -description

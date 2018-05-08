@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingActivity.Provider
-title: TraceLoggingActivity::Provider method
+title: TraceLoggingActivity::Provider
 author: windows-driver-content
 description: Returns the handle to the TraceLogging provider associated with this activity.
 old-location: tracelogging\traceloggingactivity_provider.htm
@@ -8,7 +8,7 @@ old-project: tracelogging
 ms.assetid: 14A2A516-47CB-4AE0-AD9C-046426AE60E7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Provider method, Provider method, TraceLoggingActivity interface, Provider,TraceLoggingActivity.Provider, TraceLoggingActivity, TraceLoggingActivity interface, Provider method, TraceLoggingActivity::Provider, tracelogging.traceloggingactivity_provider, traceloggingactivity/TraceLoggingActivity::Provider
+ms.keywords: Provider, Provider method, Provider method,TraceLoggingActivity interface, TraceLoggingActivity interface,Provider method, TraceLoggingActivity.Provider, TraceLoggingActivity::Provider, tracelogging.traceloggingactivity_provider, traceloggingactivity/TraceLoggingActivity::Provider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# TraceLoggingActivity::Provider method
+# TraceLoggingActivity::Provider
 
 
 ## -description

@@ -180,6 +180,34 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_
 IP protocol specified as an IPPROTO value. See the <a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a> reference topic for more information on possible protocol values.
 
 
+### -field localAddrV4
+
+Specifies an IPv4 local address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field localAddrV6
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a> that contains an IPv6 local address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
+### -field remoteAddrV4
+
+Specifies an IPv4 remote address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field remoteAddrV6
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a> that contains an IPv6 remote address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
 ### -field localPort
 
 Specifies a local port.
@@ -203,34 +231,6 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYT
 ### -field userId
 
 Contains a user ID that corresponds to the traffic.
-
-
-#### - localAddrV4
-
-Specifies an IPv4 local address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - localAddrV6
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a> that contains an IPv6 local address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
-
-
-#### - remoteAddrV4
-
-Specifies an IPv4 remote address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - remoteAddrV6
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a> that contains an IPv6 remote address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 
 ## -see-also

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamList.AddStream
-title: IWMStreamList::AddStream method
+title: IWMStreamList::AddStream
 author: windows-driver-content
 description: The AddStream method adds a stream to the list.
 old-location: wmformat\iwmstreamlist_addstream.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 20aeed9d-029b-4b60-9ff3-14555bd53eb9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddStream method [windows Media Format], AddStream method [windows Media Format], IWMStreamList interface, AddStream,IWMStreamList.AddStream, IWMStreamList, IWMStreamList interface [windows Media Format], AddStream method, IWMStreamList::AddStream, IWMStreamListAddStream, wmformat.iwmstreamlist_addstream, wmsdkidl/IWMStreamList::AddStream
+ms.keywords: AddStream, AddStream method [windows Media Format], AddStream method [windows Media Format],IWMStreamList interface, IWMStreamList interface [windows Media Format],AddStream method, IWMStreamList.AddStream, IWMStreamList::AddStream, IWMStreamListAddStream, wmformat.iwmstreamlist_addstream, wmsdkidl/IWMStreamList::AddStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamList::AddStream method
+# IWMStreamList::AddStream
 
 
 ## -description

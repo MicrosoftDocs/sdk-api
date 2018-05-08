@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ICoreFragment.NextColumn
-title: ICoreFragment::NextColumn method
+title: ICoreFragment::NextColumn
 author: windows-driver-content
 description: Returns the next change unit ID in the set of change unit IDs that this knowledge fragment applies to.
 old-location: winsync\icorefragment_nextcolumn.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: d50527cb-00ba-4e7b-9fb3-267eaa6cd6e6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ICoreFragment, ICoreFragment interface [Windows Sync], NextColumn method, ICoreFragment::NextColumn, NextColumn method [Windows Sync], NextColumn method [Windows Sync], ICoreFragment interface, NextColumn,ICoreFragment.NextColumn, winsync.icorefragment_nextcolumn, winsync/ICoreFragment::NextColumn
+ms.keywords: ICoreFragment interface [Windows Sync],NextColumn method, ICoreFragment.NextColumn, ICoreFragment::NextColumn, NextColumn, NextColumn method [Windows Sync], NextColumn method [Windows Sync],ICoreFragment interface, winsync.icorefragment_nextcolumn, winsync/ICoreFragment::NextColumn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ICoreFragment::NextColumn method
+# ICoreFragment::NextColumn
 
 
 ## -description

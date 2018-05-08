@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PEER_GROUP_EVENT_DATA, *PPEER_GROUP_EVENT_DATA, PEER_GROUP_EVENT_DATA, *PPEER_GROUP_EVENT_DATA
+req.typenames: PEER_GROUP_EVENT_DATA, *PPEER_GROUP_EVENT_DATA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -64,18 +64,89 @@ The <b>PEER_GROUP_EVENT_DATA</b> structure contains information about a specific
 <a href="https://msdn.microsoft.com/9c28eb24-f158-4313-9a7c-0f271013d03a">PEER_GROUP_EVENT_TYPE</a> enumeration value that specifies  the type of peer group event that occurred. The type of event dictates the subsequent structure chosen from the union; for example, if this value is set to PEER_GROUP_EVENT_INCOMING_DATA, the populated union member is  <b>incomingData</b>.
 
 
-#### - connectionChangeData
+### -field dwStatus
+
+Specifies the <a href="https://msdn.microsoft.com/ed3fa9a6-5180-419f-b5d1-02889bbcdd0d">PEER_GROUP_STATUS</a> flag values that indicate the new status of the peer group. This field is populated  if a PEER_GROUP_EVENT_STATUS_CHANGED event is raised.
+
+
+### -field dwStatus.case
+
+ 
+
+
+### -field dwStatus.case.PEER_GROUP_EVENT_STATUS_CHANGED
+
+ 
+
+
+### -field recordChangeData
+
+Specifies the <a href="https://msdn.microsoft.com/01404fff-3488-43aa-bc59-3e08ff925ea5">PEER_EVENT_RECORD_CHANGE_DATA</a> structure that contains data that describes a record change. This structure is populated if a PEER_GROUP_EVENT_RECORD_CHANGED event is raised.
+
+
+### -field recordChangeData.case
+
+ 
+
+
+### -field recordChangeData.case.PEER_GROUP_EVENT_RECORD_CHANGED
+
+ 
+
+
+### -field connectionChangeData
 
 
 <a href="https://msdn.microsoft.com/0d73432c-c1e5-4fa9-a812-377b22a47440">PEER_EVENT_CONNECTION_CHANGE_DATA</a> structure that contains information when a direct or neighbor connection has changed. This structure is populated if a  PEER_GROUP_EVENT_DIRECT_CONNECTION or PEER_GROUP_EVENT_NEIGHBOR_CONNECTION event is raised.
 
 
-#### - dwStatus
+### -field connectionChangeData.case
 
-Specifies the <a href="https://msdn.microsoft.com/ed3fa9a6-5180-419f-b5d1-02889bbcdd0d">PEER_GROUP_STATUS</a> flag values that indicate the new status of the peer group. This field is populated  if a PEER_GROUP_EVENT_STATUS_CHANGED event is raised.
+ 
 
 
-#### - hrConnectionFailedReason
+### -field connectionChangeData.case.PEER_GROUP_EVENT_NEIGHBOR_CONNECTION
+
+ 
+
+
+### -field connectionChangeData.case.PEER_GROUP_EVENT_DIRECT_CONNECTION
+
+ 
+
+
+### -field incomingData
+
+Specifies the <a href="https://msdn.microsoft.com/93104ca5-b3de-492c-965e-3acd12d05ea6">PEER_EVENT_INCOMING_DATA</a> structure that contains information on incoming data from a peer. This structure is populated if a PEER_GROUP_EVENT_INCOMING_DATA  event is raised.
+
+
+### -field incomingData.case
+
+ 
+
+
+### -field incomingData.case.PEER_GROUP_EVENT_INCOMING_DATA
+
+ 
+
+
+### -field memberChangeData
+
+
+<a href="https://msdn.microsoft.com/5ba37006-1ded-4996-a190-d789e5cc0755">PEER_EVENT_MEMBER_CHANGE_DATA</a> structure that contains data when the status of a peer group member changes. This structure is populated if a PEER_GROUP_EVENT_MEMBER_CHANGED event is raised.
+
+
+### -field memberChangeData.case
+
+ 
+
+
+### -field memberChangeData.case.PEER_GROUP_EVENT_MEMBER_CHANGED
+
+ 
+
+
+### -field hrConnectionFailedReason
 
 <b>HRESULT</b> that indicates the type of connection failure that occurred. This value is populated if a PEER_GROUP_EVENT_CONNECTION_FAILED event is raised. This value is one of the following:
 
@@ -128,20 +199,26 @@ An attempt has been made to perform an unauthorized operation. For example, atte
  
 
 
-#### - incomingData
+### -field hrConnectionFailedReason.case
 
-Specifies the <a href="https://msdn.microsoft.com/93104ca5-b3de-492c-965e-3acd12d05ea6">PEER_EVENT_INCOMING_DATA</a> structure that contains information on incoming data from a peer. This structure is populated if a PEER_GROUP_EVENT_INCOMING_DATA  event is raised.
-
-
-#### - memberChangeData
+ 
 
 
-<a href="https://msdn.microsoft.com/5ba37006-1ded-4996-a190-d789e5cc0755">PEER_EVENT_MEMBER_CHANGE_DATA</a> structure that contains data when the status of a peer group member changes. This structure is populated if a PEER_GROUP_EVENT_MEMBER_CHANGED event is raised.
+### -field hrConnectionFailedReason.case.PEER_GROUP_EVENT_CONNECTION_FAILED
+
+ 
 
 
-#### - recordChangeData
+### -field switch_is
 
-Specifies the <a href="https://msdn.microsoft.com/01404fff-3488-43aa-bc59-3e08ff925ea5">PEER_EVENT_RECORD_CHANGE_DATA</a> structure that contains data that describes a record change. This structure is populated if a PEER_GROUP_EVENT_RECORD_CHANGED event is raised.
+ 
+
+
+### -field switch_is.eventType
+
+ 
+
+
 
 
 ## -see-also

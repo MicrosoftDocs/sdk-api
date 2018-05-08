@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: cd1d652a-f0ce-401c-9a5e-074e6bb4d9ed
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemRefresher, IWbemRefresher interface [Windows Management Instrumentation], IWbemRefresher interface [Windows Management Instrumentation], described, WbemRefresher, _hmm_iwbemrefresher, wbemcli/IWbemRefresher, wmi.iwbemrefresher
+ms.keywords: IWbemRefresher, IWbemRefresher interface [Windows Management Instrumentation], IWbemRefresher interface [Windows Management Instrumentation],described, WbemRefresher, _hmm_iwbemrefresher, wbemcli/IWbemRefresher, wmi.iwbemrefresher
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

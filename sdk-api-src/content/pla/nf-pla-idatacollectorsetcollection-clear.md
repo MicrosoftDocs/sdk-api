@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.Clear
-title: IDataCollectorSetCollection::Clear method
+title: IDataCollectorSetCollection::Clear
 author: windows-driver-content
 description: Removes all data collector sets from the collection.
 old-location: pla\idatacollectorsetcollection_clear.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: a7a4754c-8c64-4add-89b1-c5bdbf4cb807
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Clear method [PLA], Clear method [PLA], IDataCollectorSetCollection interface, Clear,IDataCollectorSetCollection.Clear, IDataCollectorSetCollection, IDataCollectorSetCollection interface [PLA], Clear method, IDataCollectorSetCollection::Clear, base.idatacollectorsetcollection_clear, pla.idatacollectorsetcollection_clear, pla/IDataCollectorSetCollection::Clear
+ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Clear method, IDataCollectorSetCollection.Clear, IDataCollectorSetCollection::Clear, base.idatacollectorsetcollection_clear, pla.idatacollectorsetcollection_clear, pla/IDataCollectorSetCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSetCollection::Clear method
+# IDataCollectorSetCollection::Clear
 
 
 ## -description

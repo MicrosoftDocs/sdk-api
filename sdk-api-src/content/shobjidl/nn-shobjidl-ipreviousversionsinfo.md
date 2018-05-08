@@ -7,8 +7,8 @@ old-location: shell\IPreviousVersionsInfo.htm
 old-project: shell
 ms.assetid: 5d55107e-a07a-4d70-80f6-7ec99578bb48
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IPreviousVersionsInfo, IPreviousVersionsInfo interface [Windows Shell], IPreviousVersionsInfo interface [Windows Shell], described, _shell_IPreviousVersionsInfo, shell.IPreviousVersionsInfo, shobjidl/IPreviousVersionsInfo
+ms.date: 5/3/2018
+ms.keywords: IPreviousVersionsInfo, IPreviousVersionsInfo interface [Windows Shell], IPreviousVersionsInfo interface [Windows Shell],described, _shell_IPreviousVersionsInfo, shell.IPreviousVersionsInfo, shobjidl/IPreviousVersionsInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

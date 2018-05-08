@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.GetWinEventsForAutomationEvent
-title: IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent method
+title: IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent
 author: windows-driver-content
 description: Retrieves the list of WinEvents that are mapped to a specific Microsoft UI Automation event. If an element represented by this proxy raises one the listed WinEvents, the proxy handles it.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: f8daa90f-9fad-48c7-8f22-e8c673fca330
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetWinEventsForAutomationEvent method [Windows Accessibility], GetWinEventsForAutomationEvent method [Windows Accessibility], IUIAutomationProxyFactoryEntry interface, GetWinEventsForAutomationEvent,IUIAutomationProxyFactoryEntry.GetWinEventsForAutomationEvent, IUIAutomationProxyFactoryEntry, IUIAutomationProxyFactoryEntry interface [Windows Accessibility], GetWinEventsForAutomationEvent method, IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent, uiauto.uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent, uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent, uiautomationclient/IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent, winauto.uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent
+ms.keywords: GetWinEventsForAutomationEvent, GetWinEventsForAutomationEvent method [Windows Accessibility], GetWinEventsForAutomationEvent method [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, IUIAutomationProxyFactoryEntry interface [Windows Accessibility],GetWinEventsForAutomationEvent method, IUIAutomationProxyFactoryEntry.GetWinEventsForAutomationEvent, IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent, uiauto.uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent, uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent, uiautomationclient/IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent, winauto.uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent method
+# IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent
 
 
 ## -description

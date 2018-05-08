@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetSupportedProfiles
-title: IDiscRecorder2Ex::GetSupportedProfiles method
+title: IDiscRecorder2Ex::GetSupportedProfiles
 author: windows-driver-content
 description: Retrieves the supported profiles or the current profiles of the device.
 old-location: imapi\idiscrecorder2ex_getsupportedprofiles.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 1295d536-8531-4470-a8b4-1e589736e0b1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSupportedProfiles method [IMAPI], GetSupportedProfiles method [IMAPI], IDiscRecorder2Ex interface, GetSupportedProfiles,IDiscRecorder2Ex.GetSupportedProfiles, IDiscRecorder2Ex, IDiscRecorder2Ex interface [IMAPI], GetSupportedProfiles method, IDiscRecorder2Ex::GetSupportedProfiles, imapi.idiscrecorder2ex_getsupportedprofiles, imapi2/IDiscRecorder2Ex::GetSupportedProfiles
+ms.keywords: GetSupportedProfiles, GetSupportedProfiles method [IMAPI], GetSupportedProfiles method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedProfiles method, IDiscRecorder2Ex.GetSupportedProfiles, IDiscRecorder2Ex::GetSupportedProfiles, imapi.idiscrecorder2ex_getsupportedprofiles, imapi2/IDiscRecorder2Ex::GetSupportedProfiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2Ex::GetSupportedProfiles method
+# IDiscRecorder2Ex::GetSupportedProfiles
 
 
 ## -description

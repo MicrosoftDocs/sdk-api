@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponentEx.GetAuthoritativeRestore
-title: IVssComponentEx::GetAuthoritativeRestore method
+title: IVssComponentEx::GetAuthoritativeRestore
 author: windows-driver-content
 description: Determines whether a requester has marked the restore of a component as authoritative for a replicated data store.
 old-location: base\ivsscomponentex_getauthoritativerestore.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: ca85cf27-b16c-4356-abb8-eb6474db637f
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetAuthoritativeRestore method, GetAuthoritativeRestore method, IVssComponentEx interface, GetAuthoritativeRestore,IVssComponentEx.GetAuthoritativeRestore, IVssComponentEx, IVssComponentEx interface, GetAuthoritativeRestore method, IVssComponentEx::GetAuthoritativeRestore, base.ivsscomponentex_getauthoritativerestore, vswriter/IVssComponentEx::GetAuthoritativeRestore
+ms.keywords: GetAuthoritativeRestore, GetAuthoritativeRestore method, GetAuthoritativeRestore method,IVssComponentEx interface, IVssComponentEx interface,GetAuthoritativeRestore method, IVssComponentEx.GetAuthoritativeRestore, IVssComponentEx::GetAuthoritativeRestore, base.ivsscomponentex_getauthoritativerestore, vswriter/IVssComponentEx::GetAuthoritativeRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponentEx::GetAuthoritativeRestore method
+# IVssComponentEx::GetAuthoritativeRestore
 
 
 ## -description

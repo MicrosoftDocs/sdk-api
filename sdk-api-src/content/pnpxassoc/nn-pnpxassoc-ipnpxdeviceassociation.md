@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 52669dec-2fd7-4f3e-b322-e93d9da5984d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPNPXDeviceAssociation, IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface, described, ncd.ipnpxdeviceassociation, pnpxassoc/IPNPXDeviceAssociation
+ms.keywords: IPNPXDeviceAssociation, IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,described, ncd.ipnpxdeviceassociation, pnpxassoc/IPNPXDeviceAssociation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

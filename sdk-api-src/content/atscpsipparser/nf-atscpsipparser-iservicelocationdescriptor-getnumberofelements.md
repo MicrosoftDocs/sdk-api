@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetNumberOfElements
-title: IServiceLocationDescriptor::GetNumberOfElements method
+title: IServiceLocationDescriptor::GetNumberOfElements
 author: windows-driver-content
 description: Gets the number of elementary streams for an Advanced Television Systems Committee (ATSC) service location descriptor.
 old-location: mstv\iservicelocationdescriptor_getnumberofelements.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 134e4051-6a73-4420-b12d-3171738bd8ad
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetNumberOfElements method [Microsoft TV Technologies], GetNumberOfElements method [Microsoft TV Technologies], IServiceLocationDescriptor interface, GetNumberOfElements,IServiceLocationDescriptor.GetNumberOfElements, IServiceLocationDescriptor, IServiceLocationDescriptor interface [Microsoft TV Technologies], GetNumberOfElements method, IServiceLocationDescriptor::GetNumberOfElements, atscpsipparser/IServiceLocationDescriptor::GetNumberOfElements, mstv.iservicelocationdescriptor_getnumberofelements
+ms.keywords: GetNumberOfElements, GetNumberOfElements method [Microsoft TV Technologies], GetNumberOfElements method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetNumberOfElements method, IServiceLocationDescriptor.GetNumberOfElements, IServiceLocationDescriptor::GetNumberOfElements, atscpsipparser/IServiceLocationDescriptor::GetNumberOfElements, mstv.iservicelocationdescriptor_getnumberofelements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServiceLocationDescriptor::GetNumberOfElements method
+# IServiceLocationDescriptor::GetNumberOfElements
 
 
 ## -description

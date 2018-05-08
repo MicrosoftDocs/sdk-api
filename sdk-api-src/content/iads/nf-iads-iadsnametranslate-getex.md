@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsNameTranslate.GetEx
-title: IADsNameTranslate::GetEx method
+title: IADsNameTranslate::GetEx
 author: windows-driver-content
 description: Gets the object names in the specified format.
 old-location: adsi\iadsnametranslate_getex.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 01c4fc79-ed5b-4a24-9b97-25b4095a9c8f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetEx method [ADSI], GetEx method [ADSI], IADsNameTranslate interface, GetEx,IADsNameTranslate.GetEx, IADsNameTranslate, IADsNameTranslate interface [ADSI], GetEx method, IADsNameTranslate::GetEx, _ds_iadsnametranslate_getex, adsi.iadsnametranslate__getex, adsi.iadsnametranslate_getex, iads/IADsNameTranslate::GetEx
+ms.keywords: GetEx, GetEx method [ADSI], GetEx method [ADSI],IADsNameTranslate interface, IADsNameTranslate interface [ADSI],GetEx method, IADsNameTranslate.GetEx, IADsNameTranslate::GetEx, _ds_iadsnametranslate_getex, adsi.iadsnametranslate__getex, adsi.iadsnametranslate_getex, iads/IADsNameTranslate::GetEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsNameTranslate::GetEx method
+# IADsNameTranslate::GetEx
 
 
 ## -description

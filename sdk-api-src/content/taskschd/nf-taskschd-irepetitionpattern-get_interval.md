@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRepetitionPattern.get_Interval
-title: IRepetitionPattern::get_Interval method
+title: IRepetitionPattern::get_Interval
 author: windows-driver-content
 description: Gets or sets the amount of time between each restart of the task.
 old-location: taskschd\irepetitionpattern_interval.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 3ba8e4b8-c0f9-4b73-8351-b1c1b32a1e39
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRepetitionPattern, IRepetitionPattern interface [Task Scheduler], Interval property, IRepetitionPattern.Interval, IRepetitionPattern::get_Interval, IRepetitionPattern::put_Interval, Interval property [Task Scheduler], Interval property [Task Scheduler], IRepetitionPattern interface, get_Interval,IRepetitionPattern.get_Interval, taskschd.irepetitionpattern_interval, taskschd/IRepetitionPattern::Interval, taskschd/IRepetitionPattern::get_Interval, taskschd/IRepetitionPattern::put_Interval
+ms.keywords: IRepetitionPattern interface [Task Scheduler],Interval property, IRepetitionPattern.Interval, IRepetitionPattern.get_Interval, IRepetitionPattern::Interval, IRepetitionPattern::get_Interval, IRepetitionPattern::put_Interval, Interval property [Task Scheduler], Interval property [Task Scheduler],IRepetitionPattern interface, get_Interval, taskschd.irepetitionpattern_interval, taskschd/IRepetitionPattern::Interval, taskschd/IRepetitionPattern::get_Interval, taskschd/IRepetitionPattern::put_Interval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRepetitionPattern::get_Interval method
+# IRepetitionPattern::get_Interval
 
 
 ## -description

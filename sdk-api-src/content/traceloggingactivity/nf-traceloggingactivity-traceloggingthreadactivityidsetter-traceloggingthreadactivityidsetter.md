@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter
-title: TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter method
+title: TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter
 author: windows-driver-content
 description: Creates a new TraceLoggingThreadActivityIdSetter object.
 old-location: tracelogging\traceloggingthreadactivityidsetter_traceloggingthreadactivityidsetter.htm
@@ -8,7 +8,7 @@ old-project: tracelogging
 ms.assetid: F950256A-27A8-4C8F-B4A3-974F0E095103
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter interface, TraceLoggingThreadActivityIdSetter method, TraceLoggingThreadActivityIdSetter method, TraceLoggingThreadActivityIdSetter method, TraceLoggingThreadActivityIdSetter interface, TraceLoggingThreadActivityIdSetter,TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter, tracelogging.traceloggingthreadactivityidsetter_traceloggingthreadactivityidsetter, traceloggingactivity/TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter
+ms.keywords: TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter interface,TraceLoggingThreadActivityIdSetter method, TraceLoggingThreadActivityIdSetter method, TraceLoggingThreadActivityIdSetter method,TraceLoggingThreadActivityIdSetter interface, TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter, tracelogging.traceloggingthreadactivityidsetter_traceloggingthreadactivityidsetter, traceloggingactivity/TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter method
+# TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter
 
 
 ## -description

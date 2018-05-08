@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifySessionStateChange
-title: IWRdsProtocolManager::NotifySessionStateChange method
+title: IWRdsProtocolManager::NotifySessionStateChange
 author: windows-driver-content
 description: Notifies the protocol provider of changes in the state of a session.
 old-location: termserv\iwrdsprotocolmanager_notifysessionstatechange.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 72438718-1a66-473b-a563-67cfc8095318
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolManager, IWRdsProtocolManager interface [Remote Desktop Services], NotifySessionStateChange method, IWRdsProtocolManager::NotifySessionStateChange, NotifySessionStateChange method [Remote Desktop Services], NotifySessionStateChange method [Remote Desktop Services], IWRdsProtocolManager interface, NotifySessionStateChange,IWRdsProtocolManager.NotifySessionStateChange, WTS_CONSOLE_CONNECT, WTS_CONSOLE_DISCONNECT, WTS_REMOTE_CONNECT, WTS_SESSION_LOCK, WTS_SESSION_LOGOFF, WTS_SESSION_REMOTE_CONTROL, WTS_SESSION_UNLOCK, termserv.iwrdsprotocolmanager_notifysessionstatechange, wtsprotocol/IWRdsProtocolManager::NotifySessionStateChange
+ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySessionStateChange method, IWRdsProtocolManager.NotifySessionStateChange, IWRdsProtocolManager::NotifySessionStateChange, NotifySessionStateChange, NotifySessionStateChange method [Remote Desktop Services], NotifySessionStateChange method [Remote Desktop Services],IWRdsProtocolManager interface, WTS_CONSOLE_CONNECT, WTS_CONSOLE_DISCONNECT, WTS_REMOTE_CONNECT, WTS_SESSION_LOCK, WTS_SESSION_LOGOFF, WTS_SESSION_REMOTE_CONTROL, WTS_SESSION_UNLOCK, termserv.iwrdsprotocolmanager_notifysessionstatechange, wtsprotocol/IWRdsProtocolManager::NotifySessionStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolManager::NotifySessionStateChange method
+# IWRdsProtocolManager::NotifySessionStateChange
 
 
 ## -description

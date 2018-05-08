@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetSubject
-title: IXpsOMCoreProperties::SetSubject method
+title: IXpsOMCoreProperties::SetSubject
 author: windows-driver-content
 description: Sets the subject property.
 old-location: xps\ixpsomcoreproperties_setsubject.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: aa194dd0-3293-4c09-84ae-516478862f4c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], SetSubject method, IXpsOMCoreProperties::SetSubject, SetSubject method [XPS Documents and Packaging], SetSubject method [XPS Documents and Packaging], IXpsOMCoreProperties interface, SetSubject,IXpsOMCoreProperties.SetSubject, xps.ixpsomcoreproperties_setsubject, xpsobjectmodel/IXpsOMCoreProperties::SetSubject
+ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetSubject method, IXpsOMCoreProperties.SetSubject, IXpsOMCoreProperties::SetSubject, SetSubject, SetSubject method [XPS Documents and Packaging], SetSubject method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setsubject, xpsobjectmodel/IXpsOMCoreProperties::SetSubject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::SetSubject method
+# IXpsOMCoreProperties::SetSubject
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupFilesEnumerator.GetCurrent
-title: IAppxContentGroupFilesEnumerator::GetCurrent method
+title: IAppxContentGroupFilesEnumerator::GetCurrent
 author: windows-driver-content
 description: Gets the file from the content group at the current position of the enumerator.
 old-location: appxpkg\iappxcontentgroupfilesenumerator__getcurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: B8BD3A9A-5330-4328-9FFD-69BF07CA93C7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCurrent method [App packaging and management], GetCurrent method [App packaging and management], IAppxContentGroupFilesEnumerator interface, GetCurrent,IAppxContentGroupFilesEnumerator.GetCurrent, IAppxContentGroupFilesEnumerator, IAppxContentGroupFilesEnumerator interface [App packaging and management], GetCurrent method, IAppxContentGroupFilesEnumerator::GetCurrent, appxpackaging/IAppxContentGroupFilesEnumerator::GetCurrent, appxpkg.iappxcontentgroupfilesenumerator__getcurrent
+ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxContentGroupFilesEnumerator interface, IAppxContentGroupFilesEnumerator interface [App packaging and management],GetCurrent method, IAppxContentGroupFilesEnumerator.GetCurrent, IAppxContentGroupFilesEnumerator::GetCurrent, appxpackaging/IAppxContentGroupFilesEnumerator::GetCurrent, appxpkg.iappxcontentgroupfilesenumerator__getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxContentGroupFilesEnumerator::GetCurrent method
+# IAppxContentGroupFilesEnumerator::GetCurrent
 
 
 ## -description

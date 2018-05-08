@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetPreferredProviders
-title: IMbnInterface::GetPreferredProviders method
+title: IMbnInterface::GetPreferredProviders
 author: windows-driver-content
 description: Gets the list of preferred providers.
 old-location: mbn\imbninterface_getpreferredproviders.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: cbd37f0a-4245-415d-bd74-501aa4c7ade7
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks], IMbnInterface interface, GetPreferredProviders,IMbnInterface.GetPreferredProviders, IMbnInterface, IMbnInterface interface [Microsoft Broadband Networks], GetPreferredProviders method, IMbnInterface::GetPreferredProviders, mbn.imbninterface_getpreferredproviders, mbnapi/IMbnInterface::GetPreferredProviders
+ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnInterface.GetPreferredProviders, IMbnInterface::GetPreferredProviders, mbn.imbninterface_getpreferredproviders, mbnapi/IMbnInterface::GetPreferredProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnInterface::GetPreferredProviders method
+# IMbnInterface::GetPreferredProviders
 
 
 ## -description

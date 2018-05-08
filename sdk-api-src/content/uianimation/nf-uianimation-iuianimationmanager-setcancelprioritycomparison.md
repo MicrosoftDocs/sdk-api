@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.SetCancelPriorityComparison
-title: IUIAnimationManager::SetCancelPriorityComparison method
+title: IUIAnimationManager::SetCancelPriorityComparison
 author: windows-driver-content
 description: Sets the priority comparison handler to be called to determine whether a scheduled storyboard can be canceled.
 old-location: uianimation\iuianimationmanager_setcancelprioritycomparison.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: cea146d1-4a9c-4089-8015-ac16602f5afd
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationManager, IUIAnimationManager interface [Windows Animation], SetCancelPriorityComparison method, IUIAnimationManager::SetCancelPriorityComparison, SetCancelPriorityComparison method [Windows Animation], SetCancelPriorityComparison method [Windows Animation], IUIAnimationManager interface, SetCancelPriorityComparison,IUIAnimationManager.SetCancelPriorityComparison, uianimation.iuianimationmanager_setcancelprioritycomparison, uianimation/IUIAnimationManager::SetCancelPriorityComparison
+ms.keywords: IUIAnimationManager interface [Windows Animation],SetCancelPriorityComparison method, IUIAnimationManager.SetCancelPriorityComparison, IUIAnimationManager::SetCancelPriorityComparison, SetCancelPriorityComparison, SetCancelPriorityComparison method [Windows Animation], SetCancelPriorityComparison method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setcancelprioritycomparison, uianimation/IUIAnimationManager::SetCancelPriorityComparison
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager::SetCancelPriorityComparison method
+# IUIAnimationManager::SetCancelPriorityComparison
 
 
 ## -description

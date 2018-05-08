@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: eec0a7ef-ad7c-4fb6-a101-573c2d0943c2
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssCreateWriterMetadataEx, IVssCreateWriterMetadataEx interface, IVssCreateWriterMetadataEx interface, described, base.ivsscreatewritermetadataex, vswriter/IVssCreateWriterMetadataEx
+ms.keywords: IVssCreateWriterMetadataEx, IVssCreateWriterMetadataEx interface, IVssCreateWriterMetadataEx interface,described, base.ivsscreatewritermetadataex, vswriter/IVssCreateWriterMetadataEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

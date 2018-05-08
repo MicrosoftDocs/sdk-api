@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule.put_RemotePorts
-title: INetFwRule::put_RemotePorts method
+title: INetFwRule::put_RemotePorts
 author: windows-driver-content
 description: Specifies the list of remote ports for this rule.
 old-location: ics\inetfwrule_remoteports.htm
 old-project: ICS
 ms.assetid: e6791258-4669-42d9-9551-5c861bfb2b52
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], RemotePorts property, INetFwRule.RemotePorts, INetFwRule::get_RemotePorts, INetFwRule::put_RemotePorts, RemotePorts property [ICS/ICF], RemotePorts property [ICS/ICF], INetFwRule interface, ics.inetfwrule_remoteports, netfw/INetFwRule::RemotePorts, netfw/INetFwRule::get_RemotePorts, netfw/INetFwRule::put_RemotePorts, put_RemotePorts,INetFwRule.put_RemotePorts
+ms.date: 5/1/2018
+ms.keywords: INetFwRule interface [ICS/ICF],RemotePorts property, INetFwRule.RemotePorts, INetFwRule.put_RemotePorts, INetFwRule::RemotePorts, INetFwRule::get_RemotePorts, INetFwRule::put_RemotePorts, RemotePorts property [ICS/ICF], RemotePorts property [ICS/ICF],INetFwRule interface, ics.inetfwrule_remoteports, netfw/INetFwRule::RemotePorts, netfw/INetFwRule::get_RemotePorts, netfw/INetFwRule::put_RemotePorts, put_RemotePorts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule::put_RemotePorts method
+# INetFwRule::put_RemotePorts
 
 
 ## -description

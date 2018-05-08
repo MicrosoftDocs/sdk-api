@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallBase.MSPCallAddRef
-title: CMSPCallBase::MSPCallAddRef method
+title: CMSPCallBase::MSPCallAddRef
 author: windows-driver-content
 description: The MSPCallAddRef method is the private AddRef method for the call object.
 old-location: tapi3\cmspcallbase_mspcalladdref.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: fe70ceac-660e-4fdd-960f-b61503bc8939
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPCallBase, CMSPCallBase interface [TAPI 2.2], MSPCallAddRef method, CMSPCallBase::MSPCallAddRef, MSPCallAddRef method [TAPI 2.2], MSPCallAddRef method [TAPI 2.2], CMSPCallBase interface, MSPCallAddRef,CMSPCallBase.MSPCallAddRef, _tapi3_cmspcallbase_mspcalladdref, mspcall/CMSPCallBase::MSPCallAddRef, tapi3.cmspcallbase_mspcalladdref
+ms.keywords: CMSPCallBase interface [TAPI 2.2],MSPCallAddRef method, CMSPCallBase.MSPCallAddRef, CMSPCallBase::MSPCallAddRef, MSPCallAddRef, MSPCallAddRef method [TAPI 2.2], MSPCallAddRef method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_mspcalladdref, mspcall/CMSPCallBase::MSPCallAddRef, tapi3.cmspcallbase_mspcalladdref
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPCallBase::MSPCallAddRef method
+# CMSPCallBase::MSPCallAddRef
 
 
 ## -description

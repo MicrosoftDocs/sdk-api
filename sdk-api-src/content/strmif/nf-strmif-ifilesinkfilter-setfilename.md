@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFileSinkFilter.SetFileName
-title: IFileSinkFilter::SetFileName method
+title: IFileSinkFilter::SetFileName
 author: windows-driver-content
 description: The SetFileName method sets the name of the file into which media samples will be written.
 old-location: dshow\ifilesinkfilter_setfilename.htm
 old-project: DirectShow
 ms.assetid: d202be46-0a7a-4097-adf6-6ec9c6274449
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFileSinkFilter, IFileSinkFilter interface [DirectShow], SetFileName method, IFileSinkFilter2 interface [DirectShow], SetFileName method, IFileSinkFilter2::SetFileName, IFileSinkFilter::SetFileName, IFileSinkFilterSetFileName, SetFileName method [DirectShow], SetFileName method [DirectShow], IFileSinkFilter interface, SetFileName method [DirectShow], IFileSinkFilter2 interface, SetFileName,IFileSinkFilter.SetFileName, dshow.ifilesinkfilter_setfilename, strmif/IFileSinkFilter2::SetFileName, strmif/IFileSinkFilter::SetFileName
+ms.date: 4/30/2018
+ms.keywords: IFileSinkFilter interface [DirectShow],SetFileName method, IFileSinkFilter.SetFileName, IFileSinkFilter2 interface [DirectShow],SetFileName method, IFileSinkFilter2::SetFileName, IFileSinkFilter::SetFileName, IFileSinkFilterSetFileName, SetFileName, SetFileName method [DirectShow], SetFileName method [DirectShow],IFileSinkFilter interface, SetFileName method [DirectShow],IFileSinkFilter2 interface, dshow.ifilesinkfilter_setfilename, strmif/IFileSinkFilter2::SetFileName, strmif/IFileSinkFilter::SetFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFileSinkFilter::SetFileName method
+# IFileSinkFilter::SetFileName
 
 
 ## -description

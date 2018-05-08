@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors
-title: IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors method
+title: IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors
 author: windows-driver-content
 description: Retrieves a list of the detailed write configurations supported by the disc recorder and current media.
 old-location: imapi\idiscformat2rawcd_get_supportedwritespeeddescriptors.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 00a7c10a-7790-4193-928c-d3211047dbbe
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], get_SupportedWriteSpeedDescriptors method, IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors method [IMAPI], get_SupportedWriteSpeedDescriptors method [IMAPI], IDiscFormat2RawCD interface, get_SupportedWriteSpeedDescriptors,IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors, imapi.idiscformat2rawcd_get_supportedwritespeeddescriptors, imapi2/IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_SupportedWriteSpeedDescriptors method, IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors, IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors method [IMAPI], get_SupportedWriteSpeedDescriptors method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_supportedwritespeeddescriptors, imapi2/IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors method
+# IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors
 
 
 ## -description

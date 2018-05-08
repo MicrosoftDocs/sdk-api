@@ -73,6 +73,13 @@ This parameter is valid only for PEER_EVENT_ENDPOINT_APPLICATION_CHANGED, PEER_E
 When <b></b>this member is set, notification will be sent only for the specific application or object.
 
 
+### -field pInstance.unique
+
+ 
+
+
+
+
 ## -see-also
 
 

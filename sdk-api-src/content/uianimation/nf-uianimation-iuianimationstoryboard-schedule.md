@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.Schedule
-title: IUIAnimationStoryboard::Schedule method
+title: IUIAnimationStoryboard::Schedule
 author: windows-driver-content
 description: Directs the storyboard to schedule itself for play.
 old-location: uianimation\iuianimationstoryboard_schedule.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationStoryboard, IUIAnimationStoryboard interface [Windows Animation], Schedule method, IUIAnimationStoryboard::Schedule, Schedule method [Windows Animation], Schedule method [Windows Animation], IUIAnimationStoryboard interface, Schedule,IUIAnimationStoryboard.Schedule, uianimation.iuianimationstoryboard_schedule, uianimation/IUIAnimationStoryboard::Schedule
+ms.keywords: IUIAnimationStoryboard interface [Windows Animation],Schedule method, IUIAnimationStoryboard.Schedule, IUIAnimationStoryboard::Schedule, Schedule, Schedule method [Windows Animation], Schedule method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_schedule, uianimation/IUIAnimationStoryboard::Schedule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard::Schedule method
+# IUIAnimationStoryboard::Schedule
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.SetPredication
-title: ID3D10Device::SetPredication method
+title: ID3D10Device::SetPredication
 author: windows-driver-content
 description: Set a rendering predicate.
 old-location: direct3d10\id3d10device_setpredication.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_setpredication.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 20a67636-3d02-6716-b38e-39b2f601230b, ID3D10Device, ID3D10Device interface [Direct3D 10], SetPredication method, ID3D10Device::SetPredication, SetPredication method [Direct3D 10], SetPredication method [Direct3D 10], ID3D10Device interface, SetPredication,ID3D10Device.SetPredication, d3d10/ID3D10Device::SetPredication, direct3d10.id3d10device_setpredication
+ms.keywords: 20a67636-3d02-6716-b38e-39b2f601230b, ID3D10Device interface [Direct3D 10],SetPredication method, ID3D10Device.SetPredication, ID3D10Device::SetPredication, SetPredication, SetPredication method [Direct3D 10], SetPredication method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SetPredication, direct3d10.id3d10device_setpredication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::SetPredication method
+# ID3D10Device::SetPredication
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetReadStreamSamples
-title: IWMSyncReader::GetReadStreamSamples method
+title: IWMSyncReader::GetReadStreamSamples
 author: windows-driver-content
 description: The GetReadStreamSamples method ascertains whether a stream is configured to deliver compressed samples.
 old-location: wmformat\iwmsyncreader_getreadstreamsamples.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: cb903723-fd4b-4b1c-aa2f-e3c9f74dcebd
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetReadStreamSamples method [windows Media Format], GetReadStreamSamples method [windows Media Format], IWMSyncReader interface, GetReadStreamSamples,IWMSyncReader.GetReadStreamSamples, IWMSyncReader, IWMSyncReader interface [windows Media Format], GetReadStreamSamples method, IWMSyncReader::GetReadStreamSamples, IWMSyncReaderGetReadStreamSamples, wmformat.iwmsyncreader_getreadstreamsamples, wmsdkidl/IWMSyncReader::GetReadStreamSamples
+ms.keywords: GetReadStreamSamples, GetReadStreamSamples method [windows Media Format], GetReadStreamSamples method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetReadStreamSamples method, IWMSyncReader.GetReadStreamSamples, IWMSyncReader::GetReadStreamSamples, IWMSyncReaderGetReadStreamSamples, wmformat.iwmsyncreader_getreadstreamsamples, wmsdkidl/IWMSyncReader::GetReadStreamSamples
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader::GetReadStreamSamples method
+# IWMSyncReader::GetReadStreamSamples
 
 
 ## -description

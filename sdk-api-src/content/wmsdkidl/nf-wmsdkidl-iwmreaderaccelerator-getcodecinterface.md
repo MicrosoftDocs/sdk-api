@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAccelerator.GetCodecInterface
-title: IWMReaderAccelerator::GetCodecInterface method
+title: IWMReaderAccelerator::GetCodecInterface
 author: windows-driver-content
 description: The GetCodecInterface method is used to retrieve a pointer to the IWMCodecAMVideoAccelerator interface exposed on the decoder DMO.
 old-location: wmformat\iwmreaderaccelerator_getcodecinterface.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e38c02bb-335c-4f93-9e98-1a9dc65a37c5
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetCodecInterface method [windows Media Format], GetCodecInterface method [windows Media Format], IWMReaderAccelerator interface, GetCodecInterface,IWMReaderAccelerator.GetCodecInterface, IWMReaderAccelerator, IWMReaderAccelerator interface [windows Media Format], GetCodecInterface method, IWMReaderAccelerator::GetCodecInterface, IWMReaderAcceleratorGetCodecInterface, wmformat.iwmreaderaccelerator_getcodecinterface, wmsdkidl/IWMReaderAccelerator::GetCodecInterface
+ms.keywords: GetCodecInterface, GetCodecInterface method [windows Media Format], GetCodecInterface method [windows Media Format],IWMReaderAccelerator interface, IWMReaderAccelerator interface [windows Media Format],GetCodecInterface method, IWMReaderAccelerator.GetCodecInterface, IWMReaderAccelerator::GetCodecInterface, IWMReaderAcceleratorGetCodecInterface, wmformat.iwmreaderaccelerator_getcodecinterface, wmsdkidl/IWMReaderAccelerator::GetCodecInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAccelerator::GetCodecInterface method
+# IWMReaderAccelerator::GetCodecInterface
 
 
 ## -description

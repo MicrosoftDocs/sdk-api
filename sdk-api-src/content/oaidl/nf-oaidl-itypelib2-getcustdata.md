@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeLib2.GetCustData
-title: ITypeLib2::GetCustData method
+title: ITypeLib2::GetCustData
 author: windows-driver-content
 description: Gets the custom data.
 old-location: automat\itypelib2_getcustdata.htm
 old-project: automat
 ms.assetid: e2f29070-6768-4734-a3e2-c9258375b33c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetCustData method [Automation], GetCustData method [Automation], ITypeLib2 interface, GetCustData,ITypeLib2.GetCustData, ITypeLib2, ITypeLib2 interface [Automation], GetCustData method, ITypeLib2::GetCustData, _oa96_ITypeLib2_GetCustData, automat.itypelib2_getcustdata, oaidl/ITypeLib2::GetCustData
+ms.date: 5/4/2018
+ms.keywords: GetCustData, GetCustData method [Automation], GetCustData method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetCustData method, ITypeLib2.GetCustData, ITypeLib2::GetCustData, _oa96_ITypeLib2_GetCustData, automat.itypelib2_getcustdata, oaidl/ITypeLib2::GetCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeLib2::GetCustData method
+# ITypeLib2::GetCustData
 
 
 ## -description

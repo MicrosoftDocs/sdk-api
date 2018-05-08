@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEnumerator.get_AtEndOfStream
-title: IWSManEnumerator::get_AtEndOfStream method
+title: IWSManEnumerator::get_AtEndOfStream
 author: windows-driver-content
 description: Indicates that the end of items in the IWSManEnumerator object has been reached by calls to IWSManEnumerator::ReadItem.
 old-location: winrm\iwsmanenumerator_atendofstream.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: d80028b0-04ff-4c6d-90f5-1c81141a956c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AtEndOfStream property [Windows Remote Management], AtEndOfStream property [Windows Remote Management], IWSManEnumerator interface, IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], AtEndOfStream property, IWSManEnumerator.AtEndOfStream, IWSManEnumerator::get_AtEndOfStream, get_AtEndOfStream,IWSManEnumerator.get_AtEndOfStream, winrm.iwsmanenumerator_atendofstream, wsmandisp/IWSManEnumerator::AtEndOfStream, wsmandisp/IWSManEnumerator::get_AtEndOfStream
+ms.keywords: AtEndOfStream property [Windows Remote Management], AtEndOfStream property [Windows Remote Management],IWSManEnumerator interface, IWSManEnumerator interface [Windows Remote Management],AtEndOfStream property, IWSManEnumerator.AtEndOfStream, IWSManEnumerator.get_AtEndOfStream, IWSManEnumerator::AtEndOfStream, IWSManEnumerator::get_AtEndOfStream, get_AtEndOfStream, winrm.iwsmanenumerator_atendofstream, wsmandisp/IWSManEnumerator::AtEndOfStream, wsmandisp/IWSManEnumerator::get_AtEndOfStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEnumerator::get_AtEndOfStream method
+# IWSManEnumerator::get_AtEndOfStream
 
 
 ## -description

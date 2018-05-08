@@ -109,12 +109,6 @@ The <i>SimpleReasonString</i> parameter contains a simple, non-localizable strin
 A union that consists of either a <b>Detailed</b> structure or a string.  
 
 
-
-#### SimpleReasonString
-
-A non-localized string that describes the reason for the power request.  
-
-
 ### -field Reason.Detailed
 
 A structure that identifies a localizable string resource to describe the reason for the power 
@@ -139,6 +133,11 @@ The number of strings in the <i>ReasonStrings</i> parameter.
 ### -field Reason.Detailed.ReasonStrings
 
 An array of strings to be substituted in the string resource at run time. 
+
+
+### -field Reason.SimpleReasonString
+
+A non-localized string that describes the reason for the power request.  
 
 
 ## -see-also

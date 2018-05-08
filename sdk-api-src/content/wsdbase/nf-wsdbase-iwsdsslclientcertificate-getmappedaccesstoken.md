@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDSSLClientCertificate.GetMappedAccessToken
-title: IWSDSSLClientCertificate::GetMappedAccessToken method
+title: IWSDSSLClientCertificate::GetMappedAccessToken
 author: windows-driver-content
 description: Gets the mapped access token.
 old-location: ncd\iwsdsslclientcertificate_getmappedaccesstoken.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 79dbd838-cffd-4571-8227-e508673c1b02
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetMappedAccessToken method, GetMappedAccessToken method, IWSDSSLClientCertificate interface, GetMappedAccessToken,IWSDSSLClientCertificate.GetMappedAccessToken, IWSDSSLClientCertificate, IWSDSSLClientCertificate interface, GetMappedAccessToken method, IWSDSSLClientCertificate::GetMappedAccessToken, ncd.iwsdsslclientcertificate_getmappedaccesstoken, wsdbase/IWSDSSLClientCertificate::GetMappedAccessToken
+ms.keywords: GetMappedAccessToken, GetMappedAccessToken method, GetMappedAccessToken method,IWSDSSLClientCertificate interface, IWSDSSLClientCertificate interface,GetMappedAccessToken method, IWSDSSLClientCertificate.GetMappedAccessToken, IWSDSSLClientCertificate::GetMappedAccessToken, ncd.iwsdsslclientcertificate_getmappedaccesstoken, wsdbase/IWSDSSLClientCertificate::GetMappedAccessToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDSSLClientCertificate::GetMappedAccessToken method
+# IWSDSSLClientCertificate::GetMappedAccessToken
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: helpapi
 ms.assetid: 6d09032b-3311-434b-b8db-97e3ee2f5f67
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ICatalog, ICatalog interface [HelpAPI], ICatalog interface [HelpAPI], described, adomd/ICatalog, helpapi.icatalog
+ms.keywords: ICatalog, ICatalog interface [HelpAPI], ICatalog interface [HelpAPI],described, adomd/ICatalog, helpapi.icatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

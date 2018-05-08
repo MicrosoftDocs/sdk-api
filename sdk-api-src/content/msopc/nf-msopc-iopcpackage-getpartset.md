@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPackage.GetPartSet
-title: IOpcPackage::GetPartSet method
+title: IOpcPackage::GetPartSet
 author: windows-driver-content
 description: Gets a part set object that contains IOpcPart interface pointers.
 old-location: opc\iopcpackage_getpartset.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 9460e057-8fe8-46b8-b12e-ba761fcaf49b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetPartSet method [Open Packaging Conventions], GetPartSet method [Open Packaging Conventions], IOpcPackage interface, GetPartSet,IOpcPackage.GetPartSet, IOpcPackage, IOpcPackage interface [Open Packaging Conventions], GetPartSet method, IOpcPackage::GetPartSet, msopc/IOpcPackage::GetPartSet, opc.iopcpackage_getpartset
+ms.keywords: GetPartSet, GetPartSet method [Open Packaging Conventions], GetPartSet method [Open Packaging Conventions],IOpcPackage interface, IOpcPackage interface [Open Packaging Conventions],GetPartSet method, IOpcPackage.GetPartSet, IOpcPackage::GetPartSet, msopc/IOpcPackage::GetPartSet, opc.iopcpackage_getpartset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPackage::GetPartSet method
+# IOpcPackage::GetPartSet
 
 
 ## -description

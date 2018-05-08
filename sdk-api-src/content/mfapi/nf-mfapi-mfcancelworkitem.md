@@ -7,7 +7,7 @@ old-location: mf\mfcancelworkitem.htm
 old-project: medfound
 ms.assetid: a24fae61-30c8-4aca-b067-22b99f904fd8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MFCancelWorkItem, MFCancelWorkItem function [Media Foundation], a24fae61-30c8-4aca-b067-22b99f904fd8, mf.mfcancelworkitem, mfapi/MFCancelWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

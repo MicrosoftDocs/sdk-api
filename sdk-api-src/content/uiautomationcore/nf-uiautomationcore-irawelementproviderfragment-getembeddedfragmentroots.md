@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.GetEmbeddedFragmentRoots
-title: IRawElementProviderFragment::GetEmbeddedFragmentRoots method
+title: IRawElementProviderFragment::GetEmbeddedFragmentRoots
 author: windows-driver-content
 description: Retrieves an array of root fragments that are embedded in the Microsoft UI Automation tree rooted at the current element.
 old-location: winauto\uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3e64956d-5ab3-46b6-87db-4b0770c8f89a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetEmbeddedFragmentRoots method [Windows Accessibility], GetEmbeddedFragmentRoots method [Windows Accessibility], IRawElementProviderFragment interface, GetEmbeddedFragmentRoots,IRawElementProviderFragment.GetEmbeddedFragmentRoots, IRawElementProviderFragment, IRawElementProviderFragment interface [Windows Accessibility], GetEmbeddedFragmentRoots method, IRawElementProviderFragment::GetEmbeddedFragmentRoots, uiauto.uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots, uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots, uiautomationcore/IRawElementProviderFragment::GetEmbeddedFragmentRoots, winauto.uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots
+ms.keywords: GetEmbeddedFragmentRoots, GetEmbeddedFragmentRoots method [Windows Accessibility], GetEmbeddedFragmentRoots method [Windows Accessibility],IRawElementProviderFragment interface, IRawElementProviderFragment interface [Windows Accessibility],GetEmbeddedFragmentRoots method, IRawElementProviderFragment.GetEmbeddedFragmentRoots, IRawElementProviderFragment::GetEmbeddedFragmentRoots, uiauto.uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots, uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots, uiautomationcore/IRawElementProviderFragment::GetEmbeddedFragmentRoots, winauto.uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRawElementProviderFragment::GetEmbeddedFragmentRoots method
+# IRawElementProviderFragment::GetEmbeddedFragmentRoots
 
 
 ## -description

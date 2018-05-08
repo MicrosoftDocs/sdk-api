@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMetadata.GetAllPropertyNames
-title: IMFMetadata::GetAllPropertyNames method
+title: IMFMetadata::GetAllPropertyNames
 author: windows-driver-content
 description: Gets a list of all the metadata property names on this object.
 old-location: mf\imfmetadata_getallpropertynames.htm
 old-project: medfound
 ms.assetid: e0944d42-d6e6-420d-9980-ca6c62736b3d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetAllPropertyNames method [Media Foundation], GetAllPropertyNames method [Media Foundation], IMFMetadata interface, GetAllPropertyNames,IMFMetadata.GetAllPropertyNames, IMFMetadata, IMFMetadata interface [Media Foundation], GetAllPropertyNames method, IMFMetadata::GetAllPropertyNames, e0944d42-d6e6-420d-9980-ca6c62736b3d, mf.imfmetadata_getallpropertynames, mfidl/IMFMetadata::GetAllPropertyNames
+ms.date: 5/3/2018
+ms.keywords: GetAllPropertyNames, GetAllPropertyNames method [Media Foundation], GetAllPropertyNames method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetAllPropertyNames method, IMFMetadata.GetAllPropertyNames, IMFMetadata::GetAllPropertyNames, e0944d42-d6e6-420d-9980-ca6c62736b3d, mf.imfmetadata_getallpropertynames, mfidl/IMFMetadata::GetAllPropertyNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMetadata::GetAllPropertyNames method
+# IMFMetadata::GetAllPropertyNames
 
 
 ## -description

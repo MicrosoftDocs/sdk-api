@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.StopBuffering
-title: IWMReaderAdvanced2::StopBuffering method
+title: IWMReaderAdvanced2::StopBuffering
 author: windows-driver-content
 description: The StopBuffering method requests that the reader send the WMT_BUFFERING_STOP message as soon as possible.
 old-location: wmformat\iwmreaderadvanced2_stopbuffering.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3c380a68-d86c-421a-8102-019848893c35
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], StopBuffering method, IWMReaderAdvanced2::StopBuffering, IWMReaderAdvanced2StopBuffering, StopBuffering method [windows Media Format], StopBuffering method [windows Media Format], IWMReaderAdvanced2 interface, StopBuffering,IWMReaderAdvanced2.StopBuffering, wmformat.iwmreaderadvanced2_stopbuffering, wmsdkidl/IWMReaderAdvanced2::StopBuffering
+ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],StopBuffering method, IWMReaderAdvanced2.StopBuffering, IWMReaderAdvanced2::StopBuffering, IWMReaderAdvanced2StopBuffering, StopBuffering, StopBuffering method [windows Media Format], StopBuffering method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_stopbuffering, wmsdkidl/IWMReaderAdvanced2::StopBuffering
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced2::StopBuffering method
+# IWMReaderAdvanced2::StopBuffering
 
 
 ## -description

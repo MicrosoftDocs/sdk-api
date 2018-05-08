@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: e7e92544-dbc5-91ce-b818-056b7b572a7c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetGreenSlope, dcomp/setgreenslope, directcomp.idcompositionlineartransfereffect_setgreenslope_overloaded, setgreenslope, setgreenslope methods [DirectComposition]
+ms.keywords: IDCompositionLinearTransferEffect::SetGreenSlope, SetGreenSlope, dcomp/setgreenslope, directcomp.idcompositionlineartransfereffect_setgreenslope_overloaded, setgreenslope, setgreenslope methods [DirectComposition]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

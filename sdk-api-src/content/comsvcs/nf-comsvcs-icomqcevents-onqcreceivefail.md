@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCReceiveFail
-title: IComQCEvents::OnQCReceiveFail method
+title: IComQCEvents::OnQCReceiveFail
 author: windows-driver-content
 description: Generated when the receive message fails.
 old-location: cos\icomqcevents_onqcreceivefail.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 21d685ce-b65f-4d13-b653-e6c6d1afa704
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComQCEvents, IComQCEvents interface [COM+], OnQCReceiveFail method, IComQCEvents::OnQCReceiveFail, OnQCReceiveFail method [COM+], OnQCReceiveFail method [COM+], IComQCEvents interface, OnQCReceiveFail,IComQCEvents.OnQCReceiveFail, _dtc_IComQCEvents_OnQCReceiveFail, comsvcs/IComQCEvents::OnQCReceiveFail, cos.icomqcevents_onqcreceivefail
+ms.keywords: IComQCEvents interface [COM+],OnQCReceiveFail method, IComQCEvents.OnQCReceiveFail, IComQCEvents::OnQCReceiveFail, OnQCReceiveFail, OnQCReceiveFail method [COM+], OnQCReceiveFail method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCReceiveFail, comsvcs/IComQCEvents::OnQCReceiveFail, cos.icomqcevents_onqcreceivefail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComQCEvents::OnQCReceiveFail method
+# IComQCEvents::OnQCReceiveFail
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IEnumTfLatticeElements.Reset
-title: IEnumTfLatticeElements::Reset method
+title: IEnumTfLatticeElements::Reset
 author: windows-driver-content
 description: IEnumTfLatticeElements::Reset method
 old-location: tsf\ienumtflatticeelements_reset.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 9b4b7479-33e9-4bff-8e18-f4e03060dc73
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfLatticeElements, IEnumTfLatticeElements interface [Text Services Framework], Reset method, IEnumTfLatticeElements::Reset, Reset method [Text Services Framework], Reset method [Text Services Framework], IEnumTfLatticeElements interface, Reset,IEnumTfLatticeElements.Reset, _tsf_ienumtflatticeelements_reset_ref, ctffunc/IEnumTfLatticeElements::Reset, tsf.ienumtflatticeelements_reset
+ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Reset method, IEnumTfLatticeElements.Reset, IEnumTfLatticeElements::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLatticeElements interface, _tsf_ienumtflatticeelements_reset_ref, ctffunc/IEnumTfLatticeElements::Reset, tsf.ienumtflatticeelements_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Sptip.dll
 req.irql: 
 ---
 
-# IEnumTfLatticeElements::Reset method
+# IEnumTfLatticeElements::Reset
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_EthernetFilter.PutMulticastMode
-title: IBDA_EthernetFilter::PutMulticastMode method
+title: IBDA_EthernetFilter::PutMulticastMode
 author: windows-driver-content
 description: The PutMulticastMode method sets the multicast mode.
 old-location: mstv\ibda_ethernetfilter_putmulticastmode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 01694aba-6b43-46da-a35c-7f3f5befecad
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_EthernetFilter, IBDA_EthernetFilter interface [Microsoft TV Technologies], PutMulticastMode method, IBDA_EthernetFilter::PutMulticastMode, IBDA_EthernetFilterPutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies], IBDA_EthernetFilter interface, PutMulticastMode,IBDA_EthernetFilter.PutMulticastMode, bdaiface/IBDA_EthernetFilter::PutMulticastMode, mstv.ibda_ethernetfilter_putmulticastmode
+ms.keywords: IBDA_EthernetFilter interface [Microsoft TV Technologies],PutMulticastMode method, IBDA_EthernetFilter.PutMulticastMode, IBDA_EthernetFilter::PutMulticastMode, IBDA_EthernetFilterPutMulticastMode, PutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies],IBDA_EthernetFilter interface, bdaiface/IBDA_EthernetFilter::PutMulticastMode, mstv.ibda_ethernetfilter_putmulticastmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_EthernetFilter::PutMulticastMode method
+# IBDA_EthernetFilter::PutMulticastMode
 
 
 ## -description

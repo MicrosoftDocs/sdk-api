@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.GetUpdateManager
-title: IDirectManipulationManager::GetUpdateManager method
+title: IDirectManipulationManager::GetUpdateManager
 author: windows-driver-content
 description: Gets a pointer to an IDirectManipulationUpdateManager object that receives compositor updates.
 old-location: directmanipulation\idirectmanipulationmanager_getupdatemanager.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: f3080fcb-3bbe-492b-a94e-322f93781cf5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetUpdateManager method [Direct Manipulation], GetUpdateManager method [Direct Manipulation], IDirectManipulationManager interface, GetUpdateManager,IDirectManipulationManager.GetUpdateManager, IDirectManipulationManager, IDirectManipulationManager interface [Direct Manipulation], GetUpdateManager method, IDirectManipulationManager::GetUpdateManager, directmanipulation.idirectmanipulationmanager_getupdatemanager, directmanipulation/IDirectManipulationManager::GetUpdateManager
+ms.keywords: GetUpdateManager, GetUpdateManager method [Direct Manipulation], GetUpdateManager method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],GetUpdateManager method, IDirectManipulationManager.GetUpdateManager, IDirectManipulationManager::GetUpdateManager, directmanipulation.idirectmanipulationmanager_getupdatemanager, directmanipulation/IDirectManipulationManager::GetUpdateManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationManager::GetUpdateManager method
+# IDirectManipulationManager::GetUpdateManager
 
 
 ## -description

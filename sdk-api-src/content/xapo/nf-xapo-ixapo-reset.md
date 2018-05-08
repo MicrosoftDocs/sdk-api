@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.Reset
-title: IXAPO::Reset method
+title: IXAPO::Reset
 author: windows-driver-content
 description: Resets variables dependent on frame history.
 old-location: xaudio2\ixapo_interface_reset.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Reset
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], Reset method, IXAPO::Reset, Reset method [XAudio2 Audio Mixing APIs], Reset method [XAudio2 Audio Mixing APIs], IXAPO interface, Reset,IXAPO.Reset, xapo/IXAPO::Reset, xaudio2.ixapo_interface_reset
+ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Reset method, IXAPO.Reset, IXAPO::Reset, Reset, Reset method [XAudio2 Audio Mixing APIs], Reset method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Reset, xaudio2.ixapo_interface_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAPO::Reset method
+# IXAPO::Reset
 
 
 ## -description

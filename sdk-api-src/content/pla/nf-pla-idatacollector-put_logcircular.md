@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.put_LogCircular
-title: IDataCollector::put_LogCircular method
+title: IDataCollector::put_LogCircular
 author: windows-driver-content
 description: Retrieves or sets a value that indicates if PLA should create a circular file.
 old-location: pla\idatacollector_logcircular.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: d1b35b02-cfda-42a4-bd1d-d837a91861d6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollector, IDataCollector interface [PLA], LogCircular property, IDataCollector.LogCircular, IDataCollector::get_LogCircular, IDataCollector::put_LogCircular, LogCircular property [PLA], LogCircular property [PLA], IDataCollector interface, base.idatacollector_logcircular, pla.idatacollector_logcircular, pla/IDataCollector::LogCircular, pla/IDataCollector::get_LogCircular, pla/IDataCollector::put_LogCircular, put_LogCircular,IDataCollector.put_LogCircular
+ms.keywords: IDataCollector interface [PLA],LogCircular property, IDataCollector.LogCircular, IDataCollector.put_LogCircular, IDataCollector::LogCircular, IDataCollector::get_LogCircular, IDataCollector::put_LogCircular, LogCircular property [PLA], LogCircular property [PLA],IDataCollector interface, base.idatacollector_logcircular, pla.idatacollector_logcircular, pla/IDataCollector::LogCircular, pla/IDataCollector::get_LogCircular, pla/IDataCollector::put_LogCircular, put_LogCircular
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollector::put_LogCircular method
+# IDataCollector::put_LogCircular
 
 
 ## -description

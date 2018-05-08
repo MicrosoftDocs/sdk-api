@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.AddKeyframeAfterTransition
-title: IUIAnimationStoryboard::AddKeyframeAfterTransition method
+title: IUIAnimationStoryboard::AddKeyframeAfterTransition
 author: windows-driver-content
 description: Adds a keyframe at the end of the specified transition.
 old-location: uianimation\iuianimationstoryboard_addkeyframeaftertransition.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 055206d8-ea9e-4013-89ee-2929bfeb2731
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: AddKeyframeAfterTransition method [Windows Animation], AddKeyframeAfterTransition method [Windows Animation], IUIAnimationStoryboard interface, AddKeyframeAfterTransition,IUIAnimationStoryboard.AddKeyframeAfterTransition, IUIAnimationStoryboard, IUIAnimationStoryboard interface [Windows Animation], AddKeyframeAfterTransition method, IUIAnimationStoryboard::AddKeyframeAfterTransition, uianimation.iuianimationstoryboard_addkeyframeaftertransition, uianimation/IUIAnimationStoryboard::AddKeyframeAfterTransition
+ms.keywords: AddKeyframeAfterTransition, AddKeyframeAfterTransition method [Windows Animation], AddKeyframeAfterTransition method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddKeyframeAfterTransition method, IUIAnimationStoryboard.AddKeyframeAfterTransition, IUIAnimationStoryboard::AddKeyframeAfterTransition, uianimation.iuianimationstoryboard_addkeyframeaftertransition, uianimation/IUIAnimationStoryboard::AddKeyframeAfterTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard::AddKeyframeAfterTransition method
+# IUIAnimationStoryboard::AddKeyframeAfterTransition
 
 
 ## -description

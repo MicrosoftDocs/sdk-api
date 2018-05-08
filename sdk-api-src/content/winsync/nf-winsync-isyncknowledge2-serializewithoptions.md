@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.SerializeWithOptions
-title: ISyncKnowledge2::SerializeWithOptions method
+title: ISyncKnowledge2::SerializeWithOptions
 author: windows-driver-content
 description: Serializes the knowledge object data to a byte array based on the specified version and serialization options.
 old-location: winsync\isyncknowledge2_serializewithoptions.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: b8b9084f-f4aa-42b8-8c45-ed075db8ffe4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncKnowledge2, ISyncKnowledge2 interface [Windows Sync], SerializeWithOptions method, ISyncKnowledge2::SerializeWithOptions, SerializeWithOptions method [Windows Sync], SerializeWithOptions method [Windows Sync], ISyncKnowledge2 interface, SerializeWithOptions,ISyncKnowledge2.SerializeWithOptions, winsync.isyncknowledge2_serializewithoptions, winsync/ISyncKnowledge2::SerializeWithOptions
+ms.keywords: ISyncKnowledge2 interface [Windows Sync],SerializeWithOptions method, ISyncKnowledge2.SerializeWithOptions, ISyncKnowledge2::SerializeWithOptions, SerializeWithOptions, SerializeWithOptions method [Windows Sync], SerializeWithOptions method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_serializewithoptions, winsync/ISyncKnowledge2::SerializeWithOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge2::SerializeWithOptions method
+# ISyncKnowledge2::SerializeWithOptions
 
 
 ## -description

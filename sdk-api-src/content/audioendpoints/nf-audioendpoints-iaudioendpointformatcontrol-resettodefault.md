@@ -1,6 +1,6 @@
 ---
 UID: NF:audioendpoints.IAudioEndpointFormatControl.ResetToDefault
-title: IAudioEndpointFormatControl::ResetToDefault method
+title: IAudioEndpointFormatControl::ResetToDefault
 author: windows-driver-content
 description: Resets the format to the default setting provided by the device manufacturer.
 old-location: coreaudio\iaudioendpointformatcontrol_resettodefault.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: EAE5206D-8BDF-4016-A0E6-D56D0F6B3566
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioEndpointFormatControl, IAudioEndpointFormatControl interface [Core Audio], ResetToDefault method, IAudioEndpointFormatControl::ResetToDefault, ResetToDefault method [Core Audio], ResetToDefault method [Core Audio], IAudioEndpointFormatControl interface, ResetToDefault,IAudioEndpointFormatControl.ResetToDefault, audioendpoints/IAudioEndpointFormatControl::ResetToDefault, coreaudio.iaudioendpointformatcontrol_resettodefault
+ms.keywords: IAudioEndpointFormatControl interface [Core Audio],ResetToDefault method, IAudioEndpointFormatControl.ResetToDefault, IAudioEndpointFormatControl::ResetToDefault, ResetToDefault, ResetToDefault method [Core Audio], ResetToDefault method [Core Audio],IAudioEndpointFormatControl interface, audioendpoints/IAudioEndpointFormatControl::ResetToDefault, coreaudio.iaudioendpointformatcontrol_resettodefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AudioClientProperties, AudioClientProperties
+req.typenames: AudioClientProperties
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioEndpointFormatControl::ResetToDefault method
+# IAudioEndpointFormatControl::ResetToDefault
 
 
 ## -description

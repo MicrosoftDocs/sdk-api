@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.RemoveDefaultProperty
-title: IEventPublisher::RemoveDefaultProperty method
+title: IEventPublisher::RemoveDefaultProperty
 author: windows-driver-content
 description: Removes a named property and its value from the property bag associated with the event publisher object.
 old-location: com\ieventpublisher_removedefaultproperty.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: da691bac-e940-431d-acef-8c29f4a25c70
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEventPublisher, IEventPublisher interface [COM], RemoveDefaultProperty method, IEventPublisher::RemoveDefaultProperty, RemoveDefaultProperty method [COM], RemoveDefaultProperty method [COM], IEventPublisher interface, RemoveDefaultProperty,IEventPublisher.RemoveDefaultProperty, _com_ieventpublisher_removedefaultproperty, com.ieventpublisher_removedefaultproperty, eventsys/IEventPublisher::RemoveDefaultProperty
+ms.keywords: IEventPublisher interface [COM],RemoveDefaultProperty method, IEventPublisher.RemoveDefaultProperty, IEventPublisher::RemoveDefaultProperty, RemoveDefaultProperty, RemoveDefaultProperty method [COM], RemoveDefaultProperty method [COM],IEventPublisher interface, _com_ieventpublisher_removedefaultproperty, com.ieventpublisher_removedefaultproperty, eventsys/IEventPublisher::RemoveDefaultProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventPublisher::RemoveDefaultProperty method
+# IEventPublisher::RemoveDefaultProperty
 
 
 ## -description

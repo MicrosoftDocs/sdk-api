@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.ShowDialog
-title: IAMVfwCompressDialogs::ShowDialog method
+title: IAMVfwCompressDialogs::ShowDialog
 author: windows-driver-content
 description: The ShowDialog method displays the specified dialog box.
 old-location: dshow\iamvfwcompressdialogs_showdialog.htm
 old-project: DirectShow
 ms.assetid: 4826bd47-0091-4a74-b88d-72a5b0f1c5ac
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVfwCompressDialogs, IAMVfwCompressDialogs interface [DirectShow], ShowDialog method, IAMVfwCompressDialogs::ShowDialog, IAMVfwCompressDialogsShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow], IAMVfwCompressDialogs interface, ShowDialog,IAMVfwCompressDialogs.ShowDialog, dshow.iamvfwcompressdialogs_showdialog, strmif/IAMVfwCompressDialogs::ShowDialog
+ms.date: 4/30/2018
+ms.keywords: IAMVfwCompressDialogs interface [DirectShow],ShowDialog method, IAMVfwCompressDialogs.ShowDialog, IAMVfwCompressDialogs::ShowDialog, IAMVfwCompressDialogsShowDialog, ShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_showdialog, strmif/IAMVfwCompressDialogs::ShowDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVfwCompressDialogs::ShowDialog method
+# IAMVfwCompressDialogs::ShowDialog
 
 
 ## -description

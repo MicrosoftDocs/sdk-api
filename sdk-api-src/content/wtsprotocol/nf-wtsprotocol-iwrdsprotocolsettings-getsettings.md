@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolSettings.GetSettings
-title: IWRdsProtocolSettings::GetSettings method
+title: IWRdsProtocolSettings::GetSettings
 author: windows-driver-content
 description: Retrieves the settings for a particular policy.
 old-location: termserv\iwrdsprotocolsettings_getsettings.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 3a5a7ffd-15e1-4313-ad44-e720cd260f02
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetSettings method [Remote Desktop Services], GetSettings method [Remote Desktop Services], IWRdsProtocolSettings interface, GetSettings,IWRdsProtocolSettings.GetSettings, IWRdsProtocolSettings, IWRdsProtocolSettings interface [Remote Desktop Services], GetSettings method, IWRdsProtocolSettings::GetSettings, termserv.iwrdsprotocolsettings_getsettings, wtsprotocol/IWRdsProtocolSettings::GetSettings
+ms.keywords: GetSettings, GetSettings method [Remote Desktop Services], GetSettings method [Remote Desktop Services],IWRdsProtocolSettings interface, IWRdsProtocolSettings interface [Remote Desktop Services],GetSettings method, IWRdsProtocolSettings.GetSettings, IWRdsProtocolSettings::GetSettings, termserv.iwrdsprotocolsettings_getsettings, wtsprotocol/IWRdsProtocolSettings::GetSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolSettings::GetSettings method
+# IWRdsProtocolSettings::GetSettings
 
 
 ## -description

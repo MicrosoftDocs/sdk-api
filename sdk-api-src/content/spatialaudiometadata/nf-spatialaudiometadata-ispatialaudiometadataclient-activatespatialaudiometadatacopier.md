@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataCopier
-title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier method
+title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier
 author: windows-driver-content
 description: Creates an ISpatialAudioMetadataWriter object for copying spatial audio metadata items from one ISpatialAudioMetadataItems object to another.
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadatacopier.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 52534220-65A0-46BE-9A05-E00B84170382
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ActivateSpatialAudioMetadataCopier method [Core Audio], ActivateSpatialAudioMetadataCopier method [Core Audio], ISpatialAudioMetadataClient interface, ActivateSpatialAudioMetadataCopier,ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataCopier, ISpatialAudioMetadataClient, ISpatialAudioMetadataClient interface [Core Audio], ActivateSpatialAudioMetadataCopier method, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatacopier, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier
+ms.keywords: ActivateSpatialAudioMetadataCopier, ActivateSpatialAudioMetadataCopier method [Core Audio], ActivateSpatialAudioMetadataCopier method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataCopier method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataCopier, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatacopier, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier method
+# ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier
 
 
 ## -description

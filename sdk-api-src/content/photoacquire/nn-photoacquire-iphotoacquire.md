@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 94f41290-bbc4-4a2f-9787-831004bde3c7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoAcquire, IPhotoAcquire interface [Picture Acquisition], IPhotoAcquire interface [Picture Acquisition], described, IPhotoAcquireInterface, photoacquire/IPhotoAcquire, picacq.iphotoacquire
+ms.keywords: IPhotoAcquire, IPhotoAcquire interface [Picture Acquisition], IPhotoAcquire interface [Picture Acquisition],described, IPhotoAcquireInterface, photoacquire/IPhotoAcquire, picacq.iphotoacquire
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

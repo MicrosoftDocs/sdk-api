@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.Clear
-title: IX509NameValuePairs::Clear method
+title: IX509NameValuePairs::Clear
 author: windows-driver-content
 description: Removes all IX509NameValuePair objects from the collection.
 old-location: security\ix509namevaluepairs_clear_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: eded4dc2-ad3d-44eb-a20c-217756fad40f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Clear method [Security], Clear method [Security], IX509NameValuePairs interface, Clear,IX509NameValuePairs.Clear, IX509NameValuePairs, IX509NameValuePairs interface [Security], Clear method, IX509NameValuePairs::Clear, certenroll/IX509NameValuePairs::Clear, security.ix509namevaluepairs_clear_method
+ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509NameValuePairs interface, IX509NameValuePairs interface [Security],Clear method, IX509NameValuePairs.Clear, IX509NameValuePairs::Clear, certenroll/IX509NameValuePairs::Clear, security.ix509namevaluepairs_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509NameValuePairs::Clear method
+# IX509NameValuePairs::Clear
 
 
 ## -description

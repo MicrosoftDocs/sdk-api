@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPart.GetContentStream
-title: IOpcPart::GetContentStream method
+title: IOpcPart::GetContentStream
 author: windows-driver-content
 description: Gets a stream that provides read/write access to part content.
 old-location: opc\iopcpart_getcontentstream.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: b40e3df2-e717-465d-8893-511e4776d80d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetContentStream method [Open Packaging Conventions], GetContentStream method [Open Packaging Conventions], IOpcPart interface, GetContentStream,IOpcPart.GetContentStream, IOpcPart, IOpcPart interface [Open Packaging Conventions], GetContentStream method, IOpcPart::GetContentStream, msopc/IOpcPart::GetContentStream, opc.iopcpart_getcontentstream
+ms.keywords: GetContentStream, GetContentStream method [Open Packaging Conventions], GetContentStream method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetContentStream method, IOpcPart.GetContentStream, IOpcPart::GetContentStream, msopc/IOpcPart::GetContentStream, opc.iopcpart_getcontentstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPart::GetContentStream method
+# IOpcPart::GetContentStream
 
 
 ## -description

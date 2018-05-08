@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponentEx.SetPrepareForBackupFailureMsg
-title: IVssComponentEx::SetPrepareForBackupFailureMsg method
+title: IVssComponentEx::SetPrepareForBackupFailureMsg
 author: windows-driver-content
 description: Sets a PrepareForBackup failure message string for a component.
 old-location: base\ivsscomponentex_setprepareforbackupfailuremsg.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: b2c48c06-8bfc-431b-aab3-89ec9b30a9a0
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssComponentEx, IVssComponentEx interface, SetPrepareForBackupFailureMsg method, IVssComponentEx::SetPrepareForBackupFailureMsg, SetPrepareForBackupFailureMsg method, SetPrepareForBackupFailureMsg method, IVssComponentEx interface, SetPrepareForBackupFailureMsg,IVssComponentEx.SetPrepareForBackupFailureMsg, base.ivsscomponentex_setprepareforbackupfailuremsg, vswriter/IVssComponentEx::SetPrepareForBackupFailureMsg
+ms.keywords: IVssComponentEx interface,SetPrepareForBackupFailureMsg method, IVssComponentEx.SetPrepareForBackupFailureMsg, IVssComponentEx::SetPrepareForBackupFailureMsg, SetPrepareForBackupFailureMsg, SetPrepareForBackupFailureMsg method, SetPrepareForBackupFailureMsg method,IVssComponentEx interface, base.ivsscomponentex_setprepareforbackupfailuremsg, vswriter/IVssComponentEx::SetPrepareForBackupFailureMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponentEx::SetPrepareForBackupFailureMsg method
+# IVssComponentEx::SetPrepareForBackupFailureMsg
 
 
 ## -description

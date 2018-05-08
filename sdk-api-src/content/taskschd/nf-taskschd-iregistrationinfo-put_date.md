@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Date
-title: IRegistrationInfo::put_Date method
+title: IRegistrationInfo::put_Date
 author: windows-driver-content
 description: Gets or sets the date and time when the task is registered.
 old-location: taskschd\iregistrationinfo_date.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: b9a41413-954f-447c-8fce-f99c81fec40a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Date property [Task Scheduler], Date property [Task Scheduler], IRegistrationInfo interface, IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], Date property, IRegistrationInfo.Date, IRegistrationInfo::get_Date, IRegistrationInfo::put_Date, put_Date,IRegistrationInfo.put_Date, taskschd.iregistrationinfo_date, taskschd/IRegistrationInfo::Date, taskschd/IRegistrationInfo::get_Date, taskschd/IRegistrationInfo::put_Date
+ms.keywords: Date property [Task Scheduler], Date property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Date property, IRegistrationInfo.Date, IRegistrationInfo.put_Date, IRegistrationInfo::Date, IRegistrationInfo::get_Date, IRegistrationInfo::put_Date, put_Date, taskschd.iregistrationinfo_date, taskschd/IRegistrationInfo::Date, taskschd/IRegistrationInfo::get_Date, taskschd/IRegistrationInfo::put_Date
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegistrationInfo::put_Date method
+# IRegistrationInfo::put_Date
 
 
 ## -description

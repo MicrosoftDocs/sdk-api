@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.SetAppViewInitialized
-title: IXblIdpAuthManager::SetAppViewInitialized method
+title: IXblIdpAuthManager::SetAppViewInitialized
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_setappviewinitialized.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 0FC3C8A8-FB37-4207-9EC4-4DA15721C7AF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IXblIdpAuthManager, IXblIdpAuthManager interface, SetAppViewInitialized method, IXblIdpAuthManager::SetAppViewInitialized, SetAppViewInitialized method, SetAppViewInitialized method, IXblIdpAuthManager interface, SetAppViewInitialized,IXblIdpAuthManager.SetAppViewInitialized, xblidp.ixblidpauthmanager_setappviewinitialized, xblidpauthmanager/IXblIdpAuthManager::SetAppViewInitialized
+ms.keywords: IXblIdpAuthManager interface,SetAppViewInitialized method, IXblIdpAuthManager.SetAppViewInitialized, IXblIdpAuthManager::SetAppViewInitialized, SetAppViewInitialized, SetAppViewInitialized method, SetAppViewInitialized method,IXblIdpAuthManager interface, xblidp.ixblidpauthmanager_setappviewinitialized, xblidpauthmanager/IXblIdpAuthManager::SetAppViewInitialized
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthManager::SetAppViewInitialized method
+# IXblIdpAuthManager::SetAppViewInitialized
 
 
 ## -description

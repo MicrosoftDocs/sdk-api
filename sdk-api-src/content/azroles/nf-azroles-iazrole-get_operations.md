@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.get_Operations
-title: IAzRole::get_Operations method
+title: IAzRole::get_Operations
 author: windows-driver-content
 description: Retrieves the operations associated with the role.
 old-location: security\iazrole_operations.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 44d90f1e-6112-4f02-b840-2ba7af8d9f33
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzRole object [Security], Operations property, IAzRole, IAzRole interface [Security], Operations property, IAzRole.Operations, IAzRole::get_Operations, Operations property [Security], Operations property [Security], AzRole object, Operations property [Security], IAzRole interface, azroles/IAzRole::Operations, azroles/IAzRole::get_Operations, get_Operations,IAzRole.get_Operations, security.iazrole_operations
+ms.keywords: AzRole object [Security],Operations property, IAzRole interface [Security],Operations property, IAzRole.Operations, IAzRole.get_Operations, IAzRole::Operations, IAzRole::get_Operations, Operations property [Security], Operations property [Security],AzRole object, Operations property [Security],IAzRole interface, azroles/IAzRole::Operations, azroles/IAzRole::get_Operations, get_Operations, security.iazrole_operations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzRole::get_Operations method
+# IAzRole::get_Operations
 
 
 ## -description

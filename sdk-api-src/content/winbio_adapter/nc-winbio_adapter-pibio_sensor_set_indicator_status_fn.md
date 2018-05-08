@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: a47815d0-934c-43d4-8f4a-5f57a1c9f278
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_SET_INDICATOR_STATUS_FN, SensorAdapterSetIndicatorStatus, SensorAdapterSetIndicatorStatus callback function [Windows Biometric Framework API], secbiomet.sensoradaptersetindicatorstatus, winbio_adapter/SensorAdapterSetIndicatorStatus
+ms.keywords: PIBIO_SENSOR_SET_INDICATOR_STATUS_FN, PIBIO_SENSOR_SET_INDICATOR_STATUS_FN callback, SensorAdapterSetIndicatorStatus, SensorAdapterSetIndicatorStatus callback function [Windows Biometric Framework API], secbiomet.sensoradaptersetindicatorstatus, winbio_adapter/SensorAdapterSetIndicatorStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_SET_INDICATOR_STATUS_FN callback
+# PIBIO_SENSOR_SET_INDICATOR_STATUS_FN callback function
 
 
 ## -description

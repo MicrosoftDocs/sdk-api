@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_BackColor
-title: IMSVidCtl::put_BackColor method
+title: IMSVidCtl::put_BackColor
 author: windows-driver-content
 description: The put_BackColor method specifies the background color of the Video Control.
 old-location: mstv\imsvidctl_put_backcolor.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d2812c19-2b69-46a8-98ab-7e1eee43f383
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], put_BackColor method, IMSVidCtl::put_BackColor, IMSVidCtlput_BackColor, mstv.imsvidctl_put_backcolor, msvidctl/IMSVidCtl::put_BackColor, put_BackColor method [Microsoft TV Technologies], put_BackColor method [Microsoft TV Technologies], IMSVidCtl interface, put_BackColor,IMSVidCtl.put_BackColor
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_BackColor method, IMSVidCtl.put_BackColor, IMSVidCtl::put_BackColor, IMSVidCtlput_BackColor, mstv.imsvidctl_put_backcolor, msvidctl/IMSVidCtl::put_BackColor, put_BackColor, put_BackColor method [Microsoft TV Technologies], put_BackColor method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::put_BackColor method
+# IMSVidCtl::put_BackColor
 
 
 ## -description

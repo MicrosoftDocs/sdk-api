@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfComposition.EndComposition
-title: ITfComposition::EndComposition method
+title: ITfComposition::EndComposition
 author: windows-driver-content
 description: ITfComposition::EndComposition method
 old-location: tsf\itfcomposition_endcomposition.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: b5717c03-2611-4199-b07d-b6f3b6f65d3a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EndComposition method [Text Services Framework], EndComposition method [Text Services Framework], ITfComposition interface, EndComposition,ITfComposition.EndComposition, ITfComposition, ITfComposition interface [Text Services Framework], EndComposition method, ITfComposition::EndComposition, _tsf_itfcomposition_endcomposition_ref, msctf/ITfComposition::EndComposition, tsf.itfcomposition_endcomposition
+ms.keywords: EndComposition, EndComposition method [Text Services Framework], EndComposition method [Text Services Framework],ITfComposition interface, ITfComposition interface [Text Services Framework],EndComposition method, ITfComposition.EndComposition, ITfComposition::EndComposition, _tsf_itfcomposition_endcomposition_ref, msctf/ITfComposition::EndComposition, tsf.itfcomposition_endcomposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfComposition::EndComposition method
+# ITfComposition::EndComposition
 
 
 ## -description

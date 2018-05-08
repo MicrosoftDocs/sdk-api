@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.GetActiveFlags
-title: ITfThreadMgr2::GetActiveFlags method
+title: ITfThreadMgr2::GetActiveFlags
 author: windows-driver-content
 description: Gets the active flags of the calling thread.
 old-location: tsf\itfthreadmgr2_getactiveflags.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: F0777E69-C9E2-4E40-9CE0-56084D1C8A41
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetActiveFlags method [Text Services Framework], GetActiveFlags method [Text Services Framework], ITfThreadMgr2 interface, GetActiveFlags,ITfThreadMgr2.GetActiveFlags, ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], GetActiveFlags method, ITfThreadMgr2::GetActiveFlags, TF_TMF_ACTIVATED, TF_TMF_COMLESS, TF_TMF_CONSOLE, TF_TMF_IMMERSIVEMODE, TF_TMF_NOACTIVATETIP, TF_TMF_SECUREMODE, TF_TMF_UIELEMENTENABLEDONLY, TF_TMF_WOW16, msctf/ITfThreadMgr2::GetActiveFlags, tsf.itfthreadmgr2_getactiveflags
+ms.keywords: GetActiveFlags, GetActiveFlags method [Text Services Framework], GetActiveFlags method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetActiveFlags method, ITfThreadMgr2.GetActiveFlags, ITfThreadMgr2::GetActiveFlags, TF_TMF_ACTIVATED, TF_TMF_COMLESS, TF_TMF_CONSOLE, TF_TMF_IMMERSIVEMODE, TF_TMF_NOACTIVATETIP, TF_TMF_SECUREMODE, TF_TMF_UIELEMENTENABLEDONLY, TF_TMF_WOW16, msctf/ITfThreadMgr2::GetActiveFlags, tsf.itfthreadmgr2_getactiveflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr2::GetActiveFlags method
+# ITfThreadMgr2::GetActiveFlags
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll4.addBlobPropertyToCertificateWStr
-title: IEnroll4::addBlobPropertyToCertificateWStr method
+title: IEnroll4::addBlobPropertyToCertificateWStr
 author: windows-driver-content
 description: The IEnroll4::addBlobPropertyToCertificateWStr method adds a BLOB property to a certificate.
 old-location: security\ienroll4_addblobpropertytocertificatewstr.htm
 old-project: SecCrypto
 ms.assetid: 954c1b2f-08ea-471c-902f-1aa5523d58b3
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll4, IEnroll4 interface [Security], addBlobPropertyToCertificateWStr method, IEnroll4::addBlobPropertyToCertificateWStr, addBlobPropertyToCertificateWStr method [Security], addBlobPropertyToCertificateWStr method [Security], IEnroll4 interface, addBlobPropertyToCertificateWStr,IEnroll4.addBlobPropertyToCertificateWStr, security.ienroll4_addblobpropertytocertificatewstr, xenroll/IEnroll4::addBlobPropertyToCertificateWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll4 interface [Security],addBlobPropertyToCertificateWStr method, IEnroll4.addBlobPropertyToCertificateWStr, IEnroll4::addBlobPropertyToCertificateWStr, addBlobPropertyToCertificateWStr, addBlobPropertyToCertificateWStr method [Security], addBlobPropertyToCertificateWStr method [Security],IEnroll4 interface, security.ienroll4_addblobpropertytocertificatewstr, xenroll/IEnroll4::addBlobPropertyToCertificateWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll4::addBlobPropertyToCertificateWStr method
+# IEnroll4::addBlobPropertyToCertificateWStr
 
 
 ## -description

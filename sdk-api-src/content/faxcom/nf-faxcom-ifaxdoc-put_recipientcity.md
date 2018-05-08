@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientCity
-title: IFaxDoc::put_RecipientCity method
+title: IFaxDoc::put_RecipientCity
 author: windows-driver-content
 description: Sets or retrieves the RecipientCity property of a FaxDoc object. The RecipientCity property is a null-terminated string that contains the city name of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientcity_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4uih.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], RecipientCity property, IFaxDoc, IFaxDoc::put_RecipientCity, RecipientCity property [Fax Service], RecipientCity property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientcity, fax._mfax_ifaxdoc_get_recipientcity, fax._mfax_ifaxdoc_get_recipientcity_vb, put_RecipientCity,IFaxDoc.put_RecipientCity
+ms.keywords: FaxDoc object [Fax Service],RecipientCity property, FaxDoc.RecipientCity, IFaxDoc.put_RecipientCity, IFaxDoc::put_RecipientCity, RecipientCity property [Fax Service], RecipientCity property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientcity, fax._mfax_ifaxdoc_get_recipientcity, fax._mfax_ifaxdoc_get_recipientcity_vb, put_RecipientCity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_RecipientCity method
+# IFaxDoc::put_RecipientCity
 
 
 ## -description

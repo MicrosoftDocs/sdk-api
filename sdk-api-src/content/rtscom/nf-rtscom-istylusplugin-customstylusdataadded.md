@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IStylusPlugin.CustomStylusDataAdded
-title: IStylusPlugin::CustomStylusDataAdded method
+title: IStylusPlugin::CustomStylusDataAdded
 author: windows-driver-content
 description: Notifies the implementing plug-in that custom stylus data is available.
 old-location: tablet\istylusplugin_customstylusdataadded.htm
 old-project: tablet
 ms.assetid: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c, CustomStylusDataAdded method [Tablet PC], CustomStylusDataAdded method [Tablet PC], IStylusPlugin interface, CustomStylusDataAdded,IStylusPlugin.CustomStylusDataAdded, IStylusPlugin, IStylusPlugin interface [Tablet PC], CustomStylusDataAdded method, IStylusPlugin::CustomStylusDataAdded, rtscom/IStylusPlugin::CustomStylusDataAdded, tablet.istylusplugin_customstylusdataadded
+ms.date: 5/2/2018
+ms.keywords: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c, CustomStylusDataAdded, CustomStylusDataAdded method [Tablet PC], CustomStylusDataAdded method [Tablet PC],IStylusPlugin interface, IStylusPlugin interface [Tablet PC],CustomStylusDataAdded method, IStylusPlugin.CustomStylusDataAdded, IStylusPlugin::CustomStylusDataAdded, rtscom/IStylusPlugin::CustomStylusDataAdded, tablet.istylusplugin_customstylusdataadded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStylusPlugin::CustomStylusDataAdded method
+# IStylusPlugin::CustomStylusDataAdded
 
 
 ## -description

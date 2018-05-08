@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.put_FrequencyMapping
-title: IFrequencyMap::put_FrequencyMapping method
+title: IFrequencyMap::put_FrequencyMapping
 author: windows-driver-content
 description: The put_FrequencyMapping method sets the frequency table.
 old-location: mstv\ifrequencymap_put_frequencymapping.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cfde2c8e-803d-46b8-b3d4-8e9b3129af0e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IFrequencyMap, IFrequencyMap interface [Microsoft TV Technologies], put_FrequencyMapping method, IFrequencyMap::put_FrequencyMapping, IFrequencyMapput_FrequencyMapping, bdaiface/IFrequencyMap::put_FrequencyMapping, mstv.ifrequencymap_put_frequencymapping, put_FrequencyMapping method [Microsoft TV Technologies], put_FrequencyMapping method [Microsoft TV Technologies], IFrequencyMap interface, put_FrequencyMapping,IFrequencyMap.put_FrequencyMapping
+ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],put_FrequencyMapping method, IFrequencyMap.put_FrequencyMapping, IFrequencyMap::put_FrequencyMapping, IFrequencyMapput_FrequencyMapping, bdaiface/IFrequencyMap::put_FrequencyMapping, mstv.ifrequencymap_put_frequencymapping, put_FrequencyMapping, put_FrequencyMapping method [Microsoft TV Technologies], put_FrequencyMapping method [Microsoft TV Technologies],IFrequencyMap interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IFrequencyMap::put_FrequencyMapping method
+# IFrequencyMap::put_FrequencyMapping
 
 
 ## -description

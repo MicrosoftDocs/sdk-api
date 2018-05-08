@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollectionQuery.AddPropertyConstraint
-title: IFunctionInstanceCollectionQuery::AddPropertyConstraint method
+title: IFunctionInstanceCollectionQuery::AddPropertyConstraint
 author: windows-driver-content
 description: Adds a property constraint to the query.
 old-location: ncd\ifunctioninstancecollectionquery_addpropertyconstraint_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 4ff850a8-3208-4fb4-a581-7581e71f34e6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddPropertyConstraint method, AddPropertyConstraint method, IFunctionInstanceCollectionQuery interface, AddPropertyConstraint,IFunctionInstanceCollectionQuery.AddPropertyConstraint, IFunctionInstanceCollectionQuery, IFunctionInstanceCollectionQuery interface, AddPropertyConstraint method, IFunctionInstanceCollectionQuery::AddPropertyConstraint, functiondiscoveryapi/IFunctionInstanceCollectionQuery::AddPropertyConstraint, ncd.ifunctioninstancecollectionquery_addpropertyconstraint_method
+ms.keywords: AddPropertyConstraint, AddPropertyConstraint method, AddPropertyConstraint method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,AddPropertyConstraint method, IFunctionInstanceCollectionQuery.AddPropertyConstraint, IFunctionInstanceCollectionQuery::AddPropertyConstraint, functiondiscoveryapi/IFunctionInstanceCollectionQuery::AddPropertyConstraint, ncd.ifunctioninstancecollectionquery_addpropertyconstraint_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionInstanceCollectionQuery::AddPropertyConstraint method
+# IFunctionInstanceCollectionQuery::AddPropertyConstraint
 
 
 ## -description

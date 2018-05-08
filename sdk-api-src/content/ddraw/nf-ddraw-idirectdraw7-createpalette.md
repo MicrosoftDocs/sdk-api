@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.CreatePalette
-title: IDirectDraw7::CreatePalette method
+title: IDirectDraw7::CreatePalette
 author: windows-driver-content
 description: Creates a DirectDrawPalette object for this DirectDraw object.
 old-location: directdraw\idirectdraw7_createpalette.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 3e9eec72-b9c7-4c9f-b9ea-177605fedf96
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: CreatePalette method [DirectDraw], CreatePalette method [DirectDraw], IDirectDraw7 interface, CreatePalette,IDirectDraw7.CreatePalette, DDPCAPS_1BIT, DDPCAPS_2BIT, DDPCAPS_4BIT, DDPCAPS_8BIT, DDPCAPS_8BITENTRIES, DDPCAPS_ALLOW256, DDPCAPS_ALPHA, DDPCAPS_INITIALIZE, DDPCAPS_PRIMARYSURFACE, DDPCAPS_PRIMARYSURFACELEFT, DDPCAPS_VSYNC, IDirectDraw7, IDirectDraw7 interface [DirectDraw], CreatePalette method, IDirectDraw7::CreatePalette, ddraw/IDirectDraw7::CreatePalette, directdraw.idirectdraw7_createpalette
+ms.keywords: CreatePalette, CreatePalette method [DirectDraw], CreatePalette method [DirectDraw],IDirectDraw7 interface, DDPCAPS_1BIT, DDPCAPS_2BIT, DDPCAPS_4BIT, DDPCAPS_8BIT, DDPCAPS_8BITENTRIES, DDPCAPS_ALLOW256, DDPCAPS_ALPHA, DDPCAPS_INITIALIZE, DDPCAPS_PRIMARYSURFACE, DDPCAPS_PRIMARYSURFACELEFT, DDPCAPS_VSYNC, IDirectDraw7 interface [DirectDraw],CreatePalette method, IDirectDraw7.CreatePalette, IDirectDraw7::CreatePalette, ddraw/IDirectDraw7::CreatePalette, directdraw.idirectdraw7_createpalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDraw7::CreatePalette method
+# IDirectDraw7::CreatePalette
 
 
 ## -description

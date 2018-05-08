@@ -163,9 +163,29 @@ Destination base value of a z-buffer.
 Bit depth of the destination z-constant.
 
 
+### -field DUMMYUNIONNAMEN.dwZDestConst
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.lpDDSZBufferDest
+
+ 
+
+
 ### -field dwZSrcConstBitDepth
 
 Bit depth of the source z-constant.
+
+
+### -field DUMMYUNIONNAMEN.dwZSrcConst
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.lpDDSZBufferSrc
+
+ 
 
 
 ### -field dwAlphaEdgeBlendBitDepth
@@ -188,12 +208,52 @@ Reserved
 Bit depth of the destination alpha constant.
 
 
+### -field DUMMYUNIONNAMEN.dwAlphaDestConst
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.lpDDSAlphaDest
+
+ 
+
+
 ### -field dwAlphaSrcConstBitDepth
 
 Bit depth of the source alpha constant.
 
 
+### -field DUMMYUNIONNAMEN.dwAlphaSrcConst
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.lpDDSAlphaSrc
+
+ 
+
+
 ### -field DUMMYUNIONNAMEN
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwFillColor
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwFillDepth
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwFillPixel
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.lpDDSPattern
 
  
 

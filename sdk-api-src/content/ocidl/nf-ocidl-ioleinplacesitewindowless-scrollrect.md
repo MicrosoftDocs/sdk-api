@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.ScrollRect
-title: IOleInPlaceSiteWindowless::ScrollRect method
+title: IOleInPlaceSiteWindowless::ScrollRect
 author: windows-driver-content
 description: Enables an object to scroll an area within its in-place active image on the screen.
 old-location: com\ioleinplacesitewindowless_scrollrect.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1eeb1aee-8cd4-4d27-8b6f-f76305bbe69f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], ScrollRect method, IOleInPlaceSiteWindowless::ScrollRect, ScrollRect method [COM], ScrollRect method [COM], IOleInPlaceSiteWindowless interface, ScrollRect,IOleInPlaceSiteWindowless.ScrollRect, _ole_ioleinplacesitewindowless_scrollrect, com.ioleinplacesitewindowless_scrollrect, ocidl/IOleInPlaceSiteWindowless::ScrollRect
+ms.keywords: IOleInPlaceSiteWindowless interface [COM],ScrollRect method, IOleInPlaceSiteWindowless.ScrollRect, IOleInPlaceSiteWindowless::ScrollRect, ScrollRect, ScrollRect method [COM], ScrollRect method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_scrollrect, com.ioleinplacesitewindowless_scrollrect, ocidl/IOleInPlaceSiteWindowless::ScrollRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSiteWindowless::ScrollRect method
+# IOleInPlaceSiteWindowless::ScrollRect
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertySystem.GetPropertyDescriptionListFromString
-title: IPropertySystem::GetPropertyDescriptionListFromString method
+title: IPropertySystem::GetPropertyDescriptionListFromString
 author: windows-driver-content
 description: Gets an instance of the subsystem object that implements IPropertyDescriptionList, to obtain an ordered collection of property descriptions, based on the provided string.
 old-location: properties\IPropertySystem_GetPropertyDescriptionListFromString.htm
 old-project: properties
 ms.assetid: 73e61bf0-32d0-4c2c-bf2e-b28ea00cbfd3
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetPropertyDescriptionListFromString method [Windows Properties], GetPropertyDescriptionListFromString method [Windows Properties], IPropertySystem interface, GetPropertyDescriptionListFromString,IPropertySystem.GetPropertyDescriptionListFromString, IPropertySystem, IPropertySystem interface [Windows Properties], GetPropertyDescriptionListFromString method, IPropertySystem::GetPropertyDescriptionListFromString, properties.IPropertySystem_GetPropertyDescriptionListFromString, propsys/IPropertySystem::GetPropertyDescriptionListFromString, shell.IPropertySystem_GetPropertyDescriptionListFromString, shell_IPropertySystem_GetPropertyDescriptionListFromString
+ms.date: 4/27/2018
+ms.keywords: GetPropertyDescriptionListFromString, GetPropertyDescriptionListFromString method [Windows Properties], GetPropertyDescriptionListFromString method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescriptionListFromString method, IPropertySystem.GetPropertyDescriptionListFromString, IPropertySystem::GetPropertyDescriptionListFromString, properties.IPropertySystem_GetPropertyDescriptionListFromString, propsys/IPropertySystem::GetPropertyDescriptionListFromString, shell.IPropertySystem_GetPropertyDescriptionListFromString, shell_IPropertySystem_GetPropertyDescriptionListFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertySystem::GetPropertyDescriptionListFromString method
+# IPropertySystem::GetPropertyDescriptionListFromString
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_PowerlineFrequency
-title: IVideoProcAmp::get_PowerlineFrequency method
+title: IVideoProcAmp::get_PowerlineFrequency
 author: windows-driver-content
 description: The get_PowerlineFrequency method returns the camera's power line frequency setting. This setting enables the camera to perform anti-flicker processing.
 old-location: dshow\ivideoprocamp_get_powerlinefrequency.htm
 old-project: DirectShow
 ms.assetid: 8c7bfc4a-895f-45a6-9619-868d1e7bc674
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_PowerlineFrequency method, IVideoProcAmp::get_PowerlineFrequency, IVideoProcAmpget_PowerlineFrequency, dshow.ivideoprocamp_get_powerlinefrequency, get_PowerlineFrequency method [DirectShow], get_PowerlineFrequency method [DirectShow], IVideoProcAmp interface, get_PowerlineFrequency,IVideoProcAmp.get_PowerlineFrequency, vidcap/IVideoProcAmp::get_PowerlineFrequency
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],get_PowerlineFrequency method, IVideoProcAmp.get_PowerlineFrequency, IVideoProcAmp::get_PowerlineFrequency, IVideoProcAmpget_PowerlineFrequency, dshow.ivideoprocamp_get_powerlinefrequency, get_PowerlineFrequency, get_PowerlineFrequency method [DirectShow], get_PowerlineFrequency method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_PowerlineFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::get_PowerlineFrequency method
+# IVideoProcAmp::get_PowerlineFrequency
 
 
 ## -description

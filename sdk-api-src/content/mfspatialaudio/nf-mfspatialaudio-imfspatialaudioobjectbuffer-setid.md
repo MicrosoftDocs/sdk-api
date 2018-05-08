@@ -1,14 +1,14 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.SetID
-title: IMFSpatialAudioObjectBuffer::SetID method
+title: IMFSpatialAudioObjectBuffer::SetID
 author: windows-driver-content
 description: Sets the ID of the spatial audio object represented by the buffer.
 old-location: mf\imfspatialaudioobjectbuffer_setid.htm
 old-project: medfound
 ms.assetid: 01979492-2CA1-4DAA-8B03-720B521C2D9A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSpatialAudioObjectBuffer, IMFSpatialAudioObjectBuffer interface [Media Foundation], SetID method, IMFSpatialAudioObjectBuffer::SetID, SetID method [Media Foundation], SetID method [Media Foundation], IMFSpatialAudioObjectBuffer interface, SetID,IMFSpatialAudioObjectBuffer.SetID, mf.imfspatialaudioobjectbuffer_setid, mfspatialaudio/IMFSpatialAudioObjectBuffer::SetID
+ms.date: 5/3/2018
+ms.keywords: IMFSpatialAudioObjectBuffer interface [Media Foundation],SetID method, IMFSpatialAudioObjectBuffer.SetID, IMFSpatialAudioObjectBuffer::SetID, SetID, SetID method [Media Foundation], SetID method [Media Foundation],IMFSpatialAudioObjectBuffer interface, mf.imfspatialaudioobjectbuffer_setid, mfspatialaudio/IMFSpatialAudioObjectBuffer::SetID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSpatialAudioObjectBuffer::SetID method
+# IMFSpatialAudioObjectBuffer::SetID
 
 
 ## -description

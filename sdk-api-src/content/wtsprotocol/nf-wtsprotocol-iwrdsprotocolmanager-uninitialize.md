@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.Uninitialize
-title: IWRdsProtocolManager::Uninitialize method
+title: IWRdsProtocolManager::Uninitialize
 author: windows-driver-content
 description: Uninitializes the protocol manager.
 old-location: termserv\iwrdsprotocolmanager_uninitialize.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 1d7bc6e3-798e-4dc8-8892-7be6992b67ab
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolManager, IWRdsProtocolManager interface [Remote Desktop Services], Uninitialize method, IWRdsProtocolManager::Uninitialize, Uninitialize method [Remote Desktop Services], Uninitialize method [Remote Desktop Services], IWRdsProtocolManager interface, Uninitialize,IWRdsProtocolManager.Uninitialize, termserv.iwrdsprotocolmanager_uninitialize, wtsprotocol/IWRdsProtocolManager::Uninitialize
+ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],Uninitialize method, IWRdsProtocolManager.Uninitialize, IWRdsProtocolManager::Uninitialize, Uninitialize, Uninitialize method [Remote Desktop Services], Uninitialize method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_uninitialize, wtsprotocol/IWRdsProtocolManager::Uninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolManager::Uninitialize method
+# IWRdsProtocolManager::Uninitialize
 
 
 ## -description

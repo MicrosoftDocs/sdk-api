@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaCollectionAttributeStringRemoved
-title: IWMPEvents::MediaCollectionAttributeStringRemoved method
+title: IWMPEvents::MediaCollectionAttributeStringRemoved
 author: windows-driver-content
 description: The MediaCollectionAttributeStringRemoved event occurs when an attribute is removed from the library.
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringremoved.htm
 old-project: WMP
 ms.assetid: 4e7a3d71-4ec1-4c33-9101-d9d90ee8b1f9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MediaCollectionAttributeStringRemoved method, IWMPEvents::MediaCollectionAttributeStringRemoved, IWMPEventsMediaCollectionAttributeStringRemoved, MediaCollectionAttributeStringRemoved method [Windows Media Player], MediaCollectionAttributeStringRemoved method [Windows Media Player], IWMPEvents interface, MediaCollectionAttributeStringRemoved,IWMPEvents.MediaCollectionAttributeStringRemoved, wmp.iwmpevents_iwmpevents__mediacollectionattributestringremoved, wmp/IWMPEvents::MediaCollectionAttributeStringRemoved
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],MediaCollectionAttributeStringRemoved method, IWMPEvents.MediaCollectionAttributeStringRemoved, IWMPEvents::MediaCollectionAttributeStringRemoved, IWMPEventsMediaCollectionAttributeStringRemoved, MediaCollectionAttributeStringRemoved, MediaCollectionAttributeStringRemoved method [Windows Media Player], MediaCollectionAttributeStringRemoved method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediacollectionattributestringremoved, wmp/IWMPEvents::MediaCollectionAttributeStringRemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::MediaCollectionAttributeStringRemoved method
+# IWMPEvents::MediaCollectionAttributeStringRemoved
 
 
 ## -description

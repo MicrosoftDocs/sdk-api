@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetAnchorFromPoint
-title: ITextStoreAnchor::GetAnchorFromPoint method
+title: ITextStoreAnchor::GetAnchorFromPoint
 author: windows-driver-content
 description: The ITextStoreAnchor::GetAnchorFromPoint method converts a point in screen coordinates to an anchor positioned at a corresponding location.
 old-location: tsf\itextstoreanchor_getanchorfrompoint.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5567b53e-540e-41ce-b890-f2e4c5b06c57
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetAnchorFromPoint method [Text Services Framework], GetAnchorFromPoint method [Text Services Framework], ITextStoreAnchor interface, GetAnchorFromPoint,ITextStoreAnchor.GetAnchorFromPoint, ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], GetAnchorFromPoint method, ITextStoreAnchor::GetAnchorFromPoint, textstor/ITextStoreAnchor::GetAnchorFromPoint, tsf.itextstoreanchor_getanchorfrompoint
+ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetAnchorFromPoint, GetAnchorFromPoint method [Text Services Framework], GetAnchorFromPoint method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetAnchorFromPoint method, ITextStoreAnchor.GetAnchorFromPoint, ITextStoreAnchor::GetAnchorFromPoint, textstor/ITextStoreAnchor::GetAnchorFromPoint, tsf.itextstoreanchor_getanchorfrompoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::GetAnchorFromPoint method
+# ITextStoreAnchor::GetAnchorFromPoint
 
 
 ## -description

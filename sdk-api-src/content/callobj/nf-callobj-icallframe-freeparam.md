@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.FreeParam
-title: ICallFrame::FreeParam method
+title: ICallFrame::FreeParam
 author: windows-driver-content
 description: Frees the specified parameter in the frame.
 old-location: com\icallframe_freeparam.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: b141bfc4-de1b-4251-b88f-551d0805e9b6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: FreeParam method [COM], FreeParam method [COM], ICallFrame interface, FreeParam,ICallFrame.FreeParam, ICallFrame, ICallFrame interface [COM], FreeParam method, ICallFrame::FreeParam, _com_icallframe_freeparam, callobj/ICallFrame::FreeParam, com.icallframe_freeparam
+ms.keywords: FreeParam, FreeParam method [COM], FreeParam method [COM],ICallFrame interface, ICallFrame interface [COM],FreeParam method, ICallFrame.FreeParam, ICallFrame::FreeParam, _com_icallframe_freeparam, callobj/ICallFrame::FreeParam, com.icallframe_freeparam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallFrame::FreeParam method
+# ICallFrame::FreeParam
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMBackup.GenerateReport
-title: IGPMBackup::GenerateReport method
+title: IGPMBackup::GenerateReport
 author: windows-driver-content
 description: Gets the report for the backup Group Policy object (GPO).
 old-location: gpmc\igpmbackup_generatereport.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: d5daa512-547f-4b2d-85b3-0f6e9244acb2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMBackup object [GPMC], GenerateReport method, GenerateReport method [GPMC], GenerateReport method [GPMC], GPMBackup object, GenerateReport method [GPMC], IGPMBackup interface, GenerateReport,IGPMBackup.GenerateReport, IGPMBackup, IGPMBackup interface [GPMC], GenerateReport method, IGPMBackup::GenerateReport, gpmc.igpmbackup_generatereport, gpmgmt/IGPMBackup::GenerateReport
+ms.keywords: GPMBackup object [GPMC],GenerateReport method, GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],GPMBackup object, GenerateReport method [GPMC],IGPMBackup interface, IGPMBackup interface [GPMC],GenerateReport method, IGPMBackup.GenerateReport, IGPMBackup::GenerateReport, gpmc.igpmbackup_generatereport, gpmgmt/IGPMBackup::GenerateReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMBackup::GenerateReport method
+# IGPMBackup::GenerateReport
 
 
 ## -description

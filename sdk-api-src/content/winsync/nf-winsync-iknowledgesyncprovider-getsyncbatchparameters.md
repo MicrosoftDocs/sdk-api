@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.GetSyncBatchParameters
-title: IKnowledgeSyncProvider::GetSyncBatchParameters method
+title: IKnowledgeSyncProvider::GetSyncBatchParameters
 author: windows-driver-content
 description: Gets the requested number of item changes that will be included in change batches, and the current knowledge for the synchronization scope.
 old-location: winsync\iknowledgesyncprovider_getsyncbatchparameters.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 25ebd3f7-8b62-44f3-83cd-c67c5e4f6617
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSyncBatchParameters method [Windows Sync], GetSyncBatchParameters method [Windows Sync], IKnowledgeSyncProvider interface, GetSyncBatchParameters,IKnowledgeSyncProvider.GetSyncBatchParameters, IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], GetSyncBatchParameters method, IKnowledgeSyncProvider::GetSyncBatchParameters, winsync.iknowledgesyncprovider_getsyncbatchparameters, winsync/IKnowledgeSyncProvider::GetSyncBatchParameters
+ms.keywords: GetSyncBatchParameters, GetSyncBatchParameters method [Windows Sync], GetSyncBatchParameters method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetSyncBatchParameters method, IKnowledgeSyncProvider.GetSyncBatchParameters, IKnowledgeSyncProvider::GetSyncBatchParameters, winsync.iknowledgesyncprovider_getsyncbatchparameters, winsync/IKnowledgeSyncProvider::GetSyncBatchParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IKnowledgeSyncProvider::GetSyncBatchParameters method
+# IKnowledgeSyncProvider::GetSyncBatchParameters
 
 
 ## -description

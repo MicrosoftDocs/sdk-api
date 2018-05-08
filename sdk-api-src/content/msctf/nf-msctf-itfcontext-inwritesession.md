@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.InWriteSession
-title: ITfContext::InWriteSession method
+title: ITfContext::InWriteSession
 author: windows-driver-content
 description: ITfContext::InWriteSession method
 old-location: tsf\itfcontext_inwritesession.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 88a8a2c1-bd5f-47d2-8612-c7e0cabfe254
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfContext, ITfContext interface [Text Services Framework], InWriteSession method, ITfContext::InWriteSession, InWriteSession method [Text Services Framework], InWriteSession method [Text Services Framework], ITfContext interface, InWriteSession,ITfContext.InWriteSession, _tsf_itfcontext_inwritesession_ref, msctf/ITfContext::InWriteSession, tsf.itfcontext_inwritesession
+ms.keywords: ITfContext interface [Text Services Framework],InWriteSession method, ITfContext.InWriteSession, ITfContext::InWriteSession, InWriteSession, InWriteSession method [Text Services Framework], InWriteSession method [Text Services Framework],ITfContext interface, _tsf_itfcontext_inwritesession_ref, msctf/ITfContext::InWriteSession, tsf.itfcontext_inwritesession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContext::InWriteSession method
+# ITfContext::InWriteSession
 
 
 ## -description

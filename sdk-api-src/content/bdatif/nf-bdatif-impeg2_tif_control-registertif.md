@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.RegisterTIF
-title: IMPEG2_TIF_CONTROL::RegisterTIF method
+title: IMPEG2_TIF_CONTROL::RegisterTIF
 author: windows-driver-content
 description: The RegisterTIF method is called by the Transport Information Filter (TIF) to register itself with the Network Provider.
 old-location: mstv\impeg2_tif_control_registertif.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d17b1f6b-24f4-40f4-9a58-aa582c0958f8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMPEG2_TIF_CONTROL, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies], RegisterTIF method, IMPEG2_TIF_CONTROL::RegisterTIF, IMPEG2_TIF_CONTROLRegisterTIF, RegisterTIF method [Microsoft TV Technologies], RegisterTIF method [Microsoft TV Technologies], IMPEG2_TIF_CONTROL interface, RegisterTIF,IMPEG2_TIF_CONTROL.RegisterTIF, bdatif/IMPEG2_TIF_CONTROL::RegisterTIF, mstv.impeg2_tif_control_registertif
+ms.keywords: IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],RegisterTIF method, IMPEG2_TIF_CONTROL.RegisterTIF, IMPEG2_TIF_CONTROL::RegisterTIF, IMPEG2_TIF_CONTROLRegisterTIF, RegisterTIF, RegisterTIF method [Microsoft TV Technologies], RegisterTIF method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, bdatif/IMPEG2_TIF_CONTROL::RegisterTIF, mstv.impeg2_tif_control_registertif
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMPEG2_TIF_CONTROL::RegisterTIF method
+# IMPEG2_TIF_CONTROL::RegisterTIF
 
 
 ## -description

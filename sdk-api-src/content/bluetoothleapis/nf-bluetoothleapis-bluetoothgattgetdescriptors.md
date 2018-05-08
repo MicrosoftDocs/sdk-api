@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattgetdescriptors.htm
 old-project: bltooth
 ms.assetid: C4D51362-5D4E-45CC-8E29-10B201B5673C
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 4/27/2018
 ms.keywords: BluetoothGATTGetDescriptors, BluetoothGATTGetDescriptors function [Bluetooth Devices], bltooth.bluetoothgattgetdescriptors, bluetoothleapis/BluetoothGATTGetDescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

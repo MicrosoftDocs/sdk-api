@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkDesktopHost.CreateAndInitializeInkPresenter
-title: IInkDesktopHost::CreateAndInitializeInkPresenter method
+title: IInkDesktopHost::CreateAndInitializeInkPresenter
 author: windows-driver-content
 description: Creates an IInkPresenterDesktop object on an application thread, connects it to the app's DirectComposition visual tree, and sets the size of the object.
 old-location: input_ink\iinkdesktophost_createandinitializeinkpresenter.htm
@@ -8,7 +8,7 @@ old-project: input_ink
 ms.assetid: 596e1180-04ca-474b-b519-f9ebe468fb6a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateAndInitializeInkPresenter method, CreateAndInitializeInkPresenter method, IInkDesktopHost interface, CreateAndInitializeInkPresenter,IInkDesktopHost.CreateAndInitializeInkPresenter, IInkDesktopHost, IInkDesktopHost interface, CreateAndInitializeInkPresenter method, IInkDesktopHost::CreateAndInitializeInkPresenter, InkPresenterDesktop.iinkdesktophost_createandinitializeinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateAndInitializeInkPresenter, input_ink.iinkdesktophost_createandinitializeinkpresenter
+ms.keywords: CreateAndInitializeInkPresenter, CreateAndInitializeInkPresenter method, CreateAndInitializeInkPresenter method,IInkDesktopHost interface, IInkDesktopHost interface,CreateAndInitializeInkPresenter method, IInkDesktopHost.CreateAndInitializeInkPresenter, IInkDesktopHost::CreateAndInitializeInkPresenter, InkPresenterDesktop.iinkdesktophost_createandinitializeinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateAndInitializeInkPresenter, input_ink.iinkdesktophost_createandinitializeinkpresenter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInkDesktopHost::CreateAndInitializeInkPresenter method
+# IInkDesktopHost::CreateAndInitializeInkPresenter
 
 
 ## -description

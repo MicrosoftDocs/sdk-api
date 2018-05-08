@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: ba2f2038-e6ef-4ad4-a1fb-50e225394c60
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDOutboundAttachment, IWSDOutboundAttachment interface, IWSDOutboundAttachment interface, described, ncd.iwsdoutboundattachment, wsdattachment/IWSDOutboundAttachment
+ms.keywords: IWSDOutboundAttachment, IWSDOutboundAttachment interface, IWSDOutboundAttachment interface,described, ncd.iwsdoutboundattachment, wsdattachment/IWSDOutboundAttachment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

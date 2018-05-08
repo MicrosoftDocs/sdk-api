@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.EnumContexts
-title: ITfDocumentMgr::EnumContexts method
+title: ITfDocumentMgr::EnumContexts
 author: windows-driver-content
 description: ITfDocumentMgr::EnumContexts method
 old-location: tsf\itfdocumentmgr_enumcontexts.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 0656301a-9e24-4b13-bc39-7d9085c0d6f2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnumContexts method [Text Services Framework], EnumContexts method [Text Services Framework], ITfDocumentMgr interface, EnumContexts,ITfDocumentMgr.EnumContexts, ITfDocumentMgr, ITfDocumentMgr interface [Text Services Framework], EnumContexts method, ITfDocumentMgr::EnumContexts, _tsf_itfdocumentmgr_enumcontexts_ref, msctf/ITfDocumentMgr::EnumContexts, tsf.itfdocumentmgr_enumcontexts
+ms.keywords: EnumContexts, EnumContexts method [Text Services Framework], EnumContexts method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],EnumContexts method, ITfDocumentMgr.EnumContexts, ITfDocumentMgr::EnumContexts, _tsf_itfdocumentmgr_enumcontexts_ref, msctf/ITfDocumentMgr::EnumContexts, tsf.itfdocumentmgr_enumcontexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfDocumentMgr::EnumContexts method
+# ITfDocumentMgr::EnumContexts
 
 
 ## -description

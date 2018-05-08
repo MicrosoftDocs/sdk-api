@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory
-title: IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory method
+title: IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory
 author: windows-driver-content
 description: Creates and writes the exclusive-mode parameters to shared memory.
 old-location: termserv\iaudiodeviceendpoint_writeexclusivemodeparameterstosharedmemory.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 0484432a-4bbe-4892-8888-f11d6384d387
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IAudioDeviceEndpoint, IAudioDeviceEndpoint interface [Remote Desktop Services], WriteExclusiveModeParametersToSharedMemory method, IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory, WriteExclusiveModeParametersToSharedMemory method [Remote Desktop Services], WriteExclusiveModeParametersToSharedMemory method [Remote Desktop Services], IAudioDeviceEndpoint interface, WriteExclusiveModeParametersToSharedMemory,IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory, audioengineendpoint/IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory, termserv.iaudiodeviceendpoint_writeexclusivemodeparameterstosharedmemory
+ms.keywords: IAudioDeviceEndpoint interface [Remote Desktop Services],WriteExclusiveModeParametersToSharedMemory method, IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory, IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory, WriteExclusiveModeParametersToSharedMemory, WriteExclusiveModeParametersToSharedMemory method [Remote Desktop Services], WriteExclusiveModeParametersToSharedMemory method [Remote Desktop Services],IAudioDeviceEndpoint interface, audioengineendpoint/IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory, termserv.iaudiodeviceendpoint_writeexclusivemodeparameterstosharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory method
+# IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory
 
 
 ## -description

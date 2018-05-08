@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorActivityReport.GetProcessCount
-title: IMFSensorActivityReport::GetProcessCount method
+title: IMFSensorActivityReport::GetProcessCount
 author: windows-driver-content
 description: Gets the count of IMFSensorProcessActivity objects, representing the current activity of a process associated with the sensor, that are available to be retrieved.
 old-location: mf\imfsensoractivityreport_getprocesscount.htm
 old-project: medfound
 ms.assetid: 9C3DAB31-9D28-42CB-AFB8-6288658FF6B0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetProcessCount method [Media Foundation], GetProcessCount method [Media Foundation], IMFSensorActivityReport interface, GetProcessCount,IMFSensorActivityReport.GetProcessCount, IMFSensorActivityReport, IMFSensorActivityReport interface [Media Foundation], GetProcessCount method, IMFSensorActivityReport::GetProcessCount, mf.imfsensoractivityreport_getprocesscount, mfidl/IMFSensorActivityReport::GetProcessCount
+ms.date: 5/3/2018
+ms.keywords: GetProcessCount, GetProcessCount method [Media Foundation], GetProcessCount method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetProcessCount method, IMFSensorActivityReport.GetProcessCount, IMFSensorActivityReport::GetProcessCount, mf.imfsensoractivityreport_getprocesscount, mfidl/IMFSensorActivityReport::GetProcessCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorActivityReport::GetProcessCount method
+# IMFSensorActivityReport::GetProcessCount
 
 
 ## -description

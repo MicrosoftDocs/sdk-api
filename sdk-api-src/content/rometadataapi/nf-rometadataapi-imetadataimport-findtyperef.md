@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.FindTypeRef
-title: IMetaDataImport::FindTypeRef method
+title: IMetaDataImport::FindTypeRef
 author: windows-driver-content
 description: Gets a pointer to the TypeRef token for the Type reference that is in the specified scope and that has the specified name.
 old-location: winrt\imetadataimport_findtyperef.htm
 old-project: WinRT
 ms.assetid: ec89d7c0-b607-4885-b819-3eb8022ad46d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: FindTypeRef method [Windows Runtime], FindTypeRef method [Windows Runtime], IMetaDataImport interface, FindTypeRef,IMetaDataImport.FindTypeRef, IMetaDataImport, IMetaDataImport interface [Windows Runtime], FindTypeRef method, IMetaDataImport::FindTypeRef, rometadataapi/IMetaDataImport::FindTypeRef, winrt.imetadataimport_findtyperef
+ms.date: 5/4/2018
+ms.keywords: FindTypeRef, FindTypeRef method [Windows Runtime], FindTypeRef method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],FindTypeRef method, IMetaDataImport.FindTypeRef, IMetaDataImport::FindTypeRef, rometadataapi/IMetaDataImport::FindTypeRef, winrt.imetadataimport_findtyperef
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::FindTypeRef method
+# IMetaDataImport::FindTypeRef
 
 
 ## -description

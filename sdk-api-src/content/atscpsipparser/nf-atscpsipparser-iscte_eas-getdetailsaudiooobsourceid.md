@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsAudioOOBSourceID
-title: ISCTE_EAS::GetDetailsAudioOOBSourceID method
+title: ISCTE_EAS::GetDetailsAudioOOBSourceID
 author: windows-driver-content
 description: The GetDetailsAudioOOBSourceID method returns the source identifier of the virtual audio channel for the emergency alert.
 old-location: mstv\iscte_eas_getdetailsaudiooobsourceid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ab054225-e8e6-4f78-9010-15fc8e5ad15b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDetailsAudioOOBSourceID method [Microsoft TV Technologies], GetDetailsAudioOOBSourceID method [Microsoft TV Technologies], ISCTE_EAS interface, GetDetailsAudioOOBSourceID,ISCTE_EAS.GetDetailsAudioOOBSourceID, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetDetailsAudioOOBSourceID method, ISCTE_EAS::GetDetailsAudioOOBSourceID, ISCTE_EASGetDetailsAudioOOBSourceID, atscpsipparser/ISCTE_EAS::GetDetailsAudioOOBSourceID, mstv.iscte_eas_getdetailsaudiooobsourceid
+ms.keywords: GetDetailsAudioOOBSourceID, GetDetailsAudioOOBSourceID method [Microsoft TV Technologies], GetDetailsAudioOOBSourceID method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsAudioOOBSourceID method, ISCTE_EAS.GetDetailsAudioOOBSourceID, ISCTE_EAS::GetDetailsAudioOOBSourceID, ISCTE_EASGetDetailsAudioOOBSourceID, atscpsipparser/ISCTE_EAS::GetDetailsAudioOOBSourceID, mstv.iscte_eas_getdetailsaudiooobsourceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetDetailsAudioOOBSourceID method
+# ISCTE_EAS::GetDetailsAudioOOBSourceID
 
 
 ## -description

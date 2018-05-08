@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.GetStory
-title: ITextDocument2::GetStory method
+title: ITextDocument2::GetStory
 author: windows-driver-content
 description: Retrieves the story that corresponds to a particular index.
 old-location: controls\itextdocument2_getstory.htm
 old-project: Controls
 ms.assetid: bb1322e9-47b2-4770-b5de-c5eeda70eed1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetStory method [Windows Controls], GetStory method [Windows Controls], ITextDocument2 interface, GetStory,ITextDocument2.GetStory, ITextDocument2, ITextDocument2 interface [Windows Controls], GetStory method, ITextDocument2::GetStory, controls.itextdocument2_getstory, tom/ITextDocument2::GetStory
+ms.date: 4/27/2018
+ms.keywords: GetStory, GetStory method [Windows Controls], GetStory method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetStory method, ITextDocument2.GetStory, ITextDocument2::GetStory, controls.itextdocument2_getstory, tom/ITextDocument2::GetStory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::GetStory method
+# ITextDocument2::GetStory
 
 
 ## -description

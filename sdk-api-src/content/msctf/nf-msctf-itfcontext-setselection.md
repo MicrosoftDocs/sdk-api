@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.SetSelection
-title: ITfContext::SetSelection method
+title: ITfContext::SetSelection
 author: windows-driver-content
 description: ITfContext::SetSelection method
 old-location: tsf\itfcontext_setselection.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 1cf50b5e-6ec2-4649-9acc-743a2e3d8096
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfContext, ITfContext interface [Text Services Framework], SetSelection method, ITfContext::SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework], ITfContext interface, SetSelection,ITfContext.SetSelection, _tsf_itfcontext_setselection_ref, msctf/ITfContext::SetSelection, tsf.itfcontext_setselection
+ms.keywords: ITfContext interface [Text Services Framework],SetSelection method, ITfContext.SetSelection, ITfContext::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITfContext interface, _tsf_itfcontext_setselection_ref, msctf/ITfContext::SetSelection, tsf.itfcontext_setselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContext::SetSelection method
+# ITfContext::SetSelection
 
 
 ## -description

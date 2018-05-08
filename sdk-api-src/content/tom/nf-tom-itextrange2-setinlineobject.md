@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.SetInlineObject
-title: ITextRange2::SetInlineObject method
+title: ITextRange2::SetInlineObject
 author: windows-driver-content
 description: Sets or inserts the properties of an inline object for a degenerate range.
 old-location: controls\itextrange2_setinlineobject.htm
 old-project: Controls
 ms.assetid: 56876a42-a972-4a19-a8f7-a5e37c0d77f0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange2, ITextRange2 interface [Windows Controls], SetInlineObject method, ITextRange2::SetInlineObject, SetInlineObject method [Windows Controls], SetInlineObject method [Windows Controls], ITextRange2 interface, SetInlineObject,ITextRange2.SetInlineObject, controls.itextrange2_setinlineobject, tom/ITextRange2::SetInlineObject
+ms.date: 4/27/2018
+ms.keywords: ITextRange2 interface [Windows Controls],SetInlineObject method, ITextRange2.SetInlineObject, ITextRange2::SetInlineObject, SetInlineObject, SetInlineObject method [Windows Controls], SetInlineObject method [Windows Controls],ITextRange2 interface, controls.itextrange2_setinlineobject, tom/ITextRange2::SetInlineObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::SetInlineObject method
+# ITextRange2::SetInlineObject
 
 
 ## -description

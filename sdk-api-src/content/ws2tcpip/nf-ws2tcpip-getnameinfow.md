@@ -7,7 +7,7 @@ old-location: winsock\getnameinfow.htm
 old-project: WinSock
 ms.assetid: 5630a49a-c182-440c-ad54-6ff3ba4274c6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: GetNameInfoW, GetNameInfoW function [Winsock], winsock.getnameinfow, ws2tcpip/GetNameInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

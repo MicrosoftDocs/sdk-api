@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunningObjectTable.EnumRunning
-title: IRunningObjectTable::EnumRunning method
+title: IRunningObjectTable::EnumRunning
 author: windows-driver-content
 description: Creates and returns a pointer to an enumerator that can list the monikers of all the objects currently registered in the running object table (ROT).
 old-location: com\irunningobjecttable_enumrunning.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 09ff0d05-627b-4e47-8534-25cd8735c6e5
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: EnumRunning method [COM], EnumRunning method [COM], IRunningObjectTable interface, EnumRunning,IRunningObjectTable.EnumRunning, IRunningObjectTable, IRunningObjectTable interface [COM], EnumRunning method, IRunningObjectTable::EnumRunning, _com_irunningobjecttable_enumrunning, com.irunningobjecttable_enumrunning, objidl/IRunningObjectTable::EnumRunning
+ms.keywords: EnumRunning, EnumRunning method [COM], EnumRunning method [COM],IRunningObjectTable interface, IRunningObjectTable interface [COM],EnumRunning method, IRunningObjectTable.EnumRunning, IRunningObjectTable::EnumRunning, _com_irunningobjecttable_enumrunning, com.irunningobjecttable_enumrunning, objidl/IRunningObjectTable::EnumRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRunningObjectTable::EnumRunning method
+# IRunningObjectTable::EnumRunning
 
 
 ## -description

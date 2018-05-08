@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WRDS_CONNECTION_SETTINGS, *PWRDS_CONNECTION_SETTINGS, WRDS_CONNECTION_SETTINGS, *PWRDS_CONNECTION_SETTINGS
+req.typenames: WRDS_CONNECTION_SETTINGS, *PWRDS_CONNECTION_SETTINGS
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -72,6 +72,18 @@ The structure is a <a href="https://msdn.microsoft.com/93D4C843-7974-4287-9222-B
 ### -field WRdsConnectionSetting
 
 A <a href="https://msdn.microsoft.com/15991230-DBF9-4D32-A65A-1D67D1804D05">WRDS_CONNECTION_SETTING</a> structure that specifies the connection settings.
+
+
+### -field WRdsConnectionSetting.switch_is
+
+ 
+
+
+### -field WRdsConnectionSetting.switch_is.WRdsConnectionSettingLevel
+
+ 
+
+
 
 
 ## -see-also

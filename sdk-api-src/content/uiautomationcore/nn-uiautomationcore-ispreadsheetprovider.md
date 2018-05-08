@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 5D27761C-41F3-4908-B116-3ED9A379EA51
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ISpreadsheetProvider, ISpreadsheetProvider interface [Windows Accessibility], ISpreadsheetProvider interface [Windows Accessibility], described, uiautomationcore/ISpreadsheetProvider, winauto.uiauto_ISpreadsheetProvider
+ms.keywords: ISpreadsheetProvider, ISpreadsheetProvider interface [Windows Accessibility], ISpreadsheetProvider interface [Windows Accessibility],described, uiautomationcore/ISpreadsheetProvider, winauto.uiauto_ISpreadsheetProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

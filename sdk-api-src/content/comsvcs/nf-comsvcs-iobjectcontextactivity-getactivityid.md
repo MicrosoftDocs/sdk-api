@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContextActivity.GetActivityId
-title: IObjectContextActivity::GetActivityId method
+title: IObjectContextActivity::GetActivityId
 author: windows-driver-content
 description: Retrieves the GUID associated with the current activity.
 old-location: cos\iobjectcontextactivity_getactivityid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 027d92b7-17dc-4ee5-a85a-e00b425a7a7a
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetActivityId method [COM+], GetActivityId method [COM+], IObjectContextActivity interface, GetActivityId,IObjectContextActivity.GetActivityId, IObjectContextActivity, IObjectContextActivity interface [COM+], GetActivityId method, IObjectContextActivity::GetActivityId, _cos_IObjectContextActivity_GetActivityID, comsvcs/IObjectContextActivity::GetActivityId, cos.iobjectcontextactivity_getactivityid
+ms.keywords: GetActivityId, GetActivityId method [COM+], GetActivityId method [COM+],IObjectContextActivity interface, IObjectContextActivity interface [COM+],GetActivityId method, IObjectContextActivity.GetActivityId, IObjectContextActivity::GetActivityId, _cos_IObjectContextActivity_GetActivityID, comsvcs/IObjectContextActivity::GetActivityId, cos.iobjectcontextactivity_getactivityid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IObjectContextActivity::GetActivityId method
+# IObjectContextActivity::GetActivityId
 
 
 ## -description

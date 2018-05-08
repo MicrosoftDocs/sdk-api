@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.MapDesktopSurface
-title: IDXGIOutputDuplication::MapDesktopSurface method
+title: IDXGIOutputDuplication::MapDesktopSurface
 author: windows-driver-content
 description: Provides the CPU with efficient access to a desktop image if that desktop image is already in system memory.
 old-location: direct3ddxgi\idxgioutputduplication_mapdesktopsurface.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 1FFFF954-0AD2-418E-B0CC-D674994C3CCE
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIOutputDuplication, IDXGIOutputDuplication interface [DXGI], MapDesktopSurface method, IDXGIOutputDuplication::MapDesktopSurface, MapDesktopSurface method [DXGI], MapDesktopSurface method [DXGI], IDXGIOutputDuplication interface, MapDesktopSurface,IDXGIOutputDuplication.MapDesktopSurface, direct3ddxgi.idxgioutputduplication_mapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::MapDesktopSurface
+ms.keywords: IDXGIOutputDuplication interface [DXGI],MapDesktopSurface method, IDXGIOutputDuplication.MapDesktopSurface, IDXGIOutputDuplication::MapDesktopSurface, MapDesktopSurface, MapDesktopSurface method [DXGI], MapDesktopSurface method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_mapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::MapDesktopSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutputDuplication::MapDesktopSurface method
+# IDXGIOutputDuplication::MapDesktopSurface
 
 
 ## -description

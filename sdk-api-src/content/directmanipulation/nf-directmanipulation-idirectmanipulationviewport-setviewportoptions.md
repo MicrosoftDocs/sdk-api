@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetViewportOptions
-title: IDirectManipulationViewport::SetViewportOptions method
+title: IDirectManipulationViewport::SetViewportOptions
 author: windows-driver-content
 description: Sets how the viewport handles input and output.
 old-location: directmanipulation\idirectmanipulationviewport_setviewportoptions.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: F2B861B9-9E86-4AEE-B86C-03BF37F0988B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], SetViewportOptions method, IDirectManipulationViewport::SetViewportOptions, SetViewportOptions method [Direct Manipulation], SetViewportOptions method [Direct Manipulation], IDirectManipulationViewport interface, SetViewportOptions,IDirectManipulationViewport.SetViewportOptions, directmanipulation.idirectmanipulationviewport_setviewportoptions, directmanipulation/IDirectManipulationViewport::SetViewportOptions
+ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetViewportOptions method, IDirectManipulationViewport.SetViewportOptions, IDirectManipulationViewport::SetViewportOptions, SetViewportOptions, SetViewportOptions method [Direct Manipulation], SetViewportOptions method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setviewportoptions, directmanipulation/IDirectManipulationViewport::SetViewportOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::SetViewportOptions method
+# IDirectManipulationViewport::SetViewportOptions
 
 
 ## -description

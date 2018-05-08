@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextChildProvider.get_TextRange
-title: ITextChildProvider::get_TextRange method
+title: ITextChildProvider::get_TextRange
 author: windows-driver-content
 description: Retrieves a text range that encloses this child element.
 old-location: winauto\uiauto_ITextChildProvider_TextRange.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7BF4999C-901A-4007-AA93-CDE32D666CBF
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITextChildProvider, ITextChildProvider interface [Windows Accessibility], TextRange property, ITextChildProvider.TextRange, ITextChildProvider::get_TextRange, TextRange property [Windows Accessibility], TextRange property [Windows Accessibility], ITextChildProvider interface, get_TextRange,ITextChildProvider.get_TextRange, uiautomationcore/ITextChildProvider::TextRange, uiautomationcore/ITextChildProvider::get_TextRange, winauto.uiauto_ITextChildProvider_TextRange
+ms.keywords: ITextChildProvider interface [Windows Accessibility],TextRange property, ITextChildProvider.TextRange, ITextChildProvider.get_TextRange, ITextChildProvider::TextRange, ITextChildProvider::get_TextRange, TextRange property [Windows Accessibility], TextRange property [Windows Accessibility],ITextChildProvider interface, get_TextRange, uiautomationcore/ITextChildProvider::TextRange, uiautomationcore/ITextChildProvider::get_TextRange, winauto.uiauto_ITextChildProvider_TextRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextChildProvider::get_TextRange method
+# ITextChildProvider::get_TextRange
 
 
 ## -description

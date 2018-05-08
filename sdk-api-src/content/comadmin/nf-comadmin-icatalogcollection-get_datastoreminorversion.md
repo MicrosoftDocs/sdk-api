@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_DataStoreMinorVersion
-title: ICatalogCollection::get_DataStoreMinorVersion method
+title: ICatalogCollection::get_DataStoreMinorVersion
 author: windows-driver-content
 description: Retrieves the minor version number of the catalog data store.
 old-location: cos\icatalogcollection_datastoreminorversion.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 29380ed1-835e-4ac9-afeb-869acd748ebc
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: DataStoreMinorVersion property [COM+], DataStoreMinorVersion property [COM+], ICatalogCollection interface, ICatalogCollection, ICatalogCollection interface [COM+], DataStoreMinorVersion property, ICatalogCollection.DataStoreMinorVersion, ICatalogCollection::get_DataStoreMinorVersion, _cos_ICatalogCollection_get_DataStoreMinorVersion, comadmin/ICatalogCollection::DataStoreMinorVersion, comadmin/ICatalogCollection::get_DataStoreMinorVersion, cos.icatalogcollection_datastoreminorversion, get_DataStoreMinorVersion,ICatalogCollection.get_DataStoreMinorVersion
+ms.keywords: DataStoreMinorVersion property [COM+], DataStoreMinorVersion property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],DataStoreMinorVersion property, ICatalogCollection.DataStoreMinorVersion, ICatalogCollection.get_DataStoreMinorVersion, ICatalogCollection::DataStoreMinorVersion, ICatalogCollection::get_DataStoreMinorVersion, _cos_ICatalogCollection_get_DataStoreMinorVersion, comadmin/ICatalogCollection::DataStoreMinorVersion, comadmin/ICatalogCollection::get_DataStoreMinorVersion, cos.icatalogcollection_datastoreminorversion, get_DataStoreMinorVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICatalogCollection::get_DataStoreMinorVersion method
+# ICatalogCollection::get_DataStoreMinorVersion
 
 
 ## -description

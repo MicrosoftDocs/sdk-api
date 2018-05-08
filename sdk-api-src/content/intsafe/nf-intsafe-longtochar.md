@@ -7,7 +7,7 @@ old-location: shell\LongToChar.htm
 old-project: shell
 ms.assetid: 1abf1466-3491-4719-8dd2-82e4ba2506c5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: LongToChar, LongToChar function [Windows Shell], _shell_LongToChar, intsafe/LongToChar, shell.LongToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IGraphConfig.AddFilterToCache
-title: IGraphConfig::AddFilterToCache method
+title: IGraphConfig::AddFilterToCache
 author: windows-driver-content
 description: The AddFilterToCache method adds a filter to the filter cache.
 old-location: dshow\igraphconfig_addfiltertocache.htm
 old-project: DirectShow
 ms.assetid: 8d5c6d55-1628-462b-828a-50541b6da3e7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AddFilterToCache method [DirectShow], AddFilterToCache method [DirectShow], IGraphConfig interface, AddFilterToCache,IGraphConfig.AddFilterToCache, IGraphConfig, IGraphConfig interface [DirectShow], AddFilterToCache method, IGraphConfig::AddFilterToCache, IGraphConfigAddFilterToCache, dshow.igraphconfig_addfiltertocache, strmif/IGraphConfig::AddFilterToCache
+ms.date: 4/30/2018
+ms.keywords: AddFilterToCache, AddFilterToCache method [DirectShow], AddFilterToCache method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],AddFilterToCache method, IGraphConfig.AddFilterToCache, IGraphConfig::AddFilterToCache, IGraphConfigAddFilterToCache, dshow.igraphconfig_addfiltertocache, strmif/IGraphConfig::AddFilterToCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IGraphConfig::AddFilterToCache method
+# IGraphConfig::AddFilterToCache
 
 
 ## -description

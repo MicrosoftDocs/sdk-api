@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.StaleFileDeleted
-title: IMSVidStreamBufferSourceEvent::StaleFileDeleted method
+title: IMSVidStreamBufferSourceEvent::StaleFileDeleted
 author: windows-driver-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_stalefiledeleted.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 400efb81-6e16-4065-a9d8-3f0a801f306e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSourceEvent, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies], StaleFileDeleted method, IMSVidStreamBufferSourceEvent::StaleFileDeleted, IMSVidStreamBufferSourceEventStateFileDeleted, StaleFileDeleted method [Microsoft TV Technologies], StaleFileDeleted method [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent interface, StaleFileDeleted,IMSVidStreamBufferSourceEvent.StaleFileDeleted, mstv.imsvidstreambuffersourceevent_stalefiledeleted, segment/IMSVidStreamBufferSourceEvent::StaleFileDeleted
+ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],StaleFileDeleted method, IMSVidStreamBufferSourceEvent.StaleFileDeleted, IMSVidStreamBufferSourceEvent::StaleFileDeleted, IMSVidStreamBufferSourceEventStateFileDeleted, StaleFileDeleted, StaleFileDeleted method [Microsoft TV Technologies], StaleFileDeleted method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_stalefiledeleted, segment/IMSVidStreamBufferSourceEvent::StaleFileDeleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSourceEvent::StaleFileDeleted method
+# IMSVidStreamBufferSourceEvent::StaleFileDeleted
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.EscapeString
-title: IUpdateSearcher::EscapeString method
+title: IUpdateSearcher::EscapeString
 author: windows-driver-content
 description: Converts a string into a string that can be used as a literal value in a search criteria string.
 old-location: wua\iupdatesearcherescapestring.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 27d510da-3d0c-4a8a-89c9-4abc009489b4
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EscapeString method [Windows Update Agent], EscapeString method [Windows Update Agent], IUpdateSearcher interface, EscapeString,IUpdateSearcher.EscapeString, IUpdateSearcher, IUpdateSearcher interface [Windows Update Agent], EscapeString method, IUpdateSearcher::EscapeString, wua.iupdatesearcherescapestring, wuapi/IUpdateSearcher::EscapeString
+ms.keywords: EscapeString, EscapeString method [Windows Update Agent], EscapeString method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EscapeString method, IUpdateSearcher.EscapeString, IUpdateSearcher::EscapeString, wua.iupdatesearcherescapestring, wuapi/IUpdateSearcher::EscapeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSearcher::EscapeString method
+# IUpdateSearcher::EscapeString
 
 
 ## -description

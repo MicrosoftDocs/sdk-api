@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetClipStatus
-title: IDirect3DDevice9::GetClipStatus method
+title: IDirect3DDevice9::GetClipStatus
 author: windows-driver-content
 description: Retrieves the clip status.
 old-location: direct3d9\idirect3ddevice9__getclipstatus.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getclipstatus.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: GetClipStatus method [Direct3D 9], GetClipStatus method [Direct3D 9], IDirect3DDevice9 interface, GetClipStatus,IDirect3DDevice9.GetClipStatus, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetClipStatus method, IDirect3DDevice9::GetClipStatus, d3d9helper/IDirect3DDevice9::GetClipStatus, df453492-e7c5-c7f3-db0d-498aa59e68b8, direct3d9.idirect3ddevice9__getclipstatus
+ms.keywords: GetClipStatus, GetClipStatus method [Direct3D 9], GetClipStatus method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetClipStatus method, IDirect3DDevice9.GetClipStatus, IDirect3DDevice9::GetClipStatus, d3d9helper/IDirect3DDevice9::GetClipStatus, df453492-e7c5-c7f3-db0d-498aa59e68b8, direct3d9.idirect3ddevice9__getclipstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::GetClipStatus method
+# IDirect3DDevice9::GetClipStatus
 
 
 ## -description

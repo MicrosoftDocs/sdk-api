@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFNetCredentialCache.GetCredential
-title: IMFNetCredentialCache::GetCredential method
+title: IMFNetCredentialCache::GetCredential
 author: windows-driver-content
 description: Retrieves the credential object for the specified URL.
 old-location: mf\imfnetcredentialcache_getcredential.htm
 old-project: medfound
 ms.assetid: 7e095445-354a-4fbb-b354-bf87eb77552f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 7e095445-354a-4fbb-b354-bf87eb77552f, GetCredential method [Media Foundation], GetCredential method [Media Foundation], IMFNetCredentialCache interface, GetCredential,IMFNetCredentialCache.GetCredential, IMFNetCredentialCache, IMFNetCredentialCache interface [Media Foundation], GetCredential method, IMFNetCredentialCache::GetCredential, mf.imfnetcredentialcache_getcredential, mfidl/IMFNetCredentialCache::GetCredential
+ms.date: 5/3/2018
+ms.keywords: 7e095445-354a-4fbb-b354-bf87eb77552f, GetCredential, GetCredential method [Media Foundation], GetCredential method [Media Foundation],IMFNetCredentialCache interface, IMFNetCredentialCache interface [Media Foundation],GetCredential method, IMFNetCredentialCache.GetCredential, IMFNetCredentialCache::GetCredential, mf.imfnetcredentialcache_getcredential, mfidl/IMFNetCredentialCache::GetCredential
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFNetCredentialCache::GetCredential method
+# IMFNetCredentialCache::GetCredential
 
 
 ## -description

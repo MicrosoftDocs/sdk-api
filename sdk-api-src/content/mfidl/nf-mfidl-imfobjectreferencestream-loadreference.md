@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFObjectReferenceStream.LoadReference
-title: IMFObjectReferenceStream::LoadReference method
+title: IMFObjectReferenceStream::LoadReference
 author: windows-driver-content
 description: Marshals an interface from data stored in the stream.
 old-location: mf\imfobjectreferencestream_loadreference.htm
 old-project: medfound
 ms.assetid: fabf7de2-8433-43ba-9ded-001569614054
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFObjectReferenceStream, IMFObjectReferenceStream interface [Media Foundation], LoadReference method, IMFObjectReferenceStream::LoadReference, LoadReference method [Media Foundation], LoadReference method [Media Foundation], IMFObjectReferenceStream interface, LoadReference,IMFObjectReferenceStream.LoadReference, fabf7de2-8433-43ba-9ded-001569614054, mf.imfobjectreferencestream_loadreference, mfidl/IMFObjectReferenceStream::LoadReference
+ms.date: 5/3/2018
+ms.keywords: IMFObjectReferenceStream interface [Media Foundation],LoadReference method, IMFObjectReferenceStream.LoadReference, IMFObjectReferenceStream::LoadReference, LoadReference, LoadReference method [Media Foundation], LoadReference method [Media Foundation],IMFObjectReferenceStream interface, fabf7de2-8433-43ba-9ded-001569614054, mf.imfobjectreferencestream_loadreference, mfidl/IMFObjectReferenceStream::LoadReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFObjectReferenceStream::LoadReference method
+# IMFObjectReferenceStream::LoadReference
 
 
 ## -description

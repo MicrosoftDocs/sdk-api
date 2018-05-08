@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetNumProtocolsSupported
-title: IWMReaderNetworkConfig::GetNumProtocolsSupported method
+title: IWMReaderNetworkConfig::GetNumProtocolsSupported
 author: windows-driver-content
 description: The GetNumProtocolsSupported method retrieves the number of supported protocols.
 old-location: wmformat\iwmreadernetworkconfig_getnumprotocolssupported.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 6e249d8f-0351-452f-9b53-86f77df2fd70
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetNumProtocolsSupported method [windows Media Format], GetNumProtocolsSupported method [windows Media Format], IWMReaderNetworkConfig interface, GetNumProtocolsSupported,IWMReaderNetworkConfig.GetNumProtocolsSupported, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetNumProtocolsSupported method, IWMReaderNetworkConfig::GetNumProtocolsSupported, IWMReaderNetworkConfigGetNumProtocolsSupported, wmformat.iwmreadernetworkconfig_getnumprotocolssupported, wmsdkidl/IWMReaderNetworkConfig::GetNumProtocolsSupported
+ms.keywords: GetNumProtocolsSupported, GetNumProtocolsSupported method [windows Media Format], GetNumProtocolsSupported method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetNumProtocolsSupported method, IWMReaderNetworkConfig.GetNumProtocolsSupported, IWMReaderNetworkConfig::GetNumProtocolsSupported, IWMReaderNetworkConfigGetNumProtocolsSupported, wmformat.iwmreadernetworkconfig_getnumprotocolssupported, wmsdkidl/IWMReaderNetworkConfig::GetNumProtocolsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetNumProtocolsSupported method
+# IWMReaderNetworkConfig::GetNumProtocolsSupported
 
 
 ## -description

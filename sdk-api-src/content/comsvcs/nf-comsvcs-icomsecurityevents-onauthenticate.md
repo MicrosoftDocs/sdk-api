@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComSecurityEvents.OnAuthenticate
-title: IComSecurityEvents::OnAuthenticate method
+title: IComSecurityEvents::OnAuthenticate
 author: windows-driver-content
 description: Generated when a method call level authentication succeeds.
 old-location: cos\icomsecurityevents_onauthenticate.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 4be635c6-9601-419d-933e-555b2ae6b73d
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComSecurityEvents, IComSecurityEvents interface [COM+], OnAuthenticate method, IComSecurityEvents::OnAuthenticate, OnAuthenticate method [COM+], OnAuthenticate method [COM+], IComSecurityEvents interface, OnAuthenticate,IComSecurityEvents.OnAuthenticate, _dtc_IComSecurityEvents_OnAuthenticate, comsvcs/IComSecurityEvents::OnAuthenticate, cos.icomsecurityevents_onauthenticate
+ms.keywords: IComSecurityEvents interface [COM+],OnAuthenticate method, IComSecurityEvents.OnAuthenticate, IComSecurityEvents::OnAuthenticate, OnAuthenticate, OnAuthenticate method [COM+], OnAuthenticate method [COM+],IComSecurityEvents interface, _dtc_IComSecurityEvents_OnAuthenticate, comsvcs/IComSecurityEvents::OnAuthenticate, cos.icomsecurityevents_onauthenticate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComSecurityEvents::OnAuthenticate method
+# IComSecurityEvents::OnAuthenticate
 
 
 ## -description

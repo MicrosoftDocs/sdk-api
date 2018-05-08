@@ -59,6 +59,29 @@ Contains information returned by the
 
 
 
+### -field ModuleWriteFlags
+
+The module write operation flags. This member can be one or more of the values in the 
+<a href="https://msdn.microsoft.com/f074edb2-2cd7-44f6-994b-c649201c1e9d">MODULE_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
+
+This member is ignored unless the callback type is <b>IncludeModuleCallback</b> or <b>ModuleCallback</b>.
+
+
+### -field ThreadWriteFlags
+
+The thread write operation flags. This member can be one or more of the values in the 
+<a href="https://msdn.microsoft.com/b2d933c0-5e52-4078-82ea-844c2415eb45">THREAD_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
+
+This member is ignored unless the callback type is <b>IncludeThreadCallback</b>, <b>ThreadCallback</b>, or <b>ThreadExCallback</b>.
+
+
+### -field SecondaryFlags
+
+Contains a value from the <a href="https://msdn.microsoft.com/c8485db1-0cc0-4baa-90fb-b5c1f9236b80">MINIDUMP_SECONDARY_FLAGS</a> enumeration type.
+
+<b>DbgHelp 6.5 and earlier:  </b>This member is not available.
+
+
 ### -field MemoryBase
 
 The base address of the memory region to be included in the dump. 
@@ -85,6 +108,13 @@ This member is ignored unless the callback type is <b>CancelCallback</b>.
 Controls whether the dump should be canceled. If the callback function returns <b>TRUE</b> and <b>Cancel</b> is <b>TRUE</b>, the dump will be canceled. In this case, the <a href="https://msdn.microsoft.com/b476023d-0e93-4d76-9ba8-ce5766c9ac51">MiniDumpWriteDump</a> function fails and the dump is not valid.
 
 This member is ignored unless the callback type is <b>CancelCallback</b>.
+
+
+### -field Handle
+
+A handle to the file to which a kernel minidump will be written.
+
+This member is ignored unless the callback type is <b>WriteKernelMinidumpCallback</b>.
 
 
 ### -field VmRegion
@@ -121,43 +151,11 @@ This member is ignored unless the callback type is <b>IncludeVmRegionCallback</b
  
 
 
-
-
-#### - Handle
-
-A handle to the file to which a kernel minidump will be written.
-
-This member is ignored unless the callback type is <b>WriteKernelMinidumpCallback</b>.
-
-
-#### - ModuleWriteFlags
-
-The module write operation flags. This member can be one or more of the values in the 
-<a href="https://msdn.microsoft.com/f074edb2-2cd7-44f6-994b-c649201c1e9d">MODULE_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
-
-This member is ignored unless the callback type is <b>IncludeModuleCallback</b> or <b>ModuleCallback</b>.
-
-
-#### - SecondaryFlags
-
-Contains a value from the <a href="https://msdn.microsoft.com/c8485db1-0cc0-4baa-90fb-b5c1f9236b80">MINIDUMP_SECONDARY_FLAGS</a> enumeration type.
-
-<b>DbgHelp 6.5 and earlier:  </b>This member is not available.
-
-
-#### - Status
+### -field Status
 
 The status of the operation.
 
 This member is ignored unless the callback type is <b>ReadMemoryFailureCallback</b>, <b>IoStartCallback</b>, <b>IoWriteAllCallback</b>, or <b>IoFinishCallback</b>.
-
-
-#### - ThreadWriteFlags
-
-The thread write operation flags. This member can be one or more of the values in the 
-<a href="https://msdn.microsoft.com/b2d933c0-5e52-4078-82ea-844c2415eb45">THREAD_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
-
-This member is ignored unless the callback type is <b>IncludeThreadCallback</b>, <b>ThreadCallback</b>, or <b>ThreadExCallback</b>.
 
 
 ## -see-also

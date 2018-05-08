@@ -7,8 +7,8 @@ old-location: properties\IPropertySystem.htm
 old-project: properties
 ms.assetid: 9ead94d9-4d4e-44c6-8c53-11c4c4ee2fb2
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: IPropertySystem, IPropertySystem interface [Windows Properties], IPropertySystem interface [Windows Properties], described, properties.IPropertySystem, propsys/IPropertySystem, shell.IPropertySystem, shell_IPropertySystem
+ms.date: 4/27/2018
+ms.keywords: IPropertySystem, IPropertySystem interface [Windows Properties], IPropertySystem interface [Windows Properties],described, properties.IPropertySystem, propsys/IPropertySystem, shell.IPropertySystem, shell_IPropertySystem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

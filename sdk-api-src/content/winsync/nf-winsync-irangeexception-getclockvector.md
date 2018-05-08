@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRangeException.GetClockVector
-title: IRangeException::GetClockVector method
+title: IRangeException::GetClockVector
 author: windows-driver-content
 description: Gets the clock vector that is associated with this exception.
 old-location: winsync\irangeexception_getclockvector.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 9a13bb4c-ed0e-45f0-a78f-13eadd32760e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetClockVector method [Windows Sync], GetClockVector method [Windows Sync], IRangeException interface, GetClockVector,IRangeException.GetClockVector, IRangeException, IRangeException interface [Windows Sync], GetClockVector method, IRangeException::GetClockVector, winsync.irangeexception_getclockvector, winsync/IRangeException::GetClockVector
+ms.keywords: GetClockVector, GetClockVector method [Windows Sync], GetClockVector method [Windows Sync],IRangeException interface, IRangeException interface [Windows Sync],GetClockVector method, IRangeException.GetClockVector, IRangeException::GetClockVector, winsync.irangeexception_getclockvector, winsync/IRangeException::GetClockVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IRangeException::GetClockVector method
+# IRangeException::GetClockVector
 
 
 ## -description

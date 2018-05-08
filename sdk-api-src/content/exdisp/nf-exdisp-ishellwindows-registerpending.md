@@ -1,14 +1,14 @@
 ---
 UID: NF:exdisp.IShellWindows.RegisterPending
-title: IShellWindows::RegisterPending method
+title: IShellWindows::RegisterPending
 author: windows-driver-content
 description: Registers a pending window as a Shell window; the window is specified by an absolute PIDL.
 old-location: shell\IShellWindows_RegisterPending.htm
 old-project: shell
 ms.assetid: 75e8b82c-a94e-4aad-a224-f12b22b8a4b2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], RegisterPending method, IShellWindows::RegisterPending, RegisterPending method [Windows Shell], RegisterPending method [Windows Shell], IShellWindows interface, RegisterPending,IShellWindows.RegisterPending, _win32_IShellWindows_RegisterPending, exdisp/IShellWindows::RegisterPending, shell.IShellWindows_RegisterPending
+ms.date: 5/3/2018
+ms.keywords: IShellWindows interface [Windows Shell],RegisterPending method, IShellWindows.RegisterPending, IShellWindows::RegisterPending, RegisterPending, RegisterPending method [Windows Shell], RegisterPending method [Windows Shell],IShellWindows interface, _win32_IShellWindows_RegisterPending, exdisp/IShellWindows::RegisterPending, shell.IShellWindows_RegisterPending
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IShellWindows::RegisterPending method
+# IShellWindows::RegisterPending
 
 
 ## -description

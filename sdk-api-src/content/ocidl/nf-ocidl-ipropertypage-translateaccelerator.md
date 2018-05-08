@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.TranslateAccelerator
-title: IPropertyPage::TranslateAccelerator method
+title: IPropertyPage::TranslateAccelerator
 author: windows-driver-content
 description: Passes a keystroke to the property page for processing.
 old-location: com\ipropertypage_translateaccelerator.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 70501c3d-257c-4981-b841-4bd45f0bec27
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPropertyPage, IPropertyPage interface [COM], TranslateAccelerator method, IPropertyPage::TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM], IPropertyPage interface, TranslateAccelerator,IPropertyPage.TranslateAccelerator, _ctrl_ipropertypage_translateaccelerator, com.ipropertypage_translateaccelerator, ocidl/IPropertyPage::TranslateAccelerator
+ms.keywords: IPropertyPage interface [COM],TranslateAccelerator method, IPropertyPage.TranslateAccelerator, IPropertyPage::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IPropertyPage interface, _ctrl_ipropertypage_translateaccelerator, com.ipropertypage_translateaccelerator, ocidl/IPropertyPage::TranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyPage::TranslateAccelerator method
+# IPropertyPage::TranslateAccelerator
 
 
 ## -description

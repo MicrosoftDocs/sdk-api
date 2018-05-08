@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisession.get_ImportRecorder
-title: IMultisession::get_ImportRecorder method
+title: IMultisession::get_ImportRecorder
 author: windows-driver-content
 description: Retrieves the disc recorder to use to import one or more previous sessions.
 old-location: imapi\imultisession_get_importrecorder.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: eca127eb-0e0a-4f43-afa4-42fde8d43284
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMultisession, IMultisession interface [IMAPI], get_ImportRecorder method, IMultisession::get_ImportRecorder, get_ImportRecorder method [IMAPI], get_ImportRecorder method [IMAPI], IMultisession interface, get_ImportRecorder,IMultisession.get_ImportRecorder, imapi.imultisession_get_importrecorder, imapi2/IMultisession::get_ImportRecorder
+ms.keywords: IMultisession interface [IMAPI],get_ImportRecorder method, IMultisession.get_ImportRecorder, IMultisession::get_ImportRecorder, get_ImportRecorder, get_ImportRecorder method [IMAPI], get_ImportRecorder method [IMAPI],IMultisession interface, imapi.imultisession_get_importrecorder, imapi2/IMultisession::get_ImportRecorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMultisession::get_ImportRecorder method
+# IMultisession::get_ImportRecorder
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.SetVideoAttributes
-title: IMFTranscodeProfile::SetVideoAttributes method
+title: IMFTranscodeProfile::SetVideoAttributes
 author: windows-driver-content
 description: Sets video stream configuration settings in the transcode profile.
 old-location: mf\imftranscodeprofile_setvideoattributes.htm
 old-project: medfound
 ms.assetid: e68653c5-5663-4839-a482-2244e147f4b9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], SetVideoAttributes method, IMFTranscodeProfile::SetVideoAttributes, SetVideoAttributes method [Media Foundation], SetVideoAttributes method [Media Foundation], IMFTranscodeProfile interface, SetVideoAttributes,IMFTranscodeProfile.SetVideoAttributes, mf.imftranscodeprofile_setvideoattributes, mfidl/IMFTranscodeProfile::SetVideoAttributes
+ms.date: 5/3/2018
+ms.keywords: IMFTranscodeProfile interface [Media Foundation],SetVideoAttributes method, IMFTranscodeProfile.SetVideoAttributes, IMFTranscodeProfile::SetVideoAttributes, SetVideoAttributes, SetVideoAttributes method [Media Foundation], SetVideoAttributes method [Media Foundation],IMFTranscodeProfile interface, mf.imftranscodeprofile_setvideoattributes, mfidl/IMFTranscodeProfile::SetVideoAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTranscodeProfile::SetVideoAttributes method
+# IMFTranscodeProfile::SetVideoAttributes
 
 
 ## -description

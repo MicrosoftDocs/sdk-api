@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMsaPolicy
-title: IXblIdpAuthTokenResult::GetMsaPolicy method
+title: IXblIdpAuthTokenResult::GetMsaPolicy
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getmsapolicy.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: C2DFE2D9-EDDF-41BF-9E58-3D35054434DA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetMsaPolicy method, GetMsaPolicy method, IXblIdpAuthTokenResult interface, GetMsaPolicy,IXblIdpAuthTokenResult.GetMsaPolicy, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetMsaPolicy method, IXblIdpAuthTokenResult::GetMsaPolicy, xblidp.ixblidpauthtokenresult_getmsapolicy, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaPolicy
+ms.keywords: GetMsaPolicy, GetMsaPolicy method, GetMsaPolicy method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaPolicy method, IXblIdpAuthTokenResult.GetMsaPolicy, IXblIdpAuthTokenResult::GetMsaPolicy, xblidp.ixblidpauthtokenresult_getmsapolicy, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetMsaPolicy method
+# IXblIdpAuthTokenResult::GetMsaPolicy
 
 
 ## -description

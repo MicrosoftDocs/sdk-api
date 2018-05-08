@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetText
-title: IDvbDataBroadcastDescriptor::GetText method
+title: IDvbDataBroadcastDescriptor::GetText
 author: windows-driver-content
 description: Gets the text that describes the data from a Digital Video Broadcast (DVB) data broadcast descriptor.
 old-location: mstv\idvbdatabroadcastdescriptor_gettext.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3b25a5fa-5829-4c7f-8858-59fdddccdc65
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetText method [Microsoft TV Technologies], GetText method [Microsoft TV Technologies], IDvbDataBroadcastDescriptor interface, GetText,IDvbDataBroadcastDescriptor.GetText, IDvbDataBroadcastDescriptor, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies], GetText method, IDvbDataBroadcastDescriptor::GetText, dvbsiparser/IDvbDataBroadcastDescriptor::GetText, mstv.idvbdatabroadcastdescriptor_gettext
+ms.keywords: GetText, GetText method [Microsoft TV Technologies], GetText method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetText method, IDvbDataBroadcastDescriptor.GetText, IDvbDataBroadcastDescriptor::GetText, dvbsiparser/IDvbDataBroadcastDescriptor::GetText, mstv.idvbdatabroadcastdescriptor_gettext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbDataBroadcastDescriptor::GetText method
+# IDvbDataBroadcastDescriptor::GetText
 
 
 ## -description

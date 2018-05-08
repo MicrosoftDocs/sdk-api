@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.DeleteClassAsync
-title: IWbemServices::DeleteClassAsync method
+title: IWbemServices::DeleteClassAsync
 author: windows-driver-content
 description: The IWbemServices::DeleteClassAsync method deletes the specified class from the current namespace.
 old-location: wmi\iwbemservices_deleteclassasync.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: ebb58f3b-201c-4e37-8a51-9b5e2365cf3c
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: DeleteClassAsync method [Windows Management Instrumentation], DeleteClassAsync method [Windows Management Instrumentation], IWbemServices interface, DeleteClassAsync,IWbemServices.DeleteClassAsync, IWbemServices, IWbemServices interface [Windows Management Instrumentation], DeleteClassAsync method, IWbemServices::DeleteClassAsync, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_SEND_STATUS, _hmm_iwbemservices_deleteclassasync, wbemcli/IWbemServices::DeleteClassAsync, wmi.iwbemservices_deleteclassasync
+ms.keywords: DeleteClassAsync, DeleteClassAsync method [Windows Management Instrumentation], DeleteClassAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],DeleteClassAsync method, IWbemServices.DeleteClassAsync, IWbemServices::DeleteClassAsync, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_SEND_STATUS, _hmm_iwbemservices_deleteclassasync, wbemcli/IWbemServices::DeleteClassAsync, wmi.iwbemservices_deleteclassasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,7 +58,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemServices::DeleteClassAsync method
+# IWbemServices::DeleteClassAsync
 
 
 ## -description

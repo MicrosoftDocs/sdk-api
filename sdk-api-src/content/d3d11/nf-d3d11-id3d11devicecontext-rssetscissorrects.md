@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.RSSetScissorRects
-title: ID3D11DeviceContext::RSSetScissorRects method
+title: ID3D11DeviceContext::RSSetScissorRects
 author: windows-driver-content
 description: Bind an array of scissor rectangles to the rasterizer stage.
 old-location: direct3d11\id3d11devicecontext_rssetscissorrects.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 80bee89d-1743-475c-a284-8137cfacdac2
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 28026545-0d38-beff-91cf-a929caef1657, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], RSSetScissorRects method, ID3D11DeviceContext::RSSetScissorRects, RSSetScissorRects method [Direct3D 11], RSSetScissorRects method [Direct3D 11], ID3D11DeviceContext interface, RSSetScissorRects,ID3D11DeviceContext.RSSetScissorRects, d3d11/ID3D11DeviceContext::RSSetScissorRects, direct3d11.id3d11devicecontext_rssetscissorrects
+ms.keywords: 28026545-0d38-beff-91cf-a929caef1657, ID3D11DeviceContext interface [Direct3D 11],RSSetScissorRects method, ID3D11DeviceContext.RSSetScissorRects, ID3D11DeviceContext::RSSetScissorRects, RSSetScissorRects, RSSetScissorRects method [Direct3D 11], RSSetScissorRects method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::RSSetScissorRects, direct3d11.id3d11devicecontext_rssetscissorrects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::RSSetScissorRects method
+# ID3D11DeviceContext::RSSetScissorRects
 
 
 ## -description

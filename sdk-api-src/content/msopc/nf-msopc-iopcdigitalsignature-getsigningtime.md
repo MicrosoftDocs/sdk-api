@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSigningTime
-title: IOpcDigitalSignature::GetSigningTime method
+title: IOpcDigitalSignature::GetSigningTime
 author: windows-driver-content
 description: Gets a string that indicates the time at which the signature was generated.
 old-location: opc\iopcdigitalsignature_getsigningtime.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 8054eba8-ca53-42e4-9105-ef7cf20637c1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSigningTime method [Open Packaging Conventions], GetSigningTime method [Open Packaging Conventions], IOpcDigitalSignature interface, GetSigningTime,IOpcDigitalSignature.GetSigningTime, IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], GetSigningTime method, IOpcDigitalSignature::GetSigningTime, msopc/IOpcDigitalSignature::GetSigningTime, opc.iopcdigitalsignature_getsigningtime
+ms.keywords: GetSigningTime, GetSigningTime method [Open Packaging Conventions], GetSigningTime method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSigningTime method, IOpcDigitalSignature.GetSigningTime, IOpcDigitalSignature::GetSigningTime, msopc/IOpcDigitalSignature::GetSigningTime, opc.iopcdigitalsignature_getsigningtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignature::GetSigningTime method
+# IOpcDigitalSignature::GetSigningTime
 
 
 ## -description

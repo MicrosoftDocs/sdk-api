@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_EnrollmentContext
-title: IX509CertificateRequest::get_EnrollmentContext method
+title: IX509CertificateRequest::get_EnrollmentContext
 author: windows-driver-content
 description: Retrieves a value that specifies whether the certificate is intended for a computer or a user.
 old-location: security\ix509certificaterequest_enrollmentcontext_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: ea0fa54d-0de6-4578-b93a-1e399101006b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, EnrollmentContext property [Security], EnrollmentContext property [Security], IX509CertificateRequest interface, IX509CertificateRequest, IX509CertificateRequest interface [Security], EnrollmentContext property, IX509CertificateRequest.EnrollmentContext, IX509CertificateRequest::get_EnrollmentContext, certenroll/IX509CertificateRequest::EnrollmentContext, certenroll/IX509CertificateRequest::get_EnrollmentContext, get_EnrollmentContext,IX509CertificateRequest.get_EnrollmentContext, security.ix509certificaterequest_enrollmentcontext_property
+ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, EnrollmentContext property [Security], EnrollmentContext property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],EnrollmentContext property, IX509CertificateRequest.EnrollmentContext, IX509CertificateRequest.get_EnrollmentContext, IX509CertificateRequest::EnrollmentContext, IX509CertificateRequest::get_EnrollmentContext, certenroll/IX509CertificateRequest::EnrollmentContext, certenroll/IX509CertificateRequest::get_EnrollmentContext, get_EnrollmentContext, security.ix509certificaterequest_enrollmentcontext_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequest::get_EnrollmentContext method
+# IX509CertificateRequest::get_EnrollmentContext
 
 
 ## -description

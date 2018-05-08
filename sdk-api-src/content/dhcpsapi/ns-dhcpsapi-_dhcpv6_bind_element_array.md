@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6_bind_element_array.htm
 old-project: DHCP
 ms.assetid: b78ebdf8-da24-418c-8fe8-aed3047dfdf3
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCPV6_BIND_ELEMENT_ARRAY, DHCPV6_BIND_ELEMENT_ARRAY, DHCPV6_BIND_ELEMENT_ARRAY structure [DHCP], PDHCPV6_BIND_ELEMENT_ARRAY, PDHCPV6_BIND_ELEMENT_ARRAY structure pointer [DHCP], _DHCPV6_BIND_ELEMENT_ARRAY, dhcp.dhcpv6_bind_element_array, dhcpsapi/DHCPV6_BIND_ELEMENT_ARRAY, dhcpsapi/PDHCPV6_BIND_ELEMENT_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Integer that contains the total number of elements in the array pointed to by <b
 ### -field Elements
 
 Pointer to an array of <a href="https://msdn.microsoft.com/7c5b1d5d-7c91-46a8-aaa0-1d957430461d">DHCPV6_BIND_ELEMENT</a> structures that contains the DHCPv6 interface bindings.
+
+
+### -field Elements.size_is
+
+ 
+
+
+### -field Elements.size_is.NumElements
+
+ 
+
+
 
 
 ## -see-also

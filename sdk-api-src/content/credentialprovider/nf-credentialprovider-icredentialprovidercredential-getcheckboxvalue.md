@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetCheckboxValue
-title: ICredentialProviderCredential::GetCheckboxValue method
+title: ICredentialProviderCredential::GetCheckboxValue
 author: windows-driver-content
 description: Retrieves the checkbox value.
 old-location: shell\ICredentialProviderCredential_GetCheckboxValue.htm
 old-project: shell
 ms.assetid: f7fcf44c-bc5e-4d15-bbd8-7f7e9df9240b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCheckboxValue method [Windows Shell], GetCheckboxValue method [Windows Shell], ICredentialProviderCredential interface, GetCheckboxValue,ICredentialProviderCredential.GetCheckboxValue, ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], GetCheckboxValue method, ICredentialProviderCredential::GetCheckboxValue, _shell_ICredentialProviderCredential_GetCheckboxValue, credentialprovider/ICredentialProviderCredential::GetCheckboxValue, shell.ICredentialProviderCredential_GetCheckboxValue
+ms.date: 5/3/2018
+ms.keywords: GetCheckboxValue, GetCheckboxValue method [Windows Shell], GetCheckboxValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetCheckboxValue method, ICredentialProviderCredential.GetCheckboxValue, ICredentialProviderCredential::GetCheckboxValue, _shell_ICredentialProviderCredential_GetCheckboxValue, credentialprovider/ICredentialProviderCredential::GetCheckboxValue, shell.ICredentialProviderCredential_GetCheckboxValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProviderCredential::GetCheckboxValue method
+# ICredentialProviderCredential::GetCheckboxValue
 
 
 ## -description

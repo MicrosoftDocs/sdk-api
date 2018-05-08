@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IContext.RemoveProperty
-title: IContext::RemoveProperty method
+title: IContext::RemoveProperty
 author: windows-driver-content
 description: Removes the specified context property from the context.
 old-location: com\icontext_removeproperty.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bb5b282a-d337-4371-b1c2-1b429a5bf135
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IContext, IContext interface [COM], RemoveProperty method, IContext::RemoveProperty, RemoveProperty method [COM], RemoveProperty method [COM], IContext interface, RemoveProperty,IContext.RemoveProperty, _com_icontext_removeproperty, com.icontext_removeproperty, objidlbase/IContext::RemoveProperty
+ms.keywords: IContext interface [COM],RemoveProperty method, IContext.RemoveProperty, IContext::RemoveProperty, RemoveProperty, RemoveProperty method [COM], RemoveProperty method [COM],IContext interface, _com_icontext_removeproperty, com.icontext_removeproperty, objidlbase/IContext::RemoveProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IContext::RemoveProperty method
+# IContext::RemoveProperty
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.SetPageIndex
-title: ITfCandidateListUIElement::SetPageIndex method
+title: ITfCandidateListUIElement::SetPageIndex
 author: windows-driver-content
 description: The ITfCandidateListUIElement::SetPageIndex method sets the page index.
 old-location: tsf\itfcandidatelistuielement_setpageindex.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2e7a5185-2e4b-4f8e-b7c0-d9462d61b113
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], SetPageIndex method, ITfCandidateListUIElement::SetPageIndex, SetPageIndex method [Text Services Framework], SetPageIndex method [Text Services Framework], ITfCandidateListUIElement interface, SetPageIndex,ITfCandidateListUIElement.SetPageIndex, msctf/ITfCandidateListUIElement::SetPageIndex, tsf.itfcandidatelistuielement_setpageindex
+ms.keywords: ITfCandidateListUIElement interface [Text Services Framework],SetPageIndex method, ITfCandidateListUIElement.SetPageIndex, ITfCandidateListUIElement::SetPageIndex, SetPageIndex, SetPageIndex method [Text Services Framework], SetPageIndex method [Text Services Framework],ITfCandidateListUIElement interface, msctf/ITfCandidateListUIElement::SetPageIndex, tsf.itfcandidatelistuielement_setpageindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCandidateListUIElement::SetPageIndex method
+# ITfCandidateListUIElement::SetPageIndex
 
 
 ## -description

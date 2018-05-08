@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.ConnectFromTrackerSource
-title: IReferenceTracker::ConnectFromTrackerSource method
+title: IReferenceTracker::xaml
 author: windows-driver-content
 description: Indicates that a reference tracker source has created its first COM reference on a reference tracker object.
 old-location: winrt\ireferencetracker_connectfromtrackersource.htm
 old-project: WinRT
 ms.assetid: 7c5a0eaf-01a9-476c-8c71-1c817aa41fae
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ConnectFromTrackerSource method [Windows Runtime], ConnectFromTrackerSource method [Windows Runtime], IReferenceTracker interface, ConnectFromTrackerSource,IReferenceTracker.ConnectFromTrackerSource, IReferenceTracker, IReferenceTracker interface [Windows Runtime], ConnectFromTrackerSource method, IReferenceTracker::ConnectFromTrackerSource, windows/IReferenceTracker::ConnectFromTrackerSource, winrt.ireferencetracker_connectfromtrackersource
+ms.date: 5/4/2018
+ms.keywords: ConnectFromTrackerSource, ConnectFromTrackerSource method [Windows Runtime], ConnectFromTrackerSource method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],ConnectFromTrackerSource method, IReferenceTracker.ConnectFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::ConnectFromTrackerSource, IReferenceTracker::xaml, windows/IReferenceTracker::ConnectFromTrackerSource, winrt.ireferencetracker_connectfromtrackersource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IReferenceTracker::ConnectFromTrackerSource method
+# IReferenceTracker::xaml
 
 
 ## -description

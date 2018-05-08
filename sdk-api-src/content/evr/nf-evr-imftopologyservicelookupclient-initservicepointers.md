@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFTopologyServiceLookupClient.InitServicePointers
-title: IMFTopologyServiceLookupClient::InitServicePointers method
+title: IMFTopologyServiceLookupClient::InitServicePointers
 author: windows-driver-content
 description: Signals the mixer or presenter to query the enhanced video renderer (EVR) for interface pointers.
 old-location: mf\imftopologyservicelookupclient_initservicepointers.htm
 old-project: medfound
 ms.assetid: b89f5a47-154c-455a-b5a2-db55e4972b21
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTopologyServiceLookupClient, IMFTopologyServiceLookupClient interface [Media Foundation], InitServicePointers method, IMFTopologyServiceLookupClient::InitServicePointers, InitServicePointers method [Media Foundation], InitServicePointers method [Media Foundation], IMFTopologyServiceLookupClient interface, InitServicePointers,IMFTopologyServiceLookupClient.InitServicePointers, b89f5a47-154c-455a-b5a2-db55e4972b21, evr/IMFTopologyServiceLookupClient::InitServicePointers, mf.imftopologyservicelookupclient_initservicepointers
+ms.date: 5/3/2018
+ms.keywords: IMFTopologyServiceLookupClient interface [Media Foundation],InitServicePointers method, IMFTopologyServiceLookupClient.InitServicePointers, IMFTopologyServiceLookupClient::InitServicePointers, InitServicePointers, InitServicePointers method [Media Foundation], InitServicePointers method [Media Foundation],IMFTopologyServiceLookupClient interface, b89f5a47-154c-455a-b5a2-db55e4972b21, evr/IMFTopologyServiceLookupClient::InitServicePointers, mf.imftopologyservicelookupclient_initservicepointers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFTopologyServiceLookupClient::InitServicePointers method
+# IMFTopologyServiceLookupClient::InitServicePointers
 
 
 ## -description

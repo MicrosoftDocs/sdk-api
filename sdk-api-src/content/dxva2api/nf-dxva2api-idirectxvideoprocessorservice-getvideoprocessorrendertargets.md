@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.GetVideoProcessorRenderTargets
-title: IDirectXVideoProcessorService::GetVideoProcessorRenderTargets method
+title: IDirectXVideoProcessorService::GetVideoProcessorRenderTargets
 author: windows-driver-content
 description: Gets the render target formats that a video processor device supports. The list may include RGB and YUV formats.
 old-location: mf\idirectxvideoprocessorservice_getvideoprocessorrendertargets.htm
 old-project: medfound
 ms.assetid: aecbba1e-309c-4668-9e17-d59710d86151
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoProcessorRenderTargets method [Media Foundation], GetVideoProcessorRenderTargets method [Media Foundation], IDirectXVideoProcessorService interface, GetVideoProcessorRenderTargets,IDirectXVideoProcessorService.GetVideoProcessorRenderTargets, IDirectXVideoProcessorService, IDirectXVideoProcessorService interface [Media Foundation], GetVideoProcessorRenderTargets method, IDirectXVideoProcessorService::GetVideoProcessorRenderTargets, aecbba1e-309c-4668-9e17-d59710d86151, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorRenderTargets, mf.idirectxvideoprocessorservice_getvideoprocessorrendertargets
+ms.date: 5/3/2018
+ms.keywords: GetVideoProcessorRenderTargets, GetVideoProcessorRenderTargets method [Media Foundation], GetVideoProcessorRenderTargets method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorRenderTargets method, IDirectXVideoProcessorService.GetVideoProcessorRenderTargets, IDirectXVideoProcessorService::GetVideoProcessorRenderTargets, aecbba1e-309c-4668-9e17-d59710d86151, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorRenderTargets, mf.idirectxvideoprocessorservice_getvideoprocessorrendertargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirectXVideoProcessorService::GetVideoProcessorRenderTargets method
+# IDirectXVideoProcessorService::GetVideoProcessorRenderTargets
 
 
 ## -description

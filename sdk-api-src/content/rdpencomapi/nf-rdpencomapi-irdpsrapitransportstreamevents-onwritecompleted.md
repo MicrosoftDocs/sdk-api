@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamEvents.OnWriteCompleted
-title: IRDPSRAPITransportStreamEvents::OnWriteCompleted method
+title: IRDPSRAPITransportStreamEvents::OnWriteCompleted
 author: windows-driver-content
 description: Notifies the Remote Desktop Protocol (RDP) stack that a write operation has completed.
 old-location: rdp\irdpsrapitransportstreamevents_onwritecompleted.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 19d99eba-e7ee-4bdc-8a9f-2cac97d17dea
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITransportStreamEvents, IRDPSRAPITransportStreamEvents interface [RDP], OnWriteCompleted method, IRDPSRAPITransportStreamEvents::OnWriteCompleted, OnWriteCompleted method [RDP], OnWriteCompleted method [RDP], IRDPSRAPITransportStreamEvents interface, OnWriteCompleted,IRDPSRAPITransportStreamEvents.OnWriteCompleted, rdp.irdpsrapitransportstreamevents_onwritecompleted, rdpencomapi/IRDPSRAPITransportStreamEvents::OnWriteCompleted
+ms.keywords: IRDPSRAPITransportStreamEvents interface [RDP],OnWriteCompleted method, IRDPSRAPITransportStreamEvents.OnWriteCompleted, IRDPSRAPITransportStreamEvents::OnWriteCompleted, OnWriteCompleted, OnWriteCompleted method [RDP], OnWriteCompleted method [RDP],IRDPSRAPITransportStreamEvents interface, rdp.irdpsrapitransportstreamevents_onwritecompleted, rdpencomapi/IRDPSRAPITransportStreamEvents::OnWriteCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITransportStreamEvents::OnWriteCompleted method
+# IRDPSRAPITransportStreamEvents::OnWriteCompleted
 
 
 ## -description

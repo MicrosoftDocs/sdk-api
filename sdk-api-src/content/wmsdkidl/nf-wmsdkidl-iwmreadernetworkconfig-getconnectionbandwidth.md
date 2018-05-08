@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetConnectionBandwidth
-title: IWMReaderNetworkConfig::GetConnectionBandwidth method
+title: IWMReaderNetworkConfig::GetConnectionBandwidth
 author: windows-driver-content
 description: The GetConnectionBandwidth method retrieves the connection bandwidth for the client.
 old-location: wmformat\iwmreadernetworkconfig_getconnectionbandwidth.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: cbbc945d-91ea-4d21-a1ac-2fcbcb081447
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetConnectionBandwidth method [windows Media Format], GetConnectionBandwidth method [windows Media Format], IWMReaderNetworkConfig interface, GetConnectionBandwidth,IWMReaderNetworkConfig.GetConnectionBandwidth, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetConnectionBandwidth method, IWMReaderNetworkConfig::GetConnectionBandwidth, IWMReaderNetworkConfigGetConnectionBandwidth, wmformat.iwmreadernetworkconfig_getconnectionbandwidth, wmsdkidl/IWMReaderNetworkConfig::GetConnectionBandwidth
+ms.keywords: GetConnectionBandwidth, GetConnectionBandwidth method [windows Media Format], GetConnectionBandwidth method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetConnectionBandwidth method, IWMReaderNetworkConfig.GetConnectionBandwidth, IWMReaderNetworkConfig::GetConnectionBandwidth, IWMReaderNetworkConfigGetConnectionBandwidth, wmformat.iwmreadernetworkconfig_getconnectionbandwidth, wmsdkidl/IWMReaderNetworkConfig::GetConnectionBandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetConnectionBandwidth method
+# IWMReaderNetworkConfig::GetConnectionBandwidth
 
 
 ## -description

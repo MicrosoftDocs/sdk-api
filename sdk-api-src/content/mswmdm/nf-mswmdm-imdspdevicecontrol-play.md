@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.Play
-title: IMDSPDeviceControl::Play method
+title: IMDSPDeviceControl::Play
 author: windows-driver-content
 description: The Play method begins playing at the current seek position. If the Seek method has not been called, then playing begins at the beginning of the first file, and the play length is not defined.
 old-location: wmdm\imdspdevicecontrol_play.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 09ca1922-3b33-47a8-a851-a1d221a568b9
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], Play method, IMDSPDeviceControl::Play, IMDSPDeviceControlPlay, Play method [windows Media Device Manager], Play method [windows Media Device Manager], IMDSPDeviceControl interface, Play,IMDSPDeviceControl.Play, mswmdm/IMDSPDeviceControl::Play, wmdm.imdspdevicecontrol_play
+ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Play method, IMDSPDeviceControl.Play, IMDSPDeviceControl::Play, IMDSPDeviceControlPlay, Play, Play method [windows Media Device Manager], Play method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Play, wmdm.imdspdevicecontrol_play
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPDeviceControl::Play method
+# IMDSPDeviceControl::Play
 
 
 ## -description

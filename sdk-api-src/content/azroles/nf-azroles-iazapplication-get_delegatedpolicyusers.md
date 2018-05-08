@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.get_DelegatedPolicyUsers
-title: IAzApplication::get_DelegatedPolicyUsers method
+title: IAzApplication::get_DelegatedPolicyUsers
 author: windows-driver-content
 description: Retrieves the security identifiers (SIDs), in text form, of principals that act as delegated policy users.
 old-location: security\iazapplication_delegatedpolicyusers.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: b20e1d5c-b07e-4f75-8b63-38036b07b24d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplication object [Security], DelegatedPolicyUsers property, DelegatedPolicyUsers property [Security], DelegatedPolicyUsers property [Security], AzApplication object, DelegatedPolicyUsers property [Security], IAzApplication interface, IAzApplication, IAzApplication interface [Security], DelegatedPolicyUsers property, IAzApplication.DelegatedPolicyUsers, IAzApplication::get_DelegatedPolicyUsers, azroles/IAzApplication::DelegatedPolicyUsers, azroles/IAzApplication::get_DelegatedPolicyUsers, get_DelegatedPolicyUsers,IAzApplication.get_DelegatedPolicyUsers, security.iazapplication_delegatedpolicyusers
+ms.keywords: AzApplication object [Security],DelegatedPolicyUsers property, DelegatedPolicyUsers property [Security], DelegatedPolicyUsers property [Security],AzApplication object, DelegatedPolicyUsers property [Security],IAzApplication interface, IAzApplication interface [Security],DelegatedPolicyUsers property, IAzApplication.DelegatedPolicyUsers, IAzApplication.get_DelegatedPolicyUsers, IAzApplication::DelegatedPolicyUsers, IAzApplication::get_DelegatedPolicyUsers, azroles/IAzApplication::DelegatedPolicyUsers, azroles/IAzApplication::get_DelegatedPolicyUsers, get_DelegatedPolicyUsers, security.iazapplication_delegatedpolicyusers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::get_DelegatedPolicyUsers method
+# IAzApplication::get_DelegatedPolicyUsers
 
 
 ## -description

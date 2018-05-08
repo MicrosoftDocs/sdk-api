@@ -7,7 +7,7 @@ old-location: buses\winusb_getpowerpolicy.htm
 old-project: usbref
 ms.assetid: 515a4548-d89f-458d-89ed-1cc4d25561ef
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/3/2018
 ms.keywords: WinUsb_GetPowerPolicy, WinUsb_GetPowerPolicy function [Buses], buses.winusb_getpowerpolicy, winusb/WinUsb_GetPowerPolicy, winusbfunc_85084f46-4707-4fd1-8246-61cd4a18eec0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

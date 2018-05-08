@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_KeySpec
-title: ICspInformation::get_KeySpec method
+title: ICspInformation::get_KeySpec
 author: windows-driver-content
 description: Retrieves a value that specifies the intended use of the algorithms supported by the provider.
 old-location: security\icspinformation_keyspec_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: f66f2f5c-7f50-4be6-973e-844d6cb76f61
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspInformation, ICspInformation interface [Security], KeySpec property, ICspInformation.KeySpec, ICspInformation::get_KeySpec, KeySpec property [Security], KeySpec property [Security], ICspInformation interface, XCN_AT_KEYEXCHANGE (1), XCN_AT_SIGNATURE (2), certenroll/ICspInformation::KeySpec, certenroll/ICspInformation::get_KeySpec, get_KeySpec,ICspInformation.get_KeySpec, security.icspinformation_keyspec_property
+ms.keywords: ICspInformation interface [Security],KeySpec property, ICspInformation.KeySpec, ICspInformation.get_KeySpec, ICspInformation::KeySpec, ICspInformation::get_KeySpec, KeySpec property [Security], KeySpec property [Security],ICspInformation interface, XCN_AT_KEYEXCHANGE (1), XCN_AT_SIGNATURE (2), certenroll/ICspInformation::KeySpec, certenroll/ICspInformation::get_KeySpec, get_KeySpec, security.icspinformation_keyspec_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformation::get_KeySpec method
+# ICspInformation::get_KeySpec
 
 
 ## -description

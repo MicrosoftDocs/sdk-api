@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatch.BeginUnorderedGroup
-title: ISyncChangeBatch::BeginUnorderedGroup method
+title: ISyncChangeBatch::BeginUnorderedGroup
 author: windows-driver-content
 description: Opens an unordered group in the change batch. Item changes in this group can be in any order.
 old-location: winsync\isyncchangebatch_beginunorderedgroup.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 8d44451a-9150-4b2c-b126-d4fa90c2e192
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: BeginUnorderedGroup method [Windows Sync], BeginUnorderedGroup method [Windows Sync], ISyncChangeBatch interface, BeginUnorderedGroup,ISyncChangeBatch.BeginUnorderedGroup, ISyncChangeBatch, ISyncChangeBatch interface [Windows Sync], BeginUnorderedGroup method, ISyncChangeBatch::BeginUnorderedGroup, winsync.isyncchangebatch_beginunorderedgroup, winsync/ISyncChangeBatch::BeginUnorderedGroup
+ms.keywords: BeginUnorderedGroup, BeginUnorderedGroup method [Windows Sync], BeginUnorderedGroup method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],BeginUnorderedGroup method, ISyncChangeBatch.BeginUnorderedGroup, ISyncChangeBatch::BeginUnorderedGroup, winsync.isyncchangebatch_beginunorderedgroup, winsync/ISyncChangeBatch::BeginUnorderedGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatch::BeginUnorderedGroup method
+# ISyncChangeBatch::BeginUnorderedGroup
 
 
 ## -description

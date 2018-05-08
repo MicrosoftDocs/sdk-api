@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.GetMonitor
-title: IVMRMonitorConfig::GetMonitor method
+title: IVMRMonitorConfig::GetMonitor
 author: windows-driver-content
 description: The GetMonitor method retrieves the monitor that this instance of the VMR is using for video playback.
 old-location: dshow\ivmrmonitorconfig_getmonitor.htm
 old-project: DirectShow
 ms.assetid: 8d71f1d1-4f8b-4ff8-9a4f-d25050821622
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMonitor method [DirectShow], GetMonitor method [DirectShow], IVMRMonitorConfig interface, GetMonitor,IVMRMonitorConfig.GetMonitor, IVMRMonitorConfig, IVMRMonitorConfig interface [DirectShow], GetMonitor method, IVMRMonitorConfig::GetMonitor, IVMRMonitorConfigGetMonitor, dshow.ivmrmonitorconfig_getmonitor, strmif/IVMRMonitorConfig::GetMonitor
+ms.date: 4/30/2018
+ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IVMRMonitorConfig interface, IVMRMonitorConfig interface [DirectShow],GetMonitor method, IVMRMonitorConfig.GetMonitor, IVMRMonitorConfig::GetMonitor, IVMRMonitorConfigGetMonitor, dshow.ivmrmonitorconfig_getmonitor, strmif/IVMRMonitorConfig::GetMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRMonitorConfig::GetMonitor method
+# IVMRMonitorConfig::GetMonitor
 
 
 ## -description

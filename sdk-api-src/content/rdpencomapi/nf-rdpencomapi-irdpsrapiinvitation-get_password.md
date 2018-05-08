@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_Password
-title: IRDPSRAPIInvitation::get_Password method
+title: IRDPSRAPIInvitation::get_Password
 author: windows-driver-content
 description: The password string.
 old-location: rdp\irdpsrapiinvitation_password.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 53d55a81-73c3-4196-b23e-b4719a1ceced
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIInvitation, IRDPSRAPIInvitation interface [RDP], Password property, IRDPSRAPIInvitation.Password, IRDPSRAPIInvitation::get_Password, Password property [RDP], Password property [RDP], IRDPSRAPIInvitation interface, Password property [RDP], RDPSRAPIInvitation object, RDPSRAPIInvitation object [RDP], Password property, get_Password,IRDPSRAPIInvitation.get_Password, rdp.irdpsrapiinvitation_password, rdpencomapi/IRDPSRAPIInvitation::Password, rdpencomapi/IRDPSRAPIInvitation::get_Password
+ms.keywords: IRDPSRAPIInvitation interface [RDP],Password property, IRDPSRAPIInvitation.Password, IRDPSRAPIInvitation.get_Password, IRDPSRAPIInvitation::Password, IRDPSRAPIInvitation::get_Password, Password property [RDP], Password property [RDP],IRDPSRAPIInvitation interface, Password property [RDP],RDPSRAPIInvitation object, RDPSRAPIInvitation object [RDP],Password property, get_Password, rdp.irdpsrapiinvitation_password, rdpencomapi/IRDPSRAPIInvitation::Password, rdpencomapi/IRDPSRAPIInvitation::get_Password
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIInvitation::get_Password method
+# IRDPSRAPIInvitation::get_Password
 
 
 ## -description

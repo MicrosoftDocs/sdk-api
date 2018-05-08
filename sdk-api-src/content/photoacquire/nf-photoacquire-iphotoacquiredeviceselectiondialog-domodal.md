@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireDeviceSelectionDialog.DoModal
-title: IPhotoAcquireDeviceSelectionDialog::DoModal method
+title: IPhotoAcquireDeviceSelectionDialog::DoModal
 author: windows-driver-content
 description: The DoModal method displays a device selection dialog box. The function returns when the user selects a device using the modal dialog box.
 old-location: picacq\iphotoacquiredeviceselectiondialog_domodal.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: eb79c07b-3b80-4f2b-b1f1-2394e1c7a30b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DoModal method [Picture Acquisition], DoModal method [Picture Acquisition], IPhotoAcquireDeviceSelectionDialog interface, DoModal,IPhotoAcquireDeviceSelectionDialog.DoModal, IPhotoAcquireDeviceSelectionDialog, IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition], DoModal method, IPhotoAcquireDeviceSelectionDialog::DoModal, IPhotoAcquireDeviceSelectionDialogDoModal, photoacquire/IPhotoAcquireDeviceSelectionDialog::DoModal, picacq.iphotoacquiredeviceselectiondialog_domodal
+ms.keywords: DoModal, DoModal method [Picture Acquisition], DoModal method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],DoModal method, IPhotoAcquireDeviceSelectionDialog.DoModal, IPhotoAcquireDeviceSelectionDialog::DoModal, IPhotoAcquireDeviceSelectionDialogDoModal, photoacquire/IPhotoAcquireDeviceSelectionDialog::DoModal, picacq.iphotoacquiredeviceselectiondialog_domodal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireDeviceSelectionDialog::DoModal method
+# IPhotoAcquireDeviceSelectionDialog::DoModal
 
 
 ## -description

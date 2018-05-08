@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateSingleArray
-title: IPropertyValueStatics::CreateSingleArray method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified array of 32-bit floating point values.
 old-location: winrt\ipropertyvaluestatics_createsinglearray.htm
 old-project: WinRT
 ms.assetid: 525303cc-052b-4895-92a6-cfb5985b31d2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateSingleArray method [Windows Runtime], CreateSingleArray method [Windows Runtime], IPropertyValueStatics interface, CreateSingleArray,IPropertyValueStatics.CreateSingleArray, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateSingleArray method, IPropertyValueStatics::CreateSingleArray, windows/IPropertyValueStatics::CreateSingleArray, winrt.ipropertyvaluefactory_createsinglearray, winrt.ipropertyvaluestatics_createsinglearray
+ms.date: 5/4/2018
+ms.keywords: CreateSingleArray, CreateSingleArray method [Windows Runtime], CreateSingleArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSingleArray method, IPropertyValueStatics.CreateSingleArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSingleArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSingleArray, winrt.ipropertyvaluefactory_createsinglearray, winrt.ipropertyvaluestatics_createsinglearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateSingleArray method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

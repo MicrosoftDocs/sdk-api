@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.ProcessGraphEvent
-title: CMSPCallMultiGraph::ProcessGraphEvent method
+title: CMSPCallMultiGraph::ProcessGraphEvent
 author: windows-driver-content
 description: The ProcessGraphEvent method (as defined in MSPCall.h) is called on the MSP worker thread.
 old-location: tapi3\cmspcallmultigraph_processgraphevent.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 2b41a8ac-8aa1-47d0-ad90-f6f177895149
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph interface [TAPI 2.2], ProcessGraphEvent method, CMSPCallMultiGraph::ProcessGraphEvent, ProcessGraphEvent method [TAPI 2.2], ProcessGraphEvent method [TAPI 2.2], CMSPCallMultiGraph interface, ProcessGraphEvent,CMSPCallMultiGraph.ProcessGraphEvent, _tapi3_cmspcallmultigraph_processgraphevent, mspcall/CMSPCallMultiGraph::ProcessGraphEvent, tapi3.cmspcallmultigraph_processgraphevent
+ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],ProcessGraphEvent method, CMSPCallMultiGraph.ProcessGraphEvent, CMSPCallMultiGraph::ProcessGraphEvent, ProcessGraphEvent, ProcessGraphEvent method [TAPI 2.2], ProcessGraphEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_processgraphevent, mspcall/CMSPCallMultiGraph::ProcessGraphEvent, tapi3.cmspcallmultigraph_processgraphevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPCallMultiGraph::ProcessGraphEvent method
+# CMSPCallMultiGraph::ProcessGraphEvent
 
 
 ## -description

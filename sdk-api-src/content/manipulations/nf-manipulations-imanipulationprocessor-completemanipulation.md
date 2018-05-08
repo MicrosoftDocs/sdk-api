@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.CompleteManipulation
-title: IManipulationProcessor::CompleteManipulation method
+title: IManipulationProcessor::CompleteManipulation
 author: windows-driver-content
 description: The CompleteManipulation method is called when the developer chooses to end the manipulation.
 old-location: wintouch\imanipulationprocessor_completemanipulation.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 01779628-1f46-4cea-90fa-1093e26e0285
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: CompleteManipulation method [Windows Touch], CompleteManipulation method [Windows Touch], IManipulationProcessor interface, CompleteManipulation,IManipulationProcessor.CompleteManipulation, IManipulationProcessor, IManipulationProcessor interface [Windows Touch], CompleteManipulation method, IManipulationProcessor::CompleteManipulation, manipulations/IManipulationProcessor::CompleteManipulation, wintouch.imanipulationprocessor_completemanipulation
+ms.keywords: CompleteManipulation, CompleteManipulation method [Windows Touch], CompleteManipulation method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],CompleteManipulation method, IManipulationProcessor.CompleteManipulation, IManipulationProcessor::CompleteManipulation, manipulations/IManipulationProcessor::CompleteManipulation, wintouch.imanipulationprocessor_completemanipulation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IManipulationProcessor::CompleteManipulation method
+# IManipulationProcessor::CompleteManipulation
 
 
 ## -description

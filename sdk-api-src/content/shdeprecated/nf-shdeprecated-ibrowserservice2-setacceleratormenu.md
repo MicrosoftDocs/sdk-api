@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.SetAcceleratorMenu
-title: IBrowserService2::SetAcceleratorMenu method
+title: IBrowserService2::SetAcceleratorMenu
 author: windows-driver-content
 description: Deprecated. Implemented by a derived class to define menu accelerators that can be used in a call to TranslateAcceleratorSB.
 old-location: shell\IBrowserService2_SetAcceleratorMenu.htm
 old-project: shell
 ms.assetid: 64c7ce89-c3c5-4a09-aff2-57103ade671a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], SetAcceleratorMenu method, IBrowserService2::SetAcceleratorMenu, SetAcceleratorMenu method [Windows Shell], SetAcceleratorMenu method [Windows Shell], IBrowserService2 interface, SetAcceleratorMenu,IBrowserService2.SetAcceleratorMenu, shdeprecated/IBrowserService2::SetAcceleratorMenu, shell.IBrowserService2_SetAcceleratorMenu, zone_IBrowserService2_SetAcceleratorMenu
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],SetAcceleratorMenu method, IBrowserService2.SetAcceleratorMenu, IBrowserService2::SetAcceleratorMenu, SetAcceleratorMenu, SetAcceleratorMenu method [Windows Shell], SetAcceleratorMenu method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::SetAcceleratorMenu, shell.IBrowserService2_SetAcceleratorMenu, zone_IBrowserService2_SetAcceleratorMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::SetAcceleratorMenu method
+# IBrowserService2::SetAcceleratorMenu
 
 
 ## -description

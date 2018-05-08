@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.SetObjectTotalSize
-title: IWMDMOperation::SetObjectTotalSize method
+title: IWMDMOperation::SetObjectTotalSize
 author: windows-driver-content
 description: The SetObjectTotalSize method assigns the total size in bytes of an object. This method is currently not called by Windows Media Device Manager.
 old-location: wmdm\iwmdmoperation_setobjecttotalsize.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 009716e8-6a4e-4373-9a7c-69dad815e743
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMOperation, IWMDMOperation interface [windows Media Device Manager], SetObjectTotalSize method, IWMDMOperation::SetObjectTotalSize, IWMDMOperationSetObjectTotalSize, SetObjectTotalSize method [windows Media Device Manager], SetObjectTotalSize method [windows Media Device Manager], IWMDMOperation interface, SetObjectTotalSize,IWMDMOperation.SetObjectTotalSize, mswmdm/IWMDMOperation::SetObjectTotalSize, wmdm.iwmdmoperation_setobjecttotalsize
+ms.keywords: IWMDMOperation interface [windows Media Device Manager],SetObjectTotalSize method, IWMDMOperation.SetObjectTotalSize, IWMDMOperation::SetObjectTotalSize, IWMDMOperationSetObjectTotalSize, SetObjectTotalSize, SetObjectTotalSize method [windows Media Device Manager], SetObjectTotalSize method [windows Media Device Manager],IWMDMOperation interface, mswmdm/IWMDMOperation::SetObjectTotalSize, wmdm.iwmdmoperation_setobjecttotalsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMOperation::SetObjectTotalSize method
+# IWMDMOperation::SetObjectTotalSize
 
 
 ## -description

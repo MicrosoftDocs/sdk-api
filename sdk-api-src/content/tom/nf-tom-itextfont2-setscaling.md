@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.SetScaling
-title: ITextFont2::SetScaling method
+title: ITextFont2::SetScaling
 author: windows-driver-content
 description: Sets the font horizontal scaling percentage.
 old-location: controls\itextfont2_setscaling.htm
 old-project: Controls
 ms.assetid: b5f26c0a-a1bd-4be8-84b8-92a6d0cfafdb
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetScaling method, ITextFont2::SetScaling, SetScaling method [Windows Controls], SetScaling method [Windows Controls], ITextFont2 interface, SetScaling,ITextFont2.SetScaling, controls.itextfont2_setscaling, tom/ITextFont2::SetScaling
+ms.date: 4/27/2018
+ms.keywords: ITextFont2 interface [Windows Controls],SetScaling method, ITextFont2.SetScaling, ITextFont2::SetScaling, SetScaling, SetScaling method [Windows Controls], SetScaling method [Windows Controls],ITextFont2 interface, controls.itextfont2_setscaling, tom/ITextFont2::SetScaling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::SetScaling method
+# ITextFont2::SetScaling
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmpservices.IWMPGraphCreation.GraphCreationPreRender
-title: IWMPGraphCreation::GraphCreationPreRender method
+title: IWMPGraphCreation::GraphCreationPreRender
 author: windows-driver-content
 description: The GraphCreationPreRender method is called by Windows Media Player before a file is rendered.
 old-location: wmp\iwmpgraphcreation_graphcreationprerender.htm
 old-project: WMP
 ms.assetid: d3375fa9-2ab0-4e82-9196-0b3971a00185
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GraphCreationPreRender method [Windows Media Player], GraphCreationPreRender method [Windows Media Player], IWMPGraphCreation interface, GraphCreationPreRender,IWMPGraphCreation.GraphCreationPreRender, IWMPGraphCreation, IWMPGraphCreation interface [Windows Media Player], GraphCreationPreRender method, IWMPGraphCreation::GraphCreationPreRender, IWMPGraphCreationGraphCreationPreRenderdeprecated, wmp.iwmpgraphcreation_graphcreationprerender, wmpservices/IWMPGraphCreation::GraphCreationPreRender
+ms.date: 5/4/2018
+ms.keywords: GraphCreationPreRender, GraphCreationPreRender method [Windows Media Player], GraphCreationPreRender method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GraphCreationPreRender method, IWMPGraphCreation.GraphCreationPreRender, IWMPGraphCreation::GraphCreationPreRender, IWMPGraphCreationGraphCreationPreRenderdeprecated, wmp.iwmpgraphcreation_graphcreationprerender, wmpservices/IWMPGraphCreation::GraphCreationPreRender
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPGraphCreation::GraphCreationPreRender method
+# IWMPGraphCreation::GraphCreationPreRender
 
 
 ## -description

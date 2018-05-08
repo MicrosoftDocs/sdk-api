@@ -7,7 +7,7 @@ old-location: ad\dsqueryparams.htm
 old-project: AD
 ms.assetid: 78c3fb1c-275e-45b6-bbe9-ae2d85864e6a
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: "*LPDSQUERYPARAMS, DSQUERYPARAMS, DSQUERYPARAMS structure [Active Directory], LPDSQUERYPARAMS, LPDSQUERYPARAMS structure pointer [Active Directory], _glines_dsqueryparams, ad.dsqueryparams, dsquery/DSQUERYPARAMS, dsquery/LPDSQUERYPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

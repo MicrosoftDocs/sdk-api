@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.RegisterForEvent
-title: ISyncProviderRegistration::RegisterForEvent method
+title: ISyncProviderRegistration::RegisterForEvent
 author: windows-driver-content
 description: Registers the user to receive notification of the arrival of new registration events that oocur when changes are made to the registration store.
 old-location: winsync\isyncproviderregistration_registerforevent.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: b636a3b4-2ac2-4400-b8ed-4430f598db7b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncProviderRegistration, ISyncProviderRegistration interface [Windows Sync], RegisterForEvent method, ISyncProviderRegistration::RegisterForEvent, RegisterForEvent method [Windows Sync], RegisterForEvent method [Windows Sync], ISyncProviderRegistration interface, RegisterForEvent,ISyncProviderRegistration.RegisterForEvent, syncregistration/ISyncProviderRegistration::RegisterForEvent, winsync.isyncproviderregistration_registerforevent
+ms.keywords: ISyncProviderRegistration interface [Windows Sync],RegisterForEvent method, ISyncProviderRegistration.RegisterForEvent, ISyncProviderRegistration::RegisterForEvent, RegisterForEvent, RegisterForEvent method [Windows Sync], RegisterForEvent method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::RegisterForEvent, winsync.isyncproviderregistration_registerforevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderRegistration::RegisterForEvent method
+# ISyncProviderRegistration::RegisterForEvent
 
 
 ## -description

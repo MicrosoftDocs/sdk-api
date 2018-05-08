@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: C8860AEE-807A-435E-9F44-B50545320EDA
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CreatePrintControl, CreatePrintControl methods [Direct2D], d2d1_1/CreatePrintControl, direct2d.id2d1device_createprintcontrol
+ms.keywords: CreatePrintControl, CreatePrintControl methods [Direct2D], ID2D1Device::CreatePrintControl, d2d1_1/CreatePrintControl, direct2d.id2d1device_createprintcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

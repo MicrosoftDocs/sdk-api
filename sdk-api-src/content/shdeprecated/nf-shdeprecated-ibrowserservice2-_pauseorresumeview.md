@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._PauseOrResumeView
-title: IBrowserService2::_PauseOrResumeView method
+title: IBrowserService2::_PauseOrResumeView
 author: windows-driver-content
 description: Deprecated. Enables a derived class to request the base class to either pause (such as before a minimize operation) or resume the browser view.
 old-location: shell\IBrowserService2__PauseOrResumeView.htm
 old-project: shell
 ms.assetid: cc6884c8-222c-4990-b178-ea5665d30d57
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _PauseOrResumeView method, IBrowserService2::_PauseOrResumeView, _PauseOrResumeView method [Windows Shell], _PauseOrResumeView method [Windows Shell], IBrowserService2 interface, _PauseOrResumeView,IBrowserService2._PauseOrResumeView, shdeprecated/IBrowserService2::_PauseOrResumeView, shell.IBrowserService2__PauseOrResumeView, zone_IBrowserService2__PauseOrResumeView
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],_PauseOrResumeView method, IBrowserService2._PauseOrResumeView, IBrowserService2::_PauseOrResumeView, _PauseOrResumeView, _PauseOrResumeView method [Windows Shell], _PauseOrResumeView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_PauseOrResumeView, shell.IBrowserService2__PauseOrResumeView, zone_IBrowserService2__PauseOrResumeView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::_PauseOrResumeView method
+# IBrowserService2::_PauseOrResumeView
 
 
 ## -description

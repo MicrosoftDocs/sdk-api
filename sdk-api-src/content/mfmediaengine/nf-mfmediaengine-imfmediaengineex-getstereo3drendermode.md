@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStereo3DRenderMode
-title: IMFMediaEngineEx::GetStereo3DRenderMode method
+title: IMFMediaEngineEx::GetStereo3DRenderMode
 author: windows-driver-content
 description: For stereoscopic 3D video, queries how the Media Engine renders the 3D video content.
 old-location: mf\imfmediaengineex_getstereo3drendermode.htm
 old-project: medfound
 ms.assetid: 204C9B35-860F-46FD-AF3F-7BC7E1EE12EF
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStereo3DRenderMode method [Media Foundation], GetStereo3DRenderMode method [Media Foundation], IMFMediaEngineEx interface, GetStereo3DRenderMode,IMFMediaEngineEx.GetStereo3DRenderMode, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetStereo3DRenderMode method, IMFMediaEngineEx::GetStereo3DRenderMode, mf.imfmediaengineex_getstereo3drendermode, mfmediaengine/IMFMediaEngineEx::GetStereo3DRenderMode
+ms.date: 5/3/2018
+ms.keywords: GetStereo3DRenderMode, GetStereo3DRenderMode method [Media Foundation], GetStereo3DRenderMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStereo3DRenderMode method, IMFMediaEngineEx.GetStereo3DRenderMode, IMFMediaEngineEx::GetStereo3DRenderMode, mf.imfmediaengineex_getstereo3drendermode, mfmediaengine/IMFMediaEngineEx::GetStereo3DRenderMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::GetStereo3DRenderMode method
+# IMFMediaEngineEx::GetStereo3DRenderMode
 
 
 ## -description

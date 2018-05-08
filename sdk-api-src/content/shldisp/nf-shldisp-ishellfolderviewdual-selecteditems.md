@@ -1,14 +1,14 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.SelectedItems
-title: IShellFolderViewDual::SelectedItems method
+title: IShellFolderViewDual::SelectedItems
 author: windows-driver-content
 description: Gets a FolderItems object that represents all of the selected items in the view.
 old-location: shell\IShellFolderViewDual_SelectedItems.htm
 old-project: shell
 ms.assetid: 71ec6c0d-f3de-4a5d-941b-16d33b718921
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellFolderViewDual, IShellFolderViewDual interface [Windows Shell], SelectedItems method, IShellFolderViewDual::SelectedItems, SelectedItems method [Windows Shell], SelectedItems method [Windows Shell], IShellFolderViewDual interface, SelectedItems,IShellFolderViewDual.SelectedItems, _shell_IShellFolderViewDual_SelectedItems, shell.IShellFolderViewDual_SelectedItems, shldisp/IShellFolderViewDual::SelectedItems
+ms.date: 5/3/2018
+ms.keywords: IShellFolderViewDual interface [Windows Shell],SelectedItems method, IShellFolderViewDual.SelectedItems, IShellFolderViewDual::SelectedItems, SelectedItems, SelectedItems method [Windows Shell], SelectedItems method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_SelectedItems, shell.IShellFolderViewDual_SelectedItems, shldisp/IShellFolderViewDual::SelectedItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellFolderViewDual::SelectedItems method
+# IShellFolderViewDual::SelectedItems
 
 
 ## -description

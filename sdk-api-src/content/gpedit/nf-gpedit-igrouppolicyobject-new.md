@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.New
-title: IGroupPolicyObject::New method
+title: IGroupPolicyObject::New
 author: windows-driver-content
 description: The New method creates a new GPO in the Active Directory with the specified display name. The method opens the GPO using the OpenDSGPO method.
 old-location: policy\igrouppolicyobject_new.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: e251cac2-8fc8-4ed0-b940-4a9f47eca26b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], New method, IGroupPolicyObject::New, New method [Group Policy], New method [Group Policy], IGroupPolicyObject interface, New,IGroupPolicyObject.New, _win32_igrouppolicyobject_new, gpedit/IGroupPolicyObject::New, policy.igrouppolicyobject_new
+ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject interface [Group Policy],New method, IGroupPolicyObject.New, IGroupPolicyObject::New, New, New method [Group Policy], New method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_new, gpedit/IGroupPolicyObject::New, policy.igrouppolicyobject_new
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGroupPolicyObject::New method
+# IGroupPolicyObject::New
 
 
 ## -description

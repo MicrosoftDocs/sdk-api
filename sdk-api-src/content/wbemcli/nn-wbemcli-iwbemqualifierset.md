@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 8b36bd32-4931-4641-a019-cbaa3547edd0
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemQualifierSet, IWbemQualifierSet interface [Windows Management Instrumentation], IWbemQualifierSet interface [Windows Management Instrumentation], described, _hmm_iwbemqualifierset, wbemcli/IWbemQualifierSet, wmi.iwbemqualifierset
+ms.keywords: IWbemQualifierSet, IWbemQualifierSet interface [Windows Management Instrumentation], IWbemQualifierSet interface [Windows Management Instrumentation],described, _hmm_iwbemqualifierset, wbemcli/IWbemQualifierSet, wmi.iwbemqualifierset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

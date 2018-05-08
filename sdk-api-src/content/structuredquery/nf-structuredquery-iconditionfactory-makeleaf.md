@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IConditionFactory.MakeLeaf
-title: IConditionFactory::MakeLeaf method
+title: IConditionFactory::MakeLeaf
 author: windows-driver-content
 description: Creates a leaf condition node that represents a comparison of property value and constant value.
 old-location: search\_search_IConditionFactory_MakeLeaf.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makeleaf.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IConditionFactory, IConditionFactory interface [search], MakeLeaf method, IConditionFactory::MakeLeaf, MakeLeaf method [search], MakeLeaf method [search], IConditionFactory interface, MakeLeaf,IConditionFactory.MakeLeaf, _search_IConditionFactory_MakeLeaf, search._search_IConditionFactory_MakeLeaf, structuredquery/IConditionFactory::MakeLeaf
+ms.date: 5/4/2018
+ms.keywords: IConditionFactory interface [search],MakeLeaf method, IConditionFactory.MakeLeaf, IConditionFactory::MakeLeaf, MakeLeaf, MakeLeaf method [search], MakeLeaf method [search],IConditionFactory interface, _search_IConditionFactory_MakeLeaf, search._search_IConditionFactory_MakeLeaf, structuredquery/IConditionFactory::MakeLeaf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IConditionFactory::MakeLeaf method
+# IConditionFactory::MakeLeaf
 
 
 ## -description

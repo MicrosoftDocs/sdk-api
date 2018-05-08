@@ -72,6 +72,21 @@ This member is not used by the wireless service. Applications can use this membe
 <b>dwIndex</b> should always be initialized before use.
 
 
+### -field ProfileInfo.unique
+
+ 
+
+
+### -field ProfileInfo.size_is
+
+ 
+
+
+### -field ProfileInfo.size_is.dwNumberOfItems
+
+ 
+
+
 ### -field ProfileInfo
 
 An array of <a href="https://msdn.microsoft.com/ca45278c-2e1e-4080-825a-d6a05e463858">WLAN_PROFILE_INFO</a> structures containing interface information. The number of items in the array is specified in the <b>dwNumberOfItems</b> member.

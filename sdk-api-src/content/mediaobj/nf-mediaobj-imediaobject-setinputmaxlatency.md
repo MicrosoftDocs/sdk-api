@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IMediaObject.SetInputMaxLatency
-title: IMediaObject::SetInputMaxLatency method
+title: IMediaObject::SetInputMaxLatency
 author: windows-driver-content
 description: The SetInputMaxLatency method sets the maximum latency on a specified input stream. For the definition of maximum latency, see IMediaObject::GetInputMaxLatency.
 old-location: dshow\imediaobject_setinputmaxlatency.htm
 old-project: DirectShow
 ms.assetid: 45fb0caa-cd12-4847-a646-f6fd90c50b81
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaObject, IMediaObject interface [DirectShow], SetInputMaxLatency method, IMediaObject::SetInputMaxLatency, IMediaObjectSetInputMaxLatency, SetInputMaxLatency method [DirectShow], SetInputMaxLatency method [DirectShow], IMediaObject interface, SetInputMaxLatency,IMediaObject.SetInputMaxLatency, dshow.imediaobject_setinputmaxlatency, mediaobj/IMediaObject::SetInputMaxLatency
+ms.date: 4/30/2018
+ms.keywords: IMediaObject interface [DirectShow],SetInputMaxLatency method, IMediaObject.SetInputMaxLatency, IMediaObject::SetInputMaxLatency, IMediaObjectSetInputMaxLatency, SetInputMaxLatency, SetInputMaxLatency method [DirectShow], SetInputMaxLatency method [DirectShow],IMediaObject interface, dshow.imediaobject_setinputmaxlatency, mediaobj/IMediaObject::SetInputMaxLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaObject::SetInputMaxLatency method
+# IMediaObject::SetInputMaxLatency
 
 
 ## -description

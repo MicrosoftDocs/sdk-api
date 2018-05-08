@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.LoadPolicy
-title: IX509EnrollmentPolicyServer::LoadPolicy method
+title: IX509EnrollmentPolicyServer::LoadPolicy
 author: windows-driver-content
 description: Retrieves policy information from the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_loadpolicy.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 5b617c6e-91bc-4a22-acd6-41083102850a
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], LoadPolicy method, IX509EnrollmentPolicyServer::LoadPolicy, LoadOptionCacheOnly, LoadOptionDefault, LoadOptionRegisterForADChanges, LoadOptionReload, LoadPolicy method [Security], LoadPolicy method [Security], IX509EnrollmentPolicyServer interface, LoadPolicy,IX509EnrollmentPolicyServer.LoadPolicy, certenroll/IX509EnrollmentPolicyServer::LoadPolicy, security.ix509enrollmentpolicyserver_loadpolicy
+ms.keywords: IX509EnrollmentPolicyServer interface [Security],LoadPolicy method, IX509EnrollmentPolicyServer.LoadPolicy, IX509EnrollmentPolicyServer::LoadPolicy, LoadOptionCacheOnly, LoadOptionDefault, LoadOptionRegisterForADChanges, LoadOptionReload, LoadPolicy, LoadPolicy method [Security], LoadPolicy method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::LoadPolicy, security.ix509enrollmentpolicyserver_loadpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509EnrollmentPolicyServer::LoadPolicy method
+# IX509EnrollmentPolicyServer::LoadPolicy
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.CountEnum
-title: IMetaDataImport::CountEnum method
+title: IMetaDataImport::CountEnum
 author: windows-driver-content
 description: Gets the number of elements in the enumeration that was retrieved by the specified enumerator.
 old-location: winrt\imetadataimport_countenum.htm
 old-project: WinRT
 ms.assetid: 67146070-1710-4602-845c-a2a3cd5efdad
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CountEnum method [Windows Runtime], CountEnum method [Windows Runtime], IMetaDataImport interface, CountEnum,IMetaDataImport.CountEnum, IMetaDataImport, IMetaDataImport interface [Windows Runtime], CountEnum method, IMetaDataImport::CountEnum, rometadataapi/IMetaDataImport::CountEnum, winrt.imetadataimport_countenum
+ms.date: 5/4/2018
+ms.keywords: CountEnum, CountEnum method [Windows Runtime], CountEnum method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],CountEnum method, IMetaDataImport.CountEnum, IMetaDataImport::CountEnum, rometadataapi/IMetaDataImport::CountEnum, winrt.imetadataimport_countenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::CountEnum method
+# IMetaDataImport::CountEnum
 
 
 ## -description

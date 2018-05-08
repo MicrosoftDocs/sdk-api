@@ -71,14 +71,12 @@ Specifies the table identifier (TID) of the section.
 A union that contains the following members.
 
 
-
-#### S
+### -field Header.S
 
 Contains packed header bits, as an <b>MPEG_HEADER_BITS_MIDL</b> structure. Applications should use the <b>Header.W</b> field instead.
 
 
-
-#### W
+### -field Header.W
 
 Contains the header bits as a <b>WORD</b> type. To get the individual bitfields, coerce this member to an <a href="https://msdn.microsoft.com/e25d36af-ee72-4986-8d96-2bce8b19ac80">MPEG_HEADER_BITS</a> structure.
 
@@ -93,14 +91,12 @@ Specifies the table_id_extension field.
 A union that contains the following members.
 
 
-
-#### S
+### -field Version.S
 
 Contains the version number and current/next indicator bit as an <b>MPEG_HEADER_VERSION_BITS_MIDL</b> structure. Applications should use the <b>Version.B</b> field instead.
 
 
-
-#### B
+### -field Version.B
 
 Contains the version number and current/next indicator bit as a <b>BYTE</b> type. To get the individual bit fields, coerce this member to an <a href="https://msdn.microsoft.com/d9a33ca6-2e35-4f7c-8621-ce30effeb687">MPEG_HEADER_VERSION_BITS</a> structure.
 

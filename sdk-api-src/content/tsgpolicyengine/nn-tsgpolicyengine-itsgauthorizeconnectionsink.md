@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 4aa6ec0d-6525-46e1-ba0b-29d80c5ee0f1
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITSGAuthorizeConnectionSink, ITSGAuthorizeConnectionSink interface [Remote Desktop Services], ITSGAuthorizeConnectionSink interface [Remote Desktop Services], described, termserv.itsgauthorizeconnectionsink, tsgpolicyengine/ITSGAuthorizeConnectionSink
+ms.keywords: ITSGAuthorizeConnectionSink, ITSGAuthorizeConnectionSink interface [Remote Desktop Services], ITSGAuthorizeConnectionSink interface [Remote Desktop Services],described, termserv.itsgauthorizeconnectionsink, tsgpolicyengine/ITSGAuthorizeConnectionSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

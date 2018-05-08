@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.RemoveEventHandler
-title: IDirectManipulationViewport::RemoveEventHandler method
+title: IDirectManipulationViewport::RemoveEventHandler
 author: windows-driver-content
 description: Removes an existing event handler from the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_removeeventhandler.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: ea8539c0-2c0e-4259-a104-ecc02a46372a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], RemoveEventHandler method, IDirectManipulationViewport::RemoveEventHandler, RemoveEventHandler method [Direct Manipulation], RemoveEventHandler method [Direct Manipulation], IDirectManipulationViewport interface, RemoveEventHandler,IDirectManipulationViewport.RemoveEventHandler, directmanipulation.idirectmanipulationviewport_removeeventhandler, directmanipulation/IDirectManipulationViewport::RemoveEventHandler
+ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveEventHandler method, IDirectManipulationViewport.RemoveEventHandler, IDirectManipulationViewport::RemoveEventHandler, RemoveEventHandler, RemoveEventHandler method [Direct Manipulation], RemoveEventHandler method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removeeventhandler, directmanipulation/IDirectManipulationViewport::RemoveEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::RemoveEventHandler method
+# IDirectManipulationViewport::RemoveEventHandler
 
 
 ## -description

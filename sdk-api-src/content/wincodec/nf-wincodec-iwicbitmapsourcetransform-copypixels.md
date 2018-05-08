@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSourceTransform.CopyPixels
-title: IWICBitmapSourceTransform::CopyPixels method
+title: IWICBitmapSourceTransform::CopyPixels
 author: windows-driver-content
 description: Copies pixel data using the supplied input parameters.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_copypixels.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: c4c36750-bf30-4e58-aca6-bbb49c7cde4b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component], IWICBitmapSourceTransform interface, CopyPixels,IWICBitmapSourceTransform.CopyPixels, IWICBitmapSourceTransform, IWICBitmapSourceTransform interface [Windows Imaging Component], CopyPixels method, IWICBitmapSourceTransform::CopyPixels, _wic_codec_iwicbitmapsourcetransform_copypixels, wic._wic_codec_iwicbitmapsourcetransform_copypixels, wincodec/IWICBitmapSourceTransform::CopyPixels
+ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICBitmapSourceTransform interface, IWICBitmapSourceTransform interface [Windows Imaging Component],CopyPixels method, IWICBitmapSourceTransform.CopyPixels, IWICBitmapSourceTransform::CopyPixels, _wic_codec_iwicbitmapsourcetransform_copypixels, wic._wic_codec_iwicbitmapsourcetransform_copypixels, wincodec/IWICBitmapSourceTransform::CopyPixels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapSourceTransform::CopyPixels method
+# IWICBitmapSourceTransform::CopyPixels
 
 
 ## -description

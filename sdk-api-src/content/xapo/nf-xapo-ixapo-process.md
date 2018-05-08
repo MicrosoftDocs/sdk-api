@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.Process
-title: IXAPO::Process method
+title: IXAPO::Process
 author: windows-driver-content
 description: Runs the XAPO's digital signal processing (DSP) code on the given input and output buffers.
 old-location: xaudio2\ixapo_interface_process.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Process(UINT32,const XAPO_PROCESS_BUFFER_PARAMETERS,UINT32,XAPO_PROCESS_BUFFER_PARAMETERS@,BOOL)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], Process method, IXAPO::Process, Process method [XAudio2 Audio Mixing APIs], Process method [XAudio2 Audio Mixing APIs], IXAPO interface, Process,IXAPO.Process, xapo/IXAPO::Process, xaudio2.ixapo_interface_process
+ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Process method, IXAPO.Process, IXAPO::Process, Process, Process method [XAudio2 Audio Mixing APIs], Process method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Process, xaudio2.ixapo_interface_process
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAPO::Process method
+# IXAPO::Process
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateReservedResource
-title: ID3D12Device::CreateReservedResource method
+title: ID3D12Device::CreateReservedResource
 author: windows-driver-content
 description: Creates a resource that is reserved, which is not yet mapped to any pages in a heap.
 old-location: direct3d12\id3d12device_createreservedresource.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 37E74129-1B5C-4997-A584-D7E9F92342EA
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateReservedResource method, CreateReservedResource method, ID3D12Device interface, CreateReservedResource,ID3D12Device.CreateReservedResource, ID3D12Device, ID3D12Device interface, CreateReservedResource method, ID3D12Device::CreateReservedResource, d3d12/ID3D12Device::CreateReservedResource, direct3d12.id3d12device_createreservedresource
+ms.keywords: CreateReservedResource, CreateReservedResource method, CreateReservedResource method,ID3D12Device interface, ID3D12Device interface,CreateReservedResource method, ID3D12Device.CreateReservedResource, ID3D12Device::CreateReservedResource, d3d12/ID3D12Device::CreateReservedResource, direct3d12.id3d12device_createreservedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CreateReservedResource method
+# ID3D12Device::CreateReservedResource
 
 
 ## -description

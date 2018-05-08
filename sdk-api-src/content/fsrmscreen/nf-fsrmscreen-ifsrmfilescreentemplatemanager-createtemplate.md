@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.CreateTemplate
-title: IFsrmFileScreenTemplateManager::CreateTemplate method
+title: IFsrmFileScreenTemplateManager::CreateTemplate
 author: windows-driver-content
 description: Creates a file screen template object.
 old-location: fsrm\ifsrmfilescreentemplatemanager_createtemplate.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 3d654dee-2a27-4dc0-8e2b-fba546abe17e
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreateTemplate method [File Server Resource Manager], CreateTemplate method [File Server Resource Manager], FsrmFileScreenTemplateManager class, CreateTemplate method [File Server Resource Manager], IFsrmFileScreenTemplateManager interface, CreateTemplate,IFsrmFileScreenTemplateManager.CreateTemplate, FsrmFileScreenTemplateManager class [File Server Resource Manager], CreateTemplate method, IFsrmFileScreenTemplateManager, IFsrmFileScreenTemplateManager interface [File Server Resource Manager], CreateTemplate method, IFsrmFileScreenTemplateManager::CreateTemplate, fs.ifsrmfilescreentemplatemanager_createtemplate, fsrm.ifsrmfilescreentemplatemanager_createtemplate, fsrmscreen/IFsrmFileScreenTemplateManager::CreateTemplate
+ms.keywords: CreateTemplate, CreateTemplate method [File Server Resource Manager], CreateTemplate method [File Server Resource Manager],FsrmFileScreenTemplateManager class, CreateTemplate method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, FsrmFileScreenTemplateManager class [File Server Resource Manager],CreateTemplate method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],CreateTemplate method, IFsrmFileScreenTemplateManager.CreateTemplate, IFsrmFileScreenTemplateManager::CreateTemplate, fs.ifsrmfilescreentemplatemanager_createtemplate, fsrm.ifsrmfilescreentemplatemanager_createtemplate, fsrmscreen/IFsrmFileScreenTemplateManager::CreateTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenTemplateManager::CreateTemplate method
+# IFsrmFileScreenTemplateManager::CreateTemplate
 
 
 ## -description

@@ -58,6 +58,206 @@ Contains  event data or property values.
 
 
 
+### -field BooleanVal
+
+A Boolean value.
+
+
+### -field SByteVal
+
+A signed 8-bit integer value.
+
+
+### -field Int16Val
+
+A signed 16-bit integer value.
+
+
+### -field Int32Val
+
+A signed 32-bit integer value.
+
+
+### -field Int64Val
+
+A signed 64-bit integer value.
+
+
+### -field ByteVal
+
+An unsigned 8-bit integer value.
+
+
+### -field UInt16Val
+
+An unsigned 16-bit integer value.
+
+
+### -field UInt32Val
+
+An unsigned 32-bit integer value.
+
+
+### -field UInt64Val
+
+An unsigned 64-bit integer value.
+
+
+### -field SingleVal
+
+A single precision real value.
+
+
+### -field DoubleVal
+
+A double precision real value.
+
+
+### -field FileTimeVal
+
+An 8-byte FILETIME value.
+
+
+### -field SysTimeVal
+
+A SYSTEMTIME value.
+
+
+### -field GuidVal
+
+A 16-byte GUID value.
+
+
+### -field StringVal
+
+A null-terminated Unicode string.
+
+
+### -field AnsiStringVal
+
+A null-terminated ANSI string value.
+
+
+### -field BinaryVal
+
+A pointer to a hexadecimal binary value.
+
+
+### -field SidVal
+
+A 4-byte ASCII value. A security identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>) structure that uniquely identifies a user or group.
+
+
+### -field SizeTVal
+
+A pointer address. The size of the address (4 bytes or 8 bytes) depends on whether the provider ran on a 32-bit or 64-bit operating system.
+
+
+### -field BooleanArr
+
+A pointer to an array of Boolean values.
+
+
+### -field SByteArr
+
+A pointer to an array of signed 8-bit values.
+
+
+### -field Int16Arr
+
+A  pointer to an array of signed 16-bit values.
+
+
+### -field Int32Arr
+
+A pointer to an array of signed 32-bit values.
+
+
+### -field Int64Arr
+
+A pointer to an array of signed 64-bit values.
+
+
+### -field ByteArr
+
+A pointer to an array of unsigned 8-bit values.
+
+
+### -field UInt16Arr
+
+A pointer to an array of unsigned 16-bit values.
+
+
+### -field UInt32Arr
+
+A pointer to an array of unsigned 32-bit values.
+
+
+### -field UInt64Arr
+
+A pointer to an array of unsigned 64-bit values.
+
+
+### -field SingleArr
+
+A pointer to an array of single precision real values.
+
+
+### -field DoubleArr
+
+A pointer to an array of double precision real values.
+
+
+### -field FileTimeArr
+
+A pointer to an array of FILETIME values.
+
+
+### -field SysTimeArr
+
+A pointer to an array of SYSTEMTIME values.
+
+
+### -field GuidArr
+
+A pointer to an array of GUID values.
+
+
+### -field StringArr
+
+A pointer to an array of null-terminated Unicode strings.
+
+
+### -field AnsiStringArr
+
+A pointer to an array of null-terminated ANSI strings.
+
+
+### -field SidArr
+
+A pointer to an array of  4-byte ASCII values.
+
+
+### -field SizeTArr
+
+A pointer to an array of size_t values.
+
+
+### -field EvtHandleVal
+
+An  EVT_HANDLE value.
+
+
+### -field XmlVal
+
+An XML string value.
+
+
+### -field XmlValArr
+
+A pointer to an array of XML string values.
+
+
 ### -field Count
 
 The number of elements in the array of values. Use <b>Count</b> if the <b>Type</b> member has the <b>EVT_VARIANT_TYPE_ARRAY</b> flag set.
@@ -70,206 +270,6 @@ A flag that specifies the data type of the variant. For possible values, see the
 The variant contains an array of values, if the <b>EVT_VARIANT_TYPE_ARRAY</b> flag is set. The members that end in "Arr" contain arrays of values. For example, you would use the <b>StringArr</b> member to access the variant data if the type is EvtVarTypeString and the <b>EVT_VARIANT_TYPE_ARRAY</b> flag is set.
 
 You can use the <a href="https://msdn.microsoft.com/d3a4a136-ca33-4dad-95ad-af1be6687843">EVT_VARIANT_TYPE_MASK</a> constant to mask out the array bit to determine the variant's type.
-
-
-#### - AnsiStringArr
-
-A pointer to an array of null-terminated ANSI strings.
-
-
-#### - AnsiStringVal
-
-A null-terminated ANSI string value.
-
-
-#### - BinaryVal
-
-A pointer to a hexadecimal binary value.
-
-
-#### - BooleanArr
-
-A pointer to an array of Boolean values.
-
-
-#### - BooleanVal
-
-A Boolean value.
-
-
-#### - ByteArr
-
-A pointer to an array of unsigned 8-bit values.
-
-
-#### - ByteVal
-
-An unsigned 8-bit integer value.
-
-
-#### - DoubleArr
-
-A pointer to an array of double precision real values.
-
-
-#### - DoubleVal
-
-A double precision real value.
-
-
-#### - EvtHandleVal
-
-An  EVT_HANDLE value.
-
-
-#### - FileTimeArr
-
-A pointer to an array of FILETIME values.
-
-
-#### - FileTimeVal
-
-An 8-byte FILETIME value.
-
-
-#### - GuidArr
-
-A pointer to an array of GUID values.
-
-
-#### - GuidVal
-
-A 16-byte GUID value.
-
-
-#### - Int16Arr
-
-A  pointer to an array of signed 16-bit values.
-
-
-#### - Int16Val
-
-A signed 16-bit integer value.
-
-
-#### - Int32Arr
-
-A pointer to an array of signed 32-bit values.
-
-
-#### - Int32Val
-
-A signed 32-bit integer value.
-
-
-#### - Int64Arr
-
-A pointer to an array of signed 64-bit values.
-
-
-#### - Int64Val
-
-A signed 64-bit integer value.
-
-
-#### - SByteArr
-
-A pointer to an array of signed 8-bit values.
-
-
-#### - SByteVal
-
-A signed 8-bit integer value.
-
-
-#### - SidArr
-
-A pointer to an array of  4-byte ASCII values.
-
-
-#### - SidVal
-
-A 4-byte ASCII value. A security identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>) structure that uniquely identifies a user or group.
-
-
-#### - SingleArr
-
-A pointer to an array of single precision real values.
-
-
-#### - SingleVal
-
-A single precision real value.
-
-
-#### - SizeTArr
-
-A pointer to an array of size_t values.
-
-
-#### - SizeTVal
-
-A pointer address. The size of the address (4 bytes or 8 bytes) depends on whether the provider ran on a 32-bit or 64-bit operating system.
-
-
-#### - StringArr
-
-A pointer to an array of null-terminated Unicode strings.
-
-
-#### - StringVal
-
-A null-terminated Unicode string.
-
-
-#### - SysTimeArr
-
-A pointer to an array of SYSTEMTIME values.
-
-
-#### - SysTimeVal
-
-A SYSTEMTIME value.
-
-
-#### - UInt16Arr
-
-A pointer to an array of unsigned 16-bit values.
-
-
-#### - UInt16Val
-
-An unsigned 16-bit integer value.
-
-
-#### - UInt32Arr
-
-A pointer to an array of unsigned 32-bit values.
-
-
-#### - UInt32Val
-
-An unsigned 32-bit integer value.
-
-
-#### - UInt64Arr
-
-A pointer to an array of unsigned 64-bit values.
-
-
-#### - UInt64Val
-
-An unsigned 64-bit integer value.
-
-
-#### - XmlVal
-
-An XML string value.
-
-
-#### - XmlValArr
-
-A pointer to an array of XML string values.
 
 
 ## -see-also

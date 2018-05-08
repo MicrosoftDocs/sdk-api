@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetServiceIdx
-title: IPBDA_EIT::GetServiceIdx method
+title: IPBDA_EIT::GetServiceIdx
 author: windows-driver-content
 description: Gets the service identifier from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream. The service identifier identifies the service that contains the events.
 old-location: mstv\ipbda_eit_getserviceidx.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 10e8def6-be78-4b0f-8b47-d0485a1b50f1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetServiceIdx method [Microsoft TV Technologies], GetServiceIdx method [Microsoft TV Technologies], IPBDA_EIT interface, GetServiceIdx,IPBDA_EIT.GetServiceIdx, IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], GetServiceIdx method, IPBDA_EIT::GetServiceIdx, dvbsiparser/IPBDA_EIT::GetServiceIdx, mstv.ipbda_eit_getserviceidx
+ms.keywords: GetServiceIdx, GetServiceIdx method [Microsoft TV Technologies], GetServiceIdx method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetServiceIdx method, IPBDA_EIT.GetServiceIdx, IPBDA_EIT::GetServiceIdx, dvbsiparser/IPBDA_EIT::GetServiceIdx, mstv.ipbda_eit_getserviceidx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IPBDA_EIT::GetServiceIdx method
+# IPBDA_EIT::GetServiceIdx
 
 
 ## -description

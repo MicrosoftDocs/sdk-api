@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.CreateInstanceEnumAsync
-title: IWbemServices::CreateInstanceEnumAsync method
+title: IWbemServices::CreateInstanceEnumAsync
 author: windows-driver-content
 description: The IWbemServices::CreateInstanceEnumAsync method creates an enumerator that asynchronously returns the instances of a specified class according to user-specified selection criteria.
 old-location: wmi\iwbemservices_createinstanceenumasync.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 5ba2ff28-034f-4949-9bde-8c98345ec7c6
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CreateInstanceEnumAsync method [Windows Management Instrumentation], CreateInstanceEnumAsync method [Windows Management Instrumentation], IWbemServices interface, CreateInstanceEnumAsync,IWbemServices.CreateInstanceEnumAsync, IWbemServices, IWbemServices interface [Windows Management Instrumentation], CreateInstanceEnumAsync method, IWbemServices::CreateInstanceEnumAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createinstanceenumasync, wbemcli/IWbemServices::CreateInstanceEnumAsync, wmi.iwbemservices_createinstanceenumasync
+ms.keywords: CreateInstanceEnumAsync, CreateInstanceEnumAsync method [Windows Management Instrumentation], CreateInstanceEnumAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateInstanceEnumAsync method, IWbemServices.CreateInstanceEnumAsync, IWbemServices::CreateInstanceEnumAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createinstanceenumasync, wbemcli/IWbemServices::CreateInstanceEnumAsync, wmi.iwbemservices_createinstanceenumasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,7 +58,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemServices::CreateInstanceEnumAsync method
+# IWbemServices::CreateInstanceEnumAsync
 
 
 ## -description

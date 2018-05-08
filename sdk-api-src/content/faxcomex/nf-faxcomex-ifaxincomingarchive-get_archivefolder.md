@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.get_ArchiveFolder
-title: IFaxIncomingArchive::get_ArchiveFolder method
+title: IFaxIncomingArchive::get_ArchiveFolder
 author: windows-driver-content
 description: The ArchiveFolder property is a null-terminated string that specifies the folder location on the fax server for archived inbound faxes.
 old-location: fax\_mfax_faxincomingarchive_archivefolder_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7vle.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service], FaxIncomingArchive object, FaxIncomingArchive object [Fax Service], ArchiveFolder property, IFaxIncomingArchive, IFaxIncomingArchive::get_ArchiveFolder, _mfax_faxincomingarchive.archivefolder, fax._mfax_faxincomingarchive_archivefolder, fax._mfax_faxincomingarchive_archivefolder_vb, get_ArchiveFolder,IFaxIncomingArchive.get_ArchiveFolder
+ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service],FaxIncomingArchive object, FaxIncomingArchive object [Fax Service],ArchiveFolder property, FaxIncomingArchive.ArchiveFolder, IFaxIncomingArchive.get_ArchiveFolder, IFaxIncomingArchive::get_ArchiveFolder, _mfax_faxincomingarchive.archivefolder, fax._mfax_faxincomingarchive_archivefolder, fax._mfax_faxincomingarchive_archivefolder_vb, get_ArchiveFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxIncomingArchive::get_ArchiveFolder method
+# IFaxIncomingArchive::get_ArchiveFolder
 
 
 ## -description

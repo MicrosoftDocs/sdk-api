@@ -7,7 +7,7 @@ old-location: dhcp\dhcpserversetdnsregcredentialsv5.htm
 old-project: DHCP
 ms.assetid: 7fed2635-43a6-417a-996f-fff8d0692924
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpServerSetDnsRegCredentialsV5, DhcpServerSetDnsRegCredentialsV5 function [DHCP], dhcp.dhcpserversetdnsregcredentialsv5, dhcpsapi/DhcpServerSetDnsRegCredentialsV5
 ms.prod: windows-hardware
 ms.technology: windows-devices

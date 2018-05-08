@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 76d3cd52-30bd-48b0-8adc-c23991a60d1b
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IMMNotificationClient, IMMNotificationClient interface [Core Audio], IMMNotificationClient interface [Core Audio], described, coreaudio.immnotificationclient, mmdeviceapi/IMMNotificationClient
+ms.keywords: IMMNotificationClient, IMMNotificationClient interface [Core Audio], IMMNotificationClient interface [Core Audio],described, coreaudio.immnotificationclient, mmdeviceapi/IMMNotificationClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

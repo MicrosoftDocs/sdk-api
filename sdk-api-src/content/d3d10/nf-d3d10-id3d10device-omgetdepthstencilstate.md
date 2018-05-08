@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.OMGetDepthStencilState
-title: ID3D10Device::OMGetDepthStencilState method
+title: ID3D10Device::OMGetDepthStencilState
 author: windows-driver-content
 description: Gets the depth-stencil state of the output-merger stage.
 old-location: direct3d10\id3d10device_omgetdepthstencilstate.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omgetdepthstencilstate.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 5fead180-40d5-ddfe-7065-11f773e4032e, ID3D10Device, ID3D10Device interface [Direct3D 10], OMGetDepthStencilState method, ID3D10Device::OMGetDepthStencilState, OMGetDepthStencilState method [Direct3D 10], OMGetDepthStencilState method [Direct3D 10], ID3D10Device interface, OMGetDepthStencilState,ID3D10Device.OMGetDepthStencilState, d3d10/ID3D10Device::OMGetDepthStencilState, direct3d10.id3d10device_omgetdepthstencilstate
+ms.keywords: 5fead180-40d5-ddfe-7065-11f773e4032e, ID3D10Device interface [Direct3D 10],OMGetDepthStencilState method, ID3D10Device.OMGetDepthStencilState, ID3D10Device::OMGetDepthStencilState, OMGetDepthStencilState, OMGetDepthStencilState method [Direct3D 10], OMGetDepthStencilState method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMGetDepthStencilState, direct3d10.id3d10device_omgetdepthstencilstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::OMGetDepthStencilState method
+# ID3D10Device::OMGetDepthStencilState
 
 
 ## -description

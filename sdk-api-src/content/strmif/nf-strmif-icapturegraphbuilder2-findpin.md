@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.FindPin
-title: ICaptureGraphBuilder2::FindPin method
+title: ICaptureGraphBuilder2::FindPin
 author: windows-driver-content
 description: The FindPin method retrieves a particular pin on a filter, or determines whether a given pin matches the specified criteria.
 old-location: dshow\icapturegraphbuilder2_findpin.htm
 old-project: DirectShow
 ms.assetid: f74e55d4-2d51-47a9-aca8-dd4e616a6253
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: FindPin method [DirectShow], FindPin method [DirectShow], ICaptureGraphBuilder2 interface, FindPin,ICaptureGraphBuilder2.FindPin, ICaptureGraphBuilder2, ICaptureGraphBuilder2 interface [DirectShow], FindPin method, ICaptureGraphBuilder2::FindPin, ICaptureGraphBuilder2FindPin, dshow.icapturegraphbuilder2_findpin, strmif/ICaptureGraphBuilder2::FindPin
+ms.date: 4/30/2018
+ms.keywords: FindPin, FindPin method [DirectShow], FindPin method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],FindPin method, ICaptureGraphBuilder2.FindPin, ICaptureGraphBuilder2::FindPin, ICaptureGraphBuilder2FindPin, dshow.icapturegraphbuilder2_findpin, strmif/ICaptureGraphBuilder2::FindPin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ICaptureGraphBuilder2::FindPin method
+# ICaptureGraphBuilder2::FindPin
 
 
 ## -description

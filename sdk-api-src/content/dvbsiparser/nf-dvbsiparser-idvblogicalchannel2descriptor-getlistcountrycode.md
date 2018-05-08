@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListCountryCode
-title: IDvbLogicalChannel2Descriptor::GetListCountryCode method
+title: IDvbLogicalChannel2Descriptor::GetListCountryCode
 author: windows-driver-content
 description: Gets the three-character ISO 3166 country code for a channel list in a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistcountrycode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 42f3c684-64c3-4bcb-b9c0-25a008075902
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetListCountryCode method [Microsoft TV Technologies], GetListCountryCode method [Microsoft TV Technologies], IDvbLogicalChannel2Descriptor interface, GetListCountryCode,IDvbLogicalChannel2Descriptor.GetListCountryCode, IDvbLogicalChannel2Descriptor, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies], GetListCountryCode method, IDvbLogicalChannel2Descriptor::GetListCountryCode, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListCountryCode, mstv.idvblogicalchannel2descriptor_getlistcountrycode
+ms.keywords: GetListCountryCode, GetListCountryCode method [Microsoft TV Technologies], GetListCountryCode method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListCountryCode method, IDvbLogicalChannel2Descriptor.GetListCountryCode, IDvbLogicalChannel2Descriptor::GetListCountryCode, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListCountryCode, mstv.idvblogicalchannel2descriptor_getlistcountrycode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLogicalChannel2Descriptor::GetListCountryCode method
+# IDvbLogicalChannel2Descriptor::GetListCountryCode
 
 
 ## -description

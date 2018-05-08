@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_DisconnectedText
-title: IRDPSRAPIViewer::get_DisconnectedText method
+title: IRDPSRAPIViewer::get_DisconnectedText
 author: windows-driver-content
 description: Retrieves or sets the text that appears centered in the control before a connection is terminated.
 old-location: rdp\irdpsrapiviewer_disconnectedtext.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 010974ee-d5b0-436d-9553-18ae62d09bf2
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: DisconnectedText property [RDP], DisconnectedText property [RDP], IRDPSRAPIViewer interface, DisconnectedText property [RDP], RDPViewer object, IRDPSRAPIViewer, IRDPSRAPIViewer interface [RDP], DisconnectedText property, IRDPSRAPIViewer.DisconnectedText, IRDPSRAPIViewer::get_DisconnectedText, IRDPSRAPIViewer::put_DisconnectedText, RDPViewer object [RDP], DisconnectedText property, get_DisconnectedText,IRDPSRAPIViewer.get_DisconnectedText, rdp.irdpsrapiviewer_disconnectedtext, rdpencomapi/IRDPSRAPIViewer::DisconnectedText, rdpencomapi/IRDPSRAPIViewer::get_DisconnectedText, rdpencomapi/IRDPSRAPIViewer::put_DisconnectedText
+ms.keywords: DisconnectedText property [RDP], DisconnectedText property [RDP],IRDPSRAPIViewer interface, DisconnectedText property [RDP],RDPViewer object, IRDPSRAPIViewer interface [RDP],DisconnectedText property, IRDPSRAPIViewer.DisconnectedText, IRDPSRAPIViewer.get_DisconnectedText, IRDPSRAPIViewer::DisconnectedText, IRDPSRAPIViewer::get_DisconnectedText, IRDPSRAPIViewer::put_DisconnectedText, RDPViewer object [RDP],DisconnectedText property, get_DisconnectedText, rdp.irdpsrapiviewer_disconnectedtext, rdpencomapi/IRDPSRAPIViewer::DisconnectedText, rdpencomapi/IRDPSRAPIViewer::get_DisconnectedText, rdpencomapi/IRDPSRAPIViewer::put_DisconnectedText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIViewer::get_DisconnectedText method
+# IRDPSRAPIViewer::get_DisconnectedText
 
 
 ## -description

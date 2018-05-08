@@ -7,7 +7,7 @@ old-location: winsock\wspstringtoaddress_2.htm
 old-project: WinSock
 ms.assetid: 65cf8f7e-7ef0-472c-82d8-e8f7df9976a9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: LPWSPSTRINGTOADDRESS, WSPStringToAddress, WSPStringToAddress function [Winsock], _win32_wspstringtoaddress_2, winsock.wspstringtoaddress_2, ws2spi/WSPStringToAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# LPWSPSTRINGTOADDRESS callback
+# LPWSPSTRINGTOADDRESS callback function
 
 
 ## -description

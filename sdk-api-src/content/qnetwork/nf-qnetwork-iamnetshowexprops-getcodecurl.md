@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.GetCodecURL
-title: IAMNetShowExProps::GetCodecURL method
+title: IAMNetShowExProps::GetCodecURL
 author: windows-driver-content
 description: The GetCodecURL method retrieves the URL where the codec may be downloaded.
 old-location: dshow\iamnetshowexprops_getcodecurl.htm
 old-project: DirectShow
 ms.assetid: ad5672a8-2af9-45ef-b510-3c2f8948f64b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCodecURL method [DirectShow], GetCodecURL method [DirectShow], IAMNetShowExProps interface, GetCodecURL,IAMNetShowExProps.GetCodecURL, IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], GetCodecURL method, IAMNetShowExProps::GetCodecURL, IAMNetShowExPropsGetCodecURL, dshow.iamnetshowexprops_getcodecurl, qnetwork/IAMNetShowExProps::GetCodecURL
+ms.date: 4/30/2018
+ms.keywords: GetCodecURL, GetCodecURL method [DirectShow], GetCodecURL method [DirectShow],IAMNetShowExProps interface, IAMNetShowExProps interface [DirectShow],GetCodecURL method, IAMNetShowExProps.GetCodecURL, IAMNetShowExProps::GetCodecURL, IAMNetShowExPropsGetCodecURL, dshow.iamnetshowexprops_getcodecurl, qnetwork/IAMNetShowExProps::GetCodecURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetShowExProps::GetCodecURL method
+# IAMNetShowExProps::GetCodecURL
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.GetAttribute
-title: IWCNDevice::GetAttribute method
+title: IWCNDevice::GetAttribute
 author: windows-driver-content
 description: The IWCNDevice::GetAttribute method gets a cached attribute from the device.
 old-location: wcn\iwcndevice_getattribute.htm
@@ -8,7 +8,7 @@ old-project: wcn
 ms.assetid: 06a73bb5-c339-4069-853d-ab22c15c1462
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetAttribute method [Windows Connect Now], GetAttribute method [Windows Connect Now], IWCNDevice interface, GetAttribute,IWCNDevice.GetAttribute, IWCNDevice, IWCNDevice interface [Windows Connect Now], GetAttribute method, IWCNDevice::GetAttribute, wcn.iwcndevice_getattribute, wcndevice/IWCNDevice::GetAttribute
+ms.keywords: GetAttribute, GetAttribute method [Windows Connect Now], GetAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetAttribute method, IWCNDevice.GetAttribute, IWCNDevice::GetAttribute, wcn.iwcndevice_getattribute, wcndevice/IWCNDevice::GetAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWCNDevice::GetAttribute method
+# IWCNDevice::GetAttribute
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.DebugServerQueryInterface
-title: IRpcStubBuffer::DebugServerQueryInterface method
+title: IRpcStubBuffer::DebugServerQueryInterface
 author: windows-driver-content
 description: Retrieves a pointer to the interface that a stub represents.
 old-location: com\irpcstubbuffer_debugserverqueryinterface.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c735a99f-c67a-44eb-ae60-950dc4e68e74
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: DebugServerQueryInterface method [COM], DebugServerQueryInterface method [COM], IRpcStubBuffer interface, DebugServerQueryInterface,IRpcStubBuffer.DebugServerQueryInterface, IRpcStubBuffer, IRpcStubBuffer interface [COM], DebugServerQueryInterface method, IRpcStubBuffer::DebugServerQueryInterface, _com_irpcstubbuffer_debugserverqueryinterface, com.irpcstubbuffer_debugserverqueryinterface, objidlbase/IRpcStubBuffer::DebugServerQueryInterface
+ms.keywords: DebugServerQueryInterface, DebugServerQueryInterface method [COM], DebugServerQueryInterface method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],DebugServerQueryInterface method, IRpcStubBuffer.DebugServerQueryInterface, IRpcStubBuffer::DebugServerQueryInterface, _com_irpcstubbuffer_debugserverqueryinterface, com.irpcstubbuffer_debugserverqueryinterface, objidlbase/IRpcStubBuffer::DebugServerQueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRpcStubBuffer::DebugServerQueryInterface method
+# IRpcStubBuffer::DebugServerQueryInterface
 
 
 ## -description

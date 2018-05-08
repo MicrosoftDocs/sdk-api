@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComApp2Events.OnAppActivation2
-title: IComApp2Events::OnAppActivation2 method
+title: IComApp2Events::OnAppActivation2
 author: windows-driver-content
 description: Generated when the server application process is loaded.
 old-location: cos\icomapp2events_onappactivation2.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: d621f46e-19c2-4fab-8820-a5716cb7cdc4
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComApp2Events, IComApp2Events interface [COM+], OnAppActivation2 method, IComApp2Events::OnAppActivation2, OnAppActivation2 method [COM+], OnAppActivation2 method [COM+], IComApp2Events interface, OnAppActivation2,IComApp2Events.OnAppActivation2, _dtc_IComApp2Events_OnAppActivation2, comsvcs/IComApp2Events::OnAppActivation2, cos.icomapp2events_onappactivation2
+ms.keywords: IComApp2Events interface [COM+],OnAppActivation2 method, IComApp2Events.OnAppActivation2, IComApp2Events::OnAppActivation2, OnAppActivation2, OnAppActivation2 method [COM+], OnAppActivation2 method [COM+],IComApp2Events interface, _dtc_IComApp2Events_OnAppActivation2, comsvcs/IComApp2Events::OnAppActivation2, cos.icomapp2events_onappactivation2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComApp2Events::OnAppActivation2 method
+# IComApp2Events::OnAppActivation2
 
 
 ## -description

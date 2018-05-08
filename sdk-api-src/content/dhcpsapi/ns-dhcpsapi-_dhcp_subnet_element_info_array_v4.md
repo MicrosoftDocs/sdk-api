@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_subnet_element_info_array_v4.htm
 old-project: DHCP
 ms.assetid: e70581b4-879b-450f-a99b-754145f4bee8
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4 structure [DHCP], LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4, LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4 structure pointer [DHCP], _DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4, dhcp.dhcp_subnet_element_info_array_v4, dhcpsapi/LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4, dhcpsapi/_DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Specifies the number of elements in <b>Elements</b>.
 ### -field Elements
 
 Pointer to a list of <a href="https://msdn.microsoft.com/d17725da-516b-4be6-839e-9876653e63c4">DHCP_SUBNET_ELEMENT_DATA_V4</a> structures that contain the data for the corresponding subnet elements.
+
+
+### -field Elements.size_is
+
+ 
+
+
+### -field Elements.size_is.NumElements
+
+ 
+
+
 
 
 ## -see-also

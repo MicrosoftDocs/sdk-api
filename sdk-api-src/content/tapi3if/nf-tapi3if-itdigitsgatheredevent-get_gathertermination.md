@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_GatherTermination
-title: ITDigitsGatheredEvent::get_GatherTermination method
+title: ITDigitsGatheredEvent::get_GatherTermination
 author: windows-driver-content
 description: The get_GatherTermination method gets the reason why the TAPI Server terminated the gathering of digits on the call.
 old-location: tapi3\itdigitsgatheredevent_get_gathertermination.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 97c123b9-4497-43f3-b747-660d3f9f5848
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITDigitsGatheredEvent, ITDigitsGatheredEvent interface [TAPI 2.2], get_GatherTermination method, ITDigitsGatheredEvent::get_GatherTermination, _tapi3_itdigitsgatheredevent_get_gathertermination, get_GatherTermination method [TAPI 2.2], get_GatherTermination method [TAPI 2.2], ITDigitsGatheredEvent interface, get_GatherTermination,ITDigitsGatheredEvent.get_GatherTermination, tapi3.itdigitsgatheredevent_get_gathertermination, tapi3if/ITDigitsGatheredEvent::get_GatherTermination
+ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_GatherTermination method, ITDigitsGatheredEvent.get_GatherTermination, ITDigitsGatheredEvent::get_GatherTermination, _tapi3_itdigitsgatheredevent_get_gathertermination, get_GatherTermination, get_GatherTermination method [TAPI 2.2], get_GatherTermination method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_gathertermination, tapi3if/ITDigitsGatheredEvent::get_GatherTermination
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITDigitsGatheredEvent::get_GatherTermination method
+# ITDigitsGatheredEvent::get_GatherTermination
 
 
 ## -description

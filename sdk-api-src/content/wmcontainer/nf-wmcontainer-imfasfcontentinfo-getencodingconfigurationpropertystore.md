@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GetEncodingConfigurationPropertyStore
-title: IMFASFContentInfo::GetEncodingConfigurationPropertyStore method
+title: IMFASFContentInfo::GetEncodingConfigurationPropertyStore
 author: windows-driver-content
 description: Retrieves a property store that can be used to set encoding properties.
 old-location: mf\imfasfcontentinfo_getencodingconfigurationpropertystore.htm
 old-project: medfound
 ms.assetid: e77a5564-82bc-4c1d-9fb8-84ab484c4ca8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetEncodingConfigurationPropertyStore method [Media Foundation], GetEncodingConfigurationPropertyStore method [Media Foundation], IMFASFContentInfo interface, GetEncodingConfigurationPropertyStore,IMFASFContentInfo.GetEncodingConfigurationPropertyStore, IMFASFContentInfo, IMFASFContentInfo interface [Media Foundation], GetEncodingConfigurationPropertyStore method, IMFASFContentInfo::GetEncodingConfigurationPropertyStore, e77a5564-82bc-4c1d-9fb8-84ab484c4ca8, mf.imfasfcontentinfo_getencodingconfigurationpropertystore, wmcontainer/IMFASFContentInfo::GetEncodingConfigurationPropertyStore
+ms.date: 5/3/2018
+ms.keywords: GetEncodingConfigurationPropertyStore, GetEncodingConfigurationPropertyStore method [Media Foundation], GetEncodingConfigurationPropertyStore method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetEncodingConfigurationPropertyStore method, IMFASFContentInfo.GetEncodingConfigurationPropertyStore, IMFASFContentInfo::GetEncodingConfigurationPropertyStore, e77a5564-82bc-4c1d-9fb8-84ab484c4ca8, mf.imfasfcontentinfo_getencodingconfigurationpropertystore, wmcontainer/IMFASFContentInfo::GetEncodingConfigurationPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFContentInfo::GetEncodingConfigurationPropertyStore method
+# IMFASFContentInfo::GetEncodingConfigurationPropertyStore
 
 
 ## -description

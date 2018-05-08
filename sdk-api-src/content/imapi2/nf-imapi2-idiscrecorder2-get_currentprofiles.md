@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_CurrentProfiles
-title: IDiscRecorder2::get_CurrentProfiles method
+title: IDiscRecorder2::get_CurrentProfiles
 author: windows-driver-content
 description: Retrieves all MMC profiles of the device that are marked as current.
 old-location: imapi\idiscrecorder2_get_currentprofiles.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: dd8dd2fd-531b-4ed5-9a28-d6b24469e5e7
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscRecorder2, IDiscRecorder2 interface [IMAPI], get_CurrentProfiles method, IDiscRecorder2::get_CurrentProfiles, get_CurrentProfiles method [IMAPI], get_CurrentProfiles method [IMAPI], IDiscRecorder2 interface, get_CurrentProfiles,IDiscRecorder2.get_CurrentProfiles, imapi.idiscrecorder2_get_currentprofiles, imapi2/IDiscRecorder2::get_CurrentProfiles
+ms.keywords: IDiscRecorder2 interface [IMAPI],get_CurrentProfiles method, IDiscRecorder2.get_CurrentProfiles, IDiscRecorder2::get_CurrentProfiles, get_CurrentProfiles, get_CurrentProfiles method [IMAPI], get_CurrentProfiles method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_currentprofiles, imapi2/IDiscRecorder2::get_CurrentProfiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2::get_CurrentProfiles method
+# IDiscRecorder2::get_CurrentProfiles
 
 
 ## -description

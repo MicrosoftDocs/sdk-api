@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.Step
-title: IMSVidPlayback::Step method
+title: IMSVidPlayback::Step
 author: windows-driver-content
 description: The Step method steps through the video stream by a specified number of frames.
 old-location: mstv\imsvidplayback_step.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8e971571-61f4-4b24-81a7-45fa17b6b785
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidPlayback, IMSVidPlayback interface [Microsoft TV Technologies], Step method, IMSVidPlayback::Step, IMSVidPlaybackStep, Step method [Microsoft TV Technologies], Step method [Microsoft TV Technologies], IMSVidPlayback interface, Step,IMSVidPlayback.Step, mstv.imsvidplayback_step, segment/IMSVidPlayback::Step
+ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Step method, IMSVidPlayback.Step, IMSVidPlayback::Step, IMSVidPlaybackStep, Step, Step method [Microsoft TV Technologies], Step method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_step, segment/IMSVidPlayback::Step
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidPlayback::Step method
+# IMSVidPlayback::Step
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrRegister.GetHandlerRegistrationInfo
-title: ISyncMgrRegister::GetHandlerRegistrationInfo method
+title: ISyncMgrRegister::GetHandlerRegistrationInfo
 author: windows-driver-content
 description: Called by the registered application's handler to get current registration information.
 old-location: shell\syncmgr_isyncmgrregister_gethandlerregistrationinfo.htm
 old-project: shell
 ms.assetid: 35241829-58b8-448a-ae69-1d43b4d0ba10
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetHandlerRegistrationInfo method [Windows Shell], GetHandlerRegistrationInfo method [Windows Shell], ISyncMgrRegister interface, GetHandlerRegistrationInfo,ISyncMgrRegister.GetHandlerRegistrationInfo, ISyncMgrRegister, ISyncMgrRegister interface [Windows Shell], GetHandlerRegistrationInfo method, ISyncMgrRegister::GetHandlerRegistrationInfo, mobsync/ISyncMgrRegister::GetHandlerRegistrationInfo, shell.syncmgr_isyncmgrregister_gethandlerregistrationinfo, syncmgr.isyncmgrregister_gethandlerregistrationinfo
+ms.date: 5/3/2018
+ms.keywords: GetHandlerRegistrationInfo, GetHandlerRegistrationInfo method [Windows Shell], GetHandlerRegistrationInfo method [Windows Shell],ISyncMgrRegister interface, ISyncMgrRegister interface [Windows Shell],GetHandlerRegistrationInfo method, ISyncMgrRegister.GetHandlerRegistrationInfo, ISyncMgrRegister::GetHandlerRegistrationInfo, mobsync/ISyncMgrRegister::GetHandlerRegistrationInfo, shell.syncmgr_isyncmgrregister_gethandlerregistrationinfo, syncmgr.isyncmgrregister_gethandlerregistrationinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrRegister::GetHandlerRegistrationInfo method
+# ISyncMgrRegister::GetHandlerRegistrationInfo
 
 
 ## -description

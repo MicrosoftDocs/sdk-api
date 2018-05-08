@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCADescriptor.GetTag
-title: IIsdbCADescriptor::GetTag method
+title: IIsdbCADescriptor::GetTag
 author: windows-driver-content
 description: Gets the tag that identifies a conditional access (CA) descriptor.
 old-location: mstv\iisdbcadescriptor_gettag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e8ed1538-3540-42c2-a465-ab6d580b0b31
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IIsdbCADescriptor interface, GetTag,IIsdbCADescriptor.GetTag, IIsdbCADescriptor, IIsdbCADescriptor interface [Microsoft TV Technologies], GetTag method, IIsdbCADescriptor::GetTag, dvbsiparser/IIsdbCADescriptor::GetTag, mstv.iisdbcadescriptor_gettag
+ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbCADescriptor.GetTag, IIsdbCADescriptor::GetTag, dvbsiparser/IIsdbCADescriptor::GetTag, mstv.iisdbcadescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbCADescriptor::GetTag method
+# IIsdbCADescriptor::GetTag
 
 
 ## -description

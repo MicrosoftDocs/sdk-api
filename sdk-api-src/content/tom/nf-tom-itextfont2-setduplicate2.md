@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.SetDuplicate2
-title: ITextFont2::SetDuplicate2 method
+title: ITextFont2::SetDuplicate2
 author: windows-driver-content
 description: Sets the properties of this object by copying the properties of another text font object.
 old-location: controls\itextfont2_setduplicate2.htm
 old-project: Controls
 ms.assetid: aaaafed9-be20-40a2-beed-09703970452f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetDuplicate2 method, ITextFont2::SetDuplicate2, SetDuplicate2 method [Windows Controls], SetDuplicate2 method [Windows Controls], ITextFont2 interface, SetDuplicate2,ITextFont2.SetDuplicate2, controls.itextfont2_setduplicate2, tom/ITextFont2::SetDuplicate2
+ms.date: 4/27/2018
+ms.keywords: ITextFont2 interface [Windows Controls],SetDuplicate2 method, ITextFont2.SetDuplicate2, ITextFont2::SetDuplicate2, SetDuplicate2, SetDuplicate2 method [Windows Controls], SetDuplicate2 method [Windows Controls],ITextFont2 interface, controls.itextfont2_setduplicate2, tom/ITextFont2::SetDuplicate2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::SetDuplicate2 method
+# ITextFont2::SetDuplicate2
 
 
 ## -description

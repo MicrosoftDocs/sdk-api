@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_EnumTuningSpaces
-title: ITuningSpaceContainer::get_EnumTuningSpaces method
+title: ITuningSpaceContainer::get_EnumTuningSpaces
 author: windows-driver-content
 description: The get_EnumTuningSpaces method retrieves a collection of all tuning spaces available on the local system.
 old-location: mstv\ituningspacecontainer_get_enumtuningspaces.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7cd6a691-8c47-4c26-8afd-57f6965246ff
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], get_EnumTuningSpaces method, ITuningSpaceContainer::get_EnumTuningSpaces, ITuningSpaceContainerget_EnumTuningSpaces, get_EnumTuningSpaces method [Microsoft TV Technologies], get_EnumTuningSpaces method [Microsoft TV Technologies], ITuningSpaceContainer interface, get_EnumTuningSpaces,ITuningSpaceContainer.get_EnumTuningSpaces, mstv.ituningspacecontainer_get_enumtuningspaces, tuner/ITuningSpaceContainer::get_EnumTuningSpaces
+ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_EnumTuningSpaces method, ITuningSpaceContainer.get_EnumTuningSpaces, ITuningSpaceContainer::get_EnumTuningSpaces, ITuningSpaceContainerget_EnumTuningSpaces, get_EnumTuningSpaces, get_EnumTuningSpaces method [Microsoft TV Technologies], get_EnumTuningSpaces method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_enumtuningspaces, tuner/ITuningSpaceContainer::get_EnumTuningSpaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpaceContainer::get_EnumTuningSpaces method
+# ITuningSpaceContainer::get_EnumTuningSpaces
 
 
 ## -description

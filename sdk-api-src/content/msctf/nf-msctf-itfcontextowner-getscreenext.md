@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetScreenExt
-title: ITfContextOwner::GetScreenExt method
+title: ITfContextOwner::GetScreenExt
 author: windows-driver-content
 description: The ITfContextOwner::GetScreenExt method returns the bounding box, in screen coordinates, of the display surface where the text stream is rendered.
 old-location: tsf\itfcontextowner_getscreenext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 499a446d-1575-4636-b444-dd6078ed8736
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework], ITfContextOwner interface, GetScreenExt,ITfContextOwner.GetScreenExt, ITfContextOwner, ITfContextOwner interface [Text Services Framework], GetScreenExt method, ITfContextOwner::GetScreenExt, _tsf_itfcontextowner_getscreenext_ref, msctf/ITfContextOwner::GetScreenExt, tsf.itfcontextowner_getscreenext
+ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetScreenExt method, ITfContextOwner.GetScreenExt, ITfContextOwner::GetScreenExt, _tsf_itfcontextowner_getscreenext_ref, msctf/ITfContextOwner::GetScreenExt, tsf.itfcontextowner_getscreenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwner::GetScreenExt method
+# ITfContextOwner::GetScreenExt
 
 
 ## -description

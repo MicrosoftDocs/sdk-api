@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetStringValue
-title: ICredentialProviderUser::GetStringValue method
+title: ICredentialProviderUser::GetStringValue
 author: windows-driver-content
 description: Retrieves string properties from the ICredentialProviderUser object based on the input value.
 old-location: shell\ICredentialProviderUser_GetStringValue.htm
 old-project: shell
 ms.assetid: 97FFD00F-6141-472c-A60C-A9A282190C9D
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetStringValue method [Windows Shell], GetStringValue method [Windows Shell], ICredentialProviderUser interface, GetStringValue,ICredentialProviderUser.GetStringValue, ICredentialProviderUser, ICredentialProviderUser interface [Windows Shell], GetStringValue method, ICredentialProviderUser::GetStringValue, credentialprovider/ICredentialProviderUser::GetStringValue, shell.ICredentialProviderUser_GetStringValue
+ms.date: 5/3/2018
+ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringValue method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetStringValue method, ICredentialProviderUser.GetStringValue, ICredentialProviderUser::GetStringValue, credentialprovider/ICredentialProviderUser::GetStringValue, shell.ICredentialProviderUser_GetStringValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Authui.dll
 req.irql: 
 ---
 
-# ICredentialProviderUser::GetStringValue method
+# ICredentialProviderUser::GetStringValue
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.put_RegistryMaxRecursiveDepth
-title: IConfigurationDataCollector::put_RegistryMaxRecursiveDepth method
+title: IConfigurationDataCollector::put_RegistryMaxRecursiveDepth
 author: windows-driver-content
 description: Retrieves or sets the maximum number of subkeys from which to recursively collect registry values.
 old-location: pla\iconfigurationdatacollector_registrymaxrecursivedepth.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: f291a404-a952-42cd-a538-c7d326aa29d8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IConfigurationDataCollector, IConfigurationDataCollector interface [PLA], RegistryMaxRecursiveDepth property, IConfigurationDataCollector.RegistryMaxRecursiveDepth, IConfigurationDataCollector::get_RegistryMaxRecursiveDepth, IConfigurationDataCollector::put_RegistryMaxRecursiveDepth, RegistryMaxRecursiveDepth property [PLA], RegistryMaxRecursiveDepth property [PLA], IConfigurationDataCollector interface, base.iconfigurationdatacollector_registrymaxrecursivedepth, pla.iconfigurationdatacollector_registrymaxrecursivedepth, pla/IConfigurationDataCollector::RegistryMaxRecursiveDepth, pla/IConfigurationDataCollector::get_RegistryMaxRecursiveDepth, pla/IConfigurationDataCollector::put_RegistryMaxRecursiveDepth, put_RegistryMaxRecursiveDepth,IConfigurationDataCollector.put_RegistryMaxRecursiveDepth
+ms.keywords: IConfigurationDataCollector interface [PLA],RegistryMaxRecursiveDepth property, IConfigurationDataCollector.RegistryMaxRecursiveDepth, IConfigurationDataCollector.put_RegistryMaxRecursiveDepth, IConfigurationDataCollector::RegistryMaxRecursiveDepth, IConfigurationDataCollector::get_RegistryMaxRecursiveDepth, IConfigurationDataCollector::put_RegistryMaxRecursiveDepth, RegistryMaxRecursiveDepth property [PLA], RegistryMaxRecursiveDepth property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_registrymaxrecursivedepth, pla.iconfigurationdatacollector_registrymaxrecursivedepth, pla/IConfigurationDataCollector::RegistryMaxRecursiveDepth, pla/IConfigurationDataCollector::get_RegistryMaxRecursiveDepth, pla/IConfigurationDataCollector::put_RegistryMaxRecursiveDepth, put_RegistryMaxRecursiveDepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IConfigurationDataCollector::put_RegistryMaxRecursiveDepth method
+# IConfigurationDataCollector::put_RegistryMaxRecursiveDepth
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageDataAbort.QueryAbort
-title: IShellImageDataAbort::QueryAbort method
+title: IShellImageDataAbort::QueryAbort
 author: windows-driver-content
 description: Aborts an IShellImageData process such as Decode, Draw, or Scale. This is a callback method.
 old-location: shell\IShellImageDataAbort_QueryAbort.htm
 old-project: shell
 ms.assetid: 88823fe3-efde-4ee1-9b4f-685f8df03b29
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageDataAbort, IShellImageDataAbort interface [Windows Shell], QueryAbort method, IShellImageDataAbort::QueryAbort, QueryAbort method [Windows Shell], QueryAbort method [Windows Shell], IShellImageDataAbort interface, QueryAbort,IShellImageDataAbort.QueryAbort, _shell_IShellImageDataAbort_QueryAbort, shell.IShellImageDataAbort_QueryAbort, shimgdata/IShellImageDataAbort::QueryAbort
+ms.date: 5/3/2018
+ms.keywords: IShellImageDataAbort interface [Windows Shell],QueryAbort method, IShellImageDataAbort.QueryAbort, IShellImageDataAbort::QueryAbort, QueryAbort, QueryAbort method [Windows Shell], QueryAbort method [Windows Shell],IShellImageDataAbort interface, _shell_IShellImageDataAbort_QueryAbort, shell.IShellImageDataAbort_QueryAbort, shimgdata/IShellImageDataAbort::QueryAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageDataAbort::QueryAbort method
+# IShellImageDataAbort::QueryAbort
 
 
 ## -description

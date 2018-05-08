@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Resource.ReadFromSubresource
-title: ID3D12Resource::ReadFromSubresource method
+title: ID3D12Resource::ReadFromSubresource
 author: windows-driver-content
 description: Uses the CPU to copy data from a subresource, enabling the CPU to read the contents of most textures with undefined layouts.
 old-location: direct3d12\id3d12resource_readfromsubresource.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: A1F61217-A383-49BF-B675-FBC7F6D015DB
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12Resource, ID3D12Resource interface, ReadFromSubresource method, ID3D12Resource::ReadFromSubresource, ReadFromSubresource method, ReadFromSubresource method, ID3D12Resource interface, ReadFromSubresource,ID3D12Resource.ReadFromSubresource, d3d12/ID3D12Resource::ReadFromSubresource, direct3d12.id3d12resource_readfromsubresource
+ms.keywords: ID3D12Resource interface,ReadFromSubresource method, ID3D12Resource.ReadFromSubresource, ID3D12Resource::ReadFromSubresource, ReadFromSubresource, ReadFromSubresource method, ReadFromSubresource method,ID3D12Resource interface, d3d12/ID3D12Resource::ReadFromSubresource, direct3d12.id3d12resource_readfromsubresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12Resource::ReadFromSubresource method
+# ID3D12Resource::ReadFromSubresource
 
 
 ## -description

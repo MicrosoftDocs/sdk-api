@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IClockVector.GetClockVectorElements
-title: IClockVector::GetClockVectorElements method
+title: IClockVector::GetClockVectorElements
 author: windows-driver-content
 description: Returns an enumerator that iterates through the clock vector elements.
 old-location: winsync\iclockvector_getclockvectorelements.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: a0712a2b-5aeb-458d-bc0f-c18eeb7ba9ff
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetClockVectorElements method [Windows Sync], GetClockVectorElements method [Windows Sync], IClockVector interface, GetClockVectorElements,IClockVector.GetClockVectorElements, IClockVector, IClockVector interface [Windows Sync], GetClockVectorElements method, IClockVector::GetClockVectorElements, winsync.iclockvector_getclockvectorelements, winsync/IClockVector::GetClockVectorElements
+ms.keywords: GetClockVectorElements, GetClockVectorElements method [Windows Sync], GetClockVectorElements method [Windows Sync],IClockVector interface, IClockVector interface [Windows Sync],GetClockVectorElements method, IClockVector.GetClockVectorElements, IClockVector::GetClockVectorElements, winsync.iclockvector_getclockvectorelements, winsync/IClockVector::GetClockVectorElements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IClockVector::GetClockVectorElements method
+# IClockVector::GetClockVectorElements
 
 
 ## -description

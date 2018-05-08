@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfindexerbytestream.htm
 old-project: medfound
 ms.assetid: edcce9d4-9296-4b39-8e58-58ae602c250f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MFCreateASFIndexerByteStream, MFCreateASFIndexerByteStream function [Media Foundation], edcce9d4-9296-4b39-8e58-58ae602c250f, mf.mfcreateasfindexerbytestream, wmcontainer/MFCreateASFIndexerByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

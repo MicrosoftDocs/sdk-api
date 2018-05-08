@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetCrawlScopeManager
-title: ISearchCatalogManager::GetCrawlScopeManager method
+title: ISearchCatalogManager::GetCrawlScopeManager
 author: windows-driver-content
 description: Gets an ISearchCrawlScopeManager interface for this search catalog.
 old-location: search\_search_ISearchCatalogManager_GetCrawlScopeManager.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getcrawlscopemanager.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetCrawlScopeManager method [search], GetCrawlScopeManager method [search], ISearchCatalogManager interface, GetCrawlScopeManager,ISearchCatalogManager.GetCrawlScopeManager, ISearchCatalogManager, ISearchCatalogManager interface [search], GetCrawlScopeManager method, ISearchCatalogManager::GetCrawlScopeManager, _search_ISearchCatalogManager_GetCrawlScopeManager, search._search_ISearchCatalogManager_GetCrawlScopeManager, searchapi/ISearchCatalogManager::GetCrawlScopeManager
+ms.date: 5/4/2018
+ms.keywords: GetCrawlScopeManager, GetCrawlScopeManager method [search], GetCrawlScopeManager method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetCrawlScopeManager method, ISearchCatalogManager.GetCrawlScopeManager, ISearchCatalogManager::GetCrawlScopeManager, _search_ISearchCatalogManager_GetCrawlScopeManager, search._search_ISearchCatalogManager_GetCrawlScopeManager, searchapi/ISearchCatalogManager::GetCrawlScopeManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::GetCrawlScopeManager method
+# ISearchCatalogManager::GetCrawlScopeManager
 
 
 ## -description

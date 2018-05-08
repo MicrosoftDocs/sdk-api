@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoderInfo.CreateInstance
-title: IWICBitmapEncoderInfo::CreateInstance method
+title: IWICBitmapEncoderInfo::CreateInstance
 author: windows-driver-content
 description: Creates a new IWICBitmapEncoder instance.
 old-location: wic\_wic_codec_iwicbitmapencoderinfo_createinstance.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 333663d2-9b71-44ee-bf58-f6f283666b78
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component], IWICBitmapEncoderInfo interface, CreateInstance,IWICBitmapEncoderInfo.CreateInstance, IWICBitmapEncoderInfo, IWICBitmapEncoderInfo interface [Windows Imaging Component], CreateInstance method, IWICBitmapEncoderInfo::CreateInstance, _wic_codec_iwicbitmapencoderinfo_createinstance, wic._wic_codec_iwicbitmapencoderinfo_createinstance, wincodec/IWICBitmapEncoderInfo::CreateInstance
+ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICBitmapEncoderInfo interface, IWICBitmapEncoderInfo interface [Windows Imaging Component],CreateInstance method, IWICBitmapEncoderInfo.CreateInstance, IWICBitmapEncoderInfo::CreateInstance, _wic_codec_iwicbitmapencoderinfo_createinstance, wic._wic_codec_iwicbitmapencoderinfo_createinstance, wincodec/IWICBitmapEncoderInfo::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapEncoderInfo::CreateInstance method
+# IWICBitmapEncoderInfo::CreateInstance
 
 
 ## -description

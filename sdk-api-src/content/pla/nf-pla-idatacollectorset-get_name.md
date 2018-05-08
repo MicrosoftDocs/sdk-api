@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Name
-title: IDataCollectorSet::get_Name method
+title: IDataCollectorSet::get_Name
 author: windows-driver-content
 description: Retrieves the unique name used to identify the data collector set.
 old-location: pla\idatacollectorset_get_name.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 69f6af39-b614-4957-a1e5-1f381c915f17
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], Name property, IDataCollectorSet.Name, IDataCollectorSet::get_Name, Name property [PLA], Name property [PLA], IDataCollectorSet interface, base.idatacollectorset_get_name, get_Name,IDataCollectorSet.get_Name, pla.idatacollectorset_get_name, pla/IDataCollectorSet::Name, pla/IDataCollectorSet::get_Name
+ms.keywords: IDataCollectorSet interface [PLA],Name property, IDataCollectorSet.Name, IDataCollectorSet.get_Name, IDataCollectorSet::Name, IDataCollectorSet::get_Name, Name property [PLA], Name property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_name, get_Name, pla.idatacollectorset_get_name, pla/IDataCollectorSet::Name, pla/IDataCollectorSet::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::get_Name method
+# IDataCollectorSet::get_Name
 
 
 ## -description

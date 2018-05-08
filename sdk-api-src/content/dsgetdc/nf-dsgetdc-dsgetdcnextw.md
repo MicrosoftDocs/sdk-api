@@ -7,7 +7,7 @@ old-location: ad\dsgetdcnext.htm
 old-project: AD
 ms.assetid: 2906772f-4391-411b-b0a9-5a20ebb6c0ee
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DsGetDcNext, DsGetDcNext function [Active Directory], DsGetDcNextA, DsGetDcNextW, ad.dsgetdcnext, dsgetdc/DsGetDcNext, dsgetdc/DsGetDcNextA, dsgetdc/DsGetDcNextW
 ms.prod: windows-hardware
 ms.technology: windows-devices

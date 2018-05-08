@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMMatrixTransform.SetMatrix
-title: IXpsOMMatrixTransform::SetMatrix method
+title: IXpsOMMatrixTransform::SetMatrix
 author: windows-driver-content
 description: Sets the XPS_MATRIX structure, which specifies the transform matrix.
 old-location: xps\ixpsommatrixtransform_setmatrix.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: cbe6a992-1c94-40b0-a0b6-3b214b928805
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMMatrixTransform, IXpsOMMatrixTransform interface [XPS Documents and Packaging], SetMatrix method, IXpsOMMatrixTransform::SetMatrix, SetMatrix method [XPS Documents and Packaging], SetMatrix method [XPS Documents and Packaging], IXpsOMMatrixTransform interface, SetMatrix,IXpsOMMatrixTransform.SetMatrix, xps.ixpsommatrixtransform_setmatrix, xpsobjectmodel/IXpsOMMatrixTransform::SetMatrix
+ms.keywords: IXpsOMMatrixTransform interface [XPS Documents and Packaging],SetMatrix method, IXpsOMMatrixTransform.SetMatrix, IXpsOMMatrixTransform::SetMatrix, SetMatrix, SetMatrix method [XPS Documents and Packaging], SetMatrix method [XPS Documents and Packaging],IXpsOMMatrixTransform interface, xps.ixpsommatrixtransform_setmatrix, xpsobjectmodel/IXpsOMMatrixTransform::SetMatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMMatrixTransform::SetMatrix method
+# IXpsOMMatrixTransform::SetMatrix
 
 
 ## -description

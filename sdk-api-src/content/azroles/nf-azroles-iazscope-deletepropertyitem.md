@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.DeletePropertyItem
-title: IAzScope::DeletePropertyItem method
+title: IAzScope::DeletePropertyItem
 author: windows-driver-content
 description: Removes the specified principal from the specified list of principals.
 old-location: security\iazscope_deletepropertyitem.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 16500d05-c5bf-4d09-8649-ebf58407120d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AzScope object [Security], DeletePropertyItem method, DeletePropertyItem method [Security], DeletePropertyItem method [Security], AzScope object, DeletePropertyItem method [Security], IAzScope interface, DeletePropertyItem,IAzScope.DeletePropertyItem, IAzScope, IAzScope interface [Security], DeletePropertyItem method, IAzScope::DeletePropertyItem, azroles/IAzScope::DeletePropertyItem, security.iazscope_deletepropertyitem
+ms.keywords: AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AzScope object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzScope object, DeletePropertyItem method [Security],IAzScope interface, IAzScope interface [Security],DeletePropertyItem method, IAzScope.DeletePropertyItem, IAzScope::DeletePropertyItem, azroles/IAzScope::DeletePropertyItem, security.iazscope_deletepropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope::DeletePropertyItem method
+# IAzScope::DeletePropertyItem
 
 
 ## -description

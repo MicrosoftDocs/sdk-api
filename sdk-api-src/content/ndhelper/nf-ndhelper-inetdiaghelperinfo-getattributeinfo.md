@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelperInfo.GetAttributeInfo
-title: INetDiagHelperInfo::GetAttributeInfo method
+title: INetDiagHelperInfo::GetAttributeInfo
 author: windows-driver-content
 description: The GetAttributeInfo method retrieves the list of key parameters needed by the Helper Class Extension.
 old-location: ndf\inetdiaghelperinfo_getattributeinfo.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 0c1a12f3-357f-4d96-b0ef-99d788b6e020
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetAttributeInfo method [NDF], GetAttributeInfo method [NDF], INetDiagHelperInfo interface, GetAttributeInfo,INetDiagHelperInfo.GetAttributeInfo, INetDiagHelperInfo, INetDiagHelperInfo interface [NDF], GetAttributeInfo method, INetDiagHelperInfo::GetAttributeInfo, ndf.inetdiaghelperinfo_getattributeinfo, ndhelper/INetDiagHelperInfo::GetAttributeInfo
+ms.keywords: GetAttributeInfo, GetAttributeInfo method [NDF], GetAttributeInfo method [NDF],INetDiagHelperInfo interface, INetDiagHelperInfo interface [NDF],GetAttributeInfo method, INetDiagHelperInfo.GetAttributeInfo, INetDiagHelperInfo::GetAttributeInfo, ndf.inetdiaghelperinfo_getattributeinfo, ndhelper/INetDiagHelperInfo::GetAttributeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelperInfo::GetAttributeInfo method
+# INetDiagHelperInfo::GetAttributeInfo
 
 
 ## -description

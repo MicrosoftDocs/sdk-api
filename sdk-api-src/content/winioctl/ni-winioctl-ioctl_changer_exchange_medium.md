@@ -8,7 +8,7 @@ old-project: DevIO
 ms.assetid: 40550df0-9da4-4b02-bd57-23eae78c68df
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control code, _win32_ioctl_changer_exchange_medium, base.ioctl_changer_exchange_medium, winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM
+ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control, IOCTL_CHANGER_EXCHANGE_MEDIUM control code, _win32_ioctl_changer_exchange_medium, base.ioctl_changer_exchange_medium, winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

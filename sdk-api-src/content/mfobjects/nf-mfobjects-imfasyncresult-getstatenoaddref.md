@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetStateNoAddRef
-title: IMFAsyncResult::GetStateNoAddRef method
+title: IMFAsyncResult::GetStateNoAddRef
 author: windows-driver-content
 description: Returns the state object specified by the caller in the asynchronous Begin method, without incrementing the object's reference count.
 old-location: mf\imfasyncresult_getstatenoaddref.htm
 old-project: medfound
 ms.assetid: 37ba820c-5253-48de-a960-c546e50e8672
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 37ba820c-5253-48de-a960-c546e50e8672, GetStateNoAddRef method [Media Foundation], GetStateNoAddRef method [Media Foundation], IMFAsyncResult interface, GetStateNoAddRef,IMFAsyncResult.GetStateNoAddRef, IMFAsyncResult, IMFAsyncResult interface [Media Foundation], GetStateNoAddRef method, IMFAsyncResult::GetStateNoAddRef, mf.imfasyncresult_getstatenoaddref, mfobjects/IMFAsyncResult::GetStateNoAddRef
+ms.date: 5/3/2018
+ms.keywords: 37ba820c-5253-48de-a960-c546e50e8672, GetStateNoAddRef, GetStateNoAddRef method [Media Foundation], GetStateNoAddRef method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetStateNoAddRef method, IMFAsyncResult.GetStateNoAddRef, IMFAsyncResult::GetStateNoAddRef, mf.imfasyncresult_getstatenoaddref, mfobjects/IMFAsyncResult::GetStateNoAddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAsyncResult::GetStateNoAddRef method
+# IMFAsyncResult::GetStateNoAddRef
 
 
 ## -description

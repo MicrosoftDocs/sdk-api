@@ -7,7 +7,7 @@ old-location: rpc\rpcnsprofileeltremove.htm
 old-project: Rpc
 ms.assetid: 303df924-73ad-4e2f-aa30-e600bb5594c2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcNsProfileEltRemove, RpcNsProfileEltRemove function [RPC], RpcNsProfileEltRemoveA, RpcNsProfileEltRemoveW, _rpc_rpcnsprofileeltremove, rpc.rpcnsprofileeltremove, rpcnsi/RpcNsProfileEltRemove, rpcnsi/RpcNsProfileEltRemoveA, rpcnsi/RpcNsProfileEltRemoveW
 ms.prod: windows-hardware
 ms.technology: windows-devices

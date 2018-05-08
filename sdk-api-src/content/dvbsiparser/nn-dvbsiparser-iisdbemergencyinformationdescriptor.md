@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1d098415-1e64-4b49-aa48-654b0d0da5df
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IIsdbEmergencyInformationDescriptor, mstv.iisdbemergencyinformationdescriptor
+ms.keywords: IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbEmergencyInformationDescriptor, mstv.iisdbemergencyinformationdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

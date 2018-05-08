@@ -7,7 +7,7 @@ old-location: automat\varr4fromi2.htm
 old-project: automat
 ms.assetid: 0857de74-47f9-42a1-ab41-23f75fa416f0
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarR4FromI2, VarR4FromI2 function [Automation], _oa96_VarR4FromI2, automat.varr4fromi2, oleauto/VarR4FromI2
 ms.prod: windows-hardware
 ms.technology: windows-devices

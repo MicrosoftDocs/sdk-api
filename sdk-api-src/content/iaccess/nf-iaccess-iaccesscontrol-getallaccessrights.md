@@ -1,6 +1,6 @@
 ---
 UID: NF:iaccess.IAccessControl.GetAllAccessRights
-title: IAccessControl::GetAllAccessRights method
+title: IAccessControl::GetAllAccessRights
 author: windows-driver-content
 description: Gets the entire list of access rights and/or the owner and group for the specified object.
 old-location: com\iaccesscontrol_getallaccessrights.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8c8551fb-8ba9-4a52-b6f8-bd11e4006fe9
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetAllAccessRights method [COM], GetAllAccessRights method [COM], IAccessControl interface, GetAllAccessRights,IAccessControl.GetAllAccessRights, IAccessControl, IAccessControl interface [COM], GetAllAccessRights method, IAccessControl::GetAllAccessRights, _com_iaccesscontrol_getallaccessrights, com.iaccesscontrol_getallaccessrights, iaccess/IAccessControl::GetAllAccessRights
+ms.keywords: GetAllAccessRights, GetAllAccessRights method [COM], GetAllAccessRights method [COM],IAccessControl interface, IAccessControl interface [COM],GetAllAccessRights method, IAccessControl.GetAllAccessRights, IAccessControl::GetAllAccessRights, _com_iaccesscontrol_getallaccessrights, com.iaccesscontrol_getallaccessrights, iaccess/IAccessControl::GetAllAccessRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAccessControl::GetAllAccessRights method
+# IAccessControl::GetAllAccessRights
 
 
 ## -description

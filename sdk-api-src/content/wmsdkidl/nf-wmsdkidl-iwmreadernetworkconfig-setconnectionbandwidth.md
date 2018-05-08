@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetConnectionBandwidth
-title: IWMReaderNetworkConfig::SetConnectionBandwidth method
+title: IWMReaderNetworkConfig::SetConnectionBandwidth
 author: windows-driver-content
 description: The SetConnectionBandwidth method specifies the connection bandwidth for the client.
 old-location: wmformat\iwmreadernetworkconfig_setconnectionbandwidth.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: beb84e1b-ebe2-40a0-bcf0-eded9346d7a1
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetConnectionBandwidth method, IWMReaderNetworkConfig::SetConnectionBandwidth, IWMReaderNetworkConfigSetConnectionBandwidth, SetConnectionBandwidth method [windows Media Format], SetConnectionBandwidth method [windows Media Format], IWMReaderNetworkConfig interface, SetConnectionBandwidth,IWMReaderNetworkConfig.SetConnectionBandwidth, wmformat.iwmreadernetworkconfig_setconnectionbandwidth, wmsdkidl/IWMReaderNetworkConfig::SetConnectionBandwidth
+ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetConnectionBandwidth method, IWMReaderNetworkConfig.SetConnectionBandwidth, IWMReaderNetworkConfig::SetConnectionBandwidth, IWMReaderNetworkConfigSetConnectionBandwidth, SetConnectionBandwidth, SetConnectionBandwidth method [windows Media Format], SetConnectionBandwidth method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setconnectionbandwidth, wmsdkidl/IWMReaderNetworkConfig::SetConnectionBandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::SetConnectionBandwidth method
+# IWMReaderNetworkConfig::SetConnectionBandwidth
 
 
 ## -description

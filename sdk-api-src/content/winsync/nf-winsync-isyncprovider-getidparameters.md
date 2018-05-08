@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncProvider.GetIdParameters
-title: ISyncProvider::GetIdParameters method
+title: ISyncProvider::GetIdParameters
 author: windows-driver-content
 description: Gets the ID format schema of the provider.
 old-location: winsync\isyncprovider_getidparameters.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: a1839c53-7978-4a14-8b17-43621b801f13
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync], ISyncProvider interface, GetIdParameters,ISyncProvider.GetIdParameters, ISyncProvider, ISyncProvider interface [Windows Sync], GetIdParameters method, ISyncProvider::GetIdParameters, winsync.isyncprovider_getidparameters, winsync/ISyncProvider::GetIdParameters
+ms.keywords: GetIdParameters, GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync],ISyncProvider interface, ISyncProvider interface [Windows Sync],GetIdParameters method, ISyncProvider.GetIdParameters, ISyncProvider::GetIdParameters, winsync.isyncprovider_getidparameters, winsync/ISyncProvider::GetIdParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncProvider::GetIdParameters method
+# ISyncProvider::GetIdParameters
 
 
 ## -description

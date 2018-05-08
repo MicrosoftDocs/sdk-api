@@ -1,14 +1,14 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.RemoveClientCertificate
-title: IBackgroundCopyJobHttpOptions::RemoveClientCertificate method
+title: IBackgroundCopyJobHttpOptions::RemoveClientCertificate
 author: windows-driver-content
 description: Removes the client certificate from the job.
 old-location: bits\ibackgroundcopyjobhttpoptions_removeclientcertificate.htm
 old-project: Bits
 ms.assetid: b4fb7213-5f6b-407f-bc44-6d11886ed5ad
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyJobHttpOptions, IBackgroundCopyJobHttpOptions interface [BITS], RemoveClientCertificate method, IBackgroundCopyJobHttpOptions::RemoveClientCertificate, RemoveClientCertificate method [BITS], RemoveClientCertificate method [BITS], IBackgroundCopyJobHttpOptions interface, RemoveClientCertificate,IBackgroundCopyJobHttpOptions.RemoveClientCertificate, bits.ibackgroundcopyjobhttpoptions_removeclientcertificate, bits2_5/IBackgroundCopyJobHttpOptions::RemoveClientCertificate
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyJobHttpOptions interface [BITS],RemoveClientCertificate method, IBackgroundCopyJobHttpOptions.RemoveClientCertificate, IBackgroundCopyJobHttpOptions::RemoveClientCertificate, RemoveClientCertificate, RemoveClientCertificate method [BITS], RemoveClientCertificate method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_removeclientcertificate, bits2_5/IBackgroundCopyJobHttpOptions::RemoveClientCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBackgroundCopyJobHttpOptions::RemoveClientCertificate method
+# IBackgroundCopyJobHttpOptions::RemoveClientCertificate
 
 
 ## -description

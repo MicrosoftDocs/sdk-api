@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSGetShaderResources
-title: ID3D11DeviceContext::PSGetShaderResources method
+title: ID3D11DeviceContext::PSGetShaderResources
 author: windows-driver-content
 description: Get the pixel shader resources.
 old-location: direct3d11\id3d11devicecontext_psgetshaderresources.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 5b8af19e-a675-42f5-85ef-232b0bb7dd6d
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 9bb51435-76d2-a8ec-c499-0ff0b0c09a1d, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], PSGetShaderResources method, ID3D11DeviceContext::PSGetShaderResources, PSGetShaderResources method [Direct3D 11], PSGetShaderResources method [Direct3D 11], ID3D11DeviceContext interface, PSGetShaderResources,ID3D11DeviceContext.PSGetShaderResources, d3d11/ID3D11DeviceContext::PSGetShaderResources, direct3d11.id3d11devicecontext_psgetshaderresources
+ms.keywords: 9bb51435-76d2-a8ec-c499-0ff0b0c09a1d, ID3D11DeviceContext interface [Direct3D 11],PSGetShaderResources method, ID3D11DeviceContext.PSGetShaderResources, ID3D11DeviceContext::PSGetShaderResources, PSGetShaderResources, PSGetShaderResources method [Direct3D 11], PSGetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSGetShaderResources, direct3d11.id3d11devicecontext_psgetshaderresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::PSGetShaderResources method
+# ID3D11DeviceContext::PSGetShaderResources
 
 
 ## -description

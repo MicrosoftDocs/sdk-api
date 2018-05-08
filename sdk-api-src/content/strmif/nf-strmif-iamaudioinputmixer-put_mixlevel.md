@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_MixLevel
-title: IAMAudioInputMixer::put_MixLevel method
+title: IAMAudioInputMixer::put_MixLevel
 author: windows-driver-content
 description: The put_MixLevel method sets the recording level for this input.
 old-location: dshow\iamaudioinputmixer_put_mixlevel.htm
 old-project: DirectShow
 ms.assetid: 07fd327f-d78b-4fc0-9c6a-69cdaa2bcdf6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], put_MixLevel method, IAMAudioInputMixer::put_MixLevel, IAMAudioInputMixerput_MixLevel, dshow.iamaudioinputmixer_put_mixlevel, put_MixLevel method [DirectShow], put_MixLevel method [DirectShow], IAMAudioInputMixer interface, put_MixLevel,IAMAudioInputMixer.put_MixLevel, strmif/IAMAudioInputMixer::put_MixLevel
+ms.date: 4/30/2018
+ms.keywords: IAMAudioInputMixer interface [DirectShow],put_MixLevel method, IAMAudioInputMixer.put_MixLevel, IAMAudioInputMixer::put_MixLevel, IAMAudioInputMixerput_MixLevel, dshow.iamaudioinputmixer_put_mixlevel, put_MixLevel, put_MixLevel method [DirectShow], put_MixLevel method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_MixLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAudioInputMixer::put_MixLevel method
+# IAMAudioInputMixer::put_MixLevel
 
 
 ## -description

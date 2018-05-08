@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetChangeVersion
-title: ISyncChange::GetChangeVersion method
+title: ISyncChange::GetChangeVersion
 author: windows-driver-content
 description: Gets the version that is associated with this change.
 old-location: winsync\isyncchange_getchangeversion.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 6b6def94-8c48-41f6-8869-e28d0db0d500
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetChangeVersion method [Windows Sync], GetChangeVersion method [Windows Sync], ISyncChange interface, GetChangeVersion,ISyncChange.GetChangeVersion, ISyncChange, ISyncChange interface [Windows Sync], GetChangeVersion method, ISyncChange::GetChangeVersion, winsync.isyncchange_getchangeversion, winsync/ISyncChange::GetChangeVersion
+ms.keywords: GetChangeVersion, GetChangeVersion method [Windows Sync], GetChangeVersion method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetChangeVersion method, ISyncChange.GetChangeVersion, ISyncChange::GetChangeVersion, winsync.isyncchange_getchangeversion, winsync/ISyncChange::GetChangeVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChange::GetChangeVersion method
+# ISyncChange::GetChangeVersion
 
 
 ## -description

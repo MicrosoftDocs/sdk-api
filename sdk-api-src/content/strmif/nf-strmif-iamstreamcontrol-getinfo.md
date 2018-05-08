@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMStreamControl.GetInfo
-title: IAMStreamControl::GetInfo method
+title: IAMStreamControl::GetInfo
 author: windows-driver-content
 description: The GetInfo method retrieves information about the current stream-control settings, including the start and stop times.
 old-location: dshow\iamstreamcontrol_getinfo.htm
 old-project: DirectShow
 ms.assetid: 9993534c-ec93-4c15-b977-6a0933d23a72
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetInfo method [DirectShow], GetInfo method [DirectShow], IAMStreamControl interface, GetInfo,IAMStreamControl.GetInfo, IAMStreamControl, IAMStreamControl interface [DirectShow], GetInfo method, IAMStreamControl::GetInfo, IAMStreamControlGetInfo, dshow.iamstreamcontrol_getinfo, strmif/IAMStreamControl::GetInfo
+ms.date: 4/30/2018
+ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMStreamControl interface, IAMStreamControl interface [DirectShow],GetInfo method, IAMStreamControl.GetInfo, IAMStreamControl::GetInfo, IAMStreamControlGetInfo, dshow.iamstreamcontrol_getinfo, strmif/IAMStreamControl::GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMStreamControl::GetInfo method
+# IAMStreamControl::GetInfo
 
 
 ## -description

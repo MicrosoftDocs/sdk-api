@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge2.ExtractFilesEx
-title: IMsmMerge2::ExtractFilesEx method
+title: IMsmMerge2::ExtractFilesEx
 author: windows-driver-content
 description: The ExtractFilesEx method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see the ExtractFilesEx method of the Merge object.
 old-location: setup\imsmmerge2_extractfilesex.htm
@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: 0ba6adc9-a08f-47a6-b8a8-1624bd856511
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ExtractFilesEx method, ExtractFilesEx method, IMsmMerge2 interface, ExtractFilesEx,IMsmMerge2.ExtractFilesEx, IMsmMerge2, IMsmMerge2 interface, ExtractFilesEx method, IMsmMerge2::ExtractFilesEx, _msi_extractfilesex_function, mergemod/IMsmMerge2::ExtractFilesEx, setup.imsmmerge2_extractfilesex
+ms.keywords: ExtractFilesEx, ExtractFilesEx method, ExtractFilesEx method,IMsmMerge2 interface, IMsmMerge2 interface,ExtractFilesEx method, IMsmMerge2.ExtractFilesEx, IMsmMerge2::ExtractFilesEx, _msi_extractfilesex_function, mergemod/IMsmMerge2::ExtractFilesEx, setup.imsmmerge2_extractfilesex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMsmMerge2::ExtractFilesEx method
+# IMsmMerge2::ExtractFilesEx
 
 
 ## -description

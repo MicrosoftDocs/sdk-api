@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2EnumStream.Skip
-title: ISBE2EnumStream::Skip method
+title: ISBE2EnumStream::Skip
 author: windows-driver-content
 description: Skips a specified number of streams in the enumeration sequence.
 old-location: mstv\isbe2enumstream_skip.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 52979cbc-203b-49ae-9892-db1abfeae94b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ISBE2EnumStream, ISBE2EnumStream interface [Microsoft TV Technologies], Skip method, ISBE2EnumStream::Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies], ISBE2EnumStream interface, Skip,ISBE2EnumStream.Skip, mstv.isbe2enumstream_skip, sbe/ISBE2EnumStream::Skip
+ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Skip method, ISBE2EnumStream.Skip, ISBE2EnumStream::Skip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_skip, sbe/ISBE2EnumStream::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISBE2EnumStream::Skip method
+# ISBE2EnumStream::Skip
 
 
 ## -description

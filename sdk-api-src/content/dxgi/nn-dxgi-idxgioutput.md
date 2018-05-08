@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 1d09c573-df6d-db81-0dbe-3135c4704ef8, IDXGIOutput, IDXGIOutput interface [DXGI], IDXGIOutput interface [DXGI], described, direct3ddxgi.idxgioutput, dxgi/IDXGIOutput
+ms.keywords: 1d09c573-df6d-db81-0dbe-3135c4704ef8, IDXGIOutput, IDXGIOutput interface [DXGI], IDXGIOutput interface [DXGI],described, direct3ddxgi.idxgioutput, dxgi/IDXGIOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

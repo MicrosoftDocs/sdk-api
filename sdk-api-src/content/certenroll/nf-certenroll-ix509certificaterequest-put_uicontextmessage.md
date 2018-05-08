@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.put_UIContextMessage
-title: IX509CertificateRequest::put_UIContextMessage method
+title: IX509CertificateRequest::put_UIContextMessage
 author: windows-driver-content
 description: Specifies or retrieves a context string to display in the user interface.
 old-location: security\ix509certificaterequest_uicontextmessage_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 0eedb520-06c3-4106-8593-1c5fb0829d5e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequest, IX509CertificateRequest interface [Security], UIContextMessage property, IX509CertificateRequest.UIContextMessage, IX509CertificateRequest::get_UIContextMessage, IX509CertificateRequest::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security], IX509CertificateRequest interface, certenroll/IX509CertificateRequest::UIContextMessage, certenroll/IX509CertificateRequest::get_UIContextMessage, certenroll/IX509CertificateRequest::put_UIContextMessage, put_UIContextMessage,IX509CertificateRequest.put_UIContextMessage, security.ix509certificaterequest_uicontextmessage_property
+ms.keywords: IX509CertificateRequest interface [Security],UIContextMessage property, IX509CertificateRequest.UIContextMessage, IX509CertificateRequest.put_UIContextMessage, IX509CertificateRequest::UIContextMessage, IX509CertificateRequest::get_UIContextMessage, IX509CertificateRequest::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::UIContextMessage, certenroll/IX509CertificateRequest::get_UIContextMessage, certenroll/IX509CertificateRequest::put_UIContextMessage, put_UIContextMessage, security.ix509certificaterequest_uicontextmessage_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequest::put_UIContextMessage method
+# IX509CertificateRequest::put_UIContextMessage
 
 
 ## -description

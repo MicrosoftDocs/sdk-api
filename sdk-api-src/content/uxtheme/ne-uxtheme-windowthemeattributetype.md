@@ -7,7 +7,7 @@ old-location: controls\WINDOWTHEMEATTRIBUTETYPE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\windowthemeattributetype.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: WINDOWTHEMEATTRIBUTETYPE, WINDOWTHEMEATTRIBUTETYPE enumeration [Windows Controls], WTA_NONCLIENT, controls.WINDOWTHEMEATTRIBUTETYPE, controls.inet_WINDOWTHEMEATTRIBUTETYPE, inet_WINDOWTHEMEATTRIBUTETYPE, inet_WINDOWTHEMEATTRIBUTETYPE_cpp, uxtheme/WINDOWTHEMEATTRIBUTETYPE, uxtheme/WTA_NONCLIENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Sidebar.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: Sidebar.Exe (version 1.00 or later)
+req.dll: 
 req.irql: 
 req.product: Windows UI
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcommon.ID3D10Blob.GetBufferPointer
-title: ID3D10Blob::GetBufferPointer method
+title: ID3D10Blob::GetBufferPointer
 author: windows-driver-content
 description: Get a pointer to the data.
 old-location: direct3d10\id3d10blob_getbufferpointer.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10blob_getbufferpointer.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 85ab9d71-7135-d4b0-3d58-5c56a845845f, GetBufferPointer method [Direct3D 10], GetBufferPointer method [Direct3D 10], ID3D10Blob interface, GetBufferPointer,ID3D10Blob.GetBufferPointer, ID3D10Blob, ID3D10Blob interface [Direct3D 10], GetBufferPointer method, ID3D10Blob::GetBufferPointer, d3dcommon/ID3D10Blob::GetBufferPointer, direct3d10.id3d10blob_getbufferpointer
+ms.keywords: 85ab9d71-7135-d4b0-3d58-5c56a845845f, GetBufferPointer, GetBufferPointer method [Direct3D 10], GetBufferPointer method [Direct3D 10],ID3D10Blob interface, ID3D10Blob interface [Direct3D 10],GetBufferPointer method, ID3D10Blob.GetBufferPointer, ID3D10Blob::GetBufferPointer, d3dcommon/ID3D10Blob::GetBufferPointer, direct3d10.id3d10blob_getbufferpointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Blob::GetBufferPointer method
+# ID3D10Blob::GetBufferPointer
 
 
 ## -description

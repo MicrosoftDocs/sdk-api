@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragmentRoot.ElementProviderFromPoint
-title: IRawElementProviderFragmentRoot::ElementProviderFromPoint method
+title: IRawElementProviderFragmentRoot::ElementProviderFromPoint
 author: windows-driver-content
 description: Retrieves the provider of the element that is at the specified point in this fragment.
 old-location: winauto\uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 469149c7-8c2c-468c-b7cc-6d849de427f1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ElementProviderFromPoint method [Windows Accessibility], ElementProviderFromPoint method [Windows Accessibility], IRawElementProviderFragmentRoot interface, ElementProviderFromPoint,IRawElementProviderFragmentRoot.ElementProviderFromPoint, IRawElementProviderFragmentRoot, IRawElementProviderFragmentRoot interface [Windows Accessibility], ElementProviderFromPoint method, IRawElementProviderFragmentRoot::ElementProviderFromPoint, uiauto.uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint, uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint, uiautomationcore/IRawElementProviderFragmentRoot::ElementProviderFromPoint, winauto.uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint
+ms.keywords: ElementProviderFromPoint, ElementProviderFromPoint method [Windows Accessibility], ElementProviderFromPoint method [Windows Accessibility],IRawElementProviderFragmentRoot interface, IRawElementProviderFragmentRoot interface [Windows Accessibility],ElementProviderFromPoint method, IRawElementProviderFragmentRoot.ElementProviderFromPoint, IRawElementProviderFragmentRoot::ElementProviderFromPoint, uiauto.uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint, uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint, uiautomationcore/IRawElementProviderFragmentRoot::ElementProviderFromPoint, winauto.uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRawElementProviderFragmentRoot::ElementProviderFromPoint method
+# IRawElementProviderFragmentRoot::ElementProviderFromPoint
 
 
 ## -description

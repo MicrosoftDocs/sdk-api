@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetName
-title: IMDSPDevice::GetName method
+title: IMDSPDevice::GetName
 author: windows-driver-content
 description: The GetName method retrieves the name of the device.
 old-location: wmdm\imdspdevice_getname.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: bc4fef6e-8faf-4114-a68d-bbc30bc18130
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetName method [windows Media Device Manager], GetName method [windows Media Device Manager], IMDSPDevice interface, GetName,IMDSPDevice.GetName, IMDSPDevice, IMDSPDevice interface [windows Media Device Manager], GetName method, IMDSPDevice::GetName, IMDSPDeviceGetName, mswmdm/IMDSPDevice::GetName, wmdm.imdspdevice_getname
+ms.keywords: GetName, GetName method [windows Media Device Manager], GetName method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetName method, IMDSPDevice.GetName, IMDSPDevice::GetName, IMDSPDeviceGetName, mswmdm/IMDSPDevice::GetName, wmdm.imdspdevice_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPDevice::GetName method
+# IMDSPDevice::GetName
 
 
 ## -description

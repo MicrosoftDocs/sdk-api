@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IBaseFilter.QueryVendorInfo
-title: IBaseFilter::QueryVendorInfo method
+title: IBaseFilter::QueryVendorInfo
 author: windows-driver-content
 description: The QueryVendorInfo method retrieves a string containing vendor information.
 old-location: dshow\ibasefilter_queryvendorinfo.htm
 old-project: DirectShow
 ms.assetid: 7524de26-360e-49c7-b636-7d05cf4d0ad2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBaseFilter, IBaseFilter interface [DirectShow], QueryVendorInfo method, IBaseFilter::QueryVendorInfo, IBaseFilterQueryVendorInfo, QueryVendorInfo method [DirectShow], QueryVendorInfo method [DirectShow], IBaseFilter interface, QueryVendorInfo,IBaseFilter.QueryVendorInfo, dshow.ibasefilter_queryvendorinfo, strmif/IBaseFilter::QueryVendorInfo
+ms.date: 4/30/2018
+ms.keywords: IBaseFilter interface [DirectShow],QueryVendorInfo method, IBaseFilter.QueryVendorInfo, IBaseFilter::QueryVendorInfo, IBaseFilterQueryVendorInfo, QueryVendorInfo, QueryVendorInfo method [DirectShow], QueryVendorInfo method [DirectShow],IBaseFilter interface, dshow.ibasefilter_queryvendorinfo, strmif/IBaseFilter::QueryVendorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IBaseFilter::QueryVendorInfo method
+# IBaseFilter::QueryVendorInfo
 
 
 ## -description

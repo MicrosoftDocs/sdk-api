@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1c614f2a-69e0-4100-b83e-740478654c17
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IGuideDataProperty, IGuideDataProperty interface [Microsoft TV Technologies], IGuideDataProperty interface [Microsoft TV Technologies], described, IGuideDataPropertyInterface, bdatif/IGuideDataProperty, mstv.iguidedataproperty
+ms.keywords: IGuideDataProperty, IGuideDataProperty interface [Microsoft TV Technologies], IGuideDataProperty interface [Microsoft TV Technologies],described, IGuideDataPropertyInterface, bdatif/IGuideDataProperty, mstv.iguidedataproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

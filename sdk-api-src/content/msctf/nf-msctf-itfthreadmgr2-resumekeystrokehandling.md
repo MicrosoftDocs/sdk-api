@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.ResumeKeystrokeHandling
-title: ITfThreadMgr2::ResumeKeystrokeHandling method
+title: ITfThreadMgr2::ResumeKeystrokeHandling
 author: windows-driver-content
 description: Resumes suspended keystroke handling.
 old-location: tsf\itfthreadmgr2_resumekeystrokehandling.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 68948ACE-EF49-4F24-B579-72304A00A98D
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], ResumeKeystrokeHandling method, ITfThreadMgr2::ResumeKeystrokeHandling, ResumeKeystrokeHandling method [Text Services Framework], ResumeKeystrokeHandling method [Text Services Framework], ITfThreadMgr2 interface, ResumeKeystrokeHandling,ITfThreadMgr2.ResumeKeystrokeHandling, msctf/ITfThreadMgr2::ResumeKeystrokeHandling, tsf.itfthreadmgr2_resumekeystrokehandling
+ms.keywords: ITfThreadMgr2 interface [Text Services Framework],ResumeKeystrokeHandling method, ITfThreadMgr2.ResumeKeystrokeHandling, ITfThreadMgr2::ResumeKeystrokeHandling, ResumeKeystrokeHandling, ResumeKeystrokeHandling method [Text Services Framework], ResumeKeystrokeHandling method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::ResumeKeystrokeHandling, tsf.itfthreadmgr2_resumekeystrokehandling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr2::ResumeKeystrokeHandling method
+# ITfThreadMgr2::ResumeKeystrokeHandling
 
 
 ## -description

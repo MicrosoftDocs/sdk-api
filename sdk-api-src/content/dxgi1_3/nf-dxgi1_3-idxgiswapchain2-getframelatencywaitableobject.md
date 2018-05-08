@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.GetFrameLatencyWaitableObject
-title: IDXGISwapChain2::GetFrameLatencyWaitableObject method
+title: IDXGISwapChain2::GetFrameLatencyWaitableObject
 author: windows-driver-content
 description: Returns a waitable handle that signals when the DXGI adapter has finished presenting a new frame.
 old-location: direct3ddxgi\idxgiswapchain2_getframelatencywaitableobject.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 70E7347F-C6F9-49FA-9796-B728CF3F7778
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetFrameLatencyWaitableObject method [DXGI], GetFrameLatencyWaitableObject method [DXGI], IDXGISwapChain2 interface, GetFrameLatencyWaitableObject,IDXGISwapChain2.GetFrameLatencyWaitableObject, IDXGISwapChain2, IDXGISwapChain2 interface [DXGI], GetFrameLatencyWaitableObject method, IDXGISwapChain2::GetFrameLatencyWaitableObject, direct3ddxgi.idxgiswapchain2_getframelatencywaitableobject, dxgi1_3/IDXGISwapChain2::GetFrameLatencyWaitableObject
+ms.keywords: GetFrameLatencyWaitableObject, GetFrameLatencyWaitableObject method [DXGI], GetFrameLatencyWaitableObject method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetFrameLatencyWaitableObject method, IDXGISwapChain2.GetFrameLatencyWaitableObject, IDXGISwapChain2::GetFrameLatencyWaitableObject, direct3ddxgi.idxgiswapchain2_getframelatencywaitableobject, dxgi1_3/IDXGISwapChain2::GetFrameLatencyWaitableObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain2::GetFrameLatencyWaitableObject method
+# IDXGISwapChain2::GetFrameLatencyWaitableObject
 
 
 ## -description

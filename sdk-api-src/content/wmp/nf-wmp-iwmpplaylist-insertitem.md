@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlaylist.insertItem
-title: IWMPPlaylist::insertItem method
+title: IWMPPlaylist::insertItem
 author: windows-driver-content
 description: The insertItem method adds a media item at the specified location in the playlist.
 old-location: wmp\iwmpplaylist_insertitem.htm
 old-project: WMP
 ms.assetid: 2db2d28d-4cbf-423c-824f-e1e212c46f7a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlaylist, IWMPPlaylist interface [Windows Media Player], insertItem method, IWMPPlaylist::insertItem, IWMPPlaylistinsertItem, insertItem method [Windows Media Player], insertItem method [Windows Media Player], IWMPPlaylist interface, insertItem,IWMPPlaylist.insertItem, wmp.iwmpplaylist_insertitem, wmp/IWMPPlaylist::insertItem
+ms.date: 5/4/2018
+ms.keywords: IWMPPlaylist interface [Windows Media Player],insertItem method, IWMPPlaylist.insertItem, IWMPPlaylist::insertItem, IWMPPlaylistinsertItem, insertItem, insertItem method [Windows Media Player], insertItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_insertitem, wmp/IWMPPlaylist::insertItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlaylist::insertItem method
+# IWMPPlaylist::insertItem
 
 
 ## -description

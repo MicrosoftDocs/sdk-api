@@ -7,7 +7,7 @@ old-location: shell\FreeConfirmConflictItem.htm
 old-project: shell
 ms.assetid: 504a63e0-39e9-4228-ab3d-c34b272f8fd3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: FreeConfirmConflictItem, FreeConfirmConflictItem function [Windows Shell], _shell_FreeConfirmConflictItem, shell.FreeConfirmConflictItem, syncmgr/FreeConfirmConflictItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

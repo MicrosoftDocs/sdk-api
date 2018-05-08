@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Description
-title: IRegistrationInfo::put_Description method
+title: IRegistrationInfo::put_Description
 author: windows-driver-content
 description: Gets or sets the description of the task.
 old-location: taskschd\iregistrationinfo_description.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 03b0f62c-0f2b-4e0a-8518-de3b94f6a197
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Description property [Task Scheduler], Description property [Task Scheduler], IRegistrationInfo interface, IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], Description property, IRegistrationInfo.Description, IRegistrationInfo::get_Description, IRegistrationInfo::put_Description, put_Description,IRegistrationInfo.put_Description, taskschd.iregistrationinfo_description, taskschd/IRegistrationInfo::Description, taskschd/IRegistrationInfo::get_Description, taskschd/IRegistrationInfo::put_Description
+ms.keywords: Description property [Task Scheduler], Description property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Description property, IRegistrationInfo.Description, IRegistrationInfo.put_Description, IRegistrationInfo::Description, IRegistrationInfo::get_Description, IRegistrationInfo::put_Description, put_Description, taskschd.iregistrationinfo_description, taskschd/IRegistrationInfo::Description, taskschd/IRegistrationInfo::get_Description, taskschd/IRegistrationInfo::put_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegistrationInfo::put_Description method
+# IRegistrationInfo::put_Description
 
 
 ## -description

@@ -1,0 +1,6 @@
+# [Authentication](../_security/index.md)
+## [Certmod.h](index.md)
+### [ICertManageModule::Configure](../certmod/nf-certmod-icertmanagemodule-configure.md)
+### [ICertManageModule::GetProperty](../certmod/nf-certmod-icertmanagemodule-getproperty.md)
+### [ICertManageModule::SetProperty](../certmod/nf-certmod-icertmanagemodule-setproperty.md)
+### [ICertManageModule interface](../certmod/nn-certmod-icertmanagemodule.md)

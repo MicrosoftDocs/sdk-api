@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.TimeSearch
-title: IDvdControl::TimeSearch method
+title: IDvdControl::TimeSearch
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current chapter and starts playback from the specified time in the same media file.
 old-location: dshow\idvdcontrol_timesearch.htm
 old-project: DirectShow
 ms.assetid: c2e6848e-569e-44f0-b676-e22e4df07d8d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl, IDvdControl interface [DirectShow], TimeSearch method, IDvdControl::TimeSearch, IDvdControlTimeSearch, TimeSearch method [DirectShow], TimeSearch method [DirectShow], IDvdControl interface, TimeSearch,IDvdControl.TimeSearch, dshow.idvdcontrol_timesearch, strmif/IDvdControl::TimeSearch
+ms.date: 4/30/2018
+ms.keywords: IDvdControl interface [DirectShow],TimeSearch method, IDvdControl.TimeSearch, IDvdControl::TimeSearch, IDvdControlTimeSearch, TimeSearch, TimeSearch method [DirectShow], TimeSearch method [DirectShow],IDvdControl interface, dshow.idvdcontrol_timesearch, strmif/IDvdControl::TimeSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::TimeSearch method
+# IDvdControl::TimeSearch
 
 
 ## -description

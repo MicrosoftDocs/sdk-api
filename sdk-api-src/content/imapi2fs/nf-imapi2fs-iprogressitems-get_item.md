@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IProgressItems.get_Item
-title: IProgressItems::get_Item method
+title: IProgressItems::get_Item
 author: windows-driver-content
 description: Retrieves the specified progress item from the collection.
 old-location: imapi\iprogressitems_get_item.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 74d8e74d-0af6-457a-a16b-f959757b5a86
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IProgressItems, IProgressItems interface [IMAPI], get_Item method, IProgressItems::get_Item, get_Item method [IMAPI], get_Item method [IMAPI], IProgressItems interface, get_Item,IProgressItems.get_Item, imapi.iprogressitems_get_item, imapi2fs/IProgressItems::get_Item
+ms.keywords: IProgressItems interface [IMAPI],get_Item method, IProgressItems.get_Item, IProgressItems::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IProgressItems interface, imapi.iprogressitems_get_item, imapi2fs/IProgressItems::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IProgressItems::get_Item method
+# IProgressItems::get_Item
 
 
 ## -description

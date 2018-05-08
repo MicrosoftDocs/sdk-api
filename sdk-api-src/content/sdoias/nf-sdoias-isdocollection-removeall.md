@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoCollection.RemoveAll
-title: ISdoCollection::RemoveAll method
+title: ISdoCollection::RemoveAll
 author: windows-driver-content
 description: The RemoveAll method removes all the items from the collection.
 old-location: nps\SDO_isdocollection_removeall.htm
@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: 82654df4-9a85-4687-86dd-04ea5a916fdc
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ISdoCollection, ISdoCollection interface [Network Policy Server], RemoveAll method, ISdoCollection::RemoveAll, RemoveAll method [Network Policy Server], RemoveAll method [Network Policy Server], ISdoCollection interface, RemoveAll,ISdoCollection.RemoveAll, _sdo_isdocollection_removeall, nps.SDO_isdocollection_removeall, sdo.isdocollection_removeall, sdoias/ISdoCollection::RemoveAll
+ms.keywords: ISdoCollection interface [Network Policy Server],RemoveAll method, ISdoCollection.RemoveAll, ISdoCollection::RemoveAll, RemoveAll, RemoveAll method [Network Policy Server], RemoveAll method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_removeall, nps.SDO_isdocollection_removeall, sdo.isdocollection_removeall, sdoias/ISdoCollection::RemoveAll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISdoCollection::RemoveAll method
+# ISdoCollection::RemoveAll
 
 
 ## -description

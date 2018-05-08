@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaEventCallback.ImageEventCallback
-title: IWiaEventCallback::ImageEventCallback method
+title: IWiaEventCallback::ImageEventCallback
 author: windows-driver-content
 description: The IWiaEventCallback::ImageEventCallback method is invoked by the Windows Image Acquisition (WIA) run-time system when a hardware device event occurs.
 old-location: wia\_wia_IWiaEventCallback_ImageEventCallback.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaeventcallback\imageeventcallback.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaEventCallback, IWiaEventCallback interface [WIA], ImageEventCallback method, IWiaEventCallback::ImageEventCallback, ImageEventCallback method [WIA], ImageEventCallback method [WIA], IWiaEventCallback interface, ImageEventCallback,IWiaEventCallback.ImageEventCallback, _wia_IWiaEventCallback_ImageEventCallback, wia._wia_IWiaEventCallback_ImageEventCallback, wia_xp/IWiaEventCallback::ImageEventCallback
+ms.date: 5/3/2018
+ms.keywords: IWiaEventCallback interface [WIA],ImageEventCallback method, IWiaEventCallback.ImageEventCallback, IWiaEventCallback::ImageEventCallback, ImageEventCallback, ImageEventCallback method [WIA], ImageEventCallback method [WIA],IWiaEventCallback interface, _wia_IWiaEventCallback_ImageEventCallback, wia._wia_IWiaEventCallback_ImageEventCallback, wia_xp/IWiaEventCallback::ImageEventCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaEventCallback::ImageEventCallback method
+# IWiaEventCallback::ImageEventCallback
 
 
 ## -description

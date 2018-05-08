@@ -8,7 +8,7 @@ old-project: NetShare
 ms.assetid: 2461c533-351b-48f4-b660-cb17ac3398fa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 0, 1, 2, or 502, 503, NetShareDelEx, NetShareDelEx function [Files], fs.netsharedelex, lmshare/NetShareDelEx
+ms.keywords: 0,1,2,or 502, 503, NetShareDelEx, NetShareDelEx function [Files], fs.netsharedelex, lmshare/NetShareDelEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3, SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
+req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
 topic_type:
 -	APIRef
 -	kbSyntax

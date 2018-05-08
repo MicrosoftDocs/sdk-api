@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetSink
-title: IWMWriterAdvanced::GetSink method
+title: IWMWriterAdvanced::GetSink
 author: windows-driver-content
 description: The GetSink method retrieves a writer sink object. Used in conjunction with IWMWriterAdvanced::GetSinkCount, this method can be used to enumerate the sinks associated with a writer object.
 old-location: wmformat\iwmwriteradvanced_getsink.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 6775eb89-a3af-42d2-b1e3-197abb1fce61
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetSink method [windows Media Format], GetSink method [windows Media Format], IWMWriterAdvanced interface, GetSink,IWMWriterAdvanced.GetSink, IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], GetSink method, IWMWriterAdvanced::GetSink, IWMWriterAdvancedGetSink, wmformat.iwmwriteradvanced_getsink, wmsdkidl/IWMWriterAdvanced::GetSink
+ms.keywords: GetSink, GetSink method [windows Media Format], GetSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSink method, IWMWriterAdvanced.GetSink, IWMWriterAdvanced::GetSink, IWMWriterAdvancedGetSink, wmformat.iwmwriteradvanced_getsink, wmsdkidl/IWMWriterAdvanced::GetSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterAdvanced::GetSink method
+# IWMWriterAdvanced::GetSink
 
 
 ## -description

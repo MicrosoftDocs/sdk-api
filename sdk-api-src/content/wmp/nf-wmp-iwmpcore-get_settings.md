@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCore.get_settings
-title: IWMPCore::get_settings method
+title: IWMPCore::get_settings
 author: windows-driver-content
 description: The get_settings method retrieves a pointer to an IWMPSettings interface.
 old-location: wmp\iwmpcore_get_settings.htm
 old-project: WMP
 ms.assetid: 4bbffaff-99e4-4aae-9b8f-cdb86648fdd9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_settings method, IWMPCore::get_settings, IWMPCoreget_settings, get_settings method [Windows Media Player], get_settings method [Windows Media Player], IWMPCore interface, get_settings,IWMPCore.get_settings, wmp.iwmpcore_get_settings, wmp/IWMPCore::get_settings
+ms.date: 5/4/2018
+ms.keywords: IWMPCore interface [Windows Media Player],get_settings method, IWMPCore.get_settings, IWMPCore::get_settings, IWMPCoreget_settings, get_settings, get_settings method [Windows Media Player], get_settings method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_settings, wmp/IWMPCore::get_settings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCore::get_settings method
+# IWMPCore::get_settings
 
 
 ## -description

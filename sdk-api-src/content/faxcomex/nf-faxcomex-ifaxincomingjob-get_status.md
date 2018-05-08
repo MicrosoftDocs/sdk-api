@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_Status
-title: IFaxIncomingJob::get_Status method
+title: IFaxIncomingJob::get_Status
 author: windows-driver-content
 description: Retrieves the Status property of a FaxIncomingJob object. The Status property is a number that indicates the current status of an inbound fax job in the job queue.
 old-location: fax\_mfax_faxincomingjob_status_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1far_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxIncomingJob, IFaxIncomingJob interface [Fax Service], get_Status method, IFaxIncomingJob::get_Status, _mfax_faxincomingjob.status_cpp, fax._mfax_faxincomingjob_status_cpp, faxcomex/IFaxIncomingJob::get_Status, get_Status method [Fax Service], get_Status method [Fax Service], IFaxIncomingJob interface, get_Status,IFaxIncomingJob.get_Status
+ms.keywords: IFaxIncomingJob interface [Fax Service],get_Status method, IFaxIncomingJob.get_Status, IFaxIncomingJob::get_Status, _mfax_faxincomingjob.status_cpp, fax._mfax_faxincomingjob_status_cpp, faxcomex/IFaxIncomingJob::get_Status, get_Status, get_Status method [Fax Service], get_Status method [Fax Service],IFaxIncomingJob interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxIncomingJob::get_Status method
+# IFaxIncomingJob::get_Status
 
 
 ## -description

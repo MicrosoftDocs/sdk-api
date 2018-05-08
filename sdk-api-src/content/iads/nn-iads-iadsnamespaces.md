@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: edac671e-9ab1-4211-9fd7-1a0b965196b4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsNamespaces, IADsNamespaces interface [ADSI], IADsNamespaces interface [ADSI], described, _ds_iadsnamespaces, adsi.iadsnamespaces, iads/IADsNamespaces
+ms.keywords: IADsNamespaces, IADsNamespaces interface [ADSI], IADsNamespaces interface [ADSI],described, _ds_iadsnamespaces, adsi.iadsnamespaces, iads/IADsNamespaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.ConvertNextToCurrent
-title: ICAT::ConvertNextToCurrent method
+title: ICAT::ConvertNextToCurrent
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_convertnexttocurrent.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bdd8f7a6-0c77-4058-bcca-9d712da781e0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies], ICAT interface, ConvertNextToCurrent,ICAT.ConvertNextToCurrent, ICAT, ICAT interface [Microsoft TV Technologies], ConvertNextToCurrent method, ICAT::ConvertNextToCurrent, ICATConvertNextToCurrent, mpeg2psiparser/ICAT::ConvertNextToCurrent, mstv.icat_convertnexttocurrent
+ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ICAT.ConvertNextToCurrent, ICAT::ConvertNextToCurrent, ICATConvertNextToCurrent, mpeg2psiparser/ICAT::ConvertNextToCurrent, mstv.icat_convertnexttocurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ICAT::ConvertNextToCurrent method
+# ICAT::ConvertNextToCurrent
 
 
 ## -description

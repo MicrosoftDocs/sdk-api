@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.DisconnectUnusedReferenceSources
-title: IReferenceTrackerHost::DisconnectUnusedReferenceSources method
+title: IReferenceTrackerHost::xaml
 author: windows-driver-content
 description: Requests that the host perform a garbage collection and remove all unnecessary reference sources.
 old-location: winrt\ireferencetrackerhost_disconnectunusedreferencesources.htm
 old-project: WinRT
 ms.assetid: c962299e-f813-45b8-a83b-1c1887e8c0f9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: DisconnectUnusedReferenceSources method [Windows Runtime], DisconnectUnusedReferenceSources method [Windows Runtime], IReferenceTrackerHost interface, DisconnectUnusedReferenceSources,IReferenceTrackerHost.DisconnectUnusedReferenceSources, IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], DisconnectUnusedReferenceSources method, IReferenceTrackerHost::DisconnectUnusedReferenceSources, windows/IReferenceTrackerHost::DisconnectUnusedReferenceSources, winrt.ireferencetrackerhost_disconnectunusedreferencesources
+ms.date: 5/4/2018
+ms.keywords: DisconnectUnusedReferenceSources, DisconnectUnusedReferenceSources method [Windows Runtime], DisconnectUnusedReferenceSources method [Windows Runtime],IReferenceTrackerHost interface, IReferenceTrackerHost interface [Windows Runtime],DisconnectUnusedReferenceSources method, IReferenceTrackerHost.DisconnectUnusedReferenceSources, IReferenceTrackerHost.xaml, IReferenceTrackerHost::DisconnectUnusedReferenceSources, IReferenceTrackerHost::xaml, windows/IReferenceTrackerHost::DisconnectUnusedReferenceSources, winrt.ireferencetrackerhost_disconnectunusedreferencesources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IReferenceTrackerHost::DisconnectUnusedReferenceSources method
+# IReferenceTrackerHost::xaml
 
 
 ## -description

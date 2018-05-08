@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromPropVariantVectorElem.htm
 old-project: properties
 ms.assetid: 4618e63a-8afa-45d4-b0b0-cd1dae064ba4
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: InitPropVariantFromPropVariantVectorElem, InitPropVariantFromPropVariantVectorElem function [Windows Properties], properties.InitPropVariantFromPropVariantVectorElem, propvarutil/InitPropVariantFromPropVariantVectorElem, shell.InitPropVariantFromPropVariantVectorElem, shell_InitPropVariantFromPropVariantVectorElem
 ms.prod: windows-hardware
 ms.technology: windows-devices

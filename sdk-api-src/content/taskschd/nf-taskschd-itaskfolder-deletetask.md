@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.DeleteTask
-title: ITaskFolder::DeleteTask method
+title: ITaskFolder::DeleteTask
 author: windows-driver-content
 description: Deletes a task from the folder.
 old-location: taskschd\itaskfolder_deletetask.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 5b929abd-c40a-4f6b-9a0b-702d2f26f1fe
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DeleteTask method [Task Scheduler], DeleteTask method [Task Scheduler], ITaskFolder interface, DeleteTask,ITaskFolder.DeleteTask, ITaskFolder, ITaskFolder interface [Task Scheduler], DeleteTask method, ITaskFolder::DeleteTask, taskschd.itaskfolder_deletetask, taskschd/ITaskFolder::DeleteTask
+ms.keywords: DeleteTask, DeleteTask method [Task Scheduler], DeleteTask method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],DeleteTask method, ITaskFolder.DeleteTask, ITaskFolder::DeleteTask, taskschd.itaskfolder_deletetask, taskschd/ITaskFolder::DeleteTask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskFolder::DeleteTask method
+# ITaskFolder::DeleteTask
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetSize
-title: IAppxBundleManifestPackageInfo::GetSize method
+title: IAppxBundleManifestPackageInfo::GetSize
 author: windows-driver-content
 description: Retrieves the size of the package, in bytes.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getsize.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: BA9BB378-D9AF-4D96-88B0-219A5545397A
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSize method [App packaging and management], GetSize method [App packaging and management], IAppxBundleManifestPackageInfo interface, GetSize,IAppxBundleManifestPackageInfo.GetSize, IAppxBundleManifestPackageInfo, IAppxBundleManifestPackageInfo interface [App packaging and management], GetSize method, IAppxBundleManifestPackageInfo::GetSize, appxpackaging/IAppxBundleManifestPackageInfo::GetSize, appxpkg.iappxbundlemanifestpackageinfo_getsize
+ms.keywords: GetSize, GetSize method [App packaging and management], GetSize method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetSize method, IAppxBundleManifestPackageInfo.GetSize, IAppxBundleManifestPackageInfo::GetSize, appxpackaging/IAppxBundleManifestPackageInfo::GetSize, appxpkg.iappxbundlemanifestpackageinfo_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleManifestPackageInfo::GetSize method
+# IAppxBundleManifestPackageInfo::GetSize
 
 
 ## -description

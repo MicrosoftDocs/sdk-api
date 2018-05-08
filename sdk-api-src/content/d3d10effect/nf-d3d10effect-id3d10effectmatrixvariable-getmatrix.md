@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.GetMatrix
-title: ID3D10EffectMatrixVariable::GetMatrix method
+title: ID3D10EffectMatrixVariable::GetMatrix
 author: windows-driver-content
 description: Get a matrix.
 old-location: direct3d10\id3d10effectmatrixvariable_getmatrix.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_getmatrix.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 8baccad6-5b3e-375b-03b1-1df72b40ebfb, GetMatrix method [Direct3D 10], GetMatrix method [Direct3D 10], ID3D10EffectMatrixVariable interface, GetMatrix,ID3D10EffectMatrixVariable.GetMatrix, ID3D10EffectMatrixVariable, ID3D10EffectMatrixVariable interface [Direct3D 10], GetMatrix method, ID3D10EffectMatrixVariable::GetMatrix, d3d10effect/ID3D10EffectMatrixVariable::GetMatrix, direct3d10.id3d10effectmatrixvariable_getmatrix
+ms.keywords: 8baccad6-5b3e-375b-03b1-1df72b40ebfb, GetMatrix, GetMatrix method [Direct3D 10], GetMatrix method [Direct3D 10],ID3D10EffectMatrixVariable interface, ID3D10EffectMatrixVariable interface [Direct3D 10],GetMatrix method, ID3D10EffectMatrixVariable.GetMatrix, ID3D10EffectMatrixVariable::GetMatrix, d3d10effect/ID3D10EffectMatrixVariable::GetMatrix, direct3d10.id3d10effectmatrixvariable_getmatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectMatrixVariable::GetMatrix method
+# ID3D10EffectMatrixVariable::GetMatrix
 
 
 ## -description

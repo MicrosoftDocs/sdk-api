@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.GetAutospaceNumeric
-title: ITextFont2::GetAutospaceNumeric method
+title: ITextFont2::GetAutospaceNumeric
 author: windows-driver-content
 description: Gets the East Asian &#0034;autospace numeric&#0034; state.
 old-location: controls\itextfont2_getautospacenumeric.htm
 old-project: Controls
 ms.assetid: 448a461b-779a-457e-8206-2055a73c9b45
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetAutospaceNumeric method [Windows Controls], GetAutospaceNumeric method [Windows Controls], ITextFont2 interface, GetAutospaceNumeric,ITextFont2.GetAutospaceNumeric, ITextFont2, ITextFont2 interface [Windows Controls], GetAutospaceNumeric method, ITextFont2::GetAutospaceNumeric, controls.itextfont2_getautospacenumeric, tom/ITextFont2::GetAutospaceNumeric
+ms.date: 4/27/2018
+ms.keywords: GetAutospaceNumeric, GetAutospaceNumeric method [Windows Controls], GetAutospaceNumeric method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutospaceNumeric method, ITextFont2.GetAutospaceNumeric, ITextFont2::GetAutospaceNumeric, controls.itextfont2_getautospacenumeric, tom/ITextFont2::GetAutospaceNumeric
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::GetAutospaceNumeric method
+# ITextFont2::GetAutospaceNumeric
 
 
 ## -description

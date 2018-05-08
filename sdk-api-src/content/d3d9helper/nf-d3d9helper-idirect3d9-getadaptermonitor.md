@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3D9.GetAdapterMonitor
-title: IDirect3D9::GetAdapterMonitor method
+title: IDirect3D9::GetAdapterMonitor
 author: windows-driver-content
 description: Returns the handle of the monitor associated with the Direct3D object.
 old-location: direct3d9\idirect3d9__getadaptermonitor.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadaptermonitor.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 1cf647c6-38ba-6d39-fbf9-c82f611d7078, GetAdapterMonitor method [Direct3D 9], GetAdapterMonitor method [Direct3D 9], IDirect3D9 interface, GetAdapterMonitor,IDirect3D9.GetAdapterMonitor, IDirect3D9, IDirect3D9 interface [Direct3D 9], GetAdapterMonitor method, IDirect3D9::GetAdapterMonitor, d3d9helper/IDirect3D9::GetAdapterMonitor, direct3d9.idirect3d9__getadaptermonitor
+ms.keywords: 1cf647c6-38ba-6d39-fbf9-c82f611d7078, GetAdapterMonitor, GetAdapterMonitor method [Direct3D 9], GetAdapterMonitor method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterMonitor method, IDirect3D9.GetAdapterMonitor, IDirect3D9::GetAdapterMonitor, d3d9helper/IDirect3D9::GetAdapterMonitor, direct3d9.idirect3d9__getadaptermonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3D9::GetAdapterMonitor method
+# IDirect3D9::GetAdapterMonitor
 
 
 ## -description

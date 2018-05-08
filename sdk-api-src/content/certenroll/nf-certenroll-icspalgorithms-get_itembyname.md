@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.get_ItemByName
-title: ICspAlgorithms::get_ItemByName method
+title: ICspAlgorithms::get_ItemByName
 author: windows-driver-content
 description: Retrieves an ICspAlgorithm object from the collection by name.
 old-location: security\icspalgorithms_itembyname_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: a5984d8a-3199-4976-ac0f-95917843f473
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspAlgorithms, ICspAlgorithms interface [Security], ItemByName property, ICspAlgorithms.ItemByName, ICspAlgorithms::get_ItemByName, ItemByName property [Security], ItemByName property [Security], ICspAlgorithms interface, certenroll/ICspAlgorithms::ItemByName, certenroll/ICspAlgorithms::get_ItemByName, get_ItemByName,ICspAlgorithms.get_ItemByName, security.icspalgorithms_itembyname_property
+ms.keywords: ICspAlgorithms interface [Security],ItemByName property, ICspAlgorithms.ItemByName, ICspAlgorithms.get_ItemByName, ICspAlgorithms::ItemByName, ICspAlgorithms::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::ItemByName, certenroll/ICspAlgorithms::get_ItemByName, get_ItemByName, security.icspalgorithms_itembyname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspAlgorithms::get_ItemByName method
+# ICspAlgorithms::get_ItemByName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_CurrentPhysicalMediaType
-title: IDiscFormat2Erase::get_CurrentPhysicalMediaType method
+title: IDiscFormat2Erase::get_CurrentPhysicalMediaType
 author: windows-driver-content
 description: Retrieves the type of media in the disc device.
 old-location: imapi\idiscformat2erase_get_currentphysicalmediatype.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 6eda2c28-3dc6-4ca0-9806-0b9621bfe940
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Erase, IDiscFormat2Erase interface [IMAPI], get_CurrentPhysicalMediaType method, IDiscFormat2Erase::get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType method [IMAPI], get_CurrentPhysicalMediaType method [IMAPI], IDiscFormat2Erase interface, get_CurrentPhysicalMediaType,IDiscFormat2Erase.get_CurrentPhysicalMediaType, imapi.idiscformat2erase_get_currentphysicalmediatype, imapi2/IDiscFormat2Erase::get_CurrentPhysicalMediaType
+ms.keywords: IDiscFormat2Erase interface [IMAPI],get_CurrentPhysicalMediaType method, IDiscFormat2Erase.get_CurrentPhysicalMediaType, IDiscFormat2Erase::get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType method [IMAPI], get_CurrentPhysicalMediaType method [IMAPI],IDiscFormat2Erase interface, imapi.idiscformat2erase_get_currentphysicalmediatype, imapi2/IDiscFormat2Erase::get_CurrentPhysicalMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Erase::get_CurrentPhysicalMediaType method
+# IDiscFormat2Erase::get_CurrentPhysicalMediaType
 
 
 ## -description

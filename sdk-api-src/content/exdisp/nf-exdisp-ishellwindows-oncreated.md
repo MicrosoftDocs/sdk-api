@@ -1,14 +1,14 @@
 ---
 UID: NF:exdisp.IShellWindows.OnCreated
-title: IShellWindows::OnCreated method
+title: IShellWindows::OnCreated
 author: windows-driver-content
 description: Occurs when a new Shell window is created for a frame.
 old-location: shell\IShellWindows_OnCreated.htm
 old-project: shell
 ms.assetid: ef2f75fe-dc93-403d-af1a-c08c45e2d818
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], OnCreated method, IShellWindows::OnCreated, OnCreated method [Windows Shell], OnCreated method [Windows Shell], IShellWindows interface, OnCreated,IShellWindows.OnCreated, _win32_IShellWindows_OnCreated, exdisp/IShellWindows::OnCreated, shell.IShellWindows_OnCreated
+ms.date: 5/3/2018
+ms.keywords: IShellWindows interface [Windows Shell],OnCreated method, IShellWindows.OnCreated, IShellWindows::OnCreated, OnCreated, OnCreated method [Windows Shell], OnCreated method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnCreated, exdisp/IShellWindows::OnCreated, shell.IShellWindows_OnCreated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IShellWindows::OnCreated method
+# IShellWindows::OnCreated
 
 
 ## -description

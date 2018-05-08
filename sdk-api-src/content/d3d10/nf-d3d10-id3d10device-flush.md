@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.Flush
-title: ID3D10Device::Flush method
+title: ID3D10Device::Flush
 author: windows-driver-content
 description: Send queued-up commands in the command buffer to the GPU.
 old-location: direct3d10\id3d10device_flush.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_flush.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 95043c81-fb9f-c3b0-6f27-f9c309dbec57, Flush method [Direct3D 10], Flush method [Direct3D 10], ID3D10Device interface, Flush,ID3D10Device.Flush, ID3D10Device, ID3D10Device interface [Direct3D 10], Flush method, ID3D10Device::Flush, d3d10/ID3D10Device::Flush, direct3d10.id3d10device_flush
+ms.keywords: 95043c81-fb9f-c3b0-6f27-f9c309dbec57, Flush, Flush method [Direct3D 10], Flush method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],Flush method, ID3D10Device.Flush, ID3D10Device::Flush, d3d10/ID3D10Device::Flush, direct3d10.id3d10device_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::Flush method
+# ID3D10Device::Flush
 
 
 ## -description

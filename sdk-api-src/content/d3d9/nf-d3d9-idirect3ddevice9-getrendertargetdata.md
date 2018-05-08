@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetRenderTargetData
-title: IDirect3DDevice9::GetRenderTargetData method
+title: IDirect3DDevice9::GetRenderTargetData
 author: windows-driver-content
 description: Copies the render-target data from device memory to system memory.
 old-location: direct3d9\idirect3ddevice9__getrendertargetdata.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getrendertargetdata.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: GetRenderTargetData method [Direct3D 9], GetRenderTargetData method [Direct3D 9], IDirect3DDevice9 interface, GetRenderTargetData,IDirect3DDevice9.GetRenderTargetData, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetRenderTargetData method, IDirect3DDevice9::GetRenderTargetData, d3d9helper/IDirect3DDevice9::GetRenderTargetData, direct3d9.idirect3ddevice9__getrendertargetdata, ef2b445f-f837-5faa-3c68-645f07e7e87b
+ms.keywords: GetRenderTargetData, GetRenderTargetData method [Direct3D 9], GetRenderTargetData method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetRenderTargetData method, IDirect3DDevice9.GetRenderTargetData, IDirect3DDevice9::GetRenderTargetData, d3d9helper/IDirect3DDevice9::GetRenderTargetData, direct3d9.idirect3ddevice9__getrendertargetdata, ef2b445f-f837-5faa-3c68-645f07e7e87b
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::GetRenderTargetData method
+# IDirect3DDevice9::GetRenderTargetData
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.put_Value
-title: IFsrmFileConditionProperty::put_Value method
+title: IFsrmFileConditionProperty::put_Value
 author: windows-driver-content
 description: Specifies the file condition property value.
 old-location: fsrm\ifsrmfileconditionproperty_value.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: f7048ab3-2ef5-4d50-9432-8c6f0060a244
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [File Server Resource Manager], Value property, IFsrmFileConditionProperty.Value, IFsrmFileConditionProperty::get_Value, IFsrmFileConditionProperty::put_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager], IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_value, fsrm.ifsrmfileconditionproperty_value, fsrmreports/IFsrmFileConditionProperty::Value, fsrmreports/IFsrmFileConditionProperty::get_Value, fsrmreports/IFsrmFileConditionProperty::put_Value, put_Value,IFsrmFileConditionProperty.put_Value
+ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],Value property, IFsrmFileConditionProperty.Value, IFsrmFileConditionProperty.put_Value, IFsrmFileConditionProperty::Value, IFsrmFileConditionProperty::get_Value, IFsrmFileConditionProperty::put_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_value, fsrm.ifsrmfileconditionproperty_value, fsrmreports/IFsrmFileConditionProperty::Value, fsrmreports/IFsrmFileConditionProperty::get_Value, fsrmreports/IFsrmFileConditionProperty::put_Value, put_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileConditionProperty::put_Value method
+# IFsrmFileConditionProperty::put_Value
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage2.put_BootImageOptionsArray
-title: IFileSystemImage2::put_BootImageOptionsArray method
+title: IFileSystemImage2::put_BootImageOptionsArray
 author: windows-driver-content
 description: Sets the boot option array that will be utilized to generate the file system image. Unlike IFileSystemImage::put_BootImageOptions, this method will not create a complete copy of each boot options array element, but instead use references to each element.
 old-location: imapi\ifilesystemimage2_put_bootimageoptionsarray.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 0b827f6a-8e40-4d9d-bec6-8d7f33dade43
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage2, IFileSystemImage2 interface [IMAPI], put_BootImageOptionsArray method, IFileSystemImage2::put_BootImageOptionsArray, imapi.ifilesystemimage2_put_bootimageoptionsarray, imapi2fs/IFileSystemImage2::put_BootImageOptionsArray, put_BootImageOptionsArray method [IMAPI], put_BootImageOptionsArray method [IMAPI], IFileSystemImage2 interface, put_BootImageOptionsArray,IFileSystemImage2.put_BootImageOptionsArray
+ms.keywords: IFileSystemImage2 interface [IMAPI],put_BootImageOptionsArray method, IFileSystemImage2.put_BootImageOptionsArray, IFileSystemImage2::put_BootImageOptionsArray, imapi.ifilesystemimage2_put_bootimageoptionsarray, imapi2fs/IFileSystemImage2::put_BootImageOptionsArray, put_BootImageOptionsArray, put_BootImageOptionsArray method [IMAPI], put_BootImageOptionsArray method [IMAPI],IFileSystemImage2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage2::put_BootImageOptionsArray method
+# IFileSystemImage2::put_BootImageOptionsArray
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter
-title: IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter method
+title: IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter
 author: windows-driver-content
 description: Gets the number of messages that were denied passage through a storage filter.
 old-location: direct3ddxgi\idxgiinfoqueue_getnummessagesdeniedbystoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 98A71D07-8E9A-403D-B02B-70B7F4112246
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetNumMessagesDeniedByStorageFilter method [DXGI], GetNumMessagesDeniedByStorageFilter method [DXGI], IDXGIInfoQueue interface, GetNumMessagesDeniedByStorageFilter,IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], GetNumMessagesDeniedByStorageFilter method, IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter, direct3ddxgi.idxgiinfoqueue_getnummessagesdeniedbystoragefilter, dxgidebug/IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter
+ms.keywords: GetNumMessagesDeniedByStorageFilter, GetNumMessagesDeniedByStorageFilter method [DXGI], GetNumMessagesDeniedByStorageFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumMessagesDeniedByStorageFilter method, IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter, IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter, direct3ddxgi.idxgiinfoqueue_getnummessagesdeniedbystoragefilter, dxgidebug/IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter method
+# IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter
 
 
 ## -description

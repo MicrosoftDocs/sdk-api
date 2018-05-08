@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.get_ItemByIndex
-title: ICertificatePolicies::get_ItemByIndex method
+title: ICertificatePolicies::get_ItemByIndex
 author: windows-driver-content
 description: Retrieves an object from the collection by index number.
 old-location: security\icertificatepolicies_itembyindex_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: dac1a656-265c-41ec-b460-0414fefe3c40
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertificatePolicies, ICertificatePolicies interface [Security], ItemByIndex property, ICertificatePolicies.ItemByIndex, ICertificatePolicies::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security], ICertificatePolicies interface, certenroll/ICertificatePolicies::ItemByIndex, certenroll/ICertificatePolicies::get_ItemByIndex, get_ItemByIndex,ICertificatePolicies.get_ItemByIndex, security.icertificatepolicies_itembyindex_property
+ms.keywords: ICertificatePolicies interface [Security],ItemByIndex property, ICertificatePolicies.ItemByIndex, ICertificatePolicies.get_ItemByIndex, ICertificatePolicies::ItemByIndex, ICertificatePolicies::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::ItemByIndex, certenroll/ICertificatePolicies::get_ItemByIndex, get_ItemByIndex, security.icertificatepolicies_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertificatePolicies::get_ItemByIndex method
+# ICertificatePolicies::get_ItemByIndex
 
 
 ## -description

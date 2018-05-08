@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Close
-title: IWMWriterNetworkSink::Close method
+title: IWMWriterNetworkSink::Close
 author: windows-driver-content
 description: The Close method disconnects all clients from the network sink, and releases the port.
 old-location: wmformat\iwmwriternetworksink_close.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 7e36b94b-e6d3-46a0-8874-edd545e0e5b1
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Close method [windows Media Format], Close method [windows Media Format], IWMWriterNetworkSink interface, Close,IWMWriterNetworkSink.Close, IWMWriterNetworkSink, IWMWriterNetworkSink interface [windows Media Format], Close method, IWMWriterNetworkSink::Close, IWMWriterNetworkSinkClose, wmformat.iwmwriternetworksink_close, wmsdkidl/IWMWriterNetworkSink::Close
+ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],Close method, IWMWriterNetworkSink.Close, IWMWriterNetworkSink::Close, IWMWriterNetworkSinkClose, wmformat.iwmwriternetworksink_close, wmsdkidl/IWMWriterNetworkSink::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterNetworkSink::Close method
+# IWMWriterNetworkSink::Close
 
 
 ## -description

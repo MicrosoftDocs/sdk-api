@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLanguageList.AddLanguageByRFC1766String
-title: IWMLanguageList::AddLanguageByRFC1766String method
+title: IWMLanguageList::AddLanguageByRFC1766String
 author: windows-driver-content
 description: The AddLanguageByRFC1766String method adds an entry to the list of supported languages for a file based upon a language tag compliant with RFC 1766.
 old-location: wmformat\iwmlanguagelist_addlanguagebyrfc1766string.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3aec575c-8e04-4252-8863-1a458e56dcef
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddLanguageByRFC1766String method [windows Media Format], AddLanguageByRFC1766String method [windows Media Format], IWMLanguageList interface, AddLanguageByRFC1766String,IWMLanguageList.AddLanguageByRFC1766String, IWMLanguageList, IWMLanguageList interface [windows Media Format], AddLanguageByRFC1766String method, IWMLanguageList::AddLanguageByRFC1766String, IWMLanguageListAddLanguageByRFC1766String, wmformat.iwmlanguagelist_addlanguagebyrfc1766string, wmsdkidl/IWMLanguageList::AddLanguageByRFC1766String
+ms.keywords: AddLanguageByRFC1766String, AddLanguageByRFC1766String method [windows Media Format], AddLanguageByRFC1766String method [windows Media Format],IWMLanguageList interface, IWMLanguageList interface [windows Media Format],AddLanguageByRFC1766String method, IWMLanguageList.AddLanguageByRFC1766String, IWMLanguageList::AddLanguageByRFC1766String, IWMLanguageListAddLanguageByRFC1766String, wmformat.iwmlanguagelist_addlanguagebyrfc1766string, wmsdkidl/IWMLanguageList::AddLanguageByRFC1766String
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMLanguageList::AddLanguageByRFC1766String method
+# IWMLanguageList::AddLanguageByRFC1766String
 
 
 ## -description

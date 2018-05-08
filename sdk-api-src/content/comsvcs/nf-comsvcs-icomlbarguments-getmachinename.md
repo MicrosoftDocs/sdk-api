@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.GetMachineName
-title: ICOMLBArguments::GetMachineName method
+title: ICOMLBArguments::GetMachineName
 author: windows-driver-content
 description: Retrieves the computer name for the load balancing server.
 old-location: cos\icomlbarguments_getmachinename.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: b1f6adc8-2e89-4f64-9694-2342c967a142
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetMachineName method [COM+], GetMachineName method [COM+], ICOMLBArguments interface, GetMachineName,ICOMLBArguments.GetMachineName, ICOMLBArguments, ICOMLBArguments interface [COM+], GetMachineName method, ICOMLBArguments::GetMachineName, _cos_ICOMLBArguments_GetMachineName, comsvcs/ICOMLBArguments::GetMachineName, cos.icomlbarguments_getmachinename
+ms.keywords: GetMachineName, GetMachineName method [COM+], GetMachineName method [COM+],ICOMLBArguments interface, ICOMLBArguments interface [COM+],GetMachineName method, ICOMLBArguments.GetMachineName, ICOMLBArguments::GetMachineName, _cos_ICOMLBArguments_GetMachineName, comsvcs/ICOMLBArguments::GetMachineName, cos.icomlbarguments_getmachinename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMLBArguments::GetMachineName method
+# ICOMLBArguments::GetMachineName
 
 
 ## -description

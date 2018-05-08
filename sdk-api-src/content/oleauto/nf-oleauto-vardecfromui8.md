@@ -7,7 +7,7 @@ old-location: automat\vardecfromui8.htm
 old-project: automat
 ms.assetid: 67f408d2-6510-4b3d-83a4-e18ae6492aea
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarDecFromUI8, VarDecFromUI8 function [Automation], _oa96_VarDecFromUI8, automat.vardecfromui8, oleauto/VarDecFromUI8
 ms.prod: windows-hardware
 ms.technology: windows-devices

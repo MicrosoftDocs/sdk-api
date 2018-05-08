@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureValue
-title: IOpcDigitalSignature::GetSignatureValue method
+title: IOpcDigitalSignature::GetSignatureValue
 author: windows-driver-content
 description: Gets the decoded value in the SignatureValue element of the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturevalue.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: c918d156-ad32-4a0c-83cc-dd37fe884744
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignatureValue method [Open Packaging Conventions], GetSignatureValue method [Open Packaging Conventions], IOpcDigitalSignature interface, GetSignatureValue,IOpcDigitalSignature.GetSignatureValue, IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], GetSignatureValue method, IOpcDigitalSignature::GetSignatureValue, msopc/IOpcDigitalSignature::GetSignatureValue, opc.iopcdigitalsignature_getsignaturevalue
+ms.keywords: GetSignatureValue, GetSignatureValue method [Open Packaging Conventions], GetSignatureValue method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureValue method, IOpcDigitalSignature.GetSignatureValue, IOpcDigitalSignature::GetSignatureValue, msopc/IOpcDigitalSignature::GetSignatureValue, opc.iopcdigitalsignature_getsignaturevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignature::GetSignatureValue method
+# IOpcDigitalSignature::GetSignatureValue
 
 
 ## -description

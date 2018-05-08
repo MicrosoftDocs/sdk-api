@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer2_connect.htm
 old-project: Rpc
 ms.assetid: ED3BA34C-1BAE-4CA0-A701-C64B8B9E717E
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: CStdStubBuffer2_Connect, CStdStubBuffer2_Connect function [RPC], rpc.cstdstubbuffer2_connect, rpcproxy/CStdStubBuffer2_Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

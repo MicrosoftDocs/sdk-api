@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IQueryParser.RestatePropertyValueToString
-title: IQueryParser::RestatePropertyValueToString method
+title: IQueryParser::RestatePropertyValueToString
 author: windows-driver-content
 description: Restates a specified property for a condition as a query string.
 old-location: search\_search_IQueryParser_RestatePropertyValueToString.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\restatepropertyvaluetostring.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IQueryParser, IQueryParser interface [search], RestatePropertyValueToString method, IQueryParser::RestatePropertyValueToString, RestatePropertyValueToString method [search], RestatePropertyValueToString method [search], IQueryParser interface, RestatePropertyValueToString,IQueryParser.RestatePropertyValueToString, _search_IQueryParser_RestatePropertyValueToString, search._search_IQueryParser_RestatePropertyValueToString, structuredquery/IQueryParser::RestatePropertyValueToString
+ms.date: 5/4/2018
+ms.keywords: IQueryParser interface [search],RestatePropertyValueToString method, IQueryParser.RestatePropertyValueToString, IQueryParser::RestatePropertyValueToString, RestatePropertyValueToString, RestatePropertyValueToString method [search], RestatePropertyValueToString method [search],IQueryParser interface, _search_IQueryParser_RestatePropertyValueToString, search._search_IQueryParser_RestatePropertyValueToString, structuredquery/IQueryParser::RestatePropertyValueToString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IQueryParser::RestatePropertyValueToString method
+# IQueryParser::RestatePropertyValueToString
 
 
 ## -description

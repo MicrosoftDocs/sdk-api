@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Application
-title: IRDPSRAPIWindow::get_Application method
+title: IRDPSRAPIWindow::get_Application
 author: windows-driver-content
 description: Returns a pointer to the application object that the window belongs to.
 old-location: rdp\irdpsrapiwindow_application.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: a9c30288-c471-459e-b0df-a3da1fc58032
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: Application property [RDP], Application property [RDP], IRDPSRAPIWindow interface, Application property [RDP], RDPSRAPIWindow object, IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], Application property, IRDPSRAPIWindow.Application, IRDPSRAPIWindow::get_Application, RDPSRAPIWindow object [RDP], Application property, get_Application,IRDPSRAPIWindow.get_Application, rdp.irdpsrapiwindow_application, rdpencomapi/IRDPSRAPIWindow::Application, rdpencomapi/IRDPSRAPIWindow::get_Application
+ms.keywords: Application property [RDP], Application property [RDP],IRDPSRAPIWindow interface, Application property [RDP],RDPSRAPIWindow object, IRDPSRAPIWindow interface [RDP],Application property, IRDPSRAPIWindow.Application, IRDPSRAPIWindow.get_Application, IRDPSRAPIWindow::Application, IRDPSRAPIWindow::get_Application, RDPSRAPIWindow object [RDP],Application property, get_Application, rdp.irdpsrapiwindow_application, rdpencomapi/IRDPSRAPIWindow::Application, rdpencomapi/IRDPSRAPIWindow::get_Application
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIWindow::get_Application method
+# IRDPSRAPIWindow::get_Application
 
 
 ## -description

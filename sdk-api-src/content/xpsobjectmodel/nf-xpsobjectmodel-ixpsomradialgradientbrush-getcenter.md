@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetCenter
-title: IXpsOMRadialGradientBrush::GetCenter method
+title: IXpsOMRadialGradientBrush::GetCenter
 author: windows-driver-content
 description: Gets the center point of the radial gradient region ellipse.
 old-location: xps\ixpsomradialgradientbrush_getcenter.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 92ce3433-6c3d-4759-81f8-055fdcc58dcf
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCenter method [XPS Documents and Packaging], GetCenter method [XPS Documents and Packaging], IXpsOMRadialGradientBrush interface, GetCenter,IXpsOMRadialGradientBrush.GetCenter, IXpsOMRadialGradientBrush, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging], GetCenter method, IXpsOMRadialGradientBrush::GetCenter, xps.ixpsomradialgradientbrush_getcenter, xpsobjectmodel/IXpsOMRadialGradientBrush::GetCenter
+ms.keywords: GetCenter, GetCenter method [XPS Documents and Packaging], GetCenter method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetCenter method, IXpsOMRadialGradientBrush.GetCenter, IXpsOMRadialGradientBrush::GetCenter, xps.ixpsomradialgradientbrush_getcenter, xpsobjectmodel/IXpsOMRadialGradientBrush::GetCenter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMRadialGradientBrush::GetCenter method
+# IXpsOMRadialGradientBrush::GetCenter
 
 
 ## -description

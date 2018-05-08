@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquire.CreatePhotoSource
-title: IPhotoAcquire::CreatePhotoSource method
+title: IPhotoAcquire::CreatePhotoSource
 author: windows-driver-content
 description: The CreatePhotoSource method initializes an IPhotoAcquireSource object to pass to IPhotoAcquire::Acquire.
 old-location: picacq\iphotoacquire_createphotosource.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 03dc14d4-03e8-4281-ae70-c9f2c5646694
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreatePhotoSource method [Picture Acquisition], CreatePhotoSource method [Picture Acquisition], IPhotoAcquire interface, CreatePhotoSource,IPhotoAcquire.CreatePhotoSource, IPhotoAcquire, IPhotoAcquire interface [Picture Acquisition], CreatePhotoSource method, IPhotoAcquire::CreatePhotoSource, IPhotoAcquireCreatePhotoSource, photoacquire/IPhotoAcquire::CreatePhotoSource, picacq.iphotoacquire_createphotosource
+ms.keywords: CreatePhotoSource, CreatePhotoSource method [Picture Acquisition], CreatePhotoSource method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],CreatePhotoSource method, IPhotoAcquire.CreatePhotoSource, IPhotoAcquire::CreatePhotoSource, IPhotoAcquireCreatePhotoSource, photoacquire/IPhotoAcquire::CreatePhotoSource, picacq.iphotoacquire_createphotosource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquire::CreatePhotoSource method
+# IPhotoAcquire::CreatePhotoSource
 
 
 ## -description

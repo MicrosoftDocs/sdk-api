@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_ModuleClsid
-title: IFsrmPipelineModuleDefinition::put_ModuleClsid method
+title: IFsrmPipelineModuleDefinition::put_ModuleClsid
 author: windows-driver-content
 description: A string representation specifying the COM class identifier for the class that implements the module defined by this module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_moduleclsid.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: a90c8836-cd7f-46d8-814c-6f798c930b4d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPipelineModuleDefinition, IFsrmPipelineModuleDefinition interface [File Server Resource Manager], ModuleClsid property, IFsrmPipelineModuleDefinition.ModuleClsid, IFsrmPipelineModuleDefinition::get_ModuleClsid, IFsrmPipelineModuleDefinition::put_ModuleClsid, ModuleClsid property [File Server Resource Manager], ModuleClsid property [File Server Resource Manager], IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_moduleclsid, fsrm.ifsrmpipelinemoduledefinition_moduleclsid, fsrmpipeline/IFsrmPipelineModuleDefinition::ModuleClsid, fsrmpipeline/IFsrmPipelineModuleDefinition::get_ModuleClsid, fsrmpipeline/IFsrmPipelineModuleDefinition::put_ModuleClsid, put_ModuleClsid,IFsrmPipelineModuleDefinition.put_ModuleClsid
+ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],ModuleClsid property, IFsrmPipelineModuleDefinition.ModuleClsid, IFsrmPipelineModuleDefinition.put_ModuleClsid, IFsrmPipelineModuleDefinition::ModuleClsid, IFsrmPipelineModuleDefinition::get_ModuleClsid, IFsrmPipelineModuleDefinition::put_ModuleClsid, ModuleClsid property [File Server Resource Manager], ModuleClsid property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_moduleclsid, fsrm.ifsrmpipelinemoduledefinition_moduleclsid, fsrmpipeline/IFsrmPipelineModuleDefinition::ModuleClsid, fsrmpipeline/IFsrmPipelineModuleDefinition::get_ModuleClsid, fsrmpipeline/IFsrmPipelineModuleDefinition::put_ModuleClsid, put_ModuleClsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPipelineModuleDefinition::put_ModuleClsid method
+# IFsrmPipelineModuleDefinition::put_ModuleClsid
 
 
 ## -description

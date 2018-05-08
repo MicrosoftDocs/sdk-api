@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage3.ProbeSpecificFileSystem
-title: IFileSystemImage3::ProbeSpecificFileSystem method
+title: IFileSystemImage3::ProbeSpecificFileSystem
 author: windows-driver-content
 description: Determines if a specific file system on the current media is appendable through the IMAPI.
 old-location: imapi\ifilesystemimage3_probespecificfilesystem.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 0594c2e4-30ba-4d02-948e-09ec6a4ec352
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage3, IFileSystemImage3 interface [IMAPI], ProbeSpecificFileSystem method, IFileSystemImage3::ProbeSpecificFileSystem, ProbeSpecificFileSystem method [IMAPI], ProbeSpecificFileSystem method [IMAPI], IFileSystemImage3 interface, ProbeSpecificFileSystem,IFileSystemImage3.ProbeSpecificFileSystem, imapi.ifilesystemimage3_probespecificfilesystem, imapi2fs/IFileSystemImage3::ProbeSpecificFileSystem
+ms.keywords: IFileSystemImage3 interface [IMAPI],ProbeSpecificFileSystem method, IFileSystemImage3.ProbeSpecificFileSystem, IFileSystemImage3::ProbeSpecificFileSystem, ProbeSpecificFileSystem, ProbeSpecificFileSystem method [IMAPI], ProbeSpecificFileSystem method [IMAPI],IFileSystemImage3 interface, imapi.ifilesystemimage3_probespecificfilesystem, imapi2fs/IFileSystemImage3::ProbeSpecificFileSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage3::ProbeSpecificFileSystem method
+# IFileSystemImage3::ProbeSpecificFileSystem
 
 
 ## -description

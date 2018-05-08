@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: FD9EAF80-8449-4016-91A9-2299711C3D48
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxBundleWriter2, IAppxBundleWriter2 interface [App packaging and management], IAppxBundleWriter2 interface [App packaging and management], described, appxpackaging/IAppxBundleWriter2, appxpkg.iappxbundlewriter2
+ms.keywords: IAppxBundleWriter2, IAppxBundleWriter2 interface [App packaging and management], IAppxBundleWriter2 interface [App packaging and management],described, appxpackaging/IAppxBundleWriter2, appxpkg.iappxbundlewriter2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

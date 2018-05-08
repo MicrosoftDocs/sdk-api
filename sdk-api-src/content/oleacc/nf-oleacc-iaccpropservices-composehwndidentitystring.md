@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.ComposeHwndIdentityString
-title: IAccPropServices::ComposeHwndIdentityString method
+title: IAccPropServices::ComposeHwndIdentityString
 author: windows-driver-content
 description: Callers use ComposeHwndIdentityString to retrieve an identity string.
 old-location: winauto\iaccpropservices_iaccpropservices__composehwndidentitystring.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: e6712e47-7f00-4932-9a12-40ecafdbf584
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ComposeHwndIdentityString method [Windows Accessibility], ComposeHwndIdentityString method [Windows Accessibility], IAccPropServices interface, ComposeHwndIdentityString,IAccPropServices.ComposeHwndIdentityString, IAccPropServices, IAccPropServices interface [Windows Accessibility], ComposeHwndIdentityString method, IAccPropServices::ComposeHwndIdentityString, _msaa_IAccPropServices_ComposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__composehwndidentitystring, oleacc/IAccPropServices::ComposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__composehwndidentitystring
+ms.keywords: ComposeHwndIdentityString, ComposeHwndIdentityString method [Windows Accessibility], ComposeHwndIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ComposeHwndIdentityString method, IAccPropServices.ComposeHwndIdentityString, IAccPropServices::ComposeHwndIdentityString, _msaa_IAccPropServices_ComposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__composehwndidentitystring, oleacc/IAccPropServices::ComposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__composehwndidentitystring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccPropServices::ComposeHwndIdentityString method
+# IAccPropServices::ComposeHwndIdentityString
 
 
 ## -description

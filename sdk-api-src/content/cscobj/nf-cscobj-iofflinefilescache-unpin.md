@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.Unpin
-title: IOfflineFilesCache::Unpin method
+title: IOfflineFilesCache::Unpin
 author: windows-driver-content
 description: Unpins files, directories, and network shared folders from the Offline Files cache.
 old-location: of\iofflinefilescache_unpin.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 32d81a75-8845-4bd5-a0ff-e056a06ac11c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesCache, IOfflineFilesCache interface [Offline Files], Unpin method, IOfflineFilesCache::Unpin, OFFLINEFILES_PIN_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_PIN_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_PIN_CONTROL_FLAG_CONSOLE, OFFLINEFILES_PIN_CONTROL_FLAG_FILL, OFFLINEFILES_PIN_CONTROL_FLAG_FORALL, OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER_POLICY, OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_PIN_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_PIN_CONTROL_PINLINKTARGETS, Unpin method [Offline Files], Unpin method [Offline Files], IOfflineFilesCache interface, Unpin,IOfflineFilesCache.Unpin, cscobj/IOfflineFilesCache::Unpin, of.iofflinefilescache_unpin
+ms.keywords: IOfflineFilesCache interface [Offline Files],Unpin method, IOfflineFilesCache.Unpin, IOfflineFilesCache::Unpin, OFFLINEFILES_PIN_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_PIN_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_PIN_CONTROL_FLAG_CONSOLE, OFFLINEFILES_PIN_CONTROL_FLAG_FILL, OFFLINEFILES_PIN_CONTROL_FLAG_FORALL, OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER_POLICY, OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_PIN_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_PIN_CONTROL_PINLINKTARGETS, Unpin, Unpin method [Offline Files], Unpin method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Unpin, of.iofflinefilescache_unpin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesCache::Unpin method
+# IOfflineFilesCache::Unpin
 
 
 ## -description

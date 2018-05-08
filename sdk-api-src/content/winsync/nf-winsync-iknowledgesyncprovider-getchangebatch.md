@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.GetChangeBatch
-title: IKnowledgeSyncProvider::GetChangeBatch method
+title: IKnowledgeSyncProvider::GetChangeBatch
 author: windows-driver-content
 description: Gets a change batch that contains item metadata for items that are not contained in the specified knowledge from the destination provider.
 old-location: winsync\iknowledgesyncprovider_getchangebatch.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 165eb8eb-092c-4084-a296-abc2421596d5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetChangeBatch method [Windows Sync], GetChangeBatch method [Windows Sync], IKnowledgeSyncProvider interface, GetChangeBatch,IKnowledgeSyncProvider.GetChangeBatch, IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], GetChangeBatch method, IKnowledgeSyncProvider::GetChangeBatch, winsync.iknowledgesyncprovider_getchangebatch, winsync/IKnowledgeSyncProvider::GetChangeBatch
+ms.keywords: GetChangeBatch, GetChangeBatch method [Windows Sync], GetChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetChangeBatch method, IKnowledgeSyncProvider.GetChangeBatch, IKnowledgeSyncProvider::GetChangeBatch, winsync.iknowledgesyncprovider_getchangebatch, winsync/IKnowledgeSyncProvider::GetChangeBatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IKnowledgeSyncProvider::GetChangeBatch method
+# IKnowledgeSyncProvider::GetChangeBatch
 
 
 ## -description

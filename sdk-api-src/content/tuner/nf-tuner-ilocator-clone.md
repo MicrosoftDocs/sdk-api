@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.Clone
-title: ILocator::Clone method
+title: ILocator::Clone
 author: windows-driver-content
 description: The Clone method creates a copy of the Locator.
 old-location: mstv\ilocator_clone.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9a1fd730-80b9-439b-aab2-069710aa3dfa
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies], ILocator interface, Clone,ILocator.Clone, ILocator, ILocator interface [Microsoft TV Technologies], Clone method, ILocator::Clone, ILocatorClone, mstv.ilocator_clone, tuner/ILocator::Clone
+ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],ILocator interface, ILocator interface [Microsoft TV Technologies],Clone method, ILocator.Clone, ILocator::Clone, ILocatorClone, mstv.ilocator_clone, tuner/ILocator::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILocator::Clone method
+# ILocator::Clone
 
 
 ## -description

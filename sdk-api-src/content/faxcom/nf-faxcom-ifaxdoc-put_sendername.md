@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_SenderName
-title: IFaxDoc::put_SenderName method
+title: IFaxDoc::put_SenderName
 author: windows-driver-content
 description: Sets or retrieves the SenderName property of a FaxDoc object. The SenderName property is a null-terminated string that contains the name of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_sendername_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_986d.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], SenderName property, IFaxDoc, IFaxDoc::put_SenderName, SenderName property [Fax Service], SenderName property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_sendername, fax._mfax_ifaxdoc_get_sendername, fax._mfax_ifaxdoc_get_sendername_vb, put_SenderName,IFaxDoc.put_SenderName
+ms.keywords: FaxDoc object [Fax Service],SenderName property, FaxDoc.SenderName, IFaxDoc.put_SenderName, IFaxDoc::put_SenderName, SenderName property [Fax Service], SenderName property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_sendername, fax._mfax_ifaxdoc_get_sendername, fax._mfax_ifaxdoc_get_sendername_vb, put_SenderName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_SenderName method
+# IFaxDoc::put_SenderName
 
 
 ## -description

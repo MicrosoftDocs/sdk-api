@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_SamUserAccount
-title: ITsSbClientConnection::get_SamUserAccount method
+title: ITsSbClientConnection::get_SamUserAccount
 author: windows-driver-content
 description: Retrieves a value that indicates the domain name and user name of the user who initiated the connection.
 old-location: termserv\itssbclientconnection_samuseraccount.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: eb3d8e6b-60c6-4d24-824c-94b642f44956
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], SamUserAccount property, ITsSbClientConnection.SamUserAccount, ITsSbClientConnection::get_SamUserAccount, SamUserAccount property [Remote Desktop Services], SamUserAccount property [Remote Desktop Services], ITsSbClientConnection interface, get_SamUserAccount,ITsSbClientConnection.get_SamUserAccount, sbtsv/ITsSbClientConnection::SamUserAccount, sbtsv/ITsSbClientConnection::get_SamUserAccount, termserv.itssbclientconnection_samuseraccount
+ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],SamUserAccount property, ITsSbClientConnection.SamUserAccount, ITsSbClientConnection.get_SamUserAccount, ITsSbClientConnection::SamUserAccount, ITsSbClientConnection::get_SamUserAccount, SamUserAccount property [Remote Desktop Services], SamUserAccount property [Remote Desktop Services],ITsSbClientConnection interface, get_SamUserAccount, sbtsv/ITsSbClientConnection::SamUserAccount, sbtsv/ITsSbClientConnection::get_SamUserAccount, termserv.itssbclientconnection_samuseraccount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbClientConnection::get_SamUserAccount method
+# ITsSbClientConnection::get_SamUserAccount
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ExportPartition
-title: ICOMAdminCatalog2::ExportPartition method
+title: ICOMAdminCatalog2::ExportPartition
 author: windows-driver-content
 description: Exports a partition to a file.
 old-location: cos\icomadmincatalog2_exportpartition.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: cc793025-e8d9-4dcb-a55d-81dec38d05b9
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportPartition method [COM+], ExportPartition method [COM+], ICOMAdminCatalog2 interface, ExportPartition,ICOMAdminCatalog2.ExportPartition, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], ExportPartition method, ICOMAdminCatalog2::ExportPartition, _cos_icomadmincatalog2_ExportPartition, comadmin/ICOMAdminCatalog2::ExportPartition, cos.icomadmincatalog2_exportpartition
+ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportPartition, ExportPartition method [COM+], ExportPartition method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],ExportPartition method, ICOMAdminCatalog2.ExportPartition, ICOMAdminCatalog2::ExportPartition, _cos_icomadmincatalog2_ExportPartition, comadmin/ICOMAdminCatalog2::ExportPartition, cos.icomadmincatalog2_exportpartition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::ExportPartition method
+# ICOMAdminCatalog2::ExportPartition
 
 
 ## -description

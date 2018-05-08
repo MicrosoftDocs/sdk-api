@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.MarkerHit
-title: IWMPEvents::MarkerHit method
+title: IWMPEvents::MarkerHit
 author: windows-driver-content
 description: The MarkerHit event occurs when a marker is reached.
 old-location: wmp\iwmpevents_iwmpevents__markerhit.htm
 old-project: WMP
 ms.assetid: 5caf2982-d562-4306-b211-58741622c94c
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MarkerHit method, IWMPEvents::MarkerHit, IWMPEventsMarkerHit, MarkerHit method [Windows Media Player], MarkerHit method [Windows Media Player], IWMPEvents interface, MarkerHit,IWMPEvents.MarkerHit, wmp.iwmpevents_iwmpevents__markerhit, wmp/IWMPEvents::MarkerHit
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],MarkerHit method, IWMPEvents.MarkerHit, IWMPEvents::MarkerHit, IWMPEventsMarkerHit, MarkerHit, MarkerHit method [Windows Media Player], MarkerHit method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__markerhit, wmp/IWMPEvents::MarkerHit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::MarkerHit method
+# IWMPEvents::MarkerHit
 
 
 ## -description

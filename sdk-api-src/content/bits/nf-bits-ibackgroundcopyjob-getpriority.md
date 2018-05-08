@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetPriority
-title: IBackgroundCopyJob::GetPriority method
+title: IBackgroundCopyJob::GetPriority
 author: windows-driver-content
 description: Retrieves the priority level for the job. The priority level determines when the job is processed relative to other jobs in the transfer queue.
 old-location: bits\ibackgroundcopyjob_getpriority.htm
 old-project: Bits
 ms.assetid: 8602ed59-a372-4cb3-bbda-cf1c7afc3669
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetPriority method [BITS], GetPriority method [BITS], IBackgroundCopyJob interface, GetPriority,IBackgroundCopyJob.GetPriority, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetPriority method, IBackgroundCopyJob::GetPriority, _drz_ibackgroundcopyjob_getpriority, bits.ibackgroundcopyjob_getpriority, bits/IBackgroundCopyJob::GetPriority
+ms.date: 4/27/2018
+ms.keywords: GetPriority, GetPriority method [BITS], GetPriority method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetPriority method, IBackgroundCopyJob.GetPriority, IBackgroundCopyJob::GetPriority, _drz_ibackgroundcopyjob_getpriority, bits.ibackgroundcopyjob_getpriority, bits/IBackgroundCopyJob::GetPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::GetPriority method
+# IBackgroundCopyJob::GetPriority
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedColumnSpan
-title: IUIAutomationGridItemPattern::get_CachedColumnSpan method
+title: IUIAutomationGridItemPattern::get_CachedColumnSpan
 author: windows-driver-content
 description: Retrieves the cached number of columns spanned by the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedColumnSpan.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 1a13798b-81de-43d1-87ee-b3d8406fcc80
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedColumnSpan property [Windows Accessibility], CachedColumnSpan property [Windows Accessibility], IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern, IUIAutomationGridItemPattern interface [Windows Accessibility], CachedColumnSpan property, IUIAutomationGridItemPattern.CachedColumnSpan, IUIAutomationGridItemPattern::get_CachedColumnSpan, get_CachedColumnSpan,IUIAutomationGridItemPattern.get_CachedColumnSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CachedColumnSpan, uiauto_IUIAutomationGridItemPattern_CachedColumnSpan, uiautomationclient/IUIAutomationGridItemPattern::CachedColumnSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CachedColumnSpan, winauto.uiauto_IUIAutomationGridItemPattern_CachedColumnSpan
+ms.keywords: CachedColumnSpan property [Windows Accessibility], CachedColumnSpan property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedColumnSpan property, IUIAutomationGridItemPattern.CachedColumnSpan, IUIAutomationGridItemPattern.get_CachedColumnSpan, IUIAutomationGridItemPattern::CachedColumnSpan, IUIAutomationGridItemPattern::get_CachedColumnSpan, get_CachedColumnSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CachedColumnSpan, uiauto_IUIAutomationGridItemPattern_CachedColumnSpan, uiautomationclient/IUIAutomationGridItemPattern::CachedColumnSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CachedColumnSpan, winauto.uiauto_IUIAutomationGridItemPattern_CachedColumnSpan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationGridItemPattern::get_CachedColumnSpan method
+# IUIAutomationGridItemPattern::get_CachedColumnSpan
 
 
 ## -description

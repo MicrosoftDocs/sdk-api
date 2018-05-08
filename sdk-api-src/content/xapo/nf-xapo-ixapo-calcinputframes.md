@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.CalcInputFrames
-title: IXAPO::CalcInputFrames method
+title: IXAPO::CalcInputFrames
 author: windows-driver-content
 description: Returns the number of input frames required to generate the given number of output frames.
 old-location: xaudio2\ixapo_interface_calcinputframes.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.CalcInputFrames(UINT32)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CalcInputFrames method [XAudio2 Audio Mixing APIs], CalcInputFrames method [XAudio2 Audio Mixing APIs], IXAPO interface, CalcInputFrames,IXAPO.CalcInputFrames, IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], CalcInputFrames method, IXAPO::CalcInputFrames, xapo/IXAPO::CalcInputFrames, xaudio2.ixapo_interface_calcinputframes
+ms.keywords: CalcInputFrames, CalcInputFrames method [XAudio2 Audio Mixing APIs], CalcInputFrames method [XAudio2 Audio Mixing APIs],IXAPO interface, IXAPO interface [XAudio2 Audio Mixing APIs],CalcInputFrames method, IXAPO.CalcInputFrames, IXAPO::CalcInputFrames, xapo/IXAPO::CalcInputFrames, xaudio2.ixapo_interface_calcinputframes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAPO::CalcInputFrames method
+# IXAPO::CalcInputFrames
 
 
 ## -description

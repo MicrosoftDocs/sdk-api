@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageWriter2.Close
-title: IAppxPackageWriter2::Close method
+title: IAppxPackageWriter2::Close
 author: windows-driver-content
 description: Closes the package writer object's output stream.
 old-location: appxpkg\iappxpackagewriter2_close.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: C972B7D0-9E78-4E17-AA64-C33631A57A8F
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Close method [App packaging and management], Close method [App packaging and management], IAppxPackageWriter2 interface, Close,IAppxPackageWriter2.Close, IAppxPackageWriter2, IAppxPackageWriter2 interface [App packaging and management], Close method, IAppxPackageWriter2::Close, appxpackaging/IAppxPackageWriter2::Close, appxpkg.iappxpackagewriter2_close
+ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxPackageWriter2 interface, IAppxPackageWriter2 interface [App packaging and management],Close method, IAppxPackageWriter2.Close, IAppxPackageWriter2::Close, appxpackaging/IAppxPackageWriter2::Close, appxpkg.iappxpackagewriter2_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxPackageWriter2::Close method
+# IAppxPackageWriter2::Close
 
 
 ## -description

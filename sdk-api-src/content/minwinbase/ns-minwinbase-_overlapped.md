@@ -101,6 +101,11 @@ This member is nonzero only when performing I/O requests on a seeking device tha
 For additional information, see Remarks.
 
 
+### -field DUMMYUNIONNAME.Pointer
+
+Reserved for system use; do not use after initialization to zero.
+
+
 ### -field hEvent
 
 A handle to the event that will be set to a signaled state by the system when the operation has completed. The user must initialize this member either to zero or a valid event handle using the <a href="https://msdn.microsoft.com/1f6d946e-c74c-4599-ac3d-b709216a0900">CreateEvent</a> function before passing this structure to any overlapped functions. This event can then be used to synchronize simultaneous I/O requests for a device. For additional information, see Remarks.
@@ -111,11 +116,6 @@ Functions such as <a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-75
 
 
 Functions such as <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> and the synchronization <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">wait functions</a> reset auto-reset events to the nonsignaled state. Therefore, you should use a manual reset event; if you use an auto-reset event, your application can stop responding if you wait for the operation to complete and then call <b>GetOverlappedResult</b> with the <i>bWait</i> parameter set to <b>TRUE</b>.
-
-
-#### - Pointer
-
-Reserved for system use; do not use after initialization to zero.
 
 
 ## -remarks

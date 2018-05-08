@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuningSpace2.put_NetworkID
-title: IDVBTuningSpace2::put_NetworkID method
+title: IDVBTuningSpace2::put_NetworkID
 author: windows-driver-content
 description: The put_NetworkID method sets the Network ID of the DVB system.
 old-location: mstv\idvbtuningspace2_put_networkid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4f307629-710d-4992-b407-311774aa544a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBTuningSpace2, IDVBTuningSpace2 interface [Microsoft TV Technologies], put_NetworkID method, IDVBTuningSpace2::put_NetworkID, IDVBTuningSpace2put_NetworkID, mstv.idvbtuningspace2_put_networkid, put_NetworkID method [Microsoft TV Technologies], put_NetworkID method [Microsoft TV Technologies], IDVBTuningSpace2 interface, put_NetworkID,IDVBTuningSpace2.put_NetworkID, tuner/IDVBTuningSpace2::put_NetworkID
+ms.keywords: IDVBTuningSpace2 interface [Microsoft TV Technologies],put_NetworkID method, IDVBTuningSpace2.put_NetworkID, IDVBTuningSpace2::put_NetworkID, IDVBTuningSpace2put_NetworkID, mstv.idvbtuningspace2_put_networkid, put_NetworkID, put_NetworkID method [Microsoft TV Technologies], put_NetworkID method [Microsoft TV Technologies],IDVBTuningSpace2 interface, tuner/IDVBTuningSpace2::put_NetworkID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBTuningSpace2::put_NetworkID method
+# IDVBTuningSpace2::put_NetworkID
 
 
 ## -description

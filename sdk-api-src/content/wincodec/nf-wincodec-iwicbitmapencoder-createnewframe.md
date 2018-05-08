@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.CreateNewFrame
-title: IWICBitmapEncoder::CreateNewFrame method
+title: IWICBitmapEncoder::CreateNewFrame
 author: windows-driver-content
 description: Creates a new IWICBitmapFrameEncode instance.
 old-location: wic\_wic_codec_iwicbitmapencoder_createnewframe.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 1c48f603-e7be-4b0c-a262-0dd01308e868
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateNewFrame method [Windows Imaging Component], CreateNewFrame method [Windows Imaging Component], IWICBitmapEncoder interface, CreateNewFrame,IWICBitmapEncoder.CreateNewFrame, IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], CreateNewFrame method, IWICBitmapEncoder::CreateNewFrame, _wic_codec_iwicbitmapencoder_createnewframe, wic._wic_codec_iwicbitmapencoder_createnewframe, wincodec/IWICBitmapEncoder::CreateNewFrame
+ms.keywords: CreateNewFrame, CreateNewFrame method [Windows Imaging Component], CreateNewFrame method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],CreateNewFrame method, IWICBitmapEncoder.CreateNewFrame, IWICBitmapEncoder::CreateNewFrame, _wic_codec_iwicbitmapencoder_createnewframe, wic._wic_codec_iwicbitmapencoder_createnewframe, wincodec/IWICBitmapEncoder::CreateNewFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapEncoder::CreateNewFrame method
+# IWICBitmapEncoder::CreateNewFrame
 
 
 ## -description

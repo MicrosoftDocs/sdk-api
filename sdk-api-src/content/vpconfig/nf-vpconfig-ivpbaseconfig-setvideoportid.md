@@ -1,14 +1,14 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetVideoPortID
-title: IVPBaseConfig::SetVideoPortID method
+title: IVPBaseConfig::SetVideoPortID
 author: windows-driver-content
 description: The SetVideoPortID method specifies the ID of the hardware video port to use.
 old-location: dshow\ivpbaseconfig_setvideoportid.htm
 old-project: DirectShow
 ms.assetid: 9be16349-b214-4441-8093-dfb0caa84507
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], SetVideoPortID method, IVPBaseConfig::SetVideoPortID, IVPBaseConfigSetVideoPortID, SetVideoPortID method [DirectShow], SetVideoPortID method [DirectShow], IVPBaseConfig interface, SetVideoPortID,IVPBaseConfig.SetVideoPortID, dshow.ivpbaseconfig_setvideoportid, vpconfig/IVPBaseConfig::SetVideoPortID
+ms.date: 4/30/2018
+ms.keywords: IVPBaseConfig interface [DirectShow],SetVideoPortID method, IVPBaseConfig.SetVideoPortID, IVPBaseConfig::SetVideoPortID, IVPBaseConfigSetVideoPortID, SetVideoPortID, SetVideoPortID method [DirectShow], SetVideoPortID method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setvideoportid, vpconfig/IVPBaseConfig::SetVideoPortID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVPBaseConfig::SetVideoPortID method
+# IVPBaseConfig::SetVideoPortID
 
 
 ## -description

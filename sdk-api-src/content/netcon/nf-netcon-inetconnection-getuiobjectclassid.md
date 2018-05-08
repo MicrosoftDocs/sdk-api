@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetConnection.GetUiObjectClassId
-title: INetConnection::GetUiObjectClassId method
+title: INetConnection::GetUiObjectClassId
 author: windows-driver-content
 description: The GetUiObjectClassId method retrieves the class identifier of the user interface object for this connection.
 old-location: ics\inetconnection_getuiobjectclassid.htm
 old-project: ICS
 ms.assetid: 33d69dff-8137-4901-9529-31130803b19f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: GetUiObjectClassId method [ICS/ICF], GetUiObjectClassId method [ICS/ICF], INetConnection interface, GetUiObjectClassId,INetConnection.GetUiObjectClassId, INetConnection, INetConnection interface [ICS/ICF], GetUiObjectClassId method, INetConnection::GetUiObjectClassId, _ics_inetconnection_getuiobjectclassid, ics.inetconnection_getuiobjectclassid, netcon/INetConnection::GetUiObjectClassId
+ms.date: 5/1/2018
+ms.keywords: GetUiObjectClassId, GetUiObjectClassId method [ICS/ICF], GetUiObjectClassId method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],GetUiObjectClassId method, INetConnection.GetUiObjectClassId, INetConnection::GetUiObjectClassId, _ics_inetconnection_getuiobjectclassid, ics.inetconnection_getuiobjectclassid, netcon/INetConnection::GetUiObjectClassId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetConnection::GetUiObjectClassId method
+# INetConnection::GetUiObjectClassId
 
 
 ## -description

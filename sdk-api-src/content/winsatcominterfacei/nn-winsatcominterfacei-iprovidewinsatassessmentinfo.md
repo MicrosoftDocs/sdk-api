@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: 90036c75-6e9e-4d25-804b-02c423616de1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IProvideWinSATAssessmentInfo, IProvideWinSATAssessmentInfo interface [WinSAT], IProvideWinSATAssessmentInfo interface [WinSAT], described, winsat.iprovidewinsatassessmentinfo, winsatcominterfacei/IProvideWinSATAssessmentInfo
+ms.keywords: IProvideWinSATAssessmentInfo, IProvideWinSATAssessmentInfo interface [WinSAT], IProvideWinSATAssessmentInfo interface [WinSAT],described, winsat.iprovidewinsatassessmentinfo, winsatcominterfacei/IProvideWinSATAssessmentInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

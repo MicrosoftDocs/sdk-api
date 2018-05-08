@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteScope
-title: IAzApplication::DeleteScope method
+title: IAzApplication::DeleteScope
 author: windows-driver-content
 description: Removes the IAzScope object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deletescope.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 2a3c2e18-9264-496a-9bd3-ff9c529a2426
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplication object [Security], DeleteScope method, DeleteScope method [Security], DeleteScope method [Security], AzApplication object, DeleteScope method [Security], IAzApplication interface, DeleteScope,IAzApplication.DeleteScope, IAzApplication, IAzApplication interface [Security], DeleteScope method, IAzApplication::DeleteScope, azroles/IAzApplication::DeleteScope, security.iazapplication_deletescope
+ms.keywords: AzApplication object [Security],DeleteScope method, DeleteScope, DeleteScope method [Security], DeleteScope method [Security],AzApplication object, DeleteScope method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteScope method, IAzApplication.DeleteScope, IAzApplication::DeleteScope, azroles/IAzApplication::DeleteScope, security.iazapplication_deletescope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::DeleteScope method
+# IAzApplication::DeleteScope
 
 
 ## -description

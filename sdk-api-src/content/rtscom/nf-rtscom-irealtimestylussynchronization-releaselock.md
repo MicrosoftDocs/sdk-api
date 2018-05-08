@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylusSynchronization.ReleaseLock
-title: IRealTimeStylusSynchronization::ReleaseLock method
+title: IRealTimeStylusSynchronization::ReleaseLock
 author: windows-driver-content
 description: Releases the specified lock.
 old-location: tablet\irealtimestylussynchronization_releaselock.htm
 old-project: tablet
 ms.assetid: 13970fda-7b2a-4fb7-9403-8d9aad39d83a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 13970fda-7b2a-4fb7-9403-8d9aad39d83a, IRealTimeStylusSynchronization, IRealTimeStylusSynchronization interface [Tablet PC], ReleaseLock method, IRealTimeStylusSynchronization::ReleaseLock, ReleaseLock method [Tablet PC], ReleaseLock method [Tablet PC], IRealTimeStylusSynchronization interface, ReleaseLock,IRealTimeStylusSynchronization.ReleaseLock, rtscom/IRealTimeStylusSynchronization::ReleaseLock, tablet.irealtimestylussynchronization_releaselock
+ms.date: 5/2/2018
+ms.keywords: 13970fda-7b2a-4fb7-9403-8d9aad39d83a, IRealTimeStylusSynchronization interface [Tablet PC],ReleaseLock method, IRealTimeStylusSynchronization.ReleaseLock, IRealTimeStylusSynchronization::ReleaseLock, ReleaseLock, ReleaseLock method [Tablet PC], ReleaseLock method [Tablet PC],IRealTimeStylusSynchronization interface, rtscom/IRealTimeStylusSynchronization::ReleaseLock, tablet.irealtimestylussynchronization_releaselock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylusSynchronization::ReleaseLock method
+# IRealTimeStylusSynchronization::ReleaseLock
 
 
 ## -description

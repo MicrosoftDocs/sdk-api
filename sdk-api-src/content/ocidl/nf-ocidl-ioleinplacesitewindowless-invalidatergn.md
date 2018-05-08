@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.InvalidateRgn
-title: IOleInPlaceSiteWindowless::InvalidateRgn method
+title: IOleInPlaceSiteWindowless::InvalidateRgn
 author: windows-driver-content
 description: Enables an object to invalidate a specified region of its in-place image on the screen.
 old-location: com\ioleinplacesitewindowless_invalidatergn.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bbe86f4f-d023-4285-a6c1-c42fdc566f2f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], InvalidateRgn method, IOleInPlaceSiteWindowless::InvalidateRgn, InvalidateRgn method [COM], InvalidateRgn method [COM], IOleInPlaceSiteWindowless interface, InvalidateRgn,IOleInPlaceSiteWindowless.InvalidateRgn, _ole_ioleinplacesitewindowless_invalidatergn, com.ioleinplacesitewindowless_invalidatergn, ocidl/IOleInPlaceSiteWindowless::InvalidateRgn
+ms.keywords: IOleInPlaceSiteWindowless interface [COM],InvalidateRgn method, IOleInPlaceSiteWindowless.InvalidateRgn, IOleInPlaceSiteWindowless::InvalidateRgn, InvalidateRgn, InvalidateRgn method [COM], InvalidateRgn method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_invalidatergn, com.ioleinplacesitewindowless_invalidatergn, ocidl/IOleInPlaceSiteWindowless::InvalidateRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSiteWindowless::InvalidateRgn method
+# IOleInPlaceSiteWindowless::InvalidateRgn
 
 
 ## -description

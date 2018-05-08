@@ -7,8 +7,8 @@ old-location: shell\FolderItem.htm
 old-project: shell
 ms.assetid: 38c0e049-2f9f-43bc-8bf2-1b7becf16e66
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: FolderItem, FolderItem object [Windows Shell], FolderItem object [Windows Shell], described, _win32_FolderItem, shell.FolderItem, shldisp/FolderItem
+ms.date: 5/3/2018
+ms.keywords: FolderItem, FolderItem object [Windows Shell], FolderItem object [Windows Shell],described, _win32_FolderItem, shell.FolderItem, shldisp/FolderItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

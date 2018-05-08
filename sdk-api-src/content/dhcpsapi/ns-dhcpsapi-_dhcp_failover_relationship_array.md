@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_failover_relationship_array.htm
 old-project: DHCP
 ms.assetid: A4C951F9-D5C6-4210-B77D-DBBD6FF2766C
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_FAILOVER_RELATIONSHIP_ARRAY, DHCP_FAILOVER_RELATIONSHIP_ARRAY, DHCP_FAILOVER_RELATIONSHIP_ARRAY structure [DHCP], LPDHCP_FAILOVER_RELATIONSHIP_ARRAY, LPDHCP_FAILOVER_RELATIONSHIP_ARRAY structure pointer [DHCP], _DHCP_FAILOVER_RELATIONSHIP_ARRAY, dhcp.dhcp_failover_relationship_array, dhcpsapi/DHCP_FAILOVER_RELATIONSHIP_ARRAY, dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ The <b>DHCP_FAILOVER_RELATIONSHIP_ARRAY</b> structure defines an array of DHCPv4
 ### -field pRelationships
 
 Pointer to an array of <a href="https://msdn.microsoft.com/b409b0ff-2fdc-416c-a7ce-2cba9cf75122">DHCP_FAILOVER_RELATIONSHIP</a>  structures.
+
+
+### -field pRelationships.size_is
+
+ 
+
+
+### -field pRelationships.size_is.NumElements
+
+ 
+
+
 
 
 #### - numElements

@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableAutoProxy
-title: IAMNetShowConfig::get_EnableAutoProxy method
+title: IAMNetShowConfig::get_EnableAutoProxy
 author: windows-driver-content
 description: The get_EnableAutoProxy method queries whether the control or filter should use the browser's proxy settings.
 old-location: dshow\iamnetshowconfig_get_enableautoproxy.htm
 old-project: DirectShow
 ms.assetid: 7037f326-3320-4e4a-8f6f-feda1a306c2d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], get_EnableAutoProxy method, IAMNetShowConfig::get_EnableAutoProxy, IAMNetShowConfigget_EnableAutoProxy, dshow.iamnetshowconfig_get_enableautoproxy, get_EnableAutoProxy method [DirectShow], get_EnableAutoProxy method [DirectShow], IAMNetShowConfig interface, get_EnableAutoProxy,IAMNetShowConfig.get_EnableAutoProxy, qnetwork/IAMNetShowConfig::get_EnableAutoProxy
+ms.date: 4/30/2018
+ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableAutoProxy method, IAMNetShowConfig.get_EnableAutoProxy, IAMNetShowConfig::get_EnableAutoProxy, IAMNetShowConfigget_EnableAutoProxy, dshow.iamnetshowconfig_get_enableautoproxy, get_EnableAutoProxy, get_EnableAutoProxy method [DirectShow], get_EnableAutoProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableAutoProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetShowConfig::get_EnableAutoProxy method
+# IAMNetShowConfig::get_EnableAutoProxy
 
 
 ## -description

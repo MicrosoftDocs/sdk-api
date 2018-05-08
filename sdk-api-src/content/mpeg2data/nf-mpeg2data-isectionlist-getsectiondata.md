@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.ISectionList.GetSectionData
-title: ISectionList::GetSectionData method
+title: ISectionList::GetSectionData
 author: windows-driver-content
 description: The GetSectionData method retrieves a section.
 old-location: mstv\isectionlist_getsectiondata.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b03d1727-9ebd-4e78-b7d0-c6d0959aab8a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSectionData method [Microsoft TV Technologies], GetSectionData method [Microsoft TV Technologies], ISectionList interface, GetSectionData,ISectionList.GetSectionData, ISectionList, ISectionList interface [Microsoft TV Technologies], GetSectionData method, ISectionList::GetSectionData, ISectionListGetSectionData, mpeg2data/ISectionList::GetSectionData, mstv.isectionlist_getsectiondata
+ms.keywords: GetSectionData, GetSectionData method [Microsoft TV Technologies], GetSectionData method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetSectionData method, ISectionList.GetSectionData, ISectionList::GetSectionData, ISectionListGetSectionData, mpeg2data/ISectionList::GetSectionData, mstv.isectionlist_getsectiondata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISectionList::GetSectionData method
+# ISectionList::GetSectionData
 
 
 ## -description

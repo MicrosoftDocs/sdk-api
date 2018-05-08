@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.StartAtMarker
-title: IWMReaderAdvanced2::StartAtMarker method
+title: IWMReaderAdvanced2::StartAtMarker
 author: windows-driver-content
 description: The StartAtMarker method starts the reader from a specified marker.
 old-location: wmformat\iwmreaderadvanced2_startatmarker.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 444adb2f-4289-4950-8841-07353479ef43
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], StartAtMarker method, IWMReaderAdvanced2::StartAtMarker, IWMReaderAdvanced2StartAtMarker, StartAtMarker method [windows Media Format], StartAtMarker method [windows Media Format], IWMReaderAdvanced2 interface, StartAtMarker,IWMReaderAdvanced2.StartAtMarker, wmformat.iwmreaderadvanced2_startatmarker, wmsdkidl/IWMReaderAdvanced2::StartAtMarker
+ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],StartAtMarker method, IWMReaderAdvanced2.StartAtMarker, IWMReaderAdvanced2::StartAtMarker, IWMReaderAdvanced2StartAtMarker, StartAtMarker, StartAtMarker method [windows Media Format], StartAtMarker method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_startatmarker, wmsdkidl/IWMReaderAdvanced2::StartAtMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced2::StartAtMarker method
+# IWMReaderAdvanced2::StartAtMarker
 
 
 ## -description

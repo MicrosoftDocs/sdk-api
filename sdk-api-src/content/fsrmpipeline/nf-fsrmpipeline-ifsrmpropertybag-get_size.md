@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_Size
-title: IFsrmPropertyBag::get_Size method
+title: IFsrmPropertyBag::get_Size
 author: windows-driver-content
 description: The size of the file.
 old-location: fsrm\ifsrmpropertybag_size.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 6dade17c-1252-4f11-81a2-7e278da290e8
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], Size property, IFsrmPropertyBag.Size, IFsrmPropertyBag::get_Size, Size property [File Server Resource Manager], Size property [File Server Resource Manager], IFsrmPropertyBag interface, fs.ifsrmpropertybag_size, fsrm.ifsrmpropertybag_size, fsrmpipeline/IFsrmPropertyBag::Size, fsrmpipeline/IFsrmPropertyBag::get_Size, get_Size,IFsrmPropertyBag.get_Size
+ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],Size property, IFsrmPropertyBag.Size, IFsrmPropertyBag.get_Size, IFsrmPropertyBag::Size, IFsrmPropertyBag::get_Size, Size property [File Server Resource Manager], Size property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_size, fsrm.ifsrmpropertybag_size, fsrmpipeline/IFsrmPropertyBag::Size, fsrmpipeline/IFsrmPropertyBag::get_Size, get_Size
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyBag::get_Size method
+# IFsrmPropertyBag::get_Size
 
 
 ## -description

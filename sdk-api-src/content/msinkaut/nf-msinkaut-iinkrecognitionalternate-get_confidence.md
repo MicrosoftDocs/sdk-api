@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Confidence
-title: IInkRecognitionAlternate::get_Confidence method
+title: IInkRecognitionAlternate::get_Confidence
 author: windows-driver-content
 description: Gets the level of confidence (strong, intermediate, or poor) that a recognizer has in the recognition of an IInkRecognitionAlternate object or a gesture.
 old-location: tablet\iinkrecognitionalternate_confidence.htm
 old-project: tablet
 ms.assetid: 049a5742-fc4f-4a9a-91d5-5eec56dc8e8b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 049a5742-fc4f-4a9a-91d5-5eec56dc8e8b, Confidence property [Tablet PC], Confidence property [Tablet PC], IInkRecognitionAlternate interface, IInkRecognitionAlternate, IInkRecognitionAlternate interface [Tablet PC], Confidence property, IInkRecognitionAlternate.Confidence, IInkRecognitionAlternate.get_Confidence, IInkRecognitionAlternate::get_Confidence, get_Confidence,IInkRecognitionAlternate.get_Confidence, msinkaut/IInkRecognitionAlternate::Confidence, msinkaut/IInkRecognitionAlternate::get_Confidence, tablet.iinkrecognitionalternate_confidence
+ms.date: 5/2/2018
+ms.keywords: 049a5742-fc4f-4a9a-91d5-5eec56dc8e8b, Confidence property [Tablet PC], Confidence property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],Confidence property, IInkRecognitionAlternate.Confidence, IInkRecognitionAlternate.get_Confidence, IInkRecognitionAlternate::Confidence, IInkRecognitionAlternate::get_Confidence, get_Confidence, msinkaut/IInkRecognitionAlternate::Confidence, msinkaut/IInkRecognitionAlternate::get_Confidence, tablet.iinkrecognitionalternate_confidence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognitionAlternate::get_Confidence method
+# IInkRecognitionAlternate::get_Confidence
 
 
 ## -description

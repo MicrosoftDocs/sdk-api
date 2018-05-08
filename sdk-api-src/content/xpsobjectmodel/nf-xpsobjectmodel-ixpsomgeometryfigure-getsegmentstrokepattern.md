@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentStrokePattern
-title: IXpsOMGeometryFigure::GetSegmentStrokePattern method
+title: IXpsOMGeometryFigure::GetSegmentStrokePattern
 author: windows-driver-content
 description: Gets the XPS_SEGMENT_STROKE_PATTERN value that indicates whether the segments in the figure are stroked.
 old-location: xps\ixpsomgeometryfigure_getsegmentstrokepattern.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 497701aa-8738-43d1-830f-7a6c00cfa2cc
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSegmentStrokePattern method [XPS Documents and Packaging], GetSegmentStrokePattern method [XPS Documents and Packaging], IXpsOMGeometryFigure interface, GetSegmentStrokePattern,IXpsOMGeometryFigure.GetSegmentStrokePattern, IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], GetSegmentStrokePattern method, IXpsOMGeometryFigure::GetSegmentStrokePattern, xps.ixpsomgeometryfigure_getsegmentstrokepattern, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokePattern
+ms.keywords: GetSegmentStrokePattern, GetSegmentStrokePattern method [XPS Documents and Packaging], GetSegmentStrokePattern method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentStrokePattern method, IXpsOMGeometryFigure.GetSegmentStrokePattern, IXpsOMGeometryFigure::GetSegmentStrokePattern, xps.ixpsomgeometryfigure_getsegmentstrokepattern, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokePattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigure::GetSegmentStrokePattern method
+# IXpsOMGeometryFigure::GetSegmentStrokePattern
 
 
 ## -description

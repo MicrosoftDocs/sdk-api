@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICFormatConverter.Initialize
-title: IWICFormatConverter::Initialize method
+title: IWICFormatConverter::Initialize
 author: windows-driver-content
 description: Initializes the format converter.
 old-location: wic\_wic_codec_iwicformatconverter_initialize.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: ff046b2c-a863-48dd-9cbe-3c559c84b682
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICFormatConverter, IWICFormatConverter interface [Windows Imaging Component], Initialize method, IWICFormatConverter::Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component], IWICFormatConverter interface, Initialize,IWICFormatConverter.Initialize, _wic_codec_iwicformatconverter_initialize, wic._wic_codec_iwicformatconverter_initialize, wincodec/IWICFormatConverter::Initialize
+ms.keywords: IWICFormatConverter interface [Windows Imaging Component],Initialize method, IWICFormatConverter.Initialize, IWICFormatConverter::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICFormatConverter interface, _wic_codec_iwicformatconverter_initialize, wic._wic_codec_iwicformatconverter_initialize, wincodec/IWICFormatConverter::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICFormatConverter::Initialize method
+# IWICFormatConverter::Initialize
 
 
 ## -description

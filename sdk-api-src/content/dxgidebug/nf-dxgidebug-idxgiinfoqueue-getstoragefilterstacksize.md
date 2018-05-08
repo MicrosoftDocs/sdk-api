@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetStorageFilterStackSize
-title: IDXGIInfoQueue::GetStorageFilterStackSize method
+title: IDXGIInfoQueue::GetStorageFilterStackSize
 author: windows-driver-content
 description: Gets the size of the storage-filter stack in bytes.
 old-location: direct3ddxgi\idxgiinfoqueue_getstoragefilterstacksize.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: FE4D1749-7587-48BA-9701-B09DDFF1CE84
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetStorageFilterStackSize method [DXGI], GetStorageFilterStackSize method [DXGI], IDXGIInfoQueue interface, GetStorageFilterStackSize,IDXGIInfoQueue.GetStorageFilterStackSize, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], GetStorageFilterStackSize method, IDXGIInfoQueue::GetStorageFilterStackSize, direct3ddxgi.idxgiinfoqueue_getstoragefilterstacksize, dxgidebug/IDXGIInfoQueue::GetStorageFilterStackSize
+ms.keywords: GetStorageFilterStackSize, GetStorageFilterStackSize method [DXGI], GetStorageFilterStackSize method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetStorageFilterStackSize method, IDXGIInfoQueue.GetStorageFilterStackSize, IDXGIInfoQueue::GetStorageFilterStackSize, direct3ddxgi.idxgiinfoqueue_getstoragefilterstacksize, dxgidebug/IDXGIInfoQueue::GetStorageFilterStackSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::GetStorageFilterStackSize method
+# IDXGIInfoQueue::GetStorageFilterStackSize
 
 
 ## -description

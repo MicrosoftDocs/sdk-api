@@ -162,6 +162,16 @@ A value that represents the method to choose which public key is used to verify 
 A pointer to a string that represents  the name of the <b>Signature</b> generator.
 
 
+### -field size_is
+
+ 
+
+
+### -field size_is.wSignatureLength
+
+ 
+
+
 ### -field Signature
 
 A <b>BYTE</b> array that contains the RR set signature as specified in section 3.1.8 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>.

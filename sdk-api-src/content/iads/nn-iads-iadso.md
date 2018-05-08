@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 223021ff-58ef-4762-a64a-056ccab2696c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsO, IADsO interface [ADSI], IADsO interface [ADSI], described, _ds_iadso, adsi.iadso, iads/IADsO
+ms.keywords: IADsO, IADsO interface [ADSI], IADsO interface [ADSI],described, _ds_iadso, adsi.iadso, iads/IADsO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

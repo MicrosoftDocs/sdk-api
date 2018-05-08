@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.GetEncryptionBltKey
-title: ID3D11VideoContext::GetEncryptionBltKey method
+title: ID3D11VideoContext::GetEncryptionBltKey
 author: windows-driver-content
 description: Gets the cryptographic key to decrypt the data returned by the ID3D11VideoContext::EncryptionBlt method.
 old-location: mf\id3d11videocontext_getencryptionbltkey.htm
 old-project: medfound
 ms.assetid: B62BE7CB-75FA-45E9-9AB7-83738DFE3B19
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetEncryptionBltKey method [Media Foundation], GetEncryptionBltKey method [Media Foundation], ID3D11VideoContext interface, GetEncryptionBltKey,ID3D11VideoContext.GetEncryptionBltKey, ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], GetEncryptionBltKey method, ID3D11VideoContext::GetEncryptionBltKey, d3d11/ID3D11VideoContext::GetEncryptionBltKey, mf.id3d11videocontext_getencryptionbltkey
+ms.date: 5/3/2018
+ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey method [Media Foundation], GetEncryptionBltKey method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],GetEncryptionBltKey method, ID3D11VideoContext.GetEncryptionBltKey, ID3D11VideoContext::GetEncryptionBltKey, d3d11/ID3D11VideoContext::GetEncryptionBltKey, mf.id3d11videocontext_getencryptionbltkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::GetEncryptionBltKey method
+# ID3D11VideoContext::GetEncryptionBltKey
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.IEnumNetworkConnections.Reset
-title: IEnumNetworkConnections::Reset method
+title: IEnumNetworkConnections::Reset
 author: windows-driver-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: nla\ienumnetworkconnections_reset.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 5596f7bb-97c8-4751-92fc-1b1ce584ca49
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEnumNetworkConnections, IEnumNetworkConnections interface [Network Awareness], Reset method, IEnumNetworkConnections::Reset, Reset method [Network Awareness], Reset method [Network Awareness], IEnumNetworkConnections interface, Reset,IEnumNetworkConnections.Reset, netlistmgr/IEnumNetworkConnections::Reset, nla.ienumnetworkconnections_reset
+ms.keywords: IEnumNetworkConnections interface [Network Awareness],Reset method, IEnumNetworkConnections.Reset, IEnumNetworkConnections::Reset, Reset, Reset method [Network Awareness], Reset method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::Reset, nla.ienumnetworkconnections_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumNetworkConnections::Reset method
+# IEnumNetworkConnections::Reset
 
 
 ## -description

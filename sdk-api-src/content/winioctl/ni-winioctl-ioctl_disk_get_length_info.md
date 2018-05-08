@@ -8,7 +8,7 @@ old-project: FileIO
 ms.assetid: 8d4bd6e3-f0f3-40d6-b0ba-75155282f64a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control code [Files], _win32_ioctl_disk_get_length_info, base.ioctl_disk_get_length_info, fs.ioctl_disk_get_length_info, winioctl/IOCTL_DISK_GET_LENGTH_INFO
+ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control, IOCTL_DISK_GET_LENGTH_INFO control code [Files], _win32_ioctl_disk_get_length_info, base.ioctl_disk_get_length_info, fs.ioctl_disk_get_length_info, winioctl/IOCTL_DISK_GET_LENGTH_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

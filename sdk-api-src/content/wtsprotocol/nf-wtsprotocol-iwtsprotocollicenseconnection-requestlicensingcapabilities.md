@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLicenseConnection.RequestLicensingCapabilities
-title: IWTSProtocolLicenseConnection::RequestLicensingCapabilities method
+title: IWTSProtocolLicenseConnection::RequestLicensingCapabilities
 author: windows-driver-content
 description: IWTSProtocolLicenseConnection::RequestLicensingCapabilities is no longer available. Instead, use IWRdsProtocolLicenseConnection::RequestLicensingCapabilities.
 old-location: termserv\iwtsprotocollicenseconnection_requestlicensingcapabilities.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: ff6123f6-4d78-41d1-8093-916f01de09ef
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolLicenseConnection, IWTSProtocolLicenseConnection interface [Remote Desktop Services], RequestLicensingCapabilities method, IWTSProtocolLicenseConnection::RequestLicensingCapabilities, RequestLicensingCapabilities method [Remote Desktop Services], RequestLicensingCapabilities method [Remote Desktop Services], IWTSProtocolLicenseConnection interface, RequestLicensingCapabilities,IWTSProtocolLicenseConnection.RequestLicensingCapabilities, termserv.iwtsprotocollicenseconnection_requestlicensingcapabilities, wtsprotocol/IWTSProtocolLicenseConnection::RequestLicensingCapabilities
+ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],RequestLicensingCapabilities method, IWTSProtocolLicenseConnection.RequestLicensingCapabilities, IWTSProtocolLicenseConnection::RequestLicensingCapabilities, RequestLicensingCapabilities, RequestLicensingCapabilities method [Remote Desktop Services], RequestLicensingCapabilities method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_requestlicensingcapabilities, wtsprotocol/IWTSProtocolLicenseConnection::RequestLicensingCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolLicenseConnection::RequestLicensingCapabilities method
+# IWTSProtocolLicenseConnection::RequestLicensingCapabilities
 
 
 ## -description

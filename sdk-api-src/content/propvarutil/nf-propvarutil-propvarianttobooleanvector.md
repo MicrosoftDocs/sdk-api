@@ -7,7 +7,7 @@ old-location: properties\PropVariantToBooleanVector.htm
 old-project: properties
 ms.assetid: 93ccd129-4fa4-40f3-96f3-b87b50414b0a
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: PropVariantToBooleanVector, PropVariantToBooleanVector function [Windows Properties], _shell_PropVariantToBooleanVector, properties.PropVariantToBooleanVector, propvarutil/PropVariantToBooleanVector, shell.PropVariantToBooleanVector
 ms.prod: windows-hardware
 ms.technology: windows-devices

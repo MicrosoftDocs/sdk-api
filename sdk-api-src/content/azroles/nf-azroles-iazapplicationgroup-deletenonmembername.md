@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteNonMemberName
-title: IAzApplicationGroup::DeleteNonMemberName method
+title: IAzApplicationGroup::DeleteNonMemberName
 author: windows-driver-content
 description: Removes the specified account name from the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_deletenonmembername.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 8011e55a-1e62-45a6-a91c-07a488384d84
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplicationGroup object [Security], DeleteNonMemberName method, DeleteNonMemberName method [Security], DeleteNonMemberName method [Security], AzApplicationGroup object, DeleteNonMemberName method [Security], IAzApplicationGroup interface, DeleteNonMemberName,IAzApplicationGroup.DeleteNonMemberName, IAzApplicationGroup, IAzApplicationGroup interface [Security], DeleteNonMemberName method, IAzApplicationGroup::DeleteNonMemberName, azroles/IAzApplicationGroup::DeleteNonMemberName, security.iazapplicationgroup_deletenonmembername
+ms.keywords: AzApplicationGroup object [Security],DeleteNonMemberName method, DeleteNonMemberName, DeleteNonMemberName method [Security], DeleteNonMemberName method [Security],AzApplicationGroup object, DeleteNonMemberName method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteNonMemberName method, IAzApplicationGroup.DeleteNonMemberName, IAzApplicationGroup::DeleteNonMemberName, azroles/IAzApplicationGroup::DeleteNonMemberName, security.iazapplicationgroup_deletenonmembername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplicationGroup::DeleteNonMemberName method
+# IAzApplicationGroup::DeleteNonMemberName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetFlags
-title: IScheduledWorkItem::GetFlags method
+title: IScheduledWorkItem::GetFlags
 author: windows-driver-content
 description: Retrieves the flags that modify the behavior of any type of work item.
 old-location: taskschd\ischeduledworkitem_getflags.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 0fe3c184-2689-44de-b60f-92d31eaa5285
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetFlags method [Task Scheduler], GetFlags method [Task Scheduler], IScheduledWorkItem interface, GetFlags,IScheduledWorkItem.GetFlags, IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], GetFlags method, IScheduledWorkItem::GetFlags, _msb_ischeduledworkitem_getflags, mstask/IScheduledWorkItem::GetFlags, taskschd.ischeduledworkitem_getflags
+ms.keywords: GetFlags, GetFlags method [Task Scheduler], GetFlags method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetFlags method, IScheduledWorkItem.GetFlags, IScheduledWorkItem::GetFlags, _msb_ischeduledworkitem_getflags, mstask/IScheduledWorkItem::GetFlags, taskschd.ischeduledworkitem_getflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::GetFlags method
+# IScheduledWorkItem::GetFlags
 
 
 ## -description

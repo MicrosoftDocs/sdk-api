@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetCryptoType
-title: ID3D11CryptoSession::GetCryptoType method
+title: ID3D11CryptoSession::GetCryptoType
 author: windows-driver-content
 description: Gets the type of encryption that is supported by this session.
 old-location: mf\id3d11cryptosession_getcryptotype.htm
 old-project: medfound
 ms.assetid: D5F62BFA-EA46-4BDD-8D8C-5D9D5BB590B9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: D3D11_CRYPTO_TYPE_AES128_CTR, GetCryptoType method [Media Foundation], GetCryptoType method [Media Foundation], ID3D11CryptoSession interface, GetCryptoType,ID3D11CryptoSession.GetCryptoType, ID3D11CryptoSession, ID3D11CryptoSession interface [Media Foundation], GetCryptoType method, ID3D11CryptoSession::GetCryptoType, d3d11/ID3D11CryptoSession::GetCryptoType, mf.id3d11cryptosession_getcryptotype
+ms.date: 5/3/2018
+ms.keywords: D3D11_CRYPTO_TYPE_AES128_CTR, GetCryptoType, GetCryptoType method [Media Foundation], GetCryptoType method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCryptoType method, ID3D11CryptoSession.GetCryptoType, ID3D11CryptoSession::GetCryptoType, d3d11/ID3D11CryptoSession::GetCryptoType, mf.id3d11cryptosession_getcryptotype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11CryptoSession::GetCryptoType method
+# ID3D11CryptoSession::GetCryptoType
 
 
 ## -description

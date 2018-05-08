@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_03jo.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxAbortA, FaxAbortW, PFAXABORT, PFAXABORT callback function [Fax Service], _mfax_faxabort, fax._mfax_faxabort, winfax/FaxAbortA, winfax/FaxAbortW, winfax/PFAXABORT
+ms.keywords: FaxAbortA, FaxAbortW, PFAXABORT, PFAXABORT callback, PFAXABORT callback function [Fax Service], _mfax_faxabort, fax._mfax_faxabort, winfax/FaxAbortA, winfax/FaxAbortW, winfax/PFAXABORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFAXABORT callback
+# PFAXABORT callback function
 
 
 ## -description

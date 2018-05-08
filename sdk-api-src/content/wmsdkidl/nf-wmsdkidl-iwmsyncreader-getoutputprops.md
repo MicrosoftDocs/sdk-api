@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputProps
-title: IWMSyncReader::GetOutputProps method
+title: IWMSyncReader::GetOutputProps
 author: windows-driver-content
 description: The GetOutputProps method retrieves the current properties of an uncompressed output stream.
 old-location: wmformat\iwmsyncreader_getoutputprops.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a5e701ea-8b53-4abe-8b78-7c6fb151d80f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetOutputProps method [windows Media Format], GetOutputProps method [windows Media Format], IWMSyncReader interface, GetOutputProps,IWMSyncReader.GetOutputProps, IWMSyncReader, IWMSyncReader interface [windows Media Format], GetOutputProps method, IWMSyncReader::GetOutputProps, IWMSyncReaderGetOutputProps, wmformat.iwmsyncreader_getoutputprops, wmsdkidl/IWMSyncReader::GetOutputProps
+ms.keywords: GetOutputProps, GetOutputProps method [windows Media Format], GetOutputProps method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputProps method, IWMSyncReader.GetOutputProps, IWMSyncReader::GetOutputProps, IWMSyncReaderGetOutputProps, wmformat.iwmsyncreader_getoutputprops, wmsdkidl/IWMSyncReader::GetOutputProps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader::GetOutputProps method
+# IWMSyncReader::GetOutputProps
 
 
 ## -description

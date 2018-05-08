@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.QueryHardwareSupport
-title: IAudioEndpointVolume::QueryHardwareSupport method
+title: IAudioEndpointVolume::QueryHardwareSupport
 author: windows-driver-content
 description: The QueryHardwareSupport method queries the audio endpoint device for its hardware-supported functions.
 old-location: coreaudio\iaudioendpointvolume_queryhardwaresupport.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 20d04cff-f101-417e-912f-c87af16184db
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], QueryHardwareSupport method, IAudioEndpointVolume::QueryHardwareSupport, IAudioEndpointVolumeQueryHardwareSupport, QueryHardwareSupport method [Core Audio], QueryHardwareSupport method [Core Audio], IAudioEndpointVolume interface, QueryHardwareSupport,IAudioEndpointVolume.QueryHardwareSupport, coreaudio.iaudioendpointvolume_queryhardwaresupport, endpointvolume/IAudioEndpointVolume::QueryHardwareSupport
+ms.keywords: IAudioEndpointVolume interface [Core Audio],QueryHardwareSupport method, IAudioEndpointVolume.QueryHardwareSupport, IAudioEndpointVolume::QueryHardwareSupport, IAudioEndpointVolumeQueryHardwareSupport, QueryHardwareSupport, QueryHardwareSupport method [Core Audio], QueryHardwareSupport method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_queryhardwaresupport, endpointvolume/IAudioEndpointVolume::QueryHardwareSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAudioEndpointVolume::QueryHardwareSupport method
+# IAudioEndpointVolume::QueryHardwareSupport
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.SetAt
-title: IXpsOMImageResourceCollection::SetAt method
+title: IXpsOMImageResourceCollection::SetAt
 author: windows-driver-content
 description: Replaces an IXpsOMImageResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomimageresourcecollection_setat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f51b487e-10b0-4539-885b-f3b9af29dc28
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMImageResourceCollection, IXpsOMImageResourceCollection interface [XPS Documents and Packaging], SetAt method, IXpsOMImageResourceCollection::SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging], IXpsOMImageResourceCollection interface, SetAt,IXpsOMImageResourceCollection.SetAt, xps.ixpsomimageresourcecollection_setat, xpsobjectmodel/IXpsOMImageResourceCollection::SetAt
+ms.keywords: IXpsOMImageResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMImageResourceCollection.SetAt, IXpsOMImageResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, xps.ixpsomimageresourcecollection_setat, xpsobjectmodel/IXpsOMImageResourceCollection::SetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMImageResourceCollection::SetAt method
+# IXpsOMImageResourceCollection::SetAt
 
 
 ## -description

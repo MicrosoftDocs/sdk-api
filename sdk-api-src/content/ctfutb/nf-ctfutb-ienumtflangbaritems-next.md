@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Next
-title: IEnumTfLangBarItems::Next method
+title: IEnumTfLangBarItems::Next
 author: windows-driver-content
 description: IEnumTfLangBarItems::Next method
 old-location: tsf\ienumtflangbaritems_next.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 46e24685-581c-4c68-80df-4465e90e3e36
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfLangBarItems, IEnumTfLangBarItems interface [Text Services Framework], Next method, IEnumTfLangBarItems::Next, Next method [Text Services Framework], Next method [Text Services Framework], IEnumTfLangBarItems interface, Next,IEnumTfLangBarItems.Next, _tsf_ienumtflangbaritems_next_ref, ctfutb/IEnumTfLangBarItems::Next, tsf.ienumtflangbaritems_next
+ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Next method, IEnumTfLangBarItems.Next, IEnumTfLangBarItems::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_next_ref, ctfutb/IEnumTfLangBarItems::Next, tsf.ienumtflangbaritems_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# IEnumTfLangBarItems::Next method
+# IEnumTfLangBarItems::Next
 
 
 ## -description

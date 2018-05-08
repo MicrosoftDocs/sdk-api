@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrameEvents.OnCall
-title: ICallFrameEvents::OnCall method
+title: ICallFrameEvents::OnCall
 author: windows-driver-content
 description: Informs the event sink if it receives a method call on the interceptor. The sink is provided with an ICallFrame instance which is bound to the intercepted incoming method invocation. Through that sink the call frame can be manipulated in various ways.
 old-location: com\icallframeevents_oncall.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bdccc4a7-e408-4186-8cc0-b14feacfbf04
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICallFrameEvents, ICallFrameEvents interface [COM], OnCall method, ICallFrameEvents::OnCall, OnCall method [COM], OnCall method [COM], ICallFrameEvents interface, OnCall,ICallFrameEvents.OnCall, _com_icallframeevents_oncall, callobj/ICallFrameEvents::OnCall, com.icallframeevents_oncall
+ms.keywords: ICallFrameEvents interface [COM],OnCall method, ICallFrameEvents.OnCall, ICallFrameEvents::OnCall, OnCall, OnCall method [COM], OnCall method [COM],ICallFrameEvents interface, _com_icallframeevents_oncall, callobj/ICallFrameEvents::OnCall, com.icallframeevents_oncall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallFrameEvents::OnCall method
+# ICallFrameEvents::OnCall
 
 
 ## -description

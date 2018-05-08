@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx4.GetRootAndLogicalPrefixPaths
-title: IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths method
+title: IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths
 author: windows-driver-content
 description: Normalizes a local volume path or UNC share path so that it can be passed to the IVssBackupComponents::AddToSnapshotSet method.
 old-location: base\ivssbackupcomponentsex4_getrootandlogicalprefixpaths.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 94F942A9-909D-4A9F-9DEA-CFFCFD00C1BF
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetRootAndLogicalPrefixPaths method, GetRootAndLogicalPrefixPaths method, IVssBackupComponentsEx4 interface, GetRootAndLogicalPrefixPaths,IVssBackupComponentsEx4.GetRootAndLogicalPrefixPaths, IVssBackupComponentsEx4, IVssBackupComponentsEx4 interface, GetRootAndLogicalPrefixPaths method, IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths, base.ivssbackupcomponentsex4_getrootandlogicalprefixpaths, vsbackup/IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths
+ms.keywords: GetRootAndLogicalPrefixPaths, GetRootAndLogicalPrefixPaths method, GetRootAndLogicalPrefixPaths method,IVssBackupComponentsEx4 interface, IVssBackupComponentsEx4 interface,GetRootAndLogicalPrefixPaths method, IVssBackupComponentsEx4.GetRootAndLogicalPrefixPaths, IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths, base.ivssbackupcomponentsex4_getrootandlogicalprefixpaths, vsbackup/IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths method
+# IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRules.Item
-title: INetFwRules::Item method
+title: INetFwRules::Item
 author: windows-driver-content
 description: The Item method returns the specified rule if it is in the collection.
 old-location: ics\inetfwrules_item.htm
 old-project: ICS
 ms.assetid: 91c5a93b-7408-4870-a2c0-167648d849cd
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRules, INetFwRules interface [ICS/ICF], Item method, INetFwRules::Item, Item method [ICS/ICF], Item method [ICS/ICF], INetFwRules interface, Item,INetFwRules.Item, ics.inetfwrules_item, netfw/INetFwRules::Item
+ms.date: 5/1/2018
+ms.keywords: INetFwRules interface [ICS/ICF],Item method, INetFwRules.Item, INetFwRules::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwRules interface, ics.inetfwrules_item, netfw/INetFwRules::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRules::Item method
+# INetFwRules::Item
 
 
 ## -description

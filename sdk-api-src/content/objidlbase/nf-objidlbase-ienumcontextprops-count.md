@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IEnumContextProps.Count
-title: IEnumContextProps::Count method
+title: IEnumContextProps::Count
 author: windows-driver-content
 description: Retrieves the number of context properties in the context.
 old-location: com\ienumcontextprops_count.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ad3194f7-0df4-4f26-8a98-2715188fb63f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Count method [COM], Count method [COM], IEnumContextProps interface, Count,IEnumContextProps.Count, IEnumContextProps, IEnumContextProps interface [COM], Count method, IEnumContextProps::Count, _com_ienumcontextprops_count, com.ienumcontextprops_count, objidlbase/IEnumContextProps::Count
+ms.keywords: Count, Count method [COM], Count method [COM],IEnumContextProps interface, IEnumContextProps interface [COM],Count method, IEnumContextProps.Count, IEnumContextProps::Count, _com_ienumcontextprops_count, com.ienumcontextprops_count, objidlbase/IEnumContextProps::Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumContextProps::Count method
+# IEnumContextProps::Count
 
 
 ## -description

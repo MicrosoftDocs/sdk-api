@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetNodeInterfaces
-title: IBDA_Topology::GetNodeInterfaces method
+title: IBDA_Topology::GetNodeInterfaces
 author: windows-driver-content
 description: The GetNodeInterfaces method retrieves a list of the interfaces supported by a node type.
 old-location: mstv\ibda_topology_getnodeinterfaces.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c3dc4b38-933c-4aeb-b6eb-7273ce334ba2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetNodeInterfaces method [Microsoft TV Technologies], GetNodeInterfaces method [Microsoft TV Technologies], IBDA_Topology interface, GetNodeInterfaces,IBDA_Topology.GetNodeInterfaces, IBDA_Topology, IBDA_Topology interface [Microsoft TV Technologies], GetNodeInterfaces method, IBDA_Topology::GetNodeInterfaces, IBDA_TopologyGetNodeInterfaces, bdaiface/IBDA_Topology::GetNodeInterfaces, mstv.ibda_topology_getnodeinterfaces
+ms.keywords: GetNodeInterfaces, GetNodeInterfaces method [Microsoft TV Technologies], GetNodeInterfaces method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetNodeInterfaces method, IBDA_Topology.GetNodeInterfaces, IBDA_Topology::GetNodeInterfaces, IBDA_TopologyGetNodeInterfaces, bdaiface/IBDA_Topology::GetNodeInterfaces, mstv.ibda_topology_getnodeinterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_Topology::GetNodeInterfaces method
+# IBDA_Topology::GetNodeInterfaces
 
 
 ## -description

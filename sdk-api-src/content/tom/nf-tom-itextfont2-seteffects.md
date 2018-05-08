@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.SetEffects
-title: ITextFont2::SetEffects method
+title: ITextFont2::SetEffects
 author: windows-driver-content
 description: Sets the character format effects.
 old-location: controls\itextfont2_seteffects.htm
 old-project: Controls
 ms.assetid: edfc882e-6f76-498f-ae3f-4978ea728d1b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetEffects method, ITextFont2::SetEffects, SetEffects method [Windows Controls], SetEffects method [Windows Controls], ITextFont2 interface, SetEffects,ITextFont2.SetEffects, controls.itextfont2_seteffects, tom/ITextFont2::SetEffects, tomAllCaps, tomBold, tomDisabled, tomEmboss, tomHidden, tomImprint, tomInlineObjectStart, tomItalic, tomLink, tomLinkProtected, tomMathZone, tomMathZoneDisplay, tomMathZoneNoBuildUp, tomMathZoneOrdinary, tomOutline, tomProtected, tomRevised, tomShadow, tomSmallCaps, tomStrikeout, tomUnderline
+ms.date: 4/27/2018
+ms.keywords: ITextFont2 interface [Windows Controls],SetEffects method, ITextFont2.SetEffects, ITextFont2::SetEffects, SetEffects, SetEffects method [Windows Controls], SetEffects method [Windows Controls],ITextFont2 interface, controls.itextfont2_seteffects, tom/ITextFont2::SetEffects, tomAllCaps, tomBold, tomDisabled, tomEmboss, tomHidden, tomImprint, tomInlineObjectStart, tomItalic, tomLink, tomLinkProtected, tomMathZone, tomMathZoneDisplay, tomMathZoneNoBuildUp, tomMathZoneOrdinary, tomOutline, tomProtected, tomRevised, tomShadow, tomSmallCaps, tomStrikeout, tomUnderline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::SetEffects method
+# ITextFont2::SetEffects
 
 
 ## -description

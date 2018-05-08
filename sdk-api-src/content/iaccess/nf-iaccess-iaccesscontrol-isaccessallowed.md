@@ -1,6 +1,6 @@
 ---
 UID: NF:iaccess.IAccessControl.IsAccessAllowed
-title: IAccessControl::IsAccessAllowed method
+title: IAccessControl::IsAccessAllowed
 author: windows-driver-content
 description: Determines whether the specified trustee has access rights to the object or property.
 old-location: com\iaccesscontrol_isaccessallowed.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ee9e7e2d-caec-443c-937d-b8fc64130ad4
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAccessControl, IAccessControl interface [COM], IsAccessAllowed method, IAccessControl::IsAccessAllowed, IsAccessAllowed method [COM], IsAccessAllowed method [COM], IAccessControl interface, IsAccessAllowed,IAccessControl.IsAccessAllowed, _com_iaccesscontrol_isaccessallowed, com.iaccesscontrol_isaccessallowed, iaccess/IAccessControl::IsAccessAllowed
+ms.keywords: IAccessControl interface [COM],IsAccessAllowed method, IAccessControl.IsAccessAllowed, IAccessControl::IsAccessAllowed, IsAccessAllowed, IsAccessAllowed method [COM], IsAccessAllowed method [COM],IAccessControl interface, _com_iaccesscontrol_isaccessallowed, com.iaccesscontrol_isaccessallowed, iaccess/IAccessControl::IsAccessAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAccessControl::IsAccessAllowed method
+# IAccessControl::IsAccessAllowed
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll2.SetHStoreRequest
-title: IEnroll2::SetHStoreRequest method
+title: IEnroll2::SetHStoreRequest
 author: windows-driver-content
 description: The SetHStoreRequest method specifies the handle to use for the request store. This method was first defined in the IEnroll2 interface.
 old-location: security\ienroll4_sethstorerequest.htm
 old-project: SecCrypto
 ms.assetid: 7424d94f-8f81-432a-b003-a1c30fcc70ae
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll2, IEnroll2 interface [Security], SetHStoreRequest method, IEnroll2::SetHStoreRequest, SetHStoreRequest method [Security], SetHStoreRequest method [Security], IEnroll2 interface, SetHStoreRequest,IEnroll2.SetHStoreRequest, security.ienroll4_sethstorerequest, xenroll/IEnroll2::SetHStoreRequest
+ms.date: 4/30/2018
+ms.keywords: IEnroll2 interface [Security],SetHStoreRequest method, IEnroll2.SetHStoreRequest, IEnroll2::SetHStoreRequest, SetHStoreRequest, SetHStoreRequest method [Security], SetHStoreRequest method [Security],IEnroll2 interface, security.ienroll4_sethstorerequest, xenroll/IEnroll2::SetHStoreRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll2::SetHStoreRequest method
+# IEnroll2::SetHStoreRequest
 
 
 ## -description

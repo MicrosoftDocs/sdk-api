@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRules.get_Count
-title: IFaxOutboundRoutingRules::get_Count method
+title: IFaxOutboundRoutingRules::get_Count
 author: windows-driver-content
 description: The Count property represents the number of objects in the FaxOutboundRoutingRules collection. This is the total number of outbound routing rules associated with the fax server.
 old-location: fax\_mfax_faxoutboundroutingrules_count_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qyc.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service], FaxOutboundRoutingRules object, FaxOutboundRoutingRules object [Fax Service], Count property, IFaxOutboundRoutingRules, IFaxOutboundRoutingRules::get_Count, _mfax_faxoutboundroutingrules.count, fax._mfax_faxoutboundroutingrules_count, fax._mfax_faxoutboundroutingrules_count_vb, get_Count,IFaxOutboundRoutingRules.get_Count
+ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxOutboundRoutingRules object, FaxOutboundRoutingRules object [Fax Service],Count property, FaxOutboundRoutingRules.Count, IFaxOutboundRoutingRules.get_Count, IFaxOutboundRoutingRules::get_Count, _mfax_faxoutboundroutingrules.count, fax._mfax_faxoutboundroutingrules_count, fax._mfax_faxoutboundroutingrules_count_vb, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutboundRoutingRules::get_Count method
+# IFaxOutboundRoutingRules::get_Count
 
 
 ## -description

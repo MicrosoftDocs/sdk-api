@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.GetSmsConfiguration
-title: IMbnSms::GetSmsConfiguration method
+title: IMbnSms::GetSmsConfiguration
 author: windows-driver-content
 description: Gets the SMS configuration of a device.
 old-location: mbn\imbnsms_getsmsconfiguration.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: b868bb6f-3ac0-4d77-82dd-b9bc94882a8b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSmsConfiguration method [Microsoft Broadband Networks], GetSmsConfiguration method [Microsoft Broadband Networks], IMbnSms interface, GetSmsConfiguration,IMbnSms.GetSmsConfiguration, IMbnSms, IMbnSms interface [Microsoft Broadband Networks], GetSmsConfiguration method, IMbnSms::GetSmsConfiguration, mbn.imbnsms_getsmsconfiguration, mbnapi/IMbnSms::GetSmsConfiguration
+ms.keywords: GetSmsConfiguration, GetSmsConfiguration method [Microsoft Broadband Networks], GetSmsConfiguration method [Microsoft Broadband Networks],IMbnSms interface, IMbnSms interface [Microsoft Broadband Networks],GetSmsConfiguration method, IMbnSms.GetSmsConfiguration, IMbnSms::GetSmsConfiguration, mbn.imbnsms_getsmsconfiguration, mbnapi/IMbnSms::GetSmsConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSms::GetSmsConfiguration method
+# IMbnSms::GetSmsConfiguration
 
 
 ## -description

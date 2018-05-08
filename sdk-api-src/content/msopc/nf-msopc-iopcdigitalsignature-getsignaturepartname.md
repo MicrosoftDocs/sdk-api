@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignaturePartName
-title: IOpcDigitalSignature::GetSignaturePartName method
+title: IOpcDigitalSignature::GetSignaturePartName
 author: windows-driver-content
 description: Gets the part name of the part that contains the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturepartname.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 0a7f9413-d44d-4d3d-bb4e-01ef14ee7a1c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignaturePartName method [Open Packaging Conventions], GetSignaturePartName method [Open Packaging Conventions], IOpcDigitalSignature interface, GetSignaturePartName,IOpcDigitalSignature.GetSignaturePartName, IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], GetSignaturePartName method, IOpcDigitalSignature::GetSignaturePartName, msopc/IOpcDigitalSignature::GetSignaturePartName, opc.iopcdigitalsignature_getsignaturepartname
+ms.keywords: GetSignaturePartName, GetSignaturePartName method [Open Packaging Conventions], GetSignaturePartName method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignaturePartName method, IOpcDigitalSignature.GetSignaturePartName, IOpcDigitalSignature::GetSignaturePartName, msopc/IOpcDigitalSignature::GetSignaturePartName, opc.iopcdigitalsignature_getsignaturepartname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignature::GetSignaturePartName method
+# IOpcDigitalSignature::GetSignaturePartName
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: properties\IPropertyEnumType.htm
 old-project: properties
 ms.assetid: 05ae6763-a3e1-461d-af90-08bddbe82300
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: IPropertyEnumType, IPropertyEnumType interface [Windows Properties], IPropertyEnumType interface [Windows Properties], described, _shell_IPropertyEnumType, properties.IPropertyEnumType, propsys/IPropertyEnumType, shell.IPropertyEnumType
+ms.date: 4/27/2018
+ms.keywords: IPropertyEnumType, IPropertyEnumType interface [Windows Properties], IPropertyEnumType interface [Windows Properties],described, _shell_IPropertyEnumType, properties.IPropertyEnumType, propsys/IPropertyEnumType, shell.IPropertyEnumType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

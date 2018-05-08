@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.AddObjectByTemplate
-title: IWbemConfigureRefresher::AddObjectByTemplate method
+title: IWbemConfigureRefresher::AddObjectByTemplate
 author: windows-driver-content
 description: With the IWbemConfigureRefresher::AddObjectByTemplate method, you can add an object you want refreshed to a refresher by specifying an IWbemClassObject instance template.
 old-location: wmi\iwbemconfigurerefresher_addobjectbytemplate.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: c3f25484-7c6c-4625-9d26-1c01d15b10c4
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: AddObjectByTemplate method [Windows Management Instrumentation], AddObjectByTemplate method [Windows Management Instrumentation], IWbemConfigureRefresher interface, AddObjectByTemplate,IWbemConfigureRefresher.AddObjectByTemplate, IWbemConfigureRefresher, IWbemConfigureRefresher interface [Windows Management Instrumentation], AddObjectByTemplate method, IWbemConfigureRefresher::AddObjectByTemplate, _hmm_iwbemconfigurerefresher_addobjectbytemplate, wbemcli/IWbemConfigureRefresher::AddObjectByTemplate, wmi.iwbemconfigurerefresher_addobjectbytemplate
+ms.keywords: AddObjectByTemplate, AddObjectByTemplate method [Windows Management Instrumentation], AddObjectByTemplate method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddObjectByTemplate method, IWbemConfigureRefresher.AddObjectByTemplate, IWbemConfigureRefresher::AddObjectByTemplate, _hmm_iwbemconfigurerefresher_addobjectbytemplate, wbemcli/IWbemConfigureRefresher::AddObjectByTemplate, wmi.iwbemconfigurerefresher_addobjectbytemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemConfigureRefresher::AddObjectByTemplate method
+# IWbemConfigureRefresher::AddObjectByTemplate
 
 
 ## -description

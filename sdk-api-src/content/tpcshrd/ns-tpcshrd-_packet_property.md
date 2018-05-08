@@ -7,7 +7,7 @@ old-location: tablet\packet_property.htm
 old-project: tablet
 ms.assetid: c1bd6240-7f95-421c-8622-0d7b98182d7c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/2/2018
 ms.keywords: "*PPACKET_PROPERTY, PACKET_PROPERTY, PACKET_PROPERTY structure [Tablet PC], PPACKET_PROPERTY, PPACKET_PROPERTY structure pointer [Tablet PC], _PACKET_PROPERTY, c1bd6240-7f95-421c-8622-0d7b98182d7c, tablet.packet_property, tpcshrd/PACKET_PROPERTY, tpcshrd/PPACKET_PROPERTY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: PACKET_PROPERTY, *PPACKET_PROPERTY, PACKET_PROPERTY, *PPACKET_PROPERTY
+req.typenames: PACKET_PROPERTY, *PPACKET_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax

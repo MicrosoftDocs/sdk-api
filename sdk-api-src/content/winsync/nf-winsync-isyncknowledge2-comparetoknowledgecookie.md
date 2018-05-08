@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.CompareToKnowledgeCookie
-title: ISyncKnowledge2::CompareToKnowledgeCookie method
+title: ISyncKnowledge2::CompareToKnowledgeCookie
 author: windows-driver-content
 description: Performs a fast comparison between the specified knowledge cookie and this knowledge object.
 old-location: winsync\isyncknowledge2_comparetoknowledgecookie.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: f1649f70-8c8b-4eea-8ecb-7ea5a657eabe
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CompareToKnowledgeCookie method [Windows Sync], CompareToKnowledgeCookie method [Windows Sync], ISyncKnowledge2 interface, CompareToKnowledgeCookie,ISyncKnowledge2.CompareToKnowledgeCookie, ISyncKnowledge2, ISyncKnowledge2 interface [Windows Sync], CompareToKnowledgeCookie method, ISyncKnowledge2::CompareToKnowledgeCookie, winsync.isyncknowledge2_comparetoknowledgecookie, winsync/ISyncKnowledge2::CompareToKnowledgeCookie
+ms.keywords: CompareToKnowledgeCookie, CompareToKnowledgeCookie method [Windows Sync], CompareToKnowledgeCookie method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],CompareToKnowledgeCookie method, ISyncKnowledge2.CompareToKnowledgeCookie, ISyncKnowledge2::CompareToKnowledgeCookie, winsync.isyncknowledge2_comparetoknowledgecookie, winsync/ISyncKnowledge2::CompareToKnowledgeCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge2::CompareToKnowledgeCookie method
+# ISyncKnowledge2::CompareToKnowledgeCookie
 
 
 ## -description

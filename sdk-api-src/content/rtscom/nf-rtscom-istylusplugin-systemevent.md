@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IStylusPlugin.SystemEvent
-title: IStylusPlugin::SystemEvent method
+title: IStylusPlugin::SystemEvent
 author: windows-driver-content
 description: Notifies the implementing plug-in that a system event is available.
 old-location: tablet\istylusplugin_systemevent.htm
 old-project: tablet
 ms.assetid: 7cdba29e-0599-45f7-8853-3e8fa29897e8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 7cdba29e-0599-45f7-8853-3e8fa29897e8, IStylusPlugin, IStylusPlugin interface [Tablet PC], SystemEvent method, IStylusPlugin::SystemEvent, SystemEvent method [Tablet PC], SystemEvent method [Tablet PC], IStylusPlugin interface, SystemEvent,IStylusPlugin.SystemEvent, rtscom/IStylusPlugin::SystemEvent, tablet.istylusplugin_systemevent
+ms.date: 5/2/2018
+ms.keywords: 7cdba29e-0599-45f7-8853-3e8fa29897e8, IStylusPlugin interface [Tablet PC],SystemEvent method, IStylusPlugin.SystemEvent, IStylusPlugin::SystemEvent, SystemEvent, SystemEvent method [Tablet PC], SystemEvent method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::SystemEvent, tablet.istylusplugin_systemevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStylusPlugin::SystemEvent method
+# IStylusPlugin::SystemEvent
 
 
 ## -description

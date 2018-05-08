@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageDataFactory.CreateImageFromFile
-title: IShellImageDataFactory::CreateImageFromFile method
+title: IShellImageDataFactory::CreateImageFromFile
 author: windows-driver-content
 description: Creates an instance of the IShellImageData interface based on a given file.
 old-location: shell\IShellImageDataFactory_CreateImageFromFile.htm
 old-project: shell
 ms.assetid: 9d33f9ad-30ce-431c-aec3-c27a33cec008
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CreateImageFromFile method [Windows Shell], CreateImageFromFile method [Windows Shell], IShellImageDataFactory interface, CreateImageFromFile,IShellImageDataFactory.CreateImageFromFile, IShellImageDataFactory, IShellImageDataFactory interface [Windows Shell], CreateImageFromFile method, IShellImageDataFactory::CreateImageFromFile, _shell_IShellImageDataFactory_CreateImageFromFile, shell.IShellImageDataFactory_CreateImageFromFile, shimgdata/IShellImageDataFactory::CreateImageFromFile
+ms.date: 5/3/2018
+ms.keywords: CreateImageFromFile, CreateImageFromFile method [Windows Shell], CreateImageFromFile method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateImageFromFile method, IShellImageDataFactory.CreateImageFromFile, IShellImageDataFactory::CreateImageFromFile, _shell_IShellImageDataFactory_CreateImageFromFile, shell.IShellImageDataFactory_CreateImageFromFile, shimgdata/IShellImageDataFactory::CreateImageFromFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageDataFactory::CreateImageFromFile method
+# IShellImageDataFactory::CreateImageFromFile
 
 
 ## -description

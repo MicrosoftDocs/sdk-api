@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IAVIEditStream.Copy
-title: IAVIEditStream::Copy method
+title: IAVIEditStream::Copy
 author: windows-driver-content
 description: The Copy method copies a stream or a portion of it to a temporary stream. Called when an application uses the EditStreamCopy function.
 old-location: multimedia\iavieditstream_copy.htm
 old-project: Multimedia
 ms.assetid: d2012d04-4fe5-4a49-8160-d27b7bc1bfc8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: Copy method [Windows Multimedia], Copy method [Windows Multimedia], IAVIEditStream interface, Copy,IAVIEditStream.Copy, IAVIEditStream, IAVIEditStream interface [Windows Multimedia], Copy method, IAVIEditStream::Copy, _win32_IAVIEditStream_Copy, multimedia.iavieditstream_copy, vfw/IAVIEditStream::Copy
+ms.date: 5/4/2018
+ms.keywords: Copy, Copy method [Windows Multimedia], Copy method [Windows Multimedia],IAVIEditStream interface, IAVIEditStream interface [Windows Multimedia],Copy method, IAVIEditStream.Copy, IAVIEditStream::Copy, _win32_IAVIEditStream_Copy, multimedia.iavieditstream_copy, vfw/IAVIEditStream::Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAVIEditStream::Copy method
+# IAVIEditStream::Copy
 
 
 ## -description

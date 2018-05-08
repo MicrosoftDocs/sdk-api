@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponent.get_Type
-title: IComponent::get_Type method
+title: IComponent::get_Type
 author: windows-driver-content
 description: The get_Type method retrieves an IComponentType interface describing the general characteristics of the component.
 old-location: mstv\icomponent_get_type.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 19eb345f-24a2-4522-87cc-fc4953faf343
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IComponent, IComponent interface [Microsoft TV Technologies], get_Type method, IComponent::get_Type, IComponentget_Type, get_Type method [Microsoft TV Technologies], get_Type method [Microsoft TV Technologies], IComponent interface, get_Type,IComponent.get_Type, mstv.icomponent_get_type, tuner/IComponent::get_Type
+ms.keywords: IComponent interface [Microsoft TV Technologies],get_Type method, IComponent.get_Type, IComponent::get_Type, IComponentget_Type, get_Type, get_Type method [Microsoft TV Technologies], get_Type method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_type, tuner/IComponent::get_Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IComponent::get_Type method
+# IComponent::get_Type
 
 
 ## -description

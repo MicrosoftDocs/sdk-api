@@ -1,6 +1,6 @@
 ---
 UID: NF:ddkernel.IDirectDrawKernel.GetCaps
-title: IDirectDrawKernel::GetCaps method
+title: IDirectDrawKernel::GetCaps
 author: windows-driver-content
 description: The IDirectDrawKernel::GetCaps method returns the capabilities of this kernel-mode device.
 old-location: display\idirectdrawkernel_getcaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c97ebe38-d62c-4ce8-8530-193dd83ef3d4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCaps method [Display Devices], GetCaps method [Display Devices], IDirectDrawKernel interface, GetCaps,IDirectDrawKernel.GetCaps, IDirectDrawKernel, IDirectDrawKernel interface [Display Devices], GetCaps method, IDirectDrawKernel::GetCaps, ddfncs_52bda933-e948-4942-b52b-c0a42440c1fb.xml, ddkernel/IDirectDrawKernel::GetCaps, display.idirectdrawkernel_getcaps
+ms.keywords: GetCaps, GetCaps method [Display Devices], GetCaps method [Display Devices],IDirectDrawKernel interface, IDirectDrawKernel interface [Display Devices],GetCaps method, IDirectDrawKernel.GetCaps, IDirectDrawKernel::GetCaps, ddfncs_52bda933-e948-4942-b52b-c0a42440c1fb.xml, ddkernel/IDirectDrawKernel::GetCaps, display.idirectdrawkernel_getcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawKernel::GetCaps method
+# IDirectDrawKernel::GetCaps
 
 
 ## -description

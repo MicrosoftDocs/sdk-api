@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPNodeRealEstateHost.OnDesiredSizeChange
-title: IWMPNodeRealEstateHost::OnDesiredSizeChange method
+title: IWMPNodeRealEstateHost::OnDesiredSizeChange
 author: windows-driver-content
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
 old-location: wmp\iwmpnoderealestatehost_ondesiredsizechange.htm
 old-project: WMP
 ms.assetid: 339bfed3-8688-4474-a280-f1b0a5a5c597
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNodeRealEstateHost, IWMPNodeRealEstateHost interface [Windows Media Player], OnDesiredSizeChange method, IWMPNodeRealEstateHost::OnDesiredSizeChange, IWMPNodeRealEstateHostOnDesiredSizeChangeRendering, OnDesiredSizeChange method [Windows Media Player], OnDesiredSizeChange method [Windows Media Player], IWMPNodeRealEstateHost interface, OnDesiredSizeChange,IWMPNodeRealEstateHost.OnDesiredSizeChange, wmp.iwmpnoderealestatehost_ondesiredsizechange, wmprealestate/IWMPNodeRealEstateHost::OnDesiredSizeChange
+ms.date: 5/2/2018
+ms.keywords: IWMPNodeRealEstateHost interface [Windows Media Player],OnDesiredSizeChange method, IWMPNodeRealEstateHost.OnDesiredSizeChange, IWMPNodeRealEstateHost::OnDesiredSizeChange, IWMPNodeRealEstateHostOnDesiredSizeChangeRendering, OnDesiredSizeChange, OnDesiredSizeChange method [Windows Media Player], OnDesiredSizeChange method [Windows Media Player],IWMPNodeRealEstateHost interface, wmp.iwmpnoderealestatehost_ondesiredsizechange, wmprealestate/IWMPNodeRealEstateHost::OnDesiredSizeChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNodeRealEstateHost::OnDesiredSizeChange method
+# IWMPNodeRealEstateHost::OnDesiredSizeChange
 
 
 ## -description

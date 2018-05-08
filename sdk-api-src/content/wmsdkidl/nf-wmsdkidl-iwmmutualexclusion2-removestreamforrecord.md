@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.RemoveStreamForRecord
-title: IWMMutualExclusion2::RemoveStreamForRecord method
+title: IWMMutualExclusion2::RemoveStreamForRecord
 author: windows-driver-content
 description: The RemoveStreamForRecord method removes a stream from a record's list.
 old-location: wmformat\iwmmutualexclusion2_removestreamforrecord.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a32d78b7-47a3-45b6-9575-c290adf86094
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media Format], RemoveStreamForRecord method, IWMMutualExclusion2::RemoveStreamForRecord, IWMMutualExclusion2RemoveStreamForRecord, RemoveStreamForRecord method [windows Media Format], RemoveStreamForRecord method [windows Media Format], IWMMutualExclusion2 interface, RemoveStreamForRecord,IWMMutualExclusion2.RemoveStreamForRecord, wmformat.iwmmutualexclusion2_removestreamforrecord, wmsdkidl/IWMMutualExclusion2::RemoveStreamForRecord
+ms.keywords: IWMMutualExclusion2 interface [windows Media Format],RemoveStreamForRecord method, IWMMutualExclusion2.RemoveStreamForRecord, IWMMutualExclusion2::RemoveStreamForRecord, IWMMutualExclusion2RemoveStreamForRecord, RemoveStreamForRecord, RemoveStreamForRecord method [windows Media Format], RemoveStreamForRecord method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_removestreamforrecord, wmsdkidl/IWMMutualExclusion2::RemoveStreamForRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMMutualExclusion2::RemoveStreamForRecord method
+# IWMMutualExclusion2::RemoveStreamForRecord
 
 
 ## -description

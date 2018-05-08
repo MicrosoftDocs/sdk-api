@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchManager.GetIndexerVersion
-title: ISearchManager::GetIndexerVersion method
+title: ISearchManager::GetIndexerVersion
 author: windows-driver-content
 description: Retrieves the version of the current indexer in two chunks:\_the major version signifier and the minor version signifier.
 old-location: search\_search_ISearchManager_GetIndexerVersion.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getindexerversion.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetIndexerVersion method [search], GetIndexerVersion method [search], ISearchManager interface, GetIndexerVersion,ISearchManager.GetIndexerVersion, ISearchManager, ISearchManager interface [search], GetIndexerVersion method, ISearchManager::GetIndexerVersion, _search_ISearchManager_GetIndexerVersion, search._search_ISearchManager_GetIndexerVersion, searchapi/ISearchManager::GetIndexerVersion
+ms.date: 5/4/2018
+ms.keywords: GetIndexerVersion, GetIndexerVersion method [search], GetIndexerVersion method [search],ISearchManager interface, ISearchManager interface [search],GetIndexerVersion method, ISearchManager.GetIndexerVersion, ISearchManager::GetIndexerVersion, _search_ISearchManager_GetIndexerVersion, search._search_ISearchManager_GetIndexerVersion, searchapi/ISearchManager::GetIndexerVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchManager::GetIndexerVersion method
+# ISearchManager::GetIndexerVersion
 
 
 ## -description

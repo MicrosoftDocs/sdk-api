@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.ModifyThreshold
-title: IFsrmQuotaBase::ModifyThreshold method
+title: IFsrmQuotaBase::ModifyThreshold
 author: windows-driver-content
 description: Changes the threshold value.
 old-location: fsrm\ifsrmquotabase_modifythreshold.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 46cda78a-7c1d-42e0-abff-3be9c13925f5
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmQuotaBase, IFsrmQuotaBase interface [File Server Resource Manager], ModifyThreshold method, IFsrmQuotaBase::ModifyThreshold, ModifyThreshold method [File Server Resource Manager], ModifyThreshold method [File Server Resource Manager], IFsrmQuotaBase interface, ModifyThreshold,IFsrmQuotaBase.ModifyThreshold, fs.ifsrmquotabase_modifythreshold, fsrm.ifsrmquotabase_modifythreshold, fsrmquota/IFsrmQuotaBase::ModifyThreshold
+ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],ModifyThreshold method, IFsrmQuotaBase.ModifyThreshold, IFsrmQuotaBase::ModifyThreshold, ModifyThreshold, ModifyThreshold method [File Server Resource Manager], ModifyThreshold method [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_modifythreshold, fsrm.ifsrmquotabase_modifythreshold, fsrmquota/IFsrmQuotaBase::ModifyThreshold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaBase::ModifyThreshold method
+# IFsrmQuotaBase::ModifyThreshold
 
 
 ## -description

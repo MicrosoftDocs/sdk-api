@@ -7,7 +7,7 @@ old-location: mf\mf_media_engine_canplay.htm
 old-project: medfound
 ms.assetid: AABABB09-D45F-474C-B692-DC3592ED164F
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MF_MEDIA_ENGINE_CANPLAY, MF_MEDIA_ENGINE_CANPLAY enumeration [Media Foundation], MF_MEDIA_ENGINE_CANPLAY_MAYBE, MF_MEDIA_ENGINE_CANPLAY_NOT_SUPPORTED, MF_MEDIA_ENGINE_CANPLAY_PROBABLY, mf.mf_media_engine_canplay, mfmediaengine/MF_MEDIA_ENGINE_CANPLAY, mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_MAYBE, mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_NOT_SUPPORTED, mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_PROBABLY
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:objsel.IDsObjectPicker.Initialize
-title: IDsObjectPicker::Initialize method
+title: IDsObjectPicker::Initialize
 author: windows-driver-content
 description: The IDsObjectPicker::Initialize method initializes the object picker dialog box with data about the scopes, filters, and options used by the object picker dialog box.
 old-location: ad\idsobjectpicker_initialize.htm
 old-project: AD
 ms.assetid: bcf4d283-6709-4425-a122-8f0808502b58
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: IDsObjectPicker, IDsObjectPicker interface [Active Directory], Initialize method, IDsObjectPicker::Initialize, Initialize method [Active Directory], Initialize method [Active Directory], IDsObjectPicker interface, Initialize,IDsObjectPicker.Initialize, _glines_idsobjectpicker_initialize, ad.idsobjectpicker__initialize, ad.idsobjectpicker_initialize, objsel/IDsObjectPicker::Initialize
+ms.date: 5/1/2018
+ms.keywords: IDsObjectPicker interface [Active Directory],Initialize method, IDsObjectPicker.Initialize, IDsObjectPicker::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsObjectPicker interface, _glines_idsobjectpicker_initialize, ad.idsobjectpicker__initialize, ad.idsobjectpicker_initialize, objsel/IDsObjectPicker::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDsObjectPicker::Initialize method
+# IDsObjectPicker::Initialize
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:vpnotify.IVPBaseNotify.RenegotiateVPParameters
-title: IVPBaseNotify::RenegotiateVPParameters method
+title: IVPBaseNotify::RenegotiateVPParameters
 author: windows-driver-content
 description: The RenegotiateVPParameters method initializes the connection to the decoder.
 old-location: dshow\ivpbasenotify_renegotiatevpparameters.htm
 old-project: DirectShow
 ms.assetid: b35a0e8f-3d4f-443d-b76c-83b44745a86d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVPBaseNotify, IVPBaseNotify interface [DirectShow], RenegotiateVPParameters method, IVPBaseNotify::RenegotiateVPParameters, IVPBaseNotifyRenegotiateVPParameters, RenegotiateVPParameters method [DirectShow], RenegotiateVPParameters method [DirectShow], IVPBaseNotify interface, RenegotiateVPParameters,IVPBaseNotify.RenegotiateVPParameters, dshow.ivpbasenotify_renegotiatevpparameters, vpnotify/IVPBaseNotify::RenegotiateVPParameters
+ms.date: 4/30/2018
+ms.keywords: IVPBaseNotify interface [DirectShow],RenegotiateVPParameters method, IVPBaseNotify.RenegotiateVPParameters, IVPBaseNotify::RenegotiateVPParameters, IVPBaseNotifyRenegotiateVPParameters, RenegotiateVPParameters, RenegotiateVPParameters method [DirectShow], RenegotiateVPParameters method [DirectShow],IVPBaseNotify interface, dshow.ivpbasenotify_renegotiatevpparameters, vpnotify/IVPBaseNotify::RenegotiateVPParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVPBaseNotify::RenegotiateVPParameters method
+# IVPBaseNotify::RenegotiateVPParameters
 
 
 ## -description

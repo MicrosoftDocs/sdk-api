@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.ValidateQueryFlags
-title: Provider::ValidateQueryFlags method
+title: Provider::ValidateQueryFlags
 author: windows-driver-content
 description: The ValidateQueryFlags method determines whether a set of flags is valid for a query operation.
 old-location: wmi\provider_validatequeryflags.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: b35e6f2f-7d40-4b9b-833d-63efafd06a20
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?ValidateQueryFlags@Provider@@MAEJJ@Z, ?ValidateQueryFlags@Provider@@MEAAJJ@Z, Provider, Provider interface [Windows Management Instrumentation], ValidateQueryFlags method, Provider::ValidateQueryFlags, ValidateQueryFlags method [Windows Management Instrumentation], ValidateQueryFlags method [Windows Management Instrumentation], Provider interface, ValidateQueryFlags,Provider.ValidateQueryFlags, _hmm_provider_validatequeryflags, provider/Provider::ValidateQueryFlags, wmi.provider_validatequeryflags"
+ms.keywords: "?ValidateQueryFlags@Provider@@MAEJJ@Z, ?ValidateQueryFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateQueryFlags method, Provider.ValidateQueryFlags, Provider::ValidateQueryFlags, ValidateQueryFlags, ValidateQueryFlags method [Windows Management Instrumentation], ValidateQueryFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validatequeryflags, provider/Provider::ValidateQueryFlags, wmi.provider_validatequeryflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# Provider::ValidateQueryFlags method
+# Provider::ValidateQueryFlags
 
 
 ## -description

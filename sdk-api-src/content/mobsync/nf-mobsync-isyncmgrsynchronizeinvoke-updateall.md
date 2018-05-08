@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeInvoke.UpdateAll
-title: ISyncMgrSynchronizeInvoke::UpdateAll method
+title: ISyncMgrSynchronizeInvoke::UpdateAll
 author: windows-driver-content
 description: Programmatically starts an update for all items.
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateall.htm
 old-project: shell
 ms.assetid: 94731c78-b7cf-4ad2-afe5-6355830a5550
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSynchronizeInvoke, ISyncMgrSynchronizeInvoke interface [Windows Shell], UpdateAll method, ISyncMgrSynchronizeInvoke::UpdateAll, UpdateAll method [Windows Shell], UpdateAll method [Windows Shell], ISyncMgrSynchronizeInvoke interface, UpdateAll,ISyncMgrSynchronizeInvoke.UpdateAll, mobsync/ISyncMgrSynchronizeInvoke::UpdateAll, shell.syncmgr_isyncmgrsynchronizeinvoke_updateall, syncmgr.isyncmgrsynchronizeinvoke_updateall
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateAll method, ISyncMgrSynchronizeInvoke.UpdateAll, ISyncMgrSynchronizeInvoke::UpdateAll, UpdateAll, UpdateAll method [Windows Shell], UpdateAll method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateAll, shell.syncmgr_isyncmgrsynchronizeinvoke_updateall, syncmgr.isyncmgrsynchronizeinvoke_updateall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronizeInvoke::UpdateAll method
+# ISyncMgrSynchronizeInvoke::UpdateAll
 
 
 ## -description

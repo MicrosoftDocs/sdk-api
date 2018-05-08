@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxySettings
-title: IWMPNetwork::getProxySettings method
+title: IWMPNetwork::getProxySettings
 author: windows-driver-content
 description: The getProxySettings method retrieves the proxy setting for a given protocol.
 old-location: wmp\iwmpnetwork_getproxysettings.htm
 old-project: WMP
 ms.assetid: 103e0d53-943d-4aba-9db1-20cdc1d75d52
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], getProxySettings method, IWMPNetwork::getProxySettings, IWMPNetworkgetProxySettings, getProxySettings method [Windows Media Player], getProxySettings method [Windows Media Player], IWMPNetwork interface, getProxySettings,IWMPNetwork.getProxySettings, wmp.iwmpnetwork_getproxysettings, wmp/IWMPNetwork::getProxySettings
+ms.date: 5/4/2018
+ms.keywords: IWMPNetwork interface [Windows Media Player],getProxySettings method, IWMPNetwork.getProxySettings, IWMPNetwork::getProxySettings, IWMPNetworkgetProxySettings, getProxySettings, getProxySettings method [Windows Media Player], getProxySettings method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxysettings, wmp/IWMPNetwork::getProxySettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNetwork::getProxySettings method
+# IWMPNetwork::getProxySettings
 
 
 ## -description

@@ -78,6 +78,16 @@ If <b>TRUE</b>, the connection data specified in <b>pConnectionData</b> data mus
 The size, in bytes, of <b>pConnectionData</b>.
 
 
+### -field pConnectionData.size_is
+
+ 
+
+
+### -field pConnectionData.size_is.dwSizeofConnectionData
+
+ 
+
+
 ### -field pConnectionData
 
 A pointer to a byte buffer that contains information on the connection over which the EAP authentication session is held.
@@ -91,6 +101,16 @@ If <b>TRUE</b>, the user data specified in <b>pUserData</b> data must be persist
 ### -field dwSizeofUserData
 
 The size, in bytes, of <b>pUserData</b>.
+
+
+### -field pUserData.size_is
+
+ 
+
+
+### -field pUserData.size_is.dwSizeofUserData
+
+ 
 
 
 ### -field pUserData

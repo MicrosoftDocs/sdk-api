@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument.Undo
-title: ITextDocument::Undo method
+title: ITextDocument::Undo
 author: windows-driver-content
 description: Performs a specified number of undo operations.
 old-location: controls\ITextDocument_Undo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\undo.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextDocument, ITextDocument interface [Windows Controls], Undo method, ITextDocument::Undo, Undo method [Windows Controls], Undo method [Windows Controls], ITextDocument interface, Undo,ITextDocument.Undo, _win32_ITextDocument_Undo, _win32_ITextDocument_Undo_cpp, controls.ITextDocument_Undo, controls._win32_ITextDocument_Undo, tom/ITextDocument::Undo
+ms.date: 4/27/2018
+ms.keywords: ITextDocument interface [Windows Controls],Undo method, ITextDocument.Undo, ITextDocument::Undo, Undo, Undo method [Windows Controls], Undo method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Undo, _win32_ITextDocument_Undo_cpp, controls.ITextDocument_Undo, controls._win32_ITextDocument_Undo, tom/ITextDocument::Undo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument::Undo method
+# ITextDocument::Undo
 
 
 ## -description

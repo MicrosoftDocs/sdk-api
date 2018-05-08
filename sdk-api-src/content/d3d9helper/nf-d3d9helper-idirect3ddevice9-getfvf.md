@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetFVF
-title: IDirect3DDevice9::GetFVF method
+title: IDirect3DDevice9::GetFVF
 author: windows-driver-content
 description: Gets the fixed vertex function declaration.
 old-location: direct3d9\idirect3ddevice9__getfvf.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getfvf.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 951f24cf-f72e-7ab4-8fde-fbe96bc36c7a, GetFVF method [Direct3D 9], GetFVF method [Direct3D 9], IDirect3DDevice9 interface, GetFVF,IDirect3DDevice9.GetFVF, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetFVF method, IDirect3DDevice9::GetFVF, d3d9helper/IDirect3DDevice9::GetFVF, direct3d9.idirect3ddevice9__getfvf
+ms.keywords: 951f24cf-f72e-7ab4-8fde-fbe96bc36c7a, GetFVF, GetFVF method [Direct3D 9], GetFVF method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetFVF method, IDirect3DDevice9.GetFVF, IDirect3DDevice9::GetFVF, d3d9helper/IDirect3DDevice9::GetFVF, direct3d9.idirect3ddevice9__getfvf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::GetFVF method
+# IDirect3DDevice9::GetFVF
 
 
 ## -description

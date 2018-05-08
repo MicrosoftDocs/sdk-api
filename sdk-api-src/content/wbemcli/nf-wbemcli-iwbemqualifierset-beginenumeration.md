@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.BeginEnumeration
-title: IWbemQualifierSet::BeginEnumeration method
+title: IWbemQualifierSet::BeginEnumeration
 author: windows-driver-content
 description: The IWbemQualifierSet::BeginEnumeration method resets before there is an enumeration of all the qualifiers in the object.
 old-location: wmi\iwbemqualifierset_beginenumeration.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 57fa60d1-54d2-412d-b39b-c35dfd709d0c
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: 0 (Zero), BeginEnumeration method [Windows Management Instrumentation], BeginEnumeration method [Windows Management Instrumentation], IWbemQualifierSet interface, BeginEnumeration,IWbemQualifierSet.BeginEnumeration, IWbemQualifierSet, IWbemQualifierSet interface [Windows Management Instrumentation], BeginEnumeration method, IWbemQualifierSet::BeginEnumeration, WBEM_FLAG_LOCAL_ONLY, WBEM_FLAG_PROPAGATED_ONLY, _hmm_iwbemqualifierset_beginenumeration, wbemcli/IWbemQualifierSet::BeginEnumeration, wmi.iwbemqualifierset_beginenumeration
+ms.keywords: 0 (Zero), BeginEnumeration, BeginEnumeration method [Windows Management Instrumentation], BeginEnumeration method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],BeginEnumeration method, IWbemQualifierSet.BeginEnumeration, IWbemQualifierSet::BeginEnumeration, WBEM_FLAG_LOCAL_ONLY, WBEM_FLAG_PROPAGATED_ONLY, _hmm_iwbemqualifierset_beginenumeration, wbemcli/IWbemQualifierSet::BeginEnumeration, wmi.iwbemqualifierset_beginenumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemQualifierSet::BeginEnumeration method
+# IWbemQualifierSet::BeginEnumeration
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.SetDDrawDevice
-title: IVMRSurfaceAllocatorNotify::SetDDrawDevice method
+title: IVMRSurfaceAllocatorNotify::SetDDrawDevice
 author: windows-driver-content
 description: The SetDDrawDevice method sets the initial DirectDraw device and monitor to be used for video playback.
 old-location: dshow\ivmrsurfaceallocatornotify_setddrawdevice.htm
 old-project: DirectShow
 ms.assetid: 3e6bd77e-8b2d-4cd8-9bd3-40a3fe9373f3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], SetDDrawDevice method, IVMRSurfaceAllocatorNotify::SetDDrawDevice, IVMRSurfaceAllocatorNotifySetDDrawDevice, SetDDrawDevice method [DirectShow], SetDDrawDevice method [DirectShow], IVMRSurfaceAllocatorNotify interface, SetDDrawDevice,IVMRSurfaceAllocatorNotify.SetDDrawDevice, dshow.ivmrsurfaceallocatornotify_setddrawdevice, strmif/IVMRSurfaceAllocatorNotify::SetDDrawDevice
+ms.date: 4/30/2018
+ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],SetDDrawDevice method, IVMRSurfaceAllocatorNotify.SetDDrawDevice, IVMRSurfaceAllocatorNotify::SetDDrawDevice, IVMRSurfaceAllocatorNotifySetDDrawDevice, SetDDrawDevice, SetDDrawDevice method [DirectShow], SetDDrawDevice method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_setddrawdevice, strmif/IVMRSurfaceAllocatorNotify::SetDDrawDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRSurfaceAllocatorNotify::SetDDrawDevice method
+# IVMRSurfaceAllocatorNotify::SetDDrawDevice
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESOpenMmiEvent.GetDialogStringData
-title: IESOpenMmiEvent::GetDialogStringData method
+title: IESOpenMmiEvent::GetDialogStringData
 author: windows-driver-content
 description: Gets the data associated with an OpenMMI event, in Unicode string format. This data can be the contents of the dialog that is opened or the Uniform Resource Locator (URL) that contains the dialog.
 old-location: mstv\iesopenmmievent_getdialogstringdata.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 5652ff59-e0ce-4acd-b62a-807d7a307e5b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDialogStringData method [Microsoft TV Technologies], GetDialogStringData method [Microsoft TV Technologies], IESOpenMmiEvent interface, GetDialogStringData,IESOpenMmiEvent.GetDialogStringData, IESOpenMmiEvent, IESOpenMmiEvent interface [Microsoft TV Technologies], GetDialogStringData method, IESOpenMmiEvent::GetDialogStringData, mstv.iesopenmmievent_getdialogstringdata, tuner/IESOpenMmiEvent::GetDialogStringData
+ms.keywords: GetDialogStringData, GetDialogStringData method [Microsoft TV Technologies], GetDialogStringData method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogStringData method, IESOpenMmiEvent.GetDialogStringData, IESOpenMmiEvent::GetDialogStringData, mstv.iesopenmmievent_getdialogstringdata, tuner/IESOpenMmiEvent::GetDialogStringData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESOpenMmiEvent::GetDialogStringData method
+# IESOpenMmiEvent::GetDialogStringData
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetBlockMap
-title: IAppxBundleReader::GetBlockMap method
+title: IAppxBundleReader::GetBlockMap
 author: windows-driver-content
 description: Retrieves a read-only block map object from the bundle.
 old-location: appxpkg\iappxbundlereader_getblockmap.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 721940C7-0680-4AD0-93BC-20D630EDE228
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetBlockMap method [App packaging and management], GetBlockMap method [App packaging and management], IAppxBundleReader interface, GetBlockMap,IAppxBundleReader.GetBlockMap, IAppxBundleReader, IAppxBundleReader interface [App packaging and management], GetBlockMap method, IAppxBundleReader::GetBlockMap, appxpackaging/IAppxBundleReader::GetBlockMap, appxpkg.iappxbundlereader_getblockmap
+ms.keywords: GetBlockMap, GetBlockMap method [App packaging and management], GetBlockMap method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetBlockMap method, IAppxBundleReader.GetBlockMap, IAppxBundleReader::GetBlockMap, appxpackaging/IAppxBundleReader::GetBlockMap, appxpkg.iappxbundlereader_getblockmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleReader::GetBlockMap method
+# IAppxBundleReader::GetBlockMap
 
 
 ## -description

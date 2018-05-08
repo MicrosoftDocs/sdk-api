@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2DataEventArgs.get_ElapsedTime
-title: IDiscFormat2DataEventArgs::get_ElapsedTime method
+title: IDiscFormat2DataEventArgs::get_ElapsedTime
 author: windows-driver-content
 description: Retrieves the total elapsed time of the write operation.
 old-location: imapi\idiscformat2dataeventargs_get_elapsedtime.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 5ac3c261-dedc-4316-9241-387fc222443d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2DataEventArgs, IDiscFormat2DataEventArgs interface [IMAPI], get_ElapsedTime method, IDiscFormat2DataEventArgs::get_ElapsedTime, get_ElapsedTime method [IMAPI], get_ElapsedTime method [IMAPI], IDiscFormat2DataEventArgs interface, get_ElapsedTime,IDiscFormat2DataEventArgs.get_ElapsedTime, imapi.idiscformat2dataeventargs_get_elapsedtime, imapi2/IDiscFormat2DataEventArgs::get_ElapsedTime
+ms.keywords: IDiscFormat2DataEventArgs interface [IMAPI],get_ElapsedTime method, IDiscFormat2DataEventArgs.get_ElapsedTime, IDiscFormat2DataEventArgs::get_ElapsedTime, get_ElapsedTime, get_ElapsedTime method [IMAPI], get_ElapsedTime method [IMAPI],IDiscFormat2DataEventArgs interface, imapi.idiscformat2dataeventargs_get_elapsedtime, imapi2/IDiscFormat2DataEventArgs::get_ElapsedTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2DataEventArgs::get_ElapsedTime method
+# IDiscFormat2DataEventArgs::get_ElapsedTime
 
 
 ## -description

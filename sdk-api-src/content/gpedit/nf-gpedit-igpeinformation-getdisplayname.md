@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetDisplayName
-title: IGPEInformation::GetDisplayName method
+title: IGPEInformation::GetDisplayName
 author: windows-driver-content
 description: The GetDisplayName method retrieves the display name for the GPO.
 old-location: policy\igpeinformation_getdisplayname.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: 3c1a43a5-5d16-4abc-85e0-1eeace2ee086
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDisplayName method [Group Policy], GetDisplayName method [Group Policy], IGPEInformation interface, GetDisplayName,IGPEInformation.GetDisplayName, IGPEInformation, IGPEInformation interface [Group Policy], GetDisplayName method, IGPEInformation::GetDisplayName, _win32_igpeinformation_getdisplayname, gpedit/IGPEInformation::GetDisplayName, policy.igpeinformation_getdisplayname
+ms.keywords: GetDisplayName, GetDisplayName method [Group Policy], GetDisplayName method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetDisplayName method, IGPEInformation.GetDisplayName, IGPEInformation::GetDisplayName, _win32_igpeinformation_getdisplayname, gpedit/IGPEInformation::GetDisplayName, policy.igpeinformation_getdisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPEInformation::GetDisplayName method
+# IGPEInformation::GetDisplayName
 
 
 ## -description

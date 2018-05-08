@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: d730a446-984e-4be0-aa7f-6d3dc93b2e34
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationManager, IDirectManipulationManager interface [Direct Manipulation], IDirectManipulationManager interface [Direct Manipulation], described, directmanipulation.idirectmanipulationmanager, directmanipulation/IDirectManipulationManager
+ms.keywords: IDirectManipulationManager, IDirectManipulationManager interface [Direct Manipulation], IDirectManipulationManager interface [Direct Manipulation],described, directmanipulation.idirectmanipulationmanager, directmanipulation/IDirectManipulationManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

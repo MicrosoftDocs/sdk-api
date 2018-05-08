@@ -1,14 +1,14 @@
 ---
 UID: NF:indexsrv.ISimpleCommandCreator.GetDefaultCatalog
-title: ISimpleCommandCreator::GetDefaultCatalog method
+title: ISimpleCommandCreator::GetDefaultCatalog
 author: windows-driver-content
 description: Determines the default catalog for the system.
 old-location: search\isimplecommandcreator_getdefaultcatalog.htm
 old-project: search
 ms.assetid: 6BD65290-209A-4FCA-BD2B-E4BB800C8BEF
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetDefaultCatalog method [search], GetDefaultCatalog method [search], ISimpleCommandCreator interface, GetDefaultCatalog,ISimpleCommandCreator.GetDefaultCatalog, ISimpleCommandCreator, ISimpleCommandCreator interface [search], GetDefaultCatalog method, ISimpleCommandCreator::GetDefaultCatalog, indexsrv/ISimpleCommandCreator::GetDefaultCatalog, search.isimplecommandcreator_getdefaultcatalog
+ms.date: 5/4/2018
+ms.keywords: GetDefaultCatalog, GetDefaultCatalog method [search], GetDefaultCatalog method [search],ISimpleCommandCreator interface, ISimpleCommandCreator interface [search],GetDefaultCatalog method, ISimpleCommandCreator.GetDefaultCatalog, ISimpleCommandCreator::GetDefaultCatalog, indexsrv/ISimpleCommandCreator::GetDefaultCatalog, search.isimplecommandcreator_getdefaultcatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISimpleCommandCreator::GetDefaultCatalog method
+# ISimpleCommandCreator::GetDefaultCatalog
 
 
 ## -description

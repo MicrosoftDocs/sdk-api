@@ -1,14 +1,14 @@
 ---
 UID: NF:mfsharingengine.IMFImageSharingEngine.SetSource
-title: IMFImageSharingEngine::SetSource method
+title: IMFImageSharingEngine::SetSource
 author: windows-driver-content
 description: Sets the source stream.
 old-location: mf\imfimagesharingengine_setsource.htm
 old-project: medfound
 ms.assetid: 59DFAF26-B1D2-4658-B6E8-A0D14F48C734
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFImageSharingEngine, IMFImageSharingEngine interface [Media Foundation], SetSource method, IMFImageSharingEngine::SetSource, SetSource method [Media Foundation], SetSource method [Media Foundation], IMFImageSharingEngine interface, SetSource,IMFImageSharingEngine.SetSource, mf.imfimagesharingengine_setsource, mfsharingengine/IMFImageSharingEngine::SetSource
+ms.date: 5/3/2018
+ms.keywords: IMFImageSharingEngine interface [Media Foundation],SetSource method, IMFImageSharingEngine.SetSource, IMFImageSharingEngine::SetSource, SetSource, SetSource method [Media Foundation], SetSource method [Media Foundation],IMFImageSharingEngine interface, mf.imfimagesharingengine_setsource, mfsharingengine/IMFImageSharingEngine::SetSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFImageSharingEngine::SetSource method
+# IMFImageSharingEngine::SetSource
 
 
 ## -description

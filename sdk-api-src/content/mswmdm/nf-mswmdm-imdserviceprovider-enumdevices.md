@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDServiceProvider.EnumDevices
-title: IMDServiceProvider::EnumDevices method
+title: IMDServiceProvider::EnumDevices
 author: windows-driver-content
 description: The EnumDevices method enumerates the installed physical or software devices that are currently attached and are known by the service provider.
 old-location: wmdm\imdserviceprovider_enumdevices.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: a3d4e404-7441-4a61-b2bb-ca373eb79b99
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: EnumDevices method [windows Media Device Manager], EnumDevices method [windows Media Device Manager], IMDServiceProvider interface, EnumDevices,IMDServiceProvider.EnumDevices, IMDServiceProvider, IMDServiceProvider interface [windows Media Device Manager], EnumDevices method, IMDServiceProvider::EnumDevices, IMDServiceProviderEnumDevices, mswmdm/IMDServiceProvider::EnumDevices, wmdm.imdserviceprovider_enumdevices
+ms.keywords: EnumDevices, EnumDevices method [windows Media Device Manager], EnumDevices method [windows Media Device Manager],IMDServiceProvider interface, IMDServiceProvider interface [windows Media Device Manager],EnumDevices method, IMDServiceProvider.EnumDevices, IMDServiceProvider::EnumDevices, IMDServiceProviderEnumDevices, mswmdm/IMDServiceProvider::EnumDevices, wmdm.imdserviceprovider_enumdevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDServiceProvider::EnumDevices method
+# IMDServiceProvider::EnumDevices
 
 
 ## -description

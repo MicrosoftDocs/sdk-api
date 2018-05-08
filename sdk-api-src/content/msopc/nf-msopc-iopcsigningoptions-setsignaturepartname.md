@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetSignaturePartName
-title: IOpcSigningOptions::SetSignaturePartName method
+title: IOpcSigningOptions::SetSignaturePartName
 author: windows-driver-content
 description: Sets the part name of the signature part where the signature markup will be stored.
 old-location: opc\iopcsigningoptions_setsignaturepartname.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 36d69a11-bfc3-4f0a-a681-4e138751990d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], SetSignaturePartName method, IOpcSigningOptions::SetSignaturePartName, SetSignaturePartName method [Open Packaging Conventions], SetSignaturePartName method [Open Packaging Conventions], IOpcSigningOptions interface, SetSignaturePartName,IOpcSigningOptions.SetSignaturePartName, msopc/IOpcSigningOptions::SetSignaturePartName, opc.iopcsigningoptions_setsignaturepartname
+ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetSignaturePartName method, IOpcSigningOptions.SetSignaturePartName, IOpcSigningOptions::SetSignaturePartName, SetSignaturePartName, SetSignaturePartName method [Open Packaging Conventions], SetSignaturePartName method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetSignaturePartName, opc.iopcsigningoptions_setsignaturepartname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSigningOptions::SetSignaturePartName method
+# IOpcSigningOptions::SetSignaturePartName
 
 
 ## -description

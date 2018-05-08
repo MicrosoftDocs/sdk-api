@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.CVssWriter
-title: CVssWriter::CVssWriter method
+title: CVssWriter::CVssWriter
 author: windows-driver-content
 description: CVssWriter is the constructor of the CVssWriter class object.
 old-location: base\cvsswriter_cvsswriter.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 2619f79b-2ecb-4f20-84b9-c7aa9aed0dba
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriter, CVssWriter interface [VSS], CVssWriter method, CVssWriter method [VSS], CVssWriter method [VSS], CVssWriter interface, CVssWriter,CVssWriter.CVssWriter, CVssWriter::CVssWriter, _win32_cvsswriter_cvsswriter, base.cvsswriter_cvsswriter, vswriter/CVssWriter::CVssWriter
+ms.keywords: CVssWriter, CVssWriter interface [VSS],CVssWriter method, CVssWriter method [VSS], CVssWriter method [VSS],CVssWriter interface, CVssWriter.CVssWriter, CVssWriter::CVssWriter, _win32_cvsswriter_cvsswriter, base.cvsswriter_cvsswriter, vswriter/CVssWriter::CVssWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriter::CVssWriter method
+# CVssWriter::CVssWriter
 
 
 ## -description

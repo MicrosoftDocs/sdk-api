@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.GetTerminalClassInfo
-title: ITPluggableTerminalClassRegistration::GetTerminalClassInfo method
+title: ITPluggableTerminalClassRegistration::GetTerminalClassInfo
 author: windows-driver-content
 description: The GetTerminalClassInfo method gets all the information from the registry for a specific terminal.
 old-location: tapi3\itpluggableterminalclassregistration_getterminalclassinfo.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 35eed68f-be15-4229-b1be-01734f1831c9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetTerminalClassInfo method [TAPI 2.2], GetTerminalClassInfo method [TAPI 2.2], ITPluggableTerminalClassRegistration interface, GetTerminalClassInfo,ITPluggableTerminalClassRegistration.GetTerminalClassInfo, ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], GetTerminalClassInfo method, ITPluggableTerminalClassRegistration::GetTerminalClassInfo, _tapi3_itpluggableterminalclassregistration_getterminalclassinfo, tapi3.itpluggableterminalclassregistration_getterminalclassinfo, termmgr/ITPluggableTerminalClassRegistration::GetTerminalClassInfo
+ms.keywords: GetTerminalClassInfo, GetTerminalClassInfo method [TAPI 2.2], GetTerminalClassInfo method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, ITPluggableTerminalClassRegistration interface [TAPI 2.2],GetTerminalClassInfo method, ITPluggableTerminalClassRegistration.GetTerminalClassInfo, ITPluggableTerminalClassRegistration::GetTerminalClassInfo, _tapi3_itpluggableterminalclassregistration_getterminalclassinfo, tapi3.itpluggableterminalclassregistration_getterminalclassinfo, termmgr/ITPluggableTerminalClassRegistration::GetTerminalClassInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITPluggableTerminalClassRegistration::GetTerminalClassInfo method
+# ITPluggableTerminalClassRegistration::GetTerminalClassInfo
 
 
 ## -description

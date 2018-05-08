@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_OutgoingQueueBlocked
-title: IFaxConfiguration::put_OutgoingQueueBlocked method
+title: IFaxConfiguration::put_OutgoingQueueBlocked
 author: windows-driver-content
 description: Sets or retrieves a value that indicates whether the fax server queue for outgoing faxes has been blocked.
 old-location: fax\_mfax_FaxConfiguration_BlockOutgoingQueue_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\blockoutgoingqueue.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxConfiguration object [Fax Service], OutgoingQueueBlocked property, IFaxConfiguration, IFaxConfiguration::put_OutgoingQueueBlocked, OutgoingQueueBlocked property [Fax Service], OutgoingQueueBlocked property [Fax Service], FaxConfiguration object, _mfax_IFaxConfiguration_BlockOutgoingQueue, fax._mfax_FaxConfiguration_BlockOutgoingQueue_vb, put_OutgoingQueueBlocked,IFaxConfiguration.put_OutgoingQueueBlocked
+ms.keywords: FaxConfiguration object [Fax Service],OutgoingQueueBlocked property, FaxConfiguration.OutgoingQueueBlocked, IFaxConfiguration.put_OutgoingQueueBlocked, IFaxConfiguration::put_OutgoingQueueBlocked, OutgoingQueueBlocked property [Fax Service], OutgoingQueueBlocked property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_BlockOutgoingQueue, fax._mfax_FaxConfiguration_BlockOutgoingQueue_vb, put_OutgoingQueueBlocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::put_OutgoingQueueBlocked method
+# IFaxConfiguration::put_OutgoingQueueBlocked
 
 
 ## -description

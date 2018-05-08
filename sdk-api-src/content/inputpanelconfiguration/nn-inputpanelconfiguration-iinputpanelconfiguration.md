@@ -7,8 +7,8 @@ old-location: shell\iinputpanelconfiguration.htm
 old-project: shell
 ms.assetid: 81E54703-095E-4810-A8A0-2ACBE7F3D634
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IInputPanelConfiguration, IInputPanelConfiguration interface [Windows Shell], IInputPanelConfiguration interface [Windows Shell], described, inputpanelconfiguration/IInputPanelConfiguration, shell.iinputpanelconfiguration
+ms.date: 5/3/2018
+ms.keywords: IInputPanelConfiguration, IInputPanelConfiguration interface [Windows Shell], IInputPanelConfiguration interface [Windows Shell],described, inputpanelconfiguration/IInputPanelConfiguration, shell.iinputpanelconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

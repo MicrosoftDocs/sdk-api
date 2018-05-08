@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: dc08d512-6994-419a-a460-6274ce74e40f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPointerInactive, IPointerInactive interface [COM], IPointerInactive interface [COM], described, _ctrl_ipointerinactive, com.ipointerinactive, ocidl/IPointerInactive
+ms.keywords: IPointerInactive, IPointerInactive interface [COM], IPointerInactive interface [COM],described, _ctrl_ipointerinactive, com.ipointerinactive, ocidl/IPointerInactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

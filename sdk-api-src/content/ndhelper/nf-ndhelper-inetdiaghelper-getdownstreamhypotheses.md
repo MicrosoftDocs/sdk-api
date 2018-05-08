@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetDownStreamHypotheses
-title: INetDiagHelper::GetDownStreamHypotheses method
+title: INetDiagHelper::GetDownStreamHypotheses
 author: windows-driver-content
 description: Asks the Helper Class Extension to generate hypotheses.
 old-location: ndf\inetdiaghelpe_getdownstreamhypotheses.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: ac26fbb5-d30f-4b1f-b432-043a07bfa853
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetDownStreamHypotheses method [NDF], GetDownStreamHypotheses method [NDF], INetDiagHelper interface, GetDownStreamHypotheses,INetDiagHelper.GetDownStreamHypotheses, INetDiagHelper, INetDiagHelper interface [NDF], GetDownStreamHypotheses method, INetDiagHelper::GetDownStreamHypotheses, ndf.inetdiaghelpe_getdownstreamhypotheses, ndhelper/INetDiagHelper::GetDownStreamHypotheses
+ms.keywords: GetDownStreamHypotheses, GetDownStreamHypotheses method [NDF], GetDownStreamHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetDownStreamHypotheses method, INetDiagHelper.GetDownStreamHypotheses, INetDiagHelper::GetDownStreamHypotheses, ndf.inetdiaghelpe_getdownstreamhypotheses, ndhelper/INetDiagHelper::GetDownStreamHypotheses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::GetDownStreamHypotheses method
+# INetDiagHelper::GetDownStreamHypotheses
 
 
 ## -description

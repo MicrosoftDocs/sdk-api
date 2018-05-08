@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationProgressChangedCallback.Invoke
-title: IInstallationProgressChangedCallback::Invoke method
+title: IInstallationProgressChangedCallback::Invoke
 author: windows-driver-content
 description: Handles the notification of the change in the progress of an asynchronous installation or uninstallation that was initiated by a call to the IUpdateInstaller.BeginInstall method or the IUpdateInstaller.BeginUninstall method.
 old-location: wua\iinstallationprogresschangedcallback_invoke.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 1ef4ab68-8bf3-4141-aba2-826bb606eab5
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IInstallationProgressChangedCallback, IInstallationProgressChangedCallback interface [Windows Update Agent], Invoke method, IInstallationProgressChangedCallback::Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent], IInstallationProgressChangedCallback interface, Invoke,IInstallationProgressChangedCallback.Invoke, wua.iinstallationprogresschangedcallback_invoke, wuapi/IInstallationProgressChangedCallback::Invoke
+ms.keywords: IInstallationProgressChangedCallback interface [Windows Update Agent],Invoke method, IInstallationProgressChangedCallback.Invoke, IInstallationProgressChangedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IInstallationProgressChangedCallback interface, wua.iinstallationprogresschangedcallback_invoke, wuapi/IInstallationProgressChangedCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInstallationProgressChangedCallback::Invoke method
+# IInstallationProgressChangedCallback::Invoke
 
 
 ## -description

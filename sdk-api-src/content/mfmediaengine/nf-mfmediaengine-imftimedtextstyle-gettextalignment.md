@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetTextAlignment
-title: IMFTimedTextStyle::GetTextAlignment method
+title: IMFTimedTextStyle::GetTextAlignment
 author: windows-driver-content
 description: Gets the text alignment of the timed-text style.
 old-location: mf\imftimedtextstyle_gettextalignment.htm
 old-project: medfound
 ms.assetid: 2BB85E50-250C-4CFD-95DD-198899DCFE1D
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTextAlignment method [Media Foundation], GetTextAlignment method [Media Foundation], IMFTimedTextStyle interface, GetTextAlignment,IMFTimedTextStyle.GetTextAlignment, IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], GetTextAlignment method, IMFTimedTextStyle::GetTextAlignment, mf.imftimedtextstyle_gettextalignment, mfmediaengine/IMFTimedTextStyle::GetTextAlignment
+ms.date: 5/3/2018
+ms.keywords: GetTextAlignment, GetTextAlignment method [Media Foundation], GetTextAlignment method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextAlignment method, IMFTimedTextStyle.GetTextAlignment, IMFTimedTextStyle::GetTextAlignment, mf.imftimedtextstyle_gettextalignment, mfmediaengine/IMFTimedTextStyle::GetTextAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextStyle::GetTextAlignment method
+# IMFTimedTextStyle::GetTextAlignment
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: parcon
 ms.assetid: f825388f-c4de-4bf2-8076-6efd81b6e030
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsParentalControls, IWindowsParentalControls interface, IWindowsParentalControls interface, described, parcon.iwindowsparentalcontrols, wpcapi/IWindowsParentalControls
+ms.keywords: IWindowsParentalControls, IWindowsParentalControls interface, IWindowsParentalControls interface,described, parcon.iwindowsparentalcontrols, wpcapi/IWindowsParentalControls
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

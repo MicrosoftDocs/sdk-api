@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.InvokeFunc
-title: ITfFnLMProcessor::InvokeFunc method
+title: ITfFnLMProcessor::InvokeFunc
 author: windows-driver-content
 description: ITfFnLMProcessor::InvokeFunc method
 old-location: tsf\itffnlmprocessor_invokefunc.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 9545c715-ec31-4360-b8f9-bb0746164878
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnLMProcessor, ITfFnLMProcessor interface [Text Services Framework], InvokeFunc method, ITfFnLMProcessor::InvokeFunc, InvokeFunc method [Text Services Framework], InvokeFunc method [Text Services Framework], ITfFnLMProcessor interface, InvokeFunc,ITfFnLMProcessor.InvokeFunc, _tsf_itffnlmprocessor_invokefunc_ref, ctffunc/ITfFnLMProcessor::InvokeFunc, tsf.itffnlmprocessor_invokefunc
+ms.keywords: ITfFnLMProcessor interface [Text Services Framework],InvokeFunc method, ITfFnLMProcessor.InvokeFunc, ITfFnLMProcessor::InvokeFunc, InvokeFunc, InvokeFunc method [Text Services Framework], InvokeFunc method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_invokefunc_ref, ctffunc/ITfFnLMProcessor::InvokeFunc, tsf.itffnlmprocessor_invokefunc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfFnLMProcessor::InvokeFunc method
+# ITfFnLMProcessor::InvokeFunc
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.Delete
-title: IFsrmPropertyCondition::Delete method
+title: IFsrmPropertyCondition::Delete
 author: windows-driver-content
 description: Removes this property condition from the collection of property conditions specified for the file management job.
 old-location: fsrm\ifsrmpropertycondition_delete.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 1d177c1c-e36e-4e69-868b-ade55e2378aa
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Delete method [File Server Resource Manager], Delete method [File Server Resource Manager], IFsrmPropertyCondition interface, Delete,IFsrmPropertyCondition.Delete, IFsrmPropertyCondition, IFsrmPropertyCondition interface [File Server Resource Manager], Delete method, IFsrmPropertyCondition::Delete, fs.ifsrmpropertycondition_delete, fsrm.ifsrmpropertycondition_delete, fsrmreports/IFsrmPropertyCondition::Delete
+ms.keywords: Delete, Delete method [File Server Resource Manager], Delete method [File Server Resource Manager],IFsrmPropertyCondition interface, IFsrmPropertyCondition interface [File Server Resource Manager],Delete method, IFsrmPropertyCondition.Delete, IFsrmPropertyCondition::Delete, fs.ifsrmpropertycondition_delete, fsrm.ifsrmpropertycondition_delete, fsrmreports/IFsrmPropertyCondition::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyCondition::Delete method
+# IFsrmPropertyCondition::Delete
 
 
 ## -description

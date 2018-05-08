@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuner.get_TuneRequest
-title: ITuner::get_TuneRequest method
+title: ITuner::get_TuneRequest
 author: windows-driver-content
 description: The get_TuneRequest method gets the tune request currently in effect for the Network Provider.
 old-location: mstv\ituner_get_tunerequest.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 45967073-2e09-4490-967f-4ed3c9ed1d7e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], get_TuneRequest method, ITuner::get_TuneRequest, ITunerget_TuneRequest, get_TuneRequest method [Microsoft TV Technologies], get_TuneRequest method [Microsoft TV Technologies], ITuner interface, get_TuneRequest,ITuner.get_TuneRequest, mstv.ituner_get_tunerequest, tuner/ITuner::get_TuneRequest
+ms.keywords: ITuner interface [Microsoft TV Technologies],get_TuneRequest method, ITuner.get_TuneRequest, ITuner::get_TuneRequest, ITunerget_TuneRequest, get_TuneRequest, get_TuneRequest method [Microsoft TV Technologies], get_TuneRequest method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_tunerequest, tuner/ITuner::get_TuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuner::get_TuneRequest method
+# ITuner::get_TuneRequest
 
 
 ## -description

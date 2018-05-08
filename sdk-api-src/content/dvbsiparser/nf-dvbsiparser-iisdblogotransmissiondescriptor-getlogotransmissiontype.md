@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetLogoTransmissionType
-title: IIsdbLogoTransmissionDescriptor::GetLogoTransmissionType method
+title: IIsdbLogoTransmissionDescriptor::GetLogoTransmissionType
 author: windows-driver-content
 description: Gets the value of the logo_transmission_type field from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor. This field contains a code that indicates the logo transmission type.
 old-location: mstv\iisdblogotransmissiondescriptor_getlogotransmissiontype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a8f824ec-36f7-4af0-bce3-295b8403e431
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLogoTransmissionType method [Microsoft TV Technologies], GetLogoTransmissionType method [Microsoft TV Technologies], IIsdbLogoTransmissionDescriptor interface, GetLogoTransmissionType,IIsdbLogoTransmissionDescriptor.GetLogoTransmissionType, IIsdbLogoTransmissionDescriptor, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies], GetLogoTransmissionType method, IIsdbLogoTransmissionDescriptor::GetLogoTransmissionType, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoTransmissionType, mstv.iisdblogotransmissiondescriptor_getlogotransmissiontype
+ms.keywords: GetLogoTransmissionType, GetLogoTransmissionType method [Microsoft TV Technologies], GetLogoTransmissionType method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLogoTransmissionType method, IIsdbLogoTransmissionDescriptor.GetLogoTransmissionType, IIsdbLogoTransmissionDescriptor::GetLogoTransmissionType, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoTransmissionType, mstv.iisdblogotransmissiondescriptor_getlogotransmissiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbLogoTransmissionDescriptor::GetLogoTransmissionType method
+# IIsdbLogoTransmissionDescriptor::GetLogoTransmissionType
 
 
 ## -description

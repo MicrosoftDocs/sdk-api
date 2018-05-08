@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.SendCommand
-title: IPortableDeviceService::SendCommand method
+title: IPortableDeviceService::SendCommand
 author: windows-driver-content
 description: Sends a standard WPD command and its parameters to the service.
 old-location: wpdsdk\iportabledeviceservice_sendcommand.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: c6c42347-145c-4be7-bea6-34b13c211cb1
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], SendCommand method, IPortableDeviceService::SendCommand, SendCommand method [Windows Portable Devices SDK], SendCommand method [Windows Portable Devices SDK], IPortableDeviceService interface, SendCommand,IPortableDeviceService.SendCommand, portabledeviceapi/IPortableDeviceService::SendCommand, wpdsdk.iportabledeviceservice_sendcommand
+ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],SendCommand method, IPortableDeviceService.SendCommand, IPortableDeviceService::SendCommand, SendCommand, SendCommand method [Windows Portable Devices SDK], SendCommand method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::SendCommand, wpdsdk.iportabledeviceservice_sendcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceService::SendCommand method
+# IPortableDeviceService::SendCommand
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_StopOnCompletion
-title: IDataCollectorSet::put_StopOnCompletion method
+title: IDataCollectorSet::put_StopOnCompletion
 author: windows-driver-content
 description: Retrieves or sets a value that determines whether the data collector set stops when all the data collectors in the set are in a completed state.
 old-location: pla\idatacollectorset_stoponcompletion.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: bb7e18c6-e809-455e-9bee-c4bb6cf07c26
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], StopOnCompletion property, IDataCollectorSet.StopOnCompletion, IDataCollectorSet::get_StopOnCompletion, IDataCollectorSet::put_StopOnCompletion, StopOnCompletion property [PLA], StopOnCompletion property [PLA], IDataCollectorSet interface, pla.idatacollectorset_stoponcompletion, pla/IDataCollectorSet::StopOnCompletion, pla/IDataCollectorSet::get_StopOnCompletion, pla/IDataCollectorSet::put_StopOnCompletion, put_StopOnCompletion,IDataCollectorSet.put_StopOnCompletion
+ms.keywords: IDataCollectorSet interface [PLA],StopOnCompletion property, IDataCollectorSet.StopOnCompletion, IDataCollectorSet.put_StopOnCompletion, IDataCollectorSet::StopOnCompletion, IDataCollectorSet::get_StopOnCompletion, IDataCollectorSet::put_StopOnCompletion, StopOnCompletion property [PLA], StopOnCompletion property [PLA],IDataCollectorSet interface, pla.idatacollectorset_stoponcompletion, pla/IDataCollectorSet::StopOnCompletion, pla/IDataCollectorSet::get_StopOnCompletion, pla/IDataCollectorSet::put_StopOnCompletion, put_StopOnCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::put_StopOnCompletion method
+# IDataCollectorSet::put_StopOnCompletion
 
 
 ## -description

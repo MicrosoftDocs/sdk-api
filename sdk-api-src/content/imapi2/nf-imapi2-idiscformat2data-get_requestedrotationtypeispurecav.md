@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_RequestedRotationTypeIsPureCAV
-title: IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV method
+title: IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV
 author: windows-driver-content
 description: Retrieves the requested rotational-speed control type.
 old-location: imapi\idiscformat2data_get_requestedrotationtypeispurecav.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: edf3a5a7-3164-4fba-bbbe-525932b0284d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], get_RequestedRotationTypeIsPureCAV method, IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV, get_RequestedRotationTypeIsPureCAV method [IMAPI], get_RequestedRotationTypeIsPureCAV method [IMAPI], IDiscFormat2Data interface, get_RequestedRotationTypeIsPureCAV,IDiscFormat2Data.get_RequestedRotationTypeIsPureCAV, imapi.idiscformat2data_get_requestedrotationtypeispurecav, imapi2/IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV
+ms.keywords: IDiscFormat2Data interface [IMAPI],get_RequestedRotationTypeIsPureCAV method, IDiscFormat2Data.get_RequestedRotationTypeIsPureCAV, IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV, get_RequestedRotationTypeIsPureCAV, get_RequestedRotationTypeIsPureCAV method [IMAPI], get_RequestedRotationTypeIsPureCAV method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_requestedrotationtypeispurecav, imapi2/IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV method
+# IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV
 
 
 ## -description

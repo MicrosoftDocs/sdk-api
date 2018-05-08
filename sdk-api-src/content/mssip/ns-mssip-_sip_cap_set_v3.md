@@ -7,7 +7,7 @@ old-location: security\sip_cap_set.htm
 old-project: SecCrypto
 ms.assetid: 0B6D173B-0183-4A7C-BB92-2D451F746164
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSIP_CAP_SET_V3, PSIP_CAP_SET, PSIP_CAP_SET structure pointer [Security], SIP_CAP_SET, SIP_CAP_SET structure [Security], SIP_CAP_SET_V3, _SIP_CAP_SET_V3, mssip/PSIP_CAP_SET, mssip/SIP_CAP_SET, security.sip_cap_set"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,12 @@ The SIP version. By default, this value is two (2).
 A value of one (1) indicates that the SIP supports multiple embedded signatures. Otherwise, set this value to zero (0).
 
 
-#### - dwReserved
+### -field dwFlags
+
+ 
+
+
+### -field dwReserved
 
 Reserved for future use. Set this value to zero (0).
 

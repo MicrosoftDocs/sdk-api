@@ -1,6 +1,6 @@
 ---
 UID: NF:filter.IFilter.GetChunk
-title: IFilter::GetChunk method
+title: IFilter::GetChunk
 author: windows-driver-content
 description: Positions the filter at the beginning of the next chunk, or at the first chunk if this is the first call to the GetChunk method, and returns a description of the current chunk.
 old-location: indexsrv\ifilter_getchunk.htm
@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_96gb.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetChunk method [Indexing Service], GetChunk method [Indexing Service], IFilter interface, GetChunk,IFilter.GetChunk, IFilter, IFilter interface [Indexing Service], GetChunk method, IFilter::GetChunk, _idxs_IFilter_GetChunk, filter/IFilter::GetChunk, indexsrv.ifilter_getchunk
+ms.keywords: GetChunk, GetChunk method [Indexing Service], GetChunk method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetChunk method, IFilter.GetChunk, IFilter::GetChunk, _idxs_IFilter_GetChunk, filter/IFilter::GetChunk, indexsrv.ifilter_getchunk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFilter::GetChunk method
+# IFilter::GetChunk
 
 
 ## -description

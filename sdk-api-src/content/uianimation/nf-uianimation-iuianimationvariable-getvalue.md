@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetValue
-title: IUIAnimationVariable::GetValue method
+title: IUIAnimationVariable::GetValue
 author: windows-driver-content
 description: Gets the current value of the animation variable.
 old-location: uianimation\iuianimationvariable_getvalue.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 51ae200a-a630-44fd-afd4-33d1b1dbf6d7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetValue method [Windows Animation], GetValue method [Windows Animation], IUIAnimationVariable interface, GetValue,IUIAnimationVariable.GetValue, IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], GetValue method, IUIAnimationVariable::GetValue, uianimation.iuianimationvariable_getvalue, uianimation/IUIAnimationVariable::GetValue
+ms.keywords: GetValue, GetValue method [Windows Animation], GetValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetValue method, IUIAnimationVariable.GetValue, IUIAnimationVariable::GetValue, uianimation.iuianimationvariable_getvalue, uianimation/IUIAnimationVariable::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable::GetValue method
+# IUIAnimationVariable::GetValue
 
 
 ## -description

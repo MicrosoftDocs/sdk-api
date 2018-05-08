@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsbuffer.IWMSBufferAllocator.AllocateBuffer
-title: IWMSBufferAllocator::AllocateBuffer method
+title: IWMSBufferAllocator::AllocateBuffer
 author: windows-driver-content
 description: The AllocateBuffer method initializes a buffer.
 old-location: wmformat\iwmsbufferallocator_allocatebuffer.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 857fb8fa-0e86-46f2-907d-a244d6c699ef
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AllocateBuffer method [windows Media Format], AllocateBuffer method [windows Media Format], IWMSBufferAllocator interface, AllocateBuffer,IWMSBufferAllocator.AllocateBuffer, IWMSBufferAllocator, IWMSBufferAllocator interface [windows Media Format], AllocateBuffer method, IWMSBufferAllocator::AllocateBuffer, IWMSBufferAllocatorAllocateBuffer, wmformat.iwmsbufferallocator_allocatebuffer, wmsbuffer/IWMSBufferAllocator::AllocateBuffer
+ms.keywords: AllocateBuffer, AllocateBuffer method [windows Media Format], AllocateBuffer method [windows Media Format],IWMSBufferAllocator interface, IWMSBufferAllocator interface [windows Media Format],AllocateBuffer method, IWMSBufferAllocator.AllocateBuffer, IWMSBufferAllocator::AllocateBuffer, IWMSBufferAllocatorAllocateBuffer, wmformat.iwmsbufferallocator_allocatebuffer, wmsbuffer/IWMSBufferAllocator::AllocateBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSBufferAllocator::AllocateBuffer method
+# IWMSBufferAllocator::AllocateBuffer
 
 
 ## -description

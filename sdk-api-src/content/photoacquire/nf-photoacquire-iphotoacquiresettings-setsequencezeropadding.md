@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetSequenceZeroPadding
-title: IPhotoAcquireSettings::SetSequenceZeroPadding method
+title: IPhotoAcquireSettings::SetSequenceZeroPadding
 author: windows-driver-content
 description: The SetSequenceZeroPadding method sets a value indicating whether zeros or spaces are used to pad sequential file names.
 old-location: picacq\iphotoacquiresettings_setsequencezeropadding.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 5010a61f-a01c-4dd9-850e-581a62b31ab4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoAcquireSettings, IPhotoAcquireSettings interface [Picture Acquisition], SetSequenceZeroPadding method, IPhotoAcquireSettings::SetSequenceZeroPadding, IPhotoAcquireSettingsSetSequenceZeroPadding, SetSequenceZeroPadding method [Picture Acquisition], SetSequenceZeroPadding method [Picture Acquisition], IPhotoAcquireSettings interface, SetSequenceZeroPadding,IPhotoAcquireSettings.SetSequenceZeroPadding, photoacquire/IPhotoAcquireSettings::SetSequenceZeroPadding, picacq.iphotoacquiresettings_setsequencezeropadding
+ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetSequenceZeroPadding method, IPhotoAcquireSettings.SetSequenceZeroPadding, IPhotoAcquireSettings::SetSequenceZeroPadding, IPhotoAcquireSettingsSetSequenceZeroPadding, SetSequenceZeroPadding, SetSequenceZeroPadding method [Picture Acquisition], SetSequenceZeroPadding method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetSequenceZeroPadding, picacq.iphotoacquiresettings_setsequencezeropadding
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireSettings::SetSequenceZeroPadding method
+# IPhotoAcquireSettings::SetSequenceZeroPadding
 
 
 ## -description

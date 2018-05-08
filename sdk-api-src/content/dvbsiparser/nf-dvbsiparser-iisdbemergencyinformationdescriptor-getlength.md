@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetLength
-title: IIsdbEmergencyInformationDescriptor::GetLength method
+title: IIsdbEmergencyInformationDescriptor::GetLength
 author: windows-driver-content
 description: Gets the body length of an emergency information descriptor, in bytes.
 old-location: mstv\iisdbemergencyinformationdescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 22520f2f-8a7f-45f3-86b1-a747fb33d7dc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface, GetLength,IIsdbEmergencyInformationDescriptor.GetLength, IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], GetLength method, IIsdbEmergencyInformationDescriptor::GetLength, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetLength, mstv.iisdbemergencyinformationdescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbEmergencyInformationDescriptor.GetLength, IIsdbEmergencyInformationDescriptor::GetLength, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetLength, mstv.iisdbemergencyinformationdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbEmergencyInformationDescriptor::GetLength method
+# IIsdbEmergencyInformationDescriptor::GetLength
 
 
 ## -description

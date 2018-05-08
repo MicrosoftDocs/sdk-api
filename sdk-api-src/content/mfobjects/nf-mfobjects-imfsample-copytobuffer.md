@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFSample.CopyToBuffer
-title: IMFSample::CopyToBuffer method
+title: IMFSample::CopyToBuffer
 author: windows-driver-content
 description: Copies the sample data to a buffer. This method concatenates the valid data from all of the buffers of the sample, in order.
 old-location: mf\imfsample_copytobuffer.htm
 old-project: medfound
 ms.assetid: c8a23e0a-ed2f-449d-b834-f60f383d0b5e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CopyToBuffer method [Media Foundation], CopyToBuffer method [Media Foundation], IMFSample interface, CopyToBuffer,IMFSample.CopyToBuffer, IMFSample, IMFSample interface [Media Foundation], CopyToBuffer method, IMFSample::CopyToBuffer, c8a23e0a-ed2f-449d-b834-f60f383d0b5e, mf.imfsample_copytobuffer, mfobjects/IMFSample::CopyToBuffer
+ms.date: 5/3/2018
+ms.keywords: CopyToBuffer, CopyToBuffer method [Media Foundation], CopyToBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],CopyToBuffer method, IMFSample.CopyToBuffer, IMFSample::CopyToBuffer, c8a23e0a-ed2f-449d-b834-f60f383d0b5e, mf.imfsample_copytobuffer, mfobjects/IMFSample::CopyToBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSample::CopyToBuffer method
+# IMFSample::CopyToBuffer
 
 
 ## -description

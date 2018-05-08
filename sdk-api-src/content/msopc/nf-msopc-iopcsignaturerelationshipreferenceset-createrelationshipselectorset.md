@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceSet.CreateRelationshipSelectorSet
-title: IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet method
+title: IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet
 author: windows-driver-content
 description: Creates an IOpcRelationshipSelectorSet interface pointer that is used as the selectorSet parameter value of the Create method.
 old-location: opc\iopcsignaturerelationshipreferenceset_createrelationshipselectorset.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 7b11f066-3e3a-4dd0-a938-853301bc6914
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateRelationshipSelectorSet method [Open Packaging Conventions], CreateRelationshipSelectorSet method [Open Packaging Conventions], IOpcSignatureRelationshipReferenceSet interface, CreateRelationshipSelectorSet,IOpcSignatureRelationshipReferenceSet.CreateRelationshipSelectorSet, IOpcSignatureRelationshipReferenceSet, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions], CreateRelationshipSelectorSet method, IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet, msopc/IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet, opc.iopcsignaturerelationshipreferenceset_createrelationshipselectorset
+ms.keywords: CreateRelationshipSelectorSet, CreateRelationshipSelectorSet method [Open Packaging Conventions], CreateRelationshipSelectorSet method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],CreateRelationshipSelectorSet method, IOpcSignatureRelationshipReferenceSet.CreateRelationshipSelectorSet, IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet, msopc/IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet, opc.iopcsignaturerelationshipreferenceset_createrelationshipselectorset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet method
+# IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperation.put_Name
-title: IAzOperation::put_Name method
+title: IAzOperation::put_Name
 author: windows-driver-content
 description: Sets or retrieves the name of the operation.
 old-location: security\iazoperation_name.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: e1ebacda-513c-49f7-bb36-15229fdb0b3b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzOperation object [Security], Name property, IAzOperation, IAzOperation interface [Security], Name property, IAzOperation.Name, IAzOperation::get_Name, IAzOperation::put_Name, Name property [Security], Name property [Security], AzOperation object, Name property [Security], IAzOperation interface, azroles/IAzOperation::Name, azroles/IAzOperation::get_Name, azroles/IAzOperation::put_Name, put_Name,IAzOperation.put_Name, security.iazoperation_name
+ms.keywords: AzOperation object [Security],Name property, IAzOperation interface [Security],Name property, IAzOperation.Name, IAzOperation.put_Name, IAzOperation::Name, IAzOperation::get_Name, IAzOperation::put_Name, Name property [Security], Name property [Security],AzOperation object, Name property [Security],IAzOperation interface, azroles/IAzOperation::Name, azroles/IAzOperation::get_Name, azroles/IAzOperation::put_Name, put_Name, security.iazoperation_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzOperation::put_Name method
+# IAzOperation::put_Name
 
 
 ## -description

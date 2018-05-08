@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GenerateIndexEntries
-title: IMFASFIndexer::GenerateIndexEntries method
+title: IMFASFIndexer::GenerateIndexEntries
 author: windows-driver-content
 description: Accepts an ASF packet for the file and creates index entries for them.
 old-location: mf\imfasfindexer_generateindexentries.htm
 old-project: medfound
 ms.assetid: febc5335-a8e8-4ae9-afb2-17f09b750477
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GenerateIndexEntries method [Media Foundation], GenerateIndexEntries method [Media Foundation], IMFASFIndexer interface, GenerateIndexEntries,IMFASFIndexer.GenerateIndexEntries, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], GenerateIndexEntries method, IMFASFIndexer::GenerateIndexEntries, febc5335-a8e8-4ae9-afb2-17f09b750477, mf.imfasfindexer_generateindexentries, wmcontainer/IMFASFIndexer::GenerateIndexEntries
+ms.date: 5/3/2018
+ms.keywords: GenerateIndexEntries, GenerateIndexEntries method [Media Foundation], GenerateIndexEntries method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GenerateIndexEntries method, IMFASFIndexer.GenerateIndexEntries, IMFASFIndexer::GenerateIndexEntries, febc5335-a8e8-4ae9-afb2-17f09b750477, mf.imfasfindexer_generateindexentries, wmcontainer/IMFASFIndexer::GenerateIndexEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFIndexer::GenerateIndexEntries method
+# IMFASFIndexer::GenerateIndexEntries
 
 
 ## -description

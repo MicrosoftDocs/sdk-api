@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IStreamPseudoRandomBased.get_Seed
-title: IStreamPseudoRandomBased::get_Seed method
+title: IStreamPseudoRandomBased::get_Seed
 author: windows-driver-content
 description: Retrieves the seed value used by the random number generator.
 old-location: imapi\istreampseudorandombased_get_seed.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: c5362760-84c6-4e93-b3cd-2ce568b13102
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IStreamPseudoRandomBased, IStreamPseudoRandomBased interface [IMAPI], get_Seed method, IStreamPseudoRandomBased::get_Seed, get_Seed method [IMAPI], get_Seed method [IMAPI], IStreamPseudoRandomBased interface, get_Seed,IStreamPseudoRandomBased.get_Seed, imapi.istreampseudorandombased_get_seed, imapi2/IStreamPseudoRandomBased::get_Seed
+ms.keywords: IStreamPseudoRandomBased interface [IMAPI],get_Seed method, IStreamPseudoRandomBased.get_Seed, IStreamPseudoRandomBased::get_Seed, get_Seed, get_Seed method [IMAPI], get_Seed method [IMAPI],IStreamPseudoRandomBased interface, imapi.istreampseudorandombased_get_seed, imapi2/IStreamPseudoRandomBased::get_Seed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IStreamPseudoRandomBased::get_Seed method
+# IStreamPseudoRandomBased::get_Seed
 
 
 ## -description

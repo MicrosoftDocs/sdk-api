@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 299816e7-2dad-44a5-a44d-9c3efe405d9b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ISBE2Crossbar, ISBE2Crossbar interface [Microsoft TV Technologies], ISBE2Crossbar interface [Microsoft TV Technologies], described, mstv.isbe2crossbar, sbe/ISBE2Crossbar
+ms.keywords: ISBE2Crossbar, ISBE2Crossbar interface [Microsoft TV Technologies], ISBE2Crossbar interface [Microsoft TV Technologies],described, mstv.isbe2crossbar, sbe/ISBE2Crossbar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

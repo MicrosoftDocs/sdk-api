@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IQualProp.get_FramesDrawn
-title: IQualProp::get_FramesDrawn method
+title: IQualProp::get_FramesDrawn
 author: windows-driver-content
 description: The get_FramesDrawn method retrieves the number of frames actually drawn since streaming started.
 old-location: dshow\iqualprop_get_framesdrawn.htm
 old-project: DirectShow
 ms.assetid: 5a5d4aee-dd35-432f-b6a6-4b1b59ad9b78
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IQualProp, IQualProp interface [DirectShow], get_FramesDrawn method, IQualProp::get_FramesDrawn, IQualPropget_FramesDrawn, amvideo/IQualProp::get_FramesDrawn, dshow.iqualprop_get_framesdrawn, get_FramesDrawn method [DirectShow], get_FramesDrawn method [DirectShow], IQualProp interface, get_FramesDrawn,IQualProp.get_FramesDrawn
+ms.date: 4/30/2018
+ms.keywords: IQualProp interface [DirectShow],get_FramesDrawn method, IQualProp.get_FramesDrawn, IQualProp::get_FramesDrawn, IQualPropget_FramesDrawn, amvideo/IQualProp::get_FramesDrawn, dshow.iqualprop_get_framesdrawn, get_FramesDrawn, get_FramesDrawn method [DirectShow], get_FramesDrawn method [DirectShow],IQualProp interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IQualProp::get_FramesDrawn method
+# IQualProp::get_FramesDrawn
 
 
 ## -description

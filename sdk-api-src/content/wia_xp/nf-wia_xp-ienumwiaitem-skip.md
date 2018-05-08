@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.Skip
-title: IEnumWiaItem::Skip method
+title: IEnumWiaItem::Skip
 author: windows-driver-content
 description: The IEnumWiaItem::Skip method skips the specified number of items during an enumeration of available IWiaItem objects.
 old-location: wia\_wia_IEnumWiaItem_Skip.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\skip.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IEnumWiaItem, IEnumWiaItem interface [WIA], Skip method, IEnumWiaItem::Skip, Skip method [WIA], Skip method [WIA], IEnumWiaItem interface, Skip,IEnumWiaItem.Skip, _wia_IEnumWiaItem_Skip, wia._wia_IEnumWiaItem_Skip, wia_xp/IEnumWiaItem::Skip
+ms.date: 5/3/2018
+ms.keywords: IEnumWiaItem interface [WIA],Skip method, IEnumWiaItem.Skip, IEnumWiaItem::Skip, Skip, Skip method [WIA], Skip method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Skip, wia._wia_IEnumWiaItem_Skip, wia_xp/IEnumWiaItem::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IEnumWiaItem::Skip method
+# IEnumWiaItem::Skip
 
 
 ## -description

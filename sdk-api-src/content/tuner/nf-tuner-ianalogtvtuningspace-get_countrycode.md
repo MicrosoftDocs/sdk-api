@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.get_CountryCode
-title: IAnalogTVTuningSpace::get_CountryCode method
+title: IAnalogTVTuningSpace::get_CountryCode
 author: windows-driver-content
 description: The get_CountryCode method gets the country/region code of the tuning space (based on TAPI country/region codes).
 old-location: mstv\ianalogtvtuningspace_get_countrycode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f74f31cc-8e3a-41b8-bf27-f60b9cbcfcdb
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAnalogTVTuningSpace, IAnalogTVTuningSpace interface [Microsoft TV Technologies], get_CountryCode method, IAnalogTVTuningSpace::get_CountryCode, IAnalogTVTuningSpaceget_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies], IAnalogTVTuningSpace interface, get_CountryCode,IAnalogTVTuningSpace.get_CountryCode, mstv.ianalogtvtuningspace_get_countrycode, tuner/IAnalogTVTuningSpace::get_CountryCode
+ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_CountryCode method, IAnalogTVTuningSpace.get_CountryCode, IAnalogTVTuningSpace::get_CountryCode, IAnalogTVTuningSpaceget_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_countrycode, tuner/IAnalogTVTuningSpace::get_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnalogTVTuningSpace::get_CountryCode method
+# IAnalogTVTuningSpace::get_CountryCode
 
 
 ## -description

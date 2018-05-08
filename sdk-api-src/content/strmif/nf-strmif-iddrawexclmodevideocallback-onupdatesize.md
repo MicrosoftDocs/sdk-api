@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideoCallback.OnUpdateSize
-title: IDDrawExclModeVideoCallback::OnUpdateSize method
+title: IDDrawExclModeVideoCallback::OnUpdateSize
 author: windows-driver-content
 description: The OnUpdateSize method informs the application that the size of the video rectangle is about to change.
 old-location: dshow\iddrawexclmodevideocallback_onupdatesize.htm
 old-project: DirectShow
 ms.assetid: 00ddf110-8efc-414f-abfa-d6c7a22751a8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDDrawExclModeVideoCallback, IDDrawExclModeVideoCallback interface [DirectShow], OnUpdateSize method, IDDrawExclModeVideoCallback::OnUpdateSize, IDDrawExclModeVideoCallbackOnUpdateSize, OnUpdateSize method [DirectShow], OnUpdateSize method [DirectShow], IDDrawExclModeVideoCallback interface, OnUpdateSize,IDDrawExclModeVideoCallback.OnUpdateSize, dshow.iddrawexclmodevideocallback_onupdatesize, strmif/IDDrawExclModeVideoCallback::OnUpdateSize
+ms.date: 4/30/2018
+ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateSize method, IDDrawExclModeVideoCallback.OnUpdateSize, IDDrawExclModeVideoCallback::OnUpdateSize, IDDrawExclModeVideoCallbackOnUpdateSize, OnUpdateSize, OnUpdateSize method [DirectShow], OnUpdateSize method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdatesize, strmif/IDDrawExclModeVideoCallback::OnUpdateSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDDrawExclModeVideoCallback::OnUpdateSize method
+# IDDrawExclModeVideoCallback::OnUpdateSize
 
 
 ## -description

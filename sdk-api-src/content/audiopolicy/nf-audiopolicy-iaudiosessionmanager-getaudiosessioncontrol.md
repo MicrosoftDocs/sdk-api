@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager.GetAudioSessionControl
-title: IAudioSessionManager::GetAudioSessionControl method
+title: IAudioSessionManager::GetAudioSessionControl
 author: windows-driver-content
 description: The GetAudioSessionControl method retrieves an audio session control.
 old-location: coreaudio\iaudiosessionmanager_getaudiosessioncontrol.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 42de66dd-46df-40af-9d8a-39ee9f91b468
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetAudioSessionControl method [Core Audio], GetAudioSessionControl method [Core Audio], IAudioSessionManager interface, GetAudioSessionControl,IAudioSessionManager.GetAudioSessionControl, IAudioSessionManager, IAudioSessionManager interface [Core Audio], GetAudioSessionControl method, IAudioSessionManager::GetAudioSessionControl, IAudioSessionManagerGetAudioSessionControl, audiopolicy/IAudioSessionManager::GetAudioSessionControl, coreaudio.iaudiosessionmanager_getaudiosessioncontrol
+ms.keywords: GetAudioSessionControl, GetAudioSessionControl method [Core Audio], GetAudioSessionControl method [Core Audio],IAudioSessionManager interface, IAudioSessionManager interface [Core Audio],GetAudioSessionControl method, IAudioSessionManager.GetAudioSessionControl, IAudioSessionManager::GetAudioSessionControl, IAudioSessionManagerGetAudioSessionControl, audiopolicy/IAudioSessionManager::GetAudioSessionControl, coreaudio.iaudiosessionmanager_getaudiosessioncontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionManager::GetAudioSessionControl method
+# IAudioSessionManager::GetAudioSessionControl
 
 
 ## -description

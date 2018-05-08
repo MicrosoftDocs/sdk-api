@@ -154,6 +154,16 @@ The system sets this flag if the root is associated with a domain-based DFS name
 Specifies the number of DFS targets.
 
 
+### -field Storage.size_is
+
+ 
+
+
+### -field Storage.size_is.NumberOfStorages
+
+ 
+
+
 ### -field Storage
 
 Pointer to an array of <a href="https://msdn.microsoft.com/f50f32d8-1745-4ff6-97a6-ddd6fff95955">DFS_STORAGE_INFO</a> 

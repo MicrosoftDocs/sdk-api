@@ -1,14 +1,14 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetDirectDrawKernelHandle
-title: IVPBaseConfig::SetDirectDrawKernelHandle method
+title: IVPBaseConfig::SetDirectDrawKernelHandle
 author: windows-driver-content
 description: The SetDirectDrawKernelHandle method sets the kernel-mode handle to the DirectDraw object. This handle enables the device's mini-driver to communicate with DirectDraw.
 old-location: dshow\ivpbaseconfig_setdirectdrawkernelhandle.htm
 old-project: DirectShow
 ms.assetid: f3a04341-6cca-4fb4-bf47-30659d039a0d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], SetDirectDrawKernelHandle method, IVPBaseConfig::SetDirectDrawKernelHandle, IVPBaseConfigSetDirectDrawKernelHandle, SetDirectDrawKernelHandle method [DirectShow], SetDirectDrawKernelHandle method [DirectShow], IVPBaseConfig interface, SetDirectDrawKernelHandle,IVPBaseConfig.SetDirectDrawKernelHandle, dshow.ivpbaseconfig_setdirectdrawkernelhandle, vpconfig/IVPBaseConfig::SetDirectDrawKernelHandle
+ms.date: 4/30/2018
+ms.keywords: IVPBaseConfig interface [DirectShow],SetDirectDrawKernelHandle method, IVPBaseConfig.SetDirectDrawKernelHandle, IVPBaseConfig::SetDirectDrawKernelHandle, IVPBaseConfigSetDirectDrawKernelHandle, SetDirectDrawKernelHandle, SetDirectDrawKernelHandle method [DirectShow], SetDirectDrawKernelHandle method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setdirectdrawkernelhandle, vpconfig/IVPBaseConfig::SetDirectDrawKernelHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVPBaseConfig::SetDirectDrawKernelHandle method
+# IVPBaseConfig::SetDirectDrawKernelHandle
 
 
 ## -description

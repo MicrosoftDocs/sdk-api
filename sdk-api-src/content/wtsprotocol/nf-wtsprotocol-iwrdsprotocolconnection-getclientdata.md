@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetClientData
-title: IWRdsProtocolConnection::GetClientData method
+title: IWRdsProtocolConnection::GetClientData
 author: windows-driver-content
 description: Requests client settings from the protocol.
 old-location: termserv\iwrdsprotocolconnection_getclientdata.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 4005ff92-56ea-46ae-a546-e08a80303ef5
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetClientData method [Remote Desktop Services], GetClientData method [Remote Desktop Services], IWRdsProtocolConnection interface, GetClientData,IWRdsProtocolConnection.GetClientData, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], GetClientData method, IWRdsProtocolConnection::GetClientData, termserv.iwrdsprotocolconnection_getclientdata, wtsprotocol/IWRdsProtocolConnection::GetClientData
+ms.keywords: GetClientData, GetClientData method [Remote Desktop Services], GetClientData method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetClientData method, IWRdsProtocolConnection.GetClientData, IWRdsProtocolConnection::GetClientData, termserv.iwrdsprotocolconnection_getclientdata, wtsprotocol/IWRdsProtocolConnection::GetClientData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::GetClientData method
+# IWRdsProtocolConnection::GetClientData
 
 
 ## -description

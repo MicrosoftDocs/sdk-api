@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.SetValue
-title: ISettingsItem::SetValue method
+title: ISettingsItem::SetValue
 author: windows-driver-content
 description: Sets the value of an item.
 old-location: smi\isettingsitem_setvalue.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 52b7e852-b389-47ec-a9d0-e4ce2e95f1f8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISettingsItem, ISettingsItem interface [SMI], SetValue method, ISettingsItem::SetValue, SetValue method [SMI], SetValue method [SMI], ISettingsItem interface, SetValue,ISettingsItem.SetValue, smi.isettingsitem_setvalue, wcmconfig/ISettingsItem::SetValue
+ms.keywords: ISettingsItem interface [SMI],SetValue method, ISettingsItem.SetValue, ISettingsItem::SetValue, SetValue, SetValue method [SMI], SetValue method [SMI],ISettingsItem interface, smi.isettingsitem_setvalue, wcmconfig/ISettingsItem::SetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsItem::SetValue method
+# ISettingsItem::SetValue
 
 
 ## -description

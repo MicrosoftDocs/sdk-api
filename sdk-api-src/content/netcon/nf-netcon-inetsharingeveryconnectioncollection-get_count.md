@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingEveryConnectionCollection.get_Count
-title: INetSharingEveryConnectionCollection::get_Count method
+title: INetSharingEveryConnectionCollection::get_Count
 author: windows-driver-content
 description: The get__Count method retrieves the number of items in the connections collection.
 old-location: ics\inetsharingeveryconnectioncollection_get_count.htm
 old-project: ICS
 ms.assetid: c387ab2c-7edd-4975-a735-d555dd7191cf
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingEveryConnectionCollection, INetSharingEveryConnectionCollection interface [ICS/ICF], get_Count method, INetSharingEveryConnectionCollection::get_Count, _ics_inetsharingeveryconnectioncollection_get_count, get_Count method [ICS/ICF], get_Count method [ICS/ICF], INetSharingEveryConnectionCollection interface, get_Count,INetSharingEveryConnectionCollection.get_Count, ics.inetsharingeveryconnectioncollection_get_count, netcon/INetSharingEveryConnectionCollection::get_Count
+ms.date: 5/1/2018
+ms.keywords: INetSharingEveryConnectionCollection interface [ICS/ICF],get_Count method, INetSharingEveryConnectionCollection.get_Count, INetSharingEveryConnectionCollection::get_Count, _ics_inetsharingeveryconnectioncollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingEveryConnectionCollection interface, ics.inetsharingeveryconnectioncollection_get_count, netcon/INetSharingEveryConnectionCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingEveryConnectionCollection::get_Count method
+# INetSharingEveryConnectionCollection::get_Count
 
 
 ## -description

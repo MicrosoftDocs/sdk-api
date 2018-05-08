@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Close
-title: IMDSPObject::Close method
+title: IMDSPObject::Close
 author: windows-driver-content
 description: The Close method closes a file on a storage medium of a media device.
 old-location: wmdm\imdspobject_close.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 453dbf9e-4b71-4ceb-80e2-eaa0cf4cd29d
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: Close method [windows Media Device Manager], Close method [windows Media Device Manager], IMDSPObject interface, Close,IMDSPObject.Close, IMDSPObject, IMDSPObject interface [windows Media Device Manager], Close method, IMDSPObject::Close, IMDSPObjectClose, mswmdm/IMDSPObject::Close, wmdm.imdspobject_close
+ms.keywords: Close, Close method [windows Media Device Manager], Close method [windows Media Device Manager],IMDSPObject interface, IMDSPObject interface [windows Media Device Manager],Close method, IMDSPObject.Close, IMDSPObject::Close, IMDSPObjectClose, mswmdm/IMDSPObject::Close, wmdm.imdspobject_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPObject::Close method
+# IMDSPObject::Close
 
 
 ## -description

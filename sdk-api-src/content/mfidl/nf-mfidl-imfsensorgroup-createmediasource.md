@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.CreateMediaSource
-title: IMFSensorGroup::CreateMediaSource method
+title: IMFSensorGroup::CreateMediaSource
 author: windows-driver-content
 description: Creates an IMFMediaSource that virtualizes the sensor group.
 old-location: mf\imfsensorgroup_createmediasource.htm
 old-project: medfound
 ms.assetid: 2C69A81E-7159-43AA-92EA-7B1EB4A7A681
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateMediaSource method [Media Foundation], CreateMediaSource method [Media Foundation], IMFSensorGroup interface, CreateMediaSource,IMFSensorGroup.CreateMediaSource, IMFSensorGroup, IMFSensorGroup interface [Media Foundation], CreateMediaSource method, IMFSensorGroup::CreateMediaSource, mf.imfsensorgroup_createmediasource, mfidl/IMFSensorGroup::CreateMediaSource
+ms.date: 5/3/2018
+ms.keywords: CreateMediaSource, CreateMediaSource method [Media Foundation], CreateMediaSource method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],CreateMediaSource method, IMFSensorGroup.CreateMediaSource, IMFSensorGroup::CreateMediaSource, mf.imfsensorgroup_createmediasource, mfidl/IMFSensorGroup::CreateMediaSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorGroup::CreateMediaSource method
+# IMFSensorGroup::CreateMediaSource
 
 
 ## -description

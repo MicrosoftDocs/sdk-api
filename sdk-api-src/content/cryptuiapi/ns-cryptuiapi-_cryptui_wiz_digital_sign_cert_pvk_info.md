@@ -7,7 +7,7 @@ old-location: security\cryptui_wiz_digital_sign_cert_pvk_info.htm
 old-project: SecCrypto
 ms.assetid: 0316ed0b-d4e5-4102-9ab0-637e96c7d9f5
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE, CRYPTUI_WIZ_DIGITAL_SIGN_PVK_PROV, PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO structure pointer [Security], _CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, security.cryptui_wiz_digital_sign_cert_pvk_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,12 +102,12 @@ The entity is a PVK provider.
  
 
 
-#### - pPvkFileInfo
+### -field pPvkFileInfo
 
 A pointer to a <a href="https://msdn.microsoft.com/0e737661-2cc3-47be-ab32-0efbc18fefbd">CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</a> structure that contains the PVK file that contains the certificates. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE</b> is specified for the <b>dwPvkChoice</b> member.
 
 
-#### - pPvkProvInfo
+### -field pPvkProvInfo
 
 A pointer to a <a href="https://msdn.microsoft.com/6aea2f47-9d4a-4069-ac6d-f28907df00be">CRYPT_KEY_PROV_INFO</a> structure that contains information about the PVK provider that contains the certificates. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_PROV</b> is specified for the <b>dwPvkChoice</b> member.
 

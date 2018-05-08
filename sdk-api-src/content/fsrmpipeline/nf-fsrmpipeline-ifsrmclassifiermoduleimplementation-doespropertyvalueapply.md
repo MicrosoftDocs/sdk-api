@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.DoesPropertyValueApply
-title: IFsrmClassifierModuleImplementation::DoesPropertyValueApply method
+title: IFsrmClassifierModuleImplementation::DoesPropertyValueApply
 author: windows-driver-content
 description: Queries the classifier to find out whether the specified property value applies to the file most recently specified by the IFsrmClassifierModuleImplementation::OnBeginFile method.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_doespropertyvalueapply.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: ab42430c-1e30-4576-b6f8-c0488b6230dd
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DoesPropertyValueApply method [File Server Resource Manager], DoesPropertyValueApply method [File Server Resource Manager], IFsrmClassifierModuleImplementation interface, DoesPropertyValueApply,IFsrmClassifierModuleImplementation.DoesPropertyValueApply, IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplementation interface [File Server Resource Manager], DoesPropertyValueApply method, IFsrmClassifierModuleImplementation::DoesPropertyValueApply, fs.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrm.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrmpipeline/IFsrmClassifierModuleImplementation::DoesPropertyValueApply
+ms.keywords: DoesPropertyValueApply, DoesPropertyValueApply method [File Server Resource Manager], DoesPropertyValueApply method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, IFsrmClassifierModuleImplementation interface [File Server Resource Manager],DoesPropertyValueApply method, IFsrmClassifierModuleImplementation.DoesPropertyValueApply, IFsrmClassifierModuleImplementation::DoesPropertyValueApply, fs.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrm.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrmpipeline/IFsrmClassifierModuleImplementation::DoesPropertyValueApply
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassifierModuleImplementation::DoesPropertyValueApply method
+# IFsrmClassifierModuleImplementation::DoesPropertyValueApply
 
 
 ## -description

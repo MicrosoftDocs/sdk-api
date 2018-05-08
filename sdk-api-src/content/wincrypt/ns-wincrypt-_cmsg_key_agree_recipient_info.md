@@ -7,7 +7,7 @@ old-location: security\cmsg_key_agree_recipient_info.htm
 old-project: SecCrypto
 ms.assetid: d29d04d6-065e-4bb7-843b-f563643eeb4c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMSG_KEY_AGREE_RECIPIENT_INFO, CMSG_KEY_AGREE_ORIGINATOR_CERT, CMSG_KEY_AGREE_ORIGINATOR_PUBLIC_KEY, CMSG_KEY_AGREE_RECIPIENT_INFO, CMSG_KEY_AGREE_RECIPIENT_INFO structure [Security], PCMSG_KEY_AGREE_RECIPIENT_INFO, PCMSG_KEY_AGREE_RECIPIENT_INFO structure pointer [Security], _CMSG_KEY_AGREE_RECIPIENT_INFO, _crypto2_cmsg_key_agree_recipient_info, security.cmsg_key_agree_recipient_info, wincrypt/CMSG_KEY_AGREE_RECIPIENT_INFO, wincrypt/PCMSG_KEY_AGREE_RECIPIENT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,6 +106,18 @@ OriginatorPublicKeyInfo
  
 
 
+### -field DUMMYUNIONNAME.OriginatorCertId
+
+
+							A <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a>  that identifies the public key of the message originator.
+
+
+### -field DUMMYUNIONNAME.OriginatorPublicKeyInfo
+
+
+							A <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key of the message originator.
+
+
 ### -field UserKeyingMaterial
 
  A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> that indicates that a different key is generated each time the same two parties generate a pair of keys. The sender provides the bits of this <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> with some key agreement algorithms. This member can be <b>NULL</b>.
@@ -125,16 +137,4 @@ The number of elements in the <b>rgpRecipientEncryptedKeys</b> array.
 ### -field rgpRecipientEncryptedKeys
 
 The address of an array of <a href="https://msdn.microsoft.com/1921f9b6-86d9-47a0-a36e-e20d481382a3">CMSG_RECIPIENT_ENCRYPTED_KEY_INFO</a> structures that contains information about the key recipients. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this array.
-
-
-#### - OriginatorCertId
-
-
-							A <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a>  that identifies the public key of the message originator.
-
-
-#### - OriginatorPublicKeyInfo
-
-
-							A <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key of the message originator.
 

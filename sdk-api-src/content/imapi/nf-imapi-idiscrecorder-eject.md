@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.Eject
-title: IDiscRecorder::Eject method
+title: IDiscRecorder::Eject
 author: windows-driver-content
 description: Unlocks and ejects the tray of the disc recorder, if possible.
 old-location: imapi\idiscrecorder_eject.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 29a40f49-1567-4198-b682-a0e314858baf
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Eject method [IMAPI], Eject method [IMAPI], IDiscRecorder interface, Eject,IDiscRecorder.Eject, IDiscRecorder, IDiscRecorder interface [IMAPI], Eject method, IDiscRecorder::Eject, _win32_idiscrecorder_eject, base.idiscrecorder_eject, imapi.idiscrecorder_eject, imapi/IDiscRecorder::Eject
+ms.keywords: Eject, Eject method [IMAPI], Eject method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],Eject method, IDiscRecorder.Eject, IDiscRecorder::Eject, _win32_idiscrecorder_eject, base.idiscrecorder_eject, imapi.idiscrecorder_eject, imapi/IDiscRecorder::Eject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder::Eject method
+# IDiscRecorder::Eject
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTargetProcessorArchitecture
-title: ITargetInfo::GetTargetProcessorArchitecture method
+title: ITargetInfo::GetTargetProcessorArchitecture
 author: windows-driver-content
 description: Gets processor architecture associated with the current target.
 old-location: smi\itargetinfo_gettargetprocessorarchitecture.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 7c66e131-97e6-4a8e-b4b0-927633d6d53a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTargetProcessorArchitecture method [SMI], GetTargetProcessorArchitecture method [SMI], ITargetInfo interface, GetTargetProcessorArchitecture,ITargetInfo.GetTargetProcessorArchitecture, ITargetInfo, ITargetInfo interface [SMI], GetTargetProcessorArchitecture method, ITargetInfo::GetTargetProcessorArchitecture, smi.itargetinfo_gettargetprocessorarchitecture, wcmconfig/ITargetInfo::GetTargetProcessorArchitecture
+ms.keywords: GetTargetProcessorArchitecture, GetTargetProcessorArchitecture method [SMI], GetTargetProcessorArchitecture method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTargetProcessorArchitecture method, ITargetInfo.GetTargetProcessorArchitecture, ITargetInfo::GetTargetProcessorArchitecture, smi.itargetinfo_gettargetprocessorarchitecture, wcmconfig/ITargetInfo::GetTargetProcessorArchitecture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::GetTargetProcessorArchitecture method
+# ITargetInfo::GetTargetProcessorArchitecture
 
 
 ## -description

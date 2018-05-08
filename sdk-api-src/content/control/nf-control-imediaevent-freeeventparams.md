@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaEvent.FreeEventParams
-title: IMediaEvent::FreeEventParams method
+title: IMediaEvent::FreeEventParams
 author: windows-driver-content
 description: The FreeEventParams method frees resources associated with the parameters of an event.
 old-location: dshow\imediaevent_freeeventparams.htm
 old-project: DirectShow
 ms.assetid: d98f37a4-3482-4cf7-bede-c7e7be70652a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: FreeEventParams method [DirectShow], FreeEventParams method [DirectShow], IMediaEvent interface, FreeEventParams method [DirectShow], IMediaEventEx interface, FreeEventParams,IMediaEvent.FreeEventParams, IMediaEvent, IMediaEvent interface [DirectShow], FreeEventParams method, IMediaEvent::FreeEventParams, IMediaEventEx interface [DirectShow], FreeEventParams method, IMediaEventEx::FreeEventParams, IMediaEventFreeEventParams, control/IMediaEvent::FreeEventParams, control/IMediaEventEx::FreeEventParams, dshow.imediaevent_freeeventparams
+ms.date: 4/30/2018
+ms.keywords: FreeEventParams, FreeEventParams method [DirectShow], FreeEventParams method [DirectShow],IMediaEvent interface, FreeEventParams method [DirectShow],IMediaEventEx interface, IMediaEvent interface [DirectShow],FreeEventParams method, IMediaEvent.FreeEventParams, IMediaEvent::FreeEventParams, IMediaEventEx interface [DirectShow],FreeEventParams method, IMediaEventEx::FreeEventParams, IMediaEventFreeEventParams, control/IMediaEvent::FreeEventParams, control/IMediaEventEx::FreeEventParams, dshow.imediaevent_freeeventparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaEvent::FreeEventParams method
+# IMediaEvent::FreeEventParams
 
 
 ## -description

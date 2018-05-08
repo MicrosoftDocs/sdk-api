@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession.CreateUpdateDownloader
-title: IUpdateSession::CreateUpdateDownloader method
+title: IUpdateSession::CreateUpdateDownloader
 author: windows-driver-content
 description: Returns an IUpdateDownloader interface for this session.
 old-location: wua\iupdatesession_createupdatedownloader.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 9d410114-2327-489c-84b6-c3f5367008c2
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreateUpdateDownloader method [Windows Update Agent], CreateUpdateDownloader method [Windows Update Agent], IUpdateSession interface, CreateUpdateDownloader,IUpdateSession.CreateUpdateDownloader, IUpdateSession, IUpdateSession interface [Windows Update Agent], CreateUpdateDownloader method, IUpdateSession::CreateUpdateDownloader, wua.iupdatesession_createupdatedownloader, wuapi/IUpdateSession::CreateUpdateDownloader
+ms.keywords: CreateUpdateDownloader, CreateUpdateDownloader method [Windows Update Agent], CreateUpdateDownloader method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateDownloader method, IUpdateSession.CreateUpdateDownloader, IUpdateSession::CreateUpdateDownloader, wua.iupdatesession_createupdatedownloader, wuapi/IUpdateSession::CreateUpdateDownloader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSession::CreateUpdateDownloader method
+# IUpdateSession::CreateUpdateDownloader
 
 
 ## -description

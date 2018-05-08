@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.Clone
-title: IMFASFMutualExclusion::Clone method
+title: IMFASFMutualExclusion::Clone
 author: windows-driver-content
 description: Creates a copy of the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_clone.htm
 old-project: medfound
 ms.assetid: 32bd09d7-9d85-4692-8b2f-6afab3234fa9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 32bd09d7-9d85-4692-8b2f-6afab3234fa9, Clone method [Media Foundation], Clone method [Media Foundation], IMFASFMutualExclusion interface, Clone,IMFASFMutualExclusion.Clone, IMFASFMutualExclusion, IMFASFMutualExclusion interface [Media Foundation], Clone method, IMFASFMutualExclusion::Clone, mf.imfasfmutualexclusion_clone, wmcontainer/IMFASFMutualExclusion::Clone
+ms.date: 5/3/2018
+ms.keywords: 32bd09d7-9d85-4692-8b2f-6afab3234fa9, Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],Clone method, IMFASFMutualExclusion.Clone, IMFASFMutualExclusion::Clone, mf.imfasfmutualexclusion_clone, wmcontainer/IMFASFMutualExclusion::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFMutualExclusion::Clone method
+# IMFASFMutualExclusion::Clone
 
 
 ## -description

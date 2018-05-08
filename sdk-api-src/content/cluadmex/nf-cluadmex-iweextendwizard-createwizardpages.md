@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWEExtendWizard.CreateWizardPages
-title: IWEExtendWizard::CreateWizardPages method
+title: IWEExtendWizard::CreateWizardPages
 author: windows-driver-content
 description: Allows you to create wizard pages and add them to Failover Cluster Administrator's New Resource Wizard or Cluster Application Wizard.
 old-location: mscs\iweextendwizard_createwizardpages.htm
@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: b52ea5a5-aa80-4f65-9bab-b60fa8363b01
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CreateWizardPages method [Failover Cluster], CreateWizardPages method [Failover Cluster], IWEExtendWizard interface, CreateWizardPages,IWEExtendWizard.CreateWizardPages, IWEExtendWizard, IWEExtendWizard interface [Failover Cluster], CreateWizardPages method, IWEExtendWizard::CreateWizardPages, _wolf_iweextendwizard_createwizardpages, cluadmex/IWEExtendWizard::CreateWizardPages, mscs.iweextendwizard_createwizardpages
+ms.keywords: CreateWizardPages, CreateWizardPages method [Failover Cluster], CreateWizardPages method [Failover Cluster],IWEExtendWizard interface, IWEExtendWizard interface [Failover Cluster],CreateWizardPages method, IWEExtendWizard.CreateWizardPages, IWEExtendWizard::CreateWizardPages, _wolf_iweextendwizard_createwizardpages, cluadmex/IWEExtendWizard::CreateWizardPages, mscs.iweextendwizard_createwizardpages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWEExtendWizard::CreateWizardPages method
+# IWEExtendWizard::CreateWizardPages
 
 
 ## -description

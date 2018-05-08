@@ -7,7 +7,7 @@ old-location: iphlp\getbestinterface.htm
 old-project: IpHlp
 ms.assetid: 9171cdf7-4057-4a8d-a34c-1b7b1f94bcb1
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: GetBestInterface, GetBestInterface function [IP Helper], _iphlp_getbestinterface, iphlp.getbestinterface, iphlpapi/GetBestInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetContentStatus
-title: IXpsOMCoreProperties::GetContentStatus method
+title: IXpsOMCoreProperties::GetContentStatus
 author: windows-driver-content
 description: Gets the contentStatus property.
 old-location: xps\ixpsomcoreproperties_getcontentstatus.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 9e058e8d-ace6-4892-87c1-07e28ff24462
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetContentStatus method [XPS Documents and Packaging], GetContentStatus method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetContentStatus,IXpsOMCoreProperties.GetContentStatus, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetContentStatus method, IXpsOMCoreProperties::GetContentStatus, xps.ixpsomcoreproperties_getcontentstatus, xpsobjectmodel/IXpsOMCoreProperties::GetContentStatus
+ms.keywords: GetContentStatus, GetContentStatus method [XPS Documents and Packaging], GetContentStatus method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetContentStatus method, IXpsOMCoreProperties.GetContentStatus, IXpsOMCoreProperties::GetContentStatus, xps.ixpsomcoreproperties_getcontentstatus, xpsobjectmodel/IXpsOMCoreProperties::GetContentStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetContentStatus method
+# IXpsOMCoreProperties::GetContentStatus
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSiloAction.GetDescription
-title: IEnhancedStorageSiloAction::GetDescription method
+title: IEnhancedStorageSiloAction::GetDescription
 author: windows-driver-content
 description: Returns a descriptive string for the action specified by the IEnhancedStorageSiloAction object.
 old-location: enstor\ienhancedstoragesiloaction_getdescription.htm
@@ -8,7 +8,7 @@ old-project: enstor
 ms.assetid: 1eb94182-520e-40a6-87e6-6ead2ab2e188
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDescription method [Enhanced Storage], GetDescription method [Enhanced Storage], IEnhancedStorageSiloAction interface, GetDescription,IEnhancedStorageSiloAction.GetDescription, IEnhancedStorageSiloAction, IEnhancedStorageSiloAction interface [Enhanced Storage], GetDescription method, IEnhancedStorageSiloAction::GetDescription, ehstorapi/IEnhancedStorageSiloAction::GetDescription, enstor.ienhancedstoragesiloaction_getdescription
+ms.keywords: GetDescription, GetDescription method [Enhanced Storage], GetDescription method [Enhanced Storage],IEnhancedStorageSiloAction interface, IEnhancedStorageSiloAction interface [Enhanced Storage],GetDescription method, IEnhancedStorageSiloAction.GetDescription, IEnhancedStorageSiloAction::GetDescription, ehstorapi/IEnhancedStorageSiloAction::GetDescription, enstor.ienhancedstoragesiloaction_getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEnhancedStorageSiloAction::GetDescription method
+# IEnhancedStorageSiloAction::GetDescription
 
 
 ## -description

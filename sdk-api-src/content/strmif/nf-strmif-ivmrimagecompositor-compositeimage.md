@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.CompositeImage
-title: IVMRImageCompositor::CompositeImage method
+title: IVMRImageCompositor::CompositeImage
 author: windows-driver-content
 description: The CompositeImage method composites the current frames available in each input stream.
 old-location: dshow\ivmrimagecompositor_compositeimage.htm
 old-project: DirectShow
 ms.assetid: 5af73543-d391-404a-9797-8fbb3f24879c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CompositeImage method [DirectShow], CompositeImage method [DirectShow], IVMRImageCompositor interface, CompositeImage,IVMRImageCompositor.CompositeImage, IVMRImageCompositor, IVMRImageCompositor interface [DirectShow], CompositeImage method, IVMRImageCompositor::CompositeImage, IVMRImageCompositorCompositeImage, dshow.ivmrimagecompositor_compositeimage, strmif/IVMRImageCompositor::CompositeImage
+ms.date: 4/30/2018
+ms.keywords: CompositeImage, CompositeImage method [DirectShow], CompositeImage method [DirectShow],IVMRImageCompositor interface, IVMRImageCompositor interface [DirectShow],CompositeImage method, IVMRImageCompositor.CompositeImage, IVMRImageCompositor::CompositeImage, IVMRImageCompositorCompositeImage, dshow.ivmrimagecompositor_compositeimage, strmif/IVMRImageCompositor::CompositeImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRImageCompositor::CompositeImage method
+# IVMRImageCompositor::CompositeImage
 
 
 ## -description

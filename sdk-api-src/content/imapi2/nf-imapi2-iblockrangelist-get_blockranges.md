@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IBlockRangeList.get_BlockRanges
-title: IBlockRangeList::get_BlockRanges method
+title: IBlockRangeList::get_BlockRanges
 author: windows-driver-content
 description: Returns the list of sector ranges in the form of a safe array of variants of type VT_Dispatch.
 old-location: imapi\iblockrangelist_get_blockranges.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: b9c7e4ee-0fb2-4a15-8277-8db82a4f3afe
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IBlockRangeList, IBlockRangeList interface [IMAPI], get_BlockRanges method, IBlockRangeList::get_BlockRanges, get_BlockRanges method [IMAPI], get_BlockRanges method [IMAPI], IBlockRangeList interface, get_BlockRanges,IBlockRangeList.get_BlockRanges, imapi.iblockrangelist_get_blockranges, imapi2/IBlockRangeList::get_BlockRanges
+ms.keywords: IBlockRangeList interface [IMAPI],get_BlockRanges method, IBlockRangeList.get_BlockRanges, IBlockRangeList::get_BlockRanges, get_BlockRanges, get_BlockRanges method [IMAPI], get_BlockRanges method [IMAPI],IBlockRangeList interface, imapi.iblockrangelist_get_blockranges, imapi2/IBlockRangeList::get_BlockRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IBlockRangeList::get_BlockRanges method
+# IBlockRangeList::get_BlockRanges
 
 
 ## -description

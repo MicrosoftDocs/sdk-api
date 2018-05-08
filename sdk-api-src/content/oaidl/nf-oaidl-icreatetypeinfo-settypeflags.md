@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetTypeFlags
-title: ICreateTypeInfo::SetTypeFlags method
+title: ICreateTypeInfo::SetTypeFlags
 author: windows-driver-content
 description: Sets type flags of the type description being created.
 old-location: automat\icreatetypeinfo_settypeflags.htm
 old-project: automat
 ms.assetid: 7dfc1673-6242-4beb-978f-85f2000fab8e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetTypeFlags method, ICreateTypeInfo::SetTypeFlags, SetTypeFlags method [Automation], SetTypeFlags method [Automation], ICreateTypeInfo interface, SetTypeFlags,ICreateTypeInfo.SetTypeFlags, _oa96_ICreateTypeInfo_SetTypeFlags, automat.icreatetypeinfo_settypeflags, oaidl/ICreateTypeInfo::SetTypeFlags
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo interface [Automation],SetTypeFlags method, ICreateTypeInfo.SetTypeFlags, ICreateTypeInfo::SetTypeFlags, SetTypeFlags, SetTypeFlags method [Automation], SetTypeFlags method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetTypeFlags, automat.icreatetypeinfo_settypeflags, oaidl/ICreateTypeInfo::SetTypeFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo::SetTypeFlags method
+# ICreateTypeInfo::SetTypeFlags
 
 
 ## -description

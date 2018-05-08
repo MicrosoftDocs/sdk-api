@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetProgress
-title: IBackgroundCopyJob::GetProgress method
+title: IBackgroundCopyJob::GetProgress
 author: windows-driver-content
 description: Retrieves job-related progress information, such as the number of bytes and files transferred.
 old-location: bits\ibackgroundcopyjob_getprogress.htm
 old-project: Bits
 ms.assetid: 30aae990-1cc1-468b-9e5f-7ef5ce6eeb9a
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetProgress method [BITS], GetProgress method [BITS], IBackgroundCopyJob interface, GetProgress,IBackgroundCopyJob.GetProgress, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetProgress method, IBackgroundCopyJob::GetProgress, _drz_ibackgroundcopyjob_getprogress, bits.ibackgroundcopyjob_getprogress, bits/IBackgroundCopyJob::GetProgress
+ms.date: 4/27/2018
+ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetProgress method, IBackgroundCopyJob.GetProgress, IBackgroundCopyJob::GetProgress, _drz_ibackgroundcopyjob_getprogress, bits.ibackgroundcopyjob_getprogress, bits/IBackgroundCopyJob::GetProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::GetProgress method
+# IBackgroundCopyJob::GetProgress
 
 
 ## -description

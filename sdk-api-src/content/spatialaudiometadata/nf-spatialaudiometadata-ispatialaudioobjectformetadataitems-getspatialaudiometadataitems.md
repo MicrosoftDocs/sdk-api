@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems
-title: ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems method
+title: ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems
 author: windows-driver-content
 description: Gets a pointer to the ISpatialAudioMetadataItems object which stores metadata items for the ISpatialAudioObjectForMetadataItems.
 old-location: coreaudio\ispatialaudioobjectformetadataitems_getspatialaudiometadataitems.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: FD356AA9-F4BC-4864-8A9F-994EB527E123
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetSpatialAudioMetadataItems method [Core Audio], GetSpatialAudioMetadataItems method [Core Audio], ISpatialAudioObjectForMetadataItems interface, GetSpatialAudioMetadataItems,ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems, ISpatialAudioObjectForMetadataItems, ISpatialAudioObjectForMetadataItems interface [Core Audio], GetSpatialAudioMetadataItems method, ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems, coreaudio.ispatialaudioobjectformetadataitems_getspatialaudiometadataitems, spatialaudiometadata/ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems
+ms.keywords: GetSpatialAudioMetadataItems, GetSpatialAudioMetadataItems method [Core Audio], GetSpatialAudioMetadataItems method [Core Audio],ISpatialAudioObjectForMetadataItems interface, ISpatialAudioObjectForMetadataItems interface [Core Audio],GetSpatialAudioMetadataItems method, ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems, ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems, coreaudio.ispatialaudioobjectformetadataitems_getspatialaudiometadataitems, spatialaudiometadata/ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems method
+# ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems
 
 
 ## -description

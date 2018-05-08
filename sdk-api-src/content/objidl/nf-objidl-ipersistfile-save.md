@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistFile.Save
-title: IPersistFile::Save method
+title: IPersistFile::Save
 author: windows-driver-content
 description: Saves a copy of the object to the specified file.
 old-location: com\ipersistfile_save.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: da9581e8-98c7-4592-8ee1-a1bc8232635b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPersistFile, IPersistFile interface [COM], Save method, IPersistFile::Save, Save method [COM], Save method [COM], IPersistFile interface, Save,IPersistFile.Save, _com_ipersistfile_save, com.ipersistfile_save, objidl/IPersistFile::Save
+ms.keywords: IPersistFile interface [COM],Save method, IPersistFile.Save, IPersistFile::Save, Save, Save method [COM], Save method [COM],IPersistFile interface, _com_ipersistfile_save, com.ipersistfile_save, objidl/IPersistFile::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistFile::Save method
+# IPersistFile::Save
 
 
 ## -description

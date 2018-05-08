@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IStartMenuPinnedList.RemoveFromList
-title: IStartMenuPinnedList::RemoveFromList method
+title: IStartMenuPinnedList::RemoveFromList
 author: windows-driver-content
 description: Windows Vista:\_Removes an item from the Start menu pinned list, which is the list in the upper left position of the Start menu.
 old-location: shell\IStartMenuPinnedList_RemoveFromList.htm
 old-project: shell
 ms.assetid: 8c725c4b-4de6-433b-a647-3c13674084f2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IStartMenuPinnedList, IStartMenuPinnedList interface [Windows Shell], RemoveFromList method, IStartMenuPinnedList::RemoveFromList, RemoveFromList method [Windows Shell], RemoveFromList method [Windows Shell], IStartMenuPinnedList interface, RemoveFromList,IStartMenuPinnedList.RemoveFromList, _shell_IStartMenuPinnedList_RemoveFromList, shell.IStartMenuPinnedList_RemoveFromList, shobjidl/IStartMenuPinnedList::RemoveFromList
+ms.date: 5/3/2018
+ms.keywords: IStartMenuPinnedList interface [Windows Shell],RemoveFromList method, IStartMenuPinnedList.RemoveFromList, IStartMenuPinnedList::RemoveFromList, RemoveFromList, RemoveFromList method [Windows Shell], RemoveFromList method [Windows Shell],IStartMenuPinnedList interface, _shell_IStartMenuPinnedList_RemoveFromList, shell.IStartMenuPinnedList_RemoveFromList, shobjidl/IStartMenuPinnedList::RemoveFromList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IStartMenuPinnedList::RemoveFromList method
+# IStartMenuPinnedList::RemoveFromList
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.Progress
-title: ISyncMgrSynchronizeCallback::Progress method
+title: ISyncMgrSynchronizeCallback::Progress
 author: windows-driver-content
 description: Called by a registered application to update the progress information and determine whether an operation should continue.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_progress.htm
 old-project: shell
 ms.assetid: 924310aa-e210-476d-b532-f235de943498
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], Progress method, ISyncMgrSynchronizeCallback::Progress, Progress method [Windows Shell], Progress method [Windows Shell], ISyncMgrSynchronizeCallback interface, Progress,ISyncMgrSynchronizeCallback.Progress, mobsync/ISyncMgrSynchronizeCallback::Progress, shell.syncmgr_isyncmgrsynchronizecallback_progress, syncmgr.isyncmgrsynchronizecallback_progress
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],Progress method, ISyncMgrSynchronizeCallback.Progress, ISyncMgrSynchronizeCallback::Progress, Progress, Progress method [Windows Shell], Progress method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::Progress, shell.syncmgr_isyncmgrsynchronizecallback_progress, syncmgr.isyncmgrsynchronizecallback_progress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronizeCallback::Progress method
+# ISyncMgrSynchronizeCallback::Progress
 
 
 ## -description

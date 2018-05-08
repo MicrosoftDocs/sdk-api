@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderAction.put_Age
-title: IFolderAction::put_Age method
+title: IFolderAction::put_Age
 author: windows-driver-content
 description: Retrieves or sets the interval to wait between applying the actions.
 old-location: pla\ifolderaction_age.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 5f664ee8-895e-4235-a119-9dc10ababffe
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Age property [PLA], Age property [PLA], IFolderAction interface, IFolderAction, IFolderAction interface [PLA], Age property, IFolderAction.Age, IFolderAction::get_Age, IFolderAction::put_Age, base.ifolderaction_age, pla.ifolderaction_age, pla/IFolderAction::Age, pla/IFolderAction::get_Age, pla/IFolderAction::put_Age, put_Age,IFolderAction.put_Age
+ms.keywords: Age property [PLA], Age property [PLA],IFolderAction interface, IFolderAction interface [PLA],Age property, IFolderAction.Age, IFolderAction.put_Age, IFolderAction::Age, IFolderAction::get_Age, IFolderAction::put_Age, base.ifolderaction_age, pla.ifolderaction_age, pla/IFolderAction::Age, pla/IFolderAction::get_Age, pla/IFolderAction::put_Age, put_Age
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFolderAction::put_Age method
+# IFolderAction::put_Age
 
 
 ## -description

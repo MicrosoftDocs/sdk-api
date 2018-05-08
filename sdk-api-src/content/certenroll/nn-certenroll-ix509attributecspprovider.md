@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 08954c87-f63b-4e1a-91b4-3773e392999b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509AttributeCspProvider, IX509AttributeCspProvider interface [Security], IX509AttributeCspProvider interface [Security], described, certenroll/IX509AttributeCspProvider, security.ix509attributecspprovider
+ms.keywords: IX509AttributeCspProvider, IX509AttributeCspProvider interface [Security], IX509AttributeCspProvider interface [Security],described, certenroll/IX509AttributeCspProvider, security.ix509attributecspprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

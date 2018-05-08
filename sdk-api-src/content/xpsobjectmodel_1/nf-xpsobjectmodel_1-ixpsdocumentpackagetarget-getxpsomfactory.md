@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsDocumentPackageTarget.GetXpsOMFactory
-title: IXpsDocumentPackageTarget::GetXpsOMFactory method
+title: IXpsDocumentPackageTarget::GetXpsOMFactory
 author: windows-driver-content
 description: Gets the IXpsOMObjectFactory object for the document package.
 old-location: xps\ixpsdocumentpackagetarget_getxpsomfactory.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 130114DF-DEE7-4ADD-8080-7D804F9F296E
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetXpsOMFactory method [XPS Documents and Packaging], GetXpsOMFactory method [XPS Documents and Packaging], IXpsDocumentPackageTarget interface, GetXpsOMFactory,IXpsDocumentPackageTarget.GetXpsOMFactory, IXpsDocumentPackageTarget, IXpsDocumentPackageTarget interface [XPS Documents and Packaging], GetXpsOMFactory method, IXpsDocumentPackageTarget::GetXpsOMFactory, xps.ixpsdocumentpackagetarget_getxpsomfactory, xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsOMFactory
+ms.keywords: GetXpsOMFactory, GetXpsOMFactory method [XPS Documents and Packaging], GetXpsOMFactory method [XPS Documents and Packaging],IXpsDocumentPackageTarget interface, IXpsDocumentPackageTarget interface [XPS Documents and Packaging],GetXpsOMFactory method, IXpsDocumentPackageTarget.GetXpsOMFactory, IXpsDocumentPackageTarget::GetXpsOMFactory, xps.ixpsdocumentpackagetarget_getxpsomfactory, xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsOMFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsDocumentPackageTarget::GetXpsOMFactory method
+# IXpsDocumentPackageTarget::GetXpsOMFactory
 
 
 ## -description

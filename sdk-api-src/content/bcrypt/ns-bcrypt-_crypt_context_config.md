@@ -7,7 +7,7 @@ old-location: security\crypt_context_config.htm
 old-project: SecCNG
 ms.assetid: 3e07b7ae-84ef-4b77-bd49-d96906eaa4f8
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: "*PCRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG structure [Security], CRYPT_EXCLUSIVE, CRYPT_OVERRIDE, PCRYPT_CONTEXT_CONFIG, PCRYPT_CONTEXT_CONFIG structure pointer [Security], _CRYPT_CONTEXT_CONFIG, bcrypt/CRYPT_CONTEXT_CONFIG, bcrypt/PCRYPT_CONTEXT_CONFIG, security.crypt_context_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices

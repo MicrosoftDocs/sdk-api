@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.put_Channel
-title: IMSVidAnalogTuner::put_Channel method
+title: IMSVidAnalogTuner::put_Channel
 author: windows-driver-content
 description: The put_Channel method specifies the tuner's channel.
 old-location: mstv\imsvidanalogtuner_put_channel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1afd718d-bca9-478c-b56e-413de0f15656
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidAnalogTuner, IMSVidAnalogTuner interface [Microsoft TV Technologies], put_Channel method, IMSVidAnalogTuner::put_Channel, IMSVidAnalogTunerput_Channel, mstv.imsvidanalogtuner_put_channel, put_Channel method [Microsoft TV Technologies], put_Channel method [Microsoft TV Technologies], IMSVidAnalogTuner interface, put_Channel,IMSVidAnalogTuner.put_Channel, segment/IMSVidAnalogTuner::put_Channel
+ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_Channel method, IMSVidAnalogTuner.put_Channel, IMSVidAnalogTuner::put_Channel, IMSVidAnalogTunerput_Channel, mstv.imsvidanalogtuner_put_channel, put_Channel, put_Channel method [Microsoft TV Technologies], put_Channel method [Microsoft TV Technologies],IMSVidAnalogTuner interface, segment/IMSVidAnalogTuner::put_Channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidAnalogTuner::put_Channel method
+# IMSVidAnalogTuner::put_Channel
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: e39d40fd-3d43-4cdc-b41a-07a87a11bfad
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], IX509EnrollmentPolicyServer interface [Security], described, certenroll/IX509EnrollmentPolicyServer, security.ix509enrollmentpolicyserver
+ms.keywords: IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], IX509EnrollmentPolicyServer interface [Security],described, certenroll/IX509EnrollmentPolicyServer, security.ix509enrollmentpolicyserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

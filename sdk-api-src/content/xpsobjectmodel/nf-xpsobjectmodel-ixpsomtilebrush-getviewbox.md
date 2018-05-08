@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetViewbox
-title: IXpsOMTileBrush::GetViewbox method
+title: IXpsOMTileBrush::GetViewbox
 author: windows-driver-content
 description: Gets the portion of the source image to be used by the tile.
 old-location: xps\ixpsomtilebrush_getviewbox.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: dc884aa6-3652-4b94-80f6-83c345973d46
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetViewbox method [XPS Documents and Packaging], GetViewbox method [XPS Documents and Packaging], IXpsOMTileBrush interface, GetViewbox,IXpsOMTileBrush.GetViewbox, IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], GetViewbox method, IXpsOMTileBrush::GetViewbox, xps.ixpsomtilebrush_getviewbox, xpsobjectmodel/IXpsOMTileBrush::GetViewbox
+ms.keywords: GetViewbox, GetViewbox method [XPS Documents and Packaging], GetViewbox method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetViewbox method, IXpsOMTileBrush.GetViewbox, IXpsOMTileBrush::GetViewbox, xps.ixpsomtilebrush_getviewbox, xpsobjectmodel/IXpsOMTileBrush::GetViewbox
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMTileBrush::GetViewbox method
+# IXpsOMTileBrush::GetViewbox
 
 
 ## -description

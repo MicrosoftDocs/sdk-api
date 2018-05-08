@@ -66,14 +66,14 @@ The <b>TF_DA_COLOR</b> structure contains color data used in the display attribu
 Specifies the color type as defined in the <a href="https://msdn.microsoft.com/f692e188-d2f4-453b-a576-c6c05fd5f02a">TF_DA_COLORTYPE</a> enumeration.
 
 
-#### - cr
-
-Specifies the color as an RGB value. This member is used only if <b>type</b> is equal to TF_CT_COLORREF.
-
-
-#### - nIndex
+### -field nIndex
 
 Specifies the color as a system color index as defined in <a href="base.getsyscolor">GetSysColor</a>. This member is used only if <b>type</b> is equal to TF_CT_SYSCOLOR.
+
+
+### -field cr
+
+Specifies the color as an RGB value. This member is used only if <b>type</b> is equal to TF_CT_COLORREF.
 
 
 ## -see-also

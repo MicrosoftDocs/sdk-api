@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedFrameworkId
-title: IUIAutomationElement::get_CachedFrameworkId method
+title: IUIAutomationElement::get_CachedFrameworkId
 author: windows-driver-content
 description: Retrieves the cached name of the underlying UI framework associated with the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedFrameworkId.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: da793d93-276b-47ea-a78f-bbdd83f1bc07
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedFrameworkId property [Windows Accessibility], CachedFrameworkId property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedFrameworkId property, IUIAutomationElement.CachedFrameworkId, IUIAutomationElement::get_CachedFrameworkId, get_CachedFrameworkId,IUIAutomationElement.get_CachedFrameworkId, uiauto.uiauto_IUIAutomationElement_CachedFrameworkId, uiauto_IUIAutomationElement_CachedFrameworkId, uiautomationclient/IUIAutomationElement::CachedFrameworkId, uiautomationclient/IUIAutomationElement::get_CachedFrameworkId, winauto.uiauto_IUIAutomationElement_CachedFrameworkId
+ms.keywords: CachedFrameworkId property [Windows Accessibility], CachedFrameworkId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedFrameworkId property, IUIAutomationElement.CachedFrameworkId, IUIAutomationElement.get_CachedFrameworkId, IUIAutomationElement::CachedFrameworkId, IUIAutomationElement::get_CachedFrameworkId, get_CachedFrameworkId, uiauto.uiauto_IUIAutomationElement_CachedFrameworkId, uiauto_IUIAutomationElement_CachedFrameworkId, uiautomationclient/IUIAutomationElement::CachedFrameworkId, uiautomationclient/IUIAutomationElement::get_CachedFrameworkId, winauto.uiauto_IUIAutomationElement_CachedFrameworkId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CachedFrameworkId method
+# IUIAutomationElement::get_CachedFrameworkId
 
 
 ## -description

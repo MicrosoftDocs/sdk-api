@@ -7,7 +7,7 @@ old-location: controls\DPA_LoadStream.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_loadstream.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: DPA_LoadStream, DPA_LoadStream function [Windows Controls], _win32_DPA_LoadStream, _win32_DPA_LoadStream_cpp, controls.DPA_LoadStream, controls._win32_DPA_LoadStream, dpa_dsa/DPA_LoadStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

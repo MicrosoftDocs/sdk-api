@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMStreamSelect.Enable
-title: IAMStreamSelect::Enable method
+title: IAMStreamSelect::Enable
 author: windows-driver-content
 description: The Enable method enables or disables a given stream.
 old-location: dshow\iamstreamselect_enable.htm
 old-project: DirectShow
 ms.assetid: ac17a218-34a4-49aa-9b4d-cb34f3c2a5d3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Enable method [DirectShow], Enable method [DirectShow], IAMStreamSelect interface, Enable,IAMStreamSelect.Enable, IAMStreamSelect, IAMStreamSelect interface [DirectShow], Enable method, IAMStreamSelect::Enable, IAMStreamSelectEnable, dshow.iamstreamselect_enable, strmif/IAMStreamSelect::Enable
+ms.date: 4/30/2018
+ms.keywords: Enable, Enable method [DirectShow], Enable method [DirectShow],IAMStreamSelect interface, IAMStreamSelect interface [DirectShow],Enable method, IAMStreamSelect.Enable, IAMStreamSelect::Enable, IAMStreamSelectEnable, dshow.iamstreamselect_enable, strmif/IAMStreamSelect::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMStreamSelect::Enable method
+# IAMStreamSelect::Enable
 
 
 ## -description

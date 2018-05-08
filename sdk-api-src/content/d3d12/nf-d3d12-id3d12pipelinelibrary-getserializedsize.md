@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12PipelineLibrary.GetSerializedSize
-title: ID3D12PipelineLibrary::GetSerializedSize method
+title: ID3D12PipelineLibrary::GetSerializedSize
 author: windows-driver-content
 description: Returns the amount of memory required to serialize the current contents of the database.
 old-location: direct3d12\id3d12pipelinelibrary_getserializedsize.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 45DA092B-AB9B-43BE-8F5C-AE05485EA3C1
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetSerializedSize method, GetSerializedSize method, ID3D12PipelineLibrary interface, GetSerializedSize,ID3D12PipelineLibrary.GetSerializedSize, ID3D12PipelineLibrary, ID3D12PipelineLibrary interface, GetSerializedSize method, ID3D12PipelineLibrary::GetSerializedSize, d3d12/ID3D12PipelineLibrary::GetSerializedSize, direct3d12.id3d12pipelinelibrary_getserializedsize
+ms.keywords: GetSerializedSize, GetSerializedSize method, GetSerializedSize method,ID3D12PipelineLibrary interface, ID3D12PipelineLibrary interface,GetSerializedSize method, ID3D12PipelineLibrary.GetSerializedSize, ID3D12PipelineLibrary::GetSerializedSize, d3d12/ID3D12PipelineLibrary::GetSerializedSize, direct3d12.id3d12pipelinelibrary_getserializedsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12PipelineLibrary::GetSerializedSize method
+# ID3D12PipelineLibrary::GetSerializedSize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMIndexer.StartIndexing
-title: IWMIndexer::StartIndexing method
+title: IWMIndexer::StartIndexing
 author: windows-driver-content
 description: The StartIndexing method initiates indexing.
 old-location: wmformat\iwmindexer_startindexing.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 67dfb0df-4883-49e1-a085-0b78db3967d0
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMIndexer, IWMIndexer interface [windows Media Format], StartIndexing method, IWMIndexer::StartIndexing, IWMIndexerStartIndexing, StartIndexing method [windows Media Format], StartIndexing method [windows Media Format], IWMIndexer interface, StartIndexing,IWMIndexer.StartIndexing, wmformat.iwmindexer_startindexing, wmsdkidl/IWMIndexer::StartIndexing
+ms.keywords: IWMIndexer interface [windows Media Format],StartIndexing method, IWMIndexer.StartIndexing, IWMIndexer::StartIndexing, IWMIndexerStartIndexing, StartIndexing, StartIndexing method [windows Media Format], StartIndexing method [windows Media Format],IWMIndexer interface, wmformat.iwmindexer_startindexing, wmsdkidl/IWMIndexer::StartIndexing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMIndexer::StartIndexing method
+# IWMIndexer::StartIndexing
 
 
 ## -description

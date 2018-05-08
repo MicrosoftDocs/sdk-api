@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 7FF7DCF2-0580-4B50-8EA9-87DB9478B1E8
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioEndpointFormatControl, IAudioEndpointFormatControl interface [Core Audio], IAudioEndpointFormatControl interface [Core Audio], described, audioendpoints/IAudioEndpointFormatControl, coreaudio.iaudioendpointformatcontrol
+ms.keywords: IAudioEndpointFormatControl, IAudioEndpointFormatControl interface [Core Audio], IAudioEndpointFormatControl interface [Core Audio],described, audioendpoints/IAudioEndpointFormatControl, coreaudio.iaudioendpointformatcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AudioClientProperties, AudioClientProperties
+req.typenames: AudioClientProperties
 topic_type:
 -	APIRef
 -	kbSyntax

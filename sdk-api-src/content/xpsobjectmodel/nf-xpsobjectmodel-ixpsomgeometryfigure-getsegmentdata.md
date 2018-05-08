@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentData
-title: IXpsOMGeometryFigure::GetSegmentData method
+title: IXpsOMGeometryFigure::GetSegmentData
 author: windows-driver-content
 description: Gets the segment data points for the geometry figure.
 old-location: xps\ixpsomgeometryfigure_getsegmentdata.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e2e6be6f-3a9d-4d39-875f-cd23bc82e74b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSegmentData method [XPS Documents and Packaging], GetSegmentData method [XPS Documents and Packaging], IXpsOMGeometryFigure interface, GetSegmentData,IXpsOMGeometryFigure.GetSegmentData, IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], GetSegmentData method, IXpsOMGeometryFigure::GetSegmentData, xps.ixpsomgeometryfigure_getsegmentdata, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentData
+ms.keywords: GetSegmentData, GetSegmentData method [XPS Documents and Packaging], GetSegmentData method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentData method, IXpsOMGeometryFigure.GetSegmentData, IXpsOMGeometryFigure::GetSegmentData, xps.ixpsomgeometryfigure_getsegmentdata, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigure::GetSegmentData method
+# IXpsOMGeometryFigure::GetSegmentData
 
 
 ## -description

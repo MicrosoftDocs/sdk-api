@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_DeltaCompressedContentPreferred
-title: IUpdate::get_DeltaCompressedContentPreferred method
+title: IUpdate::get_DeltaCompressedContentPreferred
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether to prefer delta-compressed content during the download and install or uninstall of the update if delta-compressed content is available.
 old-location: wua\iupdate_deltacompressedcontentpreferred.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 9fdb3918-9fc7-491f-9abb-4c2f13528817
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DeltaCompressedContentPreferred property [Windows Update Agent], DeltaCompressedContentPreferred property [Windows Update Agent], IUpdate interface, IUpdate, IUpdate interface [Windows Update Agent], DeltaCompressedContentPreferred property, IUpdate.DeltaCompressedContentPreferred, IUpdate::get_DeltaCompressedContentPreferred, get_DeltaCompressedContentPreferred,IUpdate.get_DeltaCompressedContentPreferred, wua.iupdate_deltacompressedcontentpreferred, wuapi/IUpdate::DeltaCompressedContentPreferred, wuapi/IUpdate::get_DeltaCompressedContentPreferred
+ms.keywords: DeltaCompressedContentPreferred property [Windows Update Agent], DeltaCompressedContentPreferred property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeltaCompressedContentPreferred property, IUpdate.DeltaCompressedContentPreferred, IUpdate.get_DeltaCompressedContentPreferred, IUpdate::DeltaCompressedContentPreferred, IUpdate::get_DeltaCompressedContentPreferred, get_DeltaCompressedContentPreferred, wua.iupdate_deltacompressedcontentpreferred, wuapi/IUpdate::DeltaCompressedContentPreferred, wuapi/IUpdate::get_DeltaCompressedContentPreferred
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IUpdate::get_DeltaCompressedContentPreferred method
+# IUpdate::get_DeltaCompressedContentPreferred
 
 
 ## -description

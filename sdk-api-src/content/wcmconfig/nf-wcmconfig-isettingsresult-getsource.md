@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetSource
-title: ISettingsResult::GetSource method
+title: ISettingsResult::GetSource
 author: windows-driver-content
 description: Returns the file or path where the error has occurred.
 old-location: smi\isettingsresult_getsource.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 2a76b243-5294-47a7-8ad3-b39425735866
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSource method [SMI], GetSource method [SMI], ISettingsResult interface, GetSource,ISettingsResult.GetSource, ISettingsResult, ISettingsResult interface [SMI], GetSource method, ISettingsResult::GetSource, smi.isettingsresult_getsource, wcmconfig/ISettingsResult::GetSource
+ms.keywords: GetSource, GetSource method [SMI], GetSource method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetSource method, ISettingsResult.GetSource, ISettingsResult::GetSource, smi.isettingsresult_getsource, wcmconfig/ISettingsResult::GetSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsResult::GetSource method
+# ISettingsResult::GetSource
 
 
 ## -description

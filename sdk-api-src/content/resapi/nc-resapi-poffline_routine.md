@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 1d67a4f5-66f8-4818-8b63-d0f50452f889
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Offline, Offline callback function [Failover Cluster], POFFLINE_ROUTINE, POFFLINE_ROUTINE callback function [Failover Cluster], _wolf_offline, mscs.offline, resapi/Offline, resapi/POFFLINE_ROUTINE
+ms.keywords: Offline, Offline callback, Offline callback function [Failover Cluster], POFFLINE_ROUTINE, POFFLINE_ROUTINE callback function [Failover Cluster], _wolf_offline, mscs.offline, resapi/Offline, resapi/POFFLINE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# POFFLINE_ROUTINE callback
+# POFFLINE_ROUTINE callback function
 
 
 ## -description

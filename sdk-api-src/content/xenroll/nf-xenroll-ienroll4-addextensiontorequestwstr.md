@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll4.addExtensionToRequestWStr
-title: IEnroll4::addExtensionToRequestWStr method
+title: IEnroll4::addExtensionToRequestWStr
 author: windows-driver-content
 description: Adds an extension to the request.
 old-location: security\ienroll4_addextensiontorequestwstr.htm
 old-project: SecCrypto
 ms.assetid: 4ecca64b-a8f4-4816-8bf1-7b8e74262ac0
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll4, IEnroll4 interface [Security], addExtensionToRequestWStr method, IEnroll4::addExtensionToRequestWStr, addExtensionToRequestWStr method [Security], addExtensionToRequestWStr method [Security], IEnroll4 interface, addExtensionToRequestWStr,IEnroll4.addExtensionToRequestWStr, security.ienroll4_addextensiontorequestwstr, xenroll/IEnroll4::addExtensionToRequestWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll4 interface [Security],addExtensionToRequestWStr method, IEnroll4.addExtensionToRequestWStr, IEnroll4::addExtensionToRequestWStr, addExtensionToRequestWStr, addExtensionToRequestWStr method [Security], addExtensionToRequestWStr method [Security],IEnroll4 interface, security.ienroll4_addextensiontorequestwstr, xenroll/IEnroll4::addExtensionToRequestWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll4::addExtensionToRequestWStr method
+# IEnroll4::addExtensionToRequestWStr
 
 
 ## -description

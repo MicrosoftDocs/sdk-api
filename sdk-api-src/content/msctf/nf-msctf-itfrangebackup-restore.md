@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRangeBackup.Restore
-title: ITfRangeBackup::Restore method
+title: ITfRangeBackup::Restore
 author: windows-driver-content
 description: ITfRangeBackup::Restore method
 old-location: tsf\itfrangebackup_restore.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: bb168504-34c0-4d30-826e-61926fd10a2a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfRangeBackup, ITfRangeBackup interface [Text Services Framework], Restore method, ITfRangeBackup::Restore, Restore method [Text Services Framework], Restore method [Text Services Framework], ITfRangeBackup interface, Restore,ITfRangeBackup.Restore, _tsf_itfrangebackup_restore_ref, msctf/ITfRangeBackup::Restore, tsf.itfrangebackup_restore
+ms.keywords: ITfRangeBackup interface [Text Services Framework],Restore method, ITfRangeBackup.Restore, ITfRangeBackup::Restore, Restore, Restore method [Text Services Framework], Restore method [Text Services Framework],ITfRangeBackup interface, _tsf_itfrangebackup_restore_ref, msctf/ITfRangeBackup::Restore, tsf.itfrangebackup_restore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfRangeBackup::Restore method
+# ITfRangeBackup::Restore
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyChange.ApplyToPropVariant
-title: IPropertyChange::ApplyToPropVariant method
+title: IPropertyChange::ApplyToPropVariant
 author: windows-driver-content
 description: Applies a change to a property value.
 old-location: properties\IPropertyChange_ApplyToPropVariant.htm
 old-project: properties
 ms.assetid: 7d7b6de5-0ed9-44fc-b2b3-c0f4cd8bf9c5
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: ApplyToPropVariant method [Windows Properties], ApplyToPropVariant method [Windows Properties], IPropertyChange interface, ApplyToPropVariant,IPropertyChange.ApplyToPropVariant, IPropertyChange, IPropertyChange interface [Windows Properties], ApplyToPropVariant method, IPropertyChange::ApplyToPropVariant, _shell_IPropertyChange_ApplyToPropVariant, properties.IPropertyChange_ApplyToPropVariant, propsys/IPropertyChange::ApplyToPropVariant, shell.IPropertyChange_ApplyToPropVariant
+ms.date: 4/27/2018
+ms.keywords: ApplyToPropVariant, ApplyToPropVariant method [Windows Properties], ApplyToPropVariant method [Windows Properties],IPropertyChange interface, IPropertyChange interface [Windows Properties],ApplyToPropVariant method, IPropertyChange.ApplyToPropVariant, IPropertyChange::ApplyToPropVariant, _shell_IPropertyChange_ApplyToPropVariant, properties.IPropertyChange_ApplyToPropVariant, propsys/IPropertyChange::ApplyToPropVariant, shell.IPropertyChange_ApplyToPropVariant
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyChange::ApplyToPropVariant method
+# IPropertyChange::ApplyToPropVariant
 
 
 ## -description

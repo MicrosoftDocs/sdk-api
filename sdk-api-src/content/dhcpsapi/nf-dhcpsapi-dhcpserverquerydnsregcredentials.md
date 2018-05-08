@@ -7,7 +7,7 @@ old-location: dhcp\dhcpserverquerydnsregcredentials.htm
 old-project: DHCP
 ms.assetid: 773cbfef-1dc5-4d44-9997-591acbfb3783
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpServerQueryDnsRegCredentials, DhcpServerQueryDnsRegCredentials function [DHCP], dhcp.dhcpserverquerydnsregcredentials, dhcpsapi/DhcpServerQueryDnsRegCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

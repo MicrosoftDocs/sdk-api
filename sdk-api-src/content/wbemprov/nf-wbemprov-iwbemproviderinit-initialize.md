@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemProviderInit.Initialize
-title: IWbemProviderInit::Initialize method
+title: IWbemProviderInit::Initialize
 author: windows-driver-content
 description: Called by Windows Management to initialize a provider to receive client requests. All types of providers must implement this method.
 old-location: wmi\iwbemproviderinit_initialize.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 437d803d-b916-4209-bbf0-64b1ec3b7068
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemProviderInit, IWbemProviderInit interface [Windows Management Instrumentation], Initialize method, IWbemProviderInit::Initialize, Initialize method [Windows Management Instrumentation], Initialize method [Windows Management Instrumentation], IWbemProviderInit interface, Initialize,IWbemProviderInit.Initialize, _hmm_iwbemproviderinit_initialize, wbemprov/IWbemProviderInit::Initialize, wmi.iwbemproviderinit_initialize
+ms.keywords: IWbemProviderInit interface [Windows Management Instrumentation],Initialize method, IWbemProviderInit.Initialize, IWbemProviderInit::Initialize, Initialize, Initialize method [Windows Management Instrumentation], Initialize method [Windows Management Instrumentation],IWbemProviderInit interface, _hmm_iwbemproviderinit_initialize, wbemprov/IWbemProviderInit::Initialize, wmi.iwbemproviderinit_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemProviderInit::Initialize method
+# IWbemProviderInit::Initialize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetUnicodeString
-title: IXpsOMGlyphs::GetUnicodeString method
+title: IXpsOMGlyphs::GetUnicodeString
 author: windows-driver-content
 description: Gets the text in unescaped UTF-16 scalar values.
 old-location: xps\ixpsomglyphs_getunicodestring.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0b1573b5-c9c7-4c7b-8511-c5c2fc42ed3e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetUnicodeString method [XPS Documents and Packaging], GetUnicodeString method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetUnicodeString,IXpsOMGlyphs.GetUnicodeString, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetUnicodeString method, IXpsOMGlyphs::GetUnicodeString, xps.ixpsomglyphs_getunicodestring, xpsobjectmodel/IXpsOMGlyphs::GetUnicodeString
+ms.keywords: GetUnicodeString, GetUnicodeString method [XPS Documents and Packaging], GetUnicodeString method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetUnicodeString method, IXpsOMGlyphs.GetUnicodeString, IXpsOMGlyphs::GetUnicodeString, xps.ixpsomglyphs_getunicodestring, xpsobjectmodel/IXpsOMGlyphs::GetUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetUnicodeString method
+# IXpsOMGlyphs::GetUnicodeString
 
 
 ## -description

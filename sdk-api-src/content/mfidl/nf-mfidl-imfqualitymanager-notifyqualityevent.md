@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyQualityEvent
-title: IMFQualityManager::NotifyQualityEvent method
+title: IMFQualityManager::NotifyQualityEvent
 author: windows-driver-content
 description: Called when a pipeline component sends an MEQualityNotify event.
 old-location: mf\imfqualitymanager_notifyqualityevent.htm
 old-project: medfound
 ms.assetid: e88a5672-7afd-4d7e-afa9-e92f9803aca7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFQualityManager, IMFQualityManager interface [Media Foundation], NotifyQualityEvent method, IMFQualityManager::NotifyQualityEvent, NotifyQualityEvent method [Media Foundation], NotifyQualityEvent method [Media Foundation], IMFQualityManager interface, NotifyQualityEvent,IMFQualityManager.NotifyQualityEvent, e88a5672-7afd-4d7e-afa9-e92f9803aca7, mf.imfqualitymanager_notifyqualityevent, mfidl/IMFQualityManager::NotifyQualityEvent
+ms.date: 5/3/2018
+ms.keywords: IMFQualityManager interface [Media Foundation],NotifyQualityEvent method, IMFQualityManager.NotifyQualityEvent, IMFQualityManager::NotifyQualityEvent, NotifyQualityEvent, NotifyQualityEvent method [Media Foundation], NotifyQualityEvent method [Media Foundation],IMFQualityManager interface, e88a5672-7afd-4d7e-afa9-e92f9803aca7, mf.imfqualitymanager_notifyqualityevent, mfidl/IMFQualityManager::NotifyQualityEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFQualityManager::NotifyQualityEvent method
+# IMFQualityManager::NotifyQualityEvent
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent3.BroadcastEvent
-title: IMSVidStreamBufferSourceEvent3::BroadcastEvent method
+title: IMSVidStreamBufferSourceEvent3::BroadcastEvent
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersourceevent3_broadcastevent.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 05eeb539-3a0a-4a00-abe5-0a014629d186
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: BroadcastEvent method [Microsoft TV Technologies], BroadcastEvent method [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent3 interface, BroadcastEvent,IMSVidStreamBufferSourceEvent3.BroadcastEvent, IMSVidStreamBufferSourceEvent3, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies], BroadcastEvent method, IMSVidStreamBufferSourceEvent3::BroadcastEvent, IMSVidStreamBufferSourceEvent3BroadcastEvent, mstv.imsvidstreambuffersourceevent3_broadcastevent, segment/IMSVidStreamBufferSourceEvent3::BroadcastEvent
+ms.keywords: BroadcastEvent, BroadcastEvent method [Microsoft TV Technologies], BroadcastEvent method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],BroadcastEvent method, IMSVidStreamBufferSourceEvent3.BroadcastEvent, IMSVidStreamBufferSourceEvent3::BroadcastEvent, IMSVidStreamBufferSourceEvent3BroadcastEvent, mstv.imsvidstreambuffersourceevent3_broadcastevent, segment/IMSVidStreamBufferSourceEvent3::BroadcastEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSourceEvent3::BroadcastEvent method
+# IMSVidStreamBufferSourceEvent3::BroadcastEvent
 
 
 ## -description

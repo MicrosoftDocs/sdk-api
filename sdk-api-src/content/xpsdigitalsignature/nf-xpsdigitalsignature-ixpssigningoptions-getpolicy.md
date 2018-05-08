@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetPolicy
-title: IXpsSigningOptions::GetPolicy method
+title: IXpsSigningOptions::GetPolicy
 author: windows-driver-content
 description: Gets the XPS_SIGN_POLICY value that specifies the signing policy.
 old-location: xps\ixpssigningoptions_getpolicy.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0643ee4d-7991-4570-8dce-8166f007abc8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetPolicy method [XPS Documents and Packaging], GetPolicy method [XPS Documents and Packaging], IXpsSigningOptions interface, GetPolicy,IXpsSigningOptions.GetPolicy, IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], GetPolicy method, IXpsSigningOptions::GetPolicy, xps.ixpssigningoptions_getpolicy, xpsdigitalsignature/IXpsSigningOptions::GetPolicy
+ms.keywords: GetPolicy, GetPolicy method [XPS Documents and Packaging], GetPolicy method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetPolicy method, IXpsSigningOptions.GetPolicy, IXpsSigningOptions::GetPolicy, xps.ixpssigningoptions_getpolicy, xpsdigitalsignature/IXpsSigningOptions::GetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSigningOptions::GetPolicy method
+# IXpsSigningOptions::GetPolicy
 
 
 ## -description

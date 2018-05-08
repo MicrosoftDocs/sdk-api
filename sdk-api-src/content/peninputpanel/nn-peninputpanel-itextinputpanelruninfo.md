@@ -7,8 +7,8 @@ old-location: tablet\itextinputpanelruninfo.htm
 old-project: tablet
 ms.assetid: 9269a94f-c33f-4e25-bab8-be68e6ead63f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 9269a94f-c33f-4e25-bab8-be68e6ead63f, ITextInputPanelRunInfo, ITextInputPanelRunInfo interface [Tablet PC], ITextInputPanelRunInfo interface [Tablet PC], described, peninputpanel/ITextInputPanelRunInfo, tablet.itextinputpanelruninfo
+ms.date: 5/2/2018
+ms.keywords: 9269a94f-c33f-4e25-bab8-be68e6ead63f, ITextInputPanelRunInfo, ITextInputPanelRunInfo interface [Tablet PC], ITextInputPanelRunInfo interface [Tablet PC],described, peninputpanel/ITextInputPanelRunInfo, tablet.itextinputpanelruninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

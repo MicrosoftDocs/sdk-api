@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.RegisterStereoStatusWindow
-title: IDXGIFactory2::RegisterStereoStatusWindow method
+title: IDXGIFactory2::RegisterStereoStatusWindow
 author: windows-driver-content
 description: Registers an application window to receive notification messages of changes of stereo status.
 old-location: direct3ddxgi\idxgifactory2_RegisterStereoStatusWindow.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 42DA05B8-1490-45B6-B22D-95176EBE7150
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIFactory2, IDXGIFactory2 interface [DXGI], RegisterStereoStatusWindow method, IDXGIFactory2::RegisterStereoStatusWindow, RegisterStereoStatusWindow method [DXGI], RegisterStereoStatusWindow method [DXGI], IDXGIFactory2 interface, RegisterStereoStatusWindow,IDXGIFactory2.RegisterStereoStatusWindow, direct3ddxgi.idxgifactory2_RegisterStereoStatusWindow, dxgi1_2/IDXGIFactory2::RegisterStereoStatusWindow
+ms.keywords: IDXGIFactory2 interface [DXGI],RegisterStereoStatusWindow method, IDXGIFactory2.RegisterStereoStatusWindow, IDXGIFactory2::RegisterStereoStatusWindow, RegisterStereoStatusWindow, RegisterStereoStatusWindow method [DXGI], RegisterStereoStatusWindow method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_RegisterStereoStatusWindow, dxgi1_2/IDXGIFactory2::RegisterStereoStatusWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIFactory2::RegisterStereoStatusWindow method
+# IDXGIFactory2::RegisterStereoStatusWindow
 
 
 ## -description

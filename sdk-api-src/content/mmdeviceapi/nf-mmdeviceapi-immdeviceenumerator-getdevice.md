@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.GetDevice
-title: IMMDeviceEnumerator::GetDevice method
+title: IMMDeviceEnumerator::GetDevice
 author: windows-driver-content
 description: The GetDevice method retrieves an audio endpoint device that is identified by an endpoint ID string.
 old-location: coreaudio\immdeviceenumerator_getdevice.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 88cd7acc-a5d7-406d-ac73-bae357ad2ee2
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetDevice method [Core Audio], GetDevice method [Core Audio], IMMDeviceEnumerator interface, GetDevice,IMMDeviceEnumerator.GetDevice, IMMDeviceEnumerator, IMMDeviceEnumerator interface [Core Audio], GetDevice method, IMMDeviceEnumerator::GetDevice, IMMDeviceEnumeratorGetDevice, coreaudio.immdeviceenumerator_getdevice, mmdeviceapi/IMMDeviceEnumerator::GetDevice
+ms.keywords: GetDevice, GetDevice method [Core Audio], GetDevice method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],GetDevice method, IMMDeviceEnumerator.GetDevice, IMMDeviceEnumerator::GetDevice, IMMDeviceEnumeratorGetDevice, coreaudio.immdeviceenumerator_getdevice, mmdeviceapi/IMMDeviceEnumerator::GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMMDeviceEnumerator::GetDevice method
+# IMMDeviceEnumerator::GetDevice
 
 
 ## -description

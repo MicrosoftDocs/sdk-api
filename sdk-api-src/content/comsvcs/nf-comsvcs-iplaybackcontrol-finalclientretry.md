@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IPlaybackControl.FinalClientRetry
-title: IPlaybackControl::FinalClientRetry method
+title: IPlaybackControl::FinalClientRetry
 author: windows-driver-content
 description: Informs the client-side exception handling component that all Message Queuing attempts to deliver the message to the server were rejected. The message ended up on the client-side Xact dead letter queue.
 old-location: cos\iplaybackcontrol_finalclientretry.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 3fa51832-0e68-4e76-bbdb-ce54f76fbae6
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: FinalClientRetry method [COM+], FinalClientRetry method [COM+], IPlaybackControl interface, FinalClientRetry,IPlaybackControl.FinalClientRetry, IPlaybackControl, IPlaybackControl interface [COM+], FinalClientRetry method, IPlaybackControl::FinalClientRetry, _cos_IPlaybackControl_FinalClientRetry, comsvcs/IPlaybackControl::FinalClientRetry, cos.iplaybackcontrol_finalclientretry
+ms.keywords: FinalClientRetry, FinalClientRetry method [COM+], FinalClientRetry method [COM+],IPlaybackControl interface, IPlaybackControl interface [COM+],FinalClientRetry method, IPlaybackControl.FinalClientRetry, IPlaybackControl::FinalClientRetry, _cos_IPlaybackControl_FinalClientRetry, comsvcs/IPlaybackControl::FinalClientRetry, cos.iplaybackcontrol_finalclientretry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPlaybackControl::FinalClientRetry method
+# IPlaybackControl::FinalClientRetry
 
 
 ## -description

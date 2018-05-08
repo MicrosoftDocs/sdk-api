@@ -7,7 +7,7 @@ old-location: ad\ds_repl_kcc_dsa_failures.htm
 old-project: AD
 ms.assetid: bb011502-38ae-43b7-a6ad-de16b499f61b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DS_REPL_KCC_DSA_FAILURES, DS_REPL_KCC_DSA_FAILURES structure [Active Directory], DS_REPL_KCC_DSA_FAILURESW, _DS_REPL_KCC_DSA_FAILURESW, _glines_ds_repl_kcc_dsa_failures, ad.ds__repl__kcc__dsa__failures, ad.ds_repl_kcc_dsa_failures, ntdsapi/DS_REPL_KCC_DSA_FAILURES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,6 +67,16 @@ Contains the number of elements in the <b>rgMetaData</b> array.
 ### -field dwReserved
 
 Reserved for future use.
+
+
+### -field rgDsaFailure.size_is
+
+ 
+
+
+### -field rgDsaFailure.size_is.cNumEntries
+
+ 
 
 
 ### -field rgDsaFailure

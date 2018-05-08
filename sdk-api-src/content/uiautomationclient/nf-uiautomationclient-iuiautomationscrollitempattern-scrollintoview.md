@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollItemPattern.ScrollIntoView
-title: IUIAutomationScrollItemPattern::ScrollIntoView method
+title: IUIAutomationScrollItemPattern::ScrollIntoView
 author: windows-driver-content
 description: Scrolls the content area of a container object to display the UI Automation element within the visible region (viewport) of the container.
 old-location: winauto\uiauto_IUIAutomationScrollItemPattern_ScrollIntoView.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 66991918-dd06-400a-902d-887ff226de16
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationScrollItemPattern, IUIAutomationScrollItemPattern interface [Windows Accessibility], ScrollIntoView method, IUIAutomationScrollItemPattern::ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility], IUIAutomationScrollItemPattern interface, ScrollIntoView,IUIAutomationScrollItemPattern.ScrollIntoView, uiauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView, uiauto_IUIAutomationScrollItemPattern_ScrollIntoView, uiautomationclient/IUIAutomationScrollItemPattern::ScrollIntoView, winauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView
+ms.keywords: IUIAutomationScrollItemPattern interface [Windows Accessibility],ScrollIntoView method, IUIAutomationScrollItemPattern.ScrollIntoView, IUIAutomationScrollItemPattern::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],IUIAutomationScrollItemPattern interface, uiauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView, uiauto_IUIAutomationScrollItemPattern_ScrollIntoView, uiautomationclient/IUIAutomationScrollItemPattern::ScrollIntoView, winauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationScrollItemPattern::ScrollIntoView method
+# IUIAutomationScrollItemPattern::ScrollIntoView
 
 
 ## -description

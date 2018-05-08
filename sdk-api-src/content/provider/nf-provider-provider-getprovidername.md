@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.GetProviderName
-title: Provider::GetProviderName method
+title: Provider::GetProviderName
 author: windows-driver-content
 description: The GetProviderName method retrieves the name of the class used in the constructor of the provider.
 old-location: wmi\provider_getprovidername.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 9ea7558d-11bd-4f19-b4d3-a711eca632a8
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetProviderName method [Windows Management Instrumentation], GetProviderName method [Windows Management Instrumentation], Provider interface, GetProviderName,Provider.GetProviderName, Provider, Provider interface [Windows Management Instrumentation], GetProviderName method, Provider::GetProviderName, _hmm_provider_getprovidername, provider/Provider::GetProviderName, wmi.provider_getprovidername
+ms.keywords: GetProviderName, GetProviderName method [Windows Management Instrumentation], GetProviderName method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetProviderName method, Provider.GetProviderName, Provider::GetProviderName, _hmm_provider_getprovidername, provider/Provider::GetProviderName, wmi.provider_getprovidername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# Provider::GetProviderName method
+# Provider::GetProviderName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetRecordServiceType
-title: IDvbServiceListDescriptor::GetRecordServiceType method
+title: IDvbServiceListDescriptor::GetRecordServiceType
 author: windows-driver-content
 description: Gets the service_type field value from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicelistdescriptor_getrecordservicetype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c9771d79-7f39-463a-aa20-d5377bbba610
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordServiceType method [Microsoft TV Technologies], GetRecordServiceType method [Microsoft TV Technologies], IDvbServiceListDescriptor interface, GetRecordServiceType,IDvbServiceListDescriptor.GetRecordServiceType, IDvbServiceListDescriptor, IDvbServiceListDescriptor interface [Microsoft TV Technologies], GetRecordServiceType method, IDvbServiceListDescriptor::GetRecordServiceType, dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceType, mstv.idvbservicelistdescriptor_getrecordservicetype
+ms.keywords: GetRecordServiceType, GetRecordServiceType method [Microsoft TV Technologies], GetRecordServiceType method [Microsoft TV Technologies],IDvbServiceListDescriptor interface, IDvbServiceListDescriptor interface [Microsoft TV Technologies],GetRecordServiceType method, IDvbServiceListDescriptor.GetRecordServiceType, IDvbServiceListDescriptor::GetRecordServiceType, dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceType, mstv.idvbservicelistdescriptor_getrecordservicetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbServiceListDescriptor::GetRecordServiceType method
+# IDvbServiceListDescriptor::GetRecordServiceType
 
 
 ## -description

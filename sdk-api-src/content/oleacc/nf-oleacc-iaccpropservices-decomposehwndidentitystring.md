@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.DecomposeHwndIdentityString
-title: IAccPropServices::DecomposeHwndIdentityString method
+title: IAccPropServices::DecomposeHwndIdentityString
 author: windows-driver-content
 description: Use this method to determine the HWND, object ID, and child ID for the accessible element identified by the identity string.
 old-location: winauto\iaccpropservices_iaccpropservices__decomposehwndidentitystring.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: b14932a1-7585-49e4-80eb-498cf48796ee
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DecomposeHwndIdentityString method [Windows Accessibility], DecomposeHwndIdentityString method [Windows Accessibility], IAccPropServices interface, DecomposeHwndIdentityString,IAccPropServices.DecomposeHwndIdentityString, IAccPropServices, IAccPropServices interface [Windows Accessibility], DecomposeHwndIdentityString method, IAccPropServices::DecomposeHwndIdentityString, _msaa_IAccPropServices_DecomposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__decomposehwndidentitystring, oleacc/IAccPropServices::DecomposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehwndidentitystring
+ms.keywords: DecomposeHwndIdentityString, DecomposeHwndIdentityString method [Windows Accessibility], DecomposeHwndIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],DecomposeHwndIdentityString method, IAccPropServices.DecomposeHwndIdentityString, IAccPropServices::DecomposeHwndIdentityString, _msaa_IAccPropServices_DecomposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__decomposehwndidentitystring, oleacc/IAccPropServices::DecomposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehwndidentitystring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccPropServices::DecomposeHwndIdentityString method
+# IAccPropServices::DecomposeHwndIdentityString
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplates.Clear
-title: IX509CertificateTemplates::Clear method
+title: IX509CertificateTemplates::Clear
 author: windows-driver-content
 description: Removes all IX509CertificateTemplate objects from the collection.
 old-location: security\ix509certificatetemplates_clear.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: e0f39478-f68b-4227-8e5f-812796feffc7
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Clear method [Security], Clear method [Security], IX509CertificateTemplates interface, Clear,IX509CertificateTemplates.Clear, IX509CertificateTemplates, IX509CertificateTemplates interface [Security], Clear method, IX509CertificateTemplates::Clear, certenroll/IX509CertificateTemplates::Clear, security.ix509certificatetemplates_clear
+ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509CertificateTemplates interface, IX509CertificateTemplates interface [Security],Clear method, IX509CertificateTemplates.Clear, IX509CertificateTemplates::Clear, certenroll/IX509CertificateTemplates::Clear, security.ix509certificatetemplates_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509CertificateTemplates::Clear method
+# IX509CertificateTemplates::Clear
 
 
 ## -description

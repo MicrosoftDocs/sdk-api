@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetTableIndex
-title: IMetaDataTables::GetTableIndex method
+title: IMetaDataTables::GetTableIndex
 author: windows-driver-content
 description: Gets the index for the table referenced by the specified token.
 old-location: winrt\imetadatatables_gettableindex.htm
 old-project: WinRT
 ms.assetid: 4bc00076-f706-4941-84bd-f1b9c61934e5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetTableIndex method [Windows Runtime], GetTableIndex method [Windows Runtime], IMetaDataTables interface, GetTableIndex,IMetaDataTables.GetTableIndex, IMetaDataTables, IMetaDataTables interface [Windows Runtime], GetTableIndex method, IMetaDataTables::GetTableIndex, rometadataapi/IMetaDataTables::GetTableIndex, winrt.imetadatatables_gettableindex
+ms.date: 5/4/2018
+ms.keywords: GetTableIndex, GetTableIndex method [Windows Runtime], GetTableIndex method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetTableIndex method, IMetaDataTables.GetTableIndex, IMetaDataTables::GetTableIndex, rometadataapi/IMetaDataTables::GetTableIndex, winrt.imetadatatables_gettableindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataTables::GetTableIndex method
+# IMetaDataTables::GetTableIndex
 
 
 ## -description

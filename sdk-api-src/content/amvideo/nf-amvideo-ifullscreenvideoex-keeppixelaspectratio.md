@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.KeepPixelAspectRatio
-title: IFullScreenVideoEx::KeepPixelAspectRatio method
+title: IFullScreenVideoEx::KeepPixelAspectRatio
 author: windows-driver-content
 description: The KeepPixelAspectRatio method specifies whether to maintain the pixel aspect ratio. The Full Screen Renderer filter does not support this method; it always maintains the pixel aspect ratio.
 old-location: dshow\ifullscreenvideoex_keeppixelaspectratio.htm
 old-project: DirectShow
 ms.assetid: f2c57560-7ffa-4bd4-8d0c-a048dafa35bc
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], KeepPixelAspectRatio method, IFullScreenVideoEx::KeepPixelAspectRatio, IFullScreenVideoExKeepPixelAspectRatio, KeepPixelAspectRatio method [DirectShow], KeepPixelAspectRatio method [DirectShow], IFullScreenVideoEx interface, KeepPixelAspectRatio,IFullScreenVideoEx.KeepPixelAspectRatio, amvideo/IFullScreenVideoEx::KeepPixelAspectRatio, dshow.ifullscreenvideoex_keeppixelaspectratio
+ms.date: 4/30/2018
+ms.keywords: IFullScreenVideoEx interface [DirectShow],KeepPixelAspectRatio method, IFullScreenVideoEx.KeepPixelAspectRatio, IFullScreenVideoEx::KeepPixelAspectRatio, IFullScreenVideoExKeepPixelAspectRatio, KeepPixelAspectRatio, KeepPixelAspectRatio method [DirectShow], KeepPixelAspectRatio method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::KeepPixelAspectRatio, dshow.ifullscreenvideoex_keeppixelaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IFullScreenVideoEx::KeepPixelAspectRatio method
+# IFullScreenVideoEx::KeepPixelAspectRatio
 
 
 ## -description

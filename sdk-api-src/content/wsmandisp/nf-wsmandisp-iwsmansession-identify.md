@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Identify
-title: IWSManSession::Identify method
+title: IWSManSession::Identify
 author: windows-driver-content
 description: Queries a remote computer to determine if it supports the WS-Management protocol.
 old-location: winrm\iwsmansession_identify.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: d3f4e33e-436b-4f05-8696-321a3bfbacd5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManSession, IWSManSession interface [Windows Remote Management], Identify method, IWSManSession::Identify, Identify method [Windows Remote Management], Identify method [Windows Remote Management], IWSManSession interface, Identify,IWSManSession.Identify, winrm.iwsmansession_identify, wsmandisp/IWSManSession::Identify
+ms.keywords: IWSManSession interface [Windows Remote Management],Identify method, IWSManSession.Identify, IWSManSession::Identify, Identify, Identify method [Windows Remote Management], Identify method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_identify, wsmandisp/IWSManSession::Identify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManSession::Identify method
+# IWSManSession::Identify
 
 
 ## -description

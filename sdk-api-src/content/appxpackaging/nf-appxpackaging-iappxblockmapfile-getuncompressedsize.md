@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetUncompressedSize
-title: IAppxBlockMapFile::GetUncompressedSize method
+title: IAppxBlockMapFile::GetUncompressedSize
 author: windows-driver-content
 description: Retrieves the uncompressed size of the associated zip file item.
 old-location: appxpkg\iappxblockmapfile_getuncompressedsize.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 35D3EADC-F8EF-4D8F-8016-2E30976965EC
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetUncompressedSize method [App packaging and management], GetUncompressedSize method [App packaging and management], IAppxBlockMapFile interface, GetUncompressedSize,IAppxBlockMapFile.GetUncompressedSize, IAppxBlockMapFile, IAppxBlockMapFile interface [App packaging and management], GetUncompressedSize method, IAppxBlockMapFile::GetUncompressedSize, appxpackaging/IAppxBlockMapFile::GetUncompressedSize, appxpkg.iappxblockmapfile_getuncompressedsize
+ms.keywords: GetUncompressedSize, GetUncompressedSize method [App packaging and management], GetUncompressedSize method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetUncompressedSize method, IAppxBlockMapFile.GetUncompressedSize, IAppxBlockMapFile::GetUncompressedSize, appxpackaging/IAppxBlockMapFile::GetUncompressedSize, appxpkg.iappxblockmapfile_getuncompressedsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapFile::GetUncompressedSize method
+# IAppxBlockMapFile::GetUncompressedSize
 
 
 ## -description

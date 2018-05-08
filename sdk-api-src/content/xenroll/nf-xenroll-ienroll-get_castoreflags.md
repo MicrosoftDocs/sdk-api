@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.get_CAStoreFlags
-title: IEnroll::get_CAStoreFlags method
+title: IEnroll::get_CAStoreFlags
 author: windows-driver-content
 description: The CAStoreFlags property of IEnroll4 sets or retrieves a flag that controls the certification authority (CA) store when the store is opened.
 old-location: security\ienroll4_castoreflags.htm
 old-project: SecCrypto
 ms.assetid: 294a8a38-9c76-4e5c-ac11-2fcb8b81727e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CAStoreFlags property [Security], CAStoreFlags property [Security], IEnroll interface, IEnroll, IEnroll interface [Security], CAStoreFlags property, IEnroll.CAStoreFlags, IEnroll::get_CAStoreFlags, IEnroll::put_CAStoreFlags, get_CAStoreFlags,IEnroll.get_CAStoreFlags, security.ienroll4_castoreflags, xenroll/IEnroll::CAStoreFlags, xenroll/IEnroll::get_CAStoreFlags, xenroll/IEnroll::put_CAStoreFlags
+ms.date: 4/30/2018
+ms.keywords: CAStoreFlags property [Security], CAStoreFlags property [Security],IEnroll interface, IEnroll interface [Security],CAStoreFlags property, IEnroll.CAStoreFlags, IEnroll.get_CAStoreFlags, IEnroll::CAStoreFlags, IEnroll::get_CAStoreFlags, IEnroll::put_CAStoreFlags, get_CAStoreFlags, security.ienroll4_castoreflags, xenroll/IEnroll::CAStoreFlags, xenroll/IEnroll::get_CAStoreFlags, xenroll/IEnroll::put_CAStoreFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::get_CAStoreFlags method
+# IEnroll::get_CAStoreFlags
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceMethods.Cancel
-title: IPortableDeviceServiceMethods::Cancel method
+title: IPortableDeviceServiceMethods::Cancel
 author: windows-driver-content
 description: Cancels a pending method invocation.
 old-location: wpdsdk\iportabledeviceservicemethods_cancel.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 03281c4f-4dba-4ac4-af5d-d700c914ed01
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK], IPortableDeviceServiceMethods interface, Cancel,IPortableDeviceServiceMethods.Cancel, IPortableDeviceServiceMethods, IPortableDeviceServiceMethods interface [Windows Portable Devices SDK], Cancel method, IPortableDeviceServiceMethods::Cancel, portabledeviceapi/IPortableDeviceServiceMethods::Cancel, wpdsdk.iportabledeviceservicemethods_cancel
+ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceServiceMethods.Cancel, IPortableDeviceServiceMethods::Cancel, portabledeviceapi/IPortableDeviceServiceMethods::Cancel, wpdsdk.iportabledeviceservicemethods_cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceMethods::Cancel method
+# IPortableDeviceServiceMethods::Cancel
 
 
 ## -description

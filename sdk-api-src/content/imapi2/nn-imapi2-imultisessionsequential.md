@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: b8124597-e75a-4f95-a25c-8cf59f452548
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMultisessionSequential, IMultisessionSequential interface [IMAPI], IMultisessionSequential interface [IMAPI], described, imapi.imultisessionsequential, imapi2/IMultisessionSequential
+ms.keywords: IMultisessionSequential, IMultisessionSequential interface [IMAPI], IMultisessionSequential interface [IMAPI],described, imapi.imultisessionsequential, imapi2/IMultisessionSequential
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

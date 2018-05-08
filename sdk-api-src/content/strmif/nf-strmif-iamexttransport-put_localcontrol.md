@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_LocalControl
-title: IAMExtTransport::put_LocalControl method
+title: IAMExtTransport::put_LocalControl
 author: windows-driver-content
 description: The put_LocalControl method switches the device between local and remote control.
 old-location: dshow\iamexttransport_put_localcontrol.htm
 old-project: DirectShow
 ms.assetid: 1ac75eb7-4b4c-402b-8e4e-f94488eccec1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], put_LocalControl method, IAMExtTransport::put_LocalControl, IAMExtTransportput_LocalControl, dshow.iamexttransport_put_localcontrol, put_LocalControl method [DirectShow], put_LocalControl method [DirectShow], IAMExtTransport interface, put_LocalControl,IAMExtTransport.put_LocalControl, strmif/IAMExtTransport::put_LocalControl
+ms.date: 4/30/2018
+ms.keywords: IAMExtTransport interface [DirectShow],put_LocalControl method, IAMExtTransport.put_LocalControl, IAMExtTransport::put_LocalControl, IAMExtTransportput_LocalControl, dshow.iamexttransport_put_localcontrol, put_LocalControl, put_LocalControl method [DirectShow], put_LocalControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_LocalControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::put_LocalControl method
+# IAMExtTransport::put_LocalControl
 
 
 ## -description

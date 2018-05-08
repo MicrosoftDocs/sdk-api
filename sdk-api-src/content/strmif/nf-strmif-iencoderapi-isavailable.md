@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEncoderAPI.IsAvailable
-title: IEncoderAPI::IsAvailable method
+title: IEncoderAPI::IsAvailable
 author: windows-driver-content
 description: IEncoderAPI is no longer available for use.
 old-location: mstv\iencoderapi_isavailable.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ad94b70f-fd35-44b4-8322-9891cd7f17cc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IEncoderAPI, IEncoderAPI interface [Microsoft TV Technologies], IsAvailable method, IEncoderAPI::IsAvailable, IEncoderAPIIsAvailable, IsAvailable method [Microsoft TV Technologies], IsAvailable method [Microsoft TV Technologies], IEncoderAPI interface, IsAvailable,IEncoderAPI.IsAvailable, mstv.iencoderapi_isavailable, strmif/IEncoderAPI::IsAvailable
+ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsAvailable method, IEncoderAPI.IsAvailable, IEncoderAPI::IsAvailable, IEncoderAPIIsAvailable, IsAvailable, IsAvailable method [Microsoft TV Technologies], IsAvailable method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_isavailable, strmif/IEncoderAPI::IsAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEncoderAPI::IsAvailable method
+# IEncoderAPI::IsAvailable
 
 
 ## -description

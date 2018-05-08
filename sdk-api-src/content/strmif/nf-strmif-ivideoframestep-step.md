@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVideoFrameStep.Step
-title: IVideoFrameStep::Step method
+title: IVideoFrameStep::Step
 author: windows-driver-content
 description: The Step method causes the filter graph to step forward by the specified number of frames.
 old-location: dshow\ivideoframestep_step.htm
 old-project: DirectShow
 ms.assetid: 1366b8b4-ea7a-4528-8a5a-03a3de265d89
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoFrameStep, IVideoFrameStep interface [DirectShow], Step method, IVideoFrameStep::Step, IVideoFrameStepStep, Step method [DirectShow], Step method [DirectShow], IVideoFrameStep interface, Step,IVideoFrameStep.Step, dshow.ivideoframestep_step, strmif/IVideoFrameStep::Step
+ms.date: 4/30/2018
+ms.keywords: IVideoFrameStep interface [DirectShow],Step method, IVideoFrameStep.Step, IVideoFrameStep::Step, IVideoFrameStepStep, Step, Step method [DirectShow], Step method [DirectShow],IVideoFrameStep interface, dshow.ivideoframestep_step, strmif/IVideoFrameStep::Step
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVideoFrameStep::Step method
+# IVideoFrameStep::Step
 
 
 ## -description

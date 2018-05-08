@@ -180,6 +180,16 @@ The <b>EnableProperty</b>EVENT_ENABLE_PROPERTY_PROCESS_START_KEY needs to be pas
  
 
 
+### -field Linkage
+
+Reserved.
+
+
+### -field Reserved2
+
+Reserved.
+
+
 ### -field DataSize
 
 Size, in bytes, of the extended data that <b>DataPtr</b> points to.
@@ -188,16 +198,6 @@ Size, in bytes, of the extended data that <b>DataPtr</b> points to.
 ### -field DataPtr
 
 Pointer to the extended data. The <b>ExtType</b> member determines the type of extended data to which this member points.
-
-
-#### - Linkage
-
-Reserved.
-
-
-#### - Reserved2
-
-Reserved.
 
 
 ## -see-also

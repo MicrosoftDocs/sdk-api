@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.get_CanZoom
-title: ITransformProvider2::get_CanZoom method
+title: ITransformProvider2::get_CanZoom
 author: windows-driver-content
 description: Indicates whether the control supports zooming of its viewport.
 old-location: winauto\uiauto_ITransformProvider2_CanZoom.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: D7B323C1-D33C-4685-99A0-A5F3E8F3A605
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CanZoom property [Windows Accessibility], CanZoom property [Windows Accessibility], ITransformProvider2 interface, ITransformProvider2, ITransformProvider2 interface [Windows Accessibility], CanZoom property, ITransformProvider2.CanZoom, ITransformProvider2::get_CanZoom, get_CanZoom,ITransformProvider2.get_CanZoom, uiautomationcore/ITransformProvider2::CanZoom, uiautomationcore/ITransformProvider2::get_CanZoom, winauto.uiauto_ITransformProvider2_CanZoom
+ms.keywords: CanZoom property [Windows Accessibility], CanZoom property [Windows Accessibility],ITransformProvider2 interface, ITransformProvider2 interface [Windows Accessibility],CanZoom property, ITransformProvider2.CanZoom, ITransformProvider2.get_CanZoom, ITransformProvider2::CanZoom, ITransformProvider2::get_CanZoom, get_CanZoom, uiautomationcore/ITransformProvider2::CanZoom, uiautomationcore/ITransformProvider2::get_CanZoom, winauto.uiauto_ITransformProvider2_CanZoom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITransformProvider2::get_CanZoom method
+# ITransformProvider2::get_CanZoom
 
 
 ## -description

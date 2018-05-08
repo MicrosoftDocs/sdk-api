@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateIdentity.get_RevisionNumber
-title: IUpdateIdentity::get_RevisionNumber method
+title: IUpdateIdentity::get_RevisionNumber
 author: windows-driver-content
 description: Gets the revision number of an update.
 old-location: wua\iupdateidentity_revisionnumber.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 1d95a83f-52d9-49d1-a604-087aef449e9a
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateIdentity, IUpdateIdentity interface [Windows Update Agent], RevisionNumber property, IUpdateIdentity.RevisionNumber, IUpdateIdentity::get_RevisionNumber, RevisionNumber property [Windows Update Agent], RevisionNumber property [Windows Update Agent], IUpdateIdentity interface, get_RevisionNumber,IUpdateIdentity.get_RevisionNumber, wua.iupdateidentity_revisionnumber, wuapi/IUpdateIdentity::RevisionNumber, wuapi/IUpdateIdentity::get_RevisionNumber
+ms.keywords: IUpdateIdentity interface [Windows Update Agent],RevisionNumber property, IUpdateIdentity.RevisionNumber, IUpdateIdentity.get_RevisionNumber, IUpdateIdentity::RevisionNumber, IUpdateIdentity::get_RevisionNumber, RevisionNumber property [Windows Update Agent], RevisionNumber property [Windows Update Agent],IUpdateIdentity interface, get_RevisionNumber, wua.iupdateidentity_revisionnumber, wuapi/IUpdateIdentity::RevisionNumber, wuapi/IUpdateIdentity::get_RevisionNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateIdentity::get_RevisionNumber method
+# IUpdateIdentity::get_RevisionNumber
 
 
 ## -description

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DEVMODEA, *PDEVMODEA, *NPDEVMODEA, *LPDEVMODEA, DEVMODEA, *PDEVMODEA, *NPDEVMODEA, *LPDEVMODEA
+req.typenames: DEVMODEA, *PDEVMODEA, *NPDEVMODEA, *LPDEVMODEA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -1024,6 +1024,54 @@ The number of pixels per logical inch. Printer drivers do not use this member.
  
 
 
+### -field DUMMYUNIONNAME2.dmDisplayFlags
+
+
+              Specifies the device's display mode. This member can be a combination of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>DM_GRAYSCALE</td>
+<td>Specifies that the display is a noncolor device. If this flag is not set, color is assumed.</td>
+</tr>
+<tr>
+<td>DM_INTERLACED</td>
+<td>Specifies that the display mode is interlaced. If the flag is not set, noninterlaced is assumed.</td>
+</tr>
+</table>
+ 
+
+
+                Display drivers use this member, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
+              
+
+
+### -field DUMMYUNIONNAME2.dmNup
+
+
+              Specifies where the NUP is done. It can be one of the following.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>DMNUP_SYSTEM</td>
+<td>The print spooler does the NUP.</td>
+</tr>
+<tr>
+<td>DMNUP_ONEUP</td>
+<td>The application does the NUP.</td>
+</tr>
+</table>
+ 
+
+
 ### -field dmDisplayFrequency
 
 
@@ -1261,54 +1309,6 @@ The printer driver must provide a user interface for setting this member. Most p
 <a id="dmbin_smallfmt"></a>
 
 ##### - dmDefaultSource.DMBIN_UPPER
-
-
-#### - dmDisplayFlags
-
-
-              Specifies the device's display mode. This member can be a combination of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>DM_GRAYSCALE</td>
-<td>Specifies that the display is a noncolor device. If this flag is not set, color is assumed.</td>
-</tr>
-<tr>
-<td>DM_INTERLACED</td>
-<td>Specifies that the display mode is interlaced. If the flag is not set, noninterlaced is assumed.</td>
-</tr>
-</table>
- 
-
-
-                Display drivers use this member, for example, in the <a href="https://msdn.microsoft.com/208bf1cc-c03c-4d03-92e4-32fcf856b4d8">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
-              
-
-
-#### - dmNup
-
-
-              Specifies where the NUP is done. It can be one of the following.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>DMNUP_SYSTEM</td>
-<td>The print spooler does the NUP.</td>
-</tr>
-<tr>
-<td>DMNUP_ONEUP</td>
-<td>The application does the NUP.</td>
-</tr>
-</table>
- 
 
 
 ##### - dmPrintQuality.DMRES_DRAFT

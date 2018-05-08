@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 278ef98d-fb1d-42a4-a740-07c5e713a230
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmActionEmail2, IFsrmActionEmail2 interface [File Server Resource Manager], IFsrmActionEmail2 interface [File Server Resource Manager], described, fs.ifsrmactionemail2, fsrm.ifsrmactionemail2, fsrm/IFsrmActionEmail2
+ms.keywords: IFsrmActionEmail2, IFsrmActionEmail2 interface [File Server Resource Manager], IFsrmActionEmail2 interface [File Server Resource Manager],described, fs.ifsrmactionemail2, fsrm.ifsrmactionemail2, fsrm/IFsrmActionEmail2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

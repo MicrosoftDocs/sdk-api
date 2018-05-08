@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterCallback2.OnStreamError
-title: IMFSinkWriterCallback2::OnStreamError method
+title: IMFSinkWriterCallback2::OnStreamError
 author: windows-driver-content
 description: Called when an asynchronous error occurs with the IMFSinkWriter.
 old-location: mf\imfsinkwritercallback2_onstreamerror.htm
 old-project: medfound
 ms.assetid: 31239998-9D12-46A4-B3F3-68167F6EFFDD
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSinkWriterCallback2, IMFSinkWriterCallback2 interface [Media Foundation], OnStreamError method, IMFSinkWriterCallback2::OnStreamError, OnStreamError method [Media Foundation], OnStreamError method [Media Foundation], IMFSinkWriterCallback2 interface, OnStreamError,IMFSinkWriterCallback2.OnStreamError, mf.imfsinkwritercallback2_onstreamerror, mfreadwrite/IMFSinkWriterCallback2::OnStreamError
+ms.date: 5/3/2018
+ms.keywords: IMFSinkWriterCallback2 interface [Media Foundation],OnStreamError method, IMFSinkWriterCallback2.OnStreamError, IMFSinkWriterCallback2::OnStreamError, OnStreamError, OnStreamError method [Media Foundation], OnStreamError method [Media Foundation],IMFSinkWriterCallback2 interface, mf.imfsinkwritercallback2_onstreamerror, mfreadwrite/IMFSinkWriterCallback2::OnStreamError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSinkWriterCallback2::OnStreamError method
+# IMFSinkWriterCallback2::OnStreamError
 
 
 ## -description

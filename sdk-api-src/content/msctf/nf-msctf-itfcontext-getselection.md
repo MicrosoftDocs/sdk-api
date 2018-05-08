@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetSelection
-title: ITfContext::GetSelection method
+title: ITfContext::GetSelection
 author: windows-driver-content
 description: ITfContext::GetSelection method
 old-location: tsf\itfcontext_getselection.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 08b67fd5-aebe-49f7-af78-6f49c8f47f64
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetSelection method [Text Services Framework], GetSelection method [Text Services Framework], ITfContext interface, GetSelection,ITfContext.GetSelection, ITfContext, ITfContext interface [Text Services Framework], GetSelection method, ITfContext::GetSelection, _tsf_itfcontext_getselection_ref, msctf/ITfContext::GetSelection, tsf.itfcontext_getselection
+ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetSelection method, ITfContext.GetSelection, ITfContext::GetSelection, _tsf_itfcontext_getselection_ref, msctf/ITfContext::GetSelection, tsf.itfcontext_getselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContext::GetSelection method
+# ITfContext::GetSelection
 
 
 ## -description

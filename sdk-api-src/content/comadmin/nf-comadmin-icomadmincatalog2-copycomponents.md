@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.CopyComponents
-title: ICOMAdminCatalog2::CopyComponents method
+title: ICOMAdminCatalog2::CopyComponents
 author: windows-driver-content
 description: Copies the specified components from one partition to another.
 old-location: cos\icomadmincatalog2_copycomponents.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 931f4929-b99b-4c4f-8980-eaceacc0e7fa
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CopyComponents method [COM+], CopyComponents method [COM+], ICOMAdminCatalog2 interface, CopyComponents,ICOMAdminCatalog2.CopyComponents, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], CopyComponents method, ICOMAdminCatalog2::CopyComponents, _cos_icomadmincatalog2_CopyComponents, comadmin/ICOMAdminCatalog2::CopyComponents, cos.icomadmincatalog2_copycomponents
+ms.keywords: CopyComponents, CopyComponents method [COM+], CopyComponents method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CopyComponents method, ICOMAdminCatalog2.CopyComponents, ICOMAdminCatalog2::CopyComponents, _cos_icomadmincatalog2_CopyComponents, comadmin/ICOMAdminCatalog2::CopyComponents, cos.icomadmincatalog2_copycomponents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::CopyComponents method
+# ICOMAdminCatalog2::CopyComponents
 
 
 ## -description

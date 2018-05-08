@@ -7,8 +7,8 @@ old-location: dshow\iipdvdec.htm
 old-project: DirectShow
 ms.assetid: 0e40841a-e297-4c05-aefa-7131de9c6a97
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IIPDVDec, IIPDVDec interface [DirectShow], IIPDVDec interface [DirectShow], described, IIPDVDecInterface, dshow.iipdvdec, strmif/IIPDVDec
+ms.date: 4/30/2018
+ms.keywords: IIPDVDec, IIPDVDec interface [DirectShow], IIPDVDec interface [DirectShow],described, IIPDVDecInterface, dshow.iipdvdec, strmif/IIPDVDec
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

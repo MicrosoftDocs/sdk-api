@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncCallback2.OnChangeFailed
-title: ISyncCallback2::OnChangeFailed method
+title: ISyncCallback2::OnChangeFailed
 author: windows-driver-content
 description: Occurs after a change fails to apply.
 old-location: winsync\isynccallback2_onchangefailed.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 69064507-414b-49be-91a5-3523160f3a01
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncCallback2, ISyncCallback2 interface [Windows Sync], OnChangeFailed method, ISyncCallback2::OnChangeFailed, OnChangeFailed method [Windows Sync], OnChangeFailed method [Windows Sync], ISyncCallback2 interface, OnChangeFailed,ISyncCallback2.OnChangeFailed, winsync.isynccallback2_onchangefailed, winsync/ISyncCallback2::OnChangeFailed
+ms.keywords: ISyncCallback2 interface [Windows Sync],OnChangeFailed method, ISyncCallback2.OnChangeFailed, ISyncCallback2::OnChangeFailed, OnChangeFailed, OnChangeFailed method [Windows Sync], OnChangeFailed method [Windows Sync],ISyncCallback2 interface, winsync.isynccallback2_onchangefailed, winsync/ISyncCallback2::OnChangeFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncCallback2::OnChangeFailed method
+# ISyncCallback2::OnChangeFailed
 
 
 ## -description

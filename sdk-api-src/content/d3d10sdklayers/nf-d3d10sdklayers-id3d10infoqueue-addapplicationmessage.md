@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.AddApplicationMessage
-title: ID3D10InfoQueue::AddApplicationMessage method
+title: ID3D10InfoQueue::AddApplicationMessage
 author: windows-driver-content
 description: Add a user-defined message to the message queue and send that message to debug output.
 old-location: direct3d10\id3d10infoqueue_addapplicationmessage.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_addapplicationmessage.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 1d152bbb-d6ef-f0f3-d61f-2156408503ce, AddApplicationMessage method [Direct3D 10], AddApplicationMessage method [Direct3D 10], ID3D10InfoQueue interface, AddApplicationMessage,ID3D10InfoQueue.AddApplicationMessage, ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], AddApplicationMessage method, ID3D10InfoQueue::AddApplicationMessage, d3d10sdklayers/ID3D10InfoQueue::AddApplicationMessage, direct3d10.id3d10infoqueue_addapplicationmessage
+ms.keywords: 1d152bbb-d6ef-f0f3-d61f-2156408503ce, AddApplicationMessage, AddApplicationMessage method [Direct3D 10], AddApplicationMessage method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],AddApplicationMessage method, ID3D10InfoQueue.AddApplicationMessage, ID3D10InfoQueue::AddApplicationMessage, d3d10sdklayers/ID3D10InfoQueue::AddApplicationMessage, direct3d10.id3d10infoqueue_addapplicationmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10InfoQueue::AddApplicationMessage method
+# ID3D10InfoQueue::AddApplicationMessage
 
 
 ## -description

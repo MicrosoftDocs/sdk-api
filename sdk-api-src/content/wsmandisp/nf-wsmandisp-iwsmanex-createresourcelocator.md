@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.CreateResourceLocator
-title: IWSManEx::CreateResourceLocator method
+title: IWSManEx::CreateResourceLocator
 author: windows-driver-content
 description: Creates a ResourceLocator object that can be used instead of a resource URI in Session object operations such as IWSManSession.Get, IWSManSession.Put, or Session.Enumerate.
 old-location: winrm\iwsmanex_createresourcelocator.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: b670865d-96d6-4b06-a9a5-ed74574a0108
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateResourceLocator method [Windows Remote Management], CreateResourceLocator method [Windows Remote Management], IWSManEx interface, CreateResourceLocator,IWSManEx.CreateResourceLocator, IWSManEx, IWSManEx interface [Windows Remote Management], CreateResourceLocator method, IWSManEx::CreateResourceLocator, winrm.iwsmanex_createresourcelocator, wsmandisp/IWSManEx::CreateResourceLocator
+ms.keywords: CreateResourceLocator, CreateResourceLocator method [Windows Remote Management], CreateResourceLocator method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],CreateResourceLocator method, IWSManEx.CreateResourceLocator, IWSManEx::CreateResourceLocator, winrm.iwsmanex_createresourcelocator, wsmandisp/IWSManEx::CreateResourceLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx::CreateResourceLocator method
+# IWSManEx::CreateResourceLocator
 
 
 ## -description

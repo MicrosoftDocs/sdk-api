@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcFileReader.GetFilePosition
-title: IRdcFileReader::GetFilePosition method
+title: IRdcFileReader::GetFilePosition
 author: windows-driver-content
 description: Returns the current file position.
 old-location: rdc\irdcfilereader_getfileposition.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 3cef6883-29d2-4970-9a96-3500b58449d2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetFilePosition method [Remote Differential Compression], GetFilePosition method [Remote Differential Compression], IRdcFileReader interface, GetFilePosition,IRdcFileReader.GetFilePosition, IRdcFileReader, IRdcFileReader interface [Remote Differential Compression], GetFilePosition method, IRdcFileReader::GetFilePosition, fs.irdcfilereader_getfileposition, msrdc/IRdcFileReader::GetFilePosition, rdc.irdcfilereader_getfileposition
+ms.keywords: GetFilePosition, GetFilePosition method [Remote Differential Compression], GetFilePosition method [Remote Differential Compression],IRdcFileReader interface, IRdcFileReader interface [Remote Differential Compression],GetFilePosition method, IRdcFileReader.GetFilePosition, IRdcFileReader::GetFilePosition, fs.irdcfilereader_getfileposition, msrdc/IRdcFileReader::GetFilePosition, rdc.irdcfilereader_getfileposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcFileReader::GetFilePosition method
+# IRdcFileReader::GetFilePosition
 
 
 ## -description

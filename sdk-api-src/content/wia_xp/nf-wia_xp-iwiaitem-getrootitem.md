@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaItem.GetRootItem
-title: IWiaItem::GetRootItem method
+title: IWiaItem::GetRootItem
 author: windows-driver-content
 description: The IWiaItem::GetRootItem method retrieves the root item of a tree of item objects used to represent a Windows Image Acquisition (WIA) hardware device.
 old-location: wia\_wia_IWiaItem_GetRootItem.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\getrootitem.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: GetRootItem method [WIA], GetRootItem method [WIA], IWiaItem interface, GetRootItem,IWiaItem.GetRootItem, IWiaItem, IWiaItem interface [WIA], GetRootItem method, IWiaItem::GetRootItem, _wia_IWiaItem_GetRootItem, wia._wia_IWiaItem_GetRootItem, wia_xp/IWiaItem::GetRootItem
+ms.date: 5/3/2018
+ms.keywords: GetRootItem, GetRootItem method [WIA], GetRootItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],GetRootItem method, IWiaItem.GetRootItem, IWiaItem::GetRootItem, _wia_IWiaItem_GetRootItem, wia._wia_IWiaItem_GetRootItem, wia_xp/IWiaItem::GetRootItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaItem::GetRootItem method
+# IWiaItem::GetRootItem
 
 
 ## -description

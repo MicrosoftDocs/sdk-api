@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontResource
-title: IXpsOMGlyphs::GetFontResource method
+title: IXpsOMGlyphs::GetFontResource
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMFontResource interface of the font resource object required for this text.
 old-location: xps\ixpsomglyphs_getfontresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 6ecca6a0-eb47-4511-898d-cf097a78d6f0
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetFontResource method [XPS Documents and Packaging], GetFontResource method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetFontResource,IXpsOMGlyphs.GetFontResource, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetFontResource method, IXpsOMGlyphs::GetFontResource, xps.ixpsomglyphs_getfontresource, xpsobjectmodel/IXpsOMGlyphs::GetFontResource
+ms.keywords: GetFontResource, GetFontResource method [XPS Documents and Packaging], GetFontResource method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontResource method, IXpsOMGlyphs.GetFontResource, IXpsOMGlyphs::GetFontResource, xps.ixpsomglyphs_getfontresource, xpsobjectmodel/IXpsOMGlyphs::GetFontResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetFontResource method
+# IXpsOMGlyphs::GetFontResource
 
 
 ## -description

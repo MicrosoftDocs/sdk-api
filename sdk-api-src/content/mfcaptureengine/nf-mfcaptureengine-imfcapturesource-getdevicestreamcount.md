@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetDeviceStreamCount
-title: IMFCaptureSource::GetDeviceStreamCount method
+title: IMFCaptureSource::GetDeviceStreamCount
 author: windows-driver-content
 description: Gets the number of device streams.
 old-location: mf\imfcapturesource_getdevicestreamcount.htm
 old-project: medfound
 ms.assetid: 0CD466EF-4753-42F6-A9B9-71CBB0668342
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDeviceStreamCount method [Media Foundation], GetDeviceStreamCount method [Media Foundation], IMFCaptureSource interface, GetDeviceStreamCount,IMFCaptureSource.GetDeviceStreamCount, IMFCaptureSource, IMFCaptureSource interface [Media Foundation], GetDeviceStreamCount method, IMFCaptureSource::GetDeviceStreamCount, mf.imfcapturesource_getdevicestreamcount, mfcaptureengine/IMFCaptureSource::GetDeviceStreamCount
+ms.date: 5/3/2018
+ms.keywords: GetDeviceStreamCount, GetDeviceStreamCount method [Media Foundation], GetDeviceStreamCount method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetDeviceStreamCount method, IMFCaptureSource.GetDeviceStreamCount, IMFCaptureSource::GetDeviceStreamCount, mf.imfcapturesource_getdevicestreamcount, mfcaptureengine/IMFCaptureSource::GetDeviceStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureSource::GetDeviceStreamCount method
+# IMFCaptureSource::GetDeviceStreamCount
 
 
 ## -description

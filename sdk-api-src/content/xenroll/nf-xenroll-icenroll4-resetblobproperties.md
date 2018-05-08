@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll4.resetBlobProperties
-title: ICEnroll4::resetBlobProperties method
+title: ICEnroll4::resetBlobProperties
 author: windows-driver-content
 description: Resets the properties of a BLOB.
 old-location: security\icenroll4_resetblobproperties.htm
 old-project: SecCrypto
 ms.assetid: 4ee3c056-27b0-4606-bdf6-63e5e4439274
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], resetBlobProperties method, ICEnroll4, ICEnroll4 interface [Security], resetBlobProperties method, ICEnroll4::resetBlobProperties, resetBlobProperties method [Security], resetBlobProperties method [Security], CEnroll object, resetBlobProperties method [Security], ICEnroll4 interface, resetBlobProperties,ICEnroll4.resetBlobProperties, security.icenroll4_resetblobproperties, xenroll/ICEnroll4::resetBlobProperties
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],resetBlobProperties method, ICEnroll4 interface [Security],resetBlobProperties method, ICEnroll4.resetBlobProperties, ICEnroll4::resetBlobProperties, resetBlobProperties, resetBlobProperties method [Security], resetBlobProperties method [Security],CEnroll object, resetBlobProperties method [Security],ICEnroll4 interface, security.icenroll4_resetblobproperties, xenroll/ICEnroll4::resetBlobProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll4::resetBlobProperties method
+# ICEnroll4::resetBlobProperties
 
 
 ## -description

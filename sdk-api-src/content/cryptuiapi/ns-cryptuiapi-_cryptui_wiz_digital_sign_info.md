@@ -7,7 +7,7 @@ old-location: security\cryptui_wiz_digital_sign_info.htm
 old-project: SecCrypto
 ms.assetid: 22d0bc45-0f66-4f5f-87d3-0849c4327eed
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, 0, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN_NO_ROOT, CRYPTUI_WIZ_DIGITAL_SIGN_CERT, CRYPTUI_WIZ_DIGITAL_SIGN_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_PVK, CRYPTUI_WIZ_DIGITAL_SIGN_STORE, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_FILE, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO structure pointer [Security], _CRYPTUI_WIZ_DIGITAL_SIGN_INFO, cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, security.cryptui_wiz_digital_sign_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,6 +107,16 @@ The user will be prompted for a file to sign.
  
 
 
+### -field pwszFileName
+
+A pointer to a null-terminated Unicode string that contains the path and file name of the file to sign. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_FILE</b> is specified for the <b>dwSubjectChoice</b> member.
+
+
+### -field pSignBlobInfo
+
+A pointer to a <a href="https://msdn.microsoft.com/9750f52a-f605-4f43-98e1-0f0ea947a214">CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO</a> structure that contains the BLOB to sign. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB</b> is specified for the <b>dwSubjectChoice</b> member.
+
+
 ### -field dwSigningCertChoice
 
 A value that specifies the location of the certificate that is used to sign the entity. The default value is zero. This can be one of the following values.
@@ -162,6 +172,21 @@ The certificates in the My store are used.
  
 
 
+### -field pSigningCertContext
+
+A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that contains the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a> to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT</b> is specified for the <b>dwSigningCertChoice</b> member.
+
+
+### -field pSigningCertStore
+
+A pointer to a <a href="https://msdn.microsoft.com/d3ffbf1c-e8c2-44ab-84d2-d32350d04407">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE</b> is specified for the <b>dwSigningCertChoice</b> member.
+
+
+### -field pSigningCertPvkInfo
+
+A pointer to a <a href="https://msdn.microsoft.com/0316ed0b-d4e5-4102-9ab0-637e96c7d9f5">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK</b> is specified for the <b>dwSigningCertChoice</b> member.
+
+
 ### -field pwszTimestampURL
 
 A pointer to a null-terminated Unicode string that contains the URL for the time stamp.
@@ -213,31 +238,6 @@ No additional certificates will be included in the signature.
 ### -field pSignExtInfo
 
 A pointer to a <a href="https://msdn.microsoft.com/e061aac4-8c9f-4282-a8f8-bc0c5a10e566">CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</a> structure that contains extended information about the signature.
-
-
-#### - pSignBlobInfo
-
-A pointer to a <a href="https://msdn.microsoft.com/9750f52a-f605-4f43-98e1-0f0ea947a214">CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO</a> structure that contains the BLOB to sign. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB</b> is specified for the <b>dwSubjectChoice</b> member.
-
-
-#### - pSigningCertContext
-
-A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that contains the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a> to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT</b> is specified for the <b>dwSigningCertChoice</b> member.
-
-
-#### - pSigningCertPvkInfo
-
-A pointer to a <a href="https://msdn.microsoft.com/0316ed0b-d4e5-4102-9ab0-637e96c7d9f5">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK</b> is specified for the <b>dwSigningCertChoice</b> member.
-
-
-#### - pSigningCertStore
-
-A pointer to a <a href="https://msdn.microsoft.com/d3ffbf1c-e8c2-44ab-84d2-d32350d04407">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE</b> is specified for the <b>dwSigningCertChoice</b> member.
-
-
-#### - pwszFileName
-
-A pointer to a null-terminated Unicode string that contains the path and file name of the file to sign. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_FILE</b> is specified for the <b>dwSubjectChoice</b> member.
 
 
 ## -see-also

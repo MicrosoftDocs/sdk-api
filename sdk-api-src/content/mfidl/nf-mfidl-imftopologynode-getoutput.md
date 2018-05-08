@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetOutput
-title: IMFTopologyNode::GetOutput method
+title: IMFTopologyNode::GetOutput
 author: windows-driver-content
 description: Retrieves the node that is connected to a specified output stream on this node.
 old-location: mf\imftopologynode_getoutput.htm
 old-project: medfound
 ms.assetid: 0d947d92-4669-4857-bd61-10fa8ebd2598
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 0d947d92-4669-4857-bd61-10fa8ebd2598, GetOutput method [Media Foundation], GetOutput method [Media Foundation], IMFTopologyNode interface, GetOutput,IMFTopologyNode.GetOutput, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], GetOutput method, IMFTopologyNode::GetOutput, mf.imftopologynode_getoutput, mfidl/IMFTopologyNode::GetOutput
+ms.date: 5/3/2018
+ms.keywords: 0d947d92-4669-4857-bd61-10fa8ebd2598, GetOutput, GetOutput method [Media Foundation], GetOutput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutput method, IMFTopologyNode.GetOutput, IMFTopologyNode::GetOutput, mf.imftopologynode_getoutput, mfidl/IMFTopologyNode::GetOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTopologyNode::GetOutput method
+# IMFTopologyNode::GetOutput
 
 
 ## -description

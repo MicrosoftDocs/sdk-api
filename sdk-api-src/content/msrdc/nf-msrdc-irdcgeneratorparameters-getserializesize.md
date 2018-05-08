@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.GetSerializeSize
-title: IRdcGeneratorParameters::GetSerializeSize method
+title: IRdcGeneratorParameters::GetSerializeSize
 author: windows-driver-content
 description: Returns the size, in bytes, of the serialized parameter data.
 old-location: rdc\irdcgeneratorparameters_getserializesize.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: ebd41d6c-c321-4017-bcc1-a2cdf5202730
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSerializeSize method [Remote Differential Compression], GetSerializeSize method [Remote Differential Compression], IRdcGeneratorParameters interface, GetSerializeSize,IRdcGeneratorParameters.GetSerializeSize, IRdcGeneratorParameters, IRdcGeneratorParameters interface [Remote Differential Compression], GetSerializeSize method, IRdcGeneratorParameters::GetSerializeSize, fs.irdcgeneratorparameters_getserializesize, msrdc/IRdcGeneratorParameters::GetSerializeSize, rdc.irdcgeneratorparameters_getserializesize
+ms.keywords: GetSerializeSize, GetSerializeSize method [Remote Differential Compression], GetSerializeSize method [Remote Differential Compression],IRdcGeneratorParameters interface, IRdcGeneratorParameters interface [Remote Differential Compression],GetSerializeSize method, IRdcGeneratorParameters.GetSerializeSize, IRdcGeneratorParameters::GetSerializeSize, fs.irdcgeneratorparameters_getserializesize, msrdc/IRdcGeneratorParameters::GetSerializeSize, rdc.irdcgeneratorparameters_getserializesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcGeneratorParameters::GetSerializeSize method
+# IRdcGeneratorParameters::GetSerializeSize
 
 
 ## -description

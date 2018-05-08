@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetBalance
-title: IMFPMediaPlayer::SetBalance method
+title: IMFPMediaPlayer::SetBalance
 author: windows-driver-content
 description: Sets the audio balance.
 old-location: mf\imfpmediaplayer_setbalance.htm
 old-project: medfound
 ms.assetid: cb95d037-54b4-4686-b8e6-5b960998d361
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], SetBalance method, IMFPMediaPlayer::SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation], IMFPMediaPlayer interface, SetBalance,IMFPMediaPlayer.SetBalance, mf.imfpmediaplayer_setbalance, mfplay/IMFPMediaPlayer::SetBalance
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetBalance method, IMFPMediaPlayer.SetBalance, IMFPMediaPlayer::SetBalance, SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setbalance, mfplay/IMFPMediaPlayer::SetBalance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::SetBalance method
+# IMFPMediaPlayer::SetBalance
 
 
 ## -description

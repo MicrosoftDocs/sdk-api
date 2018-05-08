@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdxml.IWSDXMLContext.AddNamespace
-title: IWSDXMLContext::AddNamespace method
+title: IWSDXMLContext::AddNamespace
 author: windows-driver-content
 description: Creates an object that represents a namespace in an XML context.
 old-location: ncd\iwsdxmlcontext_addnamespace_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 8815e01e-1879-48af-9011-84bb622259e9
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AddNamespace method, AddNamespace method, IWSDXMLContext interface, AddNamespace,IWSDXMLContext.AddNamespace, IWSDXMLContext, IWSDXMLContext interface, AddNamespace method, IWSDXMLContext::AddNamespace, ncd.iwsdxmlcontext_addnamespace_method, wsdxml/IWSDXMLContext::AddNamespace
+ms.keywords: AddNamespace, AddNamespace method, AddNamespace method,IWSDXMLContext interface, IWSDXMLContext interface,AddNamespace method, IWSDXMLContext.AddNamespace, IWSDXMLContext::AddNamespace, ncd.iwsdxmlcontext_addnamespace_method, wsdxml/IWSDXMLContext::AddNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDXMLContext::AddNamespace method
+# IWSDXMLContext::AddNamespace
 
 
 ## -description

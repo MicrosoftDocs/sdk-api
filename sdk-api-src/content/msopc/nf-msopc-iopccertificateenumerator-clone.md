@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.Clone
-title: IOpcCertificateEnumerator::Clone method
+title: IOpcCertificateEnumerator::Clone
 author: windows-driver-content
 description: Creates a copy of the current IOpcCertificateEnumerator interface pointer and all its descendants.
 old-location: opc\iopccertificateenumerator_clone.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 4cf4bed8-4a6f-48f4-b72f-a13efc127b2a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions], IOpcCertificateEnumerator interface, Clone,IOpcCertificateEnumerator.Clone, IOpcCertificateEnumerator, IOpcCertificateEnumerator interface [Open Packaging Conventions], Clone method, IOpcCertificateEnumerator::Clone, msopc/IOpcCertificateEnumerator::Clone, opc.iopccertificateenumerator_clone
+ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcCertificateEnumerator interface, IOpcCertificateEnumerator interface [Open Packaging Conventions],Clone method, IOpcCertificateEnumerator.Clone, IOpcCertificateEnumerator::Clone, msopc/IOpcCertificateEnumerator::Clone, opc.iopccertificateenumerator_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcCertificateEnumerator::Clone method
+# IOpcCertificateEnumerator::Clone
 
 
 ## -description

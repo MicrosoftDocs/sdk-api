@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetSurfaceFromDC
-title: IDirectDraw7::GetSurfaceFromDC method
+title: IDirectDraw7::GetSurfaceFromDC
 author: windows-driver-content
 description: Retrieves the IDirectDrawSurface7 interface for a surface, based on its GDI device context handle.
 old-location: directdraw\idirectdraw7_getsurfacefromdc.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: d1d96045-a19b-46b0-8b71-5d0bea6889c3
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetSurfaceFromDC method [DirectDraw], GetSurfaceFromDC method [DirectDraw], IDirectDraw7 interface, GetSurfaceFromDC,IDirectDraw7.GetSurfaceFromDC, IDirectDraw7, IDirectDraw7 interface [DirectDraw], GetSurfaceFromDC method, IDirectDraw7::GetSurfaceFromDC, ddraw/IDirectDraw7::GetSurfaceFromDC, directdraw.idirectdraw7_getsurfacefromdc
+ms.keywords: GetSurfaceFromDC, GetSurfaceFromDC method [DirectDraw], GetSurfaceFromDC method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetSurfaceFromDC method, IDirectDraw7.GetSurfaceFromDC, IDirectDraw7::GetSurfaceFromDC, ddraw/IDirectDraw7::GetSurfaceFromDC, directdraw.idirectdraw7_getsurfacefromdc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDraw7::GetSurfaceFromDC method
+# IDirectDraw7::GetSurfaceFromDC
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: dafa74f9-21fb-4495-911a-60183d36d83c
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IServiceComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig interface [COM+], IServiceComTIIntrinsicsConfig interface [COM+], described, _cos_IServiceComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig
+ms.keywords: IServiceComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig interface [COM+], IServiceComTIIntrinsicsConfig interface [COM+],described, _cos_IServiceComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

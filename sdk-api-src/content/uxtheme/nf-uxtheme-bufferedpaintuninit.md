@@ -7,7 +7,7 @@ old-location: controls\BufferedPaintUnInit.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintuninit.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: BufferedPaintUnInit, BufferedPaintUnInit function [Windows Controls], _shell_BufferedPaintUnInit, _shell_BufferedPaintUnInit_cpp, controls.BufferedPaintUnInit, controls._shell_BufferedPaintUnInit, uxtheme/BufferedPaintUnInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

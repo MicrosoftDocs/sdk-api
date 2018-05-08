@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IEntity.MetaData
-title: IEntity::MetaData method
+title: IEntity::MetaData
 author: windows-driver-content
 description: Retrieves an enumeration of IMetaData objects for this entity.
 old-location: search\_search_IEntity_MetaData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\metadata.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IEntity, IEntity interface [search], MetaData method, IEntity::MetaData, MetaData method [search], MetaData method [search], IEntity interface, MetaData,IEntity.MetaData, _search_IEntity_MetaData, search._search_IEntity_MetaData, structuredquery/IEntity::MetaData
+ms.date: 5/4/2018
+ms.keywords: IEntity interface [search],MetaData method, IEntity.MetaData, IEntity::MetaData, MetaData, MetaData method [search], MetaData method [search],IEntity interface, _search_IEntity_MetaData, search._search_IEntity_MetaData, structuredquery/IEntity::MetaData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEntity::MetaData method
+# IEntity::MetaData
 
 
 ## -description

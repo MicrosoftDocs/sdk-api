@@ -7,8 +7,8 @@ old-location: dshow\imediaposition.htm
 old-project: DirectShow
 ms.assetid: 325dd9a4-80ca-43e3-9ff8-473df1b833e9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], IMediaPosition interface [DirectShow], described, IMediaPositionInterface, control/IMediaPosition, dshow.imediaposition
+ms.date: 4/30/2018
+ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], IMediaPosition interface [DirectShow],described, IMediaPositionInterface, control/IMediaPosition, dshow.imediaposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

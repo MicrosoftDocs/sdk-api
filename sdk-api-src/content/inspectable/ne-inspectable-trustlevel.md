@@ -7,7 +7,7 @@ old-location: winrt\trustlevel.htm
 old-project: WinRT
 ms.assetid: 75E30E4B-EE5F-41C4-AC22-91D542E920EB
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: BaseTrust, FullTrust, PartialTrust, TrustLevel, TrustLevel enumeration [Windows Runtime], inspectable/BaseTrust, inspectable/FullTrust, inspectable/PartialTrust, inspectable/TrustLevel, winrt.trustlevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

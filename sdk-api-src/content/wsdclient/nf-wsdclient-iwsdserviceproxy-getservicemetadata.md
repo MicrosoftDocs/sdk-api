@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.GetServiceMetadata
-title: IWSDServiceProxy::GetServiceMetadata method
+title: IWSDServiceProxy::GetServiceMetadata
 author: windows-driver-content
 description: Retrieves the metadata for the IWSDServiceProxy object.
 old-location: ncd\iwsdserviceproxy_getservicemetadata_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 552da68f-6e6a-44b2-8c95-e29bc67de3c2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetServiceMetadata method, GetServiceMetadata method, IWSDServiceProxy interface, GetServiceMetadata,IWSDServiceProxy.GetServiceMetadata, IWSDServiceProxy, IWSDServiceProxy interface, GetServiceMetadata method, IWSDServiceProxy::GetServiceMetadata, ncd.iwsdserviceproxy_getservicemetadata_method, wsdclient/IWSDServiceProxy::GetServiceMetadata
+ms.keywords: GetServiceMetadata, GetServiceMetadata method, GetServiceMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,GetServiceMetadata method, IWSDServiceProxy.GetServiceMetadata, IWSDServiceProxy::GetServiceMetadata, ncd.iwsdserviceproxy_getservicemetadata_method, wsdclient/IWSDServiceProxy::GetServiceMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxy::GetServiceMetadata method
+# IWSDServiceProxy::GetServiceMetadata
 
 
 ## -description

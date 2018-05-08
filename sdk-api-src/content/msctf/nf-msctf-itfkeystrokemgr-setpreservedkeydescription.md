@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.SetPreservedKeyDescription
-title: ITfKeystrokeMgr::SetPreservedKeyDescription method
+title: ITfKeystrokeMgr::SetPreservedKeyDescription
 author: windows-driver-content
 description: ITfKeystrokeMgr::SetPreservedKeyDescription method
 old-location: tsf\itfkeystrokemgr_setpreservedkeydescription.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: feb83f22-652c-4fec-b35d-a0cc41eab533
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfKeystrokeMgr, ITfKeystrokeMgr interface [Text Services Framework], SetPreservedKeyDescription method, ITfKeystrokeMgr::SetPreservedKeyDescription, SetPreservedKeyDescription method [Text Services Framework], SetPreservedKeyDescription method [Text Services Framework], ITfKeystrokeMgr interface, SetPreservedKeyDescription,ITfKeystrokeMgr.SetPreservedKeyDescription, _tsf_itfkeystrokemgr_setpreservedkeydescription_ref, msctf/ITfKeystrokeMgr::SetPreservedKeyDescription, tsf.itfkeystrokemgr_setpreservedkeydescription
+ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],SetPreservedKeyDescription method, ITfKeystrokeMgr.SetPreservedKeyDescription, ITfKeystrokeMgr::SetPreservedKeyDescription, SetPreservedKeyDescription, SetPreservedKeyDescription method [Text Services Framework], SetPreservedKeyDescription method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_setpreservedkeydescription_ref, msctf/ITfKeystrokeMgr::SetPreservedKeyDescription, tsf.itfkeystrokemgr_setpreservedkeydescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfKeystrokeMgr::SetPreservedKeyDescription method
+# ITfKeystrokeMgr::SetPreservedKeyDescription
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CurrentOptimizeForVisualContent
-title: IUIAutomationElement2::get_CurrentOptimizeForVisualContent method
+title: IUIAutomationElement2::get_CurrentOptimizeForVisualContent
 author: windows-driver-content
 description: Indicates whether the provider exposes only elements that are visible.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentOptimizeForVisualContent.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: A501BC99-A387-4997-913D-7BEDE8C1E6B3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentOptimizeForVisualContent property [Windows Accessibility], CurrentOptimizeForVisualContent property [Windows Accessibility], IUIAutomationElement2 interface, IUIAutomationElement2, IUIAutomationElement2 interface [Windows Accessibility], CurrentOptimizeForVisualContent property, IUIAutomationElement2.CurrentOptimizeForVisualContent, IUIAutomationElement2::get_CurrentOptimizeForVisualContent, get_CurrentOptimizeForVisualContent,IUIAutomationElement2.get_CurrentOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::CurrentOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::get_CurrentOptimizeForVisualContent, winauto.uiauto_IUIAutomationElement_CurrentOptimizeForVisualContent
+ms.keywords: CurrentOptimizeForVisualContent property [Windows Accessibility], CurrentOptimizeForVisualContent property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CurrentOptimizeForVisualContent property, IUIAutomationElement2.CurrentOptimizeForVisualContent, IUIAutomationElement2.get_CurrentOptimizeForVisualContent, IUIAutomationElement2::CurrentOptimizeForVisualContent, IUIAutomationElement2::get_CurrentOptimizeForVisualContent, get_CurrentOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::CurrentOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::get_CurrentOptimizeForVisualContent, winauto.uiauto_IUIAutomationElement_CurrentOptimizeForVisualContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement2::get_CurrentOptimizeForVisualContent method
+# IUIAutomationElement2::get_CurrentOptimizeForVisualContent
 
 
 ## -description

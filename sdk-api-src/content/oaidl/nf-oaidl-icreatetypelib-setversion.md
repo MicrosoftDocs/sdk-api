@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetVersion
-title: ICreateTypeLib::SetVersion method
+title: ICreateTypeLib::SetVersion
 author: windows-driver-content
 description: Sets the major and minor version numbers of the type library.
 old-location: automat\icreatetypelib_setversion.htm
 old-project: automat
 ms.assetid: 1c71bf8f-998a-4a9a-a4a8-981f51334cbe
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeLib, ICreateTypeLib interface [Automation], SetVersion method, ICreateTypeLib::SetVersion, SetVersion method [Automation], SetVersion method [Automation], ICreateTypeLib interface, SetVersion,ICreateTypeLib.SetVersion, _oa96_ICreateTypeLib_SetVersion, automat.icreatetypelib_setversion, oaidl/ICreateTypeLib::SetVersion
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeLib interface [Automation],SetVersion method, ICreateTypeLib.SetVersion, ICreateTypeLib::SetVersion, SetVersion, SetVersion method [Automation], SetVersion method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetVersion, automat.icreatetypelib_setversion, oaidl/ICreateTypeLib::SetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeLib::SetVersion method
+# ICreateTypeLib::SetVersion
 
 
 ## -description

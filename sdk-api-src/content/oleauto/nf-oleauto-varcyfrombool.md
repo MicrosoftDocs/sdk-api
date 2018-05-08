@@ -7,7 +7,7 @@ old-location: automat\varcyfrombool.htm
 old-project: automat
 ms.assetid: e611022e-966f-4f9a-9870-ee4ab8d1144c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarCyFromBool, VarCyFromBool function [Automation], _oa96_VarCyFromBool, automat.varcyfrombool, oleauto/VarCyFromBool
 ms.prod: windows-hardware
 ms.technology: windows-devices

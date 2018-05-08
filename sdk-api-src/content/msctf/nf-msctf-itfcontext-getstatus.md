@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetStatus
-title: ITfContext::GetStatus method
+title: ITfContext::GetStatus
 author: windows-driver-content
 description: ITfContext::GetStatus method
 old-location: tsf\itfcontext_getstatus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a1f193b0-fcfc-4db6-90e9-61d528b08672
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetStatus method [Text Services Framework], GetStatus method [Text Services Framework], ITfContext interface, GetStatus,ITfContext.GetStatus, ITfContext, ITfContext interface [Text Services Framework], GetStatus method, ITfContext::GetStatus, _tsf_itfcontext_getstatus_ref, msctf/ITfContext::GetStatus, tsf.itfcontext_getstatus
+ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetStatus method, ITfContext.GetStatus, ITfContext::GetStatus, _tsf_itfcontext_getstatus_ref, msctf/ITfContext::GetStatus, tsf.itfcontext_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContext::GetStatus method
+# ITfContext::GetStatus
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Next
-title: IEnumCERTVIEWEXTENSION::Next method
+title: IEnumCERTVIEWEXTENSION::Next
 author: windows-driver-content
 description: Moves to the next extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_next.htm
 old-project: SecCrypto
 ms.assetid: 658daf9d-0f61-4c93-9688-a7c74464ca89
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnumCERTVIEWEXTENSION, IEnumCERTVIEWEXTENSION interface [Security], Next method, IEnumCERTVIEWEXTENSION object [Security], Next method, IEnumCERTVIEWEXTENSION::Next, Next method [Security], Next method [Security], IEnumCERTVIEWEXTENSION interface, Next method [Security], IEnumCERTVIEWEXTENSION object, Next,IEnumCERTVIEWEXTENSION.Next, _certsrv_ienumcertviewextension_next, certview/IEnumCERTVIEWEXTENSION::Next, security.ienumcertviewextension_next
+ms.date: 4/30/2018
+ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Next method, IEnumCERTVIEWEXTENSION object [Security],Next method, IEnumCERTVIEWEXTENSION.Next, IEnumCERTVIEWEXTENSION::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWEXTENSION interface, Next method [Security],IEnumCERTVIEWEXTENSION object, _certsrv_ienumcertviewextension_next, certview/IEnumCERTVIEWEXTENSION::Next, security.ienumcertviewextension_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWEXTENSION::Next method
+# IEnumCERTVIEWEXTENSION::Next
 
 
 ## -description

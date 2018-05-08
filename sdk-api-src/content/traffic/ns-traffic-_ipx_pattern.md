@@ -64,6 +64,21 @@ The <b>IPX_PATTERN</b> structure applies a specific pattern or corresponding mas
  
 
 
+### -field Src.NetworkAddress
+
+ 
+
+
+### -field Src.NodeAddress
+
+ 
+
+
+### -field Src.Socket
+
+ 
+
+
 ### -field Dest
 
  

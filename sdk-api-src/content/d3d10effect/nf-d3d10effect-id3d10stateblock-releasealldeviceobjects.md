@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10StateBlock.ReleaseAllDeviceObjects
-title: ID3D10StateBlock::ReleaseAllDeviceObjects method
+title: ID3D10StateBlock::ReleaseAllDeviceObjects
 author: windows-driver-content
 description: Release all references to device objects.
 old-location: direct3d10\id3d10stateblock_releasealldeviceobjects.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10stateblock_releasealldeviceobjects.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10StateBlock, ID3D10StateBlock interface [Direct3D 10], ReleaseAllDeviceObjects method, ID3D10StateBlock::ReleaseAllDeviceObjects, ReleaseAllDeviceObjects method [Direct3D 10], ReleaseAllDeviceObjects method [Direct3D 10], ID3D10StateBlock interface, ReleaseAllDeviceObjects,ID3D10StateBlock.ReleaseAllDeviceObjects, d3d10effect/ID3D10StateBlock::ReleaseAllDeviceObjects, direct3d10.id3d10stateblock_releasealldeviceobjects, fbca6160-5745-e714-9c14-1caf025016ad
+ms.keywords: ID3D10StateBlock interface [Direct3D 10],ReleaseAllDeviceObjects method, ID3D10StateBlock.ReleaseAllDeviceObjects, ID3D10StateBlock::ReleaseAllDeviceObjects, ReleaseAllDeviceObjects, ReleaseAllDeviceObjects method [Direct3D 10], ReleaseAllDeviceObjects method [Direct3D 10],ID3D10StateBlock interface, d3d10effect/ID3D10StateBlock::ReleaseAllDeviceObjects, direct3d10.id3d10stateblock_releasealldeviceobjects, fbca6160-5745-e714-9c14-1caf025016ad
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10StateBlock::ReleaseAllDeviceObjects method
+# ID3D10StateBlock::ReleaseAllDeviceObjects
 
 
 ## -description

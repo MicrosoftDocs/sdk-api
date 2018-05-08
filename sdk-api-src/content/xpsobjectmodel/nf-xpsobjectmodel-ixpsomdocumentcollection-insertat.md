@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.InsertAt
-title: IXpsOMDocumentCollection::InsertAt method
+title: IXpsOMDocumentCollection::InsertAt
 author: windows-driver-content
 description: Inserts an IXpsOMDocument interface pointer at a specified location in the collection.
 old-location: xps\ixpsomdocumentcollection_insertat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 2c968705-4fa5-4a74-8ae7-6bd4161f767f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMDocumentCollection, IXpsOMDocumentCollection interface [XPS Documents and Packaging], InsertAt method, IXpsOMDocumentCollection::InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging], IXpsOMDocumentCollection interface, InsertAt,IXpsOMDocumentCollection.InsertAt, xps.ixpsomdocumentcollection_insertat, xpsobjectmodel/IXpsOMDocumentCollection::InsertAt
+ms.keywords: IXpsOMDocumentCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMDocumentCollection.InsertAt, IXpsOMDocumentCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, xps.ixpsomdocumentcollection_insertat, xpsobjectmodel/IXpsOMDocumentCollection::InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDocumentCollection::InsertAt method
+# IXpsOMDocumentCollection::InsertAt
 
 
 ## -description

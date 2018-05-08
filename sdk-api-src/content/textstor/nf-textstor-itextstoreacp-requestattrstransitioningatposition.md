@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.RequestAttrsTransitioningAtPosition
-title: ITextStoreACP::RequestAttrsTransitioningAtPosition method
+title: ITextStoreACP::RequestAttrsTransitioningAtPosition
 author: windows-driver-content
 description: Gets text attributes transitioning at the specified character position.
 old-location: tsf\itextstoreacp_requestattrstransitioningatposition.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: ffd27e9b-3281-45a9-84f2-d09103689ced
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACP, ITextStoreACP interface [Text Services Framework], RequestAttrsTransitioningAtPosition method, ITextStoreACP::RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition method [Text Services Framework], RequestAttrsTransitioningAtPosition method [Text Services Framework], ITextStoreACP interface, RequestAttrsTransitioningAtPosition,ITextStoreACP.RequestAttrsTransitioningAtPosition, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, _tsf_itextstoreacp_requestattrstransitioningatposition_ref, textstor/ITextStoreACP::RequestAttrsTransitioningAtPosition, tsf.itextstoreacp_requestattrstransitioningatposition
+ms.keywords: ITextStoreACP interface [Text Services Framework],RequestAttrsTransitioningAtPosition method, ITextStoreACP.RequestAttrsTransitioningAtPosition, ITextStoreACP::RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition method [Text Services Framework], RequestAttrsTransitioningAtPosition method [Text Services Framework],ITextStoreACP interface, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, _tsf_itextstoreacp_requestattrstransitioningatposition_ref, textstor/ITextStoreACP::RequestAttrsTransitioningAtPosition, tsf.itextstoreacp_requestattrstransitioningatposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP::RequestAttrsTransitioningAtPosition method
+# ITextStoreACP::RequestAttrsTransitioningAtPosition
 
 
 ## -description

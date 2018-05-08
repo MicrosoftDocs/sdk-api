@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_RecipientName
-title: IFaxJob::get_RecipientName method
+title: IFaxJob::get_RecipientName
 author: windows-driver-content
 description: The RecipientName property is a null-terminated string that contains the name of the recipient of the fax job.
 old-location: fax\_mfax_ifaxjob_get_recipientname_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5vvp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxJob object [Fax Service], RecipientName property, IFaxJob, IFaxJob::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service], FaxJob object, _mfax_ifaxjob_get_recipientname, fax._mfax_ifaxjob_get_recipientname, fax._mfax_ifaxjob_get_recipientname_vb, get_RecipientName,IFaxJob.get_RecipientName
+ms.keywords: FaxJob object [Fax Service],RecipientName property, FaxJob.RecipientName, IFaxJob.get_RecipientName, IFaxJob::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],FaxJob object, _mfax_ifaxjob_get_recipientname, fax._mfax_ifaxjob_get_recipientname, fax._mfax_ifaxjob_get_recipientname_vb, get_RecipientName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxJob::get_RecipientName method
+# IFaxJob::get_RecipientName
 
 
 ## -description

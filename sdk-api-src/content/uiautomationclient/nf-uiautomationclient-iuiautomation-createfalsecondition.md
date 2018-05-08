@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateFalseCondition
-title: IUIAutomation::CreateFalseCondition method
+title: IUIAutomation::CreateFalseCondition
 author: windows-driver-content
 description: Creates a condition that is always false.
 old-location: winauto\uiauto_IUIAutomation_CreateFalseCondition.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 8fee46b7-a186-48b8-8fc0-f9844a2b6d8d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CreateFalseCondition method [Windows Accessibility], CreateFalseCondition method [Windows Accessibility], IUIAutomation interface, CreateFalseCondition,IUIAutomation.CreateFalseCondition, IUIAutomation, IUIAutomation interface [Windows Accessibility], CreateFalseCondition method, IUIAutomation::CreateFalseCondition, uiauto.uiauto_IUIAutomation_CreateFalseCondition, uiauto_IUIAutomation_CreateFalseCondition, uiautomationclient/IUIAutomation::CreateFalseCondition, winauto.uiauto_IUIAutomation_CreateFalseCondition
+ms.keywords: CreateFalseCondition, CreateFalseCondition method [Windows Accessibility], CreateFalseCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateFalseCondition method, IUIAutomation.CreateFalseCondition, IUIAutomation::CreateFalseCondition, uiauto.uiauto_IUIAutomation_CreateFalseCondition, uiauto_IUIAutomation_CreateFalseCondition, uiautomationclient/IUIAutomation::CreateFalseCondition, winauto.uiauto_IUIAutomation_CreateFalseCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::CreateFalseCondition method
+# IUIAutomation::CreateFalseCondition
 
 
 ## -description

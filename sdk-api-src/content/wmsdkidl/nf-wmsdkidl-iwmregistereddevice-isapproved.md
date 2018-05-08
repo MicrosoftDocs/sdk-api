@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.IsApproved
-title: IWMRegisteredDevice::IsApproved method
+title: IWMRegisteredDevice::IsApproved
 author: windows-driver-content
 description: The IsApproved method retrieves the approval status of the device. Approved devices are able to receive and play media data.
 old-location: wmformat\iwmregistereddevice_isapproved.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ab90468e-743f-4367-a49b-d494bf9be28f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], IsApproved method, IWMRegisteredDevice::IsApproved, IWMRegisteredDeviceIsApproved, IsApproved method [windows Media Format], IsApproved method [windows Media Format], IWMRegisteredDevice interface, IsApproved,IWMRegisteredDevice.IsApproved, wmformat.iwmregistereddevice_isapproved, wmsdkidl/IWMRegisteredDevice::IsApproved
+ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsApproved method, IWMRegisteredDevice.IsApproved, IWMRegisteredDevice::IsApproved, IWMRegisteredDeviceIsApproved, IsApproved, IsApproved method [windows Media Format], IsApproved method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_isapproved, wmsdkidl/IWMRegisteredDevice::IsApproved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMRegisteredDevice::IsApproved method
+# IWMRegisteredDevice::IsApproved
 
 
 ## -description

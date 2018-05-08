@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetSensorDeviceCount
-title: IMFSensorGroup::GetSensorDeviceCount method
+title: IMFSensorGroup::GetSensorDeviceCount
 author: windows-driver-content
 description: Gets the number of devices that are virtualized by the sensor group.
 old-location: mf\imfsensorgroup_getsensordevicecount.htm
 old-project: medfound
 ms.assetid: 687A4275-5963-486E-8D59-B1858D7E388D
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetSensorDeviceCount method [Media Foundation], GetSensorDeviceCount method [Media Foundation], IMFSensorGroup interface, GetSensorDeviceCount,IMFSensorGroup.GetSensorDeviceCount, IMFSensorGroup, IMFSensorGroup interface [Media Foundation], GetSensorDeviceCount method, IMFSensorGroup::GetSensorDeviceCount, mf.imfsensorgroup_getsensordevicecount, mfidl/IMFSensorGroup::GetSensorDeviceCount
+ms.date: 5/3/2018
+ms.keywords: GetSensorDeviceCount, GetSensorDeviceCount method [Media Foundation], GetSensorDeviceCount method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorDeviceCount method, IMFSensorGroup.GetSensorDeviceCount, IMFSensorGroup::GetSensorDeviceCount, mf.imfsensorgroup_getsensordevicecount, mfidl/IMFSensorGroup::GetSensorDeviceCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorGroup::GetSensorDeviceCount method
+# IMFSensorGroup::GetSensorDeviceCount
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientCountry
-title: IFaxDoc::get_RecipientCountry method
+title: IFaxDoc::get_RecipientCountry
 author: windows-driver-content
 description: Sets or retrieves the RecipientCountry property of a FaxDoc object. The RecipientCountry property is a null-terminated string that contains the country/region of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientcountry_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7ybd.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], RecipientCountry property, IFaxDoc, IFaxDoc::get_RecipientCountry, RecipientCountry property [Fax Service], RecipientCountry property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_get_recipientcountry_vb, get_RecipientCountry,IFaxDoc.get_RecipientCountry
+ms.keywords: FaxDoc object [Fax Service],RecipientCountry property, FaxDoc.RecipientCountry, IFaxDoc.get_RecipientCountry, IFaxDoc::get_RecipientCountry, RecipientCountry property [Fax Service], RecipientCountry property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_get_recipientcountry_vb, get_RecipientCountry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::get_RecipientCountry method
+# IFaxDoc::get_RecipientCountry
 
 
 ## -description

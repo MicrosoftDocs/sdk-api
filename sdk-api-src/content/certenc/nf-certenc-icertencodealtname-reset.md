@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.Reset
-title: ICertEncodeAltName::Reset method
+title: ICertEncodeAltName::Reset
 author: windows-driver-content
 description: Specifies the size of the alternate name array in this object. The value of all elements in the array are set to zero.
 old-location: security\icertencodealtname_reset.htm
 old-project: SecCrypto
 ms.assetid: 99aa43fe-534b-4696-8bfc-7049b16be1cf
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeAltName object [Security], Reset method, ICertEncodeAltName, ICertEncodeAltName interface [Security], Reset method, ICertEncodeAltName::Reset, Reset method [Security], Reset method [Security], CCertEncodeAltName object, Reset method [Security], ICertEncodeAltName interface, Reset,ICertEncodeAltName.Reset, certenc/ICertEncodeAltName::Reset, security.icertencodealtname_reset
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeAltName object [Security],Reset method, ICertEncodeAltName interface [Security],Reset method, ICertEncodeAltName.Reset, ICertEncodeAltName::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeAltName object, Reset method [Security],ICertEncodeAltName interface, certenc/ICertEncodeAltName::Reset, security.icertencodealtname_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeAltName::Reset method
+# ICertEncodeAltName::Reset
 
 
 ## -description

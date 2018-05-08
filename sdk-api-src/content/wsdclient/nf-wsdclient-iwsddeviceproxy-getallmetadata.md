@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetAllMetadata
-title: IWSDDeviceProxy::GetAllMetadata method
+title: IWSDDeviceProxy::GetAllMetadata
 author: windows-driver-content
 description: Retrieves all metadata for this device.
 old-location: ncd\iwsddeviceproxy_getallmetadata_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 3a0a3954-348f-4a9d-9e52-f72d29ec0425
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetAllMetadata method, GetAllMetadata method, IWSDDeviceProxy interface, GetAllMetadata,IWSDDeviceProxy.GetAllMetadata, IWSDDeviceProxy, IWSDDeviceProxy interface, GetAllMetadata method, IWSDDeviceProxy::GetAllMetadata, ncd.iwsddeviceproxy_getallmetadata_method, wsdclient/IWSDDeviceProxy::GetAllMetadata
+ms.keywords: GetAllMetadata, GetAllMetadata method, GetAllMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetAllMetadata method, IWSDDeviceProxy.GetAllMetadata, IWSDDeviceProxy::GetAllMetadata, ncd.iwsddeviceproxy_getallmetadata_method, wsdclient/IWSDDeviceProxy::GetAllMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceProxy::GetAllMetadata method
+# IWSDDeviceProxy::GetAllMetadata
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetGuidValue
-title: IUPnPRemoteEndpointInfo::GetGuidValue method
+title: IUPnPRemoteEndpointInfo::GetGuidValue
 author: windows-driver-content
 description: The GetGuidValue method currently is not supported.
 old-location: upnp\iupnpremoteendpointinfo_getguidvalue.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: 4cbfaa8c-80f1-49c6-91aa-17764559da8b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetGuidValue method [UPnP APIs], GetGuidValue method [UPnP APIs], IUPnPRemoteEndpointInfo interface, GetGuidValue,IUPnPRemoteEndpointInfo.GetGuidValue, IUPnPRemoteEndpointInfo, IUPnPRemoteEndpointInfo interface [UPnP APIs], GetGuidValue method, IUPnPRemoteEndpointInfo::GetGuidValue, upnp.iupnpremoteendpointinfo_getguidvalue, upnphost/IUPnPRemoteEndpointInfo::GetGuidValue
+ms.keywords: GetGuidValue, GetGuidValue method [UPnP APIs], GetGuidValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetGuidValue method, IUPnPRemoteEndpointInfo.GetGuidValue, IUPnPRemoteEndpointInfo::GetGuidValue, upnp.iupnpremoteendpointinfo_getguidvalue, upnphost/IUPnPRemoteEndpointInfo::GetGuidValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPRemoteEndpointInfo::GetGuidValue method
+# IUPnPRemoteEndpointInfo::GetGuidValue
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssWMDependency.GetWriterId
-title: IVssWMDependency::GetWriterId method
+title: IVssWMDependency::GetWriterId
 author: windows-driver-content
 description: The GetWriterId method retrieves the class ID of a writer containing a component that the current component depends on in an explicit writer-component dependency.
 old-location: base\ivsswmdependency_getwriterid.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 275843c5-3a8c-4add-b453-53ff5d2bb868
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetWriterId method [VSS], GetWriterId method [VSS], IVssWMDependency interface, GetWriterId,IVssWMDependency.GetWriterId, IVssWMDependency, IVssWMDependency interface [VSS], GetWriterId method, IVssWMDependency::GetWriterId, _win32_ivsswmdependency_getwriterid, base.ivsswmdependency_getwriterid, vswriter/IVssWMDependency::GetWriterId
+ms.keywords: GetWriterId, GetWriterId method [VSS], GetWriterId method [VSS],IVssWMDependency interface, IVssWMDependency interface [VSS],GetWriterId method, IVssWMDependency.GetWriterId, IVssWMDependency::GetWriterId, _win32_ivsswmdependency_getwriterid, base.ivsswmdependency_getwriterid, vswriter/IVssWMDependency::GetWriterId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssWMDependency::GetWriterId method
+# IVssWMDependency::GetWriterId
 
 
 ## -description

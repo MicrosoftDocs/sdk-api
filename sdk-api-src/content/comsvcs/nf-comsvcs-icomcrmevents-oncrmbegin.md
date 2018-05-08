@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMBegin
-title: IComCRMEvents::OnCRMBegin method
+title: IComCRMEvents::OnCRMBegin
 author: windows-driver-content
 description: Generated when a CRM clerk is starting, either due to a client registering a compensator or during recovery.
 old-location: cos\icomcrmevents_oncrmbegin.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 8975cb5e-024f-40bf-acd7-c5af0abd88a0
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMBegin method, IComCRMEvents::OnCRMBegin, OnCRMBegin method [COM+], OnCRMBegin method [COM+], IComCRMEvents interface, OnCRMBegin,IComCRMEvents.OnCRMBegin, _dtc_IComCRMEvents_OnCRMBegin, comsvcs/IComCRMEvents::OnCRMBegin, cos.icomcrmevents_oncrmbegin
+ms.keywords: IComCRMEvents interface [COM+],OnCRMBegin method, IComCRMEvents.OnCRMBegin, IComCRMEvents::OnCRMBegin, OnCRMBegin, OnCRMBegin method [COM+], OnCRMBegin method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMBegin, comsvcs/IComCRMEvents::OnCRMBegin, cos.icomcrmevents_oncrmbegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComCRMEvents::OnCRMBegin method
+# IComCRMEvents::OnCRMBegin
 
 
 ## -description

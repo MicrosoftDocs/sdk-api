@@ -7,7 +7,7 @@ old-location: winsock\hostent_2.htm
 old-project: WinSock
 ms.assetid: f194b9d5-dfaf-4a02-95c6-6d06015aad1d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPHOSTENT, *PHOSTENT, FAR *LPHOSTENT, FAR *LPHOSTENT structure [Winsock], HOSTENT, HOSTENT structure [Winsock], PHOSTENT, PHOSTENT structure pointer [Winsock], _win32_hostent_2, hostent, hostent structure [Winsock], winsock.hostent_2, winsock/FAR *LPHOSTENT, winsock/PHOSTENT, winsock/hostent"
 ms.prod: windows-hardware
 ms.technology: windows-devices

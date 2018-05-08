@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.CreateRole
-title: IAzScope::CreateRole method
+title: IAzScope::CreateRole
 author: windows-driver-content
 description: Creates an IAzRole object with the specified name.
 old-location: security\iazscope_createrole.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: a5e527f9-0aab-40d9-83fe-f19f73673266
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzScope object [Security], CreateRole method, CreateRole method [Security], CreateRole method [Security], AzScope object, CreateRole method [Security], IAzScope interface, CreateRole,IAzScope.CreateRole, IAzScope, IAzScope interface [Security], CreateRole method, IAzScope::CreateRole, azroles/IAzScope::CreateRole, security.iazscope_createrole
+ms.keywords: AzScope object [Security],CreateRole method, CreateRole, CreateRole method [Security], CreateRole method [Security],AzScope object, CreateRole method [Security],IAzScope interface, IAzScope interface [Security],CreateRole method, IAzScope.CreateRole, IAzScope::CreateRole, azroles/IAzScope::CreateRole, security.iazscope_createrole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope::CreateRole method
+# IAzScope::CreateRole
 
 
 ## -description

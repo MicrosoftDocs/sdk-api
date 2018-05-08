@@ -1,14 +1,14 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObj.SetButtons
-title: IDsAdminNewObj::SetButtons method
+title: IDsAdminNewObj::SetButtons
 author: windows-driver-content
 description: The IDsAdminNewObj::SetButtons method enables or disables the &#0034;Next&#0034; command button in the wizard for a specific page.
 old-location: ad\idsadminnewobj_setbuttons.htm
 old-project: AD
 ms.assetid: 2cc888f4-b884-4e81-8dec-6f12c35d9ee4
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], SetButtons method, IDsAdminNewObj::SetButtons, SetButtons method [Active Directory], SetButtons method [Active Directory], IDsAdminNewObj interface, SetButtons,IDsAdminNewObj.SetButtons, _glines_idsadminnewobj_setbuttons, ad.idsadminnewobj__setbuttons, ad.idsadminnewobj_setbuttons, dsadmin/IDsAdminNewObj::SetButtons
+ms.date: 5/1/2018
+ms.keywords: IDsAdminNewObj interface [Active Directory],SetButtons method, IDsAdminNewObj.SetButtons, IDsAdminNewObj::SetButtons, SetButtons, SetButtons method [Active Directory], SetButtons method [Active Directory],IDsAdminNewObj interface, _glines_idsadminnewobj_setbuttons, ad.idsadminnewobj__setbuttons, ad.idsadminnewobj_setbuttons, dsadmin/IDsAdminNewObj::SetButtons
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: DSAdmin.dll
 req.irql: 
 ---
 
-# IDsAdminNewObj::SetButtons method
+# IDsAdminNewObj::SetButtons
 
 
 ## -description

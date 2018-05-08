@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.CreateMigrationTable
-title: IGPM::CreateMigrationTable method
+title: IGPM::CreateMigrationTable
 author: windows-driver-content
 description: Creates an empty migration table.
 old-location: gpmc\igpm_createmigrationtable.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: ae9ea50f-d652-4d7a-aac5-5b9ef27b99e0
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateMigrationTable method [GPMC], CreateMigrationTable method [GPMC], GPM class, CreateMigrationTable method [GPMC], IGPM interface, CreateMigrationTable,IGPM.CreateMigrationTable, GPM class [GPMC], CreateMigrationTable method, IGPM, IGPM interface [GPMC], CreateMigrationTable method, IGPM::CreateMigrationTable, gpmc.igpm_createmigrationtable, gpmgmt/IGPM::CreateMigrationTable
+ms.keywords: CreateMigrationTable, CreateMigrationTable method [GPMC], CreateMigrationTable method [GPMC],GPM class, CreateMigrationTable method [GPMC],IGPM interface, GPM class [GPMC],CreateMigrationTable method, IGPM interface [GPMC],CreateMigrationTable method, IGPM.CreateMigrationTable, IGPM::CreateMigrationTable, gpmc.igpm_createmigrationtable, gpmgmt/IGPM::CreateMigrationTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPM::CreateMigrationTable method
+# IGPM::CreateMigrationTable
 
 
 ## -description

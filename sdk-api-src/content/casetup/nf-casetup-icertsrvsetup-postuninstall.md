@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetup.PostUnInstall
-title: ICertSrvSetup::PostUnInstall method
+title: ICertSrvSetup::PostUnInstall
 author: windows-driver-content
 description: Is not implemented and is reserved for future use.
 old-location: security\icertsrvsetup_postuninstall.htm
 old-project: SecCrypto
 ms.assetid: e5ec32ec-616c-4460-bd1c-6e70c61b5234
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], PostUnInstall method, ICertSrvSetup::PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security], ICertSrvSetup interface, PostUnInstall,ICertSrvSetup.PostUnInstall, casetup/ICertSrvSetup::PostUnInstall, security.icertsrvsetup_postuninstall
+ms.date: 4/30/2018
+ms.keywords: ICertSrvSetup interface [Security],PostUnInstall method, ICertSrvSetup.PostUnInstall, ICertSrvSetup::PostUnInstall, PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::PostUnInstall, security.icertsrvsetup_postuninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetup::PostUnInstall method
+# ICertSrvSetup::PostUnInstall
 
 
 ## -description

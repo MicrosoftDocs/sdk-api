@@ -7,7 +7,7 @@ old-location: security\wthelpergetprovprivatedatafromchain.htm
 old-project: SecCrypto
 ms.assetid: 67a718a2-47ca-4c45-a939-99dd8311dc6d
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: WTHelperGetProvPrivateDataFromChain, WTHelperGetProvPrivateDataFromChain function [Security], security.wthelpergetprovprivatedatafromchain, wintrust/WTHelperGetProvPrivateDataFromChain
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -256,70 +256,84 @@ The subject of the notification is an iSCSI portal group. Use the
  
 
 
-#### - Controller
-
-Valid if <b>objectType</b> is <b>VDS_NTT_CONTROLLER</b>. See the 
-       <a href="https://msdn.microsoft.com/de2aa5d8-b9b0-4e3d-9846-e886ac1d4241">VDS_CONTROLLER_NOTIFICATION</a> 
-       structure.
-
-
-#### - Disk
-
-Valid if <b>objectType</b> is <b>VDS_NTT_DISK</b>. See the 
-       <a href="https://msdn.microsoft.com/ff0069ce-611f-4ad4-9b67-adb7dc0f7abc">VDS_DISK_NOTIFICATION</a> 
-       structure.
-
-
-#### - Drive
-
-Valid if <b>objectType</b> is <b>VDS_NTT_DRIVE</b>. See the 
-       <a href="https://msdn.microsoft.com/933376b3-d5eb-407b-941c-4e2b61774c1a">VDS_DRIVE_NOTIFICATION</a> 
-       structure.
-
-
-#### - FileSystem
-
-Valid if <b>objectType</b> is <b>VDS_NTT_FILE_SYSTEM</b>. See the 
-        <a href="https://msdn.microsoft.com/81d62c22-4f29-43f6-a00e-12502174a768">VDS_FILE_SYSTEM_NOTIFICATION</a> 
-        structure.
-
-
-#### - Letter
-
-Valid if <b>objectType</b> is <b>VDS_NTT_DRIVE_LETTER</b>. See the 
-       <a href="https://msdn.microsoft.com/d64d1ba6-88a2-4418-b32c-36a84e973a06">VDS_DRIVE_LETTER_NOTIFICATION</a> 
-       structure.
-
-
-#### - Lun
-
-Valid if <b>objectType</b> is <b>VDS_NTT_LUN</b>. See the 
-       <a href="https://msdn.microsoft.com/42b71b32-337e-4352-b4b3-6af2caad86e5">VDS_LUN_NOTIFICATION</a> 
-       structure.
-
-
-#### - MountPoint
-
-Valid if <b>objectType</b> is <b>VDS_NTT_MOUNT_POINT</b>. See the 
-       <a href="https://msdn.microsoft.com/6e49437e-8fc7-4fc5-a227-b326a1ea9967">VDS_MOUNT_POINT_NOTIFICATION</a> 
-       structure.
-
-
-#### - Pack
+### -field Pack
 
 Valid if <b>objectType</b> is <b>VDS_NTT_PACK</b>. See the 
        <a href="https://msdn.microsoft.com/3bfdef22-e3ad-4b23-9aaa-c2d08044dd25">VDS_PACK_NOTIFICATION</a> 
        structure.
 
 
-#### - Partition
+### -field Disk
+
+Valid if <b>objectType</b> is <b>VDS_NTT_DISK</b>. See the 
+       <a href="https://msdn.microsoft.com/ff0069ce-611f-4ad4-9b67-adb7dc0f7abc">VDS_DISK_NOTIFICATION</a> 
+       structure.
+
+
+### -field Volume
+
+Valid if <b>objectType</b> is <b>VDS_NTT_VOLUME</b>. See the 
+       <a href="https://msdn.microsoft.com/0aea3de4-60b1-4452-a5f1-f3556e719e09">VDS_VOLUME_NOTIFICATION</a> 
+       structure.
+
+
+### -field Partition
 
 Valid if <b>objectType</b> is <b>VDS_NTT_PARTITION</b>. See the 
        <a href="https://msdn.microsoft.com/f731d45d-e406-4a03-a604-c6ac001c341f">VDS_PARTITION_NOTIFICATION</a> 
        structure.
 
 
-#### - Port
+### -field Letter
+
+Valid if <b>objectType</b> is <b>VDS_NTT_DRIVE_LETTER</b>. See the 
+       <a href="https://msdn.microsoft.com/d64d1ba6-88a2-4418-b32c-36a84e973a06">VDS_DRIVE_LETTER_NOTIFICATION</a> 
+       structure.
+
+
+### -field FileSystem
+
+Valid if <b>objectType</b> is <b>VDS_NTT_FILE_SYSTEM</b>. See the 
+        <a href="https://msdn.microsoft.com/81d62c22-4f29-43f6-a00e-12502174a768">VDS_FILE_SYSTEM_NOTIFICATION</a> 
+        structure.
+
+
+### -field MountPoint
+
+Valid if <b>objectType</b> is <b>VDS_NTT_MOUNT_POINT</b>. See the 
+       <a href="https://msdn.microsoft.com/6e49437e-8fc7-4fc5-a227-b326a1ea9967">VDS_MOUNT_POINT_NOTIFICATION</a> 
+       structure.
+
+
+### -field SubSystem
+
+Valid if <b>objectType</b> is <b>VDS_NTT_SUB_SYSTEM</b>. See the 
+       <a href="https://msdn.microsoft.com/368e5b3d-11ba-400e-8dd0-929d45199dd9">VDS_SUB_SYSTEM_NOTIFICATION</a> 
+       structure.
+
+
+### -field Controller
+
+Valid if <b>objectType</b> is <b>VDS_NTT_CONTROLLER</b>. See the 
+       <a href="https://msdn.microsoft.com/de2aa5d8-b9b0-4e3d-9846-e886ac1d4241">VDS_CONTROLLER_NOTIFICATION</a> 
+       structure.
+
+
+### -field Drive
+
+Valid if <b>objectType</b> is <b>VDS_NTT_DRIVE</b>. See the 
+       <a href="https://msdn.microsoft.com/933376b3-d5eb-407b-941c-4e2b61774c1a">VDS_DRIVE_NOTIFICATION</a> 
+       structure.
+
+
+### -field Lun
+
+Valid if <b>objectType</b> is <b>VDS_NTT_LUN</b>. See the 
+       <a href="https://msdn.microsoft.com/42b71b32-337e-4352-b4b3-6af2caad86e5">VDS_LUN_NOTIFICATION</a> 
+       structure.
+
+
+### -field Port
 
 Valid if <b>objectType</b> is <b>VDS_NTT_PORT</b>. See the 
        <a href="https://msdn.microsoft.com/4de0969f-fed5-42c7-a5f8-0bd6c58dc237">VDS_PORT_NOTIFICATION</a> 
@@ -329,7 +343,7 @@ Valid if <b>objectType</b> is <b>VDS_NTT_PORT</b>. See the
 <div class="alert"><b>Note</b>  This is not supported on VDS 1.0</div>
 <div> </div>
 
-#### - Portal
+### -field Portal
 
 Valid if <b>objectType</b> is <b>VDS_NTT_PORTAL</b>. See the 
        <a href="https://msdn.microsoft.com/53126339-a9b7-4b80-80af-ac1782dff8a8">VDS_PORTAL_NOTIFICATION</a> 
@@ -339,24 +353,7 @@ Valid if <b>objectType</b> is <b>VDS_NTT_PORTAL</b>. See the
 <div class="alert"><b>Note</b>  This is not supported on VDS 1.0</div>
 <div> </div>
 
-#### - PortalGroup
-
-Valid if <b>objectType</b> is <b>VDS_NTT_PORTAL_GROUP</b>. See the 
-       <a href="https://msdn.microsoft.com/db4f947b-996f-4aa0-aed6-0190f00ca58a">VDS_PORTAL_GROUP_NOTIFICATION</a> 
-       structure.
-       
-
-<div class="alert"><b>Note</b>  This is not supported on VDS 1.0</div>
-<div> </div>
-
-#### - SubSystem
-
-Valid if <b>objectType</b> is <b>VDS_NTT_SUB_SYSTEM</b>. See the 
-       <a href="https://msdn.microsoft.com/368e5b3d-11ba-400e-8dd0-929d45199dd9">VDS_SUB_SYSTEM_NOTIFICATION</a> 
-       structure.
-
-
-#### - Target
+### -field Target
 
 Valid if <b>objectType</b> is <b>VDS_NTT_TARGET</b>. See the 
        <a href="https://msdn.microsoft.com/71453c9c-d6a7-4527-8988-c0388d7a9991">VDS_TARGET_NOTIFICATION</a> 
@@ -366,11 +363,21 @@ Valid if <b>objectType</b> is <b>VDS_NTT_TARGET</b>. See the
 <div class="alert"><b>Note</b>  This is not supported on VDS 1.0</div>
 <div> </div>
 
-#### - Volume
+### -field PortalGroup
 
-Valid if <b>objectType</b> is <b>VDS_NTT_VOLUME</b>. See the 
-       <a href="https://msdn.microsoft.com/0aea3de4-60b1-4452-a5f1-f3556e719e09">VDS_VOLUME_NOTIFICATION</a> 
+Valid if <b>objectType</b> is <b>VDS_NTT_PORTAL_GROUP</b>. See the 
+       <a href="https://msdn.microsoft.com/db4f947b-996f-4aa0-aed6-0190f00ca58a">VDS_PORTAL_GROUP_NOTIFICATION</a> 
        structure.
+       
+
+<div class="alert"><b>Note</b>  This is not supported on VDS 1.0</div>
+<div> </div>
+
+### -field Service
+
+ 
+
+
 
 
 ## -remarks

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlaylist.appendItem
-title: IWMPPlaylist::appendItem method
+title: IWMPPlaylist::appendItem
 author: windows-driver-content
 description: The appendItem method adds a media item to the end of the playlist.
 old-location: wmp\iwmpplaylist_appenditem.htm
 old-project: WMP
 ms.assetid: e6db41d8-a4d5-4cab-9612-0562f3e92c25
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlaylist, IWMPPlaylist interface [Windows Media Player], appendItem method, IWMPPlaylist::appendItem, IWMPPlaylistappendItem, appendItem method [Windows Media Player], appendItem method [Windows Media Player], IWMPPlaylist interface, appendItem,IWMPPlaylist.appendItem, wmp.iwmpplaylist_appenditem, wmp/IWMPPlaylist::appendItem
+ms.date: 5/4/2018
+ms.keywords: IWMPPlaylist interface [Windows Media Player],appendItem method, IWMPPlaylist.appendItem, IWMPPlaylist::appendItem, IWMPPlaylistappendItem, appendItem, appendItem method [Windows Media Player], appendItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_appenditem, wmp/IWMPPlaylist::appendItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlaylist::appendItem method
+# IWMPPlaylist::appendItem
 
 
 ## -description

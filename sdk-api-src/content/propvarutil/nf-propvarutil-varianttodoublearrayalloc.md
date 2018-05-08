@@ -7,7 +7,7 @@ old-location: properties\VariantToDoubleArrayAlloc.htm
 old-project: properties
 ms.assetid: 334d192e-7f63-47b4-88d4-9361e679cb15
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: VariantToDoubleArrayAlloc, VariantToDoubleArrayAlloc function [Windows Properties], _shell_VariantToDoubleArrayAlloc, properties.VariantToDoubleArrayAlloc, propvarutil/VariantToDoubleArrayAlloc, shell.VariantToDoubleArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.StopPreview
-title: IMFCaptureEngine::StopPreview method
+title: IMFCaptureEngine::StopPreview
 author: windows-driver-content
 description: Stops preview.
 old-location: mf\imfcaptureengine_stoppreview.htm
 old-project: medfound
 ms.assetid: 36DE5079-D4D5-4FC5-8CF6-1F5B3F9E8B66
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], StopPreview method, IMFCaptureEngine::StopPreview, StopPreview method [Media Foundation], StopPreview method [Media Foundation], IMFCaptureEngine interface, StopPreview,IMFCaptureEngine.StopPreview, mf.imfcaptureengine_stoppreview, mfcaptureengine/IMFCaptureEngine::StopPreview
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureEngine interface [Media Foundation],StopPreview method, IMFCaptureEngine.StopPreview, IMFCaptureEngine::StopPreview, StopPreview, StopPreview method [Media Foundation], StopPreview method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_stoppreview, mfcaptureengine/IMFCaptureEngine::StopPreview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureEngine::StopPreview method
+# IMFCaptureEngine::StopPreview
 
 
 ## -description

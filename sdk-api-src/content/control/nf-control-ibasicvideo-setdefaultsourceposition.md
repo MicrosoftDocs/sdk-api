@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicVideo.SetDefaultSourcePosition
-title: IBasicVideo::SetDefaultSourcePosition method
+title: IBasicVideo::SetDefaultSourcePosition
 author: windows-driver-content
 description: The SetDefaultSourcePosition method reverts to the default source rectangle. After this method is called, the video renderer uses the entire video image, without cropping.
 old-location: dshow\ibasicvideo_setdefaultsourceposition.htm
 old-project: DirectShow
 ms.assetid: f7b440c0-8f91-4f32-adc6-82fa658125d0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], SetDefaultSourcePosition method, IBasicVideo::SetDefaultSourcePosition, IBasicVideoSetDefaultSourcePosition, SetDefaultSourcePosition method [DirectShow], SetDefaultSourcePosition method [DirectShow], IBasicVideo interface, SetDefaultSourcePosition,IBasicVideo.SetDefaultSourcePosition, control/IBasicVideo::SetDefaultSourcePosition, dshow.ibasicvideo_setdefaultsourceposition
+ms.date: 4/30/2018
+ms.keywords: IBasicVideo interface [DirectShow],SetDefaultSourcePosition method, IBasicVideo.SetDefaultSourcePosition, IBasicVideo::SetDefaultSourcePosition, IBasicVideoSetDefaultSourcePosition, SetDefaultSourcePosition, SetDefaultSourcePosition method [DirectShow], SetDefaultSourcePosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetDefaultSourcePosition, dshow.ibasicvideo_setdefaultsourceposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicVideo::SetDefaultSourcePosition method
+# IBasicVideo::SetDefaultSourcePosition
 
 
 ## -description

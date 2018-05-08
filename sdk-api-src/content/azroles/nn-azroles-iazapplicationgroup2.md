@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 948357d7-4e59-48d2-9e3b-7d88a4c81023
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzApplicationGroup2, IAzApplicationGroup2 interface [Security], IAzApplicationGroup2 interface [Security], described, azroles/IAzApplicationGroup2, security.iazapplicationgroup2
+ms.keywords: IAzApplicationGroup2, IAzApplicationGroup2 interface [Security], IAzApplicationGroup2 interface [Security],described, azroles/IAzApplicationGroup2, security.iazapplicationgroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

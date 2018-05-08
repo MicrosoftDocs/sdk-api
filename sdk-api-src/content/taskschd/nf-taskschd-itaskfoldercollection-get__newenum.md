@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolderCollection.get__NewEnum
-title: ITaskFolderCollection::get__NewEnum method
+title: ITaskFolderCollection::get__NewEnum
 author: windows-driver-content
 description: Gets the collection enumerator for the folder collection.
 old-location: taskschd\itaskfoldercollection__newenum.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 6b412a88-7096-44b4-8d80-356a3488c957
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskFolderCollection, ITaskFolderCollection interface [Task Scheduler], _NewEnum property, ITaskFolderCollection._NewEnum, ITaskFolderCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler], ITaskFolderCollection interface, get__NewEnum,ITaskFolderCollection.get__NewEnum, taskschd.itaskfoldercollection__newenum, taskschd/ITaskFolderCollection::_NewEnum, taskschd/ITaskFolderCollection::get__NewEnum
+ms.keywords: ITaskFolderCollection interface [Task Scheduler],_NewEnum property, ITaskFolderCollection._NewEnum, ITaskFolderCollection.get__NewEnum, ITaskFolderCollection::_NewEnum, ITaskFolderCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],ITaskFolderCollection interface, get__NewEnum, taskschd.itaskfoldercollection__newenum, taskschd/ITaskFolderCollection::_NewEnum, taskschd/ITaskFolderCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskFolderCollection::get__NewEnum method
+# ITaskFolderCollection::get__NewEnum
 
 
 ## -description

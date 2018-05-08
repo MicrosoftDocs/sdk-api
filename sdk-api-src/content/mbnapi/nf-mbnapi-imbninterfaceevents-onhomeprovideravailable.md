@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnHomeProviderAvailable
-title: IMbnInterfaceEvents::OnHomeProviderAvailable method
+title: IMbnInterfaceEvents::OnHomeProviderAvailable
 author: windows-driver-content
 description: This notification method is called by the Mobile Broadband service to indicate that home provider information for the device is available.
 old-location: mbn\imbninterfaceevents_onhomeprovideravailable.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 4da50033-d55c-4878-b05c-cbc43c156da0
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnInterfaceEvents, IMbnInterfaceEvents interface [Microsoft Broadband Networks], OnHomeProviderAvailable method, IMbnInterfaceEvents::OnHomeProviderAvailable, OnHomeProviderAvailable method [Microsoft Broadband Networks], OnHomeProviderAvailable method [Microsoft Broadband Networks], IMbnInterfaceEvents interface, OnHomeProviderAvailable,IMbnInterfaceEvents.OnHomeProviderAvailable, mbn.imbninterfaceevents_onhomeprovideravailable, mbnapi/IMbnInterfaceEvents::OnHomeProviderAvailable
+ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnHomeProviderAvailable method, IMbnInterfaceEvents.OnHomeProviderAvailable, IMbnInterfaceEvents::OnHomeProviderAvailable, OnHomeProviderAvailable, OnHomeProviderAvailable method [Microsoft Broadband Networks], OnHomeProviderAvailable method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onhomeprovideravailable, mbnapi/IMbnInterfaceEvents::OnHomeProviderAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnInterfaceEvents::OnHomeProviderAvailable method
+# IMbnInterfaceEvents::OnHomeProviderAvailable
 
 
 ## -description

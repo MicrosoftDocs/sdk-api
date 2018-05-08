@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.get_Xml
-title: IDataCollector::get_Xml method
+title: IDataCollector::get_Xml
 author: windows-driver-content
 description: Retrieves an XML string that describes the values of the data collector properties.
 old-location: pla\idatacollector_xml.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: c362cd5f-2db3-40ad-8f5e-e75a40db204c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollector, IDataCollector interface [PLA], Xml property, IDataCollector.Xml, IDataCollector::get_Xml, Xml property [PLA], Xml property [PLA], IDataCollector interface, base.idatacollector_xml, get_Xml,IDataCollector.get_Xml, pla.idatacollector_xml, pla/IDataCollector::Xml, pla/IDataCollector::get_Xml
+ms.keywords: IDataCollector interface [PLA],Xml property, IDataCollector.Xml, IDataCollector.get_Xml, IDataCollector::Xml, IDataCollector::get_Xml, Xml property [PLA], Xml property [PLA],IDataCollector interface, base.idatacollector_xml, get_Xml, pla.idatacollector_xml, pla/IDataCollector::Xml, pla/IDataCollector::get_Xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollector::get_Xml method
+# IDataCollector::get_Xml
 
 
 ## -description

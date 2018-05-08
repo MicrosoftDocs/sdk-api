@@ -7,8 +7,8 @@ old-location: mf\imfremoteasynccallback.htm
 old-project: medfound
 ms.assetid: 57be21cf-b381-436a-bc7e-3fdc01cc2515
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 57be21cf-b381-436a-bc7e-3fdc01cc2515, IMFRemoteAsyncCallback, IMFRemoteAsyncCallback interface [Media Foundation], IMFRemoteAsyncCallback interface [Media Foundation], described, mf.imfremoteasynccallback, mfobjects/IMFRemoteAsyncCallback
+ms.date: 5/3/2018
+ms.keywords: 57be21cf-b381-436a-bc7e-3fdc01cc2515, IMFRemoteAsyncCallback, IMFRemoteAsyncCallback interface [Media Foundation], IMFRemoteAsyncCallback interface [Media Foundation],described, mf.imfremoteasynccallback, mfobjects/IMFRemoteAsyncCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

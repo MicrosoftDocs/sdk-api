@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetVideoSourceRect
-title: IMFPMediaPlayer::GetVideoSourceRect method
+title: IMFPMediaPlayer::GetVideoSourceRect
 author: windows-driver-content
 description: Gets the video source rectangle.
 old-location: mf\imfpmediaplayer_getvideosourcerect.htm
 old-project: medfound
 ms.assetid: 3b72ece3-f573-42e1-948c-443c793e5ba4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoSourceRect method [Media Foundation], GetVideoSourceRect method [Media Foundation], IMFPMediaPlayer interface, GetVideoSourceRect,IMFPMediaPlayer.GetVideoSourceRect, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetVideoSourceRect method, IMFPMediaPlayer::GetVideoSourceRect, mf.imfpmediaplayer_getvideosourcerect, mfplay/IMFPMediaPlayer::GetVideoSourceRect
+ms.date: 5/3/2018
+ms.keywords: GetVideoSourceRect, GetVideoSourceRect method [Media Foundation], GetVideoSourceRect method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVideoSourceRect method, IMFPMediaPlayer.GetVideoSourceRect, IMFPMediaPlayer::GetVideoSourceRect, mf.imfpmediaplayer_getvideosourcerect, mfplay/IMFPMediaPlayer::GetVideoSourceRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::GetVideoSourceRect method
+# IMFPMediaPlayer::GetVideoSourceRect
 
 
 ## -description

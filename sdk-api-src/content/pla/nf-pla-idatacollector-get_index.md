@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.get_Index
-title: IDataCollector::get_Index method
+title: IDataCollector::get_Index
 author: windows-driver-content
 description: Retrieves the index value of the data collector. The index value identifies the data collector within the data collector set.
 old-location: pla\idatacollector_index.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 05ba4bd2-33e3-4aa0-bca0-a247379b37bd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollector, IDataCollector interface [PLA], Index property, IDataCollector.Index, IDataCollector::get_Index, Index property [PLA], Index property [PLA], IDataCollector interface, base.idatacollector_index, get_Index,IDataCollector.get_Index, pla.idatacollector_index, pla/IDataCollector::Index, pla/IDataCollector::get_Index
+ms.keywords: IDataCollector interface [PLA],Index property, IDataCollector.Index, IDataCollector.get_Index, IDataCollector::Index, IDataCollector::get_Index, Index property [PLA], Index property [PLA],IDataCollector interface, base.idatacollector_index, get_Index, pla.idatacollector_index, pla/IDataCollector::Index, pla/IDataCollector::get_Index
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollector::get_Index method
+# IDataCollector::get_Index
 
 
 ## -description

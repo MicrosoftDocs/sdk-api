@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyDataObject.AcquireData
-title: IPrintAsyncNotifyDataObject::AcquireData method
+title: IPrintAsyncNotifyDataObject::AcquireData
 author: windows-driver-content
 description: Directs listening applications to the notification data, including the data's size and type.
 old-location: gdi\iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c6272583-6907-4c9f-b0c8-4d788e0b2173
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: AcquireData method [Windows GDI], AcquireData method [Windows GDI], IPrintAsyncNotifyDataObject interface, AcquireData,IPrintAsyncNotifyDataObject.AcquireData, IPrintAsyncNotifyDataObject, IPrintAsyncNotifyDataObject interface [Windows GDI], AcquireData method, IPrintAsyncNotifyDataObject::AcquireData, _win32_IPrintAsyncNotifyDataObject_AcquireData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata, prnasnot/IPrintAsyncNotifyDataObject::AcquireData
+ms.keywords: AcquireData, AcquireData method [Windows GDI], AcquireData method [Windows GDI],IPrintAsyncNotifyDataObject interface, IPrintAsyncNotifyDataObject interface [Windows GDI],AcquireData method, IPrintAsyncNotifyDataObject.AcquireData, IPrintAsyncNotifyDataObject::AcquireData, _win32_IPrintAsyncNotifyDataObject_AcquireData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata, prnasnot/IPrintAsyncNotifyDataObject::AcquireData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPrintAsyncNotifyDataObject::AcquireData method
+# IPrintAsyncNotifyDataObject::AcquireData
 
 
 ## -description

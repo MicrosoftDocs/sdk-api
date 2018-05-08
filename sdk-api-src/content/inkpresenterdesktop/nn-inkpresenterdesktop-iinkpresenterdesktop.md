@@ -8,7 +8,7 @@ old-project: input_ink
 ms.assetid: 6d175981-6379-4a61-84b0-8b08274bc3a3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IInkPresenterDesktop, IInkPresenterDesktop interface, IInkPresenterDesktop interface, described, InkPresenterDesktop.iinkpresenterdesktop, inkpresenterdesktop/IInkPresenterDesktop, input_ink.iinkpresenterdesktop
+ms.keywords: IInkPresenterDesktop, IInkPresenterDesktop interface, IInkPresenterDesktop interface,described, InkPresenterDesktop.iinkpresenterdesktop, inkpresenterdesktop/IInkPresenterDesktop, input_ink.iinkpresenterdesktop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

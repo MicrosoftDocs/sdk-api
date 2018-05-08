@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.put_BizRuleImportedPath
-title: IAzTask::put_BizRuleImportedPath method
+title: IAzTask::put_BizRuleImportedPath
 author: windows-driver-content
 description: Sets or retrieves the path to the file from which the business rule (BizRule) is imported.
 old-location: security\iaztask_bizruleimportedpath.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 52422e14-4a96-455d-ad35-b8816871ee10
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzTask object [Security], BizRuleImportedPath property, BizRuleImportedPath property [Security], BizRuleImportedPath property [Security], AzTask object, BizRuleImportedPath property [Security], IAzTask interface, IAzTask, IAzTask interface [Security], BizRuleImportedPath property, IAzTask.BizRuleImportedPath, IAzTask::get_BizRuleImportedPath, IAzTask::put_BizRuleImportedPath, azroles/IAzTask::BizRuleImportedPath, azroles/IAzTask::get_BizRuleImportedPath, azroles/IAzTask::put_BizRuleImportedPath, put_BizRuleImportedPath,IAzTask.put_BizRuleImportedPath, security.iaztask_bizruleimportedpath
+ms.keywords: AzTask object [Security],BizRuleImportedPath property, BizRuleImportedPath property [Security], BizRuleImportedPath property [Security],AzTask object, BizRuleImportedPath property [Security],IAzTask interface, IAzTask interface [Security],BizRuleImportedPath property, IAzTask.BizRuleImportedPath, IAzTask.put_BizRuleImportedPath, IAzTask::BizRuleImportedPath, IAzTask::get_BizRuleImportedPath, IAzTask::put_BizRuleImportedPath, azroles/IAzTask::BizRuleImportedPath, azroles/IAzTask::get_BizRuleImportedPath, azroles/IAzTask::put_BizRuleImportedPath, put_BizRuleImportedPath, security.iaztask_bizruleimportedpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzTask::put_BizRuleImportedPath method
+# IAzTask::put_BizRuleImportedPath
 
 
 ## -description

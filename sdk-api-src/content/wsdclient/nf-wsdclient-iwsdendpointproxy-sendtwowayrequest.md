@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.SendTwoWayRequest
-title: IWSDEndpointProxy::SendTwoWayRequest method
+title: IWSDEndpointProxy::SendTwoWayRequest
 author: windows-driver-content
 description: Sends a two-way request message using a synchronous call pattern.
 old-location: ncd\iwsdendpointproxy_sendtwowayrequest.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: f93ddbf1-d530-4957-87ab-5718ee5f20d9
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDEndpointProxy, IWSDEndpointProxy interface, SendTwoWayRequest method, IWSDEndpointProxy::SendTwoWayRequest, SendTwoWayRequest method, SendTwoWayRequest method, IWSDEndpointProxy interface, SendTwoWayRequest,IWSDEndpointProxy.SendTwoWayRequest, ncd.iwsdendpointproxy_sendtwowayrequest, wsdclient/IWSDEndpointProxy::SendTwoWayRequest
+ms.keywords: IWSDEndpointProxy interface,SendTwoWayRequest method, IWSDEndpointProxy.SendTwoWayRequest, IWSDEndpointProxy::SendTwoWayRequest, SendTwoWayRequest, SendTwoWayRequest method, SendTwoWayRequest method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_sendtwowayrequest, wsdclient/IWSDEndpointProxy::SendTwoWayRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDEndpointProxy::SendTwoWayRequest method
+# IWSDEndpointProxy::SendTwoWayRequest
 
 
 ## -description

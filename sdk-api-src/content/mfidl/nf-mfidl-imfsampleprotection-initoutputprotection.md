@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.InitOutputProtection
-title: IMFSampleProtection::InitOutputProtection method
+title: IMFSampleProtection::InitOutputProtection
 author: windows-driver-content
 description: Retrieves initialization information for sample protection from the upstream component.
 old-location: mf\imfsampleprotection_initoutputprotection.htm
 old-project: medfound
 ms.assetid: 03bee13d-1c51-4b26-98bb-bac15264aa54
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 03bee13d-1c51-4b26-98bb-bac15264aa54, IMFSampleProtection, IMFSampleProtection interface [Media Foundation], InitOutputProtection method, IMFSampleProtection::InitOutputProtection, InitOutputProtection method [Media Foundation], InitOutputProtection method [Media Foundation], IMFSampleProtection interface, InitOutputProtection,IMFSampleProtection.InitOutputProtection, mf.imfsampleprotection_initoutputprotection, mfidl/IMFSampleProtection::InitOutputProtection
+ms.date: 5/3/2018
+ms.keywords: 03bee13d-1c51-4b26-98bb-bac15264aa54, IMFSampleProtection interface [Media Foundation],InitOutputProtection method, IMFSampleProtection.InitOutputProtection, IMFSampleProtection::InitOutputProtection, InitOutputProtection, InitOutputProtection method [Media Foundation], InitOutputProtection method [Media Foundation],IMFSampleProtection interface, mf.imfsampleprotection_initoutputprotection, mfidl/IMFSampleProtection::InitOutputProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSampleProtection::InitOutputProtection method
+# IMFSampleProtection::InitOutputProtection
 
 
 ## -description

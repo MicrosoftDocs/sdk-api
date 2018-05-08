@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITResultSet.GetRowCount
-title: IITResultSet::GetRowCount method
+title: IITResultSet::GetRowCount
 author: windows-driver-content
 description: Gets the number of rows in a result set.
 old-location: htmlhelp\iitresultset_getrowcount.htm
@@ -8,7 +8,7 @@ old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetgetrowcount.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetRowCount method [HTML Help Workshop], GetRowCount method [HTML Help Workshop], IITResultSet interface, GetRowCount,IITResultSet.GetRowCount, IITResultSet, IITResultSet interface [HTML Help Workshop], GetRowCount method, IITResultSet::GetRowCount, htmlhelp.iitresultset_getrowcount, infotech/IITResultSet::GetRowCount, refIITResultSetGetRowCount
+ms.keywords: GetRowCount, GetRowCount method [HTML Help Workshop], GetRowCount method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],GetRowCount method, IITResultSet.GetRowCount, IITResultSet::GetRowCount, htmlhelp.iitresultset_getrowcount, infotech/IITResultSet::GetRowCount, refIITResultSetGetRowCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IITResultSet::GetRowCount method
+# IITResultSet::GetRowCount
 
 
 ## -description

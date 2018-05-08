@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetTypeFlags
-title: ITypeInfo2::GetTypeFlags method
+title: ITypeInfo2::GetTypeFlags
 author: windows-driver-content
 description: Returns the type flags without any allocations. This returns a flag that expands the type flags without growing the TYPEATTR (type attribute).
 old-location: automat\itypeinfo2_gettypeflags.htm
 old-project: automat
 ms.assetid: a240caf6-f7a2-41c4-9950-f0d2df1f3e2d
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetTypeFlags method [Automation], GetTypeFlags method [Automation], ITypeInfo2 interface, GetTypeFlags,ITypeInfo2.GetTypeFlags, ITypeInfo2, ITypeInfo2 interface [Automation], GetTypeFlags method, ITypeInfo2::GetTypeFlags, _oa96_ITypeInfo2_GetTypeFlags, automat.itypeinfo2_gettypeflags, oaidl/ITypeInfo2::GetTypeFlags
+ms.date: 5/4/2018
+ms.keywords: GetTypeFlags, GetTypeFlags method [Automation], GetTypeFlags method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetTypeFlags method, ITypeInfo2.GetTypeFlags, ITypeInfo2::GetTypeFlags, _oa96_ITypeInfo2_GetTypeFlags, automat.itypeinfo2_gettypeflags, oaidl/ITypeInfo2::GetTypeFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo2::GetTypeFlags method
+# ITypeInfo2::GetTypeFlags
 
 
 ## -description

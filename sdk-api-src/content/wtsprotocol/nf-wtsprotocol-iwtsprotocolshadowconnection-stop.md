@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowConnection.Stop
-title: IWTSProtocolShadowConnection::Stop method
+title: IWTSProtocolShadowConnection::Stop
 author: windows-driver-content
 description: IWTSProtocolShadowConnection::Stop is no longer available. Instead, use IWRdsProtocolShadowConnection::Stop.
 old-location: termserv\iwtsprotocolshadowconnection_stop.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 629b82cb-7bf3-4a83-bc96-a1e6a757f974
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolShadowConnection, IWTSProtocolShadowConnection interface [Remote Desktop Services], Stop method, IWTSProtocolShadowConnection::Stop, Stop method [Remote Desktop Services], Stop method [Remote Desktop Services], IWTSProtocolShadowConnection interface, Stop,IWTSProtocolShadowConnection.Stop, termserv.iwtsprotocolshadowconnection_stop, wtsprotocol/IWTSProtocolShadowConnection::Stop
+ms.keywords: IWTSProtocolShadowConnection interface [Remote Desktop Services],Stop method, IWTSProtocolShadowConnection.Stop, IWTSProtocolShadowConnection::Stop, Stop, Stop method [Remote Desktop Services], Stop method [Remote Desktop Services],IWTSProtocolShadowConnection interface, termserv.iwtsprotocolshadowconnection_stop, wtsprotocol/IWTSProtocolShadowConnection::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolShadowConnection::Stop method
+# IWTSProtocolShadowConnection::Stop
 
 
 ## -description

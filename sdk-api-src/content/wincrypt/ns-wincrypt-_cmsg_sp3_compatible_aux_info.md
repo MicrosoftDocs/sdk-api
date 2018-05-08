@@ -7,7 +7,7 @@ old-location: security\cmsg_sp3_compatible_aux_info.htm
 old-project: SecCrypto
 ms.assetid: 9afd38c5-fccd-43ea-9c30-c62fdcbee633
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMSG_SP3_COMPATIBLE_AUX_INFO, CMSG_SP3_COMPATIBLE_AUX_INFO, CMSG_SP3_COMPATIBLE_AUX_INFO structure [Security], PCMSG_SP3_COMPATIBLE_AUX_INFO, PCMSG_SP3_COMPATIBLE_AUX_INFO structure pointer [Security], _CMSG_SP3_COMPATIBLE_AUX_INFO, _crypto2_cmsg_sp3_compatible_aux_info, security.cmsg_sp3_compatible_aux_info, wincrypt/CMSG_SP3_COMPATIBLE_AUX_INFO, wincrypt/PCMSG_SP3_COMPATIBLE_AUX_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

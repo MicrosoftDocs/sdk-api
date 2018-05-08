@@ -7,7 +7,7 @@ old-location: winsock\addrinfoex2.htm
 old-project: WinSock
 ms.assetid: 9CB33347-A838-473D-B5CD-1149D6632CF2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPADDRINFOEX2W, *PADDRINFOEX2W, ADDRINFOEX2, ADDRINFOEX2 structure [Winsock], ADDRINFOEX2W, AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_DISABLE_IDN_ENCODING, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPADDRINFOEX2, LPADDRINFOEX2 structure pointer [Winsock], PADDRINFOEX2, PADDRINFOEX2 structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, addrinfoex2, addrinfoex2 structure [Winsock], addrinfoex2A, addrinfoex2W, winsock.addrinfoex2, ws2def/LPADDRINFOEX2, ws2def/PADDRINFOEX2, ws2def/addrinfoex2, ws2def/addrinfoex2A, ws2def/addrinfoex2W"
 ms.prod: windows-hardware
 ms.technology: windows-devices

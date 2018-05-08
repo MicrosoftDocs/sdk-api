@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttributes.Clear
-title: ICryptAttributes::Clear method
+title: ICryptAttributes::Clear
 author: windows-driver-content
 description: Removes all ICryptAttribute objects from the collection.
 old-location: security\icryptattributes_clear_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 00d6c72d-0170-4174-9274-5fe217156f28
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Clear method [Security], Clear method [Security], ICryptAttributes interface, Clear,ICryptAttributes.Clear, ICryptAttributes, ICryptAttributes interface [Security], Clear method, ICryptAttributes::Clear, certenroll/ICryptAttributes::Clear, security.icryptattributes_clear_method
+ms.keywords: Clear, Clear method [Security], Clear method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],Clear method, ICryptAttributes.Clear, ICryptAttributes::Clear, certenroll/ICryptAttributes::Clear, security.icryptattributes_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICryptAttributes::Clear method
+# ICryptAttributes::Clear
 
 
 ## -description

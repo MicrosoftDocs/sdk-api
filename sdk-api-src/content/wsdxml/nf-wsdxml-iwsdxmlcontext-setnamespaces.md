@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdxml.IWSDXMLContext.SetNamespaces
-title: IWSDXMLContext::SetNamespaces method
+title: IWSDXMLContext::SetNamespaces
 author: windows-driver-content
 description: Associates custom namespaces with the XML context object.
 old-location: ncd\iwsdxmlcontext_setnamespaces_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 94ec94d1-e0d8-42cb-993f-6da9c8df1a47
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDXMLContext, IWSDXMLContext interface, SetNamespaces method, IWSDXMLContext::SetNamespaces, SetNamespaces method, SetNamespaces method, IWSDXMLContext interface, SetNamespaces,IWSDXMLContext.SetNamespaces, ncd.iwsdxmlcontext_setnamespaces_method, wsdxml/IWSDXMLContext::SetNamespaces
+ms.keywords: IWSDXMLContext interface,SetNamespaces method, IWSDXMLContext.SetNamespaces, IWSDXMLContext::SetNamespaces, SetNamespaces, SetNamespaces method, SetNamespaces method,IWSDXMLContext interface, ncd.iwsdxmlcontext_setnamespaces_method, wsdxml/IWSDXMLContext::SetNamespaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDXMLContext::SetNamespaces method
+# IWSDXMLContext::SetNamespaces
 
 
 ## -description

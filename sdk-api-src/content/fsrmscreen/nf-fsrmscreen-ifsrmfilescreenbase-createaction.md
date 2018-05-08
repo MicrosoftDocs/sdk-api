@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.CreateAction
-title: IFsrmFileScreenBase::CreateAction method
+title: IFsrmFileScreenBase::CreateAction
 author: windows-driver-content
 description: Creates an action for this file screen object.
 old-location: fsrm\ifsrmfilescreenbase_createaction.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 1d627e07-fa8c-4c22-acba-c08767b8ebaa
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreateAction method [File Server Resource Manager], CreateAction method [File Server Resource Manager], IFsrmFileScreenBase interface, CreateAction,IFsrmFileScreenBase.CreateAction, IFsrmFileScreenBase, IFsrmFileScreenBase interface [File Server Resource Manager], CreateAction method, IFsrmFileScreenBase::CreateAction, fs.ifsrmfilescreenbase_createaction, fsrm.ifsrmfilescreenbase_createaction, fsrmscreen/IFsrmFileScreenBase::CreateAction
+ms.keywords: CreateAction, CreateAction method [File Server Resource Manager], CreateAction method [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],CreateAction method, IFsrmFileScreenBase.CreateAction, IFsrmFileScreenBase::CreateAction, fs.ifsrmfilescreenbase_createaction, fsrm.ifsrmfilescreenbase_createaction, fsrmscreen/IFsrmFileScreenBase::CreateAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenBase::CreateAction method
+# IFsrmFileScreenBase::CreateAction
 
 
 ## -description

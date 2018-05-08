@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.NextPGSearch
-title: IDvdControl::NextPGSearch method
+title: IDvdControl::NextPGSearch
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current program and starts playback from the next program within the program chain (PGC).
 old-location: dshow\idvdcontrol_nextpgsearch.htm
 old-project: DirectShow
 ms.assetid: a509f63f-a3e9-4b49-bbf0-f59051db119a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl, IDvdControl interface [DirectShow], NextPGSearch method, IDvdControl::NextPGSearch, IDvdControlNextPGSearch, NextPGSearch method [DirectShow], NextPGSearch method [DirectShow], IDvdControl interface, NextPGSearch,IDvdControl.NextPGSearch, dshow.idvdcontrol_nextpgsearch, strmif/IDvdControl::NextPGSearch
+ms.date: 4/30/2018
+ms.keywords: IDvdControl interface [DirectShow],NextPGSearch method, IDvdControl.NextPGSearch, IDvdControl::NextPGSearch, IDvdControlNextPGSearch, NextPGSearch, NextPGSearch method [DirectShow], NextPGSearch method [DirectShow],IDvdControl interface, dshow.idvdcontrol_nextpgsearch, strmif/IDvdControl::NextPGSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::NextPGSearch method
+# IDvdControl::NextPGSearch
 
 
 ## -description

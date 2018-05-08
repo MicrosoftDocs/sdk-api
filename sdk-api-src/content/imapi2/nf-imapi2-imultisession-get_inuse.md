@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisession.get_InUse
-title: IMultisession::get_InUse method
+title: IMultisession::get_InUse
 author: windows-driver-content
 description: Determines if this multi-session interface is the one you should use on the current media.
 old-location: imapi\imultisession_get_inuse.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 35ebf336-0d67-422c-b6f7-2fd6ee3e7226
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMultisession, IMultisession interface [IMAPI], get_InUse method, IMultisession::get_InUse, get_InUse method [IMAPI], get_InUse method [IMAPI], IMultisession interface, get_InUse,IMultisession.get_InUse, imapi.imultisession_get_inuse, imapi2/IMultisession::get_InUse
+ms.keywords: IMultisession interface [IMAPI],get_InUse method, IMultisession.get_InUse, IMultisession::get_InUse, get_InUse, get_InUse method [IMAPI], get_InUse method [IMAPI],IMultisession interface, imapi.imultisession_get_inuse, imapi2/IMultisession::get_InUse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMultisession::get_InUse method
+# IMultisession::get_InUse
 
 
 ## -description

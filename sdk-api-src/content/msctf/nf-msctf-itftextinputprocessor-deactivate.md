@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfTextInputProcessor.Deactivate
-title: ITfTextInputProcessor::Deactivate method
+title: ITfTextInputProcessor::Deactivate
 author: windows-driver-content
 description: ITfTextInputProcessor::Deactivate method
 old-location: tsf\itftextinputprocessor_deactivate.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 427190fc-f246-47c6-84e0-a28808a86b6b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Deactivate method [Text Services Framework], Deactivate method [Text Services Framework], ITfTextInputProcessor interface, Deactivate,ITfTextInputProcessor.Deactivate, ITfTextInputProcessor, ITfTextInputProcessor interface [Text Services Framework], Deactivate method, ITfTextInputProcessor::Deactivate, _tsf_itftextinputprocessor_deactivate_ref, msctf/ITfTextInputProcessor::Deactivate, tsf.itftextinputprocessor_deactivate
+ms.keywords: Deactivate, Deactivate method [Text Services Framework], Deactivate method [Text Services Framework],ITfTextInputProcessor interface, ITfTextInputProcessor interface [Text Services Framework],Deactivate method, ITfTextInputProcessor.Deactivate, ITfTextInputProcessor::Deactivate, _tsf_itftextinputprocessor_deactivate_ref, msctf/ITfTextInputProcessor::Deactivate, tsf.itftextinputprocessor_deactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfTextInputProcessor::Deactivate method
+# ITfTextInputProcessor::Deactivate
 
 
 ## -description

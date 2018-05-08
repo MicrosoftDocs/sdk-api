@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkCursorButtons.get_Count
-title: IInkCursorButtons::get_Count method
+title: IInkCursorButtons::get_Count
 author: windows-driver-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkcursorbuttons_count.htm
 old-project: tablet
 ms.assetid: 4c22d9bf-51a9-4c30-9e5d-ea166fce8bc8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 4c22d9bf-51a9-4c30-9e5d-ea166fce8bc8, Count property [Tablet PC], Count property [Tablet PC], IInkCursorButtons interface, IInkCursorButtons, IInkCursorButtons interface [Tablet PC], Count property, IInkCursorButtons.Count, IInkCursorButtons.get_Count, IInkCursorButtons::get_Count, get_Count,IInkCursorButtons.get_Count, msinkaut/IInkCursorButtons::Count, msinkaut/IInkCursorButtons::get_Count, tablet.iinkcursorbuttons_count
+ms.date: 5/2/2018
+ms.keywords: 4c22d9bf-51a9-4c30-9e5d-ea166fce8bc8, Count property [Tablet PC], Count property [Tablet PC],IInkCursorButtons interface, IInkCursorButtons interface [Tablet PC],Count property, IInkCursorButtons.Count, IInkCursorButtons.get_Count, IInkCursorButtons::Count, IInkCursorButtons::get_Count, get_Count, msinkaut/IInkCursorButtons::Count, msinkaut/IInkCursorButtons::get_Count, tablet.iinkcursorbuttons_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkCursorButtons::get_Count method
+# IInkCursorButtons::get_Count
 
 
 ## -description

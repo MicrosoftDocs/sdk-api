@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSGetShaderResources
-title: ID3D10Device::VSGetShaderResources method
+title: ID3D10Device::VSGetShaderResources
 author: windows-driver-content
 description: Get the vertex shader resources.
 old-location: direct3d10\id3d10device_vsgetshaderresources.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vsgetshaderresources.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 55f36c24-a1d1-912f-485e-13d633bf3178, ID3D10Device, ID3D10Device interface [Direct3D 10], VSGetShaderResources method, ID3D10Device::VSGetShaderResources, VSGetShaderResources method [Direct3D 10], VSGetShaderResources method [Direct3D 10], ID3D10Device interface, VSGetShaderResources,ID3D10Device.VSGetShaderResources, d3d10/ID3D10Device::VSGetShaderResources, direct3d10.id3d10device_vsgetshaderresources
+ms.keywords: 55f36c24-a1d1-912f-485e-13d633bf3178, ID3D10Device interface [Direct3D 10],VSGetShaderResources method, ID3D10Device.VSGetShaderResources, ID3D10Device::VSGetShaderResources, VSGetShaderResources, VSGetShaderResources method [Direct3D 10], VSGetShaderResources method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSGetShaderResources, direct3d10.id3d10device_vsgetshaderresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::VSGetShaderResources method
+# ID3D10Device::VSGetShaderResources
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_MacAddress
-title: IWdsTransportClient::get_MacAddress method
+title: IWdsTransportClient::get_MacAddress
 author: windows-driver-content
 description: Receives the MAC address of the WDS client.
 old-location: wds\iwdstransportclient_macaddress.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: cc05d24a-54c8-40e7-85e4-640813538116
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], MacAddress property, IWdsTransportClient.MacAddress, IWdsTransportClient::get_MacAddress, MacAddress property [Windows Deployment Services], MacAddress property [Windows Deployment Services], IWdsTransportClient interface, get_MacAddress,IWdsTransportClient.get_MacAddress, wds.iwdstransportclient_macaddress, wdstptmgmt/IWdsTransportClient::MacAddress, wdstptmgmt/IWdsTransportClient::get_MacAddress
+ms.keywords: IWdsTransportClient interface [Windows Deployment Services],MacAddress property, IWdsTransportClient.MacAddress, IWdsTransportClient.get_MacAddress, IWdsTransportClient::MacAddress, IWdsTransportClient::get_MacAddress, MacAddress property [Windows Deployment Services], MacAddress property [Windows Deployment Services],IWdsTransportClient interface, get_MacAddress, wds.iwdstransportclient_macaddress, wdstptmgmt/IWdsTransportClient::MacAddress, wdstptmgmt/IWdsTransportClient::get_MacAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportClient::get_MacAddress method
+# IWdsTransportClient::get_MacAddress
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagEnableSPNServerPort
-title: IWSManEx::SessionFlagEnableSPNServerPort method
+title: IWSManEx::SessionFlagEnableSPNServerPort
 author: windows-driver-content
 description: Returns the value of the authentication flag WSManFlagEnableSPNServerPort for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagenablespnserverport.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: a8fe2077-0606-4517-8e50-dc42a4c39b77
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], SessionFlagEnableSPNServerPort method, IWSManEx::SessionFlagEnableSPNServerPort, SessionFlagEnableSPNServerPort method [Windows Remote Management], SessionFlagEnableSPNServerPort method [Windows Remote Management], IWSManEx interface, SessionFlagEnableSPNServerPort,IWSManEx.SessionFlagEnableSPNServerPort, winrm.iwsmanex_sessionflagenablespnserverport, wsmandisp/IWSManEx::SessionFlagEnableSPNServerPort
+ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagEnableSPNServerPort method, IWSManEx.SessionFlagEnableSPNServerPort, IWSManEx::SessionFlagEnableSPNServerPort, SessionFlagEnableSPNServerPort, SessionFlagEnableSPNServerPort method [Windows Remote Management], SessionFlagEnableSPNServerPort method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagenablespnserverport, wsmandisp/IWSManEx::SessionFlagEnableSPNServerPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx::SessionFlagEnableSPNServerPort method
+# IWSManEx::SessionFlagEnableSPNServerPort
 
 
 ## -description

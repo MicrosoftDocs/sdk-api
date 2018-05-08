@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 6c23779b-d759-4443-a134-0ff27c48dc8e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: PMGM_ENABLE_IGMP_CALLBACK, PMGM_ENABLE_IGMP_CALLBACK callback function [RAS], _mpr_pmgm_enable_igmp_callback, mgm/PMGM_ENABLE_IGMP_CALLBACK, rras.pmgm_enable_igmp_callback
+ms.keywords: PMGM_ENABLE_IGMP_CALLBACK, PMGM_ENABLE_IGMP_CALLBACK callback, PMGM_ENABLE_IGMP_CALLBACK callback function [RAS], _mpr_pmgm_enable_igmp_callback, mgm/PMGM_ENABLE_IGMP_CALLBACK, rras.pmgm_enable_igmp_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# PMGM_ENABLE_IGMP_CALLBACK callback
+# PMGM_ENABLE_IGMP_CALLBACK callback function
 
 
 ## -description

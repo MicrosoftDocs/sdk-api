@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetSmallCaps
-title: ITextFont::SetSmallCaps method
+title: ITextFont::SetSmallCaps
 author: windows-driver-content
 description: Sets whether characters are in small capital letters.
 old-location: controls\ITextFont_SetSmallCaps.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsmallcaps.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetSmallCaps method, ITextFont::SetSmallCaps, SetSmallCaps method [Windows Controls], SetSmallCaps method [Windows Controls], ITextFont interface, SetSmallCaps,ITextFont.SetSmallCaps, _win32_ITextFont_SetSmallCaps, _win32_ITextFont_SetSmallCaps_cpp, controls.ITextFont_SetSmallCaps, controls._win32_ITextFont_SetSmallCaps, tom/ITextFont::SetSmallCaps
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetSmallCaps method, ITextFont.SetSmallCaps, ITextFont::SetSmallCaps, SetSmallCaps, SetSmallCaps method [Windows Controls], SetSmallCaps method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSmallCaps, _win32_ITextFont_SetSmallCaps_cpp, controls.ITextFont_SetSmallCaps, controls._win32_ITextFont_SetSmallCaps, tom/ITextFont::SetSmallCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetSmallCaps method
+# ITextFont::SetSmallCaps
 
 
 ## -description

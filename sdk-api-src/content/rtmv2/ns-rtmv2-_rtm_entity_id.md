@@ -69,7 +69,7 @@ Specifies a client's protocol identifier (such as RIP or OSPF).
 Specifies a client's protocol instance (such as RIPv1 or RIPv2).
 
 
-#### - EntityId
+### -field EntityId
 
 Specifies a client's identifier, which is a combination of the <b>EntityProtocolId</b> and the <b>EntityInstanceId</b>.
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectContext.EnableCommit
-title: ObjectContext::EnableCommit method
+title: ObjectContext::EnableCommit
 author: windows-driver-content
 description: Declares that the current object's work is not necessarily finished but that its transactional updates are consistent and could be committed in their present form.
 old-location: cos\objectcontext_enablecommit.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: c625d3e2-8a12-4049-8997-6e57c3423acc
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: EnableCommit method [COM+], EnableCommit method [COM+], ObjectContext interface, EnableCommit,ObjectContext.EnableCommit, ObjectContext, ObjectContext interface [COM+], EnableCommit method, ObjectContext::EnableCommit, _cos_ObjectContext_EnableCommit, comsvcs/ObjectContext::EnableCommit, cos.objectcontext_enablecommit
+ms.keywords: EnableCommit, EnableCommit method [COM+], EnableCommit method [COM+],ObjectContext interface, ObjectContext interface [COM+],EnableCommit method, ObjectContext.EnableCommit, ObjectContext::EnableCommit, _cos_ObjectContext_EnableCommit, comsvcs/ObjectContext::EnableCommit, cos.objectcontext_enablecommit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ObjectContext::EnableCommit method
+# ObjectContext::EnableCommit
 
 
 ## -description

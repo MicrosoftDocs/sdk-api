@@ -7,8 +7,8 @@ old-location: audio\ipropertystore.htm
 old-project: audio
 ms.assetid: 63afd5b1-87cc-4e0a-8964-2138c5fbff46
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IPropertyStore, IPropertyStore interface [Audio Devices], IPropertyStore interface [Audio Devices], described, audio.ipropertystore, audio_syseffects_r_1efc1bca-70e7-4db2-aea3-4c1d4aa1a39a.xml, propsys/IPropertyStore
+ms.date: 5/1/2018
+ms.keywords: IPropertyStore, IPropertyStore interface [Audio Devices], IPropertyStore interface [Audio Devices],described, audio.ipropertystore, audio_syseffects_r_1efc1bca-70e7-4db2-aea3-4c1d4aa1a39a.xml, propsys/IPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

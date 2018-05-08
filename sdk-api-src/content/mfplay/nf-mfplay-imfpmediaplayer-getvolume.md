@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetVolume
-title: IMFPMediaPlayer::GetVolume method
+title: IMFPMediaPlayer::GetVolume
 author: windows-driver-content
 description: Gets the current audio volume.
 old-location: mf\imfpmediaplayer_getvolume.htm
 old-project: medfound
 ms.assetid: 08bf0bb3-4ee2-4229-9f41-64924c6122c9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVolume method [Media Foundation], GetVolume method [Media Foundation], IMFPMediaPlayer interface, GetVolume,IMFPMediaPlayer.GetVolume, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetVolume method, IMFPMediaPlayer::GetVolume, mf.imfpmediaplayer_getvolume, mfplay/IMFPMediaPlayer::GetVolume
+ms.date: 5/3/2018
+ms.keywords: GetVolume, GetVolume method [Media Foundation], GetVolume method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVolume method, IMFPMediaPlayer.GetVolume, IMFPMediaPlayer::GetVolume, mf.imfpmediaplayer_getvolume, mfplay/IMFPMediaPlayer::GetVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::GetVolume method
+# IMFPMediaPlayer::GetVolume
 
 
 ## -description

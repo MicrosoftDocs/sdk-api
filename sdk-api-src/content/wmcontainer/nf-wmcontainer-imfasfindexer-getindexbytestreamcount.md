@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexByteStreamCount
-title: IMFASFIndexer::GetIndexByteStreamCount method
+title: IMFASFIndexer::GetIndexByteStreamCount
 author: windows-driver-content
 description: Retrieves the number of byte streams that are in use by the indexer object.
 old-location: mf\imfasfindexer_getindexbytestreamcount.htm
 old-project: medfound
 ms.assetid: a433af8a-9e8a-4234-9694-c3a5420a1710
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetIndexByteStreamCount method [Media Foundation], GetIndexByteStreamCount method [Media Foundation], IMFASFIndexer interface, GetIndexByteStreamCount,IMFASFIndexer.GetIndexByteStreamCount, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], GetIndexByteStreamCount method, IMFASFIndexer::GetIndexByteStreamCount, a433af8a-9e8a-4234-9694-c3a5420a1710, mf.imfasfindexer_getindexbytestreamcount, wmcontainer/IMFASFIndexer::GetIndexByteStreamCount
+ms.date: 5/3/2018
+ms.keywords: GetIndexByteStreamCount, GetIndexByteStreamCount method [Media Foundation], GetIndexByteStreamCount method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexByteStreamCount method, IMFASFIndexer.GetIndexByteStreamCount, IMFASFIndexer::GetIndexByteStreamCount, a433af8a-9e8a-4234-9694-c3a5420a1710, mf.imfasfindexer_getindexbytestreamcount, wmcontainer/IMFASFIndexer::GetIndexByteStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFIndexer::GetIndexByteStreamCount method
+# IMFASFIndexer::GetIndexByteStreamCount
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_CurrentFileOffset
-title: IWdsTransportTftpClient::get_CurrentFileOffset method
+title: IWdsTransportTftpClient::get_CurrentFileOffset
 author: windows-driver-content
 description: Receives the offset from the start of the file in bytes of the current block being transferred in the TFTP session.
 old-location: wds\iwdstransporttftpclient_currentfileoffset.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 24B35E1D-7CEA-458E-8E6A-80BF97FFF46E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CurrentFileOffset property [Windows Deployment Services], CurrentFileOffset property [Windows Deployment Services], IWdsTransportTftpClient interface, IWdsTransportTftpClient, IWdsTransportTftpClient interface [Windows Deployment Services], CurrentFileOffset property, IWdsTransportTftpClient.CurrentFileOffset, IWdsTransportTftpClient::get_CurrentFileOffset, get_CurrentFileOffset,IWdsTransportTftpClient.get_CurrentFileOffset, wds.iwdstransporttftpclient_currentfileoffset, wdstptmgmt/IWdsTransportTftpClient::CurrentFileOffset, wdstptmgmt/IWdsTransportTftpClient::get_CurrentFileOffset
+ms.keywords: CurrentFileOffset property [Windows Deployment Services], CurrentFileOffset property [Windows Deployment Services],IWdsTransportTftpClient interface, IWdsTransportTftpClient interface [Windows Deployment Services],CurrentFileOffset property, IWdsTransportTftpClient.CurrentFileOffset, IWdsTransportTftpClient.get_CurrentFileOffset, IWdsTransportTftpClient::CurrentFileOffset, IWdsTransportTftpClient::get_CurrentFileOffset, get_CurrentFileOffset, wds.iwdstransporttftpclient_currentfileoffset, wdstptmgmt/IWdsTransportTftpClient::CurrentFileOffset, wdstptmgmt/IWdsTransportTftpClient::get_CurrentFileOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportTftpClient::get_CurrentFileOffset method
+# IWdsTransportTftpClient::get_CurrentFileOffset
 
 
 ## -description

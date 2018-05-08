@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetSize
-title: IWMDMStorage::GetSize method
+title: IWMDMStorage::GetSize
 author: windows-driver-content
 description: The GetSize method retrieves the size of the storage, in bytes.
 old-location: wmdm\iwmdmstorage_getsize.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 1042b71b-1656-4f0b-be95-8a09ba4421ed
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetSize method [windows Media Device Manager], GetSize method [windows Media Device Manager], IWMDMStorage interface, GetSize,IWMDMStorage.GetSize, IWMDMStorage, IWMDMStorage interface [windows Media Device Manager], GetSize method, IWMDMStorage::GetSize, IWMDMStorageGetSize, mswmdm/IWMDMStorage::GetSize, wmdm.iwmdmstorage_getsize
+ms.keywords: GetSize, GetSize method [windows Media Device Manager], GetSize method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetSize method, IWMDMStorage.GetSize, IWMDMStorage::GetSize, IWMDMStorageGetSize, mswmdm/IWMDMStorage::GetSize, wmdm.iwmdmstorage_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMStorage::GetSize method
+# IWMDMStorage::GetSize
 
 
 ## -description

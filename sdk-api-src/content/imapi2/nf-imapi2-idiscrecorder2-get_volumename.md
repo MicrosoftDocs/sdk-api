@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_VolumeName
-title: IDiscRecorder2::get_VolumeName method
+title: IDiscRecorder2::get_VolumeName
 author: windows-driver-content
 description: Retrieves the unique volume name associated with the device.
 old-location: imapi\idiscrecorder2_get_volumename.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 953f291d-a1b8-4cad-8ddf-59e251de65f2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscRecorder2, IDiscRecorder2 interface [IMAPI], get_VolumeName method, IDiscRecorder2::get_VolumeName, get_VolumeName method [IMAPI], get_VolumeName method [IMAPI], IDiscRecorder2 interface, get_VolumeName,IDiscRecorder2.get_VolumeName, imapi.idiscrecorder2_get_volumename, imapi2/IDiscRecorder2::get_VolumeName
+ms.keywords: IDiscRecorder2 interface [IMAPI],get_VolumeName method, IDiscRecorder2.get_VolumeName, IDiscRecorder2::get_VolumeName, get_VolumeName, get_VolumeName method [IMAPI], get_VolumeName method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_volumename, imapi2/IDiscRecorder2::get_VolumeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2::get_VolumeName method
+# IDiscRecorder2::get_VolumeName
 
 
 ## -description

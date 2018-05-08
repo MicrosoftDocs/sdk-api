@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingserverfromclient.htm
 old-project: Rpc
 ms.assetid: 9fdcdb99-be6c-4a3b-97dd-8d0eadd2754d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcBindingServerFromClient, RpcBindingServerFromClient function [RPC], _rpc_rpcbindingserverfromclient, rpc.rpcbindingserverfromclient, rpcdce/RpcBindingServerFromClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

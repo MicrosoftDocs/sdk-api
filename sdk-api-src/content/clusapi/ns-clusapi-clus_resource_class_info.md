@@ -62,53 +62,44 @@ Contains resource class data. It is used as the data member of a
 ### -field DUMMYUNIONNAME
 
 
-
-#### li
-
-Resource class and subclass described as a <b>ULARGE_INTEGER</b> value with a low 
-        <b>DWORD</b> and a high <b>DWORD</b>.
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DUMMYUNIONNAME
 
 
-
-###### DUMMYSTRUCTNAME.DUMMYUNIONNAME.dw
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DUMMYUNIONNAME.dw
 
 Provides another way to access the resource class data.
 
 
-
-###### DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc
 
 Resource class described with one of the following values enumerated from the 
           <a href="https://msdn.microsoft.com/65168256-f097-48a5-9e86-ec419ccb13bd">CLUSTER_RESOURCE_CLASS</a> enumeration.
 
 
 
-####### DUMMYUNIONNAME.rc.CLUS_RESCLASS_UNKNOWN (0)
+####### DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc.CLUS_RESCLASS_UNKNOWN (0)
 
 Resource class is unknown.
 
 
 
-####### DUMMYUNIONNAME.rc.CLUS_RESCLASS_STORAGE (1)
+####### DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc.CLUS_RESCLASS_STORAGE (1)
 
 Resource is a storage device, such as a 
             <a href="p_gly.htm">Physical Disk resource</a>.
 
 
 
-####### DUMMYUNIONNAME.rc.CLUS_RESCLASS_NETWORK (2)
+####### DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc.CLUS_RESCLASS_NETWORK (2)
 
 Resource is a <a href="n_gly.htm">network</a> device.
 
 
 
-####### DUMMYUNIONNAME.rc.CLUS_RESCLASS_USER (32768 (0x8000))
+####### DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc.CLUS_RESCLASS_USER (32768 (0x8000))
 
 Resource classes beginning at this value are user-defined.
 
@@ -124,6 +115,12 @@ A mask value that further describes the resource class. The following value is v
 
 Indicates that the resource manages a shared resource such as a disk on a shared 
            <a href="s_gly.htm">SCSI</a> bus.
+
+
+### -field DUMMYUNIONNAME.li
+
+Resource class and subclass described as a <b>ULARGE_INTEGER</b> value with a low 
+        <b>DWORD</b> and a high <b>DWORD</b>.
 
 
 ## -remarks

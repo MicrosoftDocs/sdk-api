@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystem2.GetProperties2
-title: IVdsSubSystem2::GetProperties2 method
+title: IVdsSubSystem2::GetProperties2
 author: windows-driver-content
 description: Returns the properties of a subsystem. This method is identical to the IVdsSubSystem::GetProperties method, except that it returns a VDS_SUB_SYSTEM_PROP2 structure instead of a VDS_SUB_SYSTEM_PROP structure.
 old-location: base\ivdssubsystem2_getproperties2.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 1f2164a9-643d-4762-8a2e-31d5c277502e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetProperties2 method, GetProperties2 method, IVdsSubSystem2 interface, GetProperties2,IVdsSubSystem2.GetProperties2, IVdsSubSystem2, IVdsSubSystem2 interface, GetProperties2 method, IVdsSubSystem2::GetProperties2, base.ivdssubsystem2_getproperties2, vds/IVdsSubSystem2::GetProperties2, vdshwprv/IVdsSubSystem2::GetProperties2
+ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,GetProperties2 method, IVdsSubSystem2.GetProperties2, IVdsSubSystem2::GetProperties2, base.ivdssubsystem2_getproperties2, vds/IVdsSubSystem2::GetProperties2, vdshwprv/IVdsSubSystem2::GetProperties2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsSubSystem2::GetProperties2 method
+# IVdsSubSystem2::GetProperties2
 
 
 ## -description

@@ -83,14 +83,12 @@ One of the
 ### -field Handles
 
 
-
-#### hEvent
+### -field Handles.hEvent
 
 If <b>dwOptions</b> specifies LINEINITIALIZEEXOPTION_USEEVENT, TAPI returns the event handle in this field.
 
 
-
-#### hCompletionPort
+### -field Handles.hCompletionPort
 
 If <b>dwOptions</b> specifies LINEINITIALIZEEXOPTION_USECOMPLETIONPORT, the application must specify in this field the handle of an existing completion port opened using 
 <a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>.

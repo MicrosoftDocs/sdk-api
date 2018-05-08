@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.CountModes
-title: IFullScreenVideoEx::CountModes method
+title: IFullScreenVideoEx::CountModes
 author: windows-driver-content
 description: The CountModes method retrieves the number of display modes that the Full Screen Renderer supports.
 old-location: dshow\ifullscreenvideoex_countmodes.htm
 old-project: DirectShow
 ms.assetid: 70d4e124-083b-4729-8f39-778e815ea23b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CountModes method [DirectShow], CountModes method [DirectShow], IFullScreenVideoEx interface, CountModes,IFullScreenVideoEx.CountModes, IFullScreenVideoCountModes, IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], CountModes method, IFullScreenVideoEx::CountModes, amvideo/IFullScreenVideoEx::CountModes, dshow.ifullscreenvideoex_countmodes
+ms.date: 4/30/2018
+ms.keywords: CountModes, CountModes method [DirectShow], CountModes method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoCountModes, IFullScreenVideoEx interface [DirectShow],CountModes method, IFullScreenVideoEx.CountModes, IFullScreenVideoEx::CountModes, amvideo/IFullScreenVideoEx::CountModes, dshow.ifullscreenvideoex_countmodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IFullScreenVideoEx::CountModes method
+# IFullScreenVideoEx::CountModes
 
 
 ## -description

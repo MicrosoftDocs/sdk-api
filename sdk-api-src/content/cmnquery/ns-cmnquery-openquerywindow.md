@@ -7,7 +7,7 @@ old-location: ad\openquerywindow.htm
 old-project: AD
 ms.assetid: 07ef2af1-230e-41d9-ad19-d002d0579d66
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: "*LPOPENQUERYWINDOW, CLSID_DsFindAdvanced, CLSID_DsFindComputer, CLSID_DsFindContainer, CLSID_DsFindDomainController, CLSID_DsFindFrsMembers, CLSID_DsFindObjects, CLSID_DsFindPeople, CLSID_DsFindPrinter, CLSID_DsFindVolume, CLSID_DsFindWriteableDomainController, CLSID_DsQuery, LPOPENQUERYWINDOW, LPOPENQUERYWINDOW structure pointer [Active Directory], OPENQUERYWINDOW, OPENQUERYWINDOW structure [Active Directory], OQWF_DEFAULTFORM, OQWF_HIDEMENUS, OQWF_HIDESEARCHUI, OQWF_ISSUEONOPEN, OQWF_LOADQUERY, OQWF_OKCANCEL, OQWF_PARAMISPROPERTYBAG, OQWF_REMOVEFORMS, OQWF_REMOVESCOPES, OQWF_SAVEQUERYONOK, OQWF_SHOWOPTIONAL, OQWF_SINGLESELECT, _glines_openquerywindow, ad.openquerywindow, cmnquery/LPOPENQUERYWINDOW, cmnquery/OPENQUERYWINDOW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -263,14 +263,14 @@ Pointer to an <a href="https://msdn.microsoft.com/9d90f119-3d10-4f06-bed4-5ffab9
       the query data is saved to this interface.
 
 
-#### - pFormParameters
+### -field pFormParameters
 
 Reserved. Pointer to a structure or interface that provides parameter initialization data for the form. 
        The contents of this pointer is defined by the form class specified by the 
        <b>clsidDefaultForm</b> member.
 
 
-#### - ppbFormParameters
+### -field ppbFormParameters
 
 Pointer to an <a href="https://msdn.microsoft.com/c93a4cbc-33bb-4de1-ba1c-dcb9b87e92a7">IPropertyBag</a> interface that 
        provides parameter initialization data for the form. The contents of this property bag are defined by the form 

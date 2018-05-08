@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchProtocol.ShutDown
-title: ISearchProtocol::ShutDown method
+title: ISearchProtocol::ShutDown
 author: windows-driver-content
 description: Shuts down the protocol handler.
 old-location: search\_search_ISearchProtocol_ShutDown.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\shutdown.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchProtocol, ISearchProtocol interface [search], ShutDown method, ISearchProtocol::ShutDown, ShutDown method [search], ShutDown method [search], ISearchProtocol interface, ShutDown,ISearchProtocol.ShutDown, _search_ISearchProtocol_ShutDown, search._search_ISearchProtocol_ShutDown, searchapi/ISearchProtocol::ShutDown
+ms.date: 5/4/2018
+ms.keywords: ISearchProtocol interface [search],ShutDown method, ISearchProtocol.ShutDown, ISearchProtocol::ShutDown, ShutDown, ShutDown method [search], ShutDown method [search],ISearchProtocol interface, _search_ISearchProtocol_ShutDown, search._search_ISearchProtocol_ShutDown, searchapi/ISearchProtocol::ShutDown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchProtocol::ShutDown method
+# ISearchProtocol::ShutDown
 
 
 ## -description

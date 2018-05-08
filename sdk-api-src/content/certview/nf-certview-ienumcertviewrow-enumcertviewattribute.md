@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.EnumCertViewAttribute
-title: IEnumCERTVIEWROW::EnumCertViewAttribute method
+title: IEnumCERTVIEWROW::EnumCertViewAttribute
 author: windows-driver-content
 description: Obtains an instance of an attribute-enumeration sequence for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_enumcertviewattribute.htm
 old-project: SecCrypto
 ms.assetid: 53a70f66-3805-429e-8ef6-01b00b666b72
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: EnumCertViewAttribute method [Security], EnumCertViewAttribute method [Security], IEnumCERTVIEWROW interface, EnumCertViewAttribute,IEnumCERTVIEWROW.EnumCertViewAttribute, IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], EnumCertViewAttribute method, IEnumCERTVIEWROW::EnumCertViewAttribute, _certsrv_ienumcertviewrow_enumcertviewattribute, certview/IEnumCERTVIEWROW::EnumCertViewAttribute, security.ienumcertviewrow_enumcertviewattribute
+ms.date: 4/30/2018
+ms.keywords: EnumCertViewAttribute, EnumCertViewAttribute method [Security], EnumCertViewAttribute method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewAttribute method, IEnumCERTVIEWROW.EnumCertViewAttribute, IEnumCERTVIEWROW::EnumCertViewAttribute, _certsrv_ienumcertviewrow_enumcertviewattribute, certview/IEnumCERTVIEWROW::EnumCertViewAttribute, security.ienumcertviewrow_enumcertviewattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWROW::EnumCertViewAttribute method
+# IEnumCERTVIEWROW::EnumCertViewAttribute
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.DeleteEntry
-title: IGPMMigrationTable::DeleteEntry method
+title: IGPMMigrationTable::DeleteEntry
 author: windows-driver-content
 description: Deletes an entry from the migration table.
 old-location: gpmc\igpmmigrationtable_deleteentry.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 712a6419-2f64-4657-993a-e7f6bfc1259e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: DeleteEntry method [GPMC], DeleteEntry method [GPMC], GPMMigrationTable class, DeleteEntry method [GPMC], IGPMMigrationTable interface, DeleteEntry,IGPMMigrationTable.DeleteEntry, GPMMigrationTable class [GPMC], DeleteEntry method, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], DeleteEntry method, IGPMMigrationTable::DeleteEntry, gpmc.igpmmigrationtable_deleteentry, gpmgmt/IGPMMigrationTable::DeleteEntry
+ms.keywords: DeleteEntry, DeleteEntry method [GPMC], DeleteEntry method [GPMC],GPMMigrationTable class, DeleteEntry method [GPMC],IGPMMigrationTable interface, GPMMigrationTable class [GPMC],DeleteEntry method, IGPMMigrationTable interface [GPMC],DeleteEntry method, IGPMMigrationTable.DeleteEntry, IGPMMigrationTable::DeleteEntry, gpmc.igpmmigrationtable_deleteentry, gpmgmt/IGPMMigrationTable::DeleteEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMMigrationTable::DeleteEntry method
+# IGPMMigrationTable::DeleteEntry
 
 
 ## -description

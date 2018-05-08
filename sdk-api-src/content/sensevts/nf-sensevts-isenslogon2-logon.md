@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon2.Logon
-title: ISensLogon2::Logon method
+title: ISensLogon2::Logon
 author: windows-driver-content
 description: The Logon method notifies an application that a user is logged on.
 old-location: sens\isenslogon2_logon.htm
@@ -8,7 +8,7 @@ old-project: Sens
 ms.assetid: 36caaccf-0cb3-47b8-b0bc-68f9bb21f235
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISensLogon2, ISensLogon2 interface [SENS], Logon method, ISensLogon2::Logon, Logon method [SENS], Logon method [SENS], ISensLogon2 interface, Logon,ISensLogon2.Logon, _zaw_isenslogon2_logon, sens.isenslogon2_logon, sensevts/ISensLogon2::Logon, syncmgr.isenslogon2_logon
+ms.keywords: ISensLogon2 interface [SENS],Logon method, ISensLogon2.Logon, ISensLogon2::Logon, Logon, Logon method [SENS], Logon method [SENS],ISensLogon2 interface, _zaw_isenslogon2_logon, sens.isenslogon2_logon, sensevts/ISensLogon2::Logon, syncmgr.isenslogon2_logon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISensLogon2::Logon method
+# ISensLogon2::Logon
 
 
 ## -description

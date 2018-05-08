@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IDragProvider.get_IsGrabbed
-title: IDragProvider::get_IsGrabbed method
+title: IDragProvider::get_IsGrabbed
 author: windows-driver-content
 description: Indicates whether the element has been grabbed as part of a drag-and-drop operation.
 old-location: winauto\uiauto_idragprovider_isgrabbed.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: E2A472A0-F9CE-4778-96DD-60B00D53EEA6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IDragProvider, IDragProvider interface [Windows Accessibility], IsGrabbed property, IDragProvider.IsGrabbed, IDragProvider::get_IsGrabbed, IsGrabbed property [Windows Accessibility], IsGrabbed property [Windows Accessibility], IDragProvider interface, get_IsGrabbed,IDragProvider.get_IsGrabbed, uiautomationcore/IDragProvider::IsGrabbed, uiautomationcore/IDragProvider::get_IsGrabbed, winauto.uiauto_idragprovider_isgrabbed
+ms.keywords: IDragProvider interface [Windows Accessibility],IsGrabbed property, IDragProvider.IsGrabbed, IDragProvider.get_IsGrabbed, IDragProvider::IsGrabbed, IDragProvider::get_IsGrabbed, IsGrabbed property [Windows Accessibility], IsGrabbed property [Windows Accessibility],IDragProvider interface, get_IsGrabbed, uiautomationcore/IDragProvider::IsGrabbed, uiautomationcore/IDragProvider::get_IsGrabbed, winauto.uiauto_idragprovider_isgrabbed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDragProvider::get_IsGrabbed method
+# IDragProvider::get_IsGrabbed
 
 
 ## -description

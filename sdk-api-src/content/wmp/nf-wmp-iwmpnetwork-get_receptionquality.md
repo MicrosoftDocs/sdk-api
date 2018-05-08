@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_receptionQuality
-title: IWMPNetwork::get_receptionQuality method
+title: IWMPNetwork::get_receptionQuality
 author: windows-driver-content
 description: The get_receptionQuality method retrieves the percentage of packets received in the last 30 seconds.
 old-location: wmp\iwmpnetwork_get_receptionquality.htm
 old-project: WMP
 ms.assetid: 835f56a4-26d3-480c-bf3e-49c269e9cc5a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], get_receptionQuality method, IWMPNetwork::get_receptionQuality, IWMPNetworkget_receptionQuality, get_receptionQuality method [Windows Media Player], get_receptionQuality method [Windows Media Player], IWMPNetwork interface, get_receptionQuality,IWMPNetwork.get_receptionQuality, wmp.iwmpnetwork_get_receptionquality, wmp/IWMPNetwork::get_receptionQuality
+ms.date: 5/4/2018
+ms.keywords: IWMPNetwork interface [Windows Media Player],get_receptionQuality method, IWMPNetwork.get_receptionQuality, IWMPNetwork::get_receptionQuality, IWMPNetworkget_receptionQuality, get_receptionQuality, get_receptionQuality method [Windows Media Player], get_receptionQuality method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_receptionquality, wmp/IWMPNetwork::get_receptionQuality
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNetwork::get_receptionQuality method
+# IWMPNetwork::get_receptionQuality
 
 
 ## -description

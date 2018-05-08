@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetPCR_PID
-title: IServiceLocationDescriptor::GetPCR_PID method
+title: IServiceLocationDescriptor::GetPCR_PID
 author: windows-driver-content
 description: Gets the program ID (PID) for the packets that contain the Program Clock Reference (PCR) in the transport stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor.
 old-location: mstv\iservicelocationdescriptor_getpcr_pid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a81a2218-3c44-4b17-a5cb-bb68d10da977
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPCR_PID method [Microsoft TV Technologies], GetPCR_PID method [Microsoft TV Technologies], IServiceLocationDescriptor interface, GetPCR_PID,IServiceLocationDescriptor.GetPCR_PID, IServiceLocationDescriptor, IServiceLocationDescriptor interface [Microsoft TV Technologies], GetPCR_PID method, IServiceLocationDescriptor::GetPCR_PID, atscpsipparser/IServiceLocationDescriptor::GetPCR_PID, mstv.iservicelocationdescriptor_getpcr_pid
+ms.keywords: GetPCR_PID, GetPCR_PID method [Microsoft TV Technologies], GetPCR_PID method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetPCR_PID method, IServiceLocationDescriptor.GetPCR_PID, IServiceLocationDescriptor::GetPCR_PID, atscpsipparser/IServiceLocationDescriptor::GetPCR_PID, mstv.iservicelocationdescriptor_getpcr_pid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServiceLocationDescriptor::GetPCR_PID method
+# IServiceLocationDescriptor::GetPCR_PID
 
 
 ## -description

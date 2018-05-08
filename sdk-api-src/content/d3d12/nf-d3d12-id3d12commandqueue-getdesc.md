@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.GetDesc
-title: ID3D12CommandQueue::GetDesc method
+title: ID3D12CommandQueue::GetDesc
 author: windows-driver-content
 description: Gets the description of the command queue.
 old-location: direct3d12\id3d12commandqueue_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: AEEE6B15-AEB0-47C5-A3F8-9957516BFBEE
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetDesc method, GetDesc method, ID3D12CommandQueue interface, GetDesc,ID3D12CommandQueue.GetDesc, ID3D12CommandQueue, ID3D12CommandQueue interface, GetDesc method, ID3D12CommandQueue::GetDesc, d3d12/ID3D12CommandQueue::GetDesc, direct3d12.id3d12commandqueue_getdesc
+ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,GetDesc method, ID3D12CommandQueue.GetDesc, ID3D12CommandQueue::GetDesc, d3d12/ID3D12CommandQueue::GetDesc, direct3d12.id3d12commandqueue_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12CommandQueue::GetDesc method
+# ID3D12CommandQueue::GetDesc
 
 
 ## -description

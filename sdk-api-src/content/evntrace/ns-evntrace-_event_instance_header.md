@@ -61,9 +61,20 @@ req.product: Windows Media Format 9 Series or later
 
 
 
+### -field Size
+
+Total number of bytes of the event. <b>Size</b> must include the size of the 
+<b>EVENT_INSTANCE_HEADER</b> structure, plus the size of any event-specific data appended to this structure. The size must be less than the size of the event tracing session's buffer minus 72 (0x48).
+
+
 ### -field DUMMYUNIONNAME
 
  
+
+
+### -field DUMMYUNIONNAME.FieldTypeFlags
+
+Reserved.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
@@ -84,6 +95,11 @@ Reserved.
 ### -field DUMMYUNIONNAME2
 
  
+
+
+### -field DUMMYUNIONNAME2.Version
+
+This is a roll-up of the members of <b>Class</b>. The low-order byte contains the Type, the next byte contains the Level, and the last two bytes contain the version.
 
 
 ### -field DUMMYUNIONNAME2.Class
@@ -269,6 +285,46 @@ Detailed trace events.
 Indicates the version of the event trace class that you are using to log the event. Specify zero if there is only one version of your event trace class. The version tells the consumer which MOF class to use to decipher the event data.
 
 
+### -field ThreadId
+
+On output, identifies the thread that generated the event. 
+
+
+
+
+Note that on Windows 2000, <b>ThreadId</b> was a <b>ULONGLONG</b> value.
+
+
+### -field ProcessId
+
+ On output, identifies  the process that generated the event.
+
+<b>Windows 2000:  </b>This member is not supported.
+
+
+### -field TimeStamp
+
+On output, contains the time the event occurred, in 100-nanosecond intervals since midnight, January 1, 1601.
+
+
+### -field RegHandle
+
+Handle to a registered event trace class. Set this property before calling the <a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a> function.
+
+The 
+<a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a> function creates this handle (see the <i>TraceGuidReg</i> parameter).
+
+
+### -field InstanceId
+
+On output, contains the event trace instance identifier associated with <b>RegHandle</b>. 
+
+
+### -field ParentInstanceId
+
+On output, contains the event trace instance identifier associated with <b>ParentRegHandle</b>.  
+
+
 ### -field DUMMYUNIONNAME3
 
  
@@ -287,6 +343,11 @@ Elapsed execution time for kernel-mode instructions, in CPU ticks. If you are us
 ### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME.UserTime
 
 Elapsed execution time for user-mode instructions, in CPU ticks. If you are using a private session, use the value in the <b>ProcessorTime</b> member instead.
+
+
+### -field DUMMYUNIONNAME3.ProcessorTime
+
+For private sessions, the elapsed execution time for user-mode instructions, in CPU ticks.
 
 
 ### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME2
@@ -333,52 +394,6 @@ Specify if an array of
  
 
 
-### -field Size
-
-Total number of bytes of the event. <b>Size</b> must include the size of the 
-<b>EVENT_INSTANCE_HEADER</b> structure, plus the size of any event-specific data appended to this structure. The size must be less than the size of the event tracing session's buffer minus 72 (0x48).
-
-
-### -field ThreadId
-
-On output, identifies the thread that generated the event. 
-
-
-
-
-Note that on Windows 2000, <b>ThreadId</b> was a <b>ULONGLONG</b> value.
-
-
-### -field ProcessId
-
- On output, identifies  the process that generated the event.
-
-<b>Windows 2000:  </b>This member is not supported.
-
-
-### -field TimeStamp
-
-On output, contains the time the event occurred, in 100-nanosecond intervals since midnight, January 1, 1601.
-
-
-### -field RegHandle
-
-Handle to a registered event trace class. Set this property before calling the <a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a> function.
-
-The 
-<a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a> function creates this handle (see the <i>TraceGuidReg</i> parameter).
-
-
-### -field InstanceId
-
-On output, contains the event trace instance identifier associated with <b>RegHandle</b>. 
-
-
-### -field ParentInstanceId
-
-On output, contains the event trace instance identifier associated with <b>ParentRegHandle</b>.  
-
-
 ### -field ParentRegHandle
 
 Handle to a registered event trace class of a parent event. Set this property before calling the <a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a> function if you want to trace a hierarchical relationship (parent element/child element) between related events.
@@ -390,21 +405,6 @@ The
 #### - ClientContext
 
 Reserved. 
-
-
-#### - FieldTypeFlags
-
-Reserved.
-
-
-#### - ProcessorTime
-
-For private sessions, the elapsed execution time for user-mode instructions, in CPU ticks.
-
-
-#### - Version
-
-This is a roll-up of the members of <b>Class</b>. The low-order byte contains the Type, the next byte contains the Level, and the last two bytes contain the version.
 
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.AddDirectoryObject
-title: ITDirectory::AddDirectoryObject method
+title: ITDirectory::AddDirectoryObject
 author: windows-driver-content
 description: The AddDirectoryObject method adds an ITDirectoryObject object to the server. This may be a directory or a user machine mapping.
 old-location: tapi3\itdirectory_adddirectoryobject.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 7a379bdc-50e3-4034-ac16-d20d1b03cd35
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: AddDirectoryObject method [TAPI 2.2], AddDirectoryObject method [TAPI 2.2], ITDirectory interface, AddDirectoryObject,ITDirectory.AddDirectoryObject, ITDirectory, ITDirectory interface [TAPI 2.2], AddDirectoryObject method, ITDirectory::AddDirectoryObject, _tapi3_itdirectory_adddirectoryobject, rend/ITDirectory::AddDirectoryObject, tapi3.itdirectory_adddirectoryobject
+ms.keywords: AddDirectoryObject, AddDirectoryObject method [TAPI 2.2], AddDirectoryObject method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],AddDirectoryObject method, ITDirectory.AddDirectoryObject, ITDirectory::AddDirectoryObject, _tapi3_itdirectory_adddirectoryobject, rend/ITDirectory::AddDirectoryObject, tapi3.itdirectory_adddirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectory::AddDirectoryObject method
+# ITDirectory::AddDirectoryObject
 
 
 ## -description

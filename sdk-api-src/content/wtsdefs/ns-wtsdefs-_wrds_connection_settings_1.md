@@ -447,6 +447,31 @@ A <a href="https://msdn.microsoft.com/75C9C9AF-9C27-402C-886D-269BF567825F">WRDS
  
 
 
+### -field ContextSize.range
+
+ 
+
+
+### -field ContextSize.range.0
+
+ 
+
+
+### -field ContextSize.range.16384
+
+ 
+
+
+### -field ContextData.size_is
+
+ 
+
+
+### -field ContextData.size_is.ContextSize
+
+ 
+
+
 ### -field ContextSize
 
 The size, in bytes, of the <b>ContextData</b> array.

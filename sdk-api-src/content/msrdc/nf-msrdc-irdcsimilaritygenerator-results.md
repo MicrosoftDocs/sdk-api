@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcSimilarityGenerator.Results
-title: IRdcSimilarityGenerator::Results method
+title: IRdcSimilarityGenerator::Results
 author: windows-driver-content
 description: Retrieves the similarity data that was generated for a file by the signature generator.
 old-location: rdc\irdcsimilaritygenerator_results.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 572c38e2-0bd4-427e-9ba3-f69539410d4d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRdcSimilarityGenerator, IRdcSimilarityGenerator interface [Remote Differential Compression], Results method, IRdcSimilarityGenerator::Results, Results method [Remote Differential Compression], Results method [Remote Differential Compression], IRdcSimilarityGenerator interface, Results,IRdcSimilarityGenerator.Results, fs.irdcsimilaritygenerator_results, msrdc/IRdcSimilarityGenerator::Results, rdc.irdcsimilaritygenerator_results
+ms.keywords: IRdcSimilarityGenerator interface [Remote Differential Compression],Results method, IRdcSimilarityGenerator.Results, IRdcSimilarityGenerator::Results, Results, Results method [Remote Differential Compression], Results method [Remote Differential Compression],IRdcSimilarityGenerator interface, fs.irdcsimilaritygenerator_results, msrdc/IRdcSimilarityGenerator::Results, rdc.irdcsimilaritygenerator_results
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcSimilarityGenerator::Results method
+# IRdcSimilarityGenerator::Results
 
 
 ## -description

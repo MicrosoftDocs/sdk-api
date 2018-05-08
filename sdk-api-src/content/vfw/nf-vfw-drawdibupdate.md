@@ -7,7 +7,7 @@ old-location: multimedia\drawdibupdate.htm
 old-project: Multimedia
 ms.assetid: 049a513a-bae1-4551-8700-cef417ed5373
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: DrawDibUpdate, DrawDibUpdate macro [Windows Multimedia], _win32_DrawDibUpdate, multimedia.drawdibupdate, vfw/DrawDibUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

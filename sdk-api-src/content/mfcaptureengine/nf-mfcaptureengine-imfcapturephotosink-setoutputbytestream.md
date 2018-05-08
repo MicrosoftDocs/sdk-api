@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePhotoSink.SetOutputByteStream
-title: IMFCapturePhotoSink::SetOutputByteStream method
+title: IMFCapturePhotoSink::SetOutputByteStream
 author: windows-driver-content
 description: Specifies a byte stream that will receive the still image data.
 old-location: mf\imfcapturephotosink_setoutputbytestream.htm
 old-project: medfound
 ms.assetid: D67C2D66-FC40-4AF3-9E83-29D0DBF99AD3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCapturePhotoSink, IMFCapturePhotoSink interface [Media Foundation], SetOutputByteStream method, IMFCapturePhotoSink::SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation], IMFCapturePhotoSink interface, SetOutputByteStream,IMFCapturePhotoSink.SetOutputByteStream, mf.imfcapturephotosink_setoutputbytestream, mfcaptureengine/IMFCapturePhotoSink::SetOutputByteStream
+ms.date: 5/3/2018
+ms.keywords: IMFCapturePhotoSink interface [Media Foundation],SetOutputByteStream method, IMFCapturePhotoSink.SetOutputByteStream, IMFCapturePhotoSink::SetOutputByteStream, SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation],IMFCapturePhotoSink interface, mf.imfcapturephotosink_setoutputbytestream, mfcaptureengine/IMFCapturePhotoSink::SetOutputByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCapturePhotoSink::SetOutputByteStream method
+# IMFCapturePhotoSink::SetOutputByteStream
 
 
 ## -description

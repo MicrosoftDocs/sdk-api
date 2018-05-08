@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagHierarchyDeep
-title: IWSManEx::EnumerationFlagHierarchyDeep method
+title: IWSManEx::EnumerationFlagHierarchyDeep
 author: windows-driver-content
 description: Returns the value of the enumeration constant EnumerationFlagHierarchyDeep for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflaghierarchydeep.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 1995b4bd-dc2f-4f43-8e08-52ea1899c2c5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EnumerationFlagHierarchyDeep method [Windows Remote Management], EnumerationFlagHierarchyDeep method [Windows Remote Management], IWSManEx interface, EnumerationFlagHierarchyDeep,IWSManEx.EnumerationFlagHierarchyDeep, IWSManEx, IWSManEx interface [Windows Remote Management], EnumerationFlagHierarchyDeep method, IWSManEx::EnumerationFlagHierarchyDeep, winrm.iwsmanex_enumerationflaghierarchydeep, wsmandisp/IWSManEx::EnumerationFlagHierarchyDeep
+ms.keywords: EnumerationFlagHierarchyDeep, EnumerationFlagHierarchyDeep method [Windows Remote Management], EnumerationFlagHierarchyDeep method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyDeep method, IWSManEx.EnumerationFlagHierarchyDeep, IWSManEx::EnumerationFlagHierarchyDeep, winrm.iwsmanex_enumerationflaghierarchydeep, wsmandisp/IWSManEx::EnumerationFlagHierarchyDeep
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx::EnumerationFlagHierarchyDeep method
+# IWSManEx::EnumerationFlagHierarchyDeep
 
 
 ## -description

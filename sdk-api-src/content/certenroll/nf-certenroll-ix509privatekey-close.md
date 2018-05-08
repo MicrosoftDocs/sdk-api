@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Close
-title: IX509PrivateKey::Close method
+title: IX509PrivateKey::Close
 author: windows-driver-content
 description: Releases the handle of the cryptographic service provider (CSP) or the handle of the Cryptography API:\_Next Generation (CNG) key storage provider (KSP).
 old-location: security\ix509privatekey_close_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: c4ed2375-0d50-4cb5-b0c4-c80962e22c9c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Close method [Security], Close method [Security], IX509PrivateKey interface, Close,IX509PrivateKey.Close, IX509PrivateKey, IX509PrivateKey interface [Security], Close method, IX509PrivateKey::Close, certenroll/IX509PrivateKey::Close, security.ix509privatekey_close_method
+ms.keywords: Close, Close method [Security], Close method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Close method, IX509PrivateKey.Close, IX509PrivateKey::Close, certenroll/IX509PrivateKey::Close, security.ix509privatekey_close_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PrivateKey::Close method
+# IX509PrivateKey::Close
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMovieSetup.Unregister
-title: IAMovieSetup::Unregister method
+title: IAMovieSetup::Unregister
 author: windows-driver-content
 description: Note  The IAMovieSetup interface is deprecated. Use the AMovieDllRegisterServer2 function instead. Removes the filter from the registry.
 old-location: dshow\iamoviesetup_unregister.htm
 old-project: DirectShow
 ms.assetid: 96266aef-f1ef-4b75-9d2e-e574f76fdec7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMovieSetup, IAMovieSetup interface [DirectShow], Unregister method, IAMovieSetup::Unregister, IAMovieSetupUnregister, Unregister method [DirectShow], Unregister method [DirectShow], IAMovieSetup interface, Unregister,IAMovieSetup.Unregister, dshow.iamoviesetup_unregister, strmif/IAMovieSetup::Unregister
+ms.date: 4/30/2018
+ms.keywords: IAMovieSetup interface [DirectShow],Unregister method, IAMovieSetup.Unregister, IAMovieSetup::Unregister, IAMovieSetupUnregister, Unregister, Unregister method [DirectShow], Unregister method [DirectShow],IAMovieSetup interface, dshow.iamoviesetup_unregister, strmif/IAMovieSetup::Unregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMovieSetup::Unregister method
+# IAMovieSetup::Unregister
 
 
 ## -description

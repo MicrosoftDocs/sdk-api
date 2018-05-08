@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.FindStorage
-title: IMDSPDevice3::FindStorage method
+title: IMDSPDevice3::FindStorage
 author: windows-driver-content
 description: The FindStorage method finds a storage with the given persistent unique identifier. The persistent unique identifier of a storage is described by the g_wszWMDMPersistentUniqueID property of that storage.
 old-location: wmdm\imdspdevice3_findstorage.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: d80812fc-750a-41f3-ba00-695e168259c0
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: FindStorage method [windows Media Device Manager], FindStorage method [windows Media Device Manager], IMDSPDevice3 interface, FindStorage,IMDSPDevice3.FindStorage, IMDSPDevice3, IMDSPDevice3 interface [windows Media Device Manager], FindStorage method, IMDSPDevice3::FindStorage, IMDSPDevice3FindStorage, mswmdm/IMDSPDevice3::FindStorage, wmdm.imdspdevice3_findstorage
+ms.keywords: FindStorage, FindStorage method [windows Media Device Manager], FindStorage method [windows Media Device Manager],IMDSPDevice3 interface, IMDSPDevice3 interface [windows Media Device Manager],FindStorage method, IMDSPDevice3.FindStorage, IMDSPDevice3::FindStorage, IMDSPDevice3FindStorage, mswmdm/IMDSPDevice3::FindStorage, wmdm.imdspdevice3_findstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPDevice3::FindStorage method
+# IMDSPDevice3::FindStorage
 
 
 ## -description

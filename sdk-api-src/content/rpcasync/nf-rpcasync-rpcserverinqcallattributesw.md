@@ -7,7 +7,7 @@ old-location: rpc\rpcserverinqcallattributes.htm
 old-project: Rpc
 ms.assetid: 563b70ed-bc9a-40be-a77b-17b993cc64f3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcServerInqCallAttributes, RpcServerInqCallAttributes function [RPC], RpcServerInqCallAttributesA, RpcServerInqCallAttributesW, _rpc_rpcserverinqcallattributes, rpc.rpcserverinqcallattributes, rpcasync/RpcServerInqCallAttributes, rpcasync/RpcServerInqCallAttributesA, rpcasync/RpcServerInqCallAttributesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextStory.GetDisplay
-title: ITextStory::GetDisplay method
+title: ITextStory::GetDisplay
 author: windows-driver-content
 description: Gets a new display for a story.
 old-location: controls\itextstory_getdisplay.htm
 old-project: Controls
 ms.assetid: e9ea7fbc-b814-4dbd-ae8a-9e260b56abab
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetDisplay method [Windows Controls], GetDisplay method [Windows Controls], ITextStory interface, GetDisplay,ITextStory.GetDisplay, ITextStory, ITextStory interface [Windows Controls], GetDisplay method, ITextStory::GetDisplay, controls.itextstory_getdisplay, tom/ITextStory::GetDisplay
+ms.date: 4/27/2018
+ms.keywords: GetDisplay, GetDisplay method [Windows Controls], GetDisplay method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetDisplay method, ITextStory.GetDisplay, ITextStory::GetDisplay, controls.itextstory_getdisplay, tom/ITextStory::GetDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStory::GetDisplay method
+# ITextStory::GetDisplay
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsSendPdu
-title: IMbnSms::SmsSendPdu method
+title: IMbnSms::SmsSendPdu
 author: windows-driver-content
 description: Sends a message in PDU format.
 old-location: mbn\imbnsms_smssendpdu.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: c8f5bde5-d28c-4799-9f46-7b02745e6bfb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], SmsSendPdu method, IMbnSms::SmsSendPdu, SmsSendPdu method [Microsoft Broadband Networks], SmsSendPdu method [Microsoft Broadband Networks], IMbnSms interface, SmsSendPdu,IMbnSms.SmsSendPdu, mbn.imbnsms_smssendpdu, mbnapi/IMbnSms::SmsSendPdu
+ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsSendPdu method, IMbnSms.SmsSendPdu, IMbnSms::SmsSendPdu, SmsSendPdu, SmsSendPdu method [Microsoft Broadband Networks], SmsSendPdu method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smssendpdu, mbnapi/IMbnSms::SmsSendPdu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSms::SmsSendPdu method
+# IMbnSms::SmsSendPdu
 
 
 ## -description

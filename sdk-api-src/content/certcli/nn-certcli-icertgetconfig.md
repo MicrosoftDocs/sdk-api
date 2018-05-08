@@ -7,8 +7,8 @@ old-location: security\icertgetconfig.htm
 old-project: SecCrypto
 ms.assetid: 753d1527-1863-41af-9715-2c1fe138e67d
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertGetConfig, ICertGetConfig interface [Security], ICertGetConfig interface [Security], described, certcli/ICertGetConfig, security.icertgetconfig
+ms.date: 4/30/2018
+ms.keywords: ICertGetConfig, ICertGetConfig interface [Security], ICertGetConfig interface [Security],described, certcli/ICertGetConfig, security.icertgetconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

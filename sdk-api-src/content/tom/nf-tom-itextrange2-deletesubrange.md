@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.DeleteSubrange
-title: ITextRange2::DeleteSubrange method
+title: ITextRange2::DeleteSubrange
 author: windows-driver-content
 description: Deletes a subrange from a range.
 old-location: controls\itextrange2_deletesubrange.htm
 old-project: Controls
 ms.assetid: ad75725d-ad92-45fc-a0a9-3227bfb99284
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: DeleteSubrange method [Windows Controls], DeleteSubrange method [Windows Controls], ITextRange2 interface, DeleteSubrange,ITextRange2.DeleteSubrange, ITextRange2, ITextRange2 interface [Windows Controls], DeleteSubrange method, ITextRange2::DeleteSubrange, controls.itextrange2_deletesubrange, tom/ITextRange2::DeleteSubrange
+ms.date: 4/27/2018
+ms.keywords: DeleteSubrange, DeleteSubrange method [Windows Controls], DeleteSubrange method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],DeleteSubrange method, ITextRange2.DeleteSubrange, ITextRange2::DeleteSubrange, controls.itextrange2_deletesubrange, tom/ITextRange2::DeleteSubrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::DeleteSubrange method
+# ITextRange2::DeleteSubrange
 
 
 ## -description

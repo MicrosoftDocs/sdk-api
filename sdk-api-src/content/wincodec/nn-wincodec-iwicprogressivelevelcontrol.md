@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: d77244bc-b9d4-4b7d-b718-4ee38de46614
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICProgressiveLevelControl, IWICProgressiveLevelControl interface [Windows Imaging Component], IWICProgressiveLevelControl interface [Windows Imaging Component], described, _wic_codec_iwicprogressivelevelcontrol, wic._wic_codec_iwicprogressivelevelcontrol, wincodec/IWICProgressiveLevelControl
+ms.keywords: IWICProgressiveLevelControl, IWICProgressiveLevelControl interface [Windows Imaging Component], IWICProgressiveLevelControl interface [Windows Imaging Component],described, _wic_codec_iwicprogressivelevelcontrol, wic._wic_codec_iwicprogressivelevelcontrol, wincodec/IWICProgressiveLevelControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

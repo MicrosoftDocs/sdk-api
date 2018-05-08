@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.AddTid
-title: IBDA_FDC::AddTid method
+title: IBDA_FDC::AddTid
 author: windows-driver-content
 description: Adds one or more table identifiers (TIDs) to the MPEG flow.
 old-location: mstv\ibda_fdc_addtid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2cd39bbc-106b-4411-bc42-a1adc360e121
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AddTid method [Microsoft TV Technologies], AddTid method [Microsoft TV Technologies], IBDA_FDC interface, AddTid,IBDA_FDC.AddTid, IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], AddTid method, IBDA_FDC::AddTid, bdaiface/IBDA_FDC::AddTid, mstv.ibda_fdc_addtid
+ms.keywords: AddTid, AddTid method [Microsoft TV Technologies], AddTid method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],AddTid method, IBDA_FDC.AddTid, IBDA_FDC::AddTid, bdaiface/IBDA_FDC::AddTid, mstv.ibda_fdc_addtid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_FDC::AddTid method
+# IBDA_FDC::AddTid
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoDictionaryOld.CreateAttribute
-title: ISdoDictionaryOld::CreateAttribute method
+title: ISdoDictionaryOld::CreateAttribute
 author: windows-driver-content
 description: The CreateAttribute method creates a new attribute object and returns an IDispatch interface to it.
 old-location: nps\SDO_isdodictionaryold_createattribute.htm
@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: 8c5a203b-b60b-4053-b1c4-eca2c30a050e
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CreateAttribute method [Network Policy Server], CreateAttribute method [Network Policy Server], ISdoDictionaryOld interface, CreateAttribute,ISdoDictionaryOld.CreateAttribute, ISdoDictionaryOld, ISdoDictionaryOld interface [Network Policy Server], CreateAttribute method, ISdoDictionaryOld::CreateAttribute, _sdo_isdodictionaryold_createattribute, nps.SDO_isdodictionaryold_createattribute, sdo.isdodictionaryold_createattribute, sdoias/ISdoDictionaryOld::CreateAttribute
+ms.keywords: CreateAttribute, CreateAttribute method [Network Policy Server], CreateAttribute method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],CreateAttribute method, ISdoDictionaryOld.CreateAttribute, ISdoDictionaryOld::CreateAttribute, _sdo_isdodictionaryold_createattribute, nps.SDO_isdodictionaryold_createattribute, sdo.isdodictionaryold_createattribute, sdoias/ISdoDictionaryOld::CreateAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISdoDictionaryOld::CreateAttribute method
+# ISdoDictionaryOld::CreateAttribute
 
 
 ## -description

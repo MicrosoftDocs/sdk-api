@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetProhibitedCaretStops
-title: IXpsOMGlyphsEditor::SetProhibitedCaretStops method
+title: IXpsOMGlyphsEditor::SetProhibitedCaretStops
 author: windows-driver-content
 description: Sets an array of prohibited caret stop locations.
 old-location: xps\ixpsomglyphseditor_setprohibitedcaretstops.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 5f2e1014-d50b-4755-a533-239b6ba9009e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], SetProhibitedCaretStops method, IXpsOMGlyphsEditor::SetProhibitedCaretStops, SetProhibitedCaretStops method [XPS Documents and Packaging], SetProhibitedCaretStops method [XPS Documents and Packaging], IXpsOMGlyphsEditor interface, SetProhibitedCaretStops,IXpsOMGlyphsEditor.SetProhibitedCaretStops, xps.ixpsomglyphseditor_setprohibitedcaretstops, xpsobjectmodel/IXpsOMGlyphsEditor::SetProhibitedCaretStops
+ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetProhibitedCaretStops method, IXpsOMGlyphsEditor.SetProhibitedCaretStops, IXpsOMGlyphsEditor::SetProhibitedCaretStops, SetProhibitedCaretStops, SetProhibitedCaretStops method [XPS Documents and Packaging], SetProhibitedCaretStops method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setprohibitedcaretstops, xpsobjectmodel/IXpsOMGlyphsEditor::SetProhibitedCaretStops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphsEditor::SetProhibitedCaretStops method
+# IXpsOMGlyphsEditor::SetProhibitedCaretStops
 
 
 ## -description

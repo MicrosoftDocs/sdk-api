@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelperEx.ReproduceFailure
-title: INetDiagHelperEx::ReproduceFailure method
+title: INetDiagHelperEx::ReproduceFailure
 author: windows-driver-content
 description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
 old-location: ndf\inetdiaghelperex_reproducefailure.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: a85e375b-78f3-494b-846e-8ea5dd4b5b37
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: INetDiagHelperEx, INetDiagHelperEx interface [NDF], ReproduceFailure method, INetDiagHelperEx::ReproduceFailure, ReproduceFailure method [NDF], ReproduceFailure method [NDF], INetDiagHelperEx interface, ReproduceFailure,INetDiagHelperEx.ReproduceFailure, ndf.inetdiaghelperex_reproducefailure, ndhelper/INetDiagHelperEx::ReproduceFailure
+ms.keywords: INetDiagHelperEx interface [NDF],ReproduceFailure method, INetDiagHelperEx.ReproduceFailure, INetDiagHelperEx::ReproduceFailure, ReproduceFailure, ReproduceFailure method [NDF], ReproduceFailure method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_reproducefailure, ndhelper/INetDiagHelperEx::ReproduceFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelperEx::ReproduceFailure method
+# INetDiagHelperEx::ReproduceFailure
 
 
 ## -description

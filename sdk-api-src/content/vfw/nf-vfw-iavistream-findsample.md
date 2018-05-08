@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IAVIStream.FindSample
-title: IAVIStream::FindSample method
+title: IAVIStream::FindSample
 author: windows-driver-content
 description: The FindSample method obtains the position in a stream of a key frame or a nonempty frame. Called when an application uses the AVIStreamFindSample function.
 old-location: multimedia\iavistream_findsample.htm
 old-project: Multimedia
 ms.assetid: 77927e6c-beee-4774-b727-5cd608cefb3d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: FindSample method [Windows Multimedia], FindSample method [Windows Multimedia], IAVIStream interface, FindSample,IAVIStream.FindSample, IAVIStream, IAVIStream interface [Windows Multimedia], FindSample method, IAVIStream::FindSample, _win32_IAVIStream_FindSample, multimedia.iavistream_findsample, vfw/IAVIStream::FindSample
+ms.date: 5/4/2018
+ms.keywords: FindSample, FindSample method [Windows Multimedia], FindSample method [Windows Multimedia],IAVIStream interface, IAVIStream interface [Windows Multimedia],FindSample method, IAVIStream.FindSample, IAVIStream::FindSample, _win32_IAVIStream_FindSample, multimedia.iavistream_findsample, vfw/IAVIStream::FindSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAVIStream::FindSample method
+# IAVIStream::FindSample
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:chptrarr.CHPtrArray.CHPtrArray
-title: CHPtrArray::CHPtrArray method
+title: CHPtrArray::CHPtrArray
 author: windows-driver-content
 description: The CHPtrArray method constructor initializes a new instance of CHPtrArray.
 old-location: wmi\chptrarray_chptrarray.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 9435d0e6-bb26-40a9-a13f-a744588cc0b0
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "??0CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray interface [Windows Management Instrumentation], CHPtrArray method, CHPtrArray method [Windows Management Instrumentation], CHPtrArray method [Windows Management Instrumentation], CHPtrArray interface, CHPtrArray,CHPtrArray.CHPtrArray, CHPtrArray::CHPtrArray, chptrarr/CHPtrArray::CHPtrArray, wmi.chptrarray_chptrarray"
+ms.keywords: "??0CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray interface [Windows Management Instrumentation],CHPtrArray method, CHPtrArray method [Windows Management Instrumentation], CHPtrArray method [Windows Management Instrumentation],CHPtrArray interface, CHPtrArray.CHPtrArray, CHPtrArray::CHPtrArray, chptrarr/CHPtrArray::CHPtrArray, wmi.chptrarray_chptrarray"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHPtrArray::CHPtrArray method
+# CHPtrArray::CHPtrArray
 
 
 ## -description

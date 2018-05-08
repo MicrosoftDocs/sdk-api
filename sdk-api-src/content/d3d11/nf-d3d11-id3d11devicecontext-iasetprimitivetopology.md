@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IASetPrimitiveTopology
-title: ID3D11DeviceContext::IASetPrimitiveTopology method
+title: ID3D11DeviceContext::IASetPrimitiveTopology
 author: windows-driver-content
 description: Bind information about the primitive type, and data order that describes input data for the input assembler stage.
 old-location: direct3d11\id3d11devicecontext_iasetprimitivetopology.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: a9896b34-b273-4be2-bea4-0fcecdf5bcad
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 71a948e7-b358-d717-cbee-71a3647b9ce1, IASetPrimitiveTopology method [Direct3D 11], IASetPrimitiveTopology method [Direct3D 11], ID3D11DeviceContext interface, IASetPrimitiveTopology,ID3D11DeviceContext.IASetPrimitiveTopology, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], IASetPrimitiveTopology method, ID3D11DeviceContext::IASetPrimitiveTopology, d3d11/ID3D11DeviceContext::IASetPrimitiveTopology, direct3d11.id3d11devicecontext_iasetprimitivetopology
+ms.keywords: 71a948e7-b358-d717-cbee-71a3647b9ce1, IASetPrimitiveTopology, IASetPrimitiveTopology method [Direct3D 11], IASetPrimitiveTopology method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IASetPrimitiveTopology method, ID3D11DeviceContext.IASetPrimitiveTopology, ID3D11DeviceContext::IASetPrimitiveTopology, d3d11/ID3D11DeviceContext::IASetPrimitiveTopology, direct3d11.id3d11devicecontext_iasetprimitivetopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::IASetPrimitiveTopology method
+# ID3D11DeviceContext::IASetPrimitiveTopology
 
 
 ## -description

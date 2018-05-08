@@ -1,6 +1,6 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentPersistInfo.IsDirty
-title: ISceSvcAttachmentPersistInfo::IsDirty method
+title: ISceSvcAttachmentPersistInfo::IsDirty
 author: windows-driver-content
 description: The IsDirty method returns a value indicating whether data in the attachment snap-in has been modified since it was last saved.
 old-location: security\iscesvcattachmentpersistinfo_isdirty.htm
@@ -8,7 +8,7 @@ old-project: SecMgmt
 ms.assetid: b430e598-e16c-47fc-8f19-fbcfc6b71337
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ISceSvcAttachmentPersistInfo, ISceSvcAttachmentPersistInfo interface [Security], IsDirty method, ISceSvcAttachmentPersistInfo::IsDirty, IsDirty method [Security], IsDirty method [Security], ISceSvcAttachmentPersistInfo interface, IsDirty,ISceSvcAttachmentPersistInfo.IsDirty, _config_iscesvcattachmentpersistinfo_isdirty, scesvc/ISceSvcAttachmentPersistInfo::IsDirty, security.iscesvcattachmentpersistinfo_isdirty
+ms.keywords: ISceSvcAttachmentPersistInfo interface [Security],IsDirty method, ISceSvcAttachmentPersistInfo.IsDirty, ISceSvcAttachmentPersistInfo::IsDirty, IsDirty, IsDirty method [Security], IsDirty method [Security],ISceSvcAttachmentPersistInfo interface, _config_iscesvcattachmentpersistinfo_isdirty, scesvc/ISceSvcAttachmentPersistInfo::IsDirty, security.iscesvcattachmentpersistinfo_isdirty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISceSvcAttachmentPersistInfo::IsDirty method
+# ISceSvcAttachmentPersistInfo::IsDirty
 
 
 ## -description

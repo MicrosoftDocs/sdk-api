@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.CreateEmptyProfile
-title: IWMProfileManager::CreateEmptyProfile method
+title: IWMProfileManager::CreateEmptyProfile
 author: windows-driver-content
 description: The CreateEmptyProfile method creates an empty profile object. You can use the interfaces of the profile object to configure the profile. When you are done configuring the profile, you can save it to a string using IWMProfileManager::SaveProfile.
 old-location: wmformat\iwmprofilemanager_createemptyprofile.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: fb5c2ed4-f733-422e-87e3-8e70c3ee9f1c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: CreateEmptyProfile method [windows Media Format], CreateEmptyProfile method [windows Media Format], IWMProfileManager interface, CreateEmptyProfile,IWMProfileManager.CreateEmptyProfile, IWMProfileManager, IWMProfileManager interface [windows Media Format], CreateEmptyProfile method, IWMProfileManager::CreateEmptyProfile, IWMProfileManagerCreateEmptyProfile, wmformat.iwmprofilemanager_createemptyprofile, wmsdkidl/IWMProfileManager::CreateEmptyProfile
+ms.keywords: CreateEmptyProfile, CreateEmptyProfile method [windows Media Format], CreateEmptyProfile method [windows Media Format],IWMProfileManager interface, IWMProfileManager interface [windows Media Format],CreateEmptyProfile method, IWMProfileManager.CreateEmptyProfile, IWMProfileManager::CreateEmptyProfile, IWMProfileManagerCreateEmptyProfile, wmformat.iwmprofilemanager_createemptyprofile, wmsdkidl/IWMProfileManager::CreateEmptyProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfileManager::CreateEmptyProfile method
+# IWMProfileManager::CreateEmptyProfile
 
 
 ## -description

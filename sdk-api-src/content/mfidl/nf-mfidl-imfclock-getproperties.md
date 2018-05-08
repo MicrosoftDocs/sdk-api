@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFClock.GetProperties
-title: IMFClock::GetProperties method
+title: IMFClock::GetProperties
 author: windows-driver-content
 description: Retrieves the properties of the clock.
 old-location: mf\imfclock_getproperties.htm
 old-project: medfound
 ms.assetid: 9dfc0efc-d274-45a6-b1ab-30f6215fbed8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 9dfc0efc-d274-45a6-b1ab-30f6215fbed8, GetProperties method [Media Foundation], GetProperties method [Media Foundation], IMFClock interface, GetProperties,IMFClock.GetProperties, IMFClock, IMFClock interface [Media Foundation], GetProperties method, IMFClock::GetProperties, mf.imfclock_getproperties, mfidl/IMFClock::GetProperties
+ms.date: 5/3/2018
+ms.keywords: 9dfc0efc-d274-45a6-b1ab-30f6215fbed8, GetProperties, GetProperties method [Media Foundation], GetProperties method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetProperties method, IMFClock.GetProperties, IMFClock::GetProperties, mf.imfclock_getproperties, mfidl/IMFClock::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFClock::GetProperties method
+# IMFClock::GetProperties
 
 
 ## -description

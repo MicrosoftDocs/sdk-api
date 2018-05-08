@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPService.InvokeAction
-title: IUPnPService::InvokeAction method
+title: IUPnPService::InvokeAction
 author: windows-driver-content
 description: Invokes a method on the device.
 old-location: upnp\iupnpservice_invokeaction.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: fe8b4761-63cb-46a9-a7d0-5603cc1a5a58
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IUPnPService, IUPnPService interface [UPnP APIs], InvokeAction method, IUPnPService::InvokeAction, InvokeAction method [UPnP APIs], InvokeAction method [UPnP APIs], IUPnPService interface, InvokeAction,IUPnPService.InvokeAction, _upnp_iupnpservice_invokeaction, upnp.iupnpservice_invokeaction, upnp/IUPnPService::InvokeAction
+ms.keywords: IUPnPService interface [UPnP APIs],InvokeAction method, IUPnPService.InvokeAction, IUPnPService::InvokeAction, InvokeAction, InvokeAction method [UPnP APIs], InvokeAction method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_invokeaction, upnp.iupnpservice_invokeaction, upnp/IUPnPService::InvokeAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPService::InvokeAction method
+# IUPnPService::InvokeAction
 
 
 ## -description

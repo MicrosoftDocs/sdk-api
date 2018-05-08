@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTVTuner.put_InputType
-title: IAMTVTuner::put_InputType method
+title: IAMTVTuner::put_InputType
 author: windows-driver-content
 description: The put_InputType method sets the tuner input type (cable or antenna).
 old-location: dshow\iamtvtuner_put_inputtype.htm
 old-project: DirectShow
 ms.assetid: d23df6b1-eddc-4c8c-a3c9-400f915e35c4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTVTuner, IAMTVTuner interface [DirectShow], put_InputType method, IAMTVTuner::put_InputType, IAMTVTunerput_InputType, dshow.iamtvtuner_put_inputtype, put_InputType method [DirectShow], put_InputType method [DirectShow], IAMTVTuner interface, put_InputType,IAMTVTuner.put_InputType, strmif/IAMTVTuner::put_InputType
+ms.date: 4/30/2018
+ms.keywords: IAMTVTuner interface [DirectShow],put_InputType method, IAMTVTuner.put_InputType, IAMTVTuner::put_InputType, IAMTVTunerput_InputType, dshow.iamtvtuner_put_inputtype, put_InputType, put_InputType method [DirectShow], put_InputType method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::put_InputType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTVTuner::put_InputType method
+# IAMTVTuner::put_InputType
 
 
 ## -description

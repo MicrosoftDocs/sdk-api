@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.SetMasterClock
-title: IDirectMusicSynthSink::SetMasterClock method
+title: IDirectMusicSynthSink::SetMasterClock
 author: windows-driver-content
 description: The SetMasterClock method provides the synth sink with a master time source, which is required for synchronization with the rest of DirectMusic.
 old-location: audio\idirectmusicsynthsink_setmasterclock.htm
 old-project: audio
 ms.assetid: 91c996cc-04e1-47fb-a82d-1cb17fe191e2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IDirectMusicSynthSink, IDirectMusicSynthSink interface [Audio Devices], SetMasterClock method, IDirectMusicSynthSink::SetMasterClock, SetMasterClock method [Audio Devices], SetMasterClock method [Audio Devices], IDirectMusicSynthSink interface, SetMasterClock,IDirectMusicSynthSink.SetMasterClock, audio.idirectmusicsynthsink_setmasterclock, audmp-routines_45d219a0-1877-4a19-961f-6f3666bc9a1a.xml, dmusics/IDirectMusicSynthSink::SetMasterClock
+ms.date: 5/1/2018
+ms.keywords: IDirectMusicSynthSink interface [Audio Devices],SetMasterClock method, IDirectMusicSynthSink.SetMasterClock, IDirectMusicSynthSink::SetMasterClock, SetMasterClock, SetMasterClock method [Audio Devices], SetMasterClock method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_setmasterclock, audmp-routines_45d219a0-1877-4a19-961f-6f3666bc9a1a.xml, dmusics/IDirectMusicSynthSink::SetMasterClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectMusicSynthSink::SetMasterClock method
+# IDirectMusicSynthSink::SetMasterClock
 
 
 ## -description

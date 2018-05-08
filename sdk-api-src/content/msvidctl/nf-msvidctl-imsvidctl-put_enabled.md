@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_Enabled
-title: IMSVidCtl::put_Enabled method
+title: IMSVidCtl::put_Enabled
 author: windows-driver-content
 description: The put_Enabled method specifies a value that determines whether the Video Control can respond to user-generated events.
 old-location: mstv\imsvidctl_put_enabled.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 366164ac-1514-46d6-870a-388706b8de75
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], put_Enabled method, IMSVidCtl::put_Enabled, IMSVidCtlput_Enabled, mstv.imsvidctl_put_enabled, msvidctl/IMSVidCtl::put_Enabled, put_Enabled method [Microsoft TV Technologies], put_Enabled method [Microsoft TV Technologies], IMSVidCtl interface, put_Enabled,IMSVidCtl.put_Enabled
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_Enabled method, IMSVidCtl.put_Enabled, IMSVidCtl::put_Enabled, IMSVidCtlput_Enabled, mstv.imsvidctl_put_enabled, msvidctl/IMSVidCtl::put_Enabled, put_Enabled, put_Enabled method [Microsoft TV Technologies], put_Enabled method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::put_Enabled method
+# IMSVidCtl::put_Enabled
 
 
 ## -description

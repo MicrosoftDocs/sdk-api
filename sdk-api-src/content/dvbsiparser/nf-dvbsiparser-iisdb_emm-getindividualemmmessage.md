@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetIndividualEmmMessage
-title: IISDB_EMM::GetIndividualEmmMessage method
+title: IISDB_EMM::GetIndividualEmmMessage
 author: windows-driver-content
 description: Gets an individual message from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getindividualemmmessage.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 311b4efb-dacb-41e1-a798-913e3f99b168
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetIndividualEmmMessage method [Microsoft TV Technologies], GetIndividualEmmMessage method [Microsoft TV Technologies], IISDB_EMM interface, GetIndividualEmmMessage,IISDB_EMM.GetIndividualEmmMessage, IISDB_EMM, IISDB_EMM interface [Microsoft TV Technologies], GetIndividualEmmMessage method, IISDB_EMM::GetIndividualEmmMessage, dvbsiparser/IISDB_EMM::GetIndividualEmmMessage, mstv.iisdb_emm_getindividualemmmessage
+ms.keywords: GetIndividualEmmMessage, GetIndividualEmmMessage method [Microsoft TV Technologies], GetIndividualEmmMessage method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetIndividualEmmMessage method, IISDB_EMM.GetIndividualEmmMessage, IISDB_EMM::GetIndividualEmmMessage, dvbsiparser/IISDB_EMM::GetIndividualEmmMessage, mstv.iisdb_emm_getindividualemmmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_EMM::GetIndividualEmmMessage method
+# IISDB_EMM::GetIndividualEmmMessage
 
 
 ## -description

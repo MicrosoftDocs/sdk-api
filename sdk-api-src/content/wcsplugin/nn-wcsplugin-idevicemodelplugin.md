@@ -8,7 +8,7 @@ old-project: WCS
 ms.assetid: 90541ec2-c0ab-4f98-906b-3e58f8f5cc03
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], IDeviceModelPlugIn interface [Windows Color System], described, _color_IDeviceModelPlugIn, wcs.idevicemodelplugin, wcsplugin/IDeviceModelPlugIn
+ms.keywords: IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], IDeviceModelPlugIn interface [Windows Color System],described, _color_IDeviceModelPlugIn, wcs.idevicemodelplugin, wcsplugin/IDeviceModelPlugIn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

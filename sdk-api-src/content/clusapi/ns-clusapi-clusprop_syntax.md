@@ -68,8 +68,7 @@ A DWORD that describes the format and type of the data value. The
 ### -field DUMMYSTRUCTNAME
 
 
-
-#### wFormat
+### -field DUMMYSTRUCTNAME.wFormat
 
 Numeric value describing only the format of the data value. ClusAPI.h defines the following values, 
         enumerated in the <a href="https://msdn.microsoft.com/a5e06aaf-96ef-41e9-ab73-c0edc8f34d12">CLUSTER_PROPERTY_FORMAT</a> 
@@ -77,55 +76,55 @@ Numeric value describing only the format of the data value. ClusAPI.h defines th
 
 
 
-##### CLUSPROP_FORMAT_BINARY (1)
+##### wFormat.CLUSPROP_FORMAT_BINARY (1)
 
 Data is a binary value.
 
 
 
-##### CLUSPROP_FORMAT_DWORD (2)
+##### wFormat.CLUSPROP_FORMAT_DWORD (2)
 
 Data is a <b>DWORD</b> value.
 
 
 
-##### CLUSPROP_FORMAT_EXPAND_SZ (4)
+##### wFormat.CLUSPROP_FORMAT_EXPAND_SZ (4)
 
 Data is a null-terminated Unicode string with unexpanded references to environment variables.
 
 
 
-##### CLUSPROP_FORMAT_EXPANDED_SZ (8)
+##### wFormat.CLUSPROP_FORMAT_EXPANDED_SZ (8)
 
 Data is a null-terminated Unicode string with expanded references to environment variables.
 
 
 
-##### CLUSPROP_FORMAT_FILETIME (12 (0xC))
+##### wFormat.CLUSPROP_FORMAT_FILETIME (12 (0xC))
 
 Data is a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.
 
 
 
-##### CLUSPROP_FORMAT_LARGE_INTEGER (10 (0xA))
+##### wFormat.CLUSPROP_FORMAT_LARGE_INTEGER (10 (0xA))
 
 Data is a signed large integer.
 
 
 
-##### CLUSPROP_FORMAT_LONG (7)
+##### wFormat.CLUSPROP_FORMAT_LONG (7)
 
 Data is an signed <b>LONG</b> value.
 
 
 
-##### CLUSPROP_FORMAT_MULTI_SZ (5)
+##### wFormat.CLUSPROP_FORMAT_MULTI_SZ (5)
 
 Data is an array of null-terminated Unicode strings.
 
 
 
-##### CLUSPROP_FORMAT_SECURITY_DESCRIPTOR (9)
+##### wFormat.CLUSPROP_FORMAT_SECURITY_DESCRIPTOR (9)
 
 Data is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> in 
           <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> 
@@ -134,37 +133,36 @@ Data is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689"
 
 
 
-##### CLUSPROP_FORMAT_SZ (3)
+##### wFormat.CLUSPROP_FORMAT_SZ (3)
 
 Data is a null-terminated Unicode string.
 
 
 
-##### CLUSPROP_FORMAT_ULARGE_INTEGER (6)
+##### wFormat.CLUSPROP_FORMAT_ULARGE_INTEGER (6)
 
 Data is an unsigned large integer.
 
 
 
-##### CLUSPROP_FORMAT_UNKNOWN (0)
+##### wFormat.CLUSPROP_FORMAT_UNKNOWN (0)
 
 Data is in an unknown format.
 
 
 
-##### CLUSPROP_FORMAT_USER (32768 (0x8000))
+##### wFormat.CLUSPROP_FORMAT_USER (32768 (0x8000))
 
 Data is in a user-defined format.
 
 
 
-##### CLUSPROP_FORMAT_WORD (11 (0xB))
+##### wFormat.CLUSPROP_FORMAT_WORD (11 (0xB))
 
 Data is a <b>WORD</b> value.
 
 
-
-#### wType
+### -field DUMMYSTRUCTNAME.wType
 
 Numeric value that describes only the type of the data value. The 
         <a href="https://msdn.microsoft.com/4a10d4f1-2a50-42e7-a143-e9a93d9fcc42">CLUSTER_PROPERTY_TYPE</a> enumeration defines the 
@@ -172,7 +170,7 @@ Numeric value that describes only the type of the data value. The
 
 
 
-##### CLUSPROP_TYPE_DISK_NUMBER (7)
+##### wType.CLUSPROP_TYPE_DISK_NUMBER (7)
 
 Describes the number value of a disk resource. A disk number value is represented by a 
           <a href="https://msdn.microsoft.com/8230d356-0d5a-4859-ae03-c25d078684b3">CLUSPROP_DISK_NUMBER</a> 
@@ -180,31 +178,31 @@ Describes the number value of a disk resource. A disk number value is represente
 
 
 
-##### CLUSPROP_TYPE_DISK_SERIALNUMBER (10 (0xA))
+##### wType.CLUSPROP_TYPE_DISK_SERIALNUMBER (10 (0xA))
 
 Describes the serial number of a disk resource.
 
 
 
-##### CLUSPROP_TYPE_DISK_GUID (11 (0xB))
+##### wType.CLUSPROP_TYPE_DISK_GUID (11 (0xB))
 
 Describes the <b>GUID</b> of a disk resource.
 
 
 
-##### CLUSPROP_TYPE_DISK_SIZE (12 (0xC))
+##### wType.CLUSPROP_TYPE_DISK_SIZE (12 (0xC))
 
 Describes the total size of the disk.
 
 
 
-##### CLUSPROP_TYPE_ENDMARK (0)
+##### wType.CLUSPROP_TYPE_ENDMARK (0)
 
 Designates the data value as the last entry in a property or value list.
 
 
 
-##### CLUSPROP_TYPE_LIST_VALUE (1)
+##### wType.CLUSPROP_TYPE_LIST_VALUE (1)
 
 Describes a data value in a property list. For example, in the property list passed to a 
           <a href="https://msdn.microsoft.com/89ae667e-6ad9-453e-b370-b3d6a67172a2">control code function</a> for a property 
@@ -213,7 +211,7 @@ Describes a data value in a property list. For example, in the property list pas
 
 
 
-##### CLUSPROP_TYPE_NAME (4)
+##### wType.CLUSPROP_TYPE_NAME (4)
 
 Describes a data value used as a name, such as a property name. A name value is represented by a 
           <a href="https://msdn.microsoft.com/bb2e904c-2782-45f6-b95d-b1b107fa0060">CLUSPROP_PROPERTY_NAME</a> 
@@ -221,7 +219,7 @@ Describes a data value used as a name, such as a property name. A name value is 
 
 
 
-##### CLUSPROP_TYPE_PARTITION_INFO (8)
+##### wType.CLUSPROP_TYPE_PARTITION_INFO (8)
 
 Describes a collection of information about a disk resource, such as its device name and volume label. 
           Partition data is represented by a 
@@ -230,7 +228,7 @@ Describes a collection of information about a disk resource, such as its device 
 
 
 
-##### CLUSPROP_TYPE_PARTITION_INFO_EX (13 (0xD))
+##### wType.CLUSPROP_TYPE_PARTITION_INFO_EX (13 (0xD))
 
 Describes a collection of information about a disk resource, such as its device name and volume label. 
           Partition data is represented by a 
@@ -239,7 +237,7 @@ Describes a collection of information about a disk resource, such as its device 
 
 
 
-##### CLUSPROP_TYPE_RESCLASS (2)
+##### wType.CLUSPROP_TYPE_RESCLASS (2)
 
 Describes resource class information. A resource class value is described with a 
           <a href="https://msdn.microsoft.com/9ec01908-3765-4e95-a9d3-fdf6daa5f64d">CLUSPROP_RESOURCE_CLASS</a> 
@@ -262,7 +260,7 @@ Describes resource class information. A resource class value is described with a
 
 
 
-##### CLUSPROP_TYPE_SCSI_ADDRESS (6)
+##### wType.CLUSPROP_TYPE_SCSI_ADDRESS (6)
 
 Describes an <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> 
           property for an <a href="https://msdn.microsoft.com/3ed966f1-0177-4376-a36d-4a2fda327470">IP Address</a> resource. A SCSI 
@@ -272,7 +270,7 @@ Describes an <a href="https://msdn.microsoft.com/library/windows/hardware/mt4272
 
 
 
-##### CLUSPROP_TYPE_SIGNATURE (5)
+##### wType.CLUSPROP_TYPE_SIGNATURE (5)
 
 Describes a <a href="https://msdn.microsoft.com/7c8869f5-73ae-429f-8692-db8b518e8ccd">Signature</a> property for a 
           disk resource. A signature value is represented by a 
@@ -281,13 +279,13 @@ Describes a <a href="https://msdn.microsoft.com/7c8869f5-73ae-429f-8692-db8b518e
 
 
 
-##### CLUSPROP_TYPE_UNKNOWN (-1)
+##### wType.CLUSPROP_TYPE_UNKNOWN (-1)
 
 The type is unknown.
 
 
 
-##### CLUSPROP_TYPE_USER (32768 (0x8000))
+##### wType.CLUSPROP_TYPE_USER (32768 (0x8000))
 
 Describes the beginning of the range for users to define their own types. Associate this type with 
           user-defined private properties.

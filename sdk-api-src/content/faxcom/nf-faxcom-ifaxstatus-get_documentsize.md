@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_DocumentSize
-title: IFaxStatus::get_DocumentSize method
+title: IFaxStatus::get_DocumentSize
 author: windows-driver-content
 description: Retrieves the DocumentSize property for the FaxStatus object of a parent FaxPort object. The DocumentSize property is the size of the fax document associated with the active outbound job on a specific port.
 old-location: fax\_mfax_ifaxstatus_get_documentsize_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5d5x.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DocumentSize property [Fax Service], DocumentSize property [Fax Service], FaxStatus object, FaxStatus object [Fax Service], DocumentSize property, IFaxStatus, IFaxStatus::get_DocumentSize, _mfax_ifaxstatus_get_documentsize, fax._mfax_ifaxstatus_get_documentsize, fax._mfax_ifaxstatus_get_documentsize_vb, get_DocumentSize,IFaxStatus.get_DocumentSize
+ms.keywords: DocumentSize property [Fax Service], DocumentSize property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],DocumentSize property, FaxStatus.DocumentSize, IFaxStatus.get_DocumentSize, IFaxStatus::get_DocumentSize, _mfax_ifaxstatus_get_documentsize, fax._mfax_ifaxstatus_get_documentsize, fax._mfax_ifaxstatus_get_documentsize_vb, get_DocumentSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxStatus::get_DocumentSize method
+# IFaxStatus::get_DocumentSize
 
 
 ## -description

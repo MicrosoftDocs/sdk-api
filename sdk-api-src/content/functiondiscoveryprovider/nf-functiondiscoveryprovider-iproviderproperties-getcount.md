@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.GetCount
-title: IProviderProperties::GetCount method
+title: IProviderProperties::GetCount
 author: windows-driver-content
 description: Gets the number of properties in the property store.
 old-location: ncd\iproviderproperties_getcount_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 25ed5782-c19e-4c3d-81f1-74e0ea3e195e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetCount method, GetCount method, IProviderProperties interface, GetCount,IProviderProperties.GetCount, IProviderProperties, IProviderProperties interface, GetCount method, IProviderProperties::GetCount, functiondiscoveryprovider/IProviderProperties::GetCount, ncd.iproviderproperties_getcount_method
+ms.keywords: GetCount, GetCount method, GetCount method,IProviderProperties interface, IProviderProperties interface,GetCount method, IProviderProperties.GetCount, IProviderProperties::GetCount, functiondiscoveryprovider/IProviderProperties::GetCount, ncd.iproviderproperties_getcount_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IProviderProperties::GetCount method
+# IProviderProperties::GetCount
 
 
 ## -description

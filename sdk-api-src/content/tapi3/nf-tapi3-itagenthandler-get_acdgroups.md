@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentHandler.get_ACDGroups
-title: ITAgentHandler::get_ACDGroups method
+title: ITAgentHandler::get_ACDGroups
 author: windows-driver-content
 description: The get_ACDGroups method creates a collection of ACD groups currently associated with the agent handler.
 old-location: tapi3\itagenthandler_get_acdgroups.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 72dcc4c8-fac6-4635-995e-18a5693da99b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgentHandler, ITAgentHandler interface [TAPI 2.2], get_ACDGroups method, ITAgentHandler::get_ACDGroups, _tapi3_itagenthandler_get_acdgroups, get_ACDGroups method [TAPI 2.2], get_ACDGroups method [TAPI 2.2], ITAgentHandler interface, get_ACDGroups,ITAgentHandler.get_ACDGroups, tapi3.itagenthandler_get_acdgroups, tapi3cc/ITAgentHandler::get_ACDGroups
+ms.keywords: ITAgentHandler interface [TAPI 2.2],get_ACDGroups method, ITAgentHandler.get_ACDGroups, ITAgentHandler::get_ACDGroups, _tapi3_itagenthandler_get_acdgroups, get_ACDGroups, get_ACDGroups method [TAPI 2.2], get_ACDGroups method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_acdgroups, tapi3cc/ITAgentHandler::get_ACDGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentHandler::get_ACDGroups method
+# ITAgentHandler::get_ACDGroups
 
 
 ## -description

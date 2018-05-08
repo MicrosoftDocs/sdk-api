@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.SetFileSize
-title: ISimilarityTraitsMapping::SetFileSize method
+title: ISimilarityTraitsMapping::SetFileSize
 author: windows-driver-content
 description: Sets the size of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_setfilesize.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 7f8afa56-6531-40dd-979f-12506ad8c286
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], SetFileSize method, ISimilarityTraitsMapping::SetFileSize, SetFileSize method [Remote Differential Compression], SetFileSize method [Remote Differential Compression], ISimilarityTraitsMapping interface, SetFileSize,ISimilarityTraitsMapping.SetFileSize, fs.isimilaritytraitsmapping_setfilesize, msrdc/ISimilarityTraitsMapping::SetFileSize, rdc.isimilaritytraitsmapping_setfilesize
+ms.keywords: ISimilarityTraitsMapping interface [Remote Differential Compression],SetFileSize method, ISimilarityTraitsMapping.SetFileSize, ISimilarityTraitsMapping::SetFileSize, SetFileSize, SetFileSize method [Remote Differential Compression], SetFileSize method [Remote Differential Compression],ISimilarityTraitsMapping interface, fs.isimilaritytraitsmapping_setfilesize, msrdc/ISimilarityTraitsMapping::SetFileSize, rdc.isimilaritytraitsmapping_setfilesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityTraitsMapping::SetFileSize method
+# ISimilarityTraitsMapping::SetFileSize
 
 
 ## -description

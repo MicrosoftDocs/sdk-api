@@ -1,6 +1,6 @@
 ---
 UID: NF:radialcontrollerinterop.IRadialControllerConfigurationInterop.GetForWindow
-title: IRadialControllerConfigurationInterop::GetForWindow method
+title: IRadialControllerConfigurationInterop::GetForWindow
 author: windows-driver-content
 description: Retrieves a RadialControllerConfiguration object bound to the active application.
 old-location: input_radial\iradialcontrollerconfigurationinterop_getforwindow.htm
@@ -8,7 +8,7 @@ old-project: Input_Radial
 ms.assetid: f2182f3a-82a8-40be-b331-673a181f4070
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetForWindow method, GetForWindow method, IRadialControllerConfigurationInterop interface, GetForWindow,IRadialControllerConfigurationInterop.GetForWindow, IRadialControllerConfigurationInterop, IRadialControllerConfigurationInterop interface, GetForWindow method, IRadialControllerConfigurationInterop::GetForWindow, Input_Radial.iradialcontrollerconfigurationinterop_getforwindow, radialcontrollerinterop/IRadialControllerConfigurationInterop::GetForWindow
+ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,GetForWindow method, IRadialControllerConfigurationInterop.GetForWindow, IRadialControllerConfigurationInterop::GetForWindow, Input_Radial.iradialcontrollerconfigurationinterop_getforwindow, radialcontrollerinterop/IRadialControllerConfigurationInterop::GetForWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRadialControllerConfigurationInterop::GetForWindow method
+# IRadialControllerConfigurationInterop::GetForWindow
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces
-title: IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces method
+title: IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces
 author: windows-driver-content
 description: The RestoreDDrawSurfaces method notifies the VMR that a DirectDraw surface &#0034;loss&#0034; has been detected.
 old-location: dshow\ivmrsurfaceallocatornotify_restoreddrawsurfaces.htm
 old-project: DirectShow
 ms.assetid: b62df5fb-6759-4869-a6b3-f78978e1f5e2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], RestoreDDrawSurfaces method, IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces, IVMRSurfaceAllocatorNotifyRestoreDDrawSurfaces, RestoreDDrawSurfaces method [DirectShow], RestoreDDrawSurfaces method [DirectShow], IVMRSurfaceAllocatorNotify interface, RestoreDDrawSurfaces,IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces, dshow.ivmrsurfaceallocatornotify_restoreddrawsurfaces, strmif/IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces
+ms.date: 4/30/2018
+ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],RestoreDDrawSurfaces method, IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces, IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces, IVMRSurfaceAllocatorNotifyRestoreDDrawSurfaces, RestoreDDrawSurfaces, RestoreDDrawSurfaces method [DirectShow], RestoreDDrawSurfaces method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_restoreddrawsurfaces, strmif/IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces method
+# IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces
 
 
 ## -description

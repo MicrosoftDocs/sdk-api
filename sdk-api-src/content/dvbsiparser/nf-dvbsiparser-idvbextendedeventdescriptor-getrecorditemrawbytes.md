@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetRecordItemRawBytes
-title: IDvbExtendedEventDescriptor::GetRecordItemRawBytes method
+title: IDvbExtendedEventDescriptor::GetRecordItemRawBytes
 author: windows-driver-content
 description: Gets the raw data from the current item in a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_getrecorditemrawbytes.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ed3046ad-b987-479a-a2ba-d761b2d83c86
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordItemRawBytes method [Microsoft TV Technologies], GetRecordItemRawBytes method [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface, GetRecordItemRawBytes,IDvbExtendedEventDescriptor.GetRecordItemRawBytes, IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], GetRecordItemRawBytes method, IDvbExtendedEventDescriptor::GetRecordItemRawBytes, dvbsiparser/IDvbExtendedEventDescriptor::GetRecordItemRawBytes, mstv.idvbextendedeventdescriptor_getrecorditemrawbytes
+ms.keywords: GetRecordItemRawBytes, GetRecordItemRawBytes method [Microsoft TV Technologies], GetRecordItemRawBytes method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetRecordItemRawBytes method, IDvbExtendedEventDescriptor.GetRecordItemRawBytes, IDvbExtendedEventDescriptor::GetRecordItemRawBytes, dvbsiparser/IDvbExtendedEventDescriptor::GetRecordItemRawBytes, mstv.idvbextendedeventdescriptor_getrecorditemrawbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbExtendedEventDescriptor::GetRecordItemRawBytes method
+# IDvbExtendedEventDescriptor::GetRecordItemRawBytes
 
 
 ## -description

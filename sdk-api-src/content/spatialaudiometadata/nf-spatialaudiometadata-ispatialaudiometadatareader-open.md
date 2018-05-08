@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataReader.Open
-title: ISpatialAudioMetadataReader::Open method
+title: ISpatialAudioMetadataReader::Open
 author: windows-driver-content
 description: Opens an ISpatialAudioMetadataItems object for reading.
 old-location: coreaudio\ispatialaudiometadatareader_open.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 50007A27-D885-47F6-9D3A-1F5B6D47BCDD
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ISpatialAudioMetadataReader, ISpatialAudioMetadataReader interface [Core Audio], Open method, ISpatialAudioMetadataReader::Open, Open method [Core Audio], Open method [Core Audio], ISpatialAudioMetadataReader interface, Open,ISpatialAudioMetadataReader.Open, coreaudio.ispatialaudiometadatareader_open, spatialaudiometadata/ISpatialAudioMetadataReader::Open
+ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],Open method, ISpatialAudioMetadataReader.Open, ISpatialAudioMetadataReader::Open, Open, Open method [Core Audio], Open method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_open, spatialaudiometadata/ISpatialAudioMetadataReader::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataReader::Open method
+# ISpatialAudioMetadataReader::Open
 
 
 ## -description

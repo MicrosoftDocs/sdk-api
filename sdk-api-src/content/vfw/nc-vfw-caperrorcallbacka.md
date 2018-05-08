@@ -7,8 +7,8 @@ old-location: multimedia\caperrorcallback.htm
 old-project: Multimedia
 ms.assetid: 3dc41a0e-1fed-423d-b05b-c42f361a3fb3
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: CAPERRORCALLBACKA, CAPERRORCALLBACKW, _win32_capErrorCallback, capErrorCallback, capErrorCallback callback function [Windows Multimedia], multimedia.caperrorcallback, vfw/CAPERRORCALLBACKA, vfw/CAPERRORCALLBACKW, vfw/capErrorCallback
+ms.date: 5/4/2018
+ms.keywords: CAPERRORCALLBACKA, CAPERRORCALLBACKW, _win32_capErrorCallback, capErrorCallback, capErrorCallback callback, capErrorCallback callback function [Windows Multimedia], multimedia.caperrorcallback, vfw/CAPERRORCALLBACKA, vfw/CAPERRORCALLBACKW, vfw/capErrorCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CAPERRORCALLBACKA callback
+# CAPERRORCALLBACKA callback function
 
 
 ## -description

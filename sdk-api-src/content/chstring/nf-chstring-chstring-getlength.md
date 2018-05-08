@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.GetLength
-title: CHString::GetLength method
+title: CHString::GetLength
 author: windows-driver-content
 description: The GetLength method gets a count of the number of wide characters in this CHString string. The count does not include a NULL terminator.
 old-location: wmi\chstring_getlength.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: b898f9d1-b9a2-4c7b-a7c0-1b6b51ae565f
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetLength@CHString@@QBEHXZ, ?GetLength@CHString@@QEBAHXZ, CHString, CHString interface [Windows Management Instrumentation], GetLength method, CHString::GetLength, GetLength method [Windows Management Instrumentation], GetLength method [Windows Management Instrumentation], CHString interface, GetLength,CHString.GetLength, _hmm_chstring_getlength, chstring/CHString::GetLength, wmi.chstring_getlength"
+ms.keywords: "?GetLength@CHString@@QBEHXZ, ?GetLength@CHString@@QEBAHXZ, CHString interface [Windows Management Instrumentation],GetLength method, CHString.GetLength, CHString::GetLength, GetLength, GetLength method [Windows Management Instrumentation], GetLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getlength, chstring/CHString::GetLength, wmi.chstring_getlength"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::GetLength method
+# CHString::GetLength
 
 
 ## -description

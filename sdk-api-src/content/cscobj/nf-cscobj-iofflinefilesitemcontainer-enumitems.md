@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItemContainer.EnumItems
-title: IOfflineFilesItemContainer::EnumItems method
+title: IOfflineFilesItemContainer::EnumItems
 author: windows-driver-content
 description: Returns an enumerator of child items for the cache item implementing this method.
 old-location: of\iofflinefilesitemcontainer_enumitems.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 9960e8f8-4d15-4a53-aa77-d0105b6a59d1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EnumItems method [Offline Files], EnumItems method [Offline Files], IOfflineFilesItemContainer interface, EnumItems,IOfflineFilesItemContainer.EnumItems, IOfflineFilesItemContainer, IOfflineFilesItemContainer interface [Offline Files], EnumItems method, IOfflineFilesItemContainer::EnumItems, OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE, OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE, OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEINFO, cscobj/IOfflineFilesItemContainer::EnumItems, of.iofflinefilesitemcontainer_enumitems
+ms.keywords: EnumItems, EnumItems method [Offline Files], EnumItems method [Offline Files],IOfflineFilesItemContainer interface, IOfflineFilesItemContainer interface [Offline Files],EnumItems method, IOfflineFilesItemContainer.EnumItems, IOfflineFilesItemContainer::EnumItems, OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE, OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE, OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEINFO, cscobj/IOfflineFilesItemContainer::EnumItems, of.iofflinefilesitemcontainer_enumitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesItemContainer::EnumItems method
+# IOfflineFilesItemContainer::EnumItems
 
 
 ## -description

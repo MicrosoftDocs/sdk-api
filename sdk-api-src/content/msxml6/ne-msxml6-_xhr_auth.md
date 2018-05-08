@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Msxml.tlb
-req.typenames: XHR_AUTH, XHR_AUTH
+req.typenames: XHR_AUTH
 topic_type:
 -	APIRef
 -	kbSyntax

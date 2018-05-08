@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceCall.OnCall
-title: IServiceCall::OnCall method
+title: IServiceCall::OnCall
 author: windows-driver-content
 description: Triggers the execution of the batch work implemented in this method.
 old-location: cos\iservicecall_oncall.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 0a2bb7ed-018f-4cb1-a1b2-27f6949dae39
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IServiceCall, IServiceCall interface [COM+], OnCall method, IServiceCall::OnCall, OnCall method [COM+], OnCall method [COM+], IServiceCall interface, OnCall,IServiceCall.OnCall, _cos_IServiceCall_OnCall, comsvcs/IServiceCall::OnCall, cos.iservicecall_oncall
+ms.keywords: IServiceCall interface [COM+],OnCall method, IServiceCall.OnCall, IServiceCall::OnCall, OnCall, OnCall method [COM+], OnCall method [COM+],IServiceCall interface, _cos_IServiceCall_OnCall, comsvcs/IServiceCall::OnCall, cos.iservicecall_oncall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServiceCall::OnCall method
+# IServiceCall::OnCall
 
 
 ## -description

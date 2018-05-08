@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 987aea1d-912a-4691-987f-181c1ef1a8a9
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemObjectSink, IWbemObjectSink interface [Windows Management Instrumentation], IWbemObjectSink interface [Windows Management Instrumentation], described, _hmm_iwbemobjectsink, wbemcli/IWbemObjectSink, wmi.iwbemobjectsink
+ms.keywords: IWbemObjectSink, IWbemObjectSink interface [Windows Management Instrumentation], IWbemObjectSink interface [Windows Management Instrumentation],described, _hmm_iwbemobjectsink, wbemcli/IWbemObjectSink, wmi.iwbemobjectsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

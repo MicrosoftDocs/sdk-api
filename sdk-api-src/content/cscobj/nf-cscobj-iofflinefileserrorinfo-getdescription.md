@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesErrorInfo.GetDescription
-title: IOfflineFilesErrorInfo::GetDescription method
+title: IOfflineFilesErrorInfo::GetDescription
 author: windows-driver-content
 description: Retrieves a text string describing the error.
 old-location: of\iofflinefileserrorinfo_getdescription.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 04ec70c6-84e0-4543-b49f-1fe058d4d31d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDescription method [Offline Files], GetDescription method [Offline Files], IOfflineFilesErrorInfo interface, GetDescription,IOfflineFilesErrorInfo.GetDescription, IOfflineFilesErrorInfo, IOfflineFilesErrorInfo interface [Offline Files], GetDescription method, IOfflineFilesErrorInfo::GetDescription, cscobj/IOfflineFilesErrorInfo::GetDescription, of.iofflinefileserrorinfo_getdescription
+ms.keywords: GetDescription, GetDescription method [Offline Files], GetDescription method [Offline Files],IOfflineFilesErrorInfo interface, IOfflineFilesErrorInfo interface [Offline Files],GetDescription method, IOfflineFilesErrorInfo.GetDescription, IOfflineFilesErrorInfo::GetDescription, cscobj/IOfflineFilesErrorInfo::GetDescription, of.iofflinefileserrorinfo_getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesErrorInfo::GetDescription method
+# IOfflineFilesErrorInfo::GetDescription
 
 
 ## -description

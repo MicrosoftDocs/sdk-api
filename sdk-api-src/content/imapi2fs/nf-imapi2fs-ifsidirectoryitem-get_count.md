@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get_Count
-title: IFsiDirectoryItem::get_Count method
+title: IFsiDirectoryItem::get_Count
 author: windows-driver-content
 description: Number of child items in the enumeration.
 old-location: imapi\ifsidirectoryitem_get_count.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 66553025-35c9-4902-a184-01c07a478977
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiDirectoryItem, IFsiDirectoryItem interface [IMAPI], get_Count method, IFsiDirectoryItem::get_Count, get_Count method [IMAPI], get_Count method [IMAPI], IFsiDirectoryItem interface, get_Count,IFsiDirectoryItem.get_Count, imapi.ifsidirectoryitem_get_count, imapi2fs/IFsiDirectoryItem::get_Count
+ms.keywords: IFsiDirectoryItem interface [IMAPI],get_Count method, IFsiDirectoryItem.get_Count, IFsiDirectoryItem::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get_count, imapi2fs/IFsiDirectoryItem::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiDirectoryItem::get_Count method
+# IFsiDirectoryItem::get_Count
 
 
 ## -description

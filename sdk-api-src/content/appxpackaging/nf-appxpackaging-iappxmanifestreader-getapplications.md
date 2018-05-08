@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetApplications
-title: IAppxManifestReader::GetApplications method
+title: IAppxManifestReader::GetApplications
 author: windows-driver-content
 description: Gets an enumerator that iterates through the applications defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getapplications.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: EC575692-93D6-43F1-857B-9A27DD50B8FC
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetApplications method [App packaging and management], GetApplications method [App packaging and management], IAppxManifestReader interface, GetApplications,IAppxManifestReader.GetApplications, IAppxManifestReader, IAppxManifestReader interface [App packaging and management], GetApplications method, IAppxManifestReader::GetApplications, appxpackaging/IAppxManifestReader::GetApplications, appxpkg.iappxmanifestreader_getapplications
+ms.keywords: GetApplications, GetApplications method [App packaging and management], GetApplications method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetApplications method, IAppxManifestReader.GetApplications, IAppxManifestReader::GetApplications, appxpackaging/IAppxManifestReader::GetApplications, appxpkg.iappxmanifestreader_getapplications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestReader::GetApplications method
+# IAppxManifestReader::GetApplications
 
 
 ## -description

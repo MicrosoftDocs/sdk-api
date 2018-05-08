@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3D9Ex.GetAdapterDisplayModeEx
-title: IDirect3D9Ex::GetAdapterDisplayModeEx method
+title: IDirect3D9Ex::GetAdapterDisplayModeEx
 author: windows-driver-content
 description: Retrieves the current display mode and rotation settings of the adapter.
 old-location: direct3d9\idirect3d9ex_getadapterdisplaymodeex.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex_getadapterdisplaymodeex.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: GetAdapterDisplayModeEx method [Direct3D 9], GetAdapterDisplayModeEx method [Direct3D 9], IDirect3D9Ex interface, GetAdapterDisplayModeEx,IDirect3D9Ex.GetAdapterDisplayModeEx, IDirect3D9Ex, IDirect3D9Ex interface [Direct3D 9], GetAdapterDisplayModeEx method, IDirect3D9Ex::GetAdapterDisplayModeEx, a9a9a87a-36fb-8647-d001-d83d9020a82e, d3d9/IDirect3D9Ex::GetAdapterDisplayModeEx, direct3d9.idirect3d9ex_getadapterdisplaymodeex
+ms.keywords: GetAdapterDisplayModeEx, GetAdapterDisplayModeEx method [Direct3D 9], GetAdapterDisplayModeEx method [Direct3D 9],IDirect3D9Ex interface, IDirect3D9Ex interface [Direct3D 9],GetAdapterDisplayModeEx method, IDirect3D9Ex.GetAdapterDisplayModeEx, IDirect3D9Ex::GetAdapterDisplayModeEx, a9a9a87a-36fb-8647-d001-d83d9020a82e, d3d9/IDirect3D9Ex::GetAdapterDisplayModeEx, direct3d9.idirect3d9ex_getadapterdisplaymodeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3D9Ex::GetAdapterDisplayModeEx method
+# IDirect3D9Ex::GetAdapterDisplayModeEx
 
 
 ## -description

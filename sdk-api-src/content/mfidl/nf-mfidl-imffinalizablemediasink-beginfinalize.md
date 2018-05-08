@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFFinalizableMediaSink.BeginFinalize
-title: IMFFinalizableMediaSink::BeginFinalize method
+title: IMFFinalizableMediaSink::BeginFinalize
 author: windows-driver-content
 description: Notifies the media sink to asynchronously take any steps it needs to finish its tasks.
 old-location: mf\imffinalizablemediasink_beginfinalize.htm
 old-project: medfound
 ms.assetid: fbcb7722-ba64-40a6-9c43-26a6b8dce7f6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: BeginFinalize method [Media Foundation], BeginFinalize method [Media Foundation], IMFFinalizableMediaSink interface, BeginFinalize,IMFFinalizableMediaSink.BeginFinalize, IMFFinalizableMediaSink, IMFFinalizableMediaSink interface [Media Foundation], BeginFinalize method, IMFFinalizableMediaSink::BeginFinalize, fbcb7722-ba64-40a6-9c43-26a6b8dce7f6, mf.imffinalizablemediasink_beginfinalize, mfidl/IMFFinalizableMediaSink::BeginFinalize
+ms.date: 5/3/2018
+ms.keywords: BeginFinalize, BeginFinalize method [Media Foundation], BeginFinalize method [Media Foundation],IMFFinalizableMediaSink interface, IMFFinalizableMediaSink interface [Media Foundation],BeginFinalize method, IMFFinalizableMediaSink.BeginFinalize, IMFFinalizableMediaSink::BeginFinalize, fbcb7722-ba64-40a6-9c43-26a6b8dce7f6, mf.imffinalizablemediasink_beginfinalize, mfidl/IMFFinalizableMediaSink::BeginFinalize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFFinalizableMediaSink::BeginFinalize method
+# IMFFinalizableMediaSink::BeginFinalize
 
 
 ## -description

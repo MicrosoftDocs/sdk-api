@@ -7,7 +7,7 @@ old-location: winprog\netlogon_info_4.htm
 old-project: DevNotes
 ms.assetid: 6a0ffd68-149f-4d5d-8a8a-69f429ca135a
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: "*PNETLOGON_INFO_4, NETLOGON_INFO_4, NETLOGON_INFO_4 structure [Windows API], PNETLOGON_INFO_4, PNETLOGON_INFO_4 structure pointer [Windows API], _NETLOGON_INFO_4, lmaccess/NETLOGON_INFO_4, lmaccess/PNETLOGON_INFO_4, winprog.netlogon_info_4"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,6 +56,16 @@ The <b>NETLOGON_INFO_4</b> structure defines a level-4 control query response fr
 ## -struct-fields
 
 
+
+
+### -field netlog4_trusted_dc_name.string
+
+ 
+
+
+### -field netlog4_trusted_domain_name.string
+
+ 
 
 
 ### -field netlog4_trusted_dc_name

@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IVideoWindow.get_Height
-title: IVideoWindow::get_Height method
+title: IVideoWindow::get_Height
 author: windows-driver-content
 description: The get_Height method retrieves the height of the video window.
 old-location: dshow\ivideowindow_get_height.htm
 old-project: DirectShow
 ms.assetid: c1d29cd5-1e82-4406-b007-aa7b581d158e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], get_Height method, IVideoWindow::get_Height, IVideoWindowget_Height, control/IVideoWindow::get_Height, dshow.ivideowindow_get_height, get_Height method [DirectShow], get_Height method [DirectShow], IVideoWindow interface, get_Height,IVideoWindow.get_Height
+ms.date: 4/30/2018
+ms.keywords: IVideoWindow interface [DirectShow],get_Height method, IVideoWindow.get_Height, IVideoWindow::get_Height, IVideoWindowget_Height, control/IVideoWindow::get_Height, dshow.ivideowindow_get_height, get_Height, get_Height method [DirectShow], get_Height method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IVideoWindow::get_Height method
+# IVideoWindow::get_Height
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ShutdownApplicationInstances
-title: ICOMAdminCatalog2::ShutdownApplicationInstances method
+title: ICOMAdminCatalog2::ShutdownApplicationInstances
 author: windows-driver-content
 description: Initiates shutdown of the specified application server processes.
 old-location: cos\icomadmincatalog2_shutdownapplicationinstances.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 1de6c76b-f6f1-44d3-9bd4-4b6ac921893a
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], ShutdownApplicationInstances method, ICOMAdminCatalog2::ShutdownApplicationInstances, ShutdownApplicationInstances method [COM+], ShutdownApplicationInstances method [COM+], ICOMAdminCatalog2 interface, ShutdownApplicationInstances,ICOMAdminCatalog2.ShutdownApplicationInstances, _cos_icomadmincatalog2_ShutdownApplicationInstances, comadmin/ICOMAdminCatalog2::ShutdownApplicationInstances, cos.icomadmincatalog2_shutdownapplicationinstances
+ms.keywords: ICOMAdminCatalog2 interface [COM+],ShutdownApplicationInstances method, ICOMAdminCatalog2.ShutdownApplicationInstances, ICOMAdminCatalog2::ShutdownApplicationInstances, ShutdownApplicationInstances, ShutdownApplicationInstances method [COM+], ShutdownApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ShutdownApplicationInstances, comadmin/ICOMAdminCatalog2::ShutdownApplicationInstances, cos.icomadmincatalog2_shutdownapplicationinstances
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::ShutdownApplicationInstances method
+# ICOMAdminCatalog2::ShutdownApplicationInstances
 
 
 ## -description

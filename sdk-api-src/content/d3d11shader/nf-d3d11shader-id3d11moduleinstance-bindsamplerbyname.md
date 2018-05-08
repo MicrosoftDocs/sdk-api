@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindSamplerByName
-title: ID3D11ModuleInstance::BindSamplerByName method
+title: ID3D11ModuleInstance::BindSamplerByName
 author: windows-driver-content
 description: Rebinds a sampler by name to destination slots.
 old-location: direct3d11\id3d11moduleinstance_bindsamplerbyname.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 3AB143F9-6AF7-4C1A-8330-AAA4A7723327
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: BindSamplerByName method [Direct3D 11], BindSamplerByName method [Direct3D 11], ID3D11ModuleInstance interface, BindSamplerByName,ID3D11ModuleInstance.BindSamplerByName, ID3D11ModuleInstance, ID3D11ModuleInstance interface [Direct3D 11], BindSamplerByName method, ID3D11ModuleInstance::BindSamplerByName, d3d11shader/ID3D11ModuleInstance::BindSamplerByName, direct3d11.id3d11moduleinstance_bindsamplerbyname
+ms.keywords: BindSamplerByName, BindSamplerByName method [Direct3D 11], BindSamplerByName method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindSamplerByName method, ID3D11ModuleInstance.BindSamplerByName, ID3D11ModuleInstance::BindSamplerByName, d3d11shader/ID3D11ModuleInstance::BindSamplerByName, direct3d11.id3d11moduleinstance_bindsamplerbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ModuleInstance::BindSamplerByName method
+# ID3D11ModuleInstance::BindSamplerByName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateCoreProperties
-title: IXpsOMObjectFactory::CreateCoreProperties method
+title: IXpsOMObjectFactory::CreateCoreProperties
 author: windows-driver-content
 description: Creates an IXpsOMCoreProperties interface, which contains the metadata that describes an XPS document.
 old-location: xps\ixpsomobjectfactory_createcoreproperties.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b7146f0c-e397-45cb-9eb0-e03b3ac0e905
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateCoreProperties method [XPS Documents and Packaging], CreateCoreProperties method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateCoreProperties,IXpsOMObjectFactory.CreateCoreProperties, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateCoreProperties method, IXpsOMObjectFactory::CreateCoreProperties, xps.ixpsomobjectfactory_createcoreproperties, xpsobjectmodel/IXpsOMObjectFactory::CreateCoreProperties
+ms.keywords: CreateCoreProperties, CreateCoreProperties method [XPS Documents and Packaging], CreateCoreProperties method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateCoreProperties method, IXpsOMObjectFactory.CreateCoreProperties, IXpsOMObjectFactory::CreateCoreProperties, xps.ixpsomobjectfactory_createcoreproperties, xpsobjectmodel/IXpsOMObjectFactory::CreateCoreProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateCoreProperties method
+# IXpsOMObjectFactory::CreateCoreProperties
 
 
 ## -description

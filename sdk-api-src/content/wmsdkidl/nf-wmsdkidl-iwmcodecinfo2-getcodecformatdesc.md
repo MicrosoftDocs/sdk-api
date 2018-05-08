@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo2.GetCodecFormatDesc
-title: IWMCodecInfo2::GetCodecFormatDesc method
+title: IWMCodecInfo2::GetCodecFormatDesc
 author: windows-driver-content
 description: The GetCodecFormatDesc method retrieves a description of a specified codec format. This method also retrieves a stream configuration object containing the settings for the codec format.
 old-location: wmformat\iwmcodecinfo2_getcodecformatdesc.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 24ca091e-72f6-4c7b-b25a-8957d70fa450
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetCodecFormatDesc method [windows Media Format], GetCodecFormatDesc method [windows Media Format], IWMCodecInfo2 interface, GetCodecFormatDesc,IWMCodecInfo2.GetCodecFormatDesc, IWMCodecInfo2, IWMCodecInfo2 interface [windows Media Format], GetCodecFormatDesc method, IWMCodecInfo2::GetCodecFormatDesc, IWMCodecInfo2GetCodecFormatDesc, wmformat.iwmcodecinfo2_getcodecformatdesc, wmsdkidl/IWMCodecInfo2::GetCodecFormatDesc
+ms.keywords: GetCodecFormatDesc, GetCodecFormatDesc method [windows Media Format], GetCodecFormatDesc method [windows Media Format],IWMCodecInfo2 interface, IWMCodecInfo2 interface [windows Media Format],GetCodecFormatDesc method, IWMCodecInfo2.GetCodecFormatDesc, IWMCodecInfo2::GetCodecFormatDesc, IWMCodecInfo2GetCodecFormatDesc, wmformat.iwmcodecinfo2_getcodecformatdesc, wmsdkidl/IWMCodecInfo2::GetCodecFormatDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecInfo2::GetCodecFormatDesc method
+# IWMCodecInfo2::GetCodecFormatDesc
 
 
 ## -description

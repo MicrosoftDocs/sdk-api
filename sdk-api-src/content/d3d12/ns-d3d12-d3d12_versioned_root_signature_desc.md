@@ -62,12 +62,12 @@ Holds any version of a root signature description, and is designed to be used wi
 Specifies one member of D3D_ROOT_SIGNATURE_VERSION that determines the contents of the union.
 
 
-#### - Desc_1_0
+### -field Desc_1_0
 
 Specifies a <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> (version 1.0).
 
 
-#### - Desc_1_1
+### -field Desc_1_1
 
 Specifies a <a href="https://msdn.microsoft.com/F085D077-1DA8-41A1-9FA3-4423EA003345">D3D12_ROOT_SIGNATURE_DESC1</a> (version 1.1).
 

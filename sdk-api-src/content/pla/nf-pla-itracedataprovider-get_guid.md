@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_Guid
-title: ITraceDataProvider::get_Guid method
+title: ITraceDataProvider::get_Guid
 author: windows-driver-content
 description: Retrieves or sets the provider's GUID.
 old-location: pla\itracedataprovider_guid.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 0d2166dc-24cf-4d5f-8b37-94c4f9990178
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Guid property [PLA], Guid property [PLA], ITraceDataProvider interface, ITraceDataProvider, ITraceDataProvider interface [PLA], Guid property, ITraceDataProvider.Guid, ITraceDataProvider::get_Guid, ITraceDataProvider::put_Guid, base.itracedataprovider_guid, get_Guid,ITraceDataProvider.get_Guid, pla.itracedataprovider_guid, pla/ITraceDataProvider::Guid, pla/ITraceDataProvider::get_Guid, pla/ITraceDataProvider::put_Guid
+ms.keywords: Guid property [PLA], Guid property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],Guid property, ITraceDataProvider.Guid, ITraceDataProvider.get_Guid, ITraceDataProvider::Guid, ITraceDataProvider::get_Guid, ITraceDataProvider::put_Guid, base.itracedataprovider_guid, get_Guid, pla.itracedataprovider_guid, pla/ITraceDataProvider::Guid, pla/ITraceDataProvider::get_Guid, pla/ITraceDataProvider::put_Guid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataProvider::get_Guid method
+# ITraceDataProvider::get_Guid
 
 
 ## -description

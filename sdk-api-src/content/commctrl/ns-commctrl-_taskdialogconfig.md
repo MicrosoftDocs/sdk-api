@@ -7,7 +7,7 @@ old-location: controls\TASKDIALOGCONFIG.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogstructures\taskdialogconfig.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: TASKDIALOGCONFIG, TASKDIALOGCONFIG structure [Windows Controls], TDCBF_CANCEL_BUTTON, TDCBF_CLOSE_BUTTON, TDCBF_NO_BUTTON, TDCBF_OK_BUTTON, TDCBF_RETRY_BUTTON, TDCBF_YES_BUTTON, TDF_ALLOW_DIALOG_CANCELLATION, TDF_CALLBACK_TIMER, TDF_CAN_BE_MINIMIZED, TDF_ENABLE_HYPERLINKS, TDF_EXPANDED_BY_DEFAULT, TDF_EXPAND_FOOTER_AREA, TDF_NO_DEFAULT_RADIO_BUTTON, TDF_POSITION_RELATIVE_TO_WINDOW, TDF_RTL_LAYOUT, TDF_SHOW_MARQUEE_PROGRESS_BAR, TDF_SHOW_PROGRESS_BAR, TDF_SIZE_TO_CONTENT, TDF_USE_COMMAND_LINKS, TDF_USE_COMMAND_LINKS_NO_ICON, TDF_USE_HICON_FOOTER, TDF_USE_HICON_MAIN, TDF_VERIFICATION_FLAG_CHECKED, TDIF_SIZE_TO_CONTENT, TD_ERROR_ICON, TD_INFORMATION_ICON, TD_SHIELD_ICON, TD_WARNING_ICON, _TASKDIALOGCONFIG, _shell_TASKDIALOGCONFIG, _shell_TASKDIALOGCONFIG_cpp, commctrl/TASKDIALOGCONFIG, controls.TASKDIALOGCONFIG, controls._shell_TASKDIALOGCONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -377,6 +377,69 @@ Pointer that references the string to be used for the task dialog title.  This p
  
 
 
+### -field DUMMYUNIONNAME.hMainIcon
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HICON</a></b>
+
+A handle to an Icon that is to be displayed in the task dialog.  This member is ignored unless the TDF_USE_HICON_MAIN flag is specified.  If this member is <b>NULL</b> and the TDF_USE_HICON_MAIN is specified, no icon will be displayed.
+
+
+### -field DUMMYUNIONNAME.pszMainIcon
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
+
+Pointer that references the icon to be displayed in the task dialog. This parameter is ignored if the USE_HICON_MAIN flag is specified. Otherwise, if this parameter is <b>NULL</b> or the <b>hInstance</b> parameter is <b>NULL</b>, no icon will be displayed. This parameter must be an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro or one of the following predefined values:
+					
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="TD_ERROR_ICON"></a><a id="td_error_icon"></a><dl>
+<dt><b>TD_ERROR_ICON</b></dt>
+</dl>
+</td>
+<td width="60%">
+A stop-sign icon appears in the task dialog.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="TD_WARNING_ICON"></a><a id="td_warning_icon"></a><dl>
+<dt><b>TD_WARNING_ICON</b></dt>
+</dl>
+</td>
+<td width="60%">
+An exclamation-point icon appears in the task dialog.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="TD_INFORMATION_ICON"></a><a id="td_information_icon"></a><dl>
+<dt><b>TD_INFORMATION_ICON</b></dt>
+</dl>
+</td>
+<td width="60%">
+An icon consisting of a lowercase letter i in a circle appears in the task dialog.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="TD_SHIELD_ICON"></a><a id="td_shield_icon"></a><dl>
+<dt><b>TD_SHIELD_ICON</b></dt>
+</dl>
+</td>
+<td width="60%">
+A shield icon appears in the task dialog.
+
+</td>
+</tr>
+</table>
+ 
+
+
 ### -field pszMainInstruction
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
@@ -496,6 +559,20 @@ Pointer that references the string to be used to label the button for expanding 
  
 
 
+### -field DUMMYUNIONNAME2.hFooterIcon
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HICON</a></b>
+
+A handle to an Icon that is to be displayed in the footer of the task dialog.  This member is ignored unless the TDF_USE_HICON_FOOTER flag is specified and the <b>pszFooterIcon</b> is not. If this member is <b>NULL</b> and the TDF_USE_HICON_FOOTER is specified, no icon is displayed.
+
+
+### -field DUMMYUNIONNAME2.pszFooterIcon
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
+
+Pointer that references the icon to be displayed in the footer area of the task dialog. This parameter is ignored if the TDF_USE_HICON_FOOTER flag is specified, or if <b>pszFooter</b> is <b>NULL</b>. Otherwise, if this parameter is <b>NULL</b> or the <b>hInstance</b> parameter is <b>NULL</b>, no icon is displayed. This parameter must be an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro or one of the predefined values listed for <b>pszMainIcon</b>.
+
+
 ### -field pszFooter
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
@@ -536,81 +613,4 @@ A pointer to application-defined reference data. This value is defined by the ca
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The width of the task dialog's client area, in dialog units. If 0, the task dialog manager will calculate the ideal width.
-
-
-#### - hFooterIcon
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HICON</a></b>
-
-A handle to an Icon that is to be displayed in the footer of the task dialog.  This member is ignored unless the TDF_USE_HICON_FOOTER flag is specified and the <b>pszFooterIcon</b> is not. If this member is <b>NULL</b> and the TDF_USE_HICON_FOOTER is specified, no icon is displayed.
-
-
-#### - hMainIcon
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HICON</a></b>
-
-A handle to an Icon that is to be displayed in the task dialog.  This member is ignored unless the TDF_USE_HICON_MAIN flag is specified.  If this member is <b>NULL</b> and the TDF_USE_HICON_MAIN is specified, no icon will be displayed.
-
-
-#### - pszFooterIcon
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
-
-Pointer that references the icon to be displayed in the footer area of the task dialog. This parameter is ignored if the TDF_USE_HICON_FOOTER flag is specified, or if <b>pszFooter</b> is <b>NULL</b>. Otherwise, if this parameter is <b>NULL</b> or the <b>hInstance</b> parameter is <b>NULL</b>, no icon is displayed. This parameter must be an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro or one of the predefined values listed for <b>pszMainIcon</b>.
-
-
-#### - pszMainIcon
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
-
-Pointer that references the icon to be displayed in the task dialog. This parameter is ignored if the USE_HICON_MAIN flag is specified. Otherwise, if this parameter is <b>NULL</b> or the <b>hInstance</b> parameter is <b>NULL</b>, no icon will be displayed. This parameter must be an integer resource identifier passed to the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro or one of the following predefined values:
-					
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="TD_ERROR_ICON"></a><a id="td_error_icon"></a><dl>
-<dt><b>TD_ERROR_ICON</b></dt>
-</dl>
-</td>
-<td width="60%">
-A stop-sign icon appears in the task dialog.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TD_WARNING_ICON"></a><a id="td_warning_icon"></a><dl>
-<dt><b>TD_WARNING_ICON</b></dt>
-</dl>
-</td>
-<td width="60%">
-An exclamation-point icon appears in the task dialog.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TD_INFORMATION_ICON"></a><a id="td_information_icon"></a><dl>
-<dt><b>TD_INFORMATION_ICON</b></dt>
-</dl>
-</td>
-<td width="60%">
-An icon consisting of a lowercase letter i in a circle appears in the task dialog.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TD_SHIELD_ICON"></a><a id="td_shield_icon"></a><dl>
-<dt><b>TD_SHIELD_ICON</b></dt>
-</dl>
-</td>
-<td width="60%">
-A shield icon appears in the task dialog.
-
-</td>
-</tr>
-</table>
- 
 

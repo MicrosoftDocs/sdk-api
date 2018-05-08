@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineWebSupport.ConnectWebAudio
-title: IMFMediaEngineWebSupport::ConnectWebAudio method
+title: IMFMediaEngineWebSupport::ConnectWebAudio
 author: windows-driver-content
 description: Connects web audio to Media Engine using the specified sample rate.
 old-location: mf\imfmediaenginewebsupport_connectwebaudio.htm
 old-project: medfound
 ms.assetid: E2470C2B-2E55-4B4F-B00F-03ABBB1A896F
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ConnectWebAudio method [Media Foundation], ConnectWebAudio method [Media Foundation], IMFMediaEngineWebSupport interface, ConnectWebAudio,IMFMediaEngineWebSupport.ConnectWebAudio, IMFMediaEngineWebSupport, IMFMediaEngineWebSupport interface [Media Foundation], ConnectWebAudio method, IMFMediaEngineWebSupport::ConnectWebAudio, mf.imfmediaenginewebsupport_connectwebaudio, mfmediaengine/IMFMediaEngineWebSupport::ConnectWebAudio
+ms.date: 5/3/2018
+ms.keywords: ConnectWebAudio, ConnectWebAudio method [Media Foundation], ConnectWebAudio method [Media Foundation],IMFMediaEngineWebSupport interface, IMFMediaEngineWebSupport interface [Media Foundation],ConnectWebAudio method, IMFMediaEngineWebSupport.ConnectWebAudio, IMFMediaEngineWebSupport::ConnectWebAudio, mf.imfmediaenginewebsupport_connectwebaudio, mfmediaengine/IMFMediaEngineWebSupport::ConnectWebAudio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineWebSupport::ConnectWebAudio method
+# IMFMediaEngineWebSupport::ConnectWebAudio
 
 
 ## -description

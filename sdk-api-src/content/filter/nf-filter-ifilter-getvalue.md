@@ -1,6 +1,6 @@
 ---
 UID: NF:filter.IFilter.GetValue
-title: IFilter::GetValue method
+title: IFilter::GetValue
 author: windows-driver-content
 description: Retrieves a value (internal value-type property) from a chunk, which must have a CHUNKSTATE enumeration value of CHUNK_VALUE.
 old-location: indexsrv\ifilter_getvalue.htm
@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1cpx.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetValue method [Indexing Service], GetValue method [Indexing Service], IFilter interface, GetValue,IFilter.GetValue, IFilter, IFilter interface [Indexing Service], GetValue method, IFilter::GetValue, _idxs_IFilter_GetValue, filter/IFilter::GetValue, indexsrv.ifilter_getvalue
+ms.keywords: GetValue, GetValue method [Indexing Service], GetValue method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetValue method, IFilter.GetValue, IFilter::GetValue, _idxs_IFilter_GetValue, filter/IFilter::GetValue, indexsrv.ifilter_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFilter::GetValue method
+# IFilter::GetValue
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: iphlp\scope_level.htm
 old-project: IpHlp
 ms.assetid: 714ab69e-b1fa-42a2-a92c-e4051b969a19
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: SCOPE_LEVEL, SCOPE_LEVEL enumeration [IP Helper], ScopeLevelAdmin, ScopeLevelGlobal, ScopeLevelInterface, ScopeLevelLink, ScopeLevelOrganization, ScopeLevelSite, ScopeLevelSubnet, iphlp.scope_level, iptypes/SCOPE_LEVEL, iptypes/ScopeLevelAdmin, iptypes/ScopeLevelGlobal, iptypes/ScopeLevelInterface, iptypes/ScopeLevelLink, iptypes/ScopeLevelOrganization, iptypes/ScopeLevelSite, iptypes/ScopeLevelSubnet, ws2def/SCOPE_LEVEL, ws2def/ScopeLevelAdmin, ws2def/ScopeLevelGlobal, ws2def/ScopeLevelInterface, ws2def/ScopeLevelLink, ws2def/ScopeLevelOrganization, ws2def/ScopeLevelSite, ws2def/ScopeLevelSubnet
 ms.prod: windows-hardware
 ms.technology: windows-devices

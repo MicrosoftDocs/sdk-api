@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.Authorize
-title: IEnhancedStorageACT::Authorize method
+title: IEnhancedStorageACT::Authorize
 author: windows-driver-content
 description: Associates the Addressable Command Target (ACT) with the Authorized state defined by ACT_AUTHORIZATION_STATE, and ensures the authentication of each individual silo according to the required sequence and logical combination necessary to authorize access to the ACT.
 old-location: enstor\ienhancedstorageact_authorize.htm
@@ -8,7 +8,7 @@ old-project: enstor
 ms.assetid: 77141891-9adc-4cd9-b682-8f5b8e842f4c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Authorize method [Enhanced Storage], Authorize method [Enhanced Storage], IEnhancedStorageACT interface, Authorize,IEnhancedStorageACT.Authorize, IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], Authorize method, IEnhancedStorageACT::Authorize, ehstorapi/IEnhancedStorageACT::Authorize, enstor.ienhancedstorageact_authorize
+ms.keywords: Authorize, Authorize method [Enhanced Storage], Authorize method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],Authorize method, IEnhancedStorageACT.Authorize, IEnhancedStorageACT::Authorize, ehstorapi/IEnhancedStorageACT::Authorize, enstor.ienhancedstorageact_authorize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEnhancedStorageACT::Authorize method
+# IEnhancedStorageACT::Authorize
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetPlayerParentalLevel
-title: IDvdInfo::GetPlayerParentalLevel method
+title: IDvdInfo::GetPlayerParentalLevel
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current parental level and country/region code settings for the DVD player.
 old-location: dshow\idvdinfo_getplayerparentallevel.htm
 old-project: DirectShow
 ms.assetid: 2b4111db-fbb1-4da7-85e1-ddd3f5718225
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPlayerParentalLevel method [DirectShow], GetPlayerParentalLevel method [DirectShow], IDvdInfo interface, GetPlayerParentalLevel,IDvdInfo.GetPlayerParentalLevel, IDvdInfo, IDvdInfo interface [DirectShow], GetPlayerParentalLevel method, IDvdInfo::GetPlayerParentalLevel, IDvdInfoGetPlayerParentalLevel, dshow.idvdinfo_getplayerparentallevel, strmif/IDvdInfo::GetPlayerParentalLevel
+ms.date: 4/30/2018
+ms.keywords: GetPlayerParentalLevel, GetPlayerParentalLevel method [DirectShow], GetPlayerParentalLevel method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetPlayerParentalLevel method, IDvdInfo.GetPlayerParentalLevel, IDvdInfo::GetPlayerParentalLevel, IDvdInfoGetPlayerParentalLevel, dshow.idvdinfo_getplayerparentallevel, strmif/IDvdInfo::GetPlayerParentalLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetPlayerParentalLevel method
+# IDvdInfo::GetPlayerParentalLevel
 
 
 ## -description

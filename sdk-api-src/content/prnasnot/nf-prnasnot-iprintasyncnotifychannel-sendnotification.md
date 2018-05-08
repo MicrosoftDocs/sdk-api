@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyChannel.SendNotification
-title: IPrintAsyncNotifyChannel::SendNotification method
+title: IPrintAsyncNotifyChannel::SendNotification
 author: windows-driver-content
 description: Sends a notification from a component that is hosted by the print spooler to one or more listening applications, or sends a response from an application back to a component.
 old-location: gdi\iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotification.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 729286d4-75ee-441e-b63d-fef72d41533a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IPrintAsyncNotifyChannel, IPrintAsyncNotifyChannel interface [Windows GDI], SendNotification method, IPrintAsyncNotifyChannel::SendNotification, SendNotification method [Windows GDI], SendNotification method [Windows GDI], IPrintAsyncNotifyChannel interface, SendNotification,IPrintAsyncNotifyChannel.SendNotification, _win32_IPrintAsyncNotifyChannel_SendNotification, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotification, prnasnot/IPrintAsyncNotifyChannel::SendNotification
+ms.keywords: IPrintAsyncNotifyChannel interface [Windows GDI],SendNotification method, IPrintAsyncNotifyChannel.SendNotification, IPrintAsyncNotifyChannel::SendNotification, SendNotification, SendNotification method [Windows GDI], SendNotification method [Windows GDI],IPrintAsyncNotifyChannel interface, _win32_IPrintAsyncNotifyChannel_SendNotification, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotification, prnasnot/IPrintAsyncNotifyChannel::SendNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPrintAsyncNotifyChannel::SendNotification method
+# IPrintAsyncNotifyChannel::SendNotification
 
 
 ## -description

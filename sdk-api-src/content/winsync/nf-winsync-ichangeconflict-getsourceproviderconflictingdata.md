@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeConflict.GetSourceProviderConflictingData
-title: IChangeConflict::GetSourceProviderConflictingData method
+title: IChangeConflict::GetSourceProviderConflictingData
 author: windows-driver-content
 description: Gets an object that can be used to retrieve item data for the change item from the source replica.
 old-location: winsync\ichangeconflict_getsourceproviderconflictingdata.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 4227b559-59e9-4b87-beb0-2d47f3d81414
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSourceProviderConflictingData method [Windows Sync], GetSourceProviderConflictingData method [Windows Sync], IChangeConflict interface, GetSourceProviderConflictingData,IChangeConflict.GetSourceProviderConflictingData, IChangeConflict, IChangeConflict interface [Windows Sync], GetSourceProviderConflictingData method, IChangeConflict::GetSourceProviderConflictingData, winsync.ichangeconflict_getsourceproviderconflictingdata, winsync/IChangeConflict::GetSourceProviderConflictingData
+ms.keywords: GetSourceProviderConflictingData, GetSourceProviderConflictingData method [Windows Sync], GetSourceProviderConflictingData method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetSourceProviderConflictingData method, IChangeConflict.GetSourceProviderConflictingData, IChangeConflict::GetSourceProviderConflictingData, winsync.ichangeconflict_getsourceproviderconflictingdata, winsync/IChangeConflict::GetSourceProviderConflictingData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IChangeConflict::GetSourceProviderConflictingData method
+# IChangeConflict::GetSourceProviderConflictingData
 
 
 ## -description

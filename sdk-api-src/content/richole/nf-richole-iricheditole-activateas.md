@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOle.ActivateAs
-title: IRichEditOle::ActivateAs method
+title: IRichEditOle::ActivateAs
 author: windows-driver-content
 description: Handles Activate As behavior by unloading all objects of the old class, telling OLE to treat those objects as objects of the new class, and reloading the objects. If objects cannot be reloaded, they are deleted.
 old-location: controls\IRichEditOle_ActivateAs.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleactivateas.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ActivateAs method [Windows Controls], ActivateAs method [Windows Controls], IRichEditOle interface, ActivateAs,IRichEditOle.ActivateAs, IRichEditOle, IRichEditOle interface [Windows Controls], ActivateAs method, IRichEditOle::ActivateAs, _win32_IRichEditOle_ActivateAs, _win32_IRichEditOle_ActivateAs_cpp, controls.IRichEditOle_ActivateAs, controls._win32_IRichEditOle_ActivateAs, richole/IRichEditOle::ActivateAs
+ms.date: 4/27/2018
+ms.keywords: ActivateAs, ActivateAs method [Windows Controls], ActivateAs method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],ActivateAs method, IRichEditOle.ActivateAs, IRichEditOle::ActivateAs, _win32_IRichEditOle_ActivateAs, _win32_IRichEditOle_ActivateAs_cpp, controls.IRichEditOle_ActivateAs, controls._win32_IRichEditOle_ActivateAs, richole/IRichEditOle::ActivateAs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOle::ActivateAs method
+# IRichEditOle::ActivateAs
 
 
 ## -description

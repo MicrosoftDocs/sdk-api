@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetMemberBySemantic
-title: ID3D10EffectVariable::GetMemberBySemantic method
+title: ID3D10EffectVariable::GetMemberBySemantic
 author: windows-driver-content
 description: Get a structure member by semantic.
 old-location: direct3d10\id3d10effectvariable_getmemberbysemantic.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getmemberbysemantic.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 39fcf4c4-6072-0377-d1b8-ca11cc848a0c, GetMemberBySemantic method [Direct3D 10], GetMemberBySemantic method [Direct3D 10], ID3D10EffectVariable interface, GetMemberBySemantic,ID3D10EffectVariable.GetMemberBySemantic, ID3D10EffectVariable, ID3D10EffectVariable interface [Direct3D 10], GetMemberBySemantic method, ID3D10EffectVariable::GetMemberBySemantic, d3d10effect/ID3D10EffectVariable::GetMemberBySemantic, direct3d10.id3d10effectvariable_getmemberbysemantic
+ms.keywords: 39fcf4c4-6072-0377-d1b8-ca11cc848a0c, GetMemberBySemantic, GetMemberBySemantic method [Direct3D 10], GetMemberBySemantic method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetMemberBySemantic method, ID3D10EffectVariable.GetMemberBySemantic, ID3D10EffectVariable::GetMemberBySemantic, d3d10effect/ID3D10EffectVariable::GetMemberBySemantic, direct3d10.id3d10effectvariable_getmemberbysemantic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectVariable::GetMemberBySemantic method
+# ID3D10EffectVariable::GetMemberBySemantic
 
 
 ## -description

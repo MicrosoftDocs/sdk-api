@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.ControlStream
-title: ICaptureGraphBuilder::ControlStream method
+title: ICaptureGraphBuilder::ControlStream
 author: windows-driver-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Sends stream control messages to the pin of the specified category on one or more capture filters in a graph.
 old-location: dshow\icapturegraphbuilder_controlstream.htm
 old-project: DirectShow
 ms.assetid: 8d7d3a4d-3071-4829-99df-f0bcc9197b38
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ControlStream method [DirectShow], ControlStream method [DirectShow], ICaptureGraphBuilder interface, ControlStream,ICaptureGraphBuilder.ControlStream, ICaptureGraphBuilder, ICaptureGraphBuilder interface [DirectShow], ControlStream method, ICaptureGraphBuilder::ControlStream, ICaptureGraphBuilderControlStream, dshow.icapturegraphbuilder_controlstream, strmif/ICaptureGraphBuilder::ControlStream
+ms.date: 4/30/2018
+ms.keywords: ControlStream, ControlStream method [DirectShow], ControlStream method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],ControlStream method, ICaptureGraphBuilder.ControlStream, ICaptureGraphBuilder::ControlStream, ICaptureGraphBuilderControlStream, dshow.icapturegraphbuilder_controlstream, strmif/ICaptureGraphBuilder::ControlStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ICaptureGraphBuilder::ControlStream method
+# ICaptureGraphBuilder::ControlStream
 
 
 ## -description

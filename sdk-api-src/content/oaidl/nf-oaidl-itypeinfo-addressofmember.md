@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo.AddressOfMember
-title: ITypeInfo::AddressOfMember method
+title: ITypeInfo::AddressOfMember
 author: windows-driver-content
 description: Retrieves the addresses of static functions or variables, such as those defined in a DLL.
 old-location: automat\itypeinfo_addressofmember.htm
 old-project: automat
 ms.assetid: cf351457-13ff-4e40-9d92-89c6db42627c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: AddressOfMember method [Automation], AddressOfMember method [Automation], ITypeInfo interface, AddressOfMember,ITypeInfo.AddressOfMember, ITypeInfo, ITypeInfo interface [Automation], AddressOfMember method, ITypeInfo::AddressOfMember, _oa96_ITypeInfo_AddressOfMember, automat.itypeinfo_addressofmember, oaidl/ITypeInfo::AddressOfMember
+ms.date: 5/4/2018
+ms.keywords: AddressOfMember, AddressOfMember method [Automation], AddressOfMember method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],AddressOfMember method, ITypeInfo.AddressOfMember, ITypeInfo::AddressOfMember, _oa96_ITypeInfo_AddressOfMember, automat.itypeinfo_addressofmember, oaidl/ITypeInfo::AddressOfMember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo::AddressOfMember method
+# ITypeInfo::AddressOfMember
 
 
 ## -description

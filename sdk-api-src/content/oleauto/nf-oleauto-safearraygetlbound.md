@@ -7,7 +7,7 @@ old-location: automat\safearraygetlbound.htm
 old-project: automat
 ms.assetid: f3134cc9-759b-4908-ada0-d025a525e795
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: SafeArrayGetLBound, SafeArrayGetLBound function [Automation], _oa96_SafeArrayGetLBound, automat.safearraygetlbound, oleauto/SafeArrayGetLBound
 ms.prod: windows-hardware
 ms.technology: windows-devices

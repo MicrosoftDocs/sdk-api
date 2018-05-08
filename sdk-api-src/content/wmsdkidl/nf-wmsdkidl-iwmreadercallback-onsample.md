@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallback.OnSample
-title: IWMReaderCallback::OnSample method
+title: IWMReaderCallback::OnSample
 author: windows-driver-content
 description: The OnSample method is called during the reading of a file (due to a Start call) indicating that new data is available.
 old-location: wmformat\iwmreadercallback_onsample.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 0f6e4d4f-4295-44ff-95bc-e683bdbab8e0
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderCallback, IWMReaderCallback interface [windows Media Format], OnSample method, IWMReaderCallback::OnSample, IWMReaderCallbackOnSample, OnSample method [windows Media Format], OnSample method [windows Media Format], IWMReaderCallback interface, OnSample,IWMReaderCallback.OnSample, wmformat.iwmreadercallback_onsample, wmsdkidl/IWMReaderCallback::OnSample
+ms.keywords: IWMReaderCallback interface [windows Media Format],OnSample method, IWMReaderCallback.OnSample, IWMReaderCallback::OnSample, IWMReaderCallbackOnSample, OnSample, OnSample method [windows Media Format], OnSample method [windows Media Format],IWMReaderCallback interface, wmformat.iwmreadercallback_onsample, wmsdkidl/IWMReaderCallback::OnSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderCallback::OnSample method
+# IWMReaderCallback::OnSample
 
 
 ## -description

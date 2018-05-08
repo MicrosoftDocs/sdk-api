@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmProperty.get_Value
-title: IFsrmProperty::get_Value method
+title: IFsrmProperty::get_Value
 author: windows-driver-content
 description: The value of the property.
 old-location: fsrm\ifsrmproperty_value.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: dc49c1d4-9f37-48f0-9e0b-9fd79a106301
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmProperty, IFsrmProperty interface [File Server Resource Manager], Value property, IFsrmProperty.Value, IFsrmProperty::get_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager], IFsrmProperty interface, fs.ifsrmproperty_value, fsrm.ifsrmproperty_value, fsrmpipeline/IFsrmProperty::Value, fsrmpipeline/IFsrmProperty::get_Value, get_Value,IFsrmProperty.get_Value
+ms.keywords: IFsrmProperty interface [File Server Resource Manager],Value property, IFsrmProperty.Value, IFsrmProperty.get_Value, IFsrmProperty::Value, IFsrmProperty::get_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_value, fsrm.ifsrmproperty_value, fsrmpipeline/IFsrmProperty::Value, fsrmpipeline/IFsrmProperty::get_Value, get_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmProperty::get_Value method
+# IFsrmProperty::get_Value
 
 
 ## -description

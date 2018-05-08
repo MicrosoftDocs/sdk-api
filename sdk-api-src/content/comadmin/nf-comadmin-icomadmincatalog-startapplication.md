@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.StartApplication
-title: ICOMAdminCatalog::StartApplication method
+title: ICOMAdminCatalog::StartApplication
 author: windows-driver-content
 description: Starts the specified COM+ server application. The application components are launched in a dedicated server process.
 old-location: cos\icomadmincatalog_startapplication.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 89423f39-7cbd-42dd-8d4a-6f312884e0bf
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], StartApplication method, ICOMAdminCatalog::StartApplication, StartApplication method [COM+], StartApplication method [COM+], ICOMAdminCatalog interface, StartApplication,ICOMAdminCatalog.StartApplication, _cos_ICOMAdminCatalog_StartApplication, comadmin/ICOMAdminCatalog::StartApplication, cos.icomadmincatalog_startapplication
+ms.keywords: ICOMAdminCatalog interface [COM+],StartApplication method, ICOMAdminCatalog.StartApplication, ICOMAdminCatalog::StartApplication, StartApplication, StartApplication method [COM+], StartApplication method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StartApplication, comadmin/ICOMAdminCatalog::StartApplication, cos.icomadmincatalog_startapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::StartApplication method
+# ICOMAdminCatalog::StartApplication
 
 
 ## -description

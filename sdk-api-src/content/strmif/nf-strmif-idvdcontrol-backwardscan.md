@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.BackwardScan
-title: IDvdControl::BackwardScan method
+title: IDvdControl::BackwardScan
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Searches backward through the current disc at the specified speed.
 old-location: dshow\idvdcontrol_backwardscan.htm
 old-project: DirectShow
 ms.assetid: 9d2b1635-9b02-465a-a725-8b7985b651fb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: BackwardScan method [DirectShow], BackwardScan method [DirectShow], IDvdControl interface, BackwardScan,IDvdControl.BackwardScan, IDvdControl, IDvdControl interface [DirectShow], BackwardScan method, IDvdControl::BackwardScan, IDvdControlBackwardScan, dshow.idvdcontrol_backwardscan, strmif/IDvdControl::BackwardScan
+ms.date: 4/30/2018
+ms.keywords: BackwardScan, BackwardScan method [DirectShow], BackwardScan method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],BackwardScan method, IDvdControl.BackwardScan, IDvdControl::BackwardScan, IDvdControlBackwardScan, dshow.idvdcontrol_backwardscan, strmif/IDvdControl::BackwardScan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::BackwardScan method
+# IDvdControl::BackwardScan
 
 
 ## -description

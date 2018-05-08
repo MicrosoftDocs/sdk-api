@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.AdviseSink
-title: ITextStoreAnchor::AdviseSink method
+title: ITextStoreAnchor::AdviseSink
 author: windows-driver-content
 description: The ITextStoreAnchor::AdviseSink method installs a new advise sink from the ITextStoreAnchorSink interface or modifies an existing advise sink.
 old-location: tsf\itextstoreanchor_advisesink.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a2196d1c-b03e-44b4-b695-970feddb8ce5
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework], ITextStoreAnchor interface, AdviseSink,ITextStoreAnchor.AdviseSink, ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], AdviseSink method, ITextStoreAnchor::AdviseSink, textstor/ITextStoreAnchor::AdviseSink, tsf.itextstoreanchor_advisesink
+ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],AdviseSink method, ITextStoreAnchor.AdviseSink, ITextStoreAnchor::AdviseSink, textstor/ITextStoreAnchor::AdviseSink, tsf.itextstoreanchor_advisesink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::AdviseSink method
+# ITextStoreAnchor::AdviseSink
 
 
 ## -description

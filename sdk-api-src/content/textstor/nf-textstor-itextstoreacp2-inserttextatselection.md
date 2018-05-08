@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.InsertTextAtSelection
-title: ITextStoreACP2::InsertTextAtSelection method
+title: ITextStoreACP2::InsertTextAtSelection
 author: windows-driver-content
 description: Inserts text at the insertion point or selection. A caller must have a read/write lock on the document before inserting text.
 old-location: tsf\itextstoreacp2_inserttextatselection.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5e1e0893-53be-4753-ba49-32e69597a130
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], InsertTextAtSelection method, ITextStoreACP2::InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework], ITextStoreACP2 interface, InsertTextAtSelection,ITextStoreACP2.InsertTextAtSelection, textstor/ITextStoreACP2::InsertTextAtSelection, tsf.itextstoreacp2_inserttextatselection
+ms.keywords: ITextStoreACP2 interface [Text Services Framework],InsertTextAtSelection method, ITextStoreACP2.InsertTextAtSelection, ITextStoreACP2::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::InsertTextAtSelection, tsf.itextstoreacp2_inserttextatselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP2::InsertTextAtSelection method
+# ITextStoreACP2::InsertTextAtSelection
 
 
 ## -description

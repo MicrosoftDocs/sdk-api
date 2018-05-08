@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage2.CreateStorage2
-title: IMDSPStorage2::CreateStorage2 method
+title: IMDSPStorage2::CreateStorage2
 author: windows-driver-content
 description: The CreateStorage2 method creates a new storage with the specified name and returns a pointer to the IMDSPStorage interface on the newly created storage.
 old-location: wmdm\imdspstorage2_createstorage2.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: f79f4bf5-948e-4201-a9bc-edde4dd333ea
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CreateStorage2 method [windows Media Device Manager], CreateStorage2 method [windows Media Device Manager], IMDSPStorage2 interface, CreateStorage2,IMDSPStorage2.CreateStorage2, IMDSPStorage2, IMDSPStorage2 interface [windows Media Device Manager], CreateStorage2 method, IMDSPStorage2::CreateStorage2, IMDSPStorage2CreateStorage2, mswmdm/IMDSPStorage2::CreateStorage2, wmdm.imdspstorage2_createstorage2
+ms.keywords: CreateStorage2, CreateStorage2 method [windows Media Device Manager], CreateStorage2 method [windows Media Device Manager],IMDSPStorage2 interface, IMDSPStorage2 interface [windows Media Device Manager],CreateStorage2 method, IMDSPStorage2.CreateStorage2, IMDSPStorage2::CreateStorage2, IMDSPStorage2CreateStorage2, mswmdm/IMDSPStorage2::CreateStorage2, wmdm.imdspstorage2_createstorage2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPStorage2::CreateStorage2 method
+# IMDSPStorage2::CreateStorage2
 
 
 ## -description

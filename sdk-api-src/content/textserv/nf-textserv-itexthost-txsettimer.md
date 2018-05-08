@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxSetTimer
-title: ITextHost::TxSetTimer method
+title: ITextHost::TxSetTimer
 author: windows-driver-content
 description: Requests the text host to create a timer with a specified time-out.
 old-location: controls\ITextHost_TxSetTimer.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsettimer.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxSetTimer method, ITextHost::TxSetTimer, TxSetTimer method [Windows Controls], TxSetTimer method [Windows Controls], ITextHost interface, TxSetTimer,ITextHost.TxSetTimer, _win32_ITextHost_TxSetTimer, _win32_ITextHost_TxSetTimer_cpp, controls.ITextHost_TxSetTimer, controls._win32_ITextHost_TxSetTimer, textserv/ITextHost::TxSetTimer
+ms.date: 4/27/2018
+ms.keywords: ITextHost interface [Windows Controls],TxSetTimer method, ITextHost.TxSetTimer, ITextHost::TxSetTimer, TxSetTimer, TxSetTimer method [Windows Controls], TxSetTimer method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetTimer, _win32_ITextHost_TxSetTimer_cpp, controls.ITextHost_TxSetTimer, controls._win32_ITextHost_TxSetTimer, textserv/ITextHost::TxSetTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxSetTimer method
+# ITextHost::TxSetTimer
 
 
 ## -description

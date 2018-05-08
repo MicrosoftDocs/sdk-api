@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.ISectionList.Initialize
-title: ISectionList::Initialize method
+title: ISectionList::Initialize
 author: windows-driver-content
 description: The Initialize method initializes the object. This method should be called once, immediately after creating the object. The IMpeg2Data::GetSection and IMpeg2Data::GetTable methods call this method internally, so typically an application will not call it.
 old-location: mstv\isectionlist_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 196abb62-97f6-4961-b843-895ae35fedc4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ISectionList, ISectionList interface [Microsoft TV Technologies], Initialize method, ISectionList::Initialize, ISectionListInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], ISectionList interface, Initialize,ISectionList.Initialize, mpeg2data/ISectionList::Initialize, mstv.isectionlist_initialize
+ms.keywords: ISectionList interface [Microsoft TV Technologies],Initialize method, ISectionList.Initialize, ISectionList::Initialize, ISectionListInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],ISectionList interface, mpeg2data/ISectionList::Initialize, mstv.isectionlist_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISectionList::Initialize method
+# ISectionList::Initialize
 
 
 ## -description

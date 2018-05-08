@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumUserStrings
-title: IMetaDataImport::EnumUserStrings method
+title: IMetaDataImport::EnumUserStrings
 author: windows-driver-content
 description: Enumerates String tokens representing hard-coded strings in the current metadata scope.
 old-location: winrt\imetadataimport_enumuserstrings.htm
 old-project: WinRT
 ms.assetid: 646f6e8a-4c78-493c-90e2-2114bce82c46
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumUserStrings method [Windows Runtime], EnumUserStrings method [Windows Runtime], IMetaDataImport interface, EnumUserStrings,IMetaDataImport.EnumUserStrings, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumUserStrings method, IMetaDataImport::EnumUserStrings, rometadataapi/IMetaDataImport::EnumUserStrings, winrt.imetadataimport_enumuserstrings
+ms.date: 5/4/2018
+ms.keywords: EnumUserStrings, EnumUserStrings method [Windows Runtime], EnumUserStrings method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumUserStrings method, IMetaDataImport.EnumUserStrings, IMetaDataImport::EnumUserStrings, rometadataapi/IMetaDataImport::EnumUserStrings, winrt.imetadataimport_enumuserstrings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumUserStrings method
+# IMetaDataImport::EnumUserStrings
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetPolicyServerUrl
-title: IX509EnrollmentPolicyServer::GetPolicyServerUrl method
+title: IX509EnrollmentPolicyServer::GetPolicyServerUrl
 author: windows-driver-content
 description: Retrieves a string value that contains the URL for the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getpolicyserverurl.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 34fb1430-afde-43f2-a425-dcb25c9ea58d
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security], IX509EnrollmentPolicyServer interface, GetPolicyServerUrl,IX509EnrollmentPolicyServer.GetPolicyServerUrl, IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], GetPolicyServerUrl method, IX509EnrollmentPolicyServer::GetPolicyServerUrl, certenroll/IX509EnrollmentPolicyServer::GetPolicyServerUrl, security.ix509enrollmentpolicyserver_getpolicyserverurl
+ms.keywords: GetPolicyServerUrl, GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetPolicyServerUrl method, IX509EnrollmentPolicyServer.GetPolicyServerUrl, IX509EnrollmentPolicyServer::GetPolicyServerUrl, certenroll/IX509EnrollmentPolicyServer::GetPolicyServerUrl, security.ix509enrollmentpolicyserver_getpolicyserverurl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509EnrollmentPolicyServer::GetPolicyServerUrl method
+# IX509EnrollmentPolicyServer::GetPolicyServerUrl
 
 
 ## -description

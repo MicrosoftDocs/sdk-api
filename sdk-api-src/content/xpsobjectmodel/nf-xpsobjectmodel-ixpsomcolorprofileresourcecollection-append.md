@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.Append
-title: IXpsOMColorProfileResourceCollection::Append method
+title: IXpsOMColorProfileResourceCollection::Append
 author: windows-driver-content
 description: Appends an IXpsOMColorProfileResource interface pointer to the end of the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_append.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 6aa00a6d-59f2-41d9-8a11-0810ac336d4b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging], IXpsOMColorProfileResourceCollection interface, Append,IXpsOMColorProfileResourceCollection.Append, IXpsOMColorProfileResourceCollection, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging], Append method, IXpsOMColorProfileResourceCollection::Append, xps.ixpsomcolorprofileresourcecollection_append, xpsobjectmodel/IXpsOMColorProfileResourceCollection::Append
+ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMColorProfileResourceCollection.Append, IXpsOMColorProfileResourceCollection::Append, xps.ixpsomcolorprofileresourcecollection_append, xpsobjectmodel/IXpsOMColorProfileResourceCollection::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMColorProfileResourceCollection::Append method
+# IXpsOMColorProfileResourceCollection::Append
 
 
 ## -description

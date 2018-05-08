@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMRecoveryStart
-title: IComCRMEvents::OnCRMRecoveryStart method
+title: IComCRMEvents::OnCRMRecoveryStart
 author: windows-driver-content
 description: Generated when CRM recovery has started.
 old-location: cos\icomcrmevents_oncrmrecoverystart.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: ac958f4b-1af4-4cfc-8fb4-92e89fdba771
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMRecoveryStart method, IComCRMEvents::OnCRMRecoveryStart, OnCRMRecoveryStart method [COM+], OnCRMRecoveryStart method [COM+], IComCRMEvents interface, OnCRMRecoveryStart,IComCRMEvents.OnCRMRecoveryStart, _dtc_IComCRMEvents_OnCRMRecoveryStart, comsvcs/IComCRMEvents::OnCRMRecoveryStart, cos.icomcrmevents_oncrmrecoverystart
+ms.keywords: IComCRMEvents interface [COM+],OnCRMRecoveryStart method, IComCRMEvents.OnCRMRecoveryStart, IComCRMEvents::OnCRMRecoveryStart, OnCRMRecoveryStart, OnCRMRecoveryStart method [COM+], OnCRMRecoveryStart method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRecoveryStart, comsvcs/IComCRMEvents::OnCRMRecoveryStart, cos.icomcrmevents_oncrmrecoverystart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComCRMEvents::OnCRMRecoveryStart method
+# IComCRMEvents::OnCRMRecoveryStart
 
 
 ## -description

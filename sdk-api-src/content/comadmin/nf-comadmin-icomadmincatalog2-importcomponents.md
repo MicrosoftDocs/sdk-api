@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ImportComponents
-title: ICOMAdminCatalog2::ImportComponents method
+title: ICOMAdminCatalog2::ImportComponents
 author: windows-driver-content
 description: Imports the specified components that are already registered into an application.
 old-location: cos\icomadmincatalog2_importcomponents.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: a7ae28f9-6be6-4774-974a-a5d7f3ebbc02
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], ImportComponents method, ICOMAdminCatalog2::ImportComponents, ImportComponents method [COM+], ImportComponents method [COM+], ICOMAdminCatalog2 interface, ImportComponents,ICOMAdminCatalog2.ImportComponents, _cos_icomadmincatalog2_ImportComponents, comadmin/ICOMAdminCatalog2::ImportComponents, cos.icomadmincatalog2_importcomponents
+ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2 interface [COM+],ImportComponents method, ICOMAdminCatalog2.ImportComponents, ICOMAdminCatalog2::ImportComponents, ImportComponents, ImportComponents method [COM+], ImportComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ImportComponents, comadmin/ICOMAdminCatalog2::ImportComponents, cos.icomadmincatalog2_importcomponents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::ImportComponents method
+# ICOMAdminCatalog2::ImportComponents
 
 
 ## -description

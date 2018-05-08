@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.IEnumACDGroup.Skip
-title: IEnumACDGroup::Skip method
+title: IEnumACDGroup::Skip
 author: windows-driver-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumacdgroup_skip.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 58f794cc-da10-4772-9afe-078337b7734b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IEnumACDGroup, IEnumACDGroup interface [TAPI 2.2], Skip method, IEnumACDGroup::Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2], IEnumACDGroup interface, Skip,IEnumACDGroup.Skip, _tapi3_ienumacdgroup_skip, tapi3.ienumacdgroup_skip, tapi3cc/IEnumACDGroup::Skip
+ms.keywords: IEnumACDGroup interface [TAPI 2.2],Skip method, IEnumACDGroup.Skip, IEnumACDGroup::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_skip, tapi3.ienumacdgroup_skip, tapi3cc/IEnumACDGroup::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumACDGroup::Skip method
+# IEnumACDGroup::Skip
 
 
 ## -description

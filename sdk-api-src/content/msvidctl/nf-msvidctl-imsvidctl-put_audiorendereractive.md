@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_AudioRendererActive
-title: IMSVidCtl::put_AudioRendererActive method
+title: IMSVidCtl::put_AudioRendererActive
 author: windows-driver-content
 description: The put_AudioRendererActive method specifies the active audio renderer.
 old-location: mstv\imsvidctl_put_audiorendereractive.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1f6498ce-fb53-4d57-b6bd-6696ba57de3b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], put_AudioRendererActive method, IMSVidCtl::put_AudioRendererActive, IMSVidCtlput_AudioRendererActive, mstv.imsvidctl_put_audiorendereractive, msvidctl/IMSVidCtl::put_AudioRendererActive, put_AudioRendererActive method [Microsoft TV Technologies], put_AudioRendererActive method [Microsoft TV Technologies], IMSVidCtl interface, put_AudioRendererActive,IMSVidCtl.put_AudioRendererActive
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_AudioRendererActive method, IMSVidCtl.put_AudioRendererActive, IMSVidCtl::put_AudioRendererActive, IMSVidCtlput_AudioRendererActive, mstv.imsvidctl_put_audiorendereractive, msvidctl/IMSVidCtl::put_AudioRendererActive, put_AudioRendererActive, put_AudioRendererActive method [Microsoft TV Technologies], put_AudioRendererActive method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::put_AudioRendererActive method
+# IMSVidCtl::put_AudioRendererActive
 
 
 ## -description

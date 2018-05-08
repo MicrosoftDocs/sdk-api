@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.BeginCommit
-title: ICrmCompensator::BeginCommit method
+title: ICrmCompensator::BeginCommit
 author: windows-driver-content
 description: Notifies the CRM Compensator of the commit phase of the transaction completion and that records are about to be delivered.
 old-location: cos\icrmcompensator_begincommit.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 350f91f9-b019-4c70-9c3e-0d567479d3d0
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: BeginCommit method [COM+], BeginCommit method [COM+], ICrmCompensator interface, BeginCommit,ICrmCompensator.BeginCommit, ICrmCompensator, ICrmCompensator interface [COM+], BeginCommit method, ICrmCompensator::BeginCommit, _dtc_ICrmCompensator_BeginCommit, comsvcs/ICrmCompensator::BeginCommit, cos.icrmcompensator_begincommit
+ms.keywords: BeginCommit, BeginCommit method [COM+], BeginCommit method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],BeginCommit method, ICrmCompensator.BeginCommit, ICrmCompensator::BeginCommit, _dtc_ICrmCompensator_BeginCommit, comsvcs/ICrmCompensator::BeginCommit, cos.icrmcompensator_begincommit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmCompensator::BeginCommit method
+# ICrmCompensator::BeginCommit
 
 
 ## -description

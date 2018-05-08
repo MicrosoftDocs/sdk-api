@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.ComparePublisher
-title: IAppxManifestPackageId::ComparePublisher method
+title: IAppxManifestPackageId::ComparePublisher
 author: windows-driver-content
 description: Compares the specified publisher with the publisher defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_comparepublisher.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 8AC811D0-D5C5-47DF-92FD-C66BC018B668
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ComparePublisher method [App packaging and management], ComparePublisher method [App packaging and management], IAppxManifestPackageId interface, ComparePublisher,IAppxManifestPackageId.ComparePublisher, IAppxManifestPackageId, IAppxManifestPackageId interface [App packaging and management], ComparePublisher method, IAppxManifestPackageId::ComparePublisher, appxpackaging/IAppxManifestPackageId::ComparePublisher, appxpkg.iappxmanifestpackageid_comparepublisher
+ms.keywords: ComparePublisher, ComparePublisher method [App packaging and management], ComparePublisher method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],ComparePublisher method, IAppxManifestPackageId.ComparePublisher, IAppxManifestPackageId::ComparePublisher, appxpackaging/IAppxManifestPackageId::ComparePublisher, appxpkg.iappxmanifestpackageid_comparepublisher
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestPackageId::ComparePublisher method
+# IAppxManifestPackageId::ComparePublisher
 
 
 ## -description

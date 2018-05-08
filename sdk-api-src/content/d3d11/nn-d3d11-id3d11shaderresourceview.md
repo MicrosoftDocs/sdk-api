@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 289555d8-2a6e-454f-86bc-48fb2c8ea345
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 7665f23b-5b1b-14d0-93b2-1c24ed09a978, ID3D11ShaderResourceView, ID3D11ShaderResourceView interface [Direct3D 11], ID3D11ShaderResourceView interface [Direct3D 11], described, d3d11/ID3D11ShaderResourceView, direct3d11.id3d11shaderresourceview
+ms.keywords: 7665f23b-5b1b-14d0-93b2-1c24ed09a978, ID3D11ShaderResourceView, ID3D11ShaderResourceView interface [Direct3D 11], ID3D11ShaderResourceView interface [Direct3D 11],described, d3d11/ID3D11ShaderResourceView, direct3d11.id3d11shaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

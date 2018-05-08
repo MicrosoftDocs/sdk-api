@@ -7,7 +7,7 @@ old-location: dshow\dmoenum.htm
 old-project: DirectShow
 ms.assetid: 2cb69d28-15be-44fb-a180-98b560848c08
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: DMOEnum, DMOEnum function [DirectShow], dmoreg/DMOEnum, dshow.dmoenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

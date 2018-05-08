@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetRetrievalFilterStackSize
-title: ID3D12InfoQueue::GetRetrievalFilterStackSize method
+title: ID3D12InfoQueue::GetRetrievalFilterStackSize
 author: windows-driver-content
 description: Get the size of the retrieval-filter stack in bytes.
 old-location: direct3d12\id3d12infoqueue_getretrievalfilterstacksize.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 50F15152-865F-4B56-AFB8-E994C13CEF69
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetRetrievalFilterStackSize method, GetRetrievalFilterStackSize method, ID3D12InfoQueue interface, GetRetrievalFilterStackSize,ID3D12InfoQueue.GetRetrievalFilterStackSize, ID3D12InfoQueue, ID3D12InfoQueue interface, GetRetrievalFilterStackSize method, ID3D12InfoQueue::GetRetrievalFilterStackSize, d3d12sdklayers/ID3D12InfoQueue::GetRetrievalFilterStackSize, direct3d12.id3d12infoqueue_getretrievalfilterstacksize
+ms.keywords: GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method, GetRetrievalFilterStackSize method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetRetrievalFilterStackSize method, ID3D12InfoQueue.GetRetrievalFilterStackSize, ID3D12InfoQueue::GetRetrievalFilterStackSize, d3d12sdklayers/ID3D12InfoQueue::GetRetrievalFilterStackSize, direct3d12.id3d12infoqueue_getretrievalfilterstacksize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::GetRetrievalFilterStackSize method
+# ID3D12InfoQueue::GetRetrievalFilterStackSize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetDirectedTarget
-title: IVssComponent::GetDirectedTarget method
+title: IVssComponent::GetDirectedTarget
 author: windows-driver-content
 description: The GetDirectedTarget method returns information stored by a writer, at backup time, to the Backup Components Document to indicate that when a file is to be restored, it (the source file) should be remapped.
 old-location: base\ivsscomponent_getdirectedtarget.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: e25760b0-14e2-4f1b-b4ff-e7b78f0b7b12
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetDirectedTarget method [VSS], GetDirectedTarget method [VSS], IVssComponent interface, GetDirectedTarget,IVssComponent.GetDirectedTarget, IVssComponent, IVssComponent interface [VSS], GetDirectedTarget method, IVssComponent::GetDirectedTarget, _win32_ivsscomponent_getdirectedtarget, base.ivsscomponent_getdirectedtarget, vswriter/IVssComponent::GetDirectedTarget
+ms.keywords: GetDirectedTarget, GetDirectedTarget method [VSS], GetDirectedTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDirectedTarget method, IVssComponent.GetDirectedTarget, IVssComponent::GetDirectedTarget, _win32_ivsscomponent_getdirectedtarget, base.ivsscomponent_getdirectedtarget, vswriter/IVssComponent::GetDirectedTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetDirectedTarget method
+# IVssComponent::GetDirectedTarget
 
 
 ## -description

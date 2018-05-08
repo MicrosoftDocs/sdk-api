@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.GetCategory
-title: IFunctionInstance::GetCategory method
+title: IFunctionInstance::GetCategory
 author: windows-driver-content
 description: Gets the category and subcategory strings for the function instance.
 old-location: ncd\ifunctioninstance_getcategory_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: dfb5f144-c9b0-455e-aff9-0c07225a21f6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetCategory method, GetCategory method, IFunctionInstance interface, GetCategory,IFunctionInstance.GetCategory, IFunctionInstance, IFunctionInstance interface, GetCategory method, IFunctionInstance::GetCategory, functiondiscoveryapi/IFunctionInstance::GetCategory, ncd.ifunctioninstance_getcategory_method
+ms.keywords: GetCategory, GetCategory method, GetCategory method,IFunctionInstance interface, IFunctionInstance interface,GetCategory method, IFunctionInstance.GetCategory, IFunctionInstance::GetCategory, functiondiscoveryapi/IFunctionInstance::GetCategory, ncd.ifunctioninstance_getcategory_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionInstance::GetCategory method
+# IFunctionInstance::GetCategory
 
 
 ## -description

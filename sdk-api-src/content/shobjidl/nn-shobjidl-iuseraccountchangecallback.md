@@ -7,8 +7,8 @@ old-location: shell\IUserAccountChangeCallback.htm
 old-project: shell
 ms.assetid: de72aa25-7d0c-445c-aa1b-f0f3bdc07d10
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], IUserAccountChangeCallback interface [Windows Shell], described, _shell_IUserAccountChangeCallback, shell.IUserAccountChangeCallback, shobjidl/IUserAccountChangeCallback
+ms.date: 5/3/2018
+ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], IUserAccountChangeCallback interface [Windows Shell],described, _shell_IUserAccountChangeCallback, shell.IUserAccountChangeCallback, shobjidl/IUserAccountChangeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

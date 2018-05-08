@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetStringType
-title: IUserInputString::GetStringType method
+title: IUserInputString::GetStringType
 author: windows-driver-content
 description: The GetStringType method retrieves a value indicating the type of string to obtain from the user.
 old-location: picacq\iuserinputstring_getstringtype.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 57f0c750-9c66-4c30-adc1-0cfd23d878d1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetStringType method [Picture Acquisition], GetStringType method [Picture Acquisition], IUserInputString interface, GetStringType,IUserInputString.GetStringType, IUserInputString, IUserInputString interface [Picture Acquisition], GetStringType method, IUserInputString::GetStringType, IUserInputStringGetStringType, photoacquire/IUserInputString::GetStringType, picacq.iuserinputstring_getstringtype
+ms.keywords: GetStringType, GetStringType method [Picture Acquisition], GetStringType method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetStringType method, IUserInputString.GetStringType, IUserInputString::GetStringType, IUserInputStringGetStringType, photoacquire/IUserInputString::GetStringType, picacq.iuserinputstring_getstringtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUserInputString::GetStringType method
+# IUserInputString::GetStringType
 
 
 ## -description

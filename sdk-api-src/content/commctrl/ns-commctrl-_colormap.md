@@ -7,7 +7,7 @@ old-location: controls\COLORMAP.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\colormap.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: "*LPCOLORMAP, COLORMAP, COLORMAP structure [Windows Controls], LPCOLORMAP, LPCOLORMAP structure pointer [Windows Controls], _COLORMAP, _win32_COLORMAP, _win32_COLORMAP_cpp, commctrl/COLORMAP, commctrl/LPCOLORMAP, controls.COLORMAP, controls._win32_COLORMAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

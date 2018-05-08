@@ -7,7 +7,7 @@ old-location: winsock\blob_2.htm
 old-project: WinSock
 ms.assetid: eb1ff7d1-79db-478f-9f3e-48507d333c76
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPBLOB, BLOB, BLOB structure [Winsock], _BLOB, _win32_blob_2, tagBLOB, winsock.blob_2, wtypesbase/BLOB"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,6 +63,16 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ### -field cbSize
 
 Size of the block of data pointed to by <b>pBlobData</b>, in bytes.
+
+
+### -field pBlobData.size_is
+
+ 
+
+
+### -field pBlobData.size_is.cbSize
+
+ 
 
 
 ### -field pBlobData

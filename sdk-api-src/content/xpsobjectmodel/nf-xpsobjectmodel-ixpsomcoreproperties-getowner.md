@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetOwner
-title: IXpsOMCoreProperties::GetOwner method
+title: IXpsOMCoreProperties::GetOwner
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMPackage interface that contains the core properties.
 old-location: xps\ixpsomcoreproperties_getowner.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e3b2b9a7-7498-48a1-9d1f-eb954dc5576c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetOwner,IXpsOMCoreProperties.GetOwner, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetOwner method, IXpsOMCoreProperties::GetOwner, xps.ixpsomcoreproperties_getowner, xpsobjectmodel/IXpsOMCoreProperties::GetOwner
+ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetOwner method, IXpsOMCoreProperties.GetOwner, IXpsOMCoreProperties::GetOwner, xps.ixpsomcoreproperties_getowner, xpsobjectmodel/IXpsOMCoreProperties::GetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetOwner method
+# IXpsOMCoreProperties::GetOwner
 
 
 ## -description

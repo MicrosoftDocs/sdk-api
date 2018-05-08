@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeUnitListFilterInfo.Initialize
-title: IChangeUnitListFilterInfo::Initialize method
+title: IChangeUnitListFilterInfo::Initialize
 author: windows-driver-content
 description: Initializes a new instance of the IChangeUnitListFilterInfo class that contains the specified array of change unit IDs.
 old-location: winsync\ichangeunitlistfilterinfo_initialize.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: ee3f86dc-8f5a-4b9b-ac06-b836898392ba
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IChangeUnitListFilterInfo, IChangeUnitListFilterInfo interface [Windows Sync], Initialize method, IChangeUnitListFilterInfo::Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync], IChangeUnitListFilterInfo interface, Initialize,IChangeUnitListFilterInfo.Initialize, winsync.ichangeunitlistfilterinfo_initialize, winsync/IChangeUnitListFilterInfo::Initialize
+ms.keywords: IChangeUnitListFilterInfo interface [Windows Sync],Initialize method, IChangeUnitListFilterInfo.Initialize, IChangeUnitListFilterInfo::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IChangeUnitListFilterInfo interface, winsync.ichangeunitlistfilterinfo_initialize, winsync/IChangeUnitListFilterInfo::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IChangeUnitListFilterInfo::Initialize method
+# IChangeUnitListFilterInfo::Initialize
 
 
 ## -description

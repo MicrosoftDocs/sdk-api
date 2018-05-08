@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings2.put_DisallowStartOnRemoteAppSession
-title: ITaskSettings2::put_DisallowStartOnRemoteAppSession method
+title: ITaskSettings2::put_DisallowStartOnRemoteAppSession
 author: windows-driver-content
 description: Gets or sets a Boolean value that specifies that the task will not be started if triggered to run in a Remote Applications Integrated Locally (RAIL) session.
 old-location: taskschd\itasksettings2_disallowstartonremoteappsession.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: a951d824-89a9-4483-a912-5c4cbf1755e1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DisallowStartOnRemoteAppSession property [Task Scheduler], DisallowStartOnRemoteAppSession property [Task Scheduler], ITaskSettings2 interface, ITaskSettings2, ITaskSettings2 interface [Task Scheduler], DisallowStartOnRemoteAppSession property, ITaskSettings2.DisallowStartOnRemoteAppSession, ITaskSettings2::get_DisallowStartOnRemoteAppSession, ITaskSettings2::put_DisallowStartOnRemoteAppSession, put_DisallowStartOnRemoteAppSession,ITaskSettings2.put_DisallowStartOnRemoteAppSession, taskschd.itasksettings2_disallowstartonremoteappsession, taskschd/ITaskSettings2::DisallowStartOnRemoteAppSession, taskschd/ITaskSettings2::get_DisallowStartOnRemoteAppSession, taskschd/ITaskSettings2::put_DisallowStartOnRemoteAppSession
+ms.keywords: DisallowStartOnRemoteAppSession property [Task Scheduler], DisallowStartOnRemoteAppSession property [Task Scheduler],ITaskSettings2 interface, ITaskSettings2 interface [Task Scheduler],DisallowStartOnRemoteAppSession property, ITaskSettings2.DisallowStartOnRemoteAppSession, ITaskSettings2.put_DisallowStartOnRemoteAppSession, ITaskSettings2::DisallowStartOnRemoteAppSession, ITaskSettings2::get_DisallowStartOnRemoteAppSession, ITaskSettings2::put_DisallowStartOnRemoteAppSession, put_DisallowStartOnRemoteAppSession, taskschd.itasksettings2_disallowstartonremoteappsession, taskschd/ITaskSettings2::DisallowStartOnRemoteAppSession, taskschd/ITaskSettings2::get_DisallowStartOnRemoteAppSession, taskschd/ITaskSettings2::put_DisallowStartOnRemoteAppSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskSettings2::put_DisallowStartOnRemoteAppSession method
+# ITaskSettings2::put_DisallowStartOnRemoteAppSession
 
 
 ## -description

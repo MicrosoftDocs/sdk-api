@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrConflict.Reset
-title: IEnumSyncMgrConflict::Reset method
+title: IEnumSyncMgrConflict::Reset
 author: windows-driver-content
 description: Resets the current position in the enumeration to zero.
 old-location: shell\IEnumSyncMgrConflict_Reset.htm
 old-project: shell
 ms.assetid: 58dece75-8fc3-42ae-89c8-407ebeaa7efb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumSyncMgrConflict, IEnumSyncMgrConflict interface [Windows Shell], Reset method, IEnumSyncMgrConflict::Reset, Reset method [Windows Shell], Reset method [Windows Shell], IEnumSyncMgrConflict interface, Reset,IEnumSyncMgrConflict.Reset, _shell_IEnumSyncMgrConflict_Reset, shell.IEnumSyncMgrConflict_Reset, syncmgr/IEnumSyncMgrConflict::Reset
+ms.date: 5/3/2018
+ms.keywords: IEnumSyncMgrConflict interface [Windows Shell],Reset method, IEnumSyncMgrConflict.Reset, IEnumSyncMgrConflict::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrConflict interface, _shell_IEnumSyncMgrConflict_Reset, shell.IEnumSyncMgrConflict_Reset, syncmgr/IEnumSyncMgrConflict::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumSyncMgrConflict::Reset method
+# IEnumSyncMgrConflict::Reset
 
 
 ## -description

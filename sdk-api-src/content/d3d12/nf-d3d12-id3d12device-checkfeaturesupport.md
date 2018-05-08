@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CheckFeatureSupport
-title: ID3D12Device::CheckFeatureSupport method
+title: ID3D12Device::CheckFeatureSupport
 author: windows-driver-content
 description: Gets information about the features that are supported by the current graphics driver.
 old-location: direct3d12\id3d12device_checkfeaturesupport.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 2E986E37-30C7-45FE-BC8B-A6DD5670938F
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CheckFeatureSupport method, CheckFeatureSupport method, ID3D12Device interface, CheckFeatureSupport,ID3D12Device.CheckFeatureSupport, ID3D12Device, ID3D12Device interface, CheckFeatureSupport method, ID3D12Device::CheckFeatureSupport, d3d12/ID3D12Device::CheckFeatureSupport, direct3d12.id3d12device_checkfeaturesupport
+ms.keywords: CheckFeatureSupport, CheckFeatureSupport method, CheckFeatureSupport method,ID3D12Device interface, ID3D12Device interface,CheckFeatureSupport method, ID3D12Device.CheckFeatureSupport, ID3D12Device::CheckFeatureSupport, d3d12/ID3D12Device::CheckFeatureSupport, direct3d12.id3d12device_checkfeaturesupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CheckFeatureSupport method
+# ID3D12Device::CheckFeatureSupport
 
 
 ## -description

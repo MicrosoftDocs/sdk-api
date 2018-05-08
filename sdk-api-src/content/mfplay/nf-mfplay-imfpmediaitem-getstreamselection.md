@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetStreamSelection
-title: IMFPMediaItem::GetStreamSelection method
+title: IMFPMediaItem::GetStreamSelection
 author: windows-driver-content
 description: Queries whether a stream is selected to play.
 old-location: mf\imfpmediaitem_getstreamselection.htm
 old-project: medfound
 ms.assetid: 808de13b-123f-4b9c-b2e6-6c0a6f4339fc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: FALSE, GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation], IMFPMediaItem interface, GetStreamSelection,IMFPMediaItem.GetStreamSelection, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], GetStreamSelection method, IMFPMediaItem::GetStreamSelection, TRUE, mf.imfpmediaitem_getstreamselection, mfplay/IMFPMediaItem::GetStreamSelection
+ms.date: 5/3/2018
+ms.keywords: FALSE, GetStreamSelection, GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamSelection method, IMFPMediaItem.GetStreamSelection, IMFPMediaItem::GetStreamSelection, TRUE, mf.imfpmediaitem_getstreamselection, mfplay/IMFPMediaItem::GetStreamSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaItem::GetStreamSelection method
+# IMFPMediaItem::GetStreamSelection
 
 
 ## -description

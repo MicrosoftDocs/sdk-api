@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.RemoveAt
-title: IXpsOMSignatureBlockResourceCollection::RemoveAt method
+title: IXpsOMSignatureBlockResourceCollection::RemoveAt
 author: windows-driver-content
 description: Removes and releases an IXpsOMSignatureBlockResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 5f33e46a-0926-4802-8581-eca5f1cdea65
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMSignatureBlockResourceCollection, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging], RemoveAt method, IXpsOMSignatureBlockResourceCollection::RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging], IXpsOMSignatureBlockResourceCollection interface, RemoveAt,IXpsOMSignatureBlockResourceCollection.RemoveAt, xps.ixpsomsignatureblockresourcecollection_removeat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::RemoveAt
+ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMSignatureBlockResourceCollection.RemoveAt, IXpsOMSignatureBlockResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_removeat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMSignatureBlockResourceCollection::RemoveAt method
+# IXpsOMSignatureBlockResourceCollection::RemoveAt
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetChannelVolumeLevelScalar
-title: IAudioEndpointVolume::GetChannelVolumeLevelScalar method
+title: IAudioEndpointVolume::GetChannelVolumeLevelScalar
 author: windows-driver-content
 description: The GetChannelVolumeLevelScalar method gets the normalized, audio-tapered volume level of the specified channel of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getchannelvolumelevelscalar.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: e33d0010-9ea4-4375-9f23-81309f800988
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetChannelVolumeLevelScalar method [Core Audio], GetChannelVolumeLevelScalar method [Core Audio], IAudioEndpointVolume interface, GetChannelVolumeLevelScalar,IAudioEndpointVolume.GetChannelVolumeLevelScalar, IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], GetChannelVolumeLevelScalar method, IAudioEndpointVolume::GetChannelVolumeLevelScalar, IAudioEndpointVolumeGetChannelVolumeLevelScalar, coreaudio.iaudioendpointvolume_getchannelvolumelevelscalar, endpointvolume/IAudioEndpointVolume::GetChannelVolumeLevelScalar
+ms.keywords: GetChannelVolumeLevelScalar, GetChannelVolumeLevelScalar method [Core Audio], GetChannelVolumeLevelScalar method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetChannelVolumeLevelScalar method, IAudioEndpointVolume.GetChannelVolumeLevelScalar, IAudioEndpointVolume::GetChannelVolumeLevelScalar, IAudioEndpointVolumeGetChannelVolumeLevelScalar, coreaudio.iaudioendpointvolume_getchannelvolumelevelscalar, endpointvolume/IAudioEndpointVolume::GetChannelVolumeLevelScalar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAudioEndpointVolume::GetChannelVolumeLevelScalar method
+# IAudioEndpointVolume::GetChannelVolumeLevelScalar
 
 
 ## -description

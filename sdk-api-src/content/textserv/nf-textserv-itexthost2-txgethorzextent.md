@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetHorzExtent
-title: ITextHost2::TxGetHorzExtent method
+title: ITextHost2::TxGetHorzExtent
 author: windows-driver-content
 description: Gets the horizontal scroll extent of the text host window.
 old-location: controls\itexthost2_txgethorzextent.htm
 old-project: Controls
 ms.assetid: 86D53FEF-DB50-41F6-AC99-106FC01BCD61
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], TxGetHorzExtent method, ITextHost2::TxGetHorzExtent, TxGetHorzExtent method [Windows Controls], TxGetHorzExtent method [Windows Controls], ITextHost2 interface, TxGetHorzExtent,ITextHost2.TxGetHorzExtent, controls.itexthost2_txgethorzextent, textserv/ITextHost2::TxGetHorzExtent
+ms.date: 4/27/2018
+ms.keywords: ITextHost2 interface [Windows Controls],TxGetHorzExtent method, ITextHost2.TxGetHorzExtent, ITextHost2::TxGetHorzExtent, TxGetHorzExtent, TxGetHorzExtent method [Windows Controls], TxGetHorzExtent method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgethorzextent, textserv/ITextHost2::TxGetHorzExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost2::TxGetHorzExtent method
+# ITextHost2::TxGetHorzExtent
 
 
 ## -description

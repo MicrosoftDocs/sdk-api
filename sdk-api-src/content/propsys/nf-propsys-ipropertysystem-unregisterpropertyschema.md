@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertySystem.UnregisterPropertySchema
-title: IPropertySystem::UnregisterPropertySchema method
+title: IPropertySystem::UnregisterPropertySchema
 author: windows-driver-content
 description: Informs the schema subsystem of the removal of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local machine.
 old-location: properties\IPropertySystem_UnregisterPropertySchema.htm
 old-project: properties
 ms.assetid: de81e174-9c32-455f-a7ba-a3d1b2223b84
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: IPropertySystem, IPropertySystem interface [Windows Properties], UnregisterPropertySchema method, IPropertySystem::UnregisterPropertySchema, UnregisterPropertySchema method [Windows Properties], UnregisterPropertySchema method [Windows Properties], IPropertySystem interface, UnregisterPropertySchema,IPropertySystem.UnregisterPropertySchema, properties.IPropertySystem_UnregisterPropertySchema, propsys/IPropertySystem::UnregisterPropertySchema, shell.IPropertySystem_UnregisterPropertySchema, shell_IPropertySystem_UnregisterPropertySchema
+ms.date: 4/27/2018
+ms.keywords: IPropertySystem interface [Windows Properties],UnregisterPropertySchema method, IPropertySystem.UnregisterPropertySchema, IPropertySystem::UnregisterPropertySchema, UnregisterPropertySchema, UnregisterPropertySchema method [Windows Properties], UnregisterPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_UnregisterPropertySchema, propsys/IPropertySystem::UnregisterPropertySchema, shell.IPropertySystem_UnregisterPropertySchema, shell_IPropertySystem_UnregisterPropertySchema
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertySystem::UnregisterPropertySchema method
+# IPropertySystem::UnregisterPropertySchema
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.get_Bcc
-title: IEmailAction::get_Bcc method
+title: IEmailAction::get_Bcc
 author: windows-driver-content
 description: Gets or sets the email address or addresses that you want to Bcc in the email message.
 old-location: taskschd\iemailaction_bcc.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 7f0a4da7-d2de-433a-ab0d-79b9741aae59
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Bcc property [Task Scheduler], Bcc property [Task Scheduler], IEmailAction interface, IEmailAction, IEmailAction interface [Task Scheduler], Bcc property, IEmailAction.Bcc, IEmailAction::get_Bcc, IEmailAction::put_Bcc, get_Bcc,IEmailAction.get_Bcc, taskschd.iemailaction_bcc, taskschd/IEmailAction::Bcc, taskschd/IEmailAction::get_Bcc, taskschd/IEmailAction::put_Bcc
+ms.keywords: Bcc property [Task Scheduler], Bcc property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Bcc property, IEmailAction.Bcc, IEmailAction.get_Bcc, IEmailAction::Bcc, IEmailAction::get_Bcc, IEmailAction::put_Bcc, get_Bcc, taskschd.iemailaction_bcc, taskschd/IEmailAction::Bcc, taskschd/IEmailAction::get_Bcc, taskschd/IEmailAction::put_Bcc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEmailAction::get_Bcc method
+# IEmailAction::get_Bcc
 
 
 ## -description

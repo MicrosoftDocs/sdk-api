@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetKeywords
-title: IXpsOMCoreProperties::SetKeywords method
+title: IXpsOMCoreProperties::SetKeywords
 author: windows-driver-content
 description: Sets the keywords property.
 old-location: xps\ixpsomcoreproperties_setkeywords.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d96a85d2-dfbf-4589-9c3f-7505715ec6ce
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], SetKeywords method, IXpsOMCoreProperties::SetKeywords, SetKeywords method [XPS Documents and Packaging], SetKeywords method [XPS Documents and Packaging], IXpsOMCoreProperties interface, SetKeywords,IXpsOMCoreProperties.SetKeywords, xps.ixpsomcoreproperties_setkeywords, xpsobjectmodel/IXpsOMCoreProperties::SetKeywords
+ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetKeywords method, IXpsOMCoreProperties.SetKeywords, IXpsOMCoreProperties::SetKeywords, SetKeywords, SetKeywords method [XPS Documents and Packaging], SetKeywords method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setkeywords, xpsobjectmodel/IXpsOMCoreProperties::SetKeywords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::SetKeywords method
+# IXpsOMCoreProperties::SetKeywords
 
 
 ## -description

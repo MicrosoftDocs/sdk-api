@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetReceiveStreamSamples
-title: IWMReaderAdvanced::SetReceiveStreamSamples method
+title: IWMReaderAdvanced::SetReceiveStreamSamples
 author: windows-driver-content
 description: The SetReceiveStreamSamples method specifies whether stream samples are delivered to the IWMReaderCallbackAdvanced::OnStreamSample callback.
 old-location: wmformat\iwmreaderadvanced_setreceivestreamsamples.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3fb39726-7f43-41ec-9ead-38456b5cd964
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], SetReceiveStreamSamples method, IWMReaderAdvanced::SetReceiveStreamSamples, IWMReaderAdvancedSetReceiveStreamSamples, SetReceiveStreamSamples method [windows Media Format], SetReceiveStreamSamples method [windows Media Format], IWMReaderAdvanced interface, SetReceiveStreamSamples,IWMReaderAdvanced.SetReceiveStreamSamples, wmformat.iwmreaderadvanced_setreceivestreamsamples, wmsdkidl/IWMReaderAdvanced::SetReceiveStreamSamples
+ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetReceiveStreamSamples method, IWMReaderAdvanced.SetReceiveStreamSamples, IWMReaderAdvanced::SetReceiveStreamSamples, IWMReaderAdvancedSetReceiveStreamSamples, SetReceiveStreamSamples, SetReceiveStreamSamples method [windows Media Format], SetReceiveStreamSamples method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setreceivestreamsamples, wmsdkidl/IWMReaderAdvanced::SetReceiveStreamSamples
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced::SetReceiveStreamSamples method
+# IWMReaderAdvanced::SetReceiveStreamSamples
 
 
 ## -description

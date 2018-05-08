@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderConfigUIInfos.Next
-title: IEnumSyncProviderConfigUIInfos::Next method
+title: IEnumSyncProviderConfigUIInfos::Next
 author: windows-driver-content
 description: Returns the next ISyncProviderConfigUIInfo object.
 old-location: winsync\ienumsyncproviderconfiguiinfos_next.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 46564ed2-233d-409c-a996-dd3d9cfde907
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumSyncProviderConfigUIInfos, IEnumSyncProviderConfigUIInfos interface [Windows Sync], Next method, IEnumSyncProviderConfigUIInfos::Next, Next method [Windows Sync], Next method [Windows Sync], IEnumSyncProviderConfigUIInfos interface, Next,IEnumSyncProviderConfigUIInfos.Next, syncregistration/IEnumSyncProviderConfigUIInfos::Next, winsync.ienumsyncproviderconfiguiinfos_next
+ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Next method, IEnumSyncProviderConfigUIInfos.Next, IEnumSyncProviderConfigUIInfos::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Next, winsync.ienumsyncproviderconfiguiinfos_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumSyncProviderConfigUIInfos::Next method
+# IEnumSyncProviderConfigUIInfos::Next
 
 
 ## -description

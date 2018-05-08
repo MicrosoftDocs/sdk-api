@@ -1,14 +1,14 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.EditInternalPort
-title: IStaticPortMapping::EditInternalPort method
+title: IStaticPortMapping::EditInternalPort
 author: windows-driver-content
 description: The EditInternalPort method sets the internal port for this port mapping.
 old-location: ics\istaticportmapping_editinternalport.htm
 old-project: ICS
 ms.assetid: 8a43d828-327a-42be-8b8e-f3d669727fd7
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: EditInternalPort method [ICS/ICF], EditInternalPort method [ICS/ICF], IStaticPortMapping interface, EditInternalPort,IStaticPortMapping.EditInternalPort, IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], EditInternalPort method, IStaticPortMapping::EditInternalPort, _ics_istaticportmapping_editinternalport, ics.istaticportmapping_editinternalport, natupnp/IStaticPortMapping::EditInternalPort
+ms.date: 5/1/2018
+ms.keywords: EditInternalPort, EditInternalPort method [ICS/ICF], EditInternalPort method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditInternalPort method, IStaticPortMapping.EditInternalPort, IStaticPortMapping::EditInternalPort, _ics_istaticportmapping_editinternalport, ics.istaticportmapping_editinternalport, natupnp/IStaticPortMapping::EditInternalPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStaticPortMapping::EditInternalPort method
+# IStaticPortMapping::EditInternalPort
 
 
 ## -description

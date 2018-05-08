@@ -79,6 +79,16 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">
  The IP version.
 
 
+### -field v4UdpEncapsulation
+
+Type: <b><a href="https://msdn.microsoft.com/69cddec0-7311-4833-8b24-293ad714054e">IPSEC_V4_UDP_ENCAPSULATION0</a>*</b>
+
+Stores the UDP ports corresponding to the 
+   Main Mode, if a NAT is detected.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>. 
+
+
 ### -field ikeTraffic
 
 Type: <b><a href="https://msdn.microsoft.com/99cb3774-7afd-44fd-9c3e-e2d913aaeecb">IKEEXT_TRAFFIC0</a></b>
@@ -127,16 +137,6 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">
 
 Key derived from authentications to allow external applications to cryptographically bind
    their exchanges with this SA.
-
-
-#### - v4UdpEncapsulation
-
-Type: <b><a href="https://msdn.microsoft.com/69cddec0-7311-4833-8b24-293ad714054e">IPSEC_V4_UDP_ENCAPSULATION0</a>*</b>
-
-Stores the UDP ports corresponding to the 
-   Main Mode, if a NAT is detected.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>. 
 
 
 ## -see-also

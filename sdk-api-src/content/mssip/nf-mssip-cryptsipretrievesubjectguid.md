@@ -7,7 +7,7 @@ old-location: security\cryptsipretrievesubjectguid.htm
 old-project: SecCrypto
 ms.assetid: b81472bc-6d9c-4634-a378-e39786a0ca09
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CryptSIPRetrieveSubjectGuid, CryptSIPRetrieveSubjectGuid function [Security], mssip/CryptSIPRetrieveSubjectGuid, security.cryptsipretrievesubjectguid
 ms.prod: windows-hardware
 ms.technology: windows-devices

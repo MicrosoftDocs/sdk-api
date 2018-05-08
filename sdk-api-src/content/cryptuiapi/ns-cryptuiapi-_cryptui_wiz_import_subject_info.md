@@ -7,7 +7,7 @@ old-location: security\cryptui_wiz_import_src_info.htm
 old-project: SecCrypto
 ms.assetid: 17d932e3-05ea-4ed0-9f88-fbb674b6b070
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPTUI_WIZ_IMPORT_SRC_INFO, CRYPTUI_WIZ_IMPORT_SRC_INFO, CRYPTUI_WIZ_IMPORT_SRC_INFO structure [Security], CRYPTUI_WIZ_IMPORT_SUBJECT_CERT_CONTEXT, CRYPTUI_WIZ_IMPORT_SUBJECT_CERT_STORE, CRYPTUI_WIZ_IMPORT_SUBJECT_CRL_CONTEXT, CRYPTUI_WIZ_IMPORT_SUBJECT_CTL_CONTEXT, CRYPTUI_WIZ_IMPORT_SUBJECT_FILE, CRYPT_EXPORTABLE, CRYPT_MACHINE_KEYSET, CRYPT_USER_KEYSET, CRYPT_USER_PROTECTED, PCCRYPTUI_WIZ_IMPORT_SRC_INFO, PCCRYPTUI_WIZ_IMPORT_SRC_INFO structure pointer [Security], _CRYPTUI_WIZ_IMPORT_SUBJECT_INFO, cryptuiapi/CRYPTUI_WIZ_IMPORT_SRC_INFO, cryptuiapi/PCCRYPTUI_WIZ_IMPORT_SRC_INFO, security.cryptui_wiz_import_src_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,6 +127,31 @@ Import the certificate store referenced in the <b>hCertStore</b> member.
  
 
 
+### -field pwszFileName
+
+A pointer to a null-terminated Unicode string that contains the path and file name of the file that contains the certificate to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_FILE</b>.
+
+
+### -field pCertContext
+
+A pointer to the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that contains the certificate to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CERT_CONTEXT</b>.
+
+
+### -field pCTLContext
+
+A pointer to the <a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> structure that contains the CTL to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CTL_CONTEXT</b>.
+
+
+### -field pCRLContext
+
+A pointer to the <a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a> structure that contains the CRL to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CRL_CONTEXT</b>.
+
+
+### -field hCertStore
+
+A handle to the certificate store to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CERT_STORE</b>.
+
+
 ### -field dwFlags
 
 Contains flags that modify the import operation. This member is required if <b>pwszFileName</b> contains a Personal Information Exchange (PFX) <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>.  Otherwise, this member is ignored. This member can be zero or a combination of one or more of the following values.
@@ -188,31 +213,6 @@ The private keys are stored under the current user and not under the local compu
 ### -field pwszPassword
 
 Pointer to a null-terminated Unicode string that contains the password used to access the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>.  A password is required if <b>pwszFileName</b> contains a PFX BLOB.  If a password is not required, the variable can be an empty string. This member cannot be <b>NULL</b>.
-
-
-#### - hCertStore
-
-A handle to the certificate store to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CERT_STORE</b>.
-
-
-#### - pCRLContext
-
-A pointer to the <a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a> structure that contains the CRL to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CRL_CONTEXT</b>.
-
-
-#### - pCTLContext
-
-A pointer to the <a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> structure that contains the CTL to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CTL_CONTEXT</b>.
-
-
-#### - pCertContext
-
-A pointer to the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that contains the certificate to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CERT_CONTEXT</b>.
-
-
-#### - pwszFileName
-
-A pointer to a null-terminated Unicode string that contains the path and file name of the file that contains the certificate to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_FILE</b>.
 
 
 ## -see-also

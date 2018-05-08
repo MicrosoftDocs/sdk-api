@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectType.GetMemberSemantic
-title: ID3D10EffectType::GetMemberSemantic method
+title: ID3D10EffectType::GetMemberSemantic
 author: windows-driver-content
 description: Get the semantic attached to a member.
 old-location: direct3d10\id3d10effecttype_getmembersemantic.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype_getmembersemantic.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 8384b4a1-a5bd-59ab-0b4d-d909f359d489, GetMemberSemantic method [Direct3D 10], GetMemberSemantic method [Direct3D 10], ID3D10EffectType interface, GetMemberSemantic,ID3D10EffectType.GetMemberSemantic, ID3D10EffectType, ID3D10EffectType interface [Direct3D 10], GetMemberSemantic method, ID3D10EffectType::GetMemberSemantic, d3d10effect/ID3D10EffectType::GetMemberSemantic, direct3d10.id3d10effecttype_getmembersemantic
+ms.keywords: 8384b4a1-a5bd-59ab-0b4d-d909f359d489, GetMemberSemantic, GetMemberSemantic method [Direct3D 10], GetMemberSemantic method [Direct3D 10],ID3D10EffectType interface, ID3D10EffectType interface [Direct3D 10],GetMemberSemantic method, ID3D10EffectType.GetMemberSemantic, ID3D10EffectType::GetMemberSemantic, d3d10effect/ID3D10EffectType::GetMemberSemantic, direct3d10.id3d10effecttype_getmembersemantic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectType::GetMemberSemantic method
+# ID3D10EffectType::GetMemberSemantic
 
 
 ## -description

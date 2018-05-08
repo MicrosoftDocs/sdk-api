@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.Compact
-title: IDirectDraw7::Compact method
+title: IDirectDraw7::Compact
 author: windows-driver-content
 description: This method is not currently implemented.
 old-location: directdraw\idirectdraw7_compact.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: ae417266-5c75-4f7f-b892-f99e5e25e5f4
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: Compact method [DirectDraw], Compact method [DirectDraw], IDirectDraw7 interface, Compact,IDirectDraw7.Compact, IDirectDraw7, IDirectDraw7 interface [DirectDraw], Compact method, IDirectDraw7::Compact, ddraw/IDirectDraw7::Compact, directdraw.idirectdraw7_compact
+ms.keywords: Compact, Compact method [DirectDraw], Compact method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],Compact method, IDirectDraw7.Compact, IDirectDraw7::Compact, ddraw/IDirectDraw7::Compact, directdraw.idirectdraw7_compact
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDraw7::Compact method
+# IDirectDraw7::Compact
 
 
 ## -description

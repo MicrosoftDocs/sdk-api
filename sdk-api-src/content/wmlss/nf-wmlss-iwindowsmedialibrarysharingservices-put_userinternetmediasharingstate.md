@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_userInternetMediaSharingState
-title: IWindowsMediaLibrarySharingServices::put_userInternetMediaSharingState method
+title: IWindowsMediaLibrarySharingServices::put_userInternetMediaSharingState
 author: windows-driver-content
 description: The put_userInternetMediaSharingState method enables or disables sharing of the current user's media library on the Internet.
 old-location: wmlss\IWMLSSput_userInternetMediaSharingState.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: 3d5ff0eb-02e3-4e03-b606-dcc3a1ec6aaf
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], put_userInternetMediaSharingState method, IWindowsMediaLibrarySharingServices::put_userInternetMediaSharingState, put_userInternetMediaSharingState method [Windows Media Library Sharing Services], put_userInternetMediaSharingState method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, put_userInternetMediaSharingState,IWindowsMediaLibrarySharingServices.put_userInternetMediaSharingState, wmlss.IWMLSSput_userInternetMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::put_userInternetMediaSharingState
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_userInternetMediaSharingState method, IWindowsMediaLibrarySharingServices.put_userInternetMediaSharingState, IWindowsMediaLibrarySharingServices::put_userInternetMediaSharingState, put_userInternetMediaSharingState, put_userInternetMediaSharingState method [Windows Media Library Sharing Services], put_userInternetMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_userInternetMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::put_userInternetMediaSharingState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::put_userInternetMediaSharingState method
+# IWindowsMediaLibrarySharingServices::put_userInternetMediaSharingState
 
 
 ## -description

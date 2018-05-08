@@ -1,0 +1,5 @@
+# [Windows Web Services](../_wsw/index.md)
+## [Icontentprefetchertasktrigger.h](index.md)
+### [IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch](../icontentprefetchertasktrigger/nf-icontentprefetchertasktrigger-icontentprefetchertasktrigger-isregisteredforcontentprefetch.md)
+### [IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask](../icontentprefetchertasktrigger/nf-icontentprefetchertasktrigger-icontentprefetchertasktrigger-triggercontentprefetchertask.md)
+### [IContentPrefetcherTaskTrigger interface](../icontentprefetchertasktrigger/nn-icontentprefetchertasktrigger-icontentprefetchertasktrigger.md)

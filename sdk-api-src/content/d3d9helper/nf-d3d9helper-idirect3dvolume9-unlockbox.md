@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DVolume9.UnlockBox
-title: IDirect3DVolume9::UnlockBox method
+title: IDirect3DVolume9::UnlockBox
 author: windows-driver-content
 description: Unlocks a box on a volume resource.
 old-location: direct3d9\idirect3dvolume9__unlockbox.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__unlockbox.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 69485f47-b13d-cd47-c467-bbbd1e9f6113, IDirect3DVolume9, IDirect3DVolume9 interface [Direct3D 9], UnlockBox method, IDirect3DVolume9::UnlockBox, UnlockBox method [Direct3D 9], UnlockBox method [Direct3D 9], IDirect3DVolume9 interface, UnlockBox,IDirect3DVolume9.UnlockBox, d3d9helper/IDirect3DVolume9::UnlockBox, direct3d9.idirect3dvolume9__unlockbox
+ms.keywords: 69485f47-b13d-cd47-c467-bbbd1e9f6113, IDirect3DVolume9 interface [Direct3D 9],UnlockBox method, IDirect3DVolume9.UnlockBox, IDirect3DVolume9::UnlockBox, UnlockBox, UnlockBox method [Direct3D 9], UnlockBox method [Direct3D 9],IDirect3DVolume9 interface, d3d9helper/IDirect3DVolume9::UnlockBox, direct3d9.idirect3dvolume9__unlockbox
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DVolume9::UnlockBox method
+# IDirect3DVolume9::UnlockBox
 
 
 ## -description

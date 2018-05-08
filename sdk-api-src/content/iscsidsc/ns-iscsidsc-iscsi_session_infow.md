@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: ISCSI_SESSION_INFOW (Unicode) and ISCSI_SESSION_INFOA (ANSI)
 req.idl: 
 req.max-support: 
-req.namespace: Root\WMI
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.typenames: ISCSI_SESSION_INFOW, *PISCSI_SESSION_INFOW

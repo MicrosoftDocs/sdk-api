@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.GetInPlaceSite
-title: IOleDocumentView::GetInPlaceSite method
+title: IOleDocumentView::GetInPlaceSite
 author: windows-driver-content
 description: Retrieves the view site associated with this view object.
 old-location: com\ioledocumentview_getinplacesite.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d48cd54c-11b3-4acd-a13a-75a612f1761a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetInPlaceSite method [COM], GetInPlaceSite method [COM], IOleDocumentView interface, GetInPlaceSite,IOleDocumentView.GetInPlaceSite, IOleDocumentView, IOleDocumentView interface [COM], GetInPlaceSite method, IOleDocumentView::GetInPlaceSite, _ole_ioledocumentview_getinplacesite, com.ioledocumentview_getinplacesite, docobj/IOleDocumentView::GetInPlaceSite
+ms.keywords: GetInPlaceSite, GetInPlaceSite method [COM], GetInPlaceSite method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetInPlaceSite method, IOleDocumentView.GetInPlaceSite, IOleDocumentView::GetInPlaceSite, _ole_ioledocumentview_getinplacesite, com.ioledocumentview_getinplacesite, docobj/IOleDocumentView::GetInPlaceSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IOleDocumentView::GetInPlaceSite method
+# IOleDocumentView::GetInPlaceSite
 
 
 ## -description

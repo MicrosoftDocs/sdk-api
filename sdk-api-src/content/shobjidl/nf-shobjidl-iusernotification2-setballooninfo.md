@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IUserNotification2.SetBalloonInfo
-title: IUserNotification2::SetBalloonInfo method
+title: IUserNotification2::SetBalloonInfo
 author: windows-driver-content
 description: Sets the information to be displayed in a balloon notification.
 old-location: shell\IUserNotification2_SetBalloonInfo.htm
 old-project: shell
 ms.assetid: 3615F243-1F1B-4b9f-9083-B1EF3B5048DD
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IUserNotification2, IUserNotification2 interface [Windows Shell], SetBalloonInfo method, IUserNotification2::SetBalloonInfo, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, SetBalloonInfo method [Windows Shell], SetBalloonInfo method [Windows Shell], IUserNotification2 interface, SetBalloonInfo,IUserNotification2.SetBalloonInfo, _shell_IUserNotification2_SetBalloonInfo, shell.IUserNotification2_SetBalloonInfo, shobjidl/IUserNotification2::SetBalloonInfo
+ms.date: 5/3/2018
+ms.keywords: IUserNotification2 interface [Windows Shell],SetBalloonInfo method, IUserNotification2.SetBalloonInfo, IUserNotification2::SetBalloonInfo, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, SetBalloonInfo, SetBalloonInfo method [Windows Shell], SetBalloonInfo method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_SetBalloonInfo, shell.IUserNotification2_SetBalloonInfo, shobjidl/IUserNotification2::SetBalloonInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IUserNotification2::SetBalloonInfo method
+# IUserNotification2::SetBalloonInfo
 
 
 ## -description

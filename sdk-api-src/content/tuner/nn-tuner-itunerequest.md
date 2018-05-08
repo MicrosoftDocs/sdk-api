@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 34077b45-32b4-466b-b103-6a42fc869265
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuneRequest, ITuneRequest interface [Microsoft TV Technologies], ITuneRequest interface [Microsoft TV Technologies], described, ITuneRequestInterface, mstv.itunerequest, tuner/ITuneRequest
+ms.keywords: ITuneRequest, ITuneRequest interface [Microsoft TV Technologies], ITuneRequest interface [Microsoft TV Technologies],described, ITuneRequestInterface, mstv.itunerequest, tuner/ITuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Skip
-title: IEnumPIDMap::Skip method
+title: IEnumPIDMap::Skip
 author: windows-driver-content
 description: The Skip method skips the specified number of elements in the collection.
 old-location: dshow\ienumpidmap_skip.htm
 old-project: DirectShow
 ms.assetid: e611e5a0-beb1-4a31-974a-29b2b8349a17
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumPIDMap, IEnumPIDMap interface [DirectShow], Skip method, IEnumPIDMap::Skip, IEnumPIDMapSkip, Skip method [DirectShow], Skip method [DirectShow], IEnumPIDMap interface, Skip,IEnumPIDMap.Skip, bdaiface/IEnumPIDMap::Skip, dshow.ienumpidmap_skip
+ms.date: 4/30/2018
+ms.keywords: IEnumPIDMap interface [DirectShow],Skip method, IEnumPIDMap.Skip, IEnumPIDMap::Skip, IEnumPIDMapSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumPIDMap interface, bdaiface/IEnumPIDMap::Skip, dshow.ienumpidmap_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumPIDMap::Skip method
+# IEnumPIDMap::Skip
 
 
 ## -description

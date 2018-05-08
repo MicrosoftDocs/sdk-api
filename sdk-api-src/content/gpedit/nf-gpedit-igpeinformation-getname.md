@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetName
-title: IGPEInformation::GetName method
+title: IGPEInformation::GetName
 author: windows-driver-content
 description: The GetName method retrieves the unique name for the GPO. This value is usually a GUID.
 old-location: policy\igpeinformation_getname.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: 94112a6e-cd8a-4fb7-9c37-86a1b7713ddb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetName method [Group Policy], GetName method [Group Policy], IGPEInformation interface, GetName,IGPEInformation.GetName, IGPEInformation, IGPEInformation interface [Group Policy], GetName method, IGPEInformation::GetName, _win32_igpeinformation_getname, gpedit/IGPEInformation::GetName, policy.igpeinformation_getname
+ms.keywords: GetName, GetName method [Group Policy], GetName method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetName method, IGPEInformation.GetName, IGPEInformation::GetName, _win32_igpeinformation_getname, gpedit/IGPEInformation::GetName, policy.igpeinformation_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPEInformation::GetName method
+# IGPEInformation::GetName
 
 
 ## -description

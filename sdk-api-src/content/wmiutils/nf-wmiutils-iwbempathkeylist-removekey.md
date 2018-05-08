@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.RemoveKey
-title: IWbemPathKeyList::RemoveKey method
+title: IWbemPathKeyList::RemoveKey
 author: windows-driver-content
 description: The IWbemPathKeyList::RemoveKey method removes the key that matches the wszName parameter.
 old-location: wmi\iwbempathkeylist_removekey.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 07166023-2945-49d5-9d2d-8cac12053ed9
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], RemoveKey method, IWbemPathKeyList::RemoveKey, RemoveKey method [Windows Management Instrumentation], RemoveKey method [Windows Management Instrumentation], IWbemPathKeyList interface, RemoveKey,IWbemPathKeyList.RemoveKey, _hmm_iwbempathkeylist_removekey, wmi.iwbempathkeylist_removekey, wmiutils/IWbemPathKeyList::RemoveKey
+ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],RemoveKey method, IWbemPathKeyList.RemoveKey, IWbemPathKeyList::RemoveKey, RemoveKey, RemoveKey method [Windows Management Instrumentation], RemoveKey method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_removekey, wmi.iwbempathkeylist_removekey, wmiutils/IWbemPathKeyList::RemoveKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPathKeyList::RemoveKey method
+# IWbemPathKeyList::RemoveKey
 
 
 ## -description

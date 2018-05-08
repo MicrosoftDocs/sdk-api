@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleFactory.CreateBundleWriter
-title: IAppxBundleFactory::CreateBundleWriter method
+title: IAppxBundleFactory::CreateBundleWriter
 author: windows-driver-content
 description: Creates a write-only bundle object to which app packages can be added.
 old-location: appxpkg\iappxbundlefactory_createbundlewriter.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: E77392FB-69A1-41B0-8B44-F05F126214E0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateBundleWriter method [App packaging and management], CreateBundleWriter method [App packaging and management], IAppxBundleFactory interface, CreateBundleWriter,IAppxBundleFactory.CreateBundleWriter, IAppxBundleFactory, IAppxBundleFactory interface [App packaging and management], CreateBundleWriter method, IAppxBundleFactory::CreateBundleWriter, appxpackaging/IAppxBundleFactory::CreateBundleWriter, appxpkg.iappxbundlefactory_createbundlewriter
+ms.keywords: CreateBundleWriter, CreateBundleWriter method [App packaging and management], CreateBundleWriter method [App packaging and management],IAppxBundleFactory interface, IAppxBundleFactory interface [App packaging and management],CreateBundleWriter method, IAppxBundleFactory.CreateBundleWriter, IAppxBundleFactory::CreateBundleWriter, appxpackaging/IAppxBundleFactory::CreateBundleWriter, appxpkg.iappxbundlefactory_createbundlewriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleFactory::CreateBundleWriter method
+# IAppxBundleFactory::CreateBundleWriter
 
 
 ## -description

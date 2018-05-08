@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetTableDescriptorByIndex
-title: IPMT::GetTableDescriptorByIndex method
+title: IPMT::GetTableDescriptorByIndex
 author: windows-driver-content
 description: The GetTableDescriptorByIndex method retrieves a table-wide descriptor for the PMT.
 old-location: mstv\ipmt_gettabledescriptorbyindex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 31442c1f-0921-49b8-ab38-d75ccc2c4f0e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies], IPMT interface, GetTableDescriptorByIndex,IPMT.GetTableDescriptorByIndex, IPMT, IPMT interface [Microsoft TV Technologies], GetTableDescriptorByIndex method, IPMT::GetTableDescriptorByIndex, IPMTGetTableDescriptorByIndex, mpeg2psiparser/IPMT::GetTableDescriptorByIndex, mstv.ipmt_gettabledescriptorbyindex
+ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IPMT.GetTableDescriptorByIndex, IPMT::GetTableDescriptorByIndex, IPMTGetTableDescriptorByIndex, mpeg2psiparser/IPMT::GetTableDescriptorByIndex, mstv.ipmt_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IPMT::GetTableDescriptorByIndex method
+# IPMT::GetTableDescriptorByIndex
 
 
 ## -description

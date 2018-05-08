@@ -7,7 +7,7 @@ old-location: rpc\cstdasyncstubbuffer_connect.htm
 old-project: Rpc
 ms.assetid: A181B325-7947-4E44-AA00-DE14DB569DB0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: CStdAsyncStubBuffer_Connect, CStdAsyncStubBuffer_Connect function [RPC], rpc.cstdasyncstubbuffer_connect, rpcproxy/CStdAsyncStubBuffer_Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

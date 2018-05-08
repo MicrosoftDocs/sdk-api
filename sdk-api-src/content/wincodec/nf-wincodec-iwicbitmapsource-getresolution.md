@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.GetResolution
-title: IWICBitmapSource::GetResolution method
+title: IWICBitmapSource::GetResolution
 author: windows-driver-content
 description: Retrieves the sampling rate between pixels and physical world measurements.
 old-location: wic\_wic_codec_iwicbitmapsource_getresolution.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 49241ed1-1036-4f88-9116-4727de883b3e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetResolution method [Windows Imaging Component], GetResolution method [Windows Imaging Component], IWICBitmapSource interface, GetResolution,IWICBitmapSource.GetResolution, IWICBitmapSource, IWICBitmapSource interface [Windows Imaging Component], GetResolution method, IWICBitmapSource::GetResolution, _wic_codec_iwicbitmapsource_getresolution, wic._wic_codec_iwicbitmapsource_getresolution, wincodec/IWICBitmapSource::GetResolution
+ms.keywords: GetResolution, GetResolution method [Windows Imaging Component], GetResolution method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],GetResolution method, IWICBitmapSource.GetResolution, IWICBitmapSource::GetResolution, _wic_codec_iwicbitmapsource_getresolution, wic._wic_codec_iwicbitmapsource_getresolution, wincodec/IWICBitmapSource::GetResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapSource::GetResolution method
+# IWICBitmapSource::GetResolution
 
 
 ## -description

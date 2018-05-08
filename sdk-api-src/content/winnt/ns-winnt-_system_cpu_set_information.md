@@ -118,6 +118,11 @@ A group-relative value indicating which NUMA node a CPU Set is on. All CPU Sets 
  
 
 
+### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.AllFlags
+
+ 
+
+
 ### -field DUMMYUNIONNAME.CpuSet.DUMMYUNIONNAME2.DUMMYSTRUCTNAME
 
  
@@ -148,6 +153,16 @@ A group-relative value indicating which NUMA node a CPU Set is on. All CPU Sets 
  
 
 
+### -field DUMMYUNIONNAME.CpuSet.Reserved
+
+Reserved.
+
+
+### -field DUMMYUNIONNAME.CpuSet.SchedulingClass
+
+ 
+
+
 ### -field DUMMYUNIONNAME.CpuSet.AllocationTag
 
 Specifies a tag used by Core Allocation to communicate a given allocated CPU Set between threads in different components.
@@ -171,11 +186,6 @@ If set, the home processor of this CPU Set is parked. If the CPU Set is on a par
 ##### - CpuSet.RealTime : 1
 
 This is set of the CPU Set is on a processor that is suitable for low-latency realtime processing.  The system takes steps to ensure that RealTime CPU Sets are unlikely to be running non-preemptible code, by moving other work like Interrupts and other application threads off of those processors.
-
-
-##### - CpuSet.Reserved
-
-Reserved.
 
 
 ##### - CpuSet.ReservedFlags : 4

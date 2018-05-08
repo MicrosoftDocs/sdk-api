@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoPresenter.ProcessMessage
-title: IMFVideoPresenter::ProcessMessage method
+title: IMFVideoPresenter::ProcessMessage
 author: windows-driver-content
 description: Sends a message to the video presenter. Messages are used to signal the presenter that it must perform some action, or that some event has occurred.
 old-location: mf\imfvideopresenter_processmessage.htm
 old-project: medfound
 ms.assetid: f7113cb3-2ea9-4d4f-b6c7-ef4e1025cc6d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoPresenter, IMFVideoPresenter interface [Media Foundation], ProcessMessage method, IMFVideoPresenter::ProcessMessage, ProcessMessage method [Media Foundation], ProcessMessage method [Media Foundation], IMFVideoPresenter interface, ProcessMessage,IMFVideoPresenter.ProcessMessage, evr/IMFVideoPresenter::ProcessMessage, f7113cb3-2ea9-4d4f-b6c7-ef4e1025cc6d, mf.imfvideopresenter_processmessage
+ms.date: 5/3/2018
+ms.keywords: IMFVideoPresenter interface [Media Foundation],ProcessMessage method, IMFVideoPresenter.ProcessMessage, IMFVideoPresenter::ProcessMessage, ProcessMessage, ProcessMessage method [Media Foundation], ProcessMessage method [Media Foundation],IMFVideoPresenter interface, evr/IMFVideoPresenter::ProcessMessage, f7113cb3-2ea9-4d4f-b6c7-ef4e1025cc6d, mf.imfvideopresenter_processmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoPresenter::ProcessMessage method
+# IMFVideoPresenter::ProcessMessage
 
 
 ## -description

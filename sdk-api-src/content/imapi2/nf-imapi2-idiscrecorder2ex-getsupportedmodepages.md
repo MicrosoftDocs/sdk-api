@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetSupportedModePages
-title: IDiscRecorder2Ex::GetSupportedModePages method
+title: IDiscRecorder2Ex::GetSupportedModePages
 author: windows-driver-content
 description: Retrieves the supported mode pages for the device.
 old-location: imapi\idiscrecorder2ex_getsupportedmodepages.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 343d976e-97f3-4231-a417-4ebe7967f99c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSupportedModePages method [IMAPI], GetSupportedModePages method [IMAPI], IDiscRecorder2Ex interface, GetSupportedModePages,IDiscRecorder2Ex.GetSupportedModePages, IDiscRecorder2Ex, IDiscRecorder2Ex interface [IMAPI], GetSupportedModePages method, IDiscRecorder2Ex::GetSupportedModePages, imapi.idiscrecorder2ex_getsupportedmodepages, imapi2/IDiscRecorder2Ex::GetSupportedModePages
+ms.keywords: GetSupportedModePages, GetSupportedModePages method [IMAPI], GetSupportedModePages method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedModePages method, IDiscRecorder2Ex.GetSupportedModePages, IDiscRecorder2Ex::GetSupportedModePages, imapi.idiscrecorder2ex_getsupportedmodepages, imapi2/IDiscRecorder2Ex::GetSupportedModePages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2Ex::GetSupportedModePages method
+# IDiscRecorder2Ex::GetSupportedModePages
 
 
 ## -description

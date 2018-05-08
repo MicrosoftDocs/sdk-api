@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.GetEntity
-title: ISchemaProvider::GetEntity method
+title: ISchemaProvider::GetEntity
 author: windows-driver-content
 description: Retrieves an entity by name from the loaded schema.
 old-location: search\_search_ISchemaProvider_GetEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\getentity.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetEntity method [search], GetEntity method [search], ISchemaProvider interface, GetEntity,ISchemaProvider.GetEntity, ISchemaProvider, ISchemaProvider interface [search], GetEntity method, ISchemaProvider::GetEntity, _search_ISchemaProvider_GetEntity, search._search_ISchemaProvider_GetEntity, structuredquery/ISchemaProvider::GetEntity
+ms.date: 5/4/2018
+ms.keywords: GetEntity, GetEntity method [search], GetEntity method [search],ISchemaProvider interface, ISchemaProvider interface [search],GetEntity method, ISchemaProvider.GetEntity, ISchemaProvider::GetEntity, _search_ISchemaProvider_GetEntity, search._search_ISchemaProvider_GetEntity, structuredquery/ISchemaProvider::GetEntity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISchemaProvider::GetEntity method
+# ISchemaProvider::GetEntity
 
 
 ## -description

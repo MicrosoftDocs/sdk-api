@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.FrameworkLogoffDLL
-title: CWbemProviderGlue::FrameworkLogoffDLL method
+title: CWbemProviderGlue::FrameworkLogoffDLL
 author: windows-driver-content
 description: The FrameworkLogoffDLL method is called by DllCanUnloadNow to determine whether the provider server is not in use and can be unloaded.
 old-location: wmi\cwbemproviderglue_frameworklogoffdll.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 5157d823-d3a1-46d2-8ae8-07e904001a14
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], FrameworkLogoffDLL method, CWbemProviderGlue::FrameworkLogoffDLL, FrameworkLogoffDLL method [Windows Management Instrumentation], FrameworkLogoffDLL method [Windows Management Instrumentation], CWbemProviderGlue interface, FrameworkLogoffDLL,CWbemProviderGlue.FrameworkLogoffDLL, _hmm_cwbemproviderglue_frameworklogoffdll, wbemglue/CWbemProviderGlue::FrameworkLogoffDLL, wmi.cwbemproviderglue_frameworklogoffdll"
+ms.keywords: "?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],FrameworkLogoffDLL method, CWbemProviderGlue.FrameworkLogoffDLL, CWbemProviderGlue::FrameworkLogoffDLL, FrameworkLogoffDLL, FrameworkLogoffDLL method [Windows Management Instrumentation], FrameworkLogoffDLL method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_frameworklogoffdll, wbemglue/CWbemProviderGlue::FrameworkLogoffDLL, wmi.cwbemproviderglue_frameworklogoffdll"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# CWbemProviderGlue::FrameworkLogoffDLL method
+# CWbemProviderGlue::FrameworkLogoffDLL
 
 
 ## -description

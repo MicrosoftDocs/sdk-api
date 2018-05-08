@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceConnect
-title: IWMPEvents2::DeviceConnect method
+title: IWMPEvents2::DeviceConnect
 author: windows-driver-content
 description: The DeviceConnect event occurs when the user connects a device to the computer.
 old-location: wmp\iwmpevents2_iwmpevents2__deviceconnect.htm
 old-project: WMP
 ms.assetid: ed726579-e0cb-4007-98eb-b6df4b636b12
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: DeviceConnect method [Windows Media Player], DeviceConnect method [Windows Media Player], IWMPEvents2 interface, DeviceConnect,IWMPEvents2.DeviceConnect, IWMPEvents2, IWMPEvents2 interface [Windows Media Player], DeviceConnect method, IWMPEvents2::DeviceConnect, IWMPEvents2DeviceConnect, wmp.iwmpevents2_iwmpevents2__deviceconnect, wmp/IWMPEvents2::DeviceConnect
+ms.date: 5/4/2018
+ms.keywords: DeviceConnect, DeviceConnect method [Windows Media Player], DeviceConnect method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceConnect method, IWMPEvents2.DeviceConnect, IWMPEvents2::DeviceConnect, IWMPEvents2DeviceConnect, wmp.iwmpevents2_iwmpevents2__deviceconnect, wmp/IWMPEvents2::DeviceConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents2::DeviceConnect method
+# IWMPEvents2::DeviceConnect
 
 
 ## -description

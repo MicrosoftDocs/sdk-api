@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccClientDocMgr.GetFocused
-title: IAccClientDocMgr::GetFocused method
+title: IAccClientDocMgr::GetFocused
 author: windows-driver-content
 description: Clients call the IAccClientDocMgr::GetFocused method to access a pointer for the document that has focus.
 old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__getfocused.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 102a511b-43ad-48c1-8953-647482fa452b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetFocused method [Windows Accessibility], GetFocused method [Windows Accessibility], IAccClientDocMgr interface, GetFocused,IAccClientDocMgr.GetFocused, IAccClientDocMgr, IAccClientDocMgr interface [Windows Accessibility], GetFocused method, IAccClientDocMgr::GetFocused, _msaa_IAccClientDocMgr_GetFocused, msaa.iaccclientdocmgr_iaccclientdocmgr__getfocused, msaatext/IAccClientDocMgr::GetFocused, winauto.iaccclientdocmgr_iaccclientdocmgr__getfocused
+ms.keywords: GetFocused, GetFocused method [Windows Accessibility], GetFocused method [Windows Accessibility],IAccClientDocMgr interface, IAccClientDocMgr interface [Windows Accessibility],GetFocused method, IAccClientDocMgr.GetFocused, IAccClientDocMgr::GetFocused, _msaa_IAccClientDocMgr_GetFocused, msaa.iaccclientdocmgr_iaccclientdocmgr__getfocused, msaatext/IAccClientDocMgr::GetFocused, winauto.iaccclientdocmgr_iaccclientdocmgr__getfocused
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAccClientDocMgr::GetFocused method
+# IAccClientDocMgr::GetFocused
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 9EE1BD9E-2D58-4720-841C-39865375BFE0
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFELanguage, IFELanguage interface [Internationalization for Windows Applications], IFELanguage interface [Internationalization for Windows Applications], described, intl.ifelanguage, msime/IFELanguage
+ms.keywords: IFELanguage, IFELanguage interface [Internationalization for Windows Applications], IFELanguage interface [Internationalization for Windows Applications],described, intl.ifelanguage, msime/IFELanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

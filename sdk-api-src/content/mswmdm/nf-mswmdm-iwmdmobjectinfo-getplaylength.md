@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMObjectInfo.GetPlayLength
-title: IWMDMObjectInfo::GetPlayLength method
+title: IWMDMObjectInfo::GetPlayLength
 author: windows-driver-content
 description: The GetPlayLength method retrieves the play length of the object in units appropriate to the format. This is the remaining length that the file can play, not its total length.
 old-location: wmdm\iwmdmobjectinfo_getplaylength.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 7f553513-0928-41b8-858f-c06ec57660d1
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetPlayLength method [windows Media Device Manager], GetPlayLength method [windows Media Device Manager], IWMDMObjectInfo interface, GetPlayLength,IWMDMObjectInfo.GetPlayLength, IWMDMObjectInfo, IWMDMObjectInfo interface [windows Media Device Manager], GetPlayLength method, IWMDMObjectInfo::GetPlayLength, IWMDMObjectInfoGetPlayLength, mswmdm/IWMDMObjectInfo::GetPlayLength, wmdm.iwmdmobjectinfo_getplaylength
+ms.keywords: GetPlayLength, GetPlayLength method [windows Media Device Manager], GetPlayLength method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetPlayLength method, IWMDMObjectInfo.GetPlayLength, IWMDMObjectInfo::GetPlayLength, IWMDMObjectInfoGetPlayLength, mswmdm/IWMDMObjectInfo::GetPlayLength, wmdm.iwmdmobjectinfo_getplaylength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMObjectInfo::GetPlayLength method
+# IWMDMObjectInfo::GetPlayLength
 
 
 ## -description

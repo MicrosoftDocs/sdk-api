@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetRawDataFormat
-title: IShellImageData::GetRawDataFormat method
+title: IShellImageData::GetRawDataFormat
 author: windows-driver-content
 description: Retrieves a GUID that identifies the format of the image.
 old-location: shell\IShellImageData_GetRawDataFormat.htm
 old-project: shell
 ms.assetid: c09c6833-501d-4f27-9d59-3ca9aed9d0d1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetRawDataFormat method [Windows Shell], GetRawDataFormat method [Windows Shell], IShellImageData interface, GetRawDataFormat,IShellImageData.GetRawDataFormat, IShellImageData, IShellImageData interface [Windows Shell], GetRawDataFormat method, IShellImageData::GetRawDataFormat, _shell_IShellImageData_GetRawDataFormat, shell.IShellImageData_GetRawDataFormat, shimgdata/IShellImageData::GetRawDataFormat
+ms.date: 5/3/2018
+ms.keywords: GetRawDataFormat, GetRawDataFormat method [Windows Shell], GetRawDataFormat method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetRawDataFormat method, IShellImageData.GetRawDataFormat, IShellImageData::GetRawDataFormat, _shell_IShellImageData_GetRawDataFormat, shell.IShellImageData_GetRawDataFormat, shimgdata/IShellImageData::GetRawDataFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::GetRawDataFormat method
+# IShellImageData::GetRawDataFormat
 
 
 ## -description

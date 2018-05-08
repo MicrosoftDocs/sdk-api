@@ -7,8 +7,8 @@ old-location: mf\iwmcolorconvpropsinterface.htm
 old-project: medfound
 ms.assetid: c4a6b7c1-edc0-4030-ac47-895580ad294d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMColorConvProps, IWMColorConvProps interface [Media Foundation], IWMColorConvProps interface [Media Foundation], described, codecapi.iwmcolorconvpropsinterface, mf.iwmcolorconvprops, mf.iwmcolorconvpropsinterface, wmcodecdsp/IWMColorConvProps
+ms.date: 5/3/2018
+ms.keywords: IWMColorConvProps, IWMColorConvProps interface [Media Foundation], IWMColorConvProps interface [Media Foundation],described, codecapi.iwmcolorconvpropsinterface, mf.iwmcolorconvprops, mf.iwmcolorconvpropsinterface, wmcodecdsp/IWMColorConvProps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

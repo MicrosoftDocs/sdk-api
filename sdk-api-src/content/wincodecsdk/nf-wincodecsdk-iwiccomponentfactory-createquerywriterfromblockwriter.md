@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateQueryWriterFromBlockWriter
-title: IWICComponentFactory::CreateQueryWriterFromBlockWriter method
+title: IWICComponentFactory::CreateQueryWriterFromBlockWriter
 author: windows-driver-content
 description: Creates a IWICMetadataQueryWriter from the given IWICMetadataBlockWriter.
 old-location: wic\_wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 1ad15754-c180-43e0-a307-6ff84f7eebd6
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateQueryWriterFromBlockWriter method [Windows Imaging Component], CreateQueryWriterFromBlockWriter method [Windows Imaging Component], IWICComponentFactory interface, CreateQueryWriterFromBlockWriter,IWICComponentFactory.CreateQueryWriterFromBlockWriter, IWICComponentFactory, IWICComponentFactory interface [Windows Imaging Component], CreateQueryWriterFromBlockWriter method, IWICComponentFactory::CreateQueryWriterFromBlockWriter, _wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter, wic._wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter, wincodecsdk/IWICComponentFactory::CreateQueryWriterFromBlockWriter
+ms.keywords: CreateQueryWriterFromBlockWriter, CreateQueryWriterFromBlockWriter method [Windows Imaging Component], CreateQueryWriterFromBlockWriter method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateQueryWriterFromBlockWriter method, IWICComponentFactory.CreateQueryWriterFromBlockWriter, IWICComponentFactory::CreateQueryWriterFromBlockWriter, _wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter, wic._wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter, wincodecsdk/IWICComponentFactory::CreateQueryWriterFromBlockWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICComponentFactory::CreateQueryWriterFromBlockWriter method
+# IWICComponentFactory::CreateQueryWriterFromBlockWriter
 
 
 ## -description

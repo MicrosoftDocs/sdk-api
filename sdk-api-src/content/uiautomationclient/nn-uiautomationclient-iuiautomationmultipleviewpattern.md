@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 4a1613b9-1e64-4d4e-876e-e2bf886097d4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationMultipleViewPattern, IUIAutomationMultipleViewPattern interface [Windows Accessibility], IUIAutomationMultipleViewPattern interface [Windows Accessibility], described, uiauto.uiauto_IUIAutomationMultipleViewPattern, uiauto_IUIAutomationMultipleViewPattern, uiautomationclient/IUIAutomationMultipleViewPattern, winauto.uiauto_IUIAutomationMultipleViewPattern
+ms.keywords: IUIAutomationMultipleViewPattern, IUIAutomationMultipleViewPattern interface [Windows Accessibility], IUIAutomationMultipleViewPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationMultipleViewPattern, uiauto_IUIAutomationMultipleViewPattern, uiautomationclient/IUIAutomationMultipleViewPattern, winauto.uiauto_IUIAutomationMultipleViewPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

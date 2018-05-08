@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkCursors.Item
-title: IInkCursors::Item method
+title: IInkCursors::Item
 author: windows-driver-content
 description: Returns the IInkCursor object at the specified index within the IInkCursors collection.
 old-location: tablet\iinkcursors_item.htm
 old-project: tablet
 ms.assetid: 59174954-4994-4773-acee-a3db363cb8fe
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 59174954-4994-4773-acee-a3db363cb8fe, IInkCursors, IInkCursors interface [Tablet PC], Item method, IInkCursors::Item, Item method [Tablet PC], Item method [Tablet PC], IInkCursors interface, Item,IInkCursors.Item, msinkaut/IInkCursors::Item, tablet.iinkcursors_item
+ms.date: 5/2/2018
+ms.keywords: 59174954-4994-4773-acee-a3db363cb8fe, IInkCursors interface [Tablet PC],Item method, IInkCursors.Item, IInkCursors::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursors interface, msinkaut/IInkCursors::Item, tablet.iinkcursors_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkCursors::Item method
+# IInkCursors::Item
 
 
 ## -description

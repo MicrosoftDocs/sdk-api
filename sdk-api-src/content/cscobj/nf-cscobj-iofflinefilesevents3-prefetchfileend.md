@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents3.PrefetchFileEnd
-title: IOfflineFilesEvents3::PrefetchFileEnd method
+title: IOfflineFilesEvents3::PrefetchFileEnd
 author: windows-driver-content
 description: Reports that a file prefetch operation has ended.
 old-location: of\iofflinefilesevents3_prefetchfileend.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: d5370d39-dd66-49c1-8774-cf335aa88e96
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents3, IOfflineFilesEvents3 interface [Offline Files], PrefetchFileEnd method, IOfflineFilesEvents3::PrefetchFileEnd, PrefetchFileEnd method [Offline Files], PrefetchFileEnd method [Offline Files], IOfflineFilesEvents3 interface, PrefetchFileEnd,IOfflineFilesEvents3.PrefetchFileEnd, cscobj/IOfflineFilesEvents3::PrefetchFileEnd, of.iofflinefilesevents3_prefetchfileend
+ms.keywords: IOfflineFilesEvents3 interface [Offline Files],PrefetchFileEnd method, IOfflineFilesEvents3.PrefetchFileEnd, IOfflineFilesEvents3::PrefetchFileEnd, PrefetchFileEnd, PrefetchFileEnd method [Offline Files], PrefetchFileEnd method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::PrefetchFileEnd, of.iofflinefilesevents3_prefetchfileend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents3::PrefetchFileEnd method
+# IOfflineFilesEvents3::PrefetchFileEnd
 
 
 ## -description

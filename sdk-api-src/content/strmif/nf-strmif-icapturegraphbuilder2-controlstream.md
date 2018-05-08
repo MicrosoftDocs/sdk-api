@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.ControlStream
-title: ICaptureGraphBuilder2::ControlStream method
+title: ICaptureGraphBuilder2::ControlStream
 author: windows-driver-content
 description: The ControlStream method sets the start and stop times for one or more streams of captured data.
 old-location: dshow\icapturegraphbuilder2_controlstream.htm
 old-project: DirectShow
 ms.assetid: f5c91444-6ddb-403c-bff5-33d9ce91fae3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ControlStream method [DirectShow], ControlStream method [DirectShow], ICaptureGraphBuilder2 interface, ControlStream,ICaptureGraphBuilder2.ControlStream, ICaptureGraphBuilder2, ICaptureGraphBuilder2 interface [DirectShow], ControlStream method, ICaptureGraphBuilder2::ControlStream, ICaptureGraphBuilder2ControlStream, dshow.icapturegraphbuilder2_controlstream, strmif/ICaptureGraphBuilder2::ControlStream
+ms.date: 4/30/2018
+ms.keywords: ControlStream, ControlStream method [DirectShow], ControlStream method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],ControlStream method, ICaptureGraphBuilder2.ControlStream, ICaptureGraphBuilder2::ControlStream, ICaptureGraphBuilder2ControlStream, dshow.icapturegraphbuilder2_controlstream, strmif/ICaptureGraphBuilder2::ControlStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ICaptureGraphBuilder2::ControlStream method
+# ICaptureGraphBuilder2::ControlStream
 
 
 ## -description

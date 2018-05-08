@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_ConnectionError
-title: ITsSbClientConnection::get_ConnectionError method
+title: ITsSbClientConnection::get_ConnectionError
 author: windows-driver-content
 description: Retrieves a value that indicates the error that occurred while a client connection was being processed.
 old-location: termserv\itssbclientconnection_connectionerror.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 0aa813c1-1ab5-4020-8180-c04d293efd25
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ConnectionError property [Remote Desktop Services], ConnectionError property [Remote Desktop Services], ITsSbClientConnection interface, ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], ConnectionError property, ITsSbClientConnection.ConnectionError, ITsSbClientConnection::get_ConnectionError, get_ConnectionError,ITsSbClientConnection.get_ConnectionError, sbtsv/ITsSbClientConnection::ConnectionError, sbtsv/ITsSbClientConnection::get_ConnectionError, termserv.itssbclientconnection_connectionerror
+ms.keywords: ConnectionError property [Remote Desktop Services], ConnectionError property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],ConnectionError property, ITsSbClientConnection.ConnectionError, ITsSbClientConnection.get_ConnectionError, ITsSbClientConnection::ConnectionError, ITsSbClientConnection::get_ConnectionError, get_ConnectionError, sbtsv/ITsSbClientConnection::ConnectionError, sbtsv/ITsSbClientConnection::get_ConnectionError, termserv.itssbclientconnection_connectionerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbClientConnection::get_ConnectionError method
+# ITsSbClientConnection::get_ConnectionError
 
 
 ## -description

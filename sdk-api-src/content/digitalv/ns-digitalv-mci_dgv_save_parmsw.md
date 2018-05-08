@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_save_parms.htm
 old-project: Multimedia
 ms.assetid: a647099c-f5f8-4728-99a1-8b5b8c6b67bf
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPMCI_DGV_SAVE_PARMSW, MCI_DGV_SAVE_PARMS, MCI_DGV_SAVE_PARMS structure [Windows Multimedia], MCI_DGV_SAVE_PARMSW, _win32_MCI_DGV_SAVE_PARMS_str, digitalv/MCI_DGV_SAVE_PARMS, multimedia.mci_dgv_save_parms"
 ms.prod: windows-hardware
 ms.technology: windows-devices

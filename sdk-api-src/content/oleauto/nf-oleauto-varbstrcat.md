@@ -7,7 +7,7 @@ old-location: automat\varbstrcat.htm
 old-project: automat
 ms.assetid: e23e1130-dd95-43ec-8ea3-c213fd6b0b25
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarBstrCat, VarBstrCat function [Automation], _oa96_VarBstrCat, automat.varbstrcat, oleauto/VarBstrCat
 ms.prod: windows-hardware
 ms.technology: windows-devices

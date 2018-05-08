@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetChange
-title: ISyncProviderRegistration::GetChange method
+title: ISyncProviderRegistration::GetChange
 author: windows-driver-content
 description: Gets an ISyncRegistrationChange object that represents a new registration event.
 old-location: winsync\isyncproviderregistration_getchange.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 6a65ba8b-b9cb-4d8c-8d18-9627547f9982
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetChange method [Windows Sync], GetChange method [Windows Sync], ISyncProviderRegistration interface, GetChange,ISyncProviderRegistration.GetChange, ISyncProviderRegistration, ISyncProviderRegistration interface [Windows Sync], GetChange method, ISyncProviderRegistration::GetChange, syncregistration/ISyncProviderRegistration::GetChange, winsync.isyncproviderregistration_getchange
+ms.keywords: GetChange, GetChange method [Windows Sync], GetChange method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetChange method, ISyncProviderRegistration.GetChange, ISyncProviderRegistration::GetChange, syncregistration/ISyncProviderRegistration::GetChange, winsync.isyncproviderregistration_getchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderRegistration::GetChange method
+# ISyncProviderRegistration::GetChange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.GetExpiryDate
-title: IESFileExpiryDateEvent::GetExpiryDate method
+title: IESFileExpiryDateEvent::GetExpiryDate
 author: windows-driver-content
 description: Gets the date from a FileExpiryDate event that indicates when a license for protected content expires.
 old-location: mstv\iesfileexpirydateevent_getexpirydate.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1d89c613-002b-4c90-832f-32bc268752a4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetExpiryDate method [Microsoft TV Technologies], GetExpiryDate method [Microsoft TV Technologies], IESFileExpiryDateEvent interface, GetExpiryDate,IESFileExpiryDateEvent.GetExpiryDate, IESFileExpiryDateEvent, IESFileExpiryDateEvent interface [Microsoft TV Technologies], GetExpiryDate method, IESFileExpiryDateEvent::GetExpiryDate, mstv.iesfileexpirydateevent_getexpirydate, tuner/IESFileExpiryDateEvent::GetExpiryDate
+ms.keywords: GetExpiryDate, GetExpiryDate method [Microsoft TV Technologies], GetExpiryDate method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],GetExpiryDate method, IESFileExpiryDateEvent.GetExpiryDate, IESFileExpiryDateEvent::GetExpiryDate, mstv.iesfileexpirydateevent_getexpirydate, tuner/IESFileExpiryDateEvent::GetExpiryDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESFileExpiryDateEvent::GetExpiryDate method
+# IESFileExpiryDateEvent::GetExpiryDate
 
 
 ## -description

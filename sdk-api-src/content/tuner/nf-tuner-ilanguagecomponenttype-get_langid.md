@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILanguageComponentType.get_LangID
-title: ILanguageComponentType::get_LangID method
+title: ILanguageComponentType::get_LangID
 author: windows-driver-content
 description: The get_LangID method retrieves the LCID that identifies the language.
 old-location: mstv\ilanguagecomponenttype_get_langid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f70dcc70-701a-4465-ad40-1ddc5e697f46
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ILanguageComponentType, ILanguageComponentType interface [Microsoft TV Technologies], get_LangID method, ILanguageComponentType::get_LangID, ILanguageComponentTypeget_LangID, get_LangID method [Microsoft TV Technologies], get_LangID method [Microsoft TV Technologies], ILanguageComponentType interface, get_LangID,ILanguageComponentType.get_LangID, mstv.ilanguagecomponenttype_get_langid, tuner/ILanguageComponentType::get_LangID
+ms.keywords: ILanguageComponentType interface [Microsoft TV Technologies],get_LangID method, ILanguageComponentType.get_LangID, ILanguageComponentType::get_LangID, ILanguageComponentTypeget_LangID, get_LangID, get_LangID method [Microsoft TV Technologies], get_LangID method [Microsoft TV Technologies],ILanguageComponentType interface, mstv.ilanguagecomponenttype_get_langid, tuner/ILanguageComponentType::get_LangID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILanguageComponentType::get_LangID method
+# ILanguageComponentType::get_LangID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetTransportStreamId
-title: IISDB_SDTT::GetTransportStreamId method
+title: IISDB_SDTT::GetTransportStreamId
 author: windows-driver-content
 description: Returns the transport stream identifier (TSID) for an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_gettransportstreamid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d73b705f-8409-438e-9f30-3bf2bbf86404
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies], IISDB_SDTT interface, GetTransportStreamId,IISDB_SDTT.GetTransportStreamId, IISDB_SDTT, IISDB_SDTT interface [Microsoft TV Technologies], GetTransportStreamId method, IISDB_SDTT::GetTransportStreamId, dvbsiparser/IISDB_SDTT::GetTransportStreamId, mstv.iisdb_sdtt_gettransportstreamid
+ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetTransportStreamId method, IISDB_SDTT.GetTransportStreamId, IISDB_SDTT::GetTransportStreamId, dvbsiparser/IISDB_SDTT::GetTransportStreamId, mstv.iisdb_sdtt_gettransportstreamid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_SDTT::GetTransportStreamId method
+# IISDB_SDTT::GetTransportStreamId
 
 
 ## -description

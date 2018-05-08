@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnVendorSpecificEvents.OnEventNotification
-title: IMbnVendorSpecificEvents::OnEventNotification method
+title: IMbnVendorSpecificEvents::OnEventNotification
 author: windows-driver-content
 description: Notification method signaling a change event from the underlying Mobile Broadband device miniport driver.
 old-location: mbn\imbnvendorspecificevents_oneventnotification.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: c3d10e9c-b60f-42e8-adaa-2c0ba3c77718
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnVendorSpecificEvents, IMbnVendorSpecificEvents interface [Microsoft Broadband Networks], OnEventNotification method, IMbnVendorSpecificEvents::OnEventNotification, OnEventNotification method [Microsoft Broadband Networks], OnEventNotification method [Microsoft Broadband Networks], IMbnVendorSpecificEvents interface, OnEventNotification,IMbnVendorSpecificEvents.OnEventNotification, mbn.imbnvendorspecificevents_oneventnotification, mbnapi/IMbnVendorSpecificEvents::OnEventNotification
+ms.keywords: IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],OnEventNotification method, IMbnVendorSpecificEvents.OnEventNotification, IMbnVendorSpecificEvents::OnEventNotification, OnEventNotification, OnEventNotification method [Microsoft Broadband Networks], OnEventNotification method [Microsoft Broadband Networks],IMbnVendorSpecificEvents interface, mbn.imbnvendorspecificevents_oneventnotification, mbnapi/IMbnVendorSpecificEvents::OnEventNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnVendorSpecificEvents::OnEventNotification method
+# IMbnVendorSpecificEvents::OnEventNotification
 
 
 ## -description

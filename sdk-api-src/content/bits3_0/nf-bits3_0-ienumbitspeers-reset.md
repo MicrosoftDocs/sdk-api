@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Reset
-title: IEnumBitsPeers::Reset method
+title: IEnumBitsPeers::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbitspeers_reset.htm
 old-project: Bits
 ms.assetid: 87eb8e34-046e-46a5-9d9b-efeb6fa03485
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEnumBitsPeers, IEnumBitsPeers interface [BITS], Reset method, IEnumBitsPeers::Reset, Reset method [BITS], Reset method [BITS], IEnumBitsPeers interface, Reset,IEnumBitsPeers.Reset, bits.ienumbitspeers_reset, bits3_0/IEnumBitsPeers::Reset
+ms.date: 4/27/2018
+ms.keywords: IEnumBitsPeers interface [BITS],Reset method, IEnumBitsPeers.Reset, IEnumBitsPeers::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_reset, bits3_0/IEnumBitsPeers::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumBitsPeers::Reset method
+# IEnumBitsPeers::Reset
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.RegisterAbort
-title: IShellImageData::RegisterAbort method
+title: IShellImageData::RegisterAbort
 author: windows-driver-content
 description: Sets a callback abort object, optionally returning a pointer to the previous object.
 old-location: shell\IShellImageData_RegisterAbort.htm
 old-project: shell
 ms.assetid: 21ea1f3b-3b8a-4a92-a1fb-c19f0e97a407
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], RegisterAbort method, IShellImageData::RegisterAbort, RegisterAbort method [Windows Shell], RegisterAbort method [Windows Shell], IShellImageData interface, RegisterAbort,IShellImageData.RegisterAbort, _shell_IShellImageData_RegisterAbort, shell.IShellImageData_RegisterAbort, shimgdata/IShellImageData::RegisterAbort
+ms.date: 5/3/2018
+ms.keywords: IShellImageData interface [Windows Shell],RegisterAbort method, IShellImageData.RegisterAbort, IShellImageData::RegisterAbort, RegisterAbort, RegisterAbort method [Windows Shell], RegisterAbort method [Windows Shell],IShellImageData interface, _shell_IShellImageData_RegisterAbort, shell.IShellImageData_RegisterAbort, shimgdata/IShellImageData::RegisterAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::RegisterAbort method
+# IShellImageData::RegisterAbort
 
 
 ## -description

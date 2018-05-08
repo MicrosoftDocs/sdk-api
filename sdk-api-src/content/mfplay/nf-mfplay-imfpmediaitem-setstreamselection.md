@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetStreamSelection
-title: IMFPMediaItem::SetStreamSelection method
+title: IMFPMediaItem::SetStreamSelection
 author: windows-driver-content
 description: Selects or deselects a stream.
 old-location: mf\imfpmediaitem_setstreamselection.htm
 old-project: medfound
 ms.assetid: 739190a5-60a7-4b50-9919-f68d2cd6da8d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: FALSE, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], SetStreamSelection method, IMFPMediaItem::SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation], IMFPMediaItem interface, SetStreamSelection,IMFPMediaItem.SetStreamSelection, TRUE, mf.imfpmediaitem_setstreamselection, mfplay/IMFPMediaItem::SetStreamSelection
+ms.date: 5/3/2018
+ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],SetStreamSelection method, IMFPMediaItem.SetStreamSelection, IMFPMediaItem::SetStreamSelection, SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_setstreamselection, mfplay/IMFPMediaItem::SetStreamSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaItem::SetStreamSelection method
+# IMFPMediaItem::SetStreamSelection
 
 
 ## -description

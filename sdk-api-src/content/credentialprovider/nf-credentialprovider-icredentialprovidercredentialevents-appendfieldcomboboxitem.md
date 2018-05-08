@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.AppendFieldComboBoxItem
-title: ICredentialProviderCredentialEvents::AppendFieldComboBoxItem method
+title: ICredentialProviderCredentialEvents::AppendFieldComboBoxItem
 author: windows-driver-content
 description: Communicates to the Logon UI or Credential UI that a combo box needs an item appended and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_AppendFieldComboBoxItem.htm
 old-project: shell
 ms.assetid: 3d434b2c-29be-4301-9271-89688ec8d048
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AppendFieldComboBoxItem method [Windows Shell], AppendFieldComboBoxItem method [Windows Shell], ICredentialProviderCredentialEvents interface, AppendFieldComboBoxItem,ICredentialProviderCredentialEvents.AppendFieldComboBoxItem, ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], AppendFieldComboBoxItem method, ICredentialProviderCredentialEvents::AppendFieldComboBoxItem, _shell_ICredentialProviderCredentialEvents_AppendFieldComboBoxItem, credentialprovider/ICredentialProviderCredentialEvents::AppendFieldComboBoxItem, shell.ICredentialProviderCredentialEvents_AppendFieldComboBoxItem
+ms.date: 5/3/2018
+ms.keywords: AppendFieldComboBoxItem, AppendFieldComboBoxItem method [Windows Shell], AppendFieldComboBoxItem method [Windows Shell],ICredentialProviderCredentialEvents interface, ICredentialProviderCredentialEvents interface [Windows Shell],AppendFieldComboBoxItem method, ICredentialProviderCredentialEvents.AppendFieldComboBoxItem, ICredentialProviderCredentialEvents::AppendFieldComboBoxItem, _shell_ICredentialProviderCredentialEvents_AppendFieldComboBoxItem, credentialprovider/ICredentialProviderCredentialEvents::AppendFieldComboBoxItem, shell.ICredentialProviderCredentialEvents_AppendFieldComboBoxItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProviderCredentialEvents::AppendFieldComboBoxItem method
+# ICredentialProviderCredentialEvents::AppendFieldComboBoxItem
 
 
 ## -description

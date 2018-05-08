@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.GetLocalComputerName
-title: Provider::GetLocalComputerName method
+title: Provider::GetLocalComputerName
 author: windows-driver-content
 description: The GetLocalComputerName method returns a constant reference to the computer name in CHString format.
 old-location: wmi\provider_getlocalcomputername.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 20470353-417d-4067-8df1-c2ec6b330853
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetLocalComputerName method [Windows Management Instrumentation], GetLocalComputerName method [Windows Management Instrumentation], Provider interface, GetLocalComputerName,Provider.GetLocalComputerName, Provider, Provider interface [Windows Management Instrumentation], GetLocalComputerName method, Provider::GetLocalComputerName, _hmm_provider_getlocalcomputername, provider/Provider::GetLocalComputerName, wmi.provider_getlocalcomputername
+ms.keywords: GetLocalComputerName, GetLocalComputerName method [Windows Management Instrumentation], GetLocalComputerName method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetLocalComputerName method, Provider.GetLocalComputerName, Provider::GetLocalComputerName, _hmm_provider_getlocalcomputername, provider/Provider::GetLocalComputerName, wmi.provider_getlocalcomputername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# Provider::GetLocalComputerName method
+# Provider::GetLocalComputerName
 
 
 ## -description

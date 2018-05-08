@@ -1,14 +1,14 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.GetMaxPixelRate
-title: IVPBaseConfig::GetMaxPixelRate method
+title: IVPBaseConfig::GetMaxPixelRate
 author: windows-driver-content
 description: The GetMaxPixelRate method retrieves the maximum pixel rate the device will output for a given width and height.
 old-location: dshow\ivpbaseconfig_getmaxpixelrate.htm
 old-project: DirectShow
 ms.assetid: 9b86ff2c-c51f-4498-a000-5f1868c2c24b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMaxPixelRate method [DirectShow], GetMaxPixelRate method [DirectShow], IVPBaseConfig interface, GetMaxPixelRate,IVPBaseConfig.GetMaxPixelRate, IVPBaseConfig, IVPBaseConfig interface [DirectShow], GetMaxPixelRate method, IVPBaseConfig::GetMaxPixelRate, IVPBaseConfigGetMaxPixelRate, dshow.ivpbaseconfig_getmaxpixelrate, vpconfig/IVPBaseConfig::GetMaxPixelRate
+ms.date: 4/30/2018
+ms.keywords: GetMaxPixelRate, GetMaxPixelRate method [DirectShow], GetMaxPixelRate method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetMaxPixelRate method, IVPBaseConfig.GetMaxPixelRate, IVPBaseConfig::GetMaxPixelRate, IVPBaseConfigGetMaxPixelRate, dshow.ivpbaseconfig_getmaxpixelrate, vpconfig/IVPBaseConfig::GetMaxPixelRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVPBaseConfig::GetMaxPixelRate method
+# IVPBaseConfig::GetMaxPixelRate
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 207d6888-35ff-44d4-aac0-915815b9730d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX, PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX callback function [Failover Cluster], clusapi/PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX, mscs.openclusternetinterfaceex
+ms.keywords: PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX, PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX callback, PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX callback function [Failover Cluster], clusapi/PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX, mscs.openclusternetinterfaceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX callback
+# PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX callback function
 
 
 ## -description

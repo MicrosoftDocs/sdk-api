@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetDoubleArray
-title: IPropertyValue::GetDoubleArray method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of 64-bit floating point values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getdoublearray.htm
 old-project: WinRT
 ms.assetid: 197a3626-e349-4027-913c-e8203dad4fc1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetDoubleArray method [Windows Runtime], GetDoubleArray method [Windows Runtime], IPropertyValue interface, GetDoubleArray,IPropertyValue.GetDoubleArray, IPropertyValue, IPropertyValue interface [Windows Runtime], GetDoubleArray method, IPropertyValue::GetDoubleArray, windows/IPropertyValue::GetDoubleArray, winrt.ipropertyvalue_getdoublearray
+ms.date: 5/4/2018
+ms.keywords: GetDoubleArray, GetDoubleArray method [Windows Runtime], GetDoubleArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDoubleArray method, IPropertyValue.GetDoubleArray, IPropertyValue.IPropertyValue, IPropertyValue::GetDoubleArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDoubleArray, winrt.ipropertyvalue_getdoublearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetDoubleArray method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

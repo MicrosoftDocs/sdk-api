@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtinqcomtimeout.htm
 old-project: Rpc
 ms.assetid: e7bb9955-68a7-49fe-bcdb-2450518ffe0a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcMgmtInqComTimeout, RpcMgmtInqComTimeout function [RPC], _rpc_rpcmgmtinqcomtimeout, rpc.rpcmgmtinqcomtimeout, rpcdce/RpcMgmtInqComTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

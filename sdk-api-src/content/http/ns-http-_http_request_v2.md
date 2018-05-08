@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: HTTP_REQUEST_V2, *PHTTP_REQUEST_V2, HTTP_REQUEST_V2, *PHTTP_REQUEST_V2
+req.typenames: HTTP_REQUEST_V2, *PHTTP_REQUEST_V2
 topic_type:
 -	APIRef
 -	kbSyntax

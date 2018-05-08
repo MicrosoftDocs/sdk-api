@@ -1,14 +1,14 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.GetCurrentProfile
-title: IConfigAsfWriter::GetCurrentProfile method
+title: IConfigAsfWriter::GetCurrentProfile
 author: windows-driver-content
 description: The GetCurrentProfile method retrieves the current ASF profile from the WM ASF Writer filter.
 old-location: dshow\iconfigasfwriter_getcurrentprofile.htm
 old-project: DirectShow
 ms.assetid: 1fa9fc3f-f8fd-42c9-9de2-22717cbb7e91
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentProfile method [DirectShow], GetCurrentProfile method [DirectShow], IConfigAsfWriter interface, GetCurrentProfile,IConfigAsfWriter.GetCurrentProfile, IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], GetCurrentProfile method, IConfigAsfWriter::GetCurrentProfile, IConfigAsfWriterGetCurrentProfile, dshow.iconfigasfwriter_getcurrentprofile, dshowasf/IConfigAsfWriter::GetCurrentProfile
+ms.date: 4/30/2018
+ms.keywords: GetCurrentProfile, GetCurrentProfile method [DirectShow], GetCurrentProfile method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetCurrentProfile method, IConfigAsfWriter.GetCurrentProfile, IConfigAsfWriter::GetCurrentProfile, IConfigAsfWriterGetCurrentProfile, dshow.iconfigasfwriter_getcurrentprofile, dshowasf/IConfigAsfWriter::GetCurrentProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IConfigAsfWriter::GetCurrentProfile method
+# IConfigAsfWriter::GetCurrentProfile
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition2.SetInitialValue
-title: IUIAnimationTransition2::SetInitialValue method
+title: IUIAnimationTransition2::SetInitialValue
 author: windows-driver-content
 description: Sets the initial value of the transition.
 old-location: uianimation\iuianimationtransition2_setinitialvalue.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 813224BE-369D-4D65-AA12-AEE590627F40
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationTransition2, IUIAnimationTransition2 interface [Windows Animation], SetInitialValue method, IUIAnimationTransition2::SetInitialValue, SetInitialValue method [Windows Animation], SetInitialValue method [Windows Animation], IUIAnimationTransition2 interface, SetInitialValue,IUIAnimationTransition2.SetInitialValue, uianimation.iuianimationtransition2_setinitialvalue, uianimation/IUIAnimationTransition2::SetInitialValue
+ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialValue method, IUIAnimationTransition2.SetInitialValue, IUIAnimationTransition2::SetInitialValue, SetInitialValue, SetInitialValue method [Windows Animation], SetInitialValue method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvalue, uianimation/IUIAnimationTransition2::SetInitialValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransition2::SetInitialValue method
+# IUIAnimationTransition2::SetInitialValue
 
 
 ## -description

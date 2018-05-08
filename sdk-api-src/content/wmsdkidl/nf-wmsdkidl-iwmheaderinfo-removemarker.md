@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.RemoveMarker
-title: IWMHeaderInfo::RemoveMarker method
+title: IWMHeaderInfo::RemoveMarker
 author: windows-driver-content
 description: The RemoveMarker method removes a marker from the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_removemarker.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: b95aa113-b218-44ef-9516-20894e02ee6c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], RemoveMarker method, IWMHeaderInfo2 interface [windows Media Format], RemoveMarker method, IWMHeaderInfo2::RemoveMarker, IWMHeaderInfo3 interface [windows Media Format], RemoveMarker method, IWMHeaderInfo3::RemoveMarker, IWMHeaderInfo::RemoveMarker, IWMHeaderInfoRemoveMarker, RemoveMarker method [windows Media Format], RemoveMarker method [windows Media Format], IWMHeaderInfo interface, RemoveMarker method [windows Media Format], IWMHeaderInfo2 interface, RemoveMarker method [windows Media Format], IWMHeaderInfo3 interface, RemoveMarker,IWMHeaderInfo.RemoveMarker, wmformat.iwmheaderinfo_removemarker, wmsdkidl/IWMHeaderInfo2::RemoveMarker, wmsdkidl/IWMHeaderInfo3::RemoveMarker, wmsdkidl/IWMHeaderInfo::RemoveMarker
+ms.keywords: IWMHeaderInfo interface [windows Media Format],RemoveMarker method, IWMHeaderInfo.RemoveMarker, IWMHeaderInfo2 interface [windows Media Format],RemoveMarker method, IWMHeaderInfo2::RemoveMarker, IWMHeaderInfo3 interface [windows Media Format],RemoveMarker method, IWMHeaderInfo3::RemoveMarker, IWMHeaderInfo::RemoveMarker, IWMHeaderInfoRemoveMarker, RemoveMarker, RemoveMarker method [windows Media Format], RemoveMarker method [windows Media Format],IWMHeaderInfo interface, RemoveMarker method [windows Media Format],IWMHeaderInfo2 interface, RemoveMarker method [windows Media Format],IWMHeaderInfo3 interface, wmformat.iwmheaderinfo_removemarker, wmsdkidl/IWMHeaderInfo2::RemoveMarker, wmsdkidl/IWMHeaderInfo3::RemoveMarker, wmsdkidl/IWMHeaderInfo::RemoveMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMHeaderInfo::RemoveMarker method
+# IWMHeaderInfo::RemoveMarker
 
 
 ## -description

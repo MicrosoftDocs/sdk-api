@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetRequiresFlags
-title: ID3D11ShaderReflection::GetRequiresFlags method
+title: ID3D11ShaderReflection::GetRequiresFlags
 author: windows-driver-content
 description: Gets a group of flags that indicates the requirements of a shader.
 old-location: direct3d11\id3d11shaderreflection_getrequiresflags.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: BC70E68A-8909-42F9-9AEE-017BA682D635
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetRequiresFlags method [Direct3D 11], GetRequiresFlags method [Direct3D 11], ID3D11ShaderReflection interface, GetRequiresFlags,ID3D11ShaderReflection.GetRequiresFlags, ID3D11ShaderReflection, ID3D11ShaderReflection interface [Direct3D 11], GetRequiresFlags method, ID3D11ShaderReflection::GetRequiresFlags, d3d11shader/ID3D11ShaderReflection::GetRequiresFlags, direct3d11.id3d11shaderreflection_getrequiresflags
+ms.keywords: GetRequiresFlags, GetRequiresFlags method [Direct3D 11], GetRequiresFlags method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetRequiresFlags method, ID3D11ShaderReflection.GetRequiresFlags, ID3D11ShaderReflection::GetRequiresFlags, d3d11shader/ID3D11ShaderReflection::GetRequiresFlags, direct3d11.id3d11shaderreflection_getrequiresflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ShaderReflection::GetRequiresFlags method
+# ID3D11ShaderReflection::GetRequiresFlags
 
 
 ## -description

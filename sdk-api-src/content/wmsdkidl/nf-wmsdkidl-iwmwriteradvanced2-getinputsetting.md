@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced2.GetInputSetting
-title: IWMWriterAdvanced2::GetInputSetting method
+title: IWMWriterAdvanced2::GetInputSetting
 author: windows-driver-content
 description: The GetInputSetting method retrieves a setting for a particular input by name.
 old-location: wmformat\iwmwriteradvanced2_getinputsetting.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3aea0bc6-94e7-41ab-aec3-7366f183bb01
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetInputSetting method [windows Media Format], GetInputSetting method [windows Media Format], IWMWriterAdvanced2 interface, GetInputSetting,IWMWriterAdvanced2.GetInputSetting, IWMWriterAdvanced2, IWMWriterAdvanced2 interface [windows Media Format], GetInputSetting method, IWMWriterAdvanced2::GetInputSetting, IWMWriterAdvanced2GetInputSetting, wmformat.iwmwriteradvanced2_getinputsetting, wmsdkidl/IWMWriterAdvanced2::GetInputSetting
+ms.keywords: GetInputSetting, GetInputSetting method [windows Media Format], GetInputSetting method [windows Media Format],IWMWriterAdvanced2 interface, IWMWriterAdvanced2 interface [windows Media Format],GetInputSetting method, IWMWriterAdvanced2.GetInputSetting, IWMWriterAdvanced2::GetInputSetting, IWMWriterAdvanced2GetInputSetting, wmformat.iwmwriteradvanced2_getinputsetting, wmsdkidl/IWMWriterAdvanced2::GetInputSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterAdvanced2::GetInputSetting method
+# IWMWriterAdvanced2::GetInputSetting
 
 
 ## -description

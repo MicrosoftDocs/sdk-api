@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.Connect
-title: IRDPSRAPIViewer::Connect method
+title: IRDPSRAPIViewer::Connect
 author: windows-driver-content
 description: Starts the actual connection to the sharer.
 old-location: rdp\irdpsrapiviewer_connect.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: f3deec96-af56-4ebe-a5c3-25a4c7be14c0
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: Connect method [RDP], Connect method [RDP], IRDPSRAPIViewer interface, Connect,IRDPSRAPIViewer.Connect, IRDPSRAPIViewer, IRDPSRAPIViewer interface [RDP], Connect method, IRDPSRAPIViewer::Connect, rdp.irdpsrapiviewer_connect, rdpencomapi/IRDPSRAPIViewer::Connect
+ms.keywords: Connect, Connect method [RDP], Connect method [RDP],IRDPSRAPIViewer interface, IRDPSRAPIViewer interface [RDP],Connect method, IRDPSRAPIViewer.Connect, IRDPSRAPIViewer::Connect, rdp.irdpsrapiviewer_connect, rdpencomapi/IRDPSRAPIViewer::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIViewer::Connect method
+# IRDPSRAPIViewer::Connect
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateSettingsIdentity
-title: ISettingsEngine::CreateSettingsIdentity method
+title: ISettingsEngine::CreateSettingsIdentity
 author: windows-driver-content
 description: Creates an empty settings identity.
 old-location: smi\isettingsengine_createsettingsidentity.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: b48e6784-5565-4809-873e-cadedce57743
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateSettingsIdentity method [SMI], CreateSettingsIdentity method [SMI], ISettingsEngine interface, CreateSettingsIdentity,ISettingsEngine.CreateSettingsIdentity, ISettingsEngine, ISettingsEngine interface [SMI], CreateSettingsIdentity method, ISettingsEngine::CreateSettingsIdentity, smi.isettingsengine_createsettingsidentity, wcmconfig/ISettingsEngine::CreateSettingsIdentity
+ms.keywords: CreateSettingsIdentity, CreateSettingsIdentity method [SMI], CreateSettingsIdentity method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],CreateSettingsIdentity method, ISettingsEngine.CreateSettingsIdentity, ISettingsEngine::CreateSettingsIdentity, smi.isettingsengine_createsettingsidentity, wcmconfig/ISettingsEngine::CreateSettingsIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsEngine::CreateSettingsIdentity method
+# ISettingsEngine::CreateSettingsIdentity
 
 
 ## -description

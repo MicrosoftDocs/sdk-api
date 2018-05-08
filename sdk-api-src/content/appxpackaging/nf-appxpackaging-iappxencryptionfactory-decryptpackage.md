@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.DecryptPackage
-title: IAppxEncryptionFactory::DecryptPackage method
+title: IAppxEncryptionFactory::DecryptPackage
 author: windows-driver-content
 description: Creates an unencrypted Windows app package from an encrypted one.
 old-location: appxpkg\iappxencryptionfactory_decryptpackage.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: FB3BC989-F165-417A-963A-7B78B65930FA
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: DecryptPackage method [App packaging and management], DecryptPackage method [App packaging and management], IAppxEncryptionFactory interface, DecryptPackage,IAppxEncryptionFactory.DecryptPackage, IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packaging and management], DecryptPackage method, IAppxEncryptionFactory::DecryptPackage, appxpackaging/IAppxEncryptionFactory::DecryptPackage, appxpkg.iappxencryptionfactory_decryptpackage
+ms.keywords: DecryptPackage, DecryptPackage method [App packaging and management], DecryptPackage method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],DecryptPackage method, IAppxEncryptionFactory.DecryptPackage, IAppxEncryptionFactory::DecryptPackage, appxpackaging/IAppxEncryptionFactory::DecryptPackage, appxpkg.iappxencryptionfactory_decryptpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxEncryptionFactory::DecryptPackage method
+# IAppxEncryptionFactory::DecryptPackage
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.Terminate
-title: IWdsTransportContent::Terminate method
+title: IWdsTransportContent::Terminate
 author: windows-driver-content
 description: Terminates the transmission of this content by terminating all active sessions under the content and disconnecting any clients that are joined to them.
 old-location: wds\iwdstransportcontent_terminate.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: bcc4359f-0536-4cd4-a937-37d4e69ab497
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportContent, IWdsTransportContent interface [Windows Deployment Services], Terminate method, IWdsTransportContent::Terminate, Terminate method [Windows Deployment Services], Terminate method [Windows Deployment Services], IWdsTransportContent interface, Terminate,IWdsTransportContent.Terminate, wds.iwdstransportcontent_terminate, wdstptmgmt/IWdsTransportContent::Terminate
+ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Terminate method, IWdsTransportContent.Terminate, IWdsTransportContent::Terminate, Terminate, Terminate method [Windows Deployment Services], Terminate method [Windows Deployment Services],IWdsTransportContent interface, wds.iwdstransportcontent_terminate, wdstptmgmt/IWdsTransportContent::Terminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportContent::Terminate method
+# IWdsTransportContent::Terminate
 
 
 ## -description

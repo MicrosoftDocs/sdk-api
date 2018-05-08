@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 3B1E9837-72CA-4C44-B06C-C77E32480958
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12VersionedRootSignatureDeserializer, ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface, described, d3d12/ID3D12VersionedRootSignatureDeserializer, direct3d12.id3d12versionedrootsignaturedeserializer
+ms.keywords: ID3D12VersionedRootSignatureDeserializer, ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface,described, d3d12/ID3D12VersionedRootSignatureDeserializer, direct3d12.id3d12versionedrootsignaturedeserializer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

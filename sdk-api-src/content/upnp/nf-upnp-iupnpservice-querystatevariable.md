@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPService.QueryStateVariable
-title: IUPnPService::QueryStateVariable method
+title: IUPnPService::QueryStateVariable
 author: windows-driver-content
 description: The QueryStateVariable method returns the value of the specified service's state variable.
 old-location: upnp\iupnpservice_querystatevariable.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: d92785a2-e04c-4968-b515-019205180915
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IUPnPService, IUPnPService interface [UPnP APIs], QueryStateVariable method, IUPnPService::QueryStateVariable, QueryStateVariable method [UPnP APIs], QueryStateVariable method [UPnP APIs], IUPnPService interface, QueryStateVariable,IUPnPService.QueryStateVariable, _upnp_iupnpservice_querystatevariable, upnp.iupnpservice_querystatevariable, upnp/IUPnPService::QueryStateVariable
+ms.keywords: IUPnPService interface [UPnP APIs],QueryStateVariable method, IUPnPService.QueryStateVariable, IUPnPService::QueryStateVariable, QueryStateVariable, QueryStateVariable method [UPnP APIs], QueryStateVariable method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_querystatevariable, upnp.iupnpservice_querystatevariable, upnp/IUPnPService::QueryStateVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPService::QueryStateVariable method
+# IUPnPService::QueryStateVariable
 
 
 ## -description

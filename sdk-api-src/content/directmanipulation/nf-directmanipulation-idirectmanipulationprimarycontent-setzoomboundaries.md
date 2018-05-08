@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetZoomBoundaries
-title: IDirectManipulationPrimaryContent::SetZoomBoundaries method
+title: IDirectManipulationPrimaryContent::SetZoomBoundaries
 author: windows-driver-content
 description: Specifies the minimum and maximum boundaries for zoom.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setzoomboundaries.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 77e4054b-637f-4cff-bfab-0e2a0e992c59
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationPrimaryContent, IDirectManipulationPrimaryContent interface [Direct Manipulation], SetZoomBoundaries method, IDirectManipulationPrimaryContent::SetZoomBoundaries, SetZoomBoundaries method [Direct Manipulation], SetZoomBoundaries method [Direct Manipulation], IDirectManipulationPrimaryContent interface, SetZoomBoundaries,IDirectManipulationPrimaryContent.SetZoomBoundaries, directmanipulation.idirectmanipulationprimarycontent_setzoomboundaries, directmanipulation/IDirectManipulationPrimaryContent::SetZoomBoundaries
+ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetZoomBoundaries method, IDirectManipulationPrimaryContent.SetZoomBoundaries, IDirectManipulationPrimaryContent::SetZoomBoundaries, SetZoomBoundaries, SetZoomBoundaries method [Direct Manipulation], SetZoomBoundaries method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setzoomboundaries, directmanipulation/IDirectManipulationPrimaryContent::SetZoomBoundaries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationPrimaryContent::SetZoomBoundaries method
+# IDirectManipulationPrimaryContent::SetZoomBoundaries
 
 
 ## -description

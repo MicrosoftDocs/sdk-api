@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlCustomDraw.ItemPostPaint
-title: INameSpaceTreeControlCustomDraw::ItemPostPaint method
+title: INameSpaceTreeControlCustomDraw::ItemPostPaint
 author: windows-driver-content
 description: Called after an item in the namespace tree control is drawn.
 old-location: shell\INameSpaceTreeControlCustomDraw_ItemPostPaint.htm
 old-project: shell
 ms.assetid: 9da2af87-a961-4ca8-a512-fe508f2b2d79
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: INameSpaceTreeControlCustomDraw, INameSpaceTreeControlCustomDraw interface [Windows Shell], ItemPostPaint method, INameSpaceTreeControlCustomDraw::ItemPostPaint, ItemPostPaint method [Windows Shell], ItemPostPaint method [Windows Shell], INameSpaceTreeControlCustomDraw interface, ItemPostPaint,INameSpaceTreeControlCustomDraw.ItemPostPaint, _shell_INameSpaceTreeControlCustomDraw_ItemPostPaint, shell.INameSpaceTreeControlCustomDraw_ItemPostPaint, shobjidl/INameSpaceTreeControlCustomDraw::ItemPostPaint
+ms.date: 5/3/2018
+ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],ItemPostPaint method, INameSpaceTreeControlCustomDraw.ItemPostPaint, INameSpaceTreeControlCustomDraw::ItemPostPaint, ItemPostPaint, ItemPostPaint method [Windows Shell], ItemPostPaint method [Windows Shell],INameSpaceTreeControlCustomDraw interface, _shell_INameSpaceTreeControlCustomDraw_ItemPostPaint, shell.INameSpaceTreeControlCustomDraw_ItemPostPaint, shobjidl/INameSpaceTreeControlCustomDraw::ItemPostPaint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeControlCustomDraw::ItemPostPaint method
+# INameSpaceTreeControlCustomDraw::ItemPostPaint
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetEmbeddedObject
-title: CInstance::SetEmbeddedObject method
+title: CInstance::SetEmbeddedObject
 author: windows-driver-content
 description: The SetEmbeddedObject method sets an embedded CInstance property.
 old-location: wmi\cinstance_setembeddedobject.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 64000949-8a3d-47c9-888b-09d520c41e1e
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?SetEmbeddedObject@CInstance@@QAE_NPBGAAV1@@Z, CInstance, CInstance interface [Windows Management Instrumentation], SetEmbeddedObject method, CInstance::SetEmbeddedObject, SetEmbeddedObject method [Windows Management Instrumentation], SetEmbeddedObject method [Windows Management Instrumentation], CInstance interface, SetEmbeddedObject,CInstance.SetEmbeddedObject, _hmm_cinstance_setembeddedobject, instance/CInstance::SetEmbeddedObject, wmi.cinstance_setembeddedobject"
+ms.keywords: "?SetEmbeddedObject@CInstance@@QAE_NPBGAAV1@@Z, CInstance interface [Windows Management Instrumentation],SetEmbeddedObject method, CInstance.SetEmbeddedObject, CInstance::SetEmbeddedObject, SetEmbeddedObject, SetEmbeddedObject method [Windows Management Instrumentation], SetEmbeddedObject method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setembeddedobject, instance/CInstance::SetEmbeddedObject, wmi.cinstance_setembeddedobject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::SetEmbeddedObject method
+# CInstance::SetEmbeddedObject
 
 
 ## -description

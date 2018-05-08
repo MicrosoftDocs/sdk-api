@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IGraphVersion.QueryVersion
-title: IGraphVersion::QueryVersion method
+title: IGraphVersion::QueryVersion
 author: windows-driver-content
 description: The QueryVersion method retrieves the current graph version number.
 old-location: dshow\igraphversion_queryversion.htm
 old-project: DirectShow
 ms.assetid: 297e19fd-91b5-4756-9b33-6b301c74e470
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IGraphVersion, IGraphVersion interface [DirectShow], QueryVersion method, IGraphVersion::QueryVersion, IGraphVersionQueryVersion, QueryVersion method [DirectShow], QueryVersion method [DirectShow], IGraphVersion interface, QueryVersion,IGraphVersion.QueryVersion, dshow.igraphversion_queryversion, strmif/IGraphVersion::QueryVersion
+ms.date: 4/30/2018
+ms.keywords: IGraphVersion interface [DirectShow],QueryVersion method, IGraphVersion.QueryVersion, IGraphVersion::QueryVersion, IGraphVersionQueryVersion, QueryVersion, QueryVersion method [DirectShow], QueryVersion method [DirectShow],IGraphVersion interface, dshow.igraphversion_queryversion, strmif/IGraphVersion::QueryVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IGraphVersion::QueryVersion method
+# IGraphVersion::QueryVersion
 
 
 ## -description

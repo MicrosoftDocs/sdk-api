@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: a2d1758a-4a7e-40fd-84c7-a25bc36ab538
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: TRefPointerCollection, TRefPointerCollection class [Windows Management Instrumentation], TRefPointerCollection class [Windows Management Instrumentation], described, _hmm_trefpointercollection, refptrco/TRefPointerCollection, wmi.trefpointercollection
+ms.keywords: TRefPointerCollection, TRefPointerCollection class [Windows Management Instrumentation], TRefPointerCollection class [Windows Management Instrumentation],described, _hmm_trefpointercollection, refptrco/TRefPointerCollection, wmi.trefpointercollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax

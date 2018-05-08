@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependency.GetMinVersion
-title: IAppxManifestPackageDependency::GetMinVersion method
+title: IAppxManifestPackageDependency::GetMinVersion
 author: windows-driver-content
 description: Gets the minimum version of the package on which the current package has a dependency.
 old-location: appxpkg\iappxmanifestpackagedependency_getminversion.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 301053BA-A2DB-405C-9E2E-3817B2B5D7FD
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetMinVersion method [App packaging and management], GetMinVersion method [App packaging and management], IAppxManifestPackageDependency interface, GetMinVersion,IAppxManifestPackageDependency.GetMinVersion, IAppxManifestPackageDependency, IAppxManifestPackageDependency interface [App packaging and management], GetMinVersion method, IAppxManifestPackageDependency::GetMinVersion, appxpackaging/IAppxManifestPackageDependency::GetMinVersion, appxpkg.iappxmanifestpackagedependency_getminversion
+ms.keywords: GetMinVersion, GetMinVersion method [App packaging and management], GetMinVersion method [App packaging and management],IAppxManifestPackageDependency interface, IAppxManifestPackageDependency interface [App packaging and management],GetMinVersion method, IAppxManifestPackageDependency.GetMinVersion, IAppxManifestPackageDependency::GetMinVersion, appxpackaging/IAppxManifestPackageDependency::GetMinVersion, appxpkg.iappxmanifestpackagedependency_getminversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestPackageDependency::GetMinVersion method
+# IAppxManifestPackageDependency::GetMinVersion
 
 
 ## -description

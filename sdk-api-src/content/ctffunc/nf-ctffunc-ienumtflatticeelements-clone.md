@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IEnumTfLatticeElements.Clone
-title: IEnumTfLatticeElements::Clone method
+title: IEnumTfLatticeElements::Clone
 author: windows-driver-content
 description: IEnumTfLatticeElements::Clone method
 old-location: tsf\ienumtflatticeelements_clone.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 867fe614-d8c0-4987-b35a-bd5b175e6850
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Clone method [Text Services Framework], Clone method [Text Services Framework], IEnumTfLatticeElements interface, Clone,IEnumTfLatticeElements.Clone, IEnumTfLatticeElements, IEnumTfLatticeElements interface [Text Services Framework], Clone method, IEnumTfLatticeElements::Clone, _tsf_ienumtflatticeelements_clone_ref, ctffunc/IEnumTfLatticeElements::Clone, tsf.ienumtflatticeelements_clone
+ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfLatticeElements interface, IEnumTfLatticeElements interface [Text Services Framework],Clone method, IEnumTfLatticeElements.Clone, IEnumTfLatticeElements::Clone, _tsf_ienumtflatticeelements_clone_ref, ctffunc/IEnumTfLatticeElements::Clone, tsf.ienumtflatticeelements_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Sptip.dll
 req.irql: 
 ---
 
-# IEnumTfLatticeElements::Clone method
+# IEnumTfLatticeElements::Clone
 
 
 ## -description

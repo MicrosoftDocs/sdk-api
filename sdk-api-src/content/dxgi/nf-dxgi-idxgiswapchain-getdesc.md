@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetDesc
-title: IDXGISwapChain::GetDesc method
+title: IDXGISwapChain::GetDesc
 author: windows-driver-content
 description: Get a description of the swap chain.
 old-location: direct3ddxgi\idxgiswapchain_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getdesc.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 545f3a98-5c81-337d-c4f7-cc715e0e123f, GetDesc method [DXGI], GetDesc method [DXGI], IDXGISwapChain interface, GetDesc,IDXGISwapChain.GetDesc, IDXGISwapChain, IDXGISwapChain interface [DXGI], GetDesc method, IDXGISwapChain::GetDesc, direct3ddxgi.idxgiswapchain_getdesc, dxgi/IDXGISwapChain::GetDesc
+ms.keywords: 545f3a98-5c81-337d-c4f7-cc715e0e123f, GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetDesc method, IDXGISwapChain.GetDesc, IDXGISwapChain::GetDesc, direct3ddxgi.idxgiswapchain_getdesc, dxgi/IDXGISwapChain::GetDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain::GetDesc method
+# IDXGISwapChain::GetDesc
 
 
 ## -description

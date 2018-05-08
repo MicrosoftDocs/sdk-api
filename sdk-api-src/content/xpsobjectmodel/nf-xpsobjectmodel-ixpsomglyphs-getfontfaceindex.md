@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontFaceIndex
-title: IXpsOMGlyphs::GetFontFaceIndex method
+title: IXpsOMGlyphs::GetFontFaceIndex
 author: windows-driver-content
 description: Gets the index of the font face to be used.
 old-location: xps\ixpsomglyphs_getfontfaceindex.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 375e6391-c75f-4dbe-b51f-ce394f5088ec
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetFontFaceIndex method [XPS Documents and Packaging], GetFontFaceIndex method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetFontFaceIndex,IXpsOMGlyphs.GetFontFaceIndex, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetFontFaceIndex method, IXpsOMGlyphs::GetFontFaceIndex, xps.ixpsomglyphs_getfontfaceindex, xpsobjectmodel/IXpsOMGlyphs::GetFontFaceIndex
+ms.keywords: GetFontFaceIndex, GetFontFaceIndex method [XPS Documents and Packaging], GetFontFaceIndex method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontFaceIndex method, IXpsOMGlyphs.GetFontFaceIndex, IXpsOMGlyphs::GetFontFaceIndex, xps.ixpsomglyphs_getfontfaceindex, xpsobjectmodel/IXpsOMGlyphs::GetFontFaceIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetFontFaceIndex method
+# IXpsOMGlyphs::GetFontFaceIndex
 
 
 ## -description

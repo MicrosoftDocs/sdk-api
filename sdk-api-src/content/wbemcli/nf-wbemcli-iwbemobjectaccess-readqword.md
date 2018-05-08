@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.ReadQWORD
-title: IWbemObjectAccess::ReadQWORD method
+title: IWbemObjectAccess::ReadQWORD
 author: windows-driver-content
 description: The ReadQWORD method reads 64 bits of property data identified by a property handle.
 old-location: wmi\iwbemobjectaccess_readqword.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: cb76eb26-e407-411a-9ccb-a03eaa8bf22e
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], ReadQWORD method, IWbemObjectAccess::ReadQWORD, ReadQWORD method [Windows Management Instrumentation], ReadQWORD method [Windows Management Instrumentation], IWbemObjectAccess interface, ReadQWORD,IWbemObjectAccess.ReadQWORD, _hmm_iwbemobjectaccess_readqword, wbemcli/IWbemObjectAccess::ReadQWORD, wmi.iwbemobjectaccess_readqword
+ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],ReadQWORD method, IWbemObjectAccess.ReadQWORD, IWbemObjectAccess::ReadQWORD, ReadQWORD, ReadQWORD method [Windows Management Instrumentation], ReadQWORD method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_readqword, wbemcli/IWbemObjectAccess::ReadQWORD, wmi.iwbemobjectaccess_readqword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemObjectAccess::ReadQWORD method
+# IWbemObjectAccess::ReadQWORD
 
 
 ## -description

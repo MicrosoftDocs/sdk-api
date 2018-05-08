@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage3.CreateEmptyMetadataObject
-title: IWMDMStorage3::CreateEmptyMetadataObject method
+title: IWMDMStorage3::CreateEmptyMetadataObject
 author: windows-driver-content
 description: The CreateEmptyMetadataObject method creates a new IWMDMMetaData interface. This interface is used to set or retrieve metadata properties of a storage.
 old-location: wmdm\iwmdmstorage3_createemptymetadataobject.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: e46b5f30-3dd9-4e5a-bd75-c7716a1d8a2a
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CreateEmptyMetadataObject method [windows Media Device Manager], CreateEmptyMetadataObject method [windows Media Device Manager], IWMDMStorage3 interface, CreateEmptyMetadataObject,IWMDMStorage3.CreateEmptyMetadataObject, IWMDMStorage3, IWMDMStorage3 interface [windows Media Device Manager], CreateEmptyMetadataObject method, IWMDMStorage3::CreateEmptyMetadataObject, IWMDMStorage3CreateEmptyMetadataObject, mswmdm/IWMDMStorage3::CreateEmptyMetadataObject, wmdm.iwmdmstorage3_createemptymetadataobject
+ms.keywords: CreateEmptyMetadataObject, CreateEmptyMetadataObject method [windows Media Device Manager], CreateEmptyMetadataObject method [windows Media Device Manager],IWMDMStorage3 interface, IWMDMStorage3 interface [windows Media Device Manager],CreateEmptyMetadataObject method, IWMDMStorage3.CreateEmptyMetadataObject, IWMDMStorage3::CreateEmptyMetadataObject, IWMDMStorage3CreateEmptyMetadataObject, mswmdm/IWMDMStorage3::CreateEmptyMetadataObject, wmdm.iwmdmstorage3_createemptymetadataobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMStorage3::CreateEmptyMetadataObject method
+# IWMDMStorage3::CreateEmptyMetadataObject
 
 
 ## -description

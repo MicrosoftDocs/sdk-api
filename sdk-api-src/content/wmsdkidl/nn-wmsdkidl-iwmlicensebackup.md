@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 4ef43b7e-706b-48f6-80ba-7d0a59c3929a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMLicenseBackup, IWMLicenseBackup interface [windows Media Format], IWMLicenseBackup interface [windows Media Format], described, IWMLicenseBackupInterface, wmformat.iwmlicensebackup, wmsdkidl/IWMLicenseBackup
+ms.keywords: IWMLicenseBackup, IWMLicenseBackup interface [windows Media Format], IWMLicenseBackup interface [windows Media Format],described, IWMLicenseBackupInterface, wmformat.iwmlicensebackup, wmsdkidl/IWMLicenseBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

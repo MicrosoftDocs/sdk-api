@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.AcceptConnection
-title: IWRdsProtocolConnection::AcceptConnection method
+title: IWRdsProtocolConnection::AcceptConnection
 author: windows-driver-content
 description: Directs the protocol to continue with the connection request.
 old-location: termserv\iwrdsprotocolconnection_acceptconnection.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: ef7e13ad-eeb8-4452-b3d6-a137b766f98f
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: AcceptConnection method [Remote Desktop Services], AcceptConnection method [Remote Desktop Services], IWRdsProtocolConnection interface, AcceptConnection,IWRdsProtocolConnection.AcceptConnection, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], AcceptConnection method, IWRdsProtocolConnection::AcceptConnection, termserv.iwrdsprotocolconnection_acceptconnection, wtsprotocol/IWRdsProtocolConnection::AcceptConnection
+ms.keywords: AcceptConnection, AcceptConnection method [Remote Desktop Services], AcceptConnection method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],AcceptConnection method, IWRdsProtocolConnection.AcceptConnection, IWRdsProtocolConnection::AcceptConnection, termserv.iwrdsprotocolconnection_acceptconnection, wtsprotocol/IWRdsProtocolConnection::AcceptConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::AcceptConnection method
+# IWRdsProtocolConnection::AcceptConnection
 
 
 ## -description

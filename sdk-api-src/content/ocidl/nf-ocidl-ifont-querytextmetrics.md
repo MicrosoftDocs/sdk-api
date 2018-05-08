@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.QueryTextMetrics
-title: IFont::QueryTextMetrics method
+title: IFont::QueryTextMetrics
 author: windows-driver-content
 description: Fills a caller-allocated structure with information about the font.
 old-location: com\ifont_querytextmetrics.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 960dcc0b-8769-415c-9d5a-eaf9f4b3aeac
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFont, IFont interface [COM], QueryTextMetrics method, IFont::QueryTextMetrics, QueryTextMetrics method [COM], QueryTextMetrics method [COM], IFont interface, QueryTextMetrics,IFont.QueryTextMetrics, _ctrl_ifont_querytextmetrics, com.ifont_querytextmetrics, ocidl/IFont::QueryTextMetrics
+ms.keywords: IFont interface [COM],QueryTextMetrics method, IFont.QueryTextMetrics, IFont::QueryTextMetrics, QueryTextMetrics, QueryTextMetrics method [COM], QueryTextMetrics method [COM],IFont interface, _ctrl_ifont_querytextmetrics, com.ifont_querytextmetrics, ocidl/IFont::QueryTextMetrics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFont::QueryTextMetrics method
+# IFont::QueryTextMetrics
 
 
 ## -description

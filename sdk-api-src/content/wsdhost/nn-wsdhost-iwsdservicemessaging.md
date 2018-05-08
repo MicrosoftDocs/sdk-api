@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 06584474-1c55-43db-9c7a-fefea8d16eed
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDServiceMessaging, IWSDServiceMessaging interface, IWSDServiceMessaging interface, described, ncd.iwsdservicemessaging, wsdhost/IWSDServiceMessaging
+ms.keywords: IWSDServiceMessaging, IWSDServiceMessaging interface, IWSDServiceMessaging interface,described, ncd.iwsdservicemessaging, wsdhost/IWSDServiceMessaging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

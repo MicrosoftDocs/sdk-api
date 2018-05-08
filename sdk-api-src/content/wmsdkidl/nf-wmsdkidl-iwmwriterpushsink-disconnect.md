@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPushSink.Disconnect
-title: IWMWriterPushSink::Disconnect method
+title: IWMWriterPushSink::Disconnect
 author: windows-driver-content
 description: The Disconnect method disconnects the push sink from the server.
 old-location: wmformat\iwmwriterpushsink_disconnect.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 37e8badb-139a-45bf-84bc-bb071d128847
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Disconnect method [windows Media Format], Disconnect method [windows Media Format], IWMWriterPushSink interface, Disconnect,IWMWriterPushSink.Disconnect, IWMWriterPushSink, IWMWriterPushSink interface [windows Media Format], Disconnect method, IWMWriterPushSink::Disconnect, IWMWriterPushSinkDisconnect, wmformat.iwmwriterpushsink_disconnect, wmsdkidl/IWMWriterPushSink::Disconnect
+ms.keywords: Disconnect, Disconnect method [windows Media Format], Disconnect method [windows Media Format],IWMWriterPushSink interface, IWMWriterPushSink interface [windows Media Format],Disconnect method, IWMWriterPushSink.Disconnect, IWMWriterPushSink::Disconnect, IWMWriterPushSinkDisconnect, wmformat.iwmwriterpushsink_disconnect, wmsdkidl/IWMWriterPushSink::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPushSink::Disconnect method
+# IWMWriterPushSink::Disconnect
 
 
 ## -description

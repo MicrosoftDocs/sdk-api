@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastScope.get_ScopeID
-title: IMcastScope::get_ScopeID method
+title: IMcastScope::get_ScopeID
 author: windows-driver-content
 description: The get_ScopeID method obtains an identifier for the scope of multicast addresses.
 old-location: tapi3\imcastscope_get_scopeid.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 9c0ba8ab-1022-40c6-9d89-74250c149681
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], get_ScopeID method, IMcastScope::get_ScopeID, _tapi3_imcastscope_get_scopeid, get_ScopeID method [TAPI 2.2], get_ScopeID method [TAPI 2.2], IMcastScope interface, get_ScopeID,IMcastScope.get_ScopeID, mdhcp/IMcastScope::get_ScopeID, tapi3.imcastscope_get_scopeid
+ms.keywords: IMcastScope interface [TAPI 2.2],get_ScopeID method, IMcastScope.get_ScopeID, IMcastScope::get_ScopeID, _tapi3_imcastscope_get_scopeid, get_ScopeID, get_ScopeID method [TAPI 2.2], get_ScopeID method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ScopeID, tapi3.imcastscope_get_scopeid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMcastScope::get_ScopeID method
+# IMcastScope::get_ScopeID
 
 
 ## -description

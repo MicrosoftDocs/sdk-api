@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.Initialize
-title: IWICBitmapFrameEncode::Initialize method
+title: IWICBitmapFrameEncode::Initialize
 author: windows-driver-content
 description: Initializes the frame encoder using the given properties.
 old-location: wic\_wic_codec_iwicbitmapframeencode_initialize.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: ec215e32-b4bd-469a-903d-f5b546185183
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Imaging Component], Initialize method, IWICBitmapFrameEncode::Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component], IWICBitmapFrameEncode interface, Initialize,IWICBitmapFrameEncode.Initialize, _wic_codec_iwicbitmapframeencode_initialize, wic._wic_codec_iwicbitmapframeencode_initialize, wincodec/IWICBitmapFrameEncode::Initialize
+ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],Initialize method, IWICBitmapFrameEncode.Initialize, IWICBitmapFrameEncode::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_initialize, wic._wic_codec_iwicbitmapframeencode_initialize, wincodec/IWICBitmapFrameEncode::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapFrameEncode::Initialize method
+# IWICBitmapFrameEncode::Initialize
 
 
 ## -description

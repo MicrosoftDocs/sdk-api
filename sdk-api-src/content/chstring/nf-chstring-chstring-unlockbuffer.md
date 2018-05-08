@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.UnlockBuffer
-title: CHString::UnlockBuffer method
+title: CHString::UnlockBuffer
 author: windows-driver-content
 description: The UnlockBuffer method unlocks the buffer that was previously secured by calling LockBuffer and resets the reference count to 1.
 old-location: wmi\chstring_unlockbuffer.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: cde732ea-b2de-4eb7-bef6-bed01137d76a
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHString, CHString interface [Windows Management Instrumentation], UnlockBuffer method, CHString::UnlockBuffer, UnlockBuffer method [Windows Management Instrumentation], UnlockBuffer method [Windows Management Instrumentation], CHString interface, UnlockBuffer,CHString.UnlockBuffer, _hmm_chstring_unlockbuffer, chstring/CHString::UnlockBuffer, wmi.chstring_unlockbuffer
+ms.keywords: CHString interface [Windows Management Instrumentation],UnlockBuffer method, CHString.UnlockBuffer, CHString::UnlockBuffer, UnlockBuffer, UnlockBuffer method [Windows Management Instrumentation], UnlockBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_unlockbuffer, chstring/CHString::UnlockBuffer, wmi.chstring_unlockbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::UnlockBuffer method
+# CHString::UnlockBuffer
 
 
 ## -description

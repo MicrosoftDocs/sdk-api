@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.Clear
-title: ICertificatePolicies::Clear method
+title: ICertificatePolicies::Clear
 author: windows-driver-content
 description: Removes all objects from the collection.
 old-location: security\icertificatepolicies_clear_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 842c06a7-bf70-45e5-8f65-edaa075a8f3e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Clear method [Security], Clear method [Security], ICertificatePolicies interface, Clear,ICertificatePolicies.Clear, ICertificatePolicies, ICertificatePolicies interface [Security], Clear method, ICertificatePolicies::Clear, certenroll/ICertificatePolicies::Clear, security.icertificatepolicies_clear_method
+ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificatePolicies interface, ICertificatePolicies interface [Security],Clear method, ICertificatePolicies.Clear, ICertificatePolicies::Clear, certenroll/ICertificatePolicies::Clear, security.icertificatepolicies_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertificatePolicies::Clear method
+# ICertificatePolicies::Clear
 
 
 ## -description

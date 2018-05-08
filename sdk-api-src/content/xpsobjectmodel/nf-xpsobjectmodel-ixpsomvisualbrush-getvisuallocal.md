@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.GetVisualLocal
-title: IXpsOMVisualBrush::GetVisualLocal method
+title: IXpsOMVisualBrush::GetVisualLocal
 author: windows-driver-content
 description: Gets a pointer to the interface of the local, unshared visual used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_getvisuallocal.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: a75c2bca-eaac-4382-9211-fbc1b05f1414
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetVisualLocal method [XPS Documents and Packaging], GetVisualLocal method [XPS Documents and Packaging], IXpsOMVisualBrush interface, GetVisualLocal,IXpsOMVisualBrush.GetVisualLocal, IXpsOMVisualBrush, IXpsOMVisualBrush interface [XPS Documents and Packaging], GetVisualLocal method, IXpsOMVisualBrush::GetVisualLocal, xps.ixpsomvisualbrush_getvisuallocal, xpsobjectmodel/IXpsOMVisualBrush::GetVisualLocal
+ms.keywords: GetVisualLocal, GetVisualLocal method [XPS Documents and Packaging], GetVisualLocal method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],GetVisualLocal method, IXpsOMVisualBrush.GetVisualLocal, IXpsOMVisualBrush::GetVisualLocal, xps.ixpsomvisualbrush_getvisuallocal, xpsobjectmodel/IXpsOMVisualBrush::GetVisualLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisualBrush::GetVisualLocal method
+# IXpsOMVisualBrush::GetVisualLocal
 
 
 ## -description

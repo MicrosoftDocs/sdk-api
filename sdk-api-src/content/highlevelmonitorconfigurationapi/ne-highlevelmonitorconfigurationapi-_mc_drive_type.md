@@ -8,7 +8,7 @@ old-project: Monitor
 ms.assetid: bc81d258-277d-4f69-be6c-724efcdeee56
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: MC_BLUE_DRIVE, MC_DRIVE_TYPE, MC_DRIVE_TYPE enumeration [Monitor Configuration], MC_GREEN_DRIVE, MC_RED_DRIVE, _MC_DRIVE_TYPE, highlevelmonitorconfigurationapi/MC_BLUE_DRIVE, highlevelmonitorconfigurationapi/MC_DRIVE_TYPE, highlevelmonitorconfigurationapi/MC_GREEN_DRIVE, highlevelmonitorconfigurationapi/MC_RED_DRIVE, monitor.mc_drive_type
+ms.keywords: MC_BLUE_DRIVE, MC_DRIVE_TYPE, MC_DRIVE_TYPE , MC_DRIVE_TYPE enumeration [Monitor Configuration], MC_GREEN_DRIVE, MC_RED_DRIVE, _MC_DRIVE_TYPE, highlevelmonitorconfigurationapi/MC_BLUE_DRIVE, highlevelmonitorconfigurationapi/MC_DRIVE_TYPE, highlevelmonitorconfigurationapi/MC_GREEN_DRIVE, highlevelmonitorconfigurationapi/MC_RED_DRIVE, monitor.mc_drive_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

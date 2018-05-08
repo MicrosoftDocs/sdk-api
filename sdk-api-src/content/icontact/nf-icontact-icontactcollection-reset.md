@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactCollection.Reset
-title: IContactCollection::Reset method
+title: IContactCollection::Reset
 author: windows-driver-content
 description: Resets the enumerator to before the logical first element.
 old-location: wincontacts\_wincontacts_IContactCollection_Reset.htm
@@ -8,7 +8,7 @@ old-project: wincontacts
 ms.assetid: 31922d03-079e-4a6f-8516-d4cf540d812e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IContactCollection, IContactCollection interface [Windows Contacts], Reset method, IContactCollection::Reset, Reset method [Windows Contacts], Reset method [Windows Contacts], IContactCollection interface, Reset,IContactCollection.Reset, _wincontacts_IContactCollection_Reset, icontact/IContactCollection::Reset, wincontacts._wincontacts_IContactCollection_Reset
+ms.keywords: IContactCollection interface [Windows Contacts],Reset method, IContactCollection.Reset, IContactCollection::Reset, Reset, Reset method [Windows Contacts], Reset method [Windows Contacts],IContactCollection interface, _wincontacts_IContactCollection_Reset, icontact/IContactCollection::Reset, wincontacts._wincontacts_IContactCollection_Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IContactCollection::Reset method
+# IContactCollection::Reset
 
 
 ## -description

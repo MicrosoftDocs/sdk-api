@@ -7,7 +7,7 @@ old-location: properties\VariantToInt16Array.htm
 old-project: properties
 ms.assetid: dd00d986-acfa-445e-a0f6-0f52860b762b
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: VariantToInt16Array, VariantToInt16Array function [Windows Properties], _shell_VariantToInt16Array, properties.VariantToInt16Array, propvarutil/VariantToInt16Array, shell.VariantToInt16Array
 ms.prod: windows-hardware
 ms.technology: windows-devices

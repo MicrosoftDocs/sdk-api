@@ -63,10 +63,37 @@ Contains a list of certificate hashes.
 The number of certificate hashes in the list.
 
 
+### -field nCert_Hash.range
+
+ 
+
+
+### -field nCert_Hash.range.0
+
+ 
+
+
+### -field nCert_Hash.range.500
+
+ 
+
+
 ### -field pUsers
 
 A pointer to the first 
 <a href="https://msdn.microsoft.com/6930446c-5338-4ff9-a662-791fc9e7cefe">ENCRYPTION_CERTIFICATE_HASH</a> structure in the list. 
+
+
+### -field pUsers.size_is
+
+ 
+
+
+### -field pUsers.size_is.nCert_Hash
+
+ 
+
+
 
 
 ## -see-also

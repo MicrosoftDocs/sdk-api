@@ -7,8 +7,8 @@ old-location: dshow\imediafilter.htm
 old-project: DirectShow
 ms.assetid: 5c0060e8-a9e5-4141-a38d-9a1bc55cc91b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaFilter, IMediaFilter interface [DirectShow], IMediaFilter interface [DirectShow], described, IMediaFilterInterface, dshow.imediafilter, strmif/IMediaFilter
+ms.date: 4/30/2018
+ms.keywords: IMediaFilter, IMediaFilter interface [DirectShow], IMediaFilter interface [DirectShow],described, IMediaFilterInterface, dshow.imediafilter, strmif/IMediaFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

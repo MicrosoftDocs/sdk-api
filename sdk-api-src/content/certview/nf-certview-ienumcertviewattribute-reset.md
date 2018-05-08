@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.Reset
-title: IEnumCERTVIEWATTRIBUTE::Reset method
+title: IEnumCERTVIEWATTRIBUTE::Reset
 author: windows-driver-content
 description: Moves to the beginning of the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_reset.htm
 old-project: SecCrypto
 ms.assetid: 1f5b8ee0-2820-481b-8836-b2926aec0933
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnumCERTVIEWATTRIBUTE object [Security], Reset method, IEnumCERTVIEWATTRIBUTE, IEnumCERTVIEWATTRIBUTE interface [Security], Reset method, IEnumCERTVIEWATTRIBUTE::Reset, Reset method [Security], Reset method [Security], CEnumCERTVIEWATTRIBUTE object, Reset method [Security], IEnumCERTVIEWATTRIBUTE interface, Reset,IEnumCERTVIEWATTRIBUTE.Reset, _certsrv_ienumcertviewattribute_reset, certview/IEnumCERTVIEWATTRIBUTE::Reset, security.ienumcertviewattribute_reset
+ms.date: 4/30/2018
+ms.keywords: CEnumCERTVIEWATTRIBUTE object [Security],Reset method, IEnumCERTVIEWATTRIBUTE interface [Security],Reset method, IEnumCERTVIEWATTRIBUTE.Reset, IEnumCERTVIEWATTRIBUTE::Reset, Reset, Reset method [Security], Reset method [Security],CEnumCERTVIEWATTRIBUTE object, Reset method [Security],IEnumCERTVIEWATTRIBUTE interface, _certsrv_ienumcertviewattribute_reset, certview/IEnumCERTVIEWATTRIBUTE::Reset, security.ienumcertviewattribute_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWATTRIBUTE::Reset method
+# IEnumCERTVIEWATTRIBUTE::Reset
 
 
 ## -description

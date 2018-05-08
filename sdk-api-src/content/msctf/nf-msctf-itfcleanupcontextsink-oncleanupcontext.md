@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCleanupContextSink.OnCleanupContext
-title: ITfCleanupContextSink::OnCleanupContext method
+title: ITfCleanupContextSink::OnCleanupContext
 author: windows-driver-content
 description: ITfCleanupContextSink::OnCleanupContext method
 old-location: tsf\itfcleanupcontextsink_oncleanupcontext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6af597e6-f997-4b28-8994-a8dbabcaaa68
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCleanupContextSink, ITfCleanupContextSink interface [Text Services Framework], OnCleanupContext method, ITfCleanupContextSink::OnCleanupContext, OnCleanupContext method [Text Services Framework], OnCleanupContext method [Text Services Framework], ITfCleanupContextSink interface, OnCleanupContext,ITfCleanupContextSink.OnCleanupContext, _tsf_itfcleanupcontextsink_oncleanupcontext_ref, msctf/ITfCleanupContextSink::OnCleanupContext, tsf.itfcleanupcontextsink_oncleanupcontext
+ms.keywords: ITfCleanupContextSink interface [Text Services Framework],OnCleanupContext method, ITfCleanupContextSink.OnCleanupContext, ITfCleanupContextSink::OnCleanupContext, OnCleanupContext, OnCleanupContext method [Text Services Framework], OnCleanupContext method [Text Services Framework],ITfCleanupContextSink interface, _tsf_itfcleanupcontextsink_oncleanupcontext_ref, msctf/ITfCleanupContextSink::OnCleanupContext, tsf.itfcleanupcontextsink_oncleanupcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCleanupContextSink::OnCleanupContext method
+# ITfCleanupContextSink::OnCleanupContext
 
 
 ## -description

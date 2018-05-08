@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetLanguage
-title: IXpsOMCoreProperties::GetLanguage method
+title: IXpsOMCoreProperties::GetLanguage
 author: windows-driver-content
 description: Gets the language property.
 old-location: xps\ixpsomcoreproperties_getlanguage.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 3a35185a-0dbc-48bb-8ae1-53fafa197bb7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetLanguage,IXpsOMCoreProperties.GetLanguage, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetLanguage method, IXpsOMCoreProperties::GetLanguage, xps.ixpsomcoreproperties_getlanguage, xpsobjectmodel/IXpsOMCoreProperties::GetLanguage
+ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetLanguage method, IXpsOMCoreProperties.GetLanguage, IXpsOMCoreProperties::GetLanguage, xps.ixpsomcoreproperties_getlanguage, xpsobjectmodel/IXpsOMCoreProperties::GetLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetLanguage method
+# IXpsOMCoreProperties::GetLanguage
 
 
 ## -description

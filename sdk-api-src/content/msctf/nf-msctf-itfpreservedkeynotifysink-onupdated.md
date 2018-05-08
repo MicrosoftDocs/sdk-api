@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPreservedKeyNotifySink.OnUpdated
-title: ITfPreservedKeyNotifySink::OnUpdated method
+title: ITfPreservedKeyNotifySink::OnUpdated
 author: windows-driver-content
 description: ITfPreservedKeyNotifySink::OnUpdated method
 old-location: tsf\itfpreservedkeynotifysink_onupdated.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 50654da7-60ee-4038-a02a-1055445f1e5d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfPreservedKeyNotifySink, ITfPreservedKeyNotifySink interface [Text Services Framework], OnUpdated method, ITfPreservedKeyNotifySink::OnUpdated, OnUpdated method [Text Services Framework], OnUpdated method [Text Services Framework], ITfPreservedKeyNotifySink interface, OnUpdated,ITfPreservedKeyNotifySink.OnUpdated, _tsf_itfpreservedkeynotifysink_onupdated_ref, msctf/ITfPreservedKeyNotifySink::OnUpdated, tsf.itfpreservedkeynotifysink_onupdated
+ms.keywords: ITfPreservedKeyNotifySink interface [Text Services Framework],OnUpdated method, ITfPreservedKeyNotifySink.OnUpdated, ITfPreservedKeyNotifySink::OnUpdated, OnUpdated, OnUpdated method [Text Services Framework], OnUpdated method [Text Services Framework],ITfPreservedKeyNotifySink interface, _tsf_itfpreservedkeynotifysink_onupdated_ref, msctf/ITfPreservedKeyNotifySink::OnUpdated, tsf.itfpreservedkeynotifysink_onupdated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfPreservedKeyNotifySink::OnUpdated method
+# ITfPreservedKeyNotifySink::OnUpdated
 
 
 ## -description

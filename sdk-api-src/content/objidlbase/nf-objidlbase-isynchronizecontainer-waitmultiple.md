@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.ISynchronizeContainer.WaitMultiple
-title: ISynchronizeContainer::WaitMultiple method
+title: ISynchronizeContainer::WaitMultiple
 author: windows-driver-content
 description: Waits for any synchronization object in the container to be signaled or for a specified timeout period to elapse, whichever comes first.
 old-location: com\isynchronizecontainer_waitmultiple.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 2754b744-3ba8-4e60-9847-1d0eb3c24180
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISynchronizeContainer, ISynchronizeContainer interface [COM], WaitMultiple method, ISynchronizeContainer::WaitMultiple, WaitMultiple method [COM], WaitMultiple method [COM], ISynchronizeContainer interface, WaitMultiple,ISynchronizeContainer.WaitMultiple, _com_isynchronizecontainer_waitmultiple, com.isynchronizecontainer_waitmultiple, objidlbase/ISynchronizeContainer::WaitMultiple
+ms.keywords: ISynchronizeContainer interface [COM],WaitMultiple method, ISynchronizeContainer.WaitMultiple, ISynchronizeContainer::WaitMultiple, WaitMultiple, WaitMultiple method [COM], WaitMultiple method [COM],ISynchronizeContainer interface, _com_isynchronizecontainer_waitmultiple, com.isynchronizecontainer_waitmultiple, objidlbase/ISynchronizeContainer::WaitMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISynchronizeContainer::WaitMultiple method
+# ISynchronizeContainer::WaitMultiple
 
 
 ## -description

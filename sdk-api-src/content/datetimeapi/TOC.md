@@ -1,0 +1,8 @@
+# [Internationalization for Windows Applications](../_intl/index.md)
+## [Datetimeapi.h](index.md)
+### [GetDateFormatA function](../datetimeapi/nf-datetimeapi-getdateformata.md)
+### [GetDateFormatEx function](../datetimeapi/nf-datetimeapi-getdateformatex.md)
+### [GetDateFormatW function](../datetimeapi/nf-datetimeapi-getdateformatw.md)
+### [GetTimeFormatA function](../datetimeapi/nf-datetimeapi-gettimeformata.md)
+### [GetTimeFormatEx function](../datetimeapi/nf-datetimeapi-gettimeformatex.md)
+### [GetTimeFormatW function](../datetimeapi/nf-datetimeapi-gettimeformatw.md)

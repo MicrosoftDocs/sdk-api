@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.SetPath
-title: IWSDHttpAddress::SetPath method
+title: IWSDHttpAddress::SetPath
 author: windows-driver-content
 description: Sets the URI path for this address.
 old-location: ncd\iwsdhttpaddress_setpath.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 4bad84a6-f321-4275-9787-f6bae83c807e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDHttpAddress, IWSDHttpAddress interface, SetPath method, IWSDHttpAddress::SetPath, SetPath method, SetPath method, IWSDHttpAddress interface, SetPath,IWSDHttpAddress.SetPath, ncd.iwsdhttpaddress_setpath, wsdbase/IWSDHttpAddress::SetPath
+ms.keywords: IWSDHttpAddress interface,SetPath method, IWSDHttpAddress.SetPath, IWSDHttpAddress::SetPath, SetPath, SetPath method, SetPath method,IWSDHttpAddress interface, ncd.iwsdhttpaddress_setpath, wsdbase/IWSDHttpAddress::SetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDHttpAddress::SetPath method
+# IWSDHttpAddress::SetPath
 
 
 ## -description

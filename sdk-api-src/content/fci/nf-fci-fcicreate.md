@@ -7,7 +7,7 @@ old-location: winprog\fcicreate.htm
 old-project: DevNotes
 ms.assetid: bfcea06d-2f09-405c-955c-0f56149148f2
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: FCICreate, FCICreate function [Windows API], fci/FCICreate, winprog.fcicreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

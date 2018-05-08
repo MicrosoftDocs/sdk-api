@@ -7,7 +7,7 @@ old-location: security\bcryptdeletecontext.htm
 old-project: SecCNG
 ms.assetid: 6a250bed-0ea4-4cae-86e6-f0cea95dc56e
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: BCryptDeleteContext, BCryptDeleteContext function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptDeleteContext, security.bcryptdeletecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

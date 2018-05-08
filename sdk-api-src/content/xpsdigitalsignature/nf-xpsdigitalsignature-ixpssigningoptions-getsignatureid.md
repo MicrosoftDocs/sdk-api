@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetSignatureId
-title: IXpsSigningOptions::GetSignatureId method
+title: IXpsSigningOptions::GetSignatureId
 author: windows-driver-content
 description: Gets the value of the Id attribute of the Signature element.
 old-location: xps\ixpssigningoptions_getsignatureid.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: ebcb9f75-c9da-4559-9a9f-915b166801bf
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSignatureId method [XPS Documents and Packaging], GetSignatureId method [XPS Documents and Packaging], IXpsSigningOptions interface, GetSignatureId,IXpsSigningOptions.GetSignatureId, IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], GetSignatureId method, IXpsSigningOptions::GetSignatureId, xps.ixpssigningoptions_getsignatureid, xpsdigitalsignature/IXpsSigningOptions::GetSignatureId
+ms.keywords: GetSignatureId, GetSignatureId method [XPS Documents and Packaging], GetSignatureId method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSignatureId method, IXpsSigningOptions.GetSignatureId, IXpsSigningOptions::GetSignatureId, xps.ixpssigningoptions_getsignatureid, xpsdigitalsignature/IXpsSigningOptions::GetSignatureId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSigningOptions::GetSignatureId method
+# IXpsSigningOptions::GetSignatureId
 
 
 ## -description

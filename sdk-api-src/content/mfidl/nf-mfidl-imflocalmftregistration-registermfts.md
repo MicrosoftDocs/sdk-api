@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFLocalMFTRegistration.RegisterMFTs
-title: IMFLocalMFTRegistration::RegisterMFTs method
+title: IMFLocalMFTRegistration::RegisterMFTs
 author: windows-driver-content
 description: Registers one or more Media Foundation transforms (MFTs) in the caller's process.
 old-location: mf\imflocalmftregistration_registermfts.htm
 old-project: medfound
 ms.assetid: 3f77b5b9-94af-42b1-83ca-cb3310083632
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFLocalMFTRegistration, IMFLocalMFTRegistration interface [Media Foundation], RegisterMFTs method, IMFLocalMFTRegistration::RegisterMFTs, RegisterMFTs method [Media Foundation], RegisterMFTs method [Media Foundation], IMFLocalMFTRegistration interface, RegisterMFTs,IMFLocalMFTRegistration.RegisterMFTs, mf.imflocalmftregistration_registermfts, mfidl/IMFLocalMFTRegistration::RegisterMFTs
+ms.date: 5/3/2018
+ms.keywords: IMFLocalMFTRegistration interface [Media Foundation],RegisterMFTs method, IMFLocalMFTRegistration.RegisterMFTs, IMFLocalMFTRegistration::RegisterMFTs, RegisterMFTs, RegisterMFTs method [Media Foundation], RegisterMFTs method [Media Foundation],IMFLocalMFTRegistration interface, mf.imflocalmftregistration_registermfts, mfidl/IMFLocalMFTRegistration::RegisterMFTs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFLocalMFTRegistration::RegisterMFTs method
+# IMFLocalMFTRegistration::RegisterMFTs
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocSecuritySettings.Skip
-title: IEnumDot11AdHocSecuritySettings::Skip method
+title: IEnumDot11AdHocSecuritySettings::Skip
 author: windows-driver-content
 description: Skips over the next specified number of elements in the enumeration sequence.
 old-location: nwifi\ienumdot11adhocsecuritysettings_skip.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: c423e794-bb3a-4dd8-b6bc-324d91909e92
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IEnumDot11AdHocSecuritySettings, IEnumDot11AdHocSecuritySettings interface [NativeWIFI], Skip method, IEnumDot11AdHocSecuritySettings::Skip, Skip method [NativeWIFI], Skip method [NativeWIFI], IEnumDot11AdHocSecuritySettings interface, Skip,IEnumDot11AdHocSecuritySettings.Skip, adhoc/IEnumDot11AdHocSecuritySettings::Skip, nwifi.ienumdot11adhocsecuritysettings_skip
+ms.keywords: IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Skip method, IEnumDot11AdHocSecuritySettings.Skip, IEnumDot11AdHocSecuritySettings::Skip, Skip, Skip method [NativeWIFI], Skip method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, adhoc/IEnumDot11AdHocSecuritySettings::Skip, nwifi.ienumdot11adhocsecuritysettings_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumDot11AdHocSecuritySettings::Skip method
+# IEnumDot11AdHocSecuritySettings::Skip
 
 
 ## -description

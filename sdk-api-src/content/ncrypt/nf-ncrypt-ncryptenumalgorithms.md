@@ -7,7 +7,7 @@ old-location: security\ncryptenumalgorithms_func.htm
 old-project: SecCNG
 ms.assetid: ea4f270b-c556-4f52-892a-199c9cfced26
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, NCRYPT_CIPHER_OPERATION, NCRYPT_HASH_OPERATION, NCRYPT_SECRET_AGREEMENT_OPERATION, NCRYPT_SIGNATURE_OPERATION, NCRYPT_SILENT_FLAG, NCryptEnumAlgorithms, NCryptEnumAlgorithms function [Security], ncrypt/NCryptEnumAlgorithms, security.ncryptenumalgorithms_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

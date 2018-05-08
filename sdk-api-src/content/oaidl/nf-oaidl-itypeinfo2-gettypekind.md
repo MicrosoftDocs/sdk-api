@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetTypeKind
-title: ITypeInfo2::GetTypeKind method
+title: ITypeInfo2::GetTypeKind
 author: windows-driver-content
 description: Returns the TYPEKIND enumeration quickly, without doing any allocations.
 old-location: automat\itypeinfo2_gettypekind.htm
 old-project: automat
 ms.assetid: 2ad42274-1952-44b4-ac11-93eacc10a9a9
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetTypeKind method [Automation], GetTypeKind method [Automation], ITypeInfo2 interface, GetTypeKind,ITypeInfo2.GetTypeKind, ITypeInfo2, ITypeInfo2 interface [Automation], GetTypeKind method, ITypeInfo2::GetTypeKind, _oa96_ITypeInfo2_GetTypeKind, automat.itypeinfo2_gettypekind, oaidl/ITypeInfo2::GetTypeKind
+ms.date: 5/4/2018
+ms.keywords: GetTypeKind, GetTypeKind method [Automation], GetTypeKind method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetTypeKind method, ITypeInfo2.GetTypeKind, ITypeInfo2::GetTypeKind, _oa96_ITypeInfo2_GetTypeKind, automat.itypeinfo2_gettypekind, oaidl/ITypeInfo2::GetTypeKind
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo2::GetTypeKind method
+# ITypeInfo2::GetTypeKind
 
 
 ## -description

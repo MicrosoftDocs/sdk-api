@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.FindAssembly
-title: IMetaDataDispenserEx::FindAssembly method
+title: IMetaDataDispenserEx::FindAssembly
 author: windows-driver-content
 description: Gets the name of the assembly.
 old-location: winrt\imetadatadispenserex_findassembly.htm
 old-project: WinRT
 ms.assetid: 7f691157-9f3d-4e04-91ee-9d62c23569d8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: FindAssembly method [Windows Runtime], FindAssembly method [Windows Runtime], IMetaDataDispenserEx interface, FindAssembly,IMetaDataDispenserEx.FindAssembly, IMetaDataDispenserEx, IMetaDataDispenserEx interface [Windows Runtime], FindAssembly method, IMetaDataDispenserEx::FindAssembly, rometadataapi/IMetaDataDispenserEx::FindAssembly, winrt.imetadatadispenserex_findassembly
+ms.date: 5/4/2018
+ms.keywords: FindAssembly, FindAssembly method [Windows Runtime], FindAssembly method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],FindAssembly method, IMetaDataDispenserEx.FindAssembly, IMetaDataDispenserEx::FindAssembly, rometadataapi/IMetaDataDispenserEx::FindAssembly, winrt.imetadatadispenserex_findassembly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataDispenserEx::FindAssembly method
+# IMetaDataDispenserEx::FindAssembly
 
 
 ## -description

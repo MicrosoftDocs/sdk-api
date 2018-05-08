@@ -7,7 +7,7 @@ old-location: rpc\rpc_message.htm
 old-project: Rpc
 ms.assetid: fd014622-97b3-4f76-8bc3-10821aa3c46e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: "*PRPC_MESSAGE, PRPC_MESSAGE, PRPC_MESSAGE structure pointer [RPC], RPC_MESSAGE, RPC_MESSAGE structure [RPC], _RPC_MESSAGE, rpc.rpc_message, rpcdcep/PRPC_MESSAGE, rpcdcep/RPC_MESSAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

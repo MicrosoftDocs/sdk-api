@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIAdapter.GetDesc
-title: IDXGIAdapter::GetDesc method
+title: IDXGIAdapter::GetDesc
 author: windows-driver-content
 description: Gets a DXGI 1.0 description of an adapter (or video card).
 old-location: direct3ddxgi\idxgiadapter_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_getdesc.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetDesc method [DXGI], GetDesc method [DXGI], IDXGIAdapter interface, GetDesc,IDXGIAdapter.GetDesc, IDXGIAdapter, IDXGIAdapter interface [DXGI], GetDesc method, IDXGIAdapter::GetDesc, d6097f67-3411-f7d2-50dc-507efce034b7, direct3ddxgi.idxgiadapter_getdesc, dxgi/IDXGIAdapter::GetDesc
+ms.keywords: GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],GetDesc method, IDXGIAdapter.GetDesc, IDXGIAdapter::GetDesc, d6097f67-3411-f7d2-50dc-507efce034b7, direct3ddxgi.idxgiadapter_getdesc, dxgi/IDXGIAdapter::GetDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIAdapter::GetDesc method
+# IDXGIAdapter::GetDesc
 
 
 ## -description

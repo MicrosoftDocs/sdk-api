@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpMessageParameters.SetRetransmitParams
-title: IWSDUdpMessageParameters::SetRetransmitParams method
+title: IWSDUdpMessageParameters::SetRetransmitParams
 author: windows-driver-content
 description: Sets the values that WSD uses to determine how often to repeat the message transmission.
 old-location: ncd\iwsdudpmessageparameters_setretransmitparams.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 8fef8dc9-7621-4928-94a6-491a095b11fa
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDUdpMessageParameters, IWSDUdpMessageParameters interface, SetRetransmitParams method, IWSDUdpMessageParameters::SetRetransmitParams, SetRetransmitParams method, SetRetransmitParams method, IWSDUdpMessageParameters interface, SetRetransmitParams,IWSDUdpMessageParameters.SetRetransmitParams, ncd.iwsdudpmessageparameters_setretransmitparams, wsdbase/IWSDUdpMessageParameters::SetRetransmitParams
+ms.keywords: IWSDUdpMessageParameters interface,SetRetransmitParams method, IWSDUdpMessageParameters.SetRetransmitParams, IWSDUdpMessageParameters::SetRetransmitParams, SetRetransmitParams, SetRetransmitParams method, SetRetransmitParams method,IWSDUdpMessageParameters interface, ncd.iwsdudpmessageparameters_setretransmitparams, wsdbase/IWSDUdpMessageParameters::SetRetransmitParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDUdpMessageParameters::SetRetransmitParams method
+# IWSDUdpMessageParameters::SetRetransmitParams
 
 
 ## -description

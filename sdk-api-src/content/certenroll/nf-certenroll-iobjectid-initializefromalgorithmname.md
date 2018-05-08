@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectId.InitializeFromAlgorithmName
-title: IObjectId::InitializeFromAlgorithmName method
+title: IObjectId::InitializeFromAlgorithmName
 author: windows-driver-content
 description: Initializes the object from an algorithm name or an object identifier.
 old-location: security\iobjectid_initializefromalgorithmname_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: ba8c1f11-9380-43a9-b444-b0fff114a176
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IObjectId, IObjectId interface [Security], InitializeFromAlgorithmName method, IObjectId::InitializeFromAlgorithmName, InitializeFromAlgorithmName method [Security], InitializeFromAlgorithmName method [Security], IObjectId interface, InitializeFromAlgorithmName,IObjectId.InitializeFromAlgorithmName, certenroll/IObjectId::InitializeFromAlgorithmName, security.iobjectid_initializefromalgorithmname_method
+ms.keywords: IObjectId interface [Security],InitializeFromAlgorithmName method, IObjectId.InitializeFromAlgorithmName, IObjectId::InitializeFromAlgorithmName, InitializeFromAlgorithmName, InitializeFromAlgorithmName method [Security], InitializeFromAlgorithmName method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromAlgorithmName, security.iobjectid_initializefromalgorithmname_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IObjectId::InitializeFromAlgorithmName method
+# IObjectId::InitializeFromAlgorithmName
 
 
 ## -description

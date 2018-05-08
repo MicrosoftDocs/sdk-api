@@ -1,14 +1,14 @@
 ---
 UID: NF:objectarray.IObjectCollection.AddObject
-title: IObjectCollection::AddObject method
+title: IObjectCollection::AddObject
 author: windows-driver-content
 description: Adds a single object to the collection.
 old-location: shell\IObjectCollection_AddObject.htm
 old-project: shell
 ms.assetid: 0898160d-46e5-4b38-9fc9-f74bd6a0385b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AddObject method [Windows Shell], AddObject method [Windows Shell], IObjectCollection interface, AddObject,IObjectCollection.AddObject, IObjectCollection, IObjectCollection interface [Windows Shell], AddObject method, IObjectCollection::AddObject, _shell_IObjectCollection_AddObject, objectarray/IObjectCollection::AddObject, shell.IObjectCollection_AddObject
+ms.date: 5/3/2018
+ms.keywords: AddObject, AddObject method [Windows Shell], AddObject method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],AddObject method, IObjectCollection.AddObject, IObjectCollection::AddObject, _shell_IObjectCollection_AddObject, objectarray/IObjectCollection::AddObject, shell.IObjectCollection_AddObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IObjectCollection::AddObject method
+# IObjectCollection::AddObject
 
 
 ## -description

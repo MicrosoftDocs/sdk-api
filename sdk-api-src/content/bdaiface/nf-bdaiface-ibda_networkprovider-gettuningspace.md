@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.GetTuningSpace
-title: IBDA_NetworkProvider::GetTuningSpace method
+title: IBDA_NetworkProvider::GetTuningSpace
 author: windows-driver-content
 description: The GetTuningSpace method retrieves the tuning space.
 old-location: mstv\ibda_networkprovider_gettuningspace.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3c7305a1-4a63-42a9-abc2-ae5394c3be9a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTuningSpace method [Microsoft TV Technologies], GetTuningSpace method [Microsoft TV Technologies], IBDA_NetworkProvider interface, GetTuningSpace,IBDA_NetworkProvider.GetTuningSpace, IBDA_NetworkProvider, IBDA_NetworkProvider interface [Microsoft TV Technologies], GetTuningSpace method, IBDA_NetworkProvider::GetTuningSpace, IBDA_NetworkProviderGetTuningSpace, bdaiface/IBDA_NetworkProvider::GetTuningSpace, mstv.ibda_networkprovider_gettuningspace
+ms.keywords: GetTuningSpace, GetTuningSpace method [Microsoft TV Technologies], GetTuningSpace method [Microsoft TV Technologies],IBDA_NetworkProvider interface, IBDA_NetworkProvider interface [Microsoft TV Technologies],GetTuningSpace method, IBDA_NetworkProvider.GetTuningSpace, IBDA_NetworkProvider::GetTuningSpace, IBDA_NetworkProviderGetTuningSpace, bdaiface/IBDA_NetworkProvider::GetTuningSpace, mstv.ibda_networkprovider_gettuningspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_NetworkProvider::GetTuningSpace method
+# IBDA_NetworkProvider::GetTuningSpace
 
 
 ## -description

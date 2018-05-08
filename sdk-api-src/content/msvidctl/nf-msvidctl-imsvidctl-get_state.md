@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_State
-title: IMSVidCtl::get_State method
+title: IMSVidCtl::get_State
 author: windows-driver-content
 description: The get_State method retrieves the state of the filter graph.
 old-location: mstv\imsvidctl_get_state.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 45f35832-709c-4f78-9e1a-a6ad489fc81f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], get_State method, IMSVidCtl::get_State, IMSVidCtlget_State, get_State method [Microsoft TV Technologies], get_State method [Microsoft TV Technologies], IMSVidCtl interface, get_State,IMSVidCtl.get_State, mstv.imsvidctl_get_state, msvidctl/IMSVidCtl::get_State
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_State method, IMSVidCtl.get_State, IMSVidCtl::get_State, IMSVidCtlget_State, get_State, get_State method [Microsoft TV Technologies], get_State method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_state, msvidctl/IMSVidCtl::get_State
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::get_State method
+# IMSVidCtl::get_State
 
 
 ## -description

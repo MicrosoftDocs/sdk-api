@@ -7,7 +7,7 @@ old-location: security\ncrypt_supported_lengths.htm
 old-project: SecCNG
 ms.assetid: 11bb3669-d536-4c8f-a30b-1826ccdbe275
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NCRYPT_SUPPORTED_LENGTHS, NCRYPT_SUPPORTED_LENGTHS structure [Security], __NCRYPT_SUPPORTED_LENGTHS, ncrypt/NCRYPT_SUPPORTED_LENGTHS, security.ncrypt_supported_lengths
 ms.prod: windows-hardware
 ms.technology: windows-devices

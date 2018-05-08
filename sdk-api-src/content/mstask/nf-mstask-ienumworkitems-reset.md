@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Reset
-title: IEnumWorkItems::Reset method
+title: IEnumWorkItems::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: taskschd\ienumworkitems_reset.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 920ba47b-41cd-462b-9b72-73898a5cd4d0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEnumWorkItems, IEnumWorkItems interface [Task Scheduler], Reset method, IEnumWorkItems::Reset, Reset method [Task Scheduler], Reset method [Task Scheduler], IEnumWorkItems interface, Reset,IEnumWorkItems.Reset, _msb_ienumworkitems_reset, mstask/IEnumWorkItems::Reset, taskschd.ienumworkitems_reset
+ms.keywords: IEnumWorkItems interface [Task Scheduler],Reset method, IEnumWorkItems.Reset, IEnumWorkItems::Reset, Reset, Reset method [Task Scheduler], Reset method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_reset, mstask/IEnumWorkItems::Reset, taskschd.ienumworkitems_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumWorkItems::Reset method
+# IEnumWorkItems::Reset
 
 
 ## -description

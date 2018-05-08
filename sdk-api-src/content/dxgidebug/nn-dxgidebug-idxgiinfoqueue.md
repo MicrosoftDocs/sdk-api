@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: F1BC6752-F334-4E8C-BE42-B731635A799D
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], IDXGIInfoQueue interface [DXGI], described, direct3ddxgi.idxgiinfoqueue, dxgidebug/IDXGIInfoQueue
+ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], IDXGIInfoQueue interface [DXGI],described, direct3ddxgi.idxgiinfoqueue, dxgidebug/IDXGIInfoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

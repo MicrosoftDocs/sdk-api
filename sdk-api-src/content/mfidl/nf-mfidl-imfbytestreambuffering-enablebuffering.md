@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFByteStreamBuffering.EnableBuffering
-title: IMFByteStreamBuffering::EnableBuffering method
+title: IMFByteStreamBuffering::EnableBuffering
 author: windows-driver-content
 description: Enables or disables buffering.
 old-location: mf\imfbytestreambuffering_enablebuffering.htm
 old-project: medfound
 ms.assetid: 5f7418ff-32e5-49b3-b7b3-6686e6562d51
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 5f7418ff-32e5-49b3-b7b3-6686e6562d51, EnableBuffering method [Media Foundation], EnableBuffering method [Media Foundation], IMFByteStreamBuffering interface, EnableBuffering,IMFByteStreamBuffering.EnableBuffering, IMFByteStreamBuffering, IMFByteStreamBuffering interface [Media Foundation], EnableBuffering method, IMFByteStreamBuffering::EnableBuffering, mf.imfbytestreambuffering_enablebuffering, mfidl/IMFByteStreamBuffering::EnableBuffering
+ms.date: 5/3/2018
+ms.keywords: 5f7418ff-32e5-49b3-b7b3-6686e6562d51, EnableBuffering, EnableBuffering method [Media Foundation], EnableBuffering method [Media Foundation],IMFByteStreamBuffering interface, IMFByteStreamBuffering interface [Media Foundation],EnableBuffering method, IMFByteStreamBuffering.EnableBuffering, IMFByteStreamBuffering::EnableBuffering, mf.imfbytestreambuffering_enablebuffering, mfidl/IMFByteStreamBuffering::EnableBuffering
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStreamBuffering::EnableBuffering method
+# IMFByteStreamBuffering::EnableBuffering
 
 
 ## -description

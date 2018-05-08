@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.GetFullCropRegion
-title: IWMResizerProps::GetFullCropRegion method
+title: IWMResizerProps::GetFullCropRegion
 author: windows-driver-content
 description: Retrieves the source and destination rectangles.
 old-location: mf\iwmresizerpropsgetfullcropregion.htm
 old-project: medfound
 ms.assetid: 91c37040-a698-489b-95fd-f3088f62e4c9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetFullCropRegion method [Media Foundation], GetFullCropRegion method [Media Foundation], IWMResizerProps interface, GetFullCropRegion,IWMResizerProps.GetFullCropRegion, IWMResizerProps, IWMResizerProps interface [Media Foundation], GetFullCropRegion method, IWMResizerProps::GetFullCropRegion, codecapi.iwmresizerpropsgetfullcropregion, mf.iwmresizerpropsgetfullcropregion, wmcodecdsp/ IWMResizerProps::GetFullCropRegion
+ms.date: 5/3/2018
+ms.keywords: GetFullCropRegion, GetFullCropRegion method [Media Foundation], GetFullCropRegion method [Media Foundation],IWMResizerProps interface, IWMResizerProps interface [Media Foundation],GetFullCropRegion method, IWMResizerProps.GetFullCropRegion, IWMResizerProps::GetFullCropRegion, codecapi.iwmresizerpropsgetfullcropregion, mf.iwmresizerpropsgetfullcropregion, wmcodecdsp/ IWMResizerProps::GetFullCropRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMResizerProps::GetFullCropRegion method
+# IWMResizerProps::GetFullCropRegion
 
 
 ## -description

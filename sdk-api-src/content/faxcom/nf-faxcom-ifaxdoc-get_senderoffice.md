@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_SenderOffice
-title: IFaxDoc::get_SenderOffice method
+title: IFaxDoc::get_SenderOffice
 author: windows-driver-content
 description: Sets or retrieves the SenderOffice property of a FaxDoc object. The SenderOffice property is a null-terminated string that contains the office of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_senderoffice_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7gv9.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], SenderOffice property, IFaxDoc, IFaxDoc::get_SenderOffice, SenderOffice property [Fax Service], SenderOffice property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_get_senderoffice_vb, get_SenderOffice,IFaxDoc.get_SenderOffice
+ms.keywords: FaxDoc object [Fax Service],SenderOffice property, FaxDoc.SenderOffice, IFaxDoc.get_SenderOffice, IFaxDoc::get_SenderOffice, SenderOffice property [Fax Service], SenderOffice property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_get_senderoffice_vb, get_SenderOffice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::get_SenderOffice method
+# IFaxDoc::get_SenderOffice
 
 
 ## -description

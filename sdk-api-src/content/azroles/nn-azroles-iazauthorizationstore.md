@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: f848cca6-3838-46bc-b1f4-d6eab5096046
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzAuthorizationStore, IAzAuthorizationStore interface [Security], IAzAuthorizationStore interface [Security], described, azroles/IAzAuthorizationStore, security.azauthorizationstore
+ms.keywords: IAzAuthorizationStore, IAzAuthorizationStore interface [Security], IAzAuthorizationStore interface [Security],described, azroles/IAzAuthorizationStore, security.azauthorizationstore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

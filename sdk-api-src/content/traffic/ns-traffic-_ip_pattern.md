@@ -83,12 +83,6 @@ Destination address.
 ### -field S_un
 
 
-
-#### S_Spi
-
-Service provider interface.
-
-
 ### -field S_un.S_un_ports
 
 
@@ -130,6 +124,11 @@ ICMP message type and ICMP message code.
 ### -field S_un.S_un_icmp.filler
 
  
+
+
+### -field S_un.S_Spi
+
+Service provider interface.
 
 
 ### -field ProtocolId

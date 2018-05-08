@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: E237CE81-9C01-4EBB-AA75-4EB90123E8C8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationSelectionPattern2, IUIAutomationSelectionPattern2 interface [Windows Accessibility], IUIAutomationSelectionPattern2 interface [Windows Accessibility], described, uiautomationclient/IUIAutomationSelectionPattern2, winauto.uiauto_IUIAutomationSelectionPattern2
+ms.keywords: IUIAutomationSelectionPattern2, IUIAutomationSelectionPattern2 interface [Windows Accessibility], IUIAutomationSelectionPattern2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationSelectionPattern2, winauto.uiauto_IUIAutomationSelectionPattern2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

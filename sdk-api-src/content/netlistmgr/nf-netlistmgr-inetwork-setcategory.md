@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.SetCategory
-title: INetwork::SetCategory method
+title: INetwork::SetCategory
 author: windows-driver-content
 description: The SetCategory method sets the category of a network. Changes made take effect immediately. Callers of this API must be members of the Administrators group.
 old-location: nla\inetwork_setcategory.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 6cbaa23e-f57c-4608-814b-9ccff1ec515f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetwork, INetwork interface [Network Awareness], SetCategory method, INetwork::SetCategory, SetCategory method [Network Awareness], SetCategory method [Network Awareness], INetwork interface, SetCategory,INetwork.SetCategory, netlistmgr/INetwork::SetCategory, nla.inetwork_setcategory
+ms.keywords: INetwork interface [Network Awareness],SetCategory method, INetwork.SetCategory, INetwork::SetCategory, SetCategory, SetCategory method [Network Awareness], SetCategory method [Network Awareness],INetwork interface, netlistmgr/INetwork::SetCategory, nla.inetwork_setcategory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetwork::SetCategory method
+# INetwork::SetCategory
 
 
 ## -description

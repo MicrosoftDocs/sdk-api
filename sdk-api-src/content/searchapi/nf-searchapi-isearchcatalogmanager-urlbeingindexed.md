@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.URLBeingIndexed
-title: ISearchCatalogManager::URLBeingIndexed method
+title: ISearchCatalogManager::URLBeingIndexed
 author: windows-driver-content
 description: Gets the URL that is currently being indexed. If no indexing is currently in process, pszUrl is set to NULL.
 old-location: search\_search_ISearchCatalogManager_URLBeingIndexed.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\urlbeingindexed.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], URLBeingIndexed method, ISearchCatalogManager::URLBeingIndexed, URLBeingIndexed method [search], URLBeingIndexed method [search], ISearchCatalogManager interface, URLBeingIndexed,ISearchCatalogManager.URLBeingIndexed, _search_ISearchCatalogManager_URLBeingIndexed, search._search_ISearchCatalogManager_URLBeingIndexed, searchapi/ISearchCatalogManager::URLBeingIndexed
+ms.date: 5/4/2018
+ms.keywords: ISearchCatalogManager interface [search],URLBeingIndexed method, ISearchCatalogManager.URLBeingIndexed, ISearchCatalogManager::URLBeingIndexed, URLBeingIndexed, URLBeingIndexed method [search], URLBeingIndexed method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_URLBeingIndexed, search._search_ISearchCatalogManager_URLBeingIndexed, searchapi/ISearchCatalogManager::URLBeingIndexed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::URLBeingIndexed method
+# ISearchCatalogManager::URLBeingIndexed
 
 
 ## -description

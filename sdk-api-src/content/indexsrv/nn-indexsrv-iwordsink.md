@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_55uz.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWordSink, IWordSink interface [Indexing Service], IWordSink interface [Indexing Service], described, _idxs_WordSink, indexsrv.iwordsink, indexsrv/IWordSink
+ms.keywords: IWordSink, IWordSink interface [Indexing Service], IWordSink interface [Indexing Service],described, _idxs_WordSink, indexsrv.iwordsink, indexsrv/IWordSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

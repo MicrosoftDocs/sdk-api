@@ -7,7 +7,7 @@ old-location: winsock\nspv2setserviceex.htm
 old-project: WinSock
 ms.assetid: 596fe0bd-ec11-44f3-bffe-333758171ea6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: LPNSPV2SETSERVICEEX, NSPv2SetServiceEx, NSPv2SetServiceEx function [Winsock], RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, winsock.nspv2setserviceex, ws2spi/NSPv2SetServiceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# LPNSPV2SETSERVICEEX callback
+# LPNSPV2SETSERVICEEX callback function
 
 
 ## -description

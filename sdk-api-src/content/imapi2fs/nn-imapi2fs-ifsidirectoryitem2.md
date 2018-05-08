@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: fed2a858-d710-46be-a05b-dce7ef484636
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiDirectoryItem2, IFsiDirectoryItem2 interface [IMAPI], IFsiDirectoryItem2 interface [IMAPI], described, imapi.ifsidirectoryitem2, imapi2fs/IFsiDirectoryItem2
+ms.keywords: IFsiDirectoryItem2, IFsiDirectoryItem2 interface [IMAPI], IFsiDirectoryItem2 interface [IMAPI],described, imapi.ifsidirectoryitem2, imapi2fs/IFsiDirectoryItem2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

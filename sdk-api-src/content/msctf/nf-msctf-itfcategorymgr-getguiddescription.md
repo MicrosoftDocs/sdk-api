@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.GetGUIDDescription
-title: ITfCategoryMgr::GetGUIDDescription method
+title: ITfCategoryMgr::GetGUIDDescription
 author: windows-driver-content
 description: ITfCategoryMgr::GetGUIDDescription method
 old-location: tsf\itfcategorymgr_getguiddescription.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: e0c4f64e-7e20-4dff-b597-acc280aebf32
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetGUIDDescription method [Text Services Framework], GetGUIDDescription method [Text Services Framework], ITfCategoryMgr interface, GetGUIDDescription,ITfCategoryMgr.GetGUIDDescription, ITfCategoryMgr, ITfCategoryMgr interface [Text Services Framework], GetGUIDDescription method, ITfCategoryMgr::GetGUIDDescription, _tsf_itfcategorymgr_getguiddescription_ref, msctf/ITfCategoryMgr::GetGUIDDescription, tsf.itfcategorymgr_getguiddescription
+ms.keywords: GetGUIDDescription, GetGUIDDescription method [Text Services Framework], GetGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUIDDescription method, ITfCategoryMgr.GetGUIDDescription, ITfCategoryMgr::GetGUIDDescription, _tsf_itfcategorymgr_getguiddescription_ref, msctf/ITfCategoryMgr::GetGUIDDescription, tsf.itfcategorymgr_getguiddescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCategoryMgr::GetGUIDDescription method
+# ITfCategoryMgr::GetGUIDDescription
 
 
 ## -description

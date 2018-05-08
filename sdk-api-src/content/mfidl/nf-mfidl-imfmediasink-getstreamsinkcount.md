@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetStreamSinkCount
-title: IMFMediaSink::GetStreamSinkCount method
+title: IMFMediaSink::GetStreamSinkCount
 author: windows-driver-content
 description: Gets the number of stream sinks on this media sink.
 old-location: mf\imfmediasink_getstreamsinkcount.htm
 old-project: medfound
 ms.assetid: bf4b5713-586c-4b12-80a1-4452eec63e32
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamSinkCount method [Media Foundation], GetStreamSinkCount method [Media Foundation], IMFMediaSink interface, GetStreamSinkCount,IMFMediaSink.GetStreamSinkCount, IMFMediaSink, IMFMediaSink interface [Media Foundation], GetStreamSinkCount method, IMFMediaSink::GetStreamSinkCount, bf4b5713-586c-4b12-80a1-4452eec63e32, mf.imfmediasink_getstreamsinkcount, mfidl/IMFMediaSink::GetStreamSinkCount
+ms.date: 5/3/2018
+ms.keywords: GetStreamSinkCount, GetStreamSinkCount method [Media Foundation], GetStreamSinkCount method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetStreamSinkCount method, IMFMediaSink.GetStreamSinkCount, IMFMediaSink::GetStreamSinkCount, bf4b5713-586c-4b12-80a1-4452eec63e32, mf.imfmediasink_getstreamsinkcount, mfidl/IMFMediaSink::GetStreamSinkCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSink::GetStreamSinkCount method
+# IMFMediaSink::GetStreamSinkCount
 
 
 ## -description

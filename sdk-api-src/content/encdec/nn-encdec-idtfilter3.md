@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 88e42006-c387-41b5-a013-e968da0d918b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDTFilter3, IDTFilter3 interface [Microsoft TV Technologies], IDTFilter3 interface [Microsoft TV Technologies], described, IDTFilter3Interface, encdec/IDTFilter3, mstv.idtfilter3
+ms.keywords: IDTFilter3, IDTFilter3 interface [Microsoft TV Technologies], IDTFilter3 interface [Microsoft TV Technologies],described, IDTFilter3Interface, encdec/IDTFilter3, mstv.idtfilter3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

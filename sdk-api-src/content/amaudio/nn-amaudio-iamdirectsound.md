@@ -7,8 +7,8 @@ old-location: dshow\iamdirectsound.htm
 old-project: DirectShow
 ms.assetid: a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], IAMDirectSound interface [DirectShow], described, IAMDirectSoundInterface, amaudio/IAMDirectSound, dshow.iamdirectsound
+ms.date: 4/30/2018
+ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], IAMDirectSound interface [DirectShow],described, IAMDirectSoundInterface, amaudio/IAMDirectSound, dshow.iamdirectsound
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: WebDAV
 ms.assetid: 96bacda5-8f24-4119-b0ae-82ff8aff54b4
 ms.author: windowsdriverdev
 ms.date: 3/22/2018
-ms.keywords: DavFreeCredCallback, DavFreeCredCallback callback function [WebDAV], PFNDAVAUTHCALLBACK_FREECRED, davclnt/DavFreeCredCallback, webdav.freecredcallback
+ms.keywords: DavFreeCredCallback, DavFreeCredCallback callback function [WebDAV], PFNDAVAUTHCALLBACK_FREECRED, PFNDAVAUTHCALLBACK_FREECRED callback, davclnt/DavFreeCredCallback, webdav.freecredcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PFNDAVAUTHCALLBACK_FREECRED callback
+# PFNDAVAUTHCALLBACK_FREECRED callback function
 
 
 ## -description

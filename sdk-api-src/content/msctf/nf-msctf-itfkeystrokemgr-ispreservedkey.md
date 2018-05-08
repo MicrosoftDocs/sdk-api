@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.IsPreservedKey
-title: ITfKeystrokeMgr::IsPreservedKey method
+title: ITfKeystrokeMgr::IsPreservedKey
 author: windows-driver-content
 description: ITfKeystrokeMgr::IsPreservedKey method
 old-location: tsf\itfkeystrokemgr_ispreservedkey.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 50deac9c-b659-494b-9cda-d6109fa39363
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfKeystrokeMgr, ITfKeystrokeMgr interface [Text Services Framework], IsPreservedKey method, ITfKeystrokeMgr::IsPreservedKey, IsPreservedKey method [Text Services Framework], IsPreservedKey method [Text Services Framework], ITfKeystrokeMgr interface, IsPreservedKey,ITfKeystrokeMgr.IsPreservedKey, _tsf_itfkeystrokemgr_ispreservedkey_ref, msctf/ITfKeystrokeMgr::IsPreservedKey, tsf.itfkeystrokemgr_ispreservedkey
+ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],IsPreservedKey method, ITfKeystrokeMgr.IsPreservedKey, ITfKeystrokeMgr::IsPreservedKey, IsPreservedKey, IsPreservedKey method [Text Services Framework], IsPreservedKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_ispreservedkey_ref, msctf/ITfKeystrokeMgr::IsPreservedKey, tsf.itfkeystrokemgr_ispreservedkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfKeystrokeMgr::IsPreservedKey method
+# ITfKeystrokeMgr::IsPreservedKey
 
 
 ## -description

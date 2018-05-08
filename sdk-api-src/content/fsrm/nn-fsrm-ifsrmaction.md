@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 81bfae1d-7d09-4ddc-9669-1da40dc72fd4
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmAction, IFsrmAction interface [File Server Resource Manager], IFsrmAction interface [File Server Resource Manager], described, fs.ifsrmaction, fsrm.ifsrmaction, fsrm/IFsrmAction
+ms.keywords: IFsrmAction, IFsrmAction interface [File Server Resource Manager], IFsrmAction interface [File Server Resource Manager],described, fs.ifsrmaction, fsrm.ifsrmaction, fsrm/IFsrmAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

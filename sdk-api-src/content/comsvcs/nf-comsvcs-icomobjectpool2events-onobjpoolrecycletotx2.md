@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectPool2Events.OnObjPoolRecycleToTx2
-title: IComObjectPool2Events::OnObjPoolRecycleToTx2 method
+title: IComObjectPool2Events::OnObjPoolRecycleToTx2
 author: windows-driver-content
 description: Generated when a transactional object is returned to the pool.
 old-location: cos\icomobjectpool2events_onobjpoolrecycletotx2.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: f737289f-c990-455e-bc9b-e94f25c9297f
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComObjectPool2Events, IComObjectPool2Events interface [COM+], OnObjPoolRecycleToTx2 method, IComObjectPool2Events::OnObjPoolRecycleToTx2, OnObjPoolRecycleToTx2 method [COM+], OnObjPoolRecycleToTx2 method [COM+], IComObjectPool2Events interface, OnObjPoolRecycleToTx2,IComObjectPool2Events.OnObjPoolRecycleToTx2, _dtc_IComObjectPool2Events_OnObjPoolRecycleToTx2, comsvcs/IComObjectPool2Events::OnObjPoolRecycleToTx2, cos.icomobjectpool2events_onobjpoolrecycletotx2
+ms.keywords: IComObjectPool2Events interface [COM+],OnObjPoolRecycleToTx2 method, IComObjectPool2Events.OnObjPoolRecycleToTx2, IComObjectPool2Events::OnObjPoolRecycleToTx2, OnObjPoolRecycleToTx2, OnObjPoolRecycleToTx2 method [COM+], OnObjPoolRecycleToTx2 method [COM+],IComObjectPool2Events interface, _dtc_IComObjectPool2Events_OnObjPoolRecycleToTx2, comsvcs/IComObjectPool2Events::OnObjPoolRecycleToTx2, cos.icomobjectpool2events_onobjpoolrecycletotx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComObjectPool2Events::OnObjPoolRecycleToTx2 method
+# IComObjectPool2Events::OnObjPoolRecycleToTx2
 
 
 ## -description

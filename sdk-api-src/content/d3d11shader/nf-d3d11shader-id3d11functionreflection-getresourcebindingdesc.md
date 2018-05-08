@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionReflection.GetResourceBindingDesc
-title: ID3D11FunctionReflection::GetResourceBindingDesc method
+title: ID3D11FunctionReflection::GetResourceBindingDesc
 author: windows-driver-content
 description: Gets a description of how a resource is bound to a function.
 old-location: direct3d11\id3d11functionreflection_getresourcebindingdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: A54B2CD4-BE4C-470C-BBE0-2678F659BEAF
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetResourceBindingDesc method [Direct3D 11], GetResourceBindingDesc method [Direct3D 11], ID3D11FunctionReflection interface, GetResourceBindingDesc,ID3D11FunctionReflection.GetResourceBindingDesc, ID3D11FunctionReflection, ID3D11FunctionReflection interface [Direct3D 11], GetResourceBindingDesc method, ID3D11FunctionReflection::GetResourceBindingDesc, d3d11shader/ID3D11FunctionReflection::GetResourceBindingDesc, direct3d11.id3d11functionreflection_getresourcebindingdesc
+ms.keywords: GetResourceBindingDesc, GetResourceBindingDesc method [Direct3D 11], GetResourceBindingDesc method [Direct3D 11],ID3D11FunctionReflection interface, ID3D11FunctionReflection interface [Direct3D 11],GetResourceBindingDesc method, ID3D11FunctionReflection.GetResourceBindingDesc, ID3D11FunctionReflection::GetResourceBindingDesc, d3d11shader/ID3D11FunctionReflection::GetResourceBindingDesc, direct3d11.id3d11functionreflection_getresourcebindingdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11FunctionReflection::GetResourceBindingDesc method
+# ID3D11FunctionReflection::GetResourceBindingDesc
 
 
 ## -description

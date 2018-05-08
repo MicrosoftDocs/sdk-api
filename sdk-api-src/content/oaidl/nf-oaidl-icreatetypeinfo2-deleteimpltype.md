@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteImplType
-title: ICreateTypeInfo2::DeleteImplType method
+title: ICreateTypeInfo2::DeleteImplType
 author: windows-driver-content
 description: Deletes the IMPLTYPE flags for the indexed interface.
 old-location: automat\icreatetypeinfo2_deleteimpltype.htm
 old-project: automat
 ms.assetid: c64b70eb-6047-4572-9d5e-f40b3c302f31
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: DeleteImplType method [Automation], DeleteImplType method [Automation], ICreateTypeInfo2 interface, DeleteImplType,ICreateTypeInfo2.DeleteImplType, ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], DeleteImplType method, ICreateTypeInfo2::DeleteImplType, _oa96_ICreateTypeInfo2_DeleteImplType, automat.icreatetypeinfo2_deleteimpltype, oaidl/ICreateTypeInfo2::DeleteImplType
+ms.date: 5/4/2018
+ms.keywords: DeleteImplType, DeleteImplType method [Automation], DeleteImplType method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteImplType method, ICreateTypeInfo2.DeleteImplType, ICreateTypeInfo2::DeleteImplType, _oa96_ICreateTypeInfo2_DeleteImplType, automat.icreatetypeinfo2_deleteimpltype, oaidl/ICreateTypeInfo2::DeleteImplType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo2::DeleteImplType method
+# ICreateTypeInfo2::DeleteImplType
 
 
 ## -description

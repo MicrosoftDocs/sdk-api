@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentTypes.Add
-title: IComponentTypes::Add method
+title: IComponentTypes::Add
 author: windows-driver-content
 description: The Add method adds a new ComponentType object to the collection.
 old-location: mstv\icomponenttypes_add.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 157f8d81-dbbf-44a7-9786-0758d3c89634
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies], IComponentTypes interface, Add,IComponentTypes.Add, IComponentTypes, IComponentTypes interface [Microsoft TV Technologies], Add method, IComponentTypes::Add, IComponentTypesAdd, mstv.icomponenttypes_add, tuner/IComponentTypes::Add
+ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IComponentTypes interface, IComponentTypes interface [Microsoft TV Technologies],Add method, IComponentTypes.Add, IComponentTypes::Add, IComponentTypesAdd, mstv.icomponenttypes_add, tuner/IComponentTypes::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IComponentTypes::Add method
+# IComponentTypes::Add
 
 
 ## -description

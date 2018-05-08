@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetName
-title: IMFTimedTextRegion::GetName method
+title: IMFTimedTextRegion::GetName
 author: windows-driver-content
 description: Gets the name of the region.
 old-location: mf\imftimedtextregion_getname.htm
 old-project: medfound
 ms.assetid: 1B3C07CF-0E9C-4C7D-8F41-7A0B168967A3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetName method [Media Foundation], GetName method [Media Foundation], IMFTimedTextRegion interface, GetName,IMFTimedTextRegion.GetName, IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], GetName method, IMFTimedTextRegion::GetName, mf.imftimedtextregion_getname, mfmediaengine/IMFTimedTextRegion::GetName
+ms.date: 5/3/2018
+ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetName method, IMFTimedTextRegion.GetName, IMFTimedTextRegion::GetName, mf.imftimedtextregion_getname, mfmediaengine/IMFTimedTextRegion::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextRegion::GetName method
+# IMFTimedTextRegion::GetName
 
 
 ## -description

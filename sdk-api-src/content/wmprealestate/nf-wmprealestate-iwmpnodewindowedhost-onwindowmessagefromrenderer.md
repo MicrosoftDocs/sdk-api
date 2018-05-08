@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPNodeWindowedHost.OnWindowMessageFromRenderer
-title: IWMPNodeWindowedHost::OnWindowMessageFromRenderer method
+title: IWMPNodeWindowedHost::OnWindowMessageFromRenderer
 author: windows-driver-content
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
 old-location: wmp\iwmpnodewindowedhost_onwindowmessagefromrenderer.htm
 old-project: WMP
 ms.assetid: 44b334af-503d-4a67-88be-9c97910c315a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNodeWindowedHost, IWMPNodeWindowedHost interface [Windows Media Player], OnWindowMessageFromRenderer method, IWMPNodeWindowedHost::OnWindowMessageFromRenderer, IWMPNodeWindowedHostOnWindowMessageFromRendererRendering, OnWindowMessageFromRenderer method [Windows Media Player], OnWindowMessageFromRenderer method [Windows Media Player], IWMPNodeWindowedHost interface, OnWindowMessageFromRenderer,IWMPNodeWindowedHost.OnWindowMessageFromRenderer, wmp.iwmpnodewindowedhost_onwindowmessagefromrenderer, wmprealestate/IWMPNodeWindowedHost::OnWindowMessageFromRenderer
+ms.date: 5/2/2018
+ms.keywords: IWMPNodeWindowedHost interface [Windows Media Player],OnWindowMessageFromRenderer method, IWMPNodeWindowedHost.OnWindowMessageFromRenderer, IWMPNodeWindowedHost::OnWindowMessageFromRenderer, IWMPNodeWindowedHostOnWindowMessageFromRendererRendering, OnWindowMessageFromRenderer, OnWindowMessageFromRenderer method [Windows Media Player], OnWindowMessageFromRenderer method [Windows Media Player],IWMPNodeWindowedHost interface, wmp.iwmpnodewindowedhost_onwindowmessagefromrenderer, wmprealestate/IWMPNodeWindowedHost::OnWindowMessageFromRenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNodeWindowedHost::OnWindowMessageFromRenderer method
+# IWMPNodeWindowedHost::OnWindowMessageFromRenderer
 
 
 ## -description

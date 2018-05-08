@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.SendPolicyData
-title: IWTSProtocolConnection::SendPolicyData method
+title: IWTSProtocolConnection::SendPolicyData
 author: windows-driver-content
 description: IWTSProtocolConnection::SendPolicyData is no longer available. Instead, use IWRdsProtocolManager::NotifySettingsChange.
 old-location: termserv\iwtsprotocolconnection_sendpolicydata.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: b3fcc213-8257-433f-b304-ce19bc209591
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], SendPolicyData method, IWTSProtocolConnection::SendPolicyData, SendPolicyData method [Remote Desktop Services], SendPolicyData method [Remote Desktop Services], IWTSProtocolConnection interface, SendPolicyData,IWTSProtocolConnection.SendPolicyData, termserv.iwtsprotocolconnection_sendpolicydata, wtsprotocol/IWTSProtocolConnection::SendPolicyData
+ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],SendPolicyData method, IWTSProtocolConnection.SendPolicyData, IWTSProtocolConnection::SendPolicyData, SendPolicyData, SendPolicyData method [Remote Desktop Services], SendPolicyData method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_sendpolicydata, wtsprotocol/IWTSProtocolConnection::SendPolicyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolConnection::SendPolicyData method
+# IWTSProtocolConnection::SendPolicyData
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.SecurityProperty.GetDirectCallerName
-title: SecurityProperty::GetDirectCallerName method
+title: SecurityProperty::GetDirectCallerName
 author: windows-driver-content
 description: Retrieves the user name associated with the external process that called the currently executing method.
 old-location: cos\securityproperty_getdirectcallername.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 451e073f-8dba-459a-92f3-4e9f1128a2c6
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetDirectCallerName method [COM+], GetDirectCallerName method [COM+], SecurityProperty interface, GetDirectCallerName,SecurityProperty.GetDirectCallerName, SecurityProperty, SecurityProperty interface [COM+], GetDirectCallerName method, SecurityProperty::GetDirectCallerName, _cos_SecurityProperty_GetDirectCallerName, comsvcs/SecurityProperty::GetDirectCallerName, cos.securityproperty_getdirectcallername
+ms.keywords: GetDirectCallerName, GetDirectCallerName method [COM+], GetDirectCallerName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetDirectCallerName method, SecurityProperty.GetDirectCallerName, SecurityProperty::GetDirectCallerName, _cos_SecurityProperty_GetDirectCallerName, comsvcs/SecurityProperty::GetDirectCallerName, cos.securityproperty_getdirectcallername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# SecurityProperty::GetDirectCallerName method
+# SecurityProperty::GetDirectCallerName
 
 
 ## -description

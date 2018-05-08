@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.ITravelLog.GetTravelEntry
-title: ITravelLog::GetTravelEntry method
+title: ITravelLog::GetTravelEntry
 author: windows-driver-content
 description: Deprecated. Gets a travel entry in the travel log relative to the position of the current entry.
 old-location: shell\ITravelLog_GetTravelEntry.htm
 old-project: shell
 ms.assetid: 8db8aa9a-91c2-49fb-bbef-c7e19de09efe
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetTravelEntry method [Windows Shell], GetTravelEntry method [Windows Shell], ITravelLog interface, GetTravelEntry,ITravelLog.GetTravelEntry, ITravelLog, ITravelLog interface [Windows Shell], GetTravelEntry method, ITravelLog::GetTravelEntry, shdeprecated/ITravelLog::GetTravelEntry, shell.ITravelLog_GetTravelEntry, zone_ITravelLog_GetTravelEntry
+ms.date: 5/3/2018
+ms.keywords: GetTravelEntry, GetTravelEntry method [Windows Shell], GetTravelEntry method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],GetTravelEntry method, ITravelLog.GetTravelEntry, ITravelLog::GetTravelEntry, shdeprecated/ITravelLog::GetTravelEntry, shell.ITravelLog_GetTravelEntry, zone_ITravelLog_GetTravelEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# ITravelLog::GetTravelEntry method
+# ITravelLog::GetTravelEntry
 
 
 ## -description

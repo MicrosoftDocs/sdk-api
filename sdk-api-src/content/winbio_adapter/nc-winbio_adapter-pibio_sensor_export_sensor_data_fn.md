@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: a6e45371-169b-42a8-9a53-dd7b2928a754
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_EXPORT_SENSOR_DATA_FN, SensorAdapterExportSensorData, SensorAdapterExportSensorData callback function [Windows Biometric Framework API], secbiomet.sensoradapterexportsensordata, winbio_adapter/SensorAdapterExportSensorData
+ms.keywords: PIBIO_SENSOR_EXPORT_SENSOR_DATA_FN, PIBIO_SENSOR_EXPORT_SENSOR_DATA_FN callback, SensorAdapterExportSensorData, SensorAdapterExportSensorData callback function [Windows Biometric Framework API], secbiomet.sensoradapterexportsensordata, winbio_adapter/SensorAdapterExportSensorData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_EXPORT_SENSOR_DATA_FN callback
+# PIBIO_SENSOR_EXPORT_SENSOR_DATA_FN callback function
 
 
 ## -description

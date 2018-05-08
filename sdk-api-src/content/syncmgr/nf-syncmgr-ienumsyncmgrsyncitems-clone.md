@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrSyncItems.Clone
-title: IEnumSyncMgrSyncItems::Clone method
+title: IEnumSyncMgrSyncItems::Clone
 author: windows-driver-content
 description: Not used. Clones an IEnumSyncMgrSyncItems object.
 old-location: shell\IEnumSyncMgrSyncItems_Clone.htm
 old-project: shell
 ms.assetid: bf320918-9f63-494f-88af-a5fab91ef0e3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Clone method [Windows Shell], Clone method [Windows Shell], IEnumSyncMgrSyncItems interface, Clone,IEnumSyncMgrSyncItems.Clone, IEnumSyncMgrSyncItems, IEnumSyncMgrSyncItems interface [Windows Shell], Clone method, IEnumSyncMgrSyncItems::Clone, _shell_IEnumSyncMgrSyncItems_Clone, shell.IEnumSyncMgrSyncItems_Clone, syncmgr/IEnumSyncMgrSyncItems::Clone
+ms.date: 5/3/2018
+ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumSyncMgrSyncItems interface, IEnumSyncMgrSyncItems interface [Windows Shell],Clone method, IEnumSyncMgrSyncItems.Clone, IEnumSyncMgrSyncItems::Clone, _shell_IEnumSyncMgrSyncItems_Clone, shell.IEnumSyncMgrSyncItems_Clone, syncmgr/IEnumSyncMgrSyncItems::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumSyncMgrSyncItems::Clone method
+# IEnumSyncMgrSyncItems::Clone
 
 
 ## -description

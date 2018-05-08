@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.Activate
-title: IDirectMusicSynthSink::Activate method
+title: IDirectMusicSynthSink::Activate
 author: windows-driver-content
 description: The Activate method activates or deactivates the synthesizer sink.
 old-location: audio\idirectmusicsynthsink_activate.htm
 old-project: audio
 ms.assetid: 49b66410-23bd-4c4d-929c-b7e82fb45a9c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: Activate method [Audio Devices], Activate method [Audio Devices], IDirectMusicSynthSink interface, Activate,IDirectMusicSynthSink.Activate, IDirectMusicSynthSink, IDirectMusicSynthSink interface [Audio Devices], Activate method, IDirectMusicSynthSink::Activate, audio.idirectmusicsynthsink_activate, audmp-routines_8a2d5dd7-92f1-4341-a5f3-68fd1215fc06.xml, dmusics/IDirectMusicSynthSink::Activate
+ms.date: 5/1/2018
+ms.keywords: Activate, Activate method [Audio Devices], Activate method [Audio Devices],IDirectMusicSynthSink interface, IDirectMusicSynthSink interface [Audio Devices],Activate method, IDirectMusicSynthSink.Activate, IDirectMusicSynthSink::Activate, audio.idirectmusicsynthsink_activate, audmp-routines_8a2d5dd7-92f1-4341-a5f3-68fd1215fc06.xml, dmusics/IDirectMusicSynthSink::Activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectMusicSynthSink::Activate method
+# IDirectMusicSynthSink::Activate
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mspstrm.CMSPStream.GetState
-title: CMSPStream::GetState method
+title: CMSPStream::GetState
 author: windows-driver-content
 description: The GetState method is called by the MSPCall object. It returns the current status of the stream. The default implementation returns E_NOTIMPL.
 old-location: tapi3\cmspstream_getstate.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 03fc3801-8bd4-432a-b0ca-f6506bd8c788
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPStream, CMSPStream interface [TAPI 2.2], GetState method, CMSPStream::GetState, GetState method [TAPI 2.2], GetState method [TAPI 2.2], CMSPStream interface, GetState,CMSPStream.GetState, _tapi3_cmspstream_getstate, mspstrm/CMSPStream::GetState, tapi3.cmspstream_getstate
+ms.keywords: CMSPStream interface [TAPI 2.2],GetState method, CMSPStream.GetState, CMSPStream::GetState, GetState, GetState method [TAPI 2.2], GetState method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_getstate, mspstrm/CMSPStream::GetState, tapi3.cmspstream_getstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPStream::GetState method
+# CMSPStream::GetState
 
 
 ## -description

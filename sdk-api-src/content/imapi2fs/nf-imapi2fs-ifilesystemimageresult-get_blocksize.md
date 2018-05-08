@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_BlockSize
-title: IFileSystemImageResult::get_BlockSize method
+title: IFileSystemImageResult::get_BlockSize
 author: windows-driver-content
 description: Retrieves the size, in bytes, of a block of data.
 old-location: imapi\ifilesystemimageresult_get_blocksize.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: fe6d14d7-f3ae-4634-b8b4-1793f8007826
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImageResult, IFileSystemImageResult interface [IMAPI], get_BlockSize method, IFileSystemImageResult::get_BlockSize, get_BlockSize method [IMAPI], get_BlockSize method [IMAPI], IFileSystemImageResult interface, get_BlockSize,IFileSystemImageResult.get_BlockSize, imapi.ifilesystemimageresult_get_blocksize, imapi2fs/IFileSystemImageResult::get_BlockSize
+ms.keywords: IFileSystemImageResult interface [IMAPI],get_BlockSize method, IFileSystemImageResult.get_BlockSize, IFileSystemImageResult::get_BlockSize, get_BlockSize, get_BlockSize method [IMAPI], get_BlockSize method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_blocksize, imapi2fs/IFileSystemImageResult::get_BlockSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImageResult::get_BlockSize method
+# IFileSystemImageResult::get_BlockSize
 
 
 ## -description

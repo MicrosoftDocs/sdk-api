@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IConnectionPointContainer.FindConnectionPoint
-title: IConnectionPointContainer::FindConnectionPoint method
+title: IConnectionPointContainer::FindConnectionPoint
 author: windows-driver-content
 description: Returns a pointer to the IConnectionPoint interface of a connection point for a specified IID, if that IID describes a supported outgoing interface.
 old-location: com\iconnectionpointcontainer_findconnectionpoint.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bbe55013-13ca-43e8-8d5e-ef89076df039
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: FindConnectionPoint method [COM], FindConnectionPoint method [COM], IConnectionPointContainer interface, FindConnectionPoint,IConnectionPointContainer.FindConnectionPoint, IConnectionPointContainer, IConnectionPointContainer interface [COM], FindConnectionPoint method, IConnectionPointContainer::FindConnectionPoint, _com_iconnectionpointcontainer_findconnectionpoint, com.iconnectionpointcontainer_findconnectionpoint, ocidl/IConnectionPointContainer::FindConnectionPoint
+ms.keywords: FindConnectionPoint, FindConnectionPoint method [COM], FindConnectionPoint method [COM],IConnectionPointContainer interface, IConnectionPointContainer interface [COM],FindConnectionPoint method, IConnectionPointContainer.FindConnectionPoint, IConnectionPointContainer::FindConnectionPoint, _com_iconnectionpointcontainer_findconnectionpoint, com.iconnectionpointcontainer_findconnectionpoint, ocidl/IConnectionPointContainer::FindConnectionPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IConnectionPointContainer::FindConnectionPoint method
+# IConnectionPointContainer::FindConnectionPoint
 
 
 ## -description

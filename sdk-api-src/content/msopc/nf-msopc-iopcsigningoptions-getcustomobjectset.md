@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCustomObjectSet
-title: IOpcSigningOptions::GetCustomObjectSet method
+title: IOpcSigningOptions::GetCustomObjectSet
 author: windows-driver-content
 description: Gets an IOpcSignatureCustomObjectSet interface.
 old-location: opc\iopcsigningoptions_getcustomobjectset.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 1b4d31cb-f12a-4b51-8b28-470e065e1661
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCustomObjectSet method [Open Packaging Conventions], GetCustomObjectSet method [Open Packaging Conventions], IOpcSigningOptions interface, GetCustomObjectSet,IOpcSigningOptions.GetCustomObjectSet, IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], GetCustomObjectSet method, IOpcSigningOptions::GetCustomObjectSet, msopc/IOpcSigningOptions::GetCustomObjectSet, opc.iopcsigningoptions_getcustomobjectset
+ms.keywords: GetCustomObjectSet, GetCustomObjectSet method [Open Packaging Conventions], GetCustomObjectSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCustomObjectSet method, IOpcSigningOptions.GetCustomObjectSet, IOpcSigningOptions::GetCustomObjectSet, msopc/IOpcSigningOptions::GetCustomObjectSet, opc.iopcsigningoptions_getcustomobjectset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSigningOptions::GetCustomObjectSet method
+# IOpcSigningOptions::GetCustomObjectSet
 
 
 ## -description

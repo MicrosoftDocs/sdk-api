@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.SetOldNumbers
-title: ITextFont2::SetOldNumbers method
+title: ITextFont2::SetOldNumbers
 author: windows-driver-content
 description: Sets whether old-style numbers are active.
 old-location: controls\itextfont2_setoldnumbers.htm
 old-project: Controls
 ms.assetid: f510781e-ede9-41dc-ae69-3b0ca52a6773
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetOldNumbers method, ITextFont2::SetOldNumbers, SetOldNumbers method [Windows Controls], SetOldNumbers method [Windows Controls], ITextFont2 interface, SetOldNumbers,ITextFont2.SetOldNumbers, controls.itextfont2_setoldnumbers, tom/ITextFont2::SetOldNumbers
+ms.date: 4/27/2018
+ms.keywords: ITextFont2 interface [Windows Controls],SetOldNumbers method, ITextFont2.SetOldNumbers, ITextFont2::SetOldNumbers, SetOldNumbers, SetOldNumbers method [Windows Controls], SetOldNumbers method [Windows Controls],ITextFont2 interface, controls.itextfont2_setoldnumbers, tom/ITextFont2::SetOldNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::SetOldNumbers method
+# ITextFont2::SetOldNumbers
 
 
 ## -description

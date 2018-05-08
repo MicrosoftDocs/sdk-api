@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel
-title: IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel method
+title: IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel
 author: windows-driver-content
 description: Gets the shadow copy protection level and status for the specified volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_getvolumeprotectlevel.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: a67bf9f1-135b-4881-acd1-6392f27d58e5
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetVolumeProtectLevel method, GetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3 interface, GetVolumeProtectLevel,IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel, IVssDifferentialSoftwareSnapshotMgmt3, IVssDifferentialSoftwareSnapshotMgmt3 interface, GetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel, base.ivssdifferentialsoftwaresnapshotmgmt3_getvolumeprotectlevel, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel
+ms.keywords: GetVolumeProtectLevel, GetVolumeProtectLevel method, GetVolumeProtectLevel method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,GetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel, IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel, base.ivssdifferentialsoftwaresnapshotmgmt3_getvolumeprotectlevel, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel method
+# IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel
 
 
 ## -description

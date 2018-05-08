@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetCurrentImage
-title: IVMRWindowlessControl::GetCurrentImage method
+title: IVMRWindowlessControl::GetCurrentImage
 author: windows-driver-content
 description: The GetCurrentImage method retrieves a copy of the current image being displayed by the VMR.
 old-location: dshow\ivmrwindowlesscontrol_getcurrentimage.htm
 old-project: DirectShow
 ms.assetid: 515e252d-4ac4-49ec-8d94-bf850dd4783f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow], IVMRWindowlessControl interface, GetCurrentImage,IVMRWindowlessControl.GetCurrentImage, IVMRWindowlessControl, IVMRWindowlessControl interface [DirectShow], GetCurrentImage method, IVMRWindowlessControl::GetCurrentImage, IVMRWindowlessControlGetCurrentImage, dshow.ivmrwindowlesscontrol_getcurrentimage, strmif/IVMRWindowlessControl::GetCurrentImage
+ms.date: 4/30/2018
+ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetCurrentImage method, IVMRWindowlessControl.GetCurrentImage, IVMRWindowlessControl::GetCurrentImage, IVMRWindowlessControlGetCurrentImage, dshow.ivmrwindowlesscontrol_getcurrentimage, strmif/IVMRWindowlessControl::GetCurrentImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRWindowlessControl::GetCurrentImage method
+# IVMRWindowlessControl::GetCurrentImage
 
 
 ## -description

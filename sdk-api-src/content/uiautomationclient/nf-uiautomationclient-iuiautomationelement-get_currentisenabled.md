@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsEnabled
-title: IUIAutomationElement::get_CurrentIsEnabled method
+title: IUIAutomationElement::get_CurrentIsEnabled
 author: windows-driver-content
 description: Indicates whether the element is enabled.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsEnabled.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 65b1311d-479a-4be4-a9fb-7dfe885420b8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentIsEnabled property [Windows Accessibility], CurrentIsEnabled property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentIsEnabled property, IUIAutomationElement.CurrentIsEnabled, IUIAutomationElement::get_CurrentIsEnabled, get_CurrentIsEnabled,IUIAutomationElement.get_CurrentIsEnabled, uiauto.uiauto_IUIAutomationElement_CurrentIsEnabled, uiauto_IUIAutomationElement_CurrentIsEnabled, uiautomationclient/IUIAutomationElement::CurrentIsEnabled, uiautomationclient/IUIAutomationElement::get_CurrentIsEnabled, winauto.uiauto_IUIAutomationElement_CurrentIsEnabled
+ms.keywords: CurrentIsEnabled property [Windows Accessibility], CurrentIsEnabled property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsEnabled property, IUIAutomationElement.CurrentIsEnabled, IUIAutomationElement.get_CurrentIsEnabled, IUIAutomationElement::CurrentIsEnabled, IUIAutomationElement::get_CurrentIsEnabled, get_CurrentIsEnabled, uiauto.uiauto_IUIAutomationElement_CurrentIsEnabled, uiauto_IUIAutomationElement_CurrentIsEnabled, uiautomationclient/IUIAutomationElement::CurrentIsEnabled, uiautomationclient/IUIAutomationElement::get_CurrentIsEnabled, winauto.uiauto_IUIAutomationElement_CurrentIsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CurrentIsEnabled method
+# IUIAutomationElement::get_CurrentIsEnabled
 
 
 ## -description

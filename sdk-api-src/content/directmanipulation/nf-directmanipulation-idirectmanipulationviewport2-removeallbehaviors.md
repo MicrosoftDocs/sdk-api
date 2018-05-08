@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport2.RemoveAllBehaviors
-title: IDirectManipulationViewport2::RemoveAllBehaviors method
+title: IDirectManipulationViewport2::RemoveAllBehaviors
 author: windows-driver-content
 description: Removes all behaviors added to the viewport.
 old-location: directmanipulation\idirectmanipulationviewport2_removeallbehaviors.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 94CCF2F4-F6E7-4446-8F6A-3E058B98A328
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport2, IDirectManipulationViewport2 interface [Direct Manipulation], RemoveAllBehaviors method, IDirectManipulationViewport2::RemoveAllBehaviors, RemoveAllBehaviors method [Direct Manipulation], RemoveAllBehaviors method [Direct Manipulation], IDirectManipulationViewport2 interface, RemoveAllBehaviors,IDirectManipulationViewport2.RemoveAllBehaviors, directmanipulation.idirectmanipulationviewport2_removeallbehaviors, directmanipulation/IDirectManipulationViewport2::RemoveAllBehaviors
+ms.keywords: IDirectManipulationViewport2 interface [Direct Manipulation],RemoveAllBehaviors method, IDirectManipulationViewport2.RemoveAllBehaviors, IDirectManipulationViewport2::RemoveAllBehaviors, RemoveAllBehaviors, RemoveAllBehaviors method [Direct Manipulation], RemoveAllBehaviors method [Direct Manipulation],IDirectManipulationViewport2 interface, directmanipulation.idirectmanipulationviewport2_removeallbehaviors, directmanipulation/IDirectManipulationViewport2::RemoveAllBehaviors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport2::RemoveAllBehaviors method
+# IDirectManipulationViewport2::RemoveAllBehaviors
 
 
 ## -description

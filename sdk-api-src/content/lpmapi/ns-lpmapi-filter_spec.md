@@ -67,14 +67,12 @@ RSVP Object Header for the FILTERSPEC, in the form of an <a href="https://msdn.m
 ### -field filt_u
 
 
-
-#### filt_ipv4
+### -field filt_u.filt_ipv4
 
 FILTERSPEC, in the form of a <a href="https://msdn.microsoft.com/b17a45b2-e50b-4ec2-9f1c-e1ab80ce572e">Filter_Spec_IPv4</a> header.
 
 
-
-#### filt_ipv4gpi
+### -field filt_u.filt_ipv4gpi
 
 FILTERSPEC GPI information, in the form of a <a href="https://msdn.microsoft.com/c1546673-d1b5-4a7f-82d0-a8cc1c7c8752">Filter_Spec_IPv4GPI</a> header.
 

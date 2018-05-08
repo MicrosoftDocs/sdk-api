@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSGetViewports
-title: ID3D10Device::RSGetViewports method
+title: ID3D10Device::RSGetViewports
 author: windows-driver-content
 description: Get the array of viewports bound to the rasterizer stage
 old-location: direct3d10\id3d10device_rsgetviewports.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rsgetviewports.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10Device, ID3D10Device interface [Direct3D 10], RSGetViewports method, ID3D10Device::RSGetViewports, RSGetViewports method [Direct3D 10], RSGetViewports method [Direct3D 10], ID3D10Device interface, RSGetViewports,ID3D10Device.RSGetViewports, d3d10/ID3D10Device::RSGetViewports, d9ea7cbf-16e9-686e-f682-4c7619caae2c, direct3d10.id3d10device_rsgetviewports
+ms.keywords: ID3D10Device interface [Direct3D 10],RSGetViewports method, ID3D10Device.RSGetViewports, ID3D10Device::RSGetViewports, RSGetViewports, RSGetViewports method [Direct3D 10], RSGetViewports method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::RSGetViewports, d9ea7cbf-16e9-686e-f682-4c7619caae2c, direct3d10.id3d10device_rsgetviewports
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::RSGetViewports method
+# ID3D10Device::RSGetViewports
 
 
 ## -description

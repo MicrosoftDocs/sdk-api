@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetSwitches
-title: IDirectDrawVideo::GetSwitches method
+title: IDirectDrawVideo::GetSwitches
 author: windows-driver-content
 description: The GetSwitches method retrieves the surface types that the renderer is allowed to use.
 old-location: dshow\idirectdrawvideo_getswitches.htm
 old-project: DirectShow
 ms.assetid: 0a9e3c46-6d2d-474e-ab72-f67b5ed450f2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSwitches method [DirectShow], GetSwitches method [DirectShow], IDirectDrawVideo interface, GetSwitches,IDirectDrawVideo.GetSwitches, IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], GetSwitches method, IDirectDrawVideo::GetSwitches, IDirectDrawVideoGetSwitches, amvideo/IDirectDrawVideo::GetSwitches, dshow.idirectdrawvideo_getswitches
+ms.date: 4/30/2018
+ms.keywords: GetSwitches, GetSwitches method [DirectShow], GetSwitches method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSwitches method, IDirectDrawVideo.GetSwitches, IDirectDrawVideo::GetSwitches, IDirectDrawVideoGetSwitches, amvideo/IDirectDrawVideo::GetSwitches, dshow.idirectdrawvideo_getswitches
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawVideo::GetSwitches method
+# IDirectDrawVideo::GetSwitches
 
 
 ## -description

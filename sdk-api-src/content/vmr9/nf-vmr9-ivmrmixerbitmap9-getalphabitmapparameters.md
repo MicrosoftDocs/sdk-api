@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRMixerBitmap9.GetAlphaBitmapParameters
-title: IVMRMixerBitmap9::GetAlphaBitmapParameters method
+title: IVMRMixerBitmap9::GetAlphaBitmapParameters
 author: windows-driver-content
 description: The GetAlphaBitmapParameters method retrieves a copy of the current image and related blending parameters.
 old-location: dshow\ivmrmixerbitmap9_getalphabitmapparameters.htm
 old-project: DirectShow
 ms.assetid: a5e5891f-6842-40e7-8bf4-29c6979c7551
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAlphaBitmapParameters method [DirectShow], GetAlphaBitmapParameters method [DirectShow], IVMRMixerBitmap9 interface, GetAlphaBitmapParameters,IVMRMixerBitmap9.GetAlphaBitmapParameters, IVMRMixerBitmap9, IVMRMixerBitmap9 interface [DirectShow], GetAlphaBitmapParameters method, IVMRMixerBitmap9::GetAlphaBitmapParameters, IVMRMixerBitmap9GetAlphaBitmapParameters, dshow.ivmrmixerbitmap9_getalphabitmapparameters, vmr9/IVMRMixerBitmap9::GetAlphaBitmapParameters
+ms.date: 4/30/2018
+ms.keywords: GetAlphaBitmapParameters, GetAlphaBitmapParameters method [DirectShow], GetAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap9 interface, IVMRMixerBitmap9 interface [DirectShow],GetAlphaBitmapParameters method, IVMRMixerBitmap9.GetAlphaBitmapParameters, IVMRMixerBitmap9::GetAlphaBitmapParameters, IVMRMixerBitmap9GetAlphaBitmapParameters, dshow.ivmrmixerbitmap9_getalphabitmapparameters, vmr9/IVMRMixerBitmap9::GetAlphaBitmapParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRMixerBitmap9::GetAlphaBitmapParameters method
+# IVMRMixerBitmap9::GetAlphaBitmapParameters
 
 
 ## -description

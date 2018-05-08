@@ -7,8 +7,8 @@ old-location: wpdsdk\ienumportabledeviceconnectors.htm
 old-project: wpd_sdk
 ms.assetid: 99aa1e89-5e20-4f6e-82b5-acf63305eba0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IEnumPortableDeviceConnectors, IEnumPortableDeviceConnectors interface [Windows Portable Devices SDK], IEnumPortableDeviceConnectors interface [Windows Portable Devices SDK], described, devpkey/IEnumPortableDeviceConnectors, portabledeviceconnectapi/IEnumPortableDeviceConnectors, wpdsdk.ienumportabledeviceconnectors
+ms.date: 4/11/2018
+ms.keywords: IEnumPortableDeviceConnectors, IEnumPortableDeviceConnectors interface [Windows Portable Devices SDK], IEnumPortableDeviceConnectors interface [Windows Portable Devices SDK],described, devpkey/IEnumPortableDeviceConnectors, portabledeviceconnectapi/IEnumPortableDeviceConnectors, wpdsdk.ienumportabledeviceconnectors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # IEnumPortableDeviceConnectors interface

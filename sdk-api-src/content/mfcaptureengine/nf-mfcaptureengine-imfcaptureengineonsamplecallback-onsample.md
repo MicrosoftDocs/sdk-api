@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineOnSampleCallback.OnSample
-title: IMFCaptureEngineOnSampleCallback::OnSample method
+title: IMFCaptureEngineOnSampleCallback::OnSample
 author: windows-driver-content
 description: Called when the capture sink receives a sample.
 old-location: mf\imfcaptureengineonsamplecallback_onsample.htm
 old-project: medfound
 ms.assetid: 83FEFE33-DEAD-4CE0-9EEE-B8F3801ADC1C
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureEngineOnSampleCallback, IMFCaptureEngineOnSampleCallback interface [Media Foundation], OnSample method, IMFCaptureEngineOnSampleCallback::OnSample, OnSample method [Media Foundation], OnSample method [Media Foundation], IMFCaptureEngineOnSampleCallback interface, OnSample,IMFCaptureEngineOnSampleCallback.OnSample, mf.imfcaptureengineonsamplecallback_onsample, mfcaptureengine/IMFCaptureEngineOnSampleCallback::OnSample
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureEngineOnSampleCallback interface [Media Foundation],OnSample method, IMFCaptureEngineOnSampleCallback.OnSample, IMFCaptureEngineOnSampleCallback::OnSample, OnSample, OnSample method [Media Foundation], OnSample method [Media Foundation],IMFCaptureEngineOnSampleCallback interface, mf.imfcaptureengineonsamplecallback_onsample, mfcaptureengine/IMFCaptureEngineOnSampleCallback::OnSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureEngineOnSampleCallback::OnSample method
+# IMFCaptureEngineOnSampleCallback::OnSample
 
 
 ## -description

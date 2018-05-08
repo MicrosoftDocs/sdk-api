@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTaskCollection.get_Count
-title: IRunningTaskCollection::get_Count method
+title: IRunningTaskCollection::get_Count
 author: windows-driver-content
 description: Gets the number of running tasks in the collection.
 old-location: taskschd\irunningtaskcollection_count.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 0365b804-6450-494d-8a5b-8fc805766611
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler], IRunningTaskCollection interface, IRunningTaskCollection, IRunningTaskCollection interface [Task Scheduler], Count property, IRunningTaskCollection.Count, IRunningTaskCollection::get_Count, get_Count,IRunningTaskCollection.get_Count, taskschd.irunningtaskcollection_count, taskschd/IRunningTaskCollection::Count, taskschd/IRunningTaskCollection::get_Count
+ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],IRunningTaskCollection interface, IRunningTaskCollection interface [Task Scheduler],Count property, IRunningTaskCollection.Count, IRunningTaskCollection.get_Count, IRunningTaskCollection::Count, IRunningTaskCollection::get_Count, get_Count, taskschd.irunningtaskcollection_count, taskschd/IRunningTaskCollection::Count, taskschd/IRunningTaskCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRunningTaskCollection::get_Count method
+# IRunningTaskCollection::get_Count
 
 
 ## -description

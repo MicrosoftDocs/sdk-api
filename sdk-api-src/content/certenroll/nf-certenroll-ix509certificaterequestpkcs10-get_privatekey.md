@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_PrivateKey
-title: IX509CertificateRequestPkcs10::get_PrivateKey method
+title: IX509CertificateRequestPkcs10::get_PrivateKey
 author: windows-driver-content
 description: Retrieves an IX509PrivateKey object that contains the private key used to sign the certificate request.
 old-location: security\ix509certificaterequestpkcs10_privatekey_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 691e136f-1434-4b72-b571-e14ade4f2cf2
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], PrivateKey property, IX509CertificateRequestPkcs10.PrivateKey, IX509CertificateRequestPkcs10::get_PrivateKey, PrivateKey property [Security], PrivateKey property [Security], IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::PrivateKey, certenroll/IX509CertificateRequestPkcs10::get_PrivateKey, get_PrivateKey,IX509CertificateRequestPkcs10.get_PrivateKey, security.ix509certificaterequestpkcs10_privatekey_property
+ms.keywords: IX509CertificateRequestPkcs10 interface [Security],PrivateKey property, IX509CertificateRequestPkcs10.PrivateKey, IX509CertificateRequestPkcs10.get_PrivateKey, IX509CertificateRequestPkcs10::PrivateKey, IX509CertificateRequestPkcs10::get_PrivateKey, PrivateKey property [Security], PrivateKey property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::PrivateKey, certenroll/IX509CertificateRequestPkcs10::get_PrivateKey, get_PrivateKey, security.ix509certificaterequestpkcs10_privatekey_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs10::get_PrivateKey method
+# IX509CertificateRequestPkcs10::get_PrivateKey
 
 
 ## -description

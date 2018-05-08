@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition.SetInitialValue
-title: IUIAnimationTransition::SetInitialValue method
+title: IUIAnimationTransition::SetInitialValue
 author: windows-driver-content
 description: Sets the initial value for the transition.
 old-location: uianimation\iuianimationtransition_setinitialvalue.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 5e931eee-8b28-4be2-a760-8f62b5ce89ed
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationTransition, IUIAnimationTransition interface [Windows Animation], SetInitialValue method, IUIAnimationTransition::SetInitialValue, SetInitialValue method [Windows Animation], SetInitialValue method [Windows Animation], IUIAnimationTransition interface, SetInitialValue,IUIAnimationTransition.SetInitialValue, uianimation.iuianimationtransition_setinitialvalue, uianimation/IUIAnimationTransition::SetInitialValue
+ms.keywords: IUIAnimationTransition interface [Windows Animation],SetInitialValue method, IUIAnimationTransition.SetInitialValue, IUIAnimationTransition::SetInitialValue, SetInitialValue, SetInitialValue method [Windows Animation], SetInitialValue method [Windows Animation],IUIAnimationTransition interface, uianimation.iuianimationtransition_setinitialvalue, uianimation/IUIAnimationTransition::SetInitialValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransition::SetInitialValue method
+# IUIAnimationTransition::SetInitialValue
 
 
 ## -description

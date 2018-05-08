@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationValuePattern.get_CurrentIsReadOnly
-title: IUIAutomationValuePattern::get_CurrentIsReadOnly method
+title: IUIAutomationValuePattern::get_CurrentIsReadOnly
 author: windows-driver-content
 description: Indicates whether the value of the element is read-only.
 old-location: winauto\uiauto_IUIAutomationValuePattern_CurrentIsReadOnly.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: dc5111c4-6fc8-4a4f-b797-6da472fd0533
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentIsReadOnly property [Windows Accessibility], CurrentIsReadOnly property [Windows Accessibility], IUIAutomationValuePattern interface, IUIAutomationValuePattern, IUIAutomationValuePattern interface [Windows Accessibility], CurrentIsReadOnly property, IUIAutomationValuePattern.CurrentIsReadOnly, IUIAutomationValuePattern::get_CurrentIsReadOnly, get_CurrentIsReadOnly,IUIAutomationValuePattern.get_CurrentIsReadOnly, uiauto.uiauto_IUIAutomationValuePattern_CurrentIsReadOnly, uiauto_IUIAutomationValuePattern_CurrentIsReadOnly, uiautomationclient/IUIAutomationValuePattern::CurrentIsReadOnly, uiautomationclient/IUIAutomationValuePattern::get_CurrentIsReadOnly, winauto.uiauto_IUIAutomationValuePattern_CurrentIsReadOnly
+ms.keywords: CurrentIsReadOnly property [Windows Accessibility], CurrentIsReadOnly property [Windows Accessibility],IUIAutomationValuePattern interface, IUIAutomationValuePattern interface [Windows Accessibility],CurrentIsReadOnly property, IUIAutomationValuePattern.CurrentIsReadOnly, IUIAutomationValuePattern.get_CurrentIsReadOnly, IUIAutomationValuePattern::CurrentIsReadOnly, IUIAutomationValuePattern::get_CurrentIsReadOnly, get_CurrentIsReadOnly, uiauto.uiauto_IUIAutomationValuePattern_CurrentIsReadOnly, uiauto_IUIAutomationValuePattern_CurrentIsReadOnly, uiautomationclient/IUIAutomationValuePattern::CurrentIsReadOnly, uiautomationclient/IUIAutomationValuePattern::get_CurrentIsReadOnly, winauto.uiauto_IUIAutomationValuePattern_CurrentIsReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationValuePattern::get_CurrentIsReadOnly method
+# IUIAutomationValuePattern::get_CurrentIsReadOnly
 
 
 ## -description

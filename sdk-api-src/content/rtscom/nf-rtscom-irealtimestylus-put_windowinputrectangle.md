@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.put_WindowInputRectangle
-title: IRealTimeStylus::put_WindowInputRectangle method
+title: IRealTimeStylus::put_WindowInputRectangle
 author: windows-driver-content
 description: Gets or sets the window input rectangle for the RealTimeStylus Class object.
 old-location: tablet\irealtimestylus_windowinputrectangle.htm
 old-project: tablet
 ms.assetid: e202be43-48c7-4fa4-b049-efdda3ef2ada
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IRealTimeStylus, IRealTimeStylus interface [Tablet PC], WindowInputRectangle property, IRealTimeStylus.WindowInputRectangle, IRealTimeStylus.get_WindowInputRectangle, IRealTimeStylus.put_WindowInputRectangle, IRealTimeStylus::get_WindowInputRectangle, IRealTimeStylus::put_WindowInputRectangle, WindowInputRectangle property [Tablet PC], WindowInputRectangle property [Tablet PC], IRealTimeStylus interface, e202be43-48c7-4fa4-b049-efdda3ef2ada, put_WindowInputRectangle,IRealTimeStylus.put_WindowInputRectangle, rtscom/IRealTimeStylus::WindowInputRectangle, rtscom/IRealTimeStylus::get_WindowInputRectangle, rtscom/IRealTimeStylus::put_WindowInputRectangle, tablet.irealtimestylus_windowinputrectangle
+ms.date: 5/2/2018
+ms.keywords: IRealTimeStylus interface [Tablet PC],WindowInputRectangle property, IRealTimeStylus.WindowInputRectangle, IRealTimeStylus.get_WindowInputRectangle, IRealTimeStylus.put_WindowInputRectangle, IRealTimeStylus::WindowInputRectangle, IRealTimeStylus::get_WindowInputRectangle, IRealTimeStylus::put_WindowInputRectangle, WindowInputRectangle property [Tablet PC], WindowInputRectangle property [Tablet PC],IRealTimeStylus interface, e202be43-48c7-4fa4-b049-efdda3ef2ada, put_WindowInputRectangle, rtscom/IRealTimeStylus::WindowInputRectangle, rtscom/IRealTimeStylus::get_WindowInputRectangle, rtscom/IRealTimeStylus::put_WindowInputRectangle, tablet.irealtimestylus_windowinputrectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylus::put_WindowInputRectangle method
+# IRealTimeStylus::put_WindowInputRectangle
 
 
 ## -description

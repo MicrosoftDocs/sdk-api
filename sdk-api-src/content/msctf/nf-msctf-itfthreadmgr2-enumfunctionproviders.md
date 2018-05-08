@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.EnumFunctionProviders
-title: ITfThreadMgr2::EnumFunctionProviders method
+title: ITfThreadMgr2::EnumFunctionProviders
 author: windows-driver-content
 description: Obtains an enumerator for all of the function providers registered for the calling thread.
 old-location: tsf\itfthreadmgr2_enumfunctionproviders.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 0F28BDFD-4CD8-4D50-92D9-6A60B80122B2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnumFunctionProviders method [Text Services Framework], EnumFunctionProviders method [Text Services Framework], ITfThreadMgr2 interface, EnumFunctionProviders,ITfThreadMgr2.EnumFunctionProviders, ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], EnumFunctionProviders method, ITfThreadMgr2::EnumFunctionProviders, msctf/ITfThreadMgr2::EnumFunctionProviders, tsf.itfthreadmgr2_enumfunctionproviders
+ms.keywords: EnumFunctionProviders, EnumFunctionProviders method [Text Services Framework], EnumFunctionProviders method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],EnumFunctionProviders method, ITfThreadMgr2.EnumFunctionProviders, ITfThreadMgr2::EnumFunctionProviders, msctf/ITfThreadMgr2::EnumFunctionProviders, tsf.itfthreadmgr2_enumfunctionproviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr2::EnumFunctionProviders method
+# ITfThreadMgr2::EnumFunctionProviders
 
 
 ## -description

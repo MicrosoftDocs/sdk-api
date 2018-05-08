@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsMultipage
-title: IShellImageData::IsMultipage method
+title: IShellImageData::IsMultipage
 author: windows-driver-content
 description: Determines whether the image is a multipage Tagged Image File Format (TIFF) image.
 old-location: shell\IShellImageData_IsMultipage.htm
 old-project: shell
 ms.assetid: a9c86f0e-5237-432c-a2bb-4054a23d707e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IsMultipage method, IShellImageData::IsMultipage, IsMultipage method [Windows Shell], IsMultipage method [Windows Shell], IShellImageData interface, IsMultipage,IShellImageData.IsMultipage, _shell_IShellImageData_IsMultipage, shell.IShellImageData_IsMultipage, shimgdata/IShellImageData::IsMultipage
+ms.date: 5/3/2018
+ms.keywords: IShellImageData interface [Windows Shell],IsMultipage method, IShellImageData.IsMultipage, IShellImageData::IsMultipage, IsMultipage, IsMultipage method [Windows Shell], IsMultipage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsMultipage, shell.IShellImageData_IsMultipage, shimgdata/IShellImageData::IsMultipage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::IsMultipage method
+# IShellImageData::IsMultipage
 
 
 ## -description

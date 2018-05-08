@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.SetSpaceBefore
-title: ITextPara::SetSpaceBefore method
+title: ITextPara::SetSpaceBefore
 author: windows-driver-content
 description: Sets the amount of space preceding a paragraph.
 old-location: controls\ITextPara_SetSpaceBefore.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspacebefore.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextPara, ITextPara interface [Windows Controls], SetSpaceBefore method, ITextPara::SetSpaceBefore, SetSpaceBefore method [Windows Controls], SetSpaceBefore method [Windows Controls], ITextPara interface, SetSpaceBefore,ITextPara.SetSpaceBefore, _win32_ITextPara_SetSpaceBefore, _win32_ITextPara_SetSpaceBefore_cpp, controls.ITextPara_SetSpaceBefore, controls._win32_ITextPara_SetSpaceBefore, tom/ITextPara::SetSpaceBefore
+ms.date: 4/27/2018
+ms.keywords: ITextPara interface [Windows Controls],SetSpaceBefore method, ITextPara.SetSpaceBefore, ITextPara::SetSpaceBefore, SetSpaceBefore, SetSpaceBefore method [Windows Controls], SetSpaceBefore method [Windows Controls],ITextPara interface, _win32_ITextPara_SetSpaceBefore, _win32_ITextPara_SetSpaceBefore_cpp, controls.ITextPara_SetSpaceBefore, controls._win32_ITextPara_SetSpaceBefore, tom/ITextPara::SetSpaceBefore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::SetSpaceBefore method
+# ITextPara::SetSpaceBefore
 
 
 ## -description

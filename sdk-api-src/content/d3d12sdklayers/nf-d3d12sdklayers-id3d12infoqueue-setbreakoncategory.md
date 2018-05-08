@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.SetBreakOnCategory
-title: ID3D12InfoQueue::SetBreakOnCategory method
+title: ID3D12InfoQueue::SetBreakOnCategory
 author: windows-driver-content
 description: Set a message category to break on when a message with that category passes through the storage filter.
 old-location: direct3d12\id3d12infoqueue_setbreakoncategory.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: BE56C85A-3FCE-4EC6-B42C-DF0187237AC5
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12InfoQueue, ID3D12InfoQueue interface, SetBreakOnCategory method, ID3D12InfoQueue::SetBreakOnCategory, SetBreakOnCategory method, SetBreakOnCategory method, ID3D12InfoQueue interface, SetBreakOnCategory,ID3D12InfoQueue.SetBreakOnCategory, d3d12sdklayers/ID3D12InfoQueue::SetBreakOnCategory, direct3d12.id3d12infoqueue_setbreakoncategory
+ms.keywords: ID3D12InfoQueue interface,SetBreakOnCategory method, ID3D12InfoQueue.SetBreakOnCategory, ID3D12InfoQueue::SetBreakOnCategory, SetBreakOnCategory, SetBreakOnCategory method, SetBreakOnCategory method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetBreakOnCategory, direct3d12.id3d12infoqueue_setbreakoncategory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::SetBreakOnCategory method
+# ID3D12InfoQueue::SetBreakOnCategory
 
 
 ## -description

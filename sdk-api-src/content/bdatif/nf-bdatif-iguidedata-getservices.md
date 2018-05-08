@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideData.GetServices
-title: IGuideData::GetServices method
+title: IGuideData::GetServices
 author: windows-driver-content
 description: The GetServices method retrieves a collection of tune requests representing all the services available in the tuning space.
 old-location: mstv\iguidedata_getservices.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a3c08812-ed56-440e-a88d-80e20a681695
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies], IGuideData interface, GetServices,IGuideData.GetServices, IGuideData, IGuideData interface [Microsoft TV Technologies], GetServices method, IGuideData::GetServices, IGuideDataGetServices, bdatif/IGuideData::GetServices, mstv.iguidedata_getservices
+ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetServices method, IGuideData.GetServices, IGuideData::GetServices, IGuideDataGetServices, bdatif/IGuideData::GetServices, mstv.iguidedata_getservices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGuideData::GetServices method
+# IGuideData::GetServices
 
 
 ## -description

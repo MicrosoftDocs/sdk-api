@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.SetImageResource
-title: IXpsOMImageBrush::SetImageResource method
+title: IXpsOMImageBrush::SetImageResource
 author: windows-driver-content
 description: Sets a pointer to the IXpsOMImageResource interface that contains the image resource to be used as the source for the brush.
 old-location: xps\ixpsomimagebrush_setimageresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 2c3c5189-0090-48c7-bc36-c9014758b968
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMImageBrush, IXpsOMImageBrush interface [XPS Documents and Packaging], SetImageResource method, IXpsOMImageBrush::SetImageResource, SetImageResource method [XPS Documents and Packaging], SetImageResource method [XPS Documents and Packaging], IXpsOMImageBrush interface, SetImageResource,IXpsOMImageBrush.SetImageResource, xps.ixpsomimagebrush_setimageresource, xpsobjectmodel/IXpsOMImageBrush::SetImageResource
+ms.keywords: IXpsOMImageBrush interface [XPS Documents and Packaging],SetImageResource method, IXpsOMImageBrush.SetImageResource, IXpsOMImageBrush::SetImageResource, SetImageResource, SetImageResource method [XPS Documents and Packaging], SetImageResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, xps.ixpsomimagebrush_setimageresource, xpsobjectmodel/IXpsOMImageBrush::SetImageResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMImageBrush::SetImageResource method
+# IXpsOMImageBrush::SetImageResource
 
 
 ## -description

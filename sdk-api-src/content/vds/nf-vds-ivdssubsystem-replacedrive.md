@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystem.ReplaceDrive
-title: IVdsSubSystem::ReplaceDrive method
+title: IVdsSubSystem::ReplaceDrive
 author: windows-driver-content
 description: Replaces or migrates one drive with another in the subsystem.
 old-location: base\ivdssubsystem_replacedrive.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 349fa2aa-94cd-4db0-9682-c39bcd9f9109
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsSubSystem, IVdsSubSystem interface [VDS], ReplaceDrive method, IVdsSubSystem::ReplaceDrive, ReplaceDrive method [VDS], ReplaceDrive method [VDS], IVdsSubSystem interface, ReplaceDrive,IVdsSubSystem.ReplaceDrive, base.ivdssubsystem_replacedrive, vds/IVdsSubSystem::ReplaceDrive, vdshwprv/IVdsSubSystem::ReplaceDrive
+ms.keywords: IVdsSubSystem interface [VDS],ReplaceDrive method, IVdsSubSystem.ReplaceDrive, IVdsSubSystem::ReplaceDrive, ReplaceDrive, ReplaceDrive method [VDS], ReplaceDrive method [VDS],IVdsSubSystem interface, base.ivdssubsystem_replacedrive, vds/IVdsSubSystem::ReplaceDrive, vdshwprv/IVdsSubSystem::ReplaceDrive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsSubSystem::ReplaceDrive method
+# IVdsSubSystem::ReplaceDrive
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: mf\dxva2_videosample.htm
 old-project: medfound
 ms.assetid: 040ade10-8573-4375-829d-938efa750a12
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 040ade10-8573-4375-829d-938efa750a12, DXVA2_SampleData_RFF, DXVA2_SampleData_RFF_TFF_Present, DXVA2_SampleData_TFF, DXVA2_VideoSample, DXVA2_VideoSample structure [Media Foundation], _DXVA2_VideoSample, dxva2api/DXVA2_VideoSample, mf.dxva2_videosample
 ms.prod: windows-hardware
 ms.technology: windows-devices

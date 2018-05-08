@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.GetDecoderBuffer
-title: ID3D11VideoContext::GetDecoderBuffer method
+title: ID3D11VideoContext::GetDecoderBuffer
 author: windows-driver-content
 description: Gets a pointer to a decoder buffer.
 old-location: mf\id3d11videocontext_getdecoderbuffer.htm
 old-project: medfound
 ms.assetid: 6842D5D7-6165-4428-91BD-2234BE5332B8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDecoderBuffer method [Media Foundation], GetDecoderBuffer method [Media Foundation], ID3D11VideoContext interface, GetDecoderBuffer,ID3D11VideoContext.GetDecoderBuffer, ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], GetDecoderBuffer method, ID3D11VideoContext::GetDecoderBuffer, d3d11/ID3D11VideoContext::GetDecoderBuffer, mf.id3d11videocontext_getdecoderbuffer
+ms.date: 5/3/2018
+ms.keywords: GetDecoderBuffer, GetDecoderBuffer method [Media Foundation], GetDecoderBuffer method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],GetDecoderBuffer method, ID3D11VideoContext.GetDecoderBuffer, ID3D11VideoContext::GetDecoderBuffer, d3d11/ID3D11VideoContext::GetDecoderBuffer, mf.id3d11videocontext_getdecoderbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::GetDecoderBuffer method
+# ID3D11VideoContext::GetDecoderBuffer
 
 
 ## -description

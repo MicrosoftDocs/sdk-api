@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeChangeEvents.RequestTypeChange
-title: ITypeChangeEvents::RequestTypeChange method
+title: ITypeChangeEvents::RequestTypeChange
 author: windows-driver-content
 description: Raised when a request has been made to change a type. The change can be disallowed.
 old-location: automat\itypechangeevents_requesttypechange.htm
 old-project: automat
 ms.assetid: 5f968395-263f-41fc-ab75-dbcc34dd50a0
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: CHANGEKIND_ADDMEMBER, CHANGEKIND_CHANGEFAILED, CHANGEKIND_DELETEMEMBER, CHANGEKIND_GENERAL, CHANGEKIND_INVALIDATE, CHANGEKIND_SETDOCUMENTATION, CHANGEKIND_SETNAMES, ITypeChangeEvents, ITypeChangeEvents interface [Automation], RequestTypeChange method, ITypeChangeEvents::RequestTypeChange, RequestTypeChange method [Automation], RequestTypeChange method [Automation], ITypeChangeEvents interface, RequestTypeChange,ITypeChangeEvents.RequestTypeChange, _oa96_ITypeChangeEvents_RequestTypeChange, automat.itypechangeevents_requesttypechange, oaidl/ITypeChangeEvents::RequestTypeChange
+ms.date: 5/4/2018
+ms.keywords: CHANGEKIND_ADDMEMBER, CHANGEKIND_CHANGEFAILED, CHANGEKIND_DELETEMEMBER, CHANGEKIND_GENERAL, CHANGEKIND_INVALIDATE, CHANGEKIND_SETDOCUMENTATION, CHANGEKIND_SETNAMES, ITypeChangeEvents interface [Automation],RequestTypeChange method, ITypeChangeEvents.RequestTypeChange, ITypeChangeEvents::RequestTypeChange, RequestTypeChange, RequestTypeChange method [Automation], RequestTypeChange method [Automation],ITypeChangeEvents interface, _oa96_ITypeChangeEvents_RequestTypeChange, automat.itypechangeevents_requesttypechange, oaidl/ITypeChangeEvents::RequestTypeChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeChangeEvents::RequestTypeChange method
+# ITypeChangeEvents::RequestTypeChange
 
 
 ## -description

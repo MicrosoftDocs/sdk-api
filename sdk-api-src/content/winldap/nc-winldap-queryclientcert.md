@@ -8,7 +8,7 @@ old-project: LDAP
 ms.assetid: c2788fb9-14db-41d2-9555-ae264f825121
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: QUERYCLIENTCERT, QUERYCLIENTCERT callback function [LDAP], _ldap_queryclientcert, ldap.queryclientcert, winldap/QUERYCLIENTCERT
+ms.keywords: QUERYCLIENTCERT, QUERYCLIENTCERT callback, QUERYCLIENTCERT callback function [LDAP], _ldap_queryclientcert, ldap.queryclientcert, winldap/QUERYCLIENTCERT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# QUERYCLIENTCERT callback
+# QUERYCLIENTCERT callback function
 
 
 ## -description

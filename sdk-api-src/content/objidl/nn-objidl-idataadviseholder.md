@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 740a6366-6ab1-4a20-82df-1efdd62211eb
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IDataAdviseHolder, IDataAdviseHolder interface [COM], IDataAdviseHolder interface [COM], described, _ole_idataadviseholder, com.idataadviseholder, objidl/IDataAdviseHolder
+ms.keywords: IDataAdviseHolder, IDataAdviseHolder interface [COM], IDataAdviseHolder interface [COM],described, _ole_idataadviseholder, com.idataadviseholder, objidl/IDataAdviseHolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

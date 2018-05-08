@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll.acceptPKCS7
-title: ICEnroll::acceptPKCS7 method
+title: ICEnroll::acceptPKCS7
 author: windows-driver-content
 description: Accepts and processes a PKCS #7 message that contains a certificate. The PKCS #7 is input as a parameter. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_acceptpkcs7.htm
 old-project: SecCrypto
 ms.assetid: 5a428d83-c846-4f44-a682-58c3e025c353
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], acceptPKCS7 method, ICEnroll, ICEnroll interface [Security], acceptPKCS7 method, ICEnroll2 interface [Security], acceptPKCS7 method, ICEnroll2::acceptPKCS7, ICEnroll3 interface [Security], acceptPKCS7 method, ICEnroll3::acceptPKCS7, ICEnroll4 interface [Security], acceptPKCS7 method, ICEnroll4::acceptPKCS7, ICEnroll::acceptPKCS7, acceptPKCS7 method [Security], acceptPKCS7 method [Security], CEnroll object, acceptPKCS7 method [Security], ICEnroll interface, acceptPKCS7 method [Security], ICEnroll2 interface, acceptPKCS7 method [Security], ICEnroll3 interface, acceptPKCS7 method [Security], ICEnroll4 interface, acceptPKCS7,ICEnroll.acceptPKCS7, security.icenroll4_acceptpkcs7, xenroll/ICEnroll2::acceptPKCS7, xenroll/ICEnroll3::acceptPKCS7, xenroll/ICEnroll4::acceptPKCS7, xenroll/ICEnroll::acceptPKCS7
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],acceptPKCS7 method, ICEnroll interface [Security],acceptPKCS7 method, ICEnroll.acceptPKCS7, ICEnroll2 interface [Security],acceptPKCS7 method, ICEnroll2::acceptPKCS7, ICEnroll3 interface [Security],acceptPKCS7 method, ICEnroll3::acceptPKCS7, ICEnroll4 interface [Security],acceptPKCS7 method, ICEnroll4::acceptPKCS7, ICEnroll::acceptPKCS7, acceptPKCS7, acceptPKCS7 method [Security], acceptPKCS7 method [Security],CEnroll object, acceptPKCS7 method [Security],ICEnroll interface, acceptPKCS7 method [Security],ICEnroll2 interface, acceptPKCS7 method [Security],ICEnroll3 interface, acceptPKCS7 method [Security],ICEnroll4 interface, security.icenroll4_acceptpkcs7, xenroll/ICEnroll2::acceptPKCS7, xenroll/ICEnroll3::acceptPKCS7, xenroll/ICEnroll4::acceptPKCS7, xenroll/ICEnroll::acceptPKCS7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll::acceptPKCS7 method
+# ICEnroll::acceptPKCS7
 
 
 ## -description

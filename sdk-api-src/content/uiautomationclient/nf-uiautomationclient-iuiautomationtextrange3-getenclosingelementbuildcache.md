@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange3.GetEnclosingElementBuildCache
-title: IUIAutomationTextRange3::GetEnclosingElementBuildCache method
+title: IUIAutomationTextRange3::GetEnclosingElementBuildCache
 author: windows-driver-content
 description: Gets the enclosing element and supplied properties and patterns for an element in a text range in a single cross-process call. This is equivalent to calling GetEnclosingElement, but adds the standard build cache pattern.
 old-location: winauto\uiauto_IUIAutomationTextRange3_GetEnclosingElementBuildCache.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 6F5BC5DB-F9C0-40DF-8E29-FFACFBCAD80F
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetEnclosingElementBuildCache method [Windows Accessibility], GetEnclosingElementBuildCache method [Windows Accessibility], IUIAutomationTextRange3 interface, GetEnclosingElementBuildCache,IUIAutomationTextRange3.GetEnclosingElementBuildCache, IUIAutomationTextRange3, IUIAutomationTextRange3 interface [Windows Accessibility], GetEnclosingElementBuildCache method, IUIAutomationTextRange3::GetEnclosingElementBuildCache, uiautomationclient/IUIAutomationTextRange3::GetEnclosingElementBuildCache, winauto.uiauto_IUIAutomationTextRange3_GetEnclosingElementBuildCache
+ms.keywords: GetEnclosingElementBuildCache, GetEnclosingElementBuildCache method [Windows Accessibility], GetEnclosingElementBuildCache method [Windows Accessibility],IUIAutomationTextRange3 interface, IUIAutomationTextRange3 interface [Windows Accessibility],GetEnclosingElementBuildCache method, IUIAutomationTextRange3.GetEnclosingElementBuildCache, IUIAutomationTextRange3::GetEnclosingElementBuildCache, uiautomationclient/IUIAutomationTextRange3::GetEnclosingElementBuildCache, winauto.uiauto_IUIAutomationTextRange3_GetEnclosingElementBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTextRange3::GetEnclosingElementBuildCache method
+# IUIAutomationTextRange3::GetEnclosingElementBuildCache
 
 
 ## -description

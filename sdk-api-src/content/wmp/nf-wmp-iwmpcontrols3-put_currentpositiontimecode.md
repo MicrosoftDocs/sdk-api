@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPControls3.put_currentPositionTimecode
-title: IWMPControls3::put_currentPositionTimecode method
+title: IWMPControls3::put_currentPositionTimecode
 author: windows-driver-content
 description: The put_currentPositionTimecode method specifies the current position in the current media item using a time code format. This method currently supports SMPTE time code.
 old-location: wmp\iwmpcontrols3_put_currentpositiontimecode.htm
 old-project: WMP
 ms.assetid: 35e32043-e613-4f23-b5ce-03bfe648a4c9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPControls3, IWMPControls3 interface [Windows Media Player], put_currentPositionTimecode method, IWMPControls3::put_currentPositionTimecode, IWMPControls3put_currentPositionTimecode, put_currentPositionTimecode method [Windows Media Player], put_currentPositionTimecode method [Windows Media Player], IWMPControls3 interface, put_currentPositionTimecode,IWMPControls3.put_currentPositionTimecode, wmp.iwmpcontrols3_put_currentpositiontimecode, wmp/IWMPControls3::put_currentPositionTimecode
+ms.date: 5/4/2018
+ms.keywords: IWMPControls3 interface [Windows Media Player],put_currentPositionTimecode method, IWMPControls3.put_currentPositionTimecode, IWMPControls3::put_currentPositionTimecode, IWMPControls3put_currentPositionTimecode, put_currentPositionTimecode, put_currentPositionTimecode method [Windows Media Player], put_currentPositionTimecode method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_put_currentpositiontimecode, wmp/IWMPControls3::put_currentPositionTimecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPControls3::put_currentPositionTimecode method
+# IWMPControls3::put_currentPositionTimecode
 
 
 ## -description

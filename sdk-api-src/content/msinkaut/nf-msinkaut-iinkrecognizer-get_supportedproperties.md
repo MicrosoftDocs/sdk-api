@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_SupportedProperties
-title: IInkRecognizer::get_SupportedProperties method
+title: IInkRecognizer::get_SupportedProperties
 author: windows-driver-content
 description: Gets an array of globally unique identifiers (GUIDs) that describe the properties that the IInkRecognizer object supports.
 old-location: tablet\iinkrecognizer_supportedproperties.htm
 old-project: tablet
 ms.assetid: 11153c7f-5284-483b-b1d5-01e670d924b4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 11153c7f-5284-483b-b1d5-01e670d924b4, IInkRecognizer, IInkRecognizer interface [Tablet PC], SupportedProperties property, IInkRecognizer.SupportedProperties, IInkRecognizer.get_SupportedProperties, IInkRecognizer::get_SupportedProperties, SupportedProperties property [Tablet PC], SupportedProperties property [Tablet PC], IInkRecognizer interface, get_SupportedProperties,IInkRecognizer.get_SupportedProperties, msinkaut/IInkRecognizer::SupportedProperties, msinkaut/IInkRecognizer::get_SupportedProperties, tablet.iinkrecognizer_supportedproperties
+ms.date: 5/2/2018
+ms.keywords: 11153c7f-5284-483b-b1d5-01e670d924b4, IInkRecognizer interface [Tablet PC],SupportedProperties property, IInkRecognizer.SupportedProperties, IInkRecognizer.get_SupportedProperties, IInkRecognizer::SupportedProperties, IInkRecognizer::get_SupportedProperties, SupportedProperties property [Tablet PC], SupportedProperties property [Tablet PC],IInkRecognizer interface, get_SupportedProperties, msinkaut/IInkRecognizer::SupportedProperties, msinkaut/IInkRecognizer::get_SupportedProperties, tablet.iinkrecognizer_supportedproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognizer::get_SupportedProperties method
+# IInkRecognizer::get_SupportedProperties
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.StartOf
-title: ITextRange::StartOf method
+title: ITextRange::StartOf
 author: windows-driver-content
 description: Moves the range ends to the start of the first overlapping Unit in the range.
 old-location: controls\ITextRange_StartOf.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\startof.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange, ITextRange interface [Windows Controls], StartOf method, ITextRange::StartOf, StartOf method [Windows Controls], StartOf method [Windows Controls], ITextRange interface, StartOf,ITextRange.StartOf, _win32_ITextRange_StartOf, _win32_ITextRange_StartOf_cpp, controls.ITextRange_StartOf, controls._win32_ITextRange_StartOf, tom/ITextRange::StartOf
+ms.date: 4/27/2018
+ms.keywords: ITextRange interface [Windows Controls],StartOf method, ITextRange.StartOf, ITextRange::StartOf, StartOf, StartOf method [Windows Controls], StartOf method [Windows Controls],ITextRange interface, _win32_ITextRange_StartOf, _win32_ITextRange_StartOf_cpp, controls.ITextRange_StartOf, controls._win32_ITextRange_StartOf, tom/ITextRange::StartOf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::StartOf method
+# ITextRange::StartOf
 
 
 ## -description

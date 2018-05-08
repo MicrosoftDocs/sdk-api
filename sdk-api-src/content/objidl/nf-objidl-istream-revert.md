@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.Revert
-title: IStream::Revert method
+title: IStream::Revert
 author: windows-driver-content
 description: The Revert method discards all changes that have been made to a transacted stream since the last IStream::Commit call. On streams open in direct mode and streams using the COM compound file implementation of IStream::Revert, this method has no effect.
 old-location: stg\istream_revert.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 1a707b17-840f-4cd2-9e43-97a8c02120b8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IStream, IStream interface [Structured Storage], Revert method, IStream::Revert, Revert method [Structured Storage], Revert method [Structured Storage], IStream interface, Revert,IStream.Revert, _stg_istream_revert, objidl/IStream::Revert, stg.istream_revert
+ms.keywords: IStream interface [Structured Storage],Revert method, IStream.Revert, IStream::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IStream interface, _stg_istream_revert, objidl/IStream::Revert, stg.istream_revert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStream::Revert method
+# IStream::Revert
 
 
 ## -description

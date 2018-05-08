@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageGlobals.GetSerialNumber
-title: IWMDMStorageGlobals::GetSerialNumber method
+title: IWMDMStorageGlobals::GetSerialNumber
 author: windows-driver-content
 description: The GetSerialNumber method retrieves a serial number that uniquely identifies the storage medium.
 old-location: wmdm\iwmdmstorageglobals_getserialnumber.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 13783d0e-82e6-4340-bb06-85b8d3d06b5c
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager], IWMDMStorageGlobals interface, GetSerialNumber,IWMDMStorageGlobals.GetSerialNumber, IWMDMStorageGlobals, IWMDMStorageGlobals interface [windows Media Device Manager], GetSerialNumber method, IWMDMStorageGlobals::GetSerialNumber, IWMDMStorageGlobalsGetSerialNumber, mswmdm/IWMDMStorageGlobals::GetSerialNumber, wmdm.iwmdmstorageglobals_getserialnumber
+ms.keywords: GetSerialNumber, GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetSerialNumber method, IWMDMStorageGlobals.GetSerialNumber, IWMDMStorageGlobals::GetSerialNumber, IWMDMStorageGlobalsGetSerialNumber, mswmdm/IWMDMStorageGlobals::GetSerialNumber, wmdm.iwmdmstorageglobals_getserialnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMStorageGlobals::GetSerialNumber method
+# IWMDMStorageGlobals::GetSerialNumber
 
 
 ## -description

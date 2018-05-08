@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.SetOutputType
-title: IMFTransform::SetOutputType method
+title: IMFTransform::SetOutputType
 author: windows-driver-content
 description: Sets, tests, or clears the media type for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_setoutputtype.htm
 old-project: medfound
 ms.assetid: a9a1d03f-2e56-490c-885b-78c69dea8e92
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTransform, IMFTransform interface [Media Foundation], SetOutputType method, IMFTransform::SetOutputType, SetOutputType method [Media Foundation], SetOutputType method [Media Foundation], IMFTransform interface, SetOutputType,IMFTransform.SetOutputType, a9a1d03f-2e56-490c-885b-78c69dea8e92, mf.imftransform_setoutputtype, mftransform/IMFTransform::SetOutputType
+ms.date: 5/3/2018
+ms.keywords: IMFTransform interface [Media Foundation],SetOutputType method, IMFTransform.SetOutputType, IMFTransform::SetOutputType, SetOutputType, SetOutputType method [Media Foundation], SetOutputType method [Media Foundation],IMFTransform interface, a9a1d03f-2e56-490c-885b-78c69dea8e92, mf.imftransform_setoutputtype, mftransform/IMFTransform::SetOutputType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::SetOutputType method
+# IMFTransform::SetOutputType
 
 
 ## -description

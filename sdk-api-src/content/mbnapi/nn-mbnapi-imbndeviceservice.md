@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 5C587408-DF03-4123-BA5A-C2CCC378F60A
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband Networks], IMbnDeviceService interface [Microsoft Broadband Networks], described, mbn.imbndeviceservice, mbnapi/IMbnDeviceService
+ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband Networks], IMbnDeviceService interface [Microsoft Broadband Networks],described, mbn.imbndeviceservice, mbnapi/IMbnDeviceService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: 9c4765b0-858f-4a20-b044-0acf87a1f131
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: FillRoundedRectangle, FillRoundedRectangle methods [Direct2D], d2d1/FillRoundedRectangle, direct2d.id2d1rendertarget_fillroundedrectangle
+ms.keywords: FillRoundedRectangle, FillRoundedRectangle methods [Direct2D], ID2D1RenderTarget::FillRoundedRectangle, d2d1/FillRoundedRectangle, direct2d.id2d1rendertarget_fillroundedrectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

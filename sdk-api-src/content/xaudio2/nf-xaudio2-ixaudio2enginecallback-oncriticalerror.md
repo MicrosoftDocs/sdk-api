@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2EngineCallback.OnCriticalError
-title: IXAudio2EngineCallback::OnCriticalError method
+title: IXAudio2EngineCallback::OnCriticalError
 author: windows-driver-content
 description: Called if a critical system error occurs that requires XAudio2 to be closed down and restarted.
 old-location: xaudio2\ixaudio2enginecallback_oncriticalerror.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2enginecallback.IXAudio2EngineCallback.OnCriticalError(HRESULT)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2EngineCallback, IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs], OnCriticalError method, IXAudio2EngineCallback::OnCriticalError, OnCriticalError method [XAudio2 Audio Mixing APIs], OnCriticalError method [XAudio2 Audio Mixing APIs], IXAudio2EngineCallback interface, OnCriticalError,IXAudio2EngineCallback.OnCriticalError, xaudio2.ixaudio2enginecallback_oncriticalerror, xaudio2/IXAudio2EngineCallback::OnCriticalError
+ms.keywords: IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs],OnCriticalError method, IXAudio2EngineCallback.OnCriticalError, IXAudio2EngineCallback::OnCriticalError, OnCriticalError, OnCriticalError method [XAudio2 Audio Mixing APIs], OnCriticalError method [XAudio2 Audio Mixing APIs],IXAudio2EngineCallback interface, xaudio2.ixaudio2enginecallback_oncriticalerror, xaudio2/IXAudio2EngineCallback::OnCriticalError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2EngineCallback::OnCriticalError method
+# IXAudio2EngineCallback::OnCriticalError
 
 
 ## -description

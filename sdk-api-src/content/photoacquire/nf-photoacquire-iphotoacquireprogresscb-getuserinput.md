@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.GetUserInput
-title: IPhotoAcquireProgressCB::GetUserInput method
+title: IPhotoAcquireProgressCB::GetUserInput
 author: windows-driver-content
 description: The GetUserInput method overrides the default functionality that displays a message prompting the user for string input during acquisition. The application provides the implementation of the GetUserInput method.
 old-location: picacq\iphotoacquireprogresscb_getuserinput.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: db0d924b-a586-4f81-a367-e8fbdf3e9bd9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetUserInput method [Picture Acquisition], GetUserInput method [Picture Acquisition], IPhotoAcquireProgressCB interface, GetUserInput,IPhotoAcquireProgressCB.GetUserInput, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], GetUserInput method, IPhotoAcquireProgressCB::GetUserInput, IPhotoAcquireProgressCBGetUserInput, photoacquire/IPhotoAcquireProgressCB::GetUserInput, picacq.iphotoacquireprogresscb_getuserinput
+ms.keywords: GetUserInput, GetUserInput method [Picture Acquisition], GetUserInput method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],GetUserInput method, IPhotoAcquireProgressCB.GetUserInput, IPhotoAcquireProgressCB::GetUserInput, IPhotoAcquireProgressCBGetUserInput, photoacquire/IPhotoAcquireProgressCB::GetUserInput, picacq.iphotoacquireprogresscb_getuserinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireProgressCB::GetUserInput method
+# IPhotoAcquireProgressCB::GetUserInput
 
 
 ## -description

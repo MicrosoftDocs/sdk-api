@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed
-title: IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed method
+title: IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed
 author: windows-driver-content
 description: Creates a linear-speed vector transition in the specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_createlinearvectortransitionfromspeed.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 5CFA1E23-26A7-4139-B533-8BD325E9F1B9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateLinearVectorTransitionFromSpeed method [Windows Animation], CreateLinearVectorTransitionFromSpeed method [Windows Animation], IUIAnimationTransitionLibrary2 interface, CreateLinearVectorTransitionFromSpeed,IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed, IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], CreateLinearVectorTransitionFromSpeed method, IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed, uianimation.iuianimationtransitionlibrary2_createlinearvectortransitionfromspeed, uianimation/IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed
+ms.keywords: CreateLinearVectorTransitionFromSpeed, CreateLinearVectorTransitionFromSpeed method [Windows Animation], CreateLinearVectorTransitionFromSpeed method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateLinearVectorTransitionFromSpeed method, IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed, IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed, uianimation.iuianimationtransitionlibrary2_createlinearvectortransitionfromspeed, uianimation/IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed method
+# IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed
 
 
 ## -description

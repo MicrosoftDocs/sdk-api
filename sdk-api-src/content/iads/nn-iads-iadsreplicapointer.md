@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: c34eab26-540e-4400-873e-7af09fda0bbf
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsReplicaPointer, IADsReplicaPointer interface [ADSI], IADsReplicaPointer interface [ADSI], described, ReplicaPointer, _ds_iadsreplicapointer, adsi.iadsreplicapointer, iads/IADsReplicaPointer
+ms.keywords: IADsReplicaPointer, IADsReplicaPointer interface [ADSI], IADsReplicaPointer interface [ADSI],described, ReplicaPointer, _ds_iadsreplicapointer, adsi.iadsreplicapointer, iads/IADsReplicaPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

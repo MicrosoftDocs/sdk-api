@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFByteStreamTimeSeek.TimeSeek
-title: IMFByteStreamTimeSeek::TimeSeek method
+title: IMFByteStreamTimeSeek::TimeSeek
 author: windows-driver-content
 description: Seeks to a new position in the byte stream.
 old-location: mf\imfbytestreamtimeseek_timeseek.htm
 old-project: medfound
 ms.assetid: 786F1299-A9E2-4B2C-A6AE-F88E6BF022DC
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFByteStreamTimeSeek, IMFByteStreamTimeSeek interface [Media Foundation], TimeSeek method, IMFByteStreamTimeSeek::TimeSeek, TimeSeek method [Media Foundation], TimeSeek method [Media Foundation], IMFByteStreamTimeSeek interface, TimeSeek,IMFByteStreamTimeSeek.TimeSeek, mf.imfbytestreamtimeseek_timeseek, mfidl/IMFByteStreamTimeSeek::TimeSeek
+ms.date: 5/3/2018
+ms.keywords: IMFByteStreamTimeSeek interface [Media Foundation],TimeSeek method, IMFByteStreamTimeSeek.TimeSeek, IMFByteStreamTimeSeek::TimeSeek, TimeSeek, TimeSeek method [Media Foundation], TimeSeek method [Media Foundation],IMFByteStreamTimeSeek interface, mf.imfbytestreamtimeseek_timeseek, mfidl/IMFByteStreamTimeSeek::TimeSeek
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStreamTimeSeek::TimeSeek method
+# IMFByteStreamTimeSeek::TimeSeek
 
 
 ## -description

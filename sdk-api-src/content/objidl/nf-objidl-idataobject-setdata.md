@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.SetData
-title: IDataObject::SetData method
+title: IDataObject::SetData
 author: windows-driver-content
 description: Called by an object containing a data source to transfer data to the object that implements this method.
 old-location: com\idataobject_setdata.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 7430d12c-ab07-4a9c-a845-4743818afbc7
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IDataObject, IDataObject interface [COM], SetData method, IDataObject::SetData, SetData method [COM], SetData method [COM], IDataObject interface, SetData,IDataObject.SetData, _ole_idataobject_setdata, com.idataobject_setdata, objidl/IDataObject::SetData
+ms.keywords: IDataObject interface [COM],SetData method, IDataObject.SetData, IDataObject::SetData, SetData, SetData method [COM], SetData method [COM],IDataObject interface, _ole_idataobject_setdata, com.idataobject_setdata, objidl/IDataObject::SetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataObject::SetData method
+# IDataObject::SetData
 
 
 ## -description

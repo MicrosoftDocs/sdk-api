@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 8f65e6f6-fca3-46b7-aa0d-804470feb5bb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMWMIFilterCollection, IGPMWMIFilterCollection, IGPMWMIFilterCollection interface [GPMC], IGPMWMIFilterCollection interface [GPMC], described, _win32_igpmwmifiltercollection, gpmc.igpmwmifiltercollection, gpmgmt/IGPMWMIFilterCollection
+ms.keywords: GPMWMIFilterCollection, IGPMWMIFilterCollection, IGPMWMIFilterCollection interface [GPMC], IGPMWMIFilterCollection interface [GPMC],described, _win32_igpmwmifiltercollection, gpmc.igpmwmifiltercollection, gpmgmt/IGPMWMIFilterCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

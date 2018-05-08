@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsDeleteOps.DeleteObject
-title: IADsDeleteOps::DeleteObject method
+title: IADsDeleteOps::DeleteObject
 author: windows-driver-content
 description: The IADsDeleteOps::DeleteObject method deletes an ADSI object.
 old-location: adsi\iadsdeleteops_deleteobject.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 53685f60-9adf-40f0-b6d3-e59a0435f744
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DeleteObject method [ADSI], DeleteObject method [ADSI], IADsDeleteOps interface, DeleteObject,IADsDeleteOps.DeleteObject, IADsDeleteOps, IADsDeleteOps interface [ADSI], DeleteObject method, IADsDeleteOps::DeleteObject, _ds_iadsdeleteops_deleteobject, adsi.iadsdeleteops__deleteobject, adsi.iadsdeleteops_deleteobject, iads/IADsDeleteOps::DeleteObject
+ms.keywords: DeleteObject, DeleteObject method [ADSI], DeleteObject method [ADSI],IADsDeleteOps interface, IADsDeleteOps interface [ADSI],DeleteObject method, IADsDeleteOps.DeleteObject, IADsDeleteOps::DeleteObject, _ds_iadsdeleteops_deleteobject, adsi.iadsdeleteops__deleteobject, adsi.iadsdeleteops_deleteobject, iads/IADsDeleteOps::DeleteObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsDeleteOps::DeleteObject method
+# IADsDeleteOps::DeleteObject
 
 
 ## -description

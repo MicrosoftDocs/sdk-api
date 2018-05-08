@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.AddTrack
-title: IRawCDImageCreator::AddTrack method
+title: IRawCDImageCreator::AddTrack
 author: windows-driver-content
 description: Accepts the provided IStream object and saves the interface pointer as the next track in the image.
 old-location: imapi\irawcdimagecreator_addtrack.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 913393e8-6d60-4b1a-b482-32225860f714
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddTrack method [IMAPI], AddTrack method [IMAPI], IRawCDImageCreator interface, AddTrack,IRawCDImageCreator.AddTrack, IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], AddTrack method, IRawCDImageCreator::AddTrack, imapi.irawcdimagecreator_addtrack, imapi2/IRawCDImageCreator::AddTrack
+ms.keywords: AddTrack, AddTrack method [IMAPI], AddTrack method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddTrack method, IRawCDImageCreator.AddTrack, IRawCDImageCreator::AddTrack, imapi.irawcdimagecreator_addtrack, imapi2/IRawCDImageCreator::AddTrack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRawCDImageCreator::AddTrack method
+# IRawCDImageCreator::AddTrack
 
 
 ## -description

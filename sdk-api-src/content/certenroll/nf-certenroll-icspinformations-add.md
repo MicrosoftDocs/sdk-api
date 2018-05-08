@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.Add
-title: ICspInformations::Add method
+title: ICspInformations::Add
 author: windows-driver-content
 description: Adds an ICspInformation object to the collection.
 old-location: security\icspinformations_add_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 882d6b6c-df42-4495-8d03-fa325ccd9899
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Add method [Security], Add method [Security], ICspInformations interface, Add,ICspInformations.Add, ICspInformations, ICspInformations interface [Security], Add method, ICspInformations::Add, certenroll/ICspInformations::Add, security.icspinformations_add_method
+ms.keywords: Add, Add method [Security], Add method [Security],ICspInformations interface, ICspInformations interface [Security],Add method, ICspInformations.Add, ICspInformations::Add, certenroll/ICspInformations::Add, security.icspinformations_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformations::Add method
+# ICspInformations::Add
 
 
 ## -description

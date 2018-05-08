@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 3cb0e1b3-88a8-4724-a3c5-0df416294e62
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], IXpsOMCanvas interface [XPS Documents and Packaging], described, xps.ixpsomcanvas, xpsobjectmodel/IXpsOMCanvas
+ms.keywords: IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], IXpsOMCanvas interface [XPS Documents and Packaging],described, xps.ixpsomcanvas, xpsobjectmodel/IXpsOMCanvas
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

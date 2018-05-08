@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeProvider.EnumDisplayAttributeInfo
-title: ITfDisplayAttributeProvider::EnumDisplayAttributeInfo method
+title: ITfDisplayAttributeProvider::EnumDisplayAttributeInfo
 author: windows-driver-content
 description: ITfDisplayAttributeProvider::EnumDisplayAttributeInfo method
 old-location: tsf\itfdisplayattributeprovider_enumdisplayattributeinfo.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 1a19de91-ad79-4c75-956b-5f5de6700cbe
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnumDisplayAttributeInfo method [Text Services Framework], EnumDisplayAttributeInfo method [Text Services Framework], ITfDisplayAttributeProvider interface, EnumDisplayAttributeInfo,ITfDisplayAttributeProvider.EnumDisplayAttributeInfo, ITfDisplayAttributeProvider, ITfDisplayAttributeProvider interface [Text Services Framework], EnumDisplayAttributeInfo method, ITfDisplayAttributeProvider::EnumDisplayAttributeInfo, _tsf_itfdisplayattributeprovider_enumdisplayattributeinfo_ref, msctf/ITfDisplayAttributeProvider::EnumDisplayAttributeInfo, tsf.itfdisplayattributeprovider_enumdisplayattributeinfo
+ms.keywords: EnumDisplayAttributeInfo, EnumDisplayAttributeInfo method [Text Services Framework], EnumDisplayAttributeInfo method [Text Services Framework],ITfDisplayAttributeProvider interface, ITfDisplayAttributeProvider interface [Text Services Framework],EnumDisplayAttributeInfo method, ITfDisplayAttributeProvider.EnumDisplayAttributeInfo, ITfDisplayAttributeProvider::EnumDisplayAttributeInfo, _tsf_itfdisplayattributeprovider_enumdisplayattributeinfo_ref, msctf/ITfDisplayAttributeProvider::EnumDisplayAttributeInfo, tsf.itfdisplayattributeprovider_enumdisplayattributeinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfDisplayAttributeProvider::EnumDisplayAttributeInfo method
+# ITfDisplayAttributeProvider::EnumDisplayAttributeInfo
 
 
 ## -description

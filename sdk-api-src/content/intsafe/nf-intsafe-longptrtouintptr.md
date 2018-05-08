@@ -7,8 +7,8 @@ old-location: shell\LongPtrToUIntPtr.htm
 old-project: shell
 ms.assetid: f2f554ba-b26d-4ee9-9a43-4814c661c7c4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: LongPtrToUIntPtr, LongPtrToUIntPtr function [Windows Shell], _shell_LongPtrToUIntPtr, intsafe/LongPtrToUIntPtr, shell.LongPtrToUIntPtr
+ms.date: 5/3/2018
+ms.keywords: LongPtrToSizeT, LongPtrToUIntPtr, LongPtrToUIntPtr function [Windows Shell], SSIZETToSizeT, _shell_LongPtrToUIntPtr, intsafe/LongPtrToUIntPtr, shell.LongPtrToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,6 +95,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>LongPtrToSizeT</b> is an alias for this function.
+
+<b>SSIZETToSizeT</b> is an alias for this function.
 
 
 

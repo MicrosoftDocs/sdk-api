@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIRibbon.GetHeight
-title: IUIRibbon::GetHeight method
+title: IUIRibbon::GetHeight
 author: windows-driver-content
 description: Retrieves the height of the ribbon.
 old-location: windowsribbon\windowsribbon_iuiribbon_getheight.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\getheight.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetHeight method [Windows Ribbon], GetHeight method [Windows Ribbon], IUIRibbon interface, GetHeight,IUIRibbon.GetHeight, IUIRibbon, IUIRibbon interface [Windows Ribbon], GetHeight method, IUIRibbon::GetHeight, scenicintent_IUIRibbon_GetHeight, uiribbon/IUIRibbon::GetHeight, windowsribbon.windowsribbon_iuiribbon_getheight
+ms.keywords: GetHeight, GetHeight method [Windows Ribbon], GetHeight method [Windows Ribbon],IUIRibbon interface, IUIRibbon interface [Windows Ribbon],GetHeight method, IUIRibbon.GetHeight, IUIRibbon::GetHeight, scenicintent_IUIRibbon_GetHeight, uiribbon/IUIRibbon::GetHeight, windowsribbon.windowsribbon_iuiribbon_getheight
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUIRibbon::GetHeight method
+# IUIRibbon::GetHeight
 
 
 ## -description

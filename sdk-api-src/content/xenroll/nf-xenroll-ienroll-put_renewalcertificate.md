@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.put_RenewalCertificate
-title: IEnroll::put_RenewalCertificate method
+title: IEnroll::put_RenewalCertificate
 author: windows-driver-content
 description: Specifies the certificate context for the renewal certificate.
 old-location: security\ienroll4_renewalcertificate.htm
 old-project: SecCrypto
 ms.assetid: 9806cd48-0d95-420b-aa26-0175dd95da46
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], RenewalCertificate property, IEnroll.RenewalCertificate, IEnroll::get_RenewalCertificate, IEnroll::put_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security], IEnroll interface, put_RenewalCertificate,IEnroll.put_RenewalCertificate, security.ienroll4_renewalcertificate, xenroll/IEnroll::RenewalCertificate, xenroll/IEnroll::get_RenewalCertificate, xenroll/IEnroll::put_RenewalCertificate
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],RenewalCertificate property, IEnroll.RenewalCertificate, IEnroll.put_RenewalCertificate, IEnroll::RenewalCertificate, IEnroll::get_RenewalCertificate, IEnroll::put_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security],IEnroll interface, put_RenewalCertificate, security.ienroll4_renewalcertificate, xenroll/IEnroll::RenewalCertificate, xenroll/IEnroll::get_RenewalCertificate, xenroll/IEnroll::put_RenewalCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::put_RenewalCertificate method
+# IEnroll::put_RenewalCertificate
 
 
 ## -description

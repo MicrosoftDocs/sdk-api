@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations
-title: IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations method
+title: IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
 author: windows-driver-content
 description: Completes an asynchronous cancellation request for a subscription to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_endunsubscribetomultipleoperations.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 62f42441-11b0-46ce-9a4e-03b34d8b4c9b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EndUnsubscribeToMultipleOperations method, EndUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing interface, EndUnsubscribeToMultipleOperations,IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations, IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, EndUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_endunsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
+ms.keywords: EndUnsubscribeToMultipleOperations, EndUnsubscribeToMultipleOperations method, EndUnsubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations, IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_endunsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations method
+# IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
 
 
 ## -description

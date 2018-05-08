@@ -1,0 +1,7 @@
+# [Menus and Other Resources](../_menurc/index.md)
+## [Resourceindexer.h](index.md)
+### [CreateResourceIndexer function](../resourceindexer/nf-resourceindexer-createresourceindexer.md)
+### [DestroyIndexedResults function](../resourceindexer/nf-resourceindexer-destroyindexedresults.md)
+### [DestroyResourceIndexer function](../resourceindexer/nf-resourceindexer-destroyresourceindexer.md)
+### [IndexFilePath function](../resourceindexer/nf-resourceindexer-indexfilepath.md)
+### [IndexedResourceQualifier structure](../resourceindexer/ns-resourceindexer-indexedresourcequalifier.md)

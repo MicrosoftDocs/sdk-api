@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.CallFunction
-title: ID3D11FunctionLinkingGraph::CallFunction method
+title: ID3D11FunctionLinkingGraph::CallFunction
 author: windows-driver-content
 description: Creates a call-function linking node to use in the function-linking-graph.
 old-location: direct3d11\id3d11functionlinkinggraph_callfunction.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 0DEEE3E4-7D4E-40BD-9D96-A1C91CF5E4BE
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: CallFunction method [Direct3D 11], CallFunction method [Direct3D 11], ID3D11FunctionLinkingGraph interface, CallFunction,ID3D11FunctionLinkingGraph.CallFunction, ID3D11FunctionLinkingGraph, ID3D11FunctionLinkingGraph interface [Direct3D 11], CallFunction method, ID3D11FunctionLinkingGraph::CallFunction, d3d11shader/ID3D11FunctionLinkingGraph::CallFunction, direct3d11.id3d11functionlinkinggraph_callfunction
+ms.keywords: CallFunction, CallFunction method [Direct3D 11], CallFunction method [Direct3D 11],ID3D11FunctionLinkingGraph interface, ID3D11FunctionLinkingGraph interface [Direct3D 11],CallFunction method, ID3D11FunctionLinkingGraph.CallFunction, ID3D11FunctionLinkingGraph::CallFunction, d3d11shader/ID3D11FunctionLinkingGraph::CallFunction, direct3d11.id3d11functionlinkinggraph_callfunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11FunctionLinkingGraph::CallFunction method
+# ID3D11FunctionLinkingGraph::CallFunction
 
 
 ## -description

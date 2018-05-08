@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.RemoveBandwidthSharing
-title: IWMProfile3::RemoveBandwidthSharing method
+title: IWMProfile3::RemoveBandwidthSharing
 author: windows-driver-content
 description: The RemoveBandwidthSharing method removes a bandwidth sharing object from the profile.
 old-location: wmformat\iwmprofile3_removebandwidthsharing.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3c0a90aa-154a-49c9-ab8e-0d1c4ce02641
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMProfile3, IWMProfile3 interface [windows Media Format], RemoveBandwidthSharing method, IWMProfile3::RemoveBandwidthSharing, IWMProfile3RemoveBandwidthSharing, RemoveBandwidthSharing method [windows Media Format], RemoveBandwidthSharing method [windows Media Format], IWMProfile3 interface, RemoveBandwidthSharing,IWMProfile3.RemoveBandwidthSharing, wmformat.iwmprofile3_removebandwidthsharing, wmsdkidl/IWMProfile3::RemoveBandwidthSharing
+ms.keywords: IWMProfile3 interface [windows Media Format],RemoveBandwidthSharing method, IWMProfile3.RemoveBandwidthSharing, IWMProfile3::RemoveBandwidthSharing, IWMProfile3RemoveBandwidthSharing, RemoveBandwidthSharing, RemoveBandwidthSharing method [windows Media Format], RemoveBandwidthSharing method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_removebandwidthsharing, wmsdkidl/IWMProfile3::RemoveBandwidthSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfile3::RemoveBandwidthSharing method
+# IWMProfile3::RemoveBandwidthSharing
 
 
 ## -description

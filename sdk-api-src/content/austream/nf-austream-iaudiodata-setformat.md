@@ -1,14 +1,14 @@
 ---
 UID: NF:austream.IAudioData.SetFormat
-title: IAudioData::SetFormat method
+title: IAudioData::SetFormat
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The SetFormat method sets the current data format.
 old-location: dshow\iaudiodata_setformat.htm
 old-project: DirectShow
 ms.assetid: 792112a6-b10a-432f-854a-07bd74173e84
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAudioData, IAudioData interface [DirectShow], SetFormat method, IAudioData::SetFormat, IAudioDataSetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow], IAudioData interface, SetFormat,IAudioData.SetFormat, austream/IAudioData::SetFormat, dshow.iaudiodata_setformat
+ms.date: 4/30/2018
+ms.keywords: IAudioData interface [DirectShow],SetFormat method, IAudioData.SetFormat, IAudioData::SetFormat, IAudioDataSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAudioData interface, austream/IAudioData::SetFormat, dshow.iaudiodata_setformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioData::SetFormat method
+# IAudioData::SetFormat
 
 
 ## -description

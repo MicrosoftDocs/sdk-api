@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetQualityIndicator
-title: IIsdbAudioComponentDescriptor::GetQualityIndicator method
+title: IIsdbAudioComponentDescriptor::GetQualityIndicator
 author: windows-driver-content
 description: Gets the value of the quality_indicator field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This two-bit field indicates the tone quality mode.
 old-location: mstv\iisdbaudiocomponentdescriptor_getqualityindicator.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 39d85ecd-6ccd-48e8-9498-41aad45a7357
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetQualityIndicator method [Microsoft TV Technologies], GetQualityIndicator method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetQualityIndicator,IIsdbAudioComponentDescriptor.GetQualityIndicator, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetQualityIndicator method, IIsdbAudioComponentDescriptor::GetQualityIndicator, dvbsiparser/IIsdbAudioComponentDescriptor::GetQualityIndicator, mstv.iisdbaudiocomponentdescriptor_getqualityindicator
+ms.keywords: GetQualityIndicator, GetQualityIndicator method [Microsoft TV Technologies], GetQualityIndicator method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetQualityIndicator method, IIsdbAudioComponentDescriptor.GetQualityIndicator, IIsdbAudioComponentDescriptor::GetQualityIndicator, dvbsiparser/IIsdbAudioComponentDescriptor::GetQualityIndicator, mstv.iisdbaudiocomponentdescriptor_getqualityindicator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbAudioComponentDescriptor::GetQualityIndicator method
+# IIsdbAudioComponentDescriptor::GetQualityIndicator
 
 
 ## -description

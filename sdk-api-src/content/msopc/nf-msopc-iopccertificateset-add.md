@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcCertificateSet.Add
-title: IOpcCertificateSet::Add method
+title: IOpcCertificateSet::Add
 author: windows-driver-content
 description: Adds a certificate to the set.
 old-location: opc\iopccertificateset_add.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: d14e9a1e-dda3-4b57-9882-0fd473a19e8c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Add method [Open Packaging Conventions], Add method [Open Packaging Conventions], IOpcCertificateSet interface, Add,IOpcCertificateSet.Add, IOpcCertificateSet, IOpcCertificateSet interface [Open Packaging Conventions], Add method, IOpcCertificateSet::Add, msopc/IOpcCertificateSet::Add, opc.iopccertificateset_add
+ms.keywords: Add, Add method [Open Packaging Conventions], Add method [Open Packaging Conventions],IOpcCertificateSet interface, IOpcCertificateSet interface [Open Packaging Conventions],Add method, IOpcCertificateSet.Add, IOpcCertificateSet::Add, msopc/IOpcCertificateSet::Add, opc.iopccertificateset_add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcCertificateSet::Add method
+# IOpcCertificateSet::Add
 
 
 ## -description

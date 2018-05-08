@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetSourceElements
-title: IMFMediaEngine::SetSourceElements method
+title: IMFMediaEngine::SetSourceElements
 author: windows-driver-content
 description: Sets a list of media sources.
 old-location: mf\imfmediaengine_setsourceelements.htm
 old-project: medfound
 ms.assetid: 7B1A1C43-A9BD-4DBF-B6A7-53BF9295CDAC
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], SetSourceElements method, IMFMediaEngine::SetSourceElements, SetSourceElements method [Media Foundation], SetSourceElements method [Media Foundation], IMFMediaEngine interface, SetSourceElements,IMFMediaEngine.SetSourceElements, mf.imfmediaengine_setsourceelements, mfmediaengine/IMFMediaEngine::SetSourceElements
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngine interface [Media Foundation],SetSourceElements method, IMFMediaEngine.SetSourceElements, IMFMediaEngine::SetSourceElements, SetSourceElements, SetSourceElements method [Media Foundation], SetSourceElements method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setsourceelements, mfmediaengine/IMFMediaEngine::SetSourceElements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::SetSourceElements method
+# IMFMediaEngine::SetSourceElements
 
 
 ## -description

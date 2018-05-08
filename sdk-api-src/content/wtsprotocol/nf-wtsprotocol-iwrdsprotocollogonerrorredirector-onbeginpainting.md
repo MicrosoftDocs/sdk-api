@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLogonErrorRedirector.OnBeginPainting
-title: IWRdsProtocolLogonErrorRedirector::OnBeginPainting method
+title: IWRdsProtocolLogonErrorRedirector::OnBeginPainting
 author: windows-driver-content
 description: Notifies the protocol that the logon user interface is ready to begin painting.
 old-location: termserv\iwrdsprotocollogonerrorredirector_onbeginpainting.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: cc044746-1127-44a3-993d-ca2445c99ff6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolLogonErrorRedirector, IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services], OnBeginPainting method, IWRdsProtocolLogonErrorRedirector::OnBeginPainting, OnBeginPainting method [Remote Desktop Services], OnBeginPainting method [Remote Desktop Services], IWRdsProtocolLogonErrorRedirector interface, OnBeginPainting,IWRdsProtocolLogonErrorRedirector.OnBeginPainting, termserv.iwrdsprotocollogonerrorredirector_onbeginpainting, wtsprotocol/IWRdsProtocolLogonErrorRedirector::OnBeginPainting
+ms.keywords: IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],OnBeginPainting method, IWRdsProtocolLogonErrorRedirector.OnBeginPainting, IWRdsProtocolLogonErrorRedirector::OnBeginPainting, OnBeginPainting, OnBeginPainting method [Remote Desktop Services], OnBeginPainting method [Remote Desktop Services],IWRdsProtocolLogonErrorRedirector interface, termserv.iwrdsprotocollogonerrorredirector_onbeginpainting, wtsprotocol/IWRdsProtocolLogonErrorRedirector::OnBeginPainting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolLogonErrorRedirector::OnBeginPainting method
+# IWRdsProtocolLogonErrorRedirector::OnBeginPainting
 
 
 ## -description

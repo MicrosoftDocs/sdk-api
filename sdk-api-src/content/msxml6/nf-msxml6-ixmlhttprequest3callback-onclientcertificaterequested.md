@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest3Callback.OnClientCertificateRequested
-title: IXMLHTTPRequest3Callback::OnClientCertificateRequested method
+title: IXMLHTTPRequest3Callback::OnClientCertificateRequested
 author: windows-driver-content
 description: Occurs when a client receives a request for a client certificate during SSL negotiation with the server.
 old-location: ixhr2\ixmlhttprequest3callback_onclientcertificaterequested.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: 9c64fbb5-b755-4f1b-90f3-3cc414b3f5a4
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest3Callback, IXMLHTTPRequest3Callback interface [XMLHttpRequest2], OnClientCertificateRequested method, IXMLHTTPRequest3Callback::OnClientCertificateRequested, OnClientCertificateRequested method [XMLHttpRequest2], OnClientCertificateRequested method [XMLHttpRequest2], IXMLHTTPRequest3Callback interface, OnClientCertificateRequested,IXMLHTTPRequest3Callback.OnClientCertificateRequested, ixhr2.ixmlhttprequest3callback_onclientcertificaterequested, msxml6/IXMLHTTPRequest3Callback::OnClientCertificateRequested
+ms.keywords: IXMLHTTPRequest3Callback interface [XMLHttpRequest2],OnClientCertificateRequested method, IXMLHTTPRequest3Callback.OnClientCertificateRequested, IXMLHTTPRequest3Callback::OnClientCertificateRequested, OnClientCertificateRequested, OnClientCertificateRequested method [XMLHttpRequest2], OnClientCertificateRequested method [XMLHttpRequest2],IXMLHTTPRequest3Callback interface, ixhr2.ixmlhttprequest3callback_onclientcertificaterequested, msxml6/IXMLHTTPRequest3Callback::OnClientCertificateRequested
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest3Callback::OnClientCertificateRequested method
+# IXMLHTTPRequest3Callback::OnClientCertificateRequested
 
 
 ## -description

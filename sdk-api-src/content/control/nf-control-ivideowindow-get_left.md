@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IVideoWindow.get_Left
-title: IVideoWindow::get_Left method
+title: IVideoWindow::get_Left
 author: windows-driver-content
 description: The get_Left method retrieves the video window's x-axis coordinate.
 old-location: dshow\ivideowindow_get_left.htm
 old-project: DirectShow
 ms.assetid: 6d75c926-588c-4fb2-b537-f27602799b2e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], get_Left method, IVideoWindow::get_Left, IVideoWindowget_Left, control/IVideoWindow::get_Left, dshow.ivideowindow_get_left, get_Left method [DirectShow], get_Left method [DirectShow], IVideoWindow interface, get_Left,IVideoWindow.get_Left
+ms.date: 4/30/2018
+ms.keywords: IVideoWindow interface [DirectShow],get_Left method, IVideoWindow.get_Left, IVideoWindow::get_Left, IVideoWindowget_Left, control/IVideoWindow::get_Left, dshow.ivideowindow_get_left, get_Left, get_Left method [DirectShow], get_Left method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IVideoWindow::get_Left method
+# IVideoWindow::get_Left
 
 
 ## -description

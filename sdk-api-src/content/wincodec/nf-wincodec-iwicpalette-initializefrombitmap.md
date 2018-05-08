@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.InitializeFromBitmap
-title: IWICPalette::InitializeFromBitmap method
+title: IWICPalette::InitializeFromBitmap
 author: windows-driver-content
 description: Initializes a palette using a computed optimized values based on the reference bitmap.
 old-location: wic\_wic_codec_iwicpalette_initializefrombitmap.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: f17d0f16-729e-466c-902f-61398daf2921
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICPalette, IWICPalette interface [Windows Imaging Component], InitializeFromBitmap method, IWICPalette::InitializeFromBitmap, InitializeFromBitmap method [Windows Imaging Component], InitializeFromBitmap method [Windows Imaging Component], IWICPalette interface, InitializeFromBitmap,IWICPalette.InitializeFromBitmap, _wic_codec_iwicpalette_initializefrombitmap, wic._wic_codec_iwicpalette_initializefrombitmap, wincodec/IWICPalette::InitializeFromBitmap
+ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeFromBitmap method, IWICPalette.InitializeFromBitmap, IWICPalette::InitializeFromBitmap, InitializeFromBitmap, InitializeFromBitmap method [Windows Imaging Component], InitializeFromBitmap method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializefrombitmap, wic._wic_codec_iwicpalette_initializefrombitmap, wincodec/IWICPalette::InitializeFromBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICPalette::InitializeFromBitmap method
+# IWICPalette::InitializeFromBitmap
 
 
 ## -description

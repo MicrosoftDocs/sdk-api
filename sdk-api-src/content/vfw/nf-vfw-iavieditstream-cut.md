@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IAVIEditStream.Cut
-title: IAVIEditStream::Cut method
+title: IAVIEditStream::Cut
 author: windows-driver-content
 description: The Cut method removes a portion of a stream and places it in a temporary stream. Called when an application uses the EditStreamCut function.
 old-location: multimedia\iavieditstream_cut.htm
 old-project: Multimedia
 ms.assetid: e889d435-5c33-402d-bd69-c9122670e404
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: Cut method [Windows Multimedia], Cut method [Windows Multimedia], IAVIEditStream interface, Cut,IAVIEditStream.Cut, IAVIEditStream, IAVIEditStream interface [Windows Multimedia], Cut method, IAVIEditStream::Cut, _win32_IAVIEditStream_Cut, multimedia.iavieditstream_cut, vfw/IAVIEditStream::Cut
+ms.date: 5/4/2018
+ms.keywords: Cut, Cut method [Windows Multimedia], Cut method [Windows Multimedia],IAVIEditStream interface, IAVIEditStream interface [Windows Multimedia],Cut method, IAVIEditStream.Cut, IAVIEditStream::Cut, _win32_IAVIEditStream_Cut, multimedia.iavieditstream_cut, vfw/IAVIEditStream::Cut
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAVIEditStream::Cut method
+# IAVIEditStream::Cut
 
 
 ## -description

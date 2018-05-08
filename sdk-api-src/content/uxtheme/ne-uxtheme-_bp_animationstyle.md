@@ -7,7 +7,7 @@ old-location: controls\BP_ANIMATIONSTYLE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\bp_animationstyle.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: BPAS_CUBIC, BPAS_LINEAR, BPAS_NONE, BPAS_SINE, BP_ANIMATIONSTYLE, BP_ANIMATIONSTYLE enumeration [Windows Controls], _BP_ANIMATIONSTYLE, _shell_BP_ANIMATIONSTYLE, _shell_BP_ANIMATIONSTYLE_cpp, controls.BP_ANIMATIONSTYLE, controls._shell_BP_ANIMATIONSTYLE, uxtheme/BPAS_CUBIC, uxtheme/BPAS_LINEAR, uxtheme/BPAS_NONE, uxtheme/BPAS_SINE, uxtheme/BP_ANIMATIONSTYLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Sidebar.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: Sidebar.Exe (version 1.00 or later)
+req.dll: 
 req.irql: 
 req.product: Windows UI
 ---

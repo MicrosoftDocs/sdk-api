@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.Connect
-title: IRpcStubBuffer::Connect method
+title: IRpcStubBuffer::Connect
 author: windows-driver-content
 description: Initializes a server stub, binding it to the specified interface.
 old-location: com\irpcstubbuffer_connect.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 0a452287-b674-4b51-9690-316beeab4482
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Connect method [COM], Connect method [COM], IRpcStubBuffer interface, Connect,IRpcStubBuffer.Connect, IRpcStubBuffer, IRpcStubBuffer interface [COM], Connect method, IRpcStubBuffer::Connect, _com_irpcstubbuffer_connect, com.irpcstubbuffer_connect, objidlbase/IRpcStubBuffer::Connect
+ms.keywords: Connect, Connect method [COM], Connect method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],Connect method, IRpcStubBuffer.Connect, IRpcStubBuffer::Connect, _com_irpcstubbuffer_connect, com.irpcstubbuffer_connect, objidlbase/IRpcStubBuffer::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRpcStubBuffer::Connect method
+# IRpcStubBuffer::Connect
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFSample.GetSampleDuration
-title: IMFSample::GetSampleDuration method
+title: IMFSample::GetSampleDuration
 author: windows-driver-content
 description: Retrieves the duration of the sample.
 old-location: mf\imfsample_getsampleduration.htm
 old-project: medfound
 ms.assetid: c3284edc-b9b5-489b-9166-3bb6da50bd2a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetSampleDuration method [Media Foundation], GetSampleDuration method [Media Foundation], IMFSample interface, GetSampleDuration,IMFSample.GetSampleDuration, IMFSample, IMFSample interface [Media Foundation], GetSampleDuration method, IMFSample::GetSampleDuration, c3284edc-b9b5-489b-9166-3bb6da50bd2a, mf.imfsample_getsampleduration, mfobjects/IMFSample::GetSampleDuration
+ms.date: 5/3/2018
+ms.keywords: GetSampleDuration, GetSampleDuration method [Media Foundation], GetSampleDuration method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetSampleDuration method, IMFSample.GetSampleDuration, IMFSample::GetSampleDuration, c3284edc-b9b5-489b-9166-3bb6da50bd2a, mf.imfsample_getsampleduration, mfobjects/IMFSample::GetSampleDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSample::GetSampleDuration method
+# IMFSample::GetSampleDuration
 
 
 ## -description

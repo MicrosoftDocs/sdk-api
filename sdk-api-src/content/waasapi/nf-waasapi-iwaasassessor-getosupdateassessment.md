@@ -1,6 +1,6 @@
 ---
 UID: NF:waasapi.IWaaSAssessor.GetOSUpdateAssessment
-title: IWaaSAssessor::GetOSUpdateAssessment method
+title: IWaaSAssessor::GetOSUpdateAssessment
 author: windows-driver-content
 description: Gets the OS update assessment by comparing the latest release OS version from Microsoft to the OS build running on the device.
 old-location: base\iwaasassessor_getosupdateassessment.htm
@@ -8,7 +8,7 @@ old-project: SysInfo
 ms.assetid: 3123362E-6A1C-49BD-BE9C-0B8506EA944B
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetOSUpdateAssessment method, GetOSUpdateAssessment method, IWaaSAssessor interface, GetOSUpdateAssessment,IWaaSAssessor.GetOSUpdateAssessment, IWaaSAssessor, IWaaSAssessor interface, GetOSUpdateAssessment method, IWaaSAssessor::GetOSUpdateAssessment, base.iwaasassessor_getosupdateassessment, waasapi/IWaaSAssessor::GetOSUpdateAssessment
+ms.keywords: GetOSUpdateAssessment, GetOSUpdateAssessment method, GetOSUpdateAssessment method,IWaaSAssessor interface, IWaaSAssessor interface,GetOSUpdateAssessment method, IWaaSAssessor.GetOSUpdateAssessment, IWaaSAssessor::GetOSUpdateAssessment, base.iwaasassessor_getosupdateassessment, waasapi/IWaaSAssessor::GetOSUpdateAssessment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IWaaSAssessor::GetOSUpdateAssessment method
+# IWaaSAssessor::GetOSUpdateAssessment
 
 
 ## -description

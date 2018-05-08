@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.GetBoundingRectangles
-title: ITextRangeProvider::GetBoundingRectangles method
+title: ITextRangeProvider::GetBoundingRectangles
 author: windows-driver-content
 description: Retrieves a collection of bounding rectangles for each fully or partially visible line of text in a text range.
 old-location: winauto\uiauto_ITextRangeProvider_GetBoundingRectangles.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2ca1d170-538b-4dc2-83f3-850e1873c0d1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetBoundingRectangles method [Windows Accessibility], GetBoundingRectangles method [Windows Accessibility], ITextRangeProvider interface, GetBoundingRectangles,ITextRangeProvider.GetBoundingRectangles, ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], GetBoundingRectangles method, ITextRangeProvider::GetBoundingRectangles, uiauto.uiauto_ITextRangeProvider_GetBoundingRectangles, uiauto_ITextRangeProvider_GetBoundingRectangles, uiautomationcore/ITextRangeProvider::GetBoundingRectangles, winauto.uiauto_ITextRangeProvider_GetBoundingRectangles
+ms.keywords: GetBoundingRectangles, GetBoundingRectangles method [Windows Accessibility], GetBoundingRectangles method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetBoundingRectangles method, ITextRangeProvider.GetBoundingRectangles, ITextRangeProvider::GetBoundingRectangles, uiauto.uiauto_ITextRangeProvider_GetBoundingRectangles, uiauto_ITextRangeProvider_GetBoundingRectangles, uiautomationcore/ITextRangeProvider::GetBoundingRectangles, winauto.uiauto_ITextRangeProvider_GetBoundingRectangles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRangeProvider::GetBoundingRectangles method
+# ITextRangeProvider::GetBoundingRectangles
 
 
 ## -description

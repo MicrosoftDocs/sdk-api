@@ -8,7 +8,7 @@ old-project: Debug
 ms.assetid: 387c20b0-ed16-463c-8b11-3ac9a43548a1
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FunctionTableAccessProc64, FunctionTableAccessProc64 callback function, PFUNCTION_TABLE_ACCESS_ROUTINE, PFUNCTION_TABLE_ACCESS_ROUTINE64, _win32_functiontableaccessproc64, base.functiontableaccessproc64, dbghelp/FunctionTableAccessProc64
+ms.keywords: FunctionTableAccessProc64, FunctionTableAccessProc64 callback, FunctionTableAccessProc64 callback function, PFUNCTION_TABLE_ACCESS_ROUTINE, PFUNCTION_TABLE_ACCESS_ROUTINE64, _win32_functiontableaccessproc64, base.functiontableaccessproc64, dbghelp/FunctionTableAccessProc64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PFUNCTION_TABLE_ACCESS_ROUTINE64 callback
+# PFUNCTION_TABLE_ACCESS_ROUTINE64 callback function
 
 
 ## -description

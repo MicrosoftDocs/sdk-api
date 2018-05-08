@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation4.AddChangesEventHandler
-title: IUIAutomation4::AddChangesEventHandler method
+title: IUIAutomation4::AddChangesEventHandler
 author: windows-driver-content
 description: Registers a method that handles change events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
 old-location: winauto\uiauto_IUIAutomation4_AddChangesEventHandler.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: E479ACCA-9372-463F-A992-8030E33A2341
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: AddChangesEventHandler method [Windows Accessibility], AddChangesEventHandler method [Windows Accessibility], IUIAutomation4 interface, AddChangesEventHandler,IUIAutomation4.AddChangesEventHandler, IUIAutomation4, IUIAutomation4 interface [Windows Accessibility], AddChangesEventHandler method, IUIAutomation4::AddChangesEventHandler, uiautomationclient/IUIAutomation4::AddChangesEventHandler, winauto.uiauto_IUIAutomation4_AddChangesEventHandler
+ms.keywords: AddChangesEventHandler, AddChangesEventHandler method [Windows Accessibility], AddChangesEventHandler method [Windows Accessibility],IUIAutomation4 interface, IUIAutomation4 interface [Windows Accessibility],AddChangesEventHandler method, IUIAutomation4.AddChangesEventHandler, IUIAutomation4::AddChangesEventHandler, uiautomationclient/IUIAutomation4::AddChangesEventHandler, winauto.uiauto_IUIAutomation4_AddChangesEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation4::AddChangesEventHandler method
+# IUIAutomation4::AddChangesEventHandler
 
 
 ## -description

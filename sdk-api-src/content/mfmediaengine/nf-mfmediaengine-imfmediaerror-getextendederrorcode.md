@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaError.GetExtendedErrorCode
-title: IMFMediaError::GetExtendedErrorCode method
+title: IMFMediaError::GetExtendedErrorCode
 author: windows-driver-content
 description: Gets the extended error code.
 old-location: mf\imfmediaerror_getextendederrorcode.htm
 old-project: medfound
 ms.assetid: 73B414F2-F17E-418E-9F8B-A7C378F80090
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetExtendedErrorCode method [Media Foundation], GetExtendedErrorCode method [Media Foundation], IMFMediaError interface, GetExtendedErrorCode,IMFMediaError.GetExtendedErrorCode, IMFMediaError, IMFMediaError interface [Media Foundation], GetExtendedErrorCode method, IMFMediaError::GetExtendedErrorCode, mf.imfmediaerror_getextendederrorcode, mfmediaengine/IMFMediaError::GetExtendedErrorCode
+ms.date: 5/3/2018
+ms.keywords: GetExtendedErrorCode, GetExtendedErrorCode method [Media Foundation], GetExtendedErrorCode method [Media Foundation],IMFMediaError interface, IMFMediaError interface [Media Foundation],GetExtendedErrorCode method, IMFMediaError.GetExtendedErrorCode, IMFMediaError::GetExtendedErrorCode, mf.imfmediaerror_getextendederrorcode, mfmediaengine/IMFMediaError::GetExtendedErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaError::GetExtendedErrorCode method
+# IMFMediaError::GetExtendedErrorCode
 
 
 ## -description

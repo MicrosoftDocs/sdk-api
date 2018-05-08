@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGPEInformation.PolicyChanged
-title: IGPEInformation::PolicyChanged method
+title: IGPEInformation::PolicyChanged
 author: windows-driver-content
 description: The PolicyChanged method informs the Group Policy Object Editor that policy settings have changed.
 old-location: policy\igpeinformation_policychanged.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: 4c36fbcb-2adb-4c32-87d3-efcd55dbaf3e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IGPEInformation, IGPEInformation interface [Group Policy], PolicyChanged method, IGPEInformation::PolicyChanged, PolicyChanged method [Group Policy], PolicyChanged method [Group Policy], IGPEInformation interface, PolicyChanged,IGPEInformation.PolicyChanged, _win32_igpeinformation_policychanged, gpedit/IGPEInformation::PolicyChanged, policy.igpeinformation_policychanged
+ms.keywords: IGPEInformation interface [Group Policy],PolicyChanged method, IGPEInformation.PolicyChanged, IGPEInformation::PolicyChanged, PolicyChanged, PolicyChanged method [Group Policy], PolicyChanged method [Group Policy],IGPEInformation interface, _win32_igpeinformation_policychanged, gpedit/IGPEInformation::PolicyChanged, policy.igpeinformation_policychanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPEInformation::PolicyChanged method
+# IGPEInformation::PolicyChanged
 
 
 ## -description

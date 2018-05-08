@@ -7,7 +7,7 @@ old-location: dshow\mpeglayer3waveformat.htm
 old-project: DirectShow
 ms.assetid: eca403a0-01a2-4290-951f-a7d516a58b9e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPMPEGLAYER3WAVEFORMAT, *NPMPEGLAYER3WAVEFORMAT, *PMPEGLAYER3WAVEFORMAT, MPEGLAYER3WAVEFORMAT, MPEGLAYER3WAVEFORMAT structure [DirectShow], MPEGLAYER3WAVEFORMATStructure, MPEGLAYER3_FLAG_PADDING_ISO, MPEGLAYER3_FLAG_PADDING_OFF, MPEGLAYER3_FLAG_PADDING_ON, dshow.mpeglayer3waveformat, mmreg/MPEGLAYER3WAVEFORMAT, mpeglayer3waveformat_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices

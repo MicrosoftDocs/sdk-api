@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.TranslateAccelerator
-title: IOleInPlaceFrame::TranslateAccelerator method
+title: IOleInPlaceFrame::TranslateAccelerator
 author: windows-driver-content
 description: Translates accelerator keystrokes intended for the container's frame while an object is active in place.
 old-location: com\ioleinplaceframe_translateaccelerator.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f755b919-b810-4b66-b3c2-bf38bd525d60
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceFrame, IOleInPlaceFrame interface [COM], TranslateAccelerator method, IOleInPlaceFrame::TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM], IOleInPlaceFrame interface, TranslateAccelerator,IOleInPlaceFrame.TranslateAccelerator, _ole_ioleinplaceframe_translateaccelerator, com.ioleinplaceframe_translateaccelerator, oleidl/IOleInPlaceFrame::TranslateAccelerator
+ms.keywords: IOleInPlaceFrame interface [COM],TranslateAccelerator method, IOleInPlaceFrame.TranslateAccelerator, IOleInPlaceFrame::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_translateaccelerator, com.ioleinplaceframe_translateaccelerator, oleidl/IOleInPlaceFrame::TranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceFrame::TranslateAccelerator method
+# IOleInPlaceFrame::TranslateAccelerator
 
 
 ## -description

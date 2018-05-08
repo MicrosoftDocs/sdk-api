@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISynchronousDataRetriever.GetIdParameters
-title: ISynchronousDataRetriever::GetIdParameters method
+title: ISynchronousDataRetriever::GetIdParameters
 author: windows-driver-content
 description: Gets the ID format schema of the provider.
 old-location: winsync\isynchronousdataretriever_getidparameters.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 98273eec-93fd-44ae-a1c9-cf85790dfc1d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync], ISynchronousDataRetriever interface, GetIdParameters,ISynchronousDataRetriever.GetIdParameters, ISynchronousDataRetriever, ISynchronousDataRetriever interface [Windows Sync], GetIdParameters method, ISynchronousDataRetriever::GetIdParameters, winsync.isynchronousdataretriever_getidparameters, winsync/ISynchronousDataRetriever::GetIdParameters
+ms.keywords: GetIdParameters, GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync],ISynchronousDataRetriever interface, ISynchronousDataRetriever interface [Windows Sync],GetIdParameters method, ISynchronousDataRetriever.GetIdParameters, ISynchronousDataRetriever::GetIdParameters, winsync.isynchronousdataretriever_getidparameters, winsync/ISynchronousDataRetriever::GetIdParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISynchronousDataRetriever::GetIdParameters method
+# ISynchronousDataRetriever::GetIdParameters
 
 
 ## -description

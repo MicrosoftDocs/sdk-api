@@ -1,0 +1,7 @@
+# [Windows GDI](../_gdi/index.md)
+## [Fontsub.h](index.md)
+### [CFP_ALLOCPROC callback function](../fontsub/nc-fontsub-cfp_allocproc.md)
+### [CFP_FREEPROC callback function](../fontsub/nc-fontsub-cfp_freeproc.md)
+### [CFP_REALLOCPROC callback function](../fontsub/nc-fontsub-cfp_reallocproc.md)
+### [CreateFontPackage function](../fontsub/nf-fontsub-createfontpackage.md)
+### [MergeFontPackage function](../fontsub/nf-fontsub-mergefontpackage.md)

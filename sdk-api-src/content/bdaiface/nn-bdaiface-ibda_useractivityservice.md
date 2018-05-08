@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d2c8f14e-11d7-4385-a6c8-31b086ec1286
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_UserActivityService, IBDA_UserActivityService interface [Microsoft TV Technologies], IBDA_UserActivityService interface [Microsoft TV Technologies], described, bdaiface/IBDA_UserActivityService, mstv.ibda_useractivityservice
+ms.keywords: IBDA_UserActivityService, IBDA_UserActivityService interface [Microsoft TV Technologies], IBDA_UserActivityService interface [Microsoft TV Technologies],described, bdaiface/IBDA_UserActivityService, mstv.ibda_useractivityservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

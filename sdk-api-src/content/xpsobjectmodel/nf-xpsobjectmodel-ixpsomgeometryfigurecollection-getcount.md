@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.GetCount
-title: IXpsOMGeometryFigureCollection::GetCount method
+title: IXpsOMGeometryFigureCollection::GetCount
 author: windows-driver-content
 description: Gets the number of IXpsOMGeometryFigure interface pointers in the collection.
 old-location: xps\ixpsomgeometryfigurecollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 119e36b6-08c4-4578-9f93-cedeac14b2cc
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging], IXpsOMGeometryFigureCollection interface, GetCount,IXpsOMGeometryFigureCollection.GetCount, IXpsOMGeometryFigureCollection, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging], GetCount method, IXpsOMGeometryFigureCollection::GetCount, xps.ixpsomgeometryfigurecollection_getcount, xpsobjectmodel/IXpsOMGeometryFigureCollection::GetCount
+ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMGeometryFigureCollection.GetCount, IXpsOMGeometryFigureCollection::GetCount, xps.ixpsomgeometryfigurecollection_getcount, xpsobjectmodel/IXpsOMGeometryFigureCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigureCollection::GetCount method
+# IXpsOMGeometryFigureCollection::GetCount
 
 
 ## -description

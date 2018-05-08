@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetViewport
-title: IXpsOMTileBrush::SetViewport method
+title: IXpsOMTileBrush::SetViewport
 author: windows-driver-content
 description: Sets the portion of the destination geometry that is covered by a single tile.
 old-location: xps\ixpsomtilebrush_setviewport.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e4a60f8d-3389-4420-851c-48483acecf0a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], SetViewport method, IXpsOMTileBrush::SetViewport, SetViewport method [XPS Documents and Packaging], SetViewport method [XPS Documents and Packaging], IXpsOMTileBrush interface, SetViewport,IXpsOMTileBrush.SetViewport, xps.ixpsomtilebrush_setviewport, xpsobjectmodel/IXpsOMTileBrush::SetViewport
+ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewport method, IXpsOMTileBrush.SetViewport, IXpsOMTileBrush::SetViewport, SetViewport, SetViewport method [XPS Documents and Packaging], SetViewport method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_setviewport, xpsobjectmodel/IXpsOMTileBrush::SetViewport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMTileBrush::SetViewport method
+# IXpsOMTileBrush::SetViewport
 
 
 ## -description

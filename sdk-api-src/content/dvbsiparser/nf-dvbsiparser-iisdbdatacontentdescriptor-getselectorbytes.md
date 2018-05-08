@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetSelectorBytes
-title: IIsdbDataContentDescriptor::GetSelectorBytes method
+title: IIsdbDataContentDescriptor::GetSelectorBytes
 author: windows-driver-content
 description: Gets the selector data from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. The contents of the selector depend on the type of data transmitted in the data component.
 old-location: mstv\iisdbdatacontentdescriptor_getselectorbytes.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b02c315e-322d-478e-8be1-c833df49ed56
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSelectorBytes method [Microsoft TV Technologies], GetSelectorBytes method [Microsoft TV Technologies], IIsdbDataContentDescriptor interface, GetSelectorBytes,IIsdbDataContentDescriptor.GetSelectorBytes, IIsdbDataContentDescriptor, IIsdbDataContentDescriptor interface [Microsoft TV Technologies], GetSelectorBytes method, IIsdbDataContentDescriptor::GetSelectorBytes, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorBytes, mstv.iisdbdatacontentdescriptor_getselectorbytes
+ms.keywords: GetSelectorBytes, GetSelectorBytes method [Microsoft TV Technologies], GetSelectorBytes method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetSelectorBytes method, IIsdbDataContentDescriptor.GetSelectorBytes, IIsdbDataContentDescriptor::GetSelectorBytes, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorBytes, mstv.iisdbdatacontentdescriptor_getselectorbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDataContentDescriptor::GetSelectorBytes method
+# IIsdbDataContentDescriptor::GetSelectorBytes
 
 
 ## -description

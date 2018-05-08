@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallIndirect.GetMethodInfo
-title: ICallIndirect::GetMethodInfo method
+title: ICallIndirect::GetMethodInfo
 author: windows-driver-content
 description: Retrieves information about the interface method from the call frame.
 old-location: com\icallindirect_getmethodinfo.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1bfbbb24-0cdb-467b-abce-0291dfe8f641
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetMethodInfo method [COM], GetMethodInfo method [COM], ICallIndirect interface, GetMethodInfo,ICallIndirect.GetMethodInfo, ICallIndirect, ICallIndirect interface [COM], GetMethodInfo method, ICallIndirect::GetMethodInfo, _com_icallindirect_getmethodinfo, callobj/ICallIndirect::GetMethodInfo, com.icallindirect_getmethodinfo
+ms.keywords: GetMethodInfo, GetMethodInfo method [COM], GetMethodInfo method [COM],ICallIndirect interface, ICallIndirect interface [COM],GetMethodInfo method, ICallIndirect.GetMethodInfo, ICallIndirect::GetMethodInfo, _com_icallindirect_getmethodinfo, callobj/ICallIndirect::GetMethodInfo, com.icallindirect_getmethodinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallIndirect::GetMethodInfo method
+# ICallIndirect::GetMethodInfo
 
 
 ## -description

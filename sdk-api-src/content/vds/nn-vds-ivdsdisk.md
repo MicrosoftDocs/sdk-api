@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 0fd6d1d4-daa6-4be3-8749-be98cd7c0288
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsDisk, IVdsDisk interface [VDS], IVdsDisk interface [VDS], described, base.ivdsdisk, vds/IVdsDisk
+ms.keywords: IVdsDisk, IVdsDisk interface [VDS], IVdsDisk interface [VDS],described, base.ivdsdisk, vds/IVdsDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

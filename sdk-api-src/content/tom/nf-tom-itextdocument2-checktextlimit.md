@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.CheckTextLimit
-title: ITextDocument2::CheckTextLimit method
+title: ITextDocument2::CheckTextLimit
 author: windows-driver-content
 description: Checks whether the number of characters to be added would exceed the maximum text limit.
 old-location: controls\itextdocument2_checktextlimit.htm
 old-project: Controls
 ms.assetid: 2c3aae14-8fa4-47bf-93ae-1d34333f0356
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: CheckTextLimit method [Windows Controls], CheckTextLimit method [Windows Controls], ITextDocument2 interface, CheckTextLimit,ITextDocument2.CheckTextLimit, ITextDocument2, ITextDocument2 interface [Windows Controls], CheckTextLimit method, ITextDocument2::CheckTextLimit, controls.itextdocument2_checktextlimit, tom/ITextDocument2::CheckTextLimit
+ms.date: 4/27/2018
+ms.keywords: CheckTextLimit, CheckTextLimit method [Windows Controls], CheckTextLimit method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],CheckTextLimit method, ITextDocument2.CheckTextLimit, ITextDocument2::CheckTextLimit, controls.itextdocument2_checktextlimit, tom/ITextDocument2::CheckTextLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::CheckTextLimit method
+# ITextDocument2::CheckTextLimit
 
 
 ## -description

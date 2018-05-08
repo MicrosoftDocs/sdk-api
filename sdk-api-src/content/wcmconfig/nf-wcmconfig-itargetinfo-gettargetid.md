@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTargetID
-title: ITargetInfo::GetTargetID method
+title: ITargetInfo::GetTargetID
 author: windows-driver-content
 description: Gets the unique identifier associated with the current target.
 old-location: smi\itargetinfo_gettargetid.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: b80e3363-8efa-44b7-a61e-66177d1c53ce
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTargetID method [SMI], GetTargetID method [SMI], ITargetInfo interface, GetTargetID,ITargetInfo.GetTargetID, ITargetInfo, ITargetInfo interface [SMI], GetTargetID method, ITargetInfo::GetTargetID, smi.itargetinfo_gettargetid, wcmconfig/ITargetInfo::GetTargetID
+ms.keywords: GetTargetID, GetTargetID method [SMI], GetTargetID method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTargetID method, ITargetInfo.GetTargetID, ITargetInfo::GetTargetID, smi.itargetinfo_gettargetid, wcmconfig/ITargetInfo::GetTargetID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::GetTargetID method
+# ITargetInfo::GetTargetID
 
 
 ## -description

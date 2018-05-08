@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Disconnect
-title: IWMWriterNetworkSink::Disconnect method
+title: IWMWriterNetworkSink::Disconnect
 author: windows-driver-content
 description: The Disconnect method disconnects all clients from the network sink.
 old-location: wmformat\iwmwriternetworksink_disconnect.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: cf4f294c-148c-469f-83e7-c2cd1c585aa3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Disconnect method [windows Media Format], Disconnect method [windows Media Format], IWMWriterNetworkSink interface, Disconnect,IWMWriterNetworkSink.Disconnect, IWMWriterNetworkSink, IWMWriterNetworkSink interface [windows Media Format], Disconnect method, IWMWriterNetworkSink::Disconnect, IWMWriterNetworkSinkDisconnect, wmformat.iwmwriternetworksink_disconnect, wmsdkidl/IWMWriterNetworkSink::Disconnect
+ms.keywords: Disconnect, Disconnect method [windows Media Format], Disconnect method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],Disconnect method, IWMWriterNetworkSink.Disconnect, IWMWriterNetworkSink::Disconnect, IWMWriterNetworkSinkDisconnect, wmformat.iwmwriternetworksink_disconnect, wmsdkidl/IWMWriterNetworkSink::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterNetworkSink::Disconnect method
+# IWMWriterNetworkSink::Disconnect
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.RegisterForNextTable
-title: IPMT::RegisterForNextTable method
+title: IPMT::RegisterForNextTable
 author: windows-driver-content
 description: The RegisterForNextTable method registers the client to be notified when a next table arrives that will replace the current table.
 old-location: mstv\ipmt_registerfornexttable.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6794c94a-8efe-4d53-a4f4-e25d14644270
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IPMT, IPMT interface [Microsoft TV Technologies], RegisterForNextTable method, IPMT::RegisterForNextTable, IPMTRegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies], IPMT interface, RegisterForNextTable,IPMT.RegisterForNextTable, mpeg2psiparser/IPMT::RegisterForNextTable, mstv.ipmt_registerfornexttable
+ms.keywords: IPMT interface [Microsoft TV Technologies],RegisterForNextTable method, IPMT.RegisterForNextTable, IPMT::RegisterForNextTable, IPMTRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::RegisterForNextTable, mstv.ipmt_registerfornexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IPMT::RegisterForNextTable method
+# IPMT::RegisterForNextTable
 
 
 ## -description

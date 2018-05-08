@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.CanChange
-title: ITextRow::CanChange method
+title: ITextRow::CanChange
 author: windows-driver-content
 description: Determines whether changes can be made to this row.
 old-location: controls\itextrow_canchange.htm
 old-project: Controls
 ms.assetid: 721f3841-a50b-4569-b988-71a9fb96f16f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: CanChange method [Windows Controls], CanChange method [Windows Controls], ITextRow interface, CanChange,ITextRow.CanChange, ITextRow, ITextRow interface [Windows Controls], CanChange method, ITextRow::CanChange, controls.itextrow_canchange, tom/ITextRow::CanChange
+ms.date: 4/27/2018
+ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],CanChange method, ITextRow.CanChange, ITextRow::CanChange, controls.itextrow_canchange, tom/ITextRow::CanChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::CanChange method
+# ITextRow::CanChange
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.remove
-title: IWMPMediaCollection::remove method
+title: IWMPMediaCollection::remove
 author: windows-driver-content
 description: The remove method removes a specified item from the media collection.
 old-location: wmp\iwmpmediacollection_remove.htm
 old-project: WMP
 ms.assetid: 646d2e3c-623b-4040-af82-1cefac6fc1ae
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], remove method, IWMPMediaCollection::remove, IWMPMediaCollectionremove, remove method [Windows Media Player], remove method [Windows Media Player], IWMPMediaCollection interface, remove,IWMPMediaCollection.remove, wmp.iwmpmediacollection_remove, wmp/IWMPMediaCollection::remove
+ms.date: 5/4/2018
+ms.keywords: IWMPMediaCollection interface [Windows Media Player],remove method, IWMPMediaCollection.remove, IWMPMediaCollection::remove, IWMPMediaCollectionremove, remove, remove method [Windows Media Player], remove method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_remove, wmp/IWMPMediaCollection::remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMediaCollection::remove method
+# IWMPMediaCollection::remove
 
 
 ## -description

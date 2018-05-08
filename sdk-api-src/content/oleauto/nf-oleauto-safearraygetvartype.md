@@ -7,7 +7,7 @@ old-location: automat\safearraygetvartype.htm
 old-project: automat
 ms.assetid: 8ec0e736-bac8-4df4-ba32-433cd8478c55
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: SafeArrayGetVartype, SafeArrayGetVartype function [Automation], _oa96_SafeArrayGetVartype, automat.safearraygetvartype, oleauto/SafeArrayGetVartype
 ms.prod: windows-hardware
 ms.technology: windows-devices

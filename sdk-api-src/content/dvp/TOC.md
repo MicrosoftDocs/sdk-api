@@ -1,0 +1,7 @@
+# [Display Devices Reference](../_display/index.md)
+## [Dvp.h](index.md)
+### [_DDVIDEOPORTBANDWIDTH structure](../dvp/ns-dvp-_ddvideoportbandwidth.md)
+### [_DDVIDEOPORTCAPS structure](../dvp/ns-dvp-_ddvideoportcaps.md)
+### [_DDVIDEOPORTCONNECT structure](../dvp/ns-dvp-_ddvideoportconnect.md)
+### [_DDVIDEOPORTDESC structure](../dvp/ns-dvp-_ddvideoportdesc.md)
+### [_DDVIDEOPORTINFO structure](../dvp/ns-dvp-_ddvideoportinfo.md)

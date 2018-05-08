@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CachedStyleName
-title: IUIAutomationStylesPattern::get_CachedStyleName method
+title: IUIAutomationStylesPattern::get_CachedStyleName
 author: windows-driver-content
 description: Retrieves the cached name of the visual style associated with an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedStyleName.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: FFFD7437-842E-42FC-99A0-27E2EFA9F645
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedStyleName property [Windows Accessibility], CachedStyleName property [Windows Accessibility], IUIAutomationStylesPattern interface, IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], CachedStyleName property, IUIAutomationStylesPattern.CachedStyleName, IUIAutomationStylesPattern::get_CachedStyleName, get_CachedStyleName,IUIAutomationStylesPattern.get_CachedStyleName, uiautomationclient/IUIAutomationStylesPattern::CachedStyleName, uiautomationclient/IUIAutomationStylesPattern::get_CachedStyleName, winauto.uiauto_IUIAutomationStylesPattern_CachedStyleName
+ms.keywords: CachedStyleName property [Windows Accessibility], CachedStyleName property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedStyleName property, IUIAutomationStylesPattern.CachedStyleName, IUIAutomationStylesPattern.get_CachedStyleName, IUIAutomationStylesPattern::CachedStyleName, IUIAutomationStylesPattern::get_CachedStyleName, get_CachedStyleName, uiautomationclient/IUIAutomationStylesPattern::CachedStyleName, uiautomationclient/IUIAutomationStylesPattern::get_CachedStyleName, winauto.uiauto_IUIAutomationStylesPattern_CachedStyleName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationStylesPattern::get_CachedStyleName method
+# IUIAutomationStylesPattern::get_CachedStyleName
 
 
 ## -description

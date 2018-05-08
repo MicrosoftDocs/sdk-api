@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetSelectorLength
-title: IDvbDataBroadcastDescriptor::GetSelectorLength method
+title: IDvbDataBroadcastDescriptor::GetSelectorLength
 author: windows-driver-content
 description: Gets the length of the selector in a DVB data broadcast descriptor, in bytes. The selector is defined by the data broadcast specification for the network.
 old-location: mstv\idvbdatabroadcastdescriptor_getselectorlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: fc1d25be-6f33-4281-a75c-74c7331ab6ed
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSelectorLength method [Microsoft TV Technologies], GetSelectorLength method [Microsoft TV Technologies], IDvbDataBroadcastDescriptor interface, GetSelectorLength,IDvbDataBroadcastDescriptor.GetSelectorLength, IDvbDataBroadcastDescriptor, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies], GetSelectorLength method, IDvbDataBroadcastDescriptor::GetSelectorLength, dvbsiparser/IDvbDataBroadcastDescriptor::GetSelectorLength, mstv.idvbdatabroadcastdescriptor_getselectorlength
+ms.keywords: GetSelectorLength, GetSelectorLength method [Microsoft TV Technologies], GetSelectorLength method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetSelectorLength method, IDvbDataBroadcastDescriptor.GetSelectorLength, IDvbDataBroadcastDescriptor::GetSelectorLength, dvbsiparser/IDvbDataBroadcastDescriptor::GetSelectorLength, mstv.idvbdatabroadcastdescriptor_getselectorlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbDataBroadcastDescriptor::GetSelectorLength method
+# IDvbDataBroadcastDescriptor::GetSelectorLength
 
 
 ## -description

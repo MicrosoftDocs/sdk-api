@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.GetMaximumClients
-title: IWMWriterNetworkSink::GetMaximumClients method
+title: IWMWriterNetworkSink::GetMaximumClients
 author: windows-driver-content
 description: The GetMaximumClients method retrieves the maximum number of clients that can connect to this sink.
 old-location: wmformat\iwmwriternetworksink_getmaximumclients.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c0ef3fd6-aed7-40ec-96e6-7962e77bdd46
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetMaximumClients method [windows Media Format], GetMaximumClients method [windows Media Format], IWMWriterNetworkSink interface, GetMaximumClients,IWMWriterNetworkSink.GetMaximumClients, IWMWriterNetworkSink, IWMWriterNetworkSink interface [windows Media Format], GetMaximumClients method, IWMWriterNetworkSink::GetMaximumClients, IWMWriterNetworkSinkGetMaximumClients, wmformat.iwmwriternetworksink_getmaximumclients, wmsdkidl/IWMWriterNetworkSink::GetMaximumClients
+ms.keywords: GetMaximumClients, GetMaximumClients method [windows Media Format], GetMaximumClients method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],GetMaximumClients method, IWMWriterNetworkSink.GetMaximumClients, IWMWriterNetworkSink::GetMaximumClients, IWMWriterNetworkSinkGetMaximumClients, wmformat.iwmwriternetworksink_getmaximumclients, wmsdkidl/IWMWriterNetworkSink::GetMaximumClients
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterNetworkSink::GetMaximumClients method
+# IWMWriterNetworkSink::GetMaximumClients
 
 
 ## -description

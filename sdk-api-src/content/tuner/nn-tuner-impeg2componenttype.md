@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 10bf35e0-d5bf-41ed-b514-7c1bfaf774a0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMPEG2ComponentType, IMPEG2ComponentType interface [Microsoft TV Technologies], IMPEG2ComponentType interface [Microsoft TV Technologies], described, IMPEG2ComponentTypeInterface, mstv.impeg2componenttype, tuner/IMPEG2ComponentType
+ms.keywords: IMPEG2ComponentType, IMPEG2ComponentType interface [Microsoft TV Technologies], IMPEG2ComponentType interface [Microsoft TV Technologies],described, IMPEG2ComponentTypeInterface, mstv.impeg2componenttype, tuner/IMPEG2ComponentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

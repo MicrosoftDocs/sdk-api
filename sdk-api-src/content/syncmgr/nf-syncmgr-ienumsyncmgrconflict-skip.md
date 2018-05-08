@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrConflict.Skip
-title: IEnumSyncMgrConflict::Skip method
+title: IEnumSyncMgrConflict::Skip
 author: windows-driver-content
 description: Skips forward the specified number of conflicts in the enumeration.
 old-location: shell\IEnumSyncMgrConflict_Skip.htm
 old-project: shell
 ms.assetid: d636dd60-835f-40a8-b2e6-7d7ebf87e897
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumSyncMgrConflict, IEnumSyncMgrConflict interface [Windows Shell], Skip method, IEnumSyncMgrConflict::Skip, Skip method [Windows Shell], Skip method [Windows Shell], IEnumSyncMgrConflict interface, Skip,IEnumSyncMgrConflict.Skip, _shell_IEnumSyncMgrConflict_Skip, shell.IEnumSyncMgrConflict_Skip, syncmgr/IEnumSyncMgrConflict::Skip
+ms.date: 5/3/2018
+ms.keywords: IEnumSyncMgrConflict interface [Windows Shell],Skip method, IEnumSyncMgrConflict.Skip, IEnumSyncMgrConflict::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumSyncMgrConflict interface, _shell_IEnumSyncMgrConflict_Skip, shell.IEnumSyncMgrConflict_Skip, syncmgr/IEnumSyncMgrConflict::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumSyncMgrConflict::Skip method
+# IEnumSyncMgrConflict::Skip
 
 
 ## -description

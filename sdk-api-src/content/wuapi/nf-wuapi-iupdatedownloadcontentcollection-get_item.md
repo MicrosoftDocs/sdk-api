@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContentCollection.get_Item
-title: IUpdateDownloadContentCollection::get_Item method
+title: IUpdateDownloadContentCollection::get_Item
 author: windows-driver-content
 description: Gets the download content for an update from an IUpdateDownloadContentCollection interface.
 old-location: wua\iupdatedownloadcontentcollection_item.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 64684a77-e264-40a5-a517-e4b58947c613
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateDownloadContentCollection, IUpdateDownloadContentCollection interface [Windows Update Agent], Item property, IUpdateDownloadContentCollection.Item, IUpdateDownloadContentCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent], IUpdateDownloadContentCollection interface, get_Item,IUpdateDownloadContentCollection.get_Item, wua.iupdatedownloadcontentcollection_item, wuapi/IUpdateDownloadContentCollection::Item, wuapi/IUpdateDownloadContentCollection::get_Item
+ms.keywords: IUpdateDownloadContentCollection interface [Windows Update Agent],Item property, IUpdateDownloadContentCollection.Item, IUpdateDownloadContentCollection.get_Item, IUpdateDownloadContentCollection::Item, IUpdateDownloadContentCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateDownloadContentCollection interface, get_Item, wua.iupdatedownloadcontentcollection_item, wuapi/IUpdateDownloadContentCollection::Item, wuapi/IUpdateDownloadContentCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateDownloadContentCollection::get_Item method
+# IUpdateDownloadContentCollection::get_Item
 
 
 ## -description

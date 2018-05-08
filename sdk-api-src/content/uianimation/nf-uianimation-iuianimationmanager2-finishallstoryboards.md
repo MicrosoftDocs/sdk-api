@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.FinishAllStoryboards
-title: IUIAnimationManager2::FinishAllStoryboards method
+title: IUIAnimationManager2::FinishAllStoryboards
 author: windows-driver-content
 description: Finishes all active storyboards within the specified time interval.
 old-location: uianimation\iuianimationmanager2_finishallstoryboards.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 830A5D30-68FF-4226-AC7C-7B1C5F7BA367
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FinishAllStoryboards method [Windows Animation], FinishAllStoryboards method [Windows Animation], IUIAnimationManager2 interface, FinishAllStoryboards,IUIAnimationManager2.FinishAllStoryboards, IUIAnimationManager2, IUIAnimationManager2 interface [Windows Animation], FinishAllStoryboards method, IUIAnimationManager2::FinishAllStoryboards, uianimation.iuianimationmanager2_finishallstoryboards, uianimation/IUIAnimationManager2::FinishAllStoryboards
+ms.keywords: FinishAllStoryboards, FinishAllStoryboards method [Windows Animation], FinishAllStoryboards method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],FinishAllStoryboards method, IUIAnimationManager2.FinishAllStoryboards, IUIAnimationManager2::FinishAllStoryboards, uianimation.iuianimationmanager2_finishallstoryboards, uianimation/IUIAnimationManager2::FinishAllStoryboards
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager2::FinishAllStoryboards method
+# IUIAnimationManager2::FinishAllStoryboards
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: E7678755-4779-4A64-A666-C5FFC4A7F37A
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxBlockMapBlocksEnumerator, IAppxBlockMapBlocksEnumerator interface [App packaging and management], IAppxBlockMapBlocksEnumerator interface [App packaging and management], described, appxpackaging/IAppxBlockMapBlocksEnumerator, appxpkg.iappxblockmapblocksenumerator
+ms.keywords: IAppxBlockMapBlocksEnumerator, IAppxBlockMapBlocksEnumerator interface [App packaging and management], IAppxBlockMapBlocksEnumerator interface [App packaging and management],described, appxpackaging/IAppxBlockMapBlocksEnumerator, appxpkg.iappxblockmapblocksenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

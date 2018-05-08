@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetParamProps
-title: IMetaDataImport::GetParamProps method
+title: IMetaDataImport::GetParamProps
 author: windows-driver-content
 description: Gets metadata values for the parameter referenced by the specified ParamDef token.
 old-location: winrt\imetadataimport_getparamprops.htm
 old-project: WinRT
 ms.assetid: 76de324f-f371-4fac-ab0a-b7f359dd3abd
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetParamProps method [Windows Runtime], GetParamProps method [Windows Runtime], IMetaDataImport interface, GetParamProps,IMetaDataImport.GetParamProps, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetParamProps method, IMetaDataImport::GetParamProps, rometadataapi/IMetaDataImport::GetParamProps, winrt.imetadataimport_getparamprops
+ms.date: 5/4/2018
+ms.keywords: GetParamProps, GetParamProps method [Windows Runtime], GetParamProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetParamProps method, IMetaDataImport.GetParamProps, IMetaDataImport::GetParamProps, rometadataapi/IMetaDataImport::GetParamProps, winrt.imetadataimport_getparamprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetParamProps method
+# IMetaDataImport::GetParamProps
 
 
 ## -description

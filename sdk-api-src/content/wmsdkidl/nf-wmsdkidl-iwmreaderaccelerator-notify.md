@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAccelerator.Notify
-title: IWMReaderAccelerator::Notify method
+title: IWMReaderAccelerator::Notify
 author: windows-driver-content
 description: The Notify method is called by the source filter to pass in the negotiated media type.
 old-location: wmformat\iwmreaderaccelerator_notify.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: b5381f3a-e120-4db3-8463-5286e4318b13
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAccelerator, IWMReaderAccelerator interface [windows Media Format], Notify method, IWMReaderAccelerator::Notify, IWMReaderAcceleratorNotify, Notify method [windows Media Format], Notify method [windows Media Format], IWMReaderAccelerator interface, Notify,IWMReaderAccelerator.Notify, wmformat.iwmreaderaccelerator_notify, wmsdkidl/IWMReaderAccelerator::Notify
+ms.keywords: IWMReaderAccelerator interface [windows Media Format],Notify method, IWMReaderAccelerator.Notify, IWMReaderAccelerator::Notify, IWMReaderAcceleratorNotify, Notify, Notify method [windows Media Format], Notify method [windows Media Format],IWMReaderAccelerator interface, wmformat.iwmreaderaccelerator_notify, wmsdkidl/IWMReaderAccelerator::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAccelerator::Notify method
+# IWMReaderAccelerator::Notify
 
 
 ## -description

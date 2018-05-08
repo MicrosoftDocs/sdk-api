@@ -1,14 +1,14 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Next
-title: IEnumPIDMap::Next method
+title: IEnumPIDMap::Next
 author: windows-driver-content
 description: The Next method retrieves the next n elements in the collection.
 old-location: dshow\ienumpidmap_next.htm
 old-project: DirectShow
 ms.assetid: e7e3a2a7-cc62-478d-b0b8-30d58f0b3372
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumPIDMap, IEnumPIDMap interface [DirectShow], Next method, IEnumPIDMap::Next, IEnumPIDMapNext, Next method [DirectShow], Next method [DirectShow], IEnumPIDMap interface, Next,IEnumPIDMap.Next, bdaiface/IEnumPIDMap::Next, dshow.ienumpidmap_next
+ms.date: 4/30/2018
+ms.keywords: IEnumPIDMap interface [DirectShow],Next method, IEnumPIDMap.Next, IEnumPIDMap::Next, IEnumPIDMapNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumPIDMap interface, bdaiface/IEnumPIDMap::Next, dshow.ienumpidmap_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumPIDMap::Next method
+# IEnumPIDMap::Next
 
 
 ## -description

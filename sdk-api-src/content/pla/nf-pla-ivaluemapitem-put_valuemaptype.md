@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMapItem.put_ValueMapType
-title: IValueMapItem::put_ValueMapType method
+title: IValueMapItem::put_ValueMapType
 author: windows-driver-content
 description: Retrieves or sets the type of the item.
 old-location: pla\ivaluemapitem_valuemaptype.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 006d134d-d14b-4964-b46c-7dd2353d2493
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IValueMapItem, IValueMapItem interface [PLA], ValueMapType property, IValueMapItem.ValueMapType, IValueMapItem::get_ValueMapType, IValueMapItem::put_ValueMapType, ValueMapType property [PLA], ValueMapType property [PLA], IValueMapItem interface, base.ivaluemapitem_valuemaptype, pla.ivaluemapitem_valuemaptype, pla/IValueMapItem::ValueMapType, pla/IValueMapItem::get_ValueMapType, pla/IValueMapItem::put_ValueMapType, put_ValueMapType,IValueMapItem.put_ValueMapType
+ms.keywords: IValueMapItem interface [PLA],ValueMapType property, IValueMapItem.ValueMapType, IValueMapItem.put_ValueMapType, IValueMapItem::ValueMapType, IValueMapItem::get_ValueMapType, IValueMapItem::put_ValueMapType, ValueMapType property [PLA], ValueMapType property [PLA],IValueMapItem interface, base.ivaluemapitem_valuemaptype, pla.ivaluemapitem_valuemaptype, pla/IValueMapItem::ValueMapType, pla/IValueMapItem::get_ValueMapType, pla/IValueMapItem::put_ValueMapType, put_ValueMapType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IValueMapItem::put_ValueMapType method
+# IValueMapItem::put_ValueMapType
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaItem.DeviceCommand
-title: IWiaItem::DeviceCommand method
+title: IWiaItem::DeviceCommand
 author: windows-driver-content
 description: The IWiaItem::DeviceCommand issues a command to a Windows Image Acquisition (WIA) hardware device.
 old-location: wia\_wia_IWiaItem_DeviceCommand.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\devicecommand.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: DeviceCommand method [WIA], DeviceCommand method [WIA], IWiaItem interface, DeviceCommand,IWiaItem.DeviceCommand, IWiaItem, IWiaItem interface [WIA], DeviceCommand method, IWiaItem::DeviceCommand, _wia_IWiaItem_DeviceCommand, wia._wia_IWiaItem_DeviceCommand, wia_xp/IWiaItem::DeviceCommand
+ms.date: 5/3/2018
+ms.keywords: DeviceCommand, DeviceCommand method [WIA], DeviceCommand method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeviceCommand method, IWiaItem.DeviceCommand, IWiaItem::DeviceCommand, _wia_IWiaItem_DeviceCommand, wia._wia_IWiaItem_DeviceCommand, wia_xp/IWiaItem::DeviceCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaItem::DeviceCommand method
+# IWiaItem::DeviceCommand
 
 
 ## -description

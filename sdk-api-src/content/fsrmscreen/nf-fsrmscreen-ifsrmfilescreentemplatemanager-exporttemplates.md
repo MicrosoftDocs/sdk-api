@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.ExportTemplates
-title: IFsrmFileScreenTemplateManager::ExportTemplates method
+title: IFsrmFileScreenTemplateManager::ExportTemplates
 author: windows-driver-content
 description: Exports the templates as an XML string.
 old-location: fsrm\ifsrmfilescreentemplatemanager_exporttemplates.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 27a0141d-0906-400e-bd5f-81da67a3c501
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ExportTemplates method [File Server Resource Manager], ExportTemplates method [File Server Resource Manager], FsrmFileScreenTemplateManager class, ExportTemplates method [File Server Resource Manager], IFsrmFileScreenTemplateManager interface, ExportTemplates,IFsrmFileScreenTemplateManager.ExportTemplates, FsrmFileScreenTemplateManager class [File Server Resource Manager], ExportTemplates method, IFsrmFileScreenTemplateManager, IFsrmFileScreenTemplateManager interface [File Server Resource Manager], ExportTemplates method, IFsrmFileScreenTemplateManager::ExportTemplates, fs.ifsrmfilescreentemplatemanager_exporttemplates, fsrm.ifsrmfilescreentemplatemanager_exporttemplates, fsrmscreen/IFsrmFileScreenTemplateManager::ExportTemplates
+ms.keywords: ExportTemplates, ExportTemplates method [File Server Resource Manager], ExportTemplates method [File Server Resource Manager],FsrmFileScreenTemplateManager class, ExportTemplates method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, FsrmFileScreenTemplateManager class [File Server Resource Manager],ExportTemplates method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],ExportTemplates method, IFsrmFileScreenTemplateManager.ExportTemplates, IFsrmFileScreenTemplateManager::ExportTemplates, fs.ifsrmfilescreentemplatemanager_exporttemplates, fsrm.ifsrmfilescreentemplatemanager_exporttemplates, fsrmscreen/IFsrmFileScreenTemplateManager::ExportTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenTemplateManager::ExportTemplates method
+# IFsrmFileScreenTemplateManager::ExportTemplates
 
 
 ## -description

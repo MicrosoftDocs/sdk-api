@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetXAddrs
-title: IWSDiscoveredService::GetXAddrs method
+title: IWSDiscoveredService::GetXAddrs
 author: windows-driver-content
 description: Retrieves a list of WS-Discovery XAddrs.
 old-location: ncd\iwsdiscoveredservice_getxaddrs.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: a861374e-fee4-486b-8e23-f4a4a8203b28
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetXAddrs method, GetXAddrs method, IWSDiscoveredService interface, GetXAddrs,IWSDiscoveredService.GetXAddrs, IWSDiscoveredService, IWSDiscoveredService interface, GetXAddrs method, IWSDiscoveredService::GetXAddrs, ncd.iwsdiscoveredservice_getxaddrs, wsddisco/IWSDiscoveredService::GetXAddrs
+ms.keywords: GetXAddrs, GetXAddrs method, GetXAddrs method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetXAddrs method, IWSDiscoveredService.GetXAddrs, IWSDiscoveredService::GetXAddrs, ncd.iwsdiscoveredservice_getxaddrs, wsddisco/IWSDiscoveredService::GetXAddrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveredService::GetXAddrs method
+# IWSDiscoveredService::GetXAddrs
 
 
 ## -description

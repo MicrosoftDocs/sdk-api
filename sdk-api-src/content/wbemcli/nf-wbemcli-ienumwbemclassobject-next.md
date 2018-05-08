@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IEnumWbemClassObject.Next
-title: IEnumWbemClassObject::Next method
+title: IEnumWbemClassObject::Next
 author: windows-driver-content
 description: Use the IEnumWbemClassObject::Next method to get one or more objects starting at the current position in an enumeration.
 old-location: wmi\ienumwbemclassobject_next.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 8bde633b-b04a-4a21-82ce-f5aab1d32d95
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IEnumWbemClassObject, IEnumWbemClassObject interface [Windows Management Instrumentation], Next method, IEnumWbemClassObject::Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation], IEnumWbemClassObject interface, Next,IEnumWbemClassObject.Next, _hmm_ienumwbemclassobject_next, wbemcli/IEnumWbemClassObject::Next, wmi.ienumwbemclassobject_next
+ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Next method, IEnumWbemClassObject.Next, IEnumWbemClassObject::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_next, wbemcli/IEnumWbemClassObject::Next, wmi.ienumwbemclassobject_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IEnumWbemClassObject::Next method
+# IEnumWbemClassObject::Next
 
 
 ## -description

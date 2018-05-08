@@ -7,7 +7,7 @@ old-location: security\cmsg_ctrl_decrypt_para.htm
 old-project: SecCrypto
 ms.assetid: eb9b1daa-b04f-419a-88e3-7c772f9e62eb
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMSG_CTRL_DECRYPT_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_CTRL_DECRYPT_PARA, CMSG_CTRL_DECRYPT_PARA structure [Security], PCMSG_CTRL_DECRYPT_PARA, PCMSG_CTRL_DECRYPT_PARA structure pointer [Security], _CMSG_CTRL_DECRYPT_PARA, _crypto2_cmsg_ctrl_decrypt_para, security.cmsg_ctrl_decrypt_para, wincrypt/CMSG_CTRL_DECRYPT_PARA, wincrypt/PCMSG_CTRL_DECRYPT_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,6 +72,16 @@ The size, in bytes, of this structure.
  
 
 
+### -field DUMMYUNIONNAME.hCryptProv
+
+<a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Cryptographic service provider</a> (CSP) handle. The CNG function <a href="https://msdn.microsoft.com/ad841c2e-8097-4b07-914e-8e7240d55585">NCryptIsKeyHandle</a> is called to determine the union choice. 
+
+
+### -field DUMMYUNIONNAME.hNCryptKey
+
+A handle to the CNG <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Cryptographic service provider</a> (CSP). The CNG function, <a href="https://msdn.microsoft.com/ad841c2e-8097-4b07-914e-8e7240d55585">NCryptIsKeyHandle</a>, is called to determine the union choice. New encrypt algorithms are only supported in CNG functions. The CNG function, <a href="https://msdn.microsoft.com/0c339864-b598-430c-a597-09d3571fdbb2">NCryptTranslateHandle</a>, will be called to convert the CryptoAPI <i>hCryptProv</i> choice where necessary. We recommend that applications pass, to the <i>hNCryptKey</i> member, the CNG CSP handle that is returned from the <a href="https://msdn.microsoft.com/581c5d89-730d-4d8c-b3bb-a28edec25910">NCryptOpenKey</a> function.
+
+
 ### -field dwKeySpec
 
 The private key to be used. This member is not used when the <i>hNCryptKey</i> member is used.  
@@ -115,16 +125,6 @@ If <b>dwKeySpec</b> is zero, the default AT_KEYEXCHANGE is used.
 ### -field dwRecipientIndex
 
 Index of the recipient in the message associated with the <b>hCryptProv</b> private key.
-
-
-#### - hCryptProv
-
-<a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Cryptographic service provider</a> (CSP) handle. The CNG function <a href="https://msdn.microsoft.com/ad841c2e-8097-4b07-914e-8e7240d55585">NCryptIsKeyHandle</a> is called to determine the union choice. 
-
-
-#### - hNCryptKey
-
-A handle to the CNG <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Cryptographic service provider</a> (CSP). The CNG function, <a href="https://msdn.microsoft.com/ad841c2e-8097-4b07-914e-8e7240d55585">NCryptIsKeyHandle</a>, is called to determine the union choice. New encrypt algorithms are only supported in CNG functions. The CNG function, <a href="https://msdn.microsoft.com/0c339864-b598-430c-a597-09d3571fdbb2">NCryptTranslateHandle</a>, will be called to convert the CryptoAPI <i>hCryptProv</i> choice where necessary. We recommend that applications pass, to the <i>hNCryptKey</i> member, the CNG CSP handle that is returned from the <a href="https://msdn.microsoft.com/581c5d89-730d-4d8c-b3bb-a28edec25910">NCryptOpenKey</a> function.
 
 
 ## -see-also

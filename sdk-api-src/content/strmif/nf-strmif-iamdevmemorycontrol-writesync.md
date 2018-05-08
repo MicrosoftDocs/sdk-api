@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMDevMemoryControl.WriteSync
-title: IAMDevMemoryControl::WriteSync method
+title: IAMDevMemoryControl::WriteSync
 author: windows-driver-content
 description: Note  The IAMDevMemoryControl interface is deprecated. Used to synchronize with the completed write. This method returns when any data being written to the particular allocator region is fully written into the memory.
 old-location: dshow\iamdevmemorycontrol_writesync.htm
 old-project: DirectShow
 ms.assetid: 46bf7ab6-cc3c-4846-a8f8-97c62ede4aaf
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMDevMemoryControl, IAMDevMemoryControl interface [DirectShow], WriteSync method, IAMDevMemoryControl::WriteSync, IAMDevMemoryControlWriteSync, WriteSync method [DirectShow], WriteSync method [DirectShow], IAMDevMemoryControl interface, WriteSync,IAMDevMemoryControl.WriteSync, dshow.iamdevmemorycontrol_writesync, strmif/IAMDevMemoryControl::WriteSync
+ms.date: 4/30/2018
+ms.keywords: IAMDevMemoryControl interface [DirectShow],WriteSync method, IAMDevMemoryControl.WriteSync, IAMDevMemoryControl::WriteSync, IAMDevMemoryControlWriteSync, WriteSync, WriteSync method [DirectShow], WriteSync method [DirectShow],IAMDevMemoryControl interface, dshow.iamdevmemorycontrol_writesync, strmif/IAMDevMemoryControl::WriteSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMDevMemoryControl::WriteSync method
+# IAMDevMemoryControl::WriteSync
 
 
 ## -description

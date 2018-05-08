@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Loudness
-title: IAMAudioInputMixer::get_Loudness method
+title: IAMAudioInputMixer::get_Loudness
 author: windows-driver-content
 description: The get_Loudness method retrieves the loudness control setting.
 old-location: dshow\iamaudioinputmixer_get_loudness.htm
 old-project: DirectShow
 ms.assetid: 620003c0-401f-4415-a82f-a80e7b32dbd3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], get_Loudness method, IAMAudioInputMixer::get_Loudness, IAMAudioInputMixerget_Loudness, dshow.iamaudioinputmixer_get_loudness, get_Loudness method [DirectShow], get_Loudness method [DirectShow], IAMAudioInputMixer interface, get_Loudness,IAMAudioInputMixer.get_Loudness, strmif/IAMAudioInputMixer::get_Loudness
+ms.date: 4/30/2018
+ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Loudness method, IAMAudioInputMixer.get_Loudness, IAMAudioInputMixer::get_Loudness, IAMAudioInputMixerget_Loudness, dshow.iamaudioinputmixer_get_loudness, get_Loudness, get_Loudness method [DirectShow], get_Loudness method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Loudness
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAudioInputMixer::get_Loudness method
+# IAMAudioInputMixer::get_Loudness
 
 
 ## -description

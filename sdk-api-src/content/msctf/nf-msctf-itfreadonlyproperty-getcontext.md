@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReadOnlyProperty.GetContext
-title: ITfReadOnlyProperty::GetContext method
+title: ITfReadOnlyProperty::GetContext
 author: windows-driver-content
 description: ITfReadOnlyProperty::GetContext method
 old-location: tsf\itfreadonlyproperty_getcontext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2f6becd7-c4d0-45ed-8038-1f706d8e60c7
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetContext method [Text Services Framework], GetContext method [Text Services Framework], ITfReadOnlyProperty interface, GetContext,ITfReadOnlyProperty.GetContext, ITfReadOnlyProperty, ITfReadOnlyProperty interface [Text Services Framework], GetContext method, ITfReadOnlyProperty::GetContext, _tsf_itfreadonlyproperty_getcontext_ref, msctf/ITfReadOnlyProperty::GetContext, tsf.itfreadonlyproperty_getcontext
+ms.keywords: GetContext, GetContext method [Text Services Framework], GetContext method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],GetContext method, ITfReadOnlyProperty.GetContext, ITfReadOnlyProperty::GetContext, _tsf_itfreadonlyproperty_getcontext_ref, msctf/ITfReadOnlyProperty::GetContext, tsf.itfreadonlyproperty_getcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfReadOnlyProperty::GetContext method
+# ITfReadOnlyProperty::GetContext
 
 
 ## -description

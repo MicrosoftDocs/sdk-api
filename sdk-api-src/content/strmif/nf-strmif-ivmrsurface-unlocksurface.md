@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRSurface.UnlockSurface
-title: IVMRSurface::UnlockSurface method
+title: IVMRSurface::UnlockSurface
 author: windows-driver-content
 description: The UnlockSurface method unlocks the attached DirectDraw surface.
 old-location: dshow\ivmrsurface_unlocksurface.htm
 old-project: DirectShow
 ms.assetid: f6acaf96-925c-46b9-8d56-11d94f3dbda3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRSurface, IVMRSurface interface [DirectShow], UnlockSurface method, IVMRSurface::UnlockSurface, IVMRSurfaceUnlockSurface, UnlockSurface method [DirectShow], UnlockSurface method [DirectShow], IVMRSurface interface, UnlockSurface,IVMRSurface.UnlockSurface, dshow.ivmrsurface_unlocksurface, strmif/IVMRSurface::UnlockSurface
+ms.date: 4/30/2018
+ms.keywords: IVMRSurface interface [DirectShow],UnlockSurface method, IVMRSurface.UnlockSurface, IVMRSurface::UnlockSurface, IVMRSurfaceUnlockSurface, UnlockSurface, UnlockSurface method [DirectShow], UnlockSurface method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_unlocksurface, strmif/IVMRSurface::UnlockSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRSurface::UnlockSurface method
+# IVMRSurface::UnlockSurface
 
 
 ## -description

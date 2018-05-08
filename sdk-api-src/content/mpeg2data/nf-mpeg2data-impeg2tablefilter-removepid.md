@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.RemovePID
-title: IMpeg2TableFilter::RemovePID method
+title: IMpeg2TableFilter::RemovePID
 author: windows-driver-content
 description: The RemovePID method removes a packet identifier (PID) from the list of PIDs that the filter sends.
 old-location: mstv\impeg2tablefilter_removepid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e9ce49e3-e256-4150-ab73-b57ed34ab30c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMpeg2TableFilter, IMpeg2TableFilter interface [Microsoft TV Technologies], RemovePID method, IMpeg2TableFilter::RemovePID, IMpeg2TableFilterRemovePID, RemovePID method [Microsoft TV Technologies], RemovePID method [Microsoft TV Technologies], IMpeg2TableFilter interface, RemovePID,IMpeg2TableFilter.RemovePID, mpeg2data/IMpeg2TableFilter::RemovePID, mstv.impeg2tablefilter_removepid
+ms.keywords: IMpeg2TableFilter interface [Microsoft TV Technologies],RemovePID method, IMpeg2TableFilter.RemovePID, IMpeg2TableFilter::RemovePID, IMpeg2TableFilterRemovePID, RemovePID, RemovePID method [Microsoft TV Technologies], RemovePID method [Microsoft TV Technologies],IMpeg2TableFilter interface, mpeg2data/IMpeg2TableFilter::RemovePID, mstv.impeg2tablefilter_removepid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMpeg2TableFilter::RemovePID method
+# IMpeg2TableFilter::RemovePID
 
 
 ## -description

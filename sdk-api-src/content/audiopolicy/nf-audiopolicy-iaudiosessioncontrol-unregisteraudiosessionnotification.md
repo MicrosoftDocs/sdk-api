@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.UnregisterAudioSessionNotification
-title: IAudioSessionControl::UnregisterAudioSessionNotification method
+title: IAudioSessionControl::UnregisterAudioSessionNotification
 author: windows-driver-content
 description: The UnregisterAudioSessionNotification method deletes a previous registration by the client to receive notifications.
 old-location: coreaudio\iaudiosessioncontrol_unregisteraudiosessionnotification.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 1b496d58-c855-44b8-b437-6cb6017dcc9d
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioSessionControl, IAudioSessionControl interface [Core Audio], UnregisterAudioSessionNotification method, IAudioSessionControl::UnregisterAudioSessionNotification, IAudioSessionControlUnregisterAudioSessionNotification, UnregisterAudioSessionNotification method [Core Audio], UnregisterAudioSessionNotification method [Core Audio], IAudioSessionControl interface, UnregisterAudioSessionNotification,IAudioSessionControl.UnregisterAudioSessionNotification, audiopolicy/IAudioSessionControl::UnregisterAudioSessionNotification, coreaudio.iaudiosessioncontrol_unregisteraudiosessionnotification
+ms.keywords: IAudioSessionControl interface [Core Audio],UnregisterAudioSessionNotification method, IAudioSessionControl.UnregisterAudioSessionNotification, IAudioSessionControl::UnregisterAudioSessionNotification, IAudioSessionControlUnregisterAudioSessionNotification, UnregisterAudioSessionNotification, UnregisterAudioSessionNotification method [Core Audio], UnregisterAudioSessionNotification method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::UnregisterAudioSessionNotification, coreaudio.iaudiosessioncontrol_unregisteraudiosessionnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionControl::UnregisterAudioSessionNotification method
+# IAudioSessionControl::UnregisterAudioSessionNotification
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.SetAsyncMode
-title: IDataObjectAsyncCapability::SetAsyncMode method
+title: IDataObjectAsyncCapability::SetAsyncMode
 author: windows-driver-content
 description: Called by a drop source to specify whether the data object supports asynchronous data extraction.
 old-location: shell\IDataObjectAsyncCapability_SetAsyncMode.htm
 old-project: shell
 ms.assetid: 97DCCA78-F25E-47de-8292-F0C6ED9DFD35
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [Windows Shell], SetAsyncMode method, IDataObjectAsyncCapability::SetAsyncMode, SetAsyncMode method [Windows Shell], SetAsyncMode method [Windows Shell], IDataObjectAsyncCapability interface, SetAsyncMode,IDataObjectAsyncCapability.SetAsyncMode, shell.IDataObjectAsyncCapability_SetAsyncMode, shldisp/IDataObjectAsyncCapability::SetAsyncMode
+ms.date: 5/3/2018
+ms.keywords: IDataObjectAsyncCapability interface [Windows Shell],SetAsyncMode method, IDataObjectAsyncCapability.SetAsyncMode, IDataObjectAsyncCapability::SetAsyncMode, SetAsyncMode, SetAsyncMode method [Windows Shell], SetAsyncMode method [Windows Shell],IDataObjectAsyncCapability interface, shell.IDataObjectAsyncCapability_SetAsyncMode, shldisp/IDataObjectAsyncCapability::SetAsyncMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IDataObjectAsyncCapability::SetAsyncMode method
+# IDataObjectAsyncCapability::SetAsyncMode
 
 
 ## -description

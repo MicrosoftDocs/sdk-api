@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.AbortRecordVariants
-title: ICrmCompensatorVariants::AbortRecordVariants method
+title: ICrmCompensatorVariants::AbortRecordVariants
 author: windows-driver-content
 description: Delivers a log record to the CRM Compensator during the abort phase.
 old-location: cos\icrmcompensatorvariants_abortrecordvariants.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: a1ea366d-f3c6-4987-9f5b-32e3dd3e5d12
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: AbortRecordVariants method [COM+], AbortRecordVariants method [COM+], ICrmCompensatorVariants interface, AbortRecordVariants,ICrmCompensatorVariants.AbortRecordVariants, ICrmCompensatorVariants, ICrmCompensatorVariants interface [COM+], AbortRecordVariants method, ICrmCompensatorVariants::AbortRecordVariants, _dtc_ICrmCompensatorVariants_AbortRecordVariants, comsvcs/ICrmCompensatorVariants::AbortRecordVariants, cos.icrmcompensatorvariants_abortrecordvariants
+ms.keywords: AbortRecordVariants, AbortRecordVariants method [COM+], AbortRecordVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],AbortRecordVariants method, ICrmCompensatorVariants.AbortRecordVariants, ICrmCompensatorVariants::AbortRecordVariants, _dtc_ICrmCompensatorVariants_AbortRecordVariants, comsvcs/ICrmCompensatorVariants::AbortRecordVariants, cos.icrmcompensatorvariants_abortrecordvariants
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmCompensatorVariants::AbortRecordVariants method
+# ICrmCompensatorVariants::AbortRecordVariants
 
 
 ## -description

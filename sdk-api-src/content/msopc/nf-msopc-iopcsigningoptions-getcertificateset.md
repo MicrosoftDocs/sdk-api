@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCertificateSet
-title: IOpcSigningOptions::GetCertificateSet method
+title: IOpcSigningOptions::GetCertificateSet
 author: windows-driver-content
 description: Gets an IOpcCertificateSet interface pointer.
 old-location: opc\iopcsigningoptions_getcertificateset.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: df212397-7ec9-4a42-bebb-61799b7ca78e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCertificateSet method [Open Packaging Conventions], GetCertificateSet method [Open Packaging Conventions], IOpcSigningOptions interface, GetCertificateSet,IOpcSigningOptions.GetCertificateSet, IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], GetCertificateSet method, IOpcSigningOptions::GetCertificateSet, msopc/IOpcSigningOptions::GetCertificateSet, opc.iopcsigningoptions_getcertificateset
+ms.keywords: GetCertificateSet, GetCertificateSet method [Open Packaging Conventions], GetCertificateSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCertificateSet method, IOpcSigningOptions.GetCertificateSet, IOpcSigningOptions::GetCertificateSet, msopc/IOpcSigningOptions::GetCertificateSet, opc.iopcsigningoptions_getcertificateset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSigningOptions::GetCertificateSet method
+# IOpcSigningOptions::GetCertificateSet
 
 
 ## -description

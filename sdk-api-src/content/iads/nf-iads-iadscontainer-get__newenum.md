@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsContainer.get__NewEnum
-title: IADsContainer::get__NewEnum method
+title: IADsContainer::get__NewEnum
 author: windows-driver-content
 description: Retrieves an enumerator object for the container.
 old-location: adsi\iadscontainer_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: b268efb8-59cd-41ef-b96c-583ae476432e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsContainer, IADsContainer interface [ADSI], get__NewEnum method, IADsContainer::get__NewEnum, _ds_iadscontainer_get__newenum, adsi.iadscontainer__get____newenum, adsi.iadscontainer_get__newenum, get__NewEnum method [ADSI], get__NewEnum method [ADSI], IADsContainer interface, get__NewEnum,IADsContainer.get__NewEnum, iads/IADsContainer::get__NewEnum
+ms.keywords: IADsContainer interface [ADSI],get__NewEnum method, IADsContainer.get__NewEnum, IADsContainer::get__NewEnum, _ds_iadscontainer_get__newenum, adsi.iadscontainer__get____newenum, adsi.iadscontainer_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsContainer interface, iads/IADsContainer::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsContainer::get__NewEnum method
+# IADsContainer::get__NewEnum
 
 
 ## -description

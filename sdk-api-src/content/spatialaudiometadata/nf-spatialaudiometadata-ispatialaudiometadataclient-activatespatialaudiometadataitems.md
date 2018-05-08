@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems
-title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems method
+title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems
 author: windows-driver-content
 description: Creates an ISpatialAudioMetadataItems object for storing spatial audio metadata items.
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadataitems.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 0788C3BE-1616-4C7B-8F47-B0C4E4034061
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ActivateSpatialAudioMetadataItems method [Core Audio], ActivateSpatialAudioMetadataItems method [Core Audio], ISpatialAudioMetadataClient interface, ActivateSpatialAudioMetadataItems,ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems, ISpatialAudioMetadataClient, ISpatialAudioMetadataClient interface [Core Audio], ActivateSpatialAudioMetadataItems method, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadataitems, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems
+ms.keywords: ActivateSpatialAudioMetadataItems, ActivateSpatialAudioMetadataItems method [Core Audio], ActivateSpatialAudioMetadataItems method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataItems method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadataitems, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems method
+# ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems
 
 
 ## -description

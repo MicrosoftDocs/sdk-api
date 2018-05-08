@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetFlags
-title: ISyncChange::GetFlags method
+title: ISyncChange::GetFlags
 author: windows-driver-content
 description: Gets flags that are associated with this change.
 old-location: winsync\isyncchange_getflags.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: de0509a4-550b-49f2-a850-fc1bd57b60cd
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetFlags method [Windows Sync], GetFlags method [Windows Sync], ISyncChange interface, GetFlags,ISyncChange.GetFlags, ISyncChange, ISyncChange interface [Windows Sync], GetFlags method, ISyncChange::GetFlags, winsync.isyncchange_getflags, winsync/ISyncChange::GetFlags
+ms.keywords: GetFlags, GetFlags method [Windows Sync], GetFlags method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetFlags method, ISyncChange.GetFlags, ISyncChange::GetFlags, winsync.isyncchange_getflags, winsync/ISyncChange::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChange::GetFlags method
+# ISyncChange::GetFlags
 
 
 ## -description

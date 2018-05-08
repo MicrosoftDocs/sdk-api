@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITableItemProvider.GetRowHeaderItems
-title: ITableItemProvider::GetRowHeaderItems method
+title: ITableItemProvider::GetRowHeaderItems
 author: windows-driver-content
 description: Retrieves a collection of Microsoft UI Automation provider representing all the row headers associated with a table item or cell.
 old-location: winauto\uiauto_ITableItemProvider_GetRowHeaderItems.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 02717f9a-93dd-4963-bbc7-a1eb257bf5e5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetRowHeaderItems method [Windows Accessibility], GetRowHeaderItems method [Windows Accessibility], ITableItemProvider interface, GetRowHeaderItems,ITableItemProvider.GetRowHeaderItems, ITableItemProvider, ITableItemProvider interface [Windows Accessibility], GetRowHeaderItems method, ITableItemProvider::GetRowHeaderItems, uiauto.uiauto_ITableItemProvider_GetRowHeaderItems, uiauto_ITableItemProvider_GetRowHeaderItems, uiautomationcore/ITableItemProvider::GetRowHeaderItems, winauto.uiauto_ITableItemProvider_GetRowHeaderItems
+ms.keywords: GetRowHeaderItems, GetRowHeaderItems method [Windows Accessibility], GetRowHeaderItems method [Windows Accessibility],ITableItemProvider interface, ITableItemProvider interface [Windows Accessibility],GetRowHeaderItems method, ITableItemProvider.GetRowHeaderItems, ITableItemProvider::GetRowHeaderItems, uiauto.uiauto_ITableItemProvider_GetRowHeaderItems, uiauto_ITableItemProvider_GetRowHeaderItems, uiautomationcore/ITableItemProvider::GetRowHeaderItems, winauto.uiauto_ITableItemProvider_GetRowHeaderItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITableItemProvider::GetRowHeaderItems method
+# ITableItemProvider::GetRowHeaderItems
 
 
 ## -description

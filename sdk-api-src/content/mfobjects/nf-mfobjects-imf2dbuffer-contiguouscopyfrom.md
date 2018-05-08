@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.ContiguousCopyFrom
-title: IMF2DBuffer::ContiguousCopyFrom method
+title: IMF2DBuffer::ContiguousCopyFrom
 author: windows-driver-content
 description: Copies data to this buffer from a buffer that has a contiguous format.
 old-location: mf\imf2dbuffer_contiguouscopyfrom.htm
 old-project: medfound
 ms.assetid: 84634782-7805-4e2b-a043-7e49adef5c2a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 84634782-7805-4e2b-a043-7e49adef5c2a, ContiguousCopyFrom method [Media Foundation], ContiguousCopyFrom method [Media Foundation], IMF2DBuffer interface, ContiguousCopyFrom,IMF2DBuffer.ContiguousCopyFrom, IMF2DBuffer, IMF2DBuffer interface [Media Foundation], ContiguousCopyFrom method, IMF2DBuffer::ContiguousCopyFrom, mf.imf2dbuffer_contiguouscopyfrom, mfobjects/IMF2DBuffer::ContiguousCopyFrom
+ms.date: 5/3/2018
+ms.keywords: 84634782-7805-4e2b-a043-7e49adef5c2a, ContiguousCopyFrom, ContiguousCopyFrom method [Media Foundation], ContiguousCopyFrom method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],ContiguousCopyFrom method, IMF2DBuffer.ContiguousCopyFrom, IMF2DBuffer::ContiguousCopyFrom, mf.imf2dbuffer_contiguouscopyfrom, mfobjects/IMF2DBuffer::ContiguousCopyFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMF2DBuffer::ContiguousCopyFrom method
+# IMF2DBuffer::ContiguousCopyFrom
 
 
 ## -description

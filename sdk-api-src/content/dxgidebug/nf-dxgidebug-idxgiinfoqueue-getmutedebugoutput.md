@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetMuteDebugOutput
-title: IDXGIInfoQueue::GetMuteDebugOutput method
+title: IDXGIInfoQueue::GetMuteDebugOutput
 author: windows-driver-content
 description: Determines whether the debug output is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getmutedebugoutput.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 8123DE14-31C1-4304-A295-C7D0C3633C36
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetMuteDebugOutput method [DXGI], GetMuteDebugOutput method [DXGI], IDXGIInfoQueue interface, GetMuteDebugOutput,IDXGIInfoQueue.GetMuteDebugOutput, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], GetMuteDebugOutput method, IDXGIInfoQueue::GetMuteDebugOutput, direct3ddxgi.idxgiinfoqueue_getmutedebugoutput, dxgidebug/IDXGIInfoQueue::GetMuteDebugOutput
+ms.keywords: GetMuteDebugOutput, GetMuteDebugOutput method [DXGI], GetMuteDebugOutput method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMuteDebugOutput method, IDXGIInfoQueue.GetMuteDebugOutput, IDXGIInfoQueue::GetMuteDebugOutput, direct3ddxgi.idxgiinfoqueue_getmutedebugoutput, dxgidebug/IDXGIInfoQueue::GetMuteDebugOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::GetMuteDebugOutput method
+# IDXGIInfoQueue::GetMuteDebugOutput
 
 
 ## -description

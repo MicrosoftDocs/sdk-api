@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowOutboundSourceQuench
-title: INetFwIcmpSettings::put_AllowOutboundSourceQuench method
+title: INetFwIcmpSettings::put_AllowOutboundSourceQuench
 author: windows-driver-content
 description: Indicates whether outbound source quench is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundsourcequench.htm
 old-project: ICS
 ms.assetid: a70cdff7-5e93-4120-9000-424a91d522ea
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: AllowOutboundSourceQuench property [ICS/ICF], AllowOutboundSourceQuench property [ICS/ICF], INetFwIcmpSettings interface, INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], AllowOutboundSourceQuench property, INetFwIcmpSettings.AllowOutboundSourceQuench, INetFwIcmpSettings::get_AllowOutboundSourceQuench, INetFwIcmpSettings::put_AllowOutboundSourceQuench, ics.inetfwicmpsettings_allowoutboundsourcequench, netfw/INetFwIcmpSettings::AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::get_AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::put_AllowOutboundSourceQuench, put_AllowOutboundSourceQuench,INetFwIcmpSettings.put_AllowOutboundSourceQuench
+ms.date: 5/1/2018
+ms.keywords: AllowOutboundSourceQuench property [ICS/ICF], AllowOutboundSourceQuench property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundSourceQuench property, INetFwIcmpSettings.AllowOutboundSourceQuench, INetFwIcmpSettings.put_AllowOutboundSourceQuench, INetFwIcmpSettings::AllowOutboundSourceQuench, INetFwIcmpSettings::get_AllowOutboundSourceQuench, INetFwIcmpSettings::put_AllowOutboundSourceQuench, ics.inetfwicmpsettings_allowoutboundsourcequench, netfw/INetFwIcmpSettings::AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::get_AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::put_AllowOutboundSourceQuench, put_AllowOutboundSourceQuench
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwIcmpSettings::put_AllowOutboundSourceQuench method
+# INetFwIcmpSettings::put_AllowOutboundSourceQuench
 
 
 ## -description

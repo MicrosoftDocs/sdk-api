@@ -7,8 +7,8 @@ old-location: shell\LongPtrToInt.htm
 old-project: shell
 ms.assetid: a9d16930-ac36-4781-99ee-e4da135b2e9c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: LongPtrToInt, LongPtrToInt function [Windows Shell], _shell_LongPtrToInt, intsafe/LongPtrToInt, shell.LongPtrToInt
+ms.date: 5/3/2018
+ms.keywords: LongPtrToInt, LongPtrToInt function [Windows Shell], SSIZETToInt, _shell_LongPtrToInt, intsafe/LongPtrToInt, shell.LongPtrToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,6 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>SSIZETToInt</b> is an alias for this function.
 
 
 

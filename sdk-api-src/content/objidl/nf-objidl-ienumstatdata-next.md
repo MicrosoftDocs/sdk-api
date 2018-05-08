@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumSTATDATA.Next
-title: IEnumSTATDATA::Next method
+title: IEnumSTATDATA::Next
 author: windows-driver-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumstatdata_next.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8258b6f4-15d7-4da2-96d1-d1ce36a31c1c
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumSTATDATA, IEnumSTATDATA interface [COM], Next method, IEnumSTATDATA::Next, Next method [COM], Next method [COM], IEnumSTATDATA interface, Next,IEnumSTATDATA.Next, _ole_ienumstatdata_next, com.ienumstatdata_next, objidl/IEnumSTATDATA::Next
+ms.keywords: IEnumSTATDATA interface [COM],Next method, IEnumSTATDATA.Next, IEnumSTATDATA::Next, Next, Next method [COM], Next method [COM],IEnumSTATDATA interface, _ole_ienumstatdata_next, com.ienumstatdata_next, objidl/IEnumSTATDATA::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumSTATDATA::Next method
+# IEnumSTATDATA::Next
 
 
 ## -description

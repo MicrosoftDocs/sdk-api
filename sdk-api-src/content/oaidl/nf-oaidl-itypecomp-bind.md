@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeComp.Bind
-title: ITypeComp::Bind method
+title: ITypeComp::Bind
 author: windows-driver-content
 description: Maps a name to a member of a type, or binds global variables and functions contained in a type library.
 old-location: automat\itypecomp_bind.htm
 old-project: automat
 ms.assetid: 04814179-2555-4ba5-a08c-bff776c03ca3
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: Bind method [Automation], Bind method [Automation], ITypeComp interface, Bind,ITypeComp.Bind, ITypeComp, ITypeComp interface [Automation], Bind method, ITypeComp::Bind, _oa96_ITypeComp_Bind, automat.itypecomp_bind, oaidl/ITypeComp::Bind
+ms.date: 5/4/2018
+ms.keywords: Bind, Bind method [Automation], Bind method [Automation],ITypeComp interface, ITypeComp interface [Automation],Bind method, ITypeComp.Bind, ITypeComp::Bind, _oa96_ITypeComp_Bind, automat.itypecomp_bind, oaidl/ITypeComp::Bind
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeComp::Bind method
+# ITypeComp::Bind
 
 
 ## -description

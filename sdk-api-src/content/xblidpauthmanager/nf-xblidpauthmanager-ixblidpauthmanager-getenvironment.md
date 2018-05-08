@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetEnvironment
-title: IXblIdpAuthManager::GetEnvironment method
+title: IXblIdpAuthManager::GetEnvironment
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_getenvironment.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 9AEFE6CB-9C15-4945-ACAC-6AE0C04331CC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetEnvironment method, GetEnvironment method, IXblIdpAuthManager interface, GetEnvironment,IXblIdpAuthManager.GetEnvironment, IXblIdpAuthManager, IXblIdpAuthManager interface, GetEnvironment method, IXblIdpAuthManager::GetEnvironment, xblidp.ixblidpauthmanager_getenvironment, xblidpauthmanager/IXblIdpAuthManager::GetEnvironment
+ms.keywords: GetEnvironment, GetEnvironment method, GetEnvironment method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetEnvironment method, IXblIdpAuthManager.GetEnvironment, IXblIdpAuthManager::GetEnvironment, xblidp.ixblidpauthmanager_getenvironment, xblidpauthmanager/IXblIdpAuthManager::GetEnvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthManager::GetEnvironment method
+# IXblIdpAuthManager::GetEnvironment
 
 
 ## -description

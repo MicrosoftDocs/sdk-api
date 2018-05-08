@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IQueryParserManager.CreateLoadedParser
-title: IQueryParserManager::CreateLoadedParser method
+title: IQueryParserManager::CreateLoadedParser
 author: windows-driver-content
 description: Creates a new instance of a IQueryParser interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
 old-location: search\_search_IQueryParserManager_CreateLoadedParser.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\createloadedparser.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateLoadedParser method [search], CreateLoadedParser method [search], IQueryParserManager interface, CreateLoadedParser,IQueryParserManager.CreateLoadedParser, IQueryParserManager, IQueryParserManager interface [search], CreateLoadedParser method, IQueryParserManager::CreateLoadedParser, _search_IQueryParserManager_CreateLoadedParser, search._search_IQueryParserManager_CreateLoadedParser, structuredquery/IQueryParserManager::CreateLoadedParser
+ms.date: 5/4/2018
+ms.keywords: CreateLoadedParser, CreateLoadedParser method [search], CreateLoadedParser method [search],IQueryParserManager interface, IQueryParserManager interface [search],CreateLoadedParser method, IQueryParserManager.CreateLoadedParser, IQueryParserManager::CreateLoadedParser, _search_IQueryParserManager_CreateLoadedParser, search._search_IQueryParserManager_CreateLoadedParser, structuredquery/IQueryParserManager::CreateLoadedParser
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IQueryParserManager::CreateLoadedParser method
+# IQueryParserManager::CreateLoadedParser
 
 
 ## -description

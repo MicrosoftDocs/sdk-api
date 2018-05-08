@@ -7,7 +7,7 @@ old-location: winsock\in_addr_2.htm
 old-project: WinSock
 ms.assetid: fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: FAR *LPIN_ADDR, FAR *LPIN_ADDR structure [Winsock], IN_ADDR, IN_ADDR [Winsock], IN_ADDR structure [Winsock], PIN_ADDR, PIN_ADDR structure pointer [Winsock], _win32_in_addr_2, in_addr, in_addr structure [Winsock], inaddr/FAR *LPIN_ADDR, inaddr/PIN_ADDR, inaddr/in_addr, winsock.in_addr_2, winsock2/FAR *LPIN_ADDR, winsock2/PIN_ADDR, winsock2/in_addr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,12 +63,6 @@ The
 ### -field S_un
 
 
-
-#### S_addr
-
-An IPv4 address formatted as a <b>u_long</b>.
-
-
 ### -field S_un.S_un_b
 
 An IPv4 address formatted as four <b>u_char</b>s.
@@ -109,6 +103,9 @@ An IPv4 address formatted as two <b>u_short</b>s.
  
 
 
+### -field S_un.S_addr
+
+An IPv4 address formatted as a <b>u_long</b>.
 
 
 ## -remarks

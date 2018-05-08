@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoCollection.Type
-title: IComTrackingInfoCollection::Type method
+title: IComTrackingInfoCollection::Type
 author: windows-driver-content
 description: Retrieves the type of a tracking information collection.
 old-location: cos\icomtrackinginfocollection_type.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: ee7c16ac-be47-44e7-b8a6-46a7ec29a2c1
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComTrackingInfoCollection, IComTrackingInfoCollection interface [COM+], Type method, IComTrackingInfoCollection::Type, Type method [COM+], Type method [COM+], IComTrackingInfoCollection interface, Type,IComTrackingInfoCollection.Type, _dtc_IComTrackingInfoCollection_Type, comsvcs/IComTrackingInfoCollection::Type, cos.icomtrackinginfocollection_type
+ms.keywords: IComTrackingInfoCollection interface [COM+],Type method, IComTrackingInfoCollection.Type, IComTrackingInfoCollection::Type, Type, Type method [COM+], Type method [COM+],IComTrackingInfoCollection interface, _dtc_IComTrackingInfoCollection_Type, comsvcs/IComTrackingInfoCollection::Type, cos.icomtrackinginfocollection_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComTrackingInfoCollection::Type method
+# IComTrackingInfoCollection::Type
 
 
 ## -description

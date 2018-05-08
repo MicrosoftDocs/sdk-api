@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.SetClipList
-title: IDirectDrawClipper::SetClipList method
+title: IDirectDrawClipper::SetClipList
 author: windows-driver-content
 description: Sets or deletes the clip list that is used by the IDirectDrawSurface7::Blt, IDirectDrawSurface7::BltBatch, and IDirectDrawSurface7::UpdateOverlay methods on surfaces to which the parent DirectDrawClipper object is attached.
 old-location: directdraw\idirectdrawclipper_setcliplist.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 717f51e0-80cb-4762-b05d-30e30d065d0c
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], SetClipList method, IDirectDrawClipper::SetClipList, SetClipList method [DirectDraw], SetClipList method [DirectDraw], IDirectDrawClipper interface, SetClipList,IDirectDrawClipper.SetClipList, ddraw/IDirectDrawClipper::SetClipList, directdraw.idirectdrawclipper_setcliplist
+ms.keywords: IDirectDrawClipper interface [DirectDraw],SetClipList method, IDirectDrawClipper.SetClipList, IDirectDrawClipper::SetClipList, SetClipList, SetClipList method [DirectDraw], SetClipList method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::SetClipList, directdraw.idirectdrawclipper_setcliplist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawClipper::SetClipList method
+# IDirectDrawClipper::SetClipList
 
 
 ## -description

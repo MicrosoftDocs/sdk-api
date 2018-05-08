@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.SetState
-title: IDvdControl2::SetState method
+title: IDvdControl2::SetState
 author: windows-driver-content
 description: The SetState method saves the current disc position and state of the DVD Navigator filter.
 old-location: dshow\idvdcontrol2_setstate.htm
 old-project: DirectShow
 ms.assetid: 3941b469-46f3-4499-9062-81a873a36292
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SetState method, IDvdControl2::SetState, IDvdControl2SetState, SetState method [DirectShow], SetState method [DirectShow], IDvdControl2 interface, SetState,IDvdControl2.SetState, dshow.idvdcontrol2_setstate, strmif/IDvdControl2::SetState
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],SetState method, IDvdControl2.SetState, IDvdControl2::SetState, IDvdControl2SetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setstate, strmif/IDvdControl2::SetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::SetState method
+# IDvdControl2::SetState
 
 
 ## -description

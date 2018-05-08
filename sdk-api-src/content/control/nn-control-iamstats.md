@@ -7,8 +7,8 @@ old-location: dshow\iamstats.htm
 old-project: DirectShow
 ms.assetid: 01dbaba2-fdca-4f42-8816-fd99c4364dbd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMStats, IAMStats interface [DirectShow], IAMStats interface [DirectShow], described, IAMStatsInterface, control/IAMStats, dshow.iamstats
+ms.date: 4/30/2018
+ms.keywords: IAMStats, IAMStats interface [DirectShow], IAMStats interface [DirectShow],described, IAMStatsInterface, control/IAMStats, dshow.iamstats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

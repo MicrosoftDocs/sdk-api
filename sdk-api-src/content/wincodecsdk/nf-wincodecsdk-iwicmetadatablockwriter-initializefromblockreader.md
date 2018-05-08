@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.InitializeFromBlockReader
-title: IWICMetadataBlockWriter::InitializeFromBlockReader method
+title: IWICMetadataBlockWriter::InitializeFromBlockReader
 author: windows-driver-content
 description: Initializes an IWICMetadataBlockWriter from the given IWICMetadataBlockReader. This will prepopulate the metadata block writer with all the metadata in the metadata block reader.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_initializefromblockreader.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 9ad9d818-7b3e-47eb-bc99-e26e7664383c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICMetadataBlockWriter, IWICMetadataBlockWriter interface [Windows Imaging Component], InitializeFromBlockReader method, IWICMetadataBlockWriter::InitializeFromBlockReader, InitializeFromBlockReader method [Windows Imaging Component], InitializeFromBlockReader method [Windows Imaging Component], IWICMetadataBlockWriter interface, InitializeFromBlockReader,IWICMetadataBlockWriter.InitializeFromBlockReader, _wic_codec_iwicmetadatablockwriter_initializefromblockreader, wic._wic_codec_iwicmetadatablockwriter_initializefromblockreader, wincodecsdk/IWICMetadataBlockWriter::InitializeFromBlockReader
+ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],InitializeFromBlockReader method, IWICMetadataBlockWriter.InitializeFromBlockReader, IWICMetadataBlockWriter::InitializeFromBlockReader, InitializeFromBlockReader, InitializeFromBlockReader method [Windows Imaging Component], InitializeFromBlockReader method [Windows Imaging Component],IWICMetadataBlockWriter interface, _wic_codec_iwicmetadatablockwriter_initializefromblockreader, wic._wic_codec_iwicmetadatablockwriter_initializefromblockreader, wincodecsdk/IWICMetadataBlockWriter::InitializeFromBlockReader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataBlockWriter::InitializeFromBlockReader method
+# IWICMetadataBlockWriter::InitializeFromBlockReader
 
 
 ## -description

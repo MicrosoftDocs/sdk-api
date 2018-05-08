@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateInspectableArray
-title: IPropertyValueStatics::CreateInspectableArray method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified array of IInspectable objects.
 old-location: winrt\ipropertyvaluestatics_createinspectablearray.htm
 old-project: WinRT
 ms.assetid: 2bcb8530-07cb-4f54-b727-e08807c3f22b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateInspectableArray method [Windows Runtime], CreateInspectableArray method [Windows Runtime], IPropertyValueStatics interface, CreateInspectableArray,IPropertyValueStatics.CreateInspectableArray, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateInspectableArray method, IPropertyValueStatics::CreateInspectableArray, windows/IPropertyValueStatics::CreateInspectableArray, winrt.ipropertyvaluefactory_createinspectablearray, winrt.ipropertyvaluestatics_createinspectablearray
+ms.date: 5/4/2018
+ms.keywords: CreateInspectableArray, CreateInspectableArray method [Windows Runtime], CreateInspectableArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInspectableArray method, IPropertyValueStatics.CreateInspectableArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInspectableArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInspectableArray, winrt.ipropertyvaluefactory_createinspectablearray, winrt.ipropertyvaluestatics_createinspectablearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateInspectableArray method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

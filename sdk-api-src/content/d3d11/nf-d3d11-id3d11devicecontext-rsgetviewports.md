@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.RSGetViewports
-title: ID3D11DeviceContext::RSGetViewports method
+title: ID3D11DeviceContext::RSGetViewports
 author: windows-driver-content
 description: Gets the array of viewports bound to the rasterizer stage.
 old-location: direct3d11\id3d11devicecontext_rsgetviewports.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 9932182f-8e62-41fe-9004-7fb0b591630f
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 19831c51-f6c4-f65f-6ada-c90fa97f0a32, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], RSGetViewports method, ID3D11DeviceContext::RSGetViewports, RSGetViewports method [Direct3D 11], RSGetViewports method [Direct3D 11], ID3D11DeviceContext interface, RSGetViewports,ID3D11DeviceContext.RSGetViewports, d3d11/ID3D11DeviceContext::RSGetViewports, direct3d11.id3d11devicecontext_rsgetviewports
+ms.keywords: 19831c51-f6c4-f65f-6ada-c90fa97f0a32, ID3D11DeviceContext interface [Direct3D 11],RSGetViewports method, ID3D11DeviceContext.RSGetViewports, ID3D11DeviceContext::RSGetViewports, RSGetViewports, RSGetViewports method [Direct3D 11], RSGetViewports method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::RSGetViewports, direct3d11.id3d11devicecontext_rsgetviewports
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::RSGetViewports method
+# ID3D11DeviceContext::RSGetViewports
 
 
 ## -description

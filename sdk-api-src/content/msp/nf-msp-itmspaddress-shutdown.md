@@ -1,6 +1,6 @@
 ---
 UID: NF:msp.ITMSPAddress.Shutdown
-title: ITMSPAddress::Shutdown method
+title: ITMSPAddress::Shutdown
 author: windows-driver-content
 description: The Shutdown method is called when the MSP is unloaded. Shutdown will be called once per address object.
 old-location: tapi3\itmspaddress_shutdown.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 877691cb-b12b-4389-b93c-4ff13a52f4d7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITMSPAddress, ITMSPAddress interface [TAPI 2.2], Shutdown method, ITMSPAddress::Shutdown, Shutdown method [TAPI 2.2], Shutdown method [TAPI 2.2], ITMSPAddress interface, Shutdown,ITMSPAddress.Shutdown, _tapi3_itmspaddress_shutdown, msp/ITMSPAddress::Shutdown, tapi3.itmspaddress_shutdown
+ms.keywords: ITMSPAddress interface [TAPI 2.2],Shutdown method, ITMSPAddress.Shutdown, ITMSPAddress::Shutdown, Shutdown, Shutdown method [TAPI 2.2], Shutdown method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_shutdown, msp/ITMSPAddress::Shutdown, tapi3.itmspaddress_shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITMSPAddress::Shutdown method
+# ITMSPAddress::Shutdown
 
 
 ## -description

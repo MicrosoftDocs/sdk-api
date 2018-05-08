@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.DeleteLogError
-title: ISyncMgrSynchronizeCallback::DeleteLogError method
+title: ISyncMgrSynchronizeCallback::DeleteLogError
 author: windows-driver-content
 description: Called by the registered application's handler to delete a previously logged ErrorInformation, warning, or error message in the error tab on the synchronization manager status dialog box.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_deletelogerror.htm
 old-project: shell
 ms.assetid: 06e90b81-14cc-4b3e-9d2d-30e60eeb8eb2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: DeleteLogError method [Windows Shell], DeleteLogError method [Windows Shell], ISyncMgrSynchronizeCallback interface, DeleteLogError,ISyncMgrSynchronizeCallback.DeleteLogError, ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], DeleteLogError method, ISyncMgrSynchronizeCallback::DeleteLogError, mobsync/ISyncMgrSynchronizeCallback::DeleteLogError, shell.syncmgr_isyncmgrsynchronizecallback_deletelogerror, syncmgr.isyncmgrsynchronizecallback_deletelogerror
+ms.date: 5/3/2018
+ms.keywords: DeleteLogError, DeleteLogError method [Windows Shell], DeleteLogError method [Windows Shell],ISyncMgrSynchronizeCallback interface, ISyncMgrSynchronizeCallback interface [Windows Shell],DeleteLogError method, ISyncMgrSynchronizeCallback.DeleteLogError, ISyncMgrSynchronizeCallback::DeleteLogError, mobsync/ISyncMgrSynchronizeCallback::DeleteLogError, shell.syncmgr_isyncmgrsynchronizecallback_deletelogerror, syncmgr.isyncmgrsynchronizecallback_deletelogerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronizeCallback::DeleteLogError method
+# ISyncMgrSynchronizeCallback::DeleteLogError
 
 
 ## -description

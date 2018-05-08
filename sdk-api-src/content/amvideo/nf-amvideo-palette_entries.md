@@ -7,7 +7,7 @@ old-location: dshow\palette_entries.htm
 old-project: DirectShow
 ms.assetid: 7923b767-2b38-4aa8-bbc2-21d0254bdbd9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: PALETTE_ENTRIES, PALETTE_ENTRIES macro [DirectShow], amvideo/PALETTE_ENTRIES, dshow.palette_entries
 ms.prod: windows-hardware
 ms.technology: windows-devices

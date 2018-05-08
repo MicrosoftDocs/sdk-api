@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_ChildId
-title: ILegacyIAccessibleProvider::get_ChildId method
+title: ILegacyIAccessibleProvider::get_ChildId
 author: windows-driver-content
 description: Specifies the child identifier of this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_ChildId.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7dc1e5e8-050b-4a64-9a8e-cb0186878147
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ChildId property [Windows Accessibility], ChildId property [Windows Accessibility], ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], ChildId property, ILegacyIAccessibleProvider.ChildId, ILegacyIAccessibleProvider::get_ChildId, get_ChildId,ILegacyIAccessibleProvider.get_ChildId, uiauto.uiauto_ILegacyIAccessibleProvider_ChildId, uiauto_ILegacyIAccessibleProvider_ChildId, uiautomationcore/ILegacyIAccessibleProvider::ChildId, uiautomationcore/ILegacyIAccessibleProvider::get_ChildId, winauto.uiauto_ILegacyIAccessibleProvider_ChildId
+ms.keywords: ChildId property [Windows Accessibility], ChildId property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],ChildId property, ILegacyIAccessibleProvider.ChildId, ILegacyIAccessibleProvider.get_ChildId, ILegacyIAccessibleProvider::ChildId, ILegacyIAccessibleProvider::get_ChildId, get_ChildId, uiauto.uiauto_ILegacyIAccessibleProvider_ChildId, uiauto_ILegacyIAccessibleProvider_ChildId, uiautomationcore/ILegacyIAccessibleProvider::ChildId, uiautomationcore/ILegacyIAccessibleProvider::get_ChildId, winauto.uiauto_ILegacyIAccessibleProvider_ChildId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILegacyIAccessibleProvider::get_ChildId method
+# ILegacyIAccessibleProvider::get_ChildId
 
 
 ## -description

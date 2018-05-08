@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetLearnedKnowledge
-title: ISyncChangeBatchBase::GetLearnedKnowledge method
+title: ISyncChangeBatchBase::GetLearnedKnowledge
 author: windows-driver-content
 description: Gets the knowledge that the destination replica learns when the destination provider applies all the changes in this change batch.
 old-location: winsync\isyncchangebatchbase_getlearnedknowledge.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: cef04646-71a7-489d-9beb-fe87bb949218
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetLearnedKnowledge method [Windows Sync], GetLearnedKnowledge method [Windows Sync], ISyncChangeBatchBase interface, GetLearnedKnowledge,ISyncChangeBatchBase.GetLearnedKnowledge, ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], GetLearnedKnowledge method, ISyncChangeBatchBase::GetLearnedKnowledge, winsync.isyncchangebatchbase_getlearnedknowledge, winsync/ISyncChangeBatchBase::GetLearnedKnowledge
+ms.keywords: GetLearnedKnowledge, GetLearnedKnowledge method [Windows Sync], GetLearnedKnowledge method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetLearnedKnowledge method, ISyncChangeBatchBase.GetLearnedKnowledge, ISyncChangeBatchBase::GetLearnedKnowledge, winsync.isyncchangebatchbase_getlearnedknowledge, winsync/ISyncChangeBatchBase::GetLearnedKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchBase::GetLearnedKnowledge method
+# ISyncChangeBatchBase::GetLearnedKnowledge
 
 
 ## -description

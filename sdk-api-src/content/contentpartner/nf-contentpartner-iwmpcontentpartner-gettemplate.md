@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetTemplate
-title: IWMPContentPartner::GetTemplate method
+title: IWMPContentPartner::GetTemplate
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_gettemplate.htm
 old-project: WMP
 ms.assetid: 4bfe7d84-9f65-4bd4-867a-65c96291397d
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetTemplate method [Windows Media Player], GetTemplate method [Windows Media Player], IWMPContentPartner interface, GetTemplate,IWMPContentPartner.GetTemplate, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], GetTemplate method, IWMPContentPartner::GetTemplate, IWMPContentPartnerGetTemplate, contentpartner/IWMPContentPartner::GetTemplate, wmp.iwmpcontentpartner_gettemplate
+ms.date: 5/4/2018
+ms.keywords: GetTemplate, GetTemplate method [Windows Media Player], GetTemplate method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetTemplate method, IWMPContentPartner.GetTemplate, IWMPContentPartner::GetTemplate, IWMPContentPartnerGetTemplate, contentpartner/IWMPContentPartner::GetTemplate, wmp.iwmpcontentpartner_gettemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::GetTemplate method
+# IWMPContentPartner::GetTemplate
 
 
 ## -description

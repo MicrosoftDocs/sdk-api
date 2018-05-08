@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSeeking.QueryPreferredFormat
-title: IMediaSeeking::QueryPreferredFormat method
+title: IMediaSeeking::QueryPreferredFormat
 author: windows-driver-content
 description: The QueryPreferredFormat method retrieves the preferred time format for seeking.
 old-location: dshow\imediaseeking_querypreferredformat.htm
 old-project: DirectShow
 ms.assetid: 16fd71d6-c162-493c-9bca-479d59da5031
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], QueryPreferredFormat method, IMediaSeeking::QueryPreferredFormat, IMediaSeekingQueryPreferredFormat, QueryPreferredFormat method [DirectShow], QueryPreferredFormat method [DirectShow], IMediaSeeking interface, QueryPreferredFormat,IMediaSeeking.QueryPreferredFormat, dshow.imediaseeking_querypreferredformat, strmif/IMediaSeeking::QueryPreferredFormat
+ms.date: 4/30/2018
+ms.keywords: IMediaSeeking interface [DirectShow],QueryPreferredFormat method, IMediaSeeking.QueryPreferredFormat, IMediaSeeking::QueryPreferredFormat, IMediaSeekingQueryPreferredFormat, QueryPreferredFormat, QueryPreferredFormat method [DirectShow], QueryPreferredFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_querypreferredformat, strmif/IMediaSeeking::QueryPreferredFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSeeking::QueryPreferredFormat method
+# IMediaSeeking::QueryPreferredFormat
 
 
 ## -description

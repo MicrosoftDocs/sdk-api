@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 357b2979-78de-4a99-bf52-4117af7dfaad
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IStreamBufferInitialize, IStreamBufferInitialize interface [Microsoft TV Technologies], IStreamBufferInitialize interface [Microsoft TV Technologies], described, IStreamBufferInitializeInterface, mstv.istreambufferinitialize, sbe/IStreamBufferInitialize
+ms.keywords: IStreamBufferInitialize, IStreamBufferInitialize interface [Microsoft TV Technologies], IStreamBufferInitialize interface [Microsoft TV Technologies],described, IStreamBufferInitializeInterface, mstv.istreambufferinitialize, sbe/IStreamBufferInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

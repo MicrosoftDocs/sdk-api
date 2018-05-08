@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTableDumpState.GetNextData
-title: ISimilarityTableDumpState::GetNextData method
+title: ISimilarityTableDumpState::GetNextData
 author: windows-driver-content
 description: Retrieves one or more SimilarityDumpData structures from the similarity traits list that was returned by the ISimilarityTraitsTable::BeginDump method.
 old-location: rdc\isimilaritytabledumpstate_getnextdata.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 40ec97fc-052d-474e-9a55-822aa113ac03
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetNextData method [Remote Differential Compression], GetNextData method [Remote Differential Compression], ISimilarityTableDumpState interface, GetNextData,ISimilarityTableDumpState.GetNextData, ISimilarityTableDumpState, ISimilarityTableDumpState interface [Remote Differential Compression], GetNextData method, ISimilarityTableDumpState::GetNextData, fs.isimilaritytabledumpstate_getnextdata, msrdc/ISimilarityTableDumpState::GetNextData, rdc.isimilaritytabledumpstate_getnextdata
+ms.keywords: GetNextData, GetNextData method [Remote Differential Compression], GetNextData method [Remote Differential Compression],ISimilarityTableDumpState interface, ISimilarityTableDumpState interface [Remote Differential Compression],GetNextData method, ISimilarityTableDumpState.GetNextData, ISimilarityTableDumpState::GetNextData, fs.isimilaritytabledumpstate_getnextdata, msrdc/ISimilarityTableDumpState::GetNextData, rdc.isimilaritytabledumpstate_getnextdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityTableDumpState::GetNextData method
+# ISimilarityTableDumpState::GetNextData
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: automat\varadd.htm
 old-project: automat
 ms.assetid: bdec33b1-cbdd-4ec3-83b2-4e5655ecf5bb
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarAdd, VarAdd function [Automation], _oa96_VarAdd, automat.varadd, oleauto/VarAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

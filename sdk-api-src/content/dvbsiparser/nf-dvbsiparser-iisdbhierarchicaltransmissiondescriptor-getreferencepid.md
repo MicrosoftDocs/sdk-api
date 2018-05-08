@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetReferencePid
-title: IIsdbHierarchicalTransmissionDescriptor::GetReferencePid method
+title: IIsdbHierarchicalTransmissionDescriptor::GetReferencePid
 author: windows-driver-content
 description: Gets the program ID (PID) of the primary hierarchical stream from a hierarchical transmission descriptor.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getreferencepid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4c1d96eb-e2d6-4f3a-8a3c-88c0d920ad44
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetReferencePid method [Microsoft TV Technologies], GetReferencePid method [Microsoft TV Technologies], IIsdbHierarchicalTransmissionDescriptor interface, GetReferencePid,IIsdbHierarchicalTransmissionDescriptor.GetReferencePid, IIsdbHierarchicalTransmissionDescriptor, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies], GetReferencePid method, IIsdbHierarchicalTransmissionDescriptor::GetReferencePid, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetReferencePid, mstv.iisdbhierarchicaltransmissiondescriptor_getreferencepid
+ms.keywords: GetReferencePid, GetReferencePid method [Microsoft TV Technologies], GetReferencePid method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetReferencePid method, IIsdbHierarchicalTransmissionDescriptor.GetReferencePid, IIsdbHierarchicalTransmissionDescriptor::GetReferencePid, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetReferencePid, mstv.iisdbhierarchicaltransmissiondescriptor_getreferencepid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbHierarchicalTransmissionDescriptor::GetReferencePid method
+# IIsdbHierarchicalTransmissionDescriptor::GetReferencePid
 
 
 ## -description

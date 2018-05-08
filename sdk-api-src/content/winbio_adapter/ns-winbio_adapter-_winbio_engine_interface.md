@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: "*PWINBIO_ENGINE_INTERFACE, WINBIO_ENGINE_INTERFACE, *PWINBIO_ENGINE_INTERFACE"
+req.typenames: "*PWINBIO_ENGINE_INTERFACE, WINBIO_ENGINE_INTERFACE"
 topic_type:
 -	APIRef
 -	kbSyntax

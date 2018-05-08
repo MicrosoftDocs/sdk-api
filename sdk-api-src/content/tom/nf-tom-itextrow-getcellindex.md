@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.GetCellIndex
-title: ITextRow::GetCellIndex method
+title: ITextRow::GetCellIndex
 author: windows-driver-content
 description: Gets the index of the active cell to get or set parameters for.
 old-location: controls\itextrow_getcellindex.htm
 old-project: Controls
 ms.assetid: 7768e073-929c-43a4-8c4f-a67f89a0e7ee
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetCellIndex method [Windows Controls], GetCellIndex method [Windows Controls], ITextRow interface, GetCellIndex,ITextRow.GetCellIndex, ITextRow, ITextRow interface [Windows Controls], GetCellIndex method, ITextRow::GetCellIndex, controls.itextrow_getcellindex, tom/ITextRow::GetCellIndex
+ms.date: 4/27/2018
+ms.keywords: GetCellIndex, GetCellIndex method [Windows Controls], GetCellIndex method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellIndex method, ITextRow.GetCellIndex, ITextRow::GetCellIndex, controls.itextrow_getcellindex, tom/ITextRow::GetCellIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::GetCellIndex method
+# ITextRow::GetCellIndex
 
 
 ## -description

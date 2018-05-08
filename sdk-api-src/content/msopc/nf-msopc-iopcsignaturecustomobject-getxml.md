@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObject.GetXml
-title: IOpcSignatureCustomObject::GetXml method
+title: IOpcSignatureCustomObject::GetXml
 author: windows-driver-content
 description: Gets the XML markup of an application-specific Object element.
 old-location: opc\iopcsignaturecustomobject_getxml.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: fedb6f47-59b9-4959-91ef-db1fb398aca9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetXml method [Open Packaging Conventions], GetXml method [Open Packaging Conventions], IOpcSignatureCustomObject interface, GetXml,IOpcSignatureCustomObject.GetXml, IOpcSignatureCustomObject, IOpcSignatureCustomObject interface [Open Packaging Conventions], GetXml method, IOpcSignatureCustomObject::GetXml, msopc/IOpcSignatureCustomObject::GetXml, opc.iopcsignaturecustomobject_getxml
+ms.keywords: GetXml, GetXml method [Open Packaging Conventions], GetXml method [Open Packaging Conventions],IOpcSignatureCustomObject interface, IOpcSignatureCustomObject interface [Open Packaging Conventions],GetXml method, IOpcSignatureCustomObject.GetXml, IOpcSignatureCustomObject::GetXml, msopc/IOpcSignatureCustomObject::GetXml, opc.iopcsignaturecustomobject_getxml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureCustomObject::GetXml method
+# IOpcSignatureCustomObject::GetXml
 
 
 ## -description

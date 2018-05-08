@@ -7,7 +7,7 @@ old-location: security\crypt_xml_signature.htm
 old-project: SecCrypto
 ms.assetid: d9930946-aec0-42a4-949f-af8b2e9c6e6c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPT_XML_SIGNATURE, CRYPT_XML_SIGNATURE, CRYPT_XML_SIGNATURE structure [Security], PCRYPT_XML_SIGNATURE, PCRYPT_XML_SIGNATURE structure pointer [Security], _CRYPT_XML_SIGNATURE, cryptxml/CRYPT_XML_SIGNATURE, cryptxml/PCRYPT_XML_SIGNATURE, security.crypt_xml_signature"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CRYPT_XML_SIGNATURE, *PCRYPT_XML_SIGNATURE, CRYPT_XML_SIGNATURE, *PCRYPT_XML_SIGNATURE
+req.typenames: CRYPT_XML_SIGNATURE, *PCRYPT_XML_SIGNATURE
 topic_type:
 -	APIRef
 -	kbSyntax

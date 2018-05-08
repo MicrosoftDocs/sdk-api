@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetResourceId
-title: IAppxManifestPackageId::GetResourceId method
+title: IAppxManifestPackageId::GetResourceId
 author: windows-driver-content
 description: Gets the package resource identifier as defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_getresourceid.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: D17BD71A-6418-4229-8829-2C8EB9393285
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetResourceId method [App packaging and management], GetResourceId method [App packaging and management], IAppxManifestPackageId interface, GetResourceId,IAppxManifestPackageId.GetResourceId, IAppxManifestPackageId, IAppxManifestPackageId interface [App packaging and management], GetResourceId method, IAppxManifestPackageId::GetResourceId, appxpackaging/IAppxManifestPackageId::GetResourceId, appxpkg.iappxmanifestpackageid_getresourceid
+ms.keywords: GetResourceId, GetResourceId method [App packaging and management], GetResourceId method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetResourceId method, IAppxManifestPackageId.GetResourceId, IAppxManifestPackageId::GetResourceId, appxpackaging/IAppxManifestPackageId::GetResourceId, appxpkg.iappxmanifestpackageid_getresourceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestPackageId::GetResourceId method
+# IAppxManifestPackageId::GetResourceId
 
 
 ## -description

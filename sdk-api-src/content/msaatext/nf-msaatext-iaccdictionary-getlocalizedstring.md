@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccDictionary.GetLocalizedString
-title: IAccDictionary::GetLocalizedString method
+title: IAccDictionary::GetLocalizedString
 author: windows-driver-content
 description: Clients call the IAccDictionary::GetLocalizedString method to get localized strings for all system properties and their values.
 old-location: winauto\iaccdictionary_iaccdictionary__getlocalizedstring.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7419395d-d4be-4ee4-bf98-aef7e82cb3d5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetLocalizedString method [Windows Accessibility], GetLocalizedString method [Windows Accessibility], IAccDictionary interface, GetLocalizedString,IAccDictionary.GetLocalizedString, IAccDictionary, IAccDictionary interface [Windows Accessibility], GetLocalizedString method, IAccDictionary::GetLocalizedString, _msaa_IAccDictionary_GetLocalizedString, msaa.iaccdictionary_iaccdictionary__getlocalizedstring, msaatext/IAccDictionary::GetLocalizedString, winauto.iaccdictionary_iaccdictionary__getlocalizedstring
+ms.keywords: GetLocalizedString, GetLocalizedString method [Windows Accessibility], GetLocalizedString method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],GetLocalizedString method, IAccDictionary.GetLocalizedString, IAccDictionary::GetLocalizedString, _msaa_IAccDictionary_GetLocalizedString, msaa.iaccdictionary_iaccdictionary__getlocalizedstring, msaatext/IAccDictionary::GetLocalizedString, winauto.iaccdictionary_iaccdictionary__getlocalizedstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAccDictionary::GetLocalizedString method
+# IAccDictionary::GetLocalizedString
 
 
 ## -description

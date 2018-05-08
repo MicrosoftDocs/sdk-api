@@ -1,14 +1,14 @@
 ---
 UID: NF:austream.IAudioData.GetFormat
-title: IAudioData::GetFormat method
+title: IAudioData::GetFormat
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The GetFormat method retrieves the current data format.
 old-location: dshow\iaudiodata_getformat.htm
 old-project: DirectShow
 ms.assetid: 7b06592d-2b9d-4f5a-bf74-331b07a13f0f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetFormat method [DirectShow], GetFormat method [DirectShow], IAudioData interface, GetFormat,IAudioData.GetFormat, IAudioData, IAudioData interface [DirectShow], GetFormat method, IAudioData::GetFormat, IAudioDataGetFormat, austream/IAudioData::GetFormat, dshow.iaudiodata_getformat
+ms.date: 4/30/2018
+ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAudioData interface, IAudioData interface [DirectShow],GetFormat method, IAudioData.GetFormat, IAudioData::GetFormat, IAudioDataGetFormat, austream/IAudioData::GetFormat, dshow.iaudiodata_getformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioData::GetFormat method
+# IAudioData::GetFormat
 
 
 ## -description

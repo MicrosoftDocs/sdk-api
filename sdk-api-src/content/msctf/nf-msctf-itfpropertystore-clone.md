@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Clone
-title: ITfPropertyStore::Clone method
+title: ITfPropertyStore::Clone
 author: windows-driver-content
 description: ITfPropertyStore::Clone method
 old-location: tsf\itfpropertystore_clone.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 0f51a37f-e340-441e-a1f1-e67791b9c008
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Clone method [Text Services Framework], Clone method [Text Services Framework], ITfPropertyStore interface, Clone,ITfPropertyStore.Clone, ITfPropertyStore, ITfPropertyStore interface [Text Services Framework], Clone method, ITfPropertyStore::Clone, _tsf_itfpropertystore_clone_ref, msctf/ITfPropertyStore::Clone, tsf.itfpropertystore_clone
+ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],Clone method, ITfPropertyStore.Clone, ITfPropertyStore::Clone, _tsf_itfpropertystore_clone_ref, msctf/ITfPropertyStore::Clone, tsf.itfpropertystore_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfPropertyStore::Clone method
+# ITfPropertyStore::Clone
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByGenre
-title: IWMPMediaCollection::getByGenre method
+title: IWMPMediaCollection::getByGenre
 author: windows-driver-content
 description: The getByGenre method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items with the specified genre.
 old-location: wmp\iwmpmediacollection_getbygenre.htm
 old-project: WMP
 ms.assetid: 292189a5-06ec-4870-b279-5190c57c77c9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], getByGenre method, IWMPMediaCollection::getByGenre, IWMPMediaCollectiongetByGenre, getByGenre method [Windows Media Player], getByGenre method [Windows Media Player], IWMPMediaCollection interface, getByGenre,IWMPMediaCollection.getByGenre, wmp.iwmpmediacollection_getbygenre, wmp/IWMPMediaCollection::getByGenre
+ms.date: 5/4/2018
+ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByGenre method, IWMPMediaCollection.getByGenre, IWMPMediaCollection::getByGenre, IWMPMediaCollectiongetByGenre, getByGenre, getByGenre method [Windows Media Player], getByGenre method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbygenre, wmp/IWMPMediaCollection::getByGenre
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMediaCollection::getByGenre method
+# IWMPMediaCollection::getByGenre
 
 
 ## -description

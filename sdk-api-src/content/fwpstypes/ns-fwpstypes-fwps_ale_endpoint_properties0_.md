@@ -7,7 +7,7 @@ old-location: netvista\fwps_ale_endpoint_properties0.htm
 old-project: netvista
 ms.assetid: 1dd5dbd1-b7a7-45a3-8cab-ea62c7eff35b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_ALE_ENDPOINT_PROPERTIES0, FWPS_ALE_ENDPOINT_PROPERTIES0 structure [Network Drivers Starting with Windows Vista], FWPS_ALE_ENDPOINT_PROPERTIES0_, fwpstypes/FWPS_ALE_ENDPOINT_PROPERTIES0, netvista.fwps_ale_endpoint_properties0, wfp_ref_3_struct_3_fwps_A-E_b528750a-0c8a-4406-81ab-30aa574fb215.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,6 +70,26 @@ The internet protocol version of the endpoint expressed as a value from the
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a> enumeration.
 
 
+### -field localV4Address
+
+The local address for IPv4 endpoints.
+
+
+### -field localV6Address
+
+The local address for IPv6 endpoints.
+
+
+### -field remoteV4Address
+
+The remote address for IPv4 endpoints.
+
+
+### -field remoteV6Address
+
+The remote address for IPv6 endpoints.
+
+
 ### -field ipProtocol
 
 The protocol being used by the endpoint.
@@ -115,26 +135,6 @@ This member is reserved for future use.
 ### -field appId
 
 The application identifier associated with the endpoint.
-
-
-#### - localV4Address
-
-The local address for IPv4 endpoints.
-
-
-#### - localV6Address
-
-The local address for IPv6 endpoints.
-
-
-#### - remoteV4Address
-
-The remote address for IPv4 endpoints.
-
-
-#### - remoteV6Address
-
-The remote address for IPv6 endpoints.
 
 
 ## -remarks

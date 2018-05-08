@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetGamertag
-title: IXblIdpAuthTokenResult::GetGamertag method
+title: IXblIdpAuthTokenResult::GetGamertag
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getgamertag.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 6357735A-C5B3-49CA-9E9C-A443A7D40929
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetGamertag method, GetGamertag method, IXblIdpAuthTokenResult interface, GetGamertag,IXblIdpAuthTokenResult.GetGamertag, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetGamertag method, IXblIdpAuthTokenResult::GetGamertag, xblidp.ixblidpauthtokenresult_getgamertag, xblidpauthmanager/IXblIdpAuthTokenResult::GetGamertag
+ms.keywords: GetGamertag, GetGamertag method, GetGamertag method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetGamertag method, IXblIdpAuthTokenResult.GetGamertag, IXblIdpAuthTokenResult::GetGamertag, xblidp.ixblidpauthtokenresult_getgamertag, xblidpauthmanager/IXblIdpAuthTokenResult::GetGamertag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetGamertag method
+# IXblIdpAuthTokenResult::GetGamertag
 
 
 ## -description

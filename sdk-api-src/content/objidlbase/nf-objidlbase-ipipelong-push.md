@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IPipeLong.Push
-title: IPipeLong::Push method
+title: IPipeLong::Push
 author: windows-driver-content
 description: Sends data of the long integer type to the pipe source.
 old-location: com\ipipelong_push.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 16389e32-74f9-419b-bcc5-63fe43b3e456
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPipeLong, IPipeLong interface [COM], Push method, IPipeLong::Push, Push method [COM], Push method [COM], IPipeLong interface, Push,IPipeLong.Push, _com_ipipelong_push, com.ipipelong_push, objidlbase/IPipeLong::Push
+ms.keywords: IPipeLong interface [COM],Push method, IPipeLong.Push, IPipeLong::Push, Push, Push method [COM], Push method [COM],IPipeLong interface, _com_ipipelong_push, com.ipipelong_push, objidlbase/IPipeLong::Push
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPipeLong::Push method
+# IPipeLong::Push
 
 
 ## -description

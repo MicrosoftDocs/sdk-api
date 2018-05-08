@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaSource.Stop
-title: IMFMediaSource::Stop method
+title: IMFMediaSource::Stop
 author: windows-driver-content
 description: Stops all active streams in the media source.
 old-location: mf\imfmediasource_stop.htm
 old-project: medfound
 ms.assetid: aa7af7a0-a6c2-4c9e-9f98-d36716679297
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaSource, IMFMediaSource interface [Media Foundation], Stop method, IMFMediaSource::Stop, Stop method [Media Foundation], Stop method [Media Foundation], IMFMediaSource interface, Stop,IMFMediaSource.Stop, aa7af7a0-a6c2-4c9e-9f98-d36716679297, mf.imfmediasource_stop, mfidl/IMFMediaSource::Stop
+ms.date: 5/3/2018
+ms.keywords: IMFMediaSource interface [Media Foundation],Stop method, IMFMediaSource.Stop, IMFMediaSource::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFMediaSource interface, aa7af7a0-a6c2-4c9e-9f98-d36716679297, mf.imfmediasource_stop, mfidl/IMFMediaSource::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSource::Stop method
+# IMFMediaSource::Stop
 
 
 ## -description

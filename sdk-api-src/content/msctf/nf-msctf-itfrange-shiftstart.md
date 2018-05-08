@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.ShiftStart
-title: ITfRange::ShiftStart method
+title: ITfRange::ShiftStart
 author: windows-driver-content
 description: ITfRange::ShiftStart method
 old-location: tsf\itfrange_shiftstart.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: f9f983b1-a5fa-4857-b73c-b879c566d6f6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfRange, ITfRange interface [Text Services Framework], ShiftStart method, ITfRange::ShiftStart, ShiftStart method [Text Services Framework], ShiftStart method [Text Services Framework], ITfRange interface, ShiftStart,ITfRange.ShiftStart, _tsf_itfrange_shiftstart_ref, msctf/ITfRange::ShiftStart, tsf.itfrange_shiftstart
+ms.keywords: ITfRange interface [Text Services Framework],ShiftStart method, ITfRange.ShiftStart, ITfRange::ShiftStart, ShiftStart, ShiftStart method [Text Services Framework], ShiftStart method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstart_ref, msctf/ITfRange::ShiftStart, tsf.itfrange_shiftstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfRange::ShiftStart method
+# ITfRange::ShiftStart
 
 
 ## -description

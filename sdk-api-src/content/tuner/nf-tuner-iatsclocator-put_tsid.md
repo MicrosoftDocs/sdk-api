@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCLocator.put_TSID
-title: IATSCLocator::put_TSID method
+title: IATSCLocator::put_TSID
 author: windows-driver-content
 description: The put_TSID method sets the transport stream ID.
 old-location: mstv\iatsclocator_put_tsid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1864d2e7-0d4a-44b6-a9db-11f6efcd6986
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IATSCLocator, IATSCLocator interface [Microsoft TV Technologies], put_TSID method, IATSCLocator::put_TSID, IATSCLocatorput_TSID, mstv.iatsclocator_put_tsid, put_TSID method [Microsoft TV Technologies], put_TSID method [Microsoft TV Technologies], IATSCLocator interface, put_TSID,IATSCLocator.put_TSID, tuner/IATSCLocator::put_TSID
+ms.keywords: IATSCLocator interface [Microsoft TV Technologies],put_TSID method, IATSCLocator.put_TSID, IATSCLocator::put_TSID, IATSCLocatorput_TSID, mstv.iatsclocator_put_tsid, put_TSID, put_TSID method [Microsoft TV Technologies], put_TSID method [Microsoft TV Technologies],IATSCLocator interface, tuner/IATSCLocator::put_TSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IATSCLocator::put_TSID method
+# IATSCLocator::put_TSID
 
 
 ## -description

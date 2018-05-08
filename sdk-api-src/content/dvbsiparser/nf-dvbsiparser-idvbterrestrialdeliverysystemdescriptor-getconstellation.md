@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetConstellation
-title: IDvbTerrestrialDeliverySystemDescriptor::GetConstellation method
+title: IDvbTerrestrialDeliverySystemDescriptor::GetConstellation
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getconstellation.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1a34de19-c684-4778-a164-5ddde87443b0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetConstellation method [Microsoft TV Technologies], GetConstellation method [Microsoft TV Technologies], IDvbTerrestrialDeliverySystemDescriptor interface, GetConstellation,IDvbTerrestrialDeliverySystemDescriptor.GetConstellation, IDvbTerrestrialDeliverySystemDescriptor, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], GetConstellation method, IDvbTerrestrialDeliverySystemDescriptor::GetConstellation, IDvbTerrestrialDeliverySystemDescriptorGetConstellation, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetConstellation, mstv.idvbterrestrialdeliverysystemdescriptor_getconstellation
+ms.keywords: GetConstellation, GetConstellation method [Microsoft TV Technologies], GetConstellation method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetConstellation method, IDvbTerrestrialDeliverySystemDescriptor.GetConstellation, IDvbTerrestrialDeliverySystemDescriptor::GetConstellation, IDvbTerrestrialDeliverySystemDescriptorGetConstellation, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetConstellation, mstv.idvbterrestrialdeliverysystemdescriptor_getconstellation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbTerrestrialDeliverySystemDescriptor::GetConstellation method
+# IDvbTerrestrialDeliverySystemDescriptor::GetConstellation
 
 
 ## -description

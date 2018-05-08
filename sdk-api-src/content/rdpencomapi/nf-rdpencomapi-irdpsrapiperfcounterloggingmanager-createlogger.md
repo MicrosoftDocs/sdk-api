@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIPerfCounterLoggingManager.CreateLogger
-title: IRDPSRAPIPerfCounterLoggingManager::CreateLogger method
+title: IRDPSRAPIPerfCounterLoggingManager::CreateLogger
 author: windows-driver-content
 description: Creates a new IRDPSRAPIPerfCounterLogger object.
 old-location: rdp\irdpsrapiperfcounterloggingmanager_createlogger.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 24C57AE8-208B-4254-B5B1-8AB77E2D4044
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: CreateLogger method [RDP], CreateLogger method [RDP], IRDPSRAPIPerfCounterLoggingManager interface, CreateLogger,IRDPSRAPIPerfCounterLoggingManager.CreateLogger, IRDPSRAPIPerfCounterLoggingManager, IRDPSRAPIPerfCounterLoggingManager interface [RDP], CreateLogger method, IRDPSRAPIPerfCounterLoggingManager::CreateLogger, rdp.irdpsrapiperfcounterloggingmanager_createlogger, rdpencomapi/IRDPSRAPIPerfCounterLoggingManager::CreateLogger
+ms.keywords: CreateLogger, CreateLogger method [RDP], CreateLogger method [RDP],IRDPSRAPIPerfCounterLoggingManager interface, IRDPSRAPIPerfCounterLoggingManager interface [RDP],CreateLogger method, IRDPSRAPIPerfCounterLoggingManager.CreateLogger, IRDPSRAPIPerfCounterLoggingManager::CreateLogger, rdp.irdpsrapiperfcounterloggingmanager_createlogger, rdpencomapi/IRDPSRAPIPerfCounterLoggingManager::CreateLogger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIPerfCounterLoggingManager::CreateLogger method
+# IRDPSRAPIPerfCounterLoggingManager::CreateLogger
 
 
 ## -description

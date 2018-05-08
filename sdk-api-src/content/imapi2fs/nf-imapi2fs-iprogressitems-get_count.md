@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IProgressItems.get_Count
-title: IProgressItems::get_Count method
+title: IProgressItems::get_Count
 author: windows-driver-content
 description: Retrieves the number of progress items in the collection.
 old-location: imapi\iprogressitems_get_count.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 370386fe-17b0-4cf3-9c28-880a85456e19
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IProgressItems, IProgressItems interface [IMAPI], get_Count method, IProgressItems::get_Count, get_Count method [IMAPI], get_Count method [IMAPI], IProgressItems interface, get_Count,IProgressItems.get_Count, imapi.iprogressitems_get_count, imapi2fs/IProgressItems::get_Count
+ms.keywords: IProgressItems interface [IMAPI],get_Count method, IProgressItems.get_Count, IProgressItems::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IProgressItems interface, imapi.iprogressitems_get_count, imapi2fs/IProgressItems::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IProgressItems::get_Count method
+# IProgressItems::get_Count
 
 
 ## -description

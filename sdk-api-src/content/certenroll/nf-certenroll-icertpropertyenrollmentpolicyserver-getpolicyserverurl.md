@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl
-title: ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl method
+title: ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl
 author: windows-driver-content
 description: Retrieves a string that contains the URL for the certificate enrollment policy (CEP) server.
 old-location: security\icertpropertyenrollmentpolicyserver_getpolicyserverurl.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 9d7ba049-4566-423d-b750-ff091dce1e2a
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security], ICertPropertyEnrollmentPolicyServer interface, GetPolicyServerUrl,ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl, ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], GetPolicyServerUrl method, ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, security.icertpropertyenrollmentpolicyserver_getpolicyserverurl
+ms.keywords: GetPolicyServerUrl, GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPolicyServerUrl method, ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl, ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, security.icertpropertyenrollmentpolicyserver_getpolicyserverurl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl method
+# ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl
 
 
 ## -description

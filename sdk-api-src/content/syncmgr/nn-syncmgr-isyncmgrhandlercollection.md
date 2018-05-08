@@ -7,8 +7,8 @@ old-location: shell\ISyncMgrHandlerCollection.htm
 old-project: shell
 ms.assetid: 24514602-42c0-41ef-be33-fce03e7f091a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrHandlerCollection, ISyncMgrHandlerCollection interface [Windows Shell], ISyncMgrHandlerCollection interface [Windows Shell], described, _shell_ISyncMgrHandlerCollection, shell.ISyncMgrHandlerCollection, syncmgr/ISyncMgrHandlerCollection
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrHandlerCollection, ISyncMgrHandlerCollection interface [Windows Shell], ISyncMgrHandlerCollection interface [Windows Shell],described, _shell_ISyncMgrHandlerCollection, shell.ISyncMgrHandlerCollection, syncmgr/ISyncMgrHandlerCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

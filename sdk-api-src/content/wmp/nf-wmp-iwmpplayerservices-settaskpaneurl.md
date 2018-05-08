@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayerServices.setTaskPaneURL
-title: IWMPPlayerServices::setTaskPaneURL method
+title: IWMPPlayerServices::setTaskPaneURL
 author: windows-driver-content
 description: This page documents a feature of the Windows Media Player 9 Series SDK and the Windows Media Player 10 SDK. It may be unavailable in subsequent versions.
 old-location: wmp\iwmpplayerservices_settaskpaneurl.htm
 old-project: WMP
 ms.assetid: 4ceacaeb-09af-4cdf-84b7-04574a83ec48
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayerServices, IWMPPlayerServices interface [Windows Media Player], setTaskPaneURL method, IWMPPlayerServices::setTaskPaneURL, IWMPPlayerServicessetTaskPaneURLdeprecated, setTaskPaneURL method [Windows Media Player], setTaskPaneURL method [Windows Media Player], IWMPPlayerServices interface, setTaskPaneURL,IWMPPlayerServices.setTaskPaneURL, wmp.iwmpplayerservices_settaskpaneurl, wmp/IWMPPlayerServices::setTaskPaneURL
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayerServices interface [Windows Media Player],setTaskPaneURL method, IWMPPlayerServices.setTaskPaneURL, IWMPPlayerServices::setTaskPaneURL, IWMPPlayerServicessetTaskPaneURLdeprecated, setTaskPaneURL, setTaskPaneURL method [Windows Media Player], setTaskPaneURL method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_settaskpaneurl, wmp/IWMPPlayerServices::setTaskPaneURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayerServices::setTaskPaneURL method
+# IWMPPlayerServices::setTaskPaneURL
 
 
 ## -description

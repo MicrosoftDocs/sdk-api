@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.SetRadiiSizes
-title: IXpsOMRadialGradientBrush::SetRadiiSizes method
+title: IXpsOMRadialGradientBrush::SetRadiiSizes
 author: windows-driver-content
 description: Sets the sizes of the radii that define ellipse of the radial gradient region.
 old-location: xps\ixpsomradialgradientbrush_setradiisizes.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 2d32c0a7-1069-4c76-ba5c-5978e3fd7125
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMRadialGradientBrush, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging], SetRadiiSizes method, IXpsOMRadialGradientBrush::SetRadiiSizes, SetRadiiSizes method [XPS Documents and Packaging], SetRadiiSizes method [XPS Documents and Packaging], IXpsOMRadialGradientBrush interface, SetRadiiSizes,IXpsOMRadialGradientBrush.SetRadiiSizes, xps.ixpsomradialgradientbrush_setradiisizes, xpsobjectmodel/IXpsOMRadialGradientBrush::SetRadiiSizes
+ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetRadiiSizes method, IXpsOMRadialGradientBrush.SetRadiiSizes, IXpsOMRadialGradientBrush::SetRadiiSizes, SetRadiiSizes, SetRadiiSizes method [XPS Documents and Packaging], SetRadiiSizes method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setradiisizes, xpsobjectmodel/IXpsOMRadialGradientBrush::SetRadiiSizes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMRadialGradientBrush::SetRadiiSizes method
+# IXpsOMRadialGradientBrush::SetRadiiSizes
 
 
 ## -description

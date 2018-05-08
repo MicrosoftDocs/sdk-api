@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Pan
-title: ICameraControl::get_Pan method
+title: ICameraControl::get_Pan
 author: windows-driver-content
 description: The get_Pan method returns the camera's panning angle.
 old-location: dshow\icameracontrol_get_pan.htm
 old-project: DirectShow
 ms.assetid: 4cbf7582-63ad-4572-be62-be1fe5bc60b3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_Pan method, ICameraControl::get_Pan, ICameraControlget_Pan, dshow.icameracontrol_get_pan, get_Pan method [DirectShow], get_Pan method [DirectShow], ICameraControl interface, get_Pan,ICameraControl.get_Pan, vidcap/ICameraControl::get_Pan
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],get_Pan method, ICameraControl.get_Pan, ICameraControl::get_Pan, ICameraControlget_Pan, dshow.icameracontrol_get_pan, get_Pan, get_Pan method [DirectShow], get_Pan method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Pan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::get_Pan method
+# ICameraControl::get_Pan
 
 
 ## -description

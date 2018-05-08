@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.GenerateMips
-title: ID3D10Device::GenerateMips method
+title: ID3D10Device::GenerateMips
 author: windows-driver-content
 description: Generates mipmaps for the given shader resource.
 old-location: direct3d10\id3d10device_generatemips.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_generatemips.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 46ad9ad3-37a7-33c9-7829-0dbf6d4b348a, GenerateMips method [Direct3D 10], GenerateMips method [Direct3D 10], ID3D10Device interface, GenerateMips,ID3D10Device.GenerateMips, ID3D10Device, ID3D10Device interface [Direct3D 10], GenerateMips method, ID3D10Device::GenerateMips, d3d10/ID3D10Device::GenerateMips, direct3d10.id3d10device_generatemips
+ms.keywords: 46ad9ad3-37a7-33c9-7829-0dbf6d4b348a, GenerateMips, GenerateMips method [Direct3D 10], GenerateMips method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GenerateMips method, ID3D10Device.GenerateMips, ID3D10Device::GenerateMips, d3d10/ID3D10Device::GenerateMips, direct3d10.id3d10device_generatemips
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::GenerateMips method
+# ID3D10Device::GenerateMips
 
 
 ## -description

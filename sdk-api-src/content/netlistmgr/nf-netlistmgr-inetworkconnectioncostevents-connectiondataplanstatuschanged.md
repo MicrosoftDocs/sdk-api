@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged
-title: INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged method
+title: INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged
 author: windows-driver-content
 description: ConnectionDataPlanStatusChanged method notifies an application of a data plan status change on a connection.
 old-location: nla\inetworkconnectioncostevents_connectiondataplanstatuschanged.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: F965C648-EC59-40E4-8E8A-FE5A7E8FDAEA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ConnectionDataPlanStatusChanged method [Network Awareness], ConnectionDataPlanStatusChanged method [Network Awareness], INetworkConnectionCostEvents interface, ConnectionDataPlanStatusChanged,INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged, INetworkConnectionCostEvents, INetworkConnectionCostEvents interface [Network Awareness], ConnectionDataPlanStatusChanged method, INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged, netlistmgr/INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged, nla.inetworkconnectioncostevents_connectiondataplanstatuschanged
+ms.keywords: ConnectionDataPlanStatusChanged, ConnectionDataPlanStatusChanged method [Network Awareness], ConnectionDataPlanStatusChanged method [Network Awareness],INetworkConnectionCostEvents interface, INetworkConnectionCostEvents interface [Network Awareness],ConnectionDataPlanStatusChanged method, INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged, INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged, netlistmgr/INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged, nla.inetworkconnectioncostevents_connectiondataplanstatuschanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged method
+# INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged
 
 
 ## -description

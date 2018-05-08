@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetManifest
-title: IAppxBundleReader::GetManifest method
+title: IAppxBundleReader::GetManifest
 author: windows-driver-content
 description: Retrieves a read-only manifest object from the bundle.
 old-location: appxpkg\iappxbundlereader_getmanifest.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: C9D80910-8609-45D9-A3EC-05A033A36A4F
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetManifest method [App packaging and management], GetManifest method [App packaging and management], IAppxBundleReader interface, GetManifest,IAppxBundleReader.GetManifest, IAppxBundleReader, IAppxBundleReader interface [App packaging and management], GetManifest method, IAppxBundleReader::GetManifest, appxpackaging/IAppxBundleReader::GetManifest, appxpkg.iappxbundlereader_getmanifest
+ms.keywords: GetManifest, GetManifest method [App packaging and management], GetManifest method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetManifest method, IAppxBundleReader.GetManifest, IAppxBundleReader::GetManifest, appxpackaging/IAppxBundleReader::GetManifest, appxpkg.iappxbundlereader_getmanifest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleReader::GetManifest method
+# IAppxBundleReader::GetManifest
 
 
 ## -description

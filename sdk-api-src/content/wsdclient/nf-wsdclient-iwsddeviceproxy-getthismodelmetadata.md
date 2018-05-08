@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetThisModelMetadata
-title: IWSDDeviceProxy::GetThisModelMetadata method
+title: IWSDDeviceProxy::GetThisModelMetadata
 author: windows-driver-content
 description: Retrieves model-specific metadata for the device.
 old-location: ncd\iwsddeviceproxy_getthismodelmetadata_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 8a9343b8-34f3-41f9-8b02-853ae724ec75
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetThisModelMetadata method, GetThisModelMetadata method, IWSDDeviceProxy interface, GetThisModelMetadata,IWSDDeviceProxy.GetThisModelMetadata, IWSDDeviceProxy, IWSDDeviceProxy interface, GetThisModelMetadata method, IWSDDeviceProxy::GetThisModelMetadata, ncd.iwsddeviceproxy_getthismodelmetadata_method, wsdclient/IWSDDeviceProxy::GetThisModelMetadata
+ms.keywords: GetThisModelMetadata, GetThisModelMetadata method, GetThisModelMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetThisModelMetadata method, IWSDDeviceProxy.GetThisModelMetadata, IWSDDeviceProxy::GetThisModelMetadata, ncd.iwsddeviceproxy_getthismodelmetadata_method, wsdclient/IWSDDeviceProxy::GetThisModelMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceProxy::GetThisModelMetadata method
+# IWSDDeviceProxy::GetThisModelMetadata
 
 
 ## -description

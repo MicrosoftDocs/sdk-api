@@ -1,6 +1,6 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageTarget.Cancel
-title: IPrintDocumentPackageTarget::Cancel method
+title: IPrintDocumentPackageTarget::Cancel
 author: windows-driver-content
 description: Cancels the current print job.
 old-location: xps\iprintdocumentpackagetarget_cancel.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 57CE4050-2EC4-4137-A3EF-A72B07FF5232
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Cancel method [XPS Documents and Packaging], Cancel method [XPS Documents and Packaging], IPrintDocumentPackageTarget interface, Cancel,IPrintDocumentPackageTarget.Cancel, IPrintDocumentPackageTarget, IPrintDocumentPackageTarget interface [XPS Documents and Packaging], Cancel method, IPrintDocumentPackageTarget::Cancel, documenttarget/IPrintDocumentPackageTarget::Cancel, xps.iprintdocumentpackagetarget_cancel
+ms.keywords: Cancel, Cancel method [XPS Documents and Packaging], Cancel method [XPS Documents and Packaging],IPrintDocumentPackageTarget interface, IPrintDocumentPackageTarget interface [XPS Documents and Packaging],Cancel method, IPrintDocumentPackageTarget.Cancel, IPrintDocumentPackageTarget::Cancel, documenttarget/IPrintDocumentPackageTarget::Cancel, xps.iprintdocumentpackagetarget_cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPrintDocumentPackageTarget::Cancel method
+# IPrintDocumentPackageTarget::Cancel
 
 
 ## -description

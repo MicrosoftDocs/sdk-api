@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetAuthorizationState
-title: IEnhancedStorageACT::GetAuthorizationState method
+title: IEnhancedStorageACT::GetAuthorizationState
 author: windows-driver-content
 description: Returns the current authorization state of the ACT.
 old-location: enstor\ienhancedstorageact_getauthorizationstate.htm
@@ -8,7 +8,7 @@ old-project: enstor
 ms.assetid: 79615cae-cdd1-43bc-9954-108084ea692b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetAuthorizationState method [Enhanced Storage], GetAuthorizationState method [Enhanced Storage], IEnhancedStorageACT interface, GetAuthorizationState,IEnhancedStorageACT.GetAuthorizationState, IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], GetAuthorizationState method, IEnhancedStorageACT::GetAuthorizationState, ehstorapi/IEnhancedStorageACT::GetAuthorizationState, enstor.ienhancedstorageact_getauthorizationstate
+ms.keywords: GetAuthorizationState, GetAuthorizationState method [Enhanced Storage], GetAuthorizationState method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetAuthorizationState method, IEnhancedStorageACT.GetAuthorizationState, IEnhancedStorageACT::GetAuthorizationState, ehstorapi/IEnhancedStorageACT::GetAuthorizationState, enstor.ienhancedstorageact_getauthorizationstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEnhancedStorageACT::GetAuthorizationState method
+# IEnhancedStorageACT::GetAuthorizationState
 
 
 ## -description

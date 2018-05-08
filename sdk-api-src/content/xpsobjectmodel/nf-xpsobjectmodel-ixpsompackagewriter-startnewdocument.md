@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.StartNewDocument
-title: IXpsOMPackageWriter::StartNewDocument method
+title: IXpsOMPackageWriter::StartNewDocument
 author: windows-driver-content
 description: Opens and initializes a new FixedDocument in the FixedDocumentSequence of the package.
 old-location: xps\ixpsompackagewriter_startnewdocument.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: da5fdbcd-ff3c-403a-a565-1590908cf333
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPackageWriter, IXpsOMPackageWriter interface [XPS Documents and Packaging], StartNewDocument method, IXpsOMPackageWriter3D interface [XPS Documents and Packaging], StartNewDocument method, IXpsOMPackageWriter3D::StartNewDocument, IXpsOMPackageWriter::StartNewDocument, StartNewDocument method [XPS Documents and Packaging], StartNewDocument method [XPS Documents and Packaging], IXpsOMPackageWriter interface, StartNewDocument method [XPS Documents and Packaging], IXpsOMPackageWriter3D interface, StartNewDocument,IXpsOMPackageWriter.StartNewDocument, xps.ixpsompackagewriter_startnewdocument, xpsobjectmodel/IXpsOMPackageWriter3D::StartNewDocument, xpsobjectmodel/IXpsOMPackageWriter::StartNewDocument
+ms.keywords: IXpsOMPackageWriter interface [XPS Documents and Packaging],StartNewDocument method, IXpsOMPackageWriter.StartNewDocument, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],StartNewDocument method, IXpsOMPackageWriter3D::StartNewDocument, IXpsOMPackageWriter::StartNewDocument, StartNewDocument, StartNewDocument method [XPS Documents and Packaging], StartNewDocument method [XPS Documents and Packaging],IXpsOMPackageWriter interface, StartNewDocument method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, xps.ixpsompackagewriter_startnewdocument, xpsobjectmodel/IXpsOMPackageWriter3D::StartNewDocument, xpsobjectmodel/IXpsOMPackageWriter::StartNewDocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPackageWriter::StartNewDocument method
+# IXpsOMPackageWriter::StartNewDocument
 
 
 ## -description

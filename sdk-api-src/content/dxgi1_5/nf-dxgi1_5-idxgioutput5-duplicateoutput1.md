@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_5.IDXGIOutput5.DuplicateOutput1
-title: IDXGIOutput5::DuplicateOutput1 method
+title: IDXGIOutput5::DuplicateOutput1
 author: windows-driver-content
 description: Allows specifying a list of supported formats for fullscreen surfaces that can be returned by the IDXGIOutputDuplication object.
 old-location: direct3ddxgi\idxgioutput5_duplicateoutput1.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: B6723F05-E0D9-4814-8AB8-796ECF9C5C0C
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DuplicateOutput1 method [DXGI], DuplicateOutput1 method [DXGI], IDXGIOutput5 interface, DuplicateOutput1,IDXGIOutput5.DuplicateOutput1, IDXGIOutput5, IDXGIOutput5 interface [DXGI], DuplicateOutput1 method, IDXGIOutput5::DuplicateOutput1, direct3ddxgi.idxgioutput5_duplicateoutput1, dxgi1_5/IDXGIOutput5::DuplicateOutput1
+ms.keywords: DuplicateOutput1, DuplicateOutput1 method [DXGI], DuplicateOutput1 method [DXGI],IDXGIOutput5 interface, IDXGIOutput5 interface [DXGI],DuplicateOutput1 method, IDXGIOutput5.DuplicateOutput1, IDXGIOutput5::DuplicateOutput1, direct3ddxgi.idxgioutput5_duplicateoutput1, dxgi1_5/IDXGIOutput5::DuplicateOutput1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput5::DuplicateOutput1 method
+# IDXGIOutput5::DuplicateOutput1
 
 
 ## -description

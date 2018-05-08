@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_ImportedVolumeName
-title: IFileSystemImage::get_ImportedVolumeName method
+title: IFileSystemImage::get_ImportedVolumeName
 author: windows-driver-content
 description: Retrieves the volume name provided from an imported file system.
 old-location: imapi\ifilesystemimage_get_importedvolumename.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 57d66dd3-2525-4102-bba7-00bad76a3d9c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_ImportedVolumeName method, IFileSystemImage::get_ImportedVolumeName, get_ImportedVolumeName method [IMAPI], get_ImportedVolumeName method [IMAPI], IFileSystemImage interface, get_ImportedVolumeName,IFileSystemImage.get_ImportedVolumeName, imapi.ifilesystemimage_get_importedvolumename, imapi2fs/IFileSystemImage::get_ImportedVolumeName
+ms.keywords: IFileSystemImage interface [IMAPI],get_ImportedVolumeName method, IFileSystemImage.get_ImportedVolumeName, IFileSystemImage::get_ImportedVolumeName, get_ImportedVolumeName, get_ImportedVolumeName method [IMAPI], get_ImportedVolumeName method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_importedvolumename, imapi2fs/IFileSystemImage::get_ImportedVolumeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::get_ImportedVolumeName method
+# IFileSystemImage::get_ImportedVolumeName
 
 
 ## -description

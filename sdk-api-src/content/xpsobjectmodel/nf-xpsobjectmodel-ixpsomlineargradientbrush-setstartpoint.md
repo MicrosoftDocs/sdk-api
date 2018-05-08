@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.SetStartPoint
-title: IXpsOMLinearGradientBrush::SetStartPoint method
+title: IXpsOMLinearGradientBrush::SetStartPoint
 author: windows-driver-content
 description: Sets the start point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_setstartpoint.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f2e40d75-c0de-4cba-850d-0c8c328e2950
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMLinearGradientBrush, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging], SetStartPoint method, IXpsOMLinearGradientBrush::SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging], IXpsOMLinearGradientBrush interface, SetStartPoint,IXpsOMLinearGradientBrush.SetStartPoint, xps.ixpsomlineargradientbrush_setstartpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::SetStartPoint
+ms.keywords: IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],SetStartPoint method, IXpsOMLinearGradientBrush.SetStartPoint, IXpsOMLinearGradientBrush::SetStartPoint, SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, xps.ixpsomlineargradientbrush_setstartpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::SetStartPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMLinearGradientBrush::SetStartPoint method
+# IXpsOMLinearGradientBrush::SetStartPoint
 
 
 ## -description

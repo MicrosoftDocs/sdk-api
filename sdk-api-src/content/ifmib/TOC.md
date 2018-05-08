@@ -1,0 +1,5 @@
+# [Management Information Base](../_mib/index.md)
+## [Ifmib.h](index.md)
+### [_MIB_IFNUMBER structure](../ifmib/ns-ifmib-_mib_ifnumber.md)
+### [_MIB_IFROW structure](../ifmib/ns-ifmib-_mib_ifrow.md)
+### [_MIB_IFTABLE structure](../ifmib/ns-ifmib-_mib_iftable.md)

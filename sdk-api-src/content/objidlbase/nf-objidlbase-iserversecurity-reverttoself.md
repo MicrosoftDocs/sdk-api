@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IServerSecurity.RevertToSelf
-title: IServerSecurity::RevertToSelf method
+title: IServerSecurity::RevertToSelf
 author: windows-driver-content
 description: Restores the authentication information of a thread to what it was before impersonation began.
 old-location: com\iserversecurity_reverttoself.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 21952f54-439e-446f-a206-4b35759b1090
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IServerSecurity, IServerSecurity interface [COM], RevertToSelf method, IServerSecurity::RevertToSelf, RevertToSelf method [COM], RevertToSelf method [COM], IServerSecurity interface, RevertToSelf,IServerSecurity.RevertToSelf, _com_iserversecurity_reverttoself, com.iserversecurity_reverttoself, objidlbase/IServerSecurity::RevertToSelf
+ms.keywords: IServerSecurity interface [COM],RevertToSelf method, IServerSecurity.RevertToSelf, IServerSecurity::RevertToSelf, RevertToSelf, RevertToSelf method [COM], RevertToSelf method [COM],IServerSecurity interface, _com_iserversecurity_reverttoself, com.iserversecurity_reverttoself, objidlbase/IServerSecurity::RevertToSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IServerSecurity::RevertToSelf method
+# IServerSecurity::RevertToSelf
 
 
 ## -description

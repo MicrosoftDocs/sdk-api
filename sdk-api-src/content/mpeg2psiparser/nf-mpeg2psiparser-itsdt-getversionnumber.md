@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.GetVersionNumber
-title: ITSDT::GetVersionNumber method
+title: ITSDT::GetVersionNumber
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_getversionnumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4784b7d6-1a20-4018-9ad5-7e8bafb700f8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies], ITSDT interface, GetVersionNumber,ITSDT.GetVersionNumber, ITSDT, ITSDT interface [Microsoft TV Technologies], GetVersionNumber method, ITSDT::GetVersionNumber, ITSDTGetVersionNumber, mpeg2psiparser/ITSDT::GetVersionNumber, mstv.itsdt_getversionnumber
+ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetVersionNumber method, ITSDT.GetVersionNumber, ITSDT::GetVersionNumber, ITSDTGetVersionNumber, mpeg2psiparser/ITSDT::GetVersionNumber, mstv.itsdt_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITSDT::GetVersionNumber method
+# ITSDT::GetVersionNumber
 
 
 ## -description

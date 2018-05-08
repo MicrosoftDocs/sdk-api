@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroupManager.get_Group
-title: ISharedPropertyGroupManager::get_Group method
+title: ISharedPropertyGroupManager::get_Group
 author: windows-driver-content
 description: Retrieves a reference to an existing shared property group.
 old-location: cos\isharedpropertygroupmanager_get_group.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 3e60d1c6-1d58-403a-b75f-2a6bea91081e
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ISharedPropertyGroupManager, ISharedPropertyGroupManager interface [COM+], get_Group method, ISharedPropertyGroupManager::get_Group, _cos_ISharedPropertyGroupManager_get_Group, comsvcs/ISharedPropertyGroupManager::get_Group, cos.isharedpropertygroupmanager_get_group, get_Group method [COM+], get_Group method [COM+], ISharedPropertyGroupManager interface, get_Group,ISharedPropertyGroupManager.get_Group
+ms.keywords: ISharedPropertyGroupManager interface [COM+],get_Group method, ISharedPropertyGroupManager.get_Group, ISharedPropertyGroupManager::get_Group, _cos_ISharedPropertyGroupManager_get_Group, comsvcs/ISharedPropertyGroupManager::get_Group, cos.isharedpropertygroupmanager_get_group, get_Group, get_Group method [COM+], get_Group method [COM+],ISharedPropertyGroupManager interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISharedPropertyGroupManager::get_Group method
+# ISharedPropertyGroupManager::get_Group
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableError.GetRecoverableErrorDataForChange
-title: IRecoverableError::GetRecoverableErrorDataForChange method
+title: IRecoverableError::GetRecoverableErrorDataForChange
 author: windows-driver-content
 description: Gets additional data about the recoverable error.
 old-location: winsync\irecoverableerror_getrecoverableerrordataforchange.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: e6fbc99f-ae01-4f5e-b22c-bd802520ae39
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRecoverableErrorDataForChange method [Windows Sync], GetRecoverableErrorDataForChange method [Windows Sync], IRecoverableError interface, GetRecoverableErrorDataForChange,IRecoverableError.GetRecoverableErrorDataForChange, IRecoverableError, IRecoverableError interface [Windows Sync], GetRecoverableErrorDataForChange method, IRecoverableError::GetRecoverableErrorDataForChange, winsync.irecoverableerror_getrecoverableerrordataforchange, winsync/IRecoverableError::GetRecoverableErrorDataForChange
+ms.keywords: GetRecoverableErrorDataForChange, GetRecoverableErrorDataForChange method [Windows Sync], GetRecoverableErrorDataForChange method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetRecoverableErrorDataForChange method, IRecoverableError.GetRecoverableErrorDataForChange, IRecoverableError::GetRecoverableErrorDataForChange, winsync.irecoverableerror_getrecoverableerrordataforchange, winsync/IRecoverableError::GetRecoverableErrorDataForChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IRecoverableError::GetRecoverableErrorDataForChange method
+# IRecoverableError::GetRecoverableErrorDataForChange
 
 
 ## -description

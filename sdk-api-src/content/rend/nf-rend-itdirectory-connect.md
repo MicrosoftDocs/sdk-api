@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.Connect
-title: ITDirectory::Connect method
+title: ITDirectory::Connect
 author: windows-driver-content
 description: The Connect method establishes a connection to the directory server.
 old-location: tapi3\itdirectory_connect.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: b781008b-430a-444e-a700-8cde09e721b4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Connect method [TAPI 2.2], Connect method [TAPI 2.2], ITDirectory interface, Connect,ITDirectory.Connect, ITDirectory, ITDirectory interface [TAPI 2.2], Connect method, ITDirectory::Connect, _tapi3_itdirectory_connect, rend/ITDirectory::Connect, tapi3.itdirectory_connect
+ms.keywords: Connect, Connect method [TAPI 2.2], Connect method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],Connect method, ITDirectory.Connect, ITDirectory::Connect, _tapi3_itdirectory_connect, rend/ITDirectory::Connect, tapi3.itdirectory_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectory::Connect method
+# ITDirectory::Connect
 
 
 ## -description

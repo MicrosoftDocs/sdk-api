@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddMember
-title: IAzApplicationGroup::AddMember method
+title: IAzApplicationGroup::AddMember
 author: windows-driver-content
 description: Adds the specified security identifier (SID) in text form to the list of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_addmember.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 934ca397-2067-451a-bccd-103ab4db3b1f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddMember method [Security], AddMember method [Security], AzApplicationGroup object, AddMember method [Security], IAzApplicationGroup interface, AddMember,IAzApplicationGroup.AddMember, AzApplicationGroup object [Security], AddMember method, IAzApplicationGroup, IAzApplicationGroup interface [Security], AddMember method, IAzApplicationGroup::AddMember, azroles/IAzApplicationGroup::AddMember, security.iazapplicationgroup_addmember
+ms.keywords: AddMember, AddMember method [Security], AddMember method [Security],AzApplicationGroup object, AddMember method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddMember method, IAzApplicationGroup interface [Security],AddMember method, IAzApplicationGroup.AddMember, IAzApplicationGroup::AddMember, azroles/IAzApplicationGroup::AddMember, security.iazapplicationgroup_addmember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplicationGroup::AddMember method
+# IAzApplicationGroup::AddMember
 
 
 ## -description

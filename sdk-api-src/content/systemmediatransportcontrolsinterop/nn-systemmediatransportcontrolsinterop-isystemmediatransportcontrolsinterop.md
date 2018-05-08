@@ -8,7 +8,7 @@ old-project: mediatransport
 ms.assetid: 451A65AD-BF03-47F3-B2F1-30484A1B14F3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISystemMediaTransportControlsInterop, ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface, described, mediatransport.isystemmediatransportcontrolsinterop, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop
+ms.keywords: ISystemMediaTransportControlsInterop, ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,described, mediatransport.isystemmediatransportcontrolsinterop, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: Sidebar.Exe (version 1.00 or later)
+req.dll: 
 req.irql: 
 req.product: Windows XP with SP1 and later
 ---

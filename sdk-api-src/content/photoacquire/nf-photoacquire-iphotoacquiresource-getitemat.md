@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetItemAt
-title: IPhotoAcquireSource::GetItemAt method
+title: IPhotoAcquireSource::GetItemAt
 author: windows-driver-content
 description: The GetItemAt method retrieves the IPhotoAcquireItem object at the given index in the list of items.
 old-location: picacq\iphotoacquiresource_getitemat.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: c066464b-1d88-4d43-8bfd-0f60f21db5fd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetItemAt method [Picture Acquisition], GetItemAt method [Picture Acquisition], IPhotoAcquireSource interface, GetItemAt,IPhotoAcquireSource.GetItemAt, IPhotoAcquireSource, IPhotoAcquireSource interface [Picture Acquisition], GetItemAt method, IPhotoAcquireSource::GetItemAt, IPhotoAcquireSourceGetItemAt, photoacquire/IPhotoAcquireSource::GetItemAt, picacq.iphotoacquiresource_getitemat
+ms.keywords: GetItemAt, GetItemAt method [Picture Acquisition], GetItemAt method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetItemAt method, IPhotoAcquireSource.GetItemAt, IPhotoAcquireSource::GetItemAt, IPhotoAcquireSourceGetItemAt, photoacquire/IPhotoAcquireSource::GetItemAt, picacq.iphotoacquiresource_getitemat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireSource::GetItemAt method
+# IPhotoAcquireSource::GetItemAt
 
 
 ## -description

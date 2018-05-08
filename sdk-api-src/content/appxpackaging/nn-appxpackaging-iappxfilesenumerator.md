@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: A9BB3242-5CDA-49A9-8A7B-5A9A3E31B724
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxFilesEnumerator, IAppxFilesEnumerator interface [App packaging and management], IAppxFilesEnumerator interface [App packaging and management], described, appxpackaging/IAppxFilesEnumerator, appxpkg.iappxfilesenumerator
+ms.keywords: IAppxFilesEnumerator, IAppxFilesEnumerator interface [App packaging and management], IAppxFilesEnumerator interface [App packaging and management],described, appxpackaging/IAppxFilesEnumerator, appxpkg.iappxfilesenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetMasterVolumeLevelScalar
-title: IAudioEndpointVolume::GetMasterVolumeLevelScalar method
+title: IAudioEndpointVolume::GetMasterVolumeLevelScalar
 author: windows-driver-content
 description: The GetMasterVolumeLevelScalar method gets the master volume level of the audio stream that enters or leaves the audio endpoint device. The volume level is expressed as a normalized, audio-tapered value in the range from 0.0 to 1.0.
 old-location: coreaudio\iaudioendpointvolume_getmastervolumelevelscalar.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 5a127507-99d2-48e8-b7e9-8bb51ff89f50
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetMasterVolumeLevelScalar method [Core Audio], GetMasterVolumeLevelScalar method [Core Audio], IAudioEndpointVolume interface, GetMasterVolumeLevelScalar,IAudioEndpointVolume.GetMasterVolumeLevelScalar, IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], GetMasterVolumeLevelScalar method, IAudioEndpointVolume::GetMasterVolumeLevelScalar, IAudioEndpointVolumeGetMasterVolumeLevelScalar, coreaudio.iaudioendpointvolume_getmastervolumelevelscalar, endpointvolume/IAudioEndpointVolume::GetMasterVolumeLevelScalar
+ms.keywords: GetMasterVolumeLevelScalar, GetMasterVolumeLevelScalar method [Core Audio], GetMasterVolumeLevelScalar method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetMasterVolumeLevelScalar method, IAudioEndpointVolume.GetMasterVolumeLevelScalar, IAudioEndpointVolume::GetMasterVolumeLevelScalar, IAudioEndpointVolumeGetMasterVolumeLevelScalar, coreaudio.iaudioendpointvolume_getmastervolumelevelscalar, endpointvolume/IAudioEndpointVolume::GetMasterVolumeLevelScalar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAudioEndpointVolume::GetMasterVolumeLevelScalar method
+# IAudioEndpointVolume::GetMasterVolumeLevelScalar
 
 
 ## -description

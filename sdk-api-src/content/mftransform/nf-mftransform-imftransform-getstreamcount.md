@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.GetStreamCount
-title: IMFTransform::GetStreamCount method
+title: IMFTransform::GetStreamCount
 author: windows-driver-content
 description: Gets the current number of input and output streams on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getstreamcount.htm
 old-project: medfound
 ms.assetid: 491f7f44-fcac-4236-ba5c-e5705267c6c2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 491f7f44-fcac-4236-ba5c-e5705267c6c2, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation], IMFTransform interface, GetStreamCount,IMFTransform.GetStreamCount, IMFTransform, IMFTransform interface [Media Foundation], GetStreamCount method, IMFTransform::GetStreamCount, mf.imftransform_getstreamcount, mftransform/IMFTransform::GetStreamCount
+ms.date: 5/3/2018
+ms.keywords: 491f7f44-fcac-4236-ba5c-e5705267c6c2, GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamCount method, IMFTransform.GetStreamCount, IMFTransform::GetStreamCount, mf.imftransform_getstreamcount, mftransform/IMFTransform::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::GetStreamCount method
+# IMFTransform::GetStreamCount
 
 
 ## -description

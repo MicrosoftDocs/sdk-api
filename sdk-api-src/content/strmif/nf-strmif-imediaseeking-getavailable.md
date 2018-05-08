@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetAvailable
-title: IMediaSeeking::GetAvailable method
+title: IMediaSeeking::GetAvailable
 author: windows-driver-content
 description: The GetAvailable method retrieves the range of times in which seeking is efficient.
 old-location: dshow\imediaseeking_getavailable.htm
 old-project: DirectShow
 ms.assetid: 8c4114e5-ff82-421a-a7fb-9382d4182388
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAvailable method [DirectShow], GetAvailable method [DirectShow], IMediaSeeking interface, GetAvailable,IMediaSeeking.GetAvailable, IMediaSeeking, IMediaSeeking interface [DirectShow], GetAvailable method, IMediaSeeking::GetAvailable, IMediaSeekingGetAvailable, dshow.imediaseeking_getavailable, strmif/IMediaSeeking::GetAvailable
+ms.date: 4/30/2018
+ms.keywords: GetAvailable, GetAvailable method [DirectShow], GetAvailable method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetAvailable method, IMediaSeeking.GetAvailable, IMediaSeeking::GetAvailable, IMediaSeekingGetAvailable, dshow.imediaseeking_getavailable, strmif/IMediaSeeking::GetAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSeeking::GetAvailable method
+# IMediaSeeking::GetAvailable
 
 
 ## -description

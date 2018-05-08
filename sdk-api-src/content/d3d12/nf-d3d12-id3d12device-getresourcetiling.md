@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetResourceTiling
-title: ID3D12Device::GetResourceTiling method
+title: ID3D12Device::GetResourceTiling
 author: windows-driver-content
 description: Gets info about how a tiled resource is broken into tiles.
 old-location: direct3d12\id3d12device_getresourcetiling.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 32574750-92D3-4CAF-90C6-BA0DEF1E5464
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetResourceTiling method, GetResourceTiling method, ID3D12Device interface, GetResourceTiling,ID3D12Device.GetResourceTiling, ID3D12Device, ID3D12Device interface, GetResourceTiling method, ID3D12Device::GetResourceTiling, d3d12/ID3D12Device::GetResourceTiling, direct3d12.id3d12device_getresourcetiling
+ms.keywords: GetResourceTiling, GetResourceTiling method, GetResourceTiling method,ID3D12Device interface, ID3D12Device interface,GetResourceTiling method, ID3D12Device.GetResourceTiling, ID3D12Device::GetResourceTiling, d3d12/ID3D12Device::GetResourceTiling, direct3d12.id3d12device_getresourcetiling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12Device::GetResourceTiling method
+# ID3D12Device::GetResourceTiling
 
 
 ## -description

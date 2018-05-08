@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetBoundingBox
-title: IInkStrokeDisp::GetBoundingBox method
+title: IInkStrokeDisp::GetBoundingBox
 author: windows-driver-content
 description: Retrieves the bounding box in ink space coordinates for either all of the strokes in an InkDisp object, an individual stroke, or an InkStrokes collection.
 old-location: tablet\iinkstrokedisp_getboundingbox.htm
 old-project: tablet
 ms.assetid: 3b2c8cfc-05e6-4b53-b709-72291ee78471
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 3b2c8cfc-05e6-4b53-b709-72291ee78471, GetBoundingBox method [Tablet PC], GetBoundingBox method [Tablet PC], IInkStrokeDisp interface, GetBoundingBox,IInkStrokeDisp.GetBoundingBox, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], GetBoundingBox method, IInkStrokeDisp::GetBoundingBox, msinkaut/IInkStrokeDisp::GetBoundingBox, tablet.iinkstrokedisp_getboundingbox
+ms.date: 5/2/2018
+ms.keywords: 3b2c8cfc-05e6-4b53-b709-72291ee78471, GetBoundingBox, GetBoundingBox method [Tablet PC], GetBoundingBox method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetBoundingBox method, IInkStrokeDisp.GetBoundingBox, IInkStrokeDisp::GetBoundingBox, msinkaut/IInkStrokeDisp::GetBoundingBox, tablet.iinkstrokedisp_getboundingbox
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::GetBoundingBox method
+# IInkStrokeDisp::GetBoundingBox
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IExternalConnection.ReleaseConnection
-title: IExternalConnection::ReleaseConnection method
+title: IExternalConnection::ReleaseConnection
 author: windows-driver-content
 description: Decrements the count of an object's strong external connections.
 old-location: com\iexternalconnection_releaseconnection.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 7ed598b2-9603-454a-99cf-849715e43ca1
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IExternalConnection, IExternalConnection interface [COM], ReleaseConnection method, IExternalConnection::ReleaseConnection, ReleaseConnection method [COM], ReleaseConnection method [COM], IExternalConnection interface, ReleaseConnection,IExternalConnection.ReleaseConnection, _com_iexternalconnection_releaseconnection, com.iexternalconnection_releaseconnection, objidlbase/IExternalConnection::ReleaseConnection
+ms.keywords: IExternalConnection interface [COM],ReleaseConnection method, IExternalConnection.ReleaseConnection, IExternalConnection::ReleaseConnection, ReleaseConnection, ReleaseConnection method [COM], ReleaseConnection method [COM],IExternalConnection interface, _com_iexternalconnection_releaseconnection, com.iexternalconnection_releaseconnection, objidlbase/IExternalConnection::ReleaseConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IExternalConnection::ReleaseConnection method
+# IExternalConnection::ReleaseConnection
 
 
 ## -description

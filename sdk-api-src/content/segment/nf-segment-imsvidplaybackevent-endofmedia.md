@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlaybackEvent.EndOfMedia
-title: IMSVidPlaybackEvent::EndOfMedia method
+title: IMSVidPlaybackEvent::EndOfMedia
 author: windows-driver-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidplaybackevent_endofmedia.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 00c73b5e-dc0f-4ffd-930f-e93ce3d1e179
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: EndOfMedia method [Microsoft TV Technologies], EndOfMedia method [Microsoft TV Technologies], IMSVidPlaybackEvent interface, EndOfMedia,IMSVidPlaybackEvent.EndOfMedia, IMSVidPlaybackEvent, IMSVidPlaybackEvent interface [Microsoft TV Technologies], EndOfMedia method, IMSVidPlaybackEvent::EndOfMedia, IMSVidPlaybackEventEndOfMedia, mstv.imsvidplaybackevent_endofmedia, segment/IMSVidPlaybackEvent::EndOfMedia
+ms.keywords: EndOfMedia, EndOfMedia method [Microsoft TV Technologies], EndOfMedia method [Microsoft TV Technologies],IMSVidPlaybackEvent interface, IMSVidPlaybackEvent interface [Microsoft TV Technologies],EndOfMedia method, IMSVidPlaybackEvent.EndOfMedia, IMSVidPlaybackEvent::EndOfMedia, IMSVidPlaybackEventEndOfMedia, mstv.imsvidplaybackevent_endofmedia, segment/IMSVidPlaybackEvent::EndOfMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidPlaybackEvent::EndOfMedia method
+# IMSVidPlaybackEvent::EndOfMedia
 
 
 ## -description

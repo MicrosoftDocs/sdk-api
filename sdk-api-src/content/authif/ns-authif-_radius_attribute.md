@@ -76,14 +76,14 @@ Stores a value from the
 Stores the length, in bytes, of the data. The <b>cbDataLength</b> member is used only if <b>lpValue</b> member is used.
 
 
-#### - dwValue
+### -field dwValue
 
 Stores a value of type <b>DWORD</b>. The <b>dwValue</b> member is used if the <b>fDataType</b> member specifies <b>rdtAddress</b>, <b>rdtInteger</b>, or <b>rdtTime</b>.
 
 <div class="alert"><b>Note</b>  In Windows Server 2008 the byte order format of dwValue is represented in network byte order (big-endian) when <b>fDataType</b> is specified as <b>rdtAddress</b>.  Previous Windows versions represented network addressing using the little-endian format.</div>
 <div> </div>
 
-#### - lpValue
+### -field lpValue
 
 Stores a multi-byte data value. The <b>lpValue</b> member is used if the <b>fDataType</b> member specifies <b>rdtUnknown</b>,  <b>rdtIpv6Address</b>, or <b>rdtString</b>.
 

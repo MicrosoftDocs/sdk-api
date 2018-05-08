@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItem.SetIcon
-title: ITfSystemLangBarItem::SetIcon method
+title: ITfSystemLangBarItem::SetIcon
 author: windows-driver-content
 description: ITfSystemLangBarItem::SetIcon method
 old-location: tsf\itfsystemlangbaritem_seticon.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6b83e2ec-ac2f-4fd6-8c7c-70b00baafdc1
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfSystemLangBarItem, ITfSystemLangBarItem interface [Text Services Framework], SetIcon method, ITfSystemLangBarItem::SetIcon, SetIcon method [Text Services Framework], SetIcon method [Text Services Framework], ITfSystemLangBarItem interface, SetIcon,ITfSystemLangBarItem.SetIcon, _tsf_itfsystemlangbaritem_seticon_ref, ctfutb/ITfSystemLangBarItem::SetIcon, tsf.itfsystemlangbaritem_seticon
+ms.keywords: ITfSystemLangBarItem interface [Text Services Framework],SetIcon method, ITfSystemLangBarItem.SetIcon, ITfSystemLangBarItem::SetIcon, SetIcon, SetIcon method [Text Services Framework], SetIcon method [Text Services Framework],ITfSystemLangBarItem interface, _tsf_itfsystemlangbaritem_seticon_ref, ctfutb/ITfSystemLangBarItem::SetIcon, tsf.itfsystemlangbaritem_seticon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfSystemLangBarItem::SetIcon method
+# ITfSystemLangBarItem::SetIcon
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: cac794c0-bea2-417e-880f-15838f718ba7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMThumbnailGenerator, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging], IXpsOMThumbnailGenerator interface [XPS Documents and Packaging], described, xps.ixpsomthumbnailgenerator, xpsobjectmodel/IXpsOMThumbnailGenerator
+ms.keywords: IXpsOMThumbnailGenerator, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging], IXpsOMThumbnailGenerator interface [XPS Documents and Packaging],described, xps.ixpsomthumbnailgenerator, xpsobjectmodel/IXpsOMThumbnailGenerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

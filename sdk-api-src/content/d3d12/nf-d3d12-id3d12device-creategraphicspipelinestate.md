@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateGraphicsPipelineState
-title: ID3D12Device::CreateGraphicsPipelineState method
+title: ID3D12Device::CreateGraphicsPipelineState
 author: windows-driver-content
 description: Creates a graphics pipeline state object.
 old-location: direct3d12\id3d12device_creategraphicspipelinestate.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: E35FCC4A-7527-4A6C-8569-0801A06AA427
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateGraphicsPipelineState method, CreateGraphicsPipelineState method, ID3D12Device interface, CreateGraphicsPipelineState,ID3D12Device.CreateGraphicsPipelineState, ID3D12Device, ID3D12Device interface, CreateGraphicsPipelineState method, ID3D12Device::CreateGraphicsPipelineState, d3d12/ID3D12Device::CreateGraphicsPipelineState, direct3d12.id3d12device_creategraphicspipelinestate, direct3d12.id3d12device_createpipelinestate
+ms.keywords: CreateGraphicsPipelineState, CreateGraphicsPipelineState method, CreateGraphicsPipelineState method,ID3D12Device interface, ID3D12Device interface,CreateGraphicsPipelineState method, ID3D12Device.CreateGraphicsPipelineState, ID3D12Device::CreateGraphicsPipelineState, d3d12/ID3D12Device::CreateGraphicsPipelineState, direct3d12.id3d12device_creategraphicspipelinestate, direct3d12.id3d12device_createpipelinestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CreateGraphicsPipelineState method
+# ID3D12Device::CreateGraphicsPipelineState
 
 
 ## -description

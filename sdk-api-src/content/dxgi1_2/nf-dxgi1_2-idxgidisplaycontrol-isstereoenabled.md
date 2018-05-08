@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIDisplayControl.IsStereoEnabled
-title: IDXGIDisplayControl::IsStereoEnabled method
+title: IDXGIDisplayControl::IsStereoEnabled
 author: windows-driver-content
 description: Retrieves a Boolean value that indicates whether the operating system's stereoscopic 3D display behavior is enabled.
 old-location: direct3ddxgi\idxgidisplaycontrol_IsStereoEnabled.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: AE6AA254-3534-4E0F-A206-BAC4536B8B80
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIDisplayControl, IDXGIDisplayControl interface [DXGI], IsStereoEnabled method, IDXGIDisplayControl::IsStereoEnabled, IsStereoEnabled method [DXGI], IsStereoEnabled method [DXGI], IDXGIDisplayControl interface, IsStereoEnabled,IDXGIDisplayControl.IsStereoEnabled, direct3ddxgi.idxgidisplaycontrol_IsStereoEnabled, dxgi1_2/IDXGIDisplayControl::IsStereoEnabled
+ms.keywords: IDXGIDisplayControl interface [DXGI],IsStereoEnabled method, IDXGIDisplayControl.IsStereoEnabled, IDXGIDisplayControl::IsStereoEnabled, IsStereoEnabled, IsStereoEnabled method [DXGI], IsStereoEnabled method [DXGI],IDXGIDisplayControl interface, direct3ddxgi.idxgidisplaycontrol_IsStereoEnabled, dxgi1_2/IDXGIDisplayControl::IsStereoEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDisplayControl::IsStereoEnabled method
+# IDXGIDisplayControl::IsStereoEnabled
 
 
 ## -description

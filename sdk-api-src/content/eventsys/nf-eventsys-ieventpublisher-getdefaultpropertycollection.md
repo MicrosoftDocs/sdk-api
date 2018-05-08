@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.GetDefaultPropertyCollection
-title: IEventPublisher::GetDefaultPropertyCollection method
+title: IEventPublisher::GetDefaultPropertyCollection
 author: windows-driver-content
 description: Creates a collection object that enumerates the properties contained in the property bag associated with the event publisher object.
 old-location: com\ieventpublisher_getdefaultpropertycollection.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ca5d116a-b995-4311-9c58-6b957fca6b53
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetDefaultPropertyCollection method [COM], GetDefaultPropertyCollection method [COM], IEventPublisher interface, GetDefaultPropertyCollection,IEventPublisher.GetDefaultPropertyCollection, IEventPublisher, IEventPublisher interface [COM], GetDefaultPropertyCollection method, IEventPublisher::GetDefaultPropertyCollection, _com_ieventpublisher_getdefaultpropertycollection, com.ieventpublisher_getdefaultpropertycollection, eventsys/IEventPublisher::GetDefaultPropertyCollection
+ms.keywords: GetDefaultPropertyCollection, GetDefaultPropertyCollection method [COM], GetDefaultPropertyCollection method [COM],IEventPublisher interface, IEventPublisher interface [COM],GetDefaultPropertyCollection method, IEventPublisher.GetDefaultPropertyCollection, IEventPublisher::GetDefaultPropertyCollection, _com_ieventpublisher_getdefaultpropertycollection, com.ieventpublisher_getdefaultpropertycollection, eventsys/IEventPublisher::GetDefaultPropertyCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventPublisher::GetDefaultPropertyCollection method
+# IEventPublisher::GetDefaultPropertyCollection
 
 
 ## -description

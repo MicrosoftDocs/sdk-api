@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkGesture.get_Id
-title: IInkGesture::get_Id method
+title: IInkGesture::get_Id
 author: windows-driver-content
 description: Gets the identifier of an object.
 old-location: tablet\iinkgesture_id.htm
 old-project: tablet
 ms.assetid: 9ed0fcb7-57f9-43f4-95d9-dd75e9e7bd3f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ID property [Tablet PC], ID property [Tablet PC], IInkGesture interface, IInkGesture, IInkGesture interface [Tablet PC], ID property, IInkGesture.ID, IInkGesture.get_Id, IInkGesture::get_ID, IInkGesture::get_Id, get_Id,IInkGesture.get_Id, msinkaut/IInkGesture::ID, msinkaut/IInkGesture::get_ID, tablet.iinkgesture_id
+ms.date: 5/2/2018
+ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkGesture interface, IInkGesture interface [Tablet PC],ID property, IInkGesture.ID, IInkGesture.get_Id, IInkGesture::ID, IInkGesture::get_ID, IInkGesture::get_Id, get_Id, msinkaut/IInkGesture::ID, msinkaut/IInkGesture::get_ID, tablet.iinkgesture_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkGesture::get_Id method
+# IInkGesture::get_Id
 
 
 ## -description

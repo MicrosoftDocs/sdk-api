@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 7C669EDC-B7A1-4623-91A9-5D8C5949B50A
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PSTARTUP_EX_ROUTINE, PSTARTUP_EX_ROUTINE callback function [Failover Cluster], StartupEx, StartupEx callback function [Failover Cluster], mscs.startupex, resapi/PSTARTUP_EX_ROUTINE, resapi/StartupEx
+ms.keywords: PSTARTUP_EX_ROUTINE, PSTARTUP_EX_ROUTINE callback function [Failover Cluster], StartupEx, StartupEx callback, StartupEx callback function [Failover Cluster], mscs.startupex, resapi/PSTARTUP_EX_ROUTINE, resapi/StartupEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PSTARTUP_EX_ROUTINE callback
+# PSTARTUP_EX_ROUTINE callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun.GetProperties
-title: IVdsLun::GetProperties method
+title: IVdsLun::GetProperties
 author: windows-driver-content
 description: Returns the properties of a LUN object.
 old-location: base\ivdslun_getproperties.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 1fec1c8d-7ac9-4b77-830c-930908aac6ef
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetProperties method [VDS], GetProperties method [VDS], IVdsLun interface, GetProperties,IVdsLun.GetProperties, IVdsLun, IVdsLun interface [VDS], GetProperties method, IVdsLun::GetProperties, base.ivdslun_getproperties, vds/IVdsLun::GetProperties, vdshwprv/IVdsLun::GetProperties
+ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetProperties method, IVdsLun.GetProperties, IVdsLun::GetProperties, base.ivdslun_getproperties, vds/IVdsLun::GetProperties, vdshwprv/IVdsLun::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLun::GetProperties method
+# IVdsLun::GetProperties
 
 
 ## -description

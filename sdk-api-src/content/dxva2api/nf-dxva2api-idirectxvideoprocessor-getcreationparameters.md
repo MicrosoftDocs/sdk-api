@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.GetCreationParameters
-title: IDirectXVideoProcessor::GetCreationParameters method
+title: IDirectXVideoProcessor::GetCreationParameters
 author: windows-driver-content
 description: Retrieves the parameters that were used to create this device.
 old-location: mf\idirectxvideoprocessor_getcreationparameters.htm
 old-project: medfound
 ms.assetid: e9ea3311-8642-4651-b9da-fbba08ec92fb
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation], IDirectXVideoProcessor interface, GetCreationParameters,IDirectXVideoProcessor.GetCreationParameters, IDirectXVideoProcessor, IDirectXVideoProcessor interface [Media Foundation], GetCreationParameters method, IDirectXVideoProcessor::GetCreationParameters, dxva2api/IDirectXVideoProcessor::GetCreationParameters, e9ea3311-8642-4651-b9da-fbba08ec92fb, mf.idirectxvideoprocessor_getcreationparameters
+ms.date: 5/3/2018
+ms.keywords: GetCreationParameters, GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetCreationParameters method, IDirectXVideoProcessor.GetCreationParameters, IDirectXVideoProcessor::GetCreationParameters, dxva2api/IDirectXVideoProcessor::GetCreationParameters, e9ea3311-8642-4651-b9da-fbba08ec92fb, mf.idirectxvideoprocessor_getcreationparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirectXVideoProcessor::GetCreationParameters method
+# IDirectXVideoProcessor::GetCreationParameters
 
 
 ## -description

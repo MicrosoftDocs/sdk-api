@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetFrameStatistics
-title: IDXGIOutput::GetFrameStatistics method
+title: IDXGIOutput::GetFrameStatistics
 author: windows-driver-content
 description: Gets statistics about recently rendered frames.
 old-location: direct3ddxgi\idxgioutput_getframestatistics.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getframestatistics.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 2986a9cc-4b09-8622-8d30-17f06409df3a, GetFrameStatistics method [DXGI], GetFrameStatistics method [DXGI], IDXGIOutput interface, GetFrameStatistics,IDXGIOutput.GetFrameStatistics, IDXGIOutput, IDXGIOutput interface [DXGI], GetFrameStatistics method, IDXGIOutput::GetFrameStatistics, direct3ddxgi.idxgioutput_getframestatistics, dxgi/IDXGIOutput::GetFrameStatistics
+ms.keywords: 2986a9cc-4b09-8622-8d30-17f06409df3a, GetFrameStatistics, GetFrameStatistics method [DXGI], GetFrameStatistics method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetFrameStatistics method, IDXGIOutput.GetFrameStatistics, IDXGIOutput::GetFrameStatistics, direct3ddxgi.idxgioutput_getframestatistics, dxgi/IDXGIOutput::GetFrameStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput::GetFrameStatistics method
+# IDXGIOutput::GetFrameStatistics
 
 
 ## -description

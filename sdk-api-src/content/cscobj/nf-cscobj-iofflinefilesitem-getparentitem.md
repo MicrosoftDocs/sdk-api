@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.GetParentItem
-title: IOfflineFilesItem::GetParentItem method
+title: IOfflineFilesItem::GetParentItem
 author: windows-driver-content
 description: Retrieves the IOfflineFilesItem interface for the parent of the item.
 old-location: of\iofflinefilesitem_getparentitem.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 4fa89807-cd0c-4868-bd65-a8a0a42dff7d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetParentItem method [Offline Files], GetParentItem method [Offline Files], IOfflineFilesItem interface, GetParentItem,IOfflineFilesItem.GetParentItem, IOfflineFilesItem, IOfflineFilesItem interface [Offline Files], GetParentItem method, IOfflineFilesItem::GetParentItem, cscobj/IOfflineFilesItem::GetParentItem, of.iofflinefilesitem_getparentitem
+ms.keywords: GetParentItem, GetParentItem method [Offline Files], GetParentItem method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetParentItem method, IOfflineFilesItem.GetParentItem, IOfflineFilesItem::GetParentItem, cscobj/IOfflineFilesItem::GetParentItem, of.iofflinefilesitem_getparentitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesItem::GetParentItem method
+# IOfflineFilesItem::GetParentItem
 
 
 ## -description

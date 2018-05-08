@@ -7,7 +7,7 @@ old-location: mf\mfconvertcolorinfotodxva.htm
 old-project: medfound
 ms.assetid: 52a3be2b-f715-4e12-9f69-6a832153ff5e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 52a3be2b-f715-4e12-9f69-6a832153ff5e, MFConvertColorInfoToDXVA, MFConvertColorInfoToDXVA function [Media Foundation], mf.mfconvertcolorinfotodxva, mfapi/MFConvertColorInfoToDXVA
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.CompareEnd
-title: ITfRange::CompareEnd method
+title: ITfRange::CompareEnd
 author: windows-driver-content
 description: The ITfRange::CompareEnd method compares the end anchor position of this range of text to an anchor in another range.
 old-location: tsf\itfrange_compareend.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 23841f07-f2ea-4365-a8cb-128c4fb210ab
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: "+1, -1, 0, CompareEnd method [Text Services Framework], CompareEnd method [Text Services Framework], ITfRange interface, CompareEnd,ITfRange.CompareEnd, ITfRange, ITfRange interface [Text Services Framework], CompareEnd method, ITfRange::CompareEnd, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_compareend_ref, msctf/ITfRange::CompareEnd, tsf.itfrange_compareend"
+ms.keywords: "+1, -1, 0, CompareEnd, CompareEnd method [Text Services Framework], CompareEnd method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],CompareEnd method, ITfRange.CompareEnd, ITfRange::CompareEnd, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_compareend_ref, msctf/ITfRange::CompareEnd, tsf.itfrange_compareend"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfRange::CompareEnd method
+# ITfRange::CompareEnd
 
 
 ## -description

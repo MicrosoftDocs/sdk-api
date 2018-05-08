@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_TotalBytesDownloaded
-title: IDownloadProgress::get_TotalBytesDownloaded method
+title: IDownloadProgress::get_TotalBytesDownloaded
 author: windows-driver-content
 description: Gets a string that specifies the total amount of data that has been downloaded, in bytes.
 old-location: wua\idownloadprogress_totalbytesdownloaded.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 83d8f7d2-e06d-461a-be45-ebbb448b2480
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IDownloadProgress, IDownloadProgress interface [Windows Update Agent], TotalBytesDownloaded property, IDownloadProgress.TotalBytesDownloaded, IDownloadProgress::get_TotalBytesDownloaded, TotalBytesDownloaded property [Windows Update Agent], TotalBytesDownloaded property [Windows Update Agent], IDownloadProgress interface, get_TotalBytesDownloaded,IDownloadProgress.get_TotalBytesDownloaded, wua.idownloadprogress_totalbytesdownloaded, wuapi/IDownloadProgress::TotalBytesDownloaded, wuapi/IDownloadProgress::get_TotalBytesDownloaded
+ms.keywords: IDownloadProgress interface [Windows Update Agent],TotalBytesDownloaded property, IDownloadProgress.TotalBytesDownloaded, IDownloadProgress.get_TotalBytesDownloaded, IDownloadProgress::TotalBytesDownloaded, IDownloadProgress::get_TotalBytesDownloaded, TotalBytesDownloaded property [Windows Update Agent], TotalBytesDownloaded property [Windows Update Agent],IDownloadProgress interface, get_TotalBytesDownloaded, wua.idownloadprogress_totalbytesdownloaded, wuapi/IDownloadProgress::TotalBytesDownloaded, wuapi/IDownloadProgress::get_TotalBytesDownloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IDownloadProgress::get_TotalBytesDownloaded method
+# IDownloadProgress::get_TotalBytesDownloaded
 
 
 ## -description

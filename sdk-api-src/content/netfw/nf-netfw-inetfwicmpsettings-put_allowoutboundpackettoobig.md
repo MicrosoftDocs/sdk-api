@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowOutboundPacketTooBig
-title: INetFwIcmpSettings::put_AllowOutboundPacketTooBig method
+title: INetFwIcmpSettings::put_AllowOutboundPacketTooBig
 author: windows-driver-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundpackettoobig.htm
 old-project: ICS
 ms.assetid: 057b2f45-1752-4f6d-a6a6-9871e20cd13a
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: AllowOutboundPacketTooBig property [ICS/ICF], AllowOutboundPacketTooBig property [ICS/ICF], INetFwIcmpSettings interface, INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], AllowOutboundPacketTooBig property, INetFwIcmpSettings.AllowOutboundPacketTooBig, INetFwIcmpSettings::get_AllowOutboundPacketTooBig, INetFwIcmpSettings::put_AllowOutboundPacketTooBig, ics.inetfwicmpsettings_allowoutboundpackettoobig, netfw/INetFwIcmpSettings::AllowOutboundPacketTooBig, netfw/INetFwIcmpSettings::get_AllowOutboundPacketTooBig, netfw/INetFwIcmpSettings::put_AllowOutboundPacketTooBig, put_AllowOutboundPacketTooBig,INetFwIcmpSettings.put_AllowOutboundPacketTooBig
+ms.date: 5/1/2018
+ms.keywords: AllowOutboundPacketTooBig property [ICS/ICF], AllowOutboundPacketTooBig property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundPacketTooBig property, INetFwIcmpSettings.AllowOutboundPacketTooBig, INetFwIcmpSettings.put_AllowOutboundPacketTooBig, INetFwIcmpSettings::AllowOutboundPacketTooBig, INetFwIcmpSettings::get_AllowOutboundPacketTooBig, INetFwIcmpSettings::put_AllowOutboundPacketTooBig, ics.inetfwicmpsettings_allowoutboundpackettoobig, netfw/INetFwIcmpSettings::AllowOutboundPacketTooBig, netfw/INetFwIcmpSettings::get_AllowOutboundPacketTooBig, netfw/INetFwIcmpSettings::put_AllowOutboundPacketTooBig, put_AllowOutboundPacketTooBig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwIcmpSettings::put_AllowOutboundPacketTooBig method
+# INetFwIcmpSettings::put_AllowOutboundPacketTooBig
 
 
 ## -description

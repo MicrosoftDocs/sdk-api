@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.SetInPlaceHoverTargetPosition
-title: ITextInputPanel::SetInPlaceHoverTargetPosition method
+title: ITextInputPanel::SetInPlaceHoverTargetPosition
 author: windows-driver-content
 description: Explicitly positions the Tablet PC Input Panel hover target in screen coordinates.
 old-location: tablet\itextinputpanel_setinplacehovertargetposition.htm
 old-project: tablet
 ms.assetid: 1f007a76-8499-4128-8525-0498ddeb7300
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 1f007a76-8499-4128-8525-0498ddeb7300, ITextInputPanel, ITextInputPanel interface [Tablet PC], SetInPlaceHoverTargetPosition method, ITextInputPanel::SetInPlaceHoverTargetPosition, SetInPlaceHoverTargetPosition method [Tablet PC], SetInPlaceHoverTargetPosition method [Tablet PC], ITextInputPanel interface, SetInPlaceHoverTargetPosition,ITextInputPanel.SetInPlaceHoverTargetPosition, peninputpanel/ITextInputPanel::SetInPlaceHoverTargetPosition, tablet.itextinputpanel_setinplacehovertargetposition
+ms.date: 5/2/2018
+ms.keywords: 1f007a76-8499-4128-8525-0498ddeb7300, ITextInputPanel interface [Tablet PC],SetInPlaceHoverTargetPosition method, ITextInputPanel.SetInPlaceHoverTargetPosition, ITextInputPanel::SetInPlaceHoverTargetPosition, SetInPlaceHoverTargetPosition, SetInPlaceHoverTargetPosition method [Tablet PC], SetInPlaceHoverTargetPosition method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlaceHoverTargetPosition, tablet.itextinputpanel_setinplacehovertargetposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanel::SetInPlaceHoverTargetPosition method
+# ITextInputPanel::SetInPlaceHoverTargetPosition
 
 
 ## -description

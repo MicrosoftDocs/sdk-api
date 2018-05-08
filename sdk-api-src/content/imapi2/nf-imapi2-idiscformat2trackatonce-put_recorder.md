@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.put_Recorder
-title: IDiscFormat2TrackAtOnce::put_Recorder method
+title: IDiscFormat2TrackAtOnce::put_Recorder
 author: windows-driver-content
 description: Sets the recording device to use for the write operation.
 old-location: imapi\idiscformat2trackatonce_put_recorder.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 6d67b076-0c3f-4d1f-aa19-8e22dd98f331
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], put_Recorder method, IDiscFormat2TrackAtOnce::put_Recorder, imapi.idiscformat2trackatonce_put_recorder, imapi2/IDiscFormat2TrackAtOnce::put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI], IDiscFormat2TrackAtOnce interface, put_Recorder,IDiscFormat2TrackAtOnce.put_Recorder
+ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],put_Recorder method, IDiscFormat2TrackAtOnce.put_Recorder, IDiscFormat2TrackAtOnce::put_Recorder, imapi.idiscformat2trackatonce_put_recorder, imapi2/IDiscFormat2TrackAtOnce::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IDiscFormat2TrackAtOnce interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2TrackAtOnce::put_Recorder method
+# IDiscFormat2TrackAtOnce::put_Recorder
 
 
 ## -description

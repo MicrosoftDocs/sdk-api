@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.RemoveAllStreams
-title: IMFCaptureSink::RemoveAllStreams method
+title: IMFCaptureSink::RemoveAllStreams
 author: windows-driver-content
 description: Removes all streams from the capture sink.
 old-location: mf\imfcapturesink_removeallstreams.htm
 old-project: medfound
 ms.assetid: 7E05D04F-BDE8-4053-A7C4-B74AC5FA76B7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureSink, IMFCaptureSink interface [Media Foundation], RemoveAllStreams method, IMFCaptureSink::RemoveAllStreams, RemoveAllStreams method [Media Foundation], RemoveAllStreams method [Media Foundation], IMFCaptureSink interface, RemoveAllStreams,IMFCaptureSink.RemoveAllStreams, mf.imfcapturesink_removeallstreams, mfcaptureengine/IMFCaptureSink::RemoveAllStreams
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureSink interface [Media Foundation],RemoveAllStreams method, IMFCaptureSink.RemoveAllStreams, IMFCaptureSink::RemoveAllStreams, RemoveAllStreams, RemoveAllStreams method [Media Foundation], RemoveAllStreams method [Media Foundation],IMFCaptureSink interface, mf.imfcapturesink_removeallstreams, mfcaptureengine/IMFCaptureSink::RemoveAllStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureSink::RemoveAllStreams method
+# IMFCaptureSink::RemoveAllStreams
 
 
 ## -description

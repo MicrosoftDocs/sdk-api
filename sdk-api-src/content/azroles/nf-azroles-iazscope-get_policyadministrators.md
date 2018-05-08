@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_PolicyAdministrators
-title: IAzScope::get_PolicyAdministrators method
+title: IAzScope::get_PolicyAdministrators
 author: windows-driver-content
 description: The PolicyAdministrators property of IAzScope retrieves the security identifiers (SIDs), in text form, of principals that act as policy administrators.
 old-location: security\iazscope_policyadministrators.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 13c11105-b44d-46e0-ab73-c11fede1507b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzScope object [Security], PolicyAdministrators property, IAzScope, IAzScope interface [Security], PolicyAdministrators property, IAzScope.PolicyAdministrators, IAzScope::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security], AzScope object, PolicyAdministrators property [Security], IAzScope interface, azroles/IAzScope::PolicyAdministrators, azroles/IAzScope::get_PolicyAdministrators, get_PolicyAdministrators,IAzScope.get_PolicyAdministrators, security.iazscope_policyadministrators
+ms.keywords: AzScope object [Security],PolicyAdministrators property, IAzScope interface [Security],PolicyAdministrators property, IAzScope.PolicyAdministrators, IAzScope.get_PolicyAdministrators, IAzScope::PolicyAdministrators, IAzScope::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security],AzScope object, PolicyAdministrators property [Security],IAzScope interface, azroles/IAzScope::PolicyAdministrators, azroles/IAzScope::get_PolicyAdministrators, get_PolicyAdministrators, security.iazscope_policyadministrators
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope::get_PolicyAdministrators method
+# IAzScope::get_PolicyAdministrators
 
 
 ## -description

@@ -75,17 +75,17 @@ to modify the restart or shutdown actions of a service referenced by the short s
 The offset in bytes to the next structure.
 
 
-#### - Process
-
-If the value of <b>FilterTrigger</b> is  <b>RmFilterTriggerProcess</b>,  this member is a  <a href="https://msdn.microsoft.com/27e593f9-8ff0-4de4-87ca-7fa5f324468a">RM_PROCESS_INFO</a> structure for the application.
-
-
-#### - strFilename
+### -field strFilename
 
 If the value of <b>FilterTrigger</b> is <b>RmFilterTriggerFile</b>, this member contains a pointer to a string value that contains the application filename.
 
 
-#### - strServiceShortName
+### -field Process
+
+If the value of <b>FilterTrigger</b> is  <b>RmFilterTriggerProcess</b>,  this member is a  <a href="https://msdn.microsoft.com/27e593f9-8ff0-4de4-87ca-7fa5f324468a">RM_PROCESS_INFO</a> structure for the application.
+
+
+### -field strServiceShortName
 
 If the value of <b>FilterTrigger</b> is <b>RmFilterTriggerService</b> this member is a pointer to a string value that contains the short service name.
 

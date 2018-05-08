@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddRestoreSubcomponent
-title: IVssBackupComponents::AddRestoreSubcomponent method
+title: IVssBackupComponents::AddRestoreSubcomponent
 author: windows-driver-content
 description: Indicates that a subcomponent member of a component set, which had been marked as nonselectable for backup but is marked selectable for restore, is to be restored.
 old-location: base\ivssbackupcomponents_addrestoresubcomponent.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 8eea27d7-6780-49cf-97ea-8876a9a2c8f8
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: AddRestoreSubcomponent method [VSS], AddRestoreSubcomponent method [VSS], IVssBackupComponents interface, AddRestoreSubcomponent,IVssBackupComponents.AddRestoreSubcomponent, IVssBackupComponents, IVssBackupComponents interface [VSS], AddRestoreSubcomponent method, IVssBackupComponents::AddRestoreSubcomponent, _win32_ivssbackupcomponents_addrestoresubcomponent, base.ivssbackupcomponents_addrestoresubcomponent, vsbackup/IVssBackupComponents::AddRestoreSubcomponent
+ms.keywords: AddRestoreSubcomponent, AddRestoreSubcomponent method [VSS], AddRestoreSubcomponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddRestoreSubcomponent method, IVssBackupComponents.AddRestoreSubcomponent, IVssBackupComponents::AddRestoreSubcomponent, _win32_ivssbackupcomponents_addrestoresubcomponent, base.ivssbackupcomponents_addrestoresubcomponent, vsbackup/IVssBackupComponents::AddRestoreSubcomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::AddRestoreSubcomponent method
+# IVssBackupComponents::AddRestoreSubcomponent
 
 
 ## -description

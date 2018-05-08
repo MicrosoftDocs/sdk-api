@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3E00CFB1-0683-4946-9E57-7E4F6E86F60C
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationElement6, IUIAutomationElement6 interface [Windows Accessibility], IUIAutomationElement6 interface [Windows Accessibility], described, uiautomationclient/IUIAutomationElement6, winauto.uiauto_IUIAutomationElement6
+ms.keywords: IUIAutomationElement6, IUIAutomationElement6 interface [Windows Accessibility], IUIAutomationElement6 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement6, winauto.uiauto_IUIAutomationElement6
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

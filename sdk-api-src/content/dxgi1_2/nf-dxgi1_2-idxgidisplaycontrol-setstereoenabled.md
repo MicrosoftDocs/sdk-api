@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIDisplayControl.SetStereoEnabled
-title: IDXGIDisplayControl::SetStereoEnabled method
+title: IDXGIDisplayControl::SetStereoEnabled
 author: windows-driver-content
 description: Set a Boolean value to either enable or disable the operating system's stereoscopic 3D display behavior.
 old-location: direct3ddxgi\idxgidisplaycontrol_SetStereoEnabled.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 4A449444-287D-4F1D-9A86-F6165C38048F
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIDisplayControl, IDXGIDisplayControl interface [DXGI], SetStereoEnabled method, IDXGIDisplayControl::SetStereoEnabled, SetStereoEnabled method [DXGI], SetStereoEnabled method [DXGI], IDXGIDisplayControl interface, SetStereoEnabled,IDXGIDisplayControl.SetStereoEnabled, direct3ddxgi.idxgidisplaycontrol_SetStereoEnabled, dxgi1_2/IDXGIDisplayControl::SetStereoEnabled
+ms.keywords: IDXGIDisplayControl interface [DXGI],SetStereoEnabled method, IDXGIDisplayControl.SetStereoEnabled, IDXGIDisplayControl::SetStereoEnabled, SetStereoEnabled, SetStereoEnabled method [DXGI], SetStereoEnabled method [DXGI],IDXGIDisplayControl interface, direct3ddxgi.idxgidisplaycontrol_SetStereoEnabled, dxgi1_2/IDXGIDisplayControl::SetStereoEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDisplayControl::SetStereoEnabled method
+# IDXGIDisplayControl::SetStereoEnabled
 
 
 ## -description

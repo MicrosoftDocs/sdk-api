@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.add_RenderingParametersUpdate
-title: IMediaRenderer::add_RenderingParametersUpdate method
+title: IMediaRenderer::streaming
 author: windows-driver-content
 description: Registers an event handler for the RenderingParametersUpdate event.
 old-location: mediastreaming\imediarenderer_add_renderingparametersupdate.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 3CEED740-19EA-4CC6-B3F8-F9DE9C6DCC58
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], add_RenderingParametersUpdate method, IMediaRenderer::add_RenderingParametersUpdate, add_RenderingParametersUpdate method [Media Streaming API], add_RenderingParametersUpdate method [Media Streaming API], IMediaRenderer interface, add_RenderingParametersUpdate,IMediaRenderer.add_RenderingParametersUpdate, mediastreaming.imediarenderer_add_renderingparametersupdate, windows/IMediaRenderer::add_RenderingParametersUpdate
+ms.keywords: IMediaRenderer interface [Media Streaming API],add_RenderingParametersUpdate method, IMediaRenderer.add_RenderingParametersUpdate, IMediaRenderer.streaming, IMediaRenderer::add_RenderingParametersUpdate, IMediaRenderer::streaming, add_RenderingParametersUpdate, add_RenderingParametersUpdate method [Media Streaming API], add_RenderingParametersUpdate method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_add_renderingparametersupdate, windows/IMediaRenderer::add_RenderingParametersUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IMediaRenderer::add_RenderingParametersUpdate method
+# IMediaRenderer::streaming
 
 
 ## -description

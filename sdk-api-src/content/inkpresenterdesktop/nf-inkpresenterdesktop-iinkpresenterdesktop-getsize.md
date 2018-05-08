@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.GetSize
-title: IInkPresenterDesktop::GetSize method
+title: IInkPresenterDesktop::GetSize
 author: windows-driver-content
 description: Gets the size of the InkPresenter object.
 old-location: input_ink\iinkpresenterdesktop_getsize.htm
@@ -8,7 +8,7 @@ old-project: input_ink
 ms.assetid: d4ce0503-72dc-4a25-a48d-58fa50c5047f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSize method, GetSize method, IInkPresenterDesktop interface, GetSize,IInkPresenterDesktop.GetSize, IInkPresenterDesktop, IInkPresenterDesktop interface, GetSize method, IInkPresenterDesktop::GetSize, InkPresenterDesktop.iinkpresenterdesktop_getsize, inkpresenterdesktop/IInkPresenterDesktop::GetSize, input_ink.iinkpresenterdesktop_getsize
+ms.keywords: GetSize, GetSize method, GetSize method,IInkPresenterDesktop interface, IInkPresenterDesktop interface,GetSize method, IInkPresenterDesktop.GetSize, IInkPresenterDesktop::GetSize, InkPresenterDesktop.iinkpresenterdesktop_getsize, inkpresenterdesktop/IInkPresenterDesktop::GetSize, input_ink.iinkpresenterdesktop_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInkPresenterDesktop::GetSize method
+# IInkPresenterDesktop::GetSize
 
 
 ## -description

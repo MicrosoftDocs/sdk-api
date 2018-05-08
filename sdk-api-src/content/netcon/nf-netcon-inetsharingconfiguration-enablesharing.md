@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.EnableSharing
-title: INetSharingConfiguration::EnableSharing method
+title: INetSharingConfiguration::EnableSharing
 author: windows-driver-content
 description: The EnableSharing method enables sharing on this connection.
 old-location: ics\inetsharingconfiguration_enablesharing.htm
 old-project: ICS
 ms.assetid: 40b2a2ff-50f4-484c-bf79-ae99a348644f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: EnableSharing method [ICS/ICF], EnableSharing method [ICS/ICF], INetSharingConfiguration interface, EnableSharing,INetSharingConfiguration.EnableSharing, INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], EnableSharing method, INetSharingConfiguration::EnableSharing, _ics_inetsharingconfiguration_enablesharing, ics.inetsharingconfiguration_enablesharing, netcon/INetSharingConfiguration::EnableSharing
+ms.date: 5/1/2018
+ms.keywords: EnableSharing, EnableSharing method [ICS/ICF], EnableSharing method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],EnableSharing method, INetSharingConfiguration.EnableSharing, INetSharingConfiguration::EnableSharing, _ics_inetsharingconfiguration_enablesharing, ics.inetsharingconfiguration_enablesharing, netcon/INetSharingConfiguration::EnableSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingConfiguration::EnableSharing method
+# INetSharingConfiguration::EnableSharing
 
 
 ## -description

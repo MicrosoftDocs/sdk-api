@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_VolumeName
-title: IFileSystemImage::get_VolumeName method
+title: IFileSystemImage::get_VolumeName
 author: windows-driver-content
 description: Retrieves the volume name for this file system image.
 old-location: imapi\ifilesystemimage_get_volumename.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 95d5738b-a720-4f47-b3a0-97f7474b051a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_VolumeName method, IFileSystemImage::get_VolumeName, get_VolumeName method [IMAPI], get_VolumeName method [IMAPI], IFileSystemImage interface, get_VolumeName,IFileSystemImage.get_VolumeName, imapi.ifilesystemimage_get_volumename, imapi2fs/IFileSystemImage::get_VolumeName
+ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeName method, IFileSystemImage.get_VolumeName, IFileSystemImage::get_VolumeName, get_VolumeName, get_VolumeName method [IMAPI], get_VolumeName method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumename, imapi2fs/IFileSystemImage::get_VolumeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::get_VolumeName method
+# IFileSystemImage::get_VolumeName
 
 
 ## -description

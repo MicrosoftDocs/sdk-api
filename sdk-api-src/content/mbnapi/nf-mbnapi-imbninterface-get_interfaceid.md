@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.get_InterfaceID
-title: IMbnInterface::get_InterfaceID method
+title: IMbnInterface::get_InterfaceID
 author: windows-driver-content
 description: The interface ID.
 old-location: mbn\imbninterface_interfaceid.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 9828567b-ef5e-44b7-90ce-1788cd8dd947
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnInterface, IMbnInterface interface [Microsoft Broadband Networks], InterfaceID property, IMbnInterface.InterfaceID, IMbnInterface::get_InterfaceID, InterfaceID property [Microsoft Broadband Networks], InterfaceID property [Microsoft Broadband Networks], IMbnInterface interface, get_InterfaceID,IMbnInterface.get_InterfaceID, mbn.imbninterface_interfaceid, mbnapi/IMbnInterface::InterfaceID, mbnapi/IMbnInterface::get_InterfaceID
+ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],InterfaceID property, IMbnInterface.InterfaceID, IMbnInterface.get_InterfaceID, IMbnInterface::InterfaceID, IMbnInterface::get_InterfaceID, InterfaceID property [Microsoft Broadband Networks], InterfaceID property [Microsoft Broadband Networks],IMbnInterface interface, get_InterfaceID, mbn.imbninterface_interfaceid, mbnapi/IMbnInterface::InterfaceID, mbnapi/IMbnInterface::get_InterfaceID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnInterface::get_InterfaceID method
+# IMbnInterface::get_InterfaceID
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ad\dsquoterdnvalue.htm
 old-project: AD
 ms.assetid: a1e8a4c0-965a-4061-aab3-3e719ec6374d
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DsQuoteRdnValue, DsQuoteRdnValue function [Active Directory], DsQuoteRdnValueA, DsQuoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsquoterdnvalue, ad.dsquoterdnvalue, dsparse/DsQuoteRdnValue, dsparse/DsQuoteRdnValueA, dsparse/DsQuoteRdnValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

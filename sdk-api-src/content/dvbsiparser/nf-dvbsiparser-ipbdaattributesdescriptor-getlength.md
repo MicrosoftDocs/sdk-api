@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDAAttributesDescriptor.GetLength
-title: IPBDAAttributesDescriptor::GetLength method
+title: IPBDAAttributesDescriptor::GetLength
 author: windows-driver-content
 description: Gets the length of a Protected Broadcast Driver Architecture (PBDA) attributes descriptor from a Protected Broadcast Device Architecture (PBDA) transport stream, in bytes.
 old-location: mstv\ipbdaattributesdescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b18ebaa1-aca4-4d21-adb7-d233e18cd320
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IPBDAAttributesDescriptor interface, GetLength,IPBDAAttributesDescriptor.GetLength, IPBDAAttributesDescriptor, IPBDAAttributesDescriptor interface [Microsoft TV Technologies], GetLength method, IPBDAAttributesDescriptor::GetLength, dvbsiparser/IPBDAAttributesDescriptor::GetLength, mstv.ipbdaattributesdescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IPBDAAttributesDescriptor interface, IPBDAAttributesDescriptor interface [Microsoft TV Technologies],GetLength method, IPBDAAttributesDescriptor.GetLength, IPBDAAttributesDescriptor::GetLength, dvbsiparser/IPBDAAttributesDescriptor::GetLength, mstv.ipbdaattributesdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IPBDAAttributesDescriptor::GetLength method
+# IPBDAAttributesDescriptor::GetLength
 
 
 ## -description

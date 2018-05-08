@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplates.get_ItemByIndex
-title: IX509CertificateTemplates::get_ItemByIndex method
+title: IX509CertificateTemplates::get_ItemByIndex
 author: windows-driver-content
 description: Retrieves an IX509CertificateTemplate object from the collection by index number.
 old-location: security\ix509certificatetemplates_itembyindex.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 1d7ddfd8-89f4-485a-ba90-83f2331168d2
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateTemplates, IX509CertificateTemplates interface [Security], ItemByIndex property, IX509CertificateTemplates.ItemByIndex, IX509CertificateTemplates::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security], IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::ItemByIndex, certenroll/IX509CertificateTemplates::get_ItemByIndex, get_ItemByIndex,IX509CertificateTemplates.get_ItemByIndex, security.ix509certificatetemplates_itembyindex
+ms.keywords: IX509CertificateTemplates interface [Security],ItemByIndex property, IX509CertificateTemplates.ItemByIndex, IX509CertificateTemplates.get_ItemByIndex, IX509CertificateTemplates::ItemByIndex, IX509CertificateTemplates::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::ItemByIndex, certenroll/IX509CertificateTemplates::get_ItemByIndex, get_ItemByIndex, security.ix509certificatetemplates_itembyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509CertificateTemplates::get_ItemByIndex method
+# IX509CertificateTemplates::get_ItemByIndex
 
 
 ## -description

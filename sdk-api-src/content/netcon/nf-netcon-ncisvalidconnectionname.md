@@ -7,7 +7,7 @@ old-location: ics\ncisvalidconnectionname.htm
 old-project: ICS
 ms.assetid: 08fe9ba2-3314-45ff-8aea-742dd5b15560
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NcIsValidConnectionName, NcIsValidConnectionName function [ICS/ICF], ics.ncisvalidconnectionname, netcon/NcIsValidConnectionName
 ms.prod: windows-hardware
 ms.technology: windows-devices

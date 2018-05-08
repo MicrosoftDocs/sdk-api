@@ -1,14 +1,14 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache2.InitializeEx
-title: IEmptyVolumeCache2::InitializeEx method
+title: IEmptyVolumeCache2::InitializeEx
 author: windows-driver-content
 description: Initializes the disk cleanup handler. It provides better support for localization than Initialize.
 old-location: lwef\iemptyvolumecache2_initializeex.htm
 old-project: lwef
 ms.assetid: 42f39dcd-0292-4121-89e9-80145b1c1c7d
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: EVCF_DONTSHOWIFZERO, EVCF_ENABLEBYDEFAULT, EVCF_ENABLEBYDEFAULT_AUTO, EVCF_HASSETTINGS, EVCF_OUTOFDISKSPACE, EVCF_REMOVEFROMLIST, EVCF_SETTINGSMODE, IEmptyVolumeCache2, IEmptyVolumeCache2 interface [Legacy Windows Environment Features], InitializeEx method, IEmptyVolumeCache2::InitializeEx, InitializeEx method [Legacy Windows Environment Features], InitializeEx method [Legacy Windows Environment Features], IEmptyVolumeCache2 interface, InitializeEx,IEmptyVolumeCache2.InitializeEx, These flags can be passed by the handler back to the disk cleanup manager:, These flags can be passed in to the object:, _win32_IEmptyVolumeCache2_InitializeEx, emptyvc/IEmptyVolumeCache2::InitializeEx, lwef.iemptyvolumecache2_initializeex, shell.iemptyvolumecache2_initializeex
+ms.date: 4/27/2018
+ms.keywords: EVCF_DONTSHOWIFZERO, EVCF_ENABLEBYDEFAULT, EVCF_ENABLEBYDEFAULT_AUTO, EVCF_HASSETTINGS, EVCF_OUTOFDISKSPACE, EVCF_REMOVEFROMLIST, EVCF_SETTINGSMODE, IEmptyVolumeCache2 interface [Legacy Windows Environment Features],InitializeEx method, IEmptyVolumeCache2.InitializeEx, IEmptyVolumeCache2::InitializeEx, InitializeEx, InitializeEx method [Legacy Windows Environment Features], InitializeEx method [Legacy Windows Environment Features],IEmptyVolumeCache2 interface, These flags can be passed by the handler back to the disk cleanup manager:, These flags can be passed in to the object:, _win32_IEmptyVolumeCache2_InitializeEx, emptyvc/IEmptyVolumeCache2::InitializeEx, lwef.iemptyvolumecache2_initializeex, shell.iemptyvolumecache2_initializeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEmptyVolumeCache2::InitializeEx method
+# IEmptyVolumeCache2::InitializeEx
 
 
 ## -description

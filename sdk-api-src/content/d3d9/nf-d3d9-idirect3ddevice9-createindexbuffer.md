@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateIndexBuffer
-title: IDirect3DDevice9::CreateIndexBuffer method
+title: IDirect3DDevice9::CreateIndexBuffer
 author: windows-driver-content
 description: Creates an index buffer.
 old-location: direct3d9\idirect3ddevice9__createindexbuffer.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createindexbuffer.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 532a9cb1-de3a-0873-68d0-511852df653f, CreateIndexBuffer method [Direct3D 9], CreateIndexBuffer method [Direct3D 9], IDirect3DDevice9 interface, CreateIndexBuffer,IDirect3DDevice9.CreateIndexBuffer, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], CreateIndexBuffer method, IDirect3DDevice9::CreateIndexBuffer, d3d9helper/IDirect3DDevice9::CreateIndexBuffer, direct3d9.idirect3ddevice9__createindexbuffer
+ms.keywords: 532a9cb1-de3a-0873-68d0-511852df653f, CreateIndexBuffer, CreateIndexBuffer method [Direct3D 9], CreateIndexBuffer method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateIndexBuffer method, IDirect3DDevice9.CreateIndexBuffer, IDirect3DDevice9::CreateIndexBuffer, d3d9helper/IDirect3DDevice9::CreateIndexBuffer, direct3d9.idirect3ddevice9__createindexbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::CreateIndexBuffer method
+# IDirect3DDevice9::CreateIndexBuffer
 
 
 ## -description

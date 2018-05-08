@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.SetInt
-title: ID3D10EffectScalarVariable::SetInt method
+title: ID3D10EffectScalarVariable::SetInt
 author: windows-driver-content
 description: Set an integer variable.
 old-location: direct3d10\id3d10effectscalarvariable_setint.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setint.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10EffectScalarVariable, ID3D10EffectScalarVariable interface [Direct3D 10], SetInt method, ID3D10EffectScalarVariable::SetInt, SetInt method [Direct3D 10], SetInt method [Direct3D 10], ID3D10EffectScalarVariable interface, SetInt,ID3D10EffectScalarVariable.SetInt, d3d10effect/ID3D10EffectScalarVariable::SetInt, direct3d10.id3d10effectscalarvariable_setint, e193d40f-8e32-fc92-93de-ce61ffee5797
+ms.keywords: ID3D10EffectScalarVariable interface [Direct3D 10],SetInt method, ID3D10EffectScalarVariable.SetInt, ID3D10EffectScalarVariable::SetInt, SetInt, SetInt method [Direct3D 10], SetInt method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetInt, direct3d10.id3d10effectscalarvariable_setint, e193d40f-8e32-fc92-93de-ce61ffee5797
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectScalarVariable::SetInt method
+# ID3D10EffectScalarVariable::SetInt
 
 
 ## -description

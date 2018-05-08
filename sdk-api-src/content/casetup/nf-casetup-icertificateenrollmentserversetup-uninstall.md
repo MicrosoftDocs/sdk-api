@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.UnInstall
-title: ICertificateEnrollmentServerSetup::UnInstall method
+title: ICertificateEnrollmentServerSetup::UnInstall
 author: windows-driver-content
 description: Removes the Certificate Enrollment Web Service (CES).
 old-location: security\icertificateenrollmentserversetup_uninstall.htm
 old-project: SecCrypto
 ms.assetid: 5C979627-7544-4466-9F92-224D48904DD3
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertificateEnrollmentServerSetup, ICertificateEnrollmentServerSetup interface [Security], UnInstall method, ICertificateEnrollmentServerSetup::UnInstall, UnInstall method [Security], UnInstall method [Security], ICertificateEnrollmentServerSetup interface, UnInstall,ICertificateEnrollmentServerSetup.UnInstall, casetup/ICertificateEnrollmentServerSetup::UnInstall, security.icertificateenrollmentserversetup_uninstall
+ms.date: 4/30/2018
+ms.keywords: ICertificateEnrollmentServerSetup interface [Security],UnInstall method, ICertificateEnrollmentServerSetup.UnInstall, ICertificateEnrollmentServerSetup::UnInstall, UnInstall, UnInstall method [Security], UnInstall method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::UnInstall, security.icertificateenrollmentserversetup_uninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertificateEnrollmentServerSetup::UnInstall method
+# ICertificateEnrollmentServerSetup::UnInstall
 
 
 ## -description

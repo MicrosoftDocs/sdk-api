@@ -7,8 +7,8 @@ old-location: mf\id3d11videoprocessor.htm
 old-project: medfound
 ms.assetid: AF6F6781-A7F9-4196-8E91-FDFDD1924E24
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoProcessor, ID3D11VideoProcessor interface [Media Foundation], ID3D11VideoProcessor interface [Media Foundation], described, d3d11/ID3D11VideoProcessor, mf.id3d11videoprocessor
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoProcessor, ID3D11VideoProcessor interface [Media Foundation], ID3D11VideoProcessor interface [Media Foundation],described, d3d11/ID3D11VideoProcessor, mf.id3d11videoprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

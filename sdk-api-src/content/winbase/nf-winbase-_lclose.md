@@ -7,7 +7,7 @@ old-location: winprog\_lclose.htm
 old-project: DevNotes
 ms.assetid: FBFBD963-0461-4357-9362-D32A83C1F969
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: "_lclose, _lclose function [Windows API], winbase/_lclose, winprog._lclose"
 ms.prod: windows-hardware
 ms.technology: windows-devices

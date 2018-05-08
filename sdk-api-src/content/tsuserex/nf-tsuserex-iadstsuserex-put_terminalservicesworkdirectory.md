@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_TerminalServicesWorkDirectory
-title: IADsTSUserEx::put_TerminalServicesWorkDirectory method
+title: IADsTSUserEx::put_TerminalServicesWorkDirectory
 author: windows-driver-content
 description: The working directory path for the user.
 old-location: termserv\iadstsuserex_terminalservicesworkdirectory.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 66048329-ae5a-4e70-b6a4-dcdc312a74df
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], TerminalServicesWorkDirectory property, IADsTSUserEx.TerminalServicesWorkDirectory, IADsTSUserEx::get_TerminalServicesWorkDirectory, IADsTSUserEx::put_TerminalServicesWorkDirectory, TerminalServicesWorkDirectory property [Remote Desktop Services], TerminalServicesWorkDirectory property [Remote Desktop Services], IADsTSUserEx interface, put_TerminalServicesWorkDirectory,IADsTSUserEx.put_TerminalServicesWorkDirectory, termserv.iadstsuserex_terminalservicesworkdirectory, tsuserex/IADsTSUserEx::TerminalServicesWorkDirectory, tsuserex/IADsTSUserEx::get_TerminalServicesWorkDirectory, tsuserex/IADsTSUserEx::put_TerminalServicesWorkDirectory
+ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesWorkDirectory property, IADsTSUserEx.TerminalServicesWorkDirectory, IADsTSUserEx.put_TerminalServicesWorkDirectory, IADsTSUserEx::TerminalServicesWorkDirectory, IADsTSUserEx::get_TerminalServicesWorkDirectory, IADsTSUserEx::put_TerminalServicesWorkDirectory, TerminalServicesWorkDirectory property [Remote Desktop Services], TerminalServicesWorkDirectory property [Remote Desktop Services],IADsTSUserEx interface, put_TerminalServicesWorkDirectory, termserv.iadstsuserex_terminalservicesworkdirectory, tsuserex/IADsTSUserEx::TerminalServicesWorkDirectory, tsuserex/IADsTSUserEx::get_TerminalServicesWorkDirectory, tsuserex/IADsTSUserEx::put_TerminalServicesWorkDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IADsTSUserEx::put_TerminalServicesWorkDirectory method
+# IADsTSUserEx::put_TerminalServicesWorkDirectory
 
 
 ## -description

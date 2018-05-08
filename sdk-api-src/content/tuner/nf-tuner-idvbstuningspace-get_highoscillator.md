@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.get_HighOscillator
-title: IDVBSTuningSpace::get_HighOscillator method
+title: IDVBSTuningSpace::get_HighOscillator
 author: windows-driver-content
 description: The get_HighOscillator method retrieves the high oscillator frequency.
 old-location: mstv\idvbstuningspace_get_highoscillator.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e3b70684-5066-411e-9946-ccfc1efa3e7c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBSTuningSpace, IDVBSTuningSpace interface [Microsoft TV Technologies], get_HighOscillator method, IDVBSTuningSpace::get_HighOscillator, IDVBSTuningSpaceget_HighOscillator, get_HighOscillator method [Microsoft TV Technologies], get_HighOscillator method [Microsoft TV Technologies], IDVBSTuningSpace interface, get_HighOscillator,IDVBSTuningSpace.get_HighOscillator, mstv.idvbstuningspace_get_highoscillator, tuner/IDVBSTuningSpace::get_HighOscillator
+ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_HighOscillator method, IDVBSTuningSpace.get_HighOscillator, IDVBSTuningSpace::get_HighOscillator, IDVBSTuningSpaceget_HighOscillator, get_HighOscillator, get_HighOscillator method [Microsoft TV Technologies], get_HighOscillator method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_highoscillator, tuner/IDVBSTuningSpace::get_HighOscillator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBSTuningSpace::get_HighOscillator method
+# IDVBSTuningSpace::get_HighOscillator
 
 
 ## -description

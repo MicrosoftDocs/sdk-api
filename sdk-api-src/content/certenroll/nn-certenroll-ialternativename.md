@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 2a6cfda8-b3cb-4a0f-bb65-b182c16207be
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IAlternativeName, IAlternativeName interface [Security], IAlternativeName interface [Security], described, certenroll/IAlternativeName, security.ialternativename
+ms.keywords: IAlternativeName, IAlternativeName interface [Security], IAlternativeName interface [Security],described, certenroll/IAlternativeName, security.ialternativename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

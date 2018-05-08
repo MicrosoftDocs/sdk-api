@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IOpLockStatus.IsOplockBroken
-title: IOpLockStatus::IsOplockBroken method
+title: IOpLockStatus::IsOplockBroken
 author: windows-driver-content
 description: Checks the status of the opportunistic lock (OpLock) on the item being indexed.
 old-location: search\_search_IOpLockStatus_IsOplockBroken.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\ioplockstatus\isoplockbroken.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IOpLockStatus, IOpLockStatus interface [search], IsOplockBroken method, IOpLockStatus::IsOplockBroken, IsOplockBroken method [search], IsOplockBroken method [search], IOpLockStatus interface, IsOplockBroken,IOpLockStatus.IsOplockBroken, _search_IOpLockStatus_IsOplockBroken, search._search_IOpLockStatus_IsOplockBroken, searchapi/IOpLockStatus::IsOplockBroken
+ms.date: 5/4/2018
+ms.keywords: IOpLockStatus interface [search],IsOplockBroken method, IOpLockStatus.IsOplockBroken, IOpLockStatus::IsOplockBroken, IsOplockBroken, IsOplockBroken method [search], IsOplockBroken method [search],IOpLockStatus interface, _search_IOpLockStatus_IsOplockBroken, search._search_IOpLockStatus_IsOplockBroken, searchapi/IOpLockStatus::IsOplockBroken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpLockStatus::IsOplockBroken method
+# IOpLockStatus::IsOplockBroken
 
 
 ## -description

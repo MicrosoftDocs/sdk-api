@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetFourCCCodes
-title: IDirectDrawVideo::GetFourCCCodes method
+title: IDirectDrawVideo::GetFourCCCodes
 author: windows-driver-content
 description: The GetFourCCCodes method retrieves the multimedia format type.
 old-location: dshow\idirectdrawvideo_getfourcccodes.htm
 old-project: DirectShow
 ms.assetid: 3ea1c5c4-bf2e-40f6-bf48-a69900128ec8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetFourCCCodes method [DirectShow], GetFourCCCodes method [DirectShow], IDirectDrawVideo interface, GetFourCCCodes,IDirectDrawVideo.GetFourCCCodes, IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], GetFourCCCodes method, IDirectDrawVideo::GetFourCCCodes, IDirectDrawVideoGetFourCCCodes, amvideo/IDirectDrawVideo::GetFourCCCodes, dshow.idirectdrawvideo_getfourcccodes
+ms.date: 4/30/2018
+ms.keywords: GetFourCCCodes, GetFourCCCodes method [DirectShow], GetFourCCCodes method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetFourCCCodes method, IDirectDrawVideo.GetFourCCCodes, IDirectDrawVideo::GetFourCCCodes, IDirectDrawVideoGetFourCCCodes, amvideo/IDirectDrawVideo::GetFourCCCodes, dshow.idirectdrawvideo_getfourcccodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawVideo::GetFourCCCodes method
+# IDirectDrawVideo::GetFourCCCodes
 
 
 ## -description

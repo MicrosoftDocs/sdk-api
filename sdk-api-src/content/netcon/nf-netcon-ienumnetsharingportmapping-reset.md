@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.IEnumNetSharingPortMapping.Reset
-title: IEnumNetSharingPortMapping::Reset method
+title: IEnumNetSharingPortMapping::Reset
 author: windows-driver-content
 description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.
 old-location: ics\ienumnetsharingportmapping_reset.htm
 old-project: ICS
 ms.assetid: 1d5045b9-a551-4ae5-bd8e-c80e88def237
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: IEnumNetSharingPortMapping, IEnumNetSharingPortMapping interface [ICS/ICF], Reset method, IEnumNetSharingPortMapping::Reset, Reset method [ICS/ICF], Reset method [ICS/ICF], IEnumNetSharingPortMapping interface, Reset,IEnumNetSharingPortMapping.Reset, _ics_ienumnetsharingportmapping_reset, ics.ienumnetsharingportmapping_reset, netcon/IEnumNetSharingPortMapping::Reset
+ms.date: 5/1/2018
+ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Reset method, IEnumNetSharingPortMapping.Reset, IEnumNetSharingPortMapping::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_reset, ics.ienumnetsharingportmapping_reset, netcon/IEnumNetSharingPortMapping::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumNetSharingPortMapping::Reset method
+# IEnumNetSharingPortMapping::Reset
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: properties\VariantToInt16ArrayAlloc.htm
 old-project: properties
 ms.assetid: 616c9d03-f641-49e3-af95-80ebaea3e8aa
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: VariantToInt16ArrayAlloc, VariantToInt16ArrayAlloc function [Windows Properties], _shell_VariantToInt16ArrayAlloc, properties.VariantToInt16ArrayAlloc, propvarutil/VariantToInt16ArrayAlloc, shell.VariantToInt16ArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

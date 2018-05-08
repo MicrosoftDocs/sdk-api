@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationRule.get_Value
-title: IFsrmClassificationRule::get_Value method
+title: IFsrmClassificationRule::get_Value
 author: windows-driver-content
 description: The value that this rule will set the property to.
 old-location: fsrm\ifsrmclassificationrule_value.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: c243cf7a-23f5-4d81-acea-9bf6ed66967d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmClassificationRule, IFsrmClassificationRule interface [File Server Resource Manager], Value property, IFsrmClassificationRule.Value, IFsrmClassificationRule::get_Value, IFsrmClassificationRule::put_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager], IFsrmClassificationRule interface, fs.ifsrmclassificationrule_value, fsrm.ifsrmclassificationrule_value, fsrmpipeline/IFsrmClassificationRule::Value, fsrmpipeline/IFsrmClassificationRule::get_Value, fsrmpipeline/IFsrmClassificationRule::put_Value, get_Value,IFsrmClassificationRule.get_Value
+ms.keywords: IFsrmClassificationRule interface [File Server Resource Manager],Value property, IFsrmClassificationRule.Value, IFsrmClassificationRule.get_Value, IFsrmClassificationRule::Value, IFsrmClassificationRule::get_Value, IFsrmClassificationRule::put_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmClassificationRule interface, fs.ifsrmclassificationrule_value, fsrm.ifsrmclassificationrule_value, fsrmpipeline/IFsrmClassificationRule::Value, fsrmpipeline/IFsrmClassificationRule::get_Value, fsrmpipeline/IFsrmClassificationRule::put_Value, get_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassificationRule::get_Value method
+# IFsrmClassificationRule::get_Value
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.LoadStore
-title: ISettingsEngine::LoadStore method
+title: ISettingsEngine::LoadStore
 author: windows-driver-content
 description: Initializes and loads the schema store hive.
 old-location: smi\isettingsengine_loadstore.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: dd255730-1c42-41a3-b274-e2abe53f210e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISettingsEngine, ISettingsEngine interface [SMI], LoadStore method, ISettingsEngine::LoadStore, LoadStore method [SMI], LoadStore method [SMI], ISettingsEngine interface, LoadStore,ISettingsEngine.LoadStore, smi.isettingsengine_loadstore, wcmconfig/ISettingsEngine::LoadStore
+ms.keywords: ISettingsEngine interface [SMI],LoadStore method, ISettingsEngine.LoadStore, ISettingsEngine::LoadStore, LoadStore, LoadStore method [SMI], LoadStore method [SMI],ISettingsEngine interface, smi.isettingsengine_loadstore, wcmconfig/ISettingsEngine::LoadStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsEngine::LoadStore method
+# ISettingsEngine::LoadStore
 
 
 ## -description

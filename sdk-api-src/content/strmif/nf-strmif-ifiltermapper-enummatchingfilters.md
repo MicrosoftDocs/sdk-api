@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterMapper.EnumMatchingFilters
-title: IFilterMapper::EnumMatchingFilters method
+title: IFilterMapper::EnumMatchingFilters
 author: windows-driver-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Provides an enumerator that enumerates registered filters that meet specified requirements.
 old-location: dshow\ifiltermapper_enummatchingfilters.htm
 old-project: DirectShow
 ms.assetid: 602a7568-f5f8-4705-a2bc-6b9408bbbe54
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EnumMatchingFilters method [DirectShow], EnumMatchingFilters method [DirectShow], IFilterMapper interface, EnumMatchingFilters,IFilterMapper.EnumMatchingFilters, IFilterMapper, IFilterMapper interface [DirectShow], EnumMatchingFilters method, IFilterMapper::EnumMatchingFilters, IFilterMapperEnumMatchingFilters, dshow.ifiltermapper_enummatchingfilters, strmif/IFilterMapper::EnumMatchingFilters
+ms.date: 4/30/2018
+ms.keywords: EnumMatchingFilters, EnumMatchingFilters method [DirectShow], EnumMatchingFilters method [DirectShow],IFilterMapper interface, IFilterMapper interface [DirectShow],EnumMatchingFilters method, IFilterMapper.EnumMatchingFilters, IFilterMapper::EnumMatchingFilters, IFilterMapperEnumMatchingFilters, dshow.ifiltermapper_enummatchingfilters, strmif/IFilterMapper::EnumMatchingFilters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterMapper::EnumMatchingFilters method
+# IFilterMapper::EnumMatchingFilters
 
 
 ## -description

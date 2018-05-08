@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.SearchFailed
-title: IWSDiscoveryProviderNotify::SearchFailed method
+title: IWSDiscoveryProviderNotify::SearchFailed
 author: windows-driver-content
 description: Is called to indicate a user initiated search has failed.
 old-location: ncd\iwsdiscoveryprovidernotify_searchfailed_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 8f861c69-2967-4a8d-a64a-e2409d722984
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryProviderNotify, IWSDiscoveryProviderNotify interface, SearchFailed method, IWSDiscoveryProviderNotify::SearchFailed, SearchFailed method, SearchFailed method, IWSDiscoveryProviderNotify interface, SearchFailed,IWSDiscoveryProviderNotify.SearchFailed, ncd.iwsdiscoveryprovidernotify_searchfailed_method, wsddisco/IWSDiscoveryProviderNotify::SearchFailed
+ms.keywords: IWSDiscoveryProviderNotify interface,SearchFailed method, IWSDiscoveryProviderNotify.SearchFailed, IWSDiscoveryProviderNotify::SearchFailed, SearchFailed, SearchFailed method, SearchFailed method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_searchfailed_method, wsddisco/IWSDiscoveryProviderNotify::SearchFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryProviderNotify::SearchFailed method
+# IWSDiscoveryProviderNotify::SearchFailed
 
 
 ## -description

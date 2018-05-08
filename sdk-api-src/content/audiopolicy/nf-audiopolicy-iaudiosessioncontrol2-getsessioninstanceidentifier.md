@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl2.GetSessionInstanceIdentifier
-title: IAudioSessionControl2::GetSessionInstanceIdentifier method
+title: IAudioSessionControl2::GetSessionInstanceIdentifier
 author: windows-driver-content
 description: The GetSessionInstanceIdentifier method retrieves the identifier of the audio session instance.
 old-location: coreaudio\iaudiosessioncontrol2_getsessioninstanceidentifier.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 02350812-7f05-400e-87f7-1d912a23050d
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetSessionInstanceIdentifier method [Core Audio], GetSessionInstanceIdentifier method [Core Audio], IAudioSessionControl2 interface, GetSessionInstanceIdentifier,IAudioSessionControl2.GetSessionInstanceIdentifier, IAudioSessionControl2, IAudioSessionControl2 interface [Core Audio], GetSessionInstanceIdentifier method, IAudioSessionControl2::GetSessionInstanceIdentifier, audiopolicy/IAudioSessionControl2::GetSessionInstanceIdentifier, coreaudio.iaudiosessioncontrol2_getsessioninstanceidentifier
+ms.keywords: GetSessionInstanceIdentifier, GetSessionInstanceIdentifier method [Core Audio], GetSessionInstanceIdentifier method [Core Audio],IAudioSessionControl2 interface, IAudioSessionControl2 interface [Core Audio],GetSessionInstanceIdentifier method, IAudioSessionControl2.GetSessionInstanceIdentifier, IAudioSessionControl2::GetSessionInstanceIdentifier, audiopolicy/IAudioSessionControl2::GetSessionInstanceIdentifier, coreaudio.iaudiosessioncontrol2_getsessioninstanceidentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionControl2::GetSessionInstanceIdentifier method
+# IAudioSessionControl2::GetSessionInstanceIdentifier
 
 
 ## -description

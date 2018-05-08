@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerPolicy.SetCertificateExtension
-title: ICertServerPolicy::SetCertificateExtension method
+title: ICertServerPolicy::SetCertificateExtension
 author: windows-driver-content
 description: Adds a new extension to the certificate.
 old-location: security\icertserverpolicy_setcertificateextension.htm
 old-project: SecCrypto
 ms.assetid: aed8b621-3881-41fe-b7a3-657fecdab351
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertServerPolicy object [Security], SetCertificateExtension method, EXTENSION_CRITICAL_FLAG, EXTENSION_DISABLE_FLAG, ICertServerPolicy, ICertServerPolicy interface [Security], SetCertificateExtension method, ICertServerPolicy::SetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCertificateExtension method [Security], SetCertificateExtension method [Security], CCertServerPolicy object, SetCertificateExtension method [Security], ICertServerPolicy interface, SetCertificateExtension,ICertServerPolicy.SetCertificateExtension, _certsrv_icertserverpolicy_setcertificateextension, certif/ICertServerPolicy::SetCertificateExtension, security.icertserverpolicy_setcertificateextension
+ms.date: 4/30/2018
+ms.keywords: CCertServerPolicy object [Security],SetCertificateExtension method, EXTENSION_CRITICAL_FLAG, EXTENSION_DISABLE_FLAG, ICertServerPolicy interface [Security],SetCertificateExtension method, ICertServerPolicy.SetCertificateExtension, ICertServerPolicy::SetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCertificateExtension, SetCertificateExtension method [Security], SetCertificateExtension method [Security],CCertServerPolicy object, SetCertificateExtension method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcertificateextension, certif/ICertServerPolicy::SetCertificateExtension, security.icertserverpolicy_setcertificateextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerPolicy::SetCertificateExtension method
+# ICertServerPolicy::SetCertificateExtension
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetVarIndexOfMemId
-title: ITypeInfo2::GetVarIndexOfMemId method
+title: ITypeInfo2::GetVarIndexOfMemId
 author: windows-driver-content
 description: Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member).
 old-location: automat\itypeinfo2_getvarindexofmemid.htm
 old-project: automat
 ms.assetid: 6b97ddbf-bcb3-4e39-a355-40c1fd4e8c6a
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetVarIndexOfMemId method [Automation], GetVarIndexOfMemId method [Automation], ITypeInfo2 interface, GetVarIndexOfMemId,ITypeInfo2.GetVarIndexOfMemId, ITypeInfo2, ITypeInfo2 interface [Automation], GetVarIndexOfMemId method, ITypeInfo2::GetVarIndexOfMemId, _oa96_ITypeInfo2_GetVarIndexOfMemId, automat.itypeinfo2_getvarindexofmemid, oaidl/ITypeInfo2::GetVarIndexOfMemId
+ms.date: 5/4/2018
+ms.keywords: GetVarIndexOfMemId, GetVarIndexOfMemId method [Automation], GetVarIndexOfMemId method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetVarIndexOfMemId method, ITypeInfo2.GetVarIndexOfMemId, ITypeInfo2::GetVarIndexOfMemId, _oa96_ITypeInfo2_GetVarIndexOfMemId, automat.itypeinfo2_getvarindexofmemid, oaidl/ITypeInfo2::GetVarIndexOfMemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo2::GetVarIndexOfMemId method
+# ITypeInfo2::GetVarIndexOfMemId
 
 
 ## -description

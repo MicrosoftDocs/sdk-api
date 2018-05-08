@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Pause
-title: IMSVidCtl::Pause method
+title: IMSVidCtl::Pause
 author: windows-driver-content
 description: The Pause method pauses the filter graph.
 old-location: mstv\imsvidctl_pause.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: fd7687d8-325f-4a51-ab57-ffcc45a9157b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], Pause method, IMSVidCtl::Pause, IMSVidCtlPause, Pause method [Microsoft TV Technologies], Pause method [Microsoft TV Technologies], IMSVidCtl interface, Pause,IMSVidCtl.Pause, mstv.imsvidctl_pause, msvidctl/IMSVidCtl::Pause
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Pause method, IMSVidCtl.Pause, IMSVidCtl::Pause, IMSVidCtlPause, Pause, Pause method [Microsoft TV Technologies], Pause method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_pause, msvidctl/IMSVidCtl::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::Pause method
+# IMSVidCtl::Pause
 
 
 ## -description

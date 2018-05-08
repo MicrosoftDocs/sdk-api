@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlocksEnumerator.GetCurrent
-title: IAppxBlockMapBlocksEnumerator::GetCurrent method
+title: IAppxBlockMapBlocksEnumerator::GetCurrent
 author: windows-driver-content
 description: Gets the block at the current position of the enumerator.
 old-location: appxpkg\iappxblockmapblocksenumerator_getcurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: A546BD4D-DA7A-4A50-BD45-2219D70DF0F9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCurrent method [App packaging and management], GetCurrent method [App packaging and management], IAppxBlockMapBlocksEnumerator interface, GetCurrent,IAppxBlockMapBlocksEnumerator.GetCurrent, IAppxBlockMapBlocksEnumerator, IAppxBlockMapBlocksEnumerator interface [App packaging and management], GetCurrent method, IAppxBlockMapBlocksEnumerator::GetCurrent, appxpackaging/IAppxBlockMapBlocksEnumerator::GetCurrent, appxpkg.iappxblockmapblocksenumerator_getcurrent
+ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxBlockMapBlocksEnumerator interface, IAppxBlockMapBlocksEnumerator interface [App packaging and management],GetCurrent method, IAppxBlockMapBlocksEnumerator.GetCurrent, IAppxBlockMapBlocksEnumerator::GetCurrent, appxpackaging/IAppxBlockMapBlocksEnumerator::GetCurrent, appxpkg.iappxblockmapblocksenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapBlocksEnumerator::GetCurrent method
+# IAppxBlockMapBlocksEnumerator::GetCurrent
 
 
 ## -description

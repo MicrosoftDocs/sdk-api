@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_LNBInfo.put_LocalOscilatorFrequencyHighBand
-title: IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand method
+title: IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand
 author: windows-driver-content
 description: The put_LocalOscilatorFrequencyHighBand method specifies the frequency of the local oscillator's high band.
 old-location: mstv\ibda_lnbinfo_put_localoscilatorfrequencyhighband.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2a1de764-aaab-4801-ba34-65c05d245ba0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_LNBInfo, IBDA_LNBInfo interface [Microsoft TV Technologies], put_LocalOscilatorFrequencyHighBand method, IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand, IBDA_LNBInfoput_LocalOscilatorFrequencyHighBand, bdaiface/IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand, mstv.ibda_lnbinfo_put_localoscilatorfrequencyhighband, put_LocalOscilatorFrequencyHighBand method [Microsoft TV Technologies], put_LocalOscilatorFrequencyHighBand method [Microsoft TV Technologies], IBDA_LNBInfo interface, put_LocalOscilatorFrequencyHighBand,IBDA_LNBInfo.put_LocalOscilatorFrequencyHighBand
+ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],put_LocalOscilatorFrequencyHighBand method, IBDA_LNBInfo.put_LocalOscilatorFrequencyHighBand, IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand, IBDA_LNBInfoput_LocalOscilatorFrequencyHighBand, bdaiface/IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand, mstv.ibda_lnbinfo_put_localoscilatorfrequencyhighband, put_LocalOscilatorFrequencyHighBand, put_LocalOscilatorFrequencyHighBand method [Microsoft TV Technologies], put_LocalOscilatorFrequencyHighBand method [Microsoft TV Technologies],IBDA_LNBInfo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand method
+# IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand
 
 
 ## -description

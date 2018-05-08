@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetClipGeometryLocal
-title: IXpsOMVisual::GetClipGeometryLocal method
+title: IXpsOMVisual::GetClipGeometryLocal
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMGeometry interface that contains the local, unshared geometry of the visual's clipping region.
 old-location: xps\ixpsomvisual_getclipgeometrylocal.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 19efe0d7-6b11-41bc-80e7-e43e64d977b4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetClipGeometryLocal method [XPS Documents and Packaging], GetClipGeometryLocal method [XPS Documents and Packaging], IXpsOMVisual interface, GetClipGeometryLocal,IXpsOMVisual.GetClipGeometryLocal, IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], GetClipGeometryLocal method, IXpsOMVisual::GetClipGeometryLocal, xps.ixpsomvisual_getclipgeometrylocal, xpsobjectmodel/IXpsOMVisual::GetClipGeometryLocal
+ms.keywords: GetClipGeometryLocal, GetClipGeometryLocal method [XPS Documents and Packaging], GetClipGeometryLocal method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetClipGeometryLocal method, IXpsOMVisual.GetClipGeometryLocal, IXpsOMVisual::GetClipGeometryLocal, xps.ixpsomvisual_getclipgeometrylocal, xpsobjectmodel/IXpsOMVisual::GetClipGeometryLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::GetClipGeometryLocal method
+# IXpsOMVisual::GetClipGeometryLocal
 
 
 ## -description

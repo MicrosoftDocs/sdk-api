@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetClipper
-title: IDirectDrawSurface7::GetClipper method
+title: IDirectDrawSurface7::GetClipper
 author: windows-driver-content
 description: Retrieves the DirectDrawClipper object that is associated with this surface, and increments the reference count of the returned clipper.
 old-location: directdraw\idirectdrawsurface7_getclipper.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: f2156dbe-88b5-4ab1-a310-13a38ebdbb4b
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetClipper method [DirectDraw], GetClipper method [DirectDraw], IDirectDrawSurface7 interface, GetClipper,IDirectDrawSurface7.GetClipper, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], GetClipper method, IDirectDrawSurface7::GetClipper, ddraw/IDirectDrawSurface7::GetClipper, directdraw.idirectdrawsurface7_getclipper
+ms.keywords: GetClipper, GetClipper method [DirectDraw], GetClipper method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetClipper method, IDirectDrawSurface7.GetClipper, IDirectDrawSurface7::GetClipper, ddraw/IDirectDrawSurface7::GetClipper, directdraw.idirectdrawsurface7_getclipper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::GetClipper method
+# IDirectDrawSurface7::GetClipper
 
 
 ## -description

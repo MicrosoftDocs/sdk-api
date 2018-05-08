@@ -7,7 +7,7 @@ old-location: tablet\endinkinput.htm
 old-project: tablet
 ms.assetid: e8aa252d-6b24-4864-9b3e-8edd30895303
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/2/2018
 ms.keywords: EndInkInput, EndInkInput function [Tablet PC], e8aa252d-6b24-4864-9b3e-8edd30895303, recapis/EndInkInput, tablet.endinkinput
 ms.prod: windows-hardware
 ms.technology: windows-devices

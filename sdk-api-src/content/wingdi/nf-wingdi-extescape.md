@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 7af01433-36e7-494e-80ee-cbf54fce4019
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CHECKJPEGFORMAT, ExtEscape, ExtEscape function [Windows GDI], _win32_CHECKJPEGFORMAT, gdi.checkjpegformat, wingdi/ExtEscape
+ms.keywords: CHECKJPEGFORMAT, CHECKJPEGFORMAT Printer Escape, ExtEscape, ExtEscape function [Windows GDI], _win32_CHECKJPEGFORMAT, gdi.checkjpegformat, wingdi/ExtEscape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

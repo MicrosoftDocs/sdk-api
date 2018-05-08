@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.Initialize
-title: IISDB_BIT::Initialize method
+title: IISDB_BIT::Initialize
 author: windows-driver-content
 description: Initializes the object by using captured table section data for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1c38cbc0-4e47-4f15-9a9b-548e74af6462
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], Initialize method, IISDB_BIT::Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IISDB_BIT interface, Initialize,IISDB_BIT.Initialize, dvbsiparser/IISDB_BIT::Initialize, mstv.iisdb_bit_initialize
+ms.keywords: IISDB_BIT interface [Microsoft TV Technologies],Initialize method, IISDB_BIT.Initialize, IISDB_BIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_BIT interface, dvbsiparser/IISDB_BIT::Initialize, mstv.iisdb_bit_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_BIT::Initialize method
+# IISDB_BIT::Initialize
 
 
 ## -description

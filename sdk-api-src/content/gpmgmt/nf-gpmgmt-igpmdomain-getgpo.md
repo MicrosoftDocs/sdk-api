@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.GetGPO
-title: IGPMDomain::GetGPO method
+title: IGPMDomain::GetGPO
 author: windows-driver-content
 description: Retrieves a GPMGPO object with a specified Group Policy object (GPO) ID. The group policy object ID is represented by a GUID.
 old-location: gpmc\igpmdomain_getgpo.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: ac413241-3649-4f22-9a67-94e4da8672e7
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMDomain object [GPMC], GetGPO method, GetGPO method [GPMC], GetGPO method [GPMC], GPMDomain object, GetGPO method [GPMC], IGPMDomain interface, GetGPO,IGPMDomain.GetGPO, IGPMDomain, IGPMDomain interface [GPMC], GetGPO method, IGPMDomain::GetGPO, _win32_igpmdomain_getgpo, gpmc.igpmdomain_getgpo, gpmgmt/IGPMDomain::GetGPO
+ms.keywords: GPMDomain object [GPMC],GetGPO method, GetGPO, GetGPO method [GPMC], GetGPO method [GPMC],GPMDomain object, GetGPO method [GPMC],IGPMDomain interface, IGPMDomain interface [GPMC],GetGPO method, IGPMDomain.GetGPO, IGPMDomain::GetGPO, _win32_igpmdomain_getgpo, gpmc.igpmdomain_getgpo, gpmgmt/IGPMDomain::GetGPO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMDomain::GetGPO method
+# IGPMDomain::GetGPO
 
 
 ## -description

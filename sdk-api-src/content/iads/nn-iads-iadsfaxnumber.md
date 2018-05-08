@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 1c78bb35-dfa9-40f0-b3a4-db4a1c212cf7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsFaxNumber, IADsFaxNumber interface [ADSI], IADsFaxNumber interface [ADSI], described, _ds_iadsfaxnumber, adsi.iadsfaxnumber, iads/IADsFaxNumber
+ms.keywords: IADsFaxNumber, IADsFaxNumber interface [ADSI], IADsFaxNumber interface [ADSI],described, _ds_iadsfaxnumber, adsi.iadsfaxnumber, iads/IADsFaxNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: a1a7abc5-f306-4664-bb53-e54c6ee1051e
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSTER_REG_GET_BATCH_NOTIFICATION, PCLUSTER_REG_GET_BATCH_NOTIFICATION callback function [Failover Cluster], clusapi/PCLUSTER_REG_GET_BATCH_NOTIFICATION, mscs.clusterregbatchreadcommand
+ms.keywords: PCLUSTER_REG_GET_BATCH_NOTIFICATION, PCLUSTER_REG_GET_BATCH_NOTIFICATION callback, PCLUSTER_REG_GET_BATCH_NOTIFICATION callback function [Failover Cluster], clusapi/PCLUSTER_REG_GET_BATCH_NOTIFICATION, mscs.clusterregbatchreadcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSTER_REG_GET_BATCH_NOTIFICATION callback
+# PCLUSTER_REG_GET_BATCH_NOTIFICATION callback function
 
 
 ## -description

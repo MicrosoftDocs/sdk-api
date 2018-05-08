@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_MinPoolSize
-title: IServicePoolConfig::put_MinPoolSize method
+title: IServicePoolConfig::put_MinPoolSize
 author: windows-driver-content
 description: Sets the minimum number of objects in the pool.
 old-location: cos\iservicepoolconfig_put_minpoolsize.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 6280b4ed-704e-464e-bde2-64c1f2353730
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IServicePoolConfig, IServicePoolConfig interface [COM+], put_MinPoolSize method, IServicePoolConfig::put_MinPoolSize, comsvcs/IServicePoolConfig::put_MinPoolSize, cos.iservicepoolconfig_put_minpoolsize, put_MinPoolSize method [COM+], put_MinPoolSize method [COM+], IServicePoolConfig interface, put_MinPoolSize,IServicePoolConfig.put_MinPoolSize
+ms.keywords: IServicePoolConfig interface [COM+],put_MinPoolSize method, IServicePoolConfig.put_MinPoolSize, IServicePoolConfig::put_MinPoolSize, comsvcs/IServicePoolConfig::put_MinPoolSize, cos.iservicepoolconfig_put_minpoolsize, put_MinPoolSize, put_MinPoolSize method [COM+], put_MinPoolSize method [COM+],IServicePoolConfig interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServicePoolConfig::put_MinPoolSize method
+# IServicePoolConfig::put_MinPoolSize
 
 
 ## -description

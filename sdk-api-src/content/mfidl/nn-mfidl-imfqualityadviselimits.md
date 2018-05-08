@@ -7,8 +7,8 @@ old-location: mf\imfqualityadviselimits.htm
 old-project: medfound
 ms.assetid: 8ef7088c-2f49-4be9-b719-481616e1737d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFQualityAdviseLimits, IMFQualityAdviseLimits interface [Media Foundation], IMFQualityAdviseLimits interface [Media Foundation], described, mf.imfqualityadviselimits, mfidl/IMFQualityAdviseLimits
+ms.date: 5/3/2018
+ms.keywords: IMFQualityAdviseLimits, IMFQualityAdviseLimits interface [Media Foundation], IMFQualityAdviseLimits interface [Media Foundation],described, mf.imfqualityadviselimits, mfidl/IMFQualityAdviseLimits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

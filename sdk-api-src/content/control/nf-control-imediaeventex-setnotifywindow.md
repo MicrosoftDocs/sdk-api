@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaEventEx.SetNotifyWindow
-title: IMediaEventEx::SetNotifyWindow method
+title: IMediaEventEx::SetNotifyWindow
 author: windows-driver-content
 description: The SetNotifyWindow method registers a window to process event notifications.
 old-location: dshow\imediaeventex_setnotifywindow.htm
 old-project: DirectShow
 ms.assetid: 3e582c79-b8c7-40be-97fd-75d5b7965570
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaEventEx, IMediaEventEx interface [DirectShow], SetNotifyWindow method, IMediaEventEx::SetNotifyWindow, IMediaEventExSetNotifyWindow, SetNotifyWindow method [DirectShow], SetNotifyWindow method [DirectShow], IMediaEventEx interface, SetNotifyWindow,IMediaEventEx.SetNotifyWindow, control/IMediaEventEx::SetNotifyWindow, dshow.imediaeventex_setnotifywindow
+ms.date: 4/30/2018
+ms.keywords: IMediaEventEx interface [DirectShow],SetNotifyWindow method, IMediaEventEx.SetNotifyWindow, IMediaEventEx::SetNotifyWindow, IMediaEventExSetNotifyWindow, SetNotifyWindow, SetNotifyWindow method [DirectShow], SetNotifyWindow method [DirectShow],IMediaEventEx interface, control/IMediaEventEx::SetNotifyWindow, dshow.imediaeventex_setnotifywindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaEventEx::SetNotifyWindow method
+# IMediaEventEx::SetNotifyWindow
 
 
 ## -description

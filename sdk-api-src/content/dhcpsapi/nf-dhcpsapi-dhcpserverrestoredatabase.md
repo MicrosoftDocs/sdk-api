@@ -7,7 +7,7 @@ old-location: dhcp\dhcpserverrestoredatabase.htm
 old-project: DHCP
 ms.assetid: b7003fcc-bff1-449d-8849-c02932880114
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpServerRestoreDatabase, DhcpServerRestoreDatabase function [DHCP], dhcp.dhcpserverrestoredatabase, dhcpsapi/DhcpServerRestoreDatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices

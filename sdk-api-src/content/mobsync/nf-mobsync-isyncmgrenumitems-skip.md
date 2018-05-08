@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrEnumItems.Skip
-title: ISyncMgrEnumItems::Skip method
+title: ISyncMgrEnumItems::Skip
 author: windows-driver-content
 description: Instructs the enumerator to skip the next celt elements in the enumeration so that the next call to ISyncMgrEnumItems::Next does not return those elements.
 old-location: shell\syncmgr_isyncmgrenumitems_skip.htm
 old-project: shell
 ms.assetid: f317306b-5317-4c5e-a5e6-fd2d8728bc52
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrEnumItems, ISyncMgrEnumItems interface [Windows Shell], Skip method, ISyncMgrEnumItems::Skip, Skip method [Windows Shell], Skip method [Windows Shell], ISyncMgrEnumItems interface, Skip,ISyncMgrEnumItems.Skip, mobsync/ISyncMgrEnumItems::Skip, shell.syncmgr_isyncmgrenumitems_skip, syncmgr.isyncmgrenumitems_skip
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrEnumItems interface [Windows Shell],Skip method, ISyncMgrEnumItems.Skip, ISyncMgrEnumItems::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],ISyncMgrEnumItems interface, mobsync/ISyncMgrEnumItems::Skip, shell.syncmgr_isyncmgrenumitems_skip, syncmgr.isyncmgrenumitems_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrEnumItems::Skip method
+# ISyncMgrEnumItems::Skip
 
 
 ## -description

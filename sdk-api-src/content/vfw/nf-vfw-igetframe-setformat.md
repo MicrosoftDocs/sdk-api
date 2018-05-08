@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IGetFrame.SetFormat
-title: IGetFrame::SetFormat method
+title: IGetFrame::SetFormat
 author: windows-driver-content
 description: The SetFormat method sets the decompressed image format of the frames being extracted and optionally provides a buffer for the decompression operation.
 old-location: multimedia\igetframe_setformat.htm
 old-project: Multimedia
 ms.assetid: 96a2afa5-af90-47e0-949a-a1498ed7f82e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: IGetFrame, IGetFrame interface [Windows Multimedia], SetFormat method, IGetFrame::SetFormat, SetFormat method [Windows Multimedia], SetFormat method [Windows Multimedia], IGetFrame interface, SetFormat,IGetFrame.SetFormat, _win32_IGetFrame_SetFormat, multimedia.igetframe_setformat, vfw/IGetFrame::SetFormat
+ms.date: 5/4/2018
+ms.keywords: IGetFrame interface [Windows Multimedia],SetFormat method, IGetFrame.SetFormat, IGetFrame::SetFormat, SetFormat, SetFormat method [Windows Multimedia], SetFormat method [Windows Multimedia],IGetFrame interface, _win32_IGetFrame_SetFormat, multimedia.igetframe_setformat, vfw/IGetFrame::SetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IGetFrame::SetFormat method
+# IGetFrame::SetFormat
 
 
 ## -description

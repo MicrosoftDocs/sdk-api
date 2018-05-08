@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyCallback.OnEventNotify
-title: IPrintAsyncNotifyCallback::OnEventNotify method
+title: IPrintAsyncNotifyCallback::OnEventNotify
 author: windows-driver-content
 description: Alerts a listener that a notification is available on a specified channel. This method is called by the print system.
 old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 2f398173-3cd6-46da-931d-057d1dccbe9b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IPrintAsyncNotifyCallback, IPrintAsyncNotifyCallback interface [Windows GDI], OnEventNotify method, IPrintAsyncNotifyCallback::OnEventNotify, OnEventNotify method [Windows GDI], OnEventNotify method [Windows GDI], IPrintAsyncNotifyCallback interface, OnEventNotify,IPrintAsyncNotifyCallback.OnEventNotify, _win32_IPrintAsyncNotifyCallback_OnEventNotify, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify, prnasnot/IPrintAsyncNotifyCallback::OnEventNotify
+ms.keywords: IPrintAsyncNotifyCallback interface [Windows GDI],OnEventNotify method, IPrintAsyncNotifyCallback.OnEventNotify, IPrintAsyncNotifyCallback::OnEventNotify, OnEventNotify, OnEventNotify method [Windows GDI], OnEventNotify method [Windows GDI],IPrintAsyncNotifyCallback interface, _win32_IPrintAsyncNotifyCallback_OnEventNotify, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify, prnasnot/IPrintAsyncNotifyCallback::OnEventNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPrintAsyncNotifyCallback::OnEventNotify method
+# IPrintAsyncNotifyCallback::OnEventNotify
 
 
 ## -description

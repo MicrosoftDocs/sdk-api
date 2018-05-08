@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetGUID
-title: IMFAttributes::GetGUID method
+title: IMFAttributes::GetGUID
 author: windows-driver-content
 description: Retrieves a GUID value associated with a key.
 old-location: mf\imfattributes_getguid.htm
 old-project: medfound
 ms.assetid: 6ded35e1-2d1c-4e68-ad0f-2bd5ba469853
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 6ded35e1-2d1c-4e68-ad0f-2bd5ba469853, GetGUID method [Media Foundation], GetGUID method [Media Foundation], IMFAttributes interface, GetGUID,IMFAttributes.GetGUID, IMFAttributes, IMFAttributes interface [Media Foundation], GetGUID method, IMFAttributes::GetGUID, mf.imfattributes_getguid, mfobjects/IMFAttributes::GetGUID
+ms.date: 5/3/2018
+ms.keywords: 6ded35e1-2d1c-4e68-ad0f-2bd5ba469853, GetGUID, GetGUID method [Media Foundation], GetGUID method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetGUID method, IMFAttributes.GetGUID, IMFAttributes::GetGUID, mf.imfattributes_getguid, mfobjects/IMFAttributes::GetGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAttributes::GetGUID method
+# IMFAttributes::GetGUID
 
 
 ## -description

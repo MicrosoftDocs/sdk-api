@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicVideo.IsUsingDefaultSource
-title: IBasicVideo::IsUsingDefaultSource method
+title: IBasicVideo::IsUsingDefaultSource
 author: windows-driver-content
 description: The IsUsingDefaultSource method queries whether the renderer is using the default source rectangle.
 old-location: dshow\ibasicvideo_isusingdefaultsource.htm
 old-project: DirectShow
 ms.assetid: 85cb633f-95cd-4cbe-9572-324ec784e6bb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], IsUsingDefaultSource method, IBasicVideo::IsUsingDefaultSource, IBasicVideoIsUsingDefaultSource, IsUsingDefaultSource method [DirectShow], IsUsingDefaultSource method [DirectShow], IBasicVideo interface, IsUsingDefaultSource,IBasicVideo.IsUsingDefaultSource, control/IBasicVideo::IsUsingDefaultSource, dshow.ibasicvideo_isusingdefaultsource
+ms.date: 4/30/2018
+ms.keywords: IBasicVideo interface [DirectShow],IsUsingDefaultSource method, IBasicVideo.IsUsingDefaultSource, IBasicVideo::IsUsingDefaultSource, IBasicVideoIsUsingDefaultSource, IsUsingDefaultSource, IsUsingDefaultSource method [DirectShow], IsUsingDefaultSource method [DirectShow],IBasicVideo interface, control/IBasicVideo::IsUsingDefaultSource, dshow.ibasicvideo_isusingdefaultsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicVideo::IsUsingDefaultSource method
+# IBasicVideo::IsUsingDefaultSource
 
 
 ## -description

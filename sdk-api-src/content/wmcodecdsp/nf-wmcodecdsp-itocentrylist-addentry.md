@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.AddEntry
-title: ITocEntryList::AddEntry method
+title: ITocEntryList::AddEntry
 author: windows-driver-content
 description: The AddEntry method adds an individual entry to the list and assigns an index to the entry.
 old-location: mf\itocentrylist_addentry.htm
 old-project: medfound
 ms.assetid: 4ac41f10-4bb5-4d50-9f7b-7c8710476162
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddEntry method [Media Foundation], AddEntry method [Media Foundation], ITocEntryList interface, AddEntry,ITocEntryList.AddEntry, ITocEntryList, ITocEntryList interface [Media Foundation], AddEntry method, ITocEntryList::AddEntry, codecapi.itocentrylist_addentry, mf.itocentrylist_addentry, wmcodecdsp/ITocEntryList::AddEntry
+ms.date: 5/3/2018
+ms.keywords: AddEntry, AddEntry method [Media Foundation], AddEntry method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],AddEntry method, ITocEntryList.AddEntry, ITocEntryList::AddEntry, codecapi.itocentrylist_addentry, mf.itocentrylist_addentry, wmcodecdsp/ITocEntryList::AddEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocEntryList::AddEntry method
+# ITocEntryList::AddEntry
 
 
 ## -description

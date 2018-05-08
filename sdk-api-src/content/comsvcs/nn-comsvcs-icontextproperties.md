@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 95a5cfda-7587-496e-ba16-0dd2e8a4db32
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IContextProperties, IContextProperties interface [COM+], IContextProperties interface [COM+], described, _cos_IContextProperties, comsvcs/IContextProperties, cos.icontextproperties
+ms.keywords: IContextProperties, IContextProperties interface [COM+], IContextProperties interface [COM+],described, _cos_IContextProperties, comsvcs/IContextProperties, cos.icontextproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

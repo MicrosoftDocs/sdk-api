@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPinManagerEvents.OnGetPinStateComplete
-title: IMbnPinManagerEvents::OnGetPinStateComplete method
+title: IMbnPinManagerEvents::OnGetPinStateComplete
 author: windows-driver-content
 description: Notification method called by the Mobile Broadband service to indicate the completion of an asynchronous operation triggered by a call to the GetPinState method of IMbnPinManager.
 old-location: mbn\imbnpinmanagerevents_ongetpinstatecomplete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: e228073b-896a-4d2d-a8a5-f8fa7a52ffc2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: E_MBN_BAD_SIM, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinManagerEvents, IMbnPinManagerEvents interface [Microsoft Broadband Networks], OnGetPinStateComplete method, IMbnPinManagerEvents::OnGetPinStateComplete, OnGetPinStateComplete method [Microsoft Broadband Networks], OnGetPinStateComplete method [Microsoft Broadband Networks], IMbnPinManagerEvents interface, OnGetPinStateComplete,IMbnPinManagerEvents.OnGetPinStateComplete, S_OK, mbn.imbnpinmanagerevents_ongetpinstatecomplete, mbnapi/IMbnPinManagerEvents::OnGetPinStateComplete
+ms.keywords: E_MBN_BAD_SIM, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinManagerEvents interface [Microsoft Broadband Networks],OnGetPinStateComplete method, IMbnPinManagerEvents.OnGetPinStateComplete, IMbnPinManagerEvents::OnGetPinStateComplete, OnGetPinStateComplete, OnGetPinStateComplete method [Microsoft Broadband Networks], OnGetPinStateComplete method [Microsoft Broadband Networks],IMbnPinManagerEvents interface, S_OK, mbn.imbnpinmanagerevents_ongetpinstatecomplete, mbnapi/IMbnPinManagerEvents::OnGetPinStateComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnPinManagerEvents::OnGetPinStateComplete method
+# IMbnPinManagerEvents::OnGetPinStateComplete
 
 
 ## -description

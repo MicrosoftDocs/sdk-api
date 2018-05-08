@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_6.IDXGIAdapter4.GetDesc3
-title: IDXGIAdapter4::GetDesc3 method
+title: IDXGIAdapter4::GetDesc3
 author: windows-driver-content
 description: Gets a Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 description of an adapter or video card. This description includes information about ACG compatibility.
 old-location: direct3ddxgi\idxgiadapter4_getdesc3.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 2C6C215C-8CD6-4650-A851-B82068E0F252
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetDesc3 method [DXGI], GetDesc3 method [DXGI], IDXGIAdapter4 interface, GetDesc3,IDXGIAdapter4.GetDesc3, IDXGIAdapter4, IDXGIAdapter4 interface [DXGI], GetDesc3 method, IDXGIAdapter4::GetDesc3, direct3ddxgi.idxgiadapter4_getdesc3, dxgi1_6/IDXGIAdapter4::GetDesc3
+ms.keywords: GetDesc3, GetDesc3 method [DXGI], GetDesc3 method [DXGI],IDXGIAdapter4 interface, IDXGIAdapter4 interface [DXGI],GetDesc3 method, IDXGIAdapter4.GetDesc3, IDXGIAdapter4::GetDesc3, direct3ddxgi.idxgiadapter4_getdesc3, dxgi1_6/IDXGIAdapter4::GetDesc3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIAdapter4::GetDesc3 method
+# IDXGIAdapter4::GetDesc3
 
 
 ## -description

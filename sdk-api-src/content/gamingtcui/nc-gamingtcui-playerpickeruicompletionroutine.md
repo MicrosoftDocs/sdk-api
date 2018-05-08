@@ -8,7 +8,7 @@ old-project: tcui
 ms.assetid: 301AB1B0-BABA-4971-A301-5AEDD2F32B31
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: PlayerPickerUICompletionRoutine, PlayerPickerUICompletionRoutine callback function, gamingtcui/PlayerPickerUICompletionRoutine, tcui.playerpickeruicompletionroutine
+ms.keywords: PlayerPickerUICompletionRoutine, PlayerPickerUICompletionRoutine callback, PlayerPickerUICompletionRoutine callback function, gamingtcui/PlayerPickerUICompletionRoutine, tcui.playerpickeruicompletionroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# PlayerPickerUICompletionRoutine callback
+# PlayerPickerUICompletionRoutine callback function
 
 
 ## -description

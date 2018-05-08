@@ -7,7 +7,7 @@ old-location: rpc\uuidhash.htm
 old-project: Rpc
 ms.assetid: e96fafa6-1c10-42c1-8d85-5e338899411d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: UuidHash, UuidHash function [RPC], _rpc_uuidhash, rpc.uuidhash, rpcdce/UuidHash
 ms.prod: windows-hardware
 ms.technology: windows-devices

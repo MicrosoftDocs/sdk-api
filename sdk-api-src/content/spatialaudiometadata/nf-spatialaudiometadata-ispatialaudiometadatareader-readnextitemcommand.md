@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataReader.ReadNextItemCommand
-title: ISpatialAudioMetadataReader::ReadNextItemCommand method
+title: ISpatialAudioMetadataReader::ReadNextItemCommand
 author: windows-driver-content
 description: Reads metadata commands and value data for the current item.
 old-location: coreaudio\ispatialaudiometadatareader_readnextitemcommand.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 9B58546A-FBE3-47CD-8E5F-63D0C5608F00
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ISpatialAudioMetadataReader, ISpatialAudioMetadataReader interface [Core Audio], ReadNextItemCommand method, ISpatialAudioMetadataReader::ReadNextItemCommand, ReadNextItemCommand method [Core Audio], ReadNextItemCommand method [Core Audio], ISpatialAudioMetadataReader interface, ReadNextItemCommand,ISpatialAudioMetadataReader.ReadNextItemCommand, coreaudio.ispatialaudiometadatareader_readnextitemcommand, spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItemCommand
+ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],ReadNextItemCommand method, ISpatialAudioMetadataReader.ReadNextItemCommand, ISpatialAudioMetadataReader::ReadNextItemCommand, ReadNextItemCommand, ReadNextItemCommand method [Core Audio], ReadNextItemCommand method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_readnextitemcommand, spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItemCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataReader::ReadNextItemCommand method
+# ISpatialAudioMetadataReader::ReadNextItemCommand
 
 
 ## -description

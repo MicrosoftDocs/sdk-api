@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.SetUserData
-title: ISettingsContext::SetUserData method
+title: ISettingsContext::SetUserData
 author: windows-driver-content
 description: Sets the user-defined data.
 old-location: smi\isettingscontext_setuserdata.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 4ae754a5-7e03-4747-b4bc-1abf72920d83
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISettingsContext, ISettingsContext interface [SMI], SetUserData method, ISettingsContext::SetUserData, SetUserData method [SMI], SetUserData method [SMI], ISettingsContext interface, SetUserData,ISettingsContext.SetUserData, smi.isettingscontext_setuserdata, wcmconfig/ISettingsContext::SetUserData
+ms.keywords: ISettingsContext interface [SMI],SetUserData method, ISettingsContext.SetUserData, ISettingsContext::SetUserData, SetUserData, SetUserData method [SMI], SetUserData method [SMI],ISettingsContext interface, smi.isettingscontext_setuserdata, wcmconfig/ISettingsContext::SetUserData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsContext::SetUserData method
+# ISettingsContext::SetUserData
 
 
 ## -description

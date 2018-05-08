@@ -1,14 +1,14 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetDDSurfaceKernelHandles
-title: IVPBaseConfig::SetDDSurfaceKernelHandles method
+title: IVPBaseConfig::SetDDSurfaceKernelHandles
 author: windows-driver-content
 description: The SetDDSurfaceKernelHandles method specifies the kernel-mode handles of the DirectDraw surfaces to be used for the overlay suface.
 old-location: dshow\ivpbaseconfig_setddsurfacekernelhandles.htm
 old-project: DirectShow
 ms.assetid: e180f731-a540-4754-93ff-232ad4502c6f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], SetDDSurfaceKernelHandles method, IVPBaseConfig::SetDDSurfaceKernelHandles, IVPBaseConfigSetDDSurfaceKernelHandle, SetDDSurfaceKernelHandles method [DirectShow], SetDDSurfaceKernelHandles method [DirectShow], IVPBaseConfig interface, SetDDSurfaceKernelHandles,IVPBaseConfig.SetDDSurfaceKernelHandles, dshow.ivpbaseconfig_setddsurfacekernelhandles, vpconfig/IVPBaseConfig::SetDDSurfaceKernelHandles
+ms.date: 4/30/2018
+ms.keywords: IVPBaseConfig interface [DirectShow],SetDDSurfaceKernelHandles method, IVPBaseConfig.SetDDSurfaceKernelHandles, IVPBaseConfig::SetDDSurfaceKernelHandles, IVPBaseConfigSetDDSurfaceKernelHandle, SetDDSurfaceKernelHandles, SetDDSurfaceKernelHandles method [DirectShow], SetDDSurfaceKernelHandles method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setddsurfacekernelhandles, vpconfig/IVPBaseConfig::SetDDSurfaceKernelHandles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVPBaseConfig::SetDDSurfaceKernelHandles method
+# IVPBaseConfig::SetDDSurfaceKernelHandles
 
 
 ## -description

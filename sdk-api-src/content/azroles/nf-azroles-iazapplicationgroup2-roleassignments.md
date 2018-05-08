@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup2.RoleAssignments
-title: IAzApplicationGroup2::RoleAssignments method
+title: IAzApplicationGroup2::RoleAssignments
 author: windows-driver-content
 description: Gets a collection of IAzRoleAssignment objects associated with this application group.
 old-location: security\iazapplicationgroup2_roleassignments_method.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 4996fb10-7b46-48e4-8028-a24ae4072bec
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzApplicationGroup2, IAzApplicationGroup2 interface [Security], RoleAssignments property, IAzApplicationGroup2.RoleAssignments, IAzApplicationGroup2::RoleAssignments, IAzApplicationGroup2::get_RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security], IAzApplicationGroup2 interface, RoleAssignments,IAzApplicationGroup2.RoleAssignments, azroles/IAzApplicationGroup2::RoleAssignments, azroles/IAzApplicationGroup2::get_RoleAssignments, security.iazapplicationgroup2_roleassignments_method
+ms.keywords: IAzApplicationGroup2 interface [Security],RoleAssignments property, IAzApplicationGroup2.RoleAssignments, IAzApplicationGroup2::RoleAssignments, IAzApplicationGroup2::get_RoleAssignments, RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzApplicationGroup2 interface, azroles/IAzApplicationGroup2::RoleAssignments, azroles/IAzApplicationGroup2::get_RoleAssignments, security.iazapplicationgroup2_roleassignments_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAzApplicationGroup2::RoleAssignments method
+# IAzApplicationGroup2::RoleAssignments
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: ce3f9f7e-3d0a-445f-b3db-671ee595aedf
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventSubscription, IEventSubscription interface [COM+], IEventSubscription interface [COM+], described, _cos_IEventSubscription, cos.ieventsubscription, eventsys/IEventSubscription
+ms.keywords: IEventSubscription, IEventSubscription interface [COM+], IEventSubscription interface [COM+],described, _cos_IEventSubscription, cos.ieventsubscription, eventsys/IEventSubscription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

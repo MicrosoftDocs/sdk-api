@@ -1,14 +1,14 @@
 ---
 UID: NF:wmpplug.IWMPPluginUI.SetProperty
-title: IWMPPluginUI::SetProperty method
+title: IWMPPluginUI::SetProperty
 author: windows-driver-content
 description: The SetProperty method is called by Windows Media Player to set name/value property pairs for the plug-in.
 old-location: wmp\iwmppluginui_setproperty.htm
 old-project: WMP
 ms.assetid: 33b36239-3bda-44d3-8f85-7826bd8d3376
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPluginUI, IWMPPluginUI interface [Windows Media Player], SetProperty method, IWMPPluginUI::SetProperty, IWMPPluginUISetProperty, SetProperty method [Windows Media Player], SetProperty method [Windows Media Player], IWMPPluginUI interface, SetProperty,IWMPPluginUI.SetProperty, wmp.iwmppluginui_setproperty, wmpplug/IWMPPluginUI::SetProperty
+ms.date: 5/4/2018
+ms.keywords: IWMPPluginUI interface [Windows Media Player],SetProperty method, IWMPPluginUI.SetProperty, IWMPPluginUI::SetProperty, IWMPPluginUISetProperty, SetProperty, SetProperty method [Windows Media Player], SetProperty method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_setproperty, wmpplug/IWMPPluginUI::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPluginUI::SetProperty method
+# IWMPPluginUI::SetProperty
 
 
 ## -description

@@ -1,0 +1,5 @@
+# [Using the Windows Headers](../_winprog/index.md)
+## [Msxml.h](index.md)
+### [IXMLElementCollection::get_length](../msxml/nf-msxml-ixmlelementcollection-get_length.md)
+### [IXMLElementCollection::item](../msxml/nf-msxml-ixmlelementcollection-item.md)
+### [IXMLElementCollection interface](../msxml/nn-msxml-ixmlelementcollection.md)

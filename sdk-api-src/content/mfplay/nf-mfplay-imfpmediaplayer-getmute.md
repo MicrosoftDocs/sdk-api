@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetMute
-title: IMFPMediaPlayer::GetMute method
+title: IMFPMediaPlayer::GetMute
 author: windows-driver-content
 description: Queries whether the audio is muted.
 old-location: mf\imfpmediaplayer_getmute.htm
 old-project: medfound
 ms.assetid: 2a628608-37ea-48f3-aed4-0344d47ede9f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetMute method [Media Foundation], GetMute method [Media Foundation], IMFPMediaPlayer interface, GetMute,IMFPMediaPlayer.GetMute, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetMute method, IMFPMediaPlayer::GetMute, mf.imfpmediaplayer_getmute, mfplay/IMFPMediaPlayer::GetMute
+ms.date: 5/3/2018
+ms.keywords: GetMute, GetMute method [Media Foundation], GetMute method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetMute method, IMFPMediaPlayer.GetMute, IMFPMediaPlayer::GetMute, mf.imfpmediaplayer_getmute, mfplay/IMFPMediaPlayer::GetMute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::GetMute method
+# IMFPMediaPlayer::GetMute
 
 
 ## -description

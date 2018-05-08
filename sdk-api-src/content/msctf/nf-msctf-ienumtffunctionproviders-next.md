@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Next
-title: IEnumTfFunctionProviders::Next method
+title: IEnumTfFunctionProviders::Next
 author: windows-driver-content
 description: IEnumTfFunctionProviders::Next method
 old-location: tsf\ienumtffunctionproviders_next.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c9938eb0-c084-4663-9aef-584c987a08a7
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfFunctionProviders, IEnumTfFunctionProviders interface [Text Services Framework], Next method, IEnumTfFunctionProviders::Next, Next method [Text Services Framework], Next method [Text Services Framework], IEnumTfFunctionProviders interface, Next,IEnumTfFunctionProviders.Next, _tsf_ienumtffunctionproviders_next_ref, msctf/IEnumTfFunctionProviders::Next, tsf.ienumtffunctionproviders_next
+ms.keywords: IEnumTfFunctionProviders interface [Text Services Framework],Next method, IEnumTfFunctionProviders.Next, IEnumTfFunctionProviders::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfFunctionProviders interface, _tsf_ienumtffunctionproviders_next_ref, msctf/IEnumTfFunctionProviders::Next, tsf.ienumtffunctionproviders_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfFunctionProviders::Next method
+# IEnumTfFunctionProviders::Next
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accChildCount
-title: IAccessible::get_accChildCount method
+title: IAccessible::get_accChildCount
 author: windows-driver-content
 description: The IAccessible::get_accChildCount method retrieves the number of children that belong to this object. All objects must support this property.
 old-location: winauto\iaccessible_iaccessible__get_accchildcount.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: d80d59c0-7694-4cc6-9887-2fec7186f32e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], get_accChildCount method, IAccessible::get_accChildCount, _msaa_IAccessible_get_accChildCount, get_accChildCount method [Windows Accessibility], get_accChildCount method [Windows Accessibility], IAccessible interface, get_accChildCount,IAccessible.get_accChildCount, msaa.iaccessible_iaccessible__get_accchildcount, oleacc/IAccessible::get_accChildCount, winauto.iaccessible_iaccessible__get_accchildcount
+ms.keywords: IAccessible interface [Windows Accessibility],get_accChildCount method, IAccessible.get_accChildCount, IAccessible::get_accChildCount, _msaa_IAccessible_get_accChildCount, get_accChildCount, get_accChildCount method [Windows Accessibility], get_accChildCount method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accchildcount, oleacc/IAccessible::get_accChildCount, winauto.iaccessible_iaccessible__get_accchildcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccessible::get_accChildCount method
+# IAccessible::get_accChildCount
 
 
 ## -description

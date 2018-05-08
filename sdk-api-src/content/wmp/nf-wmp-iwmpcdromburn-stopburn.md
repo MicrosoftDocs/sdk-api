@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.stopBurn
-title: IWMPCdromBurn::stopBurn method
+title: IWMPCdromBurn::stopBurn
 author: windows-driver-content
 description: The stopBurn method stops the CD burning process.
 old-location: wmp\iwmpcdromburn_stopburn.htm
 old-project: WMP
 ms.assetid: cf001a08-97e9-4f88-919a-54651e3bfd5d
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], stopBurn method, IWMPCdromBurn::stopBurn, IWMPCdromBurnstopBurn, stopBurn method [Windows Media Player], stopBurn method [Windows Media Player], IWMPCdromBurn interface, stopBurn,IWMPCdromBurn.stopBurn, wmp.iwmpcdromburn_stopburn, wmp/IWMPCdromBurn::stopBurn
+ms.date: 5/4/2018
+ms.keywords: IWMPCdromBurn interface [Windows Media Player],stopBurn method, IWMPCdromBurn.stopBurn, IWMPCdromBurn::stopBurn, IWMPCdromBurnstopBurn, stopBurn, stopBurn method [Windows Media Player], stopBurn method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_stopburn, wmp/IWMPCdromBurn::stopBurn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCdromBurn::stopBurn method
+# IWMPCdromBurn::stopBurn
 
 
 ## -description

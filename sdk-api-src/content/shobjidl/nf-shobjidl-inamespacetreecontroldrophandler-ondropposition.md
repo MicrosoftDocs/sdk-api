@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDropPosition
-title: INameSpaceTreeControlDropHandler::OnDropPosition method
+title: INameSpaceTreeControlDropHandler::OnDropPosition
 author: windows-driver-content
 description: Called when the item is being dropped within the same level (within the same parent folder) in the tree.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDropPosition.htm
 old-project: shell
 ms.assetid: 72d14961-85d1-428c-b2de-70c49c91b5b0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: INameSpaceTreeControlDropHandler, INameSpaceTreeControlDropHandler interface [Windows Shell], OnDropPosition method, INameSpaceTreeControlDropHandler::OnDropPosition, OnDropPosition method [Windows Shell], OnDropPosition method [Windows Shell], INameSpaceTreeControlDropHandler interface, OnDropPosition,INameSpaceTreeControlDropHandler.OnDropPosition, _shell_INameSpaceTreeControlDropHandler_OnDropPosition, shell.INameSpaceTreeControlDropHandler_OnDropPosition, shobjidl/INameSpaceTreeControlDropHandler::OnDropPosition
+ms.date: 5/3/2018
+ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDropPosition method, INameSpaceTreeControlDropHandler.OnDropPosition, INameSpaceTreeControlDropHandler::OnDropPosition, OnDropPosition, OnDropPosition method [Windows Shell], OnDropPosition method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDropPosition, shell.INameSpaceTreeControlDropHandler_OnDropPosition, shobjidl/INameSpaceTreeControlDropHandler::OnDropPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeControlDropHandler::OnDropPosition method
+# INameSpaceTreeControlDropHandler::OnDropPosition
 
 
 ## -description

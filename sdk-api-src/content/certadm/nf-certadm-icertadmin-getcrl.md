@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.ICertAdmin.GetCRL
-title: ICertAdmin::GetCRL method
+title: ICertAdmin::GetCRL
 author: windows-driver-content
 description: Retrieves the current certificate revocation list (CRL) for the Certificate Services certification authority (CA).
 old-location: security\icertadmin2_getcrl.htm
 old-project: SecCrypto
 ms.assetid: bdfc64dd-7446-4c44-997f-fa0086bfbb4f
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertAdmin object [Security], GetCRL method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, GetCRL method [Security], GetCRL method [Security], CCertAdmin object, GetCRL method [Security], ICertAdmin interface, GetCRL method [Security], ICertAdmin2 interface, GetCRL,ICertAdmin.GetCRL, ICertAdmin, ICertAdmin interface [Security], GetCRL method, ICertAdmin2 interface [Security], GetCRL method, ICertAdmin2::GetCRL, ICertAdmin::GetCRL, certadm/ICertAdmin2::GetCRL, certadm/ICertAdmin::GetCRL, security.icertadmin2_getcrl
+ms.date: 4/30/2018
+ms.keywords: CCertAdmin object [Security],GetCRL method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, GetCRL, GetCRL method [Security], GetCRL method [Security],CCertAdmin object, GetCRL method [Security],ICertAdmin interface, GetCRL method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],GetCRL method, ICertAdmin.GetCRL, ICertAdmin2 interface [Security],GetCRL method, ICertAdmin2::GetCRL, ICertAdmin::GetCRL, certadm/ICertAdmin2::GetCRL, certadm/ICertAdmin::GetCRL, security.icertadmin2_getcrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# ICertAdmin::GetCRL method
+# ICertAdmin::GetCRL
 
 
 ## -description

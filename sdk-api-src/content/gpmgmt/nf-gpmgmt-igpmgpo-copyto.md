@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.CopyTo
-title: IGPMGPO::CopyTo method
+title: IGPMGPO::CopyTo
 author: windows-driver-content
 description: Copies the current Group Policy object (GPO) to the specified domain and then returns a pointer to the copy of the GPO.
 old-location: gpmc\igpmgpo_copyto.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 17f4c6b2-6c75-4d4c-88c5-6d9ef2cb7a07
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CopyTo method [GPMC], CopyTo method [GPMC], GPMGPO object, CopyTo method [GPMC], IGPMGPO interface, CopyTo,IGPMGPO.CopyTo, GPMGPO object [GPMC], CopyTo method, IGPMGPO, IGPMGPO interface [GPMC], CopyTo method, IGPMGPO::CopyTo, _win32_igpmgpo_copyto, gpmc.igpmgpo_copyto, gpmgmt/IGPMGPO::CopyTo
+ms.keywords: CopyTo, CopyTo method [GPMC], CopyTo method [GPMC],GPMGPO object, CopyTo method [GPMC],IGPMGPO interface, GPMGPO object [GPMC],CopyTo method, IGPMGPO interface [GPMC],CopyTo method, IGPMGPO.CopyTo, IGPMGPO::CopyTo, _win32_igpmgpo_copyto, gpmc.igpmgpo_copyto, gpmgmt/IGPMGPO::CopyTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMGPO::CopyTo method
+# IGPMGPO::CopyTo
 
 
 ## -description

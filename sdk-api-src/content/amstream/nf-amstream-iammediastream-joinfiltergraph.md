@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaStream.JoinFilterGraph
-title: IAMMediaStream::JoinFilterGraph method
+title: IAMMediaStream::JoinFilterGraph
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The JoinFilterGraph method connects a media stream filter to a filter graph.
 old-location: dshow\iammediastream_joinfiltergraph.htm
 old-project: DirectShow
 ms.assetid: b14e9be4-f292-4a71-b541-4fda2640591d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaStream, IAMMediaStream interface [DirectShow], JoinFilterGraph method, IAMMediaStream::JoinFilterGraph, IAMMediaStreamJoinFilterGraph, JoinFilterGraph method [DirectShow], JoinFilterGraph method [DirectShow], IAMMediaStream interface, JoinFilterGraph,IAMMediaStream.JoinFilterGraph, amstream/IAMMediaStream::JoinFilterGraph, dshow.iammediastream_joinfiltergraph
+ms.date: 4/30/2018
+ms.keywords: IAMMediaStream interface [DirectShow],JoinFilterGraph method, IAMMediaStream.JoinFilterGraph, IAMMediaStream::JoinFilterGraph, IAMMediaStreamJoinFilterGraph, JoinFilterGraph, JoinFilterGraph method [DirectShow], JoinFilterGraph method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::JoinFilterGraph, dshow.iammediastream_joinfiltergraph
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaStream::JoinFilterGraph method
+# IAMMediaStream::JoinFilterGraph
 
 
 ## -description

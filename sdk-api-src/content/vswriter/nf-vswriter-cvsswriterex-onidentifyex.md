@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriterEx.OnIdentifyEx
-title: CVssWriterEx::OnIdentifyEx method
+title: CVssWriterEx::OnIdentifyEx
 author: windows-driver-content
 description: Returns a pointer to an IVssCreateWriterMetadataEx object.
 old-location: base\cvsswriterex_onidentifyex.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 4cb3b8f6-f702-4fba-a3cc-af84897cfd82
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriterEx, CVssWriterEx interface, OnIdentifyEx method, CVssWriterEx::OnIdentifyEx, OnIdentifyEx method, OnIdentifyEx method, CVssWriterEx interface, OnIdentifyEx,CVssWriterEx.OnIdentifyEx, base.cvsswriterex_onidentifyex, vswriter/CVssWriterEx::OnIdentifyEx
+ms.keywords: CVssWriterEx interface,OnIdentifyEx method, CVssWriterEx.OnIdentifyEx, CVssWriterEx::OnIdentifyEx, OnIdentifyEx, OnIdentifyEx method, OnIdentifyEx method,CVssWriterEx interface, base.cvsswriterex_onidentifyex, vswriter/CVssWriterEx::OnIdentifyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriterEx::OnIdentifyEx method
+# CVssWriterEx::OnIdentifyEx
 
 
 ## -description

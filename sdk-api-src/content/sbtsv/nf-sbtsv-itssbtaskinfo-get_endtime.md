@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_EndTime
-title: ITsSbTaskInfo::get_EndTime method
+title: ITsSbTaskInfo::get_EndTime
 author: windows-driver-content
 description: Retrieves the latest time the task agent can start the task.
 old-location: termserv\itssbtaskinfo_endtime.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 3bf8b99f-02d2-41b4-82e1-7403b827b701
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EndTime property [Remote Desktop Services], EndTime property [Remote Desktop Services], ITsSbTaskInfo interface, ITsSbTaskInfo, ITsSbTaskInfo interface [Remote Desktop Services], EndTime property, ITsSbTaskInfo.EndTime, ITsSbTaskInfo::get_EndTime, get_EndTime,ITsSbTaskInfo.get_EndTime, sbtsv/ITsSbTaskInfo::EndTime, sbtsv/ITsSbTaskInfo::get_EndTime, termserv.itssbtaskinfo_endtime
+ms.keywords: EndTime property [Remote Desktop Services], EndTime property [Remote Desktop Services],ITsSbTaskInfo interface, ITsSbTaskInfo interface [Remote Desktop Services],EndTime property, ITsSbTaskInfo.EndTime, ITsSbTaskInfo.get_EndTime, ITsSbTaskInfo::EndTime, ITsSbTaskInfo::get_EndTime, get_EndTime, sbtsv/ITsSbTaskInfo::EndTime, sbtsv/ITsSbTaskInfo::get_EndTime, termserv.itssbtaskinfo_endtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbTaskInfo::get_EndTime method
+# ITsSbTaskInfo::get_EndTime
 
 
 ## -description

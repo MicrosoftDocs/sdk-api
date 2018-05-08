@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.GetCurrentGrabbedItems
-title: IUIAutomationDragPattern::GetCurrentGrabbedItems method
+title: IUIAutomationDragPattern::GetCurrentGrabbedItems
 author: windows-driver-content
 description: Retrieves a collection of elements that represent the full set of items that the user is dragging as part of a drag operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_getcurrentgrabbeditems.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9311E1E3-FE4E-428F-9DAD-32AE347477EF
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCurrentGrabbedItems method [Windows Accessibility], GetCurrentGrabbedItems method [Windows Accessibility], IUIAutomationDragPattern interface, GetCurrentGrabbedItems,IUIAutomationDragPattern.GetCurrentGrabbedItems, IUIAutomationDragPattern, IUIAutomationDragPattern interface [Windows Accessibility], GetCurrentGrabbedItems method, IUIAutomationDragPattern::GetCurrentGrabbedItems, uiautomationclient/IUIAutomationDragPattern::GetCurrentGrabbedItems, winauto.uiauto_iuiautomationdragpattern_getcurrentgrabbeditems
+ms.keywords: GetCurrentGrabbedItems, GetCurrentGrabbedItems method [Windows Accessibility], GetCurrentGrabbedItems method [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],GetCurrentGrabbedItems method, IUIAutomationDragPattern.GetCurrentGrabbedItems, IUIAutomationDragPattern::GetCurrentGrabbedItems, uiautomationclient/IUIAutomationDragPattern::GetCurrentGrabbedItems, winauto.uiauto_iuiautomationdragpattern_getcurrentgrabbeditems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationDragPattern::GetCurrentGrabbedItems method
+# IUIAutomationDragPattern::GetCurrentGrabbedItems
 
 
 ## -description

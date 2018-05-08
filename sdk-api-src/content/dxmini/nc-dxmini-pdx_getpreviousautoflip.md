@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3b19e4be-413c-4014-b414-cb2ba3e14b14
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DxGetPreviousAutoflip, DxGetPreviousAutoflip callback function [Display Devices], PDX_GETPREVIOUSAUTOFLIP, VideoMiniPort_DxApiFunctions_07351af6-3fdc-4a60-852f-23ea28bc6e2b.xml, display.dxgetpreviousautoflip, dxmini/DxGetPreviousAutoflip
+ms.keywords: DxGetPreviousAutoflip, DxGetPreviousAutoflip callback function [Display Devices], PDX_GETPREVIOUSAUTOFLIP, PDX_GETPREVIOUSAUTOFLIP callback, VideoMiniPort_DxApiFunctions_07351af6-3fdc-4a60-852f-23ea28bc6e2b.xml, display.dxgetpreviousautoflip, dxmini/DxGetPreviousAutoflip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# PDX_GETPREVIOUSAUTOFLIP callback
+# PDX_GETPREVIOUSAUTOFLIP callback function
 
 
 ## -description

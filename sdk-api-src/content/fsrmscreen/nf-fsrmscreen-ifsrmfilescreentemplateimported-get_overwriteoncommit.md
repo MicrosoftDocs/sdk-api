@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateImported.get_OverwriteOnCommit
-title: IFsrmFileScreenTemplateImported::get_OverwriteOnCommit method
+title: IFsrmFileScreenTemplateImported::get_OverwriteOnCommit
 author: windows-driver-content
 description: Retrieves or sets a value that determines whether a file screen template is overwritten if it exists when the template is imported.
 old-location: fsrm\ifsrmfilescreentemplateimported_overwriteoncommit.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 0172be46-f555-4d39-ab2e-890cde6b82b7
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileScreenTemplateImported, IFsrmFileScreenTemplateImported interface [File Server Resource Manager], OverwriteOnCommit property, IFsrmFileScreenTemplateImported.OverwriteOnCommit, IFsrmFileScreenTemplateImported::get_OverwriteOnCommit, IFsrmFileScreenTemplateImported::put_OverwriteOnCommit, OverwriteOnCommit property [File Server Resource Manager], OverwriteOnCommit property [File Server Resource Manager], IFsrmFileScreenTemplateImported interface, fs.ifsrmfilescreentemplateimported_overwriteoncommit, fsrm.ifsrmfilescreentemplateimported_overwriteoncommit, fsrmscreen/IFsrmFileScreenTemplateImported::OverwriteOnCommit, fsrmscreen/IFsrmFileScreenTemplateImported::get_OverwriteOnCommit, fsrmscreen/IFsrmFileScreenTemplateImported::put_OverwriteOnCommit, get_OverwriteOnCommit,IFsrmFileScreenTemplateImported.get_OverwriteOnCommit
+ms.keywords: IFsrmFileScreenTemplateImported interface [File Server Resource Manager],OverwriteOnCommit property, IFsrmFileScreenTemplateImported.OverwriteOnCommit, IFsrmFileScreenTemplateImported.get_OverwriteOnCommit, IFsrmFileScreenTemplateImported::OverwriteOnCommit, IFsrmFileScreenTemplateImported::get_OverwriteOnCommit, IFsrmFileScreenTemplateImported::put_OverwriteOnCommit, OverwriteOnCommit property [File Server Resource Manager], OverwriteOnCommit property [File Server Resource Manager],IFsrmFileScreenTemplateImported interface, fs.ifsrmfilescreentemplateimported_overwriteoncommit, fsrm.ifsrmfilescreentemplateimported_overwriteoncommit, fsrmscreen/IFsrmFileScreenTemplateImported::OverwriteOnCommit, fsrmscreen/IFsrmFileScreenTemplateImported::get_OverwriteOnCommit, fsrmscreen/IFsrmFileScreenTemplateImported::put_OverwriteOnCommit, get_OverwriteOnCommit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenTemplateImported::get_OverwriteOnCommit method
+# IFsrmFileScreenTemplateImported::get_OverwriteOnCommit
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.GetUpdateRectCount
-title: IVirtualSurfaceImageSourceNative::GetUpdateRectCount method
+title: IVirtualSurfaceImageSourceNative::xaml
 author: windows-driver-content
 description: Gets the total number of regions of the surface that must be updated.
 old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterectcount.htm
 old-project: WinRT
 ms.assetid: AE717587-0156-4DEC-B7B2-FF8937117D5A
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetUpdateRectCount method [Windows Runtime], GetUpdateRectCount method [Windows Runtime], IVirtualSurfaceImageSourceNative interface, GetUpdateRectCount,IVirtualSurfaceImageSourceNative.GetUpdateRectCount, IVirtualSurfaceImageSourceNative, IVirtualSurfaceImageSourceNative interface [Windows Runtime], GetUpdateRectCount method, IVirtualSurfaceImageSourceNative::GetUpdateRectCount, windows/IVirtualSurfaceImageSourceNative::GetUpdateRectCount, winrt.ivirtualsurfaceimagesourcenative_getupdaterectcount
+ms.date: 5/4/2018
+ms.keywords: GetUpdateRectCount, GetUpdateRectCount method [Windows Runtime], GetUpdateRectCount method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, IVirtualSurfaceImageSourceNative interface [Windows Runtime],GetUpdateRectCount method, IVirtualSurfaceImageSourceNative.GetUpdateRectCount, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::GetUpdateRectCount, IVirtualSurfaceImageSourceNative::xaml, windows/IVirtualSurfaceImageSourceNative::GetUpdateRectCount, winrt.ivirtualsurfaceimagesourcenative_getupdaterectcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IVirtualSurfaceImageSourceNative::GetUpdateRectCount method
+# IVirtualSurfaceImageSourceNative::xaml
 
 
 ## -description

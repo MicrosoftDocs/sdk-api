@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChangeBatch.GetLearnedKnowledgeAfterRecoveryComplete
-title: ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete method
+title: ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete
 author: windows-driver-content
 description: Gets the knowledge the destination replica will learn after it applies all the changes in the recovery synchronization.
 old-location: winsync\isyncfullenumerationchangebatch_getlearnedknowledgeafterrecoverycomplete.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 8eb9fdbf-b1ce-4acf-837f-01d693940790
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync], GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync], ISyncFullEnumerationChangeBatch interface, GetLearnedKnowledgeAfterRecoveryComplete,ISyncFullEnumerationChangeBatch.GetLearnedKnowledgeAfterRecoveryComplete, ISyncFullEnumerationChangeBatch, ISyncFullEnumerationChangeBatch interface [Windows Sync], GetLearnedKnowledgeAfterRecoveryComplete method, ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete, winsync.isyncfullenumerationchangebatch_getlearnedknowledgeafterrecoverycomplete, winsync/ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete
+ms.keywords: GetLearnedKnowledgeAfterRecoveryComplete, GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync], GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync],ISyncFullEnumerationChangeBatch interface, ISyncFullEnumerationChangeBatch interface [Windows Sync],GetLearnedKnowledgeAfterRecoveryComplete method, ISyncFullEnumerationChangeBatch.GetLearnedKnowledgeAfterRecoveryComplete, ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete, winsync.isyncfullenumerationchangebatch_getlearnedknowledgeafterrecoverycomplete, winsync/ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete method
+# ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete
 
 
 ## -description

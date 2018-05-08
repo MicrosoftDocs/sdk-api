@@ -7,8 +7,8 @@ old-location: search\_search_ISearchManager.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\isearchmanager.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchManager, ISearchManager interface [search], ISearchManager interface [search], described, _search_ISearchManager, search._search_ISearchManager, searchapi/ISearchManager
+ms.date: 5/4/2018
+ms.keywords: ISearchManager, ISearchManager interface [search], ISearchManager interface [search],described, _search_ISearchManager, search._search_ISearchManager, searchapi/ISearchManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

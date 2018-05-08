@@ -85,7 +85,7 @@ Unsigned integer between 0 and 255 representing the red component.
 Unsigned integer between 0 and 255 representing the alpha component.
 
 
-#### - c
+### -field c
 
 Unsigned 32-bit integer representing the color. The colors are stored in A8R8G8B8 format.
 

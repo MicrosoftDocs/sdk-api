@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_WakeToRun
-title: ITaskSettings::get_WakeToRun method
+title: ITaskSettings::get_WakeToRun
 author: windows-driver-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler will wake the computer when it is time to run the task, and keep the computer awake until the task is completed.
 old-location: taskschd\itasksettings_waketorun.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: efa1c7cd-7a70-4760-909f-bb5a1ede35f4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskSettings, ITaskSettings interface [Task Scheduler], WakeToRun property, ITaskSettings.WakeToRun, ITaskSettings::get_WakeToRun, ITaskSettings::put_WakeToRun, WakeToRun property [Task Scheduler], WakeToRun property [Task Scheduler], ITaskSettings interface, get_WakeToRun,ITaskSettings.get_WakeToRun, taskschd.itasksettings_waketorun, taskschd/ITaskSettings::WakeToRun, taskschd/ITaskSettings::get_WakeToRun, taskschd/ITaskSettings::put_WakeToRun
+ms.keywords: ITaskSettings interface [Task Scheduler],WakeToRun property, ITaskSettings.WakeToRun, ITaskSettings.get_WakeToRun, ITaskSettings::WakeToRun, ITaskSettings::get_WakeToRun, ITaskSettings::put_WakeToRun, WakeToRun property [Task Scheduler], WakeToRun property [Task Scheduler],ITaskSettings interface, get_WakeToRun, taskschd.itasksettings_waketorun, taskschd/ITaskSettings::WakeToRun, taskschd/ITaskSettings::get_WakeToRun, taskschd/ITaskSettings::put_WakeToRun
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskSettings::get_WakeToRun method
+# ITaskSettings::get_WakeToRun
 
 
 ## -description

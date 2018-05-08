@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.EnumModuleDefinitions
-title: IFsrmClassificationManager::EnumModuleDefinitions method
+title: IFsrmClassificationManager::EnumModuleDefinitions
 author: windows-driver-content
 description: Enumerates the module definitions of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_enummoduledefinitions.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: eeda0802-e450-4a8b-a08c-135784540b17
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EnumModuleDefinitions method [File Server Resource Manager], EnumModuleDefinitions method [File Server Resource Manager], FsrmClassificationManager class, EnumModuleDefinitions method [File Server Resource Manager], IFsrmClassificationManager interface, EnumModuleDefinitions method [File Server Resource Manager], IFsrmClassificationManager2 interface, EnumModuleDefinitions,IFsrmClassificationManager.EnumModuleDefinitions, FsrmClassificationManager class [File Server Resource Manager], EnumModuleDefinitions method, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], EnumModuleDefinitions method, IFsrmClassificationManager2 interface [File Server Resource Manager], EnumModuleDefinitions method, IFsrmClassificationManager2::EnumModuleDefinitions, IFsrmClassificationManager::EnumModuleDefinitions, fs.ifsrmclassificationmanager_enummoduledefinitions, fsrm.ifsrmclassificationmanager_enummoduledefinitions, fsrmpipeline/IFsrmClassificationManager2::EnumModuleDefinitions, fsrmpipeline/IFsrmClassificationManager::EnumModuleDefinitions
+ms.keywords: EnumModuleDefinitions, EnumModuleDefinitions method [File Server Resource Manager], EnumModuleDefinitions method [File Server Resource Manager],FsrmClassificationManager class, EnumModuleDefinitions method [File Server Resource Manager],IFsrmClassificationManager interface, EnumModuleDefinitions method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumModuleDefinitions method, IFsrmClassificationManager interface [File Server Resource Manager],EnumModuleDefinitions method, IFsrmClassificationManager.EnumModuleDefinitions, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumModuleDefinitions method, IFsrmClassificationManager2::EnumModuleDefinitions, IFsrmClassificationManager::EnumModuleDefinitions, fs.ifsrmclassificationmanager_enummoduledefinitions, fsrm.ifsrmclassificationmanager_enummoduledefinitions, fsrmpipeline/IFsrmClassificationManager2::EnumModuleDefinitions, fsrmpipeline/IFsrmClassificationManager::EnumModuleDefinitions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassificationManager::EnumModuleDefinitions method
+# IFsrmClassificationManager::EnumModuleDefinitions
 
 
 ## -description

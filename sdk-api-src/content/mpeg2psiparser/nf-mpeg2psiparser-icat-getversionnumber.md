@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.GetVersionNumber
-title: ICAT::GetVersionNumber method
+title: ICAT::GetVersionNumber
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_getversionnumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d117e4dd-5e7f-4f60-b657-25eae0f655cc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies], ICAT interface, GetVersionNumber,ICAT.GetVersionNumber, ICAT, ICAT interface [Microsoft TV Technologies], GetVersionNumber method, ICAT::GetVersionNumber, ICATGetVersionNumber, mpeg2psiparser/ICAT::GetVersionNumber, mstv.icat_getversionnumber
+ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetVersionNumber method, ICAT.GetVersionNumber, ICAT::GetVersionNumber, ICATGetVersionNumber, mpeg2psiparser/ICAT::GetVersionNumber, mstv.icat_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ICAT::GetVersionNumber method
+# ICAT::GetVersionNumber
 
 
 ## -description

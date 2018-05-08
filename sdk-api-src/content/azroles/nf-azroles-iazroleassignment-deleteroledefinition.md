@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRoleAssignment.DeleteRoleDefinition
-title: IAzRoleAssignment::DeleteRoleDefinition method
+title: IAzRoleAssignment::DeleteRoleDefinition
 author: windows-driver-content
 description: Removes the IAzRoleDefinition object with the specified name from this IAzRoleAssignment object.
 old-location: security\iazroleassignment_deleteroledefinition.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 17af80d0-d9b4-4e20-b7a8-72e8dc42b69d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security], IAzRoleAssignment interface, DeleteRoleDefinition,IAzRoleAssignment.DeleteRoleDefinition, IAzRoleAssignment, IAzRoleAssignment interface [Security], DeleteRoleDefinition method, IAzRoleAssignment::DeleteRoleDefinition, azroles/IAzRoleAssignment::DeleteRoleDefinition, security.iazroleassignment_deleteroledefinition
+ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzRoleAssignment interface, IAzRoleAssignment interface [Security],DeleteRoleDefinition method, IAzRoleAssignment.DeleteRoleDefinition, IAzRoleAssignment::DeleteRoleDefinition, azroles/IAzRoleAssignment::DeleteRoleDefinition, security.iazroleassignment_deleteroledefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzRoleAssignment::DeleteRoleDefinition method
+# IAzRoleAssignment::DeleteRoleDefinition
 
 
 ## -description

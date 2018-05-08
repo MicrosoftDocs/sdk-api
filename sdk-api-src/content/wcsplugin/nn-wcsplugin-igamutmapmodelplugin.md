@@ -8,7 +8,7 @@ old-project: WCS
 ms.assetid: 794eb94c-fdb3-42b3-8320-b13bf51324d1
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IGamutMapModelPlugIn, IGamutMapModelPlugIn interface [Windows Color System], IGamutMapModelPlugIn interface [Windows Color System], described, _color_IGamutMapModelPlugIn, wcs.igamutmapmodelplugin, wcsplugin/IGamutMapModelPlugIn
+ms.keywords: IGamutMapModelPlugIn, IGamutMapModelPlugIn interface [Windows Color System], IGamutMapModelPlugIn interface [Windows Color System],described, _color_IGamutMapModelPlugIn, wcs.igamutmapmodelplugin, wcsplugin/IGamutMapModelPlugIn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

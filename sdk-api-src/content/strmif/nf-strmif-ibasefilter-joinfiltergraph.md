@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IBaseFilter.JoinFilterGraph
-title: IBaseFilter::JoinFilterGraph method
+title: IBaseFilter::JoinFilterGraph
 author: windows-driver-content
 description: The JoinFilterGraph method notifies the filter that it has joined or left the filter graph.
 old-location: dshow\ibasefilter_joinfiltergraph.htm
 old-project: DirectShow
 ms.assetid: 1f01c71f-5c12-4bf3-937c-740168baf776
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBaseFilter, IBaseFilter interface [DirectShow], JoinFilterGraph method, IBaseFilter::JoinFilterGraph, IBaseFilterJoinFilterGraph, JoinFilterGraph method [DirectShow], JoinFilterGraph method [DirectShow], IBaseFilter interface, JoinFilterGraph,IBaseFilter.JoinFilterGraph, dshow.ibasefilter_joinfiltergraph, strmif/IBaseFilter::JoinFilterGraph
+ms.date: 4/30/2018
+ms.keywords: IBaseFilter interface [DirectShow],JoinFilterGraph method, IBaseFilter.JoinFilterGraph, IBaseFilter::JoinFilterGraph, IBaseFilterJoinFilterGraph, JoinFilterGraph, JoinFilterGraph method [DirectShow], JoinFilterGraph method [DirectShow],IBaseFilter interface, dshow.ibasefilter_joinfiltergraph, strmif/IBaseFilter::JoinFilterGraph
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IBaseFilter::JoinFilterGraph method
+# IBaseFilter::JoinFilterGraph
 
 
 ## -description

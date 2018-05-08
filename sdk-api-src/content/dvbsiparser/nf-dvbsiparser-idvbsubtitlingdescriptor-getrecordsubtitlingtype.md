@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordSubtitlingType
-title: IDvbSubtitlingDescriptor::GetRecordSubtitlingType method
+title: IDvbSubtitlingDescriptor::GetRecordSubtitlingType
 author: windows-driver-content
 description: Gets the subtitling component type from a DVB subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordsubtitlingtype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 5ab91508-9afe-4ab7-957f-5467e87ce7ee
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordSubtitlingType method [Microsoft TV Technologies], GetRecordSubtitlingType method [Microsoft TV Technologies], IDvbSubtitlingDescriptor interface, GetRecordSubtitlingType,IDvbSubtitlingDescriptor.GetRecordSubtitlingType, IDvbSubtitlingDescriptor, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies], GetRecordSubtitlingType method, IDvbSubtitlingDescriptor::GetRecordSubtitlingType, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordSubtitlingType, mstv.idvbsubtitlingdescriptor_getrecordsubtitlingtype
+ms.keywords: GetRecordSubtitlingType, GetRecordSubtitlingType method [Microsoft TV Technologies], GetRecordSubtitlingType method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordSubtitlingType method, IDvbSubtitlingDescriptor.GetRecordSubtitlingType, IDvbSubtitlingDescriptor::GetRecordSubtitlingType, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordSubtitlingType, mstv.idvbsubtitlingdescriptor_getrecordsubtitlingtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbSubtitlingDescriptor::GetRecordSubtitlingType method
+# IDvbSubtitlingDescriptor::GetRecordSubtitlingType
 
 
 ## -description

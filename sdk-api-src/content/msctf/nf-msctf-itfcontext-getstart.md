@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetStart
-title: ITfContext::GetStart method
+title: ITfContext::GetStart
 author: windows-driver-content
 description: ITfContext::GetStart method
 old-location: tsf\itfcontext_getstart.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 3108da05-c38f-4f0c-a16a-1f7e5f05d475
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetStart method [Text Services Framework], GetStart method [Text Services Framework], ITfContext interface, GetStart,ITfContext.GetStart, ITfContext, ITfContext interface [Text Services Framework], GetStart method, ITfContext::GetStart, _tsf_itfcontext_getstart_ref, msctf/ITfContext::GetStart, tsf.itfcontext_getstart
+ms.keywords: GetStart, GetStart method [Text Services Framework], GetStart method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetStart method, ITfContext.GetStart, ITfContext::GetStart, _tsf_itfcontext_getstart_ref, msctf/ITfContext::GetStart, tsf.itfcontext_getstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContext::GetStart method
+# ITfContext::GetStart
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.ModeChange
-title: IWMPEvents::ModeChange method
+title: IWMPEvents::ModeChange
 author: windows-driver-content
 description: The ModeChange event occurs when a mode of the player is changed.
 old-location: wmp\iwmpevents_iwmpevents__modechange.htm
 old-project: WMP
 ms.assetid: 64761f19-914a-4ab5-aeb9-12c0aefc8113
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], ModeChange method, IWMPEvents::ModeChange, IWMPEventsModeChange, ModeChange method [Windows Media Player], ModeChange method [Windows Media Player], IWMPEvents interface, ModeChange,IWMPEvents.ModeChange, wmp.iwmpevents_iwmpevents__modechange, wmp/IWMPEvents::ModeChange
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],ModeChange method, IWMPEvents.ModeChange, IWMPEvents::ModeChange, IWMPEventsModeChange, ModeChange, ModeChange method [Windows Media Player], ModeChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__modechange, wmp/IWMPEvents::ModeChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::ModeChange method
+# IWMPEvents::ModeChange
 
 
 ## -description

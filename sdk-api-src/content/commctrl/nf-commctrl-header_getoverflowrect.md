@@ -7,7 +7,7 @@ old-location: controls\Header_GetOverflowRect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getoverflowrect.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: Header_GetOverflowRect, Header_GetOverflowRect macro [Windows Controls], _shell_Header_GetOverflowRect, _shell_Header_GetOverflowRect_cpp, commctrl/Header_GetOverflowRect, controls.Header_GetOverflowRect, controls._shell_Header_GetOverflowRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

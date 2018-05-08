@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.InitFromData
-title: IOleObject::InitFromData method
+title: IOleObject::InitFromData
 author: windows-driver-content
 description: Initializes a newly created object with data from a specified data object, which can reside either in the same container or on the Clipboard.
 old-location: com\ioleobject_initfromdata.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8bbda602-4421-4f79-a33a-63ded9a8bf90
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleObject, IOleObject interface [COM], InitFromData method, IOleObject::InitFromData, InitFromData method [COM], InitFromData method [COM], IOleObject interface, InitFromData,IOleObject.InitFromData, _ole_ioleobject_initfromdata, com.ioleobject_initfromdata, oleidl/IOleObject::InitFromData
+ms.keywords: IOleObject interface [COM],InitFromData method, IOleObject.InitFromData, IOleObject::InitFromData, InitFromData, InitFromData method [COM], InitFromData method [COM],IOleObject interface, _ole_ioleobject_initfromdata, com.ioleobject_initfromdata, oleidl/IOleObject::InitFromData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleObject::InitFromData method
+# IOleObject::InitFromData
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceSyncError
-title: IWMPEvents2::DeviceSyncError method
+title: IWMPEvents2::DeviceSyncError
 author: windows-driver-content
 description: The DeviceSyncError event occurs in response to a synchronization error.
 old-location: wmp\iwmpevents2_iwmpevents2__devicesyncerror.htm
 old-project: WMP
 ms.assetid: 41e9a6df-3721-4fd2-aa9d-9874a004aa9a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: DeviceSyncError method [Windows Media Player], DeviceSyncError method [Windows Media Player], IWMPEvents2 interface, DeviceSyncError,IWMPEvents2.DeviceSyncError, IWMPEvents2, IWMPEvents2 interface [Windows Media Player], DeviceSyncError method, IWMPEvents2::DeviceSyncError, IWMPEvents2DeviceSyncError, wmp.iwmpevents2_iwmpevents2__devicesyncerror, wmp/IWMPEvents2::DeviceSyncError
+ms.date: 5/4/2018
+ms.keywords: DeviceSyncError, DeviceSyncError method [Windows Media Player], DeviceSyncError method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceSyncError method, IWMPEvents2.DeviceSyncError, IWMPEvents2::DeviceSyncError, IWMPEvents2DeviceSyncError, wmp.iwmpevents2_iwmpevents2__devicesyncerror, wmp/IWMPEvents2::DeviceSyncError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents2::DeviceSyncError method
+# IWMPEvents2::DeviceSyncError
 
 
 ## -description

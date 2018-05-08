@@ -7,8 +7,8 @@ old-location: winrt\istringable.htm
 old-project: WinRT
 ms.assetid: 1D67D073-57E8-4562-8586-CAF2619995D7
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IStringable, IStringable interface [Windows Runtime], IStringable interface [Windows Runtime], described, windows/IStringable, winrt.istringable
+ms.date: 5/4/2018
+ms.keywords: IStringable, IStringable interface [Windows Runtime], IStringable interface [Windows Runtime],described, windows/IStringable, winrt.istringable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

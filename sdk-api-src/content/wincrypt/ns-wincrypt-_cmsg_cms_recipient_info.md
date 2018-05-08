@@ -7,7 +7,7 @@ old-location: security\cmsg_cms_recipient_info.htm
 old-project: SecCrypto
 ms.assetid: 27ce2430-d240-49f7-bff7-32be1695c8c0
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMSG_CMS_RECIPIENT_INFO, CMSG_CMS_RECIPIENT_INFO, CMSG_CMS_RECIPIENT_INFO structure [Security], CMSG_KEY_AGREE_RECIPIENT, CMSG_KEY_TRANS_RECIPIENT, CMSG_MAIL_LIST_RECIPIENT, PCMSG_CMS_RECIPIENT_INFO, PCMSG_CMS_RECIPIENT_INFO structure pointer [Security], _CMSG_CMS_RECIPIENT_INFO, _crypto2_cmsg_cms_recipient_info, security.cmsg_cms_recipient_info, wincrypt/CMSG_CMS_RECIPIENT_INFO, wincrypt/PCMSG_CMS_RECIPIENT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,21 +112,19 @@ pMailList
  
 
 
-
-
-#### - pKeyAgree
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/d29d04d6-065e-4bb7-843b-f563643eeb4c">CMSG_KEY_AGREE_RECIPIENT_INFO</a> structure that identifies a key agreement recipient. Used for Diffie-Hellman recipients.
-
-
-#### - pKeyTrans
+### -field DUMMYUNIONNAME.pKeyTrans
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/956b0646-50a5-46d1-aa9a-91194c35d2b2">CMSG_KEY_TRANS_RECIPIENT_INFO</a> structure that identifies a key transport recipient. Used for RSA recipients.
 
 
-#### - pMailList
+### -field DUMMYUNIONNAME.pKeyAgree
+
+A pointer to a 
+<a href="https://msdn.microsoft.com/d29d04d6-065e-4bb7-843b-f563643eeb4c">CMSG_KEY_AGREE_RECIPIENT_INFO</a> structure that identifies a key agreement recipient. Used for Diffie-Hellman recipients.
+
+
+### -field DUMMYUNIONNAME.pMailList
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/e0946278-75e9-4990-af81-d9e61da9724b">CMSG_MAIL_LIST_RECIPIENT_INFO</a> structure that identifies a recipient using a previously distributed key encryption key for the encryption/decryption of the envelopes message's <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">symmetric key</a>.

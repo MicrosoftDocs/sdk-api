@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.CopyTiff
-title: IFaxIncomingMessage::CopyTiff method
+title: IFaxIncomingMessage::CopyTiff
 author: windows-driver-content
 description: The CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax message to a file on the local computer.
 old-location: fax\_mfax_faxincomingmessage_copytiff_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1vc6.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CopyTiff method [Fax Service], CopyTiff method [Fax Service], FaxIncomingMessage object, CopyTiff,IFaxIncomingMessage.CopyTiff, FaxIncomingMessage object [Fax Service], CopyTiff method, IFaxIncomingMessage, IFaxIncomingMessage::CopyTiff, _mfax_faxincomingmessage.copytiff, fax._mfax_faxincomingmessage_copytiff, fax._mfax_faxincomingmessage_copytiff_vb
+ms.keywords: CopyTiff, CopyTiff method [Fax Service], CopyTiff method [Fax Service],FaxIncomingMessage object, FaxIncomingMessage object [Fax Service],CopyTiff method, FaxIncomingMessage.CopyTiff, IFaxIncomingMessage.CopyTiff, IFaxIncomingMessage::CopyTiff, _mfax_faxincomingmessage.copytiff, fax._mfax_faxincomingmessage_copytiff, fax._mfax_faxincomingmessage_copytiff_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxIncomingMessage::CopyTiff method
+# IFaxIncomingMessage::CopyTiff
 
 
 ## -description

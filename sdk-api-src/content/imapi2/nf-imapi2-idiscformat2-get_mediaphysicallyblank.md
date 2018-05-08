@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2.get_MediaPhysicallyBlank
-title: IDiscFormat2::get_MediaPhysicallyBlank method
+title: IDiscFormat2::get_MediaPhysicallyBlank
 author: windows-driver-content
 description: Determines if the current media is reported as physically blank by the drive.
 old-location: imapi\idiscformat2_get_mediaphysicallyblank.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 5a797742-9142-415b-896b-09526894c2a6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2, IDiscFormat2 interface [IMAPI], get_MediaPhysicallyBlank method, IDiscFormat2::get_MediaPhysicallyBlank, get_MediaPhysicallyBlank method [IMAPI], get_MediaPhysicallyBlank method [IMAPI], IDiscFormat2 interface, get_MediaPhysicallyBlank,IDiscFormat2.get_MediaPhysicallyBlank, imapi.idiscformat2_get_mediaphysicallyblank, imapi2/IDiscFormat2::get_MediaPhysicallyBlank
+ms.keywords: IDiscFormat2 interface [IMAPI],get_MediaPhysicallyBlank method, IDiscFormat2.get_MediaPhysicallyBlank, IDiscFormat2::get_MediaPhysicallyBlank, get_MediaPhysicallyBlank, get_MediaPhysicallyBlank method [IMAPI], get_MediaPhysicallyBlank method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_mediaphysicallyblank, imapi2/IDiscFormat2::get_MediaPhysicallyBlank
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2::get_MediaPhysicallyBlank method
+# IDiscFormat2::get_MediaPhysicallyBlank
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ff89bcb5-df6d-4325-b0e8-613217a68f42
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IRunningObjectTable, IRunningObjectTable interface [COM], IRunningObjectTable interface [COM], described, _com_irunningobjecttable, com.irunningobjecttable, objidl/IRunningObjectTable
+ms.keywords: IRunningObjectTable, IRunningObjectTable interface [COM], IRunningObjectTable interface [COM],described, _com_irunningobjecttable, com.irunningobjecttable, objidl/IRunningObjectTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

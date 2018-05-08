@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFSample.GetSampleTime
-title: IMFSample::GetSampleTime method
+title: IMFSample::GetSampleTime
 author: windows-driver-content
 description: Retrieves the presentation time of the sample.
 old-location: mf\imfsample_getsampletime.htm
 old-project: medfound
 ms.assetid: fc4aac9e-e7a9-43f0-af7b-54a39666044a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetSampleTime method [Media Foundation], GetSampleTime method [Media Foundation], IMFSample interface, GetSampleTime,IMFSample.GetSampleTime, IMFSample, IMFSample interface [Media Foundation], GetSampleTime method, IMFSample::GetSampleTime, fc4aac9e-e7a9-43f0-af7b-54a39666044a, mf.imfsample_getsampletime, mfobjects/IMFSample::GetSampleTime
+ms.date: 5/3/2018
+ms.keywords: GetSampleTime, GetSampleTime method [Media Foundation], GetSampleTime method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetSampleTime method, IMFSample.GetSampleTime, IMFSample::GetSampleTime, fc4aac9e-e7a9-43f0-af7b-54a39666044a, mf.imfsample_getsampletime, mfobjects/IMFSample::GetSampleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSample::GetSampleTime method
+# IMFSample::GetSampleTime
 
 
 ## -description

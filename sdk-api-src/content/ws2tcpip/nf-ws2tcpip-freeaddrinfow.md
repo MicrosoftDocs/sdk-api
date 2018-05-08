@@ -7,7 +7,7 @@ old-location: winsock\freeaddrinfow.htm
 old-project: WinSock
 ms.assetid: 0a2a226c-2068-4538-b499-04cfbfd65b8a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: FreeAddrInfoW, FreeAddrInfoW function [Winsock], winsock.freeaddrinfow, ws2tcpip/FreeAddrInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVideoProcAmp.GetRange
-title: IAMVideoProcAmp::GetRange method
+title: IAMVideoProcAmp::GetRange
 author: windows-driver-content
 description: The GetRange method gets the range and default value of a specified video property.
 old-location: dshow\iamvideoprocamp_getrange.htm
 old-project: DirectShow
 ms.assetid: 54e462a8-bb65-43e2-acf1-f0d64db2bf24
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetRange method [DirectShow], GetRange method [DirectShow], IAMVideoProcAmp interface, GetRange,IAMVideoProcAmp.GetRange, IAMVideoProcAmp, IAMVideoProcAmp interface [DirectShow], GetRange method, IAMVideoProcAmp::GetRange, IAMVideoProcAmpGetRange, dshow.iamvideoprocamp_getrange, strmif/IAMVideoProcAmp::GetRange
+ms.date: 4/30/2018
+ms.keywords: GetRange, GetRange method [DirectShow], GetRange method [DirectShow],IAMVideoProcAmp interface, IAMVideoProcAmp interface [DirectShow],GetRange method, IAMVideoProcAmp.GetRange, IAMVideoProcAmp::GetRange, IAMVideoProcAmpGetRange, dshow.iamvideoprocamp_getrange, strmif/IAMVideoProcAmp::GetRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVideoProcAmp::GetRange method
+# IAMVideoProcAmp::GetRange
 
 
 ## -description

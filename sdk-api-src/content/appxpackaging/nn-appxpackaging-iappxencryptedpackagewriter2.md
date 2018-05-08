@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: C45364CE-9943-4677-856D-8761CF21EB36
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxEncryptedPackageWriter2, IAppxEncryptedPackageWriter2 interface [App packaging and management], IAppxEncryptedPackageWriter2 interface [App packaging and management], described, appxpackaging/IAppxEncryptedPackageWriter2, appxpkg.iappxencryptedpackagewriter2
+ms.keywords: IAppxEncryptedPackageWriter2, IAppxEncryptedPackageWriter2 interface [App packaging and management], IAppxEncryptedPackageWriter2 interface [App packaging and management],described, appxpackaging/IAppxEncryptedPackageWriter2, appxpkg.iappxencryptedpackagewriter2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

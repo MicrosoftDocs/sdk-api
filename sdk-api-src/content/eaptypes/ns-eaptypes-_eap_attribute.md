@@ -68,6 +68,16 @@ req.product: Windows Media Format 9 Series or later
 The size, in bytes, of <b>pValue</b>.
 
 
+### -field pValue.size_is
+
+ 
+
+
+### -field pValue.size_is.dwLength
+
+ 
+
+
 ### -field pValue
 
 Pointer to a byte buffer that contains the data value of the attribute.

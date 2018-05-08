@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemIscsi.QueryTargets
-title: IVdsSubSystemIscsi::QueryTargets method
+title: IVdsSubSystemIscsi::QueryTargets
 author: windows-driver-content
 description: Returns an object that enumerates the iSCSI targets of the subsystem.
 old-location: base\ivdssubsystemiscsi_querytargets.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 86a89c23-beed-48d0-8d35-ed8dd39db3c6
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsSubSystemIscsi, IVdsSubSystemIscsi interface [VDS], QueryTargets method, IVdsSubSystemIscsi::QueryTargets, QueryTargets method [VDS], QueryTargets method [VDS], IVdsSubSystemIscsi interface, QueryTargets,IVdsSubSystemIscsi.QueryTargets, base.ivdssubsystemiscsi_querytargets, vds/IVdsSubSystemIscsi::QueryTargets, vdshwprv/IVdsSubSystemIscsi::QueryTargets
+ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryTargets method, IVdsSubSystemIscsi.QueryTargets, IVdsSubSystemIscsi::QueryTargets, QueryTargets, QueryTargets method [VDS], QueryTargets method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_querytargets, vds/IVdsSubSystemIscsi::QueryTargets, vdshwprv/IVdsSubSystemIscsi::QueryTargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsSubSystemIscsi::QueryTargets method
+# IVdsSubSystemIscsi::QueryTargets
 
 
 ## -description

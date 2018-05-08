@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetComponentData
-title: ITuneRequestInfo::GetComponentData method
+title: ITuneRequestInfo::GetComponentData
 author: windows-driver-content
 description: The GetComponentData method fills in all network-specific component data for the existing Components collection on the specified tune request.
 old-location: mstv\itunerequestinfo_getcomponentdata.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 769d112e-4df7-451c-ac12-440b16c33e88
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetComponentData method [Microsoft TV Technologies], GetComponentData method [Microsoft TV Technologies], ITuneRequestInfo interface, GetComponentData,ITuneRequestInfo.GetComponentData, ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technologies], GetComponentData method, ITuneRequestInfo::GetComponentData, ITuneRequestInfoGetComponentData, bdatif/ITuneRequestInfo::GetComponentData, mstv.itunerequestinfo_getcomponentdata
+ms.keywords: GetComponentData, GetComponentData method [Microsoft TV Technologies], GetComponentData method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetComponentData method, ITuneRequestInfo.GetComponentData, ITuneRequestInfo::GetComponentData, ITuneRequestInfoGetComponentData, bdatif/ITuneRequestInfo::GetComponentData, mstv.itunerequestinfo_getcomponentdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITuneRequestInfo::GetComponentData method
+# ITuneRequestInfo::GetComponentData
 
 
 ## -description

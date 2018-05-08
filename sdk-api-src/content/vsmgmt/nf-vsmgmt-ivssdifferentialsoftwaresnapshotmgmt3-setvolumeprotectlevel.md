@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.SetVolumeProtectLevel
-title: IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel method
+title: IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel
 author: windows-driver-content
 description: Sets the shadow copy protection level for an original volume or a shadow copy storage area volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 3f8f3a0c-5076-4ce3-aa8b-5c66ac5fa47a
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssDifferentialSoftwareSnapshotMgmt3, IVssDifferentialSoftwareSnapshotMgmt3 interface, SetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel, SetVolumeProtectLevel method, SetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3 interface, SetVolumeProtectLevel,IVssDifferentialSoftwareSnapshotMgmt3.SetVolumeProtectLevel, base.ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel
+ms.keywords: IVssDifferentialSoftwareSnapshotMgmt3 interface,SetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3.SetVolumeProtectLevel, IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel, SetVolumeProtectLevel, SetVolumeProtectLevel method, SetVolumeProtectLevel method,IVssDifferentialSoftwareSnapshotMgmt3 interface, base.ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel method
+# IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel
 
 
 ## -description

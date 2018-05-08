@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.BeginPreprocessingPass
-title: IWMWriterPreprocess::BeginPreprocessingPass method
+title: IWMWriterPreprocess::BeginPreprocessingPass
 author: windows-driver-content
 description: The BeginPreprocessingPass method prepares the writer to begin preprocessing samples for the specified input stream.
 old-location: wmformat\iwmwriterpreprocess_beginpreprocessingpass.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 593aaa1f-b0eb-43a0-bf73-e90225c07cdf
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: BeginPreprocessingPass method [windows Media Format], BeginPreprocessingPass method [windows Media Format], IWMWriterPreprocess interface, BeginPreprocessingPass,IWMWriterPreprocess.BeginPreprocessingPass, IWMWriterPreprocess, IWMWriterPreprocess interface [windows Media Format], BeginPreprocessingPass method, IWMWriterPreprocess::BeginPreprocessingPass, IWMWriterPreprocessBeginPreprocessingPass, wmformat.iwmwriterpreprocess_beginpreprocessingpass, wmsdkidl/IWMWriterPreprocess::BeginPreprocessingPass
+ms.keywords: BeginPreprocessingPass, BeginPreprocessingPass method [windows Media Format], BeginPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],BeginPreprocessingPass method, IWMWriterPreprocess.BeginPreprocessingPass, IWMWriterPreprocess::BeginPreprocessingPass, IWMWriterPreprocessBeginPreprocessingPass, wmformat.iwmwriterpreprocess_beginpreprocessingpass, wmsdkidl/IWMWriterPreprocess::BeginPreprocessingPass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPreprocess::BeginPreprocessingPass method
+# IWMWriterPreprocess::BeginPreprocessingPass
 
 
 ## -description

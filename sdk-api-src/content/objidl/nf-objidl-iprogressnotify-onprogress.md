@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IProgressNotify.OnProgress
-title: IProgressNotify::OnProgress method
+title: IProgressNotify::OnProgress
 author: windows-driver-content
 description: Notifies registered objects and applications of the progress of a downloading operation.
 old-location: com\iprogressnotify_onprogress.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 07b3e629-a558-4a0e-8307-ca922f56e00c
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IProgressNotify, IProgressNotify interface [COM], OnProgress method, IProgressNotify::OnProgress, OnProgress method [COM], OnProgress method [COM], IProgressNotify interface, OnProgress,IProgressNotify.OnProgress, _com_iprogressnotify_onprogress, com.iprogressnotify_onprogress, objidl/IProgressNotify::OnProgress
+ms.keywords: IProgressNotify interface [COM],OnProgress method, IProgressNotify.OnProgress, IProgressNotify::OnProgress, OnProgress, OnProgress method [COM], OnProgress method [COM],IProgressNotify interface, _com_iprogressnotify_onprogress, com.iprogressnotify_onprogress, objidl/IProgressNotify::OnProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IProgressNotify::OnProgress method
+# IProgressNotify::OnProgress
 
 
 ## -description

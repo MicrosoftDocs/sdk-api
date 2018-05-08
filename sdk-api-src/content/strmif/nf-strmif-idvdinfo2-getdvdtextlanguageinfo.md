@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDTextLanguageInfo
-title: IDvdInfo2::GetDVDTextLanguageInfo method
+title: IDvdInfo2::GetDVDTextLanguageInfo
 author: windows-driver-content
 description: The GetDVDTextLanguageInfo method retrieves information about the text strings for a specified language. The method retrieves the number of strings for that language, the locale identifier, and the character set.
 old-location: dshow\idvdinfo2_getdvdtextlanguageinfo.htm
 old-project: DirectShow
 ms.assetid: af8662af-f306-4142-b563-3b40a98b7fbe
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDVDTextLanguageInfo method [DirectShow], GetDVDTextLanguageInfo method [DirectShow], IDvdInfo2 interface, GetDVDTextLanguageInfo,IDvdInfo2.GetDVDTextLanguageInfo, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetDVDTextLanguageInfo method, IDvdInfo2::GetDVDTextLanguageInfo, IDvdInfo2GetDVDTextLanguageInfo, dshow.idvdinfo2_getdvdtextlanguageinfo, strmif/IDvdInfo2::GetDVDTextLanguageInfo
+ms.date: 4/30/2018
+ms.keywords: GetDVDTextLanguageInfo, GetDVDTextLanguageInfo method [DirectShow], GetDVDTextLanguageInfo method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextLanguageInfo method, IDvdInfo2.GetDVDTextLanguageInfo, IDvdInfo2::GetDVDTextLanguageInfo, IDvdInfo2GetDVDTextLanguageInfo, dshow.idvdinfo2_getdvdtextlanguageinfo, strmif/IDvdInfo2::GetDVDTextLanguageInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo2::GetDVDTextLanguageInfo method
+# IDvdInfo2::GetDVDTextLanguageInfo
 
 
 ## -description

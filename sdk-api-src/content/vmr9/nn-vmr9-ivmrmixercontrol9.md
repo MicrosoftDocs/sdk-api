@@ -7,8 +7,8 @@ old-location: dshow\ivmrmixercontrol9.htm
 old-project: DirectShow
 ms.assetid: f311303a-8270-40b6-8153-e0bd8b232c69
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], IVMRMixerControl9 interface [DirectShow], described, IVMRMixerControl9Interface, dshow.ivmrmixercontrol9, vmr9/IVMRMixerControl9
+ms.date: 4/30/2018
+ms.keywords: IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], IVMRMixerControl9 interface [DirectShow],described, IVMRMixerControl9Interface, dshow.ivmrmixercontrol9, vmr9/IVMRMixerControl9
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

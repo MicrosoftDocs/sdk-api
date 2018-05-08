@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOleCallback.GetContextMenu
-title: IRichEditOleCallback::GetContextMenu method
+title: IRichEditOleCallback::GetContextMenu
 author: windows-driver-content
 description: Queries the application for a context menu to use on a right-click event.
 old-location: controls\IRichEditOleCallback_GetContextMenu.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetcontextmenu.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GCM_RIGHTMOUSEDROP, GetContextMenu method [Windows Controls], GetContextMenu method [Windows Controls], IRichEditOleCallback interface, GetContextMenu,IRichEditOleCallback.GetContextMenu, IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], GetContextMenu method, IRichEditOleCallback::GetContextMenu, SEL_EMPTY, SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _win32_IRichEditOleCallback_GetContextMenu, _win32_IRichEditOleCallback_GetContextMenu_cpp, controls.IRichEditOleCallback_GetContextMenu, controls._win32_IRichEditOleCallback_GetContextMenu, richole/IRichEditOleCallback::GetContextMenu
+ms.date: 4/27/2018
+ms.keywords: GCM_RIGHTMOUSEDROP, GetContextMenu, GetContextMenu method [Windows Controls], GetContextMenu method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetContextMenu method, IRichEditOleCallback.GetContextMenu, IRichEditOleCallback::GetContextMenu, SEL_EMPTY, SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _win32_IRichEditOleCallback_GetContextMenu, _win32_IRichEditOleCallback_GetContextMenu_cpp, controls.IRichEditOleCallback_GetContextMenu, controls._win32_IRichEditOleCallback_GetContextMenu, richole/IRichEditOleCallback::GetContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOleCallback::GetContextMenu method
+# IRichEditOleCallback::GetContextMenu
 
 
 ## -description

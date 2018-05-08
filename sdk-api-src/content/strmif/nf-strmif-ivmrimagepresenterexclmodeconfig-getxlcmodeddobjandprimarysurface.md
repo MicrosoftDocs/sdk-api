@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface
-title: IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface method
+title: IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
 author: windows-driver-content
 description: The GetXlcModeDDObjAndPrimarySurface method retrieves the DirectDraw object and primary surface currently being used by a VMR that has been configured for DirectDraw Exclusive Mode using the SetXlcModeDDObjAndPrimarySurface method.
 old-location: dshow\ivmrimagepresenterexclmodeconfig_getxlcmodeddobjandprimarysurface.htm
 old-project: DirectShow
 ms.assetid: 09b756de-7fd2-44d8-9ef3-6b5dc56cb8b3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetXlcModeDDObjAndPrimarySurface, GetXlcModeDDObjAndPrimarySurface method [DirectShow], GetXlcModeDDObjAndPrimarySurface method [DirectShow], IVMRImagePresenterExclModeConfig interface, GetXlcModeDDObjAndPrimarySurface,IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface, IVMRImagePresenterExclModeConfig, IVMRImagePresenterExclModeConfig interface [DirectShow], GetXlcModeDDObjAndPrimarySurface method, IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface, dshow.ivmrimagepresenterexclmodeconfig_getxlcmodeddobjandprimarysurface, strmif/IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
+ms.date: 4/30/2018
+ms.keywords: GetXlcModeDDObjAndPrimarySurface, GetXlcModeDDObjAndPrimarySurface method [DirectShow], GetXlcModeDDObjAndPrimarySurface method [DirectShow],IVMRImagePresenterExclModeConfig interface, IVMRImagePresenterExclModeConfig interface [DirectShow],GetXlcModeDDObjAndPrimarySurface method, IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface, IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface, dshow.ivmrimagepresenterexclmodeconfig_getxlcmodeddobjandprimarysurface, strmif/IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface method
+# IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
 
 
 ## -description

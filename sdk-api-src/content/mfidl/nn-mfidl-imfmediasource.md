@@ -7,8 +7,8 @@ old-location: mf\imfmediasource.htm
 old-project: medfound
 ms.assetid: 8b579f61-6fea-4b20-a051-7633fc01fa05
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 8b579f61-6fea-4b20-a051-7633fc01fa05, IMFMediaSource, IMFMediaSource interface [Media Foundation], IMFMediaSource interface [Media Foundation], described, mf.imfmediasource, mfidl/IMFMediaSource
+ms.date: 5/3/2018
+ms.keywords: 8b579f61-6fea-4b20-a051-7633fc01fa05, IMFMediaSource, IMFMediaSource interface [Media Foundation], IMFMediaSource interface [Media Foundation],described, mf.imfmediasource, mfidl/IMFMediaSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetGlyphIndexCount
-title: IXpsOMGlyphsEditor::GetGlyphIndexCount method
+title: IXpsOMGlyphsEditor::GetGlyphIndexCount
 author: windows-driver-content
 description: Gets the number of glyph indices.
 old-location: xps\ixpsomglyphseditor_getglyphindexcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e7b83f08-e87f-4921-8dbb-f33453c63732
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetGlyphIndexCount method [XPS Documents and Packaging], GetGlyphIndexCount method [XPS Documents and Packaging], IXpsOMGlyphsEditor interface, GetGlyphIndexCount,IXpsOMGlyphsEditor.GetGlyphIndexCount, IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], GetGlyphIndexCount method, IXpsOMGlyphsEditor::GetGlyphIndexCount, xps.ixpsomglyphseditor_getglyphindexcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphIndexCount
+ms.keywords: GetGlyphIndexCount, GetGlyphIndexCount method [XPS Documents and Packaging], GetGlyphIndexCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetGlyphIndexCount method, IXpsOMGlyphsEditor.GetGlyphIndexCount, IXpsOMGlyphsEditor::GetGlyphIndexCount, xps.ixpsomglyphseditor_getglyphindexcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphIndexCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphsEditor::GetGlyphIndexCount method
+# IXpsOMGlyphsEditor::GetGlyphIndexCount
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: d3ad49e3-6807-419d-8d05-f703f5327020
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ORASADFunc, ORASADFunc callback function [RAS], _ras_orasadfunc, ras/ORASADFunc, rras.orasadfunc
+ms.keywords: ORASADFunc, ORASADFunc callback, ORASADFunc callback function [RAS], _ras_orasadfunc, ras/ORASADFunc, rras.orasadfunc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ORASADFUNC callback
+# ORASADFUNC callback function
 
 
 ## -description

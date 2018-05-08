@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.AddDynamicService
-title: IWSDDeviceHost::AddDynamicService method
+title: IWSDDeviceHost::AddDynamicService
 author: windows-driver-content
 description: Registers a service object for incoming requests, but does not add the service to the device host metadata. This is used for transient (dynamic) services.
 old-location: ncd\iwsddevicehost_adddynamicservice_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 0ef7760d-39eb-48fe-a7e9-043c2b9ba5a4
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AddDynamicService method, AddDynamicService method, IWSDDeviceHost interface, AddDynamicService,IWSDDeviceHost.AddDynamicService, IWSDDeviceHost, IWSDDeviceHost interface, AddDynamicService method, IWSDDeviceHost::AddDynamicService, ncd.iwsddevicehost_adddynamicservice_method, wsdhost/IWSDDeviceHost::AddDynamicService
+ms.keywords: AddDynamicService, AddDynamicService method, AddDynamicService method,IWSDDeviceHost interface, IWSDDeviceHost interface,AddDynamicService method, IWSDDeviceHost.AddDynamicService, IWSDDeviceHost::AddDynamicService, ncd.iwsddevicehost_adddynamicservice_method, wsdhost/IWSDDeviceHost::AddDynamicService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceHost::AddDynamicService method
+# IWSDDeviceHost::AddDynamicService
 
 
 ## -description

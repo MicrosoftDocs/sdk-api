@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceStateChanged
-title: ITextInputPanelEventSink::InPlaceStateChanged method
+title: ITextInputPanelEventSink::InPlaceStateChanged
 author: windows-driver-content
 description: Occurs when the In-Place state has changed.
 old-location: tablet\itextinputpaneleventsink_inplacestatechanged.htm
 old-project: tablet
 ms.assetid: bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], InPlaceStateChanged method, ITextInputPanelEventSink::InPlaceStateChanged, InPlaceStateChanged method [Tablet PC], InPlaceStateChanged method [Tablet PC], ITextInputPanelEventSink interface, InPlaceStateChanged,ITextInputPanelEventSink.InPlaceStateChanged, bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2, peninputpanel/ITextInputPanelEventSink::InPlaceStateChanged, tablet.itextinputpaneleventsink_inplacestatechanged
+ms.date: 5/2/2018
+ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InPlaceStateChanged method, ITextInputPanelEventSink.InPlaceStateChanged, ITextInputPanelEventSink::InPlaceStateChanged, InPlaceStateChanged, InPlaceStateChanged method [Tablet PC], InPlaceStateChanged method [Tablet PC],ITextInputPanelEventSink interface, bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2, peninputpanel/ITextInputPanelEventSink::InPlaceStateChanged, tablet.itextinputpaneleventsink_inplacestatechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanelEventSink::InPlaceStateChanged method
+# ITextInputPanelEventSink::InPlaceStateChanged
 
 
 ## -description

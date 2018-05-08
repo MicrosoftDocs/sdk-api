@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPushSink.EndSession
-title: IWMWriterPushSink::EndSession method
+title: IWMWriterPushSink::EndSession
 author: windows-driver-content
 description: The EndSession method ends the push distribution session. This method sends an end-of-stream message to the server, and then shuts down the data path on the server.
 old-location: wmformat\iwmwriterpushsink_endsession.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c2fa77a6-e159-4b10-b1ba-fbf96c7e09d4
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: EndSession method [windows Media Format], EndSession method [windows Media Format], IWMWriterPushSink interface, EndSession,IWMWriterPushSink.EndSession, IWMWriterPushSink, IWMWriterPushSink interface [windows Media Format], EndSession method, IWMWriterPushSink::EndSession, IWMWriterPushSinkEndSession, wmformat.iwmwriterpushsink_endsession, wmsdkidl/IWMWriterPushSink::EndSession
+ms.keywords: EndSession, EndSession method [windows Media Format], EndSession method [windows Media Format],IWMWriterPushSink interface, IWMWriterPushSink interface [windows Media Format],EndSession method, IWMWriterPushSink.EndSession, IWMWriterPushSink::EndSession, IWMWriterPushSinkEndSession, wmformat.iwmwriterpushsink_endsession, wmsdkidl/IWMWriterPushSink::EndSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPushSink::EndSession method
+# IWMWriterPushSink::EndSession
 
 
 ## -description

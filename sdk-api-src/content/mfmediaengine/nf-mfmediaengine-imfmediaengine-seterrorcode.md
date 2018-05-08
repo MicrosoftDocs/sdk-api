@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetErrorCode
-title: IMFMediaEngine::SetErrorCode method
+title: IMFMediaEngine::SetErrorCode
 author: windows-driver-content
 description: Sets the current error code.
 old-location: mf\imfmediaengine_seterrorcode.htm
 old-project: medfound
 ms.assetid: B40AFD99-1048-44C5-A3FA-ED57720956B4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], SetErrorCode method, IMFMediaEngine::SetErrorCode, SetErrorCode method [Media Foundation], SetErrorCode method [Media Foundation], IMFMediaEngine interface, SetErrorCode,IMFMediaEngine.SetErrorCode, mf.imfmediaengine_seterrorcode, mfmediaengine/IMFMediaEngine::SetErrorCode
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngine interface [Media Foundation],SetErrorCode method, IMFMediaEngine.SetErrorCode, IMFMediaEngine::SetErrorCode, SetErrorCode, SetErrorCode method [Media Foundation], SetErrorCode method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_seterrorcode, mfmediaengine/IMFMediaEngine::SetErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::SetErrorCode method
+# IMFMediaEngine::SetErrorCode
 
 
 ## -description

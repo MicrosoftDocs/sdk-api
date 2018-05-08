@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IEntity.GetNamedEntity
-title: IEntity::GetNamedEntity method
+title: IEntity::GetNamedEntity
 author: windows-driver-content
 description: Retrieves an INamedEntity object based on an entity name.
 old-location: search\_search_IEntity_GetNamedEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\getnamedentity.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetNamedEntity method [search], GetNamedEntity method [search], IEntity interface, GetNamedEntity,IEntity.GetNamedEntity, IEntity, IEntity interface [search], GetNamedEntity method, IEntity::GetNamedEntity, _search_IEntity_GetNamedEntity, search._search_IEntity_GetNamedEntity, structuredquery/IEntity::GetNamedEntity
+ms.date: 5/4/2018
+ms.keywords: GetNamedEntity, GetNamedEntity method [search], GetNamedEntity method [search],IEntity interface, IEntity interface [search],GetNamedEntity method, IEntity.GetNamedEntity, IEntity::GetNamedEntity, _search_IEntity_GetNamedEntity, search._search_IEntity_GetNamedEntity, structuredquery/IEntity::GetNamedEntity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEntity::GetNamedEntity method
+# IEntity::GetNamedEntity
 
 
 ## -description

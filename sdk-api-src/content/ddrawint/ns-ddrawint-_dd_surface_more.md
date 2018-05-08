@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: "*PDD_SURFACE_MORE, DD_SURFACE_MORE, *PDD_SURFACE_MORE"
+req.typenames: "*PDD_SURFACE_MORE, DD_SURFACE_MORE"
 topic_type:
 -	APIRef
 -	kbSyntax

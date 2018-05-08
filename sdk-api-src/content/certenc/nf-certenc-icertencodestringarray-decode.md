@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.Decode
-title: ICertEncodeStringArray::Decode method
+title: ICertEncodeStringArray::Decode
 author: windows-driver-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded string array and stores the resulting array of strings in the CertEncodeStringArray object.
 old-location: security\icertencodestringarray_decode.htm
 old-project: SecCrypto
 ms.assetid: 35799b54-2c04-4bb4-a227-d2902b2379ec
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeStringArray object [Security], Decode method, Decode method [Security], Decode method [Security], CCertEncodeStringArray object, Decode method [Security], ICertEncodeStringArray interface, Decode,ICertEncodeStringArray.Decode, ICertEncodeStringArray, ICertEncodeStringArray interface [Security], Decode method, ICertEncodeStringArray::Decode, _certsrv_icertencodestringarray_decode, certenc/ICertEncodeStringArray::Decode, security.icertencodestringarray_decode
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeStringArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeStringArray object, Decode method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],Decode method, ICertEncodeStringArray.Decode, ICertEncodeStringArray::Decode, _certsrv_icertencodestringarray_decode, certenc/ICertEncodeStringArray::Decode, security.icertencodestringarray_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeStringArray::Decode method
+# ICertEncodeStringArray::Decode
 
 
 ## -description

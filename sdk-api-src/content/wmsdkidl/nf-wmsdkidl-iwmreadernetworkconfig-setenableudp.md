@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetEnableUDP
-title: IWMReaderNetworkConfig::SetEnableUDP method
+title: IWMReaderNetworkConfig::SetEnableUDP
 author: windows-driver-content
 description: The SetEnableUDP method enables or disables UDP.
 old-location: wmformat\iwmreadernetworkconfig_setenableudp.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 03afdef3-2aa8-4826-8dce-6d501fa42bcd
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetEnableUDP method, IWMReaderNetworkConfig::SetEnableUDP, IWMReaderNetworkConfigSetEnableUDP, SetEnableUDP method [windows Media Format], SetEnableUDP method [windows Media Format], IWMReaderNetworkConfig interface, SetEnableUDP,IWMReaderNetworkConfig.SetEnableUDP, wmformat.iwmreadernetworkconfig_setenableudp, wmsdkidl/IWMReaderNetworkConfig::SetEnableUDP
+ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetEnableUDP method, IWMReaderNetworkConfig.SetEnableUDP, IWMReaderNetworkConfig::SetEnableUDP, IWMReaderNetworkConfigSetEnableUDP, SetEnableUDP, SetEnableUDP method [windows Media Format], SetEnableUDP method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setenableudp, wmsdkidl/IWMReaderNetworkConfig::SetEnableUDP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::SetEnableUDP method
+# IWMReaderNetworkConfig::SetEnableUDP
 
 
 ## -description

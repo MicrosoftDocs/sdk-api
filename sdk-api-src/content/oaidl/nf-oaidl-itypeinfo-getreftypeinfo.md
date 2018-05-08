@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetRefTypeInfo
-title: ITypeInfo::GetRefTypeInfo method
+title: ITypeInfo::GetRefTypeInfo
 author: windows-driver-content
 description: If a type description references other type descriptions, it retrieves the referenced type descriptions.
 old-location: automat\itypeinfo_getreftypeinfo.htm
 old-project: automat
 ms.assetid: 61d3b31d-6591-4e55-9e82-5246a168be00
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetRefTypeInfo method [Automation], GetRefTypeInfo method [Automation], ITypeInfo interface, GetRefTypeInfo,ITypeInfo.GetRefTypeInfo, ITypeInfo, ITypeInfo interface [Automation], GetRefTypeInfo method, ITypeInfo::GetRefTypeInfo, _oa96_ITypeInfo_GetRefTypeInfo, automat.itypeinfo_getreftypeinfo, oaidl/ITypeInfo::GetRefTypeInfo
+ms.date: 5/4/2018
+ms.keywords: GetRefTypeInfo, GetRefTypeInfo method [Automation], GetRefTypeInfo method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetRefTypeInfo method, ITypeInfo.GetRefTypeInfo, ITypeInfo::GetRefTypeInfo, _oa96_ITypeInfo_GetRefTypeInfo, automat.itypeinfo_getreftypeinfo, oaidl/ITypeInfo::GetRefTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo::GetRefTypeInfo method
+# ITypeInfo::GetRefTypeInfo
 
 
 ## -description

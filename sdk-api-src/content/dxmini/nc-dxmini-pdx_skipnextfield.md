@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: da19c8dc-fef5-41e6-b032-2a0ae05a73da
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DxSkipNextField, DxSkipNextField callback function [Display Devices], PDX_SKIPNEXTFIELD, VideoMiniPort_DxApiFunctions_417d791c-4050-4c35-aecb-bbf62e8a3e2f.xml, display.dxskipnextfield, dxmini/DxSkipNextField
+ms.keywords: DxSkipNextField, DxSkipNextField callback function [Display Devices], PDX_SKIPNEXTFIELD, PDX_SKIPNEXTFIELD callback, VideoMiniPort_DxApiFunctions_417d791c-4050-4c35-aecb-bbf62e8a3e2f.xml, display.dxskipnextfield, dxmini/DxSkipNextField
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# PDX_SKIPNEXTFIELD callback
+# PDX_SKIPNEXTFIELD callback function
 
 
 ## -description

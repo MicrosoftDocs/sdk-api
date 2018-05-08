@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetThumbnail
-title: IPhotoAcquireItem::GetThumbnail method
+title: IPhotoAcquireItem::GetThumbnail
 author: windows-driver-content
 description: The GetThumbnail method retrieves the thumbnail provided for an item.
 old-location: picacq\iphotoacquireitem_getthumbnail.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: a347dc8b-7e95-4830-b848-ac3e7d495b3b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetThumbnail method [Picture Acquisition], GetThumbnail method [Picture Acquisition], IPhotoAcquireItem interface, GetThumbnail,IPhotoAcquireItem.GetThumbnail, IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], GetThumbnail method, IPhotoAcquireItem::GetThumbnail, IPhotoAcquireItemGetThumbnail, photoacquire/IPhotoAcquireItem::GetThumbnail, picacq.iphotoacquireitem_getthumbnail
+ms.keywords: GetThumbnail, GetThumbnail method [Picture Acquisition], GetThumbnail method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetThumbnail method, IPhotoAcquireItem.GetThumbnail, IPhotoAcquireItem::GetThumbnail, IPhotoAcquireItemGetThumbnail, photoacquire/IPhotoAcquireItem::GetThumbnail, picacq.iphotoacquireitem_getthumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireItem::GetThumbnail method
+# IPhotoAcquireItem::GetThumbnail
 
 
 ## -description

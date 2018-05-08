@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnEmergencyModeChange
-title: IMbnInterfaceEvents::OnEmergencyModeChange method
+title: IMbnInterfaceEvents::OnEmergencyModeChange
 author: windows-driver-content
 description: This notification method is called by the Mobile Broadband service to indicate that the emergency mode has changed.
 old-location: mbn\imbninterfaceevents_onemergencymodechange.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 637e0f6b-102f-436c-b0ec-edef16245675
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnInterfaceEvents, IMbnInterfaceEvents interface [Microsoft Broadband Networks], OnEmergencyModeChange method, IMbnInterfaceEvents::OnEmergencyModeChange, OnEmergencyModeChange method [Microsoft Broadband Networks], OnEmergencyModeChange method [Microsoft Broadband Networks], IMbnInterfaceEvents interface, OnEmergencyModeChange,IMbnInterfaceEvents.OnEmergencyModeChange, mbn.imbninterfaceevents_onemergencymodechange, mbnapi/IMbnInterfaceEvents::OnEmergencyModeChange
+ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnEmergencyModeChange method, IMbnInterfaceEvents.OnEmergencyModeChange, IMbnInterfaceEvents::OnEmergencyModeChange, OnEmergencyModeChange, OnEmergencyModeChange method [Microsoft Broadband Networks], OnEmergencyModeChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onemergencymodechange, mbnapi/IMbnInterfaceEvents::OnEmergencyModeChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnInterfaceEvents::OnEmergencyModeChange method
+# IMbnInterfaceEvents::OnEmergencyModeChange
 
 
 ## -description

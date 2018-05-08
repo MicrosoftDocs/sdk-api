@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.put_LatestOutputLocation
-title: IDataCollector::put_LatestOutputLocation method
+title: IDataCollector::put_LatestOutputLocation
 author: windows-driver-content
 description: Retrieves or sets the fully decorated file name that PLA used the last time it created the file.
 old-location: pla\idatacollector_latestoutputlocation.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: e451c3a7-aec3-4fa7-9313-730bfac55f19
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollector, IDataCollector interface [PLA], LatestOutputLocation property, IDataCollector.LatestOutputLocation, IDataCollector::get_LatestOutputLocation, IDataCollector::put_LatestOutputLocation, LatestOutputLocation property [PLA], LatestOutputLocation property [PLA], IDataCollector interface, base.idatacollector_latestoutputlocation, pla.idatacollector_latestoutputlocation, pla/IDataCollector::LatestOutputLocation, pla/IDataCollector::get_LatestOutputLocation, pla/IDataCollector::put_LatestOutputLocation, put_LatestOutputLocation,IDataCollector.put_LatestOutputLocation
+ms.keywords: IDataCollector interface [PLA],LatestOutputLocation property, IDataCollector.LatestOutputLocation, IDataCollector.put_LatestOutputLocation, IDataCollector::LatestOutputLocation, IDataCollector::get_LatestOutputLocation, IDataCollector::put_LatestOutputLocation, LatestOutputLocation property [PLA], LatestOutputLocation property [PLA],IDataCollector interface, base.idatacollector_latestoutputlocation, pla.idatacollector_latestoutputlocation, pla/IDataCollector::LatestOutputLocation, pla/IDataCollector::get_LatestOutputLocation, pla/IDataCollector::put_LatestOutputLocation, put_LatestOutputLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollector::put_LatestOutputLocation method
+# IDataCollector::put_LatestOutputLocation
 
 
 ## -description

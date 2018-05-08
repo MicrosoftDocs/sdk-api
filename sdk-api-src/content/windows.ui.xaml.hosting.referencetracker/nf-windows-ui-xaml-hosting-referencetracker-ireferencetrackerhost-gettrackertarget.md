@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.GetTrackerTarget
-title: IReferenceTrackerHost::GetTrackerTarget method
+title: IReferenceTrackerHost::xaml
 author: windows-driver-content
 description: Requests the host to provide a reference tracker target that references a reference tracker source. This tracker target then controls the lifetime of the tracker source.
 old-location: winrt\ireferencetrackerhost_gettrackertarget.htm
 old-project: WinRT
 ms.assetid: 5dabc7ce-a6aa-4acd-b331-3f74b0f2d179
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetTrackerTarget method [Windows Runtime], GetTrackerTarget method [Windows Runtime], IReferenceTrackerHost interface, GetTrackerTarget,IReferenceTrackerHost.GetTrackerTarget, IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], GetTrackerTarget method, IReferenceTrackerHost::GetTrackerTarget, windows/IReferenceTrackerHost::GetTrackerTarget, winrt.ireferencetrackerhost_gettrackertarget
+ms.date: 5/4/2018
+ms.keywords: GetTrackerTarget, GetTrackerTarget method [Windows Runtime], GetTrackerTarget method [Windows Runtime],IReferenceTrackerHost interface, IReferenceTrackerHost interface [Windows Runtime],GetTrackerTarget method, IReferenceTrackerHost.GetTrackerTarget, IReferenceTrackerHost.xaml, IReferenceTrackerHost::GetTrackerTarget, IReferenceTrackerHost::xaml, windows/IReferenceTrackerHost::GetTrackerTarget, winrt.ireferencetrackerhost_gettrackertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IReferenceTrackerHost::GetTrackerTarget method
+# IReferenceTrackerHost::xaml
 
 
 ## -description

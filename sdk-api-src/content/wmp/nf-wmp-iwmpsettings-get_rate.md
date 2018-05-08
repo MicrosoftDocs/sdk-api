@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSettings.get_rate
-title: IWMPSettings::get_rate method
+title: IWMPSettings::get_rate
 author: windows-driver-content
 description: The get_rate method retrieves the current playback rate for video.
 old-location: wmp\iwmpsettings_get_rate.htm
 old-project: WMP
 ms.assetid: 1c3f2938-733f-42fc-ae07-66aad715958b
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], get_rate method, IWMPSettings::get_rate, IWMPSettingsget_rate, get_rate method [Windows Media Player], get_rate method [Windows Media Player], IWMPSettings interface, get_rate,IWMPSettings.get_rate, wmp.iwmpsettings_get_rate, wmp/IWMPSettings::get_rate
+ms.date: 5/4/2018
+ms.keywords: IWMPSettings interface [Windows Media Player],get_rate method, IWMPSettings.get_rate, IWMPSettings::get_rate, IWMPSettingsget_rate, get_rate, get_rate method [Windows Media Player], get_rate method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_rate, wmp/IWMPSettings::get_rate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSettings::get_rate method
+# IWMPSettings::get_rate
 
 
 ## -description

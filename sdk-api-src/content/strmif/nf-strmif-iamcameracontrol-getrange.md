@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMCameraControl.GetRange
-title: IAMCameraControl::GetRange method
+title: IAMCameraControl::GetRange
 author: windows-driver-content
 description: The GetRange method gets the range and default value of a specified camera property.
 old-location: dshow\iamcameracontrol_getrange.htm
 old-project: DirectShow
 ms.assetid: f09090ea-d916-47cd-8621-e8c2bb46aeca
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetRange method [DirectShow], GetRange method [DirectShow], IAMCameraControl interface, GetRange,IAMCameraControl.GetRange, IAMCameraControl, IAMCameraControl interface [DirectShow], GetRange method, IAMCameraControl::GetRange, IAMCameraControlGetRange, dshow.iamcameracontrol_getrange, strmif/IAMCameraControl::GetRange
+ms.date: 4/30/2018
+ms.keywords: GetRange, GetRange method [DirectShow], GetRange method [DirectShow],IAMCameraControl interface, IAMCameraControl interface [DirectShow],GetRange method, IAMCameraControl.GetRange, IAMCameraControl::GetRange, IAMCameraControlGetRange, dshow.iamcameracontrol_getrange, strmif/IAMCameraControl::GetRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMCameraControl::GetRange method
+# IAMCameraControl::GetRange
 
 
 ## -description

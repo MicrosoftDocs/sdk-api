@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateBooleanLeaf
-title: IConditionFactory2::CreateBooleanLeaf method
+title: IConditionFactory2::CreateBooleanLeaf
 author: windows-driver-content
 description: Creates a search condition that is either TRUE or FALSE.
 old-location: search\_search_IConditionFactory2_CreateBooleanLeaf.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createbooleanleaf.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateBooleanLeaf method [search], CreateBooleanLeaf method [search], IConditionFactory2 interface, CreateBooleanLeaf,IConditionFactory2.CreateBooleanLeaf, IConditionFactory2, IConditionFactory2 interface [search], CreateBooleanLeaf method, IConditionFactory2::CreateBooleanLeaf, _search_IConditionFactory2_CreateBooleanLeaf, search._search_IConditionFactory2_CreateBooleanLeaf, structuredquery/IConditionFactory2::CreateBooleanLeaf
+ms.date: 5/4/2018
+ms.keywords: CreateBooleanLeaf, CreateBooleanLeaf method [search], CreateBooleanLeaf method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateBooleanLeaf method, IConditionFactory2.CreateBooleanLeaf, IConditionFactory2::CreateBooleanLeaf, _search_IConditionFactory2_CreateBooleanLeaf, search._search_IConditionFactory2_CreateBooleanLeaf, structuredquery/IConditionFactory2::CreateBooleanLeaf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IConditionFactory2::CreateBooleanLeaf method
+# IConditionFactory2::CreateBooleanLeaf
 
 
 ## -description

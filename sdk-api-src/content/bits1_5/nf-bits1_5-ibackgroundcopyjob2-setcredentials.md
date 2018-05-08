@@ -1,14 +1,14 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.SetCredentials
-title: IBackgroundCopyJob2::SetCredentials method
+title: IBackgroundCopyJob2::SetCredentials
 author: windows-driver-content
 description: Specifies the credentials to use for a proxy or remote server user authentication request.
 old-location: bits\ibackgroundcopyjob2_setcredentials.htm
 old-project: Bits
 ms.assetid: adaffc21-7df1-48ca-8e05-bdb09663a49b
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyJob2, IBackgroundCopyJob2 interface [BITS], SetCredentials method, IBackgroundCopyJob2::SetCredentials, SetCredentials method [BITS], SetCredentials method [BITS], IBackgroundCopyJob2 interface, SetCredentials,IBackgroundCopyJob2.SetCredentials, _drz_ibackgroundcopyjob2_setcredentials, bits.ibackgroundcopyjob2_setcredentials, bits1_5/IBackgroundCopyJob2::SetCredentials
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyJob2 interface [BITS],SetCredentials method, IBackgroundCopyJob2.SetCredentials, IBackgroundCopyJob2::SetCredentials, SetCredentials, SetCredentials method [BITS], SetCredentials method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setcredentials, bits.ibackgroundcopyjob2_setcredentials, bits1_5/IBackgroundCopyJob2::SetCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: BitsPrx2.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob2::SetCredentials method
+# IBackgroundCopyJob2::SetCredentials
 
 
 ## -description

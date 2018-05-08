@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3db86e21-6d05-4b7f-be83-a3fa506a0e3b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_IPV4Filter, IBDA_IPV4Filter interface [Microsoft TV Technologies], IBDA_IPV4Filter interface [Microsoft TV Technologies], described, IBDA_IPV4FilterInterface, bdaiface/IBDA_IPV4Filter, mstv.ibda_ipv4filter
+ms.keywords: IBDA_IPV4Filter, IBDA_IPV4Filter interface [Microsoft TV Technologies], IBDA_IPV4Filter interface [Microsoft TV Technologies],described, IBDA_IPV4FilterInterface, bdaiface/IBDA_IPV4Filter, mstv.ibda_ipv4filter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

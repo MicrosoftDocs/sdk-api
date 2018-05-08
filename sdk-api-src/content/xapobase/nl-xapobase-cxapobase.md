@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.cxapobase.CXAPOBase
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CXAPOBase, CXAPOBase class [XAudio2 Audio Mixing APIs], CXAPOBase class [XAudio2 Audio Mixing APIs], described, xapobase/CXAPOBase, xaudio2.cxapobase
+ms.keywords: CXAPOBase, CXAPOBase class [XAudio2 Audio Mixing APIs], CXAPOBase class [XAudio2 Audio Mixing APIs],described, xapobase/CXAPOBase, xaudio2.cxapobase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

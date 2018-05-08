@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 588e00d2-e166-4ce5-bd8a-50ad0d5a3db9
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICMetadataQueryReader, IWICMetadataQueryReader interface [Windows Imaging Component], IWICMetadataQueryReader interface [Windows Imaging Component], described, _wic_codec_iwicmetadataqueryreader, wic._wic_codec_iwicmetadataqueryreader, wincodec/IWICMetadataQueryReader
+ms.keywords: IWICMetadataQueryReader, IWICMetadataQueryReader interface [Windows Imaging Component], IWICMetadataQueryReader interface [Windows Imaging Component],described, _wic_codec_iwicmetadataqueryreader, wic._wic_codec_iwicmetadataqueryreader, wincodec/IWICMetadataQueryReader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

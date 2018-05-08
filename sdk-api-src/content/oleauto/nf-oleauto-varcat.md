@@ -7,7 +7,7 @@ old-location: automat\varcat.htm
 old-project: automat
 ms.assetid: 2e94516e-de36-407a-a1fe-6a6e66641c17
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarCat, VarCat function [Automation], _oa96_VarCat, automat.varcat, oleauto/VarCat
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnInterfaceCapabilityChange
-title: IMbnMultiCarrierEvents::OnInterfaceCapabilityChange method
+title: IMbnMultiCarrierEvents::OnInterfaceCapabilityChange
 author: windows-driver-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetHomeProvider operation that updates the interface capabilities.
 old-location: mbn\imbnmulticarrierevents_oninterfacecapabilitychange.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 5701E0EB-FBDC-4791-97AA-B31F87763854
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnMultiCarrierEvents, IMbnMultiCarrierEvents interface [Microsoft Broadband Networks], OnInterfaceCapabilityChange method, IMbnMultiCarrierEvents::OnInterfaceCapabilityChange, OnInterfaceCapabilityChange method [Microsoft Broadband Networks], OnInterfaceCapabilityChange method [Microsoft Broadband Networks], IMbnMultiCarrierEvents interface, OnInterfaceCapabilityChange,IMbnMultiCarrierEvents.OnInterfaceCapabilityChange, mbn.imbnmulticarrierevents_oninterfacecapabilitychange, mbnapi/IMbnMultiCarrierEvents::OnInterfaceCapabilityChange
+ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnInterfaceCapabilityChange method, IMbnMultiCarrierEvents.OnInterfaceCapabilityChange, IMbnMultiCarrierEvents::OnInterfaceCapabilityChange, OnInterfaceCapabilityChange, OnInterfaceCapabilityChange method [Microsoft Broadband Networks], OnInterfaceCapabilityChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_oninterfacecapabilitychange, mbnapi/IMbnMultiCarrierEvents::OnInterfaceCapabilityChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnMultiCarrierEvents::OnInterfaceCapabilityChange method
+# IMbnMultiCarrierEvents::OnInterfaceCapabilityChange
 
 
 ## -description

@@ -63,11 +63,54 @@ The <b>IPSEC_TRAFFIC1</b> structure specifies parameters to describe IPsec traff
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a> value that specifies the IP version. In tunnel mode, this is the version of the outer header.
 
 
+### -field localV4Address
+
+The local IPv4 address of the IPsec traffic. In tunnel mode, this is the local tunnel endpoint.
+
+Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field localV6Address
+
+The local IPv6 address of the IPsec traffic. In tunnel mode, this is the local tunnel endpoint.
+
+Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
+### -field remoteV4Address
+
+The remote IPv4 address of the IPsec traffic. In tunnel mode, this is the remote tunnel endpoint.
+
+Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field remoteV6Address
+
+The remote IPv6 address of the IPsec traffic. In tunnel mode, this is the remote tunnel endpoint.
+
+Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
 ### -field trafficType
 
 Type of IPsec traffic.
 
 See <a href="https://msdn.microsoft.com/e87154ce-7f19-424c-a577-04e2eb81560e">IPSEC_TRAFFIC_TYPE</a> for more information.
+
+
+### -field ipsecFilterId
+
+The LUID of the FWPS transport
+   layer filter corresponding to this traffic.
+
+Available if <b>trafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TRANSPORT</b>.
+
+
+### -field tunnelPolicyId
+
+The LUID of the associated Quick Mode (QM) tunnel policy. 
+
+Available if <b>trafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TUNNEL</b>.
 
 
 ### -field remotePort
@@ -96,49 +139,6 @@ The LUID of the local interface corresponding to the local address specified abo
 ### -field realIfProfileId
 
 The profile ID corresponding to the actual interface that the traffic is using.
-
-
-#### - ipsecFilterId
-
-The LUID of the FWPS transport
-   layer filter corresponding to this traffic.
-
-Available if <b>trafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TRANSPORT</b>.
-
-
-#### - localV4Address
-
-The local IPv4 address of the IPsec traffic. In tunnel mode, this is the local tunnel endpoint.
-
-Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - localV6Address
-
-The local IPv6 address of the IPsec traffic. In tunnel mode, this is the local tunnel endpoint.
-
-Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
-
-
-#### - remoteV4Address
-
-The remote IPv4 address of the IPsec traffic. In tunnel mode, this is the remote tunnel endpoint.
-
-Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - remoteV6Address
-
-The remote IPv6 address of the IPsec traffic. In tunnel mode, this is the remote tunnel endpoint.
-
-Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
-
-
-#### - tunnelPolicyId
-
-The LUID of the associated Quick Mode (QM) tunnel policy. 
-
-Available if <b>trafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TUNNEL</b>.
 
 
 ## -remarks

@@ -1,0 +1,6 @@
+# [Text Services Framework](../_tsf/index.md)
+## [Ctfspui.h](index.md)
+### [ITfSpeechUIServer::Initialize](../ctfspui/nf-ctfspui-itfspeechuiserver-initialize.md)
+### [ITfSpeechUIServer::ShowUI](../ctfspui/nf-ctfspui-itfspeechuiserver-showui.md)
+### [ITfSpeechUIServer::UpdateBalloon](../ctfspui/nf-ctfspui-itfspeechuiserver-updateballoon.md)
+### [ITfSpeechUIServer interface](../ctfspui/nn-ctfspui-itfspeechuiserver.md)

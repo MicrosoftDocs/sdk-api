@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IEnumUnknown.Next
-title: IEnumUnknown::Next method
+title: IEnumUnknown::Next
 author: windows-driver-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumunknown_next.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: cef932cf-dacd-430d-8834-c41cc2d885a6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumUnknown, IEnumUnknown interface [COM], Next method, IEnumUnknown::Next, Next method [COM], Next method [COM], IEnumUnknown interface, Next,IEnumUnknown.Next, _com_ienumunknown_next, com.ienumunknown_next, objidlbase/IEnumUnknown::Next
+ms.keywords: IEnumUnknown interface [COM],Next method, IEnumUnknown.Next, IEnumUnknown::Next, Next, Next method [COM], Next method [COM],IEnumUnknown interface, _com_ienumunknown_next, com.ienumunknown_next, objidlbase/IEnumUnknown::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumUnknown::Next method
+# IEnumUnknown::Next
 
 
 ## -description

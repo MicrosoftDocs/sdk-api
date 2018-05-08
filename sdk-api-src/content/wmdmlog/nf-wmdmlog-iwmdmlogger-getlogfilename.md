@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.GetLogFileName
-title: IWMDMLogger::GetLogFileName method
+title: IWMDMLogger::GetLogFileName
 author: windows-driver-content
 description: The GetLogFileName method returns the full path to the current log file.
 old-location: wmdm\iwmdmlogger_getlogfilename.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 094761e6-539c-43ca-b882-f3dd7a19a243
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetLogFileName method [windows Media Device Manager], GetLogFileName method [windows Media Device Manager], IWMDMLogger interface, GetLogFileName,IWMDMLogger.GetLogFileName, IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], GetLogFileName method, IWMDMLogger::GetLogFileName, IWMDMLoggerGetLogFileName, wmdm.iwmdmlogger_getlogfilename, wmdmlog/IWMDMLogger::GetLogFileName
+ms.keywords: GetLogFileName, GetLogFileName method [windows Media Device Manager], GetLogFileName method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],GetLogFileName method, IWMDMLogger.GetLogFileName, IWMDMLogger::GetLogFileName, IWMDMLoggerGetLogFileName, wmdm.iwmdmlogger_getlogfilename, wmdmlog/IWMDMLogger::GetLogFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDMLogger::GetLogFileName method
+# IWMDMLogger::GetLogFileName
 
 
 ## -description

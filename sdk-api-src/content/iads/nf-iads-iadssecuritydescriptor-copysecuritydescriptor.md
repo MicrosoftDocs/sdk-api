@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsSecurityDescriptor.CopySecurityDescriptor
-title: IADsSecurityDescriptor::CopySecurityDescriptor method
+title: IADsSecurityDescriptor::CopySecurityDescriptor
 author: windows-driver-content
 description: The IADsSecurityDescriptor::CopySecurityDescriptor method copies an ADSI security descriptor object that holds security data about an object.
 old-location: adsi\iadssecuritydescriptor_copysecuritydescriptor.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: fe30a23a-ccf0-4852-bfcc-9f5a010bd0ec
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CopySecurityDescriptor method [ADSI], CopySecurityDescriptor method [ADSI], IADsSecurityDescriptor interface, CopySecurityDescriptor,IADsSecurityDescriptor.CopySecurityDescriptor, IADsSecurityDescriptor, IADsSecurityDescriptor interface [ADSI], CopySecurityDescriptor method, IADsSecurityDescriptor::CopySecurityDescriptor, _ds_iadssecuritydescriptor_copysecuritydescriptor, adsi.iadssecuritydescriptor__copysecuritydescriptor, adsi.iadssecuritydescriptor_copysecuritydescriptor, iads/IADsSecurityDescriptor::CopySecurityDescriptor
+ms.keywords: CopySecurityDescriptor, CopySecurityDescriptor method [ADSI], CopySecurityDescriptor method [ADSI],IADsSecurityDescriptor interface, IADsSecurityDescriptor interface [ADSI],CopySecurityDescriptor method, IADsSecurityDescriptor.CopySecurityDescriptor, IADsSecurityDescriptor::CopySecurityDescriptor, _ds_iadssecuritydescriptor_copysecuritydescriptor, adsi.iadssecuritydescriptor__copysecuritydescriptor, adsi.iadssecuritydescriptor_copysecuritydescriptor, iads/IADsSecurityDescriptor::CopySecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsSecurityDescriptor::CopySecurityDescriptor method
+# IADsSecurityDescriptor::CopySecurityDescriptor
 
 
 ## -description

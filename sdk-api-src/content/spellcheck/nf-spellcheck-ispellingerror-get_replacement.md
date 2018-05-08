@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellingError.get_Replacement
-title: ISpellingError::get_Replacement method
+title: ISpellingError::get_Replacement
 author: windows-driver-content
 description: Gets the text to use as replacement text when the corrective action is replace.
 old-location: intl\ispellingerror_replacement.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: df161212-8950-4d05-9f69-15165fea9da9
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISpellingError, ISpellingError interface [Internationalization for Windows Applications], Replacement property, ISpellingError.Replacement, ISpellingError::get_Replacement, Replacement property [Internationalization for Windows Applications], Replacement property [Internationalization for Windows Applications], ISpellingError interface, get_Replacement,ISpellingError.get_Replacement, intl.ispellingerror_replacement, spellcheck/ISpellingError::Replacement, spellcheck/ISpellingError::get_Replacement
+ms.keywords: ISpellingError interface [Internationalization for Windows Applications],Replacement property, ISpellingError.Replacement, ISpellingError.get_Replacement, ISpellingError::Replacement, ISpellingError::get_Replacement, Replacement property [Internationalization for Windows Applications], Replacement property [Internationalization for Windows Applications],ISpellingError interface, get_Replacement, intl.ispellingerror_replacement, spellcheck/ISpellingError::Replacement, spellcheck/ISpellingError::get_Replacement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellingError::get_Replacement method
+# ISpellingError::get_Replacement
 
 
 ## -description

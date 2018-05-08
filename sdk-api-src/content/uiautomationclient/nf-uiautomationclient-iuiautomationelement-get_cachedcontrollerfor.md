@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedControllerFor
-title: IUIAutomationElement::get_CachedControllerFor method
+title: IUIAutomationElement::get_CachedControllerFor
 author: windows-driver-content
 description: Retrieves a cached array of UI Automation elements for which this element serves as the controller.
 old-location: winauto\uiauto_IUIAutomationElement_CachedControllerFor.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 09d9157c-e9e0-4647-9637-d95b66937245
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedControllerFor property [Windows Accessibility], CachedControllerFor property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedControllerFor property, IUIAutomationElement.CachedControllerFor, IUIAutomationElement::get_CachedControllerFor, get_CachedControllerFor,IUIAutomationElement.get_CachedControllerFor, uiauto.uiauto_IUIAutomationElement_CachedControllerFor, uiauto_IUIAutomationElement_CachedControllerFor, uiautomationclient/IUIAutomationElement::CachedControllerFor, uiautomationclient/IUIAutomationElement::get_CachedControllerFor, winauto.uiauto_IUIAutomationElement_CachedControllerFor
+ms.keywords: CachedControllerFor property [Windows Accessibility], CachedControllerFor property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedControllerFor property, IUIAutomationElement.CachedControllerFor, IUIAutomationElement.get_CachedControllerFor, IUIAutomationElement::CachedControllerFor, IUIAutomationElement::get_CachedControllerFor, get_CachedControllerFor, uiauto.uiauto_IUIAutomationElement_CachedControllerFor, uiauto_IUIAutomationElement_CachedControllerFor, uiautomationclient/IUIAutomationElement::CachedControllerFor, uiautomationclient/IUIAutomationElement::get_CachedControllerFor, winauto.uiauto_IUIAutomationElement_CachedControllerFor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CachedControllerFor method
+# IUIAutomationElement::get_CachedControllerFor
 
 
 ## -description

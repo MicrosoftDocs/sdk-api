@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFCollection.AddElement
-title: IMFCollection::AddElement method
+title: IMFCollection::AddElement
 author: windows-driver-content
 description: Adds an object to the collection.
 old-location: mf\imfcollection_addelement.htm
 old-project: medfound
 ms.assetid: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056, AddElement method [Media Foundation], AddElement method [Media Foundation], IMFCollection interface, AddElement,IMFCollection.AddElement, IMFCollection, IMFCollection interface [Media Foundation], AddElement method, IMFCollection::AddElement, mf.imfcollection_addelement, mfobjects/IMFCollection::AddElement
+ms.date: 5/3/2018
+ms.keywords: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056, AddElement, AddElement method [Media Foundation], AddElement method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],AddElement method, IMFCollection.AddElement, IMFCollection::AddElement, mf.imfcollection_addelement, mfobjects/IMFCollection::AddElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCollection::AddElement method
+# IMFCollection::AddElement
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: bits\ibitspeercacherecord.htm
 old-project: Bits
 ms.assetid: 61db33de-a38c-4c52-9f1b-66d46f25c297
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], IBitsPeerCacheRecord interface [BITS], described, bits.ibitspeercacherecord, bits3_0/IBitsPeerCacheRecord
+ms.date: 4/27/2018
+ms.keywords: IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], IBitsPeerCacheRecord interface [BITS],described, bits.ibitspeercacherecord, bits3_0/IBitsPeerCacheRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -40,7 +40,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Bits.lib
-req.dll: 
+req.dll: BitsPrx4.dll
 req.irql: 
 ---
 

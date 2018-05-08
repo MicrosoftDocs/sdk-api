@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.CreateObjectFromURL
-title: IMFSourceResolver::CreateObjectFromURL method
+title: IMFSourceResolver::CreateObjectFromURL
 author: windows-driver-content
 description: Creates a media source or a byte stream from a URL. This method is synchronous.
 old-location: mf\imfsourceresolver_createobjectfromurl.htm
 old-project: medfound
 ms.assetid: b8f751b1-6456-4d67-839d-ecfa388e8d71
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateObjectFromURL method [Media Foundation], CreateObjectFromURL method [Media Foundation], IMFSourceResolver interface, CreateObjectFromURL,IMFSourceResolver.CreateObjectFromURL, IMFSourceResolver, IMFSourceResolver interface [Media Foundation], CreateObjectFromURL method, IMFSourceResolver::CreateObjectFromURL, b8f751b1-6456-4d67-839d-ecfa388e8d71, mf.imfsourceresolver_createobjectfromurl, mfidl/IMFSourceResolver::CreateObjectFromURL
+ms.date: 5/3/2018
+ms.keywords: CreateObjectFromURL, CreateObjectFromURL method [Media Foundation], CreateObjectFromURL method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],CreateObjectFromURL method, IMFSourceResolver.CreateObjectFromURL, IMFSourceResolver::CreateObjectFromURL, b8f751b1-6456-4d67-839d-ecfa388e8d71, mf.imfsourceresolver_createobjectfromurl, mfidl/IMFSourceResolver::CreateObjectFromURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceResolver::CreateObjectFromURL method
+# IMFSourceResolver::CreateObjectFromURL
 
 
 ## -description

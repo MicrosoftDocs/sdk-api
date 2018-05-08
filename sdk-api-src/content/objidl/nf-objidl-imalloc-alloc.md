@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMalloc.Alloc
-title: IMalloc::Alloc method
+title: IMalloc::Alloc
 author: windows-driver-content
 description: Allocates a block of memory.
 old-location: com\imalloc_alloc.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c9c9bdac-965f-4b18-9338-28a025930480
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Alloc method [COM], Alloc method [COM], IMalloc interface, Alloc,IMalloc.Alloc, IMalloc, IMalloc interface [COM], Alloc method, IMalloc::Alloc, _com_imalloc_alloc, com.imalloc_alloc, objidl/IMalloc::Alloc
+ms.keywords: Alloc, Alloc method [COM], Alloc method [COM],IMalloc interface, IMalloc interface [COM],Alloc method, IMalloc.Alloc, IMalloc::Alloc, _com_imalloc_alloc, com.imalloc_alloc, objidl/IMalloc::Alloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMalloc::Alloc method
+# IMalloc::Alloc
 
 
 ## -description

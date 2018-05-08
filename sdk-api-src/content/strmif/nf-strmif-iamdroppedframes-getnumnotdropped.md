@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMDroppedFrames.GetNumNotDropped
-title: IAMDroppedFrames::GetNumNotDropped method
+title: IAMDroppedFrames::GetNumNotDropped
 author: windows-driver-content
 description: The GetNumNotDropped method retrieves the total number of frames that the filter has delivered since it started streaming.
 old-location: dshow\iamdroppedframes_getnumnotdropped.htm
 old-project: DirectShow
 ms.assetid: 16b26c54-343e-4465-9823-fafeac79bb55
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetNumNotDropped method [DirectShow], GetNumNotDropped method [DirectShow], IAMDroppedFrames interface, GetNumNotDropped,IAMDroppedFrames.GetNumNotDropped, IAMDroppedFrames, IAMDroppedFrames interface [DirectShow], GetNumNotDropped method, IAMDroppedFrames::GetNumNotDropped, IAMDroppedFramesGetNumNotDropped, dshow.iamdroppedframes_getnumnotdropped, strmif/IAMDroppedFrames::GetNumNotDropped
+ms.date: 4/30/2018
+ms.keywords: GetNumNotDropped, GetNumNotDropped method [DirectShow], GetNumNotDropped method [DirectShow],IAMDroppedFrames interface, IAMDroppedFrames interface [DirectShow],GetNumNotDropped method, IAMDroppedFrames.GetNumNotDropped, IAMDroppedFrames::GetNumNotDropped, IAMDroppedFramesGetNumNotDropped, dshow.iamdroppedframes_getnumnotdropped, strmif/IAMDroppedFrames::GetNumNotDropped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMDroppedFrames::GetNumNotDropped method
+# IAMDroppedFrames::GetNumNotDropped
 
 
 ## -description

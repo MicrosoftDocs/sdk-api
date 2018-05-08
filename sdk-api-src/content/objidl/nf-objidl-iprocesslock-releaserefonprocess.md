@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IProcessLock.ReleaseRefOnProcess
-title: IProcessLock::ReleaseRefOnProcess method
+title: IProcessLock::ReleaseRefOnProcess
 author: windows-driver-content
 description: Decrements the reference count of the process.
 old-location: com\iprocesslock_releaserefonprocess.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: a0943afc-b20f-4082-b561-552370a630a1
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IProcessLock, IProcessLock interface [COM], ReleaseRefOnProcess method, IProcessLock::ReleaseRefOnProcess, ReleaseRefOnProcess method [COM], ReleaseRefOnProcess method [COM], IProcessLock interface, ReleaseRefOnProcess,IProcessLock.ReleaseRefOnProcess, _com_iprocesslock_releaserefonprocess, com.iprocesslock_releaserefonprocess, objidl/IProcessLock::ReleaseRefOnProcess
+ms.keywords: IProcessLock interface [COM],ReleaseRefOnProcess method, IProcessLock.ReleaseRefOnProcess, IProcessLock::ReleaseRefOnProcess, ReleaseRefOnProcess, ReleaseRefOnProcess method [COM], ReleaseRefOnProcess method [COM],IProcessLock interface, _com_iprocesslock_releaserefonprocess, com.iprocesslock_releaserefonprocess, objidl/IProcessLock::ReleaseRefOnProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IProcessLock::ReleaseRefOnProcess method
+# IProcessLock::ReleaseRefOnProcess
 
 
 ## -description

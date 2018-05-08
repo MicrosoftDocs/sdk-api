@@ -1,14 +1,14 @@
 ---
 UID: NF:wiavideo.IWiaVideo.CreateVideoByWiaDevID
-title: IWiaVideo::CreateVideoByWiaDevID method
+title: IWiaVideo::CreateVideoByWiaDevID
 author: windows-driver-content
 description: The IWiaVideo::CreateVideoByWiaDevID method creates a connection to a streaming video device from its WIA_DIP_DEV_ID property.
 old-location: wia\_wia_IWiaVideo_CreateVideoByWiaDevID.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobywiadevid.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: CreateVideoByWiaDevID method [WIA], CreateVideoByWiaDevID method [WIA], IWiaVideo interface, CreateVideoByWiaDevID,IWiaVideo.CreateVideoByWiaDevID, IWiaVideo, IWiaVideo interface [WIA], CreateVideoByWiaDevID method, IWiaVideo::CreateVideoByWiaDevID, _wia_IWiaVideo_CreateVideoByWiaDevID, wia._wia_IWiaVideo_CreateVideoByWiaDevID, wiavideo/IWiaVideo::CreateVideoByWiaDevID
+ms.date: 5/3/2018
+ms.keywords: CreateVideoByWiaDevID, CreateVideoByWiaDevID method [WIA], CreateVideoByWiaDevID method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByWiaDevID method, IWiaVideo.CreateVideoByWiaDevID, IWiaVideo::CreateVideoByWiaDevID, _wia_IWiaVideo_CreateVideoByWiaDevID, wia._wia_IWiaVideo_CreateVideoByWiaDevID, wiavideo/IWiaVideo::CreateVideoByWiaDevID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaVideo::CreateVideoByWiaDevID method
+# IWiaVideo::CreateVideoByWiaDevID
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8b022f2c-d4b4-44ca-8e69-46e9aa20b3f9
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleControlSite, IOleControlSite interface [COM], IOleControlSite interface [COM], described, _ctrl_iolecontrolsite, com.iolecontrolsite, ocidl/IOleControlSite
+ms.keywords: IOleControlSite, IOleControlSite interface [COM], IOleControlSite interface [COM],described, _ctrl_iolecontrolsite, com.iolecontrolsite, ocidl/IOleControlSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

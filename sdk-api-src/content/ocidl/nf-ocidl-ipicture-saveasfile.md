@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.SaveAsFile
-title: IPicture::SaveAsFile method
+title: IPicture::SaveAsFile
 author: windows-driver-content
 description: Saves the picture's data into a stream in the same format that it would save itself into a file. Bitmaps use the BMP file format, metafiles the WMF format, and icons the ICO format.
 old-location: com\ipicture_saveasfile.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: fa949064-d1cf-4056-9990-ae9ea88fae86
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPicture, IPicture interface [COM], SaveAsFile method, IPicture::SaveAsFile, SaveAsFile method [COM], SaveAsFile method [COM], IPicture interface, SaveAsFile,IPicture.SaveAsFile, _ctrl_ipicture_saveasfile, com.ipicture_saveasfile, ocidl/IPicture::SaveAsFile
+ms.keywords: IPicture interface [COM],SaveAsFile method, IPicture.SaveAsFile, IPicture::SaveAsFile, SaveAsFile, SaveAsFile method [COM], SaveAsFile method [COM],IPicture interface, _ctrl_ipicture_saveasfile, com.ipicture_saveasfile, ocidl/IPicture::SaveAsFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPicture::SaveAsFile method
+# IPicture::SaveAsFile
 
 
 ## -description

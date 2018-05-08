@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetForceRerunAutoProxyDetection
-title: IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection method
+title: IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection
 author: windows-driver-content
 description: The GetForceRerunAutoProxyDetection method ascertains whether forced rerun detection is enabled.
 old-location: wmformat\iwmreadernetworkconfig_getforcererunautoproxydetection.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: af4c4f4d-ad19-46b5-b38f-9aa51f2d95ba
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetForceRerunAutoProxyDetection method [windows Media Format], GetForceRerunAutoProxyDetection method [windows Media Format], IWMReaderNetworkConfig interface, GetForceRerunAutoProxyDetection,IWMReaderNetworkConfig.GetForceRerunAutoProxyDetection, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetForceRerunAutoProxyDetection method, IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection, IWMReaderNetworkConfigGetForceRerunAutoProxyDetection, wmformat.iwmreadernetworkconfig_getforcererunautoproxydetection, wmsdkidl/IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection
+ms.keywords: GetForceRerunAutoProxyDetection, GetForceRerunAutoProxyDetection method [windows Media Format], GetForceRerunAutoProxyDetection method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetForceRerunAutoProxyDetection method, IWMReaderNetworkConfig.GetForceRerunAutoProxyDetection, IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection, IWMReaderNetworkConfigGetForceRerunAutoProxyDetection, wmformat.iwmreadernetworkconfig_getforcererunautoproxydetection, wmsdkidl/IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection method
+# IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection
 
 
 ## -description

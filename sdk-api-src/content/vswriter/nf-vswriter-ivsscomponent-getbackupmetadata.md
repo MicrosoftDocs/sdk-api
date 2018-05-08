@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetBackupMetadata
-title: IVssComponent::GetBackupMetadata method
+title: IVssComponent::GetBackupMetadata
 author: windows-driver-content
 description: The GetBackupMetadata method retrieves private, writer-specific backup metadata that might have been set during a PrepareForBackup event by CVssWriter::OnPrepareBackup using IVssComponent::SetBackupMetadata.
 old-location: base\ivsscomponent_getbackupmetadata.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 638b8909-0aef-4066-ade7-4ee6d96b309e
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetBackupMetadata method [VSS], GetBackupMetadata method [VSS], IVssComponent interface, GetBackupMetadata,IVssComponent.GetBackupMetadata, IVssComponent, IVssComponent interface [VSS], GetBackupMetadata method, IVssComponent::GetBackupMetadata, _win32_ivsscomponent_getbackupmetadata, base.ivsscomponent_getbackupmetadata, vswriter/IVssComponent::GetBackupMetadata
+ms.keywords: GetBackupMetadata, GetBackupMetadata method [VSS], GetBackupMetadata method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupMetadata method, IVssComponent.GetBackupMetadata, IVssComponent::GetBackupMetadata, _win32_ivsscomponent_getbackupmetadata, base.ivsscomponent_getbackupmetadata, vswriter/IVssComponent::GetBackupMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetBackupMetadata method
+# IVssComponent::GetBackupMetadata
 
 
 ## -description

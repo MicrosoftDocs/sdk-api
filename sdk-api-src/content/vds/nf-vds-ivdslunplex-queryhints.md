@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunPlex.QueryHints
-title: IVdsLunPlex::QueryHints method
+title: IVdsLunPlex::QueryHints
 author: windows-driver-content
 description: Returns the hints that are currently applied to the LUN plex.
 old-location: base\ivdslunplex_queryhints.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 4ecb0840-8eaf-47c9-b8a9-98c738ed7daf
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsLunPlex, IVdsLunPlex interface [VDS], QueryHints method, IVdsLunPlex::QueryHints, QueryHints method [VDS], QueryHints method [VDS], IVdsLunPlex interface, QueryHints,IVdsLunPlex.QueryHints, base.ivdslunplex_queryhints, vds/IVdsLunPlex::QueryHints, vdshwprv/IVdsLunPlex::QueryHints
+ms.keywords: IVdsLunPlex interface [VDS],QueryHints method, IVdsLunPlex.QueryHints, IVdsLunPlex::QueryHints, QueryHints, QueryHints method [VDS], QueryHints method [VDS],IVdsLunPlex interface, base.ivdslunplex_queryhints, vds/IVdsLunPlex::QueryHints, vdshwprv/IVdsLunPlex::QueryHints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLunPlex::QueryHints method
+# IVdsLunPlex::QueryHints
 
 
 ## -description

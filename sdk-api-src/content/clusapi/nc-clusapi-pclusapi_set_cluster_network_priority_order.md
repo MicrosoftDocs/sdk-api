@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 538e5024-6c51-4b11-a5ff-9df6aa7a4606
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER callback function [Failover Cluster], _wolf_setclusternetworkpriorityorder, clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, mscs.setclusternetworkpriorityorder
+ms.keywords: PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER callback, PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER callback function [Failover Cluster], _wolf_setclusternetworkpriorityorder, clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, mscs.setclusternetworkpriorityorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER callback
+# PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER callback function
 
 
 ## -description

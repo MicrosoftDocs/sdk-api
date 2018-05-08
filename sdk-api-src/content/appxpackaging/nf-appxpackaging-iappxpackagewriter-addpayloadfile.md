@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageWriter.AddPayloadFile
-title: IAppxPackageWriter::AddPayloadFile method
+title: IAppxPackageWriter::AddPayloadFile
 author: windows-driver-content
 description: Adds a new payload file to the app package.
 old-location: appxpkg\iappxpackagewriter_addpayloadfile.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 2BFC725A-CD56-46CA-983A-FD1BFB6CB474
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AddPayloadFile method [App packaging and management], AddPayloadFile method [App packaging and management], IAppxPackageWriter interface, AddPayloadFile,IAppxPackageWriter.AddPayloadFile, IAppxPackageWriter, IAppxPackageWriter interface [App packaging and management], AddPayloadFile method, IAppxPackageWriter::AddPayloadFile, appxpackaging/IAppxPackageWriter::AddPayloadFile, appxpkg.iappxpackagewriter_addpayloadfile
+ms.keywords: AddPayloadFile, AddPayloadFile method [App packaging and management], AddPayloadFile method [App packaging and management],IAppxPackageWriter interface, IAppxPackageWriter interface [App packaging and management],AddPayloadFile method, IAppxPackageWriter.AddPayloadFile, IAppxPackageWriter::AddPayloadFile, appxpackaging/IAppxPackageWriter::AddPayloadFile, appxpkg.iappxpackagewriter_addpayloadfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxPackageWriter::AddPayloadFile method
+# IAppxPackageWriter::AddPayloadFile
 
 
 ## -description

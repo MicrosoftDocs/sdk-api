@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeInfo
-title: ITypeLib::GetTypeInfo method
+title: ITypeLib::GetTypeInfo
 author: windows-driver-content
 description: Retrieves the specified type description in the library.
 old-location: automat\itypelib_gettypeinfo.htm
 old-project: automat
 ms.assetid: 7661faa8-eb06-4bbe-88e9-9662a0d6984b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetTypeInfo method [Automation], GetTypeInfo method [Automation], ITypeLib interface, GetTypeInfo,ITypeLib.GetTypeInfo, ITypeLib, ITypeLib interface [Automation], GetTypeInfo method, ITypeLib::GetTypeInfo, _oa96_ITypeLib_GetTypeInfo, automat.itypelib_gettypeinfo, oaidl/ITypeLib::GetTypeInfo
+ms.date: 5/4/2018
+ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfo method, ITypeLib.GetTypeInfo, ITypeLib::GetTypeInfo, _oa96_ITypeLib_GetTypeInfo, automat.itypelib_gettypeinfo, oaidl/ITypeLib::GetTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeLib::GetTypeInfo method
+# ITypeLib::GetTypeInfo
 
 
 ## -description

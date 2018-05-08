@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetColor
-title: IMFTimedTextStyle::GetColor method
+title: IMFTimedTextStyle::GetColor
 author: windows-driver-content
 description: Gets the color of the timed-text style.
 old-location: mf\imftimedtextstyle_getcolor.htm
 old-project: medfound
 ms.assetid: 262A89EC-7025-4037-B09A-87C9CEE1DF76
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetColor method [Media Foundation], GetColor method [Media Foundation], IMFTimedTextStyle interface, GetColor,IMFTimedTextStyle.GetColor, IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], GetColor method, IMFTimedTextStyle::GetColor, mf.imftimedtextstyle_getcolor, mfmediaengine/IMFTimedTextStyle::GetColor
+ms.date: 5/3/2018
+ms.keywords: GetColor, GetColor method [Media Foundation], GetColor method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetColor method, IMFTimedTextStyle.GetColor, IMFTimedTextStyle::GetColor, mf.imftimedtextstyle_getcolor, mfmediaengine/IMFTimedTextStyle::GetColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextStyle::GetColor method
+# IMFTimedTextStyle::GetColor
 
 
 ## -description

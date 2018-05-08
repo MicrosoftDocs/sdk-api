@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunPlex.ApplyHints
-title: IVdsLunPlex::ApplyHints method
+title: IVdsLunPlex::ApplyHints
 author: windows-driver-content
 description: Applies a new set of hints to the LUN plex. Hints applied to a plex affect neither the LUN nor its other plexes.
 old-location: base\ivdslunplex_applyhints.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 66299644-4b70-4cd3-ae99-4d4084c3c3c5
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: ApplyHints method [VDS], ApplyHints method [VDS], IVdsLunPlex interface, ApplyHints,IVdsLunPlex.ApplyHints, IVdsLunPlex, IVdsLunPlex interface [VDS], ApplyHints method, IVdsLunPlex::ApplyHints, base.ivdslunplex_applyhints, vds/IVdsLunPlex::ApplyHints, vdshwprv/IVdsLunPlex::ApplyHints
+ms.keywords: ApplyHints, ApplyHints method [VDS], ApplyHints method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],ApplyHints method, IVdsLunPlex.ApplyHints, IVdsLunPlex::ApplyHints, base.ivdslunplex_applyhints, vds/IVdsLunPlex::ApplyHints, vdshwprv/IVdsLunPlex::ApplyHints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLunPlex::ApplyHints method
+# IVdsLunPlex::ApplyHints
 
 
 ## -description

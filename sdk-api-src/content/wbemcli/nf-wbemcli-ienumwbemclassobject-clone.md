@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IEnumWbemClassObject.Clone
-title: IEnumWbemClassObject::Clone method
+title: IEnumWbemClassObject::Clone
 author: windows-driver-content
 description: The IEnumWbemClassObject::Clone method makes a logical copy of the entire enumerator, retaining its current position in an enumeration.
 old-location: wmi\ienumwbemclassobject_clone.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: a323c662-e005-44aa-a903-1eb7d6ddff9e
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation], IEnumWbemClassObject interface, Clone,IEnumWbemClassObject.Clone, IEnumWbemClassObject, IEnumWbemClassObject interface [Windows Management Instrumentation], Clone method, IEnumWbemClassObject::Clone, _hmm_ienumwbemclassobject_clone, wbemcli/IEnumWbemClassObject::Clone, wmi.ienumwbemclassobject_clone
+ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IEnumWbemClassObject interface, IEnumWbemClassObject interface [Windows Management Instrumentation],Clone method, IEnumWbemClassObject.Clone, IEnumWbemClassObject::Clone, _hmm_ienumwbemclassobject_clone, wbemcli/IEnumWbemClassObject::Clone, wmi.ienumwbemclassobject_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IEnumWbemClassObject::Clone method
+# IEnumWbemClassObject::Clone
 
 
 ## -description

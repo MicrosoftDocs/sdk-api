@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.RevertToSnapshot
-title: IVssSoftwareSnapshotProvider::RevertToSnapshot method
+title: IVssSoftwareSnapshotProvider::RevertToSnapshot
 author: windows-driver-content
 description: Reverts a volume to a previous shadow copy.
 old-location: base\ivsssoftwaresnapshotprovider_reverttosnapshot.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 55c55bbc-b40e-4659-bee6-2448e6b6a4df
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, RevertToSnapshot method, IVssSoftwareSnapshotProvider::RevertToSnapshot, RevertToSnapshot method, RevertToSnapshot method, IVssSoftwareSnapshotProvider interface, RevertToSnapshot,IVssSoftwareSnapshotProvider.RevertToSnapshot, base.ivsssoftwaresnapshotprovider_reverttosnapshot, vsprov/IVssSoftwareSnapshotProvider::RevertToSnapshot
+ms.keywords: IVssSoftwareSnapshotProvider interface,RevertToSnapshot method, IVssSoftwareSnapshotProvider.RevertToSnapshot, IVssSoftwareSnapshotProvider::RevertToSnapshot, RevertToSnapshot, RevertToSnapshot method, RevertToSnapshot method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_reverttosnapshot, vsprov/IVssSoftwareSnapshotProvider::RevertToSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssSoftwareSnapshotProvider::RevertToSnapshot method
+# IVssSoftwareSnapshotProvider::RevertToSnapshot
 
 
 ## -description

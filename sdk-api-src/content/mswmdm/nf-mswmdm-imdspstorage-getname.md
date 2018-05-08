@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.GetName
-title: IMDSPStorage::GetName method
+title: IMDSPStorage::GetName
 author: windows-driver-content
 description: The GetName method retrieves the display name of the storage object.
 old-location: wmdm\imdspstorage_getname.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 6172f222-8b92-4da5-8001-b79431c26518
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetName method [windows Media Device Manager], GetName method [windows Media Device Manager], IMDSPStorage interface, GetName,IMDSPStorage.GetName, IMDSPStorage, IMDSPStorage interface [windows Media Device Manager], GetName method, IMDSPStorage::GetName, IMDSPStorageGetName, mswmdm/IMDSPStorage::GetName, wmdm.imdspstorage_getname
+ms.keywords: GetName, GetName method [windows Media Device Manager], GetName method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetName method, IMDSPStorage.GetName, IMDSPStorage::GetName, IMDSPStorageGetName, mswmdm/IMDSPStorage::GetName, wmdm.imdspstorage_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPStorage::GetName method
+# IMDSPStorage::GetName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordServiceType
-title: IATSC_VCT::GetRecordServiceType method
+title: IATSC_VCT::GetRecordServiceType
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordservicetype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8975a42e-69f8-43b8-8c02-2f03a4dde29f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordServiceType method [Microsoft TV Technologies], GetRecordServiceType method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordServiceType,IATSC_VCT.GetRecordServiceType, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordServiceType method, IATSC_VCT::GetRecordServiceType, IATSC_VCTGetRecordServiceType, atscpsipparser/IATSC_VCT::GetRecordServiceType, mstv.iatsc_vct_getrecordservicetype
+ms.keywords: GetRecordServiceType, GetRecordServiceType method [Microsoft TV Technologies], GetRecordServiceType method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordServiceType method, IATSC_VCT.GetRecordServiceType, IATSC_VCT::GetRecordServiceType, IATSC_VCTGetRecordServiceType, atscpsipparser/IATSC_VCT::GetRecordServiceType, mstv.iatsc_vct_getrecordservicetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_VCT::GetRecordServiceType method
+# IATSC_VCT::GetRecordServiceType
 
 
 ## -description

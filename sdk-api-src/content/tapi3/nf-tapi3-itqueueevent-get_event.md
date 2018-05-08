@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITQueueEvent.get_Event
-title: ITQueueEvent::get_Event method
+title: ITQueueEvent::get_Event
 author: windows-driver-content
 description: The get_Event method gets the descriptor of the event that occurred.
 old-location: tapi3\itqueueevent_get_event.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 704a9601-e8c3-42d4-86bc-be59c44a05b3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITQueueEvent, ITQueueEvent interface [TAPI 2.2], get_Event method, ITQueueEvent::get_Event, _tapi3_itqueueevent_get_event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2], ITQueueEvent interface, get_Event,ITQueueEvent.get_Event, tapi3.itqueueevent_get_event, tapi3cc/ITQueueEvent::get_Event
+ms.keywords: ITQueueEvent interface [TAPI 2.2],get_Event method, ITQueueEvent.get_Event, ITQueueEvent::get_Event, _tapi3_itqueueevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITQueueEvent interface, tapi3.itqueueevent_get_event, tapi3cc/ITQueueEvent::get_Event
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITQueueEvent::get_Event method
+# ITQueueEvent::get_Event
 
 
 ## -description

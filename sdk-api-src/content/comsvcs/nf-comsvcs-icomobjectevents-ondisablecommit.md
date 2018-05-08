@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnDisableCommit
-title: IComObjectEvents::OnDisableCommit method
+title: IComObjectEvents::OnDisableCommit
 author: windows-driver-content
 description: Generated when the client calls DisableCommit on a context.
 old-location: cos\icomobjectevents_ondisablecommit.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 413d7216-294c-4e46-b24c-abe1d1a09239
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComObjectEvents, IComObjectEvents interface [COM+], OnDisableCommit method, IComObjectEvents::OnDisableCommit, OnDisableCommit method [COM+], OnDisableCommit method [COM+], IComObjectEvents interface, OnDisableCommit,IComObjectEvents.OnDisableCommit, _dtc_IComObjectEvents_OnDisableCommit, comsvcs/IComObjectEvents::OnDisableCommit, cos.icomobjectevents_ondisablecommit
+ms.keywords: IComObjectEvents interface [COM+],OnDisableCommit method, IComObjectEvents.OnDisableCommit, IComObjectEvents::OnDisableCommit, OnDisableCommit, OnDisableCommit method [COM+], OnDisableCommit method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnDisableCommit, comsvcs/IComObjectEvents::OnDisableCommit, cos.icomobjectevents_ondisablecommit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComObjectEvents::OnDisableCommit method
+# IComObjectEvents::OnDisableCommit
 
 
 ## -description

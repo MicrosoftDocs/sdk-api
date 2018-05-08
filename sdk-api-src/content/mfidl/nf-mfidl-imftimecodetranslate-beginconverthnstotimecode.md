@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTimecodeTranslate.BeginConvertHNSToTimecode
-title: IMFTimecodeTranslate::BeginConvertHNSToTimecode method
+title: IMFTimecodeTranslate::BeginConvertHNSToTimecode
 author: windows-driver-content
 description: Starts an asynchronous call to convert time in 100-nanosecond units to Society of Motion Picture and Television Engineers (SMPTE) time code.
 old-location: mf\imftimecodetranslate_beginconverthnstotimecode.htm
 old-project: medfound
 ms.assetid: 42b5de27-aaa6-4bd9-b2b0-3aeabfc28ef2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: BeginConvertHNSToTimecode method [Media Foundation], BeginConvertHNSToTimecode method [Media Foundation], IMFTimecodeTranslate interface, BeginConvertHNSToTimecode,IMFTimecodeTranslate.BeginConvertHNSToTimecode, IMFTimecodeTranslate, IMFTimecodeTranslate interface [Media Foundation], BeginConvertHNSToTimecode method, IMFTimecodeTranslate::BeginConvertHNSToTimecode, mf.imftimecodetranslate_beginconverthnstotimecode, mfidl/IMFTimecodeTranslate::BeginConvertHNSToTimecode
+ms.date: 5/3/2018
+ms.keywords: BeginConvertHNSToTimecode, BeginConvertHNSToTimecode method [Media Foundation], BeginConvertHNSToTimecode method [Media Foundation],IMFTimecodeTranslate interface, IMFTimecodeTranslate interface [Media Foundation],BeginConvertHNSToTimecode method, IMFTimecodeTranslate.BeginConvertHNSToTimecode, IMFTimecodeTranslate::BeginConvertHNSToTimecode, mf.imftimecodetranslate_beginconverthnstotimecode, mfidl/IMFTimecodeTranslate::BeginConvertHNSToTimecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimecodeTranslate::BeginConvertHNSToTimecode method
+# IMFTimecodeTranslate::BeginConvertHNSToTimecode
 
 
 ## -description

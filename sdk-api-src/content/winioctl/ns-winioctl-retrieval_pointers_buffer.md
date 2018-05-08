@@ -69,6 +69,16 @@ The count of elements in the <b>Extents</b> array.
 The starting VCN returned by the function call. This is not necessarily the VCN requested by the function call, as the file system driver may round down to the first VCN of the extent in which the requested starting VCN is found.
 
 
+### -field NextVcn
+
+ 
+
+
+### -field Lcn
+
+ 
+
+
 ### -field Extents
 
 Array of <b>Extents</b> structures. For the number of members in the array, see <b>ExtentCount</b>. Each member of the array has the following members.

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.SetAppendWindowStart
-title: IMFSourceBuffer::SetAppendWindowStart method
+title: IMFSourceBuffer::SetAppendWindowStart
 author: windows-driver-content
 description: Sets the timestamp for the start of the append window.
 old-location: mf\imfsourcebuffer_setappendwindowstart.htm
 old-project: medfound
 ms.assetid: 5f78e53c-ea2b-4849-9d01-6c31539d8ef5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], SetAppendWindowStart method, IMFSourceBuffer::SetAppendWindowStart, SetAppendWindowStart method [Media Foundation], SetAppendWindowStart method [Media Foundation], IMFSourceBuffer interface, SetAppendWindowStart,IMFSourceBuffer.SetAppendWindowStart, mf.imfsourcebuffer_setappendwindowstart, mfmediaengine/IMFSourceBuffer::SetAppendWindowStart
+ms.date: 5/3/2018
+ms.keywords: IMFSourceBuffer interface [Media Foundation],SetAppendWindowStart method, IMFSourceBuffer.SetAppendWindowStart, IMFSourceBuffer::SetAppendWindowStart, SetAppendWindowStart, SetAppendWindowStart method [Media Foundation], SetAppendWindowStart method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_setappendwindowstart, mfmediaengine/IMFSourceBuffer::SetAppendWindowStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceBuffer::SetAppendWindowStart method
+# IMFSourceBuffer::SetAppendWindowStart
 
 
 ## -description

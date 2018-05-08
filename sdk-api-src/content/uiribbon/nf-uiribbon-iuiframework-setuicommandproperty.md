@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIFramework.SetUICommandProperty
-title: IUIFramework::SetUICommandProperty method
+title: IUIFramework::SetUICommandProperty
 author: windows-driver-content
 description: Sets a command property, value, or state.
 old-location: windowsribbon\windowsribbon_iuiframework_setuicommandproperty.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\setuicommandproperty.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IUIFramework, IUIFramework interface [Windows Ribbon], SetUICommandProperty method, IUIFramework::SetUICommandProperty, SetUICommandProperty method [Windows Ribbon], SetUICommandProperty method [Windows Ribbon], IUIFramework interface, SetUICommandProperty,IUIFramework.SetUICommandProperty, scenicintent_IUIFramework_SetUICommandProperty, uiribbon/IUIFramework::SetUICommandProperty, windowsribbon.windowsribbon_iuiframework_setuicommandproperty
+ms.keywords: IUIFramework interface [Windows Ribbon],SetUICommandProperty method, IUIFramework.SetUICommandProperty, IUIFramework::SetUICommandProperty, SetUICommandProperty, SetUICommandProperty method [Windows Ribbon], SetUICommandProperty method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_SetUICommandProperty, uiribbon/IUIFramework::SetUICommandProperty, windowsribbon.windowsribbon_iuiframework_setuicommandproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUIFramework::SetUICommandProperty method
+# IUIFramework::SetUICommandProperty
 
 
 ## -description

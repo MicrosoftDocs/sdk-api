@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumnHeaders
-title: ICrmFormatLogRecords::GetColumnHeaders method
+title: ICrmFormatLogRecords::GetColumnHeaders
 author: windows-driver-content
 description: Retrieves the names of the fields (columns) so that they can be used as column headings when the information is presented.
 old-location: cos\icrmformatlogrecords_getcolumnheaders.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: b7ca50f9-7e42-4cde-9985-0501ae34f040
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetColumnHeaders method [COM+], GetColumnHeaders method [COM+], ICrmFormatLogRecords interface, GetColumnHeaders,ICrmFormatLogRecords.GetColumnHeaders, ICrmFormatLogRecords, ICrmFormatLogRecords interface [COM+], GetColumnHeaders method, ICrmFormatLogRecords::GetColumnHeaders, _dtc_ICrmFormatLogRecords_GetColumnHeaders, comsvcs/ICrmFormatLogRecords::GetColumnHeaders, cos.icrmformatlogrecords_getcolumnheaders
+ms.keywords: GetColumnHeaders, GetColumnHeaders method [COM+], GetColumnHeaders method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnHeaders method, ICrmFormatLogRecords.GetColumnHeaders, ICrmFormatLogRecords::GetColumnHeaders, _dtc_ICrmFormatLogRecords_GetColumnHeaders, comsvcs/ICrmFormatLogRecords::GetColumnHeaders, cos.icrmformatlogrecords_getcolumnheaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmFormatLogRecords::GetColumnHeaders method
+# ICrmFormatLogRecords::GetColumnHeaders
 
 
 ## -description

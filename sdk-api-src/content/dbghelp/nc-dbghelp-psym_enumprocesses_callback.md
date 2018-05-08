@@ -8,7 +8,7 @@ old-project: Debug
 ms.assetid: 4748b2a3-0b7b-4d9c-96ed-c4b3ba927107
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: PSYM_ENUMPROCESSES_CALLBACK, SymEnumProcessesProc, SymEnumProcessesProc callback function, base.symenumprocessesproc, dbghelp/SymEnumProcessesProc
+ms.keywords: PSYM_ENUMPROCESSES_CALLBACK, SymEnumProcessesProc, SymEnumProcessesProc callback, SymEnumProcessesProc callback function, base.symenumprocessesproc, dbghelp/SymEnumProcessesProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PSYM_ENUMPROCESSES_CALLBACK callback
+# PSYM_ENUMPROCESSES_CALLBACK callback function
 
 
 ## -description

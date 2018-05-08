@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.RemoveAllDataUnitExtensions
-title: IWMStreamConfig2::RemoveAllDataUnitExtensions method
+title: IWMStreamConfig2::RemoveAllDataUnitExtensions
 author: windows-driver-content
 description: The RemoveAllDataUnitExtensions method removes all data unit extension systems that are associated with the stream.
 old-location: wmformat\iwmstreamconfig2_removealldataunitextensions.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 944c1b6c-1d1b-4a44-9b9e-d673c8d60306
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format], RemoveAllDataUnitExtensions method, IWMStreamConfig2::RemoveAllDataUnitExtensions, IWMStreamConfig2RemoveAllDataUnitExtensions, RemoveAllDataUnitExtensions method [windows Media Format], RemoveAllDataUnitExtensions method [windows Media Format], IWMStreamConfig2 interface, RemoveAllDataUnitExtensions,IWMStreamConfig2.RemoveAllDataUnitExtensions, wmformat.iwmstreamconfig2_removealldataunitextensions, wmsdkidl/IWMStreamConfig2::RemoveAllDataUnitExtensions
+ms.keywords: IWMStreamConfig2 interface [windows Media Format],RemoveAllDataUnitExtensions method, IWMStreamConfig2.RemoveAllDataUnitExtensions, IWMStreamConfig2::RemoveAllDataUnitExtensions, IWMStreamConfig2RemoveAllDataUnitExtensions, RemoveAllDataUnitExtensions, RemoveAllDataUnitExtensions method [windows Media Format], RemoveAllDataUnitExtensions method [windows Media Format],IWMStreamConfig2 interface, wmformat.iwmstreamconfig2_removealldataunitextensions, wmsdkidl/IWMStreamConfig2::RemoveAllDataUnitExtensions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig2::RemoveAllDataUnitExtensions method
+# IWMStreamConfig2::RemoveAllDataUnitExtensions
 
 
 ## -description

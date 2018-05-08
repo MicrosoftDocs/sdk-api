@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetIdParameters
-title: ISyncKnowledge2::GetIdParameters method
+title: ISyncKnowledge2::GetIdParameters
 author: windows-driver-content
 description: Gets the ID format schema of the provider.
 old-location: winsync\isyncknowledge2_getidparameters.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: dbb049b8-cd2c-49f3-a9f9-0d76da0b3824
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync], ISyncKnowledge2 interface, GetIdParameters,ISyncKnowledge2.GetIdParameters, ISyncKnowledge2, ISyncKnowledge2 interface [Windows Sync], GetIdParameters method, ISyncKnowledge2::GetIdParameters, winsync.isyncknowledge2_getidparameters, winsync/ISyncKnowledge2::GetIdParameters
+ms.keywords: GetIdParameters, GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetIdParameters method, ISyncKnowledge2.GetIdParameters, ISyncKnowledge2::GetIdParameters, winsync.isyncknowledge2_getidparameters, winsync/ISyncKnowledge2::GetIdParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge2::GetIdParameters method
+# ISyncKnowledge2::GetIdParameters
 
 
 ## -description

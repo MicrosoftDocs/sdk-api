@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker2.Remove
-title: ISpellChecker2::Remove method
+title: ISpellChecker2::Remove
 author: windows-driver-content
 description: Removes a word that was previously added by ISpellChecker.Add, or set by ISpellChecker.Ignore to be ignored.
 old-location: intl\ispellchecker2_remove.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 425F1C58-D279-48E2-84D3-D3094314C756
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISpellChecker2, ISpellChecker2 interface [Internationalization for Windows Applications], Remove method, ISpellChecker2::Remove, Remove method [Internationalization for Windows Applications], Remove method [Internationalization for Windows Applications], ISpellChecker2 interface, Remove,ISpellChecker2.Remove, intl.ispellchecker2_remove, spellcheck/ISpellChecker2::Remove
+ms.keywords: ISpellChecker2 interface [Internationalization for Windows Applications],Remove method, ISpellChecker2.Remove, ISpellChecker2::Remove, Remove, Remove method [Internationalization for Windows Applications], Remove method [Internationalization for Windows Applications],ISpellChecker2 interface, intl.ispellchecker2_remove, spellcheck/ISpellChecker2::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellChecker2::Remove method
+# ISpellChecker2::Remove
 
 
 ## -description

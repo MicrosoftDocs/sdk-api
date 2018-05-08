@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.ModifySyncProvider
-title: ISyncProviderConfigUI::ModifySyncProvider method
+title: ISyncProviderConfigUI::ModifySyncProvider
 author: windows-driver-content
 description: Updates the ISyncProviderInfo of the synchronization provider that is configured by this ISyncProviderConfigUI.
 old-location: winsync\isyncproviderconfigui_modifysyncprovider.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 16f6d30c-422a-4638-a63b-f9d2a5fdb8b4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncProviderConfigUI, ISyncProviderConfigUI interface [Windows Sync], ModifySyncProvider method, ISyncProviderConfigUI::ModifySyncProvider, ModifySyncProvider method [Windows Sync], ModifySyncProvider method [Windows Sync], ISyncProviderConfigUI interface, ModifySyncProvider,ISyncProviderConfigUI.ModifySyncProvider, syncregistration/ISyncProviderConfigUI::ModifySyncProvider, winsync.isyncproviderconfigui_modifysyncprovider
+ms.keywords: ISyncProviderConfigUI interface [Windows Sync],ModifySyncProvider method, ISyncProviderConfigUI.ModifySyncProvider, ISyncProviderConfigUI::ModifySyncProvider, ModifySyncProvider, ModifySyncProvider method [Windows Sync], ModifySyncProvider method [Windows Sync],ISyncProviderConfigUI interface, syncregistration/ISyncProviderConfigUI::ModifySyncProvider, winsync.isyncproviderconfigui_modifysyncprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderConfigUI::ModifySyncProvider method
+# ISyncProviderConfigUI::ModifySyncProvider
 
 
 ## -description

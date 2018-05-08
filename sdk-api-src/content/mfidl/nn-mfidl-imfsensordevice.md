@@ -7,8 +7,8 @@ old-location: mf\imfsensordevice.htm
 old-project: medfound
 ms.assetid: 061EF002-178E-42CA-9D32-7E1282297BA4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSensorDevice, IMFSensorDevice interface [Media Foundation], IMFSensorDevice interface [Media Foundation], described, mf.imfsensordevice, mfidl/IMFSensorDevice
+ms.date: 5/3/2018
+ms.keywords: IMFSensorDevice, IMFSensorDevice interface [Media Foundation], IMFSensorDevice interface [Media Foundation],described, mf.imfsensordevice, mfidl/IMFSensorDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

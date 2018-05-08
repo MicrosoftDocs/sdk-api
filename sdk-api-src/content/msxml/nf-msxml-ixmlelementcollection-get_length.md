@@ -1,14 +1,14 @@
 ---
 UID: NF:msxml.IXMLElementCollection.get_length
-title: IXMLElementCollection::get_length method
+title: IXMLElementCollection::get_length
 author: windows-driver-content
 description: Retrieves the number of elements in the collection.
 old-location: winprog\ixmlelementcollection_length.htm
 old-project: DevNotes
 ms.assetid: eb9236ad-378e-499e-8ab5-ed5bd327ef95
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: IXMLElementCollection, IXMLElementCollection interface [Windows API], get_length method, IXMLElementCollection::get_length, get_length method [Windows API], get_length method [Windows API], IXMLElementCollection interface, get_length,IXMLElementCollection.get_length, msxml/IXMLElementCollection::get_length, winprog.ixmlelementcollection_length
+ms.date: 5/4/2018
+ms.keywords: IXMLElementCollection interface [Windows API],get_length method, IXMLElementCollection.get_length, IXMLElementCollection::get_length, get_length, get_length method [Windows API], get_length method [Windows API],IXMLElementCollection interface, msxml/IXMLElementCollection::get_length, winprog.ixmlelementcollection_length
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLElementCollection::get_length method
+# IXMLElementCollection::get_length
 
 
 ## -description

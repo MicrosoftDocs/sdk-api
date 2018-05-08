@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetBlob
-title: IMFAttributes::SetBlob method
+title: IMFAttributes::SetBlob
 author: windows-driver-content
 description: Associates a byte array with a key.
 old-location: mf\imfattributes_setblob.htm
 old-project: medfound
 ms.assetid: 4a2a25a9-4dea-40c8-988c-9e3806c8f31c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 4a2a25a9-4dea-40c8-988c-9e3806c8f31c, IMFAttributes, IMFAttributes interface [Media Foundation], SetBlob method, IMFAttributes::SetBlob, SetBlob method [Media Foundation], SetBlob method [Media Foundation], IMFAttributes interface, SetBlob,IMFAttributes.SetBlob, mf.imfattributes_setblob, mfobjects/IMFAttributes::SetBlob
+ms.date: 5/3/2018
+ms.keywords: 4a2a25a9-4dea-40c8-988c-9e3806c8f31c, IMFAttributes interface [Media Foundation],SetBlob method, IMFAttributes.SetBlob, IMFAttributes::SetBlob, SetBlob, SetBlob method [Media Foundation], SetBlob method [Media Foundation],IMFAttributes interface, mf.imfattributes_setblob, mfobjects/IMFAttributes::SetBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAttributes::SetBlob method
+# IMFAttributes::SetBlob
 
 
 ## -description

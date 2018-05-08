@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IAsynchronousDataRetriever.LoadChangeData
-title: IAsynchronousDataRetriever::LoadChangeData method
+title: IAsynchronousDataRetriever::LoadChangeData
 author: windows-driver-content
 description: Retrieves item data for a change.
 old-location: winsync\iasynchronousdataretriever_loadchangedata.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: b5e73504-1f9e-4a58-9bd9-2c184372b970
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IAsynchronousDataRetriever, IAsynchronousDataRetriever interface [Windows Sync], LoadChangeData method, IAsynchronousDataRetriever::LoadChangeData, LoadChangeData method [Windows Sync], LoadChangeData method [Windows Sync], IAsynchronousDataRetriever interface, LoadChangeData,IAsynchronousDataRetriever.LoadChangeData, winsync.iasynchronousdataretriever_loadchangedata, winsync/IAsynchronousDataRetriever::LoadChangeData
+ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],LoadChangeData method, IAsynchronousDataRetriever.LoadChangeData, IAsynchronousDataRetriever::LoadChangeData, LoadChangeData, LoadChangeData method [Windows Sync], LoadChangeData method [Windows Sync],IAsynchronousDataRetriever interface, winsync.iasynchronousdataretriever_loadchangedata, winsync/IAsynchronousDataRetriever::LoadChangeData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAsynchronousDataRetriever::LoadChangeData method
+# IAsynchronousDataRetriever::LoadChangeData
 
 
 ## -description

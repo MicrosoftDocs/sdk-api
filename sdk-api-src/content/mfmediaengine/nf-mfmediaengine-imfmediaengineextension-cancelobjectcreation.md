@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineExtension.CancelObjectCreation
-title: IMFMediaEngineExtension::CancelObjectCreation method
+title: IMFMediaEngineExtension::CancelObjectCreation
 author: windows-driver-content
 description: Cancels the current request to create an object.
 old-location: mf\imfmediaengineextension_cancelobjectcreation.htm
 old-project: medfound
 ms.assetid: E2FEC865-221E-41B5-8271-32A53D60619E
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation], IMFMediaEngineExtension interface, CancelObjectCreation,IMFMediaEngineExtension.CancelObjectCreation, IMFMediaEngineExtension, IMFMediaEngineExtension interface [Media Foundation], CancelObjectCreation method, IMFMediaEngineExtension::CancelObjectCreation, mf.imfmediaengineextension_cancelobjectcreation, mfmediaengine/IMFMediaEngineExtension::CancelObjectCreation
+ms.date: 5/3/2018
+ms.keywords: CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],CancelObjectCreation method, IMFMediaEngineExtension.CancelObjectCreation, IMFMediaEngineExtension::CancelObjectCreation, mf.imfmediaengineextension_cancelobjectcreation, mfmediaengine/IMFMediaEngineExtension::CancelObjectCreation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineExtension::CancelObjectCreation method
+# IMFMediaEngineExtension::CancelObjectCreation
 
 
 ## -description

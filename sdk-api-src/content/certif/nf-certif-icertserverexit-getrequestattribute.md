@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerExit.GetRequestAttribute
-title: ICertServerExit::GetRequestAttribute method
+title: ICertServerExit::GetRequestAttribute
 author: windows-driver-content
 description: Returns a named attribute value from a request.
 old-location: security\icertserverexit_getrequestattribute.htm
 old-project: SecCrypto
 ms.assetid: 894bde77-5e76-452b-acf5-c73fcaf1fa31
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertServerExit object [Security], GetRequestAttribute method, GetRequestAttribute method [Security], GetRequestAttribute method [Security], CCertServerExit object, GetRequestAttribute method [Security], ICertServerExit interface, GetRequestAttribute,ICertServerExit.GetRequestAttribute, ICertServerExit, ICertServerExit interface [Security], GetRequestAttribute method, ICertServerExit::GetRequestAttribute, _certsrv_icertserverexit_getrequestattribute, certif/ICertServerExit::GetRequestAttribute, security.icertserverexit_getrequestattribute
+ms.date: 4/30/2018
+ms.keywords: CCertServerExit object [Security],GetRequestAttribute method, GetRequestAttribute, GetRequestAttribute method [Security], GetRequestAttribute method [Security],CCertServerExit object, GetRequestAttribute method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetRequestAttribute method, ICertServerExit.GetRequestAttribute, ICertServerExit::GetRequestAttribute, _certsrv_icertserverexit_getrequestattribute, certif/ICertServerExit::GetRequestAttribute, security.icertserverexit_getrequestattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerExit::GetRequestAttribute method
+# ICertServerExit::GetRequestAttribute
 
 
 ## -description

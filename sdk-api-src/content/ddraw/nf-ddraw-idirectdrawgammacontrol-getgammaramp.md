@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawGammaControl.GetGammaRamp
-title: IDirectDrawGammaControl::GetGammaRamp method
+title: IDirectDrawGammaControl::GetGammaRamp
 author: windows-driver-content
 description: Retrieves the red, green, and blue gamma ramps for the primary surface.
 old-location: directdraw\idirectdrawgammacontrol_getgammaramp.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: ba83605c-c388-42c0-9297-1666c80a278e
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetGammaRamp method [DirectDraw], GetGammaRamp method [DirectDraw], IDirectDrawGammaControl interface, GetGammaRamp,IDirectDrawGammaControl.GetGammaRamp, IDirectDrawGammaControl, IDirectDrawGammaControl interface [DirectDraw], GetGammaRamp method, IDirectDrawGammaControl::GetGammaRamp, ddraw/IDirectDrawGammaControl::GetGammaRamp, directdraw.idirectdrawgammacontrol_getgammaramp
+ms.keywords: GetGammaRamp, GetGammaRamp method [DirectDraw], GetGammaRamp method [DirectDraw],IDirectDrawGammaControl interface, IDirectDrawGammaControl interface [DirectDraw],GetGammaRamp method, IDirectDrawGammaControl.GetGammaRamp, IDirectDrawGammaControl::GetGammaRamp, ddraw/IDirectDrawGammaControl::GetGammaRamp, directdraw.idirectdrawgammacontrol_getgammaramp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawGammaControl::GetGammaRamp method
+# IDirectDrawGammaControl::GetGammaRamp
 
 
 ## -description

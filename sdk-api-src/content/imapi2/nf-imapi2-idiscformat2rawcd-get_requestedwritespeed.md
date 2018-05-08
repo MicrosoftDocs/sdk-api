@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_RequestedWriteSpeed
-title: IDiscFormat2RawCD::get_RequestedWriteSpeed method
+title: IDiscFormat2RawCD::get_RequestedWriteSpeed
 author: windows-driver-content
 description: Retrieves the requested write speed.
 old-location: imapi\idiscformat2rawcd_get_requestedwritespeed.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 0b718fe5-197e-4dc7-a8df-f2febf76aaab
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], get_RequestedWriteSpeed method, IDiscFormat2RawCD::get_RequestedWriteSpeed, get_RequestedWriteSpeed method [IMAPI], get_RequestedWriteSpeed method [IMAPI], IDiscFormat2RawCD interface, get_RequestedWriteSpeed,IDiscFormat2RawCD.get_RequestedWriteSpeed, imapi.idiscformat2rawcd_get_requestedwritespeed, imapi2/IDiscFormat2RawCD::get_RequestedWriteSpeed
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_RequestedWriteSpeed method, IDiscFormat2RawCD.get_RequestedWriteSpeed, IDiscFormat2RawCD::get_RequestedWriteSpeed, get_RequestedWriteSpeed, get_RequestedWriteSpeed method [IMAPI], get_RequestedWriteSpeed method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_requestedwritespeed, imapi2/IDiscFormat2RawCD::get_RequestedWriteSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCD::get_RequestedWriteSpeed method
+# IDiscFormat2RawCD::get_RequestedWriteSpeed
 
 
 ## -description

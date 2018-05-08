@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetDepthStencilSurface
-title: IDirect3DDevice9::SetDepthStencilSurface method
+title: IDirect3DDevice9::SetDepthStencilSurface
 author: windows-driver-content
 description: Sets the depth stencil surface.
 old-location: direct3d9\idirect3ddevice9__setdepthstencilsurface.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setdepthstencilsurface.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetDepthStencilSurface method, IDirect3DDevice9::SetDepthStencilSurface, SetDepthStencilSurface method [Direct3D 9], SetDepthStencilSurface method [Direct3D 9], IDirect3DDevice9 interface, SetDepthStencilSurface,IDirect3DDevice9.SetDepthStencilSurface, c973ddb0-10a2-26b2-bf86-57867238343e, d3d9helper/IDirect3DDevice9::SetDepthStencilSurface, direct3d9.idirect3ddevice9__setdepthstencilsurface
+ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetDepthStencilSurface method, IDirect3DDevice9.SetDepthStencilSurface, IDirect3DDevice9::SetDepthStencilSurface, SetDepthStencilSurface, SetDepthStencilSurface method [Direct3D 9], SetDepthStencilSurface method [Direct3D 9],IDirect3DDevice9 interface, c973ddb0-10a2-26b2-bf86-57867238343e, d3d9helper/IDirect3DDevice9::SetDepthStencilSurface, direct3d9.idirect3ddevice9__setdepthstencilsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::SetDepthStencilSurface method
+# IDirect3DDevice9::SetDepthStencilSurface
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamPrioritization.SetPriorityRecords
-title: IWMStreamPrioritization::SetPriorityRecords method
+title: IWMStreamPrioritization::SetPriorityRecords
 author: windows-driver-content
 description: The SetPriorityRecords method assigns the members of an array as the stream priority list in the stream prioritization object.
 old-location: wmformat\iwmstreamprioritization_setpriorityrecords.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 9bd42132-b391-4941-87db-5ce2254e19cf
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMStreamPrioritization, IWMStreamPrioritization interface [windows Media Format], SetPriorityRecords method, IWMStreamPrioritization::SetPriorityRecords, IWMStreamPrioritizationSetPriorityRecords, SetPriorityRecords method [windows Media Format], SetPriorityRecords method [windows Media Format], IWMStreamPrioritization interface, SetPriorityRecords,IWMStreamPrioritization.SetPriorityRecords, wmformat.iwmstreamprioritization_setpriorityrecords, wmsdkidl/IWMStreamPrioritization::SetPriorityRecords
+ms.keywords: IWMStreamPrioritization interface [windows Media Format],SetPriorityRecords method, IWMStreamPrioritization.SetPriorityRecords, IWMStreamPrioritization::SetPriorityRecords, IWMStreamPrioritizationSetPriorityRecords, SetPriorityRecords, SetPriorityRecords method [windows Media Format], SetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, wmformat.iwmstreamprioritization_setpriorityrecords, wmsdkidl/IWMStreamPrioritization::SetPriorityRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamPrioritization::SetPriorityRecords method
+# IWMStreamPrioritization::SetPriorityRecords
 
 
 ## -description

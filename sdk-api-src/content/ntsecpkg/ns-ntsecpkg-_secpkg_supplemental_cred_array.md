@@ -65,6 +65,16 @@ The <b>SECPKG_SUPPLEMENTAL_CRED_ARRAY</b> structure contains <a href="https://ms
 The number of supplemental credentials in the <b>Credentials</b> member.
 
 
+### -field Credentials.size_is
+
+ 
+
+
+### -field Credentials.size_is.CredentialCount
+
+ 
+
+
 ### -field Credentials
 
 An array containing supplemental credentials.

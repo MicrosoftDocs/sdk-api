@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IExpDispSupport.OnTranslateAccelerator
-title: IExpDispSupport::OnTranslateAccelerator method
+title: IExpDispSupport::OnTranslateAccelerator
 author: windows-driver-content
 description: Deprecated. Instructs the control site to process the keystroke described in pMsg and modified by the flags in grfModifiers.
 old-location: shell\IExpDispSupport_OnTranslateAccelerator.htm
 old-project: shell
 ms.assetid: 55f3b4dd-134d-49fe-a7f7-c6315971e902
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IExpDispSupport, IExpDispSupport interface [Windows Shell], OnTranslateAccelerator method, IExpDispSupport::OnTranslateAccelerator, OnTranslateAccelerator method [Windows Shell], OnTranslateAccelerator method [Windows Shell], IExpDispSupport interface, OnTranslateAccelerator,IExpDispSupport.OnTranslateAccelerator, shdeprecated/IExpDispSupport::OnTranslateAccelerator, shell.IExpDispSupport_OnTranslateAccelerator, zone_IExpDispSupport_OnTranslateAccelerator
+ms.date: 5/3/2018
+ms.keywords: IExpDispSupport interface [Windows Shell],OnTranslateAccelerator method, IExpDispSupport.OnTranslateAccelerator, IExpDispSupport::OnTranslateAccelerator, OnTranslateAccelerator, OnTranslateAccelerator method [Windows Shell], OnTranslateAccelerator method [Windows Shell],IExpDispSupport interface, shdeprecated/IExpDispSupport::OnTranslateAccelerator, shell.IExpDispSupport_OnTranslateAccelerator, zone_IExpDispSupport_OnTranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IExpDispSupport::OnTranslateAccelerator method
+# IExpDispSupport::OnTranslateAccelerator
 
 
 ## -description

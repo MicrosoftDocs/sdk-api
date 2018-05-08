@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 41b0b433-288d-4d7b-b961-2789b2540761
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DdSetEntries, DdSetEntries callback function [Display Devices], PDD_PALCB_SETENTRIES, ddfncs_904cb314-1d34-4ace-b1ba-92e25ed8f293.xml, ddrawint/DdSetEntries, display.ddsetentries
+ms.keywords: DdSetEntries, DdSetEntries callback function [Display Devices], PDD_PALCB_SETENTRIES, PDD_PALCB_SETENTRIES callback, ddfncs_904cb314-1d34-4ace-b1ba-92e25ed8f293.xml, ddrawint/DdSetEntries, display.ddsetentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PDD_PALCB_SETENTRIES callback
+# PDD_PALCB_SETENTRIES callback function
 
 
 ## -description

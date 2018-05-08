@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTrustedOutput.IsFinal
-title: IMFTrustedOutput::IsFinal method
+title: IMFTrustedOutput::IsFinal
 author: windows-driver-content
 description: Queries whether this output is a policy sink, meaning it handles the rights and restrictions required by the input trust authority (ITA).
 old-location: mf\imftrustedoutput_isfinal.htm
 old-project: medfound
 ms.assetid: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439, IMFTrustedOutput, IMFTrustedOutput interface [Media Foundation], IsFinal method, IMFTrustedOutput::IsFinal, IsFinal method [Media Foundation], IsFinal method [Media Foundation], IMFTrustedOutput interface, IsFinal,IMFTrustedOutput.IsFinal, mf.imftrustedoutput_isfinal, mfidl/IMFTrustedOutput::IsFinal
+ms.date: 5/3/2018
+ms.keywords: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439, IMFTrustedOutput interface [Media Foundation],IsFinal method, IMFTrustedOutput.IsFinal, IMFTrustedOutput::IsFinal, IsFinal, IsFinal method [Media Foundation], IsFinal method [Media Foundation],IMFTrustedOutput interface, mf.imftrustedoutput_isfinal, mfidl/IMFTrustedOutput::IsFinal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTrustedOutput::IsFinal method
+# IMFTrustedOutput::IsFinal
 
 
 ## -description

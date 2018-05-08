@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMProgress.Progress
-title: IWMDMProgress::Progress method
+title: IWMDMProgress::Progress
 author: windows-driver-content
 description: The Progress method indicates that an operation is still in progress.
 old-location: wmdm\iwmdmprogress_progress.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: e85b6b46-2c42-461f-90b5-71b48bc4a111
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMProgress, IWMDMProgress interface [windows Media Device Manager], Progress method, IWMDMProgress::Progress, IWMDMProgressProgress, Progress method [windows Media Device Manager], Progress method [windows Media Device Manager], IWMDMProgress interface, Progress,IWMDMProgress.Progress, mswmdm/IWMDMProgress::Progress, wmdm.iwmdmprogress_progress
+ms.keywords: IWMDMProgress interface [windows Media Device Manager],Progress method, IWMDMProgress.Progress, IWMDMProgress::Progress, IWMDMProgressProgress, Progress, Progress method [windows Media Device Manager], Progress method [windows Media Device Manager],IWMDMProgress interface, mswmdm/IWMDMProgress::Progress, wmdm.iwmdmprogress_progress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMProgress::Progress method
+# IWMDMProgress::Progress
 
 
 ## -description

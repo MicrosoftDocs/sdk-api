@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.SetRenderingMode
-title: IVMRFilterConfig9::SetRenderingMode method
+title: IVMRFilterConfig9::SetRenderingMode
 author: windows-driver-content
 description: The SetRenderingMode method sets the rendering mode used by the VMR.
 old-location: dshow\ivmrfilterconfig9_setrenderingmode.htm
 old-project: DirectShow
 ms.assetid: d7a27d7c-5cd4-4a20-ba15-7056d502e3e3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRFilterConfig9, IVMRFilterConfig9 interface [DirectShow], SetRenderingMode method, IVMRFilterConfig9::SetRenderingMode, IVMRFilterConfig9SetRenderingMode, SetRenderingMode method [DirectShow], SetRenderingMode method [DirectShow], IVMRFilterConfig9 interface, SetRenderingMode,IVMRFilterConfig9.SetRenderingMode, dshow.ivmrfilterconfig9_setrenderingmode, vmr9/IVMRFilterConfig9::SetRenderingMode
+ms.date: 4/30/2018
+ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetRenderingMode method, IVMRFilterConfig9.SetRenderingMode, IVMRFilterConfig9::SetRenderingMode, IVMRFilterConfig9SetRenderingMode, SetRenderingMode, SetRenderingMode method [DirectShow], SetRenderingMode method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setrenderingmode, vmr9/IVMRFilterConfig9::SetRenderingMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRFilterConfig9::SetRenderingMode method
+# IVMRFilterConfig9::SetRenderingMode
 
 
 ## -description

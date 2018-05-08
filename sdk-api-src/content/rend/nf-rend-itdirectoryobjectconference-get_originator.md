@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_Originator
-title: ITDirectoryObjectConference::get_Originator method
+title: ITDirectoryObjectConference::get_Originator
 author: windows-driver-content
 description: The get_Originator method gets the originator's user name.
 old-location: tapi3\itdirectoryobjectconference_get_originator.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: b17be92c-eee6-43ec-bec0-75d4c30ad22f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], get_Originator method, ITDirectoryObjectConference::get_Originator, _tapi3_itdirectoryobjectconference_get_originator, get_Originator method [TAPI 2.2], get_Originator method [TAPI 2.2], ITDirectoryObjectConference interface, get_Originator,ITDirectoryObjectConference.get_Originator, rend/ITDirectoryObjectConference::get_Originator, tapi3.itdirectoryobjectconference_get_originator
+ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Originator method, ITDirectoryObjectConference.get_Originator, ITDirectoryObjectConference::get_Originator, _tapi3_itdirectoryobjectconference_get_originator, get_Originator, get_Originator method [TAPI 2.2], get_Originator method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Originator, tapi3.itdirectoryobjectconference_get_originator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectoryObjectConference::get_Originator method
+# ITDirectoryObjectConference::get_Originator
 
 
 ## -description

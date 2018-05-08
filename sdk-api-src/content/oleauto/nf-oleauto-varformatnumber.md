@@ -7,7 +7,7 @@ old-location: automat\varformatnumber.htm
 old-project: automat
 ms.assetid: a95323d0-0a8d-48c5-a2dc-d461733e2f0e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarFormatNumber, VarFormatNumber function [Automation], _oa96_VarFormatNumber, automat.varformatnumber, oleauto/VarFormatNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

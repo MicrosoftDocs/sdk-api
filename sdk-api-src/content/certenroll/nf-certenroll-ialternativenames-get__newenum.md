@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeNames.get__NewEnum
-title: IAlternativeNames::get__NewEnum method
+title: IAlternativeNames::get__NewEnum
 author: windows-driver-content
 description: Retrieves the enumerator for the collection.
 old-location: security\ialternativenames__newenum_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 66656bf5-3258-4888-8c1d-0fde33275504
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IAlternativeNames, IAlternativeNames interface [Security], _NewEnum property, IAlternativeNames._NewEnum, IAlternativeNames::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], IAlternativeNames interface, certenroll/IAlternativeNames::_NewEnum, certenroll/IAlternativeNames::get__NewEnum, get__NewEnum,IAlternativeNames.get__NewEnum, security.ialternativenames__newenum_property
+ms.keywords: IAlternativeNames interface [Security],_NewEnum property, IAlternativeNames._NewEnum, IAlternativeNames.get__NewEnum, IAlternativeNames::_NewEnum, IAlternativeNames::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IAlternativeNames interface, certenroll/IAlternativeNames::_NewEnum, certenroll/IAlternativeNames::get__NewEnum, get__NewEnum, security.ialternativenames__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IAlternativeNames::get__NewEnum method
+# IAlternativeNames::get__NewEnum
 
 
 ## -description

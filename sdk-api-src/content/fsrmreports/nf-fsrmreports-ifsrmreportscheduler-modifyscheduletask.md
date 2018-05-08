@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.ModifyScheduleTask
-title: IFsrmReportScheduler::ModifyScheduleTask method
+title: IFsrmReportScheduler::ModifyScheduleTask
 author: windows-driver-content
 description: Modifies a task that is used to trigger a report job.
 old-location: fsrm\ifsrmreportscheduler_modifyscheduletask.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: ca950e00-d391-4a03-8ff9-2ddef3a17038
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmReportScheduler class [File Server Resource Manager], ModifyScheduleTask method, IFsrmReportScheduler, IFsrmReportScheduler interface [File Server Resource Manager], ModifyScheduleTask method, IFsrmReportScheduler::ModifyScheduleTask, ModifyScheduleTask method [File Server Resource Manager], ModifyScheduleTask method [File Server Resource Manager], FsrmReportScheduler class, ModifyScheduleTask method [File Server Resource Manager], IFsrmReportScheduler interface, ModifyScheduleTask,IFsrmReportScheduler.ModifyScheduleTask, fs.ifsrmreportscheduler_modifyscheduletask, fsrm.ifsrmreportscheduler_modifyscheduletask, fsrmreports/IFsrmReportScheduler::ModifyScheduleTask
+ms.keywords: FsrmReportScheduler class [File Server Resource Manager],ModifyScheduleTask method, IFsrmReportScheduler interface [File Server Resource Manager],ModifyScheduleTask method, IFsrmReportScheduler.ModifyScheduleTask, IFsrmReportScheduler::ModifyScheduleTask, ModifyScheduleTask, ModifyScheduleTask method [File Server Resource Manager], ModifyScheduleTask method [File Server Resource Manager],FsrmReportScheduler class, ModifyScheduleTask method [File Server Resource Manager],IFsrmReportScheduler interface, fs.ifsrmreportscheduler_modifyscheduletask, fsrm.ifsrmreportscheduler_modifyscheduletask, fsrmreports/IFsrmReportScheduler::ModifyScheduleTask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReportScheduler::ModifyScheduleTask method
+# IFsrmReportScheduler::ModifyScheduleTask
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.SetBorderColor
-title: IVMRWindowlessControl::SetBorderColor method
+title: IVMRWindowlessControl::SetBorderColor
 author: windows-driver-content
 description: The SetBorderColor method sets the border color to be used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol_setbordercolor.htm
 old-project: DirectShow
 ms.assetid: d58ce18f-ddc4-4d91-b086-8829056f4508
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRWindowlessControl, IVMRWindowlessControl interface [DirectShow], SetBorderColor method, IVMRWindowlessControl::SetBorderColor, IVMRWindowlessControlSetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow], IVMRWindowlessControl interface, SetBorderColor,IVMRWindowlessControl.SetBorderColor, dshow.ivmrwindowlesscontrol_setbordercolor, strmif/IVMRWindowlessControl::SetBorderColor
+ms.date: 4/30/2018
+ms.keywords: IVMRWindowlessControl interface [DirectShow],SetBorderColor method, IVMRWindowlessControl.SetBorderColor, IVMRWindowlessControl::SetBorderColor, IVMRWindowlessControlSetBorderColor, SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setbordercolor, strmif/IVMRWindowlessControl::SetBorderColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRWindowlessControl::SetBorderColor method
+# IVMRWindowlessControl::SetBorderColor
 
 
 ## -description

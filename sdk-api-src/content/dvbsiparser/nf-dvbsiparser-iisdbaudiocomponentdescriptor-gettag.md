@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetTag
-title: IIsdbAudioComponentDescriptor::GetTag method
+title: IIsdbAudioComponentDescriptor::GetTag
 author: windows-driver-content
 description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) audio component descriptor.
 old-location: mstv\iisdbaudiocomponentdescriptor_gettag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b44ef442-3bfc-4b1f-b64d-4be21fc1fb47
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetTag,IIsdbAudioComponentDescriptor.GetTag, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetTag method, IIsdbAudioComponentDescriptor::GetTag, dvbsiparser/IIsdbAudioComponentDescriptor::GetTag, mstv.iisdbaudiocomponentdescriptor_gettag
+ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbAudioComponentDescriptor.GetTag, IIsdbAudioComponentDescriptor::GetTag, dvbsiparser/IIsdbAudioComponentDescriptor::GetTag, mstv.iisdbaudiocomponentdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbAudioComponentDescriptor::GetTag method
+# IIsdbAudioComponentDescriptor::GetTag
 
 
 ## -description

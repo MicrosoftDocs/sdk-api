@@ -1,6 +1,6 @@
 ---
 UID: NF:propidlbase.IEnumSTATPROPSTG.Skip
-title: IEnumSTATPROPSTG::Skip method
+title: IEnumSTATPROPSTG::Skip
 author: windows-driver-content
 description: Skips the specified number of STATPROPSTG structures in the enumeration sequence.
 old-location: stg\ienumstatpropstg_skip.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: e70e4668-d52c-4135-948b-c8f5d141e6a2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IEnumSTATPROPSTG, IEnumSTATPROPSTG interface [Structured Storage], Skip method, IEnumSTATPROPSTG::Skip, Skip method [Structured Storage], Skip method [Structured Storage], IEnumSTATPROPSTG interface, Skip,IEnumSTATPROPSTG.Skip, propidlbase/IEnumSTATPROPSTG::Skip, stg.ienumstatpropstg_skip
+ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Skip method, IEnumSTATPROPSTG.Skip, IEnumSTATPROPSTG::Skip, Skip, Skip method [Structured Storage], Skip method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Skip, stg.ienumstatpropstg_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumSTATPROPSTG::Skip method
+# IEnumSTATPROPSTG::Skip
 
 
 ## -description

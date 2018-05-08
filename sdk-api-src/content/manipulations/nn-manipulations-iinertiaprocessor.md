@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 8dc171eb-0c6e-41dd-b506-5f91ea703a53
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], IInertiaProcessor interface [Windows Touch], described, manipulations/IInertiaProcessor, wintouch.iinertiaprocessor
+ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], IInertiaProcessor interface [Windows Touch],described, manipulations/IInertiaProcessor, wintouch.iinertiaprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

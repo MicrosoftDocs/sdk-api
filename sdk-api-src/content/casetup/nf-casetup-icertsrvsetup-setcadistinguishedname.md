@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetCADistinguishedName
-title: ICertSrvSetup::SetCADistinguishedName method
+title: ICertSrvSetup::SetCADistinguishedName
 author: windows-driver-content
 description: Sets a certification authority (CA) common name and an optional distinguished name suffix.
 old-location: security\icertsrvsetup_setcadistinguishedname.htm
 old-project: SecCrypto
 ms.assetid: d513d4fd-abc7-44e6-822e-955de8613d55
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], SetCADistinguishedName method, ICertSrvSetup::SetCADistinguishedName, SetCADistinguishedName method [Security], SetCADistinguishedName method [Security], ICertSrvSetup interface, SetCADistinguishedName,ICertSrvSetup.SetCADistinguishedName, casetup/ICertSrvSetup::SetCADistinguishedName, security.icertsrvsetup_setcadistinguishedname
+ms.date: 4/30/2018
+ms.keywords: ICertSrvSetup interface [Security],SetCADistinguishedName method, ICertSrvSetup.SetCADistinguishedName, ICertSrvSetup::SetCADistinguishedName, SetCADistinguishedName, SetCADistinguishedName method [Security], SetCADistinguishedName method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCADistinguishedName, security.icertsrvsetup_setcadistinguishedname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetup::SetCADistinguishedName method
+# ICertSrvSetup::SetCADistinguishedName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.Stop
-title: IMDSPDeviceControl::Stop method
+title: IMDSPDeviceControl::Stop
 author: windows-driver-content
 description: The Stop method stops the current stream.
 old-location: wmdm\imdspdevicecontrol_stop.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 31dd1325-2a8d-4a61-a4a5-f585b320e841
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], Stop method, IMDSPDeviceControl::Stop, IMDSPDeviceControlStop, Stop method [windows Media Device Manager], Stop method [windows Media Device Manager], IMDSPDeviceControl interface, Stop,IMDSPDeviceControl.Stop, mswmdm/IMDSPDeviceControl::Stop, wmdm.imdspdevicecontrol_stop
+ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Stop method, IMDSPDeviceControl.Stop, IMDSPDeviceControl::Stop, IMDSPDeviceControlStop, Stop, Stop method [windows Media Device Manager], Stop method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Stop, wmdm.imdspdevicecontrol_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPDeviceControl::Stop method
+# IMDSPDeviceControl::Stop
 
 
 ## -description

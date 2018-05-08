@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.AddPropertyItem
-title: IAzScope::AddPropertyItem method
+title: IAzScope::AddPropertyItem
 author: windows-driver-content
 description: Adds the specified principal to the specified list of principals.
 old-location: security\iazscope_addpropertyitem.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 5170079b-9ea6-417c-87f2-bb8835225911
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AddPropertyItem method [Security], AddPropertyItem method [Security], AzScope object, AddPropertyItem method [Security], IAzScope interface, AddPropertyItem,IAzScope.AddPropertyItem, AzScope object [Security], AddPropertyItem method, IAzScope, IAzScope interface [Security], AddPropertyItem method, IAzScope::AddPropertyItem, azroles/IAzScope::AddPropertyItem, security.iazscope_addpropertyitem
+ms.keywords: AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzScope object, AddPropertyItem method [Security],IAzScope interface, AzScope object [Security],AddPropertyItem method, IAzScope interface [Security],AddPropertyItem method, IAzScope.AddPropertyItem, IAzScope::AddPropertyItem, azroles/IAzScope::AddPropertyItem, security.iazscope_addpropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope::AddPropertyItem method
+# IAzScope::AddPropertyItem
 
 
 ## -description

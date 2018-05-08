@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.get_RoleDefinitions
-title: IAzApplication3::get_RoleDefinitions method
+title: IAzApplication3::get_RoleDefinitions
 author: windows-driver-content
 description: Gets an IAzRoleDefinitions object that represents the collection of IAzRoleDefinition objects associated with the current IAzApplication3 object.
 old-location: security\iazapplication3_roledefinitions.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 9b17c315-4a46-4a74-983f-b07593ff0517
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzApplication3, IAzApplication3 interface [Security], RoleDefinitions property, IAzApplication3.RoleDefinitions, IAzApplication3::get_RoleDefinitions, RoleDefinitions property [Security], RoleDefinitions property [Security], IAzApplication3 interface, azroles/IAzApplication3::RoleDefinitions, azroles/IAzApplication3::get_RoleDefinitions, get_RoleDefinitions,IAzApplication3.get_RoleDefinitions, security.iazapplication3_roledefinitions
+ms.keywords: IAzApplication3 interface [Security],RoleDefinitions property, IAzApplication3.RoleDefinitions, IAzApplication3.get_RoleDefinitions, IAzApplication3::RoleDefinitions, IAzApplication3::get_RoleDefinitions, RoleDefinitions property [Security], RoleDefinitions property [Security],IAzApplication3 interface, azroles/IAzApplication3::RoleDefinitions, azroles/IAzApplication3::get_RoleDefinitions, get_RoleDefinitions, security.iazapplication3_roledefinitions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication3::get_RoleDefinitions method
+# IAzApplication3::get_RoleDefinitions
 
 
 ## -description

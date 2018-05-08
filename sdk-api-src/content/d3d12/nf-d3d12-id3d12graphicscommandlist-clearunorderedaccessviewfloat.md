@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat
-title: ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat method
+title: ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat
 author: windows-driver-content
 description: Sets all the elements in a unordered access view to the specified float values.
 old-location: direct3d12\id3d12graphicscommandlist_clearunorderedaccessviewfloat.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 6A19F429-D7B2-4A71-8904-31BFA1FD10C6
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ClearUnorderedAccessViewFloat method, ClearUnorderedAccessViewFloat method, ID3D12GraphicsCommandList interface, ClearUnorderedAccessViewFloat,ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat, ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, ClearUnorderedAccessViewFloat method, ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewfloat
+ms.keywords: ClearUnorderedAccessViewFloat, ClearUnorderedAccessViewFloat method, ClearUnorderedAccessViewFloat method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearUnorderedAccessViewFloat method, ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat, ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewfloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat method
+# ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat
 
 
 ## -description

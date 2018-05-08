@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: EB511040-5011-4B79-AFEE-DFF42E11025B
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxManifestMainPackageDependenciesEnumerator, IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management], IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management], described, appxpackaging/IAppxManifestMainPackageDependenciesEnumerator, appxpkg.iappxmanifestmainpackagedependenciesenumerator
+ms.keywords: IAppxManifestMainPackageDependenciesEnumerator, IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management], IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestMainPackageDependenciesEnumerator, appxpkg.iappxmanifestmainpackagedependenciesenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IDirectDrawMediaSample.GetSurfaceAndReleaseLock
-title: IDirectDrawMediaSample::GetSurfaceAndReleaseLock method
+title: IDirectDrawMediaSample::GetSurfaceAndReleaseLock
 author: windows-driver-content
 description: The GetSurfaceAndReleaseLock method retrieves and unlocks the surface that the sample represents.
 old-location: dshow\idirectdrawmediasample_getsurfaceandreleaselock.htm
 old-project: DirectShow
 ms.assetid: f2b30974-ed4a-4783-bda5-9e7f4f9b4aab
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSurfaceAndReleaseLock method [DirectShow], GetSurfaceAndReleaseLock method [DirectShow], IDirectDrawMediaSample interface, GetSurfaceAndReleaseLock,IDirectDrawMediaSample.GetSurfaceAndReleaseLock, IDirectDrawMediaSample, IDirectDrawMediaSample interface [DirectShow], GetSurfaceAndReleaseLock method, IDirectDrawMediaSample::GetSurfaceAndReleaseLock, IDirectDrawMediaSampleGetSurfaceAndReleaseLock, amstream/IDirectDrawMediaSample::GetSurfaceAndReleaseLock, dshow.idirectdrawmediasample_getsurfaceandreleaselock
+ms.date: 4/30/2018
+ms.keywords: GetSurfaceAndReleaseLock, GetSurfaceAndReleaseLock method [DirectShow], GetSurfaceAndReleaseLock method [DirectShow],IDirectDrawMediaSample interface, IDirectDrawMediaSample interface [DirectShow],GetSurfaceAndReleaseLock method, IDirectDrawMediaSample.GetSurfaceAndReleaseLock, IDirectDrawMediaSample::GetSurfaceAndReleaseLock, IDirectDrawMediaSampleGetSurfaceAndReleaseLock, amstream/IDirectDrawMediaSample::GetSurfaceAndReleaseLock, dshow.idirectdrawmediasample_getsurfaceandreleaselock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawMediaSample::GetSurfaceAndReleaseLock method
+# IDirectDrawMediaSample::GetSurfaceAndReleaseLock
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.GetRecordCountOfDescriptors
-title: IDVB_SDT::GetRecordCountOfDescriptors method
+title: IDVB_SDT::GetRecordCountOfDescriptors
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_getrecordcountofdescriptors.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 99b7e2ab-c829-4e42-805b-e1ea5b725f82
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies], IDVB_SDT interface, GetRecordCountOfDescriptors,IDVB_SDT.GetRecordCountOfDescriptors, IDVB_SDT, IDVB_SDT interface [Microsoft TV Technologies], GetRecordCountOfDescriptors method, IDVB_SDT::GetRecordCountOfDescriptors, IDVB_SDTGetRecordCountOfDescriptors, dvbsiparser/IDVB_SDT::GetRecordCountOfDescriptors, mstv.idvb_sdt_getrecordcountofdescriptors
+ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IDVB_SDT.GetRecordCountOfDescriptors, IDVB_SDT::GetRecordCountOfDescriptors, IDVB_SDTGetRecordCountOfDescriptors, dvbsiparser/IDVB_SDT::GetRecordCountOfDescriptors, mstv.idvb_sdt_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_SDT::GetRecordCountOfDescriptors method
+# IDVB_SDT::GetRecordCountOfDescriptors
 
 
 ## -description

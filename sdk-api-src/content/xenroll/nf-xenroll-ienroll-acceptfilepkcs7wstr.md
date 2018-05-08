@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.acceptFilePKCS7WStr
-title: IEnroll::acceptFilePKCS7WStr method
+title: IEnroll::acceptFilePKCS7WStr
 author: windows-driver-content
 description: Accepts and processes a PKCS #7 message containing a certificate, then stores the message to a file.
 old-location: security\ienroll4_acceptfilepkcs7wstr.htm
 old-project: SecCrypto
 ms.assetid: 9c2b99df-769b-457b-b5c5-7690b73d6f84
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], acceptFilePKCS7WStr method, IEnroll::acceptFilePKCS7WStr, acceptFilePKCS7WStr method [Security], acceptFilePKCS7WStr method [Security], IEnroll interface, acceptFilePKCS7WStr,IEnroll.acceptFilePKCS7WStr, security.ienroll4_acceptfilepkcs7wstr, xenroll/IEnroll::acceptFilePKCS7WStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],acceptFilePKCS7WStr method, IEnroll.acceptFilePKCS7WStr, IEnroll::acceptFilePKCS7WStr, acceptFilePKCS7WStr, acceptFilePKCS7WStr method [Security], acceptFilePKCS7WStr method [Security],IEnroll interface, security.ienroll4_acceptfilepkcs7wstr, xenroll/IEnroll::acceptFilePKCS7WStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::acceptFilePKCS7WStr method
+# IEnroll::acceptFilePKCS7WStr
 
 
 ## -description

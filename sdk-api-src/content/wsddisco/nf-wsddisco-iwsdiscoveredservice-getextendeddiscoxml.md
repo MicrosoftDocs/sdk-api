@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetExtendedDiscoXML
-title: IWSDiscoveredService::GetExtendedDiscoXML method
+title: IWSDiscoveredService::GetExtendedDiscoXML
 author: windows-driver-content
 description: Retrieves custom or extensible data provided in the header or body of the SOAP message.
 old-location: ncd\iwsdiscoveredservice_getextendeddiscoxml.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 6ca12b1b-4adf-4c54-90b5-ab5286af9252
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetExtendedDiscoXML method, GetExtendedDiscoXML method, IWSDiscoveredService interface, GetExtendedDiscoXML,IWSDiscoveredService.GetExtendedDiscoXML, IWSDiscoveredService, IWSDiscoveredService interface, GetExtendedDiscoXML method, IWSDiscoveredService::GetExtendedDiscoXML, ncd.iwsdiscoveredservice_getextendeddiscoxml, wsddisco/IWSDiscoveredService::GetExtendedDiscoXML
+ms.keywords: GetExtendedDiscoXML, GetExtendedDiscoXML method, GetExtendedDiscoXML method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetExtendedDiscoXML method, IWSDiscoveredService.GetExtendedDiscoXML, IWSDiscoveredService::GetExtendedDiscoXML, ncd.iwsdiscoveredservice_getextendeddiscoxml, wsddisco/IWSDiscoveredService::GetExtendedDiscoXML
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveredService::GetExtendedDiscoXML method
+# IWSDiscoveredService::GetExtendedDiscoXML
 
 
 ## -description

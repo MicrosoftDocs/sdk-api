@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.put_OuterFEC
-title: ILocator::put_OuterFEC method
+title: ILocator::put_OuterFEC
 author: windows-driver-content
 description: The put_OuterFEC method sets the type of outer FEC to use.
 old-location: mstv\ilocator_put_outerfec.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0aaa4d8e-e760-4e22-90fe-e5667fafa113
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDigitalLocatorput_OuterFEC, ILocator, ILocator interface [Microsoft TV Technologies], put_OuterFEC method, ILocator::put_OuterFEC, mstv.ilocator_put_outerfec, put_OuterFEC method [Microsoft TV Technologies], put_OuterFEC method [Microsoft TV Technologies], ILocator interface, put_OuterFEC,ILocator.put_OuterFEC, tuner/ILocator::put_OuterFEC
+ms.keywords: IDigitalLocatorput_OuterFEC, ILocator interface [Microsoft TV Technologies],put_OuterFEC method, ILocator.put_OuterFEC, ILocator::put_OuterFEC, mstv.ilocator_put_outerfec, put_OuterFEC, put_OuterFEC method [Microsoft TV Technologies], put_OuterFEC method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_OuterFEC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILocator::put_OuterFEC method
+# ILocator::put_OuterFEC
 
 
 ## -description

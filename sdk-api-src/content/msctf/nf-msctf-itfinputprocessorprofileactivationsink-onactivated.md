@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileActivationSink.OnActivated
-title: ITfInputProcessorProfileActivationSink::OnActivated method
+title: ITfInputProcessorProfileActivationSink::OnActivated
 author: windows-driver-content
 description: The ITfInputProcessorProfileActivationSink::OnActivated method is a callback that is called when an input processor profile is activated or deactivated.
 old-location: tsf\itfinputprocessorprofileactivationsink_onactivated.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: d171cf73-b409-4501-a956-06867c20f214
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfInputProcessorProfileActivationSink, ITfInputProcessorProfileActivationSink interface [Text Services Framework], OnActivated method, ITfInputProcessorProfileActivationSink::OnActivated, OnActivated method [Text Services Framework], OnActivated method [Text Services Framework], ITfInputProcessorProfileActivationSink interface, OnActivated,ITfInputProcessorProfileActivationSink.OnActivated, TF_IPSINK_FLAG_ACTIVE, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileActivationSink::OnActivated, tsf.itfinputprocessorprofileactivationsink_onactivated
+ms.keywords: ITfInputProcessorProfileActivationSink interface [Text Services Framework],OnActivated method, ITfInputProcessorProfileActivationSink.OnActivated, ITfInputProcessorProfileActivationSink::OnActivated, OnActivated, OnActivated method [Text Services Framework], OnActivated method [Text Services Framework],ITfInputProcessorProfileActivationSink interface, TF_IPSINK_FLAG_ACTIVE, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileActivationSink::OnActivated, tsf.itfinputprocessorprofileactivationsink_onactivated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfileActivationSink::OnActivated method
+# ITfInputProcessorProfileActivationSink::OnActivated
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.Extend
-title: IVdsVolume::Extend method
+title: IVdsVolume::Extend
 author: windows-driver-content
 description: Expands the size of the current volume by adding disk extents to each member of each plex.
 old-location: base\ivdsvolume_extend.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 8f31dd3e-0c06-49fe-8ff2-55cfabe5099e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Extend method [VDS], Extend method [VDS], IVdsVolume interface, Extend,IVdsVolume.Extend, IVdsVolume, IVdsVolume interface [VDS], Extend method, IVdsVolume::Extend, base.ivdsvolume_extend, vds/IVdsVolume::Extend
+ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Extend method, IVdsVolume.Extend, IVdsVolume::Extend, base.ivdsvolume_extend, vds/IVdsVolume::Extend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolume::Extend method
+# IVdsVolume::Extend
 
 
 ## -description

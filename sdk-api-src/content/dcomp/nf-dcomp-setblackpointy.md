@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 8d0aa548-90ad-4025-2e7a-8e5b07134665
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetBlackPointY, SetBlackPointY methods [DirectComposition], dcomp/SetBlackPointY, directcomp.idcompositionbrightnesseffect_setblackpointy_overloaded
+ms.keywords: SetBlackPointY, SetBlackPointY methods [DirectComposition], dcomp/SetBlackPointY, directcomp.idcompositionbrightnesseffect_setblackpointy_overloaded, idcompositionbrightnesseffect::SetBlackPointY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

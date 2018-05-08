@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetServiceId
-title: IDvbLinkageDescriptor::GetServiceId method
+title: IDvbLinkageDescriptor::GetServiceId
 author: windows-driver-content
 description: Gets the identifier that identifies an information service in a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getserviceid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 977c284d-b995-4879-b90a-2bc42b60d1a3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies], IDvbLinkageDescriptor interface, GetServiceId,IDvbLinkageDescriptor.GetServiceId, IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft TV Technologies], GetServiceId method, IDvbLinkageDescriptor::GetServiceId, dvbsiparser/IDvbLinkageDescriptor::GetServiceId, mstv.idvblinkagedescriptor_getserviceid
+ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetServiceId method, IDvbLinkageDescriptor.GetServiceId, IDvbLinkageDescriptor::GetServiceId, dvbsiparser/IDvbLinkageDescriptor::GetServiceId, mstv.idvblinkagedescriptor_getserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLinkageDescriptor::GetServiceId method
+# IDvbLinkageDescriptor::GetServiceId
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: buses\winusb_flushpipe.htm
 old-project: usbref
 ms.assetid: 3f6d55c2-32df-4cb9-99bb-0e1a71c97394
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/3/2018
 ms.keywords: WinUsb_FlushPipe, WinUsb_FlushPipe function [Buses], buses.winusb_flushpipe, winusb/WinUsb_FlushPipe, winusbfunc_44ebf8ef-770d-4102-8a2d-b0d996f36e41.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

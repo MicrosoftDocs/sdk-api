@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetContext
-title: IToc::GetContext method
+title: IToc::GetContext
 author: windows-driver-content
 description: The GetContext method retrieves a block of bytes that was previously associated with the table of contents by a call to SetContext.
 old-location: mf\itoc_getcontext.htm
 old-project: medfound
 ms.assetid: b4c65f1b-7465-4229-8fac-92d6b1be50da
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetContext method [Media Foundation], GetContext method [Media Foundation], IToc interface, GetContext,IToc.GetContext, IToc, IToc interface [Media Foundation], GetContext method, IToc::GetContext, codecapi.itoc_getcontext, mf.itoc_getcontext, wmcodecdsp/IToc::GetContext
+ms.date: 5/3/2018
+ms.keywords: GetContext, GetContext method [Media Foundation], GetContext method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetContext method, IToc.GetContext, IToc::GetContext, codecapi.itoc_getcontext, mf.itoc_getcontext, wmcodecdsp/IToc::GetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IToc::GetContext method
+# IToc::GetContext
 
 
 ## -description

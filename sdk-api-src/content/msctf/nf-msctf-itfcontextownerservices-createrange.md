@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.CreateRange
-title: ITfContextOwnerServices::CreateRange method
+title: ITfContextOwnerServices::CreateRange
 author: windows-driver-content
 description: The ITfContextOwnerServices::CreateRange method creates a new ranged based upon a specified character position.
 old-location: tsf\itfcontextownerservices_createrange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 60214fdb-212c-4967-8cbf-e988db893245
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: CreateRange method [Text Services Framework], CreateRange method [Text Services Framework], ITfContextOwnerServices interface, CreateRange,ITfContextOwnerServices.CreateRange, ITfContextOwnerServices, ITfContextOwnerServices interface [Text Services Framework], CreateRange method, ITfContextOwnerServices::CreateRange, _tsf_itfcontextownerservices_createrange_ref, msctf/ITfContextOwnerServices::CreateRange, tsf.itfcontextownerservices_createrange
+ms.keywords: CreateRange, CreateRange method [Text Services Framework], CreateRange method [Text Services Framework],ITfContextOwnerServices interface, ITfContextOwnerServices interface [Text Services Framework],CreateRange method, ITfContextOwnerServices.CreateRange, ITfContextOwnerServices::CreateRange, _tsf_itfcontextownerservices_createrange_ref, msctf/ITfContextOwnerServices::CreateRange, tsf.itfcontextownerservices_createrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwnerServices::CreateRange method
+# ITfContextOwnerServices::CreateRange
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetCount
-title: IMFAttributes::GetCount method
+title: IMFAttributes::GetCount
 author: windows-driver-content
 description: Retrieves the number of attributes that are set on this object.
 old-location: mf\imfattributes_getcount.htm
 old-project: medfound
 ms.assetid: 5f511d5c-249c-4311-8380-a932a755eaaf
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 5f511d5c-249c-4311-8380-a932a755eaaf, GetCount method [Media Foundation], GetCount method [Media Foundation], IMFAttributes interface, GetCount,IMFAttributes.GetCount, IMFAttributes, IMFAttributes interface [Media Foundation], GetCount method, IMFAttributes::GetCount, mf.imfattributes_getcount, mfobjects/IMFAttributes::GetCount
+ms.date: 5/3/2018
+ms.keywords: 5f511d5c-249c-4311-8380-a932a755eaaf, GetCount, GetCount method [Media Foundation], GetCount method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetCount method, IMFAttributes.GetCount, IMFAttributes::GetCount, mf.imfattributes_getcount, mfobjects/IMFAttributes::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAttributes::GetCount method
+# IMFAttributes::GetCount
 
 
 ## -description

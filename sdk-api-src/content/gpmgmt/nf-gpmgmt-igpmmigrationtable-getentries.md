@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.GetEntries
-title: IGPMMigrationTable::GetEntries method
+title: IGPMMigrationTable::GetEntries
 author: windows-driver-content
 description: Returns a IGPMMapEntryCollection interface.
 old-location: gpmc\igpmmigrationtable_getentries.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 5de22bba-10f9-49f7-83f3-053f5e58b66e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMMigrationTable class [GPMC], GetEntries method, GetEntries method [GPMC], GetEntries method [GPMC], GPMMigrationTable class, GetEntries method [GPMC], IGPMMigrationTable interface, GetEntries,IGPMMigrationTable.GetEntries, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], GetEntries method, IGPMMigrationTable::GetEntries, gpmc.igpmmigrationtable_getentries, gpmgmt/IGPMMigrationTable::GetEntries
+ms.keywords: GPMMigrationTable class [GPMC],GetEntries method, GetEntries, GetEntries method [GPMC], GetEntries method [GPMC],GPMMigrationTable class, GetEntries method [GPMC],IGPMMigrationTable interface, IGPMMigrationTable interface [GPMC],GetEntries method, IGPMMigrationTable.GetEntries, IGPMMigrationTable::GetEntries, gpmc.igpmmigrationtable_getentries, gpmgmt/IGPMMigrationTable::GetEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMMigrationTable::GetEntries method
+# IGPMMigrationTable::GetEntries
 
 
 ## -description

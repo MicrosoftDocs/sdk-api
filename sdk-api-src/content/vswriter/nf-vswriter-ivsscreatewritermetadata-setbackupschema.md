@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.SetBackupSchema
-title: IVssCreateWriterMetadata::SetBackupSchema method
+title: IVssCreateWriterMetadata::SetBackupSchema
 author: windows-driver-content
 description: The SetBackupSchema method is used by a writer to indicate in its Writer Metadata Document the types of backup operations it can participate in.
 old-location: base\ivsscreatewritermetadata_setbackupschema.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 7449fcc8-76fc-4cc5-923c-9a5d53d2cd6b
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssCreateWriterMetadata, IVssCreateWriterMetadata interface [VSS], SetBackupSchema method, IVssCreateWriterMetadata::SetBackupSchema, SetBackupSchema method [VSS], SetBackupSchema method [VSS], IVssCreateWriterMetadata interface, SetBackupSchema,IVssCreateWriterMetadata.SetBackupSchema, _win32_ivsscreatewritermetadata_setbackupschema, base.ivsscreatewritermetadata_setbackupschema, vswriter/IVssCreateWriterMetadata::SetBackupSchema
+ms.keywords: IVssCreateWriterMetadata interface [VSS],SetBackupSchema method, IVssCreateWriterMetadata.SetBackupSchema, IVssCreateWriterMetadata::SetBackupSchema, SetBackupSchema, SetBackupSchema method [VSS], SetBackupSchema method [VSS],IVssCreateWriterMetadata interface, _win32_ivsscreatewritermetadata_setbackupschema, base.ivsscreatewritermetadata_setbackupschema, vswriter/IVssCreateWriterMetadata::SetBackupSchema
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssCreateWriterMetadata::SetBackupSchema method
+# IVssCreateWriterMetadata::SetBackupSchema
 
 
 ## -description

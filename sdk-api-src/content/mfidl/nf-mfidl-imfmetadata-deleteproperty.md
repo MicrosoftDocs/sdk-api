@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMetadata.DeleteProperty
-title: IMFMetadata::DeleteProperty method
+title: IMFMetadata::DeleteProperty
 author: windows-driver-content
 description: Deletes a metadata property.
 old-location: mf\imfmetadata_deleteproperty.htm
 old-project: medfound
 ms.assetid: 7c9a406d-6144-4e9c-b62c-1d9c691391f0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 7c9a406d-6144-4e9c-b62c-1d9c691391f0, DeleteProperty method [Media Foundation], DeleteProperty method [Media Foundation], IMFMetadata interface, DeleteProperty,IMFMetadata.DeleteProperty, IMFMetadata, IMFMetadata interface [Media Foundation], DeleteProperty method, IMFMetadata::DeleteProperty, mf.imfmetadata_deleteproperty, mfidl/IMFMetadata::DeleteProperty
+ms.date: 5/3/2018
+ms.keywords: 7c9a406d-6144-4e9c-b62c-1d9c691391f0, DeleteProperty, DeleteProperty method [Media Foundation], DeleteProperty method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],DeleteProperty method, IMFMetadata.DeleteProperty, IMFMetadata::DeleteProperty, mf.imfmetadata_deleteproperty, mfidl/IMFMetadata::DeleteProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMetadata::DeleteProperty method
+# IMFMetadata::DeleteProperty
 
 
 ## -description

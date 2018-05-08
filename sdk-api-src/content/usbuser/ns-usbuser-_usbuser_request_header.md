@@ -7,7 +7,7 @@ old-location: buses\usbuser_request_header.htm
 old-project: usbref
 ms.assetid: f5f1e136-f603-4f9a-8ebb-8f6ad847e04d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/3/2018
 ms.keywords: "*PUSBUSER_REQUEST_HEADER, PUSBUSER_REQUEST_HEADER, PUSBUSER_REQUEST_HEADER structure pointer [Buses], USBUSER_REQUEST_HEADER, USBUSER_REQUEST_HEADER structure [Buses], _USBUSER_REQUEST_HEADER, buses.usbuser_request_header, usbstrct_04ac2f33-ce32-4697-89d0-5f2c1516c3b6.xml, usbuser/PUSBUSER_REQUEST_HEADER, usbuser/USBUSER_REQUEST_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

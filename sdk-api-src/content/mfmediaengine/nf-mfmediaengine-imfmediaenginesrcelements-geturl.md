@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetURL
-title: IMFMediaEngineSrcElements::GetURL method
+title: IMFMediaEngineSrcElements::GetURL
 author: windows-driver-content
 description: Gets the URL of an element in the list.
 old-location: mf\imfmediaenginesrcelements_geturl.htm
 old-project: medfound
 ms.assetid: 5935BE0D-0E5A-46A8-944C-096746C5FCA3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetURL method [Media Foundation], GetURL method [Media Foundation], IMFMediaEngineSrcElements interface, GetURL,IMFMediaEngineSrcElements.GetURL, IMFMediaEngineSrcElements, IMFMediaEngineSrcElements interface [Media Foundation], GetURL method, IMFMediaEngineSrcElements::GetURL, mf.imfmediaenginesrcelements_geturl, mfmediaengine/IMFMediaEngineSrcElements::GetURL
+ms.date: 5/3/2018
+ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetURL method, IMFMediaEngineSrcElements.GetURL, IMFMediaEngineSrcElements::GetURL, mf.imfmediaenginesrcelements_geturl, mfmediaengine/IMFMediaEngineSrcElements::GetURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineSrcElements::GetURL method
+# IMFMediaEngineSrcElements::GetURL
 
 
 ## -description

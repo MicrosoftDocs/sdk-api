@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_WorkingDirectory
-title: IFileSystemImage::get_WorkingDirectory method
+title: IFileSystemImage::get_WorkingDirectory
 author: windows-driver-content
 description: Retrieves the temporary directory in which stash files are built.
 old-location: imapi\ifilesystemimage_get_workingdirectory.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 89c4fd34-6651-4056-9939-201f404ea6ee
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_WorkingDirectory method, IFileSystemImage::get_WorkingDirectory, get_WorkingDirectory method [IMAPI], get_WorkingDirectory method [IMAPI], IFileSystemImage interface, get_WorkingDirectory,IFileSystemImage.get_WorkingDirectory, imapi.ifilesystemimage_get_workingdirectory, imapi2fs/IFileSystemImage::get_WorkingDirectory
+ms.keywords: IFileSystemImage interface [IMAPI],get_WorkingDirectory method, IFileSystemImage.get_WorkingDirectory, IFileSystemImage::get_WorkingDirectory, get_WorkingDirectory, get_WorkingDirectory method [IMAPI], get_WorkingDirectory method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_workingdirectory, imapi2fs/IFileSystemImage::get_WorkingDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::get_WorkingDirectory method
+# IFileSystemImage::get_WorkingDirectory
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: security\tokenbindingdeleteallbindings.htm
 old-project: SecCNG
 ms.assetid: 0446F62F-96B4-4F4B-9789-0CD12173E601
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: TokenBindingDeleteAllBindings, TokenBindingDeleteAllBindings function [Security], security.tokenbindingdeleteallbindings, tokenbinding/TokenBindingDeleteAllBindings
 ms.prod: windows-hardware
 ms.technology: windows-devices

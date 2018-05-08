@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IBaseFilter.EnumPins
-title: IBaseFilter::EnumPins method
+title: IBaseFilter::EnumPins
 author: windows-driver-content
 description: The EnumPins method enumerates the pins on this filter.
 old-location: dshow\ibasefilter_enumpins.htm
 old-project: DirectShow
 ms.assetid: 02675c93-7901-40f6-a9fc-f6f13f56acca
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EnumPins method [DirectShow], EnumPins method [DirectShow], IBaseFilter interface, EnumPins,IBaseFilter.EnumPins, IBaseFilter, IBaseFilter interface [DirectShow], EnumPins method, IBaseFilter::EnumPins, IBaseFilterEnumPins, dshow.ibasefilter_enumpins, strmif/IBaseFilter::EnumPins
+ms.date: 4/30/2018
+ms.keywords: EnumPins, EnumPins method [DirectShow], EnumPins method [DirectShow],IBaseFilter interface, IBaseFilter interface [DirectShow],EnumPins method, IBaseFilter.EnumPins, IBaseFilter::EnumPins, IBaseFilterEnumPins, dshow.ibasefilter_enumpins, strmif/IBaseFilter::EnumPins
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IBaseFilter::EnumPins method
+# IBaseFilter::EnumPins
 
 
 ## -description

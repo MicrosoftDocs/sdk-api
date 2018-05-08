@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetText
-title: ITextStoreAnchor::GetText method
+title: ITextStoreAnchor::GetText
 author: windows-driver-content
 description: The ITextStoreAnchor::GetText method returns information about text at a specified anchor position. This method returns the visible and hidden text and indicates if embedded data is attached to the text.
 old-location: tsf\itextstoreanchor_gettext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: fd3f91df-b107-4284-8435-d859c843555f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetText method [Text Services Framework], GetText method [Text Services Framework], ITextStoreAnchor interface, GetText,ITextStoreAnchor.GetText, ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], GetText method, ITextStoreAnchor::GetText, textstor/ITextStoreAnchor::GetText, tsf.itextstoreanchor_gettext
+ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetText method, ITextStoreAnchor.GetText, ITextStoreAnchor::GetText, textstor/ITextStoreAnchor::GetText, tsf.itextstoreanchor_gettext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::GetText method
+# ITextStoreAnchor::GetText
 
 
 ## -description

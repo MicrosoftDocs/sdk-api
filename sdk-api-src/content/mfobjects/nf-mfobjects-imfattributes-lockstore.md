@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAttributes.LockStore
-title: IMFAttributes::LockStore method
+title: IMFAttributes::LockStore
 author: windows-driver-content
 description: Locks the attribute store so that no other thread can access it.
 old-location: mf\imfattributes_lockstore.htm
 old-project: medfound
 ms.assetid: 6ec7aed3-7dbc-4aa4-92d5-646aee757db7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 6ec7aed3-7dbc-4aa4-92d5-646aee757db7, IMFAttributes, IMFAttributes interface [Media Foundation], LockStore method, IMFAttributes::LockStore, LockStore method [Media Foundation], LockStore method [Media Foundation], IMFAttributes interface, LockStore,IMFAttributes.LockStore, mf.imfattributes_lockstore, mfobjects/IMFAttributes::LockStore
+ms.date: 5/3/2018
+ms.keywords: 6ec7aed3-7dbc-4aa4-92d5-646aee757db7, IMFAttributes interface [Media Foundation],LockStore method, IMFAttributes.LockStore, IMFAttributes::LockStore, LockStore, LockStore method [Media Foundation], LockStore method [Media Foundation],IMFAttributes interface, mf.imfattributes_lockstore, mfobjects/IMFAttributes::LockStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAttributes::LockStore method
+# IMFAttributes::LockStore
 
 
 ## -description

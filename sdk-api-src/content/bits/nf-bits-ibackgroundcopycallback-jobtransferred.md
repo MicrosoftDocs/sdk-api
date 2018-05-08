@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyCallback.JobTransferred
-title: IBackgroundCopyCallback::JobTransferred method
+title: IBackgroundCopyCallback::JobTransferred
 author: windows-driver-content
 description: BITS calls your implementation of the JobTransferred method when all of the files in the job have been successfully transferred.
 old-location: bits\ibackgroundcopycallback_jobtransferred.htm
 old-project: Bits
 ms.assetid: 04ff96c4-5b22-4935-bce8-5b9d3196cbe5
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyCallback, IBackgroundCopyCallback interface [BITS], JobTransferred method, IBackgroundCopyCallback::JobTransferred, JobTransferred method [BITS], JobTransferred method [BITS], IBackgroundCopyCallback interface, JobTransferred,IBackgroundCopyCallback.JobTransferred, _drz_ibackgroundcopycallback_jobtransferred, bits.ibackgroundcopycallback_jobtransferred, bits/IBackgroundCopyCallback::JobTransferred
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyCallback interface [BITS],JobTransferred method, IBackgroundCopyCallback.JobTransferred, IBackgroundCopyCallback::JobTransferred, JobTransferred, JobTransferred method [BITS], JobTransferred method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_jobtransferred, bits.ibackgroundcopycallback_jobtransferred, bits/IBackgroundCopyCallback::JobTransferred
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBackgroundCopyCallback::JobTransferred method
+# IBackgroundCopyCallback::JobTransferred
 
 
 ## -description

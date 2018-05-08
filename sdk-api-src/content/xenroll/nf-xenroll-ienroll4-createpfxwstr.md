@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll4.createPFXWStr
-title: IEnroll4::createPFXWStr method
+title: IEnroll4::createPFXWStr
 author: windows-driver-content
 description: Saves the accepted certificate chain and private key in a Personal Information Exchange (PFX) format string. The PFX format is also known as PKCS #12.
 old-location: security\ienroll4_createpfxwstr.htm
 old-project: SecCrypto
 ms.assetid: 38ab5b07-2a84-484b-b413-58f0e11599e9
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll4, IEnroll4 interface [Security], createPFXWStr method, IEnroll4::createPFXWStr, createPFXWStr method [Security], createPFXWStr method [Security], IEnroll4 interface, createPFXWStr,IEnroll4.createPFXWStr, security.ienroll4_createpfxwstr, xenroll/IEnroll4::createPFXWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll4 interface [Security],createPFXWStr method, IEnroll4.createPFXWStr, IEnroll4::createPFXWStr, createPFXWStr, createPFXWStr method [Security], createPFXWStr method [Security],IEnroll4 interface, security.ienroll4_createpfxwstr, xenroll/IEnroll4::createPFXWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll4::createPFXWStr method
+# IEnroll4::createPFXWStr
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.AddComponentDependency
-title: IVssCreateExpressWriterMetadata::AddComponentDependency method
+title: IVssCreateExpressWriterMetadata::AddComponentDependency
 author: windows-driver-content
 description: Allows an express writer to indicate that a component it manages has an explicit writer-component dependency; that is, another component (possibly managed by another writer) must be backed up and restored with it.
 old-location: base\ivsscreateexpresswritermetadata_addcomponentdependency.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 1d7e28de-8bb7-4ab4-bcdd-554d47007233
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: AddComponentDependency method, AddComponentDependency method, IVssCreateExpressWriterMetadata interface, AddComponentDependency,IVssCreateExpressWriterMetadata.AddComponentDependency, IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, AddComponentDependency method, IVssCreateExpressWriterMetadata::AddComponentDependency, base.ivsscreateexpresswritermetadata_addcomponentdependency, vswriter/IVssCreateExpressWriterMetadata::AddComponentDependency
+ms.keywords: AddComponentDependency, AddComponentDependency method, AddComponentDependency method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddComponentDependency method, IVssCreateExpressWriterMetadata.AddComponentDependency, IVssCreateExpressWriterMetadata::AddComponentDependency, base.ivsscreateexpresswritermetadata_addcomponentdependency, vswriter/IVssCreateExpressWriterMetadata::AddComponentDependency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssCreateExpressWriterMetadata::AddComponentDependency method
+# IVssCreateExpressWriterMetadata::AddComponentDependency
 
 
 ## -description

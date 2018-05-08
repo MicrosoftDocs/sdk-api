@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 9daf6f91-6c58-46a8-ba05-149f28b53829
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsOpenDSObject, IADsOpenDSObject interface [ADSI], IADsOpenDSObject interface [ADSI], described, _ds_iadsopendsobject, adsi.iadsopendsobject, iads/IADsOpenDSObject
+ms.keywords: IADsOpenDSObject, IADsOpenDSObject interface [ADSI], IADsOpenDSObject interface [ADSI],described, _ds_iadsopendsobject, adsi.iadsopendsobject, iads/IADsOpenDSObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

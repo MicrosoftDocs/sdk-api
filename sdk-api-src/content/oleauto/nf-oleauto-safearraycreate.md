@@ -7,7 +7,7 @@ old-location: automat\safearraycreate.htm
 old-project: automat
 ms.assetid: 5b94f1a2-a558-473f-85dd-9545c0464cc7
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: SafeArrayCreate, SafeArrayCreate function [Automation], _oa96_SafeArrayCreate, automat.safearraycreate, oleauto/SafeArrayCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

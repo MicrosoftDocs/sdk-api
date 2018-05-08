@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_ContentRecorder
-title: IMSVidStreamBufferSink::get_ContentRecorder method
+title: IMSVidStreamBufferSink::get_ContentRecorder
 author: windows-driver-content
 description: The get_ContentRecorder method creates a new content recording object.
 old-location: mstv\imsvidstreambuffersink_get_contentrecorder.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9fecdf37-0ad2-499b-8604-5e60bb0aa6e2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSink, IMSVidStreamBufferSink interface [Microsoft TV Technologies], get_ContentRecorder method, IMSVidStreamBufferSink::get_ContentRecorder, IMSVidStreamBufferSinkget_ContentRecorder, get_ContentRecorder method [Microsoft TV Technologies], get_ContentRecorder method [Microsoft TV Technologies], IMSVidStreamBufferSink interface, get_ContentRecorder,IMSVidStreamBufferSink.get_ContentRecorder, mstv.imsvidstreambuffersink_get_contentrecorder, segment/IMSVidStreamBufferSink::get_ContentRecorder
+ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_ContentRecorder method, IMSVidStreamBufferSink.get_ContentRecorder, IMSVidStreamBufferSink::get_ContentRecorder, IMSVidStreamBufferSinkget_ContentRecorder, get_ContentRecorder, get_ContentRecorder method [Microsoft TV Technologies], get_ContentRecorder method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_contentrecorder, segment/IMSVidStreamBufferSink::get_ContentRecorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSink::get_ContentRecorder method
+# IMSVidStreamBufferSink::get_ContentRecorder
 
 
 ## -description

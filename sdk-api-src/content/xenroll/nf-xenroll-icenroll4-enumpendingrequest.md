@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll4.enumPendingRequest
-title: ICEnroll4::enumPendingRequest method
+title: ICEnroll4::enumPendingRequest
 author: windows-driver-content
 description: Enumerates pending certificate requests and retrieves a specified property from each. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_enumpendingrequest.htm
 old-project: SecCrypto
 ms.assetid: 566974d1-79ec-4cbd-ae84-85e0a78edf58
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], enumPendingRequest method, ICEnroll4, ICEnroll4 interface [Security], enumPendingRequest method, ICEnroll4::enumPendingRequest, XEPR_CADNS, XEPR_CAFRIENDLYNAME, XEPR_CANAME, XEPR_HASH, XEPR_REQUESTID, _xen_icenroll4_enumpendingrequest, enumPendingRequest method [Security], enumPendingRequest method [Security], CEnroll object, enumPendingRequest method [Security], ICEnroll4 interface, enumPendingRequest,ICEnroll4.enumPendingRequest, security.icenroll4_enumpendingrequest, xenroll/ICEnroll4::enumPendingRequest
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],enumPendingRequest method, ICEnroll4 interface [Security],enumPendingRequest method, ICEnroll4.enumPendingRequest, ICEnroll4::enumPendingRequest, XEPR_CADNS, XEPR_CAFRIENDLYNAME, XEPR_CANAME, XEPR_HASH, XEPR_REQUESTID, _xen_icenroll4_enumpendingrequest, enumPendingRequest, enumPendingRequest method [Security], enumPendingRequest method [Security],CEnroll object, enumPendingRequest method [Security],ICEnroll4 interface, security.icenroll4_enumpendingrequest, xenroll/ICEnroll4::enumPendingRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll4::enumPendingRequest method
+# ICEnroll4::enumPendingRequest
 
 
 ## -description

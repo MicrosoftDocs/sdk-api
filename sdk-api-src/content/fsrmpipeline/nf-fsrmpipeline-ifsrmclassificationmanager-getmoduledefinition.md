@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.GetModuleDefinition
-title: IFsrmClassificationManager::GetModuleDefinition method
+title: IFsrmClassificationManager::GetModuleDefinition
 author: windows-driver-content
 description: Retrieves the specified module definition.
 old-location: fsrm\ifsrmclassificationmanager_getmoduledefinition.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 41272218-25af-4c8f-8730-37a08a7fad4f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmClassificationManager class [File Server Resource Manager], GetModuleDefinition method, GetModuleDefinition method [File Server Resource Manager], GetModuleDefinition method [File Server Resource Manager], FsrmClassificationManager class, GetModuleDefinition method [File Server Resource Manager], IFsrmClassificationManager interface, GetModuleDefinition method [File Server Resource Manager], IFsrmClassificationManager2 interface, GetModuleDefinition,IFsrmClassificationManager.GetModuleDefinition, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], GetModuleDefinition method, IFsrmClassificationManager2 interface [File Server Resource Manager], GetModuleDefinition method, IFsrmClassificationManager2::GetModuleDefinition, IFsrmClassificationManager::GetModuleDefinition, fs.ifsrmclassificationmanager_getmoduledefinition, fsrm.ifsrmclassificationmanager_getmoduledefinition, fsrmpipeline/IFsrmClassificationManager2::GetModuleDefinition, fsrmpipeline/IFsrmClassificationManager::GetModuleDefinition
+ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetModuleDefinition method, GetModuleDefinition, GetModuleDefinition method [File Server Resource Manager], GetModuleDefinition method [File Server Resource Manager],FsrmClassificationManager class, GetModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, GetModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetModuleDefinition method, IFsrmClassificationManager.GetModuleDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],GetModuleDefinition method, IFsrmClassificationManager2::GetModuleDefinition, IFsrmClassificationManager::GetModuleDefinition, fs.ifsrmclassificationmanager_getmoduledefinition, fsrm.ifsrmclassificationmanager_getmoduledefinition, fsrmpipeline/IFsrmClassificationManager2::GetModuleDefinition, fsrmpipeline/IFsrmClassificationManager::GetModuleDefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassificationManager::GetModuleDefinition method
+# IFsrmClassificationManager::GetModuleDefinition
 
 
 ## -description

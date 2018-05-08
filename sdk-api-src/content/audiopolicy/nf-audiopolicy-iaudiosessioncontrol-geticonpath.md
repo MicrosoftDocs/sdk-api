@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.GetIconPath
-title: IAudioSessionControl::GetIconPath method
+title: IAudioSessionControl::GetIconPath
 author: windows-driver-content
 description: The GetIconPath method retrieves the path for the display icon for the audio session.
 old-location: coreaudio\iaudiosessioncontrol_geticonpath.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: e5b2721a-fd0a-483d-a94c-6e1520f5764c
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetIconPath method [Core Audio], GetIconPath method [Core Audio], IAudioSessionControl interface, GetIconPath,IAudioSessionControl.GetIconPath, IAudioSessionControl, IAudioSessionControl interface [Core Audio], GetIconPath method, IAudioSessionControl::GetIconPath, IAudioSessionControlGetIconPath, audiopolicy/IAudioSessionControl::GetIconPath, coreaudio.iaudiosessioncontrol_geticonpath
+ms.keywords: GetIconPath, GetIconPath method [Core Audio], GetIconPath method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetIconPath method, IAudioSessionControl.GetIconPath, IAudioSessionControl::GetIconPath, IAudioSessionControlGetIconPath, audiopolicy/IAudioSessionControl::GetIconPath, coreaudio.iaudiosessioncontrol_geticonpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionControl::GetIconPath method
+# IAudioSessionControl::GetIconPath
 
 
 ## -description

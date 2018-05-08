@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Bass
-title: IAMAudioInputMixer::put_Bass method
+title: IAMAudioInputMixer::put_Bass
 author: windows-driver-content
 description: The put_Bass method sets the bass equalization.
 old-location: dshow\iamaudioinputmixer_put_bass.htm
 old-project: DirectShow
 ms.assetid: cf752767-826d-487d-ae05-9737765975c8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], put_Bass method, IAMAudioInputMixer::put_Bass, IAMAudioInputMixerput_Bass, dshow.iamaudioinputmixer_put_bass, put_Bass method [DirectShow], put_Bass method [DirectShow], IAMAudioInputMixer interface, put_Bass,IAMAudioInputMixer.put_Bass, strmif/IAMAudioInputMixer::put_Bass
+ms.date: 4/30/2018
+ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Bass method, IAMAudioInputMixer.put_Bass, IAMAudioInputMixer::put_Bass, IAMAudioInputMixerput_Bass, dshow.iamaudioinputmixer_put_bass, put_Bass, put_Bass method [DirectShow], put_Bass method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Bass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAudioInputMixer::put_Bass method
+# IAMAudioInputMixer::put_Bass
 
 
 ## -description

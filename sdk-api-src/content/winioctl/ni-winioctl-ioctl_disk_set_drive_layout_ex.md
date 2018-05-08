@@ -8,7 +8,7 @@ old-project: FileIO
 ms.assetid: a600e841-c692-4aa4-bea2-a33931d9b007
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_DISK_SET_DRIVE_LAYOUT_EX, IOCTL_DISK_SET_DRIVE_LAYOUT_EX control code [Files], _win32_ioctl_disk_set_drive_layout_ex, base.ioctl_disk_set_drive_layout_ex, fs.ioctl_disk_set_drive_layout_ex, winioctl/IOCTL_DISK_SET_DRIVE_LAYOUT_EX
+ms.keywords: IOCTL_DISK_SET_DRIVE_LAYOUT_EX, IOCTL_DISK_SET_DRIVE_LAYOUT_EX control, IOCTL_DISK_SET_DRIVE_LAYOUT_EX control code [Files], _win32_ioctl_disk_set_drive_layout_ex, base.ioctl_disk_set_drive_layout_ex, fs.ioctl_disk_set_drive_layout_ex, winioctl/IOCTL_DISK_SET_DRIVE_LAYOUT_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

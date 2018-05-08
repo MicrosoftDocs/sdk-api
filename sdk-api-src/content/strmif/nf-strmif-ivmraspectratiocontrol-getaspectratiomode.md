@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRAspectRatioControl.GetAspectRatioMode
-title: IVMRAspectRatioControl::GetAspectRatioMode method
+title: IVMRAspectRatioControl::GetAspectRatioMode
 author: windows-driver-content
 description: The GetAspectRatioMode method queries whether the VMR will preserve the aspect ratio of the source video.
 old-location: dshow\ivmraspectratiocontrol_getaspectratiomode.htm
 old-project: DirectShow
 ms.assetid: baecb2a1-e7d8-43ee-ac7d-d2dcf50cb594
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow], IVMRAspectRatioControl interface, GetAspectRatioMode,IVMRAspectRatioControl.GetAspectRatioMode, IVMRAspectRatioControl, IVMRAspectRatioControl interface [DirectShow], GetAspectRatioMode method, IVMRAspectRatioControl::GetAspectRatioMode, IVMRAspectRatioControlGetAspectRatioMode, dshow.ivmraspectratiocontrol_getaspectratiomode, strmif/IVMRAspectRatioControl::GetAspectRatioMode
+ms.date: 4/30/2018
+ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRAspectRatioControl interface, IVMRAspectRatioControl interface [DirectShow],GetAspectRatioMode method, IVMRAspectRatioControl.GetAspectRatioMode, IVMRAspectRatioControl::GetAspectRatioMode, IVMRAspectRatioControlGetAspectRatioMode, dshow.ivmraspectratiocontrol_getaspectratiomode, strmif/IVMRAspectRatioControl::GetAspectRatioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRAspectRatioControl::GetAspectRatioMode method
+# IVMRAspectRatioControl::GetAspectRatioMode
 
 
 ## -description

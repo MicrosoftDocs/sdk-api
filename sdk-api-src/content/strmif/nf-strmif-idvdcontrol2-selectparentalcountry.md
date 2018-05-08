@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectParentalCountry
-title: IDvdControl2::SelectParentalCountry method
+title: IDvdControl2::SelectParentalCountry
 author: windows-driver-content
 description: The SelectParentalCountry method sets the country/region for interpreting parental access levels and setting default languages.
 old-location: dshow\idvdcontrol2_selectparentalcountry.htm
 old-project: DirectShow
 ms.assetid: fb0b3fa9-c6e5-49a4-bec7-1e4e7d07ba46
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SelectParentalCountry method, IDvdControl2::SelectParentalCountry, IDvdControl2SelectParentalCountry, SelectParentalCountry method [DirectShow], SelectParentalCountry method [DirectShow], IDvdControl2 interface, SelectParentalCountry,IDvdControl2.SelectParentalCountry, dshow.idvdcontrol2_selectparentalcountry, strmif/IDvdControl2::SelectParentalCountry
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],SelectParentalCountry method, IDvdControl2.SelectParentalCountry, IDvdControl2::SelectParentalCountry, IDvdControl2SelectParentalCountry, SelectParentalCountry, SelectParentalCountry method [DirectShow], SelectParentalCountry method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectparentalcountry, strmif/IDvdControl2::SelectParentalCountry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::SelectParentalCountry method
+# IDvdControl2::SelectParentalCountry
 
 
 ## -description

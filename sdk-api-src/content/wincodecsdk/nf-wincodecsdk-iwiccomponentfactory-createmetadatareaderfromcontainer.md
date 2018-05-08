@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateMetadataReaderFromContainer
-title: IWICComponentFactory::CreateMetadataReaderFromContainer method
+title: IWICComponentFactory::CreateMetadataReaderFromContainer
 author: windows-driver-content
 description: Creates an IWICMetadataReader based on the given parameters.
 old-location: wic\_wic_codec_iwiccomponentfactory_createmetadatareaderfromcontainer.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 876d2d5a-8247-4e4a-b402-0ee02d9b0158
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateMetadataReaderFromContainer method [Windows Imaging Component], CreateMetadataReaderFromContainer method [Windows Imaging Component], IWICComponentFactory interface, CreateMetadataReaderFromContainer,IWICComponentFactory.CreateMetadataReaderFromContainer, IWICComponentFactory, IWICComponentFactory interface [Windows Imaging Component], CreateMetadataReaderFromContainer method, IWICComponentFactory::CreateMetadataReaderFromContainer, _wic_codec_iwiccomponentfactory_createmetadatareaderfromcontainer, wic._wic_codec_iwiccomponentfactory_createmetadatareaderfromcontainer, wincodecsdk/IWICComponentFactory::CreateMetadataReaderFromContainer
+ms.keywords: CreateMetadataReaderFromContainer, CreateMetadataReaderFromContainer method [Windows Imaging Component], CreateMetadataReaderFromContainer method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateMetadataReaderFromContainer method, IWICComponentFactory.CreateMetadataReaderFromContainer, IWICComponentFactory::CreateMetadataReaderFromContainer, _wic_codec_iwiccomponentfactory_createmetadatareaderfromcontainer, wic._wic_codec_iwiccomponentfactory_createmetadatareaderfromcontainer, wincodecsdk/IWICComponentFactory::CreateMetadataReaderFromContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICComponentFactory::CreateMetadataReaderFromContainer method
+# IWICComponentFactory::CreateMetadataReaderFromContainer
 
 
 ## -description

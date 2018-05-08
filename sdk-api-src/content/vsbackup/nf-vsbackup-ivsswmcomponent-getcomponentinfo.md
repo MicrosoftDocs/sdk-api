@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssWMComponent.GetComponentInfo
-title: IVssWMComponent::GetComponentInfo method
+title: IVssWMComponent::GetComponentInfo
 author: windows-driver-content
 description: The GetComponentInfo method obtains basic information about the specified writer metadata component.
 old-location: base\ivsswmcomponent_getcomponentinfo.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: ac01bfea-e60f-4f50-a865-5bb7e372fbf2
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetComponentInfo method [VSS], GetComponentInfo method [VSS], IVssWMComponent interface, GetComponentInfo,IVssWMComponent.GetComponentInfo, IVssWMComponent, IVssWMComponent interface [VSS], GetComponentInfo method, IVssWMComponent::GetComponentInfo, _win32_ivsswmcomponent_getcomponentinfo, base.ivsswmcomponent_getcomponentinfo, vsbackup/IVssWMComponent::GetComponentInfo
+ms.keywords: GetComponentInfo, GetComponentInfo method [VSS], GetComponentInfo method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetComponentInfo method, IVssWMComponent.GetComponentInfo, IVssWMComponent::GetComponentInfo, _win32_ivsswmcomponent_getcomponentinfo, base.ivsswmcomponent_getcomponentinfo, vsbackup/IVssWMComponent::GetComponentInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssWMComponent::GetComponentInfo method
+# IVssWMComponent::GetComponentInfo
 
 
 ## -description

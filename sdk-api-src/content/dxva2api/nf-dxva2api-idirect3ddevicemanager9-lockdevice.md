@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.LockDevice
-title: IDirect3DDeviceManager9::LockDevice method
+title: IDirect3DDeviceManager9::LockDevice
 author: windows-driver-content
 description: Gives the caller exclusive access to the Direct3D device.
 old-location: mf\idirect3ddevicemanager9_lockdevice.htm
 old-project: medfound
 ms.assetid: 51631747-04af-448e-97cf-25a329d4fbb4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 51631747-04af-448e-97cf-25a329d4fbb4, IDirect3DDeviceManager9, IDirect3DDeviceManager9 interface [Media Foundation], LockDevice method, IDirect3DDeviceManager9::LockDevice, LockDevice method [Media Foundation], LockDevice method [Media Foundation], IDirect3DDeviceManager9 interface, LockDevice,IDirect3DDeviceManager9.LockDevice, dxva2api/IDirect3DDeviceManager9::LockDevice, mf.idirect3ddevicemanager9_lockdevice
+ms.date: 5/3/2018
+ms.keywords: 51631747-04af-448e-97cf-25a329d4fbb4, IDirect3DDeviceManager9 interface [Media Foundation],LockDevice method, IDirect3DDeviceManager9.LockDevice, IDirect3DDeviceManager9::LockDevice, LockDevice, LockDevice method [Media Foundation], LockDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::LockDevice, mf.idirect3ddevicemanager9_lockdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirect3DDeviceManager9::LockDevice method
+# IDirect3DDeviceManager9::LockDevice
 
 
 ## -description

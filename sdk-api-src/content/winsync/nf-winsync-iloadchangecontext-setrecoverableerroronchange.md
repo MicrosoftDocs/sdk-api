@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ILoadChangeContext.SetRecoverableErrorOnChange
-title: ILoadChangeContext::SetRecoverableErrorOnChange method
+title: ILoadChangeContext::SetRecoverableErrorOnChange
 author: windows-driver-content
 description: Indicates a recoverable error on this change has occurred.
 old-location: winsync\iloadchangecontext_setrecoverableerroronchange.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 9e557889-a4f6-4e05-99ce-bb05013dc4cd
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ILoadChangeContext, ILoadChangeContext interface [Windows Sync], SetRecoverableErrorOnChange method, ILoadChangeContext::SetRecoverableErrorOnChange, SetRecoverableErrorOnChange method [Windows Sync], SetRecoverableErrorOnChange method [Windows Sync], ILoadChangeContext interface, SetRecoverableErrorOnChange,ILoadChangeContext.SetRecoverableErrorOnChange, winsync.iloadchangecontext_setrecoverableerroronchange, winsync/ILoadChangeContext::SetRecoverableErrorOnChange
+ms.keywords: ILoadChangeContext interface [Windows Sync],SetRecoverableErrorOnChange method, ILoadChangeContext.SetRecoverableErrorOnChange, ILoadChangeContext::SetRecoverableErrorOnChange, SetRecoverableErrorOnChange, SetRecoverableErrorOnChange method [Windows Sync], SetRecoverableErrorOnChange method [Windows Sync],ILoadChangeContext interface, winsync.iloadchangecontext_setrecoverableerroronchange, winsync/ILoadChangeContext::SetRecoverableErrorOnChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ILoadChangeContext::SetRecoverableErrorOnChange method
+# ILoadChangeContext::SetRecoverableErrorOnChange
 
 
 ## -description

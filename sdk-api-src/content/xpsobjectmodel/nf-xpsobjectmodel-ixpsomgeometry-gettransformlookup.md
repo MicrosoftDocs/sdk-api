@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.GetTransformLookup
-title: IXpsOMGeometry::GetTransformLookup method
+title: IXpsOMGeometry::GetTransformLookup
 author: windows-driver-content
 description: Gets the lookup key for the IXpsOMMatrixTransform interface that contains the resolved matrix transform for the geometry.
 old-location: xps\ixpsomgeometry_gettransformlookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 21a9a2c5-c9f2-42a4-84c4-8f702950d7ba
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging], IXpsOMGeometry interface, GetTransformLookup,IXpsOMGeometry.GetTransformLookup, IXpsOMGeometry, IXpsOMGeometry interface [XPS Documents and Packaging], GetTransformLookup method, IXpsOMGeometry::GetTransformLookup, xps.ixpsomgeometry_gettransformlookup, xpsobjectmodel/IXpsOMGeometry::GetTransformLookup
+ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMGeometry.GetTransformLookup, IXpsOMGeometry::GetTransformLookup, xps.ixpsomgeometry_gettransformlookup, xpsobjectmodel/IXpsOMGeometry::GetTransformLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometry::GetTransformLookup method
+# IXpsOMGeometry::GetTransformLookup
 
 
 ## -description

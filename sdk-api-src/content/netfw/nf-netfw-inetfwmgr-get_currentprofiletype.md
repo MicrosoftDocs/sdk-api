@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwMgr.get_CurrentProfileType
-title: INetFwMgr::get_CurrentProfileType method
+title: INetFwMgr::get_CurrentProfileType
 author: windows-driver-content
 description: Retrieves the type of firewall profile currently in effect.
 old-location: ics\inetfwmgr_currentprofiletype.htm
 old-project: ICS
 ms.assetid: fa6d79a8-37e4-4172-a6be-3ca803c0feca
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: CurrentProfileType property [ICS/ICF], CurrentProfileType property [ICS/ICF], INetFwMgr interface, INetFwMgr, INetFwMgr interface [ICS/ICF], CurrentProfileType property, INetFwMgr.CurrentProfileType, INetFwMgr::get_CurrentProfileType, get_CurrentProfileType,INetFwMgr.get_CurrentProfileType, ics.inetfwmgr_currentprofiletype, netfw/INetFwMgr::CurrentProfileType, netfw/INetFwMgr::get_CurrentProfileType
+ms.date: 5/1/2018
+ms.keywords: CurrentProfileType property [ICS/ICF], CurrentProfileType property [ICS/ICF],INetFwMgr interface, INetFwMgr interface [ICS/ICF],CurrentProfileType property, INetFwMgr.CurrentProfileType, INetFwMgr.get_CurrentProfileType, INetFwMgr::CurrentProfileType, INetFwMgr::get_CurrentProfileType, get_CurrentProfileType, ics.inetfwmgr_currentprofiletype, netfw/INetFwMgr::CurrentProfileType, netfw/INetFwMgr::get_CurrentProfileType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwMgr::get_CurrentProfileType method
+# INetFwMgr::get_CurrentProfileType
 
 
 ## -description

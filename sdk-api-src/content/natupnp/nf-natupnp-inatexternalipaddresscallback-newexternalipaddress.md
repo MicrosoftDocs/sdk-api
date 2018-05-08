@@ -1,14 +1,14 @@
 ---
 UID: NF:natupnp.INATExternalIPAddressCallback.NewExternalIPAddress
-title: INATExternalIPAddressCallback::NewExternalIPAddress method
+title: INATExternalIPAddressCallback::NewExternalIPAddress
 author: windows-driver-content
 description: The system calls the NewExternalIPAddress method if the external IP address of the NAT computer changes.
 old-location: ics\inatexternalipaddresscallback_newexternalipaddress.htm
 old-project: ICS
 ms.assetid: b231ed4d-a115-4f4c-bda5-f6f3131ac45b
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INATExternalIPAddressCallback, INATExternalIPAddressCallback interface [ICS/ICF], NewExternalIPAddress method, INATExternalIPAddressCallback::NewExternalIPAddress, NewExternalIPAddress method [ICS/ICF], NewExternalIPAddress method [ICS/ICF], INATExternalIPAddressCallback interface, NewExternalIPAddress,INATExternalIPAddressCallback.NewExternalIPAddress, _ics_inatexternalipaddresscallback_newexternalipaddress, ics.inatexternalipaddresscallback_newexternalipaddress, natupnp/INATExternalIPAddressCallback::NewExternalIPAddress
+ms.date: 5/1/2018
+ms.keywords: INATExternalIPAddressCallback interface [ICS/ICF],NewExternalIPAddress method, INATExternalIPAddressCallback.NewExternalIPAddress, INATExternalIPAddressCallback::NewExternalIPAddress, NewExternalIPAddress, NewExternalIPAddress method [ICS/ICF], NewExternalIPAddress method [ICS/ICF],INATExternalIPAddressCallback interface, _ics_inatexternalipaddresscallback_newexternalipaddress, ics.inatexternalipaddresscallback_newexternalipaddress, natupnp/INATExternalIPAddressCallback::NewExternalIPAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INATExternalIPAddressCallback::NewExternalIPAddress method
+# INATExternalIPAddressCallback::NewExternalIPAddress
 
 
 ## -description

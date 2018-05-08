@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.CreateModuleDefinition
-title: IFsrmClassificationManager::CreateModuleDefinition method
+title: IFsrmClassificationManager::CreateModuleDefinition
 author: windows-driver-content
 description: Creates a module definition of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_createmoduledefinition.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 1964f4b6-b4e0-45a2-aca1-2e3dc44745a4
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreateModuleDefinition method [File Server Resource Manager], CreateModuleDefinition method [File Server Resource Manager], FsrmClassificationManager class, CreateModuleDefinition method [File Server Resource Manager], IFsrmClassificationManager interface, CreateModuleDefinition method [File Server Resource Manager], IFsrmClassificationManager2 interface, CreateModuleDefinition,IFsrmClassificationManager.CreateModuleDefinition, FsrmClassificationManager class [File Server Resource Manager], CreateModuleDefinition method, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], CreateModuleDefinition method, IFsrmClassificationManager2 interface [File Server Resource Manager], CreateModuleDefinition method, IFsrmClassificationManager2::CreateModuleDefinition, IFsrmClassificationManager::CreateModuleDefinition, fs.ifsrmclassificationmanager_createmoduledefinition, fsrm.ifsrmclassificationmanager_createmoduledefinition, fsrmpipeline/IFsrmClassificationManager2::CreateModuleDefinition, fsrmpipeline/IFsrmClassificationManager::CreateModuleDefinition
+ms.keywords: CreateModuleDefinition, CreateModuleDefinition method [File Server Resource Manager], CreateModuleDefinition method [File Server Resource Manager],FsrmClassificationManager class, CreateModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, CreateModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],CreateModuleDefinition method, IFsrmClassificationManager interface [File Server Resource Manager],CreateModuleDefinition method, IFsrmClassificationManager.CreateModuleDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],CreateModuleDefinition method, IFsrmClassificationManager2::CreateModuleDefinition, IFsrmClassificationManager::CreateModuleDefinition, fs.ifsrmclassificationmanager_createmoduledefinition, fsrm.ifsrmclassificationmanager_createmoduledefinition, fsrmpipeline/IFsrmClassificationManager2::CreateModuleDefinition, fsrmpipeline/IFsrmClassificationManager::CreateModuleDefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassificationManager::CreateModuleDefinition method
+# IFsrmClassificationManager::CreateModuleDefinition
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: search\_search_AUTH_TYPE.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\auth_type.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: AUTH_TYPE, AUTH_TYPE enumeration [search], _AUTH_TYPE, _search_AUTH_TYPE, eAUTH_TYPE_ANONYMOUS, eAUTH_TYPE_BASIC, eAUTH_TYPE_NTLM, search._search_AUTH_TYPE, searchapi/AUTH_TYPE, searchapi/eAUTH_TYPE_ANONYMOUS, searchapi/eAUTH_TYPE_BASIC, searchapi/eAUTH_TYPE_NTLM
 ms.prod: windows-hardware
 ms.technology: windows-devices

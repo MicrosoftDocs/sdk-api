@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetStringValue
-title: IUPnPRemoteEndpointInfo::GetStringValue method
+title: IUPnPRemoteEndpointInfo::GetStringValue
 author: windows-driver-content
 description: The GetStringValue method gets a string that provides information about either a request or requester.
 old-location: upnp\iupnpremoteendpointinfo_getstringvalue.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: c3b0dcd2-2195-4e09-aac4-073a3d848fa9
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetStringValue method [UPnP APIs], GetStringValue method [UPnP APIs], IUPnPRemoteEndpointInfo interface, GetStringValue,IUPnPRemoteEndpointInfo.GetStringValue, IUPnPRemoteEndpointInfo, IUPnPRemoteEndpointInfo interface [UPnP APIs], GetStringValue method, IUPnPRemoteEndpointInfo::GetStringValue, upnp.iupnpremoteendpointinfo_getstringvalue, upnphost/IUPnPRemoteEndpointInfo::GetStringValue
+ms.keywords: GetStringValue, GetStringValue method [UPnP APIs], GetStringValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetStringValue method, IUPnPRemoteEndpointInfo.GetStringValue, IUPnPRemoteEndpointInfo::GetStringValue, upnp.iupnpremoteendpointinfo_getstringvalue, upnphost/IUPnPRemoteEndpointInfo::GetStringValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPRemoteEndpointInfo::GetStringValue method
+# IUPnPRemoteEndpointInfo::GetStringValue
 
 
 ## -description

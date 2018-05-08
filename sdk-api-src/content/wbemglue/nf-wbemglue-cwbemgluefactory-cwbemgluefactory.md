@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemGlueFactory.CWbemGlueFactory
-title: CWbemGlueFactory::CWbemGlueFactory method
+title: CWbemGlueFactory::CWbemGlueFactory
 author: windows-driver-content
 description: The CWbemGlueFactory::CWbemGlueFactory constructor initializes a new instance of CWbemGlueFactory. This class is part of the WMI Provider Framework.
 old-location: wmi\cwbemgluefactory_cwbemgluefactory.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 62cc28a8-6b0e-4ded-94e9-2ef3956cfd27
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "??0CWbemGlueFactory@@QAE@XZ, ??0CWbemGlueFactory@@QEAA@XZ, CWbemGlueFactory, CWbemGlueFactory constructor [Windows Management Instrumentation], CWbemGlueFactory constructor [Windows Management Instrumentation], CWbemGlueFactory interface, CWbemGlueFactory interface [Windows Management Instrumentation], CWbemGlueFactory constructor, CWbemGlueFactory,CWbemGlueFactory.CWbemGlueFactory, CWbemGlueFactory::CWbemGlueFactory, wbemglue/CWbemGlueFactory::CWbemGlueFactory, wmi.cwbemgluefactory_cwbemgluefactory"
+ms.keywords: "??0CWbemGlueFactory@@QAE@XZ, ??0CWbemGlueFactory@@QEAA@XZ, CWbemGlueFactory, CWbemGlueFactory constructor [Windows Management Instrumentation], CWbemGlueFactory constructor [Windows Management Instrumentation],CWbemGlueFactory interface, CWbemGlueFactory interface [Windows Management Instrumentation],CWbemGlueFactory constructor, CWbemGlueFactory.CWbemGlueFactory, CWbemGlueFactory::CWbemGlueFactory, wbemglue/CWbemGlueFactory::CWbemGlueFactory, wmi.cwbemgluefactory_cwbemgluefactory"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# CWbemGlueFactory::CWbemGlueFactory method
+# CWbemGlueFactory::CWbemGlueFactory
 
 
 ## -description

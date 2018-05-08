@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorItemInfo.GetFileAttributes
-title: IOfflineFilesSyncErrorItemInfo::GetFileAttributes method
+title: IOfflineFilesSyncErrorItemInfo::GetFileAttributes
 author: windows-driver-content
 description: Retrieves the Win32 file attributes for the item.
 old-location: of\iofflinefilessyncerroriteminfo_getfileattributes.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 4e14d571-230b-4757-8e81-2fb8dc6b9c3f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetFileAttributes method [Offline Files], GetFileAttributes method [Offline Files], IOfflineFilesSyncErrorItemInfo interface, GetFileAttributes,IOfflineFilesSyncErrorItemInfo.GetFileAttributes, IOfflineFilesSyncErrorItemInfo, IOfflineFilesSyncErrorItemInfo interface [Offline Files], GetFileAttributes method, IOfflineFilesSyncErrorItemInfo::GetFileAttributes, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileAttributes, of.iofflinefilessyncerroriteminfo_getfileattributes
+ms.keywords: GetFileAttributes, GetFileAttributes method [Offline Files], GetFileAttributes method [Offline Files],IOfflineFilesSyncErrorItemInfo interface, IOfflineFilesSyncErrorItemInfo interface [Offline Files],GetFileAttributes method, IOfflineFilesSyncErrorItemInfo.GetFileAttributes, IOfflineFilesSyncErrorItemInfo::GetFileAttributes, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileAttributes, of.iofflinefilessyncerroriteminfo_getfileattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSyncErrorItemInfo::GetFileAttributes method
+# IOfflineFilesSyncErrorItemInfo::GetFileAttributes
 
 
 ## -description

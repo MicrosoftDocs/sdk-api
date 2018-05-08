@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnOpenDataSessionComplete
-title: IMbnDeviceServicesEvents::OnOpenDataSessionComplete method
+title: IMbnDeviceServicesEvents::OnOpenDataSessionComplete
 author: windows-driver-content
 description: Notification method indicating that a device service OpenDataSession request has completed.
 old-location: mbn\imbndeviceservicesevents_onopendatasessioncomplete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 50FDF285-0C93-45C3-AB07-9BFB067DAD94
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceServicesEvents, IMbnDeviceServicesEvents interface [Microsoft Broadband Networks], OnOpenDataSessionComplete method, IMbnDeviceServicesEvents::OnOpenDataSessionComplete, OnOpenDataSessionComplete method [Microsoft Broadband Networks], OnOpenDataSessionComplete method [Microsoft Broadband Networks], IMbnDeviceServicesEvents interface, OnOpenDataSessionComplete,IMbnDeviceServicesEvents.OnOpenDataSessionComplete, mbn.imbndeviceservicesevents_onopendatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnOpenDataSessionComplete
+ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnOpenDataSessionComplete method, IMbnDeviceServicesEvents.OnOpenDataSessionComplete, IMbnDeviceServicesEvents::OnOpenDataSessionComplete, OnOpenDataSessionComplete, OnOpenDataSessionComplete method [Microsoft Broadband Networks], OnOpenDataSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onopendatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnOpenDataSessionComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceServicesEvents::OnOpenDataSessionComplete method
+# IMbnDeviceServicesEvents::OnOpenDataSessionComplete
 
 
 ## -description

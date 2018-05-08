@@ -7,7 +7,7 @@ old-location: rpc\ndrsimpletypemarshall.htm
 old-project: Rpc
 ms.assetid: af2bea36-d576-4144-8e21-3f89772465ed
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: NdrSimpleTypeMarshall, NdrSimpleTypeMarshall function [RPC], rpc.ndrsimpletypemarshall, rpcndr/NdrSimpleTypeMarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

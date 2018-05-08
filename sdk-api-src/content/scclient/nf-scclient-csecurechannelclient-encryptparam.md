@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.EncryptParam
-title: CSecureChannelClient::EncryptParam method
+title: CSecureChannelClient::EncryptParam
 author: windows-driver-content
 description: The EncryptParam method encrypts data being sent out through a parameter. Data is encrypted in-place, in the submitted buffer.
 old-location: wmdm\csecurechannelclient_encryptparam.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 7c71c2d4-b337-487f-a04a-87536f84f03e
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CSecureChannelClient, CSecureChannelClient interface [windows Media Device Manager], EncryptParam method, CSecureChannelClient::EncryptParam, CSecureChannelClientEncryptParam, EncryptParam method [windows Media Device Manager], EncryptParam method [windows Media Device Manager], CSecureChannelClient interface, EncryptParam,CSecureChannelClient.EncryptParam, scclient/CSecureChannelClient::EncryptParam, wmdm.csecurechannelclient_encryptparam
+ms.keywords: CSecureChannelClient interface [windows Media Device Manager],EncryptParam method, CSecureChannelClient.EncryptParam, CSecureChannelClient::EncryptParam, CSecureChannelClientEncryptParam, EncryptParam, EncryptParam method [windows Media Device Manager], EncryptParam method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::EncryptParam, wmdm.csecurechannelclient_encryptparam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CSecureChannelClient::EncryptParam method
+# CSecureChannelClient::EncryptParam
 
 
 ## -description

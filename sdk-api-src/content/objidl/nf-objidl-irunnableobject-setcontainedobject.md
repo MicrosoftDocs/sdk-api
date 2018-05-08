@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunnableObject.SetContainedObject
-title: IRunnableObject::SetContainedObject method
+title: IRunnableObject::SetContainedObject
 author: windows-driver-content
 description: Notifies an object that it is embedded in an OLE container, which ensures that reference counting is done correctly for containers that support links to embedded objects.
 old-location: com\irunnableobject_setcontainedobject.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: dbd3f632-2b81-44d1-8376-4b507316895f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IRunnableObject, IRunnableObject interface [COM], SetContainedObject method, IRunnableObject::SetContainedObject, SetContainedObject method [COM], SetContainedObject method [COM], IRunnableObject interface, SetContainedObject,IRunnableObject.SetContainedObject, _com_irunnableobject_setcontainedobject, com.irunnableobject_setcontainedobject, objidl/IRunnableObject::SetContainedObject
+ms.keywords: IRunnableObject interface [COM],SetContainedObject method, IRunnableObject.SetContainedObject, IRunnableObject::SetContainedObject, SetContainedObject, SetContainedObject method [COM], SetContainedObject method [COM],IRunnableObject interface, _com_irunnableobject_setcontainedobject, com.irunnableobject_setcontainedobject, objidl/IRunnableObject::SetContainedObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRunnableObject::SetContainedObject method
+# IRunnableObject::SetContainedObject
 
 
 ## -description

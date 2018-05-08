@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFByteStreamHandler.CancelObjectCreation
-title: IMFByteStreamHandler::CancelObjectCreation method
+title: IMFByteStreamHandler::CancelObjectCreation
 author: windows-driver-content
 description: Cancels the current request to create a media source.
 old-location: mf\imfbytestreamhandler_cancelobjectcreation.htm
 old-project: medfound
 ms.assetid: 9731dac4-879c-4cbc-97b4-fa596b20c033
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 9731dac4-879c-4cbc-97b4-fa596b20c033, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation], IMFByteStreamHandler interface, CancelObjectCreation,IMFByteStreamHandler.CancelObjectCreation, IMFByteStreamHandler, IMFByteStreamHandler interface [Media Foundation], CancelObjectCreation method, IMFByteStreamHandler::CancelObjectCreation, mf.imfbytestreamhandler_cancelobjectcreation, mfidl/IMFByteStreamHandler::CancelObjectCreation
+ms.date: 5/3/2018
+ms.keywords: 9731dac4-879c-4cbc-97b4-fa596b20c033, CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],CancelObjectCreation method, IMFByteStreamHandler.CancelObjectCreation, IMFByteStreamHandler::CancelObjectCreation, mf.imfbytestreamhandler_cancelobjectcreation, mfidl/IMFByteStreamHandler::CancelObjectCreation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStreamHandler::CancelObjectCreation method
+# IMFByteStreamHandler::CancelObjectCreation
 
 
 ## -description

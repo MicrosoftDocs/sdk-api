@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDServiceMessaging.FaultRequest
-title: IWSDServiceMessaging::FaultRequest method
+title: IWSDServiceMessaging::FaultRequest
 author: windows-driver-content
 description: Sends a fault matching a given request context.
 old-location: ncd\iwsdservicemessaging_faultrequest.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 478cf63e-7cfe-4f6f-af7f-d288588d9c8d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: FaultRequest method, FaultRequest method, IWSDServiceMessaging interface, FaultRequest,IWSDServiceMessaging.FaultRequest, IWSDServiceMessaging, IWSDServiceMessaging interface, FaultRequest method, IWSDServiceMessaging::FaultRequest, ncd.iwsdservicemessaging_faultrequest, wsdhost/IWSDServiceMessaging::FaultRequest
+ms.keywords: FaultRequest, FaultRequest method, FaultRequest method,IWSDServiceMessaging interface, IWSDServiceMessaging interface,FaultRequest method, IWSDServiceMessaging.FaultRequest, IWSDServiceMessaging::FaultRequest, ncd.iwsdservicemessaging_faultrequest, wsdhost/IWSDServiceMessaging::FaultRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceMessaging::FaultRequest method
+# IWSDServiceMessaging::FaultRequest
 
 
 ## -description

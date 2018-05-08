@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionVariable.GetDesc
-title: ID3D12ShaderReflectionVariable::GetDesc method
+title: ID3D12ShaderReflectionVariable::GetDesc
 author: windows-driver-content
 description: Gets a shader-variable description.
 old-location: direct3d12\id3d12shaderreflectionvariable_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 21CF98AF-5645-4059-992A-FFF778576C93
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetDesc method, GetDesc method, ID3D12ShaderReflectionVariable interface, GetDesc,ID3D12ShaderReflectionVariable.GetDesc, ID3D12ShaderReflectionVariable, ID3D12ShaderReflectionVariable interface, GetDesc method, ID3D12ShaderReflectionVariable::GetDesc, d3d12shader/ID3D12ShaderReflectionVariable::GetDesc, direct3d12.id3d12shaderreflectionvariable_getdesc
+ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface,GetDesc method, ID3D12ShaderReflectionVariable.GetDesc, ID3D12ShaderReflectionVariable::GetDesc, d3d12shader/ID3D12ShaderReflectionVariable::GetDesc, direct3d12.id3d12shaderreflectionvariable_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflectionVariable::GetDesc method
+# ID3D12ShaderReflectionVariable::GetDesc
 
 
 ## -description

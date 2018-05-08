@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_VolumePathNames
-title: IDiscRecorder2::get_VolumePathNames method
+title: IDiscRecorder2::get_VolumePathNames
 author: windows-driver-content
 description: Retrieves a list of drive letters and NTFS mount points for the device.
 old-location: imapi\idiscrecorder2_get_volumepathnames.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 6e07553f-0d90-4b7d-95f8-0fe02c348695
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscRecorder2, IDiscRecorder2 interface [IMAPI], get_VolumePathNames method, IDiscRecorder2::get_VolumePathNames, get_VolumePathNames method [IMAPI], get_VolumePathNames method [IMAPI], IDiscRecorder2 interface, get_VolumePathNames,IDiscRecorder2.get_VolumePathNames, imapi.idiscrecorder2_get_volumepathnames, imapi2/IDiscRecorder2::get_VolumePathNames
+ms.keywords: IDiscRecorder2 interface [IMAPI],get_VolumePathNames method, IDiscRecorder2.get_VolumePathNames, IDiscRecorder2::get_VolumePathNames, get_VolumePathNames, get_VolumePathNames method [IMAPI], get_VolumePathNames method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_volumepathnames, imapi2/IDiscRecorder2::get_VolumePathNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2::get_VolumePathNames method
+# IDiscRecorder2::get_VolumePathNames
 
 
 ## -description

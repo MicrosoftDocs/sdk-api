@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetName
-title: ISyncMgrSyncItem::GetName method
+title: ISyncMgrSyncItem::GetName
 author: windows-driver-content
 description: Gets the UI display name of the sync item.
 old-location: shell\ISyncMgrSyncItem_GetName.htm
 old-project: shell
 ms.assetid: 4a5f8430-7b5a-4184-acc9-ae4395acf2fa
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetName method [Windows Shell], GetName method [Windows Shell], ISyncMgrSyncItem interface, GetName,ISyncMgrSyncItem.GetName, ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], GetName method, ISyncMgrSyncItem::GetName, _shell_ISyncMgrSyncItem_GetName, shell.ISyncMgrSyncItem_GetName, syncmgr/ISyncMgrSyncItem::GetName
+ms.date: 5/3/2018
+ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetName method, ISyncMgrSyncItem.GetName, ISyncMgrSyncItem::GetName, _shell_ISyncMgrSyncItem_GetName, shell.ISyncMgrSyncItem_GetName, syncmgr/ISyncMgrSyncItem::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrSyncItem::GetName method
+# ISyncMgrSyncItem::GetName
 
 
 ## -description

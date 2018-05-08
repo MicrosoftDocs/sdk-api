@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: d322981f-1916-4d38-9d05-bc3db2cd596d
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssDifferentialSoftwareSnapshotMgmt, IVssDifferentialSoftwareSnapshotMgmt interface [Files], IVssDifferentialSoftwareSnapshotMgmt interface [Files], described, base.ivssdifferentialsoftwaresnapshotmgmt, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt
+ms.keywords: IVssDifferentialSoftwareSnapshotMgmt, IVssDifferentialSoftwareSnapshotMgmt interface [Files], IVssDifferentialSoftwareSnapshotMgmt interface [Files],described, base.ivssdifferentialsoftwaresnapshotmgmt, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

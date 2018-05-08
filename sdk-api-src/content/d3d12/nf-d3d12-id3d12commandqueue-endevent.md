@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.EndEvent
-title: ID3D12CommandQueue::EndEvent method
+title: ID3D12CommandQueue::EndEvent
 author: windows-driver-content
 description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command queue.
 old-location: direct3d12\id3d12commandqueue_endevent.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: CA45061A-3DD6-4FFB-9723-ED33343052F3
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: EndEvent method, EndEvent method, ID3D12CommandQueue interface, EndEvent,ID3D12CommandQueue.EndEvent, ID3D12CommandQueue, ID3D12CommandQueue interface, EndEvent method, ID3D12CommandQueue::EndEvent, d3d12/ID3D12CommandQueue::EndEvent, direct3d12.id3d12commandqueue_endevent
+ms.keywords: EndEvent, EndEvent method, EndEvent method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,EndEvent method, ID3D12CommandQueue.EndEvent, ID3D12CommandQueue::EndEvent, d3d12/ID3D12CommandQueue::EndEvent, direct3d12.id3d12commandqueue_endevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12CommandQueue::EndEvent method
+# ID3D12CommandQueue::EndEvent
 
 
 ## -description

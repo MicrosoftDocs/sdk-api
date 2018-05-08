@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSingleItemExceptions.Clone
-title: IEnumSingleItemExceptions::Clone method
+title: IEnumSingleItemExceptions::Clone
 author: windows-driver-content
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumsingleitemexceptions_clone.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 89a02939-e761-450e-9479-29e19a872da6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Clone method [Windows Sync], Clone method [Windows Sync], IEnumSingleItemExceptions interface, Clone,IEnumSingleItemExceptions.Clone, IEnumSingleItemExceptions, IEnumSingleItemExceptions interface [Windows Sync], Clone method, IEnumSingleItemExceptions::Clone, winsync.ienumsingleitemexceptions_clone, winsync/IEnumSingleItemExceptions::Clone
+ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSingleItemExceptions interface, IEnumSingleItemExceptions interface [Windows Sync],Clone method, IEnumSingleItemExceptions.Clone, IEnumSingleItemExceptions::Clone, winsync.ienumsingleitemexceptions_clone, winsync/IEnumSingleItemExceptions::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumSingleItemExceptions::Clone method
+# IEnumSingleItemExceptions::Clone
 
 
 ## -description

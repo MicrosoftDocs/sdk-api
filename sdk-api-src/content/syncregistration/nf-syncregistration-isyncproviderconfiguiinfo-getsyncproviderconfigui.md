@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
-title: ISyncProviderConfigUIInfo::GetSyncProviderConfigUI method
+title: ISyncProviderConfigUIInfo::GetSyncProviderConfigUI
 author: windows-driver-content
 description: Creates an instance of a synchronization provider configuration UI.
 old-location: winsync\isyncproviderconfiguiinfo_getsyncproviderconfigui.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: eb9a2f2f-4c9f-405c-90f6-b251ab1a652d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSyncProviderConfigUI method [Windows Sync], GetSyncProviderConfigUI method [Windows Sync], ISyncProviderConfigUIInfo interface, GetSyncProviderConfigUI,ISyncProviderConfigUIInfo.GetSyncProviderConfigUI, ISyncProviderConfigUIInfo, ISyncProviderConfigUIInfo interface [Windows Sync], GetSyncProviderConfigUI method, ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, syncregistration/ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, winsync.isyncproviderconfiguiinfo_getsyncproviderconfigui
+ms.keywords: GetSyncProviderConfigUI, GetSyncProviderConfigUI method [Windows Sync], GetSyncProviderConfigUI method [Windows Sync],ISyncProviderConfigUIInfo interface, ISyncProviderConfigUIInfo interface [Windows Sync],GetSyncProviderConfigUI method, ISyncProviderConfigUIInfo.GetSyncProviderConfigUI, ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, syncregistration/ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, winsync.isyncproviderconfiguiinfo_getsyncproviderconfigui
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderConfigUIInfo::GetSyncProviderConfigUI method
+# ISyncProviderConfigUIInfo::GetSyncProviderConfigUI
 
 
 ## -description

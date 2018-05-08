@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.ReleaseDC
-title: IDirectDrawSurface7::ReleaseDC method
+title: IDirectDrawSurface7::ReleaseDC
 author: windows-driver-content
 description: Releases the handle of a device context that was previously obtained by using the IDirectDrawSurface7::GetDC method.
 old-location: directdraw\idirectdrawsurface7_releasedc.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 170d5194-9327-4632-a87f-39aa8a0ccf74
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], ReleaseDC method, IDirectDrawSurface7::ReleaseDC, ReleaseDC method [DirectDraw], ReleaseDC method [DirectDraw], IDirectDrawSurface7 interface, ReleaseDC,IDirectDrawSurface7.ReleaseDC, ddraw/IDirectDrawSurface7::ReleaseDC, directdraw.idirectdrawsurface7_releasedc
+ms.keywords: IDirectDrawSurface7 interface [DirectDraw],ReleaseDC method, IDirectDrawSurface7.ReleaseDC, IDirectDrawSurface7::ReleaseDC, ReleaseDC, ReleaseDC method [DirectDraw], ReleaseDC method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::ReleaseDC, directdraw.idirectdrawsurface7_releasedc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::ReleaseDC method
+# IDirectDrawSurface7::ReleaseDC
 
 
 ## -description

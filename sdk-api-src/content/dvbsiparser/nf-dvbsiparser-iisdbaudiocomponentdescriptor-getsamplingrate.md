@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetSamplingRate
-title: IIsdbAudioComponentDescriptor::GetSamplingRate method
+title: IIsdbAudioComponentDescriptor::GetSamplingRate
 author: windows-driver-content
 description: Gets the value of the sampling_rate field from a an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This three-bit field contains a code that indicates the sampling frequency.
 old-location: mstv\iisdbaudiocomponentdescriptor_getsamplingrate.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ccb31b56-10a1-47ee-9d1b-116d860bef11
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSamplingRate method [Microsoft TV Technologies], GetSamplingRate method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetSamplingRate,IIsdbAudioComponentDescriptor.GetSamplingRate, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetSamplingRate method, IIsdbAudioComponentDescriptor::GetSamplingRate, dvbsiparser/IIsdbAudioComponentDescriptor::GetSamplingRate, mstv.iisdbaudiocomponentdescriptor_getsamplingrate
+ms.keywords: GetSamplingRate, GetSamplingRate method [Microsoft TV Technologies], GetSamplingRate method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetSamplingRate method, IIsdbAudioComponentDescriptor.GetSamplingRate, IIsdbAudioComponentDescriptor::GetSamplingRate, dvbsiparser/IIsdbAudioComponentDescriptor::GetSamplingRate, mstv.iisdbaudiocomponentdescriptor_getsamplingrate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbAudioComponentDescriptor::GetSamplingRate method
+# IIsdbAudioComponentDescriptor::GetSamplingRate
 
 
 ## -description

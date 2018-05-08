@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DBaseTexture9.SetAutoGenFilterType
-title: IDirect3DBaseTexture9::SetAutoGenFilterType method
+title: IDirect3DBaseTexture9::SetAutoGenFilterType
 author: windows-driver-content
 description: Set the filter type that is used for automatically generated mipmap sublevels.
 old-location: direct3d9\idirect3dbasetexture9__setautogenfiltertype.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__setautogenfiltertype.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 9d229d50-5ad7-e9ba-b0c4-0bf1f4d7f591, IDirect3DBaseTexture9, IDirect3DBaseTexture9 interface [Direct3D 9], SetAutoGenFilterType method, IDirect3DBaseTexture9::SetAutoGenFilterType, SetAutoGenFilterType method [Direct3D 9], SetAutoGenFilterType method [Direct3D 9], IDirect3DBaseTexture9 interface, SetAutoGenFilterType,IDirect3DBaseTexture9.SetAutoGenFilterType, d3d9helper/IDirect3DBaseTexture9::SetAutoGenFilterType, direct3d9.idirect3dbasetexture9__setautogenfiltertype
+ms.keywords: 9d229d50-5ad7-e9ba-b0c4-0bf1f4d7f591, IDirect3DBaseTexture9 interface [Direct3D 9],SetAutoGenFilterType method, IDirect3DBaseTexture9.SetAutoGenFilterType, IDirect3DBaseTexture9::SetAutoGenFilterType, SetAutoGenFilterType, SetAutoGenFilterType method [Direct3D 9], SetAutoGenFilterType method [Direct3D 9],IDirect3DBaseTexture9 interface, d3d9helper/IDirect3DBaseTexture9::SetAutoGenFilterType, direct3d9.idirect3dbasetexture9__setautogenfiltertype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DBaseTexture9::SetAutoGenFilterType method
+# IDirect3DBaseTexture9::SetAutoGenFilterType
 
 
 ## -description

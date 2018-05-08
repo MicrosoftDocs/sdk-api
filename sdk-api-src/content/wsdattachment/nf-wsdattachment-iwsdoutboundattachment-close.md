@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdattachment.IWSDOutboundAttachment.Close
-title: IWSDOutboundAttachment::Close method
+title: IWSDOutboundAttachment::Close
 author: windows-driver-content
 description: Closes the current attachment MIME data stream.
 old-location: ncd\iwsdoutboundattachment_close_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 8ab63ed5-7b71-4f28-926d-a24666f0dd15
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Close method, Close method, IWSDOutboundAttachment interface, Close,IWSDOutboundAttachment.Close, IWSDOutboundAttachment, IWSDOutboundAttachment interface, Close method, IWSDOutboundAttachment::Close, ncd.iwsdoutboundattachment_close_method, wsdattachment/IWSDOutboundAttachment::Close
+ms.keywords: Close, Close method, Close method,IWSDOutboundAttachment interface, IWSDOutboundAttachment interface,Close method, IWSDOutboundAttachment.Close, IWSDOutboundAttachment::Close, ncd.iwsdoutboundattachment_close_method, wsdattachment/IWSDOutboundAttachment::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDOutboundAttachment::Close method
+# IWSDOutboundAttachment::Close
 
 
 ## -description

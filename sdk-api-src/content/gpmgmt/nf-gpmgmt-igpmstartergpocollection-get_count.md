@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOCollection.get_Count
-title: IGPMStarterGPOCollection::get_Count method
+title: IGPMStarterGPOCollection::get_Count
 author: windows-driver-content
 description: Returns the number of GPOs in the collection.
 old-location: gpmc\igpmstartergpocollection_get_count.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: a9c60be1-98e7-4dc6-a208-40be1b456a00
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Count property [GPMC], Count property [GPMC], IGPMStarterGPOCollection interface, IGPMStarterGPOCollection, IGPMStarterGPOCollection interface [GPMC], Count property, IGPMStarterGPOCollection.Count, IGPMStarterGPOCollection::get_Count, get_Count,IGPMStarterGPOCollection.get_Count, gpmc.igpmstartergpocollection_get_count, gpmgmt/IGPMStarterGPOCollection::Count, gpmgmt/IGPMStarterGPOCollection::get_Count
+ms.keywords: Count property [GPMC], Count property [GPMC],IGPMStarterGPOCollection interface, IGPMStarterGPOCollection interface [GPMC],Count property, IGPMStarterGPOCollection.Count, IGPMStarterGPOCollection.get_Count, IGPMStarterGPOCollection::Count, IGPMStarterGPOCollection::get_Count, get_Count, gpmc.igpmstartergpocollection_get_count, gpmgmt/IGPMStarterGPOCollection::Count, gpmgmt/IGPMStarterGPOCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMStarterGPOCollection::get_Count method
+# IGPMStarterGPOCollection::get_Count
 
 
 ## -description

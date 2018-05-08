@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.ShowFloating
-title: ITfLangBarMgr::ShowFloating method
+title: ITfLangBarMgr::ShowFloating
 author: windows-driver-content
 description: ITfLangBarMgr::ShowFloating method
 old-location: tsf\itflangbarmgr_showfloating.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: f49987c7-476d-4add-9d43-83de78693420
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarMgr, ITfLangBarMgr interface [Text Services Framework], ShowFloating method, ITfLangBarMgr::ShowFloating, ShowFloating method [Text Services Framework], ShowFloating method [Text Services Framework], ITfLangBarMgr interface, ShowFloating,ITfLangBarMgr.ShowFloating, TF_SFT_DESKBAND, TF_SFT_DOCK, TF_SFT_EXTRAICONSONMINIMIZED, TF_SFT_HIDDEN, TF_SFT_HIGHTRANSPARENCY, TF_SFT_LABELS, TF_SFT_LOWTRANSPARENCY, TF_SFT_MINIMIZED, TF_SFT_NOEXTRAICONSONMINIMIZED, TF_SFT_NOLABELS, TF_SFT_NOTRANSPARENCY, TF_SFT_SHOWNORMAL, _tsf_itflangbarmgr_showfloating_ref, ctfutb/ITfLangBarMgr::ShowFloating, tsf.itflangbarmgr_showfloating
+ms.keywords: ITfLangBarMgr interface [Text Services Framework],ShowFloating method, ITfLangBarMgr.ShowFloating, ITfLangBarMgr::ShowFloating, ShowFloating, ShowFloating method [Text Services Framework], ShowFloating method [Text Services Framework],ITfLangBarMgr interface, TF_SFT_DESKBAND, TF_SFT_DOCK, TF_SFT_EXTRAICONSONMINIMIZED, TF_SFT_HIDDEN, TF_SFT_HIGHTRANSPARENCY, TF_SFT_LABELS, TF_SFT_LOWTRANSPARENCY, TF_SFT_MINIMIZED, TF_SFT_NOEXTRAICONSONMINIMIZED, TF_SFT_NOLABELS, TF_SFT_NOTRANSPARENCY, TF_SFT_SHOWNORMAL, _tsf_itflangbarmgr_showfloating_ref, ctfutb/ITfLangBarMgr::ShowFloating, tsf.itflangbarmgr_showfloating
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarMgr::ShowFloating method
+# ITfLangBarMgr::ShowFloating
 
 
 ## -description

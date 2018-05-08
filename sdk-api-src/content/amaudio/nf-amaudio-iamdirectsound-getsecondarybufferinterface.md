@@ -1,14 +1,14 @@
 ---
 UID: NF:amaudio.IAMDirectSound.GetSecondaryBufferInterface
-title: IAMDirectSound::GetSecondaryBufferInterface method
+title: IAMDirectSound::GetSecondaryBufferInterface
 author: windows-driver-content
 description: The GetSecondaryBufferInterface method is not implemented.
 old-location: dshow\iamdirectsound_getsecondarybufferinterface.htm
 old-project: DirectShow
 ms.assetid: 6296d45c-e582-45d6-9f13-e758691ef5de
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSecondaryBufferInterface method [DirectShow], GetSecondaryBufferInterface method [DirectShow], IAMDirectSound interface, GetSecondaryBufferInterface,IAMDirectSound.GetSecondaryBufferInterface, IAMDirectSound, IAMDirectSound interface [DirectShow], GetSecondaryBufferInterface method, IAMDirectSound::GetSecondaryBufferInterface, IAMDirectSoundGetSecondaryBufferInterface, amaudio/IAMDirectSound::GetSecondaryBufferInterface, dshow.iamdirectsound_getsecondarybufferinterface
+ms.date: 4/30/2018
+ms.keywords: GetSecondaryBufferInterface, GetSecondaryBufferInterface method [DirectShow], GetSecondaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetSecondaryBufferInterface method, IAMDirectSound.GetSecondaryBufferInterface, IAMDirectSound::GetSecondaryBufferInterface, IAMDirectSoundGetSecondaryBufferInterface, amaudio/IAMDirectSound::GetSecondaryBufferInterface, dshow.iamdirectsound_getsecondarybufferinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMDirectSound::GetSecondaryBufferInterface method
+# IAMDirectSound::GetSecondaryBufferInterface
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.ClearAllTabs
-title: ITextPara::ClearAllTabs method
+title: ITextPara::ClearAllTabs
 author: windows-driver-content
 description: Clears all tabs, reverting to equally spaced tabs with the default tab spacing.
 old-location: controls\ITextPara_ClearAllTabs.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\clearalltabs.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ClearAllTabs method [Windows Controls], ClearAllTabs method [Windows Controls], ITextPara interface, ClearAllTabs,ITextPara.ClearAllTabs, ITextPara, ITextPara interface [Windows Controls], ClearAllTabs method, ITextPara::ClearAllTabs, _win32_ITextPara_ClearAllTabs, _win32_ITextPara_ClearAllTabs_cpp, controls.ITextPara_ClearAllTabs, controls._win32_ITextPara_ClearAllTabs, tom/ITextPara::ClearAllTabs
+ms.date: 4/27/2018
+ms.keywords: ClearAllTabs, ClearAllTabs method [Windows Controls], ClearAllTabs method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],ClearAllTabs method, ITextPara.ClearAllTabs, ITextPara::ClearAllTabs, _win32_ITextPara_ClearAllTabs, _win32_ITextPara_ClearAllTabs_cpp, controls.ITextPara_ClearAllTabs, controls._win32_ITextPara_ClearAllTabs, tom/ITextPara::ClearAllTabs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::ClearAllTabs method
+# ITextPara::ClearAllTabs
 
 
 ## -description

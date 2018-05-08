@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.Clone
-title: IStream::Clone method
+title: IStream::Clone
 author: windows-driver-content
 description: The Clone method creates a new stream object with its own seek pointer that references the same bytes as the original stream.
 old-location: stg\istream_clone.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 677c37fb-598f-4bb0-b5d6-600e0befc722
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: Clone method [Structured Storage], Clone method [Structured Storage], IStream interface, Clone,IStream.Clone, IStream, IStream interface [Structured Storage], Clone method, IStream::Clone, _stg_istream_clone, objidl/IStream::Clone, stg.istream_clone
+ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IStream interface, IStream interface [Structured Storage],Clone method, IStream.Clone, IStream::Clone, _stg_istream_clone, objidl/IStream::Clone, stg.istream_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStream::Clone method
+# IStream::Clone
 
 
 ## -description

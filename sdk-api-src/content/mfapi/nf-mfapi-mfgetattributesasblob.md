@@ -7,7 +7,7 @@ old-location: mf\mfgetattributesasblob.htm
 old-project: medfound
 ms.assetid: 1a3bd860-1022-481f-8615-5a73c16dd77b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 1a3bd860-1022-481f-8615-5a73c16dd77b, MFGetAttributesAsBlob, MFGetAttributesAsBlob function [Media Foundation], mf.mfgetattributesasblob, mfapi/MFGetAttributesAsBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

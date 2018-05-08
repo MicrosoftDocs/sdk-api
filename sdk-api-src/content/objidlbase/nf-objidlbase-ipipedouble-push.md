@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IPipeDouble.Push
-title: IPipeDouble::Push method
+title: IPipeDouble::Push
 author: windows-driver-content
 description: Sends data of the double integer type to the pipe source.
 old-location: com\ipipedouble_push.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 49c9121f-eb92-42e4-bd30-fe2213d44de9
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPipeDouble, IPipeDouble interface [COM], Push method, IPipeDouble::Push, Push method [COM], Push method [COM], IPipeDouble interface, Push,IPipeDouble.Push, _com_ipipedouble_push, com.ipipedouble_push, objidlbase/IPipeDouble::Push
+ms.keywords: IPipeDouble interface [COM],Push method, IPipeDouble.Push, IPipeDouble::Push, Push, Push method [COM], Push method [COM],IPipeDouble interface, _com_ipipedouble_push, com.ipipedouble_push, objidlbase/IPipeDouble::Push
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPipeDouble::Push method
+# IPipeDouble::Push
 
 
 ## -description

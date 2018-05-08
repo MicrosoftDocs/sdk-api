@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.get_ParentHwnd
-title: IUpdateInstaller::get_ParentHwnd method
+title: IUpdateInstaller::get_ParentHwnd
 author: windows-driver-content
 description: Gets and sets a handle to the parent window that can contain a dialog box.
 old-location: wua\iupdateinstaller_parenthwnd.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 6862ad8c-e1fa-4880-8800-88f485b7cebf
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], ParentHwnd property, IUpdateInstaller.ParentHwnd, IUpdateInstaller::get_ParentHwnd, IUpdateInstaller::put_ParentHwnd, ParentHwnd property [Windows Update Agent], ParentHwnd property [Windows Update Agent], IUpdateInstaller interface, get_ParentHwnd,IUpdateInstaller.get_ParentHwnd, wua.iupdateinstaller_parenthwnd, wuapi/IUpdateInstaller::ParentHwnd, wuapi/IUpdateInstaller::get_ParentHwnd, wuapi/IUpdateInstaller::put_ParentHwnd
+ms.keywords: IUpdateInstaller interface [Windows Update Agent],ParentHwnd property, IUpdateInstaller.ParentHwnd, IUpdateInstaller.get_ParentHwnd, IUpdateInstaller::ParentHwnd, IUpdateInstaller::get_ParentHwnd, IUpdateInstaller::put_ParentHwnd, ParentHwnd property [Windows Update Agent], ParentHwnd property [Windows Update Agent],IUpdateInstaller interface, get_ParentHwnd, wua.iupdateinstaller_parenthwnd, wuapi/IUpdateInstaller::ParentHwnd, wuapi/IUpdateInstaller::get_ParentHwnd, wuapi/IUpdateInstaller::put_ParentHwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateInstaller::get_ParentHwnd method
+# IUpdateInstaller::get_ParentHwnd
 
 
 ## -description

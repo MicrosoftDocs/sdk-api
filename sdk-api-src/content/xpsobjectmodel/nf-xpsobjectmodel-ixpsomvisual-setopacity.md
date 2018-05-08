@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetOpacity
-title: IXpsOMVisual::SetOpacity method
+title: IXpsOMVisual::SetOpacity
 author: windows-driver-content
 description: Sets the opacity value of the visual.
 old-location: xps\ixpsomvisual_setopacity.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 2a29aee3-f11b-41e7-a871-3be3d5994409
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], SetOpacity method, IXpsOMVisual::SetOpacity, SetOpacity method [XPS Documents and Packaging], SetOpacity method [XPS Documents and Packaging], IXpsOMVisual interface, SetOpacity,IXpsOMVisual.SetOpacity, xps.ixpsomvisual_setopacity, xpsobjectmodel/IXpsOMVisual::SetOpacity
+ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacity method, IXpsOMVisual.SetOpacity, IXpsOMVisual::SetOpacity, SetOpacity, SetOpacity method [XPS Documents and Packaging], SetOpacity method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacity, xpsobjectmodel/IXpsOMVisual::SetOpacity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::SetOpacity method
+# IXpsOMVisual::SetOpacity
 
 
 ## -description

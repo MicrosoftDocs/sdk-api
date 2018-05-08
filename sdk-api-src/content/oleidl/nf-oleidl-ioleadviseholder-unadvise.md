@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.Unadvise
-title: IOleAdviseHolder::Unadvise method
+title: IOleAdviseHolder::Unadvise
 author: windows-driver-content
 description: Deletes a previously established advisory connection.
 old-location: com\ioleadviseholder_unadvise.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 620bc43f-dfc7-48b7-a574-ca7287ffa42f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], Unadvise method, IOleAdviseHolder::Unadvise, Unadvise method [COM], Unadvise method [COM], IOleAdviseHolder interface, Unadvise,IOleAdviseHolder.Unadvise, _ole_ioleadviseholder_unadvise, com.ioleadviseholder_unadvise, oleidl/IOleAdviseHolder::Unadvise
+ms.keywords: IOleAdviseHolder interface [COM],Unadvise method, IOleAdviseHolder.Unadvise, IOleAdviseHolder::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_unadvise, com.ioleadviseholder_unadvise, oleidl/IOleAdviseHolder::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleAdviseHolder::Unadvise method
+# IOleAdviseHolder::Unadvise
 
 
 ## -description

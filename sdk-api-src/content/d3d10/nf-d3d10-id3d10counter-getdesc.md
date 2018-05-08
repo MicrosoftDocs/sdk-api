@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Counter.GetDesc
-title: ID3D10Counter::GetDesc method
+title: ID3D10Counter::GetDesc
 author: windows-driver-content
 description: Get a counter description.
 old-location: direct3d10\id3d10counter_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10counter_getdesc.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 4104c0fc-f402-406e-fc83-bc193e61234b, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10], ID3D10Counter interface, GetDesc,ID3D10Counter.GetDesc, ID3D10Counter, ID3D10Counter interface [Direct3D 10], GetDesc method, ID3D10Counter::GetDesc, d3d10/ID3D10Counter::GetDesc, direct3d10.id3d10counter_getdesc
+ms.keywords: 4104c0fc-f402-406e-fc83-bc193e61234b, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Counter interface, ID3D10Counter interface [Direct3D 10],GetDesc method, ID3D10Counter.GetDesc, ID3D10Counter::GetDesc, d3d10/ID3D10Counter::GetDesc, direct3d10.id3d10counter_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Counter::GetDesc method
+# ID3D10Counter::GetDesc
 
 
 ## -description

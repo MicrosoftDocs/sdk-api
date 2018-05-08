@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.put_MinMajorChannel
-title: IDigitalCableTuningSpace::put_MinMajorChannel method
+title: IDigitalCableTuningSpace::put_MinMajorChannel
 author: windows-driver-content
 description: The put_MinMajorChannel method sets the lowest major channel number for this tuning space.
 old-location: mstv\idigitalcabletuningspace_put_minmajorchannel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3b5e1a01-5471-4bf4-9f08-ce910c69ba26
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDigitalCableTuningSpace, IDigitalCableTuningSpace interface [Microsoft TV Technologies], put_MinMajorChannel method, IDigitalCableTuningSpace::put_MinMajorChannel, IDigitalCableTuningSpaceput_MinMajorChannel, mstv.idigitalcabletuningspace_put_minmajorchannel, put_MinMajorChannel method [Microsoft TV Technologies], put_MinMajorChannel method [Microsoft TV Technologies], IDigitalCableTuningSpace interface, put_MinMajorChannel,IDigitalCableTuningSpace.put_MinMajorChannel, tuner/IDigitalCableTuningSpace::put_MinMajorChannel
+ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],put_MinMajorChannel method, IDigitalCableTuningSpace.put_MinMajorChannel, IDigitalCableTuningSpace::put_MinMajorChannel, IDigitalCableTuningSpaceput_MinMajorChannel, mstv.idigitalcabletuningspace_put_minmajorchannel, put_MinMajorChannel, put_MinMajorChannel method [Microsoft TV Technologies], put_MinMajorChannel method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, tuner/IDigitalCableTuningSpace::put_MinMajorChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDigitalCableTuningSpace::put_MinMajorChannel method
+# IDigitalCableTuningSpace::put_MinMajorChannel
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkTablet3.get_IsMultiTouch
-title: IInkTablet3::get_IsMultiTouch method
+title: IInkTablet3::get_IsMultiTouch
 author: windows-driver-content
 description: Gets a value that indicates whether an input device supports multitouch.
 old-location: tablet\iinktablet3_ismultitouch.htm
 old-project: tablet
 ms.assetid: 126ff164-203f-42b0-b0b1-16ffc59c8fc1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInkTablet3, IInkTablet3 interface [Tablet PC], IsMultiTouch property, IInkTablet3.IsMultiTouch, IInkTablet3.get_IsMultiTouch, IInkTablet3::get_IsMultiTouch, IsMultiTouch property [Tablet PC], IsMultiTouch property [Tablet PC], IInkTablet3 interface, get_IsMultiTouch,IInkTablet3.get_IsMultiTouch, msinkaut/IInkTablet3::IsMultiTouch, msinkaut/IInkTablet3::get_IsMultiTouch, tablet.iinktablet3_ismultitouch
+ms.date: 5/2/2018
+ms.keywords: IInkTablet3 interface [Tablet PC],IsMultiTouch property, IInkTablet3.IsMultiTouch, IInkTablet3.get_IsMultiTouch, IInkTablet3::IsMultiTouch, IInkTablet3::get_IsMultiTouch, IsMultiTouch property [Tablet PC], IsMultiTouch property [Tablet PC],IInkTablet3 interface, get_IsMultiTouch, msinkaut/IInkTablet3::IsMultiTouch, msinkaut/IInkTablet3::get_IsMultiTouch, tablet.iinktablet3_ismultitouch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkTablet3::get_IsMultiTouch method
+# IInkTablet3::get_IsMultiTouch
 
 
 ## -description

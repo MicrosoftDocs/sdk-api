@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.Collate
-title: CHString::Collate method
+title: CHString::Collate
 author: windows-driver-content
 description: The Collate method uses the wcscoll function to compare a CHString string with another string.
 old-location: wmi\chstring_collate.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: b6c88b83-a369-4cb2-9297-df9c5911d08f
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHString, CHString interface [Windows Management Instrumentation], Collate method, CHString::Collate, Collate method [Windows Management Instrumentation], Collate method [Windows Management Instrumentation], CHString interface, Collate,CHString.Collate, _hmm_chstring_collate, chstring/CHString::Collate, wmi.chstring_collate
+ms.keywords: CHString interface [Windows Management Instrumentation],Collate method, CHString.Collate, CHString::Collate, Collate, Collate method [Windows Management Instrumentation], Collate method [Windows Management Instrumentation],CHString interface, _hmm_chstring_collate, chstring/CHString::Collate, wmi.chstring_collate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::Collate method
+# CHString::Collate
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_AllowHardTerminate
-title: ITaskSettings::put_AllowHardTerminate method
+title: ITaskSettings::put_AllowHardTerminate
 author: windows-driver-content
 description: Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using TerminateProcess.
 old-location: taskschd\itasksettings_allowhardterminate.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: fd8105cf-5ef1-4ae4-8bb7-05469758b6b4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AllowHardTerminate property [Task Scheduler], AllowHardTerminate property [Task Scheduler], ITaskSettings interface, AllowHardTerminate property [Task Scheduler], TaskSettings class, ITaskSettings, ITaskSettings interface [Task Scheduler], AllowHardTerminate property, ITaskSettings.AllowHardTerminate, ITaskSettings::get_AllowHardTerminate, ITaskSettings::put_AllowHardTerminate, TaskSettings class [Task Scheduler], AllowHardTerminate property, put_AllowHardTerminate,ITaskSettings.put_AllowHardTerminate, taskschd.itasksettings_allowhardterminate, taskschd/ITaskSettings::AllowHardTerminate, taskschd/ITaskSettings::get_AllowHardTerminate, taskschd/ITaskSettings::put_AllowHardTerminate
+ms.keywords: AllowHardTerminate property [Task Scheduler], AllowHardTerminate property [Task Scheduler],ITaskSettings interface, AllowHardTerminate property [Task Scheduler],TaskSettings class, ITaskSettings interface [Task Scheduler],AllowHardTerminate property, ITaskSettings.AllowHardTerminate, ITaskSettings.put_AllowHardTerminate, ITaskSettings::AllowHardTerminate, ITaskSettings::get_AllowHardTerminate, ITaskSettings::put_AllowHardTerminate, TaskSettings class [Task Scheduler],AllowHardTerminate property, put_AllowHardTerminate, taskschd.itasksettings_allowhardterminate, taskschd/ITaskSettings::AllowHardTerminate, taskschd/ITaskSettings::get_AllowHardTerminate, taskschd/ITaskSettings::put_AllowHardTerminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskSettings::put_AllowHardTerminate method
+# ITaskSettings::put_AllowHardTerminate
 
 
 ## -description

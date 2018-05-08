@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComMethodEvents.OnMethodCall
-title: IComMethodEvents::OnMethodCall method
+title: IComMethodEvents::OnMethodCall
 author: windows-driver-content
 description: Generated when an object's method is called.
 old-location: cos\icommethodevents_onmethodcall.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 5d68fe2c-7032-46d2-b88d-0b4f81c74760
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComMethodEvents, IComMethodEvents interface [COM+], OnMethodCall method, IComMethodEvents::OnMethodCall, OnMethodCall method [COM+], OnMethodCall method [COM+], IComMethodEvents interface, OnMethodCall,IComMethodEvents.OnMethodCall, _dtc_IComMethodEvents_OnMethodCall, comsvcs/IComMethodEvents::OnMethodCall, cos.icommethodevents_onmethodcall
+ms.keywords: IComMethodEvents interface [COM+],OnMethodCall method, IComMethodEvents.OnMethodCall, IComMethodEvents::OnMethodCall, OnMethodCall, OnMethodCall method [COM+], OnMethodCall method [COM+],IComMethodEvents interface, _dtc_IComMethodEvents_OnMethodCall, comsvcs/IComMethodEvents::OnMethodCall, cos.icommethodevents_onmethodcall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComMethodEvents::OnMethodCall method
+# IComMethodEvents::OnMethodCall
 
 
 ## -description

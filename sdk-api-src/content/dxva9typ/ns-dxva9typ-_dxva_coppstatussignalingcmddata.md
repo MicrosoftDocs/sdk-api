@@ -7,7 +7,7 @@ old-location: dshow\dxva_coppstatussignalingcmddata.htm
 old-project: DirectShow
 ms.assetid: c6bc7d84-3e4d-41f9-8309-5817029477dd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: DXVA_COPPStatusSignalingCmdData, DXVA_COPPStatusSignalingCmdData structure [DirectShow], DXVA_COPPStatusSignalingCmdDataStructure, _DXVA_COPPStatusSignalingCmdData, dshow.dxva_coppstatussignalingcmddata, dxva9typ/DXVA_COPPStatusSignalingCmdData
 ms.prod: windows-hardware
 ms.technology: windows-devices

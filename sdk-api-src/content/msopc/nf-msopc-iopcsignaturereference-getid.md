@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetId
-title: IOpcSignatureReference::GetId method
+title: IOpcSignatureReference::GetId
 author: windows-driver-content
 description: Gets the identifier for the reference.
 old-location: opc\iopcsignaturereference_getid.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 741fd38e-910a-42c7-8bd2-006cf29843d9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetId method [Open Packaging Conventions], GetId method [Open Packaging Conventions], IOpcSignatureReference interface, GetId,IOpcSignatureReference.GetId, IOpcSignatureReference, IOpcSignatureReference interface [Open Packaging Conventions], GetId method, IOpcSignatureReference::GetId, msopc/IOpcSignatureReference::GetId, opc.iopcsignaturereference_getid
+ms.keywords: GetId, GetId method [Open Packaging Conventions], GetId method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetId method, IOpcSignatureReference.GetId, IOpcSignatureReference::GetId, msopc/IOpcSignatureReference::GetId, opc.iopcsignaturereference_getid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureReference::GetId method
+# IOpcSignatureReference::GetId
 
 
 ## -description

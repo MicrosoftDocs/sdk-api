@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetNoIcons
-title: IFolderBandPriv::SetNoIcons method
+title: IFolderBandPriv::SetNoIcons
 author: windows-driver-content
 description: Sets whether icons are displayed in a folder band.
 old-location: shell\IFolderBandPriv_SetNoIcons.htm
 old-project: shell
 ms.assetid: 5bec29d9-8b05-4b4e-9cfc-0b9fd2d9fd2f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], SetNoIcons method, IFolderBandPriv::SetNoIcons, SetNoIcons method [Windows Shell], SetNoIcons method [Windows Shell], IFolderBandPriv interface, SetNoIcons,IFolderBandPriv.SetNoIcons, _win32_IFolderBandPriv_SetNoIcons, shell.IFolderBandPriv_SetNoIcons, shobjidl/IFolderBandPriv::SetNoIcons
+ms.date: 5/3/2018
+ms.keywords: IFolderBandPriv interface [Windows Shell],SetNoIcons method, IFolderBandPriv.SetNoIcons, IFolderBandPriv::SetNoIcons, SetNoIcons, SetNoIcons method [Windows Shell], SetNoIcons method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetNoIcons, shell.IFolderBandPriv_SetNoIcons, shobjidl/IFolderBandPriv::SetNoIcons
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IFolderBandPriv::SetNoIcons method
+# IFolderBandPriv::SetNoIcons
 
 
 ## -description

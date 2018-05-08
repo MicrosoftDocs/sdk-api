@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents2.SetFieldOptions
-title: ICredentialProviderCredentialEvents2::SetFieldOptions method
+title: ICredentialProviderCredentialEvents2::SetFieldOptions
 author: windows-driver-content
 description: Specifies whether a specified field in the logon or credential UI should display a &#0034;password reveal&#0034; glyph or is expected to receive an e-mail address.
 old-location: shell\ICredentialProviderCredentialEvents2_SetFieldOptions.htm
 old-project: shell
 ms.assetid: 5507E8DE-5746-4031-900B-3EF5C97BC2EE
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICredentialProviderCredentialEvents2, ICredentialProviderCredentialEvents2 interface [Windows Shell], SetFieldOptions method, ICredentialProviderCredentialEvents2::SetFieldOptions, SetFieldOptions method [Windows Shell], SetFieldOptions method [Windows Shell], ICredentialProviderCredentialEvents2 interface, SetFieldOptions,ICredentialProviderCredentialEvents2.SetFieldOptions, credentialprovider/ICredentialProviderCredentialEvents2::SetFieldOptions, shell.ICredentialProviderCredentialEvents2_SetFieldOptions
+ms.date: 5/3/2018
+ms.keywords: ICredentialProviderCredentialEvents2 interface [Windows Shell],SetFieldOptions method, ICredentialProviderCredentialEvents2.SetFieldOptions, ICredentialProviderCredentialEvents2::SetFieldOptions, SetFieldOptions, SetFieldOptions method [Windows Shell], SetFieldOptions method [Windows Shell],ICredentialProviderCredentialEvents2 interface, credentialprovider/ICredentialProviderCredentialEvents2::SetFieldOptions, shell.ICredentialProviderCredentialEvents2_SetFieldOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProviderCredentialEvents2::SetFieldOptions method
+# ICredentialProviderCredentialEvents2::SetFieldOptions
 
 
 ## -description

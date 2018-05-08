@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.GetSessionKey
-title: CSecureChannelClient::GetSessionKey method
+title: CSecureChannelClient::GetSessionKey
 author: windows-driver-content
 description: The GetSessionKey method retrieves the current session key. This method is not used by applications.
 old-location: wmdm\csecurechannelclient_getsessionkey.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: b5963027-ef6e-44e0-a1ed-31ac82477002
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CSecureChannelClient, CSecureChannelClient interface [windows Media Device Manager], GetSessionKey method, CSecureChannelClient::GetSessionKey, CSecureChannelClientGetSessionKey, GetSessionKey method [windows Media Device Manager], GetSessionKey method [windows Media Device Manager], CSecureChannelClient interface, GetSessionKey,CSecureChannelClient.GetSessionKey, scclient/CSecureChannelClient::GetSessionKey, wmdm.csecurechannelclient_getsessionkey
+ms.keywords: CSecureChannelClient interface [windows Media Device Manager],GetSessionKey method, CSecureChannelClient.GetSessionKey, CSecureChannelClient::GetSessionKey, CSecureChannelClientGetSessionKey, GetSessionKey, GetSessionKey method [windows Media Device Manager], GetSessionKey method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::GetSessionKey, wmdm.csecurechannelclient_getsessionkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CSecureChannelClient::GetSessionKey method
+# CSecureChannelClient::GetSessionKey
 
 
 ## -description

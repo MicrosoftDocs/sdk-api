@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: ccb39c89-eba7-473c-8358-dc3513da4be7
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 888911a9-f093-b7b1-a4c3-e9f05bd39107, ID3D11BlendState, ID3D11BlendState interface [Direct3D 11], ID3D11BlendState interface [Direct3D 11], described, d3d11/ID3D11BlendState, direct3d11.id3d11blendstate
+ms.keywords: 888911a9-f093-b7b1-a4c3-e9f05bd39107, ID3D11BlendState, ID3D11BlendState interface [Direct3D 11], ID3D11BlendState interface [Direct3D 11],described, d3d11/ID3D11BlendState, direct3d11.id3d11blendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

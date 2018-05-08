@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accRole
-title: IAccessible::get_accRole method
+title: IAccessible::get_accRole
 author: windows-driver-content
 description: The IAccessible::get_accRole method retrieves information that describes the role of the specified object. All objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_accrole.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 38800c5e-12a5-4825-a4c4-825a159c67f1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], get_accRole method, IAccessible::get_accRole, _msaa_IAccessible_get_accRole, get_accRole method [Windows Accessibility], get_accRole method [Windows Accessibility], IAccessible interface, get_accRole,IAccessible.get_accRole, msaa.iaccessible_iaccessible__get_accrole, oleacc/IAccessible::get_accRole, winauto.iaccessible_iaccessible__get_accrole
+ms.keywords: IAccessible interface [Windows Accessibility],get_accRole method, IAccessible.get_accRole, IAccessible::get_accRole, _msaa_IAccessible_get_accRole, get_accRole, get_accRole method [Windows Accessibility], get_accRole method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accrole, oleacc/IAccessible::get_accRole, winauto.iaccessible_iaccessible__get_accrole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccessible::get_accRole method
+# IAccessible::get_accRole
 
 
 ## -description

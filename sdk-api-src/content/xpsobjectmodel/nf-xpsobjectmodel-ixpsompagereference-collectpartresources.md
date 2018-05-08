@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.CollectPartResources
-title: IXpsOMPageReference::CollectPartResources method
+title: IXpsOMPageReference::CollectPartResources
 author: windows-driver-content
 description: Creates a list of all part-based resources that are associated with the page.
 old-location: xps\ixpsompagereference_collectpartresources.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 52a45351-669c-42f3-b02b-afbf42727313
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CollectPartResources method [XPS Documents and Packaging], CollectPartResources method [XPS Documents and Packaging], IXpsOMPageReference interface, CollectPartResources,IXpsOMPageReference.CollectPartResources, IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], CollectPartResources method, IXpsOMPageReference::CollectPartResources, xps.ixpsompagereference_collectpartresources, xpsobjectmodel/IXpsOMPageReference::CollectPartResources
+ms.keywords: CollectPartResources, CollectPartResources method [XPS Documents and Packaging], CollectPartResources method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectPartResources method, IXpsOMPageReference.CollectPartResources, IXpsOMPageReference::CollectPartResources, xps.ixpsompagereference_collectpartresources, xpsobjectmodel/IXpsOMPageReference::CollectPartResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReference::CollectPartResources method
+# IXpsOMPageReference::CollectPartResources
 
 
 ## -description

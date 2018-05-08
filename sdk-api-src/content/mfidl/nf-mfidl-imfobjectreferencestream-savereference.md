@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFObjectReferenceStream.SaveReference
-title: IMFObjectReferenceStream::SaveReference method
+title: IMFObjectReferenceStream::SaveReference
 author: windows-driver-content
 description: Stores the data needed to marshal an interface across a process boundary.
 old-location: mf\imfobjectreferencestream_savereference.htm
 old-project: medfound
 ms.assetid: 776f94c4-d0e9-4fb7-a39c-32c83428bbe3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 776f94c4-d0e9-4fb7-a39c-32c83428bbe3, IMFObjectReferenceStream, IMFObjectReferenceStream interface [Media Foundation], SaveReference method, IMFObjectReferenceStream::SaveReference, SaveReference method [Media Foundation], SaveReference method [Media Foundation], IMFObjectReferenceStream interface, SaveReference,IMFObjectReferenceStream.SaveReference, mf.imfobjectreferencestream_savereference, mfidl/IMFObjectReferenceStream::SaveReference
+ms.date: 5/3/2018
+ms.keywords: 776f94c4-d0e9-4fb7-a39c-32c83428bbe3, IMFObjectReferenceStream interface [Media Foundation],SaveReference method, IMFObjectReferenceStream.SaveReference, IMFObjectReferenceStream::SaveReference, SaveReference, SaveReference method [Media Foundation], SaveReference method [Media Foundation],IMFObjectReferenceStream interface, mf.imfobjectreferencestream_savereference, mfidl/IMFObjectReferenceStream::SaveReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFObjectReferenceStream::SaveReference method
+# IMFObjectReferenceStream::SaveReference
 
 
 ## -description

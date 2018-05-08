@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManagerEx.IsAffectedByQuota
-title: IFsrmQuotaManagerEx::IsAffectedByQuota method
+title: IFsrmQuotaManagerEx::IsAffectedByQuota
 author: windows-driver-content
 description: Retrieves a value that determines whether a specified path is subject to a quota.
 old-location: fsrm\ifsrmquotamanagerex_isaffectedbyquota.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 8b366eae-5554-4c20-9ba9-c3a6e319712f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmQuotaManagerEx, IFsrmQuotaManagerEx interface [File Server Resource Manager], IsAffectedByQuota method, IFsrmQuotaManagerEx::IsAffectedByQuota, IsAffectedByQuota method [File Server Resource Manager], IsAffectedByQuota method [File Server Resource Manager], IFsrmQuotaManagerEx interface, IsAffectedByQuota,IFsrmQuotaManagerEx.IsAffectedByQuota, fs.ifsrmquotamanagerex_isaffectedbyquota, fsrm.ifsrmquotamanagerex_isaffectedbyquota, fsrmquota/IFsrmQuotaManagerEx::IsAffectedByQuota
+ms.keywords: IFsrmQuotaManagerEx interface [File Server Resource Manager],IsAffectedByQuota method, IFsrmQuotaManagerEx.IsAffectedByQuota, IFsrmQuotaManagerEx::IsAffectedByQuota, IsAffectedByQuota, IsAffectedByQuota method [File Server Resource Manager], IsAffectedByQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, fs.ifsrmquotamanagerex_isaffectedbyquota, fsrm.ifsrmquotamanagerex_isaffectedbyquota, fsrmquota/IFsrmQuotaManagerEx::IsAffectedByQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaManagerEx::IsAffectedByQuota method
+# IFsrmQuotaManagerEx::IsAffectedByQuota
 
 
 ## -description

@@ -63,6 +63,16 @@ The <b>EapCredential</b> structure contains information about the credentials ty
 The <a href="https://msdn.microsoft.com/E77AA5E1-970A-43A6-916D-623A9C554F53">EapCredentialType</a> for the  credentials passed in the <i>credentials</i> parameter.
 
 
+### -field credData.switch_is
+
+ 
+
+
+### -field credData.switch_is.credType
+
+ 
+
+
 ### -field credData
 
 Structure that holds the pointer to the credential data. 

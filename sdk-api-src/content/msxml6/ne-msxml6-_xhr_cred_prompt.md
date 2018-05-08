@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Msxml.tlb
-req.typenames: XHR_CRED_PROMPT, XHR_CRED_PROMPT
+req.typenames: XHR_CRED_PROMPT
 topic_type:
 -	APIRef
 -	kbSyntax

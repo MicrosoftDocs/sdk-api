@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.InsertTable
-title: ITextRange2::InsertTable method
+title: ITextRange2::InsertTable
 author: windows-driver-content
 description: Inserts a table in a range.
 old-location: controls\itextrange2_inserttable.htm
 old-project: Controls
 ms.assetid: f62cc778-8f06-43d1-985b-d233b02d3255
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange2, ITextRange2 interface [Windows Controls], InsertTable method, ITextRange2::InsertTable, InsertTable method [Windows Controls], InsertTable method [Windows Controls], ITextRange2 interface, InsertTable,ITextRange2.InsertTable, controls.itextrange2_inserttable, tom/ITextRange2::InsertTable
+ms.date: 4/27/2018
+ms.keywords: ITextRange2 interface [Windows Controls],InsertTable method, ITextRange2.InsertTable, ITextRange2::InsertTable, InsertTable, InsertTable method [Windows Controls], InsertTable method [Windows Controls],ITextRange2 interface, controls.itextrange2_inserttable, tom/ITextRange2::InsertTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::InsertTable method
+# ITextRange2::InsertTable
 
 
 ## -description

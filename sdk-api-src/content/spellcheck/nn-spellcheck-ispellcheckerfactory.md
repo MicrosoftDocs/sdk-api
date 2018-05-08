@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 7febbb7e-c557-4698-bf58-6e6e7f61b071
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISpellCheckerFactory, ISpellCheckerFactory interface [Internationalization for Windows Applications], ISpellCheckerFactory interface [Internationalization for Windows Applications], described, intl.ispellcheckerfactory, spellcheck/ISpellCheckerFactory
+ms.keywords: ISpellCheckerFactory, ISpellCheckerFactory interface [Internationalization for Windows Applications], ISpellCheckerFactory interface [Internationalization for Windows Applications],described, intl.ispellcheckerfactory, spellcheck/ISpellCheckerFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

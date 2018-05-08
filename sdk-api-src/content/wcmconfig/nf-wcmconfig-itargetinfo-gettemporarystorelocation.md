@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTemporaryStoreLocation
-title: ITargetInfo::GetTemporaryStoreLocation method
+title: ITargetInfo::GetTemporaryStoreLocation
 author: windows-driver-content
 description: Gets the current temporary store location.
 old-location: smi\itargetinfo_gettemporarystorelocation.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: aebebdee-3a24-4a9b-9ec6-cc411385af41
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTemporaryStoreLocation method [SMI], GetTemporaryStoreLocation method [SMI], ITargetInfo interface, GetTemporaryStoreLocation,ITargetInfo.GetTemporaryStoreLocation, ITargetInfo, ITargetInfo interface [SMI], GetTemporaryStoreLocation method, ITargetInfo::GetTemporaryStoreLocation, smi.itargetinfo_gettemporarystorelocation, wcmconfig/ITargetInfo::GetTemporaryStoreLocation
+ms.keywords: GetTemporaryStoreLocation, GetTemporaryStoreLocation method [SMI], GetTemporaryStoreLocation method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTemporaryStoreLocation method, ITargetInfo.GetTemporaryStoreLocation, ITargetInfo::GetTemporaryStoreLocation, smi.itargetinfo_gettemporarystorelocation, wcmconfig/ITargetInfo::GetTemporaryStoreLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::GetTemporaryStoreLocation method
+# ITargetInfo::GetTemporaryStoreLocation
 
 
 ## -description

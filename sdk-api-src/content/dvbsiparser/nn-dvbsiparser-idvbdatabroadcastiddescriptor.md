@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8d46cffc-cb49-4749-a1b7-e05d5d90941f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDvbDataBroadcastIDDescriptor, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies], IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IDvbDataBroadcastIDDescriptor, mstv.idvbdatabroadcastiddescriptor
+ms.keywords: IDvbDataBroadcastIDDescriptor, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies], IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbDataBroadcastIDDescriptor, mstv.idvbdatabroadcastiddescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

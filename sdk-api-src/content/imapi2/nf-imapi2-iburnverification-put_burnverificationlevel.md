@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IBurnVerification.put_BurnVerificationLevel
-title: IBurnVerification::put_BurnVerificationLevel method
+title: IBurnVerification::put_BurnVerificationLevel
 author: windows-driver-content
 description: Sets the Burn Verification Level.
 old-location: imapi\iburnverification_put_burnverificationlevel.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 71842038-91dc-4de5-8169-3bc97ef288c6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IBurnVerification, IBurnVerification interface [IMAPI], put_BurnVerificationLevel method, IBurnVerification::put_BurnVerificationLevel, imapi.iburnverification_put_burnverificationlevel, imapi2/IBurnVerification::put_BurnVerificationLevel, put_BurnVerificationLevel method [IMAPI], put_BurnVerificationLevel method [IMAPI], IBurnVerification interface, put_BurnVerificationLevel,IBurnVerification.put_BurnVerificationLevel
+ms.keywords: IBurnVerification interface [IMAPI],put_BurnVerificationLevel method, IBurnVerification.put_BurnVerificationLevel, IBurnVerification::put_BurnVerificationLevel, imapi.iburnverification_put_burnverificationlevel, imapi2/IBurnVerification::put_BurnVerificationLevel, put_BurnVerificationLevel, put_BurnVerificationLevel method [IMAPI], put_BurnVerificationLevel method [IMAPI],IBurnVerification interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IBurnVerification::put_BurnVerificationLevel method
+# IBurnVerification::put_BurnVerificationLevel
 
 
 ## -description

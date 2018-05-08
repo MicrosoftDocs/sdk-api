@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.AddExtensionsToRequest
-title: IEnroll::AddExtensionsToRequest method
+title: IEnroll::AddExtensionsToRequest
 author: windows-driver-content
 description: The AddExtensionsToRequest method adds extensions to the certificate request. This method was first defined in the IEnroll interface.
 old-location: security\ienroll4_addextensionstorequest.htm
 old-project: SecCrypto
 ms.assetid: 6976fd52-98f0-4eff-aa83-7cf5cb5d5e67
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: AddExtensionsToRequest method [Security], AddExtensionsToRequest method [Security], IEnroll interface, AddExtensionsToRequest,IEnroll.AddExtensionsToRequest, IEnroll, IEnroll interface [Security], AddExtensionsToRequest method, IEnroll::AddExtensionsToRequest, security.ienroll4_addextensionstorequest, xenroll/IEnroll::AddExtensionsToRequest
+ms.date: 4/30/2018
+ms.keywords: AddExtensionsToRequest, AddExtensionsToRequest method [Security], AddExtensionsToRequest method [Security],IEnroll interface, IEnroll interface [Security],AddExtensionsToRequest method, IEnroll.AddExtensionsToRequest, IEnroll::AddExtensionsToRequest, security.ienroll4_addextensionstorequest, xenroll/IEnroll::AddExtensionsToRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::AddExtensionsToRequest method
+# IEnroll::AddExtensionsToRequest
 
 
 ## -description

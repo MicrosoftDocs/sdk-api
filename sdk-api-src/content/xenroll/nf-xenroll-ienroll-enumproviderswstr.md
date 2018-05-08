@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.enumProvidersWStr
-title: IEnroll::enumProvidersWStr method
+title: IEnroll::enumProvidersWStr
 author: windows-driver-content
 description: The IEnroll4::enumProvidersWStr method retrieves the names of the available cryptographic service providers (CSPs) specified by the ProviderType property.
 old-location: security\ienroll4_enumproviderswstr.htm
 old-project: SecCrypto
 ms.assetid: f3b40f56-3332-44e8-9753-4107948d0801
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], enumProvidersWStr method, IEnroll::enumProvidersWStr, enumProvidersWStr method [Security], enumProvidersWStr method [Security], IEnroll interface, enumProvidersWStr,IEnroll.enumProvidersWStr, security.ienroll4_enumproviderswstr, xenroll/IEnroll::enumProvidersWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],enumProvidersWStr method, IEnroll.enumProvidersWStr, IEnroll::enumProvidersWStr, enumProvidersWStr, enumProvidersWStr method [Security], enumProvidersWStr method [Security],IEnroll interface, security.ienroll4_enumproviderswstr, xenroll/IEnroll::enumProvidersWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::enumProvidersWStr method
+# IEnroll::enumProvidersWStr
 
 
 ## -description

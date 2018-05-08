@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoderService.GetDecoderDeviceGuids
-title: IDirectXVideoDecoderService::GetDecoderDeviceGuids method
+title: IDirectXVideoDecoderService::GetDecoderDeviceGuids
 author: windows-driver-content
 description: Retrieves an array of GUIDs that identifies the decoder devices supported by the graphics hardware.
 old-location: mf\idirectxvideodecoderservice_getdecoderdeviceguids.htm
 old-project: medfound
 ms.assetid: 53980b1f-2be1-4267-a581-a4b09255b89f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 53980b1f-2be1-4267-a581-a4b09255b89f, GetDecoderDeviceGuids method [Media Foundation], GetDecoderDeviceGuids method [Media Foundation], IDirectXVideoDecoderService interface, GetDecoderDeviceGuids,IDirectXVideoDecoderService.GetDecoderDeviceGuids, IDirectXVideoDecoderService, IDirectXVideoDecoderService interface [Media Foundation], GetDecoderDeviceGuids method, IDirectXVideoDecoderService::GetDecoderDeviceGuids, dxva2api/IDirectXVideoDecoderService::GetDecoderDeviceGuids, mf.idirectxvideodecoderservice_getdecoderdeviceguids
+ms.date: 5/3/2018
+ms.keywords: 53980b1f-2be1-4267-a581-a4b09255b89f, GetDecoderDeviceGuids, GetDecoderDeviceGuids method [Media Foundation], GetDecoderDeviceGuids method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],GetDecoderDeviceGuids method, IDirectXVideoDecoderService.GetDecoderDeviceGuids, IDirectXVideoDecoderService::GetDecoderDeviceGuids, dxva2api/IDirectXVideoDecoderService::GetDecoderDeviceGuids, mf.idirectxvideodecoderservice_getdecoderdeviceguids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirectXVideoDecoderService::GetDecoderDeviceGuids method
+# IDirectXVideoDecoderService::GetDecoderDeviceGuids
 
 
 ## -description

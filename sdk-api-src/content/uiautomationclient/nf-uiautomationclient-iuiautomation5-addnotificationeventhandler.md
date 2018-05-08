@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation5.AddNotificationEventHandler
-title: IUIAutomation5::AddNotificationEventHandler method
+title: IUIAutomation5::AddNotificationEventHandler
 author: windows-driver-content
 description: Registers a method that handles notification events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
 old-location: winauto\uiauto_IUIAutomation5_AddNotificationEventHandler.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 1E6A4683-9439-4212-9EA6-91719A515C4B
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: AddNotificationEventHandler method [Windows Accessibility], AddNotificationEventHandler method [Windows Accessibility], IUIAutomation5 interface, AddNotificationEventHandler,IUIAutomation5.AddNotificationEventHandler, IUIAutomation5, IUIAutomation5 interface [Windows Accessibility], AddNotificationEventHandler method, IUIAutomation5::AddNotificationEventHandler, uiautomationclient/IUIAutomation5::AddNotificationEventHandler, winauto.uiauto_IUIAutomation5_AddNotificationEventHandler
+ms.keywords: AddNotificationEventHandler, AddNotificationEventHandler method [Windows Accessibility], AddNotificationEventHandler method [Windows Accessibility],IUIAutomation5 interface, IUIAutomation5 interface [Windows Accessibility],AddNotificationEventHandler method, IUIAutomation5.AddNotificationEventHandler, IUIAutomation5::AddNotificationEventHandler, uiautomationclient/IUIAutomation5::AddNotificationEventHandler, winauto.uiauto_IUIAutomation5_AddNotificationEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation5::AddNotificationEventHandler method
+# IUIAutomation5::AddNotificationEventHandler
 
 
 ## -description

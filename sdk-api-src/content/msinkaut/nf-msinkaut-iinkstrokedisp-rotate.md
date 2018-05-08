@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Rotate
-title: IInkStrokeDisp::Rotate method
+title: IInkStrokeDisp::Rotate
 author: windows-driver-content
 description: Rotates the ink using an angle in degrees around a center point of the rotation.
 old-location: tablet\iinkstrokedisp_rotate.htm
 old-project: tablet
 ms.assetid: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], Rotate method, IInkStrokeDisp::Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC], IInkStrokeDisp interface, Rotate,IInkStrokeDisp.Rotate, msinkaut/IInkStrokeDisp::Rotate, tablet.iinkstrokedisp_rotate
+ms.date: 5/2/2018
+ms.keywords: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c, IInkStrokeDisp interface [Tablet PC],Rotate method, IInkStrokeDisp.Rotate, IInkStrokeDisp::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Rotate, tablet.iinkstrokedisp_rotate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::Rotate method
+# IInkStrokeDisp::Rotate
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 32ea0cb5-f67d-4dcc-b5d0-705b6847b163
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: MprAdminAcceptReauthenticationEx, MprAdminAcceptReauthenticationEx callback function [RAS], mprapi/MprAdminAcceptReauthenticationEx, rras.mpradminacceptreauthenticationex
+ms.keywords: MprAdminAcceptReauthenticationEx, MprAdminAcceptReauthenticationEx callback, MprAdminAcceptReauthenticationEx callback function [RAS], mprapi/MprAdminAcceptReauthenticationEx, rras.mpradminacceptreauthenticationex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateCubeTexture
-title: IDirect3DDevice9::CreateCubeTexture method
+title: IDirect3DDevice9::CreateCubeTexture
 author: windows-driver-content
 description: Creates a cube texture resource.
 old-location: direct3d9\idirect3ddevice9__createcubetexture.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createcubetexture.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 0b1afd24-65fb-4a7c-77ef-c3b832e6d5f1, CreateCubeTexture method [Direct3D 9], CreateCubeTexture method [Direct3D 9], IDirect3DDevice9 interface, CreateCubeTexture,IDirect3DDevice9.CreateCubeTexture, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], CreateCubeTexture method, IDirect3DDevice9::CreateCubeTexture, d3d9helper/IDirect3DDevice9::CreateCubeTexture, direct3d9.idirect3ddevice9__createcubetexture
+ms.keywords: 0b1afd24-65fb-4a7c-77ef-c3b832e6d5f1, CreateCubeTexture, CreateCubeTexture method [Direct3D 9], CreateCubeTexture method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateCubeTexture method, IDirect3DDevice9.CreateCubeTexture, IDirect3DDevice9::CreateCubeTexture, d3d9helper/IDirect3DDevice9::CreateCubeTexture, direct3d9.idirect3ddevice9__createcubetexture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::CreateCubeTexture method
+# IDirect3DDevice9::CreateCubeTexture
 
 
 ## -description

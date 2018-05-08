@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetProtocolStatus
-title: IWRdsProtocolConnection::GetProtocolStatus method
+title: IWRdsProtocolConnection::GetProtocolStatus
 author: windows-driver-content
 description: Retrieves information about the protocol status.
 old-location: termserv\iwrdsprotocolconnection_getprotocolstatus.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: A89C2E3F-AC75-4CFB-9DA7-00DCEDCA1C1A
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetProtocolStatus method [Remote Desktop Services], GetProtocolStatus method [Remote Desktop Services], IWRdsProtocolConnection interface, GetProtocolStatus,IWRdsProtocolConnection.GetProtocolStatus, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], GetProtocolStatus method, IWRdsProtocolConnection::GetProtocolStatus, termserv.iwrdsprotocolconnection_getprotocolstatus, wtsprotocol/IWRdsProtocolConnection::GetProtocolStatus
+ms.keywords: GetProtocolStatus, GetProtocolStatus method [Remote Desktop Services], GetProtocolStatus method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetProtocolStatus method, IWRdsProtocolConnection.GetProtocolStatus, IWRdsProtocolConnection::GetProtocolStatus, termserv.iwrdsprotocolconnection_getprotocolstatus, wtsprotocol/IWRdsProtocolConnection::GetProtocolStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::GetProtocolStatus method
+# IWRdsProtocolConnection::GetProtocolStatus
 
 
 ## -description

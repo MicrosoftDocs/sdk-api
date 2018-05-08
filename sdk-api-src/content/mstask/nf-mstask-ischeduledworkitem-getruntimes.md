@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetRunTimes
-title: IScheduledWorkItem::GetRunTimes method
+title: IScheduledWorkItem::GetRunTimes
 author: windows-driver-content
 description: Retrieves the work item run times for a specified time period.
 old-location: taskschd\ischeduledworkitem_getruntimes.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 4fd9f5dc-b237-46a6-96c0-0e4b3accd6e5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetRunTimes method [Task Scheduler], GetRunTimes method [Task Scheduler], IScheduledWorkItem interface, GetRunTimes,IScheduledWorkItem.GetRunTimes, IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], GetRunTimes method, IScheduledWorkItem::GetRunTimes, _msb_ischeduledworkitem_getruntimes, mstask/IScheduledWorkItem::GetRunTimes, taskschd.ischeduledworkitem_getruntimes
+ms.keywords: GetRunTimes, GetRunTimes method [Task Scheduler], GetRunTimes method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetRunTimes method, IScheduledWorkItem.GetRunTimes, IScheduledWorkItem::GetRunTimes, _msb_ischeduledworkitem_getruntimes, mstask/IScheduledWorkItem::GetRunTimes, taskschd.ischeduledworkitem_getruntimes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::GetRunTimes method
+# IScheduledWorkItem::GetRunTimes
 
 
 ## -description

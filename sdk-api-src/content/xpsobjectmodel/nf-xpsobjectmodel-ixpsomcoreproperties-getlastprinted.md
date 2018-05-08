@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetLastPrinted
-title: IXpsOMCoreProperties::GetLastPrinted method
+title: IXpsOMCoreProperties::GetLastPrinted
 author: windows-driver-content
 description: Gets the lastPrinted property.
 old-location: xps\ixpsomcoreproperties_getlastprinted.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c7e4b994-ec4f-415d-a340-813f00adba19
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetLastPrinted method [XPS Documents and Packaging], GetLastPrinted method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetLastPrinted,IXpsOMCoreProperties.GetLastPrinted, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetLastPrinted method, IXpsOMCoreProperties::GetLastPrinted, xps.ixpsomcoreproperties_getlastprinted, xpsobjectmodel/IXpsOMCoreProperties::GetLastPrinted
+ms.keywords: GetLastPrinted, GetLastPrinted method [XPS Documents and Packaging], GetLastPrinted method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetLastPrinted method, IXpsOMCoreProperties.GetLastPrinted, IXpsOMCoreProperties::GetLastPrinted, xps.ixpsomcoreproperties_getlastprinted, xpsobjectmodel/IXpsOMCoreProperties::GetLastPrinted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetLastPrinted method
+# IXpsOMCoreProperties::GetLastPrinted
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetConnectionName
-title: IWMStreamConfig::GetConnectionName method
+title: IWMStreamConfig::GetConnectionName
 author: windows-driver-content
 description: The GetConnectionName method retrieves the input name given to the stream.
 old-location: wmformat\iwmstreamconfig_getconnectionname.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 04d50606-c355-45d4-9cc1-a8ef37113bf7
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetConnectionName method [windows Media Format], GetConnectionName method [windows Media Format], IWMStreamConfig interface, GetConnectionName,IWMStreamConfig.GetConnectionName, IWMStreamConfig, IWMStreamConfig interface [windows Media Format], GetConnectionName method, IWMStreamConfig::GetConnectionName, IWMStreamConfigGetConnectionName, wmformat.iwmstreamconfig_getconnectionname, wmsdkidl/IWMStreamConfig::GetConnectionName
+ms.keywords: GetConnectionName, GetConnectionName method [windows Media Format], GetConnectionName method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetConnectionName method, IWMStreamConfig.GetConnectionName, IWMStreamConfig::GetConnectionName, IWMStreamConfigGetConnectionName, wmformat.iwmstreamconfig_getconnectionname, wmsdkidl/IWMStreamConfig::GetConnectionName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig::GetConnectionName method
+# IWMStreamConfig::GetConnectionName
 
 
 ## -description

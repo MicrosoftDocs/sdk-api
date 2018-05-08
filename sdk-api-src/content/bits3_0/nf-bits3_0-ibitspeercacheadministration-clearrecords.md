@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.ClearRecords
-title: IBitsPeerCacheAdministration::ClearRecords method
+title: IBitsPeerCacheAdministration::ClearRecords
 author: windows-driver-content
 description: Removes all the records and files from the cache.
 old-location: bits\ibitspeercacheadministration_clearrecords.htm
 old-project: Bits
 ms.assetid: 96e18c5d-6c76-4953-8e8e-3e98943478d8
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: ClearRecords method [BITS], ClearRecords method [BITS], IBitsPeerCacheAdministration interface, ClearRecords,IBitsPeerCacheAdministration.ClearRecords, IBitsPeerCacheAdministration, IBitsPeerCacheAdministration interface [BITS], ClearRecords method, IBitsPeerCacheAdministration::ClearRecords, bits.ibitspeercacheadministration_clearrecords, bits3_0/IBitsPeerCacheAdministration::ClearRecords
+ms.date: 4/27/2018
+ms.keywords: ClearRecords, ClearRecords method [BITS], ClearRecords method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],ClearRecords method, IBitsPeerCacheAdministration.ClearRecords, IBitsPeerCacheAdministration::ClearRecords, bits.ibitspeercacheadministration_clearrecords, bits3_0/IBitsPeerCacheAdministration::ClearRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsPeerCacheAdministration::ClearRecords method
+# IBitsPeerCacheAdministration::ClearRecords
 
 
 ## -description

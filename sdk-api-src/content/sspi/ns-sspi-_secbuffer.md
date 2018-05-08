@@ -370,6 +370,16 @@ The buffer is read-only with a checksum.
  
 
 
+### -field pvBuffer.size_is
+
+ 
+
+
+### -field pvBuffer.size_is.cbBuffer
+
+ 
+
+
 ### -field pvBuffer
 
 A pointer to a buffer.

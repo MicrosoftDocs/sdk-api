@@ -7,7 +7,7 @@ old-location: controls\DSA_DeleteAllItems.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_deleteallitems.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: DSA_DeleteAllItems, DSA_DeleteAllItems function [Windows Controls], _shell_DSA_DeleteAllItems, _shell_DSA_DeleteAllItems_cpp, controls.DSA_DeleteAllItems, controls._shell_DSA_DeleteAllItems, dpa_dsa/DSA_DeleteAllItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

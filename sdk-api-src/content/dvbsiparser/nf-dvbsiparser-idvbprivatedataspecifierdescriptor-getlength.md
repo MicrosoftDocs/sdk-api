@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbPrivateDataSpecifierDescriptor.GetLength
-title: IDvbPrivateDataSpecifierDescriptor::GetLength method
+title: IDvbPrivateDataSpecifierDescriptor::GetLength
 author: windows-driver-content
 description: Gets the body length of a Digital Video Broadcast (DVB) private data descriptor.
 old-location: mstv\idvbprivatedataspecifierdescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9a3b550c-3082-4ac8-9568-6ccdec26d193
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IDvbPrivateDataSpecifierDescriptor interface, GetLength,IDvbPrivateDataSpecifierDescriptor.GetLength, IDvbPrivateDataSpecifierDescriptor, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies], GetLength method, IDvbPrivateDataSpecifierDescriptor::GetLength, dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetLength, mstv.idvbprivatedataspecifierdescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbPrivateDataSpecifierDescriptor interface, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbPrivateDataSpecifierDescriptor.GetLength, IDvbPrivateDataSpecifierDescriptor::GetLength, dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetLength, mstv.idvbprivatedataspecifierdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbPrivateDataSpecifierDescriptor::GetLength method
+# IDvbPrivateDataSpecifierDescriptor::GetLength
 
 
 ## -description

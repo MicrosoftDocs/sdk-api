@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverVerDate
-title: IWindowsDriverUpdate::get_DriverVerDate method
+title: IWindowsDriverUpdate::get_DriverVerDate
 author: windows-driver-content
 description: Gets the driver version date of the Windows driver update.
 old-location: wua\iwindowsdriverupdate_driververdate.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: c9fd5ac5-13d3-4210-b4b9-a8e4d98d12be
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DriverVerDate property [Windows Update Agent], DriverVerDate property [Windows Update Agent], IWindowsDriverUpdate interface, IWindowsDriverUpdate, IWindowsDriverUpdate interface [Windows Update Agent], DriverVerDate property, IWindowsDriverUpdate.DriverVerDate, IWindowsDriverUpdate::get_DriverVerDate, get_DriverVerDate,IWindowsDriverUpdate.get_DriverVerDate, wua.iwindowsdriverupdate_driververdate, wuapi/IWindowsDriverUpdate::DriverVerDate, wuapi/IWindowsDriverUpdate::get_DriverVerDate
+ms.keywords: DriverVerDate property [Windows Update Agent], DriverVerDate property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverVerDate property, IWindowsDriverUpdate.DriverVerDate, IWindowsDriverUpdate.get_DriverVerDate, IWindowsDriverUpdate::DriverVerDate, IWindowsDriverUpdate::get_DriverVerDate, get_DriverVerDate, wua.iwindowsdriverupdate_driververdate, wuapi/IWindowsDriverUpdate::DriverVerDate, wuapi/IWindowsDriverUpdate::get_DriverVerDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IWindowsDriverUpdate::get_DriverVerDate method
+# IWindowsDriverUpdate::get_DriverVerDate
 
 
 ## -description

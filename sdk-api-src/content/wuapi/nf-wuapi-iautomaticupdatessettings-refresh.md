@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.Refresh
-title: IAutomaticUpdatesSettings::Refresh method
+title: IAutomaticUpdatesSettings::Refresh
 author: windows-driver-content
 description: Retrieves the latest Automatic Updates settings.
 old-location: wua\iautomaticupdatessettings_refresh.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 308426d9-d524-406a-931c-1fdb854aa4fb
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IAutomaticUpdatesSettings, IAutomaticUpdatesSettings interface [Windows Update Agent], Refresh method, IAutomaticUpdatesSettings::Refresh, Refresh method [Windows Update Agent], Refresh method [Windows Update Agent], IAutomaticUpdatesSettings interface, Refresh,IAutomaticUpdatesSettings.Refresh, wua.iautomaticupdatessettings_refresh, wuapi/IAutomaticUpdatesSettings::Refresh
+ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Refresh method, IAutomaticUpdatesSettings.Refresh, IAutomaticUpdatesSettings::Refresh, Refresh, Refresh method [Windows Update Agent], Refresh method [Windows Update Agent],IAutomaticUpdatesSettings interface, wua.iautomaticupdatessettings_refresh, wuapi/IAutomaticUpdatesSettings::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdatesSettings::Refresh method
+# IAutomaticUpdatesSettings::Refresh
 
 
 ## -description

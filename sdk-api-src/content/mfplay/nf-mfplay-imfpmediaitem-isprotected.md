@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.IsProtected
-title: IMFPMediaItem::IsProtected method
+title: IMFPMediaItem::IsProtected
 author: windows-driver-content
 description: Queries whether the media item contains protected content.
 old-location: mf\imfpmediaitem_isprotected.htm
 old-project: medfound
 ms.assetid: e4ae8b5e-7657-476c-83f9-c27de858e328
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: FALSE, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IsProtected method, IMFPMediaItem::IsProtected, IsProtected method [Media Foundation], IsProtected method [Media Foundation], IMFPMediaItem interface, IsProtected,IMFPMediaItem.IsProtected, TRUE, mf.imfpmediaitem_isprotected, mfplay/IMFPMediaItem::IsProtected
+ms.date: 5/3/2018
+ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],IsProtected method, IMFPMediaItem.IsProtected, IMFPMediaItem::IsProtected, IsProtected, IsProtected method [Media Foundation], IsProtected method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_isprotected, mfplay/IMFPMediaItem::IsProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaItem::IsProtected method
+# IMFPMediaItem::IsProtected
 
 
 ## -description

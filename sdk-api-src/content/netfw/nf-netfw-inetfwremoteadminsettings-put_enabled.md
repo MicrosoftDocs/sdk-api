@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRemoteAdminSettings.put_Enabled
-title: INetFwRemoteAdminSettings::put_Enabled method
+title: INetFwRemoteAdminSettings::put_Enabled
 author: windows-driver-content
 description: Indicates whether remote administration is enabled..
 old-location: ics\inetfwremoteadminsettings_enabled.htm
 old-project: ICS
 ms.assetid: 3f8affb4-0f71-4687-836b-f4fc484a258d
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF], INetFwRemoteAdminSettings interface, INetFwRemoteAdminSettings, INetFwRemoteAdminSettings interface [ICS/ICF], Enabled property, INetFwRemoteAdminSettings.Enabled, INetFwRemoteAdminSettings::get_Enabled, INetFwRemoteAdminSettings::put_Enabled, ics.inetfwremoteadminsettings_enabled, netfw/INetFwRemoteAdminSettings::Enabled, netfw/INetFwRemoteAdminSettings::get_Enabled, netfw/INetFwRemoteAdminSettings::put_Enabled, put_Enabled,INetFwRemoteAdminSettings.put_Enabled
+ms.date: 5/1/2018
+ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwRemoteAdminSettings interface, INetFwRemoteAdminSettings interface [ICS/ICF],Enabled property, INetFwRemoteAdminSettings.Enabled, INetFwRemoteAdminSettings.put_Enabled, INetFwRemoteAdminSettings::Enabled, INetFwRemoteAdminSettings::get_Enabled, INetFwRemoteAdminSettings::put_Enabled, ics.inetfwremoteadminsettings_enabled, netfw/INetFwRemoteAdminSettings::Enabled, netfw/INetFwRemoteAdminSettings::get_Enabled, netfw/INetFwRemoteAdminSettings::put_Enabled, put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRemoteAdminSettings::put_Enabled method
+# INetFwRemoteAdminSettings::put_Enabled
 
 
 ## -description

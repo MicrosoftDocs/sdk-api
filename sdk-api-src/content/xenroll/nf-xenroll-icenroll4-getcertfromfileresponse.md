@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll4.getCertFromFileResponse
-title: ICEnroll4::getCertFromFileResponse method
+title: ICEnroll4::getCertFromFileResponse
 author: windows-driver-content
 description: Retrieves the certificate from a file containing a response from a certification authority. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_getcertfromfileresponse.htm
 old-project: SecCrypto
 ms.assetid: 0e89465b-4525-4b36-b0c7-7f34dc4a34aa
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], getCertFromFileResponse method, ICEnroll4, ICEnroll4 interface [Security], getCertFromFileResponse method, ICEnroll4::getCertFromFileResponse, _xen_icenroll4_getcertfromfileresponse, getCertFromFileResponse method [Security], getCertFromFileResponse method [Security], CEnroll object, getCertFromFileResponse method [Security], ICEnroll4 interface, getCertFromFileResponse,ICEnroll4.getCertFromFileResponse, security.icenroll4_getcertfromfileresponse, xenroll/ICEnroll4::getCertFromFileResponse
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],getCertFromFileResponse method, ICEnroll4 interface [Security],getCertFromFileResponse method, ICEnroll4.getCertFromFileResponse, ICEnroll4::getCertFromFileResponse, _xen_icenroll4_getcertfromfileresponse, getCertFromFileResponse, getCertFromFileResponse method [Security], getCertFromFileResponse method [Security],CEnroll object, getCertFromFileResponse method [Security],ICEnroll4 interface, security.icenroll4_getcertfromfileresponse, xenroll/ICEnroll4::getCertFromFileResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll4::getCertFromFileResponse method
+# ICEnroll4::getCertFromFileResponse
 
 
 ## -description

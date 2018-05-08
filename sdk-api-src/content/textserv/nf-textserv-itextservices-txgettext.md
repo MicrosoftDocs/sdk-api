@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextServices.TxGetText
-title: ITextServices::TxGetText method
+title: ITextServices::TxGetText
 author: windows-driver-content
 description: Returns all of the Unicode plain text in the control as a BSTR.
 old-location: controls\ITextServices_TxGetText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgettext.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextServices, ITextServices interface [Windows Controls], TxGetText method, ITextServices::TxGetText, TxGetText method [Windows Controls], TxGetText method [Windows Controls], ITextServices interface, TxGetText,ITextServices.TxGetText, _win32_ITextServices_TxGetText, _win32_ITextServices_TxGetText_cpp, controls.ITextServices_TxGetText, controls._win32_ITextServices_TxGetText, textserv/ITextServices::TxGetText
+ms.date: 4/27/2018
+ms.keywords: ITextServices interface [Windows Controls],TxGetText method, ITextServices.TxGetText, ITextServices::TxGetText, TxGetText, TxGetText method [Windows Controls], TxGetText method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetText, _win32_ITextServices_TxGetText_cpp, controls.ITextServices_TxGetText, controls._win32_ITextServices_TxGetText, textserv/ITextServices::TxGetText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextServices::TxGetText method
+# ITextServices::TxGetText
 
 
 ## -description

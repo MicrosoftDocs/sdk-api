@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.Save
-title: IFaxConfiguration::Save method
+title: IFaxConfiguration::Save
 author: windows-driver-content
 description: Saves the object.
 old-location: fax\_mfax_FaxConfiguration_Save_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\save.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxConfiguration object [Fax Service], Save method, IFaxConfiguration, IFaxConfiguration::Save, Save method [Fax Service], Save method [Fax Service], FaxConfiguration object, Save,IFaxConfiguration.Save, _mfax_IFaxConfiguration_Save, fax._mfax_FaxConfiguration_Save_vb
+ms.keywords: FaxConfiguration object [Fax Service],Save method, FaxConfiguration.Save, IFaxConfiguration.Save, IFaxConfiguration::Save, Save, Save method [Fax Service], Save method [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_Save, fax._mfax_FaxConfiguration_Save_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::Save method
+# IFaxConfiguration::Save
 
 
 ## -description

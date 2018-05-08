@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMedia.getMarkerTime
-title: IWMPMedia::getMarkerTime method
+title: IWMPMedia::getMarkerTime
 author: windows-driver-content
 description: The getMarkerTime method retrieves the time of the marker at the specified index.
 old-location: wmp\iwmpmedia_getmarkertime.htm
 old-project: WMP
 ms.assetid: e6c2484d-8167-4305-9467-f9b2b7fedc32
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], getMarkerTime method, IWMPMedia2 interface [Windows Media Player], getMarkerTime method, IWMPMedia2::getMarkerTime, IWMPMedia3 interface [Windows Media Player], getMarkerTime method, IWMPMedia3::getMarkerTime, IWMPMedia::getMarkerTime, IWMPMediagetMarkerTime, getMarkerTime method [Windows Media Player], getMarkerTime method [Windows Media Player], IWMPMedia interface, getMarkerTime method [Windows Media Player], IWMPMedia2 interface, getMarkerTime method [Windows Media Player], IWMPMedia3 interface, getMarkerTime,IWMPMedia.getMarkerTime, wmp.iwmpmedia_getmarkertime, wmp/IWMPMedia2::getMarkerTime, wmp/IWMPMedia3::getMarkerTime, wmp/IWMPMedia::getMarkerTime
+ms.date: 5/4/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],getMarkerTime method, IWMPMedia.getMarkerTime, IWMPMedia2 interface [Windows Media Player],getMarkerTime method, IWMPMedia2::getMarkerTime, IWMPMedia3 interface [Windows Media Player],getMarkerTime method, IWMPMedia3::getMarkerTime, IWMPMedia::getMarkerTime, IWMPMediagetMarkerTime, getMarkerTime, getMarkerTime method [Windows Media Player], getMarkerTime method [Windows Media Player],IWMPMedia interface, getMarkerTime method [Windows Media Player],IWMPMedia2 interface, getMarkerTime method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getmarkertime, wmp/IWMPMedia2::getMarkerTime, wmp/IWMPMedia3::getMarkerTime, wmp/IWMPMedia::getMarkerTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMedia::getMarkerTime method
+# IWMPMedia::getMarkerTime
 
 
 ## -description

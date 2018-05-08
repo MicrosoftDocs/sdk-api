@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetBackgroundColor
-title: IDXGISwapChain1::GetBackgroundColor method
+title: IDXGISwapChain1::GetBackgroundColor
 author: windows-driver-content
 description: Retrieves the background color of the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_getbackgroundcolor.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: AF10BAF1-5C49-45E7-B776-3EB606C02E10
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetBackgroundColor method [DXGI], GetBackgroundColor method [DXGI], IDXGISwapChain1 interface, GetBackgroundColor,IDXGISwapChain1.GetBackgroundColor, IDXGISwapChain1, IDXGISwapChain1 interface [DXGI], GetBackgroundColor method, IDXGISwapChain1::GetBackgroundColor, direct3ddxgi.idxgiswapchain1_getbackgroundcolor, dxgi1_2/IDXGISwapChain1::GetBackgroundColor
+ms.keywords: GetBackgroundColor, GetBackgroundColor method [DXGI], GetBackgroundColor method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetBackgroundColor method, IDXGISwapChain1.GetBackgroundColor, IDXGISwapChain1::GetBackgroundColor, direct3ddxgi.idxgiswapchain1_getbackgroundcolor, dxgi1_2/IDXGISwapChain1::GetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain1::GetBackgroundColor method
+# IDXGISwapChain1::GetBackgroundColor
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Clone
-title: IEnumDialableAddrs::Clone method
+title: IEnumDialableAddrs::Clone
 author: windows-driver-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumdialableaddrs_clone.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 5d05bdfb-007a-451a-bf79-f5a8e4171f85
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Clone method [TAPI 2.2], Clone method [TAPI 2.2], IEnumDialableAddrs interface, Clone,IEnumDialableAddrs.Clone, IEnumDialableAddrs, IEnumDialableAddrs interface [TAPI 2.2], Clone method, IEnumDialableAddrs::Clone, _tapi3_ienumdialableaddrs_clone, rend/IEnumDialableAddrs::Clone, tapi3.ienumdialableaddrs_clone
+ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDialableAddrs interface, IEnumDialableAddrs interface [TAPI 2.2],Clone method, IEnumDialableAddrs.Clone, IEnumDialableAddrs::Clone, _tapi3_ienumdialableaddrs_clone, rend/IEnumDialableAddrs::Clone, tapi3.ienumdialableaddrs_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumDialableAddrs::Clone method
+# IEnumDialableAddrs::Clone
 
 
 ## -description

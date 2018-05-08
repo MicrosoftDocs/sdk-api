@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateRenderTargetView
-title: ID3D11Device::CreateRenderTargetView method
+title: ID3D11Device::CreateRenderTargetView
 author: windows-driver-content
 description: Creates a render-target view for accessing resource data.
 old-location: direct3d11\id3d11device_createrendertargetview.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: e757c959-f0ac-44c3-8226-b9f0b1c2a031
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 02715db5-c01a-06db-fe93-51594d87921b, CreateRenderTargetView method [Direct3D 11], CreateRenderTargetView method [Direct3D 11], ID3D11Device interface, CreateRenderTargetView,ID3D11Device.CreateRenderTargetView, ID3D11Device, ID3D11Device interface [Direct3D 11], CreateRenderTargetView method, ID3D11Device::CreateRenderTargetView, d3d11/ID3D11Device::CreateRenderTargetView, direct3d11.id3d11device_createrendertargetview
+ms.keywords: 02715db5-c01a-06db-fe93-51594d87921b, CreateRenderTargetView, CreateRenderTargetView method [Direct3D 11], CreateRenderTargetView method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateRenderTargetView method, ID3D11Device.CreateRenderTargetView, ID3D11Device::CreateRenderTargetView, d3d11/ID3D11Device::CreateRenderTargetView, direct3d11.id3d11device_createrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11Device::CreateRenderTargetView method
+# ID3D11Device::CreateRenderTargetView
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAsyncReader.WaitForNext
-title: IAsyncReader::WaitForNext method
+title: IAsyncReader::WaitForNext
 author: windows-driver-content
 description: The WaitForNext method waits for the next pending read request to complete.
 old-location: dshow\iasyncreader_waitfornext.htm
 old-project: DirectShow
 ms.assetid: fc54f917-3b86-4c0b-b356-217bc9793504
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAsyncReader, IAsyncReader interface [DirectShow], WaitForNext method, IAsyncReader::WaitForNext, IAsyncReaderWaitForNext, WaitForNext method [DirectShow], WaitForNext method [DirectShow], IAsyncReader interface, WaitForNext,IAsyncReader.WaitForNext, dshow.iasyncreader_waitfornext, strmif/IAsyncReader::WaitForNext
+ms.date: 4/30/2018
+ms.keywords: IAsyncReader interface [DirectShow],WaitForNext method, IAsyncReader.WaitForNext, IAsyncReader::WaitForNext, IAsyncReaderWaitForNext, WaitForNext, WaitForNext method [DirectShow], WaitForNext method [DirectShow],IAsyncReader interface, dshow.iasyncreader_waitfornext, strmif/IAsyncReader::WaitForNext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAsyncReader::WaitForNext method
+# IAsyncReader::WaitForNext
 
 
 ## -description

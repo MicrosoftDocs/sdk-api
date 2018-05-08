@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.IsClosed
-title: IWMWriterFileSink2::IsClosed method
+title: IWMWriterFileSink2::IsClosed
 author: windows-driver-content
 description: The IsClosed method ascertains whether the file sink has been closed.
 old-location: wmformat\iwmwriterfilesink2_isclosed.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 0ae9137f-ce43-4860-a28f-deac39f216a4
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterFileSink2, IWMWriterFileSink2 interface [windows Media Format], IsClosed method, IWMWriterFileSink2::IsClosed, IWMWriterFileSink2IsClosed, IsClosed method [windows Media Format], IsClosed method [windows Media Format], IWMWriterFileSink2 interface, IsClosed,IWMWriterFileSink2.IsClosed, wmformat.iwmwriterfilesink2_isclosed, wmsdkidl/IWMWriterFileSink2::IsClosed
+ms.keywords: IWMWriterFileSink2 interface [windows Media Format],IsClosed method, IWMWriterFileSink2.IsClosed, IWMWriterFileSink2::IsClosed, IWMWriterFileSink2IsClosed, IsClosed, IsClosed method [windows Media Format], IsClosed method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_isclosed, wmsdkidl/IWMWriterFileSink2::IsClosed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterFileSink2::IsClosed method
+# IWMWriterFileSink2::IsClosed
 
 
 ## -description

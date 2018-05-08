@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsStatusChange
-title: IMbnSmsEvents::OnSmsStatusChange method
+title: IMbnSmsEvents::OnSmsStatusChange
 author: windows-driver-content
 description: Notification method indicating a change in the status of the message store.
 old-location: mbn\imbnsmsevents_onsmsstatuschange.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 8a3027e2-f8ee-476a-96e2-29ef4d87db38
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSmsEvents, IMbnSmsEvents interface [Microsoft Broadband Networks], OnSmsStatusChange method, IMbnSmsEvents::OnSmsStatusChange, OnSmsStatusChange method [Microsoft Broadband Networks], OnSmsStatusChange method [Microsoft Broadband Networks], IMbnSmsEvents interface, OnSmsStatusChange,IMbnSmsEvents.OnSmsStatusChange, mbn.imbnsmsevents_onsmsstatuschange, mbnapi/IMbnSmsEvents::OnSmsStatusChange
+ms.keywords: IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsStatusChange method, IMbnSmsEvents.OnSmsStatusChange, IMbnSmsEvents::OnSmsStatusChange, OnSmsStatusChange, OnSmsStatusChange method [Microsoft Broadband Networks], OnSmsStatusChange method [Microsoft Broadband Networks],IMbnSmsEvents interface, mbn.imbnsmsevents_onsmsstatuschange, mbnapi/IMbnSmsEvents::OnSmsStatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSmsEvents::OnSmsStatusChange method
+# IMbnSmsEvents::OnSmsStatusChange
 
 
 ## -description

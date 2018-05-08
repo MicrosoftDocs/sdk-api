@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 37d03dff-ae40-4e7f-a66f-facd0c1f6eee
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidEncoder, IMSVidEncoder interface [Microsoft TV Technologies], IMSVidEncoder interface [Microsoft TV Technologies], described, IMSVidEncoderInterface, mstv.imsvidencoder, segment/IMSVidEncoder
+ms.keywords: IMSVidEncoder, IMSVidEncoder interface [Microsoft TV Technologies], IMSVidEncoder interface [Microsoft TV Technologies],described, IMSVidEncoderInterface, mstv.imsvidencoder, segment/IMSVidEncoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

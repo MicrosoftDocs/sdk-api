@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetVersionHash
-title: IISDB_LDT::GetVersionHash method
+title: IISDB_LDT::GetVersionHash
 author: windows-driver-content
 description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getversionhash.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ea7f027c-60c3-4dcd-963b-37ae6b088c81
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies], IISDB_LDT interface, GetVersionHash,IISDB_LDT.GetVersionHash, IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], GetVersionHash method, IISDB_LDT::GetVersionHash, dvbsiparser/IISDB_LDT::GetVersionHash, mstv.iisdb_ldt_getversionhash
+ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetVersionHash method, IISDB_LDT.GetVersionHash, IISDB_LDT::GetVersionHash, dvbsiparser/IISDB_LDT::GetVersionHash, mstv.iisdb_ldt_getversionhash
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_LDT::GetVersionHash method
+# IISDB_LDT::GetVersionHash
 
 
 ## -description

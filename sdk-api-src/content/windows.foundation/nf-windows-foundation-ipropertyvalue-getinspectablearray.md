@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetInspectableArray
-title: IPropertyValue::GetInspectableArray method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of pointers to IInspectable objects that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getinspectablearray.htm
 old-project: WinRT
 ms.assetid: 0af4f31f-e121-4cb2-8e83-c774bf25cae5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetInspectableArray method [Windows Runtime], GetInspectableArray method [Windows Runtime], IPropertyValue interface, GetInspectableArray,IPropertyValue.GetInspectableArray, IPropertyValue, IPropertyValue interface [Windows Runtime], GetInspectableArray method, IPropertyValue::GetInspectableArray, windows/IPropertyValue::GetInspectableArray, winrt.ipropertyvalue_getinspectablearray
+ms.date: 5/4/2018
+ms.keywords: GetInspectableArray, GetInspectableArray method [Windows Runtime], GetInspectableArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInspectableArray method, IPropertyValue.GetInspectableArray, IPropertyValue.IPropertyValue, IPropertyValue::GetInspectableArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInspectableArray, winrt.ipropertyvalue_getinspectablearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetInspectableArray method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

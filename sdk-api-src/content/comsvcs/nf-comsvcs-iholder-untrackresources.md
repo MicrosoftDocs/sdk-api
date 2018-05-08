@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IHolder.UntrackResourceS
-title: IHolder::UntrackResourceS method
+title: IHolder::UntrackResourceS
 author: windows-driver-content
 description: Stops tracking a resource (string version).
 old-location: cos\iholder_untrackresources.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 03e54d2d-9dfb-46cf-abb9-d3f37784c449
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IHolder, IHolder interface [COM+], UntrackResourceS method, IHolder::UntrackResourceS, UntrackResourceS method [COM+], UntrackResourceS method [COM+], IHolder interface, UntrackResourceS,IHolder.UntrackResourceS, _dtc_IHolder_UntrackResourceS, comsvcs/IHolder::UntrackResourceS, cos.iholder_untrackresources
+ms.keywords: IHolder interface [COM+],UntrackResourceS method, IHolder.UntrackResourceS, IHolder::UntrackResourceS, UntrackResourceS, UntrackResourceS method [COM+], UntrackResourceS method [COM+],IHolder interface, _dtc_IHolder_UntrackResourceS, comsvcs/IHolder::UntrackResourceS, cos.iholder_untrackresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IHolder::UntrackResourceS method
+# IHolder::UntrackResourceS
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2._SetAllocator
-title: IMSVidVideoRenderer2::_SetAllocator method
+title: IMSVidVideoRenderer2::_SetAllocator
 author: windows-driver-content
 description: The _SetAllocator method specifies an allocator-presenter for the VMR. Applications can use this method to provide their own custom allocator-presenter objects.
 old-location: mstv\imsvidvideorenderer2__setallocator.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: dc0983c0-440d-453a-95c9-41a859a7dd9a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer2, IMSVidVideoRenderer2 interface [Microsoft TV Technologies], _SetAllocator method, IMSVidVideoRenderer2::_SetAllocator, IMSVidVideoRenderer2_SetAllocator, _SetAllocator method [Microsoft TV Technologies], _SetAllocator method [Microsoft TV Technologies], IMSVidVideoRenderer2 interface, _SetAllocator,IMSVidVideoRenderer2._SetAllocator, mstv.imsvidvideorenderer2__setallocator, segment/IMSVidVideoRenderer2::_SetAllocator
+ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],_SetAllocator method, IMSVidVideoRenderer2._SetAllocator, IMSVidVideoRenderer2::_SetAllocator, IMSVidVideoRenderer2_SetAllocator, _SetAllocator, _SetAllocator method [Microsoft TV Technologies], _SetAllocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2__setallocator, segment/IMSVidVideoRenderer2::_SetAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer2::_SetAllocator method
+# IMSVidVideoRenderer2::_SetAllocator
 
 
 ## -description

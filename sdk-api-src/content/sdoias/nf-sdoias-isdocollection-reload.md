@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoCollection.Reload
-title: ISdoCollection::Reload method
+title: ISdoCollection::Reload
 author: windows-driver-content
 description: The Reload method reloads all the objects in the collection from the underlying datastore.
 old-location: nps\SDO_isdocollection_reload.htm
@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: 9bf216a0-2d65-4242-97bc-f4b690e92d55
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ISdoCollection, ISdoCollection interface [Network Policy Server], Reload method, ISdoCollection::Reload, Reload method [Network Policy Server], Reload method [Network Policy Server], ISdoCollection interface, Reload,ISdoCollection.Reload, _sdo_isdocollection_reload, nps.SDO_isdocollection_reload, sdo.isdocollection_reload, sdoias/ISdoCollection::Reload
+ms.keywords: ISdoCollection interface [Network Policy Server],Reload method, ISdoCollection.Reload, ISdoCollection::Reload, Reload, Reload method [Network Policy Server], Reload method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_reload, nps.SDO_isdocollection_reload, sdo.isdocollection_reload, sdoias/ISdoCollection::Reload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISdoCollection::Reload method
+# ISdoCollection::Reload
 
 
 ## -description

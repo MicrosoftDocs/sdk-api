@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestSupportedAttrs
-title: ITextStoreAnchor::RequestSupportedAttrs method
+title: ITextStoreAnchor::RequestSupportedAttrs
 author: windows-driver-content
 description: ITextStoreAnchor::RequestSupportedAttrs method
 old-location: tsf\itextstoreanchor_requestsupportedattrs.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: ab81d79d-e991-4c2d-9fb7-95393e002828
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], RequestSupportedAttrs method, ITextStoreAnchor::RequestSupportedAttrs, RequestSupportedAttrs method [Text Services Framework], RequestSupportedAttrs method [Text Services Framework], ITextStoreAnchor interface, RequestSupportedAttrs,ITextStoreAnchor.RequestSupportedAttrs, textstor/ITextStoreAnchor::RequestSupportedAttrs, tsf.itextstoreanchor_requestsupportedattrs
+ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestSupportedAttrs method, ITextStoreAnchor.RequestSupportedAttrs, ITextStoreAnchor::RequestSupportedAttrs, RequestSupportedAttrs, RequestSupportedAttrs method [Text Services Framework], RequestSupportedAttrs method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RequestSupportedAttrs, tsf.itextstoreanchor_requestsupportedattrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::RequestSupportedAttrs method
+# ITextStoreAnchor::RequestSupportedAttrs
 
 
 ## -description

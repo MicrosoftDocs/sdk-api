@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.BeginGetMetadata
-title: IWSDDeviceProxy::BeginGetMetadata method
+title: IWSDDeviceProxy::BeginGetMetadata
 author: windows-driver-content
 description: Sends an asynchronous request for metadata.
 old-location: ncd\iwsddeviceproxy_begingetmetadata.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 8aa71ef1-61b9-411b-9e8c-75470c638469
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: BeginGetMetadata method, BeginGetMetadata method, IWSDDeviceProxy interface, BeginGetMetadata,IWSDDeviceProxy.BeginGetMetadata, IWSDDeviceProxy, IWSDDeviceProxy interface, BeginGetMetadata method, IWSDDeviceProxy::BeginGetMetadata, ncd.iwsddeviceproxy_begingetmetadata, wsdclient/IWSDDeviceProxy::BeginGetMetadata
+ms.keywords: BeginGetMetadata, BeginGetMetadata method, BeginGetMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,BeginGetMetadata method, IWSDDeviceProxy.BeginGetMetadata, IWSDDeviceProxy::BeginGetMetadata, ncd.iwsddeviceproxy_begingetmetadata, wsdclient/IWSDDeviceProxy::BeginGetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceProxy::BeginGetMetadata method
+# IWSDDeviceProxy::BeginGetMetadata
 
 
 ## -description

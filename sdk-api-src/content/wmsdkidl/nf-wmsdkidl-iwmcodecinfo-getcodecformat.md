@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo.GetCodecFormat
-title: IWMCodecInfo::GetCodecFormat method
+title: IWMCodecInfo::GetCodecFormat
 author: windows-driver-content
 description: The GetCodecFormat method retrieves one format supported by a specified codec. This method retrieves a pointer to the IWMStreamConfig interface of a stream configuration object containing the stream settings for the supported format.
 old-location: wmformat\iwmcodecinfo_getcodecformat.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: dbfffc96-2286-4fdf-a76f-ad8e0ecd7aff
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetCodecFormat method [windows Media Format], GetCodecFormat method [windows Media Format], IWMCodecInfo interface, GetCodecFormat,IWMCodecInfo.GetCodecFormat, IWMCodecInfo, IWMCodecInfo interface [windows Media Format], GetCodecFormat method, IWMCodecInfo::GetCodecFormat, IWMCodecInfoGetCodecFormat, wmformat.iwmcodecinfo_getcodecformat, wmsdkidl/IWMCodecInfo::GetCodecFormat
+ms.keywords: GetCodecFormat, GetCodecFormat method [windows Media Format], GetCodecFormat method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecFormat method, IWMCodecInfo.GetCodecFormat, IWMCodecInfo::GetCodecFormat, IWMCodecInfoGetCodecFormat, wmformat.iwmcodecinfo_getcodecformat, wmsdkidl/IWMCodecInfo::GetCodecFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecInfo::GetCodecFormat method
+# IWMCodecInfo::GetCodecFormat
 
 
 ## -description

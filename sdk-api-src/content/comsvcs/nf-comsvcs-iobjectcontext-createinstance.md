@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContext.CreateInstance
-title: IObjectContext::CreateInstance method
+title: IObjectContext::CreateInstance
 author: windows-driver-content
 description: Creates an object using current object's context.
 old-location: cos\iobjectcontext_createinstance.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 2e870191-5a34-490e-9f3a-cb646fe3f470
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateInstance method [COM+], CreateInstance method [COM+], IObjectContext interface, CreateInstance,IObjectContext.CreateInstance, IObjectContext, IObjectContext interface [COM+], CreateInstance method, IObjectContext::CreateInstance, _cos_IObjectContext_CreateInstance, comsvcs/IObjectContext::CreateInstance, cos.iobjectcontext_createinstance
+ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],IObjectContext interface, IObjectContext interface [COM+],CreateInstance method, IObjectContext.CreateInstance, IObjectContext::CreateInstance, _cos_IObjectContext_CreateInstance, comsvcs/IObjectContext::CreateInstance, cos.iobjectcontext_createinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IObjectContext::CreateInstance method
+# IObjectContext::CreateInstance
 
 
 ## -description

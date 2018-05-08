@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetSubscript
-title: ITextFont::GetSubscript method
+title: ITextFont::GetSubscript
 author: windows-driver-content
 description: Gets whether characters are displayed as subscript.
 old-location: controls\ITextFont_GetSubscript.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsubscript.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetSubscript method [Windows Controls], GetSubscript method [Windows Controls], ITextFont interface, GetSubscript,ITextFont.GetSubscript, ITextFont, ITextFont interface [Windows Controls], GetSubscript method, ITextFont::GetSubscript, _win32_ITextFont_GetSubscript, _win32_ITextFont_GetSubscript_cpp, controls.ITextFont_GetSubscript, controls._win32_ITextFont_GetSubscript, tom/ITextFont::GetSubscript
+ms.date: 4/27/2018
+ms.keywords: GetSubscript, GetSubscript method [Windows Controls], GetSubscript method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSubscript method, ITextFont.GetSubscript, ITextFont::GetSubscript, _win32_ITextFont_GetSubscript, _win32_ITextFont_GetSubscript_cpp, controls.ITextFont_GetSubscript, controls._win32_ITextFont_GetSubscript, tom/ITextFont::GetSubscript
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetSubscript method
+# ITextFont::GetSubscript
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSuspend.SuspendRoot
-title: IOfflineFilesSuspend::SuspendRoot method
+title: IOfflineFilesSuspend::SuspendRoot
 author: windows-driver-content
 description: Suspend or release a share root or directory tree.
 old-location: of\iofflinefilessuspend_suspendroot.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 5307bc8c-e6e9-4ae7-b2da-036fc9c5c08d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesSuspend, IOfflineFilesSuspend interface [Offline Files], SuspendRoot method, IOfflineFilesSuspend::SuspendRoot, SuspendRoot method [Offline Files], SuspendRoot method [Offline Files], IOfflineFilesSuspend interface, SuspendRoot,IOfflineFilesSuspend.SuspendRoot, cscobj/IOfflineFilesSuspend::SuspendRoot, of.iofflinefilessuspend_suspendroot
+ms.keywords: IOfflineFilesSuspend interface [Offline Files],SuspendRoot method, IOfflineFilesSuspend.SuspendRoot, IOfflineFilesSuspend::SuspendRoot, SuspendRoot, SuspendRoot method [Offline Files], SuspendRoot method [Offline Files],IOfflineFilesSuspend interface, cscobj/IOfflineFilesSuspend::SuspendRoot, of.iofflinefilessuspend_suspendroot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSuspend::SuspendRoot method
+# IOfflineFilesSuspend::SuspendRoot
 
 
 ## -description

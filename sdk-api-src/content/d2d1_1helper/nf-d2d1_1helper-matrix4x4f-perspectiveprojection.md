@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.PerspectiveProjection
-title: Matrix4x4F::PerspectiveProjection method
+title: Matrix4x4F::PerspectiveProjection
 author: windows-driver-content
 description: A perspective transformation given a depth value.
 old-location: direct2d\matrix4x4f_perspectiveprojection.htm
@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: AE896E2E-752E-46D1-9281-4B3511D21468
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: Matrix4x4F, Matrix4x4F interface [Direct2D], PerspectiveProjection method, Matrix4x4F::PerspectiveProjection, PerspectiveProjection method [Direct2D], PerspectiveProjection method [Direct2D], Matrix4x4F interface, PerspectiveProjection,Matrix4x4F.PerspectiveProjection, d2d1_1helper/Matrix4x4F::PerspectiveProjection, direct2d.matrix4x4f_perspectiveprojection
+ms.keywords: Matrix4x4F interface [Direct2D],PerspectiveProjection method, Matrix4x4F.PerspectiveProjection, Matrix4x4F::PerspectiveProjection, PerspectiveProjection, PerspectiveProjection method [Direct2D], PerspectiveProjection method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::PerspectiveProjection, direct2d.matrix4x4f_perspectiveprojection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# Matrix4x4F::PerspectiveProjection method
+# Matrix4x4F::PerspectiveProjection
 
 
 ## -description

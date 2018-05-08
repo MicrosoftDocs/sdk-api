@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnTextChange
-title: ITextStoreAnchorSink::OnTextChange method
+title: ITextStoreAnchorSink::OnTextChange
 author: windows-driver-content
 description: ITextStoreAnchorSink::OnTextChange method
 old-location: tsf\itextstoreanchorsink_ontextchange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4bdf12bc-c15e-4bdb-8bc0-53172e9c943e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: 0, ITextStoreAnchorSink, ITextStoreAnchorSink interface [Text Services Framework], OnTextChange method, ITextStoreAnchorSink::OnTextChange, OnTextChange method [Text Services Framework], OnTextChange method [Text Services Framework], ITextStoreAnchorSink interface, OnTextChange,ITextStoreAnchorSink.OnTextChange, TS_TC_CORRECTION, _tsf_itextstoreanchorsink_ontextchange_ref, textstor/ITextStoreAnchorSink::OnTextChange, tsf.itextstoreanchorsink_ontextchange
+ms.keywords: 0, ITextStoreAnchorSink interface [Text Services Framework],OnTextChange method, ITextStoreAnchorSink.OnTextChange, ITextStoreAnchorSink::OnTextChange, OnTextChange, OnTextChange method [Text Services Framework], OnTextChange method [Text Services Framework],ITextStoreAnchorSink interface, TS_TC_CORRECTION, _tsf_itextstoreanchorsink_ontextchange_ref, textstor/ITextStoreAnchorSink::OnTextChange, tsf.itextstoreanchorsink_ontextchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchorSink::OnTextChange method
+# ITextStoreAnchorSink::OnTextChange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.OpenStorage
-title: IStorage::OpenStorage method
+title: IStorage::OpenStorage
 author: windows-driver-content
 description: Opens an existing storage object with the specified name in the specified access mode.
 old-location: stg\istorage_openstorage.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: f1f0564e-0ecd-4b73-8863-9d6b6746fd02
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IStorage, IStorage interface [Structured Storage], OpenStorage method, IStorage::OpenStorage, OpenStorage method [Structured Storage], OpenStorage method [Structured Storage], IStorage interface, OpenStorage,IStorage.OpenStorage, _stg_istorage_openstorage, objidl/IStorage::OpenStorage, stg.istorage_openstorage
+ms.keywords: IStorage interface [Structured Storage],OpenStorage method, IStorage.OpenStorage, IStorage::OpenStorage, OpenStorage, OpenStorage method [Structured Storage], OpenStorage method [Structured Storage],IStorage interface, _stg_istorage_openstorage, objidl/IStorage::OpenStorage, stg.istorage_openstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStorage::OpenStorage method
+# IStorage::OpenStorage
 
 
 ## -description

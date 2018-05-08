@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.AddChild
-title: IVisualTreeService::AddChild method
+title: IVisualTreeService::AddChild
 author: windows-driver-content
 description: Adds a child element to the collection at the specified index.
 old-location: xaml_diagnostics\ivisualtreeservice_addchild.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 0F3BFACA-0B4C-4CC5-A48B-BD3921728612
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: AddChild method, AddChild method, IVisualTreeService interface, AddChild,IVisualTreeService.AddChild, IVisualTreeService, IVisualTreeService interface, AddChild method, IVisualTreeService::AddChild, xaml_diagnostics.ivisualtreeservice_addchild, xamlom/IVisualTreeService::AddChild
+ms.keywords: AddChild, AddChild method, AddChild method,IVisualTreeService interface, IVisualTreeService interface,AddChild method, IVisualTreeService.AddChild, IVisualTreeService::AddChild, xaml_diagnostics.ivisualtreeservice_addchild, xamlom/IVisualTreeService::AddChild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeService::AddChild method
+# IVisualTreeService::AddChild
 
 
 ## -description

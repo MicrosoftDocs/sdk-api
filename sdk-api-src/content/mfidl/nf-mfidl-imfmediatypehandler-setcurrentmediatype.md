@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaTypeHandler.SetCurrentMediaType
-title: IMFMediaTypeHandler::SetCurrentMediaType method
+title: IMFMediaTypeHandler::SetCurrentMediaType
 author: windows-driver-content
 description: Sets the object's media type.
 old-location: mf\imfmediatypehandler_setcurrentmediatype.htm
 old-project: medfound
 ms.assetid: 77ff397e-4fa8-4849-98b8-6bdd035c0e89
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 77ff397e-4fa8-4849-98b8-6bdd035c0e89, IMFMediaTypeHandler, IMFMediaTypeHandler interface [Media Foundation], SetCurrentMediaType method, IMFMediaTypeHandler::SetCurrentMediaType, SetCurrentMediaType method [Media Foundation], SetCurrentMediaType method [Media Foundation], IMFMediaTypeHandler interface, SetCurrentMediaType,IMFMediaTypeHandler.SetCurrentMediaType, mf.imfmediatypehandler_setcurrentmediatype, mfidl/IMFMediaTypeHandler::SetCurrentMediaType
+ms.date: 5/3/2018
+ms.keywords: 77ff397e-4fa8-4849-98b8-6bdd035c0e89, IMFMediaTypeHandler interface [Media Foundation],SetCurrentMediaType method, IMFMediaTypeHandler.SetCurrentMediaType, IMFMediaTypeHandler::SetCurrentMediaType, SetCurrentMediaType, SetCurrentMediaType method [Media Foundation], SetCurrentMediaType method [Media Foundation],IMFMediaTypeHandler interface, mf.imfmediatypehandler_setcurrentmediatype, mfidl/IMFMediaTypeHandler::SetCurrentMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaTypeHandler::SetCurrentMediaType method
+# IMFMediaTypeHandler::SetCurrentMediaType
 
 
 ## -description

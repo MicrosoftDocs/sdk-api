@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeComp
-title: ITypeLib::GetTypeComp method
+title: ITypeLib::GetTypeComp
 author: windows-driver-content
 description: Enables a client compiler to bind to the types, variables, constants, and global functions for a library.
 old-location: automat\itypelib_gettypecomp.htm
 old-project: automat
 ms.assetid: 11c22e52-b0d5-4251-b8fa-ea3efae555e6
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetTypeComp method [Automation], GetTypeComp method [Automation], ITypeLib interface, GetTypeComp,ITypeLib.GetTypeComp, ITypeLib, ITypeLib interface [Automation], GetTypeComp method, ITypeLib::GetTypeComp, _oa96_ITypeLib_GetTypeComp, automat.itypelib_gettypecomp, oaidl/ITypeLib::GetTypeComp
+ms.date: 5/4/2018
+ms.keywords: GetTypeComp, GetTypeComp method [Automation], GetTypeComp method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeComp method, ITypeLib.GetTypeComp, ITypeLib::GetTypeComp, _oa96_ITypeLib_GetTypeComp, automat.itypelib_gettypecomp, oaidl/ITypeLib::GetTypeComp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeLib::GetTypeComp method
+# ITypeLib::GetTypeComp
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMStreamConfig.GetStreamCaps
-title: IAMStreamConfig::GetStreamCaps method
+title: IAMStreamConfig::GetStreamCaps
 author: windows-driver-content
 description: The GetStreamCaps method retrieves a set of format capabilities.
 old-location: dshow\iamstreamconfig_getstreamcaps.htm
 old-project: DirectShow
 ms.assetid: 9dd84847-2cae-42f2-a858-7106cd2ac075
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetStreamCaps method [DirectShow], GetStreamCaps method [DirectShow], IAMStreamConfig interface, GetStreamCaps,IAMStreamConfig.GetStreamCaps, IAMStreamConfig, IAMStreamConfig interface [DirectShow], GetStreamCaps method, IAMStreamConfig::GetStreamCaps, IAMStreamConfigGetStreamCaps, dshow.iamstreamconfig_getstreamcaps, strmif/IAMStreamConfig::GetStreamCaps
+ms.date: 4/30/2018
+ms.keywords: GetStreamCaps, GetStreamCaps method [DirectShow], GetStreamCaps method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetStreamCaps method, IAMStreamConfig.GetStreamCaps, IAMStreamConfig::GetStreamCaps, IAMStreamConfigGetStreamCaps, dshow.iamstreamconfig_getstreamcaps, strmif/IAMStreamConfig::GetStreamCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMStreamConfig::GetStreamCaps method
+# IAMStreamConfig::GetStreamCaps
 
 
 ## -description

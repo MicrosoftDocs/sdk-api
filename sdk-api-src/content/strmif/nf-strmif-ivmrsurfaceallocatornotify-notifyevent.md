@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.NotifyEvent
-title: IVMRSurfaceAllocatorNotify::NotifyEvent method
+title: IVMRSurfaceAllocatorNotify::NotifyEvent
 author: windows-driver-content
 description: The NotifyEvent method is called by the allocator-presenter to inform the VMR of any significant DirectShow events during the allocation or presentation processes.
 old-location: dshow\ivmrsurfaceallocatornotify_notifyevent.htm
 old-project: DirectShow
 ms.assetid: 566a889b-e6dc-42e7-ba71-0b0a17f3ae8c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], NotifyEvent method, IVMRSurfaceAllocatorNotify::NotifyEvent, IVMRSurfaceAllocatorNotifyNotifyEvent, NotifyEvent method [DirectShow], NotifyEvent method [DirectShow], IVMRSurfaceAllocatorNotify interface, NotifyEvent,IVMRSurfaceAllocatorNotify.NotifyEvent, dshow.ivmrsurfaceallocatornotify_notifyevent, strmif/IVMRSurfaceAllocatorNotify::NotifyEvent
+ms.date: 4/30/2018
+ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],NotifyEvent method, IVMRSurfaceAllocatorNotify.NotifyEvent, IVMRSurfaceAllocatorNotify::NotifyEvent, IVMRSurfaceAllocatorNotifyNotifyEvent, NotifyEvent, NotifyEvent method [DirectShow], NotifyEvent method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_notifyevent, strmif/IVMRSurfaceAllocatorNotify::NotifyEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRSurfaceAllocatorNotify::NotifyEvent method
+# IVMRSurfaceAllocatorNotify::NotifyEvent
 
 
 ## -description

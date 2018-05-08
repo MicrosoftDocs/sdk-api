@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetViewport
-title: IXpsOMTileBrush::GetViewport method
+title: IXpsOMTileBrush::GetViewport
 author: windows-driver-content
 description: Gets the portion of the destination geometry that is covered by a single tile.
 old-location: xps\ixpsomtilebrush_getviewport.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 98da8f16-2bfa-45f6-9de1-417e7fb5d1dc
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetViewport method [XPS Documents and Packaging], GetViewport method [XPS Documents and Packaging], IXpsOMTileBrush interface, GetViewport,IXpsOMTileBrush.GetViewport, IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], GetViewport method, IXpsOMTileBrush::GetViewport, xps.ixpsomtilebrush_getviewport, xpsobjectmodel/IXpsOMTileBrush::GetViewport
+ms.keywords: GetViewport, GetViewport method [XPS Documents and Packaging], GetViewport method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetViewport method, IXpsOMTileBrush.GetViewport, IXpsOMTileBrush::GetViewport, xps.ixpsomtilebrush_getviewport, xpsobjectmodel/IXpsOMTileBrush::GetViewport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMTileBrush::GetViewport method
+# IXpsOMTileBrush::GetViewport
 
 
 ## -description

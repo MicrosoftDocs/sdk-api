@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IOverlay.GetColorKey
-title: IOverlay::GetColorKey method
+title: IOverlay::GetColorKey
 author: windows-driver-content
 description: The GetColorKey method retrieves the current color key used for chroma keying.
 old-location: dshow\ioverlay_getcolorkey.htm
 old-project: DirectShow
 ms.assetid: fc9e414e-be53-46e7-b329-23f17fc23725
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetColorKey method [DirectShow], GetColorKey method [DirectShow], IOverlay interface, GetColorKey,IOverlay.GetColorKey, IOverlay, IOverlay interface [DirectShow], GetColorKey method, IOverlay::GetColorKey, IOverlayGetColorKey, dshow.ioverlay_getcolorkey, strmif/IOverlay::GetColorKey
+ms.date: 4/30/2018
+ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetColorKey method, IOverlay.GetColorKey, IOverlay::GetColorKey, IOverlayGetColorKey, dshow.ioverlay_getcolorkey, strmif/IOverlay::GetColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IOverlay::GetColorKey method
+# IOverlay::GetColorKey
 
 
 ## -description

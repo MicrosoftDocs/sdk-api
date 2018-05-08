@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.GetDescriptionData
-title: ITocEntry::GetDescriptionData method
+title: ITocEntry::GetDescriptionData
 author: windows-driver-content
 description: The GetDescriptionData method gets a description data block that was previously associated with the entry by a call to SetDescriptionData.
 old-location: mf\itocentry_getdescriptiondata.htm
 old-project: medfound
 ms.assetid: 4000b67c-e34e-4bce-9a0d-c56c9fc0f41e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDescriptionData method [Media Foundation], GetDescriptionData method [Media Foundation], ITocEntry interface, GetDescriptionData,ITocEntry.GetDescriptionData, ITocEntry, ITocEntry interface [Media Foundation], GetDescriptionData method, ITocEntry::GetDescriptionData, codecapi.itocentry_getdescriptiondata, mf.itocentry_getdescriptiondata, wmcodecdsp/ITocEntry::GetDescriptionData
+ms.date: 5/3/2018
+ms.keywords: GetDescriptionData, GetDescriptionData method [Media Foundation], GetDescriptionData method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetDescriptionData method, ITocEntry.GetDescriptionData, ITocEntry::GetDescriptionData, codecapi.itocentry_getdescriptiondata, mf.itocentry_getdescriptiondata, wmcodecdsp/ITocEntry::GetDescriptionData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocEntry::GetDescriptionData method
+# ITocEntry::GetDescriptionData
 
 
 ## -description

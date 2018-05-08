@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig
-title: IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig method
+title: IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig
 author: windows-driver-content
 description: Configures the COMTI intrinsics for the enclosed work.
 old-location: cos\iservicecomtiintrinsicsconfig_comtiintrinsicsconfig.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 2e534123-6300-4da3-a220-ba0b41a7c9a2
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ComTIIntrinsicsConfig method [COM+], ComTIIntrinsicsConfig method [COM+], IServiceComTIIntrinsicsConfig interface, ComTIIntrinsicsConfig,IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig interface [COM+], ComTIIntrinsicsConfig method, IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, _cos_IServiceComTIIntrinsicsConfig_ComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig_comtiintrinsicsconfig
+ms.keywords: ComTIIntrinsicsConfig, ComTIIntrinsicsConfig method [COM+], ComTIIntrinsicsConfig method [COM+],IServiceComTIIntrinsicsConfig interface, IServiceComTIIntrinsicsConfig interface [COM+],ComTIIntrinsicsConfig method, IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, _cos_IServiceComTIIntrinsicsConfig_ComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig_comtiintrinsicsconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig method
+# IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetSurfaceDesc
-title: IDirectDrawSurface7::SetSurfaceDesc method
+title: IDirectDrawSurface7::SetSurfaceDesc
 author: windows-driver-content
 description: Sets the characteristics of an existing surface.
 old-location: directdraw\idirectdrawsurface7_setsurfacedesc.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 541bd833-20c4-4b47-a3ed-c29f228a0626
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], SetSurfaceDesc method, IDirectDrawSurface7::SetSurfaceDesc, SetSurfaceDesc method [DirectDraw], SetSurfaceDesc method [DirectDraw], IDirectDrawSurface7 interface, SetSurfaceDesc,IDirectDrawSurface7.SetSurfaceDesc, ddraw/IDirectDrawSurface7::SetSurfaceDesc, directdraw.idirectdrawsurface7_setsurfacedesc
+ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetSurfaceDesc method, IDirectDrawSurface7.SetSurfaceDesc, IDirectDrawSurface7::SetSurfaceDesc, SetSurfaceDesc, SetSurfaceDesc method [DirectDraw], SetSurfaceDesc method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetSurfaceDesc, directdraw.idirectdrawsurface7_setsurfacedesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::SetSurfaceDesc method
+# IDirectDrawSurface7::SetSurfaceDesc
 
 
 ## -description

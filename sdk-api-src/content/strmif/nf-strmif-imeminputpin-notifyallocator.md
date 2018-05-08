@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMemInputPin.NotifyAllocator
-title: IMemInputPin::NotifyAllocator method
+title: IMemInputPin::NotifyAllocator
 author: windows-driver-content
 description: The NotifyAllocator method specifies an allocator for the connection.
 old-location: dshow\imeminputpin_notifyallocator.htm
 old-project: DirectShow
 ms.assetid: dbc9c0ce-3e9c-4402-9d3e-1c7295e94ad9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMemInputPin, IMemInputPin interface [DirectShow], NotifyAllocator method, IMemInputPin::NotifyAllocator, IMemInputPinNotifyAllocator, NotifyAllocator method [DirectShow], NotifyAllocator method [DirectShow], IMemInputPin interface, NotifyAllocator,IMemInputPin.NotifyAllocator, dshow.imeminputpin_notifyallocator, strmif/IMemInputPin::NotifyAllocator
+ms.date: 4/30/2018
+ms.keywords: IMemInputPin interface [DirectShow],NotifyAllocator method, IMemInputPin.NotifyAllocator, IMemInputPin::NotifyAllocator, IMemInputPinNotifyAllocator, NotifyAllocator, NotifyAllocator method [DirectShow], NotifyAllocator method [DirectShow],IMemInputPin interface, dshow.imeminputpin_notifyallocator, strmif/IMemInputPin::NotifyAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMemInputPin::NotifyAllocator method
+# IMemInputPin::NotifyAllocator
 
 
 ## -description

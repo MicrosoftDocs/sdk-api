@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescription.CoerceToCanonicalValue
-title: IPropertyDescription::CoerceToCanonicalValue method
+title: IPropertyDescription::CoerceToCanonicalValue
 author: windows-driver-content
 description: Coerces the value to the canonical value, according to the property description.
 old-location: properties\IPropertyDescription_CoerceToCanonicalValue.htm
 old-project: properties
 ms.assetid: bc51ec1b-c1ec-4162-a60d-b67d19d5b591
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: CoerceToCanonicalValue method [Windows Properties], CoerceToCanonicalValue method [Windows Properties], IPropertyDescription interface, CoerceToCanonicalValue,IPropertyDescription.CoerceToCanonicalValue, IPropertyDescription, IPropertyDescription interface [Windows Properties], CoerceToCanonicalValue method, IPropertyDescription::CoerceToCanonicalValue, properties.IPropertyDescription_CoerceToCanonicalValue, propsys/IPropertyDescription::CoerceToCanonicalValue, shell.IPropertyDescription_CoerceToCanonicalValue, shell_IPropertyDescription_CoerceToCanonicalValue
+ms.date: 4/27/2018
+ms.keywords: CoerceToCanonicalValue, CoerceToCanonicalValue method [Windows Properties], CoerceToCanonicalValue method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],CoerceToCanonicalValue method, IPropertyDescription.CoerceToCanonicalValue, IPropertyDescription::CoerceToCanonicalValue, properties.IPropertyDescription_CoerceToCanonicalValue, propsys/IPropertyDescription::CoerceToCanonicalValue, shell.IPropertyDescription_CoerceToCanonicalValue, shell_IPropertyDescription_CoerceToCanonicalValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescription::CoerceToCanonicalValue method
+# IPropertyDescription::CoerceToCanonicalValue
 
 
 ## -description

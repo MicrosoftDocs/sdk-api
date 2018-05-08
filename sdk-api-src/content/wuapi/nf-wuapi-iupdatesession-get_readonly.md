@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession.get_ReadOnly
-title: IUpdateSession::get_ReadOnly method
+title: IUpdateSession::get_ReadOnly
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether the session object is read-only.
 old-location: wua\iupdatesession_readonly.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: ba1e5092-33b1-4a03-b4f5-08b435706f49
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateSession, IUpdateSession interface [Windows Update Agent], ReadOnly property, IUpdateSession.ReadOnly, IUpdateSession::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent], IUpdateSession interface, get_ReadOnly,IUpdateSession.get_ReadOnly, wua.iupdatesession_readonly, wuapi/IUpdateSession::ReadOnly, wuapi/IUpdateSession::get_ReadOnly
+ms.keywords: IUpdateSession interface [Windows Update Agent],ReadOnly property, IUpdateSession.ReadOnly, IUpdateSession.get_ReadOnly, IUpdateSession::ReadOnly, IUpdateSession::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IUpdateSession interface, get_ReadOnly, wua.iupdatesession_readonly, wuapi/IUpdateSession::ReadOnly, wuapi/IUpdateSession::get_ReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSession::get_ReadOnly method
+# IUpdateSession::get_ReadOnly
 
 
 ## -description

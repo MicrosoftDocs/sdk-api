@@ -7,8 +7,8 @@ old-location: ics\inetsharingmanager.htm
 old-project: ICS
 ms.assetid: e7009d13-89c2-4fd9-8f6c-dcdc67178598
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingManager, INetSharingManager interface [ICS/ICF], INetSharingManager interface [ICS/ICF], described, _ics_inetsharingmanager, ics.inetsharingmanager, netcon/INetSharingManager
+ms.date: 5/1/2018
+ms.keywords: INetSharingManager, INetSharingManager interface [ICS/ICF], INetSharingManager interface [ICS/ICF],described, _ics_inetsharingmanager, ics.inetsharingmanager, netcon/INetSharingManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

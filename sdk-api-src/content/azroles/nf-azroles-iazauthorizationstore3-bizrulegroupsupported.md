@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.BizruleGroupSupported
-title: IAzAuthorizationStore3::BizruleGroupSupported method
+title: IAzAuthorizationStore3::BizruleGroupSupported
 author: windows-driver-content
 description: Returns a Boolean value that specifies whether this IAzAuthorizationStore3 object supports application groups that use business rule (BizRule) scripts.
 old-location: security\iazauthorizationstore3_bizrulegroupsupported_method.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 88449b12-5086-4f86-94d4-2a4afb4be070
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: BizruleGroupSupported method [Security], BizruleGroupSupported method [Security], IAzAuthorizationStore3 interface, BizruleGroupSupported,IAzAuthorizationStore3.BizruleGroupSupported, IAzAuthorizationStore3, IAzAuthorizationStore3 interface [Security], BizruleGroupSupported method, IAzAuthorizationStore3::BizruleGroupSupported, azroles/IAzAuthorizationStore3::BizruleGroupSupported, security.iazauthorizationstore3_bizrulegroupsupported_method
+ms.keywords: BizruleGroupSupported, BizruleGroupSupported method [Security], BizruleGroupSupported method [Security],IAzAuthorizationStore3 interface, IAzAuthorizationStore3 interface [Security],BizruleGroupSupported method, IAzAuthorizationStore3.BizruleGroupSupported, IAzAuthorizationStore3::BizruleGroupSupported, azroles/IAzAuthorizationStore3::BizruleGroupSupported, security.iazauthorizationstore3_bizrulegroupsupported_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAzAuthorizationStore3::BizruleGroupSupported method
+# IAzAuthorizationStore3::BizruleGroupSupported
 
 
 ## -description

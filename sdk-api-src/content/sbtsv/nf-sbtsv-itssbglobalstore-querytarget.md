@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.QueryTarget
-title: ITsSbGlobalStore::QueryTarget method
+title: ITsSbGlobalStore::QueryTarget
 author: windows-driver-content
 description: Retrieves the ITsSbTarget object for the given parameters.
 old-location: termserv\itssbglobalstore_querytarget.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: e89ed692-66e5-49ed-b5d9-69eefeeae66f
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], QueryTarget method, ITsSbGlobalStore::QueryTarget, QueryTarget method [Remote Desktop Services], QueryTarget method [Remote Desktop Services], ITsSbGlobalStore interface, QueryTarget,ITsSbGlobalStore.QueryTarget, sbtsv/ITsSbGlobalStore::QueryTarget, termserv.itssbglobalstore_querytarget
+ms.keywords: ITsSbGlobalStore interface [Remote Desktop Services],QueryTarget method, ITsSbGlobalStore.QueryTarget, ITsSbGlobalStore::QueryTarget, QueryTarget, QueryTarget method [Remote Desktop Services], QueryTarget method [Remote Desktop Services],ITsSbGlobalStore interface, sbtsv/ITsSbGlobalStore::QueryTarget, termserv.itssbglobalstore_querytarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbGlobalStore::QueryTarget method
+# ITsSbGlobalStore::QueryTarget
 
 
 ## -description

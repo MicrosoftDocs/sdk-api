@@ -7,7 +7,7 @@ old-location: security\crypt_image_reg.htm
 old-project: SecCNG
 ms.assetid: d7dc3bd8-3957-4a4c-9959-dc22505e129a
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: "*PCRYPT_IMAGE_REG, CRYPT_IMAGE_REG, CRYPT_IMAGE_REG structure [Security], PCRYPT_IMAGE_REG, PCRYPT_IMAGE_REG structure pointer [Security], _CRYPT_IMAGE_REG, bcrypt/CRYPT_IMAGE_REG, bcrypt/PCRYPT_IMAGE_REG, security.crypt_image_reg"
 ms.prod: windows-hardware
 ms.technology: windows-devices

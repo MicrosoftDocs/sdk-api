@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.CreatePermission
-title: IGPM::CreatePermission method
+title: IGPM::CreatePermission
 author: windows-driver-content
 description: Creates and returns an interface or object that represents the trustee (such as a user, computer or security group) and permission that applies to a single object; for example, to a GPO, SOM or a WMI filter.
 old-location: gpmc\igpm_createpermission.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 8da90ca3-1c81-414f-b1a0-a0dfcae745ba
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreatePermission method [GPMC], CreatePermission method [GPMC], GPM object, CreatePermission method [GPMC], IGPM interface, CreatePermission,IGPM.CreatePermission, GPM object [GPMC], CreatePermission method, IGPM, IGPM interface [GPMC], CreatePermission method, IGPM::CreatePermission, _win32_igpm_createpermission, gpmc.igpm_createpermission, gpmgmt/IGPM::CreatePermission, permGPOApply, permGPOEdit, permGPOEditSecurityAndDelete, permGPORead, permSOMGPOCreate, permSOMLink, permSOMLogging, permSOMPlanning, permSOMWMICreate, permSOMWMIFullControl, permWMIFilterEdit, permWMIFilterFullControl
+ms.keywords: CreatePermission, CreatePermission method [GPMC], CreatePermission method [GPMC],GPM object, CreatePermission method [GPMC],IGPM interface, GPM object [GPMC],CreatePermission method, IGPM interface [GPMC],CreatePermission method, IGPM.CreatePermission, IGPM::CreatePermission, _win32_igpm_createpermission, gpmc.igpm_createpermission, gpmgmt/IGPM::CreatePermission, permGPOApply, permGPOEdit, permGPOEditSecurityAndDelete, permGPORead, permSOMGPOCreate, permSOMLink, permSOMLogging, permSOMPlanning, permSOMWMICreate, permSOMWMIFullControl, permWMIFilterEdit, permWMIFilterFullControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPM::CreatePermission method
+# IGPM::CreatePermission
 
 
 ## -description

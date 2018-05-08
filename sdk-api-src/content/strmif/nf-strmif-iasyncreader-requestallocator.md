@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAsyncReader.RequestAllocator
-title: IAsyncReader::RequestAllocator method
+title: IAsyncReader::RequestAllocator
 author: windows-driver-content
 description: The RequestAllocator method requests an allocator during the pin connection.
 old-location: dshow\iasyncreader_requestallocator.htm
 old-project: DirectShow
 ms.assetid: 7bde850e-662f-4610-bac3-914c93584b30
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAsyncReader, IAsyncReader interface [DirectShow], RequestAllocator method, IAsyncReader::RequestAllocator, IAsyncReaderRequestAllocator, RequestAllocator method [DirectShow], RequestAllocator method [DirectShow], IAsyncReader interface, RequestAllocator,IAsyncReader.RequestAllocator, dshow.iasyncreader_requestallocator, strmif/IAsyncReader::RequestAllocator
+ms.date: 4/30/2018
+ms.keywords: IAsyncReader interface [DirectShow],RequestAllocator method, IAsyncReader.RequestAllocator, IAsyncReader::RequestAllocator, IAsyncReaderRequestAllocator, RequestAllocator, RequestAllocator method [DirectShow], RequestAllocator method [DirectShow],IAsyncReader interface, dshow.iasyncreader_requestallocator, strmif/IAsyncReader::RequestAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAsyncReader::RequestAllocator method
+# IAsyncReader::RequestAllocator
 
 
 ## -description

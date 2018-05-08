@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_Invitations
-title: IRDPSRAPIViewer::get_Invitations method
+title: IRDPSRAPIViewer::get_Invitations
 author: windows-driver-content
 description: Returns an object implementing the IRDPSRAPIInvitationManager interface.
 old-location: rdp\irdpsrapiviewer_invitations.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 2657e79a-de3a-44e1-90af-81242ac123f6
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIViewer, IRDPSRAPIViewer interface [RDP], Invitations property, IRDPSRAPIViewer.Invitations, IRDPSRAPIViewer::get_Invitations, Invitations property [RDP], Invitations property [RDP], IRDPSRAPIViewer interface, Invitations property [RDP], RDPViewer object, RDPViewer object [RDP], Invitations property, get_Invitations,IRDPSRAPIViewer.get_Invitations, rdp.irdpsrapiviewer_invitations, rdpencomapi/IRDPSRAPIViewer::Invitations, rdpencomapi/IRDPSRAPIViewer::get_Invitations
+ms.keywords: IRDPSRAPIViewer interface [RDP],Invitations property, IRDPSRAPIViewer.Invitations, IRDPSRAPIViewer.get_Invitations, IRDPSRAPIViewer::Invitations, IRDPSRAPIViewer::get_Invitations, Invitations property [RDP], Invitations property [RDP],IRDPSRAPIViewer interface, Invitations property [RDP],RDPViewer object, RDPViewer object [RDP],Invitations property, get_Invitations, rdp.irdpsrapiviewer_invitations, rdpencomapi/IRDPSRAPIViewer::Invitations, rdpencomapi/IRDPSRAPIViewer::get_Invitations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIViewer::get_Invitations method
+# IRDPSRAPIViewer::get_Invitations
 
 
 ## -description

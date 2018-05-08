@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordDescriptorByIndex
-title: IPBDA_EIT::GetRecordDescriptorByIndex method
+title: IPBDA_EIT::GetRecordDescriptorByIndex
 author: windows-driver-content
 description: Retrieves a descriptor for a specified record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecorddescriptorbyindex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 96ca5a6b-c515-4854-8e95-9cb155879b3b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies], IPBDA_EIT interface, GetRecordDescriptorByIndex,IPBDA_EIT.GetRecordDescriptorByIndex, IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], GetRecordDescriptorByIndex method, IPBDA_EIT::GetRecordDescriptorByIndex, dvbsiparser/IPBDA_EIT::GetRecordDescriptorByIndex, mstv.ipbda_eit_getrecorddescriptorbyindex
+ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IPBDA_EIT.GetRecordDescriptorByIndex, IPBDA_EIT::GetRecordDescriptorByIndex, dvbsiparser/IPBDA_EIT::GetRecordDescriptorByIndex, mstv.ipbda_eit_getrecorddescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IPBDA_EIT::GetRecordDescriptorByIndex method
+# IPBDA_EIT::GetRecordDescriptorByIndex
 
 
 ## -description

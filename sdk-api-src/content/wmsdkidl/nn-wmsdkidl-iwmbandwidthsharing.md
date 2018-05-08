@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: fd0e48bb-2e5e-4158-9ff1-5b603f219689
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMBandwidthSharing, IWMBandwidthSharing interface [windows Media Format], IWMBandwidthSharing interface [windows Media Format], described, IWMBandwidthSharingInterface, wmformat.iwmbandwidthsharing, wmsdkidl/IWMBandwidthSharing
+ms.keywords: IWMBandwidthSharing, IWMBandwidthSharing interface [windows Media Format], IWMBandwidthSharing interface [windows Media Format],described, IWMBandwidthSharingInterface, wmformat.iwmbandwidthsharing, wmsdkidl/IWMBandwidthSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

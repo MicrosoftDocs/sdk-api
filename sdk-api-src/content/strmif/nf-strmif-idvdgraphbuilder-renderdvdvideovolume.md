@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdGraphBuilder.RenderDvdVideoVolume
-title: IDvdGraphBuilder::RenderDvdVideoVolume method
+title: IDvdGraphBuilder::RenderDvdVideoVolume
 author: windows-driver-content
 description: The RenderDvdVideoVolume method completes building a filter graph according to user specifications for playing a DVD-Video volume.
 old-location: dshow\idvdgraphbuilder_renderdvdvideovolume.htm
 old-project: DirectShow
 ms.assetid: 731d2f4b-2a54-451a-8d98-b5fdf47c1dc8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdGraphBuilder, IDvdGraphBuilder interface [DirectShow], RenderDvdVideoVolume method, IDvdGraphBuilder::RenderDvdVideoVolume, IDvdGraphBuilderRenderDvdVideoVolume, RenderDvdVideoVolume method [DirectShow], RenderDvdVideoVolume method [DirectShow], IDvdGraphBuilder interface, RenderDvdVideoVolume,IDvdGraphBuilder.RenderDvdVideoVolume, dshow.idvdgraphbuilder_renderdvdvideovolume, strmif/IDvdGraphBuilder::RenderDvdVideoVolume
+ms.date: 4/30/2018
+ms.keywords: IDvdGraphBuilder interface [DirectShow],RenderDvdVideoVolume method, IDvdGraphBuilder.RenderDvdVideoVolume, IDvdGraphBuilder::RenderDvdVideoVolume, IDvdGraphBuilderRenderDvdVideoVolume, RenderDvdVideoVolume, RenderDvdVideoVolume method [DirectShow], RenderDvdVideoVolume method [DirectShow],IDvdGraphBuilder interface, dshow.idvdgraphbuilder_renderdvdvideovolume, strmif/IDvdGraphBuilder::RenderDvdVideoVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdGraphBuilder::RenderDvdVideoVolume method
+# IDvdGraphBuilder::RenderDvdVideoVolume
 
 
 ## -description

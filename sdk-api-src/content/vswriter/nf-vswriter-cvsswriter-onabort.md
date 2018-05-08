@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnAbort
-title: CVssWriter::OnAbort method
+title: CVssWriter::OnAbort
 author: windows-driver-content
 description: The OnAbort method is called by a writer following an Abort event issued by VSS indicating that a shadow copy operation has terminated prematurely. The writer uses this method to clean up from its attempt to participate in that operation.
 old-location: base\cvsswriter_onabort.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 56ba5f08-4803-4137-9edd-ce05bc19773b
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriter, CVssWriter interface [VSS], OnAbort method, CVssWriter::OnAbort, OnAbort method [VSS], OnAbort method [VSS], CVssWriter interface, OnAbort,CVssWriter.OnAbort, _win32_cvsswriter_onabort, base.cvsswriter_onabort, vswriter/CVssWriter::OnAbort
+ms.keywords: CVssWriter interface [VSS],OnAbort method, CVssWriter.OnAbort, CVssWriter::OnAbort, OnAbort, OnAbort method [VSS], OnAbort method [VSS],CVssWriter interface, _win32_cvsswriter_onabort, base.cvsswriter_onabort, vswriter/CVssWriter::OnAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriter::OnAbort method
+# CVssWriter::OnAbort
 
 
 ## -description

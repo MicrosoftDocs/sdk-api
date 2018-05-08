@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMTSLocator.GetEventDispatcher
-title: IMTSLocator::GetEventDispatcher method
+title: IMTSLocator::GetEventDispatcher
 author: windows-driver-content
 description: Retrieves a pointer to the event dispatcher for the current process.
 old-location: cos\imtslocator_geteventdispatcher.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 10e110bf-1a7c-48a2-ab9f-836ea21d442b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetEventDispatcher method [COM+], GetEventDispatcher method [COM+], IMTSLocator interface, GetEventDispatcher,IMTSLocator.GetEventDispatcher, IMTSLocator, IMTSLocator interface [COM+], GetEventDispatcher method, IMTSLocator::GetEventDispatcher, _dtc_IMtsLocator_GetEventDispatcher, comsvcs/IMTSLocator::GetEventDispatcher, cos.imtslocator_geteventdispatcher
+ms.keywords: GetEventDispatcher, GetEventDispatcher method [COM+], GetEventDispatcher method [COM+],IMTSLocator interface, IMTSLocator interface [COM+],GetEventDispatcher method, IMTSLocator.GetEventDispatcher, IMTSLocator::GetEventDispatcher, _dtc_IMtsLocator_GetEventDispatcher, comsvcs/IMTSLocator::GetEventDispatcher, cos.imtslocator_geteventdispatcher
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMTSLocator::GetEventDispatcher method
+# IMTSLocator::GetEventDispatcher
 
 
 ## -description

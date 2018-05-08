@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: a4bc8ef1-6005-4661-9bb1-20ea08d9a125
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterDetach, EngineAdapterDetach callback function [Windows Biometric Framework API], PIBIO_ENGINE_DETACH_FN, secbiomet.engineadapterdetach, winbio_adapter/EngineAdapterDetach
+ms.keywords: EngineAdapterDetach, EngineAdapterDetach callback function [Windows Biometric Framework API], PIBIO_ENGINE_DETACH_FN, PIBIO_ENGINE_DETACH_FN callback, secbiomet.engineadapterdetach, winbio_adapter/EngineAdapterDetach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_DETACH_FN callback
+# PIBIO_ENGINE_DETACH_FN callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.Resume
-title: IDvdControl2::Resume method
+title: IDvdControl2::Resume
 author: windows-driver-content
 description: The Resume method leaves a menu and resumes playback.
 old-location: dshow\idvdcontrol2_resume.htm
 old-project: DirectShow
 ms.assetid: 522dcb38-8c17-46b0-b5aa-5ee380057077
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], Resume method, IDvdControl2::Resume, IDvdControl2Resume, Resume method [DirectShow], Resume method [DirectShow], IDvdControl2 interface, Resume,IDvdControl2.Resume, dshow.idvdcontrol2_resume, strmif/IDvdControl2::Resume
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],Resume method, IDvdControl2.Resume, IDvdControl2::Resume, IDvdControl2Resume, Resume, Resume method [DirectShow], Resume method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_resume, strmif/IDvdControl2::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::Resume method
+# IDvdControl2::Resume
 
 
 ## -description

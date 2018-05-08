@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfTextInputProcessorEx.ActivateEx
-title: ITfTextInputProcessorEx::ActivateEx method
+title: ITfTextInputProcessorEx::ActivateEx
 author: windows-driver-content
 description: The ITfTextInputProcessorEx::ActivateEx method activates a text service when a user session starts. If the text service implements ITfTextInputProcessorEx and ActivateEx is called, ITfTextInputProcessor::Activate will not be called.
 old-location: tsf\itftextinputprocessorex_activateex.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: b628e803-ea94-4e69-9919-94e4164d5b36
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ActivateEx method [Text Services Framework], ActivateEx method [Text Services Framework], ITfTextInputProcessorEx interface, ActivateEx,ITfTextInputProcessorEx.ActivateEx, ITfTextInputProcessorEx, ITfTextInputProcessorEx interface [Text Services Framework], ActivateEx method, ITfTextInputProcessorEx::ActivateEx, TF_TMAE_COMLESS, TF_TMAE_CONSOLE, TF_TMAE_SECUREMODE, TF_TMAE_WOW16, msctf/ITfTextInputProcessorEx::ActivateEx, tsf.itftextinputprocessorex_activateex
+ms.keywords: ActivateEx, ActivateEx method [Text Services Framework], ActivateEx method [Text Services Framework],ITfTextInputProcessorEx interface, ITfTextInputProcessorEx interface [Text Services Framework],ActivateEx method, ITfTextInputProcessorEx.ActivateEx, ITfTextInputProcessorEx::ActivateEx, TF_TMAE_COMLESS, TF_TMAE_CONSOLE, TF_TMAE_SECUREMODE, TF_TMAE_WOW16, msctf/ITfTextInputProcessorEx::ActivateEx, tsf.itftextinputprocessorex_activateex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfTextInputProcessorEx::ActivateEx method
+# ITfTextInputProcessorEx::ActivateEx
 
 
 ## -description

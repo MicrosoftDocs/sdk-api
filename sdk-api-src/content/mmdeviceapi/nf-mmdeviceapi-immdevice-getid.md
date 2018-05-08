@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDevice.GetId
-title: IMMDevice::GetId method
+title: IMMDevice::GetId
 author: windows-driver-content
 description: The GetId method retrieves an endpoint ID string that identifies the audio endpoint device.
 old-location: coreaudio\immdevice_getid.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: b2f56713-856c-408e-8993-1d13e234dc89
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetId method [Core Audio], GetId method [Core Audio], IMMDevice interface, GetId,IMMDevice.GetId, IMMDevice, IMMDevice interface [Core Audio], GetId method, IMMDevice::GetId, IMMDeviceGetId, coreaudio.immdevice_getid, mmdeviceapi/IMMDevice::GetId
+ms.keywords: GetId, GetId method [Core Audio], GetId method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],GetId method, IMMDevice.GetId, IMMDevice::GetId, IMMDeviceGetId, coreaudio.immdevice_getid, mmdeviceapi/IMMDevice::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMMDevice::GetId method
+# IMMDevice::GetId
 
 
 ## -description

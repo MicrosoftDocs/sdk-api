@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMEnumStorage.Skip
-title: IWMDMEnumStorage::Skip method
+title: IWMDMEnumStorage::Skip
 author: windows-driver-content
 description: The Skip method skips over the specified number of storages in the enumeration sequence.
 old-location: wmdm\iwmdmenumstorage_skip.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 0073f279-95e4-41e3-9195-c4c93fd41fb6
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMEnumStorage, IWMDMEnumStorage interface [windows Media Device Manager], Skip method, IWMDMEnumStorage::Skip, IWMDMEnumStorageSkip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager], IWMDMEnumStorage interface, Skip,IWMDMEnumStorage.Skip, mswmdm/IWMDMEnumStorage::Skip, wmdm.iwmdmenumstorage_skip
+ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Skip method, IWMDMEnumStorage.Skip, IWMDMEnumStorage::Skip, IWMDMEnumStorageSkip, Skip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager],IWMDMEnumStorage interface, mswmdm/IWMDMEnumStorage::Skip, wmdm.iwmdmenumstorage_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMEnumStorage::Skip method
+# IWMDMEnumStorage::Skip
 
 
 ## -description

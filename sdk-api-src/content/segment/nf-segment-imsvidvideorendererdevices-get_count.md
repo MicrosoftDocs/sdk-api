@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRendererDevices.get_Count
-title: IMSVidVideoRendererDevices::get_Count method
+title: IMSVidVideoRendererDevices::get_Count
 author: windows-driver-content
 description: The get_Count method retrieves the number of items in the collection.
 old-location: mstv\imsvidvideorendererdevices_get_count.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4308ed6a-b9c4-46f3-98eb-be23cd49c7dc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRendererDevices, IMSVidVideoRendererDevices interface [Microsoft TV Technologies], get_Count method, IMSVidVideoRendererDevices::get_Count, IMSVidVideoRendererDevicesget_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies], IMSVidVideoRendererDevices interface, get_Count,IMSVidVideoRendererDevices.get_Count, mstv.imsvidvideorendererdevices_get_count, segment/IMSVidVideoRendererDevices::get_Count
+ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get_Count method, IMSVidVideoRendererDevices.get_Count, IMSVidVideoRendererDevices::get_Count, IMSVidVideoRendererDevicesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get_count, segment/IMSVidVideoRendererDevices::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRendererDevices::get_Count method
+# IMSVidVideoRendererDevices::get_Count
 
 
 ## -description

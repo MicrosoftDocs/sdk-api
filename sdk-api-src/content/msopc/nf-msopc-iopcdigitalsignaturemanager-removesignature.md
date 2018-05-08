@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.RemoveSignature
-title: IOpcDigitalSignatureManager::RemoveSignature method
+title: IOpcDigitalSignatureManager::RemoveSignature
 author: windows-driver-content
 description: Removes from the package a specified signature part that stores signature markup.
 old-location: opc\iopcdigitalsignaturemanager_removesignature.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: bc022b81-f61d-4efa-9c68-f798b2d929c2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcDigitalSignatureManager, IOpcDigitalSignatureManager interface [Open Packaging Conventions], RemoveSignature method, IOpcDigitalSignatureManager::RemoveSignature, RemoveSignature method [Open Packaging Conventions], RemoveSignature method [Open Packaging Conventions], IOpcDigitalSignatureManager interface, RemoveSignature,IOpcDigitalSignatureManager.RemoveSignature, msopc/IOpcDigitalSignatureManager::RemoveSignature, opc.iopcdigitalsignaturemanager_removesignature
+ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],RemoveSignature method, IOpcDigitalSignatureManager.RemoveSignature, IOpcDigitalSignatureManager::RemoveSignature, RemoveSignature, RemoveSignature method [Open Packaging Conventions], RemoveSignature method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::RemoveSignature, opc.iopcdigitalsignaturemanager_removesignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignatureManager::RemoveSignature method
+# IOpcDigitalSignatureManager::RemoveSignature
 
 
 ## -description

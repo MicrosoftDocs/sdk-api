@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetEmbedded
-title: ITextStoreACP::GetEmbedded method
+title: ITextStoreACP::GetEmbedded
 author: windows-driver-content
 description: Gets an embedded document.
 old-location: tsf\itextstoreacp_getembedded.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 82904a96-70ec-4ceb-a3c4-5d48c801a9ef
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework], ITextStoreACP interface, GetEmbedded,ITextStoreACP.GetEmbedded, ITextStoreACP, ITextStoreACP interface [Text Services Framework], GetEmbedded method, ITextStoreACP::GetEmbedded, _tsf_itextstoreacp_getembedded_ref, textstor/ITextStoreACP::GetEmbedded, tsf.itextstoreacp_getembedded
+ms.keywords: GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetEmbedded method, ITextStoreACP.GetEmbedded, ITextStoreACP::GetEmbedded, _tsf_itextstoreacp_getembedded_ref, textstor/ITextStoreACP::GetEmbedded, tsf.itextstoreacp_getembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP::GetEmbedded method
+# ITextStoreACP::GetEmbedded
 
 
 ## -description

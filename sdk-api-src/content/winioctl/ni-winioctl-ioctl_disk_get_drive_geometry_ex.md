@@ -8,7 +8,7 @@ old-project: FileIO
 ms.assetid: 8a0667c8-b182-4851-af8e-411d95da0e3b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Files], _win32_ioctl_disk_get_drive_geometry_ex, base.ioctl_disk_get_drive_geometry_ex, fs.ioctl_disk_get_drive_geometry_ex, winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
+ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Files], _win32_ioctl_disk_get_drive_geometry_ex, base.ioctl_disk_get_drive_geometry_ex, fs.ioctl_disk_get_drive_geometry_ex, winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

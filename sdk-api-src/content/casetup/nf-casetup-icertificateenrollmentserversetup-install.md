@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.Install
-title: ICertificateEnrollmentServerSetup::Install method
+title: ICertificateEnrollmentServerSetup::Install
 author: windows-driver-content
 description: Installs the Certificate Enrollment Web Service (CES) configured by the ICertificateEnrollmentServerSetup object.
 old-location: security\icertificateenrollmentserversetup_install.htm
 old-project: SecCrypto
 ms.assetid: 35578035-1D09-48AD-B6F5-7314C989B519
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertificateEnrollmentServerSetup, ICertificateEnrollmentServerSetup interface [Security], Install method, ICertificateEnrollmentServerSetup::Install, Install method [Security], Install method [Security], ICertificateEnrollmentServerSetup interface, Install,ICertificateEnrollmentServerSetup.Install, casetup/ICertificateEnrollmentServerSetup::Install, security.icertificateenrollmentserversetup_install
+ms.date: 4/30/2018
+ms.keywords: ICertificateEnrollmentServerSetup interface [Security],Install method, ICertificateEnrollmentServerSetup.Install, ICertificateEnrollmentServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::Install, security.icertificateenrollmentserversetup_install
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertificateEnrollmentServerSetup::Install method
+# ICertificateEnrollmentServerSetup::Install
 
 
 ## -description

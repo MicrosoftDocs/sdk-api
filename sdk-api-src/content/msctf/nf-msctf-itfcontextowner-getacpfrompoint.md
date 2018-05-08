@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetACPFromPoint
-title: ITfContextOwner::GetACPFromPoint method
+title: ITfContextOwner::GetACPFromPoint
 author: windows-driver-content
 description: The ITfContextOwner::GetACPFromPoint method converts a point in screen coordinates to an application character position.
 old-location: tsf\itfcontextowner_getacpfrompoint.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: f8091e79-33af-49d5-b3c8-d30952c62010
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework], ITfContextOwner interface, GetACPFromPoint,ITfContextOwner.GetACPFromPoint, ITfContextOwner, ITfContextOwner interface [Text Services Framework], GetACPFromPoint method, ITfContextOwner::GetACPFromPoint, _tsf_itfcontextowner_getacpfrompoint_ref, msctf/ITfContextOwner::GetACPFromPoint, tsf.itfcontextowner_getacpfrompoint
+ms.keywords: GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetACPFromPoint method, ITfContextOwner.GetACPFromPoint, ITfContextOwner::GetACPFromPoint, _tsf_itfcontextowner_getacpfrompoint_ref, msctf/ITfContextOwner::GetACPFromPoint, tsf.itfcontextowner_getacpfrompoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwner::GetACPFromPoint method
+# ITfContextOwner::GetACPFromPoint
 
 
 ## -description

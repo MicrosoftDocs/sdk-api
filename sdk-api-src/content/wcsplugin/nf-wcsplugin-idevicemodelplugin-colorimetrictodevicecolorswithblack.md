@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack
-title: IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack method
+title: IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack
 author: windows-driver-content
 description: Returns the appropriate device colors in response to the incoming number of colors, channels, black information, Commission Internationale l'Eclairge XYZ (CIEXYZ) colors and the proprietary plug-in algorithms.
 old-location: wcs\IDeviceModelPlugIn_ColorimetricToDeviceColorsWithBlack.htm
@@ -8,7 +8,7 @@ old-project: WCS
 ms.assetid: 74ec9ace-2468-4b26-a419-781f0b4fd073
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ColorimetricToDeviceColorsWithBlack method [Windows Color System], ColorimetricToDeviceColorsWithBlack method [Windows Color System], IDeviceModelPlugIn interface, ColorimetricToDeviceColorsWithBlack,IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack, IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], ColorimetricToDeviceColorsWithBlack method, IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack, _color_IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack, wcs.IDeviceModelPlugIn_ColorimetricToDeviceColorsWithBlack, wcsplugin/IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack
+ms.keywords: ColorimetricToDeviceColorsWithBlack, ColorimetricToDeviceColorsWithBlack method [Windows Color System], ColorimetricToDeviceColorsWithBlack method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],ColorimetricToDeviceColorsWithBlack method, IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack, IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack, _color_IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack, wcs.IDeviceModelPlugIn_ColorimetricToDeviceColorsWithBlack, wcsplugin/IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack method
+# IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack
 
 
 ## -description

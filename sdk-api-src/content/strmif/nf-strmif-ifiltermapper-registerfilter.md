@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterMapper.RegisterFilter
-title: IFilterMapper::RegisterFilter method
+title: IFilterMapper::RegisterFilter
 author: windows-driver-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Adds a filter to the registry; the filter can then be enumerated.
 old-location: dshow\ifiltermapper_registerfilter.htm
 old-project: DirectShow
 ms.assetid: e21da510-f4e6-417e-978d-bb53bf78cf94
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFilterMapper, IFilterMapper interface [DirectShow], RegisterFilter method, IFilterMapper::RegisterFilter, IFilterMapperRegisterFilter, RegisterFilter method [DirectShow], RegisterFilter method [DirectShow], IFilterMapper interface, RegisterFilter,IFilterMapper.RegisterFilter, dshow.ifiltermapper_registerfilter, strmif/IFilterMapper::RegisterFilter
+ms.date: 4/30/2018
+ms.keywords: IFilterMapper interface [DirectShow],RegisterFilter method, IFilterMapper.RegisterFilter, IFilterMapper::RegisterFilter, IFilterMapperRegisterFilter, RegisterFilter, RegisterFilter method [DirectShow], RegisterFilter method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerfilter, strmif/IFilterMapper::RegisterFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterMapper::RegisterFilter method
+# IFilterMapper::RegisterFilter
 
 
 ## -description

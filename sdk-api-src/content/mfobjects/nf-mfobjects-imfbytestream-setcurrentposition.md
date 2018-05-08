@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFByteStream.SetCurrentPosition
-title: IMFByteStream::SetCurrentPosition method
+title: IMFByteStream::SetCurrentPosition
 author: windows-driver-content
 description: Sets the current read or write position.
 old-location: mf\imfbytestream_setcurrentposition.htm
 old-project: medfound
 ms.assetid: 20518fed-4083-413b-b9b1-e54c4c5630d4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 20518fed-4083-413b-b9b1-e54c4c5630d4, IMFByteStream, IMFByteStream interface [Media Foundation], SetCurrentPosition method, IMFByteStream::SetCurrentPosition, SetCurrentPosition method [Media Foundation], SetCurrentPosition method [Media Foundation], IMFByteStream interface, SetCurrentPosition,IMFByteStream.SetCurrentPosition, mf.imfbytestream_setcurrentposition, mfobjects/IMFByteStream::SetCurrentPosition
+ms.date: 5/3/2018
+ms.keywords: 20518fed-4083-413b-b9b1-e54c4c5630d4, IMFByteStream interface [Media Foundation],SetCurrentPosition method, IMFByteStream.SetCurrentPosition, IMFByteStream::SetCurrentPosition, SetCurrentPosition, SetCurrentPosition method [Media Foundation], SetCurrentPosition method [Media Foundation],IMFByteStream interface, mf.imfbytestream_setcurrentposition, mfobjects/IMFByteStream::SetCurrentPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStream::SetCurrentPosition method
+# IMFByteStream::SetCurrentPosition
 
 
 ## -description

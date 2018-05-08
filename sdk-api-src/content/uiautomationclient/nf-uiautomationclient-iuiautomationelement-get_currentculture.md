@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentCulture
-title: IUIAutomationElement::get_CurrentCulture method
+title: IUIAutomationElement::get_CurrentCulture
 author: windows-driver-content
 description: Retrieves the culture identifier for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentCulture.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 369edad8-6629-41a9-82cb-386a6c02f5f9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentCulture property [Windows Accessibility], CurrentCulture property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentCulture property, IUIAutomationElement.CurrentCulture, IUIAutomationElement::get_CurrentCulture, get_CurrentCulture,IUIAutomationElement.get_CurrentCulture, uiauto.uiauto_IUIAutomationElement_CurrentCulture, uiauto_IUIAutomationElement_CurrentCulture, uiautomationclient/IUIAutomationElement::CurrentCulture, uiautomationclient/IUIAutomationElement::get_CurrentCulture, winauto.uiauto_IUIAutomationElement_CurrentCulture
+ms.keywords: CurrentCulture property [Windows Accessibility], CurrentCulture property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentCulture property, IUIAutomationElement.CurrentCulture, IUIAutomationElement.get_CurrentCulture, IUIAutomationElement::CurrentCulture, IUIAutomationElement::get_CurrentCulture, get_CurrentCulture, uiauto.uiauto_IUIAutomationElement_CurrentCulture, uiauto_IUIAutomationElement_CurrentCulture, uiautomationclient/IUIAutomationElement::CurrentCulture, uiautomationclient/IUIAutomationElement::get_CurrentCulture, winauto.uiauto_IUIAutomationElement_CurrentCulture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CurrentCulture method
+# IUIAutomationElement::get_CurrentCulture
 
 
 ## -description

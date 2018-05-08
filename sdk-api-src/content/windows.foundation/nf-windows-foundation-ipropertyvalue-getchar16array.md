@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetChar16Array
-title: IPropertyValue::GetChar16Array method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the the array of Unicode characters that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getchar16array.htm
 old-project: WinRT
 ms.assetid: b0649a8b-8060-4e0f-956e-879fe4185b11
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetChar16Array method [Windows Runtime], GetChar16Array method [Windows Runtime], IPropertyValue interface, GetChar16Array,IPropertyValue.GetChar16Array, IPropertyValue, IPropertyValue interface [Windows Runtime], GetChar16Array method, IPropertyValue::GetChar16Array, windows/IPropertyValue::GetChar16Array, winrt.ipropertyvalue_getchar16array
+ms.date: 5/4/2018
+ms.keywords: GetChar16Array, GetChar16Array method [Windows Runtime], GetChar16Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetChar16Array method, IPropertyValue.GetChar16Array, IPropertyValue.IPropertyValue, IPropertyValue::GetChar16Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetChar16Array, winrt.ipropertyvalue_getchar16array
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetChar16Array method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

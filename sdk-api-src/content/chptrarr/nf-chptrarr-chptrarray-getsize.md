@@ -1,6 +1,6 @@
 ---
 UID: NF:chptrarr.CHPtrArray.GetSize
-title: CHPtrArray::GetSize method
+title: CHPtrArray::GetSize
 author: windows-driver-content
 description: The GetSize function obtains the pointer array size. Because indexes are zero-based, the size is one greater than the largest index.
 old-location: wmi\chptrarray_getsize.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 9b9bcd3f-06d9-47f1-aecb-1c611c9866bd
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetSize@CHPtrArray@@QBEHXZ, CHPtrArray, CHPtrArray interface [Windows Management Instrumentation], GetSize method, CHPtrArray::GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation], CHPtrArray interface, GetSize,CHPtrArray.GetSize, chptrarr/CHPtrArray::GetSize, wmi.chptrarray_getsize"
+ms.keywords: "?GetSize@CHPtrArray@@QBEHXZ, CHPtrArray interface [Windows Management Instrumentation],GetSize method, CHPtrArray.GetSize, CHPtrArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::GetSize, wmi.chptrarray_getsize"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHPtrArray::GetSize method
+# CHPtrArray::GetSize
 
 
 ## -description

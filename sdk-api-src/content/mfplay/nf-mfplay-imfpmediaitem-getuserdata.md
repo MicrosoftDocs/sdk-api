@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetUserData
-title: IMFPMediaItem::GetUserData method
+title: IMFPMediaItem::GetUserData
 author: windows-driver-content
 description: Gets the application-defined value stored in the media item.
 old-location: mf\imfpmediaitem_getuserdata.htm
 old-project: medfound
 ms.assetid: aa99ced1-c32b-4bf5-b29a-e16eceddfed1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetUserData method [Media Foundation], GetUserData method [Media Foundation], IMFPMediaItem interface, GetUserData,IMFPMediaItem.GetUserData, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], GetUserData method, IMFPMediaItem::GetUserData, mf.imfpmediaitem_getuserdata, mfplay/IMFPMediaItem::GetUserData
+ms.date: 5/3/2018
+ms.keywords: GetUserData, GetUserData method [Media Foundation], GetUserData method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetUserData method, IMFPMediaItem.GetUserData, IMFPMediaItem::GetUserData, mf.imfpmediaitem_getuserdata, mfplay/IMFPMediaItem::GetUserData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaItem::GetUserData method
+# IMFPMediaItem::GetUserData
 
 
 ## -description

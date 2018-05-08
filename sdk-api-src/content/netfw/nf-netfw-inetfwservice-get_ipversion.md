@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwService.get_IpVersion
-title: INetFwService::get_IpVersion method
+title: INetFwService::get_IpVersion
 author: windows-driver-content
 description: Specifies the firewall IP version for which the service is authorized.
 old-location: ics\inetfwservice_ipversion.htm
 old-project: ICS
 ms.assetid: 992f39f6-ffb7-40c0-9227-6e626f226313
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwService, INetFwService interface [ICS/ICF], IpVersion property, INetFwService.IpVersion, INetFwService::get_IpVersion, INetFwService::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF], INetFwService interface, get_IpVersion,INetFwService.get_IpVersion, ics.inetfwservice_ipversion, netfw/INetFwService::IpVersion, netfw/INetFwService::get_IpVersion, netfw/INetFwService::put_IpVersion
+ms.date: 5/1/2018
+ms.keywords: INetFwService interface [ICS/ICF],IpVersion property, INetFwService.IpVersion, INetFwService.get_IpVersion, INetFwService::IpVersion, INetFwService::get_IpVersion, INetFwService::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF],INetFwService interface, get_IpVersion, ics.inetfwservice_ipversion, netfw/INetFwService::IpVersion, netfw/INetFwService::get_IpVersion, netfw/INetFwService::put_IpVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwService::get_IpVersion method
+# INetFwService::get_IpVersion
 
 
 ## -description

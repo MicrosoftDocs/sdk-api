@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.NotifySessionId
-title: IWRdsProtocolConnection::NotifySessionId method
+title: IWRdsProtocolConnection::NotifySessionId
 author: windows-driver-content
 description: Sends the identifier of the new session to the protocol.
 old-location: termserv\iwrdsprotocolconnection_notifysessionid.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 82bf892e-5e6f-4057-ac36-00e046080c93
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], NotifySessionId method, IWRdsProtocolConnection::NotifySessionId, NotifySessionId method [Remote Desktop Services], NotifySessionId method [Remote Desktop Services], IWRdsProtocolConnection interface, NotifySessionId,IWRdsProtocolConnection.NotifySessionId, termserv.iwrdsprotocolconnection_notifysessionid, wtsprotocol/IWRdsProtocolConnection::NotifySessionId
+ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],NotifySessionId method, IWRdsProtocolConnection.NotifySessionId, IWRdsProtocolConnection::NotifySessionId, NotifySessionId, NotifySessionId method [Remote Desktop Services], NotifySessionId method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_notifysessionid, wtsprotocol/IWRdsProtocolConnection::NotifySessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::NotifySessionId method
+# IWRdsProtocolConnection::NotifySessionId
 
 
 ## -description

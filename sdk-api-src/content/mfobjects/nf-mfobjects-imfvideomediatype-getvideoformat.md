@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFVideoMediaType.GetVideoFormat
-title: IMFVideoMediaType::GetVideoFormat method
+title: IMFVideoMediaType::GetVideoFormat
 author: windows-driver-content
 description: GetVideoFormat is no longer available for use as of Windows 7.
 old-location: mf\imfvideomediatype_getvideoformat.htm
 old-project: medfound
 ms.assetid: 2168c76e-2b83-40ad-8ac1-9b76f1a31b7b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 2168c76e-2b83-40ad-8ac1-9b76f1a31b7b, GetVideoFormat method [Media Foundation], GetVideoFormat method [Media Foundation], IMFVideoMediaType interface, GetVideoFormat,IMFVideoMediaType.GetVideoFormat, IMFVideoMediaType, IMFVideoMediaType interface [Media Foundation], GetVideoFormat method, IMFVideoMediaType::GetVideoFormat, mf.imfvideomediatype_getvideoformat, mfobjects/IMFVideoMediaType::GetVideoFormat
+ms.date: 5/3/2018
+ms.keywords: 2168c76e-2b83-40ad-8ac1-9b76f1a31b7b, GetVideoFormat, GetVideoFormat method [Media Foundation], GetVideoFormat method [Media Foundation],IMFVideoMediaType interface, IMFVideoMediaType interface [Media Foundation],GetVideoFormat method, IMFVideoMediaType.GetVideoFormat, IMFVideoMediaType::GetVideoFormat, mf.imfvideomediatype_getvideoformat, mfobjects/IMFVideoMediaType::GetVideoFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFVideoMediaType::GetVideoFormat method
+# IMFVideoMediaType::GetVideoFormat
 
 
 ## -description

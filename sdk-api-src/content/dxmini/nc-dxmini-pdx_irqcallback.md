@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c4e47fb2-0d41-4efe-8f84-41e279ac8bbb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IRQCallback, IRQCallback callback function [Display Devices], PDX_IRQCALLBACK, ddfncs_761fa81e-0ee5-45f4-9e33-36ecfe5c00fb.xml, display.irqcallback, dxmini/IRQCallback
+ms.keywords: IRQCallback, IRQCallback callback function [Display Devices], PDX_IRQCALLBACK, PDX_IRQCALLBACK callback, ddfncs_761fa81e-0ee5-45f4-9e33-36ecfe5c00fb.xml, display.irqcallback, dxmini/IRQCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# PDX_IRQCALLBACK callback
+# PDX_IRQCALLBACK callback function
 
 
 ## -description

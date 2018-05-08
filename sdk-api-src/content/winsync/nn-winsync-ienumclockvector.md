@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: cf191502-dc51-44a7-a82f-a0e38537574f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumClockVector, IEnumClockVector interface [Windows Sync], IEnumClockVector interface [Windows Sync], described, winsync.ienumclockvector, winsync/IEnumClockVector
+ms.keywords: IEnumClockVector, IEnumClockVector interface [Windows Sync], IEnumClockVector interface [Windows Sync],described, winsync.ienumclockvector, winsync/IEnumClockVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

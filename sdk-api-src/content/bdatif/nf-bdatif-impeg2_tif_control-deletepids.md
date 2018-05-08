@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.DeletePIDs
-title: IMPEG2_TIF_CONTROL::DeletePIDs method
+title: IMPEG2_TIF_CONTROL::DeletePIDs
 author: windows-driver-content
 description: The DeletePIDs method informs the Network Provider that the TIF no longer requires the specified PID.
 old-location: mstv\impeg2_tif_control_deletepids.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d5188e30-6980-482f-a690-494855d6aeea
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: DeletePIDs method [Microsoft TV Technologies], DeletePIDs method [Microsoft TV Technologies], IMPEG2_TIF_CONTROL interface, DeletePIDs,IMPEG2_TIF_CONTROL.DeletePIDs, IMPEG2_TIF_CONTROL, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies], DeletePIDs method, IMPEG2_TIF_CONTROL::DeletePIDs, IMPEG2_TIF_CONTROLDeletePIDs, bdatif/IMPEG2_TIF_CONTROL::DeletePIDs, mstv.impeg2_tif_control_deletepids
+ms.keywords: DeletePIDs, DeletePIDs method [Microsoft TV Technologies], DeletePIDs method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],DeletePIDs method, IMPEG2_TIF_CONTROL.DeletePIDs, IMPEG2_TIF_CONTROL::DeletePIDs, IMPEG2_TIF_CONTROLDeletePIDs, bdatif/IMPEG2_TIF_CONTROL::DeletePIDs, mstv.impeg2_tif_control_deletepids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMPEG2_TIF_CONTROL::DeletePIDs method
+# IMPEG2_TIF_CONTROL::DeletePIDs
 
 
 ## -description

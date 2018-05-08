@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.FreeColumn
-title: IDirectorySearch::FreeColumn method
+title: IDirectorySearch::FreeColumn
 author: windows-driver-content
 description: The IDirectorySearch::FreeColumn method releases memory that the IDirectorySearch::GetColumn method allocated for data for the column.
 old-location: adsi\idirectorysearch_freecolumn.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 72e75429-d22c-490f-a1f7-d771628067c9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: FreeColumn method [ADSI], FreeColumn method [ADSI], IDirectorySearch interface, FreeColumn,IDirectorySearch.FreeColumn, IDirectorySearch, IDirectorySearch interface [ADSI], FreeColumn method, IDirectorySearch::FreeColumn, _ds_idirectorysearch_freecolumn, adsi.idirectorysearch__freecolumn, adsi.idirectorysearch_freecolumn, iads/IDirectorySearch::FreeColumn
+ms.keywords: FreeColumn, FreeColumn method [ADSI], FreeColumn method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],FreeColumn method, IDirectorySearch.FreeColumn, IDirectorySearch::FreeColumn, _ds_idirectorysearch_freecolumn, adsi.idirectorysearch__freecolumn, adsi.idirectorysearch_freecolumn, iads/IDirectorySearch::FreeColumn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDirectorySearch::FreeColumn method
+# IDirectorySearch::FreeColumn
 
 
 ## -description

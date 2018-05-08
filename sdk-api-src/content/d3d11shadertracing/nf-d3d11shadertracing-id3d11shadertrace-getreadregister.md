@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetReadRegister
-title: ID3D11ShaderTrace::GetReadRegister method
+title: ID3D11ShaderTrace::GetReadRegister
 author: windows-driver-content
 description: Retrieves information about a register that was read by a step in the trace.
 old-location: direct3d11\id3d11shadertrace_getreadregister.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 2BDA0C25-B5D7-4A8D-A762-2C3FDF113433
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetReadRegister method [Direct3D 11], GetReadRegister method [Direct3D 11], ID3D11ShaderTrace interface, GetReadRegister,ID3D11ShaderTrace.GetReadRegister, ID3D11ShaderTrace, ID3D11ShaderTrace interface [Direct3D 11], GetReadRegister method, ID3D11ShaderTrace::GetReadRegister, d3d11shadertracing/ID3D11ShaderTrace::GetReadRegister, direct3d11.id3d11shadertrace_getreadregister
+ms.keywords: GetReadRegister, GetReadRegister method [Direct3D 11], GetReadRegister method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetReadRegister method, ID3D11ShaderTrace.GetReadRegister, ID3D11ShaderTrace::GetReadRegister, d3d11shadertracing/ID3D11ShaderTrace::GetReadRegister, direct3d11.id3d11shadertrace_getreadregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: D3D11SDKLayers.dll; D3D11_1SDKLayers.dll; D3D11_2SDKLayers.dll
 req.irql: 
 ---
 
-# ID3D11ShaderTrace::GetReadRegister method
+# ID3D11ShaderTrace::GetReadRegister
 
 
 ## -description

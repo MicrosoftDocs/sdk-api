@@ -7,7 +7,7 @@ old-location: winsock\pollfd.htm
 old-project: WinSock
 ms.assetid: 88f122ce-e2ca-44ce-bd53-d73d0962e7ef
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPWSAPOLLFD, *PWSAPOLLFD, LPWSAPOLLFD, LPWSAPOLLFD structure pointer [Winsock], PWSAPOLLFD, PWSAPOLLFD structure pointer [Winsock], WSAPOLLFD, WSAPOLLFD structure [Winsock], pollfd, winsock.pollfd, winsock2/LPWSAPOLLFD, winsock2/PWSAPOLLFD, winsock2/WSAPOLLFD"
 ms.prod: windows-hardware
 ms.technology: windows-devices

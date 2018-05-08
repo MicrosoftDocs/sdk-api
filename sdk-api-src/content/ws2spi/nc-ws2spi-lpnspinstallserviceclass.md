@@ -7,7 +7,7 @@ old-location: winsock\nspinstallserviceclass_2.htm
 old-project: WinSock
 ms.assetid: 437a3580-e296-4f20-8921-84e522cccc1a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: LPNSPINSTALLSERVICECLASS, NSPInstallServiceClass, NSPInstallServiceClass function [Winsock], _win32_nspinstallserviceclass_2, winsock.nspinstallserviceclass_2, ws2spi/NSPInstallServiceClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# LPNSPINSTALLSERVICECLASS callback
+# LPNSPINSTALLSERVICECLASS callback function
 
 
 ## -description

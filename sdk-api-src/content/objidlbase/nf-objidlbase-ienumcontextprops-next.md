@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IEnumContextProps.Next
-title: IEnumContextProps::Next method
+title: IEnumContextProps::Next
 author: windows-driver-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumcontextprops_next.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d1856f5c-dfed-462c-aca3-91b7973d6d8d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumContextProps, IEnumContextProps interface [COM], Next method, IEnumContextProps::Next, Next method [COM], Next method [COM], IEnumContextProps interface, Next,IEnumContextProps.Next, _com_ienumcontextprops_next, com.ienumcontextprops_next, objidlbase/IEnumContextProps::Next
+ms.keywords: IEnumContextProps interface [COM],Next method, IEnumContextProps.Next, IEnumContextProps::Next, Next, Next method [COM], Next method [COM],IEnumContextProps interface, _com_ienumcontextprops_next, com.ienumcontextprops_next, objidlbase/IEnumContextProps::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumContextProps::Next method
+# IEnumContextProps::Next
 
 
 ## -description

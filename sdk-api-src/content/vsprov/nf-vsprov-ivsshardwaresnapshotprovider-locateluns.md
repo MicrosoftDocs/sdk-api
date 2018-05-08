@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProvider.LocateLuns
-title: IVssHardwareSnapshotProvider::LocateLuns method
+title: IVssHardwareSnapshotProvider::LocateLuns
 author: windows-driver-content
 description: Prompts the hardware provider to make the shadow copy LUNs visible to the computer.
 old-location: base\ivsshardwaresnapshotprovider_locateluns.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 9a996875-a495-43c1-987e-67c31d0651c7
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interface [VSS], LocateLuns method, IVssHardwareSnapshotProvider::LocateLuns, LocateLuns method [VSS], LocateLuns method [VSS], IVssHardwareSnapshotProvider interface, LocateLuns,IVssHardwareSnapshotProvider.LocateLuns, base.ivsshardwaresnapshotprovider_locateluns, vsprov/IVssHardwareSnapshotProvider::LocateLuns
+ms.keywords: IVssHardwareSnapshotProvider interface [VSS],LocateLuns method, IVssHardwareSnapshotProvider.LocateLuns, IVssHardwareSnapshotProvider::LocateLuns, LocateLuns, LocateLuns method [VSS], LocateLuns method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_locateluns, vsprov/IVssHardwareSnapshotProvider::LocateLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssHardwareSnapshotProvider::LocateLuns method
+# IVssHardwareSnapshotProvider::LocateLuns
 
 
 ## -description

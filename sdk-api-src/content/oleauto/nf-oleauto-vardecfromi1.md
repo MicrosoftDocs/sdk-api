@@ -7,7 +7,7 @@ old-location: automat\vardecfromi1.htm
 old-project: automat
 ms.assetid: 00f42c0d-56c3-478e-ab54-4c7c8741a9ab
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarDecFromI1, VarDecFromI1 function [Automation], _oa96_VarDecFromI1, automat.vardecfromi1, oleauto/VarDecFromI1
 ms.prod: windows-hardware
 ms.technology: windows-devices

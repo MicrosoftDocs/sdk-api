@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetWhitePointRGB
-title: IWICDevelopRaw::SetWhitePointRGB method
+title: IWICDevelopRaw::SetWhitePointRGB
 author: windows-driver-content
 description: Sets the white point RGB values.
 old-location: wic\_wic_codec_iwicdevelopraw_setwhitepointrgb.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 7059959f-dcd6-46a6-a95c-1dd9610f865c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetWhitePointRGB method, IWICDevelopRaw::SetWhitePointRGB, SetWhitePointRGB method [Windows Imaging Component], SetWhitePointRGB method [Windows Imaging Component], IWICDevelopRaw interface, SetWhitePointRGB,IWICDevelopRaw.SetWhitePointRGB, _wic_codec_iwicdevelopraw_setwhitepointrgb, wic._wic_codec_iwicdevelopraw_setwhitepointrgb, wincodec/IWICDevelopRaw::SetWhitePointRGB
+ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetWhitePointRGB method, IWICDevelopRaw.SetWhitePointRGB, IWICDevelopRaw::SetWhitePointRGB, SetWhitePointRGB, SetWhitePointRGB method [Windows Imaging Component], SetWhitePointRGB method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setwhitepointrgb, wic._wic_codec_iwicdevelopraw_setwhitepointrgb, wincodec/IWICDevelopRaw::SetWhitePointRGB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::SetWhitePointRGB method
+# IWICDevelopRaw::SetWhitePointRGB
 
 
 ## -description

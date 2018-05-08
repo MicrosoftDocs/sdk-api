@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRemoteAdminSettings.put_RemoteAddresses
-title: INetFwRemoteAdminSettings::put_RemoteAddresses method
+title: INetFwRemoteAdminSettings::put_RemoteAddresses
 author: windows-driver-content
 description: Specifies a set of remote addresses from which remote administration is allowed.
 old-location: ics\inetfwremoteadminsettings_remoteaddresses.htm
 old-project: ICS
 ms.assetid: 9166617b-3e61-4d83-bd2f-92682ea5df82
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRemoteAdminSettings, INetFwRemoteAdminSettings interface [ICS/ICF], RemoteAddresses property, INetFwRemoteAdminSettings.RemoteAddresses, INetFwRemoteAdminSettings::get_RemoteAddresses, INetFwRemoteAdminSettings::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF], INetFwRemoteAdminSettings interface, ics.inetfwremoteadminsettings_remoteaddresses, netfw/INetFwRemoteAdminSettings::RemoteAddresses, netfw/INetFwRemoteAdminSettings::get_RemoteAddresses, netfw/INetFwRemoteAdminSettings::put_RemoteAddresses, put_RemoteAddresses,INetFwRemoteAdminSettings.put_RemoteAddresses
+ms.date: 5/1/2018
+ms.keywords: INetFwRemoteAdminSettings interface [ICS/ICF],RemoteAddresses property, INetFwRemoteAdminSettings.RemoteAddresses, INetFwRemoteAdminSettings.put_RemoteAddresses, INetFwRemoteAdminSettings::RemoteAddresses, INetFwRemoteAdminSettings::get_RemoteAddresses, INetFwRemoteAdminSettings::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwRemoteAdminSettings interface, ics.inetfwremoteadminsettings_remoteaddresses, netfw/INetFwRemoteAdminSettings::RemoteAddresses, netfw/INetFwRemoteAdminSettings::get_RemoteAddresses, netfw/INetFwRemoteAdminSettings::put_RemoteAddresses, put_RemoteAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRemoteAdminSettings::put_RemoteAddresses method
+# INetFwRemoteAdminSettings::put_RemoteAddresses
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.ProcessMessage
-title: IMFTransform::ProcessMessage method
+title: IMFTransform::ProcessMessage
 author: windows-driver-content
 description: Sends a message to the Media Foundation transform (MFT).
 old-location: mf\imftransform_processmessage.htm
 old-project: medfound
 ms.assetid: a6dc67e5-8473-444a-8463-24f411e59565
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTransform, IMFTransform interface [Media Foundation], ProcessMessage method, IMFTransform::ProcessMessage, ProcessMessage method [Media Foundation], ProcessMessage method [Media Foundation], IMFTransform interface, ProcessMessage,IMFTransform.ProcessMessage, a6dc67e5-8473-444a-8463-24f411e59565, mf.imftransform_processmessage, mftransform/IMFTransform::ProcessMessage
+ms.date: 5/3/2018
+ms.keywords: IMFTransform interface [Media Foundation],ProcessMessage method, IMFTransform.ProcessMessage, IMFTransform::ProcessMessage, ProcessMessage, ProcessMessage method [Media Foundation], ProcessMessage method [Media Foundation],IMFTransform interface, a6dc67e5-8473-444a-8463-24f411e59565, mf.imftransform_processmessage, mftransform/IMFTransform::ProcessMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::ProcessMessage method
+# IMFTransform::ProcessMessage
 
 
 ## -description

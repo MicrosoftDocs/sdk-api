@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfo.GetPackageId
-title: IAppxBundleManifestOptionalBundleInfo::GetPackageId method
+title: IAppxBundleManifestOptionalBundleInfo::GetPackageId
 author: windows-driver-content
 description: Retrieves an object that represents the identity of the &lt;OptionalBundle&gt;.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfo_getpackageid.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 57C8FB41-0218-4768-8E84-4ABF63EB94E8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPackageId method [App packaging and management], GetPackageId method [App packaging and management], IAppxBundleManifestOptionalBundleInfo interface, GetPackageId,IAppxBundleManifestOptionalBundleInfo.GetPackageId, IAppxBundleManifestOptionalBundleInfo, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management], GetPackageId method, IAppxBundleManifestOptionalBundleInfo::GetPackageId, appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetPackageId, appxpkg.iappxbundlemanifestoptionalbundleinfo_getpackageid
+ms.keywords: GetPackageId, GetPackageId method [App packaging and management], GetPackageId method [App packaging and management],IAppxBundleManifestOptionalBundleInfo interface, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],GetPackageId method, IAppxBundleManifestOptionalBundleInfo.GetPackageId, IAppxBundleManifestOptionalBundleInfo::GetPackageId, appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetPackageId, appxpkg.iappxbundlemanifestoptionalbundleinfo_getpackageid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleManifestOptionalBundleInfo::GetPackageId method
+# IAppxBundleManifestOptionalBundleInfo::GetPackageId
 
 
 ## -description

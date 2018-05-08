@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IConfigInterleaving.get_Mode
-title: IConfigInterleaving::get_Mode method
+title: IConfigInterleaving::get_Mode
 author: windows-driver-content
 description: The get_Mode method retrieves the interleaving quality setting.
 old-location: dshow\iconfiginterleaving_get_mode.htm
 old-project: DirectShow
 ms.assetid: 02136798-1c49-4181-ad08-d128f580dbd4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IConfigInterleaving, IConfigInterleaving interface [DirectShow], get_Mode method, IConfigInterleaving::get_Mode, IConfigInterleavingget_Mode, dshow.iconfiginterleaving_get_mode, get_Mode method [DirectShow], get_Mode method [DirectShow], IConfigInterleaving interface, get_Mode,IConfigInterleaving.get_Mode, strmif/IConfigInterleaving::get_Mode
+ms.date: 4/30/2018
+ms.keywords: IConfigInterleaving interface [DirectShow],get_Mode method, IConfigInterleaving.get_Mode, IConfigInterleaving::get_Mode, IConfigInterleavingget_Mode, dshow.iconfiginterleaving_get_mode, get_Mode, get_Mode method [DirectShow], get_Mode method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::get_Mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IConfigInterleaving::get_Mode method
+# IConfigInterleaving::get_Mode
 
 
 ## -description

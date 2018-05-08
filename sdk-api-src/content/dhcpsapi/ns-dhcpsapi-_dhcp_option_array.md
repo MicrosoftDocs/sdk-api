@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_array.htm
 old-project: DHCP
 ms.assetid: 15b9bab5-8211-47c8-bc93-96c922c1aec1
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_OPTION_ARRAY, DHCP_OPTION_ARRAY, DHCP_OPTION_ARRAY structure [DHCP], LPDHCP_OPTION_ARRAY, LPDHCP_OPTION_ARRAY structure pointer [DHCP], _DHCP_OPTION_ARRAY, dhcp.dhcp_option_array, dhcpsapi/DHCP_OPTION_ARRAY, dhcpsapi/LPDHCP_OPTION_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Specifies the number of option elements in <b>Options</b>.
 ### -field Options
 
 Pointer to a list of <a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">DHCP_OPTION</a> structures containing DHCP server options and the associated data.
+
+
+### -field Options.size_is
+
+ 
+
+
+### -field Options.size_is.NumElements
+
+ 
+
+
 
 
 ## -see-also

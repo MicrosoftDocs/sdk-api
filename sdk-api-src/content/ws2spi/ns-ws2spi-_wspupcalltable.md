@@ -7,7 +7,7 @@ old-location: winsock\wspupcalltable.htm
 old-project: WinSock
 ms.assetid: a5abf488-3e78-4e4e-ae5f-201bf0d77fc9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPWSPUPCALLTABLE, FAR * LPWSPUPCALLTABLE, FAR * LPWSPUPCALLTABLE structure [Winsock], WSPUPCALLTABLE, WSPUPCALLTABLE structure [Winsock], _WSPUPCALLTABLE, winsock.wspupcalltable, ws2spi/FAR * LPWSPUPCALLTABLE, ws2spi/WSPUPCALLTABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

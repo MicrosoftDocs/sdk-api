@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt32Array
-title: IPropertyValueStatics::CreateUInt32Array method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified array of unsigned 32-bit integer values.
 old-location: winrt\ipropertyvaluestatics_createuint32array.htm
 old-project: WinRT
 ms.assetid: 0f56b855-a116-4c58-ae93-1a3d49240685
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateUInt32Array method [Windows Runtime], CreateUInt32Array method [Windows Runtime], IPropertyValueStatics interface, CreateUInt32Array,IPropertyValueStatics.CreateUInt32Array, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateUInt32Array method, IPropertyValueStatics::CreateUInt32Array, windows/IPropertyValueStatics::CreateUInt32Array, winrt.ipropertyvaluefactory_createuint32array, winrt.ipropertyvaluestatics_createuint32array
+ms.date: 5/4/2018
+ms.keywords: CreateUInt32Array, CreateUInt32Array method [Windows Runtime], CreateUInt32Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt32Array method, IPropertyValueStatics.CreateUInt32Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt32Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt32Array, winrt.ipropertyvaluefactory_createuint32array, winrt.ipropertyvaluestatics_createuint32array
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateUInt32Array method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

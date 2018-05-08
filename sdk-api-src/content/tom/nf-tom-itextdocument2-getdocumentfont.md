@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.GetDocumentFont
-title: ITextDocument2::GetDocumentFont method
+title: ITextDocument2::GetDocumentFont
 author: windows-driver-content
 description: Gets an object that provides the default character format information for this instance of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getdocumentfont.htm
 old-project: Controls
 ms.assetid: b028c2f6-8c8e-49f8-bf53-f4a639cb16c2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetDocumentFont method [Windows Controls], GetDocumentFont method [Windows Controls], ITextDocument2 interface, GetDocumentFont,ITextDocument2.GetDocumentFont, ITextDocument2, ITextDocument2 interface [Windows Controls], GetDocumentFont method, ITextDocument2::GetDocumentFont, controls.itextdocument2_getdocumentfont, tom/ITextDocument2::GetDocumentFont
+ms.date: 4/27/2018
+ms.keywords: GetDocumentFont, GetDocumentFont method [Windows Controls], GetDocumentFont method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetDocumentFont method, ITextDocument2.GetDocumentFont, ITextDocument2::GetDocumentFont, controls.itextdocument2_getdocumentfont, tom/ITextDocument2::GetDocumentFont
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::GetDocumentFont method
+# ITextDocument2::GetDocumentFont
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents3.LibraryConnect
-title: IWMPEvents3::LibraryConnect method
+title: IWMPEvents3::LibraryConnect
 author: windows-driver-content
 description: The LibraryConnect event occurs when a library becomes available.
 old-location: wmp\iwmpevents3_iwmpevents3__libraryconnect.htm
 old-project: WMP
 ms.assetid: b9e1feb7-c894-4f37-9756-378740637f6e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents3, IWMPEvents3 interface [Windows Media Player], LibraryConnect method, IWMPEvents3::LibraryConnect, IWMPEvents3LibraryConnect, LibraryConnect method [Windows Media Player], LibraryConnect method [Windows Media Player], IWMPEvents3 interface, LibraryConnect,IWMPEvents3.LibraryConnect, wmp.iwmpevents3_iwmpevents3__libraryconnect, wmp/IWMPEvents3::LibraryConnect
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents3 interface [Windows Media Player],LibraryConnect method, IWMPEvents3.LibraryConnect, IWMPEvents3::LibraryConnect, IWMPEvents3LibraryConnect, LibraryConnect, LibraryConnect method [Windows Media Player], LibraryConnect method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__libraryconnect, wmp/IWMPEvents3::LibraryConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents3::LibraryConnect method
+# IWMPEvents3::LibraryConnect
 
 
 ## -description

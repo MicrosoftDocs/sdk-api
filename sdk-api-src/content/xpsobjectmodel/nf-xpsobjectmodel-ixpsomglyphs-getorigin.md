@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetOrigin
-title: IXpsOMGlyphs::GetOrigin method
+title: IXpsOMGlyphs::GetOrigin
 author: windows-driver-content
 description: Gets the starting position of the text.
 old-location: xps\ixpsomglyphs_getorigin.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: ec661cff-4671-401b-9c77-5036549762af
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetOrigin method [XPS Documents and Packaging], GetOrigin method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetOrigin,IXpsOMGlyphs.GetOrigin, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetOrigin method, IXpsOMGlyphs::GetOrigin, xps.ixpsomglyphs_getorigin, xpsobjectmodel/IXpsOMGlyphs::GetOrigin
+ms.keywords: GetOrigin, GetOrigin method [XPS Documents and Packaging], GetOrigin method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetOrigin method, IXpsOMGlyphs.GetOrigin, IXpsOMGlyphs::GetOrigin, xps.ixpsomglyphs_getorigin, xpsobjectmodel/IXpsOMGlyphs::GetOrigin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetOrigin method
+# IXpsOMGlyphs::GetOrigin
 
 
 ## -description

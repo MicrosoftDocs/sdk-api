@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.GetEndPoint
-title: IXpsOMLinearGradientBrush::GetEndPoint method
+title: IXpsOMLinearGradientBrush::GetEndPoint
 author: windows-driver-content
 description: Gets the end point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_getendpoint.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c8f34c4b-28f1-4a8f-bf8e-9872debc9eb1
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetEndPoint method [XPS Documents and Packaging], GetEndPoint method [XPS Documents and Packaging], IXpsOMLinearGradientBrush interface, GetEndPoint,IXpsOMLinearGradientBrush.GetEndPoint, IXpsOMLinearGradientBrush, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging], GetEndPoint method, IXpsOMLinearGradientBrush::GetEndPoint, xps.ixpsomlineargradientbrush_getendpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::GetEndPoint
+ms.keywords: GetEndPoint, GetEndPoint method [XPS Documents and Packaging], GetEndPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],GetEndPoint method, IXpsOMLinearGradientBrush.GetEndPoint, IXpsOMLinearGradientBrush::GetEndPoint, xps.ixpsomlineargradientbrush_getendpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::GetEndPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMLinearGradientBrush::GetEndPoint method
+# IXpsOMLinearGradientBrush::GetEndPoint
 
 
 ## -description

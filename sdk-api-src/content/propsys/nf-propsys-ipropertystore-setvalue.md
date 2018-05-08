@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyStore.SetValue
-title: IPropertyStore::SetValue method
+title: IPropertyStore::SetValue
 author: windows-driver-content
 description: This method sets a property value or replaces or removes an existing value.
 old-location: audio\ipropertystore_setvalue.htm
 old-project: audio
 ms.assetid: be21bcb2-6875-4559-abd7-a496f0fcddd6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IPropertyStore, IPropertyStore interface [Audio Devices], SetValue method, IPropertyStore::SetValue, SetValue method [Audio Devices], SetValue method [Audio Devices], IPropertyStore interface, SetValue,IPropertyStore.SetValue, audio.ipropertystore_setvalue, audio_syseffects_r_0f840b2a-35e2-4a93-9c50-84671d662b7d.xml, propsys/IPropertyStore::SetValue
+ms.date: 5/1/2018
+ms.keywords: IPropertyStore interface [Audio Devices],SetValue method, IPropertyStore.SetValue, IPropertyStore::SetValue, SetValue, SetValue method [Audio Devices], SetValue method [Audio Devices],IPropertyStore interface, audio.ipropertystore_setvalue, audio_syseffects_r_0f840b2a-35e2-4a93-9c50-84671d662b7d.xml, propsys/IPropertyStore::SetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql: All levels
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyStore::SetValue method
+# IPropertyStore::SetValue
 
 
 ## -description

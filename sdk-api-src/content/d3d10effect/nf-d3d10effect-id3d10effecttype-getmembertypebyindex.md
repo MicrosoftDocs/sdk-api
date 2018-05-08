@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectType.GetMemberTypeByIndex
-title: ID3D10EffectType::GetMemberTypeByIndex method
+title: ID3D10EffectType::GetMemberTypeByIndex
 author: windows-driver-content
 description: Get a member type by index.
 old-location: direct3d10\id3d10effecttype_getmembertypebyindex.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype_getmembertypebyindex.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 7362d2fb-1fd6-ee03-e201-58defbf1d468, GetMemberTypeByIndex method [Direct3D 10], GetMemberTypeByIndex method [Direct3D 10], ID3D10EffectType interface, GetMemberTypeByIndex,ID3D10EffectType.GetMemberTypeByIndex, ID3D10EffectType, ID3D10EffectType interface [Direct3D 10], GetMemberTypeByIndex method, ID3D10EffectType::GetMemberTypeByIndex, d3d10effect/ID3D10EffectType::GetMemberTypeByIndex, direct3d10.id3d10effecttype_getmembertypebyindex
+ms.keywords: 7362d2fb-1fd6-ee03-e201-58defbf1d468, GetMemberTypeByIndex, GetMemberTypeByIndex method [Direct3D 10], GetMemberTypeByIndex method [Direct3D 10],ID3D10EffectType interface, ID3D10EffectType interface [Direct3D 10],GetMemberTypeByIndex method, ID3D10EffectType.GetMemberTypeByIndex, ID3D10EffectType::GetMemberTypeByIndex, d3d10effect/ID3D10EffectType::GetMemberTypeByIndex, direct3d10.id3d10effecttype_getmembertypebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectType::GetMemberTypeByIndex method
+# ID3D10EffectType::GetMemberTypeByIndex
 
 
 ## -description

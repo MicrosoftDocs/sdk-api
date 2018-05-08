@@ -65,6 +65,16 @@ Contains the name to which the file should be renamed. Use only when calling
  
 
 
+### -field DUMMYUNIONNAME.ReplaceIfExists
+
+<b>TRUE</b> to replace the file; otherwise, <b>FALSE</b>.
+
+
+### -field DUMMYUNIONNAME.Flags
+
+ 
+
+
 ### -field ReplaceIfExists
 
 <b>TRUE</b> to replace the file; otherwise, <b>FALSE</b>.

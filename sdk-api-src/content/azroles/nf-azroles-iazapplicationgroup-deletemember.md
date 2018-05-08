@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteMember
-title: IAzApplicationGroup::DeleteMember method
+title: IAzApplicationGroup::DeleteMember
 author: windows-driver-content
 description: Removes the specified security identifier (SID) in text form from the list of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_deletemember.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 9db3b162-b37d-4a86-a3c0-cb594370238b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplicationGroup object [Security], DeleteMember method, DeleteMember method [Security], DeleteMember method [Security], AzApplicationGroup object, DeleteMember method [Security], IAzApplicationGroup interface, DeleteMember,IAzApplicationGroup.DeleteMember, IAzApplicationGroup, IAzApplicationGroup interface [Security], DeleteMember method, IAzApplicationGroup::DeleteMember, azroles/IAzApplicationGroup::DeleteMember, security.iazapplicationgroup_deletemember
+ms.keywords: AzApplicationGroup object [Security],DeleteMember method, DeleteMember, DeleteMember method [Security], DeleteMember method [Security],AzApplicationGroup object, DeleteMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteMember method, IAzApplicationGroup.DeleteMember, IAzApplicationGroup::DeleteMember, azroles/IAzApplicationGroup::DeleteMember, security.iazapplicationgroup_deletemember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplicationGroup::DeleteMember method
+# IAzApplicationGroup::DeleteMember
 
 
 ## -description

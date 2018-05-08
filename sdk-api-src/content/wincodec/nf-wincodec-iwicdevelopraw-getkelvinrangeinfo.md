@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetKelvinRangeInfo
-title: IWICDevelopRaw::GetKelvinRangeInfo method
+title: IWICDevelopRaw::GetKelvinRangeInfo
 author: windows-driver-content
 description: Gets the information about the current Kelvin range of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getkelvinrangeinfo.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: c718c957-3523-4281-aa7e-761977a6b4c5
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetKelvinRangeInfo method [Windows Imaging Component], GetKelvinRangeInfo method [Windows Imaging Component], IWICDevelopRaw interface, GetKelvinRangeInfo,IWICDevelopRaw.GetKelvinRangeInfo, IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], GetKelvinRangeInfo method, IWICDevelopRaw::GetKelvinRangeInfo, _wic_codec_iwicdevelopraw_getkelvinrangeinfo, wic._wic_codec_iwicdevelopraw_getkelvinrangeinfo, wincodec/IWICDevelopRaw::GetKelvinRangeInfo
+ms.keywords: GetKelvinRangeInfo, GetKelvinRangeInfo method [Windows Imaging Component], GetKelvinRangeInfo method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetKelvinRangeInfo method, IWICDevelopRaw.GetKelvinRangeInfo, IWICDevelopRaw::GetKelvinRangeInfo, _wic_codec_iwicdevelopraw_getkelvinrangeinfo, wic._wic_codec_iwicdevelopraw_getkelvinrangeinfo, wincodec/IWICDevelopRaw::GetKelvinRangeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::GetKelvinRangeInfo method
+# IWICDevelopRaw::GetKelvinRangeInfo
 
 
 ## -description

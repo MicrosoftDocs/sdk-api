@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource2.get_WSTCounter
-title: IMSVidStreamBufferSource2::get_WSTCounter method
+title: IMSVidStreamBufferSource2::get_WSTCounter
 author: windows-driver-content
 description: The get_WSTCounter method enables the caller to get performance statistics from the Stream Buffer Source for the World Standard Teletext (WST) stream.
 old-location: mstv\imsvidstreambuffersource2_get_wstcounter.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a506a152-c0e7-497b-a494-5464f712f432
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSource2, IMSVidStreamBufferSource2 interface [Microsoft TV Technologies], get_WSTCounter method, IMSVidStreamBufferSource2::get_WSTCounter, IMSVidStreamBufferSource2get_WSTCounter, get_WSTCounter method [Microsoft TV Technologies], get_WSTCounter method [Microsoft TV Technologies], IMSVidStreamBufferSource2 interface, get_WSTCounter,IMSVidStreamBufferSource2.get_WSTCounter, mstv.imsvidstreambuffersource2_get_wstcounter, segment/IMSVidStreamBufferSource2::get_WSTCounter
+ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],get_WSTCounter method, IMSVidStreamBufferSource2.get_WSTCounter, IMSVidStreamBufferSource2::get_WSTCounter, IMSVidStreamBufferSource2get_WSTCounter, get_WSTCounter, get_WSTCounter method [Microsoft TV Technologies], get_WSTCounter method [Microsoft TV Technologies],IMSVidStreamBufferSource2 interface, mstv.imsvidstreambuffersource2_get_wstcounter, segment/IMSVidStreamBufferSource2::get_WSTCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSource2::get_WSTCounter method
+# IMSVidStreamBufferSource2::get_WSTCounter
 
 
 ## -description

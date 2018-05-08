@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Attributes.get__NewEnum
-title: IX509Attributes::get__NewEnum method
+title: IX509Attributes::get__NewEnum
 author: windows-driver-content
 description: Retrieves the enumerator for the collection.
 old-location: security\ix509attributes__newenum_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 12964b8d-d079-4c10-82a6-5e348ecfb252
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509Attributes, IX509Attributes interface [Security], _NewEnum property, IX509Attributes._NewEnum, IX509Attributes::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], IX509Attributes interface, certenroll/IX509Attributes::_NewEnum, certenroll/IX509Attributes::get__NewEnum, get__NewEnum,IX509Attributes.get__NewEnum, security.ix509attributes__newenum_property
+ms.keywords: IX509Attributes interface [Security],_NewEnum property, IX509Attributes._NewEnum, IX509Attributes.get__NewEnum, IX509Attributes::_NewEnum, IX509Attributes::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509Attributes interface, certenroll/IX509Attributes::_NewEnum, certenroll/IX509Attributes::get__NewEnum, get__NewEnum, security.ix509attributes__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509Attributes::get__NewEnum method
+# IX509Attributes::get__NewEnum
 
 
 ## -description

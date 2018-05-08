@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetDeviceAttributes
-title: IMFSensorDevice::GetDeviceAttributes method
+title: IMFSensorDevice::GetDeviceAttributes
 author: windows-driver-content
 description: Gets the IMFAttributes for the sensor group.
 old-location: mf\imfsensordevice_getdeviceattributes.htm
 old-project: medfound
 ms.assetid: 4F509D34-23C3-4034-8D89-0A2E0651F235
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDeviceAttributes method [Media Foundation], GetDeviceAttributes method [Media Foundation], IMFSensorDevice interface, GetDeviceAttributes,IMFSensorDevice.GetDeviceAttributes, IMFSensorDevice, IMFSensorDevice interface [Media Foundation], GetDeviceAttributes method, IMFSensorDevice::GetDeviceAttributes, mf.imfsensordevice_getdeviceattributes, mfidl/IMFSensorDevice::GetDeviceAttributes
+ms.date: 5/3/2018
+ms.keywords: GetDeviceAttributes, GetDeviceAttributes method [Media Foundation], GetDeviceAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceAttributes method, IMFSensorDevice.GetDeviceAttributes, IMFSensorDevice::GetDeviceAttributes, mf.imfsensordevice_getdeviceattributes, mfidl/IMFSensorDevice::GetDeviceAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorDevice::GetDeviceAttributes method
+# IMFSensorDevice::GetDeviceAttributes
 
 
 ## -description

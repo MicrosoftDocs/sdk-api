@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.SetMatrixTransposeArray
-title: ID3D10EffectMatrixVariable::SetMatrixTransposeArray method
+title: ID3D10EffectMatrixVariable::SetMatrixTransposeArray
 author: windows-driver-content
 description: Transpose and set an array of floating-point matrices.
 old-location: direct3d10\id3d10effectmatrixvariable_setmatrixtransposearray.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_setmatrixtransposearray.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10EffectMatrixVariable, ID3D10EffectMatrixVariable interface [Direct3D 10], SetMatrixTransposeArray method, ID3D10EffectMatrixVariable::SetMatrixTransposeArray, SetMatrixTransposeArray method [Direct3D 10], SetMatrixTransposeArray method [Direct3D 10], ID3D10EffectMatrixVariable interface, SetMatrixTransposeArray,ID3D10EffectMatrixVariable.SetMatrixTransposeArray, cb946e9f-7956-c362-ead3-2f851b8fa74b, d3d10effect/ID3D10EffectMatrixVariable::SetMatrixTransposeArray, direct3d10.id3d10effectmatrixvariable_setmatrixtransposearray
+ms.keywords: ID3D10EffectMatrixVariable interface [Direct3D 10],SetMatrixTransposeArray method, ID3D10EffectMatrixVariable.SetMatrixTransposeArray, ID3D10EffectMatrixVariable::SetMatrixTransposeArray, SetMatrixTransposeArray, SetMatrixTransposeArray method [Direct3D 10], SetMatrixTransposeArray method [Direct3D 10],ID3D10EffectMatrixVariable interface, cb946e9f-7956-c362-ead3-2f851b8fa74b, d3d10effect/ID3D10EffectMatrixVariable::SetMatrixTransposeArray, direct3d10.id3d10effectmatrixvariable_setmatrixtransposearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectMatrixVariable::SetMatrixTransposeArray method
+# ID3D10EffectMatrixVariable::SetMatrixTransposeArray
 
 
 ## -description

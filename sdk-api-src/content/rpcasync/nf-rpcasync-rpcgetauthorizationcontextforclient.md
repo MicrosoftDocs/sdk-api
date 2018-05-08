@@ -7,7 +7,7 @@ old-location: rpc\rpcgetauthorizationcontextforclient.htm
 old-project: Rpc
 ms.assetid: 993dfa23-4303-4601-b05d-70158e5e87ed
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcGetAuthorizationContextForClient, RpcGetAuthorizationContextForClient function [RPC], _rpc_rpcgetauthorizationcontextforclient, rpc.rpcgetauthorizationcontextforclient, rpcasync/RpcGetAuthorizationContextForClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

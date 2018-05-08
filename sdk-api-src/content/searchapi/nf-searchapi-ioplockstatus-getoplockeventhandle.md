@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IOpLockStatus.GetOplockEventHandle
-title: IOpLockStatus::GetOplockEventHandle method
+title: IOpLockStatus::GetOplockEventHandle
 author: windows-driver-content
 description: Gets the event handle of the opportunistic lock (OpLock). The event object is set to the signaled state when the OpLock is broken, enabling the indexer to stop all operations on the underlying IUrlAccessor object.
 old-location: search\_search_IOpLockStatus_GetOplockEventHandle.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\ioplockstatus\getoplockeventhandle.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetOplockEventHandle method [search], GetOplockEventHandle method [search], IOpLockStatus interface, GetOplockEventHandle,IOpLockStatus.GetOplockEventHandle, IOpLockStatus, IOpLockStatus interface [search], GetOplockEventHandle method, IOpLockStatus::GetOplockEventHandle, _search_IOpLockStatus_GetOplockEventHandle, search._search_IOpLockStatus_GetOplockEventHandle, searchapi/IOpLockStatus::GetOplockEventHandle
+ms.date: 5/4/2018
+ms.keywords: GetOplockEventHandle, GetOplockEventHandle method [search], GetOplockEventHandle method [search],IOpLockStatus interface, IOpLockStatus interface [search],GetOplockEventHandle method, IOpLockStatus.GetOplockEventHandle, IOpLockStatus::GetOplockEventHandle, _search_IOpLockStatus_GetOplockEventHandle, search._search_IOpLockStatus_GetOplockEventHandle, searchapi/IOpLockStatus::GetOplockEventHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpLockStatus::GetOplockEventHandle method
+# IOpLockStatus::GetOplockEventHandle
 
 
 ## -description

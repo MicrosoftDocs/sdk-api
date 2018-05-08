@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulkCallback.OnProgress
-title: IPortableDevicePropertiesBulkCallback::OnProgress method
+title: IPortableDevicePropertiesBulkCallback::OnProgress
 author: windows-driver-content
 description: The OnProgress method is called by the SDK when a bulk operation started by IPortableDevicePropertiesBulk::Start has sent data to the device and received some information back.
 old-location: wpdsdk\iportabledevicepropertiesbulkcallback_onprogress.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: f357d7da-00cd-4439-af6d-5d3716a8443b
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDevicePropertiesBulkCallback, IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK], OnProgress method, IPortableDevicePropertiesBulkCallback::OnProgress, IPortableDevicePropertiesBulkCallbackOnProgress, OnProgress method [Windows Portable Devices SDK], OnProgress method [Windows Portable Devices SDK], IPortableDevicePropertiesBulkCallback interface, OnProgress,IPortableDevicePropertiesBulkCallback.OnProgress, portabledeviceapi/IPortableDevicePropertiesBulkCallback::OnProgress, wpdsdk.iportabledevicepropertiesbulkcallback_onprogress
+ms.keywords: IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK],OnProgress method, IPortableDevicePropertiesBulkCallback.OnProgress, IPortableDevicePropertiesBulkCallback::OnProgress, IPortableDevicePropertiesBulkCallbackOnProgress, OnProgress, OnProgress method [Windows Portable Devices SDK], OnProgress method [Windows Portable Devices SDK],IPortableDevicePropertiesBulkCallback interface, portabledeviceapi/IPortableDevicePropertiesBulkCallback::OnProgress, wpdsdk.iportabledevicepropertiesbulkcallback_onprogress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDevicePropertiesBulkCallback::OnProgress method
+# IPortableDevicePropertiesBulkCallback::OnProgress
 
 
 ## -description

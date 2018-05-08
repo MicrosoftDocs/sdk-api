@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 5148a87b-e6b6-4bda-871c-10a2f398ebcc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDvbTeletextDescriptor, IDvbTeletextDescriptor interface [Microsoft TV Technologies], IDvbTeletextDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IDvbTeletextDescriptor, mstv.idvbteletextdescriptor
+ms.keywords: IDvbTeletextDescriptor, IDvbTeletextDescriptor interface [Microsoft TV Technologies], IDvbTeletextDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbTeletextDescriptor, mstv.idvbteletextdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

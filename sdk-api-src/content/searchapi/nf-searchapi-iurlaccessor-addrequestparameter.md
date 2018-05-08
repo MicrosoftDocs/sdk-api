@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IUrlAccessor.AddRequestParameter
-title: IUrlAccessor::AddRequestParameter method
+title: IUrlAccessor::AddRequestParameter
 author: windows-driver-content
 description: Requests a property-value set.
 old-location: search\_search_IUrlAccessor_AddRequestParameter.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\addrequestparameter.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: AddRequestParameter method [search], AddRequestParameter method [search], IUrlAccessor interface, AddRequestParameter,IUrlAccessor.AddRequestParameter, IUrlAccessor, IUrlAccessor interface [search], AddRequestParameter method, IUrlAccessor::AddRequestParameter, _search_IUrlAccessor_AddRequestParameter, search._search_IUrlAccessor_AddRequestParameter, searchapi/IUrlAccessor::AddRequestParameter
+ms.date: 5/4/2018
+ms.keywords: AddRequestParameter, AddRequestParameter method [search], AddRequestParameter method [search],IUrlAccessor interface, IUrlAccessor interface [search],AddRequestParameter method, IUrlAccessor.AddRequestParameter, IUrlAccessor::AddRequestParameter, _search_IUrlAccessor_AddRequestParameter, search._search_IUrlAccessor_AddRequestParameter, searchapi/IUrlAccessor::AddRequestParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUrlAccessor::AddRequestParameter method
+# IUrlAccessor::AddRequestParameter
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetStartTime
-title: IMFMediaEngine::GetStartTime method
+title: IMFMediaEngine::GetStartTime
 author: windows-driver-content
 description: Gets the initial playback position.
 old-location: mf\imfmediaengine_getstarttime.htm
 old-project: medfound
 ms.assetid: 18793EC9-D04A-443F-8469-44CC00C4EE27
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStartTime method [Media Foundation], GetStartTime method [Media Foundation], IMFMediaEngine interface, GetStartTime,IMFMediaEngine.GetStartTime, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetStartTime method, IMFMediaEngine::GetStartTime, mf.imfmediaengine_getstarttime, mfmediaengine/IMFMediaEngine::GetStartTime
+ms.date: 5/3/2018
+ms.keywords: GetStartTime, GetStartTime method [Media Foundation], GetStartTime method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetStartTime method, IMFMediaEngine.GetStartTime, IMFMediaEngine::GetStartTime, mf.imfmediaengine_getstarttime, mfmediaengine/IMFMediaEngine::GetStartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::GetStartTime method
+# IMFMediaEngine::GetStartTime
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.SetParameter
-title: ISearchCatalogManager::SetParameter method
+title: ISearchCatalogManager::SetParameter
 author: windows-driver-content
 description: Sets a name/value parameter for the catalog.
 old-location: search\_search_ISearchCatalogManager_SetParameter.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\setparameter.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], SetParameter method, ISearchCatalogManager::SetParameter, SetParameter method [search], SetParameter method [search], ISearchCatalogManager interface, SetParameter,ISearchCatalogManager.SetParameter, _search_ISearchCatalogManager_SetParameter, search._search_ISearchCatalogManager_SetParameter, searchapi/ISearchCatalogManager::SetParameter
+ms.date: 5/4/2018
+ms.keywords: ISearchCatalogManager interface [search],SetParameter method, ISearchCatalogManager.SetParameter, ISearchCatalogManager::SetParameter, SetParameter, SetParameter method [search], SetParameter method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_SetParameter, search._search_ISearchCatalogManager_SetParameter, searchapi/ISearchCatalogManager::SetParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::SetParameter method
+# ISearchCatalogManager::SetParameter
 
 
 ## -description

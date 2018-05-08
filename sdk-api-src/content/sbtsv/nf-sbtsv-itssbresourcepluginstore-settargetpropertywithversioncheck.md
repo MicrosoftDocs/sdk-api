@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck
-title: ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck method
+title: ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck
 author: windows-driver-content
 description: Sets the value of a property of a target.
 old-location: termserv\itssbresourcepluginstore_settargetpropertywithversioncheck.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 51b5e267-da1a-4d83-81bc-0cf8fb525fa9
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], SetTargetPropertyWithVersionCheck method, ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck method [Remote Desktop Services], SetTargetPropertyWithVersionCheck method [Remote Desktop Services], ITsSbResourcePluginStore interface, SetTargetPropertyWithVersionCheck,ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck, sbtsv/ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, termserv.itssbresourcepluginstore_settargetpropertywithversioncheck
+ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetTargetPropertyWithVersionCheck method, ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck, ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck method [Remote Desktop Services], SetTargetPropertyWithVersionCheck method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, termserv.itssbresourcepluginstore_settargetpropertywithversioncheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck method
+# ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck
 
 
 ## -description

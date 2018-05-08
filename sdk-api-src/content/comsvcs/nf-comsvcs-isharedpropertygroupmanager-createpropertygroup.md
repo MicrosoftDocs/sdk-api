@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroupManager.CreatePropertyGroup
-title: ISharedPropertyGroupManager::CreatePropertyGroup method
+title: ISharedPropertyGroupManager::CreatePropertyGroup
 author: windows-driver-content
 description: Creates a new shared property group.
 old-location: cos\isharedpropertygroupmanager_createpropertygroup.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 19c954cb-1a3b-4063-a09b-54906ae1613d
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreatePropertyGroup method [COM+], CreatePropertyGroup method [COM+], ISharedPropertyGroupManager interface, CreatePropertyGroup,ISharedPropertyGroupManager.CreatePropertyGroup, ISharedPropertyGroupManager, ISharedPropertyGroupManager interface [COM+], CreatePropertyGroup method, ISharedPropertyGroupManager::CreatePropertyGroup, _cos_ISharedPropertyGroupManager_CreatePropertyGroup, comsvcs/ISharedPropertyGroupManager::CreatePropertyGroup, cos.isharedpropertygroupmanager_createpropertygroup
+ms.keywords: CreatePropertyGroup, CreatePropertyGroup method [COM+], CreatePropertyGroup method [COM+],ISharedPropertyGroupManager interface, ISharedPropertyGroupManager interface [COM+],CreatePropertyGroup method, ISharedPropertyGroupManager.CreatePropertyGroup, ISharedPropertyGroupManager::CreatePropertyGroup, _cos_ISharedPropertyGroupManager_CreatePropertyGroup, comsvcs/ISharedPropertyGroupManager::CreatePropertyGroup, cos.isharedpropertygroupmanager_createpropertygroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISharedPropertyGroupManager::CreatePropertyGroup method
+# ISharedPropertyGroupManager::CreatePropertyGroup
 
 
 ## -description

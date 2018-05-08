@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: fb5cc2c3-ba86-401a-b51f-b28d1f5be58f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: COM handler action [Task Scheduler], interface, IComHandlerAction, IComHandlerAction interface [Task Scheduler], IComHandlerAction interface [Task Scheduler], described, taskschd.icomhandleraction, taskschd/IComHandlerAction
+ms.keywords: COM handler action [Task Scheduler],interface, IComHandlerAction, IComHandlerAction interface [Task Scheduler], IComHandlerAction interface [Task Scheduler],described, taskschd.icomhandleraction, taskschd/IComHandlerAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

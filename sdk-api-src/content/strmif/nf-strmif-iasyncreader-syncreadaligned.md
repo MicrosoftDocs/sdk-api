@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAsyncReader.SyncReadAligned
-title: IAsyncReader::SyncReadAligned method
+title: IAsyncReader::SyncReadAligned
 author: windows-driver-content
 description: The SyncReadAligned method performs a synchronous read. The method blocks until the request is completed. The file positions and the buffer address must be aligned; check the allocator properties for the required alignment.
 old-location: dshow\iasyncreader_syncreadaligned.htm
 old-project: DirectShow
 ms.assetid: 862511f1-7580-44db-aed5-3dd8279dcc33
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAsyncReader, IAsyncReader interface [DirectShow], SyncReadAligned method, IAsyncReader::SyncReadAligned, IAsyncReaderSyncReadAligned, SyncReadAligned method [DirectShow], SyncReadAligned method [DirectShow], IAsyncReader interface, SyncReadAligned,IAsyncReader.SyncReadAligned, dshow.iasyncreader_syncreadaligned, strmif/IAsyncReader::SyncReadAligned
+ms.date: 4/30/2018
+ms.keywords: IAsyncReader interface [DirectShow],SyncReadAligned method, IAsyncReader.SyncReadAligned, IAsyncReader::SyncReadAligned, IAsyncReaderSyncReadAligned, SyncReadAligned, SyncReadAligned method [DirectShow], SyncReadAligned method [DirectShow],IAsyncReader interface, dshow.iasyncreader_syncreadaligned, strmif/IAsyncReader::SyncReadAligned
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAsyncReader::SyncReadAligned method
+# IAsyncReader::SyncReadAligned
 
 
 ## -description

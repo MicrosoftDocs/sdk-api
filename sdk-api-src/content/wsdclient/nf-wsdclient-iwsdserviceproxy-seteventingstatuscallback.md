@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.SetEventingStatusCallback
-title: IWSDServiceProxy::SetEventingStatusCallback method
+title: IWSDServiceProxy::SetEventingStatusCallback
 author: windows-driver-content
 description: Sets or clears the eventing status callback.
 old-location: ncd\iwsdserviceproxy_seteventingstatuscallback.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 0a924df4-93a7-4443-a384-0a89d5d90509
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDServiceProxy, IWSDServiceProxy interface, SetEventingStatusCallback method, IWSDServiceProxy::SetEventingStatusCallback, SetEventingStatusCallback method, SetEventingStatusCallback method, IWSDServiceProxy interface, SetEventingStatusCallback,IWSDServiceProxy.SetEventingStatusCallback, ncd.iwsdserviceproxy_seteventingstatuscallback, wsdclient/IWSDServiceProxy::SetEventingStatusCallback
+ms.keywords: IWSDServiceProxy interface,SetEventingStatusCallback method, IWSDServiceProxy.SetEventingStatusCallback, IWSDServiceProxy::SetEventingStatusCallback, SetEventingStatusCallback, SetEventingStatusCallback method, SetEventingStatusCallback method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_seteventingstatuscallback, wsdclient/IWSDServiceProxy::SetEventingStatusCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxy::SetEventingStatusCallback method
+# IWSDServiceProxy::SetEventingStatusCallback
 
 
 ## -description

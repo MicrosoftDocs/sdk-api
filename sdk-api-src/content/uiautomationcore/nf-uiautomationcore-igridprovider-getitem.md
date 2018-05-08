@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IGridProvider.GetItem
-title: IGridProvider::GetItem method
+title: IGridProvider::GetItem
 author: windows-driver-content
 description: Retrieves the Microsoft UI Automation provider for the specified cell.
 old-location: winauto\uiauto_IGridProvider_GetItem.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 5d62e872-c4a7-43c5-b5cf-5069ad46483a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetItem method [Windows Accessibility], GetItem method [Windows Accessibility], IGridProvider interface, GetItem,IGridProvider.GetItem, IGridProvider, IGridProvider interface [Windows Accessibility], GetItem method, IGridProvider::GetItem, uiauto.uiauto_IGridProvider_GetItem, uiauto_IGridProvider_GetItem, uiautomationcore/IGridProvider::GetItem, winauto.uiauto_IGridProvider_GetItem
+ms.keywords: GetItem, GetItem method [Windows Accessibility], GetItem method [Windows Accessibility],IGridProvider interface, IGridProvider interface [Windows Accessibility],GetItem method, IGridProvider.GetItem, IGridProvider::GetItem, uiauto.uiauto_IGridProvider_GetItem, uiauto_IGridProvider_GetItem, uiautomationcore/IGridProvider::GetItem, winauto.uiauto_IGridProvider_GetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IGridProvider::GetItem method
+# IGridProvider::GetItem
 
 
 ## -description

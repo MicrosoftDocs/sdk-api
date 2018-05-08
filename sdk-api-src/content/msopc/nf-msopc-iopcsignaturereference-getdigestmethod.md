@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetDigestMethod
-title: IOpcSignatureReference::GetDigestMethod method
+title: IOpcSignatureReference::GetDigestMethod
 author: windows-driver-content
 description: Gets the digest method to use on the referenced XML element, when the element is signed.
 old-location: opc\iopcsignaturereference_getdigestmethod.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 438adeba-bf5f-4f87-ab4c-c370e58565ce
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetDigestMethod method [Open Packaging Conventions], GetDigestMethod method [Open Packaging Conventions], IOpcSignatureReference interface, GetDigestMethod,IOpcSignatureReference.GetDigestMethod, IOpcSignatureReference, IOpcSignatureReference interface [Open Packaging Conventions], GetDigestMethod method, IOpcSignatureReference::GetDigestMethod, msopc/IOpcSignatureReference::GetDigestMethod, opc.iopcsignaturereference_getdigestmethod
+ms.keywords: GetDigestMethod, GetDigestMethod method [Open Packaging Conventions], GetDigestMethod method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetDigestMethod method, IOpcSignatureReference.GetDigestMethod, IOpcSignatureReference::GetDigestMethod, msopc/IOpcSignatureReference::GetDigestMethod, opc.iopcsignaturereference_getdigestmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureReference::GetDigestMethod method
+# IOpcSignatureReference::GetDigestMethod
 
 
 ## -description

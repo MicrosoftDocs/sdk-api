@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetKeywords
-title: IXpsOMCoreProperties::GetKeywords method
+title: IXpsOMCoreProperties::GetKeywords
 author: windows-driver-content
 description: Gets the keywords property.
 old-location: xps\ixpsomcoreproperties_getkeywords.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f0bac4c7-5bb6-4a9d-8f16-db97e7efee5a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetKeywords method [XPS Documents and Packaging], GetKeywords method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetKeywords,IXpsOMCoreProperties.GetKeywords, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetKeywords method, IXpsOMCoreProperties::GetKeywords, xps.ixpsomcoreproperties_getkeywords, xpsobjectmodel/IXpsOMCoreProperties::GetKeywords
+ms.keywords: GetKeywords, GetKeywords method [XPS Documents and Packaging], GetKeywords method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetKeywords method, IXpsOMCoreProperties.GetKeywords, IXpsOMCoreProperties::GetKeywords, xps.ixpsomcoreproperties_getkeywords, xpsobjectmodel/IXpsOMCoreProperties::GetKeywords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetKeywords method
+# IXpsOMCoreProperties::GetKeywords
 
 
 ## -description

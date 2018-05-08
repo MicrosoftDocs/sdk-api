@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.SetConnectState
-title: IOfflineFilesConnectionInfo::SetConnectState method
+title: IOfflineFilesConnectionInfo::SetConnectState
 author: windows-driver-content
 description: Sets the connection state for an item.
 old-location: of\iofflinefilesconnectioninfo_setconnectstate.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 42412f42-7a70-4110-88ec-a38b3df7d2da
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesConnectionInfo, IOfflineFilesConnectionInfo interface [Offline Files], SetConnectState method, IOfflineFilesConnectionInfo::SetConnectState, OFFLINEFILES_CONNECT_STATE_OFFLINE, OFFLINEFILES_CONNECT_STATE_ONLINE, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, SetConnectState method [Offline Files], SetConnectState method [Offline Files], IOfflineFilesConnectionInfo interface, SetConnectState,IOfflineFilesConnectionInfo.SetConnectState, cscobj/IOfflineFilesConnectionInfo::SetConnectState, of.iofflinefilesconnectioninfo_setconnectstate
+ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],SetConnectState method, IOfflineFilesConnectionInfo.SetConnectState, IOfflineFilesConnectionInfo::SetConnectState, OFFLINEFILES_CONNECT_STATE_OFFLINE, OFFLINEFILES_CONNECT_STATE_ONLINE, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, SetConnectState, SetConnectState method [Offline Files], SetConnectState method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::SetConnectState, of.iofflinefilesconnectioninfo_setconnectstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesConnectionInfo::SetConnectState method
+# IOfflineFilesConnectionInfo::SetConnectState
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateAttributes
-title: ICertServerPolicy::EnumerateAttributes method
+title: ICertServerPolicy::EnumerateAttributes
 author: windows-driver-content
 description: Retrieves the name of the current attribute and moves the internal enumeration pointer to the next attribute.
 old-location: security\icertserverpolicy_enumerateattributes.htm
 old-project: SecCrypto
 ms.assetid: 5db05ed9-ab17-462b-9a76-34458489771a
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertServerPolicy object [Security], EnumerateAttributes method, EnumerateAttributes method [Security], EnumerateAttributes method [Security], CCertServerPolicy object, EnumerateAttributes method [Security], ICertServerPolicy interface, EnumerateAttributes,ICertServerPolicy.EnumerateAttributes, ICertServerPolicy, ICertServerPolicy interface [Security], EnumerateAttributes method, ICertServerPolicy::EnumerateAttributes, _certsrv_icertserverpolicy_enumerateattributes, certif/ICertServerPolicy::EnumerateAttributes, security.icertserverpolicy_enumerateattributes
+ms.date: 4/30/2018
+ms.keywords: CCertServerPolicy object [Security],EnumerateAttributes method, EnumerateAttributes, EnumerateAttributes method [Security], EnumerateAttributes method [Security],CCertServerPolicy object, EnumerateAttributes method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateAttributes method, ICertServerPolicy.EnumerateAttributes, ICertServerPolicy::EnumerateAttributes, _certsrv_icertserverpolicy_enumerateattributes, certif/ICertServerPolicy::EnumerateAttributes, security.icertserverpolicy_enumerateattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerPolicy::EnumerateAttributes method
+# ICertServerPolicy::EnumerateAttributes
 
 
 ## -description

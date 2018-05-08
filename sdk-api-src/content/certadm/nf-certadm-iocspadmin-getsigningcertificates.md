@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetSigningCertificates
-title: IOCSPAdmin::GetSigningCertificates method
+title: IOCSPAdmin::GetSigningCertificates
 author: windows-driver-content
 description: Gets the signing certificates that are available on a responder server for a given certification authority (CA) certificate.
 old-location: security\iocspadmin_getsigningcertificates.htm
 old-project: SecCrypto
 ms.assetid: 762dc32f-90d4-4e88-a3cc-e77e729f0a98
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetSigningCertificates method [Security], GetSigningCertificates method [Security], IOCSPAdmin interface, GetSigningCertificates,IOCSPAdmin.GetSigningCertificates, IOCSPAdmin, IOCSPAdmin interface [Security], GetSigningCertificates method, IOCSPAdmin::GetSigningCertificates, certadm/IOCSPAdmin::GetSigningCertificates, security.iocspadmin_getsigningcertificates
+ms.date: 4/30/2018
+ms.keywords: GetSigningCertificates, GetSigningCertificates method [Security], GetSigningCertificates method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSigningCertificates method, IOCSPAdmin.GetSigningCertificates, IOCSPAdmin::GetSigningCertificates, certadm/IOCSPAdmin::GetSigningCertificates, security.iocspadmin_getsigningcertificates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPAdmin::GetSigningCertificates method
+# IOCSPAdmin::GetSigningCertificates
 
 
 ## -description

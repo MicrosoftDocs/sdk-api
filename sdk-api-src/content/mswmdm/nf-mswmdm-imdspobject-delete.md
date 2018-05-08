@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Delete
-title: IMDSPObject::Delete method
+title: IMDSPObject::Delete
 author: windows-driver-content
 description: The Delete method removes an object or objects from a storage medium on a media device.
 old-location: wmdm\imdspobject_delete.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: debaaa15-dbc5-44dd-8ad9-f7f900146231
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: Delete method [windows Media Device Manager], Delete method [windows Media Device Manager], IMDSPObject interface, Delete,IMDSPObject.Delete, IMDSPObject, IMDSPObject interface [windows Media Device Manager], Delete method, IMDSPObject::Delete, IMDSPObjectDelete, mswmdm/IMDSPObject::Delete, wmdm.imdspobject_delete
+ms.keywords: Delete, Delete method [windows Media Device Manager], Delete method [windows Media Device Manager],IMDSPObject interface, IMDSPObject interface [windows Media Device Manager],Delete method, IMDSPObject.Delete, IMDSPObject::Delete, IMDSPObjectDelete, mswmdm/IMDSPObject::Delete, wmdm.imdspobject_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPObject::Delete method
+# IMDSPObject::Delete
 
 
 ## -description

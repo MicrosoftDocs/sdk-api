@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallUnmarshal.ReleaseMarshalData
-title: ICallUnmarshal::ReleaseMarshalData method
+title: ICallUnmarshal::ReleaseMarshalData
 author: windows-driver-content
 description: Releases resources that may be held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet and calls the CoReleaseMarshalData function on each interface pointer.
 old-location: com\icallunmarshal_releasemarshaldata.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c7b1aff8-338a-491a-908f-5f85dddd89b7
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICallUnmarshal, ICallUnmarshal interface [COM], ReleaseMarshalData method, ICallUnmarshal::ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM], ICallUnmarshal interface, ReleaseMarshalData,ICallUnmarshal.ReleaseMarshalData, _com_icallunmarshal_releasemarshaldata, callobj/ICallUnmarshal::ReleaseMarshalData, com.icallunmarshal_releasemarshaldata
+ms.keywords: ICallUnmarshal interface [COM],ReleaseMarshalData method, ICallUnmarshal.ReleaseMarshalData, ICallUnmarshal::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],ICallUnmarshal interface, _com_icallunmarshal_releasemarshaldata, callobj/ICallUnmarshal::ReleaseMarshalData, com.icallunmarshal_releasemarshaldata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallUnmarshal::ReleaseMarshalData method
+# ICallUnmarshal::ReleaseMarshalData
 
 
 ## -description

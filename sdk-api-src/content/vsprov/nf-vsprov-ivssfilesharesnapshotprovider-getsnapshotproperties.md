@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.GetSnapshotProperties
-title: IVssFileShareSnapshotProvider::GetSnapshotProperties method
+title: IVssFileShareSnapshotProvider::GetSnapshotProperties
 author: windows-driver-content
 description: Gets the VSS_SNAPSHOT_PROP structure for a file share snapshot.
 old-location: base\ivssfilesharesnapshotprovider_getsnapshotproperties.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: db133f55-ed26-4e10-8de1-305bb52de84c
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetSnapshotProperties method [VSS], GetSnapshotProperties method [VSS], IVssFileShareSnapshotProvider interface, GetSnapshotProperties,IVssFileShareSnapshotProvider.GetSnapshotProperties, IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interface [VSS], GetSnapshotProperties method, IVssFileShareSnapshotProvider::GetSnapshotProperties, base.ivssfilesharesnapshotprovider_getsnapshotproperties, vsprov/IVssFileShareSnapshotProvider::GetSnapshotProperties
+ms.keywords: GetSnapshotProperties, GetSnapshotProperties method [VSS], GetSnapshotProperties method [VSS],IVssFileShareSnapshotProvider interface, IVssFileShareSnapshotProvider interface [VSS],GetSnapshotProperties method, IVssFileShareSnapshotProvider.GetSnapshotProperties, IVssFileShareSnapshotProvider::GetSnapshotProperties, base.ivssfilesharesnapshotprovider_getsnapshotproperties, vsprov/IVssFileShareSnapshotProvider::GetSnapshotProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssFileShareSnapshotProvider::GetSnapshotProperties method
+# IVssFileShareSnapshotProvider::GetSnapshotProperties
 
 
 ## -description

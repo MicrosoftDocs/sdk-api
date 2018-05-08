@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwPolicy2.EnableRuleGroup
-title: INetFwPolicy2::EnableRuleGroup method
+title: INetFwPolicy2::EnableRuleGroup
 author: windows-driver-content
 description: Enables or disables a specified group of firewall rules.
 old-location: ics\inetfwpolicy2_enablerulegroup.htm
 old-project: ICS
 ms.assetid: fceb9562-b8de-4ccd-9d3e-4a4a4784a35f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: EnableRuleGroup method [ICS/ICF], EnableRuleGroup method [ICS/ICF], INetFwPolicy2 interface, EnableRuleGroup,INetFwPolicy2.EnableRuleGroup, INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], EnableRuleGroup method, INetFwPolicy2::EnableRuleGroup, ics.inetfwpolicy2_enablerulegroup, netfw/INetFwPolicy2::EnableRuleGroup
+ms.date: 5/1/2018
+ms.keywords: EnableRuleGroup, EnableRuleGroup method [ICS/ICF], EnableRuleGroup method [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],EnableRuleGroup method, INetFwPolicy2.EnableRuleGroup, INetFwPolicy2::EnableRuleGroup, ics.inetfwpolicy2_enablerulegroup, netfw/INetFwPolicy2::EnableRuleGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwPolicy2::EnableRuleGroup method
+# INetFwPolicy2::EnableRuleGroup
 
 
 ## -description

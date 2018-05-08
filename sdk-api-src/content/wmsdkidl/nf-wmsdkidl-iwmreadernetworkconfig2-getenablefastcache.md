@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetEnableFastCache
-title: IWMReaderNetworkConfig2::GetEnableFastCache method
+title: IWMReaderNetworkConfig2::GetEnableFastCache
 author: windows-driver-content
 description: The GetEnableFastCache method queries whether Fast Cache streaming is enabled. Fast Cache streaming enables network content to be streamed faster than the playback rate, if bandwidth allows.
 old-location: wmformat\iwmreadernetworkconfig2_getenablefastcache.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 50f904a3-5a2d-4c0f-92fe-76a1ff195c91
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetEnableFastCache method [windows Media Format], GetEnableFastCache method [windows Media Format], IWMReaderNetworkConfig2 interface, GetEnableFastCache,IWMReaderNetworkConfig2.GetEnableFastCache, IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], GetEnableFastCache method, IWMReaderNetworkConfig2::GetEnableFastCache, IWMReaderNetworkConfig2GetEnableFastCache, wmformat.iwmreadernetworkconfig2_getenablefastcache, wmsdkidl/IWMReaderNetworkConfig2::GetEnableFastCache
+ms.keywords: GetEnableFastCache, GetEnableFastCache method [windows Media Format], GetEnableFastCache method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableFastCache method, IWMReaderNetworkConfig2.GetEnableFastCache, IWMReaderNetworkConfig2::GetEnableFastCache, IWMReaderNetworkConfig2GetEnableFastCache, wmformat.iwmreadernetworkconfig2_getenablefastcache, wmsdkidl/IWMReaderNetworkConfig2::GetEnableFastCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig2::GetEnableFastCache method
+# IWMReaderNetworkConfig2::GetEnableFastCache
 
 
 ## -description

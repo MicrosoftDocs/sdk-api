@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITDatabase.GetObject
-title: IITDatabase::GetObject method
+title: IITDatabase::GetObject
 author: windows-driver-content
 description: Retrieves a specified IUnknown-based interface on the object identified by the dwObjInstance parameter.
 old-location: htmlhelp\iitdatabase_getobject.htm
@@ -8,7 +8,7 @@ old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabasegetobject.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetObject method [HTML Help Workshop], GetObject method [HTML Help Workshop], IITDatabase interface, GetObject,IITDatabase.GetObject, IITDatabase, IITDatabase interface [HTML Help Workshop], GetObject method, IITDatabase::GetObject, htmlhelp.iitdatabase_getobject, infotech/IITDatabase::GetObject, refIITDatabaseGetObject
+ms.keywords: GetObject, GetObject method [HTML Help Workshop], GetObject method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],GetObject method, IITDatabase.GetObject, IITDatabase::GetObject, htmlhelp.iitdatabase_getobject, infotech/IITDatabase::GetObject, refIITDatabaseGetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IITDatabase::GetObject method
+# IITDatabase::GetObject
 
 
 ## -description

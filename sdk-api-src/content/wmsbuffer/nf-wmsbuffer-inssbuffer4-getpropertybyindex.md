@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer4.GetPropertyByIndex
-title: INSSBuffer4::GetPropertyByIndex method
+title: INSSBuffer4::GetPropertyByIndex
 author: windows-driver-content
 description: The GetPropertyByIndex method retrieves a buffer property, also called a data unit extension, that was set using INSSBuffer3::SetProperty.
 old-location: wmformat\inssbuffer4_getpropertybyindex.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 8812b7c9-610b-4c17-a274-55e043cfb091
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetPropertyByIndex method [windows Media Format], GetPropertyByIndex method [windows Media Format], INSSBuffer4 interface, GetPropertyByIndex,INSSBuffer4.GetPropertyByIndex, INSSBuffer4, INSSBuffer4 interface [windows Media Format], GetPropertyByIndex method, INSSBuffer4::GetPropertyByIndex, INSSBuffer4GetPropertyByIndex, wmformat.inssbuffer4_getpropertybyindex, wmsbuffer/INSSBuffer4::GetPropertyByIndex
+ms.keywords: GetPropertyByIndex, GetPropertyByIndex method [windows Media Format], GetPropertyByIndex method [windows Media Format],INSSBuffer4 interface, INSSBuffer4 interface [windows Media Format],GetPropertyByIndex method, INSSBuffer4.GetPropertyByIndex, INSSBuffer4::GetPropertyByIndex, INSSBuffer4GetPropertyByIndex, wmformat.inssbuffer4_getpropertybyindex, wmsbuffer/INSSBuffer4::GetPropertyByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# INSSBuffer4::GetPropertyByIndex method
+# INSSBuffer4::GetPropertyByIndex
 
 
 ## -description

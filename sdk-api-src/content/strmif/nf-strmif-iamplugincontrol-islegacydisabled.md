@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMPluginControl.IsLegacyDisabled
-title: IAMPluginControl::IsLegacyDisabled method
+title: IAMPluginControl::IsLegacyDisabled
 author: windows-driver-content
 description: Queries whether an Audio Compression Manager (ACM) or Video Compression Manager (VCM) codec appears in the blocked list.
 old-location: dshow\iamplugincontrol_islegacydisabled.htm
 old-project: DirectShow
 ms.assetid: f67c7a78-1e4f-469a-9cbb-80c37bba80b7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMPluginControl, IAMPluginControl interface [DirectShow], IsLegacyDisabled method, IAMPluginControl::IsLegacyDisabled, IsLegacyDisabled method [DirectShow], IsLegacyDisabled method [DirectShow], IAMPluginControl interface, IsLegacyDisabled,IAMPluginControl.IsLegacyDisabled, dshow.iamplugincontrol_islegacydisabled, strmif/IAMPluginControl::IsLegacyDisabled
+ms.date: 4/30/2018
+ms.keywords: IAMPluginControl interface [DirectShow],IsLegacyDisabled method, IAMPluginControl.IsLegacyDisabled, IAMPluginControl::IsLegacyDisabled, IsLegacyDisabled, IsLegacyDisabled method [DirectShow], IsLegacyDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_islegacydisabled, strmif/IAMPluginControl::IsLegacyDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMPluginControl::IsLegacyDisabled method
+# IAMPluginControl::IsLegacyDisabled
 
 
 ## -description

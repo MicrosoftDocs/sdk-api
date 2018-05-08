@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPAudioRenderConfig.put_audioOutputDevice
-title: IWMPAudioRenderConfig::put_audioOutputDevice method
+title: IWMPAudioRenderConfig::put_audioOutputDevice
 author: windows-driver-content
 description: The put_audioOutputDevice sets the current audio output device for the Windows Media Player ActiveX control.
 old-location: wmp\iwmpaudiorenderconfig_put_audiooutputdevice.htm
 old-project: WMP
 ms.assetid: c8e88b36-fb40-4550-bef0-16d92f2bdd2a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPAudioRenderConfig, IWMPAudioRenderConfig interface [Windows Media Player], put_audioOutputDevice method, IWMPAudioRenderConfig::put_audioOutputDevice, put_audioOutputDevice method [Windows Media Player], put_audioOutputDevice method [Windows Media Player], IWMPAudioRenderConfig interface, put_audioOutputDevice,IWMPAudioRenderConfig.put_audioOutputDevice, wmp.iwmpaudiorenderconfig_put_audiooutputdevice, wmprealestate/IWMPAudioRenderConfig::put_audioOutputDevice
+ms.date: 5/4/2018
+ms.keywords: IWMPAudioRenderConfig interface [Windows Media Player],put_audioOutputDevice method, IWMPAudioRenderConfig.put_audioOutputDevice, IWMPAudioRenderConfig::put_audioOutputDevice, put_audioOutputDevice, put_audioOutputDevice method [Windows Media Player], put_audioOutputDevice method [Windows Media Player],IWMPAudioRenderConfig interface, wmp.iwmpaudiorenderconfig_put_audiooutputdevice, wmprealestate/IWMPAudioRenderConfig::put_audioOutputDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPAudioRenderConfig::put_audioOutputDevice method
+# IWMPAudioRenderConfig::put_audioOutputDevice
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.Resize
-title: ITransformProvider::Resize method
+title: ITransformProvider::Resize
 author: windows-driver-content
 description: Resizes the control.
 old-location: winauto\uiauto_ITransformProvider_Resize.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: ba22f770-1306-4c15-bc72-a928b91e0eb5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITransformProvider, ITransformProvider interface [Windows Accessibility], Resize method, ITransformProvider::Resize, Resize method [Windows Accessibility], Resize method [Windows Accessibility], ITransformProvider interface, Resize,ITransformProvider.Resize, uiauto.uiauto_ITransformProvider_Resize, uiauto_ITransformProvider_Resize, uiautomationcore/ITransformProvider::Resize, winauto.uiauto_ITransformProvider_Resize
+ms.keywords: ITransformProvider interface [Windows Accessibility],Resize method, ITransformProvider.Resize, ITransformProvider::Resize, Resize, Resize method [Windows Accessibility], Resize method [Windows Accessibility],ITransformProvider interface, uiauto.uiauto_ITransformProvider_Resize, uiauto_ITransformProvider_Resize, uiautomationcore/ITransformProvider::Resize, winauto.uiauto_ITransformProvider_Resize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITransformProvider::Resize method
+# ITransformProvider::Resize
 
 
 ## -description

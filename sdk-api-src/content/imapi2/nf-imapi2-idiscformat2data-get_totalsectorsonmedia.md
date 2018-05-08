@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_TotalSectorsOnMedia
-title: IDiscFormat2Data::get_TotalSectorsOnMedia method
+title: IDiscFormat2Data::get_TotalSectorsOnMedia
 author: windows-driver-content
 description: Retrieves the number of sectors on the media in the device.
 old-location: imapi\idiscformat2data_get_totalsectorsonmedia.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 9ad23657-36db-4edd-841d-eecb591209f5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], get_TotalSectorsOnMedia method, IDiscFormat2Data::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI], IDiscFormat2Data interface, get_TotalSectorsOnMedia,IDiscFormat2Data.get_TotalSectorsOnMedia, imapi.idiscformat2data_get_totalsectorsonmedia, imapi2/IDiscFormat2Data::get_TotalSectorsOnMedia
+ms.keywords: IDiscFormat2Data interface [IMAPI],get_TotalSectorsOnMedia method, IDiscFormat2Data.get_TotalSectorsOnMedia, IDiscFormat2Data::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_totalsectorsonmedia, imapi2/IDiscFormat2Data::get_TotalSectorsOnMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Data::get_TotalSectorsOnMedia method
+# IDiscFormat2Data::get_TotalSectorsOnMedia
 
 
 ## -description

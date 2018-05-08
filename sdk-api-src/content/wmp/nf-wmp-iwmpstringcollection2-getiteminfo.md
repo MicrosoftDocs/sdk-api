@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPStringCollection2.getItemInfo
-title: IWMPStringCollection2::getItemInfo method
+title: IWMPStringCollection2::getItemInfo
 author: windows-driver-content
 description: The getItemInfo method retrieves the string corresponding to the specified string collection item index and name.
 old-location: wmp\iwmpstringcollection2_getiteminfo.htm
 old-project: WMP
 ms.assetid: 1915d71f-aca3-4943-a4da-ed8f2fa3f46d
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPStringCollection2, IWMPStringCollection2 interface [Windows Media Player], getItemInfo method, IWMPStringCollection2::getItemInfo, IWMPStringCollection2getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player], IWMPStringCollection2 interface, getItemInfo,IWMPStringCollection2.getItemInfo, wmp.iwmpstringcollection2_getiteminfo, wmp/IWMPStringCollection2::getItemInfo
+ms.date: 5/4/2018
+ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getItemInfo method, IWMPStringCollection2.getItemInfo, IWMPStringCollection2::getItemInfo, IWMPStringCollection2getItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_getiteminfo, wmp/IWMPStringCollection2::getItemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPStringCollection2::getItemInfo method
+# IWMPStringCollection2::getItemInfo
 
 
 ## -description

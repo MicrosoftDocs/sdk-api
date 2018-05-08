@@ -7,7 +7,7 @@ old-location: iphlp\notifyaddrchange.htm
 old-project: IpHlp
 ms.assetid: 22ac3b5b-452c-454b-8fbd-47a873675c6c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: NotifyAddrChange, NotifyAddrChange function [IP Helper], _iphlp_notifyaddrchange, iphlp.notifyaddrchange, iphlpapi/NotifyAddrChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

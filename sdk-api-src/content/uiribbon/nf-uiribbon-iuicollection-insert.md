@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollection.Insert
-title: IUICollection::Insert method
+title: IUICollection::Insert
 author: windows-driver-content
 description: Inserts an item into the IUICollection at the specified index.
 old-location: windowsribbon\windowsribbon_iuicollection_insert.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\insert.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IUICollection, IUICollection interface [Windows Ribbon], Insert method, IUICollection::Insert, Insert method [Windows Ribbon], Insert method [Windows Ribbon], IUICollection interface, Insert,IUICollection.Insert, scenicintent_IUICollection_Insert, uiribbon/IUICollection::Insert, windowsribbon.windowsribbon_iuicollection_insert
+ms.keywords: IUICollection interface [Windows Ribbon],Insert method, IUICollection.Insert, IUICollection::Insert, Insert, Insert method [Windows Ribbon], Insert method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_Insert, uiribbon/IUICollection::Insert, windowsribbon.windowsribbon_iuicollection_insert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUICollection::Insert method
+# IUICollection::Insert
 
 
 ## -description

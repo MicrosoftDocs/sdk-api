@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchPersistentItemsChangedSink.StartedMonitoringScope
-title: ISearchPersistentItemsChangedSink::StartedMonitoringScope method
+title: ISearchPersistentItemsChangedSink::StartedMonitoringScope
 author: windows-driver-content
 description: Called by a notifications provider to notify the indexer to monitor changes to items within a specified hierarchical scope.
 old-location: search\_search_ISearchPersistentItemsChangedSink_StartedMonitoringScope.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\startedmonitoringscope.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchPersistentItemsChangedSink, ISearchPersistentItemsChangedSink interface [search], StartedMonitoringScope method, ISearchPersistentItemsChangedSink::StartedMonitoringScope, StartedMonitoringScope method [search], StartedMonitoringScope method [search], ISearchPersistentItemsChangedSink interface, StartedMonitoringScope,ISearchPersistentItemsChangedSink.StartedMonitoringScope, _search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, search._search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, searchapi/ISearchPersistentItemsChangedSink::StartedMonitoringScope
+ms.date: 5/4/2018
+ms.keywords: ISearchPersistentItemsChangedSink interface [search],StartedMonitoringScope method, ISearchPersistentItemsChangedSink.StartedMonitoringScope, ISearchPersistentItemsChangedSink::StartedMonitoringScope, StartedMonitoringScope, StartedMonitoringScope method [search], StartedMonitoringScope method [search],ISearchPersistentItemsChangedSink interface, _search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, search._search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, searchapi/ISearchPersistentItemsChangedSink::StartedMonitoringScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchPersistentItemsChangedSink::StartedMonitoringScope method
+# ISearchPersistentItemsChangedSink::StartedMonitoringScope
 
 
 ## -description

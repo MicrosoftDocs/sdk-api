@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.AddToSelection
-title: IUIAutomationTextRange::AddToSelection method
+title: IUIAutomationTextRange::AddToSelection
 author: windows-driver-content
 description: Adds the text range to the collection of selected text ranges in a control that supports multiple, disjoint spans of selected text.
 old-location: winauto\uiauto_IUIAutomationTextRange_AddToSelection.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 5ae4a131-3283-4e91-8419-f2aa6f488833
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility], IUIAutomationTextRange interface, AddToSelection,IUIAutomationTextRange.AddToSelection, IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], AddToSelection method, IUIAutomationTextRange::AddToSelection, uiauto.uiauto_IUIAutomationTextRange_AddToSelection, uiauto_IUIAutomationTextRange_AddToSelection, uiautomationclient/IUIAutomationTextRange::AddToSelection, winauto.uiauto_IUIAutomationTextRange_AddToSelection
+ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],AddToSelection method, IUIAutomationTextRange.AddToSelection, IUIAutomationTextRange::AddToSelection, uiauto.uiauto_IUIAutomationTextRange_AddToSelection, uiauto_IUIAutomationTextRange_AddToSelection, uiautomationclient/IUIAutomationTextRange::AddToSelection, winauto.uiauto_IUIAutomationTextRange_AddToSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTextRange::AddToSelection method
+# IUIAutomationTextRange::AddToSelection
 
 
 ## -description

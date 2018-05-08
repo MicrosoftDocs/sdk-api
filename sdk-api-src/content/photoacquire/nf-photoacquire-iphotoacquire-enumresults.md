@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquire.EnumResults
-title: IPhotoAcquire::EnumResults method
+title: IPhotoAcquire::EnumResults
 author: windows-driver-content
 description: The EnumResults method retrieves an enumeration containing the paths of all files successfully transferred during the most recent call to Acquire.
 old-location: picacq\iphotoacquire_enumresults.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 2f3bd36c-3daf-4738-8240-ce622d988861
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EnumResults method [Picture Acquisition], EnumResults method [Picture Acquisition], IPhotoAcquire interface, EnumResults,IPhotoAcquire.EnumResults, IPhotoAcquire, IPhotoAcquire interface [Picture Acquisition], EnumResults method, IPhotoAcquire::EnumResults, IPhotoAcquireEnumResults, photoacquire/IPhotoAcquire::EnumResults, picacq.iphotoacquire_enumresults
+ms.keywords: EnumResults, EnumResults method [Picture Acquisition], EnumResults method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],EnumResults method, IPhotoAcquire.EnumResults, IPhotoAcquire::EnumResults, IPhotoAcquireEnumResults, photoacquire/IPhotoAcquire::EnumResults, picacq.iphotoacquire_enumresults
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquire::EnumResults method
+# IPhotoAcquire::EnumResults
 
 
 ## -description

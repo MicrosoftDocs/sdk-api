@@ -63,6 +63,16 @@ The <b>EAP_METHOD_PROPERTY_VALUE_STRING</b> structure contains the string value 
 The size, in bytes, of <b>value</b>.
 
 
+### -field value.size_is
+
+ 
+
+
+### -field value.size_is.length
+
+ 
+
+
 ### -field value
 
 Pointer to a byte buffer than contains the data value of an EAP method property.

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetPreload
-title: IMFMediaEngine::SetPreload method
+title: IMFMediaEngine::SetPreload
 author: windows-driver-content
 description: Sets the preload flag.
 old-location: mf\imfmediaengine_setpreload.htm
 old-project: medfound
 ms.assetid: 3480C16F-E4E4-469C-BE27-711044691A49
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], SetPreload method, IMFMediaEngine::SetPreload, SetPreload method [Media Foundation], SetPreload method [Media Foundation], IMFMediaEngine interface, SetPreload,IMFMediaEngine.SetPreload, mf.imfmediaengine_setpreload, mfmediaengine/IMFMediaEngine::SetPreload
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngine interface [Media Foundation],SetPreload method, IMFMediaEngine.SetPreload, IMFMediaEngine::SetPreload, SetPreload, SetPreload method [Media Foundation], SetPreload method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setpreload, mfmediaengine/IMFMediaEngine::SetPreload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::SetPreload method
+# IMFMediaEngine::SetPreload
 
 
 ## -description

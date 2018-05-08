@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.Render
-title: IPicture::Render method
+title: IPicture::Render
 author: windows-driver-content
 description: Renders (draws) a specified portion of the picture defined by the offset (xSrc,ySrc) of the source picture and the dimensions to copy (cxSrc,xySrc).
 old-location: com\ipicture_render.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 45164225-2e0f-4415-a99c-dc0257d606d3
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPicture, IPicture interface [COM], Render method, IPicture::Render, Render method [COM], Render method [COM], IPicture interface, Render,IPicture.Render, _ctrl_ipicture_render, com.ipicture_render, ocidl/IPicture::Render
+ms.keywords: IPicture interface [COM],Render method, IPicture.Render, IPicture::Render, Render, Render method [COM], Render method [COM],IPicture interface, _ctrl_ipicture_render, com.ipicture_render, ocidl/IPicture::Render
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPicture::Render method
+# IPicture::Render
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 9e8e4557-b223-4f8f-9393-67f589181754
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLOSE_ROUTINE, PCLOSE_ROUTINE callback function [Failover Cluster], PRELEASE_ROUTINE, Release, Release callback function [Failover Cluster], _wolf_release, mscs.release, resapi/PCLOSE_ROUTINE, resapi/Release
+ms.keywords: PCLOSE_ROUTINE, PCLOSE_ROUTINE callback function [Failover Cluster], PRELEASE_ROUTINE, PRELEASE_ROUTINE callback, Release, Release callback function [Failover Cluster], _wolf_release, mscs.release, resapi/PCLOSE_ROUTINE, resapi/Release
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PRELEASE_ROUTINE callback
+# PRELEASE_ROUTINE callback function
 
 
 ## -description

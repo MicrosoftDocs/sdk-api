@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetItemID
-title: ISyncMgrEvent::GetItemID method
+title: ISyncMgrEvent::GetItemID
 author: windows-driver-content
 description: Gets the ID of the item for which the event was logged.
 old-location: shell\ISyncMgrEvent_GetItemID.htm
 old-project: shell
 ms.assetid: 243f84eb-ad0b-44ac-bf61-53bb8b6e5af5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetItemID method [Windows Shell], GetItemID method [Windows Shell], ISyncMgrEvent interface, GetItemID,ISyncMgrEvent.GetItemID, ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], GetItemID method, ISyncMgrEvent::GetItemID, _shell_ISyncMgrEvent_GetItemID, shell.ISyncMgrEvent_GetItemID, syncmgr/ISyncMgrEvent::GetItemID
+ms.date: 5/3/2018
+ms.keywords: GetItemID, GetItemID method [Windows Shell], GetItemID method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetItemID method, ISyncMgrEvent.GetItemID, ISyncMgrEvent::GetItemID, _shell_ISyncMgrEvent_GetItemID, shell.ISyncMgrEvent_GetItemID, syncmgr/ISyncMgrEvent::GetItemID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrEvent::GetItemID method
+# ISyncMgrEvent::GetItemID
 
 
 ## -description

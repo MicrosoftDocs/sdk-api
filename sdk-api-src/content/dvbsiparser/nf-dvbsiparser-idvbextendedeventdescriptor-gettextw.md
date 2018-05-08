@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetTextW
-title: IDvbExtendedEventDescriptor::GetTextW method
+title: IDvbExtendedEventDescriptor::GetTextW
 author: windows-driver-content
 description: Gets the text describing an itemfrom a Digital Video Broadcast (DVB) extended event descriptor, in string format.
 old-location: mstv\idvbextendedeventdescriptor_gettextw.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 18433c81-c58f-4657-90b0-183b1ad9f8e8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface, GetTextW,IDvbExtendedEventDescriptor.GetTextW, IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], GetTextW method, IDvbExtendedEventDescriptor::GetTextW, dvbsiparser/IDvbExtendedEventDescriptor::GetTextW, mstv.idvbextendedeventdescriptor_gettextw
+ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetTextW method, IDvbExtendedEventDescriptor.GetTextW, IDvbExtendedEventDescriptor::GetTextW, dvbsiparser/IDvbExtendedEventDescriptor::GetTextW, mstv.idvbextendedeventdescriptor_gettextw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbExtendedEventDescriptor::GetTextW method
+# IDvbExtendedEventDescriptor::GetTextW
 
 
 ## -description

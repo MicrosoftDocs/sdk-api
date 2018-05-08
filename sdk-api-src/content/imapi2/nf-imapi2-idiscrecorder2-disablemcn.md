@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.DisableMcn
-title: IDiscRecorder2::DisableMcn method
+title: IDiscRecorder2::DisableMcn
 author: windows-driver-content
 description: Disables Media Change Notification (MCN) for the device.
 old-location: imapi\idiscrecorder2_disablemcn.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 3111863e-64bf-467c-ac73-7a16c9aeb3df
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: DisableMcn method [IMAPI], DisableMcn method [IMAPI], IDiscRecorder2 interface, DisableMcn,IDiscRecorder2.DisableMcn, IDiscRecorder2, IDiscRecorder2 interface [IMAPI], DisableMcn method, IDiscRecorder2::DisableMcn, imapi.idiscrecorder2_disablemcn, imapi2/IDiscRecorder2::DisableMcn
+ms.keywords: DisableMcn, DisableMcn method [IMAPI], DisableMcn method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],DisableMcn method, IDiscRecorder2.DisableMcn, IDiscRecorder2::DisableMcn, imapi.idiscrecorder2_disablemcn, imapi2/IDiscRecorder2::DisableMcn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2::DisableMcn method
+# IDiscRecorder2::DisableMcn
 
 
 ## -description

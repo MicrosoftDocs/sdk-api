@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.GetAt
-title: IXpsOMGradientStopCollection::GetAt method
+title: IXpsOMGradientStopCollection::GetAt
 author: windows-driver-content
 description: Gets an IXpsOMGradientStop interface pointer from a specified location in the collection.
 old-location: xps\ixpsomgradientstopcollection_getat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 5e75d595-0124-4239-b53e-f1b8101d2dcf
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging], IXpsOMGradientStopCollection interface, GetAt,IXpsOMGradientStopCollection.GetAt, IXpsOMGradientStopCollection, IXpsOMGradientStopCollection interface [XPS Documents and Packaging], GetAt method, IXpsOMGradientStopCollection::GetAt, xps.ixpsomgradientstopcollection_getat, xpsobjectmodel/IXpsOMGradientStopCollection::GetAt
+ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMGradientStopCollection.GetAt, IXpsOMGradientStopCollection::GetAt, xps.ixpsomgradientstopcollection_getat, xpsobjectmodel/IXpsOMGradientStopCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientStopCollection::GetAt method
+# IXpsOMGradientStopCollection::GetAt
 
 
 ## -description

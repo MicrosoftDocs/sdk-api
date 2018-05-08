@@ -7,7 +7,7 @@ old-location: netbios\action_header.htm
 old-project: NetBIOS
 ms.assetid: f2bbf394-972a-4e96-8cc6-9f230359cbfc
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/2/2018
 ms.keywords: "*PACTION_HEADER, ACTION_HEADER, ACTION_HEADER structure [NetBIOS], MABF, MNBF, MOOO, MXNS, PACTION_HEADER, PACTION_HEADER structure pointer [NetBIOS], _ACTION_HEADER, nb30/ACTION_HEADER, nb30/PACTION_HEADER, netbios.action_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -78,6 +78,14 @@ An <a href="https://msdn.microsoft.com/2a3ad63f-9fa1-41c7-b628-5fe4e17ce7ac">IPS
 An <a href="https://msdn.microsoft.com/491f43ca-07ce-460f-8c20-e5eb0f7bcac4">IPSEC_SA_BUNDLE1</a> structure that specifies various parameters of the SA .
 
 
+### -field udpEncapsulation
+
+An <a href="https://msdn.microsoft.com/69cddec0-7311-4833-8b24-293ad714054e">IPSEC_V4_UDP_ENCAPSULATION0</a> structure that stores the UDP 
+   encapsulation ports if UDP-ESP encapsulation is enabled on the SA.
+
+Available if <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
 ### -field transportFilter
 
 An <a href="https://msdn.microsoft.com/e1925824-01c2-426a-a8f0-4d5882812a9e">FWPM_FILTER0</a> structure that specifies the transport layer filter that corresponds to this IPsec SA.
@@ -86,14 +94,6 @@ An <a href="https://msdn.microsoft.com/e1925824-01c2-426a-a8f0-4d5882812a9e">FWP
 ### -field virtualIfTunnelInfo
 
 An <a href="https://msdn.microsoft.com/91af0790-865f-44f5-b6c8-fd048bf99125">IPSEC_VIRTUAL_IF_TUNNEL_INFO0</a> structure that specifies the virtual interface tunnel information. Only supported by Internet Key Exchange version 2 (IKEv2).
-
-
-#### - udpEncapsulation
-
-An <a href="https://msdn.microsoft.com/69cddec0-7311-4833-8b24-293ad714054e">IPSEC_V4_UDP_ENCAPSULATION0</a> structure that stores the UDP 
-   encapsulation ports if UDP-ESP encapsulation is enabled on the SA.
-
-Available if <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 
 ## -see-also

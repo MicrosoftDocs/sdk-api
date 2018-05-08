@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.CreateValueMapItem
-title: IValueMap::CreateValueMapItem method
+title: IValueMap::CreateValueMapItem
 author: windows-driver-content
 description: Creates a value map item.
 old-location: pla\ivaluemap_createvaluemapitem.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 619b54a0-7015-4453-a09e-ac199eb1c581
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateValueMapItem method [PLA], CreateValueMapItem method [PLA], IValueMap interface, CreateValueMapItem,IValueMap.CreateValueMapItem, IValueMap, IValueMap interface [PLA], CreateValueMapItem method, IValueMap::CreateValueMapItem, pla.ivaluemap_createvaluemapitem, pla/IValueMap::CreateValueMapItem
+ms.keywords: CreateValueMapItem, CreateValueMapItem method [PLA], CreateValueMapItem method [PLA],IValueMap interface, IValueMap interface [PLA],CreateValueMapItem method, IValueMap.CreateValueMapItem, IValueMap::CreateValueMapItem, pla.ivaluemap_createvaluemapitem, pla/IValueMap::CreateValueMapItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IValueMap::CreateValueMapItem method
+# IValueMap::CreateValueMapItem
 
 
 ## -description

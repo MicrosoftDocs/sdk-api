@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectContext.SetAbort
-title: ObjectContext::SetAbort method
+title: ObjectContext::SetAbort
 author: windows-driver-content
 description: Declares that the transaction in which the object is executing must be aborted and that the object should be deactivated on return.
 old-location: cos\objectcontext_setabort.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 709c1752-f2fb-463e-a95e-a082cd28b110
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ObjectContext, ObjectContext interface [COM+], SetAbort method, ObjectContext::SetAbort, SetAbort method [COM+], SetAbort method [COM+], ObjectContext interface, SetAbort,ObjectContext.SetAbort, _cos_ObjectContext_SetAbort, comsvcs/ObjectContext::SetAbort, cos.objectcontext_setabort
+ms.keywords: ObjectContext interface [COM+],SetAbort method, ObjectContext.SetAbort, ObjectContext::SetAbort, SetAbort, SetAbort method [COM+], SetAbort method [COM+],ObjectContext interface, _cos_ObjectContext_SetAbort, comsvcs/ObjectContext::SetAbort, cos.objectcontext_setabort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ObjectContext::SetAbort method
+# ObjectContext::SetAbort
 
 
 ## -description

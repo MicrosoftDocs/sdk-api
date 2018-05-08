@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo.GetCodecInfoCount
-title: IWMCodecInfo::GetCodecInfoCount method
+title: IWMCodecInfo::GetCodecInfoCount
 author: windows-driver-content
 description: The GetCodecInfoCount method retrieves the number of supported codecs for a specified major type of digital media (audio or video).
 old-location: wmformat\iwmcodecinfo_getcodecinfocount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 873f8d03-5d7b-424c-91f3-e7c8156565be
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetCodecInfoCount method [windows Media Format], GetCodecInfoCount method [windows Media Format], IWMCodecInfo interface, GetCodecInfoCount,IWMCodecInfo.GetCodecInfoCount, IWMCodecInfo, IWMCodecInfo interface [windows Media Format], GetCodecInfoCount method, IWMCodecInfo::GetCodecInfoCount, IWMCodecInfoGetCodecInfoCount, wmformat.iwmcodecinfo_getcodecinfocount, wmsdkidl/IWMCodecInfo::GetCodecInfoCount
+ms.keywords: GetCodecInfoCount, GetCodecInfoCount method [windows Media Format], GetCodecInfoCount method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecInfoCount method, IWMCodecInfo.GetCodecInfoCount, IWMCodecInfo::GetCodecInfoCount, IWMCodecInfoGetCodecInfoCount, wmformat.iwmcodecinfo_getcodecinfocount, wmsdkidl/IWMCodecInfo::GetCodecInfoCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecInfo::GetCodecInfoCount method
+# IWMCodecInfo::GetCodecInfoCount
 
 
 ## -description

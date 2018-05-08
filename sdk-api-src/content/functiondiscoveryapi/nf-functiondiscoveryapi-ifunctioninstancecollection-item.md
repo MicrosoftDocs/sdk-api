@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Item
-title: IFunctionInstanceCollection::Item method
+title: IFunctionInstanceCollection::Item
 author: windows-driver-content
 description: Gets the specified function instance, by index.
 old-location: ncd\ifunctioninstancecollection_item_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: b79b7cb2-c02a-4474-bd48-8907ebb118fa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFunctionInstanceCollection, IFunctionInstanceCollection interface, Item method, IFunctionInstanceCollection::Item, Item method, Item method, IFunctionInstanceCollection interface, Item,IFunctionInstanceCollection.Item, functiondiscoveryapi/IFunctionInstanceCollection::Item, ncd.ifunctioninstancecollection_item_method
+ms.keywords: IFunctionInstanceCollection interface,Item method, IFunctionInstanceCollection.Item, IFunctionInstanceCollection::Item, Item, Item method, Item method,IFunctionInstanceCollection interface, functiondiscoveryapi/IFunctionInstanceCollection::Item, ncd.ifunctioninstancecollection_item_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionInstanceCollection::Item method
+# IFunctionInstanceCollection::Item
 
 
 ## -description

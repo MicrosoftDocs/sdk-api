@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemRefresher.Refresh
-title: IWbemRefresher::Refresh method
+title: IWbemRefresher::Refresh
 author: windows-driver-content
 description: The IWbemRefresher::Refresh method updates all refreshable objects, enumerators, and nested refreshers. The WMI Refresher calls this function in response to a client request to Refresh.
 old-location: wmi\iwbemrefresher_refresh.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 6de85040-c938-41dc-8240-0e21e89c7716
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemRefresher, IWbemRefresher interface [Windows Management Instrumentation], Refresh method, IWbemRefresher::Refresh, Refresh method [Windows Management Instrumentation], Refresh method [Windows Management Instrumentation], IWbemRefresher interface, Refresh,IWbemRefresher.Refresh, _hmm_iwbemrefresher_refresh, wbemcli/IWbemRefresher::Refresh, wmi.iwbemrefresher_refresh
+ms.keywords: IWbemRefresher interface [Windows Management Instrumentation],Refresh method, IWbemRefresher.Refresh, IWbemRefresher::Refresh, Refresh, Refresh method [Windows Management Instrumentation], Refresh method [Windows Management Instrumentation],IWbemRefresher interface, _hmm_iwbemrefresher_refresh, wbemcli/IWbemRefresher::Refresh, wmi.iwbemrefresher_refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemRefresher::Refresh method
+# IWbemRefresher::Refresh
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition2.get_AppliesTo
-title: IFsrmPropertyDefinition2::get_AppliesTo method
+title: IFsrmPropertyDefinition2::get_AppliesTo
 author: windows-driver-content
 description: This property contains flags with values from the FsrmPropertyDefinitionAppliesTo enumeration that indicate what a FSRM property definition can be applied to.
 old-location: fsrm\ifsrmpropertydefinition2_appliesto.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: baa7e2a0-71d3-465e-a4aa-5908b28db703
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AppliesTo property [File Server Resource Manager], AppliesTo property [File Server Resource Manager], IFsrmPropertyDefinition2 interface, IFsrmPropertyDefinition2, IFsrmPropertyDefinition2 interface [File Server Resource Manager], AppliesTo property, IFsrmPropertyDefinition2.AppliesTo, IFsrmPropertyDefinition2::get_AppliesTo, fs.ifsrmpropertydefinition2_appliesto, fsrm.ifsrmpropertydefinition2_appliesto, fsrmpipeline/IFsrmPropertyDefinition2::AppliesTo, fsrmpipeline/IFsrmPropertyDefinition2::get_AppliesTo, get_AppliesTo,IFsrmPropertyDefinition2.get_AppliesTo
+ms.keywords: AppliesTo property [File Server Resource Manager], AppliesTo property [File Server Resource Manager],IFsrmPropertyDefinition2 interface, IFsrmPropertyDefinition2 interface [File Server Resource Manager],AppliesTo property, IFsrmPropertyDefinition2.AppliesTo, IFsrmPropertyDefinition2.get_AppliesTo, IFsrmPropertyDefinition2::AppliesTo, IFsrmPropertyDefinition2::get_AppliesTo, fs.ifsrmpropertydefinition2_appliesto, fsrm.ifsrmpropertydefinition2_appliesto, fsrmpipeline/IFsrmPropertyDefinition2::AppliesTo, fsrmpipeline/IFsrmPropertyDefinition2::get_AppliesTo, get_AppliesTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyDefinition2::get_AppliesTo method
+# IFsrmPropertyDefinition2::get_AppliesTo
 
 
 ## -description

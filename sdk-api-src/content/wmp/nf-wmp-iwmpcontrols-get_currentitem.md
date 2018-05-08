@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPControls.get_currentItem
-title: IWMPControls::get_currentItem method
+title: IWMPControls::get_currentItem
 author: windows-driver-content
 description: The get_currentItem method retrieves the current media item in a playlist.
 old-location: wmp\iwmpcontrols_get_currentitem.htm
 old-project: WMP
 ms.assetid: 1c2443cd-d7e6-466f-b728-ad04a415d192
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], get_currentItem method, IWMPControls::get_currentItem, IWMPControlsget_currentItem, get_currentItem method [Windows Media Player], get_currentItem method [Windows Media Player], IWMPControls interface, get_currentItem,IWMPControls.get_currentItem, wmp.iwmpcontrols_get_currentitem, wmp/IWMPControls::get_currentItem
+ms.date: 5/4/2018
+ms.keywords: IWMPControls interface [Windows Media Player],get_currentItem method, IWMPControls.get_currentItem, IWMPControls::get_currentItem, IWMPControlsget_currentItem, get_currentItem, get_currentItem method [Windows Media Player], get_currentItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentitem, wmp/IWMPControls::get_currentItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPControls::get_currentItem method
+# IWMPControls::get_currentItem
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetViewportRect
-title: IDirectManipulationViewport::SetViewportRect method
+title: IDirectManipulationViewport::SetViewportRect
 author: windows-driver-content
 description: Sets the bounding rectangle for the viewport, relative to the origin of the viewport coordinate system.
 old-location: directmanipulation\idirectmanipulationviewport_setviewportrect.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 45dfdf6e-aa4d-489a-bf9a-016e42eb57f6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], SetViewportRect method, IDirectManipulationViewport::SetViewportRect, SetViewportRect method [Direct Manipulation], SetViewportRect method [Direct Manipulation], IDirectManipulationViewport interface, SetViewportRect,IDirectManipulationViewport.SetViewportRect, directmanipulation.idirectmanipulationviewport_setviewportrect, directmanipulation/IDirectManipulationViewport::SetViewportRect
+ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetViewportRect method, IDirectManipulationViewport.SetViewportRect, IDirectManipulationViewport::SetViewportRect, SetViewportRect, SetViewportRect method [Direct Manipulation], SetViewportRect method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setviewportrect, directmanipulation/IDirectManipulationViewport::SetViewportRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::SetViewportRect method
+# IDirectManipulationViewport::SetViewportRect
 
 
 ## -description

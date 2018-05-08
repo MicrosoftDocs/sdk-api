@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.CopyPixels
-title: IWICBitmapSource::CopyPixels method
+title: IWICBitmapSource::CopyPixels
 author: windows-driver-content
 description: Instructs the object to produce pixels.
 old-location: wic\_wic_codec_iwicbitmapsource_copypixels.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: d4908a75-e7de-4b8f-bdc8-d86cf6b49f8c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component], IWICBitmapSource interface, CopyPixels,IWICBitmapSource.CopyPixels, IWICBitmapSource, IWICBitmapSource interface [Windows Imaging Component], CopyPixels method, IWICBitmapSource::CopyPixels, _wic_codec_iwicbitmapsource_copypixels, wic._wic_codec_iwicbitmapsource_copypixels, wincodec/IWICBitmapSource::CopyPixels
+ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],CopyPixels method, IWICBitmapSource.CopyPixels, IWICBitmapSource::CopyPixels, _wic_codec_iwicbitmapsource_copypixels, wic._wic_codec_iwicbitmapsource_copypixels, wincodec/IWICBitmapSource::CopyPixels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapSource::CopyPixels method
+# IWICBitmapSource::CopyPixels
 
 
 ## -description

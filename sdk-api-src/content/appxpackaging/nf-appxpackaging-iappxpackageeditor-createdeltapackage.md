@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.CreateDeltaPackage
-title: IAppxPackageEditor::CreateDeltaPackage method
+title: IAppxPackageEditor::CreateDeltaPackage
 author: windows-driver-content
 description: Creates a delta package from the differences in the updated package and the baseline package.
 old-location: appxpkg\iappxpackageeditor_createdeltapackage.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 40B41D47-674A-4842-8C6D-FBB661D12589
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateDeltaPackage method [App packaging and management], CreateDeltaPackage method [App packaging and management], IAppxPackageEditor interface, CreateDeltaPackage,IAppxPackageEditor.CreateDeltaPackage, IAppxPackageEditor, IAppxPackageEditor interface [App packaging and management], CreateDeltaPackage method, IAppxPackageEditor::CreateDeltaPackage, appxpackaging/IAppxPackageEditor::CreateDeltaPackage, appxpkg.iappxpackageeditor_createdeltapackage
+ms.keywords: CreateDeltaPackage, CreateDeltaPackage method [App packaging and management], CreateDeltaPackage method [App packaging and management],IAppxPackageEditor interface, IAppxPackageEditor interface [App packaging and management],CreateDeltaPackage method, IAppxPackageEditor.CreateDeltaPackage, IAppxPackageEditor::CreateDeltaPackage, appxpackaging/IAppxPackageEditor::CreateDeltaPackage, appxpkg.iappxpackageeditor_createdeltapackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxPackageEditor::CreateDeltaPackage method
+# IAppxPackageEditor::CreateDeltaPackage
 
 
 ## -description

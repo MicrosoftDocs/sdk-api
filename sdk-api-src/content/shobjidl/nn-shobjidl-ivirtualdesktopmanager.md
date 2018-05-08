@@ -7,8 +7,8 @@ old-location: shell\ivirtualdesktopmanager.htm
 old-project: shell
 ms.assetid: B95AC349-63E3-4A5A-A353-1C93486BB67A
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVirtualDesktopManager, IVirtualDesktopManager interface [Windows Shell], IVirtualDesktopManager interface [Windows Shell], described, shell.ivirtualdesktopmanager, shobjidl/IVirtualDesktopManager
+ms.date: 5/3/2018
+ms.keywords: IVirtualDesktopManager, IVirtualDesktopManager interface [Windows Shell], IVirtualDesktopManager interface [Windows Shell],described, shell.ivirtualdesktopmanager, shobjidl/IVirtualDesktopManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

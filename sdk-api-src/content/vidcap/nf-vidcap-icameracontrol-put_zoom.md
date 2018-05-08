@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Zoom
-title: ICameraControl::put_Zoom method
+title: ICameraControl::put_Zoom
 author: windows-driver-content
 description: The put_Zoom method sets the camera's zoom level.
 old-location: dshow\icameracontrol_put_zoom.htm
 old-project: DirectShow
 ms.assetid: e6bb0206-04c4-4d93-b267-2881e58c0a14
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_Zoom method, ICameraControl::put_Zoom, ICameraControlput_Zoom, dshow.icameracontrol_put_zoom, put_Zoom method [DirectShow], put_Zoom method [DirectShow], ICameraControl interface, put_Zoom,ICameraControl.put_Zoom, vidcap/ICameraControl::put_Zoom
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],put_Zoom method, ICameraControl.put_Zoom, ICameraControl::put_Zoom, ICameraControlput_Zoom, dshow.icameracontrol_put_zoom, put_Zoom, put_Zoom method [DirectShow], put_Zoom method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Zoom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::put_Zoom method
+# ICameraControl::put_Zoom
 
 
 ## -description

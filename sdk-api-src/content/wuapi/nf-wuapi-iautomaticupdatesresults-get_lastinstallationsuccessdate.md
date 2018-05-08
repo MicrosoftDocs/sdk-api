@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesResults.get_LastInstallationSuccessDate
-title: IAutomaticUpdatesResults::get_LastInstallationSuccessDate method
+title: IAutomaticUpdatesResults::get_LastInstallationSuccessDate
 author: windows-driver-content
 description: Gets the last time and Coordinated Universal Time (UTC) date when Automatic Updates successfully installed any updates, even if some failures occurred.
 old-location: wua\iautomaticupdatesresults_lastinstallationsuccessdate.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 31cd54fa-ad4a-4a60-a87e-7c915cf596d7
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IAutomaticUpdatesResults, IAutomaticUpdatesResults interface [Windows Update Agent], LastInstallationSuccessDate property, IAutomaticUpdatesResults.LastInstallationSuccessDate, IAutomaticUpdatesResults::get_LastInstallationSuccessDate, LastInstallationSuccessDate property [Windows Update Agent], LastInstallationSuccessDate property [Windows Update Agent], IAutomaticUpdatesResults interface, get_LastInstallationSuccessDate,IAutomaticUpdatesResults.get_LastInstallationSuccessDate, wua.iautomaticupdatesresults_lastinstallationsuccessdate, wuapi/IAutomaticUpdatesResults::LastInstallationSuccessDate, wuapi/IAutomaticUpdatesResults::get_LastInstallationSuccessDate
+ms.keywords: IAutomaticUpdatesResults interface [Windows Update Agent],LastInstallationSuccessDate property, IAutomaticUpdatesResults.LastInstallationSuccessDate, IAutomaticUpdatesResults.get_LastInstallationSuccessDate, IAutomaticUpdatesResults::LastInstallationSuccessDate, IAutomaticUpdatesResults::get_LastInstallationSuccessDate, LastInstallationSuccessDate property [Windows Update Agent], LastInstallationSuccessDate property [Windows Update Agent],IAutomaticUpdatesResults interface, get_LastInstallationSuccessDate, wua.iautomaticupdatesresults_lastinstallationsuccessdate, wuapi/IAutomaticUpdatesResults::LastInstallationSuccessDate, wuapi/IAutomaticUpdatesResults::get_LastInstallationSuccessDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdatesResults::get_LastInstallationSuccessDate method
+# IAutomaticUpdatesResults::get_LastInstallationSuccessDate
 
 
 ## -description

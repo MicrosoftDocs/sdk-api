@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.GetAt
-title: IXpsOMDashCollection::GetAt method
+title: IXpsOMDashCollection::GetAt
 author: windows-driver-content
 description: Gets an XPS_DASH structure from a specified location in the collection.
 old-location: xps\ixpsomdashcollection_getat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 70749e4c-1f67-41e8-9def-85d38493c099
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging], IXpsOMDashCollection interface, GetAt,IXpsOMDashCollection.GetAt, IXpsOMDashCollection, IXpsOMDashCollection interface [XPS Documents and Packaging], GetAt method, IXpsOMDashCollection::GetAt, xps.ixpsomdashcollection_getat, xpsobjectmodel/IXpsOMDashCollection::GetAt
+ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMDashCollection.GetAt, IXpsOMDashCollection::GetAt, xps.ixpsomdashcollection_getat, xpsobjectmodel/IXpsOMDashCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDashCollection::GetAt method
+# IXpsOMDashCollection::GetAt
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetAlternateLocationMappingCount
-title: IVssComponent::GetAlternateLocationMappingCount method
+title: IVssComponent::GetAlternateLocationMappingCount
 author: windows-driver-content
 description: The GetAlternateLocationMappingCount method returns the number of alternate location mappings used by a requester in restoring data. Either a writer or a requester can call this method.
 old-location: base\ivsscomponent_getalternatelocationmappingcount.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 218dc021-0a9e-4ba7-95b7-e1f31e57e71c
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetAlternateLocationMappingCount method [VSS], GetAlternateLocationMappingCount method [VSS], IVssComponent interface, GetAlternateLocationMappingCount,IVssComponent.GetAlternateLocationMappingCount, IVssComponent, IVssComponent interface [VSS], GetAlternateLocationMappingCount method, IVssComponent::GetAlternateLocationMappingCount, _win32_ivsscomponent_getalternatelocationmappingcount, base.ivsscomponent_getalternatelocationmappingcount, vswriter/IVssComponent::GetAlternateLocationMappingCount
+ms.keywords: GetAlternateLocationMappingCount, GetAlternateLocationMappingCount method [VSS], GetAlternateLocationMappingCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAlternateLocationMappingCount method, IVssComponent.GetAlternateLocationMappingCount, IVssComponent::GetAlternateLocationMappingCount, _win32_ivsscomponent_getalternatelocationmappingcount, base.ivsscomponent_getalternatelocationmappingcount, vswriter/IVssComponent::GetAlternateLocationMappingCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetAlternateLocationMappingCount method
+# IVssComponent::GetAlternateLocationMappingCount
 
 
 ## -description

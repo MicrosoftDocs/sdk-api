@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_ApplicationFilter
-title: IRDPSRAPIViewer::get_ApplicationFilter method
+title: IRDPSRAPIViewer::get_ApplicationFilter
 author: windows-driver-content
 description: Returns an object implementing the IRDPSRAPIApplicationFilter interface.
 old-location: rdp\irdpsrapiviewer_applicationfilter.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 984c7238-99ba-438f-b122-e952f95e018d
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: ApplicationFilter property [RDP], ApplicationFilter property [RDP], IRDPSRAPIViewer interface, ApplicationFilter property [RDP], RDPViewer object, IRDPSRAPIViewer, IRDPSRAPIViewer interface [RDP], ApplicationFilter property, IRDPSRAPIViewer.ApplicationFilter, IRDPSRAPIViewer::get_ApplicationFilter, RDPViewer object [RDP], ApplicationFilter property, get_ApplicationFilter,IRDPSRAPIViewer.get_ApplicationFilter, rdp.irdpsrapiviewer_applicationfilter, rdpencomapi/IRDPSRAPIViewer::ApplicationFilter, rdpencomapi/IRDPSRAPIViewer::get_ApplicationFilter
+ms.keywords: ApplicationFilter property [RDP], ApplicationFilter property [RDP],IRDPSRAPIViewer interface, ApplicationFilter property [RDP],RDPViewer object, IRDPSRAPIViewer interface [RDP],ApplicationFilter property, IRDPSRAPIViewer.ApplicationFilter, IRDPSRAPIViewer.get_ApplicationFilter, IRDPSRAPIViewer::ApplicationFilter, IRDPSRAPIViewer::get_ApplicationFilter, RDPViewer object [RDP],ApplicationFilter property, get_ApplicationFilter, rdp.irdpsrapiviewer_applicationfilter, rdpencomapi/IRDPSRAPIViewer::ApplicationFilter, rdpencomapi/IRDPSRAPIViewer::get_ApplicationFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIViewer::get_ApplicationFilter method
+# IRDPSRAPIViewer::get_ApplicationFilter
 
 
 ## -description

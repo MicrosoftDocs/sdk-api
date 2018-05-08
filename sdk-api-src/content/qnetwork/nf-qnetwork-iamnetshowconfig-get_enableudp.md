@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableUDP
-title: IAMNetShowConfig::get_EnableUDP method
+title: IAMNetShowConfig::get_EnableUDP
 author: windows-driver-content
 description: The get_EnableUDP method queries whether UDP-based streaming is enabled.
 old-location: dshow\iamnetshowconfig_get_enableudp.htm
 old-project: DirectShow
 ms.assetid: 95c689c9-34f6-49b2-bd3b-0f68a110c4f2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], get_EnableUDP method, IAMNetShowConfig::get_EnableUDP, IAMNetShowConfigget_EnableUDP, dshow.iamnetshowconfig_get_enableudp, get_EnableUDP method [DirectShow], get_EnableUDP method [DirectShow], IAMNetShowConfig interface, get_EnableUDP,IAMNetShowConfig.get_EnableUDP, qnetwork/IAMNetShowConfig::get_EnableUDP
+ms.date: 4/30/2018
+ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableUDP method, IAMNetShowConfig.get_EnableUDP, IAMNetShowConfig::get_EnableUDP, IAMNetShowConfigget_EnableUDP, dshow.iamnetshowconfig_get_enableudp, get_EnableUDP, get_EnableUDP method [DirectShow], get_EnableUDP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableUDP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetShowConfig::get_EnableUDP method
+# IAMNetShowConfig::get_EnableUDP
 
 
 ## -description

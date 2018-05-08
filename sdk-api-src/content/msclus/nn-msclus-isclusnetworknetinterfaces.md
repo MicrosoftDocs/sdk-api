@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 8b99f752-8aee-4c43-b49a-8ebaf20220f2
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ClusNetworkNetInterfaces, ClusNetworkNetInterfaces collection [Failover Cluster], ClusNetworkNetInterfaces collection [Failover Cluster], described, ISClusNetworkNetInterfaces, _wolf_clusnetworknetinterfaces_collection, msclus/ClusNetworkNetInterfaces, mscs.clusnetworknetinterfaces_collection
+ms.keywords: ClusNetworkNetInterfaces, ClusNetworkNetInterfaces collection [Failover Cluster], ClusNetworkNetInterfaces collection [Failover Cluster],described, ISClusNetworkNetInterfaces, _wolf_clusnetworknetinterfaces_collection, msclus/ClusNetworkNetInterfaces, mscs.clusnetworknetinterfaces_collection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

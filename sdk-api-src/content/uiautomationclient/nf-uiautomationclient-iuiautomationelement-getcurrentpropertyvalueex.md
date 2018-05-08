@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCurrentPropertyValueEx
-title: IUIAutomationElement::GetCurrentPropertyValueEx method
+title: IUIAutomationElement::GetCurrentPropertyValueEx
 author: windows-driver-content
 description: Retrieves a property value for this UI Automation element, optionally ignoring any default value.
 old-location: winauto\uiauto_IUIAutomationElement_GetCurrentPropertyValueEx.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3adbd380-4500-4701-bfc3-dc03d51e5155
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCurrentPropertyValueEx method [Windows Accessibility], GetCurrentPropertyValueEx method [Windows Accessibility], IUIAutomationElement interface, GetCurrentPropertyValueEx,IUIAutomationElement.GetCurrentPropertyValueEx, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], GetCurrentPropertyValueEx method, IUIAutomationElement::GetCurrentPropertyValueEx, uiauto.uiauto_IUIAutomationElement_GetCurrentPropertyValueEx, uiauto_IUIAutomationElement_GetCurrentPropertyValueEx, uiautomationclient/IUIAutomationElement::GetCurrentPropertyValueEx, winauto.uiauto_IUIAutomationElement_GetCurrentPropertyValueEx
+ms.keywords: GetCurrentPropertyValueEx, GetCurrentPropertyValueEx method [Windows Accessibility], GetCurrentPropertyValueEx method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCurrentPropertyValueEx method, IUIAutomationElement.GetCurrentPropertyValueEx, IUIAutomationElement::GetCurrentPropertyValueEx, uiauto.uiauto_IUIAutomationElement_GetCurrentPropertyValueEx, uiauto_IUIAutomationElement_GetCurrentPropertyValueEx, uiautomationclient/IUIAutomationElement::GetCurrentPropertyValueEx, winauto.uiauto_IUIAutomationElement_GetCurrentPropertyValueEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::GetCurrentPropertyValueEx method
+# IUIAutomationElement::GetCurrentPropertyValueEx
 
 
 ## -description

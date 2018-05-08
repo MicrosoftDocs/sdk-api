@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_CoverpageName
-title: IFaxDoc::put_CoverpageName method
+title: IFaxDoc::put_CoverpageName
 author: windows-driver-content
 description: Sets or retrieves the CoverpageName property for a FaxDoc object. The CoverpageName property is a null-terminated string that contains the name of the cover page template file (.cov) associated with the object.
 old-location: fax\_mfax_ifaxdoc_get_coverpagename_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3kmd.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CoverpageName property [Fax Service], CoverpageName property [Fax Service], FaxDoc object, FaxDoc object [Fax Service], CoverpageName property, IFaxDoc, IFaxDoc::put_CoverpageName, _mfax_ifaxdoc_get_coverpagename, fax._mfax_ifaxdoc_get_coverpagename, fax._mfax_ifaxdoc_get_coverpagename_vb, put_CoverpageName,IFaxDoc.put_CoverpageName
+ms.keywords: CoverpageName property [Fax Service], CoverpageName property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],CoverpageName property, FaxDoc.CoverpageName, IFaxDoc.put_CoverpageName, IFaxDoc::put_CoverpageName, _mfax_ifaxdoc_get_coverpagename, fax._mfax_ifaxdoc_get_coverpagename, fax._mfax_ifaxdoc_get_coverpagename_vb, put_CoverpageName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_CoverpageName method
+# IFaxDoc::put_CoverpageName
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: shell\SHSetKnownFolderPath.htm
 old-project: shell
 ms.assetid: b5758086-93d1-49d6-b9ac-ba8927f3bd1e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: KF_FLAG_DONT_UNEXPAND, SHSetKnownFolderPath, SHSetKnownFolderPath function [Windows Shell], _shell_SHSetKnownFolderPath, shell.SHSetKnownFolderPath, shlobj_core/SHSetKnownFolderPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

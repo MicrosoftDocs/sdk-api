@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_IpVersion
-title: INetFwAuthorizedApplication::get_IpVersion method
+title: INetFwAuthorizedApplication::get_IpVersion
 author: windows-driver-content
 description: Specifies the IP version setting for this application.
 old-location: ics\inetfwauthorizedapplication_ipversion.htm
 old-project: ICS
 ms.assetid: f0a4127f-4f81-4b71-a5c5-ba9e30927820
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwAuthorizedApplication, INetFwAuthorizedApplication interface [ICS/ICF], IpVersion property, INetFwAuthorizedApplication.IpVersion, INetFwAuthorizedApplication::get_IpVersion, INetFwAuthorizedApplication::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF], INetFwAuthorizedApplication interface, get_IpVersion,INetFwAuthorizedApplication.get_IpVersion, ics.inetfwauthorizedapplication_ipversion, netfw/INetFwAuthorizedApplication::IpVersion, netfw/INetFwAuthorizedApplication::get_IpVersion, netfw/INetFwAuthorizedApplication::put_IpVersion
+ms.date: 5/1/2018
+ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],IpVersion property, INetFwAuthorizedApplication.IpVersion, INetFwAuthorizedApplication.get_IpVersion, INetFwAuthorizedApplication::IpVersion, INetFwAuthorizedApplication::get_IpVersion, INetFwAuthorizedApplication::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF],INetFwAuthorizedApplication interface, get_IpVersion, ics.inetfwauthorizedapplication_ipversion, netfw/INetFwAuthorizedApplication::IpVersion, netfw/INetFwAuthorizedApplication::get_IpVersion, netfw/INetFwAuthorizedApplication::put_IpVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwAuthorizedApplication::get_IpVersion method
+# INetFwAuthorizedApplication::get_IpVersion
 
 
 ## -description

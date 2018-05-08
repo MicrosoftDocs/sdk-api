@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.SetRotation
-title: IDXGISwapChain1::SetRotation method
+title: IDXGISwapChain1::SetRotation
 author: windows-driver-content
 description: Sets the rotation of the back buffers for the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_setrotation.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: D1CD2B20-FC7E-4141-A828-96E070A63F4A
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGISwapChain1, IDXGISwapChain1 interface [DXGI], SetRotation method, IDXGISwapChain1::SetRotation, SetRotation method [DXGI], SetRotation method [DXGI], IDXGISwapChain1 interface, SetRotation,IDXGISwapChain1.SetRotation, direct3ddxgi.idxgiswapchain1_setrotation, dxgi1_2/IDXGISwapChain1::SetRotation
+ms.keywords: IDXGISwapChain1 interface [DXGI],SetRotation method, IDXGISwapChain1.SetRotation, IDXGISwapChain1::SetRotation, SetRotation, SetRotation method [DXGI], SetRotation method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_setrotation, dxgi1_2/IDXGISwapChain1::SetRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain1::SetRotation method
+# IDXGISwapChain1::SetRotation
 
 
 ## -description

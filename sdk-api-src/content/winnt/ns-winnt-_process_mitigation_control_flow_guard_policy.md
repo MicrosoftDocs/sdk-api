@@ -63,6 +63,11 @@ Contains process mitigation policy settings for Control Flow Guard (CFG). The <a
  
 
 
+### -field DUMMYUNIONNAME.Flags
+
+This member is reserved for system use.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -84,11 +89,6 @@ If TRUE, all DLLs that are loaded must enable CFG. If a DLL does not enable CFG 
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
-
-This member is reserved for system use.
-
-
-#### - Flags
 
 This member is reserved for system use.
 

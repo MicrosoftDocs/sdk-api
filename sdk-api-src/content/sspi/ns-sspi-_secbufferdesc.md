@@ -75,6 +75,18 @@ Indicates the number of <a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a
 Pointer to an array of <a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structures.
 
 
+### -field pBuffers.size_is
+
+ 
+
+
+### -field pBuffers.size_is.cBuffers
+
+ 
+
+
+
+
 ## -see-also
 
 

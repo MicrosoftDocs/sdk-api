@@ -7,7 +7,7 @@ old-location: automat\vardatefromudate.htm
 old-project: automat
 ms.assetid: 1c924ac5-b896-49e1-9ccf-825ac7a030c8
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarDateFromUdate, VarDateFromUdate function [Automation], _oa96_VarDateFromUdate, automat.vardatefromudate, oleauto/VarDateFromUdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

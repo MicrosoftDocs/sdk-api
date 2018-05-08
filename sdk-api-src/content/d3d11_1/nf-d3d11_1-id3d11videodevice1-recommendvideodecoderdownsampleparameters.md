@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters
-title: ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters method
+title: ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters
 author: windows-driver-content
 description: Allows the driver to recommend optimal output downsample parameters from the input parameters.
 old-location: mf\id3d11videodevice1_recommendvideodecoderdownsampleparameters.htm
 old-project: medfound
 ms.assetid: DD1C1273-C069-4C46-933F-3450F9DDAFBD
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoDevice1, ID3D11VideoDevice1 interface [Media Foundation], RecommendVideoDecoderDownsampleParameters method, ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters method [Media Foundation], RecommendVideoDecoderDownsampleParameters method [Media Foundation], ID3D11VideoDevice1 interface, RecommendVideoDecoderDownsampleParameters,ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters, d3d11_1/ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, mf.id3d11videodevice1_recommendvideodecoderdownsampleparameters
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoDevice1 interface [Media Foundation],RecommendVideoDecoderDownsampleParameters method, ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters, ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters method [Media Foundation], RecommendVideoDecoderDownsampleParameters method [Media Foundation],ID3D11VideoDevice1 interface, d3d11_1/ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, mf.id3d11videodevice1_recommendvideodecoderdownsampleparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters method
+# ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters
 
 
 ## -description

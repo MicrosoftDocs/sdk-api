@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateCacheRequest
-title: IUIAutomation::CreateCacheRequest method
+title: IUIAutomation::CreateCacheRequest
 author: windows-driver-content
 description: Creates a cache request.
 old-location: winauto\uiauto_IUIAutomation_CreateCacheRequest.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: e61aecac-8c08-4f83-b3e6-f4baedcb16c6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CreateCacheRequest method [Windows Accessibility], CreateCacheRequest method [Windows Accessibility], IUIAutomation interface, CreateCacheRequest,IUIAutomation.CreateCacheRequest, IUIAutomation, IUIAutomation interface [Windows Accessibility], CreateCacheRequest method, IUIAutomation::CreateCacheRequest, uiauto.uiauto_IUIAutomation_CreateCacheRequest, uiauto_IUIAutomation_CreateCacheRequest, uiautomationclient/IUIAutomation::CreateCacheRequest, winauto.uiauto_IUIAutomation_CreateCacheRequest
+ms.keywords: CreateCacheRequest, CreateCacheRequest method [Windows Accessibility], CreateCacheRequest method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateCacheRequest method, IUIAutomation.CreateCacheRequest, IUIAutomation::CreateCacheRequest, uiauto.uiauto_IUIAutomation_CreateCacheRequest, uiauto_IUIAutomation_CreateCacheRequest, uiautomationclient/IUIAutomation::CreateCacheRequest, winauto.uiauto_IUIAutomation_CreateCacheRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::CreateCacheRequest method
+# IUIAutomation::CreateCacheRequest
 
 
 ## -description

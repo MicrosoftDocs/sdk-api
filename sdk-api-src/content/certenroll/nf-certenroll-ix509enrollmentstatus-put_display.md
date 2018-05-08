@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.put_Display
-title: IX509EnrollmentStatus::put_Display method
+title: IX509EnrollmentStatus::put_Display
 author: windows-driver-content
 description: Specifies or retrieves a value that indicates whether to display the status information in a user interface.
 old-location: security\ix509enrollmentstatus_display_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 91ac74af-8e59-42fc-bca8-d7ef96a1fed0
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Display property [Security], Display property [Security], IX509EnrollmentStatus interface, IX509EnrollmentStatus, IX509EnrollmentStatus interface [Security], Display property, IX509EnrollmentStatus.Display, IX509EnrollmentStatus::get_Display, IX509EnrollmentStatus::put_Display, certenroll/IX509EnrollmentStatus::Display, certenroll/IX509EnrollmentStatus::get_Display, certenroll/IX509EnrollmentStatus::put_Display, put_Display,IX509EnrollmentStatus.put_Display, security.ix509enrollmentstatus_display_property
+ms.keywords: Display property [Security], Display property [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],Display property, IX509EnrollmentStatus.Display, IX509EnrollmentStatus.put_Display, IX509EnrollmentStatus::Display, IX509EnrollmentStatus::get_Display, IX509EnrollmentStatus::put_Display, certenroll/IX509EnrollmentStatus::Display, certenroll/IX509EnrollmentStatus::get_Display, certenroll/IX509EnrollmentStatus::put_Display, put_Display, security.ix509enrollmentstatus_display_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509EnrollmentStatus::put_Display method
+# IX509EnrollmentStatus::put_Display
 
 
 ## -description

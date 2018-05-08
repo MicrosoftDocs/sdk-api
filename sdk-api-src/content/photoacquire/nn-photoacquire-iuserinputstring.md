@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: f942fefc-2db1-4067-8311-f9ebbaca9d31
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IUserInputString, IUserInputString interface [Picture Acquisition], IUserInputString interface [Picture Acquisition], described, IUserInputStringInterface, photoacquire/IUserInputString, picacq.iuserinputstring
+ms.keywords: IUserInputString, IUserInputString interface [Picture Acquisition], IUserInputString interface [Picture Acquisition],described, IUserInputStringInterface, photoacquire/IUserInputString, picacq.iuserinputstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IPin.EnumMediaTypes
-title: IPin::EnumMediaTypes method
+title: IPin::EnumMediaTypes
 author: windows-driver-content
 description: The EnumMediaTypes method enumerates the pin's preferred media types.
 old-location: dshow\ipin_enummediatypes.htm
 old-project: DirectShow
 ms.assetid: 288be4db-5236-40e5-bd92-d95b1bfb86fa
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EnumMediaTypes method [DirectShow], EnumMediaTypes method [DirectShow], IPin interface, EnumMediaTypes,IPin.EnumMediaTypes, IPin, IPin interface [DirectShow], EnumMediaTypes method, IPin::EnumMediaTypes, IPinEnumMediaTypes, dshow.ipin_enummediatypes, strmif/IPin::EnumMediaTypes
+ms.date: 4/30/2018
+ms.keywords: EnumMediaTypes, EnumMediaTypes method [DirectShow], EnumMediaTypes method [DirectShow],IPin interface, IPin interface [DirectShow],EnumMediaTypes method, IPin.EnumMediaTypes, IPin::EnumMediaTypes, IPinEnumMediaTypes, dshow.ipin_enummediatypes, strmif/IPin::EnumMediaTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IPin::EnumMediaTypes method
+# IPin::EnumMediaTypes
 
 
 ## -description

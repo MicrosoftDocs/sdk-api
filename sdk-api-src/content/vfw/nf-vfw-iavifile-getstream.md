@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IAVIFile.GetStream
-title: IAVIFile::GetStream method
+title: IAVIFile::GetStream
 author: windows-driver-content
 description: The GetStream method opens a stream by accessing it in a file. Called when an application uses the AVIFileGetStream function.
 old-location: multimedia\iavifile_getstream.htm
 old-project: Multimedia
 ms.assetid: 66ab2d8f-39f5-4eec-a873-c6f554e3b8ff
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: GetStream method [Windows Multimedia], GetStream method [Windows Multimedia], IAVIFile interface, GetStream,IAVIFile.GetStream, IAVIFile, IAVIFile interface [Windows Multimedia], GetStream method, IAVIFile::GetStream, _win32_IAVIFile_GetStream, multimedia.iavifile_getstream, vfw/IAVIFile::GetStream
+ms.date: 5/4/2018
+ms.keywords: GetStream, GetStream method [Windows Multimedia], GetStream method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],GetStream method, IAVIFile.GetStream, IAVIFile::GetStream, _win32_IAVIFile_GetStream, multimedia.iavifile_getstream, vfw/IAVIFile::GetStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAVIFile::GetStream method
+# IAVIFile::GetStream
 
 
 ## -description

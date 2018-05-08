@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentCount
-title: IXpsOMGeometryFigure::GetSegmentCount method
+title: IXpsOMGeometryFigure::GetSegmentCount
 author: windows-driver-content
 description: Gets the number of segments in the figure.
 old-location: xps\ixpsomgeometryfigure_getsegmentcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 17b302c0-31e3-460b-9771-3f293c94447a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSegmentCount method [XPS Documents and Packaging], GetSegmentCount method [XPS Documents and Packaging], IXpsOMGeometryFigure interface, GetSegmentCount,IXpsOMGeometryFigure.GetSegmentCount, IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], GetSegmentCount method, IXpsOMGeometryFigure::GetSegmentCount, xps.ixpsomgeometryfigure_getsegmentcount, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentCount
+ms.keywords: GetSegmentCount, GetSegmentCount method [XPS Documents and Packaging], GetSegmentCount method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentCount method, IXpsOMGeometryFigure.GetSegmentCount, IXpsOMGeometryFigure::GetSegmentCount, xps.ixpsomgeometryfigure_getsegmentcount, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigure::GetSegmentCount method
+# IXpsOMGeometryFigure::GetSegmentCount
 
 
 ## -description

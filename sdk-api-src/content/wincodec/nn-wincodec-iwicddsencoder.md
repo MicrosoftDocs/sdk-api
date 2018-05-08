@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: DF14309F-7595-4ABE-BB6E-03D2914CC86D
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICDdsEncoder, IWICDdsEncoder interface [Windows Imaging Component], IWICDdsEncoder interface [Windows Imaging Component], described, wic.iwicddsencoder, wincodec/IWICDdsEncoder
+ms.keywords: IWICDdsEncoder, IWICDdsEncoder interface [Windows Imaging Component], IWICDdsEncoder interface [Windows Imaging Component],described, wic.iwicddsencoder, wincodec/IWICDdsEncoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

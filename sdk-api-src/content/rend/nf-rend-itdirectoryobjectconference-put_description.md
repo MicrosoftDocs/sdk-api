@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_Description
-title: ITDirectoryObjectConference::put_Description method
+title: ITDirectoryObjectConference::put_Description
 author: windows-driver-content
 description: The put_Description method sets the description of the conference.
 old-location: tapi3\itdirectoryobjectconference_put_description.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 46f58067-22ec-490e-b6cc-0fdc12dbb8f7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], put_Description method, ITDirectoryObjectConference::put_Description, _tapi3_itdirectoryobjectconference_put_description, put_Description method [TAPI 2.2], put_Description method [TAPI 2.2], ITDirectoryObjectConference interface, put_Description,ITDirectoryObjectConference.put_Description, rend/ITDirectoryObjectConference::put_Description, tapi3.itdirectoryobjectconference_put_description
+ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Description method, ITDirectoryObjectConference.put_Description, ITDirectoryObjectConference::put_Description, _tapi3_itdirectoryobjectconference_put_description, put_Description, put_Description method [TAPI 2.2], put_Description method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Description, tapi3.itdirectoryobjectconference_put_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectoryObjectConference::put_Description method
+# ITDirectoryObjectConference::put_Description
 
 
 ## -description

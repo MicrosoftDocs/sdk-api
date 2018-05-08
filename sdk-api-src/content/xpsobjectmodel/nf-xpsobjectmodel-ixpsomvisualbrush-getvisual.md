@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.GetVisual
-title: IXpsOMVisualBrush::GetVisual method
+title: IXpsOMVisualBrush::GetVisual
 author: windows-driver-content
 description: Gets a pointer to the interface of the resolved visual to be used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_getvisual.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b8fb6698-8ce7-42a1-bad6-bde3d5dbbbf8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetVisual method [XPS Documents and Packaging], GetVisual method [XPS Documents and Packaging], IXpsOMVisualBrush interface, GetVisual,IXpsOMVisualBrush.GetVisual, IXpsOMVisualBrush, IXpsOMVisualBrush interface [XPS Documents and Packaging], GetVisual method, IXpsOMVisualBrush::GetVisual, xps.ixpsomvisualbrush_getvisual, xpsobjectmodel/IXpsOMVisualBrush::GetVisual
+ms.keywords: GetVisual, GetVisual method [XPS Documents and Packaging], GetVisual method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],GetVisual method, IXpsOMVisualBrush.GetVisual, IXpsOMVisualBrush::GetVisual, xps.ixpsomvisualbrush_getvisual, xpsobjectmodel/IXpsOMVisualBrush::GetVisual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisualBrush::GetVisual method
+# IXpsOMVisualBrush::GetVisual
 
 
 ## -description

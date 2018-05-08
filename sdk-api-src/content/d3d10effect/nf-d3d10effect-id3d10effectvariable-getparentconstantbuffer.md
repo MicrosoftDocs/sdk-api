@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetParentConstantBuffer
-title: ID3D10EffectVariable::GetParentConstantBuffer method
+title: ID3D10EffectVariable::GetParentConstantBuffer
 author: windows-driver-content
 description: Get a constant buffer.
 old-location: direct3d10\id3d10effectvariable_getparentconstantbuffer.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getparentconstantbuffer.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 99dbbe48-8199-b3f5-ac04-db4aedb35978, GetParentConstantBuffer method [Direct3D 10], GetParentConstantBuffer method [Direct3D 10], ID3D10EffectVariable interface, GetParentConstantBuffer,ID3D10EffectVariable.GetParentConstantBuffer, ID3D10EffectVariable, ID3D10EffectVariable interface [Direct3D 10], GetParentConstantBuffer method, ID3D10EffectVariable::GetParentConstantBuffer, d3d10effect/ID3D10EffectVariable::GetParentConstantBuffer, direct3d10.id3d10effectvariable_getparentconstantbuffer
+ms.keywords: 99dbbe48-8199-b3f5-ac04-db4aedb35978, GetParentConstantBuffer, GetParentConstantBuffer method [Direct3D 10], GetParentConstantBuffer method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetParentConstantBuffer method, ID3D10EffectVariable.GetParentConstantBuffer, ID3D10EffectVariable::GetParentConstantBuffer, d3d10effect/ID3D10EffectVariable::GetParentConstantBuffer, direct3d10.id3d10effectvariable_getparentconstantbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectVariable::GetParentConstantBuffer method
+# ID3D10EffectVariable::GetParentConstantBuffer
 
 
 ## -description

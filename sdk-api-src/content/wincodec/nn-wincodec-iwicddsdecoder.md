@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 632D1E7B-9C1D-48FB-95B5-1A295FE99577
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICDdsDecoder, IWICDdsDecoder interface [Windows Imaging Component], IWICDdsDecoder interface [Windows Imaging Component], described, wic.iwicddsdecoder, wincodec/IWICDdsDecoder
+ms.keywords: IWICDdsDecoder, IWICDdsDecoder interface [Windows Imaging Component], IWICDdsDecoder interface [Windows Imaging Component],described, wic.iwicddsdecoder, wincodec/IWICDdsDecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

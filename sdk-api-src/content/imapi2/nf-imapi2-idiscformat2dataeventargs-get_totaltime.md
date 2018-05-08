@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2DataEventArgs.get_TotalTime
-title: IDiscFormat2DataEventArgs::get_TotalTime method
+title: IDiscFormat2DataEventArgs::get_TotalTime
 author: windows-driver-content
 description: Retrieves the estimated total time for write operation.
 old-location: imapi\idiscformat2dataeventargs_get_totaltime.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 95e61ef9-5d1c-4f29-896f-69a56c23f306
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2DataEventArgs, IDiscFormat2DataEventArgs interface [IMAPI], get_TotalTime method, IDiscFormat2DataEventArgs::get_TotalTime, get_TotalTime method [IMAPI], get_TotalTime method [IMAPI], IDiscFormat2DataEventArgs interface, get_TotalTime,IDiscFormat2DataEventArgs.get_TotalTime, imapi.idiscformat2dataeventargs_get_totaltime, imapi2/IDiscFormat2DataEventArgs::get_TotalTime
+ms.keywords: IDiscFormat2DataEventArgs interface [IMAPI],get_TotalTime method, IDiscFormat2DataEventArgs.get_TotalTime, IDiscFormat2DataEventArgs::get_TotalTime, get_TotalTime, get_TotalTime method [IMAPI], get_TotalTime method [IMAPI],IDiscFormat2DataEventArgs interface, imapi.idiscformat2dataeventargs_get_totaltime, imapi2/IDiscFormat2DataEventArgs::get_TotalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2DataEventArgs::get_TotalTime method
+# IDiscFormat2DataEventArgs::get_TotalTime
 
 
 ## -description

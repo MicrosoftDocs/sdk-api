@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IEnumComponents.Skip
-title: IEnumComponents::Skip method
+title: IEnumComponents::Skip
 author: windows-driver-content
 description: The Skip method skips the specified element in the collection without retrieving it.
 old-location: mstv\ienumcomponents_skip.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f63eca00-c47c-4b9f-8f7a-7080c23653ce
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IEnumComponents, IEnumComponents interface [Microsoft TV Technologies], Skip method, IEnumComponents::Skip, IEnumComponentsSkip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies], IEnumComponents interface, Skip,IEnumComponents.Skip, mstv.ienumcomponents_skip, tuner/IEnumComponents::Skip
+ms.keywords: IEnumComponents interface [Microsoft TV Technologies],Skip method, IEnumComponents.Skip, IEnumComponents::Skip, IEnumComponentsSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumComponents interface, mstv.ienumcomponents_skip, tuner/IEnumComponents::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumComponents::Skip method
+# IEnumComponents::Skip
 
 
 ## -description

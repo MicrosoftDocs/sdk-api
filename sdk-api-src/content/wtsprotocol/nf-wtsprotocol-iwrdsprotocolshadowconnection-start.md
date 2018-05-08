@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowConnection.Start
-title: IWRdsProtocolShadowConnection::Start method
+title: IWRdsProtocolShadowConnection::Start
 author: windows-driver-content
 description: Notifies the protocol that shadowing has started.
 old-location: termserv\iwrdsprotocolshadowconnection_start.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 1f7b5811-6aba-41f2-9fa4-2bbc4c6e005c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolShadowConnection, IWRdsProtocolShadowConnection interface [Remote Desktop Services], Start method, IWRdsProtocolShadowConnection::Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services], IWRdsProtocolShadowConnection interface, Start,IWRdsProtocolShadowConnection.Start, termserv.iwrdsprotocolshadowconnection_start, wtsprotocol/IWRdsProtocolShadowConnection::Start
+ms.keywords: IWRdsProtocolShadowConnection interface [Remote Desktop Services],Start method, IWRdsProtocolShadowConnection.Start, IWRdsProtocolShadowConnection::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IWRdsProtocolShadowConnection interface, termserv.iwrdsprotocolshadowconnection_start, wtsprotocol/IWRdsProtocolShadowConnection::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolShadowConnection::Start method
+# IWRdsProtocolShadowConnection::Start
 
 
 ## -description

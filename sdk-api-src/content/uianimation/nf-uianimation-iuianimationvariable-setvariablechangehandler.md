@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.SetVariableChangeHandler
-title: IUIAnimationVariable::SetVariableChangeHandler method
+title: IUIAnimationVariable::SetVariableChangeHandler
 author: windows-driver-content
 description: Specifies a variable change handler. This handler is notified of changes to the value of the animation variable.
 old-location: uianimation\iuianimationvariable_setvariablechangehandler.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: d773a59f-10a5-41e4-92f1-af72d8d15105
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], SetVariableChangeHandler method, IUIAnimationVariable::SetVariableChangeHandler, SetVariableChangeHandler method [Windows Animation], SetVariableChangeHandler method [Windows Animation], IUIAnimationVariable interface, SetVariableChangeHandler,IUIAnimationVariable.SetVariableChangeHandler, uianimation.iuianimationvariable_setvariablechangehandler, uianimation/IUIAnimationVariable::SetVariableChangeHandler
+ms.keywords: IUIAnimationVariable interface [Windows Animation],SetVariableChangeHandler method, IUIAnimationVariable.SetVariableChangeHandler, IUIAnimationVariable::SetVariableChangeHandler, SetVariableChangeHandler, SetVariableChangeHandler method [Windows Animation], SetVariableChangeHandler method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setvariablechangehandler, uianimation/IUIAnimationVariable::SetVariableChangeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable::SetVariableChangeHandler method
+# IUIAnimationVariable::SetVariableChangeHandler
 
 
 ## -description

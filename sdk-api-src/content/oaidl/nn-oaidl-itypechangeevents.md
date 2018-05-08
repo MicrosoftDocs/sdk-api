@@ -7,8 +7,8 @@ old-location: automat\itypechangeevents.htm
 old-project: automat
 ms.assetid: 5e286a4b-b36b-40d6-9a39-d572086e5a2d
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ITypeChangeEvents, ITypeChangeEvents interface [Automation], ITypeChangeEvents interface [Automation], described, automat.itypechangeevents, oaidl/ITypeChangeEvents
+ms.date: 5/4/2018
+ms.keywords: ITypeChangeEvents, ITypeChangeEvents interface [Automation], ITypeChangeEvents interface [Automation],described, automat.itypechangeevents, oaidl/ITypeChangeEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,8 +38,8 @@ api_name:
 -	ITypeChangeEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
 req.irql: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---

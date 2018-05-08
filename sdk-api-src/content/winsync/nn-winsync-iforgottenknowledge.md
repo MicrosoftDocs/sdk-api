@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 93185921-8f41-4222-86d8-602d197c4b33
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IForgottenKnowledge, IForgottenKnowledge interface [Windows Sync], IForgottenKnowledge interface [Windows Sync], described, winsync.iforgottenknowledge, winsync/IForgottenKnowledge
+ms.keywords: IForgottenKnowledge, IForgottenKnowledge interface [Windows Sync], IForgottenKnowledge interface [Windows Sync],described, winsync.iforgottenknowledge, winsync/IForgottenKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

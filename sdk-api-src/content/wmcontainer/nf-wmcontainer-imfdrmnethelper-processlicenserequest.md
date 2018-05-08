@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFDRMNetHelper.ProcessLicenseRequest
-title: IMFDRMNetHelper::ProcessLicenseRequest method
+title: IMFDRMNetHelper::ProcessLicenseRequest
 author: windows-driver-content
 description: Gets the license response for the specified request.
 old-location: mf\imfdrmnethelper_processlicenserequest.htm
 old-project: medfound
 ms.assetid: e60f9831-f59d-46ff-b685-b26d6484a70d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFDRMNetHelper, IMFDRMNetHelper interface [Media Foundation], ProcessLicenseRequest method, IMFDRMNetHelper::ProcessLicenseRequest, ProcessLicenseRequest method [Media Foundation], ProcessLicenseRequest method [Media Foundation], IMFDRMNetHelper interface, ProcessLicenseRequest,IMFDRMNetHelper.ProcessLicenseRequest, mf.imfdrmnethelper_processlicenserequest, wmcontainer/IMFDRMNetHelper::ProcessLicenseRequest
+ms.date: 5/3/2018
+ms.keywords: IMFDRMNetHelper interface [Media Foundation],ProcessLicenseRequest method, IMFDRMNetHelper.ProcessLicenseRequest, IMFDRMNetHelper::ProcessLicenseRequest, ProcessLicenseRequest, ProcessLicenseRequest method [Media Foundation], ProcessLicenseRequest method [Media Foundation],IMFDRMNetHelper interface, mf.imfdrmnethelper_processlicenserequest, wmcontainer/IMFDRMNetHelper::ProcessLicenseRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFDRMNetHelper::ProcessLicenseRequest method
+# IMFDRMNetHelper::ProcessLicenseRequest
 
 
 ## -description

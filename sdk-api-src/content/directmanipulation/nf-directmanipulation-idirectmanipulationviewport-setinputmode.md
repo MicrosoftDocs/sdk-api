@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetInputMode
-title: IDirectManipulationViewport::SetInputMode method
+title: IDirectManipulationViewport::SetInputMode
 author: windows-driver-content
 description: Specifies if input is visible to the UI thread.
 old-location: directmanipulation\idirectmanipulationviewport_setinputmode.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 2be1c8a1-a729-4851-b103-b108b9a96e2d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], SetInputMode method, IDirectManipulationViewport::SetInputMode, SetInputMode method [Direct Manipulation], SetInputMode method [Direct Manipulation], IDirectManipulationViewport interface, SetInputMode,IDirectManipulationViewport.SetInputMode, directmanipulation.idirectmanipulationviewport_setinputmode, directmanipulation/IDirectManipulationViewport::SetInputMode
+ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetInputMode method, IDirectManipulationViewport.SetInputMode, IDirectManipulationViewport::SetInputMode, SetInputMode, SetInputMode method [Direct Manipulation], SetInputMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setinputmode, directmanipulation/IDirectManipulationViewport::SetInputMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::SetInputMode method
+# IDirectManipulationViewport::SetInputMode
 
 
 ## -description

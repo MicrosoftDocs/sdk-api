@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE, STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
+req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
 topic_type:
 -	APIRef
 -	kbSyntax

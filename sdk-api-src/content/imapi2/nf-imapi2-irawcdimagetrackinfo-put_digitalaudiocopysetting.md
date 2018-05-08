@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.put_DigitalAudioCopySetting
-title: IRawCDImageTrackInfo::put_DigitalAudioCopySetting method
+title: IRawCDImageTrackInfo::put_DigitalAudioCopySetting
 author: windows-driver-content
 description: Sets the digital audio copy &#0034;Allowed&#0034; bit to one of three values on the resulting media. Please see the IMAPI_CD_TRACK_DIGITAL_COPY_SETTING enumeration for additional information on each possible value.
 old-location: imapi\irawcdimagetrackinfo_put_digitalaudiocopysetting.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 48d00305-4dc4-432c-80b7-955bbcdb3cc2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IRawCDImageTrackInfo, IRawCDImageTrackInfo interface [IMAPI], put_DigitalAudioCopySetting method, IRawCDImageTrackInfo::put_DigitalAudioCopySetting, imapi.irawcdimagetrackinfo_put_digitalaudiocopysetting, imapi2/IRawCDImageTrackInfo::put_DigitalAudioCopySetting, put_DigitalAudioCopySetting method [IMAPI], put_DigitalAudioCopySetting method [IMAPI], IRawCDImageTrackInfo interface, put_DigitalAudioCopySetting,IRawCDImageTrackInfo.put_DigitalAudioCopySetting
+ms.keywords: IRawCDImageTrackInfo interface [IMAPI],put_DigitalAudioCopySetting method, IRawCDImageTrackInfo.put_DigitalAudioCopySetting, IRawCDImageTrackInfo::put_DigitalAudioCopySetting, imapi.irawcdimagetrackinfo_put_digitalaudiocopysetting, imapi2/IRawCDImageTrackInfo::put_DigitalAudioCopySetting, put_DigitalAudioCopySetting, put_DigitalAudioCopySetting method [IMAPI], put_DigitalAudioCopySetting method [IMAPI],IRawCDImageTrackInfo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRawCDImageTrackInfo::put_DigitalAudioCopySetting method
+# IRawCDImageTrackInfo::put_DigitalAudioCopySetting
 
 
 ## -description

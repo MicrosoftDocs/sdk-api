@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.SetOPMWindow
-title: IMFMediaEngineProtectedContent::SetOPMWindow method
+title: IMFMediaEngineProtectedContent::SetOPMWindow
 author: windows-driver-content
 description: Specifies the window that should receive output link protections.
 old-location: mf\imfmediaengineprotectedcontent_setopmwindow.htm
 old-project: medfound
 ms.assetid: 0102A98E-5EE0-4FBE-AF82-97C7A25038FB
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], SetOPMWindow method, IMFMediaEngineProtectedContent::SetOPMWindow, SetOPMWindow method [Media Foundation], SetOPMWindow method [Media Foundation], IMFMediaEngineProtectedContent interface, SetOPMWindow,IMFMediaEngineProtectedContent.SetOPMWindow, mf.imfmediaengineprotectedcontent_setopmwindow, mfmediaengine/IMFMediaEngineProtectedContent::SetOPMWindow
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetOPMWindow method, IMFMediaEngineProtectedContent.SetOPMWindow, IMFMediaEngineProtectedContent::SetOPMWindow, SetOPMWindow, SetOPMWindow method [Media Foundation], SetOPMWindow method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_setopmwindow, mfmediaengine/IMFMediaEngineProtectedContent::SetOPMWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineProtectedContent::SetOPMWindow method
+# IMFMediaEngineProtectedContent::SetOPMWindow
 
 
 ## -description

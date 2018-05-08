@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecordControl.Start
-title: IStreamBufferRecordControl::Start method
+title: IStreamBufferRecordControl::Start
 author: windows-driver-content
 description: The Start method starts the recording.
 old-location: mstv\istreambufferrecordcontrol_start.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e72ec34e-d3e3-4f5f-9336-d55135dc1e47
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IStreamBufferRecordControl, IStreamBufferRecordControl interface [Microsoft TV Technologies], Start method, IStreamBufferRecordControl::Start, IStreamBufferRecordControlStart, Start method [Microsoft TV Technologies], Start method [Microsoft TV Technologies], IStreamBufferRecordControl interface, Start,IStreamBufferRecordControl.Start, mstv.istreambufferrecordcontrol_start, sbe/IStreamBufferRecordControl::Start
+ms.keywords: IStreamBufferRecordControl interface [Microsoft TV Technologies],Start method, IStreamBufferRecordControl.Start, IStreamBufferRecordControl::Start, IStreamBufferRecordControlStart, Start, Start method [Microsoft TV Technologies], Start method [Microsoft TV Technologies],IStreamBufferRecordControl interface, mstv.istreambufferrecordcontrol_start, sbe/IStreamBufferRecordControl::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferRecordControl::Start method
+# IStreamBufferRecordControl::Start
 
 
 ## -description

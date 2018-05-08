@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.GetProperty
-title: ITextRange2::GetProperty method
+title: ITextRange2::GetProperty
 author: windows-driver-content
 description: Gets the value of a property.
 old-location: controls\itextrange2_getproperty.htm
 old-project: Controls
 ms.assetid: d5e636b9-d02e-46ac-b224-7d1019da44eb
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetProperty method [Windows Controls], GetProperty method [Windows Controls], ITextRange2 interface, GetProperty,ITextRange2.GetProperty, ITextRange2, ITextRange2 interface [Windows Controls], GetProperty method, ITextRange2::GetProperty, controls.itextrange2_getproperty, tom/ITextRange2::GetProperty
+ms.date: 4/27/2018
+ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetProperty method, ITextRange2.GetProperty, ITextRange2::GetProperty, controls.itextrange2_getproperty, tom/ITextRange2::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::GetProperty method
+# ITextRange2::GetProperty
 
 
 ## -description

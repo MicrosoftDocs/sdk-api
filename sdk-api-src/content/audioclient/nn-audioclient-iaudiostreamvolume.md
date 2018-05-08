@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 92cc127b-77ac-4fc7-ac3c-319e5d6368d3
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioStreamVolume, IAudioStreamVolume interface [Core Audio], IAudioStreamVolume interface [Core Audio], described, audioclient/IAudioStreamVolume, coreaudio.iaudiostreamvolume
+ms.keywords: IAudioStreamVolume, IAudioStreamVolume interface [Core Audio], IAudioStreamVolume interface [Core Audio],described, audioclient/IAudioStreamVolume, coreaudio.iaudiostreamvolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

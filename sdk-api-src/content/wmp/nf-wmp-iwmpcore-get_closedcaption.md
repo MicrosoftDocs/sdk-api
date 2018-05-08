@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCore.get_closedCaption
-title: IWMPCore::get_closedCaption method
+title: IWMPCore::get_closedCaption
 author: windows-driver-content
 description: The get_closedCaption method retrieves a pointer to an IWMPClosedCaption interface.
 old-location: wmp\iwmpcore_get_closedcaption.htm
 old-project: WMP
 ms.assetid: 7f170430-2ce4-490b-9163-f39221a8db5c
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_closedCaption method, IWMPCore::get_closedCaption, IWMPCoreget_closedCaption, get_closedCaption method [Windows Media Player], get_closedCaption method [Windows Media Player], IWMPCore interface, get_closedCaption,IWMPCore.get_closedCaption, wmp.iwmpcore_get_closedcaption, wmp/IWMPCore::get_closedCaption
+ms.date: 5/4/2018
+ms.keywords: IWMPCore interface [Windows Media Player],get_closedCaption method, IWMPCore.get_closedCaption, IWMPCore::get_closedCaption, IWMPCoreget_closedCaption, get_closedCaption, get_closedCaption method [Windows Media Player], get_closedCaption method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_closedcaption, wmp/IWMPCore::get_closedCaption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCore::get_closedCaption method
+# IWMPCore::get_closedCaption
 
 
 ## -description

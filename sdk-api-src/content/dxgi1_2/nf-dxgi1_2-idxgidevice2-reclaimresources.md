@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIDevice2.ReclaimResources
-title: IDXGIDevice2::ReclaimResources method
+title: IDXGIDevice2::ReclaimResources
 author: windows-driver-content
 description: Restores access to resources that were previously offered by calling IDXGIDevice2::OfferResources.
 old-location: direct3ddxgi\idxgidevice2_reclaimresources.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 30533605-0F5A-4D15-B01E-7C23E2AE775E
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIDevice2, IDXGIDevice2 interface [DXGI], ReclaimResources method, IDXGIDevice2::ReclaimResources, ReclaimResources method [DXGI], ReclaimResources method [DXGI], IDXGIDevice2 interface, ReclaimResources,IDXGIDevice2.ReclaimResources, direct3ddxgi.idxgidevice2_reclaimresources, dxgi1_2/IDXGIDevice2::ReclaimResources
+ms.keywords: IDXGIDevice2 interface [DXGI],ReclaimResources method, IDXGIDevice2.ReclaimResources, IDXGIDevice2::ReclaimResources, ReclaimResources, ReclaimResources method [DXGI], ReclaimResources method [DXGI],IDXGIDevice2 interface, direct3ddxgi.idxgidevice2_reclaimresources, dxgi1_2/IDXGIDevice2::ReclaimResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDevice2::ReclaimResources method
+# IDXGIDevice2::ReclaimResources
 
 
 ## -description

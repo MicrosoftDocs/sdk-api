@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEventTrigger.get_Subscription
-title: IEventTrigger::get_Subscription method
+title: IEventTrigger::get_Subscription
 author: windows-driver-content
 description: Gets or sets a query string that identifies the event that fires the trigger.
 old-location: taskschd\ieventtrigger_subscription.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 884b98cd-f782-44af-9534-067198a7f48d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEventTrigger, IEventTrigger interface [Task Scheduler], Subscription property, IEventTrigger.Subscription, IEventTrigger::get_Subscription, IEventTrigger::put_Subscription, Subscription property [Task Scheduler], Subscription property [Task Scheduler], IEventTrigger interface, get_Subscription,IEventTrigger.get_Subscription, taskschd.ieventtrigger_subscription, taskschd/IEventTrigger::Subscription, taskschd/IEventTrigger::get_Subscription, taskschd/IEventTrigger::put_Subscription
+ms.keywords: IEventTrigger interface [Task Scheduler],Subscription property, IEventTrigger.Subscription, IEventTrigger.get_Subscription, IEventTrigger::Subscription, IEventTrigger::get_Subscription, IEventTrigger::put_Subscription, Subscription property [Task Scheduler], Subscription property [Task Scheduler],IEventTrigger interface, get_Subscription, taskschd.ieventtrigger_subscription, taskschd/IEventTrigger::Subscription, taskschd/IEventTrigger::get_Subscription, taskschd/IEventTrigger::put_Subscription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEventTrigger::get_Subscription method
+# IEventTrigger::get_Subscription
 
 
 ## -description

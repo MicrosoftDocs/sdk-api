@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.OpenScopeOnITypeInfo
-title: IMetaDataDispenserEx::OpenScopeOnITypeInfo method
+title: IMetaDataDispenserEx::OpenScopeOnITypeInfo
 author: windows-driver-content
 description: Opens the specified scope type.
 old-location: winrt\imetadatadispenserex_openscopeonitypeinfo.htm
 old-project: WinRT
 ms.assetid: e76d295a-bce9-42c2-9a9b-a4d31741f47f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IMetaDataDispenserEx, IMetaDataDispenserEx interface [Windows Runtime], OpenScopeOnITypeInfo method, IMetaDataDispenserEx::OpenScopeOnITypeInfo, OpenScopeOnITypeInfo method [Windows Runtime], OpenScopeOnITypeInfo method [Windows Runtime], IMetaDataDispenserEx interface, OpenScopeOnITypeInfo,IMetaDataDispenserEx.OpenScopeOnITypeInfo, rometadataapi/IMetaDataDispenserEx::OpenScopeOnITypeInfo, winrt.imetadatadispenserex_openscopeonitypeinfo
+ms.date: 5/4/2018
+ms.keywords: IMetaDataDispenserEx interface [Windows Runtime],OpenScopeOnITypeInfo method, IMetaDataDispenserEx.OpenScopeOnITypeInfo, IMetaDataDispenserEx::OpenScopeOnITypeInfo, OpenScopeOnITypeInfo, OpenScopeOnITypeInfo method [Windows Runtime], OpenScopeOnITypeInfo method [Windows Runtime],IMetaDataDispenserEx interface, rometadataapi/IMetaDataDispenserEx::OpenScopeOnITypeInfo, winrt.imetadatadispenserex_openscopeonitypeinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataDispenserEx::OpenScopeOnITypeInfo method
+# IMetaDataDispenserEx::OpenScopeOnITypeInfo
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule.put_LocalAddresses
-title: INetFwRule::put_LocalAddresses method
+title: INetFwRule::put_LocalAddresses
 author: windows-driver-content
 description: Specifies the list of local addresses for this rule.
 old-location: ics\inetfwrule_localaddresses.htm
 old-project: ICS
 ms.assetid: e95c6545-770b-430f-a1fc-32dcaac0eaa0
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], LocalAddresses property, INetFwRule.LocalAddresses, INetFwRule::get_LocalAddresses, INetFwRule::put_LocalAddresses, LocalAddresses property [ICS/ICF], LocalAddresses property [ICS/ICF], INetFwRule interface, ics.inetfwrule_localaddresses, netfw/INetFwRule::LocalAddresses, netfw/INetFwRule::get_LocalAddresses, netfw/INetFwRule::put_LocalAddresses, put_LocalAddresses,INetFwRule.put_LocalAddresses
+ms.date: 5/1/2018
+ms.keywords: INetFwRule interface [ICS/ICF],LocalAddresses property, INetFwRule.LocalAddresses, INetFwRule.put_LocalAddresses, INetFwRule::LocalAddresses, INetFwRule::get_LocalAddresses, INetFwRule::put_LocalAddresses, LocalAddresses property [ICS/ICF], LocalAddresses property [ICS/ICF],INetFwRule interface, ics.inetfwrule_localaddresses, netfw/INetFwRule::LocalAddresses, netfw/INetFwRule::get_LocalAddresses, netfw/INetFwRule::put_LocalAddresses, put_LocalAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule::put_LocalAddresses method
+# INetFwRule::put_LocalAddresses
 
 
 ## -description

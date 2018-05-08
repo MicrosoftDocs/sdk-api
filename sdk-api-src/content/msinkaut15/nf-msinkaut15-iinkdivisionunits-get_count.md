@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnits.get_Count
-title: IInkDivisionUnits::get_Count method
+title: IInkDivisionUnits::get_Count
 author: windows-driver-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkdivisionunits_count.htm
 old-project: tablet
 ms.assetid: 049c91a6-7eeb-452b-a53e-30e44cda0f92
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Count property [Tablet PC], Count property [Tablet PC], IInkDivisionUnits interface, IInkDivisionUnits, IInkDivisionUnits interface [Tablet PC], Count property, IInkDivisionUnits.Count, IInkDivisionUnits.get_Count, IInkDivisionUnits::get_Count, get_Count,IInkDivisionUnits.get_Count, msinkaut15/IInkDivisionUnits::Count, msinkaut15/IInkDivisionUnits::get_Count, tablet.iinkdivisionunits_count
+ms.date: 5/2/2018
+ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkDivisionUnits interface, IInkDivisionUnits interface [Tablet PC],Count property, IInkDivisionUnits.Count, IInkDivisionUnits.get_Count, IInkDivisionUnits::Count, IInkDivisionUnits::get_Count, get_Count, msinkaut15/IInkDivisionUnits::Count, msinkaut15/IInkDivisionUnits::get_Count, tablet.iinkdivisionunits_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkDivisionUnits::get_Count method
+# IInkDivisionUnits::get_Count
 
 
 ## -description

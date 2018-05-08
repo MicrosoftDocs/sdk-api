@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.SetProp
-title: IWMBackupRestoreProps::SetProp method
+title: IWMBackupRestoreProps::SetProp
 author: windows-driver-content
 description: The SetProp method adds a property, and specifies its name and value.
 old-location: wmformat\iwmbackuprestoreprops_setprop.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 582c1590-8855-409c-9964-a0fb7baa05bd
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMBackupRestoreProps, IWMBackupRestoreProps interface [windows Media Format], SetProp method, IWMBackupRestoreProps::SetProp, IWMBackupRestorePropsSetProp, SetProp method [windows Media Format], SetProp method [windows Media Format], IWMBackupRestoreProps interface, SetProp,IWMBackupRestoreProps.SetProp, wmformat.iwmbackuprestoreprops_setprop, wmsdkidl/IWMBackupRestoreProps::SetProp
+ms.keywords: IWMBackupRestoreProps interface [windows Media Format],SetProp method, IWMBackupRestoreProps.SetProp, IWMBackupRestoreProps::SetProp, IWMBackupRestorePropsSetProp, SetProp, SetProp method [windows Media Format], SetProp method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_setprop, wmsdkidl/IWMBackupRestoreProps::SetProp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMBackupRestoreProps::SetProp method
+# IWMBackupRestoreProps::SetProp
 
 
 ## -description

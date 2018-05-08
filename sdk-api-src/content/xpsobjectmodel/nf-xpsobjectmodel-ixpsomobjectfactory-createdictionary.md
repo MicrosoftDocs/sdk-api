@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateDictionary
-title: IXpsOMObjectFactory::CreateDictionary method
+title: IXpsOMObjectFactory::CreateDictionary
 author: windows-driver-content
 description: Creates an IXpsOMDictionary interface, which enables the sharing of property resources.
 old-location: xps\ixpsomobjectfactory_createdictionary.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d0a26f36-b25d-4ab6-9779-88d01d59e41c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateDictionary method [XPS Documents and Packaging], CreateDictionary method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateDictionary,IXpsOMObjectFactory.CreateDictionary, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateDictionary method, IXpsOMObjectFactory::CreateDictionary, xps.ixpsomobjectfactory_createdictionary, xpsobjectmodel/IXpsOMObjectFactory::CreateDictionary
+ms.keywords: CreateDictionary, CreateDictionary method [XPS Documents and Packaging], CreateDictionary method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDictionary method, IXpsOMObjectFactory.CreateDictionary, IXpsOMObjectFactory::CreateDictionary, xps.ixpsomobjectfactory_createdictionary, xpsobjectmodel/IXpsOMObjectFactory::CreateDictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateDictionary method
+# IXpsOMObjectFactory::CreateDictionary
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate2.get_RebootRequired
-title: IUpdate2::get_RebootRequired method
+title: IUpdate2::get_RebootRequired
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether a system restart is required on a computer to complete the installation or the uninstallation of an update.
 old-location: wua\iupdate2_rebootrequired.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 7e665fd1-20f9-47a0-b78f-e60b51cdac5f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate2, IUpdate2 interface [Windows Update Agent], RebootRequired property, IUpdate2.RebootRequired, IUpdate2::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent], IUpdate2 interface, get_RebootRequired,IUpdate2.get_RebootRequired, wua.iupdate2_rebootrequired, wuapi/IUpdate2::RebootRequired, wuapi/IUpdate2::get_RebootRequired
+ms.keywords: IUpdate2 interface [Windows Update Agent],RebootRequired property, IUpdate2.RebootRequired, IUpdate2.get_RebootRequired, IUpdate2::RebootRequired, IUpdate2::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IUpdate2 interface, get_RebootRequired, wua.iupdate2_rebootrequired, wuapi/IUpdate2::RebootRequired, wuapi/IUpdate2::get_RebootRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate2::get_RebootRequired method
+# IUpdate2::get_RebootRequired
 
 
 ## -description

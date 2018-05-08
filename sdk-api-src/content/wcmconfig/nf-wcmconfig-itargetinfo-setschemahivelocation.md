@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetSchemaHiveLocation
-title: ITargetInfo::SetSchemaHiveLocation method
+title: ITargetInfo::SetSchemaHiveLocation
 author: windows-driver-content
 description: Sets the location of the schema hive.
 old-location: smi\itargetinfo_setschemahivelocation.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 223ce821-4f31-4673-95e2-ec9cf94d5726
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITargetInfo, ITargetInfo interface [SMI], SetSchemaHiveLocation method, ITargetInfo::SetSchemaHiveLocation, SetSchemaHiveLocation method [SMI], SetSchemaHiveLocation method [SMI], ITargetInfo interface, SetSchemaHiveLocation,ITargetInfo.SetSchemaHiveLocation, smi.itargetinfo_setschemahivelocation, wcmconfig/ITargetInfo::SetSchemaHiveLocation
+ms.keywords: ITargetInfo interface [SMI],SetSchemaHiveLocation method, ITargetInfo.SetSchemaHiveLocation, ITargetInfo::SetSchemaHiveLocation, SetSchemaHiveLocation, SetSchemaHiveLocation method [SMI], SetSchemaHiveLocation method [SMI],ITargetInfo interface, smi.itargetinfo_setschemahivelocation, wcmconfig/ITargetInfo::SetSchemaHiveLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::SetSchemaHiveLocation method
+# ITargetInfo::SetSchemaHiveLocation
 
 
 ## -description

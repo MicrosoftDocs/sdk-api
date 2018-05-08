@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_AttachFaxToReceipt
-title: IFaxDocument::get_AttachFaxToReceipt method
+title: IFaxDocument::get_AttachFaxToReceipt
 author: windows-driver-content
 description: The AttachFaxToReceipt property indicates whether to attach a fax to the receipt.
 old-location: fax\_mfax_faxdocument_attachfaxtoreceipt_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5blg.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AttachFaxToReceipt property [Fax Service], AttachFaxToReceipt property [Fax Service], FaxDocument object, FaxDocument object [Fax Service], AttachFaxToReceipt property, IFaxDocument, IFaxDocument::get_AttachFaxToReceipt, _mfax_faxdocument.attachfaxtoreceipt, fax._mfax_faxdocument_attachfaxtoreceipt, fax._mfax_faxdocument_attachfaxtoreceipt_vb, get_AttachFaxToReceipt,IFaxDocument.get_AttachFaxToReceipt
+ms.keywords: AttachFaxToReceipt property [Fax Service], AttachFaxToReceipt property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],AttachFaxToReceipt property, FaxDocument.AttachFaxToReceipt, IFaxDocument.get_AttachFaxToReceipt, IFaxDocument::get_AttachFaxToReceipt, _mfax_faxdocument.attachfaxtoreceipt, fax._mfax_faxdocument_attachfaxtoreceipt, fax._mfax_faxdocument_attachfaxtoreceipt_vb, get_AttachFaxToReceipt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDocument::get_AttachFaxToReceipt method
+# IFaxDocument::get_AttachFaxToReceipt
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetSubject
-title: IXpsOMCoreProperties::GetSubject method
+title: IXpsOMCoreProperties::GetSubject
 author: windows-driver-content
 description: Gets the subject property.
 old-location: xps\ixpsomcoreproperties_getsubject.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 80499d81-4adc-402c-ab72-4ebc77eefaea
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSubject method [XPS Documents and Packaging], GetSubject method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetSubject,IXpsOMCoreProperties.GetSubject, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetSubject method, IXpsOMCoreProperties::GetSubject, xps.ixpsomcoreproperties_getsubject, xpsobjectmodel/IXpsOMCoreProperties::GetSubject
+ms.keywords: GetSubject, GetSubject method [XPS Documents and Packaging], GetSubject method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetSubject method, IXpsOMCoreProperties.GetSubject, IXpsOMCoreProperties::GetSubject, xps.ixpsomcoreproperties_getsubject, xpsobjectmodel/IXpsOMCoreProperties::GetSubject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetSubject method
+# IXpsOMCoreProperties::GetSubject
 
 
 ## -description

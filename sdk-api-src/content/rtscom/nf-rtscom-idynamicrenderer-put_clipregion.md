@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.put_ClipRegion
-title: IDynamicRenderer::put_ClipRegion method
+title: IDynamicRenderer::put_ClipRegion
 author: windows-driver-content
 description: Gets or sets the clipping region for the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_clipregion.htm
 old-project: tablet
 ms.assetid: cf11d03d-8f60-44aa-a296-cc44ddc3930a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ClipRegion property [Tablet PC], ClipRegion property [Tablet PC], IDynamicRenderer interface, IDynamicRenderer, IDynamicRenderer interface [Tablet PC], ClipRegion property, IDynamicRenderer.ClipRegion, IDynamicRenderer.get_ClipRegion, IDynamicRenderer.put_ClipRegion, IDynamicRenderer::get_ClipRegion, IDynamicRenderer::put_ClipRegion, cf11d03d-8f60-44aa-a296-cc44ddc3930a, put_ClipRegion,IDynamicRenderer.put_ClipRegion, rtscom/IDynamicRenderer::ClipRegion, rtscom/IDynamicRenderer::get_ClipRegion, rtscom/IDynamicRenderer::put_ClipRegion, tablet.idynamicrenderer_clipregion
+ms.date: 5/2/2018
+ms.keywords: ClipRegion property [Tablet PC], ClipRegion property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],ClipRegion property, IDynamicRenderer.ClipRegion, IDynamicRenderer.get_ClipRegion, IDynamicRenderer.put_ClipRegion, IDynamicRenderer::ClipRegion, IDynamicRenderer::get_ClipRegion, IDynamicRenderer::put_ClipRegion, cf11d03d-8f60-44aa-a296-cc44ddc3930a, put_ClipRegion, rtscom/IDynamicRenderer::ClipRegion, rtscom/IDynamicRenderer::get_ClipRegion, rtscom/IDynamicRenderer::put_ClipRegion, tablet.idynamicrenderer_clipregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDynamicRenderer::put_ClipRegion method
+# IDynamicRenderer::put_ClipRegion
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetRestoreTarget
-title: IVssComponent::GetRestoreTarget method
+title: IVssComponent::GetRestoreTarget
 author: windows-driver-content
 description: The GetRestoreTarget method returns the restore target (in terms of the VSS_RESTORE_TARGET enumeration) for the current component.
 old-location: base\ivsscomponent_getrestoretarget.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: e2361e38-8757-4a29-bbaf-7f659d1095d9
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetRestoreTarget method [VSS], GetRestoreTarget method [VSS], IVssComponent interface, GetRestoreTarget,IVssComponent.GetRestoreTarget, IVssComponent, IVssComponent interface [VSS], GetRestoreTarget method, IVssComponent::GetRestoreTarget, _win32_ivsscomponent_getrestoretarget, base.ivsscomponent_getrestoretarget, vswriter/IVssComponent::GetRestoreTarget
+ms.keywords: GetRestoreTarget, GetRestoreTarget method [VSS], GetRestoreTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreTarget method, IVssComponent.GetRestoreTarget, IVssComponent::GetRestoreTarget, _win32_ivsscomponent_getrestoretarget, base.ivsscomponent_getrestoretarget, vswriter/IVssComponent::GetRestoreTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetRestoreTarget method
+# IVssComponent::GetRestoreTarget
 
 
 ## -description

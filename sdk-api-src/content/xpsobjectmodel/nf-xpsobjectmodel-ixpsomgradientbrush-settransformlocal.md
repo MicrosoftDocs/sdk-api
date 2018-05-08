@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.SetTransformLocal
-title: IXpsOMGradientBrush::SetTransformLocal method
+title: IXpsOMGradientBrush::SetTransformLocal
 author: windows-driver-content
 description: Sets the IXpsOMMatrixTransform interface pointer to a local, unshared matrix transform that is to be used for the brush.
 old-location: xps\ixpsomgradientbrush_settransformlocal.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: aabb0410-bdff-4b6b-8d8a-de1cc6fca68b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGradientBrush, IXpsOMGradientBrush interface [XPS Documents and Packaging], SetTransformLocal method, IXpsOMGradientBrush::SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging], IXpsOMGradientBrush interface, SetTransformLocal,IXpsOMGradientBrush.SetTransformLocal, xps.ixpsomgradientbrush_settransformlocal, xpsobjectmodel/IXpsOMGradientBrush::SetTransformLocal
+ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMGradientBrush.SetTransformLocal, IXpsOMGradientBrush::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMGradientBrush interface, xps.ixpsomgradientbrush_settransformlocal, xpsobjectmodel/IXpsOMGradientBrush::SetTransformLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientBrush::SetTransformLocal method
+# IXpsOMGradientBrush::SetTransformLocal
 
 
 ## -description

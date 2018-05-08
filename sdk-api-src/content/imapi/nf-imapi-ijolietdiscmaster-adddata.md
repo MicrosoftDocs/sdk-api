@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.AddData
-title: IJolietDiscMaster::AddData method
+title: IJolietDiscMaster::AddData
 author: windows-driver-content
 description: Adds the contents of a root storage to the staged image file. This storage will be enumerated to place all substorages and streams in the root file system of the stage image file. Substorages become folders and streams become files.
 old-location: imapi\ijolietdiscmaster_adddata.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 91517103-71c5-450c-9d93-584f94cd2c45
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddData method [IMAPI], AddData method [IMAPI], IJolietDiscMaster interface, AddData,IJolietDiscMaster.AddData, IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], AddData method, IJolietDiscMaster::AddData, _win32_ijolietdiscmaster_adddata, base.ijolietdiscmaster_adddata, imapi.ijolietdiscmaster_adddata, imapi/IJolietDiscMaster::AddData
+ms.keywords: AddData, AddData method [IMAPI], AddData method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],AddData method, IJolietDiscMaster.AddData, IJolietDiscMaster::AddData, _win32_ijolietdiscmaster_adddata, base.ijolietdiscmaster_adddata, imapi.ijolietdiscmaster_adddata, imapi/IJolietDiscMaster::AddData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IJolietDiscMaster::AddData method
+# IJolietDiscMaster::AddData
 
 
 ## -description

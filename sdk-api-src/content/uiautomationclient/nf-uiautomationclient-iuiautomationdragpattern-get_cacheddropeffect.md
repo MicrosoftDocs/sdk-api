@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.get_CachedDropEffect
-title: IUIAutomationDragPattern::get_CachedDropEffect method
+title: IUIAutomationDragPattern::get_CachedDropEffect
 author: windows-driver-content
 description: Retrieves a cached localized string that indicates what happens when the user drops this element as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_cacheddropeffect.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: A99F5E0F-FC61-4AD7-9DC8-B4B7B1AB2F6C
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedDropEffect property [Windows Accessibility], CachedDropEffect property [Windows Accessibility], IUIAutomationDragPattern interface, IUIAutomationDragPattern, IUIAutomationDragPattern interface [Windows Accessibility], CachedDropEffect property, IUIAutomationDragPattern.CachedDropEffect, IUIAutomationDragPattern::get_CachedDropEffect, get_CachedDropEffect,IUIAutomationDragPattern.get_CachedDropEffect, uiautomationclient/IUIAutomationDragPattern::CachedDropEffect, uiautomationclient/IUIAutomationDragPattern::get_CachedDropEffect, winauto.uiauto_iuiautomationdragpattern_cacheddropeffect
+ms.keywords: CachedDropEffect property [Windows Accessibility], CachedDropEffect property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CachedDropEffect property, IUIAutomationDragPattern.CachedDropEffect, IUIAutomationDragPattern.get_CachedDropEffect, IUIAutomationDragPattern::CachedDropEffect, IUIAutomationDragPattern::get_CachedDropEffect, get_CachedDropEffect, uiautomationclient/IUIAutomationDragPattern::CachedDropEffect, uiautomationclient/IUIAutomationDragPattern::get_CachedDropEffect, winauto.uiauto_iuiautomationdragpattern_cacheddropeffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationDragPattern::get_CachedDropEffect method
+# IUIAutomationDragPattern::get_CachedDropEffect
 
 
 ## -description

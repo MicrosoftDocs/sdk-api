@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMOutputMediaProps.GetStreamGroupName
-title: IWMOutputMediaProps::GetStreamGroupName method
+title: IWMOutputMediaProps::GetStreamGroupName
 author: windows-driver-content
 description: The GetStreamGroupName method is not implemented in this release, and returns the empty string.
 old-location: wmformat\iwmoutputmediaprops_getstreamgroupname.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 65251316-c98f-46a3-a0cf-164531ef0b46
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetStreamGroupName method [windows Media Format], GetStreamGroupName method [windows Media Format], IWMOutputMediaProps interface, GetStreamGroupName,IWMOutputMediaProps.GetStreamGroupName, IWMOutputMediaProps, IWMOutputMediaProps interface [windows Media Format], GetStreamGroupName method, IWMOutputMediaProps::GetStreamGroupName, IWMOutputMediaPropsGetStreamGroupName, wmformat.iwmoutputmediaprops_getstreamgroupname, wmsdkidl/IWMOutputMediaProps::GetStreamGroupName
+ms.keywords: GetStreamGroupName, GetStreamGroupName method [windows Media Format], GetStreamGroupName method [windows Media Format],IWMOutputMediaProps interface, IWMOutputMediaProps interface [windows Media Format],GetStreamGroupName method, IWMOutputMediaProps.GetStreamGroupName, IWMOutputMediaProps::GetStreamGroupName, IWMOutputMediaPropsGetStreamGroupName, wmformat.iwmoutputmediaprops_getstreamgroupname, wmsdkidl/IWMOutputMediaProps::GetStreamGroupName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMOutputMediaProps::GetStreamGroupName method
+# IWMOutputMediaProps::GetStreamGroupName
 
 
 ## -description

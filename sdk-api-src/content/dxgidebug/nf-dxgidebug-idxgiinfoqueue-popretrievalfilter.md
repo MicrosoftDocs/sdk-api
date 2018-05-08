@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PopRetrievalFilter
-title: IDXGIInfoQueue::PopRetrievalFilter method
+title: IDXGIInfoQueue::PopRetrievalFilter
 author: windows-driver-content
 description: Pops a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_popretrievalfilter.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: E766B599-1168-4E8C-9433-0200D34CD38D
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], PopRetrievalFilter method, IDXGIInfoQueue::PopRetrievalFilter, PopRetrievalFilter method [DXGI], PopRetrievalFilter method [DXGI], IDXGIInfoQueue interface, PopRetrievalFilter,IDXGIInfoQueue.PopRetrievalFilter, direct3ddxgi.idxgiinfoqueue_popretrievalfilter, dxgidebug/IDXGIInfoQueue::PopRetrievalFilter
+ms.keywords: IDXGIInfoQueue interface [DXGI],PopRetrievalFilter method, IDXGIInfoQueue.PopRetrievalFilter, IDXGIInfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method [DXGI], PopRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_popretrievalfilter, dxgidebug/IDXGIInfoQueue::PopRetrievalFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::PopRetrievalFilter method
+# IDXGIInfoQueue::PopRetrievalFilter
 
 
 ## -description

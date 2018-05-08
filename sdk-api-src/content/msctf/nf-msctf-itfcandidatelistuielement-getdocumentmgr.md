@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetDocumentMgr
-title: ITfCandidateListUIElement::GetDocumentMgr method
+title: ITfCandidateListUIElement::GetDocumentMgr
 author: windows-driver-content
 description: The ITfCandidateListUIElement::GetDocumentMgr method returns the target document manager of this UI.
 old-location: tsf\itfcandidatelistuielement_getdocumentmgr.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: def8e85d-8180-4ad4-9d70-07adef0ce5fb
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework], ITfCandidateListUIElement interface, GetDocumentMgr,ITfCandidateListUIElement.GetDocumentMgr, ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], GetDocumentMgr method, ITfCandidateListUIElement::GetDocumentMgr, msctf/ITfCandidateListUIElement::GetDocumentMgr, tsf.itfcandidatelistuielement_getdocumentmgr
+ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetDocumentMgr method, ITfCandidateListUIElement.GetDocumentMgr, ITfCandidateListUIElement::GetDocumentMgr, msctf/ITfCandidateListUIElement::GetDocumentMgr, tsf.itfcandidatelistuielement_getdocumentmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCandidateListUIElement::GetDocumentMgr method
+# ITfCandidateListUIElement::GetDocumentMgr
 
 
 ## -description

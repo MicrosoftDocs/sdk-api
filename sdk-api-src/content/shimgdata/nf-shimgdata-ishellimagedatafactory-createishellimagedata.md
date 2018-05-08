@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageDataFactory.CreateIShellImageData
-title: IShellImageDataFactory::CreateIShellImageData method
+title: IShellImageDataFactory::CreateIShellImageData
 author: windows-driver-content
 description: Creates an instance of the IShellImageData interface.
 old-location: shell\IShellImageDataFactory_CreateIShellImageData.htm
 old-project: shell
 ms.assetid: fdba8376-c878-4fc8-bedc-e73cfeef8b9b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CreateIShellImageData method [Windows Shell], CreateIShellImageData method [Windows Shell], IShellImageDataFactory interface, CreateIShellImageData,IShellImageDataFactory.CreateIShellImageData, IShellImageDataFactory, IShellImageDataFactory interface [Windows Shell], CreateIShellImageData method, IShellImageDataFactory::CreateIShellImageData, _shell_IShellImageDataFactory_CreateIShellImageData, shell.IShellImageDataFactory_CreateIShellImageData, shimgdata/IShellImageDataFactory::CreateIShellImageData
+ms.date: 5/3/2018
+ms.keywords: CreateIShellImageData, CreateIShellImageData method [Windows Shell], CreateIShellImageData method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateIShellImageData method, IShellImageDataFactory.CreateIShellImageData, IShellImageDataFactory::CreateIShellImageData, _shell_IShellImageDataFactory_CreateIShellImageData, shell.IShellImageDataFactory_CreateIShellImageData, shimgdata/IShellImageDataFactory::CreateIShellImageData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageDataFactory::CreateIShellImageData method
+# IShellImageDataFactory::CreateIShellImageData
 
 
 ## -description

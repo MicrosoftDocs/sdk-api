@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetActiveNetwork
-title: IDot11AdHocInterface::GetActiveNetwork method
+title: IDot11AdHocInterface::GetActiveNetwork
 author: windows-driver-content
 description: Gets the network that is currently active on the interface.
 old-location: nwifi\idot11adhocinterface_getactivenetwork.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: aefe605a-720d-40da-8d0f-b1d5dd5b306e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetActiveNetwork method [NativeWIFI], GetActiveNetwork method [NativeWIFI], IDot11AdHocInterface interface, GetActiveNetwork,IDot11AdHocInterface.GetActiveNetwork, IDot11AdHocInterface, IDot11AdHocInterface interface [NativeWIFI], GetActiveNetwork method, IDot11AdHocInterface::GetActiveNetwork, adhoc/IDot11AdHocInterface::GetActiveNetwork, nwifi.idot11adhocinterface_getactivenetwork
+ms.keywords: GetActiveNetwork, GetActiveNetwork method [NativeWIFI], GetActiveNetwork method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetActiveNetwork method, IDot11AdHocInterface.GetActiveNetwork, IDot11AdHocInterface::GetActiveNetwork, adhoc/IDot11AdHocInterface::GetActiveNetwork, nwifi.idot11adhocinterface_getactivenetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDot11AdHocInterface::GetActiveNetwork method
+# IDot11AdHocInterface::GetActiveNetwork
 
 
 ## -description

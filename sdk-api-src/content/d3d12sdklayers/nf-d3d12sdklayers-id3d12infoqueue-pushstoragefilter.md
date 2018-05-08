@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PushStorageFilter
-title: ID3D12InfoQueue::PushStorageFilter method
+title: ID3D12InfoQueue::PushStorageFilter
 author: windows-driver-content
 description: Push a storage filter onto the storage-filter stack.
 old-location: direct3d12\id3d12infoqueue_pushstoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: F6443483-3983-44E0-B728-F5357966388A
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12InfoQueue, ID3D12InfoQueue interface, PushStorageFilter method, ID3D12InfoQueue::PushStorageFilter, PushStorageFilter method, PushStorageFilter method, ID3D12InfoQueue interface, PushStorageFilter,ID3D12InfoQueue.PushStorageFilter, d3d12sdklayers/ID3D12InfoQueue::PushStorageFilter, direct3d12.id3d12infoqueue_pushstoragefilter
+ms.keywords: ID3D12InfoQueue interface,PushStorageFilter method, ID3D12InfoQueue.PushStorageFilter, ID3D12InfoQueue::PushStorageFilter, PushStorageFilter, PushStorageFilter method, PushStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushStorageFilter, direct3d12.id3d12infoqueue_pushstoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::PushStorageFilter method
+# ID3D12InfoQueue::PushStorageFilter
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_PowerlineFrequency
-title: IVideoProcAmp::put_PowerlineFrequency method
+title: IVideoProcAmp::put_PowerlineFrequency
 author: windows-driver-content
 description: The put_PowerlineFrequency method sets the camera's power line frequency setting. This setting enables the camera to perform anti-flicker processing.
 old-location: dshow\ivideoprocamp_put_powerlinefrequency.htm
 old-project: DirectShow
 ms.assetid: ef490cec-4f25-432a-b6a5-3e16044314e4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], put_PowerlineFrequency method, IVideoProcAmp::put_PowerlineFrequency, IVideoProcAmpput_PowerlineFrequency, dshow.ivideoprocamp_put_powerlinefrequency, put_PowerlineFrequency method [DirectShow], put_PowerlineFrequency method [DirectShow], IVideoProcAmp interface, put_PowerlineFrequency,IVideoProcAmp.put_PowerlineFrequency, vidcap/IVideoProcAmp::put_PowerlineFrequency
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],put_PowerlineFrequency method, IVideoProcAmp.put_PowerlineFrequency, IVideoProcAmp::put_PowerlineFrequency, IVideoProcAmpput_PowerlineFrequency, dshow.ivideoprocamp_put_powerlinefrequency, put_PowerlineFrequency, put_PowerlineFrequency method [DirectShow], put_PowerlineFrequency method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_PowerlineFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::put_PowerlineFrequency method
+# IVideoProcAmp::put_PowerlineFrequency
 
 
 ## -description

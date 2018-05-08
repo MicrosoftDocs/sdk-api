@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Weight
-title: IFont::put_Weight method
+title: IFont::put_Weight
 author: windows-driver-content
 description: Sets the font's Weight property.
 old-location: com\ifont_put_weight.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 716c77f3-6224-40d7-abea-46ed5eedb08a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFont, IFont interface [COM], put_Weight method, IFont::put_Weight, _ctrl_ifont_put_weight, com.ifont_put_weight, ocidl/IFont::put_Weight, put_Weight method [COM], put_Weight method [COM], IFont interface, put_Weight,IFont.put_Weight
+ms.keywords: IFont interface [COM],put_Weight method, IFont.put_Weight, IFont::put_Weight, _ctrl_ifont_put_weight, com.ifont_put_weight, ocidl/IFont::put_Weight, put_Weight, put_Weight method [COM], put_Weight method [COM],IFont interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFont::put_Weight method
+# IFont::put_Weight
 
 
 ## -description

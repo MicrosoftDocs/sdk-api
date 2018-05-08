@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetBreakOnCategory
-title: ID3D10InfoQueue::GetBreakOnCategory method
+title: ID3D10InfoQueue::GetBreakOnCategory
 author: windows-driver-content
 description: Get a message category to break on when a message with that category passes through the storage filter.
 old-location: direct3d10\id3d10infoqueue_getbreakoncategory.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getbreakoncategory.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetBreakOnCategory method [Direct3D 10], GetBreakOnCategory method [Direct3D 10], ID3D10InfoQueue interface, GetBreakOnCategory,ID3D10InfoQueue.GetBreakOnCategory, ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], GetBreakOnCategory method, ID3D10InfoQueue::GetBreakOnCategory, d3d10sdklayers/ID3D10InfoQueue::GetBreakOnCategory, direct3d10.id3d10infoqueue_getbreakoncategory, f7712289-f56a-df8e-a2dd-2568f07262a8
+ms.keywords: GetBreakOnCategory, GetBreakOnCategory method [Direct3D 10], GetBreakOnCategory method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetBreakOnCategory method, ID3D10InfoQueue.GetBreakOnCategory, ID3D10InfoQueue::GetBreakOnCategory, d3d10sdklayers/ID3D10InfoQueue::GetBreakOnCategory, direct3d10.id3d10infoqueue_getbreakoncategory, f7712289-f56a-df8e-a2dd-2568f07262a8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10InfoQueue::GetBreakOnCategory method
+# ID3D10InfoQueue::GetBreakOnCategory
 
 
 ## -description

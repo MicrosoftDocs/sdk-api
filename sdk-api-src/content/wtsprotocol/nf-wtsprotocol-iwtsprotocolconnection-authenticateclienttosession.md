@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.AuthenticateClientToSession
-title: IWTSProtocolConnection::AuthenticateClientToSession method
+title: IWTSProtocolConnection::AuthenticateClientToSession
 author: windows-driver-content
 description: IWTSProtocolConnection::AuthenticateClientToSession is no longer available. Instead, use IWRdsProtocolConnection::AuthenticateClientToSession.
 old-location: termserv\iwtsprotocolconnection_authenticateclienttosession.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 541bf463-9a4a-4237-8a61-1288ab1540cc
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: AuthenticateClientToSession method [Remote Desktop Services], AuthenticateClientToSession method [Remote Desktop Services], IWTSProtocolConnection interface, AuthenticateClientToSession,IWTSProtocolConnection.AuthenticateClientToSession, IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], AuthenticateClientToSession method, IWTSProtocolConnection::AuthenticateClientToSession, termserv.iwtsprotocolconnection_authenticateclienttosession, wtsprotocol/IWTSProtocolConnection::AuthenticateClientToSession
+ms.keywords: AuthenticateClientToSession, AuthenticateClientToSession method [Remote Desktop Services], AuthenticateClientToSession method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],AuthenticateClientToSession method, IWTSProtocolConnection.AuthenticateClientToSession, IWTSProtocolConnection::AuthenticateClientToSession, termserv.iwtsprotocolconnection_authenticateclienttosession, wtsprotocol/IWTSProtocolConnection::AuthenticateClientToSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolConnection::AuthenticateClientToSession method
+# IWTSProtocolConnection::AuthenticateClientToSession
 
 
 ## -description

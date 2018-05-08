@@ -64,6 +64,16 @@ The
 The number of strings represented in <b>pStringArray</b>.
 
 
+### -field size_is
+
+ 
+
+
+### -field size_is.dwStringCount
+
+ 
+
+
 ### -field pStringArray
 
 An array of strings representing the descriptive text of the TXT resource record.

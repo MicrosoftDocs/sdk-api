@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSettings.put_balance
-title: IWMPSettings::put_balance method
+title: IWMPSettings::put_balance
 author: windows-driver-content
 description: The put_balance method specifies the current stereo balance.
 old-location: wmp\iwmpsettings_put_balance.htm
 old-project: WMP
 ms.assetid: bb198bc0-a0cf-4f6b-9a1e-f9a552db7092
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], put_balance method, IWMPSettings::put_balance, IWMPSettingsput_balance, put_balance method [Windows Media Player], put_balance method [Windows Media Player], IWMPSettings interface, put_balance,IWMPSettings.put_balance, wmp.iwmpsettings_put_balance, wmp/IWMPSettings::put_balance
+ms.date: 5/4/2018
+ms.keywords: IWMPSettings interface [Windows Media Player],put_balance method, IWMPSettings.put_balance, IWMPSettings::put_balance, IWMPSettingsput_balance, put_balance, put_balance method [Windows Media Player], put_balance method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_balance, wmp/IWMPSettings::put_balance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSettings::put_balance method
+# IWMPSettings::put_balance
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IMultipleViewProvider.GetViewName
-title: IMultipleViewProvider::GetViewName method
+title: IMultipleViewProvider::GetViewName
 author: windows-driver-content
 description: Retrieves the name of a control-specific view.
 old-location: winauto\uiauto_IMultipleViewProvider_GetViewName.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 72e9bca3-22cd-4f5b-9481-289bdfaf58e8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetViewName method [Windows Accessibility], GetViewName method [Windows Accessibility], IMultipleViewProvider interface, GetViewName,IMultipleViewProvider.GetViewName, IMultipleViewProvider, IMultipleViewProvider interface [Windows Accessibility], GetViewName method, IMultipleViewProvider::GetViewName, uiauto.uiauto_IMultipleViewProvider_GetViewName, uiauto_IMultipleViewProvider_GetViewName, uiautomationcore/IMultipleViewProvider::GetViewName, winauto.uiauto_IMultipleViewProvider_GetViewName
+ms.keywords: GetViewName, GetViewName method [Windows Accessibility], GetViewName method [Windows Accessibility],IMultipleViewProvider interface, IMultipleViewProvider interface [Windows Accessibility],GetViewName method, IMultipleViewProvider.GetViewName, IMultipleViewProvider::GetViewName, uiauto.uiauto_IMultipleViewProvider_GetViewName, uiauto_IMultipleViewProvider_GetViewName, uiautomationcore/IMultipleViewProvider::GetViewName, winauto.uiauto_IMultipleViewProvider_GetViewName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMultipleViewProvider::GetViewName method
+# IMultipleViewProvider::GetViewName
 
 
 ## -description

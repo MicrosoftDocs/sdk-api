@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcChannelBuffer.FreeBuffer
-title: IRpcChannelBuffer::FreeBuffer method
+title: IRpcChannelBuffer::FreeBuffer
 author: windows-driver-content
 description: Frees a previously allocated RPC channel buffer.
 old-location: com\irpcchannelbuffer_freebuffer.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bcdd4783-4a75-42d0-86a9-ab2605abbbe1
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: FreeBuffer method [COM], FreeBuffer method [COM], IRpcChannelBuffer interface, FreeBuffer,IRpcChannelBuffer.FreeBuffer, IRpcChannelBuffer, IRpcChannelBuffer interface [COM], FreeBuffer method, IRpcChannelBuffer::FreeBuffer, _com_irpcchannelbuffer_freebuffer, com.irpcchannelbuffer_freebuffer, objidlbase/IRpcChannelBuffer::FreeBuffer
+ms.keywords: FreeBuffer, FreeBuffer method [COM], FreeBuffer method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],FreeBuffer method, IRpcChannelBuffer.FreeBuffer, IRpcChannelBuffer::FreeBuffer, _com_irpcchannelbuffer_freebuffer, com.irpcchannelbuffer_freebuffer, objidlbase/IRpcChannelBuffer::FreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRpcChannelBuffer::FreeBuffer method
+# IRpcChannelBuffer::FreeBuffer
 
 
 ## -description

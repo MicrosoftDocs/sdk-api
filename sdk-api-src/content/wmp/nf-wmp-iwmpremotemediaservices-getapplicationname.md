@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPRemoteMediaServices.GetApplicationName
-title: IWMPRemoteMediaServices::GetApplicationName method
+title: IWMPRemoteMediaServices::GetApplicationName
 author: windows-driver-content
 description: The GetApplicationName method is called by Windows Media Player to retrieve the name of the program that is hosting the remoted control.
 old-location: wmp\iwmpremotemediaservices_getapplicationname.htm
 old-project: WMP
 ms.assetid: b3a210f9-90ea-4a6e-8aab-9e8cd7e21ab6
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetApplicationName method [Windows Media Player], GetApplicationName method [Windows Media Player], IWMPRemoteMediaServices interface, GetApplicationName,IWMPRemoteMediaServices.GetApplicationName, IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], GetApplicationName method, IWMPRemoteMediaServices::GetApplicationName, IWMPRemoteMediaServicesGetApplicationName, wmp.iwmpremotemediaservices_getapplicationname, wmp/IWMPRemoteMediaServices::GetApplicationName
+ms.date: 5/4/2018
+ms.keywords: GetApplicationName, GetApplicationName method [Windows Media Player], GetApplicationName method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetApplicationName method, IWMPRemoteMediaServices.GetApplicationName, IWMPRemoteMediaServices::GetApplicationName, IWMPRemoteMediaServicesGetApplicationName, wmp.iwmpremotemediaservices_getapplicationname, wmp/IWMPRemoteMediaServices::GetApplicationName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPRemoteMediaServices::GetApplicationName method
+# IWMPRemoteMediaServices::GetApplicationName
 
 
 ## -description

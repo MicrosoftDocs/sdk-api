@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPLibrary.get_name
-title: IWMPLibrary::get_name method
+title: IWMPLibrary::get_name
 author: windows-driver-content
 description: The get_name method retrieves the display name of the current library.
 old-location: wmp\iwmplibrary_get_name.htm
 old-project: WMP
 ms.assetid: 28f1e3bc-3692-4fd0-a0b3-fecc3a173103
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPLibrary, IWMPLibrary interface [Windows Media Player], get_name method, IWMPLibrary::get_name, IWMPLibraryget_name, get_name method [Windows Media Player], get_name method [Windows Media Player], IWMPLibrary interface, get_name,IWMPLibrary.get_name, wmp.iwmplibrary_get_name, wmp/IWMPLibrary::get_name
+ms.date: 5/4/2018
+ms.keywords: IWMPLibrary interface [Windows Media Player],get_name method, IWMPLibrary.get_name, IWMPLibrary::get_name, IWMPLibraryget_name, get_name, get_name method [Windows Media Player], get_name method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_get_name, wmp/IWMPLibrary::get_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPLibrary::get_name method
+# IWMPLibrary::get_name
 
 
 ## -description

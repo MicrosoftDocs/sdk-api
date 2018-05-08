@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IFillLockBytes.FillAt
-title: IFillLockBytes::FillAt method
+title: IFillLockBytes::FillAt
 author: windows-driver-content
 description: The FillAt method writes a new block of data to a specified location in the byte array.
 old-location: stg\ifilllockbytes_fillat.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: d378d87b-e081-4950-b87b-9b1ad6dfb29d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: FillAt method [Structured Storage], FillAt method [Structured Storage], IFillLockBytes interface, FillAt,IFillLockBytes.FillAt, IFillLockBytes, IFillLockBytes interface [Structured Storage], FillAt method, IFillLockBytes::FillAt, _stg_ifilllockbytes_fillat, objidl/IFillLockBytes::FillAt, stg.ifilllockbytes_fillat
+ms.keywords: FillAt, FillAt method [Structured Storage], FillAt method [Structured Storage],IFillLockBytes interface, IFillLockBytes interface [Structured Storage],FillAt method, IFillLockBytes.FillAt, IFillLockBytes::FillAt, _stg_ifilllockbytes_fillat, objidl/IFillLockBytes::FillAt, stg.ifilllockbytes_fillat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFillLockBytes::FillAt method
+# IFillLockBytes::FillAt
 
 
 ## -description

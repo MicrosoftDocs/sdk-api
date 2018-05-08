@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.SetInPlaceVisibility
-title: ITextInputPanel::SetInPlaceVisibility method
+title: ITextInputPanel::SetInPlaceVisibility
 author: windows-driver-content
 description: Shows or hides the Tablet PC Input Panel.
 old-location: tablet\itextinputpanel_setinplacevisibility.htm
 old-project: tablet
 ms.assetid: 1e503857-9276-4308-b4ad-83db25866689
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 1e503857-9276-4308-b4ad-83db25866689, ITextInputPanel, ITextInputPanel interface [Tablet PC], SetInPlaceVisibility method, ITextInputPanel::SetInPlaceVisibility, SetInPlaceVisibility method [Tablet PC], SetInPlaceVisibility method [Tablet PC], ITextInputPanel interface, SetInPlaceVisibility,ITextInputPanel.SetInPlaceVisibility, peninputpanel/ITextInputPanel::SetInPlaceVisibility, tablet.itextinputpanel_setinplacevisibility
+ms.date: 5/2/2018
+ms.keywords: 1e503857-9276-4308-b4ad-83db25866689, ITextInputPanel interface [Tablet PC],SetInPlaceVisibility method, ITextInputPanel.SetInPlaceVisibility, ITextInputPanel::SetInPlaceVisibility, SetInPlaceVisibility, SetInPlaceVisibility method [Tablet PC], SetInPlaceVisibility method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlaceVisibility, tablet.itextinputpanel_setinplacevisibility
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanel::SetInPlaceVisibility method
+# ITextInputPanel::SetInPlaceVisibility
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IQueryParser.Parse
-title: IQueryParser::Parse method
+title: IQueryParser::Parse
 author: windows-driver-content
 description: Parses an input string that contains Structured Query keywords and/or contents to produce an IQuerySolution object.
 old-location: search\_search_IQueryParser_Parse.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\parse.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IQueryParser, IQueryParser interface [search], Parse method, IQueryParser::Parse, Parse method [search], Parse method [search], IQueryParser interface, Parse,IQueryParser.Parse, _search_IQueryParser_Parse, search._search_IQueryParser_Parse, structuredquery/IQueryParser::Parse
+ms.date: 5/4/2018
+ms.keywords: IQueryParser interface [search],Parse method, IQueryParser.Parse, IQueryParser::Parse, Parse, Parse method [search], Parse method [search],IQueryParser interface, _search_IQueryParser_Parse, search._search_IQueryParser_Parse, structuredquery/IQueryParser::Parse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IQueryParser::Parse method
+# IQueryParser::Parse
 
 
 ## -description

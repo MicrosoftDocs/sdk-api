@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetDictionaryLocal
-title: IXpsOMCanvas::SetDictionaryLocal method
+title: IXpsOMCanvas::SetDictionaryLocal
 author: windows-driver-content
 description: Sets the IXpsOMDictionary interface pointer of the local, unshared dictionary.
 old-location: xps\ixpsomcanvas_setdictionarylocal.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f6cd655f-8850-4fce-95af-50edbdd38cb1
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], SetDictionaryLocal method, IXpsOMCanvas::SetDictionaryLocal, SetDictionaryLocal method [XPS Documents and Packaging], SetDictionaryLocal method [XPS Documents and Packaging], IXpsOMCanvas interface, SetDictionaryLocal,IXpsOMCanvas.SetDictionaryLocal, xps.ixpsomcanvas_setdictionarylocal, xpsobjectmodel/IXpsOMCanvas::SetDictionaryLocal
+ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetDictionaryLocal method, IXpsOMCanvas.SetDictionaryLocal, IXpsOMCanvas::SetDictionaryLocal, SetDictionaryLocal, SetDictionaryLocal method [XPS Documents and Packaging], SetDictionaryLocal method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setdictionarylocal, xpsobjectmodel/IXpsOMCanvas::SetDictionaryLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCanvas::SetDictionaryLocal method
+# IXpsOMCanvas::SetDictionaryLocal
 
 
 ## -description

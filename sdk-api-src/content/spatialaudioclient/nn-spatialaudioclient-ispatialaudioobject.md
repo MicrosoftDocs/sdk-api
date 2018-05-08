@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ISpatialAudioObject, ISpatialAudioObject interface [Core Audio], ISpatialAudioObject interface [Core Audio], described, coreaudio.ispatialaudioobject, spatialaudioclient/ISpatialAudioObject
+ms.keywords: ISpatialAudioObject, ISpatialAudioObject interface [Core Audio], ISpatialAudioObject interface [Core Audio],described, coreaudio.ispatialaudioobject, spatialaudioclient/ISpatialAudioObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

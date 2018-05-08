@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMTranscryptor.Read
-title: IWMDRMTranscryptor::Read method
+title: IWMDRMTranscryptor::Read
 author: windows-driver-content
 description: The Read method reads data from the file loaded in the transcryptor and encrypts it for streaming to devices that support Windows Media DRM 10 for Network Devices.
 old-location: wmformat\iwmdrmtranscryptor_read.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 55b1c73a-5c00-4e16-b0fe-2352ce09bffc
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMDRMTranscryptor, IWMDRMTranscryptor interface [windows Media Format], Read method, IWMDRMTranscryptor::Read, IWMDRMTranscryptorRead, Read method [windows Media Format], Read method [windows Media Format], IWMDRMTranscryptor interface, Read,IWMDRMTranscryptor.Read, wmformat.iwmdrmtranscryptor_read, wmsdkidl/IWMDRMTranscryptor::Read
+ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Read method, IWMDRMTranscryptor.Read, IWMDRMTranscryptor::Read, IWMDRMTranscryptorRead, Read, Read method [windows Media Format], Read method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_read, wmsdkidl/IWMDRMTranscryptor::Read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMTranscryptor::Read method
+# IWMDRMTranscryptor::Read
 
 
 ## -description

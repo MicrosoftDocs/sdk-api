@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IGraphConfig.PushThroughData
-title: IGraphConfig::PushThroughData method
+title: IGraphConfig::PushThroughData
 author: windows-driver-content
 description: The PushThroughData method pushes data through the filter graph to the specified pin.
 old-location: dshow\igraphconfig_pushthroughdata.htm
 old-project: DirectShow
 ms.assetid: f3d72a32-f43a-4a61-b25e-6d472aa629de
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], PushThroughData method, IGraphConfig::PushThroughData, IGraphConfigPushThroughData, PushThroughData method [DirectShow], PushThroughData method [DirectShow], IGraphConfig interface, PushThroughData,IGraphConfig.PushThroughData, dshow.igraphconfig_pushthroughdata, strmif/IGraphConfig::PushThroughData
+ms.date: 4/30/2018
+ms.keywords: IGraphConfig interface [DirectShow],PushThroughData method, IGraphConfig.PushThroughData, IGraphConfig::PushThroughData, IGraphConfigPushThroughData, PushThroughData, PushThroughData method [DirectShow], PushThroughData method [DirectShow],IGraphConfig interface, dshow.igraphconfig_pushthroughdata, strmif/IGraphConfig::PushThroughData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IGraphConfig::PushThroughData method
+# IGraphConfig::PushThroughData
 
 
 ## -description

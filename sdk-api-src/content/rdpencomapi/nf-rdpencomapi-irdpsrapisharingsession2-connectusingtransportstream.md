@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession2.ConnectUsingTransportStream
-title: IRDPSRAPISharingSession2::ConnectUsingTransportStream method
+title: IRDPSRAPISharingSession2::ConnectUsingTransportStream
 author: windows-driver-content
 description: Connects using the specified transport stream.
 old-location: rdp\irdpsrapisharingsession2_connectusingtransportstream.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 78f517c9-0870-4dfd-a318-3bd510e05dfa
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: ConnectUsingTransportStream method [RDP], ConnectUsingTransportStream method [RDP], IRDPSRAPISharingSession2 interface, ConnectUsingTransportStream,IRDPSRAPISharingSession2.ConnectUsingTransportStream, IRDPSRAPISharingSession2, IRDPSRAPISharingSession2 interface [RDP], ConnectUsingTransportStream method, IRDPSRAPISharingSession2::ConnectUsingTransportStream, rdp.irdpsrapisharingsession2_connectusingtransportstream, rdpencomapi/IRDPSRAPISharingSession2::ConnectUsingTransportStream
+ms.keywords: ConnectUsingTransportStream, ConnectUsingTransportStream method [RDP], ConnectUsingTransportStream method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession2 interface [RDP],ConnectUsingTransportStream method, IRDPSRAPISharingSession2.ConnectUsingTransportStream, IRDPSRAPISharingSession2::ConnectUsingTransportStream, rdp.irdpsrapisharingsession2_connectusingtransportstream, rdpencomapi/IRDPSRAPISharingSession2::ConnectUsingTransportStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPISharingSession2::ConnectUsingTransportStream method
+# IRDPSRAPISharingSession2::ConnectUsingTransportStream
 
 
 ## -description

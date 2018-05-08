@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetMuted
-title: IMFMediaEngine::SetMuted method
+title: IMFMediaEngine::SetMuted
 author: windows-driver-content
 description: Mutes or unmutes the audio.
 old-location: mf\imfmediaengine_setmuted.htm
 old-project: medfound
 ms.assetid: 330CB3CF-F649-4964-A24D-3C16E778BFD7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], SetMuted method, IMFMediaEngine::SetMuted, SetMuted method [Media Foundation], SetMuted method [Media Foundation], IMFMediaEngine interface, SetMuted,IMFMediaEngine.SetMuted, mf.imfmediaengine_setmuted, mfmediaengine/IMFMediaEngine::SetMuted
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngine interface [Media Foundation],SetMuted method, IMFMediaEngine.SetMuted, IMFMediaEngine::SetMuted, SetMuted, SetMuted method [Media Foundation], SetMuted method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setmuted, mfmediaengine/IMFMediaEngine::SetMuted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::SetMuted method
+# IMFMediaEngine::SetMuted
 
 
 ## -description

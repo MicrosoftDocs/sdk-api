@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILocation.GetDesiredAccuracy
-title: ILocation::GetDesiredAccuracy method
+title: ILocation::GetDesiredAccuracy
 author: windows-driver-content
 description: Retrieves the current requested accuracy setting.
 old-location: winlocation\ilocation_getdesiredaccuracy.htm
@@ -8,7 +8,7 @@ old-project: LocationAPI
 ms.assetid: caa34e34-7370-4e42-9c0f-00498f5fc37d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDesiredAccuracy method [WinLocation], GetDesiredAccuracy method [WinLocation], ILocation interface, GetDesiredAccuracy,ILocation.GetDesiredAccuracy, ILocation, ILocation interface [WinLocation], GetDesiredAccuracy method, ILocation::GetDesiredAccuracy, locationapi/ILocation::GetDesiredAccuracy, winlocation.ilocation_getdesiredaccuracy
+ms.keywords: GetDesiredAccuracy, GetDesiredAccuracy method [WinLocation], GetDesiredAccuracy method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetDesiredAccuracy method, ILocation.GetDesiredAccuracy, ILocation::GetDesiredAccuracy, locationapi/ILocation::GetDesiredAccuracy, winlocation.ilocation_getdesiredaccuracy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ILocation::GetDesiredAccuracy method
+# ILocation::GetDesiredAccuracy
 
 
 ## -description

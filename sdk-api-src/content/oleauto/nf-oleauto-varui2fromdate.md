@@ -7,7 +7,7 @@ old-location: automat\varui2fromdate.htm
 old-project: automat
 ms.assetid: b611526d-3bc1-4943-9fb4-319e5899426a
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarUI2FromDate, VarUI2FromDate function [Automation], _oa96_VarUI2FromDate, automat.varui2fromdate, oleauto/VarUI2FromDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

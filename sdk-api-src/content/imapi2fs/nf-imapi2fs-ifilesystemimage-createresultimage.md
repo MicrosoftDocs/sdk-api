@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.CreateResultImage
-title: IFileSystemImage::CreateResultImage method
+title: IFileSystemImage::CreateResultImage
 author: windows-driver-content
 description: Create the result object that contains the file system and file data.
 old-location: imapi\ifilesystemimage_createresultimage.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 6f7d2438-5c80-4461-8b48-646f0ca44498
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateResultImage method [IMAPI], CreateResultImage method [IMAPI], IFileSystemImage interface, CreateResultImage,IFileSystemImage.CreateResultImage, IFileSystemImage, IFileSystemImage interface [IMAPI], CreateResultImage method, IFileSystemImage::CreateResultImage, imapi.ifilesystemimage_createresultimage, imapi2fs/IFileSystemImage::CreateResultImage
+ms.keywords: CreateResultImage, CreateResultImage method [IMAPI], CreateResultImage method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CreateResultImage method, IFileSystemImage.CreateResultImage, IFileSystemImage::CreateResultImage, imapi.ifilesystemimage_createresultimage, imapi2fs/IFileSystemImage::CreateResultImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::CreateResultImage method
+# IFileSystemImage::CreateResultImage
 
 
 ## -description

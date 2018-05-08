@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.DeletePolicyAdministrator
-title: IAzApplication::DeletePolicyAdministrator method
+title: IAzApplication::DeletePolicyAdministrator
 author: windows-driver-content
 description: The DeletePolicyAdministrator method of IAzApplication removes the specified security identifier in text form from the list of principals that act as policy administrators.
 old-location: security\iazapplication_deletepolicyadministrator.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 240dbfbc-ae0f-4a8e-9cbc-b58efb258ad5
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplication object [Security], DeletePolicyAdministrator method, DeletePolicyAdministrator method [Security], DeletePolicyAdministrator method [Security], AzApplication object, DeletePolicyAdministrator method [Security], IAzApplication interface, DeletePolicyAdministrator,IAzApplication.DeletePolicyAdministrator, IAzApplication, IAzApplication interface [Security], DeletePolicyAdministrator method, IAzApplication::DeletePolicyAdministrator, azroles/IAzApplication::DeletePolicyAdministrator, security.iazapplication_deletepolicyadministrator
+ms.keywords: AzApplication object [Security],DeletePolicyAdministrator method, DeletePolicyAdministrator, DeletePolicyAdministrator method [Security], DeletePolicyAdministrator method [Security],AzApplication object, DeletePolicyAdministrator method [Security],IAzApplication interface, IAzApplication interface [Security],DeletePolicyAdministrator method, IAzApplication.DeletePolicyAdministrator, IAzApplication::DeletePolicyAdministrator, azroles/IAzApplication::DeletePolicyAdministrator, security.iazapplication_deletepolicyadministrator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::DeletePolicyAdministrator method
+# IAzApplication::DeletePolicyAdministrator
 
 
 ## -description

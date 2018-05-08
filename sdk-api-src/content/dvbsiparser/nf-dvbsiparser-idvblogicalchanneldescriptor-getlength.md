@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetLength
-title: IDvbLogicalChannelDescriptor::GetLength method
+title: IDvbLogicalChannelDescriptor::GetLength
 author: windows-driver-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
 old-location: mstv\idvblogicalchanneldescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 20c0f2a8-e4f5-4516-8c19-30cd19f0816e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [DirectShow], GetLength method [DirectShow], IDvbLogicalChannelDescriptor interface, GetLength,IDvbLogicalChannelDescriptor.GetLength, IDvbLogicalChannelDescriptor, IDvbLogicalChannelDescriptor interface [DirectShow], GetLength method, IDvbLogicalChannelDescriptor::GetLength, IDvbLogicalChannelDescriptorGetLength, dvbsiparser/IDvbLogicalChannelDescriptor::GetLength, mstv.idvblogicalchanneldescriptor_getlength
+ms.keywords: GetLength, GetLength method [DirectShow], GetLength method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetLength method, IDvbLogicalChannelDescriptor.GetLength, IDvbLogicalChannelDescriptor::GetLength, IDvbLogicalChannelDescriptorGetLength, dvbsiparser/IDvbLogicalChannelDescriptor::GetLength, mstv.idvblogicalchanneldescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLogicalChannelDescriptor::GetLength method
+# IDvbLogicalChannelDescriptor::GetLength
 
 
 ## -description

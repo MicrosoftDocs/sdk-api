@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingServiceCallback.Undocked
-title: IAccessibilityDockingServiceCallback::Undocked method
+title: IAccessibilityDockingServiceCallback::Undocked
 author: windows-driver-content
 description: Undocks the accessibility window so that it will not be automatically moved to its previous location.
 old-location: com\iaccessibilitydockingservicecallback_undocked.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1D704794-C729-49B9-8F72-6D77D0860B03
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAccessibilityDockingServiceCallback, IAccessibilityDockingServiceCallback interface [COM], Undocked method, IAccessibilityDockingServiceCallback::Undocked, Undocked method [COM], Undocked method [COM], IAccessibilityDockingServiceCallback interface, Undocked,IAccessibilityDockingServiceCallback.Undocked, com.iaccessibilitydockingservicecallback_undocked, shobjidl/IAccessibilityDockingServiceCallback::Undocked
+ms.keywords: IAccessibilityDockingServiceCallback interface [COM],Undocked method, IAccessibilityDockingServiceCallback.Undocked, IAccessibilityDockingServiceCallback::Undocked, Undocked, Undocked method [COM], Undocked method [COM],IAccessibilityDockingServiceCallback interface, com.iaccessibilitydockingservicecallback_undocked, shobjidl/IAccessibilityDockingServiceCallback::Undocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IAccessibilityDockingServiceCallback::Undocked method
+# IAccessibilityDockingServiceCallback::Undocked
 
 
 ## -description

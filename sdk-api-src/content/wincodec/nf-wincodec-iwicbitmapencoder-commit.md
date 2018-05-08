@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.Commit
-title: IWICBitmapEncoder::Commit method
+title: IWICBitmapEncoder::Commit
 author: windows-driver-content
 description: Commits all changes for the image and closes the stream.
 old-location: wic\_wic_codec_iwicbitmapencoder_commit.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 97e39e73-3494-4679-8962-eb48242f9b9f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Commit method [Windows Imaging Component], Commit method [Windows Imaging Component], IWICBitmapEncoder interface, Commit,IWICBitmapEncoder.Commit, IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], Commit method, IWICBitmapEncoder::Commit, _wic_codec_iwicbitmapencoder_commit, wic._wic_codec_iwicbitmapencoder_commit, wincodec/IWICBitmapEncoder::Commit
+ms.keywords: Commit, Commit method [Windows Imaging Component], Commit method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],Commit method, IWICBitmapEncoder.Commit, IWICBitmapEncoder::Commit, _wic_codec_iwicbitmapencoder_commit, wic._wic_codec_iwicbitmapencoder_commit, wincodec/IWICBitmapEncoder::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapEncoder::Commit method
+# IWICBitmapEncoder::Commit
 
 
 ## -description

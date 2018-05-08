@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: d59a5198-5878-4a48-b6c4-042afc36054d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISynchronousDataRetriever, ISynchronousDataRetriever interface [Windows Sync], ISynchronousDataRetriever interface [Windows Sync], described, winsync.isynchronousdataretriever, winsync/ISynchronousDataRetriever
+ms.keywords: ISynchronousDataRetriever, ISynchronousDataRetriever interface [Windows Sync], ISynchronousDataRetriever interface [Windows Sync],described, winsync.isynchronousdataretriever, winsync/ISynchronousDataRetriever
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

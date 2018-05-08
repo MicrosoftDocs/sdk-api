@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.IQueryContinueWithStatus.SetStatusMessage
-title: IQueryContinueWithStatus::SetStatusMessage method
+title: IQueryContinueWithStatus::SetStatusMessage
 author: windows-driver-content
 description: Enables the credential provider to set status messages as it attempts to complete IConnectableCredentialProviderCredential::Connect.
 old-location: shell\IQueryContinueWithStatus_SetStatusMessage.htm
 old-project: shell
 ms.assetid: 1619c592-f79b-429f-a1dc-ce0b66542dd6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IQueryContinueWithStatus, IQueryContinueWithStatus interface [Windows Shell], SetStatusMessage method, IQueryContinueWithStatus::SetStatusMessage, SetStatusMessage method [Windows Shell], SetStatusMessage method [Windows Shell], IQueryContinueWithStatus interface, SetStatusMessage,IQueryContinueWithStatus.SetStatusMessage, _shell_IQueryContinueWithStatus_SetStatusMessage, credentialprovider/IQueryContinueWithStatus::SetStatusMessage, shell.IQueryContinueWithStatus_SetStatusMessage
+ms.date: 5/3/2018
+ms.keywords: IQueryContinueWithStatus interface [Windows Shell],SetStatusMessage method, IQueryContinueWithStatus.SetStatusMessage, IQueryContinueWithStatus::SetStatusMessage, SetStatusMessage, SetStatusMessage method [Windows Shell], SetStatusMessage method [Windows Shell],IQueryContinueWithStatus interface, _shell_IQueryContinueWithStatus_SetStatusMessage, credentialprovider/IQueryContinueWithStatus::SetStatusMessage, shell.IQueryContinueWithStatus_SetStatusMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IQueryContinueWithStatus::SetStatusMessage method
+# IQueryContinueWithStatus::SetStatusMessage
 
 
 ## -description

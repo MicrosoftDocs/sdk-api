@@ -120,6 +120,16 @@ Specifies the state of the registered ID.  This value is reserved and must be se
  
 
 
+### -field blobPayload
+
+ 
+
+
+### -field pwszPayload
+
+ 
+
+
 
 
 ## -remarks

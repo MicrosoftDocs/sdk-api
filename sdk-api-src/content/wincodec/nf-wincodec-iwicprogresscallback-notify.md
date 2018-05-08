@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICProgressCallback.Notify
-title: IWICProgressCallback::Notify method
+title: IWICProgressCallback::Notify
 author: windows-driver-content
 description: Notify method is documented only for compliance; its use is not recommended and may be altered or unavailable in the future. Instead, and use RegisterProgressNotification.
 old-location: wic\_wic_codec_iwicprogresscallback_notify.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: afbbfa87-716c-4957-9f90-d48d02d642e0
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICProgressCallback, IWICProgressCallback interface [Windows Imaging Component], Notify method, IWICProgressCallback::Notify, Notify method [Windows Imaging Component], Notify method [Windows Imaging Component], IWICProgressCallback interface, Notify,IWICProgressCallback.Notify, _wic_codec_iwicprogresscallback_notify, wic._wic_codec_iwicprogresscallback_notify, wincodec/IWICProgressCallback::Notify
+ms.keywords: IWICProgressCallback interface [Windows Imaging Component],Notify method, IWICProgressCallback.Notify, IWICProgressCallback::Notify, Notify, Notify method [Windows Imaging Component], Notify method [Windows Imaging Component],IWICProgressCallback interface, _wic_codec_iwicprogresscallback_notify, wic._wic_codec_iwicprogresscallback_notify, wincodec/IWICProgressCallback::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICProgressCallback::Notify method
+# IWICProgressCallback::Notify
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFStreamSink.PlaceMarker
-title: IMFStreamSink::PlaceMarker method
+title: IMFStreamSink::PlaceMarker
 author: windows-driver-content
 description: Places a marker in the stream.
 old-location: mf\imfstreamsink_placemarker.htm
 old-project: medfound
 ms.assetid: bfa4fb12-59b2-4599-b8ff-dc38750a5a79
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFStreamSink, IMFStreamSink interface [Media Foundation], PlaceMarker method, IMFStreamSink::PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation], IMFStreamSink interface, PlaceMarker,IMFStreamSink.PlaceMarker, bfa4fb12-59b2-4599-b8ff-dc38750a5a79, mf.imfstreamsink_placemarker, mfidl/IMFStreamSink::PlaceMarker
+ms.date: 5/3/2018
+ms.keywords: IMFStreamSink interface [Media Foundation],PlaceMarker method, IMFStreamSink.PlaceMarker, IMFStreamSink::PlaceMarker, PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation],IMFStreamSink interface, bfa4fb12-59b2-4599-b8ff-dc38750a5a79, mf.imfstreamsink_placemarker, mfidl/IMFStreamSink::PlaceMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFStreamSink::PlaceMarker method
+# IMFStreamSink::PlaceMarker
 
 
 ## -description

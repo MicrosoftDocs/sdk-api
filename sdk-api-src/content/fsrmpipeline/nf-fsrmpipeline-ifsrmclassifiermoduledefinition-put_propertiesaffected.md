@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleDefinition.put_PropertiesAffected
-title: IFsrmClassifierModuleDefinition::put_PropertiesAffected method
+title: IFsrmClassifierModuleDefinition::put_PropertiesAffected
 author: windows-driver-content
 description: The list of property names that the classifier can affect.
 old-location: fsrm\ifsrmclassifiermoduledefinition_propertiesaffected.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 69f288d1-cc78-4af0-891b-c5c3ed8d2659
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmClassifierModuleDefinition, IFsrmClassifierModuleDefinition interface [File Server Resource Manager], PropertiesAffected property, IFsrmClassifierModuleDefinition.PropertiesAffected, IFsrmClassifierModuleDefinition::get_PropertiesAffected, IFsrmClassifierModuleDefinition::put_PropertiesAffected, PropertiesAffected property [File Server Resource Manager], PropertiesAffected property [File Server Resource Manager], IFsrmClassifierModuleDefinition interface, fs.ifsrmclassifiermoduledefinition_propertiesaffected, fsrm.ifsrmclassifiermoduledefinition_propertiesaffected, fsrmpipeline/IFsrmClassifierModuleDefinition::PropertiesAffected, fsrmpipeline/IFsrmClassifierModuleDefinition::get_PropertiesAffected, fsrmpipeline/IFsrmClassifierModuleDefinition::put_PropertiesAffected, put_PropertiesAffected,IFsrmClassifierModuleDefinition.put_PropertiesAffected
+ms.keywords: IFsrmClassifierModuleDefinition interface [File Server Resource Manager],PropertiesAffected property, IFsrmClassifierModuleDefinition.PropertiesAffected, IFsrmClassifierModuleDefinition.put_PropertiesAffected, IFsrmClassifierModuleDefinition::PropertiesAffected, IFsrmClassifierModuleDefinition::get_PropertiesAffected, IFsrmClassifierModuleDefinition::put_PropertiesAffected, PropertiesAffected property [File Server Resource Manager], PropertiesAffected property [File Server Resource Manager],IFsrmClassifierModuleDefinition interface, fs.ifsrmclassifiermoduledefinition_propertiesaffected, fsrm.ifsrmclassifiermoduledefinition_propertiesaffected, fsrmpipeline/IFsrmClassifierModuleDefinition::PropertiesAffected, fsrmpipeline/IFsrmClassifierModuleDefinition::get_PropertiesAffected, fsrmpipeline/IFsrmClassifierModuleDefinition::put_PropertiesAffected, put_PropertiesAffected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassifierModuleDefinition::put_PropertiesAffected method
+# IFsrmClassifierModuleDefinition::put_PropertiesAffected
 
 
 ## -description

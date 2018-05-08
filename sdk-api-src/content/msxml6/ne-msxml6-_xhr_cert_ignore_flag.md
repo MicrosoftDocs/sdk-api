@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Msxml.tlb
-req.typenames: XHR_CERT_IGNORE_FLAG, XHR_CERT_IGNORE_FLAG
+req.typenames: XHR_CERT_IGNORE_FLAG
 topic_type:
 -	APIRef
 -	kbSyntax

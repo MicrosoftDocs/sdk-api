@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLicenseConnection.RequestLicensingCapabilities
-title: IWRdsProtocolLicenseConnection::RequestLicensingCapabilities method
+title: IWRdsProtocolLicenseConnection::RequestLicensingCapabilities
 author: windows-driver-content
 description: Requests license capabilities from the client.
 old-location: termserv\iwrdsprotocollicenseconnection_requestlicensingcapabilities.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: a5814a01-9e4b-4510-b6a5-fa6edc6a15ed
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolLicenseConnection, IWRdsProtocolLicenseConnection interface [Remote Desktop Services], RequestLicensingCapabilities method, IWRdsProtocolLicenseConnection::RequestLicensingCapabilities, RequestLicensingCapabilities method [Remote Desktop Services], RequestLicensingCapabilities method [Remote Desktop Services], IWRdsProtocolLicenseConnection interface, RequestLicensingCapabilities,IWRdsProtocolLicenseConnection.RequestLicensingCapabilities, termserv.iwrdsprotocollicenseconnection_requestlicensingcapabilities, wtsprotocol/IWRdsProtocolLicenseConnection::RequestLicensingCapabilities
+ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],RequestLicensingCapabilities method, IWRdsProtocolLicenseConnection.RequestLicensingCapabilities, IWRdsProtocolLicenseConnection::RequestLicensingCapabilities, RequestLicensingCapabilities, RequestLicensingCapabilities method [Remote Desktop Services], RequestLicensingCapabilities method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_requestlicensingcapabilities, wtsprotocol/IWRdsProtocolLicenseConnection::RequestLicensingCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolLicenseConnection::RequestLicensingCapabilities method
+# IWRdsProtocolLicenseConnection::RequestLicensingCapabilities
 
 
 ## -description

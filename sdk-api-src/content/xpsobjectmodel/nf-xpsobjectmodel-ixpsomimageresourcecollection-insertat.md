@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.InsertAt
-title: IXpsOMImageResourceCollection::InsertAt method
+title: IXpsOMImageResourceCollection::InsertAt
 author: windows-driver-content
 description: Inserts an IXpsOMImageResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomimageresourcecollection_insertat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 46bb3a49-f875-4b52-98f4-cec475f46019
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMImageResourceCollection, IXpsOMImageResourceCollection interface [XPS Documents and Packaging], InsertAt method, IXpsOMImageResourceCollection::InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging], IXpsOMImageResourceCollection interface, InsertAt,IXpsOMImageResourceCollection.InsertAt, xps.ixpsomimageresourcecollection_insertat, xpsobjectmodel/IXpsOMImageResourceCollection::InsertAt
+ms.keywords: IXpsOMImageResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMImageResourceCollection.InsertAt, IXpsOMImageResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, xps.ixpsomimageresourcecollection_insertat, xpsobjectmodel/IXpsOMImageResourceCollection::InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMImageResourceCollection::InsertAt method
+# IXpsOMImageResourceCollection::InsertAt
 
 
 ## -description

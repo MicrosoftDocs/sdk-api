@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalProperties.GetSignalSource
-title: IBDA_SignalProperties::GetSignalSource method
+title: IBDA_SignalProperties::GetSignalSource
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties_getsignalsource.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 929ec042-3f43-468e-944a-919dda3893be
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSignalSource method [Microsoft TV Technologies], GetSignalSource method [Microsoft TV Technologies], IBDA_SignalProperties interface, GetSignalSource,IBDA_SignalProperties.GetSignalSource, IBDA_SignalProperties, IBDA_SignalProperties interface [Microsoft TV Technologies], GetSignalSource method, IBDA_SignalProperties::GetSignalSource, IBDA_SignalPropertiesGetSignalSource, bdaiface/IBDA_SignalProperties::GetSignalSource, mstv.ibda_signalproperties_getsignalsource
+ms.keywords: GetSignalSource, GetSignalSource method [Microsoft TV Technologies], GetSignalSource method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetSignalSource method, IBDA_SignalProperties.GetSignalSource, IBDA_SignalProperties::GetSignalSource, IBDA_SignalPropertiesGetSignalSource, bdaiface/IBDA_SignalProperties::GetSignalSource, mstv.ibda_signalproperties_getsignalsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_SignalProperties::GetSignalSource method
+# IBDA_SignalProperties::GetSignalSource
 
 
 ## -description

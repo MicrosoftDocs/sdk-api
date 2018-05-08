@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterMapper2.CreateCategory
-title: IFilterMapper2::CreateCategory method
+title: IFilterMapper2::CreateCategory
 author: windows-driver-content
 description: The CreateCategory method adds a new filter category to the registry.
 old-location: dshow\ifiltermapper2_createcategory.htm
 old-project: DirectShow
 ms.assetid: 37dc50a0-530c-4b31-b766-9e161b04c6d5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CreateCategory method [DirectShow], CreateCategory method [DirectShow], IFilterMapper2 interface, CreateCategory,IFilterMapper2.CreateCategory, IFilterMapper2, IFilterMapper2 interface [DirectShow], CreateCategory method, IFilterMapper2::CreateCategory, IFilterMapper2CreateCategory, dshow.ifiltermapper2_createcategory, strmif/IFilterMapper2::CreateCategory
+ms.date: 4/30/2018
+ms.keywords: CreateCategory, CreateCategory method [DirectShow], CreateCategory method [DirectShow],IFilterMapper2 interface, IFilterMapper2 interface [DirectShow],CreateCategory method, IFilterMapper2.CreateCategory, IFilterMapper2::CreateCategory, IFilterMapper2CreateCategory, dshow.ifiltermapper2_createcategory, strmif/IFilterMapper2::CreateCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterMapper2::CreateCategory method
+# IFilterMapper2::CreateCategory
 
 
 ## -description

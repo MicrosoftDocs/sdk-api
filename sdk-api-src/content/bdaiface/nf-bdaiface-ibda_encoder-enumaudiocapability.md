@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.EnumAudioCapability
-title: IBDA_Encoder::EnumAudioCapability method
+title: IBDA_Encoder::EnumAudioCapability
 author: windows-driver-content
 description: Gets one of the audio formats supported by the device.
 old-location: mstv\ibda_encoder_enumaudiocapability.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 5dcc8f5e-c8bc-4443-bb07-0eb48bb72738
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: EnumAudioCapability method [Microsoft TV Technologies], EnumAudioCapability method [Microsoft TV Technologies], IBDA_Encoder interface, EnumAudioCapability,IBDA_Encoder.EnumAudioCapability, IBDA_Encoder, IBDA_Encoder interface [Microsoft TV Technologies], EnumAudioCapability method, IBDA_Encoder::EnumAudioCapability, PBDA_Encoder_Audio_AlgorithmType_AC3, PBDA_Encoder_Audio_AlgorithmType_MPEG1LayerII, bdaiface/IBDA_Encoder::EnumAudioCapability, mstv.ibda_encoder_enumaudiocapability
+ms.keywords: EnumAudioCapability, EnumAudioCapability method [Microsoft TV Technologies], EnumAudioCapability method [Microsoft TV Technologies],IBDA_Encoder interface, IBDA_Encoder interface [Microsoft TV Technologies],EnumAudioCapability method, IBDA_Encoder.EnumAudioCapability, IBDA_Encoder::EnumAudioCapability, PBDA_Encoder_Audio_AlgorithmType_AC3, PBDA_Encoder_Audio_AlgorithmType_MPEG1LayerII, bdaiface/IBDA_Encoder::EnumAudioCapability, mstv.ibda_encoder_enumaudiocapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_Encoder::EnumAudioCapability method
+# IBDA_Encoder::EnumAudioCapability
 
 
 ## -description

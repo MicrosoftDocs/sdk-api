@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.IItemEnumerator.MoveNext
-title: IItemEnumerator::MoveNext method
+title: IItemEnumerator::MoveNext
 author: windows-driver-content
 description: Moves the current position to the next item in the enumerator if available.
 old-location: smi\iitemenumerator_movenext.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: bdec3ee4-e66a-4e93-9109-c5721d06eb63
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IItemEnumerator, IItemEnumerator interface [SMI], MoveNext method, IItemEnumerator::MoveNext, MoveNext method [SMI], MoveNext method [SMI], IItemEnumerator interface, MoveNext,IItemEnumerator.MoveNext, smi.iitemenumerator_movenext, wcmconfig/IItemEnumerator::MoveNext
+ms.keywords: IItemEnumerator interface [SMI],MoveNext method, IItemEnumerator.MoveNext, IItemEnumerator::MoveNext, MoveNext, MoveNext method [SMI], MoveNext method [SMI],IItemEnumerator interface, smi.iitemenumerator_movenext, wcmconfig/IItemEnumerator::MoveNext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IItemEnumerator::MoveNext method
+# IItemEnumerator::MoveNext
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IProgressItems.ProgressItemFromBlock
-title: IProgressItems::ProgressItemFromBlock method
+title: IProgressItems::ProgressItemFromBlock
 author: windows-driver-content
 description: Retrieves a progress item based on the specified block number.
 old-location: imapi\iprogressitems_progressitemfromblock.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 2b37cf63-24be-42ff-a439-157703db9604
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IProgressItems, IProgressItems interface [IMAPI], ProgressItemFromBlock method, IProgressItems::ProgressItemFromBlock, ProgressItemFromBlock method [IMAPI], ProgressItemFromBlock method [IMAPI], IProgressItems interface, ProgressItemFromBlock,IProgressItems.ProgressItemFromBlock, imapi.iprogressitems_progressitemfromblock, imapi2fs/IProgressItems::ProgressItemFromBlock
+ms.keywords: IProgressItems interface [IMAPI],ProgressItemFromBlock method, IProgressItems.ProgressItemFromBlock, IProgressItems::ProgressItemFromBlock, ProgressItemFromBlock, ProgressItemFromBlock method [IMAPI], ProgressItemFromBlock method [IMAPI],IProgressItems interface, imapi.iprogressitems_progressitemfromblock, imapi2fs/IProgressItems::ProgressItemFromBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IProgressItems::ProgressItemFromBlock method
+# IProgressItems::ProgressItemFromBlock
 
 
 ## -description

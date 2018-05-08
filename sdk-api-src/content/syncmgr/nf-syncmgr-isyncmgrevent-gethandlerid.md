@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetHandlerID
-title: ISyncMgrEvent::GetHandlerID method
+title: ISyncMgrEvent::GetHandlerID
 author: windows-driver-content
 description: Gets the ID of the handler for which the event was logged.
 old-location: shell\ISyncMgrEvent_GetHandlerID.htm
 old-project: shell
 ms.assetid: b2f3bcbf-f14d-41ce-b4fc-3f491465ce84
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetHandlerID method [Windows Shell], GetHandlerID method [Windows Shell], ISyncMgrEvent interface, GetHandlerID,ISyncMgrEvent.GetHandlerID, ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], GetHandlerID method, ISyncMgrEvent::GetHandlerID, _shell_ISyncMgrEvent_GetHandlerID, shell.ISyncMgrEvent_GetHandlerID, syncmgr/ISyncMgrEvent::GetHandlerID
+ms.date: 5/3/2018
+ms.keywords: GetHandlerID, GetHandlerID method [Windows Shell], GetHandlerID method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetHandlerID method, ISyncMgrEvent.GetHandlerID, ISyncMgrEvent::GetHandlerID, _shell_ISyncMgrEvent_GetHandlerID, shell.ISyncMgrEvent_GetHandlerID, syncmgr/ISyncMgrEvent::GetHandlerID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrEvent::GetHandlerID method
+# ISyncMgrEvent::GetHandlerID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallBase.ReceiveTSPCallData
-title: CMSPCallBase::ReceiveTSPCallData method
+title: CMSPCallBase::ReceiveTSPCallData
 author: windows-driver-content
 description: The ReceiveTSPCallData method is called by the MSP address object's ReceiveTSPData method to dispatch TSP data to the correct call.
 old-location: tapi3\cmspcallbase_receivetspcalldata.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 8f5c31cd-7d74-47d4-9e96-8a965843210c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPCallBase, CMSPCallBase interface [TAPI 2.2], ReceiveTSPCallData method, CMSPCallBase::ReceiveTSPCallData, ReceiveTSPCallData method [TAPI 2.2], ReceiveTSPCallData method [TAPI 2.2], CMSPCallBase interface, ReceiveTSPCallData,CMSPCallBase.ReceiveTSPCallData, _tapi3_cmspcallbase_receivetspcalldata, mspcall/CMSPCallBase::ReceiveTSPCallData, tapi3.cmspcallbase_receivetspcalldata
+ms.keywords: CMSPCallBase interface [TAPI 2.2],ReceiveTSPCallData method, CMSPCallBase.ReceiveTSPCallData, CMSPCallBase::ReceiveTSPCallData, ReceiveTSPCallData, ReceiveTSPCallData method [TAPI 2.2], ReceiveTSPCallData method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_receivetspcalldata, mspcall/CMSPCallBase::ReceiveTSPCallData, tapi3.cmspcallbase_receivetspcalldata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPCallBase::ReceiveTSPCallData method
+# CMSPCallBase::ReceiveTSPCallData
 
 
 ## -description

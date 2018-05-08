@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetSubType
-title: ID3D12ShaderReflectionType::GetSubType method
+title: ID3D12ShaderReflectionType::GetSubType
 author: windows-driver-content
 description: Gets the base class of a class.
 old-location: direct3d12\id3d12shaderreflectiontype_getsubtype.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: FE91228D-F9DD-47F1-84E7-08D3C7E424C4
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetSubType method, GetSubType method, ID3D12ShaderReflectionType interface, GetSubType,ID3D12ShaderReflectionType.GetSubType, ID3D12ShaderReflectionType, ID3D12ShaderReflectionType interface, GetSubType method, ID3D12ShaderReflectionType::GetSubType, d3d12shader/ID3D12ShaderReflectionType::GetSubType, direct3d12.id3d12shaderreflectiontype_getsubtype
+ms.keywords: GetSubType, GetSubType method, GetSubType method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetSubType method, ID3D12ShaderReflectionType.GetSubType, ID3D12ShaderReflectionType::GetSubType, d3d12shader/ID3D12ShaderReflectionType::GetSubType, direct3d12.id3d12shaderreflectiontype_getsubtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflectionType::GetSubType method
+# ID3D12ShaderReflectionType::GetSubType
 
 
 ## -description

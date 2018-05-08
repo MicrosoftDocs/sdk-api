@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIAdapter.EnumOutputs
-title: IDXGIAdapter::EnumOutputs method
+title: IDXGIAdapter::EnumOutputs
 author: windows-driver-content
 description: Enumerate adapter (video card) outputs.
 old-location: direct3ddxgi\idxgiadapter_enumoutputs.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_enumoutputs.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 7da8b512-df54-dc59-9b13-fb6ef2f60fd6, EnumOutputs method [DXGI], EnumOutputs method [DXGI], IDXGIAdapter interface, EnumOutputs,IDXGIAdapter.EnumOutputs, IDXGIAdapter, IDXGIAdapter interface [DXGI], EnumOutputs method, IDXGIAdapter::EnumOutputs, direct3ddxgi.idxgiadapter_enumoutputs, dxgi/IDXGIAdapter::EnumOutputs
+ms.keywords: 7da8b512-df54-dc59-9b13-fb6ef2f60fd6, EnumOutputs, EnumOutputs method [DXGI], EnumOutputs method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],EnumOutputs method, IDXGIAdapter.EnumOutputs, IDXGIAdapter::EnumOutputs, direct3ddxgi.idxgiadapter_enumoutputs, dxgi/IDXGIAdapter::EnumOutputs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIAdapter::EnumOutputs method
+# IDXGIAdapter::EnumOutputs
 
 
 ## -description

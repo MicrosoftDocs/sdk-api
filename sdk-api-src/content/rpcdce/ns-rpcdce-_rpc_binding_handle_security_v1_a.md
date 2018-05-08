@@ -7,7 +7,7 @@ old-location: rpc\rpc_binding_handle_security_v1.htm
 old-project: Rpc
 ms.assetid: b8ea2e96-2e7e-428c-a5cd-dfe9dd341063
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: "*PRPC_BINDING_HANDLE_SECURITY_V1_A, RPC_BINDING_HANDLE_SECURITY, RPC_BINDING_HANDLE_SECURITY structure [RPC], RPC_BINDING_HANDLE_SECURITY_V1, RPC_BINDING_HANDLE_SECURITY_V1 structure [RPC], RPC_BINDING_HANDLE_SECURITY_V1_A, _RPC_BINDING_HANDLE_SECURITY_V1_A, _RPC_BINDING_HANDLE_SECURITY_V1_W, rpc.rpc_binding_handle_security_v1, rpcdce/RPC_BINDING_HANDLE_SECURITY, rpcdce/RPC_BINDING_HANDLE_SECURITY_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: Debug
 ms.assetid: 84ff0085-295d-48bd-baa5-d6b2845520a6
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: PREAD_PROCESS_MEMORY_ROUTINE, PREAD_PROCESS_MEMORY_ROUTINE64, ReadProcessMemoryProc64, ReadProcessMemoryProc64 callback function, _win32_readprocessmemoryproc64, base.readprocessmemoryproc64, dbghelp/ReadProcessMemoryProc64
+ms.keywords: PREAD_PROCESS_MEMORY_ROUTINE, PREAD_PROCESS_MEMORY_ROUTINE64, ReadProcessMemoryProc64, ReadProcessMemoryProc64 callback, ReadProcessMemoryProc64 callback function, _win32_readprocessmemoryproc64, base.readprocessmemoryproc64, dbghelp/ReadProcessMemoryProc64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PREAD_PROCESS_MEMORY_ROUTINE64 callback
+# PREAD_PROCESS_MEMORY_ROUTINE64 callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncConflictHandler.ResolveConflict
-title: IOfflineFilesSyncConflictHandler::ResolveConflict method
+title: IOfflineFilesSyncConflictHandler::ResolveConflict
 author: windows-driver-content
 description: Provides a resolution decision for a sync conflict.
 old-location: of\iofflinefilessyncconflicthandler_resolveconflict.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: eb6fbdcf-1833-4ada-880e-f2dbfce64d99
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesSyncConflictHandler, IOfflineFilesSyncConflictHandler interface [Offline Files], ResolveConflict method, IOfflineFilesSyncConflictHandler::ResolveConflict, OFFLINEFILES_CHANGES_LOCAL_ATTRIBUTES, OFFLINEFILES_CHANGES_LOCAL_SIZE, OFFLINEFILES_CHANGES_LOCAL_TIME, OFFLINEFILES_CHANGES_REMOTE_ATTRIBUTES, OFFLINEFILES_CHANGES_REMOTE_SIZE, OFFLINEFILES_CHANGES_REMOTE_TIME, OFFLINEFILES_SYNC_STATE_LOCAL_KNOWN, OFFLINEFILES_SYNC_STATE_REMOTE_KNOWN, ResolveConflict method [Offline Files], ResolveConflict method [Offline Files], IOfflineFilesSyncConflictHandler interface, ResolveConflict,IOfflineFilesSyncConflictHandler.ResolveConflict, cscobj/IOfflineFilesSyncConflictHandler::ResolveConflict, of.iofflinefilessyncconflicthandler_resolveconflict
+ms.keywords: IOfflineFilesSyncConflictHandler interface [Offline Files],ResolveConflict method, IOfflineFilesSyncConflictHandler.ResolveConflict, IOfflineFilesSyncConflictHandler::ResolveConflict, OFFLINEFILES_CHANGES_LOCAL_ATTRIBUTES, OFFLINEFILES_CHANGES_LOCAL_SIZE, OFFLINEFILES_CHANGES_LOCAL_TIME, OFFLINEFILES_CHANGES_REMOTE_ATTRIBUTES, OFFLINEFILES_CHANGES_REMOTE_SIZE, OFFLINEFILES_CHANGES_REMOTE_TIME, OFFLINEFILES_SYNC_STATE_LOCAL_KNOWN, OFFLINEFILES_SYNC_STATE_REMOTE_KNOWN, ResolveConflict, ResolveConflict method [Offline Files], ResolveConflict method [Offline Files],IOfflineFilesSyncConflictHandler interface, cscobj/IOfflineFilesSyncConflictHandler::ResolveConflict, of.iofflinefilessyncconflicthandler_resolveconflict
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSyncConflictHandler::ResolveConflict method
+# IOfflineFilesSyncConflictHandler::ResolveConflict
 
 
 ## -description

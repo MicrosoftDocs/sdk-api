@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportDiagnosticsPolicy.get_Components
-title: IWdsTransportDiagnosticsPolicy::get_Components method
+title: IWdsTransportDiagnosticsPolicy::get_Components
 author: windows-driver-content
 description: Enables a WDS client to configure which WDS transport components have event logging.
 old-location: wds\iwdstransportdiagnosticspolicy_components.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: da05fd59-641c-4d9b-ad87-d65e682c400e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Components property [Windows Deployment Services], Components property [Windows Deployment Services], IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services], Components property, IWdsTransportDiagnosticsPolicy.Components, IWdsTransportDiagnosticsPolicy::get_Components, IWdsTransportDiagnosticsPolicy::put_Components, get_Components,IWdsTransportDiagnosticsPolicy.get_Components, wds.iwdstransportdiagnosticspolicy_components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Components
+ms.keywords: Components property [Windows Deployment Services], Components property [Windows Deployment Services],IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],Components property, IWdsTransportDiagnosticsPolicy.Components, IWdsTransportDiagnosticsPolicy.get_Components, IWdsTransportDiagnosticsPolicy::Components, IWdsTransportDiagnosticsPolicy::get_Components, IWdsTransportDiagnosticsPolicy::put_Components, get_Components, wds.iwdstransportdiagnosticspolicy_components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Components
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportDiagnosticsPolicy::get_Components method
+# IWdsTransportDiagnosticsPolicy::get_Components
 
 
 ## -description

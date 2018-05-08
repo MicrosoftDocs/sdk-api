@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WRDS_SETTINGS, *PWRDS_SETTINGS, WRDS_SETTINGS, *PWRDS_SETTINGS
+req.typenames: WRDS_SETTINGS, *PWRDS_SETTINGS
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -75,4 +75,16 @@ The setting level.
 A structure that contains the policy setting states and values.
 
 A structure that contains the policy setting states and values.
+
+
+### -field WRdsSetting.switch_is
+
+ 
+
+
+### -field WRdsSetting.switch_is.WRdsSettingLevel
+
+ 
+
+
 

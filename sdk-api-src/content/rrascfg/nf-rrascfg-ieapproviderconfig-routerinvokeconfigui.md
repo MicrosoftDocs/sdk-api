@@ -1,6 +1,6 @@
 ---
 UID: NF:rrascfg.IEAPProviderConfig.RouterInvokeConfigUI
-title: IEAPProviderConfig::RouterInvokeConfigUI method
+title: IEAPProviderConfig::RouterInvokeConfigUI
 author: windows-driver-content
 description: The system calls the RouterInvokeConfigUI method to invoke the configuration user interface for EAP authentication between two routers.
 old-location: eap\ieapproviderconfig_routerinvokeconfigui.htm
@@ -8,7 +8,7 @@ old-project: EAP
 ms.assetid: ba07f5c6-0b76-489f-b787-2965710cd1c5
 ms.author: windowsdriverdev
 ms.date: 3/22/2018
-ms.keywords: IEAPProviderConfig, IEAPProviderConfig interface [EAP], RouterInvokeConfigUI method, IEAPProviderConfig::RouterInvokeConfigUI, RouterInvokeConfigUI method [EAP], RouterInvokeConfigUI method [EAP], IEAPProviderConfig interface, RouterInvokeConfigUI,IEAPProviderConfig.RouterInvokeConfigUI, _eap_ieapproviderconfig_routerinvokeconfigui, eap.ieapproviderconfig_routerinvokeconfigui, rrascfg/IEAPProviderConfig::RouterInvokeConfigUI
+ms.keywords: IEAPProviderConfig interface [EAP],RouterInvokeConfigUI method, IEAPProviderConfig.RouterInvokeConfigUI, IEAPProviderConfig::RouterInvokeConfigUI, RouterInvokeConfigUI, RouterInvokeConfigUI method [EAP], RouterInvokeConfigUI method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_routerinvokeconfigui, eap.ieapproviderconfig_routerinvokeconfigui, rrascfg/IEAPProviderConfig::RouterInvokeConfigUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEAPProviderConfig::RouterInvokeConfigUI method
+# IEAPProviderConfig::RouterInvokeConfigUI
 
 
 ## -description

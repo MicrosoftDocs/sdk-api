@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_WindowInteractionState
-title: IWindowProvider::get_WindowInteractionState method
+title: IWindowProvider::get_WindowInteractionState
 author: windows-driver-content
 description: Specifies the current state of the window for the purposes of user interaction.
 old-location: winauto\uiauto_IWindowProvider_WindowInteractionState.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: b7fcd5e6-1232-4096-a913-5fd870c83e62
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IWindowProvider, IWindowProvider interface [Windows Accessibility], WindowInteractionState property, IWindowProvider.WindowInteractionState, IWindowProvider::get_WindowInteractionState, WindowInteractionState property [Windows Accessibility], WindowInteractionState property [Windows Accessibility], IWindowProvider interface, get_WindowInteractionState,IWindowProvider.get_WindowInteractionState, uiauto.uiauto_IWindowProvider_WindowInteractionState, uiauto_IWindowProvider_WindowInteractionState, uiautomationcore/IWindowProvider::WindowInteractionState, uiautomationcore/IWindowProvider::get_WindowInteractionState, winauto.uiauto_IWindowProvider_WindowInteractionState
+ms.keywords: IWindowProvider interface [Windows Accessibility],WindowInteractionState property, IWindowProvider.WindowInteractionState, IWindowProvider.get_WindowInteractionState, IWindowProvider::WindowInteractionState, IWindowProvider::get_WindowInteractionState, WindowInteractionState property [Windows Accessibility], WindowInteractionState property [Windows Accessibility],IWindowProvider interface, get_WindowInteractionState, uiauto.uiauto_IWindowProvider_WindowInteractionState, uiauto_IWindowProvider_WindowInteractionState, uiautomationcore/IWindowProvider::WindowInteractionState, uiautomationcore/IWindowProvider::get_WindowInteractionState, winauto.uiauto_IWindowProvider_WindowInteractionState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWindowProvider::get_WindowInteractionState method
+# IWindowProvider::get_WindowInteractionState
 
 
 ## -description

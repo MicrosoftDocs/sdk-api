@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTuner.put_Channel
-title: IAMTuner::put_Channel method
+title: IAMTuner::put_Channel
 author: windows-driver-content
 description: The put_Channel method sets the TV channel.
 old-location: dshow\iamtuner_put_channel.htm
 old-project: DirectShow
 ms.assetid: 47ad4288-d855-41cd-b8a2-7b3733a87b41
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTuner, IAMTuner interface [DirectShow], put_Channel method, IAMTuner::put_Channel, IAMTunerput_Channel, dshow.iamtuner_put_channel, put_Channel method [DirectShow], put_Channel method [DirectShow], IAMTuner interface, put_Channel,IAMTuner.put_Channel, strmif/IAMTuner::put_Channel
+ms.date: 4/30/2018
+ms.keywords: IAMTuner interface [DirectShow],put_Channel method, IAMTuner.put_Channel, IAMTuner::put_Channel, IAMTunerput_Channel, dshow.iamtuner_put_channel, put_Channel, put_Channel method [DirectShow], put_Channel method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_Channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTuner::put_Channel method
+# IAMTuner::put_Channel
 
 
 ## -description

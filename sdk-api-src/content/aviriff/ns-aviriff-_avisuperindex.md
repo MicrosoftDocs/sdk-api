@@ -7,7 +7,7 @@ old-location: dshow\avisuperindex.htm
 old-project: DirectShow
 ms.assetid: 57c855ef-d4ea-4e11-a37b-941335ccf657
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: AVISUPERINDEX, AVISUPERINDEX structure [DirectShow], _avisuperindex, aviriff/AVISUPERINDEX, dshow.avisuperindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,6 +98,21 @@ Reserved. Set the array elements to zero.
 
 
 ### -field _avisuperindex_entry
+
+ 
+
+
+### -field _avisuperindex_entry.qwOffset
+
+ 
+
+
+### -field _avisuperindex_entry.dwSize
+
+ 
+
+
+### -field _avisuperindex_entry.dwDuration
 
  
 

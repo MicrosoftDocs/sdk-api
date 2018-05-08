@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextSelection.GetType
-title: ITextSelection::GetType method
+title: ITextSelection::GetType
 author: windows-driver-content
 description: Gets the type of text selection.
 old-location: controls\ITextSelection_GetType.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettype.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetType method [Windows Controls], GetType method [Windows Controls], ITextSelection interface, GetType,ITextSelection.GetType, ITextSelection, ITextSelection interface [Windows Controls], GetType method, ITextSelection::GetType, _win32_ITextSelection_GetType, _win32_ITextSelection_GetType_cpp, controls.ITextSelection_GetType, controls._win32_ITextSelection_GetType, tom/ITextSelection::GetType
+ms.date: 4/27/2018
+ms.keywords: GetType, GetType method [Windows Controls], GetType method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],GetType method, ITextSelection.GetType, ITextSelection::GetType, _win32_ITextSelection_GetType, _win32_ITextSelection_GetType_cpp, controls.ITextSelection_GetType, controls._win32_ITextSelection_GetType, tom/ITextSelection::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextSelection::GetType method
+# ITextSelection::GetType
 
 
 ## -description

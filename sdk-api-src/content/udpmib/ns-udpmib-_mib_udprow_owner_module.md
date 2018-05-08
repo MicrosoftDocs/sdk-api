@@ -97,18 +97,18 @@ Type: <b>int</b>
 A value that indicates if a specific port was specified in the last context bind operation.
 
 
+### -field dwFlags
+
+Type: <b>int</b>
+
+A set of flags. This member is not currently used.
+
+
 ### -field OwningModuleInfo
 
 Type: <b>ULONGLONG[TCPIP_OWNING_MODULE_SIZE]</b>
 
 An array of opaque data that contains ownership information.
-
-
-#### - dwFlags
-
-Type: <b>int</b>
-
-A set of flags. This member is not currently used.
 
 
 ## -remarks

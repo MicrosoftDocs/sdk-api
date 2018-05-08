@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DepthStencilState.GetDesc
-title: ID3D11DepthStencilState::GetDesc method
+title: ID3D11DepthStencilState::GetDesc
 author: windows-driver-content
 description: Gets the description for depth-stencil state that you used to create the depth-stencil-state object.
 old-location: direct3d11\id3d11depthstencilstate_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: f83ee1cf-b435-4c10-afb6-916307c420f9
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetDesc method [Direct3D 11], GetDesc method [Direct3D 11], ID3D11DepthStencilState interface, GetDesc,ID3D11DepthStencilState.GetDesc, ID3D11DepthStencilState, ID3D11DepthStencilState interface [Direct3D 11], GetDesc method, ID3D11DepthStencilState::GetDesc, b5b2c6e1-1315-e15e-9d66-a15b16d828aa, d3d11/ID3D11DepthStencilState::GetDesc, direct3d11.id3d11depthstencilstate_getdesc
+ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11DepthStencilState interface, ID3D11DepthStencilState interface [Direct3D 11],GetDesc method, ID3D11DepthStencilState.GetDesc, ID3D11DepthStencilState::GetDesc, b5b2c6e1-1315-e15e-9d66-a15b16d828aa, d3d11/ID3D11DepthStencilState::GetDesc, direct3d11.id3d11depthstencilstate_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DepthStencilState::GetDesc method
+# ID3D11DepthStencilState::GetDesc
 
 
 ## -description

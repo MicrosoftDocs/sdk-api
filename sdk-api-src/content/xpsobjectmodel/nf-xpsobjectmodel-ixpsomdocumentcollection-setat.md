@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.SetAt
-title: IXpsOMDocumentCollection::SetAt method
+title: IXpsOMDocumentCollection::SetAt
 author: windows-driver-content
 description: Replaces an IXpsOMDocument interface pointer at a specified location in the collection.
 old-location: xps\ixpsomdocumentcollection_setat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 71279337-33ec-4ed3-8c87-9c9b6844d26b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMDocumentCollection, IXpsOMDocumentCollection interface [XPS Documents and Packaging], SetAt method, IXpsOMDocumentCollection::SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging], IXpsOMDocumentCollection interface, SetAt,IXpsOMDocumentCollection.SetAt, xps.ixpsomdocumentcollection_setat, xpsobjectmodel/IXpsOMDocumentCollection::SetAt
+ms.keywords: IXpsOMDocumentCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMDocumentCollection.SetAt, IXpsOMDocumentCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, xps.ixpsomdocumentcollection_setat, xpsobjectmodel/IXpsOMDocumentCollection::SetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDocumentCollection::SetAt method
+# IXpsOMDocumentCollection::SetAt
 
 
 ## -description

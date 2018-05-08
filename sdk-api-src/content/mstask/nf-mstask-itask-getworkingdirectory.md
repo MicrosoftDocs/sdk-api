@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.GetWorkingDirectory
-title: ITask::GetWorkingDirectory method
+title: ITask::GetWorkingDirectory
 author: windows-driver-content
 description: This method retrieves the task'sworking directory.
 old-location: taskschd\itask_getworkingdirectory.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 737259f6-63d3-43f1-83a7-a10c95aff0e1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetWorkingDirectory method [Task Scheduler], GetWorkingDirectory method [Task Scheduler], ITask interface, GetWorkingDirectory,ITask.GetWorkingDirectory, ITask, ITask interface [Task Scheduler], GetWorkingDirectory method, ITask::GetWorkingDirectory, _msb_itask_getworkingdirectory, mstask/ITask::GetWorkingDirectory, taskschd.itask_getworkingdirectory
+ms.keywords: GetWorkingDirectory, GetWorkingDirectory method [Task Scheduler], GetWorkingDirectory method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetWorkingDirectory method, ITask.GetWorkingDirectory, ITask::GetWorkingDirectory, _msb_itask_getworkingdirectory, mstask/ITask::GetWorkingDirectory, taskschd.itask_getworkingdirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITask::GetWorkingDirectory method
+# ITask::GetWorkingDirectory
 
 
 ## -description

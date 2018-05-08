@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 58b0dcc2-861a-4138-872a-cbbe2bb2cc4d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumSyncProviderInfos, IEnumSyncProviderInfos interface [Windows Sync], IEnumSyncProviderInfos interface [Windows Sync], described, syncregistration/IEnumSyncProviderInfos, winsync.ienumsyncproviderinfos
+ms.keywords: IEnumSyncProviderInfos, IEnumSyncProviderInfos interface [Windows Sync], IEnumSyncProviderInfos interface [Windows Sync],described, syncregistration/IEnumSyncProviderInfos, winsync.ienumsyncproviderinfos
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

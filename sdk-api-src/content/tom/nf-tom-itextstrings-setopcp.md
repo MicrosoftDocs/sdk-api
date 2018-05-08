@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextStrings.SetOpCp
-title: ITextStrings::SetOpCp method
+title: ITextStrings::SetOpCp
 author: windows-driver-content
 description: Sets the character position in the source range's story that has desired character formatting attributes.
 old-location: controls\itextstrings_setopcp.htm
 old-project: Controls
 ms.assetid: c869a42a-0937-4051-9cb0-d454255989d2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextStrings, ITextStrings interface [Windows Controls], SetOpCp method, ITextStrings::SetOpCp, SetOpCp method [Windows Controls], SetOpCp method [Windows Controls], ITextStrings interface, SetOpCp,ITextStrings.SetOpCp, controls.itextstrings_setopcp, tom/ITextStrings::SetOpCp
+ms.date: 4/27/2018
+ms.keywords: ITextStrings interface [Windows Controls],SetOpCp method, ITextStrings.SetOpCp, ITextStrings::SetOpCp, SetOpCp, SetOpCp method [Windows Controls], SetOpCp method [Windows Controls],ITextStrings interface, controls.itextstrings_setopcp, tom/ITextStrings::SetOpCp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStrings::SetOpCp method
+# ITextStrings::SetOpCp
 
 
 ## -description

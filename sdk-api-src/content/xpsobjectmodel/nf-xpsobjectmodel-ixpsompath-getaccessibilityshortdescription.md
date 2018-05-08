@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetAccessibilityShortDescription
-title: IXpsOMPath::GetAccessibilityShortDescription method
+title: IXpsOMPath::GetAccessibilityShortDescription
 author: windows-driver-content
 description: Gets the short textual description of the object's contents.
 old-location: xps\ixpsompath_getaccessibilityshortdescription.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0124d37a-74c1-4f8b-9d91-c12e92cd5e8c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAccessibilityShortDescription method [XPS Documents and Packaging], GetAccessibilityShortDescription method [XPS Documents and Packaging], IXpsOMPath interface, GetAccessibilityShortDescription,IXpsOMPath.GetAccessibilityShortDescription, IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], GetAccessibilityShortDescription method, IXpsOMPath::GetAccessibilityShortDescription, xps.ixpsompath_getaccessibilityshortdescription, xpsobjectmodel/IXpsOMPath::GetAccessibilityShortDescription
+ms.keywords: GetAccessibilityShortDescription, GetAccessibilityShortDescription method [XPS Documents and Packaging], GetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetAccessibilityShortDescription method, IXpsOMPath.GetAccessibilityShortDescription, IXpsOMPath::GetAccessibilityShortDescription, xps.ixpsompath_getaccessibilityshortdescription, xpsobjectmodel/IXpsOMPath::GetAccessibilityShortDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::GetAccessibilityShortDescription method
+# IXpsOMPath::GetAccessibilityShortDescription
 
 
 ## -description

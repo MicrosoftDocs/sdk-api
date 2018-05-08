@@ -7,7 +7,7 @@ old-location: ad\ds_name_result_item.htm
 old-project: AD
 ms.assetid: 50a4488f-e2d4-4671-b0e7-fb8cb4096c5c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: "*PDS_NAME_RESULT_ITEMW, DS_NAME_RESULT_ITEM, DS_NAME_RESULT_ITEM structure [Active Directory], DS_NAME_RESULT_ITEMA, DS_NAME_RESULT_ITEMW, PDS_NAME_RESULT_ITEM, PDS_NAME_RESULT_ITEM structure pointer [Active Directory], _glines_ds_name_result_item, ad.ds__name__result__item, ad.ds_name_result_item, ntdsapi/DS_NAME_RESULT_ITEM, ntdsapi/DS_NAME_RESULT_ITEMA, ntdsapi/DS_NAME_RESULT_ITEMW, ntdsapi/PDS_NAME_RESULT_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,6 +64,26 @@ The <b>DS_NAME_RESULT_ITEM</b> structure contains a name converted by the
 ### -field status
 
 Contains one of the <a href="https://msdn.microsoft.com/8475133c-4bc8-4545-bd54-15d4e7b07869">DS_NAME_ERROR</a> values that indicates the status of this name conversion.
+
+
+### -field pDomain.string
+
+ 
+
+
+### -field pDomain.unique
+
+ 
+
+
+### -field pName.string
+
+ 
+
+
+### -field pName.unique
+
+ 
 
 
 ### -field pDomain

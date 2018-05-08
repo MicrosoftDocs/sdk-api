@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.GetBouquetId
-title: IDVB_BAT::GetBouquetId method
+title: IDVB_BAT::GetBouquetId
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_getbouquetid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 43c8d96d-24a7-459b-8221-daef7759c603
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetBouquetId method [Microsoft TV Technologies], GetBouquetId method [Microsoft TV Technologies], IDVB_BAT interface, GetBouquetId,IDVB_BAT.GetBouquetId, IDVB_BAT, IDVB_BAT interface [Microsoft TV Technologies], GetBouquetId method, IDVB_BAT::GetBouquetId, IDVB_BATGetBouquetId, dvbsiparser/IDVB_BAT::GetBouquetId, mstv.idvb_bat_getbouquetid
+ms.keywords: GetBouquetId, GetBouquetId method [Microsoft TV Technologies], GetBouquetId method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetBouquetId method, IDVB_BAT.GetBouquetId, IDVB_BAT::GetBouquetId, IDVB_BATGetBouquetId, dvbsiparser/IDVB_BAT::GetBouquetId, mstv.idvb_bat_getbouquetid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_BAT::GetBouquetId method
+# IDVB_BAT::GetBouquetId
 
 
 ## -description

@@ -72,6 +72,21 @@ case(<i>EapCredResp</i>)
 If <i>dwDataType</i> specifies a credential response type (<i>EapCredResp</i>), then the data pointed to by this parameter is defined by the <a href="https://msdn.microsoft.com/714c75d8-71c7-4c3f-802a-a5e4f6ca65c2">EAP_CRED_RESP</a> structure
 
 
+### -field credData.case
+
+ 
+
+
+### -field credData.case.EapCredReq
+
+ 
+
+
+### -field credData.case.EapCredResp
+
+ 
+
+
 ### -field credExpiryData
 
 case(<i>eapCredExpiryReq</i>)
@@ -81,6 +96,21 @@ If <i>dwDataType</i> specifies a credential expiry request (<i>eapCredExpiryReq<
 case(<i>eapCredExpiryResp</i>)
 
 If <i>dwDataType</i> specifies a credential expiry response type (<i>eapCredExpiryResp</i>), then this parameter is defined by <a href="https://msdn.microsoft.com/59b7f7d0-58af-4368-b3ea-6f180422a673">EAP_CRED_EXPIRY_RESP</a> structure
+
+
+### -field credExpiryData.case
+
+ 
+
+
+### -field credExpiryData.case.EapCredExpiryReq
+
+ 
+
+
+### -field credExpiryData.case.EapCredExpiryResp
+
+ 
 
 
 ### -field credLogonData
@@ -96,7 +126,27 @@ If <i>dwDataType</i> specifies a logon credential response type (<i>EapCredLogon
 
 
 
+### -field credLogonData.case
+
+ 
+
+
+### -field credLogonData.case.EapCredLogonReq
+
+ 
+
+
+### -field credLogonData.case.EapCredLogonResp
+
+ 
+
+
 ### -field switch_type
+
+ 
+
+
+### -field switch_type.EAP_INTERACTIVE_UI_DATA_TYPE
 
  
 

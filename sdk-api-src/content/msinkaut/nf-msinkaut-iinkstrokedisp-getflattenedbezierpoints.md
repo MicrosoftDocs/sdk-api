@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetFlattenedBezierPoints
-title: IInkStrokeDisp::GetFlattenedBezierPoints method
+title: IInkStrokeDisp::GetFlattenedBezierPoints
 author: windows-driver-content
 description: Retrieves the bounding box in ink space coordinates for either all of the strokes in an InkDisp object, an individual stroke, or a InkStrokes collection.
 old-location: tablet\iinkstrokedisp_getflattenedbezierpoints.htm
 old-project: tablet
 ms.assetid: e39e3fc3-bcdc-4d88-8051-18ed8b183c79
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetFlattenedBezierPoints method [Tablet PC], GetFlattenedBezierPoints method [Tablet PC], IInkStrokeDisp interface, GetFlattenedBezierPoints,IInkStrokeDisp.GetFlattenedBezierPoints, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], GetFlattenedBezierPoints method, IInkStrokeDisp::GetFlattenedBezierPoints, e39e3fc3-bcdc-4d88-8051-18ed8b183c79, msinkaut/IInkStrokeDisp::GetFlattenedBezierPoints, tablet.iinkstrokedisp_getflattenedbezierpoints
+ms.date: 5/2/2018
+ms.keywords: GetFlattenedBezierPoints, GetFlattenedBezierPoints method [Tablet PC], GetFlattenedBezierPoints method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetFlattenedBezierPoints method, IInkStrokeDisp.GetFlattenedBezierPoints, IInkStrokeDisp::GetFlattenedBezierPoints, e39e3fc3-bcdc-4d88-8051-18ed8b183c79, msinkaut/IInkStrokeDisp::GetFlattenedBezierPoints, tablet.iinkstrokedisp_getflattenedbezierpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::GetFlattenedBezierPoints method
+# IInkStrokeDisp::GetFlattenedBezierPoints
 
 
 ## -description

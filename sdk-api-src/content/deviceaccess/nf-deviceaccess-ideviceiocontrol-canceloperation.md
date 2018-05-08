@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.IDeviceIoControl.CancelOperation
-title: IDeviceIoControl::CancelOperation method
+title: IDeviceIoControl::CancelOperation
 author: windows-driver-content
 description: The CancelOperation method attempts to cancel a previously issued call by using the DeviceIoControlAsync method.
 old-location: deviceaccess\ideviceiocontrol_canceloperation.htm
@@ -8,7 +8,7 @@ old-project: deviceaccess
 ms.assetid: 476a84c8-4065-4a4f-ad74-68cbbbabd5dd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CancelOperation method [Device Access Broker API], CancelOperation method [Device Access Broker API], IDeviceIoControl interface, CancelOperation,IDeviceIoControl.CancelOperation, IDeviceIoControl, IDeviceIoControl interface [Device Access Broker API], CancelOperation method, IDeviceIoControl::CancelOperation, deviceaccess.ideviceiocontrol_canceloperation, deviceaccess/IDeviceIoControl::CancelOperation
+ms.keywords: CancelOperation, CancelOperation method [Device Access Broker API], CancelOperation method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],CancelOperation method, IDeviceIoControl.CancelOperation, IDeviceIoControl::CancelOperation, deviceaccess.ideviceiocontrol_canceloperation, deviceaccess/IDeviceIoControl::CancelOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDeviceIoControl::CancelOperation method
+# IDeviceIoControl::CancelOperation
 
 
 ## -description

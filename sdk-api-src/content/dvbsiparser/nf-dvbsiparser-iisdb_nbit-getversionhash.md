@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetVersionHash
-title: IISDB_NBIT::GetVersionHash method
+title: IISDB_NBIT::GetVersionHash
 author: windows-driver-content
 description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getversionhash.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6de71e7e-7296-46ad-a0fa-3aadb9a24ab5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies], IISDB_NBIT interface, GetVersionHash,IISDB_NBIT.GetVersionHash, IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], GetVersionHash method, IISDB_NBIT::GetVersionHash, dvbsiparser/IISDB_NBIT::GetVersionHash, mstv.iisdb_nbit_getversionhash
+ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetVersionHash method, IISDB_NBIT.GetVersionHash, IISDB_NBIT::GetVersionHash, dvbsiparser/IISDB_NBIT::GetVersionHash, mstv.iisdb_nbit_getversionhash
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_NBIT::GetVersionHash method
+# IISDB_NBIT::GetVersionHash
 
 
 ## -description

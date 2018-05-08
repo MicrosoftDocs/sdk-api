@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.ActivateSpatialAudioStream
-title: ISpatialAudioClient::ActivateSpatialAudioStream method
+title: ISpatialAudioClient::ActivateSpatialAudioStream
 author: windows-driver-content
 description: Activates and initializes spatial audio stream using one of the spatial audio stream activation structures.
 old-location: coreaudio\ispatialaudioclient_activatespatialaudiostream.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: CBBB5A62-D342-4FB7-890C-9FE37949CC07
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ActivateSpatialAudioStream method [Core Audio], ActivateSpatialAudioStream method [Core Audio], ISpatialAudioClient interface, ActivateSpatialAudioStream,ISpatialAudioClient.ActivateSpatialAudioStream, ISpatialAudioClient, ISpatialAudioClient interface [Core Audio], ActivateSpatialAudioStream method, ISpatialAudioClient::ActivateSpatialAudioStream, coreaudio.ispatialaudioclient_activatespatialaudiostream, spatialaudioclient/ISpatialAudioClient::ActivateSpatialAudioStream
+ms.keywords: ActivateSpatialAudioStream, ActivateSpatialAudioStream method [Core Audio], ActivateSpatialAudioStream method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],ActivateSpatialAudioStream method, ISpatialAudioClient.ActivateSpatialAudioStream, ISpatialAudioClient::ActivateSpatialAudioStream, coreaudio.ispatialaudioclient_activatespatialaudiostream, spatialaudioclient/ISpatialAudioClient::ActivateSpatialAudioStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioClient::ActivateSpatialAudioStream method
+# ISpatialAudioClient::ActivateSpatialAudioStream
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_LongName
-title: ICspAlgorithm::get_LongName method
+title: ICspAlgorithm::get_LongName
 author: windows-driver-content
 description: Retrieves the full name of the algorithm.
 old-location: security\icspalgorithm_longname_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: aaa5175f-c110-4e76-9145-1c667ea169a1
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], LongName property, ICspAlgorithm.LongName, ICspAlgorithm::get_LongName, LongName property [Security], LongName property [Security], ICspAlgorithm interface, certenroll/ICspAlgorithm::LongName, certenroll/ICspAlgorithm::get_LongName, get_LongName,ICspAlgorithm.get_LongName, security.icspalgorithm_longname_property
+ms.keywords: ICspAlgorithm interface [Security],LongName property, ICspAlgorithm.LongName, ICspAlgorithm.get_LongName, ICspAlgorithm::LongName, ICspAlgorithm::get_LongName, LongName property [Security], LongName property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::LongName, certenroll/ICspAlgorithm::get_LongName, get_LongName, security.icspalgorithm_longname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspAlgorithm::get_LongName method
+# ICspAlgorithm::get_LongName
 
 
 ## -description

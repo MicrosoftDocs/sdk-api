@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMessageFilter.MessagePending
-title: IMessageFilter::MessagePending method
+title: IMessageFilter::MessagePending
 author: windows-driver-content
 description: Indicates that a message has arrived while COM is waiting to respond to a remote call.
 old-location: com\imessagefilter_messagepending.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f4aff53f-c344-4456-b53e-296d5a5b653a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMessageFilter, IMessageFilter interface [COM], MessagePending method, IMessageFilter::MessagePending, MessagePending method [COM], MessagePending method [COM], IMessageFilter interface, MessagePending,IMessageFilter.MessagePending, _com_imessagefilter_messagepending, com.imessagefilter_messagepending, objidl/IMessageFilter::MessagePending
+ms.keywords: IMessageFilter interface [COM],MessagePending method, IMessageFilter.MessagePending, IMessageFilter::MessagePending, MessagePending, MessagePending method [COM], MessagePending method [COM],IMessageFilter interface, _com_imessagefilter_messagepending, com.imessagefilter_messagepending, objidl/IMessageFilter::MessagePending
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMessageFilter::MessagePending method
+# IMessageFilter::MessagePending
 
 
 ## -description

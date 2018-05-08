@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.GetForeground
-title: ITfKeystrokeMgr::GetForeground method
+title: ITfKeystrokeMgr::GetForeground
 author: windows-driver-content
 description: ITfKeystrokeMgr::GetForeground method
 old-location: tsf\itfkeystrokemgr_getforeground.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c447c4cb-47e3-4bc7-8eba-6e102762c69b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetForeground method [Text Services Framework], GetForeground method [Text Services Framework], ITfKeystrokeMgr interface, GetForeground,ITfKeystrokeMgr.GetForeground, ITfKeystrokeMgr, ITfKeystrokeMgr interface [Text Services Framework], GetForeground method, ITfKeystrokeMgr::GetForeground, _tsf_itfkeystrokemgr_getforeground_ref, msctf/ITfKeystrokeMgr::GetForeground, tsf.itfkeystrokemgr_getforeground
+ms.keywords: GetForeground, GetForeground method [Text Services Framework], GetForeground method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],GetForeground method, ITfKeystrokeMgr.GetForeground, ITfKeystrokeMgr::GetForeground, _tsf_itfkeystrokemgr_getforeground_ref, msctf/ITfKeystrokeMgr::GetForeground, tsf.itfkeystrokemgr_getforeground
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfKeystrokeMgr::GetForeground method
+# ITfKeystrokeMgr::GetForeground
 
 
 ## -description

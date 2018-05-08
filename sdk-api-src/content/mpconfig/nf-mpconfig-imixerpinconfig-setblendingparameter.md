@@ -1,14 +1,14 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetBlendingParameter
-title: IMixerPinConfig::SetBlendingParameter method
+title: IMixerPinConfig::SetBlendingParameter
 author: windows-driver-content
 description: The SetBlendingParameter method sets the blending parameter that defines how a secondary stream is blended with a primary stream.
 old-location: dshow\imixerpinconfig_setblendingparameter.htm
 old-project: DirectShow
 ms.assetid: 262814eb-386b-409e-b22c-48f9f2a845b4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMixerPinConfig, IMixerPinConfig interface [DirectShow], SetBlendingParameter method, IMixerPinConfig::SetBlendingParameter, IMixerPinConfigSetBlendingParameter, SetBlendingParameter method [DirectShow], SetBlendingParameter method [DirectShow], IMixerPinConfig interface, SetBlendingParameter,IMixerPinConfig.SetBlendingParameter, dshow.imixerpinconfig_setblendingparameter, mpconfig/IMixerPinConfig::SetBlendingParameter
+ms.date: 4/30/2018
+ms.keywords: IMixerPinConfig interface [DirectShow],SetBlendingParameter method, IMixerPinConfig.SetBlendingParameter, IMixerPinConfig::SetBlendingParameter, IMixerPinConfigSetBlendingParameter, SetBlendingParameter, SetBlendingParameter method [DirectShow], SetBlendingParameter method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setblendingparameter, mpconfig/IMixerPinConfig::SetBlendingParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMixerPinConfig::SetBlendingParameter method
+# IMixerPinConfig::SetBlendingParameter
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkTablet.IsPacketPropertySupported
-title: IInkTablet::IsPacketPropertySupported method
+title: IInkTablet::IsPacketPropertySupported
 author: windows-driver-content
 description: Determines whether a property of a tablet device or a collection of tablet devices, identified with a globally unique identifier (GUID), is supported.
 old-location: tablet\iinktablet_ispacketpropertysupported.htm
 old-project: tablet
 ms.assetid: 4bf2e2b0-d45a-4392-990e-5e9320333c0b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 4bf2e2b0-d45a-4392-990e-5e9320333c0b, IInkTablet, IInkTablet interface [Tablet PC], IsPacketPropertySupported method, IInkTablet::IsPacketPropertySupported, IsPacketPropertySupported method [Tablet PC], IsPacketPropertySupported method [Tablet PC], IInkTablet interface, IsPacketPropertySupported,IInkTablet.IsPacketPropertySupported, msinkaut/IInkTablet::IsPacketPropertySupported, tablet.iinktablet_ispacketpropertysupported
+ms.date: 5/2/2018
+ms.keywords: 4bf2e2b0-d45a-4392-990e-5e9320333c0b, IInkTablet interface [Tablet PC],IsPacketPropertySupported method, IInkTablet.IsPacketPropertySupported, IInkTablet::IsPacketPropertySupported, IsPacketPropertySupported, IsPacketPropertySupported method [Tablet PC], IsPacketPropertySupported method [Tablet PC],IInkTablet interface, msinkaut/IInkTablet::IsPacketPropertySupported, tablet.iinktablet_ispacketpropertysupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkTablet::IsPacketPropertySupported method
+# IInkTablet::IsPacketPropertySupported
 
 
 ## -description

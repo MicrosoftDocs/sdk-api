@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.GetStartPoint
-title: IXpsOMLinearGradientBrush::GetStartPoint method
+title: IXpsOMLinearGradientBrush::GetStartPoint
 author: windows-driver-content
 description: Gets the start point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_getstartpoint.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 03e9884b-6249-4ccb-a6ee-d360655c5f75
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStartPoint method [XPS Documents and Packaging], GetStartPoint method [XPS Documents and Packaging], IXpsOMLinearGradientBrush interface, GetStartPoint,IXpsOMLinearGradientBrush.GetStartPoint, IXpsOMLinearGradientBrush, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging], GetStartPoint method, IXpsOMLinearGradientBrush::GetStartPoint, xps.ixpsomlineargradientbrush_getstartpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::GetStartPoint
+ms.keywords: GetStartPoint, GetStartPoint method [XPS Documents and Packaging], GetStartPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],GetStartPoint method, IXpsOMLinearGradientBrush.GetStartPoint, IXpsOMLinearGradientBrush::GetStartPoint, xps.ixpsomlineargradientbrush_getstartpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::GetStartPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMLinearGradientBrush::GetStartPoint method
+# IXpsOMLinearGradientBrush::GetStartPoint
 
 
 ## -description

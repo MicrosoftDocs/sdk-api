@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdxml.IWSDXMLContext.SetTypes
-title: IWSDXMLContext::SetTypes method
+title: IWSDXMLContext::SetTypes
 author: windows-driver-content
 description: Associates custom message types with the XML context object.
 old-location: ncd\iwsdxmlcontext_settypes_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: c3bf56e1-42c6-4ecf-971f-2a6253fba0bc
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDXMLContext, IWSDXMLContext interface, SetTypes method, IWSDXMLContext::SetTypes, SetTypes method, SetTypes method, IWSDXMLContext interface, SetTypes,IWSDXMLContext.SetTypes, ncd.iwsdxmlcontext_settypes_method, wsdxml/IWSDXMLContext::SetTypes
+ms.keywords: IWSDXMLContext interface,SetTypes method, IWSDXMLContext.SetTypes, IWSDXMLContext::SetTypes, SetTypes, SetTypes method, SetTypes method,IWSDXMLContext interface, ncd.iwsdxmlcontext_settypes_method, wsdxml/IWSDXMLContext::SetTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDXMLContext::SetTypes method
+# IWSDXMLContext::SetTypes
 
 
 ## -description

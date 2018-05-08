@@ -7,7 +7,7 @@ old-location: ad\ds_domain_controller_info_3.htm
 old-project: AD
 ms.assetid: 510f458e-4c08-41c7-b290-1372ac9c8beb
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: "*PDS_DOMAIN_CONTROLLER_INFO_3A, DS_DOMAIN_CONTROLLER_INFO_3, DS_DOMAIN_CONTROLLER_INFO_3 structure [Active Directory], DS_DOMAIN_CONTROLLER_INFO_3A, DS_DOMAIN_CONTROLLER_INFO_3W, PDS_DOMAIN_CONTROLLER_INFO_3, PDS_DOMAIN_CONTROLLER_INFO_3 structure pointer [Active Directory], ad.ds_domain_controller_info_3, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_3, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_3A, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_3W, ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,6 +59,76 @@ The <b>DS_DOMAIN_CONTROLLER_INFO_3</b> structure contains data about a domain co
 ## -struct-fields
 
 
+
+
+### -field NetbiosName.string
+
+ 
+
+
+### -field NetbiosName.unique
+
+ 
+
+
+### -field DnsHostName.string
+
+ 
+
+
+### -field DnsHostName.unique
+
+ 
+
+
+### -field SiteName.string
+
+ 
+
+
+### -field SiteName.unique
+
+ 
+
+
+### -field SiteObjectName.string
+
+ 
+
+
+### -field SiteObjectName.unique
+
+ 
+
+
+### -field ComputerObjectName.string
+
+ 
+
+
+### -field ComputerObjectName.unique
+
+ 
+
+
+### -field ServerObjectName.string
+
+ 
+
+
+### -field ServerObjectName.unique
+
+ 
+
+
+### -field NtdsDsaObjectName.string
+
+ 
+
+
+### -field NtdsDsaObjectName.unique
+
+ 
 
 
 ### -field NetbiosName

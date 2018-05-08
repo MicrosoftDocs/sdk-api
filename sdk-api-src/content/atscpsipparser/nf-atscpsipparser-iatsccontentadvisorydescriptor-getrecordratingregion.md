@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRecordRatingRegion
-title: IAtscContentAdvisoryDescriptor::GetRecordRatingRegion method
+title: IAtscContentAdvisoryDescriptor::GetRecordRatingRegion
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsccontentadvisorydescriptor_getrecordratingregion.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: fb828399-d4aa-4e35-bb77-16795a598b35
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordRatingRegion method [Microsoft TV Technologies], GetRecordRatingRegion method [Microsoft TV Technologies], IAtscContentAdvisoryDescriptor interface, GetRecordRatingRegion,IAtscContentAdvisoryDescriptor.GetRecordRatingRegion, IAtscContentAdvisoryDescriptor, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies], GetRecordRatingRegion method, IAtscContentAdvisoryDescriptor::GetRecordRatingRegion, IAtscContentAdvisoryDescriptorGetRecordRatingRegion, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingRegion, mstv.iatsccontentadvisorydescriptor_getrecordratingregion
+ms.keywords: GetRecordRatingRegion, GetRecordRatingRegion method [Microsoft TV Technologies], GetRecordRatingRegion method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatingRegion method, IAtscContentAdvisoryDescriptor.GetRecordRatingRegion, IAtscContentAdvisoryDescriptor::GetRecordRatingRegion, IAtscContentAdvisoryDescriptorGetRecordRatingRegion, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingRegion, mstv.iatsccontentadvisorydescriptor_getrecordratingregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAtscContentAdvisoryDescriptor::GetRecordRatingRegion method
+# IAtscContentAdvisoryDescriptor::GetRecordRatingRegion
 
 
 ## -description

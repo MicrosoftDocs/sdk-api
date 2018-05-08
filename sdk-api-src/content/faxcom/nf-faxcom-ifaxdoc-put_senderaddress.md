@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_SenderAddress
-title: IFaxDoc::put_SenderAddress method
+title: IFaxDoc::put_SenderAddress
 author: windows-driver-content
 description: Sets or retrieves the SenderAddress property of a FaxDoc object. The SenderAddress property is a null-terminated string that contains the street address of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_senderaddress_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_58vn.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], SenderAddress property, IFaxDoc, IFaxDoc::put_SenderAddress, SenderAddress property [Fax Service], SenderAddress property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_senderaddress, fax._mfax_ifaxdoc_get_senderaddress, fax._mfax_ifaxdoc_get_senderaddress_vb, put_SenderAddress,IFaxDoc.put_SenderAddress
+ms.keywords: FaxDoc object [Fax Service],SenderAddress property, FaxDoc.SenderAddress, IFaxDoc.put_SenderAddress, IFaxDoc::put_SenderAddress, SenderAddress property [Fax Service], SenderAddress property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderaddress, fax._mfax_ifaxdoc_get_senderaddress, fax._mfax_ifaxdoc_get_senderaddress_vb, put_SenderAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_SenderAddress method
+# IFaxDoc::put_SenderAddress
 
 
 ## -description

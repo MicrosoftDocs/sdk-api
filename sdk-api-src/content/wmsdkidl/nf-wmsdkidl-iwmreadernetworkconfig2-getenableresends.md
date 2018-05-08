@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetEnableResends
-title: IWMReaderNetworkConfig2::GetEnableResends method
+title: IWMReaderNetworkConfig2::GetEnableResends
 author: windows-driver-content
 description: The GetEnableResends method ascertains whether resending is enabled.
 old-location: wmformat\iwmreadernetworkconfig2_getenableresends.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: d39d42c3-7d00-4fb6-8979-2b65d00ac636
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetEnableResends method [windows Media Format], GetEnableResends method [windows Media Format], IWMReaderNetworkConfig2 interface, GetEnableResends,IWMReaderNetworkConfig2.GetEnableResends, IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], GetEnableResends method, IWMReaderNetworkConfig2::GetEnableResends, IWMReaderNetworkConfig2GetEnableResends, wmformat.iwmreadernetworkconfig2_getenableresends, wmsdkidl/IWMReaderNetworkConfig2::GetEnableResends
+ms.keywords: GetEnableResends, GetEnableResends method [windows Media Format], GetEnableResends method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableResends method, IWMReaderNetworkConfig2.GetEnableResends, IWMReaderNetworkConfig2::GetEnableResends, IWMReaderNetworkConfig2GetEnableResends, wmformat.iwmreadernetworkconfig2_getenableresends, wmsdkidl/IWMReaderNetworkConfig2::GetEnableResends
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig2::GetEnableResends method
+# IWMReaderNetworkConfig2::GetEnableResends
 
 
 ## -description

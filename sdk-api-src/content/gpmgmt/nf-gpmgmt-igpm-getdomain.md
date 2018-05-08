@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.GetDomain
-title: IGPM::GetDomain method
+title: IGPM::GetDomain
 author: windows-driver-content
 description: Creates and returns a GPMDomain object that corresponds to the specified domain.
 old-location: gpmc\igpm_getdomain.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 32aee72f-96fa-4ebd-9ff7-643972b82cf6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPM object [GPMC], GetDomain method, GetDomain method [GPMC], GetDomain method [GPMC], GPM object, GetDomain method [GPMC], IGPM interface, GetDomain,IGPM.GetDomain, IGPM, IGPM interface [GPMC], GetDomain method, IGPM::GetDomain, _win32_igpm_getdomain, gpmc.igpm_getdomain, gpmgmt/IGPM::GetDomain
+ms.keywords: GPM object [GPMC],GetDomain method, GetDomain, GetDomain method [GPMC], GetDomain method [GPMC],GPM object, GetDomain method [GPMC],IGPM interface, IGPM interface [GPMC],GetDomain method, IGPM.GetDomain, IGPM::GetDomain, _win32_igpm_getdomain, gpmc.igpm_getdomain, gpmgmt/IGPM::GetDomain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPM::GetDomain method
+# IGPM::GetDomain
 
 
 ## -description

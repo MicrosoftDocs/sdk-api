@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.DeletePreference
-title: IOfflineFilesSetting::DeletePreference method
+title: IOfflineFilesSetting::DeletePreference
 author: windows-driver-content
 description: Removes a preference setting.
 old-location: of\iofflinefilessetting_deletepreference.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 815791e8-3e41-4511-9789-9b9258e5fcf4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DeletePreference method [Offline Files], DeletePreference method [Offline Files], IOfflineFilesSetting interface, DeletePreference,IOfflineFilesSetting.DeletePreference, IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], DeletePreference method, IOfflineFilesSetting::DeletePreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::DeletePreference, of.iofflinefilessetting_deletepreference
+ms.keywords: DeletePreference, DeletePreference method [Offline Files], DeletePreference method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],DeletePreference method, IOfflineFilesSetting.DeletePreference, IOfflineFilesSetting::DeletePreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::DeletePreference, of.iofflinefilessetting_deletepreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSetting::DeletePreference method
+# IOfflineFilesSetting::DeletePreference
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.get_AvailableTVFormats
-title: IAMAnalogVideoEncoder::get_AvailableTVFormats method
+title: IAMAnalogVideoEncoder::get_AvailableTVFormats
 author: windows-driver-content
 description: Note  The IAMAnalogVideoEncoder interface is deprecated. The get_AvailableTVFormats method retrieves the analog video standards (NTSC/M, PAL/B, SECAM/K1, and so on) supported by the encoder.
 old-location: dshow\iamanalogvideoencoder_get_availabletvformats.htm
 old-project: DirectShow
 ms.assetid: 739a5f6f-2498-49f4-9c9d-008bd71d4855
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAnalogVideoEncoder, IAMAnalogVideoEncoder interface [DirectShow], get_AvailableTVFormats method, IAMAnalogVideoEncoder::get_AvailableTVFormats, IAMAnalogVideoEncoderget_AvailableTVFormats, dshow.iamanalogvideoencoder_get_availabletvformats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow], IAMAnalogVideoEncoder interface, get_AvailableTVFormats,IAMAnalogVideoEncoder.get_AvailableTVFormats, strmif/IAMAnalogVideoEncoder::get_AvailableTVFormats
+ms.date: 4/30/2018
+ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],get_AvailableTVFormats method, IAMAnalogVideoEncoder.get_AvailableTVFormats, IAMAnalogVideoEncoder::get_AvailableTVFormats, IAMAnalogVideoEncoderget_AvailableTVFormats, dshow.iamanalogvideoencoder_get_availabletvformats, get_AvailableTVFormats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::get_AvailableTVFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAnalogVideoEncoder::get_AvailableTVFormats method
+# IAMAnalogVideoEncoder::get_AvailableTVFormats
 
 
 ## -description

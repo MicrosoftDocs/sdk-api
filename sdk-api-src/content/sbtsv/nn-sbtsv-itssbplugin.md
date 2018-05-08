@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: db3d3ee7-9e53-4bac-9711-4e85f1016db9
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbPlugin, ITsSbPlugin interface [Remote Desktop Services], ITsSbPlugin interface [Remote Desktop Services], described, sbtsv/ITsSbPlugin, termserv.itssbplugin
+ms.keywords: ITsSbPlugin, ITsSbPlugin interface [Remote Desktop Services], ITsSbPlugin interface [Remote Desktop Services],described, sbtsv/ITsSbPlugin, termserv.itssbplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

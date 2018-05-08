@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: 11E53D75-B8C0-40A3-8E4D-ACAA10BEAC84
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], IUIEventingManager interface [Windows Ribbon], described, uiribbon/IUIEventingManager, windowsribbon.iuieventingmanager
+ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], IUIEventingManager interface [Windows Ribbon],described, uiribbon/IUIEventingManager, windowsribbon.iuieventingmanager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

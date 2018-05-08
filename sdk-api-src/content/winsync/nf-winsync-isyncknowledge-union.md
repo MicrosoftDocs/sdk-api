@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.Union
-title: ISyncKnowledge::Union method
+title: ISyncKnowledge::Union
 author: windows-driver-content
 description: Combines the specified knowledge with the current knowledge.
 old-location: winsync\isyncknowledge_union.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 95d88d28-57b7-4b4a-abda-a69f25b1e8b8
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncKnowledge, ISyncKnowledge interface [Windows Sync], Union method, ISyncKnowledge::Union, Union method [Windows Sync], Union method [Windows Sync], ISyncKnowledge interface, Union,ISyncKnowledge.Union, winsync.isyncknowledge_union, winsync/ISyncKnowledge::Union
+ms.keywords: ISyncKnowledge interface [Windows Sync],Union method, ISyncKnowledge.Union, ISyncKnowledge::Union, Union, Union method [Windows Sync], Union method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_union, winsync/ISyncKnowledge::Union
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::Union method
+# ISyncKnowledge::Union
 
 
 ## -description

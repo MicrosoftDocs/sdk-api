@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.get_PublicKeyAlgorithm
-title: IX509SignatureInformation::get_PublicKeyAlgorithm method
+title: IX509SignatureInformation::get_PublicKeyAlgorithm
 author: windows-driver-content
 description: Specifies and retrieves an object identifier (OID) for the public key algorithm used in the GetSignatureAlgorithm method.
 old-location: security\ix509signatureinformation_publickeyalgorithm_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: f964328f-15a6-4d8e-a2cf-73c8d74995e8
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509SignatureInformation, IX509SignatureInformation interface [Security], PublicKeyAlgorithm property, IX509SignatureInformation.PublicKeyAlgorithm, IX509SignatureInformation::get_PublicKeyAlgorithm, IX509SignatureInformation::put_PublicKeyAlgorithm, PublicKeyAlgorithm property [Security], PublicKeyAlgorithm property [Security], IX509SignatureInformation interface, certenroll/IX509SignatureInformation::PublicKeyAlgorithm, certenroll/IX509SignatureInformation::get_PublicKeyAlgorithm, certenroll/IX509SignatureInformation::put_PublicKeyAlgorithm, get_PublicKeyAlgorithm,IX509SignatureInformation.get_PublicKeyAlgorithm, security.ix509signatureinformation_publickeyalgorithm_property
+ms.keywords: IX509SignatureInformation interface [Security],PublicKeyAlgorithm property, IX509SignatureInformation.PublicKeyAlgorithm, IX509SignatureInformation.get_PublicKeyAlgorithm, IX509SignatureInformation::PublicKeyAlgorithm, IX509SignatureInformation::get_PublicKeyAlgorithm, IX509SignatureInformation::put_PublicKeyAlgorithm, PublicKeyAlgorithm property [Security], PublicKeyAlgorithm property [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::PublicKeyAlgorithm, certenroll/IX509SignatureInformation::get_PublicKeyAlgorithm, certenroll/IX509SignatureInformation::put_PublicKeyAlgorithm, get_PublicKeyAlgorithm, security.ix509signatureinformation_publickeyalgorithm_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509SignatureInformation::get_PublicKeyAlgorithm method
+# IX509SignatureInformation::get_PublicKeyAlgorithm
 
 
 ## -description

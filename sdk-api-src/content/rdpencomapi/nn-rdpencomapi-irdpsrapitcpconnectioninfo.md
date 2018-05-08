@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 4d6b1fc8-91b4-4a49-b3aa-ce719ca23d32
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITcpConnectionInfo, IRDPSRAPITcpConnectionInfo interface [RDP], IRDPSRAPITcpConnectionInfo interface [RDP], described, rdp.irdpsrapitcpconnectioninfo, rdpencomapi/IRDPSRAPITcpConnectionInfo
+ms.keywords: IRDPSRAPITcpConnectionInfo, IRDPSRAPITcpConnectionInfo interface [RDP], IRDPSRAPITcpConnectionInfo interface [RDP],described, rdp.irdpsrapitcpconnectioninfo, rdpencomapi/IRDPSRAPITcpConnectionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

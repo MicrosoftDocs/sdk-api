@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceObject.SetObjectRects
-title: IOleInPlaceObject::SetObjectRects method
+title: IOleInPlaceObject::SetObjectRects
 author: windows-driver-content
 description: Specifies how much of the in-place object is to be visible.
 old-location: com\ioleinplaceobject_setobjectrects.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 5ae2e44b-d2e2-4351-b4fa-8c37419a2bcb
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceObject, IOleInPlaceObject interface [COM], SetObjectRects method, IOleInPlaceObject::SetObjectRects, SetObjectRects method [COM], SetObjectRects method [COM], IOleInPlaceObject interface, SetObjectRects,IOleInPlaceObject.SetObjectRects, _ole_ioleinplaceobject_setobjectrects, com.ioleinplaceobject_setobjectrects, oleidl/IOleInPlaceObject::SetObjectRects
+ms.keywords: IOleInPlaceObject interface [COM],SetObjectRects method, IOleInPlaceObject.SetObjectRects, IOleInPlaceObject::SetObjectRects, SetObjectRects, SetObjectRects method [COM], SetObjectRects method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_setobjectrects, com.ioleinplaceobject_setobjectrects, oleidl/IOleInPlaceObject::SetObjectRects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceObject::SetObjectRects method
+# IOleInPlaceObject::SetObjectRects
 
 
 ## -description

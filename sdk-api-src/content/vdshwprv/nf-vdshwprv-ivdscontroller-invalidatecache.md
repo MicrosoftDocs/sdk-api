@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsController.InvalidateCache
-title: IVdsController::InvalidateCache method
+title: IVdsController::InvalidateCache
 author: windows-driver-content
 description: Invalidates the cache of the controller. All data in the cache is lost.
 old-location: base\ivdscontroller_invalidatecache.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 91f77390-02eb-4c5f-a5de-382df608f0df
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsController, IVdsController interface [VDS], InvalidateCache method, IVdsController::InvalidateCache, InvalidateCache method [VDS], InvalidateCache method [VDS], IVdsController interface, InvalidateCache,IVdsController.InvalidateCache, base.ivdscontroller_invalidatecache, vds/IVdsController::InvalidateCache, vdshwprv/IVdsController::InvalidateCache
+ms.keywords: IVdsController interface [VDS],InvalidateCache method, IVdsController.InvalidateCache, IVdsController::InvalidateCache, InvalidateCache, InvalidateCache method [VDS], InvalidateCache method [VDS],IVdsController interface, base.ivdscontroller_invalidatecache, vds/IVdsController::InvalidateCache, vdshwprv/IVdsController::InvalidateCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsController::InvalidateCache method
+# IVdsController::InvalidateCache
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.Advise
-title: ICredentialProvider::Advise method
+title: ICredentialProvider::Advise
 author: windows-driver-content
 description: Allows a credential provider to initiate events in the Logon UI or Credential UI through a callback interface.
 old-location: shell\ICredentialProvider_Advise.htm
 old-project: shell
 ms.assetid: 5ca35c90-24a3-4ffe-abf7-ba3ce0ec83b9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Advise method [Windows Shell], Advise method [Windows Shell], ICredentialProvider interface, Advise,ICredentialProvider.Advise, ICredentialProvider, ICredentialProvider interface [Windows Shell], Advise method, ICredentialProvider::Advise, credentialprovider/ICredentialProvider::Advise, shell.ICredentialProvider_Advise, shell_ICredentialProvider_Advise
+ms.date: 5/3/2018
+ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],Advise method, ICredentialProvider.Advise, ICredentialProvider::Advise, credentialprovider/ICredentialProvider::Advise, shell.ICredentialProvider_Advise, shell_ICredentialProvider_Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProvider::Advise method
+# ICredentialProvider::Advise
 
 
 ## -description

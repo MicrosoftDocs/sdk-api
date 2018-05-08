@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnClipChange
-title: IOverlayNotify::OnClipChange method
+title: IOverlayNotify::OnClipChange
 author: windows-driver-content
 description: The OnClipChange method provides notification that the window's visible region has changed. It is essential that any overlay hardware be updated to reflect the change to the visible region before returning from this method.
 old-location: dshow\ioverlaynotify_onclipchange.htm
 old-project: DirectShow
 ms.assetid: d5bed27f-2918-4c1f-9340-a0d5714d911b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IOverlayNotify, IOverlayNotify interface [DirectShow], OnClipChange method, IOverlayNotify::OnClipChange, IOverlayNotifyOnClipChange, OnClipChange method [DirectShow], OnClipChange method [DirectShow], IOverlayNotify interface, OnClipChange,IOverlayNotify.OnClipChange, dshow.ioverlaynotify_onclipchange, strmif/IOverlayNotify::OnClipChange
+ms.date: 4/30/2018
+ms.keywords: IOverlayNotify interface [DirectShow],OnClipChange method, IOverlayNotify.OnClipChange, IOverlayNotify::OnClipChange, IOverlayNotifyOnClipChange, OnClipChange, OnClipChange method [DirectShow], OnClipChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_onclipchange, strmif/IOverlayNotify::OnClipChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IOverlayNotify::OnClipChange method
+# IOverlayNotify::OnClipChange
 
 
 ## -description

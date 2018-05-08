@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetStartEndFlag
-title: IIsdbEmergencyInformationDescriptor::GetStartEndFlag method
+title: IIsdbEmergencyInformationDescriptor::GetStartEndFlag
 author: windows-driver-content
 description: Gets the value of the start_end_flag field from an emergency information descriptor. This field indicates whether the emergency alarm signal has started or finished broadcasting.
 old-location: mstv\iisdbemergencyinformationdescriptor_getstartendflag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 13593be1-073c-41df-b389-f0920d192c92
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetStartEndFlag method [Microsoft TV Technologies], GetStartEndFlag method [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface, GetStartEndFlag,IIsdbEmergencyInformationDescriptor.GetStartEndFlag, IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], GetStartEndFlag method, IIsdbEmergencyInformationDescriptor::GetStartEndFlag, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetStartEndFlag, mstv.iisdbemergencyinformationdescriptor_getstartendflag
+ms.keywords: GetStartEndFlag, GetStartEndFlag method [Microsoft TV Technologies], GetStartEndFlag method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetStartEndFlag method, IIsdbEmergencyInformationDescriptor.GetStartEndFlag, IIsdbEmergencyInformationDescriptor::GetStartEndFlag, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetStartEndFlag, mstv.iisdbemergencyinformationdescriptor_getstartendflag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbEmergencyInformationDescriptor::GetStartEndFlag method
+# IIsdbEmergencyInformationDescriptor::GetStartEndFlag
 
 
 ## -description

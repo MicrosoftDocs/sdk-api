@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IETFilter.get_EvalRatObjOK
-title: IETFilter::get_EvalRatObjOK method
+title: IETFilter::get_EvalRatObjOK
 author: windows-driver-content
 description: "."
 old-location: mstv\ietfilter_get_evalratobjok.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ac76a634-af8d-4cf7-aab5-9022ce79ff31
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IETFilter, IETFilter interface [Microsoft TV Technologies], get_EvalRatObjOK method, IETFilter::get_EvalRatObjOK, IETFilterget_EvalRatObjOK, encdec/IETFilter::get_EvalRatObjOK, get_EvalRatObjOK method [Microsoft TV Technologies], get_EvalRatObjOK method [Microsoft TV Technologies], IETFilter interface, get_EvalRatObjOK,IETFilter.get_EvalRatObjOK, mstv.ietfilter_get_evalratobjok
+ms.keywords: IETFilter interface [Microsoft TV Technologies],get_EvalRatObjOK method, IETFilter.get_EvalRatObjOK, IETFilter::get_EvalRatObjOK, IETFilterget_EvalRatObjOK, encdec/IETFilter::get_EvalRatObjOK, get_EvalRatObjOK, get_EvalRatObjOK method [Microsoft TV Technologies], get_EvalRatObjOK method [Microsoft TV Technologies],IETFilter interface, mstv.ietfilter_get_evalratobjok
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IETFilter::get_EvalRatObjOK method
+# IETFilter::get_EvalRatObjOK
 
 
 ## -description

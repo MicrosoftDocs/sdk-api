@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.Disconnect
-title: IRpcStubBuffer::Disconnect method
+title: IRpcStubBuffer::Disconnect
 author: windows-driver-content
 description: Disconnects a server stub from any interface to which it is connected.
 old-location: com\irpcstubbuffer_disconnect.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: da0ecd2b-a445-4ecb-a003-ef07fa1d0458
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Disconnect method [COM], Disconnect method [COM], IRpcStubBuffer interface, Disconnect,IRpcStubBuffer.Disconnect, IRpcStubBuffer, IRpcStubBuffer interface [COM], Disconnect method, IRpcStubBuffer::Disconnect, _com_irpcstubbuffer_disconnect, com.irpcstubbuffer_disconnect, objidlbase/IRpcStubBuffer::Disconnect
+ms.keywords: Disconnect, Disconnect method [COM], Disconnect method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],Disconnect method, IRpcStubBuffer.Disconnect, IRpcStubBuffer::Disconnect, _com_irpcstubbuffer_disconnect, com.irpcstubbuffer_disconnect, objidlbase/IRpcStubBuffer::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRpcStubBuffer::Disconnect method
+# IRpcStubBuffer::Disconnect
 
 
 ## -description

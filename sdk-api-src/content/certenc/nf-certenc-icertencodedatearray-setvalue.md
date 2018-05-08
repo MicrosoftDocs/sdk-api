@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.SetValue
-title: ICertEncodeDateArray::SetValue method
+title: ICertEncodeDateArray::SetValue
 author: windows-driver-content
 description: Sets a DATE value at the specified index of the DATE array.
 old-location: security\icertencodedatearray_setvalue.htm
 old-project: SecCrypto
 ms.assetid: e05a7aa1-81ad-4564-a6a5-65b8ac816598
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeDateArray object [Security], SetValue method, ICertEncodeDateArray, ICertEncodeDateArray interface [Security], SetValue method, ICertEncodeDateArray::SetValue, SetValue method [Security], SetValue method [Security], CCertEncodeDateArray object, SetValue method [Security], ICertEncodeDateArray interface, SetValue,ICertEncodeDateArray.SetValue, _certsrv_icertencodedatearray_setvalue, certenc/ICertEncodeDateArray::SetValue, security.icertencodedatearray_setvalue
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeDateArray object [Security],SetValue method, ICertEncodeDateArray interface [Security],SetValue method, ICertEncodeDateArray.SetValue, ICertEncodeDateArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeDateArray object, SetValue method [Security],ICertEncodeDateArray interface, _certsrv_icertencodedatearray_setvalue, certenc/ICertEncodeDateArray::SetValue, security.icertencodedatearray_setvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeDateArray::SetValue method
+# ICertEncodeDateArray::SetValue
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternates.get_Strokes
-title: IInkRecognitionAlternates::get_Strokes method
+title: IInkRecognitionAlternates::get_Strokes
 author: windows-driver-content
 description: Gets the collection of strokes that are contained in an object or used to create an object.
 old-location: tablet\iinkrecognitionalternates_strokes.htm
 old-project: tablet
 ms.assetid: ce483ea1-4b66-4a87-89a7-f71feae8ccc4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInkRecognitionAlternates, IInkRecognitionAlternates interface [Tablet PC], Strokes property, IInkRecognitionAlternates.Strokes, IInkRecognitionAlternates.get_Strokes, IInkRecognitionAlternates::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC], IInkRecognitionAlternates interface, get_Strokes,IInkRecognitionAlternates.get_Strokes, msinkaut/IInkRecognitionAlternates::Strokes, msinkaut/IInkRecognitionAlternates::get_Strokes, tablet.iinkrecognitionalternates_strokes
+ms.date: 5/2/2018
+ms.keywords: IInkRecognitionAlternates interface [Tablet PC],Strokes property, IInkRecognitionAlternates.Strokes, IInkRecognitionAlternates.get_Strokes, IInkRecognitionAlternates::Strokes, IInkRecognitionAlternates::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkRecognitionAlternates interface, get_Strokes, msinkaut/IInkRecognitionAlternates::Strokes, msinkaut/IInkRecognitionAlternates::get_Strokes, tablet.iinkrecognitionalternates_strokes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognitionAlternates::get_Strokes method
+# IInkRecognitionAlternates::get_Strokes
 
 
 ## -description

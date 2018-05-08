@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContentProvider.get_FilePath
-title: IWdsTransportContentProvider::get_FilePath method
+title: IWdsTransportContentProvider::get_FilePath
 author: windows-driver-content
 description: Retrieves the path to the content provider’s DLL.
 old-location: wds\iwdstransportcontentprovider_filepath.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 32B434D8-5469-4A5F-A276-12B998760E87
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: FilePath property [Windows Deployment Services], FilePath property [Windows Deployment Services], IWdsTransportContentProvider interface, IWdsTransportContentProvider, IWdsTransportContentProvider interface [Windows Deployment Services], FilePath property, IWdsTransportContentProvider.FilePath, IWdsTransportContentProvider::get_FilePath, get_FilePath,IWdsTransportContentProvider.get_FilePath, wds.iwdstransportcontentprovider_filepath, wdstptmgmt/IWdsTransportContentProvider::FilePath, wdstptmgmt/IWdsTransportContentProvider::get_FilePath
+ms.keywords: FilePath property [Windows Deployment Services], FilePath property [Windows Deployment Services],IWdsTransportContentProvider interface, IWdsTransportContentProvider interface [Windows Deployment Services],FilePath property, IWdsTransportContentProvider.FilePath, IWdsTransportContentProvider.get_FilePath, IWdsTransportContentProvider::FilePath, IWdsTransportContentProvider::get_FilePath, get_FilePath, wds.iwdstransportcontentprovider_filepath, wdstptmgmt/IWdsTransportContentProvider::FilePath, wdstptmgmt/IWdsTransportContentProvider::get_FilePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportContentProvider::get_FilePath method
+# IWdsTransportContentProvider::get_FilePath
 
 
 ## -description

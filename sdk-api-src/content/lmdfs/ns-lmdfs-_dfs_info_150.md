@@ -65,6 +65,16 @@ Contains the security descriptor for a DFS link's reparse point. This structure 
  
 
 
+### -field pSecurityDescriptor.size_is
+
+ 
+
+
+### -field pSecurityDescriptor.size_is.SecurityDescriptorLength
+
+ 
+
+
 ### -field SdLengthReserved
 
 This member is reserved for system use.

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise.SetQualityLevel
-title: IMFQualityAdvise::SetQualityLevel method
+title: IMFQualityAdvise::SetQualityLevel
 author: windows-driver-content
 description: Sets the quality level. The quality level determines how the component consumes or produces samples.
 old-location: mf\imfqualityadvise_setqualitylevel.htm
 old-project: medfound
 ms.assetid: f788fd7d-65fc-4917-8d5d-cfaf35a013e7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFQualityAdvise, IMFQualityAdvise interface [Media Foundation], SetQualityLevel method, IMFQualityAdvise::SetQualityLevel, SetQualityLevel method [Media Foundation], SetQualityLevel method [Media Foundation], IMFQualityAdvise interface, SetQualityLevel,IMFQualityAdvise.SetQualityLevel, f788fd7d-65fc-4917-8d5d-cfaf35a013e7, mf.imfqualityadvise_setqualitylevel, mfidl/IMFQualityAdvise::SetQualityLevel
+ms.date: 5/3/2018
+ms.keywords: IMFQualityAdvise interface [Media Foundation],SetQualityLevel method, IMFQualityAdvise.SetQualityLevel, IMFQualityAdvise::SetQualityLevel, SetQualityLevel, SetQualityLevel method [Media Foundation], SetQualityLevel method [Media Foundation],IMFQualityAdvise interface, f788fd7d-65fc-4917-8d5d-cfaf35a013e7, mf.imfqualityadvise_setqualitylevel, mfidl/IMFQualityAdvise::SetQualityLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFQualityAdvise::SetQualityLevel method
+# IMFQualityAdvise::SetQualityLevel
 
 
 ## -description

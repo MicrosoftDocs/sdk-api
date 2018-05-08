@@ -1,14 +1,14 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.InputType
-title: IMediaObjectImpl::InputType method
+title: IMediaObjectImpl::InputType
 author: windows-driver-content
 description: The InputType method retrieves the current media type for a specified input stream.
 old-location: dshow\imediaobjectimpl_inputtype.htm
 old-project: DirectShow
 ms.assetid: e595ac21-14e0-45ae-a286-7938ad0e0a02
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaObjectImpl, IMediaObjectImpl interface [DirectShow], InputType method, IMediaObjectImpl::InputType, IMediaObjectImplInputType, InputType method [DirectShow], InputType method [DirectShow], IMediaObjectImpl interface, InputType,IMediaObjectImpl.InputType, dmoimpl/IMediaObjectImpl::InputType, dshow.imediaobjectimpl_inputtype
+ms.date: 4/30/2018
+ms.keywords: IMediaObjectImpl interface [DirectShow],InputType method, IMediaObjectImpl.InputType, IMediaObjectImpl::InputType, IMediaObjectImplInputType, InputType, InputType method [DirectShow], InputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::InputType, dshow.imediaobjectimpl_inputtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaObjectImpl::InputType method
+# IMediaObjectImpl::InputType
 
 
 ## -description

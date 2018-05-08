@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationActivation.CancelPendingActivation
-title: IWebApplicationActivation::CancelPendingActivation method
+title: IWebApplicationActivation::CancelPendingActivation
 author: windows-driver-content
 description: Cancels a pending activation.
 old-location: debug\iwebapplicationactivation_cancelpendingactivation.htm
@@ -8,7 +8,7 @@ old-project: debug_wwahost
 ms.assetid: FBBA086D-1B20-4F70-B162-DD922DC5C4BF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CancelPendingActivation method [Debugging Windows Store apps], CancelPendingActivation method [Debugging Windows Store apps], IWebApplicationActivation interface, CancelPendingActivation,IWebApplicationActivation.CancelPendingActivation, IWebApplicationActivation, IWebApplicationActivation interface [Debugging Windows Store apps], CancelPendingActivation method, IWebApplicationActivation::CancelPendingActivation, debug.iwebapplicationactivation_cancelpendingactivation, webapplication/IWebApplicationActivation::CancelPendingActivation
+ms.keywords: CancelPendingActivation, CancelPendingActivation method [Debugging Windows Store apps], CancelPendingActivation method [Debugging Windows Store apps],IWebApplicationActivation interface, IWebApplicationActivation interface [Debugging Windows Store apps],CancelPendingActivation method, IWebApplicationActivation.CancelPendingActivation, IWebApplicationActivation::CancelPendingActivation, debug.iwebapplicationactivation_cancelpendingactivation, webapplication/IWebApplicationActivation::CancelPendingActivation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWebApplicationActivation::CancelPendingActivation method
+# IWebApplicationActivation::CancelPendingActivation
 
 
 ## -description

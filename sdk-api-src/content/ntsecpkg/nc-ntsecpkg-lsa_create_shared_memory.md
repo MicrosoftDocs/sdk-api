@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# LSA_CREATE_SHARED_MEMORY callback
+# LSA_CREATE_SHARED_MEMORY callback function
 
 
 ## -description

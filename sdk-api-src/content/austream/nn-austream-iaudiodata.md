@@ -7,8 +7,8 @@ old-location: dshow\iaudiodata.htm
 old-project: DirectShow
 ms.assetid: 8b253715-a294-4e95-b730-e6efe7f895af
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAudioData, IAudioData interface [DirectShow], IAudioData interface [DirectShow], described, IAudioDataInterface, austream/IAudioData, dshow.iaudiodata
+ms.date: 4/30/2018
+ms.keywords: IAudioData, IAudioData interface [DirectShow], IAudioData interface [DirectShow],described, IAudioDataInterface, austream/IAudioData, dshow.iaudiodata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

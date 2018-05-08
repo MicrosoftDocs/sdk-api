@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifyClientConnectionStateChange
-title: ITsSbResourceNotification::NotifyClientConnectionStateChange method
+title: ITsSbResourceNotification::NotifyClientConnectionStateChange
 author: windows-driver-content
 description: Notifies registered plug-ins about state changes in a client connection.
 old-location: termserv\itssbresourcenotification_notifyclientconnectionstatechange.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 8c5d6cf4-f99c-46fa-8b8e-008ff8a4d0d7
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION_REQUEST_PENDING, CONNECTION_REQUEST_SUCCEEDED, CONNECTION_REQUEST_TIMEDOUT, ITsSbResourceNotification, ITsSbResourceNotification interface [Remote Desktop Services], NotifyClientConnectionStateChange method, ITsSbResourceNotification::NotifyClientConnectionStateChange, NotifyClientConnectionStateChange method [Remote Desktop Services], NotifyClientConnectionStateChange method [Remote Desktop Services], ITsSbResourceNotification interface, NotifyClientConnectionStateChange,ITsSbResourceNotification.NotifyClientConnectionStateChange, sbtsv/ITsSbResourceNotification::NotifyClientConnectionStateChange, termserv.itssbresourcenotification_notifyclientconnectionstatechange
+ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION_REQUEST_PENDING, CONNECTION_REQUEST_SUCCEEDED, CONNECTION_REQUEST_TIMEDOUT, ITsSbResourceNotification interface [Remote Desktop Services],NotifyClientConnectionStateChange method, ITsSbResourceNotification.NotifyClientConnectionStateChange, ITsSbResourceNotification::NotifyClientConnectionStateChange, NotifyClientConnectionStateChange, NotifyClientConnectionStateChange method [Remote Desktop Services], NotifyClientConnectionStateChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifyClientConnectionStateChange, termserv.itssbresourcenotification_notifyclientconnectionstatechange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourceNotification::NotifyClientConnectionStateChange method
+# ITsSbResourceNotification::NotifyClientConnectionStateChange
 
 
 ## -description

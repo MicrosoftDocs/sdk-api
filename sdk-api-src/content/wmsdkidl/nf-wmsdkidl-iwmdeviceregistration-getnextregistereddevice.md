@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetNextRegisteredDevice
-title: IWMDeviceRegistration::GetNextRegisteredDevice method
+title: IWMDeviceRegistration::GetNextRegisteredDevice
 author: windows-driver-content
 description: The GetNextRegisteredDevice method enumerates the registered devices of a specified type.
 old-location: wmformat\iwmdeviceregistration_getnextregistereddevice.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 396e60a8-5845-45fa-8393-6f0defbd38bb
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetNextRegisteredDevice method [windows Media Format], GetNextRegisteredDevice method [windows Media Format], IWMDeviceRegistration interface, GetNextRegisteredDevice,IWMDeviceRegistration.GetNextRegisteredDevice, IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], GetNextRegisteredDevice method, IWMDeviceRegistration::GetNextRegisteredDevice, IWMDeviceRegistrationGetNextRegisteredDevice, wmformat.iwmdeviceregistration_getnextregistereddevice, wmsdkidl/IWMDeviceRegistration::GetNextRegisteredDevice
+ms.keywords: GetNextRegisteredDevice, GetNextRegisteredDevice method [windows Media Format], GetNextRegisteredDevice method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetNextRegisteredDevice method, IWMDeviceRegistration.GetNextRegisteredDevice, IWMDeviceRegistration::GetNextRegisteredDevice, IWMDeviceRegistrationGetNextRegisteredDevice, wmformat.iwmdeviceregistration_getnextregistereddevice, wmsdkidl/IWMDeviceRegistration::GetNextRegisteredDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDeviceRegistration::GetNextRegisteredDevice method
+# IWMDeviceRegistration::GetNextRegisteredDevice
 
 
 ## -description

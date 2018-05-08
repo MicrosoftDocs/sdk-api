@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.GetTraceDataProviders
-title: ITraceDataProviderCollection::GetTraceDataProviders method
+title: ITraceDataProviderCollection::GetTraceDataProviders
 author: windows-driver-content
 description: Populates the collection with registered trace providers.
 old-location: pla\itracedataprovidercollection_gettracedataproviders.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: ff35087e-be55-42e8-96e9-c923d06248d8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTraceDataProviders method [PLA], GetTraceDataProviders method [PLA], ITraceDataProviderCollection interface, GetTraceDataProviders,ITraceDataProviderCollection.GetTraceDataProviders, ITraceDataProviderCollection, ITraceDataProviderCollection interface [PLA], GetTraceDataProviders method, ITraceDataProviderCollection::GetTraceDataProviders, base.itracedataprovidercollection_gettracedataproviders, pla.itracedataprovidercollection_gettracedataproviders, pla/ITraceDataProviderCollection::GetTraceDataProviders
+ms.keywords: GetTraceDataProviders, GetTraceDataProviders method [PLA], GetTraceDataProviders method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],GetTraceDataProviders method, ITraceDataProviderCollection.GetTraceDataProviders, ITraceDataProviderCollection::GetTraceDataProviders, base.itracedataprovidercollection_gettracedataproviders, pla.itracedataprovidercollection_gettracedataproviders, pla/ITraceDataProviderCollection::GetTraceDataProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataProviderCollection::GetTraceDataProviders method
+# ITraceDataProviderCollection::GetTraceDataProviders
 
 
 ## -description

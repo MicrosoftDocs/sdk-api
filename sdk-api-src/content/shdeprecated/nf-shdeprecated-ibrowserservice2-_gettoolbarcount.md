@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetToolbarCount
-title: IBrowserService2::_GetToolbarCount method
+title: IBrowserService2::_GetToolbarCount
 author: windows-driver-content
 description: Deprecated. Returns the number of toolbars in the browser window.
 old-location: shell\IBrowserService2__GetToolbarCount.htm
 old-project: shell
 ms.assetid: 7884c80d-dc15-42a7-80e3-566eed819275
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _GetToolbarCount method, IBrowserService2::_GetToolbarCount, _GetToolbarCount method [Windows Shell], _GetToolbarCount method [Windows Shell], IBrowserService2 interface, _GetToolbarCount,IBrowserService2._GetToolbarCount, shdeprecated/IBrowserService2::_GetToolbarCount, shell.IBrowserService2__GetToolbarCount, zone_IBrowserService2__GetToolbarCount
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],_GetToolbarCount method, IBrowserService2._GetToolbarCount, IBrowserService2::_GetToolbarCount, _GetToolbarCount, _GetToolbarCount method [Windows Shell], _GetToolbarCount method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetToolbarCount, shell.IBrowserService2__GetToolbarCount, zone_IBrowserService2__GetToolbarCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::_GetToolbarCount method
+# IBrowserService2::_GetToolbarCount
 
 
 ## -description

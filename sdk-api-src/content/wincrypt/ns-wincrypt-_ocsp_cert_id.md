@@ -7,7 +7,7 @@ old-location: security\ocsp_cert_id.htm
 old-project: SecCrypto
 ms.assetid: 58717990-a7f7-4b41-aceb-cbce55411396
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*POCSP_CERT_ID, OCSP_CERT_ID, OCSP_CERT_ID structure [Security], POCSP_CERT_ID, POCSP_CERT_ID structure pointer [Security], _OCSP_CERT_ID, security.ocsp_cert_id, wincrypt/OCSP_CERT_ID, wincrypt/POCSP_CERT_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

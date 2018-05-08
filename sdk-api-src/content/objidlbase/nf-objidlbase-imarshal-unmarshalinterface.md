@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IMarshal.UnmarshalInterface
-title: IMarshal::UnmarshalInterface method
+title: IMarshal::UnmarshalInterface
 author: windows-driver-content
 description: Unmarshals an interface pointer.
 old-location: com\imarshal_unmarshalinterface.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 5b496028-57db-447e-8c5c-76b7ea0fa4ee
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMarshal, IMarshal interface [COM], UnmarshalInterface method, IMarshal::UnmarshalInterface, UnmarshalInterface method [COM], UnmarshalInterface method [COM], IMarshal interface, UnmarshalInterface,IMarshal.UnmarshalInterface, _com_imarshal_unmarshalinterface, com.imarshal_unmarshalinterface, objidlbase/IMarshal::UnmarshalInterface
+ms.keywords: IMarshal interface [COM],UnmarshalInterface method, IMarshal.UnmarshalInterface, IMarshal::UnmarshalInterface, UnmarshalInterface, UnmarshalInterface method [COM], UnmarshalInterface method [COM],IMarshal interface, _com_imarshal_unmarshalinterface, com.imarshal_unmarshalinterface, objidlbase/IMarshal::UnmarshalInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMarshal::UnmarshalInterface method
+# IMarshal::UnmarshalInterface
 
 
 ## -description

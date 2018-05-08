@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx
-title: IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx method
+title: IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx
 author: windows-driver-content
 description: Updates the shadow copy storage area maximum size for a certain volume. This may not have an immediate effect. If the bVolatile parameter is FALSE, the change continues even if the computer is rebooted.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_changediffareamaximumsizeex.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 9ba621d5-32ec-4512-a18f-dbdadbd3ff09
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: ChangeDiffAreaMaximumSizeEx method, ChangeDiffAreaMaximumSizeEx method, IVssDifferentialSoftwareSnapshotMgmt2 interface, ChangeDiffAreaMaximumSizeEx,IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx, IVssDifferentialSoftwareSnapshotMgmt2, IVssDifferentialSoftwareSnapshotMgmt2 interface, ChangeDiffAreaMaximumSizeEx method, IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx, base.ivssdifferentialsoftwaresnapshotmgmt2_changediffareamaximumsizeex, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx
+ms.keywords: ChangeDiffAreaMaximumSizeEx, ChangeDiffAreaMaximumSizeEx method, ChangeDiffAreaMaximumSizeEx method,IVssDifferentialSoftwareSnapshotMgmt2 interface, IVssDifferentialSoftwareSnapshotMgmt2 interface,ChangeDiffAreaMaximumSizeEx method, IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx, IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx, base.ivssdifferentialsoftwaresnapshotmgmt2_changediffareamaximumsizeex, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx method
+# IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx
 
 
 ## -description

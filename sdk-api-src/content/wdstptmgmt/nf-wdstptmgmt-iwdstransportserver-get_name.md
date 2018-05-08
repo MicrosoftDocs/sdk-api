@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer.get_Name
-title: IWdsTransportServer::get_Name method
+title: IWdsTransportServer::get_Name
 author: windows-driver-content
 description: Returns the name of the server represented by this object.
 old-location: wds\iwdstransportserver_name.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: d638f1f5-e74a-4ef6-a3ab-7ed6e11f863f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportServer, IWdsTransportServer interface [Windows Deployment Services], Name property, IWdsTransportServer.Name, IWdsTransportServer::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services], IWdsTransportServer interface, get_Name,IWdsTransportServer.get_Name, wds.iwdstransportserver_name, wdstptmgmt/IWdsTransportServer::Name, wdstptmgmt/IWdsTransportServer::get_Name
+ms.keywords: IWdsTransportServer interface [Windows Deployment Services],Name property, IWdsTransportServer.Name, IWdsTransportServer.get_Name, IWdsTransportServer::Name, IWdsTransportServer::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportServer interface, get_Name, wds.iwdstransportserver_name, wdstptmgmt/IWdsTransportServer::Name, wdstptmgmt/IWdsTransportServer::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportServer::get_Name method
+# IWdsTransportServer::get_Name
 
 
 ## -description

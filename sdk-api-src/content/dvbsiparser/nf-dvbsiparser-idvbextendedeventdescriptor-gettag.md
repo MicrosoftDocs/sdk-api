@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetTag
-title: IDvbExtendedEventDescriptor::GetTag method
+title: IDvbExtendedEventDescriptor::GetTag
 author: windows-driver-content
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_gettag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8f6dad8a-fd95-48c3-9bb2-222c5ec958f5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface, GetTag,IDvbExtendedEventDescriptor.GetTag, IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbExtendedEventDescriptor::GetTag, dvbsiparser/IDvbExtendedEventDescriptor::GetTag, mstv.idvbextendedeventdescriptor_gettag
+ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbExtendedEventDescriptor.GetTag, IDvbExtendedEventDescriptor::GetTag, dvbsiparser/IDvbExtendedEventDescriptor::GetTag, mstv.idvbextendedeventdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbExtendedEventDescriptor::GetTag method
+# IDvbExtendedEventDescriptor::GetTag
 
 
 ## -description

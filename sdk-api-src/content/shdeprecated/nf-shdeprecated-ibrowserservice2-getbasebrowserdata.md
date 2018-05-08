@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.GetBaseBrowserData
-title: IBrowserService2::GetBaseBrowserData method
+title: IBrowserService2::GetBaseBrowserData
 author: windows-driver-content
 description: Deprecated. Gets a read-only structure containing the protected elements owned by the base class, for the purpose of determining state.
 old-location: shell\IBrowserService2_GetBaseBrowserData.htm
 old-project: shell
 ms.assetid: 60a9bbd1-5c11-4c6a-bae2-b85979ab8bda
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetBaseBrowserData method [Windows Shell], GetBaseBrowserData method [Windows Shell], IBrowserService2 interface, GetBaseBrowserData,IBrowserService2.GetBaseBrowserData, IBrowserService2, IBrowserService2 interface [Windows Shell], GetBaseBrowserData method, IBrowserService2::GetBaseBrowserData, shdeprecated/IBrowserService2::GetBaseBrowserData, shell.IBrowserService2_GetBaseBrowserData, zone_IBrowserService2_GetBaseBrowserData
+ms.date: 5/3/2018
+ms.keywords: GetBaseBrowserData, GetBaseBrowserData method [Windows Shell], GetBaseBrowserData method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],GetBaseBrowserData method, IBrowserService2.GetBaseBrowserData, IBrowserService2::GetBaseBrowserData, shdeprecated/IBrowserService2::GetBaseBrowserData, shell.IBrowserService2_GetBaseBrowserData, zone_IBrowserService2_GetBaseBrowserData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::GetBaseBrowserData method
+# IBrowserService2::GetBaseBrowserData
 
 
 ## -description

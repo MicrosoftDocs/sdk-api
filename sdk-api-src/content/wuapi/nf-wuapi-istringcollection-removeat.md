@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.RemoveAt
-title: IStringCollection::RemoveAt method
+title: IStringCollection::RemoveAt
 author: windows-driver-content
 description: Removes the item at the specified index from the collection.
 old-location: wua\istringcollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: a0b350b0-d5b4-49c6-acca-a50719d92262
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IStringCollection, IStringCollection interface [Windows Update Agent], RemoveAt method, IStringCollection::RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent], IStringCollection interface, RemoveAt,IStringCollection.RemoveAt, wua.istringcollection_removeat, wuapi/IStringCollection::RemoveAt
+ms.keywords: IStringCollection interface [Windows Update Agent],RemoveAt method, IStringCollection.RemoveAt, IStringCollection::RemoveAt, RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent],IStringCollection interface, wua.istringcollection_removeat, wuapi/IStringCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IStringCollection::RemoveAt method
+# IStringCollection::RemoveAt
 
 
 ## -description

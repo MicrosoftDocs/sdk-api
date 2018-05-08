@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.PushCopyOfRetrievalFilter
-title: ID3D11InfoQueue::PushCopyOfRetrievalFilter method
+title: ID3D11InfoQueue::PushCopyOfRetrievalFilter
 author: windows-driver-content
 description: Push a copy of retrieval filter currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
 old-location: direct3d11\id3d11infoqueue_pushcopyofretrievalfilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 4bdbecef-9f74-4be3-8e16-e5928bbe849e
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 00094e69-1aa5-15c8-f5fe-b0454334ffc8, ID3D11InfoQueue, ID3D11InfoQueue interface [Direct3D 11], PushCopyOfRetrievalFilter method, ID3D11InfoQueue::PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter method [Direct3D 11], PushCopyOfRetrievalFilter method [Direct3D 11], ID3D11InfoQueue interface, PushCopyOfRetrievalFilter,ID3D11InfoQueue.PushCopyOfRetrievalFilter, d3d11sdklayers/ID3D11InfoQueue::PushCopyOfRetrievalFilter, direct3d11.id3d11infoqueue_pushcopyofretrievalfilter
+ms.keywords: 00094e69-1aa5-15c8-f5fe-b0454334ffc8, ID3D11InfoQueue interface [Direct3D 11],PushCopyOfRetrievalFilter method, ID3D11InfoQueue.PushCopyOfRetrievalFilter, ID3D11InfoQueue::PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter method [Direct3D 11], PushCopyOfRetrievalFilter method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::PushCopyOfRetrievalFilter, direct3d11.id3d11infoqueue_pushcopyofretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11InfoQueue::PushCopyOfRetrievalFilter method
+# ID3D11InfoQueue::PushCopyOfRetrievalFilter
 
 
 ## -description

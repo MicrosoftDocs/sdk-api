@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateSolidColorBrush
-title: IXpsOMObjectFactory::CreateSolidColorBrush method
+title: IXpsOMObjectFactory::CreateSolidColorBrush
 author: windows-driver-content
 description: Creates an IXpsOMSolidColorBrush interface, which specifies a brush of a single, solid color.
 old-location: xps\ixpsomobjectfactory_createsolidcolorbrush.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 58690d93-9e3f-487c-956e-bb21122ecc96
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateSolidColorBrush method [XPS Documents and Packaging], CreateSolidColorBrush method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateSolidColorBrush,IXpsOMObjectFactory.CreateSolidColorBrush, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateSolidColorBrush method, IXpsOMObjectFactory::CreateSolidColorBrush, xps.ixpsomobjectfactory_createsolidcolorbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateSolidColorBrush
+ms.keywords: CreateSolidColorBrush, CreateSolidColorBrush method [XPS Documents and Packaging], CreateSolidColorBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateSolidColorBrush method, IXpsOMObjectFactory.CreateSolidColorBrush, IXpsOMObjectFactory::CreateSolidColorBrush, xps.ixpsomobjectfactory_createsolidcolorbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateSolidColorBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateSolidColorBrush method
+# IXpsOMObjectFactory::CreateSolidColorBrush
 
 
 ## -description

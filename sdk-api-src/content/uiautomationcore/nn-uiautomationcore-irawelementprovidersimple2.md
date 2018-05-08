@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 0B526BDA-CDFA-DDE0-48DC-597D40F1BBB7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IRawElementProviderSimple2, IRawElementProviderSimple2 interface [Windows Accessibility], IRawElementProviderSimple2 interface [Windows Accessibility], described, uiautomationcore/IRawElementProviderSimple2, winauto.uiauto_IRawElementProviderSimple2
+ms.keywords: IRawElementProviderSimple2, IRawElementProviderSimple2 interface [Windows Accessibility], IRawElementProviderSimple2 interface [Windows Accessibility],described, uiautomationcore/IRawElementProviderSimple2, winauto.uiauto_IRawElementProviderSimple2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

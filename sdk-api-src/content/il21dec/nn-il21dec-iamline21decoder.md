@@ -7,8 +7,8 @@ old-location: dshow\iamline21decoder.htm
 old-project: DirectShow
 ms.assetid: b6fbb5c3-28af-4db6-8dc4-82271b69bf71
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], IAMLine21Decoder interface [DirectShow], described, IAMLine21DecoderInterface, dshow.iamline21decoder, il21dec/IAMLine21Decoder
+ms.date: 4/30/2018
+ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], IAMLine21Decoder interface [DirectShow],described, IAMLine21DecoderInterface, dshow.iamline21decoder, il21dec/IAMLine21Decoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

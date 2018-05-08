@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_RootURL
-title: ISearchRoot::put_RootURL method
+title: ISearchRoot::put_RootURL
 author: windows-driver-content
 description: Sets the URL of the current search root.
 old-location: search\_search_ISearchRoot_put_RootURL.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_rooturl.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchRoot, ISearchRoot interface [search], put_RootURL method, ISearchRoot::put_RootURL, _search_ISearchRoot_put_RootURL, put_RootURL method [search], put_RootURL method [search], ISearchRoot interface, put_RootURL,ISearchRoot.put_RootURL, search._search_ISearchRoot_put_RootURL, searchapi/ISearchRoot::put_RootURL
+ms.date: 5/4/2018
+ms.keywords: ISearchRoot interface [search],put_RootURL method, ISearchRoot.put_RootURL, ISearchRoot::put_RootURL, _search_ISearchRoot_put_RootURL, put_RootURL, put_RootURL method [search], put_RootURL method [search],ISearchRoot interface, search._search_ISearchRoot_put_RootURL, searchapi/ISearchRoot::put_RootURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchRoot::put_RootURL method
+# ISearchRoot::put_RootURL
 
 
 ## -description

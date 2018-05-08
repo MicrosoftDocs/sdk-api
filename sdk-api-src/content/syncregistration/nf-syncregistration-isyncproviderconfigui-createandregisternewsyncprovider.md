@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
-title: ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider method
+title: ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider
 author: windows-driver-content
 description: Creates and registers a new synchronization provider.
 old-location: winsync\isyncproviderconfigui_createandregisternewsyncprovider.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 4b256431-ed9a-414d-88c2-89f02000410d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateAndRegisterNewSyncProvider method [Windows Sync], CreateAndRegisterNewSyncProvider method [Windows Sync], ISyncProviderConfigUI interface, CreateAndRegisterNewSyncProvider,ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider, ISyncProviderConfigUI, ISyncProviderConfigUI interface [Windows Sync], CreateAndRegisterNewSyncProvider method, ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, syncregistration/ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, winsync.isyncproviderconfigui_createandregisternewsyncprovider
+ms.keywords: CreateAndRegisterNewSyncProvider, CreateAndRegisterNewSyncProvider method [Windows Sync], CreateAndRegisterNewSyncProvider method [Windows Sync],ISyncProviderConfigUI interface, ISyncProviderConfigUI interface [Windows Sync],CreateAndRegisterNewSyncProvider method, ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider, ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, syncregistration/ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, winsync.isyncproviderconfigui_createandregisternewsyncprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider method
+# ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider
 
 
 ## -description

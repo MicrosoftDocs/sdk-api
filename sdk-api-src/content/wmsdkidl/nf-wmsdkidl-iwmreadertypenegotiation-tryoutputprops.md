@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderTypeNegotiation.TryOutputProps
-title: IWMReaderTypeNegotiation::TryOutputProps method
+title: IWMReaderTypeNegotiation::TryOutputProps
 author: windows-driver-content
 description: The TryOutputProps method ascertains whether certain changes to the properties of an output are possible.
 old-location: wmformat\iwmreadertypenegotiation_tryoutputprops.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 87d16641-3d28-4bad-962b-8ec808cd7877
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderTypeNegotiation, IWMReaderTypeNegotiation interface [windows Media Format], TryOutputProps method, IWMReaderTypeNegotiation::TryOutputProps, IWMReaderTypeNegotiationTryOutputProps, TryOutputProps method [windows Media Format], TryOutputProps method [windows Media Format], IWMReaderTypeNegotiation interface, TryOutputProps,IWMReaderTypeNegotiation.TryOutputProps, wmformat.iwmreadertypenegotiation_tryoutputprops, wmsdkidl/IWMReaderTypeNegotiation::TryOutputProps
+ms.keywords: IWMReaderTypeNegotiation interface [windows Media Format],TryOutputProps method, IWMReaderTypeNegotiation.TryOutputProps, IWMReaderTypeNegotiation::TryOutputProps, IWMReaderTypeNegotiationTryOutputProps, TryOutputProps, TryOutputProps method [windows Media Format], TryOutputProps method [windows Media Format],IWMReaderTypeNegotiation interface, wmformat.iwmreadertypenegotiation_tryoutputprops, wmsdkidl/IWMReaderTypeNegotiation::TryOutputProps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderTypeNegotiation::TryOutputProps method
+# IWMReaderTypeNegotiation::TryOutputProps
 
 
 ## -description

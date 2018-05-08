@@ -7,7 +7,7 @@ old-location: automat\vardesc.htm
 old-project: automat
 ms.assetid: 9584977d-41c4-4f73-8844-2135750ddb80
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPVARDESC, LPVARDESC, LPVARDESC structure pointer [Automation], VARDESC, VARDESC structure [Automation], _oa96_VARDESC, automat.vardesc, oaidl/LPVARDESC, oaidl/VARDESC, tagVARDESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,6 +73,16 @@ Reserved.
  
 
 
+### -field DUMMYUNIONNAME.oInst
+
+With VAR_PERINSTANCE, the offset of this variable within the instance.
+
+
+### -field DUMMYUNIONNAME.lpvarValue
+
+With VAR_CONST, the value of the constant.
+
+
 ### -field elemdescVar
 
 The variable type.
@@ -86,14 +96,4 @@ The variable flags. See <a href="https://msdn.microsoft.com/9422f2a5-d8c0-4d65-a
 ### -field varkind
 
 The variable type.
-
-
-#### - lpvarValue
-
-With VAR_CONST, the value of the constant.
-
-
-#### - oInst
-
-With VAR_PERINSTANCE, the offset of this variable within the instance.
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbapp.IWsbApplicationAsync.QueryStatus
-title: IWsbApplicationAsync::QueryStatus method
+title: IWsbApplicationAsync::QueryStatus
 author: windows-driver-content
 description: Queries the status of an asynchronous operation.
 old-location: wsb\iwsbapplicationasync_querystatus.htm
@@ -8,7 +8,7 @@ old-project: wsb
 ms.assetid: 0705e4a8-b65e-4740-b073-7fb24e5d02ef
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWsbApplicationAsync, IWsbApplicationAsync interface [Windows Server Backup], QueryStatus method, IWsbApplicationAsync::QueryStatus, QueryStatus method [Windows Server Backup], QueryStatus method [Windows Server Backup], IWsbApplicationAsync interface, QueryStatus,IWsbApplicationAsync.QueryStatus, S_OK, WSBAPP_ASYNC_IN_PROGRESS, wsb.iwsbapplicationasync_querystatus, wsbapp/IWsbApplicationAsync::QueryStatus
+ms.keywords: IWsbApplicationAsync interface [Windows Server Backup],QueryStatus method, IWsbApplicationAsync.QueryStatus, IWsbApplicationAsync::QueryStatus, QueryStatus, QueryStatus method [Windows Server Backup], QueryStatus method [Windows Server Backup],IWsbApplicationAsync interface, S_OK, WSBAPP_ASYNC_IN_PROGRESS, wsb.iwsbapplicationasync_querystatus, wsbapp/IWsbApplicationAsync::QueryStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWsbApplicationAsync::QueryStatus method
+# IWsbApplicationAsync::QueryStatus
 
 
 ## -description

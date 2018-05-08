@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Loudness
-title: IAMAudioInputMixer::put_Loudness method
+title: IAMAudioInputMixer::put_Loudness
 author: windows-driver-content
 description: The put_Loudness method enables or disables the loudness control.
 old-location: dshow\iamaudioinputmixer_put_loudness.htm
 old-project: DirectShow
 ms.assetid: e4baca46-260c-45fe-8c03-304c906aab15
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], put_Loudness method, IAMAudioInputMixer::put_Loudness, IAMAudioInputMixerput_Loudness, dshow.iamaudioinputmixer_put_loudness, put_Loudness method [DirectShow], put_Loudness method [DirectShow], IAMAudioInputMixer interface, put_Loudness,IAMAudioInputMixer.put_Loudness, strmif/IAMAudioInputMixer::put_Loudness
+ms.date: 4/30/2018
+ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Loudness method, IAMAudioInputMixer.put_Loudness, IAMAudioInputMixer::put_Loudness, IAMAudioInputMixerput_Loudness, dshow.iamaudioinputmixer_put_loudness, put_Loudness, put_Loudness method [DirectShow], put_Loudness method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Loudness
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAudioInputMixer::put_Loudness method
+# IAMAudioInputMixer::put_Loudness
 
 
 ## -description

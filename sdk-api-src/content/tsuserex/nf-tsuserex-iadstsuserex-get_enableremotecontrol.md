@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_EnableRemoteControl
-title: IADsTSUserEx::get_EnableRemoteControl method
+title: IADsTSUserEx::get_EnableRemoteControl
 author: windows-driver-content
 description: A value that specifies whether to allow remote observation or remote control of the user's Remote Desktop Services session.
 old-location: termserv\iadstsuserex_enableremotecontrol.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 197d9d7e-118c-413e-952e-2186f79b6633
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Disable, EnableInputNoNotify, EnableInputNotify, EnableNoInputNoNotify, EnableNoInputNotify, EnableRemoteControl property [Remote Desktop Services], EnableRemoteControl property [Remote Desktop Services], IADsTSUserEx interface, IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], EnableRemoteControl property, IADsTSUserEx.EnableRemoteControl, IADsTSUserEx::get_EnableRemoteControl, IADsTSUserEx::put_EnableRemoteControl, get_EnableRemoteControl,IADsTSUserEx.get_EnableRemoteControl, termserv.iadstsuserex_enableremotecontrol, tsuserex/IADsTSUserEx::EnableRemoteControl, tsuserex/IADsTSUserEx::get_EnableRemoteControl, tsuserex/IADsTSUserEx::put_EnableRemoteControl
+ms.keywords: Disable, EnableInputNoNotify, EnableInputNotify, EnableNoInputNoNotify, EnableNoInputNotify, EnableRemoteControl property [Remote Desktop Services], EnableRemoteControl property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],EnableRemoteControl property, IADsTSUserEx.EnableRemoteControl, IADsTSUserEx.get_EnableRemoteControl, IADsTSUserEx::EnableRemoteControl, IADsTSUserEx::get_EnableRemoteControl, IADsTSUserEx::put_EnableRemoteControl, get_EnableRemoteControl, termserv.iadstsuserex_enableremotecontrol, tsuserex/IADsTSUserEx::EnableRemoteControl, tsuserex/IADsTSUserEx::get_EnableRemoteControl, tsuserex/IADsTSUserEx::put_EnableRemoteControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IADsTSUserEx::get_EnableRemoteControl method
+# IADsTSUserEx::get_EnableRemoteControl
 
 
 ## -description

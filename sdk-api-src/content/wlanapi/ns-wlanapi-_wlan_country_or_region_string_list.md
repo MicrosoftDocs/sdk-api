@@ -63,6 +63,21 @@ A <b>WLAN_COUNTRY_OR_REGION_STRING_LIST</b> structure contains a list of support
 Indicates the number of supported country or region strings.
 
 
+### -field pCountryOrRegionStringList.unique
+
+ 
+
+
+### -field pCountryOrRegionStringList.size_is
+
+ 
+
+
+### -field pCountryOrRegionStringList.size_is.dwNumberOfItems
+
+ 
+
+
 ### -field pCountryOrRegionStringList
 
 A list of supported country or region strings. In Windows, a <b>DOT11_COUNTRY_OR_REGION_STRING</b> is of type <b>char[3]</b>.

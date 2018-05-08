@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: EE3B7066-BE91-4F63-8E0A-70F5CAB46496
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN, SensorAdapterAcceptCalibrationData, SensorAdapterAcceptCalibrationData callback function [Windows Biometric Framework API], secbiomet.sensoradapteracceptcalibrationdata, winbio_adapter/SensorAdapterAcceptCalibrationData
+ms.keywords: PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN, PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN callback, SensorAdapterAcceptCalibrationData, SensorAdapterAcceptCalibrationData callback function [Windows Biometric Framework API], secbiomet.sensoradapteracceptcalibrationdata, winbio_adapter/SensorAdapterAcceptCalibrationData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN callback
+# PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN callback function
 
 
 ## -description

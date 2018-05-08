@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.Create
-title: ITaskNamedValueCollection::Create method
+title: ITaskNamedValueCollection::Create
 author: windows-driver-content
 description: Creates a name-value pair in the collection.
 old-location: taskschd\itasknamedvaluecollection_create.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: aec5ca20-b983-48e1-a5d0-761f18557fe4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Create method [Task Scheduler], Create method [Task Scheduler], ITaskNamedValueCollection interface, Create,ITaskNamedValueCollection.Create, ITaskNamedValueCollection, ITaskNamedValueCollection interface [Task Scheduler], Create method, ITaskNamedValueCollection::Create, taskschd.itasknamedvaluecollection_create, taskschd/ITaskNamedValueCollection::Create
+ms.keywords: Create, Create method [Task Scheduler], Create method [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Create method, ITaskNamedValueCollection.Create, ITaskNamedValueCollection::Create, taskschd.itasknamedvaluecollection_create, taskschd/ITaskNamedValueCollection::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskNamedValueCollection::Create method
+# ITaskNamedValueCollection::Create
 
 
 ## -description

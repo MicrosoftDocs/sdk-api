@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: d49e3339-8488-44c1-9d60-706492e65abc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsLargeInteger, IADsLargeInteger interface [ADSI], IADsLargeInteger interface [ADSI], described, _ds_iadslargeinteger, adsi.iadslargeinteger, iads/IADsLargeInteger
+ms.keywords: IADsLargeInteger, IADsLargeInteger interface [ADSI], IADsLargeInteger interface [ADSI],described, _ds_iadslargeinteger, adsi.iadslargeinteger, iads/IADsLargeInteger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

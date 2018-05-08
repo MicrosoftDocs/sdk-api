@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetPageReferences
-title: IXpsOMDocument::GetPageReferences method
+title: IXpsOMDocument::GetPageReferences
 author: windows-driver-content
 description: Gets the IXpsOMPageReferenceCollection interface of the document, which allows virtualized access to its pages.
 old-location: xps\ixpsomdocument_getpagereferences.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 65e8b20b-6a6b-4d24-86a1-b9d1833caa3c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetPageReferences method [XPS Documents and Packaging], GetPageReferences method [XPS Documents and Packaging], IXpsOMDocument interface, GetPageReferences,IXpsOMDocument.GetPageReferences, IXpsOMDocument, IXpsOMDocument interface [XPS Documents and Packaging], GetPageReferences method, IXpsOMDocument::GetPageReferences, xps.ixpsomdocument_getpagereferences, xpsobjectmodel/IXpsOMDocument::GetPageReferences
+ms.keywords: GetPageReferences, GetPageReferences method [XPS Documents and Packaging], GetPageReferences method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetPageReferences method, IXpsOMDocument.GetPageReferences, IXpsOMDocument::GetPageReferences, xps.ixpsomdocument_getpagereferences, xpsobjectmodel/IXpsOMDocument::GetPageReferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDocument::GetPageReferences method
+# IXpsOMDocument::GetPageReferences
 
 
 ## -description

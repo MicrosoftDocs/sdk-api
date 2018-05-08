@@ -7,8 +7,8 @@ old-location: shell\ISyncMgrSyncCallback.htm
 old-project: shell
 ms.assetid: 4f2b6dc3-3b81-4c0a-b0a2-b48f13fba397
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], ISyncMgrSyncCallback interface [Windows Shell], described, _shell_ISyncMgrSyncCallback, shell.ISyncMgrSyncCallback, syncmgr/ISyncMgrSyncCallback
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], ISyncMgrSyncCallback interface [Windows Shell],described, _shell_ISyncMgrSyncCallback, shell.ISyncMgrSyncCallback, syncmgr/ISyncMgrSyncCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

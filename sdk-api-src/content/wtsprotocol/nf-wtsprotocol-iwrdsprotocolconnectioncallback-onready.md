@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.OnReady
-title: IWRdsProtocolConnectionCallback::OnReady method
+title: IWRdsProtocolConnectionCallback::OnReady
 author: windows-driver-content
 description: Requests that the Remote Desktop Services service continue the connection process for that client.
 old-location: termserv\iwrdsprotocolconnectioncallback_onready.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 88134a34-c494-48ea-9063-206e7d0c5139
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolConnectionCallback, IWRdsProtocolConnectionCallback interface [Remote Desktop Services], OnReady method, IWRdsProtocolConnectionCallback::OnReady, OnReady method [Remote Desktop Services], OnReady method [Remote Desktop Services], IWRdsProtocolConnectionCallback interface, OnReady,IWRdsProtocolConnectionCallback.OnReady, termserv.iwrdsprotocolconnectioncallback_onready, wtsprotocol/IWRdsProtocolConnectionCallback::OnReady
+ms.keywords: IWRdsProtocolConnectionCallback interface [Remote Desktop Services],OnReady method, IWRdsProtocolConnectionCallback.OnReady, IWRdsProtocolConnectionCallback::OnReady, OnReady, OnReady method [Remote Desktop Services], OnReady method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, termserv.iwrdsprotocolconnectioncallback_onready, wtsprotocol/IWRdsProtocolConnectionCallback::OnReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnectionCallback::OnReady method
+# IWRdsProtocolConnectionCallback::OnReady
 
 
 ## -description

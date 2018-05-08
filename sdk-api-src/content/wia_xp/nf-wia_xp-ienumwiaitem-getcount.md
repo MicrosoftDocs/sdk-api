@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.GetCount
-title: IEnumWiaItem::GetCount method
+title: IEnumWiaItem::GetCount
 author: windows-driver-content
 description: The IEnumWiaItem::GetCount method returns the number of elements stored by this enumerator.
 old-location: wia\_wia_IEnumWiaItem_GetCount.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwiaitem\getcount.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: GetCount method [WIA], GetCount method [WIA], IEnumWiaItem interface, GetCount,IEnumWiaItem.GetCount, IEnumWiaItem, IEnumWiaItem interface [WIA], GetCount method, IEnumWiaItem::GetCount, _wia_IEnumWiaItem_GetCount, wia._wia_IEnumWiaItem_GetCount, wia_xp/IEnumWiaItem::GetCount
+ms.date: 5/3/2018
+ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IEnumWiaItem interface, IEnumWiaItem interface [WIA],GetCount method, IEnumWiaItem.GetCount, IEnumWiaItem::GetCount, _wia_IEnumWiaItem_GetCount, wia._wia_IEnumWiaItem_GetCount, wia_xp/IEnumWiaItem::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IEnumWiaItem::GetCount method
+# IEnumWiaItem::GetCount
 
 
 ## -description

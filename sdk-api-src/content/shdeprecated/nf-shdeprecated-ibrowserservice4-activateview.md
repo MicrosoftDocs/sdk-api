@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService4.ActivateView
-title: IBrowserService4::ActivateView method
+title: IBrowserService4::ActivateView
 author: windows-driver-content
 description: Deprecated.
 old-location: shell\IBrowserService4_ActivateView.htm
 old-project: shell
 ms.assetid: 4a20e0b8-8fe5-4d5b-b263-3ad8416ad4da
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ActivateView method [Windows Shell], ActivateView method [Windows Shell], IBrowserService4 interface, ActivateView,IBrowserService4.ActivateView, IBrowserService4, IBrowserService4 interface [Windows Shell], ActivateView method, IBrowserService4::ActivateView, _shell_IBrowserService4_ActivateView, shdeprecated/IBrowserService4::ActivateView, shell.IBrowserService4_ActivateView
+ms.date: 5/3/2018
+ms.keywords: ActivateView, ActivateView method [Windows Shell], ActivateView method [Windows Shell],IBrowserService4 interface, IBrowserService4 interface [Windows Shell],ActivateView method, IBrowserService4.ActivateView, IBrowserService4::ActivateView, _shell_IBrowserService4_ActivateView, shdeprecated/IBrowserService4::ActivateView, shell.IBrowserService4_ActivateView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.0
 ---
 
-# IBrowserService4::ActivateView method
+# IBrowserService4::ActivateView
 
 
 ## -description

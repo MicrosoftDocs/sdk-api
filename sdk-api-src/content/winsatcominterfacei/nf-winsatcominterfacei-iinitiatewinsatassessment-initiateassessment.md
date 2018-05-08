@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.InitiateAssessment
-title: IInitiateWinSATAssessment::InitiateAssessment method
+title: IInitiateWinSATAssessment::InitiateAssessment
 author: windows-driver-content
 description: Initiates an ad hoc assessment.
 old-location: winsat\iinitiatewinsatassessment_initiateassessment.htm
@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: c57d88b6-81ac-4314-8593-59a950348be4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IInitiateWinSATAssessment, IInitiateWinSATAssessment interface [WinSAT], InitiateAssessment method, IInitiateWinSATAssessment::InitiateAssessment, InitiateAssessment method [WinSAT], InitiateAssessment method [WinSAT], IInitiateWinSATAssessment interface, InitiateAssessment,IInitiateWinSATAssessment.InitiateAssessment, winsat.iinitiatewinsatassessment_initiateassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment
+ms.keywords: IInitiateWinSATAssessment interface [WinSAT],InitiateAssessment method, IInitiateWinSATAssessment.InitiateAssessment, IInitiateWinSATAssessment::InitiateAssessment, InitiateAssessment, InitiateAssessment method [WinSAT], InitiateAssessment method [WinSAT],IInitiateWinSATAssessment interface, winsat.iinitiatewinsatassessment_initiateassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInitiateWinSATAssessment::InitiateAssessment method
+# IInitiateWinSATAssessment::InitiateAssessment
 
 
 ## -description

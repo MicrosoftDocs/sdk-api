@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx3.GetSessionId
-title: IVssBackupComponentsEx3::GetSessionId method
+title: IVssBackupComponentsEx3::GetSessionId
 author: windows-driver-content
 description: Returns the requester's session identifier.
 old-location: base\ivssbackupcomponentsex3_getsessionid.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: ad7e548a-9f7a-4e35-9811-edb68458a1df
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetSessionId method, GetSessionId method, IVssBackupComponentsEx3 interface, GetSessionId,IVssBackupComponentsEx3.GetSessionId, IVssBackupComponentsEx3, IVssBackupComponentsEx3 interface, GetSessionId method, IVssBackupComponentsEx3::GetSessionId, base.ivssbackupcomponentsex3_getsessionid, vsbackup/IVssBackupComponentsEx3::GetSessionId
+ms.keywords: GetSessionId, GetSessionId method, GetSessionId method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,GetSessionId method, IVssBackupComponentsEx3.GetSessionId, IVssBackupComponentsEx3::GetSessionId, base.ivssbackupcomponentsex3_getsessionid, vsbackup/IVssBackupComponentsEx3::GetSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponentsEx3::GetSessionId method
+# IVssBackupComponentsEx3::GetSessionId
 
 
 ## -description

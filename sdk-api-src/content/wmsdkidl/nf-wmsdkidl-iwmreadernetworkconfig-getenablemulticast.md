@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableMulticast
-title: IWMReaderNetworkConfig::GetEnableMulticast method
+title: IWMReaderNetworkConfig::GetEnableMulticast
 author: windows-driver-content
 description: The GetEnableMulticast method ascertains whether multicast is enabled.
 old-location: wmformat\iwmreadernetworkconfig_getenablemulticast.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 2fc51a74-18b6-4ddd-9089-9a8bdfce70ea
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetEnableMulticast method [windows Media Format], GetEnableMulticast method [windows Media Format], IWMReaderNetworkConfig interface, GetEnableMulticast,IWMReaderNetworkConfig.GetEnableMulticast, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetEnableMulticast method, IWMReaderNetworkConfig::GetEnableMulticast, IWMReaderNetworkConfigGetEnableMulticast, wmformat.iwmreadernetworkconfig_getenablemulticast, wmsdkidl/IWMReaderNetworkConfig::GetEnableMulticast
+ms.keywords: GetEnableMulticast, GetEnableMulticast method [windows Media Format], GetEnableMulticast method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableMulticast method, IWMReaderNetworkConfig.GetEnableMulticast, IWMReaderNetworkConfig::GetEnableMulticast, IWMReaderNetworkConfigGetEnableMulticast, wmformat.iwmreadernetworkconfig_getenablemulticast, wmsdkidl/IWMReaderNetworkConfig::GetEnableMulticast
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetEnableMulticast method
+# IWMReaderNetworkConfig::GetEnableMulticast
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.AddAvailableSmimeCapabilities
-title: ISmimeCapabilities::AddAvailableSmimeCapabilities method
+title: ISmimeCapabilities::AddAvailableSmimeCapabilities
 author: windows-driver-content
 description: Adds ISmimeCapability objects to the collection by identifying the encryption algorithms supported by the default RSA cryptographic provider.
 old-location: security\ismimecapabilities_addavailablesmimecapabilities_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b3b087e7-9934-4d29-a516-db5bba824774
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: AddAvailableSmimeCapabilities method [Security], AddAvailableSmimeCapabilities method [Security], ISmimeCapabilities interface, AddAvailableSmimeCapabilities,ISmimeCapabilities.AddAvailableSmimeCapabilities, ISmimeCapabilities, ISmimeCapabilities interface [Security], AddAvailableSmimeCapabilities method, ISmimeCapabilities::AddAvailableSmimeCapabilities, certenroll/ISmimeCapabilities::AddAvailableSmimeCapabilities, security.ismimecapabilities_addavailablesmimecapabilities_method
+ms.keywords: AddAvailableSmimeCapabilities, AddAvailableSmimeCapabilities method [Security], AddAvailableSmimeCapabilities method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],AddAvailableSmimeCapabilities method, ISmimeCapabilities.AddAvailableSmimeCapabilities, ISmimeCapabilities::AddAvailableSmimeCapabilities, certenroll/ISmimeCapabilities::AddAvailableSmimeCapabilities, security.ismimecapabilities_addavailablesmimecapabilities_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ISmimeCapabilities::AddAvailableSmimeCapabilities method
+# ISmimeCapabilities::AddAvailableSmimeCapabilities
 
 
 ## -description

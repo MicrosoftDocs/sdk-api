@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetAdditionalRestores
-title: IVssComponent::GetAdditionalRestores method
+title: IVssComponent::GetAdditionalRestores
 author: windows-driver-content
 description: The GetAdditionalRestores method is used by a writer during incremental or differential restore operations to determine whether a given component will require additional restore operations to completely retrieve it.
 old-location: base\ivsscomponent_getadditionalrestores.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: f398a88a-6572-4d0b-a241-37cc0e9e99a0
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetAdditionalRestores method [VSS], GetAdditionalRestores method [VSS], IVssComponent interface, GetAdditionalRestores,IVssComponent.GetAdditionalRestores, IVssComponent, IVssComponent interface [VSS], GetAdditionalRestores method, IVssComponent::GetAdditionalRestores, _win32_ivsscomponent_getadditionalrestores, base.ivsscomponent_getadditionalrestores, vswriter/IVssComponent::GetAdditionalRestores
+ms.keywords: GetAdditionalRestores, GetAdditionalRestores method [VSS], GetAdditionalRestores method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAdditionalRestores method, IVssComponent.GetAdditionalRestores, IVssComponent::GetAdditionalRestores, _win32_ivsscomponent_getadditionalrestores, base.ivsscomponent_getadditionalrestores, vswriter/IVssComponent::GetAdditionalRestores
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetAdditionalRestores method
+# IVssComponent::GetAdditionalRestores
 
 
 ## -description

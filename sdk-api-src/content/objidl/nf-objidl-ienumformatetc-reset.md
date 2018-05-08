@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Reset
-title: IEnumFORMATETC::Reset method
+title: IEnumFORMATETC::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumformatetc_reset.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f079c166-c4a8-4827-a8c5-3c5e0cb13b77
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumFORMATETC, IEnumFORMATETC interface [COM], Reset method, IEnumFORMATETC::Reset, Reset method [COM], Reset method [COM], IEnumFORMATETC interface, Reset,IEnumFORMATETC.Reset, _ole_ienumformatetc_reset, com.ienumformatetc_reset, objidl/IEnumFORMATETC::Reset
+ms.keywords: IEnumFORMATETC interface [COM],Reset method, IEnumFORMATETC.Reset, IEnumFORMATETC::Reset, Reset, Reset method [COM], Reset method [COM],IEnumFORMATETC interface, _ole_ienumformatetc_reset, com.ienumformatetc_reset, objidl/IEnumFORMATETC::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumFORMATETC::Reset method
+# IEnumFORMATETC::Reset
 
 
 ## -description

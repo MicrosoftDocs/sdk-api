@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.OpenBroadcastMmi
-title: IBDA_ConditionalAccessEx::OpenBroadcastMmi method
+title: IBDA_ConditionalAccessEx::OpenBroadcastMmi
 author: windows-driver-content
 description: Responds to a BroadcastMMI event.
 old-location: mstv\ibda_conditionalaccessex_openbroadcastmmi.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 15390805-ff09-4dca-b00d-ad2f3641911b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_ConditionalAccessEx, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies], OpenBroadcastMmi method, IBDA_ConditionalAccessEx::OpenBroadcastMmi, OpenBroadcastMmi method [Microsoft TV Technologies], OpenBroadcastMmi method [Microsoft TV Technologies], IBDA_ConditionalAccessEx interface, OpenBroadcastMmi,IBDA_ConditionalAccessEx.OpenBroadcastMmi, bdaiface/IBDA_ConditionalAccessEx::OpenBroadcastMmi, mstv.ibda_conditionalaccessex_openbroadcastmmi
+ms.keywords: IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],OpenBroadcastMmi method, IBDA_ConditionalAccessEx.OpenBroadcastMmi, IBDA_ConditionalAccessEx::OpenBroadcastMmi, OpenBroadcastMmi, OpenBroadcastMmi method [Microsoft TV Technologies], OpenBroadcastMmi method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, bdaiface/IBDA_ConditionalAccessEx::OpenBroadcastMmi, mstv.ibda_conditionalaccessex_openbroadcastmmi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_ConditionalAccessEx::OpenBroadcastMmi method
+# IBDA_ConditionalAccessEx::OpenBroadcastMmi
 
 
 ## -description

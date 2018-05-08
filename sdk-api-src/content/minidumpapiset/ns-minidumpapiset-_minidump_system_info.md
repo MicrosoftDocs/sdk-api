@@ -228,6 +228,11 @@ Model <i>xx</i>, Stepping <i>yy</i>
  
 
 
+### -field Reserved0
+
+This member is reserved for future use and must be zero.
+
+
 ### -field NumberOfProcessors
 
 The number of processors in the system.
@@ -347,6 +352,11 @@ The operating system platform is Windows.
 An RVA (from the beginning of the dump) to a 
       <a href="https://msdn.microsoft.com/b90b2b29-9d39-4a73-b5fb-bb6e04c94811">MINIDUMP_STRING</a> that describes the latest Service 
        Pack installed on the system. If no Service Pack has been installed, the string is empty.
+
+
+### -field Reserved1
+
+This member is reserved for future use.
 
 
 ### -field SuiteMask
@@ -556,16 +566,6 @@ Other CPU information. This structure is supported only for non-x86 computers.
 For a list of possible values, see the 
         <a href="https://msdn.microsoft.com/c58cfb0a-f40f-429c-abe9-83b6f038f612">IsProcessorFeaturePresent</a> 
         function.
-
-
-#### - Reserved0
-
-This member is reserved for future use and must be zero.
-
-
-#### - Reserved1
-
-This member is reserved for future use.
 
 
 ## -see-also

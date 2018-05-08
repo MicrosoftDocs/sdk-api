@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceSession.BeginSession
-title: IWMDMDeviceSession::BeginSession method
+title: IWMDMDeviceSession::BeginSession
 author: windows-driver-content
 description: The BeginSession method begins a device session.
 old-location: wmdm\iwmdmdevicesession_beginsession.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 7077e594-58ed-497d-893d-81eeb317b274
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: BeginSession method [windows Media Device Manager], BeginSession method [windows Media Device Manager], IWMDMDeviceSession interface, BeginSession,IWMDMDeviceSession.BeginSession, IWMDMDeviceSession, IWMDMDeviceSession interface [windows Media Device Manager], BeginSession method, IWMDMDeviceSession::BeginSession, IWMDMDeviceSessionBeginSession, mswmdm/IWMDMDeviceSession::BeginSession, wmdm.iwmdmdevicesession_beginsession
+ms.keywords: BeginSession, BeginSession method [windows Media Device Manager], BeginSession method [windows Media Device Manager],IWMDMDeviceSession interface, IWMDMDeviceSession interface [windows Media Device Manager],BeginSession method, IWMDMDeviceSession.BeginSession, IWMDMDeviceSession::BeginSession, IWMDMDeviceSessionBeginSession, mswmdm/IWMDMDeviceSession::BeginSession, wmdm.iwmdmdevicesession_beginsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMDeviceSession::BeginSession method
+# IWMDMDeviceSession::BeginSession
 
 
 ## -description

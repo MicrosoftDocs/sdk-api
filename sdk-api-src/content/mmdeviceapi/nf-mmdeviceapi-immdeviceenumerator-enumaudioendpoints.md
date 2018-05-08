@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.EnumAudioEndpoints
-title: IMMDeviceEnumerator::EnumAudioEndpoints method
+title: IMMDeviceEnumerator::EnumAudioEndpoints
 author: windows-driver-content
 description: The EnumAudioEndpoints method generates a collection of audio endpoint devices that meet the specified criteria.
 old-location: coreaudio\immdeviceenumerator_enumaudioendpoints.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: ebdd2dcd-82c5-423f-a85d-04388f5078ec
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: EnumAudioEndpoints method [Core Audio], EnumAudioEndpoints method [Core Audio], IMMDeviceEnumerator interface, EnumAudioEndpoints,IMMDeviceEnumerator.EnumAudioEndpoints, IMMDeviceEnumerator, IMMDeviceEnumerator interface [Core Audio], EnumAudioEndpoints method, IMMDeviceEnumerator::EnumAudioEndpoints, IMMDeviceEnumeratorEnumAudioEndpoints, coreaudio.immdeviceenumerator_enumaudioendpoints, mmdeviceapi/IMMDeviceEnumerator::EnumAudioEndpoints
+ms.keywords: EnumAudioEndpoints, EnumAudioEndpoints method [Core Audio], EnumAudioEndpoints method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],EnumAudioEndpoints method, IMMDeviceEnumerator.EnumAudioEndpoints, IMMDeviceEnumerator::EnumAudioEndpoints, IMMDeviceEnumeratorEnumAudioEndpoints, coreaudio.immdeviceenumerator_enumaudioendpoints, mmdeviceapi/IMMDeviceEnumerator::EnumAudioEndpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMMDeviceEnumerator::EnumAudioEndpoints method
+# IMMDeviceEnumerator::EnumAudioEndpoints
 
 
 ## -description

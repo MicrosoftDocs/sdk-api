@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnScanNetworkComplete
-title: IMbnMultiCarrierEvents::OnScanNetworkComplete method
+title: IMbnMultiCarrierEvents::OnScanNetworkComplete
 author: windows-driver-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a ScanNetwork operation.
 old-location: mbn\imbnmulticarrierevents_onscannetworkcomplete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: EF1A39DB-351F-4105-BE56-C59477A67EC6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: E_MBN_ALREADY_ACTIVE, E_MBN_DEVICE_BUSY, E_MBN_RADIO_POWER_OFF, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnMultiCarrierEvents, IMbnMultiCarrierEvents interface [Microsoft Broadband Networks], OnScanNetworkComplete method, IMbnMultiCarrierEvents::OnScanNetworkComplete, OnScanNetworkComplete method [Microsoft Broadband Networks], OnScanNetworkComplete method [Microsoft Broadband Networks], IMbnMultiCarrierEvents interface, OnScanNetworkComplete,IMbnMultiCarrierEvents.OnScanNetworkComplete, S_OK, mbn.imbnmulticarrierevents_onscannetworkcomplete, mbnapi/IMbnMultiCarrierEvents::OnScanNetworkComplete
+ms.keywords: E_MBN_ALREADY_ACTIVE, E_MBN_DEVICE_BUSY, E_MBN_RADIO_POWER_OFF, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnScanNetworkComplete method, IMbnMultiCarrierEvents.OnScanNetworkComplete, IMbnMultiCarrierEvents::OnScanNetworkComplete, OnScanNetworkComplete, OnScanNetworkComplete method [Microsoft Broadband Networks], OnScanNetworkComplete method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, S_OK, mbn.imbnmulticarrierevents_onscannetworkcomplete, mbnapi/IMbnMultiCarrierEvents::OnScanNetworkComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnMultiCarrierEvents::OnScanNetworkComplete method
+# IMbnMultiCarrierEvents::OnScanNetworkComplete
 
 
 ## -description

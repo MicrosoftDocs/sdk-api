@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: f745669a-a594-457d-ae6b-952a55576bae
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest3Callback, IXMLHTTPRequest3Callback interface [XMLHttpRequest2], IXMLHTTPRequest3Callback interface [XMLHttpRequest2], described, ixhr2.ixmlhttprequest3callback, msxml6/IXMLHTTPRequest3Callback
+ms.keywords: IXMLHTTPRequest3Callback, IXMLHTTPRequest3Callback interface [XMLHttpRequest2], IXMLHTTPRequest3Callback interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest3callback, msxml6/IXMLHTTPRequest3Callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax

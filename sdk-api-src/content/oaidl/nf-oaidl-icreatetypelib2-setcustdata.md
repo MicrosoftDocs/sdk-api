@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeLib2.SetCustData
-title: ICreateTypeLib2::SetCustData method
+title: ICreateTypeLib2::SetCustData
 author: windows-driver-content
 description: Sets a value to custom data.
 old-location: automat\icreatetypelib2_setcustdata.htm
 old-project: automat
 ms.assetid: 7630a220-c213-4070-90e7-46ce1907127a
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeLib2, ICreateTypeLib2 interface [Automation], SetCustData method, ICreateTypeLib2::SetCustData, SetCustData method [Automation], SetCustData method [Automation], ICreateTypeLib2 interface, SetCustData,ICreateTypeLib2.SetCustData, _oa96_ICreateTypeLib2_SetCustData, automat.icreatetypelib2_setcustdata, oaidl/ICreateTypeLib2::SetCustData
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeLib2 interface [Automation],SetCustData method, ICreateTypeLib2.SetCustData, ICreateTypeLib2::SetCustData, SetCustData, SetCustData method [Automation], SetCustData method [Automation],ICreateTypeLib2 interface, _oa96_ICreateTypeLib2_SetCustData, automat.icreatetypelib2_setcustdata, oaidl/ICreateTypeLib2::SetCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeLib2::SetCustData method
+# ICreateTypeLib2::SetCustData
 
 
 ## -description

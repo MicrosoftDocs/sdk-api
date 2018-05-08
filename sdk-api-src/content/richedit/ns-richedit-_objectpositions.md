@@ -7,7 +7,7 @@ old-location: controls\OBJECTPOSITIONS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\objectpositions.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: OBJECTPOSITIONS, OBJECTPOSITIONS structure [Windows Controls], _objectpositions, _win32_OBJECTPOSITIONS_str, _win32_OBJECTPOSITIONS_str_cpp, controls.OBJECTPOSITIONS, controls._win32_OBJECTPOSITIONS_str, richedit/OBJECTPOSITIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices

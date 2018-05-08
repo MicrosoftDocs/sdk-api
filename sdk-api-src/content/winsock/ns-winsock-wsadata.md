@@ -7,7 +7,7 @@ old-location: winsock\wsadata_2.htm
 old-project: WinSock
 ms.assetid: c3c4c0d6-c8b3-4991-bedb-f45816cc8160
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPWSADATA, LPWSADATA, LPWSADATA structure pointer [Winsock], WSADATA, WSADATA structure [Winsock], WSAData, _win32_wsadata_2, winsock.wsadata_2, winsock/LPWSADATA, winsock/WSADATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

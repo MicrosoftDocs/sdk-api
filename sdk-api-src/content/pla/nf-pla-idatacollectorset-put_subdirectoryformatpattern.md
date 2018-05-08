@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SubdirectoryFormatPattern
-title: IDataCollectorSet::put_SubdirectoryFormatPattern method
+title: IDataCollectorSet::put_SubdirectoryFormatPattern
 author: windows-driver-content
 description: Retrieves or sets a format pattern to use when decorating the folder name.
 old-location: pla\idatacollectorset_get_subdirectoryformatpattern.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 83b7df10-8b00-4d64-bf71-2c68e037ab3f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], SubdirectoryFormatPattern property, IDataCollectorSet.SubdirectoryFormatPattern, IDataCollectorSet::get_SubdirectoryFormatPattern, IDataCollectorSet::put_SubdirectoryFormatPattern, SubdirectoryFormatPattern property [PLA], SubdirectoryFormatPattern property [PLA], IDataCollectorSet interface, base.idatacollectorset_get_subdirectoryformatpattern, pla.idatacollectorset_get_subdirectoryformatpattern, pla/IDataCollectorSet::SubdirectoryFormatPattern, pla/IDataCollectorSet::get_SubdirectoryFormatPattern, pla/IDataCollectorSet::put_SubdirectoryFormatPattern, put_SubdirectoryFormatPattern,IDataCollectorSet.put_SubdirectoryFormatPattern
+ms.keywords: IDataCollectorSet interface [PLA],SubdirectoryFormatPattern property, IDataCollectorSet.SubdirectoryFormatPattern, IDataCollectorSet.put_SubdirectoryFormatPattern, IDataCollectorSet::SubdirectoryFormatPattern, IDataCollectorSet::get_SubdirectoryFormatPattern, IDataCollectorSet::put_SubdirectoryFormatPattern, SubdirectoryFormatPattern property [PLA], SubdirectoryFormatPattern property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_subdirectoryformatpattern, pla.idatacollectorset_get_subdirectoryformatpattern, pla/IDataCollectorSet::SubdirectoryFormatPattern, pla/IDataCollectorSet::get_SubdirectoryFormatPattern, pla/IDataCollectorSet::put_SubdirectoryFormatPattern, put_SubdirectoryFormatPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::put_SubdirectoryFormatPattern method
+# IDataCollectorSet::put_SubdirectoryFormatPattern
 
 
 ## -description

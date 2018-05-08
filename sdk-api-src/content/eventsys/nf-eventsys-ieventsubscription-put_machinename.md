@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_MachineName
-title: IEventSubscription::put_MachineName method
+title: IEventSubscription::put_MachineName
 author: windows-driver-content
 description: The name of the computer on which the subscriber should be activated (for a persistent subscription).
 old-location: cos\ieventsubscription_machinename.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: b56027ac-abe6-4d13-ad3a-254a2f92ab6d
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventSubscription, IEventSubscription interface [COM+], MachineName property, IEventSubscription.MachineName, IEventSubscription::get_MachineName, IEventSubscription::put_MachineName, MachineName property [COM+], MachineName property [COM+], IEventSubscription interface, cos.ieventsubscription_machinename, eventsys/IEventSubscription::MachineName, eventsys/IEventSubscription::get_MachineName, eventsys/IEventSubscription::put_MachineName, put_MachineName,IEventSubscription.put_MachineName
+ms.keywords: IEventSubscription interface [COM+],MachineName property, IEventSubscription.MachineName, IEventSubscription.put_MachineName, IEventSubscription::MachineName, IEventSubscription::get_MachineName, IEventSubscription::put_MachineName, MachineName property [COM+], MachineName property [COM+],IEventSubscription interface, cos.ieventsubscription_machinename, eventsys/IEventSubscription::MachineName, eventsys/IEventSubscription::get_MachineName, eventsys/IEventSubscription::put_MachineName, put_MachineName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::put_MachineName method
+# IEventSubscription::put_MachineName
 
 
 ## -description

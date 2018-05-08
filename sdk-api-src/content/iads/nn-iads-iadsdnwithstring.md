@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 112985e7-6e96-42fb-a4cb-916296d4a524
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DNWithString, IADsDNWithString, IADsDNWithString interface [ADSI], IADsDNWithString interface [ADSI], described, _ds_iadsdnwithstring, adsi.iadsdnwithstring, iads/IADsDNWithString
+ms.keywords: DNWithString, IADsDNWithString, IADsDNWithString interface [ADSI], IADsDNWithString interface [ADSI],described, _ds_iadsdnwithstring, adsi.iadsdnwithstring, iads/IADsDNWithString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

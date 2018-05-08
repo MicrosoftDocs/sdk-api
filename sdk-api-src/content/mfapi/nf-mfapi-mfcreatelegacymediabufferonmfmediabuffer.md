@@ -7,7 +7,7 @@ old-location: mf\mfcreatelegacymediabufferonmfmediabuffer.htm
 old-project: medfound
 ms.assetid: 35d749d8-2bca-4fe8-b145-175e178ae529
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 35d749d8-2bca-4fe8-b145-175e178ae529, MFCreateLegacyMediaBufferOnMFMediaBuffer, MFCreateLegacyMediaBufferOnMFMediaBuffer function [Media Foundation], mf.mfcreatelegacymediabufferonmfmediabuffer, mfapi/MFCreateLegacyMediaBufferOnMFMediaBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

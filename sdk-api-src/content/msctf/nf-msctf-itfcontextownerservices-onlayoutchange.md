@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.OnLayoutChange
-title: ITfContextOwnerServices::OnLayoutChange method
+title: ITfContextOwnerServices::OnLayoutChange
 author: windows-driver-content
 description: The ITfContextOwnerServices::OnLayoutChange method is called by the context owner when the on-screen representation of the text stream is updated during a composition.
 old-location: tsf\itfcontextownerservices_onlayoutchange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a9e17687-6be6-4d2d-ba3a-6c128e71de26
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfContextOwnerServices, ITfContextOwnerServices interface [Text Services Framework], OnLayoutChange method, ITfContextOwnerServices::OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework], ITfContextOwnerServices interface, OnLayoutChange,ITfContextOwnerServices.OnLayoutChange, _tsf_itfcontextownerservices_onlayoutchange_ref, msctf/ITfContextOwnerServices::OnLayoutChange, tsf.itfcontextownerservices_onlayoutchange
+ms.keywords: ITfContextOwnerServices interface [Text Services Framework],OnLayoutChange method, ITfContextOwnerServices.OnLayoutChange, ITfContextOwnerServices::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_onlayoutchange_ref, msctf/ITfContextOwnerServices::OnLayoutChange, tsf.itfcontextownerservices_onlayoutchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwnerServices::OnLayoutChange method
+# ITfContextOwnerServices::OnLayoutChange
 
 
 ## -description

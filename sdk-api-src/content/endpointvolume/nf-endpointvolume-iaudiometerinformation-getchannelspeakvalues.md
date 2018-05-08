@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioMeterInformation.GetChannelsPeakValues
-title: IAudioMeterInformation::GetChannelsPeakValues method
+title: IAudioMeterInformation::GetChannelsPeakValues
 author: windows-driver-content
 description: The GetChannelsPeakValues method gets the peak sample values for all the channels in the audio stream.
 old-location: coreaudio\iaudiometerinformation_getchannelspeakvalues.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: f5caf927-50c4-48dc-b396-016a1cf88882
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetChannelsPeakValues method [Core Audio], GetChannelsPeakValues method [Core Audio], IAudioMeterInformation interface, GetChannelsPeakValues,IAudioMeterInformation.GetChannelsPeakValues, IAudioMeterInformation, IAudioMeterInformation interface [Core Audio], GetChannelsPeakValues method, IAudioMeterInformation::GetChannelsPeakValues, IAudioMeterInformationGetChannelsPeakValues, coreaudio.iaudiometerinformation_getchannelspeakvalues, endpointvolume/IAudioMeterInformation::GetChannelsPeakValues
+ms.keywords: GetChannelsPeakValues, GetChannelsPeakValues method [Core Audio], GetChannelsPeakValues method [Core Audio],IAudioMeterInformation interface, IAudioMeterInformation interface [Core Audio],GetChannelsPeakValues method, IAudioMeterInformation.GetChannelsPeakValues, IAudioMeterInformation::GetChannelsPeakValues, IAudioMeterInformationGetChannelsPeakValues, coreaudio.iaudiometerinformation_getchannelspeakvalues, endpointvolume/IAudioMeterInformation::GetChannelsPeakValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAudioMeterInformation::GetChannelsPeakValues method
+# IAudioMeterInformation::GetChannelsPeakValues
 
 
 ## -description

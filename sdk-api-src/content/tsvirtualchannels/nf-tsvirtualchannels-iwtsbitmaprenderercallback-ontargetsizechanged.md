@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRendererCallback.OnTargetSizeChanged
-title: IWTSBitmapRendererCallback::OnTargetSizeChanged method
+title: IWTSBitmapRendererCallback::OnTargetSizeChanged
 author: windows-driver-content
 description: Called when the size of the render target has changed.
 old-location: termserv\iwtsbitmaprenderercallback_ontargetsizechanged.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 2c4eeec8-7d9c-4321-9fdb-3ea8c7a36893
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSBitmapRendererCallback, IWTSBitmapRendererCallback interface [Remote Desktop Services], OnTargetSizeChanged method, IWTSBitmapRendererCallback::OnTargetSizeChanged, OnTargetSizeChanged method [Remote Desktop Services], OnTargetSizeChanged method [Remote Desktop Services], IWTSBitmapRendererCallback interface, OnTargetSizeChanged,IWTSBitmapRendererCallback.OnTargetSizeChanged, termserv.iwtsbitmaprenderercallback_ontargetsizechanged, tsvirtualchannels/IWTSBitmapRendererCallback::OnTargetSizeChanged
+ms.keywords: IWTSBitmapRendererCallback interface [Remote Desktop Services],OnTargetSizeChanged method, IWTSBitmapRendererCallback.OnTargetSizeChanged, IWTSBitmapRendererCallback::OnTargetSizeChanged, OnTargetSizeChanged, OnTargetSizeChanged method [Remote Desktop Services], OnTargetSizeChanged method [Remote Desktop Services],IWTSBitmapRendererCallback interface, termserv.iwtsbitmaprenderercallback_ontargetsizechanged, tsvirtualchannels/IWTSBitmapRendererCallback::OnTargetSizeChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWTSBitmapRendererCallback::OnTargetSizeChanged method
+# IWTSBitmapRendererCallback::OnTargetSizeChanged
 
 
 ## -description

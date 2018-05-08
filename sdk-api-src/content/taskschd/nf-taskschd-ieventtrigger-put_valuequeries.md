@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEventTrigger.put_ValueQueries
-title: IEventTrigger::put_ValueQueries method
+title: IEventTrigger::put_ValueQueries
 author: windows-driver-content
 description: Gets or sets a collection of named XPath queries. Each query in the collection is applied to the last matching event XML returned from the subscription query specified in the Subscription property.
 old-location: taskschd\ieventtrigger_valuequeries.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 0bceb9d5-11f3-40a3-ba05-be896420e1db
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEventTrigger, IEventTrigger interface [Task Scheduler], ValueQueries property, IEventTrigger.ValueQueries, IEventTrigger::get_ValueQueries, IEventTrigger::put_ValueQueries, ValueQueries property [Task Scheduler], ValueQueries property [Task Scheduler], IEventTrigger interface, put_ValueQueries,IEventTrigger.put_ValueQueries, taskschd.ieventtrigger_valuequeries, taskschd/IEventTrigger::ValueQueries, taskschd/IEventTrigger::get_ValueQueries, taskschd/IEventTrigger::put_ValueQueries
+ms.keywords: IEventTrigger interface [Task Scheduler],ValueQueries property, IEventTrigger.ValueQueries, IEventTrigger.put_ValueQueries, IEventTrigger::ValueQueries, IEventTrigger::get_ValueQueries, IEventTrigger::put_ValueQueries, ValueQueries property [Task Scheduler], ValueQueries property [Task Scheduler],IEventTrigger interface, put_ValueQueries, taskschd.ieventtrigger_valuequeries, taskschd/IEventTrigger::ValueQueries, taskschd/IEventTrigger::get_ValueQueries, taskschd/IEventTrigger::put_ValueQueries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEventTrigger::put_ValueQueries method
+# IEventTrigger::put_ValueQueries
 
 
 ## -description

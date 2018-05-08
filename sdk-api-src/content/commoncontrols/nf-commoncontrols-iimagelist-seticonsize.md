@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.SetIconSize
-title: IImageList::SetIconSize method
+title: IImageList::SetIconSize
 author: windows-driver-content
 description: Sets the dimensions of images in an image list and removes all images from the list.
 old-location: controls\IImageList_SetIconSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\seticonsize.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IImageList, IImageList interface [Windows Controls], SetIconSize method, IImageList::SetIconSize, SetIconSize method [Windows Controls], SetIconSize method [Windows Controls], IImageList interface, SetIconSize,IImageList.SetIconSize, comctl_IImageList_SetIconSize, comctl_IImageList_SetIconSize_cpp, commoncontrols/IImageList::SetIconSize, controls.IImageList_SetIconSize, controls.comctl_IImageList_SetIconSize
+ms.date: 4/27/2018
+ms.keywords: IImageList interface [Windows Controls],SetIconSize method, IImageList.SetIconSize, IImageList::SetIconSize, SetIconSize, SetIconSize method [Windows Controls], SetIconSize method [Windows Controls],IImageList interface, comctl_IImageList_SetIconSize, comctl_IImageList_SetIconSize_cpp, commoncontrols/IImageList::SetIconSize, controls.IImageList_SetIconSize, controls.comctl_IImageList_SetIconSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::SetIconSize method
+# IImageList::SetIconSize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.Save
-title: IPersistStreamInit::Save method
+title: IPersistStreamInit::Save
 author: windows-driver-content
 description: Saves an object to the specified stream.
 old-location: com\ipersiststreaminit_save.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f88b61d0-dd85-4e8e-b445-dfced6521981
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPersistStreamInit, IPersistStreamInit interface [COM], Save method, IPersistStreamInit::Save, Save method [COM], Save method [COM], IPersistStreamInit interface, Save,IPersistStreamInit.Save, _com_ipersiststreaminit_save, com.ipersiststreaminit_save, ocidl/IPersistStreamInit::Save
+ms.keywords: IPersistStreamInit interface [COM],Save method, IPersistStreamInit.Save, IPersistStreamInit::Save, Save, Save method [COM], Save method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_save, com.ipersiststreaminit_save, ocidl/IPersistStreamInit::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistStreamInit::Save method
+# IPersistStreamInit::Save
 
 
 ## -description

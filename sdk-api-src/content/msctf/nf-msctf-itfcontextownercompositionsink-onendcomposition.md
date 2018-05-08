@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionSink.OnEndComposition
-title: ITfContextOwnerCompositionSink::OnEndComposition method
+title: ITfContextOwnerCompositionSink::OnEndComposition
 author: windows-driver-content
 description: ITfContextOwnerCompositionSink::OnEndComposition method
 old-location: tsf\itfcontextownercompositionsink_onendcomposition.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 816aaa81-1b51-4e01-b49c-a9cbe2b87735
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfContextOwnerCompositionSink, ITfContextOwnerCompositionSink interface [Text Services Framework], OnEndComposition method, ITfContextOwnerCompositionSink::OnEndComposition, OnEndComposition method [Text Services Framework], OnEndComposition method [Text Services Framework], ITfContextOwnerCompositionSink interface, OnEndComposition,ITfContextOwnerCompositionSink.OnEndComposition, _tsf_itfcontextownercompositionsink_onendcomposition_ref, msctf/ITfContextOwnerCompositionSink::OnEndComposition, tsf.itfcontextownercompositionsink_onendcomposition
+ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnEndComposition method, ITfContextOwnerCompositionSink.OnEndComposition, ITfContextOwnerCompositionSink::OnEndComposition, OnEndComposition, OnEndComposition method [Text Services Framework], OnEndComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onendcomposition_ref, msctf/ITfContextOwnerCompositionSink::OnEndComposition, tsf.itfcontextownercompositionsink_onendcomposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwnerCompositionSink::OnEndComposition method
+# ITfContextOwnerCompositionSink::OnEndComposition
 
 
 ## -description

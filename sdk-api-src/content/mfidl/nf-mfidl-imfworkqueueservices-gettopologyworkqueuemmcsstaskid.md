@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.GetTopologyWorkQueueMMCSSTaskId
-title: IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId method
+title: IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId
 author: windows-driver-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) task identifier for a specified branch of the current topology.
 old-location: mf\imfworkqueueservices_gettopologyworkqueuemmcsstaskid.htm
 old-project: medfound
 ms.assetid: 0d519b96-428f-4cad-affc-2e94cdf28ae7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 0d519b96-428f-4cad-affc-2e94cdf28ae7, GetTopologyWorkQueueMMCSSTaskId method [Media Foundation], GetTopologyWorkQueueMMCSSTaskId method [Media Foundation], IMFWorkQueueServices interface, GetTopologyWorkQueueMMCSSTaskId,IMFWorkQueueServices.GetTopologyWorkQueueMMCSSTaskId, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], GetTopologyWorkQueueMMCSSTaskId method, IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId, mf.imfworkqueueservices_gettopologyworkqueuemmcsstaskid, mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId
+ms.date: 5/3/2018
+ms.keywords: 0d519b96-428f-4cad-affc-2e94cdf28ae7, GetTopologyWorkQueueMMCSSTaskId, GetTopologyWorkQueueMMCSSTaskId method [Media Foundation], GetTopologyWorkQueueMMCSSTaskId method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],GetTopologyWorkQueueMMCSSTaskId method, IMFWorkQueueServices.GetTopologyWorkQueueMMCSSTaskId, IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId, mf.imfworkqueueservices_gettopologyworkqueuemmcsstaskid, mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId method
+# IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId
 
 
 ## -description

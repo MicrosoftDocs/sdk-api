@@ -7,8 +7,8 @@ old-location: winprog\ieditionupgradehelper.htm
 old-project: DevNotes
 ms.assetid: 2A243B2F-F7A1-448F-B16D-143514725658
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: IEditionUpgradeHelper, IEditionUpgradeHelper interface [Windows API], IEditionUpgradeHelper interface [Windows API], described, editionupgradehelper/IEditionUpgradeHelper, winprog.ieditionupgradehelper
+ms.date: 5/4/2018
+ms.keywords: IEditionUpgradeHelper, IEditionUpgradeHelper interface [Windows API], IEditionUpgradeHelper interface [Windows API],described, editionupgradehelper/IEditionUpgradeHelper, winprog.ieditionupgradehelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

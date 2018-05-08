@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetRestriction
-title: ISettingsItem::GetRestriction method
+title: ISettingsItem::GetRestriction
 author: windows-driver-content
 description: Gets the information for a given restriction.
 old-location: smi\isettingsitem_getrestriction.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 14bc4956-e8ea-464b-949e-ddc7ae445c1a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetRestriction method [SMI], GetRestriction method [SMI], ISettingsItem interface, GetRestriction,ISettingsItem.GetRestriction, ISettingsItem, ISettingsItem interface [SMI], GetRestriction method, ISettingsItem::GetRestriction, smi.isettingsitem_getrestriction, wcmconfig/ISettingsItem::GetRestriction
+ms.keywords: GetRestriction, GetRestriction method [SMI], GetRestriction method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetRestriction method, ISettingsItem.GetRestriction, ISettingsItem::GetRestriction, smi.isettingsitem_getrestriction, wcmconfig/ISettingsItem::GetRestriction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsItem::GetRestriction method
+# ISettingsItem::GetRestriction
 
 
 ## -description

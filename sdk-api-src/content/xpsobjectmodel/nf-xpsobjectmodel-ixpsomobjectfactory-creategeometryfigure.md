@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGeometryFigure
-title: IXpsOMObjectFactory::CreateGeometryFigure method
+title: IXpsOMObjectFactory::CreateGeometryFigure
 author: windows-driver-content
 description: Creates an IXpsOMGeometryFigure interface, which specifies a portion of an object that is defined by an IXpsOMGeometry interface.
 old-location: xps\ixpsomobjectfactory_creategeometryfigure.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d9138dbc-5a9e-4653-bab2-71f6d716eba6
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateGeometryFigure method [XPS Documents and Packaging], CreateGeometryFigure method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateGeometryFigure,IXpsOMObjectFactory.CreateGeometryFigure, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateGeometryFigure method, IXpsOMObjectFactory::CreateGeometryFigure, xps.ixpsomobjectfactory_creategeometryfigure, xpsobjectmodel/IXpsOMObjectFactory::CreateGeometryFigure
+ms.keywords: CreateGeometryFigure, CreateGeometryFigure method [XPS Documents and Packaging], CreateGeometryFigure method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGeometryFigure method, IXpsOMObjectFactory.CreateGeometryFigure, IXpsOMObjectFactory::CreateGeometryFigure, xps.ixpsomobjectfactory_creategeometryfigure, xpsobjectmodel/IXpsOMObjectFactory::CreateGeometryFigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateGeometryFigure method
+# IXpsOMObjectFactory::CreateGeometryFigure
 
 
 ## -description

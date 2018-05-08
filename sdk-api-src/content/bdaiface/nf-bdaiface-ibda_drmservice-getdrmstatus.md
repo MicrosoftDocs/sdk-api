@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DRMService.GetDRMStatus
-title: IBDA_DRMService::GetDRMStatus method
+title: IBDA_DRMService::GetDRMStatus
 author: windows-driver-content
 description: Gets the current digital rights management (DRM) status.
 old-location: mstv\ibda_drmservice_getdrmstatus.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 474ea991-6fb4-4eb4-9146-c76914765dc1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDRMStatus method [Microsoft TV Technologies], GetDRMStatus method [Microsoft TV Technologies], IBDA_DRMService interface, GetDRMStatus,IBDA_DRMService.GetDRMStatus, IBDA_DRMService, IBDA_DRMService interface [Microsoft TV Technologies], GetDRMStatus method, IBDA_DRMService::GetDRMStatus, bdaiface/IBDA_DRMService::GetDRMStatus, mstv.ibda_drmservice_getdrmstatus
+ms.keywords: GetDRMStatus, GetDRMStatus method [Microsoft TV Technologies], GetDRMStatus method [Microsoft TV Technologies],IBDA_DRMService interface, IBDA_DRMService interface [Microsoft TV Technologies],GetDRMStatus method, IBDA_DRMService.GetDRMStatus, IBDA_DRMService::GetDRMStatus, bdaiface/IBDA_DRMService::GetDRMStatus, mstv.ibda_drmservice_getdrmstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DRMService::GetDRMStatus method
+# IBDA_DRMService::GetDRMStatus
 
 
 ## -description

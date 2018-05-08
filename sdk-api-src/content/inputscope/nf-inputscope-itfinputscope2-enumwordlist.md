@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.ITfInputScope2.EnumWordList
-title: ITfInputScope2::EnumWordList method
+title: ITfInputScope2::EnumWordList
 author: windows-driver-content
 description: ITfInputScope2::EnumWordList method
 old-location: tsf\itfinputscope2_enumwordlist.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 89379dab-6f96-4a86-8433-b6b0a8e45516
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnumWordList method [Text Services Framework], EnumWordList method [Text Services Framework], ITfInputScope2 interface, EnumWordList,ITfInputScope2.EnumWordList, ITfInputScope2, ITfInputScope2 interface [Text Services Framework], EnumWordList method, ITfInputScope2::EnumWordList, _tsf_itfinputscope2_enumwordlist_ref, inputscope/ITfInputScope2::EnumWordList, tsf.itfinputscope2_enumwordlist
+ms.keywords: EnumWordList, EnumWordList method [Text Services Framework], EnumWordList method [Text Services Framework],ITfInputScope2 interface, ITfInputScope2 interface [Text Services Framework],EnumWordList method, ITfInputScope2.EnumWordList, ITfInputScope2::EnumWordList, _tsf_itfinputscope2_enumwordlist_ref, inputscope/ITfInputScope2::EnumWordList, tsf.itfinputscope2_enumwordlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputScope2::EnumWordList method
+# ITfInputScope2::EnumWordList
 
 
 ## -description

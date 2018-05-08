@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDefaultSubpictureLanguage
-title: IDvdInfo2::GetDefaultSubpictureLanguage method
+title: IDvdInfo2::GetDefaultSubpictureLanguage
 author: windows-driver-content
 description: The GetDefaultSubpictureLanguage method retrieves the default subpicture language.
 old-location: dshow\idvdinfo2_getdefaultsubpicturelanguage.htm
 old-project: DirectShow
 ms.assetid: ada423a5-90ef-48e1-80fa-04d0a24da8f7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDefaultSubpictureLanguage method [DirectShow], GetDefaultSubpictureLanguage method [DirectShow], IDvdInfo2 interface, GetDefaultSubpictureLanguage,IDvdInfo2.GetDefaultSubpictureLanguage, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetDefaultSubpictureLanguage method, IDvdInfo2::GetDefaultSubpictureLanguage, IDvdInfo2GetDefaultSubpictureLanguage, dshow.idvdinfo2_getdefaultsubpicturelanguage, strmif/IDvdInfo2::GetDefaultSubpictureLanguage
+ms.date: 4/30/2018
+ms.keywords: GetDefaultSubpictureLanguage, GetDefaultSubpictureLanguage method [DirectShow], GetDefaultSubpictureLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDefaultSubpictureLanguage method, IDvdInfo2.GetDefaultSubpictureLanguage, IDvdInfo2::GetDefaultSubpictureLanguage, IDvdInfo2GetDefaultSubpictureLanguage, dshow.idvdinfo2_getdefaultsubpicturelanguage, strmif/IDvdInfo2::GetDefaultSubpictureLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo2::GetDefaultSubpictureLanguage method
+# IDvdInfo2::GetDefaultSubpictureLanguage
 
 
 ## -description

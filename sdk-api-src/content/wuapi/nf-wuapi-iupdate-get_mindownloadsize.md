@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_MinDownloadSize
-title: IUpdate::get_MinDownloadSize method
+title: IUpdate::get_MinDownloadSize
 author: windows-driver-content
 description: Gets the minimum download size of the update.
 old-location: wua\iupdate_mindownloadsize.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 58666d64-fe29-4ece-8b51-67212f90e54e
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], MinDownloadSize property, IUpdate.MinDownloadSize, IUpdate::get_MinDownloadSize, MinDownloadSize property [Windows Update Agent], MinDownloadSize property [Windows Update Agent], IUpdate interface, get_MinDownloadSize,IUpdate.get_MinDownloadSize, wua.iupdate_mindownloadsize, wuapi/IUpdate::MinDownloadSize, wuapi/IUpdate::get_MinDownloadSize
+ms.keywords: IUpdate interface [Windows Update Agent],MinDownloadSize property, IUpdate.MinDownloadSize, IUpdate.get_MinDownloadSize, IUpdate::MinDownloadSize, IUpdate::get_MinDownloadSize, MinDownloadSize property [Windows Update Agent], MinDownloadSize property [Windows Update Agent],IUpdate interface, get_MinDownloadSize, wua.iupdate_mindownloadsize, wuapi/IUpdate::MinDownloadSize, wuapi/IUpdate::get_MinDownloadSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_MinDownloadSize method
+# IUpdate::get_MinDownloadSize
 
 
 ## -description

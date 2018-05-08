@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyCache.QueryAssemblyInfo
-title: IAssemblyCache::QueryAssemblyInfo method
+title: IAssemblyCache::QueryAssemblyInfo
 author: windows-driver-content
 description: The QueryAssemblyInfo method queries the side-by-side assembly store for assembly information and validates the files in the side-by-side assembly store against the assembly manifest.
 old-location: setup\iassemblycache_queryassemblyinfo.htm
@@ -8,7 +8,7 @@ old-project: SbsCs
 ms.assetid: fc13e5ac-60cf-43f2-b50e-00be3a1ad270
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IAssemblyCache, IAssemblyCache interface [Side-by-side Assemblies], QueryAssemblyInfo method, IAssemblyCache::QueryAssemblyInfo, QUERYASMINFO_FLAG_GETSIZE, QUERYASMINFO_FLAG_VALIDATE, QueryAssemblyInfo method [Side-by-side Assemblies], QueryAssemblyInfo method [Side-by-side Assemblies], IAssemblyCache interface, QueryAssemblyInfo,IAssemblyCache.QueryAssemblyInfo, setup.iassemblycache_queryassemblyinfo, winsxs/IAssemblyCache::QueryAssemblyInfo
+ms.keywords: IAssemblyCache interface [Side-by-side Assemblies],QueryAssemblyInfo method, IAssemblyCache.QueryAssemblyInfo, IAssemblyCache::QueryAssemblyInfo, QUERYASMINFO_FLAG_GETSIZE, QUERYASMINFO_FLAG_VALIDATE, QueryAssemblyInfo, QueryAssemblyInfo method [Side-by-side Assemblies], QueryAssemblyInfo method [Side-by-side Assemblies],IAssemblyCache interface, setup.iassemblycache_queryassemblyinfo, winsxs/IAssemblyCache::QueryAssemblyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAssemblyCache::QueryAssemblyInfo method
+# IAssemblyCache::QueryAssemblyInfo
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.RemoveFromSelection
-title: IUIAutomationSelectionItemPattern::RemoveFromSelection method
+title: IUIAutomationSelectionItemPattern::RemoveFromSelection
 author: windows-driver-content
 description: Removes this element from the selection.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 25f9a8da-4bc9-496e-888c-a270a2bf8fb3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationSelectionItemPattern, IUIAutomationSelectionItemPattern interface [Windows Accessibility], RemoveFromSelection method, IUIAutomationSelectionItemPattern::RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility], IUIAutomationSelectionItemPattern interface, RemoveFromSelection,IUIAutomationSelectionItemPattern.RemoveFromSelection, uiauto.uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection, uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection, uiautomationclient/IUIAutomationSelectionItemPattern::RemoveFromSelection, winauto.uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection
+ms.keywords: IUIAutomationSelectionItemPattern interface [Windows Accessibility],RemoveFromSelection method, IUIAutomationSelectionItemPattern.RemoveFromSelection, IUIAutomationSelectionItemPattern::RemoveFromSelection, RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility],IUIAutomationSelectionItemPattern interface, uiauto.uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection, uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection, uiautomationclient/IUIAutomationSelectionItemPattern::RemoveFromSelection, winauto.uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationSelectionItemPattern::RemoveFromSelection method
+# IUIAutomationSelectionItemPattern::RemoveFromSelection
 
 
 ## -description

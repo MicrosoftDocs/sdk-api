@@ -1,0 +1,6 @@
+# [Windows Runtime C++ reference](../_winrt/index.md)
+## [Shcore.h](index.md)
+### [BSOS_OPTIONS enumeration](../shcore/ne-shcore-bsos_options.md)
+### [CreateRandomAccessStreamOnFile function](../shcore/nf-shcore-createrandomaccessstreamonfile.md)
+### [CreateRandomAccessStreamOverStream function](../shcore/nf-shcore-createrandomaccessstreamoverstream.md)
+### [CreateStreamOverRandomAccessStream function](../shcore/nf-shcore-createstreamoverrandomaccessstream.md)

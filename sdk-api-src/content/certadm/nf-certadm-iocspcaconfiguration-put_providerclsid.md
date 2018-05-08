@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_ProviderCLSID
-title: IOCSPCAConfiguration::put_ProviderCLSID method
+title: IOCSPCAConfiguration::put_ProviderCLSID
 author: windows-driver-content
 description: Gets or sets the CLSID of the revocation information provider used by the CA configuration.
 old-location: security\iocspcaconfiguration_providerclsid_method.htm
 old-project: SecCrypto
 ms.assetid: 4ea109a9-00ed-46b5-a58c-7dc5bc936102
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], ProviderCLSID property, IOCSPCAConfiguration.ProviderCLSID, IOCSPCAConfiguration::get_ProviderCLSID, IOCSPCAConfiguration::put_ProviderCLSID, ProviderCLSID property [Security], ProviderCLSID property [Security], IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::ProviderCLSID, certadm/IOCSPCAConfiguration::get_ProviderCLSID, certadm/IOCSPCAConfiguration::put_ProviderCLSID, put_ProviderCLSID,IOCSPCAConfiguration.put_ProviderCLSID, security.iocspcaconfiguration_providerclsid_method
+ms.date: 4/30/2018
+ms.keywords: IOCSPCAConfiguration interface [Security],ProviderCLSID property, IOCSPCAConfiguration.ProviderCLSID, IOCSPCAConfiguration.put_ProviderCLSID, IOCSPCAConfiguration::ProviderCLSID, IOCSPCAConfiguration::get_ProviderCLSID, IOCSPCAConfiguration::put_ProviderCLSID, ProviderCLSID property [Security], ProviderCLSID property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::ProviderCLSID, certadm/IOCSPCAConfiguration::get_ProviderCLSID, certadm/IOCSPCAConfiguration::put_ProviderCLSID, put_ProviderCLSID, security.iocspcaconfiguration_providerclsid_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPCAConfiguration::put_ProviderCLSID method
+# IOCSPCAConfiguration::put_ProviderCLSID
 
 
 ## -description

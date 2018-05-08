@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_CurrentWriteSpeed
-title: IDiscFormat2RawCD::get_CurrentWriteSpeed method
+title: IDiscFormat2RawCD::get_CurrentWriteSpeed
 author: windows-driver-content
 description: Retrieves the drive's current write speed.
 old-location: imapi\idiscformat2rawcd_get_currentwritespeed.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: f369f719-7db6-4a79-a5fa-d174bf12acbc
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], get_CurrentWriteSpeed method, IDiscFormat2RawCD::get_CurrentWriteSpeed, get_CurrentWriteSpeed method [IMAPI], get_CurrentWriteSpeed method [IMAPI], IDiscFormat2RawCD interface, get_CurrentWriteSpeed,IDiscFormat2RawCD.get_CurrentWriteSpeed, imapi.idiscformat2rawcd_get_currentwritespeed, imapi2/IDiscFormat2RawCD::get_CurrentWriteSpeed
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_CurrentWriteSpeed method, IDiscFormat2RawCD.get_CurrentWriteSpeed, IDiscFormat2RawCD::get_CurrentWriteSpeed, get_CurrentWriteSpeed, get_CurrentWriteSpeed method [IMAPI], get_CurrentWriteSpeed method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_currentwritespeed, imapi2/IDiscFormat2RawCD::get_CurrentWriteSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCD::get_CurrentWriteSpeed method
+# IDiscFormat2RawCD::get_CurrentWriteSpeed
 
 
 ## -description

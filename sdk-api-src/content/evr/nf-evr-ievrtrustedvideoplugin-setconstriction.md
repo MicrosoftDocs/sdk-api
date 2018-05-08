@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.SetConstriction
-title: IEVRTrustedVideoPlugin::SetConstriction method
+title: IEVRTrustedVideoPlugin::SetConstriction
 author: windows-driver-content
 description: Limits the effective video resolution.
 old-location: mf\ievrtrustedvideoplugin_setconstriction.htm
 old-project: medfound
 ms.assetid: f2e9b199-969f-453c-8714-fa85c89a191a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IEVRTrustedVideoPlugin, IEVRTrustedVideoPlugin interface [Media Foundation], SetConstriction method, IEVRTrustedVideoPlugin::SetConstriction, SetConstriction method [Media Foundation], SetConstriction method [Media Foundation], IEVRTrustedVideoPlugin interface, SetConstriction,IEVRTrustedVideoPlugin.SetConstriction, evr/IEVRTrustedVideoPlugin::SetConstriction, f2e9b199-969f-453c-8714-fa85c89a191a, mf.ievrtrustedvideoplugin_setconstriction
+ms.date: 5/3/2018
+ms.keywords: IEVRTrustedVideoPlugin interface [Media Foundation],SetConstriction method, IEVRTrustedVideoPlugin.SetConstriction, IEVRTrustedVideoPlugin::SetConstriction, SetConstriction, SetConstriction method [Media Foundation], SetConstriction method [Media Foundation],IEVRTrustedVideoPlugin interface, evr/IEVRTrustedVideoPlugin::SetConstriction, f2e9b199-969f-453c-8714-fa85c89a191a, mf.ievrtrustedvideoplugin_setconstriction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEVRTrustedVideoPlugin::SetConstriction method
+# IEVRTrustedVideoPlugin::SetConstriction
 
 
 ## -description

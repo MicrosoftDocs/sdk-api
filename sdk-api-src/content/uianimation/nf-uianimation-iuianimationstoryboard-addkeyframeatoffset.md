@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.AddKeyframeAtOffset
-title: IUIAnimationStoryboard::AddKeyframeAtOffset method
+title: IUIAnimationStoryboard::AddKeyframeAtOffset
 author: windows-driver-content
 description: Adds a keyframe at the specified offset from an existing keyframe.
 old-location: uianimation\iuianimationstoryboard_addkeyframeatoffset.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: f598c8a4-4325-49ed-bc18-5d672e089592
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: AddKeyframeAtOffset method [Windows Animation], AddKeyframeAtOffset method [Windows Animation], IUIAnimationStoryboard interface, AddKeyframeAtOffset,IUIAnimationStoryboard.AddKeyframeAtOffset, IUIAnimationStoryboard, IUIAnimationStoryboard interface [Windows Animation], AddKeyframeAtOffset method, IUIAnimationStoryboard::AddKeyframeAtOffset, uianimation.iuianimationstoryboard_addkeyframeatoffset, uianimation/IUIAnimationStoryboard::AddKeyframeAtOffset
+ms.keywords: AddKeyframeAtOffset, AddKeyframeAtOffset method [Windows Animation], AddKeyframeAtOffset method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddKeyframeAtOffset method, IUIAnimationStoryboard.AddKeyframeAtOffset, IUIAnimationStoryboard::AddKeyframeAtOffset, uianimation.iuianimationstoryboard_addkeyframeatoffset, uianimation/IUIAnimationStoryboard::AddKeyframeAtOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard::AddKeyframeAtOffset method
+# IUIAnimationStoryboard::AddKeyframeAtOffset
 
 
 ## -description

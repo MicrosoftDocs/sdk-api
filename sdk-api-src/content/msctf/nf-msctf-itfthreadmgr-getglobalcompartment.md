@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.GetGlobalCompartment
-title: ITfThreadMgr::GetGlobalCompartment method
+title: ITfThreadMgr::GetGlobalCompartment
 author: windows-driver-content
 description: ITfThreadMgr::GetGlobalCompartment method
 old-location: tsf\itfthreadmgr_getglobalcompartment.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 801e2c3a-0445-4630-83ba-55f51ef2704e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetGlobalCompartment method [Text Services Framework], GetGlobalCompartment method [Text Services Framework], ITfThreadMgr interface, GetGlobalCompartment,ITfThreadMgr.GetGlobalCompartment, ITfThreadMgr, ITfThreadMgr interface [Text Services Framework], GetGlobalCompartment method, ITfThreadMgr::GetGlobalCompartment, _tsf_itfthreadmgr_getglobalcompartment_ref, msctf/ITfThreadMgr::GetGlobalCompartment, tsf.itfthreadmgr_getglobalcompartment
+ms.keywords: GetGlobalCompartment, GetGlobalCompartment method [Text Services Framework], GetGlobalCompartment method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],GetGlobalCompartment method, ITfThreadMgr.GetGlobalCompartment, ITfThreadMgr::GetGlobalCompartment, _tsf_itfthreadmgr_getglobalcompartment_ref, msctf/ITfThreadMgr::GetGlobalCompartment, tsf.itfthreadmgr_getglobalcompartment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr::GetGlobalCompartment method
+# ITfThreadMgr::GetGlobalCompartment
 
 
 ## -description

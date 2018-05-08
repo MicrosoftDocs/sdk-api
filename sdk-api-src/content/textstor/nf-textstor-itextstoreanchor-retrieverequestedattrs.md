@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RetrieveRequestedAttrs
-title: ITextStoreAnchor::RetrieveRequestedAttrs method
+title: ITextStoreAnchor::RetrieveRequestedAttrs
 author: windows-driver-content
 description: ITextStoreAnchor::RetrieveRequestedAttrs method
 old-location: tsf\itextstoreanchor_retrieverequestedattrs.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 36847680-bcf2-4db5-a587-90518f60cf5b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], RetrieveRequestedAttrs method, ITextStoreAnchor::RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework], ITextStoreAnchor interface, RetrieveRequestedAttrs,ITextStoreAnchor.RetrieveRequestedAttrs, textstor/ITextStoreAnchor::RetrieveRequestedAttrs, tsf.itextstoreanchor_retrieverequestedattrs
+ms.keywords: ITextStoreAnchor interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreAnchor.RetrieveRequestedAttrs, ITextStoreAnchor::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RetrieveRequestedAttrs, tsf.itextstoreanchor_retrieverequestedattrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::RetrieveRequestedAttrs method
+# ITextStoreAnchor::RetrieveRequestedAttrs
 
 
 ## -description

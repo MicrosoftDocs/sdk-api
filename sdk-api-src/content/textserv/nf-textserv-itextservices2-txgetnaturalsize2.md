@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextServices2.TxGetNaturalSize2
-title: ITextServices2::TxGetNaturalSize2 method
+title: ITextServices2::TxGetNaturalSize2
 author: windows-driver-content
 description: Resizes a control so it fits its content appropriately. This method is similar to TxGetNaturalSize, but also retrieves the ascent of the top line of text.
 old-location: controls\itextservices2_txgetnaturalsize2.htm
 old-project: Controls
 ms.assetid: 9D9A3D06-5C1F-4D50-B7B7-E6CA2BFDB89C
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextServices2, ITextServices2 interface [Windows Controls], TxGetNaturalSize2 method, ITextServices2::TxGetNaturalSize2, TXTNS_EMU, TXTNS_FITTOCONTENT, TXTNS_FITTOCONTENT2, TXTNS_FITTOCONTENT3, TXTNS_FITTOCONTENTWSP, TXTNS_INCLUDELASTLINE, TXTNS_ROUNDTOLINE, TxGetNaturalSize2 method [Windows Controls], TxGetNaturalSize2 method [Windows Controls], ITextServices2 interface, TxGetNaturalSize2,ITextServices2.TxGetNaturalSize2, controls.itextservices2_txgetnaturalsize2, textserv/ITextServices2::TxGetNaturalSize2
+ms.date: 4/27/2018
+ms.keywords: ITextServices2 interface [Windows Controls],TxGetNaturalSize2 method, ITextServices2.TxGetNaturalSize2, ITextServices2::TxGetNaturalSize2, TXTNS_EMU, TXTNS_FITTOCONTENT, TXTNS_FITTOCONTENT2, TXTNS_FITTOCONTENT3, TXTNS_FITTOCONTENTWSP, TXTNS_INCLUDELASTLINE, TXTNS_ROUNDTOLINE, TxGetNaturalSize2, TxGetNaturalSize2 method [Windows Controls], TxGetNaturalSize2 method [Windows Controls],ITextServices2 interface, controls.itextservices2_txgetnaturalsize2, textserv/ITextServices2::TxGetNaturalSize2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextServices2::TxGetNaturalSize2 method
+# ITextServices2::TxGetNaturalSize2
 
 
 ## -description

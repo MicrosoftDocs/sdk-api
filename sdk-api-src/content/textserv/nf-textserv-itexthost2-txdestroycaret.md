@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost2.TxDestroyCaret
-title: ITextHost2::TxDestroyCaret method
+title: ITextHost2::TxDestroyCaret
 author: windows-driver-content
 description: Destroys the caret (Direct2D only).
 old-location: controls\itexthost2_txdestroycaret.htm
 old-project: Controls
 ms.assetid: 627FEF54-FD74-4A41-89FC-E02EBD29D18A
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], TxDestroyCaret method, ITextHost2::TxDestroyCaret, TxDestroyCaret method [Windows Controls], TxDestroyCaret method [Windows Controls], ITextHost2 interface, TxDestroyCaret,ITextHost2.TxDestroyCaret, controls.itexthost2_txdestroycaret, textserv/ITextHost2::TxDestroyCaret
+ms.date: 4/27/2018
+ms.keywords: ITextHost2 interface [Windows Controls],TxDestroyCaret method, ITextHost2.TxDestroyCaret, ITextHost2::TxDestroyCaret, TxDestroyCaret, TxDestroyCaret method [Windows Controls], TxDestroyCaret method [Windows Controls],ITextHost2 interface, controls.itexthost2_txdestroycaret, textserv/ITextHost2::TxDestroyCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost2::TxDestroyCaret method
+# ITextHost2::TxDestroyCaret
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: rpc\ndrstubgetbuffer.htm
 old-project: Rpc
 ms.assetid: ab877b5a-5c44-46eb-bd03-26410eccc765
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: NdrStubGetBuffer, NdrStubGetBuffer function [RPC], rpc.ndrstubgetbuffer, rpcproxy/NdrStubGetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

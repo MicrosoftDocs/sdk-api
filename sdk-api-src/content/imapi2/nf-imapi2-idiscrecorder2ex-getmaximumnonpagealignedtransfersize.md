@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize
-title: IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize method
+title: IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize
 author: windows-driver-content
 description: Retrieves the maximum non-page-aligned transfer size for the device.
 old-location: imapi\idiscrecorder2ex_getmaximumnonpagealignedtransfersize.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: dae56eb7-8fd5-40ea-b3de-2f98206a5cb2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetMaximumNonPageAlignedTransferSize method [IMAPI], GetMaximumNonPageAlignedTransferSize method [IMAPI], IDiscRecorder2Ex interface, GetMaximumNonPageAlignedTransferSize,IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize, IDiscRecorder2Ex, IDiscRecorder2Ex interface [IMAPI], GetMaximumNonPageAlignedTransferSize method, IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize, imapi.idiscrecorder2ex_getmaximumnonpagealignedtransfersize, imapi2/IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize
+ms.keywords: GetMaximumNonPageAlignedTransferSize, GetMaximumNonPageAlignedTransferSize method [IMAPI], GetMaximumNonPageAlignedTransferSize method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetMaximumNonPageAlignedTransferSize method, IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize, IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize, imapi.idiscrecorder2ex_getmaximumnonpagealignedtransfersize, imapi2/IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize method
+# IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize
 
 
 ## -description

@@ -1,0 +1,5 @@
+# [Bluetooth](../_bluetooth/index.md)
+## [Bthsdpdef.h](index.md)
+### [SdpQueryUuidUnion structure](../bthsdpdef/ns-bthsdpdef-sdpqueryuuidunion.md)
+### [_SdpAttributeRange structure](../bthsdpdef/ns-bthsdpdef-_sdpattributerange.md)
+### [_SdpQueryUuid structure](../bthsdpdef/ns-bthsdpdef-_sdpqueryuuid.md)

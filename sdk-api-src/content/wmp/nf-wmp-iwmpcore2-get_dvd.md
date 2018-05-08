@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCore2.get_dvd
-title: IWMPCore2::get_dvd method
+title: IWMPCore2::get_dvd
 author: windows-driver-content
 description: The get_dvd method retrieves a pointer to an IWMPDVD interface.
 old-location: wmp\iwmpcore2_get_dvd.htm
 old-project: WMP
 ms.assetid: b20a0661-b54b-4953-81df-499c19611a15
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCore2, IWMPCore2 interface [Windows Media Player], get_dvd method, IWMPCore2::get_dvd, IWMPCore2get_dvd, get_dvd method [Windows Media Player], get_dvd method [Windows Media Player], IWMPCore2 interface, get_dvd,IWMPCore2.get_dvd, wmp.iwmpcore2_get_dvd, wmp/IWMPCore2::get_dvd
+ms.date: 5/4/2018
+ms.keywords: IWMPCore2 interface [Windows Media Player],get_dvd method, IWMPCore2.get_dvd, IWMPCore2::get_dvd, IWMPCore2get_dvd, get_dvd, get_dvd method [Windows Media Player], get_dvd method [Windows Media Player],IWMPCore2 interface, wmp.iwmpcore2_get_dvd, wmp/IWMPCore2::get_dvd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCore2::get_dvd method
+# IWMPCore2::get_dvd
 
 
 ## -description

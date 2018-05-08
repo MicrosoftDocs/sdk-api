@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.Initialize
-title: IMILBitmapEffectImpl::Initialize method
+title: IMILBitmapEffectImpl::Initialize
 author: windows-driver-content
 description: Initializes the effect with the given object.
 old-location: wibe\_wibe_imilbitmapeffectimpl_initialize.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\initialize.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffectImpl, IMILBitmapEffectImpl interface [WPF Bitmap Effects], Initialize method, IMILBitmapEffectImpl::Initialize, Initialize method [WPF Bitmap Effects], Initialize method [WPF Bitmap Effects], IMILBitmapEffectImpl interface, Initialize,IMILBitmapEffectImpl.Initialize, _wibe_imilbitmapeffectimpl_initialize, mileffects/IMILBitmapEffectImpl::Initialize, wibe._wibe_imilbitmapeffectimpl_initialize
+ms.keywords: IMILBitmapEffectImpl interface [WPF Bitmap Effects],Initialize method, IMILBitmapEffectImpl.Initialize, IMILBitmapEffectImpl::Initialize, Initialize, Initialize method [WPF Bitmap Effects], Initialize method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, _wibe_imilbitmapeffectimpl_initialize, mileffects/IMILBitmapEffectImpl::Initialize, wibe._wibe_imilbitmapeffectimpl_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectImpl::Initialize method
+# IMILBitmapEffectImpl::Initialize
 
 
 ## -description

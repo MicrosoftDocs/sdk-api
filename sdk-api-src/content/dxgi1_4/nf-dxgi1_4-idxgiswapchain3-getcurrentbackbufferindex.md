@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGISwapChain3.GetCurrentBackBufferIndex
-title: IDXGISwapChain3::GetCurrentBackBufferIndex method
+title: IDXGISwapChain3::GetCurrentBackBufferIndex
 author: windows-driver-content
 description: Gets the index of the swap chain's current back buffer.
 old-location: direct3ddxgi\idxgiswapchain3_getcurrentbackbufferindex.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: C19D56AC-4094-4D4A-B992-8FE8348A7DE2
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetCurrentBackBufferIndex method [DXGI], GetCurrentBackBufferIndex method [DXGI], IDXGISwapChain3 interface, GetCurrentBackBufferIndex,IDXGISwapChain3.GetCurrentBackBufferIndex, IDXGISwapChain3, IDXGISwapChain3 interface [DXGI], GetCurrentBackBufferIndex method, IDXGISwapChain3::GetCurrentBackBufferIndex, direct3ddxgi.idxgiswapchain3_getcurrentbackbufferindex, dxgi1_4/IDXGISwapChain3::GetCurrentBackBufferIndex
+ms.keywords: GetCurrentBackBufferIndex, GetCurrentBackBufferIndex method [DXGI], GetCurrentBackBufferIndex method [DXGI],IDXGISwapChain3 interface, IDXGISwapChain3 interface [DXGI],GetCurrentBackBufferIndex method, IDXGISwapChain3.GetCurrentBackBufferIndex, IDXGISwapChain3::GetCurrentBackBufferIndex, direct3ddxgi.idxgiswapchain3_getcurrentbackbufferindex, dxgi1_4/IDXGISwapChain3::GetCurrentBackBufferIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain3::GetCurrentBackBufferIndex method
+# IDXGISwapChain3::GetCurrentBackBufferIndex
 
 
 ## -description

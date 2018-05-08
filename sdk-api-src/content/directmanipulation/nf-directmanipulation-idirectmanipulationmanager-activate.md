@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.Activate
-title: IDirectManipulationManager::Activate method
+title: IDirectManipulationManager::Activate
 author: windows-driver-content
 description: Activates Direct Manipulation for processing input and handling callbacks on the specified window.
 old-location: directmanipulation\idirectmanipulationmanager_activate.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 49a5eccd-16a9-4dca-af78-224fd5acb611
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Activate method [Direct Manipulation], Activate method [Direct Manipulation], IDirectManipulationManager interface, Activate,IDirectManipulationManager.Activate, IDirectManipulationManager, IDirectManipulationManager interface [Direct Manipulation], Activate method, IDirectManipulationManager::Activate, directmanipulation.idirectmanipulationmanager_activate, directmanipulation/IDirectManipulationManager::Activate
+ms.keywords: Activate, Activate method [Direct Manipulation], Activate method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],Activate method, IDirectManipulationManager.Activate, IDirectManipulationManager::Activate, directmanipulation.idirectmanipulationmanager_activate, directmanipulation/IDirectManipulationManager::Activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationManager::Activate method
+# IDirectManipulationManager::Activate
 
 
 ## -description

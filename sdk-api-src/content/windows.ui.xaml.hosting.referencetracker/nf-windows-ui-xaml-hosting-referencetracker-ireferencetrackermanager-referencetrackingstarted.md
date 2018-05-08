@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager.ReferenceTrackingStarted
-title: IReferenceTrackerManager::ReferenceTrackingStarted method
+title: IReferenceTrackerManager::xaml
 author: windows-driver-content
 description: Indicates that a garbage collector is performing a collection; when the collection is finished, the garbage collector calls FindTrackerTargetsCompleted.
 old-location: winrt\ireferencetrackermanager_referencetrackingstarted.htm
 old-project: WinRT
 ms.assetid: 8d911bbb-aa5e-4906-86d6-caf6f3f84f6f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IReferenceTrackerManager, IReferenceTrackerManager interface [Windows Runtime], ReferenceTrackingStarted method, IReferenceTrackerManager::ReferenceTrackingStarted, ReferenceTrackingStarted method [Windows Runtime], ReferenceTrackingStarted method [Windows Runtime], IReferenceTrackerManager interface, ReferenceTrackingStarted,IReferenceTrackerManager.ReferenceTrackingStarted, windows/IReferenceTrackerManager::ReferenceTrackingStarted, winrt.ireferencetrackermanager_referencetrackingstarted
+ms.date: 5/4/2018
+ms.keywords: IReferenceTrackerManager interface [Windows Runtime],ReferenceTrackingStarted method, IReferenceTrackerManager.ReferenceTrackingStarted, IReferenceTrackerManager.xaml, IReferenceTrackerManager::ReferenceTrackingStarted, IReferenceTrackerManager::xaml, ReferenceTrackingStarted, ReferenceTrackingStarted method [Windows Runtime], ReferenceTrackingStarted method [Windows Runtime],IReferenceTrackerManager interface, windows/IReferenceTrackerManager::ReferenceTrackingStarted, winrt.ireferencetrackermanager_referencetrackingstarted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IReferenceTrackerManager::ReferenceTrackingStarted method
+# IReferenceTrackerManager::xaml
 
 
 ## -description

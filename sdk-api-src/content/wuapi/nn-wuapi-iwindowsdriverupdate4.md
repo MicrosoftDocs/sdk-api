@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 3376c93a-4705-432a-8475-89e4448e5bc3
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IWindowsDriverUpdate4, IWindowsDriverUpdate4 interface [Windows Update Agent], IWindowsDriverUpdate4 interface [Windows Update Agent], described, wua.iwindowsdriverupdate4, wuapi/IWindowsDriverUpdate4
+ms.keywords: IWindowsDriverUpdate4, IWindowsDriverUpdate4 interface [Windows Update Agent], IWindowsDriverUpdate4 interface [Windows Update Agent],described, wua.iwindowsdriverupdate4, wuapi/IWindowsDriverUpdate4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

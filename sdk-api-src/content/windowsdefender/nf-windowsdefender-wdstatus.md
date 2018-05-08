@@ -7,7 +7,7 @@ old-location: lwef\defender_wdstatus.htm
 old-project: lwef
 ms.assetid: 885729a7-13a4-401e-ad7b-4f679777531b
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 4/27/2018
 ms.keywords: WDStatus, WDStatus function [Legacy Windows Environment Features], lwef.defender_wdstatus, shell.defender_wdstatus, shell_defender_WDStatus, windowsdefender/WDStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

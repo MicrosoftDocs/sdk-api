@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.ScriptCommand
-title: IWMPEvents::ScriptCommand method
+title: IWMPEvents::ScriptCommand
 author: windows-driver-content
 description: The ScriptCommand event occurs when a synchronized command or URL is received.
 old-location: wmp\iwmpevents_iwmpevents__scriptcommand.htm
 old-project: WMP
 ms.assetid: 1010961f-6d06-455a-9c14-bc06702e9e89
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], ScriptCommand method, IWMPEvents::ScriptCommand, IWMPEventsScriptCommand, ScriptCommand method [Windows Media Player], ScriptCommand method [Windows Media Player], IWMPEvents interface, ScriptCommand,IWMPEvents.ScriptCommand, wmp.iwmpevents_iwmpevents__scriptcommand, wmp/IWMPEvents::ScriptCommand
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],ScriptCommand method, IWMPEvents.ScriptCommand, IWMPEvents::ScriptCommand, IWMPEventsScriptCommand, ScriptCommand, ScriptCommand method [Windows Media Player], ScriptCommand method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__scriptcommand, wmp/IWMPEvents::ScriptCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::ScriptCommand method
+# IWMPEvents::ScriptCommand
 
 
 ## -description

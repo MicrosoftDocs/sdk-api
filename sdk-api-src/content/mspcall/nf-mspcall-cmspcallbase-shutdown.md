@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallBase.ShutDown
-title: CMSPCallBase::ShutDown method
+title: CMSPCallBase::ShutDown
 author: windows-driver-content
 description: The ShutDown method is called by the MSPAddress object (in the method ShutdownMSPCall) to shut down the call.
 old-location: tapi3\cmspcallbase_shutdown.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: eec5b712-5cee-41f7-819f-60815d5fba5c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPCallBase, CMSPCallBase interface [TAPI 2.2], ShutDown method, CMSPCallBase::ShutDown, ShutDown method [TAPI 2.2], ShutDown method [TAPI 2.2], CMSPCallBase interface, ShutDown,CMSPCallBase.ShutDown, _tapi3_cmspcallbase_shutdown, mspcall/CMSPCallBase::ShutDown, tapi3.cmspcallbase_shutdown
+ms.keywords: CMSPCallBase interface [TAPI 2.2],ShutDown method, CMSPCallBase.ShutDown, CMSPCallBase::ShutDown, ShutDown, ShutDown method [TAPI 2.2], ShutDown method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_shutdown, mspcall/CMSPCallBase::ShutDown, tapi3.cmspcallbase_shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPCallBase::ShutDown method
+# CMSPCallBase::ShutDown
 
 
 ## -description

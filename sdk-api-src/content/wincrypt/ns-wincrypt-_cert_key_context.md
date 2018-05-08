@@ -7,7 +7,7 @@ old-location: security\cert_key_context.htm
 old-project: SecCrypto
 ms.assetid: 796adb9c-ec38-41d0-8f8b-ea1053e9f9f0
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCERT_KEY_CONTEXT, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_KEY_CONTEXT, CERT_KEY_CONTEXT structure [Security], CERT_NCRYPT_KEY_SPEC, PCERT_KEY_CONTEXT, PCERT_KEY_CONTEXT structure pointer [Security], _CERT_KEY_CONTEXT, _crypto2_cert_key_context, security.cert_key_context, wincrypt/CERT_KEY_CONTEXT, wincrypt/PCERT_KEY_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,6 +68,18 @@ The size, in bytes, of this structure.
  
 
 
+### -field DUMMYUNIONNAME.hCryptProv
+
+A <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) handle. This member is used when the <b>dwKeySpec</b> member contains <b>AT_KEYEXCHANGE</b> or <b>AT_SIGNATURE</b>.
+
+
+### -field DUMMYUNIONNAME.hNCryptKey
+
+A CNG CSP handle. This member is used when the <b>dwKeySpec</b> member contains <b>CERT_NCRYPT_KEY_SPEC</b>.
+
+<b>Windows Server 2003 and Windows XP:  </b>This member is not available.
+
+
 ### -field dwKeySpec
 
 The specification of the private key to retrieve. 
@@ -116,18 +128,6 @@ Keys associated with a CNG CSP.  The handle to the CNG CSP is set in the <b>hNCr
 </tr>
 </table>
  
-
-
-#### - hCryptProv
-
-A <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) handle. This member is used when the <b>dwKeySpec</b> member contains <b>AT_KEYEXCHANGE</b> or <b>AT_SIGNATURE</b>.
-
-
-#### - hNCryptKey
-
-A CNG CSP handle. This member is used when the <b>dwKeySpec</b> member contains <b>CERT_NCRYPT_KEY_SPEC</b>.
-
-<b>Windows Server 2003 and Windows XP:  </b>This member is not available.
 
 
 ## -see-also

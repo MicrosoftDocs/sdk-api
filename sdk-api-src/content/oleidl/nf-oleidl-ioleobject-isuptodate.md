@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.IsUpToDate
-title: IOleObject::IsUpToDate method
+title: IOleObject::IsUpToDate
 author: windows-driver-content
 description: Checks whether an object is up to date.
 old-location: com\ioleobject_isuptodate.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 74203a74-c5dd-4a98-9223-1dc54c9d4399
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleObject, IOleObject interface [COM], IsUpToDate method, IOleObject::IsUpToDate, IsUpToDate method [COM], IsUpToDate method [COM], IOleObject interface, IsUpToDate,IOleObject.IsUpToDate, _ole_ioleobject_isuptodate, com.ioleobject_isuptodate, oleidl/IOleObject::IsUpToDate
+ms.keywords: IOleObject interface [COM],IsUpToDate method, IOleObject.IsUpToDate, IOleObject::IsUpToDate, IsUpToDate, IsUpToDate method [COM], IsUpToDate method [COM],IOleObject interface, _ole_ioleobject_isuptodate, com.ioleobject_isuptodate, oleidl/IOleObject::IsUpToDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleObject::IsUpToDate method
+# IOleObject::IsUpToDate
 
 
 ## -description

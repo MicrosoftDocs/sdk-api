@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_RetryDelay
-title: IFaxConfiguration::put_RetryDelay method
+title: IFaxConfiguration::put_RetryDelay
 author: windows-driver-content
 description: Sets or retrieves a value that indicates the length of time the fax service should wait before retrying a failed fax transmission.
 old-location: fax\_mfax_FaxConfiguration_RetryDelay_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\retrydelay.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxConfiguration object [Fax Service], RetryDelay property, IFaxConfiguration, IFaxConfiguration::put_RetryDelay, RetryDelay property [Fax Service], RetryDelay property [Fax Service], FaxConfiguration object, _mfax_IFaxConfiguration_RetryDelay, fax._mfax_FaxConfiguration_RetryDelay_vb, put_RetryDelay,IFaxConfiguration.put_RetryDelay
+ms.keywords: FaxConfiguration object [Fax Service],RetryDelay property, FaxConfiguration.RetryDelay, IFaxConfiguration.put_RetryDelay, IFaxConfiguration::put_RetryDelay, RetryDelay property [Fax Service], RetryDelay property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_RetryDelay, fax._mfax_FaxConfiguration_RetryDelay_vb, put_RetryDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::put_RetryDelay method
+# IFaxConfiguration::put_RetryDelay
 
 
 ## -description

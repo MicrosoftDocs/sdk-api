@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetNumMessagesAllowedByStorageFilter
-title: ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter method
+title: ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter
 author: windows-driver-content
 description: Get the number of messages that were allowed to pass through a storage filter.
 old-location: direct3d12\id3d12infoqueue_getnummessagesallowedbystoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 15B4F5B7-0590-45CC-9499-8ACF1B41E7C2
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetNumMessagesAllowedByStorageFilter method, GetNumMessagesAllowedByStorageFilter method, ID3D12InfoQueue interface, GetNumMessagesAllowedByStorageFilter,ID3D12InfoQueue.GetNumMessagesAllowedByStorageFilter, ID3D12InfoQueue, ID3D12InfoQueue interface, GetNumMessagesAllowedByStorageFilter method, ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter, direct3d12.id3d12infoqueue_getnummessagesallowedbystoragefilter
+ms.keywords: GetNumMessagesAllowedByStorageFilter, GetNumMessagesAllowedByStorageFilter method, GetNumMessagesAllowedByStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumMessagesAllowedByStorageFilter method, ID3D12InfoQueue.GetNumMessagesAllowedByStorageFilter, ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter, direct3d12.id3d12infoqueue_getnummessagesallowedbystoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter method
+# ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter
 
 
 ## -description

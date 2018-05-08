@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.RemoveAllProps
-title: IWMBackupRestoreProps::RemoveAllProps method
+title: IWMBackupRestoreProps::RemoveAllProps
 author: windows-driver-content
 description: The RemoveAllProps method removes all properties.
 old-location: wmformat\iwmbackuprestoreprops_removeallprops.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 2c67eb68-1623-4aaa-abde-8481b77bd568
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMBackupRestoreProps, IWMBackupRestoreProps interface [windows Media Format], RemoveAllProps method, IWMBackupRestoreProps::RemoveAllProps, IWMBackupRestorePropsRemoveAllProps, RemoveAllProps method [windows Media Format], RemoveAllProps method [windows Media Format], IWMBackupRestoreProps interface, RemoveAllProps,IWMBackupRestoreProps.RemoveAllProps, wmformat.iwmbackuprestoreprops_removeallprops, wmsdkidl/IWMBackupRestoreProps::RemoveAllProps
+ms.keywords: IWMBackupRestoreProps interface [windows Media Format],RemoveAllProps method, IWMBackupRestoreProps.RemoveAllProps, IWMBackupRestoreProps::RemoveAllProps, IWMBackupRestorePropsRemoveAllProps, RemoveAllProps, RemoveAllProps method [windows Media Format], RemoveAllProps method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_removeallprops, wmsdkidl/IWMBackupRestoreProps::RemoveAllProps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMBackupRestoreProps::RemoveAllProps method
+# IWMBackupRestoreProps::RemoveAllProps
 
 
 ## -description

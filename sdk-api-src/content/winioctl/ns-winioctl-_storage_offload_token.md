@@ -110,7 +110,7 @@ The length of the token data in <b>Token</b>.
 Reserved.
 
 
-#### - Token
+### -field DUMMYUNIONNAME.Token
 
 If the <b>TokenType</b> member is 
        <b>STORAGE_OFFLOAD_TOKEN_TYPE_WELL_KNOWN</b> then the first two bytes are a 16-bit unsigned 

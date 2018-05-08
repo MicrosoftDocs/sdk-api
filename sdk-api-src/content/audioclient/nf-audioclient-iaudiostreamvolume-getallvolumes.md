@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioStreamVolume.GetAllVolumes
-title: IAudioStreamVolume::GetAllVolumes method
+title: IAudioStreamVolume::GetAllVolumes
 author: windows-driver-content
 description: The GetAllVolumes method retrieves the volume levels for all the channels in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_getallvolumes.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 6469ae01-d84d-4711-9b1e-cd8e685fcdd8
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetAllVolumes method [Core Audio], GetAllVolumes method [Core Audio], IAudioStreamVolume interface, GetAllVolumes,IAudioStreamVolume.GetAllVolumes, IAudioStreamVolume, IAudioStreamVolume interface [Core Audio], GetAllVolumes method, IAudioStreamVolume::GetAllVolumes, IAudioStreamVolumeGetAllVolumes, audioclient/IAudioStreamVolume::GetAllVolumes, coreaudio.iaudiostreamvolume_getallvolumes
+ms.keywords: GetAllVolumes, GetAllVolumes method [Core Audio], GetAllVolumes method [Core Audio],IAudioStreamVolume interface, IAudioStreamVolume interface [Core Audio],GetAllVolumes method, IAudioStreamVolume.GetAllVolumes, IAudioStreamVolume::GetAllVolumes, IAudioStreamVolumeGetAllVolumes, audioclient/IAudioStreamVolume::GetAllVolumes, coreaudio.iaudiostreamvolume_getallvolumes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioStreamVolume::GetAllVolumes method
+# IAudioStreamVolume::GetAllVolumes
 
 
 ## -description

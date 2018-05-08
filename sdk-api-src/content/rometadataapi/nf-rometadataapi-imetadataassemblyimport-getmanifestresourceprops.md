@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetManifestResourceProps
-title: IMetaDataAssemblyImport::GetManifestResourceProps method
+title: IMetaDataAssemblyImport::GetManifestResourceProps
 author: windows-driver-content
 description: Gets the set of properties of the manifest resource with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getmanifestresourceprops.htm
 old-project: WinRT
 ms.assetid: caa859c8-de40-4de6-bf90-41104cef91b2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetManifestResourceProps method [Windows Runtime], GetManifestResourceProps method [Windows Runtime], IMetaDataAssemblyImport interface, GetManifestResourceProps,IMetaDataAssemblyImport.GetManifestResourceProps, IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], GetManifestResourceProps method, IMetaDataAssemblyImport::GetManifestResourceProps, rometadataapi/IMetaDataAssemblyImport::GetManifestResourceProps, winrt.imetadataassemblyimport_getmanifestresourceprops
+ms.date: 5/4/2018
+ms.keywords: GetManifestResourceProps, GetManifestResourceProps method [Windows Runtime], GetManifestResourceProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetManifestResourceProps method, IMetaDataAssemblyImport.GetManifestResourceProps, IMetaDataAssemblyImport::GetManifestResourceProps, rometadataapi/IMetaDataAssemblyImport::GetManifestResourceProps, winrt.imetadataassemblyimport_getmanifestresourceprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataAssemblyImport::GetManifestResourceProps method
+# IMetaDataAssemblyImport::GetManifestResourceProps
 
 
 ## -description

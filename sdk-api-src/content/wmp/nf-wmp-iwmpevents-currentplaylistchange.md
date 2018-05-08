@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.CurrentPlaylistChange
-title: IWMPEvents::CurrentPlaylistChange method
+title: IWMPEvents::CurrentPlaylistChange
 author: windows-driver-content
 description: The CurrentPlaylistChange event occurs when something changes within the current playlist.
 old-location: wmp\iwmpevents_iwmpevents__currentplaylistchange.htm
 old-project: WMP
 ms.assetid: b8020b8a-4f2e-4039-862e-9c0f371645fa
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: CurrentPlaylistChange method [Windows Media Player], CurrentPlaylistChange method [Windows Media Player], IWMPEvents interface, CurrentPlaylistChange,IWMPEvents.CurrentPlaylistChange, IWMPEvents, IWMPEvents interface [Windows Media Player], CurrentPlaylistChange method, IWMPEvents::CurrentPlaylistChange, IWMPEventsCurrentPlaylistChange, wmp.iwmpevents_iwmpevents__currentplaylistchange, wmp/IWMPEvents::CurrentPlaylistChange
+ms.date: 5/4/2018
+ms.keywords: CurrentPlaylistChange, CurrentPlaylistChange method [Windows Media Player], CurrentPlaylistChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CurrentPlaylistChange method, IWMPEvents.CurrentPlaylistChange, IWMPEvents::CurrentPlaylistChange, IWMPEventsCurrentPlaylistChange, wmp.iwmpevents_iwmpevents__currentplaylistchange, wmp/IWMPEvents::CurrentPlaylistChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::CurrentPlaylistChange method
+# IWMPEvents::CurrentPlaylistChange
 
 
 ## -description

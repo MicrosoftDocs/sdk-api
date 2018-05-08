@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagSkipCNCheck
-title: IWSManEx::SessionFlagSkipCNCheck method
+title: IWSManEx::SessionFlagSkipCNCheck
 author: windows-driver-content
 description: Returns the value of the authentication flag WSManFlagSkipCNCheck for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagskipcncheck.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: cf364e3a-e532-48cf-9b88-fdc661e70ffa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], SessionFlagSkipCNCheck method, IWSManEx::SessionFlagSkipCNCheck, SessionFlagSkipCNCheck method [Windows Remote Management], SessionFlagSkipCNCheck method [Windows Remote Management], IWSManEx interface, SessionFlagSkipCNCheck,IWSManEx.SessionFlagSkipCNCheck, winrm.iwsmanex_sessionflagskipcncheck, wsmandisp/IWSManEx::SessionFlagSkipCNCheck
+ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagSkipCNCheck method, IWSManEx.SessionFlagSkipCNCheck, IWSManEx::SessionFlagSkipCNCheck, SessionFlagSkipCNCheck, SessionFlagSkipCNCheck method [Windows Remote Management], SessionFlagSkipCNCheck method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagskipcncheck, wsmandisp/IWSManEx::SessionFlagSkipCNCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx::SessionFlagSkipCNCheck method
+# IWSManEx::SessionFlagSkipCNCheck
 
 
 ## -description

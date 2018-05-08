@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.NotifyEndOfReferenceTrackingOnThread
-title: IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread method
+title: IReferenceTrackerHost::xaml
 author: windows-driver-content
 description: Notifies the host that reference tracking is no longer available on the calling thread; XAML calls this when the FrameworkView is uninitialized.
 old-location: winrt\ireferencetrackerhost_notifyendofreferencetrackingonthread.htm
 old-project: WinRT
 ms.assetid: 14391c59-832c-441a-956a-090888d35c81
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], NotifyEndOfReferenceTrackingOnThread method, IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread, NotifyEndOfReferenceTrackingOnThread method [Windows Runtime], NotifyEndOfReferenceTrackingOnThread method [Windows Runtime], IReferenceTrackerHost interface, NotifyEndOfReferenceTrackingOnThread,IReferenceTrackerHost.NotifyEndOfReferenceTrackingOnThread, windows/IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread, winrt.ireferencetrackerhost_notifyendofreferencetrackingonthread
+ms.date: 5/4/2018
+ms.keywords: IReferenceTrackerHost interface [Windows Runtime],NotifyEndOfReferenceTrackingOnThread method, IReferenceTrackerHost.NotifyEndOfReferenceTrackingOnThread, IReferenceTrackerHost.xaml, IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread, IReferenceTrackerHost::xaml, NotifyEndOfReferenceTrackingOnThread, NotifyEndOfReferenceTrackingOnThread method [Windows Runtime], NotifyEndOfReferenceTrackingOnThread method [Windows Runtime],IReferenceTrackerHost interface, windows/IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread, winrt.ireferencetrackerhost_notifyendofreferencetrackingonthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread method
+# IReferenceTrackerHost::xaml
 
 
 ## -description

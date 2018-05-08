@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.Item
-title: INetFwOpenPorts::Item method
+title: INetFwOpenPorts::Item
 author: windows-driver-content
 description: Returns the specified port if it is in the collection.
 old-location: ics\inetfwopenports_item.htm
 old-project: ICS
 ms.assetid: f0491047-d20d-49e4-9319-421b48feca48
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwOpenPorts, INetFwOpenPorts interface [ICS/ICF], Item method, INetFwOpenPorts::Item, Item method [ICS/ICF], Item method [ICS/ICF], INetFwOpenPorts interface, Item,INetFwOpenPorts.Item, ics.inetfwopenports_item, netfw/INetFwOpenPorts::Item
+ms.date: 5/1/2018
+ms.keywords: INetFwOpenPorts interface [ICS/ICF],Item method, INetFwOpenPorts.Item, INetFwOpenPorts::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwOpenPorts interface, ics.inetfwopenports_item, netfw/INetFwOpenPorts::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwOpenPorts::Item method
+# INetFwOpenPorts::Item
 
 
 ## -description

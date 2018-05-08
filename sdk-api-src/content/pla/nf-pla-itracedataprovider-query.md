@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.Query
-title: ITraceDataProvider::Query method
+title: ITraceDataProvider::Query
 author: windows-driver-content
 description: Retrieves details about a registered provider.
 old-location: pla\itracedataprovider_query.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: b3d1720f-3a74-4040-803b-266bd0d50cfc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITraceDataProvider, ITraceDataProvider interface [PLA], Query method, ITraceDataProvider::Query, Query method [PLA], Query method [PLA], ITraceDataProvider interface, Query,ITraceDataProvider.Query, base.itracedataprovider_query, pla.itracedataprovider_query, pla/ITraceDataProvider::Query
+ms.keywords: ITraceDataProvider interface [PLA],Query method, ITraceDataProvider.Query, ITraceDataProvider::Query, Query, Query method [PLA], Query method [PLA],ITraceDataProvider interface, base.itracedataprovider_query, pla.itracedataprovider_query, pla/ITraceDataProvider::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataProvider::Query method
+# ITraceDataProvider::Query
 
 
 ## -description

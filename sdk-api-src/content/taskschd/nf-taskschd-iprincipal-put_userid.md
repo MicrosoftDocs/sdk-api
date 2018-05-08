@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal.put_UserId
-title: IPrincipal::put_UserId method
+title: IPrincipal::put_UserId
 author: windows-driver-content
 description: Gets or sets the user identifier that is required to run the tasks that are associated with the principal.
 old-location: taskschd\iprincipal_userid.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: b85a1f05-acb0-4b3c-bea0-393ad7c6a43d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPrincipal, IPrincipal interface [Task Scheduler], UserId property, IPrincipal.UserId, IPrincipal::get_UserId, IPrincipal::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler], IPrincipal interface, put_UserId,IPrincipal.put_UserId, taskschd.iprincipal_userid, taskschd/IPrincipal::UserId, taskschd/IPrincipal::get_UserId, taskschd/IPrincipal::put_UserId
+ms.keywords: IPrincipal interface [Task Scheduler],UserId property, IPrincipal.UserId, IPrincipal.put_UserId, IPrincipal::UserId, IPrincipal::get_UserId, IPrincipal::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],IPrincipal interface, put_UserId, taskschd.iprincipal_userid, taskschd/IPrincipal::UserId, taskschd/IPrincipal::get_UserId, taskschd/IPrincipal::put_UserId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IPrincipal::put_UserId method
+# IPrincipal::put_UserId
 
 
 ## -description

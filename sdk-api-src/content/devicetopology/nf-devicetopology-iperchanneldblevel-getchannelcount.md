@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.GetChannelCount
-title: IPerChannelDbLevel::GetChannelCount method
+title: IPerChannelDbLevel::GetChannelCount
 author: windows-driver-content
 description: The GetChannelCount method gets the number of channels in the audio stream.
 old-location: coreaudio\iperchanneldblevel_getchannelcount.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: f8c6c0fd-fe29-467a-936e-f83c6d951bdd
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetChannelCount method [Core Audio], GetChannelCount method [Core Audio], IPerChannelDbLevel interface, GetChannelCount,IPerChannelDbLevel.GetChannelCount, IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], GetChannelCount method, IPerChannelDbLevel::GetChannelCount, IPerChannelDbLevelGetChannelCount, coreaudio.iperchanneldblevel_getchannelcount, devicetopology/IPerChannelDbLevel::GetChannelCount
+ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCount method [Core Audio],IPerChannelDbLevel interface, IPerChannelDbLevel interface [Core Audio],GetChannelCount method, IPerChannelDbLevel.GetChannelCount, IPerChannelDbLevel::GetChannelCount, IPerChannelDbLevelGetChannelCount, coreaudio.iperchanneldblevel_getchannelcount, devicetopology/IPerChannelDbLevel::GetChannelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPerChannelDbLevel::GetChannelCount method
+# IPerChannelDbLevel::GetChannelCount
 
 
 ## -description

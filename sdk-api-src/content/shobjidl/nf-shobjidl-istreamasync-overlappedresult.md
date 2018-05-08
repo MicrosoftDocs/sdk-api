@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IStreamAsync.OverlappedResult
-title: IStreamAsync::OverlappedResult method
+title: IStreamAsync::OverlappedResult
 author: windows-driver-content
 description: Retrieves the results of an overlapped operation.
 old-location: shell\IStreamAsync_OverlappedResult.htm
 old-project: shell
 ms.assetid: 5a53934f-bbff-4bb0-b374-01adb629a041
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IStreamAsync, IStreamAsync interface [Windows Shell], OverlappedResult method, IStreamAsync::OverlappedResult, OverlappedResult method [Windows Shell], OverlappedResult method [Windows Shell], IStreamAsync interface, OverlappedResult,IStreamAsync.OverlappedResult, _shell_IStreamAsync_OverlappedResult, shell.IStreamAsync_OverlappedResult, shobjidl/IStreamAsync::OverlappedResult
+ms.date: 5/3/2018
+ms.keywords: IStreamAsync interface [Windows Shell],OverlappedResult method, IStreamAsync.OverlappedResult, IStreamAsync::OverlappedResult, OverlappedResult, OverlappedResult method [Windows Shell], OverlappedResult method [Windows Shell],IStreamAsync interface, _shell_IStreamAsync_OverlappedResult, shell.IStreamAsync_OverlappedResult, shobjidl/IStreamAsync::OverlappedResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IStreamAsync::OverlappedResult method
+# IStreamAsync::OverlappedResult
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_WorkingDirectory
-title: IFileSystemImage::put_WorkingDirectory method
+title: IFileSystemImage::put_WorkingDirectory
 author: windows-driver-content
 description: Sets the temporary directory in which stash files are built.
 old-location: imapi\ifilesystemimage_put_workingdirectory.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: bfe37cfe-654d-4923-b667-e44be7ce4715
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], put_WorkingDirectory method, IFileSystemImage::put_WorkingDirectory, imapi.ifilesystemimage_put_workingdirectory, imapi2fs/IFileSystemImage::put_WorkingDirectory, put_WorkingDirectory method [IMAPI], put_WorkingDirectory method [IMAPI], IFileSystemImage interface, put_WorkingDirectory,IFileSystemImage.put_WorkingDirectory
+ms.keywords: IFileSystemImage interface [IMAPI],put_WorkingDirectory method, IFileSystemImage.put_WorkingDirectory, IFileSystemImage::put_WorkingDirectory, imapi.ifilesystemimage_put_workingdirectory, imapi2fs/IFileSystemImage::put_WorkingDirectory, put_WorkingDirectory, put_WorkingDirectory method [IMAPI], put_WorkingDirectory method [IMAPI],IFileSystemImage interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::put_WorkingDirectory method
+# IFileSystemImage::put_WorkingDirectory
 
 
 ## -description

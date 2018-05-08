@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtGetData
-title: IWiaDataTransfer::idtGetData method
+title: IWiaDataTransfer::idtGetData
 author: windows-driver-content
 description: The IWiaDataTransfer::idtGetData method retrieves complete files from a Windows Image Acquisition (WIA) device.
 old-location: wia\_wia_IWiaDataTransfer_idtGetData.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetdata.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], idtGetData method, IWiaDataTransfer::idtGetData, _wia_IWiaDataTransfer_idtGetData, idtGetData method [WIA], idtGetData method [WIA], IWiaDataTransfer interface, idtGetData,IWiaDataTransfer.idtGetData, wia._wia_IWiaDataTransfer_idtGetData, wia_xp/IWiaDataTransfer::idtGetData
+ms.date: 5/3/2018
+ms.keywords: IWiaDataTransfer interface [WIA],idtGetData method, IWiaDataTransfer.idtGetData, IWiaDataTransfer::idtGetData, _wia_IWiaDataTransfer_idtGetData, idtGetData, idtGetData method [WIA], idtGetData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetData, wia_xp/IWiaDataTransfer::idtGetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaDataTransfer::idtGetData method
+# IWiaDataTransfer::idtGetData
 
 
 ## -description

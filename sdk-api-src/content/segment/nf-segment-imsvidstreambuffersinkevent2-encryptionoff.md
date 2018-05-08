@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent2.EncryptionOff
-title: IMSVidStreamBufferSinkEvent2::EncryptionOff method
+title: IMSVidStreamBufferSinkEvent2::EncryptionOff
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersinkevent2_encryptionoff.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a4798851-b8e1-4b49-aba9-b8b06d91280d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: EncryptionOff method [Microsoft TV Technologies], EncryptionOff method [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent2 interface, EncryptionOff,IMSVidStreamBufferSinkEvent2.EncryptionOff, IMSVidStreamBufferSinkEvent2, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies], EncryptionOff method, IMSVidStreamBufferSinkEvent2::EncryptionOff, IMSVidStreamBufferSinkEvent2EncryptionOff, mstv.imsvidstreambuffersinkevent2_encryptionoff, segment/IMSVidStreamBufferSinkEvent2::EncryptionOff
+ms.keywords: EncryptionOff, EncryptionOff method [Microsoft TV Technologies], EncryptionOff method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent2 interface, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],EncryptionOff method, IMSVidStreamBufferSinkEvent2.EncryptionOff, IMSVidStreamBufferSinkEvent2::EncryptionOff, IMSVidStreamBufferSinkEvent2EncryptionOff, mstv.imsvidstreambuffersinkevent2_encryptionoff, segment/IMSVidStreamBufferSinkEvent2::EncryptionOff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSinkEvent2::EncryptionOff method
+# IMSVidStreamBufferSinkEvent2::EncryptionOff
 
 
 ## -description

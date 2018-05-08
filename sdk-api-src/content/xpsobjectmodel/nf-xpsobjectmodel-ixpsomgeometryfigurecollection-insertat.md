@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.InsertAt
-title: IXpsOMGeometryFigureCollection::InsertAt method
+title: IXpsOMGeometryFigureCollection::InsertAt
 author: windows-driver-content
 description: Inserts an IXpsOMGeometryFigure interface pointer at a specified location in the collection.
 old-location: xps\ixpsomgeometryfigurecollection_insertat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1d550f36-ef0a-4a01-9c40-83e022634f73
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGeometryFigureCollection, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging], InsertAt method, IXpsOMGeometryFigureCollection::InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging], IXpsOMGeometryFigureCollection interface, InsertAt,IXpsOMGeometryFigureCollection.InsertAt, xps.ixpsomgeometryfigurecollection_insertat, xpsobjectmodel/IXpsOMGeometryFigureCollection::InsertAt
+ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMGeometryFigureCollection.InsertAt, IXpsOMGeometryFigureCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, xps.ixpsomgeometryfigurecollection_insertat, xpsobjectmodel/IXpsOMGeometryFigureCollection::InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigureCollection::InsertAt method
+# IXpsOMGeometryFigureCollection::InsertAt
 
 
 ## -description

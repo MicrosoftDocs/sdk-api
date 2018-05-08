@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ISessionStateChangeTrigger.put_Delay
-title: ISessionStateChangeTrigger::put_Delay method
+title: ISessionStateChangeTrigger::put_Delay
 author: windows-driver-content
 description: Gets or sets a value that indicates how long of a delay takes place before a task is started after a Terminal Server session state change is detected.
 old-location: taskschd\isessionstatechangetrigger_delay.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 0382b3e7-018d-43e3-893e-b754fe38ed3d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler], ISessionStateChangeTrigger interface, ISessionStateChangeTrigger, ISessionStateChangeTrigger interface [Task Scheduler], Delay property, ISessionStateChangeTrigger.Delay, ISessionStateChangeTrigger::get_Delay, ISessionStateChangeTrigger::put_Delay, put_Delay,ISessionStateChangeTrigger.put_Delay, taskschd.isessionstatechangetrigger_delay, taskschd/ISessionStateChangeTrigger::Delay, taskschd/ISessionStateChangeTrigger::get_Delay, taskschd/ISessionStateChangeTrigger::put_Delay
+ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],ISessionStateChangeTrigger interface, ISessionStateChangeTrigger interface [Task Scheduler],Delay property, ISessionStateChangeTrigger.Delay, ISessionStateChangeTrigger.put_Delay, ISessionStateChangeTrigger::Delay, ISessionStateChangeTrigger::get_Delay, ISessionStateChangeTrigger::put_Delay, put_Delay, taskschd.isessionstatechangetrigger_delay, taskschd/ISessionStateChangeTrigger::Delay, taskschd/ISessionStateChangeTrigger::get_Delay, taskschd/ISessionStateChangeTrigger::put_Delay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISessionStateChangeTrigger::put_Delay method
+# ISessionStateChangeTrigger::put_Delay
 
 
 ## -description

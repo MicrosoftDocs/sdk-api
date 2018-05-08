@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.IAudioFormatEnumerator.GetFormat
-title: IAudioFormatEnumerator::GetFormat method
+title: IAudioFormatEnumerator::GetFormat
 author: windows-driver-content
 description: Gets the format with the specified index in the list. The formats are listed in order of importance. The most preferable format is first in the list.
 old-location: coreaudio\iaudioformatenumerator_getformat.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 9949F688-51D1-418B-947D-2607C90CA4E4
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetFormat method [Core Audio], GetFormat method [Core Audio], IAudioFormatEnumerator interface, GetFormat,IAudioFormatEnumerator.GetFormat, IAudioFormatEnumerator, IAudioFormatEnumerator interface [Core Audio], GetFormat method, IAudioFormatEnumerator::GetFormat, coreaudio.iaudioformatenumerator_getformat, spatialaudioclient/IAudioFormatEnumerator::GetFormat
+ms.keywords: GetFormat, GetFormat method [Core Audio], GetFormat method [Core Audio],IAudioFormatEnumerator interface, IAudioFormatEnumerator interface [Core Audio],GetFormat method, IAudioFormatEnumerator.GetFormat, IAudioFormatEnumerator::GetFormat, coreaudio.iaudioformatenumerator_getformat, spatialaudioclient/IAudioFormatEnumerator::GetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IAudioFormatEnumerator::GetFormat method
+# IAudioFormatEnumerator::GetFormat
 
 
 ## -description

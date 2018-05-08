@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: c1d33800-d2f1-4942-92fa-e115f524c23c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: ISequentialStream, ISequentialStream interface [Structured Storage], ISequentialStream interface [Structured Storage], described, _stg_isequentialstream, objidl/ISequentialStream, stg.isequentialstream
+ms.keywords: ISequentialStream, ISequentialStream interface [Structured Storage], ISequentialStream interface [Structured Storage],described, _stg_isequentialstream, objidl/ISequentialStream, stg.isequentialstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

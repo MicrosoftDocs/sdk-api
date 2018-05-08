@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.put_Recorder
-title: IDiscFormat2Erase::put_Recorder method
+title: IDiscFormat2Erase::put_Recorder
 author: windows-driver-content
 description: Sets the recording device to use in the erase operation.
 old-location: imapi\idiscformat2erase_put_recorder.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d38c0d75-eb9c-4b8c-bf0e-7f05eb2f5116
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Erase, IDiscFormat2Erase interface [IMAPI], put_Recorder method, IDiscFormat2Erase::put_Recorder, imapi.idiscformat2erase_put_recorder, imapi2/IDiscFormat2Erase::put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI], IDiscFormat2Erase interface, put_Recorder,IDiscFormat2Erase.put_Recorder
+ms.keywords: IDiscFormat2Erase interface [IMAPI],put_Recorder method, IDiscFormat2Erase.put_Recorder, IDiscFormat2Erase::put_Recorder, imapi.idiscformat2erase_put_recorder, imapi2/IDiscFormat2Erase::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IDiscFormat2Erase interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Erase::put_Recorder method
+# IDiscFormat2Erase::put_Recorder
 
 
 ## -description

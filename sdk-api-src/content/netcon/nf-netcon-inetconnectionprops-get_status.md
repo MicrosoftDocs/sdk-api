@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_Status
-title: INetConnectionProps::get_Status method
+title: INetConnectionProps::get_Status
 author: windows-driver-content
 description: The get_Status method retrieves the status of the connection.
 old-location: ics\inetconnectionprops_get_status.htm
 old-project: ICS
 ms.assetid: a8d9506a-00a4-4202-aa1f-652a71cb5f0a
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetConnectionProps, INetConnectionProps interface [ICS/ICF], get_Status method, INetConnectionProps::get_Status, _ics_inetconnectionprops_get_status, get_Status method [ICS/ICF], get_Status method [ICS/ICF], INetConnectionProps interface, get_Status,INetConnectionProps.get_Status, ics.inetconnectionprops_get_status, netcon/INetConnectionProps::get_Status
+ms.date: 5/1/2018
+ms.keywords: INetConnectionProps interface [ICS/ICF],get_Status method, INetConnectionProps.get_Status, INetConnectionProps::get_Status, _ics_inetconnectionprops_get_status, get_Status, get_Status method [ICS/ICF], get_Status method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_status, netcon/INetConnectionProps::get_Status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetConnectionProps::get_Status method
+# INetConnectionProps::get_Status
 
 
 ## -description

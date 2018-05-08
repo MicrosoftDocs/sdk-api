@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.GetMoniker
-title: IOleObject::GetMoniker method
+title: IOleObject::GetMoniker
 author: windows-driver-content
 description: Retrieves an embedded object's moniker, which the caller can use to link to the object.
 old-location: com\ioleobject_getmoniker.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 6b81ca75-31d8-45d6-8b36-663c5f19341c
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetMoniker method [COM], GetMoniker method [COM], IOleObject interface, GetMoniker,IOleObject.GetMoniker, IOleObject, IOleObject interface [COM], GetMoniker method, IOleObject::GetMoniker, _ole_ioleobject_getmoniker, com.ioleobject_getmoniker, oleidl/IOleObject::GetMoniker
+ms.keywords: GetMoniker, GetMoniker method [COM], GetMoniker method [COM],IOleObject interface, IOleObject interface [COM],GetMoniker method, IOleObject.GetMoniker, IOleObject::GetMoniker, _ole_ioleobject_getmoniker, com.ioleobject_getmoniker, oleidl/IOleObject::GetMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleObject::GetMoniker method
+# IOleObject::GetMoniker
 
 
 ## -description

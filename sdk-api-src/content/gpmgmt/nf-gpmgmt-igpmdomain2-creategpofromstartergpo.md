@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.CreateGPOFromStarterGPO
-title: IGPMDomain2::CreateGPOFromStarterGPO method
+title: IGPMDomain2::CreateGPOFromStarterGPO
 author: windows-driver-content
 description: Creates and retrieves a GPMGPO object from a GPMStarterGPO object.
 old-location: gpmc\igpmdomain2_creategpofromstartergpo.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 3a74f763-a9f5-4e93-94fb-7ef2a116c82b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateGPOFromStarterGPO method [GPMC], CreateGPOFromStarterGPO method [GPMC], IGPMDomain2 interface, CreateGPOFromStarterGPO,IGPMDomain2.CreateGPOFromStarterGPO, IGPMDomain2, IGPMDomain2 interface [GPMC], CreateGPOFromStarterGPO method, IGPMDomain2::CreateGPOFromStarterGPO, gpmc.igpmdomain2_creategpofromstartergpo, gpmgmt/IGPMDomain2::CreateGPOFromStarterGPO
+ms.keywords: CreateGPOFromStarterGPO, CreateGPOFromStarterGPO method [GPMC], CreateGPOFromStarterGPO method [GPMC],IGPMDomain2 interface, IGPMDomain2 interface [GPMC],CreateGPOFromStarterGPO method, IGPMDomain2.CreateGPOFromStarterGPO, IGPMDomain2::CreateGPOFromStarterGPO, gpmc.igpmdomain2_creategpofromstartergpo, gpmgmt/IGPMDomain2::CreateGPOFromStarterGPO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMDomain2::CreateGPOFromStarterGPO method
+# IGPMDomain2::CreateGPOFromStarterGPO
 
 
 ## -description

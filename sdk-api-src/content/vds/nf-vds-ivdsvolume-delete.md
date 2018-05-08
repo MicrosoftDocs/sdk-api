@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.Delete
-title: IVdsVolume::Delete method
+title: IVdsVolume::Delete
 author: windows-driver-content
 description: Deletes the volume and all plexes, releasing the extents.
 old-location: base\ivdsvolume_delete.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 6cc7cb6d-4495-41b7-8fe5-d2e1f574ed70
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Delete method [VDS], Delete method [VDS], IVdsVolume interface, Delete,IVdsVolume.Delete, IVdsVolume, IVdsVolume interface [VDS], Delete method, IVdsVolume::Delete, base.ivdsvolume_delete, vds/IVdsVolume::Delete
+ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Delete method, IVdsVolume.Delete, IVdsVolume::Delete, base.ivdsvolume_delete, vds/IVdsVolume::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolume::Delete method
+# IVdsVolume::Delete
 
 
 ## -description

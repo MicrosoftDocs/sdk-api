@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.DeleteInstance
-title: Provider::DeleteInstance method
+title: Provider::DeleteInstance
 author: windows-driver-content
 description: The DeleteInstance method is called by WMI to delete an instance.
 old-location: wmi\provider_deleteinstance.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 469d2481-95ea-4d17-b0ef-095ced9c8319
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation], Provider interface, DeleteInstance,Provider.DeleteInstance, Provider, Provider interface [Windows Management Instrumentation], DeleteInstance method, Provider::DeleteInstance, _hmm_provider_deleteinstance, provider/Provider::DeleteInstance, wmi.provider_deleteinstance
+ms.keywords: DeleteInstance, DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],DeleteInstance method, Provider.DeleteInstance, Provider::DeleteInstance, _hmm_provider_deleteinstance, provider/Provider::DeleteInstance, wmi.provider_deleteinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# Provider::DeleteInstance method
+# Provider::DeleteInstance
 
 
 ## -description

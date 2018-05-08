@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IROTData.GetComparisonData
-title: IROTData::GetComparisonData method
+title: IROTData::GetComparisonData
 author: windows-driver-content
 description: Retrieves data from a moniker that can be used to test the moniker for equality against another moniker.
 old-location: com\irotdata_getcomparisondata.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: e7f2d3a6-2517-47bc-aa6a-509d72881a0b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetComparisonData method [COM], GetComparisonData method [COM], IROTData interface, GetComparisonData,IROTData.GetComparisonData, IROTData, IROTData interface [COM], GetComparisonData method, IROTData::GetComparisonData, _com_irotdata_getcomparisondata, com.irotdata_getcomparisondata, objidl/IROTData::GetComparisonData
+ms.keywords: GetComparisonData, GetComparisonData method [COM], GetComparisonData method [COM],IROTData interface, IROTData interface [COM],GetComparisonData method, IROTData.GetComparisonData, IROTData::GetComparisonData, _com_irotdata_getcomparisondata, com.irotdata_getcomparisondata, objidl/IROTData::GetComparisonData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IROTData::GetComparisonData method
+# IROTData::GetComparisonData
 
 
 ## -description

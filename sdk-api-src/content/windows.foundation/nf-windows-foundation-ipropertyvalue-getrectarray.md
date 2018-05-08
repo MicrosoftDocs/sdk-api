@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetRectArray
-title: IPropertyValue::GetRectArray method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of Rect values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getrectarray.htm
 old-project: WinRT
 ms.assetid: 7e1f39f6-0ccb-4841-ae5e-36adaf72a4ee
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetRectArray method [Windows Runtime], GetRectArray method [Windows Runtime], IPropertyValue interface, GetRectArray,IPropertyValue.GetRectArray, IPropertyValue, IPropertyValue interface [Windows Runtime], GetRectArray method, IPropertyValue::GetRectArray, windows/IPropertyValue::GetRectArray, winrt.ipropertyvalue_getrectarray
+ms.date: 5/4/2018
+ms.keywords: GetRectArray, GetRectArray method [Windows Runtime], GetRectArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetRectArray method, IPropertyValue.GetRectArray, IPropertyValue.IPropertyValue, IPropertyValue::GetRectArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetRectArray, winrt.ipropertyvalue_getrectarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetRectArray method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

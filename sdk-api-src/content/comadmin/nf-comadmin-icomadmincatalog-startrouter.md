@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.StartRouter
-title: ICOMAdminCatalog::StartRouter method
+title: ICOMAdminCatalog::StartRouter
 author: windows-driver-content
 description: Starts the component load balancing service if the service is currently installed.
 old-location: cos\icomadmincatalog_startrouter.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 2d2c0ee0-2758-4d69-878a-78ce216a9201
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], StartRouter method, ICOMAdminCatalog::StartRouter, StartRouter method [COM+], StartRouter method [COM+], ICOMAdminCatalog interface, StartRouter,ICOMAdminCatalog.StartRouter, _cos_ICOMAdminCatalog_StartRouter, comadmin/ICOMAdminCatalog::StartRouter, cos.icomadmincatalog_startrouter
+ms.keywords: ICOMAdminCatalog interface [COM+],StartRouter method, ICOMAdminCatalog.StartRouter, ICOMAdminCatalog::StartRouter, StartRouter, StartRouter method [COM+], StartRouter method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StartRouter, comadmin/ICOMAdminCatalog::StartRouter, cos.icomadmincatalog_startrouter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::StartRouter method
+# ICOMAdminCatalog::StartRouter
 
 
 ## -description

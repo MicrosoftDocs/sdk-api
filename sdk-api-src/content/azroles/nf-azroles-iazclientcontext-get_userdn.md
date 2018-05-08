@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserDn
-title: IAzClientContext::get_UserDn method
+title: IAzClientContext::get_UserDn
 author: windows-driver-content
 description: Retrieves the name of the current client in distinguished name (DN) format.
 old-location: security\iazclientcontext_userdn.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 1561352c-254e-41a2-bfc9-795a678ce180
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzClientContext object [Security], UserDn property, IAzClientContext, IAzClientContext interface [Security], UserDn property, IAzClientContext.UserDn, IAzClientContext::get_UserDn, UserDn property [Security], UserDn property [Security], AzClientContext object, UserDn property [Security], IAzClientContext interface, azroles/IAzClientContext::UserDn, azroles/IAzClientContext::get_UserDn, get_UserDn,IAzClientContext.get_UserDn, security.iazclientcontext_userdn
+ms.keywords: AzClientContext object [Security],UserDn property, IAzClientContext interface [Security],UserDn property, IAzClientContext.UserDn, IAzClientContext.get_UserDn, IAzClientContext::UserDn, IAzClientContext::get_UserDn, UserDn property [Security], UserDn property [Security],AzClientContext object, UserDn property [Security],IAzClientContext interface, azroles/IAzClientContext::UserDn, azroles/IAzClientContext::get_UserDn, get_UserDn, security.iazclientcontext_userdn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzClientContext::get_UserDn method
+# IAzClientContext::get_UserDn
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.CopyMetadataForFrames
-title: ISpatialAudioMetadataCopier::CopyMetadataForFrames method
+title: ISpatialAudioMetadataCopier::CopyMetadataForFrames
 author: windows-driver-content
 description: Copies metadata items from the source ISpatialAudioMetadataItems, provided to the Open method, object to the destination ISpatialAudioMetadataItems object, specified with the dstMetadataItems parameter.
 old-location: coreaudio\ispatialaudiometadatacopier_copymetadataforframes.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 12ABAD23-7EDF-4F74-AE2E-26C75FA6AB37
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: CopyMetadataForFrames method [Core Audio], CopyMetadataForFrames method [Core Audio], ISpatialAudioMetadataCopier interface, CopyMetadataForFrames,ISpatialAudioMetadataCopier.CopyMetadataForFrames, ISpatialAudioMetadataCopier, ISpatialAudioMetadataCopier interface [Core Audio], CopyMetadataForFrames method, ISpatialAudioMetadataCopier::CopyMetadataForFrames, coreaudio.ispatialaudiometadatacopier_copymetadataforframes, spatialaudiometadata/ISpatialAudioMetadataCopier::CopyMetadataForFrames
+ms.keywords: CopyMetadataForFrames, CopyMetadataForFrames method [Core Audio], CopyMetadataForFrames method [Core Audio],ISpatialAudioMetadataCopier interface, ISpatialAudioMetadataCopier interface [Core Audio],CopyMetadataForFrames method, ISpatialAudioMetadataCopier.CopyMetadataForFrames, ISpatialAudioMetadataCopier::CopyMetadataForFrames, coreaudio.ispatialaudiometadatacopier_copymetadataforframes, spatialaudiometadata/ISpatialAudioMetadataCopier::CopyMetadataForFrames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataCopier::CopyMetadataForFrames method
+# ISpatialAudioMetadataCopier::CopyMetadataForFrames
 
 
 ## -description

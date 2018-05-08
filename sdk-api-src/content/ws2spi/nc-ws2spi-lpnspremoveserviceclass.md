@@ -7,7 +7,7 @@ old-location: winsock\nspremoveserviceclass_2.htm
 old-project: WinSock
 ms.assetid: 97313e6f-ec9e-4dcb-b888-14436259a519
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: LPNSPREMOVESERVICECLASS, NSPRemoveServiceClass, NSPRemoveServiceClass function [Winsock], _win32_nspremoveserviceclass_2, winsock.nspremoveserviceclass_2, ws2spi/NSPRemoveServiceClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# LPNSPREMOVESERVICECLASS callback
+# LPNSPREMOVESERVICECLASS callback function
 
 
 ## -description

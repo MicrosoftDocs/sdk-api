@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.GetSystemProfileCount
-title: IWMProfileManager::GetSystemProfileCount method
+title: IWMProfileManager::GetSystemProfileCount
 author: windows-driver-content
 description: The GetSystemProfileCount method retrieves the number of system profiles.
 old-location: wmformat\iwmprofilemanager_getsystemprofilecount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 895fa99d-66a5-4f5f-82ce-394264a945f7
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetSystemProfileCount method [windows Media Format], GetSystemProfileCount method [windows Media Format], IWMProfileManager interface, GetSystemProfileCount,IWMProfileManager.GetSystemProfileCount, IWMProfileManager, IWMProfileManager interface [windows Media Format], GetSystemProfileCount method, IWMProfileManager::GetSystemProfileCount, IWMProfileManagerGetSystemProfileCount, wmformat.iwmprofilemanager_getsystemprofilecount, wmsdkidl/IWMProfileManager::GetSystemProfileCount
+ms.keywords: GetSystemProfileCount, GetSystemProfileCount method [windows Media Format], GetSystemProfileCount method [windows Media Format],IWMProfileManager interface, IWMProfileManager interface [windows Media Format],GetSystemProfileCount method, IWMProfileManager.GetSystemProfileCount, IWMProfileManager::GetSystemProfileCount, IWMProfileManagerGetSystemProfileCount, wmformat.iwmprofilemanager_getsystemprofilecount, wmsdkidl/IWMProfileManager::GetSystemProfileCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfileManager::GetSystemProfileCount method
+# IWMProfileManager::GetSystemProfileCount
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectDefaultAudioLanguage
-title: IDvdControl2::SelectDefaultAudioLanguage method
+title: IDvdControl2::SelectDefaultAudioLanguage
 author: windows-driver-content
 description: The SelectDefaultAudioLanguage method sets the default audio language.
 old-location: dshow\idvdcontrol2_selectdefaultaudiolanguage.htm
 old-project: DirectShow
 ms.assetid: 1f5cf846-6f14-4c17-bd01-6a8ecb46fdab
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SelectDefaultAudioLanguage method, IDvdControl2::SelectDefaultAudioLanguage, IDvdControl2SelectDefaultAudioLanguage, SelectDefaultAudioLanguage method [DirectShow], SelectDefaultAudioLanguage method [DirectShow], IDvdControl2 interface, SelectDefaultAudioLanguage,IDvdControl2.SelectDefaultAudioLanguage, dshow.idvdcontrol2_selectdefaultaudiolanguage, strmif/IDvdControl2::SelectDefaultAudioLanguage
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],SelectDefaultAudioLanguage method, IDvdControl2.SelectDefaultAudioLanguage, IDvdControl2::SelectDefaultAudioLanguage, IDvdControl2SelectDefaultAudioLanguage, SelectDefaultAudioLanguage, SelectDefaultAudioLanguage method [DirectShow], SelectDefaultAudioLanguage method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectdefaultaudiolanguage, strmif/IDvdControl2::SelectDefaultAudioLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::SelectDefaultAudioLanguage method
+# IDvdControl2::SelectDefaultAudioLanguage
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetRotation
-title: IMFCaptureRecordSink::SetRotation method
+title: IMFCaptureRecordSink::SetRotation
 author: windows-driver-content
 description: Rotates the recorded video stream.
 old-location: mf\imfcapturerecordsink_setrotation.htm
 old-project: medfound
 ms.assetid: 3C451FF9-F5CD-48C6-A7FE-88BD3E82DA83
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureRecordSink, IMFCaptureRecordSink interface [Media Foundation], SetRotation method, IMFCaptureRecordSink::SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation], IMFCaptureRecordSink interface, SetRotation,IMFCaptureRecordSink.SetRotation, mf.imfcapturerecordsink_setrotation, mfcaptureengine/IMFCaptureRecordSink::SetRotation
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetRotation method, IMFCaptureRecordSink.SetRotation, IMFCaptureRecordSink::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setrotation, mfcaptureengine/IMFCaptureRecordSink::SetRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureRecordSink::SetRotation method
+# IMFCaptureRecordSink::SetRotation
 
 
 ## -description

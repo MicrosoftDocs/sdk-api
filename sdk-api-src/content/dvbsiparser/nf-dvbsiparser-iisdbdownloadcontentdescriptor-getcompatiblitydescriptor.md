@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetCompatiblityDescriptor
-title: IIsdbDownloadContentDescriptor::GetCompatiblityDescriptor method
+title: IIsdbDownloadContentDescriptor::GetCompatiblityDescriptor
 author: windows-driver-content
 description: Gets data from the compatibility descriptor in an Integrated Services Digital Broadcasting (ISDB) download content descriptor. The compatibility descriptor specifies a target to be updated by the download.
 old-location: mstv\iisdbdownloadcontentdescriptor_getcompatiblitydescriptor.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 054fe987-49e1-4434-a9b9-6b1030fa2c41
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCompatiblityDescriptor method [Microsoft TV Technologies], GetCompatiblityDescriptor method [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface, GetCompatiblityDescriptor,IIsdbDownloadContentDescriptor.GetCompatiblityDescriptor, IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], GetCompatiblityDescriptor method, IIsdbDownloadContentDescriptor::GetCompatiblityDescriptor, dvbsiparser/IIsdbDownloadContentDescriptor::GetCompatiblityDescriptor, mstv.iisdbdownloadcontentdescriptor_getcompatiblitydescriptor
+ms.keywords: GetCompatiblityDescriptor, GetCompatiblityDescriptor method [Microsoft TV Technologies], GetCompatiblityDescriptor method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetCompatiblityDescriptor method, IIsdbDownloadContentDescriptor.GetCompatiblityDescriptor, IIsdbDownloadContentDescriptor::GetCompatiblityDescriptor, dvbsiparser/IIsdbDownloadContentDescriptor::GetCompatiblityDescriptor, mstv.iisdbdownloadcontentdescriptor_getcompatiblitydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDownloadContentDescriptor::GetCompatiblityDescriptor method
+# IIsdbDownloadContentDescriptor::GetCompatiblityDescriptor
 
 
 ## -description

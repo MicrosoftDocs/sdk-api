@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.PatchVirtualMachines
-title: ITsSbProvisioning::PatchVirtualMachines method
+title: ITsSbProvisioning::PatchVirtualMachines
 author: windows-driver-content
 description: Patches a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_patchvirtualmachines.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 99afcba2-5567-47fa-9752-80394f145176
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbProvisioning, ITsSbProvisioning interface [Remote Desktop Services], PatchVirtualMachines method, ITsSbProvisioning::PatchVirtualMachines, PatchVirtualMachines method [Remote Desktop Services], PatchVirtualMachines method [Remote Desktop Services], ITsSbProvisioning interface, PatchVirtualMachines,ITsSbProvisioning.PatchVirtualMachines, sbtsv/ITsSbProvisioning::PatchVirtualMachines, termserv.itssbprovisioning_patchvirtualmachines
+ms.keywords: ITsSbProvisioning interface [Remote Desktop Services],PatchVirtualMachines method, ITsSbProvisioning.PatchVirtualMachines, ITsSbProvisioning::PatchVirtualMachines, PatchVirtualMachines, PatchVirtualMachines method [Remote Desktop Services], PatchVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, sbtsv/ITsSbProvisioning::PatchVirtualMachines, termserv.itssbprovisioning_patchvirtualmachines
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbProvisioning::PatchVirtualMachines method
+# ITsSbProvisioning::PatchVirtualMachines
 
 
 ## -description

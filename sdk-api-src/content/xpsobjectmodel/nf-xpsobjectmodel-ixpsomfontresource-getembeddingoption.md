@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResource.GetEmbeddingOption
-title: IXpsOMFontResource::GetEmbeddingOption method
+title: IXpsOMFontResource::GetEmbeddingOption
 author: windows-driver-content
 description: Gets the embedding option that will be applied when the resource is serialized.
 old-location: xps\ixpsomfontresource_getembeddingoption.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 8c4b3741-2c9c-4964-ae51-53dd738e8d9b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetEmbeddingOption method [XPS Documents and Packaging], GetEmbeddingOption method [XPS Documents and Packaging], IXpsOMFontResource interface, GetEmbeddingOption,IXpsOMFontResource.GetEmbeddingOption, IXpsOMFontResource, IXpsOMFontResource interface [XPS Documents and Packaging], GetEmbeddingOption method, IXpsOMFontResource::GetEmbeddingOption, XPS_FONT_EMBEDDING_NORMAL, XPS_FONT_EMBEDDING_OBFUSCATED, XPS_FONT_EMBEDDING_RESTRICTED, xps.ixpsomfontresource_getembeddingoption, xpsobjectmodel/IXpsOMFontResource::GetEmbeddingOption
+ms.keywords: GetEmbeddingOption, GetEmbeddingOption method [XPS Documents and Packaging], GetEmbeddingOption method [XPS Documents and Packaging],IXpsOMFontResource interface, IXpsOMFontResource interface [XPS Documents and Packaging],GetEmbeddingOption method, IXpsOMFontResource.GetEmbeddingOption, IXpsOMFontResource::GetEmbeddingOption, XPS_FONT_EMBEDDING_NORMAL, XPS_FONT_EMBEDDING_OBFUSCATED, XPS_FONT_EMBEDDING_RESTRICTED, xps.ixpsomfontresource_getembeddingoption, xpsobjectmodel/IXpsOMFontResource::GetEmbeddingOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMFontResource::GetEmbeddingOption method
+# IXpsOMFontResource::GetEmbeddingOption
 
 
 ## -description

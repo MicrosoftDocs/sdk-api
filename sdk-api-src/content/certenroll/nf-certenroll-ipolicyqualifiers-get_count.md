@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.get_Count
-title: IPolicyQualifiers::get_Count method
+title: IPolicyQualifiers::get_Count
 author: windows-driver-content
 description: Retrieves the number of objects in the collection.
 old-location: security\ipolicyqualifiers_count_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: d13f7a1c-5b2b-4a0d-a84e-d5c58f107575
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Count property [Security], Count property [Security], IPolicyQualifiers interface, IPolicyQualifiers, IPolicyQualifiers interface [Security], Count property, IPolicyQualifiers.Count, IPolicyQualifiers::get_Count, certenroll/IPolicyQualifiers::Count, certenroll/IPolicyQualifiers::get_Count, get_Count,IPolicyQualifiers.get_Count, security.ipolicyqualifiers_count_property
+ms.keywords: Count property [Security], Count property [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Count property, IPolicyQualifiers.Count, IPolicyQualifiers.get_Count, IPolicyQualifiers::Count, IPolicyQualifiers::get_Count, certenroll/IPolicyQualifiers::Count, certenroll/IPolicyQualifiers::get_Count, get_Count, security.ipolicyqualifiers_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IPolicyQualifiers::get_Count method
+# IPolicyQualifiers::get_Count
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: b666002f-2cd6-4e96-b055-34d801c1982e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDUdpAddress, IWSDUdpAddress interface, IWSDUdpAddress interface, described, ncd.iwsdudpaddress, wsdbase/IWSDUdpAddress
+ms.keywords: IWSDUdpAddress, IWSDUdpAddress interface, IWSDUdpAddress interface,described, ncd.iwsdudpaddress, wsdbase/IWSDUdpAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

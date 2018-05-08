@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.FindID
-title: ITuningSpaceContainer::FindID method
+title: ITuningSpaceContainer::FindID
 author: windows-driver-content
 description: The FindID method retrieves the ID of a specified tuning space within the collection.
 old-location: mstv\ituningspacecontainer_findid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 99ac47b4-4adc-4e12-b465-4db8ae20ff6d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: FindID method [Microsoft TV Technologies], FindID method [Microsoft TV Technologies], ITuningSpaceContainer interface, FindID,ITuningSpaceContainer.FindID, ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], FindID method, ITuningSpaceContainer::FindID, ITuningSpaceContainerFindID, mstv.ituningspacecontainer_findid, tuner/ITuningSpaceContainer::FindID
+ms.keywords: FindID, FindID method [Microsoft TV Technologies], FindID method [Microsoft TV Technologies],ITuningSpaceContainer interface, ITuningSpaceContainer interface [Microsoft TV Technologies],FindID method, ITuningSpaceContainer.FindID, ITuningSpaceContainer::FindID, ITuningSpaceContainerFindID, mstv.ituningspacecontainer_findid, tuner/ITuningSpaceContainer::FindID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpaceContainer::FindID method
+# ITuningSpaceContainer::FindID
 
 
 ## -description

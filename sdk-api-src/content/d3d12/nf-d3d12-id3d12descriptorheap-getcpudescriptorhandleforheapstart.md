@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12DescriptorHeap.GetCPUDescriptorHandleForHeapStart
-title: ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart method
+title: ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart
 author: windows-driver-content
 description: Gets the CPU descriptor handle that represents the start of the heap.
 old-location: direct3d12\id3d12descriptorheap_getcpudescriptorhandleforheapstart.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 80C41537-1579-4166-A7F9-FB2478ECDE77
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetCPUDescriptorHandleForHeapStart method, GetCPUDescriptorHandleForHeapStart method, ID3D12DescriptorHeap interface, GetCPUDescriptorHandleForHeapStart,ID3D12DescriptorHeap.GetCPUDescriptorHandleForHeapStart, ID3D12DescriptorHeap, ID3D12DescriptorHeap interface, GetCPUDescriptorHandleForHeapStart method, ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart, d3d12/ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart, direct3d12.id3d12descriptorheap_getcpudescriptorhandleforheapstart
+ms.keywords: GetCPUDescriptorHandleForHeapStart, GetCPUDescriptorHandleForHeapStart method, GetCPUDescriptorHandleForHeapStart method,ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,GetCPUDescriptorHandleForHeapStart method, ID3D12DescriptorHeap.GetCPUDescriptorHandleForHeapStart, ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart, d3d12/ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart, direct3d12.id3d12descriptorheap_getcpudescriptorhandleforheapstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart method
+# ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart
 
 
 ## -description

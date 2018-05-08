@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeExtensions.InitializeEncode
-title: IX509AttributeExtensions::InitializeEncode method
+title: IX509AttributeExtensions::InitializeEncode
 author: windows-driver-content
 description: Initializes the object from an IX509Extensions collection.
 old-location: security\ix509attributeextensions_initializeencode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: f5b6f0b9-ca49-42f2-842c-34c2445c3824
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509AttributeExtensions, IX509AttributeExtensions interface [Security], InitializeEncode method, IX509AttributeExtensions::InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security], IX509AttributeExtensions interface, InitializeEncode,IX509AttributeExtensions.InitializeEncode, certenroll/IX509AttributeExtensions::InitializeEncode, security.ix509attributeextensions_initializeencode_method
+ms.keywords: IX509AttributeExtensions interface [Security],InitializeEncode method, IX509AttributeExtensions.InitializeEncode, IX509AttributeExtensions::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeExtensions interface, certenroll/IX509AttributeExtensions::InitializeEncode, security.ix509attributeextensions_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509AttributeExtensions::InitializeEncode method
+# IX509AttributeExtensions::InitializeEncode
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestOptionalPackageInfo.GetMainPackageName
-title: IAppxManifestOptionalPackageInfo::GetMainPackageName method
+title: IAppxManifestOptionalPackageInfo::GetMainPackageName
 author: windows-driver-content
 description: Gets the main package name from the optional package.
 old-location: appxpkg\iappxmanifestoptionalpackageinfo_getmainpackagename.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 95CD6739-06B2-4862-8313-4133AFBFD583
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetMainPackageName method [App packaging and management], GetMainPackageName method [App packaging and management], IAppxManifestOptionalPackageInfo interface, GetMainPackageName,IAppxManifestOptionalPackageInfo.GetMainPackageName, IAppxManifestOptionalPackageInfo, IAppxManifestOptionalPackageInfo interface [App packaging and management], GetMainPackageName method, IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpackaging/IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpkg.iappxmanifestoptionalpackageinfo_getmainpackagename
+ms.keywords: GetMainPackageName, GetMainPackageName method [App packaging and management], GetMainPackageName method [App packaging and management],IAppxManifestOptionalPackageInfo interface, IAppxManifestOptionalPackageInfo interface [App packaging and management],GetMainPackageName method, IAppxManifestOptionalPackageInfo.GetMainPackageName, IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpackaging/IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpkg.iappxmanifestoptionalpackageinfo_getmainpackagename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestOptionalPackageInfo::GetMainPackageName method
+# IAppxManifestOptionalPackageInfo::GetMainPackageName
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetVarCustData
-title: ICreateTypeInfo2::SetVarCustData method
+title: ICreateTypeInfo2::SetVarCustData
 author: windows-driver-content
 description: Sets a value for custom data for the specified variable.
 old-location: automat\icreatetypeinfo2_setvarcustdata.htm
 old-project: automat
 ms.assetid: 7055ad6b-89d8-47d9-bdfa-26b323e53133
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], SetVarCustData method, ICreateTypeInfo2::SetVarCustData, SetVarCustData method [Automation], SetVarCustData method [Automation], ICreateTypeInfo2 interface, SetVarCustData,ICreateTypeInfo2.SetVarCustData, _oa96_ICreateTypeInfo2_SetVarCustData, automat.icreatetypeinfo2_setvarcustdata, oaidl/ICreateTypeInfo2::SetVarCustData
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo2 interface [Automation],SetVarCustData method, ICreateTypeInfo2.SetVarCustData, ICreateTypeInfo2::SetVarCustData, SetVarCustData, SetVarCustData method [Automation], SetVarCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetVarCustData, automat.icreatetypeinfo2_setvarcustdata, oaidl/ICreateTypeInfo2::SetVarCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo2::SetVarCustData method
+# ICreateTypeInfo2::SetVarCustData
 
 
 ## -description

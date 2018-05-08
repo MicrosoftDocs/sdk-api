@@ -1,6 +1,6 @@
 ---
 UID: NF:filter.IFilter.BindRegion
-title: IFilter::BindRegion method
+title: IFilter::BindRegion
 author: windows-driver-content
 description: Retrieves an interface representing the specified portion of object. Currently reserved for future use.
 old-location: indexsrv\ifilter_bindregion.htm
@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_8bam.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: BindRegion method [Indexing Service], BindRegion method [Indexing Service], IFilter interface, BindRegion,IFilter.BindRegion, IFilter, IFilter interface [Indexing Service], BindRegion method, IFilter::BindRegion, _idxs_IFilter_BindRegion, filter/IFilter::BindRegion, indexsrv.ifilter_bindregion
+ms.keywords: BindRegion, BindRegion method [Indexing Service], BindRegion method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],BindRegion method, IFilter.BindRegion, IFilter::BindRegion, _idxs_IFilter_BindRegion, filter/IFilter::BindRegion, indexsrv.ifilter_bindregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFilter::BindRegion method
+# IFilter::BindRegion
 
 
 ## -description

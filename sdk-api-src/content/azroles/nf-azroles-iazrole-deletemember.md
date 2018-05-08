@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.DeleteMember
-title: IAzRole::DeleteMember method
+title: IAzRole::DeleteMember
 author: windows-driver-content
 description: Removes the specified security identifier (SID) in text form from the list of Windows accounts that belong to the role.
 old-location: security\iazrole_deletemember.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 676f0469-f57f-4f3f-8295-b9c99eb13de8
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzRole object [Security], DeleteMember method, DeleteMember method [Security], DeleteMember method [Security], AzRole object, DeleteMember method [Security], IAzRole interface, DeleteMember,IAzRole.DeleteMember, IAzRole, IAzRole interface [Security], DeleteMember method, IAzRole::DeleteMember, azroles/IAzRole::DeleteMember, security.iazrole_deletemember
+ms.keywords: AzRole object [Security],DeleteMember method, DeleteMember, DeleteMember method [Security], DeleteMember method [Security],AzRole object, DeleteMember method [Security],IAzRole interface, IAzRole interface [Security],DeleteMember method, IAzRole.DeleteMember, IAzRole::DeleteMember, azroles/IAzRole::DeleteMember, security.iazrole_deletemember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzRole::DeleteMember method
+# IAzRole::DeleteMember
 
 
 ## -description

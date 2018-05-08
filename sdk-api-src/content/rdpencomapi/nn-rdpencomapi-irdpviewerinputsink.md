@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 364EC709-C41C-4ADD-8E7D-6A635E5BCCDA
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPViewerInputSink, IRDPViewerInputSink class [RDP], IRDPViewerInputSink class [RDP], described, rdp.irdpviewerinputsink, rdpencomapi/IRDPViewerInputSink
+ms.keywords: IRDPViewerInputSink, IRDPViewerInputSink class [RDP], IRDPViewerInputSink class [RDP],described, rdp.irdpviewerinputsink, rdpencomapi/IRDPViewerInputSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

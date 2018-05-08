@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCache.InitCache
-title: IOleCache::InitCache method
+title: IOleCache::InitCache
 author: windows-driver-content
 description: Fills the cache as needed using the data provided by the specified data object.
 old-location: com\iolecache_initcache.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 4b1f2fb6-636c-47dd-8f89-884f7b4f3977
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleCache, IOleCache interface [COM], InitCache method, IOleCache::InitCache, InitCache method [COM], InitCache method [COM], IOleCache interface, InitCache,IOleCache.InitCache, _ole_iolecache_initcache, com.iolecache_initcache, oleidl/IOleCache::InitCache
+ms.keywords: IOleCache interface [COM],InitCache method, IOleCache.InitCache, IOleCache::InitCache, InitCache, InitCache method [COM], InitCache method [COM],IOleCache interface, _ole_iolecache_initcache, com.iolecache_initcache, oleidl/IOleCache::InitCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleCache::InitCache method
+# IOleCache::InitCache
 
 
 ## -description

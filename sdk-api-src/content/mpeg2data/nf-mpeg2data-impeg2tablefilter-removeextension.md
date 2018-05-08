@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.RemoveExtension
-title: IMpeg2TableFilter::RemoveExtension method
+title: IMpeg2TableFilter::RemoveExtension
 author: windows-driver-content
 description: The RemoveExtension method removes a table extension from the list of MPEG-2 table sections that the filter sends.
 old-location: mstv\impeg2tablefilter_removeextension.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1f29f29d-d411-44b7-bedb-6d10c49a0d4d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMpeg2TableFilter, IMpeg2TableFilter interface [Microsoft TV Technologies], RemoveExtension method, IMpeg2TableFilter::RemoveExtension, IMpeg2TableFilterRemoveExtension, RemoveExtension method [Microsoft TV Technologies], RemoveExtension method [Microsoft TV Technologies], IMpeg2TableFilter interface, RemoveExtension,IMpeg2TableFilter.RemoveExtension, mpeg2data/IMpeg2TableFilter::RemoveExtension, mstv.impeg2tablefilter_removeextension
+ms.keywords: IMpeg2TableFilter interface [Microsoft TV Technologies],RemoveExtension method, IMpeg2TableFilter.RemoveExtension, IMpeg2TableFilter::RemoveExtension, IMpeg2TableFilterRemoveExtension, RemoveExtension, RemoveExtension method [Microsoft TV Technologies], RemoveExtension method [Microsoft TV Technologies],IMpeg2TableFilter interface, mpeg2data/IMpeg2TableFilter::RemoveExtension, mstv.impeg2tablefilter_removeextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMpeg2TableFilter::RemoveExtension method
+# IMpeg2TableFilter::RemoveExtension
 
 
 ## -description

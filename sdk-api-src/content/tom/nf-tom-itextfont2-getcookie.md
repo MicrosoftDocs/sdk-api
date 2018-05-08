@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.GetCookie
-title: ITextFont2::GetCookie method
+title: ITextFont2::GetCookie
 author: windows-driver-content
 description: Gets the client cookie.
 old-location: controls\itextfont2_getcookie.htm
 old-project: Controls
 ms.assetid: f3e36338-8c88-4aaf-bbd0-c07a2228cb23
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetCookie method [Windows Controls], GetCookie method [Windows Controls], ITextFont2 interface, GetCookie,ITextFont2.GetCookie, ITextFont2, ITextFont2 interface [Windows Controls], GetCookie method, ITextFont2::GetCookie, controls.itextfont2_getcookie, tom/ITextFont2::GetCookie
+ms.date: 4/27/2018
+ms.keywords: GetCookie, GetCookie method [Windows Controls], GetCookie method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetCookie method, ITextFont2.GetCookie, ITextFont2::GetCookie, controls.itextfont2_getcookie, tom/ITextFont2::GetCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::GetCookie method
+# ITextFont2::GetCookie
 
 
 ## -description

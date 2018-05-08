@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.RegisterForWhenCurrent
-title: ITSDT::RegisterForWhenCurrent method
+title: ITSDT::RegisterForWhenCurrent
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_registerforwhencurrent.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f2ce7908-3650-4ecf-8014-6bae377dcb5c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITSDT, ITSDT interface [Microsoft TV Technologies], RegisterForWhenCurrent method, ITSDT::RegisterForWhenCurrent, ITSDTRegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies], ITSDT interface, RegisterForWhenCurrent,ITSDT.RegisterForWhenCurrent, mpeg2psiparser/ITSDT::RegisterForWhenCurrent, mstv.itsdt_registerforwhencurrent
+ms.keywords: ITSDT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, ITSDT.RegisterForWhenCurrent, ITSDT::RegisterForWhenCurrent, ITSDTRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],ITSDT interface, mpeg2psiparser/ITSDT::RegisterForWhenCurrent, mstv.itsdt_registerforwhencurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITSDT::RegisterForWhenCurrent method
+# ITSDT::RegisterForWhenCurrent
 
 
 ## -description

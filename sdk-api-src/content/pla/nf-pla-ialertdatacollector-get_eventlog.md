@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_EventLog
-title: IAlertDataCollector::get_EventLog method
+title: IAlertDataCollector::get_EventLog
 author: windows-driver-content
 description: Retrieves or sets a value that indicates if PLA should log an event each time the counter value crosses the threshold.
 old-location: pla\ialertdatacollector_eventlog.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 3ba20fac-5817-47ed-a934-e43f49f0a121
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EventLog property [PLA], EventLog property [PLA], IAlertDataCollector interface, IAlertDataCollector, IAlertDataCollector interface [PLA], EventLog property, IAlertDataCollector.EventLog, IAlertDataCollector::get_EventLog, IAlertDataCollector::put_EventLog, base.ialertdatacollector_eventlog, get_EventLog,IAlertDataCollector.get_EventLog, pla.ialertdatacollector_eventlog, pla/IAlertDataCollector::EventLog, pla/IAlertDataCollector::get_EventLog, pla/IAlertDataCollector::put_EventLog
+ms.keywords: EventLog property [PLA], EventLog property [PLA],IAlertDataCollector interface, IAlertDataCollector interface [PLA],EventLog property, IAlertDataCollector.EventLog, IAlertDataCollector.get_EventLog, IAlertDataCollector::EventLog, IAlertDataCollector::get_EventLog, IAlertDataCollector::put_EventLog, base.ialertdatacollector_eventlog, get_EventLog, pla.ialertdatacollector_eventlog, pla/IAlertDataCollector::EventLog, pla/IAlertDataCollector::get_EventLog, pla/IAlertDataCollector::put_EventLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAlertDataCollector::get_EventLog method
+# IAlertDataCollector::get_EventLog
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.MatchProbeEx
-title: IWSDiscoveryPublisher::MatchProbeEx method
+title: IWSDiscoveryPublisher::MatchProbeEx
 author: windows-driver-content
 description: Determines whether a Probe message matches the specified host and sends a WS-Discovery ProbeMatches message with extended information if the match is made.
 old-location: ncd\iwsdiscoverypublisher_matchprobeex_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: d2441bdc-848b-48c4-bc4e-5b8f854cc4a5
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, MatchProbeEx method, IWSDiscoveryPublisher::MatchProbeEx, MatchProbeEx method, MatchProbeEx method, IWSDiscoveryPublisher interface, MatchProbeEx,IWSDiscoveryPublisher.MatchProbeEx, ncd.iwsdiscoverypublisher_matchprobeex_method, wsddisco/IWSDiscoveryPublisher::MatchProbeEx
+ms.keywords: IWSDiscoveryPublisher interface,MatchProbeEx method, IWSDiscoveryPublisher.MatchProbeEx, IWSDiscoveryPublisher::MatchProbeEx, MatchProbeEx, MatchProbeEx method, MatchProbeEx method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_matchprobeex_method, wsddisco/IWSDiscoveryPublisher::MatchProbeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryPublisher::MatchProbeEx method
+# IWSDiscoveryPublisher::MatchProbeEx
 
 
 ## -description

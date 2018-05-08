@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetBreakOnSeverity
-title: ID3D12InfoQueue::GetBreakOnSeverity method
+title: ID3D12InfoQueue::GetBreakOnSeverity
 author: windows-driver-content
 description: Get a message severity level to break on when a message with that severity level passes through the storage filter.
 old-location: direct3d12\id3d12infoqueue_getbreakonseverity.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 255CB074-9C05-4402-9EDE-43AD8C6707E6
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetBreakOnSeverity method, GetBreakOnSeverity method, ID3D12InfoQueue interface, GetBreakOnSeverity,ID3D12InfoQueue.GetBreakOnSeverity, ID3D12InfoQueue, ID3D12InfoQueue interface, GetBreakOnSeverity method, ID3D12InfoQueue::GetBreakOnSeverity, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnSeverity, direct3d12.id3d12infoqueue_getbreakonseverity
+ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method, GetBreakOnSeverity method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnSeverity method, ID3D12InfoQueue.GetBreakOnSeverity, ID3D12InfoQueue::GetBreakOnSeverity, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnSeverity, direct3d12.id3d12infoqueue_getbreakonseverity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::GetBreakOnSeverity method
+# ID3D12InfoQueue::GetBreakOnSeverity
 
 
 ## -description

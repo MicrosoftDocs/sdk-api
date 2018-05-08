@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetListLevelIndex
-title: ITextPara::GetListLevelIndex method
+title: ITextPara::GetListLevelIndex
 author: windows-driver-content
 description: Retrieves the list level index used with paragraphs.
 old-location: controls\ITextPara_GetListLevelIndex.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlistlevelindex.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetListLevelIndex method [Windows Controls], GetListLevelIndex method [Windows Controls], ITextPara interface, GetListLevelIndex,ITextPara.GetListLevelIndex, ITextPara, ITextPara interface [Windows Controls], GetListLevelIndex method, ITextPara::GetListLevelIndex, _win32_ITextPara_GetListLevelIndex, _win32_ITextPara_GetListLevelIndex_cpp, controls.ITextPara_GetListLevelIndex, controls._win32_ITextPara_GetListLevelIndex, tom/ITextPara::GetListLevelIndex
+ms.date: 4/27/2018
+ms.keywords: GetListLevelIndex, GetListLevelIndex method [Windows Controls], GetListLevelIndex method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListLevelIndex method, ITextPara.GetListLevelIndex, ITextPara::GetListLevelIndex, _win32_ITextPara_GetListLevelIndex, _win32_ITextPara_GetListLevelIndex_cpp, controls.ITextPara_GetListLevelIndex, controls._win32_ITextPara_GetListLevelIndex, tom/ITextPara::GetListLevelIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetListLevelIndex method
+# ITextPara::GetListLevelIndex
 
 
 ## -description

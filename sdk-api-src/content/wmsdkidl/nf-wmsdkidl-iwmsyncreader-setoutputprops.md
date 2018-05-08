@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetOutputProps
-title: IWMSyncReader::SetOutputProps method
+title: IWMSyncReader::SetOutputProps
 author: windows-driver-content
 description: The SetOutputProps method specifies the media properties of an uncompressed output stream.
 old-location: wmformat\iwmsyncreader_setoutputprops.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 5575fd7c-5eb0-4e4a-957d-e3fc174316ff
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], SetOutputProps method, IWMSyncReader::SetOutputProps, IWMSyncReaderSetOutputProps, SetOutputProps method [windows Media Format], SetOutputProps method [windows Media Format], IWMSyncReader interface, SetOutputProps,IWMSyncReader.SetOutputProps, wmformat.iwmsyncreader_setoutputprops, wmsdkidl/IWMSyncReader::SetOutputProps
+ms.keywords: IWMSyncReader interface [windows Media Format],SetOutputProps method, IWMSyncReader.SetOutputProps, IWMSyncReader::SetOutputProps, IWMSyncReaderSetOutputProps, SetOutputProps, SetOutputProps method [windows Media Format], SetOutputProps method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setoutputprops, wmsdkidl/IWMSyncReader::SetOutputProps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader::SetOutputProps method
+# IWMSyncReader::SetOutputProps
 
 
 ## -description

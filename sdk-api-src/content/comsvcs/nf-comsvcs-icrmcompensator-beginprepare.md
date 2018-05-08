@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.BeginPrepare
-title: ICrmCompensator::BeginPrepare method
+title: ICrmCompensator::BeginPrepare
 author: windows-driver-content
 description: Notifies the CRM Compensator of the prepare phase of the transaction completion and that records are about to be delivered.
 old-location: cos\icrmcompensator_beginprepare.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 316a9b00-5843-40b3-9c72-a71da21a81d0
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: BeginPrepare method [COM+], BeginPrepare method [COM+], ICrmCompensator interface, BeginPrepare,ICrmCompensator.BeginPrepare, ICrmCompensator, ICrmCompensator interface [COM+], BeginPrepare method, ICrmCompensator::BeginPrepare, _dtc_ICrmCompensator_BeginPrepare, comsvcs/ICrmCompensator::BeginPrepare, cos.icrmcompensator_beginprepare
+ms.keywords: BeginPrepare, BeginPrepare method [COM+], BeginPrepare method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],BeginPrepare method, ICrmCompensator.BeginPrepare, ICrmCompensator::BeginPrepare, _dtc_ICrmCompensator_BeginPrepare, comsvcs/ICrmCompensator::BeginPrepare, cos.icrmcompensator_beginprepare
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmCompensator::BeginPrepare method
+# ICrmCompensator::BeginPrepare
 
 
 ## -description

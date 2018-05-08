@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: D3dCreateSurfaceEx, D3dCreateSurfaceEx callback function [Display Devices], PDD_CREATESURFACEEX, d3dfncs_84d5da96-838e-4ba9-84a2-412e58f36bd0.xml, ddrawint/D3dCreateSurfaceEx, display.d3dcreatesurfaceex
+ms.keywords: D3dCreateSurfaceEx, D3dCreateSurfaceEx callback function [Display Devices], PDD_CREATESURFACEEX, PDD_CREATESURFACEEX callback, d3dfncs_84d5da96-838e-4ba9-84a2-412e58f36bd0.xml, ddrawint/D3dCreateSurfaceEx, display.d3dcreatesurfaceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PDD_CREATESURFACEEX callback
+# PDD_CREATESURFACEEX callback function
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: SensorsAPI
 ms.assetid: b111a717-00c0-47cb-be6a-3050d54cd2ec
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISensorManagerEvents, ISensorManagerEvents interface [WinSensors], ISensorManagerEvents interface [WinSensors], described, sensorsapi/ISensorManagerEvents, winsensors.isensormanagerevents
+ms.keywords: ISensorManagerEvents, ISensorManagerEvents interface [WinSensors], ISensorManagerEvents interface [WinSensors],described, sensorsapi/ISensorManagerEvents, winsensors.isensormanagerevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

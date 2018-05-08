@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetClipGeometry
-title: IXpsOMVisual::GetClipGeometry method
+title: IXpsOMVisual::GetClipGeometry
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMGeometry interface that contains the resolved geometry of the visual's clipping region.
 old-location: xps\ixpsomvisual_getclipgeometry.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f56fa077-749c-422b-b82d-161f9e5d4766
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetClipGeometry method [XPS Documents and Packaging], GetClipGeometry method [XPS Documents and Packaging], IXpsOMVisual interface, GetClipGeometry,IXpsOMVisual.GetClipGeometry, IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], GetClipGeometry method, IXpsOMVisual::GetClipGeometry, xps.ixpsomvisual_getclipgeometry, xpsobjectmodel/IXpsOMVisual::GetClipGeometry
+ms.keywords: GetClipGeometry, GetClipGeometry method [XPS Documents and Packaging], GetClipGeometry method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetClipGeometry method, IXpsOMVisual.GetClipGeometry, IXpsOMVisual::GetClipGeometry, xps.ixpsomvisual_getclipgeometry, xpsobjectmodel/IXpsOMVisual::GetClipGeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::GetClipGeometry method
+# IXpsOMVisual::GetClipGeometry
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingPrivateConnectionCollection.get__NewEnum
-title: INetSharingPrivateConnectionCollection::get__NewEnum method
+title: INetSharingPrivateConnectionCollection::get__NewEnum
 author: windows-driver-content
 description: The get__NewEnum method retrieves an enumerator for the private connections collection.
 old-location: ics\inetsharingprivateconnectioncollection_get__newenum.htm
 old-project: ICS
 ms.assetid: 526da220-5999-4b84-b617-26edf23c15ab
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingPrivateConnectionCollection, INetSharingPrivateConnectionCollection interface [ICS/ICF], get__NewEnum method, INetSharingPrivateConnectionCollection::get__NewEnum, _ics_inetsharingprivateconnectioncollection_get__newenum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF], INetSharingPrivateConnectionCollection interface, get__NewEnum,INetSharingPrivateConnectionCollection.get__NewEnum, ics.inetsharingprivateconnectioncollection_get__newenum, netcon/INetSharingPrivateConnectionCollection::get__NewEnum
+ms.date: 5/1/2018
+ms.keywords: INetSharingPrivateConnectionCollection interface [ICS/ICF],get__NewEnum method, INetSharingPrivateConnectionCollection.get__NewEnum, INetSharingPrivateConnectionCollection::get__NewEnum, _ics_inetsharingprivateconnectioncollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingPrivateConnectionCollection interface, ics.inetsharingprivateconnectioncollection_get__newenum, netcon/INetSharingPrivateConnectionCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingPrivateConnectionCollection::get__NewEnum method
+# INetSharingPrivateConnectionCollection::get__NewEnum
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.Create
-title: IPhotoAcquireOptionsDialog::Create method
+title: IPhotoAcquireOptionsDialog::Create
 author: windows-driver-content
 description: The Create method creates and displays a modeless instance of the photo options dialog box, hosted within a parent window.
 old-location: picacq\iphotoacquireoptionsdialog_create.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 22eb58d2-f1cf-4115-a5d4-dceb1d3ba4ad
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Create method [Picture Acquisition], Create method [Picture Acquisition], IPhotoAcquireOptionsDialog interface, Create,IPhotoAcquireOptionsDialog.Create, IPhotoAcquireOptionsDialog, IPhotoAcquireOptionsDialog interface [Picture Acquisition], Create method, IPhotoAcquireOptionsDialog::Create, IPhotoAcquireOptionsDialogCreate, photoacquire/IPhotoAcquireOptionsDialog::Create, picacq.iphotoacquireoptionsdialog_create
+ms.keywords: Create, Create method [Picture Acquisition], Create method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, IPhotoAcquireOptionsDialog interface [Picture Acquisition],Create method, IPhotoAcquireOptionsDialog.Create, IPhotoAcquireOptionsDialog::Create, IPhotoAcquireOptionsDialogCreate, photoacquire/IPhotoAcquireOptionsDialog::Create, picacq.iphotoacquireoptionsdialog_create
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireOptionsDialog::Create method
+# IPhotoAcquireOptionsDialog::Create
 
 
 ## -description

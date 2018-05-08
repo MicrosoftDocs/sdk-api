@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVarDocString
-title: ICreateTypeInfo::SetVarDocString method
+title: ICreateTypeInfo::SetVarDocString
 author: windows-driver-content
 description: Sets the documentation string for the variable with the specified index.
 old-location: automat\icreatetypeinfo_setvardocstring.htm
 old-project: automat
 ms.assetid: 6bea2b52-30d8-454c-ad96-f94417640ce5
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetVarDocString method, ICreateTypeInfo::SetVarDocString, SetVarDocString method [Automation], SetVarDocString method [Automation], ICreateTypeInfo interface, SetVarDocString,ICreateTypeInfo.SetVarDocString, _oa96_ICreateTypeInfo_SetVarDocString, automat.icreatetypeinfo_setvardocstring, oaidl/ICreateTypeInfo::SetVarDocString
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo interface [Automation],SetVarDocString method, ICreateTypeInfo.SetVarDocString, ICreateTypeInfo::SetVarDocString, SetVarDocString, SetVarDocString method [Automation], SetVarDocString method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVarDocString, automat.icreatetypeinfo_setvardocstring, oaidl/ICreateTypeInfo::SetVarDocString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo::SetVarDocString method
+# ICreateTypeInfo::SetVarDocString
 
 
 ## -description

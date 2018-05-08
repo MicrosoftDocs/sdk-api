@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.InterpolateVelocity
-title: IUIAnimationInterpolator::InterpolateVelocity method
+title: IUIAnimationInterpolator::InterpolateVelocity
 author: windows-driver-content
 description: Interpolates the velocity, or rate of change, at the specified offset.
 old-location: uianimation\iuianimationinterpolator_interpolatevelocity.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: ae0b6674-307b-454e-b8be-db564c234607
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationInterpolator, IUIAnimationInterpolator interface [Windows Animation], InterpolateVelocity method, IUIAnimationInterpolator::InterpolateVelocity, InterpolateVelocity method [Windows Animation], InterpolateVelocity method [Windows Animation], IUIAnimationInterpolator interface, InterpolateVelocity,IUIAnimationInterpolator.InterpolateVelocity, uianimation.iuianimationinterpolator_interpolatevelocity, uianimation/IUIAnimationInterpolator::InterpolateVelocity
+ms.keywords: IUIAnimationInterpolator interface [Windows Animation],InterpolateVelocity method, IUIAnimationInterpolator.InterpolateVelocity, IUIAnimationInterpolator::InterpolateVelocity, InterpolateVelocity, InterpolateVelocity method [Windows Animation], InterpolateVelocity method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_interpolatevelocity, uianimation/IUIAnimationInterpolator::InterpolateVelocity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationInterpolator::InterpolateVelocity method
+# IUIAnimationInterpolator::InterpolateVelocity
 
 
 ## -description

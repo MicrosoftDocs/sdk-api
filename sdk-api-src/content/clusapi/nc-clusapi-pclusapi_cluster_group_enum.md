@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: fffcae88-8df0-487f-9f6d-bc3560283ef1
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, PCLUSAPI_CLUSTER_GROUP_ENUM, PCLUSAPI_CLUSTER_GROUP_ENUM callback function [Failover Cluster], _wolf_clustergroupenum, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM, mscs.clustergroupenum
+ms.keywords: CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, PCLUSAPI_CLUSTER_GROUP_ENUM, PCLUSAPI_CLUSTER_GROUP_ENUM callback, PCLUSAPI_CLUSTER_GROUP_ENUM callback function [Failover Cluster], _wolf_clustergroupenum, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM, mscs.clustergroupenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CLUSTER_GROUP_ENUM callback
+# PCLUSAPI_CLUSTER_GROUP_ENUM callback function
 
 
 ## -description

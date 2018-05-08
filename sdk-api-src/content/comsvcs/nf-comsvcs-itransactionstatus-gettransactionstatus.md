@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionStatus.GetTransactionStatus
-title: ITransactionStatus::GetTransactionStatus method
+title: ITransactionStatus::GetTransactionStatus
 author: windows-driver-content
 description: Retrieves the transaction status.
 old-location: cos\itransactionstatus_gettransactionstatus.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: c8c37aee-c5d2-479f-989f-461877ee6136
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetTransactionStatus method [COM+], GetTransactionStatus method [COM+], ITransactionStatus interface, GetTransactionStatus,ITransactionStatus.GetTransactionStatus, ITransactionStatus, ITransactionStatus interface [COM+], GetTransactionStatus method, ITransactionStatus::GetTransactionStatus, _cos_ITransactionStatus_GetTransactionStatus, comsvcs/ITransactionStatus::GetTransactionStatus, cos.itransactionstatus_gettransactionstatus
+ms.keywords: GetTransactionStatus, GetTransactionStatus method [COM+], GetTransactionStatus method [COM+],ITransactionStatus interface, ITransactionStatus interface [COM+],GetTransactionStatus method, ITransactionStatus.GetTransactionStatus, ITransactionStatus::GetTransactionStatus, _cos_ITransactionStatus_GetTransactionStatus, comsvcs/ITransactionStatus::GetTransactionStatus, cos.itransactionstatus_gettransactionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITransactionStatus::GetTransactionStatus method
+# ITransactionStatus::GetTransactionStatus
 
 
 ## -description

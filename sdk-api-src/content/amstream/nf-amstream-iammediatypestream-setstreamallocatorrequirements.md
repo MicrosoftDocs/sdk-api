@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.SetStreamAllocatorRequirements
-title: IAMMediaTypeStream::SetStreamAllocatorRequirements method
+title: IAMMediaTypeStream::SetStreamAllocatorRequirements
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The SetStreamAllocatorRequirements sets the allocator requirements for the stream. This method is not currently implemented.
 old-location: dshow\iammediatypestream_setstreamallocatorrequirements.htm
 old-project: DirectShow
 ms.assetid: d34a00dd-e863-4356-97f9-da3776ecb47b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaTypeStream, IAMMediaTypeStream interface [DirectShow], SetStreamAllocatorRequirements method, IAMMediaTypeStream::SetStreamAllocatorRequirements, IAMMediaTypeStreamSetStreamAllocatorRequirements, SetStreamAllocatorRequirements method [DirectShow], SetStreamAllocatorRequirements method [DirectShow], IAMMediaTypeStream interface, SetStreamAllocatorRequirements,IAMMediaTypeStream.SetStreamAllocatorRequirements, amstream/IAMMediaTypeStream::SetStreamAllocatorRequirements, dshow.iammediatypestream_setstreamallocatorrequirements
+ms.date: 4/30/2018
+ms.keywords: IAMMediaTypeStream interface [DirectShow],SetStreamAllocatorRequirements method, IAMMediaTypeStream.SetStreamAllocatorRequirements, IAMMediaTypeStream::SetStreamAllocatorRequirements, IAMMediaTypeStreamSetStreamAllocatorRequirements, SetStreamAllocatorRequirements, SetStreamAllocatorRequirements method [DirectShow], SetStreamAllocatorRequirements method [DirectShow],IAMMediaTypeStream interface, amstream/IAMMediaTypeStream::SetStreamAllocatorRequirements, dshow.iammediatypestream_setstreamallocatorrequirements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaTypeStream::SetStreamAllocatorRequirements method
+# IAMMediaTypeStream::SetStreamAllocatorRequirements
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RemoveDynamicService
-title: IWSDDeviceHost::RemoveDynamicService method
+title: IWSDDeviceHost::RemoveDynamicService
 author: windows-driver-content
 description: Unregisters a service object that was registered using AddDynamicService.
 old-location: ncd\iwsddevicehost_removedynamicservice_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 45c314d3-966b-4b90-ab23-fec2a8e4bc0f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, RemoveDynamicService method, IWSDDeviceHost::RemoveDynamicService, RemoveDynamicService method, RemoveDynamicService method, IWSDDeviceHost interface, RemoveDynamicService,IWSDDeviceHost.RemoveDynamicService, ncd.iwsddevicehost_removedynamicservice_method, wsdhost/IWSDDeviceHost::RemoveDynamicService
+ms.keywords: IWSDDeviceHost interface,RemoveDynamicService method, IWSDDeviceHost.RemoveDynamicService, IWSDDeviceHost::RemoveDynamicService, RemoveDynamicService, RemoveDynamicService method, RemoveDynamicService method,IWSDDeviceHost interface, ncd.iwsddevicehost_removedynamicservice_method, wsdhost/IWSDDeviceHost::RemoveDynamicService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceHost::RemoveDynamicService method
+# IWSDDeviceHost::RemoveDynamicService
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface
-title: IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface method
+title: IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface
 author: windows-driver-content
 description: The DeviceAddedWithInterface method is invoked by the UPnP framework to notify the application that a device has been added to the network.
 old-location: upnp\iupnpdevicefinderaddcallbackwithinterface_deviceaddedwithinterface.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: c7cd47e8-264b-4d1a-aed3-daf5801c240c
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: DeviceAddedWithInterface method [UPnP APIs], DeviceAddedWithInterface method [UPnP APIs], IUPnPDeviceFinderAddCallbackWithInterface interface, DeviceAddedWithInterface,IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface, IUPnPDeviceFinderAddCallbackWithInterface, IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs], DeviceAddedWithInterface method, IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface, upnp.iupnpdevicefinderaddcallbackwithinterface_deviceaddedwithinterface, upnp/IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface
+ms.keywords: DeviceAddedWithInterface, DeviceAddedWithInterface method [UPnP APIs], DeviceAddedWithInterface method [UPnP APIs],IUPnPDeviceFinderAddCallbackWithInterface interface, IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs],DeviceAddedWithInterface method, IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface, IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface, upnp.iupnpdevicefinderaddcallbackwithinterface_deviceaddedwithinterface, upnp/IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface method
+# IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface
 
 
 ## -description

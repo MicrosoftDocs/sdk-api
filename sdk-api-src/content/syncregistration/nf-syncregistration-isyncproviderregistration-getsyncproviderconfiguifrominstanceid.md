@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId
-title: ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId method
+title: ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId
 author: windows-driver-content
 description: Returns an initialized and instantiated ISyncProviderConfigUI object for the given unique instance ID.
 old-location: winsync\isyncproviderregistration_getsyncproviderconfiguifrominstanceid.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 472732d7-39bd-434c-80f3-9808eca9035c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSyncProviderConfigUIFromInstanceId method [Windows Sync], GetSyncProviderConfigUIFromInstanceId method [Windows Sync], ISyncProviderRegistration interface, GetSyncProviderConfigUIFromInstanceId,ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId, ISyncProviderRegistration, ISyncProviderRegistration interface [Windows Sync], GetSyncProviderConfigUIFromInstanceId method, ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId, syncregistration/ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId, winsync.isyncproviderregistration_getsyncproviderconfiguifrominstanceid
+ms.keywords: GetSyncProviderConfigUIFromInstanceId, GetSyncProviderConfigUIFromInstanceId method [Windows Sync], GetSyncProviderConfigUIFromInstanceId method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderConfigUIFromInstanceId method, ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId, ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId, syncregistration/ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId, winsync.isyncproviderregistration_getsyncproviderconfiguifrominstanceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId method
+# ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId
 
 
 ## -description

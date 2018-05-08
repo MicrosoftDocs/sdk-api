@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetItalic
-title: ITextFont::GetItalic method
+title: ITextFont::GetItalic
 author: windows-driver-content
 description: Gets whether characters are in italics.
 old-location: controls\ITextFont_GetItalic.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getitalic.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetItalic method [Windows Controls], GetItalic method [Windows Controls], ITextFont interface, GetItalic,ITextFont.GetItalic, ITextFont, ITextFont interface [Windows Controls], GetItalic method, ITextFont::GetItalic, _win32_ITextFont_GetItalic, _win32_ITextFont_GetItalic_cpp, controls.ITextFont_GetItalic, controls._win32_ITextFont_GetItalic, tom/ITextFont::GetItalic
+ms.date: 4/27/2018
+ms.keywords: GetItalic, GetItalic method [Windows Controls], GetItalic method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetItalic method, ITextFont.GetItalic, ITextFont::GetItalic, _win32_ITextFont_GetItalic, _win32_ITextFont_GetItalic_cpp, controls.ITextFont_GetItalic, controls._win32_ITextFont_GetItalic, tom/ITextFont::GetItalic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetItalic method
+# ITextFont::GetItalic
 
 
 ## -description

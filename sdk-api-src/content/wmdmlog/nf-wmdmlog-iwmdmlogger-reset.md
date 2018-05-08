@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.Reset
-title: IWMDMLogger::Reset method
+title: IWMDMLogger::Reset
 author: windows-driver-content
 description: The Reset method deletes the contents of the current log file.
 old-location: wmdm\iwmdmlogger_reset.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 1b26aede-0db4-4597-8494-7fd5e5cba857
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], Reset method, IWMDMLogger::Reset, IWMDMLoggerReset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager], IWMDMLogger interface, Reset,IWMDMLogger.Reset, wmdm.iwmdmlogger_reset, wmdmlog/IWMDMLogger::Reset
+ms.keywords: IWMDMLogger interface [windows Media Device Manager],Reset method, IWMDMLogger.Reset, IWMDMLogger::Reset, IWMDMLoggerReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_reset, wmdmlog/IWMDMLogger::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDMLogger::Reset method
+# IWMDMLogger::Reset
 
 
 ## -description

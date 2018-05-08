@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: B19E9BAF-A91E-4A58-A6F0-058B03153D10
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationPriorityComparison2, IUIAnimationPriorityComparison2 interface [Windows Animation], IUIAnimationPriorityComparison2 interface [Windows Animation], described, uianimation.iuianimationprioritycomparison2, uianimation/IUIAnimationPriorityComparison2
+ms.keywords: IUIAnimationPriorityComparison2, IUIAnimationPriorityComparison2 interface [Windows Animation], IUIAnimationPriorityComparison2 interface [Windows Animation],described, uianimation.iuianimationprioritycomparison2, uianimation/IUIAnimationPriorityComparison2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

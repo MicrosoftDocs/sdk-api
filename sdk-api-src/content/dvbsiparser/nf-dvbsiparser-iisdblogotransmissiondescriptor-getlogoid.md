@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetLogoId
-title: IIsdbLogoTransmissionDescriptor::GetLogoId method
+title: IIsdbLogoTransmissionDescriptor::GetLogoId
 author: windows-driver-content
 description: Gets the logo identifier from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
 old-location: mstv\iisdblogotransmissiondescriptor_getlogoid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f4c11012-5d37-4d8f-944b-edfa50719b12
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLogoId method [Microsoft TV Technologies], GetLogoId method [Microsoft TV Technologies], IIsdbLogoTransmissionDescriptor interface, GetLogoId,IIsdbLogoTransmissionDescriptor.GetLogoId, IIsdbLogoTransmissionDescriptor, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies], GetLogoId method, IIsdbLogoTransmissionDescriptor::GetLogoId, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoId, mstv.iisdblogotransmissiondescriptor_getlogoid
+ms.keywords: GetLogoId, GetLogoId method [Microsoft TV Technologies], GetLogoId method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLogoId method, IIsdbLogoTransmissionDescriptor.GetLogoId, IIsdbLogoTransmissionDescriptor::GetLogoId, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoId, mstv.iisdblogotransmissiondescriptor_getlogoid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbLogoTransmissionDescriptor::GetLogoId method
+# IIsdbLogoTransmissionDescriptor::GetLogoId
 
 
 ## -description

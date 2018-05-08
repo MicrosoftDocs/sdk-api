@@ -1,14 +1,14 @@
 ---
 UID: NF:wmpservices.IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin
-title: IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin method
+title: IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin
 author: windows-driver-content
 description: The IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin function adds information to the registry that identifies a Windows Media Player plug-in.
 old-location: wmp\iwmpmediapluginregistrar__wmpregisterplayerplugin.htm
 old-project: WMP
 ms.assetid: db042911-c46f-431a-ad1c-ceb2c3b4546c
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMediaPluginRegistrar, IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin function [Windows Media Player], WMPRegisterPlayerPlugin,IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin, wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin, wmpservices/WMPRegisterPlayerPlugin
+ms.date: 5/4/2018
+ms.keywords: IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin, wmpservices/WMPRegisterPlayerPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin method
+# IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin
 
 
 ## -description

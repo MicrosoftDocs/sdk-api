@@ -7,7 +7,7 @@ old-location: ad\ds_repl_obj_meta_data.htm
 old-project: AD
 ms.assetid: 7851ffbc-5d05-4ea7-b3b4-1b8b77299be5
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DS_REPL_OBJ_META_DATA, DS_REPL_OBJ_META_DATA structure [Active Directory], _DS_REPL_OBJ_META_DATA, _glines_ds_repl_obj_meta_data, ad.ds__repl__obj__meta__data, ad.ds_repl_obj_meta_data, ntdsapi/DS_REPL_OBJ_META_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,6 +68,16 @@ Contains the number of elements in the <b>rgMetaData</b> array.
 ### -field dwReserved
 
 Not used.
+
+
+### -field rgMetaData.size_is
+
+ 
+
+
+### -field rgMetaData.size_is.cNumEntries
+
+ 
 
 
 ### -field rgMetaData

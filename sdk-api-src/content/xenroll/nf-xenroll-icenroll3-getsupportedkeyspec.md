@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll3.GetSupportedKeySpec
-title: ICEnroll3::GetSupportedKeySpec method
+title: ICEnroll3::GetSupportedKeySpec
 author: windows-driver-content
 description: Retrieves information regarding the current cryptographic service provider (CSP) support for signature and/or exchange operations. This method was first defined in the ICEnroll3 interface.
 old-location: security\icenroll4_getsupportedkeyspec.htm
 old-project: SecCrypto
 ms.assetid: e225eddb-0c36-446a-9696-38653ff22511
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], GetSupportedKeySpec method, GetSupportedKeySpec method [Security], GetSupportedKeySpec method [Security], CEnroll object, GetSupportedKeySpec method [Security], ICEnroll3 interface, GetSupportedKeySpec method [Security], ICEnroll4 interface, GetSupportedKeySpec,ICEnroll3.GetSupportedKeySpec, ICEnroll3, ICEnroll3 interface [Security], GetSupportedKeySpec method, ICEnroll3::GetSupportedKeySpec, ICEnroll4 interface [Security], GetSupportedKeySpec method, ICEnroll4::GetSupportedKeySpec, security.icenroll4_getsupportedkeyspec, xenroll/ICEnroll3::GetSupportedKeySpec, xenroll/ICEnroll4::GetSupportedKeySpec
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],GetSupportedKeySpec method, GetSupportedKeySpec, GetSupportedKeySpec method [Security], GetSupportedKeySpec method [Security],CEnroll object, GetSupportedKeySpec method [Security],ICEnroll3 interface, GetSupportedKeySpec method [Security],ICEnroll4 interface, ICEnroll3 interface [Security],GetSupportedKeySpec method, ICEnroll3.GetSupportedKeySpec, ICEnroll3::GetSupportedKeySpec, ICEnroll4 interface [Security],GetSupportedKeySpec method, ICEnroll4::GetSupportedKeySpec, security.icenroll4_getsupportedkeyspec, xenroll/ICEnroll3::GetSupportedKeySpec, xenroll/ICEnroll4::GetSupportedKeySpec
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll3::GetSupportedKeySpec method
+# ICEnroll3::GetSupportedKeySpec
 
 
 ## -description

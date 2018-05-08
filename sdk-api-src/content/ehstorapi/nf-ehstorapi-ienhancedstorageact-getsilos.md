@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetSilos
-title: IEnhancedStorageACT::GetSilos method
+title: IEnhancedStorageACT::GetSilos
 author: windows-driver-content
 description: Returns an enumeration of all silos associated with the Addressable Command Target (ACT).
 old-location: enstor\ienhancedstorageact_getsilos.htm
@@ -8,7 +8,7 @@ old-project: enstor
 ms.assetid: 823da812-b3f5-4c61-bb33-cd970695879f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSilos method [Enhanced Storage], GetSilos method [Enhanced Storage], IEnhancedStorageACT interface, GetSilos,IEnhancedStorageACT.GetSilos, IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], GetSilos method, IEnhancedStorageACT::GetSilos, ehstorapi/IEnhancedStorageACT::GetSilos, enstor.ienhancedstorageact_getsilos
+ms.keywords: GetSilos, GetSilos method [Enhanced Storage], GetSilos method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetSilos method, IEnhancedStorageACT.GetSilos, IEnhancedStorageACT::GetSilos, ehstorapi/IEnhancedStorageACT::GetSilos, enstor.ienhancedstorageact_getsilos
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEnhancedStorageACT::GetSilos method
+# IEnhancedStorageACT::GetSilos
 
 
 ## -description

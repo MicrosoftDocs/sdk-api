@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetBackupOptions
-title: IVssComponent::GetBackupOptions method
+title: IVssComponent::GetBackupOptions
 author: windows-driver-content
 description: The GetBackupOptions method returns the backup options specified to the writer that manages the currently selected component or component set by a requester using IVssBackupComponents::SetBackupOptions.
 old-location: base\ivsscomponent_getbackupoptions.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 54182058-5dbb-4eda-959a-fa1921a27302
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetBackupOptions method [VSS], GetBackupOptions method [VSS], IVssComponent interface, GetBackupOptions,IVssComponent.GetBackupOptions, IVssComponent, IVssComponent interface [VSS], GetBackupOptions method, IVssComponent::GetBackupOptions, _win32_ivsscomponent_getbackupoptions, base.ivsscomponent_getbackupoptions, vswriter/IVssComponent::GetBackupOptions
+ms.keywords: GetBackupOptions, GetBackupOptions method [VSS], GetBackupOptions method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupOptions method, IVssComponent.GetBackupOptions, IVssComponent::GetBackupOptions, _win32_ivsscomponent_getbackupoptions, base.ivsscomponent_getbackupoptions, vswriter/IVssComponent::GetBackupOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetBackupOptions method
+# IVssComponent::GetBackupOptions
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwProfile.get_NotificationsDisabled
-title: INetFwProfile::get_NotificationsDisabled method
+title: INetFwProfile::get_NotificationsDisabled
 author: windows-driver-content
 description: Indicates whether interactive firewall notifications are disabled.
 old-location: ics\inetfwprofile_notificationsdisabled.htm
 old-project: ICS
 ms.assetid: d184f39d-561f-40aa-99d4-b80e4d0a1aaf
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwProfile, INetFwProfile interface [ICS/ICF], NotificationsDisabled property, INetFwProfile.NotificationsDisabled, INetFwProfile::get_NotificationsDisabled, INetFwProfile::put_NotificationsDisabled, NotificationsDisabled property [ICS/ICF], NotificationsDisabled property [ICS/ICF], INetFwProfile interface, get_NotificationsDisabled,INetFwProfile.get_NotificationsDisabled, ics.inetfwprofile_notificationsdisabled, netfw/INetFwProfile::NotificationsDisabled, netfw/INetFwProfile::get_NotificationsDisabled, netfw/INetFwProfile::put_NotificationsDisabled
+ms.date: 5/1/2018
+ms.keywords: INetFwProfile interface [ICS/ICF],NotificationsDisabled property, INetFwProfile.NotificationsDisabled, INetFwProfile.get_NotificationsDisabled, INetFwProfile::NotificationsDisabled, INetFwProfile::get_NotificationsDisabled, INetFwProfile::put_NotificationsDisabled, NotificationsDisabled property [ICS/ICF], NotificationsDisabled property [ICS/ICF],INetFwProfile interface, get_NotificationsDisabled, ics.inetfwprofile_notificationsdisabled, netfw/INetFwProfile::NotificationsDisabled, netfw/INetFwProfile::get_NotificationsDisabled, netfw/INetFwProfile::put_NotificationsDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwProfile::get_NotificationsDisabled method
+# INetFwProfile::get_NotificationsDisabled
 
 
 ## -description

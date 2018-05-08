@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: "*PWINBIO_SENSOR_INTERFACE, WINBIO_SENSOR_INTERFACE, *PWINBIO_SENSOR_INTERFACE"
+req.typenames: "*PWINBIO_SENSOR_INTERFACE, WINBIO_SENSOR_INTERFACE"
 topic_type:
 -	APIRef
 -	kbSyntax

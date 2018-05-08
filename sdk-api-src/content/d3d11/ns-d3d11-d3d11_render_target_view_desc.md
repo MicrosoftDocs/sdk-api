@@ -71,56 +71,56 @@ Type: <b><a href="https://msdn.microsoft.com/42cbd3ec-fa8a-48ea-be88-bbe46db1356
 The resource type (see <a href="https://msdn.microsoft.com/42cbd3ec-fa8a-48ea-be88-bbe46db13566">D3D11_RTV_DIMENSION</a>), which specifies how the render-target resource will be accessed.
 
 
-#### - Buffer
+### -field Buffer
 
 Type: <b><a href="https://msdn.microsoft.com/979c69cf-f9b5-4b10-92ff-ad5245880802">D3D11_BUFFER_RTV</a></b>
 
 Specifies which buffer elements can be accessed (see <a href="https://msdn.microsoft.com/979c69cf-f9b5-4b10-92ff-ad5245880802">D3D11_BUFFER_RTV</a>).
 
 
-#### - Texture1D
+### -field Texture1D
 
 Type: <b><a href="https://msdn.microsoft.com/48b32ca3-39c4-437a-a4e5-468c9b52b425">D3D11_TEX1D_RTV</a></b>
 
 Specifies the subresources in a 1D texture that can be accessed (see <a href="https://msdn.microsoft.com/48b32ca3-39c4-437a-a4e5-468c9b52b425">D3D11_TEX1D_RTV</a>).
 
 
-#### - Texture1DArray
+### -field Texture1DArray
 
 Type: <b><a href="https://msdn.microsoft.com/cdb1c9e0-39a4-415e-a91f-05042b1f1b2d">D3D11_TEX1D_ARRAY_RTV</a></b>
 
 Specifies the subresources in a 1D texture array that can be accessed (see <a href="https://msdn.microsoft.com/cdb1c9e0-39a4-415e-a91f-05042b1f1b2d">D3D11_TEX1D_ARRAY_RTV</a>).
 
 
-#### - Texture2D
+### -field Texture2D
 
 Type: <b><a href="https://msdn.microsoft.com/e0f24576-0767-461d-8dc3-b8822ea89fef">D3D11_TEX2D_RTV</a></b>
 
 Specifies the subresources in a 2D texture that can be accessed (see <a href="https://msdn.microsoft.com/e0f24576-0767-461d-8dc3-b8822ea89fef">D3D11_TEX2D_RTV</a>).
 
 
-#### - Texture2DArray
+### -field Texture2DArray
 
 Type: <b><a href="https://msdn.microsoft.com/5caecf26-707b-45f4-8296-784ed4184459">D3D11_TEX2D_ARRAY_RTV</a></b>
 
 Specifies the subresources in a 2D texture array that can be accessed (see <a href="https://msdn.microsoft.com/5caecf26-707b-45f4-8296-784ed4184459">D3D11_TEX2D_ARRAY_RTV</a>).
 
 
-#### - Texture2DMS
+### -field Texture2DMS
 
 Type: <b><a href="https://msdn.microsoft.com/5414183c-4abf-4030-a148-ade5c9213635">D3D11_TEX2DMS_RTV</a></b>
 
 Specifies a single subresource because a multisampled 2D texture only contains one subresource (see <a href="https://msdn.microsoft.com/5414183c-4abf-4030-a148-ade5c9213635">D3D11_TEX2DMS_RTV</a>).
 
 
-#### - Texture2DMSArray
+### -field Texture2DMSArray
 
 Type: <b><a href="https://msdn.microsoft.com/ec08341c-980f-4d5f-8eb9-f41835105b46">D3D11_TEX2DMS_ARRAY_RTV</a></b>
 
 Specifies the subresources in a multisampled 2D texture array that can be accessed (see <a href="https://msdn.microsoft.com/ec08341c-980f-4d5f-8eb9-f41835105b46">D3D11_TEX2DMS_ARRAY_RTV</a>).
 
 
-#### - Texture3D
+### -field Texture3D
 
 Type: <b><a href="https://msdn.microsoft.com/58a4b383-ad5d-4eb0-bff5-8825c3ae8dd1">D3D11_TEX3D_RTV</a></b>
 

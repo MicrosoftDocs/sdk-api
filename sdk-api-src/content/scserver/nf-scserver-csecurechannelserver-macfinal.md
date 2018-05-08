@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.MACFinal
-title: CSecureChannelServer::MACFinal method
+title: CSecureChannelServer::MACFinal
 author: windows-driver-content
 description: The MACFinal method releases the message authentication code (MAC) channel and retrieves a final MAC value.
 old-location: wmdm\csecurechannelserver_macfinal.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 047340a5-5382-443e-a6d5-ecbcdfe9a210
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CSecureChannelServer, CSecureChannelServer interface [windows Media Device Manager], MACFinal method, CSecureChannelServer::MACFinal, CSecureChannelServerMACFinal, MACFinal method [windows Media Device Manager], MACFinal method [windows Media Device Manager], CSecureChannelServer interface, MACFinal,CSecureChannelServer.MACFinal, scserver/CSecureChannelServer::MACFinal, wmdm.csecurechannelserver_macfinal
+ms.keywords: CSecureChannelServer interface [windows Media Device Manager],MACFinal method, CSecureChannelServer.MACFinal, CSecureChannelServer::MACFinal, CSecureChannelServerMACFinal, MACFinal, MACFinal method [windows Media Device Manager], MACFinal method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::MACFinal, wmdm.csecurechannelserver_macfinal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CSecureChannelServer::MACFinal method
+# CSecureChannelServer::MACFinal
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetAutoReconnectLimit
-title: IWMReaderNetworkConfig2::SetAutoReconnectLimit method
+title: IWMReaderNetworkConfig2::SetAutoReconnectLimit
 author: windows-driver-content
 description: The SetAutoReconnectLimit method sets the maximum number of times the reader will attempt to reconnect to the server in the case of an unexpected disconnection.
 old-location: wmformat\iwmreadernetworkconfig2_setautoreconnectlimit.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 0ef6bb5c-6369-4b80-a227-da790b1ab6da
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], SetAutoReconnectLimit method, IWMReaderNetworkConfig2::SetAutoReconnectLimit, IWMReaderNetworkConfig2SetAutoReconnectLimit, SetAutoReconnectLimit method [windows Media Format], SetAutoReconnectLimit method [windows Media Format], IWMReaderNetworkConfig2 interface, SetAutoReconnectLimit,IWMReaderNetworkConfig2.SetAutoReconnectLimit, wmformat.iwmreadernetworkconfig2_setautoreconnectlimit, wmsdkidl/IWMReaderNetworkConfig2::SetAutoReconnectLimit
+ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetAutoReconnectLimit method, IWMReaderNetworkConfig2.SetAutoReconnectLimit, IWMReaderNetworkConfig2::SetAutoReconnectLimit, IWMReaderNetworkConfig2SetAutoReconnectLimit, SetAutoReconnectLimit, SetAutoReconnectLimit method [windows Media Format], SetAutoReconnectLimit method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setautoreconnectlimit, wmsdkidl/IWMReaderNetworkConfig2::SetAutoReconnectLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig2::SetAutoReconnectLimit method
+# IWMReaderNetworkConfig2::SetAutoReconnectLimit
 
 
 ## -description

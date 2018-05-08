@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesProgress.End
-title: IOfflineFilesProgress::End method
+title: IOfflineFilesProgress::End
 author: windows-driver-content
 description: Reports that an operation has ended.
 old-location: of\iofflinefilesprogress_end.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: b3d09f2e-29d5-496f-a046-4ba067e642a6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: End method [Offline Files], End method [Offline Files], IOfflineFilesProgress interface, End,IOfflineFilesProgress.End, IOfflineFilesProgress, IOfflineFilesProgress interface [Offline Files], End method, IOfflineFilesProgress::End, cscobj/IOfflineFilesProgress::End, of.iofflinefilesprogress_end
+ms.keywords: End, End method [Offline Files], End method [Offline Files],IOfflineFilesProgress interface, IOfflineFilesProgress interface [Offline Files],End method, IOfflineFilesProgress.End, IOfflineFilesProgress::End, cscobj/IOfflineFilesProgress::End, of.iofflinefilesprogress_end
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesProgress::End method
+# IOfflineFilesProgress::End
 
 
 ## -description

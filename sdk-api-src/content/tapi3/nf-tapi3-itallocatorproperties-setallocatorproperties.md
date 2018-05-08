@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAllocatorProperties.SetAllocatorProperties
-title: ITAllocatorProperties::SetAllocatorProperties method
+title: ITAllocatorProperties::SetAllocatorProperties
 author: windows-driver-content
 description: The SetAllocatorProperties method must be called before connection and will force the MSP to use these values during filter negotiation. If the connecting filter doesn't accept these values, the connection is not established.
 old-location: tapi3\itallocatorproperties_setallocatorproperties.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 3ab13fac-2667-44ce-aa1a-72cd18d37b0a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAllocatorProperties, ITAllocatorProperties interface [TAPI 2.2], SetAllocatorProperties method, ITAllocatorProperties::SetAllocatorProperties, SetAllocatorProperties method [TAPI 2.2], SetAllocatorProperties method [TAPI 2.2], ITAllocatorProperties interface, SetAllocatorProperties,ITAllocatorProperties.SetAllocatorProperties, _tapi3_itallocatorproperties_setallocatorproperties, tapi3.itallocatorproperties_setallocatorproperties, tapi3ds/ITAllocatorProperties::SetAllocatorProperties
+ms.keywords: ITAllocatorProperties interface [TAPI 2.2],SetAllocatorProperties method, ITAllocatorProperties.SetAllocatorProperties, ITAllocatorProperties::SetAllocatorProperties, SetAllocatorProperties, SetAllocatorProperties method [TAPI 2.2], SetAllocatorProperties method [TAPI 2.2],ITAllocatorProperties interface, _tapi3_itallocatorproperties_setallocatorproperties, tapi3.itallocatorproperties_setallocatorproperties, tapi3ds/ITAllocatorProperties::SetAllocatorProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAllocatorProperties::SetAllocatorProperties method
+# ITAllocatorProperties::SetAllocatorProperties
 
 
 ## -description

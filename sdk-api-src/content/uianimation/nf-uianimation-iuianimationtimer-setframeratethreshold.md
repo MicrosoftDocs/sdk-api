@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.SetFrameRateThreshold
-title: IUIAnimationTimer::SetFrameRateThreshold method
+title: IUIAnimationTimer::SetFrameRateThreshold
 author: windows-driver-content
 description: Sets the frame rate below which the timer notifies the application that rendering is too slow.
 old-location: uianimation\iuianimationtimer_setframeratethreshold.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 6e9b5278-a959-40a7-a4dc-88400a80b0e3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationTimer, IUIAnimationTimer interface [Windows Animation], SetFrameRateThreshold method, IUIAnimationTimer::SetFrameRateThreshold, SetFrameRateThreshold method [Windows Animation], SetFrameRateThreshold method [Windows Animation], IUIAnimationTimer interface, SetFrameRateThreshold,IUIAnimationTimer.SetFrameRateThreshold, uianimation.iuianimationtimer_setframeratethreshold, uianimation/IUIAnimationTimer::SetFrameRateThreshold
+ms.keywords: IUIAnimationTimer interface [Windows Animation],SetFrameRateThreshold method, IUIAnimationTimer.SetFrameRateThreshold, IUIAnimationTimer::SetFrameRateThreshold, SetFrameRateThreshold, SetFrameRateThreshold method [Windows Animation], SetFrameRateThreshold method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_setframeratethreshold, uianimation/IUIAnimationTimer::SetFrameRateThreshold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTimer::SetFrameRateThreshold method
+# IUIAnimationTimer::SetFrameRateThreshold
 
 
 ## -description

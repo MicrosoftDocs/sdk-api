@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureCollection.RemoveAt
-title: IXpsSignatureCollection::RemoveAt method
+title: IXpsSignatureCollection::RemoveAt
 author: windows-driver-content
 description: Removes and releases an IXpsSignature interface pointer from a specified location in the collection.
 old-location: xps\ixpssignaturecollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 513fcb60-1c07-4748-847c-6ccc7be25fbd
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSignatureCollection, IXpsSignatureCollection interface [XPS Documents and Packaging], RemoveAt method, IXpsSignatureCollection::RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging], IXpsSignatureCollection interface, RemoveAt,IXpsSignatureCollection.RemoveAt, xps.ixpssignaturecollection_removeat, xpsdigitalsignature/IXpsSignatureCollection::RemoveAt
+ms.keywords: IXpsSignatureCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsSignatureCollection.RemoveAt, IXpsSignatureCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsSignatureCollection interface, xps.ixpssignaturecollection_removeat, xpsdigitalsignature/IXpsSignatureCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureCollection::RemoveAt method
+# IXpsSignatureCollection::RemoveAt
 
 
 ## -description

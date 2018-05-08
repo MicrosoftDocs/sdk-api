@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IProvideMultipleClassInfo.GetInfoOfIndex
-title: IProvideMultipleClassInfo::GetInfoOfIndex method
+title: IProvideMultipleClassInfo::GetInfoOfIndex
 author: windows-driver-content
 description: Retrieves the type information from the specified index.
 old-location: com\iprovidemultipleclassinfo_getinfoofindex.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 084dfb9d-5545-4845-9959-1b054566adca
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetInfoOfIndex method [COM], GetInfoOfIndex method [COM], IProvideMultipleClassInfo interface, GetInfoOfIndex,IProvideMultipleClassInfo.GetInfoOfIndex, IProvideMultipleClassInfo, IProvideMultipleClassInfo interface [COM], GetInfoOfIndex method, IProvideMultipleClassInfo::GetInfoOfIndex, MULTICLASSINFO_GETIIDPRIMARY, MULTICLASSINFO_GETIIDSOURCE, MULTICLASSINFO_GETNUMRESERVEDDISPIDS, MULTICLASSINFO_GETTYPEINFO, _com_iprovidemultipleclassinfo_getinfoofindex, com.iprovidemultipleclassinfo_getinfoofindex, ocidl/IProvideMultipleClassInfo::GetInfoOfIndex
+ms.keywords: GetInfoOfIndex, GetInfoOfIndex method [COM], GetInfoOfIndex method [COM],IProvideMultipleClassInfo interface, IProvideMultipleClassInfo interface [COM],GetInfoOfIndex method, IProvideMultipleClassInfo.GetInfoOfIndex, IProvideMultipleClassInfo::GetInfoOfIndex, MULTICLASSINFO_GETIIDPRIMARY, MULTICLASSINFO_GETIIDSOURCE, MULTICLASSINFO_GETNUMRESERVEDDISPIDS, MULTICLASSINFO_GETTYPEINFO, _com_iprovidemultipleclassinfo_getinfoofindex, com.iprovidemultipleclassinfo_getinfoofindex, ocidl/IProvideMultipleClassInfo::GetInfoOfIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IProvideMultipleClassInfo::GetInfoOfIndex method
+# IProvideMultipleClassInfo::GetInfoOfIndex
 
 
 ## -description

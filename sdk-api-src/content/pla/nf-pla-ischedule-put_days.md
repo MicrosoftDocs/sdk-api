@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ISchedule.put_Days
-title: ISchedule::put_Days method
+title: ISchedule::put_Days
 author: windows-driver-content
 description: Retrieves or sets the days on which the data collector set runs.
 old-location: pla\ischedule_days.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 2986032f-647a-457a-ac7b-48439fd229a6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Days property [PLA], Days property [PLA], ISchedule interface, ISchedule, ISchedule interface [PLA], Days property, ISchedule.Days, ISchedule::get_Days, ISchedule::put_Days, base.ischedule_days, pla.ischedule_days, pla/ISchedule::Days, pla/ISchedule::get_Days, pla/ISchedule::put_Days, put_Days,ISchedule.put_Days
+ms.keywords: Days property [PLA], Days property [PLA],ISchedule interface, ISchedule interface [PLA],Days property, ISchedule.Days, ISchedule.put_Days, ISchedule::Days, ISchedule::get_Days, ISchedule::put_Days, base.ischedule_days, pla.ischedule_days, pla/ISchedule::Days, pla/ISchedule::get_Days, pla/ISchedule::put_Days, put_Days
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISchedule::put_Days method
+# ISchedule::put_Days
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetContextProperties.Count
-title: IGetContextProperties::Count method
+title: IGetContextProperties::Count
 author: windows-driver-content
 description: Counts the number of context properties.
 old-location: cos\igetcontextproperties_count.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 018b470e-726b-4777-8885-0ec7fa22f57a
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: Count method [COM+], Count method [COM+], IGetContextProperties interface, Count,IGetContextProperties.Count, IGetContextProperties, IGetContextProperties interface [COM+], Count method, IGetContextProperties::Count, _cos_IGetContextProperties_Count, comsvcs/IGetContextProperties::Count, cos.igetcontextproperties_count
+ms.keywords: Count, Count method [COM+], Count method [COM+],IGetContextProperties interface, IGetContextProperties interface [COM+],Count method, IGetContextProperties.Count, IGetContextProperties::Count, _cos_IGetContextProperties_Count, comsvcs/IGetContextProperties::Count, cos.igetcontextproperties_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetContextProperties::Count method
+# IGetContextProperties::Count
 
 
 ## -description

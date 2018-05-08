@@ -7,7 +7,7 @@ old-location: ics\networkisolationgetappcontainerconfig.htm
 old-project: ICS
 ms.assetid: 5ddb9dde-c989-4235-9784-af3168b7a151
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NetworkIsolationGetAppContainerConfig, NetworkIsolationGetAppContainerConfig function [ICS/ICF], ics.networkisolationgetappcontainerconfig, networkisolation/NetworkIsolationGetAppContainerConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

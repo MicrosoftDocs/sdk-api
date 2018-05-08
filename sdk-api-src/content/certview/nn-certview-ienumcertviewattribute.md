@@ -7,8 +7,8 @@ old-location: security\ienumcertviewattribute.htm
 old-project: SecCrypto
 ms.assetid: fc1eb29d-27d9-4331-b588-dc0632b3db6a
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnumCERTVIEWATTRIBUTE, IEnumCERTVIEWATTRIBUTE interface [Security], IEnumCERTVIEWATTRIBUTE interface [Security], described, _certsrv_ienumcertviewattribute, certview/IEnumCERTVIEWATTRIBUTE, security.ienumcertviewattribute
+ms.date: 4/30/2018
+ms.keywords: IEnumCERTVIEWATTRIBUTE, IEnumCERTVIEWATTRIBUTE interface [Security], IEnumCERTVIEWATTRIBUTE interface [Security],described, _certsrv_ienumcertviewattribute, certview/IEnumCERTVIEWATTRIBUTE, security.ienumcertviewattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_IPV4Filter.PutMulticastList
-title: IBDA_IPV4Filter::PutMulticastList method
+title: IBDA_IPV4Filter::PutMulticastList
 author: windows-driver-content
 description: The PutMulticastList method sets the list of multicast addresses on the Network Provider.
 old-location: mstv\ibda_ipv4filter_putmulticastlist.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 06b93c7d-662e-408b-94e3-137287160898
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_IPV4Filter, IBDA_IPV4Filter interface [Microsoft TV Technologies], PutMulticastList method, IBDA_IPV4Filter::PutMulticastList, IBDA_IPV4FilterPutMulticastList, PutMulticastList method [Microsoft TV Technologies], PutMulticastList method [Microsoft TV Technologies], IBDA_IPV4Filter interface, PutMulticastList,IBDA_IPV4Filter.PutMulticastList, bdaiface/IBDA_IPV4Filter::PutMulticastList, mstv.ibda_ipv4filter_putmulticastlist
+ms.keywords: IBDA_IPV4Filter interface [Microsoft TV Technologies],PutMulticastList method, IBDA_IPV4Filter.PutMulticastList, IBDA_IPV4Filter::PutMulticastList, IBDA_IPV4FilterPutMulticastList, PutMulticastList, PutMulticastList method [Microsoft TV Technologies], PutMulticastList method [Microsoft TV Technologies],IBDA_IPV4Filter interface, bdaiface/IBDA_IPV4Filter::PutMulticastList, mstv.ibda_ipv4filter_putmulticastlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_IPV4Filter::PutMulticastList method
+# IBDA_IPV4Filter::PutMulticastList
 
 
 ## -description

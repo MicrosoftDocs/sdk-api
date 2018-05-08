@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.GetElapsedTime
-title: IUIAnimationStoryboard2::GetElapsedTime method
+title: IUIAnimationStoryboard2::GetElapsedTime
 author: windows-driver-content
 description: Gets the time that has elapsed since the storyboard started playing.
 old-location: uianimation\iuianimationstoryboard2_getelapsedtime.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 014F8A6A-345A-4DA7-8002-20A4683BB3B6
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetElapsedTime method [Windows Animation], GetElapsedTime method [Windows Animation], IUIAnimationStoryboard2 interface, GetElapsedTime,IUIAnimationStoryboard2.GetElapsedTime, IUIAnimationStoryboard2, IUIAnimationStoryboard2 interface [Windows Animation], GetElapsedTime method, IUIAnimationStoryboard2::GetElapsedTime, uianimation.iuianimationstoryboard2_getelapsedtime, uianimation/IUIAnimationStoryboard2::GetElapsedTime
+ms.keywords: GetElapsedTime, GetElapsedTime method [Windows Animation], GetElapsedTime method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],GetElapsedTime method, IUIAnimationStoryboard2.GetElapsedTime, IUIAnimationStoryboard2::GetElapsedTime, uianimation.iuianimationstoryboard2_getelapsedtime, uianimation/IUIAnimationStoryboard2::GetElapsedTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard2::GetElapsedTime method
+# IUIAnimationStoryboard2::GetElapsedTime
 
 
 ## -description

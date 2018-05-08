@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.GetCount
-title: IXpsOMVisualCollection::GetCount method
+title: IXpsOMVisualCollection::GetCount
 author: windows-driver-content
 description: Gets the number of IXpsOMVisual interface pointers in the collection.
 old-location: xps\ixpsomvisualcollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 5a89f2ab-47b3-4e82-94ac-d3aa8c02ff60
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging], IXpsOMVisualCollection interface, GetCount,IXpsOMVisualCollection.GetCount, IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Documents and Packaging], GetCount method, IXpsOMVisualCollection::GetCount, xps.ixpsomvisualcollection_getcount, xpsobjectmodel/IXpsOMVisualCollection::GetCount
+ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMVisualCollection interface, IXpsOMVisualCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMVisualCollection.GetCount, IXpsOMVisualCollection::GetCount, xps.ixpsomvisualcollection_getcount, xpsobjectmodel/IXpsOMVisualCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisualCollection::GetCount method
+# IXpsOMVisualCollection::GetCount
 
 
 ## -description

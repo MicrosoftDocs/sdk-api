@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamList.GetStreams
-title: IWMStreamList::GetStreams method
+title: IWMStreamList::GetStreams
 author: windows-driver-content
 description: The GetStreams method retrieves an array of stream numbers that make up the list.
 old-location: wmformat\iwmstreamlist_getstreams.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ef7e1141-284f-4570-8891-9f53b2da7229
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetStreams method [windows Media Format], GetStreams method [windows Media Format], IWMStreamList interface, GetStreams,IWMStreamList.GetStreams, IWMStreamList, IWMStreamList interface [windows Media Format], GetStreams method, IWMStreamList::GetStreams, IWMStreamListGetStreams, wmformat.iwmstreamlist_getstreams, wmsdkidl/IWMStreamList::GetStreams
+ms.keywords: GetStreams, GetStreams method [windows Media Format], GetStreams method [windows Media Format],IWMStreamList interface, IWMStreamList interface [windows Media Format],GetStreams method, IWMStreamList.GetStreams, IWMStreamList::GetStreams, IWMStreamListGetStreams, wmformat.iwmstreamlist_getstreams, wmsdkidl/IWMStreamList::GetStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamList::GetStreams method
+# IWMStreamList::GetStreams
 
 
 ## -description

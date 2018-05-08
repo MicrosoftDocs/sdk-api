@@ -126,15 +126,13 @@ Resource API version 3.0.
 ### -field DUMMYUNIONNAME
 
 
-
-#### V1Functions
+### -field DUMMYUNIONNAME.V1Functions
 
 A <a href="https://msdn.microsoft.com/54299e92-8b9d-4611-8147-8e7a5e1c8e34">CLRES_V1_FUNCTIONS</a> structure that contains the 
         table of entry points included in the Resource API version 1.0.
 
 
-
-#### V2Functions
+### -field DUMMYUNIONNAME.V2Functions
 
 A <a href="https://msdn.microsoft.com/81A5169E-C2AB-4666-9D9F-9DE4A639D0D6">CLRES_V2_FUNCTIONS</a> structure that contains the 
         table of entry points included in the Resource API version 2.0.
@@ -142,13 +140,19 @@ A <a href="https://msdn.microsoft.com/81A5169E-C2AB-4666-9D9F-9DE4A639D0D6">CLRE
 <b>Windows Server 2008 R2:  </b>This member was added in Windows Server 2012.
 
 
-
-#### V3Functions
+### -field DUMMYUNIONNAME.V3Functions
 
 A <a href="https://msdn.microsoft.com/5D4B5494-5F75-4864-9BA5-EF1A88DFE143">CLRES_V3_FUNCTIONS</a> structure that contains the 
         table of entry points included in the Resource API version 3.0.
 
 <b>Windows Server 2008 R2 and Windows Server 2012:  </b>This member was added in Windows Server 2012 R2.
+
+
+### -field DUMMYUNIONNAME.V4Functions
+
+ 
+
+
 
 
 ## -remarks

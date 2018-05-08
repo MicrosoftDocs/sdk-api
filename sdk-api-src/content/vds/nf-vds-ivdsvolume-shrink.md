@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.Shrink
-title: IVdsVolume::Shrink method
+title: IVdsVolume::Shrink
 author: windows-driver-content
 description: Reduces the size of the volume and all plexes, and returns the released extents to free space.
 old-location: base\ivdsvolume_shrink.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 63ac6ef9-0e84-40ed-a302-4f32316a41cc
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsVolume, IVdsVolume interface [VDS], Shrink method, IVdsVolume::Shrink, Shrink method [VDS], Shrink method [VDS], IVdsVolume interface, Shrink,IVdsVolume.Shrink, base.ivdsvolume_shrink, vds/IVdsVolume::Shrink
+ms.keywords: IVdsVolume interface [VDS],Shrink method, IVdsVolume.Shrink, IVdsVolume::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsVolume interface, base.ivdsvolume_shrink, vds/IVdsVolume::Shrink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolume::Shrink method
+# IVdsVolume::Shrink
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaCollectionAttributeStringChanged
-title: IWMPEvents::MediaCollectionAttributeStringChanged method
+title: IWMPEvents::MediaCollectionAttributeStringChanged
 author: windows-driver-content
 description: The MediaCollectionAttributeStringChanged event occurs when an attribute value in the library is changed.
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringchanged.htm
 old-project: WMP
 ms.assetid: 76767c3d-4dc1-4964-a337-6cde8f4c8609
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MediaCollectionAttributeStringChanged method, IWMPEvents::MediaCollectionAttributeStringChanged, IWMPEventsMediaCollectionAttributeStringChanged, MediaCollectionAttributeStringChanged method [Windows Media Player], MediaCollectionAttributeStringChanged method [Windows Media Player], IWMPEvents interface, MediaCollectionAttributeStringChanged,IWMPEvents.MediaCollectionAttributeStringChanged, wmp.iwmpevents_iwmpevents__mediacollectionattributestringchanged, wmp/IWMPEvents::MediaCollectionAttributeStringChanged
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],MediaCollectionAttributeStringChanged method, IWMPEvents.MediaCollectionAttributeStringChanged, IWMPEvents::MediaCollectionAttributeStringChanged, IWMPEventsMediaCollectionAttributeStringChanged, MediaCollectionAttributeStringChanged, MediaCollectionAttributeStringChanged method [Windows Media Player], MediaCollectionAttributeStringChanged method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediacollectionattributestringchanged, wmp/IWMPEvents::MediaCollectionAttributeStringChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::MediaCollectionAttributeStringChanged method
+# IWMPEvents::MediaCollectionAttributeStringChanged
 
 
 ## -description

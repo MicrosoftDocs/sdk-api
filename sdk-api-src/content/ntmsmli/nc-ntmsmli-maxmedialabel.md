@@ -8,7 +8,7 @@ old-project: Rsm
 ms.assetid: b770cc63-e1dd-4d1a-8009-8e1bdc9ce69c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: MaxMediaLabel, MaxMediaLabel callback function [Files], _zaw_maxmedialabel, base.maxmedialabel, fs.maxmedialabel, ntmsmli/MaxMediaLabel
+ms.keywords: MaxMediaLabel, MaxMediaLabel callback, MaxMediaLabel callback function [Files], _zaw_maxmedialabel, base.maxmedialabel, fs.maxmedialabel, ntmsmli/MaxMediaLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# MAXMEDIALABEL callback
+# MAXMEDIALABEL callback function
 
 
 ## -description

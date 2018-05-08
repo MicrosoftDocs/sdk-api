@@ -7,7 +7,7 @@ old-location: shell\SHRegGetPath.htm
 old-project: shell
 ms.assetid: 2874b868-33f9-4f20-9e0b-136125cf268c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: SHRegGetPath, SHRegGetPath function [Windows Shell], SHRegGetPathA, SHRegGetPathW, _win32_SHRegGetPath, shell.SHRegGetPath, shlwapi/SHRegGetPath, shlwapi/SHRegGetPathA, shlwapi/SHRegGetPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

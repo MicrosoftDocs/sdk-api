@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICColorContext.InitializeFromFilename
-title: IWICColorContext::InitializeFromFilename method
+title: IWICColorContext::InitializeFromFilename
 author: windows-driver-content
 description: Initializes the color context from the given file.
 old-location: wic\_wic_codec_iwiccolorcontext_initializefromfilename.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: df1f841b-6b01-42d5-967d-47ec402f9b8c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICColorContext, IWICColorContext interface [Windows Imaging Component], InitializeFromFilename method, IWICColorContext::InitializeFromFilename, InitializeFromFilename method [Windows Imaging Component], InitializeFromFilename method [Windows Imaging Component], IWICColorContext interface, InitializeFromFilename,IWICColorContext.InitializeFromFilename, _wic_codec_iwiccolorcontext_initializefromfilename, wic._wic_codec_iwiccolorcontext_initializefromfilename, wincodec/IWICColorContext::InitializeFromFilename
+ms.keywords: IWICColorContext interface [Windows Imaging Component],InitializeFromFilename method, IWICColorContext.InitializeFromFilename, IWICColorContext::InitializeFromFilename, InitializeFromFilename, InitializeFromFilename method [Windows Imaging Component], InitializeFromFilename method [Windows Imaging Component],IWICColorContext interface, _wic_codec_iwiccolorcontext_initializefromfilename, wic._wic_codec_iwiccolorcontext_initializefromfilename, wincodec/IWICColorContext::InitializeFromFilename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICColorContext::InitializeFromFilename method
+# IWICColorContext::InitializeFromFilename
 
 
 ## -description

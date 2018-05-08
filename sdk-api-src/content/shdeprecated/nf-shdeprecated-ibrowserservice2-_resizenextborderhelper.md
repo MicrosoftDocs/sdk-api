@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._ResizeNextBorderHelper
-title: IBrowserService2::_ResizeNextBorderHelper method
+title: IBrowserService2::_ResizeNextBorderHelper
 author: windows-driver-content
 description: Deprecated. A helper method used by the implementation of IBrowserService2::_ResizeNextBorder.
 old-location: shell\IBrowserService2__ResizeNextBorderHelper.htm
 old-project: shell
 ms.assetid: 850025c0-96a0-4b7b-aa87-18325b0aecab
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _ResizeNextBorderHelper method, IBrowserService2::_ResizeNextBorderHelper, _ResizeNextBorderHelper method [Windows Shell], _ResizeNextBorderHelper method [Windows Shell], IBrowserService2 interface, _ResizeNextBorderHelper,IBrowserService2._ResizeNextBorderHelper, shdeprecated/IBrowserService2::_ResizeNextBorderHelper, shell.IBrowserService2__ResizeNextBorderHelper, zone_IBrowserService2__ResizeNextBorderHelper
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],_ResizeNextBorderHelper method, IBrowserService2._ResizeNextBorderHelper, IBrowserService2::_ResizeNextBorderHelper, _ResizeNextBorderHelper, _ResizeNextBorderHelper method [Windows Shell], _ResizeNextBorderHelper method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ResizeNextBorderHelper, shell.IBrowserService2__ResizeNextBorderHelper, zone_IBrowserService2__ResizeNextBorderHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::_ResizeNextBorderHelper method
+# IBrowserService2::_ResizeNextBorderHelper
 
 
 ## -description

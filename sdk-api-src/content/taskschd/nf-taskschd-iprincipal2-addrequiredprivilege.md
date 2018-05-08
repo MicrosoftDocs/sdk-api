@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal2.AddRequiredPrivilege
-title: IPrincipal2::AddRequiredPrivilege method
+title: IPrincipal2::AddRequiredPrivilege
 author: windows-driver-content
 description: Adds the required privilege to the task process token.
 old-location: taskschd\iprincipal2_addrequiredprivilege.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 74b7fffa-7e16-43e1-9176-677d9948f448
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddRequiredPrivilege method [Task Scheduler], AddRequiredPrivilege method [Task Scheduler], IPrincipal2 interface, AddRequiredPrivilege,IPrincipal2.AddRequiredPrivilege, IPrincipal2, IPrincipal2 interface [Task Scheduler], AddRequiredPrivilege method, IPrincipal2::AddRequiredPrivilege, taskschd.iprincipal2_addrequiredprivilege, taskschd/IPrincipal2::AddRequiredPrivilege
+ms.keywords: AddRequiredPrivilege, AddRequiredPrivilege method [Task Scheduler], AddRequiredPrivilege method [Task Scheduler],IPrincipal2 interface, IPrincipal2 interface [Task Scheduler],AddRequiredPrivilege method, IPrincipal2.AddRequiredPrivilege, IPrincipal2::AddRequiredPrivilege, taskschd.iprincipal2_addrequiredprivilege, taskschd/IPrincipal2::AddRequiredPrivilege
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IPrincipal2::AddRequiredPrivilege method
+# IPrincipal2::AddRequiredPrivilege
 
 
 ## -description

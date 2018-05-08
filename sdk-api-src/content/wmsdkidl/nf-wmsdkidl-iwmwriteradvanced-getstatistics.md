@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetStatistics
-title: IWMWriterAdvanced::GetStatistics method
+title: IWMWriterAdvanced::GetStatistics
 author: windows-driver-content
 description: The GetStatistics method retrieves statistics describing the current writing operation.
 old-location: wmformat\iwmwriteradvanced_getstatistics.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 005c2039-e821-42ab-bead-1bf40f2ab171
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetStatistics method [windows Media Format], GetStatistics method [windows Media Format], IWMWriterAdvanced interface, GetStatistics,IWMWriterAdvanced.GetStatistics, IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], GetStatistics method, IWMWriterAdvanced::GetStatistics, IWMWriterAdvancedGetStatistics, wmformat.iwmwriteradvanced_getstatistics, wmsdkidl/IWMWriterAdvanced::GetStatistics
+ms.keywords: GetStatistics, GetStatistics method [windows Media Format], GetStatistics method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetStatistics method, IWMWriterAdvanced.GetStatistics, IWMWriterAdvanced::GetStatistics, IWMWriterAdvancedGetStatistics, wmformat.iwmwriteradvanced_getstatistics, wmsdkidl/IWMWriterAdvanced::GetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterAdvanced::GetStatistics method
+# IWMWriterAdvanced::GetStatistics
 
 
 ## -description

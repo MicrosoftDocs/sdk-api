@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCGamesSettings.IsBlocked
-title: IWPCGamesSettings::IsBlocked method
+title: IWPCGamesSettings::IsBlocked
 author: windows-driver-content
 description: Determines whether the specified game is blocked from execution.
 old-location: parcon\iwpcgamessettings_isblocked.htm
@@ -8,7 +8,7 @@ old-project: parcon
 ms.assetid: a8cdd3ca-8a0d-4e4a-8a54-eb3ddcab52ff
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWPCGamesSettings, IWPCGamesSettings interface, IsBlocked method, IWPCGamesSettings::IsBlocked, IsBlocked method, IsBlocked method, IWPCGamesSettings interface, IsBlocked,IWPCGamesSettings.IsBlocked, parcon.iwpcgamessettings_isblocked, wpcapi/IWPCGamesSettings::IsBlocked
+ms.keywords: IWPCGamesSettings interface,IsBlocked method, IWPCGamesSettings.IsBlocked, IWPCGamesSettings::IsBlocked, IsBlocked, IsBlocked method, IsBlocked method,IWPCGamesSettings interface, parcon.iwpcgamessettings_isblocked, wpcapi/IWPCGamesSettings::IsBlocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWPCGamesSettings::IsBlocked method
+# IWPCGamesSettings::IsBlocked
 
 
 ## -description

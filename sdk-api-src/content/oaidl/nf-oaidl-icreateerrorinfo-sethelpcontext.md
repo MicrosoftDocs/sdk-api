@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetHelpContext
-title: ICreateErrorInfo::SetHelpContext method
+title: ICreateErrorInfo::SetHelpContext
 author: windows-driver-content
 description: Sets the Help context identifier (ID) for the error.
 old-location: automat\icreateerrorinfo_sethelpcontext.htm
 old-project: automat
 ms.assetid: 5c65f4bd-21ad-4118-bbe8-e2ff65b96213
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], SetHelpContext method, ICreateErrorInfo::SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation], ICreateErrorInfo interface, SetHelpContext,ICreateErrorInfo.SetHelpContext, _oa96_ICreateErrorInfo_SetHelpContext, automat.icreateerrorinfo_sethelpcontext, oaidl/ICreateErrorInfo::SetHelpContext
+ms.date: 5/4/2018
+ms.keywords: ICreateErrorInfo interface [Automation],SetHelpContext method, ICreateErrorInfo.SetHelpContext, ICreateErrorInfo::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetHelpContext, automat.icreateerrorinfo_sethelpcontext, oaidl/ICreateErrorInfo::SetHelpContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateErrorInfo::SetHelpContext method
+# ICreateErrorInfo::SetHelpContext
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.GetTocCount
-title: ITocParser::GetTocCount method
+title: ITocParser::GetTocCount
 author: windows-driver-content
 description: The GetTocCount method retrieves the number of tables of contents, of a specified position type, in the TOC Parser object.
 old-location: mf\itocparser_gettoccount.htm
 old-project: medfound
 ms.assetid: 8ad80a20-cadb-4a0d-a39e-b627324df425
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTocCount method [Media Foundation], GetTocCount method [Media Foundation], ITocParser interface, GetTocCount,ITocParser.GetTocCount, ITocParser, ITocParser interface [Media Foundation], GetTocCount method, ITocParser::GetTocCount, codecapi.itocparser_gettoccount, mf.itocparser_gettoccount, wmcodecdsp/ITocParser::GetTocCount
+ms.date: 5/3/2018
+ms.keywords: GetTocCount, GetTocCount method [Media Foundation], GetTocCount method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocCount method, ITocParser.GetTocCount, ITocParser::GetTocCount, codecapi.itocparser_gettoccount, mf.itocparser_gettoccount, wmcodecdsp/ITocParser::GetTocCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocParser::GetTocCount method
+# ITocParser::GetTocCount
 
 
 ## -description

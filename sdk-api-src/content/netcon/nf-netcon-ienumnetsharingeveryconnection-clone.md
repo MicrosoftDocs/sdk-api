@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.IEnumNetSharingEveryConnection.Clone
-title: IEnumNetSharingEveryConnection::Clone method
+title: IEnumNetSharingEveryConnection::Clone
 author: windows-driver-content
 description: The Clone method creates a new enumeration interface from this enumeration.
 old-location: ics\ienumnetsharingeveryconnection_clone.htm
 old-project: ICS
 ms.assetid: 7adeec50-23a7-4a20-94a8-adc7767368ed
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Clone method [ICS/ICF], Clone method [ICS/ICF], IEnumNetSharingEveryConnection interface, Clone,IEnumNetSharingEveryConnection.Clone, IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], Clone method, IEnumNetSharingEveryConnection::Clone, _ics_ienumnetsharingeveryconnection_clone, ics.ienumnetsharingeveryconnection_clone, netcon/IEnumNetSharingEveryConnection::Clone
+ms.date: 5/1/2018
+ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingEveryConnection interface, IEnumNetSharingEveryConnection interface [ICS/ICF],Clone method, IEnumNetSharingEveryConnection.Clone, IEnumNetSharingEveryConnection::Clone, _ics_ienumnetsharingeveryconnection_clone, ics.ienumnetsharingeveryconnection_clone, netcon/IEnumNetSharingEveryConnection::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumNetSharingEveryConnection::Clone method
+# IEnumNetSharingEveryConnection::Clone
 
 
 ## -description

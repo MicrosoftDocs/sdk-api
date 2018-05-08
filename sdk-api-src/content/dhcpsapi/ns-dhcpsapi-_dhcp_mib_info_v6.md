@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_mib_info_v6.htm
 old-project: DHCP
 ms.assetid: 8b961666-4b55-47b4-be52-81b67c9d1cae
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_MIB_INFO_V6, DHCP_MIB_INFO_V6, DHCP_MIB_INFO_V6 structure [DHCP], PDHCP_MIB_INFO_V6, PDHCP_MIB_INFO_V6 structure pointer [DHCP], _DHCP_MIB_INFO_V6, dhcp.dhcp_mib_info_v6, dhcpsapi/DHCP_MIB_INFO_V6, dhcpsapi/PDHCP_MIB_INFO_V6"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,6 +121,18 @@ Integer value that contains the number of IPv6 scopes configured on the current 
 ### -field ScopeInfo
 
 Pointer to an array of <a href="https://msdn.microsoft.com/54f54734-3e4a-489f-a61d-85fd436d28ad">SCOPE_MIB_INFO</a> structures that contain statistics on individual scopes defined on the DHCPv6 server.
+
+
+### -field ScopeInfo.size_is
+
+ 
+
+
+### -field ScopeInfo.size_is.Scopes
+
+ 
+
+
 
 
 ## -see-also

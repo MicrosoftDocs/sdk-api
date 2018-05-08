@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.put_MaxSize
-title: IDataManager::put_MaxSize method
+title: IDataManager::put_MaxSize
 author: windows-driver-content
 description: Retrieves or sets the maximum disk space to be used by all data collectors in the set.
 old-location: pla\idatamanager_maxsize.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: a9508617-acb5-4e11-8f4a-72c8e5cb4cba
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataManager, IDataManager interface [PLA], MaxSize property, IDataManager.MaxSize, IDataManager::get_MaxSize, IDataManager::put_MaxSize, MaxSize property [PLA], MaxSize property [PLA], IDataManager interface, base.idatamanager_maxsize, pla.idatamanager_maxsize, pla/IDataManager::MaxSize, pla/IDataManager::get_MaxSize, pla/IDataManager::put_MaxSize, put_MaxSize,IDataManager.put_MaxSize
+ms.keywords: IDataManager interface [PLA],MaxSize property, IDataManager.MaxSize, IDataManager.put_MaxSize, IDataManager::MaxSize, IDataManager::get_MaxSize, IDataManager::put_MaxSize, MaxSize property [PLA], MaxSize property [PLA],IDataManager interface, base.idatamanager_maxsize, pla.idatamanager_maxsize, pla/IDataManager::MaxSize, pla/IDataManager::get_MaxSize, pla/IDataManager::put_MaxSize, put_MaxSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataManager::put_MaxSize method
+# IDataManager::put_MaxSize
 
 
 ## -description

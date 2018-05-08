@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoForceKeyFrame.SetKeyFrame
-title: IWMVideoForceKeyFrame::SetKeyFrame method
+title: IWMVideoForceKeyFrame::SetKeyFrame
 author: windows-driver-content
 description: Specifies that the current frame will be encoded as a key frame.
 old-location: mf\iwmvideoforcekeyframesetkeyframe.htm
 old-project: medfound
 ms.assetid: 5cfebe9f-45b1-4cba-8813-6c9405657323
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMVideoForceKeyFrame, IWMVideoForceKeyFrame interface [Media Foundation], SetKeyFrame method, IWMVideoForceKeyFrame::SetKeyFrame, SetKeyFrame method [Media Foundation], SetKeyFrame method [Media Foundation], IWMVideoForceKeyFrame interface, SetKeyFrame,IWMVideoForceKeyFrame.SetKeyFrame, codecapi.iwmvideoforcekeyframe_setkeyframe, codecapi.iwmvideoforcekeyframesetkeyframe, mf.iwmvideoforcekeyframesetkeyframe, wmcodecdsp/IWMVideoForceKeyFrame::SetKeyFrame
+ms.date: 5/3/2018
+ms.keywords: IWMVideoForceKeyFrame interface [Media Foundation],SetKeyFrame method, IWMVideoForceKeyFrame.SetKeyFrame, IWMVideoForceKeyFrame::SetKeyFrame, SetKeyFrame, SetKeyFrame method [Media Foundation], SetKeyFrame method [Media Foundation],IWMVideoForceKeyFrame interface, codecapi.iwmvideoforcekeyframe_setkeyframe, codecapi.iwmvideoforcekeyframesetkeyframe, mf.iwmvideoforcekeyframesetkeyframe, wmcodecdsp/IWMVideoForceKeyFrame::SetKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMVideoForceKeyFrame::SetKeyFrame method
+# IWMVideoForceKeyFrame::SetKeyFrame
 
 
 ## -description

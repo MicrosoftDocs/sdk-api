@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateAttributes
-title: ICertServerExit::EnumerateAttributes method
+title: ICertServerExit::EnumerateAttributes
 author: windows-driver-content
 description: Returns the name of the next request attribute within the current context, then increments the internal pointer to the following attribute.
 old-location: security\icertserverexit_enumerateattributes.htm
 old-project: SecCrypto
 ms.assetid: df778207-3b20-45a5-a705-8dba566eb658
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertServerExit object [Security], EnumerateAttributes method, EnumerateAttributes method [Security], EnumerateAttributes method [Security], CCertServerExit object, EnumerateAttributes method [Security], ICertServerExit interface, EnumerateAttributes,ICertServerExit.EnumerateAttributes, ICertServerExit, ICertServerExit interface [Security], EnumerateAttributes method, ICertServerExit::EnumerateAttributes, _certsrv_icertserverexit_enumerateattributes, certif/ICertServerExit::EnumerateAttributes, security.icertserverexit_enumerateattributes
+ms.date: 4/30/2018
+ms.keywords: CCertServerExit object [Security],EnumerateAttributes method, EnumerateAttributes, EnumerateAttributes method [Security], EnumerateAttributes method [Security],CCertServerExit object, EnumerateAttributes method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateAttributes method, ICertServerExit.EnumerateAttributes, ICertServerExit::EnumerateAttributes, _certsrv_icertserverexit_enumerateattributes, certif/ICertServerExit::EnumerateAttributes, security.icertserverexit_enumerateattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerExit::EnumerateAttributes method
+# ICertServerExit::EnumerateAttributes
 
 
 ## -description

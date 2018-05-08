@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.HasAlpha
-title: IWICPalette::HasAlpha method
+title: IWICPalette::HasAlpha
 author: windows-driver-content
 description: Indicates whether the palette contains an entry that is non-opaque (that is, an entry with an alpha that is less than 1).
 old-location: wic\_wic_codec_iwicpalette_hasalpha.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 7c2cd523-04e4-4f19-b7f3-cc2af7604283
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: HasAlpha method [Windows Imaging Component], HasAlpha method [Windows Imaging Component], IWICPalette interface, HasAlpha,IWICPalette.HasAlpha, IWICPalette, IWICPalette interface [Windows Imaging Component], HasAlpha method, IWICPalette::HasAlpha, _wic_codec_iwicpalette_hasalpha, wic._wic_codec_iwicpalette_hasalpha, wincodec/IWICPalette::HasAlpha
+ms.keywords: HasAlpha, HasAlpha method [Windows Imaging Component], HasAlpha method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],HasAlpha method, IWICPalette.HasAlpha, IWICPalette::HasAlpha, _wic_codec_iwicpalette_hasalpha, wic._wic_codec_iwicpalette_hasalpha, wincodec/IWICPalette::HasAlpha
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICPalette::HasAlpha method
+# IWICPalette::HasAlpha
 
 
 ## -description

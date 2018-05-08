@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.CreateClassEnumAsync
-title: IWbemServices::CreateClassEnumAsync method
+title: IWbemServices::CreateClassEnumAsync
 author: windows-driver-content
 description: The IWbemServices::CreateClassEnumAsync method returns an enumeration of all classes that the class provider supports.
 old-location: wmi\iwbemservices_createclassenumasync.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 02b81f48-c6a0-44db-86b9-936331b15cc4
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CreateClassEnumAsync method [Windows Management Instrumentation], CreateClassEnumAsync method [Windows Management Instrumentation], IWbemServices interface, CreateClassEnumAsync,IWbemServices.CreateClassEnumAsync, IWbemServices, IWbemServices interface [Windows Management Instrumentation], CreateClassEnumAsync method, IWbemServices::CreateClassEnumAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createclassenumasync, wbemcli/IWbemServices::CreateClassEnumAsync, wmi.iwbemservices_createclassenumasync
+ms.keywords: CreateClassEnumAsync, CreateClassEnumAsync method [Windows Management Instrumentation], CreateClassEnumAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateClassEnumAsync method, IWbemServices.CreateClassEnumAsync, IWbemServices::CreateClassEnumAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createclassenumasync, wbemcli/IWbemServices::CreateClassEnumAsync, wmi.iwbemservices_createclassenumasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,7 +58,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemServices::CreateClassEnumAsync method
+# IWbemServices::CreateClassEnumAsync
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateChar16Array
-title: IPropertyValueStatics::CreateChar16Array method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified array of Unicode characters.
 old-location: winrt\ipropertyvaluestatics_createchar16array.htm
 old-project: WinRT
 ms.assetid: 4d78015a-dfe1-49be-8523-a5b0f96f7c58
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateChar16Array method [Windows Runtime], CreateChar16Array method [Windows Runtime], IPropertyValueStatics interface, CreateChar16Array,IPropertyValueStatics.CreateChar16Array, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateChar16Array method, IPropertyValueStatics::CreateChar16Array, windows/IPropertyValueStatics::CreateChar16Array, winrt.ipropertyvaluefactory_createchar16array, winrt.ipropertyvaluestatics_createchar16array
+ms.date: 5/4/2018
+ms.keywords: CreateChar16Array, CreateChar16Array method [Windows Runtime], CreateChar16Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateChar16Array method, IPropertyValueStatics.CreateChar16Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateChar16Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateChar16Array, winrt.ipropertyvaluefactory_createchar16array, winrt.ipropertyvaluestatics_createchar16array
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateChar16Array method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Silent
-title: IX509PrivateKey::put_Silent method
+title: IX509PrivateKey::put_Silent
 author: windows-driver-content
 description: Specifies or retrieves a Boolean value that indicates whether the Certificate Enrollment Control is allowed to display a dialog box when the private key is accessed.
 old-location: security\ix509privatekey_silent_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 4f61a513-620c-48c4-b9dd-032b13a9f654
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], Silent property, IX509PrivateKey.Silent, IX509PrivateKey::get_Silent, IX509PrivateKey::put_Silent, Silent property [Security], Silent property [Security], IX509PrivateKey interface, certenroll/IX509PrivateKey::Silent, certenroll/IX509PrivateKey::get_Silent, certenroll/IX509PrivateKey::put_Silent, put_Silent,IX509PrivateKey.put_Silent, security.ix509privatekey_silent_property
+ms.keywords: IX509PrivateKey interface [Security],Silent property, IX509PrivateKey.Silent, IX509PrivateKey.put_Silent, IX509PrivateKey::Silent, IX509PrivateKey::get_Silent, IX509PrivateKey::put_Silent, Silent property [Security], Silent property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Silent, certenroll/IX509PrivateKey::get_Silent, certenroll/IX509PrivateKey::put_Silent, put_Silent, security.ix509privatekey_silent_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PrivateKey::put_Silent method
+# IX509PrivateKey::put_Silent
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateManager.ExportTemplates
-title: IFsrmQuotaTemplateManager::ExportTemplates method
+title: IFsrmQuotaTemplateManager::ExportTemplates
 author: windows-driver-content
 description: Exports the quota templates as an XML string.
 old-location: fsrm\ifsrmquotatemplatemanager_exporttemplates.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 36ba071b-4db2-42fb-90a8-838c45dfdd16
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ExportTemplates method [File Server Resource Manager], ExportTemplates method [File Server Resource Manager], FsrmQuotaTemplateManager class, ExportTemplates method [File Server Resource Manager], IFsrmQuotaTemplateManager interface, ExportTemplates,IFsrmQuotaTemplateManager.ExportTemplates, FsrmQuotaTemplateManager class [File Server Resource Manager], ExportTemplates method, IFsrmQuotaTemplateManager, IFsrmQuotaTemplateManager interface [File Server Resource Manager], ExportTemplates method, IFsrmQuotaTemplateManager::ExportTemplates, fs.ifsrmquotatemplatemanager_exporttemplates, fsrm.ifsrmquotatemplatemanager_exporttemplates, fsrmquota/IFsrmQuotaTemplateManager::ExportTemplates
+ms.keywords: ExportTemplates, ExportTemplates method [File Server Resource Manager], ExportTemplates method [File Server Resource Manager],FsrmQuotaTemplateManager class, ExportTemplates method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, FsrmQuotaTemplateManager class [File Server Resource Manager],ExportTemplates method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],ExportTemplates method, IFsrmQuotaTemplateManager.ExportTemplates, IFsrmQuotaTemplateManager::ExportTemplates, fs.ifsrmquotatemplatemanager_exporttemplates, fsrm.ifsrmquotatemplatemanager_exporttemplates, fsrmquota/IFsrmQuotaTemplateManager::ExportTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaTemplateManager::ExportTemplates method
+# IFsrmQuotaTemplateManager::ExportTemplates
 
 
 ## -description

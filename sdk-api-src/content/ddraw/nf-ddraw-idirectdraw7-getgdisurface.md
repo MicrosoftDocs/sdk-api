@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetGDISurface
-title: IDirectDraw7::GetGDISurface method
+title: IDirectDraw7::GetGDISurface
 author: windows-driver-content
 description: Retrieves the DirectDrawSurface object that currently represents the surface memory that GDI is treating as the primary surface.
 old-location: directdraw\idirectdraw7_getgdisurface.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 4d0b827d-86f8-4d71-a193-9e330db0fbfd
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetGDISurface method [DirectDraw], GetGDISurface method [DirectDraw], IDirectDraw7 interface, GetGDISurface,IDirectDraw7.GetGDISurface, IDirectDraw7, IDirectDraw7 interface [DirectDraw], GetGDISurface method, IDirectDraw7::GetGDISurface, ddraw/IDirectDraw7::GetGDISurface, directdraw.idirectdraw7_getgdisurface
+ms.keywords: GetGDISurface, GetGDISurface method [DirectDraw], GetGDISurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetGDISurface method, IDirectDraw7.GetGDISurface, IDirectDraw7::GetGDISurface, ddraw/IDirectDraw7::GetGDISurface, directdraw.idirectdraw7_getgdisurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDraw7::GetGDISurface method
+# IDirectDraw7::GetGDISurface
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: automat\typedesc.htm
 old-project: automat
 ms.assetid: 45a8c5bf-c776-49da-8517-29055a5e74bc
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: TYPEDESC, TYPEDESC structure [Automation], _oa96_TYPEDESC, automat.typedesc, oaidl/TYPEDESC, tagTYPEDESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,24 +63,24 @@ Describes the type of a variable, the return type of a function, or the type of 
  
 
 
-### -field vt
+### -field DUMMYUNIONNAME.lptdesc
 
-The variant type.
-
-
-#### - hreftype
-
-With VT_USER_DEFINED, this is used to get a TypeInfo for the UDT.
+ With VT_PTR, the type pointed to.
 
 
-#### - lpadesc
+### -field DUMMYUNIONNAME.lpadesc
 
 With VT_CARRAY...
 
 
-#### - lptdesc
+### -field DUMMYUNIONNAME.hreftype
 
- With VT_PTR, the type pointed to.
+With VT_USER_DEFINED, this is used to get a TypeInfo for the UDT.
+
+
+### -field vt
+
+The variant type.
 
 
 ## -remarks

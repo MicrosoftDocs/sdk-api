@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.OnStatusChange
-title: ITfContextOwnerServices::OnStatusChange method
+title: ITfContextOwnerServices::OnStatusChange
 author: windows-driver-content
 description: The ITfContextOwnerServices::OnStatusChange method is called by the context owner when the dwDynamicFlags member of the TS_STATUS structure returned by the ITfContextOwner::GetStatus method changes.
 old-location: tsf\itfcontextownerservices_onstatuschange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: da450910-d592-49c0-8df7-bc2f4037c4d2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfContextOwnerServices, ITfContextOwnerServices interface [Text Services Framework], OnStatusChange method, ITfContextOwnerServices::OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework], ITfContextOwnerServices interface, OnStatusChange,ITfContextOwnerServices.OnStatusChange, _tsf_itfcontextownerservices_onstatuschange_ref, msctf/ITfContextOwnerServices::OnStatusChange, tsf.itfcontextownerservices_onstatuschange
+ms.keywords: ITfContextOwnerServices interface [Text Services Framework],OnStatusChange method, ITfContextOwnerServices.OnStatusChange, ITfContextOwnerServices::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_onstatuschange_ref, msctf/ITfContextOwnerServices::OnStatusChange, tsf.itfcontextownerservices_onstatuschange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwnerServices::OnStatusChange method
+# ITfContextOwnerServices::OnStatusChange
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:dxvahd.IDXVAHD_VideoProcessor.GetVideoProcessBltState
-title: IDXVAHD_VideoProcessor::GetVideoProcessBltState method
+title: IDXVAHD_VideoProcessor::GetVideoProcessBltState
 author: windows-driver-content
 description: Gets the value of a state parameter for blit operations performed by a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_videoprocessor_getvideoprocessbltstate.htm
 old-project: medfound
 ms.assetid: 5fdb0d39-7a64-41fd-8f70-4085ddbc7ebc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoProcessBltState method [Media Foundation], GetVideoProcessBltState method [Media Foundation], IDXVAHD_VideoProcessor interface, GetVideoProcessBltState,IDXVAHD_VideoProcessor.GetVideoProcessBltState, IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], GetVideoProcessBltState method, IDXVAHD_VideoProcessor::GetVideoProcessBltState, dxvahd/IDXVAHD_VideoProcessor::GetVideoProcessBltState, mf.idxvahd_videoprocessor_getvideoprocessbltstate
+ms.date: 5/3/2018
+ms.keywords: GetVideoProcessBltState, GetVideoProcessBltState method [Media Foundation], GetVideoProcessBltState method [Media Foundation],IDXVAHD_VideoProcessor interface, IDXVAHD_VideoProcessor interface [Media Foundation],GetVideoProcessBltState method, IDXVAHD_VideoProcessor.GetVideoProcessBltState, IDXVAHD_VideoProcessor::GetVideoProcessBltState, dxvahd/IDXVAHD_VideoProcessor::GetVideoProcessBltState, mf.idxvahd_videoprocessor_getvideoprocessbltstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXVAHD_VideoProcessor::GetVideoProcessBltState method
+# IDXVAHD_VideoProcessor::GetVideoProcessBltState
 
 
 ## -description

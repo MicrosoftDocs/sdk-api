@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetRecordServiceId
-title: IDvbLogicalChannelDescriptor::GetRecordServiceId method
+title: IDvbLogicalChannelDescriptor::GetRecordServiceId
 author: windows-driver-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.  .
 old-location: mstv\idvblogicalchanneldescriptor_getrecordserviceid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ab0670e9-400c-4a3f-8afa-e323a3915dc3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordServiceId method [DirectShow], GetRecordServiceId method [DirectShow], IDvbLogicalChannelDescriptor interface, GetRecordServiceId,IDvbLogicalChannelDescriptor.GetRecordServiceId, IDvbLogicalChannelDescriptor, IDvbLogicalChannelDescriptor interface [DirectShow], GetRecordServiceId method, IDvbLogicalChannelDescriptor::GetRecordServiceId, IDvbLogicalChannelDescriptorGetRecordServiceId, dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordServiceId, mstv.idvblogicalchanneldescriptor_getrecordserviceid
+ms.keywords: GetRecordServiceId, GetRecordServiceId method [DirectShow], GetRecordServiceId method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetRecordServiceId method, IDvbLogicalChannelDescriptor.GetRecordServiceId, IDvbLogicalChannelDescriptor::GetRecordServiceId, IDvbLogicalChannelDescriptorGetRecordServiceId, dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordServiceId, mstv.idvblogicalchanneldescriptor_getrecordserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLogicalChannelDescriptor::GetRecordServiceId method
+# IDvbLogicalChannelDescriptor::GetRecordServiceId
 
 
 ## -description

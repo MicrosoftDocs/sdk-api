@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidWebDVD2.put_Bookmark
-title: IMSVidWebDVD2::put_Bookmark method
+title: IMSVidWebDVD2::put_Bookmark
 author: windows-driver-content
 description: Saves or loads the playback position and state information for a DVD.
 old-location: mstv\imsvidwebdvd2_bookmark.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e7b0f28d-16f3-4dd4-8b28-f46e492f5c8e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Bookmark property [Microsoft TV Technologies], Bookmark property [Microsoft TV Technologies], IMSVidWebDVD2 interface, IMSVidWebDVD2, IMSVidWebDVD2 interface [Microsoft TV Technologies], Bookmark property, IMSVidWebDVD2.Bookmark, IMSVidWebDVD2::get_Bookmark, IMSVidWebDVD2::put_Bookmark, mstv.imsvidwebdvd2_bookmark, put_Bookmark,IMSVidWebDVD2.put_Bookmark, segment/IMSVidWebDVD2::Bookmark, segment/IMSVidWebDVD2::get_Bookmark, segment/IMSVidWebDVD2::put_Bookmark
+ms.keywords: Bookmark property [Microsoft TV Technologies], Bookmark property [Microsoft TV Technologies],IMSVidWebDVD2 interface, IMSVidWebDVD2 interface [Microsoft TV Technologies],Bookmark property, IMSVidWebDVD2.Bookmark, IMSVidWebDVD2.put_Bookmark, IMSVidWebDVD2::Bookmark, IMSVidWebDVD2::get_Bookmark, IMSVidWebDVD2::put_Bookmark, mstv.imsvidwebdvd2_bookmark, put_Bookmark, segment/IMSVidWebDVD2::Bookmark, segment/IMSVidWebDVD2::get_Bookmark, segment/IMSVidWebDVD2::put_Bookmark
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidWebDVD2::put_Bookmark method
+# IMSVidWebDVD2::put_Bookmark
 
 
 ## -description

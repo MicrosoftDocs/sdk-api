@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], IDiscFormat2Data interface [IMAPI], described, imapi.idiscformat2data, imapi2/IDiscFormat2Data
+ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], IDiscFormat2Data interface [IMAPI],described, imapi.idiscformat2data, imapi2/IDiscFormat2Data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

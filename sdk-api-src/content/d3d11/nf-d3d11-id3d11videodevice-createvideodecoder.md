@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoDecoder
-title: ID3D11VideoDevice::CreateVideoDecoder method
+title: ID3D11VideoDevice::CreateVideoDecoder
 author: windows-driver-content
 description: Creates a video decoder device for Microsoft Direct3D 11.
 old-location: mf\id3d11videodevice_createvideodecoder.htm
 old-project: medfound
 ms.assetid: 7EC2C7C3-F2EB-4357-BD53-308ABFFC9BE8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateVideoDecoder method [Media Foundation], CreateVideoDecoder method [Media Foundation], ID3D11VideoDevice interface, CreateVideoDecoder,ID3D11VideoDevice.CreateVideoDecoder, ID3D11VideoDevice, ID3D11VideoDevice interface [Media Foundation], CreateVideoDecoder method, ID3D11VideoDevice::CreateVideoDecoder, d3d11/ID3D11VideoDevice::CreateVideoDecoder, mf.id3d11videodevice_createvideodecoder
+ms.date: 5/3/2018
+ms.keywords: CreateVideoDecoder, CreateVideoDecoder method [Media Foundation], CreateVideoDecoder method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoDecoder method, ID3D11VideoDevice.CreateVideoDecoder, ID3D11VideoDevice::CreateVideoDecoder, d3d11/ID3D11VideoDevice::CreateVideoDecoder, mf.id3d11videodevice_createvideodecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoDevice::CreateVideoDecoder method
+# ID3D11VideoDevice::CreateVideoDecoder
 
 
 ## -description

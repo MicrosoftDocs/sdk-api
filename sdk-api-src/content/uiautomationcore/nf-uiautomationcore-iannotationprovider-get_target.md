@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAnnotationProvider.get_Target
-title: IAnnotationProvider::get_Target method
+title: IAnnotationProvider::get_Target
 author: windows-driver-content
 description: The UI Automation element that is being annotated.
 old-location: winauto\uiauto_IAnnotationProvider_Target.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2ACCB4D9-E2EA-4962-8014-7B8382251A39
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAnnotationProvider, IAnnotationProvider interface [Windows Accessibility], Target property, IAnnotationProvider.Target, IAnnotationProvider::get_Target, Target property [Windows Accessibility], Target property [Windows Accessibility], IAnnotationProvider interface, get_Target,IAnnotationProvider.get_Target, uiautomationcore/IAnnotationProvider::Target, uiautomationcore/IAnnotationProvider::get_Target, winauto.uiauto_IAnnotationProvider_Target
+ms.keywords: IAnnotationProvider interface [Windows Accessibility],Target property, IAnnotationProvider.Target, IAnnotationProvider.get_Target, IAnnotationProvider::Target, IAnnotationProvider::get_Target, Target property [Windows Accessibility], Target property [Windows Accessibility],IAnnotationProvider interface, get_Target, uiautomationcore/IAnnotationProvider::Target, uiautomationcore/IAnnotationProvider::get_Target, winauto.uiauto_IAnnotationProvider_Target
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnnotationProvider::get_Target method
+# IAnnotationProvider::get_Target
 
 
 ## -description

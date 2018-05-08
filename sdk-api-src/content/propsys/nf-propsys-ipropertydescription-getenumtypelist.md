@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetEnumTypeList
-title: IPropertyDescription::GetEnumTypeList method
+title: IPropertyDescription::GetEnumTypeList
 author: windows-driver-content
 description: Gets an instance of an IPropertyEnumTypeList, which can be used to enumerate the possible values for a property.
 old-location: properties\IPropertyDescription_GetEnumTypeList.htm
 old-project: properties
 ms.assetid: ab6c41c2-d85c-4ff9-9061-043303eb1a83
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetEnumTypeList method [Windows Properties], GetEnumTypeList method [Windows Properties], IPropertyDescription interface, GetEnumTypeList,IPropertyDescription.GetEnumTypeList, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetEnumTypeList method, IPropertyDescription::GetEnumTypeList, properties.IPropertyDescription_GetEnumTypeList, propsys/IPropertyDescription::GetEnumTypeList, shell.IPropertyDescription_GetEnumTypeList, shell_IPropertyDescription_GetEnumTypeList
+ms.date: 4/27/2018
+ms.keywords: GetEnumTypeList, GetEnumTypeList method [Windows Properties], GetEnumTypeList method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetEnumTypeList method, IPropertyDescription.GetEnumTypeList, IPropertyDescription::GetEnumTypeList, properties.IPropertyDescription_GetEnumTypeList, propsys/IPropertyDescription::GetEnumTypeList, shell.IPropertyDescription_GetEnumTypeList, shell_IPropertyDescription_GetEnumTypeList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescription::GetEnumTypeList method
+# IPropertyDescription::GetEnumTypeList
 
 
 ## -description

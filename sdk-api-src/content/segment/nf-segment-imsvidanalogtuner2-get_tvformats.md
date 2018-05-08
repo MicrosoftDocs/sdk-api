@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner2.get_TVFormats
-title: IMSVidAnalogTuner2::get_TVFormats method
+title: IMSVidAnalogTuner2::get_TVFormats
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\imsvidanalogtuner2_get_tvformats.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 82816d89-0a15-4868-8e86-12b683de03b1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidAnalogTuner2, IMSVidAnalogTuner2 interface [Microsoft TV Technologies], get_TVFormats method, IMSVidAnalogTuner2::get_TVFormats, IMSVidAnalogTuner2getTVFormats, get_TVFormats method [Microsoft TV Technologies], get_TVFormats method [Microsoft TV Technologies], IMSVidAnalogTuner2 interface, get_TVFormats,IMSVidAnalogTuner2.get_TVFormats, mstv.imsvidanalogtuner2_get_tvformats, segment/IMSVidAnalogTuner2::get_TVFormats
+ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_TVFormats method, IMSVidAnalogTuner2.get_TVFormats, IMSVidAnalogTuner2::get_TVFormats, IMSVidAnalogTuner2getTVFormats, get_TVFormats, get_TVFormats method [Microsoft TV Technologies], get_TVFormats method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_tvformats, segment/IMSVidAnalogTuner2::get_TVFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidAnalogTuner2::get_TVFormats method
+# IMSVidAnalogTuner2::get_TVFormats
 
 
 ## -description

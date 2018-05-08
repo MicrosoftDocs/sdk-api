@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Flags
-title: IRDPSRAPIWindow::get_Flags method
+title: IRDPSRAPIWindow::get_Flags
 author: windows-driver-content
 description: Returns the flags on the current window.
 old-location: rdp\irdpsrapiwindow_flags.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 64215325-fb94-4708-9391-5ef86c2c0076
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: Flags property [RDP], Flags property [RDP], IRDPSRAPIWindow interface, Flags property [RDP], RDPSRAPIWindow object, IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], Flags property, IRDPSRAPIWindow.Flags, IRDPSRAPIWindow::get_Flags, RDPSRAPIWindow object [RDP], Flags property, get_Flags,IRDPSRAPIWindow.get_Flags, rdp.irdpsrapiwindow_flags, rdpencomapi/IRDPSRAPIWindow::Flags, rdpencomapi/IRDPSRAPIWindow::get_Flags
+ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIWindow interface, Flags property [RDP],RDPSRAPIWindow object, IRDPSRAPIWindow interface [RDP],Flags property, IRDPSRAPIWindow.Flags, IRDPSRAPIWindow.get_Flags, IRDPSRAPIWindow::Flags, IRDPSRAPIWindow::get_Flags, RDPSRAPIWindow object [RDP],Flags property, get_Flags, rdp.irdpsrapiwindow_flags, rdpencomapi/IRDPSRAPIWindow::Flags, rdpencomapi/IRDPSRAPIWindow::get_Flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIWindow::get_Flags method
+# IRDPSRAPIWindow::get_Flags
 
 
 ## -description

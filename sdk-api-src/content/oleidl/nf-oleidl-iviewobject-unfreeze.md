@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IViewObject.Unfreeze
-title: IViewObject::Unfreeze method
+title: IViewObject::Unfreeze
 author: windows-driver-content
 description: Releases a drawing that was previously frozen using IViewObject::Freeze. The most common use of this method is for banded printing.
 old-location: com\iviewobject_unfreeze.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 76f3c5f6-3f29-4a89-94e2-f77489e6a744
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IViewObject, IViewObject interface [COM], Unfreeze method, IViewObject::Unfreeze, Unfreeze method [COM], Unfreeze method [COM], IViewObject interface, Unfreeze,IViewObject.Unfreeze, _ole_iviewobject_unfreeze, com.iviewobject_unfreeze, oleidl/IViewObject::Unfreeze
+ms.keywords: IViewObject interface [COM],Unfreeze method, IViewObject.Unfreeze, IViewObject::Unfreeze, Unfreeze, Unfreeze method [COM], Unfreeze method [COM],IViewObject interface, _ole_iviewobject_unfreeze, com.iviewobject_unfreeze, oleidl/IViewObject::Unfreeze
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IViewObject::Unfreeze method
+# IViewObject::Unfreeze
 
 
 ## -description

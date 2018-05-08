@@ -7,7 +7,7 @@ old-location: audio\apoinitsystemeffects2.htm
 old-project: audio
 ms.assetid: 87E59FCE-1965-4B23-B1F5-F54FEDD5A83E
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/1/2018
 ms.keywords: APOInitSystemEffects2, APOInitSystemEffects2 structure [Audio Devices], PAPOInitSystemEffects2, PAPOInitSystemEffects2 structure pointer [Audio Devices], audio.apoinitsystemeffects2, audioenginebaseapo/APOInitSystemEffects2, audioenginebaseapo/PAPOInitSystemEffects2
 ms.prod: windows-hardware
 ms.technology: windows-devices

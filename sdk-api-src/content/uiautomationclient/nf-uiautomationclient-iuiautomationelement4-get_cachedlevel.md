@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CachedLevel
-title: IUIAutomationElement4::get_CachedLevel method
+title: IUIAutomationElement4::get_CachedLevel
 author: windows-driver-content
 description: Returns the cached 1-based integer for the level (hierarchy) for the element.
 old-location: winauto\uiauto_IUIAutomationElement4_CachedLevel.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: FDFF6A11-4B96-4C6F-A488-FEC2E4C4C310
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedLevel property [Windows Accessibility], CachedLevel property [Windows Accessibility], IUIAutomationElement4 interface, IUIAutomationElement4, IUIAutomationElement4 interface [Windows Accessibility], CachedLevel property, IUIAutomationElement4.CachedLevel, IUIAutomationElement4::get_CachedLevel, get_CachedLevel,IUIAutomationElement4.get_CachedLevel, uiautomationclient/IUIAutomationElement4::CachedLevel, uiautomationclient/IUIAutomationElement4::get_CachedLevel, winauto.uiauto_IUIAutomationElement4_CachedLevel
+ms.keywords: CachedLevel property [Windows Accessibility], CachedLevel property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedLevel property, IUIAutomationElement4.CachedLevel, IUIAutomationElement4.get_CachedLevel, IUIAutomationElement4::CachedLevel, IUIAutomationElement4::get_CachedLevel, get_CachedLevel, uiautomationclient/IUIAutomationElement4::CachedLevel, uiautomationclient/IUIAutomationElement4::get_CachedLevel, winauto.uiauto_IUIAutomationElement4_CachedLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement4::get_CachedLevel method
+# IUIAutomationElement4::get_CachedLevel
 
 
 ## -description

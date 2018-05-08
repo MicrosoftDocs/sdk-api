@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetSourceUri
-title: IOpcRelationship::GetSourceUri method
+title: IOpcRelationship::GetSourceUri
 author: windows-driver-content
 description: Gets the URI of the relationship&#160;source.
 old-location: opc\iopcrelationship_getsourceuri.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 8e2587af-fce0-437a-9608-6824e861d699
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions], IOpcRelationship interface, GetSourceUri,IOpcRelationship.GetSourceUri, IOpcRelationship, IOpcRelationship interface [Open Packaging Conventions], GetSourceUri method, IOpcRelationship::GetSourceUri, msopc/IOpcRelationship::GetSourceUri, opc.iopcrelationship_getsourceuri
+ms.keywords: GetSourceUri, GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetSourceUri method, IOpcRelationship.GetSourceUri, IOpcRelationship::GetSourceUri, msopc/IOpcRelationship::GetSourceUri, opc.iopcrelationship_getsourceuri
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcRelationship::GetSourceUri method
+# IOpcRelationship::GetSourceUri
 
 
 ## -description

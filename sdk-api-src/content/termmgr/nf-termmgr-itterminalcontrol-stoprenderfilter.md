@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITTerminalControl.StopRenderFilter
-title: ITTerminalControl::StopRenderFilter method
+title: ITTerminalControl::StopRenderFilter
 author: windows-driver-content
 description: The StopRenderFilter method stops the rightmost render filter in the terminal. Needed for dynamic filter graphs.
 old-location: tapi3\itterminalcontrol_stoprenderfilter.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 30a47de7-c54d-4600-9b4b-07013f962c4d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITTerminalControl, ITTerminalControl interface [TAPI 2.2], StopRenderFilter method, ITTerminalControl::StopRenderFilter, StopRenderFilter method [TAPI 2.2], StopRenderFilter method [TAPI 2.2], ITTerminalControl interface, StopRenderFilter,ITTerminalControl.StopRenderFilter, _tapi3_itterminalcontrol_stoprenderfilter, tapi3.itterminalcontrol_stoprenderfilter, termmgr/ITTerminalControl::StopRenderFilter
+ms.keywords: ITTerminalControl interface [TAPI 2.2],StopRenderFilter method, ITTerminalControl.StopRenderFilter, ITTerminalControl::StopRenderFilter, StopRenderFilter, StopRenderFilter method [TAPI 2.2], StopRenderFilter method [TAPI 2.2],ITTerminalControl interface, _tapi3_itterminalcontrol_stoprenderfilter, tapi3.itterminalcontrol_stoprenderfilter, termmgr/ITTerminalControl::StopRenderFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITTerminalControl::StopRenderFilter method
+# ITTerminalControl::StopRenderFilter
 
 
 ## -description

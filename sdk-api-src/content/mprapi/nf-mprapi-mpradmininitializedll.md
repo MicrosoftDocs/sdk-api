@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 0a53d84e-d9be-4d18-a619-7d92c17b76bb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: MprAdminInitializeDll, MprAdminInitializeDll callback function [RAS], _mpr_mpradmininitializedll, mprapi/MprAdminInitializeDll, rras.mpradmininitializedll
+ms.keywords: MprAdminInitializeDll, MprAdminInitializeDll callback, MprAdminInitializeDll callback function [RAS], _mpr_mpradmininitializedll, mprapi/MprAdminInitializeDll, rras.mpradmininitializedll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

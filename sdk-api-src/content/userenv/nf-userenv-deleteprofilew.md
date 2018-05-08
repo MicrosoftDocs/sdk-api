@@ -7,7 +7,7 @@ old-location: shell\DeleteProfile.htm
 old-project: shell
 ms.assetid: 48a08d9a-4fdc-43ab-8323-c49bc2d0a58d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: DeleteProfile, DeleteProfile function [Windows Shell], DeleteProfileA, DeleteProfileW, _shell_DeleteProfile, shell.DeleteProfile, userenv/DeleteProfile, userenv/DeleteProfileA, userenv/DeleteProfileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

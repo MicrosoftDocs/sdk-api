@@ -7,7 +7,7 @@ old-location: iphlp\flushippathtable.htm
 old-project: IpHlp
 ms.assetid: 3b28e0cd-9cab-41ca-b58c-7632768318c2
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, FlushIpPathTable, FlushIpPathTable function [IP Helper], iphlp.flushippathtable, netioapi/FlushIpPathTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

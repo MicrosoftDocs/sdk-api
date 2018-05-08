@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.AddPolicyReader
-title: IAzApplication::AddPolicyReader method
+title: IAzApplication::AddPolicyReader
 author: windows-driver-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy readers.
 old-location: security\iazapplication_addpolicyreader.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: fb44461c-e494-4393-bdcd-0e759f6fbae1
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddPolicyReader method [Security], AddPolicyReader method [Security], AzApplication object, AddPolicyReader method [Security], IAzApplication interface, AddPolicyReader,IAzApplication.AddPolicyReader, AzApplication object [Security], AddPolicyReader method, IAzApplication, IAzApplication interface [Security], AddPolicyReader method, IAzApplication::AddPolicyReader, azroles/IAzApplication::AddPolicyReader, security.iazapplication_addpolicyreader
+ms.keywords: AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzApplication object, AddPolicyReader method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyReader method, IAzApplication interface [Security],AddPolicyReader method, IAzApplication.AddPolicyReader, IAzApplication::AddPolicyReader, azroles/IAzApplication::AddPolicyReader, security.iazapplication_addpolicyreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::AddPolicyReader method
+# IAzApplication::AddPolicyReader
 
 
 ## -description

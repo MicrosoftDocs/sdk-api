@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: ffe343fa-2837-41f7-b7e0-097788fb5d4e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage3, IFileSystemImage3 interface [IMAPI], IFileSystemImage3 interface [IMAPI], described, imapi.ifilesystemimage3, imapi2fs/IFileSystemImage3
+ms.keywords: IFileSystemImage3, IFileSystemImage3 interface [IMAPI], IFileSystemImage3 interface [IMAPI],described, imapi.ifilesystemimage3, imapi2fs/IFileSystemImage3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

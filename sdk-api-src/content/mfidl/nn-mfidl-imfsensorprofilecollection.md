@@ -7,8 +7,8 @@ old-location: mf\imfsensorprofilecollection.htm
 old-project: medfound
 ms.assetid: 406EDC3F-39AD-41E0-A8AA-E4476C93F353
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSensorProfileCollection, IMFSensorProfileCollection interface [Media Foundation], IMFSensorProfileCollection interface [Media Foundation], described, mf.imfsensorprofilecollection, mfidl/IMFSensorProfileCollection
+ms.date: 5/3/2018
+ms.keywords: IMFSensorProfileCollection, IMFSensorProfileCollection interface [Media Foundation], IMFSensorProfileCollection interface [Media Foundation],described, mf.imfsensorprofilecollection, mfidl/IMFSensorProfileCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

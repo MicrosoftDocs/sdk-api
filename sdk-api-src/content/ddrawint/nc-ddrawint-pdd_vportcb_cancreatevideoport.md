@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 742c7af2-0611-4cca-b18c-e14b18068d7e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DdVideoPortCanCreate, DdVideoPortCanCreate callback function [Display Devices], PDD_VPORTCB_CANCREATEVIDEOPORT, ddfncs_dfe3285f-627c-4f0d-b7e7-ffd87d88fe46.xml, ddrawint/DdVideoPortCanCreate, display.ddvideoportcancreate
+ms.keywords: DdVideoPortCanCreate, DdVideoPortCanCreate callback function [Display Devices], PDD_VPORTCB_CANCREATEVIDEOPORT, PDD_VPORTCB_CANCREATEVIDEOPORT callback, ddfncs_dfe3285f-627c-4f0d-b7e7-ffd87d88fe46.xml, ddrawint/DdVideoPortCanCreate, display.ddvideoportcancreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PDD_VPORTCB_CANCREATEVIDEOPORT callback
+# PDD_VPORTCB_CANCREATEVIDEOPORT callback function
 
 
 ## -description

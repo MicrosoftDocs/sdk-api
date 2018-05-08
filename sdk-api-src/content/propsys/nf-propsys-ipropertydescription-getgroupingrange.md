@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetGroupingRange
-title: IPropertyDescription::GetGroupingRange method
+title: IPropertyDescription::GetGroupingRange
 author: windows-driver-content
 description: Gets the grouping method to be used when a view is grouped by a property, and retrieves the grouping type.
 old-location: properties\IPropertyDescription_GetGroupingRange.htm
 old-project: properties
 ms.assetid: 9533c43f-1b51-4aa0-9579-0a3053102b24
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetGroupingRange method [Windows Properties], GetGroupingRange method [Windows Properties], IPropertyDescription interface, GetGroupingRange,IPropertyDescription.GetGroupingRange, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetGroupingRange method, IPropertyDescription::GetGroupingRange, PDGR_ALPHANUMERIC, PDGR_DATE, PDGR_DISCRETE, PDGR_DYNAMIC, PDGR_ENUMERATED, PDGR_PERCENT, PDGR_SIZE, properties.IPropertyDescription_GetGroupingRange, propsys/IPropertyDescription::GetGroupingRange, shell.IPropertyDescription_GetGroupingRange, shell_IPropertyDescription_GetGroupingRange
+ms.date: 4/27/2018
+ms.keywords: GetGroupingRange, GetGroupingRange method [Windows Properties], GetGroupingRange method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetGroupingRange method, IPropertyDescription.GetGroupingRange, IPropertyDescription::GetGroupingRange, PDGR_ALPHANUMERIC, PDGR_DATE, PDGR_DISCRETE, PDGR_DYNAMIC, PDGR_ENUMERATED, PDGR_PERCENT, PDGR_SIZE, properties.IPropertyDescription_GetGroupingRange, propsys/IPropertyDescription::GetGroupingRange, shell.IPropertyDescription_GetGroupingRange, shell_IPropertyDescription_GetGroupingRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescription::GetGroupingRange method
+# IPropertyDescription::GetGroupingRange
 
 
 ## -description

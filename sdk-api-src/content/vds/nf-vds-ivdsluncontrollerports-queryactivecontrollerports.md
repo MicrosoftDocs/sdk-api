@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunControllerPorts.QueryActiveControllerPorts
-title: IVdsLunControllerPorts::QueryActiveControllerPorts method
+title: IVdsLunControllerPorts::QueryActiveControllerPorts
 author: windows-driver-content
 description: Returns an enumeration of currently active controller ports.
 old-location: base\ivdsluncontrollerports_queryactivecontrollerports.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 0a6f34c6-f333-4abf-ad37-b7756b125045
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsLunControllerPorts, IVdsLunControllerPorts interface, QueryActiveControllerPorts method, IVdsLunControllerPorts::QueryActiveControllerPorts, QueryActiveControllerPorts method, QueryActiveControllerPorts method, IVdsLunControllerPorts interface, QueryActiveControllerPorts,IVdsLunControllerPorts.QueryActiveControllerPorts, base.ivdsluncontrollerports_queryactivecontrollerports, vds/IVdsLunControllerPorts::QueryActiveControllerPorts
+ms.keywords: IVdsLunControllerPorts interface,QueryActiveControllerPorts method, IVdsLunControllerPorts.QueryActiveControllerPorts, IVdsLunControllerPorts::QueryActiveControllerPorts, QueryActiveControllerPorts, QueryActiveControllerPorts method, QueryActiveControllerPorts method,IVdsLunControllerPorts interface, base.ivdsluncontrollerports_queryactivecontrollerports, vds/IVdsLunControllerPorts::QueryActiveControllerPorts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLunControllerPorts::QueryActiveControllerPorts method
+# IVdsLunControllerPorts::QueryActiveControllerPorts
 
 
 ## -description

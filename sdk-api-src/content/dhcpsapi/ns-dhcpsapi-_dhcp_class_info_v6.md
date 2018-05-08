@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_class_info_v6.htm
 old-project: DHCP
 ms.assetid: 76d9a46b-6958-4c29-8512-e6299b28ca01
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_CLASS_INFO_V6, DHCP_CLASS_INFO_V6, DHCP_CLASS_INFO_V6 structure [DHCP], PDHCP_CLASS_INFO_V6, PDHCP_CLASS_INFO_V6 structure pointer [DHCP], _DHCP_CLASS_INFO_V6, dhcp.dhcp_class_info_v6, dhcpsapi/DHCP_CLASS_INFO_V6, dhcpsapi/PDHCP_CLASS_INFO_V6"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,4 +90,16 @@ This field MUST be set to zero (0x00000000) when sending and ignored on receipt.
 ### -field ClassData
 
 Pointer to a BYTE blob that contains an array of bytes of length specified by <b>ClassDataLength</b>. This contains opaque data regarding a user class or a vendor class.
+
+
+### -field ClassData.size_is
+
+ 
+
+
+### -field ClassData.size_is.ClassDataLength
+
+ 
+
+
 

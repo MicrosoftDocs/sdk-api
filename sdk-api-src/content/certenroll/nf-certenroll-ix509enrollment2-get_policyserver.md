@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment2.get_PolicyServer
-title: IX509Enrollment2::get_PolicyServer method
+title: IX509Enrollment2::get_PolicyServer
 author: windows-driver-content
 description: Retrieves the certificate enrollment policy (CEP) server that contains the template used during initialization.
 old-location: security\ix509enrollment2_policyserver.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: dae8489b-39b1-41ba-9346-c038cd0acc1b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509Enrollment2, IX509Enrollment2 interface [Security], PolicyServer property, IX509Enrollment2.PolicyServer, IX509Enrollment2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security], IX509Enrollment2 interface, certenroll/IX509Enrollment2::PolicyServer, certenroll/IX509Enrollment2::get_PolicyServer, get_PolicyServer,IX509Enrollment2.get_PolicyServer, security.ix509enrollment2_policyserver
+ms.keywords: IX509Enrollment2 interface [Security],PolicyServer property, IX509Enrollment2.PolicyServer, IX509Enrollment2.get_PolicyServer, IX509Enrollment2::PolicyServer, IX509Enrollment2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::PolicyServer, certenroll/IX509Enrollment2::get_PolicyServer, get_PolicyServer, security.ix509enrollment2_policyserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509Enrollment2::get_PolicyServer method
+# IX509Enrollment2::get_PolicyServer
 
 
 ## -description

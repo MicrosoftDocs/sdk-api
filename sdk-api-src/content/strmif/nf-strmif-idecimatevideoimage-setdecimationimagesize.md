@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDecimateVideoImage.SetDecimationImageSize
-title: IDecimateVideoImage::SetDecimationImageSize method
+title: IDecimateVideoImage::SetDecimationImageSize
 author: windows-driver-content
 description: The SetDecimationImageSize method specifies the dimensions to which the decoder should decimate its output image.
 old-location: dshow\idecimatevideoimage_setdecimationimagesize.htm
 old-project: DirectShow
 ms.assetid: 3f165e74-768f-48e3-be0f-887962ea9bfb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDecimateVideoImage, IDecimateVideoImage interface [DirectShow], SetDecimationImageSize method, IDecimateVideoImage::SetDecimationImageSize, IDecimateVideoImageSetDecimationImageSize, SetDecimationImageSize method [DirectShow], SetDecimationImageSize method [DirectShow], IDecimateVideoImage interface, SetDecimationImageSize,IDecimateVideoImage.SetDecimationImageSize, dshow.idecimatevideoimage_setdecimationimagesize, strmif/IDecimateVideoImage::SetDecimationImageSize
+ms.date: 4/30/2018
+ms.keywords: IDecimateVideoImage interface [DirectShow],SetDecimationImageSize method, IDecimateVideoImage.SetDecimationImageSize, IDecimateVideoImage::SetDecimationImageSize, IDecimateVideoImageSetDecimationImageSize, SetDecimationImageSize, SetDecimationImageSize method [DirectShow], SetDecimationImageSize method [DirectShow],IDecimateVideoImage interface, dshow.idecimatevideoimage_setdecimationimagesize, strmif/IDecimateVideoImage::SetDecimationImageSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDecimateVideoImage::SetDecimationImageSize method
+# IDecimateVideoImage::SetDecimationImageSize
 
 
 ## -description

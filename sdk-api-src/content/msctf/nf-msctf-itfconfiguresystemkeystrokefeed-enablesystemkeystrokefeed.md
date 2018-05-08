@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed
-title: ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed method
+title: ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed
 author: windows-driver-content
 description: ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed method
 old-location: tsf\itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 66dc5db3-c4d9-422e-bbc0-300409a9576a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnableSystemKeystrokeFeed method [Text Services Framework], EnableSystemKeystrokeFeed method [Text Services Framework], ITfConfigureSystemKeystrokeFeed interface, EnableSystemKeystrokeFeed,ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework], EnableSystemKeystrokeFeed method, ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed, _tsf_itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed
+ms.keywords: EnableSystemKeystrokeFeed, EnableSystemKeystrokeFeed method [Text Services Framework], EnableSystemKeystrokeFeed method [Text Services Framework],ITfConfigureSystemKeystrokeFeed interface, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],EnableSystemKeystrokeFeed method, ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed, _tsf_itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed method
+# ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed
 
 
 ## -description

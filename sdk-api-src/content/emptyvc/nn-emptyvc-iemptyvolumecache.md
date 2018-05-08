@@ -7,8 +7,8 @@ old-location: lwef\iemptyvolumecache.htm
 old-project: lwef
 ms.assetid: ba3797c2-f82c-4721-b72d-8552683a10d2
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEmptyVolumeCache, IEmptyVolumeCache interface [Legacy Windows Environment Features], IEmptyVolumeCache interface [Legacy Windows Environment Features], described, _win32_IEmptyVolumeCache, emptyvc/IEmptyVolumeCache, lwef.iemptyvolumecache, shell.iemptyvolumecache
+ms.date: 4/27/2018
+ms.keywords: IEmptyVolumeCache, IEmptyVolumeCache interface [Legacy Windows Environment Features], IEmptyVolumeCache interface [Legacy Windows Environment Features],described, _win32_IEmptyVolumeCache, emptyvc/IEmptyVolumeCache, lwef.iemptyvolumecache, shell.iemptyvolumecache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

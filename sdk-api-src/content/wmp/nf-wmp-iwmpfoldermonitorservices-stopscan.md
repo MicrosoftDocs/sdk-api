@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.stopScan
-title: IWMPFolderMonitorServices::stopScan method
+title: IWMPFolderMonitorServices::stopScan
 author: windows-driver-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The stopScan method stops the scanning operation.
 old-location: wmp\iwmpfoldermonitorservices_stopscan.htm
 old-project: WMP
 ms.assetid: 9b85cefb-3118-4e7f-b6f7-2f387057895e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], stopScan method, IWMPFolderMonitorServices::stopScan, IWMPFolderMonitorServicesstopScan, stopScan method [Windows Media Player], stopScan method [Windows Media Player], IWMPFolderMonitorServices interface, stopScan,IWMPFolderMonitorServices.stopScan, wmp.iwmpfoldermonitorservices_stopscan, wmp/IWMPFolderMonitorServices::stopScan
+ms.date: 5/4/2018
+ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],stopScan method, IWMPFolderMonitorServices.stopScan, IWMPFolderMonitorServices::stopScan, IWMPFolderMonitorServicesstopScan, stopScan, stopScan method [Windows Media Player], stopScan method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_stopscan, wmp/IWMPFolderMonitorServices::stopScan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPFolderMonitorServices::stopScan method
+# IWMPFolderMonitorServices::stopScan
 
 
 ## -description

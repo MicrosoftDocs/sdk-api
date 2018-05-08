@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_MethodName
-title: IEventSubscription::put_MethodName method
+title: IEventSubscription::put_MethodName
 author: windows-driver-content
 description: The name of the event method.
 old-location: cos\ieventsubscription_methodname.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 2959e1f3-5b16-40a3-abdf-7fe18be2336b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventSubscription, IEventSubscription interface [COM+], MethodName property, IEventSubscription.MethodName, IEventSubscription::get_MethodName, IEventSubscription::put_MethodName, MethodName property [COM+], MethodName property [COM+], IEventSubscription interface, cos.ieventsubscription_methodname, eventsys/IEventSubscription::MethodName, eventsys/IEventSubscription::get_MethodName, eventsys/IEventSubscription::put_MethodName, put_MethodName,IEventSubscription.put_MethodName
+ms.keywords: IEventSubscription interface [COM+],MethodName property, IEventSubscription.MethodName, IEventSubscription.put_MethodName, IEventSubscription::MethodName, IEventSubscription::get_MethodName, IEventSubscription::put_MethodName, MethodName property [COM+], MethodName property [COM+],IEventSubscription interface, cos.ieventsubscription_methodname, eventsys/IEventSubscription::MethodName, eventsys/IEventSubscription::get_MethodName, eventsys/IEventSubscription::put_MethodName, put_MethodName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::put_MethodName method
+# IEventSubscription::put_MethodName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeNames.Add
-title: IAlternativeNames::Add method
+title: IAlternativeNames::Add
 author: windows-driver-content
 description: Adds an object to the collection.
 old-location: security\ialternativenames_add_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 02085a1c-0821-4b11-95ad-e1c3a69f4e80
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Add method [Security], Add method [Security], IAlternativeNames interface, Add,IAlternativeNames.Add, IAlternativeNames, IAlternativeNames interface [Security], Add method, IAlternativeNames::Add, certenroll/IAlternativeNames::Add, security.ialternativenames_add_method
+ms.keywords: Add, Add method [Security], Add method [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Add method, IAlternativeNames.Add, IAlternativeNames::Add, certenroll/IAlternativeNames::Add, security.ialternativenames_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IAlternativeNames::Add method
+# IAlternativeNames::Add
 
 
 ## -description

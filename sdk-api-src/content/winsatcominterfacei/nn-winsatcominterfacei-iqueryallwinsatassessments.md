@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: b78cfaf1-0fce-449c-96f5-76d318f30384
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IQueryAllWinSATAssessments, IQueryAllWinSATAssessments interface [WinSAT], IQueryAllWinSATAssessments interface [WinSAT], described, winsat.iqueryallwinsatassessments, winsatcominterfacei/IQueryAllWinSATAssessments
+ms.keywords: IQueryAllWinSATAssessments, IQueryAllWinSATAssessments interface [WinSAT], IQueryAllWinSATAssessments interface [WinSAT],described, winsat.iqueryallwinsatassessments, winsatcominterfacei/IQueryAllWinSATAssessments
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

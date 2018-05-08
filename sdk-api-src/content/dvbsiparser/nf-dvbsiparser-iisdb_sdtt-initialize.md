@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.Initialize
-title: IISDB_SDTT::Initialize method
+title: IISDB_SDTT::Initialize
 author: windows-driver-content
 description: Initializes the object by using captured table section data from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f1018e3a-00dd-4964-b491-0193a71e7d51
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IISDB_SDTT, IISDB_SDTT interface [Microsoft TV Technologies], Initialize method, IISDB_SDTT::Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IISDB_SDTT interface, Initialize,IISDB_SDTT.Initialize, dvbsiparser/IISDB_SDTT::Initialize, mstv.iisdb_sdtt_initialize
+ms.keywords: IISDB_SDTT interface [Microsoft TV Technologies],Initialize method, IISDB_SDTT.Initialize, IISDB_SDTT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_SDTT interface, dvbsiparser/IISDB_SDTT::Initialize, mstv.iisdb_sdtt_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_SDTT::Initialize method
+# IISDB_SDTT::Initialize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CachedLargeChange
-title: IUIAutomationRangeValuePattern::get_CachedLargeChange method
+title: IUIAutomationRangeValuePattern::get_CachedLargeChange
 author: windows-driver-content
 description: Retrieves, from the cache, the value that is added to or subtracted from the value of the control when a large change is made, such as when the PAGE DOWN key is pressed.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedLargeChange.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: d97addfd-53ae-4445-9f77-d24d97644bfc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedLargeChange property [Windows Accessibility], CachedLargeChange property [Windows Accessibility], IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern, IUIAutomationRangeValuePattern interface [Windows Accessibility], CachedLargeChange property, IUIAutomationRangeValuePattern.CachedLargeChange, IUIAutomationRangeValuePattern::get_CachedLargeChange, get_CachedLargeChange,IUIAutomationRangeValuePattern.get_CachedLargeChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedLargeChange, uiauto_IUIAutomationRangeValuePattern_CachedLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::CachedLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedLargeChange, winauto.uiauto_IUIAutomationRangeValuePattern_CachedLargeChange
+ms.keywords: CachedLargeChange property [Windows Accessibility], CachedLargeChange property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedLargeChange property, IUIAutomationRangeValuePattern.CachedLargeChange, IUIAutomationRangeValuePattern.get_CachedLargeChange, IUIAutomationRangeValuePattern::CachedLargeChange, IUIAutomationRangeValuePattern::get_CachedLargeChange, get_CachedLargeChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedLargeChange, uiauto_IUIAutomationRangeValuePattern_CachedLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::CachedLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedLargeChange, winauto.uiauto_IUIAutomationRangeValuePattern_CachedLargeChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationRangeValuePattern::get_CachedLargeChange method
+# IUIAutomationRangeValuePattern::get_CachedLargeChange
 
 
 ## -description

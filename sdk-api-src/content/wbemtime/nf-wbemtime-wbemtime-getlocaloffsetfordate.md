@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetLocalOffsetForDate
-title: WBEMTime::GetLocalOffsetForDate method
+title: WBEMTime::GetLocalOffsetForDate
 author: windows-driver-content
 description: The GetLocalOffsetForDate method returns the offset in minutes (+ or &#8211;) between GMT and local time for the FILETIME supplied in the argument.
 old-location: wmi\wbemtime_getlocaloffsetfordate_const_filetime__.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: fd40907d-c4df-4eb0-8516-45def3d5d01f
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetLocalOffsetForDate method [Windows Management Instrumentation], GetLocalOffsetForDate method [Windows Management Instrumentation], WBEMTime interface, GetLocalOffsetForDate,WBEMTime.GetLocalOffsetForDate, WBEMTime, WBEMTime interface [Windows Management Instrumentation], GetLocalOffsetForDate method, WBEMTime::GetLocalOffsetForDate, wbemtime/WBEMTime::GetLocalOffsetForDate, wmi.wbemtime_getlocaloffsetfordate_const_filetime__
+ms.keywords: GetLocalOffsetForDate, GetLocalOffsetForDate method [Windows Management Instrumentation], GetLocalOffsetForDate method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetLocalOffsetForDate method, WBEMTime.GetLocalOffsetForDate, WBEMTime::GetLocalOffsetForDate, WBEMTime::GetLocalOffsetForDate(const FILETIME*), wbemtime/WBEMTime::GetLocalOffsetForDate, wmi.wbemtime_getlocaloffsetfordate_const_filetime__
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WBEMTime::GetLocalOffsetForDate method
+# WBEMTime::GetLocalOffsetForDate
 
 
 ## -description

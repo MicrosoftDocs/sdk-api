@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVfwCaptureDialogs.ShowDialog
-title: IAMVfwCaptureDialogs::ShowDialog method
+title: IAMVfwCaptureDialogs::ShowDialog
 author: windows-driver-content
 description: The ShowDialog method displays the specified VFW dialog box.
 old-location: dshow\iamvfwcapturedialogs_showdialog.htm
 old-project: DirectShow
 ms.assetid: 988b68e5-12fb-47c5-8a49-81ba262da739
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVfwCaptureDialogs, IAMVfwCaptureDialogs interface [DirectShow], ShowDialog method, IAMVfwCaptureDialogs::ShowDialog, IAMVfwCaptureDialogsShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow], IAMVfwCaptureDialogs interface, ShowDialog,IAMVfwCaptureDialogs.ShowDialog, dshow.iamvfwcapturedialogs_showdialog, strmif/IAMVfwCaptureDialogs::ShowDialog
+ms.date: 4/30/2018
+ms.keywords: IAMVfwCaptureDialogs interface [DirectShow],ShowDialog method, IAMVfwCaptureDialogs.ShowDialog, IAMVfwCaptureDialogs::ShowDialog, IAMVfwCaptureDialogsShowDialog, ShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow],IAMVfwCaptureDialogs interface, dshow.iamvfwcapturedialogs_showdialog, strmif/IAMVfwCaptureDialogs::ShowDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVfwCaptureDialogs::ShowDialog method
+# IAMVfwCaptureDialogs::ShowDialog
 
 
 ## -description

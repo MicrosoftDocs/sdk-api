@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.SetDisabled
-title: IMFPluginControl::SetDisabled method
+title: IMFPluginControl::SetDisabled
 author: windows-driver-content
 description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.
 old-location: mf\imfplugincontrol_imfplugincontrol__setdisabled.htm
 old-project: medfound
 ms.assetid: ff50e746-42f5-4fbe-a904-f83b3c691d32
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPluginControl, IMFPluginControl interface [Media Foundation], SetDisabled method, IMFPluginControl::SetDisabled, SetDisabled method [Media Foundation], SetDisabled method [Media Foundation], IMFPluginControl interface, SetDisabled,IMFPluginControl.SetDisabled, mf.imfplugincontrol_imfplugincontrol__setdisabled, mfobjects/IMFPluginControl::SetDisabled
+ms.date: 5/3/2018
+ms.keywords: IMFPluginControl interface [Media Foundation],SetDisabled method, IMFPluginControl.SetDisabled, IMFPluginControl::SetDisabled, SetDisabled, SetDisabled method [Media Foundation], SetDisabled method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__setdisabled, mfobjects/IMFPluginControl::SetDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPluginControl::SetDisabled method
+# IMFPluginControl::SetDisabled
 
 
 ## -description

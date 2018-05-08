@@ -1,14 +1,14 @@
 ---
 UID: NF:portabledeviceconnectapi.IEnumPortableDeviceConnectors.Reset
-title: IEnumPortableDeviceConnectors::Reset method
+title: IEnumPortableDeviceConnectors::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: wpdsdk\ienumportabledeviceconnectors_reset.htm
 old-project: wpd_sdk
 ms.assetid: 1df1ff95-06ae-4e5e-8064-17f832c5f0b3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IEnumPortableDeviceConnectors, IEnumPortableDeviceConnectors interface [Windows Portable Devices SDK], Reset method, IEnumPortableDeviceConnectors::Reset, Reset method [Windows Portable Devices SDK], Reset method [Windows Portable Devices SDK], IEnumPortableDeviceConnectors interface, Reset,IEnumPortableDeviceConnectors.Reset, devpkey/IEnumPortableDeviceConnectors::Reset, portabledeviceconnectapi/IEnumPortableDeviceConnectors::Reset, wpdsdk.ienumportabledeviceconnectors_reset
+ms.date: 4/11/2018
+ms.keywords: IEnumPortableDeviceConnectors interface [Windows Portable Devices SDK],Reset method, IEnumPortableDeviceConnectors.Reset, IEnumPortableDeviceConnectors::Reset, Reset, Reset method [Windows Portable Devices SDK], Reset method [Windows Portable Devices SDK],IEnumPortableDeviceConnectors interface, devpkey/IEnumPortableDeviceConnectors::Reset, portabledeviceconnectapi/IEnumPortableDeviceConnectors::Reset, wpdsdk.ienumportabledeviceconnectors_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,10 +42,10 @@ targetos: Windows
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumPortableDeviceConnectors::Reset method
+# IEnumPortableDeviceConnectors::Reset
 
 
 ## -description

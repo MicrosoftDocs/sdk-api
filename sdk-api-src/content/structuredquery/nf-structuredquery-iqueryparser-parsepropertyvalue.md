@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IQueryParser.ParsePropertyValue
-title: IQueryParser::ParsePropertyValue method
+title: IQueryParser::ParsePropertyValue
 author: windows-driver-content
 description: Parses a condition for a specified property.
 old-location: search\_search_IQueryParser_ParsePropertyValue.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\parsepropertyvalue.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IQueryParser, IQueryParser interface [search], ParsePropertyValue method, IQueryParser::ParsePropertyValue, ParsePropertyValue method [search], ParsePropertyValue method [search], IQueryParser interface, ParsePropertyValue,IQueryParser.ParsePropertyValue, _search_IQueryParser_ParsePropertyValue, search._search_IQueryParser_ParsePropertyValue, structuredquery/IQueryParser::ParsePropertyValue
+ms.date: 5/4/2018
+ms.keywords: IQueryParser interface [search],ParsePropertyValue method, IQueryParser.ParsePropertyValue, IQueryParser::ParsePropertyValue, ParsePropertyValue, ParsePropertyValue method [search], ParsePropertyValue method [search],IQueryParser interface, _search_IQueryParser_ParsePropertyValue, search._search_IQueryParser_ParsePropertyValue, structuredquery/IQueryParser::ParsePropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IQueryParser::ParsePropertyValue method
+# IQueryParser::ParsePropertyValue
 
 
 ## -description

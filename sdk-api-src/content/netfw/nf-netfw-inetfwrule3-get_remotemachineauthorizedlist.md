@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule3.get_RemoteMachineAuthorizedList
-title: INetFwRule3::get_RemoteMachineAuthorizedList method
+title: INetFwRule3::get_RemoteMachineAuthorizedList
 author: windows-driver-content
 description: Specifies a list of remote computers which are authorized to access an app container.
 old-location: ics\inetfwrule3_remotemachineauthorizedlist.htm
 old-project: ICS
 ms.assetid: 43acf254-594a-4d19-a9e4-bce0a188a9de
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRule3, INetFwRule3 interface [ICS/ICF], RemoteMachineAuthorizedList property, INetFwRule3.RemoteMachineAuthorizedList, INetFwRule3::get_RemoteMachineAuthorizedList, INetFwRule3::put_RemoteMachineAuthorizedList, RemoteMachineAuthorizedList property [ICS/ICF], RemoteMachineAuthorizedList property [ICS/ICF], INetFwRule3 interface, get_RemoteMachineAuthorizedList,INetFwRule3.get_RemoteMachineAuthorizedList, ics.inetfwrule3_remotemachineauthorizedlist, netfw/INetFwRule3::RemoteMachineAuthorizedList, netfw/INetFwRule3::get_RemoteMachineAuthorizedList, netfw/INetFwRule3::put_RemoteMachineAuthorizedList
+ms.date: 5/1/2018
+ms.keywords: INetFwRule3 interface [ICS/ICF],RemoteMachineAuthorizedList property, INetFwRule3.RemoteMachineAuthorizedList, INetFwRule3.get_RemoteMachineAuthorizedList, INetFwRule3::RemoteMachineAuthorizedList, INetFwRule3::get_RemoteMachineAuthorizedList, INetFwRule3::put_RemoteMachineAuthorizedList, RemoteMachineAuthorizedList property [ICS/ICF], RemoteMachineAuthorizedList property [ICS/ICF],INetFwRule3 interface, get_RemoteMachineAuthorizedList, ics.inetfwrule3_remotemachineauthorizedlist, netfw/INetFwRule3::RemoteMachineAuthorizedList, netfw/INetFwRule3::get_RemoteMachineAuthorizedList, netfw/INetFwRule3::put_RemoteMachineAuthorizedList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule3::get_RemoteMachineAuthorizedList method
+# INetFwRule3::get_RemoteMachineAuthorizedList
 
 
 ## -description

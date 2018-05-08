@@ -7,8 +7,8 @@ old-location: security\pfncfilterproc.htm
 old-project: SecCrypto
 ms.assetid: ced0f35c-7e22-4d19-8352-0bfa37ff1a4b
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: PFNCFILTERPROC, PFNCFILTERPROC callback function [Security], cryptuiapi/PFNCFILTERPROC, security.pfncfilterproc
+ms.date: 4/30/2018
+ms.keywords: PFNCFILTERPROC, PFNCFILTERPROC callback, PFNCFILTERPROC callback function [Security], cryptuiapi/PFNCFILTERPROC, security.pfncfilterproc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PFNCFILTERPROC callback
+# PFNCFILTERPROC callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_Scope
-title: INetFwOpenPort::put_Scope method
+title: INetFwOpenPort::put_Scope
 author: windows-driver-content
 description: Controls the network scope from which the port can listen.
 old-location: ics\inetfwopenport_scope.htm
 old-project: ICS
 ms.assetid: a5bd787f-e00c-4a57-adc7-a9618809198a
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwOpenPort, INetFwOpenPort interface [ICS/ICF], Scope property, INetFwOpenPort.Scope, INetFwOpenPort::get_Scope, INetFwOpenPort::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF], INetFwOpenPort interface, ics.inetfwopenport_scope, netfw/INetFwOpenPort::Scope, netfw/INetFwOpenPort::get_Scope, netfw/INetFwOpenPort::put_Scope, put_Scope,INetFwOpenPort.put_Scope
+ms.date: 5/1/2018
+ms.keywords: INetFwOpenPort interface [ICS/ICF],Scope property, INetFwOpenPort.Scope, INetFwOpenPort.put_Scope, INetFwOpenPort::Scope, INetFwOpenPort::get_Scope, INetFwOpenPort::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwOpenPort interface, ics.inetfwopenport_scope, netfw/INetFwOpenPort::Scope, netfw/INetFwOpenPort::get_Scope, netfw/INetFwOpenPort::put_Scope, put_Scope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwOpenPort::put_Scope method
+# INetFwOpenPort::put_Scope
 
 
 ## -description

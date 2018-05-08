@@ -63,6 +63,11 @@ Contains process mitigation policy settings for the loading of images depending 
  
 
 
+### -field DUMMYUNIONNAME.Flags
+
+Reserved for system use.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -94,11 +99,6 @@ Set (0x1) to prevent the process from loading images that are not signed by Micr
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
-
-Reserved for system use.
-
-
-#### - Flags
 
 Reserved for system use.
 

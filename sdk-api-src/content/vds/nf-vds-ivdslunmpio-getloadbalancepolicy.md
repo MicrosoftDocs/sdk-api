@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunMpio.GetLoadBalancePolicy
-title: IVdsLunMpio::GetLoadBalancePolicy method
+title: IVdsLunMpio::GetLoadBalancePolicy
 author: windows-driver-content
 description: Returns the current load balance policy on the LUN.
 old-location: base\ivdslunmpio_getloadbalancepolicy.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 56866ecb-c84b-4297-9bd4-54969501bf9e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetLoadBalancePolicy method [VDS], GetLoadBalancePolicy method [VDS], IVdsLunMpio interface, GetLoadBalancePolicy,IVdsLunMpio.GetLoadBalancePolicy, IVdsLunMpio, IVdsLunMpio interface [VDS], GetLoadBalancePolicy method, IVdsLunMpio::GetLoadBalancePolicy, base.ivdslunmpio_getloadbalancepolicy, vds/IVdsLunMpio::GetLoadBalancePolicy
+ms.keywords: GetLoadBalancePolicy, GetLoadBalancePolicy method [VDS], GetLoadBalancePolicy method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetLoadBalancePolicy method, IVdsLunMpio.GetLoadBalancePolicy, IVdsLunMpio::GetLoadBalancePolicy, base.ivdslunmpio_getloadbalancepolicy, vds/IVdsLunMpio::GetLoadBalancePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLunMpio::GetLoadBalancePolicy method
+# IVdsLunMpio::GetLoadBalancePolicy
 
 
 ## -description

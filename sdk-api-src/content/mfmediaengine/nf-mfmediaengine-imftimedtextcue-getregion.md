@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetRegion
-title: IMFTimedTextCue::GetRegion method
+title: IMFTimedTextCue::GetRegion
 author: windows-driver-content
 description: Gets info about the display region of the timed-text cue.
 old-location: mf\imftimedtextcue_getregion.htm
 old-project: medfound
 ms.assetid: 8F5CE96E-9714-4F1A-8CB5-87FA24735B9D
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetRegion method [Media Foundation], GetRegion method [Media Foundation], IMFTimedTextCue interface, GetRegion,IMFTimedTextCue.GetRegion, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetRegion method, IMFTimedTextCue::GetRegion, mf.imftimedtextcue_getregion, mfmediaengine/IMFTimedTextCue::GetRegion
+ms.date: 5/3/2018
+ms.keywords: GetRegion, GetRegion method [Media Foundation], GetRegion method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetRegion method, IMFTimedTextCue.GetRegion, IMFTimedTextCue::GetRegion, mf.imftimedtextcue_getregion, mfmediaengine/IMFTimedTextCue::GetRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextCue::GetRegion method
+# IMFTimedTextCue::GetRegion
 
 
 ## -description

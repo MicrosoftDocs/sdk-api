@@ -7,7 +7,7 @@ old-location: security\cert_strong_sign_para.htm
 old-project: SecCrypto
 ms.assetid: 12D9F82C-F484-43B0-BD55-F07321058671
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA structure [Security], PCCERT_STRONG_SIGN_PARA, PCCERT_STRONG_SIGN_PARA structure pointer [Security], PCERT_STRONG_SIGN_PARA, PCERT_STRONG_SIGN_PARA structure pointer [Security], _CERT_STRONG_SIGN_PARA, security.cert_strong_sign_para, szOID_CERT_STRONG_KEY_OS_1, szOID_CERT_STRONG_SIGN_OS_1, wincrypt/CERT_STRONG_SIGN_PARA, wincrypt/PCCERT_STRONG_SIGN_PARA, wincrypt/PCERT_STRONG_SIGN_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,20 +95,17 @@ Specifies the <b>pszOID</b> member.
 Union that contains the parameters that can be used for checking whether a signature is strong. The parameters consist of <i>signature algorithm</i> / <i>hash algorithm</i> pairs and <i>public key algorithm</i> / <i>bit length</i> pairs.
 
 
-
-#### pvInfo
+### -field DUMMYUNIONNAME.pvInfo
 
 Reserved.
 
 
-
-#### pSerializedInfo
+### -field DUMMYUNIONNAME.pSerializedInfo
 
 Pointer to a <a href="https://msdn.microsoft.com/B89CDF67-4620-47B2-8363-717D284368FD">CERT_STRONG_SIGN_SERIALIZED_INFO</a> structure that specifies the parameters.
 
 
-
-#### pszOID
+### -field DUMMYUNIONNAME.pszOID
 
 Pointer to a string that contains an object identifier (OID) that represents predefined parameters that can be used for strong signature checking. This can be one of the following values:
 

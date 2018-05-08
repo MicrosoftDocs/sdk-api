@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.GetCount
-title: IXpsOMColorProfileResourceCollection::GetCount method
+title: IXpsOMColorProfileResourceCollection::GetCount
 author: windows-driver-content
 description: Gets the number of IXpsOMColorProfileResource interface pointers in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 798ac7ed-1221-4985-b325-d588133ad59c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging], IXpsOMColorProfileResourceCollection interface, GetCount,IXpsOMColorProfileResourceCollection.GetCount, IXpsOMColorProfileResourceCollection, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging], GetCount method, IXpsOMColorProfileResourceCollection::GetCount, xps.ixpsomcolorprofileresourcecollection_getcount, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetCount
+ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMColorProfileResourceCollection.GetCount, IXpsOMColorProfileResourceCollection::GetCount, xps.ixpsomcolorprofileresourcecollection_getcount, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMColorProfileResourceCollection::GetCount method
+# IXpsOMColorProfileResourceCollection::GetCount
 
 
 ## -description

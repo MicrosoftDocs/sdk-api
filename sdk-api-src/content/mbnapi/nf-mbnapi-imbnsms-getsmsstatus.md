@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.GetSmsStatus
-title: IMbnSms::GetSmsStatus method
+title: IMbnSms::GetSmsStatus
 author: windows-driver-content
 description: Gets the SMS status for a device.
 old-location: mbn\imbnsms_getsmsstatus.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 58cb60dd-160c-4e1c-a244-7f20b5e79b64
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSmsStatus method [Microsoft Broadband Networks], GetSmsStatus method [Microsoft Broadband Networks], IMbnSms interface, GetSmsStatus,IMbnSms.GetSmsStatus, IMbnSms, IMbnSms interface [Microsoft Broadband Networks], GetSmsStatus method, IMbnSms::GetSmsStatus, mbn.imbnsms_getsmsstatus, mbnapi/IMbnSms::GetSmsStatus
+ms.keywords: GetSmsStatus, GetSmsStatus method [Microsoft Broadband Networks], GetSmsStatus method [Microsoft Broadband Networks],IMbnSms interface, IMbnSms interface [Microsoft Broadband Networks],GetSmsStatus method, IMbnSms.GetSmsStatus, IMbnSms::GetSmsStatus, mbn.imbnsms_getsmsstatus, mbnapi/IMbnSms::GetSmsStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSms::GetSmsStatus method
+# IMbnSms::GetSmsStatus
 
 
 ## -description

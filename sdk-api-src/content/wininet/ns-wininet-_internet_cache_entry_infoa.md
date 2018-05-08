@@ -248,12 +248,12 @@ Size of the
 Pointer to a string that contains the file name extension used to retrieve the data as a file. The string occupies the memory area at the end of this structure. 
 
 
-#### - dwExemptDelta
+### -field dwReserved
+
+
+### -field dwExemptDelta
 
 Exemption time from the last accessed time, in seconds. 
-
-
-#### - dwReserved
 
 
 ## -remarks

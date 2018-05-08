@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.CopyFromCache
-title: IUpdate::CopyFromCache method
+title: IUpdate::CopyFromCache
 author: windows-driver-content
 description: Copies the contents of an update to a specified path.
 old-location: wua\iupdate_copyfromcache.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 43af8bb9-0e09-4541-bc2e-fd40be64a980
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CopyFromCache method [Windows Update Agent], CopyFromCache method [Windows Update Agent], IUpdate interface, CopyFromCache,IUpdate.CopyFromCache, IUpdate, IUpdate interface [Windows Update Agent], CopyFromCache method, IUpdate::CopyFromCache, wua.iupdate_copyfromcache, wuapi/IUpdate::CopyFromCache
+ms.keywords: CopyFromCache, CopyFromCache method [Windows Update Agent], CopyFromCache method [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],CopyFromCache method, IUpdate.CopyFromCache, IUpdate::CopyFromCache, wua.iupdate_copyfromcache, wuapi/IUpdate::CopyFromCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IUpdate::CopyFromCache method
+# IUpdate::CopyFromCache
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan
-title: WBEMTimeSpan::WBEMTimeSpan method
+title: WBEMTimeSpan::WBEMTimeSpan
 author: windows-driver-content
 description: The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.
 old-location: wmi\wbemtimespan_wbemtimespan.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 337dc247-9904-457a-a1f3-e1cf29b61126
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: WBEMTimeSpan, WBEMTimeSpan,WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation], wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan
+ms.keywords: WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation], WBEMTimeSpan::WbemTimeSpan, wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WBEMTimeSpan::WBEMTimeSpan method
+# WBEMTimeSpan::WBEMTimeSpan
 
 
 ## -description

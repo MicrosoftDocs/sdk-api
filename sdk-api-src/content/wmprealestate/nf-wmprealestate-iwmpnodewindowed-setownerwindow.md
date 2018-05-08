@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPNodeWindowed.SetOwnerWindow
-title: IWMPNodeWindowed::SetOwnerWindow method
+title: IWMPNodeWindowed::SetOwnerWindow
 author: windows-driver-content
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
 old-location: wmp\iwmpnodewindowed_setownerwindow.htm
 old-project: WMP
 ms.assetid: 33541e65-57dc-488a-ab34-6ac2e5ecda58
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNodeWindowed, IWMPNodeWindowed interface [Windows Media Player], SetOwnerWindow method, IWMPNodeWindowed::SetOwnerWindow, IWMPNodeWindowedSetOwnerWindowRendering, SetOwnerWindow method [Windows Media Player], SetOwnerWindow method [Windows Media Player], IWMPNodeWindowed interface, SetOwnerWindow,IWMPNodeWindowed.SetOwnerWindow, wmp.iwmpnodewindowed_setownerwindow, wmprealestate/IWMPNodeWindowed::SetOwnerWindow
+ms.date: 5/2/2018
+ms.keywords: IWMPNodeWindowed interface [Windows Media Player],SetOwnerWindow method, IWMPNodeWindowed.SetOwnerWindow, IWMPNodeWindowed::SetOwnerWindow, IWMPNodeWindowedSetOwnerWindowRendering, SetOwnerWindow, SetOwnerWindow method [Windows Media Player], SetOwnerWindow method [Windows Media Player],IWMPNodeWindowed interface, wmp.iwmpnodewindowed_setownerwindow, wmprealestate/IWMPNodeWindowed::SetOwnerWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNodeWindowed::SetOwnerWindow method
+# IWMPNodeWindowed::SetOwnerWindow
 
 
 ## -description

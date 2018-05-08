@@ -155,6 +155,26 @@ Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55028
 Reserved for use by the display driver.
 
 
+### -field ddckCKSrcOverlay
+
+Specifies a DDCOLORKEY structure (defined in the Microsoft DirectDraw SDK documentation) that contains the color key information for source overlay use.
+
+
+### -field ddckCKSrcBlt
+
+Specifies a DDCOLORKEY structure that describes the color key for source color key overlays. 
+
+
+### -field ddckCKDestOverlay
+
+Specifies a DDCOLORKEY structure that contains the color key information for destination overlay use.
+
+
+### -field ddckCKDestBlt
+
+Specifies a DDCOLORKEY structure that describes the color key for destination color key overlays.
+
+
 ### -field lpSurfMore
 
 Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551737">DD_SURFACE_MORE</a> structure that contains additional local surface data.
@@ -173,24 +193,4 @@ Points to a DD_ATTACHLIST structure that contains the list of surfaces attached 
 ### -field rcOverlaySrc
 
 Reserved for system use and should be ignored by the driver. 
-
-
-#### - ddckCKDestBlt
-
-Specifies a DDCOLORKEY structure that describes the color key for destination color key overlays.
-
-
-#### - ddckCKDestOverlay
-
-Specifies a DDCOLORKEY structure that contains the color key information for destination overlay use.
-
-
-#### - ddckCKSrcBlt
-
-Specifies a DDCOLORKEY structure that describes the color key for source color key overlays. 
-
-
-#### - ddckCKSrcOverlay
-
-Specifies a DDCOLORKEY structure (defined in the Microsoft DirectDraw SDK documentation) that contains the color key information for source overlay use.
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationUpdateEvents.OnPaint
-title: IWebApplicationUpdateEvents::OnPaint method
+title: IWebApplicationUpdateEvents::OnPaint
 author: windows-driver-content
 description: Notifies the authoring app that a portion of the app was painted.
 old-location: debug\iwebapplicationupdateevents_onpaint.htm
@@ -8,7 +8,7 @@ old-project: debug_wwahost
 ms.assetid: DFFED801-CCE7-4408-BD0B-E2B1AF5CD172
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWebApplicationUpdateEvents, IWebApplicationUpdateEvents interface [Debugging Windows Store apps], OnPaint method, IWebApplicationUpdateEvents::OnPaint, OnPaint method [Debugging Windows Store apps], OnPaint method [Debugging Windows Store apps], IWebApplicationUpdateEvents interface, OnPaint,IWebApplicationUpdateEvents.OnPaint, debug.iwebapplicationupdateevents_onpaint, webapplication/IWebApplicationUpdateEvents::OnPaint
+ms.keywords: IWebApplicationUpdateEvents interface [Debugging Windows Store apps],OnPaint method, IWebApplicationUpdateEvents.OnPaint, IWebApplicationUpdateEvents::OnPaint, OnPaint, OnPaint method [Debugging Windows Store apps], OnPaint method [Debugging Windows Store apps],IWebApplicationUpdateEvents interface, debug.iwebapplicationupdateevents_onpaint, webapplication/IWebApplicationUpdateEvents::OnPaint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWebApplicationUpdateEvents::OnPaint method
+# IWebApplicationUpdateEvents::OnPaint
 
 
 ## -description

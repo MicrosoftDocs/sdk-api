@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced6.SetProtectStreamSamples
-title: IWMReaderAdvanced6::SetProtectStreamSamples method
+title: IWMReaderAdvanced6::SetProtectStreamSamples
 author: windows-driver-content
 description: The SetProtectStreamSamples method configures sample protection.
 old-location: wmformat\iwmreaderadvanced6_setprotectstreamsamples.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e4734d16-e0fe-4a68-9618-fbceb725b576
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced6, IWMReaderAdvanced6 interface [windows Media Format], SetProtectStreamSamples method, IWMReaderAdvanced6::SetProtectStreamSamples, IWMReaderAdvanced6SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format], IWMReaderAdvanced6 interface, SetProtectStreamSamples,IWMReaderAdvanced6.SetProtectStreamSamples, wmformat.iwmreaderadvanced6_setprotectstreamsamples, wmsdkidl/IWMReaderAdvanced6::SetProtectStreamSamples
+ms.keywords: IWMReaderAdvanced6 interface [windows Media Format],SetProtectStreamSamples method, IWMReaderAdvanced6.SetProtectStreamSamples, IWMReaderAdvanced6::SetProtectStreamSamples, IWMReaderAdvanced6SetProtectStreamSamples, SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format],IWMReaderAdvanced6 interface, wmformat.iwmreaderadvanced6_setprotectstreamsamples, wmsdkidl/IWMReaderAdvanced6::SetProtectStreamSamples
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced6::SetProtectStreamSamples method
+# IWMReaderAdvanced6::SetProtectStreamSamples
 
 
 ## -description

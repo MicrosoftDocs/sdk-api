@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Clear
-title: IPolicyQualifiers::Clear method
+title: IPolicyQualifiers::Clear
 author: windows-driver-content
 description: Removes all objects from the collection.
 old-location: security\ipolicyqualifiers_clear_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 96b36a6e-f67b-40fb-ab05-4782e7cb659f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Clear method [Security], Clear method [Security], IPolicyQualifiers interface, Clear,IPolicyQualifiers.Clear, IPolicyQualifiers, IPolicyQualifiers interface [Security], Clear method, IPolicyQualifiers::Clear, certenroll/IPolicyQualifiers::Clear, security.ipolicyqualifiers_clear_method
+ms.keywords: Clear, Clear method [Security], Clear method [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Clear method, IPolicyQualifiers.Clear, IPolicyQualifiers::Clear, certenroll/IPolicyQualifiers::Clear, security.ipolicyqualifiers_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IPolicyQualifiers::Clear method
+# IPolicyQualifiers::Clear
 
 
 ## -description

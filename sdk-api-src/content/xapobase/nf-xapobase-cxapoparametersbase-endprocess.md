@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.EndProcess
-title: CXAPOParametersBase::EndProcess method
+title: CXAPOParametersBase::EndProcess
 author: windows-driver-content
 description: Notifies CXAPOParametersBase that the XAPO has finished accessing the current process parameters.
 old-location: xaudio2\cxapoparametersbase_endprocess.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.EndProcess
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs], EndProcess method, CXAPOParametersBase::EndProcess, EndProcess method [XAudio2 Audio Mixing APIs], EndProcess method [XAudio2 Audio Mixing APIs], CXAPOParametersBase interface, EndProcess,CXAPOParametersBase.EndProcess, xapobase/CXAPOParametersBase::EndProcess, xaudio2.cxapoparametersbase_endprocess
+ms.keywords: CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],EndProcess method, CXAPOParametersBase.EndProcess, CXAPOParametersBase::EndProcess, EndProcess, EndProcess method [XAudio2 Audio Mixing APIs], EndProcess method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, xapobase/CXAPOParametersBase::EndProcess, xaudio2.cxapoparametersbase_endprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# CXAPOParametersBase::EndProcess method
+# CXAPOParametersBase::EndProcess
 
 
 ## -description

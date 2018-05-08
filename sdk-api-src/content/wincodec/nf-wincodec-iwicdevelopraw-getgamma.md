@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetGamma
-title: IWICDevelopRaw::GetGamma method
+title: IWICDevelopRaw::GetGamma
 author: windows-driver-content
 description: Gets the current gamma setting of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getgamma.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: d76fc2dc-9bcc-4d7b-93fd-82a9647e7b6f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetGamma method [Windows Imaging Component], GetGamma method [Windows Imaging Component], IWICDevelopRaw interface, GetGamma,IWICDevelopRaw.GetGamma, IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], GetGamma method, IWICDevelopRaw::GetGamma, _wic_codec_iwicdevelopraw_getgamma, wic._wic_codec_iwicdevelopraw_getgamma, wincodec/IWICDevelopRaw::GetGamma
+ms.keywords: GetGamma, GetGamma method [Windows Imaging Component], GetGamma method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetGamma method, IWICDevelopRaw.GetGamma, IWICDevelopRaw::GetGamma, _wic_codec_iwicdevelopraw_getgamma, wic._wic_codec_iwicdevelopraw_getgamma, wincodec/IWICDevelopRaw::GetGamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::GetGamma method
+# IWICDevelopRaw::GetGamma
 
 
 ## -description

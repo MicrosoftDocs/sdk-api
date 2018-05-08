@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.AddFile
-title: IBackgroundCopyJob::AddFile method
+title: IBackgroundCopyJob::AddFile
 author: windows-driver-content
 description: Adds a single file to the job.
 old-location: bits\ibackgroundcopyjob_addfile.htm
 old-project: Bits
 ms.assetid: 0dada1d3-49b6-41af-b17f-612f27ea4d56
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: AddFile method [BITS], AddFile method [BITS], IBackgroundCopyJob interface, AddFile,IBackgroundCopyJob.AddFile, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], AddFile method, IBackgroundCopyJob::AddFile, _drz_ibackgroundcopyjob_addfile, bits.ibackgroundcopyjob_addfile, bits/IBackgroundCopyJob::AddFile
+ms.date: 4/27/2018
+ms.keywords: AddFile, AddFile method [BITS], AddFile method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],AddFile method, IBackgroundCopyJob.AddFile, IBackgroundCopyJob::AddFile, _drz_ibackgroundcopyjob_addfile, bits.ibackgroundcopyjob_addfile, bits/IBackgroundCopyJob::AddFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::AddFile method
+# IBackgroundCopyJob::AddFile
 
 
 ## -description

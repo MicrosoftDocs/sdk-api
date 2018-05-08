@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyNotifySink.OnRequestEdit
-title: IPropertyNotifySink::OnRequestEdit method
+title: IPropertyNotifySink::OnRequestEdit
 author: windows-driver-content
 description: Notifies a sink that a requestedit property is about to change.
 old-location: com\ipropertynotifysink_onrequestedit.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 52f4c45d-d658-4de2-a494-2ae164604681
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPropertyNotifySink, IPropertyNotifySink interface [COM], OnRequestEdit method, IPropertyNotifySink::OnRequestEdit, OnRequestEdit method [COM], OnRequestEdit method [COM], IPropertyNotifySink interface, OnRequestEdit,IPropertyNotifySink.OnRequestEdit, _ctrl_ipropertynotifysink_onrequestedit, com.ipropertynotifysink_onrequestedit, ocidl/IPropertyNotifySink::OnRequestEdit
+ms.keywords: IPropertyNotifySink interface [COM],OnRequestEdit method, IPropertyNotifySink.OnRequestEdit, IPropertyNotifySink::OnRequestEdit, OnRequestEdit, OnRequestEdit method [COM], OnRequestEdit method [COM],IPropertyNotifySink interface, _ctrl_ipropertynotifysink_onrequestedit, com.ipropertynotifysink_onrequestedit, ocidl/IPropertyNotifySink::OnRequestEdit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyNotifySink::OnRequestEdit method
+# IPropertyNotifySink::OnRequestEdit
 
 
 ## -description

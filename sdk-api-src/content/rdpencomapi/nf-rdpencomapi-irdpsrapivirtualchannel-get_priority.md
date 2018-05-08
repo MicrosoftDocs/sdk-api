@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.get_Priority
-title: IRDPSRAPIVirtualChannel::get_Priority method
+title: IRDPSRAPIVirtualChannel::get_Priority
 author: windows-driver-content
 description: The channel priority.
 old-location: rdp\irdpsrapivirtualchannel_priority.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 34addc3d-5541-48c9-a749-256114e0c2aa
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, IRDPSRAPIVirtualChannel, IRDPSRAPIVirtualChannel interface [RDP], Priority property, IRDPSRAPIVirtualChannel.Priority, IRDPSRAPIVirtualChannel::get_Priority, Priority property [RDP], Priority property [RDP], IRDPSRAPIVirtualChannel interface, Priority property [RDP], RDPSRAPIVirtualChannel object, RDPSRAPIVirtualChannel object [RDP], Priority property, get_Priority,IRDPSRAPIVirtualChannel.get_Priority, rdp.irdpsrapivirtualchannel_priority, rdpencomapi/IRDPSRAPIVirtualChannel::Priority, rdpencomapi/IRDPSRAPIVirtualChannel::get_Priority
+ms.keywords: CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, IRDPSRAPIVirtualChannel interface [RDP],Priority property, IRDPSRAPIVirtualChannel.Priority, IRDPSRAPIVirtualChannel.get_Priority, IRDPSRAPIVirtualChannel::Priority, IRDPSRAPIVirtualChannel::get_Priority, Priority property [RDP], Priority property [RDP],IRDPSRAPIVirtualChannel interface, Priority property [RDP],RDPSRAPIVirtualChannel object, RDPSRAPIVirtualChannel object [RDP],Priority property, get_Priority, rdp.irdpsrapivirtualchannel_priority, rdpencomapi/IRDPSRAPIVirtualChannel::Priority, rdpencomapi/IRDPSRAPIVirtualChannel::get_Priority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIVirtualChannel::get_Priority method
+# IRDPSRAPIVirtualChannel::get_Priority
 
 
 ## -description

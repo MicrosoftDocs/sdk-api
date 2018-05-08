@@ -7,8 +7,8 @@ old-location: search\_search_INamedEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\inamedentity.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: INamedEntity, INamedEntity interface [search], INamedEntity interface [search], described, _search_INamedEntity, search._search_INamedEntity, structuredquery/INamedEntity
+ms.date: 5/4/2018
+ms.keywords: INamedEntity, INamedEntity interface [search], INamedEntity interface [search],described, _search_INamedEntity, search._search_INamedEntity, structuredquery/INamedEntity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

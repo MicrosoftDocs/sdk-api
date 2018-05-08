@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2d318cc4-b3f2-4fb6-b9e3-8ba8312ad2ae
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_PinControl, IBDA_PinControl interface [Microsoft TV Technologies], IBDA_PinControl interface [Microsoft TV Technologies], described, IBDA_PinControlInterface, bdaiface/IBDA_PinControl, mstv.ibda_pincontrol
+ms.keywords: IBDA_PinControl, IBDA_PinControl interface [Microsoft TV Technologies], IBDA_PinControl interface [Microsoft TV Technologies],described, IBDA_PinControlInterface, bdaiface/IBDA_PinControl, mstv.ibda_pincontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_AvailableSourceRect
-title: IMSVidVideoRenderer::get_AvailableSourceRect method
+title: IMSVidVideoRenderer::get_AvailableSourceRect
 author: windows-driver-content
 description: The get_AvailableSourceRect method retrieves the size of the native video.
 old-location: mstv\imsvidvideorenderer_get_availablesourcerect.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 33747e97-3e1c-4220-89c9-cc8310b77c4e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], get_AvailableSourceRect method, IMSVidVideoRenderer::get_AvailableSourceRect, IMSVidVideoRendererget_AvailableSourceRect, get_AvailableSourceRect method [Microsoft TV Technologies], get_AvailableSourceRect method [Microsoft TV Technologies], IMSVidVideoRenderer interface, get_AvailableSourceRect,IMSVidVideoRenderer.get_AvailableSourceRect, mstv.imsvidvideorenderer_get_availablesourcerect, segment/IMSVidVideoRenderer::get_AvailableSourceRect
+ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_AvailableSourceRect method, IMSVidVideoRenderer.get_AvailableSourceRect, IMSVidVideoRenderer::get_AvailableSourceRect, IMSVidVideoRendererget_AvailableSourceRect, get_AvailableSourceRect, get_AvailableSourceRect method [Microsoft TV Technologies], get_AvailableSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_availablesourcerect, segment/IMSVidVideoRenderer::get_AvailableSourceRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer::get_AvailableSourceRect method
+# IMSVidVideoRenderer::get_AvailableSourceRect
 
 
 ## -description

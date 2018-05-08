@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.Reset
-title: IGestureRecognizer::Reset method
+title: IGestureRecognizer::Reset
 author: windows-driver-content
 description: Deletes past stroke information from the GestureRecognizer Class object.
 old-location: tablet\igesturerecognizer_reset.htm
 old-project: tablet
 ms.assetid: 05676701-2977-453f-b2b9-7a256899e2b1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 05676701-2977-453f-b2b9-7a256899e2b1, IGestureRecognizer, IGestureRecognizer interface [Tablet PC], Reset method, IGestureRecognizer::Reset, Reset method [Tablet PC], Reset method [Tablet PC], IGestureRecognizer interface, Reset,IGestureRecognizer.Reset, rtscom/IGestureRecognizer::Reset, tablet.igesturerecognizer_reset
+ms.date: 5/2/2018
+ms.keywords: 05676701-2977-453f-b2b9-7a256899e2b1, IGestureRecognizer interface [Tablet PC],Reset method, IGestureRecognizer.Reset, IGestureRecognizer::Reset, Reset, Reset method [Tablet PC], Reset method [Tablet PC],IGestureRecognizer interface, rtscom/IGestureRecognizer::Reset, tablet.igesturerecognizer_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IGestureRecognizer::Reset method
+# IGestureRecognizer::Reset
 
 
 ## -description

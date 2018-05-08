@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V2.InitializeFromTemplate
-title: IX509CertificateRequestPkcs10V2::InitializeFromTemplate method
+title: IX509CertificateRequestPkcs10V2::InitializeFromTemplate
 author: windows-driver-content
 description: Initializes the certificate request by using a template.
 old-location: security\ix509certificaterequestpkcs10v2_initializefromtemplate.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 599b4dfc-43a2-4be5-aa23-d3844ae442aa
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestPkcs10V2, IX509CertificateRequestPkcs10V2 interface [Security], InitializeFromTemplate method, IX509CertificateRequestPkcs10V2::InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security], IX509CertificateRequestPkcs10V2 interface, InitializeFromTemplate,IX509CertificateRequestPkcs10V2.InitializeFromTemplate, certenroll/IX509CertificateRequestPkcs10V2::InitializeFromTemplate, security.ix509certificaterequestpkcs10v2_initializefromtemplate
+ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestPkcs10V2 interface [Security],InitializeFromTemplate method, IX509CertificateRequestPkcs10V2.InitializeFromTemplate, IX509CertificateRequestPkcs10V2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::InitializeFromTemplate, security.ix509certificaterequestpkcs10v2_initializefromtemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs10V2::InitializeFromTemplate method
+# IX509CertificateRequestPkcs10V2::InitializeFromTemplate
 
 
 ## -description

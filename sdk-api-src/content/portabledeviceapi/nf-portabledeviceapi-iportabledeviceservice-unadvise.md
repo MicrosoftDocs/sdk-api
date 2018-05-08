@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Unadvise
-title: IPortableDeviceService::Unadvise method
+title: IPortableDeviceService::Unadvise
 author: windows-driver-content
 description: Unregisters a service event callback object.
 old-location: wpdsdk\iportabledeviceservice_unadvise.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 4982efa9-82f2-457b-acf4-c6f7d48cf6f7
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], Unadvise method, IPortableDeviceService::Unadvise, Unadvise method [Windows Portable Devices SDK], Unadvise method [Windows Portable Devices SDK], IPortableDeviceService interface, Unadvise,IPortableDeviceService.Unadvise, portabledeviceapi/IPortableDeviceService::Unadvise, wpdsdk.iportabledeviceservice_unadvise
+ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Unadvise method, IPortableDeviceService.Unadvise, IPortableDeviceService::Unadvise, Unadvise, Unadvise method [Windows Portable Devices SDK], Unadvise method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Unadvise, wpdsdk.iportabledeviceservice_unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceService::Unadvise method
+# IPortableDeviceService::Unadvise
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsRemovable.Eject
-title: IVdsRemovable::Eject method
+title: IVdsRemovable::Eject
 author: windows-driver-content
 description: Ejects the media from the current device.
 old-location: base\ivdsremovable_eject.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: c77885bd-67af-41c1-9190-e0148c7b7ed5
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Eject method [VDS], Eject method [VDS], IVdsRemovable interface, Eject,IVdsRemovable.Eject, IVdsRemovable, IVdsRemovable interface [VDS], Eject method, IVdsRemovable::Eject, base.ivdsremovable_eject, vds/IVdsRemovable::Eject
+ms.keywords: Eject, Eject method [VDS], Eject method [VDS],IVdsRemovable interface, IVdsRemovable interface [VDS],Eject method, IVdsRemovable.Eject, IVdsRemovable::Eject, base.ivdsremovable_eject, vds/IVdsRemovable::Eject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsRemovable::Eject method
+# IVdsRemovable::Eject
 
 
 ## -description

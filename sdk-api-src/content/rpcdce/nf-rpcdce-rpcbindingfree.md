@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingfree.htm
 old-project: Rpc
 ms.assetid: 0f85e64f-b4a6-4982-8df5-88caa0a312f6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcBindingFree, RpcBindingFree function [RPC], _rpc_rpcbindingfree, rpc.rpcbindingfree, rpcdce/RpcBindingFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

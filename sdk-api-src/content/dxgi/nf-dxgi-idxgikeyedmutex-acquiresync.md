@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIKeyedMutex.AcquireSync
-title: IDXGIKeyedMutex::AcquireSync method
+title: IDXGIKeyedMutex::AcquireSync
 author: windows-driver-content
 description: Using a key, acquires exclusive rendering access to a shared resource.
 old-location: direct3ddxgi\idxgikeyedmutex_acquiresync.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 31edab76-7b16-4a02-83ff-998c21e77f2e
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 06d995ac-16d4-215c-4d9a-179636a32853, AcquireSync method [DXGI], AcquireSync method [DXGI], IDXGIKeyedMutex interface, AcquireSync,IDXGIKeyedMutex.AcquireSync, IDXGIKeyedMutex, IDXGIKeyedMutex interface [DXGI], AcquireSync method, IDXGIKeyedMutex::AcquireSync, direct3ddxgi.idxgikeyedmutex_acquiresync, dxgi/IDXGIKeyedMutex::AcquireSync
+ms.keywords: 06d995ac-16d4-215c-4d9a-179636a32853, AcquireSync, AcquireSync method [DXGI], AcquireSync method [DXGI],IDXGIKeyedMutex interface, IDXGIKeyedMutex interface [DXGI],AcquireSync method, IDXGIKeyedMutex.AcquireSync, IDXGIKeyedMutex::AcquireSync, direct3ddxgi.idxgikeyedmutex_acquiresync, dxgi/IDXGIKeyedMutex::AcquireSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIKeyedMutex::AcquireSync method
+# IDXGIKeyedMutex::AcquireSync
 
 
 ## -description

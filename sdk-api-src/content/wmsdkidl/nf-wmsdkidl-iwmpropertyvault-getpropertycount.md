@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.GetPropertyCount
-title: IWMPropertyVault::GetPropertyCount method
+title: IWMPropertyVault::GetPropertyCount
 author: windows-driver-content
 description: The GetPropertyCount method retrieves a count of all the properties in the property vault.
 old-location: wmformat\iwmpropertyvault_getpropertycount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 2045183d-8683-416f-bda0-87c5fecf8c11
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetPropertyCount method [windows Media Format], GetPropertyCount method [windows Media Format], IWMPropertyVault interface, GetPropertyCount,IWMPropertyVault.GetPropertyCount, IWMPropertyVault, IWMPropertyVault interface [windows Media Format], GetPropertyCount method, IWMPropertyVault::GetPropertyCount, IWMPropertyVaultGetPropertyCount, wmformat.iwmpropertyvault_getpropertycount, wmsdkidl/IWMPropertyVault::GetPropertyCount
+ms.keywords: GetPropertyCount, GetPropertyCount method [windows Media Format], GetPropertyCount method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyCount method, IWMPropertyVault.GetPropertyCount, IWMPropertyVault::GetPropertyCount, IWMPropertyVaultGetPropertyCount, wmformat.iwmpropertyvault_getpropertycount, wmsdkidl/IWMPropertyVault::GetPropertyCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPropertyVault::GetPropertyCount method
+# IWMPropertyVault::GetPropertyCount
 
 
 ## -description

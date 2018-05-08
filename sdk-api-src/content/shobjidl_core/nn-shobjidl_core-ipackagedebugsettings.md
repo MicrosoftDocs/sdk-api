@@ -2,21 +2,21 @@
 UID: NN:shobjidl_core.IPackageDebugSettings
 title: IPackageDebugSettings
 author: windows-driver-content
-description: Enables debugger developers control over the lifecycle of a Windows Store app, such as when it is suspended or resumed.
-old-location: winrt\ipackagedebugsettings.htm
-old-project: WinRT
-ms.assetid: cae72152-c9d2-4791-b3f8-1187fb2a4d6c
+description: Enables debugger developers to control the life cycle of a Windows Store app, such as suspending or resuming.
+old-location: shell\IPackageDebugSettings.htm
+old-project: shell
+ms.assetid: e407c4ca-0de1-4b17-bb83-5c4128952d48
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], IPackageDebugSettings interface [Windows Runtime], described, shobjidl_core/IPackageDebugSettings, winrt.ipackagedebugsettings
+ms.date: 5/3/2018
+ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Shell], IPackageDebugSettings interface [Windows Shell],described, shell.IPackageDebugSettings, shobjidl_core/IPackageDebugSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,13 +33,13 @@ topic_type:
 api_type:
 -	COM
 api_location:
--	shobjidl_core.h
+-	Shobjidl_core.h
 api_name:
 -	IPackageDebugSettings
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 req.product: Internet Explorer 6.01
 ---
@@ -50,7 +50,7 @@ req.product: Internet Explorer 6.01
 ## -description
 
 
-Enables debugger developers control over the lifecycle of a Windows Store app, such as when it is suspended or resumed.
+Enables debugger developers to control the life cycle of a Windows Store app, such as suspending or resuming.
 
 
 ## -inheritance
@@ -70,16 +70,16 @@ The <b>IPackageDebugSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ACDAB41-5904-409B-86B2-96865B761868">ActivateBackgroundTask</a>
+<a href="https://msdn.microsoft.com/30ef83f0-cad1-4aee-9b70-0fe7189aff9e">ActivateBackgroundTask</a>
 </td>
 <td align="left" width="63%">
-Activates the specified background task.
+Activates the specified background task. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad7efefb-aacd-48fa-bfe6-26271bd03b86">DisableDebugging</a>
+<a href="https://msdn.microsoft.com/102e57be-296e-44ec-8211-f2c2d5eae1e6">DisableDebugging</a>
 </td>
 <td align="left" width="63%">
 Disables debug mode for the processes of the specified package.
@@ -88,7 +88,7 @@ Disables debug mode for the processes of the specified package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6219e8d7-0631-482f-b602-b0453d4b1e70">EnableDebugging</a>
+<a href="https://msdn.microsoft.com/a3afae41-b46e-47c8-95bb-a0aa747c6353">EnableDebugging</a>
 </td>
 <td align="left" width="63%">
 Enables debug mode for the processes of the specified package.
@@ -97,34 +97,34 @@ Enables debug mode for the processes of the specified package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C86103F6-6893-483C-8237-CBBA71C784D2">EnumerateBackgroundTasks</a>
+<a href="https://msdn.microsoft.com/14a516c8-fb15-41b6-807c-b14d81148e0e">EnumerateBackgroundTasks</a>
 </td>
 <td align="left" width="63%">
-Enumerates background tasks for the processes of the specified package.
+Gets the background tasks that are provided by the specified package.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0D3FD95D-C958-4388-90F4-03DE2F75DF64">GetPackageExecutionState</a>
+<a href="https://msdn.microsoft.com/39560adc-9d35-48ec-8b70-2ed4b83dd1f6">GetPackageExecutionState</a>
 </td>
 <td align="left" width="63%">
-Gets the execution state for the processes of the specified package.
+Returns the current execution state of the specified package.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B53CF95C-FD40-45E2-869B-32F089986D13">RegisterForPackageStateChanges</a>
+<a href="https://msdn.microsoft.com/D0E26154-DADB-499D-A434-8211196E2F5F">RegisterForPackageStateChanges</a>
 </td>
 <td align="left" width="63%">
-Registers for changes in the state of the processes of the specified package.
+Register for package state-change notifications.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5376e00-b4b7-4a81-a84c-3a46758fe130">Resume</a>
+<a href="https://msdn.microsoft.com/2f0b3188-4c58-4ff6-983e-912131a7c934">Resume</a>
 </td>
 <td align="left" width="63%">
 Resumes the processes of the package if they are currently suspended.
@@ -133,7 +133,7 @@ Resumes the processes of the package if they are currently suspended.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b262ac9-2e15-48d5-ad09-8b46234601e6">SetTargetSessionId</a>
+<a href="https://msdn.microsoft.com/a7794703-08ff-40a8-8807-a09e35a4bb8f">SetTargetSessionId</a>
 </td>
 <td align="left" width="63%">
 Sets the session identifier.
@@ -142,37 +142,37 @@ Sets the session identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8DBD9EF8-F350-4B92-BC4C-6E3ACBBF7D95">StartServicing</a>
+<a href="https://msdn.microsoft.com/40f5331d-194f-4beb-9c59-f6899186b393">StartServicing</a>
 </td>
 <td align="left" width="63%">
-Terminates the application and prevents new background task activations until a call to <a href="https://msdn.microsoft.com/91C20C41-8F20-4F9D-B22C-50D1D53FEB41">StopServicing</a> is made.
+Suspends and terminates the non-background portion of the apps associated with the specified package and cancels the background tasks associated with the package.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/686CF2EC-CEE7-4E6A-9E97-9DD80AE89131">StartSessionRedirection</a>
+<a href="https://msdn.microsoft.com/a9f40c32-afbe-4f1f-9693-72a757d93a05">StartSessionRedirection</a>
 </td>
 <td align="left" width="63%">
-Starts redirection for the specified session identifier.
+Causes background tasks for the specified package to activate  in the specified user session.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91C20C41-8F20-4F9D-B22C-50D1D53FEB41">StopServicing</a>
+<a href="https://msdn.microsoft.com/129ea98a-e0c3-4472-918c-6d9aa4858c4b">StopServicing</a>
 </td>
 <td align="left" width="63%">
-Stops servicing the processes of the package if they are currently being serviced.
+Completes the previous servicing operation that was started by a call to the  <a href="https://msdn.microsoft.com/40f5331d-194f-4beb-9c59-f6899186b393">StartServicing</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2E0BB941-CD98-4DFE-A16D-93A6327AAA2B">StopSessionRedirection</a>
+<a href="https://msdn.microsoft.com/6edd4f9a-c9e8-45eb-a86b-a04116530aad">StopSessionRedirection</a>
 </td>
 <td align="left" width="63%">
-Stops redirection for the current session. 
+Stops redirection of background tasks for the specified package.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ Suspends the processes of the package if they are currently running.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54be6d31-c9b9-41c6-a90f-31f6b9caef70">TerminateAllProcesses</a>
+<a href="https://msdn.microsoft.com/e49faeaa-8fd8-4233-94ac-0899177a9bb3">TerminateAllProcesses</a>
 </td>
 <td align="left" width="63%">
 Terminates all processes for the specified package.
@@ -196,10 +196,10 @@ Terminates all processes for the specified package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7EC7CCCB-1AE6-458C-A92C-4D303717EA15">UnregisterForPackageStateChanges</a>
+<a href="https://msdn.microsoft.com/CFCDA0AD-83D5-43DD-A7DD-C121563BF3DB">UnregisterForPackageStateChanges</a>
 </td>
 <td align="left" width="63%">
-Unregisters for changes in the state of the processes of the specified package.
+Stops receiving package state-change notifications associated with a previous call to <a href="https://msdn.microsoft.com/D0E26154-DADB-499D-A434-8211196E2F5F">RegisterForPackageStateChanges</a>.
 
 </td>
 </tr>
@@ -212,7 +212,7 @@ Unregisters for changes in the state of the processes of the specified package.
 
 Any debug options set remain in effect until they are cleared or this interface is released.
 
-For debug settings to take effect on Internet Explorer in the new Windows UI, use "DefaultBrowser_NOPUBLISHERID" as the <i>packageFullName</i> parameter  for  <b>IPackageDebugSettings</b> methods. 
+For debug settings to take effect on Internet Explorer in the new Windows UI, use "DefaultBrowser_NOPUBLISHERID" as the <i>packageFullName</i> parameter  for  <a href="https://msdn.microsoft.com/cae72152-c9d2-4791-b3f8-1187fb2a4d6c">IPackageDebugSettings</a> methods. 
 
 
 

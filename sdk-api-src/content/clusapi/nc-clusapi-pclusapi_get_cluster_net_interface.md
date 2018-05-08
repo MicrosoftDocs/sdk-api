@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: b9bca010-7401-4a2f-95df-a5d0ef3dbfae
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_GET_CLUSTER_NET_INTERFACE, PCLUSAPI_GET_CLUSTER_NET_INTERFACE callback function [Failover Cluster], _wolf_getclusternetinterface, clusapi/PCLUSAPI_GET_CLUSTER_NET_INTERFACE, mscs.getclusternetinterface
+ms.keywords: PCLUSAPI_GET_CLUSTER_NET_INTERFACE, PCLUSAPI_GET_CLUSTER_NET_INTERFACE callback, PCLUSAPI_GET_CLUSTER_NET_INTERFACE callback function [Failover Cluster], _wolf_getclusternetinterface, clusapi/PCLUSAPI_GET_CLUSTER_NET_INTERFACE, mscs.getclusternetinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_GET_CLUSTER_NET_INTERFACE callback
+# PCLUSAPI_GET_CLUSTER_NET_INTERFACE callback function
 
 
 ## -description

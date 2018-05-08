@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient.IsFormatSupported
-title: IAudioClient::IsFormatSupported method
+title: IAudioClient::IsFormatSupported
 author: windows-driver-content
 description: The IsFormatSupported method indicates whether the audio endpoint device supports a particular stream format.
 old-location: coreaudio\iaudioclient_isformatsupported.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 92d1fc93-08e2-46d9-bd2f-ce1b2087d2d1
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioClient, IAudioClient interface [Core Audio], IsFormatSupported method, IAudioClient::IsFormatSupported, IAudioClientIsFormatSupported, IsFormatSupported method [Core Audio], IsFormatSupported method [Core Audio], IAudioClient interface, IsFormatSupported,IAudioClient.IsFormatSupported, audioclient/IAudioClient::IsFormatSupported, coreaudio.iaudioclient_isformatsupported
+ms.keywords: IAudioClient interface [Core Audio],IsFormatSupported method, IAudioClient.IsFormatSupported, IAudioClient::IsFormatSupported, IAudioClientIsFormatSupported, IsFormatSupported, IsFormatSupported method [Core Audio], IsFormatSupported method [Core Audio],IAudioClient interface, audioclient/IAudioClient::IsFormatSupported, coreaudio.iaudioclient_isformatsupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioClient::IsFormatSupported method
+# IAudioClient::IsFormatSupported
 
 
 ## -description

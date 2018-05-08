@@ -7,7 +7,7 @@ old-location: winsock\ntohs_2.htm
 old-project: WinSock
 ms.assetid: 9946df13-3b40-4bcb-91ca-10684b3fc9a5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "_win32_ntohs_2, ntohs, ntohs function [Winsock], winsock.ntohs_2, winsock/ntohs"
 ms.prod: windows-hardware
 ms.technology: windows-devices

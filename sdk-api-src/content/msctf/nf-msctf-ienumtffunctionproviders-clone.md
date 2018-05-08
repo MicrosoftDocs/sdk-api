@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Clone
-title: IEnumTfFunctionProviders::Clone method
+title: IEnumTfFunctionProviders::Clone
 author: windows-driver-content
 description: IEnumTfFunctionProviders::Clone method
 old-location: tsf\ienumtffunctionproviders_clone.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: fa4b8682-4f99-425d-8ae7-a510e109fe64
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Clone method [Text Services Framework], Clone method [Text Services Framework], IEnumTfFunctionProviders interface, Clone,IEnumTfFunctionProviders.Clone, IEnumTfFunctionProviders, IEnumTfFunctionProviders interface [Text Services Framework], Clone method, IEnumTfFunctionProviders::Clone, _tsf_ienumtffunctionproviders_clone_ref, msctf/IEnumTfFunctionProviders::Clone, tsf.ienumtffunctionproviders_clone
+ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfFunctionProviders interface, IEnumTfFunctionProviders interface [Text Services Framework],Clone method, IEnumTfFunctionProviders.Clone, IEnumTfFunctionProviders::Clone, _tsf_ienumtffunctionproviders_clone_ref, msctf/IEnumTfFunctionProviders::Clone, tsf.ienumtffunctionproviders_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfFunctionProviders::Clone method
+# IEnumTfFunctionProviders::Clone
 
 
 ## -description

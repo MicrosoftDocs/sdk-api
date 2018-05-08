@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetRotation
-title: IMFCapturePreviewSink::SetRotation method
+title: IMFCapturePreviewSink::SetRotation
 author: windows-driver-content
 description: Rotates the video preview stream.
 old-location: mf\imfcapturepreviewsink_setrotation.htm
 old-project: medfound
 ms.assetid: 84C53A34-B2FB-4D13-9A45-5172E9E3CEE8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], SetRotation method, IMFCapturePreviewSink::SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation], IMFCapturePreviewSink interface, SetRotation,IMFCapturePreviewSink.SetRotation, mf.imfcapturepreviewsink_setrotation, mfcaptureengine/IMFCapturePreviewSink::SetRotation
+ms.date: 5/3/2018
+ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRotation method, IMFCapturePreviewSink.SetRotation, IMFCapturePreviewSink::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setrotation, mfcaptureengine/IMFCapturePreviewSink::SetRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCapturePreviewSink::SetRotation method
+# IMFCapturePreviewSink::SetRotation
 
 
 ## -description

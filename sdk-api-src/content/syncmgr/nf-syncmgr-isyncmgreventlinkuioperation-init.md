@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventLinkUIOperation.Init
-title: ISyncMgrEventLinkUIOperation::Init method
+title: ISyncMgrEventLinkUIOperation::Init
 author: windows-driver-content
 description: Enables Sync Center to provide the event to link to so ISyncMgrUIOperation::Run knows which event to operate upon.
 old-location: shell\ISyncMgrEventLinkUIOperation_Init.htm
 old-project: shell
 ms.assetid: 6f9c9fd9-54f9-423d-af91-6f569a7c8616
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrEventLinkUIOperation, ISyncMgrEventLinkUIOperation interface [Windows Shell], Init method, ISyncMgrEventLinkUIOperation::Init, Init method [Windows Shell], Init method [Windows Shell], ISyncMgrEventLinkUIOperation interface, Init,ISyncMgrEventLinkUIOperation.Init, _shell_ISyncMgrEventLinkUIOperation_Init, shell.ISyncMgrEventLinkUIOperation_Init, syncmgr/ISyncMgrEventLinkUIOperation::Init
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrEventLinkUIOperation interface [Windows Shell],Init method, ISyncMgrEventLinkUIOperation.Init, ISyncMgrEventLinkUIOperation::Init, Init, Init method [Windows Shell], Init method [Windows Shell],ISyncMgrEventLinkUIOperation interface, _shell_ISyncMgrEventLinkUIOperation_Init, shell.ISyncMgrEventLinkUIOperation_Init, syncmgr/ISyncMgrEventLinkUIOperation::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrEventLinkUIOperation::Init method
+# ISyncMgrEventLinkUIOperation::Init
 
 
 ## -description

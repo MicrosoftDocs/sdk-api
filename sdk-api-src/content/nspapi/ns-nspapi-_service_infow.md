@@ -7,7 +7,7 @@ old-location: winsock\service_info_2.htm
 old-project: WinSock
 ms.assetid: e76e0c1b-8cbf-45ad-a685-fb672801c24d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPSERVICE_INFOW, *PSERVICE_INFOW, RESOURCEDISPLAYTYPE_DOMAIN, RESOURCEDISPLAYTYPE_FILE, RESOURCEDISPLAYTYPE_GENERIC, RESOURCEDISPLAYTYPE_GROUP, RESOURCEDISPLAYTYPE_SERVER, RESOURCEDISPLAYTYPE_SHARE, RESOURCEDISPLAYTYPE_TREE, SERVICE_INFO, SERVICE_INFO structure [Winsock], SERVICE_INFOA, SERVICE_INFOW, _SERVICE_INFOW, _win32_service_info_2, nspapi/SERVICE_INFO, nspapi/SERVICE_INFOA, nspapi/SERVICE_INFOW, winsock.service_info_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

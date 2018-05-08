@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_mib_info_v5.htm
 old-project: DHCP
 ms.assetid: 5081ebce-d3b9-4548-8d80-23d994bce7ab
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_MIB_INFO_V5, DHCP_MIB_INFO_V5, DHCP_MIB_INFO_V5 structure [DHCP], LPDHCP_MIB_INFO_V5, LPDHCP_MIB_INFO_V5 structure pointer [DHCP], _DHCP_MIB_INFO_V5, dhcp.dhcp_mib_info_v5, dhcpsapi/DHCP_MIB_INFO_V5, dhcpsapi/LPDHCP_MIB_INFO_V5"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,6 +151,18 @@ The total number of scopes configured on the DHCP server
 ### -field ScopeInfo
 
 Pointer to a <a href="https://msdn.microsoft.com/5144d83e-f21e-4f68-bf33-c7245b31da01">SCOPE_MIB_INFO_V5</a> structure that contains specific information about the scopes configured on the DHCP server.
+
+
+### -field ScopeInfo.size_is
+
+ 
+
+
+### -field ScopeInfo.size_is.Scopes
+
+ 
+
+
 
 
 ## -see-also

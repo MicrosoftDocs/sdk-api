@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IParseDisplayName.ParseDisplayName
-title: IParseDisplayName::ParseDisplayName method
+title: IParseDisplayName::ParseDisplayName
 author: windows-driver-content
 description: Parses the specified display name and creates a corresponding moniker.
 old-location: com\iparsedisplayname_parsedisplayname.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bf18320c-1ff3-4280-bd67-70f6c2998285
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], ParseDisplayName method, IParseDisplayName::ParseDisplayName, ParseDisplayName method [COM], ParseDisplayName method [COM], IParseDisplayName interface, ParseDisplayName,IParseDisplayName.ParseDisplayName, _com_iparsedisplayname_parsedisplayname, com.iparsedisplayname_parsedisplayname, oleidl/IParseDisplayName::ParseDisplayName
+ms.keywords: IParseDisplayName interface [COM],ParseDisplayName method, IParseDisplayName.ParseDisplayName, IParseDisplayName::ParseDisplayName, ParseDisplayName, ParseDisplayName method [COM], ParseDisplayName method [COM],IParseDisplayName interface, _com_iparsedisplayname_parsedisplayname, com.iparsedisplayname_parsedisplayname, oleidl/IParseDisplayName::ParseDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IParseDisplayName::ParseDisplayName method
+# IParseDisplayName::ParseDisplayName
 
 
 ## -description

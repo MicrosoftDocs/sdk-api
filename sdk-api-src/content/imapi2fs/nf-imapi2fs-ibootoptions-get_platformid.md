@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IBootOptions.get_PlatformId
-title: IBootOptions::get_PlatformId method
+title: IBootOptions::get_PlatformId
 author: windows-driver-content
 description: Retrieves the platform identifier that identifies the operating system architecture that the boot image supports.
 old-location: imapi\ibootoptions_get_platformid.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 8d5ceb0e-4fd2-4146-8e15-b157c80a9d5b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IBootOptions, IBootOptions interface [IMAPI], get_PlatformId method, IBootOptions::get_PlatformId, get_PlatformId method [IMAPI], get_PlatformId method [IMAPI], IBootOptions interface, get_PlatformId,IBootOptions.get_PlatformId, imapi.ibootoptions_get_platformid, imapi2fs/IBootOptions::get_PlatformId
+ms.keywords: IBootOptions interface [IMAPI],get_PlatformId method, IBootOptions.get_PlatformId, IBootOptions::get_PlatformId, get_PlatformId, get_PlatformId method [IMAPI], get_PlatformId method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_platformid, imapi2fs/IBootOptions::get_PlatformId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IBootOptions::get_PlatformId method
+# IBootOptions::get_PlatformId
 
 
 ## -description

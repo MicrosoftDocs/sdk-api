@@ -7,7 +7,7 @@ old-location: winsock\wsaquerysocketsecurity.htm
 old-project: WinSock
 ms.assetid: fda7738f-b7fc-49c3-aa40-9beea31d1009
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: WSAQuerySocketSecurity, WSAQuerySocketSecurity function [Winsock], winsock.wsaquerysocketsecurity, ws2tcpip/WSAQuerySocketSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Lock
-title: IWMSecureChannel::WMSC_Lock method
+title: IWMSecureChannel::WMSC_Lock
 author: windows-driver-content
 description: The WMSC_Lock method locks access to the secure connection.
 old-location: wmformat\iwmsecurechannel_wmsc_lock.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: fbb9f71c-49ee-45d8-bb9a-945290e11ea9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSecureChannel, IWMSecureChannel interface [windows Media Format], WMSC_Lock method, IWMSecureChannel::WMSC_Lock, WMSC_Lock method [windows Media Format], WMSC_Lock method [windows Media Format], IWMSecureChannel interface, WMSC_Lock,IWMSecureChannel.WMSC_Lock, wmformat.iwmsecurechannel_wmsc_lock, wmsecure/IWMSecureChannel::WMSC_Lock
+ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Lock method, IWMSecureChannel.WMSC_Lock, IWMSecureChannel::WMSC_Lock, WMSC_Lock, WMSC_Lock method [windows Media Format], WMSC_Lock method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_lock, wmsecure/IWMSecureChannel::WMSC_Lock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSecureChannel::WMSC_Lock method
+# IWMSecureChannel::WMSC_Lock
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Next
-title: IEnumDMO::Next method
+title: IEnumDMO::Next
 author: windows-driver-content
 description: The Next method retrieves a specified number of items in the enumeration sequence.
 old-location: dshow\ienumdmo_next.htm
 old-project: DirectShow
 ms.assetid: 5094f2d3-caa7-4085-aebe-306a7b05b591
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumDMO, IEnumDMO interface [DirectShow], Next method, IEnumDMO::Next, IEnumDMONext, Next method [DirectShow], Next method [DirectShow], IEnumDMO interface, Next,IEnumDMO.Next, dshow.ienumdmo_next, mediaobj/IEnumDMO::Next
+ms.date: 4/30/2018
+ms.keywords: IEnumDMO interface [DirectShow],Next method, IEnumDMO.Next, IEnumDMO::Next, IEnumDMONext, Next, Next method [DirectShow], Next method [DirectShow],IEnumDMO interface, dshow.ienumdmo_next, mediaobj/IEnumDMO::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumDMO::Next method
+# IEnumDMO::Next
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetCertificateSet
-title: IXpsSigningOptions::GetCertificateSet method
+title: IXpsSigningOptions::GetCertificateSet
 author: windows-driver-content
 description: Gets an IOpcCertificateSet interface, which can be used to add additional certificates to the signature.
 old-location: xps\ixpssigningoptions_getcertificateset.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 40e96263-03dd-4fbe-8383-0c0bf1abd8c4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCertificateSet method [XPS Documents and Packaging], GetCertificateSet method [XPS Documents and Packaging], IXpsSigningOptions interface, GetCertificateSet,IXpsSigningOptions.GetCertificateSet, IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], GetCertificateSet method, IXpsSigningOptions::GetCertificateSet, xps.ixpssigningoptions_getcertificateset, xpsdigitalsignature/IXpsSigningOptions::GetCertificateSet
+ms.keywords: GetCertificateSet, GetCertificateSet method [XPS Documents and Packaging], GetCertificateSet method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCertificateSet method, IXpsSigningOptions.GetCertificateSet, IXpsSigningOptions::GetCertificateSet, xps.ixpssigningoptions_getcertificateset, xpsdigitalsignature/IXpsSigningOptions::GetCertificateSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSigningOptions::GetCertificateSet method
+# IXpsSigningOptions::GetCertificateSet
 
 
 ## -description

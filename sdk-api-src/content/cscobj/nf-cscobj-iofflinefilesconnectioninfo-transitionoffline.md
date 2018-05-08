@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.TransitionOffline
-title: IOfflineFilesConnectionInfo::TransitionOffline method
+title: IOfflineFilesConnectionInfo::TransitionOffline
 author: windows-driver-content
 description: Transitions an item offline if possible.
 old-location: of\iofflinefilesconnectioninfo_transitionoffline.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: cb32238d-c8f2-4228-8472-4a699b24c621
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesConnectionInfo, IOfflineFilesConnectionInfo interface [Offline Files], TransitionOffline method, IOfflineFilesConnectionInfo::TransitionOffline, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, TransitionOffline method [Offline Files], TransitionOffline method [Offline Files], IOfflineFilesConnectionInfo interface, TransitionOffline,IOfflineFilesConnectionInfo.TransitionOffline, cscobj/IOfflineFilesConnectionInfo::TransitionOffline, of.iofflinefilesconnectioninfo_transitionoffline
+ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],TransitionOffline method, IOfflineFilesConnectionInfo.TransitionOffline, IOfflineFilesConnectionInfo::TransitionOffline, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, TransitionOffline, TransitionOffline method [Offline Files], TransitionOffline method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::TransitionOffline, of.iofflinefilesconnectioninfo_transitionoffline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesConnectionInfo::TransitionOffline method
+# IOfflineFilesConnectionInfo::TransitionOffline
 
 
 ## -description

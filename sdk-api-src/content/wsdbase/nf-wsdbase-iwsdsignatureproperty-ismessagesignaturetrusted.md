@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.IsMessageSignatureTrusted
-title: IWSDSignatureProperty::IsMessageSignatureTrusted method
+title: IWSDSignatureProperty::IsMessageSignatureTrusted
 author: windows-driver-content
 description: Specifies if a message signature is trusted.
 old-location: ncd\iwsdsignatureproperty_ismessagesignaturetrusted.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: b71ddd44-4823-455c-aea7-ee2f63b423bb
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDSignatureProperty, IWSDSignatureProperty interface, IsMessageSignatureTrusted method, IWSDSignatureProperty::IsMessageSignatureTrusted, IsMessageSignatureTrusted method, IsMessageSignatureTrusted method, IWSDSignatureProperty interface, IsMessageSignatureTrusted,IWSDSignatureProperty.IsMessageSignatureTrusted, ncd.iwsdsignatureproperty_ismessagesignaturetrusted, wsdbase/IWSDSignatureProperty::IsMessageSignatureTrusted
+ms.keywords: IWSDSignatureProperty interface,IsMessageSignatureTrusted method, IWSDSignatureProperty.IsMessageSignatureTrusted, IWSDSignatureProperty::IsMessageSignatureTrusted, IsMessageSignatureTrusted, IsMessageSignatureTrusted method, IsMessageSignatureTrusted method,IWSDSignatureProperty interface, ncd.iwsdsignatureproperty_ismessagesignaturetrusted, wsdbase/IWSDSignatureProperty::IsMessageSignatureTrusted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDSignatureProperty::IsMessageSignatureTrusted method
+# IWSDSignatureProperty::IsMessageSignatureTrusted
 
 
 ## -description

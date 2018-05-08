@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwServiceRestriction.ServiceRestricted
-title: INetFwServiceRestriction::ServiceRestricted method
+title: INetFwServiceRestriction::ServiceRestricted
 author: windows-driver-content
 description: The ServiceRestricted method indicates whether service restriction rules are enabled to limit traffic to the resources specified by the firewall rules.
 old-location: ics\inetfwservicerestriction_servicerestricted.htm
 old-project: ICS
 ms.assetid: 38fe5a68-44ab-4bcb-8673-ebb1e87e446f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwServiceRestriction, INetFwServiceRestriction interface [ICS/ICF], ServiceRestricted method, INetFwServiceRestriction::ServiceRestricted, ServiceRestricted method [ICS/ICF], ServiceRestricted method [ICS/ICF], INetFwServiceRestriction interface, ServiceRestricted,INetFwServiceRestriction.ServiceRestricted, ics.inetfwservicerestriction_servicerestricted, netfw/INetFwServiceRestriction::ServiceRestricted
+ms.date: 5/1/2018
+ms.keywords: INetFwServiceRestriction interface [ICS/ICF],ServiceRestricted method, INetFwServiceRestriction.ServiceRestricted, INetFwServiceRestriction::ServiceRestricted, ServiceRestricted, ServiceRestricted method [ICS/ICF], ServiceRestricted method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_servicerestricted, netfw/INetFwServiceRestriction::ServiceRestricted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwServiceRestriction::ServiceRestricted method
+# INetFwServiceRestriction::ServiceRestricted
 
 
 ## -description

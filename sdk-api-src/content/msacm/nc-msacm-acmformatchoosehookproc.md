@@ -7,8 +7,8 @@ old-location: multimedia\acmformatchoosehookproc.htm
 old-project: Multimedia
 ms.assetid: 75b11c0f-ae85-424d-b936-492d67440659
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: "_win32_acmFormatChooseHookProc, acmFormatChooseHookProc, acmFormatChooseHookProc callback function [Windows Multimedia], msacm/acmFormatChooseHookProc, multimedia.acmformatchoosehookproc"
+ms.date: 5/4/2018
+ms.keywords: "_win32_acmFormatChooseHookProc, acmFormatChooseHookProc, acmFormatChooseHookProc callback, acmFormatChooseHookProc callback function [Windows Multimedia], msacm/acmFormatChooseHookProc, multimedia.acmformatchoosehookproc"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ACMFORMATCHOOSEHOOKPROC callback
+# ACMFORMATCHOOSEHOOKPROC callback function
 
 
 ## -description

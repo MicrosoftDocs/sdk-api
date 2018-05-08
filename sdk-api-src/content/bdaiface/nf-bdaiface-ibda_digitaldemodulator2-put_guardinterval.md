@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.put_GuardInterval
-title: IBDA_DigitalDemodulator2::put_GuardInterval method
+title: IBDA_DigitalDemodulator2::put_GuardInterval
 author: windows-driver-content
 description: Sets the demodulator's guard interval.
 old-location: mstv\ibda_digitaldemodulator2_put_guardinterval.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1183eacb-4846-4b5e-b879-7e557eb5f5dc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DigitalDemodulator2, IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies], put_GuardInterval method, IBDA_DigitalDemodulator2::put_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::put_GuardInterval, mstv.ibda_digitaldemodulator2_put_guardinterval, put_GuardInterval method [Microsoft TV Technologies], put_GuardInterval method [Microsoft TV Technologies], IBDA_DigitalDemodulator2 interface, put_GuardInterval,IBDA_DigitalDemodulator2.put_GuardInterval
+ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_GuardInterval method, IBDA_DigitalDemodulator2.put_GuardInterval, IBDA_DigitalDemodulator2::put_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::put_GuardInterval, mstv.ibda_digitaldemodulator2_put_guardinterval, put_GuardInterval, put_GuardInterval method [Microsoft TV Technologies], put_GuardInterval method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DigitalDemodulator2::put_GuardInterval method
+# IBDA_DigitalDemodulator2::put_GuardInterval
 
 
 ## -description

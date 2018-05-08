@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetServiceProxyById
-title: IWSDDeviceProxy::GetServiceProxyById method
+title: IWSDDeviceProxy::GetServiceProxyById
 author: windows-driver-content
 description: Retrieves a generic IWSDServiceProxy service proxy by service ID.
 old-location: ncd\iwsddeviceproxy_getserviceproxybyid_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: c1c07b78-16f6-4595-8de3-0c6591096496
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetServiceProxyById method, GetServiceProxyById method, IWSDDeviceProxy interface, GetServiceProxyById,IWSDDeviceProxy.GetServiceProxyById, IWSDDeviceProxy, IWSDDeviceProxy interface, GetServiceProxyById method, IWSDDeviceProxy::GetServiceProxyById, ncd.iwsddeviceproxy_getserviceproxybyid_method, wsdclient/IWSDDeviceProxy::GetServiceProxyById
+ms.keywords: GetServiceProxyById, GetServiceProxyById method, GetServiceProxyById method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetServiceProxyById method, IWSDDeviceProxy.GetServiceProxyById, IWSDDeviceProxy::GetServiceProxyById, ncd.iwsddeviceproxy_getserviceproxybyid_method, wsdclient/IWSDDeviceProxy::GetServiceProxyById
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceProxy::GetServiceProxyById method
+# IWSDDeviceProxy::GetServiceProxyById
 
 
 ## -description

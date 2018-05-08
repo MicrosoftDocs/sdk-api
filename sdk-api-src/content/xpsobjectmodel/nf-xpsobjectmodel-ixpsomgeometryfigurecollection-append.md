@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.Append
-title: IXpsOMGeometryFigureCollection::Append method
+title: IXpsOMGeometryFigureCollection::Append
 author: windows-driver-content
 description: Appends an IXpsOMGeometryFigure interface to the end of the collection.
 old-location: xps\ixpsomgeometryfigurecollection_append.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 9481cd02-74f8-42f6-a347-454dae2aa579
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging], IXpsOMGeometryFigureCollection interface, Append,IXpsOMGeometryFigureCollection.Append, IXpsOMGeometryFigureCollection, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging], Append method, IXpsOMGeometryFigureCollection::Append, xps.ixpsomgeometryfigurecollection_append, xpsobjectmodel/IXpsOMGeometryFigureCollection::Append
+ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],Append method, IXpsOMGeometryFigureCollection.Append, IXpsOMGeometryFigureCollection::Append, xps.ixpsomgeometryfigurecollection_append, xpsobjectmodel/IXpsOMGeometryFigureCollection::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigureCollection::Append method
+# IXpsOMGeometryFigureCollection::Append
 
 
 ## -description

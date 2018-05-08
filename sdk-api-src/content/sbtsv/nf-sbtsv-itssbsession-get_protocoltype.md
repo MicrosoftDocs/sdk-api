@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_ProtocolType
-title: ITsSbSession::get_ProtocolType method
+title: ITsSbSession::get_ProtocolType
 author: windows-driver-content
 description: Retrieves or specifies the protocol type for the session.
 old-location: termserv\itssbsession_protocoltype.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: ee4016c7-1cd4-456c-abec-e43d57866bc1
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbSession, ITsSbSession interface [Remote Desktop Services], ProtocolType property, ITsSbSession.ProtocolType, ITsSbSession::get_ProtocolType, ITsSbSession::put_ProtocolType, ProtocolType property [Remote Desktop Services], ProtocolType property [Remote Desktop Services], ITsSbSession interface, get_ProtocolType,ITsSbSession.get_ProtocolType, sbtsv/ITsSbSession::ProtocolType, sbtsv/ITsSbSession::get_ProtocolType, sbtsv/ITsSbSession::put_ProtocolType, termserv.itssbsession_protocoltype
+ms.keywords: ITsSbSession interface [Remote Desktop Services],ProtocolType property, ITsSbSession.ProtocolType, ITsSbSession.get_ProtocolType, ITsSbSession::ProtocolType, ITsSbSession::get_ProtocolType, ITsSbSession::put_ProtocolType, ProtocolType property [Remote Desktop Services], ProtocolType property [Remote Desktop Services],ITsSbSession interface, get_ProtocolType, sbtsv/ITsSbSession::ProtocolType, sbtsv/ITsSbSession::get_ProtocolType, sbtsv/ITsSbSession::put_ProtocolType, termserv.itssbsession_protocoltype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbSession::get_ProtocolType method
+# ITsSbSession::get_ProtocolType
 
 
 ## -description

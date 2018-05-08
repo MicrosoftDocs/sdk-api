@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetGuid
-title: IMetaDataTables::GetGuid method
+title: IMetaDataTables::GetGuid
 author: windows-driver-content
 description: Gets a GUID from the row at the specified index.
 old-location: winrt\imetadatatables_getguid.htm
 old-project: WinRT
 ms.assetid: 037d722f-3efb-4c01-8445-b23caafbbdb2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetGuid method [Windows Runtime], GetGuid method [Windows Runtime], IMetaDataTables interface, GetGuid,IMetaDataTables.GetGuid, IMetaDataTables, IMetaDataTables interface [Windows Runtime], GetGuid method, IMetaDataTables::GetGuid, rometadataapi/IMetaDataTables::GetGuid, winrt.imetadatatables_getguid
+ms.date: 5/4/2018
+ms.keywords: GetGuid, GetGuid method [Windows Runtime], GetGuid method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetGuid method, IMetaDataTables.GetGuid, IMetaDataTables::GetGuid, rometadataapi/IMetaDataTables::GetGuid, winrt.imetadatatables_getguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataTables::GetGuid method
+# IMetaDataTables::GetGuid
 
 
 ## -description

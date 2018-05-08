@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.RemoveTocByIndex
-title: ITocParser::RemoveTocByIndex method
+title: ITocParser::RemoveTocByIndex
 author: windows-driver-content
 description: The RemoveTocByIndex method removes a table of contents, specified by an index, from the TOC Parser object.
 old-location: mf\itocparser_removetocbyindex.htm
 old-project: medfound
 ms.assetid: 7ec459bf-c631-4ad4-beb3-4cd1e89c1d35
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ITocParser, ITocParser interface [Media Foundation], RemoveTocByIndex method, ITocParser::RemoveTocByIndex, RemoveTocByIndex method [Media Foundation], RemoveTocByIndex method [Media Foundation], ITocParser interface, RemoveTocByIndex,ITocParser.RemoveTocByIndex, codecapi.itocparser_removetocbyindex, mf.itocparser_removetocbyindex, wmcodecdsp/ITocParser::RemoveTocByIndex
+ms.date: 5/3/2018
+ms.keywords: ITocParser interface [Media Foundation],RemoveTocByIndex method, ITocParser.RemoveTocByIndex, ITocParser::RemoveTocByIndex, RemoveTocByIndex, RemoveTocByIndex method [Media Foundation], RemoveTocByIndex method [Media Foundation],ITocParser interface, codecapi.itocparser_removetocbyindex, mf.itocparser_removetocbyindex, wmcodecdsp/ITocParser::RemoveTocByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocParser::RemoveTocByIndex method
+# ITocParser::RemoveTocByIndex
 
 
 ## -description

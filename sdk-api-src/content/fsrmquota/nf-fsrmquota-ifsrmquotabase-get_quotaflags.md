@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.get_QuotaFlags
-title: IFsrmQuotaBase::get_QuotaFlags method
+title: IFsrmQuotaBase::get_QuotaFlags
 author: windows-driver-content
 description: Retrieves or sets the quota flags for the object.
 old-location: fsrm\ifsrmquotabase_quotaflags.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: af856281-8161-4165-bf24-0c160f7394d2
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmQuotaBase, IFsrmQuotaBase interface [File Server Resource Manager], QuotaFlags property, IFsrmQuotaBase.QuotaFlags, IFsrmQuotaBase::get_QuotaFlags, IFsrmQuotaBase::put_QuotaFlags, QuotaFlags property [File Server Resource Manager], QuotaFlags property [File Server Resource Manager], IFsrmQuotaBase interface, fs.ifsrmquotabase_quotaflags, fsrm.ifsrmquotabase_quotaflags, fsrmquota/IFsrmQuotaBase::QuotaFlags, fsrmquota/IFsrmQuotaBase::get_QuotaFlags, fsrmquota/IFsrmQuotaBase::put_QuotaFlags, get_QuotaFlags,IFsrmQuotaBase.get_QuotaFlags
+ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],QuotaFlags property, IFsrmQuotaBase.QuotaFlags, IFsrmQuotaBase.get_QuotaFlags, IFsrmQuotaBase::QuotaFlags, IFsrmQuotaBase::get_QuotaFlags, IFsrmQuotaBase::put_QuotaFlags, QuotaFlags property [File Server Resource Manager], QuotaFlags property [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_quotaflags, fsrm.ifsrmquotabase_quotaflags, fsrmquota/IFsrmQuotaBase::QuotaFlags, fsrmquota/IFsrmQuotaBase::get_QuotaFlags, fsrmquota/IFsrmQuotaBase::put_QuotaFlags, get_QuotaFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaBase::get_QuotaFlags method
+# IFsrmQuotaBase::get_QuotaFlags
 
 
 ## -description

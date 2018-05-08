@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscMaster2.get__NewEnum
-title: IDiscMaster2::get__NewEnum method
+title: IDiscMaster2::get__NewEnum
 author: windows-driver-content
 description: Retrieves a list of the CD and DVD devices installed on the computer.
 old-location: imapi\idiscmaster2_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: f148a1c0-cb76-40e9-9749-a074f04c93e8
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscMaster2, IDiscMaster2 interface [IMAPI], get__NewEnum method, IDiscMaster2::get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI], IDiscMaster2 interface, get__NewEnum,IDiscMaster2.get__NewEnum, imapi.idiscmaster2_get__newenum, imapi2/IDiscMaster2::get__NewEnum
+ms.keywords: IDiscMaster2 interface [IMAPI],get__NewEnum method, IDiscMaster2.get__NewEnum, IDiscMaster2::get__NewEnum, get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get__newenum, imapi2/IDiscMaster2::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscMaster2::get__NewEnum method
+# IDiscMaster2::get__NewEnum
 
 
 ## -description

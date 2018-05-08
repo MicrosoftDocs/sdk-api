@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.EnumCertViewColumn
-title: IEnumCERTVIEWROW::EnumCertViewColumn method
+title: IEnumCERTVIEWROW::EnumCertViewColumn
 author: windows-driver-content
 description: Obtains an instance of a column-enumeration sequence for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_enumcertviewcolumn.htm
 old-project: SecCrypto
 ms.assetid: 78fd2431-c4c7-4df9-856a-69665fa8c063
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: EnumCertViewColumn method [Security], EnumCertViewColumn method [Security], IEnumCERTVIEWROW interface, EnumCertViewColumn,IEnumCERTVIEWROW.EnumCertViewColumn, IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], EnumCertViewColumn method, IEnumCERTVIEWROW::EnumCertViewColumn, _certsrv_ienumcertviewrow_enumcertviewcolumn, certview/IEnumCERTVIEWROW::EnumCertViewColumn, security.ienumcertviewrow_enumcertviewcolumn
+ms.date: 4/30/2018
+ms.keywords: EnumCertViewColumn, EnumCertViewColumn method [Security], EnumCertViewColumn method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewColumn method, IEnumCERTVIEWROW.EnumCertViewColumn, IEnumCERTVIEWROW::EnumCertViewColumn, _certsrv_ienumcertviewrow_enumcertviewcolumn, certview/IEnumCERTVIEWROW::EnumCertViewColumn, security.ienumcertviewrow_enumcertviewcolumn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWROW::EnumCertViewColumn method
+# IEnumCERTVIEWROW::EnumCertViewColumn
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatuses.Clear
-title: ICspStatuses::Clear method
+title: ICspStatuses::Clear
 author: windows-driver-content
 description: Removes all ICspStatus objects from the collection.
 old-location: security\icspstatuses_clear_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 6a959d88-3ee6-4233-8fc7-23c60b24c14e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Clear method [Security], Clear method [Security], ICspStatuses interface, Clear,ICspStatuses.Clear, ICspStatuses, ICspStatuses interface [Security], Clear method, ICspStatuses::Clear, certenroll/ICspStatuses::Clear, security.icspstatuses_clear_method
+ms.keywords: Clear, Clear method [Security], Clear method [Security],ICspStatuses interface, ICspStatuses interface [Security],Clear method, ICspStatuses.Clear, ICspStatuses::Clear, certenroll/ICspStatuses::Clear, security.icspstatuses_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspStatuses::Clear method
+# ICspStatuses::Clear
 
 
 ## -description

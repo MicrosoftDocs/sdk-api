@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannel.Write
-title: IWTSVirtualChannel::Write method
+title: IWTSVirtualChannel::Write
 author: windows-driver-content
 description: Starts a write request on the channel.
 old-location: termserv\iwtsvirtualchannel_write.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: fef7067c-6d81-42b7-8534-191bc98906d4
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSVirtualChannel, IWTSVirtualChannel interface [Remote Desktop Services], Write method, IWTSVirtualChannel::Write, Write method [Remote Desktop Services], Write method [Remote Desktop Services], IWTSVirtualChannel interface, Write,IWTSVirtualChannel.Write, termserv.iwtsvirtualchannel_write, tsvirtualchannels/IWTSVirtualChannel::Write
+ms.keywords: IWTSVirtualChannel interface [Remote Desktop Services],Write method, IWTSVirtualChannel.Write, IWTSVirtualChannel::Write, Write, Write method [Remote Desktop Services], Write method [Remote Desktop Services],IWTSVirtualChannel interface, termserv.iwtsvirtualchannel_write, tsvirtualchannels/IWTSVirtualChannel::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWTSVirtualChannel::Write method
+# IWTSVirtualChannel::Write
 
 
 ## -description

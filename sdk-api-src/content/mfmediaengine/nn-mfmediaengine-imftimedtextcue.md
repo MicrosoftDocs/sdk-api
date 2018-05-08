@@ -7,8 +7,8 @@ old-location: mf\imftimedtextcue.htm
 old-project: medfound
 ms.assetid: 831FA230-D0C4-4115-8447-D882686D80EE
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], IMFTimedTextCue interface [Media Foundation], described, mf.imftimedtextcue, mfmediaengine/IMFTimedTextCue
+ms.date: 5/3/2018
+ms.keywords: IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], IMFTimedTextCue interface [Media Foundation],described, mf.imftimedtextcue, mfmediaengine/IMFTimedTextCue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

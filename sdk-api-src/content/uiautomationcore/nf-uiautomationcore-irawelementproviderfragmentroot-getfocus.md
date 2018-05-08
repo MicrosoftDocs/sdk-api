@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragmentRoot.GetFocus
-title: IRawElementProviderFragmentRoot::GetFocus method
+title: IRawElementProviderFragmentRoot::GetFocus
 author: windows-driver-content
 description: Retrieves the element in this fragment that has the input focus.
 old-location: winauto\uiauto_IRawElementProviderFragmentRoot_GetFocus.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 73b5ffc8-1a24-4fa5-8bc4-ae09656a80df
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetFocus method [Windows Accessibility], GetFocus method [Windows Accessibility], IRawElementProviderFragmentRoot interface, GetFocus,IRawElementProviderFragmentRoot.GetFocus, IRawElementProviderFragmentRoot, IRawElementProviderFragmentRoot interface [Windows Accessibility], GetFocus method, IRawElementProviderFragmentRoot::GetFocus, uiauto.uiauto_IRawElementProviderFragmentRoot_GetFocus, uiauto_IRawElementProviderFragmentRoot_GetFocus, uiautomationcore/IRawElementProviderFragmentRoot::GetFocus, winauto.uiauto_IRawElementProviderFragmentRoot_GetFocus
+ms.keywords: GetFocus, GetFocus method [Windows Accessibility], GetFocus method [Windows Accessibility],IRawElementProviderFragmentRoot interface, IRawElementProviderFragmentRoot interface [Windows Accessibility],GetFocus method, IRawElementProviderFragmentRoot.GetFocus, IRawElementProviderFragmentRoot::GetFocus, uiauto.uiauto_IRawElementProviderFragmentRoot_GetFocus, uiauto_IRawElementProviderFragmentRoot_GetFocus, uiautomationcore/IRawElementProviderFragmentRoot::GetFocus, winauto.uiauto_IRawElementProviderFragmentRoot_GetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRawElementProviderFragmentRoot::GetFocus method
+# IRawElementProviderFragmentRoot::GetFocus
 
 
 ## -description

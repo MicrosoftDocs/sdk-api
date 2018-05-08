@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetIsHyperlinkTarget
-title: IXpsOMPage::SetIsHyperlinkTarget method
+title: IXpsOMPage::SetIsHyperlinkTarget
 author: windows-driver-content
 description: Specifies whether the page is the target of a hyperlink.
 old-location: xps\ixpsompage_setishyperlinktarget.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: a8096303-5940-4ad1-aa5a-de604efe8c9e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], SetIsHyperlinkTarget method, IXpsOMPage::SetIsHyperlinkTarget, SetIsHyperlinkTarget method [XPS Documents and Packaging], SetIsHyperlinkTarget method [XPS Documents and Packaging], IXpsOMPage interface, SetIsHyperlinkTarget,IXpsOMPage.SetIsHyperlinkTarget, xps.ixpsompage_setishyperlinktarget, xpsobjectmodel/IXpsOMPage::SetIsHyperlinkTarget
+ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetIsHyperlinkTarget method, IXpsOMPage.SetIsHyperlinkTarget, IXpsOMPage::SetIsHyperlinkTarget, SetIsHyperlinkTarget, SetIsHyperlinkTarget method [XPS Documents and Packaging], SetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setishyperlinktarget, xpsobjectmodel/IXpsOMPage::SetIsHyperlinkTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::SetIsHyperlinkTarget method
+# IXpsOMPage::SetIsHyperlinkTarget
 
 
 ## -description

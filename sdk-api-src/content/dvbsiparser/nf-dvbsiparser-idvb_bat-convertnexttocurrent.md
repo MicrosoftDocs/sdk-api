@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.ConvertNextToCurrent
-title: IDVB_BAT::ConvertNextToCurrent method
+title: IDVB_BAT::ConvertNextToCurrent
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_convertnexttocurrent.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: befcd47c-e05e-4a75-a588-bebdb1cc3218
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies], IDVB_BAT interface, ConvertNextToCurrent,IDVB_BAT.ConvertNextToCurrent, IDVB_BAT, IDVB_BAT interface [Microsoft TV Technologies], ConvertNextToCurrent method, IDVB_BAT::ConvertNextToCurrent, IDVB_BATConvertNextToCurrent, dvbsiparser/IDVB_BAT::ConvertNextToCurrent, mstv.idvb_bat_convertnexttocurrent
+ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IDVB_BAT.ConvertNextToCurrent, IDVB_BAT::ConvertNextToCurrent, IDVB_BATConvertNextToCurrent, dvbsiparser/IDVB_BAT::ConvertNextToCurrent, mstv.idvb_bat_convertnexttocurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_BAT::ConvertNextToCurrent method
+# IDVB_BAT::ConvertNextToCurrent
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableCurveChangeHandler2.OnCurveChanged
-title: IUIAnimationVariableCurveChangeHandler2::OnCurveChanged method
+title: IUIAnimationVariableCurveChangeHandler2::OnCurveChanged
 author: windows-driver-content
 description: Handles events that occur when the animation curve of an animation variable changes.
 old-location: uianimation\iuianimationvariablecurvechangehandler2_oncurvechanged.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: CD0F59F7-9383-4602-8A97-356AEAB0FD82
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationVariableCurveChangeHandler2, IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation], OnCurveChanged method, IUIAnimationVariableCurveChangeHandler2::OnCurveChanged, OnCurveChanged method [Windows Animation], OnCurveChanged method [Windows Animation], IUIAnimationVariableCurveChangeHandler2 interface, OnCurveChanged,IUIAnimationVariableCurveChangeHandler2.OnCurveChanged, uianimation.iuianimationvariablecurvechangehandler2_oncurvechanged, uianimation/IUIAnimationVariableCurveChangeHandler2::OnCurveChanged
+ms.keywords: IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation],OnCurveChanged method, IUIAnimationVariableCurveChangeHandler2.OnCurveChanged, IUIAnimationVariableCurveChangeHandler2::OnCurveChanged, OnCurveChanged, OnCurveChanged method [Windows Animation], OnCurveChanged method [Windows Animation],IUIAnimationVariableCurveChangeHandler2 interface, uianimation.iuianimationvariablecurvechangehandler2_oncurvechanged, uianimation/IUIAnimationVariableCurveChangeHandler2::OnCurveChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariableCurveChangeHandler2::OnCurveChanged method
+# IUIAnimationVariableCurveChangeHandler2::OnCurveChanged
 
 
 ## -description

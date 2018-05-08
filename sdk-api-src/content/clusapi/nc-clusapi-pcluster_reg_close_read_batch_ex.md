@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 45509B96-F67D-4754-B073-0B881D681011
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IsolatedRead, None, PCLUSTER_REG_CLOSE_READ_BATCH_EX, PCLUSTER_REG_CLOSE_READ_BATCH_EX callback function [Failover Cluster], clusapi/PCLUSTER_REG_CLOSE_READ_BATCH_EX, mscs.clusterregclosereadbatchex
+ms.keywords: IsolatedRead, None, PCLUSTER_REG_CLOSE_READ_BATCH_EX, PCLUSTER_REG_CLOSE_READ_BATCH_EX callback, PCLUSTER_REG_CLOSE_READ_BATCH_EX callback function [Failover Cluster], clusapi/PCLUSTER_REG_CLOSE_READ_BATCH_EX, mscs.clusterregclosereadbatchex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSTER_REG_CLOSE_READ_BATCH_EX callback
+# PCLUSTER_REG_CLOSE_READ_BATCH_EX callback function
 
 
 ## -description

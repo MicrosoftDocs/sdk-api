@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 2942bd4d-5bdb-45eb-a008-352bf44eec80
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnPinManagerEvents, IMbnPinManagerEvents interface [Microsoft Broadband Networks], IMbnPinManagerEvents interface [Microsoft Broadband Networks], described, mbn.imbnpinmanagerevents, mbnapi/IMbnPinManagerEvents
+ms.keywords: IMbnPinManagerEvents, IMbnPinManagerEvents interface [Microsoft Broadband Networks], IMbnPinManagerEvents interface [Microsoft Broadband Networks],described, mbn.imbnpinmanagerevents, mbnapi/IMbnPinManagerEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

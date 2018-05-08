@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetLength
-title: IIsdbSeriesDescriptor::GetLength method
+title: IIsdbSeriesDescriptor::GetLength
 author: windows-driver-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) series descriptor, in bytes.
 old-location: mstv\iisdbseriesdescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 703e4406-7fca-4d96-83de-56fd2ff52d30
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IIsdbSeriesDescriptor interface, GetLength,IIsdbSeriesDescriptor.GetLength, IIsdbSeriesDescriptor, IIsdbSeriesDescriptor interface [Microsoft TV Technologies], GetLength method, IIsdbSeriesDescriptor::GetLength, dvbsiparser/IIsdbSeriesDescriptor::GetLength, mstv.iisdbseriesdescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbSeriesDescriptor.GetLength, IIsdbSeriesDescriptor::GetLength, dvbsiparser/IIsdbSeriesDescriptor::GetLength, mstv.iisdbseriesdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbSeriesDescriptor::GetLength method
+# IIsdbSeriesDescriptor::GetLength
 
 
 ## -description

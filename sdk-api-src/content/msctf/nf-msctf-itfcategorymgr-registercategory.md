@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.RegisterCategory
-title: ITfCategoryMgr::RegisterCategory method
+title: ITfCategoryMgr::RegisterCategory
 author: windows-driver-content
 description: ITfCategoryMgr::RegisterCategory method
 old-location: tsf\itfcategorymgr_registercategory.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 9e9a72a8-ea9b-4438-992c-5a7db64f7d82
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCategoryMgr, ITfCategoryMgr interface [Text Services Framework], RegisterCategory method, ITfCategoryMgr::RegisterCategory, RegisterCategory method [Text Services Framework], RegisterCategory method [Text Services Framework], ITfCategoryMgr interface, RegisterCategory,ITfCategoryMgr.RegisterCategory, _tsf_itfcategorymgr_registercategory_ref, msctf/ITfCategoryMgr::RegisterCategory, tsf.itfcategorymgr_registercategory
+ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterCategory method, ITfCategoryMgr.RegisterCategory, ITfCategoryMgr::RegisterCategory, RegisterCategory, RegisterCategory method [Text Services Framework], RegisterCategory method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registercategory_ref, msctf/ITfCategoryMgr::RegisterCategory, tsf.itfcategorymgr_registercategory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCategoryMgr::RegisterCategory method
+# ITfCategoryMgr::RegisterCategory
 
 
 ## -description

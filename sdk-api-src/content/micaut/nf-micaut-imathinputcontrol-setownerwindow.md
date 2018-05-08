@@ -1,14 +1,14 @@
 ---
 UID: NF:micaut.IMathInputControl.SetOwnerWindow
-title: IMathInputControl::SetOwnerWindow method
+title: IMathInputControl::SetOwnerWindow
 author: windows-driver-content
 description: Modifies the window that owns this control.
 old-location: tablet\imathinputcontrol_setownerwindow.htm
 old-project: tablet
 ms.assetid: 2f92f731-3297-4da3-a2b9-18e1583c8b1d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], SetOwnerWindow method, IMathInputControl::SetOwnerWindow, SetOwnerWindow method [Tablet PC], SetOwnerWindow method [Tablet PC], IMathInputControl interface, SetOwnerWindow,IMathInputControl.SetOwnerWindow, micaut/IMathInputControl::SetOwnerWindow, tablet.imathinputcontrol_setownerwindow
+ms.date: 5/2/2018
+ms.keywords: IMathInputControl interface [Tablet PC],SetOwnerWindow method, IMathInputControl.SetOwnerWindow, IMathInputControl::SetOwnerWindow, SetOwnerWindow, SetOwnerWindow method [Tablet PC], SetOwnerWindow method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetOwnerWindow, tablet.imathinputcontrol_setownerwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMathInputControl::SetOwnerWindow method
+# IMathInputControl::SetOwnerWindow
 
 
 ## -description

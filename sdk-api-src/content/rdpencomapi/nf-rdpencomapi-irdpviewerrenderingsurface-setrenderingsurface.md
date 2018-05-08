@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerRenderingSurface.SetRenderingSurface
-title: IRDPViewerRenderingSurface::SetRenderingSurface method
+title: IRDPViewerRenderingSurface::SetRenderingSurface
 author: windows-driver-content
 description: Sets the rendering surface to be used by the viewer.
 old-location: rdp\irdpviewerrenderingsurface_setrenderingsurface.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: e70541ab-fc23-4960-be38-8eb6849ab14f
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPViewerRenderingSurface, IRDPViewerRenderingSurface interface [RDP], SetRenderingSurface method, IRDPViewerRenderingSurface::SetRenderingSurface, SetRenderingSurface method [RDP], SetRenderingSurface method [RDP], IRDPViewerRenderingSurface interface, SetRenderingSurface,IRDPViewerRenderingSurface.SetRenderingSurface, rdp.irdpviewerrenderingsurface_setrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface::SetRenderingSurface
+ms.keywords: IRDPViewerRenderingSurface interface [RDP],SetRenderingSurface method, IRDPViewerRenderingSurface.SetRenderingSurface, IRDPViewerRenderingSurface::SetRenderingSurface, SetRenderingSurface, SetRenderingSurface method [RDP], SetRenderingSurface method [RDP],IRDPViewerRenderingSurface interface, rdp.irdpviewerrenderingsurface_setrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface::SetRenderingSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPViewerRenderingSurface::SetRenderingSurface method
+# IRDPViewerRenderingSurface::SetRenderingSurface
 
 
 ## -description

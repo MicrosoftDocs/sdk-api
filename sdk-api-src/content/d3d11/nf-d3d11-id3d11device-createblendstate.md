@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateBlendState
-title: ID3D11Device::CreateBlendState method
+title: ID3D11Device::CreateBlendState
 author: windows-driver-content
 description: Create a blend-state object that encapsules blend state for the output-merger stage.
 old-location: direct3d11\id3d11device_createblendstate.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 05b27d72-6ae5-4bab-8906-2d1373ea8d4c
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 3e6800b8-cd67-743c-c74d-b23a9a29daea, CreateBlendState method [Direct3D 11], CreateBlendState method [Direct3D 11], ID3D11Device interface, CreateBlendState,ID3D11Device.CreateBlendState, ID3D11Device, ID3D11Device interface [Direct3D 11], CreateBlendState method, ID3D11Device::CreateBlendState, d3d11/ID3D11Device::CreateBlendState, direct3d11.id3d11device_createblendstate
+ms.keywords: 3e6800b8-cd67-743c-c74d-b23a9a29daea, CreateBlendState, CreateBlendState method [Direct3D 11], CreateBlendState method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateBlendState method, ID3D11Device.CreateBlendState, ID3D11Device::CreateBlendState, d3d11/ID3D11Device::CreateBlendState, direct3d11.id3d11device_createblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11Device::CreateBlendState method
+# ID3D11Device::CreateBlendState
 
 
 ## -description

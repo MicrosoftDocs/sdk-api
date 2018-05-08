@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateGuidArray
-title: IPropertyValueStatics::CreateGuidArray method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified array of Guid values.
 old-location: winrt\ipropertyvaluestatics_createguidarray.htm
 old-project: WinRT
 ms.assetid: 8284b582-2bba-4afd-9f8c-3b2169e0adbf
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateGuidArray method [Windows Runtime], CreateGuidArray method [Windows Runtime], IPropertyValueStatics interface, CreateGuidArray,IPropertyValueStatics.CreateGuidArray, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateGuidArray method, IPropertyValueStatics::CreateGuidArray, windows/IPropertyValueStatics::CreateGuidArray, winrt.ipropertyvaluefactory_createguidarray, winrt.ipropertyvaluestatics_createguidarray
+ms.date: 5/4/2018
+ms.keywords: CreateGuidArray, CreateGuidArray method [Windows Runtime], CreateGuidArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateGuidArray method, IPropertyValueStatics.CreateGuidArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateGuidArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateGuidArray, winrt.ipropertyvaluefactory_createguidarray, winrt.ipropertyvaluestatics_createguidarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateGuidArray method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

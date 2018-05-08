@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSSetScissorRects
-title: ID3D10Device::RSSetScissorRects method
+title: ID3D10Device::RSSetScissorRects
 author: windows-driver-content
 description: Bind an array of scissor rectangles to the rasterizer stage.
 old-location: direct3d10\id3d10device_rssetscissorrects.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rssetscissorrects.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10Device, ID3D10Device interface [Direct3D 10], RSSetScissorRects method, ID3D10Device::RSSetScissorRects, RSSetScissorRects method [Direct3D 10], RSSetScissorRects method [Direct3D 10], ID3D10Device interface, RSSetScissorRects,ID3D10Device.RSSetScissorRects, d3d10/ID3D10Device::RSSetScissorRects, direct3d10.id3d10device_rssetscissorrects, ff11533a-fe9e-059e-c169-7e6f3c873b2d
+ms.keywords: ID3D10Device interface [Direct3D 10],RSSetScissorRects method, ID3D10Device.RSSetScissorRects, ID3D10Device::RSSetScissorRects, RSSetScissorRects, RSSetScissorRects method [Direct3D 10], RSSetScissorRects method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::RSSetScissorRects, direct3d10.id3d10device_rssetscissorrects, ff11533a-fe9e-059e-c169-7e6f3c873b2d
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::RSSetScissorRects method
+# ID3D10Device::RSSetScissorRects
 
 
 ## -description

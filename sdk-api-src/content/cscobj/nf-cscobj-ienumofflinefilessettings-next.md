@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesSettings.Next
-title: IEnumOfflineFilesSettings::Next method
+title: IEnumOfflineFilesSettings::Next
 author: windows-driver-content
 description: Retrieves the next item in the enumeration and advances the enumerator.
 old-location: of\ienumofflinefilessettings_next.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 00230021-6069-4e0b-a3d6-95651aa6e44a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEnumOfflineFilesSettings, IEnumOfflineFilesSettings interface [Offline Files], Next method, IEnumOfflineFilesSettings::Next, Next method [Offline Files], Next method [Offline Files], IEnumOfflineFilesSettings interface, Next,IEnumOfflineFilesSettings.Next, cscobj/IEnumOfflineFilesSettings::Next, of.ienumofflinefilessettings_next
+ms.keywords: IEnumOfflineFilesSettings interface [Offline Files],Next method, IEnumOfflineFilesSettings.Next, IEnumOfflineFilesSettings::Next, Next, Next method [Offline Files], Next method [Offline Files],IEnumOfflineFilesSettings interface, cscobj/IEnumOfflineFilesSettings::Next, of.ienumofflinefilessettings_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IEnumOfflineFilesSettings::Next method
+# IEnumOfflineFilesSettings::Next
 
 
 ## -description

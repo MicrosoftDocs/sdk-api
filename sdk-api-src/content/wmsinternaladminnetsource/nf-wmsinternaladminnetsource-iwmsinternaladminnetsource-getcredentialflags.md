@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.GetCredentialFlags
-title: IWMSInternalAdminNetSource::GetCredentialFlags method
+title: IWMSInternalAdminNetSource::GetCredentialFlags
 author: windows-driver-content
 description: The GetCredentialFlags method can be used in conjunction with IWMSInternalAdminNetSource::SetCredentialFlags to determine whether the user wants passwords saved as a default behavior. This method retrieves any flags previously set.
 old-location: wmformat\iwmsinternaladminnetsource_getcredentialflags.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 781b2868-c8e2-4d92-98f2-c2950fac3d9b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetCredentialFlags method [windows Media Format], GetCredentialFlags method [windows Media Format], IWMSInternalAdminNetSource interface, GetCredentialFlags,IWMSInternalAdminNetSource.GetCredentialFlags, IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], GetCredentialFlags method, IWMSInternalAdminNetSource::GetCredentialFlags, IWMSInternalAdminNetSourceGetCredentialFlags, wmformat.iwmsinternaladminnetsource_getcredentialflags, wmsinternaladminnetsource/IWMSInternalAdminNetSource::GetCredentialFlags
+ms.keywords: GetCredentialFlags, GetCredentialFlags method [windows Media Format], GetCredentialFlags method [windows Media Format],IWMSInternalAdminNetSource interface, IWMSInternalAdminNetSource interface [windows Media Format],GetCredentialFlags method, IWMSInternalAdminNetSource.GetCredentialFlags, IWMSInternalAdminNetSource::GetCredentialFlags, IWMSInternalAdminNetSourceGetCredentialFlags, wmformat.iwmsinternaladminnetsource_getcredentialflags, wmsinternaladminnetsource/IWMSInternalAdminNetSource::GetCredentialFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSInternalAdminNetSource::GetCredentialFlags method
+# IWMSInternalAdminNetSource::GetCredentialFlags
 
 
 ## -description

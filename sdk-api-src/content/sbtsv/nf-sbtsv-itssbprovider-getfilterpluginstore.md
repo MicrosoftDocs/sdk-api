@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.GetFilterPluginStore
-title: ITsSbProvider::GetFilterPluginStore method
+title: ITsSbProvider::GetFilterPluginStore
 author: windows-driver-content
 description: Retrieves a FilterPluginStore instance of the filter plugin store.
 old-location: termserv\itssbprovider_getfilterpluginstore.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 39ba9d60-7dde-4aa1-b95e-ec26aef731ca
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetFilterPluginStore method [Remote Desktop Services], GetFilterPluginStore method [Remote Desktop Services], ITsSbProvider interface, GetFilterPluginStore,ITsSbProvider.GetFilterPluginStore, ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], GetFilterPluginStore method, ITsSbProvider::GetFilterPluginStore, sbtsv/ITsSbProvider::GetFilterPluginStore, termserv.itssbprovider_getfilterpluginstore
+ms.keywords: GetFilterPluginStore, GetFilterPluginStore method [Remote Desktop Services], GetFilterPluginStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetFilterPluginStore method, ITsSbProvider.GetFilterPluginStore, ITsSbProvider::GetFilterPluginStore, sbtsv/ITsSbProvider::GetFilterPluginStore, termserv.itssbprovider_getfilterpluginstore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbProvider::GetFilterPluginStore method
+# ITsSbProvider::GetFilterPluginStore
 
 
 ## -description

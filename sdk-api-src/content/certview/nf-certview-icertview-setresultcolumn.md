@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.ICertView.SetResultColumn
-title: ICertView::SetResultColumn method
+title: ICertView::SetResultColumn
 author: windows-driver-content
 description: Specifies a column for the result set of a customized view of the Certificate Services database.
 old-location: security\icertview2_setresultcolumn.htm
 old-project: SecCrypto
 ms.assetid: c13bdc3a-e623-49df-bba0-34c4c178dc3b
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertView object [Security], SetResultColumn method, ICertView, ICertView interface [Security], SetResultColumn method, ICertView2 interface [Security], SetResultColumn method, ICertView2::SetResultColumn, ICertView::SetResultColumn, SetResultColumn method [Security], SetResultColumn method [Security], CCertView object, SetResultColumn method [Security], ICertView interface, SetResultColumn method [Security], ICertView2 interface, SetResultColumn,ICertView.SetResultColumn, certview/ICertView2::SetResultColumn, certview/ICertView::SetResultColumn, security.icertview2_setresultcolumn
+ms.date: 4/30/2018
+ms.keywords: CCertView object [Security],SetResultColumn method, ICertView interface [Security],SetResultColumn method, ICertView.SetResultColumn, ICertView2 interface [Security],SetResultColumn method, ICertView2::SetResultColumn, ICertView::SetResultColumn, SetResultColumn, SetResultColumn method [Security], SetResultColumn method [Security],CCertView object, SetResultColumn method [Security],ICertView interface, SetResultColumn method [Security],ICertView2 interface, certview/ICertView2::SetResultColumn, certview/ICertView::SetResultColumn, security.icertview2_setresultcolumn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# ICertView::SetResultColumn method
+# ICertView::SetResultColumn
 
 
 ## -description

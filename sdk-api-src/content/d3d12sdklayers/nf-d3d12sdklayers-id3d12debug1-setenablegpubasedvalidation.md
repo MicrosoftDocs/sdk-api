@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12Debug1.SetEnableGPUBasedValidation
-title: ID3D12Debug1::SetEnableGPUBasedValidation method
+title: ID3D12Debug1::SetEnableGPUBasedValidation
 author: windows-driver-content
 description: This method enables or disables GPU-Based Validation (GBV) before creating a device with the debug layer enabled.
 old-location: direct3d12\id3d12debugdevice1_setenablegpubasedvalidation.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 0B7ACDC1-D7F6-4565-8E33-F2F14A96E4A8
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12Debug1, ID3D12Debug1 interface, SetEnableGPUBasedValidation method, ID3D12Debug1::SetEnableGPUBasedValidation, SetEnableGPUBasedValidation method, SetEnableGPUBasedValidation method, ID3D12Debug1 interface, SetEnableGPUBasedValidation,ID3D12Debug1.SetEnableGPUBasedValidation, d3d12sdklayers/ID3D12Debug1::SetEnableGPUBasedValidation, direct3d12.id3d12debugdevice1_setenablegpubasedvalidation
+ms.keywords: ID3D12Debug1 interface,SetEnableGPUBasedValidation method, ID3D12Debug1.SetEnableGPUBasedValidation, ID3D12Debug1::SetEnableGPUBasedValidation, SetEnableGPUBasedValidation, SetEnableGPUBasedValidation method, SetEnableGPUBasedValidation method,ID3D12Debug1 interface, d3d12sdklayers/ID3D12Debug1::SetEnableGPUBasedValidation, direct3d12.id3d12debugdevice1_setenablegpubasedvalidation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12Debug1::SetEnableGPUBasedValidation method
+# ID3D12Debug1::SetEnableGPUBasedValidation
 
 
 ## -description

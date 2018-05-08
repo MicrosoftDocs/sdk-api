@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetNameFromToken
-title: IMetaDataImport::GetNameFromToken method
+title: IMetaDataImport::GetNameFromToken
 author: windows-driver-content
 description: Gets the UTF-8 name of the object referenced by the specified metadata token. This method is obsolete.
 old-location: winrt\imetadataimport_getnamefromtoken.htm
 old-project: WinRT
 ms.assetid: 933d502a-c752-45ae-b51f-8c0a876856bc
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetNameFromToken method [Windows Runtime], GetNameFromToken method [Windows Runtime], IMetaDataImport interface, GetNameFromToken,IMetaDataImport.GetNameFromToken, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetNameFromToken method, IMetaDataImport::GetNameFromToken, rometadataapi/IMetaDataImport::GetNameFromToken, winrt.imetadataimport_getnamefromtoken
+ms.date: 5/4/2018
+ms.keywords: GetNameFromToken, GetNameFromToken method [Windows Runtime], GetNameFromToken method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNameFromToken method, IMetaDataImport.GetNameFromToken, IMetaDataImport::GetNameFromToken, rometadataapi/IMetaDataImport::GetNameFromToken, winrt.imetadataimport_getnamefromtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetNameFromToken method
+# IMetaDataImport::GetNameFromToken
 
 
 ## -description

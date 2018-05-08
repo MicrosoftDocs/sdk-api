@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetEntryListCount
-title: IToc::GetEntryListCount method
+title: IToc::GetEntryListCount
 author: windows-driver-content
 description: The GetEntryListCount method retrieves the number of entry lists in the table of contents.
 old-location: mf\itoc_getentrylistcount.htm
 old-project: medfound
 ms.assetid: 38348080-e188-4d58-8d46-dc954da398e6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetEntryListCount method [Media Foundation], GetEntryListCount method [Media Foundation], IToc interface, GetEntryListCount,IToc.GetEntryListCount, IToc, IToc interface [Media Foundation], GetEntryListCount method, IToc::GetEntryListCount, codecapi.itoc_getentrylistcount, mf.itoc_getentrylistcount, wmcodecdsp/IToc::GetEntryListCount
+ms.date: 5/3/2018
+ms.keywords: GetEntryListCount, GetEntryListCount method [Media Foundation], GetEntryListCount method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetEntryListCount method, IToc.GetEntryListCount, IToc::GetEntryListCount, codecapi.itoc_getentrylistcount, mf.itoc_getentrylistcount, wmcodecdsp/IToc::GetEntryListCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IToc::GetEntryListCount method
+# IToc::GetEntryListCount
 
 
 ## -description

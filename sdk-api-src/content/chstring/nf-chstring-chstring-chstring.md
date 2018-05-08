@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.CHString
-title: CHString::CHString method
+title: CHString::CHString
 author: windows-driver-content
 description: Each of the following constructors initializes a new CHString object with the specified data.
 old-location: wmi\chstring_chstring.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: d49e1600-d5d4-4c44-81c5-1b8c53b768de
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHString, CHString,CHString.CHString, CHString::CHString, CHString::CHString constructors [Windows Management Instrumentation], chstring/CHString::CHString, wmi.chstring_chstring
+ms.keywords: CHString, CHString.CHString, CHString::CHString, CHString::CHString constructors [Windows Management Instrumentation], chstring/CHString::CHString, wmi.chstring_chstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::CHString method
+# CHString::CHString
 
 
 ## -description

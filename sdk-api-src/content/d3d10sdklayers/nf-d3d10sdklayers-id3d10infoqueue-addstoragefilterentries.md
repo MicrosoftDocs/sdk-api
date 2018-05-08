@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.AddStorageFilterEntries
-title: ID3D10InfoQueue::AddStorageFilterEntries method
+title: ID3D10InfoQueue::AddStorageFilterEntries
 author: windows-driver-content
 description: Add storage filters to the top of the storage-filter stack.
 old-location: direct3d10\id3d10infoqueue_addstoragefilterentries.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_addstoragefilterentries.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 4fab9df2-2a5e-b48c-409f-cf4ef5f8bf7c, AddStorageFilterEntries method [Direct3D 10], AddStorageFilterEntries method [Direct3D 10], ID3D10InfoQueue interface, AddStorageFilterEntries,ID3D10InfoQueue.AddStorageFilterEntries, ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], AddStorageFilterEntries method, ID3D10InfoQueue::AddStorageFilterEntries, d3d10sdklayers/ID3D10InfoQueue::AddStorageFilterEntries, direct3d10.id3d10infoqueue_addstoragefilterentries
+ms.keywords: 4fab9df2-2a5e-b48c-409f-cf4ef5f8bf7c, AddStorageFilterEntries, AddStorageFilterEntries method [Direct3D 10], AddStorageFilterEntries method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],AddStorageFilterEntries method, ID3D10InfoQueue.AddStorageFilterEntries, ID3D10InfoQueue::AddStorageFilterEntries, d3d10sdklayers/ID3D10InfoQueue::AddStorageFilterEntries, direct3d10.id3d10infoqueue_addstoragefilterentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10InfoQueue::AddStorageFilterEntries method
+# ID3D10InfoQueue::AddStorageFilterEntries
 
 
 ## -description

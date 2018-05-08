@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: LARGE_INTEGER, LARGE_INTEGER
+req.typenames: LARGE_INTEGER
 topic_type:
 -	APIRef
 -	kbSyntax

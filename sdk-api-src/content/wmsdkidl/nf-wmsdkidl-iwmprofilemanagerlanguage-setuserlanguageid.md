@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManagerLanguage.SetUserLanguageID
-title: IWMProfileManagerLanguage::SetUserLanguageID method
+title: IWMProfileManagerLanguage::SetUserLanguageID
 author: windows-driver-content
 description: The SetUserLanguageID method sets the language of the system profiles that will be parsed by the profile manager object.
 old-location: wmformat\iwmprofilemanagerlanguage_setuserlanguageid.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e2154057-ea76-43bb-92d9-b52f16eb6b1b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMProfileManagerLanguage, IWMProfileManagerLanguage interface [windows Media Format], SetUserLanguageID method, IWMProfileManagerLanguage::SetUserLanguageID, IWMProfileManagerLanguageSetUserLanguageID, SetUserLanguageID method [windows Media Format], SetUserLanguageID method [windows Media Format], IWMProfileManagerLanguage interface, SetUserLanguageID,IWMProfileManagerLanguage.SetUserLanguageID, wmformat.iwmprofilemanagerlanguage_setuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::SetUserLanguageID
+ms.keywords: IWMProfileManagerLanguage interface [windows Media Format],SetUserLanguageID method, IWMProfileManagerLanguage.SetUserLanguageID, IWMProfileManagerLanguage::SetUserLanguageID, IWMProfileManagerLanguageSetUserLanguageID, SetUserLanguageID, SetUserLanguageID method [windows Media Format], SetUserLanguageID method [windows Media Format],IWMProfileManagerLanguage interface, wmformat.iwmprofilemanagerlanguage_setuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::SetUserLanguageID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfileManagerLanguage::SetUserLanguageID method
+# IWMProfileManagerLanguage::SetUserLanguageID
 
 
 ## -description

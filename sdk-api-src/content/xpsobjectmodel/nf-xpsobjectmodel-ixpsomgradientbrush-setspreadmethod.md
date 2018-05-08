@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.SetSpreadMethod
-title: IXpsOMGradientBrush::SetSpreadMethod method
+title: IXpsOMGradientBrush::SetSpreadMethod
 author: windows-driver-content
 description: Sets the XPS_SPREAD_METHOD value, which describes how the area outside of the gradient region is to be rendered.
 old-location: xps\ixpsomgradientbrush_setspreadmethod.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 2114ba2e-95df-466e-983f-a56491bf891c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGradientBrush, IXpsOMGradientBrush interface [XPS Documents and Packaging], SetSpreadMethod method, IXpsOMGradientBrush::SetSpreadMethod, SetSpreadMethod method [XPS Documents and Packaging], SetSpreadMethod method [XPS Documents and Packaging], IXpsOMGradientBrush interface, SetSpreadMethod,IXpsOMGradientBrush.SetSpreadMethod, xps.ixpsomgradientbrush_setspreadmethod, xpsobjectmodel/IXpsOMGradientBrush::SetSpreadMethod
+ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetSpreadMethod method, IXpsOMGradientBrush.SetSpreadMethod, IXpsOMGradientBrush::SetSpreadMethod, SetSpreadMethod, SetSpreadMethod method [XPS Documents and Packaging], SetSpreadMethod method [XPS Documents and Packaging],IXpsOMGradientBrush interface, xps.ixpsomgradientbrush_setspreadmethod, xpsobjectmodel/IXpsOMGradientBrush::SetSpreadMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientBrush::SetSpreadMethod method
+# IXpsOMGradientBrush::SetSpreadMethod
 
 
 ## -description

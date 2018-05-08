@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.Error
-title: IMFTimedTextNotify::Error method
+title: IMFTimedTextNotify::Error
 author: windows-driver-content
 description: Called when an error occurs in a text track.
 old-location: mf\imftimedtextnotify_error.htm
 old-project: medfound
 ms.assetid: 3658EE26-497D-4D33-BE68-572BCE1B28B1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: Error method [Media Foundation], Error method [Media Foundation], IMFTimedTextNotify interface, Error,IMFTimedTextNotify.Error, IMFTimedTextNotify, IMFTimedTextNotify interface [Media Foundation], Error method, IMFTimedTextNotify::Error, mf.imftimedtextnotify_error, mfmediaengine/IMFTimedTextNotify::Error
+ms.date: 5/3/2018
+ms.keywords: Error, Error method [Media Foundation], Error method [Media Foundation],IMFTimedTextNotify interface, IMFTimedTextNotify interface [Media Foundation],Error method, IMFTimedTextNotify.Error, IMFTimedTextNotify::Error, mf.imftimedtextnotify_error, mfmediaengine/IMFTimedTextNotify::Error
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextNotify::Error method
+# IMFTimedTextNotify::Error
 
 
 ## -description

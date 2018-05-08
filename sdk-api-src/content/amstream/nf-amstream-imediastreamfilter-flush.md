@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.Flush
-title: IMediaStreamFilter::Flush method
+title: IMediaStreamFilter::Flush
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The Flush method notifies the filter that one of its pins has flushed data. The filter's input pins call this method.
 old-location: dshow\imediastreamfilter_flush.htm
 old-project: DirectShow
 ms.assetid: 30b5d8f7-e3ab-48e4-aefe-3b3e04aba638
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Flush method [DirectShow], Flush method [DirectShow], IMediaStreamFilter interface, Flush,IMediaStreamFilter.Flush, IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], Flush method, IMediaStreamFilter::Flush, IMediaStreamFilterFlush, amstream/IMediaStreamFilter::Flush, dshow.imediastreamfilter_flush
+ms.date: 4/30/2018
+ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],Flush method, IMediaStreamFilter.Flush, IMediaStreamFilter::Flush, IMediaStreamFilterFlush, amstream/IMediaStreamFilter::Flush, dshow.imediastreamfilter_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaStreamFilter::Flush method
+# IMediaStreamFilter::Flush
 
 
 ## -description

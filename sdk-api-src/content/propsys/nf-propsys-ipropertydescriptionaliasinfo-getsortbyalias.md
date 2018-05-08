@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescriptionAliasInfo.GetSortByAlias
-title: IPropertyDescriptionAliasInfo::GetSortByAlias method
+title: IPropertyDescriptionAliasInfo::GetSortByAlias
 author: windows-driver-content
 description: Gets the address of a pointer to the IPropertyDescription interface containing the primary sort column.
 old-location: properties\IPropertyDescriptionAliasInfo_GetSortByAlias.htm
 old-project: properties
 ms.assetid: 22a60d4e-d7e7-4a14-a56a-5325a5dae2eb
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetSortByAlias method [Windows Properties], GetSortByAlias method [Windows Properties], IPropertyDescriptionAliasInfo interface, GetSortByAlias,IPropertyDescriptionAliasInfo.GetSortByAlias, IPropertyDescriptionAliasInfo, IPropertyDescriptionAliasInfo interface [Windows Properties], GetSortByAlias method, IPropertyDescriptionAliasInfo::GetSortByAlias, _shell_IPropertyDescriptionAliasInfo_GetSortByAlias, properties.IPropertyDescriptionAliasInfo_GetSortByAlias, propsys/IPropertyDescriptionAliasInfo::GetSortByAlias, shell.IPropertyDescriptionAliasInfo_GetSortByAlias
+ms.date: 4/27/2018
+ms.keywords: GetSortByAlias, GetSortByAlias method [Windows Properties], GetSortByAlias method [Windows Properties],IPropertyDescriptionAliasInfo interface, IPropertyDescriptionAliasInfo interface [Windows Properties],GetSortByAlias method, IPropertyDescriptionAliasInfo.GetSortByAlias, IPropertyDescriptionAliasInfo::GetSortByAlias, _shell_IPropertyDescriptionAliasInfo_GetSortByAlias, properties.IPropertyDescriptionAliasInfo_GetSortByAlias, propsys/IPropertyDescriptionAliasInfo::GetSortByAlias, shell.IPropertyDescriptionAliasInfo_GetSortByAlias
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescriptionAliasInfo::GetSortByAlias method
+# IPropertyDescriptionAliasInfo::GetSortByAlias
 
 
 ## -description

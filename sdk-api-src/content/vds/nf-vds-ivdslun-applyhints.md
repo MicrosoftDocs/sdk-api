@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun.ApplyHints
-title: IVdsLun::ApplyHints method
+title: IVdsLun::ApplyHints
 author: windows-driver-content
 description: Applies a new set of hints to the LUN. Hints that are applied to a LUN are simultaneously applied to all plexes.
 old-location: base\ivdslun_applyhints.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 2582913a-bc13-45dc-b0c8-9429945014da
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: ApplyHints method [VDS], ApplyHints method [VDS], IVdsLun interface, ApplyHints,IVdsLun.ApplyHints, IVdsLun, IVdsLun interface [VDS], ApplyHints method, IVdsLun::ApplyHints, base.ivdslun_applyhints, vds/IVdsLun::ApplyHints, vdshwprv/IVdsLun::ApplyHints
+ms.keywords: ApplyHints, ApplyHints method [VDS], ApplyHints method [VDS],IVdsLun interface, IVdsLun interface [VDS],ApplyHints method, IVdsLun.ApplyHints, IVdsLun::ApplyHints, base.ivdslun_applyhints, vds/IVdsLun::ApplyHints, vdshwprv/IVdsLun::ApplyHints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLun::ApplyHints method
+# IVdsLun::ApplyHints
 
 
 ## -description

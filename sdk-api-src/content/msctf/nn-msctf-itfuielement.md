@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 651c3ca1-5e5b-4978-80d2-2183bd158610
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfUIElement, ITfUIElement interface [Text Services Framework], ITfUIElement interface [Text Services Framework], described, _tsf_itfuielement_ref, msctf/ITfUIElement, tsf.itfuielement
+ms.keywords: ITfUIElement, ITfUIElement interface [Text Services Framework], ITfUIElement interface [Text Services Framework],described, _tsf_itfuielement_ref, msctf/ITfUIElement, tsf.itfuielement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSingle
-title: IPropertyValue::GetSingle method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the 32-bit floating point value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getsingle.htm
 old-project: WinRT
 ms.assetid: FA04F9A2-C222-451B-A6CE-8324BB51DA23
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetSingle method [Windows Runtime], GetSingle method [Windows Runtime], IPropertyValue interface, GetSingle,IPropertyValue.GetSingle, IPropertyValue, IPropertyValue interface [Windows Runtime], GetSingle method, IPropertyValue::GetSingle, windows/IPropertyValue::GetSingle, winrt.ipropertyvalue_getsingle
+ms.date: 5/4/2018
+ms.keywords: GetSingle, GetSingle method [Windows Runtime], GetSingle method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSingle method, IPropertyValue.GetSingle, IPropertyValue.IPropertyValue, IPropertyValue::GetSingle, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSingle, winrt.ipropertyvalue_getsingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetSingle method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

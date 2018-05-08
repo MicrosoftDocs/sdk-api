@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Next
-title: IEnumSearchRoots::Next method
+title: IEnumSearchRoots::Next
 author: windows-driver-content
 description: Retrieves the specified number of ISearchRoot elements.
 old-location: search\_search_IEnumSearchRoots_Next.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\next.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IEnumSearchRoots, IEnumSearchRoots interface [search], Next method, IEnumSearchRoots::Next, Next method [search], Next method [search], IEnumSearchRoots interface, Next,IEnumSearchRoots.Next, _search_IEnumSearchRoots_Next, search._search_IEnumSearchRoots_Next, searchapi/IEnumSearchRoots::Next
+ms.date: 5/4/2018
+ms.keywords: IEnumSearchRoots interface [search],Next method, IEnumSearchRoots.Next, IEnumSearchRoots::Next, Next, Next method [search], Next method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Next, search._search_IEnumSearchRoots_Next, searchapi/IEnumSearchRoots::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumSearchRoots::Next method
+# IEnumSearchRoots::Next
 
 
 ## -description

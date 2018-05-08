@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElement.GetDescription
-title: ITfUIElement::GetDescription method
+title: ITfUIElement::GetDescription
 author: windows-driver-content
 description: The ITfUIElement::GetDescription method returns the description of the UI element.
 old-location: tsf\itfuielement_getdescription.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 1d6fad13-e90a-4c5a-a735-d6e54f53488f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetDescription method [Text Services Framework], GetDescription method [Text Services Framework], ITfUIElement interface, GetDescription,ITfUIElement.GetDescription, ITfUIElement, ITfUIElement interface [Text Services Framework], GetDescription method, ITfUIElement::GetDescription, msctf/ITfUIElement::GetDescription, tsf.itfuielement_getdescription
+ms.keywords: GetDescription, GetDescription method [Text Services Framework], GetDescription method [Text Services Framework],ITfUIElement interface, ITfUIElement interface [Text Services Framework],GetDescription method, ITfUIElement.GetDescription, ITfUIElement::GetDescription, msctf/ITfUIElement::GetDescription, tsf.itfuielement_getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfUIElement::GetDescription method
+# ITfUIElement::GetDescription
 
 
 ## -description

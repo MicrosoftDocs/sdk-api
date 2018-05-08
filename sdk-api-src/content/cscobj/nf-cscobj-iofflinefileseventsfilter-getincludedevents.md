@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEventsFilter.GetIncludedEvents
-title: IOfflineFilesEventsFilter::GetIncludedEvents method
+title: IOfflineFilesEventsFilter::GetIncludedEvents
 author: windows-driver-content
 description: Retrieves an array of OFFLINEFILES_EVENTS enumeration values describing which events should be received by the event sink.
 old-location: of\iofflinefileseventsfilter_getincludedevents.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: ecb10da3-7566-43f7-8349-f94e59e12907
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetIncludedEvents method [Offline Files], GetIncludedEvents method [Offline Files], IOfflineFilesEventsFilter interface, GetIncludedEvents,IOfflineFilesEventsFilter.GetIncludedEvents, IOfflineFilesEventsFilter, IOfflineFilesEventsFilter interface [Offline Files], GetIncludedEvents method, IOfflineFilesEventsFilter::GetIncludedEvents, cscobj/IOfflineFilesEventsFilter::GetIncludedEvents, of.iofflinefileseventsfilter_getincludedevents
+ms.keywords: GetIncludedEvents, GetIncludedEvents method [Offline Files], GetIncludedEvents method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetIncludedEvents method, IOfflineFilesEventsFilter.GetIncludedEvents, IOfflineFilesEventsFilter::GetIncludedEvents, cscobj/IOfflineFilesEventsFilter::GetIncludedEvents, of.iofflinefileseventsfilter_getincludedevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEventsFilter::GetIncludedEvents method
+# IOfflineFilesEventsFilter::GetIncludedEvents
 
 
 ## -description

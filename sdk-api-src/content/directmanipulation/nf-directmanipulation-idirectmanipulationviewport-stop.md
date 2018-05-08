@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Stop
-title: IDirectManipulationViewport::Stop method
+title: IDirectManipulationViewport::Stop
 author: windows-driver-content
 description: Stops the manipulation and returns the viewport to a ready state.
 old-location: directmanipulation\idirectmanipulationviewport_stop.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: e0b88429-0d75-4c4a-8468-1a5637455324
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], Stop method, IDirectManipulationViewport::Stop, Stop method [Direct Manipulation], Stop method [Direct Manipulation], IDirectManipulationViewport interface, Stop,IDirectManipulationViewport.Stop, directmanipulation.idirectmanipulationviewport_stop, directmanipulation/IDirectManipulationViewport::Stop
+ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],Stop method, IDirectManipulationViewport.Stop, IDirectManipulationViewport::Stop, Stop, Stop method [Direct Manipulation], Stop method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_stop, directmanipulation/IDirectManipulationViewport::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::Stop method
+# IDirectManipulationViewport::Stop
 
 
 ## -description

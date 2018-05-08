@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList2.GetCallback
-title: IImageList2::GetCallback method
+title: IImageList2::GetCallback
 author: windows-driver-content
 description: Gets an image list callback object.
 old-location: controls\IImageList2_GetCallback.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getcallback.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetCallback method [Windows Controls], GetCallback method [Windows Controls], IImageList2 interface, GetCallback,IImageList2.GetCallback, IImageList2, IImageList2 interface [Windows Controls], GetCallback method, IImageList2::GetCallback, _shell_IImageList2_GetCallback, _shell_IImageList2_GetCallback_cpp, commoncontrols/IImageList2::GetCallback, controls.IImageList2_GetCallback, controls._shell_IImageList2_GetCallback
+ms.date: 4/27/2018
+ms.keywords: GetCallback, GetCallback method [Windows Controls], GetCallback method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],GetCallback method, IImageList2.GetCallback, IImageList2::GetCallback, _shell_IImageList2_GetCallback, _shell_IImageList2_GetCallback_cpp, commoncontrols/IImageList2::GetCallback, controls.IImageList2_GetCallback, controls._shell_IImageList2_GetCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList2::GetCallback method
+# IImageList2::GetCallback
 
 
 ## -description

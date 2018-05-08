@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.GetVisualLookup
-title: IXpsOMVisualBrush::GetVisualLookup method
+title: IXpsOMVisualBrush::GetVisualLookup
 author: windows-driver-content
 description: Gets the lookup key name of a visual in a resource dictionary; the visual is to be used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_getvisuallookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 091cb7f3-6302-40a0-b509-c72e20109f75
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetVisualLookup method [XPS Documents and Packaging], GetVisualLookup method [XPS Documents and Packaging], IXpsOMVisualBrush interface, GetVisualLookup,IXpsOMVisualBrush.GetVisualLookup, IXpsOMVisualBrush, IXpsOMVisualBrush interface [XPS Documents and Packaging], GetVisualLookup method, IXpsOMVisualBrush::GetVisualLookup, xps.ixpsomvisualbrush_getvisuallookup, xpsobjectmodel/IXpsOMVisualBrush::GetVisualLookup
+ms.keywords: GetVisualLookup, GetVisualLookup method [XPS Documents and Packaging], GetVisualLookup method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],GetVisualLookup method, IXpsOMVisualBrush.GetVisualLookup, IXpsOMVisualBrush::GetVisualLookup, xps.ixpsomvisualbrush_getvisuallookup, xpsobjectmodel/IXpsOMVisualBrush::GetVisualLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisualBrush::GetVisualLookup method
+# IXpsOMVisualBrush::GetVisualLookup
 
 
 ## -description

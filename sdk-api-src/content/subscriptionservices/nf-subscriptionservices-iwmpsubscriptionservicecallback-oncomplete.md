@@ -1,14 +1,14 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionServiceCallback.onComplete
-title: IWMPSubscriptionServiceCallback::onComplete method
+title: IWMPSubscriptionServiceCallback::onComplete
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The onComplete method notifies Windows Media Player when a background process is completed.
 old-location: wmp\iwmpsubscriptionservicecallback_oncomplete.htm
 old-project: WMP
 ms.assetid: 1a6775b5-a909-49b1-98e8-ccc110294df6
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSubscriptionServiceCallback, IWMPSubscriptionServiceCallback interface [Windows Media Player], onComplete method, IWMPSubscriptionServiceCallback::onComplete, IWMPSubscriptionServiceCallbackonComplete, onComplete method [Windows Media Player], onComplete method [Windows Media Player], IWMPSubscriptionServiceCallback interface, onComplete,IWMPSubscriptionServiceCallback.onComplete, subscriptionservices/IWMPSubscriptionServiceCallback::onComplete, wmp.iwmpsubscriptionservicecallback_oncomplete
+ms.date: 5/4/2018
+ms.keywords: IWMPSubscriptionServiceCallback interface [Windows Media Player],onComplete method, IWMPSubscriptionServiceCallback.onComplete, IWMPSubscriptionServiceCallback::onComplete, IWMPSubscriptionServiceCallbackonComplete, onComplete, onComplete method [Windows Media Player], onComplete method [Windows Media Player],IWMPSubscriptionServiceCallback interface, subscriptionservices/IWMPSubscriptionServiceCallback::onComplete, wmp.iwmpsubscriptionservicecallback_oncomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWMPSubscriptionServiceCallback::onComplete method
+# IWMPSubscriptionServiceCallback::onComplete
 
 
 ## -description

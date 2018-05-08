@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbLoadBalancing.GetMostSuitableTarget
-title: ITsSbLoadBalancing::GetMostSuitableTarget method
+title: ITsSbLoadBalancing::GetMostSuitableTarget
 author: windows-driver-content
 description: Determines the most suitable target to which to direct an incoming client connection.
 old-location: termserv\itssbloadbalancing_getmostsuitabletarget.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 4f625f64-3909-4003-938c-7807ec24e59e
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetMostSuitableTarget method [Remote Desktop Services], GetMostSuitableTarget method [Remote Desktop Services], ITsSbLoadBalancing interface, GetMostSuitableTarget,ITsSbLoadBalancing.GetMostSuitableTarget, ITsSbLoadBalancing, ITsSbLoadBalancing interface [Remote Desktop Services], GetMostSuitableTarget method, ITsSbLoadBalancing::GetMostSuitableTarget, sbtsv/ITsSbLoadBalancing::GetMostSuitableTarget, termserv.itssbloadbalancing_getmostsuitabletarget
+ms.keywords: GetMostSuitableTarget, GetMostSuitableTarget method [Remote Desktop Services], GetMostSuitableTarget method [Remote Desktop Services],ITsSbLoadBalancing interface, ITsSbLoadBalancing interface [Remote Desktop Services],GetMostSuitableTarget method, ITsSbLoadBalancing.GetMostSuitableTarget, ITsSbLoadBalancing::GetMostSuitableTarget, sbtsv/ITsSbLoadBalancing::GetMostSuitableTarget, termserv.itssbloadbalancing_getmostsuitabletarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbLoadBalancing::GetMostSuitableTarget method
+# ITsSbLoadBalancing::GetMostSuitableTarget
 
 
 ## -description

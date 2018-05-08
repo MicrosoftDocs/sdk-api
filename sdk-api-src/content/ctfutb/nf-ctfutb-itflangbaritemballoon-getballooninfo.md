@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBalloon.GetBalloonInfo
-title: ITfLangBarItemBalloon::GetBalloonInfo method
+title: ITfLangBarItemBalloon::GetBalloonInfo
 author: windows-driver-content
 description: ITfLangBarItemBalloon::GetBalloonInfo method
 old-location: tsf\itflangbaritemballoon_getballooninfo.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4cf695dc-dfb7-4541-a364-4395650f9419
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetBalloonInfo method [Text Services Framework], GetBalloonInfo method [Text Services Framework], ITfLangBarItemBalloon interface, GetBalloonInfo,ITfLangBarItemBalloon.GetBalloonInfo, ITfLangBarItemBalloon, ITfLangBarItemBalloon interface [Text Services Framework], GetBalloonInfo method, ITfLangBarItemBalloon::GetBalloonInfo, _tsf_itflangbaritemballoon_getballooninfo_ref, ctfutb/ITfLangBarItemBalloon::GetBalloonInfo, tsf.itflangbaritemballoon_getballooninfo
+ms.keywords: GetBalloonInfo, GetBalloonInfo method [Text Services Framework], GetBalloonInfo method [Text Services Framework],ITfLangBarItemBalloon interface, ITfLangBarItemBalloon interface [Text Services Framework],GetBalloonInfo method, ITfLangBarItemBalloon.GetBalloonInfo, ITfLangBarItemBalloon::GetBalloonInfo, _tsf_itflangbaritemballoon_getballooninfo_ref, ctfutb/ITfLangBarItemBalloon::GetBalloonInfo, tsf.itflangbaritemballoon_getballooninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemBalloon::GetBalloonInfo method
+# ITfLangBarItemBalloon::GetBalloonInfo
 
 
 ## -description

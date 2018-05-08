@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyRenewal.InitializeFromCertificateHash
-title: ICertPropertyRenewal::InitializeFromCertificateHash method
+title: ICertPropertyRenewal::InitializeFromCertificateHash
 author: windows-driver-content
 description: Initializes the object from the new certificate.
 old-location: security\icertpropertyrenewal_initializefromcertificatehash_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 87e0eabf-7a4a-4ff2-a9ce-6482f119cafd
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyRenewal, ICertPropertyRenewal interface [Security], InitializeFromCertificateHash method, ICertPropertyRenewal::InitializeFromCertificateHash, InitializeFromCertificateHash method [Security], InitializeFromCertificateHash method [Security], ICertPropertyRenewal interface, InitializeFromCertificateHash,ICertPropertyRenewal.InitializeFromCertificateHash, certenroll/ICertPropertyRenewal::InitializeFromCertificateHash, security.icertpropertyrenewal_initializefromcertificatehash_method
+ms.keywords: ICertPropertyRenewal interface [Security],InitializeFromCertificateHash method, ICertPropertyRenewal.InitializeFromCertificateHash, ICertPropertyRenewal::InitializeFromCertificateHash, InitializeFromCertificateHash, InitializeFromCertificateHash method [Security], InitializeFromCertificateHash method [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::InitializeFromCertificateHash, security.icertpropertyrenewal_initializefromcertificatehash_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyRenewal::InitializeFromCertificateHash method
+# ICertPropertyRenewal::InitializeFromCertificateHash
 
 
 ## -description

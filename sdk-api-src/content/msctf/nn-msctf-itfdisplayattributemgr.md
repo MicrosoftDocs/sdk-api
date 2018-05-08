@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4a1f9a13-54a1-4294-9635-80eef8bcd8d5
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfDisplayAttributeMgr, ITfDisplayAttributeMgr interface [Text Services Framework], ITfDisplayAttributeMgr interface [Text Services Framework], described, _tsf_itfdisplayattributemgr_ref, msctf/ITfDisplayAttributeMgr, tsf.itfdisplayattributemgr
+ms.keywords: ITfDisplayAttributeMgr, ITfDisplayAttributeMgr interface [Text Services Framework], ITfDisplayAttributeMgr interface [Text Services Framework],described, _tsf_itfdisplayattributemgr_ref, msctf/ITfDisplayAttributeMgr, tsf.itfdisplayattributemgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

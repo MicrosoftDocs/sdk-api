@@ -7,7 +7,7 @@ old-location: winprog\fdicabinetinfo.htm
 old-project: DevNotes
 ms.assetid: fde1a2ca-60cd-4a4d-9872-681e2f8f4fb1
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: "*PFDICABINETINFO, FDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO structure [Windows API], FDICABINETINFO structure [Windows API], fdi/FDICABINETINFO, winprog.fdicabinetinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

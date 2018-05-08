@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.RetrieveClients
-title: IWdsTransportSession::RetrieveClients method
+title: IWdsTransportSession::RetrieveClients
 author: windows-driver-content
 description: Retrieves a collection of WDS clients joined to the transport session.
 old-location: wds\iwdstransportsession_retrieveclients.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: c6e41658-8d91-4c15-8a5f-a9f43490890a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportSession, IWdsTransportSession interface [Windows Deployment Services], RetrieveClients method, IWdsTransportSession::RetrieveClients, RetrieveClients method [Windows Deployment Services], RetrieveClients method [Windows Deployment Services], IWdsTransportSession interface, RetrieveClients,IWdsTransportSession.RetrieveClients, wds.iwdstransportsession_retrieveclients, wdstptmgmt/IWdsTransportSession::RetrieveClients
+ms.keywords: IWdsTransportSession interface [Windows Deployment Services],RetrieveClients method, IWdsTransportSession.RetrieveClients, IWdsTransportSession::RetrieveClients, RetrieveClients, RetrieveClients method [Windows Deployment Services], RetrieveClients method [Windows Deployment Services],IWdsTransportSession interface, wds.iwdstransportsession_retrieveclients, wdstptmgmt/IWdsTransportSession::RetrieveClients
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportSession::RetrieveClients method
+# IWdsTransportSession::RetrieveClients
 
 
 ## -description

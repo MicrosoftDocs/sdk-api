@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidEncoder.get_VideoEncoderInterface
-title: IMSVidEncoder::get_VideoEncoderInterface method
+title: IMSVidEncoder::get_VideoEncoderInterface
 author: windows-driver-content
 description: The get_VideoEncoderInterface method retrieves a pointer to the video encoder interface.
 old-location: mstv\imsvidencoder_get_videoencoderinterface.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c6ee3169-ba24-495f-b446-161c899aab16
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidEncoder, IMSVidEncoder interface [Microsoft TV Technologies], get_VideoEncoderInterface method, IMSVidEncoder::get_VideoEncoderInterface, IMSVidEncoderget_VideoEncoderInterface, get_VideoEncoderInterface method [Microsoft TV Technologies], get_VideoEncoderInterface method [Microsoft TV Technologies], IMSVidEncoder interface, get_VideoEncoderInterface,IMSVidEncoder.get_VideoEncoderInterface, mstv.imsvidencoder_get_videoencoderinterface, segment/IMSVidEncoder::get_VideoEncoderInterface
+ms.keywords: IMSVidEncoder interface [Microsoft TV Technologies],get_VideoEncoderInterface method, IMSVidEncoder.get_VideoEncoderInterface, IMSVidEncoder::get_VideoEncoderInterface, IMSVidEncoderget_VideoEncoderInterface, get_VideoEncoderInterface, get_VideoEncoderInterface method [Microsoft TV Technologies], get_VideoEncoderInterface method [Microsoft TV Technologies],IMSVidEncoder interface, mstv.imsvidencoder_get_videoencoderinterface, segment/IMSVidEncoder::get_VideoEncoderInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidEncoder::get_VideoEncoderInterface method
+# IMSVidEncoder::get_VideoEncoderInterface
 
 
 ## -description

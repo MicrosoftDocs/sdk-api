@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_ArchiveSizeLow
-title: IFaxConfiguration::get_ArchiveSizeLow method
+title: IFaxConfiguration::get_ArchiveSizeLow
 author: windows-driver-content
 description: The value that specifies the low-order 32-bit value (in bytes) for the size of the fax message archive.
 old-location: fax\_mfax_ifaxconfiguration_archivesizelow.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: e10cde26-deec-47b8-bc69-0b785087ab74
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ArchiveSizeLow property [Fax Service], ArchiveSizeLow property [Fax Service], IFaxConfiguration interface, IFaxConfiguration, IFaxConfiguration interface [Fax Service], ArchiveSizeLow property, IFaxConfiguration.ArchiveSizeLow, IFaxConfiguration::get_ArchiveSizeLow, fax._mfax_ifaxconfiguration_archivesizelow, faxcomex/IFaxConfiguration::ArchiveSizeLow, faxcomex/IFaxConfiguration::get_ArchiveSizeLow, get_ArchiveSizeLow,IFaxConfiguration.get_ArchiveSizeLow
+ms.keywords: ArchiveSizeLow property [Fax Service], ArchiveSizeLow property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],ArchiveSizeLow property, IFaxConfiguration.ArchiveSizeLow, IFaxConfiguration.get_ArchiveSizeLow, IFaxConfiguration::ArchiveSizeLow, IFaxConfiguration::get_ArchiveSizeLow, fax._mfax_ifaxconfiguration_archivesizelow, faxcomex/IFaxConfiguration::ArchiveSizeLow, faxcomex/IFaxConfiguration::get_ArchiveSizeLow, get_ArchiveSizeLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::get_ArchiveSizeLow method
+# IFaxConfiguration::get_ArchiveSizeLow
 
 
 ## -description

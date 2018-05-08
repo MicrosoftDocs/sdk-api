@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaSource.Shutdown
-title: IMFMediaSource::Shutdown method
+title: IMFMediaSource::Shutdown
 author: windows-driver-content
 description: Shuts down the media source and releases the resources it is using.
 old-location: mf\imfmediasource_shutdown.htm
 old-project: medfound
 ms.assetid: c7f890a8-74bd-4418-bb02-a3fee62dec6d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaSource, IMFMediaSource interface [Media Foundation], Shutdown method, IMFMediaSource::Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation], IMFMediaSource interface, Shutdown,IMFMediaSource.Shutdown, c7f890a8-74bd-4418-bb02-a3fee62dec6d, mf.imfmediasource_shutdown, mfidl/IMFMediaSource::Shutdown
+ms.date: 5/3/2018
+ms.keywords: IMFMediaSource interface [Media Foundation],Shutdown method, IMFMediaSource.Shutdown, IMFMediaSource::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaSource interface, c7f890a8-74bd-4418-bb02-a3fee62dec6d, mf.imfmediasource_shutdown, mfidl/IMFMediaSource::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSource::Shutdown method
+# IMFMediaSource::Shutdown
 
 
 ## -description

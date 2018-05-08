@@ -64,32 +64,32 @@ Describes the slot of a root signature version 1.0.
           
 
 
-### -field ShaderVisibility
+### -field DescriptorTable
 
 
-            A <a href="https://msdn.microsoft.com/1D66344A-110E-4190-BC00-9F88F1A3F8FB">D3D12_SHADER_VISIBILITY</a>-typed value that  specifies the shaders that can access the contents of the root signature slot.
-          
+              A <a href="https://msdn.microsoft.com/5A0A04AB-2053-40E0-9CD5-E344BFE9001E">D3D12_ROOT_DESCRIPTOR_TABLE</a> structure that describes the layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap.
+            
 
 
-#### - Constants
+### -field Constants
 
 
               A <a href="https://msdn.microsoft.com/B6630700-4F01-4D91-A8FF-3E9CB6505F51">D3D12_ROOT_CONSTANTS</a> structure that describes constants inline in the root signature that appear in shaders as one constant buffer.
             
 
 
-#### - Descriptor
+### -field Descriptor
 
 
               A <a href="https://msdn.microsoft.com/F3ABC3B7-AD09-4CD6-9BE9-E30FAFD6E4F3">D3D12_ROOT_DESCRIPTOR</a> structure that describes descriptors inline in the root signature that appear in shaders.
             
 
 
-#### - DescriptorTable
+### -field ShaderVisibility
 
 
-              A <a href="https://msdn.microsoft.com/5A0A04AB-2053-40E0-9CD5-E344BFE9001E">D3D12_ROOT_DESCRIPTOR_TABLE</a> structure that describes the layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap.
-            
+            A <a href="https://msdn.microsoft.com/1D66344A-110E-4190-BC00-9F88F1A3F8FB">D3D12_SHADER_VISIBILITY</a>-typed value that  specifies the shaders that can access the contents of the root signature slot.
+          
 
 
 ## -remarks

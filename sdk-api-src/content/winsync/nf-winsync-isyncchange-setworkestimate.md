@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.SetWorkEstimate
-title: ISyncChange::SetWorkEstimate method
+title: ISyncChange::SetWorkEstimate
 author: windows-driver-content
 description: Sets the work estimate for this change.
 old-location: winsync\isyncchange_setworkestimate.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 2f26cc10-ff0c-448e-a174-edca0b0b2e10
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncChange, ISyncChange interface [Windows Sync], SetWorkEstimate method, ISyncChange::SetWorkEstimate, SetWorkEstimate method [Windows Sync], SetWorkEstimate method [Windows Sync], ISyncChange interface, SetWorkEstimate,ISyncChange.SetWorkEstimate, winsync.isyncchange_setworkestimate, winsync/ISyncChange::SetWorkEstimate
+ms.keywords: ISyncChange interface [Windows Sync],SetWorkEstimate method, ISyncChange.SetWorkEstimate, ISyncChange::SetWorkEstimate, SetWorkEstimate, SetWorkEstimate method [Windows Sync], SetWorkEstimate method [Windows Sync],ISyncChange interface, winsync.isyncchange_setworkestimate, winsync/ISyncChange::SetWorkEstimate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChange::SetWorkEstimate method
+# ISyncChange::SetWorkEstimate
 
 
 ## -description

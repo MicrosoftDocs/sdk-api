@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.put_EnableDiseqCommands
-title: IBDA_DiseqCommand::put_EnableDiseqCommands method
+title: IBDA_DiseqCommand::put_EnableDiseqCommands
 author: windows-driver-content
 description: Enables or disables the use of Digital Satellite Equipment Control (DiSEqC) commands.
 old-location: mstv\ibda_diseqcommand_put_enablediseqcommands.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d70f5e3c-bd5d-48cf-b4fd-e1ae2ba66f69
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DiseqCommand, IBDA_DiseqCommand interface [Microsoft TV Technologies], put_EnableDiseqCommands method, IBDA_DiseqCommand::put_EnableDiseqCommands, bdaiface/IBDA_DiseqCommand::put_EnableDiseqCommands, mstv.ibda_diseqcommand_put_enablediseqcommands, put_EnableDiseqCommands method [Microsoft TV Technologies], put_EnableDiseqCommands method [Microsoft TV Technologies], IBDA_DiseqCommand interface, put_EnableDiseqCommands,IBDA_DiseqCommand.put_EnableDiseqCommands
+ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],put_EnableDiseqCommands method, IBDA_DiseqCommand.put_EnableDiseqCommands, IBDA_DiseqCommand::put_EnableDiseqCommands, bdaiface/IBDA_DiseqCommand::put_EnableDiseqCommands, mstv.ibda_diseqcommand_put_enablediseqcommands, put_EnableDiseqCommands, put_EnableDiseqCommands method [Microsoft TV Technologies], put_EnableDiseqCommands method [Microsoft TV Technologies],IBDA_DiseqCommand interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DiseqCommand::put_EnableDiseqCommands method
+# IBDA_DiseqCommand::put_EnableDiseqCommands
 
 
 ## -description

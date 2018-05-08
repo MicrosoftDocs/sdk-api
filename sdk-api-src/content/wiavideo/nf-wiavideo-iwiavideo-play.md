@@ -1,14 +1,14 @@
 ---
 UID: NF:wiavideo.IWiaVideo.Play
-title: IWiaVideo::Play method
+title: IWiaVideo::Play
 author: windows-driver-content
 description: Begins playback of streaming video.
 old-location: wia\_wia_IWiaVideo_Play.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\play.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaVideo, IWiaVideo interface [WIA], Play method, IWiaVideo::Play, Play method [WIA], Play method [WIA], IWiaVideo interface, Play,IWiaVideo.Play, _wia_IWiaVideo_Play, wia._wia_IWiaVideo_Play, wiavideo/IWiaVideo::Play
+ms.date: 5/3/2018
+ms.keywords: IWiaVideo interface [WIA],Play method, IWiaVideo.Play, IWiaVideo::Play, Play, Play method [WIA], Play method [WIA],IWiaVideo interface, _wia_IWiaVideo_Play, wia._wia_IWiaVideo_Play, wiavideo/IWiaVideo::Play
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaVideo::Play method
+# IWiaVideo::Play
 
 
 ## -description

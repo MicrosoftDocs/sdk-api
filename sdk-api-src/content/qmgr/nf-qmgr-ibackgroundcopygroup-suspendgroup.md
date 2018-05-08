@@ -1,14 +1,14 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.SuspendGroup
-title: IBackgroundCopyGroup::SuspendGroup method
+title: IBackgroundCopyGroup::SuspendGroup
 author: windows-driver-content
 description: Use the SuspendGroup method to pause a group in the download queue. New groups, groups that are in error, or groups that have finished downloading are automatically suspended.
 old-location: bits\ibackgroundcopygroup_suspendgroup.htm
 old-project: Bits
 ms.assetid: ac7600dd-3943-46cf-ad2d-f33d0099f2af
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], SuspendGroup method, IBackgroundCopyGroup::SuspendGroup, SuspendGroup method [BITS], SuspendGroup method [BITS], IBackgroundCopyGroup interface, SuspendGroup,IBackgroundCopyGroup.SuspendGroup, bits.ibackgroundcopygroup_suspendgroup, qmgr/IBackgroundCopyGroup::SuspendGroup
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyGroup interface [BITS],SuspendGroup method, IBackgroundCopyGroup.SuspendGroup, IBackgroundCopyGroup::SuspendGroup, SuspendGroup, SuspendGroup method [BITS], SuspendGroup method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_suspendgroup, qmgr/IBackgroundCopyGroup::SuspendGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBackgroundCopyGroup::SuspendGroup method
+# IBackgroundCopyGroup::SuspendGroup
 
 
 ## -description

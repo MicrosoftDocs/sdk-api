@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetHwndProp
-title: IAccPropServices::SetHwndProp method
+title: IAccPropServices::SetHwndProp
 author: windows-driver-content
 description: This method wraps SetPropValue, providing a convenient entry point for callers who are annotating HWND-based accessible elements. If the new value is a string, you can use IAccPropServices::SetHwndPropStr instead.
 old-location: winauto\iaccpropservices_iaccpropservices__sethwndprop.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 00387897-5385-467d-9da4-4d71fce742b6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], SetHwndProp method, IAccPropServices::SetHwndProp, SetHwndProp method [Windows Accessibility], SetHwndProp method [Windows Accessibility], IAccPropServices interface, SetHwndProp,IAccPropServices.SetHwndProp, _msaa_IAccPropServices_SetHwndProp, msaa.iaccpropservices_iaccpropservices__sethwndprop, oleacc/IAccPropServices::SetHwndProp, winauto.iaccpropservices_iaccpropservices__sethwndprop
+ms.keywords: IAccPropServices interface [Windows Accessibility],SetHwndProp method, IAccPropServices.SetHwndProp, IAccPropServices::SetHwndProp, SetHwndProp, SetHwndProp method [Windows Accessibility], SetHwndProp method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetHwndProp, msaa.iaccpropservices_iaccpropservices__sethwndprop, oleacc/IAccPropServices::SetHwndProp, winauto.iaccpropservices_iaccpropservices__sethwndprop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccPropServices::SetHwndProp method
+# IAccPropServices::SetHwndProp
 
 
 ## -description

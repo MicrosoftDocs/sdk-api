@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.SetHeight
-title: ITextRow::SetHeight method
+title: ITextRow::SetHeight
 author: windows-driver-content
 description: Sets the height of a row.
 old-location: controls\itextrow_setheight.htm
 old-project: Controls
 ms.assetid: c377bdef-d906-4f7b-98f0-13633906ced9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetHeight method, ITextRow::SetHeight, SetHeight method [Windows Controls], SetHeight method [Windows Controls], ITextRow interface, SetHeight,ITextRow.SetHeight, controls.itextrow_setheight, tom/ITextRow::SetHeight
+ms.date: 4/27/2018
+ms.keywords: ITextRow interface [Windows Controls],SetHeight method, ITextRow.SetHeight, ITextRow::SetHeight, SetHeight, SetHeight method [Windows Controls], SetHeight method [Windows Controls],ITextRow interface, controls.itextrow_setheight, tom/ITextRow::SetHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::SetHeight method
+# ITextRow::SetHeight
 
 
 ## -description

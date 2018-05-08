@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleContext.get_BusinessRuleString
-title: IAzBizRuleContext::get_BusinessRuleString method
+title: IAzBizRuleContext::get_BusinessRuleString
 author: windows-driver-content
 description: Sets or retrieves an application-specific string for the Business Rule (BizRule).
 old-location: security\azbizrulecontext_businessrulestring.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 0370b251-625a-410c-ab36-76f4432405cf
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzBizRuleContext object [Security], BusinessRuleString property, BusinessRuleString property [Security], BusinessRuleString property [Security], AzBizRuleContext object, BusinessRuleString property [Security], IAzBizRuleContext interface, IAzBizRuleContext, IAzBizRuleContext interface [Security], BusinessRuleString property, IAzBizRuleContext.BusinessRuleString, IAzBizRuleContext::get_BusinessRuleString, IAzBizRuleContext::put_BusinessRuleString, azroles/IAzBizRuleContext::BusinessRuleString, azroles/IAzBizRuleContext::get_BusinessRuleString, azroles/IAzBizRuleContext::put_BusinessRuleString, get_BusinessRuleString,IAzBizRuleContext.get_BusinessRuleString, security.azbizrulecontext_businessrulestring
+ms.keywords: AzBizRuleContext object [Security],BusinessRuleString property, BusinessRuleString property [Security], BusinessRuleString property [Security],AzBizRuleContext object, BusinessRuleString property [Security],IAzBizRuleContext interface, IAzBizRuleContext interface [Security],BusinessRuleString property, IAzBizRuleContext.BusinessRuleString, IAzBizRuleContext.get_BusinessRuleString, IAzBizRuleContext::BusinessRuleString, IAzBizRuleContext::get_BusinessRuleString, IAzBizRuleContext::put_BusinessRuleString, azroles/IAzBizRuleContext::BusinessRuleString, azroles/IAzBizRuleContext::get_BusinessRuleString, azroles/IAzBizRuleContext::put_BusinessRuleString, get_BusinessRuleString, security.azbizrulecontext_businessrulestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzBizRuleContext::get_BusinessRuleString method
+# IAzBizRuleContext::get_BusinessRuleString
 
 
 ## -description

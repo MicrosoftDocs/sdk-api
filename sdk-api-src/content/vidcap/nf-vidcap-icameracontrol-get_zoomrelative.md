@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.get_ZoomRelative
-title: ICameraControl::get_ZoomRelative method
+title: ICameraControl::get_ZoomRelative
 author: windows-driver-content
 description: The get_ZoomRelative method returns the camera's relative zoom. The relative zoom indicates the direction in which the lens is moving.
 old-location: dshow\icameracontrol_get_zoomrelative.htm
 old-project: DirectShow
 ms.assetid: c1926541-d7c7-4a16-bbe7-0d93dec89c67
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_ZoomRelative method, ICameraControl::get_ZoomRelative, ICameraControlget_ZoomRelative, dshow.icameracontrol_get_zoomrelative, get_ZoomRelative method [DirectShow], get_ZoomRelative method [DirectShow], ICameraControl interface, get_ZoomRelative,ICameraControl.get_ZoomRelative, vidcap/ICameraControl::get_ZoomRelative
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],get_ZoomRelative method, ICameraControl.get_ZoomRelative, ICameraControl::get_ZoomRelative, ICameraControlget_ZoomRelative, dshow.icameracontrol_get_zoomrelative, get_ZoomRelative, get_ZoomRelative method [DirectShow], get_ZoomRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ZoomRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::get_ZoomRelative method
+# ICameraControl::get_ZoomRelative
 
 
 ## -description

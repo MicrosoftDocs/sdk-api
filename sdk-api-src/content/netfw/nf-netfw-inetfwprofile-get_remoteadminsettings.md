@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwProfile.get_RemoteAdminSettings
-title: INetFwProfile::get_RemoteAdminSettings method
+title: INetFwProfile::get_RemoteAdminSettings
 author: windows-driver-content
 description: Specifies the settings governing remote administration.
 old-location: ics\inetfwprofile_remoteadminsettings.htm
 old-project: ICS
 ms.assetid: 1e05e464-093d-4c25-850a-60e9fad64876
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwProfile, INetFwProfile interface [ICS/ICF], RemoteAdminSettings property, INetFwProfile.RemoteAdminSettings, INetFwProfile::get_RemoteAdminSettings, RemoteAdminSettings property [ICS/ICF], RemoteAdminSettings property [ICS/ICF], INetFwProfile interface, get_RemoteAdminSettings,INetFwProfile.get_RemoteAdminSettings, ics.inetfwprofile_remoteadminpermission, ics.inetfwprofile_remoteadminsettings, netfw/INetFwProfile::RemoteAdminSettings, netfw/INetFwProfile::get_RemoteAdminSettings
+ms.date: 5/1/2018
+ms.keywords: INetFwProfile interface [ICS/ICF],RemoteAdminSettings property, INetFwProfile.RemoteAdminSettings, INetFwProfile.get_RemoteAdminSettings, INetFwProfile::RemoteAdminSettings, INetFwProfile::get_RemoteAdminSettings, RemoteAdminSettings property [ICS/ICF], RemoteAdminSettings property [ICS/ICF],INetFwProfile interface, get_RemoteAdminSettings, ics.inetfwprofile_remoteadminpermission, ics.inetfwprofile_remoteadminsettings, netfw/INetFwProfile::RemoteAdminSettings, netfw/INetFwProfile::get_RemoteAdminSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwProfile::get_RemoteAdminSettings method
+# INetFwProfile::get_RemoteAdminSettings
 
 
 ## -description

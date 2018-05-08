@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPDVD.topMenu
-title: IWMPDVD::topMenu method
+title: IWMPDVD::topMenu
 author: windows-driver-content
 description: The topMenu method stops playback and displays the top (or root) menu for the current title.
 old-location: wmp\iwmpdvd_topmenu.htm
 old-project: WMP
 ms.assetid: 5b96763f-a174-45df-b988-955f9619a4c1
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], topMenu method, IWMPDVD::topMenu, IWMPDVDtopMenu, topMenu method [Windows Media Player], topMenu method [Windows Media Player], IWMPDVD interface, topMenu,IWMPDVD.topMenu, wmp.iwmpdvd_topmenu, wmp/IWMPDVD::topMenu
+ms.date: 5/4/2018
+ms.keywords: IWMPDVD interface [Windows Media Player],topMenu method, IWMPDVD.topMenu, IWMPDVD::topMenu, IWMPDVDtopMenu, topMenu, topMenu method [Windows Media Player], topMenu method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_topmenu, wmp/IWMPDVD::topMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPDVD::topMenu method
+# IWMPDVD::topMenu
 
 
 ## -description

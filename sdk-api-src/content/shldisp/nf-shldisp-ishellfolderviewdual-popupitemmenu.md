@@ -1,14 +1,14 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.PopupItemMenu
-title: IShellFolderViewDual::PopupItemMenu method
+title: IShellFolderViewDual::PopupItemMenu
 author: windows-driver-content
 description: Creates a shortcut menu for the specified item and returns the selected command string.
 old-location: shell\IShellFolderViewDual_PopupItemMenu.htm
 old-project: shell
 ms.assetid: f44e91b7-b651-4b6f-9583-cd9335ae6369
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellFolderViewDual, IShellFolderViewDual interface [Windows Shell], PopupItemMenu method, IShellFolderViewDual::PopupItemMenu, PopupItemMenu method [Windows Shell], PopupItemMenu method [Windows Shell], IShellFolderViewDual interface, PopupItemMenu,IShellFolderViewDual.PopupItemMenu, _shell_IShellFolderViewDual_PopupItemMenu, shell.IShellFolderViewDual_PopupItemMenu, shldisp/IShellFolderViewDual::PopupItemMenu
+ms.date: 5/3/2018
+ms.keywords: IShellFolderViewDual interface [Windows Shell],PopupItemMenu method, IShellFolderViewDual.PopupItemMenu, IShellFolderViewDual::PopupItemMenu, PopupItemMenu, PopupItemMenu method [Windows Shell], PopupItemMenu method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_PopupItemMenu, shell.IShellFolderViewDual_PopupItemMenu, shldisp/IShellFolderViewDual::PopupItemMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellFolderViewDual::PopupItemMenu method
+# IShellFolderViewDual::PopupItemMenu
 
 
 ## -description

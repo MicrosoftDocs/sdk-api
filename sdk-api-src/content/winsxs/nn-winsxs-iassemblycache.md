@@ -8,7 +8,7 @@ old-project: SbsCs
 ms.assetid: 6c411ae7-5a8f-47ca-a9c1-e23000f64620
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IAssemblyCache, IAssemblyCache interface [Side-by-side Assemblies], IAssemblyCache interface [Side-by-side Assemblies], described, setup.iassemblycache, winsxs/IAssemblyCache
+ms.keywords: IAssemblyCache, IAssemblyCache interface [Side-by-side Assemblies], IAssemblyCache interface [Side-by-side Assemblies],described, setup.iassemblycache, winsxs/IAssemblyCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

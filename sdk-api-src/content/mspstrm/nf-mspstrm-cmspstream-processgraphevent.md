@@ -1,6 +1,6 @@
 ---
 UID: NF:mspstrm.CMSPStream.ProcessGraphEvent
-title: CMSPStream::ProcessGraphEvent method
+title: CMSPStream::ProcessGraphEvent
 author: windows-driver-content
 description: The ProcessGraphEvent method is called by the MSPCall object to let the stream handle graph events.
 old-location: tapi3\cmspstream_processgraphevent.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 343411de-956d-4264-8bab-ce0c2459f6d1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPStream, CMSPStream interface [TAPI 2.2], ProcessGraphEvent method, CMSPStream::ProcessGraphEvent, ProcessGraphEvent method [TAPI 2.2], ProcessGraphEvent method [TAPI 2.2], CMSPStream interface, ProcessGraphEvent,CMSPStream.ProcessGraphEvent, _tapi3_cmspstream_processgraphevent, mspstrm/CMSPStream::ProcessGraphEvent, tapi3.cmspstream_processgraphevent
+ms.keywords: CMSPStream interface [TAPI 2.2],ProcessGraphEvent method, CMSPStream.ProcessGraphEvent, CMSPStream::ProcessGraphEvent, ProcessGraphEvent, ProcessGraphEvent method [TAPI 2.2], ProcessGraphEvent method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_processgraphevent, mspstrm/CMSPStream::ProcessGraphEvent, tapi3.cmspstream_processgraphevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPStream::ProcessGraphEvent method
+# CMSPStream::ProcessGraphEvent
 
 
 ## -description

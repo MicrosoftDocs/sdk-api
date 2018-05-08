@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.accSelect
-title: IAccessible::accSelect method
+title: IAccessible::accSelect
 author: windows-driver-content
 description: The IAccessible::accSelect method modifies the selection or moves the keyboard focus of the specified object. All objects that support selection or receive the keyboard focus must support this method.
 old-location: winauto\iaccessible_iaccessible__accselect.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: ae55831c-0dfa-4901-b241-27e2cdf1035f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], accSelect method, IAccessible::accSelect, _msaa_IAccessible_accSelect, accSelect method [Windows Accessibility], accSelect method [Windows Accessibility], IAccessible interface, accSelect,IAccessible.accSelect, msaa.iaccessible_iaccessible__accselect, oleacc/IAccessible::accSelect, winauto.iaccessible_iaccessible__accselect
+ms.keywords: IAccessible interface [Windows Accessibility],accSelect method, IAccessible.accSelect, IAccessible::accSelect, _msaa_IAccessible_accSelect, accSelect, accSelect method [Windows Accessibility], accSelect method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accselect, oleacc/IAccessible::accSelect, winauto.iaccessible_iaccessible__accselect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccessible::accSelect method
+# IAccessible::accSelect
 
 
 ## -description

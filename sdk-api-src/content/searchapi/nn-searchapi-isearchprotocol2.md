@@ -7,8 +7,8 @@ old-location: search\_search_ISearchProtocol2.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol2\isearchprotocol2.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchProtocol2, ISearchProtocol2 interface [search], ISearchProtocol2 interface [search], described, _search_ISearchProtocol2, search._search_ISearchProtocol2, searchapi/ISearchProtocol2
+ms.date: 5/4/2018
+ms.keywords: ISearchProtocol2, ISearchProtocol2 interface [search], ISearchProtocol2 interface [search],described, _search_ISearchProtocol2, search._search_ISearchProtocol2, searchapi/ISearchProtocol2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

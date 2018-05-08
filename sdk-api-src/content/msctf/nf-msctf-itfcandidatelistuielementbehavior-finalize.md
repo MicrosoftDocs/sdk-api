@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElementBehavior.Finalize
-title: ITfCandidateListUIElementBehavior::Finalize method
+title: ITfCandidateListUIElementBehavior::Finalize
 author: windows-driver-content
 description: The ITfCandidateListUIElementBehavior::Finalize method finalizes the current selection and close the candidate list.
 old-location: tsf\itfcandidatelistuielementbehavior_finalize.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 3602c094-4e8c-456b-9b6d-b0fc10110cff
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Finalize method [Text Services Framework], Finalize method [Text Services Framework], ITfCandidateListUIElementBehavior interface, Finalize,ITfCandidateListUIElementBehavior.Finalize, ITfCandidateListUIElementBehavior, ITfCandidateListUIElementBehavior interface [Text Services Framework], Finalize method, ITfCandidateListUIElementBehavior::Finalize, msctf/ITfCandidateListUIElementBehavior::Finalize, tsf.itfcandidatelistuielementbehavior_finalize
+ms.keywords: Finalize, Finalize method [Text Services Framework], Finalize method [Text Services Framework],ITfCandidateListUIElementBehavior interface, ITfCandidateListUIElementBehavior interface [Text Services Framework],Finalize method, ITfCandidateListUIElementBehavior.Finalize, ITfCandidateListUIElementBehavior::Finalize, msctf/ITfCandidateListUIElementBehavior::Finalize, tsf.itfcandidatelistuielementbehavior_finalize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCandidateListUIElementBehavior::Finalize method
+# ITfCandidateListUIElementBehavior::Finalize
 
 
 ## -description

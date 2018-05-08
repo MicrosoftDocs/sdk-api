@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperties.GetProperty
-title: IWindowsMediaLibrarySharingDeviceProperties::GetProperty method
+title: IWindowsMediaLibrarySharingDeviceProperties::GetProperty
 author: windows-driver-content
 description: The GetProperty method retrieves an IWindowsMediaLibrarySharingDeviceProperty interface that represents an indivdual property for a media device.
 old-location: wmlss\IWMLSDevicePropertiesGetProperty.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: 32ae77a2-d80e-4295-9fd2-83b1ad7e8c73
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetProperty method [Windows Media Library Sharing Services], GetProperty method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDeviceProperties interface, GetProperty,IWindowsMediaLibrarySharingDeviceProperties.GetProperty, IWindowsMediaLibrarySharingDeviceProperties, IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services], GetProperty method, IWindowsMediaLibrarySharingDeviceProperties::GetProperty, wmlss.IWMLSDevicePropertiesGetProperty, wmlss/IWindowsMediaLibrarySharingDeviceProperties::GetProperty
+ms.keywords: GetProperty, GetProperty method [Windows Media Library Sharing Services], GetProperty method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperties interface, IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services],GetProperty method, IWindowsMediaLibrarySharingDeviceProperties.GetProperty, IWindowsMediaLibrarySharingDeviceProperties::GetProperty, wmlss.IWMLSDevicePropertiesGetProperty, wmlss/IWindowsMediaLibrarySharingDeviceProperties::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingDeviceProperties::GetProperty method
+# IWindowsMediaLibrarySharingDeviceProperties::GetProperty
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcFactory.CreatePackageRootUri
-title: IOpcFactory::CreatePackageRootUri method
+title: IOpcFactory::CreatePackageRootUri
 author: windows-driver-content
 description: Creates an OPC URI object that represents the root of a package.
 old-location: opc\iopcfactory_createpackagerooturi.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 5ec33743-d362-43d9-a66e-8223745b9664
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreatePackageRootUri method [Open Packaging Conventions], CreatePackageRootUri method [Open Packaging Conventions], IOpcFactory interface, CreatePackageRootUri,IOpcFactory.CreatePackageRootUri, IOpcFactory, IOpcFactory interface [Open Packaging Conventions], CreatePackageRootUri method, IOpcFactory::CreatePackageRootUri, msopc/IOpcFactory::CreatePackageRootUri, opc.iopcfactory_createpackagerooturi
+ms.keywords: CreatePackageRootUri, CreatePackageRootUri method [Open Packaging Conventions], CreatePackageRootUri method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePackageRootUri method, IOpcFactory.CreatePackageRootUri, IOpcFactory::CreatePackageRootUri, msopc/IOpcFactory::CreatePackageRootUri, opc.iopcfactory_createpackagerooturi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcFactory::CreatePackageRootUri method
+# IOpcFactory::CreatePackageRootUri
 
 
 ## -description

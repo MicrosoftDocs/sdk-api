@@ -8,7 +8,7 @@ old-project: ETW
 ms.assetid: 70139402-86e6-43b4-9016-42854ef998fd
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEventCallback, IEventCallback interface [ETW], IEventCallback interface [ETW], described, etw.ieventcallback, relogger/ITraceEventCallback
+ms.keywords: IEventCallback, IEventCallback interface [ETW], IEventCallback interface [ETW],described, ITraceEventCallback, etw.ieventcallback, relogger/ITraceEventCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax

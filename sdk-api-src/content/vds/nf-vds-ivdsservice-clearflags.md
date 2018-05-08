@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.ClearFlags
-title: IVdsService::ClearFlags method
+title: IVdsService::ClearFlags
 author: windows-driver-content
 description: Clears service object flags.
 old-location: base\ivdsservice_clearflags.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 91cb21ea-725b-4032-9a60-34c1b42b55d0
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: ClearFlags method [VDS], ClearFlags method [VDS], IVdsService interface, ClearFlags,IVdsService.ClearFlags, IVdsService, IVdsService interface [VDS], ClearFlags method, IVdsService::ClearFlags, base.ivdsservice_clearflags, vds/IVdsService::ClearFlags
+ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsService interface, IVdsService interface [VDS],ClearFlags method, IVdsService.ClearFlags, IVdsService::ClearFlags, base.ivdsservice_clearflags, vds/IVdsService::ClearFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsService::ClearFlags method
+# IVdsService::ClearFlags
 
 
 ## -description

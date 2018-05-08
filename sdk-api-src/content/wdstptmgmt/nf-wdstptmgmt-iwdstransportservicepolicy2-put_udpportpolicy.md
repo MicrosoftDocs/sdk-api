@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy2.put_UdpPortPolicy
-title: IWdsTransportServicePolicy2::put_UdpPortPolicy method
+title: IWdsTransportServicePolicy2::put_UdpPortPolicy
 author: windows-driver-content
 description: Recieves the WDSTRANSPORT_UDP_PORT_POLICY value that specifies the UDP port allocation policy to be used by WDS transport services. The value enables a WDS client computer to configure the UDP port allocation policy.
 old-location: wds\iwdstransportservicepolicy2_udpportpolicy.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 420400D4-98A4-497A-BEB3-54BD4057B0BE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportServicePolicy2, IWdsTransportServicePolicy2 interface [Windows Deployment Services], UdpPortPolicy property, IWdsTransportServicePolicy2.UdpPortPolicy, IWdsTransportServicePolicy2::get_UdpPortPolicy, IWdsTransportServicePolicy2::put_UdpPortPolicy, UdpPortPolicy property [Windows Deployment Services], UdpPortPolicy property [Windows Deployment Services], IWdsTransportServicePolicy2 interface, put_UdpPortPolicy,IWdsTransportServicePolicy2.put_UdpPortPolicy, wds.iwdstransportservicepolicy2_udpportpolicy, wdstptmgmt/IWdsTransportServicePolicy2::UdpPortPolicy, wdstptmgmt/IWdsTransportServicePolicy2::get_UdpPortPolicy, wdstptmgmt/IWdsTransportServicePolicy2::put_UdpPortPolicy
+ms.keywords: IWdsTransportServicePolicy2 interface [Windows Deployment Services],UdpPortPolicy property, IWdsTransportServicePolicy2.UdpPortPolicy, IWdsTransportServicePolicy2.put_UdpPortPolicy, IWdsTransportServicePolicy2::UdpPortPolicy, IWdsTransportServicePolicy2::get_UdpPortPolicy, IWdsTransportServicePolicy2::put_UdpPortPolicy, UdpPortPolicy property [Windows Deployment Services], UdpPortPolicy property [Windows Deployment Services],IWdsTransportServicePolicy2 interface, put_UdpPortPolicy, wds.iwdstransportservicepolicy2_udpportpolicy, wdstptmgmt/IWdsTransportServicePolicy2::UdpPortPolicy, wdstptmgmt/IWdsTransportServicePolicy2::get_UdpPortPolicy, wdstptmgmt/IWdsTransportServicePolicy2::put_UdpPortPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportServicePolicy2::put_UdpPortPolicy method
+# IWdsTransportServicePolicy2::put_UdpPortPolicy
 
 
 ## -description

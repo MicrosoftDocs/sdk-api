@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CheckFormatSupport
-title: ID3D10Device::CheckFormatSupport method
+title: ID3D10Device::CheckFormatSupport
 author: windows-driver-content
 description: Get the support of a given format on the installed video device.
 old-location: direct3d10\id3d10device_checkformatsupport.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_checkformatsupport.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CheckFormatSupport method [Direct3D 10], CheckFormatSupport method [Direct3D 10], ID3D10Device interface, CheckFormatSupport,ID3D10Device.CheckFormatSupport, ID3D10Device, ID3D10Device interface [Direct3D 10], CheckFormatSupport method, ID3D10Device::CheckFormatSupport, d3d10/ID3D10Device::CheckFormatSupport, direct3d10.id3d10device_checkformatsupport, eaf02733-648b-44c6-4ca7-57aa2cecf913
+ms.keywords: CheckFormatSupport, CheckFormatSupport method [Direct3D 10], CheckFormatSupport method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CheckFormatSupport method, ID3D10Device.CheckFormatSupport, ID3D10Device::CheckFormatSupport, d3d10/ID3D10Device::CheckFormatSupport, direct3d10.id3d10device_checkformatsupport, eaf02733-648b-44c6-4ca7-57aa2cecf913
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::CheckFormatSupport method
+# ID3D10Device::CheckFormatSupport
 
 
 ## -description

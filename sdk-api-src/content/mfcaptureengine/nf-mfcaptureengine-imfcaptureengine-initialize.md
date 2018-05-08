@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.Initialize
-title: IMFCaptureEngine::Initialize method
+title: IMFCaptureEngine::Initialize
 author: windows-driver-content
 description: Initializes the capture engine.
 old-location: mf\imfcaptureengine_initialize.htm
 old-project: medfound
 ms.assetid: 23EC8B49-2F67-4FB8-AFFA-409823ACCF59
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], Initialize method, IMFCaptureEngine::Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation], IMFCaptureEngine interface, Initialize,IMFCaptureEngine.Initialize, mf.imfcaptureengine_initialize, mfcaptureengine/IMFCaptureEngine::Initialize
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureEngine interface [Media Foundation],Initialize method, IMFCaptureEngine.Initialize, IMFCaptureEngine::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_initialize, mfcaptureengine/IMFCaptureEngine::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureEngine::Initialize method
+# IMFCaptureEngine::Initialize
 
 
 ## -description

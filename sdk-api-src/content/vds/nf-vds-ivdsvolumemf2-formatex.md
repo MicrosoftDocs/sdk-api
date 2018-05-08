@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF2.FormatEx
-title: IVdsVolumeMF2::FormatEx method
+title: IVdsVolumeMF2::FormatEx
 author: windows-driver-content
 description: Formats a file system volume on a partition.
 old-location: base\ivdsvolumemf2_formatex.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: c1d08018-4e9b-466a-b8dd-074b2ce0c8fe
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FormatEx method, FormatEx method, IVdsVolumeMF2 interface, FormatEx,IVdsVolumeMF2.FormatEx, IVdsVolumeMF2, IVdsVolumeMF2 interface, FormatEx method, IVdsVolumeMF2::FormatEx, base.ivdsvolumemf2_formatex, vds/IVdsVolumeMF2::FormatEx
+ms.keywords: FormatEx, FormatEx method, FormatEx method,IVdsVolumeMF2 interface, IVdsVolumeMF2 interface,FormatEx method, IVdsVolumeMF2.FormatEx, IVdsVolumeMF2::FormatEx, base.ivdsvolumemf2_formatex, vds/IVdsVolumeMF2::FormatEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolumeMF2::FormatEx method
+# IVdsVolumeMF2::FormatEx
 
 
 ## -description

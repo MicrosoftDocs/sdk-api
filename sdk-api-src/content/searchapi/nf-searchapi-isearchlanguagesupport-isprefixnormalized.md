@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.IsPrefixNormalized
-title: ISearchLanguageSupport::IsPrefixNormalized method
+title: ISearchLanguageSupport::IsPrefixNormalized
 author: windows-driver-content
 description: Determines whether the query token is a prefix of the document token, disregarding case, width, and (optionally) diacritics.
 old-location: search\_search_ISearchLanguageSupport_IsPrefixNormalized.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\isprefixnormalized.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchLanguageSupport, ISearchLanguageSupport interface [search], IsPrefixNormalized method, ISearchLanguageSupport::IsPrefixNormalized, IsPrefixNormalized method [search], IsPrefixNormalized method [search], ISearchLanguageSupport interface, IsPrefixNormalized,ISearchLanguageSupport.IsPrefixNormalized, _search_ISearchLanguageSupport_IsPrefixNormalized, search._search_ISearchLanguageSupport_IsPrefixNormalized, searchapi/ISearchLanguageSupport::IsPrefixNormalized
+ms.date: 5/4/2018
+ms.keywords: ISearchLanguageSupport interface [search],IsPrefixNormalized method, ISearchLanguageSupport.IsPrefixNormalized, ISearchLanguageSupport::IsPrefixNormalized, IsPrefixNormalized, IsPrefixNormalized method [search], IsPrefixNormalized method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_IsPrefixNormalized, search._search_ISearchLanguageSupport_IsPrefixNormalized, searchapi/ISearchLanguageSupport::IsPrefixNormalized
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchLanguageSupport::IsPrefixNormalized method
+# ISearchLanguageSupport::IsPrefixNormalized
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.AcquireTargetLock
-title: ITsSbResourcePluginStore::AcquireTargetLock method
+title: ITsSbResourcePluginStore::AcquireTargetLock
 author: windows-driver-content
 description: Locks a target.
 old-location: termserv\itssbresourcepluginstore_acquiretargetlock.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: ee6f22cf-c111-4a11-ab84-b52904a148b6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: AcquireTargetLock method [Remote Desktop Services], AcquireTargetLock method [Remote Desktop Services], ITsSbResourcePluginStore interface, AcquireTargetLock,ITsSbResourcePluginStore.AcquireTargetLock, ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], AcquireTargetLock method, ITsSbResourcePluginStore::AcquireTargetLock, sbtsv/ITsSbResourcePluginStore::AcquireTargetLock, termserv.itssbresourcepluginstore_acquiretargetlock
+ms.keywords: AcquireTargetLock, AcquireTargetLock method [Remote Desktop Services], AcquireTargetLock method [Remote Desktop Services],ITsSbResourcePluginStore interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AcquireTargetLock method, ITsSbResourcePluginStore.AcquireTargetLock, ITsSbResourcePluginStore::AcquireTargetLock, sbtsv/ITsSbResourcePluginStore::AcquireTargetLock, termserv.itssbresourcepluginstore_acquiretargetlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::AcquireTargetLock method
+# ITsSbResourcePluginStore::AcquireTargetLock
 
 
 ## -description

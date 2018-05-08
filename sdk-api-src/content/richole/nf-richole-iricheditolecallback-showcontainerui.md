@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOleCallback.ShowContainerUI
-title: IRichEditOleCallback::ShowContainerUI method
+title: IRichEditOleCallback::ShowContainerUI
 author: windows-driver-content
 description: Indicates whether or not the application is to display its container UI.
 old-location: controls\IRichEditOleCallback_ShowContainerUI.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackshowcontainerui.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], ShowContainerUI method, IRichEditOleCallback::ShowContainerUI, ShowContainerUI method [Windows Controls], ShowContainerUI method [Windows Controls], IRichEditOleCallback interface, ShowContainerUI,IRichEditOleCallback.ShowContainerUI, _win32_IRichEditOleCallback_ShowContainerUI, _win32_IRichEditOleCallback_ShowContainerUI_cpp, controls.IRichEditOleCallback_ShowContainerUI, controls._win32_IRichEditOleCallback_ShowContainerUI, richole/IRichEditOleCallback::ShowContainerUI
+ms.date: 4/27/2018
+ms.keywords: IRichEditOleCallback interface [Windows Controls],ShowContainerUI method, IRichEditOleCallback.ShowContainerUI, IRichEditOleCallback::ShowContainerUI, ShowContainerUI, ShowContainerUI method [Windows Controls], ShowContainerUI method [Windows Controls],IRichEditOleCallback interface, _win32_IRichEditOleCallback_ShowContainerUI, _win32_IRichEditOleCallback_ShowContainerUI_cpp, controls.IRichEditOleCallback_ShowContainerUI, controls._win32_IRichEditOleCallback_ShowContainerUI, richole/IRichEditOleCallback::ShowContainerUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOleCallback::ShowContainerUI method
+# IRichEditOleCallback::ShowContainerUI
 
 
 ## -description

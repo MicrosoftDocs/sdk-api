@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_StartOfNextSession
-title: IDiscFormat2RawCD::get_StartOfNextSession method
+title: IDiscFormat2RawCD::get_StartOfNextSession
 author: windows-driver-content
 description: Retrieves the first sector of the next session.
 old-location: imapi\idiscformat2rawcd_get_startofnextsession.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d9ffe037-c7a6-40c2-a809-58dbfd9e7415
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], get_StartOfNextSession method, IDiscFormat2RawCD::get_StartOfNextSession, get_StartOfNextSession method [IMAPI], get_StartOfNextSession method [IMAPI], IDiscFormat2RawCD interface, get_StartOfNextSession,IDiscFormat2RawCD.get_StartOfNextSession, imapi.idiscformat2rawcd_get_startofnextsession, imapi2/IDiscFormat2RawCD::get_StartOfNextSession
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_StartOfNextSession method, IDiscFormat2RawCD.get_StartOfNextSession, IDiscFormat2RawCD::get_StartOfNextSession, get_StartOfNextSession, get_StartOfNextSession method [IMAPI], get_StartOfNextSession method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_startofnextsession, imapi2/IDiscFormat2RawCD::get_StartOfNextSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCD::get_StartOfNextSession method
+# IDiscFormat2RawCD::get_StartOfNextSession
 
 
 ## -description

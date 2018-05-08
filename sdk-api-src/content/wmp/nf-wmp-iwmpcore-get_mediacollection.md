@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCore.get_mediaCollection
-title: IWMPCore::get_mediaCollection method
+title: IWMPCore::get_mediaCollection
 author: windows-driver-content
 description: The get_mediaCollection method retrieves a pointer to an IWMPMediaCollection interface.
 old-location: wmp\iwmpcore_get_mediacollection.htm
 old-project: WMP
 ms.assetid: 41b090ca-edf0-440e-b578-26c5ad064657
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_mediaCollection method, IWMPCore::get_mediaCollection, IWMPCoreget_mediaCollection, get_mediaCollection method [Windows Media Player], get_mediaCollection method [Windows Media Player], IWMPCore interface, get_mediaCollection,IWMPCore.get_mediaCollection, wmp.iwmpcore_get_mediacollection, wmp/IWMPCore::get_mediaCollection
+ms.date: 5/4/2018
+ms.keywords: IWMPCore interface [Windows Media Player],get_mediaCollection method, IWMPCore.get_mediaCollection, IWMPCore::get_mediaCollection, IWMPCoreget_mediaCollection, get_mediaCollection, get_mediaCollection method [Windows Media Player], get_mediaCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_mediacollection, wmp/IWMPCore::get_mediaCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCore::get_mediaCollection method
+# IWMPCore::get_mediaCollection
 
 
 ## -description

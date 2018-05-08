@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionState.IsCanceled
-title: ISyncSessionState::IsCanceled method
+title: ISyncSessionState::IsCanceled
 author: windows-driver-content
 description: Indicates whether the synchronization session has been canceled.
 old-location: winsync\isyncsessionstate_iscanceled.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 25ce0e21-99ce-4790-8f53-39466da9226f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncSessionState, ISyncSessionState interface [Windows Sync], IsCanceled method, ISyncSessionState::IsCanceled, IsCanceled method [Windows Sync], IsCanceled method [Windows Sync], ISyncSessionState interface, IsCanceled,ISyncSessionState.IsCanceled, winsync.isyncsessionstate_iscanceled, winsync/ISyncSessionState::IsCanceled
+ms.keywords: ISyncSessionState interface [Windows Sync],IsCanceled method, ISyncSessionState.IsCanceled, ISyncSessionState::IsCanceled, IsCanceled, IsCanceled method [Windows Sync], IsCanceled method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_iscanceled, winsync/ISyncSessionState::IsCanceled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncSessionState::IsCanceled method
+# ISyncSessionState::IsCanceled
 
 
 ## -description

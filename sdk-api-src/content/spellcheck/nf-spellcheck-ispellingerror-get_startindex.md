@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellingError.get_StartIndex
-title: ISpellingError::get_StartIndex method
+title: ISpellingError::get_StartIndex
 author: windows-driver-content
 description: Gets the position in the checked text where the error begins.
 old-location: intl\ispellingerror_startindex.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: bf4e8981-9f7c-4f4f-bb22-866649af2727
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISpellingError, ISpellingError interface [Internationalization for Windows Applications], StartIndex property, ISpellingError.StartIndex, ISpellingError::get_StartIndex, StartIndex property [Internationalization for Windows Applications], StartIndex property [Internationalization for Windows Applications], ISpellingError interface, get_StartIndex,ISpellingError.get_StartIndex, intl.ispellingerror_startindex, spellcheck/ISpellingError::StartIndex, spellcheck/ISpellingError::get_StartIndex
+ms.keywords: ISpellingError interface [Internationalization for Windows Applications],StartIndex property, ISpellingError.StartIndex, ISpellingError.get_StartIndex, ISpellingError::StartIndex, ISpellingError::get_StartIndex, StartIndex property [Internationalization for Windows Applications], StartIndex property [Internationalization for Windows Applications],ISpellingError interface, get_StartIndex, intl.ispellingerror_startindex, spellcheck/ISpellingError::StartIndex, spellcheck/ISpellingError::get_StartIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellingError::get_StartIndex method
+# ISpellingError::get_StartIndex
 
 
 ## -description

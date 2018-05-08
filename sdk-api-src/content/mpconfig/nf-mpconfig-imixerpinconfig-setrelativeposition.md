@@ -1,14 +1,14 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetRelativePosition
-title: IMixerPinConfig::SetRelativePosition method
+title: IMixerPinConfig::SetRelativePosition
 author: windows-driver-content
 description: The SetRelativePosition method sets the position of the stream in the display window.
 old-location: dshow\imixerpinconfig_setrelativeposition.htm
 old-project: DirectShow
 ms.assetid: 2b8ff58b-04df-4a6a-b501-f5c138b8abbf
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMixerPinConfig, IMixerPinConfig interface [DirectShow], SetRelativePosition method, IMixerPinConfig::SetRelativePosition, IMixerPinConfigSetRelativePosition, SetRelativePosition method [DirectShow], SetRelativePosition method [DirectShow], IMixerPinConfig interface, SetRelativePosition,IMixerPinConfig.SetRelativePosition, dshow.imixerpinconfig_setrelativeposition, mpconfig/IMixerPinConfig::SetRelativePosition
+ms.date: 4/30/2018
+ms.keywords: IMixerPinConfig interface [DirectShow],SetRelativePosition method, IMixerPinConfig.SetRelativePosition, IMixerPinConfig::SetRelativePosition, IMixerPinConfigSetRelativePosition, SetRelativePosition, SetRelativePosition method [DirectShow], SetRelativePosition method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setrelativeposition, mpconfig/IMixerPinConfig::SetRelativePosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMixerPinConfig::SetRelativePosition method
+# IMixerPinConfig::SetRelativePosition
 
 
 ## -description

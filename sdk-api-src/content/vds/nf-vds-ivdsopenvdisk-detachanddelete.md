@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.DetachAndDelete
-title: IVdsOpenVDisk::DetachAndDelete method
+title: IVdsOpenVDisk::DetachAndDelete
 author: windows-driver-content
 description: Detaches a virtual disk and deletes the backing files.
 old-location: base\ivdsopenvdisk_detachanddelete.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 79179da4-3c88-480b-bfb8-c4315fa56c4e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: DetachAndDelete method, DetachAndDelete method, IVdsOpenVDisk interface, DetachAndDelete,IVdsOpenVDisk.DetachAndDelete, IVdsOpenVDisk, IVdsOpenVDisk interface, DetachAndDelete method, IVdsOpenVDisk::DetachAndDelete, base.ivdsopenvdisk_detachanddelete, vds/IVdsOpenVDisk::DetachAndDelete
+ms.keywords: DetachAndDelete, DetachAndDelete method, DetachAndDelete method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,DetachAndDelete method, IVdsOpenVDisk.DetachAndDelete, IVdsOpenVDisk::DetachAndDelete, base.ivdsopenvdisk_detachanddelete, vds/IVdsOpenVDisk::DetachAndDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsOpenVDisk::DetachAndDelete method
+# IVdsOpenVDisk::DetachAndDelete
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.SelectStreams
-title: IMFASFSplitter::SelectStreams method
+title: IMFASFSplitter::SelectStreams
 author: windows-driver-content
 description: Sets the streams to be parsed by the Advanced Systems Format (ASF) splitter.
 old-location: mf\imfasfsplitter_selectstreams.htm
 old-project: medfound
 ms.assetid: a241f8a4-7609-4a6c-825f-a7b882bfc25f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFASFSplitter, IMFASFSplitter interface [Media Foundation], SelectStreams method, IMFASFSplitter::SelectStreams, SelectStreams method [Media Foundation], SelectStreams method [Media Foundation], IMFASFSplitter interface, SelectStreams,IMFASFSplitter.SelectStreams, a241f8a4-7609-4a6c-825f-a7b882bfc25f, mf.imfasfsplitter_selectstreams, wmcontainer/IMFASFSplitter::SelectStreams
+ms.date: 5/3/2018
+ms.keywords: IMFASFSplitter interface [Media Foundation],SelectStreams method, IMFASFSplitter.SelectStreams, IMFASFSplitter::SelectStreams, SelectStreams, SelectStreams method [Media Foundation], SelectStreams method [Media Foundation],IMFASFSplitter interface, a241f8a4-7609-4a6c-825f-a7b882bfc25f, mf.imfasfsplitter_selectstreams, wmcontainer/IMFASFSplitter::SelectStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFSplitter::SelectStreams method
+# IMFASFSplitter::SelectStreams
 
 
 ## -description

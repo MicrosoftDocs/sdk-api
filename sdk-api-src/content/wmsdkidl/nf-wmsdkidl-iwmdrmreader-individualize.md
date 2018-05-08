@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.Individualize
-title: IWMDRMReader::Individualize method
+title: IWMDRMReader::Individualize
 author: windows-driver-content
 description: The Individualize method individualizes the client by updating their DRM system components.
 old-location: wmformat\iwmdrmreader_individualize.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 51bf9aa0-4c96-4c0b-8e5e-b63fd20dcc4d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMDRMReader, IWMDRMReader interface [windows Media Format], Individualize method, IWMDRMReader::Individualize, IWMDRMReaderIndividualize, Individualize method [windows Media Format], Individualize method [windows Media Format], IWMDRMReader interface, Individualize,IWMDRMReader.Individualize, wmformat.iwmdrmreader_individualize, wmsdkidl/IWMDRMReader::Individualize
+ms.keywords: IWMDRMReader interface [windows Media Format],Individualize method, IWMDRMReader.Individualize, IWMDRMReader::Individualize, IWMDRMReaderIndividualize, Individualize, Individualize method [windows Media Format], Individualize method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_individualize, wmsdkidl/IWMDRMReader::Individualize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMReader::Individualize method
+# IWMDRMReader::Individualize
 
 
 ## -description

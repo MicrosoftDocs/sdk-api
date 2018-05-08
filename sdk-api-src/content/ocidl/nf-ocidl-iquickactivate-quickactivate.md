@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IQuickActivate.QuickActivate
-title: IQuickActivate::QuickActivate method
+title: IQuickActivate::QuickActivate
 author: windows-driver-content
 description: Quick activates a control.
 old-location: com\iquickactivate_quickactivate.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 504cb272-da1c-4ffb-b4b1-fdf288901660
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IQuickActivate, IQuickActivate interface [COM], QuickActivate method, IQuickActivate::QuickActivate, QuickActivate method [COM], QuickActivate method [COM], IQuickActivate interface, QuickActivate,IQuickActivate.QuickActivate, _ctrl_iquickactivate_quickactivate, com.iquickactivate_quickactivate, ocidl/IQuickActivate::QuickActivate
+ms.keywords: IQuickActivate interface [COM],QuickActivate method, IQuickActivate.QuickActivate, IQuickActivate::QuickActivate, QuickActivate, QuickActivate method [COM], QuickActivate method [COM],IQuickActivate interface, _ctrl_iquickactivate_quickactivate, com.iquickactivate_quickactivate, ocidl/IQuickActivate::QuickActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IQuickActivate::QuickActivate method
+# IQuickActivate::QuickActivate
 
 
 ## -description

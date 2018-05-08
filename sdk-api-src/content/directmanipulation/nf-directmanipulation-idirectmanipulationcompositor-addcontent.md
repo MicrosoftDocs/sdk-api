@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.AddContent
-title: IDirectManipulationCompositor::AddContent method
+title: IDirectManipulationCompositor::AddContent
 author: windows-driver-content
 description: Associates content (owned by the caller) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.
 old-location: directmanipulation\idirectmanipulationcompositor_addcontent.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 16c1a911-43cb-4c18-9e29-12a69b715e6a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddContent method [Direct Manipulation], AddContent method [Direct Manipulation], IDirectManipulationCompositor interface, AddContent,IDirectManipulationCompositor.AddContent, IDirectManipulationCompositor, IDirectManipulationCompositor interface [Direct Manipulation], AddContent method, IDirectManipulationCompositor::AddContent, directmanipulation.idirectmanipulationcompositor_addcontent, directmanipulation/IDirectManipulationCompositor::AddContent
+ms.keywords: AddContent, AddContent method [Direct Manipulation], AddContent method [Direct Manipulation],IDirectManipulationCompositor interface, IDirectManipulationCompositor interface [Direct Manipulation],AddContent method, IDirectManipulationCompositor.AddContent, IDirectManipulationCompositor::AddContent, directmanipulation.idirectmanipulationcompositor_addcontent, directmanipulation/IDirectManipulationCompositor::AddContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationCompositor::AddContent method
+# IDirectManipulationCompositor::AddContent
 
 
 ## -description

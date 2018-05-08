@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformationCollection.Add
-title: ICertSrvSetupKeyInformationCollection::Add method
+title: ICertSrvSetupKeyInformationCollection::Add
 author: windows-driver-content
 description: Adds an ICertSrvSetupKeyInformation object to the collection.
 old-location: security\icertsrvsetupkeyinformationcollection_add.htm
 old-project: SecCrypto
 ms.assetid: 8f342787-13f7-4bca-8320-61bb5112ee34
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: Add method [Security], Add method [Security], ICertSrvSetupKeyInformationCollection interface, Add,ICertSrvSetupKeyInformationCollection.Add, ICertSrvSetupKeyInformationCollection, ICertSrvSetupKeyInformationCollection interface [Security], Add method, ICertSrvSetupKeyInformationCollection::Add, casetup/ICertSrvSetupKeyInformationCollection::Add, security.icertsrvsetupkeyinformationcollection_add
+ms.date: 4/30/2018
+ms.keywords: Add, Add method [Security], Add method [Security],ICertSrvSetupKeyInformationCollection interface, ICertSrvSetupKeyInformationCollection interface [Security],Add method, ICertSrvSetupKeyInformationCollection.Add, ICertSrvSetupKeyInformationCollection::Add, casetup/ICertSrvSetupKeyInformationCollection::Add, security.icertsrvsetupkeyinformationcollection_add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetupKeyInformationCollection::Add method
+# ICertSrvSetupKeyInformationCollection::Add
 
 
 ## -description

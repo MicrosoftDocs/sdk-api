@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEventingStatus.SubscriptionRenewalFailed
-title: IWSDEventingStatus::SubscriptionRenewalFailed method
+title: IWSDEventingStatus::SubscriptionRenewalFailed
 author: windows-driver-content
 description: Called when the subscription for the specified event action could not be renewed.
 old-location: ncd\iwsdeventingstatus_subscriptionrenewalfailed.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: d76bb6ae-bb4d-4226-be0d-4fd37b0212a9
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDEventingStatus, IWSDEventingStatus interface, SubscriptionRenewalFailed method, IWSDEventingStatus::SubscriptionRenewalFailed, SubscriptionRenewalFailed method, SubscriptionRenewalFailed method, IWSDEventingStatus interface, SubscriptionRenewalFailed,IWSDEventingStatus.SubscriptionRenewalFailed, ncd.iwsdeventingstatus_subscriptionrenewalfailed, wsdclient/IWSDEventingStatus::SubscriptionRenewalFailed
+ms.keywords: IWSDEventingStatus interface,SubscriptionRenewalFailed method, IWSDEventingStatus.SubscriptionRenewalFailed, IWSDEventingStatus::SubscriptionRenewalFailed, SubscriptionRenewalFailed, SubscriptionRenewalFailed method, SubscriptionRenewalFailed method,IWSDEventingStatus interface, ncd.iwsdeventingstatus_subscriptionrenewalfailed, wsdclient/IWSDEventingStatus::SubscriptionRenewalFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDEventingStatus::SubscriptionRenewalFailed method
+# IWSDEventingStatus::SubscriptionRenewalFailed
 
 
 ## -description

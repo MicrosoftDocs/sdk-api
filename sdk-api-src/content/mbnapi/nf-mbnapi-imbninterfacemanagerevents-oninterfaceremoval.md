@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManagerEvents.OnInterfaceRemoval
-title: IMbnInterfaceManagerEvents::OnInterfaceRemoval method
+title: IMbnInterfaceManagerEvents::OnInterfaceRemoval
 author: windows-driver-content
 description: Notification method that signals that a device has been removed from the system.
 old-location: mbn\imbninterfacemanagerevents_oninterfaceremoval.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: d7c96d35-20e1-46e2-82db-4b1fc03cdd22
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnInterfaceManagerEvents, IMbnInterfaceManagerEvents interface [Microsoft Broadband Networks], OnInterfaceRemoval method, IMbnInterfaceManagerEvents::OnInterfaceRemoval, OnInterfaceRemoval method [Microsoft Broadband Networks], OnInterfaceRemoval method [Microsoft Broadband Networks], IMbnInterfaceManagerEvents interface, OnInterfaceRemoval,IMbnInterfaceManagerEvents.OnInterfaceRemoval, mbn.imbninterfacemanagerevents_oninterfaceremoval, mbnapi/IMbnInterfaceManagerEvents::OnInterfaceRemoval
+ms.keywords: IMbnInterfaceManagerEvents interface [Microsoft Broadband Networks],OnInterfaceRemoval method, IMbnInterfaceManagerEvents.OnInterfaceRemoval, IMbnInterfaceManagerEvents::OnInterfaceRemoval, OnInterfaceRemoval, OnInterfaceRemoval method [Microsoft Broadband Networks], OnInterfaceRemoval method [Microsoft Broadband Networks],IMbnInterfaceManagerEvents interface, mbn.imbninterfacemanagerevents_oninterfaceremoval, mbnapi/IMbnInterfaceManagerEvents::OnInterfaceRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnInterfaceManagerEvents::OnInterfaceRemoval method
+# IMbnInterfaceManagerEvents::OnInterfaceRemoval
 
 
 ## -description

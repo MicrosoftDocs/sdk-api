@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_InboundRouting
-title: IFaxServer::get_InboundRouting method
+title: IFaxServer::get_InboundRouting
 author: windows-driver-content
 description: The IFaxServer::get_InboundRouting property creates a IFaxInboundRouting configuration interface. The interface permits access to an inbound fax routing extension and its methods.
 old-location: fax\_mfax_faxserver_inboundrouting_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1w4n_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxServer, IFaxServer interface [Fax Service], InboundRouting property, IFaxServer.InboundRouting, IFaxServer::get_InboundRouting, InboundRouting property [Fax Service], InboundRouting property [Fax Service], IFaxServer interface, _mfax_faxserver.inboundrouting_cpp, fax._mfax_faxserver_inboundrouting_cpp, faxcomex/IFaxServer::InboundRouting, faxcomex/IFaxServer::get_InboundRouting, get_InboundRouting,IFaxServer.get_InboundRouting
+ms.keywords: IFaxServer interface [Fax Service],InboundRouting property, IFaxServer.InboundRouting, IFaxServer.get_InboundRouting, IFaxServer::InboundRouting, IFaxServer::get_InboundRouting, InboundRouting property [Fax Service], InboundRouting property [Fax Service],IFaxServer interface, _mfax_faxserver.inboundrouting_cpp, fax._mfax_faxserver_inboundrouting_cpp, faxcomex/IFaxServer::InboundRouting, faxcomex/IFaxServer::get_InboundRouting, get_InboundRouting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxServer::get_InboundRouting method
+# IFaxServer::get_InboundRouting
 
 
 ## -description

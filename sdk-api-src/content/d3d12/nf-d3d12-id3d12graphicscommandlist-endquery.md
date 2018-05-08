@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.EndQuery
-title: ID3D12GraphicsCommandList::EndQuery method
+title: ID3D12GraphicsCommandList::EndQuery
 author: windows-driver-content
 description: Ends a running query.
 old-location: direct3d12\id3d12graphicscommandlist_endquery.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 591B277C-44C7-4C21-86B1-239F6A71308D
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: EndQuery method, EndQuery method, ID3D12GraphicsCommandList interface, EndQuery,ID3D12GraphicsCommandList.EndQuery, ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, EndQuery method, ID3D12GraphicsCommandList::EndQuery, d3d12/ID3D12GraphicsCommandList::EndQuery, direct3d12.id3d12graphicscommandlist_endquery
+ms.keywords: EndQuery, EndQuery method, EndQuery method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,EndQuery method, ID3D12GraphicsCommandList.EndQuery, ID3D12GraphicsCommandList::EndQuery, d3d12/ID3D12GraphicsCommandList::EndQuery, direct3d12.id3d12graphicscommandlist_endquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::EndQuery method
+# ID3D12GraphicsCommandList::EndQuery
 
 
 ## -description

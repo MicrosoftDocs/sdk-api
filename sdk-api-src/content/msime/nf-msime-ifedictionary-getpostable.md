@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.GetPosTable
-title: IFEDictionary::GetPosTable method
+title: IFEDictionary::GetPosTable
 author: windows-driver-content
 description: Obtains the public POS (Part of Speech) table.
 old-location: intl\ifedictionary_getpostable.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 0453B37B-A73A-4CD8-AD09-49B9A65B9FD6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetPosTable method [Internationalization for Windows Applications], GetPosTable method [Internationalization for Windows Applications], IFEDictionary interface, GetPosTable,IFEDictionary.GetPosTable, IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], GetPosTable method, IFEDictionary::GetPosTable, intl.ifedictionary_getpostable, msime/IFEDictionary::GetPosTable
+ms.keywords: GetPosTable, GetPosTable method [Internationalization for Windows Applications], GetPosTable method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],GetPosTable method, IFEDictionary.GetPosTable, IFEDictionary::GetPosTable, intl.ifedictionary_getpostable, msime/IFEDictionary::GetPosTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFEDictionary::GetPosTable method
+# IFEDictionary::GetPosTable
 
 
 ## -description

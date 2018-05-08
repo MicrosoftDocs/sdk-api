@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderVariable.GetVertexShader
-title: ID3D10EffectShaderVariable::GetVertexShader method
+title: ID3D10EffectShaderVariable::GetVertexShader
 author: windows-driver-content
 description: Get a vertex shader.
 old-location: direct3d10\id3d10effectshadervariable_getvertexshader.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable_getvertexshader.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetVertexShader method [Direct3D 10], GetVertexShader method [Direct3D 10], ID3D10EffectShaderVariable interface, GetVertexShader,ID3D10EffectShaderVariable.GetVertexShader, ID3D10EffectShaderVariable, ID3D10EffectShaderVariable interface [Direct3D 10], GetVertexShader method, ID3D10EffectShaderVariable::GetVertexShader, d3d10effect/ID3D10EffectShaderVariable::GetVertexShader, d42282c4-3590-3201-8fd7-e13e4054fb34, direct3d10.id3d10effectshadervariable_getvertexshader
+ms.keywords: GetVertexShader, GetVertexShader method [Direct3D 10], GetVertexShader method [Direct3D 10],ID3D10EffectShaderVariable interface, ID3D10EffectShaderVariable interface [Direct3D 10],GetVertexShader method, ID3D10EffectShaderVariable.GetVertexShader, ID3D10EffectShaderVariable::GetVertexShader, d3d10effect/ID3D10EffectShaderVariable::GetVertexShader, d42282c4-3590-3201-8fd7-e13e4054fb34, direct3d10.id3d10effectshadervariable_getvertexshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectShaderVariable::GetVertexShader method
+# ID3D10EffectShaderVariable::GetVertexShader
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: f21619c5-5f59-4cc4-9f84-fa5f8a178d40
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCreatePropertyStore, ITfCreatePropertyStore interface [Text Services Framework], ITfCreatePropertyStore interface [Text Services Framework], described, _tsf_itfcreatepropertystore_ref, msctf/ITfCreatePropertyStore, tsf.itfcreatepropertystore
+ms.keywords: ITfCreatePropertyStore, ITfCreatePropertyStore interface [Text Services Framework], ITfCreatePropertyStore interface [Text Services Framework],described, _tsf_itfcreatepropertystore_ref, msctf/ITfCreatePropertyStore, tsf.itfcreatepropertystore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

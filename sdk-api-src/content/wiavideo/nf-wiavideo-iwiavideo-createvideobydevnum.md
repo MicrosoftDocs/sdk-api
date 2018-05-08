@@ -1,14 +1,14 @@
 ---
 UID: NF:wiavideo.IWiaVideo.CreateVideoByDevNum
-title: IWiaVideo::CreateVideoByDevNum method
+title: IWiaVideo::CreateVideoByDevNum
 author: windows-driver-content
 description: The IWiaVideo::CreateVideoByDevNum method creates a connection to a streaming video device with the device number obtained from a Directshow enumeration.
 old-location: wia\_wia_IWiaVideo_CreateVideoByDevNum.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobydevnum.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: CreateVideoByDevNum method [WIA], CreateVideoByDevNum method [WIA], IWiaVideo interface, CreateVideoByDevNum,IWiaVideo.CreateVideoByDevNum, IWiaVideo, IWiaVideo interface [WIA], CreateVideoByDevNum method, IWiaVideo::CreateVideoByDevNum, _wia_IWiaVideo_CreateVideoByDevNum, wia._wia_IWiaVideo_CreateVideoByDevNum, wiavideo/IWiaVideo::CreateVideoByDevNum
+ms.date: 5/3/2018
+ms.keywords: CreateVideoByDevNum, CreateVideoByDevNum method [WIA], CreateVideoByDevNum method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByDevNum method, IWiaVideo.CreateVideoByDevNum, IWiaVideo::CreateVideoByDevNum, _wia_IWiaVideo_CreateVideoByDevNum, wia._wia_IWiaVideo_CreateVideoByDevNum, wiavideo/IWiaVideo::CreateVideoByDevNum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaVideo::CreateVideoByDevNum method
+# IWiaVideo::CreateVideoByDevNum
 
 
 ## -description

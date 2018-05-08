@@ -7,7 +7,7 @@ old-location: wia\_wia_WIAVIDEO_STATE.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\enums\wiavideo_state.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/3/2018
 ms.keywords: WIAVIDEO_CREATING_VIDEO, WIAVIDEO_DESTROYING_VIDEO, WIAVIDEO_NO_VIDEO, WIAVIDEO_STATE, WIAVIDEO_STATE enumeration [WIA], WIAVIDEO_VIDEO_CREATED, WIAVIDEO_VIDEO_PAUSED, WIAVIDEO_VIDEO_PLAYING, __MIDL___MIDL_itf_wiavideo_xp_0000_0000_0001, _wia_WIAVIDEO_STATE, wia._wia_WIAVIDEO_STATE, wiavideo/WIAVIDEO_CREATING_VIDEO, wiavideo/WIAVIDEO_DESTROYING_VIDEO, wiavideo/WIAVIDEO_NO_VIDEO, wiavideo/WIAVIDEO_STATE, wiavideo/WIAVIDEO_VIDEO_CREATED, wiavideo/WIAVIDEO_VIDEO_PAUSED, wiavideo/WIAVIDEO_VIDEO_PLAYING
 ms.prod: windows-hardware
 ms.technology: windows-devices

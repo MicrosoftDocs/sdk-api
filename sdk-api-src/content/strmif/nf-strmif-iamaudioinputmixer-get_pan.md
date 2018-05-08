@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Pan
-title: IAMAudioInputMixer::get_Pan method
+title: IAMAudioInputMixer::get_Pan
 author: windows-driver-content
 description: The get_Pan method retrieves the pan level.
 old-location: dshow\iamaudioinputmixer_get_pan.htm
 old-project: DirectShow
 ms.assetid: aa1aae16-484e-4f78-901e-2fdb0d8e365c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], get_Pan method, IAMAudioInputMixer::get_Pan, IAMAudioInputMixerget_Pan, dshow.iamaudioinputmixer_get_pan, get_Pan method [DirectShow], get_Pan method [DirectShow], IAMAudioInputMixer interface, get_Pan,IAMAudioInputMixer.get_Pan, strmif/IAMAudioInputMixer::get_Pan
+ms.date: 4/30/2018
+ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Pan method, IAMAudioInputMixer.get_Pan, IAMAudioInputMixer::get_Pan, IAMAudioInputMixerget_Pan, dshow.iamaudioinputmixer_get_pan, get_Pan, get_Pan method [DirectShow], get_Pan method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Pan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAudioInputMixer::get_Pan method
+# IAMAudioInputMixer::get_Pan
 
 
 ## -description

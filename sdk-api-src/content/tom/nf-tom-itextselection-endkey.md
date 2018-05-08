@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextSelection.EndKey
-title: ITextSelection::EndKey method
+title: ITextSelection::EndKey
 author: windows-driver-content
 description: Mimics the functionality of the End key.
 old-location: controls\ITextSelection_EndKey.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endkey.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: EndKey method [Windows Controls], EndKey method [Windows Controls], ITextSelection interface, EndKey,ITextSelection.EndKey, ITextSelection, ITextSelection interface [Windows Controls], EndKey method, ITextSelection::EndKey, _win32_ITextSelection_EndKey, _win32_ITextSelection_EndKey_cpp, controls.ITextSelection_EndKey, controls._win32_ITextSelection_EndKey, tom/ITextSelection::EndKey, tomColumn, tomLine, tomRow, tomStory
+ms.date: 4/27/2018
+ms.keywords: EndKey, EndKey method [Windows Controls], EndKey method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],EndKey method, ITextSelection.EndKey, ITextSelection::EndKey, _win32_ITextSelection_EndKey, _win32_ITextSelection_EndKey_cpp, controls.ITextSelection_EndKey, controls._win32_ITextSelection_EndKey, tom/ITextSelection::EndKey, tomColumn, tomLine, tomRow, tomStory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextSelection::EndKey method
+# ITextSelection::EndKey
 
 
 ## -description

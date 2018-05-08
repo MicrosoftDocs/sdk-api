@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.GetFileSize
-title: ISimilarityTraitsMapping::GetFileSize method
+title: ISimilarityTraitsMapping::GetFileSize
 author: windows-driver-content
 description: Returns the size of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_getfilesize.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 920b9c77-ca45-42ff-801f-cbe1ab3eab2c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetFileSize method [Remote Differential Compression], GetFileSize method [Remote Differential Compression], ISimilarityTraitsMapping interface, GetFileSize,ISimilarityTraitsMapping.GetFileSize, ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], GetFileSize method, ISimilarityTraitsMapping::GetFileSize, fs.isimilaritytraitsmapping_getfilesize, msrdc/ISimilarityTraitsMapping::GetFileSize, rdc.isimilaritytraitsmapping_getfilesize
+ms.keywords: GetFileSize, GetFileSize method [Remote Differential Compression], GetFileSize method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],GetFileSize method, ISimilarityTraitsMapping.GetFileSize, ISimilarityTraitsMapping::GetFileSize, fs.isimilaritytraitsmapping_getfilesize, msrdc/ISimilarityTraitsMapping::GetFileSize, rdc.isimilaritytraitsmapping_getfilesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityTraitsMapping::GetFileSize method
+# ISimilarityTraitsMapping::GetFileSize
 
 
 ## -description

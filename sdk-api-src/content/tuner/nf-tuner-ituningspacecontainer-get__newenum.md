@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get__NewEnum
-title: ITuningSpaceContainer::get__NewEnum method
+title: ITuningSpaceContainer::get__NewEnum
 author: windows-driver-content
 description: The get__NewEnum method supports For...Each loops in Automation clients.
 old-location: mstv\ituningspacecontainer_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f2bcd80b-b36c-44b1-9a87-beda7ae12117
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], get__NewEnum method, ITuningSpaceContainer::get__NewEnum, ITuningSpaceContainerget__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies], ITuningSpaceContainer interface, get__NewEnum,ITuningSpaceContainer.get__NewEnum, mstv.ituningspacecontainer_get__newenum, tuner/ITuningSpaceContainer::get__NewEnum
+ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get__NewEnum method, ITuningSpaceContainer.get__NewEnum, ITuningSpaceContainer::get__NewEnum, ITuningSpaceContainerget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get__newenum, tuner/ITuningSpaceContainer::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpaceContainer::get__NewEnum method
+# ITuningSpaceContainer::get__NewEnum
 
 
 ## -description

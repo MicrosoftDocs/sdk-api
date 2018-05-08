@@ -7,7 +7,7 @@ old-location: security\bcrypt_dh_parameter_header.htm
 old-project: SecCNG
 ms.assetid: 5d023653-6197-4f08-8c71-e1d10f6b1860
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: BCRYPT_DH_PARAMETERS_MAGIC, BCRYPT_DH_PARAMETER_HEADER, BCRYPT_DH_PARAMETER_HEADER structure [Security], _BCRYPT_DH_PARAMETER_HEADER, bcrypt/BCRYPT_DH_PARAMETER_HEADER, security.bcrypt_dh_parameter_header
 ms.prod: windows-hardware
 ms.technology: windows-devices

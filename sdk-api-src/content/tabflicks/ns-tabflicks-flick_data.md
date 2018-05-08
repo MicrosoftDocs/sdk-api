@@ -7,7 +7,7 @@ old-location: tablet\flick_data.htm
 old-project: tablet
 ms.assetid: f83994ca-7ebe-42bc-bb54-f101a0a62e52
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/2/2018
 ms.keywords: FLICK_DATA, FLICK_DATA structure [Tablet PC], f83994ca-7ebe-42bc-bb54-f101a0a62e52, tabflicks/FLICK_DATA, tablet.flick_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

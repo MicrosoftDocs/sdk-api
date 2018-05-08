@@ -1,6 +1,6 @@
 ---
 UID: NF:evalcom2.IValidate.CloseDatabase
-title: IValidate::CloseDatabase method
+title: IValidate::CloseDatabase
 author: windows-driver-content
 description: The CloseDatabase method closes the currently open Windows Installer package or merge module. Windows Installer packages or merge modules can be opened by using the OpenDatabase method.
 old-location: setup\ivalidate_closedatabase.htm
@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: 7124f467-4efd-4e8b-9ce2-8463779f6fb9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CloseDatabase method, CloseDatabase method, IValidate interface, CloseDatabase,IValidate.CloseDatabase, IValidate, IValidate interface, CloseDatabase method, IValidate::CloseDatabase, evalcom2/IValidate::CloseDatabase, setup.ivalidate_closedatabase
+ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method,IValidate interface, IValidate interface,CloseDatabase method, IValidate.CloseDatabase, IValidate::CloseDatabase, evalcom2/IValidate::CloseDatabase, setup.ivalidate_closedatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IValidate::CloseDatabase method
+# IValidate::CloseDatabase
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSSetShaderResources
-title: ID3D10Device::PSSetShaderResources method
+title: ID3D10Device::PSSetShaderResources
 author: windows-driver-content
 description: Bind an array of shader resources to the pixel shader stage.
 old-location: direct3d10\id3d10device_pssetshaderresources.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_pssetshaderresources.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 5c6524cb-030c-fa99-f855-ac20599cb810, ID3D10Device, ID3D10Device interface [Direct3D 10], PSSetShaderResources method, ID3D10Device::PSSetShaderResources, PSSetShaderResources method [Direct3D 10], PSSetShaderResources method [Direct3D 10], ID3D10Device interface, PSSetShaderResources,ID3D10Device.PSSetShaderResources, d3d10/ID3D10Device::PSSetShaderResources, direct3d10.id3d10device_pssetshaderresources
+ms.keywords: 5c6524cb-030c-fa99-f855-ac20599cb810, ID3D10Device interface [Direct3D 10],PSSetShaderResources method, ID3D10Device.PSSetShaderResources, ID3D10Device::PSSetShaderResources, PSSetShaderResources, PSSetShaderResources method [Direct3D 10], PSSetShaderResources method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSSetShaderResources, direct3d10.id3d10device_pssetshaderresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::PSSetShaderResources method
+# ID3D10Device::PSSetShaderResources
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRoleDefinitions.get_Item
-title: IAzRoleDefinitions::get_Item method
+title: IAzRoleDefinitions::get_Item
 author: windows-driver-content
 description: Retrieves the IAzRoleDefinition object at the specified index in the IAzRoleDefinitions collection.
 old-location: security\iazroledefinitions_item.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: f132b254-4c8e-4313-b596-8d5c8cb047d8
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzRoleDefinitions, IAzRoleDefinitions interface [Security], Item property, IAzRoleDefinitions.Item, IAzRoleDefinitions::get_Item, Item property [Security], Item property [Security], IAzRoleDefinitions interface, azroles/IAzRoleDefinitions::Item, azroles/IAzRoleDefinitions::get_Item, get_Item,IAzRoleDefinitions.get_Item, security.iazroledefinitions_item
+ms.keywords: IAzRoleDefinitions interface [Security],Item property, IAzRoleDefinitions.Item, IAzRoleDefinitions.get_Item, IAzRoleDefinitions::Item, IAzRoleDefinitions::get_Item, Item property [Security], Item property [Security],IAzRoleDefinitions interface, azroles/IAzRoleDefinitions::Item, azroles/IAzRoleDefinitions::get_Item, get_Item, security.iazroledefinitions_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzRoleDefinitions::get_Item method
+# IAzRoleDefinitions::get_Item
 
 
 ## -description

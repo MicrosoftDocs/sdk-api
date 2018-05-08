@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon2.Logoff
-title: ISensLogon2::Logoff method
+title: ISensLogon2::Logoff
 author: windows-driver-content
 description: The Logoff method notifies an application that a user is logged off.
 old-location: sens\isenslogon2_logoff.htm
@@ -8,7 +8,7 @@ old-project: Sens
 ms.assetid: a366a9ca-ce3a-4800-90c6-e1ba53e4cb30
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISensLogon2, ISensLogon2 interface [SENS], Logoff method, ISensLogon2::Logoff, Logoff method [SENS], Logoff method [SENS], ISensLogon2 interface, Logoff,ISensLogon2.Logoff, _zaw_isenslogon2_logoff, sens.isenslogon2_logoff, sensevts/ISensLogon2::Logoff, syncmgr.isenslogon2_logoff
+ms.keywords: ISensLogon2 interface [SENS],Logoff method, ISensLogon2.Logoff, ISensLogon2::Logoff, Logoff, Logoff method [SENS], Logoff method [SENS],ISensLogon2 interface, _zaw_isenslogon2_logoff, sens.isenslogon2_logoff, sensevts/ISensLogon2::Logoff, syncmgr.isenslogon2_logoff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISensLogon2::Logoff method
+# ISensLogon2::Logoff
 
 
 ## -description

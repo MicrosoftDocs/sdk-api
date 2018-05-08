@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 53ff56a6-60ee-44a1-b18b-18f17efe2acd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsPostalAddress, IADsPostalAddress interface [ADSI], IADsPostalAddress interface [ADSI], described, _ds_iadspostaladdress, adsi.iadspostaladdress, iads/IADsPostalAddress
+ms.keywords: IADsPostalAddress, IADsPostalAddress interface [ADSI], IADsPostalAddress interface [ADSI],described, _ds_iadspostaladdress, adsi.iadspostaladdress, iads/IADsPostalAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

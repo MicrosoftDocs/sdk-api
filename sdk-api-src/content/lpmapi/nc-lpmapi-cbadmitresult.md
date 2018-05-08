@@ -8,7 +8,7 @@ old-project: QOS
 ms.assetid: 9040155b-6c6d-4deb-a63a-74e5fc8123ba
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: CBADMITRESULT, CBADMITRESULT callback function [QOS], DUP_RESULTS, INV_LPM_HANDLE, INV_REQ_HANDLE, INV_RESULTS, LPM_TIME_OUT, cbAdmitResult, cbAdmitResult callback function [QOS], lpmapi/cbAdmitResult, qos.cbadmitresult
+ms.keywords: CBADMITRESULT, CBADMITRESULT callback function [QOS], DUP_RESULTS, INV_LPM_HANDLE, INV_REQ_HANDLE, INV_RESULTS, LPM_TIME_OUT, cbAdmitResult, cbAdmitResult callback, cbAdmitResult callback function [QOS], lpmapi/cbAdmitResult, qos.cbadmitresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CBADMITRESULT callback
+# CBADMITRESULT callback function
 
 
 ## -description

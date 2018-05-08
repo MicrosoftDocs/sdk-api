@@ -7,7 +7,7 @@ old-location: netbios\netbios.htm
 old-project: NetBIOS
 ms.assetid: 3eadbfa7-53de-4c62-b61b-da84b9da58f7
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/2/2018
 ms.keywords: Netbios, Netbios function [NetBIOS], nb30/Netbios, netbios.netbios
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -38,8 +38,8 @@ api_name:
 -	PaletteType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
 req.product: GDI+ 1.1
 ---

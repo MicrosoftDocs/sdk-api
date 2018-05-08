@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.get_PublisherType
-title: IEventPublisher::get_PublisherType method
+title: IEventPublisher::get_PublisherType
 author: windows-driver-content
 description: The optional administrative group for the event publisher.
 old-location: com\ieventpublisher_publishertype.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: b92b9493-bfee-4898-9e58-0a1cf9b59ffa
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEventPublisher, IEventPublisher interface [COM], PublisherType property, IEventPublisher.PublisherType, IEventPublisher::get_PublisherType, IEventPublisher::put_PublisherType, PublisherType property [COM], PublisherType property [COM], IEventPublisher interface, _com_ieventpublisher_publishertype, com.ieventpublisher_publishertype, eventsys/IEventPublisher::PublisherType, eventsys/IEventPublisher::get_PublisherType, eventsys/IEventPublisher::put_PublisherType, get_PublisherType,IEventPublisher.get_PublisherType
+ms.keywords: IEventPublisher interface [COM],PublisherType property, IEventPublisher.PublisherType, IEventPublisher.get_PublisherType, IEventPublisher::PublisherType, IEventPublisher::get_PublisherType, IEventPublisher::put_PublisherType, PublisherType property [COM], PublisherType property [COM],IEventPublisher interface, _com_ieventpublisher_publishertype, com.ieventpublisher_publishertype, eventsys/IEventPublisher::PublisherType, eventsys/IEventPublisher::get_PublisherType, eventsys/IEventPublisher::put_PublisherType, get_PublisherType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventPublisher::get_PublisherType method
+# IEventPublisher::get_PublisherType
 
 
 ## -description

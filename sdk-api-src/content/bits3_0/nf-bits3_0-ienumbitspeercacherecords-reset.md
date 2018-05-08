@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.Reset
-title: IEnumBitsPeerCacheRecords::Reset method
+title: IEnumBitsPeerCacheRecords::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbitspeercacherecords_reset.htm
 old-project: Bits
 ms.assetid: d1e1dbdc-a90d-4ac8-8b52-8e4f914a81dd
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], Reset method, IEnumBitsPeerCacheRecords::Reset, Reset method [BITS], Reset method [BITS], IEnumBitsPeerCacheRecords interface, Reset,IEnumBitsPeerCacheRecords.Reset, bits.ienumbitspeercacherecords_reset, bits3_0/IEnumBitsPeerCacheRecords::Reset
+ms.date: 4/27/2018
+ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Reset method, IEnumBitsPeerCacheRecords.Reset, IEnumBitsPeerCacheRecords::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_reset, bits3_0/IEnumBitsPeerCacheRecords::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumBitsPeerCacheRecords::Reset method
+# IEnumBitsPeerCacheRecords::Reset
 
 
 ## -description

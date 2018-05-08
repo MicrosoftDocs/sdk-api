@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTopology.GetTopologyID
-title: IMFTopology::GetTopologyID method
+title: IMFTopology::GetTopologyID
 author: windows-driver-content
 description: Gets the identifier of the topology.
 old-location: mf\imftopology_gettopologyid.htm
 old-project: medfound
 ms.assetid: f7d33d20-1b58-4b88-9a98-1004a5c42dfa
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTopologyID method [Media Foundation], GetTopologyID method [Media Foundation], IMFTopology interface, GetTopologyID,IMFTopology.GetTopologyID, IMFTopology, IMFTopology interface [Media Foundation], GetTopologyID method, IMFTopology::GetTopologyID, f7d33d20-1b58-4b88-9a98-1004a5c42dfa, mf.imftopology_gettopologyid, mfidl/IMFTopology::GetTopologyID
+ms.date: 5/3/2018
+ms.keywords: GetTopologyID, GetTopologyID method [Media Foundation], GetTopologyID method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetTopologyID method, IMFTopology.GetTopologyID, IMFTopology::GetTopologyID, f7d33d20-1b58-4b88-9a98-1004a5c42dfa, mf.imftopology_gettopologyid, mfidl/IMFTopology::GetTopologyID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTopology::GetTopologyID method
+# IMFTopology::GetTopologyID
 
 
 ## -description

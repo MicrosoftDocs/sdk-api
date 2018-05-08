@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: db100f17-f7b8-4252-8090-44567ab9dcbe
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IDvbExtendedEventDescriptor, mstv.idvbextendedeventdescriptor
+ms.keywords: IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbExtendedEventDescriptor, mstv.idvbextendedeventdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

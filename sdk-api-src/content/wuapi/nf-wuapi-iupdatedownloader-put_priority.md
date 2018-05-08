@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.put_Priority
-title: IUpdateDownloader::put_Priority method
+title: IUpdateDownloader::put_Priority
 author: windows-driver-content
 description: Gets and sets the priority level of the download.
 old-location: wua\iupdatedownloader_priority.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: d9dbaabe-7769-4a1b-8540-401b1caba372
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateDownloader, IUpdateDownloader interface [Windows Update Agent], Priority property, IUpdateDownloader.Priority, IUpdateDownloader::get_Priority, IUpdateDownloader::put_Priority, Priority property [Windows Update Agent], Priority property [Windows Update Agent], IUpdateDownloader interface, put_Priority,IUpdateDownloader.put_Priority, wua.iupdatedownloader_priority, wuapi/IUpdateDownloader::Priority, wuapi/IUpdateDownloader::get_Priority, wuapi/IUpdateDownloader::put_Priority
+ms.keywords: IUpdateDownloader interface [Windows Update Agent],Priority property, IUpdateDownloader.Priority, IUpdateDownloader.put_Priority, IUpdateDownloader::Priority, IUpdateDownloader::get_Priority, IUpdateDownloader::put_Priority, Priority property [Windows Update Agent], Priority property [Windows Update Agent],IUpdateDownloader interface, put_Priority, wua.iupdatedownloader_priority, wuapi/IUpdateDownloader::Priority, wuapi/IUpdateDownloader::get_Priority, wuapi/IUpdateDownloader::put_Priority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateDownloader::put_Priority method
+# IUpdateDownloader::put_Priority
 
 
 ## -description

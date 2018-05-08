@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IResultsFolder.AddItem
-title: IResultsFolder::AddItem method
+title: IResultsFolder::AddItem
 author: windows-driver-content
 description: Adds an item to a results folder.
 old-location: shell\IResultsFolder_AddItem.htm
 old-project: shell
 ms.assetid: 005f7125-8dc2-4d9c-a860-1bb56b4d0b63
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AddItem method [Windows Shell], AddItem method [Windows Shell], IResultsFolder interface, AddItem,IResultsFolder.AddItem, IResultsFolder, IResultsFolder interface [Windows Shell], AddItem method, IResultsFolder::AddItem, _shell_IResultsFolder_AddItem, shell.IResultsFolder_AddItem, shobjidl/IResultsFolder::AddItem
+ms.date: 5/3/2018
+ms.keywords: AddItem, AddItem method [Windows Shell], AddItem method [Windows Shell],IResultsFolder interface, IResultsFolder interface [Windows Shell],AddItem method, IResultsFolder.AddItem, IResultsFolder::AddItem, _shell_IResultsFolder_AddItem, shell.IResultsFolder_AddItem, shobjidl/IResultsFolder::AddItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IResultsFolder::AddItem method
+# IResultsFolder::AddItem
 
 
 ## -description

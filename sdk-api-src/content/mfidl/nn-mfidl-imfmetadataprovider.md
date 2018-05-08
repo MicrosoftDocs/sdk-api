@@ -7,8 +7,8 @@ old-location: mf\imfmetadataprovider.htm
 old-project: medfound
 ms.assetid: f32e78c9-a567-448d-947d-d7ea996bba5e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMetadataProvider, IMFMetadataProvider interface [Media Foundation], IMFMetadataProvider interface [Media Foundation], described, f32e78c9-a567-448d-947d-d7ea996bba5e, mf.imfmetadataprovider, mfidl/IMFMetadataProvider
+ms.date: 5/3/2018
+ms.keywords: IMFMetadataProvider, IMFMetadataProvider interface [Media Foundation], IMFMetadataProvider interface [Media Foundation],described, f32e78c9-a567-448d-947d-d7ea996bba5e, mf.imfmetadataprovider, mfidl/IMFMetadataProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

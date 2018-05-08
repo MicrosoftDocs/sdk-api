@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 1b6b2c02-f3b5-4a8a-9388-b3833cd0cd44
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccessibleHandler, IAccessibleHandler interface [Windows Accessibility], IAccessibleHandler interface [Windows Accessibility], described, msaa.iaccessiblehandler, oleacc/IAccessibleHandler, winauto.iaccessiblehandler
+ms.keywords: IAccessibleHandler, IAccessibleHandler interface [Windows Accessibility], IAccessibleHandler interface [Windows Accessibility],described, msaa.iaccessiblehandler, oleacc/IAccessibleHandler, winauto.iaccessiblehandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

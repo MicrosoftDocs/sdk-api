@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Validate
-title: INetDiagHelper::Validate method
+title: INetDiagHelper::Validate
 author: windows-driver-content
 description: Called by NDF after a repair is successfully completed.
 old-location: ndf\inetdiaghelpe_validate.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 2faab163-5684-4b10-b62d-7e22d5b789a8
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: INetDiagHelper, INetDiagHelper interface [NDF], Validate method, INetDiagHelper::Validate, Validate method [NDF], Validate method [NDF], INetDiagHelper interface, Validate,INetDiagHelper.Validate, ndf.inetdiaghelpe_validate, ndhelper/INetDiagHelper::Validate
+ms.keywords: INetDiagHelper interface [NDF],Validate method, INetDiagHelper.Validate, INetDiagHelper::Validate, Validate, Validate method [NDF], Validate method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_validate, ndhelper/INetDiagHelper::Validate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::Validate method
+# INetDiagHelper::Validate
 
 
 ## -description

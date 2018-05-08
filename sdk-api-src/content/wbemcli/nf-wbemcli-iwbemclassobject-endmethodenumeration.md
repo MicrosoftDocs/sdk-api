@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.EndMethodEnumeration
-title: IWbemClassObject::EndMethodEnumeration method
+title: IWbemClassObject::EndMethodEnumeration
 author: windows-driver-content
 description: The IWbemClassObject::EndMethodEnumeration method is used to terminate a method enumeration sequence started with IWbemClassObject::BeginMethodEnumeration.
 old-location: wmi\iwbemclassobject_endmethodenumeration.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 7a6de467-65f7-4873-a2dd-9c52c138b1d2
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: EndMethodEnumeration method [Windows Management Instrumentation], EndMethodEnumeration method [Windows Management Instrumentation], IWbemClassObject interface, EndMethodEnumeration,IWbemClassObject.EndMethodEnumeration, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], EndMethodEnumeration method, IWbemClassObject::EndMethodEnumeration, _hmm_iwbemclassobject_endmethodenumeration, wbemcli/IWbemClassObject::EndMethodEnumeration, wmi.iwbemclassobject_endmethodenumeration
+ms.keywords: EndMethodEnumeration, EndMethodEnumeration method [Windows Management Instrumentation], EndMethodEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],EndMethodEnumeration method, IWbemClassObject.EndMethodEnumeration, IWbemClassObject::EndMethodEnumeration, _hmm_iwbemclassobject_endmethodenumeration, wbemcli/IWbemClassObject::EndMethodEnumeration, wmi.iwbemclassobject_endmethodenumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -53,7 +53,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemClassObject::EndMethodEnumeration method
+# IWbemClassObject::EndMethodEnumeration
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_FileSystemsToCreate
-title: IFileSystemImage::get_FileSystemsToCreate method
+title: IFileSystemImage::get_FileSystemsToCreate
 author: windows-driver-content
 description: Retrieves the types of file systems to create when generating the result stream.
 old-location: imapi\ifilesystemimage_get_filesystemstocreate.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 7350de0b-683a-4363-9233-dbe40f637f2d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_FileSystemsToCreate method, IFileSystemImage::get_FileSystemsToCreate, get_FileSystemsToCreate method [IMAPI], get_FileSystemsToCreate method [IMAPI], IFileSystemImage interface, get_FileSystemsToCreate,IFileSystemImage.get_FileSystemsToCreate, imapi.ifilesystemimage_get_filesystemstocreate, imapi2fs/IFileSystemImage::get_FileSystemsToCreate
+ms.keywords: IFileSystemImage interface [IMAPI],get_FileSystemsToCreate method, IFileSystemImage.get_FileSystemsToCreate, IFileSystemImage::get_FileSystemsToCreate, get_FileSystemsToCreate, get_FileSystemsToCreate method [IMAPI], get_FileSystemsToCreate method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_filesystemstocreate, imapi2fs/IFileSystemImage::get_FileSystemsToCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::get_FileSystemsToCreate method
+# IFileSystemImage::get_FileSystemsToCreate
 
 
 ## -description

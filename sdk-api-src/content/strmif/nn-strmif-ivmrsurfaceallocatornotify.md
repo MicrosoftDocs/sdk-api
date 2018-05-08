@@ -7,8 +7,8 @@ old-location: dshow\ivmrsurfaceallocatornotify.htm
 old-project: DirectShow
 ms.assetid: c590c4cb-43ba-41c2-ab1f-28f7aeee0c87
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], IVMRSurfaceAllocatorNotify interface [DirectShow], described, IVMRSurfaceAllocatorNotifyInterface, dshow.ivmrsurfaceallocatornotify, strmif/IVMRSurfaceAllocatorNotify
+ms.date: 4/30/2018
+ms.keywords: IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], IVMRSurfaceAllocatorNotify interface [DirectShow],described, IVMRSurfaceAllocatorNotifyInterface, dshow.ivmrsurfaceallocatornotify, strmif/IVMRSurfaceAllocatorNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

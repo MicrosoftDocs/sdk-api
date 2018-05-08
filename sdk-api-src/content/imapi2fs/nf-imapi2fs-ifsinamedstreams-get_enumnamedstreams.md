@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiNamedStreams.get_EnumNamedStreams
-title: IFsiNamedStreams::get_EnumNamedStreams method
+title: IFsiNamedStreams::get_EnumNamedStreams
 author: windows-driver-content
 description: Creates a non-variant enumerator for the collection of the named streams associated with a file in the file system image.
 old-location: imapi\ifsinamedstreams_get_enumnamedstreams.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 99691d12-bff6-4d75-b9ef-bd92f8198ae2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiNamedStreams, IFsiNamedStreams interface [IMAPI], get_EnumNamedStreams method, IFsiNamedStreams::get_EnumNamedStreams, get_EnumNamedStreams method [IMAPI], get_EnumNamedStreams method [IMAPI], IFsiNamedStreams interface, get_EnumNamedStreams,IFsiNamedStreams.get_EnumNamedStreams, imapi.ifsinamedstreams_get_enumnamedstreams, imapi2fs/IFsiNamedStreams::get_EnumNamedStreams
+ms.keywords: IFsiNamedStreams interface [IMAPI],get_EnumNamedStreams method, IFsiNamedStreams.get_EnumNamedStreams, IFsiNamedStreams::get_EnumNamedStreams, get_EnumNamedStreams, get_EnumNamedStreams method [IMAPI], get_EnumNamedStreams method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_enumnamedstreams, imapi2fs/IFsiNamedStreams::get_EnumNamedStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiNamedStreams::get_EnumNamedStreams method
+# IFsiNamedStreams::get_EnumNamedStreams
 
 
 ## -description

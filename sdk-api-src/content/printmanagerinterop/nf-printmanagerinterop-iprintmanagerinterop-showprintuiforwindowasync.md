@@ -1,14 +1,14 @@
 ---
 UID: NF:printmanagerinterop.IPrintManagerInterop.ShowPrintUIForWindowAsync
-title: IPrintManagerInterop::ShowPrintUIForWindowAsync method
+title: IPrintManagerInterop::ShowPrintUIForWindowAsync
 author: windows-driver-content
 description: Displays the UI for printing content for the specified window.
 old-location: winrt\iprintmanagerinterop_showprintuiforwindowasync.htm
 old-project: WinRT
 ms.assetid: 2414279e-e1ef-48c7-87a1-a09ad367aec4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IPrintManagerInterop, IPrintManagerInterop interface [Windows Runtime], ShowPrintUIForWindowAsync method, IPrintManagerInterop::ShowPrintUIForWindowAsync, ShowPrintUIForWindowAsync method [Windows Runtime], ShowPrintUIForWindowAsync method [Windows Runtime], IPrintManagerInterop interface, ShowPrintUIForWindowAsync,IPrintManagerInterop.ShowPrintUIForWindowAsync, printmanagerinterop/IPrintManagerInterop::ShowPrintUIForWindowAsync, winrt.iprintmanagerinterop_showprintuiforwindowasync
+ms.date: 5/4/2018
+ms.keywords: IPrintManagerInterop interface [Windows Runtime],ShowPrintUIForWindowAsync method, IPrintManagerInterop.ShowPrintUIForWindowAsync, IPrintManagerInterop::ShowPrintUIForWindowAsync, ShowPrintUIForWindowAsync, ShowPrintUIForWindowAsync method [Windows Runtime], ShowPrintUIForWindowAsync method [Windows Runtime],IPrintManagerInterop interface, printmanagerinterop/IPrintManagerInterop::ShowPrintUIForWindowAsync, winrt.iprintmanagerinterop_showprintuiforwindowasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPrintManagerInterop::ShowPrintUIForWindowAsync method
+# IPrintManagerInterop::ShowPrintUIForWindowAsync
 
 
 ## -description

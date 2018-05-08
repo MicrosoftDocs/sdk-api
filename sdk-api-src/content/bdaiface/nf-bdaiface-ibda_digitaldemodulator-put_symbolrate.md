@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_SymbolRate
-title: IBDA_DigitalDemodulator::put_SymbolRate method
+title: IBDA_DigitalDemodulator::put_SymbolRate
 author: windows-driver-content
 description: The put_SymbolRate method specifies the symbol rate for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_symbolrate.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ec37e7a5-d2e8-468a-8b5b-d1a1fa538bfe
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DigitalDemodulator, IBDA_DigitalDemodulator interface [Microsoft TV Technologies], put_SymbolRate method, IBDA_DigitalDemodulator::put_SymbolRate, IBDA_DigitalDemodulatorput_SymbolRate, bdaiface/IBDA_DigitalDemodulator::put_SymbolRate, mstv.ibda_digitaldemodulator_put_symbolrate, put_SymbolRate method [Microsoft TV Technologies], put_SymbolRate method [Microsoft TV Technologies], IBDA_DigitalDemodulator interface, put_SymbolRate,IBDA_DigitalDemodulator.put_SymbolRate
+ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_SymbolRate method, IBDA_DigitalDemodulator.put_SymbolRate, IBDA_DigitalDemodulator::put_SymbolRate, IBDA_DigitalDemodulatorput_SymbolRate, bdaiface/IBDA_DigitalDemodulator::put_SymbolRate, mstv.ibda_digitaldemodulator_put_symbolrate, put_SymbolRate, put_SymbolRate method [Microsoft TV Technologies], put_SymbolRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DigitalDemodulator::put_SymbolRate method
+# IBDA_DigitalDemodulator::put_SymbolRate
 
 
 ## -description

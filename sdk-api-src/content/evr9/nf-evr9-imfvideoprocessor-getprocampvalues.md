@@ -1,14 +1,14 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetProcAmpValues
-title: IMFVideoProcessor::GetProcAmpValues method
+title: IMFVideoProcessor::GetProcAmpValues
 author: windows-driver-content
 description: Retrieves the current settings for one or more color adjustment (ProcAmp) settings.
 old-location: mf\imfvideoprocessor_getprocampvalues.htm
 old-project: medfound
 ms.assetid: d1d6f6a4-fe3b-4acf-a004-d02ece41a302
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetProcAmpValues method [Media Foundation], GetProcAmpValues method [Media Foundation], IMFVideoProcessor interface, GetProcAmpValues,IMFVideoProcessor.GetProcAmpValues, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], GetProcAmpValues method, IMFVideoProcessor::GetProcAmpValues, d1d6f6a4-fe3b-4acf-a004-d02ece41a302, evr9/IMFVideoProcessor::GetProcAmpValues, mf.imfvideoprocessor_getprocampvalues
+ms.date: 5/3/2018
+ms.keywords: GetProcAmpValues, GetProcAmpValues method [Media Foundation], GetProcAmpValues method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetProcAmpValues method, IMFVideoProcessor.GetProcAmpValues, IMFVideoProcessor::GetProcAmpValues, d1d6f6a4-fe3b-4acf-a004-d02ece41a302, evr9/IMFVideoProcessor::GetProcAmpValues, mf.imfvideoprocessor_getprocampvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoProcessor::GetProcAmpValues method
+# IMFVideoProcessor::GetProcAmpValues
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCore.launchURL
-title: IWMPCore::launchURL method
+title: IWMPCore::launchURL
 author: windows-driver-content
 description: The launchURL method sends a URL to the user's default browser.
 old-location: wmp\iwmpcore_launchurl.htm
 old-project: WMP
 ms.assetid: 439bb4a7-801a-4bef-b791-b8a9cb24ab34
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], launchURL method, IWMPCore::launchURL, IWMPCorelaunchURL, launchURL method [Windows Media Player], launchURL method [Windows Media Player], IWMPCore interface, launchURL,IWMPCore.launchURL, wmp.iwmpcore_launchurl, wmp/IWMPCore::launchURL
+ms.date: 5/4/2018
+ms.keywords: IWMPCore interface [Windows Media Player],launchURL method, IWMPCore.launchURL, IWMPCore::launchURL, IWMPCorelaunchURL, launchURL, launchURL method [Windows Media Player], launchURL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_launchurl, wmp/IWMPCore::launchURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCore::launchURL method
+# IWMPCore::launchURL
 
 
 ## -description

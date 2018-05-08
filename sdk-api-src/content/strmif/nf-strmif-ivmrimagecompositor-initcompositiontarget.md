@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.InitCompositionTarget
-title: IVMRImageCompositor::InitCompositionTarget method
+title: IVMRImageCompositor::InitCompositionTarget
 author: windows-driver-content
 description: The InitCompositionTarget method informs the compositor that a new composition target has been created.
 old-location: dshow\ivmrimagecompositor_initcompositiontarget.htm
 old-project: DirectShow
 ms.assetid: 16d54090-a0fa-480f-ba94-a15aa08d4576
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRImageCompositor, IVMRImageCompositor interface [DirectShow], InitCompositionTarget method, IVMRImageCompositor::InitCompositionTarget, IVMRImageCompositorInitCompositionTarget, InitCompositionTarget method [DirectShow], InitCompositionTarget method [DirectShow], IVMRImageCompositor interface, InitCompositionTarget,IVMRImageCompositor.InitCompositionTarget, dshow.ivmrimagecompositor_initcompositiontarget, strmif/IVMRImageCompositor::InitCompositionTarget
+ms.date: 4/30/2018
+ms.keywords: IVMRImageCompositor interface [DirectShow],InitCompositionTarget method, IVMRImageCompositor.InitCompositionTarget, IVMRImageCompositor::InitCompositionTarget, IVMRImageCompositorInitCompositionTarget, InitCompositionTarget, InitCompositionTarget method [DirectShow], InitCompositionTarget method [DirectShow],IVMRImageCompositor interface, dshow.ivmrimagecompositor_initcompositiontarget, strmif/IVMRImageCompositor::InitCompositionTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRImageCompositor::InitCompositionTarget method
+# IVMRImageCompositor::InitCompositionTarget
 
 
 ## -description

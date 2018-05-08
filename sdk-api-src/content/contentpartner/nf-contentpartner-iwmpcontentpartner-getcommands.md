@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetCommands
-title: IWMPContentPartner::GetCommands method
+title: IWMPContentPartner::GetCommands
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetCommands method retrieves context menu commands.
 old-location: wmp\iwmpcontentpartner_getcommands.htm
 old-project: WMP
 ms.assetid: bc6dfd97-50bb-438c-9cd6-3eac91e99cab
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetCommands method [Windows Media Player], GetCommands method [Windows Media Player], IWMPContentPartner interface, GetCommands,IWMPContentPartner.GetCommands, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], GetCommands method, IWMPContentPartner::GetCommands, IWMPContentPartnerGetCommands, contentpartner/IWMPContentPartner::GetCommands, wmp.iwmpcontentpartner_getcommands
+ms.date: 5/4/2018
+ms.keywords: GetCommands, GetCommands method [Windows Media Player], GetCommands method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetCommands method, IWMPContentPartner.GetCommands, IWMPContentPartner::GetCommands, IWMPContentPartnerGetCommands, contentpartner/IWMPContentPartner::GetCommands, wmp.iwmpcontentpartner_getcommands
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::GetCommands method
+# IWMPContentPartner::GetCommands
 
 
 ## -description

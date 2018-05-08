@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IAMStats.GetIndex
-title: IAMStats::GetIndex method
+title: IAMStats::GetIndex
 author: windows-driver-content
 description: The GetIndex method retrieves the index for a named statistic, or creates a new statistic.
 old-location: dshow\iamstats_getindex.htm
 old-project: DirectShow
 ms.assetid: a5ea650c-42dd-405c-8ad9-6e48cf51353d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetIndex method [DirectShow], GetIndex method [DirectShow], IAMStats interface, GetIndex,IAMStats.GetIndex, IAMStats, IAMStats interface [DirectShow], GetIndex method, IAMStats::GetIndex, IAMStatsGetIndex, control/IAMStats::GetIndex, dshow.iamstats_getindex
+ms.date: 4/30/2018
+ms.keywords: GetIndex, GetIndex method [DirectShow], GetIndex method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetIndex method, IAMStats.GetIndex, IAMStats::GetIndex, IAMStatsGetIndex, control/IAMStats::GetIndex, dshow.iamstats_getindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMStats::GetIndex method
+# IAMStats::GetIndex
 
 
 ## -description

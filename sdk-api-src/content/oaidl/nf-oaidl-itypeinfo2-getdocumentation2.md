@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetDocumentation2
-title: ITypeInfo2::GetDocumentation2 method
+title: ITypeInfo2::GetDocumentation2
 author: windows-driver-content
 description: Retrieves the documentation string, the complete Help file name and path, the localization context to use, and the context ID for the library Help topic in the Help file.
 old-location: automat\itypeinfo2_getdocumentation2.htm
 old-project: automat
 ms.assetid: 9f81cb34-5f4e-4637-9776-e7c5353349b7
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetDocumentation2 method [Automation], GetDocumentation2 method [Automation], ITypeInfo2 interface, GetDocumentation2,ITypeInfo2.GetDocumentation2, ITypeInfo2, ITypeInfo2 interface [Automation], GetDocumentation2 method, ITypeInfo2::GetDocumentation2, _oa96_ITypeInfo2_GetDocumentation2, automat.itypeinfo2_getdocumentation2, oaidl/ITypeInfo2::GetDocumentation2
+ms.date: 5/4/2018
+ms.keywords: GetDocumentation2, GetDocumentation2 method [Automation], GetDocumentation2 method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetDocumentation2 method, ITypeInfo2.GetDocumentation2, ITypeInfo2::GetDocumentation2, _oa96_ITypeInfo2_GetDocumentation2, automat.itypeinfo2_getdocumentation2, oaidl/ITypeInfo2::GetDocumentation2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo2::GetDocumentation2 method
+# ITypeInfo2::GetDocumentation2
 
 
 ## -description

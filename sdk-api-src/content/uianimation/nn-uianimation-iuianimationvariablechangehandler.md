@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 2288b256-aaf4-44fe-9ad1-f05ef7b0e30b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationVariableChangeHandler, IUIAnimationVariableChangeHandler interface [Windows Animation], IUIAnimationVariableChangeHandler interface [Windows Animation], described, uianimation.iuianimationvariablechangehandler, uianimation/IUIAnimationVariableChangeHandler
+ms.keywords: IUIAnimationVariableChangeHandler, IUIAnimationVariableChangeHandler interface [Windows Animation], IUIAnimationVariableChangeHandler interface [Windows Animation],described, uianimation.iuianimationvariablechangehandler, uianimation/IUIAnimationVariableChangeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

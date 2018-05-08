@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 99ece4f3-1bad-46b8-94a9-6ef559864b1c
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 3c2c6548-026c-d082-91b7-abb986ff3a00, IDXGISurface1, IDXGISurface1 interface [DXGI], IDXGISurface1 interface [DXGI], described, direct3ddxgi.idxgisurface1, dxgi/IDXGISurface1
+ms.keywords: 3c2c6548-026c-d082-91b7-abb986ff3a00, IDXGISurface1, IDXGISurface1 interface [DXGI], IDXGISurface1 interface [DXGI],described, direct3ddxgi.idxgisurface1, dxgi/IDXGISurface1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

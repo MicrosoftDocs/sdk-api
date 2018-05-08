@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.SetControllerStatus
-title: IVdsSubSystem::SetControllerStatus method
+title: IVdsSubSystem::SetControllerStatus
 author: windows-driver-content
 description: Sets the status (either online or offline) of the controllers in the subsystem.
 old-location: base\ivdssubsystem_setcontrollerstatus.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 080a48a5-1c25-440a-ad3c-528cdaef40e9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsSubSystem, IVdsSubSystem interface [VDS], SetControllerStatus method, IVdsSubSystem::SetControllerStatus, SetControllerStatus method [VDS], SetControllerStatus method [VDS], IVdsSubSystem interface, SetControllerStatus,IVdsSubSystem.SetControllerStatus, base.ivdssubsystem_setcontrollerstatus, vds/IVdsSubSystem::SetControllerStatus, vdshwprv/IVdsSubSystem::SetControllerStatus
+ms.keywords: IVdsSubSystem interface [VDS],SetControllerStatus method, IVdsSubSystem.SetControllerStatus, IVdsSubSystem::SetControllerStatus, SetControllerStatus, SetControllerStatus method [VDS], SetControllerStatus method [VDS],IVdsSubSystem interface, base.ivdssubsystem_setcontrollerstatus, vds/IVdsSubSystem::SetControllerStatus, vdshwprv/IVdsSubSystem::SetControllerStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsSubSystem::SetControllerStatus method
+# IVdsSubSystem::SetControllerStatus
 
 
 ## -description

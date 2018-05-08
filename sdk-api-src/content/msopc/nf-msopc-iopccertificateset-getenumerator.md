@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcCertificateSet.GetEnumerator
-title: IOpcCertificateSet::GetEnumerator method
+title: IOpcCertificateSet::GetEnumerator
 author: windows-driver-content
 description: Gets an enumerator of certificates in the set.
 old-location: opc\iopccertificateset_getenumerator.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: a48b9225-07cb-4367-b011-dc2297c2c4b3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions], IOpcCertificateSet interface, GetEnumerator,IOpcCertificateSet.GetEnumerator, IOpcCertificateSet, IOpcCertificateSet interface [Open Packaging Conventions], GetEnumerator method, IOpcCertificateSet::GetEnumerator, msopc/IOpcCertificateSet::GetEnumerator, opc.iopccertificateset_getenumerator
+ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcCertificateSet interface, IOpcCertificateSet interface [Open Packaging Conventions],GetEnumerator method, IOpcCertificateSet.GetEnumerator, IOpcCertificateSet::GetEnumerator, msopc/IOpcCertificateSet::GetEnumerator, opc.iopccertificateset_getenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcCertificateSet::GetEnumerator method
+# IOpcCertificateSet::GetEnumerator
 
 
 ## -description

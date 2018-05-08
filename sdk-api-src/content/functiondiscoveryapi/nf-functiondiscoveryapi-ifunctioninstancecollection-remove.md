@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Remove
-title: IFunctionInstanceCollection::Remove method
+title: IFunctionInstanceCollection::Remove
 author: windows-driver-content
 description: Deletes the specified function instance and returns a pointer to the function instance being removed.
 old-location: ncd\ifunctioninstancecollection_remove.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: e5abe3e0-a07c-45e4-a590-133f6b30a7f7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFunctionInstanceCollection, IFunctionInstanceCollection interface, Remove method, IFunctionInstanceCollection::Remove, Remove method, Remove method, IFunctionInstanceCollection interface, Remove,IFunctionInstanceCollection.Remove, functiondiscoveryapi/IFunctionInstanceCollection::Remove, ncd.ifunctioninstancecollection_remove
+ms.keywords: IFunctionInstanceCollection interface,Remove method, IFunctionInstanceCollection.Remove, IFunctionInstanceCollection::Remove, Remove, Remove method, Remove method,IFunctionInstanceCollection interface, functiondiscoveryapi/IFunctionInstanceCollection::Remove, ncd.ifunctioninstancecollection_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionInstanceCollection::Remove method
+# IFunctionInstanceCollection::Remove
 
 
 ## -description

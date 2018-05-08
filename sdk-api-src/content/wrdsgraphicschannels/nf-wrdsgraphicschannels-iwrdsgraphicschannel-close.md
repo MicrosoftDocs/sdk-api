@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannel.Close
-title: IWRdsGraphicsChannel::Close method
+title: IWRdsGraphicsChannel::Close
 author: windows-driver-content
 description: Called to close the channel.
 old-location: termserv\iwrdsgraphicschannel_close.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 6e3fb05d-0f5b-4ac3-b121-e6a1662c6ea2
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Close method [Remote Desktop Services], Close method [Remote Desktop Services], IWRdsGraphicsChannel interface, Close,IWRdsGraphicsChannel.Close, IWRdsGraphicsChannel, IWRdsGraphicsChannel interface [Remote Desktop Services], Close method, IWRdsGraphicsChannel::Close, termserv.iwrdsgraphicschannel_close, wrdsgraphicschannels/IWRdsGraphicsChannel::Close
+ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWRdsGraphicsChannel interface, IWRdsGraphicsChannel interface [Remote Desktop Services],Close method, IWRdsGraphicsChannel.Close, IWRdsGraphicsChannel::Close, termserv.iwrdsgraphicschannel_close, wrdsgraphicschannels/IWRdsGraphicsChannel::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsGraphicsChannel::Close method
+# IWRdsGraphicsChannel::Close
 
 
 ## -description

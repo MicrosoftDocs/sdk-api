@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.GetDescriptor
-title: ITocEntry::GetDescriptor method
+title: ITocEntry::GetDescriptor
 author: windows-driver-content
 description: The GetDescriptor method retrieves the descriptor, previously set by a call to SetDescriptor, of the entry.
 old-location: mf\itocentry_getdescriptor.htm
 old-project: medfound
 ms.assetid: bb685d4c-c5ec-413f-b279-25216b2bcee8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDescriptor method [Media Foundation], GetDescriptor method [Media Foundation], ITocEntry interface, GetDescriptor,ITocEntry.GetDescriptor, ITocEntry, ITocEntry interface [Media Foundation], GetDescriptor method, ITocEntry::GetDescriptor, codecapi.itocentry_getdescriptor, mf.itocentry_getdescriptor, wmcodecdsp/ITocEntry::GetDescriptor
+ms.date: 5/3/2018
+ms.keywords: GetDescriptor, GetDescriptor method [Media Foundation], GetDescriptor method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetDescriptor method, ITocEntry.GetDescriptor, ITocEntry::GetDescriptor, codecapi.itocentry_getdescriptor, mf.itocentry_getdescriptor, wmcodecdsp/ITocEntry::GetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocEntry::GetDescriptor method
+# ITocEntry::GetDescriptor
 
 
 ## -description

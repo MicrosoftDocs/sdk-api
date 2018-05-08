@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorAdapter.QueryInitiatorPortals
-title: IVdsIscsiInitiatorAdapter::QueryInitiatorPortals method
+title: IVdsIscsiInitiatorAdapter::QueryInitiatorPortals
 author: windows-driver-content
 description: Returns an object that enumerates the iSCSI initiator portals of the initiator adapter.
 old-location: base\ivdsiscsiinitiatoradapter_queryinitiatorportals.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: d3c893c0-167f-46f5-92f8-aa61f5e16542
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsIscsiInitiatorAdapter, IVdsIscsiInitiatorAdapter interface [VDS], QueryInitiatorPortals method, IVdsIscsiInitiatorAdapter::QueryInitiatorPortals, QueryInitiatorPortals method [VDS], QueryInitiatorPortals method [VDS], IVdsIscsiInitiatorAdapter interface, QueryInitiatorPortals,IVdsIscsiInitiatorAdapter.QueryInitiatorPortals, base.ivdsiscsiinitiatoradapter_queryinitiatorportals, vds/IVdsIscsiInitiatorAdapter::QueryInitiatorPortals
+ms.keywords: IVdsIscsiInitiatorAdapter interface [VDS],QueryInitiatorPortals method, IVdsIscsiInitiatorAdapter.QueryInitiatorPortals, IVdsIscsiInitiatorAdapter::QueryInitiatorPortals, QueryInitiatorPortals, QueryInitiatorPortals method [VDS], QueryInitiatorPortals method [VDS],IVdsIscsiInitiatorAdapter interface, base.ivdsiscsiinitiatoradapter_queryinitiatorportals, vds/IVdsIscsiInitiatorAdapter::QueryInitiatorPortals
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsIscsiInitiatorAdapter::QueryInitiatorPortals method
+# IVdsIscsiInitiatorAdapter::QueryInitiatorPortals
 
 
 ## -description

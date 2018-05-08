@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetViewbox
-title: IXpsOMTileBrush::SetViewbox method
+title: IXpsOMTileBrush::SetViewbox
 author: windows-driver-content
 description: Sets the portion of the source content to be used as the tile image.
 old-location: xps\ixpsomtilebrush_setviewbox.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: a4a0a9c7-15d5-493e-8ed3-9644f59796fd
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], SetViewbox method, IXpsOMTileBrush::SetViewbox, SetViewbox method [XPS Documents and Packaging], SetViewbox method [XPS Documents and Packaging], IXpsOMTileBrush interface, SetViewbox,IXpsOMTileBrush.SetViewbox, xps.ixpsomtilebrush_setviewbox, xpsobjectmodel/IXpsOMTileBrush::SetViewbox
+ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewbox method, IXpsOMTileBrush.SetViewbox, IXpsOMTileBrush::SetViewbox, SetViewbox, SetViewbox method [XPS Documents and Packaging], SetViewbox method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_setviewbox, xpsobjectmodel/IXpsOMTileBrush::SetViewbox
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMTileBrush::SetViewbox method
+# IXpsOMTileBrush::SetViewbox
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoManager.EnumRedoable
-title: IOleUndoManager::EnumRedoable method
+title: IOleUndoManager::EnumRedoable
 author: windows-driver-content
 description: Creates an enumerator object that the caller can use to iterate through a series of top-level undo units from the redo stack.
 old-location: com\ioleundomanager_enumredoable.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f78c7130-34c9-410a-9b9c-222b5e237ad1
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: EnumRedoable method [COM], EnumRedoable method [COM], IOleUndoManager interface, EnumRedoable,IOleUndoManager.EnumRedoable, IOleUndoManager, IOleUndoManager interface [COM], EnumRedoable method, IOleUndoManager::EnumRedoable, _ole_ioleundomanager_enumredoable, com.ioleundomanager_enumredoable, ocidl/IOleUndoManager::EnumRedoable
+ms.keywords: EnumRedoable, EnumRedoable method [COM], EnumRedoable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],EnumRedoable method, IOleUndoManager.EnumRedoable, IOleUndoManager::EnumRedoable, _ole_ioleundomanager_enumredoable, com.ioleundomanager_enumredoable, ocidl/IOleUndoManager::EnumRedoable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleUndoManager::EnumRedoable method
+# IOleUndoManager::EnumRedoable
 
 
 ## -description

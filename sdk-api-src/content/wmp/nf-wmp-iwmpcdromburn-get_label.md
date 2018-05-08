@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.get_label
-title: IWMPCdromBurn::get_label method
+title: IWMPCdromBurn::get_label
 author: windows-driver-content
 description: The get_label method retrieves the CD volume label string.
 old-location: wmp\iwmpcdromburn_get_label.htm
 old-project: WMP
 ms.assetid: 89197e65-036c-4ffb-8b08-4ab8c194f92f
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], get_label method, IWMPCdromBurn::get_label, IWMPCdromBurnget_label, get_label method [Windows Media Player], get_label method [Windows Media Player], IWMPCdromBurn interface, get_label,IWMPCdromBurn.get_label, wmp.iwmpcdromburn_get_label, wmp/IWMPCdromBurn::get_label
+ms.date: 5/4/2018
+ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_label method, IWMPCdromBurn.get_label, IWMPCdromBurn::get_label, IWMPCdromBurnget_label, get_label, get_label method [Windows Media Player], get_label method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_label, wmp/IWMPCdromBurn::get_label
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCdromBurn::get_label method
+# IWMPCdromBurn::get_label
 
 
 ## -description

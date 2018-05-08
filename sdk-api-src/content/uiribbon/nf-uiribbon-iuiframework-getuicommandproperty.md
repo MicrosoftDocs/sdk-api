@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIFramework.GetUICommandProperty
-title: IUIFramework::GetUICommandProperty method
+title: IUIFramework::GetUICommandProperty
 author: windows-driver-content
 description: Retrieves a command property, value, or state.
 old-location: windowsribbon\windowsribbon_iuiframework_getuicommandproperty.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\getuicommandproperty.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetUICommandProperty method [Windows Ribbon], GetUICommandProperty method [Windows Ribbon], IUIFramework interface, GetUICommandProperty,IUIFramework.GetUICommandProperty, IUIFramework, IUIFramework interface [Windows Ribbon], GetUICommandProperty method, IUIFramework::GetUICommandProperty, scenicintent_IUIFramework_GetUICommandProperty, uiribbon/IUIFramework::GetUICommandProperty, windowsribbon.windowsribbon_iuiframework_getuicommandproperty
+ms.keywords: GetUICommandProperty, GetUICommandProperty method [Windows Ribbon], GetUICommandProperty method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],GetUICommandProperty method, IUIFramework.GetUICommandProperty, IUIFramework::GetUICommandProperty, scenicintent_IUIFramework_GetUICommandProperty, uiribbon/IUIFramework::GetUICommandProperty, windowsribbon.windowsribbon_iuiframework_getuicommandproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUIFramework::GetUICommandProperty method
+# IUIFramework::GetUICommandProperty
 
 
 ## -description

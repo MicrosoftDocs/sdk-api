@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Next
-title: IEnumWorkItems::Next method
+title: IEnumWorkItems::Next
 author: windows-driver-content
 description: Retrieves the next specified number of tasks in the enumeration sequence.
 old-location: taskschd\ienumworkitems_next.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: a606e340-33fb-4a51-acdd-b7428c755ac5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEnumWorkItems, IEnumWorkItems interface [Task Scheduler], Next method, IEnumWorkItems::Next, Next method [Task Scheduler], Next method [Task Scheduler], IEnumWorkItems interface, Next,IEnumWorkItems.Next, _msb_ienumworkitems_next, mstask/IEnumWorkItems::Next, taskschd.ienumworkitems_next
+ms.keywords: IEnumWorkItems interface [Task Scheduler],Next method, IEnumWorkItems.Next, IEnumWorkItems::Next, Next, Next method [Task Scheduler], Next method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_next, mstask/IEnumWorkItems::Next, taskschd.ienumworkitems_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumWorkItems::Next method
+# IEnumWorkItems::Next
 
 
 ## -description

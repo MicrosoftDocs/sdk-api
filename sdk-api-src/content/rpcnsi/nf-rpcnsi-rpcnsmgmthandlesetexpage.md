@@ -7,7 +7,7 @@ old-location: rpc\rpcnsmgmthandlesetexpage.htm
 old-project: Rpc
 ms.assetid: d6607ffb-21a9-41ec-863f-f1514b115d4d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcNsMgmtHandleSetExpAge, RpcNsMgmtHandleSetExpAge function [RPC], _rpc_rpcnsmgmthandlesetexpage, rpc.rpcnsmgmthandlesetexpage, rpcnsi/RpcNsMgmtHandleSetExpAge
 ms.prod: windows-hardware
 ms.technology: windows-devices

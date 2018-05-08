@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemEventProviderSecurity.AccessCheck
-title: IWbemEventProviderSecurity::AccessCheck method
+title: IWbemEventProviderSecurity::AccessCheck
 author: windows-driver-content
 description: The AccessCheck method is implemented by an event provider and called by Windows Management Instrumentation (WMI) when a consumer subscribes to an event specified in wszQuery.
 old-location: wmi\iwbemeventprovidersecurity_accesscheck.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 9c5cf37f-f43f-46c7-a5b4-1537aead158e
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: AccessCheck method [Windows Management Instrumentation], AccessCheck method [Windows Management Instrumentation], IWbemEventProviderSecurity interface, AccessCheck,IWbemEventProviderSecurity.AccessCheck, IWbemEventProviderSecurity, IWbemEventProviderSecurity interface [Windows Management Instrumentation], AccessCheck method, IWbemEventProviderSecurity::AccessCheck, _hmm_iwbemeventprovidersecurity_accesscheck, wbemprov/IWbemEventProviderSecurity::AccessCheck, wmi.iwbemeventprovidersecurity_accesscheck
+ms.keywords: AccessCheck, AccessCheck method [Windows Management Instrumentation], AccessCheck method [Windows Management Instrumentation],IWbemEventProviderSecurity interface, IWbemEventProviderSecurity interface [Windows Management Instrumentation],AccessCheck method, IWbemEventProviderSecurity.AccessCheck, IWbemEventProviderSecurity::AccessCheck, _hmm_iwbemeventprovidersecurity_accesscheck, wbemprov/IWbemEventProviderSecurity::AccessCheck, wmi.iwbemeventprovidersecurity_accesscheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemEventProviderSecurity::AccessCheck method
+# IWbemEventProviderSecurity::AccessCheck
 
 
 ## -description

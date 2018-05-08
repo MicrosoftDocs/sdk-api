@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplates.Remove
-title: IX509CertificateTemplates::Remove method
+title: IX509CertificateTemplates::Remove
 author: windows-driver-content
 description: Removes an IX509CertificateTemplate object from the collection by index number.
 old-location: security\ix509certificatetemplates_remove.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: e30aaeab-4130-40ab-9b50-32a119fdb794
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateTemplates, IX509CertificateTemplates interface [Security], Remove method, IX509CertificateTemplates::Remove, Remove method [Security], Remove method [Security], IX509CertificateTemplates interface, Remove,IX509CertificateTemplates.Remove, certenroll/IX509CertificateTemplates::Remove, security.ix509certificatetemplates_remove
+ms.keywords: IX509CertificateTemplates interface [Security],Remove method, IX509CertificateTemplates.Remove, IX509CertificateTemplates::Remove, Remove, Remove method [Security], Remove method [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::Remove, security.ix509certificatetemplates_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509CertificateTemplates::Remove method
+# IX509CertificateTemplates::Remove
 
 
 ## -description

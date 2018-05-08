@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannelManager.get_Item
-title: IRDPSRAPIVirtualChannelManager::get_Item method
+title: IRDPSRAPIVirtualChannelManager::get_Item
 author: windows-driver-content
 description: An item in the virtual channel collection.
 old-location: rdp\irdpsrapivirtualchannelmanager_item.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 749072c9-9ad9-41e7-b706-9d27eb684a07
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIVirtualChannelManager, IRDPSRAPIVirtualChannelManager interface [RDP], Item property, IRDPSRAPIVirtualChannelManager.Item, IRDPSRAPIVirtualChannelManager::get_Item, Item property [RDP], Item property [RDP], IRDPSRAPIVirtualChannelManager interface, Item property [RDP], RDPSRAPIVirtualChannelManager object, RDPSRAPIVirtualChannelManager object [RDP], Item property, get_Item,IRDPSRAPIVirtualChannelManager.get_Item, rdp.irdpsrapivirtualchannelmanager_item, rdpencomapi/IRDPSRAPIVirtualChannelManager::Item, rdpencomapi/IRDPSRAPIVirtualChannelManager::get_Item
+ms.keywords: IRDPSRAPIVirtualChannelManager interface [RDP],Item property, IRDPSRAPIVirtualChannelManager.Item, IRDPSRAPIVirtualChannelManager.get_Item, IRDPSRAPIVirtualChannelManager::Item, IRDPSRAPIVirtualChannelManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIVirtualChannelManager interface, Item property [RDP],RDPSRAPIVirtualChannelManager object, RDPSRAPIVirtualChannelManager object [RDP],Item property, get_Item, rdp.irdpsrapivirtualchannelmanager_item, rdpencomapi/IRDPSRAPIVirtualChannelManager::Item, rdpencomapi/IRDPSRAPIVirtualChannelManager::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIVirtualChannelManager::get_Item method
+# IRDPSRAPIVirtualChannelManager::get_Item
 
 
 ## -description

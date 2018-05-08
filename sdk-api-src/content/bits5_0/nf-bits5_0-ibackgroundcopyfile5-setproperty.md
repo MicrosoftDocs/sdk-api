@@ -1,14 +1,14 @@
 ---
 UID: NF:bits5_0.IBackgroundCopyFile5.SetProperty
-title: IBackgroundCopyFile5::SetProperty method
+title: IBackgroundCopyFile5::SetProperty
 author: windows-driver-content
 description: Sets a generic property of a BITS file transfer.
 old-location: bits\ibackgroundcopyfile5_setproperty.htm
 old-project: Bits
 ms.assetid: 7a5809ef-e84f-4566-a5fa-fd63b1dfd15c
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyFile5, IBackgroundCopyFile5 interface [BITS], SetProperty method, IBackgroundCopyFile5::SetProperty, SetProperty method [BITS], SetProperty method [BITS], IBackgroundCopyFile5 interface, SetProperty,IBackgroundCopyFile5.SetProperty, bits.ibackgroundcopyfile5_setproperty, bits5_0/IBackgroundCopyFile5::SetProperty
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyFile5 interface [BITS],SetProperty method, IBackgroundCopyFile5.SetProperty, IBackgroundCopyFile5::SetProperty, SetProperty, SetProperty method [BITS], SetProperty method [BITS],IBackgroundCopyFile5 interface, bits.ibackgroundcopyfile5_setproperty, bits5_0/IBackgroundCopyFile5::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBackgroundCopyFile5::SetProperty method
+# IBackgroundCopyFile5::SetProperty
 
 
 ## -description

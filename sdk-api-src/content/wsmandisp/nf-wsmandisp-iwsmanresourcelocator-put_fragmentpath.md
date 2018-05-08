@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.put_FragmentPath
-title: IWSManResourceLocator::put_FragmentPath method
+title: IWSManResourceLocator::put_FragmentPath
 author: windows-driver-content
 description: Gets or sets the path for a resource fragment or property when ResourceLocator is used in IWSManSession object methods such as Get, Put, or Enumerate.
 old-location: winrm\iwsmanresourcelocator_fragmentpath.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: c20c0c03-4fe4-417f-95e0-0a9b34b3c1ee
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: FragmentPath property [Windows Remote Management], FragmentPath property [Windows Remote Management], IWSManResourceLocator interface, IWSManResourceLocator, IWSManResourceLocator interface [Windows Remote Management], FragmentPath property, IWSManResourceLocator.FragmentPath, IWSManResourceLocator::get_FragmentPath, IWSManResourceLocator::put_FragmentPath, put_FragmentPath,IWSManResourceLocator.put_FragmentPath, winrm.iwsmanresourcelocator_fragmentpath, wsmandisp/IWSManResourceLocator::FragmentPath, wsmandisp/IWSManResourceLocator::get_FragmentPath, wsmandisp/IWSManResourceLocator::put_FragmentPath
+ms.keywords: FragmentPath property [Windows Remote Management], FragmentPath property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],FragmentPath property, IWSManResourceLocator.FragmentPath, IWSManResourceLocator.put_FragmentPath, IWSManResourceLocator::FragmentPath, IWSManResourceLocator::get_FragmentPath, IWSManResourceLocator::put_FragmentPath, put_FragmentPath, winrm.iwsmanresourcelocator_fragmentpath, wsmandisp/IWSManResourceLocator::FragmentPath, wsmandisp/IWSManResourceLocator::get_FragmentPath, wsmandisp/IWSManResourceLocator::put_FragmentPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManResourceLocator::put_FragmentPath method
+# IWSManResourceLocator::put_FragmentPath
 
 
 ## -description

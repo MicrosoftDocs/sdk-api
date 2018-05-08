@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFRateControl.GetRate
-title: IMFRateControl::GetRate method
+title: IMFRateControl::GetRate
 author: windows-driver-content
 description: Gets the current playback rate.
 old-location: mf\imfratecontrol_getrate.htm
 old-project: medfound
 ms.assetid: fb970d06-0f82-4e35-8e03-68044c7f12cd
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetRate method [Media Foundation], GetRate method [Media Foundation], IMFRateControl interface, GetRate,IMFRateControl.GetRate, IMFRateControl, IMFRateControl interface [Media Foundation], GetRate method, IMFRateControl::GetRate, fb970d06-0f82-4e35-8e03-68044c7f12cd, mf.imfratecontrol_getrate, mfidl/IMFRateControl::GetRate
+ms.date: 5/3/2018
+ms.keywords: GetRate, GetRate method [Media Foundation], GetRate method [Media Foundation],IMFRateControl interface, IMFRateControl interface [Media Foundation],GetRate method, IMFRateControl.GetRate, IMFRateControl::GetRate, fb970d06-0f82-4e35-8e03-68044c7f12cd, mf.imfratecontrol_getrate, mfidl/IMFRateControl::GetRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFRateControl::GetRate method
+# IMFRateControl::GetRate
 
 
 ## -description

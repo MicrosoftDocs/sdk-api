@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetMemberTypeName
-title: ID3D12ShaderReflectionType::GetMemberTypeName method
+title: ID3D12ShaderReflectionType::GetMemberTypeName
 author: windows-driver-content
 description: Gets a shader-reflection-variable type.
 old-location: direct3d12\id3d12shaderreflectiontype_getmembertypename.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 113510A0-6F0D-4B30-8C6A-D0266570160E
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetMemberTypeName method, GetMemberTypeName method, ID3D12ShaderReflectionType interface, GetMemberTypeName,ID3D12ShaderReflectionType.GetMemberTypeName, ID3D12ShaderReflectionType, ID3D12ShaderReflectionType interface, GetMemberTypeName method, ID3D12ShaderReflectionType::GetMemberTypeName, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeName, direct3d12.id3d12shaderreflectiontype_getmembertypename
+ms.keywords: GetMemberTypeName, GetMemberTypeName method, GetMemberTypeName method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeName method, ID3D12ShaderReflectionType.GetMemberTypeName, ID3D12ShaderReflectionType::GetMemberTypeName, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeName, direct3d12.id3d12shaderreflectiontype_getmembertypename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflectionType::GetMemberTypeName method
+# ID3D12ShaderReflectionType::GetMemberTypeName
 
 
 ## -description

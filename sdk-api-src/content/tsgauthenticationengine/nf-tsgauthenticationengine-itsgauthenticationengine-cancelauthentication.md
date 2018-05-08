@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticationEngine.CancelAuthentication
-title: ITSGAuthenticationEngine::CancelAuthentication method
+title: ITSGAuthenticationEngine::CancelAuthentication
 author: windows-driver-content
 description: Cancels an existing authentication request.
 old-location: termserv\itsgauthenticationengine_cancelauthentication.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 07da9ffa-b137-4e99-a1d1-14b7c14438a3
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CancelAuthentication method [Remote Desktop Services], CancelAuthentication method [Remote Desktop Services], ITSGAuthenticationEngine interface, CancelAuthentication,ITSGAuthenticationEngine.CancelAuthentication, ITSGAuthenticationEngine, ITSGAuthenticationEngine interface [Remote Desktop Services], CancelAuthentication method, ITSGAuthenticationEngine::CancelAuthentication, termserv.itsgauthenticationengine_cancelauthentication, tsgauthenticationengine/ITSGAuthenticationEngine::CancelAuthentication
+ms.keywords: CancelAuthentication, CancelAuthentication method [Remote Desktop Services], CancelAuthentication method [Remote Desktop Services],ITSGAuthenticationEngine interface, ITSGAuthenticationEngine interface [Remote Desktop Services],CancelAuthentication method, ITSGAuthenticationEngine.CancelAuthentication, ITSGAuthenticationEngine::CancelAuthentication, termserv.itsgauthenticationengine_cancelauthentication, tsgauthenticationengine/ITSGAuthenticationEngine::CancelAuthentication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITSGAuthenticationEngine::CancelAuthentication method
+# ITSGAuthenticationEngine::CancelAuthentication
 
 
 ## -description

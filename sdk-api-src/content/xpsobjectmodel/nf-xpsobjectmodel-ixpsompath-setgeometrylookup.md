@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetGeometryLookup
-title: IXpsOMPath::SetGeometryLookup method
+title: IXpsOMPath::SetGeometryLookup
 author: windows-driver-content
 description: Sets the lookup key name of a shared geometry in a resource dictionary.
 old-location: xps\ixpsompath_setgeometrylookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 7a60bf60-e69b-4a8a-94e9-5d304aa25dd5
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], SetGeometryLookup method, IXpsOMPath::SetGeometryLookup, SetGeometryLookup method [XPS Documents and Packaging], SetGeometryLookup method [XPS Documents and Packaging], IXpsOMPath interface, SetGeometryLookup,IXpsOMPath.SetGeometryLookup, xps.ixpsompath_setgeometrylookup, xpsobjectmodel/IXpsOMPath::SetGeometryLookup
+ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetGeometryLookup method, IXpsOMPath.SetGeometryLookup, IXpsOMPath::SetGeometryLookup, SetGeometryLookup, SetGeometryLookup method [XPS Documents and Packaging], SetGeometryLookup method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setgeometrylookup, xpsobjectmodel/IXpsOMPath::SetGeometryLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::SetGeometryLookup method
+# IXpsOMPath::SetGeometryLookup
 
 
 ## -description

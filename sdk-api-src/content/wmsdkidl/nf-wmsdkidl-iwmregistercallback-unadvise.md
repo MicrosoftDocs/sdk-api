@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisterCallback.Unadvise
-title: IWMRegisterCallback::Unadvise method
+title: IWMRegisterCallback::Unadvise
 author: windows-driver-content
 description: The Unadvise method unregisters the application's IWMStatusCallback callback interface. Call this method when the application has finished using the sink object. It notifies the object to stop sending status events to the application.
 old-location: wmformat\iwmregistercallback_unadvise.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 5f320288-09a8-4eaf-a7cd-54a4b52d0b47
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMRegisterCallback, IWMRegisterCallback interface [windows Media Format], Unadvise method, IWMRegisterCallback::Unadvise, IWMRegisterCallbackUnadvise, Unadvise method [windows Media Format], Unadvise method [windows Media Format], IWMRegisterCallback interface, Unadvise,IWMRegisterCallback.Unadvise, wmformat.iwmregistercallback_unadvise, wmsdkidl/IWMRegisterCallback::Unadvise
+ms.keywords: IWMRegisterCallback interface [windows Media Format],Unadvise method, IWMRegisterCallback.Unadvise, IWMRegisterCallback::Unadvise, IWMRegisterCallbackUnadvise, Unadvise, Unadvise method [windows Media Format], Unadvise method [windows Media Format],IWMRegisterCallback interface, wmformat.iwmregistercallback_unadvise, wmsdkidl/IWMRegisterCallback::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMRegisterCallback::Unadvise method
+# IWMRegisterCallback::Unadvise
 
 
 ## -description

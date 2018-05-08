@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixapo.IXAPO
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], IXAPO interface [XAudio2 Audio Mixing APIs], described, xapo/IXAPO, xaudio2.ixapo
+ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], IXAPO interface [XAudio2 Audio Mixing APIs],described, xapo/IXAPO, xaudio2.ixapo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

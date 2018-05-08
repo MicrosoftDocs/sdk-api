@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IProcessInitializer.Shutdown
-title: IProcessInitializer::Shutdown method
+title: IProcessInitializer::Shutdown
 author: windows-driver-content
 description: Called when Dllhost.exe shuts down.
 old-location: cos\iprocessinitializer_shutdown.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: e525ded0-971d-4711-b078-b2e6b28c313f
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IProcessInitializer, IProcessInitializer interface [COM+], Shutdown method, IProcessInitializer::Shutdown, Shutdown method [COM+], Shutdown method [COM+], IProcessInitializer interface, Shutdown,IProcessInitializer.Shutdown, _cos_IProcessInitializer_Shutdown, comsvcs/IProcessInitializer::Shutdown, cos.iprocessinitializer_shutdown
+ms.keywords: IProcessInitializer interface [COM+],Shutdown method, IProcessInitializer.Shutdown, IProcessInitializer::Shutdown, Shutdown, Shutdown method [COM+], Shutdown method [COM+],IProcessInitializer interface, _cos_IProcessInitializer_Shutdown, comsvcs/IProcessInitializer::Shutdown, cos.iprocessinitializer_shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IProcessInitializer::Shutdown method
+# IProcessInitializer::Shutdown
 
 
 ## -description

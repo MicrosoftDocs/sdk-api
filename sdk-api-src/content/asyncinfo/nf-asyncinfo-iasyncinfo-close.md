@@ -1,14 +1,14 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.Close
-title: IAsyncInfo::Close method
+title: IAsyncInfo::Close
 author: windows-driver-content
 description: Closes the asynchronous work object.
 old-location: winrt\iasyncinfo_close.htm
 old-project: WinRT
 ms.assetid: 1c357343-79cf-4808-8e41-f898dfdb99f6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Close method [Windows Runtime], Close method [Windows Runtime], IAsyncInfo interface, Close,IAsyncInfo.Close, IAsyncInfo, IAsyncInfo interface [Windows Runtime], Close method, IAsyncInfo::Close, asyncinfo/IAsyncInfo::Close, winrt.iasyncinfo_close
+ms.date: 5/4/2018
+ms.keywords: Close, Close method [Windows Runtime], Close method [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],Close method, IAsyncInfo.Close, IAsyncInfo::Close, asyncinfo/IAsyncInfo::Close, winrt.iasyncinfo_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAsyncInfo::Close method
+# IAsyncInfo::Close
 
 
 ## -description

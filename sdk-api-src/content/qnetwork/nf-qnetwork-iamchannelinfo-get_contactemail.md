@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMChannelInfo.get_ContactEmail
-title: IAMChannelInfo::get_ContactEmail method
+title: IAMChannelInfo::get_ContactEmail
 author: windows-driver-content
 description: The get_ContactEmail method gets the email address of the contact.
 old-location: dshow\iamchannelinfo_get_contactemail.htm
 old-project: DirectShow
 ms.assetid: a8ab9fc0-1370-44a1-95c8-6592c374d8d6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], get_ContactEmail method, IAMChannelInfo::get_ContactEmail, IAMChannelInfoget_ContactEmail, dshow.iamchannelinfo_get_contactemail, get_ContactEmail method [DirectShow], get_ContactEmail method [DirectShow], IAMChannelInfo interface, get_ContactEmail,IAMChannelInfo.get_ContactEmail, qnetwork/IAMChannelInfo::get_ContactEmail
+ms.date: 4/30/2018
+ms.keywords: IAMChannelInfo interface [DirectShow],get_ContactEmail method, IAMChannelInfo.get_ContactEmail, IAMChannelInfo::get_ContactEmail, IAMChannelInfoget_ContactEmail, dshow.iamchannelinfo_get_contactemail, get_ContactEmail, get_ContactEmail method [DirectShow], get_ContactEmail method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ContactEmail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMChannelInfo::get_ContactEmail method
+# IAMChannelInfo::get_ContactEmail
 
 
 ## -description

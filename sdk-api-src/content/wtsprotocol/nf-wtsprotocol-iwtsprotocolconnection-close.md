@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.Close
-title: IWTSProtocolConnection::Close method
+title: IWTSProtocolConnection::Close
 author: windows-driver-content
 description: IWTSProtocolConnection::Close is no longer available. Instead, use IWRdsProtocolConnection::Close.
 old-location: termserv\iwtsprotocolconnection_close.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 746f5f06-7068-461b-8adf-b35d0c318942
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Close method [Remote Desktop Services], Close method [Remote Desktop Services], IWTSProtocolConnection interface, Close,IWTSProtocolConnection.Close, IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], Close method, IWTSProtocolConnection::Close, termserv.iwtsprotocolconnection_close, wtsprotocol/IWTSProtocolConnection::Close
+ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],Close method, IWTSProtocolConnection.Close, IWTSProtocolConnection::Close, termserv.iwtsprotocolconnection_close, wtsprotocol/IWTSProtocolConnection::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolConnection::Close method
+# IWTSProtocolConnection::Close
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetDescription
-title: IToc::GetDescription method
+title: IToc::GetDescription
 author: windows-driver-content
 description: The GetDescription method retrieves the description, set by a previous call to SetDescription, of the table of contents.
 old-location: mf\itoc_getdescription.htm
 old-project: medfound
 ms.assetid: 660d4da9-ddbc-466c-ab1a-7e60ecf61473
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDescription method [Media Foundation], GetDescription method [Media Foundation], IToc interface, GetDescription,IToc.GetDescription, IToc, IToc interface [Media Foundation], GetDescription method, IToc::GetDescription, codecapi.itoc_getdescription, mf.itoc_getdescription, wmcodecdsp/IToc::GetDescription
+ms.date: 5/3/2018
+ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetDescription method, IToc.GetDescription, IToc::GetDescription, codecapi.itoc_getdescription, mf.itoc_getdescription, wmcodecdsp/IToc::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IToc::GetDescription method
+# IToc::GetDescription
 
 
 ## -description

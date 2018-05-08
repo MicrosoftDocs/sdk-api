@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.RegisterProfile
-title: ITfInputProcessorProfileMgr::RegisterProfile method
+title: ITfInputProcessorProfileMgr::RegisterProfile
 author: windows-driver-content
 description: The ITfInputProcessorProfileMgr::RegisterProfile method registers the text service and the profile.
 old-location: tsf\itfinputprocessorprofilemgr_registerprofile.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: b497409d-96b8-41d1-9512-5d79494c6287
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfInputProcessorProfileMgr, ITfInputProcessorProfileMgr interface [Text Services Framework], RegisterProfile method, ITfInputProcessorProfileMgr::RegisterProfile, RegisterProfile method [Text Services Framework], RegisterProfile method [Text Services Framework], ITfInputProcessorProfileMgr interface, RegisterProfile,ITfInputProcessorProfileMgr.RegisterProfile, TF_RP_HIDDENINSETTINGUI, TF_RP_LOCALPROCESS, TF_RP_LOCALTHREAD, msctf/ITfInputProcessorProfileMgr::RegisterProfile, tsf.itfinputprocessorprofilemgr_registerprofile
+ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],RegisterProfile method, ITfInputProcessorProfileMgr.RegisterProfile, ITfInputProcessorProfileMgr::RegisterProfile, RegisterProfile, RegisterProfile method [Text Services Framework], RegisterProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, TF_RP_HIDDENINSETTINGUI, TF_RP_LOCALPROCESS, TF_RP_LOCALTHREAD, msctf/ITfInputProcessorProfileMgr::RegisterProfile, tsf.itfinputprocessorprofilemgr_registerprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfileMgr::RegisterProfile method
+# ITfInputProcessorProfileMgr::RegisterProfile
 
 
 ## -description

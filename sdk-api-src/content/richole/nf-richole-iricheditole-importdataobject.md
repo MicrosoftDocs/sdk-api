@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOle.ImportDataObject
-title: IRichEditOle::ImportDataObject method
+title: IRichEditOle::ImportDataObject
 author: windows-driver-content
 description: Imports a clipboard object into a rich edit control, replacing the current selection.
 old-location: controls\IRichEditOle_ImportDataObject.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleimportdataobject.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IRichEditOle, IRichEditOle interface [Windows Controls], ImportDataObject method, IRichEditOle::ImportDataObject, ImportDataObject method [Windows Controls], ImportDataObject method [Windows Controls], IRichEditOle interface, ImportDataObject,IRichEditOle.ImportDataObject, _win32_IRichEditOle_ImportDataObject, _win32_IRichEditOle_ImportDataObject_cpp, controls.IRichEditOle_ImportDataObject, controls._win32_IRichEditOle_ImportDataObject, richole/IRichEditOle::ImportDataObject
+ms.date: 4/27/2018
+ms.keywords: IRichEditOle interface [Windows Controls],ImportDataObject method, IRichEditOle.ImportDataObject, IRichEditOle::ImportDataObject, ImportDataObject, ImportDataObject method [Windows Controls], ImportDataObject method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_ImportDataObject, _win32_IRichEditOle_ImportDataObject_cpp, controls.IRichEditOle_ImportDataObject, controls._win32_IRichEditOle_ImportDataObject, richole/IRichEditOle::ImportDataObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOle::ImportDataObject method
+# IRichEditOle::ImportDataObject
 
 
 ## -description

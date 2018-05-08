@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialWithFieldOptions.GetFieldOptions
-title: ICredentialProviderCredentialWithFieldOptions::GetFieldOptions method
+title: ICredentialProviderCredentialWithFieldOptions::GetFieldOptions
 author: windows-driver-content
 description: Retrieves the current option set for a specified field in a logon or credential UI. Called by the credential provider framework.
 old-location: shell\ICredentialProviderCredentialWithFieldOptions_GetFieldOptions.htm
 old-project: shell
 ms.assetid: DE5E6F0E-F4FD-43ce-A1EB-F45C04C85239
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetFieldOptions method [Windows Shell], GetFieldOptions method [Windows Shell], ICredentialProviderCredentialWithFieldOptions interface, GetFieldOptions,ICredentialProviderCredentialWithFieldOptions.GetFieldOptions, ICredentialProviderCredentialWithFieldOptions, ICredentialProviderCredentialWithFieldOptions interface [Windows Shell], GetFieldOptions method, ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, credentialprovider/ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, shell.ICredentialProviderCredentialWithFieldOptions_GetFieldOptions
+ms.date: 5/3/2018
+ms.keywords: GetFieldOptions, GetFieldOptions method [Windows Shell], GetFieldOptions method [Windows Shell],ICredentialProviderCredentialWithFieldOptions interface, ICredentialProviderCredentialWithFieldOptions interface [Windows Shell],GetFieldOptions method, ICredentialProviderCredentialWithFieldOptions.GetFieldOptions, ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, credentialprovider/ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, shell.ICredentialProviderCredentialWithFieldOptions_GetFieldOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProviderCredentialWithFieldOptions::GetFieldOptions method
+# ICredentialProviderCredentialWithFieldOptions::GetFieldOptions
 
 
 ## -description

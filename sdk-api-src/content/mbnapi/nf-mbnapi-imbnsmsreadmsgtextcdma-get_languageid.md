@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_LanguageID
-title: IMbnSmsReadMsgTextCdma::get_LanguageID method
+title: IMbnSmsReadMsgTextCdma::get_LanguageID
 author: windows-driver-content
 description: The language used in the message.
 old-location: mbn\imbnsmsreadmsgtextcdma_languageid.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 0c4c2566-091c-4415-a0d7-28f67f2a2259
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSmsReadMsgTextCdma, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks], LanguageID property, IMbnSmsReadMsgTextCdma.LanguageID, IMbnSmsReadMsgTextCdma::get_LanguageID, LanguageID property [Microsoft Broadband Networks], LanguageID property [Microsoft Broadband Networks], IMbnSmsReadMsgTextCdma interface, get_LanguageID,IMbnSmsReadMsgTextCdma.get_LanguageID, mbn.imbnsmsreadmsgtextcdma_languageid, mbnapi/IMbnSmsReadMsgTextCdma::LanguageID, mbnapi/IMbnSmsReadMsgTextCdma::get_LanguageID
+ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],LanguageID property, IMbnSmsReadMsgTextCdma.LanguageID, IMbnSmsReadMsgTextCdma.get_LanguageID, IMbnSmsReadMsgTextCdma::LanguageID, IMbnSmsReadMsgTextCdma::get_LanguageID, LanguageID property [Microsoft Broadband Networks], LanguageID property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_LanguageID, mbn.imbnsmsreadmsgtextcdma_languageid, mbnapi/IMbnSmsReadMsgTextCdma::LanguageID, mbnapi/IMbnSmsReadMsgTextCdma::get_LanguageID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSmsReadMsgTextCdma::get_LanguageID method
+# IMbnSmsReadMsgTextCdma::get_LanguageID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.SetLinkUpdateOptions
-title: IOleUILinkContainerA::SetLinkUpdateOptions method
+title: IOleUILinkContainerA::SetLinkUpdateOptions
 author: windows-driver-content
 description: Sets a link's update options to automatic or manual.
 old-location: com\ioleuilinkcontainer_setlinkupdateoptions.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d2a7758d-9692-4e3c-8186-b74530299a6a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleUILinkContainer interface [COM], SetLinkUpdateOptions method, IOleUILinkContainer::SetLinkUpdateOptions, IOleUILinkContainerA, IOleUILinkContainerA interface [COM], SetLinkUpdateOptions method, IOleUILinkContainerA::SetLinkUpdateOptions, IOleUILinkContainerW interface [COM], SetLinkUpdateOptions method, IOleUILinkContainerW::SetLinkUpdateOptions, SetLinkUpdateOptions method [COM], SetLinkUpdateOptions method [COM], IOleUILinkContainer interface, SetLinkUpdateOptions method [COM], IOleUILinkContainerA interface, SetLinkUpdateOptions method [COM], IOleUILinkContainerW interface, SetLinkUpdateOptions,IOleUILinkContainerA.SetLinkUpdateOptions, _ole_IOleUILinkContainer_SetLinkUpdateOptions, com.ioleuilinkcontainer_setlinkupdateoptions, oledlg/IOleUILinkContainer::SetLinkUpdateOptions, oledlg/IOleUILinkContainerA::SetLinkUpdateOptions, oledlg/IOleUILinkContainerW::SetLinkUpdateOptions
+ms.keywords: IOleUILinkContainer interface [COM],SetLinkUpdateOptions method, IOleUILinkContainer::SetLinkUpdateOptions, IOleUILinkContainerA interface [COM],SetLinkUpdateOptions method, IOleUILinkContainerA.SetLinkUpdateOptions, IOleUILinkContainerA::SetLinkUpdateOptions, IOleUILinkContainerW interface [COM],SetLinkUpdateOptions method, IOleUILinkContainerW::SetLinkUpdateOptions, SetLinkUpdateOptions, SetLinkUpdateOptions method [COM], SetLinkUpdateOptions method [COM],IOleUILinkContainer interface, SetLinkUpdateOptions method [COM],IOleUILinkContainerA interface, SetLinkUpdateOptions method [COM],IOleUILinkContainerW interface, _ole_IOleUILinkContainer_SetLinkUpdateOptions, com.ioleuilinkcontainer_setlinkupdateoptions, oledlg/IOleUILinkContainer::SetLinkUpdateOptions, oledlg/IOleUILinkContainerA::SetLinkUpdateOptions, oledlg/IOleUILinkContainerW::SetLinkUpdateOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleUILinkContainerA::SetLinkUpdateOptions method
+# IOleUILinkContainerA::SetLinkUpdateOptions
 
 
 ## -description

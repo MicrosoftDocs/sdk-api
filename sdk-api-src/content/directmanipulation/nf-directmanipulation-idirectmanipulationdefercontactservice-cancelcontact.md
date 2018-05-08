@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDeferContactService.CancelContact
-title: IDirectManipulationDeferContactService::CancelContact method
+title: IDirectManipulationDeferContactService::CancelContact
 author: windows-driver-content
 description: Cancel all scheduled calls to SetContact for this pointerId.
 old-location: directmanipulation\idirectmanipulationdefercontactservice_cancelcontact.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 5C5029E5-CA4B-4853-B9D3-B99E869A44C3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CancelContact method [Direct Manipulation], CancelContact method [Direct Manipulation], IDirectManipulationDeferContactService interface, CancelContact,IDirectManipulationDeferContactService.CancelContact, IDirectManipulationDeferContactService, IDirectManipulationDeferContactService interface [Direct Manipulation], CancelContact method, IDirectManipulationDeferContactService::CancelContact, directmanipulation.idirectmanipulationdefercontactservice_cancelcontact, directmanipulation/IDirectManipulationDeferContactService::CancelContact
+ms.keywords: CancelContact, CancelContact method [Direct Manipulation], CancelContact method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],CancelContact method, IDirectManipulationDeferContactService.CancelContact, IDirectManipulationDeferContactService::CancelContact, directmanipulation.idirectmanipulationdefercontactservice_cancelcontact, directmanipulation/IDirectManipulationDeferContactService::CancelContact
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationDeferContactService::CancelContact method
+# IDirectManipulationDeferContactService::CancelContact
 
 
 ## -description

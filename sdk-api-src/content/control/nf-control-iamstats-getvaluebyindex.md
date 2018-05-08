@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IAMStats.GetValueByIndex
-title: IAMStats::GetValueByIndex method
+title: IAMStats::GetValueByIndex
 author: windows-driver-content
 description: The GetValueByIndex method retrieves a statistic, by index.
 old-location: dshow\iamstats_getvaluebyindex.htm
 old-project: DirectShow
 ms.assetid: 68a74f56-288b-4e7e-bb0d-a38d43e08c27
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetValueByIndex method [DirectShow], GetValueByIndex method [DirectShow], IAMStats interface, GetValueByIndex,IAMStats.GetValueByIndex, IAMStats, IAMStats interface [DirectShow], GetValueByIndex method, IAMStats::GetValueByIndex, IAMStatsGetValueByIndex, control/IAMStats::GetValueByIndex, dshow.iamstats_getvaluebyindex
+ms.date: 4/30/2018
+ms.keywords: GetValueByIndex, GetValueByIndex method [DirectShow], GetValueByIndex method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetValueByIndex method, IAMStats.GetValueByIndex, IAMStats::GetValueByIndex, IAMStatsGetValueByIndex, control/IAMStats::GetValueByIndex, dshow.iamstats_getvaluebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMStats::GetValueByIndex method
+# IAMStats::GetValueByIndex
 
 
 ## -description

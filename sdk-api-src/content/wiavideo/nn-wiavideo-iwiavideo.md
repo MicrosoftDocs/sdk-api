@@ -7,8 +7,8 @@ old-location: wia\_wia_IWiaVideo.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\iwiavideo.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaVideo, IWiaVideo interface [WIA], IWiaVideo interface [WIA], described, _wia_IWiaVideo, wia._wia_IWiaVideo, wiavideo/IWiaVideo
+ms.date: 5/3/2018
+ms.keywords: IWiaVideo, IWiaVideo interface [WIA], IWiaVideo interface [WIA],described, _wia_IWiaVideo, wia._wia_IWiaVideo, wiavideo/IWiaVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

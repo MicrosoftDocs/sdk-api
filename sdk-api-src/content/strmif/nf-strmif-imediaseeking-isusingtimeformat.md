@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSeeking.IsUsingTimeFormat
-title: IMediaSeeking::IsUsingTimeFormat method
+title: IMediaSeeking::IsUsingTimeFormat
 author: windows-driver-content
 description: The IsUsingTimeFormat method determines whether seek operations are currently using a specified time format.
 old-location: dshow\imediaseeking_isusingtimeformat.htm
 old-project: DirectShow
 ms.assetid: 27211946-9b05-40fc-823e-efad87a730a3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], IsUsingTimeFormat method, IMediaSeeking::IsUsingTimeFormat, IMediaSeekingIsUsingTimeFormat, IsUsingTimeFormat method [DirectShow], IsUsingTimeFormat method [DirectShow], IMediaSeeking interface, IsUsingTimeFormat,IMediaSeeking.IsUsingTimeFormat, dshow.imediaseeking_isusingtimeformat, strmif/IMediaSeeking::IsUsingTimeFormat
+ms.date: 4/30/2018
+ms.keywords: IMediaSeeking interface [DirectShow],IsUsingTimeFormat method, IMediaSeeking.IsUsingTimeFormat, IMediaSeeking::IsUsingTimeFormat, IMediaSeekingIsUsingTimeFormat, IsUsingTimeFormat, IsUsingTimeFormat method [DirectShow], IsUsingTimeFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_isusingtimeformat, strmif/IMediaSeeking::IsUsingTimeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSeeking::IsUsingTimeFormat method
+# IMediaSeeking::IsUsingTimeFormat
 
 
 ## -description

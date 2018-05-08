@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaSink.RemoveStreamSink
-title: IMFMediaSink::RemoveStreamSink method
+title: IMFMediaSink::RemoveStreamSink
 author: windows-driver-content
 description: Removes a stream sink from the media sink.
 old-location: mf\imfmediasink_removestreamsink.htm
 old-project: medfound
 ms.assetid: f99ee960-7fea-4867-bc24-d7e1d6fcafa5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaSink, IMFMediaSink interface [Media Foundation], RemoveStreamSink method, IMFMediaSink::RemoveStreamSink, RemoveStreamSink method [Media Foundation], RemoveStreamSink method [Media Foundation], IMFMediaSink interface, RemoveStreamSink,IMFMediaSink.RemoveStreamSink, f99ee960-7fea-4867-bc24-d7e1d6fcafa5, mf.imfmediasink_removestreamsink, mfidl/IMFMediaSink::RemoveStreamSink
+ms.date: 5/3/2018
+ms.keywords: IMFMediaSink interface [Media Foundation],RemoveStreamSink method, IMFMediaSink.RemoveStreamSink, IMFMediaSink::RemoveStreamSink, RemoveStreamSink, RemoveStreamSink method [Media Foundation], RemoveStreamSink method [Media Foundation],IMFMediaSink interface, f99ee960-7fea-4867-bc24-d7e1d6fcafa5, mf.imfmediasink_removestreamsink, mfidl/IMFMediaSink::RemoveStreamSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSink::RemoveStreamSink method
+# IMFMediaSink::RemoveStreamSink
 
 
 ## -description

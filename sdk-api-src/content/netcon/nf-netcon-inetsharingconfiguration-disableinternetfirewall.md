@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.DisableInternetFirewall
-title: INetSharingConfiguration::DisableInternetFirewall method
+title: INetSharingConfiguration::DisableInternetFirewall
 author: windows-driver-content
 description: The DisableInternetFirewall method disables Internet Connection Firewall on this connection.
 old-location: ics\inetsharingconfiguration_disableinternetfirewall.htm
 old-project: ICS
 ms.assetid: f0157376-7533-4155-801c-3db82290655d
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: DisableInternetFirewall method [ICS/ICF], DisableInternetFirewall method [ICS/ICF], INetSharingConfiguration interface, DisableInternetFirewall,INetSharingConfiguration.DisableInternetFirewall, INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], DisableInternetFirewall method, INetSharingConfiguration::DisableInternetFirewall, _ics_inetsharingconfiguration_disableinternetfirewall, ics.inetsharingconfiguration_disableinternetfirewall, netcon/INetSharingConfiguration::DisableInternetFirewall
+ms.date: 5/1/2018
+ms.keywords: DisableInternetFirewall, DisableInternetFirewall method [ICS/ICF], DisableInternetFirewall method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],DisableInternetFirewall method, INetSharingConfiguration.DisableInternetFirewall, INetSharingConfiguration::DisableInternetFirewall, _ics_inetsharingconfiguration_disableinternetfirewall, ics.inetsharingconfiguration_disableinternetfirewall, netcon/INetSharingConfiguration::DisableInternetFirewall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingConfiguration::DisableInternetFirewall method
+# INetSharingConfiguration::DisableInternetFirewall
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetKeepTogether
-title: ITextPara::GetKeepTogether method
+title: ITextPara::GetKeepTogether
 author: windows-driver-content
 description: Determines whether page breaks are allowed within paragraphs.
 old-location: controls\ITextPara_GetKeepTogether.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeeptogether.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetKeepTogether method [Windows Controls], GetKeepTogether method [Windows Controls], ITextPara interface, GetKeepTogether,ITextPara.GetKeepTogether, ITextPara, ITextPara interface [Windows Controls], GetKeepTogether method, ITextPara::GetKeepTogether, _win32_ITextPara_GetKeepTogether, _win32_ITextPara_GetKeepTogether_cpp, controls.ITextPara_GetKeepTogether, controls._win32_ITextPara_GetKeepTogether, tom/ITextPara::GetKeepTogether, tomFalse, tomTrue, tomUndefined
+ms.date: 4/27/2018
+ms.keywords: GetKeepTogether, GetKeepTogether method [Windows Controls], GetKeepTogether method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetKeepTogether method, ITextPara.GetKeepTogether, ITextPara::GetKeepTogether, _win32_ITextPara_GetKeepTogether, _win32_ITextPara_GetKeepTogether_cpp, controls.ITextPara_GetKeepTogether, controls._win32_ITextPara_GetKeepTogether, tom/ITextPara::GetKeepTogether, tomFalse, tomTrue, tomUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetKeepTogether method
+# ITextPara::GetKeepTogether
 
 
 ## -description

@@ -96,14 +96,12 @@ Pointer to an array of values, if any, to add, delete, or replace. If <b>mop_op<
 <a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> pointers, which is useful for specifying binary values.
 
 
-
-#### modv_strvals
+### -field mod_vals.modv_strvals
 
 Pointer to a null-terminated array of null-terminated strings. The last element of the array must be a <b>NULL</b> pointer.
 
 
-
-#### modv_bvals
+### -field mod_vals.modv_bvals
 
 Pointer to a <b>NULL</b>-terminated array of <a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> pointers. The last element of the array must be a <b>NULL</b> pointer.
 
@@ -121,16 +119,6 @@ Deletes a value in the entry. The supplied values are deleted from the current a
 ##### - mod_op.LDAP_MOD_REPLACE (0x02)
 
 Replaces a value in the entry. The supplied values replace the existing attribute values.
-
-
-##### - mod_vals.modv_bvals
-
-Pointer to a <b>NULL</b>-terminated array of <a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> pointers. The last element of the array must be a <b>NULL</b> pointer.
-
-
-##### - mod_vals.modv_strvals
-
-Pointer to a null-terminated array of null-terminated strings. The last element of the array must be a <b>NULL</b> pointer.
 
 
 ## -remarks

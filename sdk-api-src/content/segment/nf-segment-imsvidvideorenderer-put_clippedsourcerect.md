@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_ClippedSourceRect
-title: IMSVidVideoRenderer::put_ClippedSourceRect method
+title: IMSVidVideoRenderer::put_ClippedSourceRect
 author: windows-driver-content
 description: The put_ClippedSourceRect method specifies the clipping rectangle on the video source.
 old-location: mstv\imsvidvideorenderer_put_clippedsourcerect.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c72d8134-ff6c-46b4-b567-35638aef53cd
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], put_ClippedSourceRect method, IMSVidVideoRenderer::put_ClippedSourceRect, IMSVidVideoRendererput_ClippedSourceRect, mstv.imsvidvideorenderer_put_clippedsourcerect, put_ClippedSourceRect method [Microsoft TV Technologies], put_ClippedSourceRect method [Microsoft TV Technologies], IMSVidVideoRenderer interface, put_ClippedSourceRect,IMSVidVideoRenderer.put_ClippedSourceRect, segment/IMSVidVideoRenderer::put_ClippedSourceRect
+ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_ClippedSourceRect method, IMSVidVideoRenderer.put_ClippedSourceRect, IMSVidVideoRenderer::put_ClippedSourceRect, IMSVidVideoRendererput_ClippedSourceRect, mstv.imsvidvideorenderer_put_clippedsourcerect, put_ClippedSourceRect, put_ClippedSourceRect method [Microsoft TV Technologies], put_ClippedSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_ClippedSourceRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer::put_ClippedSourceRect method
+# IMSVidVideoRenderer::put_ClippedSourceRect
 
 
 ## -description

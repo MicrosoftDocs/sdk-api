@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Reset
-title: IEnumEventObject::Reset method
+title: IEnumEventObject::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: cos\ienumeventobject_reset.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 9a92c9de-e259-4b62-8f74-dff3f9947d1a
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEnumEventObject, IEnumEventObject interface [COM+], Reset method, IEnumEventObject::Reset, Reset method [COM+], Reset method [COM+], IEnumEventObject interface, Reset,IEnumEventObject.Reset, _cos_ienumeventobject_reset, cos.ienumeventobject_reset, eventsys/IEnumEventObject::Reset
+ms.keywords: IEnumEventObject interface [COM+],Reset method, IEnumEventObject.Reset, IEnumEventObject::Reset, Reset, Reset method [COM+], Reset method [COM+],IEnumEventObject interface, _cos_ienumeventobject_reset, cos.ienumeventobject_reset, eventsys/IEnumEventObject::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEnumEventObject::Reset method
+# IEnumEventObject::Reset
 
 
 ## -description

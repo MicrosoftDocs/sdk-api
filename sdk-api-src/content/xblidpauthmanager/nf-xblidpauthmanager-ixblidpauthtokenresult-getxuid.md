@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetXuid
-title: IXblIdpAuthTokenResult::GetXuid method
+title: IXblIdpAuthTokenResult::GetXuid
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getxuid.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 9D5AFA02-06F8-4050-A84C-CF0B4F1FC51B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetXuid method, GetXuid method, IXblIdpAuthTokenResult interface, GetXuid,IXblIdpAuthTokenResult.GetXuid, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetXuid method, IXblIdpAuthTokenResult::GetXuid, xblidp.ixblidpauthtokenresult_getxuid, xblidpauthmanager/IXblIdpAuthTokenResult::GetXuid
+ms.keywords: GetXuid, GetXuid method, GetXuid method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetXuid method, IXblIdpAuthTokenResult.GetXuid, IXblIdpAuthTokenResult::GetXuid, xblidp.ixblidpauthtokenresult_getxuid, xblidpauthmanager/IXblIdpAuthTokenResult::GetXuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetXuid method
+# IXblIdpAuthTokenResult::GetXuid
 
 
 ## -description

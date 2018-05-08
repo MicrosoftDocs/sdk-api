@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.GetEncryptionStatus
-title: IOfflineFilesCache::GetEncryptionStatus method
+title: IOfflineFilesCache::GetEncryptionStatus
 author: windows-driver-content
 description: Retrieves the current encryption state (encrypted or unencrypted) of the Offline Files cache.
 old-location: of\iofflinefilescache_getencryptionstatus.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 87c2aced-84c9-40cb-bdf2-6974925e89d5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetEncryptionStatus method [Offline Files], GetEncryptionStatus method [Offline Files], IOfflineFilesCache interface, GetEncryptionStatus,IOfflineFilesCache.GetEncryptionStatus, IOfflineFilesCache, IOfflineFilesCache interface [Offline Files], GetEncryptionStatus method, IOfflineFilesCache::GetEncryptionStatus, cscobj/IOfflineFilesCache::GetEncryptionStatus, of.iofflinefilescache_getencryptionstatus
+ms.keywords: GetEncryptionStatus, GetEncryptionStatus method [Offline Files], GetEncryptionStatus method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetEncryptionStatus method, IOfflineFilesCache.GetEncryptionStatus, IOfflineFilesCache::GetEncryptionStatus, cscobj/IOfflineFilesCache::GetEncryptionStatus, of.iofflinefilescache_getencryptionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesCache::GetEncryptionStatus method
+# IOfflineFilesCache::GetEncryptionStatus
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 99b451b8-9831-475c-a4b0-7809f78d91b8
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateServiceManager, IUpdateServiceManager interface [Windows Update Agent], IUpdateServiceManager interface [Windows Update Agent], described, wua.iupdateservicemanager, wuapi/IUpdateServiceManager
+ms.keywords: IUpdateServiceManager, IUpdateServiceManager interface [Windows Update Agent], IUpdateServiceManager interface [Windows Update Agent],described, wua.iupdateservicemanager, wuapi/IUpdateServiceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

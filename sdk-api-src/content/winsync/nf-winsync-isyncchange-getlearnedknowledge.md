@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetLearnedKnowledge
-title: ISyncChange::GetLearnedKnowledge method
+title: ISyncChange::GetLearnedKnowledge
 author: windows-driver-content
 description: Gets the knowledge that a replica will learn when this change is applied to its item store.
 old-location: winsync\isyncchange_getlearnedknowledge.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 7a9ba0b8-160e-4ab3-8686-d3d12e4f4ecc
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetLearnedKnowledge method [Windows Sync], GetLearnedKnowledge method [Windows Sync], ISyncChange interface, GetLearnedKnowledge,ISyncChange.GetLearnedKnowledge, ISyncChange, ISyncChange interface [Windows Sync], GetLearnedKnowledge method, ISyncChange::GetLearnedKnowledge, winsync.isyncchange_getlearnedknowledge, winsync/ISyncChange::GetLearnedKnowledge
+ms.keywords: GetLearnedKnowledge, GetLearnedKnowledge method [Windows Sync], GetLearnedKnowledge method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetLearnedKnowledge method, ISyncChange.GetLearnedKnowledge, ISyncChange::GetLearnedKnowledge, winsync.isyncchange_getlearnedknowledge, winsync/ISyncChange::GetLearnedKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChange::GetLearnedKnowledge method
+# ISyncChange::GetLearnedKnowledge
 
 
 ## -description

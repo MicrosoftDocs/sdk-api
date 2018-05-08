@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_PolylineCusps
-title: IInkStrokeDisp::get_PolylineCusps method
+title: IInkStrokeDisp::get_PolylineCusps
 author: windows-driver-content
 description: Gets an array that contains the indices of the cusps of the IInkStrokeDisp object.
 old-location: tablet\iinkstrokedisp_polylinecusps.htm
 old-project: tablet
 ms.assetid: 67ae7265-4416-4eef-8a8f-85f3a5751200
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 67ae7265-4416-4eef-8a8f-85f3a5751200, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], PolylineCusps property, IInkStrokeDisp.PolylineCusps, IInkStrokeDisp.get_PolylineCusps, IInkStrokeDisp::get_PolylineCusps, PolylineCusps property [Tablet PC], PolylineCusps property [Tablet PC], IInkStrokeDisp interface, get_PolylineCusps,IInkStrokeDisp.get_PolylineCusps, msinkaut/IInkStrokeDisp::PolylineCusps, msinkaut/IInkStrokeDisp::get_PolylineCusps, tablet.iinkstrokedisp_polylinecusps
+ms.date: 5/2/2018
+ms.keywords: 67ae7265-4416-4eef-8a8f-85f3a5751200, IInkStrokeDisp interface [Tablet PC],PolylineCusps property, IInkStrokeDisp.PolylineCusps, IInkStrokeDisp.get_PolylineCusps, IInkStrokeDisp::PolylineCusps, IInkStrokeDisp::get_PolylineCusps, PolylineCusps property [Tablet PC], PolylineCusps property [Tablet PC],IInkStrokeDisp interface, get_PolylineCusps, msinkaut/IInkStrokeDisp::PolylineCusps, msinkaut/IInkStrokeDisp::get_PolylineCusps, tablet.iinkstrokedisp_polylinecusps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::get_PolylineCusps method
+# IInkStrokeDisp::get_PolylineCusps
 
 
 ## -description

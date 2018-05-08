@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.BeginSubscribeToEvents
-title: IUPnPServiceAsync::BeginSubscribeToEvents method
+title: IUPnPServiceAsync::BeginSubscribeToEvents
 author: windows-driver-content
 description: BeginSubscribeToEvents initiates event subscription in asynchronous mode and registers the application callback with the UPnP framework.
 old-location: upnp\iupnpserviceasync_beginsubscribetoevents.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: 605629CB-9DBA-4130-B55D-957187551435
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: BeginSubscribeToEvents method [UPnP APIs], BeginSubscribeToEvents method [UPnP APIs], IUPnPServiceAsync interface, BeginSubscribeToEvents,IUPnPServiceAsync.BeginSubscribeToEvents, IUPnPServiceAsync, IUPnPServiceAsync interface [UPnP APIs], BeginSubscribeToEvents method, IUPnPServiceAsync::BeginSubscribeToEvents, upnp.iupnpserviceasync_beginsubscribetoevents, upnp/IUPnPServiceAsync::BeginSubscribeToEvents
+ms.keywords: BeginSubscribeToEvents, BeginSubscribeToEvents method [UPnP APIs], BeginSubscribeToEvents method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginSubscribeToEvents method, IUPnPServiceAsync.BeginSubscribeToEvents, IUPnPServiceAsync::BeginSubscribeToEvents, upnp.iupnpserviceasync_beginsubscribetoevents, upnp/IUPnPServiceAsync::BeginSubscribeToEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPServiceAsync::BeginSubscribeToEvents method
+# IUPnPServiceAsync::BeginSubscribeToEvents
 
 
 ## -description

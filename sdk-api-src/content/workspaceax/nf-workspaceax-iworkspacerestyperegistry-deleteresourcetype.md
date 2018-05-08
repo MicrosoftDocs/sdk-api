@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.DeleteResourceType
-title: IWorkspaceResTypeRegistry::DeleteResourceType method
+title: IWorkspaceResTypeRegistry::DeleteResourceType
 author: windows-driver-content
 description: Unregisters a third-party file name extension with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_deleteresourcetype.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: a50bd4a0-8f59-4ed9-8f5f-c2522540c41e
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DeleteResourceType method [Remote Desktop Services], DeleteResourceType method [Remote Desktop Services], IWorkspaceResTypeRegistry interface, DeleteResourceType method [Remote Desktop Services], Workspace object, DeleteResourceType,IWorkspaceResTypeRegistry.DeleteResourceType, IWorkspaceResTypeRegistry, IWorkspaceResTypeRegistry interface [Remote Desktop Services], DeleteResourceType method, IWorkspaceResTypeRegistry::DeleteResourceType, Workspace object [Remote Desktop Services], DeleteResourceType method, termserv.iworkspacerestyperegistry_deleteresourcetype, workspaceax/IWorkspaceResTypeRegistry::DeleteResourceType
+ms.keywords: DeleteResourceType, DeleteResourceType method [Remote Desktop Services], DeleteResourceType method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, DeleteResourceType method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],DeleteResourceType method, IWorkspaceResTypeRegistry.DeleteResourceType, IWorkspaceResTypeRegistry::DeleteResourceType, Workspace object [Remote Desktop Services],DeleteResourceType method, termserv.iworkspacerestyperegistry_deleteresourcetype, workspaceax/IWorkspaceResTypeRegistry::DeleteResourceType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWorkspaceResTypeRegistry::DeleteResourceType method
+# IWorkspaceResTypeRegistry::DeleteResourceType
 
 
 ## -description

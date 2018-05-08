@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbPluginNotifySink.OnTerminated
-title: ITsSbPluginNotifySink::OnTerminated method
+title: ITsSbPluginNotifySink::OnTerminated
 author: windows-driver-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of Terminate.
 old-location: termserv\itssbpluginnotifysink_onterminated.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 554139f5-dd20-4bca-8eae-4621535616e6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbPluginNotifySink, ITsSbPluginNotifySink interface [Remote Desktop Services], OnTerminated method, ITsSbPluginNotifySink::OnTerminated, OnTerminated method [Remote Desktop Services], OnTerminated method [Remote Desktop Services], ITsSbPluginNotifySink interface, OnTerminated,ITsSbPluginNotifySink.OnTerminated, sbtsv/ITsSbPluginNotifySink::OnTerminated, termserv.itssbpluginnotifysink_onterminated
+ms.keywords: ITsSbPluginNotifySink interface [Remote Desktop Services],OnTerminated method, ITsSbPluginNotifySink.OnTerminated, ITsSbPluginNotifySink::OnTerminated, OnTerminated, OnTerminated method [Remote Desktop Services], OnTerminated method [Remote Desktop Services],ITsSbPluginNotifySink interface, sbtsv/ITsSbPluginNotifySink::OnTerminated, termserv.itssbpluginnotifysink_onterminated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbPluginNotifySink::OnTerminated method
+# ITsSbPluginNotifySink::OnTerminated
 
 
 ## -description

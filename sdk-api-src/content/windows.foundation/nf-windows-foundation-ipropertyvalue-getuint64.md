@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt64
-title: IPropertyValue::GetUInt64 method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the unsigned 64-bit integer value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getuint64.htm
 old-project: WinRT
 ms.assetid: 2FD209CA-9A8D-40F3-B82E-E80A7D212A5D
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetUInt64 method [Windows Runtime], GetUInt64 method [Windows Runtime], IPropertyValue interface, GetUInt64,IPropertyValue.GetUInt64, IPropertyValue, IPropertyValue interface [Windows Runtime], GetUInt64 method, IPropertyValue::GetUInt64, windows/IPropertyValue::GetUInt64, winrt.ipropertyvalue_getuint64
+ms.date: 5/4/2018
+ms.keywords: GetUInt64, GetUInt64 method [Windows Runtime], GetUInt64 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt64 method, IPropertyValue.GetUInt64, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt64, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt64, winrt.ipropertyvalue_getuint64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetUInt64 method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

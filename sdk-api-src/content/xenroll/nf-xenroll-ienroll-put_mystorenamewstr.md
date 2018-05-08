@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.put_MyStoreNameWStr
-title: IEnroll::put_MyStoreNameWStr method
+title: IEnroll::put_MyStoreNameWStr
 author: windows-driver-content
 description: The MyStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where certificates with linked private keys are kept.
 old-location: security\ienroll4_mystorenamewstr.htm
 old-project: SecCrypto
 ms.assetid: 077bc593-0071-4f41-8d07-141c9959b6ed
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], MyStoreNameWStr property, IEnroll.MyStoreNameWStr, IEnroll::get_MyStoreNameWStr, IEnroll::put_MyStoreNameWStr, MyStoreNameWStr property [Security], MyStoreNameWStr property [Security], IEnroll interface, put_MyStoreNameWStr,IEnroll.put_MyStoreNameWStr, security.ienroll4_mystorenamewstr, xenroll/IEnroll::MyStoreNameWStr, xenroll/IEnroll::get_MyStoreNameWStr, xenroll/IEnroll::put_MyStoreNameWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],MyStoreNameWStr property, IEnroll.MyStoreNameWStr, IEnroll.put_MyStoreNameWStr, IEnroll::MyStoreNameWStr, IEnroll::get_MyStoreNameWStr, IEnroll::put_MyStoreNameWStr, MyStoreNameWStr property [Security], MyStoreNameWStr property [Security],IEnroll interface, put_MyStoreNameWStr, security.ienroll4_mystorenamewstr, xenroll/IEnroll::MyStoreNameWStr, xenroll/IEnroll::get_MyStoreNameWStr, xenroll/IEnroll::put_MyStoreNameWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::put_MyStoreNameWStr method
+# IEnroll::put_MyStoreNameWStr
 
 
 ## -description

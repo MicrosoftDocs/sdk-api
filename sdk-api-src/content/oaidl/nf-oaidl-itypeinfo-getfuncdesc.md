@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetFuncDesc
-title: ITypeInfo::GetFuncDesc method
+title: ITypeInfo::GetFuncDesc
 author: windows-driver-content
 description: Retrieves the FUNCDESC structure that contains information about a specified function.
 old-location: automat\itypeinfo_getfuncdesc.htm
 old-project: automat
 ms.assetid: 1e3331a2-0156-4d8f-aa7f-e32cecd3eb74
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetFuncDesc method [Automation], GetFuncDesc method [Automation], ITypeInfo interface, GetFuncDesc,ITypeInfo.GetFuncDesc, ITypeInfo, ITypeInfo interface [Automation], GetFuncDesc method, ITypeInfo::GetFuncDesc, _oa96_ITypeInfo_GetFuncDesc, automat.itypeinfo_getfuncdesc, oaidl/ITypeInfo::GetFuncDesc
+ms.date: 5/4/2018
+ms.keywords: GetFuncDesc, GetFuncDesc method [Automation], GetFuncDesc method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetFuncDesc method, ITypeInfo.GetFuncDesc, ITypeInfo::GetFuncDesc, _oa96_ITypeInfo_GetFuncDesc, automat.itypeinfo_getfuncdesc, oaidl/ITypeInfo::GetFuncDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo::GetFuncDesc method
+# ITypeInfo::GetFuncDesc
 
 
 ## -description

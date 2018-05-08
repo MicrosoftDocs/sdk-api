@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.CreateCustomAction
-title: IFsrmFileManagementJob::CreateCustomAction method
+title: IFsrmFileManagementJob::CreateCustomAction
 author: windows-driver-content
 description: Creates a custom action object.
 old-location: fsrm\ifsrmfilemanagementjob_createcustomaction.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 886992bd-ca0b-4f21-8036-39703c7c99ba
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreateCustomAction method [File Server Resource Manager], CreateCustomAction method [File Server Resource Manager], IFsrmFileManagementJob interface, CreateCustomAction,IFsrmFileManagementJob.CreateCustomAction, IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], CreateCustomAction method, IFsrmFileManagementJob::CreateCustomAction, fs.ifsrmfilemanagementjob_createcustomaction, fsrm.ifsrmfilemanagementjob_createcustomaction, fsrmreports/IFsrmFileManagementJob::CreateCustomAction
+ms.keywords: CreateCustomAction, CreateCustomAction method [File Server Resource Manager], CreateCustomAction method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],CreateCustomAction method, IFsrmFileManagementJob.CreateCustomAction, IFsrmFileManagementJob::CreateCustomAction, fs.ifsrmfilemanagementjob_createcustomaction, fsrm.ifsrmfilemanagementjob_createcustomaction, fsrmreports/IFsrmFileManagementJob::CreateCustomAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJob::CreateCustomAction method
+# IFsrmFileManagementJob::CreateCustomAction
 
 
 ## -description

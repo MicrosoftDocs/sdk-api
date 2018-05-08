@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetPixelShaderConstantF
-title: IDirect3DDevice9::GetPixelShaderConstantF method
+title: IDirect3DDevice9::GetPixelShaderConstantF
 author: windows-driver-content
 description: Gets a floating-point shader constant.
 old-location: direct3d9\idirect3ddevice9__getpixelshaderconstantf.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getpixelshaderconstantf.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 816b3869-d527-0369-a25d-c8da74027dff, GetPixelShaderConstantF method [Direct3D 9], GetPixelShaderConstantF method [Direct3D 9], IDirect3DDevice9 interface, GetPixelShaderConstantF,IDirect3DDevice9.GetPixelShaderConstantF, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetPixelShaderConstantF method, IDirect3DDevice9::GetPixelShaderConstantF, d3d9helper/IDirect3DDevice9::GetPixelShaderConstantF, direct3d9.idirect3ddevice9__getpixelshaderconstantf
+ms.keywords: 816b3869-d527-0369-a25d-c8da74027dff, GetPixelShaderConstantF, GetPixelShaderConstantF method [Direct3D 9], GetPixelShaderConstantF method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetPixelShaderConstantF method, IDirect3DDevice9.GetPixelShaderConstantF, IDirect3DDevice9::GetPixelShaderConstantF, d3d9helper/IDirect3DDevice9::GetPixelShaderConstantF, direct3d9.idirect3ddevice9__getpixelshaderconstantf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::GetPixelShaderConstantF method
+# IDirect3DDevice9::GetPixelShaderConstantF
 
 
 ## -description

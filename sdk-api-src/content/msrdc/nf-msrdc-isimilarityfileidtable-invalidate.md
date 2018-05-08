@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.Invalidate
-title: ISimilarityFileIdTable::Invalidate method
+title: ISimilarityFileIdTable::Invalidate
 author: windows-driver-content
 description: Marks a file ID as not valid in the similarity file ID table.
 old-location: rdc\isimilarityfileidtable_invalidate.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: fdd6ff92-d312-4789-b535-4859fa7c871c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISimilarityFileIdTable, ISimilarityFileIdTable interface [Remote Differential Compression], Invalidate method, ISimilarityFileIdTable::Invalidate, Invalidate method [Remote Differential Compression], Invalidate method [Remote Differential Compression], ISimilarityFileIdTable interface, Invalidate,ISimilarityFileIdTable.Invalidate, fs.isimilarityfileidtable_invalidate, msrdc/ISimilarityFileIdTable::Invalidate, rdc.isimilarityfileidtable_invalidate
+ms.keywords: ISimilarityFileIdTable interface [Remote Differential Compression],Invalidate method, ISimilarityFileIdTable.Invalidate, ISimilarityFileIdTable::Invalidate, Invalidate, Invalidate method [Remote Differential Compression], Invalidate method [Remote Differential Compression],ISimilarityFileIdTable interface, fs.isimilarityfileidtable_invalidate, msrdc/ISimilarityFileIdTable::Invalidate, rdc.isimilarityfileidtable_invalidate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityFileIdTable::Invalidate method
+# ISimilarityFileIdTable::Invalidate
 
 
 ## -description

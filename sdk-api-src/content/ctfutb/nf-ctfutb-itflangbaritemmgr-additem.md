@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.AddItem
-title: ITfLangBarItemMgr::AddItem method
+title: ITfLangBarItemMgr::AddItem
 author: windows-driver-content
 description: ITfLangBarItemMgr::AddItem method
 old-location: tsf\itflangbaritemmgr_additem.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c9a36b2c-e7ea-4932-928e-05dd05ca02ca
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AddItem method [Text Services Framework], AddItem method [Text Services Framework], ITfLangBarItemMgr interface, AddItem,ITfLangBarItemMgr.AddItem, ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Framework], AddItem method, ITfLangBarItemMgr::AddItem, _tsf_itflangbaritemmgr_additem_ref, ctfutb/ITfLangBarItemMgr::AddItem, tsf.itflangbaritemmgr_additem
+ms.keywords: AddItem, AddItem method [Text Services Framework], AddItem method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],AddItem method, ITfLangBarItemMgr.AddItem, ITfLangBarItemMgr::AddItem, _tsf_itflangbaritemmgr_additem_ref, ctfutb/ITfLangBarItemMgr::AddItem, tsf.itflangbaritemmgr_additem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemMgr::AddItem method
+# ITfLangBarItemMgr::AddItem
 
 
 ## -description

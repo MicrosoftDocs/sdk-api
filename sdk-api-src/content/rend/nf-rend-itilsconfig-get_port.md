@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITILSConfig.get_Port
-title: ITILSConfig::get_Port method
+title: ITILSConfig::get_Port
 author: windows-driver-content
 description: The get_Port method gets the port number used to connect to the server of a given ILS directory.
 old-location: tapi3\itilsconfig_get_port.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 7aa0a8e7-6799-4685-92a0-c2ce610d0e06
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITILSConfig, ITILSConfig interface [TAPI 2.2], get_Port method, ITILSConfig::get_Port, _tapi3_itilsconfig_get_port, get_Port method [TAPI 2.2], get_Port method [TAPI 2.2], ITILSConfig interface, get_Port,ITILSConfig.get_Port, rend/ITILSConfig::get_Port, tapi3.itilsconfig_get_port
+ms.keywords: ITILSConfig interface [TAPI 2.2],get_Port method, ITILSConfig.get_Port, ITILSConfig::get_Port, _tapi3_itilsconfig_get_port, get_Port, get_Port method [TAPI 2.2], get_Port method [TAPI 2.2],ITILSConfig interface, rend/ITILSConfig::get_Port, tapi3.itilsconfig_get_port
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITILSConfig::get_Port method
+# ITILSConfig::get_Port
 
 
 ## -description

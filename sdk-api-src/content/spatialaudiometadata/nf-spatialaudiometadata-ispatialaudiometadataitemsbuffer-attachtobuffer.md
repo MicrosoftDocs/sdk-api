@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer.AttachToBuffer
-title: ISpatialAudioMetadataItemsBuffer::AttachToBuffer method
+title: ISpatialAudioMetadataItemsBuffer::AttachToBuffer
 author: windows-driver-content
 description: Attaches caller-provided memory for storage of ISpatialAudioMetadataItems objects.
 old-location: coreaudio\ispatialaudiometadataitemsbuffer_attachtobuffer.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: CAB1E4C6-5572-47D0-B96F-0479773B8106
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: AttachToBuffer method [Core Audio], AttachToBuffer method [Core Audio], ISpatialAudioMetadataItemsBuffer interface, AttachToBuffer,ISpatialAudioMetadataItemsBuffer.AttachToBuffer, ISpatialAudioMetadataItemsBuffer, ISpatialAudioMetadataItemsBuffer interface [Core Audio], AttachToBuffer method, ISpatialAudioMetadataItemsBuffer::AttachToBuffer, coreaudio.ispatialaudiometadataitemsbuffer_attachtobuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToBuffer
+ms.keywords: AttachToBuffer, AttachToBuffer method [Core Audio], AttachToBuffer method [Core Audio],ISpatialAudioMetadataItemsBuffer interface, ISpatialAudioMetadataItemsBuffer interface [Core Audio],AttachToBuffer method, ISpatialAudioMetadataItemsBuffer.AttachToBuffer, ISpatialAudioMetadataItemsBuffer::AttachToBuffer, coreaudio.ispatialaudiometadataitemsbuffer_attachtobuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataItemsBuffer::AttachToBuffer method
+# ISpatialAudioMetadataItemsBuffer::AttachToBuffer
 
 
 ## -description

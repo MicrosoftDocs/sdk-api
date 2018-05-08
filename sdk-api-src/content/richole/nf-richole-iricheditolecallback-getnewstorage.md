@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOleCallback.GetNewStorage
-title: IRichEditOleCallback::GetNewStorage method
+title: IRichEditOleCallback::GetNewStorage
 author: windows-driver-content
 description: Provides storage for a new object pasted from the clipboard or read in from an Rich Text Format (RTF) stream.
 old-location: controls\IRichEditOleCallback_GetNewStorage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetnewstorage.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetNewStorage method [Windows Controls], GetNewStorage method [Windows Controls], IRichEditOleCallback interface, GetNewStorage,IRichEditOleCallback.GetNewStorage, IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], GetNewStorage method, IRichEditOleCallback::GetNewStorage, _win32_IRichEditOleCallback_GetNewStorage, _win32_IRichEditOleCallback_GetNewStorage_cpp, controls.IRichEditOleCallback_GetNewStorage, controls._win32_IRichEditOleCallback_GetNewStorage, richole/IRichEditOleCallback::GetNewStorage
+ms.date: 4/27/2018
+ms.keywords: GetNewStorage, GetNewStorage method [Windows Controls], GetNewStorage method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetNewStorage method, IRichEditOleCallback.GetNewStorage, IRichEditOleCallback::GetNewStorage, _win32_IRichEditOleCallback_GetNewStorage, _win32_IRichEditOleCallback_GetNewStorage_cpp, controls.IRichEditOleCallback_GetNewStorage, controls._win32_IRichEditOleCallback_GetNewStorage, richole/IRichEditOleCallback::GetNewStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOleCallback::GetNewStorage method
+# IRichEditOleCallback::GetNewStorage
 
 
 ## -description

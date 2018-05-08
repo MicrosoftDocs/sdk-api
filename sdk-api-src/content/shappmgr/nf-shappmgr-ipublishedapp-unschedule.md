@@ -1,14 +1,14 @@
 ---
 UID: NF:shappmgr.IPublishedApp.Unschedule
-title: IPublishedApp::Unschedule method
+title: IPublishedApp::Unschedule
 author: windows-driver-content
 description: Cancels the installation of an application published by an application publisher.
 old-location: shell\IPublishedApp_Unschedule.htm
 old-project: shell
 ms.assetid: c0d5a8cb-d382-4d7a-8d09-2dd153c03294
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IPublishedApp, IPublishedApp interface [Windows Shell], Unschedule method, IPublishedApp::Unschedule, Unschedule method [Windows Shell], Unschedule method [Windows Shell], IPublishedApp interface, Unschedule,IPublishedApp.Unschedule, inet_IPublishedApp_Unschedule, shappmgr/IPublishedApp::Unschedule, shell.IPublishedApp_Unschedule
+ms.date: 5/3/2018
+ms.keywords: IPublishedApp interface [Windows Shell],Unschedule method, IPublishedApp.Unschedule, IPublishedApp::Unschedule, Unschedule, Unschedule method [Windows Shell], Unschedule method [Windows Shell],IPublishedApp interface, inet_IPublishedApp_Unschedule, shappmgr/IPublishedApp::Unschedule, shell.IPublishedApp_Unschedule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPublishedApp::Unschedule method
+# IPublishedApp::Unschedule
 
 
 ## -description

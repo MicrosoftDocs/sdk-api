@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.CreateOffscreenPlainSurfaceEx
-title: IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx method
+title: IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx
 author: windows-driver-content
 description: Create an off-screen surface.
 old-location: direct3d9\idirect3ddevice9ex_createoffscreenplainsurfaceex.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_createoffscreenplainsurfaceex.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 63d121fa-1b4f-16db-b792-c30558006ddb, CreateOffscreenPlainSurfaceEx method [Direct3D 9], CreateOffscreenPlainSurfaceEx method [Direct3D 9], IDirect3DDevice9Ex interface, CreateOffscreenPlainSurfaceEx,IDirect3DDevice9Ex.CreateOffscreenPlainSurfaceEx, IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], CreateOffscreenPlainSurfaceEx method, IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx, d3d9/IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx, direct3d9.idirect3ddevice9ex_createoffscreenplainsurfaceex
+ms.keywords: 63d121fa-1b4f-16db-b792-c30558006ddb, CreateOffscreenPlainSurfaceEx, CreateOffscreenPlainSurfaceEx method [Direct3D 9], CreateOffscreenPlainSurfaceEx method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],CreateOffscreenPlainSurfaceEx method, IDirect3DDevice9Ex.CreateOffscreenPlainSurfaceEx, IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx, d3d9/IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx, direct3d9.idirect3ddevice9ex_createoffscreenplainsurfaceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx method
+# IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: mf\mfasyncresult.htm
 old-project: medfound
 ms.assetid: fffa32d6-5e9f-42a1-9978-04f5726528bc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MFASYNCRESULT, MFASYNCRESULT structure [Media Foundation], fffa32d6-5e9f-42a1-9978-04f5726528bc, mf.mfasyncresult, mfapi/MFASYNCRESULT, tagMFASYNCRESULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MFASYNCRESULT, MFASYNCRESULT
+req.typenames: MFASYNCRESULT
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource3.FindProxyForURLEx2
-title: IWMSInternalAdminNetSource3::FindProxyForURLEx2 method
+title: IWMSInternalAdminNetSource3::FindProxyForURLEx2
 author: windows-driver-content
 description: The FindProxyForURLEx2 method finds a proxy server name and port to use for the user.
 old-location: wmformat\iwmsinternaladminnetsource3_findproxyforurlex2.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 03c52ed2-bf77-4013-89d6-544d048f1056
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: FindProxyForURLEx2 method [windows Media Format], FindProxyForURLEx2 method [windows Media Format], IWMSInternalAdminNetSource3 interface, FindProxyForURLEx2,IWMSInternalAdminNetSource3.FindProxyForURLEx2, IWMSInternalAdminNetSource3, IWMSInternalAdminNetSource3 interface [windows Media Format], FindProxyForURLEx2 method, IWMSInternalAdminNetSource3::FindProxyForURLEx2, IWMSInternalAdminNetSource3FindProxyForURLEx2, wmformat.iwmsinternaladminnetsource3_findproxyforurlex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::FindProxyForURLEx2
+ms.keywords: FindProxyForURLEx2, FindProxyForURLEx2 method [windows Media Format], FindProxyForURLEx2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, IWMSInternalAdminNetSource3 interface [windows Media Format],FindProxyForURLEx2 method, IWMSInternalAdminNetSource3.FindProxyForURLEx2, IWMSInternalAdminNetSource3::FindProxyForURLEx2, IWMSInternalAdminNetSource3FindProxyForURLEx2, wmformat.iwmsinternaladminnetsource3_findproxyforurlex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::FindProxyForURLEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSInternalAdminNetSource3::FindProxyForURLEx2 method
+# IWMSInternalAdminNetSource3::FindProxyForURLEx2
 
 
 ## -description

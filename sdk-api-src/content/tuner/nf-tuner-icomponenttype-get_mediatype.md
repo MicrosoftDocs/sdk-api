@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentType.get_MediaType
-title: IComponentType::get_MediaType method
+title: IComponentType::get_MediaType
 author: windows-driver-content
 description: The get_MediaType method retrieves the DirectShow AM_MEDIA_TYPE structure for the component.
 old-location: mstv\icomponenttype_get_mediatype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ca13cfc0-3e51-41cd-9405-aaa96927a35c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies], get_MediaType method, IComponentType::get_MediaType, IComponentTypeget_MediaType, get_MediaType method [Microsoft TV Technologies], get_MediaType method [Microsoft TV Technologies], IComponentType interface, get_MediaType,IComponentType.get_MediaType, mstv.icomponenttype_get_mediatype, tuner/IComponentType::get_MediaType
+ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaType method, IComponentType.get_MediaType, IComponentType::get_MediaType, IComponentTypeget_MediaType, get_MediaType, get_MediaType method [Microsoft TV Technologies], get_MediaType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediatype, tuner/IComponentType::get_MediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IComponentType::get_MediaType method
+# IComponentType::get_MediaType
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.RefreshLicense
-title: IWMPContentPartner::RefreshLicense method
+title: IWMPContentPartner::RefreshLicense
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The RefreshLicense method initiates the update of a license for the specified media file.
 old-location: wmp\iwmpcontentpartner_refreshlicense.htm
 old-project: WMP
 ms.assetid: 2f0d8ed9-027c-45a3-a61a-f6d571e78a0a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], RefreshLicense method, IWMPContentPartner::RefreshLicense, IWMPContentPartnerRefreshLicense, RefreshLicense method [Windows Media Player], RefreshLicense method [Windows Media Player], IWMPContentPartner interface, RefreshLicense,IWMPContentPartner.RefreshLicense, contentpartner/IWMPContentPartner::RefreshLicense, wmp.iwmpcontentpartner_refreshlicense
+ms.date: 5/4/2018
+ms.keywords: IWMPContentPartner interface [Windows Media Player],RefreshLicense method, IWMPContentPartner.RefreshLicense, IWMPContentPartner::RefreshLicense, IWMPContentPartnerRefreshLicense, RefreshLicense, RefreshLicense method [Windows Media Player], RefreshLicense method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::RefreshLicense, wmp.iwmpcontentpartner_refreshlicense
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::RefreshLicense method
+# IWMPContentPartner::RefreshLicense
 
 
 ## -description

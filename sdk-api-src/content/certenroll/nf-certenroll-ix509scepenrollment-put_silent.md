@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.put_Silent
-title: IX509SCEPEnrollment::put_Silent method
+title: IX509SCEPEnrollment::put_Silent
 author: windows-driver-content
 description: Gets or sets whether to allow UI during the request.
 old-location: security\ix509scepenrollment_silent.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 6c672181-fdfa-4e9c-9e19-2af9d8bf3a03
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509SCEPEnrollment, IX509SCEPEnrollment interface [Security], Silent property, IX509SCEPEnrollment.Silent, IX509SCEPEnrollment::put_Silent, Silent property [Security], Silent property [Security], IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Silent, certenroll/IX509SCEPEnrollment::put_Silent, put_Silent,IX509SCEPEnrollment.put_Silent, security.ix509scepenrollment_silent
+ms.keywords: IX509SCEPEnrollment interface [Security],Silent property, IX509SCEPEnrollment.Silent, IX509SCEPEnrollment.put_Silent, IX509SCEPEnrollment::Silent, IX509SCEPEnrollment::put_Silent, Silent property [Security], Silent property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Silent, certenroll/IX509SCEPEnrollment::put_Silent, put_Silent, security.ix509scepenrollment_silent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenroll.dll
 req.irql: 
 ---
 
-# IX509SCEPEnrollment::put_Silent method
+# IX509SCEPEnrollment::put_Silent
 
 
 ## -description

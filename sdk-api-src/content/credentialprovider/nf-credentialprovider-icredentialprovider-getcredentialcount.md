@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetCredentialCount
-title: ICredentialProvider::GetCredentialCount method
+title: ICredentialProvider::GetCredentialCount
 author: windows-driver-content
 description: Gets the number of available credentials under this credential provider.
 old-location: shell\ICredentialProvider_GetCredentialCount.htm
 old-project: shell
 ms.assetid: 7d940d46-d4c2-4ab5-8559-416d78d3579e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCredentialCount method [Windows Shell], GetCredentialCount method [Windows Shell], ICredentialProvider interface, GetCredentialCount,ICredentialProvider.GetCredentialCount, ICredentialProvider, ICredentialProvider interface [Windows Shell], GetCredentialCount method, ICredentialProvider::GetCredentialCount, credentialprovider/ICredentialProvider::GetCredentialCount, shell.ICredentialProvider_GetCredentialCount, shell_ICredentialProvider_GetCredentialCount
+ms.date: 5/3/2018
+ms.keywords: GetCredentialCount, GetCredentialCount method [Windows Shell], GetCredentialCount method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetCredentialCount method, ICredentialProvider.GetCredentialCount, ICredentialProvider::GetCredentialCount, credentialprovider/ICredentialProvider::GetCredentialCount, shell.ICredentialProvider_GetCredentialCount, shell_ICredentialProvider_GetCredentialCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProvider::GetCredentialCount method
+# ICredentialProvider::GetCredentialCount
 
 
 ## -description

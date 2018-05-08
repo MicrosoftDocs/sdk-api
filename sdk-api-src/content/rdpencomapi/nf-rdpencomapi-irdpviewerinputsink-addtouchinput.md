@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.AddTouchInput
-title: IRDPViewerInputSink::AddTouchInput method
+title: IRDPViewerInputSink::AddTouchInput
 author: windows-driver-content
 description: Accepts a description of a touch input.
 old-location: rdp\irdpviewerinputsink_addtouchinput.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 5DD220B8-505E-43AE-9438-F1D553AABB0B
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: AddTouchInput method [RDP], AddTouchInput method [RDP], IRDPViewerInputSink interface, AddTouchInput,IRDPViewerInputSink.AddTouchInput, IRDPViewerInputSink, IRDPViewerInputSink interface [RDP], AddTouchInput method, IRDPViewerInputSink::AddTouchInput, rdp.irdpviewerinputsink_addtouchinput, rdpencomapi/IRDPViewerInputSink::AddTouchInput
+ms.keywords: AddTouchInput, AddTouchInput method [RDP], AddTouchInput method [RDP],IRDPViewerInputSink interface, IRDPViewerInputSink interface [RDP],AddTouchInput method, IRDPViewerInputSink.AddTouchInput, IRDPViewerInputSink::AddTouchInput, rdp.irdpviewerinputsink_addtouchinput, rdpencomapi/IRDPViewerInputSink::AddTouchInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPViewerInputSink::AddTouchInput method
+# IRDPViewerInputSink::AddTouchInput
 
 
 ## -description

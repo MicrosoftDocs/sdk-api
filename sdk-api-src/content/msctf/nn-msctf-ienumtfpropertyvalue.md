@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 7f99df15-777c-46eb-bff3-542eb1fcc428
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfPropertyValue, IEnumTfPropertyValue interface [Text Services Framework], IEnumTfPropertyValue interface [Text Services Framework], described, _tsf_ienumtfpropertyvalue_ref, msctf/IEnumTfPropertyValue, tsf.ienumtfpropertyvalue
+ms.keywords: IEnumTfPropertyValue, IEnumTfPropertyValue interface [Text Services Framework], IEnumTfPropertyValue interface [Text Services Framework],described, _tsf_ienumtfpropertyvalue_ref, msctf/IEnumTfPropertyValue, tsf.ienumtfpropertyvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

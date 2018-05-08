@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNative.BeginDraw
-title: ISurfaceImageSourceNative::BeginDraw method
+title: ISurfaceImageSourceNative::xaml
 author: windows-driver-content
 description: Opens the supplied DXGI surface for drawing.
 old-location: winrt\isurfaceimagesourcenative_begindraw.htm
 old-project: WinRT
 ms.assetid: 9F08AF78-AD8B-4AFC-ABFF-7006873FA506
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: BeginDraw method [Windows Runtime], BeginDraw method [Windows Runtime], ISurfaceImageSourceNative interface, BeginDraw,ISurfaceImageSourceNative.BeginDraw, ISurfaceImageSourceNative, ISurfaceImageSourceNative interface [Windows Runtime], BeginDraw method, ISurfaceImageSourceNative::BeginDraw, windows/ISurfaceImageSourceNative::BeginDraw, winrt.isurfaceimagesourcenative_begindraw
+ms.date: 5/4/2018
+ms.keywords: BeginDraw, BeginDraw method [Windows Runtime], BeginDraw method [Windows Runtime],ISurfaceImageSourceNative interface, ISurfaceImageSourceNative interface [Windows Runtime],BeginDraw method, ISurfaceImageSourceNative.BeginDraw, ISurfaceImageSourceNative.xaml, ISurfaceImageSourceNative::BeginDraw, ISurfaceImageSourceNative::xaml, windows/ISurfaceImageSourceNative::BeginDraw, winrt.isurfaceimagesourcenative_begindraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISurfaceImageSourceNative::BeginDraw method
+# ISurfaceImageSourceNative::xaml
 
 
 ## -description

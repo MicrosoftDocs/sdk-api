@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 4a5fae5a-91d5-4a94-ac54-cb641147e8dc
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], IMbnSms interface [Microsoft Broadband Networks], described, mbn.imbnsms, mbnapi/IMbnSms
+ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], IMbnSms interface [Microsoft Broadband Networks],described, mbn.imbnsms, mbnapi/IMbnSms
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethods.get_Item
-title: IFaxInboundRoutingMethods::get_Item method
+title: IFaxInboundRoutingMethods::get_Item
 author: windows-driver-content
 description: The IFaxInboundRoutingMethods::get_Item method returns a IFaxInboundRoutingMethod object from the IFaxInboundRoutingMethods collection.
 old-location: fax\_mfax_faxinboundroutingmethods_item_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6m5p_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxInboundRoutingMethods, IFaxInboundRoutingMethods interface [Fax Service], get_Item method, IFaxInboundRoutingMethods::get_Item, _mfax_faxinboundroutingmethods.item_cpp, fax._mfax_faxinboundroutingmethods_item_cpp, faxcomex/IFaxInboundRoutingMethods::get_Item, get_Item method [Fax Service], get_Item method [Fax Service], IFaxInboundRoutingMethods interface, get_Item,IFaxInboundRoutingMethods.get_Item
+ms.keywords: IFaxInboundRoutingMethods interface [Fax Service],get_Item method, IFaxInboundRoutingMethods.get_Item, IFaxInboundRoutingMethods::get_Item, _mfax_faxinboundroutingmethods.item_cpp, fax._mfax_faxinboundroutingmethods_item_cpp, faxcomex/IFaxInboundRoutingMethods::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxInboundRoutingMethods interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxInboundRoutingMethods::get_Item method
+# IFaxInboundRoutingMethods::get_Item
 
 
 ## -description

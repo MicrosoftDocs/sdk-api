@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 4778069b-87d0-4379-95f7-718fe0d7a56c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: RasCustomEntryDlg, RasCustomEntryDlg callback function [RAS], RasCustomEntryDlgFn, _ras_rascustomentrydlg, rasdlg/RasCustomEntryDlg, rras.rascustomentrydlg
+ms.keywords: RasCustomEntryDlg, RasCustomEntryDlg callback function [RAS], RasCustomEntryDlgFn, RasCustomEntryDlgFn callback, _ras_rascustomentrydlg, rasdlg/RasCustomEntryDlg, rras.rascustomentrydlg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# RasCustomEntryDlgFn callback
+# RasCustomEntryDlgFn callback function
 
 
 ## -description

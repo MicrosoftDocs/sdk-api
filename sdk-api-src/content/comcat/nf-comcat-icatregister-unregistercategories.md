@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.ICatRegister.UnRegisterCategories
-title: ICatRegister::UnRegisterCategories method
+title: ICatRegister::UnRegisterCategories
 author: windows-driver-content
 description: Removes the registration of one or more component categories. Each component category consists of a CATID and a list of locale-dependent description strings.
 old-location: com\icatregister_unregistercategories.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 29b7df20-bab0-419c-a13b-132ee5b0272d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICatRegister, ICatRegister interface [COM], UnRegisterCategories method, ICatRegister::UnRegisterCategories, UnRegisterCategories method [COM], UnRegisterCategories method [COM], ICatRegister interface, UnRegisterCategories,ICatRegister.UnRegisterCategories, _com_icatregister_unregistercategories, com.icatregister_unregistercategories, comcat/ICatRegister::UnRegisterCategories
+ms.keywords: ICatRegister interface [COM],UnRegisterCategories method, ICatRegister.UnRegisterCategories, ICatRegister::UnRegisterCategories, UnRegisterCategories, UnRegisterCategories method [COM], UnRegisterCategories method [COM],ICatRegister interface, _com_icatregister_unregistercategories, com.icatregister_unregistercategories, comcat/ICatRegister::UnRegisterCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICatRegister::UnRegisterCategories method
+# ICatRegister::UnRegisterCategories
 
 
 ## -description

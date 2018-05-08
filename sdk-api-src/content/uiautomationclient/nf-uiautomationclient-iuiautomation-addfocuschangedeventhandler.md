@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.AddFocusChangedEventHandler
-title: IUIAutomation::AddFocusChangedEventHandler method
+title: IUIAutomation::AddFocusChangedEventHandler
 author: windows-driver-content
 description: Registers a method that handles focus-changed events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
 old-location: winauto\uiauto_IUIAutomation_AddFocusChangedEventHandler.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 469e9c3e-366f-4c13-8c27-58fdb705d4d9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: AddFocusChangedEventHandler method [Windows Accessibility], AddFocusChangedEventHandler method [Windows Accessibility], IUIAutomation interface, AddFocusChangedEventHandler,IUIAutomation.AddFocusChangedEventHandler, IUIAutomation, IUIAutomation interface [Windows Accessibility], AddFocusChangedEventHandler method, IUIAutomation::AddFocusChangedEventHandler, uiauto.uiauto_IUIAutomation_AddFocusChangedEventHandler, uiauto_IUIAutomation_AddFocusChangedEventHandler, uiautomationclient/IUIAutomation::AddFocusChangedEventHandler, winauto.uiauto_IUIAutomation_AddFocusChangedEventHandler
+ms.keywords: AddFocusChangedEventHandler, AddFocusChangedEventHandler method [Windows Accessibility], AddFocusChangedEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddFocusChangedEventHandler method, IUIAutomation.AddFocusChangedEventHandler, IUIAutomation::AddFocusChangedEventHandler, uiauto.uiauto_IUIAutomation_AddFocusChangedEventHandler, uiauto_IUIAutomation_AddFocusChangedEventHandler, uiautomationclient/IUIAutomation::AddFocusChangedEventHandler, winauto.uiauto_IUIAutomation_AddFocusChangedEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::AddFocusChangedEventHandler method
+# IUIAutomation::AddFocusChangedEventHandler
 
 
 ## -description

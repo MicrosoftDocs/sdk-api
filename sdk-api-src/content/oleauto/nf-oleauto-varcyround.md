@@ -7,7 +7,7 @@ old-location: automat\varcyround.htm
 old-project: automat
 ms.assetid: d1292247-cf8a-46cc-94c9-858ec5d8cad7
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarCyRound, VarCyRound function [Automation], _oa96_VarCyRound, automat.varcyround, oleauto/VarCyRound
 ms.prod: windows-hardware
 ms.technology: windows-devices

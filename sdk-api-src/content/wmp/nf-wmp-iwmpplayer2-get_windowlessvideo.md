@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayer2.get_windowlessVideo
-title: IWMPPlayer2::get_windowlessVideo method
+title: IWMPPlayer2::get_windowlessVideo
 author: windows-driver-content
 description: The get_windowlessVideo method retrieves a value indicating whether the Windows Media Player control renders video in windowless mode.
 old-location: wmp\iwmpplayer2_get_windowlessvideo.htm
 old-project: WMP
 ms.assetid: da1cfa7c-aa79-4711-8de2-d83317e5598f
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayer2, IWMPPlayer2 interface [Windows Media Player], get_windowlessVideo method, IWMPPlayer2::get_windowlessVideo, IWMPPlayer2get_windowlessVideo, get_windowlessVideo method [Windows Media Player], get_windowlessVideo method [Windows Media Player], IWMPPlayer2 interface, get_windowlessVideo,IWMPPlayer2.get_windowlessVideo, wmp.iwmpplayer2_get_windowlessvideo, wmp/IWMPPlayer2::get_windowlessVideo
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayer2 interface [Windows Media Player],get_windowlessVideo method, IWMPPlayer2.get_windowlessVideo, IWMPPlayer2::get_windowlessVideo, IWMPPlayer2get_windowlessVideo, get_windowlessVideo, get_windowlessVideo method [Windows Media Player], get_windowlessVideo method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_get_windowlessvideo, wmp/IWMPPlayer2::get_windowlessVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayer2::get_windowlessVideo method
+# IWMPPlayer2::get_windowlessVideo
 
 
 ## -description

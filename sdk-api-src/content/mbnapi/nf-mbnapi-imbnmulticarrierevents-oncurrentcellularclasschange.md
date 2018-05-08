@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnCurrentCellularClassChange
-title: IMbnMultiCarrierEvents::OnCurrentCellularClassChange method
+title: IMbnMultiCarrierEvents::OnCurrentCellularClassChange
 author: windows-driver-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a GetCurrentCellularClass operation.
 old-location: mbn\imbnmulticarrierevents_oncurrentcellularclasschange.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 76B5349E-EA51-422D-81BC-A93B85FBCF90
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnMultiCarrierEvents, IMbnMultiCarrierEvents interface [Microsoft Broadband Networks], OnCurrentCellularClassChange method, IMbnMultiCarrierEvents::OnCurrentCellularClassChange, OnCurrentCellularClassChange method [Microsoft Broadband Networks], OnCurrentCellularClassChange method [Microsoft Broadband Networks], IMbnMultiCarrierEvents interface, OnCurrentCellularClassChange,IMbnMultiCarrierEvents.OnCurrentCellularClassChange, mbn.imbnmulticarrierevents_oncurrentcellularclasschange, mbnapi/IMbnMultiCarrierEvents::OnCurrentCellularClassChange
+ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnCurrentCellularClassChange method, IMbnMultiCarrierEvents.OnCurrentCellularClassChange, IMbnMultiCarrierEvents::OnCurrentCellularClassChange, OnCurrentCellularClassChange, OnCurrentCellularClassChange method [Microsoft Broadband Networks], OnCurrentCellularClassChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_oncurrentcellularclasschange, mbnapi/IMbnMultiCarrierEvents::OnCurrentCellularClassChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnMultiCarrierEvents::OnCurrentCellularClassChange method
+# IMbnMultiCarrierEvents::OnCurrentCellularClassChange
 
 
 ## -description

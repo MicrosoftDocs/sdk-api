@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IStylusPlugin.TabletRemoved
-title: IStylusPlugin::TabletRemoved method
+title: IStylusPlugin::TabletRemoved
 author: windows-driver-content
 description: Notifies an implementing plug-in when an ITablet object is removed from the system.
 old-location: tablet\istylusplugin_tabletremoved.htm
 old-project: tablet
 ms.assetid: b953c2f8-3f49-4b7a-af4a-528c8815b066
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], TabletRemoved method, IStylusPlugin::TabletRemoved, TabletRemoved method [Tablet PC], TabletRemoved method [Tablet PC], IStylusPlugin interface, TabletRemoved,IStylusPlugin.TabletRemoved, b953c2f8-3f49-4b7a-af4a-528c8815b066, rtscom/IStylusPlugin::TabletRemoved, tablet.istylusplugin_tabletremoved
+ms.date: 5/2/2018
+ms.keywords: IStylusPlugin interface [Tablet PC],TabletRemoved method, IStylusPlugin.TabletRemoved, IStylusPlugin::TabletRemoved, TabletRemoved, TabletRemoved method [Tablet PC], TabletRemoved method [Tablet PC],IStylusPlugin interface, b953c2f8-3f49-4b7a-af4a-528c8815b066, rtscom/IStylusPlugin::TabletRemoved, tablet.istylusplugin_tabletremoved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStylusPlugin::TabletRemoved method
+# IStylusPlugin::TabletRemoved
 
 
 ## -description

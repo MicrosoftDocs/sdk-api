@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetGammaControlCapabilities
-title: IDXGIOutput::GetGammaControlCapabilities method
+title: IDXGIOutput::GetGammaControlCapabilities
 author: windows-driver-content
 description: Gets a description of the gamma-control capabilities.
 old-location: direct3ddxgi\idxgioutput_getgammacontrolcapabilities.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getgammacontrolcapabilities.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 7a21bfd4-6142-892e-82c8-bfe1be182780, GetGammaControlCapabilities method [DXGI], GetGammaControlCapabilities method [DXGI], IDXGIOutput interface, GetGammaControlCapabilities,IDXGIOutput.GetGammaControlCapabilities, IDXGIOutput, IDXGIOutput interface [DXGI], GetGammaControlCapabilities method, IDXGIOutput::GetGammaControlCapabilities, direct3ddxgi.idxgioutput_getgammacontrolcapabilities, dxgi/IDXGIOutput::GetGammaControlCapabilities
+ms.keywords: 7a21bfd4-6142-892e-82c8-bfe1be182780, GetGammaControlCapabilities, GetGammaControlCapabilities method [DXGI], GetGammaControlCapabilities method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetGammaControlCapabilities method, IDXGIOutput.GetGammaControlCapabilities, IDXGIOutput::GetGammaControlCapabilities, direct3ddxgi.idxgioutput_getgammacontrolcapabilities, dxgi/IDXGIOutput::GetGammaControlCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput::GetGammaControlCapabilities method
+# IDXGIOutput::GetGammaControlCapabilities
 
 
 ## -description

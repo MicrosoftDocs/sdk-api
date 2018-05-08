@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice2.GetSpecifyPropertyPages
-title: IWMDMDevice2::GetSpecifyPropertyPages method
+title: IWMDMDevice2::GetSpecifyPropertyPages
 author: windows-driver-content
 description: The GetSpecifyPropertyPages method retrieves the property page for the device. Property pages can be used to report device-specific properties and branding information.
 old-location: wmdm\iwmdmdevice2_getspecifypropertypages.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: bc46af60-5d74-4ac6-b680-c47b55c444e0
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetSpecifyPropertyPages method [windows Media Device Manager], GetSpecifyPropertyPages method [windows Media Device Manager], IWMDMDevice2 interface, GetSpecifyPropertyPages,IWMDMDevice2.GetSpecifyPropertyPages, IWMDMDevice2, IWMDMDevice2 interface [windows Media Device Manager], GetSpecifyPropertyPages method, IWMDMDevice2::GetSpecifyPropertyPages, IWMDMDevice2GetSpecifyPropertyPages, mswmdm/IWMDMDevice2::GetSpecifyPropertyPages, wmdm.iwmdmdevice2_getspecifypropertypages
+ms.keywords: GetSpecifyPropertyPages, GetSpecifyPropertyPages method [windows Media Device Manager], GetSpecifyPropertyPages method [windows Media Device Manager],IWMDMDevice2 interface, IWMDMDevice2 interface [windows Media Device Manager],GetSpecifyPropertyPages method, IWMDMDevice2.GetSpecifyPropertyPages, IWMDMDevice2::GetSpecifyPropertyPages, IWMDMDevice2GetSpecifyPropertyPages, mswmdm/IWMDMDevice2::GetSpecifyPropertyPages, wmdm.iwmdmdevice2_getspecifypropertypages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMDevice2::GetSpecifyPropertyPages method
+# IWMDMDevice2::GetSpecifyPropertyPages
 
 
 ## -description

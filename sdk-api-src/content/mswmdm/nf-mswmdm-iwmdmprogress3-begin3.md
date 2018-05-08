@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMProgress3.Begin3
-title: IWMDMProgress3::Begin3 method
+title: IWMDMProgress3::Begin3
 author: windows-driver-content
 description: The Begin3 method is called by Windows Media Device Manager to indicate that an operation is about to begin.
 old-location: wmdm\iwmdmprogress3_begin3.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 8c794aff-9800-405e-853a-56dd5bd84665
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: Begin3 method [windows Media Device Manager], Begin3 method [windows Media Device Manager], IWMDMProgress3 interface, Begin3,IWMDMProgress3.Begin3, IWMDMProgress3, IWMDMProgress3 interface [windows Media Device Manager], Begin3 method, IWMDMProgress3::Begin3, IWMDMProgress3Begin3, mswmdm/IWMDMProgress3::Begin3, wmdm.iwmdmprogress3_begin3
+ms.keywords: Begin3, Begin3 method [windows Media Device Manager], Begin3 method [windows Media Device Manager],IWMDMProgress3 interface, IWMDMProgress3 interface [windows Media Device Manager],Begin3 method, IWMDMProgress3.Begin3, IWMDMProgress3::Begin3, IWMDMProgress3Begin3, mswmdm/IWMDMProgress3::Begin3, wmdm.iwmdmprogress3_begin3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMProgress3::Begin3 method
+# IWMDMProgress3::Begin3
 
 
 ## -description

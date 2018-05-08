@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.DisplayProperty
-title: IFEDictionary::DisplayProperty method
+title: IFEDictionary::DisplayProperty
 author: windows-driver-content
 description: This method is obsolete starting with Windows 8, and is no longer supported.
 old-location: intl\ifedictionary_displayproperty.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 5598D1DD-0254-4142-B91F-6BE36DD94228
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: DisplayProperty method [Internationalization for Windows Applications], DisplayProperty method [Internationalization for Windows Applications], IFEDictionary interface, DisplayProperty,IFEDictionary.DisplayProperty, IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], DisplayProperty method, IFEDictionary::DisplayProperty, intl.ifedictionary_displayproperty, msime/IFEDictionary::DisplayProperty
+ms.keywords: DisplayProperty, DisplayProperty method [Internationalization for Windows Applications], DisplayProperty method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],DisplayProperty method, IFEDictionary.DisplayProperty, IFEDictionary::DisplayProperty, intl.ifedictionary_displayproperty, msime/IFEDictionary::DisplayProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFEDictionary::DisplayProperty method
+# IFEDictionary::DisplayProperty
 
 
 ## -description

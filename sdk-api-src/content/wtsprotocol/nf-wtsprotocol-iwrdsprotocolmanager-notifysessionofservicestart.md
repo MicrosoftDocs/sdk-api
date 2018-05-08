@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifySessionOfServiceStart
-title: IWRdsProtocolManager::NotifySessionOfServiceStart method
+title: IWRdsProtocolManager::NotifySessionOfServiceStart
 author: windows-driver-content
 description: Notifies the protocol provider that the Remote Desktop Services service has started for a given session.
 old-location: termserv\iwrdsprotocolmanager_notifysessionofservicestart.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: b0beb07a-69a0-4cb8-adcb-f95d8fd721df
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolManager, IWRdsProtocolManager interface [Remote Desktop Services], NotifySessionOfServiceStart method, IWRdsProtocolManager::NotifySessionOfServiceStart, NotifySessionOfServiceStart method [Remote Desktop Services], NotifySessionOfServiceStart method [Remote Desktop Services], IWRdsProtocolManager interface, NotifySessionOfServiceStart,IWRdsProtocolManager.NotifySessionOfServiceStart, termserv.iwrdsprotocolmanager_notifysessionofservicestart, wtsprotocol/IWRdsProtocolManager::NotifySessionOfServiceStart
+ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySessionOfServiceStart method, IWRdsProtocolManager.NotifySessionOfServiceStart, IWRdsProtocolManager::NotifySessionOfServiceStart, NotifySessionOfServiceStart, NotifySessionOfServiceStart method [Remote Desktop Services], NotifySessionOfServiceStart method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifysessionofservicestart, wtsprotocol/IWRdsProtocolManager::NotifySessionOfServiceStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolManager::NotifySessionOfServiceStart method
+# IWRdsProtocolManager::NotifySessionOfServiceStart
 
 
 ## -description

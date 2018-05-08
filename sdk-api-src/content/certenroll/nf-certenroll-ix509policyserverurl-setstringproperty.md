@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.SetStringProperty
-title: IX509PolicyServerUrl::SetStringProperty method
+title: IX509PolicyServerUrl::SetStringProperty
 author: windows-driver-content
 description: Specifies the certificate enrollment policy (CEP) server ID or the display name of the CEP server.
 old-location: security\ix509policyserverurl_setstringproperty.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b02ca192-274a-4d15-8c16-4975134c92b4
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509PolicyServerUrl, IX509PolicyServerUrl interface [Security], SetStringProperty method, IX509PolicyServerUrl::SetStringProperty, PsFriendlyName, PsPolicyID, SetStringProperty method [Security], SetStringProperty method [Security], IX509PolicyServerUrl interface, SetStringProperty,IX509PolicyServerUrl.SetStringProperty, certenroll/IX509PolicyServerUrl::SetStringProperty, security.ix509policyserverurl_setstringproperty
+ms.keywords: IX509PolicyServerUrl interface [Security],SetStringProperty method, IX509PolicyServerUrl.SetStringProperty, IX509PolicyServerUrl::SetStringProperty, PsFriendlyName, PsPolicyID, SetStringProperty, SetStringProperty method [Security], SetStringProperty method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::SetStringProperty, security.ix509policyserverurl_setstringproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509PolicyServerUrl::SetStringProperty method
+# IX509PolicyServerUrl::SetStringProperty
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemContext.DeleteValue
-title: IWbemContext::DeleteValue method
+title: IWbemContext::DeleteValue
 author: windows-driver-content
 description: The IWbemContext::DeleteValue method deletes a named context value created by IWbemContext::SetValue.
 old-location: wmi\iwbemcontext_deletevalue.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 5f2956cf-8901-441f-b1bd-4b2f21d74683
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: DeleteValue method [Windows Management Instrumentation], DeleteValue method [Windows Management Instrumentation], IWbemContext interface, DeleteValue,IWbemContext.DeleteValue, IWbemContext, IWbemContext interface [Windows Management Instrumentation], DeleteValue method, IWbemContext::DeleteValue, _hmm_iwbemcontext_deletevalue, wbemcli/IWbemContext::DeleteValue, wmi.iwbemcontext_deletevalue
+ms.keywords: DeleteValue, DeleteValue method [Windows Management Instrumentation], DeleteValue method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],DeleteValue method, IWbemContext.DeleteValue, IWbemContext::DeleteValue, _hmm_iwbemcontext_deletevalue, wbemcli/IWbemContext::DeleteValue, wmi.iwbemcontext_deletevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemContext::DeleteValue method
+# IWbemContext::DeleteValue
 
 
 ## -description

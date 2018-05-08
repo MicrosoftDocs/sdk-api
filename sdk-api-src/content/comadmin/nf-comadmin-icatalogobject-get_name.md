@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogObject.get_Name
-title: ICatalogObject::get_Name method
+title: ICatalogObject::get_Name
 author: windows-driver-content
 description: Retrieves the name property of the object.
 old-location: cos\icatalogobject_name.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 604b2d11-b204-4f78-8cf2-e13f594299b7
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICatalogObject, ICatalogObject interface [COM+], Name property, ICatalogObject.Name, ICatalogObject::get_Name, Name property [COM+], Name property [COM+], ICatalogObject interface, _cos_ICatalogObject_get_Name, comadmin/ICatalogObject::Name, comadmin/ICatalogObject::get_Name, cos.icatalogobject_name, get_Name,ICatalogObject.get_Name
+ms.keywords: ICatalogObject interface [COM+],Name property, ICatalogObject.Name, ICatalogObject.get_Name, ICatalogObject::Name, ICatalogObject::get_Name, Name property [COM+], Name property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Name, comadmin/ICatalogObject::Name, comadmin/ICatalogObject::get_Name, cos.icatalogobject_name, get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICatalogObject::get_Name method
+# ICatalogObject::get_Name
 
 
 ## -description

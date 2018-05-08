@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: VIRTUAL_DISK_ACCESS_MASK, VIRTUAL_DISK_ACCESS_MASK
+req.typenames: VIRTUAL_DISK_ACCESS_MASK
 topic_type:
 -	APIRef
 -	kbSyntax

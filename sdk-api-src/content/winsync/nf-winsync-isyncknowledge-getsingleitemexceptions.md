@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetSingleItemExceptions
-title: ISyncKnowledge::GetSingleItemExceptions method
+title: ISyncKnowledge::GetSingleItemExceptions
 author: windows-driver-content
 description: Gets an object that can enumerate the ISingleItemException objects that are stored in the knowledge.
 old-location: winsync\isyncknowledge_getsingleitemexceptions.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: d224d2b8-343d-48f9-ac87-cd6e8682987a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSingleItemExceptions method [Windows Sync], GetSingleItemExceptions method [Windows Sync], ISyncKnowledge interface, GetSingleItemExceptions,ISyncKnowledge.GetSingleItemExceptions, ISyncKnowledge, ISyncKnowledge interface [Windows Sync], GetSingleItemExceptions method, ISyncKnowledge::GetSingleItemExceptions, winsync.isyncknowledge_getsingleitemexceptions, winsync/ISyncKnowledge::GetSingleItemExceptions
+ms.keywords: GetSingleItemExceptions, GetSingleItemExceptions method [Windows Sync], GetSingleItemExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetSingleItemExceptions method, ISyncKnowledge.GetSingleItemExceptions, ISyncKnowledge::GetSingleItemExceptions, winsync.isyncknowledge_getsingleitemexceptions, winsync/ISyncKnowledge::GetSingleItemExceptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::GetSingleItemExceptions method
+# ISyncKnowledge::GetSingleItemExceptions
 
 
 ## -description

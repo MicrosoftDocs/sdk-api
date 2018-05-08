@@ -7,7 +7,7 @@ old-location: security\bcryptdestroykey_func.htm
 old-project: SecCNG
 ms.assetid: 98c02e55-6489-4901-8a7a-021baac41965
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: BCryptDestroyKey, BCryptDestroyKey function [Security], bcrypt/BCryptDestroyKey, security.bcryptdestroykey_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

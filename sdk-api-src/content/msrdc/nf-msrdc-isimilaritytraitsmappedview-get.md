@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.Get
-title: ISimilarityTraitsMappedView::Get method
+title: ISimilarityTraitsMappedView::Get
 author: windows-driver-content
 description: Returns information about the mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview_get.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 57542583-528e-49cb-9ece-f49ecfc6b1cd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Get method [Remote Differential Compression], Get method [Remote Differential Compression], ISimilarityTraitsMappedView interface, Get,ISimilarityTraitsMappedView.Get, ISimilarityTraitsMappedView, ISimilarityTraitsMappedView interface [Remote Differential Compression], Get method, ISimilarityTraitsMappedView::Get, fs.isimilaritytraitsmappedview_get, msrdc/ISimilarityTraitsMappedView::Get, rdc.isimilaritytraitsmappedview_get
+ms.keywords: Get, Get method [Remote Differential Compression], Get method [Remote Differential Compression],ISimilarityTraitsMappedView interface, ISimilarityTraitsMappedView interface [Remote Differential Compression],Get method, ISimilarityTraitsMappedView.Get, ISimilarityTraitsMappedView::Get, fs.isimilaritytraitsmappedview_get, msrdc/ISimilarityTraitsMappedView::Get, rdc.isimilaritytraitsmappedview_get
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityTraitsMappedView::Get method
+# ISimilarityTraitsMappedView::Get
 
 
 ## -description

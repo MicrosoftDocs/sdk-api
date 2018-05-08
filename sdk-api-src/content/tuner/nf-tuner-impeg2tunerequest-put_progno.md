@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2TuneRequest.put_ProgNo
-title: IMPEG2TuneRequest::put_ProgNo method
+title: IMPEG2TuneRequest::put_ProgNo
 author: windows-driver-content
 description: The put_ProgNo method sets the program number ID.
 old-location: mstv\impeg2tunerequest_put_progno.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 08fc9cc1-52b7-4782-96a1-af00a76ff6c6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMPEG2TuneRequest, IMPEG2TuneRequest interface [Microsoft TV Technologies], put_ProgNo method, IMPEG2TuneRequest::put_ProgNo, IMPEG2TuneRequestput_ProgNo, mstv.impeg2tunerequest_put_progno, put_ProgNo method [Microsoft TV Technologies], put_ProgNo method [Microsoft TV Technologies], IMPEG2TuneRequest interface, put_ProgNo,IMPEG2TuneRequest.put_ProgNo, tuner/IMPEG2TuneRequest::put_ProgNo
+ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],put_ProgNo method, IMPEG2TuneRequest.put_ProgNo, IMPEG2TuneRequest::put_ProgNo, IMPEG2TuneRequestput_ProgNo, mstv.impeg2tunerequest_put_progno, put_ProgNo, put_ProgNo method [Microsoft TV Technologies], put_ProgNo method [Microsoft TV Technologies],IMPEG2TuneRequest interface, tuner/IMPEG2TuneRequest::put_ProgNo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMPEG2TuneRequest::put_ProgNo method
+# IMPEG2TuneRequest::put_ProgNo
 
 
 ## -description

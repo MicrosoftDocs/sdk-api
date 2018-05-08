@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.StillOff
-title: IDvdControl::StillOff method
+title: IDvdControl::StillOff
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Resumes playback, canceling still mode.
 old-location: dshow\idvdcontrol_stilloff.htm
 old-project: DirectShow
 ms.assetid: 0f466728-027e-40d6-b8f8-ed0aad02dd1e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl, IDvdControl interface [DirectShow], StillOff method, IDvdControl::StillOff, IDvdControlStillOff, StillOff method [DirectShow], StillOff method [DirectShow], IDvdControl interface, StillOff,IDvdControl.StillOff, dshow.idvdcontrol_stilloff, strmif/IDvdControl::StillOff
+ms.date: 4/30/2018
+ms.keywords: IDvdControl interface [DirectShow],StillOff method, IDvdControl.StillOff, IDvdControl::StillOff, IDvdControlStillOff, StillOff, StillOff method [DirectShow], StillOff method [DirectShow],IDvdControl interface, dshow.idvdcontrol_stilloff, strmif/IDvdControl::StillOff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::StillOff method
+# IDvdControl::StillOff
 
 
 ## -description

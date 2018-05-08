@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnInPlaceDeactivate
-title: IOleInPlaceSite::OnInPlaceDeactivate method
+title: IOleInPlaceSite::OnInPlaceDeactivate
 author: windows-driver-content
 description: Notifies the container that the object is no longer active in place.
 old-location: com\ioleinplacesite_oninplacedeactivate.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 070aac4e-94b6-4e23-b132-1dc833774c8b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], OnInPlaceDeactivate method, IOleInPlaceSite::OnInPlaceDeactivate, OnInPlaceDeactivate method [COM], OnInPlaceDeactivate method [COM], IOleInPlaceSite interface, OnInPlaceDeactivate,IOleInPlaceSite.OnInPlaceDeactivate, _ole_ioleinplacesite_oninplacedeactivate, com.ioleinplacesite_oninplacedeactivate, oleidl/IOleInPlaceSite::OnInPlaceDeactivate
+ms.keywords: IOleInPlaceSite interface [COM],OnInPlaceDeactivate method, IOleInPlaceSite.OnInPlaceDeactivate, IOleInPlaceSite::OnInPlaceDeactivate, OnInPlaceDeactivate, OnInPlaceDeactivate method [COM], OnInPlaceDeactivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_oninplacedeactivate, com.ioleinplacesite_oninplacedeactivate, oleidl/IOleInPlaceSite::OnInPlaceDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSite::OnInPlaceDeactivate method
+# IOleInPlaceSite::OnInPlaceDeactivate
 
 
 ## -description

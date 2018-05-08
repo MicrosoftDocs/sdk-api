@@ -8,7 +8,7 @@ old-project: LocationAPI
 ms.assetid: bf0a0c13-a50f-4ed8-bc29-7d70561da306
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ILocationPower, ILocationPower interface [WinLocation], ILocationPower interface [WinLocation], described, locationapi/ILocationPower, winlocation.ilocationpower
+ms.keywords: ILocationPower, ILocationPower interface [WinLocation], ILocationPower interface [WinLocation],described, locationapi/ILocationPower, winlocation.ilocationpower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

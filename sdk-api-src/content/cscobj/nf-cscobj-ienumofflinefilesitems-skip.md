@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesItems.Skip
-title: IEnumOfflineFilesItems::Skip method
+title: IEnumOfflineFilesItems::Skip
 author: windows-driver-content
 description: Skips over the next specified number of elements in the enumeration.
 old-location: of\ienumofflinefilesitems_skip.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: e1f201c4-6ca8-49ca-af05-003a09ec86bd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEnumOfflineFilesItems, IEnumOfflineFilesItems interface [Offline Files], Skip method, IEnumOfflineFilesItems::Skip, Skip method [Offline Files], Skip method [Offline Files], IEnumOfflineFilesItems interface, Skip,IEnumOfflineFilesItems.Skip, cscobj/IEnumOfflineFilesItems::Skip, of.ienumofflinefilesitems_skip
+ms.keywords: IEnumOfflineFilesItems interface [Offline Files],Skip method, IEnumOfflineFilesItems.Skip, IEnumOfflineFilesItems::Skip, Skip, Skip method [Offline Files], Skip method [Offline Files],IEnumOfflineFilesItems interface, cscobj/IEnumOfflineFilesItems::Skip, of.ienumofflinefilesitems_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IEnumOfflineFilesItems::Skip method
+# IEnumOfflineFilesItems::Skip
 
 
 ## -description

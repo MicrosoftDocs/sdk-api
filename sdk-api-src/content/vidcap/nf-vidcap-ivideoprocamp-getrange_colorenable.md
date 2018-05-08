@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_ColorEnable
-title: IVideoProcAmp::getRange_ColorEnable method
+title: IVideoProcAmp::getRange_ColorEnable
 author: windows-driver-content
 description: The getRange_ColorEnable method returns the range of color-enable settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_colorenable.htm
 old-project: DirectShow
 ms.assetid: d9041f2a-cf38-419b-be8f-a55599b9a1d9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_ColorEnable method, IVideoProcAmp::getRange_ColorEnable, IVideoProcAmpgetRange_ColorEnable, dshow.ivideoprocamp_getrange_colorenable, getRange_ColorEnable method [DirectShow], getRange_ColorEnable method [DirectShow], IVideoProcAmp interface, getRange_ColorEnable,IVideoProcAmp.getRange_ColorEnable, vidcap/IVideoProcAmp::getRange_ColorEnable
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],getRange_ColorEnable method, IVideoProcAmp.getRange_ColorEnable, IVideoProcAmp::getRange_ColorEnable, IVideoProcAmpgetRange_ColorEnable, dshow.ivideoprocamp_getrange_colorenable, getRange_ColorEnable, getRange_ColorEnable method [DirectShow], getRange_ColorEnable method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_ColorEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::getRange_ColorEnable method
+# IVideoProcAmp::getRange_ColorEnable
 
 
 ## -description

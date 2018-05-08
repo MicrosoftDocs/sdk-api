@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactory2.CreateMediaKeys2
-title: IMFMediaEngineClassFactory2::CreateMediaKeys2 method
+title: IMFMediaEngineClassFactory2::CreateMediaKeys2
 author: windows-driver-content
 description: Creates a media keys object based on the specified key system.
 old-location: mf\imfmediaengineclassfactory2_createmediakeys2.htm
 old-project: medfound
 ms.assetid: 857F4573-41B3-488C-88A9-4744EBE5D38B
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateMediaKeys2 method [Media Foundation], CreateMediaKeys2 method [Media Foundation], IMFMediaEngineClassFactory2 interface, CreateMediaKeys2,IMFMediaEngineClassFactory2.CreateMediaKeys2, IMFMediaEngineClassFactory2, IMFMediaEngineClassFactory2 interface [Media Foundation], CreateMediaKeys2 method, IMFMediaEngineClassFactory2::CreateMediaKeys2, mf.imfmediaengineclassfactory2_createmediakeys2, mfmediaengine/IMFMediaEngineClassFactory2::CreateMediaKeys2
+ms.date: 5/3/2018
+ms.keywords: CreateMediaKeys2, CreateMediaKeys2 method [Media Foundation], CreateMediaKeys2 method [Media Foundation],IMFMediaEngineClassFactory2 interface, IMFMediaEngineClassFactory2 interface [Media Foundation],CreateMediaKeys2 method, IMFMediaEngineClassFactory2.CreateMediaKeys2, IMFMediaEngineClassFactory2::CreateMediaKeys2, mf.imfmediaengineclassfactory2_createmediakeys2, mfmediaengine/IMFMediaEngineClassFactory2::CreateMediaKeys2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineClassFactory2::CreateMediaKeys2 method
+# IMFMediaEngineClassFactory2::CreateMediaKeys2
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.OnModalInput
-title: ITfLangBarEventSink::OnModalInput method
+title: ITfLangBarEventSink::OnModalInput
 author: windows-driver-content
 description: ITfLangBarEventSink::OnModalInput method
 old-location: tsf\itflangbareventsink_onmodalinput.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 781efe26-f3f4-401b-9558-d228e875abc4
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarEventSink, ITfLangBarEventSink interface [Text Services Framework], OnModalInput method, ITfLangBarEventSink::OnModalInput, OnModalInput method [Text Services Framework], OnModalInput method [Text Services Framework], ITfLangBarEventSink interface, OnModalInput,ITfLangBarEventSink.OnModalInput, _tsf_itflangbareventsink_onmodalinput_ref, ctfutb/ITfLangBarEventSink::OnModalInput, tsf.itflangbareventsink_onmodalinput
+ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnModalInput method, ITfLangBarEventSink.OnModalInput, ITfLangBarEventSink::OnModalInput, OnModalInput, OnModalInput method [Text Services Framework], OnModalInput method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onmodalinput_ref, ctfutb/ITfLangBarEventSink::OnModalInput, tsf.itflangbareventsink_onmodalinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msutb.dll
 req.irql: 
 ---
 
-# ITfLangBarEventSink::OnModalInput method
+# ITfLangBarEventSink::OnModalInput
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IWordSink.EndAltPhrase
-title: IWordSink::EndAltPhrase method
+title: IWordSink::EndAltPhrase
 author: windows-driver-content
 description: Indicates the end of the final phrase in a sequence of alternative phrases that a word breaker generates during index time.
 old-location: indexsrv\iwordsink_endaltphrase.htm
@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_5j51.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: EndAltPhrase method [Indexing Service], EndAltPhrase method [Indexing Service], IWordSink interface, EndAltPhrase,IWordSink.EndAltPhrase, IWordSink, IWordSink interface [Indexing Service], EndAltPhrase method, IWordSink::EndAltPhrase, _idxs_WordSink_EndAltPhrase, indexsrv.iwordsink_endaltphrase, indexsrv/IWordSink::EndAltPhrase
+ms.keywords: EndAltPhrase, EndAltPhrase method [Indexing Service], EndAltPhrase method [Indexing Service],IWordSink interface, IWordSink interface [Indexing Service],EndAltPhrase method, IWordSink.EndAltPhrase, IWordSink::EndAltPhrase, _idxs_WordSink_EndAltPhrase, indexsrv.iwordsink_endaltphrase, indexsrv/IWordSink::EndAltPhrase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWordSink::EndAltPhrase method
+# IWordSink::EndAltPhrase
 
 
 ## -description

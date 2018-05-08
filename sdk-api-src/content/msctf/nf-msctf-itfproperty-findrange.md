@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfProperty.FindRange
-title: ITfProperty::FindRange method
+title: ITfProperty::FindRange
 author: windows-driver-content
 description: ITfProperty::FindRange method
 old-location: tsf\itfproperty_findrange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 08e9c9c1-768b-406c-96ae-e0776b59344d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: FindRange method [Text Services Framework], FindRange method [Text Services Framework], ITfProperty interface, FindRange,ITfProperty.FindRange, ITfProperty, ITfProperty interface [Text Services Framework], FindRange method, ITfProperty::FindRange, _tsf_itfproperty_findrange_ref, msctf/ITfProperty::FindRange, tsf.itfproperty_findrange
+ms.keywords: FindRange, FindRange method [Text Services Framework], FindRange method [Text Services Framework],ITfProperty interface, ITfProperty interface [Text Services Framework],FindRange method, ITfProperty.FindRange, ITfProperty::FindRange, _tsf_itfproperty_findrange_ref, msctf/ITfProperty::FindRange, tsf.itfproperty_findrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfProperty::FindRange method
+# ITfProperty::FindRange
 
 
 ## -description

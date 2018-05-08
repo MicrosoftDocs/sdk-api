@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.Initialize
-title: IISDB_NBIT::Initialize method
+title: IISDB_NBIT::Initialize
 author: windows-driver-content
 description: Initializes the object by using captured table section data from an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8c4e3f53-1b32-4374-915f-15651259dd55
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], Initialize method, IISDB_NBIT::Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IISDB_NBIT interface, Initialize,IISDB_NBIT.Initialize, dvbsiparser/IISDB_NBIT::Initialize, mstv.iisdb_nbit_initialize
+ms.keywords: IISDB_NBIT interface [Microsoft TV Technologies],Initialize method, IISDB_NBIT.Initialize, IISDB_NBIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_NBIT interface, dvbsiparser/IISDB_NBIT::Initialize, mstv.iisdb_nbit_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_NBIT::Initialize method
+# IISDB_NBIT::Initialize
 
 
 ## -description

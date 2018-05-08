@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.GetTableDescriptorByTag
-title: IDVB_BAT::GetTableDescriptorByTag method
+title: IDVB_BAT::GetTableDescriptorByTag
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_gettabledescriptorbytag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9c989b8d-0cd0-4556-bc96-a464b95911d0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies], IDVB_BAT interface, GetTableDescriptorByTag,IDVB_BAT.GetTableDescriptorByTag, IDVB_BAT, IDVB_BAT interface [Microsoft TV Technologies], GetTableDescriptorByTag method, IDVB_BAT::GetTableDescriptorByTag, IDVB_BATGetTableDescriptorByTag, dvbsiparser/IDVB_BAT::GetTableDescriptorByTag, mstv.idvb_bat_gettabledescriptorbytag
+ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IDVB_BAT.GetTableDescriptorByTag, IDVB_BAT::GetTableDescriptorByTag, IDVB_BATGetTableDescriptorByTag, dvbsiparser/IDVB_BAT::GetTableDescriptorByTag, mstv.idvb_bat_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_BAT::GetTableDescriptorByTag method
+# IDVB_BAT::GetTableDescriptorByTag
 
 
 ## -description

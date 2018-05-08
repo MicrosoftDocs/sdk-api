@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.RemoveAt
-title: IXpsOMDocumentCollection::RemoveAt method
+title: IXpsOMDocumentCollection::RemoveAt
 author: windows-driver-content
 description: Removes and releases an IXpsOMDocument interface pointer from a specified location in the collection.
 old-location: xps\ixpsomdocumentcollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e5e7d04c-c1da-4af7-9048-1a9b79ba4872
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMDocumentCollection, IXpsOMDocumentCollection interface [XPS Documents and Packaging], RemoveAt method, IXpsOMDocumentCollection::RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging], IXpsOMDocumentCollection interface, RemoveAt,IXpsOMDocumentCollection.RemoveAt, xps.ixpsomdocumentcollection_removeat, xpsobjectmodel/IXpsOMDocumentCollection::RemoveAt
+ms.keywords: IXpsOMDocumentCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMDocumentCollection.RemoveAt, IXpsOMDocumentCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, xps.ixpsomdocumentcollection_removeat, xpsobjectmodel/IXpsOMDocumentCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDocumentCollection::RemoveAt method
+# IXpsOMDocumentCollection::RemoveAt
 
 
 ## -description

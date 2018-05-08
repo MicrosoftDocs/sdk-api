@@ -1,14 +1,14 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetServiceState
-title: IAMLine21Decoder::GetServiceState method
+title: IAMLine21Decoder::GetServiceState
 author: windows-driver-content
 description: The GetServiceState method indicates whether closed captioning is on or off.
 old-location: dshow\iamline21decoder_getservicestate.htm
 old-project: DirectShow
 ms.assetid: c88d2328-0338-4c0b-b719-8501bcbb8a69
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetServiceState method [DirectShow], GetServiceState method [DirectShow], IAMLine21Decoder interface, GetServiceState,IAMLine21Decoder.GetServiceState, IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], GetServiceState method, IAMLine21Decoder::GetServiceState, IAMLine21DecoderGetServiceState, dshow.iamline21decoder_getservicestate, il21dec/IAMLine21Decoder::GetServiceState
+ms.date: 4/30/2018
+ms.keywords: GetServiceState, GetServiceState method [DirectShow], GetServiceState method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetServiceState method, IAMLine21Decoder.GetServiceState, IAMLine21Decoder::GetServiceState, IAMLine21DecoderGetServiceState, dshow.iamline21decoder_getservicestate, il21dec/IAMLine21Decoder::GetServiceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMLine21Decoder::GetServiceState method
+# IAMLine21Decoder::GetServiceState
 
 
 ## -description

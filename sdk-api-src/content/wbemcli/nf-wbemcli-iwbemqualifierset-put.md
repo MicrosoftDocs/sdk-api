@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.Put
-title: IWbemQualifierSet::Put method
+title: IWbemQualifierSet::Put
 author: windows-driver-content
 description: The IWbemQualifierSet::Put method writes the named qualifier and value. The new qualifier overwrites the previous value of the same name. If the qualifier does not exist, it is created.
 old-location: wmi\iwbemqualifierset_put.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: ad602440-dc19-45cf-bf10-a30f514e00bb
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemQualifierSet, IWbemQualifierSet interface [Windows Management Instrumentation], Put method, IWbemQualifierSet::Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation], IWbemQualifierSet interface, Put,IWbemQualifierSet.Put, WBEM_FLAVOR_AMENDED, WBEM_FLAVOR_FLAG_PROPAGATE_TO_DERIVED_CLASS, WBEM_FLAVOR_FLAG_PROPAGATE_TO_INSTANCE, WBEM_FLAVOR_NOT_OVERRIDABLE, WBEM_FLAVOR_OVERRIDABLE, _hmm_iwbemqualifierset_put, wbemcli/IWbemQualifierSet::Put, wmi.iwbemqualifierset_put
+ms.keywords: IWbemQualifierSet interface [Windows Management Instrumentation],Put method, IWbemQualifierSet.Put, IWbemQualifierSet::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],IWbemQualifierSet interface, WBEM_FLAVOR_AMENDED, WBEM_FLAVOR_FLAG_PROPAGATE_TO_DERIVED_CLASS, WBEM_FLAVOR_FLAG_PROPAGATE_TO_INSTANCE, WBEM_FLAVOR_NOT_OVERRIDABLE, WBEM_FLAVOR_OVERRIDABLE, _hmm_iwbemqualifierset_put, wbemcli/IWbemQualifierSet::Put, wmi.iwbemqualifierset_put
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemQualifierSet::Put method
+# IWbemQualifierSet::Put
 
 
 ## -description

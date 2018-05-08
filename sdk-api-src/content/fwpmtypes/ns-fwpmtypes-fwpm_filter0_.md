@@ -267,6 +267,20 @@ Array of  <a href="https://msdn.microsoft.com/4dfed9d7-e51b-425c-9f27-014229c140
 A <a href="https://msdn.microsoft.com/070e1324-d41d-4001-bf26-97465bf87f98">FWPM_ACTION0</a> structure that specifies the action to be performed if all the filter conditions are true. 
 
 
+### -field rawContext
+
+Available when the filter does not have provider context information, that is, <b>flags</b> does not contain <b>FWPM_FILTER_FLAG_HAS_PROVIDER_CONTEXT</b>. See <a href="https://msdn.microsoft.com/bcfae832-5386-43c5-b916-89577765ee5d">Filter Context Identifiers</a> for a list of built-in possible values.
+
+The <b>rawContext</b> is placed 'as is' in the <b>context</b> member of the corresponding <b>FWPS_FILTER0</b> structure, which is documented in the WDK.
+
+
+### -field providerContextKey
+
+Available when the filter has provider context information, that is, <b>flags</b> contains <b>FWPM_FILTER_FLAG_HAS_PROVIDER_CONTEXT</b>. See <a href="https://msdn.microsoft.com/439a5abc-08ac-4514-a126-d738e5311003">Built-in Provider Context Identifiers</a> for a list of predefined policy  provider contexts.
+
+ The LUID of the provider context specified by the <b>providerContextKey</b> is used to fill in the <b>context</b> member of the corresponding <b>FWPS_FILTER0</b> structure, which is documented in the WDK.
+
+
 ### -field reserved
 
 Reserved for system use.
@@ -281,20 +295,6 @@ LUID identifying the filter. This is also the LUID of the corresponding
 ### -field effectiveWeight
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a> structure that contains the weight assigned to <b>FWPS_FILTER0</b>, which is documented in the WDK. 
-
-
-#### - providerContextKey
-
-Available when the filter has provider context information, that is, <b>flags</b> contains <b>FWPM_FILTER_FLAG_HAS_PROVIDER_CONTEXT</b>. See <a href="https://msdn.microsoft.com/439a5abc-08ac-4514-a126-d738e5311003">Built-in Provider Context Identifiers</a> for a list of predefined policy  provider contexts.
-
- The LUID of the provider context specified by the <b>providerContextKey</b> is used to fill in the <b>context</b> member of the corresponding <b>FWPS_FILTER0</b> structure, which is documented in the WDK.
-
-
-#### - rawContext
-
-Available when the filter does not have provider context information, that is, <b>flags</b> does not contain <b>FWPM_FILTER_FLAG_HAS_PROVIDER_CONTEXT</b>. See <a href="https://msdn.microsoft.com/bcfae832-5386-43c5-b916-89577765ee5d">Filter Context Identifiers</a> for a list of built-in possible values.
-
-The <b>rawContext</b> is placed 'as is' in the <b>context</b> member of the corresponding <b>FWPS_FILTER0</b> structure, which is documented in the WDK.
 
 
 ## -remarks

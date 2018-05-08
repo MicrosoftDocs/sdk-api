@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.IEnumDirectory.Skip
-title: IEnumDirectory::Skip method
+title: IEnumDirectory::Skip
 author: windows-driver-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdirectory_skip.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 45694bee-52d8-4a44-bc14-b9d03355bce1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IEnumDirectory, IEnumDirectory interface [TAPI 2.2], Skip method, IEnumDirectory::Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2], IEnumDirectory interface, Skip,IEnumDirectory.Skip, _tapi3_ienumdirectory_skip, rend/IEnumDirectory::Skip, tapi3.ienumdirectory_skip
+ms.keywords: IEnumDirectory interface [TAPI 2.2],Skip method, IEnumDirectory.Skip, IEnumDirectory::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumDirectory interface, _tapi3_ienumdirectory_skip, rend/IEnumDirectory::Skip, tapi3.ienumdirectory_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumDirectory::Skip method
+# IEnumDirectory::Skip
 
 
 ## -description

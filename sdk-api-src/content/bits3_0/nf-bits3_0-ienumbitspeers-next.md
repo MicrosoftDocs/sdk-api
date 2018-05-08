@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Next
-title: IEnumBitsPeers::Next method
+title: IEnumBitsPeers::Next
 author: windows-driver-content
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbitspeers_next.htm
 old-project: Bits
 ms.assetid: b5bc254d-d74e-4076-a22a-93abf9023068
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEnumBitsPeers, IEnumBitsPeers interface [BITS], Next method, IEnumBitsPeers::Next, Next method [BITS], Next method [BITS], IEnumBitsPeers interface, Next,IEnumBitsPeers.Next, bits.ienumbitspeers_next, bits3_0/IEnumBitsPeers::Next
+ms.date: 4/27/2018
+ms.keywords: IEnumBitsPeers interface [BITS],Next method, IEnumBitsPeers.Next, IEnumBitsPeers::Next, Next, Next method [BITS], Next method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_next, bits3_0/IEnumBitsPeers::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumBitsPeers::Next method
+# IEnumBitsPeers::Next
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IUserNotification2.SetIconInfo
-title: IUserNotification2::SetIconInfo method
+title: IUserNotification2::SetIconInfo
 author: windows-driver-content
 description: Sets the notification area icon associated with specific user information.
 old-location: shell\IUserNotification2_SetIconInfo.htm
 old-project: shell
 ms.assetid: 9A7B5891-6A0C-4302-89F7-07D985B0F185
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IUserNotification2, IUserNotification2 interface [Windows Shell], SetIconInfo method, IUserNotification2::SetIconInfo, SetIconInfo method [Windows Shell], SetIconInfo method [Windows Shell], IUserNotification2 interface, SetIconInfo,IUserNotification2.SetIconInfo, _shell_IUserNotification2_SetIconInfo, shell.IUserNotification2_SetIconInfo, shobjidl/IUserNotification2::SetIconInfo
+ms.date: 5/3/2018
+ms.keywords: IUserNotification2 interface [Windows Shell],SetIconInfo method, IUserNotification2.SetIconInfo, IUserNotification2::SetIconInfo, SetIconInfo, SetIconInfo method [Windows Shell], SetIconInfo method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_SetIconInfo, shell.IUserNotification2_SetIconInfo, shobjidl/IUserNotification2::SetIconInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IUserNotification2::SetIconInfo method
+# IUserNotification2::SetIconInfo
 
 
 ## -description

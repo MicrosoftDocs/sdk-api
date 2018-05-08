@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 049DC33E-48C3-43AB-A5B0-401CDBAE4873
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationSpreadsheetPattern, IUIAutomationSpreadsheetPattern interface [Windows Accessibility], IUIAutomationSpreadsheetPattern interface [Windows Accessibility], described, uiautomationclient/IUIAutomationSpreadsheetPattern, winauto.uiauto_IUIAutomationSpreadsheetPattern
+ms.keywords: IUIAutomationSpreadsheetPattern, IUIAutomationSpreadsheetPattern interface [Windows Accessibility], IUIAutomationSpreadsheetPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationSpreadsheetPattern, winauto.uiauto_IUIAutomationSpreadsheetPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

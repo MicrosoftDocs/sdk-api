@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSingleArray
-title: IPropertyValue::GetSingleArray method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of 32-bit floating point values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getsinglearray.htm
 old-project: WinRT
 ms.assetid: f4286901-92b2-4707-9da7-bb7abf83bb87
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetSingleArray method [Windows Runtime], GetSingleArray method [Windows Runtime], IPropertyValue interface, GetSingleArray,IPropertyValue.GetSingleArray, IPropertyValue, IPropertyValue interface [Windows Runtime], GetSingleArray method, IPropertyValue::GetSingleArray, windows/IPropertyValue::GetSingleArray, winrt.ipropertyvalue_getsinglearray
+ms.date: 5/4/2018
+ms.keywords: GetSingleArray, GetSingleArray method [Windows Runtime], GetSingleArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSingleArray method, IPropertyValue.GetSingleArray, IPropertyValue.IPropertyValue, IPropertyValue::GetSingleArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSingleArray, winrt.ipropertyvalue_getsinglearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetSingleArray method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

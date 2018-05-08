@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderConfigUIInfos.Skip
-title: IEnumSyncProviderConfigUIInfos::Skip method
+title: IEnumSyncProviderConfigUIInfos::Skip
 author: windows-driver-content
 description: Skips the specified number of ISyncProviderConfigUIInfo objects.
 old-location: winsync\ienumsyncproviderconfiguiinfos_skip.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 7ecd6cce-77af-423a-9b95-80b1d7ec9d2f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumSyncProviderConfigUIInfos, IEnumSyncProviderConfigUIInfos interface [Windows Sync], Skip method, IEnumSyncProviderConfigUIInfos::Skip, Skip method [Windows Sync], Skip method [Windows Sync], IEnumSyncProviderConfigUIInfos interface, Skip,IEnumSyncProviderConfigUIInfos.Skip, syncregistration/IEnumSyncProviderConfigUIInfos::Skip, winsync.ienumsyncproviderconfiguiinfos_skip
+ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Skip method, IEnumSyncProviderConfigUIInfos.Skip, IEnumSyncProviderConfigUIInfos::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Skip, winsync.ienumsyncproviderconfiguiinfos_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumSyncProviderConfigUIInfos::Skip method
+# IEnumSyncProviderConfigUIInfos::Skip
 
 
 ## -description

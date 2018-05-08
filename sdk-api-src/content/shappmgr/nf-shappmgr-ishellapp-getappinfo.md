@@ -1,14 +1,14 @@
 ---
 UID: NF:shappmgr.IShellApp.GetAppInfo
-title: IShellApp::GetAppInfo method
+title: IShellApp::GetAppInfo
 author: windows-driver-content
 description: Gets general information about an application.
 old-location: shell\IShellApp_GetAppInfo.htm
 old-project: shell
 ms.assetid: 8842c12e-2b59-49d6-8140-5a402509a0dd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAppInfo method [Windows Shell], GetAppInfo method [Windows Shell], IShellApp interface, GetAppInfo,IShellApp.GetAppInfo, IShellApp, IShellApp interface [Windows Shell], GetAppInfo method, IShellApp::GetAppInfo, inet_IShellApp_GetAppInfo, shappmgr/IShellApp::GetAppInfo, shell.IShellApp_GetAppInfo
+ms.date: 5/3/2018
+ms.keywords: GetAppInfo, GetAppInfo method [Windows Shell], GetAppInfo method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetAppInfo method, IShellApp.GetAppInfo, IShellApp::GetAppInfo, inet_IShellApp_GetAppInfo, shappmgr/IShellApp::GetAppInfo, shell.IShellApp_GetAppInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IShellApp::GetAppInfo method
+# IShellApp::GetAppInfo
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.GetBkColor
-title: IImageList::GetBkColor method
+title: IImageList::GetBkColor
 author: windows-driver-content
 description: Gets the current background color for an image list.
 old-location: controls\IImageList_GetBkColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getbkcolor.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetBkColor method [Windows Controls], GetBkColor method [Windows Controls], IImageList interface, GetBkColor,IImageList.GetBkColor, IImageList, IImageList interface [Windows Controls], GetBkColor method, IImageList::GetBkColor, comctl_IImageList_GetBkColor, comctl_IImageList_GetBkColor_cpp, commoncontrols/IImageList::GetBkColor, controls.IImageList_GetBkColor, controls.comctl_IImageList_GetBkColor
+ms.date: 4/27/2018
+ms.keywords: GetBkColor, GetBkColor method [Windows Controls], GetBkColor method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetBkColor method, IImageList.GetBkColor, IImageList::GetBkColor, comctl_IImageList_GetBkColor, comctl_IImageList_GetBkColor_cpp, commoncontrols/IImageList::GetBkColor, controls.IImageList_GetBkColor, controls.comctl_IImageList_GetBkColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::GetBkColor method
+# IImageList::GetBkColor
 
 
 ## -description

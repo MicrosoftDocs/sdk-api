@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostViewCallback.OnPostViewSample
-title: IWMWriterPostViewCallback::OnPostViewSample method
+title: IWMWriterPostViewCallback::OnPostViewSample
 author: windows-driver-content
 description: The OnPostViewSample method is called when new postview data is available. The application implements this method.
 old-location: wmformat\iwmwriterpostviewcallback_onpostviewsample.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 5d29a746-70fe-495e-a7f2-dbf085829496
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterPostViewCallback, IWMWriterPostViewCallback interface [windows Media Format], OnPostViewSample method, IWMWriterPostViewCallback::OnPostViewSample, IWMWriterPostViewCallbackOnPostViewSample, OnPostViewSample method [windows Media Format], OnPostViewSample method [windows Media Format], IWMWriterPostViewCallback interface, OnPostViewSample,IWMWriterPostViewCallback.OnPostViewSample, wmformat.iwmwriterpostviewcallback_onpostviewsample, wmsdkidl/IWMWriterPostViewCallback::OnPostViewSample
+ms.keywords: IWMWriterPostViewCallback interface [windows Media Format],OnPostViewSample method, IWMWriterPostViewCallback.OnPostViewSample, IWMWriterPostViewCallback::OnPostViewSample, IWMWriterPostViewCallbackOnPostViewSample, OnPostViewSample, OnPostViewSample method [windows Media Format], OnPostViewSample method [windows Media Format],IWMWriterPostViewCallback interface, wmformat.iwmwriterpostviewcallback_onpostviewsample, wmsdkidl/IWMWriterPostViewCallback::OnPostViewSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPostViewCallback::OnPostViewSample method
+# IWMWriterPostViewCallback::OnPostViewSample
 
 
 ## -description

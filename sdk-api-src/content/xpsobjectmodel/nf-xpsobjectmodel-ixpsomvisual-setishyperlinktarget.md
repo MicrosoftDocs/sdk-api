@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetIsHyperlinkTarget
-title: IXpsOMVisual::SetIsHyperlinkTarget method
+title: IXpsOMVisual::SetIsHyperlinkTarget
 author: windows-driver-content
 description: Specifies whether the visual is the target of a hyperlink.
 old-location: xps\ixpsomvisual_setishyperlinktarget.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 855a3993-b308-4dc0-a2f6-8ac6bdc495ce
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FALSE, IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], SetIsHyperlinkTarget method, IXpsOMVisual::SetIsHyperlinkTarget, SetIsHyperlinkTarget method [XPS Documents and Packaging], SetIsHyperlinkTarget method [XPS Documents and Packaging], IXpsOMVisual interface, SetIsHyperlinkTarget,IXpsOMVisual.SetIsHyperlinkTarget, TRUE, xps.ixpsomvisual_setishyperlinktarget, xpsobjectmodel/IXpsOMVisual::SetIsHyperlinkTarget
+ms.keywords: FALSE, IXpsOMVisual interface [XPS Documents and Packaging],SetIsHyperlinkTarget method, IXpsOMVisual.SetIsHyperlinkTarget, IXpsOMVisual::SetIsHyperlinkTarget, SetIsHyperlinkTarget, SetIsHyperlinkTarget method [XPS Documents and Packaging], SetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMVisual interface, TRUE, xps.ixpsomvisual_setishyperlinktarget, xpsobjectmodel/IXpsOMVisual::SetIsHyperlinkTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::SetIsHyperlinkTarget method
+# IXpsOMVisual::SetIsHyperlinkTarget
 
 
 ## -description

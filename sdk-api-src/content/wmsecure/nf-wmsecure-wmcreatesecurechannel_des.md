@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e204aada-1f04-4899-aadf-abfdcab310da
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: WMCreateSecureChannel_DES, WMCreateSecureChannel_DES function [windows Media Format], wmformat.wmcreatesecurechannel_certified_des, wmsecure/WMCreateSecureChannel_DES
+ms.keywords: WMCreateSecureChannel_Certified_DES, WMCreateSecureChannel_DES, WMCreateSecureChannel_DES function [windows Media Format], wmformat.wmcreatesecurechannel_certified_des, wmsecure/WMCreateSecureChannel_DES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

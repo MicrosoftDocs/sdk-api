@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetMediaType
-title: IAMMediaTypeSample::SetMediaType method
+title: IAMMediaTypeSample::SetMediaType
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The SetMediaType method sets the media type for the sample.
 old-location: dshow\iammediatypesample_setmediatype.htm
 old-project: DirectShow
 ms.assetid: 13c065b4-9a46-42bd-aef9-dd2a87a355df
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], SetMediaType method, IAMMediaTypeSample::SetMediaType, IAMMediaTypeSampleSetMediaType, SetMediaType method [DirectShow], SetMediaType method [DirectShow], IAMMediaTypeSample interface, SetMediaType,IAMMediaTypeSample.SetMediaType, amstream/IAMMediaTypeSample::SetMediaType, dshow.iammediatypesample_setmediatype
+ms.date: 4/30/2018
+ms.keywords: IAMMediaTypeSample interface [DirectShow],SetMediaType method, IAMMediaTypeSample.SetMediaType, IAMMediaTypeSample::SetMediaType, IAMMediaTypeSampleSetMediaType, SetMediaType, SetMediaType method [DirectShow], SetMediaType method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetMediaType, dshow.iammediatypesample_setmediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaTypeSample::SetMediaType method
+# IAMMediaTypeSample::SetMediaType
 
 
 ## -description

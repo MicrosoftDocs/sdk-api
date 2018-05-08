@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: f3b60a93-3b57-4c2c-9114-912ca47f16b2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnRegistrationEvents, IMbnRegistrationEvents interface [Microsoft Broadband Networks], IMbnRegistrationEvents interface [Microsoft Broadband Networks], described, mbn.imbnregistrationevents, mbnapi/IMbnRegistrationEvents
+ms.keywords: IMbnRegistrationEvents, IMbnRegistrationEvents interface [Microsoft Broadband Networks], IMbnRegistrationEvents interface [Microsoft Broadband Networks],described, mbn.imbnregistrationevents, mbnapi/IMbnRegistrationEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

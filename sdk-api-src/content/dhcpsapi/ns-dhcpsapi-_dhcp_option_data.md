@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_data.htm
 old-project: DHCP
 ms.assetid: 6b2e5866-f65f-4ff0-a531-3d07b972f55e
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_OPTION_DATA, DHCP_OPTION_DATA, DHCP_OPTION_DATA structure [DHCP], LPDHCP_OPTION_DATA, LPDHCP_OPTION_DATA structure pointer [DHCP], _DHCP_OPTION_DATA, dhcp.dhcp_option_data, dhcpsapi/LPDHCP_OPTION_DATA, dhcpsapi/_DHCP_OPTION_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Specifies the number of option data elements listed in <b>Elements</b>.
 ### -field Elements
 
 Pointer to a list of <a href="https://msdn.microsoft.com/2ffc8968-f903-4d8e-8b34-c8031a56ebfc">DHCP_OPTION_DATA_ELEMENT</a> structures that contain the data elements associated with this particular option element.
+
+
+### -field Elements.size_is
+
+ 
+
+
+### -field Elements.size_is.NumElements
+
+ 
+
+
 
 
 ## -see-also

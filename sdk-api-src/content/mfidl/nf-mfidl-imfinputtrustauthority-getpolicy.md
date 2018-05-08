@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.GetPolicy
-title: IMFInputTrustAuthority::GetPolicy method
+title: IMFInputTrustAuthority::GetPolicy
 author: windows-driver-content
 description: Retrieves the policy that defines which output protection systems are allowed for this stream, and the configuration data for each protection system.
 old-location: mf\imfinputtrustauthority_getpolicy.htm
 old-project: medfound
 ms.assetid: 4d840b56-47e0-4c2f-b2e7-a17586dad8d1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 4d840b56-47e0-4c2f-b2e7-a17586dad8d1, GetPolicy method [Media Foundation], GetPolicy method [Media Foundation], IMFInputTrustAuthority interface, GetPolicy,IMFInputTrustAuthority.GetPolicy, IMFInputTrustAuthority, IMFInputTrustAuthority interface [Media Foundation], GetPolicy method, IMFInputTrustAuthority::GetPolicy, mf.imfinputtrustauthority_getpolicy, mfidl/IMFInputTrustAuthority::GetPolicy
+ms.date: 5/3/2018
+ms.keywords: 4d840b56-47e0-4c2f-b2e7-a17586dad8d1, GetPolicy, GetPolicy method [Media Foundation], GetPolicy method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],GetPolicy method, IMFInputTrustAuthority.GetPolicy, IMFInputTrustAuthority::GetPolicy, mf.imfinputtrustauthority_getpolicy, mfidl/IMFInputTrustAuthority::GetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFInputTrustAuthority::GetPolicy method
+# IMFInputTrustAuthority::GetPolicy
 
 
 ## -description

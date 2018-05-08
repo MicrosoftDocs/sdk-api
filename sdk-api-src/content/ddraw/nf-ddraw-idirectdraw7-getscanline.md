@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetScanLine
-title: IDirectDraw7::GetScanLine method
+title: IDirectDraw7::GetScanLine
 author: windows-driver-content
 description: Retrieves the scan line that is currently being drawn on the monitor.
 old-location: directdraw\idirectdraw7_getscanline.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 0bccb384-2de3-49a5-962a-31ad2a751e28
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetScanLine method [DirectDraw], GetScanLine method [DirectDraw], IDirectDraw7 interface, GetScanLine,IDirectDraw7.GetScanLine, IDirectDraw7, IDirectDraw7 interface [DirectDraw], GetScanLine method, IDirectDraw7::GetScanLine, ddraw/IDirectDraw7::GetScanLine, directdraw.idirectdraw7_getscanline
+ms.keywords: GetScanLine, GetScanLine method [DirectDraw], GetScanLine method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetScanLine method, IDirectDraw7.GetScanLine, IDirectDraw7::GetScanLine, ddraw/IDirectDraw7::GetScanLine, directdraw.idirectdraw7_getscanline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDraw7::GetScanLine method
+# IDirectDraw7::GetScanLine
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 7ae10343-c97e-4036-9fe6-b894394bb605
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT, PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT callback function [Failover Cluster], clusapi/PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT, mscs.clusterregclosebatchnotifyport
+ms.keywords: PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT, PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT callback, PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT callback function [Failover Cluster], clusapi/PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT, mscs.clusterregclosebatchnotifyport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT callback
+# PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT callback function
 
 
 ## -description

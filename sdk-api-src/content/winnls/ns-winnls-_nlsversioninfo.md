@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: NLSVERSIONINFO, *LPNLSVERSIONINFO, NLSVERSIONINFO, *LPNLSVERSIONINFO
+req.typenames: NLSVERSIONINFO, *LPNLSVERSIONINFO
 topic_type:
 -	APIRef
 -	kbSyntax

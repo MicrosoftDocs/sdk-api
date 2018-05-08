@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.Clear
-title: IFolderActionCollection::Clear method
+title: IFolderActionCollection::Clear
 author: windows-driver-content
 description: Removes all folder actions from the collection.
 old-location: pla\ifolderactioncollection_clear.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 357934fa-9213-466e-8104-eb9b265a98d3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Clear method [PLA], Clear method [PLA], IFolderActionCollection interface, Clear,IFolderActionCollection.Clear, IFolderActionCollection, IFolderActionCollection interface [PLA], Clear method, IFolderActionCollection::Clear, base.ifolderactioncollection_clear, pla.ifolderactioncollection_clear, pla/IFolderActionCollection::Clear
+ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Clear method, IFolderActionCollection.Clear, IFolderActionCollection::Clear, base.ifolderactioncollection_clear, pla.ifolderactioncollection_clear, pla/IFolderActionCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFolderActionCollection::Clear method
+# IFolderActionCollection::Clear
 
 
 ## -description

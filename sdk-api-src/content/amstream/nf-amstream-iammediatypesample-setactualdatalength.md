@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetActualDataLength
-title: IAMMediaTypeSample::SetActualDataLength method
+title: IAMMediaTypeSample::SetActualDataLength
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The SetActualDataLength method sets the sample's data length.
 old-location: dshow\iammediatypesample_setactualdatalength.htm
 old-project: DirectShow
 ms.assetid: 158a1761-7d42-4611-9667-9e717b23a2da
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], SetActualDataLength method, IAMMediaTypeSample::SetActualDataLength, IAMMediaTypeSampleSetActualDataLength, SetActualDataLength method [DirectShow], SetActualDataLength method [DirectShow], IAMMediaTypeSample interface, SetActualDataLength,IAMMediaTypeSample.SetActualDataLength, amstream/IAMMediaTypeSample::SetActualDataLength, dshow.iammediatypesample_setactualdatalength
+ms.date: 4/30/2018
+ms.keywords: IAMMediaTypeSample interface [DirectShow],SetActualDataLength method, IAMMediaTypeSample.SetActualDataLength, IAMMediaTypeSample::SetActualDataLength, IAMMediaTypeSampleSetActualDataLength, SetActualDataLength, SetActualDataLength method [DirectShow], SetActualDataLength method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetActualDataLength, dshow.iammediatypesample_setactualdatalength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaTypeSample::SetActualDataLength method
+# IAMMediaTypeSample::SetActualDataLength
 
 
 ## -description

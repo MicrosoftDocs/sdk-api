@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnPropertyUIStatus.SetStatus
-title: ITfFnPropertyUIStatus::SetStatus method
+title: ITfFnPropertyUIStatus::SetStatus
 author: windows-driver-content
 description: ITfFnPropertyUIStatus::SetStatus method
 old-location: tsf\itffnpropertyuistatus_setstatus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 817329fb-521a-426a-88d8-b36ee161b6b9
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnPropertyUIStatus, ITfFnPropertyUIStatus interface [Text Services Framework], SetStatus method, ITfFnPropertyUIStatus::SetStatus, SetStatus method [Text Services Framework], SetStatus method [Text Services Framework], ITfFnPropertyUIStatus interface, SetStatus,ITfFnPropertyUIStatus.SetStatus, _tsf_itffnpropertyuistatus_setstatus_ref, ctffunc/ITfFnPropertyUIStatus::SetStatus, tsf.itffnpropertyuistatus_setstatus
+ms.keywords: ITfFnPropertyUIStatus interface [Text Services Framework],SetStatus method, ITfFnPropertyUIStatus.SetStatus, ITfFnPropertyUIStatus::SetStatus, SetStatus, SetStatus method [Text Services Framework], SetStatus method [Text Services Framework],ITfFnPropertyUIStatus interface, _tsf_itffnpropertyuistatus_setstatus_ref, ctffunc/ITfFnPropertyUIStatus::SetStatus, tsf.itffnpropertyuistatus_setstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfFnPropertyUIStatus::SetStatus method
+# ITfFnPropertyUIStatus::SetStatus
 
 
 ## -description

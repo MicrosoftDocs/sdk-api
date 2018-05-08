@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetDispatcher
-title: IXamlDiagnostics::GetDispatcher method
+title: IXamlDiagnostics::GetDispatcher
 author: windows-driver-content
 description: Gets the core dispatcher used to access elements on the UI thread.
 old-location: xaml_diagnostics\ixamldiagnostics_getdispatcher.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 6C7605F7-BBD7-4FAD-AA35-A3DC18AA6FF3
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: GetDispatcher method, GetDispatcher method, IXamlDiagnostics interface, GetDispatcher,IXamlDiagnostics.GetDispatcher, IXamlDiagnostics, IXamlDiagnostics interface, GetDispatcher method, IXamlDiagnostics::GetDispatcher, xaml_diagnostics.ixamldiagnostics_getdispatcher, xamlom/IXamlDiagnostics::GetDispatcher
+ms.keywords: GetDispatcher, GetDispatcher method, GetDispatcher method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetDispatcher method, IXamlDiagnostics.GetDispatcher, IXamlDiagnostics::GetDispatcher, xaml_diagnostics.ixamldiagnostics_getdispatcher, xamlom/IXamlDiagnostics::GetDispatcher
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXamlDiagnostics::GetDispatcher method
+# IXamlDiagnostics::GetDispatcher
 
 
 ## -description

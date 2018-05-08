@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorAdapter.LogoutFromTarget
-title: IVdsIscsiInitiatorAdapter::LogoutFromTarget method
+title: IVdsIscsiInitiatorAdapter::LogoutFromTarget
 author: windows-driver-content
 description: Performs a manual logout from an iSCSI target on all iSCSI sessions to the specified target.
 old-location: base\ivdsiscsiinitiatoradapter_logoutfromtarget.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: b2f7598c-c532-4b68-b581-40b3f5eed1bf
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsIscsiInitiatorAdapter, IVdsIscsiInitiatorAdapter interface [VDS], LogoutFromTarget method, IVdsIscsiInitiatorAdapter::LogoutFromTarget, LogoutFromTarget method [VDS], LogoutFromTarget method [VDS], IVdsIscsiInitiatorAdapter interface, LogoutFromTarget,IVdsIscsiInitiatorAdapter.LogoutFromTarget, base.ivdsiscsiinitiatoradapter_logoutfromtarget, vds/IVdsIscsiInitiatorAdapter::LogoutFromTarget
+ms.keywords: IVdsIscsiInitiatorAdapter interface [VDS],LogoutFromTarget method, IVdsIscsiInitiatorAdapter.LogoutFromTarget, IVdsIscsiInitiatorAdapter::LogoutFromTarget, LogoutFromTarget, LogoutFromTarget method [VDS], LogoutFromTarget method [VDS],IVdsIscsiInitiatorAdapter interface, base.ivdsiscsiinitiatoradapter_logoutfromtarget, vds/IVdsIscsiInitiatorAdapter::LogoutFromTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsIscsiInitiatorAdapter::LogoutFromTarget method
+# IVdsIscsiInitiatorAdapter::LogoutFromTarget
 
 
 ## -description

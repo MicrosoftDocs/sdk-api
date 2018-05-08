@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.RemoveAt
-title: CHStringArray::RemoveAt method
+title: CHStringArray::RemoveAt
 author: windows-driver-content
 description: The RemoveAt method removes one or more elements starting at a specified index in an array.
 old-location: wmi\chstringarray_removeat.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: b7555074-4f9a-46be-b321-f16e00663c32
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHStringArray, CHStringArray interface [Windows Management Instrumentation], RemoveAt method, CHStringArray::RemoveAt, RemoveAt method [Windows Management Instrumentation], RemoveAt method [Windows Management Instrumentation], CHStringArray interface, RemoveAt,CHStringArray.RemoveAt, _hmm_chstringarray_removeat, chstrarr/CHStringArray::RemoveAt, wmi.chstringarray_removeat
+ms.keywords: CHStringArray interface [Windows Management Instrumentation],RemoveAt method, CHStringArray.RemoveAt, CHStringArray::RemoveAt, RemoveAt, RemoveAt method [Windows Management Instrumentation], RemoveAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_removeat, chstrarr/CHStringArray::RemoveAt, wmi.chstringarray_removeat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHStringArray::RemoveAt method
+# CHStringArray::RemoveAt
 
 
 ## -description

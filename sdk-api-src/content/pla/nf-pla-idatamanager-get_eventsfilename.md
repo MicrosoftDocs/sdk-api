@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.get_EventsFileName
-title: IDataManager::get_EventsFileName method
+title: IDataManager::get_EventsFileName
 author: windows-driver-content
 description: Retrieves or sets the name for the events file.
 old-location: pla\idatamanager_eventsfilename.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: ce67779a-3312-496f-a793-ac8720e63fb4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EventsFileName property [PLA], EventsFileName property [PLA], IDataManager interface, IDataManager, IDataManager interface [PLA], EventsFileName property, IDataManager.EventsFileName, IDataManager::get_EventsFileName, IDataManager::put_EventsFileName, base.idatamanager_eventsfilename, get_EventsFileName,IDataManager.get_EventsFileName, pla.idatamanager_eventsfilename, pla/IDataManager::EventsFileName, pla/IDataManager::get_EventsFileName, pla/IDataManager::put_EventsFileName
+ms.keywords: EventsFileName property [PLA], EventsFileName property [PLA],IDataManager interface, IDataManager interface [PLA],EventsFileName property, IDataManager.EventsFileName, IDataManager.get_EventsFileName, IDataManager::EventsFileName, IDataManager::get_EventsFileName, IDataManager::put_EventsFileName, base.idatamanager_eventsfilename, get_EventsFileName, pla.idatamanager_eventsfilename, pla/IDataManager::EventsFileName, pla/IDataManager::get_EventsFileName, pla/IDataManager::put_EventsFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataManager::get_EventsFileName method
+# IDataManager::get_EventsFileName
 
 
 ## -description

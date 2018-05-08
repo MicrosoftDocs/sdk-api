@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOle.ContextSensitiveHelp
-title: IRichEditOle::ContextSensitiveHelp method
+title: IRichEditOle::ContextSensitiveHelp
 author: windows-driver-content
 description: Indicates if a rich edit control should transition into or out of context-sensitive help mode. A rich edit control calls the IRichEditOle::ContextSensitiveHelp method of any in-place object which is currently active if a state change is occurring.
 old-location: controls\IRichEditOle_ContextSensitiveHelp.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolecontextsensitivehelp.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ContextSensitiveHelp method [Windows Controls], ContextSensitiveHelp method [Windows Controls], IRichEditOle interface, ContextSensitiveHelp,IRichEditOle.ContextSensitiveHelp, IRichEditOle, IRichEditOle interface [Windows Controls], ContextSensitiveHelp method, IRichEditOle::ContextSensitiveHelp, _win32_IRichEditOle_ContextSensitiveHelp, _win32_IRichEditOle_ContextSensitiveHelp_cpp, controls.IRichEditOle_ContextSensitiveHelp, controls._win32_IRichEditOle_ContextSensitiveHelp, richole/IRichEditOle::ContextSensitiveHelp
+ms.date: 4/27/2018
+ms.keywords: ContextSensitiveHelp, ContextSensitiveHelp method [Windows Controls], ContextSensitiveHelp method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],ContextSensitiveHelp method, IRichEditOle.ContextSensitiveHelp, IRichEditOle::ContextSensitiveHelp, _win32_IRichEditOle_ContextSensitiveHelp, _win32_IRichEditOle_ContextSensitiveHelp_cpp, controls.IRichEditOle_ContextSensitiveHelp, controls._win32_IRichEditOle_ContextSensitiveHelp, richole/IRichEditOle::ContextSensitiveHelp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOle::ContextSensitiveHelp method
+# IRichEditOle::ContextSensitiveHelp
 
 
 ## -description

@@ -1,0 +1,5 @@
+# [Windows Runtime C++ reference](../_winrt/index.md)
+## [Rometadataresolution.h](index.md)
+### [RoGetMetaDataFile function](../rometadataresolution/nf-rometadataresolution-rogetmetadatafile.md)
+### [RoParseTypeName function](../rometadataresolution/nf-rometadataresolution-roparsetypename.md)
+### [RoResolveNamespace function](../rometadataresolution/nf-rometadataresolution-roresolvenamespace.md)

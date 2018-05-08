@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyArchivedKeyHash.Initialize
-title: ICertPropertyArchivedKeyHash::Initialize method
+title: ICertPropertyArchivedKeyHash::Initialize
 author: windows-driver-content
 description: Initializes the object from a byte array that contains the hash.
 old-location: security\icertpropertyarchivedkeyhash_initialize_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 1f201b37-6f3a-4f1c-83b8-2f1dbb1d4d07
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyArchivedKeyHash, ICertPropertyArchivedKeyHash interface [Security], Initialize method, ICertPropertyArchivedKeyHash::Initialize, Initialize method [Security], Initialize method [Security], ICertPropertyArchivedKeyHash interface, Initialize,ICertPropertyArchivedKeyHash.Initialize, certenroll/ICertPropertyArchivedKeyHash::Initialize, security.icertpropertyarchivedkeyhash_initialize_method
+ms.keywords: ICertPropertyArchivedKeyHash interface [Security],Initialize method, ICertPropertyArchivedKeyHash.Initialize, ICertPropertyArchivedKeyHash::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyArchivedKeyHash interface, certenroll/ICertPropertyArchivedKeyHash::Initialize, security.icertpropertyarchivedkeyhash_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyArchivedKeyHash::Initialize method
+# ICertPropertyArchivedKeyHash::Initialize
 
 
 ## -description

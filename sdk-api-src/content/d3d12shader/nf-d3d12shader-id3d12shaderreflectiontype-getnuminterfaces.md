@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetNumInterfaces
-title: ID3D12ShaderReflectionType::GetNumInterfaces method
+title: ID3D12ShaderReflectionType::GetNumInterfaces
 author: windows-driver-content
 description: Gets the number of interfaces.
 old-location: direct3d12\id3d12shaderreflectiontype_getnuminterfaces.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 6BE5DACB-EDAB-4A95-A071-F36046858FFE
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetNumInterfaces method, GetNumInterfaces method, ID3D12ShaderReflectionType interface, GetNumInterfaces,ID3D12ShaderReflectionType.GetNumInterfaces, ID3D12ShaderReflectionType, ID3D12ShaderReflectionType interface, GetNumInterfaces method, ID3D12ShaderReflectionType::GetNumInterfaces, d3d12shader/ID3D12ShaderReflectionType::GetNumInterfaces, direct3d12.id3d12shaderreflectiontype_getnuminterfaces
+ms.keywords: GetNumInterfaces, GetNumInterfaces method, GetNumInterfaces method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetNumInterfaces method, ID3D12ShaderReflectionType.GetNumInterfaces, ID3D12ShaderReflectionType::GetNumInterfaces, d3d12shader/ID3D12ShaderReflectionType::GetNumInterfaces, direct3d12.id3d12shaderreflectiontype_getnuminterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflectionType::GetNumInterfaces method
+# ID3D12ShaderReflectionType::GetNumInterfaces
 
 
 ## -description

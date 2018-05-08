@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.EndDownload
-title: IUpdateDownloader::EndDownload method
+title: IUpdateDownloader::EndDownload
 author: windows-driver-content
 description: Completes an asynchronous download.
 old-location: wua\iupdatedownloader_enddownload.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: b89ec12a-8a51-46e6-9911-2535abc3925b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EndDownload method [Windows Update Agent], EndDownload method [Windows Update Agent], IUpdateDownloader interface, EndDownload,IUpdateDownloader.EndDownload, IUpdateDownloader, IUpdateDownloader interface [Windows Update Agent], EndDownload method, IUpdateDownloader::EndDownload, wua.iupdatedownloader_enddownload, wuapi/IUpdateDownloader::EndDownload
+ms.keywords: EndDownload, EndDownload method [Windows Update Agent], EndDownload method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],EndDownload method, IUpdateDownloader.EndDownload, IUpdateDownloader::EndDownload, wua.iupdatedownloader_enddownload, wuapi/IUpdateDownloader::EndDownload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateDownloader::EndDownload method
+# IUpdateDownloader::EndDownload
 
 
 ## -description

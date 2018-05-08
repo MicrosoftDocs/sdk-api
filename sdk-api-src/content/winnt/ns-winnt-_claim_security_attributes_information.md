@@ -78,8 +78,7 @@ The number of values.
 The actual attribute.
 
 
-
-#### pAttributeV1
+### -field Attribute.pAttributeV1
 
 Pointer to an array that contains the <b>AttributeCount</b> member of the <a href="https://msdn.microsoft.com/FDBB9B00-01C3-474A-81FF-97C5CBA3261B">CLAIM_SECURITY_ATTRIBUTE_V1</a> structure.
 

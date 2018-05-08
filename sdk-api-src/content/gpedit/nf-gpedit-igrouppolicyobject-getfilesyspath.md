@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetFileSysPath
-title: IGroupPolicyObject::GetFileSysPath method
+title: IGroupPolicyObject::GetFileSysPath
 author: windows-driver-content
 description: The GetFileSysPath method retrieves the file system path to the root of the specified GPO section. The path is in UNC format.
 old-location: policy\igrouppolicyobject_getfilesyspath.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: 9f0837ff-31bb-4eaa-82e4-ef127f8e605a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetFileSysPath method [Group Policy], GetFileSysPath method [Group Policy], IGroupPolicyObject interface, GetFileSysPath,IGroupPolicyObject.GetFileSysPath, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], GetFileSysPath method, IGroupPolicyObject::GetFileSysPath, _win32_igrouppolicyobject_getfilesyspath, gpedit/IGroupPolicyObject::GetFileSysPath, policy.igrouppolicyobject_getfilesyspath
+ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetFileSysPath, GetFileSysPath method [Group Policy], GetFileSysPath method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetFileSysPath method, IGroupPolicyObject.GetFileSysPath, IGroupPolicyObject::GetFileSysPath, _win32_igrouppolicyobject_getfilesyspath, gpedit/IGroupPolicyObject::GetFileSysPath, policy.igrouppolicyobject_getfilesyspath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGroupPolicyObject::GetFileSysPath method
+# IGroupPolicyObject::GetFileSysPath
 
 
 ## -description

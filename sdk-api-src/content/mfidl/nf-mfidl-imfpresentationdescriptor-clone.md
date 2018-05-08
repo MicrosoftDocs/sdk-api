@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.Clone
-title: IMFPresentationDescriptor::Clone method
+title: IMFPresentationDescriptor::Clone
 author: windows-driver-content
 description: Creates a copy of this presentation descriptor.
 old-location: mf\imfpresentationdescriptor_clone.htm
 old-project: medfound
 ms.assetid: 084b3adf-092a-4869-92e1-982db209bd5b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 084b3adf-092a-4869-92e1-982db209bd5b, Clone method [Media Foundation], Clone method [Media Foundation], IMFPresentationDescriptor interface, Clone,IMFPresentationDescriptor.Clone, IMFPresentationDescriptor, IMFPresentationDescriptor interface [Media Foundation], Clone method, IMFPresentationDescriptor::Clone, mf.imfpresentationdescriptor_clone, mfidl/IMFPresentationDescriptor::Clone
+ms.date: 5/3/2018
+ms.keywords: 084b3adf-092a-4869-92e1-982db209bd5b, Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],Clone method, IMFPresentationDescriptor.Clone, IMFPresentationDescriptor::Clone, mf.imfpresentationdescriptor_clone, mfidl/IMFPresentationDescriptor::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPresentationDescriptor::Clone method
+# IMFPresentationDescriptor::Clone
 
 
 ## -description

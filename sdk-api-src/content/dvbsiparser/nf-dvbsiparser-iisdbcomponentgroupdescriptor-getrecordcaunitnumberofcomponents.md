@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordCAUnitNumberOfComponents
-title: IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents method
+title: IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents
 author: windows-driver-content
 description: Gets the number of components corresponding to a conditional access unit from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordcaunitnumberofcomponents.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2656ecfd-84a1-43cb-8fa3-a188f9176c01
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordCAUnitNumberOfComponents method [Microsoft TV Technologies], GetRecordCAUnitNumberOfComponents method [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface, GetRecordCAUnitNumberOfComponents,IIsdbComponentGroupDescriptor.GetRecordCAUnitNumberOfComponents, IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], GetRecordCAUnitNumberOfComponents method, IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents, mstv.iisdbcomponentgroupdescriptor_getrecordcaunitnumberofcomponents
+ms.keywords: GetRecordCAUnitNumberOfComponents, GetRecordCAUnitNumberOfComponents method [Microsoft TV Technologies], GetRecordCAUnitNumberOfComponents method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordCAUnitNumberOfComponents method, IIsdbComponentGroupDescriptor.GetRecordCAUnitNumberOfComponents, IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents, mstv.iisdbcomponentgroupdescriptor_getrecordcaunitnumberofcomponents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents method
+# IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents
 
 
 ## -description

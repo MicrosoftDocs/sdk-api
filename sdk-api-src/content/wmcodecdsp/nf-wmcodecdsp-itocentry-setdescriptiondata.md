@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.SetDescriptionData
-title: ITocEntry::SetDescriptionData method
+title: ITocEntry::SetDescriptionData
 author: windows-driver-content
 description: The SetDescriptionData method associates a caller-supplied data block with the entry.
 old-location: mf\itocentry_setdescriptiondata.htm
 old-project: medfound
 ms.assetid: 260d7699-cf75-4179-9f2b-bc3bc49c94e6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ITocEntry, ITocEntry interface [Media Foundation], SetDescriptionData method, ITocEntry::SetDescriptionData, SetDescriptionData method [Media Foundation], SetDescriptionData method [Media Foundation], ITocEntry interface, SetDescriptionData,ITocEntry.SetDescriptionData, codecapi.itocentry_setdescriptiondata, mf.itocentry_setdescriptiondata, wmcodecdsp/ITocEntry::SetDescriptionData
+ms.date: 5/3/2018
+ms.keywords: ITocEntry interface [Media Foundation],SetDescriptionData method, ITocEntry.SetDescriptionData, ITocEntry::SetDescriptionData, SetDescriptionData, SetDescriptionData method [Media Foundation], SetDescriptionData method [Media Foundation],ITocEntry interface, codecapi.itocentry_setdescriptiondata, mf.itocentry_setdescriptiondata, wmcodecdsp/ITocEntry::SetDescriptionData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocEntry::SetDescriptionData method
+# ITocEntry::SetDescriptionData
 
 
 ## -description

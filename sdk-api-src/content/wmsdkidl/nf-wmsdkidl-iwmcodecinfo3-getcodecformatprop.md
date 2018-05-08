@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.GetCodecFormatProp
-title: IWMCodecInfo3::GetCodecFormatProp method
+title: IWMCodecInfo3::GetCodecFormatProp
 author: windows-driver-content
 description: The GetCodecFormatProp method retrieves a property from one format of a codec.
 old-location: wmformat\iwmcodecinfo3_getcodecformatprop.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 04f5301f-0033-4cf3-bc05-3159fe274a8d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetCodecFormatProp method [windows Media Format], GetCodecFormatProp method [windows Media Format], IWMCodecInfo3 interface, GetCodecFormatProp,IWMCodecInfo3.GetCodecFormatProp, IWMCodecInfo3, IWMCodecInfo3 interface [windows Media Format], GetCodecFormatProp method, IWMCodecInfo3::GetCodecFormatProp, IWMCodecInfo3GetCodecFormatProp, wmformat.iwmcodecinfo3_getcodecformatprop, wmsdkidl/IWMCodecInfo3::GetCodecFormatProp
+ms.keywords: GetCodecFormatProp, GetCodecFormatProp method [windows Media Format], GetCodecFormatProp method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecFormatProp method, IWMCodecInfo3.GetCodecFormatProp, IWMCodecInfo3::GetCodecFormatProp, IWMCodecInfo3GetCodecFormatProp, wmformat.iwmcodecinfo3_getcodecformatprop, wmsdkidl/IWMCodecInfo3::GetCodecFormatProp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecInfo3::GetCodecFormatProp method
+# IWMCodecInfo3::GetCodecFormatProp
 
 
 ## -description

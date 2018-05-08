@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.put_PlaybackSpeed
-title: IAMExtendedSeeking::put_PlaybackSpeed method
+title: IAMExtendedSeeking::put_PlaybackSpeed
 author: windows-driver-content
 description: The put_PlaybackSpeed method specifies the playback speed.
 old-location: dshow\iamextendedseeking_put_playbackspeed.htm
 old-project: DirectShow
 ms.assetid: c4f958eb-b573-44e4-94e1-5ac422dd1a99
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], put_PlaybackSpeed method, IAMExtendedSeeking::put_PlaybackSpeed, IAMExtendedSeekingput_PlaybackSpeed, dshow.iamextendedseeking_put_playbackspeed, put_PlaybackSpeed method [DirectShow], put_PlaybackSpeed method [DirectShow], IAMExtendedSeeking interface, put_PlaybackSpeed,IAMExtendedSeeking.put_PlaybackSpeed, qnetwork/IAMExtendedSeeking::put_PlaybackSpeed
+ms.date: 4/30/2018
+ms.keywords: IAMExtendedSeeking interface [DirectShow],put_PlaybackSpeed method, IAMExtendedSeeking.put_PlaybackSpeed, IAMExtendedSeeking::put_PlaybackSpeed, IAMExtendedSeekingput_PlaybackSpeed, dshow.iamextendedseeking_put_playbackspeed, put_PlaybackSpeed, put_PlaybackSpeed method [DirectShow], put_PlaybackSpeed method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::put_PlaybackSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMExtendedSeeking::put_PlaybackSpeed method
+# IAMExtendedSeeking::put_PlaybackSpeed
 
 
 ## -description

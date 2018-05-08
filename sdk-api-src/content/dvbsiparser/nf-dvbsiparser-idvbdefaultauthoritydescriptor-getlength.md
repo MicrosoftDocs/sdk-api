@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbDefaultAuthorityDescriptor.GetLength
-title: IDvbDefaultAuthorityDescriptor::GetLength method
+title: IDvbDefaultAuthorityDescriptor::GetLength
 author: windows-driver-content
 description: Gets the body length of a default authority descriptor from a Digital Video Broadcast (DVB) content reference identifier (CRID).
 old-location: mstv\idvbdefaultauthoritydescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9eb76e79-d7a3-419b-9c3e-6d4e16486ff3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IDvbDefaultAuthorityDescriptor interface, GetLength,IDvbDefaultAuthorityDescriptor.GetLength, IDvbDefaultAuthorityDescriptor, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies], GetLength method, IDvbDefaultAuthorityDescriptor::GetLength, dvbsiparser/IDvbDefaultAuthorityDescriptor::GetLength, mstv.idvbdefaultauthoritydescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbDefaultAuthorityDescriptor interface, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbDefaultAuthorityDescriptor.GetLength, IDvbDefaultAuthorityDescriptor::GetLength, dvbsiparser/IDvbDefaultAuthorityDescriptor::GetLength, mstv.idvbdefaultauthoritydescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbDefaultAuthorityDescriptor::GetLength method
+# IDvbDefaultAuthorityDescriptor::GetLength
 
 
 ## -description

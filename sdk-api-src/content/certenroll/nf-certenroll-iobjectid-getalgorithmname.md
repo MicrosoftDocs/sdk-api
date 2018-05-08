@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectId.GetAlgorithmName
-title: IObjectId::GetAlgorithmName method
+title: IObjectId::GetAlgorithmName
 author: windows-driver-content
 description: Retrieves the display name associated with an algorithm object identifier (OID).
 old-location: security\iobjectid_getalgorithmname.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 3d24d658-1016-4e63-8d93-5db0a3144121
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetAlgorithmName method [Security], GetAlgorithmName method [Security], IObjectId interface, GetAlgorithmName,IObjectId.GetAlgorithmName, IObjectId, IObjectId interface [Security], GetAlgorithmName method, IObjectId::GetAlgorithmName, certenroll/IObjectId::GetAlgorithmName, security.iobjectid_getalgorithmname
+ms.keywords: GetAlgorithmName, GetAlgorithmName method [Security], GetAlgorithmName method [Security],IObjectId interface, IObjectId interface [Security],GetAlgorithmName method, IObjectId.GetAlgorithmName, IObjectId::GetAlgorithmName, certenroll/IObjectId::GetAlgorithmName, security.iobjectid_getalgorithmname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IObjectId::GetAlgorithmName method
+# IObjectId::GetAlgorithmName
 
 
 ## -description

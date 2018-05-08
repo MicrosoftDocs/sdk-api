@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetProtocolVersion
-title: ISCTE_EAS::GetProtocolVersion method
+title: ISCTE_EAS::GetProtocolVersion
 author: windows-driver-content
 description: The GetProtocolVersion method returns the protocol version of the EAS table.
 old-location: mstv\iscte_eas_getprotocolversion.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 80700a74-85d6-4269-9000-83e62f68aeb1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies], ISCTE_EAS interface, GetProtocolVersion,ISCTE_EAS.GetProtocolVersion, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetProtocolVersion method, ISCTE_EAS::GetProtocolVersion, ISCTE_EASGetProtocolVersion, atscpsipparser/ISCTE_EAS::GetProtocolVersion, mstv.iscte_eas_getprotocolversion
+ms.keywords: GetProtocolVersion, GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetProtocolVersion method, ISCTE_EAS.GetProtocolVersion, ISCTE_EAS::GetProtocolVersion, ISCTE_EASGetProtocolVersion, atscpsipparser/ISCTE_EAS::GetProtocolVersion, mstv.iscte_eas_getprotocolversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetProtocolVersion method
+# ISCTE_EAS::GetProtocolVersion
 
 
 ## -description

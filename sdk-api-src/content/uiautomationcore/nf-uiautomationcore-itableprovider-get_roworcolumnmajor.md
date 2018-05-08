@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITableProvider.get_RowOrColumnMajor
-title: ITableProvider::get_RowOrColumnMajor method
+title: ITableProvider::get_RowOrColumnMajor
 author: windows-driver-content
 description: Specifies the primary direction of traversal for the table.
 old-location: winauto\uiauto_ITableProvider_RowOrColumnMajor.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9123bc22-2e48-4e4b-acc9-f11098970197
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITableProvider, ITableProvider interface [Windows Accessibility], RowOrColumnMajor property, ITableProvider.RowOrColumnMajor, ITableProvider::get_RowOrColumnMajor, RowOrColumnMajor property [Windows Accessibility], RowOrColumnMajor property [Windows Accessibility], ITableProvider interface, get_RowOrColumnMajor,ITableProvider.get_RowOrColumnMajor, uiauto.uiauto_ITableProvider_RowOrColumnMajor, uiauto_ITableProvider_RowOrColumnMajor, uiautomationcore/ITableProvider::RowOrColumnMajor, uiautomationcore/ITableProvider::get_RowOrColumnMajor, winauto.uiauto_ITableProvider_RowOrColumnMajor
+ms.keywords: ITableProvider interface [Windows Accessibility],RowOrColumnMajor property, ITableProvider.RowOrColumnMajor, ITableProvider.get_RowOrColumnMajor, ITableProvider::RowOrColumnMajor, ITableProvider::get_RowOrColumnMajor, RowOrColumnMajor property [Windows Accessibility], RowOrColumnMajor property [Windows Accessibility],ITableProvider interface, get_RowOrColumnMajor, uiauto.uiauto_ITableProvider_RowOrColumnMajor, uiauto_ITableProvider_RowOrColumnMajor, uiautomationcore/ITableProvider::RowOrColumnMajor, uiautomationcore/ITableProvider::get_RowOrColumnMajor, winauto.uiauto_ITableProvider_RowOrColumnMajor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITableProvider::get_RowOrColumnMajor method
+# ITableProvider::get_RowOrColumnMajor
 
 
 ## -description

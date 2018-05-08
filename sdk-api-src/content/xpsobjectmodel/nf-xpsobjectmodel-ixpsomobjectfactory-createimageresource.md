@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateImageResource
-title: IXpsOMObjectFactory::CreateImageResource method
+title: IXpsOMObjectFactory::CreateImageResource
 author: windows-driver-content
 description: Creates an IXpsOMImageResource interface, which is used to access an image resource stream.
 old-location: xps\ixpsomobjectfactory_createimageresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 267f6e3e-ed1d-4ce7-a554-a943ac3f469d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateImageResource method [XPS Documents and Packaging], CreateImageResource method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateImageResource,IXpsOMObjectFactory.CreateImageResource, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateImageResource method, IXpsOMObjectFactory::CreateImageResource, xps.ixpsomobjectfactory_createimageresource, xpsobjectmodel/IXpsOMObjectFactory::CreateImageResource
+ms.keywords: CreateImageResource, CreateImageResource method [XPS Documents and Packaging], CreateImageResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateImageResource method, IXpsOMObjectFactory.CreateImageResource, IXpsOMObjectFactory::CreateImageResource, xps.ixpsomobjectfactory_createimageresource, xpsobjectmodel/IXpsOMObjectFactory::CreateImageResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateImageResource method
+# IXpsOMObjectFactory::CreateImageResource
 
 
 ## -description

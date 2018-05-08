@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsUser.Groups
-title: IADsUser::Groups method
+title: IADsUser::Groups
 author: windows-driver-content
 description: Obtains a collection of the ADSI group objects to which this user belongs.
 old-location: adsi\iadsuser_groups.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 0d250815-a7d8-4e61-b125-a66f1c2fde43
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Groups method [ADSI], Groups method [ADSI], IADsUser interface, Groups,IADsUser.Groups, IADsUser, IADsUser interface [ADSI], Groups method, IADsUser::Groups, _ds_iadsuser_groups, adsi.iadsuser__groups, adsi.iadsuser_groups, iads/IADsUser::Groups
+ms.keywords: Groups, Groups method [ADSI], Groups method [ADSI],IADsUser interface, IADsUser interface [ADSI],Groups method, IADsUser.Groups, IADsUser::Groups, _ds_iadsuser_groups, adsi.iadsuser__groups, adsi.iadsuser_groups, iads/IADsUser::Groups
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsUser::Groups method
+# IADsUser::Groups
 
 
 ## -description

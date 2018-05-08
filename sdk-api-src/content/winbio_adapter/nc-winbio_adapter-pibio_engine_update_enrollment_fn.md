@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: cd41be8c-fa78-4746-a9ad-c8385ed84b52
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterUpdateEnrollment, EngineAdapterUpdateEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_UPDATE_ENROLLMENT_FN, secbiomet.engineadapterupdateenrollment, winbio_adapter/EngineAdapterUpdateEnrollment
+ms.keywords: EngineAdapterUpdateEnrollment, EngineAdapterUpdateEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_UPDATE_ENROLLMENT_FN, PIBIO_ENGINE_UPDATE_ENROLLMENT_FN callback, secbiomet.engineadapterupdateenrollment, winbio_adapter/EngineAdapterUpdateEnrollment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_UPDATE_ENROLLMENT_FN callback
+# PIBIO_ENGINE_UPDATE_ENROLLMENT_FN callback function
 
 
 ## -description

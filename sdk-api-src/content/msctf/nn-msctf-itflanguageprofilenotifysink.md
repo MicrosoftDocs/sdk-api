@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c0c8d02a-cc3f-4c1c-96e9-516f49b868e6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLanguageProfileNotifySink, ITfLanguageProfileNotifySink interface [Text Services Framework], ITfLanguageProfileNotifySink interface [Text Services Framework], described, _tsf_itflanguageprofilenotifysink_ref, msctf/ITfLanguageProfileNotifySink, tsf.itflanguageprofilenotifysink
+ms.keywords: ITfLanguageProfileNotifySink, ITfLanguageProfileNotifySink interface [Text Services Framework], ITfLanguageProfileNotifySink interface [Text Services Framework],described, _tsf_itflanguageprofilenotifysink_ref, msctf/ITfLanguageProfileNotifySink, tsf.itflanguageprofilenotifysink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

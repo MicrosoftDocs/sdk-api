@@ -7,8 +7,8 @@ old-location: shell\IShellDispatch6.htm
 old-project: shell
 ms.assetid: 540A5CFD-1520-4B61-B461-E893EFA27115
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellDispatch6, IShellDispatch6 object [Windows Shell], IShellDispatch6 object [Windows Shell], described, shell.IShellDispatch6, shldisp/IShellDispatch6
+ms.date: 5/3/2018
+ms.keywords: IShellDispatch6, IShellDispatch6 object [Windows Shell], IShellDispatch6 object [Windows Shell],described, shell.IShellDispatch6, shldisp/IShellDispatch6
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

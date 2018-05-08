@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 01325520-0cb3-46c2-b5a1-f07c5f8d7c7b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBTuningSpace2, IDVBTuningSpace2 interface [Microsoft TV Technologies], IDVBTuningSpace2 interface [Microsoft TV Technologies], described, IDVBTuningSpace2Interface, mstv.idvbtuningspace2, tuner/IDVBTuningSpace2
+ms.keywords: IDVBTuningSpace2, IDVBTuningSpace2 interface [Microsoft TV Technologies], IDVBTuningSpace2 interface [Microsoft TV Technologies],described, IDVBTuningSpace2Interface, mstv.idvbtuningspace2, tuner/IDVBTuningSpace2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

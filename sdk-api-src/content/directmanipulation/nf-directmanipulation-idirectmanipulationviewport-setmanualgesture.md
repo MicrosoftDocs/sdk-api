@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetManualGesture
-title: IDirectManipulationViewport::SetManualGesture method
+title: IDirectManipulationViewport::SetManualGesture
 author: windows-driver-content
 description: Sets which gestures are ignored by Direct Manipulation.
 old-location: directmanipulation\idirectmanipulationviewport_setmanualgesture.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: EBBBCEDB-8BAC-4E87-A69C-9730865A257F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], SetManualGesture method, IDirectManipulationViewport::SetManualGesture, SetManualGesture method [Direct Manipulation], SetManualGesture method [Direct Manipulation], IDirectManipulationViewport interface, SetManualGesture,IDirectManipulationViewport.SetManualGesture, directmanipulation.idirectmanipulationviewport_setmanualgesture, directmanipulation/IDirectManipulationViewport::SetManualGesture
+ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetManualGesture method, IDirectManipulationViewport.SetManualGesture, IDirectManipulationViewport::SetManualGesture, SetManualGesture, SetManualGesture method [Direct Manipulation], SetManualGesture method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setmanualgesture, directmanipulation/IDirectManipulationViewport::SetManualGesture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::SetManualGesture method
+# IDirectManipulationViewport::SetManualGesture
 
 
 ## -description

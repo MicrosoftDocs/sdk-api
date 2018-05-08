@@ -214,32 +214,27 @@ The number of values contained in the <b>Values</b> member.
 An array of offsets from the beginning of the CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 structure. Each offset indicates the location of a claim security attribute value of the type specified in the <b>ValueType</b> member.
 
 
-
-#### pInt64
+### -field Values.pInt64
 
 Pointer to an array of <b>ValueCount</b> members that is an offset from the beginning of the structure to a <b>LONG64</b> of type CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64.
 
 
-
-#### pUint64
+### -field Values.pUint64
 
 Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to a <b>ULONG64</b>  of type CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64.
 
 
-
-#### ppString
+### -field Values.ppString
 
 Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to a <b>PWSTR</b>  of type CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING.
 
 
-
-#### pFqbn
+### -field Values.pFqbn
 
 Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to the fully qualified binary name value of type <a href="https://msdn.microsoft.com/1FD9A519-40EA-4780-90F5-C9DF4ADAE72C">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
 
 
-
-#### pOctetString
+### -field Values.pOctetString
 
 Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to a <b>LONG64</b> octet string of type <a href="https://msdn.microsoft.com/6647CC4F-1A84-43B2-A80E-7B6BF3A2D7AD">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
 

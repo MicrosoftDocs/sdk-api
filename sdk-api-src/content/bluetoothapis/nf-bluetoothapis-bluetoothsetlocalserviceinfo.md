@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothsetlocalserviceinfo.htm
 old-project: bltooth
 ms.assetid: ab76f5d5-b7b6-4dc5-967d-5fe19260b5ad
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 4/27/2018
 ms.keywords: BluetoothSetLocalServiceInfo, BluetoothSetLocalServiceInfo function [Bluetooth Devices], bltooth.bluetoothsetlocalserviceinfo, bluetoothapis/BluetoothSetLocalServiceInfo, bth_funcs_036c64a4-5050-4d5d-8217-fc4ff9ef300d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

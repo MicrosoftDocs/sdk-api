@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetMemberByName
-title: ID3D10EffectVariable::GetMemberByName method
+title: ID3D10EffectVariable::GetMemberByName
 author: windows-driver-content
 description: Get a structure member by name.
 old-location: direct3d10\id3d10effectvariable_getmemberbyname.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getmemberbyname.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetMemberByName method [Direct3D 10], GetMemberByName method [Direct3D 10], ID3D10EffectVariable interface, GetMemberByName,ID3D10EffectVariable.GetMemberByName, ID3D10EffectVariable, ID3D10EffectVariable interface [Direct3D 10], GetMemberByName method, ID3D10EffectVariable::GetMemberByName, bca41608-f225-d8f7-81c8-fb65153d754a, d3d10effect/ID3D10EffectVariable::GetMemberByName, direct3d10.id3d10effectvariable_getmemberbyname
+ms.keywords: GetMemberByName, GetMemberByName method [Direct3D 10], GetMemberByName method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetMemberByName method, ID3D10EffectVariable.GetMemberByName, ID3D10EffectVariable::GetMemberByName, bca41608-f225-d8f7-81c8-fb65153d754a, d3d10effect/ID3D10EffectVariable::GetMemberByName, direct3d10.id3d10effectvariable_getmemberbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectVariable::GetMemberByName method
+# ID3D10EffectVariable::GetMemberByName
 
 
 ## -description

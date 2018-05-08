@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteVarDesc
-title: ICreateTypeInfo2::DeleteVarDesc method
+title: ICreateTypeInfo2::DeleteVarDesc
 author: windows-driver-content
 description: Deletes the specified VARDESC structure.
 old-location: automat\icreatetypeinfo2_deletevardesc.htm
 old-project: automat
 ms.assetid: 0fcf55d9-2592-4fed-9612-48085eb7791b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: DeleteVarDesc method [Automation], DeleteVarDesc method [Automation], ICreateTypeInfo2 interface, DeleteVarDesc,ICreateTypeInfo2.DeleteVarDesc, ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], DeleteVarDesc method, ICreateTypeInfo2::DeleteVarDesc, _oa96_ICreateTypeInfo2_DeleteVarDesc, automat.icreatetypeinfo2_deletevardesc, oaidl/ICreateTypeInfo2::DeleteVarDesc
+ms.date: 5/4/2018
+ms.keywords: DeleteVarDesc, DeleteVarDesc method [Automation], DeleteVarDesc method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteVarDesc method, ICreateTypeInfo2.DeleteVarDesc, ICreateTypeInfo2::DeleteVarDesc, _oa96_ICreateTypeInfo2_DeleteVarDesc, automat.icreatetypeinfo2_deletevardesc, oaidl/ICreateTypeInfo2::DeleteVarDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo2::DeleteVarDesc method
+# ICreateTypeInfo2::DeleteVarDesc
 
 
 ## -description

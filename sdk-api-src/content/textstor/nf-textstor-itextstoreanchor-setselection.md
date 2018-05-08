@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.SetSelection
-title: ITextStoreAnchor::SetSelection method
+title: ITextStoreAnchor::SetSelection
 author: windows-driver-content
 description: ITextStoreAnchor::SetSelection method
 old-location: tsf\itextstoreanchor_setselection.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: ce301fa4-d1dd-4470-b8b5-fc944afdc621
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], SetSelection method, ITextStoreAnchor::SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework], ITextStoreAnchor interface, SetSelection,ITextStoreAnchor.SetSelection, textstor/ITextStoreAnchor::SetSelection, tsf.itextstoreanchor_setselection
+ms.keywords: ITextStoreAnchor interface [Text Services Framework],SetSelection method, ITextStoreAnchor.SetSelection, ITextStoreAnchor::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::SetSelection, tsf.itextstoreanchor_setselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::SetSelection method
+# ITextStoreAnchor::SetSelection
 
 
 ## -description

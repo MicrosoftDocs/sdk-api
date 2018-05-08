@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetAssemblyProps
-title: IMetaDataAssemblyImport::GetAssemblyProps method
+title: IMetaDataAssemblyImport::GetAssemblyProps
 author: windows-driver-content
 description: Gets the set of properties for the assembly with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getassemblyprops.htm
 old-project: WinRT
 ms.assetid: 1f60657c-46b4-4491-a9e2-73868886f51d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetAssemblyProps method [Windows Runtime], GetAssemblyProps method [Windows Runtime], IMetaDataAssemblyImport interface, GetAssemblyProps,IMetaDataAssemblyImport.GetAssemblyProps, IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], GetAssemblyProps method, IMetaDataAssemblyImport::GetAssemblyProps, rometadataapi/IMetaDataAssemblyImport::GetAssemblyProps, winrt.imetadataassemblyimport_getassemblyprops
+ms.date: 5/4/2018
+ms.keywords: GetAssemblyProps, GetAssemblyProps method [Windows Runtime], GetAssemblyProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetAssemblyProps method, IMetaDataAssemblyImport.GetAssemblyProps, IMetaDataAssemblyImport::GetAssemblyProps, rometadataapi/IMetaDataAssemblyImport::GetAssemblyProps, winrt.imetadataassemblyimport_getassemblyprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataAssemblyImport::GetAssemblyProps method
+# IMetaDataAssemblyImport::GetAssemblyProps
 
 
 ## -description

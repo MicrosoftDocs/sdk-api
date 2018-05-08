@@ -1,14 +1,14 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorOutputFormats
-title: IDXVAHD_Device::GetVideoProcessorOutputFormats method
+title: IDXVAHD_Device::GetVideoProcessorOutputFormats
 author: windows-driver-content
 description: Gets a list of the output formats supported by the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_device_getvideoprocessoroutputformats.htm
 old-project: medfound
 ms.assetid: e701014d-c112-42fa-9bf5-88cb31424006
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoProcessorOutputFormats method [Media Foundation], GetVideoProcessorOutputFormats method [Media Foundation], IDXVAHD_Device interface, GetVideoProcessorOutputFormats,IDXVAHD_Device.GetVideoProcessorOutputFormats, IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], GetVideoProcessorOutputFormats method, IDXVAHD_Device::GetVideoProcessorOutputFormats, dxvahd/IDXVAHD_Device::GetVideoProcessorOutputFormats, mf.idxvahd_device_getvideoprocessoroutputformats
+ms.date: 5/3/2018
+ms.keywords: GetVideoProcessorOutputFormats, GetVideoProcessorOutputFormats method [Media Foundation], GetVideoProcessorOutputFormats method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorOutputFormats method, IDXVAHD_Device.GetVideoProcessorOutputFormats, IDXVAHD_Device::GetVideoProcessorOutputFormats, dxvahd/IDXVAHD_Device::GetVideoProcessorOutputFormats, mf.idxvahd_device_getvideoprocessoroutputformats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXVAHD_Device::GetVideoProcessorOutputFormats method
+# IDXVAHD_Device::GetVideoProcessorOutputFormats
 
 
 ## -description

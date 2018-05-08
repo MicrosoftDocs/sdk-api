@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetBuffered
-title: IMFMediaEngine::GetBuffered method
+title: IMFMediaEngine::GetBuffered
 author: windows-driver-content
 description: Queries how much resource data the media engine has buffered.
 old-location: mf\imfmediaengine_getbuffered.htm
 old-project: medfound
 ms.assetid: 38DABEE7-04AF-4542-AF4D-7988C824EA11
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetBuffered method [Media Foundation], GetBuffered method [Media Foundation], IMFMediaEngine interface, GetBuffered,IMFMediaEngine.GetBuffered, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetBuffered method, IMFMediaEngine::GetBuffered, mf.imfmediaengine_getbuffered, mfmediaengine/IMFMediaEngine::GetBuffered
+ms.date: 5/3/2018
+ms.keywords: GetBuffered, GetBuffered method [Media Foundation], GetBuffered method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetBuffered method, IMFMediaEngine.GetBuffered, IMFMediaEngine::GetBuffered, mf.imfmediaengine_getbuffered, mfmediaengine/IMFMediaEngine::GetBuffered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::GetBuffered method
+# IMFMediaEngine::GetBuffered
 
 
 ## -description

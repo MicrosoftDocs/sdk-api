@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordName
-title: IATSC_VCT::GetRecordName method
+title: IATSC_VCT::GetRecordName
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordname.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b97baa53-d927-4a3c-91a5-3d06d26e797f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordName method [Microsoft TV Technologies], GetRecordName method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordName,IATSC_VCT.GetRecordName, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordName method, IATSC_VCT::GetRecordName, IATSC_VCTGetRecordName, atscpsipparser/IATSC_VCT::GetRecordName, mstv.iatsc_vct_getrecordname
+ms.keywords: GetRecordName, GetRecordName method [Microsoft TV Technologies], GetRecordName method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordName method, IATSC_VCT.GetRecordName, IATSC_VCT::GetRecordName, IATSC_VCTGetRecordName, atscpsipparser/IATSC_VCT::GetRecordName, mstv.iatsc_vct_getrecordname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_VCT::GetRecordName method
+# IATSC_VCT::GetRecordName
 
 
 ## -description

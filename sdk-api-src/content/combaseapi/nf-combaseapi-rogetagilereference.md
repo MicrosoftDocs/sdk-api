@@ -7,7 +7,7 @@ old-location: winrt\rogetagilereference.htm
 old-project: WinRT
 ms.assetid: D16224C7-1BB7-46F5-B66C-54D0B9679006
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: RoGetAgileReference, RoGetAgileReference function [Windows Runtime], combaseapi/RoGetAgileReference, winrt.rogetagilereference
 ms.prod: windows-hardware
 ms.technology: windows-devices

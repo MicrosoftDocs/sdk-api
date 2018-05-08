@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_RawViewWalker
-title: IUIAutomation::get_RawViewWalker method
+title: IUIAutomation::get_RawViewWalker
 author: windows-driver-content
 description: Retrieves a tree walker object used to traverse an unfiltered view of the Microsoft UI Automation tree.
 old-location: winauto\uiauto_IUIAutomation_RawViewWalker.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 1c76140d-50da-41d6-a997-926396f37a36
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomation, IUIAutomation interface [Windows Accessibility], RawViewWalker property, IUIAutomation.RawViewWalker, IUIAutomation::get_RawViewWalker, RawViewWalker property [Windows Accessibility], RawViewWalker property [Windows Accessibility], IUIAutomation interface, get_RawViewWalker,IUIAutomation.get_RawViewWalker, uiauto.uiauto_IUIAutomation_RawViewWalker, uiauto_IUIAutomation_RawViewWalker, uiautomationclient/IUIAutomation::RawViewWalker, uiautomationclient/IUIAutomation::get_RawViewWalker, winauto.uiauto_IUIAutomation_RawViewWalker
+ms.keywords: IUIAutomation interface [Windows Accessibility],RawViewWalker property, IUIAutomation.RawViewWalker, IUIAutomation.get_RawViewWalker, IUIAutomation::RawViewWalker, IUIAutomation::get_RawViewWalker, RawViewWalker property [Windows Accessibility], RawViewWalker property [Windows Accessibility],IUIAutomation interface, get_RawViewWalker, uiauto.uiauto_IUIAutomation_RawViewWalker, uiauto_IUIAutomation_RawViewWalker, uiautomationclient/IUIAutomation::RawViewWalker, uiautomationclient/IUIAutomation::get_RawViewWalker, winauto.uiauto_IUIAutomation_RawViewWalker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::get_RawViewWalker method
+# IUIAutomation::get_RawViewWalker
 
 
 ## -description

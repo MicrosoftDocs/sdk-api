@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetOutputSetting
-title: IWMSyncReader::SetOutputSetting method
+title: IWMSyncReader::SetOutputSetting
 author: windows-driver-content
 description: The SetOutputSetting method specifies a named setting for a particular output.
 old-location: wmformat\iwmsyncreader_setoutputsetting.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 8deb322f-8b52-46cf-9b5c-76fa34b6bde2
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], SetOutputSetting method, IWMSyncReader::SetOutputSetting, IWMSyncReaderSetOutputSetting, SetOutputSetting method [windows Media Format], SetOutputSetting method [windows Media Format], IWMSyncReader interface, SetOutputSetting,IWMSyncReader.SetOutputSetting, wmformat.iwmsyncreader_setoutputsetting, wmsdkidl/IWMSyncReader::SetOutputSetting
+ms.keywords: IWMSyncReader interface [windows Media Format],SetOutputSetting method, IWMSyncReader.SetOutputSetting, IWMSyncReader::SetOutputSetting, IWMSyncReaderSetOutputSetting, SetOutputSetting, SetOutputSetting method [windows Media Format], SetOutputSetting method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setoutputsetting, wmsdkidl/IWMSyncReader::SetOutputSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader::SetOutputSetting method
+# IWMSyncReader::SetOutputSetting
 
 
 ## -description

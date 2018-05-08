@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.CreateStreamPrioritization
-title: IMFASFProfile::CreateStreamPrioritization method
+title: IMFASFProfile::CreateStreamPrioritization
 author: windows-driver-content
 description: IMFASFProfile::CreateStreamPrioritization method
 old-location: mf\imfasfprofile_createstreamprioritization.htm
 old-project: medfound
 ms.assetid: 1c3a5470-eba9-4233-8744-8630002d3fa0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 1c3a5470-eba9-4233-8744-8630002d3fa0, CreateStreamPrioritization method [Media Foundation], CreateStreamPrioritization method [Media Foundation], IMFASFProfile interface, CreateStreamPrioritization,IMFASFProfile.CreateStreamPrioritization, IMFASFProfile, IMFASFProfile interface [Media Foundation], CreateStreamPrioritization method, IMFASFProfile::CreateStreamPrioritization, mf.imfasfprofile_createstreamprioritization, wmcontainer/IMFASFProfile::CreateStreamPrioritization
+ms.date: 5/3/2018
+ms.keywords: 1c3a5470-eba9-4233-8744-8630002d3fa0, CreateStreamPrioritization, CreateStreamPrioritization method [Media Foundation], CreateStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],CreateStreamPrioritization method, IMFASFProfile.CreateStreamPrioritization, IMFASFProfile::CreateStreamPrioritization, mf.imfasfprofile_createstreamprioritization, wmcontainer/IMFASFProfile::CreateStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFProfile::CreateStreamPrioritization method
+# IMFASFProfile::CreateStreamPrioritization
 
 
 ## -description

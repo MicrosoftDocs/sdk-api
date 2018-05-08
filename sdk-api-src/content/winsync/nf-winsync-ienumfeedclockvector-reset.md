@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumFeedClockVector.Reset
-title: IEnumFeedClockVector::Reset method
+title: IEnumFeedClockVector::Reset
 author: windows-driver-content
 description: Resets the enumerator to the beginning of the clock vector.
 old-location: winsync\ienumfeedclockvector_reset.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: dbd25148-b734-49a2-b8ad-9ded9d1a0bf2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumFeedClockVector, IEnumFeedClockVector interface [Windows Sync], Reset method, IEnumFeedClockVector::Reset, Reset method [Windows Sync], Reset method [Windows Sync], IEnumFeedClockVector interface, Reset,IEnumFeedClockVector.Reset, winsync.ienumfeedclockvector_reset, winsync/IEnumFeedClockVector::Reset
+ms.keywords: IEnumFeedClockVector interface [Windows Sync],Reset method, IEnumFeedClockVector.Reset, IEnumFeedClockVector::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_reset, winsync/IEnumFeedClockVector::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumFeedClockVector::Reset method
+# IEnumFeedClockVector::Reset
 
 
 ## -description

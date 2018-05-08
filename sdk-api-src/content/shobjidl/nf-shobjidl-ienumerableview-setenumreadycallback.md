@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IEnumerableView.SetEnumReadyCallback
-title: IEnumerableView::SetEnumReadyCallback method
+title: IEnumerableView::SetEnumReadyCallback
 author: windows-driver-content
 description: Sets a callback on the view that is notified when the initial view enumeration is complete.
 old-location: shell\IEnumerableView_SetEnumReadyCallback.htm
 old-project: shell
 ms.assetid: af824c16-5bbf-4c75-88d0-b76519152360
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumerableView, IEnumerableView interface [Windows Shell], SetEnumReadyCallback method, IEnumerableView::SetEnumReadyCallback, SetEnumReadyCallback method [Windows Shell], SetEnumReadyCallback method [Windows Shell], IEnumerableView interface, SetEnumReadyCallback,IEnumerableView.SetEnumReadyCallback, _shell_IEnumerableView_SetEnumReadyCallback, shell.IEnumerableView_SetEnumReadyCallback, shobjidl/IEnumerableView::SetEnumReadyCallback
+ms.date: 5/3/2018
+ms.keywords: IEnumerableView interface [Windows Shell],SetEnumReadyCallback method, IEnumerableView.SetEnumReadyCallback, IEnumerableView::SetEnumReadyCallback, SetEnumReadyCallback, SetEnumReadyCallback method [Windows Shell], SetEnumReadyCallback method [Windows Shell],IEnumerableView interface, _shell_IEnumerableView_SetEnumReadyCallback, shell.IEnumerableView_SetEnumReadyCallback, shobjidl/IEnumerableView::SetEnumReadyCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IEnumerableView::SetEnumReadyCallback method
+# IEnumerableView::SetEnumReadyCallback
 
 
 ## -description

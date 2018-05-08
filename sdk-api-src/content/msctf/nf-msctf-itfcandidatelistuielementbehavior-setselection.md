@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElementBehavior.SetSelection
-title: ITfCandidateListUIElementBehavior::SetSelection method
+title: ITfCandidateListUIElementBehavior::SetSelection
 author: windows-driver-content
 description: The ITfCandidateListUIElementBehavior::SetSelection method set the selection of the candidate list.
 old-location: tsf\itfcandidatelistuielementbehavior_setselection.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a3afdfc9-c3e7-4735-b13f-84c45230128a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCandidateListUIElementBehavior, ITfCandidateListUIElementBehavior interface [Text Services Framework], SetSelection method, ITfCandidateListUIElementBehavior::SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework], ITfCandidateListUIElementBehavior interface, SetSelection,ITfCandidateListUIElementBehavior.SetSelection, msctf/ITfCandidateListUIElementBehavior::SetSelection, tsf.itfcandidatelistuielementbehavior_setselection
+ms.keywords: ITfCandidateListUIElementBehavior interface [Text Services Framework],SetSelection method, ITfCandidateListUIElementBehavior.SetSelection, ITfCandidateListUIElementBehavior::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITfCandidateListUIElementBehavior interface, msctf/ITfCandidateListUIElementBehavior::SetSelection, tsf.itfcandidatelistuielementbehavior_setselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCandidateListUIElementBehavior::SetSelection method
+# ITfCandidateListUIElementBehavior::SetSelection
 
 
 ## -description

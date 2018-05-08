@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.IRichEditUiaInformation.GetBoundaryRectangle
-title: IRichEditUiaInformation::GetBoundaryRectangle method
+title: IRichEditUiaInformation::GetBoundaryRectangle
 author: windows-driver-content
 description: Retrieves the bounding rectangle of a windowless rich edit control.
 old-location: controls\irichedituiainformation_getboundaryrectangle.htm
 old-project: Controls
 ms.assetid: DCDE0730-25C4-4856-AC20-36C36E20AFB1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetBoundaryRectangle method [Windows Controls], GetBoundaryRectangle method [Windows Controls], IRichEditUiaInformation interface, GetBoundaryRectangle,IRichEditUiaInformation.GetBoundaryRectangle, IRichEditUiaInformation, IRichEditUiaInformation interface [Windows Controls], GetBoundaryRectangle method, IRichEditUiaInformation::GetBoundaryRectangle, controls.irichedituiainformation_getboundaryrectangle, textserv/IRichEditUiaInformation::GetBoundaryRectangle
+ms.date: 4/27/2018
+ms.keywords: GetBoundaryRectangle, GetBoundaryRectangle method [Windows Controls], GetBoundaryRectangle method [Windows Controls],IRichEditUiaInformation interface, IRichEditUiaInformation interface [Windows Controls],GetBoundaryRectangle method, IRichEditUiaInformation.GetBoundaryRectangle, IRichEditUiaInformation::GetBoundaryRectangle, controls.irichedituiainformation_getboundaryrectangle, textserv/IRichEditUiaInformation::GetBoundaryRectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRichEditUiaInformation::GetBoundaryRectangle method
+# IRichEditUiaInformation::GetBoundaryRectangle
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddNonMemberName
-title: IAzApplicationGroup::AddNonMemberName method
+title: IAzApplicationGroup::AddNonMemberName
 author: windows-driver-content
 description: Adds the specified account name to the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_addnonmembername.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 56bde3d9-f4f7-449d-a080-5215dda940a0
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddNonMemberName method [Security], AddNonMemberName method [Security], AzApplicationGroup object, AddNonMemberName method [Security], IAzApplicationGroup interface, AddNonMemberName,IAzApplicationGroup.AddNonMemberName, AzApplicationGroup object [Security], AddNonMemberName method, IAzApplicationGroup, IAzApplicationGroup interface [Security], AddNonMemberName method, IAzApplicationGroup::AddNonMemberName, azroles/IAzApplicationGroup::AddNonMemberName, security.iazapplicationgroup_addnonmembername
+ms.keywords: AddNonMemberName, AddNonMemberName method [Security], AddNonMemberName method [Security],AzApplicationGroup object, AddNonMemberName method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddNonMemberName method, IAzApplicationGroup interface [Security],AddNonMemberName method, IAzApplicationGroup.AddNonMemberName, IAzApplicationGroup::AddNonMemberName, azroles/IAzApplicationGroup::AddNonMemberName, security.iazapplicationgroup_addnonmembername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplicationGroup::AddNonMemberName method
+# IAzApplicationGroup::AddNonMemberName
 
 
 ## -description

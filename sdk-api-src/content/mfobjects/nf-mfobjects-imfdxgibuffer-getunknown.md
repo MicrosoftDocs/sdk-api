@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFDXGIBuffer.GetUnknown
-title: IMFDXGIBuffer::GetUnknown method
+title: IMFDXGIBuffer::GetUnknown
 author: windows-driver-content
 description: Gets an IUnknown pointer that was previously stored in the media buffer object.
 old-location: mf\imfdxgibuffer_getunknown.htm
 old-project: medfound
 ms.assetid: 6B4A5E79-3A0A-439E-ABE1-F92C3D07FB57
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetUnknown method [Media Foundation], GetUnknown method [Media Foundation], IMFDXGIBuffer interface, GetUnknown,IMFDXGIBuffer.GetUnknown, IMFDXGIBuffer, IMFDXGIBuffer interface [Media Foundation], GetUnknown method, IMFDXGIBuffer::GetUnknown, mf.imfdxgibuffer_getunknown, mfobjects/IMFDXGIBuffer::GetUnknown
+ms.date: 5/3/2018
+ms.keywords: GetUnknown, GetUnknown method [Media Foundation], GetUnknown method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetUnknown method, IMFDXGIBuffer.GetUnknown, IMFDXGIBuffer::GetUnknown, mf.imfdxgibuffer_getunknown, mfobjects/IMFDXGIBuffer::GetUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFDXGIBuffer::GetUnknown method
+# IMFDXGIBuffer::GetUnknown
 
 
 ## -description

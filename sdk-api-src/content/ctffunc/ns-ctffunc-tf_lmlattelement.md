@@ -75,12 +75,7 @@ Contains the length, in 100-nanosecond units, of the element.
 Not currently used.
 
 
-### -field bstrText
-
-Contains the display text for the element. If the spoken word is "two", the display text will be "2". The caller must free this string using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
-
-
-#### - iCost
+### -field iCost
 
 Specifies the actual confidence for this element. This can be one of the following values.
 
@@ -103,6 +98,11 @@ Specifies the actual confidence for this element. This can be one of the followi
 </tr>
 </table>
  
+
+
+### -field bstrText
+
+Contains the display text for the element. If the spoken word is "two", the display text will be "2". The caller must free this string using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
 
 
 ## -see-also

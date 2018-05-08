@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetFullscreenState
-title: IDXGISwapChain::GetFullscreenState method
+title: IDXGISwapChain::GetFullscreenState
 author: windows-driver-content
 description: Get the state associated with full-screen mode.
 old-location: direct3ddxgi\idxgiswapchain_getfullscreenstate.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getfullscreenstate.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetFullscreenState method [DXGI], GetFullscreenState method [DXGI], IDXGISwapChain interface, GetFullscreenState,IDXGISwapChain.GetFullscreenState, IDXGISwapChain, IDXGISwapChain interface [DXGI], GetFullscreenState method, IDXGISwapChain::GetFullscreenState, d3b177d7-2b70-fc90-2a07-3046eb5fdf48, direct3ddxgi.idxgiswapchain_getfullscreenstate, dxgi/IDXGISwapChain::GetFullscreenState
+ms.keywords: GetFullscreenState, GetFullscreenState method [DXGI], GetFullscreenState method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetFullscreenState method, IDXGISwapChain.GetFullscreenState, IDXGISwapChain::GetFullscreenState, d3b177d7-2b70-fc90-2a07-3046eb5fdf48, direct3ddxgi.idxgiswapchain_getfullscreenstate, dxgi/IDXGISwapChain::GetFullscreenState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain::GetFullscreenState method
+# IDXGISwapChain::GetFullscreenState
 
 
 ## -description

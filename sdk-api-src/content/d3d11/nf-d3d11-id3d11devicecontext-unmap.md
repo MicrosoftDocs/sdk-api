@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.Unmap
-title: ID3D11DeviceContext::Unmap method
+title: ID3D11DeviceContext::Unmap
 author: windows-driver-content
 description: Invalidate the pointer to a resource and reenable the GPU's access to that resource.
 old-location: direct3d11\id3d11devicecontext_unmap.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 67797b77-c0a5-47b4-ba54-4282b6aa5b13
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 83629121-3205-9ee6-6495-a815e1ef2ab5, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], Unmap method, ID3D11DeviceContext::Unmap, Unmap method [Direct3D 11], Unmap method [Direct3D 11], ID3D11DeviceContext interface, Unmap,ID3D11DeviceContext.Unmap, d3d11/ID3D11DeviceContext::Unmap, direct3d11.id3d11devicecontext_unmap
+ms.keywords: 83629121-3205-9ee6-6495-a815e1ef2ab5, ID3D11DeviceContext interface [Direct3D 11],Unmap method, ID3D11DeviceContext.Unmap, ID3D11DeviceContext::Unmap, Unmap, Unmap method [Direct3D 11], Unmap method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::Unmap, direct3d11.id3d11devicecontext_unmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::Unmap method
+# ID3D11DeviceContext::Unmap
 
 
 ## -description

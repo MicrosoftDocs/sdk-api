@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFDesiredSample.Clear
-title: IMFDesiredSample::Clear method
+title: IMFDesiredSample::Clear
 author: windows-driver-content
 description: Clears the time stamps previously set by a call to IMFDesiredSample::SetDesiredSampleTimeAndDuration.
 old-location: mf\imfdesiredsample_clear.htm
 old-project: medfound
 ms.assetid: d5c6c1c2-c122-47b6-82b3-28b54bafc7b8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: Clear method [Media Foundation], Clear method [Media Foundation], IMFDesiredSample interface, Clear,IMFDesiredSample.Clear, IMFDesiredSample, IMFDesiredSample interface [Media Foundation], Clear method, IMFDesiredSample::Clear, d5c6c1c2-c122-47b6-82b3-28b54bafc7b8, evr/IMFDesiredSample::Clear, mf.imfdesiredsample_clear
+ms.date: 5/3/2018
+ms.keywords: Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFDesiredSample interface, IMFDesiredSample interface [Media Foundation],Clear method, IMFDesiredSample.Clear, IMFDesiredSample::Clear, d5c6c1c2-c122-47b6-82b3-28b54bafc7b8, evr/IMFDesiredSample::Clear, mf.imfdesiredsample_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFDesiredSample::Clear method
+# IMFDesiredSample::Clear
 
 
 ## -description

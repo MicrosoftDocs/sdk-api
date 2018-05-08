@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_ExtendedProperties
-title: IStylesProvider::get_ExtendedProperties method
+title: IStylesProvider::get_ExtendedProperties
 author: windows-driver-content
 description: Contains additional properties that are not included in this control pattern, but that provide information about the document content that might be useful to the user.
 old-location: winauto\uiauto_IStylesProvider_ExtendedProperties.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: C8C9EC52-FDC5-469B-BDD7-2BCBA332EF8F
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ExtendedProperties property [Windows Accessibility], ExtendedProperties property [Windows Accessibility], IStylesProvider interface, IStylesProvider, IStylesProvider interface [Windows Accessibility], ExtendedProperties property, IStylesProvider.ExtendedProperties, IStylesProvider::get_ExtendedProperties, get_ExtendedProperties,IStylesProvider.get_ExtendedProperties, uiautomationcore/IStylesProvider::ExtendedProperties, uiautomationcore/IStylesProvider::get_ExtendedProperties, winauto.uiauto_IStylesProvider_ExtendedProperties
+ms.keywords: ExtendedProperties property [Windows Accessibility], ExtendedProperties property [Windows Accessibility],IStylesProvider interface, IStylesProvider interface [Windows Accessibility],ExtendedProperties property, IStylesProvider.ExtendedProperties, IStylesProvider.get_ExtendedProperties, IStylesProvider::ExtendedProperties, IStylesProvider::get_ExtendedProperties, get_ExtendedProperties, uiautomationcore/IStylesProvider::ExtendedProperties, uiautomationcore/IStylesProvider::get_ExtendedProperties, winauto.uiauto_IStylesProvider_ExtendedProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IStylesProvider::get_ExtendedProperties method
+# IStylesProvider::get_ExtendedProperties
 
 
 ## -description

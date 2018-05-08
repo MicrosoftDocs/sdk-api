@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnButtonClicked
-title: IFileDialogControlEvents::OnButtonClicked method
+title: IFileDialogControlEvents::OnButtonClicked
 author: windows-driver-content
 description: Called when the user clicks a command button.
 old-location: shell\IFileDialogControlEvents_OnButtonClicked.htm
 old-project: shell
 ms.assetid: 46dc28a4-717f-42b6-bff7-56f4902f075c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFileDialogControlEvents, IFileDialogControlEvents interface [Windows Shell], OnButtonClicked method, IFileDialogControlEvents::OnButtonClicked, OnButtonClicked method [Windows Shell], OnButtonClicked method [Windows Shell], IFileDialogControlEvents interface, OnButtonClicked,IFileDialogControlEvents.OnButtonClicked, shell.IFileDialogControlEvents_OnButtonClicked, shell_IFileDialogControlEvents_OnButtonClicked, shobjidl/IFileDialogControlEvents::OnButtonClicked
+ms.date: 5/3/2018
+ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnButtonClicked method, IFileDialogControlEvents.OnButtonClicked, IFileDialogControlEvents::OnButtonClicked, OnButtonClicked, OnButtonClicked method [Windows Shell], OnButtonClicked method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnButtonClicked, shell_IFileDialogControlEvents_OnButtonClicked, shobjidl/IFileDialogControlEvents::OnButtonClicked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IFileDialogControlEvents::OnButtonClicked method
+# IFileDialogControlEvents::OnButtonClicked
 
 
 ## -description

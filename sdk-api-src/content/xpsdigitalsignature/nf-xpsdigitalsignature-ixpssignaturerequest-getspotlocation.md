@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetSpotLocation
-title: IXpsSignatureRequest::GetSpotLocation method
+title: IXpsSignatureRequest::GetSpotLocation
 author: windows-driver-content
 description: Gets the page and the location on the page where the visible digital signature or the digital signature request will be displayed.
 old-location: xps\ixpssignaturerequest_getspotlocation.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f8a93c77-c978-4483-b0e0-36d998add184
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSpotLocation method [XPS Documents and Packaging], GetSpotLocation method [XPS Documents and Packaging], IXpsSignatureRequest interface, GetSpotLocation,IXpsSignatureRequest.GetSpotLocation, IXpsSignatureRequest, IXpsSignatureRequest interface [XPS Documents and Packaging], GetSpotLocation method, IXpsSignatureRequest::GetSpotLocation, xps.ixpssignaturerequest_getspotlocation, xpsdigitalsignature/IXpsSignatureRequest::GetSpotLocation
+ms.keywords: GetSpotLocation, GetSpotLocation method [XPS Documents and Packaging], GetSpotLocation method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSpotLocation method, IXpsSignatureRequest.GetSpotLocation, IXpsSignatureRequest::GetSpotLocation, xps.ixpssignaturerequest_getspotlocation, xpsdigitalsignature/IXpsSignatureRequest::GetSpotLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureRequest::GetSpotLocation method
+# IXpsSignatureRequest::GetSpotLocation
 
 
 ## -description

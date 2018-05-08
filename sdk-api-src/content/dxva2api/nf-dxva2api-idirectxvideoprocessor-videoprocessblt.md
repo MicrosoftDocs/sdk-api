@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.VideoProcessBlt
-title: IDirectXVideoProcessor::VideoProcessBlt method
+title: IDirectXVideoProcessor::VideoProcessBlt
 author: windows-driver-content
 description: Performs a video process operation on one or more input samples and writes the result to a Direct3D9 surface.
 old-location: mf\idirectxvideoprocessor_videoprocessblt.htm
 old-project: medfound
 ms.assetid: 4a199ad3-621e-4594-a9f8-ad6cfd560cec
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 4a199ad3-621e-4594-a9f8-ad6cfd560cec, IDirectXVideoProcessor, IDirectXVideoProcessor interface [Media Foundation], VideoProcessBlt method, IDirectXVideoProcessor::VideoProcessBlt, VideoProcessBlt method [Media Foundation], VideoProcessBlt method [Media Foundation], IDirectXVideoProcessor interface, VideoProcessBlt,IDirectXVideoProcessor.VideoProcessBlt, dxva2api/IDirectXVideoProcessor::VideoProcessBlt, mf.idirectxvideoprocessor_videoprocessblt
+ms.date: 5/3/2018
+ms.keywords: 4a199ad3-621e-4594-a9f8-ad6cfd560cec, IDirectXVideoProcessor interface [Media Foundation],VideoProcessBlt method, IDirectXVideoProcessor.VideoProcessBlt, IDirectXVideoProcessor::VideoProcessBlt, VideoProcessBlt, VideoProcessBlt method [Media Foundation], VideoProcessBlt method [Media Foundation],IDirectXVideoProcessor interface, dxva2api/IDirectXVideoProcessor::VideoProcessBlt, mf.idirectxvideoprocessor_videoprocessblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirectXVideoProcessor::VideoProcessBlt method
+# IDirectXVideoProcessor::VideoProcessBlt
 
 
 ## -description

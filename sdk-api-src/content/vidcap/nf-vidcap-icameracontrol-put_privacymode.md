@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.put_PrivacyMode
-title: ICameraControl::put_PrivacyMode method
+title: ICameraControl::put_PrivacyMode
 author: windows-driver-content
 description: The put_PrivacyMode method sets the camera's privacy setting. The privacy setting controls whether the camera sensor captures video.
 old-location: dshow\icameracontrol_put_privacymode.htm
 old-project: DirectShow
 ms.assetid: 04116eba-926c-43fc-9a45-91be42e9af26
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_PrivacyMode method, ICameraControl::put_PrivacyMode, ICameraControlput_PrivacyMode, dshow.icameracontrol_put_privacymode, put_PrivacyMode method [DirectShow], put_PrivacyMode method [DirectShow], ICameraControl interface, put_PrivacyMode,ICameraControl.put_PrivacyMode, vidcap/ICameraControl::put_PrivacyMode
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],put_PrivacyMode method, ICameraControl.put_PrivacyMode, ICameraControl::put_PrivacyMode, ICameraControlput_PrivacyMode, dshow.icameracontrol_put_privacymode, put_PrivacyMode, put_PrivacyMode method [DirectShow], put_PrivacyMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PrivacyMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::put_PrivacyMode method
+# ICameraControl::put_PrivacyMode
 
 
 ## -description

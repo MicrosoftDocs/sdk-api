@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureId
-title: IOpcDigitalSignature::GetSignatureId method
+title: IOpcDigitalSignature::GetSignatureId
 author: windows-driver-content
 description: Gets the value of the Id attribute from the Signature element of the signature markup.
 old-location: opc\iopcdigitalsignature_getsignatureid.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 20eea0ff-dff1-4f95-aaf7-00e5a36503f1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignatureId method [Open Packaging Conventions], GetSignatureId method [Open Packaging Conventions], IOpcDigitalSignature interface, GetSignatureId,IOpcDigitalSignature.GetSignatureId, IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], GetSignatureId method, IOpcDigitalSignature::GetSignatureId, msopc/IOpcDigitalSignature::GetSignatureId, opc.iopcdigitalsignature_getsignatureid
+ms.keywords: GetSignatureId, GetSignatureId method [Open Packaging Conventions], GetSignatureId method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureId method, IOpcDigitalSignature.GetSignatureId, IOpcDigitalSignature::GetSignatureId, msopc/IOpcDigitalSignature::GetSignatureId, opc.iopcdigitalsignature_getsignatureid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignature::GetSignatureId method
+# IOpcDigitalSignature::GetSignatureId
 
 
 ## -description

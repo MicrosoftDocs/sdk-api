@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCache2.DiscardCache
-title: IOleCache2::DiscardCache method
+title: IOleCache2::DiscardCache
 author: windows-driver-content
 description: Discards the caches found in memory.
 old-location: com\iolecache2_discardcache.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 03fb4bdb-1655-4923-b124-8854419766ec
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: DiscardCache method [COM], DiscardCache method [COM], IOleCache2 interface, DiscardCache,IOleCache2.DiscardCache, IOleCache2, IOleCache2 interface [COM], DiscardCache method, IOleCache2::DiscardCache, _ole_iolecache2_discardcache, com.iolecache2_discardcache, oleidl/IOleCache2::DiscardCache
+ms.keywords: DiscardCache, DiscardCache method [COM], DiscardCache method [COM],IOleCache2 interface, IOleCache2 interface [COM],DiscardCache method, IOleCache2.DiscardCache, IOleCache2::DiscardCache, _ole_iolecache2_discardcache, com.iolecache2_discardcache, oleidl/IOleCache2::DiscardCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleCache2::DiscardCache method
+# IOleCache2::DiscardCache
 
 
 ## -description

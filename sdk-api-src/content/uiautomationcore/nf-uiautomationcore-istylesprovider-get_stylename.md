@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_StyleName
-title: IStylesProvider::get_StyleName method
+title: IStylesProvider::get_StyleName
 author: windows-driver-content
 description: Specifies the name of the visual style of an element in a document.
 old-location: winauto\iuiauto_stylesprovider_stylename.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 5FFCFC37-F03D-4F86-8D8E-3AF03547A40B
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IStylesProvider, IStylesProvider interface [Windows Accessibility], StyleName property, IStylesProvider.StyleName, IStylesProvider::get_StyleName, StyleName property [Windows Accessibility], StyleName property [Windows Accessibility], IStylesProvider interface, get_StyleName,IStylesProvider.get_StyleName, uiautomationcore/IStylesProvider::StyleName, uiautomationcore/IStylesProvider::get_StyleName, winauto.iuiauto_stylesprovider_stylename
+ms.keywords: IStylesProvider interface [Windows Accessibility],StyleName property, IStylesProvider.StyleName, IStylesProvider.get_StyleName, IStylesProvider::StyleName, IStylesProvider::get_StyleName, StyleName property [Windows Accessibility], StyleName property [Windows Accessibility],IStylesProvider interface, get_StyleName, uiautomationcore/IStylesProvider::StyleName, uiautomationcore/IStylesProvider::get_StyleName, winauto.iuiauto_stylesprovider_stylename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IStylesProvider::get_StyleName method
+# IStylesProvider::get_StyleName
 
 
 ## -description

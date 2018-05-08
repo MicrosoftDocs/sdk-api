@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeBrushLookup
-title: IXpsOMPath::SetStrokeBrushLookup method
+title: IXpsOMPath::SetStrokeBrushLookup
 author: windows-driver-content
 description: Sets the lookup key name of a shared brush to be used as the stroke brush.
 old-location: xps\ixpsompath_setstrokebrushlookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b2af731a-bea7-4f1b-8e31-b0173e38fd67
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], SetStrokeBrushLookup method, IXpsOMPath::SetStrokeBrushLookup, SetStrokeBrushLookup method [XPS Documents and Packaging], SetStrokeBrushLookup method [XPS Documents and Packaging], IXpsOMPath interface, SetStrokeBrushLookup,IXpsOMPath.SetStrokeBrushLookup, xps.ixpsompath_setstrokebrushlookup, xpsobjectmodel/IXpsOMPath::SetStrokeBrushLookup
+ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeBrushLookup method, IXpsOMPath.SetStrokeBrushLookup, IXpsOMPath::SetStrokeBrushLookup, SetStrokeBrushLookup, SetStrokeBrushLookup method [XPS Documents and Packaging], SetStrokeBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokebrushlookup, xpsobjectmodel/IXpsOMPath::SetStrokeBrushLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::SetStrokeBrushLookup method
+# IXpsOMPath::SetStrokeBrushLookup
 
 
 ## -description

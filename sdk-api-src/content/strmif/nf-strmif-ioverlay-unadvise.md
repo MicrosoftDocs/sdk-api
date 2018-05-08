@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IOverlay.Unadvise
-title: IOverlay::Unadvise method
+title: IOverlay::Unadvise
 author: windows-driver-content
 description: The Unadvise method terminates the advise link established with the IOverlayNotify interface.
 old-location: dshow\ioverlay_unadvise.htm
 old-project: DirectShow
 ms.assetid: da987152-d5cd-42c5-848a-6d70ad25ca33
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IOverlay, IOverlay interface [DirectShow], Unadvise method, IOverlay::Unadvise, IOverlayUnadvise, Unadvise method [DirectShow], Unadvise method [DirectShow], IOverlay interface, Unadvise,IOverlay.Unadvise, dshow.ioverlay_unadvise, strmif/IOverlay::Unadvise
+ms.date: 4/30/2018
+ms.keywords: IOverlay interface [DirectShow],Unadvise method, IOverlay.Unadvise, IOverlay::Unadvise, IOverlayUnadvise, Unadvise, Unadvise method [DirectShow], Unadvise method [DirectShow],IOverlay interface, dshow.ioverlay_unadvise, strmif/IOverlay::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IOverlay::Unadvise method
+# IOverlay::Unadvise
 
 
 ## -description

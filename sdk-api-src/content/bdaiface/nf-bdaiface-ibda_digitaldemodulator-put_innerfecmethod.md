@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_InnerFECMethod
-title: IBDA_DigitalDemodulator::put_InnerFECMethod method
+title: IBDA_DigitalDemodulator::put_InnerFECMethod
 author: windows-driver-content
 description: The put_InnerFECMethod method specifies the inner forward error correction method for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_innerfecmethod.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 618074c0-5139-4373-8bcd-9a8fd90a4ed7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DigitalDemodulator, IBDA_DigitalDemodulator interface [Microsoft TV Technologies], put_InnerFECMethod method, IBDA_DigitalDemodulator::put_InnerFECMethod, IBDA_DigitalDemodulatorput_InnerFECMethod, bdaiface/IBDA_DigitalDemodulator::put_InnerFECMethod, mstv.ibda_digitaldemodulator_put_innerfecmethod, put_InnerFECMethod method [Microsoft TV Technologies], put_InnerFECMethod method [Microsoft TV Technologies], IBDA_DigitalDemodulator interface, put_InnerFECMethod,IBDA_DigitalDemodulator.put_InnerFECMethod
+ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_InnerFECMethod method, IBDA_DigitalDemodulator.put_InnerFECMethod, IBDA_DigitalDemodulator::put_InnerFECMethod, IBDA_DigitalDemodulatorput_InnerFECMethod, bdaiface/IBDA_DigitalDemodulator::put_InnerFECMethod, mstv.ibda_digitaldemodulator_put_innerfecmethod, put_InnerFECMethod, put_InnerFECMethod method [Microsoft TV Technologies], put_InnerFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DigitalDemodulator::put_InnerFECMethod method
+# IBDA_DigitalDemodulator::put_InnerFECMethod
 
 
 ## -description

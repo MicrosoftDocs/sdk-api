@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.GetInkExtent
-title: IInkLineInfo::GetInkExtent method
+title: IInkLineInfo::GetInkExtent
 author: windows-driver-content
 description: Specifies the display properties to set on the text ink object (tInk), and retrieves the width of the text ink object in HIMETRIC units.
 old-location: tablet\iinklineinfo_getinkextent.htm
 old-project: tablet
 ms.assetid: 0082b7d3-61b2-478a-a6dd-ba59c20b7e1d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 0082b7d3-61b2-478a-a6dd-ba59c20b7e1d, GetInkExtent method [Tablet PC], GetInkExtent method [Tablet PC], IInkLineInfo interface, GetInkExtent,IInkLineInfo.GetInkExtent, IInkLineInfo, IInkLineInfo interface [Tablet PC], GetInkExtent method, IInkLineInfo::GetInkExtent, msinkaut/IInkLineInfo::GetInkExtent, tablet.iinklineinfo_getinkextent
+ms.date: 5/2/2018
+ms.keywords: 0082b7d3-61b2-478a-a6dd-ba59c20b7e1d, GetInkExtent, GetInkExtent method [Tablet PC], GetInkExtent method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetInkExtent method, IInkLineInfo.GetInkExtent, IInkLineInfo::GetInkExtent, msinkaut/IInkLineInfo::GetInkExtent, tablet.iinklineinfo_getinkextent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkLineInfo::GetInkExtent method
+# IInkLineInfo::GetInkExtent
 
 
 ## -description

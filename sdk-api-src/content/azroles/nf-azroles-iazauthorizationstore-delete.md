@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.Delete
-title: IAzAuthorizationStore::Delete method
+title: IAzAuthorizationStore::Delete
 author: windows-driver-content
 description: Deletes the policy store currently in use by the AzAuthorizationStore object.
 old-location: security\azauthorizationstore_delete.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 8493af39-c5db-4aeb-839f-bc07e2616443
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzAuthorizationStore object [Security], Delete method, Delete method [Security], Delete method [Security], AzAuthorizationStore object, Delete method [Security], IAzAuthorizationStore interface, Delete,IAzAuthorizationStore.Delete, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], Delete method, IAzAuthorizationStore::Delete, azroles/IAzAuthorizationStore::Delete, security.azauthorizationstore_delete
+ms.keywords: AzAuthorizationStore object [Security],Delete method, Delete, Delete method [Security], Delete method [Security],AzAuthorizationStore object, Delete method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],Delete method, IAzAuthorizationStore.Delete, IAzAuthorizationStore::Delete, azroles/IAzAuthorizationStore::Delete, security.azauthorizationstore_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::Delete method
+# IAzAuthorizationStore::Delete
 
 
 ## -description

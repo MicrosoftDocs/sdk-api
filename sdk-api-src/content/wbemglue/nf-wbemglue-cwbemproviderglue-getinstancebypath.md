@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetInstanceByPath
-title: CWbemProviderGlue::GetInstanceByPath method
+title: CWbemProviderGlue::GetInstanceByPath
 author: windows-driver-content
 description: The GetInstanceByPath method retrieves the instance identified by a particular object path by calling the provider GetObject method.
 old-location: wmi\cwbemproviderglue_getinstancebypath.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 788b5f5f-b300-4c86-afbd-416b938f21c1
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z, ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z, CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], GetInstanceByPath method, CWbemProviderGlue::GetInstanceByPath, GetInstanceByPath method [Windows Management Instrumentation], GetInstanceByPath method [Windows Management Instrumentation], CWbemProviderGlue interface, GetInstanceByPath,CWbemProviderGlue.GetInstanceByPath, _hmm_cwbemproviderglue_getinstancebypath, wbemglue/CWbemProviderGlue::GetInstanceByPath, wmi.cwbemproviderglue_getinstancebypath"
+ms.keywords: "?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z, ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetInstanceByPath method, CWbemProviderGlue.GetInstanceByPath, CWbemProviderGlue::GetInstanceByPath, GetInstanceByPath, GetInstanceByPath method [Windows Management Instrumentation], GetInstanceByPath method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancebypath, wbemglue/CWbemProviderGlue::GetInstanceByPath, wmi.cwbemproviderglue_getinstancebypath"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# CWbemProviderGlue::GetInstanceByPath method
+# CWbemProviderGlue::GetInstanceByPath
 
 
 ## -description

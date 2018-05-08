@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMemAllocator.ReleaseBuffer
-title: IMemAllocator::ReleaseBuffer method
+title: IMemAllocator::ReleaseBuffer
 author: windows-driver-content
 description: The ReleaseBuffer method releases a media sample.
 old-location: dshow\imemallocator_releasebuffer.htm
 old-project: DirectShow
 ms.assetid: 96e02a28-af92-41a7-8251-c4ab15190651
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMemAllocator, IMemAllocator interface [DirectShow], ReleaseBuffer method, IMemAllocator::ReleaseBuffer, IMemAllocatorReleaseBuffer, ReleaseBuffer method [DirectShow], ReleaseBuffer method [DirectShow], IMemAllocator interface, ReleaseBuffer,IMemAllocator.ReleaseBuffer, dshow.imemallocator_releasebuffer, strmif/IMemAllocator::ReleaseBuffer
+ms.date: 4/30/2018
+ms.keywords: IMemAllocator interface [DirectShow],ReleaseBuffer method, IMemAllocator.ReleaseBuffer, IMemAllocator::ReleaseBuffer, IMemAllocatorReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [DirectShow], ReleaseBuffer method [DirectShow],IMemAllocator interface, dshow.imemallocator_releasebuffer, strmif/IMemAllocator::ReleaseBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMemAllocator::ReleaseBuffer method
+# IMemAllocator::ReleaseBuffer
 
 
 ## -description

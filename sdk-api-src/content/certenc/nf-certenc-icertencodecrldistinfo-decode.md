@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.Decode
-title: ICertEncodeCRLDistInfo::Decode method
+title: ICertEncodeCRLDistInfo::Decode
 author: windows-driver-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded certificate revocation list (CRL) distribution information extension and stores the resulting array in the COM object.
 old-location: security\icertencodecrldistinfo_decode.htm
 old-project: SecCrypto
 ms.assetid: 3df104a5-fbd7-4eb1-a6b2-b3e51afa15bf
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeCRLDistInfo object [Security], Decode method, Decode method [Security], Decode method [Security], CCertEncodeCRLDistInfo object, Decode method [Security], ICertEncodeCRLDistInfo interface, Decode,ICertEncodeCRLDistInfo.Decode, ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], Decode method, ICertEncodeCRLDistInfo::Decode, _certsrv_icertencodecrldistinfo_decode, certenc/ICertEncodeCRLDistInfo::Decode, security.icertencodecrldistinfo_decode
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeCRLDistInfo object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeCRLDistInfo object, Decode method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],Decode method, ICertEncodeCRLDistInfo.Decode, ICertEncodeCRLDistInfo::Decode, _certsrv_icertencodecrldistinfo_decode, certenc/ICertEncodeCRLDistInfo::Decode, security.icertencodecrldistinfo_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeCRLDistInfo::Decode method
+# ICertEncodeCRLDistInfo::Decode
 
 
 ## -description

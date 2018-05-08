@@ -7,8 +7,8 @@ old-location: shell\ISyncMgrSessionCreator.htm
 old-project: shell
 ms.assetid: dc9662c5-42fa-45d2-aadd-93a5fb25d27c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSessionCreator, ISyncMgrSessionCreator interface [Windows Shell], ISyncMgrSessionCreator interface [Windows Shell], described, _shell_ISyncMgrSessionCreator, shell.ISyncMgrSessionCreator, syncmgr/ISyncMgrSessionCreator
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSessionCreator, ISyncMgrSessionCreator interface [Windows Shell], ISyncMgrSessionCreator interface [Windows Shell],described, _shell_ISyncMgrSessionCreator, shell.ISyncMgrSessionCreator, syncmgr/ISyncMgrSessionCreator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

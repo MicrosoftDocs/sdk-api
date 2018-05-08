@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure2.SetFFTransitionRates
-title: IStreamBufferConfigure2::SetFFTransitionRates method
+title: IStreamBufferConfigure2::SetFFTransitionRates
 author: windows-driver-content
 description: The SetFFTransitionRates method sets the behavior of fast-forward play (&#0034;trick mode&#0034;) in the Stream Buffer Engine.
 old-location: mstv\istreambufferconfigure2_setfftransitionrates.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c6e7b27a-b217-4430-adf7-c7ebc7e17bf6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IStreamBufferConfigure2, IStreamBufferConfigure2 interface [Microsoft TV Technologies], SetFFTransitionRates method, IStreamBufferConfigure2::SetFFTransitionRates, IStreamBufferConfigure2SetFFTransitionRates, SetFFTransitionRates method [Microsoft TV Technologies], SetFFTransitionRates method [Microsoft TV Technologies], IStreamBufferConfigure2 interface, SetFFTransitionRates,IStreamBufferConfigure2.SetFFTransitionRates, mstv.istreambufferconfigure2_setfftransitionrates, sbe/IStreamBufferConfigure2::SetFFTransitionRates
+ms.keywords: IStreamBufferConfigure2 interface [Microsoft TV Technologies],SetFFTransitionRates method, IStreamBufferConfigure2.SetFFTransitionRates, IStreamBufferConfigure2::SetFFTransitionRates, IStreamBufferConfigure2SetFFTransitionRates, SetFFTransitionRates, SetFFTransitionRates method [Microsoft TV Technologies], SetFFTransitionRates method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, mstv.istreambufferconfigure2_setfftransitionrates, sbe/IStreamBufferConfigure2::SetFFTransitionRates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferConfigure2::SetFFTransitionRates method
+# IStreamBufferConfigure2::SetFFTransitionRates
 
 
 ## -description

@@ -58,6 +58,51 @@ The <b>EC_VARIANT</b> structure contains  event collector data (subscription dat
 
 
 
+### -field BooleanVal
+
+A Boolean value.
+
+
+### -field UInt32Val
+
+An unsigned 32-bit integer value.
+
+
+### -field DateTimeVal
+
+A ULONGLONG value.
+
+
+### -field StringVal
+
+A null-terminated Unicode string.
+
+
+### -field BinaryVal
+
+A hexadecimal binary value.
+
+
+### -field BooleanArr
+
+A pointer to an array of Boolean values.
+
+
+### -field Int32Arr
+
+A pointer to an array of signed 32-bit integer values.
+
+
+### -field StringArr
+
+A pointer to an array of null-terminated strings.
+
+
+### -field PropertyHandleVal
+
+ 
+
+
 ### -field Count
 
 The number of elements (not length) in bytes. Used for arrays and binary or string types.
@@ -66,44 +111,4 @@ The number of elements (not length) in bytes. Used for arrays and binary or stri
 ### -field Type
 
 The type of the data in the structure. Use a value from the <a href="https://msdn.microsoft.com/55457e18-e63d-4ebc-be46-d1834b6d62d3">EC_VARIANT_TYPE</a> enumeration to specify the type. When the type is specified, you can use any of the union members to access the  actual value. For example, if the type is <b>EcVarTypeDateTime</b>, then the value is <b>DateTimeVal</b> in the <b>EC_VARIANT</b> structure.
-
-
-#### - BinaryVal
-
-A hexadecimal binary value.
-
-
-#### - BooleanArr
-
-A pointer to an array of Boolean values.
-
-
-#### - BooleanVal
-
-A Boolean value.
-
-
-#### - DateTimeVal
-
-A ULONGLONG value.
-
-
-#### - Int32Arr
-
-A pointer to an array of signed 32-bit integer values.
-
-
-#### - StringArr
-
-A pointer to an array of null-terminated strings.
-
-
-#### - StringVal
-
-A null-terminated Unicode string.
-
-
-#### - UInt32Val
-
-An unsigned 32-bit integer value.
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternates.Item
-title: IInkRecognitionAlternates::Item method
+title: IInkRecognitionAlternates::Item
 author: windows-driver-content
 description: Retrieves the IInkRecognitionAlternate object at the specified index within the IInkRecognitionAlternates collection.
 old-location: tablet\iinkrecognitionalternates_item.htm
 old-project: tablet
 ms.assetid: 63a00f6d-f733-4b25-bfe2-4f841b9694fa
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 63a00f6d-f733-4b25-bfe2-4f841b9694fa, IInkRecognitionAlternates, IInkRecognitionAlternates interface [Tablet PC], Item method, IInkRecognitionAlternates::Item, Item method [Tablet PC], Item method [Tablet PC], IInkRecognitionAlternates interface, Item,IInkRecognitionAlternates.Item, msinkaut/IInkRecognitionAlternates::Item, tablet.iinkrecognitionalternates_item
+ms.date: 5/2/2018
+ms.keywords: 63a00f6d-f733-4b25-bfe2-4f841b9694fa, IInkRecognitionAlternates interface [Tablet PC],Item method, IInkRecognitionAlternates.Item, IInkRecognitionAlternates::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkRecognitionAlternates interface, msinkaut/IInkRecognitionAlternates::Item, tablet.iinkrecognitionalternates_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognitionAlternates::Item method
+# IInkRecognitionAlternates::Item
 
 
 ## -description

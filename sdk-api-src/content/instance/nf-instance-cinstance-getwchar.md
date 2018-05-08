@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetWCHAR
-title: CInstance::GetWCHAR method
+title: CInstance::GetWCHAR
 author: windows-driver-content
 description: The GetWCHAR method retrieves a WCHAR string property.
 old-location: wmi\cinstance_getwchar.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 1c2f3dfc-aa84-4dff-a25b-b8f2ec3afa74
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], GetWCHAR method, CInstance::GetWCHAR, GetWCHAR method [Windows Management Instrumentation], GetWCHAR method [Windows Management Instrumentation], CInstance interface, GetWCHAR,CInstance.GetWCHAR, _hmm_cinstance_getwchar, instance/CInstance::GetWCHAR, wmi.cinstance_getwchar
+ms.keywords: CInstance interface [Windows Management Instrumentation],GetWCHAR method, CInstance.GetWCHAR, CInstance::GetWCHAR, GetWCHAR, GetWCHAR method [Windows Management Instrumentation], GetWCHAR method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getwchar, instance/CInstance::GetWCHAR, wmi.cinstance_getwchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::GetWCHAR method
+# CInstance::GetWCHAR
 
 
 ## -description

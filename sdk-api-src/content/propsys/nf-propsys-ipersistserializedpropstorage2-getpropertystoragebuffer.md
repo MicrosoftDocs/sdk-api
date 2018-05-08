@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage2.GetPropertyStorageBuffer
-title: IPersistSerializedPropStorage2::GetPropertyStorageBuffer method
+title: IPersistSerializedPropStorage2::GetPropertyStorageBuffer
 author: windows-driver-content
 description: Gets the serialized property storage buffer from the property store instance.
 old-location: shell\IPersistSerializedPropStorage2_GetPropertyStorageBuffer.htm
 old-project: shell
 ms.assetid: a5f349e4-227e-4023-ab80-e8f9fb94dabf
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPropertyStorageBuffer method [Windows Shell], GetPropertyStorageBuffer method [Windows Shell], IPersistSerializedPropStorage2 interface, GetPropertyStorageBuffer,IPersistSerializedPropStorage2.GetPropertyStorageBuffer, IPersistSerializedPropStorage2, IPersistSerializedPropStorage2 interface [Windows Shell], GetPropertyStorageBuffer method, IPersistSerializedPropStorage2::GetPropertyStorageBuffer, _shell_IPersistSerializedPropStorage2_GetPropertyStorageBuffer, propsys/IPersistSerializedPropStorage2::GetPropertyStorageBuffer, shell.IPersistSerializedPropStorage2_GetPropertyStorageBuffer
+ms.date: 5/3/2018
+ms.keywords: GetPropertyStorageBuffer, GetPropertyStorageBuffer method [Windows Shell], GetPropertyStorageBuffer method [Windows Shell],IPersistSerializedPropStorage2 interface, IPersistSerializedPropStorage2 interface [Windows Shell],GetPropertyStorageBuffer method, IPersistSerializedPropStorage2.GetPropertyStorageBuffer, IPersistSerializedPropStorage2::GetPropertyStorageBuffer, _shell_IPersistSerializedPropStorage2_GetPropertyStorageBuffer, propsys/IPersistSerializedPropStorage2::GetPropertyStorageBuffer, shell.IPersistSerializedPropStorage2_GetPropertyStorageBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistSerializedPropStorage2::GetPropertyStorageBuffer method
+# IPersistSerializedPropStorage2::GetPropertyStorageBuffer
 
 
 ## -description

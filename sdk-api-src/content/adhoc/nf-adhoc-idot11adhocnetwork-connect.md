@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.Connect
-title: IDot11AdHocNetwork::Connect method
+title: IDot11AdHocNetwork::Connect
 author: windows-driver-content
 description: Connects to a previously created wireless ad hoc network.
 old-location: nwifi\idot11adhocnetwork_connect.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: 3272e0fe-0844-4e02-bd5f-a1e1c656074d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Connect method [NativeWIFI], Connect method [NativeWIFI], IDot11AdHocNetwork interface, Connect,IDot11AdHocNetwork.Connect, IDot11AdHocNetwork, IDot11AdHocNetwork interface [NativeWIFI], Connect method, IDot11AdHocNetwork::Connect, adhoc/IDot11AdHocNetwork::Connect, nwifi.idot11adhocnetwork_connect
+ms.keywords: Connect, Connect method [NativeWIFI], Connect method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],Connect method, IDot11AdHocNetwork.Connect, IDot11AdHocNetwork::Connect, adhoc/IDot11AdHocNetwork::Connect, nwifi.idot11adhocnetwork_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDot11AdHocNetwork::Connect method
+# IDot11AdHocNetwork::Connect
 
 
 ## -description

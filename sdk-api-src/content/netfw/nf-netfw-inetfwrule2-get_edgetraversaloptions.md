@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule2.get_EdgeTraversalOptions
-title: INetFwRule2::get_EdgeTraversalOptions method
+title: INetFwRule2::get_EdgeTraversalOptions
 author: windows-driver-content
 description: This property can be used to access the edge properties of a firewall rule defined by NET_FW_EDGE_TRAVERSAL_TYPE.
 old-location: ics\inetfwrule2_edgetraversaloptions.htm
 old-project: ICS
 ms.assetid: 99dfbe4c-dac5-4d04-890c-dbb32f07e556
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: EdgeTraversalOptions property [ICS/ICF], EdgeTraversalOptions property [ICS/ICF], INetFwRule2 interface, INetFwRule2, INetFwRule2 interface [ICS/ICF], EdgeTraversalOptions property, INetFwRule2.EdgeTraversalOptions, INetFwRule2::get_EdgeTraversalOptions, INetFwRule2::put_EdgeTraversalOptions, get_EdgeTraversalOptions,INetFwRule2.get_EdgeTraversalOptions, ics.inetfwrule2_edgetraversaloptions, netfw/INetFwRule2::EdgeTraversalOptions, netfw/INetFwRule2::get_EdgeTraversalOptions, netfw/INetFwRule2::put_EdgeTraversalOptions
+ms.date: 5/1/2018
+ms.keywords: EdgeTraversalOptions property [ICS/ICF], EdgeTraversalOptions property [ICS/ICF],INetFwRule2 interface, INetFwRule2 interface [ICS/ICF],EdgeTraversalOptions property, INetFwRule2.EdgeTraversalOptions, INetFwRule2.get_EdgeTraversalOptions, INetFwRule2::EdgeTraversalOptions, INetFwRule2::get_EdgeTraversalOptions, INetFwRule2::put_EdgeTraversalOptions, get_EdgeTraversalOptions, ics.inetfwrule2_edgetraversaloptions, netfw/INetFwRule2::EdgeTraversalOptions, netfw/INetFwRule2::get_EdgeTraversalOptions, netfw/INetFwRule2::put_EdgeTraversalOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule2::get_EdgeTraversalOptions method
+# INetFwRule2::get_EdgeTraversalOptions
 
 
 ## -description

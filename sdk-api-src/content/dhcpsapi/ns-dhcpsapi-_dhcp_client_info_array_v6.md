@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_client_info_array_v6.htm
 old-project: DHCP
 ms.assetid: b4abeb39-18db-4a45-85ec-a7fe4042e75f
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_ARRAY_V6, DHCP_CLIENT_INFO_ARRAY_V6, DHCP_CLIENT_INFO_ARRAY_V6 structure [DHCP], PDHCP_CLIENT_INFO_ARRAY_V6, PDHCP_CLIENT_INFO_ARRAY_V6 structure pointer [DHCP], _DHCP_CLIENT_INFO_ARRAY_V6, dhcp.dhcp_client_info_array_v6, dhcpsapi/DHCP_CLIENT_INFO_ARRAY_V6, dhcpsapi/PDHCP_CLIENT_INFO_ARRAY_V6"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Specifies the number of elements present in <b>Clients</b>.
 ### -field Clients
 
 Pointer to a list of <a href="https://msdn.microsoft.com/c676878d-2186-4aa2-b912-dc89272902c6">DHCP_CLIENT_INFO_V6</a> structures that contain information on specific DHCPv6 subnet clients, including the dynamic address type (DHCP and/or BOOTP) and address state information.
+
+
+### -field Clients.size_is
+
+ 
+
+
+### -field Clients.size_is.NumElements
+
+ 
+
+
 
 
 ## -see-also

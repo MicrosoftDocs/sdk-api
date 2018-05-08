@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPLibrarySharingServices.showLibrarySharing
-title: IWMPLibrarySharingServices::showLibrarySharing method
+title: IWMPLibrarySharingServices::showLibrarySharing
 author: windows-driver-content
 description: The showLibrarySharing method displays the Windows Media Player Library Sharing dialog box.
 old-location: wmp\iwmplibrarysharingservices_showlibrarysharing.htm
 old-project: WMP
 ms.assetid: 87c335ee-c9af-4182-a460-118c53308dad
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPLibrarySharingServices, IWMPLibrarySharingServices interface [Windows Media Player], showLibrarySharing method, IWMPLibrarySharingServices::showLibrarySharing, IWMPLibrarySharingServicesshowLibrarySharing, showLibrarySharing method [Windows Media Player], showLibrarySharing method [Windows Media Player], IWMPLibrarySharingServices interface, showLibrarySharing,IWMPLibrarySharingServices.showLibrarySharing, wmp.iwmplibrarysharingservices_showlibrarysharing, wmp/IWMPLibrarySharingServices::showLibrarySharing
+ms.date: 5/4/2018
+ms.keywords: IWMPLibrarySharingServices interface [Windows Media Player],showLibrarySharing method, IWMPLibrarySharingServices.showLibrarySharing, IWMPLibrarySharingServices::showLibrarySharing, IWMPLibrarySharingServicesshowLibrarySharing, showLibrarySharing, showLibrarySharing method [Windows Media Player], showLibrarySharing method [Windows Media Player],IWMPLibrarySharingServices interface, wmp.iwmplibrarysharingservices_showlibrarysharing, wmp/IWMPLibrarySharingServices::showLibrarySharing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPLibrarySharingServices::showLibrarySharing method
+# IWMPLibrarySharingServices::showLibrarySharing
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.ReadDWORD
-title: IWbemObjectAccess::ReadDWORD method
+title: IWbemObjectAccess::ReadDWORD
 author: windows-driver-content
 description: The ReadDWORD method reads 32 bits of property data using a property handle.
 old-location: wmi\iwbemobjectaccess_readdword.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 5352dea3-6d10-42be-aa1e-786ace193827
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], ReadDWORD method, IWbemObjectAccess::ReadDWORD, ReadDWORD method [Windows Management Instrumentation], ReadDWORD method [Windows Management Instrumentation], IWbemObjectAccess interface, ReadDWORD,IWbemObjectAccess.ReadDWORD, _hmm_iwbemobjectaccess_readdword, wbemcli/IWbemObjectAccess::ReadDWORD, wmi.iwbemobjectaccess_readdword
+ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],ReadDWORD method, IWbemObjectAccess.ReadDWORD, IWbemObjectAccess::ReadDWORD, ReadDWORD, ReadDWORD method [Windows Management Instrumentation], ReadDWORD method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_readdword, wbemcli/IWbemObjectAccess::ReadDWORD, wmi.iwbemobjectaccess_readdword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemObjectAccess::ReadDWORD method
+# IWbemObjectAccess::ReadDWORD
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc2.CheckCertificateSignature
-title: IX509CertificateRequestCmc2::CheckCertificateSignature method
+title: IX509CertificateRequestCmc2::CheckCertificateSignature
 author: windows-driver-content
 description: Verifies the signature for a specified signer.
 old-location: security\ix509certificaterequestcmc2_checkcertificatesignature.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 10ccda23-98d7-49ad-bb0c-60050d01892d
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CheckCertificateSignature method [Security], CheckCertificateSignature method [Security], IX509CertificateRequestCmc2 interface, CheckCertificateSignature,IX509CertificateRequestCmc2.CheckCertificateSignature, IX509CertificateRequestCmc2, IX509CertificateRequestCmc2 interface [Security], CheckCertificateSignature method, IX509CertificateRequestCmc2::CheckCertificateSignature, certenroll/IX509CertificateRequestCmc2::CheckCertificateSignature, security.ix509certificaterequestcmc2_checkcertificatesignature
+ms.keywords: CheckCertificateSignature, CheckCertificateSignature method [Security], CheckCertificateSignature method [Security],IX509CertificateRequestCmc2 interface, IX509CertificateRequestCmc2 interface [Security],CheckCertificateSignature method, IX509CertificateRequestCmc2.CheckCertificateSignature, IX509CertificateRequestCmc2::CheckCertificateSignature, certenroll/IX509CertificateRequestCmc2::CheckCertificateSignature, security.ix509certificaterequestcmc2_checkcertificatesignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509CertificateRequestCmc2::CheckCertificateSignature method
+# IX509CertificateRequestCmc2::CheckCertificateSignature
 
 
 ## -description

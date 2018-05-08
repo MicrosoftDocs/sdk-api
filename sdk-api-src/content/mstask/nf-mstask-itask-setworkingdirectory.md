@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.SetWorkingDirectory
-title: ITask::SetWorkingDirectory method
+title: ITask::SetWorkingDirectory
 author: windows-driver-content
 description: This method sets the working directory for the task.
 old-location: taskschd\itask_setworkingdirectory.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: df12d899-c254-4bbf-a49f-d89a2fcb0e28
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITask, ITask interface [Task Scheduler], SetWorkingDirectory method, ITask::SetWorkingDirectory, SetWorkingDirectory method [Task Scheduler], SetWorkingDirectory method [Task Scheduler], ITask interface, SetWorkingDirectory,ITask.SetWorkingDirectory, _msb_itask_setworkingdirectory, mstask/ITask::SetWorkingDirectory, taskschd.itask_setworkingdirectory
+ms.keywords: ITask interface [Task Scheduler],SetWorkingDirectory method, ITask.SetWorkingDirectory, ITask::SetWorkingDirectory, SetWorkingDirectory, SetWorkingDirectory method [Task Scheduler], SetWorkingDirectory method [Task Scheduler],ITask interface, _msb_itask_setworkingdirectory, mstask/ITask::SetWorkingDirectory, taskschd.itask_setworkingdirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITask::SetWorkingDirectory method
+# ITask::SetWorkingDirectory
 
 
 ## -description

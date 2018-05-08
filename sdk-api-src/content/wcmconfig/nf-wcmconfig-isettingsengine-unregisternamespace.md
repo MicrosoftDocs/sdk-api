@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.UnregisterNamespace
-title: ISettingsEngine::UnregisterNamespace method
+title: ISettingsEngine::UnregisterNamespace
 author: windows-driver-content
 description: Unregisters an existing namespace.
 old-location: smi\isettingsengine_unregisternamespace.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: c7254f87-fdf8-4b51-9a06-e593490cd3c5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISettingsEngine, ISettingsEngine interface [SMI], UnregisterNamespace method, ISettingsEngine::UnregisterNamespace, UnregisterNamespace method [SMI], UnregisterNamespace method [SMI], ISettingsEngine interface, UnregisterNamespace,ISettingsEngine.UnregisterNamespace, smi.isettingsengine_unregisternamespace, wcmconfig/ISettingsEngine::UnregisterNamespace
+ms.keywords: ISettingsEngine interface [SMI],UnregisterNamespace method, ISettingsEngine.UnregisterNamespace, ISettingsEngine::UnregisterNamespace, UnregisterNamespace, UnregisterNamespace method [SMI], UnregisterNamespace method [SMI],ISettingsEngine interface, smi.isettingsengine_unregisternamespace, wcmconfig/ISettingsEngine::UnregisterNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsEngine::UnregisterNamespace method
+# ISettingsEngine::UnregisterNamespace
 
 
 ## -description

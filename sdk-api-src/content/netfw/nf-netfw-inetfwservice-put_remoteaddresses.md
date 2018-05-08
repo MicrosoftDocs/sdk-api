@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwService.put_RemoteAddresses
-title: INetFwService::put_RemoteAddresses method
+title: INetFwService::put_RemoteAddresses
 author: windows-driver-content
 description: Specifies a set of the remote addresses from which the service ports can listen for traffic.
 old-location: ics\inetfwservice_remoteaddresses.htm
 old-project: ICS
 ms.assetid: 6cb1dfa1-1e92-47a8-9a97-45443f487f6e
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwService, INetFwService interface [ICS/ICF], RemoteAddresses property, INetFwService.RemoteAddresses, INetFwService::get_RemoteAddresses, INetFwService::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF], INetFwService interface, ics.inetfwservice_remoteaddresses, netfw/INetFwService::RemoteAddresses, netfw/INetFwService::get_RemoteAddresses, netfw/INetFwService::put_RemoteAddresses, put_RemoteAddresses,INetFwService.put_RemoteAddresses
+ms.date: 5/1/2018
+ms.keywords: INetFwService interface [ICS/ICF],RemoteAddresses property, INetFwService.RemoteAddresses, INetFwService.put_RemoteAddresses, INetFwService::RemoteAddresses, INetFwService::get_RemoteAddresses, INetFwService::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwService interface, ics.inetfwservice_remoteaddresses, netfw/INetFwService::RemoteAddresses, netfw/INetFwService::get_RemoteAddresses, netfw/INetFwService::put_RemoteAddresses, put_RemoteAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwService::put_RemoteAddresses method
+# INetFwService::put_RemoteAddresses
 
 
 ## -description

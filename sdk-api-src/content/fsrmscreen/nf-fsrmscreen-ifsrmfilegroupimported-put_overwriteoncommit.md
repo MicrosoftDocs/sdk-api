@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupImported.put_OverwriteOnCommit
-title: IFsrmFileGroupImported::put_OverwriteOnCommit method
+title: IFsrmFileGroupImported::put_OverwriteOnCommit
 author: windows-driver-content
 description: Retrieves or sets a value that determines whether a file group is overwritten if it exists.
 old-location: fsrm\ifsrmfilegroupimported_overwriteoncommit.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 16fc9ae3-a9c5-4312-86b3-8bfe8ef5fb5d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileGroupImported, IFsrmFileGroupImported interface [File Server Resource Manager], OverwriteOnCommit property, IFsrmFileGroupImported.OverwriteOnCommit, IFsrmFileGroupImported::get_OverwriteOnCommit, IFsrmFileGroupImported::put_OverwriteOnCommit, OverwriteOnCommit property [File Server Resource Manager], OverwriteOnCommit property [File Server Resource Manager], IFsrmFileGroupImported interface, fs.ifsrmfilegroupimported_overwriteoncommit, fsrm.ifsrmfilegroupimported_overwriteoncommit, fsrmscreen/IFsrmFileGroupImported::OverwriteOnCommit, fsrmscreen/IFsrmFileGroupImported::get_OverwriteOnCommit, fsrmscreen/IFsrmFileGroupImported::put_OverwriteOnCommit, put_OverwriteOnCommit,IFsrmFileGroupImported.put_OverwriteOnCommit
+ms.keywords: IFsrmFileGroupImported interface [File Server Resource Manager],OverwriteOnCommit property, IFsrmFileGroupImported.OverwriteOnCommit, IFsrmFileGroupImported.put_OverwriteOnCommit, IFsrmFileGroupImported::OverwriteOnCommit, IFsrmFileGroupImported::get_OverwriteOnCommit, IFsrmFileGroupImported::put_OverwriteOnCommit, OverwriteOnCommit property [File Server Resource Manager], OverwriteOnCommit property [File Server Resource Manager],IFsrmFileGroupImported interface, fs.ifsrmfilegroupimported_overwriteoncommit, fsrm.ifsrmfilegroupimported_overwriteoncommit, fsrmscreen/IFsrmFileGroupImported::OverwriteOnCommit, fsrmscreen/IFsrmFileGroupImported::get_OverwriteOnCommit, fsrmscreen/IFsrmFileGroupImported::put_OverwriteOnCommit, put_OverwriteOnCommit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileGroupImported::put_OverwriteOnCommit method
+# IFsrmFileGroupImported::put_OverwriteOnCommit
 
 
 ## -description

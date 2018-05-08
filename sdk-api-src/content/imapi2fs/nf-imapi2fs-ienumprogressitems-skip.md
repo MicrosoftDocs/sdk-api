@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IEnumProgressItems.Skip
-title: IEnumProgressItems::Skip method
+title: IEnumProgressItems::Skip
 author: windows-driver-content
 description: Skips a specified number of items in the enumeration sequence.
 old-location: imapi\ienumprogressitems_skip.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 789b2003-1538-4617-a44b-38b80320e21c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumProgressItems, IEnumProgressItems interface [IMAPI], Skip method, IEnumProgressItems::Skip, Skip method [IMAPI], Skip method [IMAPI], IEnumProgressItems interface, Skip,IEnumProgressItems.Skip, imapi.ienumprogressitems_skip, imapi2fs/IEnumProgressItems::Skip
+ms.keywords: IEnumProgressItems interface [IMAPI],Skip method, IEnumProgressItems.Skip, IEnumProgressItems::Skip, Skip, Skip method [IMAPI], Skip method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_skip, imapi2fs/IEnumProgressItems::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumProgressItems::Skip method
+# IEnumProgressItems::Skip
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMaster.ProgressAdvise
-title: IDiscMaster::ProgressAdvise method
+title: IDiscMaster::ProgressAdvise
 author: windows-driver-content
 description: Registers an application for progress notifications.
 old-location: imapi\idiscmaster_progressadvise.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 64966230-2042-46cb-9974-adbe382723a1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscMaster, IDiscMaster interface [IMAPI], ProgressAdvise method, IDiscMaster::ProgressAdvise, ProgressAdvise method [IMAPI], ProgressAdvise method [IMAPI], IDiscMaster interface, ProgressAdvise,IDiscMaster.ProgressAdvise, _win32_idiscmaster_progressadvise, base.idiscmaster_progressadvise, imapi.idiscmaster_progressadvise, imapi/IDiscMaster::ProgressAdvise
+ms.keywords: IDiscMaster interface [IMAPI],ProgressAdvise method, IDiscMaster.ProgressAdvise, IDiscMaster::ProgressAdvise, ProgressAdvise, ProgressAdvise method [IMAPI], ProgressAdvise method [IMAPI],IDiscMaster interface, _win32_idiscmaster_progressadvise, base.idiscmaster_progressadvise, imapi.idiscmaster_progressadvise, imapi/IDiscMaster::ProgressAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscMaster::ProgressAdvise method
+# IDiscMaster::ProgressAdvise
 
 
 ## -description

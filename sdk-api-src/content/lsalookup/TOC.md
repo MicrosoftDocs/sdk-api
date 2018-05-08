@@ -1,0 +1,8 @@
+# [Authentication](../_security/index.md)
+## [Lsalookup.h](index.md)
+### [_LSA_OBJECT_ATTRIBUTES structure](../lsalookup/ns-lsalookup-_lsa_object_attributes.md)
+### [_LSA_STRING structure](../lsalookup/ns-lsalookup-_lsa_string.md)
+### [_LSA_TRANSLATED_NAME structure](../lsalookup/ns-lsalookup-_lsa_translated_name.md)
+### [_LSA_TRANSLATED_SID2 structure](../lsalookup/ns-lsalookup-_lsa_translated_sid2.md)
+### [_POLICY_ACCOUNT_DOMAIN_INFO structure](../lsalookup/ns-lsalookup-_policy_account_domain_info.md)
+### [_POLICY_DNS_DOMAIN_INFO structure](../lsalookup/ns-lsalookup-_policy_dns_domain_info.md)

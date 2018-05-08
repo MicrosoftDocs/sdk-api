@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.SaveViewState
-title: IOleDocumentView::SaveViewState method
+title: IOleDocumentView::SaveViewState
 author: windows-driver-content
 description: Saves the view state into the specified stream.
 old-location: com\ioledocumentview_saveviewstate.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d270b441-d0d5-4dd5-995b-6ca5738747c5
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], SaveViewState method, IOleDocumentView::SaveViewState, SaveViewState method [COM], SaveViewState method [COM], IOleDocumentView interface, SaveViewState,IOleDocumentView.SaveViewState, _ole_ioledocumentview_saveviewstate, com.ioledocumentview_saveviewstate, docobj/IOleDocumentView::SaveViewState
+ms.keywords: IOleDocumentView interface [COM],SaveViewState method, IOleDocumentView.SaveViewState, IOleDocumentView::SaveViewState, SaveViewState, SaveViewState method [COM], SaveViewState method [COM],IOleDocumentView interface, _ole_ioledocumentview_saveviewstate, com.ioledocumentview_saveviewstate, docobj/IOleDocumentView::SaveViewState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IOleDocumentView::SaveViewState method
+# IOleDocumentView::SaveViewState
 
 
 ## -description

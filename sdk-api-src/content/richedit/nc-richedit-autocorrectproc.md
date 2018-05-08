@@ -7,8 +7,8 @@ old-location: controls\autocorrectproc.htm
 old-project: Controls
 ms.assetid: 36EF880D-F6A9-434A-820B-17E663357573
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: AutoCorrectProc, AutoCorrectProc callback function [Windows Controls], controls.autocorrectproc, richedit/AutoCorrectProc
+ms.date: 4/27/2018
+ms.keywords: AutoCorrectProc, AutoCorrectProc callback, AutoCorrectProc callback function [Windows Controls], controls.autocorrectproc, richedit/AutoCorrectProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# AutoCorrectProc callback
+# AutoCorrectProc callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetUserProvidedClock
-title: IWMReaderAdvanced::GetUserProvidedClock method
+title: IWMReaderAdvanced::GetUserProvidedClock
 author: windows-driver-content
 description: The GetUserProvidedClock method ascertains whether a user-provided clock has been specified.
 old-location: wmformat\iwmreaderadvanced_getuserprovidedclock.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 54eb30ae-4b84-489c-a5e5-e73dee2c5056
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetUserProvidedClock method [windows Media Format], GetUserProvidedClock method [windows Media Format], IWMReaderAdvanced interface, GetUserProvidedClock,IWMReaderAdvanced.GetUserProvidedClock, IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], GetUserProvidedClock method, IWMReaderAdvanced::GetUserProvidedClock, IWMReaderAdvancedGetUserProvidedClock, wmformat.iwmreaderadvanced_getuserprovidedclock, wmsdkidl/IWMReaderAdvanced::GetUserProvidedClock
+ms.keywords: GetUserProvidedClock, GetUserProvidedClock method [windows Media Format], GetUserProvidedClock method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetUserProvidedClock method, IWMReaderAdvanced.GetUserProvidedClock, IWMReaderAdvanced::GetUserProvidedClock, IWMReaderAdvancedGetUserProvidedClock, wmformat.iwmreaderadvanced_getuserprovidedclock, wmsdkidl/IWMReaderAdvanced::GetUserProvidedClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced::GetUserProvidedClock method
+# IWMReaderAdvanced::GetUserProvidedClock
 
 
 ## -description

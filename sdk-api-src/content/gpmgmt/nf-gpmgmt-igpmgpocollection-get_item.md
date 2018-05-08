@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPOCollection.get_Item
-title: IGPMGPOCollection::get_Item method
+title: IGPMGPOCollection::get_Item
 author: windows-driver-content
 description: Given an index, returns a pointer to an GPMGPO object from the collection.
 old-location: gpmc\igpmgpocollection_get_item.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 2bfffa38-b050-4ae6-ae38-57ff1babffc5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMGPOCollection class [GPMC], Item property, IGPMGPOCollection, IGPMGPOCollection interface [GPMC], Item property, IGPMGPOCollection.Item, IGPMGPOCollection::get_Item, Item property [GPMC], Item property [GPMC], GPMGPOCollection class, Item property [GPMC], IGPMGPOCollection interface, _win32_igpmgpocollection_get_item, get_Item,IGPMGPOCollection.get_Item, gpmc.igpmgpocollection_get_item, gpmgmt/IGPMGPOCollection::Item, gpmgmt/IGPMGPOCollection::get_Item
+ms.keywords: GPMGPOCollection class [GPMC],Item property, IGPMGPOCollection interface [GPMC],Item property, IGPMGPOCollection.Item, IGPMGPOCollection.get_Item, IGPMGPOCollection::Item, IGPMGPOCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMGPOCollection class, Item property [GPMC],IGPMGPOCollection interface, _win32_igpmgpocollection_get_item, get_Item, gpmc.igpmgpocollection_get_item, gpmgmt/IGPMGPOCollection::Item, gpmgmt/IGPMGPOCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMGPOCollection::get_Item method
+# IGPMGPOCollection::get_Item
 
 
 ## -description

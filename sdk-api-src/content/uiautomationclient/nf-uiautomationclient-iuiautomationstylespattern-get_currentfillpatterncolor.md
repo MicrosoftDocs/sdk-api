@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentFillPatternColor
-title: IUIAutomationStylesPattern::get_CurrentFillPatternColor method
+title: IUIAutomationStylesPattern::get_CurrentFillPatternColor
 author: windows-driver-content
 description: Retrieves the color of the pattern used to fill an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentFillPatternColor.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 38CFF0E5-D96D-4FA3-86B1-581DC5E7F1F3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentFillPatternColor property [Windows Accessibility], CurrentFillPatternColor property [Windows Accessibility], IUIAutomationStylesPattern interface, IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], CurrentFillPatternColor property, IUIAutomationStylesPattern.CurrentFillPatternColor, IUIAutomationStylesPattern::get_CurrentFillPatternColor, get_CurrentFillPatternColor,IUIAutomationStylesPattern.get_CurrentFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::CurrentFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::get_CurrentFillPatternColor, winauto.uiauto_IUIAutomationStylesPattern_CurrentFillPatternColor
+ms.keywords: CurrentFillPatternColor property [Windows Accessibility], CurrentFillPatternColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentFillPatternColor property, IUIAutomationStylesPattern.CurrentFillPatternColor, IUIAutomationStylesPattern.get_CurrentFillPatternColor, IUIAutomationStylesPattern::CurrentFillPatternColor, IUIAutomationStylesPattern::get_CurrentFillPatternColor, get_CurrentFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::CurrentFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::get_CurrentFillPatternColor, winauto.uiauto_IUIAutomationStylesPattern_CurrentFillPatternColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationStylesPattern::get_CurrentFillPatternColor method
+# IUIAutomationStylesPattern::get_CurrentFillPatternColor
 
 
 ## -description

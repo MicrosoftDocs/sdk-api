@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.IsConnected
-title: ISyncMgrHandlerInfo::IsConnected method
+title: ISyncMgrHandlerInfo::IsConnected
 author: windows-driver-content
 description: Gets a value that indicates whether the handler&#8212;typically some type of external device&#8212;is connected.
 old-location: shell\ISyncMgrHandlerInfo_IsConnected.htm
 old-project: shell
 ms.assetid: b51a32e7-962b-44f6-8508-26f819be483a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrHandlerInfo, ISyncMgrHandlerInfo interface [Windows Shell], IsConnected method, ISyncMgrHandlerInfo::IsConnected, IsConnected method [Windows Shell], IsConnected method [Windows Shell], ISyncMgrHandlerInfo interface, IsConnected,ISyncMgrHandlerInfo.IsConnected, _shell_ISyncMgrHandlerInfo_IsConnected, shell.ISyncMgrHandlerInfo_IsConnected, syncmgr/ISyncMgrHandlerInfo::IsConnected
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsConnected method, ISyncMgrHandlerInfo.IsConnected, ISyncMgrHandlerInfo::IsConnected, IsConnected, IsConnected method [Windows Shell], IsConnected method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsConnected, shell.ISyncMgrHandlerInfo_IsConnected, syncmgr/ISyncMgrHandlerInfo::IsConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrHandlerInfo::IsConnected method
+# ISyncMgrHandlerInfo::IsConnected
 
 
 ## -description

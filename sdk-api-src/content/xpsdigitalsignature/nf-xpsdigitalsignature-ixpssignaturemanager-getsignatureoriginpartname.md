@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.GetSignatureOriginPartName
-title: IXpsSignatureManager::GetSignatureOriginPartName method
+title: IXpsSignatureManager::GetSignatureOriginPartName
 author: windows-driver-content
 description: Gets the part name of the signature origin part.
 old-location: xps\ixpssignaturemanager_getsignatureoriginpartname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0d70e6bc-1101-40fa-b91c-69facc3ca195
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSignatureOriginPartName method [XPS Documents and Packaging], GetSignatureOriginPartName method [XPS Documents and Packaging], IXpsSignatureManager interface, GetSignatureOriginPartName,IXpsSignatureManager.GetSignatureOriginPartName, IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], GetSignatureOriginPartName method, IXpsSignatureManager::GetSignatureOriginPartName, xps.ixpssignaturemanager_getsignatureoriginpartname, xpsdigitalsignature/IXpsSignatureManager::GetSignatureOriginPartName
+ms.keywords: GetSignatureOriginPartName, GetSignatureOriginPartName method [XPS Documents and Packaging], GetSignatureOriginPartName method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatureOriginPartName method, IXpsSignatureManager.GetSignatureOriginPartName, IXpsSignatureManager::GetSignatureOriginPartName, xps.ixpssignaturemanager_getsignatureoriginpartname, xpsdigitalsignature/IXpsSignatureManager::GetSignatureOriginPartName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureManager::GetSignatureOriginPartName method
+# IXpsSignatureManager::GetSignatureOriginPartName
 
 
 ## -description

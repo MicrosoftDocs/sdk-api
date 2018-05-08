@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.put_PublisherID
-title: IEventPublisher::put_PublisherID method
+title: IEventPublisher::put_PublisherID
 author: windows-driver-content
 description: The identifier for the event publisher.
 old-location: com\ieventpublisher_publisherid.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: edc66367-68af-47a7-873c-006c257e840e
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEventPublisher, IEventPublisher interface [COM], PublisherID property, IEventPublisher.PublisherID, IEventPublisher::put_PublisherID, PublisherID property [COM], PublisherID property [COM], IEventPublisher interface, _com_ieventpublisher_publisherid, com.ieventpublisher_publisherid, eventsys/IEventPublisher::PublisherID, eventsys/IEventPublisher::put_PublisherID, put_PublisherID,IEventPublisher.put_PublisherID
+ms.keywords: IEventPublisher interface [COM],PublisherID property, IEventPublisher.PublisherID, IEventPublisher.put_PublisherID, IEventPublisher::PublisherID, IEventPublisher::put_PublisherID, PublisherID property [COM], PublisherID property [COM],IEventPublisher interface, _com_ieventpublisher_publisherid, com.ieventpublisher_publisherid, eventsys/IEventPublisher::PublisherID, eventsys/IEventPublisher::put_PublisherID, put_PublisherID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventPublisher::put_PublisherID method
+# IEventPublisher::put_PublisherID
 
 
 ## -description

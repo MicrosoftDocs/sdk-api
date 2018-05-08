@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetFormatRenderingProfiles
-title: IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles method
+title: IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles
 author: windows-driver-content
 description: Retrieves the rendering profiles of a format.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getformatrenderingprofiles.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 38c9d357-17aa-4b26-9c01-c13a5cfcf495
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetFormatRenderingProfiles method [Windows Portable Devices SDK], GetFormatRenderingProfiles method [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface, GetFormatRenderingProfiles,IPortableDeviceServiceCapabilities.GetFormatRenderingProfiles, IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], GetFormatRenderingProfiles method, IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles, portabledeviceapi/IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles, wpdsdk.iportabledeviceservicecapabilities_getformatrenderingprofiles
+ms.keywords: GetFormatRenderingProfiles, GetFormatRenderingProfiles method [Windows Portable Devices SDK], GetFormatRenderingProfiles method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetFormatRenderingProfiles method, IPortableDeviceServiceCapabilities.GetFormatRenderingProfiles, IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles, portabledeviceapi/IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles, wpdsdk.iportabledeviceservicecapabilities_getformatrenderingprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles method
+# IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles
 
 
 ## -description

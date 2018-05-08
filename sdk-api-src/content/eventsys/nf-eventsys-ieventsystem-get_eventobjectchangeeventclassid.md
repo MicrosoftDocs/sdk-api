@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSystem.get_EventObjectChangeEventClassID
-title: IEventSystem::get_EventObjectChangeEventClassID method
+title: IEventSystem::get_EventObjectChangeEventClassID
 author: windows-driver-content
 description: Retrieves the CLSID of an event class object that notifies the caller of changes to the event store.
 old-location: cos\ieventsystem_eventobjectchangeeventclassid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 58cd529d-f1e5-4777-9999-3f223d27dc64
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: EventObjectChangeEventClassID property [COM+], EventObjectChangeEventClassID property [COM+], IEventSystem interface, IEventSystem, IEventSystem interface [COM+], EventObjectChangeEventClassID property, IEventSystem.EventObjectChangeEventClassID, IEventSystem::get_EventObjectChangeEventClassID, _cos_IEventSystem_Properties, cos.ieventsystem_eventobjectchangeeventclassid, eventsys/IEventSystem::EventObjectChangeEventClassID, eventsys/IEventSystem::get_EventObjectChangeEventClassID, get_EventObjectChangeEventClassID,IEventSystem.get_EventObjectChangeEventClassID
+ms.keywords: EventObjectChangeEventClassID property [COM+], EventObjectChangeEventClassID property [COM+],IEventSystem interface, IEventSystem interface [COM+],EventObjectChangeEventClassID property, IEventSystem.EventObjectChangeEventClassID, IEventSystem.get_EventObjectChangeEventClassID, IEventSystem::EventObjectChangeEventClassID, IEventSystem::get_EventObjectChangeEventClassID, _cos_IEventSystem_Properties, cos.ieventsystem_eventobjectchangeeventclassid, eventsys/IEventSystem::EventObjectChangeEventClassID, eventsys/IEventSystem::get_EventObjectChangeEventClassID, get_EventObjectChangeEventClassID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSystem::get_EventObjectChangeEventClassID method
+# IEventSystem::get_EventObjectChangeEventClassID
 
 
 ## -description

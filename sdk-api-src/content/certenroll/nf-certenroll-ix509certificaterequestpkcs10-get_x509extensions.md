@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_X509Extensions
-title: IX509CertificateRequestPkcs10::get_X509Extensions method
+title: IX509CertificateRequestPkcs10::get_X509Extensions
 author: windows-driver-content
 description: Retrieves a collection of the extensions included in the certificate request.
 old-location: security\ix509certificaterequestpkcs10_x509extensions_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b5500c94-7d7a-473d-80ef-c0d713dcb52e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], X509Extensions property, IX509CertificateRequestPkcs10.X509Extensions, IX509CertificateRequestPkcs10::get_X509Extensions, X509Extensions property [Security], X509Extensions property [Security], IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::X509Extensions, certenroll/IX509CertificateRequestPkcs10::get_X509Extensions, get_X509Extensions,IX509CertificateRequestPkcs10.get_X509Extensions, security.ix509certificaterequestpkcs10_x509extensions_property
+ms.keywords: IX509CertificateRequestPkcs10 interface [Security],X509Extensions property, IX509CertificateRequestPkcs10.X509Extensions, IX509CertificateRequestPkcs10.get_X509Extensions, IX509CertificateRequestPkcs10::X509Extensions, IX509CertificateRequestPkcs10::get_X509Extensions, X509Extensions property [Security], X509Extensions property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::X509Extensions, certenroll/IX509CertificateRequestPkcs10::get_X509Extensions, get_X509Extensions, security.ix509certificaterequestpkcs10_x509extensions_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs10::get_X509Extensions method
+# IX509CertificateRequestPkcs10::get_X509Extensions
 
 
 ## -description

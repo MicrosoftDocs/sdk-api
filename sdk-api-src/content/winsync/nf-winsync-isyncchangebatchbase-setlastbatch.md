@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.SetLastBatch
-title: ISyncChangeBatchBase::SetLastBatch method
+title: ISyncChangeBatchBase::SetLastBatch
 author: windows-driver-content
 description: Sets a flag that indicates there are no more changes to be enumerated in the synchronization session.
 old-location: winsync\isyncchangebatchbase_setlastbatch.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 7619b446-5c71-4533-8af6-15f06dda3c87
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], SetLastBatch method, ISyncChangeBatchBase::SetLastBatch, SetLastBatch method [Windows Sync], SetLastBatch method [Windows Sync], ISyncChangeBatchBase interface, SetLastBatch,ISyncChangeBatchBase.SetLastBatch, winsync.isyncchangebatchbase_setlastbatch, winsync/ISyncChangeBatchBase::SetLastBatch
+ms.keywords: ISyncChangeBatchBase interface [Windows Sync],SetLastBatch method, ISyncChangeBatchBase.SetLastBatch, ISyncChangeBatchBase::SetLastBatch, SetLastBatch, SetLastBatch method [Windows Sync], SetLastBatch method [Windows Sync],ISyncChangeBatchBase interface, winsync.isyncchangebatchbase_setlastbatch, winsync/ISyncChangeBatchBase::SetLastBatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchBase::SetLastBatch method
+# ISyncChangeBatchBase::SetLastBatch
 
 
 ## -description

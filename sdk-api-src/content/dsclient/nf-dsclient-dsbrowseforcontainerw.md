@@ -7,7 +7,7 @@ old-location: ad\dsbrowseforcontainer.htm
 old-project: AD
 ms.assetid: c95585b3-bf40-4aee-ae47-ca8f43daf0e6
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DsBrowseForContainer, DsBrowseForContainer function [Active Directory], DsBrowseForContainerA, DsBrowseForContainerW, _glines_dsbrowseforcontainer, ad.dsbrowseforcontainer, dsclient/DsBrowseForContainer, dsclient/DsBrowseForContainerA, dsclient/DsBrowseForContainerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

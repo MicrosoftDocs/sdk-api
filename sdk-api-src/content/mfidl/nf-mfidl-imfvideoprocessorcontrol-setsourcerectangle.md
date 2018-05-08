@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetSourceRectangle
-title: IMFVideoProcessorControl::SetSourceRectangle method
+title: IMFVideoProcessorControl::SetSourceRectangle
 author: windows-driver-content
 description: Sets the source rectangle.
 old-location: mf\imfvideoprocessorcontrol_setsourcerectangle.htm
 old-project: medfound
 ms.assetid: 0A4E74BB-6F98-4610-9F47-5BD1E58B8589
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoProcessorControl, IMFVideoProcessorControl interface [Media Foundation], SetSourceRectangle method, IMFVideoProcessorControl::SetSourceRectangle, SetSourceRectangle method [Media Foundation], SetSourceRectangle method [Media Foundation], IMFVideoProcessorControl interface, SetSourceRectangle,IMFVideoProcessorControl.SetSourceRectangle, mf.imfvideoprocessorcontrol_setsourcerectangle, mfidl/IMFVideoProcessorControl::SetSourceRectangle
+ms.date: 5/3/2018
+ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetSourceRectangle method, IMFVideoProcessorControl.SetSourceRectangle, IMFVideoProcessorControl::SetSourceRectangle, SetSourceRectangle, SetSourceRectangle method [Media Foundation], SetSourceRectangle method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setsourcerectangle, mfidl/IMFVideoProcessorControl::SetSourceRectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFVideoProcessorControl::SetSourceRectangle method
+# IMFVideoProcessorControl::SetSourceRectangle
 
 
 ## -description

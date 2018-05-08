@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 0ac56b41-a120-4a9b-9bfa-afba1ba0f3b4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcCertificateSet, IOpcCertificateSet interface [Open Packaging Conventions], IOpcCertificateSet interface [Open Packaging Conventions], described, msopc/IOpcCertificateSet, opc.iopccertificateset
+ms.keywords: IOpcCertificateSet, IOpcCertificateSet interface [Open Packaging Conventions], IOpcCertificateSet interface [Open Packaging Conventions],described, msopc/IOpcCertificateSet, opc.iopccertificateset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

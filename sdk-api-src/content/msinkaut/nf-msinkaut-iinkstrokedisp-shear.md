@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Shear
-title: IInkStrokeDisp::Shear method
+title: IInkStrokeDisp::Shear
 author: windows-driver-content
 description: Shears the ink in the stroke or strokes by the specified horizontal and vertical factors.
 old-location: tablet\iinkstrokedisp_shear.htm
 old-project: tablet
 ms.assetid: 887dd883-1a24-4a78-8f08-f4cd45bf4840
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 887dd883-1a24-4a78-8f08-f4cd45bf4840, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], Shear method, IInkStrokeDisp::Shear, Shear method [Tablet PC], Shear method [Tablet PC], IInkStrokeDisp interface, Shear,IInkStrokeDisp.Shear, msinkaut/IInkStrokeDisp::Shear, tablet.iinkstrokedisp_shear
+ms.date: 5/2/2018
+ms.keywords: 887dd883-1a24-4a78-8f08-f4cd45bf4840, IInkStrokeDisp interface [Tablet PC],Shear method, IInkStrokeDisp.Shear, IInkStrokeDisp::Shear, Shear, Shear method [Tablet PC], Shear method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Shear, tablet.iinkstrokedisp_shear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::Shear method
+# IInkStrokeDisp::Shear
 
 
 ## -description

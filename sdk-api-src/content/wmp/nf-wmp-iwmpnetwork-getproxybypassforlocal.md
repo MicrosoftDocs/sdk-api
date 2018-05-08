@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyBypassForLocal
-title: IWMPNetwork::getProxyBypassForLocal method
+title: IWMPNetwork::getProxyBypassForLocal
 author: windows-driver-content
 description: The getProxyBypassForLocal method retrieves a value indicating whether the proxy server is bypassed if the origin server is on a local network.
 old-location: wmp\iwmpnetwork_getproxybypassforlocal.htm
 old-project: WMP
 ms.assetid: 33cc24ab-9eb4-48ef-9483-058a3af04983
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], getProxyBypassForLocal method, IWMPNetwork::getProxyBypassForLocal, IWMPNetworkgetProxyBypassForLocal, getProxyBypassForLocal method [Windows Media Player], getProxyBypassForLocal method [Windows Media Player], IWMPNetwork interface, getProxyBypassForLocal,IWMPNetwork.getProxyBypassForLocal, wmp.iwmpnetwork_getproxybypassforlocal, wmp/IWMPNetwork::getProxyBypassForLocal
+ms.date: 5/4/2018
+ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyBypassForLocal method, IWMPNetwork.getProxyBypassForLocal, IWMPNetwork::getProxyBypassForLocal, IWMPNetworkgetProxyBypassForLocal, getProxyBypassForLocal, getProxyBypassForLocal method [Windows Media Player], getProxyBypassForLocal method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxybypassforlocal, wmp/IWMPNetwork::getProxyBypassForLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNetwork::getProxyBypassForLocal method
+# IWMPNetwork::getProxyBypassForLocal
 
 
 ## -description

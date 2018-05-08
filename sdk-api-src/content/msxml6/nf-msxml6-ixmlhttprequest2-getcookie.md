@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.GetCookie
-title: IXMLHTTPRequest2::GetCookie method
+title: IXMLHTTPRequest2::GetCookie
 author: windows-driver-content
 description: Gets a cookie associated with the specified URL from the HTTP cookie jar.
 old-location: ixhr2\ixmlhttprequest2_getcookie.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: A2A9C54B-92A2-41EA-A741-797BA219BCDA
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: GetCookie method [XMLHttpRequest2], GetCookie method [XMLHttpRequest2], IXMLHTTPRequest2 interface, GetCookie,IXMLHTTPRequest2.GetCookie, IXMLHTTPRequest2, IXMLHTTPRequest2 interface [XMLHttpRequest2], GetCookie method, IXMLHTTPRequest2::GetCookie, ixhr2.ixmlhttprequest2_getcookie, msxml6/IXMLHTTPRequest2::GetCookie
+ms.keywords: GetCookie, GetCookie method [XMLHttpRequest2], GetCookie method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],GetCookie method, IXMLHTTPRequest2.GetCookie, IXMLHTTPRequest2::GetCookie, ixhr2.ixmlhttprequest2_getcookie, msxml6/IXMLHTTPRequest2::GetCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest2::GetCookie method
+# IXMLHTTPRequest2::GetCookie
 
 
 ## -description

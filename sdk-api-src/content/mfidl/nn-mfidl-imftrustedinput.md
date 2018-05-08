@@ -7,8 +7,8 @@ old-location: mf\imftrustedinput.htm
 old-project: medfound
 ms.assetid: 59a9def7-69a6-4f80-bb5e-1cb372ff6eab
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 59a9def7-69a6-4f80-bb5e-1cb372ff6eab, IMFTrustedInput, IMFTrustedInput interface [Media Foundation], IMFTrustedInput interface [Media Foundation], described, mf.imftrustedinput, mfidl/IMFTrustedInput
+ms.date: 5/3/2018
+ms.keywords: 59a9def7-69a6-4f80-bb5e-1cb372ff6eab, IMFTrustedInput, IMFTrustedInput interface [Media Foundation], IMFTrustedInput interface [Media Foundation],described, mf.imftrustedinput, mfidl/IMFTrustedInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

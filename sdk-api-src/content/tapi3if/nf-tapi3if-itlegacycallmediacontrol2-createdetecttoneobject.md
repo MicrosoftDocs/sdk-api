@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.CreateDetectToneObject
-title: ITLegacyCallMediaControl2::CreateDetectToneObject method
+title: ITLegacyCallMediaControl2::CreateDetectToneObject
 author: windows-driver-content
 description: The CreateDetectToneObject method creates a detect tone object to use with the DetectTonesByCollection method.
 old-location: tapi3\itlegacycallmediacontrol2_createdetecttoneobject.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 3f00391f-b63f-4fa7-82af-44584fbcd8a3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CreateDetectToneObject method [TAPI 2.2], CreateDetectToneObject method [TAPI 2.2], ITLegacyCallMediaControl2 interface, CreateDetectToneObject,ITLegacyCallMediaControl2.CreateDetectToneObject, ITLegacyCallMediaControl2, ITLegacyCallMediaControl2 interface [TAPI 2.2], CreateDetectToneObject method, ITLegacyCallMediaControl2::CreateDetectToneObject, _tapi3_itlegacycallmediacontrol2_createdetecttoneobject, tapi3.itlegacycallmediacontrol2_createdetecttoneobject, tapi3if/ITLegacyCallMediaControl2::CreateDetectToneObject
+ms.keywords: CreateDetectToneObject, CreateDetectToneObject method [TAPI 2.2], CreateDetectToneObject method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],CreateDetectToneObject method, ITLegacyCallMediaControl2.CreateDetectToneObject, ITLegacyCallMediaControl2::CreateDetectToneObject, _tapi3_itlegacycallmediacontrol2_createdetecttoneobject, tapi3.itlegacycallmediacontrol2_createdetecttoneobject, tapi3if/ITLegacyCallMediaControl2::CreateDetectToneObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITLegacyCallMediaControl2::CreateDetectToneObject method
+# ITLegacyCallMediaControl2::CreateDetectToneObject
 
 
 ## -description

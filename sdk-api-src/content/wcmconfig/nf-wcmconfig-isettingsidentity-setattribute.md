@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.SetAttribute
-title: ISettingsIdentity::SetAttribute method
+title: ISettingsIdentity::SetAttribute
 author: windows-driver-content
 description: Sets an identity attribute for a namespace identity.
 old-location: smi\isettingsidentity_setattribute.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 498bb364-3da8-456d-8e77-22b508516de0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISettingsIdentity, ISettingsIdentity interface [SMI], SetAttribute method, ISettingsIdentity::SetAttribute, SetAttribute method [SMI], SetAttribute method [SMI], ISettingsIdentity interface, SetAttribute,ISettingsIdentity.SetAttribute, smi.isettingsidentity_setattribute, wcmconfig/ISettingsIdentity::SetAttribute
+ms.keywords: ISettingsIdentity interface [SMI],SetAttribute method, ISettingsIdentity.SetAttribute, ISettingsIdentity::SetAttribute, SetAttribute, SetAttribute method [SMI], SetAttribute method [SMI],ISettingsIdentity interface, smi.isettingsidentity_setattribute, wcmconfig/ISettingsIdentity::SetAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsIdentity::SetAttribute method
+# ISettingsIdentity::SetAttribute
 
 
 ## -description

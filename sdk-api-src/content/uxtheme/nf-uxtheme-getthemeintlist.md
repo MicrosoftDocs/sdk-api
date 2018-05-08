@@ -7,7 +7,7 @@ old-location: controls\GetThemeIntList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeintlist.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: GetThemeIntList, GetThemeIntList function [Windows Controls], controls.GetThemeIntList, controls.inet_GetThemeIntList, inet_GetThemeIntList, inet_GetThemeIntList_cpp, uxtheme/GetThemeIntList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SegmentMaxSize
-title: IDataCollectorSet::put_SegmentMaxSize method
+title: IDataCollectorSet::put_SegmentMaxSize
 author: windows-driver-content
 description: Retrieves or sets the maximum size of any log file in the data collector set.
 old-location: pla\idatacollectorset_get_segmentmaxsize.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 7dd96822-a398-42c3-94f1-b9cd7a647575
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], SegmentMaxSize property, IDataCollectorSet.SegmentMaxSize, IDataCollectorSet::get_SegmentMaxSize, IDataCollectorSet::put_SegmentMaxSize, SegmentMaxSize property [PLA], SegmentMaxSize property [PLA], IDataCollectorSet interface, base.idatacollectorset_get_segmentmaxsize, pla.idatacollectorset_get_segmentmaxsize, pla/IDataCollectorSet::SegmentMaxSize, pla/IDataCollectorSet::get_SegmentMaxSize, pla/IDataCollectorSet::put_SegmentMaxSize, put_SegmentMaxSize,IDataCollectorSet.put_SegmentMaxSize
+ms.keywords: IDataCollectorSet interface [PLA],SegmentMaxSize property, IDataCollectorSet.SegmentMaxSize, IDataCollectorSet.put_SegmentMaxSize, IDataCollectorSet::SegmentMaxSize, IDataCollectorSet::get_SegmentMaxSize, IDataCollectorSet::put_SegmentMaxSize, SegmentMaxSize property [PLA], SegmentMaxSize property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_segmentmaxsize, pla.idatacollectorset_get_segmentmaxsize, pla/IDataCollectorSet::SegmentMaxSize, pla/IDataCollectorSet::get_SegmentMaxSize, pla/IDataCollectorSet::put_SegmentMaxSize, put_SegmentMaxSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::put_SegmentMaxSize method
+# IDataCollectorSet::put_SegmentMaxSize
 
 
 ## -description

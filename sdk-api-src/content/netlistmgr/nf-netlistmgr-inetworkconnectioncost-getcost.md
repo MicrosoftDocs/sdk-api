@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionCost.GetCost
-title: INetworkConnectionCost::GetCost method
+title: INetworkConnectionCost::GetCost
 author: windows-driver-content
 description: GetCost method retrieves the network cost associated with a connection.
 old-location: nla\inetworkconnectioncost_getcost.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 66D5FC1A-054C-406E-BEC3-CA62EA09CDF1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetCost method [Network Awareness], GetCost method [Network Awareness], INetworkConnectionCost interface, GetCost,INetworkConnectionCost.GetCost, INetworkConnectionCost, INetworkConnectionCost interface [Network Awareness], GetCost method, INetworkConnectionCost::GetCost, netlistmgr/INetworkConnectionCost::GetCost, nla.inetworkconnectioncost_getcost
+ms.keywords: GetCost, GetCost method [Network Awareness], GetCost method [Network Awareness],INetworkConnectionCost interface, INetworkConnectionCost interface [Network Awareness],GetCost method, INetworkConnectionCost.GetCost, INetworkConnectionCost::GetCost, netlistmgr/INetworkConnectionCost::GetCost, nla.inetworkconnectioncost_getcost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkConnectionCost::GetCost method
+# INetworkConnectionCost::GetCost
 
 
 ## -description

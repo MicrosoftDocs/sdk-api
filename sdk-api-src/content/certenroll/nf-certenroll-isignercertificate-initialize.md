@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.Initialize
-title: ISignerCertificate::Initialize method
+title: ISignerCertificate::Initialize
 author: windows-driver-content
 description: Initializes the object from a signing certificate.
 old-location: security\isignercertificate_initialize_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 2553f0bc-a177-49fc-932f-080cb4bd7a5c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ISignerCertificate, ISignerCertificate interface [Security], Initialize method, ISignerCertificate::Initialize, Initialize method [Security], Initialize method [Security], ISignerCertificate interface, Initialize,ISignerCertificate.Initialize, certenroll/ISignerCertificate::Initialize, security.isignercertificate_initialize_method
+ms.keywords: ISignerCertificate interface [Security],Initialize method, ISignerCertificate.Initialize, ISignerCertificate::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISignerCertificate interface, certenroll/ISignerCertificate::Initialize, security.isignercertificate_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ISignerCertificate::Initialize method
+# ISignerCertificate::Initialize
 
 
 ## -description

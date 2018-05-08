@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.UpdateDeletePercent
-title: IPhotoAcquireProgressCB::UpdateDeletePercent method
+title: IPhotoAcquireProgressCB::UpdateDeletePercent
 author: windows-driver-content
 description: The UpdateDeletePercent method provides extended functionality when the percentage of items deleted changes. The application provides the implementation of the UpdateDeletePercent method.
 old-location: picacq\iphotoacquireprogresscb_updatedeletepercent.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 8b555d9b-1d01-43ad-b267-8d53023390e8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], UpdateDeletePercent method, IPhotoAcquireProgressCB::UpdateDeletePercent, IPhotoAcquireProgressCBUpdateDeletePercent, UpdateDeletePercent method [Picture Acquisition], UpdateDeletePercent method [Picture Acquisition], IPhotoAcquireProgressCB interface, UpdateDeletePercent,IPhotoAcquireProgressCB.UpdateDeletePercent, photoacquire/IPhotoAcquireProgressCB::UpdateDeletePercent, picacq.iphotoacquireprogresscb_updatedeletepercent
+ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],UpdateDeletePercent method, IPhotoAcquireProgressCB.UpdateDeletePercent, IPhotoAcquireProgressCB::UpdateDeletePercent, IPhotoAcquireProgressCBUpdateDeletePercent, UpdateDeletePercent, UpdateDeletePercent method [Picture Acquisition], UpdateDeletePercent method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::UpdateDeletePercent, picacq.iphotoacquireprogresscb_updatedeletepercent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireProgressCB::UpdateDeletePercent method
+# IPhotoAcquireProgressCB::UpdateDeletePercent
 
 
 ## -description

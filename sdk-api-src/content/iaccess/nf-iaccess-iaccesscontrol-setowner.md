@@ -1,6 +1,6 @@
 ---
 UID: NF:iaccess.IAccessControl.SetOwner
-title: IAccessControl::SetOwner method
+title: IAccessControl::SetOwner
 author: windows-driver-content
 description: Sets the owner or the group of an item.
 old-location: com\iaccesscontrol_setowner.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 92406043-f4a4-43e4-9b17-087066823ce4
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAccessControl, IAccessControl interface [COM], SetOwner method, IAccessControl::SetOwner, SetOwner method [COM], SetOwner method [COM], IAccessControl interface, SetOwner,IAccessControl.SetOwner, _com_iaccesscontrol_setowner, com.iaccesscontrol_setowner, iaccess/IAccessControl::SetOwner
+ms.keywords: IAccessControl interface [COM],SetOwner method, IAccessControl.SetOwner, IAccessControl::SetOwner, SetOwner, SetOwner method [COM], SetOwner method [COM],IAccessControl interface, _com_iaccesscontrol_setowner, com.iaccesscontrol_setowner, iaccess/IAccessControl::SetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAccessControl::SetOwner method
+# IAccessControl::SetOwner
 
 
 ## -description

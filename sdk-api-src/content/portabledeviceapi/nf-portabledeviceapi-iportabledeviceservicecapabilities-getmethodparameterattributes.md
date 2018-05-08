@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetMethodParameterAttributes
-title: IPortableDeviceServiceCapabilities::GetMethodParameterAttributes method
+title: IPortableDeviceServiceCapabilities::GetMethodParameterAttributes
 author: windows-driver-content
 description: Retrieves the attributes used to describe a given method parameter.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getmethodparameterattributes.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 48c566e1-981f-4173-ad5b-a7b1b7c35d06
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetMethodParameterAttributes method [Windows Portable Devices SDK], GetMethodParameterAttributes method [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface, GetMethodParameterAttributes,IPortableDeviceServiceCapabilities.GetMethodParameterAttributes, IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], GetMethodParameterAttributes method, IPortableDeviceServiceCapabilities::GetMethodParameterAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetMethodParameterAttributes, wpdsdk.iportabledeviceservicecapabilities_getmethodparameterattributes
+ms.keywords: GetMethodParameterAttributes, GetMethodParameterAttributes method [Windows Portable Devices SDK], GetMethodParameterAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetMethodParameterAttributes method, IPortableDeviceServiceCapabilities.GetMethodParameterAttributes, IPortableDeviceServiceCapabilities::GetMethodParameterAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetMethodParameterAttributes, wpdsdk.iportabledeviceservicecapabilities_getmethodparameterattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceCapabilities::GetMethodParameterAttributes method
+# IPortableDeviceServiceCapabilities::GetMethodParameterAttributes
 
 
 ## -description

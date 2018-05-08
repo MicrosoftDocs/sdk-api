@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 116715a5-a3e1-48aa-b155-107ea330b7ee
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ISecurityProperty, ISecurityProperty interface [COM+], ISecurityProperty interface [COM+], described, _cos_ISecurityProperty, comsvcs/ISecurityProperty, cos.isecurityproperty
+ms.keywords: ISecurityProperty, ISecurityProperty interface [COM+], ISecurityProperty interface [COM+],described, _cos_ISecurityProperty, comsvcs/ISecurityProperty, cos.isecurityproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

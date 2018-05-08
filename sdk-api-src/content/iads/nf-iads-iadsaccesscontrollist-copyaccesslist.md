@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsAccessControlList.CopyAccessList
-title: IADsAccessControlList::CopyAccessList method
+title: IADsAccessControlList::CopyAccessList
 author: windows-driver-content
 description: The IADsAccessControlList::CopyAccessList method copies every access control entry (ACE) in the access-control list (ACL) to the caller's process space.
 old-location: adsi\iadsaccesscontrollist_copyaccesslist.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 3f4c89ec-1144-4886-981a-75353d2dfe8b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CopyAccessList method [ADSI], CopyAccessList method [ADSI], IADsAccessControlList interface, CopyAccessList,IADsAccessControlList.CopyAccessList, IADsAccessControlList, IADsAccessControlList interface [ADSI], CopyAccessList method, IADsAccessControlList::CopyAccessList, _ds_iadsaccesscontrollist_copyaccesslist, adsi.iadsaccesscontrollist__copyaccesslist, adsi.iadsaccesscontrollist_copyaccesslist, iads/IADsAccessControlList::CopyAccessList
+ms.keywords: CopyAccessList, CopyAccessList method [ADSI], CopyAccessList method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],CopyAccessList method, IADsAccessControlList.CopyAccessList, IADsAccessControlList::CopyAccessList, _ds_iadsaccesscontrollist_copyaccesslist, adsi.iadsaccesscontrollist__copyaccesslist, adsi.iadsaccesscontrollist_copyaccesslist, iads/IADsAccessControlList::CopyAccessList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsAccessControlList::CopyAccessList method
+# IADsAccessControlList::CopyAccessList
 
 
 ## -description

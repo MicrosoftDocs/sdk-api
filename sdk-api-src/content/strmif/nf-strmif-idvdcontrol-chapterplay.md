@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.ChapterPlay
-title: IDvdControl::ChapterPlay method
+title: IDvdControl::ChapterPlay
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Plays the media file with the specified title index and chapter value.
 old-location: dshow\idvdcontrol_chapterplay.htm
 old-project: DirectShow
 ms.assetid: c51524d0-5935-4e14-bcaf-4739fd0f21bb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ChapterPlay method [DirectShow], ChapterPlay method [DirectShow], IDvdControl interface, ChapterPlay,IDvdControl.ChapterPlay, IDvdControl, IDvdControl interface [DirectShow], ChapterPlay method, IDvdControl::ChapterPlay, IDvdControlChapterPlay, dshow.idvdcontrol_chapterplay, strmif/IDvdControl::ChapterPlay
+ms.date: 4/30/2018
+ms.keywords: ChapterPlay, ChapterPlay method [DirectShow], ChapterPlay method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ChapterPlay method, IDvdControl.ChapterPlay, IDvdControl::ChapterPlay, IDvdControlChapterPlay, dshow.idvdcontrol_chapterplay, strmif/IDvdControl::ChapterPlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::ChapterPlay method
+# IDvdControl::ChapterPlay
 
 
 ## -description

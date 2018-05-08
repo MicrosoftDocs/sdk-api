@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: cd029d7e-e103-4bbb-aaf9-36f3043b941c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterGetEnrollmentStatus, EngineAdapterGetEnrollmentStatus callback function [Windows Biometric Framework API], PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN, secbiomet.engineadaptergetenrollmentstatus, winbio_adapter/EngineAdapterGetEnrollmentStatus
+ms.keywords: EngineAdapterGetEnrollmentStatus, EngineAdapterGetEnrollmentStatus callback function [Windows Biometric Framework API], PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN, PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN callback, secbiomet.engineadaptergetenrollmentstatus, winbio_adapter/EngineAdapterGetEnrollmentStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN callback
+# PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.GetStoryLength
-title: ITextRange::GetStoryLength method
+title: ITextRange::GetStoryLength
 author: windows-driver-content
 description: Gets the count of characters in the range's story.
 old-location: controls\ITextRange_GetStoryLength.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorylength.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetStoryLength method [Windows Controls], GetStoryLength method [Windows Controls], ITextRange interface, GetStoryLength,ITextRange.GetStoryLength, ITextRange, ITextRange interface [Windows Controls], GetStoryLength method, ITextRange::GetStoryLength, _win32_ITextRange_GetStoryLength, _win32_ITextRange_GetStoryLength_cpp, controls.ITextRange_GetStoryLength, controls._win32_ITextRange_GetStoryLength, tom/ITextRange::GetStoryLength
+ms.date: 4/27/2018
+ms.keywords: GetStoryLength, GetStoryLength method [Windows Controls], GetStoryLength method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetStoryLength method, ITextRange.GetStoryLength, ITextRange::GetStoryLength, _win32_ITextRange_GetStoryLength, _win32_ITextRange_GetStoryLength_cpp, controls.ITextRange_GetStoryLength, controls._win32_ITextRange_GetStoryLength, tom/ITextRange::GetStoryLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::GetStoryLength method
+# ITextRange::GetStoryLength
 
 
 ## -description

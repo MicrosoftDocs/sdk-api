@@ -1,14 +1,14 @@
 ---
 UID: NF:qmgr.IBackgroundCopyQMgr.CreateGroup
-title: IBackgroundCopyQMgr::CreateGroup method
+title: IBackgroundCopyQMgr::CreateGroup
 author: windows-driver-content
 description: Use the CreateGroup method to create a new group and add it to the download queue.
 old-location: bits\ibackgroundcopyqmgr_creategroup.htm
 old-project: Bits
 ms.assetid: d64fec33-3781-428e-af9d-4a08836760d2
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: CreateGroup method [BITS], CreateGroup method [BITS], IBackgroundCopyQMgr interface, CreateGroup,IBackgroundCopyQMgr.CreateGroup, IBackgroundCopyQMgr, IBackgroundCopyQMgr interface [BITS], CreateGroup method, IBackgroundCopyQMgr::CreateGroup, bits.ibackgroundcopyqmgr_creategroup, qmgr/IBackgroundCopyQMgr::CreateGroup
+ms.date: 4/27/2018
+ms.keywords: CreateGroup, CreateGroup method [BITS], CreateGroup method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],CreateGroup method, IBackgroundCopyQMgr.CreateGroup, IBackgroundCopyQMgr::CreateGroup, bits.ibackgroundcopyqmgr_creategroup, qmgr/IBackgroundCopyQMgr::CreateGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBackgroundCopyQMgr::CreateGroup method
+# IBackgroundCopyQMgr::CreateGroup
 
 
 ## -description

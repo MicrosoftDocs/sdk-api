@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPipeByte.Push
-title: IPipeByte::Push method
+title: IPipeByte::Push
 author: windows-driver-content
 description: Sends data of the byte type to the pipe source.
 old-location: com\ipipebyte_push.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 7dd672d3-22ef-4786-85e0-d5c2ebabaea2
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPipeByte, IPipeByte interface [COM], Push method, IPipeByte::Push, Push method [COM], Push method [COM], IPipeByte interface, Push,IPipeByte.Push, _com_ipipebyte_push, com.ipipebyte_push, objidlbase/IPipeByte::Push
+ms.keywords: IPipeByte interface [COM],Push method, IPipeByte.Push, IPipeByte::Push, Push, Push method [COM], Push method [COM],IPipeByte interface, _com_ipipebyte_push, com.ipipebyte_push, objidlbase/IPipeByte::Push
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPipeByte::Push method
+# IPipeByte::Push
 
 
 ## -description

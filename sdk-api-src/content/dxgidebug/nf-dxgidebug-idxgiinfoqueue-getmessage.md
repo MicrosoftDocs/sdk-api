@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetMessage
-title: IDXGIInfoQueue::GetMessage method
+title: IDXGIInfoQueue::GetMessage
 author: windows-driver-content
 description: Gets a message from the message queue.
 old-location: direct3ddxgi\idxgiinfoqueue_getmessage.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 208C3253-09AE-4379-808D-BA0BECC59BF8
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetMessage method [DXGI], GetMessage method [DXGI], IDXGIInfoQueue interface, GetMessage,IDXGIInfoQueue.GetMessage, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], GetMessage method, IDXGIInfoQueue::GetMessage, direct3ddxgi.idxgiinfoqueue_getmessage, dxgidebug/IDXGIInfoQueue::GetMessage
+ms.keywords: GetMessage, GetMessage method [DXGI], GetMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMessage method, IDXGIInfoQueue.GetMessage, IDXGIInfoQueue::GetMessage, direct3ddxgi.idxgiinfoqueue_getmessage, dxgidebug/IDXGIInfoQueue::GetMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::GetMessage method
+# IDXGIInfoQueue::GetMessage
 
 
 ## -description

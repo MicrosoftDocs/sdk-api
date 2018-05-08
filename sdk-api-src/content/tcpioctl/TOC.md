@@ -1,0 +1,7 @@
+# [Using the Windows Headers](../_winprog/index.md)
+## [Tcpioctl.h](index.md)
+### [IOCTL_TCP_QUERY_INFORMATION_EX IOCTL](../tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex.md)
+### [IFEntry structure](../tcpioctl/ns-tcpioctl-ifentry.md)
+### [IPAddrEntry structure](../tcpioctl/ns-tcpioctl-ipaddrentry.md)
+### [IPInterfaceInfo structure](../tcpioctl/ns-tcpioctl-ipinterfaceinfo.md)
+### [IPSNMPInfo structure](../tcpioctl/ns-tcpioctl-ipsnmpinfo.md)

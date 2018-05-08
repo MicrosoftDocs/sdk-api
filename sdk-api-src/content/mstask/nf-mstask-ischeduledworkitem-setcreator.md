@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetCreator
-title: IScheduledWorkItem::SetCreator method
+title: IScheduledWorkItem::SetCreator
 author: windows-driver-content
 description: Sets the name of the work item's creator.
 old-location: taskschd\ischeduledworkitem_setcreator.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: e15c6aba-79f7-407f-81d1-b7ec404c68f9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], SetCreator method, IScheduledWorkItem::SetCreator, SetCreator method [Task Scheduler], SetCreator method [Task Scheduler], IScheduledWorkItem interface, SetCreator,IScheduledWorkItem.SetCreator, _msb_ischeduledworkitem_setcreator, mstask/IScheduledWorkItem::SetCreator, taskschd.ischeduledworkitem_setcreator
+ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetCreator method, IScheduledWorkItem.SetCreator, IScheduledWorkItem::SetCreator, SetCreator, SetCreator method [Task Scheduler], SetCreator method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setcreator, mstask/IScheduledWorkItem::SetCreator, taskschd.ischeduledworkitem_setcreator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::SetCreator method
+# IScheduledWorkItem::SetCreator
 
 
 ## -description

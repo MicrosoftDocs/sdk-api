@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIApplication.OnCreateUICommand
-title: IUIApplication::OnCreateUICommand method
+title: IUIApplication::OnCreateUICommand
 author: windows-driver-content
 description: Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an IUICommandHandler.
 old-location: windowsribbon\windowsribbon_iuiapplication_oncreateuicommand.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\oncreateuicommand.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IUIApplication, IUIApplication interface [Windows Ribbon], OnCreateUICommand method, IUIApplication::OnCreateUICommand, OnCreateUICommand method [Windows Ribbon], OnCreateUICommand method [Windows Ribbon], IUIApplication interface, OnCreateUICommand,IUIApplication.OnCreateUICommand, scenicintent_IUIApplication_OnCreateUICommand, uiribbon/IUIApplication::OnCreateUICommand, windowsribbon.windowsribbon_iuiapplication_oncreateuicommand
+ms.keywords: IUIApplication interface [Windows Ribbon],OnCreateUICommand method, IUIApplication.OnCreateUICommand, IUIApplication::OnCreateUICommand, OnCreateUICommand, OnCreateUICommand method [Windows Ribbon], OnCreateUICommand method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnCreateUICommand, uiribbon/IUIApplication::OnCreateUICommand, windowsribbon.windowsribbon_iuiapplication_oncreateuicommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUIApplication::OnCreateUICommand method
+# IUIApplication::OnCreateUICommand
 
 
 ## -description

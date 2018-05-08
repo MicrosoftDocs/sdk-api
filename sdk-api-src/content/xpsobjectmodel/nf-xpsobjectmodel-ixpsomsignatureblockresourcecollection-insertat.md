@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.InsertAt
-title: IXpsOMSignatureBlockResourceCollection::InsertAt method
+title: IXpsOMSignatureBlockResourceCollection::InsertAt
 author: windows-driver-content
 description: Inserts an IXpsOMSignatureBlockResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_insertat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: bcb9d712-35b6-4dfc-91dc-dd376950e1e8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMSignatureBlockResourceCollection, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging], InsertAt method, IXpsOMSignatureBlockResourceCollection::InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging], IXpsOMSignatureBlockResourceCollection interface, InsertAt,IXpsOMSignatureBlockResourceCollection.InsertAt, xps.ixpsomsignatureblockresourcecollection_insertat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::InsertAt
+ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMSignatureBlockResourceCollection.InsertAt, IXpsOMSignatureBlockResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_insertat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMSignatureBlockResourceCollection::InsertAt method
+# IXpsOMSignatureBlockResourceCollection::InsertAt
 
 
 ## -description

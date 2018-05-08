@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DVolumeTexture9.GetVolumeLevel
-title: IDirect3DVolumeTexture9::GetVolumeLevel method
+title: IDirect3DVolumeTexture9::GetVolumeLevel
 author: windows-driver-content
 description: Retrieves the specified volume texture level.
 old-location: direct3d9\idirect3dvolumetexture9__getvolumelevel.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9__getvolumelevel.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 6b38df70-e8ab-b3ca-2c91-45641b4a2e90, GetVolumeLevel method [Direct3D 9], GetVolumeLevel method [Direct3D 9], IDirect3DVolumeTexture9 interface, GetVolumeLevel,IDirect3DVolumeTexture9.GetVolumeLevel, IDirect3DVolumeTexture9, IDirect3DVolumeTexture9 interface [Direct3D 9], GetVolumeLevel method, IDirect3DVolumeTexture9::GetVolumeLevel, d3d9helper/IDirect3DVolumeTexture9::GetVolumeLevel, direct3d9.idirect3dvolumetexture9__getvolumelevel
+ms.keywords: 6b38df70-e8ab-b3ca-2c91-45641b4a2e90, GetVolumeLevel, GetVolumeLevel method [Direct3D 9], GetVolumeLevel method [Direct3D 9],IDirect3DVolumeTexture9 interface, IDirect3DVolumeTexture9 interface [Direct3D 9],GetVolumeLevel method, IDirect3DVolumeTexture9.GetVolumeLevel, IDirect3DVolumeTexture9::GetVolumeLevel, d3d9helper/IDirect3DVolumeTexture9::GetVolumeLevel, direct3d9.idirect3dvolumetexture9__getvolumelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DVolumeTexture9::GetVolumeLevel method
+# IDirect3DVolumeTexture9::GetVolumeLevel
 
 
 ## -description

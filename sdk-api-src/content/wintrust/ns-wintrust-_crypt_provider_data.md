@@ -7,7 +7,7 @@ old-location: security\crypt_provider_data.htm
 old-project: SecCrypto
 ms.assetid: 93ea2ad5-65da-4daa-bfd4-e3d1307829b2
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPT_PROVIDER_DATA, CPD_REVOCATION_CHECK_CHAIN, CPD_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CPD_REVOCATION_CHECK_END_CERT, CPD_REVOCATION_CHECK_NONE, CPD_USE_NT5_CHAIN_FLAG, CRYPT_PROVIDER_DATA, CRYPT_PROVIDER_DATA structure [Security], PCRYPT_PROVIDER_DATA, PCRYPT_PROVIDER_DATA structure pointer [Security], _CRYPT_PROVIDER_DATA, security.crypt_provider_data, wintrust/CRYPT_PROVIDER_DATA, wintrust/PCRYPT_PROVIDER_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -165,6 +165,11 @@ A pointer to an array of <a href="https://msdn.microsoft.com/499e4d9b-991a-4317-
 A value that specifies the subject choice.
 
 
+### -field pPDSip
+
+A pointer to a <b>_PROVDATA_SIP</b> structure.
+
+
 ### -field pszUsageOID
 
 A pointer to a null-terminated string that contains the usage <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
@@ -289,9 +294,4 @@ A <b>DWORD</b> value that specifies state data that is passed between a trust pr
  
 
 
-
-
-#### - pPDSip
-
-A pointer to a <b>_PROVDATA_SIP</b> structure.
 

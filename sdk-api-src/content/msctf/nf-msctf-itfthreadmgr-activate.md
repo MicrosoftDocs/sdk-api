@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.Activate
-title: ITfThreadMgr::Activate method
+title: ITfThreadMgr::Activate
 author: windows-driver-content
 description: ITfThreadMgr::Activate method
 old-location: tsf\itfthreadmgr_activate.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: bd9058c0-55b0-4231-a336-7cea4db75c0f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Activate method [Text Services Framework], Activate method [Text Services Framework], ITfThreadMgr interface, Activate,ITfThreadMgr.Activate, ITfThreadMgr, ITfThreadMgr interface [Text Services Framework], Activate method, ITfThreadMgr::Activate, _tsf_itfthreadmgr_activate_ref, msctf/ITfThreadMgr::Activate, tsf.itfthreadmgr_activate
+ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],Activate method, ITfThreadMgr.Activate, ITfThreadMgr::Activate, _tsf_itfthreadmgr_activate_ref, msctf/ITfThreadMgr::Activate, tsf.itfthreadmgr_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr::Activate method
+# ITfThreadMgr::Activate
 
 
 ## -description

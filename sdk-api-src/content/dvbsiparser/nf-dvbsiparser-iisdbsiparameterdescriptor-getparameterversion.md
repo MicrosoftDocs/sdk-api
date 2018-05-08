@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetParameterVersion
-title: IIsdbSIParameterDescriptor::GetParameterVersion method
+title: IIsdbSIParameterDescriptor::GetParameterVersion
 author: windows-driver-content
 description: Gets the version number of a parameter from a service information (SI) parameter descriptor. This version number is incremented by one each time the parameter is updated.
 old-location: mstv\iisdbsiparameterdescriptor_getparameterversion.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8ca9d5d3-d96f-4437-9d22-0166a3fbc593
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetParameterVersion method [Microsoft TV Technologies], GetParameterVersion method [Microsoft TV Technologies], IIsdbSIParameterDescriptor interface, GetParameterVersion,IIsdbSIParameterDescriptor.GetParameterVersion, IIsdbSIParameterDescriptor, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies], GetParameterVersion method, IIsdbSIParameterDescriptor::GetParameterVersion, dvbsiparser/IIsdbSIParameterDescriptor::GetParameterVersion, mstv.iisdbsiparameterdescriptor_getparameterversion
+ms.keywords: GetParameterVersion, GetParameterVersion method [Microsoft TV Technologies], GetParameterVersion method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetParameterVersion method, IIsdbSIParameterDescriptor.GetParameterVersion, IIsdbSIParameterDescriptor::GetParameterVersion, dvbsiparser/IIsdbSIParameterDescriptor::GetParameterVersion, mstv.iisdbsiparameterdescriptor_getparameterversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbSIParameterDescriptor::GetParameterVersion method
+# IIsdbSIParameterDescriptor::GetParameterVersion
 
 
 ## -description

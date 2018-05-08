@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetBackupSucceeded
-title: IVssBackupComponents::SetBackupSucceeded method
+title: IVssBackupComponents::SetBackupSucceeded
 author: windows-driver-content
 description: The SetBackupSucceeded method indicates whether the backup of the specified component of a specific writer was successful.
 old-location: base\ivssbackupcomponents_setbackupsucceeded.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 5565183d-f374-4796-a399-b008041afdd2
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], SetBackupSucceeded method, IVssBackupComponents::SetBackupSucceeded, SetBackupSucceeded method [VSS], SetBackupSucceeded method [VSS], IVssBackupComponents interface, SetBackupSucceeded,IVssBackupComponents.SetBackupSucceeded, _win32_ivssbackupcomponents_setbackupsucceeded, base.ivssbackupcomponents_setbackupsucceeded, vsbackup/IVssBackupComponents::SetBackupSucceeded
+ms.keywords: IVssBackupComponents interface [VSS],SetBackupSucceeded method, IVssBackupComponents.SetBackupSucceeded, IVssBackupComponents::SetBackupSucceeded, SetBackupSucceeded, SetBackupSucceeded method [VSS], SetBackupSucceeded method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupsucceeded, base.ivssbackupcomponents_setbackupsucceeded, vsbackup/IVssBackupComponents::SetBackupSucceeded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::SetBackupSucceeded method
+# IVssBackupComponents::SetBackupSucceeded
 
 
 ## -description

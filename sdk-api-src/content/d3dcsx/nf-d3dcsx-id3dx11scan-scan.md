@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11Scan.Scan
-title: ID3DX11Scan::Scan method
+title: ID3DX11Scan::Scan
 author: windows-driver-content
 description: Performs an unsegmented scan of a sequence.
 old-location: direct3d11\id3dx11scan_scan.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 42b91efd-3d84-4c76-bb9f-da0f398da6c7
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 4ae96918-c884-060a-690a-7632d7df6622, ID3DX11Scan, ID3DX11Scan interface [Direct3D 11], Scan method, ID3DX11Scan::Scan, Scan method [Direct3D 11], Scan method [Direct3D 11], ID3DX11Scan interface, Scan,ID3DX11Scan.Scan, d3dcsx/ID3DX11Scan::Scan, direct3d11.id3dx11scan_scan
+ms.keywords: 4ae96918-c884-060a-690a-7632d7df6622, ID3DX11Scan interface [Direct3D 11],Scan method, ID3DX11Scan.Scan, ID3DX11Scan::Scan, Scan, Scan method [Direct3D 11], Scan method [Direct3D 11],ID3DX11Scan interface, d3dcsx/ID3DX11Scan::Scan, direct3d11.id3dx11scan_scan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3DX11Scan::Scan method
+# ID3DX11Scan::Scan
 
 
 ## -description

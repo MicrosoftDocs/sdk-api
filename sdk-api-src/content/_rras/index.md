@@ -1,0 +1,30 @@
+---
+UID: TP:rras
+ms.assetid: 81dd190f-fadb-3fe6-8776-f89b1ee3e540
+ms.author: windowsdriverdev
+ms.date: 05/07/18
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: portal
+---
+
+# Routing and Remote Access Service
+
+
+
+Overview of the Routing and Remote Access Service technology.
+
+To develop Routing and Remote Access Service, you need these headers:
+
+ * [ipxrtdef.h](..\ipxrtdef\index.md)
+ * [mgm.h](..\mgm\index.md)
+ * [mprapi.h](..\mprapi\index.md)
+ * [ras.h](..\ras\index.md)
+ * [rasdlg.h](..\rasdlg\index.md)
+ * [rasshost.h](..\rasshost\index.md)
+ * [routprot.h](..\routprot\index.md)
+ * [rtmv2.h](..\rtmv2\index.md)
+ * [stm.h](..\stm\index.md)
+
+For the programming guide, see [Routing and Remote Access Service](https://review.docs.microsoft.com/en-us/win32-test/rras).

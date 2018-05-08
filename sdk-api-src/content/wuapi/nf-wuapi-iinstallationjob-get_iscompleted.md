@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationJob.get_IsCompleted
-title: IInstallationJob::get_IsCompleted method
+title: IInstallationJob::get_IsCompleted
 author: windows-driver-content
 description: Gets a value that indicates whether a call to the IUpdateInstaller.BeginInstall or IUpdateInstaller.BeginUninstall method is completely processed.
 old-location: wua\iinstallationjob_iscompleted.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 043e1f6a-993c-48be-9d91-7f99cd5712d4
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IInstallationJob, IInstallationJob interface [Windows Update Agent], IsCompleted property, IInstallationJob.IsCompleted, IInstallationJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent], IInstallationJob interface, get_IsCompleted,IInstallationJob.get_IsCompleted, wua.iinstallationjob_iscompleted, wuapi/IInstallationJob::IsCompleted, wuapi/IInstallationJob::get_IsCompleted
+ms.keywords: IInstallationJob interface [Windows Update Agent],IsCompleted property, IInstallationJob.IsCompleted, IInstallationJob.get_IsCompleted, IInstallationJob::IsCompleted, IInstallationJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent],IInstallationJob interface, get_IsCompleted, wua.iinstallationjob_iscompleted, wuapi/IInstallationJob::IsCompleted, wuapi/IInstallationJob::get_IsCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInstallationJob::get_IsCompleted method
+# IInstallationJob::get_IsCompleted
 
 
 ## -description

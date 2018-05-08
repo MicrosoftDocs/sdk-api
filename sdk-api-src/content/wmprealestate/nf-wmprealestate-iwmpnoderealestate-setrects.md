@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPNodeRealEstate.SetRects
-title: IWMPNodeRealEstate::SetRects method
+title: IWMPNodeRealEstate::SetRects
 author: windows-driver-content
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
 old-location: wmp\iwmpnoderealestate_setrects.htm
 old-project: WMP
 ms.assetid: 0742cef9-192b-4680-83e5-350e7024a042
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNodeRealEstate, IWMPNodeRealEstate interface [Windows Media Player], SetRects method, IWMPNodeRealEstate::SetRects, IWMPNodeRealEstateSetRectsRendering, SetRects method [Windows Media Player], SetRects method [Windows Media Player], IWMPNodeRealEstate interface, SetRects,IWMPNodeRealEstate.SetRects, wmp.iwmpnoderealestate_setrects, wmprealestate/IWMPNodeRealEstate::SetRects
+ms.date: 5/2/2018
+ms.keywords: IWMPNodeRealEstate interface [Windows Media Player],SetRects method, IWMPNodeRealEstate.SetRects, IWMPNodeRealEstate::SetRects, IWMPNodeRealEstateSetRectsRendering, SetRects, SetRects method [Windows Media Player], SetRects method [Windows Media Player],IWMPNodeRealEstate interface, wmp.iwmpnoderealestate_setrects, wmprealestate/IWMPNodeRealEstate::SetRects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNodeRealEstate::SetRects method
+# IWMPNodeRealEstate::SetRects
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._UIActivateView
-title: IBrowserService2::_UIActivateView method
+title: IBrowserService2::_UIActivateView
 author: windows-driver-content
 description: Deprecated. Allows a derived class to request that the base class update the browser view.
 old-location: shell\IBrowserService2__UIActivateView.htm
 old-project: shell
 ms.assetid: 9c8439f8-5931-4aca-8085-2707b6f964f0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _UIActivateView method, IBrowserService2::_UIActivateView, _UIActivateView method [Windows Shell], _UIActivateView method [Windows Shell], IBrowserService2 interface, _UIActivateView,IBrowserService2._UIActivateView, shdeprecated/IBrowserService2::_UIActivateView, shell.IBrowserService2__UIActivateView, zone_IBrowserService2__UIActivateView
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],_UIActivateView method, IBrowserService2._UIActivateView, IBrowserService2::_UIActivateView, _UIActivateView, _UIActivateView method [Windows Shell], _UIActivateView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_UIActivateView, shell.IBrowserService2__UIActivateView, zone_IBrowserService2__UIActivateView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::_UIActivateView method
+# IBrowserService2::_UIActivateView
 
 
 ## -description

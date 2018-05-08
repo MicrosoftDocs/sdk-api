@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicVideo.get_SourceWidth
-title: IBasicVideo::get_SourceWidth method
+title: IBasicVideo::get_SourceWidth
 author: windows-driver-content
 description: The get_SourceWidth method retrieves the width of the source rectangle.
 old-location: dshow\ibasicvideo_get_sourcewidth.htm
 old-project: DirectShow
 ms.assetid: 6c6f7e01-5f93-4277-b664-c5be0ea42004
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], get_SourceWidth method, IBasicVideo::get_SourceWidth, IBasicVideoget_SourceWidth, control/IBasicVideo::get_SourceWidth, dshow.ibasicvideo_get_sourcewidth, get_SourceWidth method [DirectShow], get_SourceWidth method [DirectShow], IBasicVideo interface, get_SourceWidth,IBasicVideo.get_SourceWidth
+ms.date: 4/30/2018
+ms.keywords: IBasicVideo interface [DirectShow],get_SourceWidth method, IBasicVideo.get_SourceWidth, IBasicVideo::get_SourceWidth, IBasicVideoget_SourceWidth, control/IBasicVideo::get_SourceWidth, dshow.ibasicvideo_get_sourcewidth, get_SourceWidth, get_SourceWidth method [DirectShow], get_SourceWidth method [DirectShow],IBasicVideo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicVideo::get_SourceWidth method
+# IBasicVideo::get_SourceWidth
 
 
 ## -description

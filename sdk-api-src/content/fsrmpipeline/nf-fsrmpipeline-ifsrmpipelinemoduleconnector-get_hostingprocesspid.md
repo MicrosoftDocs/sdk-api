@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.get_HostingProcessPid
-title: IFsrmPipelineModuleConnector::get_HostingProcessPid method
+title: IFsrmPipelineModuleConnector::get_HostingProcessPid
 author: windows-driver-content
 description: The process identifier of the module.
 old-location: fsrm\ifsrmpipelinemoduleconnector_hostingprocesspid.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: bd9259de-35e4-46e9-9994-388c3ac77172
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager], HostingProcessPid property, HostingProcessPid property [File Server Resource Manager], HostingProcessPid property [File Server Resource Manager], FsrmPipelineModuleConnector class, HostingProcessPid property [File Server Resource Manager], IFsrmPipelineModuleConnector interface, IFsrmPipelineModuleConnector, IFsrmPipelineModuleConnector interface [File Server Resource Manager], HostingProcessPid property, IFsrmPipelineModuleConnector.HostingProcessPid, IFsrmPipelineModuleConnector::get_HostingProcessPid, fs.ifsrmpipelinemoduleconnector_hostingprocesspid, fsrm.ifsrmpipelinemoduleconnector_hostingprocesspid, fsrmpipeline/IFsrmPipelineModuleConnector::HostingProcessPid, fsrmpipeline/IFsrmPipelineModuleConnector::get_HostingProcessPid, get_HostingProcessPid,IFsrmPipelineModuleConnector.get_HostingProcessPid
+ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],HostingProcessPid property, HostingProcessPid property [File Server Resource Manager], HostingProcessPid property [File Server Resource Manager],FsrmPipelineModuleConnector class, HostingProcessPid property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, IFsrmPipelineModuleConnector interface [File Server Resource Manager],HostingProcessPid property, IFsrmPipelineModuleConnector.HostingProcessPid, IFsrmPipelineModuleConnector.get_HostingProcessPid, IFsrmPipelineModuleConnector::HostingProcessPid, IFsrmPipelineModuleConnector::get_HostingProcessPid, fs.ifsrmpipelinemoduleconnector_hostingprocesspid, fsrm.ifsrmpipelinemoduleconnector_hostingprocesspid, fsrmpipeline/IFsrmPipelineModuleConnector::HostingProcessPid, fsrmpipeline/IFsrmPipelineModuleConnector::get_HostingProcessPid, get_HostingProcessPid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPipelineModuleConnector::get_HostingProcessPid method
+# IFsrmPipelineModuleConnector::get_HostingProcessPid
 
 
 ## -description

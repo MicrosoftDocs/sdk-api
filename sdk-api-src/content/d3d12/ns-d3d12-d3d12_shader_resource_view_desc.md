@@ -81,70 +81,70 @@ Describes a shader-resource view.
           
 
 
-#### - Buffer
+### -field Buffer
 
 
               A <a href="https://msdn.microsoft.com/FD5FBA65-4C70-487F-8D93-0EC5668BCE4A">D3D12_BUFFER_SRV</a> structure that views the resource as a buffer.
             
 
 
-#### - Texture1D
+### -field Texture1D
 
 
               A <a href="https://msdn.microsoft.com/552DC1C1-8FFB-4BFC-8781-78B287CB70BD">D3D12_TEX1D_SRV</a> structure that views the resource as a 1D texture.
             
 
 
-#### - Texture1DArray
+### -field Texture1DArray
 
 
               A <a href="https://msdn.microsoft.com/12931858-3E3C-4D4E-9459-7C15A73A485B">D3D12_TEX1D_ARRAY_SRV</a> structure that views the resource as a 1D-texture array.
             
 
 
-#### - Texture2D
+### -field Texture2D
 
 
               A <a href="https://msdn.microsoft.com/BBD60A25-99C7-4C11-87F0-9E1D678EC44E">D3D12_TEX2D_SRV</a> structure that views the resource as a 2D-texture.
             
 
 
-#### - Texture2DArray
+### -field Texture2DArray
 
 
               A <a href="https://msdn.microsoft.com/D3854008-0BB8-4284-A89F-A13DB85BB911">D3D12_TEX2D_ARRAY_SRV</a> structure that views the resource as a 2D-texture array.
             
 
 
-#### - Texture2DMS
+### -field Texture2DMS
 
 
               A <a href="https://msdn.microsoft.com/65D0AC4E-E9D3-4D99-835C-AD9ED7528A1A">D3D12_TEX2DMS_SRV</a> structure that views the resource as a 2D-multisampled texture.
             
 
 
-#### - Texture2DMSArray
+### -field Texture2DMSArray
 
 
               A <a href="https://msdn.microsoft.com/2AA430ED-4CE8-4EBD-9541-6EE0FFBA3873">D3D12_TEX2DMS_ARRAY_SRV</a> structure that views the resource as a 2D-multisampled-texture array.
             
 
 
-#### - Texture3D
+### -field Texture3D
 
 
               A <a href="https://msdn.microsoft.com/21133B2B-7E12-489A-9AD6-4ACB6E6BAABC">D3D12_TEX3D_SRV</a> structure that views the resource as a 3D texture.
             
 
 
-#### - TextureCube
+### -field TextureCube
 
 
               A <a href="https://msdn.microsoft.com/0924DE2B-73AE-473D-A35B-2DC8D8DBFC49">D3D12_TEXCUBE_SRV</a> structure that views the resource as a 3D-cube texture.
             
 
 
-#### - TextureCubeArray
+### -field TextureCubeArray
 
 
               A <a href="https://msdn.microsoft.com/58DDCEB5-A0B7-4E8D-ABE2-3B5B02C92D8D">D3D12_TEXCUBE_ARRAY_SRV</a> structure that views the resource as a 3D-cube-texture array.

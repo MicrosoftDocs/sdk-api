@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetAppendWindowEnd
-title: IMFSourceBuffer::GetAppendWindowEnd method
+title: IMFSourceBuffer::GetAppendWindowEnd
 author: windows-driver-content
 description: Gets the timestamp for the end of the append window.
 old-location: mf\imfsourcebuffer_getappendwindowend.htm
 old-project: medfound
 ms.assetid: ac9806ca-8529-48be-8b5a-ae0126d8554d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetAppendWindowEnd method [Media Foundation], GetAppendWindowEnd method [Media Foundation], IMFSourceBuffer interface, GetAppendWindowEnd,IMFSourceBuffer.GetAppendWindowEnd, IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], GetAppendWindowEnd method, IMFSourceBuffer::GetAppendWindowEnd, mf.imfsourcebuffer_getappendwindowend, mfmediaengine/IMFSourceBuffer::GetAppendWindowEnd
+ms.date: 5/3/2018
+ms.keywords: GetAppendWindowEnd, GetAppendWindowEnd method [Media Foundation], GetAppendWindowEnd method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetAppendWindowEnd method, IMFSourceBuffer.GetAppendWindowEnd, IMFSourceBuffer::GetAppendWindowEnd, mf.imfsourcebuffer_getappendwindowend, mfmediaengine/IMFSourceBuffer::GetAppendWindowEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceBuffer::GetAppendWindowEnd method
+# IMFSourceBuffer::GetAppendWindowEnd
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_Task
-title: IFsrmReportJob::get_Task method
+title: IFsrmReportJob::get_Task
 author: windows-driver-content
 description: Retrieves or sets the name of the report job.
 old-location: fsrm\ifsrmreportjob_task.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 2c9ceaca-f696-4506-bc25-efd601522560
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], Task property, IFsrmReportJob.Task, IFsrmReportJob::get_Task, IFsrmReportJob::put_Task, Task property [File Server Resource Manager], Task property [File Server Resource Manager], IFsrmReportJob interface, fs.ifsrmreportjob_task, fsrm.ifsrmreportjob_task, fsrmreports/IFsrmReportJob::Task, fsrmreports/IFsrmReportJob::get_Task, fsrmreports/IFsrmReportJob::put_Task, get_Task,IFsrmReportJob.get_Task
+ms.keywords: IFsrmReportJob interface [File Server Resource Manager],Task property, IFsrmReportJob.Task, IFsrmReportJob.get_Task, IFsrmReportJob::Task, IFsrmReportJob::get_Task, IFsrmReportJob::put_Task, Task property [File Server Resource Manager], Task property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_task, fsrm.ifsrmreportjob_task, fsrmreports/IFsrmReportJob::Task, fsrmreports/IFsrmReportJob::get_Task, fsrmreports/IFsrmReportJob::put_Task, get_Task
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReportJob::get_Task method
+# IFsrmReportJob::get_Task
 
 
 ## -description

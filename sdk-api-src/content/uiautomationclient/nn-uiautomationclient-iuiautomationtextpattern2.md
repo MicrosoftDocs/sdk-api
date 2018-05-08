@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: E7160CDD-9A83-42F9-9F7B-8A8C13849E20
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationTextPattern2, IUIAutomationTextPattern2 interface [Windows Accessibility], IUIAutomationTextPattern2 interface [Windows Accessibility], described, uiautomationclient/IUIAutomationTextPattern2, winauto.uiauto_iuiautomationtextpattern2
+ms.keywords: IUIAutomationTextPattern2, IUIAutomationTextPattern2 interface [Windows Accessibility], IUIAutomationTextPattern2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextPattern2, winauto.uiauto_iuiautomationtextpattern2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

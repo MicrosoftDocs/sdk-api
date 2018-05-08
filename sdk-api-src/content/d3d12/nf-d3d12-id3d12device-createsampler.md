@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateSampler
-title: ID3D12Device::CreateSampler method
+title: ID3D12Device::CreateSampler
 author: windows-driver-content
 description: Create a sampler object that encapsulates sampling information for a texture.
 old-location: direct3d12\id3d12device_createsampler.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 453B2D3D-843E-4DB0-BC47-59BD9C78BFD6
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateSampler method, CreateSampler method, ID3D12Device interface, CreateSampler,ID3D12Device.CreateSampler, ID3D12Device, ID3D12Device interface, CreateSampler method, ID3D12Device::CreateSampler, d3d12/ID3D12Device::CreateSampler, direct3d12.id3d12device_createsampler
+ms.keywords: CreateSampler, CreateSampler method, CreateSampler method,ID3D12Device interface, ID3D12Device interface,CreateSampler method, ID3D12Device.CreateSampler, ID3D12Device::CreateSampler, d3d12/ID3D12Device::CreateSampler, direct3d12.id3d12device_createsampler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CreateSampler method
+# ID3D12Device::CreateSampler
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetType
-title: IBackgroundCopyJob::GetType method
+title: IBackgroundCopyJob::GetType
 author: windows-driver-content
 description: Retrieves the type of transfer being performed, such as a file download or upload.
 old-location: bits\ibackgroundcopyjob_gettype.htm
 old-project: Bits
 ms.assetid: b84c45c2-379a-40d0-91ab-0124f0ef6b00
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetType method [BITS], GetType method [BITS], IBackgroundCopyJob interface, GetType,IBackgroundCopyJob.GetType, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetType method, IBackgroundCopyJob::GetType, _drz_ibackgroundcopyjob_gettype, bits.ibackgroundcopyjob_gettype, bits/IBackgroundCopyJob::GetType
+ms.date: 4/27/2018
+ms.keywords: GetType, GetType method [BITS], GetType method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetType method, IBackgroundCopyJob.GetType, IBackgroundCopyJob::GetType, _drz_ibackgroundcopyjob_gettype, bits.ibackgroundcopyjob_gettype, bits/IBackgroundCopyJob::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::GetType method
+# IBackgroundCopyJob::GetType
 
 
 ## -description

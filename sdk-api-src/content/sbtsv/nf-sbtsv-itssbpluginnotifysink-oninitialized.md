@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbPluginNotifySink.OnInitialized
-title: ITsSbPluginNotifySink::OnInitialized method
+title: ITsSbPluginNotifySink::OnInitialized
 author: windows-driver-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of Initialize.
 old-location: termserv\itssbpluginnotifysink_oninitialized.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 2fe468c9-457f-4a56-aaf9-4eb48fec8720
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbPluginNotifySink, ITsSbPluginNotifySink interface [Remote Desktop Services], OnInitialized method, ITsSbPluginNotifySink::OnInitialized, OnInitialized method [Remote Desktop Services], OnInitialized method [Remote Desktop Services], ITsSbPluginNotifySink interface, OnInitialized,ITsSbPluginNotifySink.OnInitialized, sbtsv/ITsSbPluginNotifySink::OnInitialized, termserv.itssbpluginnotifysink_oninitialized
+ms.keywords: ITsSbPluginNotifySink interface [Remote Desktop Services],OnInitialized method, ITsSbPluginNotifySink.OnInitialized, ITsSbPluginNotifySink::OnInitialized, OnInitialized, OnInitialized method [Remote Desktop Services], OnInitialized method [Remote Desktop Services],ITsSbPluginNotifySink interface, sbtsv/ITsSbPluginNotifySink::OnInitialized, termserv.itssbpluginnotifysink_oninitialized
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbPluginNotifySink::OnInitialized method
+# ITsSbPluginNotifySink::OnInitialized
 
 
 ## -description

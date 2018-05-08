@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetType
-title: IOpcSignatureReference::GetType method
+title: IOpcSignatureReference::GetType
 author: windows-driver-content
 description: Gets a string that indicates the type of the referenced XML element.
 old-location: opc\iopcsignaturereference_gettype.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 7402f031-b06c-4fc6-bb54-ad9fc28600b3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetType method [Open Packaging Conventions], GetType method [Open Packaging Conventions], IOpcSignatureReference interface, GetType,IOpcSignatureReference.GetType, IOpcSignatureReference, IOpcSignatureReference interface [Open Packaging Conventions], GetType method, IOpcSignatureReference::GetType, msopc/IOpcSignatureReference::GetType, opc.iopcsignaturereference_gettype
+ms.keywords: GetType, GetType method [Open Packaging Conventions], GetType method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetType method, IOpcSignatureReference.GetType, IOpcSignatureReference::GetType, msopc/IOpcSignatureReference::GetType, opc.iopcsignaturereference_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureReference::GetType method
+# IOpcSignatureReference::GetType
 
 
 ## -description

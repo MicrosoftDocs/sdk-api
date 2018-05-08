@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth
-title: IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth method
+title: IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getbandwidth.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 60efabb7-82bd-4b1f-991e-854c1a8b75ce
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetBandwidth method [Microsoft TV Technologies], GetBandwidth method [Microsoft TV Technologies], IDvbTerrestrialDeliverySystemDescriptor interface, GetBandwidth,IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth, IDvbTerrestrialDeliverySystemDescriptor, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], GetBandwidth method, IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth, IDvbTerrestrialDeliverySystemDescriptorGetBandwidth, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth, mstv.idvbterrestrialdeliverysystemdescriptor_getbandwidth
+ms.keywords: GetBandwidth, GetBandwidth method [Microsoft TV Technologies], GetBandwidth method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetBandwidth method, IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth, IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth, IDvbTerrestrialDeliverySystemDescriptorGetBandwidth, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth, mstv.idvbterrestrialdeliverysystemdescriptor_getbandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth method
+# IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth
 
 
 ## -description

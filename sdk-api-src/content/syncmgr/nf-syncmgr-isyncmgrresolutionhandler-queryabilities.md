@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.QueryAbilities
-title: ISyncMgrResolutionHandler::QueryAbilities method
+title: ISyncMgrResolutionHandler::QueryAbilities
 author: windows-driver-content
 description: Determines what options the conflict presenter will display.
 old-location: shell\ISyncMgrResolutionHandler_QueryAbilities.htm
 old-project: shell
 ms.assetid: f178c4d9-0c83-4569-81fe-fe38ac13f0b5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrResolutionHandler, ISyncMgrResolutionHandler interface [Windows Shell], QueryAbilities method, ISyncMgrResolutionHandler::QueryAbilities, QueryAbilities method [Windows Shell], QueryAbilities method [Windows Shell], ISyncMgrResolutionHandler interface, QueryAbilities,ISyncMgrResolutionHandler.QueryAbilities, _shell_ISyncMgrResolutionHandler_QueryAbilities, shell.ISyncMgrResolutionHandler_QueryAbilities, syncmgr/ISyncMgrResolutionHandler::QueryAbilities
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],QueryAbilities method, ISyncMgrResolutionHandler.QueryAbilities, ISyncMgrResolutionHandler::QueryAbilities, QueryAbilities, QueryAbilities method [Windows Shell], QueryAbilities method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_QueryAbilities, shell.ISyncMgrResolutionHandler_QueryAbilities, syncmgr/ISyncMgrResolutionHandler::QueryAbilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrResolutionHandler::QueryAbilities method
+# ISyncMgrResolutionHandler::QueryAbilities
 
 
 ## -description

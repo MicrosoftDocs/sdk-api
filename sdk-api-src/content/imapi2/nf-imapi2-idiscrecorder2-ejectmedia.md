@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.EjectMedia
-title: IDiscRecorder2::EjectMedia method
+title: IDiscRecorder2::EjectMedia
 author: windows-driver-content
 description: Ejects media from the device.
 old-location: imapi\idiscrecorder2_ejectmedia.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d8fc55d7-0840-4090-a653-eb38d3f37fac
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: EjectMedia method [IMAPI], EjectMedia method [IMAPI], IDiscRecorder2 interface, EjectMedia,IDiscRecorder2.EjectMedia, IDiscRecorder2, IDiscRecorder2 interface [IMAPI], EjectMedia method, IDiscRecorder2::EjectMedia, imapi.idiscrecorder2_ejectmedia, imapi2/IDiscRecorder2::EjectMedia
+ms.keywords: EjectMedia, EjectMedia method [IMAPI], EjectMedia method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],EjectMedia method, IDiscRecorder2.EjectMedia, IDiscRecorder2::EjectMedia, imapi.idiscrecorder2_ejectmedia, imapi2/IDiscRecorder2::EjectMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2::EjectMedia method
+# IDiscRecorder2::EjectMedia
 
 
 ## -description

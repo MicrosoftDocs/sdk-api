@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.AddAudioTrack
-title: IDiscFormat2TrackAtOnce::AddAudioTrack method
+title: IDiscFormat2TrackAtOnce::AddAudioTrack
 author: windows-driver-content
 description: Writes the data stream to the current media as a new track.
 old-location: imapi\idiscformat2trackatonce_addaudiotrack.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 3ac74b91-b0c7-471f-b6a9-1393d677e0c1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddAudioTrack method [IMAPI], AddAudioTrack method [IMAPI], IDiscFormat2TrackAtOnce interface, AddAudioTrack,IDiscFormat2TrackAtOnce.AddAudioTrack, IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], AddAudioTrack method, IDiscFormat2TrackAtOnce::AddAudioTrack, imapi.idiscformat2trackatonce_addaudiotrack, imapi2/IDiscFormat2TrackAtOnce::AddAudioTrack
+ms.keywords: AddAudioTrack, AddAudioTrack method [IMAPI], AddAudioTrack method [IMAPI],IDiscFormat2TrackAtOnce interface, IDiscFormat2TrackAtOnce interface [IMAPI],AddAudioTrack method, IDiscFormat2TrackAtOnce.AddAudioTrack, IDiscFormat2TrackAtOnce::AddAudioTrack, imapi.idiscformat2trackatonce_addaudiotrack, imapi2/IDiscFormat2TrackAtOnce::AddAudioTrack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2TrackAtOnce::AddAudioTrack method
+# IDiscFormat2TrackAtOnce::AddAudioTrack
 
 
 ## -description

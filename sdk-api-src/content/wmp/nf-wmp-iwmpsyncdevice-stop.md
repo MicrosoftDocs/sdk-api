@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.stop
-title: IWMPSyncDevice::stop method
+title: IWMPSyncDevice::stop
 author: windows-driver-content
 description: The stop method ends synchronization.
 old-location: wmp\iwmpsyncdevice_stop.htm
 old-project: WMP
 ms.assetid: 30e6787e-851b-420c-934c-5f8e5e4d83df
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], stop method, IWMPSyncDevice::stop, IWMPSyncDevicestop, stop method [Windows Media Player], stop method [Windows Media Player], IWMPSyncDevice interface, stop,IWMPSyncDevice.stop, wmp.iwmpsyncdevice_stop, wmp/IWMPSyncDevice::stop
+ms.date: 5/4/2018
+ms.keywords: IWMPSyncDevice interface [Windows Media Player],stop method, IWMPSyncDevice.stop, IWMPSyncDevice::stop, IWMPSyncDevicestop, stop, stop method [Windows Media Player], stop method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_stop, wmp/IWMPSyncDevice::stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSyncDevice::stop method
+# IWMPSyncDevice::stop
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f37d3abb-e8ad-4aae-884a-1c6c4fa445e2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], described, mstv.imsvidaudiorendererevent2, segment/IMSVidAudioRendererEvent2
+ms.keywords: IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidaudiorendererevent2, segment/IMSVidAudioRendererEvent2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

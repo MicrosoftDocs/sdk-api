@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumChangeUnitExceptions.Next
-title: IEnumChangeUnitExceptions::Next method
+title: IEnumChangeUnitExceptions::Next
 author: windows-driver-content
 description: Returns the next elements in the change unit exception set, if they are available.
 old-location: winsync\ienumchangeunitexceptions_next.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 97bf473d-4e63-4192-a5d8-b802d5887a55
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumChangeUnitExceptions, IEnumChangeUnitExceptions interface [Windows Sync], Next method, IEnumChangeUnitExceptions::Next, Next method [Windows Sync], Next method [Windows Sync], IEnumChangeUnitExceptions interface, Next,IEnumChangeUnitExceptions.Next, winsync.ienumchangeunitexceptions_next, winsync/IEnumChangeUnitExceptions::Next
+ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Next method, IEnumChangeUnitExceptions.Next, IEnumChangeUnitExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_next, winsync/IEnumChangeUnitExceptions::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumChangeUnitExceptions::Next method
+# IEnumChangeUnitExceptions::Next
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetHigherHypotheses
-title: INetDiagHelper::GetHigherHypotheses method
+title: INetDiagHelper::GetHigherHypotheses
 author: windows-driver-content
 description: Generate hypotheses for possible causes of high utilization.
 old-location: ndf\inetdiaghelpe_gethigherhypotheses.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 608b1752-4bf9-4a7d-bc20-82d89b33b306
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetHigherHypotheses method [NDF], GetHigherHypotheses method [NDF], INetDiagHelper interface, GetHigherHypotheses,INetDiagHelper.GetHigherHypotheses, INetDiagHelper, INetDiagHelper interface [NDF], GetHigherHypotheses method, INetDiagHelper::GetHigherHypotheses, ndf.inetdiaghelpe_gethigherhypotheses, ndhelper/INetDiagHelper::GetHigherHypotheses
+ms.keywords: GetHigherHypotheses, GetHigherHypotheses method [NDF], GetHigherHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetHigherHypotheses method, INetDiagHelper.GetHigherHypotheses, INetDiagHelper::GetHigherHypotheses, ndf.inetdiaghelpe_gethigherhypotheses, ndhelper/INetDiagHelper::GetHigherHypotheses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::GetHigherHypotheses method
+# INetDiagHelper::GetHigherHypotheses
 
 
 ## -description

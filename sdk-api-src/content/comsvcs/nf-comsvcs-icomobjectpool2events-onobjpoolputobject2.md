@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectPool2Events.OnObjPoolPutObject2
-title: IComObjectPool2Events::OnObjPoolPutObject2 method
+title: IComObjectPool2Events::OnObjPoolPutObject2
 author: windows-driver-content
 description: Generated when an object is added to the pool.
 old-location: cos\icomobjectpool2events_onobjpoolputobject2.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 5a0cfbd2-d88c-4773-96e5-0e97767d647d
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComObjectPool2Events, IComObjectPool2Events interface [COM+], OnObjPoolPutObject2 method, IComObjectPool2Events::OnObjPoolPutObject2, OnObjPoolPutObject2 method [COM+], OnObjPoolPutObject2 method [COM+], IComObjectPool2Events interface, OnObjPoolPutObject2,IComObjectPool2Events.OnObjPoolPutObject2, _dtc_IComObjectPool2Events_OnObjPoolPutObject2, comsvcs/IComObjectPool2Events::OnObjPoolPutObject2, cos.icomobjectpool2events_onobjpoolputobject2
+ms.keywords: IComObjectPool2Events interface [COM+],OnObjPoolPutObject2 method, IComObjectPool2Events.OnObjPoolPutObject2, IComObjectPool2Events::OnObjPoolPutObject2, OnObjPoolPutObject2, OnObjPoolPutObject2 method [COM+], OnObjPoolPutObject2 method [COM+],IComObjectPool2Events interface, _dtc_IComObjectPool2Events_OnObjPoolPutObject2, comsvcs/IComObjectPool2Events::OnObjPoolPutObject2, cos.icomobjectpool2events_onobjpoolputobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComObjectPool2Events::OnObjPoolPutObject2 method
+# IComObjectPool2Events::OnObjPoolPutObject2
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnit.get_DivisionType
-title: IInkDivisionUnit::get_DivisionType method
+title: IInkDivisionUnit::get_DivisionType
 author: windows-driver-content
 description: Gets the type of structural unit the IInkDivisionUnit object represents within the analysis results.
 old-location: tablet\iinkdivisionunit_divisiontype.htm
 old-project: tablet
 ms.assetid: c1aaaa62-34fc-4cd4-bd68-47f828bb59b1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: DivisionType property [Tablet PC], DivisionType property [Tablet PC], IInkDivisionUnit interface, IInkDivisionUnit, IInkDivisionUnit interface [Tablet PC], DivisionType property, IInkDivisionUnit.DivisionType, IInkDivisionUnit.get_DivisionType, IInkDivisionUnit::get_DivisionType, c1aaaa62-34fc-4cd4-bd68-47f828bb59b1, get_DivisionType,IInkDivisionUnit.get_DivisionType, msinkaut15/IInkDivisionUnit::DivisionType, msinkaut15/IInkDivisionUnit::get_DivisionType, tablet.iinkdivisionunit_divisiontype
+ms.date: 5/2/2018
+ms.keywords: DivisionType property [Tablet PC], DivisionType property [Tablet PC],IInkDivisionUnit interface, IInkDivisionUnit interface [Tablet PC],DivisionType property, IInkDivisionUnit.DivisionType, IInkDivisionUnit.get_DivisionType, IInkDivisionUnit::DivisionType, IInkDivisionUnit::get_DivisionType, c1aaaa62-34fc-4cd4-bd68-47f828bb59b1, get_DivisionType, msinkaut15/IInkDivisionUnit::DivisionType, msinkaut15/IInkDivisionUnit::get_DivisionType, tablet.iinkdivisionunit_divisiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkDivisionUnit::get_DivisionType method
+# IInkDivisionUnit::get_DivisionType
 
 
 ## -description

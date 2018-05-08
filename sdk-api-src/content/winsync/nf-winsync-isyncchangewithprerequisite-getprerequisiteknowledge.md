@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge
-title: ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge method
+title: ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge
 author: windows-driver-content
 description: Gets the minimum knowledge that a destination provider is required to have to process this change.
 old-location: winsync\isyncchangewithprerequisite_getprerequisiteknowledge.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 48aa9436-b708-4dad-9201-d57988baf749
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetPrerequisiteKnowledge method [Windows Sync], GetPrerequisiteKnowledge method [Windows Sync], ISyncChangeWithPrerequisite interface, GetPrerequisiteKnowledge,ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge, ISyncChangeWithPrerequisite, ISyncChangeWithPrerequisite interface [Windows Sync], GetPrerequisiteKnowledge method, ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge, winsync.isyncchangewithprerequisite_getprerequisiteknowledge, winsync/ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge
+ms.keywords: GetPrerequisiteKnowledge, GetPrerequisiteKnowledge method [Windows Sync], GetPrerequisiteKnowledge method [Windows Sync],ISyncChangeWithPrerequisite interface, ISyncChangeWithPrerequisite interface [Windows Sync],GetPrerequisiteKnowledge method, ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge, ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge, winsync.isyncchangewithprerequisite_getprerequisiteknowledge, winsync/ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge method
+# ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge
 
 
 ## -description

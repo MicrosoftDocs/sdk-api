@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.ISimpleAudioVolume.SetMasterVolume
-title: ISimpleAudioVolume::SetMasterVolume method
+title: ISimpleAudioVolume::SetMasterVolume
 author: windows-driver-content
 description: The SetMasterVolume method sets the master volume level for the audio session.
 old-location: coreaudio\isimpleaudiovolume_setmastervolume.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 895a8564-5f06-4e20-abcc-d960d4002eb0
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ISimpleAudioVolume, ISimpleAudioVolume interface [Core Audio], SetMasterVolume method, ISimpleAudioVolume::SetMasterVolume, ISimpleAudioVolumeSetMasterVolume, SetMasterVolume method [Core Audio], SetMasterVolume method [Core Audio], ISimpleAudioVolume interface, SetMasterVolume,ISimpleAudioVolume.SetMasterVolume, audioclient/ISimpleAudioVolume::SetMasterVolume, coreaudio.isimpleaudiovolume_setmastervolume
+ms.keywords: ISimpleAudioVolume interface [Core Audio],SetMasterVolume method, ISimpleAudioVolume.SetMasterVolume, ISimpleAudioVolume::SetMasterVolume, ISimpleAudioVolumeSetMasterVolume, SetMasterVolume, SetMasterVolume method [Core Audio], SetMasterVolume method [Core Audio],ISimpleAudioVolume interface, audioclient/ISimpleAudioVolume::SetMasterVolume, coreaudio.isimpleaudiovolume_setmastervolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISimpleAudioVolume::SetMasterVolume method
+# ISimpleAudioVolume::SetMasterVolume
 
 
 ## -description

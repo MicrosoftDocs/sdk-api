@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFByteStreamBuffering.SetBufferingParams
-title: IMFByteStreamBuffering::SetBufferingParams method
+title: IMFByteStreamBuffering::SetBufferingParams
 author: windows-driver-content
 description: Sets the buffering parameters.
 old-location: mf\imfbytestreambuffering_setbufferingparams.htm
 old-project: medfound
 ms.assetid: 033ea7d4-d669-497b-be37-a8c9a6584209
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 033ea7d4-d669-497b-be37-a8c9a6584209, IMFByteStreamBuffering, IMFByteStreamBuffering interface [Media Foundation], SetBufferingParams method, IMFByteStreamBuffering::SetBufferingParams, SetBufferingParams method [Media Foundation], SetBufferingParams method [Media Foundation], IMFByteStreamBuffering interface, SetBufferingParams,IMFByteStreamBuffering.SetBufferingParams, mf.imfbytestreambuffering_setbufferingparams, mfidl/IMFByteStreamBuffering::SetBufferingParams
+ms.date: 5/3/2018
+ms.keywords: 033ea7d4-d669-497b-be37-a8c9a6584209, IMFByteStreamBuffering interface [Media Foundation],SetBufferingParams method, IMFByteStreamBuffering.SetBufferingParams, IMFByteStreamBuffering::SetBufferingParams, SetBufferingParams, SetBufferingParams method [Media Foundation], SetBufferingParams method [Media Foundation],IMFByteStreamBuffering interface, mf.imfbytestreambuffering_setbufferingparams, mfidl/IMFByteStreamBuffering::SetBufferingParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStreamBuffering::SetBufferingParams method
+# IMFByteStreamBuffering::SetBufferingParams
 
 
 ## -description

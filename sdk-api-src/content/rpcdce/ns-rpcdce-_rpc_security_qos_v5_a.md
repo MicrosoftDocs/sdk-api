@@ -7,7 +7,7 @@ old-location: rpc\rpc_security_qos_v5.htm
 old-project: Rpc
 ms.assetid: 7032ECE6-1D38-4DB8-990D-2FA6F08371C1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: "*PRPC_SECURITY_QOS_V5_A, 0, PRPC_SECURITY_QOS_V5, PRPC_SECURITY_QOS_V5 structure pointer [RPC], RPC_C_AUTHN_INFO_TYPE_HTTP, RPC_C_IMP_LEVEL_ANONYMOUS, RPC_C_IMP_LEVEL_DEFAULT, RPC_C_IMP_LEVEL_DELEGATE, RPC_C_IMP_LEVEL_IDENTIFY, RPC_C_IMP_LEVEL_IMPERSONATE, RPC_C_QOS_CAPABILITIES_ANY_AUTHORITY, RPC_C_QOS_CAPABILITIES_DEFAULT, RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE, RPC_C_QOS_CAPABILITIES_LOCAL_MA_HINT, RPC_C_QOS_CAPABILITIES_MAKE_FULLSIC, RPC_C_QOS_CAPABILITIES_MUTUAL_AUTH, RPC_C_QOS_IDENTITY_DYNAMIC, RPC_C_QOS_IDENTITY_STATIC, RPC_SECURITY_QOS_V5, RPC_SECURITY_QOS_V5 structure [RPC], RPC_SECURITY_QOS_V5_A, _RPC_SECURITY_QOS_V5_A, _RPC_SECURITY_QOS_V5_W, rpc.rpc_security_qos_v5, rpcdce/PRPC_SECURITY_QOS_V5, rpcdce/RPC_SECURITY_QOS_V5"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -280,8 +280,7 @@ The <b>HttpCredentials</b> member of the <b>u</b> union points to a <a href="htt
 ### -field u
 
 
-
-#### HttpCredentials
+### -field u.HttpCredentials
 
 Additional set of credentials to pass to RPC, in the form of an <a href="https://msdn.microsoft.com/fdb7f42a-e545-4965-a44a-70d4631f1723">RPC_HTTP_TRANSPORT_CREDENTIALS</a> structure. Used when the  <b>AdditionalSecurityInfoType</b> member is set to RPC_C_AUTHN_INFO_TYPE_HTTP.
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectAngle
-title: IDvdControl2::SelectAngle method
+title: IDvdControl2::SelectAngle
 author: windows-driver-content
 description: The SelectAngle method sets the new angle when the DVD Navigator is in an angle block.
 old-location: dshow\idvdcontrol2_selectangle.htm
 old-project: DirectShow
 ms.assetid: 4acc06bc-efc3-46eb-bb71-4eb981048b36
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SelectAngle method, IDvdControl2::SelectAngle, IDvdControl2SelectAngle, SelectAngle method [DirectShow], SelectAngle method [DirectShow], IDvdControl2 interface, SelectAngle,IDvdControl2.SelectAngle, dshow.idvdcontrol2_selectangle, strmif/IDvdControl2::SelectAngle
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],SelectAngle method, IDvdControl2.SelectAngle, IDvdControl2::SelectAngle, IDvdControl2SelectAngle, SelectAngle, SelectAngle method [DirectShow], SelectAngle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectangle, strmif/IDvdControl2::SelectAngle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::SelectAngle method
+# IDvdControl2::SelectAngle
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControl.OnAmbientPropertyChange
-title: IOleControl::OnAmbientPropertyChange method
+title: IOleControl::OnAmbientPropertyChange
 author: windows-driver-content
 description: Informs a control that one or more of the container's ambient properties has changed.
 old-location: com\iolecontrol_onambientpropertychange.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 9ca43723-a14e-4f03-8eec-e10ab34ecb4d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleControl, IOleControl interface [COM], OnAmbientPropertyChange method, IOleControl::OnAmbientPropertyChange, OnAmbientPropertyChange method [COM], OnAmbientPropertyChange method [COM], IOleControl interface, OnAmbientPropertyChange,IOleControl.OnAmbientPropertyChange, _ctrl_iolecontrol_onambientpropertychange, com.iolecontrol_onambientpropertychange, ocidl/IOleControl::OnAmbientPropertyChange
+ms.keywords: IOleControl interface [COM],OnAmbientPropertyChange method, IOleControl.OnAmbientPropertyChange, IOleControl::OnAmbientPropertyChange, OnAmbientPropertyChange, OnAmbientPropertyChange method [COM], OnAmbientPropertyChange method [COM],IOleControl interface, _ctrl_iolecontrol_onambientpropertychange, com.iolecontrol_onambientpropertychange, ocidl/IOleControl::OnAmbientPropertyChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleControl::OnAmbientPropertyChange method
+# IOleControl::OnAmbientPropertyChange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.IEnumNetworks.Clone
-title: IEnumNetworks::Clone method
+title: IEnumNetworks::Clone
 author: windows-driver-content
 description: The Clone method creates an enumerator that contains the same enumeration state as the enumerator currently in use.
 old-location: nla\ienumnetworks_clone.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 196bf9fa-4615-44c3-accf-f70516d5a6a5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Clone method [Network Awareness], Clone method [Network Awareness], IEnumNetworks interface, Clone,IEnumNetworks.Clone, IEnumNetworks, IEnumNetworks interface [Network Awareness], Clone method, IEnumNetworks::Clone, netlistmgr/IEnumNetworks::Clone, nla.ienumnetworks_clone
+ms.keywords: Clone, Clone method [Network Awareness], Clone method [Network Awareness],IEnumNetworks interface, IEnumNetworks interface [Network Awareness],Clone method, IEnumNetworks.Clone, IEnumNetworks::Clone, netlistmgr/IEnumNetworks::Clone, nla.ienumnetworks_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumNetworks::Clone method
+# IEnumNetworks::Clone
 
 
 ## -description

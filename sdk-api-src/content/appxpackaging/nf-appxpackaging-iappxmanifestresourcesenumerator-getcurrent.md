@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestResourcesEnumerator.GetCurrent
-title: IAppxManifestResourcesEnumerator::GetCurrent method
+title: IAppxManifestResourcesEnumerator::GetCurrent
 author: windows-driver-content
 description: Gets the resource at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestresourcesenumerator_getcurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: FCFEEC2B-F047-4417-B110-BD3C90C30BE2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCurrent method [App packaging and management], GetCurrent method [App packaging and management], IAppxManifestResourcesEnumerator interface, GetCurrent,IAppxManifestResourcesEnumerator.GetCurrent, IAppxManifestResourcesEnumerator, IAppxManifestResourcesEnumerator interface [App packaging and management], GetCurrent method, IAppxManifestResourcesEnumerator::GetCurrent, appxpackaging/IAppxManifestResourcesEnumerator::GetCurrent, appxpkg.iappxmanifestresourcesenumerator_getcurrent
+ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxManifestResourcesEnumerator interface, IAppxManifestResourcesEnumerator interface [App packaging and management],GetCurrent method, IAppxManifestResourcesEnumerator.GetCurrent, IAppxManifestResourcesEnumerator::GetCurrent, appxpackaging/IAppxManifestResourcesEnumerator::GetCurrent, appxpkg.iappxmanifestresourcesenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestResourcesEnumerator::GetCurrent method
+# IAppxManifestResourcesEnumerator::GetCurrent
 
 
 ## -description

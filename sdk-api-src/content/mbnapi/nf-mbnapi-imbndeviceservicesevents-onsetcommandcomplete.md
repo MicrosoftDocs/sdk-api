@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnSetCommandComplete
-title: IMbnDeviceServicesEvents::OnSetCommandComplete method
+title: IMbnDeviceServicesEvents::OnSetCommandComplete
 author: windows-driver-content
 description: Notification method indicating that a device service SET request has completed.
 old-location: mbn\imbndeviceservicesevents_onsetcommandcomplete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: A388F548-453B-4DAB-8AD8-ABC26B22F20E
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceServicesEvents, IMbnDeviceServicesEvents interface [Microsoft Broadband Networks], OnSetCommandComplete method, IMbnDeviceServicesEvents::OnSetCommandComplete, OnSetCommandComplete method [Microsoft Broadband Networks], OnSetCommandComplete method [Microsoft Broadband Networks], IMbnDeviceServicesEvents interface, OnSetCommandComplete,IMbnDeviceServicesEvents.OnSetCommandComplete, mbn.imbndeviceservicesevents_onsetcommandcomplete, mbnapi/IMbnDeviceServicesEvents::OnSetCommandComplete
+ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnSetCommandComplete method, IMbnDeviceServicesEvents.OnSetCommandComplete, IMbnDeviceServicesEvents::OnSetCommandComplete, OnSetCommandComplete, OnSetCommandComplete method [Microsoft Broadband Networks], OnSetCommandComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onsetcommandcomplete, mbnapi/IMbnDeviceServicesEvents::OnSetCommandComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceServicesEvents::OnSetCommandComplete method
+# IMbnDeviceServicesEvents::OnSetCommandComplete
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 63B7A8E3-9A8F-409F-84DA-E9303C52A146
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIFactory3, IDXGIFactory3 interface [DXGI], IDXGIFactory3 interface [DXGI], described, direct3ddxgi.idxgifactory3, dxgi1_3/IDXGIFactory3
+ms.keywords: IDXGIFactory3, IDXGIFactory3 interface [DXGI], IDXGIFactory3 interface [DXGI],described, direct3ddxgi.idxgifactory3, dxgi1_3/IDXGIFactory3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

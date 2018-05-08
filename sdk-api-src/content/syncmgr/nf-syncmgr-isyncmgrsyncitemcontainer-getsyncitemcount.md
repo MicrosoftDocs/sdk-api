@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemContainer.GetSyncItemCount
-title: ISyncMgrSyncItemContainer::GetSyncItemCount method
+title: ISyncMgrSyncItemContainer::GetSyncItemCount
 author: windows-driver-content
 description: Gets a count of the sync items in the container.
 old-location: shell\ISyncMgrSyncItemContainer_GetSyncItemCount.htm
 old-project: shell
 ms.assetid: bbe37dff-d758-41ca-872d-4607d605011d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSyncItemCount method [Windows Shell], GetSyncItemCount method [Windows Shell], ISyncMgrSyncItemContainer interface, GetSyncItemCount,ISyncMgrSyncItemContainer.GetSyncItemCount, ISyncMgrSyncItemContainer, ISyncMgrSyncItemContainer interface [Windows Shell], GetSyncItemCount method, ISyncMgrSyncItemContainer::GetSyncItemCount, _shell_ISyncMgrSyncItemContainer_GetSyncItemCount, shell.ISyncMgrSyncItemContainer_GetSyncItemCount, syncmgr/ISyncMgrSyncItemContainer::GetSyncItemCount
+ms.date: 5/3/2018
+ms.keywords: GetSyncItemCount, GetSyncItemCount method [Windows Shell], GetSyncItemCount method [Windows Shell],ISyncMgrSyncItemContainer interface, ISyncMgrSyncItemContainer interface [Windows Shell],GetSyncItemCount method, ISyncMgrSyncItemContainer.GetSyncItemCount, ISyncMgrSyncItemContainer::GetSyncItemCount, _shell_ISyncMgrSyncItemContainer_GetSyncItemCount, shell.ISyncMgrSyncItemContainer_GetSyncItemCount, syncmgr/ISyncMgrSyncItemContainer::GetSyncItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrSyncItemContainer::GetSyncItemCount method
+# ISyncMgrSyncItemContainer::GetSyncItemCount
 
 
 ## -description

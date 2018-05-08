@@ -1,6 +1,6 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.Reset
-title: IDCompositionAnimation::Reset method
+title: IDCompositionAnimation::Reset
 author: windows-driver-content
 description: Resets the animation function so that it contains no segments.
 old-location: directcomp\idcompositionanimation_reset.htm
@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 3745fff0-eefa-4262-9ce3-9ab812264c1d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDCompositionAnimation, IDCompositionAnimation interface [DirectComposition], Reset method, IDCompositionAnimation::Reset, Reset method [DirectComposition], Reset method [DirectComposition], IDCompositionAnimation interface, Reset,IDCompositionAnimation.Reset, dcompanimation/IDCompositionAnimation::Reset, directcomp.idcompositionanimation_reset
+ms.keywords: IDCompositionAnimation interface [DirectComposition],Reset method, IDCompositionAnimation.Reset, IDCompositionAnimation::Reset, Reset, Reset method [DirectComposition], Reset method [DirectComposition],IDCompositionAnimation interface, dcompanimation/IDCompositionAnimation::Reset, directcomp.idcompositionanimation_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Dcomp.dll
 req.irql: 
 ---
 
-# IDCompositionAnimation::Reset method
+# IDCompositionAnimation::Reset
 
 
 ## -description

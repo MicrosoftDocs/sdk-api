@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_ConnectInput
-title: IAMTVTuner::get_ConnectInput method
+title: IAMTVTuner::get_ConnectInput
 author: windows-driver-content
 description: The get_ConnectInput method retrieves the hardware tuner input connection.
 old-location: dshow\iamtvtuner_get_connectinput.htm
 old-project: DirectShow
 ms.assetid: 9dbcdc9f-7efe-4784-a60c-a6c161befb9b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTVTuner, IAMTVTuner interface [DirectShow], get_ConnectInput method, IAMTVTuner::get_ConnectInput, IAMTVTunerget_ConnectInput, dshow.iamtvtuner_get_connectinput, get_ConnectInput method [DirectShow], get_ConnectInput method [DirectShow], IAMTVTuner interface, get_ConnectInput,IAMTVTuner.get_ConnectInput, strmif/IAMTVTuner::get_ConnectInput
+ms.date: 4/30/2018
+ms.keywords: IAMTVTuner interface [DirectShow],get_ConnectInput method, IAMTVTuner.get_ConnectInput, IAMTVTuner::get_ConnectInput, IAMTVTunerget_ConnectInput, dshow.iamtvtuner_get_connectinput, get_ConnectInput, get_ConnectInput method [DirectShow], get_ConnectInput method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_ConnectInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTVTuner::get_ConnectInput method
+# IAMTVTuner::get_ConnectInput
 
 
 ## -description

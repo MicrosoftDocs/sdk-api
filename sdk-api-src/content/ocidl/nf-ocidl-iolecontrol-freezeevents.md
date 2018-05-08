@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControl.FreezeEvents
-title: IOleControl::FreezeEvents method
+title: IOleControl::FreezeEvents
 author: windows-driver-content
 description: Indicates whether the container is ignoring or accepting events from the control.
 old-location: com\iolecontrol_freezeevents.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 08872f4f-eb3e-434c-bd7d-d4de621948ad
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: FreezeEvents method [COM], FreezeEvents method [COM], IOleControl interface, FreezeEvents,IOleControl.FreezeEvents, IOleControl, IOleControl interface [COM], FreezeEvents method, IOleControl::FreezeEvents, _ctrl_iolecontrol_freezeevents, com.iolecontrol_freezeevents, ocidl/IOleControl::FreezeEvents
+ms.keywords: FreezeEvents, FreezeEvents method [COM], FreezeEvents method [COM],IOleControl interface, IOleControl interface [COM],FreezeEvents method, IOleControl.FreezeEvents, IOleControl::FreezeEvents, _ctrl_iolecontrol_freezeevents, com.iolecontrol_freezeevents, ocidl/IOleControl::FreezeEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleControl::FreezeEvents method
+# IOleControl::FreezeEvents
 
 
 ## -description

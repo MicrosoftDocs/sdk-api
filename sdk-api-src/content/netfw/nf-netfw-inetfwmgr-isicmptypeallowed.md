@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwMgr.IsIcmpTypeAllowed
-title: INetFwMgr::IsIcmpTypeAllowed method
+title: INetFwMgr::IsIcmpTypeAllowed
 author: windows-driver-content
 description: Determines whether the specified ICMP type is allowed.
 old-location: ics\inetfwmgr_isicmptypeallowed.htm
 old-project: ICS
 ms.assetid: 9ff5ef3b-581e-4ce5-9424-dafb08cfe067
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwMgr, INetFwMgr interface [ICS/ICF], IsIcmpTypeAllowed method, INetFwMgr::IsIcmpTypeAllowed, IsIcmpTypeAllowed method [ICS/ICF], IsIcmpTypeAllowed method [ICS/ICF], INetFwMgr interface, IsIcmpTypeAllowed,INetFwMgr.IsIcmpTypeAllowed, ics.inetfwmgr_isicmptypeallowed, netfw/INetFwMgr::IsIcmpTypeAllowed
+ms.date: 5/1/2018
+ms.keywords: INetFwMgr interface [ICS/ICF],IsIcmpTypeAllowed method, INetFwMgr.IsIcmpTypeAllowed, INetFwMgr::IsIcmpTypeAllowed, IsIcmpTypeAllowed, IsIcmpTypeAllowed method [ICS/ICF], IsIcmpTypeAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isicmptypeallowed, netfw/INetFwMgr::IsIcmpTypeAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwMgr::IsIcmpTypeAllowed method
+# INetFwMgr::IsIcmpTypeAllowed
 
 
 ## -description

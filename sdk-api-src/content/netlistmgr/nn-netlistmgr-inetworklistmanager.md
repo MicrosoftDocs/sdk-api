@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: a9f76b6a-ea15-47b7-a4ef-14ea60b7810d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetworkListManager, INetworkListManager interface [Network Awareness], INetworkListManager interface [Network Awareness], described, netlistmgr/INetworkListManager, nla.inetworklistmanager
+ms.keywords: INetworkListManager, INetworkListManager interface [Network Awareness], INetworkListManager interface [Network Awareness],described, netlistmgr/INetworkListManager, nla.inetworklistmanager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

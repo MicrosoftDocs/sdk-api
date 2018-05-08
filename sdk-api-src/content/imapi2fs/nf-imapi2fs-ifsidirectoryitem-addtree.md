@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.AddTree
-title: IFsiDirectoryItem::AddTree method
+title: IFsiDirectoryItem::AddTree
 author: windows-driver-content
 description: Adds the contents of a directory tree to the file system image.
 old-location: imapi\ifsidirectoryitem_addtree.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 4f36538c-fba7-4a0c-a2e9-443b7dc2fdab
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddTree method [IMAPI], AddTree method [IMAPI], IFsiDirectoryItem interface, AddTree,IFsiDirectoryItem.AddTree, IFsiDirectoryItem, IFsiDirectoryItem interface [IMAPI], AddTree method, IFsiDirectoryItem::AddTree, imapi.ifsidirectoryitem_addtree, imapi2fs/IFsiDirectoryItem::AddTree
+ms.keywords: AddTree, AddTree method [IMAPI], AddTree method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],AddTree method, IFsiDirectoryItem.AddTree, IFsiDirectoryItem::AddTree, imapi.ifsidirectoryitem_addtree, imapi2fs/IFsiDirectoryItem::AddTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiDirectoryItem::AddTree method
+# IFsiDirectoryItem::AddTree
 
 
 ## -description

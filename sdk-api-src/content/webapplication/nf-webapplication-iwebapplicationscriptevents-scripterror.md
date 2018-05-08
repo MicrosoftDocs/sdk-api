@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationScriptEvents.ScriptError
-title: IWebApplicationScriptEvents::ScriptError method
+title: IWebApplicationScriptEvents::ScriptError
 author: windows-driver-content
 description: Fired when an unhandled script error occurs.
 old-location: debug\iwebapplicationscriptevents_scripterror.htm
@@ -8,7 +8,7 @@ old-project: debug_wwahost
 ms.assetid: 4f1e6260-804d-4881-b2d8-70a1463a46bd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWebApplicationScriptEvents, IWebApplicationScriptEvents interface [Debugging Windows Store apps], ScriptError method, IWebApplicationScriptEvents::ScriptError, ScriptError method [Debugging Windows Store apps], ScriptError method [Debugging Windows Store apps], IWebApplicationScriptEvents interface, ScriptError,IWebApplicationScriptEvents.ScriptError, debug.iwebapplicationscriptevents_scripterror, webapplication/IWebApplicationScriptEvents::ScriptError
+ms.keywords: IWebApplicationScriptEvents interface [Debugging Windows Store apps],ScriptError method, IWebApplicationScriptEvents.ScriptError, IWebApplicationScriptEvents::ScriptError, ScriptError, ScriptError method [Debugging Windows Store apps], ScriptError method [Debugging Windows Store apps],IWebApplicationScriptEvents interface, debug.iwebapplicationscriptevents_scripterror, webapplication/IWebApplicationScriptEvents::ScriptError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWebApplicationScriptEvents::ScriptError method
+# IWebApplicationScriptEvents::ScriptError
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessibleWindowlessSite.QueryObjectIdRanges
-title: IAccessibleWindowlessSite::QueryObjectIdRanges method
+title: IAccessibleWindowlessSite::QueryObjectIdRanges
 author: windows-driver-content
 description: Retrieves the object ID ranges that a particular windowless Microsoft ActiveX control has reserved.
 old-location: winauto\uiauto_IAccessibleWindowlessSite_QueryObjectIdRanges.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 36663457-57B7-40D4-8A52-9C4E9B551E8E
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccessibleWindowlessSite, IAccessibleWindowlessSite interface [Windows Accessibility], QueryObjectIdRanges method, IAccessibleWindowlessSite::QueryObjectIdRanges, QueryObjectIdRanges method [Windows Accessibility], QueryObjectIdRanges method [Windows Accessibility], IAccessibleWindowlessSite interface, QueryObjectIdRanges,IAccessibleWindowlessSite.QueryObjectIdRanges, oleacc/IAccessibleWindowlessSite::QueryObjectIdRanges, winauto.uiauto_IAccessibleWindowlessSite_QueryObjectIdRanges
+ms.keywords: IAccessibleWindowlessSite interface [Windows Accessibility],QueryObjectIdRanges method, IAccessibleWindowlessSite.QueryObjectIdRanges, IAccessibleWindowlessSite::QueryObjectIdRanges, QueryObjectIdRanges, QueryObjectIdRanges method [Windows Accessibility], QueryObjectIdRanges method [Windows Accessibility],IAccessibleWindowlessSite interface, oleacc/IAccessibleWindowlessSite::QueryObjectIdRanges, winauto.uiauto_IAccessibleWindowlessSite_QueryObjectIdRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccessibleWindowlessSite::QueryObjectIdRanges method
+# IAccessibleWindowlessSite::QueryObjectIdRanges
 
 
 ## -description

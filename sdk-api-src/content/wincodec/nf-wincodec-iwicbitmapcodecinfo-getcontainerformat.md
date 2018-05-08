@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetContainerFormat
-title: IWICBitmapCodecInfo::GetContainerFormat method
+title: IWICBitmapCodecInfo::GetContainerFormat
 author: windows-driver-content
 description: Retrieves the container GUID associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getcontainerformat.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 164952ae-95ea-43b1-872c-088b2c1c65c8
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component], IWICBitmapCodecInfo interface, GetContainerFormat,IWICBitmapCodecInfo.GetContainerFormat, IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], GetContainerFormat method, IWICBitmapCodecInfo::GetContainerFormat, _wic_codec_iwicbitmapcodecinfo_getcontainerformat, wic._wic_codec_iwicbitmapcodecinfo_getcontainerformat, wincodec/IWICBitmapCodecInfo::GetContainerFormat
+ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetContainerFormat method, IWICBitmapCodecInfo.GetContainerFormat, IWICBitmapCodecInfo::GetContainerFormat, _wic_codec_iwicbitmapcodecinfo_getcontainerformat, wic._wic_codec_iwicbitmapcodecinfo_getcontainerformat, wincodec/IWICBitmapCodecInfo::GetContainerFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapCodecInfo::GetContainerFormat method
+# IWICBitmapCodecInfo::GetContainerFormat
 
 
 ## -description

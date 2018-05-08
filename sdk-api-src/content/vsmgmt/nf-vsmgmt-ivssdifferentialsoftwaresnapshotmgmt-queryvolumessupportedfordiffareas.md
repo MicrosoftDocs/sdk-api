@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.QueryVolumesSupportedForDiffAreas
-title: IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas method
+title: IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas
 author: windows-driver-content
 description: Queries volumes that support shadow copy storage areas (including volumes with disabled shadow copy storage areas).
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfordiffareas.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 2aad75e3-0228-4cc4-b813-c70a7ebfdea5
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssDifferentialSoftwareSnapshotMgmt, IVssDifferentialSoftwareSnapshotMgmt interface [VSS], QueryVolumesSupportedForDiffAreas method, IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas, QueryVolumesSupportedForDiffAreas method [VSS], QueryVolumesSupportedForDiffAreas method [VSS], IVssDifferentialSoftwareSnapshotMgmt interface, QueryVolumesSupportedForDiffAreas,IVssDifferentialSoftwareSnapshotMgmt.QueryVolumesSupportedForDiffAreas, base.ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfordiffareas, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas
+ms.keywords: IVssDifferentialSoftwareSnapshotMgmt interface [VSS],QueryVolumesSupportedForDiffAreas method, IVssDifferentialSoftwareSnapshotMgmt.QueryVolumesSupportedForDiffAreas, IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas, QueryVolumesSupportedForDiffAreas, QueryVolumesSupportedForDiffAreas method [VSS], QueryVolumesSupportedForDiffAreas method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, base.ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfordiffareas, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas method
+# IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas
 
 
 ## -description

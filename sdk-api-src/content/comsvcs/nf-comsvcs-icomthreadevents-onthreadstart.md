@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadStart
-title: IComThreadEvents::OnThreadStart method
+title: IComThreadEvents::OnThreadStart
 author: windows-driver-content
 description: Generated when a single-threaded apartment (STA) thread is started.
 old-location: cos\icomthreadevents_onthreadstart.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 9316965e-13e8-4e3a-9404-8e49334773bc
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComThreadEvents, IComThreadEvents interface [COM+], OnThreadStart method, IComThreadEvents::OnThreadStart, OnThreadStart method [COM+], OnThreadStart method [COM+], IComThreadEvents interface, OnThreadStart,IComThreadEvents.OnThreadStart, _dtc_IComThreadEvents_OnThreadStart, comsvcs/IComThreadEvents::OnThreadStart, cos.icomthreadevents_onthreadstart
+ms.keywords: IComThreadEvents interface [COM+],OnThreadStart method, IComThreadEvents.OnThreadStart, IComThreadEvents::OnThreadStart, OnThreadStart, OnThreadStart method [COM+], OnThreadStart method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadStart, comsvcs/IComThreadEvents::OnThreadStart, cos.icomthreadevents_onthreadstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComThreadEvents::OnThreadStart method
+# IComThreadEvents::OnThreadStart
 
 
 ## -description

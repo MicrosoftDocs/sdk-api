@@ -8,7 +8,7 @@ old-project: wsb
 ms.assetid: 45865f1b-0f0a-46fc-b1f3-f2fd7c49f56f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWsbApplicationBackupSupport, IWsbApplicationBackupSupport interface [Windows Server Backup], IWsbApplicationBackupSupport interface [Windows Server Backup], described, wsb.iwsbapplicationbackupsupport, wsbapp/IWsbApplicationBackupSupport
+ms.keywords: IWsbApplicationBackupSupport, IWsbApplicationBackupSupport interface [Windows Server Backup], IWsbApplicationBackupSupport interface [Windows Server Backup],described, wsb.iwsbapplicationbackupsupport, wsbapp/IWsbApplicationBackupSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

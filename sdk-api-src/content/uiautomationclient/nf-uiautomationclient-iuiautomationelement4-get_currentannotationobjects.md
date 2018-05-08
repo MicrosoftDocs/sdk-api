@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CurrentAnnotationObjects
-title: IUIAutomationElement4::get_CurrentAnnotationObjects method
+title: IUIAutomationElement4::get_CurrentAnnotationObjects
 author: windows-driver-content
 description: Returns the current list of annotation objects associated with this element, such as comment, header, footer, and so on.
 old-location: winauto\uiauto_IUIAutomationElement4_CurrentAnnotationObjects.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 504EB3B3-0241-4164-B775-F2D727D6B5B1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentAnnotationObjects property [Windows Accessibility], CurrentAnnotationObjects property [Windows Accessibility], IUIAutomationElement4 interface, IUIAutomationElement4, IUIAutomationElement4 interface [Windows Accessibility], CurrentAnnotationObjects property, IUIAutomationElement4.CurrentAnnotationObjects, IUIAutomationElement4::get_CurrentAnnotationObjects, get_CurrentAnnotationObjects,IUIAutomationElement4.get_CurrentAnnotationObjects, uiautomationclient/IUIAutomationElement4::CurrentAnnotationObjects, uiautomationclient/IUIAutomationElement4::get_CurrentAnnotationObjects, winauto.uiauto_IUIAutomationElement4_CurrentAnnotationObjects
+ms.keywords: CurrentAnnotationObjects property [Windows Accessibility], CurrentAnnotationObjects property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentAnnotationObjects property, IUIAutomationElement4.CurrentAnnotationObjects, IUIAutomationElement4.get_CurrentAnnotationObjects, IUIAutomationElement4::CurrentAnnotationObjects, IUIAutomationElement4::get_CurrentAnnotationObjects, get_CurrentAnnotationObjects, uiautomationclient/IUIAutomationElement4::CurrentAnnotationObjects, uiautomationclient/IUIAutomationElement4::get_CurrentAnnotationObjects, winauto.uiauto_IUIAutomationElement4_CurrentAnnotationObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement4::get_CurrentAnnotationObjects method
+# IUIAutomationElement4::get_CurrentAnnotationObjects
 
 
 ## -description

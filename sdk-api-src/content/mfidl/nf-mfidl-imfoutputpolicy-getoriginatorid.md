@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFOutputPolicy.GetOriginatorID
-title: IMFOutputPolicy::GetOriginatorID method
+title: IMFOutputPolicy::GetOriginatorID
 author: windows-driver-content
 description: Retrieives a GUID identifying the input trust authority (ITA) that created this output policy object.
 old-location: mf\imfoutputpolicy_getoriginatorid.htm
 old-project: medfound
 ms.assetid: 3412bb81-c4b8-4e10-9a8e-8eae413ca82d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 3412bb81-c4b8-4e10-9a8e-8eae413ca82d, GetOriginatorID method [Media Foundation], GetOriginatorID method [Media Foundation], IMFOutputPolicy interface, GetOriginatorID,IMFOutputPolicy.GetOriginatorID, IMFOutputPolicy, IMFOutputPolicy interface [Media Foundation], GetOriginatorID method, IMFOutputPolicy::GetOriginatorID, mf.imfoutputpolicy_getoriginatorid, mfidl/IMFOutputPolicy::GetOriginatorID
+ms.date: 5/3/2018
+ms.keywords: 3412bb81-c4b8-4e10-9a8e-8eae413ca82d, GetOriginatorID, GetOriginatorID method [Media Foundation], GetOriginatorID method [Media Foundation],IMFOutputPolicy interface, IMFOutputPolicy interface [Media Foundation],GetOriginatorID method, IMFOutputPolicy.GetOriginatorID, IMFOutputPolicy::GetOriginatorID, mf.imfoutputpolicy_getoriginatorid, mfidl/IMFOutputPolicy::GetOriginatorID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFOutputPolicy::GetOriginatorID method
+# IMFOutputPolicy::GetOriginatorID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentOrientation
-title: IUIAutomationElement::get_CurrentOrientation method
+title: IUIAutomationElement::get_CurrentOrientation
 author: windows-driver-content
 description: Retrieves a value that indicates the orientation of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentOrientation.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9afe358e-b80c-40f8-be0a-1f07346bb583
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentOrientation property [Windows Accessibility], CurrentOrientation property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentOrientation property, IUIAutomationElement.CurrentOrientation, IUIAutomationElement::get_CurrentOrientation, get_CurrentOrientation,IUIAutomationElement.get_CurrentOrientation, uiauto.uiauto_IUIAutomationElement_CurrentOrientation, uiauto_IUIAutomationElement_CurrentOrientation, uiautomationclient/IUIAutomationElement::CurrentOrientation, uiautomationclient/IUIAutomationElement::get_CurrentOrientation, winauto.uiauto_IUIAutomationElement_CurrentOrientation
+ms.keywords: CurrentOrientation property [Windows Accessibility], CurrentOrientation property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentOrientation property, IUIAutomationElement.CurrentOrientation, IUIAutomationElement.get_CurrentOrientation, IUIAutomationElement::CurrentOrientation, IUIAutomationElement::get_CurrentOrientation, get_CurrentOrientation, uiauto.uiauto_IUIAutomationElement_CurrentOrientation, uiauto_IUIAutomationElement_CurrentOrientation, uiautomationclient/IUIAutomationElement::CurrentOrientation, uiautomationclient/IUIAutomationElement::get_CurrentOrientation, winauto.uiauto_IUIAutomationElement_CurrentOrientation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CurrentOrientation method
+# IUIAutomationElement::get_CurrentOrientation
 
 
 ## -description

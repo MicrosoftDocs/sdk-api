@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.GetTaskFlags
-title: ITask::GetTaskFlags method
+title: ITask::GetTaskFlags
 author: windows-driver-content
 description: This method returns the flags that modify the behavior of a task.
 old-location: taskschd\itask_gettaskflags.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: fd919375-c903-45eb-a8f4-45baf5b42203
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTaskFlags method [Task Scheduler], GetTaskFlags method [Task Scheduler], ITask interface, GetTaskFlags,ITask.GetTaskFlags, ITask, ITask interface [Task Scheduler], GetTaskFlags method, ITask::GetTaskFlags, _msb_itask_gettaskflags, mstask/ITask::GetTaskFlags, taskschd.itask_gettaskflags
+ms.keywords: GetTaskFlags, GetTaskFlags method [Task Scheduler], GetTaskFlags method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetTaskFlags method, ITask.GetTaskFlags, ITask::GetTaskFlags, _msb_itask_gettaskflags, mstask/ITask::GetTaskFlags, taskschd.itask_gettaskflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITask::GetTaskFlags method
+# ITask::GetTaskFlags
 
 
 ## -description

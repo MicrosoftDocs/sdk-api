@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroup.get_Name
-title: IFsrmFileGroup::get_Name method
+title: IFsrmFileGroup::get_Name
 author: windows-driver-content
 description: Retrieves or sets the name of the file group.
 old-location: fsrm\ifsrmfilegroup_name.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 46baa451-21d5-4a03-a437-483f9bcc2812
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileGroup, IFsrmFileGroup interface [File Server Resource Manager], Name property, IFsrmFileGroup.Name, IFsrmFileGroup::get_Name, IFsrmFileGroup::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager], IFsrmFileGroup interface, fs.ifsrmfilegroup_name, fsrm.ifsrmfilegroup_name, fsrmscreen/IFsrmFileGroup::Name, fsrmscreen/IFsrmFileGroup::get_Name, fsrmscreen/IFsrmFileGroup::put_Name, get_Name,IFsrmFileGroup.get_Name
+ms.keywords: IFsrmFileGroup interface [File Server Resource Manager],Name property, IFsrmFileGroup.Name, IFsrmFileGroup.get_Name, IFsrmFileGroup::Name, IFsrmFileGroup::get_Name, IFsrmFileGroup::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmFileGroup interface, fs.ifsrmfilegroup_name, fsrm.ifsrmfilegroup_name, fsrmscreen/IFsrmFileGroup::Name, fsrmscreen/IFsrmFileGroup::get_Name, fsrmscreen/IFsrmFileGroup::put_Name, get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileGroup::get_Name method
+# IFsrmFileGroup::get_Name
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_State
-title: IRegisteredTask::get_State method
+title: IRegisteredTask::get_State
 author: windows-driver-content
 description: Gets the operational state of the registered task.
 old-location: taskschd\iregisteredtask_state.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: b5ac2207-b5c0-42bd-a059-93a2c1f49f33
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], State property, IRegisteredTask.State, IRegisteredTask::get_State, State property [Task Scheduler], State property [Task Scheduler], IRegisteredTask interface, TASK_STATE_DISABLED, TASK_STATE_QUEUED, TASK_STATE_READY, TASK_STATE_RUNNING, TASK_STATE_UNKNOWN, get_State,IRegisteredTask.get_State, taskschd.iregisteredtask_state, taskschd/IRegisteredTask::State, taskschd/IRegisteredTask::get_State
+ms.keywords: IRegisteredTask interface [Task Scheduler],State property, IRegisteredTask.State, IRegisteredTask.get_State, IRegisteredTask::State, IRegisteredTask::get_State, State property [Task Scheduler], State property [Task Scheduler],IRegisteredTask interface, TASK_STATE_DISABLED, TASK_STATE_QUEUED, TASK_STATE_READY, TASK_STATE_RUNNING, TASK_STATE_UNKNOWN, get_State, taskschd.iregisteredtask_state, taskschd/IRegisteredTask::State, taskschd/IRegisteredTask::get_State
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegisteredTask::get_State method
+# IRegisteredTask::get_State
 
 
 ## -description

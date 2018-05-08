@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IBDAComparable.HashExact
-title: IBDAComparable::HashExact method
+title: IBDAComparable::HashExact
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable_hashexact.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 41495662-835b-47bc-a8d6-b0b689ec4d51
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: HashExact method [Microsoft TV Technologies], HashExact method [Microsoft TV Technologies], IBDAComparable interface, HashExact,IBDAComparable.HashExact, IBDAComparable, IBDAComparable interface [Microsoft TV Technologies], HashExact method, IBDAComparable::HashExact, IBDAComparableHashExact, mstv.ibdacomparable_hashexact, tuner/IBDAComparable::HashExact
+ms.keywords: HashExact, HashExact method [Microsoft TV Technologies], HashExact method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashExact method, IBDAComparable.HashExact, IBDAComparable::HashExact, IBDAComparableHashExact, mstv.ibdacomparable_hashexact, tuner/IBDAComparable::HashExact
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IBDAComparable::HashExact method
+# IBDAComparable::HashExact
 
 
 ## -description

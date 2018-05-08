@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsHideOnDeactivate
-title: IFullScreenVideoEx::IsHideOnDeactivate method
+title: IFullScreenVideoEx::IsHideOnDeactivate
 author: windows-driver-content
 description: The IsHideOnDeactivate method indicates the behavior when the user switches to another application.
 old-location: dshow\ifullscreenvideoex_ishideondeactivate.htm
 old-project: DirectShow
 ms.assetid: 0196215f-4efe-418a-acf3-445b8224a2ab
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], IsHideOnDeactivate method, IFullScreenVideoEx::IsHideOnDeactivate, IFullScreenVideoIsHideOnDeactivate, IsHideOnDeactivate method [DirectShow], IsHideOnDeactivate method [DirectShow], IFullScreenVideoEx interface, IsHideOnDeactivate,IFullScreenVideoEx.IsHideOnDeactivate, amvideo/IFullScreenVideoEx::IsHideOnDeactivate, dshow.ifullscreenvideoex_ishideondeactivate
+ms.date: 4/30/2018
+ms.keywords: IFullScreenVideoEx interface [DirectShow],IsHideOnDeactivate method, IFullScreenVideoEx.IsHideOnDeactivate, IFullScreenVideoEx::IsHideOnDeactivate, IFullScreenVideoIsHideOnDeactivate, IsHideOnDeactivate, IsHideOnDeactivate method [DirectShow], IsHideOnDeactivate method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsHideOnDeactivate, dshow.ifullscreenvideoex_ishideondeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IFullScreenVideoEx::IsHideOnDeactivate method
+# IFullScreenVideoEx::IsHideOnDeactivate
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ISessionStateChangeTrigger.put_UserId
-title: ISessionStateChangeTrigger::put_UserId method
+title: ISessionStateChangeTrigger::put_UserId
 author: windows-driver-content
 description: Gets or sets the user for the Terminal Server session. When a session state change is detected for this user, a task is started.
 old-location: taskschd\isessionstatechangetrigger_userid.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 9d0cc48f-4765-4959-bb59-ca39acde4c39
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISessionStateChangeTrigger, ISessionStateChangeTrigger interface [Task Scheduler], UserId property, ISessionStateChangeTrigger.UserId, ISessionStateChangeTrigger::get_UserId, ISessionStateChangeTrigger::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler], ISessionStateChangeTrigger interface, put_UserId,ISessionStateChangeTrigger.put_UserId, taskschd.isessionstatechangetrigger_userid, taskschd/ISessionStateChangeTrigger::UserId, taskschd/ISessionStateChangeTrigger::get_UserId, taskschd/ISessionStateChangeTrigger::put_UserId
+ms.keywords: ISessionStateChangeTrigger interface [Task Scheduler],UserId property, ISessionStateChangeTrigger.UserId, ISessionStateChangeTrigger.put_UserId, ISessionStateChangeTrigger::UserId, ISessionStateChangeTrigger::get_UserId, ISessionStateChangeTrigger::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],ISessionStateChangeTrigger interface, put_UserId, taskschd.isessionstatechangetrigger_userid, taskschd/ISessionStateChangeTrigger::UserId, taskschd/ISessionStateChangeTrigger::get_UserId, taskschd/ISessionStateChangeTrigger::put_UserId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISessionStateChangeTrigger::put_UserId method
+# ISessionStateChangeTrigger::put_UserId
 
 
 ## -description

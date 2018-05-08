@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.DomainChange
-title: IWMPEvents::DomainChange method
+title: IWMPEvents::DomainChange
 author: windows-driver-content
 description: The DomainChange event occurs when the DVD domain changes.
 old-location: wmp\iwmpevents_iwmpevents__domainchange.htm
 old-project: WMP
 ms.assetid: deb8e05e-a6dc-4971-9c34-9c12f1dedc9e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: DomainChange method [Windows Media Player], DomainChange method [Windows Media Player], IWMPEvents interface, DomainChange,IWMPEvents.DomainChange, IWMPEvents, IWMPEvents interface [Windows Media Player], DomainChange method, IWMPEvents::DomainChange, IWMPEventsDomainChange, wmp.iwmpevents_iwmpevents__domainchange, wmp/IWMPEvents::DomainChange
+ms.date: 5/4/2018
+ms.keywords: DomainChange, DomainChange method [Windows Media Player], DomainChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DomainChange method, IWMPEvents.DomainChange, IWMPEvents::DomainChange, IWMPEventsDomainChange, wmp.iwmpevents_iwmpevents__domainchange, wmp/IWMPEvents::DomainChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::DomainChange method
+# IWMPEvents::DomainChange
 
 
 ## -description

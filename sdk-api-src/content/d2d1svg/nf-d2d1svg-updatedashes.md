@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: b9be98f2-d215-d009-ec9e-732163539053
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: UpdateDashes, UpdateDashes methods [Direct2D], d2d1svg/UpdateDashes, direct2d.id2d1svgstrokedasharray_updatedashes_overload
+ms.keywords: ID2D1SvgStrokeDashArray::UpdateDashes, UpdateDashes, UpdateDashes methods [Direct2D], d2d1svg/UpdateDashes, direct2d.id2d1svgstrokedasharray_updatedashes_overload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

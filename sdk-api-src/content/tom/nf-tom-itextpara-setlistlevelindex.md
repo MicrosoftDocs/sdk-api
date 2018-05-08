@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.SetListLevelIndex
-title: ITextPara::SetListLevelIndex method
+title: ITextPara::SetListLevelIndex
 author: windows-driver-content
 description: Sets the list level index used for paragraphs.
 old-location: controls\ITextPara_SetListLevelIndex.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlistlevelindex.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextPara, ITextPara interface [Windows Controls], SetListLevelIndex method, ITextPara::SetListLevelIndex, SetListLevelIndex method [Windows Controls], SetListLevelIndex method [Windows Controls], ITextPara interface, SetListLevelIndex,ITextPara.SetListLevelIndex, _win32_ITextPara_SetListLevelIndex, _win32_ITextPara_SetListLevelIndex_cpp, controls.ITextPara_SetListLevelIndex, controls._win32_ITextPara_SetListLevelIndex, tom/ITextPara::SetListLevelIndex
+ms.date: 4/27/2018
+ms.keywords: ITextPara interface [Windows Controls],SetListLevelIndex method, ITextPara.SetListLevelIndex, ITextPara::SetListLevelIndex, SetListLevelIndex, SetListLevelIndex method [Windows Controls], SetListLevelIndex method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListLevelIndex, _win32_ITextPara_SetListLevelIndex_cpp, controls.ITextPara_SetListLevelIndex, controls._win32_ITextPara_SetListLevelIndex, tom/ITextPara::SetListLevelIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::SetListLevelIndex method
+# ITextPara::SetListLevelIndex
 
 
 ## -description

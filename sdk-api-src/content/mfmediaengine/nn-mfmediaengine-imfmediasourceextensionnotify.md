@@ -7,8 +7,8 @@ old-location: mf\imfmediasourceextensionnotify.htm
 old-project: medfound
 ms.assetid: 44eed02d-cf92-41e5-8748-1ce11ab4aac0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaSourceExtensionNotify, IMFMediaSourceExtensionNotify interface [Media Foundation], IMFMediaSourceExtensionNotify interface [Media Foundation], described, mf.imfmediasourceextensionnotify, mfmediaengine/IMFMediaSourceExtensionNotify
+ms.date: 5/3/2018
+ms.keywords: IMFMediaSourceExtensionNotify, IMFMediaSourceExtensionNotify interface [Media Foundation], IMFMediaSourceExtensionNotify interface [Media Foundation],described, mf.imfmediasourceextensionnotify, mfmediaengine/IMFMediaSourceExtensionNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

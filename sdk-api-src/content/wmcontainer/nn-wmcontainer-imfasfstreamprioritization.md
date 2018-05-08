@@ -7,8 +7,8 @@ old-location: mf\imfasfstreamprioritization.htm
 old-project: medfound
 ms.assetid: 6eb79c52-dc81-406c-9000-d25ad380e6b2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 6eb79c52-dc81-406c-9000-d25ad380e6b2, IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], IMFASFStreamPrioritization interface [Media Foundation], described, mf.imfasfstreamprioritization, wmcontainer/IMFASFStreamPrioritization
+ms.date: 5/3/2018
+ms.keywords: 6eb79c52-dc81-406c-9000-d25ad380e6b2, IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], IMFASFStreamPrioritization interface [Media Foundation],described, mf.imfasfstreamprioritization, wmcontainer/IMFASFStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

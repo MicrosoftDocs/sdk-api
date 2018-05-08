@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.SetDescriptor
-title: ITocEntry::SetDescriptor method
+title: ITocEntry::SetDescriptor
 author: windows-driver-content
 description: The SetDescriptor method associates a descriptor with the entry.
 old-location: mf\itocentry_setdescriptor.htm
 old-project: medfound
 ms.assetid: 09a366a6-fcb4-4a0b-8df1-795360d147b9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ITocEntry, ITocEntry interface [Media Foundation], SetDescriptor method, ITocEntry::SetDescriptor, SetDescriptor method [Media Foundation], SetDescriptor method [Media Foundation], ITocEntry interface, SetDescriptor,ITocEntry.SetDescriptor, codecapi.itocentry_setdescriptor, mf.itocentry_setdescriptor, wmcodecdsp/ITocEntry::SetDescriptor
+ms.date: 5/3/2018
+ms.keywords: ITocEntry interface [Media Foundation],SetDescriptor method, ITocEntry.SetDescriptor, ITocEntry::SetDescriptor, SetDescriptor, SetDescriptor method [Media Foundation], SetDescriptor method [Media Foundation],ITocEntry interface, codecapi.itocentry_setdescriptor, mf.itocentry_setdescriptor, wmcodecdsp/ITocEntry::SetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocEntry::SetDescriptor method
+# ITocEntry::SetDescriptor
 
 
 ## -description

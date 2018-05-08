@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResource.SetContent
-title: IXpsOMSignatureBlockResource::SetContent method
+title: IXpsOMSignatureBlockResource::SetContent
 author: windows-driver-content
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomsignatureblockresource_setcontent.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f9a10907-9241-42af-8858-029c2cf925cf
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMSignatureBlockResource, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging], SetContent method, IXpsOMSignatureBlockResource::SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging], IXpsOMSignatureBlockResource interface, SetContent,IXpsOMSignatureBlockResource.SetContent, xps.ixpsomsignatureblockresource_setcontent, xpsobjectmodel/IXpsOMSignatureBlockResource::SetContent
+ms.keywords: IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],SetContent method, IXpsOMSignatureBlockResource.SetContent, IXpsOMSignatureBlockResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, xps.ixpsomsignatureblockresource_setcontent, xpsobjectmodel/IXpsOMSignatureBlockResource::SetContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMSignatureBlockResource::SetContent method
+# IXpsOMSignatureBlockResource::SetContent
 
 
 ## -description

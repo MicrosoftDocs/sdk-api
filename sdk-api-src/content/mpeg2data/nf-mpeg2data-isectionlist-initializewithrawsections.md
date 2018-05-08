@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.ISectionList.InitializeWithRawSections
-title: ISectionList::InitializeWithRawSections method
+title: ISectionList::InitializeWithRawSections
 author: windows-driver-content
 description: The InitializeWithRawSections method initializes the object with raw section data. This method allows for custom processing of section data.
 old-location: mstv\isectionlist_initializewithrawsections.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 61f1e99b-c375-4aa3-a11b-7e24c35f71ca
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ISectionList, ISectionList interface [Microsoft TV Technologies], InitializeWithRawSections method, ISectionList::InitializeWithRawSections, ISectionListInitializeWithRawSections, InitializeWithRawSections method [Microsoft TV Technologies], InitializeWithRawSections method [Microsoft TV Technologies], ISectionList interface, InitializeWithRawSections,ISectionList.InitializeWithRawSections, mpeg2data/ISectionList::InitializeWithRawSections, mstv.isectionlist_initializewithrawsections
+ms.keywords: ISectionList interface [Microsoft TV Technologies],InitializeWithRawSections method, ISectionList.InitializeWithRawSections, ISectionList::InitializeWithRawSections, ISectionListInitializeWithRawSections, InitializeWithRawSections, InitializeWithRawSections method [Microsoft TV Technologies], InitializeWithRawSections method [Microsoft TV Technologies],ISectionList interface, mpeg2data/ISectionList::InitializeWithRawSections, mstv.isectionlist_initializewithrawsections
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISectionList::InitializeWithRawSections method
+# ISectionList::InitializeWithRawSections
 
 
 ## -description

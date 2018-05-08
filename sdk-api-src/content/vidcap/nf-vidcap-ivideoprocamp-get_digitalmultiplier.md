@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_DigitalMultiplier
-title: IVideoProcAmp::get_DigitalMultiplier method
+title: IVideoProcAmp::get_DigitalMultiplier
 author: windows-driver-content
 description: The get_DigitalMultiplier method returns the camera's digital zoom level.
 old-location: dshow\ivideoprocamp_get_digitalmultiplier.htm
 old-project: DirectShow
 ms.assetid: 0b7ab1a3-193c-4682-af35-ae0cc5f28f45
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_DigitalMultiplier method, IVideoProcAmp::get_DigitalMultiplier, IVideoProcAmpget_DigitalMultiplier, dshow.ivideoprocamp_get_digitalmultiplier, get_DigitalMultiplier method [DirectShow], get_DigitalMultiplier method [DirectShow], IVideoProcAmp interface, get_DigitalMultiplier,IVideoProcAmp.get_DigitalMultiplier, vidcap/IVideoProcAmp::get_DigitalMultiplier
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],get_DigitalMultiplier method, IVideoProcAmp.get_DigitalMultiplier, IVideoProcAmp::get_DigitalMultiplier, IVideoProcAmpget_DigitalMultiplier, dshow.ivideoprocamp_get_digitalmultiplier, get_DigitalMultiplier, get_DigitalMultiplier method [DirectShow], get_DigitalMultiplier method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_DigitalMultiplier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::get_DigitalMultiplier method
+# IVideoProcAmp::get_DigitalMultiplier
 
 
 ## -description

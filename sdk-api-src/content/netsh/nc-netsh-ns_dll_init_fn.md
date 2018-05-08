@@ -8,7 +8,7 @@ old-project: NetShell
 ms.assetid: 9af7e818-bb08-4d35-bab4-43cb94845f25
 ms.author: windowsdriverdev
 ms.date: 3/22/2018
-ms.keywords: InitHelperDll, InitHelperDll callback function [NetShell], NS_DLL_INIT_FN, _netsh_inithelperdll, netsh/InitHelperDll, netshell.inithelperdll
+ms.keywords: InitHelperDll, InitHelperDll callback function [NetShell], NS_DLL_INIT_FN, NS_DLL_INIT_FN callback, _netsh_inithelperdll, netsh/InitHelperDll, netshell.inithelperdll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# NS_DLL_INIT_FN callback
+# NS_DLL_INIT_FN callback function
 
 
 ## -description

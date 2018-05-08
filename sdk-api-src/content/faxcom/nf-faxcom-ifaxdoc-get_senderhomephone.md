@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_SenderHomePhone
-title: IFaxDoc::get_SenderHomePhone method
+title: IFaxDoc::get_SenderHomePhone
 author: windows-driver-content
 description: Sets or retrieves the SenderHomePhone property of a FaxDoc object. The SenderHomePhone property is a null-terminated string that contains the home telephone number of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_senderhomephone_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_93l1.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], SenderHomePhone property, IFaxDoc, IFaxDoc::get_SenderHomePhone, SenderHomePhone property [Fax Service], SenderHomePhone property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_senderhomephone, fax._mfax_ifaxdoc_get_senderhomephone, fax._mfax_ifaxdoc_get_senderhomephone_vb, get_SenderHomePhone,IFaxDoc.get_SenderHomePhone
+ms.keywords: FaxDoc object [Fax Service],SenderHomePhone property, FaxDoc.SenderHomePhone, IFaxDoc.get_SenderHomePhone, IFaxDoc::get_SenderHomePhone, SenderHomePhone property [Fax Service], SenderHomePhone property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderhomephone, fax._mfax_ifaxdoc_get_senderhomephone, fax._mfax_ifaxdoc_get_senderhomephone_vb, get_SenderHomePhone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::get_SenderHomePhone method
+# IFaxDoc::get_SenderHomePhone
 
 
 ## -description

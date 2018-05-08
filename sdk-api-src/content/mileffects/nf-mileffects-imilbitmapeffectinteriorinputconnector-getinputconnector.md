@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectInteriorInputConnector.GetInputConnector
-title: IMILBitmapEffectInteriorInputConnector::GetInputConnector method
+title: IMILBitmapEffectInteriorInputConnector::GetInputConnector
 author: windows-driver-content
 description: Gets the IMILBitmapEffectInputConnector associated with the interior connector.
 old-location: wibe\_wibe_imilbitmapeffectinteriorinputconnector_getinputconnector.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinteriorinputconnector\getinputconnector.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetInputConnector method [WPF Bitmap Effects], GetInputConnector method [WPF Bitmap Effects], IMILBitmapEffectInteriorInputConnector interface, GetInputConnector,IMILBitmapEffectInteriorInputConnector.GetInputConnector, IMILBitmapEffectInteriorInputConnector, IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects], GetInputConnector method, IMILBitmapEffectInteriorInputConnector::GetInputConnector, _wibe_imilbitmapeffectinteriorinputconnector_getinputconnector, mileffects/IMILBitmapEffectInteriorInputConnector::GetInputConnector, wibe._wibe_imilbitmapeffectinteriorinputconnector_getinputconnector
+ms.keywords: GetInputConnector, GetInputConnector method [WPF Bitmap Effects], GetInputConnector method [WPF Bitmap Effects],IMILBitmapEffectInteriorInputConnector interface, IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects],GetInputConnector method, IMILBitmapEffectInteriorInputConnector.GetInputConnector, IMILBitmapEffectInteriorInputConnector::GetInputConnector, _wibe_imilbitmapeffectinteriorinputconnector_getinputconnector, mileffects/IMILBitmapEffectInteriorInputConnector::GetInputConnector, wibe._wibe_imilbitmapeffectinteriorinputconnector_getinputconnector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectInteriorInputConnector::GetInputConnector method
+# IMILBitmapEffectInteriorInputConnector::GetInputConnector
 
 
 ## -description

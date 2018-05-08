@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_SignalPolarisation
-title: IDVBSLocator::put_SignalPolarisation method
+title: IDVBSLocator::put_SignalPolarisation
 author: windows-driver-content
 description: The put_SignalPolarisation method sets the signal polarisation.
 old-location: mstv\idvbslocator_put_signalpolarisation.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cc94c956-6895-451a-8d1c-2001a6fbec63
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBSLocator, IDVBSLocator interface [Microsoft TV Technologies], put_SignalPolarisation method, IDVBSLocator::put_SignalPolarisation, IDVBSLocatorput_SignalPolarisation, mstv.idvbslocator_put_signalpolarisation, put_SignalPolarisation method [Microsoft TV Technologies], put_SignalPolarisation method [Microsoft TV Technologies], IDVBSLocator interface, put_SignalPolarisation,IDVBSLocator.put_SignalPolarisation, tuner/IDVBSLocator::put_SignalPolarisation
+ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_SignalPolarisation method, IDVBSLocator.put_SignalPolarisation, IDVBSLocator::put_SignalPolarisation, IDVBSLocatorput_SignalPolarisation, mstv.idvbslocator_put_signalpolarisation, put_SignalPolarisation, put_SignalPolarisation method [Microsoft TV Technologies], put_SignalPolarisation method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_SignalPolarisation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBSLocator::put_SignalPolarisation method
+# IDVBSLocator::put_SignalPolarisation
 
 
 ## -description

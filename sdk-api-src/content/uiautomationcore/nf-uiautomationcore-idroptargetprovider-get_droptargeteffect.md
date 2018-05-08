@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IDropTargetProvider.get_DropTargetEffect
-title: IDropTargetProvider::get_DropTargetEffect method
+title: IDropTargetProvider::get_DropTargetEffect
 author: windows-driver-content
 description: Retrieves a localized string that describes the effect that happens when the user drops the grabbed element on this drop target.
 old-location: winauto\uiauto_idroptargetprovider_droptargeteffect.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: F94D0513-543D-4B9D-A665-2197349C3B55
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DropTargetEffect property [Windows Accessibility], DropTargetEffect property [Windows Accessibility], IDropTargetProvider interface, IDropTargetProvider, IDropTargetProvider interface [Windows Accessibility], DropTargetEffect property, IDropTargetProvider.DropTargetEffect, IDropTargetProvider::get_DropTargetEffect, get_DropTargetEffect,IDropTargetProvider.get_DropTargetEffect, uiautomationcore/IDropTargetProvider::DropTargetEffect, uiautomationcore/IDropTargetProvider::get_DropTargetEffect, winauto.uiauto_idroptargetprovider_droptargeteffect
+ms.keywords: DropTargetEffect property [Windows Accessibility], DropTargetEffect property [Windows Accessibility],IDropTargetProvider interface, IDropTargetProvider interface [Windows Accessibility],DropTargetEffect property, IDropTargetProvider.DropTargetEffect, IDropTargetProvider.get_DropTargetEffect, IDropTargetProvider::DropTargetEffect, IDropTargetProvider::get_DropTargetEffect, get_DropTargetEffect, uiautomationcore/IDropTargetProvider::DropTargetEffect, uiautomationcore/IDropTargetProvider::get_DropTargetEffect, winauto.uiauto_idroptargetprovider_droptargeteffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDropTargetProvider::get_DropTargetEffect method
+# IDropTargetProvider::get_DropTargetEffect
 
 
 ## -description

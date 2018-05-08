@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.AddRefHfont
-title: IFont::AddRefHfont method
+title: IFont::AddRefHfont
 author: windows-driver-content
 description: Notifies the font object that the previously realized font identified with hFont should remain valid until ReleaseHfont is called or the font object itself is released completely.
 old-location: com\ifont_addrefhfont.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f86d52b8-e763-4948-b853-039721ae9b38
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: AddRefHfont method [COM], AddRefHfont method [COM], IFont interface, AddRefHfont,IFont.AddRefHfont, IFont, IFont interface [COM], AddRefHfont method, IFont::AddRefHfont, _ctrl_ifont_addrefhfont, com.ifont_addrefhfont, ocidl/IFont::AddRefHfont
+ms.keywords: AddRefHfont, AddRefHfont method [COM], AddRefHfont method [COM],IFont interface, IFont interface [COM],AddRefHfont method, IFont.AddRefHfont, IFont::AddRefHfont, _ctrl_ifont_addrefhfont, com.ifont_addrefhfont, ocidl/IFont::AddRefHfont
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFont::AddRefHfont method
+# IFont::AddRefHfont
 
 
 ## -description

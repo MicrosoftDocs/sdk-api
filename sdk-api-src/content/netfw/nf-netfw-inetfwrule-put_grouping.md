@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule.put_Grouping
-title: INetFwRule::put_Grouping method
+title: INetFwRule::put_Grouping
 author: windows-driver-content
 description: Specifies the group to which an individual rule belongs.
 old-location: ics\inetfwrule_grouping.htm
 old-project: ICS
 ms.assetid: 325b0c1d-3988-44ed-931c-6eed835f8c50
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Grouping property [ICS/ICF], Grouping property [ICS/ICF], INetFwRule interface, INetFwRule, INetFwRule interface [ICS/ICF], Grouping property, INetFwRule.Grouping, INetFwRule::get_Grouping, INetFwRule::put_Grouping, ics.inetfwrule_grouping, netfw/INetFwRule::Grouping, netfw/INetFwRule::get_Grouping, netfw/INetFwRule::put_Grouping, put_Grouping,INetFwRule.put_Grouping
+ms.date: 5/1/2018
+ms.keywords: Grouping property [ICS/ICF], Grouping property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Grouping property, INetFwRule.Grouping, INetFwRule.put_Grouping, INetFwRule::Grouping, INetFwRule::get_Grouping, INetFwRule::put_Grouping, ics.inetfwrule_grouping, netfw/INetFwRule::Grouping, netfw/INetFwRule::get_Grouping, netfw/INetFwRule::put_Grouping, put_Grouping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule::put_Grouping method
+# INetFwRule::put_Grouping
 
 
 ## -description

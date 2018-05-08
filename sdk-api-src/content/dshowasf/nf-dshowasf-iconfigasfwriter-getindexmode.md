@@ -1,14 +1,14 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.GetIndexMode
-title: IConfigAsfWriter::GetIndexMode method
+title: IConfigAsfWriter::GetIndexMode
 author: windows-driver-content
 description: The GetIndexMode method retrieves the current index mode.
 old-location: dshow\iconfigasfwriter_getindexmode.htm
 old-project: DirectShow
 ms.assetid: 70d9a2e7-2f5a-4f87-b42c-3a225c42a44b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetIndexMode method [DirectShow], GetIndexMode method [DirectShow], IConfigAsfWriter interface, GetIndexMode,IConfigAsfWriter.GetIndexMode, IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], GetIndexMode method, IConfigAsfWriter::GetIndexMode, IConfigAsfWriterGetIndexMode, dshow.iconfigasfwriter_getindexmode, dshowasf/IConfigAsfWriter::GetIndexMode
+ms.date: 4/30/2018
+ms.keywords: GetIndexMode, GetIndexMode method [DirectShow], GetIndexMode method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetIndexMode method, IConfigAsfWriter.GetIndexMode, IConfigAsfWriter::GetIndexMode, IConfigAsfWriterGetIndexMode, dshow.iconfigasfwriter_getindexmode, dshowasf/IConfigAsfWriter::GetIndexMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IConfigAsfWriter::GetIndexMode method
+# IConfigAsfWriter::GetIndexMode
 
 
 ## -description

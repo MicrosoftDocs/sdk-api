@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_TargetMachine
-title: IAzAuthorizationStore::get_TargetMachine method
+title: IAzAuthorizationStore::get_TargetMachine
 author: windows-driver-content
 description: Retrieves the name of the computer on which account resolution should occur.
 old-location: security\azauthorizationstore_targetmachine.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 60c3c23a-4721-4f0d-8380-e95b6170c804
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzAuthorizationStore object [Security], TargetMachine property, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], TargetMachine property, IAzAuthorizationStore.TargetMachine, IAzAuthorizationStore::get_TargetMachine, TargetMachine property [Security], TargetMachine property [Security], AzAuthorizationStore object, TargetMachine property [Security], IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::TargetMachine, azroles/IAzAuthorizationStore::get_TargetMachine, get_TargetMachine,IAzAuthorizationStore.get_TargetMachine, security.azauthorizationstore_targetmachine
+ms.keywords: AzAuthorizationStore object [Security],TargetMachine property, IAzAuthorizationStore interface [Security],TargetMachine property, IAzAuthorizationStore.TargetMachine, IAzAuthorizationStore.get_TargetMachine, IAzAuthorizationStore::TargetMachine, IAzAuthorizationStore::get_TargetMachine, TargetMachine property [Security], TargetMachine property [Security],AzAuthorizationStore object, TargetMachine property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::TargetMachine, azroles/IAzAuthorizationStore::get_TargetMachine, get_TargetMachine, security.azauthorizationstore_targetmachine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::get_TargetMachine method
+# IAzAuthorizationStore::get_TargetMachine
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetInputProcessorProfiles
-title: ITfLangBarMgr::GetInputProcessorProfiles method
+title: ITfLangBarMgr::GetInputProcessorProfiles
 author: windows-driver-content
 description: ITfLangBarMgr::GetInputProcessorProfiles method
 old-location: tsf\itflangbarmgr_getinputprocessorprofiles.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 679d101b-b3f9-4771-9c68-729a6a3486de
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetInputProcessorProfiles method [Text Services Framework], GetInputProcessorProfiles method [Text Services Framework], ITfLangBarMgr interface, GetInputProcessorProfiles,ITfLangBarMgr.GetInputProcessorProfiles, ITfLangBarMgr, ITfLangBarMgr interface [Text Services Framework], GetInputProcessorProfiles method, ITfLangBarMgr::GetInputProcessorProfiles, _tsf_itflangbarmgr_getinputprocessorprofiles_ref, ctfutb/ITfLangBarMgr::GetInputProcessorProfiles, tsf.itflangbarmgr_getinputprocessorprofiles
+ms.keywords: GetInputProcessorProfiles, GetInputProcessorProfiles method [Text Services Framework], GetInputProcessorProfiles method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetInputProcessorProfiles method, ITfLangBarMgr.GetInputProcessorProfiles, ITfLangBarMgr::GetInputProcessorProfiles, _tsf_itflangbarmgr_getinputprocessorprofiles_ref, ctfutb/ITfLangBarMgr::GetInputProcessorProfiles, tsf.itflangbarmgr_getinputprocessorprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarMgr::GetInputProcessorProfiles method
+# ITfLangBarMgr::GetInputProcessorProfiles
 
 
 ## -description

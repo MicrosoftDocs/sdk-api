@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.Open
-title: ISpatialAudioMetadataCopier::Open method
+title: ISpatialAudioMetadataCopier::Open
 author: windows-driver-content
 description: Opens an ISpatialAudioMetadataItems object for copying.
 old-location: coreaudio\ispatialaudiometadatacopier_open.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: F2D077EF-89B0-4BD6-85FB-F0AF63F1986D
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ISpatialAudioMetadataCopier, ISpatialAudioMetadataCopier interface [Core Audio], Open method, ISpatialAudioMetadataCopier::Open, Open method [Core Audio], Open method [Core Audio], ISpatialAudioMetadataCopier interface, Open,ISpatialAudioMetadataCopier.Open, coreaudio.ispatialaudiometadatacopier_open, spatialaudiometadata/ISpatialAudioMetadataCopier::Open
+ms.keywords: ISpatialAudioMetadataCopier interface [Core Audio],Open method, ISpatialAudioMetadataCopier.Open, ISpatialAudioMetadataCopier::Open, Open, Open method [Core Audio], Open method [Core Audio],ISpatialAudioMetadataCopier interface, coreaudio.ispatialaudiometadatacopier_open, spatialaudiometadata/ISpatialAudioMetadataCopier::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataCopier::Open method
+# ISpatialAudioMetadataCopier::Open
 
 
 ## -description

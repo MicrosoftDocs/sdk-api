@@ -7,7 +7,7 @@ old-location: winrt\datetime.htm
 old-project: WinRT
 ms.assetid: b5533002-8a72-438d-a3d3-0902ffc21830
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: DateTime, DateTime structure [Windows Runtime], windows/DateTime, winrt.datetime
 ms.prod: windows-hardware
 ms.technology: windows-devices

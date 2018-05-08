@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetPalette
-title: ITextHost2::TxGetPalette method
+title: ITextHost2::TxGetPalette
 author: windows-driver-content
 description: Retrieves the color palette of the rich edit control.
 old-location: controls\itexthost2_txgetpalette.htm
 old-project: Controls
 ms.assetid: A9881BE7-0434-40EF-9BD8-AB8EF4E31582
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], TxGetPalette method, ITextHost2::TxGetPalette, TxGetPalette method [Windows Controls], TxGetPalette method [Windows Controls], ITextHost2 interface, TxGetPalette,ITextHost2.TxGetPalette, controls.itexthost2_txgetpalette, textserv/ITextHost2::TxGetPalette
+ms.date: 4/27/2018
+ms.keywords: ITextHost2 interface [Windows Controls],TxGetPalette method, ITextHost2.TxGetPalette, ITextHost2::TxGetPalette, TxGetPalette, TxGetPalette method [Windows Controls], TxGetPalette method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetpalette, textserv/ITextHost2::TxGetPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost2::TxGetPalette method
+# ITextHost2::TxGetPalette
 
 
 ## -description

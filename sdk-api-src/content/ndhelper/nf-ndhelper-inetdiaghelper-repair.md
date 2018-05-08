@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Repair
-title: INetDiagHelper::Repair method
+title: INetDiagHelper::Repair
 author: windows-driver-content
 description: Performs a repair specified by the input parameter.
 old-location: ndf\inetdiaghelpe_repair.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 1892cbc8-01fd-4536-b29e-de733b0f6732
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: INetDiagHelper, INetDiagHelper interface [NDF], Repair method, INetDiagHelper::Repair, Repair method [NDF], Repair method [NDF], INetDiagHelper interface, Repair,INetDiagHelper.Repair, ndf.inetdiaghelpe_repair, ndhelper/INetDiagHelper::Repair
+ms.keywords: INetDiagHelper interface [NDF],Repair method, INetDiagHelper.Repair, INetDiagHelper::Repair, Repair, Repair method [NDF], Repair method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_repair, ndhelper/INetDiagHelper::Repair
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::Repair method
+# INetDiagHelper::Repair
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnAttrsChange
-title: ITextStoreACPSink::OnAttrsChange method
+title: ITextStoreACPSink::OnAttrsChange
 author: windows-driver-content
 description: ITextStoreACPSink::OnAttrsChange method
 old-location: tsf\itextstoreacpsink_onattrschange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: ae1e5f92-7462-46b4-b4dd-5032147de688
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACPSink, ITextStoreACPSink interface [Text Services Framework], OnAttrsChange method, ITextStoreACPSink::OnAttrsChange, OnAttrsChange method [Text Services Framework], OnAttrsChange method [Text Services Framework], ITextStoreACPSink interface, OnAttrsChange,ITextStoreACPSink.OnAttrsChange, _tsf_itextstoreacpsink_onattrschange_ref, textstor/ITextStoreACPSink::OnAttrsChange, tsf.itextstoreacpsink_onattrschange
+ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnAttrsChange method, ITextStoreACPSink.OnAttrsChange, ITextStoreACPSink::OnAttrsChange, OnAttrsChange, OnAttrsChange method [Text Services Framework], OnAttrsChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onattrschange_ref, textstor/ITextStoreACPSink::OnAttrsChange, tsf.itextstoreacpsink_onattrschange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACPSink::OnAttrsChange method
+# ITextStoreACPSink::OnAttrsChange
 
 
 ## -description

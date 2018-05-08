@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsStoragePool.QueryAllocatedStoragePools
-title: IVdsStoragePool::QueryAllocatedStoragePools method
+title: IVdsStoragePool::QueryAllocatedStoragePools
 author: windows-driver-content
 description: Returns an object that enumerates the allocated storage pools that are managed by the provider.
 old-location: base\ivdsstoragepool_queryallocatedstoragepools.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 7b6c447a-35e1-48ff-951c-b13ff5584c76
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsStoragePool, IVdsStoragePool interface, QueryAllocatedStoragePools method, IVdsStoragePool::QueryAllocatedStoragePools, QueryAllocatedStoragePools method, QueryAllocatedStoragePools method, IVdsStoragePool interface, QueryAllocatedStoragePools,IVdsStoragePool.QueryAllocatedStoragePools, base.ivdsstoragepool_queryallocatedstoragepools, vds/IVdsStoragePool::QueryAllocatedStoragePools, vdshwprv/IVdsStoragePool::QueryAllocatedStoragePools
+ms.keywords: IVdsStoragePool interface,QueryAllocatedStoragePools method, IVdsStoragePool.QueryAllocatedStoragePools, IVdsStoragePool::QueryAllocatedStoragePools, QueryAllocatedStoragePools, QueryAllocatedStoragePools method, QueryAllocatedStoragePools method,IVdsStoragePool interface, base.ivdsstoragepool_queryallocatedstoragepools, vds/IVdsStoragePool::QueryAllocatedStoragePools, vdshwprv/IVdsStoragePool::QueryAllocatedStoragePools
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsStoragePool::QueryAllocatedStoragePools method
+# IVdsStoragePool::QueryAllocatedStoragePools
 
 
 ## -description

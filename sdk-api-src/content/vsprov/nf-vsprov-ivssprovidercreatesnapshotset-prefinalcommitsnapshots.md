@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots
-title: IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots method
+title: IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
 author: windows-driver-content
 description: Enables providers to support auto-recover shadow copies.
 old-location: base\ivssprovidercreatesnapshotset_prefinalcommitsnapshots.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 6d6895b9-6e6c-4c4c-b7c9-a4eff771567a
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], PreFinalCommitSnapshots method, IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots, PreFinalCommitSnapshots method [VSS], PreFinalCommitSnapshots method [VSS], IVssProviderCreateSnapshotSet interface, PreFinalCommitSnapshots,IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots, base.ivssprovidercreatesnapshotset_prefinalcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
+ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PreFinalCommitSnapshots method, IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots, IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots, PreFinalCommitSnapshots, PreFinalCommitSnapshots method [VSS], PreFinalCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_prefinalcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots method
+# IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
 
 
 ## -description

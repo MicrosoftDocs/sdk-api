@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.DoDefaultAction
-title: IUIAutomationLegacyIAccessiblePattern::DoDefaultAction method
+title: IUIAutomationLegacyIAccessiblePattern::DoDefaultAction
 author: windows-driver-content
 description: Performs the Microsoft Active Accessibility default action for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: b518a835-02f5-48ce-a70b-792abf8b4306
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DoDefaultAction method [Windows Accessibility], DoDefaultAction method [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, DoDefaultAction,IUIAutomationLegacyIAccessiblePattern.DoDefaultAction, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], DoDefaultAction method, IUIAutomationLegacyIAccessiblePattern::DoDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::DoDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction
+ms.keywords: DoDefaultAction, DoDefaultAction method [Windows Accessibility], DoDefaultAction method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],DoDefaultAction method, IUIAutomationLegacyIAccessiblePattern.DoDefaultAction, IUIAutomationLegacyIAccessiblePattern::DoDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::DoDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationLegacyIAccessiblePattern::DoDefaultAction method
+# IUIAutomationLegacyIAccessiblePattern::DoDefaultAction
 
 
 ## -description

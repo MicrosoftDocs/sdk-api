@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnPushContext
-title: ITfThreadMgrEventSink::OnPushContext method
+title: ITfThreadMgrEventSink::OnPushContext
 author: windows-driver-content
 description: ITfThreadMgrEventSink::OnPushContext method
 old-location: tsf\itfthreadmgreventsink_onpushcontext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 80fbb861-1a12-4a9a-8f96-332c2f736f2d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfThreadMgrEventSink, ITfThreadMgrEventSink interface [Text Services Framework], OnPushContext method, ITfThreadMgrEventSink::OnPushContext, OnPushContext method [Text Services Framework], OnPushContext method [Text Services Framework], ITfThreadMgrEventSink interface, OnPushContext,ITfThreadMgrEventSink.OnPushContext, _tsf_itfthreadmgreventsink_onpushcontext_ref, msctf/ITfThreadMgrEventSink::OnPushContext, tsf.itfthreadmgreventsink_onpushcontext
+ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnPushContext method, ITfThreadMgrEventSink.OnPushContext, ITfThreadMgrEventSink::OnPushContext, OnPushContext, OnPushContext method [Text Services Framework], OnPushContext method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onpushcontext_ref, msctf/ITfThreadMgrEventSink::OnPushContext, tsf.itfthreadmgreventsink_onpushcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgrEventSink::OnPushContext method
+# ITfThreadMgrEventSink::OnPushContext
 
 
 ## -description

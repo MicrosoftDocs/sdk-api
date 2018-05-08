@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertySystem.GetPropertyDescription
-title: IPropertySystem::GetPropertyDescription method
+title: IPropertySystem::GetPropertyDescription
 author: windows-driver-content
 description: Gets an instance of the subsystem object that implements IPropertyDescription, to obtain the property description for a given PROPERTYKEY.
 old-location: properties\IPropertySystem_GetPropertyDescription.htm
 old-project: properties
 ms.assetid: c26f6f7e-7ed1-4a97-a9b0-63197ee7b43a
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetPropertyDescription method [Windows Properties], GetPropertyDescription method [Windows Properties], IPropertySystem interface, GetPropertyDescription,IPropertySystem.GetPropertyDescription, IPropertySystem, IPropertySystem interface [Windows Properties], GetPropertyDescription method, IPropertySystem::GetPropertyDescription, properties.IPropertySystem_GetPropertyDescription, propsys/IPropertySystem::GetPropertyDescription, shell.IPropertySystem_GetPropertyDescription, shell_IPropertySystem_GetPropertyDescription
+ms.date: 4/27/2018
+ms.keywords: GetPropertyDescription, GetPropertyDescription method [Windows Properties], GetPropertyDescription method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescription method, IPropertySystem.GetPropertyDescription, IPropertySystem::GetPropertyDescription, properties.IPropertySystem_GetPropertyDescription, propsys/IPropertySystem::GetPropertyDescription, shell.IPropertySystem_GetPropertyDescription, shell_IPropertySystem_GetPropertyDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertySystem::GetPropertyDescription method
+# IPropertySystem::GetPropertyDescription
 
 
 ## -description

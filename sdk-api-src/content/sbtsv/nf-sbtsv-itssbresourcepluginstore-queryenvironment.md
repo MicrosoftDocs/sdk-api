@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.QueryEnvironment
-title: ITsSbResourcePluginStore::QueryEnvironment method
+title: ITsSbResourcePluginStore::QueryEnvironment
 author: windows-driver-content
 description: Returns the specified environment object.
 old-location: termserv\itssbresourcepluginstore_queryenvironment.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 1497c638-ba9d-467e-8fbb-8467a43666cc
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], QueryEnvironment method, ITsSbResourcePluginStore::QueryEnvironment, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], QueryEnvironment method, ITsSbResourcePluginStoreEx::QueryEnvironment, QueryEnvironment method [Remote Desktop Services], QueryEnvironment method [Remote Desktop Services], ITsSbResourcePluginStore interface, QueryEnvironment method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, QueryEnvironment,ITsSbResourcePluginStore.QueryEnvironment, sbtsv/ITsSbResourcePluginStore::QueryEnvironment, sbtsv/ITsSbResourcePluginStoreEx::QueryEnvironment, termserv.itssbresourcepluginstore_queryenvironment
+ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],QueryEnvironment method, ITsSbResourcePluginStore.QueryEnvironment, ITsSbResourcePluginStore::QueryEnvironment, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],QueryEnvironment method, ITsSbResourcePluginStoreEx::QueryEnvironment, QueryEnvironment, QueryEnvironment method [Remote Desktop Services], QueryEnvironment method [Remote Desktop Services],ITsSbResourcePluginStore interface, QueryEnvironment method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::QueryEnvironment, sbtsv/ITsSbResourcePluginStoreEx::QueryEnvironment, termserv.itssbresourcepluginstore_queryenvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::QueryEnvironment method
+# ITsSbResourcePluginStore::QueryEnvironment
 
 
 ## -description

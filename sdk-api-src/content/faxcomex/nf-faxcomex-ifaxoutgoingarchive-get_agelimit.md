@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.get_AgeLimit
-title: IFaxOutgoingArchive::get_AgeLimit method
+title: IFaxOutgoingArchive::get_AgeLimit
 author: windows-driver-content
 description: The AgeLimit property is a value that indicates the number of days that the fax service retains fax messages in the archive of outbound faxes.
 old-location: fax\_mfax_faxoutgoingarchive_agelimit_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_69mc.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service], FaxOutgoingArchive object, FaxOutgoingArchive object [Fax Service], AgeLimit property, IFaxOutgoingArchive, IFaxOutgoingArchive::get_AgeLimit, _mfax_faxoutgoingarchive.agelimit, fax._mfax_faxoutgoingarchive_agelimit, fax._mfax_faxoutgoingarchive_agelimit_vb, get_AgeLimit,IFaxOutgoingArchive.get_AgeLimit
+ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],FaxOutgoingArchive object, FaxOutgoingArchive object [Fax Service],AgeLimit property, FaxOutgoingArchive.AgeLimit, IFaxOutgoingArchive.get_AgeLimit, IFaxOutgoingArchive::get_AgeLimit, _mfax_faxoutgoingarchive.agelimit, fax._mfax_faxoutgoingarchive_agelimit, fax._mfax_faxoutgoingarchive_agelimit_vb, get_AgeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutgoingArchive::get_AgeLimit method
+# IFaxOutgoingArchive::get_AgeLimit
 
 
 ## -description

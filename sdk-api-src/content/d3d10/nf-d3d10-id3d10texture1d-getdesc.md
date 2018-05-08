@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Texture1D.GetDesc
-title: ID3D10Texture1D::GetDesc method
+title: ID3D10Texture1D::GetDesc
 author: windows-driver-content
 description: Get the properties of the texture resource.
 old-location: direct3d10\id3d10texture1d_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture1d_getdesc.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetDesc method [Direct3D 10], GetDesc method [Direct3D 10], ID3D10Texture1D interface, GetDesc,ID3D10Texture1D.GetDesc, ID3D10Texture1D, ID3D10Texture1D interface [Direct3D 10], GetDesc method, ID3D10Texture1D::GetDesc, d3d10/ID3D10Texture1D::GetDesc, direct3d10.id3d10texture1d_getdesc, e161a409-5177-1fd7-fcce-004736f62d94
+ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Texture1D interface, ID3D10Texture1D interface [Direct3D 10],GetDesc method, ID3D10Texture1D.GetDesc, ID3D10Texture1D::GetDesc, d3d10/ID3D10Texture1D::GetDesc, direct3d10.id3d10texture1d_getdesc, e161a409-5177-1fd7-fcce-004736f62d94
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Texture1D::GetDesc method
+# ID3D10Texture1D::GetDesc
 
 
 ## -description

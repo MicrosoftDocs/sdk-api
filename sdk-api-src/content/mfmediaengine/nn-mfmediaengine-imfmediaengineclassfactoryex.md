@@ -7,8 +7,8 @@ old-location: mf\imfmediaengineclassfactoryex.htm
 old-project: medfound
 ms.assetid: d672ee59-f702-49c7-8ccf-5ba0260c9b23
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngineClassFactoryEx, IMFMediaEngineClassFactoryEx interface [Media Foundation], IMFMediaEngineClassFactoryEx interface [Media Foundation], described, mf.imfmediaengineclassfactoryex, mfmediaengine/IMFMediaEngineClassFactoryEx
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngineClassFactoryEx, IMFMediaEngineClassFactoryEx interface [Media Foundation], IMFMediaEngineClassFactoryEx interface [Media Foundation],described, mf.imfmediaengineclassfactoryex, mfmediaengine/IMFMediaEngineClassFactoryEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

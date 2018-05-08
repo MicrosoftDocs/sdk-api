@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetBitrate
-title: IWMStreamConfig::SetBitrate method
+title: IWMStreamConfig::SetBitrate
 author: windows-driver-content
 description: The SetBitrate method specifies the bit rate for the stream.
 old-location: wmformat\iwmstreamconfig_setbitrate.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 202be688-e739-4e80-9574-f85b2eb168fc
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMStreamConfig, IWMStreamConfig interface [windows Media Format], SetBitrate method, IWMStreamConfig::SetBitrate, IWMStreamConfigSetBitrate, SetBitrate method [windows Media Format], SetBitrate method [windows Media Format], IWMStreamConfig interface, SetBitrate,IWMStreamConfig.SetBitrate, wmformat.iwmstreamconfig_setbitrate, wmsdkidl/IWMStreamConfig::SetBitrate
+ms.keywords: IWMStreamConfig interface [windows Media Format],SetBitrate method, IWMStreamConfig.SetBitrate, IWMStreamConfig::SetBitrate, IWMStreamConfigSetBitrate, SetBitrate, SetBitrate method [windows Media Format], SetBitrate method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setbitrate, wmsdkidl/IWMStreamConfig::SetBitrate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig::SetBitrate method
+# IWMStreamConfig::SetBitrate
 
 
 ## -description

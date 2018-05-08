@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.GetUserData
-title: ISettingsContext::GetUserData method
+title: ISettingsContext::GetUserData
 author: windows-driver-content
 description: Gets a user-defined data.
 old-location: smi\isettingscontext_getuserdata.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 9054edee-9751-4aaa-a9bb-65badfb34fc6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetUserData method [SMI], GetUserData method [SMI], ISettingsContext interface, GetUserData,ISettingsContext.GetUserData, ISettingsContext, ISettingsContext interface [SMI], GetUserData method, ISettingsContext::GetUserData, smi.isettingscontext_getuserdata, wcmconfig/ISettingsContext::GetUserData
+ms.keywords: GetUserData, GetUserData method [SMI], GetUserData method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],GetUserData method, ISettingsContext.GetUserData, ISettingsContext::GetUserData, smi.isettingscontext_getuserdata, wcmconfig/ISettingsContext::GetUserData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsContext::GetUserData method
+# ISettingsContext::GetUserData
 
 
 ## -description

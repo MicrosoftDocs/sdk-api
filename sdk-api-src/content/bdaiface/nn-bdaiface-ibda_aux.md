@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8397a04f-5d40-4fa3-ac02-79c764abd174
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_AUX, IBDA_AUX interface [Microsoft TV Technologies], IBDA_AUX interface [Microsoft TV Technologies], described, bdaiface/IBDA_AUX, mstv.ibda_aux
+ms.keywords: IBDA_AUX, IBDA_AUX interface [Microsoft TV Technologies], IBDA_AUX interface [Microsoft TV Technologies],described, bdaiface/IBDA_AUX, mstv.ibda_aux
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

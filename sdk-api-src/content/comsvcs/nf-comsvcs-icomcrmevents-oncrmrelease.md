@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMRelease
-title: IComCRMEvents::OnCRMRelease method
+title: IComCRMEvents::OnCRMRelease
 author: windows-driver-content
 description: Generated when the CRM clerk is finished and releases its resource locks.
 old-location: cos\icomcrmevents_oncrmrelease.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: e97b6cbf-1e78-475b-9dc7-baa4c05f1a6b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMRelease method, IComCRMEvents::OnCRMRelease, OnCRMRelease method [COM+], OnCRMRelease method [COM+], IComCRMEvents interface, OnCRMRelease,IComCRMEvents.OnCRMRelease, _dtc_IComCRMEvents_OnCRMRelease, comsvcs/IComCRMEvents::OnCRMRelease, cos.icomcrmevents_oncrmrelease
+ms.keywords: IComCRMEvents interface [COM+],OnCRMRelease method, IComCRMEvents.OnCRMRelease, IComCRMEvents::OnCRMRelease, OnCRMRelease, OnCRMRelease method [COM+], OnCRMRelease method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRelease, comsvcs/IComCRMEvents::OnCRMRelease, cos.icomcrmevents_oncrmrelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComCRMEvents::OnCRMRelease method
+# IComCRMEvents::OnCRMRelease
 
 
 ## -description

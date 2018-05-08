@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.GetInfo
-title: IAMDevMemoryAllocator::GetInfo method
+title: IAMDevMemoryAllocator::GetInfo
 author: windows-driver-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Retrieves information about the memory capabilities.
 old-location: dshow\iamdevmemoryallocator_getinfo.htm
 old-project: DirectShow
 ms.assetid: ee3070ed-98df-4f20-a91f-bb3c3492f3d8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetInfo method [DirectShow], GetInfo method [DirectShow], IAMDevMemoryAllocator interface, GetInfo,IAMDevMemoryAllocator.GetInfo, IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow], GetInfo method, IAMDevMemoryAllocator::GetInfo, IAMDevMemoryAllocatorGetInfo, dshow.iamdevmemoryallocator_getinfo, strmif/IAMDevMemoryAllocator::GetInfo
+ms.date: 4/30/2018
+ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],GetInfo method, IAMDevMemoryAllocator.GetInfo, IAMDevMemoryAllocator::GetInfo, IAMDevMemoryAllocatorGetInfo, dshow.iamdevmemoryallocator_getinfo, strmif/IAMDevMemoryAllocator::GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMDevMemoryAllocator::GetInfo method
+# IAMDevMemoryAllocator::GetInfo
 
 
 ## -description

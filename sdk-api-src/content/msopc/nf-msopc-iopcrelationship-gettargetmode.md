@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetTargetMode
-title: IOpcRelationship::GetTargetMode method
+title: IOpcRelationship::GetTargetMode
 author: windows-driver-content
 description: Gets a value that describes whether the relationship's target is internal or external to the package.
 old-location: opc\iopcrelationship_gettargetmode.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 5fb103c9-cb73-46b3-9102-6811d6673faf
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetTargetMode method [Open Packaging Conventions], GetTargetMode method [Open Packaging Conventions], IOpcRelationship interface, GetTargetMode,IOpcRelationship.GetTargetMode, IOpcRelationship, IOpcRelationship interface [Open Packaging Conventions], GetTargetMode method, IOpcRelationship::GetTargetMode, msopc/IOpcRelationship::GetTargetMode, opc.iopcrelationship_gettargetmode
+ms.keywords: GetTargetMode, GetTargetMode method [Open Packaging Conventions], GetTargetMode method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetTargetMode method, IOpcRelationship.GetTargetMode, IOpcRelationship::GetTargetMode, msopc/IOpcRelationship::GetTargetMode, opc.iopcrelationship_gettargetmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcRelationship::GetTargetMode method
+# IOpcRelationship::GetTargetMode
 
 
 ## -description

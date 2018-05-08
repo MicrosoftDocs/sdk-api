@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleParentUndoUnit.GetParentState
-title: IOleParentUndoUnit::GetParentState method
+title: IOleParentUndoUnit::GetParentState
 author: windows-driver-content
 description: Retrieves state information about the innermost open parent undo unit.
 old-location: com\ioleparentundounit_getparentstate.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 23eb1768-b68a-4b97-94a4-eeb7b840dda8
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetParentState method [COM], GetParentState method [COM], IOleParentUndoUnit interface, GetParentState,IOleParentUndoUnit.GetParentState, IOleParentUndoUnit, IOleParentUndoUnit interface [COM], GetParentState method, IOleParentUndoUnit::GetParentState, _ole_ioleparentundounit_getparentstate, com.ioleparentundounit_getparentstate, ocidl/IOleParentUndoUnit::GetParentState
+ms.keywords: GetParentState, GetParentState method [COM], GetParentState method [COM],IOleParentUndoUnit interface, IOleParentUndoUnit interface [COM],GetParentState method, IOleParentUndoUnit.GetParentState, IOleParentUndoUnit::GetParentState, _ole_ioleparentundounit_getparentstate, com.ioleparentundounit_getparentstate, ocidl/IOleParentUndoUnit::GetParentState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleParentUndoUnit::GetParentState method
+# IOleParentUndoUnit::GetParentState
 
 
 ## -description

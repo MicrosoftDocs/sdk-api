@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CLUSPROP_SECURITY_DESCRIPTOR, *PCLUSPROP_SECURITY_DESCRIPTOR, CLUSPROP_SECURITY_DESCRIPTOR, *PCLUSPROP_SECURITY_DESCRIPTOR
+req.typenames: CLUSPROP_SECURITY_DESCRIPTOR, *PCLUSPROP_SECURITY_DESCRIPTOR
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -69,8 +69,7 @@ Describes a security descriptor. It is used as an entry in a
 ### -field DUMMYUNIONNAME
 
 
-
-#### sd
+### -field DUMMYUNIONNAME.sd
 
 Security descriptor in 
        <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> format. 
@@ -78,8 +77,7 @@ Security descriptor in
        <a href="https://msdn.microsoft.com/dab2844b-7df9-446c-aacf-380a0a805cbc">Absolute and Self-Relative Security Descriptors</a>.
 
 
-
-#### rgbSecurityDescriptor
+### -field DUMMYUNIONNAME.rgbSecurityDescriptor
 
 Byte array to address the entire security descriptor including the owner, group, SACL, and DACL fields (if 
        present) that follow the <b>SECURITY_DESCRIPTOR_RELATIVE</b> structure.

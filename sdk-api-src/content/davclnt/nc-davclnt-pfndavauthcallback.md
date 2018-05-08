@@ -8,7 +8,7 @@ old-project: WebDAV
 ms.assetid: 6ac191ac-e63f-431f-893b-92c69320db58
 ms.author: windowsdriverdev
 ms.date: 3/22/2018
-ms.keywords: DAV_AUTHN_SCHEME_BASIC, DAV_AUTHN_SCHEME_CERT, DAV_AUTHN_SCHEME_DIGEST, DAV_AUTHN_SCHEME_FBA, DAV_AUTHN_SCHEME_NEGOTIATE, DAV_AUTHN_SCHEME_NTLM, DAV_AUTHN_SCHEME_PASSPORT, DavAuthCallback, DavAuthCallback callback function [WebDAV], PFNDAVAUTHCALLBACK, davclnt/DavAuthCallback, webdav.authcallback
+ms.keywords: DAV_AUTHN_SCHEME_BASIC, DAV_AUTHN_SCHEME_CERT, DAV_AUTHN_SCHEME_DIGEST, DAV_AUTHN_SCHEME_FBA, DAV_AUTHN_SCHEME_NEGOTIATE, DAV_AUTHN_SCHEME_NTLM, DAV_AUTHN_SCHEME_PASSPORT, DavAuthCallback, DavAuthCallback callback function [WebDAV], PFNDAVAUTHCALLBACK, PFNDAVAUTHCALLBACK callback, davclnt/DavAuthCallback, webdav.authcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PFNDAVAUTHCALLBACK callback
+# PFNDAVAUTHCALLBACK callback function
 
 
 ## -description

@@ -1,0 +1,8 @@
+# [Using the Windows Headers](../_winprog/index.md)
+## [Editionupgradehelper.h](index.md)
+### [IEditionUpgradeHelper::CanUpgrade](../editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-canupgrade.md)
+### [IEditionUpgradeHelper::GetGenuineLocalStatus](../editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getgenuinelocalstatus.md)
+### [IEditionUpgradeHelper::GetOsProductContentId](../editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getosproductcontentid.md)
+### [IEditionUpgradeHelper::ShowProductKeyUI](../editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-showproductkeyui.md)
+### [IEditionUpgradeHelper::UpdateOperatingSystem](../editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-updateoperatingsystem.md)
+### [IEditionUpgradeHelper interface](../editionupgradehelper/nn-editionupgradehelper-ieditionupgradehelper.md)

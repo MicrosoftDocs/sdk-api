@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetRedirect
-title: IXblIdpAuthTokenResult::GetRedirect method
+title: IXblIdpAuthTokenResult::GetRedirect
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getredirect.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 4341F176-5C7C-42C1-8C17-FFBA293AFD53
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetRedirect method, GetRedirect method, IXblIdpAuthTokenResult interface, GetRedirect,IXblIdpAuthTokenResult.GetRedirect, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetRedirect method, IXblIdpAuthTokenResult::GetRedirect, xblidp.ixblidpauthtokenresult_getredirect, xblidpauthmanager/IXblIdpAuthTokenResult::GetRedirect
+ms.keywords: GetRedirect, GetRedirect method, GetRedirect method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetRedirect method, IXblIdpAuthTokenResult.GetRedirect, IXblIdpAuthTokenResult::GetRedirect, xblidp.ixblidpauthtokenresult_getredirect, xblidpauthmanager/IXblIdpAuthTokenResult::GetRedirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetRedirect method
+# IXblIdpAuthTokenResult::GetRedirect
 
 
 ## -description

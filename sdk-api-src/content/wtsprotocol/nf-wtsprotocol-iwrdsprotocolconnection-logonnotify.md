@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.LogonNotify
-title: IWRdsProtocolConnection::LogonNotify method
+title: IWRdsProtocolConnection::LogonNotify
 author: windows-driver-content
 description: Called when the user has logged on to the session.
 old-location: termserv\iwrdsprotocolconnection_logonnotify.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 2b6ce1cd-0e9f-465d-a5d6-e0d35bddebc4
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], LogonNotify method, IWRdsProtocolConnection::LogonNotify, LogonNotify method [Remote Desktop Services], LogonNotify method [Remote Desktop Services], IWRdsProtocolConnection interface, LogonNotify,IWRdsProtocolConnection.LogonNotify, termserv.iwrdsprotocolconnection_logonnotify, wtsprotocol/IWRdsProtocolConnection::LogonNotify
+ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],LogonNotify method, IWRdsProtocolConnection.LogonNotify, IWRdsProtocolConnection::LogonNotify, LogonNotify, LogonNotify method [Remote Desktop Services], LogonNotify method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_logonnotify, wtsprotocol/IWRdsProtocolConnection::LogonNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::LogonNotify method
+# IWRdsProtocolConnection::LogonNotify
 
 
 ## -description

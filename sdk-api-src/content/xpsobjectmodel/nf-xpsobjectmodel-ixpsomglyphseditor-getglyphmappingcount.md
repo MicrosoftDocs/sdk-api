@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetGlyphMappingCount
-title: IXpsOMGlyphsEditor::GetGlyphMappingCount method
+title: IXpsOMGlyphsEditor::GetGlyphMappingCount
 author: windows-driver-content
 description: Gets the number of glyph mappings.
 old-location: xps\ixpsomglyphseditor_getglyphmappingcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 06aa2546-c1d1-47d6-9d3d-94d13310e42b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetGlyphMappingCount method [XPS Documents and Packaging], GetGlyphMappingCount method [XPS Documents and Packaging], IXpsOMGlyphsEditor interface, GetGlyphMappingCount,IXpsOMGlyphsEditor.GetGlyphMappingCount, IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], GetGlyphMappingCount method, IXpsOMGlyphsEditor::GetGlyphMappingCount, xps.ixpsomglyphseditor_getglyphmappingcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphMappingCount
+ms.keywords: GetGlyphMappingCount, GetGlyphMappingCount method [XPS Documents and Packaging], GetGlyphMappingCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetGlyphMappingCount method, IXpsOMGlyphsEditor.GetGlyphMappingCount, IXpsOMGlyphsEditor::GetGlyphMappingCount, xps.ixpsomglyphseditor_getglyphmappingcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphMappingCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphsEditor::GetGlyphMappingCount method
+# IXpsOMGlyphsEditor::GetGlyphMappingCount
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfFunctionProvider.GetType
-title: ITfFunctionProvider::GetType method
+title: ITfFunctionProvider::GetType
 author: windows-driver-content
 description: ITfFunctionProvider::GetType method
 old-location: tsf\itffunctionprovider_gettype.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: fff9ad62-f777-423c-a59d-ebd7d99da6a9
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetType method [Text Services Framework], GetType method [Text Services Framework], ITfFunctionProvider interface, GetType,ITfFunctionProvider.GetType, ITfFunctionProvider, ITfFunctionProvider interface [Text Services Framework], GetType method, ITfFunctionProvider::GetType, _tsf_itffunctionprovider_gettype_ref, msctf/ITfFunctionProvider::GetType, tsf.itffunctionprovider_gettype
+ms.keywords: GetType, GetType method [Text Services Framework], GetType method [Text Services Framework],ITfFunctionProvider interface, ITfFunctionProvider interface [Text Services Framework],GetType method, ITfFunctionProvider.GetType, ITfFunctionProvider::GetType, _tsf_itffunctionprovider_gettype_ref, msctf/ITfFunctionProvider::GetType, tsf.itffunctionprovider_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfFunctionProvider::GetType method
+# ITfFunctionProvider::GetType
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.DisableWriterInstances
-title: IVssBackupComponents::DisableWriterInstances method
+title: IVssBackupComponents::DisableWriterInstances
 author: windows-driver-content
 description: The DisableWriterInstances method disables a specified writer instance or instances.
 old-location: base\ivssbackupcomponents_disablewriterinstances.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 746fb12d-83d7-463d-848d-36e095832d1a
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: DisableWriterInstances method [VSS], DisableWriterInstances method [VSS], IVssBackupComponents interface, DisableWriterInstances,IVssBackupComponents.DisableWriterInstances, IVssBackupComponents, IVssBackupComponents interface [VSS], DisableWriterInstances method, IVssBackupComponents::DisableWriterInstances, _win32_ivssbackupcomponents_disablewriterinstances, base.ivssbackupcomponents_disablewriterinstances, vsbackup/IVssBackupComponents::DisableWriterInstances
+ms.keywords: DisableWriterInstances, DisableWriterInstances method [VSS], DisableWriterInstances method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DisableWriterInstances method, IVssBackupComponents.DisableWriterInstances, IVssBackupComponents::DisableWriterInstances, _win32_ivssbackupcomponents_disablewriterinstances, base.ivssbackupcomponents_disablewriterinstances, vsbackup/IVssBackupComponents::DisableWriterInstances
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::DisableWriterInstances method
+# IVssBackupComponents::DisableWriterInstances
 
 
 ## -description

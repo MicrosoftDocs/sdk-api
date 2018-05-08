@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.DisplayConfigureDialog
-title: IPhotoAcquirePlugin::DisplayConfigureDialog method
+title: IPhotoAcquirePlugin::DisplayConfigureDialog
 author: windows-driver-content
 description: The DisplayConfigureDialog method provides extended functionality when the configuration dialog is displayed. The application provides the implementation of the DisplayConfigureDialog method.
 old-location: picacq\iphotoacquireplugin_displayconfiguredialog.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 74257374-15c8-4e83-b271-2fd133f4dd7b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DisplayConfigureDialog method [Picture Acquisition], DisplayConfigureDialog method [Picture Acquisition], IPhotoAcquirePlugin interface, DisplayConfigureDialog,IPhotoAcquirePlugin.DisplayConfigureDialog, IPhotoAcquirePlugin, IPhotoAcquirePlugin interface [Picture Acquisition], DisplayConfigureDialog method, IPhotoAcquirePlugin::DisplayConfigureDialog, IPhotoAcquirePluginDisplayConfigureDialog, photoacquire/IPhotoAcquirePlugin::DisplayConfigureDialog, picacq.iphotoacquireplugin_displayconfiguredialog
+ms.keywords: DisplayConfigureDialog, DisplayConfigureDialog method [Picture Acquisition], DisplayConfigureDialog method [Picture Acquisition],IPhotoAcquirePlugin interface, IPhotoAcquirePlugin interface [Picture Acquisition],DisplayConfigureDialog method, IPhotoAcquirePlugin.DisplayConfigureDialog, IPhotoAcquirePlugin::DisplayConfigureDialog, IPhotoAcquirePluginDisplayConfigureDialog, photoacquire/IPhotoAcquirePlugin::DisplayConfigureDialog, picacq.iphotoacquireplugin_displayconfiguredialog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquirePlugin::DisplayConfigureDialog method
+# IPhotoAcquirePlugin::DisplayConfigureDialog
 
 
 ## -description

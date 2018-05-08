@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.get_PayloadOffset
-title: IRDPSRAPITransportStreamBuffer::get_PayloadOffset method
+title: IRDPSRAPITransportStreamBuffer::get_PayloadOffset
 author: windows-driver-content
 description: Specifies the location in the stream buffer where the content starts.
 old-location: rdp\irdpsrapitransportstreambuffer_payloadoffset.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 2d684e5d-65b5-4216-8256-d861028220c4
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer interface [RDP], PayloadOffset property, IRDPSRAPITransportStreamBuffer.PayloadOffset, IRDPSRAPITransportStreamBuffer::get_PayloadOffset, IRDPSRAPITransportStreamBuffer::put_PayloadOffset, PayloadOffset property [RDP], PayloadOffset property [RDP], IRDPSRAPITransportStreamBuffer interface, get_PayloadOffset,IRDPSRAPITransportStreamBuffer.get_PayloadOffset, rdp.irdpsrapitransportstreambuffer_payloadoffset, rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadOffset, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_PayloadOffset, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadOffset
+ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],PayloadOffset property, IRDPSRAPITransportStreamBuffer.PayloadOffset, IRDPSRAPITransportStreamBuffer.get_PayloadOffset, IRDPSRAPITransportStreamBuffer::PayloadOffset, IRDPSRAPITransportStreamBuffer::get_PayloadOffset, IRDPSRAPITransportStreamBuffer::put_PayloadOffset, PayloadOffset property [RDP], PayloadOffset property [RDP],IRDPSRAPITransportStreamBuffer interface, get_PayloadOffset, rdp.irdpsrapitransportstreambuffer_payloadoffset, rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadOffset, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_PayloadOffset, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITransportStreamBuffer::get_PayloadOffset method
+# IRDPSRAPITransportStreamBuffer::get_PayloadOffset
 
 
 ## -description

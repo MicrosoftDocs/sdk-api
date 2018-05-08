@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdGraphBuilder.GetFiltergraph
-title: IDvdGraphBuilder::GetFiltergraph method
+title: IDvdGraphBuilder::GetFiltergraph
 author: windows-driver-content
 description: The GetFiltergraph method retrieves the IGraphBuilder interface for the filter graph used by the DVD-Video graph builder object.
 old-location: dshow\idvdgraphbuilder_getfiltergraph.htm
 old-project: DirectShow
 ms.assetid: 1f12140b-d10d-47d9-8bac-33fab084bff4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow], IDvdGraphBuilder interface, GetFiltergraph,IDvdGraphBuilder.GetFiltergraph, IDvdGraphBuilder, IDvdGraphBuilder interface [DirectShow], GetFiltergraph method, IDvdGraphBuilder::GetFiltergraph, IDvdGraphBuilderGetFiltergraph, dshow.idvdgraphbuilder_getfiltergraph, strmif/IDvdGraphBuilder::GetFiltergraph
+ms.date: 4/30/2018
+ms.keywords: GetFiltergraph, GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow],IDvdGraphBuilder interface, IDvdGraphBuilder interface [DirectShow],GetFiltergraph method, IDvdGraphBuilder.GetFiltergraph, IDvdGraphBuilder::GetFiltergraph, IDvdGraphBuilderGetFiltergraph, dshow.idvdgraphbuilder_getfiltergraph, strmif/IDvdGraphBuilder::GetFiltergraph
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdGraphBuilder::GetFiltergraph method
+# IDvdGraphBuilder::GetFiltergraph
 
 
 ## -description

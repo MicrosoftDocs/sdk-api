@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.MoveEndUntil
-title: ITextRange::MoveEndUntil method
+title: ITextRange::MoveEndUntil
 author: windows-driver-content
 description: Moves the range's end to the character position of the first character found that is in the set of characters specified by Cset, provided that the character is found within Count characters of the range's end.
 old-location: controls\ITextRange_MoveEndUntil.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveenduntil.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange, ITextRange interface [Windows Controls], MoveEndUntil method, ITextRange::MoveEndUntil, MoveEndUntil method [Windows Controls], MoveEndUntil method [Windows Controls], ITextRange interface, MoveEndUntil,ITextRange.MoveEndUntil, _win32_ITextRange_MoveEndUntil, _win32_ITextRange_MoveEndUntil_cpp, controls.ITextRange_MoveEndUntil, controls._win32_ITextRange_MoveEndUntil, tom/ITextRange::MoveEndUntil
+ms.date: 4/27/2018
+ms.keywords: ITextRange interface [Windows Controls],MoveEndUntil method, ITextRange.MoveEndUntil, ITextRange::MoveEndUntil, MoveEndUntil, MoveEndUntil method [Windows Controls], MoveEndUntil method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveEndUntil, _win32_ITextRange_MoveEndUntil_cpp, controls.ITextRange_MoveEndUntil, controls._win32_ITextRange_MoveEndUntil, tom/ITextRange::MoveEndUntil
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::MoveEndUntil method
+# ITextRange::MoveEndUntil
 
 
 ## -description

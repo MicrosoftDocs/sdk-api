@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.Abort
-title: IUPnPDescriptionDocument::Abort method
+title: IUPnPDescriptionDocument::Abort
 author: windows-driver-content
 description: The Abort method stops an asynchronous load operation started by IUPnPDescriptionDocument::LoadAsync.
 old-location: upnp\iupnpdescriptiondocument_abort.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: 26f5a7f0-7d29-47a6-9f43-6b0d921342ae
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Abort method [UPnP APIs], Abort method [UPnP APIs], IUPnPDescriptionDocument interface, Abort,IUPnPDescriptionDocument.Abort, IUPnPDescriptionDocument, IUPnPDescriptionDocument interface [UPnP APIs], Abort method, IUPnPDescriptionDocument::Abort, _upnp_iupnpdescriptiondocument_abort, upnp.iupnpdescriptiondocument_abort, upnp/IUPnPDescriptionDocument::Abort
+ms.keywords: Abort, Abort method [UPnP APIs], Abort method [UPnP APIs],IUPnPDescriptionDocument interface, IUPnPDescriptionDocument interface [UPnP APIs],Abort method, IUPnPDescriptionDocument.Abort, IUPnPDescriptionDocument::Abort, _upnp_iupnpdescriptiondocument_abort, upnp.iupnpdescriptiondocument_abort, upnp/IUPnPDescriptionDocument::Abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPDescriptionDocument::Abort method
+# IUPnPDescriptionDocument::Abort
 
 
 ## -description

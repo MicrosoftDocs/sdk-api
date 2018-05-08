@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.get_UserSid
-title: IFsrmFileScreen::get_UserSid method
+title: IFsrmFileScreen::get_UserSid
 author: windows-driver-content
 description: The SID of the user whose files will be screened.
 old-location: fsrm\ifsrmfilescreen_usersid.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 7f5c549d-52a3-4013-9f86-844d823636f6
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileScreen, IFsrmFileScreen interface [File Server Resource Manager], UserSid property, IFsrmFileScreen.UserSid, IFsrmFileScreen::get_UserSid, UserSid property [File Server Resource Manager], UserSid property [File Server Resource Manager], IFsrmFileScreen interface, fs.ifsrmfilescreen_usersid, fsrm.ifsrmfilescreen_usersid, fsrmscreen/IFsrmFileScreen::UserSid, fsrmscreen/IFsrmFileScreen::get_UserSid, get_UserSid,IFsrmFileScreen.get_UserSid
+ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserSid property, IFsrmFileScreen.UserSid, IFsrmFileScreen.get_UserSid, IFsrmFileScreen::UserSid, IFsrmFileScreen::get_UserSid, UserSid property [File Server Resource Manager], UserSid property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_usersid, fsrm.ifsrmfilescreen_usersid, fsrmscreen/IFsrmFileScreen::UserSid, fsrmscreen/IFsrmFileScreen::get_UserSid, get_UserSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreen::get_UserSid method
+# IFsrmFileScreen::get_UserSid
 
 
 ## -description

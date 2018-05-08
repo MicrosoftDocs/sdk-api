@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: DA4AEE0D-A913-434E-9150-DD6763132041
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetAngleX, SetAngleX methods [DirectComposition], dcomp/SetAngleX, directcomp.idcompositionskewtransform_setanglex_overloaded
+ms.keywords: IDCompositionSkewTransform::SetAngleX, SetAngleX, SetAngleX methods [DirectComposition], dcomp/SetAngleX, directcomp.idcompositionskewtransform_setanglex_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

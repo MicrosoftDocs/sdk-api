@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: dba9be4a-1670-7ab9-e0a8-d9f2895011f4
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CreatePaint, CreatePaint methods [Direct2D], d2d1svg/CreatePaint, direct2d.id2d1svgdocument_createpaint_overload
+ms.keywords: CreatePaint, CreatePaint methods [Direct2D], ID2D1SvgDocument::CreatePaint, d2d1svg/CreatePaint, direct2d.id2d1svgdocument_createpaint_overload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_LastModificationTime
-title: IFsrmPropertyBag::get_LastModificationTime method
+title: IFsrmPropertyBag::get_LastModificationTime
 author: windows-driver-content
 description: The date and time of when the file was last modified.
 old-location: fsrm\ifsrmpropertybag_lastmodificationtime.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 0afba4f9-b716-49dc-bbeb-6245e5c7a386
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], LastModificationTime property, IFsrmPropertyBag.LastModificationTime, IFsrmPropertyBag::get_LastModificationTime, LastModificationTime property [File Server Resource Manager], LastModificationTime property [File Server Resource Manager], IFsrmPropertyBag interface, fs.ifsrmpropertybag_lastmodificationtime, fsrm.ifsrmpropertybag_lastmodificationtime, fsrmpipeline/IFsrmPropertyBag::LastModificationTime, fsrmpipeline/IFsrmPropertyBag::get_LastModificationTime, get_LastModificationTime,IFsrmPropertyBag.get_LastModificationTime
+ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],LastModificationTime property, IFsrmPropertyBag.LastModificationTime, IFsrmPropertyBag.get_LastModificationTime, IFsrmPropertyBag::LastModificationTime, IFsrmPropertyBag::get_LastModificationTime, LastModificationTime property [File Server Resource Manager], LastModificationTime property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_lastmodificationtime, fsrm.ifsrmpropertybag_lastmodificationtime, fsrmpipeline/IFsrmPropertyBag::LastModificationTime, fsrmpipeline/IFsrmPropertyBag::get_LastModificationTime, get_LastModificationTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyBag::get_LastModificationTime method
+# IFsrmPropertyBag::get_LastModificationTime
 
 
 ## -description

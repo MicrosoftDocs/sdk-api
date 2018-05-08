@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaSource.CreatePresentationDescriptor
-title: IMFMediaSource::CreatePresentationDescriptor method
+title: IMFMediaSource::CreatePresentationDescriptor
 author: windows-driver-content
 description: Retrieves a copy of the media source's presentation descriptor. Applications use the presentation descriptor to select streams and to get information about the source content.
 old-location: mf\imfmediasource_createpresentationdescriptor.htm
 old-project: medfound
 ms.assetid: b6ac50b7-3ef1-43cf-8126-d9a003ebd825
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreatePresentationDescriptor method [Media Foundation], CreatePresentationDescriptor method [Media Foundation], IMFMediaSource interface, CreatePresentationDescriptor,IMFMediaSource.CreatePresentationDescriptor, IMFMediaSource, IMFMediaSource interface [Media Foundation], CreatePresentationDescriptor method, IMFMediaSource::CreatePresentationDescriptor, b6ac50b7-3ef1-43cf-8126-d9a003ebd825, mf.imfmediasource_createpresentationdescriptor, mfidl/IMFMediaSource::CreatePresentationDescriptor
+ms.date: 5/3/2018
+ms.keywords: CreatePresentationDescriptor, CreatePresentationDescriptor method [Media Foundation], CreatePresentationDescriptor method [Media Foundation],IMFMediaSource interface, IMFMediaSource interface [Media Foundation],CreatePresentationDescriptor method, IMFMediaSource.CreatePresentationDescriptor, IMFMediaSource::CreatePresentationDescriptor, b6ac50b7-3ef1-43cf-8126-d9a003ebd825, mf.imfmediasource_createpresentationdescriptor, mfidl/IMFMediaSource::CreatePresentationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSource::CreatePresentationDescriptor method
+# IMFMediaSource::CreatePresentationDescriptor
 
 
 ## -description

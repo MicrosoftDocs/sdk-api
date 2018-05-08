@@ -1,14 +1,14 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.SetNotifyCmdLine
-title: IBackgroundCopyJob2::SetNotifyCmdLine method
+title: IBackgroundCopyJob2::SetNotifyCmdLine
 author: windows-driver-content
 description: Specifies a program to execute if the job enters the BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSFERRED state. BITS executes the program in the context of the user who called this method.
 old-location: bits\ibackgroundcopyjob2_setnotifycmdline.htm
 old-project: Bits
 ms.assetid: 61b99d01-ca0f-4a89-b7ca-77d23c21a9ad
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyJob2, IBackgroundCopyJob2 interface [BITS], SetNotifyCmdLine method, IBackgroundCopyJob2::SetNotifyCmdLine, SetNotifyCmdLine method [BITS], SetNotifyCmdLine method [BITS], IBackgroundCopyJob2 interface, SetNotifyCmdLine,IBackgroundCopyJob2.SetNotifyCmdLine, _drz_ibackgroundcopyjob2_setnotifycmdline, bits.ibackgroundcopyjob2_setnotifycmdline, bits1_5/IBackgroundCopyJob2::SetNotifyCmdLine
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyJob2 interface [BITS],SetNotifyCmdLine method, IBackgroundCopyJob2.SetNotifyCmdLine, IBackgroundCopyJob2::SetNotifyCmdLine, SetNotifyCmdLine, SetNotifyCmdLine method [BITS], SetNotifyCmdLine method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setnotifycmdline, bits.ibackgroundcopyjob2_setnotifycmdline, bits1_5/IBackgroundCopyJob2::SetNotifyCmdLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: BitsPrx2.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob2::SetNotifyCmdLine method
+# IBackgroundCopyJob2::SetNotifyCmdLine
 
 
 ## -description

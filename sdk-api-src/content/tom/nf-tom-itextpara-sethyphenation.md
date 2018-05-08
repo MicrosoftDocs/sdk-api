@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.SetHyphenation
-title: ITextPara::SetHyphenation method
+title: ITextPara::SetHyphenation
 author: windows-driver-content
 description: Controls hyphenation for the paragraphs in the range.
 old-location: controls\ITextPara_SetHyphenation.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\sethyphenation.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextPara, ITextPara interface [Windows Controls], SetHyphenation method, ITextPara::SetHyphenation, SetHyphenation method [Windows Controls], SetHyphenation method [Windows Controls], ITextPara interface, SetHyphenation,ITextPara.SetHyphenation, _win32_ITextPara_SetHyphenation, _win32_ITextPara_SetHyphenation_cpp, controls.ITextPara_SetHyphenation, controls._win32_ITextPara_SetHyphenation, tom/ITextPara::SetHyphenation
+ms.date: 4/27/2018
+ms.keywords: ITextPara interface [Windows Controls],SetHyphenation method, ITextPara.SetHyphenation, ITextPara::SetHyphenation, SetHyphenation, SetHyphenation method [Windows Controls], SetHyphenation method [Windows Controls],ITextPara interface, _win32_ITextPara_SetHyphenation, _win32_ITextPara_SetHyphenation_cpp, controls.ITextPara_SetHyphenation, controls._win32_ITextPara_SetHyphenation, tom/ITextPara::SetHyphenation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::SetHyphenation method
+# ITextPara::SetHyphenation
 
 
 ## -description

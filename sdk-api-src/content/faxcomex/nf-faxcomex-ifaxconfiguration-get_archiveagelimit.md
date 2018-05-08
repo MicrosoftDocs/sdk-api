@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_ArchiveAgeLimit
-title: IFaxConfiguration::get_ArchiveAgeLimit method
+title: IFaxConfiguration::get_ArchiveAgeLimit
 author: windows-driver-content
 description: Sets or retrieves a value that indicates how long a fax message is kept on the server.
 old-location: fax\_mfax_FaxConfiguration_ArchiveAgeLimit_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\archiveagelimit.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ArchiveAgeLimit property [Fax Service], ArchiveAgeLimit property [Fax Service], FaxConfiguration object, FaxConfiguration object [Fax Service], ArchiveAgeLimit property, IFaxConfiguration, IFaxConfiguration::get_ArchiveAgeLimit, _mfax_IFaxConfiguration_ArchiveAgeLimit, fax._mfax_FaxConfiguration_ArchiveAgeLimit_vb, get_ArchiveAgeLimit,IFaxConfiguration.get_ArchiveAgeLimit
+ms.keywords: ArchiveAgeLimit property [Fax Service], ArchiveAgeLimit property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],ArchiveAgeLimit property, FaxConfiguration.ArchiveAgeLimit, IFaxConfiguration.get_ArchiveAgeLimit, IFaxConfiguration::get_ArchiveAgeLimit, _mfax_IFaxConfiguration_ArchiveAgeLimit, fax._mfax_FaxConfiguration_ArchiveAgeLimit_vb, get_ArchiveAgeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::get_ArchiveAgeLimit method
+# IFaxConfiguration::get_ArchiveAgeLimit
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetXML
-title: ITfInputScope::GetXML method
+title: ITfInputScope::GetXML
 author: windows-driver-content
 description: ITfInputScope::GetXML method
 old-location: tsf\itfinputscope_getXML.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 7e7a2780-6080-4f9a-b036-bc8f6258bcb5
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetXML method [Text Services Framework], GetXML method [Text Services Framework], ITfInputScope interface, GetXML,ITfInputScope.GetXML, ITfInputScope, ITfInputScope interface [Text Services Framework], GetXML method, ITfInputScope::GetXML, inputscope/ITfInputScope::GetXML, tsf.itfinputscope_getXML, tsf.itfinputscope_xml
+ms.keywords: GetXML, GetXML method [Text Services Framework], GetXML method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetXML method, ITfInputScope.GetXML, ITfInputScope::GetXML, inputscope/ITfInputScope::GetXML, tsf.itfinputscope_getXML, tsf.itfinputscope_xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputScope::GetXML method
+# ITfInputScope::GetXML
 
 
 ## -description

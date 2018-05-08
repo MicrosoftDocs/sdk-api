@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IStringable.ToString
-title: IStringable::ToString method
+title: IStringable::IStringable
 author: windows-driver-content
 description: Gets a string that represents the current object.
 old-location: winrt\istringable_tostring.htm
 old-project: WinRT
 ms.assetid: A102D2DB-A1DF-489A-A025-99C5B9AAB893
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IStringable, IStringable interface [Windows Runtime], ToString method, IStringable::ToString, ToString method [Windows Runtime], ToString method [Windows Runtime], IStringable interface, ToString,IStringable.ToString, windows/IStringable::ToString, winrt.istringable_tostring
+ms.date: 5/4/2018
+ms.keywords: IStringable interface [Windows Runtime],ToString method, IStringable.IStringable, IStringable.ToString, IStringable::IStringable, IStringable::ToString, ToString, ToString method [Windows Runtime], ToString method [Windows Runtime],IStringable interface, windows/IStringable::ToString, winrt.istringable_tostring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IStringable::ToString method
+# IStringable::IStringable
 
 
 ## -description

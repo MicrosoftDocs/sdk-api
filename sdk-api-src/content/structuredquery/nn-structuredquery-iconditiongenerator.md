@@ -7,8 +7,8 @@ old-location: search\_search_IConditionGenerator.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\iconditiongenerator.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IConditionGenerator, IConditionGenerator interface [search], IConditionGenerator interface [search], described, _search_IConditionGenerator, search._search_IConditionGenerator, structuredquery/IConditionGenerator
+ms.date: 5/4/2018
+ms.keywords: IConditionGenerator, IConditionGenerator interface [search], IConditionGenerator interface [search],described, _search_IConditionGenerator, search._search_IConditionGenerator, structuredquery/IConditionGenerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

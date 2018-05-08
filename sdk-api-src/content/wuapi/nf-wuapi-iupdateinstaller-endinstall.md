@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.EndInstall
-title: IUpdateInstaller::EndInstall method
+title: IUpdateInstaller::EndInstall
 author: windows-driver-content
 description: Completes an asynchronous installation of the updates.
 old-location: wua\iupdateinstaller_endinstall.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 7137164c-2b82-48dc-8488-6c8872896a39
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EndInstall method [Windows Update Agent], EndInstall method [Windows Update Agent], IUpdateInstaller interface, EndInstall,IUpdateInstaller.EndInstall, IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], EndInstall method, IUpdateInstaller::EndInstall, wua.iupdateinstaller_endinstall, wuapi/IUpdateInstaller::EndInstall
+ms.keywords: EndInstall, EndInstall method [Windows Update Agent], EndInstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],EndInstall method, IUpdateInstaller.EndInstall, IUpdateInstaller::EndInstall, wua.iupdateinstaller_endinstall, wuapi/IUpdateInstaller::EndInstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateInstaller::EndInstall method
+# IUpdateInstaller::EndInstall
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.Delete
-title: IPhotoAcquireItem::Delete method
+title: IPhotoAcquireItem::Delete
 author: windows-driver-content
 description: The Delete method deletes an item.
 old-location: picacq\iphotoacquireitem_delete.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: e1ffe49b-b7d6-46ae-b83b-8d8487bd7b24
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Delete method [Picture Acquisition], Delete method [Picture Acquisition], IPhotoAcquireItem interface, Delete,IPhotoAcquireItem.Delete, IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], Delete method, IPhotoAcquireItem::Delete, IPhotoAcquireItemDelete, photoacquire/IPhotoAcquireItem::Delete, picacq.iphotoacquireitem_delete
+ms.keywords: Delete, Delete method [Picture Acquisition], Delete method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],Delete method, IPhotoAcquireItem.Delete, IPhotoAcquireItem::Delete, IPhotoAcquireItemDelete, photoacquire/IPhotoAcquireItem::Delete, picacq.iphotoacquireitem_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireItem::Delete method
+# IPhotoAcquireItem::Delete
 
 
 ## -description

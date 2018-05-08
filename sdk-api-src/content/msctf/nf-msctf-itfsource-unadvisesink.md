@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfSource.UnadviseSink
-title: ITfSource::UnadviseSink method
+title: ITfSource::UnadviseSink
 author: windows-driver-content
 description: ITfSource::UnadviseSink method
 old-location: tsf\itfsource_unadvisesink.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: e5d40c6f-c8ab-4e53-94d0-a6b475ce7a84
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfSource, ITfSource interface [Text Services Framework], UnadviseSink method, ITfSource::UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework], ITfSource interface, UnadviseSink,ITfSource.UnadviseSink, _tsf_itfsource_unadvisesink_ref, msctf/ITfSource::UnadviseSink, tsf.itfsource_unadvisesink
+ms.keywords: ITfSource interface [Text Services Framework],UnadviseSink method, ITfSource.UnadviseSink, ITfSource::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITfSource interface, _tsf_itfsource_unadvisesink_ref, msctf/ITfSource::UnadviseSink, tsf.itfsource_unadvisesink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfSource::UnadviseSink method
+# ITfSource::UnadviseSink
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.AtomicCopyBufferUINT
-title: ID3D12GraphicsCommandList1::AtomicCopyBufferUINT method
+title: ID3D12GraphicsCommandList1::AtomicCopyBufferUINT
 author: windows-driver-content
 description: Atomically copies a primary data element of type UINT from one resource to another, along with optional dependent resources.
 old-location: direct3d12\id3d12graphicscommandlist1_atomiccopybufferuint.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 745B641F-B136-46A2-A0EE-F5FDC13656E5
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: AtomicCopyBufferUINT method, AtomicCopyBufferUINT method, ID3D12GraphicsCommandList1 interface, AtomicCopyBufferUINT,ID3D12GraphicsCommandList1.AtomicCopyBufferUINT, ID3D12GraphicsCommandList1, ID3D12GraphicsCommandList1 interface, AtomicCopyBufferUINT method, ID3D12GraphicsCommandList1::AtomicCopyBufferUINT, d3d12/ID3D12GraphicsCommandList1::AtomicCopyBufferUINT, direct3d12.id3d12graphicscommandlist1_atomiccopybufferuint
+ms.keywords: AtomicCopyBufferUINT, AtomicCopyBufferUINT method, AtomicCopyBufferUINT method,ID3D12GraphicsCommandList1 interface, ID3D12GraphicsCommandList1 interface,AtomicCopyBufferUINT method, ID3D12GraphicsCommandList1.AtomicCopyBufferUINT, ID3D12GraphicsCommandList1::AtomicCopyBufferUINT, d3d12/ID3D12GraphicsCommandList1::AtomicCopyBufferUINT, direct3d12.id3d12graphicscommandlist1_atomiccopybufferuint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList1::AtomicCopyBufferUINT method
+# ID3D12GraphicsCommandList1::AtomicCopyBufferUINT
 
 
 ## -description

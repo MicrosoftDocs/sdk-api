@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetStorageFilterStackSize
-title: ID3D12InfoQueue::GetStorageFilterStackSize method
+title: ID3D12InfoQueue::GetStorageFilterStackSize
 author: windows-driver-content
 description: Get the size of the storage-filter stack in bytes.
 old-location: direct3d12\id3d12infoqueue_getstoragefilterstacksize.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: A2E1B587-8FB2-44E8-9F6D-1BDB3C1EDE77
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetStorageFilterStackSize method, GetStorageFilterStackSize method, ID3D12InfoQueue interface, GetStorageFilterStackSize,ID3D12InfoQueue.GetStorageFilterStackSize, ID3D12InfoQueue, ID3D12InfoQueue interface, GetStorageFilterStackSize method, ID3D12InfoQueue::GetStorageFilterStackSize, d3d12sdklayers/ID3D12InfoQueue::GetStorageFilterStackSize, direct3d12.id3d12infoqueue_getstoragefilterstacksize
+ms.keywords: GetStorageFilterStackSize, GetStorageFilterStackSize method, GetStorageFilterStackSize method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetStorageFilterStackSize method, ID3D12InfoQueue.GetStorageFilterStackSize, ID3D12InfoQueue::GetStorageFilterStackSize, d3d12sdklayers/ID3D12InfoQueue::GetStorageFilterStackSize, direct3d12.id3d12infoqueue_getstoragefilterstacksize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::GetStorageFilterStackSize method
+# ID3D12InfoQueue::GetStorageFilterStackSize
 
 
 ## -description

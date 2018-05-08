@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_InterfaceID
-title: IEventSubscription::put_InterfaceID method
+title: IEventSubscription::put_InterfaceID
 author: windows-driver-content
 description: The identifier for a particular interface for which the subscriber wants to receive events.
 old-location: cos\ieventsubscription_interfaceid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 13e88201-98c3-476e-bc75-34aed0b9ce9e
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventSubscription, IEventSubscription interface [COM+], InterfaceID property, IEventSubscription.InterfaceID, IEventSubscription::get_InterfaceID, IEventSubscription::put_InterfaceID, InterfaceID property [COM+], InterfaceID property [COM+], IEventSubscription interface, cos.ieventsubscription_interfaceid, eventsys/IEventSubscription::InterfaceID, eventsys/IEventSubscription::get_InterfaceID, eventsys/IEventSubscription::put_InterfaceID, put_InterfaceID,IEventSubscription.put_InterfaceID
+ms.keywords: IEventSubscription interface [COM+],InterfaceID property, IEventSubscription.InterfaceID, IEventSubscription.put_InterfaceID, IEventSubscription::InterfaceID, IEventSubscription::get_InterfaceID, IEventSubscription::put_InterfaceID, InterfaceID property [COM+], InterfaceID property [COM+],IEventSubscription interface, cos.ieventsubscription_interfaceid, eventsys/IEventSubscription::InterfaceID, eventsys/IEventSubscription::get_InterfaceID, eventsys/IEventSubscription::put_InterfaceID, put_InterfaceID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::put_InterfaceID method
+# IEventSubscription::put_InterfaceID
 
 
 ## -description

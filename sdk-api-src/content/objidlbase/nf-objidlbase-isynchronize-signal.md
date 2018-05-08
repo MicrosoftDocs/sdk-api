@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.ISynchronize.Signal
-title: ISynchronize::Signal method
+title: ISynchronize::Signal
 author: windows-driver-content
 description: Sets the synchronization object to the signaled state and causes pending wait operations to return S_OK.
 old-location: com\isynchronize_signal.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c55b9ffc-2e28-427b-8c77-349f554469e5
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISynchronize, ISynchronize interface [COM], Signal method, ISynchronize::Signal, Signal method [COM], Signal method [COM], ISynchronize interface, Signal,ISynchronize.Signal, _com_isynchronize_signal, com.isynchronize_signal, objidlbase/ISynchronize::Signal
+ms.keywords: ISynchronize interface [COM],Signal method, ISynchronize.Signal, ISynchronize::Signal, Signal, Signal method [COM], Signal method [COM],ISynchronize interface, _com_isynchronize_signal, com.isynchronize_signal, objidlbase/ISynchronize::Signal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISynchronize::Signal method
+# ISynchronize::Signal
 
 
 ## -description

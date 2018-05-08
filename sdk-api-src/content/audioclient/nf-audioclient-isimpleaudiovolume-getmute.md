@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.ISimpleAudioVolume.GetMute
-title: ISimpleAudioVolume::GetMute method
+title: ISimpleAudioVolume::GetMute
 author: windows-driver-content
 description: The GetMute method retrieves the current muting state for the audio session.
 old-location: coreaudio\isimpleaudiovolume_getmute.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 35890423-2aac-473b-a820-ba7cb1b5e05e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetMute method [Core Audio], GetMute method [Core Audio], ISimpleAudioVolume interface, GetMute,ISimpleAudioVolume.GetMute, ISimpleAudioVolume, ISimpleAudioVolume interface [Core Audio], GetMute method, ISimpleAudioVolume::GetMute, ISimpleAudioVolumeGetMute, audioclient/ISimpleAudioVolume::GetMute, coreaudio.isimpleaudiovolume_getmute
+ms.keywords: GetMute, GetMute method [Core Audio], GetMute method [Core Audio],ISimpleAudioVolume interface, ISimpleAudioVolume interface [Core Audio],GetMute method, ISimpleAudioVolume.GetMute, ISimpleAudioVolume::GetMute, ISimpleAudioVolumeGetMute, audioclient/ISimpleAudioVolume::GetMute, coreaudio.isimpleaudiovolume_getmute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISimpleAudioVolume::GetMute method
+# ISimpleAudioVolume::GetMute
 
 
 ## -description

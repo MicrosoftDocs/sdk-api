@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTVAudio.GetAvailableTVAudioModes
-title: IAMTVAudio::GetAvailableTVAudioModes method
+title: IAMTVAudio::GetAvailableTVAudioModes
 author: windows-driver-content
 description: The GetAvailableTVAudioModes method retrieves a bitmask of the possible modes.
 old-location: dshow\iamtvaudio_getavailabletvaudiomodes.htm
 old-project: DirectShow
 ms.assetid: c64dc038-7ebf-4aa4-a7ae-b3eb0e8eaf1a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAvailableTVAudioModes method [DirectShow], GetAvailableTVAudioModes method [DirectShow], IAMTVAudio interface, GetAvailableTVAudioModes,IAMTVAudio.GetAvailableTVAudioModes, IAMTVAudio, IAMTVAudio interface [DirectShow], GetAvailableTVAudioModes method, IAMTVAudio::GetAvailableTVAudioModes, IAMTVAudioGetAvailableTVAudioModes, dshow.iamtvaudio_getavailabletvaudiomodes, strmif/IAMTVAudio::GetAvailableTVAudioModes
+ms.date: 4/30/2018
+ms.keywords: GetAvailableTVAudioModes, GetAvailableTVAudioModes method [DirectShow], GetAvailableTVAudioModes method [DirectShow],IAMTVAudio interface, IAMTVAudio interface [DirectShow],GetAvailableTVAudioModes method, IAMTVAudio.GetAvailableTVAudioModes, IAMTVAudio::GetAvailableTVAudioModes, IAMTVAudioGetAvailableTVAudioModes, dshow.iamtvaudio_getavailabletvaudiomodes, strmif/IAMTVAudio::GetAvailableTVAudioModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTVAudio::GetAvailableTVAudioModes method
+# IAMTVAudio::GetAvailableTVAudioModes
 
 
 ## -description

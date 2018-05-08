@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetCountOfRecords
-title: IDvbServiceListDescriptor::GetCountOfRecords method
+title: IDvbServiceListDescriptor::GetCountOfRecords
 author: windows-driver-content
 description: Gets an indexed count of service records for a Digital Video Broadcast (DVB) service list descriptor.
 old-location: mstv\idvbservicelistdescriptor_getcountofrecords.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8a3dd6b9-a7a1-49fd-806d-05c726bbe99e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IDvbServiceListDescriptor interface, GetCountOfRecords,IDvbServiceListDescriptor.GetCountOfRecords, IDvbServiceListDescriptor, IDvbServiceListDescriptor interface [Microsoft TV Technologies], GetCountOfRecords method, IDvbServiceListDescriptor::GetCountOfRecords, dvbsiparser/IDvbServiceListDescriptor::GetCountOfRecords, mstv.idvbservicelistdescriptor_getcountofrecords
+ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbServiceListDescriptor interface, IDvbServiceListDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbServiceListDescriptor.GetCountOfRecords, IDvbServiceListDescriptor::GetCountOfRecords, dvbsiparser/IDvbServiceListDescriptor::GetCountOfRecords, mstv.idvbservicelistdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbServiceListDescriptor::GetCountOfRecords method
+# IDvbServiceListDescriptor::GetCountOfRecords
 
 
 ## -description

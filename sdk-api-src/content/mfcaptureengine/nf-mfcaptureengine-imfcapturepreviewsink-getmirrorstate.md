@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.GetMirrorState
-title: IMFCapturePreviewSink::GetMirrorState method
+title: IMFCapturePreviewSink::GetMirrorState
 author: windows-driver-content
 description: Gets the current mirroring state of the video preview stream.
 old-location: mf\imfcapturepreviewsink_getmirrorstate.htm
 old-project: medfound
 ms.assetid: 6EFC9DFF-4029-46F0-9357-983FE528D4FE
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetMirrorState method [Media Foundation], GetMirrorState method [Media Foundation], IMFCapturePreviewSink interface, GetMirrorState,IMFCapturePreviewSink.GetMirrorState, IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], GetMirrorState method, IMFCapturePreviewSink::GetMirrorState, mf.imfcapturepreviewsink_getmirrorstate, mfcaptureengine/IMFCapturePreviewSink::GetMirrorState
+ms.date: 5/3/2018
+ms.keywords: GetMirrorState, GetMirrorState method [Media Foundation], GetMirrorState method [Media Foundation],IMFCapturePreviewSink interface, IMFCapturePreviewSink interface [Media Foundation],GetMirrorState method, IMFCapturePreviewSink.GetMirrorState, IMFCapturePreviewSink::GetMirrorState, mf.imfcapturepreviewsink_getmirrorstate, mfcaptureengine/IMFCapturePreviewSink::GetMirrorState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCapturePreviewSink::GetMirrorState method
+# IMFCapturePreviewSink::GetMirrorState
 
 
 ## -description

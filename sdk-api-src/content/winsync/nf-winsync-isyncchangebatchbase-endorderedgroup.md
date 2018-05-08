@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.EndOrderedGroup
-title: ISyncChangeBatchBase::EndOrderedGroup method
+title: ISyncChangeBatchBase::EndOrderedGroup
 author: windows-driver-content
 description: Closes a previously opened ordered group in the change batch.
 old-location: winsync\isyncchangebatchbase_endorderedgroup.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: d53ef88e-0d1f-4328-988c-c759391ca28c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: EndOrderedGroup method [Windows Sync], EndOrderedGroup method [Windows Sync], ISyncChangeBatchBase interface, EndOrderedGroup,ISyncChangeBatchBase.EndOrderedGroup, ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], EndOrderedGroup method, ISyncChangeBatchBase::EndOrderedGroup, winsync.isyncchangebatchbase_endorderedgroup, winsync/ISyncChangeBatchBase::EndOrderedGroup
+ms.keywords: EndOrderedGroup, EndOrderedGroup method [Windows Sync], EndOrderedGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],EndOrderedGroup method, ISyncChangeBatchBase.EndOrderedGroup, ISyncChangeBatchBase::EndOrderedGroup, winsync.isyncchangebatchbase_endorderedgroup, winsync/ISyncChangeBatchBase::EndOrderedGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchBase::EndOrderedGroup method
+# ISyncChangeBatchBase::EndOrderedGroup
 
 
 ## -description

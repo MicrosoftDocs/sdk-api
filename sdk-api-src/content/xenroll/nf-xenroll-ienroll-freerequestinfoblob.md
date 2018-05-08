@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.freeRequestInfoBlob
-title: IEnroll::freeRequestInfoBlob method
+title: IEnroll::freeRequestInfoBlob
 author: windows-driver-content
 description: The freeRequestInfoBlob method deletes a certificate context. This method was first defined in the IEnroll interface.
 old-location: security\ienroll4_freerequestinfoblob.htm
 old-project: SecCrypto
 ms.assetid: 7c89de98-51b6-44c2-acd2-879d1d4e7f29
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], freeRequestInfoBlob method, IEnroll::freeRequestInfoBlob, freeRequestInfoBlob method [Security], freeRequestInfoBlob method [Security], IEnroll interface, freeRequestInfoBlob,IEnroll.freeRequestInfoBlob, security.ienroll4_freerequestinfoblob, xenroll/IEnroll::freeRequestInfoBlob
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],freeRequestInfoBlob method, IEnroll.freeRequestInfoBlob, IEnroll::freeRequestInfoBlob, freeRequestInfoBlob, freeRequestInfoBlob method [Security], freeRequestInfoBlob method [Security],IEnroll interface, security.ienroll4_freerequestinfoblob, xenroll/IEnroll::freeRequestInfoBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::freeRequestInfoBlob method
+# IEnroll::freeRequestInfoBlob
 
 
 ## -description

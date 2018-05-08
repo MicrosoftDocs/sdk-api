@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.GetInterfaceValue
-title: IAzBizRuleInterfaces::GetInterfaceValue method
+title: IAzBizRuleInterfaces::GetInterfaceValue
 author: windows-driver-content
 description: Gets the ID and flags of the interface that corresponds to the specified interface name.
 old-location: security\iazbizruleinterfaces_getinterfacevalue_method.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: d5d12529-6ce8-4189-949b-210d8ec84084
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetInterfaceValue method [Security], GetInterfaceValue method [Security], IAzBizRuleInterfaces interface, GetInterfaceValue,IAzBizRuleInterfaces.GetInterfaceValue, IAzBizRuleInterfaces, IAzBizRuleInterfaces interface [Security], GetInterfaceValue method, IAzBizRuleInterfaces::GetInterfaceValue, azroles/IAzBizRuleInterfaces::GetInterfaceValue, security.iazbizruleinterfaces_getinterfacevalue_method
+ms.keywords: GetInterfaceValue, GetInterfaceValue method [Security], GetInterfaceValue method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],GetInterfaceValue method, IAzBizRuleInterfaces.GetInterfaceValue, IAzBizRuleInterfaces::GetInterfaceValue, azroles/IAzBizRuleInterfaces::GetInterfaceValue, security.iazbizruleinterfaces_getinterfacevalue_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAzBizRuleInterfaces::GetInterfaceValue method
+# IAzBizRuleInterfaces::GetInterfaceValue
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetTimeSpan
-title: CInstance::SetTimeSpan method
+title: CInstance::SetTimeSpan
 author: windows-driver-content
 description: The SetTimeSpan method sets a property that represents a time span.
 old-location: wmi\cinstance_settimespan.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: d23197a2-7352-44e8-b962-2509fdf9673d
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], SetTimeSpan method, CInstance::SetTimeSpan, SetTimeSpan method [Windows Management Instrumentation], SetTimeSpan method [Windows Management Instrumentation], CInstance interface, SetTimeSpan,CInstance.SetTimeSpan, _hmm_cinstance_settimespan, instance/CInstance::SetTimeSpan, wmi.cinstance_settimespan
+ms.keywords: CInstance interface [Windows Management Instrumentation],SetTimeSpan method, CInstance.SetTimeSpan, CInstance::SetTimeSpan, SetTimeSpan, SetTimeSpan method [Windows Management Instrumentation], SetTimeSpan method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_settimespan, instance/CInstance::SetTimeSpan, wmi.cinstance_settimespan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::SetTimeSpan method
+# CInstance::SetTimeSpan
 
 
 ## -description

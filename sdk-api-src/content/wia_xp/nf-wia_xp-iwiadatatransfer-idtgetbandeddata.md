@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtGetBandedData
-title: IWiaDataTransfer::idtGetBandedData method
+title: IWiaDataTransfer::idtGetBandedData
 author: windows-driver-content
 description: The IWiaDataTransfer::idtGetBandedData method transfers a band of data from a hardware device to an application. For efficiency, applications retrieve data from Windows Image Acquisition (WIA) hardware devices in successive bands.
 old-location: wia\_wia_IWiaDataTransfer_idtGetBandedData.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetbandeddata.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], idtGetBandedData method, IWiaDataTransfer::idtGetBandedData, _wia_IWiaDataTransfer_idtGetBandedData, idtGetBandedData method [WIA], idtGetBandedData method [WIA], IWiaDataTransfer interface, idtGetBandedData,IWiaDataTransfer.idtGetBandedData, wia._wia_IWiaDataTransfer_idtGetBandedData, wia_xp/IWiaDataTransfer::idtGetBandedData
+ms.date: 5/3/2018
+ms.keywords: IWiaDataTransfer interface [WIA],idtGetBandedData method, IWiaDataTransfer.idtGetBandedData, IWiaDataTransfer::idtGetBandedData, _wia_IWiaDataTransfer_idtGetBandedData, idtGetBandedData, idtGetBandedData method [WIA], idtGetBandedData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetBandedData, wia_xp/IWiaDataTransfer::idtGetBandedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaDataTransfer::idtGetBandedData method
+# IWiaDataTransfer::idtGetBandedData
 
 
 ## -description

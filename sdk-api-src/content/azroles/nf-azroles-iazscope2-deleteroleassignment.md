@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope2.DeleteRoleAssignment
-title: IAzScope2::DeleteRoleAssignment method
+title: IAzScope2::DeleteRoleAssignment
 author: windows-driver-content
 description: Removes the specified IAzRoleAssignment object from this scope.
 old-location: security\iazscope2_deleteroleassignment.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 8e28e09a-f9a4-4e6e-bb11-cfa1145f1ba1
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: DeleteRoleAssignment method [Security], DeleteRoleAssignment method [Security], IAzScope2 interface, DeleteRoleAssignment,IAzScope2.DeleteRoleAssignment, IAzScope2, IAzScope2 interface [Security], DeleteRoleAssignment method, IAzScope2::DeleteRoleAssignment, azroles/IAzScope2::DeleteRoleAssignment, security.iazscope2_deleteroleassignment
+ms.keywords: DeleteRoleAssignment, DeleteRoleAssignment method [Security], DeleteRoleAssignment method [Security],IAzScope2 interface, IAzScope2 interface [Security],DeleteRoleAssignment method, IAzScope2.DeleteRoleAssignment, IAzScope2::DeleteRoleAssignment, azroles/IAzScope2::DeleteRoleAssignment, security.iazscope2_deleteroleassignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope2::DeleteRoleAssignment method
+# IAzScope2::DeleteRoleAssignment
 
 
 ## -description

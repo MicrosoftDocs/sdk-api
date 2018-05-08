@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetAppendWindowStart
-title: IMFSourceBuffer::GetAppendWindowStart method
+title: IMFSourceBuffer::GetAppendWindowStart
 author: windows-driver-content
 description: Gets the timestamp for the start of the append window.
 old-location: mf\imfsourcebuffer_getappendwindowstart.htm
 old-project: medfound
 ms.assetid: e5feb451-5bf9-475c-b501-599e2188a3f5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetAppendWindowStart method [Media Foundation], GetAppendWindowStart method [Media Foundation], IMFSourceBuffer interface, GetAppendWindowStart,IMFSourceBuffer.GetAppendWindowStart, IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], GetAppendWindowStart method, IMFSourceBuffer::GetAppendWindowStart, mf.imfsourcebuffer_getappendwindowstart, mfmediaengine/IMFSourceBuffer::GetAppendWindowStart
+ms.date: 5/3/2018
+ms.keywords: GetAppendWindowStart, GetAppendWindowStart method [Media Foundation], GetAppendWindowStart method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetAppendWindowStart method, IMFSourceBuffer.GetAppendWindowStart, IMFSourceBuffer::GetAppendWindowStart, mf.imfsourcebuffer_getappendwindowstart, mfmediaengine/IMFSourceBuffer::GetAppendWindowStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceBuffer::GetAppendWindowStart method
+# IMFSourceBuffer::GetAppendWindowStart
 
 
 ## -description

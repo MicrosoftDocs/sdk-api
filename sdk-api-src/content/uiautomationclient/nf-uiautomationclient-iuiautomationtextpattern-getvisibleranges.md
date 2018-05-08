@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.GetVisibleRanges
-title: IUIAutomationTextPattern::GetVisibleRanges method
+title: IUIAutomationTextPattern::GetVisibleRanges
 author: windows-driver-content
 description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.
 old-location: winauto\uiauto_IUIAutomationTextPattern_GetVisibleRanges.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7cf4e6d4-223c-4222-a181-c16a5a90ef65
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetVisibleRanges method [Windows Accessibility], GetVisibleRanges method [Windows Accessibility], IUIAutomationTextPattern interface, GetVisibleRanges,IUIAutomationTextPattern.GetVisibleRanges, IUIAutomationTextPattern, IUIAutomationTextPattern interface [Windows Accessibility], GetVisibleRanges method, IUIAutomationTextPattern::GetVisibleRanges, uiauto.uiauto_IUIAutomationTextPattern_GetVisibleRanges, uiauto_IUIAutomationTextPattern_GetVisibleRanges, uiautomationclient/IUIAutomationTextPattern::GetVisibleRanges, winauto.uiauto_IUIAutomationTextPattern_GetVisibleRanges
+ms.keywords: GetVisibleRanges, GetVisibleRanges method [Windows Accessibility], GetVisibleRanges method [Windows Accessibility],IUIAutomationTextPattern interface, IUIAutomationTextPattern interface [Windows Accessibility],GetVisibleRanges method, IUIAutomationTextPattern.GetVisibleRanges, IUIAutomationTextPattern::GetVisibleRanges, uiauto.uiauto_IUIAutomationTextPattern_GetVisibleRanges, uiauto_IUIAutomationTextPattern_GetVisibleRanges, uiautomationclient/IUIAutomationTextPattern::GetVisibleRanges, winauto.uiauto_IUIAutomationTextPattern_GetVisibleRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTextPattern::GetVisibleRanges method
+# IUIAutomationTextPattern::GetVisibleRanges
 
 
 ## -description

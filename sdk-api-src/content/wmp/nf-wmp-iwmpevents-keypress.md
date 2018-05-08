@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.KeyPress
-title: IWMPEvents::KeyPress method
+title: IWMPEvents::KeyPress
 author: windows-driver-content
 description: The KeyPress event occurs when a key is pressed and then released.
 old-location: wmp\iwmpevents_iwmpevents__keypress.htm
 old-project: WMP
 ms.assetid: 72d97c04-6978-4275-9adf-2deeebb34224
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], KeyPress method, IWMPEvents::KeyPress, IWMPEventsKeyPress, KeyPress method [Windows Media Player], KeyPress method [Windows Media Player], IWMPEvents interface, KeyPress,IWMPEvents.KeyPress, wmp.iwmpevents_iwmpevents__keypress, wmp/IWMPEvents::KeyPress
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],KeyPress method, IWMPEvents.KeyPress, IWMPEvents::KeyPress, IWMPEventsKeyPress, KeyPress, KeyPress method [Windows Media Player], KeyPress method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keypress, wmp/IWMPEvents::KeyPress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::KeyPress method
+# IWMPEvents::KeyPress
 
 
 ## -description

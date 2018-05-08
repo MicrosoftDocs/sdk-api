@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.SetIndexByteStreams
-title: IMFASFIndexer::SetIndexByteStreams method
+title: IMFASFIndexer::SetIndexByteStreams
 author: windows-driver-content
 description: Adds byte streams to be indexed.
 old-location: mf\imfasfindexer_setindexbytestreams.htm
 old-project: medfound
 ms.assetid: f116baaa-8d9b-4ac0-9263-3bb65d67ee63
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFASFIndexer, IMFASFIndexer interface [Media Foundation], SetIndexByteStreams method, IMFASFIndexer::SetIndexByteStreams, SetIndexByteStreams method [Media Foundation], SetIndexByteStreams method [Media Foundation], IMFASFIndexer interface, SetIndexByteStreams,IMFASFIndexer.SetIndexByteStreams, f116baaa-8d9b-4ac0-9263-3bb65d67ee63, mf.imfasfindexer_setindexbytestreams, wmcontainer/IMFASFIndexer::SetIndexByteStreams
+ms.date: 5/3/2018
+ms.keywords: IMFASFIndexer interface [Media Foundation],SetIndexByteStreams method, IMFASFIndexer.SetIndexByteStreams, IMFASFIndexer::SetIndexByteStreams, SetIndexByteStreams, SetIndexByteStreams method [Media Foundation], SetIndexByteStreams method [Media Foundation],IMFASFIndexer interface, f116baaa-8d9b-4ac0-9263-3bb65d67ee63, mf.imfasfindexer_setindexbytestreams, wmcontainer/IMFASFIndexer::SetIndexByteStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFIndexer::SetIndexByteStreams method
+# IMFASFIndexer::SetIndexByteStreams
 
 
 ## -description

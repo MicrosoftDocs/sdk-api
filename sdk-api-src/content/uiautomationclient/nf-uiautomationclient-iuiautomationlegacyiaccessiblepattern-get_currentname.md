@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentName
-title: IUIAutomationLegacyIAccessiblePattern::get_CurrentName method
+title: IUIAutomationLegacyIAccessiblePattern::get_CurrentName
 author: windows-driver-content
 description: Retrieves the Microsoft Active Accessibility name property of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentName.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 8e1138dc-212d-409e-8c69-8f94320c3dd6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentName property [Windows Accessibility], CurrentName property [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], CurrentName property, IUIAutomationLegacyIAccessiblePattern.CurrentName, IUIAutomationLegacyIAccessiblePattern::get_CurrentName, get_CurrentName,IUIAutomationLegacyIAccessiblePattern.get_CurrentName, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentName, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentName, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentName
+ms.keywords: CurrentName property [Windows Accessibility], CurrentName property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentName property, IUIAutomationLegacyIAccessiblePattern.CurrentName, IUIAutomationLegacyIAccessiblePattern.get_CurrentName, IUIAutomationLegacyIAccessiblePattern::CurrentName, IUIAutomationLegacyIAccessiblePattern::get_CurrentName, get_CurrentName, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentName, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentName, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationLegacyIAccessiblePattern::get_CurrentName method
+# IUIAutomationLegacyIAccessiblePattern::get_CurrentName
 
 
 ## -description

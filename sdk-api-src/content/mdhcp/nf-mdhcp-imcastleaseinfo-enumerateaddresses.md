@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.EnumerateAddresses
-title: IMcastLeaseInfo::EnumerateAddresses method
+title: IMcastLeaseInfo::EnumerateAddresses
 author: windows-driver-content
 description: The EnumerateAddresses method obtains the collection of multicast addresses that are the subject of this lease or lease request. This method is primarily for C++ programmers. Visual Basic and other scripting languages use get_Addresses instead.
 old-location: tapi3\imcastleaseinfo_enumerateaddresses.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: edbfe386-9b3d-4160-916e-6c9ea640cfbc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: EnumerateAddresses method [TAPI 2.2], EnumerateAddresses method [TAPI 2.2], IMcastLeaseInfo interface, EnumerateAddresses,IMcastLeaseInfo.EnumerateAddresses, IMcastLeaseInfo, IMcastLeaseInfo interface [TAPI 2.2], EnumerateAddresses method, IMcastLeaseInfo::EnumerateAddresses, _tapi3_imcastleaseinfo_enumerateaddresses, mdhcp/IMcastLeaseInfo::EnumerateAddresses, tapi3.imcastleaseinfo_enumerateaddresses
+ms.keywords: EnumerateAddresses, EnumerateAddresses method [TAPI 2.2], EnumerateAddresses method [TAPI 2.2],IMcastLeaseInfo interface, IMcastLeaseInfo interface [TAPI 2.2],EnumerateAddresses method, IMcastLeaseInfo.EnumerateAddresses, IMcastLeaseInfo::EnumerateAddresses, _tapi3_imcastleaseinfo_enumerateaddresses, mdhcp/IMcastLeaseInfo::EnumerateAddresses, tapi3.imcastleaseinfo_enumerateaddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMcastLeaseInfo::EnumerateAddresses method
+# IMcastLeaseInfo::EnumerateAddresses
 
 
 ## -description

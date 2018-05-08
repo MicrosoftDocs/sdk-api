@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumn
-title: ICrmFormatLogRecords::GetColumn method
+title: ICrmFormatLogRecords::GetColumn
 author: windows-driver-content
 description: Formats one unstructured log record into an array of viewable fields.
 old-location: cos\icrmformatlogrecords_getcolumn.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 5234f582-88e2-4a9a-8650-d0d2d4b39f31
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetColumn method [COM+], GetColumn method [COM+], ICrmFormatLogRecords interface, GetColumn,ICrmFormatLogRecords.GetColumn, ICrmFormatLogRecords, ICrmFormatLogRecords interface [COM+], GetColumn method, ICrmFormatLogRecords::GetColumn, _dtc_ICrmFormatLogRecords_GetColumn, comsvcs/ICrmFormatLogRecords::GetColumn, cos.icrmformatlogrecords_getcolumn
+ms.keywords: GetColumn, GetColumn method [COM+], GetColumn method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumn method, ICrmFormatLogRecords.GetColumn, ICrmFormatLogRecords::GetColumn, _dtc_ICrmFormatLogRecords_GetColumn, comsvcs/ICrmFormatLogRecords::GetColumn, cos.icrmformatlogrecords_getcolumn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmFormatLogRecords::GetColumn method
+# ICrmFormatLogRecords::GetColumn
 
 
 ## -description

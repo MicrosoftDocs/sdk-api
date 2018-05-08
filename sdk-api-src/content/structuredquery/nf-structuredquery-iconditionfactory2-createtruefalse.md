@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateTrueFalse
-title: IConditionFactory2::CreateTrueFalse method
+title: IConditionFactory2::CreateTrueFalse
 author: windows-driver-content
 description: Creates a search condition that is either TRUE or FALSE.
 old-location: search\_search_IConditionFactory2_CreateTrueFalse.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createtruefalse.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateTrueFalse method [search], CreateTrueFalse method [search], IConditionFactory2 interface, CreateTrueFalse,IConditionFactory2.CreateTrueFalse, IConditionFactory2, IConditionFactory2 interface [search], CreateTrueFalse method, IConditionFactory2::CreateTrueFalse, _search_IConditionFactory2_CreateTrueFalse, search._search_IConditionFactory2_CreateTrueFalse, structuredquery/IConditionFactory2::CreateTrueFalse
+ms.date: 5/4/2018
+ms.keywords: CreateTrueFalse, CreateTrueFalse method [search], CreateTrueFalse method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateTrueFalse method, IConditionFactory2.CreateTrueFalse, IConditionFactory2::CreateTrueFalse, _search_IConditionFactory2_CreateTrueFalse, search._search_IConditionFactory2_CreateTrueFalse, structuredquery/IConditionFactory2::CreateTrueFalse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IConditionFactory2::CreateTrueFalse method
+# IConditionFactory2::CreateTrueFalse
 
 
 ## -description

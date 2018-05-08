@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCdromRip.startRip
-title: IWMPCdromRip::startRip method
+title: IWMPCdromRip::startRip
 author: windows-driver-content
 description: The startRip method rips the CD.
 old-location: wmp\iwmpcdromrip_startrip.htm
 old-project: WMP
 ms.assetid: 88ba1e83-a3c5-4922-8c58-37993ccb4afc
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], startRip method, IWMPCdromRip::startRip, IWMPCdromRipstartRip, startRip method [Windows Media Player], startRip method [Windows Media Player], IWMPCdromRip interface, startRip,IWMPCdromRip.startRip, wmp.iwmpcdromrip_startrip, wmp/IWMPCdromRip::startRip
+ms.date: 5/4/2018
+ms.keywords: IWMPCdromRip interface [Windows Media Player],startRip method, IWMPCdromRip.startRip, IWMPCdromRip::startRip, IWMPCdromRipstartRip, startRip, startRip method [Windows Media Player], startRip method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_startrip, wmp/IWMPCdromRip::startRip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCdromRip::startRip method
+# IWMPCdromRip::startRip
 
 
 ## -description

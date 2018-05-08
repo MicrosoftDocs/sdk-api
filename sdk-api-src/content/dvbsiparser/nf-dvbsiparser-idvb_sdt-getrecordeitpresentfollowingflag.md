@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.GetRecordEITPresentFollowingFlag
-title: IDVB_SDT::GetRecordEITPresentFollowingFlag method
+title: IDVB_SDT::GetRecordEITPresentFollowingFlag
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_getrecordeitpresentfollowingflag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 93dba50a-c2a5-468d-851a-c43cd986d3ef
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordEITPresentFollowingFlag method [Microsoft TV Technologies], GetRecordEITPresentFollowingFlag method [Microsoft TV Technologies], IDVB_SDT interface, GetRecordEITPresentFollowingFlag,IDVB_SDT.GetRecordEITPresentFollowingFlag, IDVB_SDT, IDVB_SDT interface [Microsoft TV Technologies], GetRecordEITPresentFollowingFlag method, IDVB_SDT::GetRecordEITPresentFollowingFlag, IDVB_SDTGetRecordEITPresentFollowingFlag, dvbsiparser/IDVB_SDT::GetRecordEITPresentFollowingFlag, mstv.idvb_sdt_getrecordeitpresentfollowingflag
+ms.keywords: GetRecordEITPresentFollowingFlag, GetRecordEITPresentFollowingFlag method [Microsoft TV Technologies], GetRecordEITPresentFollowingFlag method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordEITPresentFollowingFlag method, IDVB_SDT.GetRecordEITPresentFollowingFlag, IDVB_SDT::GetRecordEITPresentFollowingFlag, IDVB_SDTGetRecordEITPresentFollowingFlag, dvbsiparser/IDVB_SDT::GetRecordEITPresentFollowingFlag, mstv.idvb_sdt_getrecordeitpresentfollowingflag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_SDT::GetRecordEITPresentFollowingFlag method
+# IDVB_SDT::GetRecordEITPresentFollowingFlag
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut15.IInkDivisionResult.get_Strokes
-title: IInkDivisionResult::get_Strokes method
+title: IInkDivisionResult::get_Strokes
 author: windows-driver-content
 description: Gets the collection of strokes that are contained in an object or used to create an object.
 old-location: tablet\iinkdivisionresult_strokes.htm
 old-project: tablet
 ms.assetid: b65f1b71-b0a4-4de2-9321-f660bcd2d3ce
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInkDivisionResult, IInkDivisionResult interface [Tablet PC], Strokes property, IInkDivisionResult.Strokes, IInkDivisionResult.get_Strokes, IInkDivisionResult::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC], IInkDivisionResult interface, b65f1b71-b0a4-4de2-9321-f660bcd2d3ce, get_Strokes,IInkDivisionResult.get_Strokes, msinkaut15/IInkDivisionResult::Strokes, msinkaut15/IInkDivisionResult::get_Strokes, tablet.iinkdivisionresult_strokes
+ms.date: 5/2/2018
+ms.keywords: IInkDivisionResult interface [Tablet PC],Strokes property, IInkDivisionResult.Strokes, IInkDivisionResult.get_Strokes, IInkDivisionResult::Strokes, IInkDivisionResult::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkDivisionResult interface, b65f1b71-b0a4-4de2-9321-f660bcd2d3ce, get_Strokes, msinkaut15/IInkDivisionResult::Strokes, msinkaut15/IInkDivisionResult::get_Strokes, tablet.iinkdivisionresult_strokes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkDivisionResult::get_Strokes method
+# IInkDivisionResult::get_Strokes
 
 
 ## -description

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DFS_TARGET_PRIORITY_CLASS, DFS_TARGET_PRIORITY_CLASS
+req.typenames: DFS_TARGET_PRIORITY_CLASS
 topic_type:
 -	APIRef
 -	kbSyntax

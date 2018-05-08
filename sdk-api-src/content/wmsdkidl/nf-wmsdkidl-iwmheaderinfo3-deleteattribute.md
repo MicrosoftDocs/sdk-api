@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.DeleteAttribute
-title: IWMHeaderInfo3::DeleteAttribute method
+title: IWMHeaderInfo3::DeleteAttribute
 author: windows-driver-content
 description: The DeleteAttribute method removes an attribute from the file header.
 old-location: wmformat\iwmheaderinfo3_deleteattribute.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a69da90f-c8c5-4bf7-a1d8-7031aa9d1704
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: DeleteAttribute method [windows Media Format], DeleteAttribute method [windows Media Format], IWMHeaderInfo3 interface, DeleteAttribute,IWMHeaderInfo3.DeleteAttribute, IWMHeaderInfo3, IWMHeaderInfo3 interface [windows Media Format], DeleteAttribute method, IWMHeaderInfo3::DeleteAttribute, IWMHeaderInfo3DeleteAttribute, wmformat.iwmheaderinfo3_deleteattribute, wmsdkidl/IWMHeaderInfo3::DeleteAttribute
+ms.keywords: DeleteAttribute, DeleteAttribute method [windows Media Format], DeleteAttribute method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],DeleteAttribute method, IWMHeaderInfo3.DeleteAttribute, IWMHeaderInfo3::DeleteAttribute, IWMHeaderInfo3DeleteAttribute, wmformat.iwmheaderinfo3_deleteattribute, wmsdkidl/IWMHeaderInfo3::DeleteAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMHeaderInfo3::DeleteAttribute method
+# IWMHeaderInfo3::DeleteAttribute
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.GetCount
-title: IXpsOMFontResourceCollection::GetCount method
+title: IXpsOMFontResourceCollection::GetCount
 author: windows-driver-content
 description: Gets the number of IXpsOMFontResource interface pointers in the collection.
 old-location: xps\ixpsomfontresourcecollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 99ff3102-c6a7-4510-b137-70d766acd1ae
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging], IXpsOMFontResourceCollection interface, GetCount,IXpsOMFontResourceCollection.GetCount, IXpsOMFontResourceCollection, IXpsOMFontResourceCollection interface [XPS Documents and Packaging], GetCount method, IXpsOMFontResourceCollection::GetCount, xps.ixpsomfontresourcecollection_getcount, xpsobjectmodel/IXpsOMFontResourceCollection::GetCount
+ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMFontResourceCollection.GetCount, IXpsOMFontResourceCollection::GetCount, xps.ixpsomfontresourcecollection_getcount, xpsobjectmodel/IXpsOMFontResourceCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMFontResourceCollection::GetCount method
+# IXpsOMFontResourceCollection::GetCount
 
 
 ## -description

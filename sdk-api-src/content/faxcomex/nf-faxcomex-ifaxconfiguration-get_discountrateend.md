@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_DiscountRateEnd
-title: IFaxConfiguration::get_DiscountRateEnd method
+title: IFaxConfiguration::get_DiscountRateEnd
 author: windows-driver-content
 description: Sets or retrieves a value that indicates the time at which the discount rate period ends.
 old-location: fax\_mfax_FaxConfiguration_DiscountRateEnd_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\discountrateend.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DiscountRateEnd property [Fax Service], DiscountRateEnd property [Fax Service], FaxConfiguration object, FaxConfiguration object [Fax Service], DiscountRateEnd property, IFaxConfiguration, IFaxConfiguration::get_DiscountRateEnd, _mfax_IFaxConfiguration_DiscountRateEnd, fax._mfax_FaxConfiguration_DiscountRateEnd_vb, get_DiscountRateEnd,IFaxConfiguration.get_DiscountRateEnd
+ms.keywords: DiscountRateEnd property [Fax Service], DiscountRateEnd property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],DiscountRateEnd property, FaxConfiguration.DiscountRateEnd, IFaxConfiguration.get_DiscountRateEnd, IFaxConfiguration::get_DiscountRateEnd, _mfax_IFaxConfiguration_DiscountRateEnd, fax._mfax_FaxConfiguration_DiscountRateEnd_vb, get_DiscountRateEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::get_DiscountRateEnd method
+# IFaxConfiguration::get_DiscountRateEnd
 
 
 ## -description

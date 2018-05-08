@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.MakeReverse
-title: CHString::MakeReverse method
+title: CHString::MakeReverse
 author: windows-driver-content
 description: The MakeReverse method reverses the order of the characters in a CHString string.
 old-location: wmi\chstring_makereverse.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 129792cf-e442-4491-b921-273363809210
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHString, CHString interface [Windows Management Instrumentation], MakeReverse method, CHString::MakeReverse, MakeReverse method [Windows Management Instrumentation], MakeReverse method [Windows Management Instrumentation], CHString interface, MakeReverse,CHString.MakeReverse, _hmm_chstring_makereverse, chstring/CHString::MakeReverse, wmi.chstring_makereverse
+ms.keywords: CHString interface [Windows Management Instrumentation],MakeReverse method, CHString.MakeReverse, CHString::MakeReverse, MakeReverse, MakeReverse method [Windows Management Instrumentation], MakeReverse method [Windows Management Instrumentation],CHString interface, _hmm_chstring_makereverse, chstring/CHString::MakeReverse, wmi.chstring_makereverse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::MakeReverse method
+# CHString::MakeReverse
 
 
 ## -description

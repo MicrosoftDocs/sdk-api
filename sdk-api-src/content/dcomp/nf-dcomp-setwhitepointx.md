@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: a35c4a79-bf30-3334-1cea-ddd055427a0f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetWhitePointX, SetWhitePointX methods [DirectComposition], dcomp/SetWhitePointX, directcomp.idcompositionbrightnesseffect_setwhitepointx_overloaded
+ms.keywords: IDCompositionBrightnessEffect::SetWhitePointX, SetWhitePointX, SetWhitePointX methods [DirectComposition], dcomp/SetWhitePointX, directcomp.idcompositionbrightnesseffect_setwhitepointx_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

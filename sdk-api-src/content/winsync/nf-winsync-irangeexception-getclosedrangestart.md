@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRangeException.GetClosedRangeStart
-title: IRangeException::GetClosedRangeStart method
+title: IRangeException::GetClosedRangeStart
 author: windows-driver-content
 description: Gets the lower bound of the range of item IDs to exclude.
 old-location: winsync\irangeexception_getclosedrangestart.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 5c3c4e92-8c0d-4a3d-97be-029d2c386af4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetClosedRangeStart method [Windows Sync], GetClosedRangeStart method [Windows Sync], IRangeException interface, GetClosedRangeStart,IRangeException.GetClosedRangeStart, IRangeException, IRangeException interface [Windows Sync], GetClosedRangeStart method, IRangeException::GetClosedRangeStart, winsync.irangeexception_getclosedrangestart, winsync/IRangeException::GetClosedRangeStart
+ms.keywords: GetClosedRangeStart, GetClosedRangeStart method [Windows Sync], GetClosedRangeStart method [Windows Sync],IRangeException interface, IRangeException interface [Windows Sync],GetClosedRangeStart method, IRangeException.GetClosedRangeStart, IRangeException::GetClosedRangeStart, winsync.irangeexception_getclosedrangestart, winsync/IRangeException::GetClosedRangeStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IRangeException::GetClosedRangeStart method
+# IRangeException::GetClosedRangeStart
 
 
 ## -description

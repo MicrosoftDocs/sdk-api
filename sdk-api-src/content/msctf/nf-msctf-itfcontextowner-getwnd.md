@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetWnd
-title: ITfContextOwner::GetWnd method
+title: ITfContextOwner::GetWnd
 author: windows-driver-content
 description: The ITfContextOwner::GetWnd method returns the handle to a window that corresponds to the current document.
 old-location: tsf\itfcontextowner_getwnd.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 91dfc873-3327-49f4-924a-b013fa90459b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetWnd method [Text Services Framework], GetWnd method [Text Services Framework], ITfContextOwner interface, GetWnd,ITfContextOwner.GetWnd, ITfContextOwner, ITfContextOwner interface [Text Services Framework], GetWnd method, ITfContextOwner::GetWnd, _tsf_itfcontextowner_getwnd_ref, msctf/ITfContextOwner::GetWnd, tsf.itfcontextowner_getwnd
+ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetWnd method, ITfContextOwner.GetWnd, ITfContextOwner::GetWnd, _tsf_itfcontextowner_getwnd_ref, msctf/ITfContextOwner::GetWnd, tsf.itfcontextowner_getwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwner::GetWnd method
+# ITfContextOwner::GetWnd
 
 
 ## -description

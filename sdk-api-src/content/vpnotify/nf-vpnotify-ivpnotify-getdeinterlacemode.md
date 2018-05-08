@@ -1,14 +1,14 @@
 ---
 UID: NF:vpnotify.IVPNotify.GetDeinterlaceMode
-title: IVPNotify::GetDeinterlaceMode method
+title: IVPNotify::GetDeinterlaceMode
 author: windows-driver-content
 description: The GetDeinterlaceMode method retrieves the mode (such as bob or weave).
 old-location: dshow\ivpnotify_getdeinterlacemode.htm
 old-project: DirectShow
 ms.assetid: 08d28857-5460-407d-a169-8568b2c381e6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow], IVPNotify interface, GetDeinterlaceMode,IVPNotify.GetDeinterlaceMode, IVPNotify, IVPNotify interface [DirectShow], GetDeinterlaceMode method, IVPNotify::GetDeinterlaceMode, IVPNotifyGetDeinterlaceMode, dshow.ivpnotify_getdeinterlacemode, vpnotify/IVPNotify::GetDeinterlaceMode
+ms.date: 4/30/2018
+ms.keywords: GetDeinterlaceMode, GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow],IVPNotify interface, IVPNotify interface [DirectShow],GetDeinterlaceMode method, IVPNotify.GetDeinterlaceMode, IVPNotify::GetDeinterlaceMode, IVPNotifyGetDeinterlaceMode, dshow.ivpnotify_getdeinterlacemode, vpnotify/IVPNotify::GetDeinterlaceMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVPNotify::GetDeinterlaceMode method
+# IVPNotify::GetDeinterlaceMode
 
 
 ## -description

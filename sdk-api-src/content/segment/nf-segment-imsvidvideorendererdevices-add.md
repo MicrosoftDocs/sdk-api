@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRendererDevices.Add
-title: IMSVidVideoRendererDevices::Add method
+title: IMSVidVideoRendererDevices::Add
 author: windows-driver-content
 description: The Add method adds a video renderer to the collection.
 old-location: mstv\imsvidvideorendererdevices_add.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 650b7895-4e4b-494a-bc06-dafb67fca391
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies], IMSVidVideoRendererDevices interface, Add,IMSVidVideoRendererDevices.Add, IMSVidVideoRendererDevices, IMSVidVideoRendererDevices interface [Microsoft TV Technologies], Add method, IMSVidVideoRendererDevices::Add, IMSVidVideoRendererDevicesAdd, mstv.imsvidvideorendererdevices_add, segment/IMSVidVideoRendererDevices::Add
+ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, IMSVidVideoRendererDevices interface [Microsoft TV Technologies],Add method, IMSVidVideoRendererDevices.Add, IMSVidVideoRendererDevices::Add, IMSVidVideoRendererDevicesAdd, mstv.imsvidvideorendererdevices_add, segment/IMSVidVideoRendererDevices::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRendererDevices::Add method
+# IMSVidVideoRendererDevices::Add
 
 
 ## -description

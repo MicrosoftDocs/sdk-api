@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetAllGPRMs
-title: IDvdInfo::GetAllGPRMs method
+title: IDvdInfo::GetAllGPRMs
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current contents of all general parameter registers (GPRMs).
 old-location: dshow\idvdinfo_getallgprms.htm
 old-project: DirectShow
 ms.assetid: 87d82404-cd43-4499-abc2-6c043c43bf4e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAllGPRMs method [DirectShow], GetAllGPRMs method [DirectShow], IDvdInfo interface, GetAllGPRMs,IDvdInfo.GetAllGPRMs, IDvdInfo, IDvdInfo interface [DirectShow], GetAllGPRMs method, IDvdInfo::GetAllGPRMs, IDvdInfoGetAllGPRMs, dshow.idvdinfo_getallgprms, strmif/IDvdInfo::GetAllGPRMs
+ms.date: 4/30/2018
+ms.keywords: GetAllGPRMs, GetAllGPRMs method [DirectShow], GetAllGPRMs method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetAllGPRMs method, IDvdInfo.GetAllGPRMs, IDvdInfo::GetAllGPRMs, IDvdInfoGetAllGPRMs, dshow.idvdinfo_getallgprms, strmif/IDvdInfo::GetAllGPRMs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetAllGPRMs method
+# IDvdInfo::GetAllGPRMs
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IPublishingWizard.Initialize
-title: IPublishingWizard::Initialize method
+title: IPublishingWizard::Initialize
 author: windows-driver-content
 description: Initializes the Publishing Wizard object with the files to transfer, the settings to use, and the type of wizard to create.
 old-location: shell\IPublishingWizard_Initialize.htm
 old-project: shell
 ms.assetid: 8312bb2e-cc06-4440-a72c-cf153a5d61b6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AddNetPlace, IPublishingWizard, IPublishingWizard interface [Windows Shell], Initialize method, IPublishingWizard::Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell], IPublishingWizard interface, Initialize,IPublishingWizard.Initialize, InternetPhotoPrinting, SHPWHF_ANYLOCATION, SHPWHF_NOFILESELECTOR, SHPWHF_NONETPLACECREATE, SHPWHF_NORECOMPRESS, SHPWHF_USEMRU, SHPWHF_VALIDATEVIAWEBFOLDERS, _shell_IPublishingWizard_Initialize, shell.IPublishingWizard_Initialize, shobjidl/IPublishingWizard::Initialize
+ms.date: 5/3/2018
+ms.keywords: AddNetPlace, IPublishingWizard interface [Windows Shell],Initialize method, IPublishingWizard.Initialize, IPublishingWizard::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IPublishingWizard interface, InternetPhotoPrinting, SHPWHF_ANYLOCATION, SHPWHF_NOFILESELECTOR, SHPWHF_NONETPLACECREATE, SHPWHF_NORECOMPRESS, SHPWHF_USEMRU, SHPWHF_VALIDATEVIAWEBFOLDERS, _shell_IPublishingWizard_Initialize, shell.IPublishingWizard_Initialize, shobjidl/IPublishingWizard::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IPublishingWizard::Initialize method
+# IPublishingWizard::Initialize
 
 
 ## -description

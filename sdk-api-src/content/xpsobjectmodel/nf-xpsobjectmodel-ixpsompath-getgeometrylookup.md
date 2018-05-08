@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetGeometryLookup
-title: IXpsOMPath::GetGeometryLookup method
+title: IXpsOMPath::GetGeometryLookup
 author: windows-driver-content
 description: Gets the lookup key of a shared geometry object that is stored in a resource dictionary and that describes the resolved fill area for this path.
 old-location: xps\ixpsompath_getgeometrylookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f40b6ed0-6e75-4f0a-abcc-f13d961df678
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetGeometryLookup method [XPS Documents and Packaging], GetGeometryLookup method [XPS Documents and Packaging], IXpsOMPath interface, GetGeometryLookup,IXpsOMPath.GetGeometryLookup, IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], GetGeometryLookup method, IXpsOMPath::GetGeometryLookup, xps.ixpsompath_getgeometrylookup, xpsobjectmodel/IXpsOMPath::GetGeometryLookup
+ms.keywords: GetGeometryLookup, GetGeometryLookup method [XPS Documents and Packaging], GetGeometryLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometryLookup method, IXpsOMPath.GetGeometryLookup, IXpsOMPath::GetGeometryLookup, xps.ixpsompath_getgeometrylookup, xpsobjectmodel/IXpsOMPath::GetGeometryLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::GetGeometryLookup method
+# IXpsOMPath::GetGeometryLookup
 
 
 ## -description

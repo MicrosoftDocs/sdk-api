@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumoptionsv5.htm
 old-project: DHCP
 ms.assetid: 9fe14fe7-d207-4a5a-b36c-4a5ab32a6bc3
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpEnumOptionsV5, DhcpEnumOptionsV5 function [DHCP], dhcp.dhcpenumoptionsv5, dhcpsapi/DhcpEnumOptionsV5
 ms.prod: windows-hardware
 ms.technology: windows-devices

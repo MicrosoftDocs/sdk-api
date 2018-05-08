@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.Rotate
-title: ITransformProvider::Rotate method
+title: ITransformProvider::Rotate
 author: windows-driver-content
 description: Rotates the control.
 old-location: winauto\uiauto_ITransformProvider_Rotate.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2e8255de-b28d-4fc4-82ea-4255771f9838
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITransformProvider, ITransformProvider interface [Windows Accessibility], Rotate method, ITransformProvider::Rotate, Rotate method [Windows Accessibility], Rotate method [Windows Accessibility], ITransformProvider interface, Rotate,ITransformProvider.Rotate, uiauto.uiauto_ITransformProvider_Rotate, uiauto_ITransformProvider_Rotate, uiautomationcore/ITransformProvider::Rotate, winauto.uiauto_ITransformProvider_Rotate
+ms.keywords: ITransformProvider interface [Windows Accessibility],Rotate method, ITransformProvider.Rotate, ITransformProvider::Rotate, Rotate, Rotate method [Windows Accessibility], Rotate method [Windows Accessibility],ITransformProvider interface, uiauto.uiauto_ITransformProvider_Rotate, uiauto_ITransformProvider_Rotate, uiautomationcore/ITransformProvider::Rotate, winauto.uiauto_ITransformProvider_Rotate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITransformProvider::Rotate method
+# ITransformProvider::Rotate
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_ConnectionString
-title: ISearchQueryHelper::get_ConnectionString method
+title: ISearchQueryHelper::get_ConnectionString
 author: windows-driver-content
 description: Returns the OLE DB connection string for the Window Search index.
 old-location: search\_search_ISearchQueryHelper_get_ConnectionString.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_connectionstring.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchQueryHelper, ISearchQueryHelper interface [search], get_ConnectionString method, ISearchQueryHelper::get_ConnectionString, _search_ISearchQueryHelper_get_ConnectionString, get_ConnectionString method [search], get_ConnectionString method [search], ISearchQueryHelper interface, get_ConnectionString,ISearchQueryHelper.get_ConnectionString, search._search_ISearchQueryHelper_get_ConnectionString, searchapi/ISearchQueryHelper::get_ConnectionString
+ms.date: 5/4/2018
+ms.keywords: ISearchQueryHelper interface [search],get_ConnectionString method, ISearchQueryHelper.get_ConnectionString, ISearchQueryHelper::get_ConnectionString, _search_ISearchQueryHelper_get_ConnectionString, get_ConnectionString, get_ConnectionString method [search], get_ConnectionString method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_ConnectionString, searchapi/ISearchQueryHelper::get_ConnectionString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchQueryHelper::get_ConnectionString method
+# ISearchQueryHelper::get_ConnectionString
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.get_SelectionContainer
-title: ISelectionItemProvider::get_SelectionContainer method
+title: ISelectionItemProvider::get_SelectionContainer
 author: windows-driver-content
 description: Specifies the provider that implements ISelectionProvider and acts as the container for the calling object.
 old-location: winauto\uiauto_ISelectionItemProvider_SelectionContainer.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: c1bfdb40-f30c-4f33-a947-875077000029
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ISelectionItemProvider, ISelectionItemProvider interface [Windows Accessibility], SelectionContainer property, ISelectionItemProvider.SelectionContainer, ISelectionItemProvider::get_SelectionContainer, SelectionContainer property [Windows Accessibility], SelectionContainer property [Windows Accessibility], ISelectionItemProvider interface, get_SelectionContainer,ISelectionItemProvider.get_SelectionContainer, uiauto.uiauto_ISelectionItemProvider_SelectionContainer, uiauto_ISelectionItemProvider_SelectionContainer, uiautomationcore/ISelectionItemProvider::SelectionContainer, uiautomationcore/ISelectionItemProvider::get_SelectionContainer, winauto.uiauto_ISelectionItemProvider_SelectionContainer
+ms.keywords: ISelectionItemProvider interface [Windows Accessibility],SelectionContainer property, ISelectionItemProvider.SelectionContainer, ISelectionItemProvider.get_SelectionContainer, ISelectionItemProvider::SelectionContainer, ISelectionItemProvider::get_SelectionContainer, SelectionContainer property [Windows Accessibility], SelectionContainer property [Windows Accessibility],ISelectionItemProvider interface, get_SelectionContainer, uiauto.uiauto_ISelectionItemProvider_SelectionContainer, uiauto_ISelectionItemProvider_SelectionContainer, uiautomationcore/ISelectionItemProvider::SelectionContainer, uiautomationcore/ISelectionItemProvider::get_SelectionContainer, winauto.uiauto_ISelectionItemProvider_SelectionContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISelectionItemProvider::get_SelectionContainer method
+# ISelectionItemProvider::get_SelectionContainer
 
 
 ## -description

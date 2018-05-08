@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.put_Enabled
-title: IDataManager::put_Enabled method
+title: IDataManager::put_Enabled
 author: windows-driver-content
 description: Retrieves or sets a value that indicates whether the data manager is enabled to run.
 old-location: pla\idatamanager_enabled.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 3048a4b6-3e18-4585-bf5e-d91a4c0adcfc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Enabled property [PLA], Enabled property [PLA], IDataManager interface, IDataManager, IDataManager interface [PLA], Enabled property, IDataManager.Enabled, IDataManager::get_Enabled, IDataManager::put_Enabled, base.idatamanager_enabled, pla.idatamanager_enabled, pla/IDataManager::Enabled, pla/IDataManager::get_Enabled, pla/IDataManager::put_Enabled, put_Enabled,IDataManager.put_Enabled
+ms.keywords: Enabled property [PLA], Enabled property [PLA],IDataManager interface, IDataManager interface [PLA],Enabled property, IDataManager.Enabled, IDataManager.put_Enabled, IDataManager::Enabled, IDataManager::get_Enabled, IDataManager::put_Enabled, base.idatamanager_enabled, pla.idatamanager_enabled, pla/IDataManager::Enabled, pla/IDataManager::get_Enabled, pla/IDataManager::put_Enabled, put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataManager::put_Enabled method
+# IDataManager::put_Enabled
 
 
 ## -description

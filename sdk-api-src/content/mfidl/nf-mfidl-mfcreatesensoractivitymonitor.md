@@ -7,7 +7,7 @@ old-location: mf\mfcreatesensoractivitymonitor.htm
 old-project: medfound
 ms.assetid: 852395EE-AA84-4C61-A55F-E8D925FA1447
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MFCreateSensorActivityMonitor, MFCreateSensorActivityMonitor function [Media Foundation], mf.mfcreatesensoractivitymonitor, mfidl/MFCreateSensorActivityMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents3.PrefetchFileBegin
-title: IOfflineFilesEvents3::PrefetchFileBegin method
+title: IOfflineFilesEvents3::PrefetchFileBegin
 author: windows-driver-content
 description: Reports that a file prefetch operation has begun.
 old-location: of\iofflinefilesevents3_prefetchfilebegin.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: b65354ed-dc4b-491c-9672-2f5fa91093bd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents3, IOfflineFilesEvents3 interface [Offline Files], PrefetchFileBegin method, IOfflineFilesEvents3::PrefetchFileBegin, PrefetchFileBegin method [Offline Files], PrefetchFileBegin method [Offline Files], IOfflineFilesEvents3 interface, PrefetchFileBegin,IOfflineFilesEvents3.PrefetchFileBegin, cscobj/IOfflineFilesEvents3::PrefetchFileBegin, of.iofflinefilesevents3_prefetchfilebegin
+ms.keywords: IOfflineFilesEvents3 interface [Offline Files],PrefetchFileBegin method, IOfflineFilesEvents3.PrefetchFileBegin, IOfflineFilesEvents3::PrefetchFileBegin, PrefetchFileBegin, PrefetchFileBegin method [Offline Files], PrefetchFileBegin method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::PrefetchFileBegin, of.iofflinefilesevents3_prefetchfilebegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents3::PrefetchFileBegin method
+# IOfflineFilesEvents3::PrefetchFileBegin
 
 
 ## -description

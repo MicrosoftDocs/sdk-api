@@ -7,7 +7,7 @@ old-location: search\_search_PROXY_ACCESS.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\proxy_access.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: PROXY_ACCESS, PROXY_ACCESS enumeration [search], PROXY_ACCESS_DIRECT, PROXY_ACCESS_PRECONFIG, PROXY_ACCESS_PROXY, _PROXY_ACCESS, _search_PROXY_ACCESS, search._search_PROXY_ACCESS, searchapi/PROXY_ACCESS, searchapi/PROXY_ACCESS_DIRECT, searchapi/PROXY_ACCESS_PRECONFIG, searchapi/PROXY_ACCESS_PROXY
 ms.prod: windows-hardware
 ms.technology: windows-devices

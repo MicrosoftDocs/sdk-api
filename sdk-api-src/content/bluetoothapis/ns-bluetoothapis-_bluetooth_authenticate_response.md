@@ -71,6 +71,26 @@ A <a href="https://msdn.microsoft.com/2374df2c-2f50-4a06-aaad-384d81b067c5">BLUE
 <div class="alert"><b>Note</b>  This information can be found in the <a href="https://msdn.microsoft.com/e9c703c1-7981-4c34-a96e-0123d3655e55">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
 <div> </div>
 
+### -field pinInfo
+
+ 
+
+
+### -field oobInfo
+
+ 
+
+
+### -field numericCompInfo
+
+ 
+
+
+### -field passkeyInfo
+
+ 
+
+
 ### -field negativeResponse
 
 <b>TRUE</b> if the authentication request was rejected; otherwise <b>FALSE</b>.

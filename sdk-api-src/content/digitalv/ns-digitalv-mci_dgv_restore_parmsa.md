@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_restore_parms.htm
 old-project: Multimedia
 ms.assetid: 2b8fb9a8-b7a2-4775-a21e-0ebcb2c96b24
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPMCI_DGV_RESTORE_PARMSA, MCI_DGV_RESTORE_PARMS, MCI_DGV_RESTORE_PARMS structure [Windows Multimedia], MCI_DGV_RESTORE_PARMSA, _win32_MCI_DGV_RESTORE_PARMS_str, digitalv/MCI_DGV_RESTORE_PARMS, multimedia.mci_dgv_restore_parms"
 ms.prod: windows-hardware
 ms.technology: windows-devices

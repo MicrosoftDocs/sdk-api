@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.SubpictureStreamChange
-title: IDvdControl::SubpictureStreamChange method
+title: IDvdControl::SubpictureStreamChange
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the new subpicture stream and enables or disables it for display.
 old-location: dshow\idvdcontrol_subpicturestreamchange.htm
 old-project: DirectShow
 ms.assetid: 527031fa-bab9-49f5-89b1-f0c5c5812a76
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl, IDvdControl interface [DirectShow], SubpictureStreamChange method, IDvdControl::SubpictureStreamChange, IDvdControlSubpictureStreamChange, SubpictureStreamChange method [DirectShow], SubpictureStreamChange method [DirectShow], IDvdControl interface, SubpictureStreamChange,IDvdControl.SubpictureStreamChange, dshow.idvdcontrol_subpicturestreamchange, strmif/IDvdControl::SubpictureStreamChange
+ms.date: 4/30/2018
+ms.keywords: IDvdControl interface [DirectShow],SubpictureStreamChange method, IDvdControl.SubpictureStreamChange, IDvdControl::SubpictureStreamChange, IDvdControlSubpictureStreamChange, SubpictureStreamChange, SubpictureStreamChange method [DirectShow], SubpictureStreamChange method [DirectShow],IDvdControl interface, dshow.idvdcontrol_subpicturestreamchange, strmif/IDvdControl::SubpictureStreamChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::SubpictureStreamChange method
+# IDvdControl::SubpictureStreamChange
 
 
 ## -description

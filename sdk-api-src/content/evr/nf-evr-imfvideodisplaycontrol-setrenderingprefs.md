@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetRenderingPrefs
-title: IMFVideoDisplayControl::SetRenderingPrefs method
+title: IMFVideoDisplayControl::SetRenderingPrefs
 author: windows-driver-content
 description: Sets various preferences related to video rendering.
 old-location: mf\imfvideodisplaycontrol_setrenderingprefs.htm
 old-project: medfound
 ms.assetid: 7603aaf8-1671-4b35-bee5-335f656de3c5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 7603aaf8-1671-4b35-bee5-335f656de3c5, IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], SetRenderingPrefs method, IMFVideoDisplayControl::SetRenderingPrefs, SetRenderingPrefs method [Media Foundation], SetRenderingPrefs method [Media Foundation], IMFVideoDisplayControl interface, SetRenderingPrefs,IMFVideoDisplayControl.SetRenderingPrefs, evr/IMFVideoDisplayControl::SetRenderingPrefs, mf.imfvideodisplaycontrol_setrenderingprefs
+ms.date: 5/3/2018
+ms.keywords: 7603aaf8-1671-4b35-bee5-335f656de3c5, IMFVideoDisplayControl interface [Media Foundation],SetRenderingPrefs method, IMFVideoDisplayControl.SetRenderingPrefs, IMFVideoDisplayControl::SetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [Media Foundation], SetRenderingPrefs method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetRenderingPrefs, mf.imfvideodisplaycontrol_setrenderingprefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoDisplayControl::SetRenderingPrefs method
+# IMFVideoDisplayControl::SetRenderingPrefs
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Seek
-title: IMFByteStream::Seek method
+title: IMFByteStream::Seek
 author: windows-driver-content
 description: Moves the current position in the stream by a specified offset.
 old-location: mf\imfbytestream_seek.htm
 old-project: medfound
 ms.assetid: 512c67a5-e87d-4a81-8577-e64dac868c40
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 512c67a5-e87d-4a81-8577-e64dac868c40, IMFByteStream, IMFByteStream interface [Media Foundation], Seek method, IMFByteStream::Seek, MFBYTESTREAM_SEEK_FLAG_CANCEL_PENDING_IO, Seek method [Media Foundation], Seek method [Media Foundation], IMFByteStream interface, Seek,IMFByteStream.Seek, mf.imfbytestream_seek, mfobjects/IMFByteStream::Seek
+ms.date: 5/3/2018
+ms.keywords: 512c67a5-e87d-4a81-8577-e64dac868c40, IMFByteStream interface [Media Foundation],Seek method, IMFByteStream.Seek, IMFByteStream::Seek, MFBYTESTREAM_SEEK_FLAG_CANCEL_PENDING_IO, Seek, Seek method [Media Foundation], Seek method [Media Foundation],IMFByteStream interface, mf.imfbytestream_seek, mfobjects/IMFByteStream::Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStream::Seek method
+# IMFByteStream::Seek
 
 
 ## -description

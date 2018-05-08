@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetRecordTeletextType
-title: IDvbTeletextDescriptor::GetRecordTeletextType method
+title: IDvbTeletextDescriptor::GetRecordTeletextType
 author: windows-driver-content
 description: Gets the teletext type code from from a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_getrecordteletexttype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4272d95a-406f-4afc-92b9-abfd618f41ab
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordTeletextType method [Microsoft TV Technologies], GetRecordTeletextType method [Microsoft TV Technologies], IDvbTeletextDescriptor interface, GetRecordTeletextType,IDvbTeletextDescriptor.GetRecordTeletextType, IDvbTeletextDescriptor, IDvbTeletextDescriptor interface [Microsoft TV Technologies], GetRecordTeletextType method, IDvbTeletextDescriptor::GetRecordTeletextType, dvbsiparser/IDvbTeletextDescriptor::GetRecordTeletextType, mstv.idvbteletextdescriptor_getrecordteletexttype
+ms.keywords: GetRecordTeletextType, GetRecordTeletextType method [Microsoft TV Technologies], GetRecordTeletextType method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetRecordTeletextType method, IDvbTeletextDescriptor.GetRecordTeletextType, IDvbTeletextDescriptor::GetRecordTeletextType, dvbsiparser/IDvbTeletextDescriptor::GetRecordTeletextType, mstv.idvbteletextdescriptor_getrecordteletexttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbTeletextDescriptor::GetRecordTeletextType method
+# IDvbTeletextDescriptor::GetRecordTeletextType
 
 
 ## -description

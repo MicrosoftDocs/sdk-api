@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterDataInfo.GetClusterHandle
-title: IGetClusterDataInfo::GetClusterHandle method
+title: IGetClusterDataInfo::GetClusterHandle
 author: windows-driver-content
 description: Returns a handle to the cluster.
 old-location: mscs\igetclusterdatainfo_getclusterhandle.htm
@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 5623552e-ab06-4e18-88dc-e297c6af8a63
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetClusterHandle method [Failover Cluster], GetClusterHandle method [Failover Cluster], IGetClusterDataInfo interface, GetClusterHandle,IGetClusterDataInfo.GetClusterHandle, IGetClusterDataInfo, IGetClusterDataInfo interface [Failover Cluster], GetClusterHandle method, IGetClusterDataInfo::GetClusterHandle, _wolf_igetclusterdatainfo_getclusterhandle, cluadmex/IGetClusterDataInfo::GetClusterHandle, mscs.igetclusterdatainfo_getclusterhandle
+ms.keywords: GetClusterHandle, GetClusterHandle method [Failover Cluster], GetClusterHandle method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetClusterHandle method, IGetClusterDataInfo.GetClusterHandle, IGetClusterDataInfo::GetClusterHandle, _wolf_igetclusterdatainfo_getclusterhandle, cluadmex/IGetClusterDataInfo::GetClusterHandle, mscs.igetclusterdatainfo_getclusterhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetClusterDataInfo::GetClusterHandle method
+# IGetClusterDataInfo::GetClusterHandle
 
 
 ## -description

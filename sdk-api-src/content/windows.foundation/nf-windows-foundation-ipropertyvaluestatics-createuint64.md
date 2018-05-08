@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt64
-title: IPropertyValueStatics::CreateUInt64 method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified unsigned 64-bit integer value.
 old-location: winrt\ipropertyvaluestatics_createuint64.htm
 old-project: WinRT
 ms.assetid: 49158177-D74E-4310-984D-A1C511840EF9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateUInt64 method [Windows Runtime], CreateUInt64 method [Windows Runtime], IPropertyValueStatics interface, CreateUInt64,IPropertyValueStatics.CreateUInt64, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateUInt64 method, IPropertyValueStatics::CreateUInt64, windows/IPropertyValueStatics::CreateUInt64, winrt.ipropertyvaluefactory_createuint64, winrt.ipropertyvaluestatics_createuint64
+ms.date: 5/4/2018
+ms.keywords: CreateUInt64, CreateUInt64 method [Windows Runtime], CreateUInt64 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt64 method, IPropertyValueStatics.CreateUInt64, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt64, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt64, winrt.ipropertyvaluefactory_createuint64, winrt.ipropertyvaluestatics_createuint64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateUInt64 method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

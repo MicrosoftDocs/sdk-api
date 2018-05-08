@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentTypes.Clone
-title: IComponentTypes::Clone method
+title: IComponentTypes::Clone
 author: windows-driver-content
 description: The Clone method creates a new copy of the collection.
 old-location: mstv\icomponenttypes_clone.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4cc842fa-90bd-4618-8e67-36b15db50cd1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies], IComponentTypes interface, Clone,IComponentTypes.Clone, IComponentTypes, IComponentTypes interface [Microsoft TV Technologies], Clone method, IComponentTypes::Clone, IComponentTypesClone, mstv.icomponenttypes_clone, tuner/IComponentTypes::Clone
+ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IComponentTypes interface, IComponentTypes interface [Microsoft TV Technologies],Clone method, IComponentTypes.Clone, IComponentTypes::Clone, IComponentTypesClone, mstv.icomponenttypes_clone, tuner/IComponentTypes::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IComponentTypes::Clone method
+# IComponentTypes::Clone
 
 
 ## -description

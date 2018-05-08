@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.GetAttributes
-title: IMDSPStorage::GetAttributes method
+title: IMDSPStorage::GetAttributes
 author: windows-driver-content
 description: The GetAttributes method retrieves the attributes of this storage object.
 old-location: wmdm\imdspstorage_getattributes.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 822a5a3f-e649-4e5c-8216-56e77d60a8e3
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetAttributes method [windows Media Device Manager], GetAttributes method [windows Media Device Manager], IMDSPStorage interface, GetAttributes,IMDSPStorage.GetAttributes, IMDSPStorage, IMDSPStorage interface [windows Media Device Manager], GetAttributes method, IMDSPStorage::GetAttributes, IMDSPStorageGetAttributes, mswmdm/IMDSPStorage::GetAttributes, wmdm.imdspstorage_getattributes
+ms.keywords: GetAttributes, GetAttributes method [windows Media Device Manager], GetAttributes method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetAttributes method, IMDSPStorage.GetAttributes, IMDSPStorage::GetAttributes, IMDSPStorageGetAttributes, mswmdm/IMDSPStorage::GetAttributes, wmdm.imdspstorage_getattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPStorage::GetAttributes method
+# IMDSPStorage::GetAttributes
 
 
 ## -description

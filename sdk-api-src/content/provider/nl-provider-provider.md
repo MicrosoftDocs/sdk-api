@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: d8a7c433-7e6a-45cc-914f-a15a3688c7aa
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "??1Provider@@UAE@XZ, ??1Provider@@UEAA@XZ, Provider, Provider class [Windows Management Instrumentation], Provider class [Windows Management Instrumentation], described, _hmm_provider, provider/Provider, wmi.provider"
+ms.keywords: "??1Provider@@UAE@XZ, ??1Provider@@UEAA@XZ, Provider, Provider class [Windows Management Instrumentation], Provider class [Windows Management Instrumentation],described, _hmm_provider, provider/Provider, wmi.provider"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

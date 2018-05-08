@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.SetBoolVector
-title: ID3D10EffectVectorVariable::SetBoolVector method
+title: ID3D10EffectVectorVariable::SetBoolVector
 author: windows-driver-content
 description: Set a four-component vector that contains boolean data.
 old-location: direct3d10\id3d10effectvectorvariable_setboolvector.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_setboolvector.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 838a298a-5879-04ce-3b05-893c86f7f6b5, ID3D10EffectVectorVariable, ID3D10EffectVectorVariable interface [Direct3D 10], SetBoolVector method, ID3D10EffectVectorVariable::SetBoolVector, SetBoolVector method [Direct3D 10], SetBoolVector method [Direct3D 10], ID3D10EffectVectorVariable interface, SetBoolVector,ID3D10EffectVectorVariable.SetBoolVector, d3d10effect/ID3D10EffectVectorVariable::SetBoolVector, direct3d10.id3d10effectvectorvariable_setboolvector
+ms.keywords: 838a298a-5879-04ce-3b05-893c86f7f6b5, ID3D10EffectVectorVariable interface [Direct3D 10],SetBoolVector method, ID3D10EffectVectorVariable.SetBoolVector, ID3D10EffectVectorVariable::SetBoolVector, SetBoolVector, SetBoolVector method [Direct3D 10], SetBoolVector method [Direct3D 10],ID3D10EffectVectorVariable interface, d3d10effect/ID3D10EffectVectorVariable::SetBoolVector, direct3d10.id3d10effectvectorvariable_setboolvector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectVectorVariable::SetBoolVector method
+# ID3D10EffectVectorVariable::SetBoolVector
 
 
 ## -description

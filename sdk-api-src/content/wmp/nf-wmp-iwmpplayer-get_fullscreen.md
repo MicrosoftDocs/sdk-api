@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_fullScreen
-title: IWMPPlayer::get_fullScreen method
+title: IWMPPlayer::get_fullScreen
 author: windows-driver-content
 description: The get_fullScreen method retrieves a value indicating whether video content is played back in full-screen mode.
 old-location: wmp\iwmpplayer_get_fullscreen.htm
 old-project: WMP
 ms.assetid: 5a8bb0b5-76c6-424f-ba37-5e913b6ed542
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], get_fullScreen method, IWMPPlayer::get_fullScreen, IWMPPlayerget_fullScreen, get_fullScreen method [Windows Media Player], get_fullScreen method [Windows Media Player], IWMPPlayer interface, get_fullScreen,IWMPPlayer.get_fullScreen, wmp.iwmpplayer_get_fullscreen, wmp/IWMPPlayer::get_fullScreen
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayer interface [Windows Media Player],get_fullScreen method, IWMPPlayer.get_fullScreen, IWMPPlayer::get_fullScreen, IWMPPlayerget_fullScreen, get_fullScreen, get_fullScreen method [Windows Media Player], get_fullScreen method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_fullscreen, wmp/IWMPPlayer::get_fullScreen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayer::get_fullScreen method
+# IWMPPlayer::get_fullScreen
 
 
 ## -description

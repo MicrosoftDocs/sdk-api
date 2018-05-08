@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetFileRanges
-title: IBitsPeerCacheRecord::GetFileRanges method
+title: IBitsPeerCacheRecord::GetFileRanges
 author: windows-driver-content
 description: Gets the ranges of the file that are in the cache.
 old-location: bits\ibitspeercacherecord_getfileranges.htm
 old-project: Bits
 ms.assetid: 63f9821c-f5b6-4646-96e0-4ec61ce16e9b
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetFileRanges method [BITS], GetFileRanges method [BITS], IBitsPeerCacheRecord interface, GetFileRanges,IBitsPeerCacheRecord.GetFileRanges, IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], GetFileRanges method, IBitsPeerCacheRecord::GetFileRanges, bits.ibitspeercacherecord_getfileranges, bits3_0/IBitsPeerCacheRecord::GetFileRanges
+ms.date: 4/27/2018
+ms.keywords: GetFileRanges, GetFileRanges method [BITS], GetFileRanges method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileRanges method, IBitsPeerCacheRecord.GetFileRanges, IBitsPeerCacheRecord::GetFileRanges, bits.ibitspeercacherecord_getfileranges, bits3_0/IBitsPeerCacheRecord::GetFileRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsPeerCacheRecord::GetFileRanges method
+# IBitsPeerCacheRecord::GetFileRanges
 
 
 ## -description

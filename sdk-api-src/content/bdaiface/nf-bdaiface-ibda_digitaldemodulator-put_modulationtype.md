@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_ModulationType
-title: IBDA_DigitalDemodulator::put_ModulationType method
+title: IBDA_DigitalDemodulator::put_ModulationType
 author: windows-driver-content
 description: The put_ModulationType method specifies the modulation type for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_modulationtype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9e2bf33f-b139-4455-ad49-c75e52f31083
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DigitalDemodulator, IBDA_DigitalDemodulator interface [Microsoft TV Technologies], put_ModulationType method, IBDA_DigitalDemodulator::put_ModulationType, IBDA_DigitalDemodulatorput_ModulationType, bdaiface/IBDA_DigitalDemodulator::put_ModulationType, mstv.ibda_digitaldemodulator_put_modulationtype, put_ModulationType method [Microsoft TV Technologies], put_ModulationType method [Microsoft TV Technologies], IBDA_DigitalDemodulator interface, put_ModulationType,IBDA_DigitalDemodulator.put_ModulationType
+ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_ModulationType method, IBDA_DigitalDemodulator.put_ModulationType, IBDA_DigitalDemodulator::put_ModulationType, IBDA_DigitalDemodulatorput_ModulationType, bdaiface/IBDA_DigitalDemodulator::put_ModulationType, mstv.ibda_digitaldemodulator_put_modulationtype, put_ModulationType, put_ModulationType method [Microsoft TV Technologies], put_ModulationType method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DigitalDemodulator::put_ModulationType method
+# IBDA_DigitalDemodulator::put_ModulationType
 
 
 ## -description

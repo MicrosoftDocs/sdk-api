@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetWatermark
-title: IVisualProperties::SetWatermark method
+title: IVisualProperties::SetWatermark
 author: windows-driver-content
 description: Provides a bitmap to use as a watermark.
 old-location: shell\IVisualProperties_SetWatermark.htm
 old-project: shell
 ms.assetid: 14ce62f7-b464-4e52-8441-35f613b6c844
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVisualProperties, IVisualProperties interface [Windows Shell], SetWatermark method, IVisualProperties::SetWatermark, SetWatermark method [Windows Shell], SetWatermark method [Windows Shell], IVisualProperties interface, SetWatermark,IVisualProperties.SetWatermark, _shell_IVisualProperties_SetWatermark, shell.IVisualProperties_SetWatermark, shobjidl/IVisualProperties::SetWatermark
+ms.date: 5/3/2018
+ms.keywords: IVisualProperties interface [Windows Shell],SetWatermark method, IVisualProperties.SetWatermark, IVisualProperties::SetWatermark, SetWatermark, SetWatermark method [Windows Shell], SetWatermark method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetWatermark, shell.IVisualProperties_SetWatermark, shobjidl/IVisualProperties::SetWatermark
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IVisualProperties::SetWatermark method
+# IVisualProperties::SetWatermark
 
 
 ## -description

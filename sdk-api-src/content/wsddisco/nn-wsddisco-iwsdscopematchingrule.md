@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: c608215d-6c72-4567-bf81-15af665e8c52
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDScopeMatchingRule, IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface, described, ncd.iwsdscopematchingrule, wsddisco/IWSDScopeMatchingRule
+ms.keywords: IWSDScopeMatchingRule, IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,described, ncd.iwsdscopematchingrule, wsddisco/IWSDScopeMatchingRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

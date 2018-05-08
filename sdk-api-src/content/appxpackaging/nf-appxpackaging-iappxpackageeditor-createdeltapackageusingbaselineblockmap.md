@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap
-title: IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap method
+title: IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap
 author: windows-driver-content
 description: Creates a delta package from the differences in the updated package and the baseline block map.
 old-location: appxpkg\iappxpackageeditor_createdeltapackageusingbaselineblockmap.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 33D1CEBA-A7F4-4506-B467-3610A3737B87
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateDeltaPackageUsingBaselineBlockMap method [App packaging and management], CreateDeltaPackageUsingBaselineBlockMap method [App packaging and management], IAppxPackageEditor interface, CreateDeltaPackageUsingBaselineBlockMap,IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap, IAppxPackageEditor, IAppxPackageEditor interface [App packaging and management], CreateDeltaPackageUsingBaselineBlockMap method, IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap, appxpackaging/IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap, appxpkg.iappxpackageeditor_createdeltapackageusingbaselineblockmap
+ms.keywords: CreateDeltaPackageUsingBaselineBlockMap, CreateDeltaPackageUsingBaselineBlockMap method [App packaging and management], CreateDeltaPackageUsingBaselineBlockMap method [App packaging and management],IAppxPackageEditor interface, IAppxPackageEditor interface [App packaging and management],CreateDeltaPackageUsingBaselineBlockMap method, IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap, IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap, appxpackaging/IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap, appxpkg.iappxpackageeditor_createdeltapackageusingbaselineblockmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap method
+# IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap
 
 
 ## -description

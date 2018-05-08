@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk.GetIdentificationData
-title: IVdsDisk::GetIdentificationData method
+title: IVdsDisk::GetIdentificationData
 author: windows-driver-content
 description: Retrieves information that uniquely identifies a disk.
 old-location: base\ivdsdisk_getidentificationdata.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 400fa102-f98a-4bc1-919c-858c135a5b93
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetIdentificationData method [VDS], GetIdentificationData method [VDS], IVdsDisk interface, GetIdentificationData,IVdsDisk.GetIdentificationData, IVdsDisk, IVdsDisk interface [VDS], GetIdentificationData method, IVdsDisk::GetIdentificationData, base.ivdsdisk_getidentificationdata, vds/IVdsDisk::GetIdentificationData
+ms.keywords: GetIdentificationData, GetIdentificationData method [VDS], GetIdentificationData method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],GetIdentificationData method, IVdsDisk.GetIdentificationData, IVdsDisk::GetIdentificationData, base.ivdsdisk_getidentificationdata, vds/IVdsDisk::GetIdentificationData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsDisk::GetIdentificationData method
+# IVdsDisk::GetIdentificationData
 
 
 ## -description

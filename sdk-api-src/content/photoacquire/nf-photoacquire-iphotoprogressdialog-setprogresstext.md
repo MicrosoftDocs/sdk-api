@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetProgressText
-title: IPhotoProgressDialog::SetProgressText method
+title: IPhotoProgressDialog::SetProgressText
 author: windows-driver-content
 description: The SetProgressText method sets the text for the progress bar in the progress dialog box.
 old-location: picacq\iphotoprogressdialog_setprogresstext.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: b3210667-1fe2-4b30-9e5e-311f720647ce
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], SetProgressText method, IPhotoProgressDialog::SetProgressText, IPhotoProgressDialogSetProgressText, SetProgressText method [Picture Acquisition], SetProgressText method [Picture Acquisition], IPhotoProgressDialog interface, SetProgressText,IPhotoProgressDialog.SetProgressText, photoacquire/IPhotoProgressDialog::SetProgressText, picacq.iphotoprogressdialog_setprogresstext
+ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetProgressText method, IPhotoProgressDialog.SetProgressText, IPhotoProgressDialog::SetProgressText, IPhotoProgressDialogSetProgressText, SetProgressText, SetProgressText method [Picture Acquisition], SetProgressText method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetProgressText, picacq.iphotoprogressdialog_setprogresstext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoProgressDialog::SetProgressText method
+# IPhotoProgressDialog::SetProgressText
 
 
 ## -description

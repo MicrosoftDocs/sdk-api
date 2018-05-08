@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceTrackerConfig.TrackerConfig
-title: IServiceTrackerConfig::TrackerConfig method
+title: IServiceTrackerConfig::TrackerConfig
 author: windows-driver-content
 description: Configures the tracker property for the enclosed work.
 old-location: cos\iservicetrackerconfig_trackerconfig.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: cdeb982b-720a-4d69-9c3c-d7a5a4527991
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IServiceTrackerConfig, IServiceTrackerConfig interface [COM+], TrackerConfig method, IServiceTrackerConfig::TrackerConfig, TrackerConfig method [COM+], TrackerConfig method [COM+], IServiceTrackerConfig interface, TrackerConfig,IServiceTrackerConfig.TrackerConfig, _cos_IServiceTrackerConfig_TrackerConfig, comsvcs/IServiceTrackerConfig::TrackerConfig, cos.iservicetrackerconfig_trackerconfig
+ms.keywords: IServiceTrackerConfig interface [COM+],TrackerConfig method, IServiceTrackerConfig.TrackerConfig, IServiceTrackerConfig::TrackerConfig, TrackerConfig, TrackerConfig method [COM+], TrackerConfig method [COM+],IServiceTrackerConfig interface, _cos_IServiceTrackerConfig_TrackerConfig, comsvcs/IServiceTrackerConfig::TrackerConfig, cos.iservicetrackerconfig_trackerconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServiceTrackerConfig::TrackerConfig method
+# IServiceTrackerConfig::TrackerConfig
 
 
 ## -description

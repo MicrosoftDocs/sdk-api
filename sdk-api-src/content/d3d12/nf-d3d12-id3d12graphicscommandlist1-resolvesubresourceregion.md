@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.ResolveSubresourceRegion
-title: ID3D12GraphicsCommandList1::ResolveSubresourceRegion method
+title: ID3D12GraphicsCommandList1::ResolveSubresourceRegion
 author: windows-driver-content
 description: Copy a region of a multisampled or compressed resource into a non-multisampled or non-compressed resource.
 old-location: direct3d12\id3d12graphicscommandlist1_resolvesubresourceregion.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 8CF3809C-0EC7-4FBB-AEEF-E74FCD9B836D
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12GraphicsCommandList1, ID3D12GraphicsCommandList1 interface, ResolveSubresourceRegion method, ID3D12GraphicsCommandList1::ResolveSubresourceRegion, ResolveSubresourceRegion method, ResolveSubresourceRegion method, ID3D12GraphicsCommandList1 interface, ResolveSubresourceRegion,ID3D12GraphicsCommandList1.ResolveSubresourceRegion, d3d12/ID3D12GraphicsCommandList1::ResolveSubresourceRegion, direct3d12.id3d12graphicscommandlist1_resolvesubresourceregion
+ms.keywords: ID3D12GraphicsCommandList1 interface,ResolveSubresourceRegion method, ID3D12GraphicsCommandList1.ResolveSubresourceRegion, ID3D12GraphicsCommandList1::ResolveSubresourceRegion, ResolveSubresourceRegion, ResolveSubresourceRegion method, ResolveSubresourceRegion method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::ResolveSubresourceRegion, direct3d12.id3d12graphicscommandlist1_resolvesubresourceregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList1::ResolveSubresourceRegion method
+# ID3D12GraphicsCommandList1::ResolveSubresourceRegion
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: security\cryptdecodeobject.htm
 old-project: SecCrypto
 ms.assetid: 7d5ed4f4-9d76-4a16-9059-27b0edd83459
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CRYPT_DECODE_NOCOPY_FLAG, CRYPT_DECODE_NO_SIGNATURE_BYTE_REVERSAL_FLAG, CRYPT_DECODE_SHARE_OID_STRING_FLAG, CRYPT_DECODE_TO_BE_SIGNED_FLAG, CRYPT_UNICODE_NAME_DECODE_DISABLE_IE4_UTF8_FLAG, CryptDecodeObject, CryptDecodeObject function [Security], _crypto2_cryptdecodeobject, security.cryptdecodeobject, wincrypt/CryptDecodeObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

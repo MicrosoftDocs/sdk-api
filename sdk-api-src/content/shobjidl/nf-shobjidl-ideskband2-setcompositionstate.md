@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IDeskBand2.SetCompositionState
-title: IDeskBand2::SetCompositionState method
+title: IDeskBand2::SetCompositionState
 author: windows-driver-content
 description: Sets the composition state.
 old-location: shell\IDeskBand2_SetCompositionState.htm
 old-project: shell
 ms.assetid: 183cc6fa-4dc4-4272-8d61-a0a426aeefda
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDeskBand2, IDeskBand2 interface [Windows Shell], SetCompositionState method, IDeskBand2::SetCompositionState, SetCompositionState method [Windows Shell], SetCompositionState method [Windows Shell], IDeskBand2 interface, SetCompositionState,IDeskBand2.SetCompositionState, _shell_IDeskBand2_SetCompositionState, shell.IDeskBand2_SetCompositionState, shobjidl/IDeskBand2::SetCompositionState
+ms.date: 5/3/2018
+ms.keywords: IDeskBand2 interface [Windows Shell],SetCompositionState method, IDeskBand2.SetCompositionState, IDeskBand2::SetCompositionState, SetCompositionState, SetCompositionState method [Windows Shell], SetCompositionState method [Windows Shell],IDeskBand2 interface, _shell_IDeskBand2_SetCompositionState, shell.IDeskBand2_SetCompositionState, shobjidl/IDeskBand2::SetCompositionState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IDeskBand2::SetCompositionState method
+# IDeskBand2::SetCompositionState
 
 
 ## -description

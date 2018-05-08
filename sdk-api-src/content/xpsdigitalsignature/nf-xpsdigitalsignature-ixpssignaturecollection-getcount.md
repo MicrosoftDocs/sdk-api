@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureCollection.GetCount
-title: IXpsSignatureCollection::GetCount method
+title: IXpsSignatureCollection::GetCount
 author: windows-driver-content
 description: Gets the number of IXpsSignature interface pointers in the collection.
 old-location: xps\ixpssignaturecollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b53879a3-a694-49c4-9fd1-76199cf06748
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging], IXpsSignatureCollection interface, GetCount,IXpsSignatureCollection.GetCount, IXpsSignatureCollection, IXpsSignatureCollection interface [XPS Documents and Packaging], GetCount method, IXpsSignatureCollection::GetCount, xps.ixpssignaturecollection_getcount, xpsdigitalsignature/IXpsSignatureCollection::GetCount
+ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsSignatureCollection interface, IXpsSignatureCollection interface [XPS Documents and Packaging],GetCount method, IXpsSignatureCollection.GetCount, IXpsSignatureCollection::GetCount, xps.ixpssignaturecollection_getcount, xpsdigitalsignature/IXpsSignatureCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureCollection::GetCount method
+# IXpsSignatureCollection::GetCount
 
 
 ## -description

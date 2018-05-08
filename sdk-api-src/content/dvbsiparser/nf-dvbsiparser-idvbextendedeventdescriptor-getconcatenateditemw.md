@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetConcatenatedItemW
-title: IDvbExtendedEventDescriptor::GetConcatenatedItemW method
+title: IDvbExtendedEventDescriptor::GetConcatenatedItemW
 author: windows-driver-content
 description: Concatenates the bytes from the item in the current Digital Video Broadcast (DVB) extended event descriptor with the bytes from the item in the next DVB extended event descriptor and returns the concatenated data as a Unicode string.
 old-location: mstv\idvbextendedeventdescriptor_getconcatenateditemw.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9b90a2de-8447-4038-9a11-1db74ebd2feb
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetConcatenatedItemW method [Microsoft TV Technologies], GetConcatenatedItemW method [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface, GetConcatenatedItemW,IDvbExtendedEventDescriptor.GetConcatenatedItemW, IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], GetConcatenatedItemW method, IDvbExtendedEventDescriptor::GetConcatenatedItemW, dvbsiparser/IDvbExtendedEventDescriptor::GetConcatenatedItemW, mstv.idvbextendedeventdescriptor_getconcatenateditemw
+ms.keywords: GetConcatenatedItemW, GetConcatenatedItemW method [Microsoft TV Technologies], GetConcatenatedItemW method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetConcatenatedItemW method, IDvbExtendedEventDescriptor.GetConcatenatedItemW, IDvbExtendedEventDescriptor::GetConcatenatedItemW, dvbsiparser/IDvbExtendedEventDescriptor::GetConcatenatedItemW, mstv.idvbextendedeventdescriptor_getconcatenateditemw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbExtendedEventDescriptor::GetConcatenatedItemW method
+# IDvbExtendedEventDescriptor::GetConcatenatedItemW
 
 
 ## -description

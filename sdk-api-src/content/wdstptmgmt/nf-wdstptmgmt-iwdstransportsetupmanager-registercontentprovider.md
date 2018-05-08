@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.RegisterContentProvider
-title: IWdsTransportSetupManager::RegisterContentProvider method
+title: IWdsTransportSetupManager::RegisterContentProvider
 author: windows-driver-content
 description: Enables an application run on a client computer to register a content provider DLL. This makes the provider available for use by the WDS transport server.
 old-location: wds\iwdstransportsetupmanager_registercontentprovider.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: c7793413-fef0-41e8-90f2-c8608f4ceb75
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportSetupManager, IWdsTransportSetupManager interface [Windows Deployment Services], RegisterContentProvider method, IWdsTransportSetupManager::RegisterContentProvider, RegisterContentProvider method [Windows Deployment Services], RegisterContentProvider method [Windows Deployment Services], IWdsTransportSetupManager interface, RegisterContentProvider,IWdsTransportSetupManager.RegisterContentProvider, wds.iwdstransportsetupmanager_registercontentprovider, wdstptmgmt/IWdsTransportSetupManager::RegisterContentProvider
+ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],RegisterContentProvider method, IWdsTransportSetupManager.RegisterContentProvider, IWdsTransportSetupManager::RegisterContentProvider, RegisterContentProvider, RegisterContentProvider method [Windows Deployment Services], RegisterContentProvider method [Windows Deployment Services],IWdsTransportSetupManager interface, wds.iwdstransportsetupmanager_registercontentprovider, wdstptmgmt/IWdsTransportSetupManager::RegisterContentProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportSetupManager::RegisterContentProvider method
+# IWdsTransportSetupManager::RegisterContentProvider
 
 
 ## -description

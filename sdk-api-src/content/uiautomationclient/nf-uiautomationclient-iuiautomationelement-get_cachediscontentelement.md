@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsContentElement
-title: IUIAutomationElement::get_CachedIsContentElement method
+title: IUIAutomationElement::get_CachedIsContentElement
 author: windows-driver-content
 description: A cached value that indicates whether the element is a content element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsContentElement.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3e06c0dd-0cdd-4193-9353-5a71d08ec17d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedIsContentElement property [Windows Accessibility], CachedIsContentElement property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedIsContentElement property, IUIAutomationElement.CachedIsContentElement, IUIAutomationElement::get_CachedIsContentElement, get_CachedIsContentElement,IUIAutomationElement.get_CachedIsContentElement, uiauto.uiauto_IUIAutomationElement_CachedIsContentElement, uiauto_IUIAutomationElement_CachedIsContentElement, uiautomationclient/IUIAutomationElement::CachedIsContentElement, uiautomationclient/IUIAutomationElement::get_CachedIsContentElement, winauto.uiauto_IUIAutomationElement_CachedIsContentElement
+ms.keywords: CachedIsContentElement property [Windows Accessibility], CachedIsContentElement property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsContentElement property, IUIAutomationElement.CachedIsContentElement, IUIAutomationElement.get_CachedIsContentElement, IUIAutomationElement::CachedIsContentElement, IUIAutomationElement::get_CachedIsContentElement, get_CachedIsContentElement, uiauto.uiauto_IUIAutomationElement_CachedIsContentElement, uiauto_IUIAutomationElement_CachedIsContentElement, uiautomationclient/IUIAutomationElement::CachedIsContentElement, uiautomationclient/IUIAutomationElement::get_CachedIsContentElement, winauto.uiauto_IUIAutomationElement_CachedIsContentElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CachedIsContentElement method
+# IUIAutomationElement::get_CachedIsContentElement
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.GetCapabilities
-title: IMDSPDeviceControl::GetCapabilities method
+title: IMDSPDeviceControl::GetCapabilities
 author: windows-driver-content
 description: The GetCapabilities method retrieves the capabilities mask for the device with which this control interface is associated. The capabilities describe the methods of the device control that are supported by the media device.
 old-location: wmdm\imdspdevicecontrol_getcapabilities.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 5d4e433a-fb2a-43c4-ab7f-fb7168636455
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager], IMDSPDeviceControl interface, GetCapabilities,IMDSPDeviceControl.GetCapabilities, IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], GetCapabilities method, IMDSPDeviceControl::GetCapabilities, IMDSPDeviceControlGetCapabilities, mswmdm/IMDSPDeviceControl::GetCapabilities, wmdm.imdspdevicecontrol_getcapabilities
+ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IMDSPDeviceControl interface, IMDSPDeviceControl interface [windows Media Device Manager],GetCapabilities method, IMDSPDeviceControl.GetCapabilities, IMDSPDeviceControl::GetCapabilities, IMDSPDeviceControlGetCapabilities, mswmdm/IMDSPDeviceControl::GetCapabilities, wmdm.imdspdevicecontrol_getcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPDeviceControl::GetCapabilities method
+# IMDSPDeviceControl::GetCapabilities
 
 
 ## -description

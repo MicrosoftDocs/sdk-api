@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.InvokeCommand
-title: IWMPContentPartner::InvokeCommand method
+title: IWMPContentPartner::InvokeCommand
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The InvokeCommand method invokes a context menu command.
 old-location: wmp\iwmpcontentpartner_invokecommand.htm
 old-project: WMP
 ms.assetid: ee46a7c2-2d5b-4c7f-954e-cad6011afc78
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], InvokeCommand method, IWMPContentPartner::InvokeCommand, IWMPContentPartnerInvokeCommand, InvokeCommand method [Windows Media Player], InvokeCommand method [Windows Media Player], IWMPContentPartner interface, InvokeCommand,IWMPContentPartner.InvokeCommand, contentpartner/IWMPContentPartner::InvokeCommand, wmp.iwmpcontentpartner_invokecommand
+ms.date: 5/4/2018
+ms.keywords: IWMPContentPartner interface [Windows Media Player],InvokeCommand method, IWMPContentPartner.InvokeCommand, IWMPContentPartner::InvokeCommand, IWMPContentPartnerInvokeCommand, InvokeCommand, InvokeCommand method [Windows Media Player], InvokeCommand method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::InvokeCommand, wmp.iwmpcontentpartner_invokecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::InvokeCommand method
+# IWMPContentPartner::InvokeCommand
 
 
 ## -description

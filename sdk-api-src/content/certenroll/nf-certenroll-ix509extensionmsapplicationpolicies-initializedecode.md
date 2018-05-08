@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionMSApplicationPolicies.InitializeDecode
-title: IX509ExtensionMSApplicationPolicies::InitializeDecode method
+title: IX509ExtensionMSApplicationPolicies::InitializeDecode
 author: windows-driver-content
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 old-location: security\ix509extensionmsapplicationpolicies_initializedecode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b99d756c-01fd-4bde-a64b-c908626e9190
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionMSApplicationPolicies, IX509ExtensionMSApplicationPolicies interface [Security], InitializeDecode method, IX509ExtensionMSApplicationPolicies::InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security], IX509ExtensionMSApplicationPolicies interface, InitializeDecode,IX509ExtensionMSApplicationPolicies.InitializeDecode, certenroll/IX509ExtensionMSApplicationPolicies::InitializeDecode, security.ix509extensionmsapplicationpolicies_initializedecode_method
+ms.keywords: IX509ExtensionMSApplicationPolicies interface [Security],InitializeDecode method, IX509ExtensionMSApplicationPolicies.InitializeDecode, IX509ExtensionMSApplicationPolicies::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionMSApplicationPolicies interface, certenroll/IX509ExtensionMSApplicationPolicies::InitializeDecode, security.ix509extensionmsapplicationpolicies_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionMSApplicationPolicies::InitializeDecode method
+# IX509ExtensionMSApplicationPolicies::InitializeDecode
 
 
 ## -description

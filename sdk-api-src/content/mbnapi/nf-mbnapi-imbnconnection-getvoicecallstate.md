@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnection.GetVoiceCallState
-title: IMbnConnection::GetVoiceCallState method
+title: IMbnConnection::GetVoiceCallState
 author: windows-driver-content
 description: Gets the voice call state of the device.
 old-location: mbn\imbnconnection_getvoicecallstate.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: a715f7c8-a001-41a2-9c1f-ca133568133b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetVoiceCallState method [Microsoft Broadband Networks], GetVoiceCallState method [Microsoft Broadband Networks], IMbnConnection interface, GetVoiceCallState,IMbnConnection.GetVoiceCallState, IMbnConnection, IMbnConnection interface [Microsoft Broadband Networks], GetVoiceCallState method, IMbnConnection::GetVoiceCallState, mbn.imbnconnection_getvoicecallstate, mbnapi/IMbnConnection::GetVoiceCallState
+ms.keywords: GetVoiceCallState, GetVoiceCallState method [Microsoft Broadband Networks], GetVoiceCallState method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetVoiceCallState method, IMbnConnection.GetVoiceCallState, IMbnConnection::GetVoiceCallState, mbn.imbnconnection_getvoicecallstate, mbnapi/IMbnConnection::GetVoiceCallState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnection::GetVoiceCallState method
+# IMbnConnection::GetVoiceCallState
 
 
 ## -description

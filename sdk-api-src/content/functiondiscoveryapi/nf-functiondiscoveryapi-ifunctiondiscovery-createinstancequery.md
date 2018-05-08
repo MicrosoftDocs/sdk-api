@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.CreateInstanceQuery
-title: IFunctionDiscovery::CreateInstanceQuery method
+title: IFunctionDiscovery::CreateInstanceQuery
 author: windows-driver-content
 description: Creates a query for a specific function instance.
 old-location: ncd\ifunctiondiscovery_createinstancequery_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 80e70972-ced1-416e-aa4f-69c54b2cbf95
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateInstanceQuery method, CreateInstanceQuery method, IFunctionDiscovery interface, CreateInstanceQuery,IFunctionDiscovery.CreateInstanceQuery, IFunctionDiscovery, IFunctionDiscovery interface, CreateInstanceQuery method, IFunctionDiscovery::CreateInstanceQuery, functiondiscoveryapi/IFunctionDiscovery::CreateInstanceQuery, ncd.ifunctiondiscovery_createinstancequery_method
+ms.keywords: CreateInstanceQuery, CreateInstanceQuery method, CreateInstanceQuery method,IFunctionDiscovery interface, IFunctionDiscovery interface,CreateInstanceQuery method, IFunctionDiscovery.CreateInstanceQuery, IFunctionDiscovery::CreateInstanceQuery, functiondiscoveryapi/IFunctionDiscovery::CreateInstanceQuery, ncd.ifunctiondiscovery_createinstancequery_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionDiscovery::CreateInstanceQuery method
+# IFunctionDiscovery::CreateInstanceQuery
 
 
 ## -description

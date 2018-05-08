@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplateName.get_TemplateName
-title: IX509ExtensionTemplateName::get_TemplateName method
+title: IX509ExtensionTemplateName::get_TemplateName
 author: windows-driver-content
 description: Retrieves the name of the template.
 old-location: security\ix509extensiontemplatename_templatename_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b403a27f-e477-4445-adcb-5fce58453727
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionTemplateName, IX509ExtensionTemplateName interface [Security], TemplateName property, IX509ExtensionTemplateName.TemplateName, IX509ExtensionTemplateName::get_TemplateName, TemplateName property [Security], TemplateName property [Security], IX509ExtensionTemplateName interface, certenroll/IX509ExtensionTemplateName::TemplateName, certenroll/IX509ExtensionTemplateName::get_TemplateName, get_TemplateName,IX509ExtensionTemplateName.get_TemplateName, security.ix509extensiontemplatename_templatename_property
+ms.keywords: IX509ExtensionTemplateName interface [Security],TemplateName property, IX509ExtensionTemplateName.TemplateName, IX509ExtensionTemplateName.get_TemplateName, IX509ExtensionTemplateName::TemplateName, IX509ExtensionTemplateName::get_TemplateName, TemplateName property [Security], TemplateName property [Security],IX509ExtensionTemplateName interface, certenroll/IX509ExtensionTemplateName::TemplateName, certenroll/IX509ExtensionTemplateName::get_TemplateName, get_TemplateName, security.ix509extensiontemplatename_templatename_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionTemplateName::get_TemplateName method
+# IX509ExtensionTemplateName::get_TemplateName
 
 
 ## -description

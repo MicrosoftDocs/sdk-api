@@ -1,14 +1,14 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorDeviceCaps
-title: IDXVAHD_Device::GetVideoProcessorDeviceCaps method
+title: IDXVAHD_Device::GetVideoProcessorDeviceCaps
 author: windows-driver-content
 description: Gets the capabilities of the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_device_getvideoprocessordevicecaps.htm
 old-project: medfound
 ms.assetid: 93acad97-feee-46a5-95bf-51e560f91057
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoProcessorDeviceCaps method [Media Foundation], GetVideoProcessorDeviceCaps method [Media Foundation], IDXVAHD_Device interface, GetVideoProcessorDeviceCaps,IDXVAHD_Device.GetVideoProcessorDeviceCaps, IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], GetVideoProcessorDeviceCaps method, IDXVAHD_Device::GetVideoProcessorDeviceCaps, dxvahd/IDXVAHD_Device::GetVideoProcessorDeviceCaps, mf.idxvahd_device_getvideoprocessordevicecaps
+ms.date: 5/3/2018
+ms.keywords: GetVideoProcessorDeviceCaps, GetVideoProcessorDeviceCaps method [Media Foundation], GetVideoProcessorDeviceCaps method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorDeviceCaps method, IDXVAHD_Device.GetVideoProcessorDeviceCaps, IDXVAHD_Device::GetVideoProcessorDeviceCaps, dxvahd/IDXVAHD_Device::GetVideoProcessorDeviceCaps, mf.idxvahd_device_getvideoprocessordevicecaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXVAHD_Device::GetVideoProcessorDeviceCaps method
+# IDXVAHD_Device::GetVideoProcessorDeviceCaps
 
 
 ## -description

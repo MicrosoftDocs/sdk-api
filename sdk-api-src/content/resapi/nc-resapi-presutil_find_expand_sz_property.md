@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 44fb21bd-6cc2-4b1b-ae8f-c977fa336747
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PRESUTIL_FIND_EXPAND_SZ_PROPERTY, PRESUTIL_FIND_EXPAND_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilfindexpandszproperty, mscs.resutilfindexpandszproperty, resapi/PRESUTIL_FIND_EXPAND_SZ_PROPERTY
+ms.keywords: PRESUTIL_FIND_EXPAND_SZ_PROPERTY, PRESUTIL_FIND_EXPAND_SZ_PROPERTY callback, PRESUTIL_FIND_EXPAND_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilfindexpandszproperty, mscs.resutilfindexpandszproperty, resapi/PRESUTIL_FIND_EXPAND_SZ_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PRESUTIL_FIND_EXPAND_SZ_PROPERTY callback
+# PRESUTIL_FIND_EXPAND_SZ_PROPERTY callback function
 
 
 ## -description

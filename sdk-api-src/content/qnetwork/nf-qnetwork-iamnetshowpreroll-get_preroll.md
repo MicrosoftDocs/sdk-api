@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetShowPreroll.get_Preroll
-title: IAMNetShowPreroll::get_Preroll method
+title: IAMNetShowPreroll::get_Preroll
 author: windows-driver-content
 description: The get_Preroll method queries whether the filter is currently prerolling.
 old-location: dshow\iamnetshowpreroll_get_preroll.htm
 old-project: DirectShow
 ms.assetid: c868a997-9d22-452b-9d57-6bd34b054d35
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetShowPreroll, IAMNetShowPreroll interface [DirectShow], get_Preroll method, IAMNetShowPreroll::get_Preroll, IAMNetShowPrerollget_Preroll, dshow.iamnetshowpreroll_get_preroll, get_Preroll method [DirectShow], get_Preroll method [DirectShow], IAMNetShowPreroll interface, get_Preroll,IAMNetShowPreroll.get_Preroll, qnetwork/IAMNetShowPreroll::get_Preroll
+ms.date: 4/30/2018
+ms.keywords: IAMNetShowPreroll interface [DirectShow],get_Preroll method, IAMNetShowPreroll.get_Preroll, IAMNetShowPreroll::get_Preroll, IAMNetShowPrerollget_Preroll, dshow.iamnetshowpreroll_get_preroll, get_Preroll, get_Preroll method [DirectShow], get_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::get_Preroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetShowPreroll::get_Preroll method
+# IAMNetShowPreroll::get_Preroll
 
 
 ## -description

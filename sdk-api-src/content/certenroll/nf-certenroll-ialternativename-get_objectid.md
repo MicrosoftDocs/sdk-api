@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeName.get_ObjectId
-title: IAlternativeName::get_ObjectId method
+title: IAlternativeName::get_ObjectId
 author: windows-driver-content
 description: Retrieves the object identifier (OID), if any, associated with the name.
 old-location: security\ialternativename_objectid_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: be14756b-a7dc-40f4-ae09-b576f85837f6
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IAlternativeName, IAlternativeName interface [Security], ObjectId property, IAlternativeName.ObjectId, IAlternativeName::get_ObjectId, ObjectId property [Security], ObjectId property [Security], IAlternativeName interface, certenroll/IAlternativeName::ObjectId, certenroll/IAlternativeName::get_ObjectId, get_ObjectId,IAlternativeName.get_ObjectId, security.ialternativename_objectid_property
+ms.keywords: IAlternativeName interface [Security],ObjectId property, IAlternativeName.ObjectId, IAlternativeName.get_ObjectId, IAlternativeName::ObjectId, IAlternativeName::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IAlternativeName interface, certenroll/IAlternativeName::ObjectId, certenroll/IAlternativeName::get_ObjectId, get_ObjectId, security.ialternativename_objectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IAlternativeName::get_ObjectId method
+# IAlternativeName::get_ObjectId
 
 
 ## -description

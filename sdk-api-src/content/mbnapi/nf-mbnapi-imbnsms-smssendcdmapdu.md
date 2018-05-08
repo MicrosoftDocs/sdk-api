@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsSendCdmaPdu
-title: IMbnSms::SmsSendCdmaPdu method
+title: IMbnSms::SmsSendCdmaPdu
 author: windows-driver-content
 description: Sends a message in CDMA binary format.
 old-location: mbn\imbnsms_smssendcdmapdu.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 8bc0cad6-dee3-4325-b5e9-397bbd346a87
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], SmsSendCdmaPdu method, IMbnSms::SmsSendCdmaPdu, SmsSendCdmaPdu method [Microsoft Broadband Networks], SmsSendCdmaPdu method [Microsoft Broadband Networks], IMbnSms interface, SmsSendCdmaPdu,IMbnSms.SmsSendCdmaPdu, mbn.imbnsms_smssendcdmapdu, mbnapi/IMbnSms::SmsSendCdmaPdu
+ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsSendCdmaPdu method, IMbnSms.SmsSendCdmaPdu, IMbnSms::SmsSendCdmaPdu, SmsSendCdmaPdu, SmsSendCdmaPdu method [Microsoft Broadband Networks], SmsSendCdmaPdu method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smssendcdmapdu, mbnapi/IMbnSms::SmsSendCdmaPdu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSms::SmsSendCdmaPdu method
+# IMbnSms::SmsSendCdmaPdu
 
 
 ## -description

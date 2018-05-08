@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectEnumerator.MovePrevious
-title: IOpcSignatureCustomObjectEnumerator::MovePrevious method
+title: IOpcSignatureCustomObjectEnumerator::MovePrevious
 author: windows-driver-content
 description: Moves the current position of the enumerator to the previous IOpcSignatureCustomObject interface pointer.
 old-location: opc\iopcsignaturecustomobjectenumerator_moveprevious.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 1143280b-4c92-44cf-8e2d-acd26527f264
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcSignatureCustomObjectEnumerator, IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions], MovePrevious method, IOpcSignatureCustomObjectEnumerator::MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions], IOpcSignatureCustomObjectEnumerator interface, MovePrevious,IOpcSignatureCustomObjectEnumerator.MovePrevious, msopc/IOpcSignatureCustomObjectEnumerator::MovePrevious, opc.iopcsignaturecustomobjectenumerator_moveprevious
+ms.keywords: IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignatureCustomObjectEnumerator.MovePrevious, IOpcSignatureCustomObjectEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, msopc/IOpcSignatureCustomObjectEnumerator::MovePrevious, opc.iopcsignaturecustomobjectenumerator_moveprevious
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureCustomObjectEnumerator::MovePrevious method
+# IOpcSignatureCustomObjectEnumerator::MovePrevious
 
 
 ## -description

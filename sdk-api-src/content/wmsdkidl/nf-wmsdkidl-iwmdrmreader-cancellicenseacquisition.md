@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.CancelLicenseAcquisition
-title: IWMDRMReader::CancelLicenseAcquisition method
+title: IWMDRMReader::CancelLicenseAcquisition
 author: windows-driver-content
 description: The CancelLicenseAcquisition method cancels a current call to the AcquireLicense method.
 old-location: wmformat\iwmdrmreader_cancellicenseacquisition.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: b6a416d1-0bad-49e0-91ad-19e9ff544a8a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: CancelLicenseAcquisition method [windows Media Format], CancelLicenseAcquisition method [windows Media Format], IWMDRMReader interface, CancelLicenseAcquisition,IWMDRMReader.CancelLicenseAcquisition, IWMDRMReader, IWMDRMReader interface [windows Media Format], CancelLicenseAcquisition method, IWMDRMReader::CancelLicenseAcquisition, IWMDRMReaderCancelLicenseAcquisition, wmformat.iwmdrmreader_cancellicenseacquisition, wmsdkidl/IWMDRMReader::CancelLicenseAcquisition
+ms.keywords: CancelLicenseAcquisition, CancelLicenseAcquisition method [windows Media Format], CancelLicenseAcquisition method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelLicenseAcquisition method, IWMDRMReader.CancelLicenseAcquisition, IWMDRMReader::CancelLicenseAcquisition, IWMDRMReaderCancelLicenseAcquisition, wmformat.iwmdrmreader_cancellicenseacquisition, wmsdkidl/IWMDRMReader::CancelLicenseAcquisition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMReader::CancelLicenseAcquisition method
+# IWMDRMReader::CancelLicenseAcquisition
 
 
 ## -description

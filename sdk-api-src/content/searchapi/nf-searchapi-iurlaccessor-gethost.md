@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetHost
-title: IUrlAccessor::GetHost method
+title: IUrlAccessor::GetHost
 author: windows-driver-content
 description: Gets the host name for the content source, if applicable.
 old-location: search\_search_IUrlAccessor_GetHost.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\gethost.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetHost method [search], GetHost method [search], IUrlAccessor interface, GetHost,IUrlAccessor.GetHost, IUrlAccessor, IUrlAccessor interface [search], GetHost method, IUrlAccessor::GetHost, _search_IUrlAccessor_GetHost, search._search_IUrlAccessor_GetHost, searchapi/IUrlAccessor::GetHost
+ms.date: 5/4/2018
+ms.keywords: GetHost, GetHost method [search], GetHost method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetHost method, IUrlAccessor.GetHost, IUrlAccessor::GetHost, _search_IUrlAccessor_GetHost, search._search_IUrlAccessor_GetHost, searchapi/IUrlAccessor::GetHost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUrlAccessor::GetHost method
+# IUrlAccessor::GetHost
 
 
 ## -description

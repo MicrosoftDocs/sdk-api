@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_Recorder
-title: IDiscFormat2RawCD::get_Recorder method
+title: IDiscFormat2RawCD::get_Recorder
 author: windows-driver-content
 description: Retrieves the recording device to use for the write operation.
 old-location: imapi\idiscformat2rawcd_get_recorder.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 1f36e5b5-4875-4ba1-8084-c0aaf6b170b9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], get_Recorder method, IDiscFormat2RawCD::get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI], IDiscFormat2RawCD interface, get_Recorder,IDiscFormat2RawCD.get_Recorder, imapi.idiscformat2rawcd_get_recorder, imapi2/IDiscFormat2RawCD::get_Recorder
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_Recorder method, IDiscFormat2RawCD.get_Recorder, IDiscFormat2RawCD::get_Recorder, get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_recorder, imapi2/IDiscFormat2RawCD::get_Recorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCD::get_Recorder method
+# IDiscFormat2RawCD::get_Recorder
 
 
 ## -description

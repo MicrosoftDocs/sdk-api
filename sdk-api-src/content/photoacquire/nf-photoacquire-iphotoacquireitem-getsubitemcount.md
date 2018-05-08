@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetSubItemCount
-title: IPhotoAcquireItem::GetSubItemCount method
+title: IPhotoAcquireItem::GetSubItemCount
 author: windows-driver-content
 description: The GetSubItemCount method retrieves the number of subitems contained in an item.
 old-location: picacq\iphotoacquireitem_getsubitemcount.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 2790d551-42ae-4009-998e-2579687203d6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSubItemCount method [Picture Acquisition], GetSubItemCount method [Picture Acquisition], IPhotoAcquireItem interface, GetSubItemCount,IPhotoAcquireItem.GetSubItemCount, IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], GetSubItemCount method, IPhotoAcquireItem::GetSubItemCount, IPhotoAcquireItemGetSubItemCount, photoacquire/IPhotoAcquireItem::GetSubItemCount, picacq.iphotoacquireitem_getsubitemcount
+ms.keywords: GetSubItemCount, GetSubItemCount method [Picture Acquisition], GetSubItemCount method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetSubItemCount method, IPhotoAcquireItem.GetSubItemCount, IPhotoAcquireItem::GetSubItemCount, IPhotoAcquireItemGetSubItemCount, photoacquire/IPhotoAcquireItem::GetSubItemCount, picacq.iphotoacquireitem_getsubitemcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireItem::GetSubItemCount method
+# IPhotoAcquireItem::GetSubItemCount
 
 
 ## -description

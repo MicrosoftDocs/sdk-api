@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4_failover_client_info_array.htm
 old-project: DHCP
 ms.assetid: D988F420-28F0-4F13-B2A1-CFD9A71669A4
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCPV4_FAILOVER_CLIENT_INFO_ARRAY, DHCPV4_FAILOVER_CLIENT_INFO_ARRAY, DHCPV4_FAILOVER_CLIENT_INFO_ARRAY structure [DHCP], PDHCPV4_FAILOVER_CLIENT_INFO_ARRAY, PDHCPV4_FAILOVER_CLIENT_INFO_ARRAY structure pointer [DHCP], _DHCPV4_FAILOVER_CLIENT_INFO_ARRAY, dhcp.dhcpv4_failover_client_info_array, dhcpsapi/DHCPV4_FAILOVER_CLIENT_INFO_ARRAY, dhcpsapi/PDHCPV4_FAILOVER_CLIENT_INFO_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,4 +65,16 @@ Integer that specifies the number of DHCP server scope statistics in <b>Clients<
 ### -field Clients
 
 Pointer to an array of <a href="https://msdn.microsoft.com/46e4fb62-5b8e-44f8-b3a0-92535ca690f0">DHCPV4_FAILOVER_CLIENT_INFO</a>  structures.
+
+
+### -field Clients.size_is
+
+ 
+
+
+### -field Clients.size_is.NumElements
+
+ 
+
+
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesTransparentCacheInfo.IsTransparentlyCached
-title: IOfflineFilesTransparentCacheInfo::IsTransparentlyCached method
+title: IOfflineFilesTransparentCacheInfo::IsTransparentlyCached
 author: windows-driver-content
 description: Determines whether the item is transparently cached.
 old-location: of\iofflinefilestransparentcacheinfo_istransparentlycached.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 7f8656e0-0f24-46a0-81b7-62067b0d4c21
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesTransparentCacheInfo, IOfflineFilesTransparentCacheInfo interface [Offline Files], IsTransparentlyCached method, IOfflineFilesTransparentCacheInfo::IsTransparentlyCached, IsTransparentlyCached method [Offline Files], IsTransparentlyCached method [Offline Files], IOfflineFilesTransparentCacheInfo interface, IsTransparentlyCached,IOfflineFilesTransparentCacheInfo.IsTransparentlyCached, cscobj/IOfflineFilesTransparentCacheInfo::IsTransparentlyCached, of.iofflinefilestransparentcacheinfo_istransparentlycached
+ms.keywords: IOfflineFilesTransparentCacheInfo interface [Offline Files],IsTransparentlyCached method, IOfflineFilesTransparentCacheInfo.IsTransparentlyCached, IOfflineFilesTransparentCacheInfo::IsTransparentlyCached, IsTransparentlyCached, IsTransparentlyCached method [Offline Files], IsTransparentlyCached method [Offline Files],IOfflineFilesTransparentCacheInfo interface, cscobj/IOfflineFilesTransparentCacheInfo::IsTransparentlyCached, of.iofflinefilestransparentcacheinfo_istransparentlycached
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesTransparentCacheInfo::IsTransparentlyCached method
+# IOfflineFilesTransparentCacheInfo::IsTransparentlyCached
 
 
 ## -description

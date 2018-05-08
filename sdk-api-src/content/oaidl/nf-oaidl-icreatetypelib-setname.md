@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetName
-title: ICreateTypeLib::SetName method
+title: ICreateTypeLib::SetName
 author: windows-driver-content
 description: Sets the name of the type library.
 old-location: automat\icreatetypelib_setname.htm
 old-project: automat
 ms.assetid: b533d2a1-f008-4345-8545-aebe14aa44f5
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeLib, ICreateTypeLib interface [Automation], SetName method, ICreateTypeLib::SetName, SetName method [Automation], SetName method [Automation], ICreateTypeLib interface, SetName,ICreateTypeLib.SetName, _oa96_ICreateTypeLib_SetName, automat.icreatetypelib_setname, oaidl/ICreateTypeLib::SetName
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeLib interface [Automation],SetName method, ICreateTypeLib.SetName, ICreateTypeLib::SetName, SetName, SetName method [Automation], SetName method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetName, automat.icreatetypelib_setname, oaidl/ICreateTypeLib::SetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeLib::SetName method
+# ICreateTypeLib::SetName
 
 
 ## -description

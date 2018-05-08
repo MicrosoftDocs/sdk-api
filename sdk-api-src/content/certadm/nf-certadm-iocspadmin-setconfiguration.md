@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPAdmin.SetConfiguration
-title: IOCSPAdmin::SetConfiguration method
+title: IOCSPAdmin::SetConfiguration
 author: windows-driver-content
 description: Updates a responder service with configuration changes.
 old-location: security\iocspadmin_setconfiguration_method.htm
 old-project: SecCrypto
 ms.assetid: 973c69c3-282b-4e17-bb44-119965a4b443
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], SetConfiguration method, IOCSPAdmin::SetConfiguration, SetConfiguration method [Security], SetConfiguration method [Security], IOCSPAdmin interface, SetConfiguration,IOCSPAdmin.SetConfiguration, certadm/IOCSPAdmin::SetConfiguration, security.iocspadmin_setconfiguration_method
+ms.date: 4/30/2018
+ms.keywords: IOCSPAdmin interface [Security],SetConfiguration method, IOCSPAdmin.SetConfiguration, IOCSPAdmin::SetConfiguration, SetConfiguration, SetConfiguration method [Security], SetConfiguration method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetConfiguration, security.iocspadmin_setconfiguration_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPAdmin::SetConfiguration method
+# IOCSPAdmin::SetConfiguration
 
 
 ## -description

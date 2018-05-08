@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessageIterator.get_Message
-title: IFaxOutgoingMessageIterator::get_Message method
+title: IFaxOutgoingMessageIterator::get_Message
 author: windows-driver-content
 description: The IFaxOutgoingMessageIterator::get_Message property retrieves the outbound fax message under the archive cursor.
 old-location: fax\_mfax_faxoutgoingmessageiterator_message_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7wkl_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxOutgoingMessageIterator, IFaxOutgoingMessageIterator interface [Fax Service], Message property, IFaxOutgoingMessageIterator.Message, IFaxOutgoingMessageIterator::get_Message, Message property [Fax Service], Message property [Fax Service], IFaxOutgoingMessageIterator interface, _mfax_faxoutgoingmessageiterator.message_cpp, fax._mfax_faxoutgoingmessageiterator_message_cpp, faxcomex/IFaxOutgoingMessageIterator::Message, faxcomex/IFaxOutgoingMessageIterator::get_Message, get_Message,IFaxOutgoingMessageIterator.get_Message
+ms.keywords: IFaxOutgoingMessageIterator interface [Fax Service],Message property, IFaxOutgoingMessageIterator.Message, IFaxOutgoingMessageIterator.get_Message, IFaxOutgoingMessageIterator::Message, IFaxOutgoingMessageIterator::get_Message, Message property [Fax Service], Message property [Fax Service],IFaxOutgoingMessageIterator interface, _mfax_faxoutgoingmessageiterator.message_cpp, fax._mfax_faxoutgoingmessageiterator_message_cpp, faxcomex/IFaxOutgoingMessageIterator::Message, faxcomex/IFaxOutgoingMessageIterator::get_Message, get_Message
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutgoingMessageIterator::get_Message method
+# IFaxOutgoingMessageIterator::get_Message
 
 
 ## -description

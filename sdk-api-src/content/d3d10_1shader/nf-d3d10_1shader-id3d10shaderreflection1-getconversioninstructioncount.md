@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.GetConversionInstructionCount
-title: ID3D10ShaderReflection1::GetConversionInstructionCount method
+title: ID3D10ShaderReflection1::GetConversionInstructionCount
 author: windows-driver-content
 description: Gets the number of conversion instructions used in a shader.
 old-location: direct3d10\id3d10shaderreflection1_getconversioninstructioncount.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_getconversioninstructioncount.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetConversionInstructionCount method [Direct3D 10], GetConversionInstructionCount method [Direct3D 10], ID3D10ShaderReflection1 interface, GetConversionInstructionCount,ID3D10ShaderReflection1.GetConversionInstructionCount, ID3D10ShaderReflection1, ID3D10ShaderReflection1 interface [Direct3D 10], GetConversionInstructionCount method, ID3D10ShaderReflection1::GetConversionInstructionCount, d3d10_1shader/ID3D10ShaderReflection1::GetConversionInstructionCount, direct3d10.id3d10shaderreflection1_getconversioninstructioncount, f8c14b46-5062-b621-c098-57fd31ed02ea
+ms.keywords: GetConversionInstructionCount, GetConversionInstructionCount method [Direct3D 10], GetConversionInstructionCount method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetConversionInstructionCount method, ID3D10ShaderReflection1.GetConversionInstructionCount, ID3D10ShaderReflection1::GetConversionInstructionCount, d3d10_1shader/ID3D10ShaderReflection1::GetConversionInstructionCount, direct3d10.id3d10shaderreflection1_getconversioninstructioncount, f8c14b46-5062-b621-c098-57fd31ed02ea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10ShaderReflection1::GetConversionInstructionCount method
+# ID3D10ShaderReflection1::GetConversionInstructionCount
 
 
 ## -description

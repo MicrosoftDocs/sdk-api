@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetPreviousValue
-title: IUIAnimationVariable::GetPreviousValue method
+title: IUIAnimationVariable::GetPreviousValue
 author: windows-driver-content
 description: Gets the previous value of the animation variable. This is the value of the animation variable before the most recent update.
 old-location: uianimation\iuianimationvariable_getpreviousvalue.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 405bc35e-8b38-40fb-acf4-107fa6dd161a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetPreviousValue method [Windows Animation], GetPreviousValue method [Windows Animation], IUIAnimationVariable interface, GetPreviousValue,IUIAnimationVariable.GetPreviousValue, IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], GetPreviousValue method, IUIAnimationVariable::GetPreviousValue, uianimation.iuianimationvariable_getpreviousvalue, uianimation/IUIAnimationVariable::GetPreviousValue
+ms.keywords: GetPreviousValue, GetPreviousValue method [Windows Animation], GetPreviousValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetPreviousValue method, IUIAnimationVariable.GetPreviousValue, IUIAnimationVariable::GetPreviousValue, uianimation.iuianimationvariable_getpreviousvalue, uianimation/IUIAnimationVariable::GetPreviousValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable::GetPreviousValue method
+# IUIAnimationVariable::GetPreviousValue
 
 
 ## -description

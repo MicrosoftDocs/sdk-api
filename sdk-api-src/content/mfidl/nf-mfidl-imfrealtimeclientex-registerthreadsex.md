@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFRealTimeClientEx.RegisterThreadsEx
-title: IMFRealTimeClientEx::RegisterThreadsEx method
+title: IMFRealTimeClientEx::RegisterThreadsEx
 author: windows-driver-content
 description: Notifies the object to register its worker threads with the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfrealtimeclientex_registerthreadsex.htm
 old-project: medfound
 ms.assetid: 45E3121A-F6FD-49C7-B147-5317C045DE35
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFRealTimeClientEx, IMFRealTimeClientEx interface [Media Foundation], RegisterThreadsEx method, IMFRealTimeClientEx::RegisterThreadsEx, RegisterThreadsEx method [Media Foundation], RegisterThreadsEx method [Media Foundation], IMFRealTimeClientEx interface, RegisterThreadsEx,IMFRealTimeClientEx.RegisterThreadsEx, mf.imfrealtimeclientex_registerthreadsex, mfidl/IMFRealTimeClientEx::RegisterThreadsEx
+ms.date: 5/3/2018
+ms.keywords: IMFRealTimeClientEx interface [Media Foundation],RegisterThreadsEx method, IMFRealTimeClientEx.RegisterThreadsEx, IMFRealTimeClientEx::RegisterThreadsEx, RegisterThreadsEx, RegisterThreadsEx method [Media Foundation], RegisterThreadsEx method [Media Foundation],IMFRealTimeClientEx interface, mf.imfrealtimeclientex_registerthreadsex, mfidl/IMFRealTimeClientEx::RegisterThreadsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFRealTimeClientEx::RegisterThreadsEx method
+# IMFRealTimeClientEx::RegisterThreadsEx
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.put_CarrierFrequency
-title: ILocator::put_CarrierFrequency method
+title: ILocator::put_CarrierFrequency
 author: windows-driver-content
 description: The put_CarrierFrequency method sets the frequency of the RF signal.
 old-location: mstv\ilocator_put_carrierfrequency.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 74617c08-dabc-48d7-a9da-d1631d7df961
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ILocator, ILocator interface [Microsoft TV Technologies], put_CarrierFrequency method, ILocator::put_CarrierFrequency, ILocatorput_CarrierFrequency, mstv.ilocator_put_carrierfrequency, put_CarrierFrequency method [Microsoft TV Technologies], put_CarrierFrequency method [Microsoft TV Technologies], ILocator interface, put_CarrierFrequency,ILocator.put_CarrierFrequency, tuner/ILocator::put_CarrierFrequency
+ms.keywords: ILocator interface [Microsoft TV Technologies],put_CarrierFrequency method, ILocator.put_CarrierFrequency, ILocator::put_CarrierFrequency, ILocatorput_CarrierFrequency, mstv.ilocator_put_carrierfrequency, put_CarrierFrequency, put_CarrierFrequency method [Microsoft TV Technologies], put_CarrierFrequency method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_CarrierFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILocator::put_CarrierFrequency method
+# ILocator::put_CarrierFrequency
 
 
 ## -description

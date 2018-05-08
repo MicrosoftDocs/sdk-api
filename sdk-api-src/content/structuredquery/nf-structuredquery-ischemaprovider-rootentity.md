@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.RootEntity
-title: ISchemaProvider::RootEntity method
+title: ISchemaProvider::RootEntity
 author: windows-driver-content
 description: Retrieves the root entity of the loaded schema.
 old-location: search\_search_ISchemaProvider_RootEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\rootentity.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISchemaProvider, ISchemaProvider interface [search], RootEntity method, ISchemaProvider::RootEntity, RootEntity method [search], RootEntity method [search], ISchemaProvider interface, RootEntity,ISchemaProvider.RootEntity, _search_ISchemaProvider_RootEntity, search._search_ISchemaProvider_RootEntity, structuredquery/ISchemaProvider::RootEntity
+ms.date: 5/4/2018
+ms.keywords: ISchemaProvider interface [search],RootEntity method, ISchemaProvider.RootEntity, ISchemaProvider::RootEntity, RootEntity, RootEntity method [search], RootEntity method [search],ISchemaProvider interface, _search_ISchemaProvider_RootEntity, search._search_ISchemaProvider_RootEntity, structuredquery/ISchemaProvider::RootEntity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISchemaProvider::RootEntity method
+# ISchemaProvider::RootEntity
 
 
 ## -description

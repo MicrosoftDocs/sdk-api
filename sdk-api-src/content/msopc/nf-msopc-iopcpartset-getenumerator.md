@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartSet.GetEnumerator
-title: IOpcPartSet::GetEnumerator method
+title: IOpcPartSet::GetEnumerator
 author: windows-driver-content
 description: Gets an enumerator of IOpcPart interface pointers in the set.
 old-location: opc\iopcpartset_getenumerator.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 7b2a5ae6-b3ac-49b5-a798-9fca450da6d1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions], IOpcPartSet interface, GetEnumerator,IOpcPartSet.GetEnumerator, IOpcPartSet, IOpcPartSet interface [Open Packaging Conventions], GetEnumerator method, IOpcPartSet::GetEnumerator, msopc/IOpcPartSet::GetEnumerator, opc.iopcpartset_getenumerator
+ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],GetEnumerator method, IOpcPartSet.GetEnumerator, IOpcPartSet::GetEnumerator, msopc/IOpcPartSet::GetEnumerator, opc.iopcpartset_getenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPartSet::GetEnumerator method
+# IOpcPartSet::GetEnumerator
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.ReindexSearchRoot
-title: ISearchCatalogManager::ReindexSearchRoot method
+title: ISearchCatalogManager::ReindexSearchRoot
 author: windows-driver-content
 description: Re-indexes all URLs from a specified root.
 old-location: search\_search_ISearchCatalogManager_ReindexSearchRoot.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reindexsearchroot.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], ReindexSearchRoot method, ISearchCatalogManager::ReindexSearchRoot, ReindexSearchRoot method [search], ReindexSearchRoot method [search], ISearchCatalogManager interface, ReindexSearchRoot,ISearchCatalogManager.ReindexSearchRoot, _search_ISearchCatalogManager_ReindexSearchRoot, search._search_ISearchCatalogManager_ReindexSearchRoot, searchapi/ISearchCatalogManager::ReindexSearchRoot
+ms.date: 5/4/2018
+ms.keywords: ISearchCatalogManager interface [search],ReindexSearchRoot method, ISearchCatalogManager.ReindexSearchRoot, ISearchCatalogManager::ReindexSearchRoot, ReindexSearchRoot, ReindexSearchRoot method [search], ReindexSearchRoot method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_ReindexSearchRoot, search._search_ISearchCatalogManager_ReindexSearchRoot, searchapi/ISearchCatalogManager::ReindexSearchRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::ReindexSearchRoot method
+# ISearchCatalogManager::ReindexSearchRoot
 
 
 ## -description

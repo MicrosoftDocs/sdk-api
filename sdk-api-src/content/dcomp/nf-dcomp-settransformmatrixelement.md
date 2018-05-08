@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: c618926b-c059-69dc-ab90-c58344128589
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetTransformMatrixElement, dcomp/settransformmatrixelement, directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement_overloaded, settransformmatrixelement, settransformmatrixelement methods [DirectComposition]
+ms.keywords: SetTransformMatrixElement, dcomp/settransformmatrixelement, directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement_overloaded, idcompositionaffinetransform2deffect::SetTransformMatrixElement, settransformmatrixelement, settransformmatrixelement methods [DirectComposition]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetItemChoice
-title: ISyncMgrConflictResolveInfo::GetItemChoice method
+title: ISyncMgrConflictResolveInfo::GetItemChoice
 author: windows-driver-content
 description: Gets the index of an item that the user wants to keep.
 old-location: shell\ISyncMgrConflictResolveInfo_GetItemChoice.htm
 old-project: shell
 ms.assetid: 3c857e53-756b-44c2-b3fa-6d57c21939e7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetItemChoice method [Windows Shell], GetItemChoice method [Windows Shell], ISyncMgrConflictResolveInfo interface, GetItemChoice,ISyncMgrConflictResolveInfo.GetItemChoice, ISyncMgrConflictResolveInfo, ISyncMgrConflictResolveInfo interface [Windows Shell], GetItemChoice method, ISyncMgrConflictResolveInfo::GetItemChoice, _shell_ISyncMgrConflictResolveInfo_GetItemChoice, shell.ISyncMgrConflictResolveInfo_GetItemChoice, syncmgr/ISyncMgrConflictResolveInfo::GetItemChoice
+ms.date: 5/3/2018
+ms.keywords: GetItemChoice, GetItemChoice method [Windows Shell], GetItemChoice method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetItemChoice method, ISyncMgrConflictResolveInfo.GetItemChoice, ISyncMgrConflictResolveInfo::GetItemChoice, _shell_ISyncMgrConflictResolveInfo_GetItemChoice, shell.ISyncMgrConflictResolveInfo_GetItemChoice, syncmgr/ISyncMgrConflictResolveInfo::GetItemChoice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrConflictResolveInfo::GetItemChoice method
+# ISyncMgrConflictResolveInfo::GetItemChoice
 
 
 ## -description

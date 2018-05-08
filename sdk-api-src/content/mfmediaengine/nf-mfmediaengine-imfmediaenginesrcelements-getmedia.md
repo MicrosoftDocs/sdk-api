@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetMedia
-title: IMFMediaEngineSrcElements::GetMedia method
+title: IMFMediaEngineSrcElements::GetMedia
 author: windows-driver-content
 description: Gets the intended media type of an element in the list.
 old-location: mf\imfmediaenginesrcelements_getmedia.htm
 old-project: medfound
 ms.assetid: AC99D8D0-ACA6-4FE9-A061-1D3A7D92E596
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetMedia method [Media Foundation], GetMedia method [Media Foundation], IMFMediaEngineSrcElements interface, GetMedia,IMFMediaEngineSrcElements.GetMedia, IMFMediaEngineSrcElements, IMFMediaEngineSrcElements interface [Media Foundation], GetMedia method, IMFMediaEngineSrcElements::GetMedia, mf.imfmediaenginesrcelements_getmedia, mfmediaengine/IMFMediaEngineSrcElements::GetMedia
+ms.date: 5/3/2018
+ms.keywords: GetMedia, GetMedia method [Media Foundation], GetMedia method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetMedia method, IMFMediaEngineSrcElements.GetMedia, IMFMediaEngineSrcElements::GetMedia, mf.imfmediaenginesrcelements_getmedia, mfmediaengine/IMFMediaEngineSrcElements::GetMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineSrcElements::GetMedia method
+# IMFMediaEngineSrcElements::GetMedia
 
 
 ## -description

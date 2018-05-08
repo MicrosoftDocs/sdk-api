@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Name
-title: IInkCursor::get_Name method
+title: IInkCursor::get_Name
 author: windows-driver-content
 description: Gets the name of the object.
 old-location: tablet\iinkcursor_name.htm
 old-project: tablet
 ms.assetid: fda02c99-21c1-4ca9-a1f8-24fa9354eac7
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInkCursor, IInkCursor interface [Tablet PC], Name property, IInkCursor.Name, IInkCursor.get_Name, IInkCursor::get_Name, Name property [Tablet PC], Name property [Tablet PC], IInkCursor interface, get_Name,IInkCursor.get_Name, msinkaut/IInkCursor::Name, msinkaut/IInkCursor::get_Name, tablet.iinkcursor_name
+ms.date: 5/2/2018
+ms.keywords: IInkCursor interface [Tablet PC],Name property, IInkCursor.Name, IInkCursor.get_Name, IInkCursor::Name, IInkCursor::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkCursor interface, get_Name, msinkaut/IInkCursor::Name, msinkaut/IInkCursor::get_Name, tablet.iinkcursor_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkCursor::get_Name method
+# IInkCursor::get_Name
 
 
 ## -description

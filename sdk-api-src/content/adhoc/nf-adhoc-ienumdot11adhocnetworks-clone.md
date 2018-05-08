@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocNetworks.Clone
-title: IEnumDot11AdHocNetworks::Clone method
+title: IEnumDot11AdHocNetworks::Clone
 author: windows-driver-content
 description: Creates a new enumeration interface.
 old-location: nwifi\ienumdot11adhocnetworks_clone.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: 595829c6-ca87-4a69-8d09-a398b5cd9f34
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Clone method [NativeWIFI], Clone method [NativeWIFI], IEnumDot11AdHocNetworks interface, Clone,IEnumDot11AdHocNetworks.Clone, IEnumDot11AdHocNetworks, IEnumDot11AdHocNetworks interface [NativeWIFI], Clone method, IEnumDot11AdHocNetworks::Clone, adhoc/IEnumDot11AdHocNetworks::Clone, nwifi.ienumdot11adhocnetworks_clone
+ms.keywords: Clone, Clone method [NativeWIFI], Clone method [NativeWIFI],IEnumDot11AdHocNetworks interface, IEnumDot11AdHocNetworks interface [NativeWIFI],Clone method, IEnumDot11AdHocNetworks.Clone, IEnumDot11AdHocNetworks::Clone, adhoc/IEnumDot11AdHocNetworks::Clone, nwifi.ienumdot11adhocnetworks_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumDot11AdHocNetworks::Clone method
+# IEnumDot11AdHocNetworks::Clone
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetTableDescriptorByIndex
-title: ISCTE_EAS::GetTableDescriptorByIndex method
+title: ISCTE_EAS::GetTableDescriptorByIndex
 author: windows-driver-content
 description: The GetTableDescriptorByIndex method returns a descriptor for the EAS table.
 old-location: mstv\iscte_eas_gettabledescriptorbyindex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 24e02875-32ab-4844-bec3-8044b03b9843
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies], ISCTE_EAS interface, GetTableDescriptorByIndex,ISCTE_EAS.GetTableDescriptorByIndex, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetTableDescriptorByIndex method, ISCTE_EAS::GetTableDescriptorByIndex, ISCTE_EASGetTableDescriptorByIndex, atscpsipparser/ISCTE_EAS::GetTableDescriptorByIndex, mstv.iscte_eas_gettabledescriptorbyindex
+ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, ISCTE_EAS.GetTableDescriptorByIndex, ISCTE_EAS::GetTableDescriptorByIndex, ISCTE_EASGetTableDescriptorByIndex, atscpsipparser/ISCTE_EAS::GetTableDescriptorByIndex, mstv.iscte_eas_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetTableDescriptorByIndex method
+# ISCTE_EAS::GetTableDescriptorByIndex
 
 
 ## -description

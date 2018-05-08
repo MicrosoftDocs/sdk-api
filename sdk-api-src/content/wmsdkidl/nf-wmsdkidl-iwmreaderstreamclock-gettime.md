@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderStreamClock.GetTime
-title: IWMReaderStreamClock::GetTime method
+title: IWMReaderStreamClock::GetTime
 author: windows-driver-content
 description: The GetTime method retrieves the current value of the stream clock.
 old-location: wmformat\iwmreaderstreamclock_gettime.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: d44b8701-8065-40a5-abc3-1c7513c618ea
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetTime method [windows Media Format], GetTime method [windows Media Format], IWMReaderStreamClock interface, GetTime,IWMReaderStreamClock.GetTime, IWMReaderStreamClock, IWMReaderStreamClock interface [windows Media Format], GetTime method, IWMReaderStreamClock::GetTime, IWMReaderStreamClockGetTime, wmformat.iwmreaderstreamclock_gettime, wmsdkidl/IWMReaderStreamClock::GetTime
+ms.keywords: GetTime, GetTime method [windows Media Format], GetTime method [windows Media Format],IWMReaderStreamClock interface, IWMReaderStreamClock interface [windows Media Format],GetTime method, IWMReaderStreamClock.GetTime, IWMReaderStreamClock::GetTime, IWMReaderStreamClockGetTime, wmformat.iwmreaderstreamclock_gettime, wmsdkidl/IWMReaderStreamClock::GetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderStreamClock::GetTime method
+# IWMReaderStreamClock::GetTime
 
 
 ## -description

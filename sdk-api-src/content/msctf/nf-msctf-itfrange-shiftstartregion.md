@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.ShiftStartRegion
-title: ITfRange::ShiftStartRegion method
+title: ITfRange::ShiftStartRegion
 author: windows-driver-content
 description: ITfRange::ShiftStartRegion method
 old-location: tsf\itfrange_shiftstartregion.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6e16112a-0cfe-41be-9d9c-4cbcde898c3f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfRange, ITfRange interface [Text Services Framework], ShiftStartRegion method, ITfRange::ShiftStartRegion, ShiftStartRegion method [Text Services Framework], ShiftStartRegion method [Text Services Framework], ITfRange interface, ShiftStartRegion,ITfRange.ShiftStartRegion, _tsf_itfrange_shiftstartregion_ref, msctf/ITfRange::ShiftStartRegion, tsf.itfrange_shiftstartregion
+ms.keywords: ITfRange interface [Text Services Framework],ShiftStartRegion method, ITfRange.ShiftStartRegion, ITfRange::ShiftStartRegion, ShiftStartRegion, ShiftStartRegion method [Text Services Framework], ShiftStartRegion method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstartregion_ref, msctf/ITfRange::ShiftStartRegion, tsf.itfrange_shiftstartregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfRange::ShiftStartRegion method
+# ITfRange::ShiftStartRegion
 
 
 ## -description

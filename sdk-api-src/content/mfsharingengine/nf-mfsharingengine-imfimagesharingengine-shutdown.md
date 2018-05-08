@@ -1,14 +1,14 @@
 ---
 UID: NF:mfsharingengine.IMFImageSharingEngine.Shutdown
-title: IMFImageSharingEngine::Shutdown method
+title: IMFImageSharingEngine::Shutdown
 author: windows-driver-content
 description: Shuts down the image sharing engine.
 old-location: mf\imfimagesharingengine_shutdown.htm
 old-project: medfound
 ms.assetid: F394A740-8F86-4113-B6B8-57CC4127E9D0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFImageSharingEngine, IMFImageSharingEngine interface [Media Foundation], Shutdown method, IMFImageSharingEngine::Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation], IMFImageSharingEngine interface, Shutdown,IMFImageSharingEngine.Shutdown, mf.imfimagesharingengine_shutdown, mfsharingengine/IMFImageSharingEngine::Shutdown
+ms.date: 5/3/2018
+ms.keywords: IMFImageSharingEngine interface [Media Foundation],Shutdown method, IMFImageSharingEngine.Shutdown, IMFImageSharingEngine::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFImageSharingEngine interface, mf.imfimagesharingengine_shutdown, mfsharingengine/IMFImageSharingEngine::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFImageSharingEngine::Shutdown method
+# IMFImageSharingEngine::Shutdown
 
 
 ## -description

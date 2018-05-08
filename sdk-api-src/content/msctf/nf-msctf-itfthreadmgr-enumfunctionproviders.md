@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.EnumFunctionProviders
-title: ITfThreadMgr::EnumFunctionProviders method
+title: ITfThreadMgr::EnumFunctionProviders
 author: windows-driver-content
 description: ITfThreadMgr::EnumFunctionProviders method
 old-location: tsf\itfthreadmgr_enumfunctionproviders.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6581cd4d-75ad-4a2c-a919-8e2eed6b3939
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnumFunctionProviders method [Text Services Framework], EnumFunctionProviders method [Text Services Framework], ITfThreadMgr interface, EnumFunctionProviders,ITfThreadMgr.EnumFunctionProviders, ITfThreadMgr, ITfThreadMgr interface [Text Services Framework], EnumFunctionProviders method, ITfThreadMgr::EnumFunctionProviders, _tsf_itfthreadmgr_enumfunctionproviders_ref, msctf/ITfThreadMgr::EnumFunctionProviders, tsf.itfthreadmgr_enumfunctionproviders
+ms.keywords: EnumFunctionProviders, EnumFunctionProviders method [Text Services Framework], EnumFunctionProviders method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],EnumFunctionProviders method, ITfThreadMgr.EnumFunctionProviders, ITfThreadMgr::EnumFunctionProviders, _tsf_itfthreadmgr_enumfunctionproviders_ref, msctf/ITfThreadMgr::EnumFunctionProviders, tsf.itfthreadmgr_enumfunctionproviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr::EnumFunctionProviders method
+# ITfThreadMgr::EnumFunctionProviders
 
 
 ## -description

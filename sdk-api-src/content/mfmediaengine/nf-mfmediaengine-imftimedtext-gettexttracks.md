@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.GetTextTracks
-title: IMFTimedText::GetTextTracks method
+title: IMFTimedText::GetTextTracks
 author: windows-driver-content
 description: Gets the list of all the timed-text tracks in the timed-text component.
 old-location: mf\imftimedtext_gettexttracks.htm
 old-project: medfound
 ms.assetid: 75F2874A-67E0-4167-9B5D-A8B90C3509E0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTextTracks method [Media Foundation], GetTextTracks method [Media Foundation], IMFTimedText interface, GetTextTracks,IMFTimedText.GetTextTracks, IMFTimedText, IMFTimedText interface [Media Foundation], GetTextTracks method, IMFTimedText::GetTextTracks, mf.imftimedtext_gettexttracks, mfmediaengine/IMFTimedText::GetTextTracks
+ms.date: 5/3/2018
+ms.keywords: GetTextTracks, GetTextTracks method [Media Foundation], GetTextTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetTextTracks method, IMFTimedText.GetTextTracks, IMFTimedText::GetTextTracks, mf.imftimedtext_gettexttracks, mfmediaengine/IMFTimedText::GetTextTracks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedText::GetTextTracks method
+# IMFTimedText::GetTextTracks
 
 
 ## -description

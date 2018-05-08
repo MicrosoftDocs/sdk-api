@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.Close
-title: IDiscRecorder::Close method
+title: IDiscRecorder::Close
 author: windows-driver-content
 description: Releases exclusive access to a disc recorder. This restores file system access to the drive.
 old-location: imapi\idiscrecorder_close.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 39af9413-6068-4165-8a26-509389a6d1f2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Close method [IMAPI], Close method [IMAPI], IDiscRecorder interface, Close,IDiscRecorder.Close, IDiscRecorder, IDiscRecorder interface [IMAPI], Close method, IDiscRecorder::Close, _win32_idiscrecorder_close, base.idiscrecorder_close, imapi.idiscrecorder_close, imapi/IDiscRecorder::Close
+ms.keywords: Close, Close method [IMAPI], Close method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],Close method, IDiscRecorder.Close, IDiscRecorder::Close, _win32_idiscrecorder_close, base.idiscrecorder_close, imapi.idiscrecorder_close, imapi/IDiscRecorder::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder::Close method
+# IDiscRecorder::Close
 
 
 ## -description

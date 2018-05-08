@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_VideoRendererActive
-title: IMSVidCtl::put_VideoRendererActive method
+title: IMSVidCtl::put_VideoRendererActive
 author: windows-driver-content
 description: The put_VideoRendererActive method specifies the active video renderer.
 old-location: mstv\imsvidctl_put_videorendereractive.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: fb6e1db7-b980-4706-a1f1-cd6d8423bfb2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], put_VideoRendererActive method, IMSVidCtl::put_VideoRendererActive, IMSVidCtlput_VideoRendererActive, mstv.imsvidctl_put_videorendereractive, msvidctl/IMSVidCtl::put_VideoRendererActive, put_VideoRendererActive method [Microsoft TV Technologies], put_VideoRendererActive method [Microsoft TV Technologies], IMSVidCtl interface, put_VideoRendererActive,IMSVidCtl.put_VideoRendererActive
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_VideoRendererActive method, IMSVidCtl.put_VideoRendererActive, IMSVidCtl::put_VideoRendererActive, IMSVidCtlput_VideoRendererActive, mstv.imsvidctl_put_videorendereractive, msvidctl/IMSVidCtl::put_VideoRendererActive, put_VideoRendererActive, put_VideoRendererActive method [Microsoft TV Technologies], put_VideoRendererActive method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::put_VideoRendererActive method
+# IMSVidCtl::put_VideoRendererActive
 
 
 ## -description

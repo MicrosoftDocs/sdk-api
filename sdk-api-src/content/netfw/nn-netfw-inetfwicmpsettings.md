@@ -7,8 +7,8 @@ old-location: ics\inetfwicmpsettings.htm
 old-project: ICS
 ms.assetid: 4eed8f30-4265-4735-a885-83c11b5031e5
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], INetFwIcmpSettings interface [ICS/ICF], described, ics.inetfwicmpsettings, netfw/INetFwIcmpSettings
+ms.date: 5/1/2018
+ms.keywords: INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], INetFwIcmpSettings interface [ICS/ICF],described, ics.inetfwicmpsettings, netfw/INetFwIcmpSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

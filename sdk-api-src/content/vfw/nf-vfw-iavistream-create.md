@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IAVIStream.Create
-title: IAVIStream::Create method
+title: IAVIStream::Create
 author: windows-driver-content
 description: The Create method initializes a stream handler that is not associated with any file. Called when an application uses the AVIStreamCreate function.
 old-location: multimedia\iavistream_create.htm
 old-project: Multimedia
 ms.assetid: 512ce9f8-f96c-4ef4-be1f-234165219ff7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: Create method [Windows Multimedia], Create method [Windows Multimedia], IAVIStream interface, Create,IAVIStream.Create, IAVIStream, IAVIStream interface [Windows Multimedia], Create method, IAVIStream::Create, _win32_IAVIStream_Create, multimedia.iavistream_create, vfw/IAVIStream::Create
+ms.date: 5/4/2018
+ms.keywords: Create, Create method [Windows Multimedia], Create method [Windows Multimedia],IAVIStream interface, IAVIStream interface [Windows Multimedia],Create method, IAVIStream.Create, IAVIStream::Create, _win32_IAVIStream_Create, multimedia.iavistream_create, vfw/IAVIStream::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAVIStream::Create method
+# IAVIStream::Create
 
 
 ## -description

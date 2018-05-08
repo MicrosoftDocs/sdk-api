@@ -7,7 +7,7 @@ old-location: shell\SHDoDragDrop.htm
 old-project: shell
 ms.assetid: 76c98516-ede9-47de-b4ad-257a162775b9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: SHDoDragDrop, SHDoDragDrop function [Windows Shell], _win32_SHDoDragDrop, shell.SHDoDragDrop, shlobj_core/SHDoDragDrop
 ms.prod: windows-hardware
 ms.technology: windows-devices

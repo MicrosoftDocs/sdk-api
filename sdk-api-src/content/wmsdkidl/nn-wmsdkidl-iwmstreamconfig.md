@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e013996a-95b6-4cd3-9fb5-75dbce821eef
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMStreamConfig, IWMStreamConfig interface [windows Media Format], IWMStreamConfig interface [windows Media Format], described, IWMStreamConfigInterface, wmformat.iwmstreamconfig, wmsdkidl/IWMStreamConfig
+ms.keywords: IWMStreamConfig, IWMStreamConfig interface [windows Media Format], IWMStreamConfig interface [windows Media Format],described, IWMStreamConfigInterface, wmformat.iwmstreamconfig, wmsdkidl/IWMStreamConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

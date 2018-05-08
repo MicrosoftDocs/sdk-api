@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.Close
-title: IUIAutomationWindowPattern::Close method
+title: IUIAutomationWindowPattern::Close
 author: windows-driver-content
 description: Closes the window.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_Close.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 925484e2-6ad1-49ca-b2d4-a6436e7a3ddd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Close method [Windows Accessibility], Close method [Windows Accessibility], IUIAutomationWindowPattern interface, Close,IUIAutomationWindowPattern.Close, IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], Close method, IUIAutomationWindowPattern::Close, uiauto.uiauto_IUIAutomationWindowPattern_Close, uiauto_IUIAutomationWindowPattern_Close, uiautomationclient/IUIAutomationWindowPattern::Close, winauto.uiauto_IUIAutomationWindowPattern_Close
+ms.keywords: Close, Close method [Windows Accessibility], Close method [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],Close method, IUIAutomationWindowPattern.Close, IUIAutomationWindowPattern::Close, uiauto.uiauto_IUIAutomationWindowPattern_Close, uiauto_IUIAutomationWindowPattern_Close, uiautomationclient/IUIAutomationWindowPattern::Close, winauto.uiauto_IUIAutomationWindowPattern_Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationWindowPattern::Close method
+# IUIAutomationWindowPattern::Close
 
 
 ## -description

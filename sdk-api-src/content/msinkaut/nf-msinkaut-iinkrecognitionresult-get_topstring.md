@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.get_TopString
-title: IInkRecognitionResult::get_TopString method
+title: IInkRecognitionResult::get_TopString
 author: windows-driver-content
 description: Gets the result text for the TopAlternate property.
 old-location: tablet\iinkrecognitionresult_topstring.htm
 old-project: tablet
 ms.assetid: 9f345372-0208-4c78-9da7-9b334c0f281e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 9f345372-0208-4c78-9da7-9b334c0f281e, IInkRecognitionResult, IInkRecognitionResult interface [Tablet PC], TopString property, IInkRecognitionResult.TopString, IInkRecognitionResult.get_TopString, IInkRecognitionResult::get_TopString, TopString property [Tablet PC], TopString property [Tablet PC], IInkRecognitionResult interface, get_TopString,IInkRecognitionResult.get_TopString, msinkaut/IInkRecognitionResult::TopString, msinkaut/IInkRecognitionResult::get_TopString, tablet.iinkrecognitionresult_topstring
+ms.date: 5/2/2018
+ms.keywords: 9f345372-0208-4c78-9da7-9b334c0f281e, IInkRecognitionResult interface [Tablet PC],TopString property, IInkRecognitionResult.TopString, IInkRecognitionResult.get_TopString, IInkRecognitionResult::TopString, IInkRecognitionResult::get_TopString, TopString property [Tablet PC], TopString property [Tablet PC],IInkRecognitionResult interface, get_TopString, msinkaut/IInkRecognitionResult::TopString, msinkaut/IInkRecognitionResult::get_TopString, tablet.iinkrecognitionresult_topstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognitionResult::get_TopString method
+# IInkRecognitionResult::get_TopString
 
 
 ## -description

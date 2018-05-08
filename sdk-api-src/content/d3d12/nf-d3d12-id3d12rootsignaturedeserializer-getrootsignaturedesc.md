@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12RootSignatureDeserializer.GetRootSignatureDesc
-title: ID3D12RootSignatureDeserializer::GetRootSignatureDesc method
+title: ID3D12RootSignatureDeserializer::GetRootSignatureDesc
 author: windows-driver-content
 description: Gets the layout of the root signature.
 old-location: direct3d12\id3d12rootsignaturedeserializer_getrootsignaturedesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: A13FB848-A5C1-4B9B-9009-B0166A3A1C8D
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetRootSignatureDesc method, GetRootSignatureDesc method, ID3D12RootSignatureDeserializer interface, GetRootSignatureDesc,ID3D12RootSignatureDeserializer.GetRootSignatureDesc, ID3D12RootSignatureDeserializer, ID3D12RootSignatureDeserializer interface, GetRootSignatureDesc method, ID3D12RootSignatureDeserializer::GetRootSignatureDesc, d3d12/ID3D12RootSignatureDeserializer::GetRootSignatureDesc, direct3d12.id3d12rootsignaturedeserializer_getrootsignaturedesc
+ms.keywords: GetRootSignatureDesc, GetRootSignatureDesc method, GetRootSignatureDesc method,ID3D12RootSignatureDeserializer interface, ID3D12RootSignatureDeserializer interface,GetRootSignatureDesc method, ID3D12RootSignatureDeserializer.GetRootSignatureDesc, ID3D12RootSignatureDeserializer::GetRootSignatureDesc, d3d12/ID3D12RootSignatureDeserializer::GetRootSignatureDesc, direct3d12.id3d12rootsignaturedeserializer_getrootsignaturedesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12RootSignatureDeserializer::GetRootSignatureDesc method
+# ID3D12RootSignatureDeserializer::GetRootSignatureDesc
 
 
 ## -description

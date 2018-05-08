@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorNotifyEx.NotifyPrune
-title: IMFVideoSampleAllocatorNotifyEx::NotifyPrune method
+title: IMFVideoSampleAllocatorNotifyEx::NotifyPrune
 author: windows-driver-content
 description: Called when allocator samples are released for pruning by the allocator, or when the allocator is removed.
 old-location: mf\imfvideosampleallocatornotifyex_notifyprune.htm
 old-project: medfound
 ms.assetid: DCC3B043-4BD9-4A39-AA4C-98054223769F
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoSampleAllocatorNotifyEx, IMFVideoSampleAllocatorNotifyEx interface [Media Foundation], NotifyPrune method, IMFVideoSampleAllocatorNotifyEx::NotifyPrune, NotifyPrune method [Media Foundation], NotifyPrune method [Media Foundation], IMFVideoSampleAllocatorNotifyEx interface, NotifyPrune,IMFVideoSampleAllocatorNotifyEx.NotifyPrune, mf.imfvideosampleallocatornotifyex_notifyprune, mfidl/IMFVideoSampleAllocatorNotifyEx::NotifyPrune
+ms.date: 5/3/2018
+ms.keywords: IMFVideoSampleAllocatorNotifyEx interface [Media Foundation],NotifyPrune method, IMFVideoSampleAllocatorNotifyEx.NotifyPrune, IMFVideoSampleAllocatorNotifyEx::NotifyPrune, NotifyPrune, NotifyPrune method [Media Foundation], NotifyPrune method [Media Foundation],IMFVideoSampleAllocatorNotifyEx interface, mf.imfvideosampleallocatornotifyex_notifyprune, mfidl/IMFVideoSampleAllocatorNotifyEx::NotifyPrune
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFVideoSampleAllocatorNotifyEx::NotifyPrune method
+# IMFVideoSampleAllocatorNotifyEx::NotifyPrune
 
 
 ## -description

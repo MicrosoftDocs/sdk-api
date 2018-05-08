@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetScope
-title: IWbemPath::GetScope method
+title: IWbemPath::GetScope
 author: windows-driver-content
 description: Retrieves a scope based upon an index.
 old-location: wmi\iwbempath_getscope.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 9601fb2b-583d-4481-8237-32db72432c63
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetScope method [Windows Management Instrumentation], GetScope method [Windows Management Instrumentation], IWbemPath interface, GetScope,IWbemPath.GetScope, IWbemPath, IWbemPath interface [Windows Management Instrumentation], GetScope method, IWbemPath::GetScope, _hmm_iwbempath_getscope, wmi.iwbempath_getscope, wmiutils/IWbemPath::GetScope
+ms.keywords: GetScope, GetScope method [Windows Management Instrumentation], GetScope method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetScope method, IWbemPath.GetScope, IWbemPath::GetScope, _hmm_iwbempath_getscope, wmi.iwbempath_getscope, wmiutils/IWbemPath::GetScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPath::GetScope method
+# IWbemPath::GetScope
 
 
 ## -description

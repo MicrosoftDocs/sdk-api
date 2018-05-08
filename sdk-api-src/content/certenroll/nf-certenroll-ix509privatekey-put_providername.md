@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ProviderName
-title: IX509PrivateKey::put_ProviderName method
+title: IX509PrivateKey::put_ProviderName
 author: windows-driver-content
 description: Specifies or retrieves the name of the cryptographic provider.
 old-location: security\ix509privatekey_providername.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 42a348ae-9946-4d76-a035-14990d823449
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], ProviderName property, IX509PrivateKey.ProviderName, IX509PrivateKey::get_ProviderName, IX509PrivateKey::put_ProviderName, ProviderName property [Security], ProviderName property [Security], IX509PrivateKey interface, certenroll/IX509PrivateKey::ProviderName, certenroll/IX509PrivateKey::get_ProviderName, certenroll/IX509PrivateKey::put_ProviderName, put_ProviderName,IX509PrivateKey.put_ProviderName, security.ix509privatekey_providername
+ms.keywords: IX509PrivateKey interface [Security],ProviderName property, IX509PrivateKey.ProviderName, IX509PrivateKey.put_ProviderName, IX509PrivateKey::ProviderName, IX509PrivateKey::get_ProviderName, IX509PrivateKey::put_ProviderName, ProviderName property [Security], ProviderName property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ProviderName, certenroll/IX509PrivateKey::get_ProviderName, certenroll/IX509PrivateKey::put_ProviderName, put_ProviderName, security.ix509privatekey_providername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PrivateKey::put_ProviderName method
+# IX509PrivateKey::put_ProviderName
 
 
 ## -description

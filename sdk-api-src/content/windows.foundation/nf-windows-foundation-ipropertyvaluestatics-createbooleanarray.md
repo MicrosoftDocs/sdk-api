@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateBooleanArray
-title: IPropertyValueStatics::CreateBooleanArray method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified array of 8-bit Boolean values.
 old-location: winrt\ipropertyvaluestatics_createbooleanarray.htm
 old-project: WinRT
 ms.assetid: 54289d10-8393-4c49-9087-873519b32aa8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateBooleanArray method [Windows Runtime], CreateBooleanArray method [Windows Runtime], IPropertyValueStatics interface, CreateBooleanArray,IPropertyValueStatics.CreateBooleanArray, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateBooleanArray method, IPropertyValueStatics::CreateBooleanArray, windows/IPropertyValueStatics::CreateBooleanArray, winrt.ipropertyvaluefactory_createbooleanarray, winrt.ipropertyvaluestatics_createbooleanarray
+ms.date: 5/4/2018
+ms.keywords: CreateBooleanArray, CreateBooleanArray method [Windows Runtime], CreateBooleanArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateBooleanArray method, IPropertyValueStatics.CreateBooleanArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateBooleanArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateBooleanArray, winrt.ipropertyvaluefactory_createbooleanarray, winrt.ipropertyvaluestatics_createbooleanarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateBooleanArray method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

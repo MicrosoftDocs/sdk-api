@@ -7,7 +7,7 @@ old-location: controls\ListView_SetHoverTime.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethovertime.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: ListView_SetHoverTime, ListView_SetHoverTime macro [Windows Controls], _win32_ListView_SetHoverTime, _win32_ListView_SetHoverTime_cpp, commctrl/ListView_SetHoverTime, controls.ListView_SetHoverTime, controls._win32_ListView_SetHoverTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

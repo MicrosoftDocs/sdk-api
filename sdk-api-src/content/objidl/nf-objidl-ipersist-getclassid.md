@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersist.GetClassID
-title: IPersist::GetClassID method
+title: IPersist::GetClassID
 author: windows-driver-content
 description: Retrieves the class identifier (CLSID) of the object.
 old-location: com\ipersist_getclassid.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 921a3b86-a240-454e-9411-8d653e02b90e
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetClassID method [COM], GetClassID method [COM], IBaseFilter interface, GetClassID method [COM], IPersist interface, GetClassID method [COM], IPersistFolder interface, GetClassID,IPersist.GetClassID, IBaseFilter interface [COM], GetClassID method, IBaseFilter::GetClassID, IPersist, IPersist interface [COM], GetClassID method, IPersist::GetClassID, IPersistFolder interface [COM], GetClassID method, IPersistFolder::GetClassID, _com_ipersist_getclassid, com.ipersist_getclassid, objidl/IBaseFilter::GetClassID, objidl/IPersist::GetClassID, objidl/IPersistFolder::GetClassID
+ms.keywords: GetClassID, GetClassID method [COM], GetClassID method [COM],IBaseFilter interface, GetClassID method [COM],IPersist interface, GetClassID method [COM],IPersistFolder interface, IBaseFilter interface [COM],GetClassID method, IBaseFilter::GetClassID, IPersist interface [COM],GetClassID method, IPersist.GetClassID, IPersist::GetClassID, IPersistFolder interface [COM],GetClassID method, IPersistFolder::GetClassID, _com_ipersist_getclassid, com.ipersist_getclassid, objidl/IBaseFilter::GetClassID, objidl/IPersist::GetClassID, objidl/IPersistFolder::GetClassID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersist::GetClassID method
+# IPersist::GetClassID
 
 
 ## -description

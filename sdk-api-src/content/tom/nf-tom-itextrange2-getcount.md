@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.GetCount
-title: ITextRange2::GetCount method
+title: ITextRange2::GetCount
 author: windows-driver-content
 description: Gets the count of subranges, including the active subrange in the current range.
 old-location: controls\itextrange2_getcount.htm
 old-project: Controls
 ms.assetid: a1744e60-74b0-44a0-b470-6e89d328fa11
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetCount method [Windows Controls], GetCount method [Windows Controls], ITextRange2 interface, GetCount,ITextRange2.GetCount, ITextRange2, ITextRange2 interface [Windows Controls], GetCount method, ITextRange2::GetCount, controls.itextrange2_getcount, tom/ITextRange2::GetCount
+ms.date: 4/27/2018
+ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCount method, ITextRange2.GetCount, ITextRange2::GetCount, controls.itextrange2_getcount, tom/ITextRange2::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::GetCount method
+# ITextRange2::GetCount
 
 
 ## -description

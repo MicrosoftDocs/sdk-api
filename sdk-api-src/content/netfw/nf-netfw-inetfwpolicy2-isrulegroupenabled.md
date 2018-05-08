@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwPolicy2.IsRuleGroupEnabled
-title: INetFwPolicy2::IsRuleGroupEnabled method
+title: INetFwPolicy2::IsRuleGroupEnabled
 author: windows-driver-content
 description: Determines whether a specified group of firewall rules are enabled or disabled.
 old-location: ics\inetfwpolicy2_isrulegroupenabled.htm
 old-project: ICS
 ms.assetid: b6f27763-6ceb-4bc3-be6f-f02908dc0387
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], IsRuleGroupEnabled method, INetFwPolicy2::IsRuleGroupEnabled, IsRuleGroupEnabled method [ICS/ICF], IsRuleGroupEnabled method [ICS/ICF], INetFwPolicy2 interface, IsRuleGroupEnabled,INetFwPolicy2.IsRuleGroupEnabled, ics.inetfwpolicy2_isrulegroupenabled, netfw/INetFwPolicy2::IsRuleGroupEnabled
+ms.date: 5/1/2018
+ms.keywords: INetFwPolicy2 interface [ICS/ICF],IsRuleGroupEnabled method, INetFwPolicy2.IsRuleGroupEnabled, INetFwPolicy2::IsRuleGroupEnabled, IsRuleGroupEnabled, IsRuleGroupEnabled method [ICS/ICF], IsRuleGroupEnabled method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_isrulegroupenabled, netfw/INetFwPolicy2::IsRuleGroupEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwPolicy2::IsRuleGroupEnabled method
+# INetFwPolicy2::IsRuleGroupEnabled
 
 
 ## -description

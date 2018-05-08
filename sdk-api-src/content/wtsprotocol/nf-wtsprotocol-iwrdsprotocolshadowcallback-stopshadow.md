@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowCallback.StopShadow
-title: IWRdsProtocolShadowCallback::StopShadow method
+title: IWRdsProtocolShadowCallback::StopShadow
 author: windows-driver-content
 description: Instructs the Remote Desktop Services service to stop shadowing a target.
 old-location: termserv\iwrdsprotocolshadowcallback_stopshadow.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 09911813-554d-4ce1-b34e-5a6f57ec286d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolShadowCallback, IWRdsProtocolShadowCallback interface [Remote Desktop Services], StopShadow method, IWRdsProtocolShadowCallback::StopShadow, StopShadow method [Remote Desktop Services], StopShadow method [Remote Desktop Services], IWRdsProtocolShadowCallback interface, StopShadow,IWRdsProtocolShadowCallback.StopShadow, termserv.iwrdsprotocolshadowcallback_stopshadow, wtsprotocol/IWRdsProtocolShadowCallback::StopShadow
+ms.keywords: IWRdsProtocolShadowCallback interface [Remote Desktop Services],StopShadow method, IWRdsProtocolShadowCallback.StopShadow, IWRdsProtocolShadowCallback::StopShadow, StopShadow, StopShadow method [Remote Desktop Services], StopShadow method [Remote Desktop Services],IWRdsProtocolShadowCallback interface, termserv.iwrdsprotocolshadowcallback_stopshadow, wtsprotocol/IWRdsProtocolShadowCallback::StopShadow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolShadowCallback::StopShadow method
+# IWRdsProtocolShadowCallback::StopShadow
 
 
 ## -description

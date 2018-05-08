@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPControls.get_currentMarker
-title: IWMPControls::get_currentMarker method
+title: IWMPControls::get_currentMarker
 author: windows-driver-content
 description: The get_currentMarker method retrieves the current marker number.
 old-location: wmp\iwmpcontrols_get_currentmarker.htm
 old-project: WMP
 ms.assetid: 42576961-a9bd-4f64-bf56-a5d6bd07e82f
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], get_currentMarker method, IWMPControls::get_currentMarker, IWMPControlsget_currentMarker, get_currentMarker method [Windows Media Player], get_currentMarker method [Windows Media Player], IWMPControls interface, get_currentMarker,IWMPControls.get_currentMarker, wmp.iwmpcontrols_get_currentmarker, wmp/IWMPControls::get_currentMarker
+ms.date: 5/4/2018
+ms.keywords: IWMPControls interface [Windows Media Player],get_currentMarker method, IWMPControls.get_currentMarker, IWMPControls::get_currentMarker, IWMPControlsget_currentMarker, get_currentMarker, get_currentMarker method [Windows Media Player], get_currentMarker method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentmarker, wmp/IWMPControls::get_currentMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPControls::get_currentMarker method
+# IWMPControls::get_currentMarker
 
 
 ## -description

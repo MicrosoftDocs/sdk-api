@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryWhereRestrictions
-title: ISearchQueryHelper::get_QueryWhereRestrictions method
+title: ISearchQueryHelper::get_QueryWhereRestrictions
 author: windows-driver-content
 description: Gets the restrictions appended to a query in WHERE clauses.
 old-location: search\_search_ISearchQueryHelper_get_QueryWhereRestrictions.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querywhererestrictions.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchQueryHelper, ISearchQueryHelper interface [search], get_QueryWhereRestrictions method, ISearchQueryHelper::get_QueryWhereRestrictions, _search_ISearchQueryHelper_get_QueryWhereRestrictions, get_QueryWhereRestrictions method [search], get_QueryWhereRestrictions method [search], ISearchQueryHelper interface, get_QueryWhereRestrictions,ISearchQueryHelper.get_QueryWhereRestrictions, search._search_ISearchQueryHelper_get_QueryWhereRestrictions, searchapi/ISearchQueryHelper::get_QueryWhereRestrictions
+ms.date: 5/4/2018
+ms.keywords: ISearchQueryHelper interface [search],get_QueryWhereRestrictions method, ISearchQueryHelper.get_QueryWhereRestrictions, ISearchQueryHelper::get_QueryWhereRestrictions, _search_ISearchQueryHelper_get_QueryWhereRestrictions, get_QueryWhereRestrictions, get_QueryWhereRestrictions method [search], get_QueryWhereRestrictions method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryWhereRestrictions, searchapi/ISearchQueryHelper::get_QueryWhereRestrictions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchQueryHelper::get_QueryWhereRestrictions method
+# ISearchQueryHelper::get_QueryWhereRestrictions
 
 
 ## -description

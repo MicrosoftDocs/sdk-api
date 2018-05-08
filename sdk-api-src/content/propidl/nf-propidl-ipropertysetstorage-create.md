@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertySetStorage.Create
-title: IPropertySetStorage::Create method
+title: IPropertySetStorage::Create
 author: windows-driver-content
 description: Creates and opens a new property set in the property set storage object.
 old-location: stg\ipropertysetstorage_create.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 9307788d-bce6-4025-8043-8b68e874a62b
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: Create method [Structured Storage], Create method [Structured Storage], IPropertySetStorage interface, Create,IPropertySetStorage.Create, IPropertySetStorage, IPropertySetStorage interface [Structured Storage], Create method, IPropertySetStorage::Create, _stg_ipropertysetstorage_create, propidl/IPropertySetStorage::Create, stg.ipropertysetstorage_create
+ms.keywords: Create, Create method [Structured Storage], Create method [Structured Storage],IPropertySetStorage interface, IPropertySetStorage interface [Structured Storage],Create method, IPropertySetStorage.Create, IPropertySetStorage::Create, _stg_ipropertysetstorage_create, propidl/IPropertySetStorage::Create, stg.ipropertysetstorage_create
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertySetStorage::Create method
+# IPropertySetStorage::Create
 
 
 ## -description

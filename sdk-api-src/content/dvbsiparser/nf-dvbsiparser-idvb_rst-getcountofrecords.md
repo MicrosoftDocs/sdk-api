@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_RST.GetCountOfRecords
-title: IDVB_RST::GetCountOfRecords method
+title: IDVB_RST::GetCountOfRecords
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_rst_getcountofrecords.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 98e71d2e-d84e-4be5-b779-0d7c10a823d5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IDVB_RST interface, GetCountOfRecords,IDVB_RST.GetCountOfRecords, IDVB_RST, IDVB_RST interface [Microsoft TV Technologies], GetCountOfRecords method, IDVB_RST::GetCountOfRecords, IDVB_RSTGetCountOfRecords, dvbsiparser/IDVB_RST::GetCountOfRecords, mstv.idvb_rst_getcountofrecords
+ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetCountOfRecords method, IDVB_RST.GetCountOfRecords, IDVB_RST::GetCountOfRecords, IDVB_RSTGetCountOfRecords, dvbsiparser/IDVB_RST::GetCountOfRecords, mstv.idvb_rst_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_RST::GetCountOfRecords method
+# IDVB_RST::GetCountOfRecords
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemSink.OnUpdate
-title: ITfLangBarItemSink::OnUpdate method
+title: ITfLangBarItemSink::OnUpdate
 author: windows-driver-content
 description: ITfLangBarItemSink::OnUpdate method
 old-location: tsf\itflangbaritemsink_onupdate.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarItemSink, ITfLangBarItemSink interface [Text Services Framework], OnUpdate method, ITfLangBarItemSink::OnUpdate, OnUpdate method [Text Services Framework], OnUpdate method [Text Services Framework], ITfLangBarItemSink interface, OnUpdate,ITfLangBarItemSink.OnUpdate, _tsf_itflangbaritemsink_onupdate_ref, ctfutb/ITfLangBarItemSink::OnUpdate, tsf.itflangbaritemsink_onupdate
+ms.keywords: ITfLangBarItemSink interface [Text Services Framework],OnUpdate method, ITfLangBarItemSink.OnUpdate, ITfLangBarItemSink::OnUpdate, OnUpdate, OnUpdate method [Text Services Framework], OnUpdate method [Text Services Framework],ITfLangBarItemSink interface, _tsf_itflangbaritemsink_onupdate_ref, ctfutb/ITfLangBarItemSink::OnUpdate, tsf.itflangbaritemsink_onupdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemSink::OnUpdate method
+# ITfLangBarItemSink::OnUpdate
 
 
 ## -description

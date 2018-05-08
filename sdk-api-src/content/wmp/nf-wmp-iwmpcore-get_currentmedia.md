@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCore.get_currentMedia
-title: IWMPCore::get_currentMedia method
+title: IWMPCore::get_currentMedia
 author: windows-driver-content
 description: The get_currentMedia method retrieves a pointer to an IWMPMedia interface corresponding to the current media item.
 old-location: wmp\iwmpcore_get_currentmedia.htm
 old-project: WMP
 ms.assetid: 4f199336-0555-40de-8d27-780b05ef9510
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCore, IWMPCore interface [Windows Media Player], get_currentMedia method, IWMPCore::get_currentMedia, IWMPCoreget_currentMedia, get_currentMedia method [Windows Media Player], get_currentMedia method [Windows Media Player], IWMPCore interface, get_currentMedia,IWMPCore.get_currentMedia, wmp.iwmpcore_get_currentmedia, wmp/IWMPCore::get_currentMedia
+ms.date: 5/4/2018
+ms.keywords: IWMPCore interface [Windows Media Player],get_currentMedia method, IWMPCore.get_currentMedia, IWMPCore::get_currentMedia, IWMPCoreget_currentMedia, get_currentMedia, get_currentMedia method [Windows Media Player], get_currentMedia method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_currentmedia, wmp/IWMPCore::get_currentMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCore::get_currentMedia method
+# IWMPCore::get_currentMedia
 
 
 ## -description

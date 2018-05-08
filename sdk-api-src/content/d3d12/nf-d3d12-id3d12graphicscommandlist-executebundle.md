@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ExecuteBundle
-title: ID3D12GraphicsCommandList::ExecuteBundle method
+title: ID3D12GraphicsCommandList::ExecuteBundle
 author: windows-driver-content
 description: Executes a bundle.
 old-location: direct3d12\id3d12graphicscommandlist_executebundle.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: B8AE4448-041D-47F6-9F0F-AE74FFEF6E41
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ExecuteBundle method, ExecuteBundle method, ID3D12GraphicsCommandList interface, ExecuteBundle,ID3D12GraphicsCommandList.ExecuteBundle, ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, ExecuteBundle method, ID3D12GraphicsCommandList::ExecuteBundle, d3d12/ID3D12GraphicsCommandList::ExecuteBundle, direct3d12.id3d12graphicscommandlist_executebundle
+ms.keywords: ExecuteBundle, ExecuteBundle method, ExecuteBundle method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ExecuteBundle method, ID3D12GraphicsCommandList.ExecuteBundle, ID3D12GraphicsCommandList::ExecuteBundle, d3d12/ID3D12GraphicsCommandList::ExecuteBundle, direct3d12.id3d12graphicscommandlist_executebundle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::ExecuteBundle method
+# ID3D12GraphicsCommandList::ExecuteBundle
 
 
 ## -description

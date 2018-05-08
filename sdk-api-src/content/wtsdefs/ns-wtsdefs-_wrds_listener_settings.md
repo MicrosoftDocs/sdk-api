@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WRDS_LISTENER_SETTINGS, *PWRDS_LISTENER_SETTINGS, WRDS_LISTENER_SETTINGS, *PWRDS_LISTENER_SETTINGS
+req.typenames: WRDS_LISTENER_SETTINGS, *PWRDS_LISTENER_SETTINGS
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -72,4 +72,16 @@ The structure is a <a href="https://msdn.microsoft.com/F8F35CED-16EC-4FBB-A3CA-2
 ### -field WRdsListenerSetting
 
 A <a href="https://msdn.microsoft.com/F7EF3E44-70B7-437C-9810-982802F86C77">WRDS_LISTENER_SETTING</a> structure that specifies the listener settings.
+
+
+### -field WRdsListenerSetting.switch_is
+
+ 
+
+
+### -field WRdsListenerSetting.switch_is.WRdsListenerSettingLevel
+
+ 
+
+
 

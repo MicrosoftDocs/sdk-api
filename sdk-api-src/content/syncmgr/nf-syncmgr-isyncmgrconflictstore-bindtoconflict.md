@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.BindToConflict
-title: ISyncMgrConflictStore::BindToConflict method
+title: ISyncMgrConflictStore::BindToConflict
 author: windows-driver-content
 description: Binds to a particular conflict specified by IID.
 old-location: shell\ISyncMgrConflictStore_BindToConflict.htm
 old-project: shell
 ms.assetid: 86414360-7dc5-4819-8372-0cede07ba41b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: BindToConflict method [Windows Shell], BindToConflict method [Windows Shell], ISyncMgrConflictStore interface, BindToConflict,ISyncMgrConflictStore.BindToConflict, ISyncMgrConflictStore, ISyncMgrConflictStore interface [Windows Shell], BindToConflict method, ISyncMgrConflictStore::BindToConflict, _shell_ISyncMgrConflictStore_BindToConflict, shell.ISyncMgrConflictStore_BindToConflict, syncmgr/ISyncMgrConflictStore::BindToConflict
+ms.date: 5/3/2018
+ms.keywords: BindToConflict, BindToConflict method [Windows Shell], BindToConflict method [Windows Shell],ISyncMgrConflictStore interface, ISyncMgrConflictStore interface [Windows Shell],BindToConflict method, ISyncMgrConflictStore.BindToConflict, ISyncMgrConflictStore::BindToConflict, _shell_ISyncMgrConflictStore_BindToConflict, shell.ISyncMgrConflictStore_BindToConflict, syncmgr/ISyncMgrConflictStore::BindToConflict
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrConflictStore::BindToConflict method
+# ISyncMgrConflictStore::BindToConflict
 
 
 ## -description

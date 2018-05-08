@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extension.get_RawData
-title: IX509Extension::get_RawData method
+title: IX509Extension::get_RawData
 author: windows-driver-content
 description: Retrieves a byte array that contains the extension value.
 old-location: security\ix509extension_rawdata_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 779ad765-e767-4594-afdb-49fe79a8e64b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509Extension, IX509Extension interface [Security], RawData property, IX509Extension.RawData, IX509Extension::get_RawData, RawData property [Security], RawData property [Security], IX509Extension interface, certenroll/IX509Extension::RawData, certenroll/IX509Extension::get_RawData, get_RawData,IX509Extension.get_RawData, security.ix509extension_rawdata_property
+ms.keywords: IX509Extension interface [Security],RawData property, IX509Extension.RawData, IX509Extension.get_RawData, IX509Extension::RawData, IX509Extension::get_RawData, RawData property [Security], RawData property [Security],IX509Extension interface, certenroll/IX509Extension::RawData, certenroll/IX509Extension::get_RawData, get_RawData, security.ix509extension_rawdata_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509Extension::get_RawData method
+# IX509Extension::get_RawData
 
 
 ## -description

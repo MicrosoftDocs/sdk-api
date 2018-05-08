@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_count
-title: IWMPFolderMonitorServices::get_count method
+title: IWMPFolderMonitorServices::get_count
 author: windows-driver-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_count method retrieves the count of monitored folders.
 old-location: wmp\iwmpfoldermonitorservices_get_count.htm
 old-project: WMP
 ms.assetid: cf80820a-d126-4af6-ba5e-c1188c5c00a4
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], get_count method, IWMPFolderMonitorServices::get_count, IWMPFolderMonitorServicesget_count, get_count method [Windows Media Player], get_count method [Windows Media Player], IWMPFolderMonitorServices interface, get_count,IWMPFolderMonitorServices.get_count, wmp.iwmpfoldermonitorservices_get_count, wmp/IWMPFolderMonitorServices::get_count
+ms.date: 5/4/2018
+ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_count method, IWMPFolderMonitorServices.get_count, IWMPFolderMonitorServices::get_count, IWMPFolderMonitorServicesget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_count, wmp/IWMPFolderMonitorServices::get_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPFolderMonitorServices::get_count method
+# IWMPFolderMonitorServices::get_count
 
 
 ## -description

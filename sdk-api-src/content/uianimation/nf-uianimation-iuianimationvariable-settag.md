@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.SetTag
-title: IUIAnimationVariable::SetTag method
+title: IUIAnimationVariable::SetTag
 author: windows-driver-content
 description: Sets the tag for an animation variable.
 old-location: uianimation\iuianimationvariable_settag.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 176b0047-cac8-474b-9126-fdab4bc41537
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], SetTag method, IUIAnimationVariable::SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation], IUIAnimationVariable interface, SetTag,IUIAnimationVariable.SetTag, uianimation.iuianimationvariable_settag, uianimation/IUIAnimationVariable::SetTag
+ms.keywords: IUIAnimationVariable interface [Windows Animation],SetTag method, IUIAnimationVariable.SetTag, IUIAnimationVariable::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_settag, uianimation/IUIAnimationVariable::SetTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable::SetTag method
+# IUIAnimationVariable::SetTag
 
 
 ## -description

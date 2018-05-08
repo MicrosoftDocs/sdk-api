@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_RequestedWriteSpeed
-title: IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed method
+title: IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed
 author: windows-driver-content
 description: Retrieves the requested write speed.
 old-location: imapi\idiscformat2trackatonce_get_requestedwritespeed.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 8fe83f25-9d7d-472d-9b84-90e00c0b5a51
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], get_RequestedWriteSpeed method, IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed, get_RequestedWriteSpeed method [IMAPI], get_RequestedWriteSpeed method [IMAPI], IDiscFormat2TrackAtOnce interface, get_RequestedWriteSpeed,IDiscFormat2TrackAtOnce.get_RequestedWriteSpeed, imapi.idiscformat2trackatonce_get_requestedwritespeed, imapi2/IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed
+ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_RequestedWriteSpeed method, IDiscFormat2TrackAtOnce.get_RequestedWriteSpeed, IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed, get_RequestedWriteSpeed, get_RequestedWriteSpeed method [IMAPI], get_RequestedWriteSpeed method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_requestedwritespeed, imapi2/IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed method
+# IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed
 
 
 ## -description

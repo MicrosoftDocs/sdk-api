@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.put_ContainerNameWStr
-title: IEnroll::put_ContainerNameWStr method
+title: IEnroll::put_ContainerNameWStr
 author: windows-driver-content
 description: Sets or retrieves the name of the key container to use.
 old-location: security\ienroll4_containernamewstr.htm
 old-project: SecCrypto
 ms.assetid: 6740378a-342b-4520-89c7-32d44e23cfca
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ContainerNameWStr property [Security], ContainerNameWStr property [Security], IEnroll interface, IEnroll, IEnroll interface [Security], ContainerNameWStr property, IEnroll.ContainerNameWStr, IEnroll::get_ContainerNameWStr, IEnroll::put_ContainerNameWStr, put_ContainerNameWStr,IEnroll.put_ContainerNameWStr, security.ienroll4_containernamewstr, xenroll/IEnroll::ContainerNameWStr, xenroll/IEnroll::get_ContainerNameWStr, xenroll/IEnroll::put_ContainerNameWStr
+ms.date: 4/30/2018
+ms.keywords: ContainerNameWStr property [Security], ContainerNameWStr property [Security],IEnroll interface, IEnroll interface [Security],ContainerNameWStr property, IEnroll.ContainerNameWStr, IEnroll.put_ContainerNameWStr, IEnroll::ContainerNameWStr, IEnroll::get_ContainerNameWStr, IEnroll::put_ContainerNameWStr, put_ContainerNameWStr, security.ienroll4_containernamewstr, xenroll/IEnroll::ContainerNameWStr, xenroll/IEnroll::get_ContainerNameWStr, xenroll/IEnroll::put_ContainerNameWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::put_ContainerNameWStr method
+# IEnroll::put_ContainerNameWStr
 
 
 ## -description

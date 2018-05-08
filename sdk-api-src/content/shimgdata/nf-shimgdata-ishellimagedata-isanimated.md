@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsAnimated
-title: IShellImageData::IsAnimated method
+title: IShellImageData::IsAnimated
 author: windows-driver-content
 description: Determines whether the image is animated.
 old-location: shell\IShellImageData_IsAnimated.htm
 old-project: shell
 ms.assetid: b5b36862-5beb-4702-a5b3-feb70dc5e1ef
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IsAnimated method, IShellImageData::IsAnimated, IsAnimated method [Windows Shell], IsAnimated method [Windows Shell], IShellImageData interface, IsAnimated,IShellImageData.IsAnimated, _shell_IShellImageData_IsAnimated, shell.IShellImageData_IsAnimated, shimgdata/IShellImageData::IsAnimated
+ms.date: 5/3/2018
+ms.keywords: IShellImageData interface [Windows Shell],IsAnimated method, IShellImageData.IsAnimated, IShellImageData::IsAnimated, IsAnimated, IsAnimated method [Windows Shell], IsAnimated method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsAnimated, shell.IShellImageData_IsAnimated, shimgdata/IShellImageData::IsAnimated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::IsAnimated method
+# IShellImageData::IsAnimated
 
 
 ## -description

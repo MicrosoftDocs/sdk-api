@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.SetLongestAcceptableDelay
-title: IUIAnimationStoryboard2::SetLongestAcceptableDelay method
+title: IUIAnimationStoryboard2::SetLongestAcceptableDelay
 author: windows-driver-content
 description: Sets the longest acceptable delay before the scheduled storyboard begins.
 old-location: uianimation\iuianimationstoryboard2_setlongestacceptabledelay.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: D23F4833-413C-470B-8572-2DCB051576A3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationStoryboard2, IUIAnimationStoryboard2 interface [Windows Animation], SetLongestAcceptableDelay method, IUIAnimationStoryboard2::SetLongestAcceptableDelay, SetLongestAcceptableDelay method [Windows Animation], SetLongestAcceptableDelay method [Windows Animation], IUIAnimationStoryboard2 interface, SetLongestAcceptableDelay,IUIAnimationStoryboard2.SetLongestAcceptableDelay, uianimation.iuianimationstoryboard2_setlongestacceptabledelay, uianimation/IUIAnimationStoryboard2::SetLongestAcceptableDelay
+ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetLongestAcceptableDelay method, IUIAnimationStoryboard2.SetLongestAcceptableDelay, IUIAnimationStoryboard2::SetLongestAcceptableDelay, SetLongestAcceptableDelay, SetLongestAcceptableDelay method [Windows Animation], SetLongestAcceptableDelay method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_setlongestacceptabledelay, uianimation/IUIAnimationStoryboard2::SetLongestAcceptableDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard2::SetLongestAcceptableDelay method
+# IUIAnimationStoryboard2::SetLongestAcceptableDelay
 
 
 ## -description

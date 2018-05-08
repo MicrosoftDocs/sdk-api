@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetPage
-title: IXpsOMPageReference::GetPage method
+title: IXpsOMPageReference::GetPage
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMPage interface that contains the page.
 old-location: xps\ixpsompagereference_getpage.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0004217f-f379-4175-bbce-eea93d96f37f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetPage method [XPS Documents and Packaging], GetPage method [XPS Documents and Packaging], IXpsOMPageReference interface, GetPage,IXpsOMPageReference.GetPage, IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], GetPage method, IXpsOMPageReference::GetPage, xps.ixpsompagereference_getpage, xpsobjectmodel/IXpsOMPageReference::GetPage
+ms.keywords: GetPage, GetPage method [XPS Documents and Packaging], GetPage method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetPage method, IXpsOMPageReference.GetPage, IXpsOMPageReference::GetPage, xps.ixpsompagereference_getpage, xpsobjectmodel/IXpsOMPageReference::GetPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReference::GetPage method
+# IXpsOMPageReference::GetPage
 
 
 ## -description

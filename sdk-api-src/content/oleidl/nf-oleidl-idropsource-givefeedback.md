@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IDropSource.GiveFeedback
-title: IDropSource::GiveFeedback method
+title: IDropSource::GiveFeedback
 author: windows-driver-content
 description: Enables a source application to give visual feedback to the end user during a drag-and-drop operation by providing the DoDragDrop function with an enumeration value specifying the visual effect.
 old-location: com\idropsource_givefeedback.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: dde37299-ad7c-4f59-af99-e75b72ad9188
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GiveFeedback method [COM], GiveFeedback method [COM], IDropSource interface, GiveFeedback,IDropSource.GiveFeedback, IDropSource, IDropSource interface [COM], GiveFeedback method, IDropSource::GiveFeedback, _ole_idropsource_givefeedback, com.idropsource_givefeedback, oleidl/IDropSource::GiveFeedback
+ms.keywords: GiveFeedback, GiveFeedback method [COM], GiveFeedback method [COM],IDropSource interface, IDropSource interface [COM],GiveFeedback method, IDropSource.GiveFeedback, IDropSource::GiveFeedback, _ole_idropsource_givefeedback, com.idropsource_givefeedback, oleidl/IDropSource::GiveFeedback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDropSource::GiveFeedback method
+# IDropSource::GiveFeedback
 
 
 ## -description

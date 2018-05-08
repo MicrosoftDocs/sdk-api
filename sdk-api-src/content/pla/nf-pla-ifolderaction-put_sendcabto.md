@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderAction.put_SendCabTo
-title: IFolderAction::put_SendCabTo method
+title: IFolderAction::put_SendCabTo
 author: windows-driver-content
 description: Retrieves or sets the destination of the cabinet file if the action is to send a cabinet file.
 old-location: pla\ifolderaction_sendcabto.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: a6398d07-f15d-401b-a3b6-21b2506ad270
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFolderAction, IFolderAction interface [PLA], SendCabTo property, IFolderAction.SendCabTo, IFolderAction::get_SendCabTo, IFolderAction::put_SendCabTo, SendCabTo property [PLA], SendCabTo property [PLA], IFolderAction interface, base.ifolderaction_sendcabto, pla.ifolderaction_sendcabto, pla/IFolderAction::SendCabTo, pla/IFolderAction::get_SendCabTo, pla/IFolderAction::put_SendCabTo, put_SendCabTo,IFolderAction.put_SendCabTo
+ms.keywords: IFolderAction interface [PLA],SendCabTo property, IFolderAction.SendCabTo, IFolderAction.put_SendCabTo, IFolderAction::SendCabTo, IFolderAction::get_SendCabTo, IFolderAction::put_SendCabTo, SendCabTo property [PLA], SendCabTo property [PLA],IFolderAction interface, base.ifolderaction_sendcabto, pla.ifolderaction_sendcabto, pla/IFolderAction::SendCabTo, pla/IFolderAction::get_SendCabTo, pla/IFolderAction::put_SendCabTo, put_SendCabTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFolderAction::put_SendCabTo method
+# IFolderAction::put_SendCabTo
 
 
 ## -description

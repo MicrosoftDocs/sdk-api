@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgent.put_State
-title: ITAgent::put_State method
+title: ITAgent::put_State
 author: windows-driver-content
 description: The put_State method sets the state of an agent session.
 old-location: tapi3\itagent_put_state.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 0f75146c-d8ce-4e9d-91bf-15dbb31b5c88
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], put_State method, ITAgent::put_State, _tapi3_itagent_put_state, put_State method [TAPI 2.2], put_State method [TAPI 2.2], ITAgent interface, put_State,ITAgent.put_State, tapi3.itagent_put_state, tapi3cc/ITAgent::put_State
+ms.keywords: ITAgent interface [TAPI 2.2],put_State method, ITAgent.put_State, ITAgent::put_State, _tapi3_itagent_put_state, put_State, put_State method [TAPI 2.2], put_State method [TAPI 2.2],ITAgent interface, tapi3.itagent_put_state, tapi3cc/ITAgent::put_State
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgent::put_State method
+# ITAgent::put_State
 
 
 ## -description

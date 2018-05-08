@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRoot32BitConstant
-title: ID3D12GraphicsCommandList::SetComputeRoot32BitConstant method
+title: ID3D12GraphicsCommandList::SetComputeRoot32BitConstant
 author: windows-driver-content
 description: Sets a constant in the compute root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setcomputeroot32bitconstant.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: A250052F-A24A-4234-8A39-0995A00B6E01
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, SetComputeRoot32BitConstant method, ID3D12GraphicsCommandList::SetComputeRoot32BitConstant, SetComputeRoot32BitConstant method, SetComputeRoot32BitConstant method, ID3D12GraphicsCommandList interface, SetComputeRoot32BitConstant,ID3D12GraphicsCommandList.SetComputeRoot32BitConstant, d3d12/ID3D12GraphicsCommandList::SetComputeRoot32BitConstant, direct3d12.id3d12graphicscommandlist_setcomputeroot32bitconstant
+ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRoot32BitConstant method, ID3D12GraphicsCommandList.SetComputeRoot32BitConstant, ID3D12GraphicsCommandList::SetComputeRoot32BitConstant, SetComputeRoot32BitConstant, SetComputeRoot32BitConstant method, SetComputeRoot32BitConstant method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRoot32BitConstant, direct3d12.id3d12graphicscommandlist_setcomputeroot32bitconstant
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::SetComputeRoot32BitConstant method
+# ID3D12GraphicsCommandList::SetComputeRoot32BitConstant
 
 
 ## -description

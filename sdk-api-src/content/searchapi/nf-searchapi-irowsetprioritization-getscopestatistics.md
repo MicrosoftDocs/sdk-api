@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IRowsetPrioritization.GetScopeStatistics
-title: IRowsetPrioritization::GetScopeStatistics method
+title: IRowsetPrioritization::GetScopeStatistics
 author: windows-driver-content
 description: Gets information describing the scope specified by this query.
 old-location: search\_search_IRowsetPrioritization_GetScopeStatistics.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\getscopestatistics.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetScopeStatistics method [search], GetScopeStatistics method [search], IRowsetPrioritization interface, GetScopeStatistics,IRowsetPrioritization.GetScopeStatistics, IRowsetPrioritization, IRowsetPrioritization interface [search], GetScopeStatistics method, IRowsetPrioritization::GetScopeStatistics, _search_IRowsetPrioritization_GetScopeStatistics, search._search_IRowsetPrioritization_GetScopeStatistics, searchapi/IRowsetPrioritization::GetScopeStatistics
+ms.date: 5/4/2018
+ms.keywords: GetScopeStatistics, GetScopeStatistics method [search], GetScopeStatistics method [search],IRowsetPrioritization interface, IRowsetPrioritization interface [search],GetScopeStatistics method, IRowsetPrioritization.GetScopeStatistics, IRowsetPrioritization::GetScopeStatistics, _search_IRowsetPrioritization_GetScopeStatistics, search._search_IRowsetPrioritization_GetScopeStatistics, searchapi/IRowsetPrioritization::GetScopeStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRowsetPrioritization::GetScopeStatistics method
+# IRowsetPrioritization::GetScopeStatistics
 
 
 ## -description

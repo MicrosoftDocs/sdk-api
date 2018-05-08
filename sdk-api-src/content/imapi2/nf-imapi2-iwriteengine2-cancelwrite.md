@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.CancelWrite
-title: IWriteEngine2::CancelWrite method
+title: IWriteEngine2::CancelWrite
 author: windows-driver-content
 description: Cancels a write operation that is in progress.
 old-location: imapi\iwriteengine2_cancelwrite.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: cd658bd3-71ab-4e63-adec-8b7405a76c12
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CancelWrite method [IMAPI], CancelWrite method [IMAPI], IWriteEngine2 interface, CancelWrite,IWriteEngine2.CancelWrite, IWriteEngine2, IWriteEngine2 interface [IMAPI], CancelWrite method, IWriteEngine2::CancelWrite, imapi.iwriteengine2_cancelwrite, imapi2/IWriteEngine2::CancelWrite
+ms.keywords: CancelWrite, CancelWrite method [IMAPI], CancelWrite method [IMAPI],IWriteEngine2 interface, IWriteEngine2 interface [IMAPI],CancelWrite method, IWriteEngine2.CancelWrite, IWriteEngine2::CancelWrite, imapi.iwriteengine2_cancelwrite, imapi2/IWriteEngine2::CancelWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWriteEngine2::CancelWrite method
+# IWriteEngine2::CancelWrite
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsLocallyModifiedAttributes
-title: IOfflineFilesChangeInfo::IsLocallyModifiedAttributes method
+title: IOfflineFilesChangeInfo::IsLocallyModifiedAttributes
 author: windows-driver-content
 description: Determines whether one or more of an item's attributes were modified while working offline.
 old-location: of\iofflinefileschangeinfo_islocallymodifiedattributes.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: c45a04cd-a1cf-4239-9a77-07b6b67121e8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesChangeInfo, IOfflineFilesChangeInfo interface [Offline Files], IsLocallyModifiedAttributes method, IOfflineFilesChangeInfo::IsLocallyModifiedAttributes, IsLocallyModifiedAttributes method [Offline Files], IsLocallyModifiedAttributes method [Offline Files], IOfflineFilesChangeInfo interface, IsLocallyModifiedAttributes,IOfflineFilesChangeInfo.IsLocallyModifiedAttributes, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedAttributes, of.iofflinefileschangeinfo_islocallymodifiedattributes
+ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsLocallyModifiedAttributes method, IOfflineFilesChangeInfo.IsLocallyModifiedAttributes, IOfflineFilesChangeInfo::IsLocallyModifiedAttributes, IsLocallyModifiedAttributes, IsLocallyModifiedAttributes method [Offline Files], IsLocallyModifiedAttributes method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedAttributes, of.iofflinefileschangeinfo_islocallymodifiedattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesChangeInfo::IsLocallyModifiedAttributes method
+# IOfflineFilesChangeInfo::IsLocallyModifiedAttributes
 
 
 ## -description

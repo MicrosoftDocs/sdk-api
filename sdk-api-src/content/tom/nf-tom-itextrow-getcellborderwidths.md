@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.GetCellBorderWidths
-title: ITextRow::GetCellBorderWidths method
+title: ITextRow::GetCellBorderWidths
 author: windows-driver-content
 description: Gets the border widths of the active cell.
 old-location: controls\itextrow_getcellborderwidths.htm
 old-project: Controls
 ms.assetid: e0ab26ca-ffb6-4f75-846b-e267e4ad6572
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetCellBorderWidths method [Windows Controls], GetCellBorderWidths method [Windows Controls], ITextRow interface, GetCellBorderWidths,ITextRow.GetCellBorderWidths, ITextRow, ITextRow interface [Windows Controls], GetCellBorderWidths method, ITextRow::GetCellBorderWidths, controls.itextrow_getcellborderwidths, tom/ITextRow::GetCellBorderWidths
+ms.date: 4/27/2018
+ms.keywords: GetCellBorderWidths, GetCellBorderWidths method [Windows Controls], GetCellBorderWidths method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellBorderWidths method, ITextRow.GetCellBorderWidths, ITextRow::GetCellBorderWidths, controls.itextrow_getcellborderwidths, tom/ITextRow::GetCellBorderWidths
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::GetCellBorderWidths method
+# ITextRow::GetCellBorderWidths
 
 
 ## -description

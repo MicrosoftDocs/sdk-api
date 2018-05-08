@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationPropertyCondition.get_PropertyId
-title: IUIAutomationPropertyCondition::get_PropertyId method
+title: IUIAutomationPropertyCondition::get_PropertyId
 author: windows-driver-content
 description: Retrieves the identifier of the property on which this condition is based.
 old-location: winauto\uiauto_IUIAutomationPropertyCondition_PropertyId.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 931dcc5c-9b43-4413-b389-875763672432
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationPropertyCondition, IUIAutomationPropertyCondition interface [Windows Accessibility], PropertyId property, IUIAutomationPropertyCondition.PropertyId, IUIAutomationPropertyCondition::get_PropertyId, PropertyId property [Windows Accessibility], PropertyId property [Windows Accessibility], IUIAutomationPropertyCondition interface, get_PropertyId,IUIAutomationPropertyCondition.get_PropertyId, uiauto.uiauto_IUIAutomationPropertyCondition_PropertyId, uiauto_IUIAutomationPropertyCondition_PropertyId, uiautomationclient/IUIAutomationPropertyCondition::PropertyId, uiautomationclient/IUIAutomationPropertyCondition::get_PropertyId, winauto.uiauto_IUIAutomationPropertyCondition_PropertyId
+ms.keywords: IUIAutomationPropertyCondition interface [Windows Accessibility],PropertyId property, IUIAutomationPropertyCondition.PropertyId, IUIAutomationPropertyCondition.get_PropertyId, IUIAutomationPropertyCondition::PropertyId, IUIAutomationPropertyCondition::get_PropertyId, PropertyId property [Windows Accessibility], PropertyId property [Windows Accessibility],IUIAutomationPropertyCondition interface, get_PropertyId, uiauto.uiauto_IUIAutomationPropertyCondition_PropertyId, uiauto_IUIAutomationPropertyCondition_PropertyId, uiautomationclient/IUIAutomationPropertyCondition::PropertyId, uiautomationclient/IUIAutomationPropertyCondition::get_PropertyId, winauto.uiauto_IUIAutomationPropertyCondition_PropertyId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationPropertyCondition::get_PropertyId method
+# IUIAutomationPropertyCondition::get_PropertyId
 
 
 ## -description

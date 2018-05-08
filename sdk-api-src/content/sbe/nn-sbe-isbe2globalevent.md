@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 18bb9f8a-df97-468c-acb2-be7fa61a4789
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ISBE2GlobalEvent, ISBE2GlobalEvent interface [Microsoft TV Technologies], ISBE2GlobalEvent interface [Microsoft TV Technologies], described, mstv.isbe2globalevent, sbe/ISBE2GlobalEvent
+ms.keywords: ISBE2GlobalEvent, ISBE2GlobalEvent interface [Microsoft TV Technologies], ISBE2GlobalEvent interface [Microsoft TV Technologies],described, mstv.isbe2globalevent, sbe/ISBE2GlobalEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

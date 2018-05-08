@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTVAudio.get_TVAudioMode
-title: IAMTVAudio::get_TVAudioMode method
+title: IAMTVAudio::get_TVAudioMode
 author: windows-driver-content
 description: The get_TVAudioMode method retrieves the current TV audio mode.
 old-location: dshow\iamtvaudio_get_tvaudiomode.htm
 old-project: DirectShow
 ms.assetid: fa2e71f3-3aa0-4260-925d-579006459a09
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTVAudio, IAMTVAudio interface [DirectShow], get_TVAudioMode method, IAMTVAudio::get_TVAudioMode, IAMTVAudioget_TVAudioMode, dshow.iamtvaudio_get_tvaudiomode, get_TVAudioMode method [DirectShow], get_TVAudioMode method [DirectShow], IAMTVAudio interface, get_TVAudioMode,IAMTVAudio.get_TVAudioMode, strmif/IAMTVAudio::get_TVAudioMode
+ms.date: 4/30/2018
+ms.keywords: IAMTVAudio interface [DirectShow],get_TVAudioMode method, IAMTVAudio.get_TVAudioMode, IAMTVAudio::get_TVAudioMode, IAMTVAudioget_TVAudioMode, dshow.iamtvaudio_get_tvaudiomode, get_TVAudioMode, get_TVAudioMode method [DirectShow], get_TVAudioMode method [DirectShow],IAMTVAudio interface, strmif/IAMTVAudio::get_TVAudioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTVAudio::get_TVAudioMode method
+# IAMTVAudio::get_TVAudioMode
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 631FBF5E-1DDF-49A9-8E1E-201BC6996EA5
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IPrintDocumentPackageTargetFactory, IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging], IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging], described, documenttarget/IPrintDocumentPackageTargetFactory, xps.iprintdocumentpackagetargetfactory
+ms.keywords: IPrintDocumentPackageTargetFactory, IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging], IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageTargetFactory, xps.iprintdocumentpackagetargetfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

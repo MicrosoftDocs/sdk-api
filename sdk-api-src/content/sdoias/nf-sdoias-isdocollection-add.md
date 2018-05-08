@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoCollection.Add
-title: ISdoCollection::Add method
+title: ISdoCollection::Add
 author: windows-driver-content
 description: The Add method adds an item to the Server Data Objects (SDO) collection.
 old-location: nps\SDO_isdocollection_add.htm
@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: a575b224-9827-47f3-a819-bd793200c901
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Add method [Network Policy Server], Add method [Network Policy Server], ISdoCollection interface, Add,ISdoCollection.Add, ISdoCollection, ISdoCollection interface [Network Policy Server], Add method, ISdoCollection::Add, _sdo_isdocollection_add, nps.SDO_isdocollection_add, sdo.isdocollection_add, sdoias/ISdoCollection::Add
+ms.keywords: Add, Add method [Network Policy Server], Add method [Network Policy Server],ISdoCollection interface, ISdoCollection interface [Network Policy Server],Add method, ISdoCollection.Add, ISdoCollection::Add, _sdo_isdocollection_add, nps.SDO_isdocollection_add, sdo.isdocollection_add, sdoias/ISdoCollection::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISdoCollection::Add method
+# ISdoCollection::Add
 
 
 ## -description

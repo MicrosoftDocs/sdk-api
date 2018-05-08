@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFTopologyServiceLookupClient.ReleaseServicePointers
-title: IMFTopologyServiceLookupClient::ReleaseServicePointers method
+title: IMFTopologyServiceLookupClient::ReleaseServicePointers
 author: windows-driver-content
 description: Signals the object to release the interface pointers obtained from the enhanced video renderer (EVR).
 old-location: mf\imftopologyservicelookupclient_releaseservicepointers.htm
 old-project: medfound
 ms.assetid: 03ed29b4-89c1-4702-a23f-d013eeef5d44
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 03ed29b4-89c1-4702-a23f-d013eeef5d44, IMFTopologyServiceLookupClient, IMFTopologyServiceLookupClient interface [Media Foundation], ReleaseServicePointers method, IMFTopologyServiceLookupClient::ReleaseServicePointers, ReleaseServicePointers method [Media Foundation], ReleaseServicePointers method [Media Foundation], IMFTopologyServiceLookupClient interface, ReleaseServicePointers,IMFTopologyServiceLookupClient.ReleaseServicePointers, evr/IMFTopologyServiceLookupClient::ReleaseServicePointers, mf.imftopologyservicelookupclient_releaseservicepointers
+ms.date: 5/3/2018
+ms.keywords: 03ed29b4-89c1-4702-a23f-d013eeef5d44, IMFTopologyServiceLookupClient interface [Media Foundation],ReleaseServicePointers method, IMFTopologyServiceLookupClient.ReleaseServicePointers, IMFTopologyServiceLookupClient::ReleaseServicePointers, ReleaseServicePointers, ReleaseServicePointers method [Media Foundation], ReleaseServicePointers method [Media Foundation],IMFTopologyServiceLookupClient interface, evr/IMFTopologyServiceLookupClient::ReleaseServicePointers, mf.imftopologyservicelookupclient_releaseservicepointers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFTopologyServiceLookupClient::ReleaseServicePointers method
+# IMFTopologyServiceLookupClient::ReleaseServicePointers
 
 
 ## -description

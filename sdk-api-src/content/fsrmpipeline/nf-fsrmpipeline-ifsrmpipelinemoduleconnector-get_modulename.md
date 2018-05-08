@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.get_ModuleName
-title: IFsrmPipelineModuleConnector::get_ModuleName method
+title: IFsrmPipelineModuleConnector::get_ModuleName
 author: windows-driver-content
 description: The name of the module.
 old-location: fsrm\ifsrmpipelinemoduleconnector_modulename.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: ef64a255-94da-4d42-af90-1ac9b2c0fbbc
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager], ModuleName property, IFsrmPipelineModuleConnector, IFsrmPipelineModuleConnector interface [File Server Resource Manager], ModuleName property, IFsrmPipelineModuleConnector.ModuleName, IFsrmPipelineModuleConnector::get_ModuleName, ModuleName property [File Server Resource Manager], ModuleName property [File Server Resource Manager], FsrmPipelineModuleConnector class, ModuleName property [File Server Resource Manager], IFsrmPipelineModuleConnector interface, fs.ifsrmpipelinemoduleconnector_modulename, fsrm.ifsrmpipelinemoduleconnector_modulename, fsrmpipeline/IFsrmPipelineModuleConnector::ModuleName, fsrmpipeline/IFsrmPipelineModuleConnector::get_ModuleName, get_ModuleName,IFsrmPipelineModuleConnector.get_ModuleName
+ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],ModuleName property, IFsrmPipelineModuleConnector interface [File Server Resource Manager],ModuleName property, IFsrmPipelineModuleConnector.ModuleName, IFsrmPipelineModuleConnector.get_ModuleName, IFsrmPipelineModuleConnector::ModuleName, IFsrmPipelineModuleConnector::get_ModuleName, ModuleName property [File Server Resource Manager], ModuleName property [File Server Resource Manager],FsrmPipelineModuleConnector class, ModuleName property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, fs.ifsrmpipelinemoduleconnector_modulename, fsrm.ifsrmpipelinemoduleconnector_modulename, fsrmpipeline/IFsrmPipelineModuleConnector::ModuleName, fsrmpipeline/IFsrmPipelineModuleConnector::get_ModuleName, get_ModuleName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPipelineModuleConnector::get_ModuleName method
+# IFsrmPipelineModuleConnector::get_ModuleName
 
 
 ## -description

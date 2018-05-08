@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.Clear
-title: ICertificationAuthorities::Clear method
+title: ICertificationAuthorities::Clear
 author: windows-driver-content
 description: Removes all ICertificationAuthority objects from the collection.
 old-location: security\icertificationauthorities_clear.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 191f5abd-515d-4a84-8031-466c9de977cb
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Clear method [Security], Clear method [Security], ICertificationAuthorities interface, Clear,ICertificationAuthorities.Clear, ICertificationAuthorities, ICertificationAuthorities interface [Security], Clear method, ICertificationAuthorities::Clear, certenroll/ICertificationAuthorities::Clear, security.icertificationauthorities_clear
+ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Clear method, ICertificationAuthorities.Clear, ICertificationAuthorities::Clear, certenroll/ICertificationAuthorities::Clear, security.icertificationauthorities_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICertificationAuthorities::Clear method
+# ICertificationAuthorities::Clear
 
 
 ## -description

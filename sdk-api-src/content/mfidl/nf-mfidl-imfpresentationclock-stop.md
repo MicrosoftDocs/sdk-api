@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.Stop
-title: IMFPresentationClock::Stop method
+title: IMFPresentationClock::Stop
 author: windows-driver-content
 description: Stops the presentation clock. While the clock is stopped, the clock time does not advance, and the clock's IMFPresentationClock::GetTime method returns zero.
 old-location: mf\imfpresentationclock_stop.htm
 old-project: medfound
 ms.assetid: 54377d65-2af7-410d-b8cf-45f467527a45
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 54377d65-2af7-410d-b8cf-45f467527a45, IMFPresentationClock, IMFPresentationClock interface [Media Foundation], Stop method, IMFPresentationClock::Stop, Stop method [Media Foundation], Stop method [Media Foundation], IMFPresentationClock interface, Stop,IMFPresentationClock.Stop, mf.imfpresentationclock_stop, mfidl/IMFPresentationClock::Stop
+ms.date: 5/3/2018
+ms.keywords: 54377d65-2af7-410d-b8cf-45f467527a45, IMFPresentationClock interface [Media Foundation],Stop method, IMFPresentationClock.Stop, IMFPresentationClock::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_stop, mfidl/IMFPresentationClock::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPresentationClock::Stop method
+# IMFPresentationClock::Stop
 
 
 ## -description

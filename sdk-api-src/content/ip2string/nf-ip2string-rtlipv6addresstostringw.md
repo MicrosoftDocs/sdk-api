@@ -7,7 +7,7 @@ old-location: iphlp\rtlipv6addresstostring.htm
 old-project: IpHlp
 ms.assetid: a891adb0-6c2d-4b69-a0de-4a615be938e3
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: RtlIpv6AddressToString, RtlIpv6AddressToString function [IP Helper], RtlIpv6AddressToStringA, RtlIpv6AddressToStringW, ip2string/RtlIpv6AddressToString, ip2string/RtlIpv6AddressToStringA, ip2string/RtlIpv6AddressToStringW, iphlp.rtlipv6addresstostring
 ms.prod: windows-hardware
 ms.technology: windows-devices

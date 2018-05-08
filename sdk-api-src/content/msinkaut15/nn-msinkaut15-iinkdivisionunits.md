@@ -7,8 +7,8 @@ old-location: tablet\iinkdivisionunits.htm
 old-project: tablet
 ms.assetid: efce8756-f42b-4d9a-bfed-4297e7e0fdec
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInkDivisionUnits, IInkDivisionUnits interface [Tablet PC], IInkDivisionUnits interface [Tablet PC], described, efce8756-f42b-4d9a-bfed-4297e7e0fdec, msinkaut15/IInkDivisionUnits, tablet.iinkdivisionunits
+ms.date: 5/2/2018
+ms.keywords: IInkDivisionUnits, IInkDivisionUnits interface [Tablet PC], IInkDivisionUnits interface [Tablet PC],described, efce8756-f42b-4d9a-bfed-4297e7e0fdec, msinkaut15/IInkDivisionUnits, tablet.iinkdivisionunits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

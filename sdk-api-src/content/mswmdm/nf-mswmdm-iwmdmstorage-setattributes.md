@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.SetAttributes
-title: IWMDMStorage::SetAttributes method
+title: IWMDMStorage::SetAttributes
 author: windows-driver-content
 description: The SetAttributes method sets the attributes of the storage.
 old-location: wmdm\iwmdmstorage_setattributes.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 7484e29a-5faf-4a11-9fc1-75aa5c9d72ef
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMStorage, IWMDMStorage interface [windows Media Device Manager], SetAttributes method, IWMDMStorage::SetAttributes, IWMDMStorageSetAttributes, SetAttributes method [windows Media Device Manager], SetAttributes method [windows Media Device Manager], IWMDMStorage interface, SetAttributes,IWMDMStorage.SetAttributes, mswmdm/IWMDMStorage::SetAttributes, wmdm.iwmdmstorage_setattributes
+ms.keywords: IWMDMStorage interface [windows Media Device Manager],SetAttributes method, IWMDMStorage.SetAttributes, IWMDMStorage::SetAttributes, IWMDMStorageSetAttributes, SetAttributes, SetAttributes method [windows Media Device Manager], SetAttributes method [windows Media Device Manager],IWMDMStorage interface, mswmdm/IWMDMStorage::SetAttributes, wmdm.iwmdmstorage_setattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMStorage::SetAttributes method
+# IWMDMStorage::SetAttributes
 
 
 ## -description

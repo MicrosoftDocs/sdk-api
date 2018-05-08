@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.ResolveResource
-title: ItsPubPlugin::ResolveResource method
+title: ItsPubPlugin::ResolveResource
 author: windows-driver-content
 description: Provides information about how to connect to a user's assigned personal virtual desktop.
 old-location: termserv\itspubplugin_resolveresource.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 035b9d13-b64e-4e1c-8623-b4456f36c4ee
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ItsPubPlugin, ItsPubPlugin interface [Remote Desktop Services], ResolveResource method, ItsPubPlugin::ResolveResource, ResolveResource method [Remote Desktop Services], ResolveResource method [Remote Desktop Services], ItsPubPlugin interface, ResolveResource,ItsPubPlugin.ResolveResource, termserv.itspubplugin_resolveresource, tspubplugincom/ItsPubPlugin::ResolveResource
+ms.keywords: ItsPubPlugin interface [Remote Desktop Services],ResolveResource method, ItsPubPlugin.ResolveResource, ItsPubPlugin::ResolveResource, ResolveResource, ResolveResource method [Remote Desktop Services], ResolveResource method [Remote Desktop Services],ItsPubPlugin interface, termserv.itspubplugin_resolveresource, tspubplugincom/ItsPubPlugin::ResolveResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ItsPubPlugin::ResolveResource method
+# ItsPubPlugin::ResolveResource
 
 
 ## -description

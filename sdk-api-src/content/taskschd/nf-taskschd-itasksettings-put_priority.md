@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_Priority
-title: ITaskSettings::put_Priority method
+title: ITaskSettings::put_Priority
 author: windows-driver-content
 description: Gets or sets the priority level of the task.
 old-location: taskschd\itasksettings_priority.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: ce6ad1bc-0d19-4a5d-b29f-8df8400f8819
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskSettings, ITaskSettings interface [Task Scheduler], Priority property, ITaskSettings.Priority, ITaskSettings::get_Priority, ITaskSettings::put_Priority, Priority property [Task Scheduler], Priority property [Task Scheduler], ITaskSettings interface, put_Priority,ITaskSettings.put_Priority, taskschd.itasksettings_priority, taskschd/ITaskSettings::Priority, taskschd/ITaskSettings::get_Priority, taskschd/ITaskSettings::put_Priority
+ms.keywords: ITaskSettings interface [Task Scheduler],Priority property, ITaskSettings.Priority, ITaskSettings.put_Priority, ITaskSettings::Priority, ITaskSettings::get_Priority, ITaskSettings::put_Priority, Priority property [Task Scheduler], Priority property [Task Scheduler],ITaskSettings interface, put_Priority, taskschd.itasksettings_priority, taskschd/ITaskSettings::Priority, taskschd/ITaskSettings::get_Priority, taskschd/ITaskSettings::put_Priority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskSettings::put_Priority method
+# ITaskSettings::put_Priority
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetoptioninfov5.htm
 old-project: DHCP
 ms.assetid: bf7b744d-da02-4c2f-b29a-e2b9b3fe3881
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionInfoV5, DhcpGetOptionInfoV5 function [DHCP], dhcp.dhcpgetoptioninfov5, dhcpsapi/DhcpGetOptionInfoV5
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPointerInactive.GetActivationPolicy
-title: IPointerInactive::GetActivationPolicy method
+title: IPointerInactive::GetActivationPolicy
 author: windows-driver-content
 description: Retrieves the current activation policy for the object. This method is called by the container on receipt of a WM_SETCURSOR or WM_MOUSEMOVE message when an inactive object is under the mouse pointer.
 old-location: com\ipointerinactive_getactivationpolicy.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bbdea7e1-620f-4b2b-8ac9-77061b8cfc1a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetActivationPolicy method [COM], GetActivationPolicy method [COM], IPointerInactive interface, GetActivationPolicy,IPointerInactive.GetActivationPolicy, IPointerInactive, IPointerInactive interface [COM], GetActivationPolicy method, IPointerInactive::GetActivationPolicy, _ctrl_ipointerinactive_getactivationpolicy, com.ipointerinactive_getactivationpolicy, ocidl/IPointerInactive::GetActivationPolicy
+ms.keywords: GetActivationPolicy, GetActivationPolicy method [COM], GetActivationPolicy method [COM],IPointerInactive interface, IPointerInactive interface [COM],GetActivationPolicy method, IPointerInactive.GetActivationPolicy, IPointerInactive::GetActivationPolicy, _ctrl_ipointerinactive_getactivationpolicy, com.ipointerinactive_getactivationpolicy, ocidl/IPointerInactive::GetActivationPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPointerInactive::GetActivationPolicy method
+# IPointerInactive::GetActivationPolicy
 
 
 ## -description

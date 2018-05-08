@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorItemInfo.GetFileTimes
-title: IOfflineFilesSyncErrorItemInfo::GetFileTimes method
+title: IOfflineFilesSyncErrorItemInfo::GetFileTimes
 author: windows-driver-content
 description: Retrieves the last-write and change times for the item.
 old-location: of\iofflinefilessyncerroriteminfo_getfiletimes.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: dec0ce0c-ef24-482f-9890-19864d9ff652
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetFileTimes method [Offline Files], GetFileTimes method [Offline Files], IOfflineFilesSyncErrorItemInfo interface, GetFileTimes,IOfflineFilesSyncErrorItemInfo.GetFileTimes, IOfflineFilesSyncErrorItemInfo, IOfflineFilesSyncErrorItemInfo interface [Offline Files], GetFileTimes method, IOfflineFilesSyncErrorItemInfo::GetFileTimes, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileTimes, of.iofflinefilessyncerroriteminfo_getfiletimes
+ms.keywords: GetFileTimes, GetFileTimes method [Offline Files], GetFileTimes method [Offline Files],IOfflineFilesSyncErrorItemInfo interface, IOfflineFilesSyncErrorItemInfo interface [Offline Files],GetFileTimes method, IOfflineFilesSyncErrorItemInfo.GetFileTimes, IOfflineFilesSyncErrorItemInfo::GetFileTimes, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileTimes, of.iofflinefilessyncerroriteminfo_getfiletimes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSyncErrorItemInfo::GetFileTimes method
+# IOfflineFilesSyncErrorItemInfo::GetFileTimes
 
 
 ## -description

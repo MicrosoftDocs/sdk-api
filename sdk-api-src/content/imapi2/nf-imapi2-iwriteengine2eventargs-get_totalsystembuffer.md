@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_TotalSystemBuffer
-title: IWriteEngine2EventArgs::get_TotalSystemBuffer method
+title: IWriteEngine2EventArgs::get_TotalSystemBuffer
 author: windows-driver-content
 description: Retrieves the size of the internal data buffer that is used for writing to disc.
 old-location: imapi\iwriteengine2eventargs_get_totalsystembuffer.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: dfdf4116-0402-4c90-8b9b-0758fd0bb973
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IWriteEngine2EventArgs, IWriteEngine2EventArgs interface [IMAPI], get_TotalSystemBuffer method, IWriteEngine2EventArgs::get_TotalSystemBuffer, get_TotalSystemBuffer method [IMAPI], get_TotalSystemBuffer method [IMAPI], IWriteEngine2EventArgs interface, get_TotalSystemBuffer,IWriteEngine2EventArgs.get_TotalSystemBuffer, imapi.iwriteengine2eventargs_get_totalsystembuffer, imapi2/IWriteEngine2EventArgs::get_TotalSystemBuffer
+ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_TotalSystemBuffer method, IWriteEngine2EventArgs.get_TotalSystemBuffer, IWriteEngine2EventArgs::get_TotalSystemBuffer, get_TotalSystemBuffer, get_TotalSystemBuffer method [IMAPI], get_TotalSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_totalsystembuffer, imapi2/IWriteEngine2EventArgs::get_TotalSystemBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWriteEngine2EventArgs::get_TotalSystemBuffer method
+# IWriteEngine2EventArgs::get_TotalSystemBuffer
 
 
 ## -description

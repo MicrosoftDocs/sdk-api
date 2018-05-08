@@ -7,7 +7,7 @@ old-location: dshow\am_dvd_renderstatus.htm
 old-project: DirectShow
 ms.assetid: 6d11332e-86db-4649-af77-2906c6cbba7a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: AM_DVD_RENDERSTATUS, AM_DVD_RENDERSTATUS structure [DirectShow], AM_DVD_RENDERSTATUSStructure, __MIDL___MIDL_itf_strmif_0000_0138_0001, dshow.am_dvd_renderstatus, strmif/AM_DVD_RENDERSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices

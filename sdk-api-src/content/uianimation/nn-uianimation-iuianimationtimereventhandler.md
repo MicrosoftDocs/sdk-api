@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 7d5c459e-e1f2-470b-8568-e6847acba63a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationTimerEventHandler, IUIAnimationTimerEventHandler interface [Windows Animation], IUIAnimationTimerEventHandler interface [Windows Animation], described, uianimation.iuianimationtimereventhandler, uianimation/IUIAnimationTimerEventHandler
+ms.keywords: IUIAnimationTimerEventHandler, IUIAnimationTimerEventHandler interface [Windows Animation], IUIAnimationTimerEventHandler interface [Windows Animation],described, uianimation.iuianimationtimereventhandler, uianimation/IUIAnimationTimerEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:vbinterf.IGetVBAObject.GetObject
-title: IGetVBAObject::GetObject method
+title: IGetVBAObject::GetObject
 author: windows-driver-content
 description: Gets a pointer to an interface on the VBA object.
 old-location: com\igetvbaobject_getobject.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 0701c4e7-9a35-42fe-893c-ca898b3716ea
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetObject method [COM], GetObject method [COM], IGetVBAObject interface, GetObject,IGetVBAObject.GetObject, IGetVBAObject, IGetVBAObject interface [COM], GetObject method, IGetVBAObject::GetObject, _com_IGetVBAObject_GetObject, com.igetvbaobject_getobject, vbinterf/IGetVBAObject::GetObject
+ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IGetVBAObject interface, IGetVBAObject interface [COM],GetObject method, IGetVBAObject.GetObject, IGetVBAObject::GetObject, _com_IGetVBAObject_GetObject, com.igetvbaobject_getobject, vbinterf/IGetVBAObject::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IGetVBAObject::GetObject method
+# IGetVBAObject::GetObject
 
 
 ## -description

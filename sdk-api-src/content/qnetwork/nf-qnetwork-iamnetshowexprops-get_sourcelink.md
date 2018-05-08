@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_SourceLink
-title: IAMNetShowExProps::get_SourceLink method
+title: IAMNetShowExProps::get_SourceLink
 author: windows-driver-content
 description: The get_SourceLink method retrieves the source link.
 old-location: dshow\iamnetshowexprops_get_sourcelink.htm
 old-project: DirectShow
 ms.assetid: a5d79169-ae1b-4532-b367-ec2d24fae0b1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], get_SourceLink method, IAMNetShowExProps::get_SourceLink, IAMNetShowExPropsget_SourceLink, dshow.iamnetshowexprops_get_sourcelink, get_SourceLink method [DirectShow], get_SourceLink method [DirectShow], IAMNetShowExProps interface, get_SourceLink,IAMNetShowExProps.get_SourceLink, qnetwork/IAMNetShowExProps::get_SourceLink
+ms.date: 4/30/2018
+ms.keywords: IAMNetShowExProps interface [DirectShow],get_SourceLink method, IAMNetShowExProps.get_SourceLink, IAMNetShowExProps::get_SourceLink, IAMNetShowExPropsget_SourceLink, dshow.iamnetshowexprops_get_sourcelink, get_SourceLink, get_SourceLink method [DirectShow], get_SourceLink method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_SourceLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetShowExProps::get_SourceLink method
+# IAMNetShowExProps::get_SourceLink
 
 
 ## -description

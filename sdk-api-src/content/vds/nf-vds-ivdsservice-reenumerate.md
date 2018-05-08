@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.Reenumerate
-title: IVdsService::Reenumerate method
+title: IVdsService::Reenumerate
 author: windows-driver-content
 description: Discovers newly added and newly removed disks.
 old-location: base\ivdsservice_reenumerate.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: d057715c-dfd5-4b69-9e33-c40fb89fa11b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsService, IVdsService interface [VDS], Reenumerate method, IVdsService::Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS], IVdsService interface, Reenumerate,IVdsService.Reenumerate, base.ivdsservice_reenumerate, vds/IVdsService::Reenumerate
+ms.keywords: IVdsService interface [VDS],Reenumerate method, IVdsService.Reenumerate, IVdsService::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsService interface, base.ivdsservice_reenumerate, vds/IVdsService::Reenumerate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsService::Reenumerate method
+# IVdsService::Reenumerate
 
 
 ## -description

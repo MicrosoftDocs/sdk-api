@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElementBehavior.Abort
-title: ITfCandidateListUIElementBehavior::Abort method
+title: ITfCandidateListUIElementBehavior::Abort
 author: windows-driver-content
 description: The ITfCandidateListUIElementBehavior::Abort method closes the candidate list. There is no guarantee that the current selection will be finalized.
 old-location: tsf\itfcandidatelistuielementbehavior_abort.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2e9d231c-fd80-45fa-bfd0-6a9e057dccf2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Abort method [Text Services Framework], Abort method [Text Services Framework], ITfCandidateListUIElementBehavior interface, Abort,ITfCandidateListUIElementBehavior.Abort, ITfCandidateListUIElementBehavior, ITfCandidateListUIElementBehavior interface [Text Services Framework], Abort method, ITfCandidateListUIElementBehavior::Abort, msctf/ITfCandidateListUIElementBehavior::Abort, tsf.itfcandidatelistuielementbehavior_abort
+ms.keywords: Abort, Abort method [Text Services Framework], Abort method [Text Services Framework],ITfCandidateListUIElementBehavior interface, ITfCandidateListUIElementBehavior interface [Text Services Framework],Abort method, ITfCandidateListUIElementBehavior.Abort, ITfCandidateListUIElementBehavior::Abort, msctf/ITfCandidateListUIElementBehavior::Abort, tsf.itfcandidatelistuielementbehavior_abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCandidateListUIElementBehavior::Abort method
+# ITfCandidateListUIElementBehavior::Abort
 
 
 ## -description

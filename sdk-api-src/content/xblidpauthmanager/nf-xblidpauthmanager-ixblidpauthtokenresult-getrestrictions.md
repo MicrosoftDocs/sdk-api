@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetRestrictions
-title: IXblIdpAuthTokenResult::GetRestrictions method
+title: IXblIdpAuthTokenResult::GetRestrictions
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getrestrictions.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 6F3B7959-BFAF-496B-A8AB-FD29606199AF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetRestrictions method, GetRestrictions method, IXblIdpAuthTokenResult interface, GetRestrictions,IXblIdpAuthTokenResult.GetRestrictions, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetRestrictions method, IXblIdpAuthTokenResult::GetRestrictions, xblidp.ixblidpauthtokenresult_getrestrictions, xblidpauthmanager/IXblIdpAuthTokenResult::GetRestrictions
+ms.keywords: GetRestrictions, GetRestrictions method, GetRestrictions method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetRestrictions method, IXblIdpAuthTokenResult.GetRestrictions, IXblIdpAuthTokenResult::GetRestrictions, xblidp.ixblidpauthtokenresult_getrestrictions, xblidpauthmanager/IXblIdpAuthTokenResult::GetRestrictions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetRestrictions method
+# IXblIdpAuthTokenResult::GetRestrictions
 
 
 ## -description

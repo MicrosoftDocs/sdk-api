@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTimecodeDisplay.SetTCDisplayEnable
-title: IAMTimecodeDisplay::SetTCDisplayEnable method
+title: IAMTimecodeDisplay::SetTCDisplayEnable
 author: windows-driver-content
 description: The SetTCDisplayEnable method enables or disables an external device's timecode character output generator.
 old-location: dshow\iamtimecodedisplay_settcdisplayenable.htm
 old-project: DirectShow
 ms.assetid: ae4eeeaa-1c73-4e3a-82b1-a073d9c7d667
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTimecodeDisplay, IAMTimecodeDisplay interface [DirectShow], SetTCDisplayEnable method, IAMTimecodeDisplay::SetTCDisplayEnable, IAMTimecodeDisplaySetTCDisplayEnable, SetTCDisplayEnable method [DirectShow], SetTCDisplayEnable method [DirectShow], IAMTimecodeDisplay interface, SetTCDisplayEnable,IAMTimecodeDisplay.SetTCDisplayEnable, dshow.iamtimecodedisplay_settcdisplayenable, strmif/IAMTimecodeDisplay::SetTCDisplayEnable
+ms.date: 4/30/2018
+ms.keywords: IAMTimecodeDisplay interface [DirectShow],SetTCDisplayEnable method, IAMTimecodeDisplay.SetTCDisplayEnable, IAMTimecodeDisplay::SetTCDisplayEnable, IAMTimecodeDisplaySetTCDisplayEnable, SetTCDisplayEnable, SetTCDisplayEnable method [DirectShow], SetTCDisplayEnable method [DirectShow],IAMTimecodeDisplay interface, dshow.iamtimecodedisplay_settcdisplayenable, strmif/IAMTimecodeDisplay::SetTCDisplayEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTimecodeDisplay::SetTCDisplayEnable method
+# IAMTimecodeDisplay::SetTCDisplayEnable
 
 
 ## -description

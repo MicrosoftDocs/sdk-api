@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.SelectPage
-title: IShellImageData::SelectPage method
+title: IShellImageData::SelectPage
 author: windows-driver-content
 description: Selects a specified page in a multipage image.
 old-location: shell\IShellImageData_SelectPage.htm
 old-project: shell
 ms.assetid: bc852087-59f7-4c84-861a-e270a6ecf840
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], SelectPage method, IShellImageData::SelectPage, SelectPage method [Windows Shell], SelectPage method [Windows Shell], IShellImageData interface, SelectPage,IShellImageData.SelectPage, _shell_IShellImageData_SelectPage, shell.IShellImageData_SelectPage, shimgdata/IShellImageData::SelectPage
+ms.date: 5/3/2018
+ms.keywords: IShellImageData interface [Windows Shell],SelectPage method, IShellImageData.SelectPage, IShellImageData::SelectPage, SelectPage, SelectPage method [Windows Shell], SelectPage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_SelectPage, shell.IShellImageData_SelectPage, shimgdata/IShellImageData::SelectPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::SelectPage method
+# IShellImageData::SelectPage
 
 
 ## -description

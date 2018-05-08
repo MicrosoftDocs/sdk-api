@@ -7,7 +7,7 @@ old-location: automat\getrecordinfofromguids.htm
 old-project: automat
 ms.assetid: 0f132a13-ebcd-4886-b842-e6852d6fb2c8
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: GetRecordInfoFromGuids, GetRecordInfoFromGuids function [Automation], _oa96_GetRecordInfoFromGuids, automat.getrecordinfofromguids, oleauto/GetRecordInfoFromGuids
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetSourceForgottenKnowledge
-title: ISyncChangeBatchBase::GetSourceForgottenKnowledge method
+title: ISyncChangeBatchBase::GetSourceForgottenKnowledge
 author: windows-driver-content
 description: Gets the forgotten knowledge of the source replica.
 old-location: winsync\isyncchangebatchbase_getsourceforgottenknowledge.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 309b2c83-4480-421c-ae90-9cbe7ac11055
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSourceForgottenKnowledge method [Windows Sync], GetSourceForgottenKnowledge method [Windows Sync], ISyncChangeBatchBase interface, GetSourceForgottenKnowledge,ISyncChangeBatchBase.GetSourceForgottenKnowledge, ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], GetSourceForgottenKnowledge method, ISyncChangeBatchBase::GetSourceForgottenKnowledge, winsync.isyncchangebatchbase_getsourceforgottenknowledge, winsync/ISyncChangeBatchBase::GetSourceForgottenKnowledge
+ms.keywords: GetSourceForgottenKnowledge, GetSourceForgottenKnowledge method [Windows Sync], GetSourceForgottenKnowledge method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetSourceForgottenKnowledge method, ISyncChangeBatchBase.GetSourceForgottenKnowledge, ISyncChangeBatchBase::GetSourceForgottenKnowledge, winsync.isyncchangebatchbase_getsourceforgottenknowledge, winsync/ISyncChangeBatchBase::GetSourceForgottenKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchBase::GetSourceForgottenKnowledge method
+# ISyncChangeBatchBase::GetSourceForgottenKnowledge
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument.GetStoryRanges
-title: ITextDocument::GetStoryRanges method
+title: ITextDocument::GetStoryRanges
 author: windows-driver-content
 description: Gets the story collection object used to enumerate the stories in a document.
 old-location: controls\ITextDocument_GetStoryRanges.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstoryranges.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetStoryRanges method [Windows Controls], GetStoryRanges method [Windows Controls], ITextDocument interface, GetStoryRanges,ITextDocument.GetStoryRanges, ITextDocument, ITextDocument interface [Windows Controls], GetStoryRanges method, ITextDocument::GetStoryRanges, _win32_ITextDocument_GetStoryRanges, _win32_ITextDocument_GetStoryRanges_cpp, controls.ITextDocument_GetStoryRanges, controls._win32_ITextDocument_GetStoryRanges, tom/ITextDocument::GetStoryRanges
+ms.date: 4/27/2018
+ms.keywords: GetStoryRanges, GetStoryRanges method [Windows Controls], GetStoryRanges method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetStoryRanges method, ITextDocument.GetStoryRanges, ITextDocument::GetStoryRanges, _win32_ITextDocument_GetStoryRanges, _win32_ITextDocument_GetStoryRanges_cpp, controls.ITextDocument_GetStoryRanges, controls._win32_ITextDocument_GetStoryRanges, tom/ITextDocument::GetStoryRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument::GetStoryRanges method
+# ITextDocument::GetStoryRanges
 
 
 ## -description

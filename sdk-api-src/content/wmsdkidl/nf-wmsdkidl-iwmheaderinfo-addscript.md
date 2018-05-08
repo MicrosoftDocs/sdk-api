@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.AddScript
-title: IWMHeaderInfo::AddScript method
+title: IWMHeaderInfo::AddScript
 author: windows-driver-content
 description: The AddScript method adds a script, consisting of type and command strings, and a specific time, to the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_addscript.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e20644fb-077e-4eee-8802-6099002f3969
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddScript method [windows Media Format], AddScript method [windows Media Format], IWMHeaderInfo interface, AddScript method [windows Media Format], IWMHeaderInfo2 interface, AddScript method [windows Media Format], IWMHeaderInfo3 interface, AddScript,IWMHeaderInfo.AddScript, IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], AddScript method, IWMHeaderInfo2 interface [windows Media Format], AddScript method, IWMHeaderInfo2::AddScript, IWMHeaderInfo3 interface [windows Media Format], AddScript method, IWMHeaderInfo3::AddScript, IWMHeaderInfo::AddScript, IWMHeaderInfoAddScript, wmformat.iwmheaderinfo_addscript, wmsdkidl/IWMHeaderInfo2::AddScript, wmsdkidl/IWMHeaderInfo3::AddScript, wmsdkidl/IWMHeaderInfo::AddScript
+ms.keywords: AddScript, AddScript method [windows Media Format], AddScript method [windows Media Format],IWMHeaderInfo interface, AddScript method [windows Media Format],IWMHeaderInfo2 interface, AddScript method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],AddScript method, IWMHeaderInfo.AddScript, IWMHeaderInfo2 interface [windows Media Format],AddScript method, IWMHeaderInfo2::AddScript, IWMHeaderInfo3 interface [windows Media Format],AddScript method, IWMHeaderInfo3::AddScript, IWMHeaderInfo::AddScript, IWMHeaderInfoAddScript, wmformat.iwmheaderinfo_addscript, wmsdkidl/IWMHeaderInfo2::AddScript, wmsdkidl/IWMHeaderInfo3::AddScript, wmsdkidl/IWMHeaderInfo::AddScript
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMHeaderInfo::AddScript method
+# IWMHeaderInfo::AddScript
 
 
 ## -description

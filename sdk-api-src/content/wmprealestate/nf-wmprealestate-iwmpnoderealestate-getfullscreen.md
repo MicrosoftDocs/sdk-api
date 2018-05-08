@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPNodeRealEstate.GetFullScreen
-title: IWMPNodeRealEstate::GetFullScreen method
+title: IWMPNodeRealEstate::GetFullScreen
 author: windows-driver-content
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
 old-location: wmp\iwmpnoderealestate_getfullscreen.htm
 old-project: WMP
 ms.assetid: 70e028be-c824-4e6d-858d-be1c4a4ea670
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetFullScreen method [Windows Media Player], GetFullScreen method [Windows Media Player], IWMPNodeRealEstate interface, GetFullScreen,IWMPNodeRealEstate.GetFullScreen, IWMPNodeRealEstate, IWMPNodeRealEstate interface [Windows Media Player], GetFullScreen method, IWMPNodeRealEstate::GetFullScreen, IWMPNodeRealEstateGetFullScreenRendering, wmp.iwmpnoderealestate_getfullscreen, wmprealestate/IWMPNodeRealEstate::GetFullScreen
+ms.date: 5/2/2018
+ms.keywords: GetFullScreen, GetFullScreen method [Windows Media Player], GetFullScreen method [Windows Media Player],IWMPNodeRealEstate interface, IWMPNodeRealEstate interface [Windows Media Player],GetFullScreen method, IWMPNodeRealEstate.GetFullScreen, IWMPNodeRealEstate::GetFullScreen, IWMPNodeRealEstateGetFullScreenRendering, wmp.iwmpnoderealestate_getfullscreen, wmprealestate/IWMPNodeRealEstate::GetFullScreen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNodeRealEstate::GetFullScreen method
+# IWMPNodeRealEstate::GetFullScreen
 
 
 ## -description

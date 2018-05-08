@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.EnumAdvise
-title: IDataAdviseHolder::EnumAdvise method
+title: IDataAdviseHolder::EnumAdvise
 author: windows-driver-content
 description: Returns an object that can be used to enumerate the current advisory connections.
 old-location: com\idataadviseholder_enumadvise.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 0863d013-6f55-40ce-92d2-68bb0455a911
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: EnumAdvise method [COM], EnumAdvise method [COM], IDataAdviseHolder interface, EnumAdvise,IDataAdviseHolder.EnumAdvise, IDataAdviseHolder, IDataAdviseHolder interface [COM], EnumAdvise method, IDataAdviseHolder::EnumAdvise, _ole_idataadviseholder_enumadvise, com.idataadviseholder_enumadvise, objidl/IDataAdviseHolder::EnumAdvise
+ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IDataAdviseHolder interface, IDataAdviseHolder interface [COM],EnumAdvise method, IDataAdviseHolder.EnumAdvise, IDataAdviseHolder::EnumAdvise, _ole_idataadviseholder_enumadvise, com.idataadviseholder_enumadvise, objidl/IDataAdviseHolder::EnumAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataAdviseHolder::EnumAdvise method
+# IDataAdviseHolder::EnumAdvise
 
 
 ## -description

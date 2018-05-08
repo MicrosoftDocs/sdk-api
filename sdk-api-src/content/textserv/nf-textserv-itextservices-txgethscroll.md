@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextServices.TxGetHScroll
-title: ITextServices::TxGetHScroll method
+title: ITextServices::TxGetHScroll
 author: windows-driver-content
 description: Returns horizontal scroll bar information.
 old-location: controls\ITextServices_TxGetHScroll.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgethscroll.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextServices, ITextServices interface [Windows Controls], TxGetHScroll method, ITextServices::TxGetHScroll, TxGetHScroll method [Windows Controls], TxGetHScroll method [Windows Controls], ITextServices interface, TxGetHScroll,ITextServices.TxGetHScroll, _win32_ITextServices_TxGetHScroll, _win32_ITextServices_TxGetHScroll_cpp, controls.ITextServices_TxGetHScroll, controls._win32_ITextServices_TxGetHScroll, textserv/ITextServices::TxGetHScroll
+ms.date: 4/27/2018
+ms.keywords: ITextServices interface [Windows Controls],TxGetHScroll method, ITextServices.TxGetHScroll, ITextServices::TxGetHScroll, TxGetHScroll, TxGetHScroll method [Windows Controls], TxGetHScroll method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetHScroll, _win32_ITextServices_TxGetHScroll_cpp, controls.ITextServices_TxGetHScroll, controls._win32_ITextServices_TxGetHScroll, textserv/ITextServices::TxGetHScroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextServices::TxGetHScroll method
+# ITextServices::TxGetHScroll
 
 
 ## -description

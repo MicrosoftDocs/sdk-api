@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetInputScopes
-title: ITfInputScope::GetInputScopes method
+title: ITfInputScope::GetInputScopes
 author: windows-driver-content
 description: ITfInputScope::GetInputScopes method
 old-location: tsf\itfinputscope_getinputscope.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c5d54d2a-13b4-42f7-9224-4e80f0148a86
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetInputScopes method [Text Services Framework], GetInputScopes method [Text Services Framework], ITfInputScope interface, GetInputScopes,ITfInputScope.GetInputScopes, ITfInputScope, ITfInputScope interface [Text Services Framework], GetInputScopes method, ITfInputScope::GetInputScopes, _tsf_itfinputscoe_getinputscopes_ref, inputscope/ITfInputScope::GetInputScopes, tsf.itfinputscope_getinputscope
+ms.keywords: GetInputScopes, GetInputScopes method [Text Services Framework], GetInputScopes method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetInputScopes method, ITfInputScope.GetInputScopes, ITfInputScope::GetInputScopes, _tsf_itfinputscoe_getinputscopes_ref, inputscope/ITfInputScope::GetInputScopes, tsf.itfinputscope_getinputscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputScope::GetInputScopes method
+# ITfInputScope::GetInputScopes
 
 
 ## -description

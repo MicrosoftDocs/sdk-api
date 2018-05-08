@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 84d0918d-479f-4026-b120-11cc21a43233
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsDiskPartitionMF, IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface, described, base.ivdsdiskpartitionmf, vds/IVdsDiskPartitionMF
+ms.keywords: IVdsDiskPartitionMF, IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,described, base.ivdsdiskpartitionmf, vds/IVdsDiskPartitionMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

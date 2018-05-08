@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 62B3D170-C3B3-48B8-92F8-3DF02F5D4082
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationElement7, IUIAutomationElement7 interface [Windows Accessibility], IUIAutomationElement7 interface [Windows Accessibility], described, uiautomationclient/IUIAutomationElement7, winauto.uiauto_IUIAutomationElement7
+ms.keywords: IUIAutomationElement7, IUIAutomationElement7 interface [Windows Accessibility], IUIAutomationElement7 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement7, winauto.uiauto_IUIAutomationElement7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

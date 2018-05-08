@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetGSInputPrimitive
-title: ID3D12ShaderReflection::GetGSInputPrimitive method
+title: ID3D12ShaderReflection::GetGSInputPrimitive
 author: windows-driver-content
 description: Gets the geometry-shader input-primitive description.
 old-location: direct3d12\id3d12shaderreflection_getgsinputprimitive.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 7A0E34F5-D2CF-41C2-B2CB-C3D0CDA511B3
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetGSInputPrimitive method, GetGSInputPrimitive method, ID3D12ShaderReflection interface, GetGSInputPrimitive,ID3D12ShaderReflection.GetGSInputPrimitive, ID3D12ShaderReflection, ID3D12ShaderReflection interface, GetGSInputPrimitive method, ID3D12ShaderReflection::GetGSInputPrimitive, d3d12shader/ID3D12ShaderReflection::GetGSInputPrimitive, direct3d12.id3d12shaderreflection_getgsinputprimitive
+ms.keywords: GetGSInputPrimitive, GetGSInputPrimitive method, GetGSInputPrimitive method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetGSInputPrimitive method, ID3D12ShaderReflection.GetGSInputPrimitive, ID3D12ShaderReflection::GetGSInputPrimitive, d3d12shader/ID3D12ShaderReflection::GetGSInputPrimitive, direct3d12.id3d12shaderreflection_getgsinputprimitive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflection::GetGSInputPrimitive method
+# ID3D12ShaderReflection::GetGSInputPrimitive
 
 
 ## -description

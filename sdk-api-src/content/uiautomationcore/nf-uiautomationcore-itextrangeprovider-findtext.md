@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.FindText
-title: ITextRangeProvider::FindText method
+title: ITextRangeProvider::FindText
 author: windows-driver-content
 description: Returns a text range subset that contains the specified text.
 old-location: winauto\uiauto_ITextRangeProvider_FindText.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 6012bc1e-5c1c-4874-ba2b-5e16eaf21f1d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: FindText method [Windows Accessibility], FindText method [Windows Accessibility], ITextRangeProvider interface, FindText,ITextRangeProvider.FindText, ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], FindText method, ITextRangeProvider::FindText, uiauto.uiauto_ITextRangeProvider_FindText, uiauto_ITextRangeProvider_FindText, uiautomationcore/ITextRangeProvider::FindText, winauto.uiauto_ITextRangeProvider_FindText
+ms.keywords: FindText, FindText method [Windows Accessibility], FindText method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],FindText method, ITextRangeProvider.FindText, ITextRangeProvider::FindText, uiauto.uiauto_ITextRangeProvider_FindText, uiauto_ITextRangeProvider_FindText, uiautomationcore/ITextRangeProvider::FindText, winauto.uiauto_ITextRangeProvider_FindText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRangeProvider::FindText method
+# ITextRangeProvider::FindText
 
 
 ## -description

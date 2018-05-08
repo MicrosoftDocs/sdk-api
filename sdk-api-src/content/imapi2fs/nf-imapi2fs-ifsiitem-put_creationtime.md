@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.put_CreationTime
-title: IFsiItem::put_CreationTime method
+title: IFsiItem::put_CreationTime
 author: windows-driver-content
 description: Sets the date and time that the directory or file item was created and added to the file system image.
 old-location: imapi\ifsiitem_put_creationtime.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 242e6f68-d9bc-4881-adf3-22d7b32a1dfe
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiItem, IFsiItem interface [IMAPI], put_CreationTime method, IFsiItem::put_CreationTime, imapi.ifsiitem_put_creationtime, imapi2fs/IFsiItem::put_CreationTime, put_CreationTime method [IMAPI], put_CreationTime method [IMAPI], IFsiItem interface, put_CreationTime,IFsiItem.put_CreationTime
+ms.keywords: IFsiItem interface [IMAPI],put_CreationTime method, IFsiItem.put_CreationTime, IFsiItem::put_CreationTime, imapi.ifsiitem_put_creationtime, imapi2fs/IFsiItem::put_CreationTime, put_CreationTime, put_CreationTime method [IMAPI], put_CreationTime method [IMAPI],IFsiItem interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiItem::put_CreationTime method
+# IFsiItem::put_CreationTime
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetNoLineNumber
-title: ITextPara::GetNoLineNumber method
+title: ITextPara::GetNoLineNumber
 author: windows-driver-content
 description: Determines whether paragraph numbering is enabled.
 old-location: controls\ITextPara_GetNoLineNumber.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getnolinenumber.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetNoLineNumber method [Windows Controls], GetNoLineNumber method [Windows Controls], ITextPara interface, GetNoLineNumber,ITextPara.GetNoLineNumber, ITextPara, ITextPara interface [Windows Controls], GetNoLineNumber method, ITextPara::GetNoLineNumber, _win32_ITextPara_GetNoLineNumber, _win32_ITextPara_GetNoLineNumber_cpp, controls.ITextPara_GetNoLineNumber, controls._win32_ITextPara_GetNoLineNumber, tom/ITextPara::GetNoLineNumber
+ms.date: 4/27/2018
+ms.keywords: GetNoLineNumber, GetNoLineNumber method [Windows Controls], GetNoLineNumber method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetNoLineNumber method, ITextPara.GetNoLineNumber, ITextPara::GetNoLineNumber, _win32_ITextPara_GetNoLineNumber, _win32_ITextPara_GetNoLineNumber_cpp, controls.ITextPara_GetNoLineNumber, controls._win32_ITextPara_GetNoLineNumber, tom/ITextPara::GetNoLineNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetNoLineNumber method
+# ITextPara::GetNoLineNumber
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMProgress3.End3
-title: IWMDMProgress3::End3 method
+title: IWMDMProgress3::End3
 author: windows-driver-content
 description: The End3 method is called by Windows Media Device Manager to indicate that an operation has finished.
 old-location: wmdm\iwmdmprogress3_end3.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: fb09cfa8-1a96-412f-a97a-6cc1638b0c77
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: End3 method [windows Media Device Manager], End3 method [windows Media Device Manager], IWMDMProgress3 interface, End3,IWMDMProgress3.End3, IWMDMProgress3, IWMDMProgress3 interface [windows Media Device Manager], End3 method, IWMDMProgress3::End3, IWMDMProgress3End3, mswmdm/IWMDMProgress3::End3, wmdm.iwmdmprogress3_end3
+ms.keywords: End3, End3 method [windows Media Device Manager], End3 method [windows Media Device Manager],IWMDMProgress3 interface, IWMDMProgress3 interface [windows Media Device Manager],End3 method, IWMDMProgress3.End3, IWMDMProgress3::End3, IWMDMProgress3End3, mswmdm/IWMDMProgress3::End3, wmdm.iwmdmprogress3_end3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMProgress3::End3 method
+# IWMDMProgress3::End3
 
 
 ## -description

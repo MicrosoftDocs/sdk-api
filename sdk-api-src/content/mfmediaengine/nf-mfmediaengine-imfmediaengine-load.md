@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Load
-title: IMFMediaEngine::Load method
+title: IMFMediaEngine::Load
 author: windows-driver-content
 description: Loads the current media source.
 old-location: mf\imfmediaengine_load.htm
 old-project: medfound
 ms.assetid: 5ACE8143-DC14-495C-A644-A2076FB1980F
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], Load method, IMFMediaEngine::Load, Load method [Media Foundation], Load method [Media Foundation], IMFMediaEngine interface, Load,IMFMediaEngine.Load, mf.imfmediaengine_load, mfmediaengine/IMFMediaEngine::Load
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngine interface [Media Foundation],Load method, IMFMediaEngine.Load, IMFMediaEngine::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_load, mfmediaengine/IMFMediaEngine::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::Load method
+# IMFMediaEngine::Load
 
 
 ## -description

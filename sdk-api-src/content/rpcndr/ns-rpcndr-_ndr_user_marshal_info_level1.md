@@ -7,7 +7,7 @@ old-location: rpc\ndr_user_marshal_info_level1.htm
 old-project: Rpc
 ms.assetid: fe664968-ce70-4bc4-9caa-3e4d241d253c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: NDR_USER_MARSHAL_INFO_LEVEL1, NDR_USER_MARSHAL_INFO_LEVEL1 structure [RPC], _NDR_USER_MARSHAL_INFO_LEVEL1, _rpc_ndr_user_marshal_info_level1, rpc.ndr_user_marshal_info_level1, rpcndr/NDR_USER_MARSHAL_INFO_LEVEL1
 ms.prod: windows-hardware
 ms.technology: windows-devices

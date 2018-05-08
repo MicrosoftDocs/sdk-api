@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContentCollection.get_Count
-title: IUpdateDownloadContentCollection::get_Count method
+title: IUpdateDownloadContentCollection::get_Count
 author: windows-driver-content
 description: Gets the number of elements in the collection.
 old-location: wua\iupdatedownloadcontentcollection_count.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: fbe4e702-644c-4eee-beea-a91bad9cb1be
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent], IUpdateDownloadContentCollection interface, IUpdateDownloadContentCollection, IUpdateDownloadContentCollection interface [Windows Update Agent], Count property, IUpdateDownloadContentCollection.Count, IUpdateDownloadContentCollection::get_Count, get_Count,IUpdateDownloadContentCollection.get_Count, wua.iupdatedownloadcontentcollection_count, wuapi/IUpdateDownloadContentCollection::Count, wuapi/IUpdateDownloadContentCollection::get_Count
+ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateDownloadContentCollection interface, IUpdateDownloadContentCollection interface [Windows Update Agent],Count property, IUpdateDownloadContentCollection.Count, IUpdateDownloadContentCollection.get_Count, IUpdateDownloadContentCollection::Count, IUpdateDownloadContentCollection::get_Count, get_Count, wua.iupdatedownloadcontentcollection_count, wuapi/IUpdateDownloadContentCollection::Count, wuapi/IUpdateDownloadContentCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateDownloadContentCollection::get_Count method
+# IUpdateDownloadContentCollection::get_Count
 
 
 ## -description

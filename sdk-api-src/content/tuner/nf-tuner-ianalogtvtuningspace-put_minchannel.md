@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.put_MinChannel
-title: IAnalogTVTuningSpace::put_MinChannel method
+title: IAnalogTVTuningSpace::put_MinChannel
 author: windows-driver-content
 description: The put_MinChannel method sets the lowest channel number for this tuning space.
 old-location: mstv\ianalogtvtuningspace_put_minchannel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e0e348a6-a536-4c1b-82ba-c2502c5d92c0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAnalogTVTuningSpace, IAnalogTVTuningSpace interface [Microsoft TV Technologies], put_MinChannel method, IAnalogTVTuningSpace::put_MinChannel, IAnalogTVTuningSpaceput_MinChannel, mstv.ianalogtvtuningspace_put_minchannel, put_MinChannel method [Microsoft TV Technologies], put_MinChannel method [Microsoft TV Technologies], IAnalogTVTuningSpace interface, put_MinChannel,IAnalogTVTuningSpace.put_MinChannel, tuner/IAnalogTVTuningSpace::put_MinChannel
+ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],put_MinChannel method, IAnalogTVTuningSpace.put_MinChannel, IAnalogTVTuningSpace::put_MinChannel, IAnalogTVTuningSpaceput_MinChannel, mstv.ianalogtvtuningspace_put_minchannel, put_MinChannel, put_MinChannel method [Microsoft TV Technologies], put_MinChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, tuner/IAnalogTVTuningSpace::put_MinChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnalogTVTuningSpace::put_MinChannel method
+# IAnalogTVTuningSpace::put_MinChannel
 
 
 ## -description

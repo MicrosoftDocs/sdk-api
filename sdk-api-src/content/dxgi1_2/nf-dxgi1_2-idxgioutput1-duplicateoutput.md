@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutput1.DuplicateOutput
-title: IDXGIOutput1::DuplicateOutput method
+title: IDXGIOutput1::DuplicateOutput
 author: windows-driver-content
 description: Creates a desktop duplication interface from the IDXGIOutput1 interface that represents an adapter output.
 old-location: direct3ddxgi\idxgioutput1_duplicateoutput.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 32B13906-0920-4891-B1E7-BCB291E78E73
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DuplicateOutput method [DXGI], DuplicateOutput method [DXGI], IDXGIOutput1 interface, DuplicateOutput,IDXGIOutput1.DuplicateOutput, IDXGIOutput1, IDXGIOutput1 interface [DXGI], DuplicateOutput method, IDXGIOutput1::DuplicateOutput, direct3ddxgi.idxgioutput1_duplicateoutput, dxgi1_2/IDXGIOutput1::DuplicateOutput
+ms.keywords: DuplicateOutput, DuplicateOutput method [DXGI], DuplicateOutput method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],DuplicateOutput method, IDXGIOutput1.DuplicateOutput, IDXGIOutput1::DuplicateOutput, direct3ddxgi.idxgioutput1_duplicateoutput, dxgi1_2/IDXGIOutput1::DuplicateOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput1::DuplicateOutput method
+# IDXGIOutput1::DuplicateOutput
 
 
 ## -description

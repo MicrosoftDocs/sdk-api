@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetOverlayPosition
-title: IDirectDrawSurface7::SetOverlayPosition method
+title: IDirectDrawSurface7::SetOverlayPosition
 author: windows-driver-content
 description: Changes the display coordinates of an overlay surface.
 old-location: directdraw\idirectdrawsurface7_setoverlayposition.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 94bd79f8-ded2-4cfa-98c1-a03202d3e678
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], SetOverlayPosition method, IDirectDrawSurface7::SetOverlayPosition, SetOverlayPosition method [DirectDraw], SetOverlayPosition method [DirectDraw], IDirectDrawSurface7 interface, SetOverlayPosition,IDirectDrawSurface7.SetOverlayPosition, ddraw/IDirectDrawSurface7::SetOverlayPosition, directdraw.idirectdrawsurface7_setoverlayposition
+ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetOverlayPosition method, IDirectDrawSurface7.SetOverlayPosition, IDirectDrawSurface7::SetOverlayPosition, SetOverlayPosition, SetOverlayPosition method [DirectDraw], SetOverlayPosition method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetOverlayPosition, directdraw.idirectdrawsurface7_setoverlayposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::SetOverlayPosition method
+# IDirectDrawSurface7::SetOverlayPosition
 
 
 ## -description

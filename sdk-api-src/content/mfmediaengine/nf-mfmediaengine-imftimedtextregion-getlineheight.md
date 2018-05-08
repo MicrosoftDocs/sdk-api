@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetLineHeight
-title: IMFTimedTextRegion::GetLineHeight method
+title: IMFTimedTextRegion::GetLineHeight
 author: windows-driver-content
 description: Gets the height of each line of text in the region.
 old-location: mf\imftimedtextregion_getlineheight.htm
 old-project: medfound
 ms.assetid: 41514FCA-5C2A-48E5-A9F8-72B5B9160CD6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetLineHeight method [Media Foundation], GetLineHeight method [Media Foundation], IMFTimedTextRegion interface, GetLineHeight,IMFTimedTextRegion.GetLineHeight, IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], GetLineHeight method, IMFTimedTextRegion::GetLineHeight, mf.imftimedtextregion_getlineheight, mfmediaengine/IMFTimedTextRegion::GetLineHeight
+ms.date: 5/3/2018
+ms.keywords: GetLineHeight, GetLineHeight method [Media Foundation], GetLineHeight method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetLineHeight method, IMFTimedTextRegion.GetLineHeight, IMFTimedTextRegion::GetLineHeight, mf.imftimedtextregion_getlineheight, mfmediaengine/IMFTimedTextRegion::GetLineHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextRegion::GetLineHeight method
+# IMFTimedTextRegion::GetLineHeight
 
 
 ## -description

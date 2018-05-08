@@ -1,14 +1,14 @@
 ---
 UID: NF:exdisp.IShellWindows.FindWindowSW
-title: IShellWindows::FindWindowSW method
+title: IShellWindows::FindWindowSW
 author: windows-driver-content
 description: Finds a window in the Shell windows collection and returns the window's handle and IDispatch interface.
 old-location: shell\IShellWindows_FindWindowSW.htm
 old-project: shell
 ms.assetid: 10eed153-cb0b-4ce0-8cc5-2e7ebf683fda
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: FindWindowSW method [Windows Shell], FindWindowSW method [Windows Shell], IShellWindows interface, FindWindowSW,IShellWindows.FindWindowSW, IShellWindows, IShellWindows interface [Windows Shell], FindWindowSW method, IShellWindows::FindWindowSW, _win32_IShellWindows_FindWindowSW, exdisp/IShellWindows::FindWindowSW, shell.IShellWindows_FindWindowSW
+ms.date: 5/3/2018
+ms.keywords: FindWindowSW, FindWindowSW method [Windows Shell], FindWindowSW method [Windows Shell],IShellWindows interface, IShellWindows interface [Windows Shell],FindWindowSW method, IShellWindows.FindWindowSW, IShellWindows::FindWindowSW, _win32_IShellWindows_FindWindowSW, exdisp/IShellWindows::FindWindowSW, shell.IShellWindows_FindWindowSW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IShellWindows::FindWindowSW method
+# IShellWindows::FindWindowSW
 
 
 ## -description

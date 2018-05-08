@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccounts.get_Item
-title: IFaxAccounts::get_Item method
+title: IFaxAccounts::get_Item
 author: windows-driver-content
 description: Returns a FaxAccount object from a FaxAccounts collection.
 old-location: fax\_mfax_faxaccounts_item_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\get_item.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxAccounts, IFaxAccounts interface [Fax Service], get_Item method, IFaxAccounts::get_Item, _mfax_faxaccounts.item_cpp, fax._mfax_faxaccounts_item_cpp, faxcomex/IFaxAccounts::get_Item, get_Item method [Fax Service], get_Item method [Fax Service], IFaxAccounts interface, get_Item,IFaxAccounts.get_Item
+ms.keywords: IFaxAccounts interface [Fax Service],get_Item method, IFaxAccounts.get_Item, IFaxAccounts::get_Item, _mfax_faxaccounts.item_cpp, fax._mfax_faxaccounts_item_cpp, faxcomex/IFaxAccounts::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxAccounts interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxAccounts::get_Item method
+# IFaxAccounts::get_Item
 
 
 ## -description

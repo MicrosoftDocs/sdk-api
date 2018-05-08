@@ -1,14 +1,14 @@
 ---
 UID: NF:certcli.ICertGetConfig.GetConfig
-title: ICertGetConfig::GetConfig method
+title: ICertGetConfig::GetConfig
 author: windows-driver-content
 description: The ICertGetConfig::GetConfig method retrieves the configuration string for a Certificate Services server.
 old-location: security\icertgetconfig_getconfig.htm
 old-project: SecCrypto
 ms.assetid: 5935bf37-4a4a-4c0f-ae3f-bd76f97d0d9a
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CC_DEFAULTCONFIG, CC_FIRSTCONFIG, CC_LOCALACTIVECONFIG, CC_LOCALCONFIG, CC_UIPICKCONFIG, CC_UIPICKCONFIGSKIPLOCALCA, GetConfig method [Security], GetConfig method [Security], ICertGetConfig interface, GetConfig,ICertGetConfig.GetConfig, ICertGetConfig, ICertGetConfig interface [Security], GetConfig method, ICertGetConfig::GetConfig, certcli/ICertGetConfig::GetConfig, security.icertgetconfig_getconfig
+ms.date: 4/30/2018
+ms.keywords: CC_DEFAULTCONFIG, CC_FIRSTCONFIG, CC_LOCALACTIVECONFIG, CC_LOCALCONFIG, CC_UIPICKCONFIG, CC_UIPICKCONFIGSKIPLOCALCA, GetConfig, GetConfig method [Security], GetConfig method [Security],ICertGetConfig interface, ICertGetConfig interface [Security],GetConfig method, ICertGetConfig.GetConfig, ICertGetConfig::GetConfig, certcli/ICertGetConfig::GetConfig, security.icertgetconfig_getconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertGetConfig::GetConfig method
+# ICertGetConfig::GetConfig
 
 
 ## -description

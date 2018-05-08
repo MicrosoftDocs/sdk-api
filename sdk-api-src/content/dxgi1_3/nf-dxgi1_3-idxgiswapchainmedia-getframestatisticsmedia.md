@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChainMedia.GetFrameStatisticsMedia
-title: IDXGISwapChainMedia::GetFrameStatisticsMedia method
+title: IDXGISwapChainMedia::GetFrameStatisticsMedia
 author: windows-driver-content
 description: Queries the system for a DXGI_FRAME_STATISTICS_MEDIA structure that indicates whether a custom refresh rate is currently approved by the system.
 old-location: direct3ddxgi\idxgiswapchainmedia_getframestatisticsmedia.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: AC29C389-832A-4A73-A5D8-7687B1D02256
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetFrameStatisticsMedia method [DXGI], GetFrameStatisticsMedia method [DXGI], IDXGISwapChainMedia interface, GetFrameStatisticsMedia,IDXGISwapChainMedia.GetFrameStatisticsMedia, IDXGISwapChainMedia, IDXGISwapChainMedia interface [DXGI], GetFrameStatisticsMedia method, IDXGISwapChainMedia::GetFrameStatisticsMedia, direct3ddxgi.idxgiswapchainmedia_getframestatisticsmedia, dxgi1_3/IDXGISwapChainMedia::GetFrameStatisticsMedia
+ms.keywords: GetFrameStatisticsMedia, GetFrameStatisticsMedia method [DXGI], GetFrameStatisticsMedia method [DXGI],IDXGISwapChainMedia interface, IDXGISwapChainMedia interface [DXGI],GetFrameStatisticsMedia method, IDXGISwapChainMedia.GetFrameStatisticsMedia, IDXGISwapChainMedia::GetFrameStatisticsMedia, direct3ddxgi.idxgiswapchainmedia_getframestatisticsmedia, dxgi1_3/IDXGISwapChainMedia::GetFrameStatisticsMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChainMedia::GetFrameStatisticsMedia method
+# IDXGISwapChainMedia::GetFrameStatisticsMedia
 
 
 ## -description

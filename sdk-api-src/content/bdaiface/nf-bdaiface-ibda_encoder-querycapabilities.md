@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.QueryCapabilities
-title: IBDA_Encoder::QueryCapabilities method
+title: IBDA_Encoder::QueryCapabilities
 author: windows-driver-content
 description: Gets the number of encoding formats supported by the device.
 old-location: mstv\ibda_encoder_querycapabilities.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 038f9360-0515-4655-9397-cd1bfb6c3d21
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_Encoder, IBDA_Encoder interface [Microsoft TV Technologies], QueryCapabilities method, IBDA_Encoder::QueryCapabilities, QueryCapabilities method [Microsoft TV Technologies], QueryCapabilities method [Microsoft TV Technologies], IBDA_Encoder interface, QueryCapabilities,IBDA_Encoder.QueryCapabilities, bdaiface/IBDA_Encoder::QueryCapabilities, mstv.ibda_encoder_querycapabilities
+ms.keywords: IBDA_Encoder interface [Microsoft TV Technologies],QueryCapabilities method, IBDA_Encoder.QueryCapabilities, IBDA_Encoder::QueryCapabilities, QueryCapabilities, QueryCapabilities method [Microsoft TV Technologies], QueryCapabilities method [Microsoft TV Technologies],IBDA_Encoder interface, bdaiface/IBDA_Encoder::QueryCapabilities, mstv.ibda_encoder_querycapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_Encoder::QueryCapabilities method
+# IBDA_Encoder::QueryCapabilities
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetAllTabletContextIds
-title: IRealTimeStylus::GetAllTabletContextIds method
+title: IRealTimeStylus::GetAllTabletContextIds
 author: windows-driver-content
 description: Retrieves an array containing all of the currently active tablet context identifiers.
 old-location: tablet\irealtimestylus_getalltabletcontextids.htm
 old-project: tablet
 ms.assetid: 1fac0624-2e1c-44b2-8a11-82b746a18356
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 1fac0624-2e1c-44b2-8a11-82b746a18356, GetAllTabletContextIds method [Tablet PC], GetAllTabletContextIds method [Tablet PC], IRealTimeStylus interface, GetAllTabletContextIds,IRealTimeStylus.GetAllTabletContextIds, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], GetAllTabletContextIds method, IRealTimeStylus::GetAllTabletContextIds, rtscom/IRealTimeStylus::GetAllTabletContextIds, tablet.irealtimestylus_getalltabletcontextids
+ms.date: 5/2/2018
+ms.keywords: 1fac0624-2e1c-44b2-8a11-82b746a18356, GetAllTabletContextIds, GetAllTabletContextIds method [Tablet PC], GetAllTabletContextIds method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetAllTabletContextIds method, IRealTimeStylus.GetAllTabletContextIds, IRealTimeStylus::GetAllTabletContextIds, rtscom/IRealTimeStylus::GetAllTabletContextIds, tablet.irealtimestylus_getalltabletcontextids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylus::GetAllTabletContextIds method
+# IRealTimeStylus::GetAllTabletContextIds
 
 
 ## -description

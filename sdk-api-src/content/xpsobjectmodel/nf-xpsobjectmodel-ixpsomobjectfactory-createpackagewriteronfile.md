@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageWriterOnFile
-title: IXpsOMObjectFactory::CreatePackageWriterOnFile method
+title: IXpsOMObjectFactory::CreatePackageWriterOnFile
 author: windows-driver-content
 description: Opens a file for writing the contents of an XPS OM to an XPS package.
 old-location: xps\ixpsomobjectfactory_createpackagewriteronfile.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 67d081a6-ec10-4cd3-8f77-b7653aef27a1
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePackageWriterOnFile method [XPS Documents and Packaging], CreatePackageWriterOnFile method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreatePackageWriterOnFile,IXpsOMObjectFactory.CreatePackageWriterOnFile, FALSE, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreatePackageWriterOnFile method, IXpsOMObjectFactory::CreatePackageWriterOnFile, TRUE, xps.ixpsomobjectfactory_createpackagewriteronfile, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageWriterOnFile
+ms.keywords: CreatePackageWriterOnFile, CreatePackageWriterOnFile method [XPS Documents and Packaging], CreatePackageWriterOnFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageWriterOnFile method, IXpsOMObjectFactory.CreatePackageWriterOnFile, IXpsOMObjectFactory::CreatePackageWriterOnFile, TRUE, xps.ixpsomobjectfactory_createpackagewriteronfile, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageWriterOnFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreatePackageWriterOnFile method
+# IXpsOMObjectFactory::CreatePackageWriterOnFile
 
 
 ## -description

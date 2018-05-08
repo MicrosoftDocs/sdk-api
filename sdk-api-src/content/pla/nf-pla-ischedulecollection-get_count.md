@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IScheduleCollection.get_Count
-title: IScheduleCollection::get_Count method
+title: IScheduleCollection::get_Count
 author: windows-driver-content
 description: Retrieves the number of schedules in the collection.
 old-location: pla\ischedulecollection_count.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: ade49ca4-3cd6-4d42-bf2c-50bdc6301dbb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Count property [PLA], Count property [PLA], IScheduleCollection interface, IScheduleCollection, IScheduleCollection interface [PLA], Count property, IScheduleCollection.Count, IScheduleCollection::get_Count, base.ischedulecollection_count, get_Count,IScheduleCollection.get_Count, pla.ischedulecollection_count, pla/IScheduleCollection::Count, pla/IScheduleCollection::get_Count
+ms.keywords: Count property [PLA], Count property [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Count property, IScheduleCollection.Count, IScheduleCollection.get_Count, IScheduleCollection::Count, IScheduleCollection::get_Count, base.ischedulecollection_count, get_Count, pla.ischedulecollection_count, pla/IScheduleCollection::Count, pla/IScheduleCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduleCollection::get_Count method
+# IScheduleCollection::get_Count
 
 
 ## -description

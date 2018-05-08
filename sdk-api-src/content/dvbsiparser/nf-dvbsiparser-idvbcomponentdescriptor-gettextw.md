@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetTextW
-title: IDvbComponentDescriptor::GetTextW method
+title: IDvbComponentDescriptor::GetTextW
 author: windows-driver-content
 description: Gets the text describing the elementary stream, in Unicode string format, from a Digital Video Broadcast (DVB) component descriptor.
 old-location: mstv\idvbcomponentdescriptor_gettextw.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1b4ff757-24d0-4dca-8def-c8079724e571
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies], IDvbComponentDescriptor interface, GetTextW,IDvbComponentDescriptor.GetTextW, IDvbComponentDescriptor, IDvbComponentDescriptor interface [Microsoft TV Technologies], GetTextW method, IDvbComponentDescriptor::GetTextW, dvbsiparser/IDvbComponentDescriptor::GetTextW, mstv.idvbcomponentdescriptor_gettextw
+ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetTextW method, IDvbComponentDescriptor.GetTextW, IDvbComponentDescriptor::GetTextW, dvbsiparser/IDvbComponentDescriptor::GetTextW, mstv.idvbcomponentdescriptor_gettextw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbComponentDescriptor::GetTextW method
+# IDvbComponentDescriptor::GetTextW
 
 
 ## -description

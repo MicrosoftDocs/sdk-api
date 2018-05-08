@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IRpcOptions.Set
-title: IRpcOptions::Set method
+title: IRpcOptions::Set
 author: windows-driver-content
 description: Sets the value of an RPC binding option property.
 old-location: com\irpcoptions_set.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: b4412e45-adc7-47e4-a19c-9ada6407e6dc
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IRpcOptions, IRpcOptions interface [COM], Set method, IRpcOptions::Set, Set method [COM], Set method [COM], IRpcOptions interface, Set,IRpcOptions.Set, _com_irpcoptions_set, com.irpcoptions_set, objidlbase/IRpcOptions::Set
+ms.keywords: IRpcOptions interface [COM],Set method, IRpcOptions.Set, IRpcOptions::Set, Set, Set method [COM], Set method [COM],IRpcOptions interface, _com_irpcoptions_set, com.irpcoptions_set, objidlbase/IRpcOptions::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRpcOptions::Set method
+# IRpcOptions::Set
 
 
 ## -description

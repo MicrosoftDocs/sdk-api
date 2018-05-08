@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.FreeBuffer
-title: IRDPSRAPIAudioStream::FreeBuffer method
+title: IRDPSRAPIAudioStream::FreeBuffer
 author: windows-driver-content
 description: Releases the hold on the buffer after the GetBuffer method is called.
 old-location: rdp\irdpsrapiaudiostream_freebuffer.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 03926ABF-D5D0-4D13-B081-0085EC698E9F
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: FreeBuffer method [RDP], FreeBuffer method [RDP], IRDPSRAPIAudioStream interface, FreeBuffer,IRDPSRAPIAudioStream.FreeBuffer, IRDPSRAPIAudioStream, IRDPSRAPIAudioStream interface [RDP], FreeBuffer method, IRDPSRAPIAudioStream::FreeBuffer, rdp.irdpsrapiaudiostream_freebuffer, rdpencomapi/IRDPSRAPIAudioStream::FreeBuffer
+ms.keywords: FreeBuffer, FreeBuffer method [RDP], FreeBuffer method [RDP],IRDPSRAPIAudioStream interface, IRDPSRAPIAudioStream interface [RDP],FreeBuffer method, IRDPSRAPIAudioStream.FreeBuffer, IRDPSRAPIAudioStream::FreeBuffer, rdp.irdpsrapiaudiostream_freebuffer, rdpencomapi/IRDPSRAPIAudioStream::FreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIAudioStream::FreeBuffer method
+# IRDPSRAPIAudioStream::FreeBuffer
 
 
 ## -description

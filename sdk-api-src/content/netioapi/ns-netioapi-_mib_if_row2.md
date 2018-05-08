@@ -989,32 +989,28 @@ The maximum possible value for the <b>NET_IF_DIRECTION_TYPE</b> enumeration type
 A set of flags that provide information about the interface. These flags are combined with a bitwise OR operation. If none of the flags applies, then this member is set to zero. 
 
 
-
-#### HardwareInterface
+### -field InterfaceAndOperStatusFlags.HardwareInterface
 
 <b>Type: <b>BOOLEAN</b>
 </b>
 Set if the network interface is for hardware.
 
 
-
-#### FilterInterface
+### -field InterfaceAndOperStatusFlags.FilterInterface
 
 <b>Type: <b>BOOLEAN</b>
 </b>
 Set if the network interface is for a filter module.
 
 
-
-#### ConnectorPresent
+### -field InterfaceAndOperStatusFlags.ConnectorPresent
 
 <b>Type: <b>BOOLEAN</b>
 </b>
 Set if a connector is present on the network interface. This value is set if there is a physical network adapter. 
 
 
-
-#### NotAuthenticated
+### -field InterfaceAndOperStatusFlags.NotAuthenticated
 
 <b>Type: <b>BOOLEAN</b>
 </b>
@@ -1022,32 +1018,28 @@ Set if the default port for the network interface is not authenticated. If a net
 Although this applies to both wired and wireless network connections, authentication is more common for wireless network connections. 
 
 
-
-#### NotMediaConnected
+### -field InterfaceAndOperStatusFlags.NotMediaConnected
 
 <b>Type: <b>BOOLEAN</b>
 </b>
 Set if the network interface is not in a media-connected state. If a network cable is unplugged for a wired network, this would be set. For a wireless network, this is set for the network adapter that is not connected to a network.
 
 
-
-#### Paused
+### -field InterfaceAndOperStatusFlags.Paused
 
 <b>Type: <b>BOOLEAN</b>
 </b>
 Set if the network stack for the network interface is in the paused or pausing state. This does not mean that the computer is in a hibernated state.
 
 
-
-#### LowPower
+### -field InterfaceAndOperStatusFlags.LowPower
 
 <b>Type: <b>BOOLEAN</b>
 </b>
 Set if the network interface is in a low power state.
 
 
-
-#### EndPointInterface
+### -field InterfaceAndOperStatusFlags.EndPointInterface
 
 <b>Type: <b>BOOLEAN</b>
 </b>

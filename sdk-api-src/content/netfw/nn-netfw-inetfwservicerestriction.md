@@ -7,8 +7,8 @@ old-location: ics\inetfwservicerestriction.htm
 old-project: ICS
 ms.assetid: e426cae9-8c39-44cf-bd48-3b385fdfbdf7
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwServiceRestriction, INetFwServiceRestriction interface [ICS/ICF], INetFwServiceRestriction interface [ICS/ICF], described, ics.inetfwservicerestriction, netfw/INetFwServiceRestriction
+ms.date: 5/1/2018
+ms.keywords: INetFwServiceRestriction, INetFwServiceRestriction interface [ICS/ICF], INetFwServiceRestriction interface [ICS/ICF],described, ics.inetfwservicerestriction, netfw/INetFwServiceRestriction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

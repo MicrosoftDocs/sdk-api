@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_OrbitalPosition
-title: IDVBSLocator::put_OrbitalPosition method
+title: IDVBSLocator::put_OrbitalPosition
 author: windows-driver-content
 description: The put_OrbitalPosition method sets the setting for the satellite's orbital position.
 old-location: mstv\idvbslocator_put_orbitalposition.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2de4d67c-5d99-47c2-99bf-e4f40c6247a5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBSLocator, IDVBSLocator interface [Microsoft TV Technologies], put_OrbitalPosition method, IDVBSLocator::put_OrbitalPosition, IDVBSLocatorput_OrbitalPosition, mstv.idvbslocator_put_orbitalposition, put_OrbitalPosition method [Microsoft TV Technologies], put_OrbitalPosition method [Microsoft TV Technologies], IDVBSLocator interface, put_OrbitalPosition,IDVBSLocator.put_OrbitalPosition, tuner/IDVBSLocator::put_OrbitalPosition
+ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_OrbitalPosition method, IDVBSLocator.put_OrbitalPosition, IDVBSLocator::put_OrbitalPosition, IDVBSLocatorput_OrbitalPosition, mstv.idvbslocator_put_orbitalposition, put_OrbitalPosition, put_OrbitalPosition method [Microsoft TV Technologies], put_OrbitalPosition method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_OrbitalPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBSLocator::put_OrbitalPosition method
+# IDVBSLocator::put_OrbitalPosition
 
 
 ## -description

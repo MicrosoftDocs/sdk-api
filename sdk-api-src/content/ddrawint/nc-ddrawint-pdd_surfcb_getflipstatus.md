@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ec556891-e091-4c52-a155-cb6ba8011f71
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DdGetFlipStatus, DdGetFlipStatus callback function [Display Devices], PDD_SURFCB_GETFLIPSTATUS, ddfncs_129ef755-b85d-4f99-b62b-87124364c283.xml, ddrawint/DdGetFlipStatus, display.ddgetflipstatus
+ms.keywords: DdGetFlipStatus, DdGetFlipStatus callback function [Display Devices], PDD_SURFCB_GETFLIPSTATUS, PDD_SURFCB_GETFLIPSTATUS callback, ddfncs_129ef755-b85d-4f99-b62b-87124364c283.xml, ddrawint/DdGetFlipStatus, display.ddgetflipstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PDD_SURFCB_GETFLIPSTATUS callback
+# PDD_SURFCB_GETFLIPSTATUS callback function
 
 
 ## -description

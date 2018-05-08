@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider2.ShowContextMenu
-title: ITextRangeProvider2::ShowContextMenu method
+title: ITextRangeProvider2::ShowContextMenu
 author: windows-driver-content
 description: Programmatically invokes a context menu on the target element.
 old-location: winauto\uiauto_ITextRangeProvider2_ShowContextMenu.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7CE8B351-6103-1A73-8E74-7B21C90EC953
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITextRangeProvider2, ITextRangeProvider2 interface [Windows Accessibility], ShowContextMenu method, ITextRangeProvider2::ShowContextMenu, ShowContextMenu method [Windows Accessibility], ShowContextMenu method [Windows Accessibility], ITextRangeProvider2 interface, ShowContextMenu,ITextRangeProvider2.ShowContextMenu, uiautomationcore/ITextRangeProvider2::ShowContextMenu, winauto.uiauto_ITextRangeProvider2_ShowContextMenu
+ms.keywords: ITextRangeProvider2 interface [Windows Accessibility],ShowContextMenu method, ITextRangeProvider2.ShowContextMenu, ITextRangeProvider2::ShowContextMenu, ShowContextMenu, ShowContextMenu method [Windows Accessibility], ShowContextMenu method [Windows Accessibility],ITextRangeProvider2 interface, uiautomationcore/ITextRangeProvider2::ShowContextMenu, winauto.uiauto_ITextRangeProvider2_ShowContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRangeProvider2::ShowContextMenu method
+# ITextRangeProvider2::ShowContextMenu
 
 
 ## -description

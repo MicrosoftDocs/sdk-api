@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetEmulatedCaps
-title: IDirectDrawVideo::GetEmulatedCaps method
+title: IDirectDrawVideo::GetEmulatedCaps
 author: windows-driver-content
 description: The GetEmulatedCaps method retrieves a DirectDraw-defined DDCAPS structure containing the emulated capabilities.
 old-location: dshow\idirectdrawvideo_getemulatedcaps.htm
 old-project: DirectShow
 ms.assetid: 623cd000-6194-458d-8ef1-5eca202756c1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetEmulatedCaps method [DirectShow], GetEmulatedCaps method [DirectShow], IDirectDrawVideo interface, GetEmulatedCaps,IDirectDrawVideo.GetEmulatedCaps, IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], GetEmulatedCaps method, IDirectDrawVideo::GetEmulatedCaps, IDirectDrawVideoGetEmulatedCaps, amvideo/IDirectDrawVideo::GetEmulatedCaps, dshow.idirectdrawvideo_getemulatedcaps
+ms.date: 4/30/2018
+ms.keywords: GetEmulatedCaps, GetEmulatedCaps method [DirectShow], GetEmulatedCaps method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetEmulatedCaps method, IDirectDrawVideo.GetEmulatedCaps, IDirectDrawVideo::GetEmulatedCaps, IDirectDrawVideoGetEmulatedCaps, amvideo/IDirectDrawVideo::GetEmulatedCaps, dshow.idirectdrawvideo_getemulatedcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawVideo::GetEmulatedCaps method
+# IDirectDrawVideo::GetEmulatedCaps
 
 
 ## -description

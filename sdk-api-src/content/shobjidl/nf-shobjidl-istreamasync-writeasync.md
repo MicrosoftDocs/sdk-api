@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IStreamAsync.WriteAsync
-title: IStreamAsync::WriteAsync method
+title: IStreamAsync::WriteAsync
 author: windows-driver-content
 description: Writes information to a stream asynchronously. For example, the Shell implements this method on file items when transferring them asynchronously.
 old-location: shell\IStreamAsync_WriteAsync.htm
 old-project: shell
 ms.assetid: c5004923-191b-4ec1-83af-f066209c786a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IStreamAsync, IStreamAsync interface [Windows Shell], WriteAsync method, IStreamAsync::WriteAsync, WriteAsync method [Windows Shell], WriteAsync method [Windows Shell], IStreamAsync interface, WriteAsync,IStreamAsync.WriteAsync, _shell_IStreamAsync_WriteAsync, shell.IStreamAsync_WriteAsync, shobjidl/IStreamAsync::WriteAsync
+ms.date: 5/3/2018
+ms.keywords: IStreamAsync interface [Windows Shell],WriteAsync method, IStreamAsync.WriteAsync, IStreamAsync::WriteAsync, WriteAsync, WriteAsync method [Windows Shell], WriteAsync method [Windows Shell],IStreamAsync interface, _shell_IStreamAsync_WriteAsync, shell.IStreamAsync_WriteAsync, shobjidl/IStreamAsync::WriteAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IStreamAsync::WriteAsync method
+# IStreamAsync::WriteAsync
 
 
 ## -description

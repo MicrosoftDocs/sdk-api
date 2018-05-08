@@ -7,8 +7,8 @@ old-location: dshow\ivmrmixerbitmap.htm
 old-project: DirectShow
 ms.assetid: ac7da3f9-2c17-4517-bb64-6b56257a65c3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRMixerBitmap, IVMRMixerBitmap interface [DirectShow], IVMRMixerBitmap interface [DirectShow], described, IVMRMixerBitmapInterface, dshow.ivmrmixerbitmap, strmif/IVMRMixerBitmap
+ms.date: 4/30/2018
+ms.keywords: IVMRMixerBitmap, IVMRMixerBitmap interface [DirectShow], IVMRMixerBitmap interface [DirectShow],described, IVMRMixerBitmapInterface, dshow.ivmrmixerbitmap, strmif/IVMRMixerBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

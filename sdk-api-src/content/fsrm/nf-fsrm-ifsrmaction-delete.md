@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmAction.Delete
-title: IFsrmAction::Delete method
+title: IFsrmAction::Delete
 author: windows-driver-content
 description: Removes the action from the quota or file screen's list of actions.
 old-location: fsrm\ifsrmaction_delete.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 66d17a40-704d-46e6-b8bb-ae7f80e52fa5
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Delete method [File Server Resource Manager], Delete method [File Server Resource Manager], IFsrmAction interface, Delete,IFsrmAction.Delete, IFsrmAction, IFsrmAction interface [File Server Resource Manager], Delete method, IFsrmAction::Delete, fs.ifsrmaction_delete, fsrm.ifsrmaction_delete, fsrm/IFsrmAction::Delete
+ms.keywords: Delete, Delete method [File Server Resource Manager], Delete method [File Server Resource Manager],IFsrmAction interface, IFsrmAction interface [File Server Resource Manager],Delete method, IFsrmAction.Delete, IFsrmAction::Delete, fs.ifsrmaction_delete, fsrm.ifsrmaction_delete, fsrm/IFsrmAction::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmAction::Delete method
+# IFsrmAction::Delete
 
 
 ## -description

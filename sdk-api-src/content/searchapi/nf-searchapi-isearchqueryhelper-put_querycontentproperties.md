@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryContentProperties
-title: ISearchQueryHelper::put_QueryContentProperties method
+title: ISearchQueryHelper::put_QueryContentProperties
 author: windows-driver-content
 description: Sets the properties to include in the query if search terms do not explicitly specify properties.
 old-location: search\_search_ISearchQueryHelper_put_QueryContentProperties.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querycontentproperties.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchQueryHelper, ISearchQueryHelper interface [search], put_QueryContentProperties method, ISearchQueryHelper::put_QueryContentProperties, _search_ISearchQueryHelper_put_QueryContentProperties, put_QueryContentProperties method [search], put_QueryContentProperties method [search], ISearchQueryHelper interface, put_QueryContentProperties,ISearchQueryHelper.put_QueryContentProperties, search._search_ISearchQueryHelper_put_QueryContentProperties, searchapi/ISearchQueryHelper::put_QueryContentProperties
+ms.date: 5/4/2018
+ms.keywords: ISearchQueryHelper interface [search],put_QueryContentProperties method, ISearchQueryHelper.put_QueryContentProperties, ISearchQueryHelper::put_QueryContentProperties, _search_ISearchQueryHelper_put_QueryContentProperties, put_QueryContentProperties, put_QueryContentProperties method [search], put_QueryContentProperties method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryContentProperties, searchapi/ISearchQueryHelper::put_QueryContentProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchQueryHelper::put_QueryContentProperties method
+# ISearchQueryHelper::put_QueryContentProperties
 
 
 ## -description

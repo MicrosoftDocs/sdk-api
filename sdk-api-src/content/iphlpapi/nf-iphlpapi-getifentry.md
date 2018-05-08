@@ -7,7 +7,7 @@ old-location: iphlp\getifentry.htm
 old-project: IpHlp
 ms.assetid: bf16588d-3756-469e-afa2-e2e3dd537047
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: GetIfEntry, GetIfEntry function [IP Helper], _iphlp_getifentry, iphlp.getifentry, iphlpapi/GetIfEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

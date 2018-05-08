@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtensions.get_Count
-title: IFaxInboundRoutingExtensions::get_Count method
+title: IFaxInboundRoutingExtensions::get_Count
 author: windows-driver-content
 description: The Count property represents the number of objects in the FaxInboundRoutingExtensions collection. This is the total number of inbound routing extensions associated with the fax server.
 old-location: fax\_mfax_faxinboundroutingextensions_count_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2gl0.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service], FaxInboundRoutingExtensions object, FaxInboundRoutingExtensions object [Fax Service], Count property, IFaxInboundRoutingExtensions, IFaxInboundRoutingExtensions::get_Count, _mfax_faxinboundroutingextensions.count, fax._mfax_faxinboundroutingextensions_count, fax._mfax_faxinboundroutingextensions_count_vb, get_Count,IFaxInboundRoutingExtensions.get_Count
+ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxInboundRoutingExtensions object, FaxInboundRoutingExtensions object [Fax Service],Count property, FaxInboundRoutingExtensions.Count, IFaxInboundRoutingExtensions.get_Count, IFaxInboundRoutingExtensions::get_Count, _mfax_faxinboundroutingextensions.count, fax._mfax_faxinboundroutingextensions_count, fax._mfax_faxinboundroutingextensions_count_vb, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxInboundRoutingExtensions::get_Count method
+# IFaxInboundRoutingExtensions::get_Count
 
 
 ## -description

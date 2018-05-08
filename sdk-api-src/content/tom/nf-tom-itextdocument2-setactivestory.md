@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.SetActiveStory
-title: ITextDocument2::SetActiveStory method
+title: ITextDocument2::SetActiveStory
 author: windows-driver-content
 description: Sets the active story; that is, the story that receives keyboard and mouse input.
 old-location: controls\itextdocument2_setactivestory.htm
 old-project: Controls
 ms.assetid: 2c71673c-5119-4906-99e0-1a2aa04589e1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], SetActiveStory method, ITextDocument2::SetActiveStory, SetActiveStory method [Windows Controls], SetActiveStory method [Windows Controls], ITextDocument2 interface, SetActiveStory,ITextDocument2.SetActiveStory, controls.itextdocument2_setactivestory, tom/ITextDocument2::SetActiveStory
+ms.date: 4/27/2018
+ms.keywords: ITextDocument2 interface [Windows Controls],SetActiveStory method, ITextDocument2.SetActiveStory, ITextDocument2::SetActiveStory, SetActiveStory, SetActiveStory method [Windows Controls], SetActiveStory method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setactivestory, tom/ITextDocument2::SetActiveStory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::SetActiveStory method
+# ITextDocument2::SetActiveStory
 
 
 ## -description

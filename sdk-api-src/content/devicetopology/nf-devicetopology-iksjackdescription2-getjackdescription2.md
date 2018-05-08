@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IKsJackDescription2.GetJackDescription2
-title: IKsJackDescription2::GetJackDescription2 method
+title: IKsJackDescription2::GetJackDescription2
 author: windows-driver-content
 description: The GetJackDescription2 method gets the description of a specified audio jack.
 old-location: coreaudio\iksjackdescription2_getjackdescription2.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 724a75c2-22be-431c-b29a-8bf916d085e7
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetJackDescription2 method [Core Audio], GetJackDescription2 method [Core Audio], IKsJackDescription2 interface, GetJackDescription2,IKsJackDescription2.GetJackDescription2, IKsJackDescription2, IKsJackDescription2 interface [Core Audio], GetJackDescription2 method, IKsJackDescription2::GetJackDescription2, coreaudio.iksjackdescription2_getjackdescription2, devicetopology/IKsJackDescription2::GetJackDescription2
+ms.keywords: GetJackDescription2, GetJackDescription2 method [Core Audio], GetJackDescription2 method [Core Audio],IKsJackDescription2 interface, IKsJackDescription2 interface [Core Audio],GetJackDescription2 method, IKsJackDescription2.GetJackDescription2, IKsJackDescription2::GetJackDescription2, coreaudio.iksjackdescription2_getjackdescription2, devicetopology/IKsJackDescription2::GetJackDescription2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IKsJackDescription2::GetJackDescription2 method
+# IKsJackDescription2::GetJackDescription2
 
 
 ## -description

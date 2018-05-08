@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwMgr.RestoreDefaults
-title: INetFwMgr::RestoreDefaults method
+title: INetFwMgr::RestoreDefaults
 author: windows-driver-content
 description: Restores the local configuration to its default, installed state.
 old-location: ics\inetfwmgr_restoredefaults.htm
 old-project: ICS
 ms.assetid: ed2fd6b6-e449-4bed-aeb4-eb4345f67b12
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwMgr, INetFwMgr interface [ICS/ICF], RestoreDefaults method, INetFwMgr::RestoreDefaults, RestoreDefaults method [ICS/ICF], RestoreDefaults method [ICS/ICF], INetFwMgr interface, RestoreDefaults,INetFwMgr.RestoreDefaults, ics.inetfwmgr_restoredefaults, netfw/INetFwMgr::RestoreDefaults
+ms.date: 5/1/2018
+ms.keywords: INetFwMgr interface [ICS/ICF],RestoreDefaults method, INetFwMgr.RestoreDefaults, INetFwMgr::RestoreDefaults, RestoreDefaults, RestoreDefaults method [ICS/ICF], RestoreDefaults method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_restoredefaults, netfw/INetFwMgr::RestoreDefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwMgr::RestoreDefaults method
+# INetFwMgr::RestoreDefaults
 
 
 ## -description

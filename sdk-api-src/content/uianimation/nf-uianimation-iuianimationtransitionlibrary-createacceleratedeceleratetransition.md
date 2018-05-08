@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateAccelerateDecelerateTransition
-title: IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition method
+title: IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition
 author: windows-driver-content
 description: Creates an accelerate-decelerate transition.
 old-location: uianimation\iuianimationtransitionlibrary_createacceleratedeceleratetransition.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 97a0c6cc-991b-464f-b000-1d1199c5f4de
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateAccelerateDecelerateTransition method [Windows Animation], CreateAccelerateDecelerateTransition method [Windows Animation], IUIAnimationTransitionLibrary interface, CreateAccelerateDecelerateTransition,IUIAnimationTransitionLibrary.CreateAccelerateDecelerateTransition, IUIAnimationTransitionLibrary, IUIAnimationTransitionLibrary interface [Windows Animation], CreateAccelerateDecelerateTransition method, IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition, uianimation.iuianimationtransitionlibrary_createacceleratedeceleratetransition, uianimation/IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition
+ms.keywords: CreateAccelerateDecelerateTransition, CreateAccelerateDecelerateTransition method [Windows Animation], CreateAccelerateDecelerateTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateAccelerateDecelerateTransition method, IUIAnimationTransitionLibrary.CreateAccelerateDecelerateTransition, IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition, uianimation.iuianimationtransitionlibrary_createacceleratedeceleratetransition, uianimation/IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition method
+# IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition
 
 
 ## -description

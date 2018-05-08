@@ -7,7 +7,7 @@ old-location: mf\mft_registration_info.htm
 old-project: medfound
 ms.assetid: 7d610edf-89e3-4ff3-9ad8-b92ee50df522
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MFT_REGISTRATION_INFO, MFT_REGISTRATION_INFO structure [Media Foundation], _MFT_REGISTRATION_INFO, mf.mft_registration_info, mfidl/MFT_REGISTRATION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

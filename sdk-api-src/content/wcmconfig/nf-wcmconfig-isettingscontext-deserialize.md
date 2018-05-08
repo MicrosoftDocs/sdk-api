@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.Deserialize
-title: ISettingsContext::Deserialize method
+title: ISettingsContext::Deserialize
 author: windows-driver-content
 description: Deserializes the data in the stream that is provided to this context.
 old-location: smi\isettingscontext_deserialize.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 382f2864-047e-4095-929b-a8b67773eefb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Deserialize method [SMI], Deserialize method [SMI], ISettingsContext interface, Deserialize,ISettingsContext.Deserialize, ISettingsContext, ISettingsContext interface [SMI], Deserialize method, ISettingsContext::Deserialize, smi.isettingscontext_deserialize, wcmconfig/ISettingsContext::Deserialize
+ms.keywords: Deserialize, Deserialize method [SMI], Deserialize method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],Deserialize method, ISettingsContext.Deserialize, ISettingsContext::Deserialize, smi.isettingscontext_deserialize, wcmconfig/ISettingsContext::Deserialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsContext::Deserialize method
+# ISettingsContext::Deserialize
 
 
 ## -description

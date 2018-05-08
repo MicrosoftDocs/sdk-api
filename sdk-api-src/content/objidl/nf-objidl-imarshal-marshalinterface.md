@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMarshal.MarshalInterface
-title: IMarshal::MarshalInterface method
+title: IMarshal::MarshalInterface
 author: windows-driver-content
 description: Marshals an interface pointer.
 old-location: com\imarshal_marshalinterface.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c48a7123-bd00-4ff3-8880-7fc4b99e4299
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMarshal, IMarshal interface [COM], MarshalInterface method, IMarshal::MarshalInterface, MarshalInterface method [COM], MarshalInterface method [COM], IMarshal interface, MarshalInterface,IMarshal.MarshalInterface, _com_imarshal_marshalinterface, com.imarshal_marshalinterface, objidlbase/IMarshal::MarshalInterface
+ms.keywords: IMarshal interface [COM],MarshalInterface method, IMarshal.MarshalInterface, IMarshal::MarshalInterface, MarshalInterface, MarshalInterface method [COM], MarshalInterface method [COM],IMarshal interface, _com_imarshal_marshalinterface, com.imarshal_marshalinterface, objidlbase/IMarshal::MarshalInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMarshal::MarshalInterface method
+# IMarshal::MarshalInterface
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: cd6f28a3-9998-40d7-a3e8-dab0cf3991a8
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509PublicKey, IX509PublicKey interface [Security], IX509PublicKey interface [Security], described, certenroll/IX509PublicKey, security.ix509publickey
+ms.keywords: IX509PublicKey, IX509PublicKey interface [Security], IX509PublicKey interface [Security],described, certenroll/IX509PublicKey, security.ix509publickey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

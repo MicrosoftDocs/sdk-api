@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.get_LogOverwrite
-title: IDataCollector::get_LogOverwrite method
+title: IDataCollector::get_LogOverwrite
 author: windows-driver-content
 description: Retrieves or sets a value that indicates if PLA should overwrite the current file.
 old-location: pla\idatacollector_logoverwrite.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 17f40639-2e24-4a7e-b934-036d8595bdbf
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollector, IDataCollector interface [PLA], LogOverwrite property, IDataCollector.LogOverwrite, IDataCollector::get_LogOverwrite, IDataCollector::put_LogOverwrite, LogOverwrite property [PLA], LogOverwrite property [PLA], IDataCollector interface, base.idatacollector_logoverwrite, get_LogOverwrite,IDataCollector.get_LogOverwrite, pla.idatacollector_logoverwrite, pla/IDataCollector::LogOverwrite, pla/IDataCollector::get_LogOverwrite, pla/IDataCollector::put_LogOverwrite
+ms.keywords: IDataCollector interface [PLA],LogOverwrite property, IDataCollector.LogOverwrite, IDataCollector.get_LogOverwrite, IDataCollector::LogOverwrite, IDataCollector::get_LogOverwrite, IDataCollector::put_LogOverwrite, LogOverwrite property [PLA], LogOverwrite property [PLA],IDataCollector interface, base.idatacollector_logoverwrite, get_LogOverwrite, pla.idatacollector_logoverwrite, pla/IDataCollector::LogOverwrite, pla/IDataCollector::get_LogOverwrite, pla/IDataCollector::put_LogOverwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollector::get_LogOverwrite method
+# IDataCollector::get_LogOverwrite
 
 
 ## -description

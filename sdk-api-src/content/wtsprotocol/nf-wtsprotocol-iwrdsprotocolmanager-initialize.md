@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.Initialize
-title: IWRdsProtocolManager::Initialize method
+title: IWRdsProtocolManager::Initialize
 author: windows-driver-content
 description: Initializes the protocol manager.
 old-location: termserv\iwrdsprotocolmanager_initialize.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: c63c794c-41a0-4f07-be93-ba24dc156ca2
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolManager, IWRdsProtocolManager interface [Remote Desktop Services], Initialize method, IWRdsProtocolManager::Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services], IWRdsProtocolManager interface, Initialize,IWRdsProtocolManager.Initialize, termserv.iwrdsprotocolmanager_initialize, wtsprotocol/IWRdsProtocolManager::Initialize
+ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],Initialize method, IWRdsProtocolManager.Initialize, IWRdsProtocolManager::Initialize, Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_initialize, wtsprotocol/IWRdsProtocolManager::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolManager::Initialize method
+# IWRdsProtocolManager::Initialize
 
 
 ## -description

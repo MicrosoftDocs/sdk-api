@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IStemmer.GetLicenseToUse
-title: IStemmer::GetLicenseToUse method
+title: IStemmer::GetLicenseToUse
 author: windows-driver-content
 description: Retrieves the license information for this IStemmer implementation.
 old-location: indexsrv\istemmer_getlicensetouse.htm
@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2ch1.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetLicenseToUse method [Indexing Service], GetLicenseToUse method [Indexing Service], IStemmer interface, GetLicenseToUse,IStemmer.GetLicenseToUse, IStemmer, IStemmer interface [Indexing Service], GetLicenseToUse method, IStemmer::GetLicenseToUse, _idxs_IStemmer_GetLicenseToUse, indexsrv.istemmer_getlicensetouse, indexsrv/IStemmer::GetLicenseToUse
+ms.keywords: GetLicenseToUse, GetLicenseToUse method [Indexing Service], GetLicenseToUse method [Indexing Service],IStemmer interface, IStemmer interface [Indexing Service],GetLicenseToUse method, IStemmer.GetLicenseToUse, IStemmer::GetLicenseToUse, _idxs_IStemmer_GetLicenseToUse, indexsrv.istemmer_getlicensetouse, indexsrv/IStemmer::GetLicenseToUse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IStemmer::GetLicenseToUse method
+# IStemmer::GetLicenseToUse
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerExit.GetCertificateProperty
-title: ICertServerExit::GetCertificateProperty method
+title: ICertServerExit::GetCertificateProperty
 author: windows-driver-content
 description: Returns a named property from a certificate.
 old-location: security\icertserverexit_getcertificateproperty.htm
 old-project: SecCrypto
 ms.assetid: 7a6185cd-fae5-4ee6-b403-c7613b31e48a
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CAType, CCertServerExit object [Security], GetCertificateProperty method, CRLIndex, CRLState, CRLSuffix, CertCount, CertState, CertSuffix, GetCertificateProperty method [Security], GetCertificateProperty method [Security], CCertServerExit object, GetCertificateProperty method [Security], ICertServerExit interface, GetCertificateProperty,ICertServerExit.GetCertificateProperty, ICertServerExit, ICertServerExit interface [Security], GetCertificateProperty method, ICertServerExit::GetCertificateProperty, MachineDNSName, ModuleRegistryLocation, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, PublicKeyAlgorithm, RawCACertificate, RawCRL, RawCertificate, RawPublicKey, RawPublicKeyAlgorithmParameters, RequestID, RequesterCAAccess, SanitizedCAName, SanitizedShortName, SerialNumber, _certsrv_icertserverexit_getcertificateproperty, certif/ICertServerExit::GetCertificateProperty, fUseDS, security.icertserverexit_getcertificateproperty
+ms.date: 4/30/2018
+ms.keywords: CAType, CCertServerExit object [Security],GetCertificateProperty method, CRLIndex, CRLState, CRLSuffix, CertCount, CertState, CertSuffix, GetCertificateProperty, GetCertificateProperty method [Security], GetCertificateProperty method [Security],CCertServerExit object, GetCertificateProperty method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateProperty method, ICertServerExit.GetCertificateProperty, ICertServerExit::GetCertificateProperty, MachineDNSName, ModuleRegistryLocation, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, PublicKeyAlgorithm, RawCACertificate, RawCRL, RawCertificate, RawPublicKey, RawPublicKeyAlgorithmParameters, RequestID, RequesterCAAccess, SanitizedCAName, SanitizedShortName, SerialNumber, _certsrv_icertserverexit_getcertificateproperty, certif/ICertServerExit::GetCertificateProperty, fUseDS, security.icertserverexit_getcertificateproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerExit::GetCertificateProperty method
+# ICertServerExit::GetCertificateProperty
 
 
 ## -description

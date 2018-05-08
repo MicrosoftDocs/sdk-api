@@ -1,14 +1,14 @@
 ---
 UID: NF:fhcfg.IFhTarget.GetNumericalProperty
-title: IFhTarget::GetNumericalProperty method
+title: IFhTarget::GetNumericalProperty
 author: windows-driver-content
 description: Retrieves a numeric property of the File History backup target that is represented by an IFhTarget interface.
 old-location: winprog\ifhtarget_getnumericalproperty.htm
 old-project: DevNotes
 ms.assetid: 3FA2F3AB-A406-4F19-AA5A-0D5596F1BF2C
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: GetNumericalProperty method [Windows API], GetNumericalProperty method [Windows API], IFhTarget interface, GetNumericalProperty,IFhTarget.GetNumericalProperty, IFhTarget, IFhTarget interface [Windows API], GetNumericalProperty method, IFhTarget::GetNumericalProperty, fhcfg/IFhTarget::GetNumericalProperty, winprog.ifhtarget_getnumericalproperty
+ms.date: 5/4/2018
+ms.keywords: GetNumericalProperty, GetNumericalProperty method [Windows API], GetNumericalProperty method [Windows API],IFhTarget interface, IFhTarget interface [Windows API],GetNumericalProperty method, IFhTarget.GetNumericalProperty, IFhTarget::GetNumericalProperty, fhcfg/IFhTarget::GetNumericalProperty, winprog.ifhtarget_getnumericalproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFhTarget::GetNumericalProperty method
+# IFhTarget::GetNumericalProperty
 
 
 ## -description

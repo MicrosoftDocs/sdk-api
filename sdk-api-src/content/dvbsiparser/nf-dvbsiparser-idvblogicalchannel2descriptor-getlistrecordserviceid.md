@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListRecordServiceId
-title: IDvbLogicalChannel2Descriptor::GetListRecordServiceId method
+title: IDvbLogicalChannel2Descriptor::GetListRecordServiceId
 author: windows-driver-content
 description: Gets the service identifier from a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistrecordserviceid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ebd81791-558d-4380-af4c-d8380f404771
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetListRecordServiceId method [Microsoft TV Technologies], GetListRecordServiceId method [Microsoft TV Technologies], IDvbLogicalChannel2Descriptor interface, GetListRecordServiceId,IDvbLogicalChannel2Descriptor.GetListRecordServiceId, IDvbLogicalChannel2Descriptor, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies], GetListRecordServiceId method, IDvbLogicalChannel2Descriptor::GetListRecordServiceId, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordServiceId, mstv.idvblogicalchannel2descriptor_getlistrecordserviceid
+ms.keywords: GetListRecordServiceId, GetListRecordServiceId method [Microsoft TV Technologies], GetListRecordServiceId method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListRecordServiceId method, IDvbLogicalChannel2Descriptor.GetListRecordServiceId, IDvbLogicalChannel2Descriptor::GetListRecordServiceId, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordServiceId, mstv.idvblogicalchannel2descriptor_getlistrecordserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLogicalChannel2Descriptor::GetListRecordServiceId method
+# IDvbLogicalChannel2Descriptor::GetListRecordServiceId
 
 
 ## -description

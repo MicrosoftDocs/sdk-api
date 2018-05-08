@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetStatus
-title: ITfContextOwner::GetStatus method
+title: ITfContextOwner::GetStatus
 author: windows-driver-content
 description: The ITfContextOwner::GetStatus method obtains the status of a document. The document status is returned through the TS_STATUS structure.
 old-location: tsf\itfcontextowner_getstatus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: ce30ec8a-48fe-4ec7-a7e1-2a0cf084097d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetStatus method [Text Services Framework], GetStatus method [Text Services Framework], ITfContextOwner interface, GetStatus,ITfContextOwner.GetStatus, ITfContextOwner, ITfContextOwner interface [Text Services Framework], GetStatus method, ITfContextOwner::GetStatus, _tsf_itfcontextowner_getstatus_ref, msctf/ITfContextOwner::GetStatus, tsf.itfcontextowner_getstatus
+ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetStatus method, ITfContextOwner.GetStatus, ITfContextOwner::GetStatus, _tsf_itfcontextowner_getstatus_ref, msctf/ITfContextOwner::GetStatus, tsf.itfcontextowner_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwner::GetStatus method
+# ITfContextOwner::GetStatus
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialOriginY
-title: IInertiaProcessor::put_InitialOriginY method
+title: IInertiaProcessor::put_InitialOriginY
 author: windows-driver-content
 description: The InitialOriginY property specifies the starting vertical location for a target with inertia.
 old-location: wintouch\iinertiaprocessor_initialoriginy.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 4b817f8b-79e9-4409-a6b2-2096759bab59
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], InitialOriginY property, IInertiaProcessor.InitialOriginY, IInertiaProcessor::get_InitialOriginY, IInertiaProcessor::put_InitialOriginY, InitialOriginY property [Windows Touch], InitialOriginY property [Windows Touch], IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialOriginY, manipulations/IInertiaProcessor::get_InitialOriginY, manipulations/IInertiaProcessor::put_InitialOriginY, put_InitialOriginY,IInertiaProcessor.put_InitialOriginY, wintouch.iinertiaprocessor_initialoriginy
+ms.keywords: IInertiaProcessor interface [Windows Touch],InitialOriginY property, IInertiaProcessor.InitialOriginY, IInertiaProcessor.put_InitialOriginY, IInertiaProcessor::InitialOriginY, IInertiaProcessor::get_InitialOriginY, IInertiaProcessor::put_InitialOriginY, InitialOriginY property [Windows Touch], InitialOriginY property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialOriginY, manipulations/IInertiaProcessor::get_InitialOriginY, manipulations/IInertiaProcessor::put_InitialOriginY, put_InitialOriginY, wintouch.iinertiaprocessor_initialoriginy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::put_InitialOriginY method
+# IInertiaProcessor::put_InitialOriginY
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeDashOffset
-title: IXpsOMPath::SetStrokeDashOffset method
+title: IXpsOMPath::SetStrokeDashOffset
 author: windows-driver-content
 description: Sets the offset from the origin of the stroke to the starting point of the dash array pattern.
 old-location: xps\ixpsompath_setstrokedashoffset.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f6d222e4-9480-4dc7-9963-7dd637892281
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], SetStrokeDashOffset method, IXpsOMPath::SetStrokeDashOffset, SetStrokeDashOffset method [XPS Documents and Packaging], SetStrokeDashOffset method [XPS Documents and Packaging], IXpsOMPath interface, SetStrokeDashOffset,IXpsOMPath.SetStrokeDashOffset, xps.ixpsompath_setstrokedashoffset, xpsobjectmodel/IXpsOMPath::SetStrokeDashOffset
+ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeDashOffset method, IXpsOMPath.SetStrokeDashOffset, IXpsOMPath::SetStrokeDashOffset, SetStrokeDashOffset, SetStrokeDashOffset method [XPS Documents and Packaging], SetStrokeDashOffset method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokedashoffset, xpsobjectmodel/IXpsOMPath::SetStrokeDashOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::SetStrokeDashOffset method
+# IXpsOMPath::SetStrokeDashOffset
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_XmlText
-title: IRegistrationInfo::put_XmlText method
+title: IRegistrationInfo::put_XmlText
 author: windows-driver-content
 description: Gets or sets an XML-formatted version of the registration information for the task.
 old-location: taskschd\iregistrationinfo_xmltext.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: ad7de0d3-c5df-49d7-9cc9-d52e30844615
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], XmlText property, IRegistrationInfo.XmlText, IRegistrationInfo::get_XmlText, IRegistrationInfo::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler], IRegistrationInfo interface, put_XmlText,IRegistrationInfo.put_XmlText, taskschd.iregistrationinfo_xmltext, taskschd/IRegistrationInfo::XmlText, taskschd/IRegistrationInfo::get_XmlText, taskschd/IRegistrationInfo::put_XmlText
+ms.keywords: IRegistrationInfo interface [Task Scheduler],XmlText property, IRegistrationInfo.XmlText, IRegistrationInfo.put_XmlText, IRegistrationInfo::XmlText, IRegistrationInfo::get_XmlText, IRegistrationInfo::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],IRegistrationInfo interface, put_XmlText, taskschd.iregistrationinfo_xmltext, taskschd/IRegistrationInfo::XmlText, taskschd/IRegistrationInfo::get_XmlText, taskschd/IRegistrationInfo::put_XmlText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegistrationInfo::put_XmlText method
+# IRegistrationInfo::put_XmlText
 
 
 ## -description

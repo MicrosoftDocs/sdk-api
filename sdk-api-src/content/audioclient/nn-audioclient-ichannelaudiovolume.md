@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 0d0a20dc-5e5a-49a7-adc9-20aacb88368a
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IChannelAudioVolume, IChannelAudioVolume interface [Core Audio], IChannelAudioVolume interface [Core Audio], described, audioclient/IChannelAudioVolume, coreaudio.ichannelaudiovolume
+ms.keywords: IChannelAudioVolume, IChannelAudioVolume interface [Core Audio], IChannelAudioVolume interface [Core Audio],described, audioclient/IChannelAudioVolume, coreaudio.ichannelaudiovolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

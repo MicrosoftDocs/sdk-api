@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.UpdateCache
-title: IAzAuthorizationStore::UpdateCache method
+title: IAzAuthorizationStore::UpdateCache
 author: windows-driver-content
 description: Updates the cache of objects and object attributes to match the underlying policy store.
 old-location: security\azauthorizationstore_updatecache.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 1fd17040-f736-44a6-8a01-720f4c8fe9ac
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzAuthorizationStore object [Security], UpdateCache method, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], UpdateCache method, IAzAuthorizationStore::UpdateCache, UpdateCache method [Security], UpdateCache method [Security], AzAuthorizationStore object, UpdateCache method [Security], IAzAuthorizationStore interface, UpdateCache,IAzAuthorizationStore.UpdateCache, azroles/IAzAuthorizationStore::UpdateCache, security.azauthorizationstore_updatecache
+ms.keywords: AzAuthorizationStore object [Security],UpdateCache method, IAzAuthorizationStore interface [Security],UpdateCache method, IAzAuthorizationStore.UpdateCache, IAzAuthorizationStore::UpdateCache, UpdateCache, UpdateCache method [Security], UpdateCache method [Security],AzAuthorizationStore object, UpdateCache method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::UpdateCache, security.azauthorizationstore_updatecache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::UpdateCache method
+# IAzAuthorizationStore::UpdateCache
 
 
 ## -description

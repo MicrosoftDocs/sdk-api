@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetTotalAudioBlocks
-title: IRedbookDiscMaster::GetTotalAudioBlocks method
+title: IRedbookDiscMaster::GetTotalAudioBlocks
 author: windows-driver-content
 description: Retrieves the total number of blocks available for staging audio tracks. The total includes all block types, including blocks that may need to be allocated for track gaps.
 old-location: imapi\iredbookdiscmaster_gettotalaudioblocks.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: c4b0f02e-d881-4a4f-9356-d8232ef4c297
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetTotalAudioBlocks method [IMAPI], GetTotalAudioBlocks method [IMAPI], IRedbookDiscMaster interface, GetTotalAudioBlocks,IRedbookDiscMaster.GetTotalAudioBlocks, IRedbookDiscMaster, IRedbookDiscMaster interface [IMAPI], GetTotalAudioBlocks method, IRedbookDiscMaster::GetTotalAudioBlocks, _win32_iredbookdiscmaster_gettotalaudioblocks, base.iredbookdiscmaster_gettotalaudioblocks, imapi.iredbookdiscmaster_gettotalaudioblocks, imapi/IRedbookDiscMaster::GetTotalAudioBlocks
+ms.keywords: GetTotalAudioBlocks, GetTotalAudioBlocks method [IMAPI], GetTotalAudioBlocks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetTotalAudioBlocks method, IRedbookDiscMaster.GetTotalAudioBlocks, IRedbookDiscMaster::GetTotalAudioBlocks, _win32_iredbookdiscmaster_gettotalaudioblocks, base.iredbookdiscmaster_gettotalaudioblocks, imapi.iredbookdiscmaster_gettotalaudioblocks, imapi/IRedbookDiscMaster::GetTotalAudioBlocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRedbookDiscMaster::GetTotalAudioBlocks method
+# IRedbookDiscMaster::GetTotalAudioBlocks
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: security\cert_logotype_image_info.htm
 old-project: SecCrypto
 ms.assetid: d7116e54-dbf2-457e-8d33-1c0fd5641fe7
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCERT_LOGOTYPE_IMAGE_INFO, CERT_LOGOTYPE_BITS_IMAGE_RESOLUTION_CHOICE, CERT_LOGOTYPE_COLOR_IMAGE_INFO_CHOICE, CERT_LOGOTYPE_GRAY_SCALE_IMAGE_INFO_CHOICE, CERT_LOGOTYPE_IMAGE_INFO, CERT_LOGOTYPE_IMAGE_INFO structure [Security], CERT_LOGOTYPE_NO_IMAGE_RESOLUTION_CHOICE, CERT_LOGOTYPE_TABLE_SIZE_IMAGE_RESOLUTION_CHOICE, PCERT_LOGOTYPE_IMAGE_INFO, PCERT_LOGOTYPE_IMAGE_INFO structure pointer [Security], _CERT_LOGOTYPE_IMAGE_INFO, security.cert_logotype_image_info, wincrypt/CERT_LOGOTYPE_IMAGE_INFO, wincrypt/PCERT_LOGOTYPE_IMAGE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -154,19 +154,19 @@ The image resolution is provided in number of gray tones. The <b>dwTableSize</b>
  
 
 
-### -field pwszLanguage
-
-The address of a null-terminated IA5 string that contains the RFC 3066 language identifier that specifies the language of the image. This member is optional and may be <b>NULL</b>.
-
-
-#### - dwNumBits
+### -field DUMMYUNIONNAME.dwNumBits
 
 The resolution of the image, in bits per pixel. The member is only used if the <b>dwLogotypeImageResolutionChoice</b> contains <b>CERT_LOGOTYPE_NO_IMAGE_RESOLUTION_CHOICE</b>.
 
 
-#### - dwTableSize
+### -field DUMMYUNIONNAME.dwTableSize
 
 The resolution of the image, in number of gray tones. The member is only used if the <b>dwLogotypeImageResolutionChoice</b> contains <b>CERT_LOGOTYPE_TABLE_SIZE_IMAGE_RESOLUTION_CHOICE</b>.
+
+
+### -field pwszLanguage
+
+The address of a null-terminated IA5 string that contains the RFC 3066 language identifier that specifies the language of the image. This member is optional and may be <b>NULL</b>.
 
 
 ## -see-also

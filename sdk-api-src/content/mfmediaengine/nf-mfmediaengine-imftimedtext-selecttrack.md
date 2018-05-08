@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.SelectTrack
-title: IMFTimedText::SelectTrack method
+title: IMFTimedText::SelectTrack
 author: windows-driver-content
 description: Selects or deselects a track of text in the timed-text component.
 old-location: mf\imftimedtext_selecttrack.htm
 old-project: medfound
 ms.assetid: 868FE620-6FF3-4623-BB61-B47D0290D005
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTimedText, IMFTimedText interface [Media Foundation], SelectTrack method, IMFTimedText::SelectTrack, SelectTrack method [Media Foundation], SelectTrack method [Media Foundation], IMFTimedText interface, SelectTrack,IMFTimedText.SelectTrack, mf.imftimedtext_selecttrack, mfmediaengine/IMFTimedText::SelectTrack
+ms.date: 5/3/2018
+ms.keywords: IMFTimedText interface [Media Foundation],SelectTrack method, IMFTimedText.SelectTrack, IMFTimedText::SelectTrack, SelectTrack, SelectTrack method [Media Foundation], SelectTrack method [Media Foundation],IMFTimedText interface, mf.imftimedtext_selecttrack, mfmediaengine/IMFTimedText::SelectTrack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedText::SelectTrack method
+# IMFTimedText::SelectTrack
 
 
 ## -description

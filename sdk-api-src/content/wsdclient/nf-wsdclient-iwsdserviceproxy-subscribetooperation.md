@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.SubscribeToOperation
-title: IWSDServiceProxy::SubscribeToOperation method
+title: IWSDServiceProxy::SubscribeToOperation
 author: windows-driver-content
 description: Subscribes to a notification or solicit/response event.
 old-location: ncd\iwsdserviceproxy_subscribetooperation_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: d3294bd7-f3df-4571-92f6-eb6bc57240fb
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDServiceProxy, IWSDServiceProxy interface, SubscribeToOperation method, IWSDServiceProxy::SubscribeToOperation, SubscribeToOperation method, SubscribeToOperation method, IWSDServiceProxy interface, SubscribeToOperation,IWSDServiceProxy.SubscribeToOperation, ncd.iwsdserviceproxy_subscribetooperation_method, wsdclient/IWSDServiceProxy::SubscribeToOperation
+ms.keywords: IWSDServiceProxy interface,SubscribeToOperation method, IWSDServiceProxy.SubscribeToOperation, IWSDServiceProxy::SubscribeToOperation, SubscribeToOperation, SubscribeToOperation method, SubscribeToOperation method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_subscribetooperation_method, wsdclient/IWSDServiceProxy::SubscribeToOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxy::SubscribeToOperation method
+# IWSDServiceProxy::SubscribeToOperation
 
 
 ## -description

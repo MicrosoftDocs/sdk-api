@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.GetFormattedText
-title: ITextRange::GetFormattedText method
+title: ITextRange::GetFormattedText
 author: windows-driver-content
 description: Gets an ITextRange object with the specified range's formatted text.
 old-location: controls\ITextRange_GetFormattedText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getformattedtext.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetFormattedText method [Windows Controls], GetFormattedText method [Windows Controls], ITextRange interface, GetFormattedText,ITextRange.GetFormattedText, ITextRange, ITextRange interface [Windows Controls], GetFormattedText method, ITextRange::GetFormattedText, _win32_ITextRange_GetFormattedText, _win32_ITextRange_GetFormattedText_cpp, controls.ITextRange_GetFormattedText, controls._win32_ITextRange_GetFormattedText, tom/ITextRange::GetFormattedText
+ms.date: 4/27/2018
+ms.keywords: GetFormattedText, GetFormattedText method [Windows Controls], GetFormattedText method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetFormattedText method, ITextRange.GetFormattedText, ITextRange::GetFormattedText, _win32_ITextRange_GetFormattedText, _win32_ITextRange_GetFormattedText_cpp, controls.ITextRange_GetFormattedText, controls._win32_ITextRange_GetFormattedText, tom/ITextRange::GetFormattedText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::GetFormattedText method
+# ITextRange::GetFormattedText
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITcpConnectionInfo.get_Protocol
-title: IRDPSRAPITcpConnectionInfo::get_Protocol method
+title: IRDPSRAPITcpConnectionInfo::get_Protocol
 author: windows-driver-content
 description: Retrieves the protocol that is being used by the sharer or by the viewer for communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_protocol.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 1ca6d2db-bbd9-4332-bee6-7454a4c3cbea
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITcpConnectionInfo, IRDPSRAPITcpConnectionInfo interface [RDP], Protocol property, IRDPSRAPITcpConnectionInfo.Protocol, IRDPSRAPITcpConnectionInfo::get_Protocol, Protocol property [RDP], Protocol property [RDP], IRDPSRAPITcpConnectionInfo interface, Protocol property [RDP], RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP], Protocol property, get_Protocol,IRDPSRAPITcpConnectionInfo.get_Protocol, rdp.irdpsrapitcpconnectioninfo_protocol, rdpencomapi/IRDPSRAPITcpConnectionInfo::Protocol, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_Protocol
+ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],Protocol property, IRDPSRAPITcpConnectionInfo.Protocol, IRDPSRAPITcpConnectionInfo.get_Protocol, IRDPSRAPITcpConnectionInfo::Protocol, IRDPSRAPITcpConnectionInfo::get_Protocol, Protocol property [RDP], Protocol property [RDP],IRDPSRAPITcpConnectionInfo interface, Protocol property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],Protocol property, get_Protocol, rdp.irdpsrapitcpconnectioninfo_protocol, rdpencomapi/IRDPSRAPITcpConnectionInfo::Protocol, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_Protocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITcpConnectionInfo::get_Protocol method
+# IRDPSRAPITcpConnectionInfo::get_Protocol
 
 
 ## -description

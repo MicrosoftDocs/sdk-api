@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: d7022363-01e9-4675-9bd0-e9369d237c3c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_CLEAR_CONTEXT_FN, StorageAdapterClearContext, StorageAdapterClearContext callback function [Windows Biometric Framework API], secbiomet.storageadapterclearcontext, winbio_adapter/StorageAdapterClearContext
+ms.keywords: PIBIO_STORAGE_CLEAR_CONTEXT_FN, PIBIO_STORAGE_CLEAR_CONTEXT_FN callback, StorageAdapterClearContext, StorageAdapterClearContext callback function [Windows Biometric Framework API], secbiomet.storageadapterclearcontext, winbio_adapter/StorageAdapterClearContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_CLEAR_CONTEXT_FN callback
+# PIBIO_STORAGE_CLEAR_CONTEXT_FN callback function
 
 
 ## -description

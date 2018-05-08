@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.EndQuery
-title: IFunctionDiscoveryProvider::EndQuery method
+title: IFunctionDiscoveryProvider::EndQuery
 author: windows-driver-content
 description: Terminates a query being executed by a provider.
 old-location: ncd\ifunctiondiscoveryprovider_endquery_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: be19f2ac-037c-443b-b36f-68b9c9f132f8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EndQuery method, EndQuery method, IFunctionDiscoveryProvider interface, EndQuery,IFunctionDiscoveryProvider.EndQuery, IFunctionDiscoveryProvider, IFunctionDiscoveryProvider interface, EndQuery method, IFunctionDiscoveryProvider::EndQuery, functiondiscoveryprovider/IFunctionDiscoveryProvider::EndQuery, ncd.ifunctiondiscoveryprovider_endquery_method
+ms.keywords: EndQuery, EndQuery method, EndQuery method,IFunctionDiscoveryProvider interface, IFunctionDiscoveryProvider interface,EndQuery method, IFunctionDiscoveryProvider.EndQuery, IFunctionDiscoveryProvider::EndQuery, functiondiscoveryprovider/IFunctionDiscoveryProvider::EndQuery, ncd.ifunctiondiscoveryprovider_endquery_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionDiscoveryProvider::EndQuery method
+# IFunctionDiscoveryProvider::EndQuery
 
 
 ## -description

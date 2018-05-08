@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IViewObject.GetAdvise
-title: IViewObject::GetAdvise method
+title: IViewObject::GetAdvise
 author: windows-driver-content
 description: Retrieves the advisory connection on the object that was used in the most recent call to IViewObject::SetAdvise.
 old-location: com\iviewobject_getadvise.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c56f6cbb-d2ea-4db4-a660-db8b7540ac94
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetAdvise method [COM], GetAdvise method [COM], IViewObject interface, GetAdvise,IViewObject.GetAdvise, IViewObject, IViewObject interface [COM], GetAdvise method, IViewObject::GetAdvise, _ole_iviewobject_getadvise, com.iviewobject_getadvise, oleidl/IViewObject::GetAdvise
+ms.keywords: GetAdvise, GetAdvise method [COM], GetAdvise method [COM],IViewObject interface, IViewObject interface [COM],GetAdvise method, IViewObject.GetAdvise, IViewObject::GetAdvise, _ole_iviewobject_getadvise, com.iviewobject_getadvise, oleidl/IViewObject::GetAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IViewObject::GetAdvise method
+# IViewObject::GetAdvise
 
 
 ## -description

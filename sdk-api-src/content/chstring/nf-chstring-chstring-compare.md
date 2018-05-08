@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.Compare
-title: CHString::Compare method
+title: CHString::Compare
 author: windows-driver-content
 description: The Compare method uses the wcscmp function to compare this CHString string with another string.
 old-location: wmi\chstring_compare.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 6e587dd3-b3ae-4afa-9582-b3867d2fb7ef
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?Compare@CHString@@QBEHPBG@Z, ?Compare@CHString@@QEBAHPEBG@Z, CHString, CHString interface [Windows Management Instrumentation], Compare method, CHString::Compare, Compare method [Windows Management Instrumentation], Compare method [Windows Management Instrumentation], CHString interface, Compare,CHString.Compare, _hmm_chstring_compare, chstring/CHString::Compare, wmi.chstring_compare"
+ms.keywords: "?Compare@CHString@@QBEHPBG@Z, ?Compare@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],Compare method, CHString.Compare, CHString::Compare, Compare, Compare method [Windows Management Instrumentation], Compare method [Windows Management Instrumentation],CHString interface, _hmm_chstring_compare, chstring/CHString::Compare, wmi.chstring_compare"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::Compare method
+# CHString::Compare
 
 
 ## -description

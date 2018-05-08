@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.Clone
-title: ITextRangeProvider::Clone method
+title: ITextRangeProvider::Clone
 author: windows-driver-content
 description: Returns a new ITextRangeProvider identical to the original ITextRangeProvider and inheriting all properties of the original.
 old-location: winauto\uiauto_ITextRangeProvider_Clone.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: fe55f57b-a803-4008-adfb-b1900550d4cb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Clone method [Windows Accessibility], Clone method [Windows Accessibility], ITextRangeProvider interface, Clone,ITextRangeProvider.Clone, ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], Clone method, ITextRangeProvider::Clone, uiauto.uiauto_ITextRangeProvider_Clone, uiauto_ITextRangeProvider_Clone, uiautomationcore/ITextRangeProvider::Clone, winauto.uiauto_ITextRangeProvider_Clone
+ms.keywords: Clone, Clone method [Windows Accessibility], Clone method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],Clone method, ITextRangeProvider.Clone, ITextRangeProvider::Clone, uiauto.uiauto_ITextRangeProvider_Clone, uiauto_ITextRangeProvider_Clone, uiautomationcore/ITextRangeProvider::Clone, winauto.uiauto_ITextRangeProvider_Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRangeProvider::Clone method
+# ITextRangeProvider::Clone
 
 
 ## -description

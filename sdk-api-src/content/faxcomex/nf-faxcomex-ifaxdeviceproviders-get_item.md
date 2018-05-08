@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProviders.get_Item
-title: IFaxDeviceProviders::get_Item method
+title: IFaxDeviceProviders::get_Item
 author: windows-driver-content
 description: The IFaxDeviceProviders::get_Item property returns a FaxDeviceProvider object from the FaxDeviceProviders collection.
 old-location: fax\_mfax_faxdeviceproviders_item_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7fsd_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxDeviceProviders, IFaxDeviceProviders interface [Fax Service], get_Item method, IFaxDeviceProviders::get_Item, _mfax_faxdeviceproviders.item_cpp, fax._mfax_faxdeviceproviders_item_cpp, faxcomex/IFaxDeviceProviders::get_Item, get_Item method [Fax Service], get_Item method [Fax Service], IFaxDeviceProviders interface, get_Item,IFaxDeviceProviders.get_Item
+ms.keywords: IFaxDeviceProviders interface [Fax Service],get_Item method, IFaxDeviceProviders.get_Item, IFaxDeviceProviders::get_Item, _mfax_faxdeviceproviders.item_cpp, fax._mfax_faxdeviceproviders_item_cpp, faxcomex/IFaxDeviceProviders::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxDeviceProviders interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDeviceProviders::get_Item method
+# IFaxDeviceProviders::get_Item
 
 
 ## -description

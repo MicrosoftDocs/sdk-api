@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.SetMenu
-title: IOleInPlaceFrame::SetMenu method
+title: IOleInPlaceFrame::SetMenu
 author: windows-driver-content
 description: Adds a composite menu to the window frame containing the object being activated in place.
 old-location: com\ioleinplaceframe_setmenu.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: dc26a399-846d-4d15-b406-752350e528c2
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceFrame, IOleInPlaceFrame interface [COM], SetMenu method, IOleInPlaceFrame::SetMenu, SetMenu method [COM], SetMenu method [COM], IOleInPlaceFrame interface, SetMenu,IOleInPlaceFrame.SetMenu, _ole_ioleinplaceframe_setmenu, com.ioleinplaceframe_setmenu, oleidl/IOleInPlaceFrame::SetMenu
+ms.keywords: IOleInPlaceFrame interface [COM],SetMenu method, IOleInPlaceFrame.SetMenu, IOleInPlaceFrame::SetMenu, SetMenu, SetMenu method [COM], SetMenu method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_setmenu, com.ioleinplaceframe_setmenu, oleidl/IOleInPlaceFrame::SetMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceFrame::SetMenu method
+# IOleInPlaceFrame::SetMenu
 
 
 ## -description

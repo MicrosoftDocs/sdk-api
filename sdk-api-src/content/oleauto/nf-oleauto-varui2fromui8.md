@@ -7,7 +7,7 @@ old-location: automat\varui2fromui8.htm
 old-project: automat
 ms.assetid: da58185a-84f1-4809-89d0-e6fb5ac61472
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarUI2FromUI8, VarUI2FromUI8 function [Automation], _oa96_VarUI2FromUI8, automat.varui2fromui8, oleauto/VarUI2FromUI8
 ms.prod: windows-hardware
 ms.technology: windows-devices

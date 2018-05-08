@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: BIND_OPTS3, *LPBIND_OPTS3, BIND_OPTS3, *LPBIND_OPTS3
+req.typenames: BIND_OPTS3, *LPBIND_OPTS3
 topic_type:
 -	APIRef
 -	kbSyntax

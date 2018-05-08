@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Roll
-title: ICameraControl::get_Roll method
+title: ICameraControl::get_Roll
 author: windows-driver-content
 description: "."
 old-location: dshow\icameracontrol_get_roll.htm
 old-project: DirectShow
 ms.assetid: cebe99e1-9bcc-4826-8b15-b4d6757ec5b4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_Roll method, ICameraControl::get_Roll, ICameraControlget_Roll, dshow.icameracontrol_get_roll, get_Roll method [DirectShow], get_Roll method [DirectShow], ICameraControl interface, get_Roll,ICameraControl.get_Roll, vidcap/ICameraControl::get_Roll
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],get_Roll method, ICameraControl.get_Roll, ICameraControl::get_Roll, ICameraControlget_Roll, dshow.icameracontrol_get_roll, get_Roll, get_Roll method [DirectShow], get_Roll method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Roll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::get_Roll method
+# ICameraControl::get_Roll
 
 
 ## -description

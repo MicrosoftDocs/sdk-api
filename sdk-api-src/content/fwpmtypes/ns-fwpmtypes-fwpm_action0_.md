@@ -133,18 +133,25 @@ Invoke a callout that may return block or permit.
  
 
 
-#### - calloutKey
+### -field filterType
+
+An arbitrary GUID chosen by the policy provider.
+
+Available when the action does not invoke a callout, that is, <b>type</b> does not contain  <b>FWP_ACTION_FLAG_CALLOUT</b>.
+
+
+### -field calloutKey
 
 The GUID for a valid callout in the layer.
 
 Available when the action invokes a callout, that is, <b>type</b> contains  <b>FWP_ACTION_FLAG_CALLOUT</b>.
 
 
-#### - filterType
+### -field bitmapIndex
 
-An arbitrary GUID chosen by the policy provider.
+ 
 
-Available when the action does not invoke a callout, that is, <b>type</b> does not contain  <b>FWP_ACTION_FLAG_CALLOUT</b>.
+
 
 
 ## -remarks

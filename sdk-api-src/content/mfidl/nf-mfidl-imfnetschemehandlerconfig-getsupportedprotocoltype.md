@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFNetSchemeHandlerConfig.GetSupportedProtocolType
-title: IMFNetSchemeHandlerConfig::GetSupportedProtocolType method
+title: IMFNetSchemeHandlerConfig::GetSupportedProtocolType
 author: windows-driver-content
 description: Retrieves a supported protocol by index.
 old-location: mf\imfnetschemehandlerconfig_getsupportedprotocoltype.htm
 old-project: medfound
 ms.assetid: 51cd90cf-a3ae-45dd-bc27-c91d44cab9f5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 51cd90cf-a3ae-45dd-bc27-c91d44cab9f5, GetSupportedProtocolType method [Media Foundation], GetSupportedProtocolType method [Media Foundation], IMFNetSchemeHandlerConfig interface, GetSupportedProtocolType,IMFNetSchemeHandlerConfig.GetSupportedProtocolType, IMFNetSchemeHandlerConfig, IMFNetSchemeHandlerConfig interface [Media Foundation], GetSupportedProtocolType method, IMFNetSchemeHandlerConfig::GetSupportedProtocolType, mf.imfnetschemehandlerconfig_getsupportedprotocoltype, mfidl/IMFNetSchemeHandlerConfig::GetSupportedProtocolType
+ms.date: 5/3/2018
+ms.keywords: 51cd90cf-a3ae-45dd-bc27-c91d44cab9f5, GetSupportedProtocolType, GetSupportedProtocolType method [Media Foundation], GetSupportedProtocolType method [Media Foundation],IMFNetSchemeHandlerConfig interface, IMFNetSchemeHandlerConfig interface [Media Foundation],GetSupportedProtocolType method, IMFNetSchemeHandlerConfig.GetSupportedProtocolType, IMFNetSchemeHandlerConfig::GetSupportedProtocolType, mf.imfnetschemehandlerconfig_getsupportedprotocoltype, mfidl/IMFNetSchemeHandlerConfig::GetSupportedProtocolType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFNetSchemeHandlerConfig::GetSupportedProtocolType method
+# IMFNetSchemeHandlerConfig::GetSupportedProtocolType
 
 
 ## -description

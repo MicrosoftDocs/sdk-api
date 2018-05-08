@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.ICertAdmin2.SetCAProperty
-title: ICertAdmin2::SetCAProperty method
+title: ICertAdmin2::SetCAProperty
 author: windows-driver-content
 description: Sets a property value for the certification authority (CA).
 old-location: security\icertadmin2_setcaproperty.htm
 old-project: SecCrypto
 ms.assetid: 29570a8f-41d4-4c6a-88d0-97d6aa9d0784
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CR_PROP_KRACERT, CR_PROP_KRACERTCOUNT, CR_PROP_KRACERTUSEDCOUNT, CR_PROP_ROLESEPARATIONENABLED, CR_PROP_TEMPLATES, ICertAdmin2, ICertAdmin2 interface [Security], SetCAProperty method, ICertAdmin2::SetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCAProperty method [Security], SetCAProperty method [Security], ICertAdmin2 interface, SetCAProperty,ICertAdmin2.SetCAProperty, certadm/ICertAdmin2::SetCAProperty, security.icertadmin2_setcaproperty
+ms.date: 4/30/2018
+ms.keywords: CR_PROP_KRACERT, CR_PROP_KRACERTCOUNT, CR_PROP_KRACERTUSEDCOUNT, CR_PROP_ROLESEPARATIONENABLED, CR_PROP_TEMPLATES, ICertAdmin2 interface [Security],SetCAProperty method, ICertAdmin2.SetCAProperty, ICertAdmin2::SetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCAProperty, SetCAProperty method [Security], SetCAProperty method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetCAProperty, security.icertadmin2_setcaproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# ICertAdmin2::SetCAProperty method
+# ICertAdmin2::SetCAProperty
 
 
 ## -description

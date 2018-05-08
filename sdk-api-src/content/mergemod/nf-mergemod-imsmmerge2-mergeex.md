@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge2.MergeEx
-title: IMsmMerge2::MergeEx method
+title: IMsmMerge2::MergeEx
 author: windows-driver-content
 description: The MergeEx method executes a merge of the current database and current module.
 old-location: setup\imsmmerge2_mergeex.htm
@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: fdfd950f-cba9-4b87-ae07-c3d3b127f69d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMsmMerge2, IMsmMerge2 interface, MergeEx method, IMsmMerge2::MergeEx, MergeEx method, MergeEx method, IMsmMerge2 interface, MergeEx,IMsmMerge2.MergeEx, _msi_mergeex_function, mergemod/IMsmMerge2::MergeEx, setup.imsmmerge2_mergeex
+ms.keywords: IMsmMerge2 interface,MergeEx method, IMsmMerge2.MergeEx, IMsmMerge2::MergeEx, MergeEx, MergeEx method, MergeEx method,IMsmMerge2 interface, _msi_mergeex_function, mergemod/IMsmMerge2::MergeEx, setup.imsmmerge2_mergeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMsmMerge2::MergeEx method
+# IMsmMerge2::MergeEx
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceObjectWindowless.GetDropTarget
-title: IOleInPlaceObjectWindowless::GetDropTarget method
+title: IOleInPlaceObjectWindowless::GetDropTarget
 author: windows-driver-content
 description: Retrieves the IDropTarget interface for an in-place active, windowless object that supports drag and drop.
 old-location: com\ioleinplaceobjectwindowless_getdroptarget.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 0dfed2c7-d513-4c29-8182-af1bd6f26834
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetDropTarget method [COM], GetDropTarget method [COM], IOleInPlaceObjectWindowless interface, GetDropTarget,IOleInPlaceObjectWindowless.GetDropTarget, IOleInPlaceObjectWindowless, IOleInPlaceObjectWindowless interface [COM], GetDropTarget method, IOleInPlaceObjectWindowless::GetDropTarget, _ole_ioleinplaceobjectwindowless_getdroptarget, com.ioleinplaceobjectwindowless_getdroptarget, ocidl/IOleInPlaceObjectWindowless::GetDropTarget
+ms.keywords: GetDropTarget, GetDropTarget method [COM], GetDropTarget method [COM],IOleInPlaceObjectWindowless interface, IOleInPlaceObjectWindowless interface [COM],GetDropTarget method, IOleInPlaceObjectWindowless.GetDropTarget, IOleInPlaceObjectWindowless::GetDropTarget, _ole_ioleinplaceobjectwindowless_getdroptarget, com.ioleinplaceobjectwindowless_getdroptarget, ocidl/IOleInPlaceObjectWindowless::GetDropTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceObjectWindowless::GetDropTarget method
+# IOleInPlaceObjectWindowless::GetDropTarget
 
 
 ## -description

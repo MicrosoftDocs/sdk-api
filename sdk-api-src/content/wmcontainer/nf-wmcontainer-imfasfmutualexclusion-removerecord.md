@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.RemoveRecord
-title: IMFASFMutualExclusion::RemoveRecord method
+title: IMFASFMutualExclusion::RemoveRecord
 author: windows-driver-content
 description: Removes a record from the Advanced Systems Format (ASF) mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_removerecord.htm
 old-project: medfound
 ms.assetid: ecfb5e10-5102-4f6a-b67b-ba0ed06d0ed8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFASFMutualExclusion, IMFASFMutualExclusion interface [Media Foundation], RemoveRecord method, IMFASFMutualExclusion::RemoveRecord, RemoveRecord method [Media Foundation], RemoveRecord method [Media Foundation], IMFASFMutualExclusion interface, RemoveRecord,IMFASFMutualExclusion.RemoveRecord, ecfb5e10-5102-4f6a-b67b-ba0ed06d0ed8, mf.imfasfmutualexclusion_removerecord, wmcontainer/IMFASFMutualExclusion::RemoveRecord
+ms.date: 5/3/2018
+ms.keywords: IMFASFMutualExclusion interface [Media Foundation],RemoveRecord method, IMFASFMutualExclusion.RemoveRecord, IMFASFMutualExclusion::RemoveRecord, RemoveRecord, RemoveRecord method [Media Foundation], RemoveRecord method [Media Foundation],IMFASFMutualExclusion interface, ecfb5e10-5102-4f6a-b67b-ba0ed06d0ed8, mf.imfasfmutualexclusion_removerecord, wmcontainer/IMFASFMutualExclusion::RemoveRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFMutualExclusion::RemoveRecord method
+# IMFASFMutualExclusion::RemoveRecord
 
 
 ## -description

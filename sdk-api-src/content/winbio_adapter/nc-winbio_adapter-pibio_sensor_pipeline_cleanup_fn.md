@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 36238A6F-BDE2-454E-A183-ED10A455AF13
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_PIPELINE_CLEANUP_FN, SensorAdapterPipelineCleanup, SensorAdapterPipelineCleanup callback function [Windows Biometric Framework API], secbiomet.sensoradapterpipelinecleanup, winbio_adapter/SensorAdapterPipelineCleanup
+ms.keywords: PIBIO_SENSOR_PIPELINE_CLEANUP_FN, PIBIO_SENSOR_PIPELINE_CLEANUP_FN callback, SensorAdapterPipelineCleanup, SensorAdapterPipelineCleanup callback function [Windows Biometric Framework API], secbiomet.sensoradapterpipelinecleanup, winbio_adapter/SensorAdapterPipelineCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_PIPELINE_CLEANUP_FN callback
+# PIBIO_SENSOR_PIPELINE_CLEANUP_FN callback function
 
 
 ## -description

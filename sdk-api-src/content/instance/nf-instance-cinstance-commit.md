@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.Commit
-title: CInstance::Commit method
+title: CInstance::Commit
 author: windows-driver-content
 description: The Commit method returns the current instance to WMI.
 old-location: wmi\cinstance_commit.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 699dadf9-18b5-4c6d-a5c4-59ea8a85f089
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?Commit@CInstance@@QAEJXZ, ?Commit@CInstance@@QEAAJXZ, CInstance, CInstance interface [Windows Management Instrumentation], Commit method, CInstance::Commit, Commit method [Windows Management Instrumentation], Commit method [Windows Management Instrumentation], CInstance interface, Commit,CInstance.Commit, _hmm_cinstance_commit, instance/CInstance::Commit, wmi.cinstance_commit"
+ms.keywords: "?Commit@CInstance@@QAEJXZ, ?Commit@CInstance@@QEAAJXZ, CInstance interface [Windows Management Instrumentation],Commit method, CInstance.Commit, CInstance::Commit, Commit, Commit method [Windows Management Instrumentation], Commit method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_commit, instance/CInstance::Commit, wmi.cinstance_commit"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::Commit method
+# CInstance::Commit
 
 
 ## -description

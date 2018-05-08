@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IEnumTuningSpaces.Next
-title: IEnumTuningSpaces::Next method
+title: IEnumTuningSpaces::Next
 author: windows-driver-content
 description: The Next method retrieves the next n elements in the collection.
 old-location: mstv\ienumtuningspaces_next.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1220d006-10e9-4e64-8a18-8828b62d5da9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IEnumTuningSpaces, IEnumTuningSpaces interface [Microsoft TV Technologies], Next method, IEnumTuningSpaces::Next, IEnumTuningSpacesNext, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies], IEnumTuningSpaces interface, Next,IEnumTuningSpaces.Next, mstv.ienumtuningspaces_next, tuner/IEnumTuningSpaces::Next
+ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Next method, IEnumTuningSpaces.Next, IEnumTuningSpaces::Next, IEnumTuningSpacesNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumTuningSpaces interface, mstv.ienumtuningspaces_next, tuner/IEnumTuningSpaces::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumTuningSpaces::Next method
+# IEnumTuningSpaces::Next
 
 
 ## -description

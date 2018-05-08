@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnStatusChange
-title: ITextStoreACPSink::OnStatusChange method
+title: ITextStoreACPSink::OnStatusChange
 author: windows-driver-content
 description: ITextStoreACPSink::OnStatusChange method
 old-location: tsf\itextstoreacpsink_onstatuschange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 44ecc116-e6f3-48dd-9bff-16d3c1e4cc97
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACPSink, ITextStoreACPSink interface [Text Services Framework], OnStatusChange method, ITextStoreACPSink::OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework], ITextStoreACPSink interface, OnStatusChange,ITextStoreACPSink.OnStatusChange, _tsf_itextstoreacpsink_onstatuschange_ref, textstor/ITextStoreACPSink::OnStatusChange, tsf.itextstoreacpsink_onstatuschange
+ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnStatusChange method, ITextStoreACPSink.OnStatusChange, ITextStoreACPSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onstatuschange_ref, textstor/ITextStoreACPSink::OnStatusChange, tsf.itextstoreacpsink_onstatuschange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACPSink::OnStatusChange method
+# ITextStoreACPSink::OnStatusChange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.Append
-title: IXpsOMRemoteDictionaryResourceCollection::Append method
+title: IXpsOMRemoteDictionaryResourceCollection::Append
 author: windows-driver-content
 description: Appends an IXpsOMRemoteDictionaryResource interface to the end of the collection.
 old-location: xps\ixpsomremotedictionaryresourcecollection_append.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 85f56651-2066-4a18-a364-c27c6bc4edb3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging], IXpsOMRemoteDictionaryResourceCollection interface, Append,IXpsOMRemoteDictionaryResourceCollection.Append, IXpsOMRemoteDictionaryResourceCollection, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging], Append method, IXpsOMRemoteDictionaryResourceCollection::Append, xps.ixpsomremotedictionaryresourcecollection_append, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::Append
+ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMRemoteDictionaryResourceCollection.Append, IXpsOMRemoteDictionaryResourceCollection::Append, xps.ixpsomremotedictionaryresourcecollection_append, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMRemoteDictionaryResourceCollection::Append method
+# IXpsOMRemoteDictionaryResourceCollection::Append
 
 
 ## -description

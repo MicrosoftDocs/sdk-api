@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMapItem.get_Key
-title: IValueMapItem::get_Key method
+title: IValueMapItem::get_Key
 author: windows-driver-content
 description: Retrieves or sets the name of the item.
 old-location: pla\ivaluemapitem_key.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 965a5ac4-a811-4fd3-8862-51d82d27c0e9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IValueMapItem, IValueMapItem interface [PLA], Key property, IValueMapItem.Key, IValueMapItem::get_Key, IValueMapItem::put_Key, Key property [PLA], Key property [PLA], IValueMapItem interface, base.ivaluemapitem_key, get_Key,IValueMapItem.get_Key, pla.ivaluemapitem_key, pla/IValueMapItem::Key, pla/IValueMapItem::get_Key, pla/IValueMapItem::put_Key
+ms.keywords: IValueMapItem interface [PLA],Key property, IValueMapItem.Key, IValueMapItem.get_Key, IValueMapItem::Key, IValueMapItem::get_Key, IValueMapItem::put_Key, Key property [PLA], Key property [PLA],IValueMapItem interface, base.ivaluemapitem_key, get_Key, pla.ivaluemapitem_key, pla/IValueMapItem::Key, pla/IValueMapItem::get_Key, pla/IValueMapItem::put_Key
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IValueMapItem::get_Key method
+# IValueMapItem::get_Key
 
 
 ## -description

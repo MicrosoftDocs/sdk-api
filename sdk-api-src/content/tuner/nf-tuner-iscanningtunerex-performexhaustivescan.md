@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTunerEx.PerformExhaustiveScan
-title: IScanningTunerEx::PerformExhaustiveScan method
+title: IScanningTunerEx::PerformExhaustiveScan
 author: windows-driver-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_performexhaustivescan.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 35ed1b43-020e-4baa-9f15-eb316d9a137b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IScanningTunerEx, IScanningTunerEx interface [Microsoft TV Technologies], PerformExhaustiveScan method, IScanningTunerEx::PerformExhaustiveScan, IScanningTunerExPerformExhaustiveScan, PerformExhaustiveScan method [Microsoft TV Technologies], PerformExhaustiveScan method [Microsoft TV Technologies], IScanningTunerEx interface, PerformExhaustiveScan,IScanningTunerEx.PerformExhaustiveScan, mstv.iscanningtunerex_performexhaustivescan, tuner/IScanningTunerEx::PerformExhaustiveScan
+ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],PerformExhaustiveScan method, IScanningTunerEx.PerformExhaustiveScan, IScanningTunerEx::PerformExhaustiveScan, IScanningTunerExPerformExhaustiveScan, PerformExhaustiveScan, PerformExhaustiveScan method [Microsoft TV Technologies], PerformExhaustiveScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_performexhaustivescan, tuner/IScanningTunerEx::PerformExhaustiveScan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IScanningTunerEx::PerformExhaustiveScan method
+# IScanningTunerEx::PerformExhaustiveScan
 
 
 ## -description

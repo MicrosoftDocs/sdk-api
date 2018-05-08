@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateSingle
-title: IPropertyValueStatics::CreateSingle method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified 32-bit floating point value.
 old-location: winrt\ipropertyvaluestatics_createsingle.htm
 old-project: WinRT
 ms.assetid: A74F66F8-3F02-4CD0-86BC-FBEC340466C4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateSingle method [Windows Runtime], CreateSingle method [Windows Runtime], IPropertyValueStatics interface, CreateSingle,IPropertyValueStatics.CreateSingle, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateSingle method, IPropertyValueStatics::CreateSingle, windows/IPropertyValueStatics::CreateSingle, winrt.ipropertyvaluefactory_createsingle, winrt.ipropertyvaluestatics_createsingle
+ms.date: 5/4/2018
+ms.keywords: CreateSingle, CreateSingle method [Windows Runtime], CreateSingle method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSingle method, IPropertyValueStatics.CreateSingle, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSingle, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSingle, winrt.ipropertyvaluefactory_createsingle, winrt.ipropertyvaluestatics_createsingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateSingle method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

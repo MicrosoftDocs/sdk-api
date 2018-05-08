@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 373233e6-b3d0-40ce-8698-77841963d5f3
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN, SensorAdapterControlUnitPrivileged, SensorAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], secbiomet.sensoradaptercontrolunitprivileged, winbio_adapter/SensorAdapterControlUnitPrivileged
+ms.keywords: PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN callback, SensorAdapterControlUnitPrivileged, SensorAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], secbiomet.sensoradaptercontrolunitprivileged, winbio_adapter/SensorAdapterControlUnitPrivileged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN callback
+# PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN callback function
 
 
 ## -description

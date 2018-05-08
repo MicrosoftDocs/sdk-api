@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.GetCandidate
-title: IInkLineInfo::GetCandidate method
+title: IInkLineInfo::GetCandidate
 author: windows-driver-content
 description: Returns one recognition alternate from the recognition result list.
 old-location: tablet\iinklineinfo_getcandidate.htm
 old-project: tablet
 ms.assetid: 59005f51-7052-4aef-915d-4c939eecec99
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 59005f51-7052-4aef-915d-4c939eecec99, GetCandidate method [Tablet PC], GetCandidate method [Tablet PC], IInkLineInfo interface, GetCandidate,IInkLineInfo.GetCandidate, IInkLineInfo, IInkLineInfo interface [Tablet PC], GetCandidate method, IInkLineInfo::GetCandidate, msinkaut/IInkLineInfo::GetCandidate, tablet.iinklineinfo_getcandidate
+ms.date: 5/2/2018
+ms.keywords: 59005f51-7052-4aef-915d-4c939eecec99, GetCandidate, GetCandidate method [Tablet PC], GetCandidate method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetCandidate method, IInkLineInfo.GetCandidate, IInkLineInfo::GetCandidate, msinkaut/IInkLineInfo::GetCandidate, tablet.iinklineinfo_getcandidate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkLineInfo::GetCandidate method
+# IInkLineInfo::GetCandidate
 
 
 ## -description

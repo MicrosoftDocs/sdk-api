@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 705ec9c7-5aa9-4fc5-ad2c-441cb545d056
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], IXpsOMCoreProperties interface [XPS Documents and Packaging], described, xps.ixpsomcoreproperties, xpsobjectmodel/IXpsOMCoreProperties
+ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], IXpsOMCoreProperties interface [XPS Documents and Packaging],described, xps.ixpsomcoreproperties, xpsobjectmodel/IXpsOMCoreProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaStream.JoinAMMultiMediaStream
-title: IAMMediaStream::JoinAMMultiMediaStream method
+title: IAMMediaStream::JoinAMMultiMediaStream
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The IAMMultiMediaStream::AddMediaStream method calls this method, which adds the specified media stream to the current multimedia stream.
 old-location: dshow\iammediastream_joinammultimediastream.htm
 old-project: DirectShow
 ms.assetid: c842b841-a4dc-47c8-8186-347aff2c4ac3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaStream, IAMMediaStream interface [DirectShow], JoinAMMultiMediaStream method, IAMMediaStream::JoinAMMultiMediaStream, IAMMediaStreamJoinAMMultiMediaStream, JoinAMMultiMediaStream method [DirectShow], JoinAMMultiMediaStream method [DirectShow], IAMMediaStream interface, JoinAMMultiMediaStream,IAMMediaStream.JoinAMMultiMediaStream, amstream/IAMMediaStream::JoinAMMultiMediaStream, dshow.iammediastream_joinammultimediastream
+ms.date: 4/30/2018
+ms.keywords: IAMMediaStream interface [DirectShow],JoinAMMultiMediaStream method, IAMMediaStream.JoinAMMultiMediaStream, IAMMediaStream::JoinAMMultiMediaStream, IAMMediaStreamJoinAMMultiMediaStream, JoinAMMultiMediaStream, JoinAMMultiMediaStream method [DirectShow], JoinAMMultiMediaStream method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::JoinAMMultiMediaStream, dshow.iammediastream_joinammultimediastream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaStream::JoinAMMultiMediaStream method
+# IAMMediaStream::JoinAMMultiMediaStream
 
 
 ## -description

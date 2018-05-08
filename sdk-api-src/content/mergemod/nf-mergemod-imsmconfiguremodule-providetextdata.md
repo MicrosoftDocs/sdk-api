@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigureModule.ProvideTextData
-title: IMsmConfigureModule::ProvideTextData method
+title: IMsmConfigureModule::ProvideTextData
 author: windows-driver-content
 description: The ProvideTextData method retrieves text data from the client tool. For more information, see the ProvideTextData method of the ConfigureModule object.
 old-location: setup\imsmconfiguremodule_providetextdata.htm
@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: 81803b47-e1b1-45b7-b59d-aac555b189f7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMsmConfigureModule, IMsmConfigureModule interface, ProvideTextData method, IMsmConfigureModule::ProvideTextData, ProvideTextData method, ProvideTextData method, IMsmConfigureModule interface, ProvideTextData,IMsmConfigureModule.ProvideTextData, _msi_providetextdata_function, mergemod/IMsmConfigureModule::ProvideTextData, setup.imsmconfiguremodule_providetextdata
+ms.keywords: IMsmConfigureModule interface,ProvideTextData method, IMsmConfigureModule.ProvideTextData, IMsmConfigureModule::ProvideTextData, ProvideTextData, ProvideTextData method, ProvideTextData method,IMsmConfigureModule interface, _msi_providetextdata_function, mergemod/IMsmConfigureModule::ProvideTextData, setup.imsmconfiguremodule_providetextdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMsmConfigureModule::ProvideTextData method
+# IMsmConfigureModule::ProvideTextData
 
 
 ## -description

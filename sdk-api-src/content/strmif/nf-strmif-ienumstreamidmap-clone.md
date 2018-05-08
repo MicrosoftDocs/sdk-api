@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Clone
-title: IEnumStreamIdMap::Clone method
+title: IEnumStreamIdMap::Clone
 author: windows-driver-content
 description: The Clone method copies the collection.
 old-location: dshow\ienumstreamidmap_clone.htm
 old-project: DirectShow
 ms.assetid: 2c6ef2a8-a5d7-434f-8de2-221502b7c5cf
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Clone method [DirectShow], Clone method [DirectShow], IEnumStreamIdMap interface, Clone,IEnumStreamIdMap.Clone, IEnumStreamIdMap, IEnumStreamIdMap interface [DirectShow], Clone method, IEnumStreamIdMap::Clone, IEnumStreamIdMapClone, dshow.ienumstreamidmap_clone, strmif/IEnumStreamIdMap::Clone
+ms.date: 4/30/2018
+ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumStreamIdMap interface, IEnumStreamIdMap interface [DirectShow],Clone method, IEnumStreamIdMap.Clone, IEnumStreamIdMap::Clone, IEnumStreamIdMapClone, dshow.ienumstreamidmap_clone, strmif/IEnumStreamIdMap::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEnumStreamIdMap::Clone method
+# IEnumStreamIdMap::Clone
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.EnableModeless
-title: IOleInPlaceActiveObject::EnableModeless method
+title: IOleInPlaceActiveObject::EnableModeless
 author: windows-driver-content
 description: Enables or disables modeless dialog boxes when the container creates or destroys a modal dialog box.
 old-location: com\ioleinplaceactiveobject_enablemodeless.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 2fc45490-b3fe-48fd-a41c-2b7f35b09edc
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: EnableModeless method [COM], EnableModeless method [COM], IOleInPlaceActiveObject interface, EnableModeless,IOleInPlaceActiveObject.EnableModeless, IOleInPlaceActiveObject, IOleInPlaceActiveObject interface [COM], EnableModeless method, IOleInPlaceActiveObject::EnableModeless, _ole_ioleinplaceactiveobject_enablemodeless, com.ioleinplaceactiveobject_enablemodeless, oleidl/IOleInPlaceActiveObject::EnableModeless
+ms.keywords: EnableModeless, EnableModeless method [COM], EnableModeless method [COM],IOleInPlaceActiveObject interface, IOleInPlaceActiveObject interface [COM],EnableModeless method, IOleInPlaceActiveObject.EnableModeless, IOleInPlaceActiveObject::EnableModeless, _ole_ioleinplaceactiveobject_enablemodeless, com.ioleinplaceactiveobject_enablemodeless, oleidl/IOleInPlaceActiveObject::EnableModeless
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceActiveObject::EnableModeless method
+# IOleInPlaceActiveObject::EnableModeless
 
 
 ## -description

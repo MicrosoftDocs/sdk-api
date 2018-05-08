@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d9.IDirect3DAuthenticatedChannel9.GetCertificateSize
-title: IDirect3DAuthenticatedChannel9::GetCertificateSize method
+title: IDirect3DAuthenticatedChannel9::GetCertificateSize
 author: windows-driver-content
 description: Gets the size of the driver's certificate chain.
 old-location: mf\idirect3dauthenticatedchannel9_getcertificatesize.htm
 old-project: medfound
 ms.assetid: a320a7be-6a0f-4de1-afc2-11eb2d7c24d6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation], IDirect3DAuthenticatedChannel9 interface, GetCertificateSize,IDirect3DAuthenticatedChannel9.GetCertificateSize, IDirect3DAuthenticatedChannel9, IDirect3DAuthenticatedChannel9 interface [Media Foundation], GetCertificateSize method, IDirect3DAuthenticatedChannel9::GetCertificateSize, d3d9/IDirect3DAuthenticatedChannel9::GetCertificateSize, mf.idirect3dauthenticatedchannel9_getcertificatesize
+ms.date: 5/3/2018
+ms.keywords: GetCertificateSize, GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, IDirect3DAuthenticatedChannel9 interface [Media Foundation],GetCertificateSize method, IDirect3DAuthenticatedChannel9.GetCertificateSize, IDirect3DAuthenticatedChannel9::GetCertificateSize, d3d9/IDirect3DAuthenticatedChannel9::GetCertificateSize, mf.idirect3dauthenticatedchannel9_getcertificatesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DAuthenticatedChannel9::GetCertificateSize method
+# IDirect3DAuthenticatedChannel9::GetCertificateSize
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: cd8fa8b8-17b1-4d77-9611-473725899351
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumOleDocumentViews, IEnumOleDocumentViews interface [COM], IEnumOleDocumentViews interface [COM], described, _ole_ienumoledocumentviews, com.ienumoledocumentviews, docobj/IEnumOleDocumentViews
+ms.keywords: IEnumOleDocumentViews, IEnumOleDocumentViews interface [COM], IEnumOleDocumentViews interface [COM],described, _ole_ienumoledocumentviews, com.ienumoledocumentviews, docobj/IEnumOleDocumentViews
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

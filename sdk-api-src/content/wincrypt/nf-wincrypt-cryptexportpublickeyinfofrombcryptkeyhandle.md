@@ -7,7 +7,7 @@ old-location: security\cryptexportpublickeyinfofrombcryptkeyhandle.htm
 old-project: SecCrypto
 ms.assetid: f96bff4a-d354-4231-907a-383aff5cfacc
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CryptExportPublicKeyInfoFromBCryptKeyHandle, CryptExportPublicKeyInfoFromBCryptKeyHandle function [Security], security.cryptexportpublickeyinfofrombcryptkeyhandle, wincrypt/CryptExportPublicKeyInfoFromBCryptKeyHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

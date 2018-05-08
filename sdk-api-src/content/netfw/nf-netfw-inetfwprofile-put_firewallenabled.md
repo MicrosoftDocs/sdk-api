@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwProfile.put_FirewallEnabled
-title: INetFwProfile::put_FirewallEnabled method
+title: INetFwProfile::put_FirewallEnabled
 author: windows-driver-content
 description: Indicates whether the firewall is enabled.
 old-location: ics\inetfwprofile_firewallenabled.htm
 old-project: ICS
 ms.assetid: cde6327d-e3ae-418f-9e8c-76288c120ca0
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: FirewallEnabled property [ICS/ICF], FirewallEnabled property [ICS/ICF], INetFwProfile interface, INetFwProfile, INetFwProfile interface [ICS/ICF], FirewallEnabled property, INetFwProfile.FirewallEnabled, INetFwProfile::get_FirewallEnabled, INetFwProfile::put_FirewallEnabled, ics.inetfwprofile_firewallenabled, netfw/INetFwProfile::FirewallEnabled, netfw/INetFwProfile::get_FirewallEnabled, netfw/INetFwProfile::put_FirewallEnabled, put_FirewallEnabled,INetFwProfile.put_FirewallEnabled
+ms.date: 5/1/2018
+ms.keywords: FirewallEnabled property [ICS/ICF], FirewallEnabled property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],FirewallEnabled property, INetFwProfile.FirewallEnabled, INetFwProfile.put_FirewallEnabled, INetFwProfile::FirewallEnabled, INetFwProfile::get_FirewallEnabled, INetFwProfile::put_FirewallEnabled, ics.inetfwprofile_firewallenabled, netfw/INetFwProfile::FirewallEnabled, netfw/INetFwProfile::get_FirewallEnabled, netfw/INetFwProfile::put_FirewallEnabled, put_FirewallEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwProfile::put_FirewallEnabled method
+# INetFwProfile::put_FirewallEnabled
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMDevMemoryControl.GetDevId
-title: IAMDevMemoryControl::GetDevId method
+title: IAMDevMemoryControl::GetDevId
 author: windows-driver-content
 description: Note  The IAMDevMemoryControl interface is deprecated. Retrieves the device ID of the on-board memory allocator.
 old-location: dshow\iamdevmemorycontrol_getdevid.htm
 old-project: DirectShow
 ms.assetid: 398cc4b3-c025-4df4-8447-bd4599293dab
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDevId method [DirectShow], GetDevId method [DirectShow], IAMDevMemoryControl interface, GetDevId,IAMDevMemoryControl.GetDevId, IAMDevMemoryControl, IAMDevMemoryControl interface [DirectShow], GetDevId method, IAMDevMemoryControl::GetDevId, IAMDevMemoryControlGetDevId, dshow.iamdevmemorycontrol_getdevid, strmif/IAMDevMemoryControl::GetDevId
+ms.date: 4/30/2018
+ms.keywords: GetDevId, GetDevId method [DirectShow], GetDevId method [DirectShow],IAMDevMemoryControl interface, IAMDevMemoryControl interface [DirectShow],GetDevId method, IAMDevMemoryControl.GetDevId, IAMDevMemoryControl::GetDevId, IAMDevMemoryControlGetDevId, dshow.iamdevmemorycontrol_getdevid, strmif/IAMDevMemoryControl::GetDevId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMDevMemoryControl::GetDevId method
+# IAMDevMemoryControl::GetDevId
 
 
 ## -description

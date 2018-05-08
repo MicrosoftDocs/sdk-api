@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetFormattedText
-title: ITextStoreACP2::GetFormattedText method
+title: ITextStoreACP2::GetFormattedText
 author: windows-driver-content
 description: Gets formatted text data about a specified text string. The caller must have a read/write lock on the document before calling this method.
 old-location: tsf\itextstoreacp2_getformattedtext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 0993861d-ef2a-4da5-a564-7559e7c4dcec
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework], ITextStoreACP2 interface, GetFormattedText,ITextStoreACP2.GetFormattedText, ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], GetFormattedText method, ITextStoreACP2::GetFormattedText, textstor/ITextStoreACP2::GetFormattedText, tsf.itextstoreacp2_getformattedtext
+ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetFormattedText method, ITextStoreACP2.GetFormattedText, ITextStoreACP2::GetFormattedText, textstor/ITextStoreACP2::GetFormattedText, tsf.itextstoreacp2_getformattedtext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP2::GetFormattedText method
+# ITextStoreACP2::GetFormattedText
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:thrdbase.CThreadBase.BeginWrite
-title: CThreadBase::BeginWrite method
+title: CThreadBase::BeginWrite
 author: windows-driver-content
 description: The BeginWrite method provides thread safety by indicating the beginning of a data write operation when the provider is built on the WMI Provider Framework. CThreadBase is called internally.
 old-location: wmi\cthreadbase_beginwrite.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 51ae6b39-b524-4bf9-ac71-45c812ad1680
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?BeginWrite@CThreadBase@@QAEHK@Z, BeginWrite method [Windows Management Instrumentation], BeginWrite method [Windows Management Instrumentation], CThreadBase interface, BeginWrite,CThreadBase.BeginWrite, CThreadBase, CThreadBase interface [Windows Management Instrumentation], BeginWrite method, CThreadBase::BeginWrite, thrdbase/CThreadBase::BeginWrite, wmi.cthreadbase_beginwrite"
+ms.keywords: "?BeginWrite@CThreadBase@@QAEHK@Z, BeginWrite, BeginWrite method [Windows Management Instrumentation], BeginWrite method [Windows Management Instrumentation],CThreadBase interface, CThreadBase interface [Windows Management Instrumentation],BeginWrite method, CThreadBase.BeginWrite, CThreadBase::BeginWrite, thrdbase/CThreadBase::BeginWrite, wmi.cthreadbase_beginwrite"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# CThreadBase::BeginWrite method
+# CThreadBase::BeginWrite
 
 
 ## -description

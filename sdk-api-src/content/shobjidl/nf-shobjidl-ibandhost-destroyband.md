@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IBandHost.DestroyBand
-title: IBandHost::DestroyBand method
+title: IBandHost::DestroyBand
 author: windows-driver-content
 description: Destroys a specified band.
 old-location: shell\IBandHost_DestroyBand.htm
 old-project: shell
 ms.assetid: fc9fec01-97ff-44d9-833a-cd781977e5b9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: DestroyBand method [Windows Shell], DestroyBand method [Windows Shell], IBandHost interface, DestroyBand,IBandHost.DestroyBand, IBandHost, IBandHost interface [Windows Shell], DestroyBand method, IBandHost::DestroyBand, _shell_IBandHost_DestroyBand, shell.IBandHost_DestroyBand, shobjidl/IBandHost::DestroyBand
+ms.date: 5/3/2018
+ms.keywords: DestroyBand, DestroyBand method [Windows Shell], DestroyBand method [Windows Shell],IBandHost interface, IBandHost interface [Windows Shell],DestroyBand method, IBandHost.DestroyBand, IBandHost::DestroyBand, _shell_IBandHost_DestroyBand, shell.IBandHost_DestroyBand, shobjidl/IBandHost::DestroyBand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IBandHost::DestroyBand method
+# IBandHost::DestroyBand
 
 
 ## -description

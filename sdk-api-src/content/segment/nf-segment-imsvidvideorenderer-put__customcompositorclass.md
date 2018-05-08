@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put__CustomCompositorClass
-title: IMSVidVideoRenderer::put__CustomCompositorClass method
+title: IMSVidVideoRenderer::put__CustomCompositorClass
 author: windows-driver-content
 description: The put__CustomCompositorClass method specifies the class identifier (CLSID) of a custom image compositor, as a GUID.
 old-location: mstv\imsvidvideorenderer_put__customcompositorclass.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 031af4a5-6eed-44c9-9b0c-f472d709db66
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], put__CustomCompositorClass method, IMSVidVideoRenderer::put__CustomCompositorClass, IMSVidVideoRendererput__CustomCompositorClass, mstv.imsvidvideorenderer_put__customcompositorclass, put__CustomCompositorClass method [Microsoft TV Technologies], put__CustomCompositorClass method [Microsoft TV Technologies], IMSVidVideoRenderer interface, put__CustomCompositorClass,IMSVidVideoRenderer.put__CustomCompositorClass, segment/IMSVidVideoRenderer::put__CustomCompositorClass
+ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put__CustomCompositorClass method, IMSVidVideoRenderer.put__CustomCompositorClass, IMSVidVideoRenderer::put__CustomCompositorClass, IMSVidVideoRendererput__CustomCompositorClass, mstv.imsvidvideorenderer_put__customcompositorclass, put__CustomCompositorClass, put__CustomCompositorClass method [Microsoft TV Technologies], put__CustomCompositorClass method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put__CustomCompositorClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer::put__CustomCompositorClass method
+# IMSVidVideoRenderer::put__CustomCompositorClass
 
 
 ## -description

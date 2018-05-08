@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 20b342e6-cac4-4bc5-820b-e397e0ce4648
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfContexts, IEnumTfContexts interface [Text Services Framework], IEnumTfContexts interface [Text Services Framework], described, _tsf_ienumtfcontexts_ref, msctf/IEnumTfContexts, tsf.ienumtfcontexts
+ms.keywords: IEnumTfContexts, IEnumTfContexts interface [Text Services Framework], IEnumTfContexts interface [Text Services Framework],described, _tsf_ienumtfcontexts_ref, msctf/IEnumTfContexts, tsf.ienumtfcontexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

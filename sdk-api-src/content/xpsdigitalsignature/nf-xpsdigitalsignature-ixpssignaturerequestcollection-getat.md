@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequestCollection.GetAt
-title: IXpsSignatureRequestCollection::GetAt method
+title: IXpsSignatureRequestCollection::GetAt
 author: windows-driver-content
 description: Gets an IXpsSignatureRequest interface pointer from a specified location in the collection.
 old-location: xps\ixpssignaturerequestcollection_getat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f3bf89d4-468e-4514-a192-165d18fd12e4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging], IXpsSignatureRequestCollection interface, GetAt,IXpsSignatureRequestCollection.GetAt, IXpsSignatureRequestCollection, IXpsSignatureRequestCollection interface [XPS Documents and Packaging], GetAt method, IXpsSignatureRequestCollection::GetAt, xps.ixpssignaturerequestcollection_getat, xpsdigitalsignature/IXpsSignatureRequestCollection::GetAt
+ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsSignatureRequestCollection interface, IXpsSignatureRequestCollection interface [XPS Documents and Packaging],GetAt method, IXpsSignatureRequestCollection.GetAt, IXpsSignatureRequestCollection::GetAt, xps.ixpssignaturerequestcollection_getat, xpsdigitalsignature/IXpsSignatureRequestCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureRequestCollection::GetAt method
+# IXpsSignatureRequestCollection::GetAt
 
 
 ## -description

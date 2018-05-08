@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnDeleteTaskTime
-title: ITsSbTaskPluginNotifySink::OnDeleteTaskTime method
+title: ITsSbTaskPluginNotifySink::OnDeleteTaskTime
 author: windows-driver-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a task has been removed from the queue.
 old-location: termserv\itssbtaskpluginnotifysink_ondeletetasktime.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: f78a22c3-45e6-4bb1-9ea0-9958339a4ff3
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbTaskPluginNotifySink, ITsSbTaskPluginNotifySink interface [Remote Desktop Services], OnDeleteTaskTime method, ITsSbTaskPluginNotifySink::OnDeleteTaskTime, OnDeleteTaskTime method [Remote Desktop Services], OnDeleteTaskTime method [Remote Desktop Services], ITsSbTaskPluginNotifySink interface, OnDeleteTaskTime,ITsSbTaskPluginNotifySink.OnDeleteTaskTime, sbtsv/ITsSbTaskPluginNotifySink::OnDeleteTaskTime, termserv.itssbtaskpluginnotifysink_ondeletetasktime
+ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnDeleteTaskTime method, ITsSbTaskPluginNotifySink.OnDeleteTaskTime, ITsSbTaskPluginNotifySink::OnDeleteTaskTime, OnDeleteTaskTime, OnDeleteTaskTime method [Remote Desktop Services], OnDeleteTaskTime method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnDeleteTaskTime, termserv.itssbtaskpluginnotifysink_ondeletetasktime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbTaskPluginNotifySink::OnDeleteTaskTime method
+# ITsSbTaskPluginNotifySink::OnDeleteTaskTime
 
 
 ## -description

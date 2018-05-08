@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.SetOptions
-title: IGroupPolicyObject::SetOptions method
+title: IGroupPolicyObject::SetOptions
 author: windows-driver-content
 description: The SetOptions method sets the options for the GPO.
 old-location: policy\igrouppolicyobject_setoptions.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: 4caed430-2861-49cb-9418-b12bf1c46707
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], SetOptions method, IGroupPolicyObject::SetOptions, SetOptions method [Group Policy], SetOptions method [Group Policy], IGroupPolicyObject interface, SetOptions,IGroupPolicyObject.SetOptions, _win32_igrouppolicyobject_setoptions, gpedit/IGroupPolicyObject::SetOptions, policy.igrouppolicyobject_setoptions
+ms.keywords: GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER, IGroupPolicyObject interface [Group Policy],SetOptions method, IGroupPolicyObject.SetOptions, IGroupPolicyObject::SetOptions, SetOptions, SetOptions method [Group Policy], SetOptions method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_setoptions, gpedit/IGroupPolicyObject::SetOptions, policy.igrouppolicyobject_setoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGroupPolicyObject::SetOptions method
+# IGroupPolicyObject::SetOptions
 
 
 ## -description

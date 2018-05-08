@@ -7,7 +7,7 @@ old-location: properties\PSFormatForDisplay.htm
 old-project: properties
 ms.assetid: 71442967-ee8a-448c-83cf-949934ddd152
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: PSFormatForDisplay, PSFormatForDisplay function [Windows Properties], properties.PSFormatForDisplay, propsys/PSFormatForDisplay, shell.PSFormatForDisplay, shell_PSFormatForDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\VariantToStrRet.htm
 old-project: properties
 ms.assetid: dfc1f52e-58c6-48fd-8da9-1d4d5115912c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: VariantToStrRet, VariantToStrRet function [Windows Properties], _shell_VariantToStrRet, properties.VariantToStrRet, propvarutil/VariantToStrRet, shell.VariantToStrRet
 ms.prod: windows-hardware
 ms.technology: windows-devices

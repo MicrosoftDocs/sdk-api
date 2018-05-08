@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMLatency.GetLatency
-title: IAMLatency::GetLatency method
+title: IAMLatency::GetLatency
 author: windows-driver-content
 description: The GetLatency method retrieves the expected latency associated with this filter.
 old-location: dshow\iamlatency_getlatency.htm
 old-project: DirectShow
 ms.assetid: 5c5f6a73-d216-4a26-958e-ce8055575d17
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetLatency method [DirectShow], GetLatency method [DirectShow], IAMLatency interface, GetLatency,IAMLatency.GetLatency, IAMLatency, IAMLatency interface [DirectShow], GetLatency method, IAMLatency::GetLatency, IAMLatencyGetLatency, dshow.iamlatency_getlatency, strmif/IAMLatency::GetLatency
+ms.date: 4/30/2018
+ms.keywords: GetLatency, GetLatency method [DirectShow], GetLatency method [DirectShow],IAMLatency interface, IAMLatency interface [DirectShow],GetLatency method, IAMLatency.GetLatency, IAMLatency::GetLatency, IAMLatencyGetLatency, dshow.iamlatency_getlatency, strmif/IAMLatency::GetLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMLatency::GetLatency method
+# IAMLatency::GetLatency
 
 
 ## -description

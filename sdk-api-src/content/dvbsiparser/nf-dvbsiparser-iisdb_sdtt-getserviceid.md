@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetServiceId
-title: IISDB_SDTT::GetServiceId method
+title: IISDB_SDTT::GetServiceId
 author: windows-driver-content
 description: Receives the service_id field that uniquely identifies a service from an Integrated Services Digital Broadcasting System (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getserviceid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 36e9d2b7-f89a-47ad-9fd2-d9aa8d76949c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies], IISDB_SDTT interface, GetServiceId,IISDB_SDTT.GetServiceId, IISDB_SDTT, IISDB_SDTT interface [Microsoft TV Technologies], GetServiceId method, IISDB_SDTT::GetServiceId, dvbsiparser/IISDB_SDTT::GetServiceId, mstv.iisdb_sdtt_getserviceid
+ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetServiceId method, IISDB_SDTT.GetServiceId, IISDB_SDTT::GetServiceId, dvbsiparser/IISDB_SDTT::GetServiceId, mstv.iisdb_sdtt_getserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_SDTT::GetServiceId method
+# IISDB_SDTT::GetServiceId
 
 
 ## -description

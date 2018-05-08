@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.SetMaximumFrameLatency
-title: IDirect3DDevice9Ex::SetMaximumFrameLatency method
+title: IDirect3DDevice9Ex::SetMaximumFrameLatency
 author: windows-driver-content
 description: Set the number of frames that the system is allowed to queue for rendering.
 old-location: direct3d9\idirect3ddevice9ex_setmaximumframelatency.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_setmaximumframelatency.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], SetMaximumFrameLatency method, IDirect3DDevice9Ex::SetMaximumFrameLatency, SetMaximumFrameLatency method [Direct3D 9], SetMaximumFrameLatency method [Direct3D 9], IDirect3DDevice9Ex interface, SetMaximumFrameLatency,IDirect3DDevice9Ex.SetMaximumFrameLatency, d3d9/IDirect3DDevice9Ex::SetMaximumFrameLatency, dec92ba9-626f-0377-78d2-9951aefa48b5, direct3d9.idirect3ddevice9ex_setmaximumframelatency
+ms.keywords: IDirect3DDevice9Ex interface [Direct3D 9],SetMaximumFrameLatency method, IDirect3DDevice9Ex.SetMaximumFrameLatency, IDirect3DDevice9Ex::SetMaximumFrameLatency, SetMaximumFrameLatency, SetMaximumFrameLatency method [Direct3D 9], SetMaximumFrameLatency method [Direct3D 9],IDirect3DDevice9Ex interface, d3d9/IDirect3DDevice9Ex::SetMaximumFrameLatency, dec92ba9-626f-0377-78d2-9951aefa48b5, direct3d9.idirect3ddevice9ex_setmaximumframelatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9Ex::SetMaximumFrameLatency method
+# IDirect3DDevice9Ex::SetMaximumFrameLatency
 
 
 ## -description

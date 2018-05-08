@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.SetExceptionMode
-title: ID3D11Device::SetExceptionMode method
+title: ID3D11Device::SetExceptionMode
 author: windows-driver-content
 description: Get the exception-mode flags.
 old-location: direct3d11\id3d11device_setexceptionmode.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: a442a5dc-7931-4464-a6e7-76441e61da5b
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11Device, ID3D11Device interface [Direct3D 11], SetExceptionMode method, ID3D11Device::SetExceptionMode, SetExceptionMode method [Direct3D 11], SetExceptionMode method [Direct3D 11], ID3D11Device interface, SetExceptionMode,ID3D11Device.SetExceptionMode, a5c01332-6f00-24e5-1424-e59e0f7353bd, d3d11/ID3D11Device::SetExceptionMode, direct3d11.id3d11device_setexceptionmode
+ms.keywords: ID3D11Device interface [Direct3D 11],SetExceptionMode method, ID3D11Device.SetExceptionMode, ID3D11Device::SetExceptionMode, SetExceptionMode, SetExceptionMode method [Direct3D 11], SetExceptionMode method [Direct3D 11],ID3D11Device interface, a5c01332-6f00-24e5-1424-e59e0f7353bd, d3d11/ID3D11Device::SetExceptionMode, direct3d11.id3d11device_setexceptionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11Device::SetExceptionMode method
+# ID3D11Device::SetExceptionMode
 
 
 ## -description

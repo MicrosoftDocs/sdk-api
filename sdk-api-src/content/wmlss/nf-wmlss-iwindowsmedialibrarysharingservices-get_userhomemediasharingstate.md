@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState
-title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState method
+title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState
 author: windows-driver-content
 description: The get_userHomeMediaSharingState method retrieves a value that indicates whether the current user's media library is shared on the home network.
 old-location: wmlss\IWMLSSget_userHomeMediaSharingState.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: 6f56c825-0fdc-4414-aefa-83f8efee2150
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], get_userHomeMediaSharingState method, IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState, get_userHomeMediaSharingState method [Windows Media Library Sharing Services], get_userHomeMediaSharingState method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, get_userHomeMediaSharingState,IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState, wmlss.IWMLSSget_userHomeMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_userHomeMediaSharingState method, IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState, IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState, get_userHomeMediaSharingState, get_userHomeMediaSharingState method [Windows Media Library Sharing Services], get_userHomeMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_userHomeMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState method
+# IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.SetClass
-title: IStorage::SetClass method
+title: IStorage::SetClass
 author: windows-driver-content
 description: The SetClass method assigns the specified class identifier (CLSID) to this storage object.
 old-location: stg\istorage_setclass.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 02ab2708-fc8b-4941-939a-a819cf823108
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IStorage, IStorage interface [Structured Storage], SetClass method, IStorage::SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage], IStorage interface, SetClass,IStorage.SetClass, _stg_istorage_setclass, objidl/IStorage::SetClass, stg.istorage_setclass
+ms.keywords: IStorage interface [Structured Storage],SetClass method, IStorage.SetClass, IStorage::SetClass, SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage],IStorage interface, _stg_istorage_setclass, objidl/IStorage::SetClass, stg.istorage_setclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStorage::SetClass method
+# IStorage::SetClass
 
 
 ## -description

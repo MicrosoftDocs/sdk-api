@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.AddPolicyAdministratorName
-title: IAzScope::AddPolicyAdministratorName method
+title: IAzScope::AddPolicyAdministratorName
 author: windows-driver-content
 description: The AddPolicyAdministratorName method of IAzScope adds the specified account name to the list of principals that act as policy administrators.
 old-location: security\iazscope_addpolicyadministratorname.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: a160e4cb-e779-413e-9d8a-5fb9684a48f2
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security], AzScope object, AddPolicyAdministratorName method [Security], IAzScope interface, AddPolicyAdministratorName,IAzScope.AddPolicyAdministratorName, AzScope object [Security], AddPolicyAdministratorName method, IAzScope, IAzScope interface [Security], AddPolicyAdministratorName method, IAzScope::AddPolicyAdministratorName, azroles/IAzScope::AddPolicyAdministratorName, security.iazscope_addpolicyadministratorname
+ms.keywords: AddPolicyAdministratorName, AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security],AzScope object, AddPolicyAdministratorName method [Security],IAzScope interface, AzScope object [Security],AddPolicyAdministratorName method, IAzScope interface [Security],AddPolicyAdministratorName method, IAzScope.AddPolicyAdministratorName, IAzScope::AddPolicyAdministratorName, azroles/IAzScope::AddPolicyAdministratorName, security.iazscope_addpolicyadministratorname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope::AddPolicyAdministratorName method
+# IAzScope::AddPolicyAdministratorName
 
 
 ## -description

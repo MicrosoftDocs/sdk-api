@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPDVD.get_domain
-title: IWMPDVD::get_domain method
+title: IWMPDVD::get_domain
 author: windows-driver-content
 description: The get_domain method retrieves the current domain of the DVD.
 old-location: wmp\iwmpdvd_get_domain.htm
 old-project: WMP
 ms.assetid: 2a8d5ea6-ed70-4952-810c-215acd1ae560
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], get_domain method, IWMPDVD::get_domain, IWMPDVDget_domain, get_domain method [Windows Media Player], get_domain method [Windows Media Player], IWMPDVD interface, get_domain,IWMPDVD.get_domain, wmp.iwmpdvd_get_domain, wmp/IWMPDVD::get_domain
+ms.date: 5/4/2018
+ms.keywords: IWMPDVD interface [Windows Media Player],get_domain method, IWMPDVD.get_domain, IWMPDVD::get_domain, IWMPDVDget_domain, get_domain, get_domain method [Windows Media Player], get_domain method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_domain, wmp/IWMPDVD::get_domain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPDVD::get_domain method
+# IWMPDVD::get_domain
 
 
 ## -description

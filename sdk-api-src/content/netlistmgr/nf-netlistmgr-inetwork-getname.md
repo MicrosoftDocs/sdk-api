@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.GetName
-title: INetwork::GetName method
+title: INetwork::GetName
 author: windows-driver-content
 description: The GetName method returns the name of a network.
 old-location: nla\inetwork_getname.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: e0dd843e-5bba-4504-b0af-26c0c1ee73a9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetName method [Network Awareness], GetName method [Network Awareness], INetwork interface, GetName,INetwork.GetName, INetwork, INetwork interface [Network Awareness], GetName method, INetwork::GetName, netlistmgr/INetwork::GetName, nla.inetwork_getname
+ms.keywords: GetName, GetName method [Network Awareness], GetName method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetName method, INetwork.GetName, INetwork::GetName, netlistmgr/INetwork::GetName, nla.inetwork_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetwork::GetName method
+# INetwork::GetName
 
 
 ## -description

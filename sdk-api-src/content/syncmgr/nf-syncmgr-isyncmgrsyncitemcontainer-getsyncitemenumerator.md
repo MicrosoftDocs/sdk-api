@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemContainer.GetSyncItemEnumerator
-title: ISyncMgrSyncItemContainer::GetSyncItemEnumerator method
+title: ISyncMgrSyncItemContainer::GetSyncItemEnumerator
 author: windows-driver-content
 description: Gets an interface that enumerates the handler's sync items.
 old-location: shell\ISyncMgrSyncItemContainer_GetSyncItemEnumerator.htm
 old-project: shell
 ms.assetid: 761698b8-9531-440e-90f3-41b86f1cc674
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSyncItemEnumerator method [Windows Shell], GetSyncItemEnumerator method [Windows Shell], ISyncMgrSyncItemContainer interface, GetSyncItemEnumerator,ISyncMgrSyncItemContainer.GetSyncItemEnumerator, ISyncMgrSyncItemContainer, ISyncMgrSyncItemContainer interface [Windows Shell], GetSyncItemEnumerator method, ISyncMgrSyncItemContainer::GetSyncItemEnumerator, _shell_ISyncMgrSyncItemContainer_GetSyncItemEnumerator, shell.ISyncMgrSyncItemContainer_GetSyncItemEnumerator, syncmgr/ISyncMgrSyncItemContainer::GetSyncItemEnumerator
+ms.date: 5/3/2018
+ms.keywords: GetSyncItemEnumerator, GetSyncItemEnumerator method [Windows Shell], GetSyncItemEnumerator method [Windows Shell],ISyncMgrSyncItemContainer interface, ISyncMgrSyncItemContainer interface [Windows Shell],GetSyncItemEnumerator method, ISyncMgrSyncItemContainer.GetSyncItemEnumerator, ISyncMgrSyncItemContainer::GetSyncItemEnumerator, _shell_ISyncMgrSyncItemContainer_GetSyncItemEnumerator, shell.ISyncMgrSyncItemContainer_GetSyncItemEnumerator, syncmgr/ISyncMgrSyncItemContainer::GetSyncItemEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrSyncItemContainer::GetSyncItemEnumerator method
+# ISyncMgrSyncItemContainer::GetSyncItemEnumerator
 
 
 ## -description

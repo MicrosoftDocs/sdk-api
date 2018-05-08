@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumChangeUnitExceptions.Reset
-title: IEnumChangeUnitExceptions::Reset method
+title: IEnumChangeUnitExceptions::Reset
 author: windows-driver-content
 description: Resets the enumerator to the beginning of the change unit exception set.
 old-location: winsync\ienumchangeunitexceptions_reset.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 7c9a98e2-c976-42cb-ada3-ee33c11adae8
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumChangeUnitExceptions, IEnumChangeUnitExceptions interface [Windows Sync], Reset method, IEnumChangeUnitExceptions::Reset, Reset method [Windows Sync], Reset method [Windows Sync], IEnumChangeUnitExceptions interface, Reset,IEnumChangeUnitExceptions.Reset, winsync.ienumchangeunitexceptions_reset, winsync/IEnumChangeUnitExceptions::Reset
+ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Reset method, IEnumChangeUnitExceptions.Reset, IEnumChangeUnitExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_reset, winsync/IEnumChangeUnitExceptions::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumChangeUnitExceptions::Reset method
+# IEnumChangeUnitExceptions::Reset
 
 
 ## -description

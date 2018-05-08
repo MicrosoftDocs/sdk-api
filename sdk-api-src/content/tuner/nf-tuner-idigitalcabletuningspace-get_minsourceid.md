@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.get_MinSourceID
-title: IDigitalCableTuningSpace::get_MinSourceID method
+title: IDigitalCableTuningSpace::get_MinSourceID
 author: windows-driver-content
 description: The get_MinSourceID method retrieves the lowest source identifier for this tuning space.
 old-location: mstv\idigitalcabletuningspace_get_minsourceid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 54123d08-e01c-466e-833f-8412e06ac139
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDigitalCableTuningSpace, IDigitalCableTuningSpace interface [Microsoft TV Technologies], get_MinSourceID method, IDigitalCableTuningSpace::get_MinSourceID, IDigitalCableTuningSpaceget_MinSourceID, get_MinSourceID method [Microsoft TV Technologies], get_MinSourceID method [Microsoft TV Technologies], IDigitalCableTuningSpace interface, get_MinSourceID,IDigitalCableTuningSpace.get_MinSourceID, mstv.idigitalcabletuningspace_get_minsourceid, tuner/IDigitalCableTuningSpace::get_MinSourceID
+ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],get_MinSourceID method, IDigitalCableTuningSpace.get_MinSourceID, IDigitalCableTuningSpace::get_MinSourceID, IDigitalCableTuningSpaceget_MinSourceID, get_MinSourceID, get_MinSourceID method [Microsoft TV Technologies], get_MinSourceID method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, mstv.idigitalcabletuningspace_get_minsourceid, tuner/IDigitalCableTuningSpace::get_MinSourceID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDigitalCableTuningSpace::get_MinSourceID method
+# IDigitalCableTuningSpace::get_MinSourceID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetTitle
-title: IPhotoProgressDialog::SetTitle method
+title: IPhotoProgressDialog::SetTitle
 author: windows-driver-content
 description: The SetTitle method sets the title of the progress dialog box.
 old-location: picacq\iphotoprogressdialog_settitle.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: ee1f8b8e-bc46-4699-a682-2933c18a794b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], SetTitle method, IPhotoProgressDialog::SetTitle, IPhotoProgressDialogSetTitle, SetTitle method [Picture Acquisition], SetTitle method [Picture Acquisition], IPhotoProgressDialog interface, SetTitle,IPhotoProgressDialog.SetTitle, photoacquire/IPhotoProgressDialog::SetTitle, picacq.iphotoprogressdialog_settitle
+ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetTitle method, IPhotoProgressDialog.SetTitle, IPhotoProgressDialog::SetTitle, IPhotoProgressDialogSetTitle, SetTitle, SetTitle method [Picture Acquisition], SetTitle method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetTitle, picacq.iphotoprogressdialog_settitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoProgressDialog::SetTitle method
+# IPhotoProgressDialog::SetTitle
 
 
 ## -description

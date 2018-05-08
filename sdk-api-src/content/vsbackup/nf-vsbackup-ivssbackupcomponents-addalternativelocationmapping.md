@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddAlternativeLocationMapping
-title: IVssBackupComponents::AddAlternativeLocationMapping method
+title: IVssBackupComponents::AddAlternativeLocationMapping
 author: windows-driver-content
 description: The AddAlternativeLocationMapping method is used by a requester to indicate that an alternate location mapping was used to restore all the members of a file set in a given component.
 old-location: base\ivssbackupcomponents_addalternativelocationmapping.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 349ec124-f3f5-4142-8600-8d9f508c9bb2
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: AddAlternativeLocationMapping method [VSS], AddAlternativeLocationMapping method [VSS], IVssBackupComponents interface, AddAlternativeLocationMapping,IVssBackupComponents.AddAlternativeLocationMapping, IVssBackupComponents, IVssBackupComponents interface [VSS], AddAlternativeLocationMapping method, IVssBackupComponents::AddAlternativeLocationMapping, _win32_ivssbackupcomponents_addalternativelocationmapping, base.ivssbackupcomponents_addalternativelocationmapping, vsbackup/IVssBackupComponents::AddAlternativeLocationMapping
+ms.keywords: AddAlternativeLocationMapping, AddAlternativeLocationMapping method [VSS], AddAlternativeLocationMapping method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddAlternativeLocationMapping method, IVssBackupComponents.AddAlternativeLocationMapping, IVssBackupComponents::AddAlternativeLocationMapping, _win32_ivssbackupcomponents_addalternativelocationmapping, base.ivssbackupcomponents_addalternativelocationmapping, vsbackup/IVssBackupComponents::AddAlternativeLocationMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::AddAlternativeLocationMapping method
+# IVssBackupComponents::AddAlternativeLocationMapping
 
 
 ## -description

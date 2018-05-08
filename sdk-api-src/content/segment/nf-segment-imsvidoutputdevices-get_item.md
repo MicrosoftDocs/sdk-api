@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidOutputDevices.get_Item
-title: IMSVidOutputDevices::get_Item method
+title: IMSVidOutputDevices::get_Item
 author: windows-driver-content
 description: The get_Item method retrieves the specified item from the collection.
 old-location: mstv\imsvidoutputdevices_get_item.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 373dd785-3671-4afa-92ac-e61a39a68228
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidOutputDevices, IMSVidOutputDevices interface [Microsoft TV Technologies], get_Item method, IMSVidOutputDevices::get_Item, IMSVidOutputDevicesget_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies], IMSVidOutputDevices interface, get_Item,IMSVidOutputDevices.get_Item, mstv.imsvidoutputdevices_get_item, segment/IMSVidOutputDevices::get_Item
+ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],get_Item method, IMSVidOutputDevices.get_Item, IMSVidOutputDevices::get_Item, IMSVidOutputDevicesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_get_item, segment/IMSVidOutputDevices::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidOutputDevices::get_Item method
+# IMSVidOutputDevices::get_Item
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 0B97FCCD-0A90-4FA2-9122-B00BD3F1A033
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceServicesContext, IMbnDeviceServicesContext interface [Microsoft Broadband Networks], IMbnDeviceServicesContext interface [Microsoft Broadband Networks], described, mbn.imbndeviceservicescontext, mbnapi/IMbnDeviceServicesContext
+ms.keywords: IMbnDeviceServicesContext, IMbnDeviceServicesContext interface [Microsoft Broadband Networks], IMbnDeviceServicesContext interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicescontext, mbnapi/IMbnDeviceServicesContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

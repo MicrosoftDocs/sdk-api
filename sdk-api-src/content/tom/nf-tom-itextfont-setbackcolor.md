@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetBackColor
-title: ITextFont::SetBackColor method
+title: ITextFont::SetBackColor
 author: windows-driver-content
 description: Sets the background color.
 old-location: controls\ITextFont_SetBackColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setbackcolor.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetBackColor method, ITextFont::SetBackColor, SetBackColor method [Windows Controls], SetBackColor method [Windows Controls], ITextFont interface, SetBackColor,ITextFont.SetBackColor, _win32_ITextFont_SetBackColor, _win32_ITextFont_SetBackColor_cpp, controls.ITextFont_SetBackColor, controls._win32_ITextFont_SetBackColor, tom/ITextFont::SetBackColor
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetBackColor method, ITextFont.SetBackColor, ITextFont::SetBackColor, SetBackColor, SetBackColor method [Windows Controls], SetBackColor method [Windows Controls],ITextFont interface, _win32_ITextFont_SetBackColor, _win32_ITextFont_SetBackColor_cpp, controls.ITextFont_SetBackColor, controls._win32_ITextFont_SetBackColor, tom/ITextFont::SetBackColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetBackColor method
+# ITextFont::SetBackColor
 
 
 ## -description

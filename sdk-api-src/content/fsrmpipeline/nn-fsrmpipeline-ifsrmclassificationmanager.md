@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: cc504f6c-00d7-4f9d-9688-1c29b5066ce6
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], IFsrmClassificationManager interface [File Server Resource Manager], described, fs.ifsrmclassificationmanager, fsrm.ifsrmclassificationmanager, fsrmpipeline/IFsrmClassificationManager
+ms.keywords: IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], IFsrmClassificationManager interface [File Server Resource Manager],described, fs.ifsrmclassificationmanager, fsrm.ifsrmclassificationmanager, fsrmpipeline/IFsrmClassificationManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

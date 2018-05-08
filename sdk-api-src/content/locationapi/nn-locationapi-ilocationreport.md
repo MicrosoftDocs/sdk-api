@@ -8,7 +8,7 @@ old-project: LocationAPI
 ms.assetid: 6dc78c26-36b3-4545-b5ba-7f04f6e67706
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ILocationReport, ILocationReport interface [WinLocation], ILocationReport interface [WinLocation], described, locationapi/ILocationReport, winlocation.ilocationreport
+ms.keywords: ILocationReport, ILocationReport interface [WinLocation], ILocationReport interface [WinLocation],described, locationapi/ILocationReport, winlocation.ilocationreport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6e2c3ad5-73c6-481f-9ade-58782e12dfbd
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfQueryEmbedded, ITfQueryEmbedded interface [Text Services Framework], ITfQueryEmbedded interface [Text Services Framework], described, _tsf_itfqueryembedded_ref, msctf/ITfQueryEmbedded, tsf.itfqueryembedded
+ms.keywords: ITfQueryEmbedded, ITfQueryEmbedded interface [Text Services Framework], ITfQueryEmbedded interface [Text Services Framework],described, _tsf_itfqueryembedded_ref, msctf/ITfQueryEmbedded, tsf.itfqueryembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

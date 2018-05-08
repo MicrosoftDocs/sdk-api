@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.SetTargetInfo
-title: ISettingsEngine::SetTargetInfo method
+title: ISettingsEngine::SetTargetInfo
 author: windows-driver-content
 description: Sets the current offline target for the engine.
 old-location: smi\isettingsengine_settargetinfo.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: a33a0155-0533-4450-9e03-2688ad776a1a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISettingsEngine, ISettingsEngine interface [SMI], SetTargetInfo method, ISettingsEngine::SetTargetInfo, SetTargetInfo method [SMI], SetTargetInfo method [SMI], ISettingsEngine interface, SetTargetInfo,ISettingsEngine.SetTargetInfo, smi.isettingsengine_settargetinfo, wcmconfig/ISettingsEngine::SetTargetInfo
+ms.keywords: ISettingsEngine interface [SMI],SetTargetInfo method, ISettingsEngine.SetTargetInfo, ISettingsEngine::SetTargetInfo, SetTargetInfo, SetTargetInfo method [SMI], SetTargetInfo method [SMI],ISettingsEngine interface, smi.isettingsengine_settargetinfo, wcmconfig/ISettingsEngine::SetTargetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsEngine::SetTargetInfo method
+# ISettingsEngine::SetTargetInfo
 
 
 ## -description

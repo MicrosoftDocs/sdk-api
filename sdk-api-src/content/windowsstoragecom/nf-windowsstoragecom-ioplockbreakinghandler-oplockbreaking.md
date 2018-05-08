@@ -1,14 +1,14 @@
 ---
 UID: NF:windowsstoragecom.IOplockBreakingHandler.OplockBreaking
-title: IOplockBreakingHandler::OplockBreaking method
+title: IOplockBreakingHandler::OplockBreaking
 author: windows-driver-content
 description: This method is not currently implemented.
 old-location: winrt\ioplockbreakinghandler_oplockbreaking.htm
 old-project: WinRT
 ms.assetid: 39E402AC-D159-4604-886E-454F36375CC5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IOplockBreakingHandler, IOplockBreakingHandler interface [Windows Runtime], OplockBreaking method, IOplockBreakingHandler::OplockBreaking, OplockBreaking method [Windows Runtime], OplockBreaking method [Windows Runtime], IOplockBreakingHandler interface, OplockBreaking,IOplockBreakingHandler.OplockBreaking, windowsstoragecom/IOplockBreakingHandler::OplockBreaking, winrt.ioplockbreakinghandler_oplockbreaking
+ms.date: 5/4/2018
+ms.keywords: IOplockBreakingHandler interface [Windows Runtime],OplockBreaking method, IOplockBreakingHandler.OplockBreaking, IOplockBreakingHandler::OplockBreaking, OplockBreaking, OplockBreaking method [Windows Runtime], OplockBreaking method [Windows Runtime],IOplockBreakingHandler interface, windowsstoragecom/IOplockBreakingHandler::OplockBreaking, winrt.ioplockbreakinghandler_oplockbreaking
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IOplockBreakingHandler::OplockBreaking method
+# IOplockBreakingHandler::OplockBreaking
 
 
 ## -description

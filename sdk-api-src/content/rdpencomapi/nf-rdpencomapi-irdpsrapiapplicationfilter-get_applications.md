@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationFilter.get_Applications
-title: IRDPSRAPIApplicationFilter::get_Applications method
+title: IRDPSRAPIApplicationFilter::get_Applications
 author: windows-driver-content
 description: The list of sharable applications.
 old-location: rdp\irdpsrapiapplicationfilter_applications.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 08704192-320d-44f2-a811-f8565285bd30
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: Applications property [RDP], Applications property [RDP], IRDPSRAPIApplicationFilter interface, Applications property [RDP], RDPSRAPIApplicationFilter object, IRDPSRAPIApplicationFilter, IRDPSRAPIApplicationFilter interface [RDP], Applications property, IRDPSRAPIApplicationFilter.Applications, IRDPSRAPIApplicationFilter::get_Applications, RDPSRAPIApplicationFilter object [RDP], Applications property, get_Applications,IRDPSRAPIApplicationFilter.get_Applications, rdp.irdpsrapiapplicationfilter_applications, rdpencomapi/IRDPSRAPIApplicationFilter::Applications, rdpencomapi/IRDPSRAPIApplicationFilter::get_Applications
+ms.keywords: Applications property [RDP], Applications property [RDP],IRDPSRAPIApplicationFilter interface, Applications property [RDP],RDPSRAPIApplicationFilter object, IRDPSRAPIApplicationFilter interface [RDP],Applications property, IRDPSRAPIApplicationFilter.Applications, IRDPSRAPIApplicationFilter.get_Applications, IRDPSRAPIApplicationFilter::Applications, IRDPSRAPIApplicationFilter::get_Applications, RDPSRAPIApplicationFilter object [RDP],Applications property, get_Applications, rdp.irdpsrapiapplicationfilter_applications, rdpencomapi/IRDPSRAPIApplicationFilter::Applications, rdpencomapi/IRDPSRAPIApplicationFilter::get_Applications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIApplicationFilter::get_Applications method
+# IRDPSRAPIApplicationFilter::get_Applications
 
 
 ## -description

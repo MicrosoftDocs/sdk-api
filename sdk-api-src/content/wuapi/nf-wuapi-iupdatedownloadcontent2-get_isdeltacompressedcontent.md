@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContent2.get_IsDeltaCompressedContent
-title: IUpdateDownloadContent2::get_IsDeltaCompressedContent method
+title: IUpdateDownloadContent2::get_IsDeltaCompressedContent
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether an update is a binary update or a full-file update.
 old-location: wua\iupdatedownloadcontent2_isdeltacompressedcontent.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 1140051f-c2cd-4fe1-b7fd-aa21bbcd7889
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateDownloadContent2, IUpdateDownloadContent2 interface [Windows Update Agent], IsDeltaCompressedContent property, IUpdateDownloadContent2.IsDeltaCompressedContent, IUpdateDownloadContent2::get_IsDeltaCompressedContent, IsDeltaCompressedContent property [Windows Update Agent], IsDeltaCompressedContent property [Windows Update Agent], IUpdateDownloadContent2 interface, get_IsDeltaCompressedContent,IUpdateDownloadContent2.get_IsDeltaCompressedContent, wua.iupdatedownloadcontent2_isdeltacompressedcontent, wuapi/IUpdateDownloadContent2::IsDeltaCompressedContent, wuapi/IUpdateDownloadContent2::get_IsDeltaCompressedContent
+ms.keywords: IUpdateDownloadContent2 interface [Windows Update Agent],IsDeltaCompressedContent property, IUpdateDownloadContent2.IsDeltaCompressedContent, IUpdateDownloadContent2.get_IsDeltaCompressedContent, IUpdateDownloadContent2::IsDeltaCompressedContent, IUpdateDownloadContent2::get_IsDeltaCompressedContent, IsDeltaCompressedContent property [Windows Update Agent], IsDeltaCompressedContent property [Windows Update Agent],IUpdateDownloadContent2 interface, get_IsDeltaCompressedContent, wua.iupdatedownloadcontent2_isdeltacompressedcontent, wuapi/IUpdateDownloadContent2::IsDeltaCompressedContent, wuapi/IUpdateDownloadContent2::get_IsDeltaCompressedContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateDownloadContent2::get_IsDeltaCompressedContent method
+# IUpdateDownloadContent2::get_IsDeltaCompressedContent
 
 
 ## -description

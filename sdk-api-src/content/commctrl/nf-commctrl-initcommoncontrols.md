@@ -7,7 +7,7 @@ old-location: controls\InitCommonControls.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrols.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: InitCommonControls, InitCommonControls function [Windows Controls], _win32_InitCommonControls, _win32_InitCommonControls_cpp, commctrl/InitCommonControls, controls.InitCommonControls, controls._win32_InitCommonControls
 ms.prod: windows-hardware
 ms.technology: windows-devices

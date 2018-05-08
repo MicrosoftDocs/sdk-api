@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation2.get_ConnectionTimeout
-title: IUIAutomation2::get_ConnectionTimeout method
+title: IUIAutomation2::get_ConnectionTimeout
 author: windows-driver-content
 description: Specifies the length of time that UI Automation will wait for a provider to respond to a client request for an automation element.
 old-location: winauto\uiauto_iuiautomation2_connectiontimeout.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 636838C8-A5F6-4757-923D-2C69282B04EF
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ConnectionTimeout property [Windows Accessibility], ConnectionTimeout property [Windows Accessibility], IUIAutomation2 interface, IUIAutomation2, IUIAutomation2 interface [Windows Accessibility], ConnectionTimeout property, IUIAutomation2.ConnectionTimeout, IUIAutomation2::get_ConnectionTimeout, IUIAutomation2::put_ConnectionTimeout, get_ConnectionTimeout,IUIAutomation2.get_ConnectionTimeout, uiautomationclient/IUIAutomation2::ConnectionTimeout, uiautomationclient/IUIAutomation2::get_ConnectionTimeout, uiautomationclient/IUIAutomation2::put_ConnectionTimeout, winauto.uiauto_iuiautomation2_connectiontimeout
+ms.keywords: ConnectionTimeout property [Windows Accessibility], ConnectionTimeout property [Windows Accessibility],IUIAutomation2 interface, IUIAutomation2 interface [Windows Accessibility],ConnectionTimeout property, IUIAutomation2.ConnectionTimeout, IUIAutomation2.get_ConnectionTimeout, IUIAutomation2::ConnectionTimeout, IUIAutomation2::get_ConnectionTimeout, IUIAutomation2::put_ConnectionTimeout, get_ConnectionTimeout, uiautomationclient/IUIAutomation2::ConnectionTimeout, uiautomationclient/IUIAutomation2::get_ConnectionTimeout, uiautomationclient/IUIAutomation2::put_ConnectionTimeout, winauto.uiauto_iuiautomation2_connectiontimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation2::get_ConnectionTimeout method
+# IUIAutomation2::get_ConnectionTimeout
 
 
 ## -description

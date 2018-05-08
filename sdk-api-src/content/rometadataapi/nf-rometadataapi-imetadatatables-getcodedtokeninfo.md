@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetCodedTokenInfo
-title: IMetaDataTables::GetCodedTokenInfo method
+title: IMetaDataTables::GetCodedTokenInfo
 author: windows-driver-content
 description: Gets a pointer to an array of tokens associated with the specified row index.
 old-location: winrt\imetadatatables_getcodedtokeninfo.htm
 old-project: WinRT
 ms.assetid: 6467affc-0f86-4926-b72f-629c6580e1bf
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetCodedTokenInfo method [Windows Runtime], GetCodedTokenInfo method [Windows Runtime], IMetaDataTables interface, GetCodedTokenInfo,IMetaDataTables.GetCodedTokenInfo, IMetaDataTables, IMetaDataTables interface [Windows Runtime], GetCodedTokenInfo method, IMetaDataTables::GetCodedTokenInfo, rometadataapi/IMetaDataTables::GetCodedTokenInfo, winrt.imetadatatables_getcodedtokeninfo
+ms.date: 5/4/2018
+ms.keywords: GetCodedTokenInfo, GetCodedTokenInfo method [Windows Runtime], GetCodedTokenInfo method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetCodedTokenInfo method, IMetaDataTables.GetCodedTokenInfo, IMetaDataTables::GetCodedTokenInfo, rometadataapi/IMetaDataTables::GetCodedTokenInfo, winrt.imetadatatables_getcodedtokeninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataTables::GetCodedTokenInfo method
+# IMetaDataTables::GetCodedTokenInfo
 
 
 ## -description

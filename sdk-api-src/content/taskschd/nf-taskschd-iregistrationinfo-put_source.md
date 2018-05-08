@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Source
-title: IRegistrationInfo::put_Source method
+title: IRegistrationInfo::put_Source
 author: windows-driver-content
 description: Gets or sets where the task originated from. For example, a task may originate from a component, service, application, or user.
 old-location: taskschd\iregistrationinfo_source.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 538d48f9-671d-452b-8e78-86954342a28f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], Source property, IRegistrationInfo.Source, IRegistrationInfo::get_Source, IRegistrationInfo::put_Source, Source property [Task Scheduler], Source property [Task Scheduler], IRegistrationInfo interface, put_Source,IRegistrationInfo.put_Source, taskschd.iregistrationinfo_source, taskschd/IRegistrationInfo::Source, taskschd/IRegistrationInfo::get_Source, taskschd/IRegistrationInfo::put_Source
+ms.keywords: IRegistrationInfo interface [Task Scheduler],Source property, IRegistrationInfo.Source, IRegistrationInfo.put_Source, IRegistrationInfo::Source, IRegistrationInfo::get_Source, IRegistrationInfo::put_Source, Source property [Task Scheduler], Source property [Task Scheduler],IRegistrationInfo interface, put_Source, taskschd.iregistrationinfo_source, taskschd/IRegistrationInfo::Source, taskschd/IRegistrationInfo::get_Source, taskschd/IRegistrationInfo::put_Source
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegistrationInfo::put_Source method
+# IRegistrationInfo::put_Source
 
 
 ## -description

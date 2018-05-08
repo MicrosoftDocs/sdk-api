@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_LowQuotaWaterMark
-title: IFaxConfiguration::put_LowQuotaWaterMark method
+title: IFaxConfiguration::put_LowQuotaWaterMark
 author: windows-driver-content
 description: Sets or retrieves a value that indicates the minimum size of a watermark.
 old-location: fax\_mfax_FaxConfiguration_LowQuotaWaterMark_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\lowquotawatermark.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxConfiguration object [Fax Service], LowQuotaWaterMark property, IFaxConfiguration, IFaxConfiguration::put_LowQuotaWaterMark, LowQuotaWaterMark property [Fax Service], LowQuotaWaterMark property [Fax Service], FaxConfiguration object, _mfax_IFaxConfiguration_LowQuotaWaterMark, fax._mfax_FaxConfiguration_LowQuotaWaterMark_vb, put_LowQuotaWaterMark,IFaxConfiguration.put_LowQuotaWaterMark
+ms.keywords: FaxConfiguration object [Fax Service],LowQuotaWaterMark property, FaxConfiguration.LowQuotaWaterMark, IFaxConfiguration.put_LowQuotaWaterMark, IFaxConfiguration::put_LowQuotaWaterMark, LowQuotaWaterMark property [Fax Service], LowQuotaWaterMark property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_LowQuotaWaterMark, fax._mfax_FaxConfiguration_LowQuotaWaterMark_vb, put_LowQuotaWaterMark
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::put_LowQuotaWaterMark method
+# IFaxConfiguration::put_LowQuotaWaterMark
 
 
 ## -description

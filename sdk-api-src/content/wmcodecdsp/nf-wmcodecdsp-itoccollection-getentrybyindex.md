@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.GetEntryByIndex
-title: ITocCollection::GetEntryByIndex method
+title: ITocCollection::GetEntryByIndex
 author: windows-driver-content
 description: The GetEntryByIndex method retrieves a table of contents, specified by an index, from the collection.
 old-location: mf\itoccollection_getentrybyindex.htm
 old-project: medfound
 ms.assetid: 93bddd4d-8a58-46e6-9284-eaa70be2c5a4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetEntryByIndex method [Media Foundation], GetEntryByIndex method [Media Foundation], ITocCollection interface, GetEntryByIndex,ITocCollection.GetEntryByIndex, ITocCollection, ITocCollection interface [Media Foundation], GetEntryByIndex method, ITocCollection::GetEntryByIndex, codecapi.itoccollection_getentrybyindex, mf.itoccollection_getentrybyindex, wmcodecdsp/ITocCollection::GetEntryByIndex
+ms.date: 5/3/2018
+ms.keywords: GetEntryByIndex, GetEntryByIndex method [Media Foundation], GetEntryByIndex method [Media Foundation],ITocCollection interface, ITocCollection interface [Media Foundation],GetEntryByIndex method, ITocCollection.GetEntryByIndex, ITocCollection::GetEntryByIndex, codecapi.itoccollection_getentrybyindex, mf.itoccollection_getentrybyindex, wmcodecdsp/ITocCollection::GetEntryByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocCollection::GetEntryByIndex method
+# ITocCollection::GetEntryByIndex
 
 
 ## -description

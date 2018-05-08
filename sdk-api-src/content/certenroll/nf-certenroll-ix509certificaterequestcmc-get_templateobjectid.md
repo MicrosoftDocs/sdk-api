@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_TemplateObjectId
-title: IX509CertificateRequestCmc::get_TemplateObjectId method
+title: IX509CertificateRequestCmc::get_TemplateObjectId
 author: windows-driver-content
 description: Retrieves the object identifier (OID) of the template used to create the certificate request.
 old-location: security\ix509certificaterequestcmc_templateobjectid_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 36a87e0e-d910-45a7-9850-512ff94e78b8
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestCmc, IX509CertificateRequestCmc interface [Security], TemplateObjectId property, IX509CertificateRequestCmc.TemplateObjectId, IX509CertificateRequestCmc::get_TemplateObjectId, TemplateObjectId property [Security], TemplateObjectId property [Security], IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::TemplateObjectId, certenroll/IX509CertificateRequestCmc::get_TemplateObjectId, get_TemplateObjectId,IX509CertificateRequestCmc.get_TemplateObjectId, security.ix509certificaterequestcmc_templateobjectid_property
+ms.keywords: IX509CertificateRequestCmc interface [Security],TemplateObjectId property, IX509CertificateRequestCmc.TemplateObjectId, IX509CertificateRequestCmc.get_TemplateObjectId, IX509CertificateRequestCmc::TemplateObjectId, IX509CertificateRequestCmc::get_TemplateObjectId, TemplateObjectId property [Security], TemplateObjectId property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::TemplateObjectId, certenroll/IX509CertificateRequestCmc::get_TemplateObjectId, get_TemplateObjectId, security.ix509certificaterequestcmc_templateobjectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestCmc::get_TemplateObjectId method
+# IX509CertificateRequestCmc::get_TemplateObjectId
 
 
 ## -description

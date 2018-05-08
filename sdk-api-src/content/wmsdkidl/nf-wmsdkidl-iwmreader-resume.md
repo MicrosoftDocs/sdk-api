@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Resume
-title: IWMReader::Resume method
+title: IWMReader::Resume
 author: windows-driver-content
 description: The Resume method starts the reader from the current position, after a Pause method call.
 old-location: wmformat\iwmreader_resume.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 4af00d1f-c78a-4f43-be2d-9561e3c7cf36
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReader, IWMReader interface [windows Media Format], Resume method, IWMReader::Resume, IWMReaderResume, Resume method [windows Media Format], Resume method [windows Media Format], IWMReader interface, Resume,IWMReader.Resume, wmformat.iwmreader_resume, wmsdkidl/IWMReader::Resume
+ms.keywords: IWMReader interface [windows Media Format],Resume method, IWMReader.Resume, IWMReader::Resume, IWMReaderResume, Resume, Resume method [windows Media Format], Resume method [windows Media Format],IWMReader interface, wmformat.iwmreader_resume, wmsdkidl/IWMReader::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReader::Resume method
+# IWMReader::Resume
 
 
 ## -description

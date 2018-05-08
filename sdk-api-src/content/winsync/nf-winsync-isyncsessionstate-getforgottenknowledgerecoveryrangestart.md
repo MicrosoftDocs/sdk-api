@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart
-title: ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart method
+title: ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
 author: windows-driver-content
 description: Gets the lower bound of the recovery range when the session is performing forgotten knowledge recovery.
 old-location: winsync\isyncsessionstate_getforgottenknowledgerecoveryrangestart.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: a6d6434a-d4cf-4b92-958c-5ff8022a9531
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync], GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync], ISyncSessionState interface, GetForgottenKnowledgeRecoveryRangeStart,ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart, ISyncSessionState, ISyncSessionState interface [Windows Sync], GetForgottenKnowledgeRecoveryRangeStart method, ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart, winsync.isyncsessionstate_getforgottenknowledgerecoveryrangestart, winsync/ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
+ms.keywords: GetForgottenKnowledgeRecoveryRangeStart, GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync], GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync],ISyncSessionState interface, ISyncSessionState interface [Windows Sync],GetForgottenKnowledgeRecoveryRangeStart method, ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart, ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart, winsync.isyncsessionstate_getforgottenknowledgerecoveryrangestart, winsync/ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart method
+# ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
 
 
 ## -description

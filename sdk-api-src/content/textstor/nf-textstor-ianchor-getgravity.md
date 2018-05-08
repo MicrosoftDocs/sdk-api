@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.GetGravity
-title: IAnchor::GetGravity method
+title: IAnchor::GetGravity
 author: windows-driver-content
 description: The IAnchor::GetGravity method retrieves the gravity of the anchor in an IAnchor object.
 old-location: tsf\ianchor_getgravity.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c56a4c25-ac43-4fd3-8d6b-943eb0233ed4
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetGravity method [Text Services Framework], GetGravity method [Text Services Framework], IAnchor interface, GetGravity,IAnchor.GetGravity, IAnchor, IAnchor interface [Text Services Framework], GetGravity method, IAnchor::GetGravity, textstor/IAnchor::GetGravity, tsf.ianchor_getgravity
+ms.keywords: GetGravity, GetGravity method [Text Services Framework], GetGravity method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],GetGravity method, IAnchor.GetGravity, IAnchor::GetGravity, textstor/IAnchor::GetGravity, tsf.ianchor_getgravity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnchor::GetGravity method
+# IAnchor::GetGravity
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateExtensionsSetup
-title: ICertServerExit::EnumerateExtensionsSetup method
+title: ICertServerExit::EnumerateExtensionsSetup
 author: windows-driver-content
 description: Initializes the internal enumeration pointer to the first certificate extension associated with the current context.
 old-location: security\icertserverexit_enumerateextensionssetup.htm
 old-project: SecCrypto
 ms.assetid: 2a0c4919-b3a0-4027-85bd-970f6bc0cdeb
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertServerExit object [Security], EnumerateExtensionsSetup method, EnumerateExtensionsSetup method [Security], EnumerateExtensionsSetup method [Security], CCertServerExit object, EnumerateExtensionsSetup method [Security], ICertServerExit interface, EnumerateExtensionsSetup,ICertServerExit.EnumerateExtensionsSetup, ICertServerExit, ICertServerExit interface [Security], EnumerateExtensionsSetup method, ICertServerExit::EnumerateExtensionsSetup, _certsrv_icertserverexit_enumerateextensionssetup, certif/ICertServerExit::EnumerateExtensionsSetup, security.icertserverexit_enumerateextensionssetup
+ms.date: 4/30/2018
+ms.keywords: CCertServerExit object [Security],EnumerateExtensionsSetup method, EnumerateExtensionsSetup, EnumerateExtensionsSetup method [Security], EnumerateExtensionsSetup method [Security],CCertServerExit object, EnumerateExtensionsSetup method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensionsSetup method, ICertServerExit.EnumerateExtensionsSetup, ICertServerExit::EnumerateExtensionsSetup, _certsrv_icertserverexit_enumerateextensionssetup, certif/ICertServerExit::EnumerateExtensionsSetup, security.icertserverexit_enumerateextensionssetup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerExit::EnumerateExtensionsSetup method
+# ICertServerExit::EnumerateExtensionsSetup
 
 
 ## -description

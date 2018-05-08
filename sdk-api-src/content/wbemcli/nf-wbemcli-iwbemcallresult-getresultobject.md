@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemCallResult.GetResultObject
-title: IWbemCallResult::GetResultObject method
+title: IWbemCallResult::GetResultObject
 author: windows-driver-content
 description: The IWbemCallResult::GetResultObject method attempts to retrieve an object from a previous semisynchronous call to IWbemServices::GetObject or IWbemServices::ExecMethod.
 old-location: wmi\iwbemcallresult_getresultobject.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 06603f26-587f-4aff-8ae3-7f77f9b266f5
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetResultObject method [Windows Management Instrumentation], GetResultObject method [Windows Management Instrumentation], IWbemCallResult interface, GetResultObject,IWbemCallResult.GetResultObject, IWbemCallResult, IWbemCallResult interface [Windows Management Instrumentation], GetResultObject method, IWbemCallResult::GetResultObject, _hmm_iwbemcallresult_getresultobject, wbemcli/IWbemCallResult::GetResultObject, wmi.iwbemcallresult_getresultobject
+ms.keywords: GetResultObject, GetResultObject method [Windows Management Instrumentation], GetResultObject method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetResultObject method, IWbemCallResult.GetResultObject, IWbemCallResult::GetResultObject, _hmm_iwbemcallresult_getresultobject, wbemcli/IWbemCallResult::GetResultObject, wmi.iwbemcallresult_getresultobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemCallResult::GetResultObject method
+# IWbemCallResult::GetResultObject
 
 
 ## -description

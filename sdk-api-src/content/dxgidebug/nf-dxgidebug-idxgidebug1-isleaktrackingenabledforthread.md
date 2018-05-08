@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIDebug1.IsLeakTrackingEnabledForThread
-title: IDXGIDebug1::IsLeakTrackingEnabledForThread method
+title: IDXGIDebug1::IsLeakTrackingEnabledForThread
 author: windows-driver-content
 description: Gets a value indicating whether leak tracking is turned on for the current thread.
 old-location: direct3ddxgi\idxgidebug1_isleaktrackingenabledforthread.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: ACC57DDE-F019-415F-AAFA-E56ACE4F4197
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIDebug1, IDXGIDebug1 interface [DXGI], IsLeakTrackingEnabledForThread method, IDXGIDebug1::IsLeakTrackingEnabledForThread, IsLeakTrackingEnabledForThread method [DXGI], IsLeakTrackingEnabledForThread method [DXGI], IDXGIDebug1 interface, IsLeakTrackingEnabledForThread,IDXGIDebug1.IsLeakTrackingEnabledForThread, direct3ddxgi.idxgidebug1_isleaktrackingenabledforthread, dxgidebug/IDXGIDebug1::IsLeakTrackingEnabledForThread
+ms.keywords: IDXGIDebug1 interface [DXGI],IsLeakTrackingEnabledForThread method, IDXGIDebug1.IsLeakTrackingEnabledForThread, IDXGIDebug1::IsLeakTrackingEnabledForThread, IsLeakTrackingEnabledForThread, IsLeakTrackingEnabledForThread method [DXGI], IsLeakTrackingEnabledForThread method [DXGI],IDXGIDebug1 interface, direct3ddxgi.idxgidebug1_isleaktrackingenabledforthread, dxgidebug/IDXGIDebug1::IsLeakTrackingEnabledForThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDebug1::IsLeakTrackingEnabledForThread method
+# IDXGIDebug1::IsLeakTrackingEnabledForThread
 
 
 ## -description

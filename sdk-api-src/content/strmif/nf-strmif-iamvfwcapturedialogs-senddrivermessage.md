@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVfwCaptureDialogs.SendDriverMessage
-title: IAMVfwCaptureDialogs::SendDriverMessage method
+title: IAMVfwCaptureDialogs::SendDriverMessage
 author: windows-driver-content
 description: The SendDriverMessage method sends a driver-specific message.
 old-location: dshow\iamvfwcapturedialogs_senddrivermessage.htm
 old-project: DirectShow
 ms.assetid: 0a8ba932-0f31-4768-b5e3-15ec8533a574
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVfwCaptureDialogs, IAMVfwCaptureDialogs interface [DirectShow], SendDriverMessage method, IAMVfwCaptureDialogs::SendDriverMessage, IAMVfwCaptureDialogsSendDriverMessage, SendDriverMessage method [DirectShow], SendDriverMessage method [DirectShow], IAMVfwCaptureDialogs interface, SendDriverMessage,IAMVfwCaptureDialogs.SendDriverMessage, dshow.iamvfwcapturedialogs_senddrivermessage, strmif/IAMVfwCaptureDialogs::SendDriverMessage
+ms.date: 4/30/2018
+ms.keywords: IAMVfwCaptureDialogs interface [DirectShow],SendDriverMessage method, IAMVfwCaptureDialogs.SendDriverMessage, IAMVfwCaptureDialogs::SendDriverMessage, IAMVfwCaptureDialogsSendDriverMessage, SendDriverMessage, SendDriverMessage method [DirectShow], SendDriverMessage method [DirectShow],IAMVfwCaptureDialogs interface, dshow.iamvfwcapturedialogs_senddrivermessage, strmif/IAMVfwCaptureDialogs::SendDriverMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVfwCaptureDialogs::SendDriverMessage method
+# IAMVfwCaptureDialogs::SendDriverMessage
 
 
 ## -description

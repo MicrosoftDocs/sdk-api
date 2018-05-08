@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIOutput2.SupportsOverlays
-title: IDXGIOutput2::SupportsOverlays method
+title: IDXGIOutput2::SupportsOverlays
 author: windows-driver-content
 description: Queries an adapter output for multiplane overlay support.
 old-location: direct3ddxgi\idxgioutput2_supportsoverlays.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: BC9CD287-CD89-4D0C-ADE3-EAA60D5FEAAD
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIOutput2, IDXGIOutput2 interface [DXGI], SupportsOverlays method, IDXGIOutput2::SupportsOverlays, SupportsOverlays method [DXGI], SupportsOverlays method [DXGI], IDXGIOutput2 interface, SupportsOverlays,IDXGIOutput2.SupportsOverlays, direct3ddxgi.idxgioutput2_supportsoverlays, dxgi1_3/IDXGIOutput2::SupportsOverlays
+ms.keywords: IDXGIOutput2 interface [DXGI],SupportsOverlays method, IDXGIOutput2.SupportsOverlays, IDXGIOutput2::SupportsOverlays, SupportsOverlays, SupportsOverlays method [DXGI], SupportsOverlays method [DXGI],IDXGIOutput2 interface, direct3ddxgi.idxgioutput2_supportsoverlays, dxgi1_3/IDXGIOutput2::SupportsOverlays
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput2::SupportsOverlays method
+# IDXGIOutput2::SupportsOverlays
 
 
 ## -description

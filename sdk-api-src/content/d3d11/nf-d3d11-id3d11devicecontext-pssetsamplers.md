@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSSetSamplers
-title: ID3D11DeviceContext::PSSetSamplers method
+title: ID3D11DeviceContext::PSSetSamplers
 author: windows-driver-content
 description: Set an array of sampler states to the pixel shader pipeline stage.
 old-location: direct3d11\id3d11devicecontext_pssetsamplers.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: b344c0fb-056d-452d-9d30-a8f97e7d226a
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], PSSetSamplers method, ID3D11DeviceContext::PSSetSamplers, PSSetSamplers method [Direct3D 11], PSSetSamplers method [Direct3D 11], ID3D11DeviceContext interface, PSSetSamplers,ID3D11DeviceContext.PSSetSamplers, bedb6ab1-e7ea-70b9-097a-00978aae4f00, d3d11/ID3D11DeviceContext::PSSetSamplers, direct3d11.id3d11devicecontext_pssetsamplers
+ms.keywords: ID3D11DeviceContext interface [Direct3D 11],PSSetSamplers method, ID3D11DeviceContext.PSSetSamplers, ID3D11DeviceContext::PSSetSamplers, PSSetSamplers, PSSetSamplers method [Direct3D 11], PSSetSamplers method [Direct3D 11],ID3D11DeviceContext interface, bedb6ab1-e7ea-70b9-097a-00978aae4f00, d3d11/ID3D11DeviceContext::PSSetSamplers, direct3d11.id3d11devicecontext_pssetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::PSSetSamplers method
+# ID3D11DeviceContext::PSSetSamplers
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_FileName
-title: IFaxDoc::put_FileName method
+title: IFaxDoc::put_FileName
 author: windows-driver-content
 description: Sets or retrieves the FileName property for a FaxDoc object. The FileName property is a null-terminated string that contains the name of the document file associated with the object.
 old-location: fax\_mfax_ifaxdoc_get_filename_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7rqd.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], FileName property, FileName property [Fax Service], FileName property [Fax Service], FaxDoc object, IFaxDoc, IFaxDoc::put_FileName, _mfax_ifaxdoc_get_filename, fax._mfax_ifaxdoc_get_filename, fax._mfax_ifaxdoc_get_filename_vb, put_FileName,IFaxDoc.put_FileName
+ms.keywords: FaxDoc object [Fax Service],FileName property, FaxDoc.FileName, FileName property [Fax Service], FileName property [Fax Service],FaxDoc object, IFaxDoc.put_FileName, IFaxDoc::put_FileName, _mfax_ifaxdoc_get_filename, fax._mfax_ifaxdoc_get_filename, fax._mfax_ifaxdoc_get_filename_vb, put_FileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_FileName method
+# IFaxDoc::put_FileName
 
 
 ## -description

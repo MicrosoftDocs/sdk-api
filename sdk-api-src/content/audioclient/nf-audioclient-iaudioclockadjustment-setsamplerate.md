@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClockAdjustment.SetSampleRate
-title: IAudioClockAdjustment::SetSampleRate method
+title: IAudioClockAdjustment::SetSampleRate
 author: windows-driver-content
 description: The SetSampleRate method sets the sample rate of a stream.
 old-location: coreaudio\iaudioclockadjustment_setsamplerate.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: fbb5b525-dc5a-4845-a1fa-ed37281b5c69
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioClockAdjustment, IAudioClockAdjustment interface [Core Audio], SetSampleRate method, IAudioClockAdjustment::SetSampleRate, SetSampleRate method [Core Audio], SetSampleRate method [Core Audio], IAudioClockAdjustment interface, SetSampleRate,IAudioClockAdjustment.SetSampleRate, audioclient/IAudioClockAdjustment::SetSampleRate, coreaudio.iaudioclockadjustment_setsamplerate
+ms.keywords: IAudioClockAdjustment interface [Core Audio],SetSampleRate method, IAudioClockAdjustment.SetSampleRate, IAudioClockAdjustment::SetSampleRate, SetSampleRate, SetSampleRate method [Core Audio], SetSampleRate method [Core Audio],IAudioClockAdjustment interface, audioclient/IAudioClockAdjustment::SetSampleRate, coreaudio.iaudioclockadjustment_setsamplerate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioClockAdjustment::SetSampleRate method
+# IAudioClockAdjustment::SetSampleRate
 
 
 ## -description

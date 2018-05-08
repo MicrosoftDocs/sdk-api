@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.GetState
-title: IAudioSessionControl::GetState method
+title: IAudioSessionControl::GetState
 author: windows-driver-content
 description: The GetState method retrieves the current state of the audio session.
 old-location: coreaudio\iaudiosessioncontrol_getstate.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 9c0188a1-7982-40f0-9040-bda00473160c
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetState method [Core Audio], GetState method [Core Audio], IAudioSessionControl interface, GetState,IAudioSessionControl.GetState, IAudioSessionControl, IAudioSessionControl interface [Core Audio], GetState method, IAudioSessionControl::GetState, IAudioSessionControlGetState, audiopolicy/IAudioSessionControl::GetState, coreaudio.iaudiosessioncontrol_getstate
+ms.keywords: GetState, GetState method [Core Audio], GetState method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetState method, IAudioSessionControl.GetState, IAudioSessionControl::GetState, IAudioSessionControlGetState, audiopolicy/IAudioSessionControl::GetState, coreaudio.iaudiosessioncontrol_getstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionControl::GetState method
+# IAudioSessionControl::GetState
 
 
 ## -description

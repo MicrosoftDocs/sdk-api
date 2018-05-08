@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTask.Refresh
-title: IRunningTask::Refresh method
+title: IRunningTask::Refresh
 author: windows-driver-content
 description: Refreshes all of the local instance variables of the task.
 old-location: taskschd\irunningtask_refresh.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: f46d82ff-2f1b-477b-b043-665659ad8982
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRunningTask, IRunningTask interface [Task Scheduler], Refresh method, IRunningTask::Refresh, Refresh method [Task Scheduler], Refresh method [Task Scheduler], IRunningTask interface, Refresh,IRunningTask.Refresh, taskschd.irunningtask_refresh, taskschd/IRunningTask::Refresh
+ms.keywords: IRunningTask interface [Task Scheduler],Refresh method, IRunningTask.Refresh, IRunningTask::Refresh, Refresh, Refresh method [Task Scheduler], Refresh method [Task Scheduler],IRunningTask interface, taskschd.irunningtask_refresh, taskschd/IRunningTask::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRunningTask::Refresh method
+# IRunningTask::Refresh
 
 
 ## -description

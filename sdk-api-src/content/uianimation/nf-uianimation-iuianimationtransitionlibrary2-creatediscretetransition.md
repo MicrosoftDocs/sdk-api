@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateDiscreteTransition
-title: IUIAnimationTransitionLibrary2::CreateDiscreteTransition method
+title: IUIAnimationTransitionLibrary2::CreateDiscreteTransition
 author: windows-driver-content
 description: Creates a discrete scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_creatediscretetransition.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 1BDF8ED9-C39D-4FEF-A335-B3BE4EAAD297
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateDiscreteTransition method [Windows Animation], CreateDiscreteTransition method [Windows Animation], IUIAnimationTransitionLibrary2 interface, CreateDiscreteTransition,IUIAnimationTransitionLibrary2.CreateDiscreteTransition, IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], CreateDiscreteTransition method, IUIAnimationTransitionLibrary2::CreateDiscreteTransition, uianimation.iuianimationtransitionlibrary2_creatediscretetransition, uianimation/IUIAnimationTransitionLibrary2::CreateDiscreteTransition
+ms.keywords: CreateDiscreteTransition, CreateDiscreteTransition method [Windows Animation], CreateDiscreteTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateDiscreteTransition method, IUIAnimationTransitionLibrary2.CreateDiscreteTransition, IUIAnimationTransitionLibrary2::CreateDiscreteTransition, uianimation.iuianimationtransitionlibrary2_creatediscretetransition, uianimation/IUIAnimationTransitionLibrary2::CreateDiscreteTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary2::CreateDiscreteTransition method
+# IUIAnimationTransitionLibrary2::CreateDiscreteTransition
 
 
 ## -description

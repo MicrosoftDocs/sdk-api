@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMMatrixTransform.GetMatrix
-title: IXpsOMMatrixTransform::GetMatrix method
+title: IXpsOMMatrixTransform::GetMatrix
 author: windows-driver-content
 description: Gets the XPS_MATRIX structure, which specifies the transform matrix.
 old-location: xps\ixpsommatrixtransform_getmatrix.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 4067778d-d10f-4b53-9419-f438b7197f44
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetMatrix method [XPS Documents and Packaging], GetMatrix method [XPS Documents and Packaging], IXpsOMMatrixTransform interface, GetMatrix,IXpsOMMatrixTransform.GetMatrix, IXpsOMMatrixTransform, IXpsOMMatrixTransform interface [XPS Documents and Packaging], GetMatrix method, IXpsOMMatrixTransform::GetMatrix, xps.ixpsommatrixtransform_getmatrix, xpsobjectmodel/IXpsOMMatrixTransform::GetMatrix
+ms.keywords: GetMatrix, GetMatrix method [XPS Documents and Packaging], GetMatrix method [XPS Documents and Packaging],IXpsOMMatrixTransform interface, IXpsOMMatrixTransform interface [XPS Documents and Packaging],GetMatrix method, IXpsOMMatrixTransform.GetMatrix, IXpsOMMatrixTransform::GetMatrix, xps.ixpsommatrixtransform_getmatrix, xpsobjectmodel/IXpsOMMatrixTransform::GetMatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMMatrixTransform::GetMatrix method
+# IXpsOMMatrixTransform::GetMatrix
 
 
 ## -description

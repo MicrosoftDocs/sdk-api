@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: e5bf31aa-59d7-410a-bb11-fe4af36fa409
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_GET_DATA_FORMAT_FN, StorageAdapterGetDataFormat, StorageAdapterGetDataFormat callback function [Windows Biometric Framework API], secbiomet.storageadaptergetdataformat, winbio_adapter/StorageAdapterGetDataFormat
+ms.keywords: PIBIO_STORAGE_GET_DATA_FORMAT_FN, PIBIO_STORAGE_GET_DATA_FORMAT_FN callback, StorageAdapterGetDataFormat, StorageAdapterGetDataFormat callback function [Windows Biometric Framework API], secbiomet.storageadaptergetdataformat, winbio_adapter/StorageAdapterGetDataFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_GET_DATA_FORMAT_FN callback
+# PIBIO_STORAGE_GET_DATA_FORMAT_FN callback function
 
 
 ## -description

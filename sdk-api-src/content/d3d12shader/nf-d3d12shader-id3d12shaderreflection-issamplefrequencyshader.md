@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.IsSampleFrequencyShader
-title: ID3D12ShaderReflection::IsSampleFrequencyShader method
+title: ID3D12ShaderReflection::IsSampleFrequencyShader
 author: windows-driver-content
 description: Indicates whether a shader is a sample frequency shader.
 old-location: direct3d12\id3d12shaderreflection_issamplefrequencyshader.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 8779992E-D20A-4D8A-82F2-B83A3D481BD9
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12ShaderReflection, ID3D12ShaderReflection interface, IsSampleFrequencyShader method, ID3D12ShaderReflection::IsSampleFrequencyShader, IsSampleFrequencyShader method, IsSampleFrequencyShader method, ID3D12ShaderReflection interface, IsSampleFrequencyShader,ID3D12ShaderReflection.IsSampleFrequencyShader, d3d12shader/ID3D12ShaderReflection::IsSampleFrequencyShader, direct3d12.id3d12shaderreflection_issamplefrequencyshader
+ms.keywords: ID3D12ShaderReflection interface,IsSampleFrequencyShader method, ID3D12ShaderReflection.IsSampleFrequencyShader, ID3D12ShaderReflection::IsSampleFrequencyShader, IsSampleFrequencyShader, IsSampleFrequencyShader method, IsSampleFrequencyShader method,ID3D12ShaderReflection interface, d3d12shader/ID3D12ShaderReflection::IsSampleFrequencyShader, direct3d12.id3d12shaderreflection_issamplefrequencyshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflection::IsSampleFrequencyShader method
+# ID3D12ShaderReflection::IsSampleFrequencyShader
 
 
 ## -description

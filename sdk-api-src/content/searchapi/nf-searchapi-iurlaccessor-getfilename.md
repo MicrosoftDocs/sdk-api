@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetFileName
-title: IUrlAccessor::GetFileName method
+title: IUrlAccessor::GetFileName
 author: windows-driver-content
 description: Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the IUrlAccessor::BindToStream method is implemented, this method returns the shell's System.ParsingPath property for the item.
 old-location: search\_search_IUrlAccessor_GetFileName.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getfilename.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetFileName method [search], GetFileName method [search], IUrlAccessor interface, GetFileName,IUrlAccessor.GetFileName, IUrlAccessor, IUrlAccessor interface [search], GetFileName method, IUrlAccessor::GetFileName, _search_IUrlAccessor_GetFileName, search._search_IUrlAccessor_GetFileName, searchapi/IUrlAccessor::GetFileName
+ms.date: 5/4/2018
+ms.keywords: GetFileName, GetFileName method [search], GetFileName method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetFileName method, IUrlAccessor.GetFileName, IUrlAccessor::GetFileName, _search_IUrlAccessor_GetFileName, search._search_IUrlAccessor_GetFileName, searchapi/IUrlAccessor::GetFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUrlAccessor::GetFileName method
+# IUrlAccessor::GetFileName
 
 
 ## -description

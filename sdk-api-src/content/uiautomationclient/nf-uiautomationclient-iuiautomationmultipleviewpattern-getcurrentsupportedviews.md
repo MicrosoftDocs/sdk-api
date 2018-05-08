@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.GetCurrentSupportedViews
-title: IUIAutomationMultipleViewPattern::GetCurrentSupportedViews method
+title: IUIAutomationMultipleViewPattern::GetCurrentSupportedViews
 author: windows-driver-content
 description: Retrieves a collection of control-specific view identifiers.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9380797a-b546-4e36-9403-d34cea672ace
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCurrentSupportedViews method [Windows Accessibility], GetCurrentSupportedViews method [Windows Accessibility], IUIAutomationMultipleViewPattern interface, GetCurrentSupportedViews,IUIAutomationMultipleViewPattern.GetCurrentSupportedViews, IUIAutomationMultipleViewPattern, IUIAutomationMultipleViewPattern interface [Windows Accessibility], GetCurrentSupportedViews method, IUIAutomationMultipleViewPattern::GetCurrentSupportedViews, uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews, uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews, uiautomationclient/IUIAutomationMultipleViewPattern::GetCurrentSupportedViews, winauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews
+ms.keywords: GetCurrentSupportedViews, GetCurrentSupportedViews method [Windows Accessibility], GetCurrentSupportedViews method [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],GetCurrentSupportedViews method, IUIAutomationMultipleViewPattern.GetCurrentSupportedViews, IUIAutomationMultipleViewPattern::GetCurrentSupportedViews, uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews, uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews, uiautomationclient/IUIAutomationMultipleViewPattern::GetCurrentSupportedViews, winauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationMultipleViewPattern::GetCurrentSupportedViews method
+# IUIAutomationMultipleViewPattern::GetCurrentSupportedViews
 
 
 ## -description

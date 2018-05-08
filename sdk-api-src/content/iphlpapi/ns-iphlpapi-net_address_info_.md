@@ -7,7 +7,7 @@ old-location: iphlp\net_address_info.htm
 old-project: IpHlp
 ms.assetid: 1a59cc13-a3fc-4489-aafd-444a96d9a339
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: "*PNET_ADDRESS_INFO, NET_ADDRESS_INFO, NET_ADDRESS_INFO structure [IP Helper], NET_ADDRESS_INFO_, PNET_ADDRESS_INFO, PNET_ADDRESS_INFO structure pointer [IP Helper], iphlp.net_address_info, iphlpapi/NET_ADDRESS_INFO, iphlpapi/PNET_ADDRESS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,25 +84,25 @@ A DNS name formatted as a <b>NULL</b>-terminated wide character string. The maxi
 The network port formatted as a <b>NULL</b>-terminated wide character string. 
 
 
-#### - IpAddress
-
-Type: <b>SOCKADDR</b>
-
-An IPv4 or IPv6 address represented as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> structure.
-
-
-#### - Ipv4Address
+### -field Ipv4Address
 
 Type: <b>SOCKADDR_IN</b>
 
 An IPv4 address represented as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570823">SOCKADDR_IN</a> structure.
 
 
-#### - Ipv6Address
+### -field Ipv6Address
 
 Type: <b>SOCKADDR_IN6</b>
 
 An IPv6 address represented as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570824">SOCKADDR_IN6</a> structure.
+
+
+### -field IpAddress
+
+Type: <b>SOCKADDR</b>
+
+An IPv4 or IPv6 address represented as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> structure.
 
 
 ## -remarks

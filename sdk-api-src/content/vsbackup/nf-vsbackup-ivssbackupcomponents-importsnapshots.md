@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.ImportSnapshots
-title: IVssBackupComponents::ImportSnapshots method
+title: IVssBackupComponents::ImportSnapshots
 author: windows-driver-content
 description: Imports shadow copies transported from a different machine.
 old-location: base\ivssbackupcomponents_importsnapshots.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 7f28c841-5448-4ed7-b76e-0aa5376fd8bf
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], ImportSnapshots method, IVssBackupComponents::ImportSnapshots, ImportSnapshots method [VSS], ImportSnapshots method [VSS], IVssBackupComponents interface, ImportSnapshots,IVssBackupComponents.ImportSnapshots, _win32_ivssbackupcomponents_importsnapshots, base.ivssbackupcomponents_importsnapshots, vsbackup/IVssBackupComponents::ImportSnapshots
+ms.keywords: IVssBackupComponents interface [VSS],ImportSnapshots method, IVssBackupComponents.ImportSnapshots, IVssBackupComponents::ImportSnapshots, ImportSnapshots, ImportSnapshots method [VSS], ImportSnapshots method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_importsnapshots, base.ivssbackupcomponents_importsnapshots, vsbackup/IVssBackupComponents::ImportSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::ImportSnapshots method
+# IVssBackupComponents::ImportSnapshots
 
 
 ## -description

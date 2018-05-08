@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetColor
-title: IVisualProperties::SetColor method
+title: IVisualProperties::SetColor
 author: windows-driver-content
 description: Sets the color, as specified.
 old-location: shell\IVisualProperties_SetColor.htm
 old-project: shell
 ms.assetid: 24e351af-687d-454a-9f0a-e7c07175dbd3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVisualProperties, IVisualProperties interface [Windows Shell], SetColor method, IVisualProperties::SetColor, SetColor method [Windows Shell], SetColor method [Windows Shell], IVisualProperties interface, SetColor,IVisualProperties.SetColor, _shell_IVisualProperties_SetColor, shell.IVisualProperties_SetColor, shobjidl/IVisualProperties::SetColor
+ms.date: 5/3/2018
+ms.keywords: IVisualProperties interface [Windows Shell],SetColor method, IVisualProperties.SetColor, IVisualProperties::SetColor, SetColor, SetColor method [Windows Shell], SetColor method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetColor, shell.IVisualProperties_SetColor, shobjidl/IVisualProperties::SetColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IVisualProperties::SetColor method
+# IVisualProperties::SetColor
 
 
 ## -description

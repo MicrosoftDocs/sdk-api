@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.UnsubscribeToOperation
-title: IWSDServiceProxy::UnsubscribeToOperation method
+title: IWSDServiceProxy::UnsubscribeToOperation
 author: windows-driver-content
 description: Cancels a subscription to a notification or solicit/response event.
 old-location: ncd\iwsdserviceproxy_unsubscribetooperation_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: b306239c-95a4-4a1d-990c-193237bad275
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDServiceProxy, IWSDServiceProxy interface, UnsubscribeToOperation method, IWSDServiceProxy::UnsubscribeToOperation, UnsubscribeToOperation method, UnsubscribeToOperation method, IWSDServiceProxy interface, UnsubscribeToOperation,IWSDServiceProxy.UnsubscribeToOperation, ncd.iwsdserviceproxy_unsubscribetooperation_method, wsdclient/IWSDServiceProxy::UnsubscribeToOperation
+ms.keywords: IWSDServiceProxy interface,UnsubscribeToOperation method, IWSDServiceProxy.UnsubscribeToOperation, IWSDServiceProxy::UnsubscribeToOperation, UnsubscribeToOperation, UnsubscribeToOperation method, UnsubscribeToOperation method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_unsubscribetooperation_method, wsdclient/IWSDServiceProxy::UnsubscribeToOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxy::UnsubscribeToOperation method
+# IWSDServiceProxy::UnsubscribeToOperation
 
 
 ## -description

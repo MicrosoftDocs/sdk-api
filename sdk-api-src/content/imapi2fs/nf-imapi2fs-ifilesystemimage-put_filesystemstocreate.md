@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_FileSystemsToCreate
-title: IFileSystemImage::put_FileSystemsToCreate method
+title: IFileSystemImage::put_FileSystemsToCreate
 author: windows-driver-content
 description: Sets the file systems to create when generating the result stream.
 old-location: imapi\ifilesystemimage_put_filesystemstocreate.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: c9bb2a86-2bdb-495e-ab5c-479667a211b2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], put_FileSystemsToCreate method, IFileSystemImage::put_FileSystemsToCreate, imapi.ifilesystemimage_put_filesystemstocreate, imapi2fs/IFileSystemImage::put_FileSystemsToCreate, put_FileSystemsToCreate method [IMAPI], put_FileSystemsToCreate method [IMAPI], IFileSystemImage interface, put_FileSystemsToCreate,IFileSystemImage.put_FileSystemsToCreate
+ms.keywords: IFileSystemImage interface [IMAPI],put_FileSystemsToCreate method, IFileSystemImage.put_FileSystemsToCreate, IFileSystemImage::put_FileSystemsToCreate, imapi.ifilesystemimage_put_filesystemstocreate, imapi2fs/IFileSystemImage::put_FileSystemsToCreate, put_FileSystemsToCreate, put_FileSystemsToCreate method [IMAPI], put_FileSystemsToCreate method [IMAPI],IFileSystemImage interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::put_FileSystemsToCreate method
+# IFileSystemImage::put_FileSystemsToCreate
 
 
 ## -description

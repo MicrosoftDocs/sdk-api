@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_FeaturesAvailable
-title: IMSVidCtl::get_FeaturesAvailable method
+title: IMSVidCtl::get_FeaturesAvailable
 author: windows-driver-content
 description: The get_FeaturesAvailable method retrieves the features that are available on the local system.
 old-location: mstv\imsvidctl_get_featuresavailable.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 73da686c-0c25-4dfb-8a13-681f1dac6a4a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], get_FeaturesAvailable method, IMSVidCtl::get_FeaturesAvailable, IMSVidCtlget_FeaturesAvailable, get_FeaturesAvailable method [Microsoft TV Technologies], get_FeaturesAvailable method [Microsoft TV Technologies], IMSVidCtl interface, get_FeaturesAvailable,IMSVidCtl.get_FeaturesAvailable, mstv.imsvidctl_get_featuresavailable, msvidctl/IMSVidCtl::get_FeaturesAvailable
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_FeaturesAvailable method, IMSVidCtl.get_FeaturesAvailable, IMSVidCtl::get_FeaturesAvailable, IMSVidCtlget_FeaturesAvailable, get_FeaturesAvailable, get_FeaturesAvailable method [Microsoft TV Technologies], get_FeaturesAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_featuresavailable, msvidctl/IMSVidCtl::get_FeaturesAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::get_FeaturesAvailable method
+# IMSVidCtl::get_FeaturesAvailable
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage2.GetAttributes2
-title: IMDSPStorage2::GetAttributes2 method
+title: IMDSPStorage2::GetAttributes2
 author: windows-driver-content
 description: The GetAttributes2 method gets attributes of files or storages.
 old-location: wmdm\imdspstorage2_getattributes2.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 2db30715-cd49-4e55-b0d0-73ac531f8661
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetAttributes2 method [windows Media Device Manager], GetAttributes2 method [windows Media Device Manager], IMDSPStorage2 interface, GetAttributes2,IMDSPStorage2.GetAttributes2, IMDSPStorage2, IMDSPStorage2 interface [windows Media Device Manager], GetAttributes2 method, IMDSPStorage2::GetAttributes2, IMDSPStorage2GetAttributes2, mswmdm/IMDSPStorage2::GetAttributes2, wmdm.imdspstorage2_getattributes2
+ms.keywords: GetAttributes2, GetAttributes2 method [windows Media Device Manager], GetAttributes2 method [windows Media Device Manager],IMDSPStorage2 interface, IMDSPStorage2 interface [windows Media Device Manager],GetAttributes2 method, IMDSPStorage2.GetAttributes2, IMDSPStorage2::GetAttributes2, IMDSPStorage2GetAttributes2, mswmdm/IMDSPStorage2::GetAttributes2, wmdm.imdspstorage2_getattributes2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPStorage2::GetAttributes2 method
+# IMDSPStorage2::GetAttributes2
 
 
 ## -description

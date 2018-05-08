@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkConnectivityChanged
-title: INetworkEvents::NetworkConnectivityChanged method
+title: INetworkEvents::NetworkConnectivityChanged
 author: windows-driver-content
 description: The NetworkConnectivityChanged method is called when network connectivity related changes occur.
 old-location: nla\inetworkevents_networkconnectivitychanged.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: adaf3abe-9a8c-45af-bcc7-bcc516ed75ff
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetworkEvents, INetworkEvents interface [Network Awareness], NetworkConnectivityChanged method, INetworkEvents::NetworkConnectivityChanged, NetworkConnectivityChanged method [Network Awareness], NetworkConnectivityChanged method [Network Awareness], INetworkEvents interface, NetworkConnectivityChanged,INetworkEvents.NetworkConnectivityChanged, netlistmgr/INetworkEvents::NetworkConnectivityChanged, nla.inetworkevents_networkconnectivitychanged
+ms.keywords: INetworkEvents interface [Network Awareness],NetworkConnectivityChanged method, INetworkEvents.NetworkConnectivityChanged, INetworkEvents::NetworkConnectivityChanged, NetworkConnectivityChanged, NetworkConnectivityChanged method [Network Awareness], NetworkConnectivityChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkConnectivityChanged, nla.inetworkevents_networkconnectivitychanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkEvents::NetworkConnectivityChanged method
+# INetworkEvents::NetworkConnectivityChanged
 
 
 ## -description

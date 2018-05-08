@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.OpenCommandSession
-title: IMbnDeviceService::OpenCommandSession method
+title: IMbnDeviceService::OpenCommandSession
 author: windows-driver-content
 description: Opens a command session to a device service on a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_opencommandsession.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: EC4FF42D-EFE9-432C-997F-426B2187BBBE
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband Networks], OpenCommandSession method, IMbnDeviceService::OpenCommandSession, OpenCommandSession method [Microsoft Broadband Networks], OpenCommandSession method [Microsoft Broadband Networks], IMbnDeviceService interface, OpenCommandSession,IMbnDeviceService.OpenCommandSession, mbn.imbndeviceservice_opencommandsession, mbnapi/IMbnDeviceService::OpenCommandSession
+ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],OpenCommandSession method, IMbnDeviceService.OpenCommandSession, IMbnDeviceService::OpenCommandSession, OpenCommandSession, OpenCommandSession method [Microsoft Broadband Networks], OpenCommandSession method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_opencommandsession, mbnapi/IMbnDeviceService::OpenCommandSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceService::OpenCommandSession method
+# IMbnDeviceService::OpenCommandSession
 
 
 ## -description

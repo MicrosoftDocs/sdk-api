@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTimecodeDisplay.GetTCDisplay
-title: IAMTimecodeDisplay::GetTCDisplay method
+title: IAMTimecodeDisplay::GetTCDisplay
 author: windows-driver-content
 description: The GetTCDisplay method retrieves current settings of the timecode character generator output.
 old-location: dshow\iamtimecodedisplay_gettcdisplay.htm
 old-project: DirectShow
 ms.assetid: 3da33500-1b1d-4818-b69b-74f302614349
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetTCDisplay method [DirectShow], GetTCDisplay method [DirectShow], IAMTimecodeDisplay interface, GetTCDisplay,IAMTimecodeDisplay.GetTCDisplay, IAMTimecodeDisplay, IAMTimecodeDisplay interface [DirectShow], GetTCDisplay method, IAMTimecodeDisplay::GetTCDisplay, IAMTimecodeDisplayGetTCDisplay, dshow.iamtimecodedisplay_gettcdisplay, strmif/IAMTimecodeDisplay::GetTCDisplay
+ms.date: 4/30/2018
+ms.keywords: GetTCDisplay, GetTCDisplay method [DirectShow], GetTCDisplay method [DirectShow],IAMTimecodeDisplay interface, IAMTimecodeDisplay interface [DirectShow],GetTCDisplay method, IAMTimecodeDisplay.GetTCDisplay, IAMTimecodeDisplay::GetTCDisplay, IAMTimecodeDisplayGetTCDisplay, dshow.iamtimecodedisplay_gettcdisplay, strmif/IAMTimecodeDisplay::GetTCDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTimecodeDisplay::GetTCDisplay method
+# IAMTimecodeDisplay::GetTCDisplay
 
 
 ## -description

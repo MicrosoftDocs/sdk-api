@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.GetItemsStatus
-title: ITfLangBarItemMgr::GetItemsStatus method
+title: ITfLangBarItemMgr::GetItemsStatus
 author: windows-driver-content
 description: ITfLangBarItemMgr::GetItemsStatus method
 old-location: tsf\itflangbaritemmgr_getitemsstatus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: bf0bbbd5-63ca-4f2e-afee-e0c47d6e3d7b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetItemsStatus method [Text Services Framework], GetItemsStatus method [Text Services Framework], ITfLangBarItemMgr interface, GetItemsStatus,ITfLangBarItemMgr.GetItemsStatus, ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Framework], GetItemsStatus method, ITfLangBarItemMgr::GetItemsStatus, _tsf_itflangbaritemmgr_getitemsstatus_ref, ctfutb/ITfLangBarItemMgr::GetItemsStatus, tsf.itflangbaritemmgr_getitemsstatus
+ms.keywords: GetItemsStatus, GetItemsStatus method [Text Services Framework], GetItemsStatus method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItemsStatus method, ITfLangBarItemMgr.GetItemsStatus, ITfLangBarItemMgr::GetItemsStatus, _tsf_itflangbaritemmgr_getitemsstatus_ref, ctfutb/ITfLangBarItemMgr::GetItemsStatus, tsf.itflangbaritemmgr_getitemsstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemMgr::GetItemsStatus method
+# ITfLangBarItemMgr::GetItemsStatus
 
 
 ## -description

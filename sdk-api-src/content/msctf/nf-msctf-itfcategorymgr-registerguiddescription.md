@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.RegisterGUIDDescription
-title: ITfCategoryMgr::RegisterGUIDDescription method
+title: ITfCategoryMgr::RegisterGUIDDescription
 author: windows-driver-content
 description: ITfCategoryMgr::RegisterGUIDDescription method
 old-location: tsf\itfcategorymgr_registerguiddescription.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: cb42e583-af5b-42ba-9637-889c7d4bdc82
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCategoryMgr, ITfCategoryMgr interface [Text Services Framework], RegisterGUIDDescription method, ITfCategoryMgr::RegisterGUIDDescription, RegisterGUIDDescription method [Text Services Framework], RegisterGUIDDescription method [Text Services Framework], ITfCategoryMgr interface, RegisterGUIDDescription,ITfCategoryMgr.RegisterGUIDDescription, _tsf_itfcategorymgr_registerguiddescription_ref, msctf/ITfCategoryMgr::RegisterGUIDDescription, tsf.itfcategorymgr_registerguiddescription
+ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterGUIDDescription method, ITfCategoryMgr.RegisterGUIDDescription, ITfCategoryMgr::RegisterGUIDDescription, RegisterGUIDDescription, RegisterGUIDDescription method [Text Services Framework], RegisterGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registerguiddescription_ref, msctf/ITfCategoryMgr::RegisterGUIDDescription, tsf.itfcategorymgr_registerguiddescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCategoryMgr::RegisterGUIDDescription method
+# ITfCategoryMgr::RegisterGUIDDescription
 
 
 ## -description

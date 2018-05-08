@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSettings.setMode
-title: IWMPSettings::setMode method
+title: IWMPSettings::setMode
 author: windows-driver-content
 description: The setMode method sets the state of playback options.
 old-location: wmp\iwmpsettings_setmode.htm
 old-project: WMP
 ms.assetid: 28a404a7-5bb0-41bb-a5b2-cc6138b8176e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], setMode method, IWMPSettings::setMode, IWMPSettingssetMode, setMode method [Windows Media Player], setMode method [Windows Media Player], IWMPSettings interface, setMode,IWMPSettings.setMode, wmp.iwmpsettings_setmode, wmp/IWMPSettings::setMode
+ms.date: 5/4/2018
+ms.keywords: IWMPSettings interface [Windows Media Player],setMode method, IWMPSettings.setMode, IWMPSettings::setMode, IWMPSettingssetMode, setMode, setMode method [Windows Media Player], setMode method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_setmode, wmp/IWMPSettings::setMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSettings::setMode method
+# IWMPSettings::setMode
 
 
 ## -description

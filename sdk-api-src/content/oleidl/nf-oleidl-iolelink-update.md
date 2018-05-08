@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleLink.Update
-title: IOleLink::Update method
+title: IOleLink::Update
 author: windows-driver-content
 description: Updates the compound document's cached data for a linked object. This involves binding to the link source, if it is not already bound.
 old-location: com\iolelink_update.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c1da8b95-88e7-42b0-884c-5aa394cc49f4
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleLink, IOleLink interface [COM], Update method, IOleLink::Update, Update method [COM], Update method [COM], IOleLink interface, Update,IOleLink.Update, _ole_iolelink_update, com.iolelink_update, oleidl/IOleLink::Update
+ms.keywords: IOleLink interface [COM],Update method, IOleLink.Update, IOleLink::Update, Update, Update method [COM], Update method [COM],IOleLink interface, _ole_iolelink_update, com.iolelink_update, oleidl/IOleLink::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleLink::Update method
+# IOleLink::Update
 
 
 ## -description

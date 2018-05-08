@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetServiceProxyByType
-title: IWSDDeviceProxy::GetServiceProxyByType method
+title: IWSDDeviceProxy::GetServiceProxyByType
 author: windows-driver-content
 description: Retrieves a generic IWSDServiceProxy proxy for a service exposed by the device by port type name.
 old-location: ncd\iwsddeviceproxy_getserviceproxybytype_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 20df9a62-b983-40ed-a4bc-07131b80de6e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetServiceProxyByType method, GetServiceProxyByType method, IWSDDeviceProxy interface, GetServiceProxyByType,IWSDDeviceProxy.GetServiceProxyByType, IWSDDeviceProxy, IWSDDeviceProxy interface, GetServiceProxyByType method, IWSDDeviceProxy::GetServiceProxyByType, ncd.iwsddeviceproxy_getserviceproxybytype_method, wsdclient/IWSDDeviceProxy::GetServiceProxyByType
+ms.keywords: GetServiceProxyByType, GetServiceProxyByType method, GetServiceProxyByType method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetServiceProxyByType method, IWSDDeviceProxy.GetServiceProxyByType, IWSDDeviceProxy::GetServiceProxyByType, ncd.iwsddeviceproxy_getserviceproxybytype_method, wsdclient/IWSDDeviceProxy::GetServiceProxyByType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceProxy::GetServiceProxyByType method
+# IWSDDeviceProxy::GetServiceProxyByType
 
 
 ## -description

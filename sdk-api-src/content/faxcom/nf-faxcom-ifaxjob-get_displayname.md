@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_DisplayName
-title: IFaxJob::get_DisplayName method
+title: IFaxJob::get_DisplayName
 author: windows-driver-content
 description: The DisplayName property is a null-terminated string that contains the user-friendly name to associate with the fax job.
 old-location: fax\_mfax_ifaxjob_get_displayname_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8b39.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DisplayName property [Fax Service], DisplayName property [Fax Service], FaxJob object, FaxJob object [Fax Service], DisplayName property, IFaxJob, IFaxJob::get_DisplayName, _mfax_ifaxjob_get_displayname, fax._mfax_ifaxjob_get_displayname, fax._mfax_ifaxjob_get_displayname_vb, get_DisplayName,IFaxJob.get_DisplayName
+ms.keywords: DisplayName property [Fax Service], DisplayName property [Fax Service],FaxJob object, FaxJob object [Fax Service],DisplayName property, FaxJob.DisplayName, IFaxJob.get_DisplayName, IFaxJob::get_DisplayName, _mfax_ifaxjob_get_displayname, fax._mfax_ifaxjob_get_displayname, fax._mfax_ifaxjob_get_displayname_vb, get_DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxJob::get_DisplayName method
+# IFaxJob::get_DisplayName
 
 
 ## -description

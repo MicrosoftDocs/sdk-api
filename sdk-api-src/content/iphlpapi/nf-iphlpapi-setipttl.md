@@ -7,7 +7,7 @@ old-location: iphlp\setipttl.htm
 old-project: IpHlp
 ms.assetid: dfde8712-f68f-4fa4-b939-ea36e23b5b1e
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: SetIpTTL, SetIpTTL function [IP Helper], _iphlp_setipttl, iphlp.setipttl, iphlpapi/SetIpTTL
 ms.prod: windows-hardware
 ms.technology: windows-devices

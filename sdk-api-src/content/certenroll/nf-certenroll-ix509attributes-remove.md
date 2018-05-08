@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Attributes.Remove
-title: IX509Attributes::Remove method
+title: IX509Attributes::Remove
 author: windows-driver-content
 description: Removes an IX509Attribute object from the collection by index number.
 old-location: security\ix509attributes_remove_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 5821f4bd-5165-4ffc-8d1c-5ef89188b307
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509Attributes, IX509Attributes interface [Security], Remove method, IX509Attributes::Remove, Remove method [Security], Remove method [Security], IX509Attributes interface, Remove,IX509Attributes.Remove, certenroll/IX509Attributes::Remove, security.ix509attributes_remove_method
+ms.keywords: IX509Attributes interface [Security],Remove method, IX509Attributes.Remove, IX509Attributes::Remove, Remove, Remove method [Security], Remove method [Security],IX509Attributes interface, certenroll/IX509Attributes::Remove, security.ix509attributes_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509Attributes::Remove method
+# IX509Attributes::Remove
 
 
 ## -description

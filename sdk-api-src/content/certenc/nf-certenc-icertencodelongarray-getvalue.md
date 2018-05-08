@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.GetValue
-title: ICertEncodeLongArray::GetValue method
+title: ICertEncodeLongArray::GetValue
 author: windows-driver-content
 description: Returns the specified Long value from the Long array.
 old-location: security\icertencodelongarray_getvalue.htm
 old-project: SecCrypto
 ms.assetid: 0a7c1d6b-8fe7-4cc0-8cbd-2831dd3a178b
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeLongArray object [Security], GetValue method, GetValue method [Security], GetValue method [Security], CCertEncodeLongArray object, GetValue method [Security], ICertEncodeLongArray interface, GetValue,ICertEncodeLongArray.GetValue, ICertEncodeLongArray, ICertEncodeLongArray interface [Security], GetValue method, ICertEncodeLongArray::GetValue, _certsrv_icertencodelongarray_getvalue, certenc/ICertEncodeLongArray::GetValue, security.icertencodelongarray_getvalue
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeLongArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeLongArray object, GetValue method [Security],ICertEncodeLongArray interface, ICertEncodeLongArray interface [Security],GetValue method, ICertEncodeLongArray.GetValue, ICertEncodeLongArray::GetValue, _certsrv_icertencodelongarray_getvalue, certenc/ICertEncodeLongArray::GetValue, security.icertencodelongarray_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeLongArray::GetValue method
+# ICertEncodeLongArray::GetValue
 
 
 ## -description

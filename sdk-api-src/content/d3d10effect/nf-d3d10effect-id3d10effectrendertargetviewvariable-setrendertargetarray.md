@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray
-title: ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray method
+title: ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray
 author: windows-driver-content
 description: Set an array of render-targets.
 old-location: direct3d10\id3d10effectrendertargetviewvariable_setrendertargetarray.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable_setrendertargetarray.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10EffectRenderTargetViewVariable, ID3D10EffectRenderTargetViewVariable interface [Direct3D 10], SetRenderTargetArray method, ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray, SetRenderTargetArray method [Direct3D 10], SetRenderTargetArray method [Direct3D 10], ID3D10EffectRenderTargetViewVariable interface, SetRenderTargetArray,ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray, a376af5c-f301-a40d-27a2-6baa3ac58c55, d3d10effect/ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray, direct3d10.id3d10effectrendertargetviewvariable_setrendertargetarray
+ms.keywords: ID3D10EffectRenderTargetViewVariable interface [Direct3D 10],SetRenderTargetArray method, ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray, ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray, SetRenderTargetArray, SetRenderTargetArray method [Direct3D 10], SetRenderTargetArray method [Direct3D 10],ID3D10EffectRenderTargetViewVariable interface, a376af5c-f301-a40d-27a2-6baa3ac58c55, d3d10effect/ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray, direct3d10.id3d10effectrendertargetviewvariable_setrendertargetarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray method
+# ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray
 
 
 ## -description

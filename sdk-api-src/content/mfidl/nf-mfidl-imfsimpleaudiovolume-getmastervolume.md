@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.GetMasterVolume
-title: IMFSimpleAudioVolume::GetMasterVolume method
+title: IMFSimpleAudioVolume::GetMasterVolume
 author: windows-driver-content
 description: Retrieves the master volume level.
 old-location: mf\imfsimpleaudiovolume_getmastervolume.htm
 old-project: medfound
 ms.assetid: 03ce097e-c4e5-4dac-84c0-b569efc420bc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 03ce097e-c4e5-4dac-84c0-b569efc420bc, GetMasterVolume method [Media Foundation], GetMasterVolume method [Media Foundation], IMFSimpleAudioVolume interface, GetMasterVolume,IMFSimpleAudioVolume.GetMasterVolume, IMFSimpleAudioVolume, IMFSimpleAudioVolume interface [Media Foundation], GetMasterVolume method, IMFSimpleAudioVolume::GetMasterVolume, mf.imfsimpleaudiovolume_getmastervolume, mfidl/IMFSimpleAudioVolume::GetMasterVolume
+ms.date: 5/3/2018
+ms.keywords: 03ce097e-c4e5-4dac-84c0-b569efc420bc, GetMasterVolume, GetMasterVolume method [Media Foundation], GetMasterVolume method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMasterVolume method, IMFSimpleAudioVolume.GetMasterVolume, IMFSimpleAudioVolume::GetMasterVolume, mf.imfsimpleaudiovolume_getmastervolume, mfidl/IMFSimpleAudioVolume::GetMasterVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSimpleAudioVolume::GetMasterVolume method
+# IMFSimpleAudioVolume::GetMasterVolume
 
 
 ## -description

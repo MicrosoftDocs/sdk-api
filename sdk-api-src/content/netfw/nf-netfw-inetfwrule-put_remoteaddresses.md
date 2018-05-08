@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule.put_RemoteAddresses
-title: INetFwRule::put_RemoteAddresses method
+title: INetFwRule::put_RemoteAddresses
 author: windows-driver-content
 description: Specifies the list of remote addresses for this rule.
 old-location: ics\inetfwrule_remoteaddresses.htm
 old-project: ICS
 ms.assetid: 107e8cad-a603-4ac8-aa3c-6a85d47016ef
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], RemoteAddresses property, INetFwRule.RemoteAddresses, INetFwRule::get_RemoteAddresses, INetFwRule::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF], INetFwRule interface, ics.inetfwrule_remoteaddresses, netfw/INetFwRule::RemoteAddresses, netfw/INetFwRule::get_RemoteAddresses, netfw/INetFwRule::put_RemoteAddresses, put_RemoteAddresses,INetFwRule.put_RemoteAddresses
+ms.date: 5/1/2018
+ms.keywords: INetFwRule interface [ICS/ICF],RemoteAddresses property, INetFwRule.RemoteAddresses, INetFwRule.put_RemoteAddresses, INetFwRule::RemoteAddresses, INetFwRule::get_RemoteAddresses, INetFwRule::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwRule interface, ics.inetfwrule_remoteaddresses, netfw/INetFwRule::RemoteAddresses, netfw/INetFwRule::get_RemoteAddresses, netfw/INetFwRule::put_RemoteAddresses, put_RemoteAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule::put_RemoteAddresses method
+# INetFwRule::put_RemoteAddresses
 
 
 ## -description

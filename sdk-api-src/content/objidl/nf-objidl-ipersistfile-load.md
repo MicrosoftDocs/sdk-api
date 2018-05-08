@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistFile.Load
-title: IPersistFile::Load method
+title: IPersistFile::Load
 author: windows-driver-content
 description: Opens the specified file and initializes an object from the file contents.
 old-location: com\ipersistfile_load.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8391aa5c-fe6e-4b03-9eef-7958f75910a5
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPersistFile, IPersistFile interface [COM], Load method, IPersistFile::Load, Load method [COM], Load method [COM], IPersistFile interface, Load,IPersistFile.Load, _com_ipersistfile_load, com.ipersistfile_load, objidl/IPersistFile::Load
+ms.keywords: IPersistFile interface [COM],Load method, IPersistFile.Load, IPersistFile::Load, Load, Load method [COM], Load method [COM],IPersistFile interface, _com_ipersistfile_load, com.ipersistfile_load, objidl/IPersistFile::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistFile::Load method
+# IPersistFile::Load
 
 
 ## -description

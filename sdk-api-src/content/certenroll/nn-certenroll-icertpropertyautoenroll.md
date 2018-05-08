@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 25eab0e9-4980-49ad-9d3b-35ad47c20bcb
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyAutoEnroll, ICertPropertyAutoEnroll interface [Security], ICertPropertyAutoEnroll interface [Security], described, certenroll/ICertPropertyAutoEnroll, security.icertpropertyautoenroll
+ms.keywords: ICertPropertyAutoEnroll, ICertPropertyAutoEnroll interface [Security], ICertPropertyAutoEnroll interface [Security],described, certenroll/ICertPropertyAutoEnroll, security.icertpropertyautoenroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

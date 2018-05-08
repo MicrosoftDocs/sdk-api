@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectVideoModePreference
-title: IDvdControl2::SelectVideoModePreference method
+title: IDvdControl2::SelectVideoModePreference
 author: windows-driver-content
 description: The SelectVideoModePreference method sets the specified video mode display (wide screen, letterbox, or pan-scan) for playback.
 old-location: dshow\idvdcontrol2_selectvideomodepreference.htm
 old-project: DirectShow
 ms.assetid: d970f48e-374f-43de-a59c-6c2e70161f55
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SelectVideoModePreference method, IDvdControl2::SelectVideoModePreference, IDvdControl2SelectVideoModePreference, SelectVideoModePreference method [DirectShow], SelectVideoModePreference method [DirectShow], IDvdControl2 interface, SelectVideoModePreference,IDvdControl2.SelectVideoModePreference, dshow.idvdcontrol2_selectvideomodepreference, strmif/IDvdControl2::SelectVideoModePreference
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],SelectVideoModePreference method, IDvdControl2.SelectVideoModePreference, IDvdControl2::SelectVideoModePreference, IDvdControl2SelectVideoModePreference, SelectVideoModePreference, SelectVideoModePreference method [DirectShow], SelectVideoModePreference method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectvideomodepreference, strmif/IDvdControl2::SelectVideoModePreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::SelectVideoModePreference method
+# IDvdControl2::SelectVideoModePreference
 
 
 ## -description

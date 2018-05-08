@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetPowerSource
-title: IWMDMDevice::GetPowerSource method
+title: IWMDMDevice::GetPowerSource
 author: windows-driver-content
 description: The GetPowerSource method retrieves information about the power source and the percentage of power remaining for the device.
 old-location: wmdm\iwmdmdevice_getpowersource.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 0e13ac64-69b7-4c44-8690-8fcef6cb354f
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetPowerSource method [windows Media Device Manager], GetPowerSource method [windows Media Device Manager], IWMDMDevice interface, GetPowerSource,IWMDMDevice.GetPowerSource, IWMDMDevice, IWMDMDevice interface [windows Media Device Manager], GetPowerSource method, IWMDMDevice::GetPowerSource, IWMDMDeviceGetPowerSource, mswmdm/IWMDMDevice::GetPowerSource, wmdm.iwmdmdevice_getpowersource
+ms.keywords: GetPowerSource, GetPowerSource method [windows Media Device Manager], GetPowerSource method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetPowerSource method, IWMDMDevice.GetPowerSource, IWMDMDevice::GetPowerSource, IWMDMDeviceGetPowerSource, mswmdm/IWMDMDevice::GetPowerSource, wmdm.iwmdmdevice_getpowersource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMDevice::GetPowerSource method
+# IWMDMDevice::GetPowerSource
 
 
 ## -description

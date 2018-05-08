@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.FindExportedTypeByName
-title: IMetaDataAssemblyImport::FindExportedTypeByName method
+title: IMetaDataAssemblyImport::FindExportedTypeByName
 author: windows-driver-content
 description: Gets a pointer to an exported type, given its name and enclosing type.
 old-location: winrt\imetadataassemblyimport_findexportedtypebyname.htm
 old-project: WinRT
 ms.assetid: 2b19b41c-fd1b-4284-8455-2b0d69907c99
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: FindExportedTypeByName method [Windows Runtime], FindExportedTypeByName method [Windows Runtime], IMetaDataAssemblyImport interface, FindExportedTypeByName,IMetaDataAssemblyImport.FindExportedTypeByName, IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], FindExportedTypeByName method, IMetaDataAssemblyImport::FindExportedTypeByName, rometadataapi/IMetaDataAssemblyImport::FindExportedTypeByName, winrt.imetadataassemblyimport_findexportedtypebyname
+ms.date: 5/4/2018
+ms.keywords: FindExportedTypeByName, FindExportedTypeByName method [Windows Runtime], FindExportedTypeByName method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],FindExportedTypeByName method, IMetaDataAssemblyImport.FindExportedTypeByName, IMetaDataAssemblyImport::FindExportedTypeByName, rometadataapi/IMetaDataAssemblyImport::FindExportedTypeByName, winrt.imetadataassemblyimport_findexportedtypebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataAssemblyImport::FindExportedTypeByName method
+# IMetaDataAssemblyImport::FindExportedTypeByName
 
 
 ## -description

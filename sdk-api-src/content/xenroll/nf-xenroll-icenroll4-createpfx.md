@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll4.createPFX
-title: ICEnroll4::createPFX method
+title: ICEnroll4::createPFX
 author: windows-driver-content
 description: Saves the accepted certificate chain and private key in a Personal Information Exchange (PFX) format string. The PFX format is also known as PKCS #12. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_createpfx.htm
 old-project: SecCrypto
 ms.assetid: 37b69fc6-db16-4491-b596-4ef76e5414b3
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], createPFX method, ICEnroll4, ICEnroll4 interface [Security], createPFX method, ICEnroll4::createPFX, _xen_icenroll4_createpfx, createPFX method [Security], createPFX method [Security], CEnroll object, createPFX method [Security], ICEnroll4 interface, createPFX,ICEnroll4.createPFX, security.icenroll4_createpfx, xenroll/ICEnroll4::createPFX
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],createPFX method, ICEnroll4 interface [Security],createPFX method, ICEnroll4.createPFX, ICEnroll4::createPFX, _xen_icenroll4_createpfx, createPFX, createPFX method [Security], createPFX method [Security],CEnroll object, createPFX method [Security],ICEnroll4 interface, security.icenroll4_createpfx, xenroll/ICEnroll4::createPFX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll4::createPFX method
+# ICEnroll4::createPFX
 
 
 ## -description

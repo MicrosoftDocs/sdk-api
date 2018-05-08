@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_EnumerationDepth
-title: ISearchRoot::get_EnumerationDepth method
+title: ISearchRoot::get_EnumerationDepth
 author: windows-driver-content
 description: Gets the enumeration depth for this search root.
 old-location: search\_search_ISearchRoot_get_EnumerationDepth.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_enumerationdepth.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchRoot, ISearchRoot interface [search], get_EnumerationDepth method, ISearchRoot::get_EnumerationDepth, _search_ISearchRoot_get_EnumerationDepth, get_EnumerationDepth method [search], get_EnumerationDepth method [search], ISearchRoot interface, get_EnumerationDepth,ISearchRoot.get_EnumerationDepth, search._search_ISearchRoot_get_EnumerationDepth, searchapi/ISearchRoot::get_EnumerationDepth
+ms.date: 5/4/2018
+ms.keywords: ISearchRoot interface [search],get_EnumerationDepth method, ISearchRoot.get_EnumerationDepth, ISearchRoot::get_EnumerationDepth, _search_ISearchRoot_get_EnumerationDepth, get_EnumerationDepth, get_EnumerationDepth method [search], get_EnumerationDepth method [search],ISearchRoot interface, search._search_ISearchRoot_get_EnumerationDepth, searchapi/ISearchRoot::get_EnumerationDepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchRoot::get_EnumerationDepth method
+# ISearchRoot::get_EnumerationDepth
 
 
 ## -description

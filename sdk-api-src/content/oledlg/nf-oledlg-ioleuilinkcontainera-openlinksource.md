@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.OpenLinkSource
-title: IOleUILinkContainerA::OpenLinkSource method
+title: IOleUILinkContainerA::OpenLinkSource
 author: windows-driver-content
 description: Opens the link's source.
 old-location: com\ioleuilinkcontainer_openlinksource.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bc732a2f-f13d-4d08-a81d-292dd2ba1140
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleUILinkContainer interface [COM], OpenLinkSource method, IOleUILinkContainer::OpenLinkSource, IOleUILinkContainerA, IOleUILinkContainerA interface [COM], OpenLinkSource method, IOleUILinkContainerA::OpenLinkSource, IOleUILinkContainerW interface [COM], OpenLinkSource method, IOleUILinkContainerW::OpenLinkSource, OpenLinkSource method [COM], OpenLinkSource method [COM], IOleUILinkContainer interface, OpenLinkSource method [COM], IOleUILinkContainerA interface, OpenLinkSource method [COM], IOleUILinkContainerW interface, OpenLinkSource,IOleUILinkContainerA.OpenLinkSource, _ole_IOleUILinkContainer_OpenLinkSource, com.ioleuilinkcontainer_openlinksource, oledlg/IOleUILinkContainer::OpenLinkSource, oledlg/IOleUILinkContainerA::OpenLinkSource, oledlg/IOleUILinkContainerW::OpenLinkSource
+ms.keywords: IOleUILinkContainer interface [COM],OpenLinkSource method, IOleUILinkContainer::OpenLinkSource, IOleUILinkContainerA interface [COM],OpenLinkSource method, IOleUILinkContainerA.OpenLinkSource, IOleUILinkContainerA::OpenLinkSource, IOleUILinkContainerW interface [COM],OpenLinkSource method, IOleUILinkContainerW::OpenLinkSource, OpenLinkSource, OpenLinkSource method [COM], OpenLinkSource method [COM],IOleUILinkContainer interface, OpenLinkSource method [COM],IOleUILinkContainerA interface, OpenLinkSource method [COM],IOleUILinkContainerW interface, _ole_IOleUILinkContainer_OpenLinkSource, com.ioleuilinkcontainer_openlinksource, oledlg/IOleUILinkContainer::OpenLinkSource, oledlg/IOleUILinkContainerA::OpenLinkSource, oledlg/IOleUILinkContainerW::OpenLinkSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleUILinkContainerA::OpenLinkSource method
+# IOleUILinkContainerA::OpenLinkSource
 
 
 ## -description

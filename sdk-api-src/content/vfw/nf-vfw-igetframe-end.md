@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IGetFrame.End
-title: IGetFrame::End method
+title: IGetFrame::End
 author: windows-driver-content
 description: The End method ends frame extraction and decompression. Called when an application uses the AVIStreamGetFrameClose function.
 old-location: multimedia\igetframe_end.htm
 old-project: Multimedia
 ms.assetid: dc5423c7-4f21-4941-adda-6f4665e86210
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: End method [Windows Multimedia], End method [Windows Multimedia], IGetFrame interface, End,IGetFrame.End, IGetFrame, IGetFrame interface [Windows Multimedia], End method, IGetFrame::End, _win32_IGetFrame_End, multimedia.igetframe_end, vfw/IGetFrame::End
+ms.date: 5/4/2018
+ms.keywords: End, End method [Windows Multimedia], End method [Windows Multimedia],IGetFrame interface, IGetFrame interface [Windows Multimedia],End method, IGetFrame.End, IGetFrame::End, _win32_IGetFrame_End, multimedia.igetframe_end, vfw/IGetFrame::End
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IGetFrame::End method
+# IGetFrame::End
 
 
 ## -description

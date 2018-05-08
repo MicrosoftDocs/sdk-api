@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.Unadvise
-title: IDataAdviseHolder::Unadvise method
+title: IDataAdviseHolder::Unadvise
 author: windows-driver-content
 description: Removes a connection between a data object and an advisory sink that was set up through a previous call to IDataAdviseHolder::Advise. This method is typically called in the implementation of IDataObject::DUnadvise.
 old-location: com\idataadviseholder_unadvise.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: baeb29fd-1dd2-4320-911d-b271b2250184
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IDataAdviseHolder, IDataAdviseHolder interface [COM], Unadvise method, IDataAdviseHolder::Unadvise, Unadvise method [COM], Unadvise method [COM], IDataAdviseHolder interface, Unadvise,IDataAdviseHolder.Unadvise, _ole_idataadviseholder_unadvise, com.idataadviseholder_unadvise, objidl/IDataAdviseHolder::Unadvise
+ms.keywords: IDataAdviseHolder interface [COM],Unadvise method, IDataAdviseHolder.Unadvise, IDataAdviseHolder::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IDataAdviseHolder interface, _ole_idataadviseholder_unadvise, com.idataadviseholder_unadvise, objidl/IDataAdviseHolder::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataAdviseHolder::Unadvise method
+# IDataAdviseHolder::Unadvise
 
 
 ## -description

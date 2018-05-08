@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.TrackAdded
-title: IMFTimedTextNotify::TrackAdded method
+title: IMFTimedTextNotify::TrackAdded
 author: windows-driver-content
 description: Called when a text track is added.
 old-location: mf\imftimedtextnotify_trackadded.htm
 old-project: medfound
 ms.assetid: 79F33B32-3C64-4E46-A94E-D0C1BB695AC5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTimedTextNotify, IMFTimedTextNotify interface [Media Foundation], TrackAdded method, IMFTimedTextNotify::TrackAdded, TrackAdded method [Media Foundation], TrackAdded method [Media Foundation], IMFTimedTextNotify interface, TrackAdded,IMFTimedTextNotify.TrackAdded, mf.imftimedtextnotify_trackadded, mfmediaengine/IMFTimedTextNotify::TrackAdded
+ms.date: 5/3/2018
+ms.keywords: IMFTimedTextNotify interface [Media Foundation],TrackAdded method, IMFTimedTextNotify.TrackAdded, IMFTimedTextNotify::TrackAdded, TrackAdded, TrackAdded method [Media Foundation], TrackAdded method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_trackadded, mfmediaengine/IMFTimedTextNotify::TrackAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextNotify::TrackAdded method
+# IMFTimedTextNotify::TrackAdded
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.SetRightIndent
-title: ITextPara::SetRightIndent method
+title: ITextPara::SetRightIndent
 author: windows-driver-content
 description: Sets the right margin of paragraph.
 old-location: controls\ITextPara_SetRightIndent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setrightindent.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextPara, ITextPara interface [Windows Controls], SetRightIndent method, ITextPara::SetRightIndent, SetRightIndent method [Windows Controls], SetRightIndent method [Windows Controls], ITextPara interface, SetRightIndent,ITextPara.SetRightIndent, _win32_ITextPara_SetRightIndent, _win32_ITextPara_SetRightIndent_cpp, controls.ITextPara_SetRightIndent, controls._win32_ITextPara_SetRightIndent, tom/ITextPara::SetRightIndent
+ms.date: 4/27/2018
+ms.keywords: ITextPara interface [Windows Controls],SetRightIndent method, ITextPara.SetRightIndent, ITextPara::SetRightIndent, SetRightIndent, SetRightIndent method [Windows Controls], SetRightIndent method [Windows Controls],ITextPara interface, _win32_ITextPara_SetRightIndent, _win32_ITextPara_SetRightIndent_cpp, controls.ITextPara_SetRightIndent, controls._win32_ITextPara_SetRightIndent, tom/ITextPara::SetRightIndent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::SetRightIndent method
+# ITextPara::SetRightIndent
 
 
 ## -description

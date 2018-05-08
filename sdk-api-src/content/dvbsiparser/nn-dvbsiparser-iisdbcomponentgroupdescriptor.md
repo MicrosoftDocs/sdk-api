@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 54ba8ca6-712f-46a1-9ed1-2b20ef8539ba
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IIsdbComponentGroupDescriptor, mstv.iisdbcomponentgroupdescriptor
+ms.keywords: IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbComponentGroupDescriptor, mstv.iisdbcomponentgroupdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

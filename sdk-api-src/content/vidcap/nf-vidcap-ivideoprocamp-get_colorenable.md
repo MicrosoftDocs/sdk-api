@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_ColorEnable
-title: IVideoProcAmp::get_ColorEnable method
+title: IVideoProcAmp::get_ColorEnable
 author: windows-driver-content
 description: The get_ColorEnable method returns the camera's color-enable setting.
 old-location: dshow\ivideoprocamp_get_colorenable.htm
 old-project: DirectShow
 ms.assetid: 6097b8cf-b46e-443d-8f32-46eb4a8f4de6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_ColorEnable method, IVideoProcAmp::get_ColorEnable, IVideoProcAmpget_ColorEnable, dshow.ivideoprocamp_get_colorenable, get_ColorEnable method [DirectShow], get_ColorEnable method [DirectShow], IVideoProcAmp interface, get_ColorEnable,IVideoProcAmp.get_ColorEnable, vidcap/IVideoProcAmp::get_ColorEnable
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],get_ColorEnable method, IVideoProcAmp.get_ColorEnable, IVideoProcAmp::get_ColorEnable, IVideoProcAmpget_ColorEnable, dshow.ivideoprocamp_get_colorenable, get_ColorEnable, get_ColorEnable method [DirectShow], get_ColorEnable method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_ColorEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::get_ColorEnable method
+# IVideoProcAmp::get_ColorEnable
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedBundleWriter
-title: IAppxEncryptionFactory::CreateEncryptedBundleWriter method
+title: IAppxEncryptionFactory::CreateEncryptedBundleWriter
 author: windows-driver-content
 description: Creates a write-only bundle object to which encrypted Windows app packages can be added.
 old-location: appxpkg\iappxencryptionfactory_createencryptedbundlewriter.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 01FF3DF1-CCA8-49BF-9876-57A4DDA658D0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateEncryptedBundleWriter method [App packaging and management], CreateEncryptedBundleWriter method [App packaging and management], IAppxEncryptionFactory interface, CreateEncryptedBundleWriter,IAppxEncryptionFactory.CreateEncryptedBundleWriter, IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packaging and management], CreateEncryptedBundleWriter method, IAppxEncryptionFactory::CreateEncryptedBundleWriter, appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleWriter, appxpkg.iappxencryptionfactory_createencryptedbundlewriter
+ms.keywords: CreateEncryptedBundleWriter, CreateEncryptedBundleWriter method [App packaging and management], CreateEncryptedBundleWriter method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],CreateEncryptedBundleWriter method, IAppxEncryptionFactory.CreateEncryptedBundleWriter, IAppxEncryptionFactory::CreateEncryptedBundleWriter, appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleWriter, appxpkg.iappxencryptionfactory_createencryptedbundlewriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxEncryptionFactory::CreateEncryptedBundleWriter method
+# IAppxEncryptionFactory::CreateEncryptedBundleWriter
 
 
 ## -description

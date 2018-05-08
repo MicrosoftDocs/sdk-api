@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: ff90875d-f437-4236-a13f-d55a83b778b9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsHwProvider, IVdsHwProvider interface [VDS], IVdsHwProvider interface [VDS], described, base.ivdshwprovider, vds/IVdsHwProvider, vdshwprv/IVdsHwProvider
+ms.keywords: IVdsHwProvider, IVdsHwProvider interface [VDS], IVdsHwProvider interface [VDS],described, base.ivdshwprovider, vds/IVdsHwProvider, vdshwprv/IVdsHwProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

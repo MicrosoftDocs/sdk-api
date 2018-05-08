@@ -1,14 +1,14 @@
 ---
 UID: NF:certexit.ICertExit.GetDescription
-title: ICertExit::GetDescription method
+title: ICertExit::GetDescription
 author: windows-driver-content
 description: Returns a human-readable description of the exit module and its function.
 old-location: security\icertexit2_getdescription.htm
 old-project: SecCrypto
 ms.assetid: 362d67c7-54ab-482e-9b2b-05ba1b6e2a70
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertExit object [Security], GetDescription method, GetDescription method [Security], GetDescription method [Security], CCertExit object, GetDescription method [Security], ICertExit interface, GetDescription method [Security], ICertExit2 interface, GetDescription,ICertExit.GetDescription, ICertExit, ICertExit interface [Security], GetDescription method, ICertExit2 interface [Security], GetDescription method, ICertExit2::GetDescription, ICertExit::GetDescription, _certsrv_icertexit_getdescription, certexit/ICertExit2::GetDescription, certexit/ICertExit::GetDescription, security.icertexit2_getdescription
+ms.date: 4/30/2018
+ms.keywords: CCertExit object [Security],GetDescription method, GetDescription, GetDescription method [Security], GetDescription method [Security],CCertExit object, GetDescription method [Security],ICertExit interface, GetDescription method [Security],ICertExit2 interface, ICertExit interface [Security],GetDescription method, ICertExit.GetDescription, ICertExit2 interface [Security],GetDescription method, ICertExit2::GetDescription, ICertExit::GetDescription, _certsrv_icertexit_getdescription, certexit/ICertExit2::GetDescription, certexit/ICertExit::GetDescription, security.icertexit2_getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICertExit::GetDescription method
+# ICertExit::GetDescription
 
 
 ## -description

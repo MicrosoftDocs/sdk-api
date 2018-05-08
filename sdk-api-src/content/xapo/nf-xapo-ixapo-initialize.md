@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.Initialize
-title: IXAPO::Initialize method
+title: IXAPO::Initialize
 author: windows-driver-content
 description: Performs any effect-specific initialization.
 old-location: xaudio2\ixapo_interface_initialize.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Initialize(const void,UINT32)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], Initialize method, IXAPO::Initialize, Initialize method [XAudio2 Audio Mixing APIs], Initialize method [XAudio2 Audio Mixing APIs], IXAPO interface, Initialize,IXAPO.Initialize, xapo/IXAPO::Initialize, xaudio2.ixapo_interface_initialize
+ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Initialize method, IXAPO.Initialize, IXAPO::Initialize, Initialize, Initialize method [XAudio2 Audio Mixing APIs], Initialize method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Initialize, xaudio2.ixapo_interface_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAPO::Initialize method
+# IXAPO::Initialize
 
 
 ## -description

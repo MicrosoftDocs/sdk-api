@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetTransformLocal
-title: IXpsOMTileBrush::SetTransformLocal method
+title: IXpsOMTileBrush::SetTransformLocal
 author: windows-driver-content
 description: Sets the IXpsOMMatrixTransform interface pointer to a local, unshared matrix transform.
 old-location: xps\ixpsomtilebrush_settransformlocal.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: a0a0f0e9-d8b5-4b42-804b-66780f56b09a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], SetTransformLocal method, IXpsOMTileBrush::SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging], IXpsOMTileBrush interface, SetTransformLocal,IXpsOMTileBrush.SetTransformLocal, xps.ixpsomtilebrush_settransformlocal, xpsobjectmodel/IXpsOMTileBrush::SetTransformLocal
+ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMTileBrush.SetTransformLocal, IXpsOMTileBrush::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_settransformlocal, xpsobjectmodel/IXpsOMTileBrush::SetTransformLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMTileBrush::SetTransformLocal method
+# IXpsOMTileBrush::SetTransformLocal
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: multimedia\timebeginperiod.htm
 old-project: Multimedia
 ms.assetid: 7168981c-9af8-4665-88a2-7d96a8f2b273
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: "_win32_timeBeginPeriod, mmsystem/timeBeginPeriod, multimedia.timebeginperiod, timeBeginPeriod, timeBeginPeriod function [Windows Multimedia], timeapi/timeBeginPeriod"
 ms.prod: windows-hardware
 ms.technology: windows-devices

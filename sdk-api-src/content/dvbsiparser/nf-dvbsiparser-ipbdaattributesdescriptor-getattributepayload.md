@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDAAttributesDescriptor.GetAttributePayload
-title: IPBDAAttributesDescriptor::GetAttributePayload method
+title: IPBDAAttributesDescriptor::GetAttributePayload
 author: windows-driver-content
 description: Gets the descriptor body from an attributes descriptor in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbdaattributesdescriptor_getattributepayload.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 315f6afe-a5cc-4fe2-8029-fcf280b358b2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetAttributePayload method [Microsoft TV Technologies], GetAttributePayload method [Microsoft TV Technologies], IPBDAAttributesDescriptor interface, GetAttributePayload,IPBDAAttributesDescriptor.GetAttributePayload, IPBDAAttributesDescriptor, IPBDAAttributesDescriptor interface [Microsoft TV Technologies], GetAttributePayload method, IPBDAAttributesDescriptor::GetAttributePayload, dvbsiparser/IPBDAAttributesDescriptor::GetAttributePayload, mstv.ipbdaattributesdescriptor_getattributepayload
+ms.keywords: GetAttributePayload, GetAttributePayload method [Microsoft TV Technologies], GetAttributePayload method [Microsoft TV Technologies],IPBDAAttributesDescriptor interface, IPBDAAttributesDescriptor interface [Microsoft TV Technologies],GetAttributePayload method, IPBDAAttributesDescriptor.GetAttributePayload, IPBDAAttributesDescriptor::GetAttributePayload, dvbsiparser/IPBDAAttributesDescriptor::GetAttributePayload, mstv.ipbdaattributesdescriptor_getattributepayload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IPBDAAttributesDescriptor::GetAttributePayload method
+# IPBDAAttributesDescriptor::GetAttributePayload
 
 
 ## -description

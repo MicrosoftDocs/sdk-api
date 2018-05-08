@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.ClearRetrievalFilter
-title: ID3D12InfoQueue::ClearRetrievalFilter method
+title: ID3D12InfoQueue::ClearRetrievalFilter
 author: windows-driver-content
 description: Remove a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_clearretrievalfilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 266FEB51-0922-47B1-B165-736EC6AFC22B
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ClearRetrievalFilter method, ClearRetrievalFilter method, ID3D12InfoQueue interface, ClearRetrievalFilter,ID3D12InfoQueue.ClearRetrievalFilter, ID3D12InfoQueue, ID3D12InfoQueue interface, ClearRetrievalFilter method, ID3D12InfoQueue::ClearRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::ClearRetrievalFilter, direct3d12.id3d12infoqueue_clearretrievalfilter
+ms.keywords: ClearRetrievalFilter, ClearRetrievalFilter method, ClearRetrievalFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,ClearRetrievalFilter method, ID3D12InfoQueue.ClearRetrievalFilter, ID3D12InfoQueue::ClearRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::ClearRetrievalFilter, direct3d12.id3d12infoqueue_clearretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::ClearRetrievalFilter method
+# ID3D12InfoQueue::ClearRetrievalFilter
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetMinIdealVideoSize
-title: IVMRWindowlessControl::GetMinIdealVideoSize method
+title: IVMRWindowlessControl::GetMinIdealVideoSize
 author: windows-driver-content
 description: The GetMinIdealVideoSize method retrieves the minimum video size that the VMR can display without incurring significant performance or image quality degradation.
 old-location: dshow\ivmrwindowlesscontrol_getminidealvideosize.htm
 old-project: DirectShow
 ms.assetid: 602e32d4-41d6-4139-aa64-4b53caa50859
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMinIdealVideoSize method [DirectShow], GetMinIdealVideoSize method [DirectShow], IVMRWindowlessControl interface, GetMinIdealVideoSize,IVMRWindowlessControl.GetMinIdealVideoSize, IVMRWindowlessControl, IVMRWindowlessControl interface [DirectShow], GetMinIdealVideoSize method, IVMRWindowlessControl::GetMinIdealVideoSize, IVMRWindowlessControlGetMinIdealVideoSize, dshow.ivmrwindowlesscontrol_getminidealvideosize, strmif/IVMRWindowlessControl::GetMinIdealVideoSize
+ms.date: 4/30/2018
+ms.keywords: GetMinIdealVideoSize, GetMinIdealVideoSize method [DirectShow], GetMinIdealVideoSize method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetMinIdealVideoSize method, IVMRWindowlessControl.GetMinIdealVideoSize, IVMRWindowlessControl::GetMinIdealVideoSize, IVMRWindowlessControlGetMinIdealVideoSize, dshow.ivmrwindowlesscontrol_getminidealvideosize, strmif/IVMRWindowlessControl::GetMinIdealVideoSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRWindowlessControl::GetMinIdealVideoSize method
+# IVMRWindowlessControl::GetMinIdealVideoSize
 
 
 ## -description

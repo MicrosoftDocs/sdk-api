@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Identity
-title: Matrix3x2F::Identity method
+title: Matrix3x2F::Identity
 author: windows-driver-content
 description: Creates an identity matrix.
 old-location: direct2d\matrix3x2f_identity.htm
@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: c4596d43-fbc8-489e-a8fd-d33fb26461cc
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: D2D1.Matrix3x2F.Identity, D2D1::Matrix3x2F::Identity, Identity method [Direct2D], Identity method [Direct2D], Matrix3x2F class, Identity,Matrix3x2F.Identity, Matrix3x2F, Matrix3x2F class [Direct2D], Identity method, Matrix3x2F::Identity, d2d1helper/Matrix3x2F::Identity, direct2d.colorf_identity, direct2d.matrix3x2f_identity
+ms.keywords: D2D1.Matrix3x2F.Identity, D2D1::Matrix3x2F::Identity, Identity, Identity method [Direct2D], Identity method [Direct2D],Matrix3x2F class, Matrix3x2F class [Direct2D],Identity method, Matrix3x2F.Identity, Matrix3x2F::Identity, d2d1helper/Matrix3x2F::Identity, direct2d.colorf_identity, direct2d.matrix3x2f_identity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D2d1.dll
 req.irql: 
 ---
 
-# Matrix3x2F::Identity method
+# Matrix3x2F::Identity
 
 
 ## -description

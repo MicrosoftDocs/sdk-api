@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# LSA_CLOSE_SAM_USER callback
+# LSA_CLOSE_SAM_USER callback function
 
 
 ## -description

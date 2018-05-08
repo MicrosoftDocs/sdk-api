@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage2.GetPropertyStorageSize
-title: IPersistSerializedPropStorage2::GetPropertyStorageSize method
+title: IPersistSerializedPropStorage2::GetPropertyStorageSize
 author: windows-driver-content
 description: Gets the size of serialized property storage data from the property store instance.
 old-location: shell\IPersistSerializedPropStorage2_GetPropertyStorageSize.htm
 old-project: shell
 ms.assetid: 90fe3148-457e-4d29-a117-b0b0e0df92c4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPropertyStorageSize method [Windows Shell], GetPropertyStorageSize method [Windows Shell], IPersistSerializedPropStorage2 interface, GetPropertyStorageSize,IPersistSerializedPropStorage2.GetPropertyStorageSize, IPersistSerializedPropStorage2, IPersistSerializedPropStorage2 interface [Windows Shell], GetPropertyStorageSize method, IPersistSerializedPropStorage2::GetPropertyStorageSize, _shell_IPersistSerializedPropStorage2_GetPropertyStorageSize, propsys/IPersistSerializedPropStorage2::GetPropertyStorageSize, shell.IPersistSerializedPropStorage2_GetPropertyStorageSize
+ms.date: 5/3/2018
+ms.keywords: GetPropertyStorageSize, GetPropertyStorageSize method [Windows Shell], GetPropertyStorageSize method [Windows Shell],IPersistSerializedPropStorage2 interface, IPersistSerializedPropStorage2 interface [Windows Shell],GetPropertyStorageSize method, IPersistSerializedPropStorage2.GetPropertyStorageSize, IPersistSerializedPropStorage2::GetPropertyStorageSize, _shell_IPersistSerializedPropStorage2_GetPropertyStorageSize, propsys/IPersistSerializedPropStorage2::GetPropertyStorageSize, shell.IPersistSerializedPropStorage2_GetPropertyStorageSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistSerializedPropStorage2::GetPropertyStorageSize method
+# IPersistSerializedPropStorage2::GetPropertyStorageSize
 
 
 ## -description

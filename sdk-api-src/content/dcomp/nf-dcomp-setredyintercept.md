@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 1ecb0d5e-a180-f135-a732-ebc0ea84e7b4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetRedYIntercept, SetRedYIntercept methods [DirectComposition], dcomp/SetRedYIntercept, directcomp.idcompositionlineartransfereffect_setredyintercept_overloaded
+ms.keywords: IDCompositionLinearTransferEffect::setredyintercept, SetRedYIntercept, SetRedYIntercept methods [DirectComposition], dcomp/SetRedYIntercept, directcomp.idcompositionlineartransfereffect_setredyintercept_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

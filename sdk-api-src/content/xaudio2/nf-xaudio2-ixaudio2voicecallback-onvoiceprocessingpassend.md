@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnVoiceProcessingPassEnd
-title: IXAudio2VoiceCallback::OnVoiceProcessingPassEnd method
+title: IXAudio2VoiceCallback::OnVoiceProcessingPassEnd
 author: windows-driver-content
 description: Called just after the processing pass for the voice ends.
 old-location: xaudio2\ixaudio2voicecallback_interface_onvoiceprocessingpassend.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnVoiceProcessingPassEnd
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], OnVoiceProcessingPassEnd method, IXAudio2VoiceCallback::OnVoiceProcessingPassEnd, OnVoiceProcessingPassEnd method [XAudio2 Audio Mixing APIs], OnVoiceProcessingPassEnd method [XAudio2 Audio Mixing APIs], IXAudio2VoiceCallback interface, OnVoiceProcessingPassEnd,IXAudio2VoiceCallback.OnVoiceProcessingPassEnd, xaudio2.ixaudio2voicecallback_interface_onvoiceprocessingpassend, xaudio2/IXAudio2VoiceCallback::OnVoiceProcessingPassEnd
+ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnVoiceProcessingPassEnd method, IXAudio2VoiceCallback.OnVoiceProcessingPassEnd, IXAudio2VoiceCallback::OnVoiceProcessingPassEnd, OnVoiceProcessingPassEnd, OnVoiceProcessingPassEnd method [XAudio2 Audio Mixing APIs], OnVoiceProcessingPassEnd method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onvoiceprocessingpassend, xaudio2/IXAudio2VoiceCallback::OnVoiceProcessingPassEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2VoiceCallback::OnVoiceProcessingPassEnd method
+# IXAudio2VoiceCallback::OnVoiceProcessingPassEnd
 
 
 ## -description

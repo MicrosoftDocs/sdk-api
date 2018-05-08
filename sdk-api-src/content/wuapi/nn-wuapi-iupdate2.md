@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 75041e85-0f3c-4996-9af2-d2969549393e
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate2, IUpdate2 interface [Windows Update Agent], IUpdate2 interface [Windows Update Agent], described, wua.iupdate2, wuapi/IUpdate2
+ms.keywords: IUpdate2, IUpdate2 interface [Windows Update Agent], IUpdate2 interface [Windows Update Agent],described, wua.iupdate2, wuapi/IUpdate2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMGraphBuilderCallback.SelectedFilter
-title: IAMGraphBuilderCallback::SelectedFilter method
+title: IAMGraphBuilderCallback::SelectedFilter
 author: windows-driver-content
 description: The Filter Graph Manager calls this method when it finds a candidate filter for the graph, but before it creates the filter.
 old-location: dshow\iamgraphbuildercallback_selectedfilter.htm
 old-project: DirectShow
 ms.assetid: a1768857-eb55-4b01-87af-921337a418c3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMGraphBuilderCallback, IAMGraphBuilderCallback interface [DirectShow], SelectedFilter method, IAMGraphBuilderCallback::SelectedFilter, IAMGraphBuilderCallbackSelectedFilter, SelectedFilter method [DirectShow], SelectedFilter method [DirectShow], IAMGraphBuilderCallback interface, SelectedFilter,IAMGraphBuilderCallback.SelectedFilter, dshow.iamgraphbuildercallback_selectedfilter, strmif/IAMGraphBuilderCallback::SelectedFilter
+ms.date: 4/30/2018
+ms.keywords: IAMGraphBuilderCallback interface [DirectShow],SelectedFilter method, IAMGraphBuilderCallback.SelectedFilter, IAMGraphBuilderCallback::SelectedFilter, IAMGraphBuilderCallbackSelectedFilter, SelectedFilter, SelectedFilter method [DirectShow], SelectedFilter method [DirectShow],IAMGraphBuilderCallback interface, dshow.iamgraphbuildercallback_selectedfilter, strmif/IAMGraphBuilderCallback::SelectedFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMGraphBuilderCallback::SelectedFilter method
+# IAMGraphBuilderCallback::SelectedFilter
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxSetCapture
-title: ITextHost::TxSetCapture method
+title: ITextHost::TxSetCapture
 author: windows-driver-content
 description: Sets the mouse capture in the text host's window.
 old-location: controls\ITextHost_TxSetCapture.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxsetcapture.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxSetCapture method, ITextHost::TxSetCapture, TxSetCapture method [Windows Controls], TxSetCapture method [Windows Controls], ITextHost interface, TxSetCapture,ITextHost.TxSetCapture, _win32_ITextHost_TxSetCapture, _win32_ITextHost_TxSetCapture_cpp, controls.ITextHost_TxSetCapture, controls._win32_ITextHost_TxSetCapture, textserv/ITextHost::TxSetCapture
+ms.date: 4/27/2018
+ms.keywords: ITextHost interface [Windows Controls],TxSetCapture method, ITextHost.TxSetCapture, ITextHost::TxSetCapture, TxSetCapture, TxSetCapture method [Windows Controls], TxSetCapture method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetCapture, _win32_ITextHost_TxSetCapture_cpp, controls.ITextHost_TxSetCapture, controls._win32_ITextHost_TxSetCapture, textserv/ITextHost::TxSetCapture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxSetCapture method
+# ITextHost::TxSetCapture
 
 
 ## -description

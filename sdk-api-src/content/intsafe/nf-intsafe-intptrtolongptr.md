@@ -7,7 +7,7 @@ old-location: shell\IntPtrToLongPtr.htm
 old-project: shell
 ms.assetid: f0e4d121-9cc5-4fc9-a507-b9fc8e314f94
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: IntPtrToLongPtr, IntPtrToLongPtr function [Windows Shell], intsafe/IntPtrToLongPtr, shell.IntPtrToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

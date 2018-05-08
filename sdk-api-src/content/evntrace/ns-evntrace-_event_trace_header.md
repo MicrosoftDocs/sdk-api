@@ -61,9 +61,25 @@ req.product: Windows Media Format 9 Series or later
 
 
 
+### -field Size
+
+Total number of bytes of the event. <b>Size</b> includes the size of the 
+header structure, plus the size of any event-specific data appended to the header. 
+
+On input, the size must be less than the size of the event tracing session's buffer minus 72 (0x48).
+
+On output, do not use this number in calculations.
+
+
 ### -field DUMMYUNIONNAME
 
  
+
+
+### -field DUMMYUNIONNAME.FieldTypeFlags
+
+ Reserved.
+						
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
@@ -84,6 +100,11 @@ Reserved.
 ### -field DUMMYUNIONNAME2
 
  
+
+
+### -field DUMMYUNIONNAME2.Version
+
+This is a roll-up of the members of <b>Class</b>. The low-order byte contains the Type, the next byte contains the Level, and the last two bytes contain the version.
 
 
 ### -field DUMMYUNIONNAME2.Class
@@ -270,9 +291,54 @@ Detailed trace events.
 Indicates the version of the event trace class that you are using to log the event. Specify zero if there is only one version of your event trace class. The version tells the consumer which MOF class to use to decipher the event data.
 
 
+### -field ThreadId
+
+On output, identifies the thread that generated the event. 
+
+
+
+
+Note that on Windows 2000, <b>ThreadId</b> was a <b>ULONGLONG</b> value.
+
+
+### -field ProcessId
+
+ On output, identifies  the process that generated the event.
+
+<b>Windows 2000:  </b>This member is not supported.
+
+
+### -field TimeStamp
+
+On output, contains the time that the event occurred. The resolution is system time unless the <b>ProcessTraceMode</b> member of <a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a> contains the PROCESS_TRACE_MODE_RAW_TIMESTAMP flag, in which case the resolution depends on the value of the <b>Wnode.ClientContext</b> member of <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> at the time the controller created the session.
+
+
 ### -field DUMMYUNIONNAME3
 
  
+
+
+### -field DUMMYUNIONNAME3.Guid
+
+Event trace class GUID. You can use the class GUID to identify a category of events and the <b>Class.Type</b> member to identify an event within the category of events. 
+
+Alternatively, you can use the <b>GuidPtr</b> member to specify the class GUID.  
+
+
+
+
+<b>Windows XP and Windows 2000:  </b>The class GUID must have been registered previously using the 
+<a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a> function.
+
+
+### -field DUMMYUNIONNAME3.GuidPtr
+
+Pointer to an event trace class GUID. Alternatively, you can use the <b>Guid</b> member to specify the class GUID. 
+
+
+When the event is written, ETW uses the pointer to copy the GUID to the event (the GUID is included in the event, not the pointer).
+
+If you use this member, the <b>Flags</b> member must also contain WNODE_FLAG_USE_GUID_PTR.
 
 
 ### -field DUMMYUNIONNAME4
@@ -293,6 +359,11 @@ Elapsed execution time for kernel-mode instructions, in CPU time units. If you a
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME.UserTime
 
 Elapsed execution time for user-mode instructions, in CPU time units. If you are using a private session, use the value in the <b>ProcessorTime</b> member instead. For more information, see Remarks.
+
+
+### -field DUMMYUNIONNAME4.ProcessorTime
+
+For private sessions, the elapsed execution time for user-mode instructions, in CPU ticks.
 
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2
@@ -341,77 +412,6 @@ Specify if an array of
 </tr>
 </table>
  
-
-
-### -field Size
-
-Total number of bytes of the event. <b>Size</b> includes the size of the 
-header structure, plus the size of any event-specific data appended to the header. 
-
-On input, the size must be less than the size of the event tracing session's buffer minus 72 (0x48).
-
-On output, do not use this number in calculations.
-
-
-### -field ThreadId
-
-On output, identifies the thread that generated the event. 
-
-
-
-
-Note that on Windows 2000, <b>ThreadId</b> was a <b>ULONGLONG</b> value.
-
-
-### -field ProcessId
-
- On output, identifies  the process that generated the event.
-
-<b>Windows 2000:  </b>This member is not supported.
-
-
-### -field TimeStamp
-
-On output, contains the time that the event occurred. The resolution is system time unless the <b>ProcessTraceMode</b> member of <a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a> contains the PROCESS_TRACE_MODE_RAW_TIMESTAMP flag, in which case the resolution depends on the value of the <b>Wnode.ClientContext</b> member of <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> at the time the controller created the session.
-
-
-#### - FieldTypeFlags
-
- Reserved.
-						
-
-
-#### - Guid
-
-Event trace class GUID. You can use the class GUID to identify a category of events and the <b>Class.Type</b> member to identify an event within the category of events. 
-
-Alternatively, you can use the <b>GuidPtr</b> member to specify the class GUID.  
-
-
-
-
-<b>Windows XP and Windows 2000:  </b>The class GUID must have been registered previously using the 
-<a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a> function.
-
-
-#### - GuidPtr
-
-Pointer to an event trace class GUID. Alternatively, you can use the <b>Guid</b> member to specify the class GUID. 
-
-
-When the event is written, ETW uses the pointer to copy the GUID to the event (the GUID is included in the event, not the pointer).
-
-If you use this member, the <b>Flags</b> member must also contain WNODE_FLAG_USE_GUID_PTR.
-
-
-#### - ProcessorTime
-
-For private sessions, the elapsed execution time for user-mode instructions, in CPU ticks.
-
-
-#### - Version
-
-This is a roll-up of the members of <b>Class</b>. The low-order byte contains the Type, the next byte contains the Level, and the last two bytes contain the version.
 
 
 ## -remarks

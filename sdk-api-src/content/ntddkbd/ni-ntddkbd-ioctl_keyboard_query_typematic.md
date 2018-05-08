@@ -7,8 +7,8 @@ old-location: hid\ioctl_keyboard_query_typematic.htm
 old-project: hid
 ms.assetid: 0c19670b-0440-4a7a-ad87-a97d3da28e74
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_KEYBOARD_QUERY_TYPEMATIC, IOCTL_KEYBOARD_QUERY_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_query_typematic, kref_6b6b2db2-e848-47bb-8972-afde72c9be36.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_TYPEMATIC
+ms.date: 4/30/2018
+ms.keywords: IOCTL_KEYBOARD_QUERY_TYPEMATIC, IOCTL_KEYBOARD_QUERY_TYPEMATIC  control, IOCTL_KEYBOARD_QUERY_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_query_typematic, kref_6b6b2db2-e848-47bb-8972-afde72c9be36.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_TYPEMATIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

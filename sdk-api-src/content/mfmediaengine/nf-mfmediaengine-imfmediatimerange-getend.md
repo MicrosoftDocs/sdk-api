@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.GetEnd
-title: IMFMediaTimeRange::GetEnd method
+title: IMFMediaTimeRange::GetEnd
 author: windows-driver-content
 description: Gets the end time for a specified time range.
 old-location: mf\imfmediatimerange_getend.htm
 old-project: medfound
 ms.assetid: 864C0DEE-A1F7-488C-9A9D-366602667DE9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetEnd method [Media Foundation], GetEnd method [Media Foundation], IMFMediaTimeRange interface, GetEnd,IMFMediaTimeRange.GetEnd, IMFMediaTimeRange, IMFMediaTimeRange interface [Media Foundation], GetEnd method, IMFMediaTimeRange::GetEnd, mf.imfmediatimerange_getend, mfmediaengine/IMFMediaTimeRange::GetEnd
+ms.date: 5/3/2018
+ms.keywords: GetEnd, GetEnd method [Media Foundation], GetEnd method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],GetEnd method, IMFMediaTimeRange.GetEnd, IMFMediaTimeRange::GetEnd, mf.imfmediatimerange_getend, mfmediaengine/IMFMediaTimeRange::GetEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaTimeRange::GetEnd method
+# IMFMediaTimeRange::GetEnd
 
 
 ## -description

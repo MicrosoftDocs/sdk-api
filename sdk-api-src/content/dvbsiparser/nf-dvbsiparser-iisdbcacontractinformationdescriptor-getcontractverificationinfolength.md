@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetContractVerificationInfoLength
-title: IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength method
+title: IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength
 author: windows-driver-content
 description: Gets the length of the contract_verification_info field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcontractverificationinfolength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a7000edd-72a1-4979-b603-a42eecc691d7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetContractVerificationInfoLength method [Microsoft TV Technologies], GetContractVerificationInfoLength method [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface, GetContractVerificationInfoLength,IIsdbCAContractInformationDescriptor.GetContractVerificationInfoLength, IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], GetContractVerificationInfoLength method, IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength, dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength, mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfolength
+ms.keywords: GetContractVerificationInfoLength, GetContractVerificationInfoLength method [Microsoft TV Technologies], GetContractVerificationInfoLength method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetContractVerificationInfoLength method, IIsdbCAContractInformationDescriptor.GetContractVerificationInfoLength, IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength, dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength, mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfolength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength method
+# IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength
 
 
 ## -description

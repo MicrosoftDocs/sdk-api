@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IAction.get_Id
-title: IAction::get_Id method
+title: IAction::get_Id
 author: windows-driver-content
 description: Gets or sets the identifier of the action.
 old-location: taskschd\iaction_id.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: e24a0382-e214-41eb-80e4-acd024993123
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IAction, IAction interface [Task Scheduler], Id property, IAction.Id, IAction::get_Id, IAction::put_Id, Id property [Task Scheduler], Id property [Task Scheduler], IAction interface, get_Id,IAction.get_Id, taskschd.iaction_id, taskschd/IAction::Id, taskschd/IAction::get_Id, taskschd/IAction::put_Id
+ms.keywords: IAction interface [Task Scheduler],Id property, IAction.Id, IAction.get_Id, IAction::Id, IAction::get_Id, IAction::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],IAction interface, get_Id, taskschd.iaction_id, taskschd/IAction::Id, taskschd/IAction::get_Id, taskschd/IAction::put_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAction::get_Id method
+# IAction::get_Id
 
 
 ## -description

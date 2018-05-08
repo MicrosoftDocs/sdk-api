@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESOpenMmiEvent.GetDialogType
-title: IESOpenMmiEvent::GetDialogType method
+title: IESOpenMmiEvent::GetDialogType
 author: windows-driver-content
 description: The GetDialogType method gets the GUID representing the experience type of the dialog that is being opened.
 old-location: mstv\iesopenmmievent_getdialogtype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 93f3cd5e-7d8e-42b9-a688-3df22855e7fb
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDialogType method [Microsoft TV Technologies], GetDialogType method [Microsoft TV Technologies], IESOpenMmiEvent interface, GetDialogType,IESOpenMmiEvent.GetDialogType, IESOpenMmiEvent, IESOpenMmiEvent interface [Microsoft TV Technologies], GetDialogType method, IESOpenMmiEvent::GetDialogType, mstv.iesopenmmievent_getdialogtype, tuner/IESOpenMmiEvent::GetDialogType
+ms.keywords: GetDialogType, GetDialogType method [Microsoft TV Technologies], GetDialogType method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogType method, IESOpenMmiEvent.GetDialogType, IESOpenMmiEvent::GetDialogType, mstv.iesopenmmievent_getdialogtype, tuner/IESOpenMmiEvent::GetDialogType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESOpenMmiEvent::GetDialogType method
+# IESOpenMmiEvent::GetDialogType
 
 
 ## -description

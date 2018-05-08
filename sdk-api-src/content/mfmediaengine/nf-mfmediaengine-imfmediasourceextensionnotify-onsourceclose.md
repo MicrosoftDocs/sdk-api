@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtensionNotify.OnSourceClose
-title: IMFMediaSourceExtensionNotify::OnSourceClose method
+title: IMFMediaSourceExtensionNotify::OnSourceClose
 author: windows-driver-content
 description: Used to indicate that the media source has closed.
 old-location: mf\imfmediasourceextensionnotify_onsourceclose.htm
 old-project: medfound
 ms.assetid: d4199b4e-320f-47ec-8434-862fb1c1db8d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaSourceExtensionNotify, IMFMediaSourceExtensionNotify interface [Media Foundation], OnSourceClose method, IMFMediaSourceExtensionNotify::OnSourceClose, OnSourceClose method [Media Foundation], OnSourceClose method [Media Foundation], IMFMediaSourceExtensionNotify interface, OnSourceClose,IMFMediaSourceExtensionNotify.OnSourceClose, mf.imfmediasourceextensionnotify_onsourceclose, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceClose
+ms.date: 5/3/2018
+ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceClose method, IMFMediaSourceExtensionNotify.OnSourceClose, IMFMediaSourceExtensionNotify::OnSourceClose, OnSourceClose, OnSourceClose method [Media Foundation], OnSourceClose method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceclose, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSourceExtensionNotify::OnSourceClose method
+# IMFMediaSourceExtensionNotify::OnSourceClose
 
 
 ## -description

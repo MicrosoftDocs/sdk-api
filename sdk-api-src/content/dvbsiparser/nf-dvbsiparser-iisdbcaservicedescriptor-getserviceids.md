@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetServiceIds
-title: IIsdbCAServiceDescriptor::GetServiceIds method
+title: IIsdbCAServiceDescriptor::GetServiceIds
 author: windows-driver-content
 description: Gets the service identifier (ID) records from a conditional access (CA) service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_getserviceids.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f2a6d1f2-2cd5-4f8c-97e1-33880ffb0449
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetServiceIds method [Microsoft TV Technologies], GetServiceIds method [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface, GetServiceIds,IIsdbCAServiceDescriptor.GetServiceIds, IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], GetServiceIds method, IIsdbCAServiceDescriptor::GetServiceIds, dvbsiparser/IIsdbCAServiceDescriptor::GetServiceIds, mstv.iisdbcaservicedescriptor_getserviceids
+ms.keywords: GetServiceIds, GetServiceIds method [Microsoft TV Technologies], GetServiceIds method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetServiceIds method, IIsdbCAServiceDescriptor.GetServiceIds, IIsdbCAServiceDescriptor::GetServiceIds, dvbsiparser/IIsdbCAServiceDescriptor::GetServiceIds, mstv.iisdbcaservicedescriptor_getserviceids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbCAServiceDescriptor::GetServiceIds method
+# IIsdbCAServiceDescriptor::GetServiceIds
 
 
 ## -description

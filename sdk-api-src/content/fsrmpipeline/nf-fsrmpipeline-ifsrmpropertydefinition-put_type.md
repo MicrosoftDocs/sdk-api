@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_Type
-title: IFsrmPropertyDefinition::put_Type method
+title: IFsrmPropertyDefinition::put_Type
 author: windows-driver-content
 description: The type of data that the property contains.
 old-location: fsrm\ifsrmpropertydefinition_type.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 3e770876-05a3-4b8c-901d-84ee40112c2f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPropertyDefinition, IFsrmPropertyDefinition interface [File Server Resource Manager], Type property, IFsrmPropertyDefinition.Type, IFsrmPropertyDefinition::get_Type, IFsrmPropertyDefinition::put_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager], IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_type, fsrm.ifsrmpropertydefinition_type, fsrmpipeline/IFsrmPropertyDefinition::Type, fsrmpipeline/IFsrmPropertyDefinition::get_Type, fsrmpipeline/IFsrmPropertyDefinition::put_Type, put_Type,IFsrmPropertyDefinition.put_Type
+ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],Type property, IFsrmPropertyDefinition.Type, IFsrmPropertyDefinition.put_Type, IFsrmPropertyDefinition::Type, IFsrmPropertyDefinition::get_Type, IFsrmPropertyDefinition::put_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_type, fsrm.ifsrmpropertydefinition_type, fsrmpipeline/IFsrmPropertyDefinition::Type, fsrmpipeline/IFsrmPropertyDefinition::get_Type, fsrmpipeline/IFsrmPropertyDefinition::put_Type, put_Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyDefinition::put_Type method
+# IFsrmPropertyDefinition::put_Type
 
 
 ## -description

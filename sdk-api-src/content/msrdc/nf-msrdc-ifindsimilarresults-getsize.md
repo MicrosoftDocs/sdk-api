@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IFindSimilarResults.GetSize
-title: IFindSimilarResults::GetSize method
+title: IFindSimilarResults::GetSize
 author: windows-driver-content
 description: Retrieves the number of entries in the file list that was returned by the ISimilarity::FindSimilarFileId method.
 old-location: rdc\ifindsimilarresults_getsize.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: c59a6fb0-e81f-4b7d-b0e6-9a5c9730fa9d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSize method [Remote Differential Compression], GetSize method [Remote Differential Compression], IFindSimilarResults interface, GetSize,IFindSimilarResults.GetSize, IFindSimilarResults, IFindSimilarResults interface [Remote Differential Compression], GetSize method, IFindSimilarResults::GetSize, fs.ifindsimilarresults_getsize, msrdc/IFindSimilarResults::GetSize, rdc.ifindsimilarresults_getsize
+ms.keywords: GetSize, GetSize method [Remote Differential Compression], GetSize method [Remote Differential Compression],IFindSimilarResults interface, IFindSimilarResults interface [Remote Differential Compression],GetSize method, IFindSimilarResults.GetSize, IFindSimilarResults::GetSize, fs.ifindsimilarresults_getsize, msrdc/IFindSimilarResults::GetSize, rdc.ifindsimilarresults_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFindSimilarResults::GetSize method
+# IFindSimilarResults::GetSize
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: c0bd0033-e5e1-4d21-8d98-eb937acdd6cf
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], IOfflineFilesEvents interface [Offline Files], described, cscobj/IOfflineFilesEvents, of.iofflinefilesevents
+ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], IOfflineFilesEvents interface [Offline Files],described, cscobj/IOfflineFilesEvents, of.iofflinefilesevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

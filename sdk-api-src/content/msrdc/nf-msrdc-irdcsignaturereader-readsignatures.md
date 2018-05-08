@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcSignatureReader.ReadSignatures
-title: IRdcSignatureReader::ReadSignatures method
+title: IRdcSignatureReader::ReadSignatures
 author: windows-driver-content
 description: Reads a block of signatures from the current position.
 old-location: rdc\irdcsignaturereader_readsignatures.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 566a5442-b186-4aac-94fa-5784736a30c3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRdcSignatureReader, IRdcSignatureReader interface [Remote Differential Compression], ReadSignatures method, IRdcSignatureReader::ReadSignatures, ReadSignatures method [Remote Differential Compression], ReadSignatures method [Remote Differential Compression], IRdcSignatureReader interface, ReadSignatures,IRdcSignatureReader.ReadSignatures, fs.irdcsignaturereader_readsignatures, msrdc/IRdcSignatureReader::ReadSignatures, rdc.irdcsignaturereader_readsignatures
+ms.keywords: IRdcSignatureReader interface [Remote Differential Compression],ReadSignatures method, IRdcSignatureReader.ReadSignatures, IRdcSignatureReader::ReadSignatures, ReadSignatures, ReadSignatures method [Remote Differential Compression], ReadSignatures method [Remote Differential Compression],IRdcSignatureReader interface, fs.irdcsignaturereader_readsignatures, msrdc/IRdcSignatureReader::ReadSignatures, rdc.irdcsignaturereader_readsignatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcSignatureReader::ReadSignatures method
+# IRdcSignatureReader::ReadSignatures
 
 
 ## -description

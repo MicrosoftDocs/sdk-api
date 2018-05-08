@@ -1,14 +1,14 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioSample.GetSpatialAudioObjectByIndex
-title: IMFSpatialAudioSample::GetSpatialAudioObjectByIndex method
+title: IMFSpatialAudioSample::GetSpatialAudioObjectByIndex
 author: windows-driver-content
 description: Returns the spatial audio object, represented by an IMFSpatialAudioObjectBuffer object, corresponding to the specified index.
 old-location: mf\imfspatialaudiosample_getspatialaudioobjectbyindex.htm
 old-project: medfound
 ms.assetid: 2B5A2D44-BA41-49FC-B4FD-9BCD9EE2D549
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetSpatialAudioObjectByIndex method [Media Foundation], GetSpatialAudioObjectByIndex method [Media Foundation], IMFSpatialAudioSample interface, GetSpatialAudioObjectByIndex,IMFSpatialAudioSample.GetSpatialAudioObjectByIndex, IMFSpatialAudioSample, IMFSpatialAudioSample interface [Media Foundation], GetSpatialAudioObjectByIndex method, IMFSpatialAudioSample::GetSpatialAudioObjectByIndex, mf.imfspatialaudiosample_getspatialaudioobjectbyindex, mfspatialaudio/IMFSpatialAudioSample::GetSpatialAudioObjectByIndex
+ms.date: 5/3/2018
+ms.keywords: GetSpatialAudioObjectByIndex, GetSpatialAudioObjectByIndex method [Media Foundation], GetSpatialAudioObjectByIndex method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],GetSpatialAudioObjectByIndex method, IMFSpatialAudioSample.GetSpatialAudioObjectByIndex, IMFSpatialAudioSample::GetSpatialAudioObjectByIndex, mf.imfspatialaudiosample_getspatialaudioobjectbyindex, mfspatialaudio/IMFSpatialAudioSample::GetSpatialAudioObjectByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSpatialAudioSample::GetSpatialAudioObjectByIndex method
+# IMFSpatialAudioSample::GetSpatialAudioObjectByIndex
 
 
 ## -description

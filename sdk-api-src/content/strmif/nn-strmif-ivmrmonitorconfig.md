@@ -7,8 +7,8 @@ old-location: dshow\ivmrmonitorconfig.htm
 old-project: DirectShow
 ms.assetid: 02b4016b-a65b-41ac-b5c6-e5f6825f179c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRMonitorConfig, IVMRMonitorConfig interface [DirectShow], IVMRMonitorConfig interface [DirectShow], described, IVMRMonitorConfigInterface, dshow.ivmrmonitorconfig, strmif/IVMRMonitorConfig
+ms.date: 4/30/2018
+ms.keywords: IVMRMonitorConfig, IVMRMonitorConfig interface [DirectShow], IVMRMonitorConfig interface [DirectShow],described, IVMRMonitorConfigInterface, dshow.ivmrmonitorconfig, strmif/IVMRMonitorConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

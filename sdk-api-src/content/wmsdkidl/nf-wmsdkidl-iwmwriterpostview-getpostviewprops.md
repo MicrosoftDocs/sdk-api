@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetPostViewProps
-title: IWMWriterPostView::GetPostViewProps method
+title: IWMWriterPostView::GetPostViewProps
 author: windows-driver-content
 description: The GetPostViewProps method retrieves the properties for the specified output stream.
 old-location: wmformat\iwmwriterpostview_getpostviewprops.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 39dc32d1-53e5-43b5-bc96-074dc286890e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetPostViewProps method [windows Media Format], GetPostViewProps method [windows Media Format], IWMWriterPostView interface, GetPostViewProps,IWMWriterPostView.GetPostViewProps, IWMWriterPostView, IWMWriterPostView interface [windows Media Format], GetPostViewProps method, IWMWriterPostView::GetPostViewProps, IWMWriterPostViewGetPostViewProps, wmformat.iwmwriterpostview_getpostviewprops, wmsdkidl/IWMWriterPostView::GetPostViewProps
+ms.keywords: GetPostViewProps, GetPostViewProps method [windows Media Format], GetPostViewProps method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewProps method, IWMWriterPostView.GetPostViewProps, IWMWriterPostView::GetPostViewProps, IWMWriterPostViewGetPostViewProps, wmformat.iwmwriterpostview_getpostviewprops, wmsdkidl/IWMWriterPostView::GetPostViewProps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPostView::GetPostViewProps method
+# IWMWriterPostView::GetPostViewProps
 
 
 ## -description

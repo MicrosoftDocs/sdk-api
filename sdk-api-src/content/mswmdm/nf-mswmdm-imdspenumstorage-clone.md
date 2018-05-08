@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPEnumStorage.Clone
-title: IMDSPEnumStorage::Clone method
+title: IMDSPEnumStorage::Clone
 author: windows-driver-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: wmdm\imdspenumstorage_clone.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 8621c5fa-7739-4f90-b856-76880f8dd07b
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: Clone method [windows Media Device Manager], Clone method [windows Media Device Manager], IMDSPEnumStorage interface, Clone,IMDSPEnumStorage.Clone, IMDSPEnumStorage, IMDSPEnumStorage interface [windows Media Device Manager], Clone method, IMDSPEnumStorage::Clone, IMDSPEnumStorageClone, mswmdm/IMDSPEnumStorage::Clone, wmdm.imdspenumstorage_clone
+ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IMDSPEnumStorage interface, IMDSPEnumStorage interface [windows Media Device Manager],Clone method, IMDSPEnumStorage.Clone, IMDSPEnumStorage::Clone, IMDSPEnumStorageClone, mswmdm/IMDSPEnumStorage::Clone, wmdm.imdspenumstorage_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPEnumStorage::Clone method
+# IMDSPEnumStorage::Clone
 
 
 ## -description

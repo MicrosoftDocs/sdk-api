@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddMemberName
-title: IAzApplicationGroup::AddMemberName method
+title: IAzApplicationGroup::AddMemberName
 author: windows-driver-content
 description: Adds the specified account name to the list of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_addmembername.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 148be96b-be8d-4ad7-a5ad-f22599114cfa
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddMemberName method [Security], AddMemberName method [Security], AzApplicationGroup object, AddMemberName method [Security], IAzApplicationGroup interface, AddMemberName,IAzApplicationGroup.AddMemberName, AzApplicationGroup object [Security], AddMemberName method, IAzApplicationGroup, IAzApplicationGroup interface [Security], AddMemberName method, IAzApplicationGroup::AddMemberName, azroles/IAzApplicationGroup::AddMemberName, security.iazapplicationgroup_addmembername
+ms.keywords: AddMemberName, AddMemberName method [Security], AddMemberName method [Security],AzApplicationGroup object, AddMemberName method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddMemberName method, IAzApplicationGroup interface [Security],AddMemberName method, IAzApplicationGroup.AddMemberName, IAzApplicationGroup::AddMemberName, azroles/IAzApplicationGroup::AddMemberName, security.iazapplicationgroup_addmembername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplicationGroup::AddMemberName method
+# IAzApplicationGroup::AddMemberName
 
 
 ## -description

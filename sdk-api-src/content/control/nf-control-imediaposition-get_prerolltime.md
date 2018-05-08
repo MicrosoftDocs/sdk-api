@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaPosition.get_PrerollTime
-title: IMediaPosition::get_PrerollTime method
+title: IMediaPosition::get_PrerollTime
 author: windows-driver-content
 description: The get_PrerollTime method retrieves the amount of data that will be queued before the start position.
 old-location: dshow\imediaposition_get_prerolltime.htm
 old-project: DirectShow
 ms.assetid: 3cfe9ba0-0138-4847-81ab-ea1e96e2c3a8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], get_PrerollTime method, IMediaPosition::get_PrerollTime, IMediaPositionget_PrerollTime, control/IMediaPosition::get_PrerollTime, dshow.imediaposition_get_prerolltime, get_PrerollTime method [DirectShow], get_PrerollTime method [DirectShow], IMediaPosition interface, get_PrerollTime,IMediaPosition.get_PrerollTime
+ms.date: 4/30/2018
+ms.keywords: IMediaPosition interface [DirectShow],get_PrerollTime method, IMediaPosition.get_PrerollTime, IMediaPosition::get_PrerollTime, IMediaPositionget_PrerollTime, control/IMediaPosition::get_PrerollTime, dshow.imediaposition_get_prerolltime, get_PrerollTime, get_PrerollTime method [DirectShow], get_PrerollTime method [DirectShow],IMediaPosition interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaPosition::get_PrerollTime method
+# IMediaPosition::get_PrerollTime
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.get_Count
-title: ISmimeCapabilities::get_Count method
+title: ISmimeCapabilities::get_Count
 author: windows-driver-content
 description: Retrieves the number of objects in the collection.
 old-location: security\ismimecapabilities_count_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 5e0ee42f-10aa-45d8-b6c0-16ee0149dec6
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Count property [Security], Count property [Security], ISmimeCapabilities interface, ISmimeCapabilities, ISmimeCapabilities interface [Security], Count property, ISmimeCapabilities.Count, ISmimeCapabilities::get_Count, certenroll/ISmimeCapabilities::Count, certenroll/ISmimeCapabilities::get_Count, get_Count,ISmimeCapabilities.get_Count, security.ismimecapabilities_count_property
+ms.keywords: Count property [Security], Count property [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Count property, ISmimeCapabilities.Count, ISmimeCapabilities.get_Count, ISmimeCapabilities::Count, ISmimeCapabilities::get_Count, certenroll/ISmimeCapabilities::Count, certenroll/ISmimeCapabilities::get_Count, get_Count, security.ismimecapabilities_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ISmimeCapabilities::get_Count method
+# ISmimeCapabilities::get_Count
 
 
 ## -description

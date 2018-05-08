@@ -1,14 +1,14 @@
 ---
 UID: NF:videoacc.IAMVideoAcceleratorNotify.SetUncompSurfacesInfo
-title: IAMVideoAcceleratorNotify::SetUncompSurfacesInfo method
+title: IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
 author: windows-driver-content
 description: The SetUncompSurfacesInfo method notifies the decoder of how many uncompressed surfaces were created.
 old-location: dshow\iamvideoacceleratornotify_setuncompsurfacesinfo.htm
 old-project: DirectShow
 ms.assetid: e82c73e6-d32e-4875-9f9d-124a1c6ce504
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVideoAcceleratorNotify, IAMVideoAcceleratorNotify interface [DirectShow], SetUncompSurfacesInfo method, IAMVideoAcceleratorNotify::SetUncompSurfacesInfo, IAMVideoAcceleratorNotifySetUncompSurfacesInfo, SetUncompSurfacesInfo method [DirectShow], SetUncompSurfacesInfo method [DirectShow], IAMVideoAcceleratorNotify interface, SetUncompSurfacesInfo,IAMVideoAcceleratorNotify.SetUncompSurfacesInfo, dshow.iamvideoacceleratornotify_setuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
+ms.date: 4/30/2018
+ms.keywords: IAMVideoAcceleratorNotify interface [DirectShow],SetUncompSurfacesInfo method, IAMVideoAcceleratorNotify.SetUncompSurfacesInfo, IAMVideoAcceleratorNotify::SetUncompSurfacesInfo, IAMVideoAcceleratorNotifySetUncompSurfacesInfo, SetUncompSurfacesInfo, SetUncompSurfacesInfo method [DirectShow], SetUncompSurfacesInfo method [DirectShow],IAMVideoAcceleratorNotify interface, dshow.iamvideoacceleratornotify_setuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAMVideoAcceleratorNotify::SetUncompSurfacesInfo method
+# IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
 
 
 ## -description

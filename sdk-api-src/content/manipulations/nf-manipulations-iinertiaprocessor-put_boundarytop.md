@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_BoundaryTop
-title: IInertiaProcessor::put_BoundaryTop method
+title: IInertiaProcessor::put_BoundaryTop
 author: windows-driver-content
 description: The BoundaryTop property limits how far towards the top of the screen the target object can move.
 old-location: wintouch\iinertiaprocessor_topboundary.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 5864cf0e-c632-414c-a8b1-e8367474e904
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: BoundaryTop property [Windows Touch], BoundaryTop property [Windows Touch], IInertiaProcessor interface, IInertiaProcessor, IInertiaProcessor interface [Windows Touch], BoundaryTop property, IInertiaProcessor.BoundaryTop, IInertiaProcessor::get_BoundaryTop, IInertiaProcessor::put_BoundaryTop, manipulations/IInertiaProcessor::BoundaryTop, manipulations/IInertiaProcessor::get_BoundaryTop, manipulations/IInertiaProcessor::put_BoundaryTop, put_BoundaryTop,IInertiaProcessor.put_BoundaryTop, wintouch.iinertiaprocessor_topboundary
+ms.keywords: BoundaryTop property [Windows Touch], BoundaryTop property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryTop property, IInertiaProcessor.BoundaryTop, IInertiaProcessor.put_BoundaryTop, IInertiaProcessor::BoundaryTop, IInertiaProcessor::get_BoundaryTop, IInertiaProcessor::put_BoundaryTop, manipulations/IInertiaProcessor::BoundaryTop, manipulations/IInertiaProcessor::get_BoundaryTop, manipulations/IInertiaProcessor::put_BoundaryTop, put_BoundaryTop, wintouch.iinertiaprocessor_topboundary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::put_BoundaryTop method
+# IInertiaProcessor::put_BoundaryTop
 
 
 ## -description

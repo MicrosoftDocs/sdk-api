@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRenderTargetViewVariable.GetRenderTargetArray
-title: ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray method
+title: ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray
 author: windows-driver-content
 description: Get an array of render-targets.
 old-location: direct3d10\id3d10effectrendertargetviewvariable_getrendertargetarray.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable_getrendertargetarray.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 55cfc9f6-d447-4ae4-5a22-e5d490eec17f, GetRenderTargetArray method [Direct3D 10], GetRenderTargetArray method [Direct3D 10], ID3D10EffectRenderTargetViewVariable interface, GetRenderTargetArray,ID3D10EffectRenderTargetViewVariable.GetRenderTargetArray, ID3D10EffectRenderTargetViewVariable, ID3D10EffectRenderTargetViewVariable interface [Direct3D 10], GetRenderTargetArray method, ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray, d3d10effect/ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray, direct3d10.id3d10effectrendertargetviewvariable_getrendertargetarray
+ms.keywords: 55cfc9f6-d447-4ae4-5a22-e5d490eec17f, GetRenderTargetArray, GetRenderTargetArray method [Direct3D 10], GetRenderTargetArray method [Direct3D 10],ID3D10EffectRenderTargetViewVariable interface, ID3D10EffectRenderTargetViewVariable interface [Direct3D 10],GetRenderTargetArray method, ID3D10EffectRenderTargetViewVariable.GetRenderTargetArray, ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray, d3d10effect/ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray, direct3d10.id3d10effectrendertargetviewvariable_getrendertargetarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray method
+# ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMPluginControl.SetPreferredClsid
-title: IAMPluginControl::SetPreferredClsid method
+title: IAMPluginControl::SetPreferredClsid
 author: windows-driver-content
 description: Adds a class identifier (CLSID) to the preferred list or removes a CLSID from the list.
 old-location: dshow\iamplugincontrol_setpreferredclsid.htm
 old-project: DirectShow
 ms.assetid: 45702714-6b35-4863-885e-55049258a4ae
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMPluginControl, IAMPluginControl interface [DirectShow], SetPreferredClsid method, IAMPluginControl::SetPreferredClsid, SetPreferredClsid method [DirectShow], SetPreferredClsid method [DirectShow], IAMPluginControl interface, SetPreferredClsid,IAMPluginControl.SetPreferredClsid, dshow.iamplugincontrol_setpreferredclsid, strmif/IAMPluginControl::SetPreferredClsid
+ms.date: 4/30/2018
+ms.keywords: IAMPluginControl interface [DirectShow],SetPreferredClsid method, IAMPluginControl.SetPreferredClsid, IAMPluginControl::SetPreferredClsid, SetPreferredClsid, SetPreferredClsid method [DirectShow], SetPreferredClsid method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_setpreferredclsid, strmif/IAMPluginControl::SetPreferredClsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMPluginControl::SetPreferredClsid method
+# IAMPluginControl::SetPreferredClsid
 
 
 ## -description

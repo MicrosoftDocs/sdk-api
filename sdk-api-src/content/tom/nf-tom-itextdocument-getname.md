@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument.GetName
-title: ITextDocument::GetName method
+title: ITextDocument::GetName
 author: windows-driver-content
 description: Gets the file name of this document. This is the ITextDocument default property.
 old-location: controls\ITextDocument_GetName.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextdocument\itextdocumentgetname.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetName method [Windows Controls], GetName method [Windows Controls], ITextDocument interface, GetName,ITextDocument.GetName, ITextDocument, ITextDocument interface [Windows Controls], GetName method, ITextDocument::GetName, _win32_ITextDocument_GetName, _win32_ITextDocument_GetName_cpp, controls.ITextDocument_GetName, controls._win32_ITextDocument_GetName, tom/ITextDocument::GetName
+ms.date: 4/27/2018
+ms.keywords: GetName, GetName method [Windows Controls], GetName method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetName method, ITextDocument.GetName, ITextDocument::GetName, _win32_ITextDocument_GetName, _win32_ITextDocument_GetName_cpp, controls.ITextDocument_GetName, controls._win32_ITextDocument_GetName, tom/ITextDocument::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument::GetName method
+# ITextDocument::GetName
 
 
 ## -description

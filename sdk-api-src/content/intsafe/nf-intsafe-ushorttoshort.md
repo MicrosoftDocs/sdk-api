@@ -7,8 +7,8 @@ old-location: shell\UShortToShort.htm
 old-project: shell
 ms.assetid: 77fd8f32-0b24-4d03-8a6e-d7512c8c6482
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: UShortToShort, UShortToShort function [Windows Shell], _shell_UShortToShort, intsafe/UShortToShort, shell.UShortToShort
+ms.date: 5/3/2018
+ms.keywords: UShortToShort, UShortToShort function [Windows Shell], WordToShort, _shell_UShortToShort, intsafe/UShortToShort, shell.UShortToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,6 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>WordToShort</b> is an alias for this function.
 
 
 

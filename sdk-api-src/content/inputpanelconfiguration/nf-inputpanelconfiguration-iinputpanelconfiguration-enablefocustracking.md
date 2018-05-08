@@ -1,14 +1,14 @@
 ---
 UID: NF:inputpanelconfiguration.IInputPanelConfiguration.EnableFocusTracking
-title: IInputPanelConfiguration::EnableFocusTracking method
+title: IInputPanelConfiguration::EnableFocusTracking
 author: windows-driver-content
 description: Enables a client process to opt-in to the focus tracking mechanism for Windows Store apps that controls the invoking and dismissing semantics of the touch keyboard.
 old-location: shell\iinputpanelconfiguration_enablefocustracking.htm
 old-project: shell
 ms.assetid: C20962EF-DB24-43EE-ADA6-4550163F9F73
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EnableFocusTracking method [Windows Shell], EnableFocusTracking method [Windows Shell], IInputPanelConfiguration interface, EnableFocusTracking,IInputPanelConfiguration.EnableFocusTracking, IInputPanelConfiguration, IInputPanelConfiguration interface [Windows Shell], EnableFocusTracking method, IInputPanelConfiguration::EnableFocusTracking, inputpanelconfiguration/IInputPanelConfiguration::EnableFocusTracking, shell.iinputpanelconfiguration_enablefocustracking
+ms.date: 5/3/2018
+ms.keywords: EnableFocusTracking, EnableFocusTracking method [Windows Shell], EnableFocusTracking method [Windows Shell],IInputPanelConfiguration interface, IInputPanelConfiguration interface [Windows Shell],EnableFocusTracking method, IInputPanelConfiguration.EnableFocusTracking, IInputPanelConfiguration::EnableFocusTracking, inputpanelconfiguration/IInputPanelConfiguration::EnableFocusTracking, shell.iinputpanelconfiguration_enablefocustracking
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInputPanelConfiguration::EnableFocusTracking method
+# IInputPanelConfiguration::EnableFocusTracking
 
 
 ## -description

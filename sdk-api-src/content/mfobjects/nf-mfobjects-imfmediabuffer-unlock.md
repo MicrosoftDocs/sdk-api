@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.Unlock
-title: IMFMediaBuffer::Unlock method
+title: IMFMediaBuffer::Unlock
 author: windows-driver-content
 description: Unlocks a buffer that was previously locked. Call this method once for every call to IMFMediaBuffer::Lock.
 old-location: mf\imfmediabuffer_unlock.htm
 old-project: medfound
 ms.assetid: 3ca53321-5533-45f0-b415-6a16f780ec54
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 3ca53321-5533-45f0-b415-6a16f780ec54, IMFMediaBuffer, IMFMediaBuffer interface [Media Foundation], Unlock method, IMFMediaBuffer::Unlock, Unlock method [Media Foundation], Unlock method [Media Foundation], IMFMediaBuffer interface, Unlock,IMFMediaBuffer.Unlock, mf.imfmediabuffer_unlock, mfobjects/IMFMediaBuffer::Unlock
+ms.date: 5/3/2018
+ms.keywords: 3ca53321-5533-45f0-b415-6a16f780ec54, IMFMediaBuffer interface [Media Foundation],Unlock method, IMFMediaBuffer.Unlock, IMFMediaBuffer::Unlock, Unlock, Unlock method [Media Foundation], Unlock method [Media Foundation],IMFMediaBuffer interface, mf.imfmediabuffer_unlock, mfobjects/IMFMediaBuffer::Unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaBuffer::Unlock method
+# IMFMediaBuffer::Unlock
 
 
 ## -description

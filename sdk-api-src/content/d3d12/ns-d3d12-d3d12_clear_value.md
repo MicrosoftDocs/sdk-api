@@ -66,12 +66,12 @@ The format of the commonly cleared color follows the same validation rules as a 
 This <i>Format</i> must match the format of the view used during the clear operation. It indicates whether the <i>Color</i> or the <i>DepthStencil</i> member is valid and how to convert the values for usage with the resource.
 
 
-#### - Color
+### -field Color
 
 Specifies a 4-entry array of float values (each value in the range 0.0 to 1.0), determining the RGBA value. The order of RGBA matches the order used with <a href="https://msdn.microsoft.com/5AB13E36-A189-41B4-AEF8-B5C5831655DB">ClearRenderTargetView</a>.
 
 
-#### - DepthStencil
+### -field DepthStencil
 
 Specifies one member of <a href="https://msdn.microsoft.com/9C37A002-F65A-4943-AA15-C62D7DD25A74">D3D12_DEPTH_STENCIL_VALUE</a>. These values match the semantics of <i>Depth</i> and <i>Stencil</i> in <a href="https://msdn.microsoft.com/EF56EA6C-00DB-4231-B67D-B99811F51246">ClearDepthStencilView</a>.
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.GetAssessmentInfo
-title: IProvideWinSATResultsInfo::GetAssessmentInfo method
+title: IProvideWinSATResultsInfo::GetAssessmentInfo
 author: windows-driver-content
 description: Retrieves summary information for a subcomponent of the assessment.
 old-location: winsat\iprovidewinsatresultsinfo_getassessmentinfo.htm
@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: dfa4d740-2dfd-41b5-a0be-a241f9ece939
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetAssessmentInfo method [WinSAT], GetAssessmentInfo method [WinSAT], IProvideWinSATResultsInfo interface, GetAssessmentInfo,IProvideWinSATResultsInfo.GetAssessmentInfo, IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [WinSAT], GetAssessmentInfo method, IProvideWinSATResultsInfo::GetAssessmentInfo, winsat.iprovidewinsatresultsinfo_getassessmentinfo, winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo
+ms.keywords: GetAssessmentInfo, GetAssessmentInfo method [WinSAT], GetAssessmentInfo method [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],GetAssessmentInfo method, IProvideWinSATResultsInfo.GetAssessmentInfo, IProvideWinSATResultsInfo::GetAssessmentInfo, winsat.iprovidewinsatresultsinfo_getassessmentinfo, winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IProvideWinSATResultsInfo::GetAssessmentInfo method
+# IProvideWinSATResultsInfo::GetAssessmentInfo
 
 
 ## -description

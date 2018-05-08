@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetComponentName
-title: IVssComponent::GetComponentName method
+title: IVssComponent::GetComponentName
 author: windows-driver-content
 description: The GetComponentName method returns the logical name of this component.
 old-location: base\ivsscomponent_getcomponentname.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 24b36ea6-3662-4846-a90b-5c2da578e1fa
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetComponentName method [VSS], GetComponentName method [VSS], IVssComponent interface, GetComponentName,IVssComponent.GetComponentName, IVssComponent, IVssComponent interface [VSS], GetComponentName method, IVssComponent::GetComponentName, _win32_ivsscomponent_getcomponentname, base.ivsscomponent_getcomponentname, vswriter/IVssComponent::GetComponentName
+ms.keywords: GetComponentName, GetComponentName method [VSS], GetComponentName method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetComponentName method, IVssComponent.GetComponentName, IVssComponent::GetComponentName, _win32_ivsscomponent_getcomponentname, base.ivsscomponent_getcomponentname, vswriter/IVssComponent::GetComponentName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetComponentName method
+# IVssComponent::GetComponentName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.ShowCandidateNumbers
-title: ITfIntegratableCandidateListUIElement::ShowCandidateNumbers method
+title: ITfIntegratableCandidateListUIElement::ShowCandidateNumbers
 author: windows-driver-content
 description: Specifies whether candidate numbers should be shown.
 old-location: tsf\itfintegratablecandidatelistuielement_showcandidatenumbers.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 91F40471-69D0-457B-9614-1B5A690A82B7
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], ShowCandidateNumbers method, ITfIntegratableCandidateListUIElement::ShowCandidateNumbers, ShowCandidateNumbers method [Text Services Framework], ShowCandidateNumbers method [Text Services Framework], ITfIntegratableCandidateListUIElement interface, ShowCandidateNumbers,ITfIntegratableCandidateListUIElement.ShowCandidateNumbers, ctffunc/ITfIntegratableCandidateListUIElement::ShowCandidateNumbers, tsf.itfintegratablecandidatelistuielement_showcandidatenumbers
+ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],ShowCandidateNumbers method, ITfIntegratableCandidateListUIElement.ShowCandidateNumbers, ITfIntegratableCandidateListUIElement::ShowCandidateNumbers, ShowCandidateNumbers, ShowCandidateNumbers method [Text Services Framework], ShowCandidateNumbers method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::ShowCandidateNumbers, tsf.itfintegratablecandidatelistuielement_showcandidatenumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITfIntegratableCandidateListUIElement::ShowCandidateNumbers method
+# ITfIntegratableCandidateListUIElement::ShowCandidateNumbers
 
 
 ## -description

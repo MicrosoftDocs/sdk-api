@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetTag
-title: IIsdbDownloadContentDescriptor::GetTag method
+title: IIsdbDownloadContentDescriptor::GetTag
 author: windows-driver-content
 description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_gettag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a78c3f3b-aaa2-4b5e-9cf8-7746f20fafc2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface, GetTag,IIsdbDownloadContentDescriptor.GetTag, IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], GetTag method, IIsdbDownloadContentDescriptor::GetTag, dvbsiparser/IIsdbDownloadContentDescriptor::GetTag, mstv.iisdbdownloadcontentdescriptor_gettag
+ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbDownloadContentDescriptor.GetTag, IIsdbDownloadContentDescriptor::GetTag, dvbsiparser/IIsdbDownloadContentDescriptor::GetTag, mstv.iisdbdownloadcontentdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDownloadContentDescriptor::GetTag method
+# IIsdbDownloadContentDescriptor::GetTag
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFClock.GetClockCharacteristics
-title: IMFClock::GetClockCharacteristics method
+title: IMFClock::GetClockCharacteristics
 author: windows-driver-content
 description: Retrieves the characteristics of the clock.
 old-location: mf\imfclock_getclockcharacteristics.htm
 old-project: medfound
 ms.assetid: 50a81e8b-9aa8-484c-afb7-950068feefc4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 50a81e8b-9aa8-484c-afb7-950068feefc4, GetClockCharacteristics method [Media Foundation], GetClockCharacteristics method [Media Foundation], IMFClock interface, GetClockCharacteristics,IMFClock.GetClockCharacteristics, IMFClock, IMFClock interface [Media Foundation], GetClockCharacteristics method, IMFClock::GetClockCharacteristics, mf.imfclock_getclockcharacteristics, mfidl/IMFClock::GetClockCharacteristics
+ms.date: 5/3/2018
+ms.keywords: 50a81e8b-9aa8-484c-afb7-950068feefc4, GetClockCharacteristics, GetClockCharacteristics method [Media Foundation], GetClockCharacteristics method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetClockCharacteristics method, IMFClock.GetClockCharacteristics, IMFClock::GetClockCharacteristics, mf.imfclock_getclockcharacteristics, mfidl/IMFClock::GetClockCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFClock::GetClockCharacteristics method
+# IMFClock::GetClockCharacteristics
 
 
 ## -description

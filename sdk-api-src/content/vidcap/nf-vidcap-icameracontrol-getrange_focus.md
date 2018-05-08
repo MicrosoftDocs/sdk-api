@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Focus
-title: ICameraControl::getRange_Focus method
+title: ICameraControl::getRange_Focus
 author: windows-driver-content
 description: The getRange_Focus method returns the range of focal distances supported by the camera.
 old-location: dshow\icameracontrol_getrange_focus.htm
 old-project: DirectShow
 ms.assetid: f2da5473-82c3-4719-bba6-04a1793a98eb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], getRange_Focus method, ICameraControl::getRange_Focus, ICameraControlgetRange_Focus, dshow.icameracontrol_getrange_focus, getRange_Focus method [DirectShow], getRange_Focus method [DirectShow], ICameraControl interface, getRange_Focus,ICameraControl.getRange_Focus, vidcap/ICameraControl::getRange_Focus
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],getRange_Focus method, ICameraControl.getRange_Focus, ICameraControl::getRange_Focus, ICameraControlgetRange_Focus, dshow.icameracontrol_getrange_focus, getRange_Focus, getRange_Focus method [DirectShow], getRange_Focus method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Focus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::getRange_Focus method
+# ICameraControl::getRange_Focus
 
 
 ## -description

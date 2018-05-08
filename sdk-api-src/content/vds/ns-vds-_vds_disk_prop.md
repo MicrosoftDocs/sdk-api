@@ -156,6 +156,18 @@ A
       discriminant for the union.
 
 
+### -field dwSignature
+
+Used if <b>PartitionStyle</b> is <b>VDS_PST_MBR</b> (1). The signature 
+       for the MBR partition. This value is not guaranteed to be unique.
+
+
+### -field DiskGuid
+
+Used if <b>PartitionStyle</b> is <b>VDS_PST_GPT</b> (2). The 
+       GUID for the disk. In addition, each GPT partition has its own GUID. (See <a href="https://msdn.microsoft.com/5c484155-df73-4007-a137-998c7f1c5a7c">VDS_PARTITION_INFO_GPT</a>.)
+
+
 ### -field pwszDiskAddress
 
 The address of a SCSI-like disk in 
@@ -193,18 +205,6 @@ The name of the adapter to which this disk is attached. The Plug and Play Manage
 The string returned by the Plug and Play Manager. The Plug and Play Manager uses the device path to 
       uniquely identify a device on a computer. For more information, see 
       <a href="http://go.microsoft.com/fwlink/p/?linkid=91287">SP_DEVICE_INTERFACE_DETAIL_DATA</a>.
-
-
-#### - DiskGuid
-
-Used if <b>PartitionStyle</b> is <b>VDS_PST_GPT</b> (2). The 
-       GUID for the disk. In addition, each GPT partition has its own GUID. (See <a href="https://msdn.microsoft.com/5c484155-df73-4007-a137-998c7f1c5a7c">VDS_PARTITION_INFO_GPT</a>.)
-
-
-#### - dwSignature
-
-Used if <b>PartitionStyle</b> is <b>VDS_PST_MBR</b> (1). The signature 
-       for the MBR partition. This value is not guaranteed to be unique.
 
 
 ## -remarks

@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_WhiteBalanceComponent
-title: IVideoProcAmp::getRange_WhiteBalanceComponent method
+title: IVideoProcAmp::getRange_WhiteBalanceComponent
 author: windows-driver-content
 description: The getRange_WhiteBalanceComponent method returns the range of white balance settings supported by the camera, expressed as red and blue component values.
 old-location: dshow\ivideoprocamp_getrange_whitebalancecomponent.htm
 old-project: DirectShow
 ms.assetid: dec23c5a-3999-4f9b-81f3-2718b38d5835
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_WhiteBalanceComponent method, IVideoProcAmp::getRange_WhiteBalanceComponent, IVideoProcAmpgetRange_WhiteBalanceComponent, dshow.ivideoprocamp_getrange_whitebalancecomponent, getRange_WhiteBalanceComponent method [DirectShow], getRange_WhiteBalanceComponent method [DirectShow], IVideoProcAmp interface, getRange_WhiteBalanceComponent,IVideoProcAmp.getRange_WhiteBalanceComponent, vidcap/IVideoProcAmp::getRange_WhiteBalanceComponent
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],getRange_WhiteBalanceComponent method, IVideoProcAmp.getRange_WhiteBalanceComponent, IVideoProcAmp::getRange_WhiteBalanceComponent, IVideoProcAmpgetRange_WhiteBalanceComponent, dshow.ivideoprocamp_getrange_whitebalancecomponent, getRange_WhiteBalanceComponent, getRange_WhiteBalanceComponent method [DirectShow], getRange_WhiteBalanceComponent method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_WhiteBalanceComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::getRange_WhiteBalanceComponent method
+# IVideoProcAmp::getRange_WhiteBalanceComponent
 
 
 ## -description

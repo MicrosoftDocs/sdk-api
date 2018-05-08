@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.ScanNetwork
-title: IMbnMultiCarrier::ScanNetwork method
+title: IMbnMultiCarrier::ScanNetwork
 author: windows-driver-content
 description: Scans the network to get a list of visible providers for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_scannetwork.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: D249B5D4-B2C3-436A-B38A-041289422F12
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnMultiCarrier, IMbnMultiCarrier interface [Microsoft Broadband Networks], ScanNetwork method, IMbnMultiCarrier::ScanNetwork, ScanNetwork method [Microsoft Broadband Networks], ScanNetwork method [Microsoft Broadband Networks], IMbnMultiCarrier interface, ScanNetwork,IMbnMultiCarrier.ScanNetwork, mbn.imbnmulticarrier_scannetwork, mbnapi/IMbnMultiCarrier::ScanNetwork
+ms.keywords: IMbnMultiCarrier interface [Microsoft Broadband Networks],ScanNetwork method, IMbnMultiCarrier.ScanNetwork, IMbnMultiCarrier::ScanNetwork, ScanNetwork, ScanNetwork method [Microsoft Broadband Networks], ScanNetwork method [Microsoft Broadband Networks],IMbnMultiCarrier interface, mbn.imbnmulticarrier_scannetwork, mbnapi/IMbnMultiCarrier::ScanNetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnMultiCarrier::ScanNetwork method
+# IMbnMultiCarrier::ScanNetwork
 
 
 ## -description

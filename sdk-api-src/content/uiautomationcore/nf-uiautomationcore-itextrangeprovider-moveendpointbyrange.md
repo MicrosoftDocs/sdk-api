@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.MoveEndpointByRange
-title: ITextRangeProvider::MoveEndpointByRange method
+title: ITextRangeProvider::MoveEndpointByRange
 author: windows-driver-content
 description: Moves one endpoint of the current text range to the specified endpoint of a second text range.
 old-location: winauto\uiauto_ITextRangeProvider_MoveEndpointByRange.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 86411603-c37f-4192-95d1-8ac9b6ab6c44
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], MoveEndpointByRange method, ITextRangeProvider::MoveEndpointByRange, MoveEndpointByRange method [Windows Accessibility], MoveEndpointByRange method [Windows Accessibility], ITextRangeProvider interface, MoveEndpointByRange,ITextRangeProvider.MoveEndpointByRange, uiauto.uiauto_ITextRangeProvider_MoveEndpointByRange, uiauto_ITextRangeProvider_MoveEndpointByRange, uiautomationcore/ITextRangeProvider::MoveEndpointByRange, winauto.uiauto_ITextRangeProvider_MoveEndpointByRange
+ms.keywords: ITextRangeProvider interface [Windows Accessibility],MoveEndpointByRange method, ITextRangeProvider.MoveEndpointByRange, ITextRangeProvider::MoveEndpointByRange, MoveEndpointByRange, MoveEndpointByRange method [Windows Accessibility], MoveEndpointByRange method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_MoveEndpointByRange, uiauto_ITextRangeProvider_MoveEndpointByRange, uiautomationcore/ITextRangeProvider::MoveEndpointByRange, winauto.uiauto_ITextRangeProvider_MoveEndpointByRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRangeProvider::MoveEndpointByRange method
+# ITextRangeProvider::MoveEndpointByRange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilterConfig.GetSecureChannelObject
-title: IDTFilterConfig::GetSecureChannelObject method
+title: IDTFilterConfig::GetSecureChannelObject
 author: windows-driver-content
 description: The GetSecureChannelObject method retrieves the secure channel object used to decrypt the stream.
 old-location: mstv\idtfilterconfig_getsecurechannelobject.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 84057a08-b15f-4738-814d-c016507ac590
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies], IDTFilterConfig interface, GetSecureChannelObject,IDTFilterConfig.GetSecureChannelObject, IDTFilterConfig, IDTFilterConfig interface [Microsoft TV Technologies], GetSecureChannelObject method, IDTFilterConfig::GetSecureChannelObject, IDTFilterConfigGetSecureChannelObject, encdec/IDTFilterConfig::GetSecureChannelObject, mstv.idtfilterconfig_getsecurechannelobject
+ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies],IDTFilterConfig interface, IDTFilterConfig interface [Microsoft TV Technologies],GetSecureChannelObject method, IDTFilterConfig.GetSecureChannelObject, IDTFilterConfig::GetSecureChannelObject, IDTFilterConfigGetSecureChannelObject, encdec/IDTFilterConfig::GetSecureChannelObject, mstv.idtfilterconfig_getsecurechannelobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDTFilterConfig::GetSecureChannelObject method
+# IDTFilterConfig::GetSecureChannelObject
 
 
 ## -description

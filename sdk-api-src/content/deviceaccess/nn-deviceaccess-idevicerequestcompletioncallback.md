@@ -8,7 +8,7 @@ old-project: deviceaccess
 ms.assetid: 88746199-fc42-4f1d-9f97-ebd573e9cb3c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDeviceRequestCompletionCallback, IDeviceRequestCompletionCallback interface [Device Access Broker API], IDeviceRequestCompletionCallback interface [Device Access Broker API], described, deviceaccess.idevicerequestcompletioncallback, deviceaccess/IDeviceRequestCompletionCallback
+ms.keywords: IDeviceRequestCompletionCallback, IDeviceRequestCompletionCallback interface [Device Access Broker API], IDeviceRequestCompletionCallback interface [Device Access Broker API],described, deviceaccess.idevicerequestcompletioncallback, deviceaccess/IDeviceRequestCompletionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

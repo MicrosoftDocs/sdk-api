@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroup.CreateProperty
-title: ISharedPropertyGroup::CreateProperty method
+title: ISharedPropertyGroup::CreateProperty
 author: windows-driver-content
 description: Creates a new shared property with the specified name.
 old-location: cos\isharedpropertygroup_createproperty.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: bc34ec47-b39f-49fd-a8dd-8c96bb708e88
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateProperty method [COM+], CreateProperty method [COM+], ISharedPropertyGroup interface, CreateProperty,ISharedPropertyGroup.CreateProperty, ISharedPropertyGroup, ISharedPropertyGroup interface [COM+], CreateProperty method, ISharedPropertyGroup::CreateProperty, _cos_ISharedPropertyGroup_CreateProperty, comsvcs/ISharedPropertyGroup::CreateProperty, cos.isharedpropertygroup_createproperty
+ms.keywords: CreateProperty, CreateProperty method [COM+], CreateProperty method [COM+],ISharedPropertyGroup interface, ISharedPropertyGroup interface [COM+],CreateProperty method, ISharedPropertyGroup.CreateProperty, ISharedPropertyGroup::CreateProperty, _cos_ISharedPropertyGroup_CreateProperty, comsvcs/ISharedPropertyGroup::CreateProperty, cos.isharedpropertygroup_createproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISharedPropertyGroup::CreateProperty method
+# ISharedPropertyGroup::CreateProperty
 
 
 ## -description

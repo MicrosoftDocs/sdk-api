@@ -7,7 +7,7 @@ old-location: security\cmsg_mail_list_recipient_encode_info.htm
 old-project: SecCrypto
 ms.assetid: 4303a7e7-cb93-4ed1-85e6-42359c2c687c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure [Security], PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure pointer [Security], _CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, _crypto2_cmsg_mail_list_recipient_encode_info, security.cmsg_mail_list_recipient_encode_info, wincrypt/CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,6 +90,17 @@ Indicates which member of the following union will be used. Currently only CMSG_
  
 
 
+### -field DUMMYUNIONNAME.hKeyEncryptionKey
+
+An <b>HCRYPTKEY</b> value used with the CMSG_MAIL_LIST_HANDLE_KEY_CHOICE value of the <i>dwKeyChoice</i> parameter.
+
+
+### -field DUMMYUNIONNAME.pvKeyEncryptionKey
+
+A pointer to a void. Reserved for a future potential pointer choice. 
+
+
+
 ### -field KeyId
 
 
@@ -105,15 +116,4 @@ Optional <b>FILETIME</b> value. When present, specifies a single key encryption 
 
 Optional pointer to a 
 <a href="https://msdn.microsoft.com/84057581-d0a9-464a-9399-ba806e37516f">CRYPT_ATTRIBUTE_TYPE_VALUE</a> structure that contains encryption attributes.
-
-
-#### - hKeyEncryptionKey
-
-An <b>HCRYPTKEY</b> value used with the CMSG_MAIL_LIST_HANDLE_KEY_CHOICE value of the <i>dwKeyChoice</i> parameter.
-
-
-#### - pvKeyEncryptionKey
-
-A pointer to a void. Reserved for a future potential pointer choice. 
-
 

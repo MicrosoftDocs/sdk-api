@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectSet.Create
-title: IOpcSignatureCustomObjectSet::Create method
+title: IOpcSignatureCustomObjectSet::Create
 author: windows-driver-content
 description: Creates an IOpcSignatureCustomObject interface pointer to represent an application-specific Object element in the signature, and adds the new interface to the set.
 old-location: opc\iopcsignaturecustomobjectset_create.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 93bf4509-900c-42bc-9834-c8a33cfe7e65
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Create method [Open Packaging Conventions], Create method [Open Packaging Conventions], IOpcSignatureCustomObjectSet interface, Create,IOpcSignatureCustomObjectSet.Create, IOpcSignatureCustomObjectSet, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions], Create method, IOpcSignatureCustomObjectSet::Create, msopc/IOpcSignatureCustomObjectSet::Create, opc.iopcsignaturecustomobjectset_create
+ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],Create method, IOpcSignatureCustomObjectSet.Create, IOpcSignatureCustomObjectSet::Create, msopc/IOpcSignatureCustomObjectSet::Create, opc.iopcsignaturecustomobjectset_create
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureCustomObjectSet::Create method
+# IOpcSignatureCustomObjectSet::Create
 
 
 ## -description

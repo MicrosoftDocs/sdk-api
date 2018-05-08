@@ -586,34 +586,34 @@ Specifies the <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079
 Specifies the number of bits per pixel (4, 8, 16, 24, or 32) of the RGB or YUV data.
 
 
-#### - dwBBitMask
-
-Specifies the mask for blue bits.
-
-
-#### - dwGBitMask
-
-Specifies the mask for green bits.
-
-
-#### - dwRBitMask
+### -field dwRBitMask
 
 Specifies the mask for red bits.
 
 
-#### - dwUBitMask
+### -field dwYBitMask
+
+Specifies the mask for Y bits.
+
+
+### -field dwGBitMask
+
+Specifies the mask for green bits.
+
+
+### -field dwUBitMask
 
 Specifies the mask for U bits.
 
 
-#### - dwVBitMask
+### -field dwBBitMask
+
+Specifies the mask for blue bits.
+
+
+### -field dwVBitMask
 
 Specifies the mask for V bits.
-
-
-#### - dwYBitMask
-
-Specifies the mask for Y bits.
 
 
 ## -see-also

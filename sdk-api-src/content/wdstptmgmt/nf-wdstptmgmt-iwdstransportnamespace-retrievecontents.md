@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.RetrieveContents
-title: IWdsTransportNamespace::RetrieveContents method
+title: IWdsTransportNamespace::RetrieveContents
 author: windows-driver-content
 description: Retrieves a collection of active transport content objects associated with the namespace.
 old-location: wds\iwdstransportnamespace_retrievecontents.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 78afaf1c-f29f-4ab0-8329-d2199ea49c43
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportNamespace, IWdsTransportNamespace interface [Windows Deployment Services], RetrieveContents method, IWdsTransportNamespace::RetrieveContents, RetrieveContents method [Windows Deployment Services], RetrieveContents method [Windows Deployment Services], IWdsTransportNamespace interface, RetrieveContents,IWdsTransportNamespace.RetrieveContents, wds.iwdstransportnamespace_retrievecontents, wdstptmgmt/IWdsTransportNamespace::RetrieveContents
+ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],RetrieveContents method, IWdsTransportNamespace.RetrieveContents, IWdsTransportNamespace::RetrieveContents, RetrieveContents, RetrieveContents method [Windows Deployment Services], RetrieveContents method [Windows Deployment Services],IWdsTransportNamespace interface, wds.iwdstransportnamespace_retrievecontents, wdstptmgmt/IWdsTransportNamespace::RetrieveContents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportNamespace::RetrieveContents method
+# IWdsTransportNamespace::RetrieveContents
 
 
 ## -description

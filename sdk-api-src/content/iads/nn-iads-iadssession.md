@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 54621f0d-7478-4a6f-a96f-f3f93e64b281
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsSession, IADsSession interface [ADSI], IADsSession interface [ADSI], described, _ds_iadssession, adsi.iadssession, iads/IADsSession
+ms.keywords: IADsSession, IADsSession interface [ADSI], IADsSession interface [ADSI],described, _ds_iadssession, adsi.iadssession, iads/IADsSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

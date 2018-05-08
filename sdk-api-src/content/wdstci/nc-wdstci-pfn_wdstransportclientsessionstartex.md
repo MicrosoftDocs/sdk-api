@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 36970f1b-9dbf-421f-a078-3da3bbb050e8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PFN_WdsTransportClientSessionStartEx, PFN_WdsTransportClientSessionStartEx callback function [Windows Deployment Services], wds.pfn_wdstransportclientsessionstartex, wdstci/PFN_WdsTransportClientSessionStartEx
+ms.keywords: PFN_WdsTransportClientSessionStartEx, PFN_WdsTransportClientSessionStartEx callback, PFN_WdsTransportClientSessionStartEx callback function [Windows Deployment Services], wds.pfn_wdstransportclientsessionstartex, wdstci/PFN_WdsTransportClientSessionStartEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFN_WdsTransportClientSessionStartEx callback
+# PFN_WdsTransportClientSessionStartEx callback function
 
 
 ## -description

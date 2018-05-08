@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PreCommitSnapshots
-title: IVssProviderCreateSnapshotSet::PreCommitSnapshots method
+title: IVssProviderCreateSnapshotSet::PreCommitSnapshots
 author: windows-driver-content
 description: Ensures the provider is ready to quickly commit the prepared LUNs.
 old-location: base\ivssprovidercreatesnapshotset_precommitsnapshots.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: af1caf80-751d-4b0d-8b35-970800d1dee6
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], PreCommitSnapshots method, IVssProviderCreateSnapshotSet::PreCommitSnapshots, PreCommitSnapshots method [VSS], PreCommitSnapshots method [VSS], IVssProviderCreateSnapshotSet interface, PreCommitSnapshots,IVssProviderCreateSnapshotSet.PreCommitSnapshots, base.ivssprovidercreatesnapshotset_precommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreCommitSnapshots
+ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PreCommitSnapshots method, IVssProviderCreateSnapshotSet.PreCommitSnapshots, IVssProviderCreateSnapshotSet::PreCommitSnapshots, PreCommitSnapshots, PreCommitSnapshots method [VSS], PreCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_precommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreCommitSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssProviderCreateSnapshotSet::PreCommitSnapshots method
+# IVssProviderCreateSnapshotSet::PreCommitSnapshots
 
 
 ## -description

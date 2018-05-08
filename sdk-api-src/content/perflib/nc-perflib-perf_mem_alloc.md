@@ -8,7 +8,7 @@ old-project: PerfCtrs
 ms.assetid: 09af7e56-2174-4a82-b45b-59f4180e4aab
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
-ms.keywords: AllocateMemory, AllocateMemory callback function [Perf], PERF_MEM_ALLOC, perf.allocatememory, perflib/AllocateMemory
+ms.keywords: AllocateMemory, AllocateMemory callback function [Perf], PERF_MEM_ALLOC, PERF_MEM_ALLOC callback, perf.allocatememory, perflib/AllocateMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PERF_MEM_ALLOC callback
+# PERF_MEM_ALLOC callback function
 
 
 ## -description

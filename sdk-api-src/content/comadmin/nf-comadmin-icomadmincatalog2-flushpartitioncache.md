@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.FlushPartitionCache
-title: ICOMAdminCatalog2::FlushPartitionCache method
+title: ICOMAdminCatalog2::FlushPartitionCache
 author: windows-driver-content
 description: Empties the cache that maps users to their default partitions.
 old-location: cos\icomadmincatalog2_flushpartitioncache.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 8b5f6619-fbff-417d-b80a-a38532227059
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: FlushPartitionCache method [COM+], FlushPartitionCache method [COM+], ICOMAdminCatalog2 interface, FlushPartitionCache,ICOMAdminCatalog2.FlushPartitionCache, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], FlushPartitionCache method, ICOMAdminCatalog2::FlushPartitionCache, _cos_icomadmincatalog2_FlushPartitionCache, comadmin/ICOMAdminCatalog2::FlushPartitionCache, cos.icomadmincatalog2_flushpartitioncache
+ms.keywords: FlushPartitionCache, FlushPartitionCache method [COM+], FlushPartitionCache method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],FlushPartitionCache method, ICOMAdminCatalog2.FlushPartitionCache, ICOMAdminCatalog2::FlushPartitionCache, _cos_icomadmincatalog2_FlushPartitionCache, comadmin/ICOMAdminCatalog2::FlushPartitionCache, cos.icomadmincatalog2_flushpartitioncache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::FlushPartitionCache method
+# ICOMAdminCatalog2::FlushPartitionCache
 
 
 ## -description

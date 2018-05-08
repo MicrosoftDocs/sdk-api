@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_ElapsedTime
-title: IFaxStatus::get_ElapsedTime method
+title: IFaxStatus::get_ElapsedTime
 author: windows-driver-content
 description: Retrieves the ElapsedTime property for the FaxStatus object of a parent FaxPort object. The ElapsedTime property is a number that represents the elapsed time for an active fax job.
 old-location: fax\_mfax_ifaxstatus_get_elapsedtime_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2en9.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ElapsedTime property [Fax Service], ElapsedTime property [Fax Service], FaxStatus object, FaxStatus object [Fax Service], ElapsedTime property, IFaxStatus, IFaxStatus::get_ElapsedTime, _mfax_ifaxstatus_get_elapsedtime, fax._mfax_ifaxstatus_get_elapsedtime, fax._mfax_ifaxstatus_get_elapsedtime_vb, get_ElapsedTime,IFaxStatus.get_ElapsedTime
+ms.keywords: ElapsedTime property [Fax Service], ElapsedTime property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],ElapsedTime property, FaxStatus.ElapsedTime, IFaxStatus.get_ElapsedTime, IFaxStatus::get_ElapsedTime, _mfax_ifaxstatus_get_elapsedtime, fax._mfax_ifaxstatus_get_elapsedtime, fax._mfax_ifaxstatus_get_elapsedtime_vb, get_ElapsedTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxStatus::get_ElapsedTime method
+# IFaxStatus::get_ElapsedTime
 
 
 ## -description

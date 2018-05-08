@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.RegisterNotificationSink
-title: IWSDiscoveryPublisher::RegisterNotificationSink method
+title: IWSDiscoveryPublisher::RegisterNotificationSink
 author: windows-driver-content
 description: Attaches a callback notification sink to the discovery publisher.
 old-location: ncd\iwsdiscoverypublisher_registernotificationsink_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 75a6c593-298b-45b4-bde5-2a383b7581cc
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, RegisterNotificationSink method, IWSDiscoveryPublisher::RegisterNotificationSink, RegisterNotificationSink method, RegisterNotificationSink method, IWSDiscoveryPublisher interface, RegisterNotificationSink,IWSDiscoveryPublisher.RegisterNotificationSink, ncd.iwsdiscoverypublisher_registernotificationsink_method, wsddisco/IWSDiscoveryPublisher::RegisterNotificationSink
+ms.keywords: IWSDiscoveryPublisher interface,RegisterNotificationSink method, IWSDiscoveryPublisher.RegisterNotificationSink, IWSDiscoveryPublisher::RegisterNotificationSink, RegisterNotificationSink, RegisterNotificationSink method, RegisterNotificationSink method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registernotificationsink_method, wsddisco/IWSDiscoveryPublisher::RegisterNotificationSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryPublisher::RegisterNotificationSink method
+# IWSDiscoveryPublisher::RegisterNotificationSink
 
 
 ## -description

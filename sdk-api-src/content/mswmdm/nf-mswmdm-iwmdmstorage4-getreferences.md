@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage4.GetReferences
-title: IWMDMStorage4::GetReferences method
+title: IWMDMStorage4::GetReferences
 author: windows-driver-content
 description: The GetReferences method retrieves an array of pointers to IWMDMStorage objects pointed to by this storage. An abstract album or playlist is typically stored as a collection of references on an MTP device.
 old-location: wmdm\iwmdmstorage4_getreferences.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 8199de99-3660-4819-a8e0-ae8e3aa1680e
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetReferences method [windows Media Device Manager], GetReferences method [windows Media Device Manager], IWMDMStorage4 interface, GetReferences,IWMDMStorage4.GetReferences, IWMDMStorage4, IWMDMStorage4 interface [windows Media Device Manager], GetReferences method, IWMDMStorage4::GetReferences, IWMDMStorage4GetReferences, mswmdm/IWMDMStorage4::GetReferences, wmdm.iwmdmstorage4_getreferences
+ms.keywords: GetReferences, GetReferences method [windows Media Device Manager], GetReferences method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],GetReferences method, IWMDMStorage4.GetReferences, IWMDMStorage4::GetReferences, IWMDMStorage4GetReferences, mswmdm/IWMDMStorage4::GetReferences, wmdm.iwmdmstorage4_getreferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMStorage4::GetReferences method
+# IWMDMStorage4::GetReferences
 
 
 ## -description

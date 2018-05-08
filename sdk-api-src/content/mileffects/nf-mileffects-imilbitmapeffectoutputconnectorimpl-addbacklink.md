@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectOutputConnectorImpl.AddBackLink
-title: IMILBitmapEffectOutputConnectorImpl::AddBackLink method
+title: IMILBitmapEffectOutputConnectorImpl::AddBackLink
 author: windows-driver-content
 description: IMILBitmapEffectOutputConnectorImpl::AddBackLink method
 old-location: wibe\_wibe_imilbitmapeffectoutputconnectorimpl_addbacklink.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnectorimpl\addbacklink.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddBackLink method [WPF Bitmap Effects], AddBackLink method [WPF Bitmap Effects], IMILBitmapEffectOutputConnectorImpl interface, AddBackLink,IMILBitmapEffectOutputConnectorImpl.AddBackLink, IMILBitmapEffectOutputConnectorImpl, IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects], AddBackLink method, IMILBitmapEffectOutputConnectorImpl::AddBackLink, _wibe_imilbitmapeffectoutputconnectorimpl_addbacklink, mileffects/IMILBitmapEffectOutputConnectorImpl::AddBackLink, wibe._wibe_imilbitmapeffectoutputconnectorimpl_addbacklink
+ms.keywords: AddBackLink, AddBackLink method [WPF Bitmap Effects], AddBackLink method [WPF Bitmap Effects],IMILBitmapEffectOutputConnectorImpl interface, IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects],AddBackLink method, IMILBitmapEffectOutputConnectorImpl.AddBackLink, IMILBitmapEffectOutputConnectorImpl::AddBackLink, _wibe_imilbitmapeffectoutputconnectorimpl_addbacklink, mileffects/IMILBitmapEffectOutputConnectorImpl::AddBackLink, wibe._wibe_imilbitmapeffectoutputconnectorimpl_addbacklink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectOutputConnectorImpl::AddBackLink method
+# IMILBitmapEffectOutputConnectorImpl::AddBackLink
 
 
 ## -description

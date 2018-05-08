@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetCASetupProperty
-title: ICertSrvSetup::GetCASetupProperty method
+title: ICertSrvSetup::GetCASetupProperty
 author: windows-driver-content
 description: Gets a property value for a certification authority (CA) configuration.
 old-location: security\icertsrvsetup_getcasetupproperty.htm
 old-project: SecCrypto
 ms.assetid: 7da5f111-206d-40e1-9c40-4782118c3d49
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetCASetupProperty method [Security], GetCASetupProperty method [Security], ICertSrvSetup interface, GetCASetupProperty,ICertSrvSetup.GetCASetupProperty, ICertSrvSetup, ICertSrvSetup interface [Security], GetCASetupProperty method, ICertSrvSetup::GetCASetupProperty, casetup/ICertSrvSetup::GetCASetupProperty, security.icertsrvsetup_getcasetupproperty
+ms.date: 4/30/2018
+ms.keywords: GetCASetupProperty, GetCASetupProperty method [Security], GetCASetupProperty method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetCASetupProperty method, ICertSrvSetup.GetCASetupProperty, ICertSrvSetup::GetCASetupProperty, casetup/ICertSrvSetup::GetCASetupProperty, security.icertsrvsetup_getcasetupproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetup::GetCASetupProperty method
+# ICertSrvSetup::GetCASetupProperty
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfile.Delete
-title: IMbnConnectionProfile::Delete method
+title: IMbnConnectionProfile::Delete
 author: windows-driver-content
 description: Deletes the profile from the system.
 old-location: mbn\imbnconnectionprofile_delete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 4de7da76-c873-4a57-a021-17436d1a64a4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Delete method [Microsoft Broadband Networks], Delete method [Microsoft Broadband Networks], IMbnConnectionProfile interface, Delete,IMbnConnectionProfile.Delete, IMbnConnectionProfile, IMbnConnectionProfile interface [Microsoft Broadband Networks], Delete method, IMbnConnectionProfile::Delete, mbn.imbnconnectionprofile_delete, mbnapi/IMbnConnectionProfile::Delete
+ms.keywords: Delete, Delete method [Microsoft Broadband Networks], Delete method [Microsoft Broadband Networks],IMbnConnectionProfile interface, IMbnConnectionProfile interface [Microsoft Broadband Networks],Delete method, IMbnConnectionProfile.Delete, IMbnConnectionProfile::Delete, mbn.imbnconnectionprofile_delete, mbnapi/IMbnConnectionProfile::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnectionProfile::Delete method
+# IMbnConnectionProfile::Delete
 
 
 ## -description

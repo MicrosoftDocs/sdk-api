@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.ICertAdmin.SetCertificateExtension
-title: ICertAdmin::SetCertificateExtension method
+title: ICertAdmin::SetCertificateExtension
 author: windows-driver-content
 description: Adds a new extension to the certificate issued in response to a certificate request. This method was first defined by the ICertAdmin interface.
 old-location: security\icertadmin2_setcertificateextension.htm
 old-project: SecCrypto
 ms.assetid: d26061da-acc3-45d8-93de-f2d431d350a6
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertAdmin interface [Security], SetCertificateExtension method, EXTENSION_CRITICAL_FLAG, EXTENSION_DISABLE_FLAG, ICertAdmin, ICertAdmin interface [Security], SetCertificateExtension method, ICertAdmin2 interface [Security], SetCertificateExtension method, ICertAdmin2::SetCertificateExtension, ICertAdmin::SetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCertificateExtension method [Security], SetCertificateExtension method [Security], CCertAdmin interface, SetCertificateExtension method [Security], ICertAdmin interface, SetCertificateExtension method [Security], ICertAdmin2 interface, SetCertificateExtension,ICertAdmin.SetCertificateExtension, certadm/ICertAdmin2::SetCertificateExtension, certadm/ICertAdmin::SetCertificateExtension, security.icertadmin2_setcertificateextension
+ms.date: 4/30/2018
+ms.keywords: CCertAdmin interface [Security],SetCertificateExtension method, EXTENSION_CRITICAL_FLAG, EXTENSION_DISABLE_FLAG, ICertAdmin interface [Security],SetCertificateExtension method, ICertAdmin.SetCertificateExtension, ICertAdmin2 interface [Security],SetCertificateExtension method, ICertAdmin2::SetCertificateExtension, ICertAdmin::SetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCertificateExtension, SetCertificateExtension method [Security], SetCertificateExtension method [Security],CCertAdmin interface, SetCertificateExtension method [Security],ICertAdmin interface, SetCertificateExtension method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetCertificateExtension, certadm/ICertAdmin::SetCertificateExtension, security.icertadmin2_setcertificateextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# ICertAdmin::SetCertificateExtension method
+# ICertAdmin::SetCertificateExtension
 
 
 ## -description

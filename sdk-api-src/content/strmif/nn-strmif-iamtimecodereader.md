@@ -7,8 +7,8 @@ old-location: dshow\iamtimecodereader.htm
 old-project: DirectShow
 ms.assetid: 76c3f603-8abc-450a-adb2-f2a90cb1634d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTimecodeReader, IAMTimecodeReader interface [DirectShow], IAMTimecodeReader interface [DirectShow], described, IAMTimecodeReaderInterface, dshow.iamtimecodereader, strmif/IAMTimecodeReader
+ms.date: 4/30/2018
+ms.keywords: IAMTimecodeReader, IAMTimecodeReader interface [DirectShow], IAMTimecodeReader interface [DirectShow],described, IAMTimecodeReaderInterface, dshow.iamtimecodereader, strmif/IAMTimecodeReader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

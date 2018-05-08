@@ -1,14 +1,14 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetBuffer
-title: IAMVideoAccelerator::GetBuffer method
+title: IAMVideoAccelerator::GetBuffer
 author: windows-driver-content
 description: The GetBuffer method gets a pointer to a compressed or uncompressed surface that was allocated for DirectX Video Acceleration (DXVA) decoding.
 old-location: dshow\iamvideoaccelerator_getbuffer.htm
 old-project: DirectShow
 ms.assetid: 3385cad2-8885-4b17-83fa-f40f25b0c433
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetBuffer method [DirectShow], GetBuffer method [DirectShow], IAMVideoAccelerator interface, GetBuffer,IAMVideoAccelerator.GetBuffer, IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], GetBuffer method, IAMVideoAccelerator::GetBuffer, IAMVideoAcceleratorGetBuffer, dshow.iamvideoaccelerator_getbuffer, videoacc/IAMVideoAccelerator::GetBuffer
+ms.date: 4/30/2018
+ms.keywords: GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetBuffer method, IAMVideoAccelerator.GetBuffer, IAMVideoAccelerator::GetBuffer, IAMVideoAcceleratorGetBuffer, dshow.iamvideoaccelerator_getbuffer, videoacc/IAMVideoAccelerator::GetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAMVideoAccelerator::GetBuffer method
+# IAMVideoAccelerator::GetBuffer
 
 
 ## -description

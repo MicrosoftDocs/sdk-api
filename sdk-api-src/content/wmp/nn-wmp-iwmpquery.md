@@ -7,8 +7,8 @@ old-location: wmp\iwmpquery.htm
 old-project: WMP
 ms.assetid: f1f3c46f-4756-49b4-ad4f-a9097ff787f8
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPQuery, IWMPQuery interface [Windows Media Player], IWMPQuery interface [Windows Media Player], described, IWMPQueryInterface, wmp.iwmpquery, wmp/IWMPQuery
+ms.date: 5/4/2018
+ms.keywords: IWMPQuery, IWMPQuery interface [Windows Media Player], IWMPQuery interface [Windows Media Player],described, IWMPQueryInterface, wmp.iwmpquery, wmp/IWMPQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

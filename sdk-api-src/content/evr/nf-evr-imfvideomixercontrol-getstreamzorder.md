@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.GetStreamZOrder
-title: IMFVideoMixerControl::GetStreamZOrder method
+title: IMFVideoMixerControl::GetStreamZOrder
 author: windows-driver-content
 description: Retrieves the z-order of a video stream.
 old-location: mf\imfvideomixercontrol_getstreamzorder.htm
 old-project: medfound
 ms.assetid: 9e0ba97c-c960-4e26-a89c-ea1a4e91e907
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 9e0ba97c-c960-4e26-a89c-ea1a4e91e907, GetStreamZOrder method [Media Foundation], GetStreamZOrder method [Media Foundation], IMFVideoMixerControl interface, GetStreamZOrder,IMFVideoMixerControl.GetStreamZOrder, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], GetStreamZOrder method, IMFVideoMixerControl::GetStreamZOrder, evr/IMFVideoMixerControl::GetStreamZOrder, mf.imfvideomixercontrol_getstreamzorder
+ms.date: 5/3/2018
+ms.keywords: 9e0ba97c-c960-4e26-a89c-ea1a4e91e907, GetStreamZOrder, GetStreamZOrder method [Media Foundation], GetStreamZOrder method [Media Foundation],IMFVideoMixerControl interface, IMFVideoMixerControl interface [Media Foundation],GetStreamZOrder method, IMFVideoMixerControl.GetStreamZOrder, IMFVideoMixerControl::GetStreamZOrder, evr/IMFVideoMixerControl::GetStreamZOrder, mf.imfvideomixercontrol_getstreamzorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoMixerControl::GetStreamZOrder method
+# IMFVideoMixerControl::GetStreamZOrder
 
 
 ## -description

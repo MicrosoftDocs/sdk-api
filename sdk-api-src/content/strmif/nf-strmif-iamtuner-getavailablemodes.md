@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTuner.GetAvailableModes
-title: IAMTuner::GetAvailableModes method
+title: IAMTuner::GetAvailableModes
 author: windows-driver-content
 description: The GetAvailableModes method retrieves the tuner's supported modes.
 old-location: dshow\iamtuner_getavailablemodes.htm
 old-project: DirectShow
 ms.assetid: 74025309-2aab-4e0f-95bc-8e6a1e2a5bb4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAvailableModes method [DirectShow], GetAvailableModes method [DirectShow], IAMTuner interface, GetAvailableModes,IAMTuner.GetAvailableModes, IAMTuner, IAMTuner interface [DirectShow], GetAvailableModes method, IAMTuner::GetAvailableModes, IAMTunerGetAvailableModes, dshow.iamtuner_getavailablemodes, strmif/IAMTuner::GetAvailableModes
+ms.date: 4/30/2018
+ms.keywords: GetAvailableModes, GetAvailableModes method [DirectShow], GetAvailableModes method [DirectShow],IAMTuner interface, IAMTuner interface [DirectShow],GetAvailableModes method, IAMTuner.GetAvailableModes, IAMTuner::GetAvailableModes, IAMTunerGetAvailableModes, dshow.iamtuner_getavailablemodes, strmif/IAMTuner::GetAvailableModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTuner::GetAvailableModes method
+# IAMTuner::GetAvailableModes
 
 
 ## -description

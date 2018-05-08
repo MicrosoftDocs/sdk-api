@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.MovePrevious
-title: IOpcCertificateEnumerator::MovePrevious method
+title: IOpcCertificateEnumerator::MovePrevious
 author: windows-driver-content
 description: Moves the current position of the enumerator to the previous CERT_CONTEXT structure.
 old-location: opc\iopccertificateenumerator_moveprevious.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 564c391c-8c73-4dd8-b713-3a5309708fd6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcCertificateEnumerator, IOpcCertificateEnumerator interface [Open Packaging Conventions], MovePrevious method, IOpcCertificateEnumerator::MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions], IOpcCertificateEnumerator interface, MovePrevious,IOpcCertificateEnumerator.MovePrevious, msopc/IOpcCertificateEnumerator::MovePrevious, opc.iopccertificateenumerator_moveprevious
+ms.keywords: IOpcCertificateEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcCertificateEnumerator.MovePrevious, IOpcCertificateEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcCertificateEnumerator interface, msopc/IOpcCertificateEnumerator::MovePrevious, opc.iopccertificateenumerator_moveprevious
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcCertificateEnumerator::MovePrevious method
+# IOpcCertificateEnumerator::MovePrevious
 
 
 ## -description

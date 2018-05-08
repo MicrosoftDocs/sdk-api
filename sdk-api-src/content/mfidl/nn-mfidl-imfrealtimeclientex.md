@@ -7,8 +7,8 @@ old-location: mf\imfrealtimeclientex.htm
 old-project: medfound
 ms.assetid: EC5CDD23-B862-4DAE-AC01-4926C4FAD89A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFRealTimeClientEx, IMFRealTimeClientEx interface [Media Foundation], IMFRealTimeClientEx interface [Media Foundation], described, mf.imfrealtimeclientex, mfidl/IMFRealTimeClientEx
+ms.date: 5/3/2018
+ms.keywords: IMFRealTimeClientEx, IMFRealTimeClientEx interface [Media Foundation], IMFRealTimeClientEx interface [Media Foundation],described, mf.imfrealtimeclientex, mfidl/IMFRealTimeClientEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

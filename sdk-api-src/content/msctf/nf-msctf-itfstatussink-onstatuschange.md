@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfStatusSink.OnStatusChange
-title: ITfStatusSink::OnStatusChange method
+title: ITfStatusSink::OnStatusChange
 author: windows-driver-content
 description: ITfStatusSink::OnStatusChange method
 old-location: tsf\itfstatussink_onstatuschange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6eabf08f-006b-43b4-aea7-1d803b3d09b2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfStatusSink, ITfStatusSink interface [Text Services Framework], OnStatusChange method, ITfStatusSink::OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework], ITfStatusSink interface, OnStatusChange,ITfStatusSink.OnStatusChange, _tsf_itfstatussink_onstatuschange_ref, msctf/ITfStatusSink::OnStatusChange, tsf.itfstatussink_onstatuschange
+ms.keywords: ITfStatusSink interface [Text Services Framework],OnStatusChange method, ITfStatusSink.OnStatusChange, ITfStatusSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITfStatusSink interface, _tsf_itfstatussink_onstatuschange_ref, msctf/ITfStatusSink::OnStatusChange, tsf.itfstatussink_onstatuschange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfStatusSink::OnStatusChange method
+# ITfStatusSink::OnStatusChange
 
 
 ## -description

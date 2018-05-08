@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactManager.Load
-title: IContactManager::Load method
+title: IContactManager::Load
 author: windows-driver-content
 description: Loads an IContact object with the data from the contact referenced by the computer-local contact ID.
 old-location: wincontacts\_wincontacts_IContactManager_Load.htm
@@ -8,7 +8,7 @@ old-project: wincontacts
 ms.assetid: d9addc49-72fd-4b87-bf48-a2a09b1161e9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IContactManager, IContactManager interface [Windows Contacts], Load method, IContactManager::Load, Load method [Windows Contacts], Load method [Windows Contacts], IContactManager interface, Load,IContactManager.Load, _wincontacts_IContactManager_Load, icontact/IContactManager::Load, wincontacts._wincontacts_IContactManager_Load
+ms.keywords: IContactManager interface [Windows Contacts],Load method, IContactManager.Load, IContactManager::Load, Load, Load method [Windows Contacts], Load method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_Load, icontact/IContactManager::Load, wincontacts._wincontacts_IContactManager_Load
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IContactManager::Load method
+# IContactManager::Load
 
 
 ## -description

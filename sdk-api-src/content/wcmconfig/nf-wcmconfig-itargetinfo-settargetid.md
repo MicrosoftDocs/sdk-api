@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetTargetID
-title: ITargetInfo::SetTargetID method
+title: ITargetInfo::SetTargetID
 author: windows-driver-content
 description: Sets the unique identifier associated with current target.
 old-location: smi\itargetinfo_settargetid.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 183b1ccd-9244-42d5-a787-617e43a55f64
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITargetInfo, ITargetInfo interface [SMI], SetTargetID method, ITargetInfo::SetTargetID, SetTargetID method [SMI], SetTargetID method [SMI], ITargetInfo interface, SetTargetID,ITargetInfo.SetTargetID, smi.itargetinfo_settargetid, wcmconfig/ITargetInfo::SetTargetID
+ms.keywords: ITargetInfo interface [SMI],SetTargetID method, ITargetInfo.SetTargetID, ITargetInfo::SetTargetID, SetTargetID, SetTargetID method [SMI], SetTargetID method [SMI],ITargetInfo interface, smi.itargetinfo_settargetid, wcmconfig/ITargetInfo::SetTargetID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::SetTargetID method
+# ITargetInfo::SetTargetID
 
 
 ## -description

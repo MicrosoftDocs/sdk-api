@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetStreamAttributesCount
-title: IMFSensorDevice::GetStreamAttributesCount method
+title: IMFSensorDevice::GetStreamAttributesCount
 author: windows-driver-content
 description: Gets the count of stream attribute stores for the sensor device. This number represents the number of total streams available for the device because every valid stream must have an attribute store that contains at least the stream ID and stream category.
 old-location: mf\imfsensordevice_getstreamattributescount.htm
 old-project: medfound
 ms.assetid: C6A0C4E6-7939-42C1-A499-7C92D83CB418
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamAttributesCount method [Media Foundation], GetStreamAttributesCount method [Media Foundation], IMFSensorDevice interface, GetStreamAttributesCount,IMFSensorDevice.GetStreamAttributesCount, IMFSensorDevice, IMFSensorDevice interface [Media Foundation], GetStreamAttributesCount method, IMFSensorDevice::GetStreamAttributesCount, mf.imfsensordevice_getstreamattributescount, mfidl/IMFSensorDevice::GetStreamAttributesCount
+ms.date: 5/3/2018
+ms.keywords: GetStreamAttributesCount, GetStreamAttributesCount method [Media Foundation], GetStreamAttributesCount method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetStreamAttributesCount method, IMFSensorDevice.GetStreamAttributesCount, IMFSensorDevice::GetStreamAttributesCount, mf.imfsensordevice_getstreamattributescount, mfidl/IMFSensorDevice::GetStreamAttributesCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorDevice::GetStreamAttributesCount method
+# IMFSensorDevice::GetStreamAttributesCount
 
 
 ## -description

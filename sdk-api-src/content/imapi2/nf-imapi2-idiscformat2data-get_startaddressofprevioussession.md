@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_StartAddressOfPreviousSession
-title: IDiscFormat2Data::get_StartAddressOfPreviousSession method
+title: IDiscFormat2Data::get_StartAddressOfPreviousSession
 author: windows-driver-content
 description: Retrieves the first sector of the previous write session.
 old-location: imapi\idiscformat2data_get_startaddressofprevioussession.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: a2f75240-9334-42a3-82d6-5ce9ddf1f3a2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], get_StartAddressOfPreviousSession method, IDiscFormat2Data::get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession method [IMAPI], get_StartAddressOfPreviousSession method [IMAPI], IDiscFormat2Data interface, get_StartAddressOfPreviousSession,IDiscFormat2Data.get_StartAddressOfPreviousSession, imapi.idiscformat2data_get_startaddressofprevioussession, imapi2/IDiscFormat2Data::get_StartAddressOfPreviousSession
+ms.keywords: IDiscFormat2Data interface [IMAPI],get_StartAddressOfPreviousSession method, IDiscFormat2Data.get_StartAddressOfPreviousSession, IDiscFormat2Data::get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession method [IMAPI], get_StartAddressOfPreviousSession method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_startaddressofprevioussession, imapi2/IDiscFormat2Data::get_StartAddressOfPreviousSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Data::get_StartAddressOfPreviousSession method
+# IDiscFormat2Data::get_StartAddressOfPreviousSession
 
 
 ## -description

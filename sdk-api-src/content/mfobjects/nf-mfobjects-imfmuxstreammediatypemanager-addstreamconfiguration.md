@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.AddStreamConfiguration
-title: IMFMuxStreamMediaTypeManager::AddStreamConfiguration method
+title: IMFMuxStreamMediaTypeManager::AddStreamConfiguration
 author: windows-driver-content
 description: Registers a stream configuration, which defines a set of substreams that can be included the multiplexed output.
 old-location: mf\imfmuxstreammediatypemanager_addstreamconfiguration.htm
 old-project: medfound
 ms.assetid: 9A647B60-ACA0-4878-A75B-54CA093DEDD0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddStreamConfiguration method [Media Foundation], AddStreamConfiguration method [Media Foundation], IMFMuxStreamMediaTypeManager interface, AddStreamConfiguration,IMFMuxStreamMediaTypeManager.AddStreamConfiguration, IMFMuxStreamMediaTypeManager, IMFMuxStreamMediaTypeManager interface [Media Foundation], AddStreamConfiguration method, IMFMuxStreamMediaTypeManager::AddStreamConfiguration, mf.imfmuxstreammediatypemanager_addstreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::AddStreamConfiguration
+ms.date: 5/3/2018
+ms.keywords: AddStreamConfiguration, AddStreamConfiguration method [Media Foundation], AddStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],AddStreamConfiguration method, IMFMuxStreamMediaTypeManager.AddStreamConfiguration, IMFMuxStreamMediaTypeManager::AddStreamConfiguration, mf.imfmuxstreammediatypemanager_addstreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::AddStreamConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMuxStreamMediaTypeManager::AddStreamConfiguration method
+# IMFMuxStreamMediaTypeManager::AddStreamConfiguration
 
 
 ## -description

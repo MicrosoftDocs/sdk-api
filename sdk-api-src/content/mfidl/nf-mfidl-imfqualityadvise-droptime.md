@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise.DropTime
-title: IMFQualityAdvise::DropTime method
+title: IMFQualityAdvise::DropTime
 author: windows-driver-content
 description: Drops samples over a specified interval of time.
 old-location: mf\imfqualityadvise_droptime.htm
 old-project: medfound
 ms.assetid: 60d27190-7bed-427c-9018-2926c85815fe
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 60d27190-7bed-427c-9018-2926c85815fe, DropTime method [Media Foundation], DropTime method [Media Foundation], IMFQualityAdvise interface, DropTime,IMFQualityAdvise.DropTime, IMFQualityAdvise, IMFQualityAdvise interface [Media Foundation], DropTime method, IMFQualityAdvise::DropTime, mf.imfqualityadvise_droptime, mfidl/IMFQualityAdvise::DropTime
+ms.date: 5/3/2018
+ms.keywords: 60d27190-7bed-427c-9018-2926c85815fe, DropTime, DropTime method [Media Foundation], DropTime method [Media Foundation],IMFQualityAdvise interface, IMFQualityAdvise interface [Media Foundation],DropTime method, IMFQualityAdvise.DropTime, IMFQualityAdvise::DropTime, mf.imfqualityadvise_droptime, mfidl/IMFQualityAdvise::DropTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFQualityAdvise::DropTime method
+# IMFQualityAdvise::DropTime
 
 
 ## -description

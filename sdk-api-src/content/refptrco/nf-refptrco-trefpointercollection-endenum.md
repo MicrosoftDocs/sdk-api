@@ -1,6 +1,6 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.EndEnum
-title: TRefPointerCollection::EndEnum method
+title: TRefPointerCollection::EndEnum
 author: windows-driver-content
 description: The EndEnum method ends the enumeration of the collection.
 old-location: wmi\trefpointercollection_endenum.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 86dcfc2e-fc73-4030-a63f-5284c2123a21
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: EndEnum method [Windows Management Instrumentation], EndEnum method [Windows Management Instrumentation], TRefPointerCollection interface, EndEnum,TRefPointerCollection.EndEnum, TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation], EndEnum method, TRefPointerCollection::EndEnum, _hmm_trefpointercollection_endenum, refptrco/TRefPointerCollection::EndEnum, wmi.trefpointercollection_endenum
+ms.keywords: EndEnum, EndEnum method [Windows Management Instrumentation], EndEnum method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],EndEnum method, TRefPointerCollection.EndEnum, TRefPointerCollection::EndEnum, _hmm_trefpointercollection_endenum, refptrco/TRefPointerCollection::EndEnum, wmi.trefpointercollection_endenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# TRefPointerCollection::EndEnum method
+# TRefPointerCollection::EndEnum
 
 
 ## -description

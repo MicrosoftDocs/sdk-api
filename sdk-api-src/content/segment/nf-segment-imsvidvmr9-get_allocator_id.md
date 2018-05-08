@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVMR9.get_Allocator_ID
-title: IMSVidVMR9::get_Allocator_ID method
+title: IMSVidVMR9::get_Allocator_ID
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidvmr9_get_allocator_id.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 46ea07af-be29-4621-96cb-f3c17be12f85
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVMR9, IMSVidVMR9 interface [Microsoft TV Technologies], get_Allocator_ID method, IMSVidVMR9::get_Allocator_ID, IMSVidVMR9get_Allocator_ID, get_Allocator_ID method [Microsoft TV Technologies], get_Allocator_ID method [Microsoft TV Technologies], IMSVidVMR9 interface, get_Allocator_ID,IMSVidVMR9.get_Allocator_ID, mstv.imsvidvmr9_get_allocator_id, segment/IMSVidVMR9::get_Allocator_ID
+ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],get_Allocator_ID method, IMSVidVMR9.get_Allocator_ID, IMSVidVMR9::get_Allocator_ID, IMSVidVMR9get_Allocator_ID, get_Allocator_ID, get_Allocator_ID method [Microsoft TV Technologies], get_Allocator_ID method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_get_allocator_id, segment/IMSVidVMR9::get_Allocator_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVMR9::get_Allocator_ID method
+# IMSVidVMR9::get_Allocator_ID
 
 
 ## -description

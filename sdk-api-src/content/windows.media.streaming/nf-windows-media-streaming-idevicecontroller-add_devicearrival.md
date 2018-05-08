@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IDeviceController.add_DeviceArrival
-title: IDeviceController::add_DeviceArrival method
+title: IDeviceController::streaming
 author: windows-driver-content
 description: Registers an event handler for the DeviceArrival event.
 old-location: mediastreaming\idevicecontroller_add_devicearrival.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 968A30D5-42ED-472B-9436-EBC77A3F76C9
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDeviceController, IDeviceController interface [Media Streaming API], add_DeviceArrival method, IDeviceController::add_DeviceArrival, add_DeviceArrival method [Media Streaming API], add_DeviceArrival method [Media Streaming API], IDeviceController interface, add_DeviceArrival,IDeviceController.add_DeviceArrival, mediastreaming.idevicecontroller_add_devicearrival, windows/IDeviceController::add_DeviceArrival
+ms.keywords: IDeviceController interface [Media Streaming API],add_DeviceArrival method, IDeviceController.add_DeviceArrival, IDeviceController.streaming, IDeviceController::add_DeviceArrival, IDeviceController::streaming, add_DeviceArrival, add_DeviceArrival method [Media Streaming API], add_DeviceArrival method [Media Streaming API],IDeviceController interface, mediastreaming.idevicecontroller_add_devicearrival, windows/IDeviceController::add_DeviceArrival
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IDeviceController::add_DeviceArrival method
+# IDeviceController::streaming
 
 
 ## -description

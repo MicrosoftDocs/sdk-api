@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_Type
-title: IAzApplicationGroup::get_Type method
+title: IAzApplicationGroup::get_Type
 author: windows-driver-content
 description: Sets or retrieves the group type of the application group.
 old-location: security\iazapplicationgroup_type.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: dc100895-4cfb-4e02-97bc-5c99bf26fbe2
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AZ_GROUPTYPE_BASIC, AZ_GROUPTYPE_LDAP_QUERY, AzApplicationGroup object [Security], Type property, IAzApplicationGroup, IAzApplicationGroup interface [Security], Type property, IAzApplicationGroup.Type, IAzApplicationGroup::get_Type, IAzApplicationGroup::put_Type, Type property [Security], Type property [Security], AzApplicationGroup object, Type property [Security], IAzApplicationGroup interface, azroles/IAzApplicationGroup::Type, azroles/IAzApplicationGroup::get_Type, azroles/IAzApplicationGroup::put_Type, get_Type,IAzApplicationGroup.get_Type, security.iazapplicationgroup_type
+ms.keywords: AZ_GROUPTYPE_BASIC, AZ_GROUPTYPE_LDAP_QUERY, AzApplicationGroup object [Security],Type property, IAzApplicationGroup interface [Security],Type property, IAzApplicationGroup.Type, IAzApplicationGroup.get_Type, IAzApplicationGroup::Type, IAzApplicationGroup::get_Type, IAzApplicationGroup::put_Type, Type property [Security], Type property [Security],AzApplicationGroup object, Type property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Type, azroles/IAzApplicationGroup::get_Type, azroles/IAzApplicationGroup::put_Type, get_Type, security.iazapplicationgroup_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplicationGroup::get_Type method
+# IAzApplicationGroup::get_Type
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: properties\IPropertyDescriptionAliasInfo.htm
 old-project: properties
 ms.assetid: fc9bc0d2-3c9b-4fbc-b098-462d7d253286
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: IPropertyDescriptionAliasInfo, IPropertyDescriptionAliasInfo interface [Windows Properties], IPropertyDescriptionAliasInfo interface [Windows Properties], described, _shell_IPropertyDescriptionAliasInfo, properties.IPropertyDescriptionAliasInfo, propsys/IPropertyDescriptionAliasInfo, shell.IPropertyDescriptionAliasInfo
+ms.date: 4/27/2018
+ms.keywords: IPropertyDescriptionAliasInfo, IPropertyDescriptionAliasInfo interface [Windows Properties], IPropertyDescriptionAliasInfo interface [Windows Properties],described, _shell_IPropertyDescriptionAliasInfo, properties.IPropertyDescriptionAliasInfo, propsys/IPropertyDescriptionAliasInfo, shell.IPropertyDescriptionAliasInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

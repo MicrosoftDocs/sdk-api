@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactCollection.GetCurrent
-title: IContactCollection::GetCurrent method
+title: IContactCollection::GetCurrent
 author: windows-driver-content
 description: Retrieves the current contact in the enumeration.
 old-location: wincontacts\_wincontacts_IContactCollection_GetCurrent.htm
@@ -8,7 +8,7 @@ old-project: wincontacts
 ms.assetid: e5a5d27d-121a-4755-892e-53d148facd74
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCurrent method [Windows Contacts], GetCurrent method [Windows Contacts], IContactCollection interface, GetCurrent,IContactCollection.GetCurrent, IContactCollection, IContactCollection interface [Windows Contacts], GetCurrent method, IContactCollection::GetCurrent, _wincontacts_IContactCollection_GetCurrent, icontact/IContactCollection::GetCurrent, wincontacts._wincontacts_IContactCollection_GetCurrent
+ms.keywords: GetCurrent, GetCurrent method [Windows Contacts], GetCurrent method [Windows Contacts],IContactCollection interface, IContactCollection interface [Windows Contacts],GetCurrent method, IContactCollection.GetCurrent, IContactCollection::GetCurrent, _wincontacts_IContactCollection_GetCurrent, icontact/IContactCollection::GetCurrent, wincontacts._wincontacts_IContactCollection_GetCurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IContactCollection::GetCurrent method
+# IContactCollection::GetCurrent
 
 
 ## -description

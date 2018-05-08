@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMediaProps.GetType
-title: IWMMediaProps::GetType method
+title: IWMMediaProps::GetType
 author: windows-driver-content
 description: The GetType method retrieves the major type of the media in the stream, input, or output described by the object to which the current IWMMediaProps interface belongs.
 old-location: wmformat\iwmmediaprops_gettype.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: d878caf9-2cd2-4b1d-b204-a43fe947c4c2
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetType method [windows Media Format], GetType method [windows Media Format], IWMMediaProps interface, GetType,IWMMediaProps.GetType, IWMMediaProps, IWMMediaProps interface [windows Media Format], GetType method, IWMMediaProps::GetType, IWMMediaPropsGetType, wmformat.iwmmediaprops_gettype, wmsdkidl/IWMMediaProps::GetType
+ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMMediaProps interface, IWMMediaProps interface [windows Media Format],GetType method, IWMMediaProps.GetType, IWMMediaProps::GetType, IWMMediaPropsGetType, wmformat.iwmmediaprops_gettype, wmsdkidl/IWMMediaProps::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMMediaProps::GetType method
+# IWMMediaProps::GetType
 
 
 ## -description

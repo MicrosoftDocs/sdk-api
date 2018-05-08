@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReaderInfo.MatchesPattern
-title: IWICMetadataReaderInfo::MatchesPattern method
+title: IWICMetadataReaderInfo::MatchesPattern
 author: windows-driver-content
 description: Determines if a stream contains a metadata item pattern.
 old-location: wic\_wic_codec_iwicmetadatareaderinfo_matchespattern.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 58ac58f4-25e0-4fc4-8d2a-854bb89e4af6
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICMetadataReaderInfo, IWICMetadataReaderInfo interface [Windows Imaging Component], MatchesPattern method, IWICMetadataReaderInfo::MatchesPattern, MatchesPattern method [Windows Imaging Component], MatchesPattern method [Windows Imaging Component], IWICMetadataReaderInfo interface, MatchesPattern,IWICMetadataReaderInfo.MatchesPattern, _wic_codec_iwicmetadatareaderinfo_matchespattern, wic._wic_codec_iwicmetadatareaderinfo_matchespattern, wincodecsdk/IWICMetadataReaderInfo::MatchesPattern
+ms.keywords: IWICMetadataReaderInfo interface [Windows Imaging Component],MatchesPattern method, IWICMetadataReaderInfo.MatchesPattern, IWICMetadataReaderInfo::MatchesPattern, MatchesPattern, MatchesPattern method [Windows Imaging Component], MatchesPattern method [Windows Imaging Component],IWICMetadataReaderInfo interface, _wic_codec_iwicmetadatareaderinfo_matchespattern, wic._wic_codec_iwicmetadatareaderinfo_matchespattern, wincodecsdk/IWICMetadataReaderInfo::MatchesPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataReaderInfo::MatchesPattern method
+# IWICMetadataReaderInfo::MatchesPattern
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.LoadModule
-title: ITargetInfo::LoadModule method
+title: ITargetInfo::LoadModule
 author: windows-driver-content
 description: Loads the module from the offline installation location.
 old-location: smi\itargetinfo_loadmodule.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 863aefc6-d777-4af9-b310-adadef993bcd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITargetInfo, ITargetInfo interface [SMI], LoadModule method, ITargetInfo::LoadModule, LoadModule method [SMI], LoadModule method [SMI], ITargetInfo interface, LoadModule,ITargetInfo.LoadModule, smi.itargetinfo_loadmodule, wcmconfig/ITargetInfo::LoadModule
+ms.keywords: ITargetInfo interface [SMI],LoadModule method, ITargetInfo.LoadModule, ITargetInfo::LoadModule, LoadModule, LoadModule method [SMI], LoadModule method [SMI],ITargetInfo interface, smi.itargetinfo_loadmodule, wcmconfig/ITargetInfo::LoadModule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::LoadModule method
+# ITargetInfo::LoadModule
 
 
 ## -description

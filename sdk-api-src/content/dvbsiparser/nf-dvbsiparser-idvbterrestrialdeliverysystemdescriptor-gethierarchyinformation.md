@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetHierarchyInformation
-title: IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation method
+title: IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_gethierarchyinformation.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8ad35924-b6e0-47b1-9873-14bf48574669
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetHierarchyInformation method [Microsoft TV Technologies], GetHierarchyInformation method [Microsoft TV Technologies], IDvbTerrestrialDeliverySystemDescriptor interface, GetHierarchyInformation,IDvbTerrestrialDeliverySystemDescriptor.GetHierarchyInformation, IDvbTerrestrialDeliverySystemDescriptor, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], GetHierarchyInformation method, IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation, IDvbTerrestrialDeliverySystemDescriptorGetHierarchyInformation, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation, mstv.idvbterrestrialdeliverysystemdescriptor_gethierarchyinformation
+ms.keywords: GetHierarchyInformation, GetHierarchyInformation method [Microsoft TV Technologies], GetHierarchyInformation method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetHierarchyInformation method, IDvbTerrestrialDeliverySystemDescriptor.GetHierarchyInformation, IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation, IDvbTerrestrialDeliverySystemDescriptorGetHierarchyInformation, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation, mstv.idvbterrestrialdeliverysystemdescriptor_gethierarchyinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation method
+# IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation
 
 
 ## -description

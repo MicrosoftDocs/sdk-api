@@ -7,7 +7,7 @@ old-location: winsock\socket_security_query_template.htm
 old-project: WinSock
 ms.assetid: cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: SOCKET_SECURITY_QUERY_TEMPLATE, SOCKET_SECURITY_QUERY_TEMPLATE structure [Winsock], _SOCKET_SECURITY_QUERY_TEMPLATE, mstcpip/SOCKET_SECURITY_QUERY_TEMPLATE, winsock.socket_security_query_template
 ms.prod: windows-hardware
 ms.technology: windows-devices

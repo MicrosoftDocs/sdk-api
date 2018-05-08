@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.GetCount
-title: IXpsOMImageResourceCollection::GetCount method
+title: IXpsOMImageResourceCollection::GetCount
 author: windows-driver-content
 description: Gets the number of IXpsOMImageResource interface pointers in the collection.
 old-location: xps\ixpsomimageresourcecollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 9a5e5bfa-6c37-4008-a5be-6a7ed59631df
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging], IXpsOMImageResourceCollection interface, GetCount,IXpsOMImageResourceCollection.GetCount, IXpsOMImageResourceCollection, IXpsOMImageResourceCollection interface [XPS Documents and Packaging], GetCount method, IXpsOMImageResourceCollection::GetCount, xps.ixpsomimageresourcecollection_getcount, xpsobjectmodel/IXpsOMImageResourceCollection::GetCount
+ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMImageResourceCollection.GetCount, IXpsOMImageResourceCollection::GetCount, xps.ixpsomimageresourcecollection_getcount, xpsobjectmodel/IXpsOMImageResourceCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMImageResourceCollection::GetCount method
+# IXpsOMImageResourceCollection::GetCount
 
 
 ## -description

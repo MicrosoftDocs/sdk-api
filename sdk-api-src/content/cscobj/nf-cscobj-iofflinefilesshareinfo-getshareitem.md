@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesShareInfo.GetShareItem
-title: IOfflineFilesShareInfo::GetShareItem method
+title: IOfflineFilesShareInfo::GetShareItem
 author: windows-driver-content
 description: Finds the cache item representing the closest ancestor share to the item.
 old-location: of\iofflinefilesshareinfo_getshareitem.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: fd4f92fb-1147-4be4-a61d-04f2f371b6c6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetShareItem method [Offline Files], GetShareItem method [Offline Files], IOfflineFilesShareInfo interface, GetShareItem,IOfflineFilesShareInfo.GetShareItem, IOfflineFilesShareInfo, IOfflineFilesShareInfo interface [Offline Files], GetShareItem method, IOfflineFilesShareInfo::GetShareItem, cscobj/IOfflineFilesShareInfo::GetShareItem, of.iofflinefilesshareinfo_getshareitem
+ms.keywords: GetShareItem, GetShareItem method [Offline Files], GetShareItem method [Offline Files],IOfflineFilesShareInfo interface, IOfflineFilesShareInfo interface [Offline Files],GetShareItem method, IOfflineFilesShareInfo.GetShareItem, IOfflineFilesShareInfo::GetShareItem, cscobj/IOfflineFilesShareInfo::GetShareItem, of.iofflinefilesshareinfo_getshareitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesShareInfo::GetShareItem method
+# IOfflineFilesShareInfo::GetShareItem
 
 
 ## -description

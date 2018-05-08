@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxGetBackStyle
-title: ITextHost::TxGetBackStyle method
+title: ITextHost::TxGetBackStyle
 author: windows-driver-content
 description: Requests the background style of the text host.
 old-location: controls\ITextHost_TxGetBackStyle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetbackstyle.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxGetBackStyle method, ITextHost::TxGetBackStyle, TXTBACK_OPAQUE, TXTBACK_TRANSPARENT, TxGetBackStyle method [Windows Controls], TxGetBackStyle method [Windows Controls], ITextHost interface, TxGetBackStyle,ITextHost.TxGetBackStyle, _win32_ITextHost_TxGetBackStyle, _win32_ITextHost_TxGetBackStyle_cpp, controls.ITextHost_TxGetBackStyle, controls._win32_ITextHost_TxGetBackStyle, textserv/ITextHost::TxGetBackStyle
+ms.date: 4/27/2018
+ms.keywords: ITextHost interface [Windows Controls],TxGetBackStyle method, ITextHost.TxGetBackStyle, ITextHost::TxGetBackStyle, TXTBACK_OPAQUE, TXTBACK_TRANSPARENT, TxGetBackStyle, TxGetBackStyle method [Windows Controls], TxGetBackStyle method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetBackStyle, _win32_ITextHost_TxGetBackStyle_cpp, controls.ITextHost_TxGetBackStyle, controls._win32_ITextHost_TxGetBackStyle, textserv/ITextHost::TxGetBackStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxGetBackStyle method
+# ITextHost::TxGetBackStyle
 
 
 ## -description

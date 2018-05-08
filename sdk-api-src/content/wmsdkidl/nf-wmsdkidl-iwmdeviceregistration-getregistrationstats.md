@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetRegistrationStats
-title: IWMDeviceRegistration::GetRegistrationStats method
+title: IWMDeviceRegistration::GetRegistrationStats
 author: windows-driver-content
 description: The GetRegistrationStats method retrieves the number of devices in the device registration database that have a specified type.
 old-location: wmformat\iwmdeviceregistration_getregistrationstats.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 56c5b2c7-46c2-42e4-a7d4-f1b3e56ffbcb
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetRegistrationStats method [windows Media Format], GetRegistrationStats method [windows Media Format], IWMDeviceRegistration interface, GetRegistrationStats,IWMDeviceRegistration.GetRegistrationStats, IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], GetRegistrationStats method, IWMDeviceRegistration::GetRegistrationStats, IWMDeviceRegistrationGetRegistrationStats, wmformat.iwmdeviceregistration_getregistrationstats, wmsdkidl/IWMDeviceRegistration::GetRegistrationStats
+ms.keywords: GetRegistrationStats, GetRegistrationStats method [windows Media Format], GetRegistrationStats method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetRegistrationStats method, IWMDeviceRegistration.GetRegistrationStats, IWMDeviceRegistration::GetRegistrationStats, IWMDeviceRegistrationGetRegistrationStats, wmformat.iwmdeviceregistration_getregistrationstats, wmsdkidl/IWMDeviceRegistration::GetRegistrationStats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDeviceRegistration::GetRegistrationStats method
+# IWMDeviceRegistration::GetRegistrationStats
 
 
 ## -description

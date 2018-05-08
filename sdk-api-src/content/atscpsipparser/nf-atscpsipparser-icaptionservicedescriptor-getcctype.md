@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetCCType
-title: ICaptionServiceDescriptor::GetCCType method
+title: ICaptionServiceDescriptor::GetCCType
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor_getcctype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d245118a-3ff2-4ea7-9ff9-f8c1991f2073
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCCType method [Microsoft TV Technologies], GetCCType method [Microsoft TV Technologies], ICaptionServiceDescriptor interface, GetCCType,ICaptionServiceDescriptor.GetCCType, ICaptionServiceDescriptor, ICaptionServiceDescriptor interface [Microsoft TV Technologies], GetCCType method, ICaptionServiceDescriptor::GetCCType, ICaptionServiceDescriptorGetCCType, atscpsipparser/ICaptionServiceDescriptor::GetCCType, mstv.icaptionservicedescriptor_getcctype
+ms.keywords: GetCCType, GetCCType method [Microsoft TV Technologies], GetCCType method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetCCType method, ICaptionServiceDescriptor.GetCCType, ICaptionServiceDescriptor::GetCCType, ICaptionServiceDescriptorGetCCType, atscpsipparser/ICaptionServiceDescriptor::GetCCType, mstv.icaptionservicedescriptor_getcctype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICaptionServiceDescriptor::GetCCType method
+# ICaptionServiceDescriptor::GetCCType
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetRelativePosition
-title: IMixerPinConfig::GetRelativePosition method
+title: IMixerPinConfig::GetRelativePosition
 author: windows-driver-content
 description: The GetRelativePosition method retrieves the position of the stream in the display window.
 old-location: dshow\imixerpinconfig_getrelativeposition.htm
 old-project: DirectShow
 ms.assetid: 0a2bcc3e-361d-4374-9444-717287c07116
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetRelativePosition method [DirectShow], GetRelativePosition method [DirectShow], IMixerPinConfig interface, GetRelativePosition,IMixerPinConfig.GetRelativePosition, IMixerPinConfig, IMixerPinConfig interface [DirectShow], GetRelativePosition method, IMixerPinConfig::GetRelativePosition, IMixerPinConfigGetRelativePosition, dshow.imixerpinconfig_getrelativeposition, mpconfig/IMixerPinConfig::GetRelativePosition
+ms.date: 4/30/2018
+ms.keywords: GetRelativePosition, GetRelativePosition method [DirectShow], GetRelativePosition method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetRelativePosition method, IMixerPinConfig.GetRelativePosition, IMixerPinConfig::GetRelativePosition, IMixerPinConfigGetRelativePosition, dshow.imixerpinconfig_getrelativeposition, mpconfig/IMixerPinConfig::GetRelativePosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMixerPinConfig::GetRelativePosition method
+# IMixerPinConfig::GetRelativePosition
 
 
 ## -description

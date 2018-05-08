@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAllocatorProperties.SetBufferSize
-title: ITAllocatorProperties::SetBufferSize method
+title: ITAllocatorProperties::SetBufferSize
 author: windows-driver-content
 description: The SetBufferSize method sets the size of the allocator buffer.
 old-location: tapi3\itallocatorproperties_setbuffersize.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 5aea70fd-2078-4f51-909f-c51cb997f5ea
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAllocatorProperties, ITAllocatorProperties interface [TAPI 2.2], SetBufferSize method, ITAllocatorProperties::SetBufferSize, SetBufferSize method [TAPI 2.2], SetBufferSize method [TAPI 2.2], ITAllocatorProperties interface, SetBufferSize,ITAllocatorProperties.SetBufferSize, _tapi3_itallocatorproperties_setbuffersize, tapi3.itallocatorproperties_setbuffersize, tapi3ds/ITAllocatorProperties::SetBufferSize
+ms.keywords: ITAllocatorProperties interface [TAPI 2.2],SetBufferSize method, ITAllocatorProperties.SetBufferSize, ITAllocatorProperties::SetBufferSize, SetBufferSize, SetBufferSize method [TAPI 2.2], SetBufferSize method [TAPI 2.2],ITAllocatorProperties interface, _tapi3_itallocatorproperties_setbuffersize, tapi3.itallocatorproperties_setbuffersize, tapi3ds/ITAllocatorProperties::SetBufferSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAllocatorProperties::SetBufferSize method
+# ITAllocatorProperties::SetBufferSize
 
 
 ## -description

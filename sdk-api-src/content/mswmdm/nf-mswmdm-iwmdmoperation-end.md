@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.End
-title: IWMDMOperation::End method
+title: IWMDMOperation::End
 author: windows-driver-content
 description: The End method indicates that a read or write operation is finished, whether successful or not, and it returns a completion code.
 old-location: wmdm\iwmdmoperation_end.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: f1a3f0b7-033d-4e93-aaca-43db88a9b705
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: End method [windows Media Device Manager], End method [windows Media Device Manager], IWMDMOperation interface, End,IWMDMOperation.End, IWMDMOperation, IWMDMOperation interface [windows Media Device Manager], End method, IWMDMOperation::End, IWMDMOperationEnd, mswmdm/IWMDMOperation::End, wmdm.iwmdmoperation_end
+ms.keywords: End, End method [windows Media Device Manager], End method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],End method, IWMDMOperation.End, IWMDMOperation::End, IWMDMOperationEnd, mswmdm/IWMDMOperation::End, wmdm.iwmdmoperation_end
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMOperation::End method
+# IWMDMOperation::End
 
 
 ## -description

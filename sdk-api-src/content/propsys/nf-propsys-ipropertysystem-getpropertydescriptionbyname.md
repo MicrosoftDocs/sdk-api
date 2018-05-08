@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertySystem.GetPropertyDescriptionByName
-title: IPropertySystem::GetPropertyDescriptionByName method
+title: IPropertySystem::GetPropertyDescriptionByName
 author: windows-driver-content
 description: Gets an instance of the subsystem object that implements IPropertyDescription, to obtain the property description for a given canonical name.
 old-location: properties\IPropertySystem_GetPropertyDescriptionByName.htm
 old-project: properties
 ms.assetid: ec1b3ded-ad7f-4830-92a2-35ad5691aa10
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetPropertyDescriptionByName method [Windows Properties], GetPropertyDescriptionByName method [Windows Properties], IPropertySystem interface, GetPropertyDescriptionByName,IPropertySystem.GetPropertyDescriptionByName, IPropertySystem, IPropertySystem interface [Windows Properties], GetPropertyDescriptionByName method, IPropertySystem::GetPropertyDescriptionByName, properties.IPropertySystem_GetPropertyDescriptionByName, propsys/IPropertySystem::GetPropertyDescriptionByName, shell.IPropertySystem_GetPropertyDescriptionByName, shell_IPropertySystem_GetPropertyDescriptionByName
+ms.date: 4/27/2018
+ms.keywords: GetPropertyDescriptionByName, GetPropertyDescriptionByName method [Windows Properties], GetPropertyDescriptionByName method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescriptionByName method, IPropertySystem.GetPropertyDescriptionByName, IPropertySystem::GetPropertyDescriptionByName, properties.IPropertySystem_GetPropertyDescriptionByName, propsys/IPropertySystem::GetPropertyDescriptionByName, shell.IPropertySystem_GetPropertyDescriptionByName, shell_IPropertySystem_GetPropertyDescriptionByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertySystem::GetPropertyDescriptionByName method
+# IPropertySystem::GetPropertyDescriptionByName
 
 
 ## -description

@@ -88,7 +88,7 @@ Type: <b>DWORD</b>
 The IPv4 address.
 
 
-#### - dwType
+### -field dwType
 
 Type: <b>DWORD</b>
 
@@ -147,6 +147,13 @@ A static ARP type.
 </tr>
 </table>
  
+
+
+### -field Type
+
+ 
+
+
 
 
 ## -remarks

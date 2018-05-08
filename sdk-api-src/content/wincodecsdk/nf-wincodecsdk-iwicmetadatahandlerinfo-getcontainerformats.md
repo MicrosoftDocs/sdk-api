@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.GetContainerFormats
-title: IWICMetadataHandlerInfo::GetContainerFormats method
+title: IWICMetadataHandlerInfo::GetContainerFormats
 author: windows-driver-content
 description: Retrieves the container formats supported by the metadata handler.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getcontainerformats.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 46d5246d-4ef5-457c-b36b-68e0f956952b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetContainerFormats method [Windows Imaging Component], GetContainerFormats method [Windows Imaging Component], IWICMetadataHandlerInfo interface, GetContainerFormats,IWICMetadataHandlerInfo.GetContainerFormats, IWICMetadataHandlerInfo, IWICMetadataHandlerInfo interface [Windows Imaging Component], GetContainerFormats method, IWICMetadataHandlerInfo::GetContainerFormats, _wic_codec_iwicmetadatahandlerinfo_getcontainerformats, wic._wic_codec_iwicmetadatahandlerinfo_getcontainerformats, wincodecsdk/IWICMetadataHandlerInfo::GetContainerFormats
+ms.keywords: GetContainerFormats, GetContainerFormats method [Windows Imaging Component], GetContainerFormats method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetContainerFormats method, IWICMetadataHandlerInfo.GetContainerFormats, IWICMetadataHandlerInfo::GetContainerFormats, _wic_codec_iwicmetadatahandlerinfo_getcontainerformats, wic._wic_codec_iwicmetadatahandlerinfo_getcontainerformats, wincodecsdk/IWICMetadataHandlerInfo::GetContainerFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataHandlerInfo::GetContainerFormats method
+# IWICMetadataHandlerInfo::GetContainerFormats
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchNotifyInlineSite.OnItemIndexedStatusChange
-title: ISearchNotifyInlineSite::OnItemIndexedStatusChange method
+title: ISearchNotifyInlineSite::OnItemIndexedStatusChange
 author: windows-driver-content
 description: Called by the search service to notify the client when the status of a particular document or item changes.
 old-location: search\_search_ISearchNotifyInlineSite_OnItemIndexedStatusChange.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\onitemindexedstatuschange.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchNotifyInlineSite, ISearchNotifyInlineSite interface [search], OnItemIndexedStatusChange method, ISearchNotifyInlineSite::OnItemIndexedStatusChange, OnItemIndexedStatusChange method [search], OnItemIndexedStatusChange method [search], ISearchNotifyInlineSite interface, OnItemIndexedStatusChange,ISearchNotifyInlineSite.OnItemIndexedStatusChange, _search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, search._search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, searchapi/ISearchNotifyInlineSite::OnItemIndexedStatusChange
+ms.date: 5/4/2018
+ms.keywords: ISearchNotifyInlineSite interface [search],OnItemIndexedStatusChange method, ISearchNotifyInlineSite.OnItemIndexedStatusChange, ISearchNotifyInlineSite::OnItemIndexedStatusChange, OnItemIndexedStatusChange, OnItemIndexedStatusChange method [search], OnItemIndexedStatusChange method [search],ISearchNotifyInlineSite interface, _search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, search._search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, searchapi/ISearchNotifyInlineSite::OnItemIndexedStatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchNotifyInlineSite::OnItemIndexedStatusChange method
+# ISearchNotifyInlineSite::OnItemIndexedStatusChange
 
 
 ## -description

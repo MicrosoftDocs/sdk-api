@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.FindManifestResourceByName
-title: IMetaDataAssemblyImport::FindManifestResourceByName method
+title: IMetaDataAssemblyImport::FindManifestResourceByName
 author: windows-driver-content
 description: Gets a pointer to the manifest resource with the specified name.
 old-location: winrt\imetadataassemblyimport_findmanifestresourcebyname.htm
 old-project: WinRT
 ms.assetid: a72e4c1f-505d-4672-8baa-fbe2243b8ca0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: FindManifestResourceByName method [Windows Runtime], FindManifestResourceByName method [Windows Runtime], IMetaDataAssemblyImport interface, FindManifestResourceByName,IMetaDataAssemblyImport.FindManifestResourceByName, IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], FindManifestResourceByName method, IMetaDataAssemblyImport::FindManifestResourceByName, rometadataapi/IMetaDataAssemblyImport::FindManifestResourceByName, winrt.imetadataassemblyimport_findmanifestresourcebyname
+ms.date: 5/4/2018
+ms.keywords: FindManifestResourceByName, FindManifestResourceByName method [Windows Runtime], FindManifestResourceByName method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],FindManifestResourceByName method, IMetaDataAssemblyImport.FindManifestResourceByName, IMetaDataAssemblyImport::FindManifestResourceByName, rometadataapi/IMetaDataAssemblyImport::FindManifestResourceByName, winrt.imetadataassemblyimport_findmanifestresourcebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataAssemblyImport::FindManifestResourceByName method
+# IMetaDataAssemblyImport::FindManifestResourceByName
 
 
 ## -description

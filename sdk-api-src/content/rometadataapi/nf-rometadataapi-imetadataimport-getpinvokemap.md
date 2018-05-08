@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetPinvokeMap
-title: IMetaDataImport::GetPinvokeMap method
+title: IMetaDataImport::GetPinvokeMap
 author: windows-driver-content
 description: Gets a ModuleRef token to represent the target assembly of a PInvoke call.
 old-location: winrt\imetadataimport_getpinvokemap.htm
 old-project: WinRT
 ms.assetid: bf83785d-ba4f-4a11-84ee-92d010c8a1fc
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetPinvokeMap method [Windows Runtime], GetPinvokeMap method [Windows Runtime], IMetaDataImport interface, GetPinvokeMap,IMetaDataImport.GetPinvokeMap, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetPinvokeMap method, IMetaDataImport::GetPinvokeMap, rometadataapi/IMetaDataImport::GetPinvokeMap, winrt.imetadataimport_getpinvokemap
+ms.date: 5/4/2018
+ms.keywords: GetPinvokeMap, GetPinvokeMap method [Windows Runtime], GetPinvokeMap method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetPinvokeMap method, IMetaDataImport.GetPinvokeMap, IMetaDataImport::GetPinvokeMap, rometadataapi/IMetaDataImport::GetPinvokeMap, winrt.imetadataimport_getpinvokemap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetPinvokeMap method
+# IMetaDataImport::GetPinvokeMap
 
 
 ## -description

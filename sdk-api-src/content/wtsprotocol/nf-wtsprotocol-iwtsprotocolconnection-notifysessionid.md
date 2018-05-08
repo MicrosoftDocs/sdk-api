@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.NotifySessionId
-title: IWTSProtocolConnection::NotifySessionId method
+title: IWTSProtocolConnection::NotifySessionId
 author: windows-driver-content
 description: IWTSProtocolConnection::NotifySessionId is no longer available. Instead, use IWRdsProtocolConnection::NotifySessionId.
 old-location: termserv\iwtsprotocolconnection_notifysessionid.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 5a545f66-7143-419d-9e0c-a96070472ce5
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], NotifySessionId method, IWTSProtocolConnection::NotifySessionId, NotifySessionId method [Remote Desktop Services], NotifySessionId method [Remote Desktop Services], IWTSProtocolConnection interface, NotifySessionId,IWTSProtocolConnection.NotifySessionId, termserv.iwtsprotocolconnection_notifysessionid, wtsprotocol/IWTSProtocolConnection::NotifySessionId
+ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],NotifySessionId method, IWTSProtocolConnection.NotifySessionId, IWTSProtocolConnection::NotifySessionId, NotifySessionId, NotifySessionId method [Remote Desktop Services], NotifySessionId method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_notifysessionid, wtsprotocol/IWTSProtocolConnection::NotifySessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolConnection::NotifySessionId method
+# IWTSProtocolConnection::NotifySessionId
 
 
 ## -description

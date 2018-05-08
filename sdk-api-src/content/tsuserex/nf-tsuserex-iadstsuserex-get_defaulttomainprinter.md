@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_DefaultToMainPrinter
-title: IADsTSUserEx::get_DefaultToMainPrinter method
+title: IADsTSUserEx::get_DefaultToMainPrinter
 author: windows-driver-content
 description: A value that specifies whether to print automatically to the client's default printer.
 old-location: termserv\iadstsuserex_defaulttomainprinter.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: ec9dd6b1-ba1e-4a69-b488-fff2e1fd994f
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DefaultToMainPrinter property [Remote Desktop Services], DefaultToMainPrinter property [Remote Desktop Services], IADsTSUserEx interface, IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], DefaultToMainPrinter property, IADsTSUserEx.DefaultToMainPrinter, IADsTSUserEx::get_DefaultToMainPrinter, IADsTSUserEx::put_DefaultToMainPrinter, get_DefaultToMainPrinter,IADsTSUserEx.get_DefaultToMainPrinter, termserv.iadstsuserex_defaulttomainprinter, tsuserex/IADsTSUserEx::DefaultToMainPrinter, tsuserex/IADsTSUserEx::get_DefaultToMainPrinter, tsuserex/IADsTSUserEx::put_DefaultToMainPrinter
+ms.keywords: DefaultToMainPrinter property [Remote Desktop Services], DefaultToMainPrinter property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],DefaultToMainPrinter property, IADsTSUserEx.DefaultToMainPrinter, IADsTSUserEx.get_DefaultToMainPrinter, IADsTSUserEx::DefaultToMainPrinter, IADsTSUserEx::get_DefaultToMainPrinter, IADsTSUserEx::put_DefaultToMainPrinter, get_DefaultToMainPrinter, termserv.iadstsuserex_defaulttomainprinter, tsuserex/IADsTSUserEx::DefaultToMainPrinter, tsuserex/IADsTSUserEx::get_DefaultToMainPrinter, tsuserex/IADsTSUserEx::put_DefaultToMainPrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IADsTSUserEx::get_DefaultToMainPrinter method
+# IADsTSUserEx::get_DefaultToMainPrinter
 
 
 ## -description

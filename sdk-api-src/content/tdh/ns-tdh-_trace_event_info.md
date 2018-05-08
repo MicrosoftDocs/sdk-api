@@ -131,6 +131,26 @@ Reserved.
 Reserved.
 
 
+### -field EventNameOffset
+
+ 
+
+
+### -field ActivityIDNameOffset
+
+The offset from the beginning of this structure to a null-terminated Unicode string that contains the property name of the activity identifier in the MOF class. Supported for classic ETW events only.
+
+
+### -field EventAttributesOffset
+
+ 
+
+
+### -field RelatedActivityIDNameOffset
+
+The offset from the beginning of this structure to a null-terminated Unicode string that contains the property name of the related activity identifier in the MOF class. Supported for legacy ETW events only.
+
+
 ### -field PropertyCount
 
 The number of elements in the <b>EventPropertyInfoArray</b> array. 
@@ -139,6 +159,11 @@ The number of elements in the <b>EventPropertyInfoArray</b> array.
 ### -field TopLevelPropertyCount
 
 The number of properties in the <b>EventPropertyInfoArray</b> array that are top-level properties. This number does not include members of structures. Top-level properties come before all member properties in the array.
+
+
+### -field Flags
+
+Reserved.
 
 
 ### -field Reserved
@@ -154,21 +179,6 @@ A 28-bit value associated with the event metadata. This value can be used by the
 ### -field EventPropertyInfoArray
 
 An array of <a href="https://msdn.microsoft.com/06b82b31-1f0e-45d5-88ec-9b9835af10df">EVENT_PROPERTY_INFO</a> structures that provides information about each property of the event's user data.
-
-
-#### - ActivityIDNameOffset
-
-The offset from the beginning of this structure to a null-terminated Unicode string that contains the property name of the activity identifier in the MOF class. Supported for classic ETW events only.
-
-
-#### - Flags
-
-Reserved.
-
-
-#### - RelatedActivityIDNameOffset
-
-The offset from the beginning of this structure to a null-terminated Unicode string that contains the property name of the related activity identifier in the MOF class. Supported for legacy ETW events only.
 
 
 ## -remarks

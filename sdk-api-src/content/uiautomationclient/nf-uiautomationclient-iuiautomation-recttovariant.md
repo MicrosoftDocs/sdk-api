@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RectToVariant
-title: IUIAutomation::RectToVariant method
+title: IUIAutomation::RectToVariant
 author: windows-driver-content
 description: Creates a VARIANT that contains the coordinates of a rectangle.
 old-location: winauto\uiauto_IUIAutomation_RectToVariant.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: abfb2bb1-7594-4f32-9188-05745006ae18
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomation, IUIAutomation interface [Windows Accessibility], RectToVariant method, IUIAutomation::RectToVariant, RectToVariant method [Windows Accessibility], RectToVariant method [Windows Accessibility], IUIAutomation interface, RectToVariant,IUIAutomation.RectToVariant, uiauto.uiauto_IUIAutomation_RectToVariant, uiauto_IUIAutomation_RectToVariant, uiautomationclient/IUIAutomation::RectToVariant, winauto.uiauto_IUIAutomation_RectToVariant
+ms.keywords: IUIAutomation interface [Windows Accessibility],RectToVariant method, IUIAutomation.RectToVariant, IUIAutomation::RectToVariant, RectToVariant, RectToVariant method [Windows Accessibility], RectToVariant method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RectToVariant, uiauto_IUIAutomation_RectToVariant, uiautomationclient/IUIAutomation::RectToVariant, winauto.uiauto_IUIAutomation_RectToVariant
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::RectToVariant method
+# IUIAutomation::RectToVariant
 
 
 ## -description

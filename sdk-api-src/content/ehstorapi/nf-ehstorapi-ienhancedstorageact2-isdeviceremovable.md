@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT2.IsDeviceRemovable
-title: IEnhancedStorageACT2::IsDeviceRemovable method
+title: IEnhancedStorageACT2::IsDeviceRemovable
 author: windows-driver-content
 description: IEnhancedStorageACT2::IsDeviceRemovable method returns information that indicates if the device associated with the ACT is removable.
 old-location: enstor\ienhancedstorageact2_isdeviceremovable.htm
@@ -8,7 +8,7 @@ old-project: enstor
 ms.assetid: 1118756d-56d7-4f59-8e2a-2cb970a7a62a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEnhancedStorageACT2, IEnhancedStorageACT2 interface [Enhanced Storage], IsDeviceRemovable method, IEnhancedStorageACT2::IsDeviceRemovable, IsDeviceRemovable method [Enhanced Storage], IsDeviceRemovable method [Enhanced Storage], IEnhancedStorageACT2 interface, IsDeviceRemovable,IEnhancedStorageACT2.IsDeviceRemovable, ehstorapi/IEnhancedStorageACT2::IsDeviceRemovable, enstor.ienhancedstorageact2_isdeviceremovable
+ms.keywords: IEnhancedStorageACT2 interface [Enhanced Storage],IsDeviceRemovable method, IEnhancedStorageACT2.IsDeviceRemovable, IEnhancedStorageACT2::IsDeviceRemovable, IsDeviceRemovable, IsDeviceRemovable method [Enhanced Storage], IsDeviceRemovable method [Enhanced Storage],IEnhancedStorageACT2 interface, ehstorapi/IEnhancedStorageACT2::IsDeviceRemovable, enstor.ienhancedstorageact2_isdeviceremovable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEnhancedStorageACT2::IsDeviceRemovable method
+# IEnhancedStorageACT2::IsDeviceRemovable
 
 
 ## -description

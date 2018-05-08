@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.ClearTable
-title: IUIAutomationProxyFactoryMapping::ClearTable method
+title: IUIAutomationProxyFactoryMapping::ClearTable
 author: windows-driver-content
 description: Removes all entries from the proxy factory table.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_ClearTable.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 00f16e39-557c-4e55-bfbf-49dc0d97ab37
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ClearTable method [Windows Accessibility], ClearTable method [Windows Accessibility], IUIAutomationProxyFactoryMapping interface, ClearTable,IUIAutomationProxyFactoryMapping.ClearTable, IUIAutomationProxyFactoryMapping, IUIAutomationProxyFactoryMapping interface [Windows Accessibility], ClearTable method, IUIAutomationProxyFactoryMapping::ClearTable, uiauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable, uiauto_IUIAutomationProxyFactoryMapping_ClearTable, uiautomationclient/IUIAutomationProxyFactoryMapping::ClearTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable
+ms.keywords: ClearTable, ClearTable method [Windows Accessibility], ClearTable method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],ClearTable method, IUIAutomationProxyFactoryMapping.ClearTable, IUIAutomationProxyFactoryMapping::ClearTable, uiauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable, uiauto_IUIAutomationProxyFactoryMapping_ClearTable, uiautomationclient/IUIAutomationProxyFactoryMapping::ClearTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationProxyFactoryMapping::ClearTable method
+# IUIAutomationProxyFactoryMapping::ClearTable
 
 
 ## -description

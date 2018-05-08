@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetExpiryDate
-title: IESLicenseRenewalResultEvent::GetExpiryDate method
+title: IESLicenseRenewalResultEvent::GetExpiryDate
 author: windows-driver-content
 description: Gets the expiry date of a renewed protected-content license from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent_getexpirydate.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b237eeb3-d04f-432a-8c7a-538882b5ad02
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetExpiryDate method [DirectShow], GetExpiryDate method [DirectShow], IESLicenseRenewalResultEvent interface, GetExpiryDate,IESLicenseRenewalResultEvent.GetExpiryDate, IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], GetExpiryDate method, IESLicenseRenewalResultEvent::GetExpiryDate, mstv.ieslicenserenewalresultevent_getexpirydate, tuner/IESLicenseRenewalResultEvent::GetExpiryDate
+ms.keywords: GetExpiryDate, GetExpiryDate method [DirectShow], GetExpiryDate method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetExpiryDate method, IESLicenseRenewalResultEvent.GetExpiryDate, IESLicenseRenewalResultEvent::GetExpiryDate, mstv.ieslicenserenewalresultevent_getexpirydate, tuner/IESLicenseRenewalResultEvent::GetExpiryDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESLicenseRenewalResultEvent::GetExpiryDate method
+# IESLicenseRenewalResultEvent::GetExpiryDate
 
 
 ## -description

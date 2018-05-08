@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.RemoveService
-title: IUpdateServiceManager::RemoveService method
+title: IUpdateServiceManager::RemoveService
 author: windows-driver-content
 description: Removes a service registration from Windows Update Agent (WUA).
 old-location: wua\iupdateservicemanager_removeservice.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: fedd0979-1cc1-40c7-93d1-ade2f069ee76
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateServiceManager, IUpdateServiceManager interface [Windows Update Agent], RemoveService method, IUpdateServiceManager::RemoveService, RemoveService method [Windows Update Agent], RemoveService method [Windows Update Agent], IUpdateServiceManager interface, RemoveService,IUpdateServiceManager.RemoveService, wua.iupdateservicemanager_removeservice, wuapi/IUpdateServiceManager::RemoveService
+ms.keywords: IUpdateServiceManager interface [Windows Update Agent],RemoveService method, IUpdateServiceManager.RemoveService, IUpdateServiceManager::RemoveService, RemoveService, RemoveService method [Windows Update Agent], RemoveService method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_removeservice, wuapi/IUpdateServiceManager::RemoveService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateServiceManager::RemoveService method
+# IUpdateServiceManager::RemoveService
 
 
 ## -description

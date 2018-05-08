@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbFilterPluginStore.DeleteProperties
-title: ITsSbFilterPluginStore::DeleteProperties method
+title: ITsSbFilterPluginStore::DeleteProperties
 author: windows-driver-content
 description: Deletes a property.
 old-location: termserv\itssbfilterpluginstore_deleteproperties.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 25c2ab34-0879-4dda-9ccb-fb5d7baea61c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DeleteProperties method [Remote Desktop Services], DeleteProperties method [Remote Desktop Services], ITsSbFilterPluginStore interface, DeleteProperties,ITsSbFilterPluginStore.DeleteProperties, ITsSbFilterPluginStore, ITsSbFilterPluginStore interface [Remote Desktop Services], DeleteProperties method, ITsSbFilterPluginStore::DeleteProperties, sbtsv/ITsSbFilterPluginStore::DeleteProperties, termserv.itssbfilterpluginstore_deleteproperties
+ms.keywords: DeleteProperties, DeleteProperties method [Remote Desktop Services], DeleteProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, ITsSbFilterPluginStore interface [Remote Desktop Services],DeleteProperties method, ITsSbFilterPluginStore.DeleteProperties, ITsSbFilterPluginStore::DeleteProperties, sbtsv/ITsSbFilterPluginStore::DeleteProperties, termserv.itssbfilterpluginstore_deleteproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbFilterPluginStore::DeleteProperties method
+# ITsSbFilterPluginStore::DeleteProperties
 
 
 ## -description

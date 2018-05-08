@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential2.GetUserSid
-title: ICredentialProviderCredential2::GetUserSid method
+title: ICredentialProviderCredential2::GetUserSid
 author: windows-driver-content
 description: Retrieves the security identifier (SID) of the user that is associated with this credential.
 old-location: shell\ICredentialProviderCredential2_GetUserSid.htm
 old-project: shell
 ms.assetid: 8BCB9019-40C0-4026-B3C9-ECA02B9AC871
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetUserSid method [Windows Shell], GetUserSid method [Windows Shell], ICredentialProviderCredential2 interface, GetUserSid,ICredentialProviderCredential2.GetUserSid, ICredentialProviderCredential2, ICredentialProviderCredential2 interface [Windows Shell], GetUserSid method, ICredentialProviderCredential2::GetUserSid, credentialprovider/ICredentialProviderCredential2::GetUserSid, shell.ICredentialProviderCredential2_GetUserSid
+ms.date: 5/3/2018
+ms.keywords: GetUserSid, GetUserSid method [Windows Shell], GetUserSid method [Windows Shell],ICredentialProviderCredential2 interface, ICredentialProviderCredential2 interface [Windows Shell],GetUserSid method, ICredentialProviderCredential2.GetUserSid, ICredentialProviderCredential2::GetUserSid, credentialprovider/ICredentialProviderCredential2::GetUserSid, shell.ICredentialProviderCredential2_GetUserSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProviderCredential2::GetUserSid method
+# ICredentialProviderCredential2::GetUserSid
 
 
 ## -description

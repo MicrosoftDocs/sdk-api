@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.GetPartitionName
-title: ICOMAdminCatalog2::GetPartitionName method
+title: ICOMAdminCatalog2::GetPartitionName
 author: windows-driver-content
 description: Retrieves the name of the specified COM+ application.
 old-location: cos\icomadmincatalog2_getpartitionname.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 08d3efb2-1e2e-42e3-aefe-644db3b480f4
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetPartitionName method [COM+], GetPartitionName method [COM+], ICOMAdminCatalog2 interface, GetPartitionName,ICOMAdminCatalog2.GetPartitionName, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], GetPartitionName method, ICOMAdminCatalog2::GetPartitionName, _cos_icomadmincatalog2_GetPartitionName, comadmin/ICOMAdminCatalog2::GetPartitionName, cos.icomadmincatalog2_getpartitionname
+ms.keywords: GetPartitionName, GetPartitionName method [COM+], GetPartitionName method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetPartitionName method, ICOMAdminCatalog2.GetPartitionName, ICOMAdminCatalog2::GetPartitionName, _cos_icomadmincatalog2_GetPartitionName, comadmin/ICOMAdminCatalog2::GetPartitionName, cos.icomadmincatalog2_getpartitionname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::GetPartitionName method
+# ICOMAdminCatalog2::GetPartitionName
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetCertificate
-title: ID3D11CryptoSession::GetCertificate method
+title: ID3D11CryptoSession::GetCertificate
 author: windows-driver-content
 description: Gets the driver's certificate chain.
 old-location: mf\id3d11cryptosession_getcertificate.htm
 old-project: medfound
 ms.assetid: D6407570-62C0-45D0-9BCB-41EA007D86A6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetCertificate method [Media Foundation], GetCertificate method [Media Foundation], ID3D11CryptoSession interface, GetCertificate,ID3D11CryptoSession.GetCertificate, ID3D11CryptoSession, ID3D11CryptoSession interface [Media Foundation], GetCertificate method, ID3D11CryptoSession::GetCertificate, d3d11/ID3D11CryptoSession::GetCertificate, mf.id3d11cryptosession_getcertificate
+ms.date: 5/3/2018
+ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCertificate method, ID3D11CryptoSession.GetCertificate, ID3D11CryptoSession::GetCertificate, d3d11/ID3D11CryptoSession::GetCertificate, mf.id3d11cryptosession_getcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11CryptoSession::GetCertificate method
+# ID3D11CryptoSession::GetCertificate
 
 
 ## -description

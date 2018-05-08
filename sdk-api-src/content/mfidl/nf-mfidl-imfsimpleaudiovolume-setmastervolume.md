@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.SetMasterVolume
-title: IMFSimpleAudioVolume::SetMasterVolume method
+title: IMFSimpleAudioVolume::SetMasterVolume
 author: windows-driver-content
 description: Sets the master volume level.
 old-location: mf\imfsimpleaudiovolume_setmastervolume.htm
 old-project: medfound
 ms.assetid: 42b51817-3c2a-463a-a533-19c327c57354
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 42b51817-3c2a-463a-a533-19c327c57354, IMFSimpleAudioVolume, IMFSimpleAudioVolume interface [Media Foundation], SetMasterVolume method, IMFSimpleAudioVolume::SetMasterVolume, SetMasterVolume method [Media Foundation], SetMasterVolume method [Media Foundation], IMFSimpleAudioVolume interface, SetMasterVolume,IMFSimpleAudioVolume.SetMasterVolume, mf.imfsimpleaudiovolume_setmastervolume, mfidl/IMFSimpleAudioVolume::SetMasterVolume
+ms.date: 5/3/2018
+ms.keywords: 42b51817-3c2a-463a-a533-19c327c57354, IMFSimpleAudioVolume interface [Media Foundation],SetMasterVolume method, IMFSimpleAudioVolume.SetMasterVolume, IMFSimpleAudioVolume::SetMasterVolume, SetMasterVolume, SetMasterVolume method [Media Foundation], SetMasterVolume method [Media Foundation],IMFSimpleAudioVolume interface, mf.imfsimpleaudiovolume_setmastervolume, mfidl/IMFSimpleAudioVolume::SetMasterVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSimpleAudioVolume::SetMasterVolume method
+# IMFSimpleAudioVolume::SetMasterVolume
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.GetLevelRange
-title: IPerChannelDbLevel::GetLevelRange method
+title: IPerChannelDbLevel::GetLevelRange
 author: windows-driver-content
 description: The GetLevelRange method gets the range, in decibels, of the volume level of the specified channel.
 old-location: coreaudio\iperchanneldblevel_getlevelrange.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 492eddb0-f8f2-4639-b5fe-1d02bf8c983a
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetLevelRange method [Core Audio], GetLevelRange method [Core Audio], IPerChannelDbLevel interface, GetLevelRange,IPerChannelDbLevel.GetLevelRange, IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], GetLevelRange method, IPerChannelDbLevel::GetLevelRange, IPerChannelDbLevelGetLevelRange, coreaudio.iperchanneldblevel_getlevelrange, devicetopology/IPerChannelDbLevel::GetLevelRange
+ms.keywords: GetLevelRange, GetLevelRange method [Core Audio], GetLevelRange method [Core Audio],IPerChannelDbLevel interface, IPerChannelDbLevel interface [Core Audio],GetLevelRange method, IPerChannelDbLevel.GetLevelRange, IPerChannelDbLevel::GetLevelRange, IPerChannelDbLevelGetLevelRange, coreaudio.iperchanneldblevel_getlevelrange, devicetopology/IPerChannelDbLevel::GetLevelRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPerChannelDbLevel::GetLevelRange method
+# IPerChannelDbLevel::GetLevelRange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.GetProvider
-title: IVdsPack::GetProvider method
+title: IVdsPack::GetProvider
 author: windows-driver-content
 description: Returns the software provider associated with a pack.
 old-location: base\ivdspack_getprovider.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: b6e7ca7c-b95f-457d-996b-b3c449b6ce6b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetProvider method [VDS], GetProvider method [VDS], IVdsPack interface, GetProvider,IVdsPack.GetProvider, IVdsPack, IVdsPack interface [VDS], GetProvider method, IVdsPack::GetProvider, base.ivdspack_getprovider, vds/IVdsPack::GetProvider
+ms.keywords: GetProvider, GetProvider method [VDS], GetProvider method [VDS],IVdsPack interface, IVdsPack interface [VDS],GetProvider method, IVdsPack.GetProvider, IVdsPack::GetProvider, base.ivdspack_getprovider, vds/IVdsPack::GetProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsPack::GetProvider method
+# IVdsPack::GetProvider
 
 
 ## -description

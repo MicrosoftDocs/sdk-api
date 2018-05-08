@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSGetShaderResources
-title: ID3D11DeviceContext::HSGetShaderResources method
+title: ID3D11DeviceContext::HSGetShaderResources
 author: windows-driver-content
 description: Get the hull-shader resources.
 old-location: direct3d11\id3d11devicecontext_hsgetshaderresources.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 21956575-5f4b-48ca-944b-5cab57d02c7f
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: HSGetShaderResources method [Direct3D 11], HSGetShaderResources method [Direct3D 11], ID3D11DeviceContext interface, HSGetShaderResources,ID3D11DeviceContext.HSGetShaderResources, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], HSGetShaderResources method, ID3D11DeviceContext::HSGetShaderResources, d3d11/ID3D11DeviceContext::HSGetShaderResources, da564466-b697-f908-c81d-dda7a85378db, direct3d11.id3d11devicecontext_hsgetshaderresources
+ms.keywords: HSGetShaderResources, HSGetShaderResources method [Direct3D 11], HSGetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSGetShaderResources method, ID3D11DeviceContext.HSGetShaderResources, ID3D11DeviceContext::HSGetShaderResources, d3d11/ID3D11DeviceContext::HSGetShaderResources, da564466-b697-f908-c81d-dda7a85378db, direct3d11.id3d11devicecontext_hsgetshaderresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::HSGetShaderResources method
+# ID3D11DeviceContext::HSGetShaderResources
 
 
 ## -description

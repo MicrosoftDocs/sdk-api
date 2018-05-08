@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.EnumFileScreenExceptions
-title: IFsrmFileScreenManager::EnumFileScreenExceptions method
+title: IFsrmFileScreenManager::EnumFileScreenExceptions
 author: windows-driver-content
 description: Enumerates the file screen exceptions for the specified directory and its subdirectories.
 old-location: fsrm\ifsrmfilescreenmanager_enumfilescreenexceptions.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: c30377c8-d3a3-40fe-a42c-9b36d2a0b35e
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EnumFileScreenExceptions method [File Server Resource Manager], EnumFileScreenExceptions method [File Server Resource Manager], FsrmFileScreenManager class, EnumFileScreenExceptions method [File Server Resource Manager], IFsrmFileScreenManager interface, EnumFileScreenExceptions,IFsrmFileScreenManager.EnumFileScreenExceptions, FsrmFileScreenManager class [File Server Resource Manager], EnumFileScreenExceptions method, IFsrmFileScreenManager, IFsrmFileScreenManager interface [File Server Resource Manager], EnumFileScreenExceptions method, IFsrmFileScreenManager::EnumFileScreenExceptions, fs.ifsrmfilescreenmanager_enumfilescreenexceptions, fsrm.ifsrmfilescreenmanager_enumfilescreenexceptions, fsrmscreen/IFsrmFileScreenManager::EnumFileScreenExceptions
+ms.keywords: EnumFileScreenExceptions, EnumFileScreenExceptions method [File Server Resource Manager], EnumFileScreenExceptions method [File Server Resource Manager],FsrmFileScreenManager class, EnumFileScreenExceptions method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],EnumFileScreenExceptions method, IFsrmFileScreenManager interface [File Server Resource Manager],EnumFileScreenExceptions method, IFsrmFileScreenManager.EnumFileScreenExceptions, IFsrmFileScreenManager::EnumFileScreenExceptions, fs.ifsrmfilescreenmanager_enumfilescreenexceptions, fsrm.ifsrmfilescreenmanager_enumfilescreenexceptions, fsrmscreen/IFsrmFileScreenManager::EnumFileScreenExceptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenManager::EnumFileScreenExceptions method
+# IFsrmFileScreenManager::EnumFileScreenExceptions
 
 
 ## -description

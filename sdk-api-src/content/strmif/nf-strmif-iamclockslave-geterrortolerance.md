@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMClockSlave.GetErrorTolerance
-title: IAMClockSlave::GetErrorTolerance method
+title: IAMClockSlave::GetErrorTolerance
 author: windows-driver-content
 description: The GetErrorTolerance method retrieves the audio renderer's rate-matching tolerance.
 old-location: dshow\iamclockslave_geterrortolerance.htm
 old-project: DirectShow
 ms.assetid: a22e17d8-eb96-4e67-bbd7-7c116694c891
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetErrorTolerance method [DirectShow], GetErrorTolerance method [DirectShow], IAMClockSlave interface, GetErrorTolerance,IAMClockSlave.GetErrorTolerance, IAMClockSlave, IAMClockSlave interface [DirectShow], GetErrorTolerance method, IAMClockSlave::GetErrorTolerance, IAMClockSlaveGetErrorTolerance, dshow.iamclockslave_geterrortolerance, strmif/IAMClockSlave::GetErrorTolerance
+ms.date: 4/30/2018
+ms.keywords: GetErrorTolerance, GetErrorTolerance method [DirectShow], GetErrorTolerance method [DirectShow],IAMClockSlave interface, IAMClockSlave interface [DirectShow],GetErrorTolerance method, IAMClockSlave.GetErrorTolerance, IAMClockSlave::GetErrorTolerance, IAMClockSlaveGetErrorTolerance, dshow.iamclockslave_geterrortolerance, strmif/IAMClockSlave::GetErrorTolerance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMClockSlave::GetErrorTolerance method
+# IAMClockSlave::GetErrorTolerance
 
 
 ## -description

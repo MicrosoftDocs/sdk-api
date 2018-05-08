@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetDiscardControlPartName
-title: IXpsOMPackage::SetDiscardControlPartName method
+title: IXpsOMPackage::SetDiscardControlPartName
 author: windows-driver-content
 description: Sets the name of the discard control part in the XPS package.
 old-location: xps\ixpsompackage_setdiscardcontrolpartname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: ce45f7cf-33ed-4e15-9f65-549ab2c8c8be
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], SetDiscardControlPartName method, IXpsOMPackage::SetDiscardControlPartName, SetDiscardControlPartName method [XPS Documents and Packaging], SetDiscardControlPartName method [XPS Documents and Packaging], IXpsOMPackage interface, SetDiscardControlPartName,IXpsOMPackage.SetDiscardControlPartName, xps.ixpsompackage_setdiscardcontrolpartname, xpsobjectmodel/IXpsOMPackage::SetDiscardControlPartName
+ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetDiscardControlPartName method, IXpsOMPackage.SetDiscardControlPartName, IXpsOMPackage::SetDiscardControlPartName, SetDiscardControlPartName, SetDiscardControlPartName method [XPS Documents and Packaging], SetDiscardControlPartName method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setdiscardcontrolpartname, xpsobjectmodel/IXpsOMPackage::SetDiscardControlPartName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPackage::SetDiscardControlPartName method
+# IXpsOMPackage::SetDiscardControlPartName
 
 
 ## -description

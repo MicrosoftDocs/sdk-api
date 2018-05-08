@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: DB09452D-725C-46EA-B74C-92C5E596BEF8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxFile, IAppxFile interface [App packaging and management], IAppxFile interface [App packaging and management], described, appxpackaging/IAppxFile, appxpkg.iappxfile
+ms.keywords: IAppxFile, IAppxFile interface [App packaging and management], IAppxFile interface [App packaging and management],described, appxpackaging/IAppxFile, appxpkg.iappxfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

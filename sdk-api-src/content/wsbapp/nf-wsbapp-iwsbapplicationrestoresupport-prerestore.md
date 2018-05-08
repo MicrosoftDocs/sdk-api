@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.PreRestore
-title: IWsbApplicationRestoreSupport::PreRestore method
+title: IWsbApplicationRestoreSupport::PreRestore
 author: windows-driver-content
 description: Performs application-specific PreRestore operations.
 old-location: wsb\iwsbapplicationrestoresupport_prerestore.htm
@@ -8,7 +8,7 @@ old-project: wsb
 ms.assetid: 2e1b73f9-a931-42a2-a1b1-f939f492c449
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWsbApplicationRestoreSupport, IWsbApplicationRestoreSupport interface [Windows Server Backup], PreRestore method, IWsbApplicationRestoreSupport::PreRestore, PreRestore method [Windows Server Backup], PreRestore method [Windows Server Backup], IWsbApplicationRestoreSupport interface, PreRestore,IWsbApplicationRestoreSupport.PreRestore, wsb.iwsbapplicationrestoresupport_prerestore, wsbapp/IWsbApplicationRestoreSupport::PreRestore
+ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],PreRestore method, IWsbApplicationRestoreSupport.PreRestore, IWsbApplicationRestoreSupport::PreRestore, PreRestore, PreRestore method [Windows Server Backup], PreRestore method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_prerestore, wsbapp/IWsbApplicationRestoreSupport::PreRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWsbApplicationRestoreSupport::PreRestore method
+# IWsbApplicationRestoreSupport::PreRestore
 
 
 ## -description

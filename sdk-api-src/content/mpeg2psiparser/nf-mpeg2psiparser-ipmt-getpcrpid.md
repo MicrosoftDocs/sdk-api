@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetPcrPid
-title: IPMT::GetPcrPid method
+title: IPMT::GetPcrPid
 author: windows-driver-content
 description: The GetPcrPid method returns the packet identifier (PID) of the packets that contain the Program Clock Reference (PCR) fields for this program.
 old-location: mstv\ipmt_getpcrpid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0099e5b3-d573-47b9-9581-fbb9fee3ca16
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPcrPid method [Microsoft TV Technologies], GetPcrPid method [Microsoft TV Technologies], IPMT interface, GetPcrPid,IPMT.GetPcrPid, IPMT, IPMT interface [Microsoft TV Technologies], GetPcrPid method, IPMT::GetPcrPid, IPMTGetPcrPid, mpeg2psiparser/IPMT::GetPcrPid, mstv.ipmt_getpcrpid
+ms.keywords: GetPcrPid, GetPcrPid method [Microsoft TV Technologies], GetPcrPid method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetPcrPid method, IPMT.GetPcrPid, IPMT::GetPcrPid, IPMTGetPcrPid, mpeg2psiparser/IPMT::GetPcrPid, mstv.ipmt_getpcrpid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IPMT::GetPcrPid method
+# IPMT::GetPcrPid
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFileSourceFilter.Load
-title: IFileSourceFilter::Load method
+title: IFileSourceFilter::Load
 author: windows-driver-content
 description: The Load method causes a source filter to load a media file.
 old-location: dshow\ifilesourcefilter_load.htm
 old-project: DirectShow
 ms.assetid: a44b8153-19d5-43ad-936c-214c694eeeb6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFileSourceFilter, IFileSourceFilter interface [DirectShow], Load method, IFileSourceFilter::Load, IFileSourceFilterLoad, Load method [DirectShow], Load method [DirectShow], IFileSourceFilter interface, Load,IFileSourceFilter.Load, dshow.ifilesourcefilter_load, strmif/IFileSourceFilter::Load
+ms.date: 4/30/2018
+ms.keywords: IFileSourceFilter interface [DirectShow],Load method, IFileSourceFilter.Load, IFileSourceFilter::Load, IFileSourceFilterLoad, Load, Load method [DirectShow], Load method [DirectShow],IFileSourceFilter interface, dshow.ifilesourcefilter_load, strmif/IFileSourceFilter::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFileSourceFilter::Load method
+# IFileSourceFilter::Load
 
 
 ## -description

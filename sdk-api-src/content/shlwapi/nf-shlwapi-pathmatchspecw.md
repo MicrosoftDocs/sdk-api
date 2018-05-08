@@ -7,7 +7,7 @@ old-location: shell\PathMatchSpec.htm
 old-project: shell
 ms.assetid: 908e7204-d168-4179-9c7b-ad46ba68bebc
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: PathMatchSpec, PathMatchSpec function [Windows Shell], PathMatchSpecA, PathMatchSpecW, _win32_PathMatchSpec, shell.PathMatchSpec, shlwapi/PathMatchSpec, shlwapi/PathMatchSpecA, shlwapi/PathMatchSpecW
 ms.prod: windows-hardware
 ms.technology: windows-devices

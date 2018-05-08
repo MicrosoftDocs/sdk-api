@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxActivate
-title: ITextHost::TxActivate method
+title: ITextHost::TxActivate
 author: windows-driver-content
 description: Notifies the text host that the control is active.
 old-location: controls\ITextHost_TxActivate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txactivate.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxActivate method, ITextHost::TxActivate, TxActivate method [Windows Controls], TxActivate method [Windows Controls], ITextHost interface, TxActivate,ITextHost.TxActivate, _win32_ITextHost_TxActivate, _win32_ITextHost_TxActivate_cpp, controls.ITextHost_TxActivate, controls._win32_ITextHost_TxActivate, textserv/ITextHost::TxActivate
+ms.date: 4/27/2018
+ms.keywords: ITextHost interface [Windows Controls],TxActivate method, ITextHost.TxActivate, ITextHost::TxActivate, TxActivate, TxActivate method [Windows Controls], TxActivate method [Windows Controls],ITextHost interface, _win32_ITextHost_TxActivate, _win32_ITextHost_TxActivate_cpp, controls.ITextHost_TxActivate, controls._win32_ITextHost_TxActivate, textserv/ITextHost::TxActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxActivate method
+# ITextHost::TxActivate
 
 
 ## -description

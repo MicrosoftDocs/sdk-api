@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: f9c24fe6-58c7-4e82-9ac0-1157ed8fffeb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMTrustee, IGPMTrustee, IGPMTrustee interface [GPMC], IGPMTrustee interface [GPMC], described, _win32_igpmtrustee, gpmc.igpmtrustee, gpmgmt/IGPMTrustee
+ms.keywords: GPMTrustee, IGPMTrustee, IGPMTrustee interface [GPMC], IGPMTrustee interface [GPMC],described, _win32_igpmtrustee, gpmc.igpmtrustee, gpmgmt/IGPMTrustee
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

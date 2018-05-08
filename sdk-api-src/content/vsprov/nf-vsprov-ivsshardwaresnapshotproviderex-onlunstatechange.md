@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProviderEx.OnLunStateChange
-title: IVssHardwareSnapshotProviderEx::OnLunStateChange method
+title: IVssHardwareSnapshotProviderEx::OnLunStateChange
 author: windows-driver-content
 description: The VSS service calls this method to notify hardware providers of a LUN state change.
 old-location: base\ivsshardwaresnapshotproviderex_onlunstatechange.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 7546eca0-db52-4c4b-9b5a-a3cfdf2a98af
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssHardwareSnapshotProviderEx, IVssHardwareSnapshotProviderEx interface, OnLunStateChange method, IVssHardwareSnapshotProviderEx::OnLunStateChange, OnLunStateChange method, OnLunStateChange method, IVssHardwareSnapshotProviderEx interface, OnLunStateChange,IVssHardwareSnapshotProviderEx.OnLunStateChange, VSS_ONLUNSTATECHANGE_DO_MASK_LUNS, VSS_ONLUNSTATECHANGE_NOTIFY_LUN_POST_RECOVERY, VSS_ONLUNSTATECHANGE_NOTIFY_LUN_PRE_RECOVERY, VSS_ONLUNSTATECHANGE_NOTIFY_READ_WRITE, base.ivsshardwaresnapshotproviderex_onlunstatechange, vsprov/IVssHardwareSnapshotProviderEx::OnLunStateChange
+ms.keywords: IVssHardwareSnapshotProviderEx interface,OnLunStateChange method, IVssHardwareSnapshotProviderEx.OnLunStateChange, IVssHardwareSnapshotProviderEx::OnLunStateChange, OnLunStateChange, OnLunStateChange method, OnLunStateChange method,IVssHardwareSnapshotProviderEx interface, VSS_ONLUNSTATECHANGE_DO_MASK_LUNS, VSS_ONLUNSTATECHANGE_NOTIFY_LUN_POST_RECOVERY, VSS_ONLUNSTATECHANGE_NOTIFY_LUN_PRE_RECOVERY, VSS_ONLUNSTATECHANGE_NOTIFY_READ_WRITE, base.ivsshardwaresnapshotproviderex_onlunstatechange, vsprov/IVssHardwareSnapshotProviderEx::OnLunStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssHardwareSnapshotProviderEx::OnLunStateChange method
+# IVssHardwareSnapshotProviderEx::OnLunStateChange
 
 
 ## -description

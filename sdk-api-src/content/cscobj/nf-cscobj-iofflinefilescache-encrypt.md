@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.Encrypt
-title: IOfflineFilesCache::Encrypt method
+title: IOfflineFilesCache::Encrypt
 author: windows-driver-content
 description: Encrypts or unencrypts the contents of the Offline Files cache cached for the calling user.
 old-location: of\iofflinefilescache_encrypt.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: b7531018-4837-4fde-8947-0f099f6de9e5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Encrypt method [Offline Files], Encrypt method [Offline Files], IOfflineFilesCache interface, Encrypt,IOfflineFilesCache.Encrypt, IOfflineFilesCache, IOfflineFilesCache interface [Offline Files], Encrypt method, IOfflineFilesCache::Encrypt, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_CONSOLE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_LOWPRIORITY, cscobj/IOfflineFilesCache::Encrypt, of.iofflinefilescache_encrypt
+ms.keywords: Encrypt, Encrypt method [Offline Files], Encrypt method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],Encrypt method, IOfflineFilesCache.Encrypt, IOfflineFilesCache::Encrypt, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_CONSOLE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_LOWPRIORITY, cscobj/IOfflineFilesCache::Encrypt, of.iofflinefilescache_encrypt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesCache::Encrypt method
+# IOfflineFilesCache::Encrypt
 
 
 ## -description

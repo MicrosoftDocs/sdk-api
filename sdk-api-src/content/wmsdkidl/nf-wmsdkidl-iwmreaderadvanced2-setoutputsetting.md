@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.SetOutputSetting
-title: IWMReaderAdvanced2::SetOutputSetting method
+title: IWMReaderAdvanced2::SetOutputSetting
 author: windows-driver-content
 description: The SetOutputSetting method specifies a named setting for a particular output.
 old-location: wmformat\iwmreaderadvanced2_setoutputsetting.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 035a74d2-288d-4754-8cb2-4508b7fe4649
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], SetOutputSetting method, IWMReaderAdvanced2::SetOutputSetting, IWMReaderAdvanced2SetOutputSetting, SetOutputSetting method [windows Media Format], SetOutputSetting method [windows Media Format], IWMReaderAdvanced2 interface, SetOutputSetting,IWMReaderAdvanced2.SetOutputSetting, wmformat.iwmreaderadvanced2_setoutputsetting, wmsdkidl/IWMReaderAdvanced2::SetOutputSetting
+ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetOutputSetting method, IWMReaderAdvanced2.SetOutputSetting, IWMReaderAdvanced2::SetOutputSetting, IWMReaderAdvanced2SetOutputSetting, SetOutputSetting, SetOutputSetting method [windows Media Format], SetOutputSetting method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_setoutputsetting, wmsdkidl/IWMReaderAdvanced2::SetOutputSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced2::SetOutputSetting method
+# IWMReaderAdvanced2::SetOutputSetting
 
 
 ## -description

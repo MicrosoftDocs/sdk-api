@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_DefaultContainer
-title: IX509PrivateKey::get_DefaultContainer method
+title: IX509PrivateKey::get_DefaultContainer
 author: windows-driver-content
 description: Retrieves a Boolean value that specifies whether the private key represents the default key container.
 old-location: security\ix509privatekey_defaultcontainer_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 31998dee-b656-47b8-acb5-246e1a10382a
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: DefaultContainer property [Security], DefaultContainer property [Security], IX509PrivateKey interface, IX509PrivateKey, IX509PrivateKey interface [Security], DefaultContainer property, IX509PrivateKey.DefaultContainer, IX509PrivateKey::get_DefaultContainer, certenroll/IX509PrivateKey::DefaultContainer, certenroll/IX509PrivateKey::get_DefaultContainer, get_DefaultContainer,IX509PrivateKey.get_DefaultContainer, security.ix509privatekey_defaultcontainer_property
+ms.keywords: DefaultContainer property [Security], DefaultContainer property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],DefaultContainer property, IX509PrivateKey.DefaultContainer, IX509PrivateKey.get_DefaultContainer, IX509PrivateKey::DefaultContainer, IX509PrivateKey::get_DefaultContainer, certenroll/IX509PrivateKey::DefaultContainer, certenroll/IX509PrivateKey::get_DefaultContainer, get_DefaultContainer, security.ix509privatekey_defaultcontainer_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PrivateKey::get_DefaultContainer method
+# IX509PrivateKey::get_DefaultContainer
 
 
 ## -description

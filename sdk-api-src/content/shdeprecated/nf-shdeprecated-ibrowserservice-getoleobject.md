@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetOleObject
-title: IBrowserService::GetOleObject method
+title: IBrowserService::GetOleObject
 author: windows-driver-content
 description: Deprecated. Retrieves an IOleObject for the browser.
 old-location: shell\IBrowserService_GetOleObject.htm
 old-project: shell
 ms.assetid: 6ac2346f-3bfb-498f-97c7-77dc431567c7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetOleObject method [Windows Shell], GetOleObject method [Windows Shell], IBrowserService interface, GetOleObject,IBrowserService.GetOleObject, IBrowserService, IBrowserService interface [Windows Shell], GetOleObject method, IBrowserService::GetOleObject, shdeprecated/IBrowserService::GetOleObject, shell.IBrowserService_GetOleObject, zone_IBrowserService_GetOleObject
+ms.date: 5/3/2018
+ms.keywords: GetOleObject, GetOleObject method [Windows Shell], GetOleObject method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetOleObject method, IBrowserService.GetOleObject, IBrowserService::GetOleObject, shdeprecated/IBrowserService::GetOleObject, shell.IBrowserService_GetOleObject, zone_IBrowserService_GetOleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::GetOleObject method
+# IBrowserService::GetOleObject
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.EndCreateObjectFromURL
-title: IMFSourceResolver::EndCreateObjectFromURL method
+title: IMFSourceResolver::EndCreateObjectFromURL
 author: windows-driver-content
 description: Completes an asynchronous request to create an object from a URL.
 old-location: mf\imfsourceresolver_endcreateobjectfromurl.htm
 old-project: medfound
 ms.assetid: af50a76d-b083-4815-bbff-820b21ff8d1b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: EndCreateObjectFromURL method [Media Foundation], EndCreateObjectFromURL method [Media Foundation], IMFSourceResolver interface, EndCreateObjectFromURL,IMFSourceResolver.EndCreateObjectFromURL, IMFSourceResolver, IMFSourceResolver interface [Media Foundation], EndCreateObjectFromURL method, IMFSourceResolver::EndCreateObjectFromURL, af50a76d-b083-4815-bbff-820b21ff8d1b, mf.imfsourceresolver_endcreateobjectfromurl, mfidl/IMFSourceResolver::EndCreateObjectFromURL
+ms.date: 5/3/2018
+ms.keywords: EndCreateObjectFromURL, EndCreateObjectFromURL method [Media Foundation], EndCreateObjectFromURL method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],EndCreateObjectFromURL method, IMFSourceResolver.EndCreateObjectFromURL, IMFSourceResolver::EndCreateObjectFromURL, af50a76d-b083-4815-bbff-820b21ff8d1b, mf.imfsourceresolver_endcreateobjectfromurl, mfidl/IMFSourceResolver::EndCreateObjectFromURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceResolver::EndCreateObjectFromURL method
+# IMFSourceResolver::EndCreateObjectFromURL
 
 
 ## -description

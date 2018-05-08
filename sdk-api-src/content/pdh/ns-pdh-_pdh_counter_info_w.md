@@ -113,6 +113,18 @@ The value passed in the <i>dwUserData</i> parameter when calling <a href="https:
 					
 
 
+### -field DataItemPath
+
+A 
+<a href="https://msdn.microsoft.com/7d80d9ac-0123-4743-93a2-fa9d609d81b2">PDH_DATA_ITEM_PATH_ELEMENTS</a> structure. Not used.
+
+
+### -field CounterPath
+
+A 
+<a href="https://msdn.microsoft.com/ffa2a076-7267-406b-8eed-4a49504a7ad6">PDH_COUNTER_PATH_ELEMENTS</a> structure.
+
+
 ### -field szMachineName
 
 <b>Null</b>-terminated string that contains the name of the computer specified in the counter path. Is <b>NULL</b>, if the path does not specify a computer. The string follows this structure in memory.
@@ -151,18 +163,6 @@ Help text that describes the counter. Is <b>NULL</b> if the source is a log file
 ### -field DataBuffer
 
 Start of the string data that is appended to the structure.
-
-
-#### - CounterPath
-
-A 
-<a href="https://msdn.microsoft.com/ffa2a076-7267-406b-8eed-4a49504a7ad6">PDH_COUNTER_PATH_ELEMENTS</a> structure.
-
-
-#### - DataItemPath
-
-A 
-<a href="https://msdn.microsoft.com/7d80d9ac-0123-4743-93a2-fa9d609d81b2">PDH_DATA_ITEM_PATH_ELEMENTS</a> structure. Not used.
 
 
 ## -remarks

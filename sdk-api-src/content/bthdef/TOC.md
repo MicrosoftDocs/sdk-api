@@ -1,0 +1,6 @@
+# [Bluetooth](../_bluetooth/index.md)
+## [Bthdef.h](index.md)
+### [_BTH_DEVICE_INFO structure](../bthdef/ns-bthdef-_bth_device_info.md)
+### [_BTH_HCI_EVENT_INFO structure](../bthdef/ns-bthdef-_bth_hci_event_info.md)
+### [_BTH_L2CAP_EVENT_INFO structure](../bthdef/ns-bthdef-_bth_l2cap_event_info.md)
+### [_BTH_RADIO_IN_RANGE structure](../bthdef/ns-bthdef-_bth_radio_in_range.md)

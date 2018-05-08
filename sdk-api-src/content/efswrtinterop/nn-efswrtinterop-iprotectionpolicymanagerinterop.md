@@ -8,7 +8,7 @@ old-project: EDP
 ms.assetid: AFA7F918-8730-40A2-871E-9356391B47F8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EDP.iprotectionpolicymanagerinterop, IProtectionPolicyManagerInterop, IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface, described, efswrtinterop/IProtectionPolicyManagerInterop interface
+ms.keywords: EDP.iprotectionpolicymanagerinterop, IProtectionPolicyManagerInterop, IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface,described, efswrtinterop/IProtectionPolicyManagerInterop interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

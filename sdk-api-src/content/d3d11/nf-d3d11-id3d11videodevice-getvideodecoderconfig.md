@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.GetVideoDecoderConfig
-title: ID3D11VideoDevice::GetVideoDecoderConfig method
+title: ID3D11VideoDevice::GetVideoDecoderConfig
 author: windows-driver-content
 description: Gets a decoder configuration that is supported by the driver.
 old-location: mf\id3d11videodevice_getvideodecoderconfig.htm
 old-project: medfound
 ms.assetid: EC3B23BE-0A28-41E6-A515-7801C9E0A4D9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoDecoderConfig method [Media Foundation], GetVideoDecoderConfig method [Media Foundation], ID3D11VideoDevice interface, GetVideoDecoderConfig,ID3D11VideoDevice.GetVideoDecoderConfig, ID3D11VideoDevice, ID3D11VideoDevice interface [Media Foundation], GetVideoDecoderConfig method, ID3D11VideoDevice::GetVideoDecoderConfig, d3d11/ID3D11VideoDevice::GetVideoDecoderConfig, mf.id3d11videodevice_getvideodecoderconfig
+ms.date: 5/3/2018
+ms.keywords: GetVideoDecoderConfig, GetVideoDecoderConfig method [Media Foundation], GetVideoDecoderConfig method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetVideoDecoderConfig method, ID3D11VideoDevice.GetVideoDecoderConfig, ID3D11VideoDevice::GetVideoDecoderConfig, d3d11/ID3D11VideoDevice::GetVideoDecoderConfig, mf.id3d11videodevice_getvideodecoderconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoDevice::GetVideoDecoderConfig method
+# ID3D11VideoDevice::GetVideoDecoderConfig
 
 
 ## -description

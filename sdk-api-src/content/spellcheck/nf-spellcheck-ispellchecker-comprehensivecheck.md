@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.ComprehensiveCheck
-title: ISpellChecker::ComprehensiveCheck method
+title: ISpellChecker::ComprehensiveCheck
 author: windows-driver-content
 description: Checks the spelling of the supplied text in a more thorough manner than ISpellChecker::Check, and returns a collection of spelling errors.
 old-location: intl\ispellchecker_comprehensivecheck.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: E364F423-AF17-4F91-993B-CEA0E50CAF67
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ComprehensiveCheck method [Internationalization for Windows Applications], ComprehensiveCheck method [Internationalization for Windows Applications], ISpellChecker interface, ComprehensiveCheck,ISpellChecker.ComprehensiveCheck, ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], ComprehensiveCheck method, ISpellChecker::ComprehensiveCheck, intl.ispellchecker_comprehensivecheck, spellcheck/ISpellChecker::ComprehensiveCheck
+ms.keywords: ComprehensiveCheck, ComprehensiveCheck method [Internationalization for Windows Applications], ComprehensiveCheck method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],ComprehensiveCheck method, ISpellChecker.ComprehensiveCheck, ISpellChecker::ComprehensiveCheck, intl.ispellchecker_comprehensivecheck, spellcheck/ISpellChecker::ComprehensiveCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellChecker::ComprehensiveCheck method
+# ISpellChecker::ComprehensiveCheck
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Exposure
-title: ICameraControl::put_Exposure method
+title: ICameraControl::put_Exposure
 author: windows-driver-content
 description: The put_Exposure method sets the camera's exposure time.
 old-location: dshow\icameracontrol_put_exposure.htm
 old-project: DirectShow
 ms.assetid: 2db9bdb3-c508-40b6-bd5e-75e418ba2f18
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_Exposure method, ICameraControl::put_Exposure, ICameraControlput_Exposure, dshow.icameracontrol_put_exposure, put_Exposure method [DirectShow], put_Exposure method [DirectShow], ICameraControl interface, put_Exposure,ICameraControl.put_Exposure, vidcap/ICameraControl::put_Exposure
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],put_Exposure method, ICameraControl.put_Exposure, ICameraControl::put_Exposure, ICameraControlput_Exposure, dshow.icameracontrol_put_exposure, put_Exposure, put_Exposure method [DirectShow], put_Exposure method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Exposure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::put_Exposure method
+# ICameraControl::put_Exposure
 
 
 ## -description

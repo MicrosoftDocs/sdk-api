@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.InsertAt
-title: IXpsOMDictionary::InsertAt method
+title: IXpsOMDictionary::InsertAt
 author: windows-driver-content
 description: Inserts an IXpsOMShareable interface at a specified location in the dictionary and sets the key to identify the interface.
 old-location: xps\ixpsomdictionary_insertat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: a47b7130-a3c3-44d2-a987-e78b7feb52d6
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMDictionary, IXpsOMDictionary interface [XPS Documents and Packaging], InsertAt method, IXpsOMDictionary::InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging], IXpsOMDictionary interface, InsertAt,IXpsOMDictionary.InsertAt, xps.ixpsomdictionary_insertat, xpsobjectmodel/IXpsOMDictionary::InsertAt
+ms.keywords: IXpsOMDictionary interface [XPS Documents and Packaging],InsertAt method, IXpsOMDictionary.InsertAt, IXpsOMDictionary::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMDictionary interface, xps.ixpsomdictionary_insertat, xpsobjectmodel/IXpsOMDictionary::InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDictionary::InsertAt method
+# IXpsOMDictionary::InsertAt
 
 
 ## -description

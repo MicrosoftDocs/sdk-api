@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetWORD
-title: CInstance::SetWORD method
+title: CInstance::SetWORD
 author: windows-driver-content
 description: The SetWORD method sets a WORD property.
 old-location: wmi\cinstance_setword.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: e58b98d9-56c2-4e92-90ee-c9ff4fae9f8f
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?SetWORD@CInstance@@QAE_NPBGG@Z, ?SetWORD@CInstance@@QEAA_NPEBGG@Z, CInstance, CInstance interface [Windows Management Instrumentation], SetWORD method, CInstance::SetWORD, SetWORD method [Windows Management Instrumentation], SetWORD method [Windows Management Instrumentation], CInstance interface, SetWORD,CInstance.SetWORD, _hmm_cinstance_setword, instance/CInstance::SetWORD, wmi.cinstance_setword"
+ms.keywords: "?SetWORD@CInstance@@QAE_NPBGG@Z, ?SetWORD@CInstance@@QEAA_NPEBGG@Z, CInstance interface [Windows Management Instrumentation],SetWORD method, CInstance.SetWORD, CInstance::SetWORD, SetWORD, SetWORD method [Windows Management Instrumentation], SetWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setword, instance/CInstance::SetWORD, wmi.cinstance_setword"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::SetWORD method
+# CInstance::SetWORD
 
 
 ## -description

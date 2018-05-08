@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: dfe37b41-f80b-4992-84c1-c23581cc4b69
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: ISCPSecureAuthenticate, ISCPSecureAuthenticate interface [windows Media Device Manager], ISCPSecureAuthenticate interface [windows Media Device Manager], described, ISCPSecureAuthenticateInterface, mswmdm/ISCPSecureAuthenticate, wmdm.iscpsecureauthenticate
+ms.keywords: ISCPSecureAuthenticate, ISCPSecureAuthenticate interface [windows Media Device Manager], ISCPSecureAuthenticate interface [windows Media Device Manager],described, ISCPSecureAuthenticateInterface, mswmdm/ISCPSecureAuthenticate, wmdm.iscpsecureauthenticate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

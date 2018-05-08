@@ -1,6 +1,6 @@
 ---
 UID: NF:ddkernel.IDirectDrawKernel.GetKernelHandle
-title: IDirectDrawKernel::GetKernelHandle method
+title: IDirectDrawKernel::GetKernelHandle
 author: windows-driver-content
 description: The IDirectDrawKernel::GetKernelHandle method returns a kernel-mode handle to the DirectDraw object.
 old-location: display\idirectdrawkernel_getkernelhandle.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f74cc859-6991-4075-a7ef-83a67de06be6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetKernelHandle method [Display Devices], GetKernelHandle method [Display Devices], IDirectDrawKernel interface, GetKernelHandle,IDirectDrawKernel.GetKernelHandle, IDirectDrawKernel, IDirectDrawKernel interface [Display Devices], GetKernelHandle method, IDirectDrawKernel::GetKernelHandle, ddfncs_5c255735-5359-481b-b6cb-3bae2d934926.xml, ddkernel/IDirectDrawKernel::GetKernelHandle, display.idirectdrawkernel_getkernelhandle
+ms.keywords: GetKernelHandle, GetKernelHandle method [Display Devices], GetKernelHandle method [Display Devices],IDirectDrawKernel interface, IDirectDrawKernel interface [Display Devices],GetKernelHandle method, IDirectDrawKernel.GetKernelHandle, IDirectDrawKernel::GetKernelHandle, ddfncs_5c255735-5359-481b-b6cb-3bae2d934926.xml, ddkernel/IDirectDrawKernel::GetKernelHandle, display.idirectdrawkernel_getkernelhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawKernel::GetKernelHandle method
+# IDirectDrawKernel::GetKernelHandle
 
 
 ## -description

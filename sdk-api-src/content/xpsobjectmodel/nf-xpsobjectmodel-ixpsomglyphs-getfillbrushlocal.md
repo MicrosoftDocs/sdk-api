@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFillBrushLocal
-title: IXpsOMGlyphs::GetFillBrushLocal method
+title: IXpsOMGlyphs::GetFillBrushLocal
 author: windows-driver-content
 description: Gets a pointer to the local, unshared IXpsOMBrush interface of the fill brush to be used for the text.
 old-location: xps\ixpsomglyphs_getfillbrushlocal.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d497eac9-8096-4a0e-bb43-315f734fd36e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetFillBrushLocal method [XPS Documents and Packaging], GetFillBrushLocal method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetFillBrushLocal,IXpsOMGlyphs.GetFillBrushLocal, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetFillBrushLocal method, IXpsOMGlyphs::GetFillBrushLocal, xps.ixpsomglyphs_getfillbrushlocal, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLocal
+ms.keywords: GetFillBrushLocal, GetFillBrushLocal method [XPS Documents and Packaging], GetFillBrushLocal method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrushLocal method, IXpsOMGlyphs.GetFillBrushLocal, IXpsOMGlyphs::GetFillBrushLocal, xps.ixpsomglyphs_getfillbrushlocal, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetFillBrushLocal method
+# IXpsOMGlyphs::GetFillBrushLocal
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsVector
-title: IShellImageData::IsVector method
+title: IShellImageData::IsVector
 author: windows-driver-content
 description: Determines whether the image is a vector image.
 old-location: shell\IShellImageData_IsVector.htm
 old-project: shell
 ms.assetid: a4099bc4-c831-4a4e-a3f6-932570dc8029
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IsVector method, IShellImageData::IsVector, IsVector method [Windows Shell], IsVector method [Windows Shell], IShellImageData interface, IsVector,IShellImageData.IsVector, _shell_IShellImageData_IsVector, shell.IShellImageData_IsVector, shimgdata/IShellImageData::IsVector
+ms.date: 5/3/2018
+ms.keywords: IShellImageData interface [Windows Shell],IsVector method, IShellImageData.IsVector, IShellImageData::IsVector, IsVector, IsVector method [Windows Shell], IsVector method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsVector, shell.IShellImageData_IsVector, shimgdata/IShellImageData::IsVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::IsVector method
+# IShellImageData::IsVector
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.EndCommit
-title: ICrmCompensator::EndCommit method
+title: ICrmCompensator::EndCommit
 author: windows-driver-content
 description: Notifies the CRM Compensator that it has delivered all the log records available during the commit phase.
 old-location: cos\icrmcompensator_endcommit.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 83701797-c386-4471-91ed-cbe936b1988e
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: EndCommit method [COM+], EndCommit method [COM+], ICrmCompensator interface, EndCommit,ICrmCompensator.EndCommit, ICrmCompensator, ICrmCompensator interface [COM+], EndCommit method, ICrmCompensator::EndCommit, _dtc_ICrmCompensator_EndCommit, comsvcs/ICrmCompensator::EndCommit, cos.icrmcompensator_endcommit
+ms.keywords: EndCommit, EndCommit method [COM+], EndCommit method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],EndCommit method, ICrmCompensator.EndCommit, ICrmCompensator::EndCommit, _dtc_ICrmCompensator_EndCommit, comsvcs/ICrmCompensator::EndCommit, cos.icrmcompensator_endcommit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmCompensator::EndCommit method
+# ICrmCompensator::EndCommit
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetTransformLookup
-title: IXpsOMGradientBrush::GetTransformLookup method
+title: IXpsOMGradientBrush::GetTransformLookup
 author: windows-driver-content
 description: Gets the name of the lookup key of the shared matrix transform interface that is to be used for the brush.
 old-location: xps\ixpsomgradientbrush_gettransformlookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 60a91156-f9c8-4f6b-92b7-21e2fcd337fc
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging], IXpsOMGradientBrush interface, GetTransformLookup,IXpsOMGradientBrush.GetTransformLookup, IXpsOMGradientBrush, IXpsOMGradientBrush interface [XPS Documents and Packaging], GetTransformLookup method, IXpsOMGradientBrush::GetTransformLookup, xps.ixpsomgradientbrush_gettransformlookup, xpsobjectmodel/IXpsOMGradientBrush::GetTransformLookup
+ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMGradientBrush.GetTransformLookup, IXpsOMGradientBrush::GetTransformLookup, xps.ixpsomgradientbrush_gettransformlookup, xpsobjectmodel/IXpsOMGradientBrush::GetTransformLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientBrush::GetTransformLookup method
+# IXpsOMGradientBrush::GetTransformLookup
 
 
 ## -description

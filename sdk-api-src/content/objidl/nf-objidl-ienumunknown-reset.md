@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumUnknown.Reset
-title: IEnumUnknown::Reset method
+title: IEnumUnknown::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumunknown_reset.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 54c60e75-1b23-4e89-af16-e551ed880a61
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumUnknown, IEnumUnknown interface [COM], Reset method, IEnumUnknown::Reset, Reset method [COM], Reset method [COM], IEnumUnknown interface, Reset,IEnumUnknown.Reset, _com_ienumunknown_reset, com.ienumunknown_reset, objidlbase/IEnumUnknown::Reset
+ms.keywords: IEnumUnknown interface [COM],Reset method, IEnumUnknown.Reset, IEnumUnknown::Reset, Reset, Reset method [COM], Reset method [COM],IEnumUnknown interface, _com_ienumunknown_reset, com.ienumunknown_reset, objidlbase/IEnumUnknown::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumUnknown::Reset method
+# IEnumUnknown::Reset
 
 
 ## -description

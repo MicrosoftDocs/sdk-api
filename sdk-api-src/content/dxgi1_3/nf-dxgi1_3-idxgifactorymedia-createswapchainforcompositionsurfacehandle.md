@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle
-title: IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle method
+title: IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
 author: windows-driver-content
 description: Creates a YUV swap chain for an existing DirectComposition surface handle.
 old-location: direct3ddxgi\idxgifactorymedia_createswapchainforcompositionsurfacehandle.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 3C5724B7-598B-44F1-80F3-07010EAA089B
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: CreateSwapChainForCompositionSurfaceHandle method [DXGI], CreateSwapChainForCompositionSurfaceHandle method [DXGI], IDXGIFactoryMedia interface, CreateSwapChainForCompositionSurfaceHandle,IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle, IDXGIFactoryMedia, IDXGIFactoryMedia interface [DXGI], CreateSwapChainForCompositionSurfaceHandle method, IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle, direct3ddxgi.idxgifactorymedia_createswapchainforcompositionsurfacehandle, dxgi1_3/IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
+ms.keywords: CreateSwapChainForCompositionSurfaceHandle, CreateSwapChainForCompositionSurfaceHandle method [DXGI], CreateSwapChainForCompositionSurfaceHandle method [DXGI],IDXGIFactoryMedia interface, IDXGIFactoryMedia interface [DXGI],CreateSwapChainForCompositionSurfaceHandle method, IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle, IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle, direct3ddxgi.idxgifactorymedia_createswapchainforcompositionsurfacehandle, dxgi1_3/IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle method
+# IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
 
 
 ## -description

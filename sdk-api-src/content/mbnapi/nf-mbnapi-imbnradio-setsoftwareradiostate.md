@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRadio.SetSoftwareRadioState
-title: IMbnRadio::SetSoftwareRadioState method
+title: IMbnRadio::SetSoftwareRadioState
 author: windows-driver-content
 description: Sets the software radio state of a Mobile Broadband device.
 old-location: mbn\imbnradio_setsoftwareradiostate.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: d140109d-5659-42aa-b645-996dfc5a9d4e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnRadio, IMbnRadio interface [Microsoft Broadband Networks], SetSoftwareRadioState method, IMbnRadio::SetSoftwareRadioState, SetSoftwareRadioState method [Microsoft Broadband Networks], SetSoftwareRadioState method [Microsoft Broadband Networks], IMbnRadio interface, SetSoftwareRadioState,IMbnRadio.SetSoftwareRadioState, mbn.imbnradio_setsoftwareradiostate, mbnapi/IMbnRadio::SetSoftwareRadioState
+ms.keywords: IMbnRadio interface [Microsoft Broadband Networks],SetSoftwareRadioState method, IMbnRadio.SetSoftwareRadioState, IMbnRadio::SetSoftwareRadioState, SetSoftwareRadioState, SetSoftwareRadioState method [Microsoft Broadband Networks], SetSoftwareRadioState method [Microsoft Broadband Networks],IMbnRadio interface, mbn.imbnradio_setsoftwareradiostate, mbnapi/IMbnRadio::SetSoftwareRadioState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnRadio::SetSoftwareRadioState method
+# IMbnRadio::SetSoftwareRadioState
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: rpc\mesbufferhandlereset.htm
 old-project: Rpc
 ms.assetid: adc9681f-267e-4f6f-88a3-ec913e886dd1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: MesBufferHandleReset, MesBufferHandleReset function [RPC], _rpc_mesbufferhandlereset, midles/MesBufferHandleReset, rpc.mesbufferhandlereset
 ms.prod: windows-hardware
 ms.technology: windows-devices

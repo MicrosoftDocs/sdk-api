@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.SetProgram
-title: IBDA_ConditionalAccess::SetProgram method
+title: IBDA_ConditionalAccess::SetProgram
 author: windows-driver-content
 description: The SetProgram method sets the program number.
 old-location: mstv\ibda_conditionalaccess_setprogram.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d38fc9bc-70e8-419e-b7be-33d1f53a723e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_ConditionalAccess, IBDA_ConditionalAccess interface [Microsoft TV Technologies], SetProgram method, IBDA_ConditionalAccess::SetProgram, IBDA_ConditionalAccessSetProgram, SetProgram method [Microsoft TV Technologies], SetProgram method [Microsoft TV Technologies], IBDA_ConditionalAccess interface, SetProgram,IBDA_ConditionalAccess.SetProgram, bdaiface/IBDA_ConditionalAccess::SetProgram, mstv.ibda_conditionalaccess_setprogram
+ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],SetProgram method, IBDA_ConditionalAccess.SetProgram, IBDA_ConditionalAccess::SetProgram, IBDA_ConditionalAccessSetProgram, SetProgram, SetProgram method [Microsoft TV Technologies], SetProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::SetProgram, mstv.ibda_conditionalaccess_setprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_ConditionalAccess::SetProgram method
+# IBDA_ConditionalAccess::SetProgram
 
 
 ## -description

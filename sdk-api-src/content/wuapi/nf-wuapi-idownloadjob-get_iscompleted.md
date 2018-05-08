@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadJob.get_IsCompleted
-title: IDownloadJob::get_IsCompleted method
+title: IDownloadJob::get_IsCompleted
 author: windows-driver-content
 description: Gets the setting that indicates whether the call to IUpdateDownloader.BeginDownload was processed completely.
 old-location: wua\idownloadjob_iscompleted.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: d63f1bfc-589c-4cd2-95dd-e8c88e7f593c
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IsCompleted property, IDownloadJob.IsCompleted, IDownloadJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent], IDownloadJob interface, get_IsCompleted,IDownloadJob.get_IsCompleted, wua.idownloadjob_iscompleted, wuapi/IDownloadJob::IsCompleted, wuapi/IDownloadJob::get_IsCompleted
+ms.keywords: IDownloadJob interface [Windows Update Agent],IsCompleted property, IDownloadJob.IsCompleted, IDownloadJob.get_IsCompleted, IDownloadJob::IsCompleted, IDownloadJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent],IDownloadJob interface, get_IsCompleted, wua.idownloadjob_iscompleted, wuapi/IDownloadJob::IsCompleted, wuapi/IDownloadJob::get_IsCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IDownloadJob::get_IsCompleted method
+# IDownloadJob::get_IsCompleted
 
 
 ## -description

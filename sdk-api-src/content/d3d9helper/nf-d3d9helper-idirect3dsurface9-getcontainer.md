@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DSurface9.GetContainer
-title: IDirect3DSurface9::GetContainer method
+title: IDirect3DSurface9::GetContainer
 author: windows-driver-content
 description: Provides access to the parent cube texture or texture (mipmap) object, if this surface is a child level of a cube texture or a mipmap. This method can also provide access to the parent swap chain if the surface is a back-buffer child.
 old-location: direct3d9\idirect3dsurface9__getcontainer.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getcontainer.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: GetContainer method [Direct3D 9], GetContainer method [Direct3D 9], IDirect3DSurface9 interface, GetContainer,IDirect3DSurface9.GetContainer, IDirect3DSurface9, IDirect3DSurface9 interface [Direct3D 9], GetContainer method, IDirect3DSurface9::GetContainer, b487bd6c-1138-b391-b264-d95eb2cadb18, d3d9helper/IDirect3DSurface9::GetContainer, direct3d9.idirect3dsurface9__getcontainer
+ms.keywords: GetContainer, GetContainer method [Direct3D 9], GetContainer method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetContainer method, IDirect3DSurface9.GetContainer, IDirect3DSurface9::GetContainer, b487bd6c-1138-b391-b264-d95eb2cadb18, d3d9helper/IDirect3DSurface9::GetContainer, direct3d9.idirect3dsurface9__getcontainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DSurface9::GetContainer method
+# IDirect3DSurface9::GetContainer
 
 
 ## -description

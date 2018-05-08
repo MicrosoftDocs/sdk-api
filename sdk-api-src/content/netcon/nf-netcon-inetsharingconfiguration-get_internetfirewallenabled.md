@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.get_InternetFirewallEnabled
-title: INetSharingConfiguration::get_InternetFirewallEnabled method
+title: INetSharingConfiguration::get_InternetFirewallEnabled
 author: windows-driver-content
 description: The get_InternetFirewallEnabled method determines whether Internet Connection Firewall is enabled on this connection.
 old-location: ics\inetsharingconfiguration_get_internetfirewallenabled.htm
 old-project: ICS
 ms.assetid: 85f6b76f-3c31-4669-a54f-30d12a82935e
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], get_InternetFirewallEnabled method, INetSharingConfiguration::get_InternetFirewallEnabled, _ics_inetsharingconfiguration_get_internetfirewallenabled, get_InternetFirewallEnabled method [ICS/ICF], get_InternetFirewallEnabled method [ICS/ICF], INetSharingConfiguration interface, get_InternetFirewallEnabled,INetSharingConfiguration.get_InternetFirewallEnabled, ics.inetsharingconfiguration_get_internetfirewallenabled, netcon/INetSharingConfiguration::get_InternetFirewallEnabled
+ms.date: 5/1/2018
+ms.keywords: INetSharingConfiguration interface [ICS/ICF],get_InternetFirewallEnabled method, INetSharingConfiguration.get_InternetFirewallEnabled, INetSharingConfiguration::get_InternetFirewallEnabled, _ics_inetsharingconfiguration_get_internetfirewallenabled, get_InternetFirewallEnabled, get_InternetFirewallEnabled method [ICS/ICF], get_InternetFirewallEnabled method [ICS/ICF],INetSharingConfiguration interface, ics.inetsharingconfiguration_get_internetfirewallenabled, netcon/INetSharingConfiguration::get_InternetFirewallEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingConfiguration::get_InternetFirewallEnabled method
+# INetSharingConfiguration::get_InternetFirewallEnabled
 
 
 ## -description

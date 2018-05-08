@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPipeLong.Pull
-title: IPipeLong::Pull method
+title: IPipeLong::Pull
 author: windows-driver-content
 description: Retrieves data of the long integer type from the pipe source.
 old-location: com\ipipelong_pull.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 33da8bd7-3350-4f6e-84f8-3046da226d2f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPipeLong, IPipeLong interface [COM], Pull method, IPipeLong::Pull, Pull method [COM], Pull method [COM], IPipeLong interface, Pull,IPipeLong.Pull, _com_ipipelong_pull, com.ipipelong_pull, objidlbase/IPipeLong::Pull
+ms.keywords: IPipeLong interface [COM],Pull method, IPipeLong.Pull, IPipeLong::Pull, Pull, Pull method [COM], Pull method [COM],IPipeLong interface, _com_ipipelong_pull, com.ipipelong_pull, objidlbase/IPipeLong::Pull
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPipeLong::Pull method
+# IPipeLong::Pull
 
 
 ## -description

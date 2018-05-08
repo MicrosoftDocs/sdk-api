@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetColorProfileResources
-title: IXpsOMPartResources::GetColorProfileResources method
+title: IXpsOMPartResources::GetColorProfileResources
 author: windows-driver-content
 description: Gets the IXpsOMColorProfileResourceCollection interface that contains the color profiles that are used in the XPS document.
 old-location: xps\ixpsompartresources_getcolorprofileresources.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: ad986a95-a77d-4e04-b857-09ee137070e2
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetColorProfileResources method [XPS Documents and Packaging], GetColorProfileResources method [XPS Documents and Packaging], IXpsOMPartResources interface, GetColorProfileResources,IXpsOMPartResources.GetColorProfileResources, IXpsOMPartResources, IXpsOMPartResources interface [XPS Documents and Packaging], GetColorProfileResources method, IXpsOMPartResources::GetColorProfileResources, xps.ixpsompartresources_getcolorprofileresources, xpsobjectmodel/IXpsOMPartResources::GetColorProfileResources
+ms.keywords: GetColorProfileResources, GetColorProfileResources method [XPS Documents and Packaging], GetColorProfileResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetColorProfileResources method, IXpsOMPartResources.GetColorProfileResources, IXpsOMPartResources::GetColorProfileResources, xps.ixpsompartresources_getcolorprofileresources, xpsobjectmodel/IXpsOMPartResources::GetColorProfileResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPartResources::GetColorProfileResources method
+# IXpsOMPartResources::GetColorProfileResources
 
 
 ## -description

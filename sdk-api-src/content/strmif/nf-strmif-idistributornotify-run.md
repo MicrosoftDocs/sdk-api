@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDistributorNotify.Run
-title: IDistributorNotify::Run method
+title: IDistributorNotify::Run
 author: windows-driver-content
 description: The Run method is called when the filter graph is entering a running state.
 old-location: dshow\idistributornotify_run.htm
 old-project: DirectShow
 ms.assetid: d6a6595b-b243-41bf-bba9-6e35fa81116c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDistributorNotify, IDistributorNotify interface [DirectShow], Run method, IDistributorNotify::Run, IDistributorNotifyRun, Run method [DirectShow], Run method [DirectShow], IDistributorNotify interface, Run,IDistributorNotify.Run, dshow.idistributornotify_run, strmif/IDistributorNotify::Run
+ms.date: 4/30/2018
+ms.keywords: IDistributorNotify interface [DirectShow],Run method, IDistributorNotify.Run, IDistributorNotify::Run, IDistributorNotifyRun, Run, Run method [DirectShow], Run method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_run, strmif/IDistributorNotify::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDistributorNotify::Run method
+# IDistributorNotify::Run
 
 
 ## -description

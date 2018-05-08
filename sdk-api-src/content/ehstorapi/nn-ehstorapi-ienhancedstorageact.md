@@ -8,7 +8,7 @@ old-project: enstor
 ms.assetid: 33d5df30-f877-4852-ad2f-af1bb58d0044
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], IEnhancedStorageACT interface [Enhanced Storage], described, ehstorapi/IEnhancedStorageACT, enstor.ienhancedstorageact
+ms.keywords: IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], IEnhancedStorageACT interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageACT, enstor.ienhancedstorageact
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

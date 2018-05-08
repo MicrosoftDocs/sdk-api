@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.Save
-title: IAutomaticUpdatesSettings::Save method
+title: IAutomaticUpdatesSettings::Save
 author: windows-driver-content
 description: Applies the current Automatic Updates settings.
 old-location: wua\iautomaticupdatessettings_save.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: fb54b900-345a-4b36-b16d-52790c0266f6
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IAutomaticUpdatesSettings, IAutomaticUpdatesSettings interface [Windows Update Agent], Save method, IAutomaticUpdatesSettings::Save, Save method [Windows Update Agent], Save method [Windows Update Agent], IAutomaticUpdatesSettings interface, Save,IAutomaticUpdatesSettings.Save, wua.iautomaticupdatessettings_save, wuapi/IAutomaticUpdatesSettings::Save
+ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Save method, IAutomaticUpdatesSettings.Save, IAutomaticUpdatesSettings::Save, Save, Save method [Windows Update Agent], Save method [Windows Update Agent],IAutomaticUpdatesSettings interface, wua.iautomaticupdatessettings_save, wuapi/IAutomaticUpdatesSettings::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdatesSettings::Save method
+# IAutomaticUpdatesSettings::Save
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ICodecAPI.SetValueWithNotify
-title: ICodecAPI::SetValueWithNotify method
+title: ICodecAPI::SetValueWithNotify
 author: windows-driver-content
 description: The SetValueWithNotify method sets a property on a codec and returns a list of other properties that changed as a result.
 old-location: dshow\icodecapi_setvaluewithnotify.htm
 old-project: DirectShow
 ms.assetid: b2899e30-4dfb-47e7-88dd-adba49368a4f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICodecAPI, ICodecAPI interface [DirectShow], SetValueWithNotify method, ICodecAPI::SetValueWithNotify, ICodecAPISetValueWithNotify, SetValueWithNotify method [DirectShow], SetValueWithNotify method [DirectShow], ICodecAPI interface, SetValueWithNotify,ICodecAPI.SetValueWithNotify, dshow.icodecapi_setvaluewithnotify, strmif/ICodecAPI::SetValueWithNotify
+ms.date: 4/30/2018
+ms.keywords: ICodecAPI interface [DirectShow],SetValueWithNotify method, ICodecAPI.SetValueWithNotify, ICodecAPI::SetValueWithNotify, ICodecAPISetValueWithNotify, SetValueWithNotify, SetValueWithNotify method [DirectShow], SetValueWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setvaluewithnotify, strmif/ICodecAPI::SetValueWithNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ICodecAPI::SetValueWithNotify method
+# ICodecAPI::SetValueWithNotify
 
 
 ## -description

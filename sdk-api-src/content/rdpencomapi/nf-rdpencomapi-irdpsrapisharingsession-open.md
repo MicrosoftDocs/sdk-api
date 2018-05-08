@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.Open
-title: IRDPSRAPISharingSession::Open method
+title: IRDPSRAPISharingSession::Open
 author: windows-driver-content
 description: Puts the session in an active state.
 old-location: rdp\irdpsrapisharingsession_open.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 2c97a37d-5862-4ad3-9029-481ea0a789e0
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPISharingSession, IRDPSRAPISharingSession interface [RDP], Open method, IRDPSRAPISharingSession2 interface [RDP], Open method, IRDPSRAPISharingSession2::Open, IRDPSRAPISharingSession::Open, Open method [RDP], Open method [RDP], IRDPSRAPISharingSession interface, Open method [RDP], IRDPSRAPISharingSession2 interface, Open,IRDPSRAPISharingSession.Open, rdp.irdpsrapisharingsession_open, rdpencomapi/IRDPSRAPISharingSession2::Open, rdpencomapi/IRDPSRAPISharingSession::Open
+ms.keywords: IRDPSRAPISharingSession interface [RDP],Open method, IRDPSRAPISharingSession.Open, IRDPSRAPISharingSession2 interface [RDP],Open method, IRDPSRAPISharingSession2::Open, IRDPSRAPISharingSession::Open, Open, Open method [RDP], Open method [RDP],IRDPSRAPISharingSession interface, Open method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession_open, rdpencomapi/IRDPSRAPISharingSession2::Open, rdpencomapi/IRDPSRAPISharingSession::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPISharingSession::Open method
+# IRDPSRAPISharingSession::Open
 
 
 ## -description

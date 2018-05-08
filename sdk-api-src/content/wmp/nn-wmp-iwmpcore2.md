@@ -7,8 +7,8 @@ old-location: wmp\iwmpcore2.htm
 old-project: WMP
 ms.assetid: 5f839bfe-bf67-49eb-8743-57713e1be7c5
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCore2, IWMPCore2 interface [Windows Media Player], IWMPCore2 interface [Windows Media Player], described, IWMPCore2Interface, wmp.iwmpcore2, wmp/IWMPCore2
+ms.date: 5/4/2018
+ms.keywords: IWMPCore2, IWMPCore2 interface [Windows Media Player], IWMPCore2 interface [Windows Media Player],described, IWMPCore2Interface, wmp.iwmpcore2, wmp/IWMPCore2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

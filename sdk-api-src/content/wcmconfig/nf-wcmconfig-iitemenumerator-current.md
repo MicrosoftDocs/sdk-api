@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.IItemEnumerator.Current
-title: IItemEnumerator::Current method
+title: IItemEnumerator::Current
 author: windows-driver-content
 description: Retrieves an item from the current position of the enumerator.
 old-location: smi\iitemenumerator_current.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 0f117274-672f-40da-a4c6-88dd6aa01cf7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Current method [SMI], Current method [SMI], IItemEnumerator interface, Current,IItemEnumerator.Current, IItemEnumerator, IItemEnumerator interface [SMI], Current method, IItemEnumerator::Current, smi.iitemenumerator_current, wcmconfig/IItemEnumerator::Current
+ms.keywords: Current, Current method [SMI], Current method [SMI],IItemEnumerator interface, IItemEnumerator interface [SMI],Current method, IItemEnumerator.Current, IItemEnumerator::Current, smi.iitemenumerator_current, wcmconfig/IItemEnumerator::Current
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IItemEnumerator::Current method
+# IItemEnumerator::Current
 
 
 ## -description

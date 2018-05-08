@@ -7,7 +7,7 @@ old-location: multimedia\avistreamread.htm
 old-project: Multimedia
 ms.assetid: 9490d46f-b11d-466b-a756-092df2db0306
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: AVIStreamRead, AVIStreamRead function [Windows Multimedia], _win32_AVIStreamRead, multimedia.avistreamread, vfw/AVIStreamRead
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTimer.SetTimer
-title: IMFTimer::SetTimer method
+title: IMFTimer::SetTimer
 author: windows-driver-content
 description: Sets a timer that invokes a callback at the specified time.
 old-location: mf\imftimer_settimer.htm
 old-project: medfound
 ms.assetid: 3b583541-6480-490d-883f-376ea95f7a98
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 3b583541-6480-490d-883f-376ea95f7a98, IMFTimer, IMFTimer interface [Media Foundation], SetTimer method, IMFTimer::SetTimer, SetTimer method [Media Foundation], SetTimer method [Media Foundation], IMFTimer interface, SetTimer,IMFTimer.SetTimer, mf.imftimer_settimer, mfidl/IMFTimer::SetTimer
+ms.date: 5/3/2018
+ms.keywords: 3b583541-6480-490d-883f-376ea95f7a98, IMFTimer interface [Media Foundation],SetTimer method, IMFTimer.SetTimer, IMFTimer::SetTimer, SetTimer, SetTimer method [Media Foundation], SetTimer method [Media Foundation],IMFTimer interface, mf.imftimer_settimer, mfidl/IMFTimer::SetTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimer::SetTimer method
+# IMFTimer::SetTimer
 
 
 ## -description

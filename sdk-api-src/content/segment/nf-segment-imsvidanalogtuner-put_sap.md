@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.put_SAP
-title: IMSVidAnalogTuner::put_SAP method
+title: IMSVidAnalogTuner::put_SAP
 author: windows-driver-content
 description: The put_SAP method specifies the tuner's SAP setting to enable secondary audio components.
 old-location: mstv\imsvidanalogtuner_put_sap.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e27efb36-de0c-4255-a5d8-6357f283cd12
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidAnalogTuner, IMSVidAnalogTuner interface [Microsoft TV Technologies], put_SAP method, IMSVidAnalogTuner::put_SAP, IMSVidAnalogTunerput_SAP, mstv.imsvidanalogtuner_put_sap, put_SAP method [Microsoft TV Technologies], put_SAP method [Microsoft TV Technologies], IMSVidAnalogTuner interface, put_SAP,IMSVidAnalogTuner.put_SAP, segment/IMSVidAnalogTuner::put_SAP
+ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_SAP method, IMSVidAnalogTuner.put_SAP, IMSVidAnalogTuner::put_SAP, IMSVidAnalogTunerput_SAP, mstv.imsvidanalogtuner_put_sap, put_SAP, put_SAP method [Microsoft TV Technologies], put_SAP method [Microsoft TV Technologies],IMSVidAnalogTuner interface, segment/IMSVidAnalogTuner::put_SAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidAnalogTuner::put_SAP method
+# IMSVidAnalogTuner::put_SAP
 
 
 ## -description

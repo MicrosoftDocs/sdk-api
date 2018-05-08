@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.RemoveStream
-title: IFsiFileItem2::RemoveStream method
+title: IFsiFileItem2::RemoveStream
 author: windows-driver-content
 description: Removes a named stream association with a file.
 old-location: imapi\ifsifileitem2_removestream.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 4b758048-31e5-43af-a4ae-8916982e90a9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiFileItem2, IFsiFileItem2 interface [IMAPI], RemoveStream method, IFsiFileItem2::RemoveStream, RemoveStream method [IMAPI], RemoveStream method [IMAPI], IFsiFileItem2 interface, RemoveStream,IFsiFileItem2.RemoveStream, imapi.ifsifileitem2_removestream, imapi2fs/IFsiFileItem2::RemoveStream
+ms.keywords: IFsiFileItem2 interface [IMAPI],RemoveStream method, IFsiFileItem2.RemoveStream, IFsiFileItem2::RemoveStream, RemoveStream, RemoveStream method [IMAPI], RemoveStream method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_removestream, imapi2fs/IFsiFileItem2::RemoveStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiFileItem2::RemoveStream method
+# IFsiFileItem2::RemoveStream
 
 
 ## -description

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Msxml.tlb
-req.typenames: XHR_COOKIE_STATE, XHR_COOKIE_STATE
+req.typenames: XHR_COOKIE_STATE
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFontResource
-title: IXpsOMGlyphs::SetFontResource method
+title: IXpsOMGlyphs::SetFontResource
 author: windows-driver-content
 description: Sets the pointer to the IXpsOMFontResource interface of the font resource object that is required for this text.
 old-location: xps\ixpsomglyphs_setfontresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0de80249-a1e1-4205-81bd-3ecb6cc938d4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], SetFontResource method, IXpsOMGlyphs::SetFontResource, SetFontResource method [XPS Documents and Packaging], SetFontResource method [XPS Documents and Packaging], IXpsOMGlyphs interface, SetFontResource,IXpsOMGlyphs.SetFontResource, xps.ixpsomglyphs_setfontresource, xpsobjectmodel/IXpsOMGlyphs::SetFontResource
+ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontResource method, IXpsOMGlyphs.SetFontResource, IXpsOMGlyphs::SetFontResource, SetFontResource, SetFontResource method [XPS Documents and Packaging], SetFontResource method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfontresource, xpsobjectmodel/IXpsOMGlyphs::SetFontResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::SetFontResource method
+# IXpsOMGlyphs::SetFontResource
 
 
 ## -description

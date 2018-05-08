@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetSurfaceType
-title: IDirectDrawVideo::GetSurfaceType method
+title: IDirectDrawVideo::GetSurfaceType
 author: windows-driver-content
 description: The GetSurfaceType method retrieves the actual surface type as a DirectShow DirectDraw Surface (AMDDS) definition.
 old-location: dshow\idirectdrawvideo_getsurfacetype.htm
 old-project: DirectShow
 ms.assetid: f5d5c608-1890-43f8-bdf3-3fcb0c6a2f5e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSurfaceType method [DirectShow], GetSurfaceType method [DirectShow], IDirectDrawVideo interface, GetSurfaceType,IDirectDrawVideo.GetSurfaceType, IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], GetSurfaceType method, IDirectDrawVideo::GetSurfaceType, IDirectDrawVideoGetSurfaceType, amvideo/IDirectDrawVideo::GetSurfaceType, dshow.idirectdrawvideo_getsurfacetype
+ms.date: 4/30/2018
+ms.keywords: GetSurfaceType, GetSurfaceType method [DirectShow], GetSurfaceType method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSurfaceType method, IDirectDrawVideo.GetSurfaceType, IDirectDrawVideo::GetSurfaceType, IDirectDrawVideoGetSurfaceType, amvideo/IDirectDrawVideo::GetSurfaceType, dshow.idirectdrawvideo_getsurfacetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawVideo::GetSurfaceType method
+# IDirectDrawVideo::GetSurfaceType
 
 
 ## -description

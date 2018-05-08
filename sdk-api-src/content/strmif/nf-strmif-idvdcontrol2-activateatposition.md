@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.ActivateAtPosition
-title: IDvdControl2::ActivateAtPosition method
+title: IDvdControl2::ActivateAtPosition
 author: windows-driver-content
 description: The ActivateAtPosition method activates the menu button under the mouse pointer position.
 old-location: dshow\idvdcontrol2_activateatposition.htm
 old-project: DirectShow
 ms.assetid: ff9eb02c-09c0-4b58-8e38-ec84ab1f1c42
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ActivateAtPosition method [DirectShow], ActivateAtPosition method [DirectShow], IDvdControl2 interface, ActivateAtPosition,IDvdControl2.ActivateAtPosition, IDvdControl2, IDvdControl2 interface [DirectShow], ActivateAtPosition method, IDvdControl2::ActivateAtPosition, IDvdControl2ActivateAtPosition, dshow.idvdcontrol2_activateatposition, strmif/IDvdControl2::ActivateAtPosition
+ms.date: 4/30/2018
+ms.keywords: ActivateAtPosition, ActivateAtPosition method [DirectShow], ActivateAtPosition method [DirectShow],IDvdControl2 interface, IDvdControl2 interface [DirectShow],ActivateAtPosition method, IDvdControl2.ActivateAtPosition, IDvdControl2::ActivateAtPosition, IDvdControl2ActivateAtPosition, dshow.idvdcontrol2_activateatposition, strmif/IDvdControl2::ActivateAtPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::ActivateAtPosition method
+# IDvdControl2::ActivateAtPosition
 
 
 ## -description

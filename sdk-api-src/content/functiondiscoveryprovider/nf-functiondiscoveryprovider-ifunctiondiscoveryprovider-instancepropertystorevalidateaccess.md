@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess
-title: IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess method
+title: IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess
 author: windows-driver-content
 description: Verifies that the provider supports the requested access.
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystorevalidateaccess.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 0ee8d65d-0be3-4171-946a-10a15b8f8eb7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFunctionDiscoveryProvider, IFunctionDiscoveryProvider interface, InstancePropertyStoreValidateAccess method, IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess, InstancePropertyStoreValidateAccess method, InstancePropertyStoreValidateAccess method, IFunctionDiscoveryProvider interface, InstancePropertyStoreValidateAccess,IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess, ncd.ifunctiondiscoveryprovider_instancepropertystorevalidateaccess
+ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreValidateAccess method, IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess, IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess, InstancePropertyStoreValidateAccess, InstancePropertyStoreValidateAccess method, InstancePropertyStoreValidateAccess method,IFunctionDiscoveryProvider interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess, ncd.ifunctiondiscoveryprovider_instancepropertystorevalidateaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess method
+# IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess
 
 
 ## -description

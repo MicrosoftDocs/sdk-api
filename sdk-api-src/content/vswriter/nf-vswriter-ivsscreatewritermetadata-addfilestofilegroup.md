@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddFilesToFileGroup
-title: IVssCreateWriterMetadata::AddFilesToFileGroup method
+title: IVssCreateWriterMetadata::AddFilesToFileGroup
 author: windows-driver-content
 description: The AddFilesToFileGroup method adds a file set (a specified file or files) to a specified file group component.
 old-location: base\ivsscreatewritermetadata_addfilestofilegroup.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 5d5a0155-467c-4c42-876e-a1b245cf6f8e
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: AddFilesToFileGroup method [VSS], AddFilesToFileGroup method [VSS], IVssCreateWriterMetadata interface, AddFilesToFileGroup,IVssCreateWriterMetadata.AddFilesToFileGroup, IVssCreateWriterMetadata, IVssCreateWriterMetadata interface [VSS], AddFilesToFileGroup method, IVssCreateWriterMetadata::AddFilesToFileGroup, _win32_ivsscreatewritermetadata_addfilestofilegroup, base.ivsscreatewritermetadata_addfilestofilegroup, vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup
+ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method [VSS], AddFilesToFileGroup method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddFilesToFileGroup method, IVssCreateWriterMetadata.AddFilesToFileGroup, IVssCreateWriterMetadata::AddFilesToFileGroup, _win32_ivsscreatewritermetadata_addfilestofilegroup, base.ivsscreatewritermetadata_addfilestofilegroup, vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssCreateWriterMetadata::AddFilesToFileGroup method
+# IVssCreateWriterMetadata::AddFilesToFileGroup
 
 
 ## -description

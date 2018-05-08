@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 89581a75-9263-45d7-99de-b3bd78a5169c
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnLMProcessor, ITfFnLMProcessor interface [Text Services Framework], ITfFnLMProcessor interface [Text Services Framework], described, _tsf_itffnlmprocessor_ref, ctffunc/ITfFnLMProcessor, tsf.itffnlmprocessor
+ms.keywords: ITfFnLMProcessor, ITfFnLMProcessor interface [Text Services Framework], ITfFnLMProcessor interface [Text Services Framework],described, _tsf_itffnlmprocessor_ref, ctffunc/ITfFnLMProcessor, tsf.itffnlmprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

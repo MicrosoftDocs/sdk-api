@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIObject.GetPrivateData
-title: IDXGIObject::GetPrivateData method
+title: IDXGIObject::GetPrivateData
 author: windows-driver-content
 description: Get a pointer to the object's data.
 old-location: direct3ddxgi\idxgiobject_getprivatedata.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_getprivatedata.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 86763938-a2bf-a817-2ffc-645427783675, GetPrivateData method [DXGI], GetPrivateData method [DXGI], IDXGIObject interface, GetPrivateData,IDXGIObject.GetPrivateData, IDXGIObject, IDXGIObject interface [DXGI], GetPrivateData method, IDXGIObject::GetPrivateData, direct3ddxgi.idxgiobject_getprivatedata, dxgi/IDXGIObject::GetPrivateData
+ms.keywords: 86763938-a2bf-a817-2ffc-645427783675, GetPrivateData, GetPrivateData method [DXGI], GetPrivateData method [DXGI],IDXGIObject interface, IDXGIObject interface [DXGI],GetPrivateData method, IDXGIObject.GetPrivateData, IDXGIObject::GetPrivateData, direct3ddxgi.idxgiobject_getprivatedata, dxgi/IDXGIObject::GetPrivateData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIObject::GetPrivateData method
+# IDXGIObject::GetPrivateData
 
 
 ## -description

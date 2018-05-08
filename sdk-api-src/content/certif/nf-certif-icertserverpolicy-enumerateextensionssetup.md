@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateExtensionsSetup
-title: ICertServerPolicy::EnumerateExtensionsSetup method
+title: ICertServerPolicy::EnumerateExtensionsSetup
 author: windows-driver-content
 description: Initializes the internal enumeration pointer to the first certificate extension associated with the current context.
 old-location: security\icertserverpolicy_enumerateextensionssetup.htm
 old-project: SecCrypto
 ms.assetid: e7ad32a5-d7df-407f-8efe-c9931610c2d2
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertServerPolicy object [Security], EnumerateExtensionsSetup method, EnumerateExtensionsSetup method [Security], EnumerateExtensionsSetup method [Security], CCertServerPolicy object, EnumerateExtensionsSetup method [Security], ICertServerPolicy interface, EnumerateExtensionsSetup,ICertServerPolicy.EnumerateExtensionsSetup, ICertServerPolicy, ICertServerPolicy interface [Security], EnumerateExtensionsSetup method, ICertServerPolicy::EnumerateExtensionsSetup, _certsrv_icertserverpolicy_enumerateextensionssetup, certif/ICertServerPolicy::EnumerateExtensionsSetup, security.icertserverpolicy_enumerateextensionssetup
+ms.date: 4/30/2018
+ms.keywords: CCertServerPolicy object [Security],EnumerateExtensionsSetup method, EnumerateExtensionsSetup, EnumerateExtensionsSetup method [Security], EnumerateExtensionsSetup method [Security],CCertServerPolicy object, EnumerateExtensionsSetup method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateExtensionsSetup method, ICertServerPolicy.EnumerateExtensionsSetup, ICertServerPolicy::EnumerateExtensionsSetup, _certsrv_icertserverpolicy_enumerateextensionssetup, certif/ICertServerPolicy::EnumerateExtensionsSetup, security.icertserverpolicy_enumerateextensionssetup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerPolicy::EnumerateExtensionsSetup method
+# ICertServerPolicy::EnumerateExtensionsSetup
 
 
 ## -description

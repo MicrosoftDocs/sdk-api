@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetTimeFormat
-title: IOpcSigningOptions::SetTimeFormat method
+title: IOpcSigningOptions::SetTimeFormat
 author: windows-driver-content
 description: Sets the format of the string retrieved by the IOpcDigitalSignature::GetSigningTime method.
 old-location: opc\iopcsigningoptions_settimeformat.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 3f8c1dbe-6347-4013-bda6-5e08c9d6921d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], SetTimeFormat method, IOpcSigningOptions::SetTimeFormat, SetTimeFormat method [Open Packaging Conventions], SetTimeFormat method [Open Packaging Conventions], IOpcSigningOptions interface, SetTimeFormat,IOpcSigningOptions.SetTimeFormat, msopc/IOpcSigningOptions::SetTimeFormat, opc.iopcsigningoptions_settimeformat
+ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetTimeFormat method, IOpcSigningOptions.SetTimeFormat, IOpcSigningOptions::SetTimeFormat, SetTimeFormat, SetTimeFormat method [Open Packaging Conventions], SetTimeFormat method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetTimeFormat, opc.iopcsigningoptions_settimeformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSigningOptions::SetTimeFormat method
+# IOpcSigningOptions::SetTimeFormat
 
 
 ## -description

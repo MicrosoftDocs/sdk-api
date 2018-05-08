@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordTotalBitRate
-title: IIsdbComponentGroupDescriptor::GetRecordTotalBitRate method
+title: IIsdbComponentGroupDescriptor::GetRecordTotalBitRate
 author: windows-driver-content
 description: Gets the total bit rate from a component within a component group in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordtotalbitrate.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7c84dc9f-933c-4fc8-982c-1f311b94ddf4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordTotalBitRate method [Microsoft TV Technologies], GetRecordTotalBitRate method [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface, GetRecordTotalBitRate,IIsdbComponentGroupDescriptor.GetRecordTotalBitRate, IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], GetRecordTotalBitRate method, IIsdbComponentGroupDescriptor::GetRecordTotalBitRate, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordTotalBitRate, mstv.iisdbcomponentgroupdescriptor_getrecordtotalbitrate
+ms.keywords: GetRecordTotalBitRate, GetRecordTotalBitRate method [Microsoft TV Technologies], GetRecordTotalBitRate method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordTotalBitRate method, IIsdbComponentGroupDescriptor.GetRecordTotalBitRate, IIsdbComponentGroupDescriptor::GetRecordTotalBitRate, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordTotalBitRate, mstv.iisdbcomponentgroupdescriptor_getrecordtotalbitrate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbComponentGroupDescriptor::GetRecordTotalBitRate method
+# IIsdbComponentGroupDescriptor::GetRecordTotalBitRate
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisessionSequential.get_FreeSectorsOnMedia
-title: IMultisessionSequential::get_FreeSectorsOnMedia method
+title: IMultisessionSequential::get_FreeSectorsOnMedia
 author: windows-driver-content
 description: Retrieves the number of free sectors available on the media.
 old-location: imapi\imultisessionsequential_get_freesectorsonmedia.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d308a080-8858-4d80-8203-bce9f8d9bed6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMultisessionSequential, IMultisessionSequential interface [IMAPI], get_FreeSectorsOnMedia method, IMultisessionSequential::get_FreeSectorsOnMedia, get_FreeSectorsOnMedia method [IMAPI], get_FreeSectorsOnMedia method [IMAPI], IMultisessionSequential interface, get_FreeSectorsOnMedia,IMultisessionSequential.get_FreeSectorsOnMedia, imapi.imultisessionsequential_get_freesectorsonmedia, imapi2/IMultisessionSequential::get_FreeSectorsOnMedia
+ms.keywords: IMultisessionSequential interface [IMAPI],get_FreeSectorsOnMedia method, IMultisessionSequential.get_FreeSectorsOnMedia, IMultisessionSequential::get_FreeSectorsOnMedia, get_FreeSectorsOnMedia, get_FreeSectorsOnMedia method [IMAPI], get_FreeSectorsOnMedia method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_freesectorsonmedia, imapi2/IMultisessionSequential::get_FreeSectorsOnMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMultisessionSequential::get_FreeSectorsOnMedia method
+# IMultisessionSequential::get_FreeSectorsOnMedia
 
 
 ## -description

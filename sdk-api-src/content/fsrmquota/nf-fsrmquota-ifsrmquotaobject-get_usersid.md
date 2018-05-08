@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.get_UserSid
-title: IFsrmQuotaObject::get_UserSid method
+title: IFsrmQuotaObject::get_UserSid
 author: windows-driver-content
 description: Retrieves the string form of the user's security identifier (SID) that is associated with the object.
 old-location: fsrm\ifsrmquotaobject_usersid.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: f6eed71b-4d14-471a-a686-f7a2be7bf63b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmQuotaObject, IFsrmQuotaObject interface [File Server Resource Manager], UserSid property, IFsrmQuotaObject.UserSid, IFsrmQuotaObject::get_UserSid, UserSid property [File Server Resource Manager], UserSid property [File Server Resource Manager], IFsrmQuotaObject interface, fs.ifsrmquotaobject_usersid, fsrm.ifsrmquotaobject_usersid, fsrmquota/IFsrmQuotaObject::UserSid, fsrmquota/IFsrmQuotaObject::get_UserSid, get_UserSid,IFsrmQuotaObject.get_UserSid
+ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],UserSid property, IFsrmQuotaObject.UserSid, IFsrmQuotaObject.get_UserSid, IFsrmQuotaObject::UserSid, IFsrmQuotaObject::get_UserSid, UserSid property [File Server Resource Manager], UserSid property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_usersid, fsrm.ifsrmquotaobject_usersid, fsrmquota/IFsrmQuotaObject::UserSid, fsrmquota/IFsrmQuotaObject::get_UserSid, get_UserSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaObject::get_UserSid method
+# IFsrmQuotaObject::get_UserSid
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGlyphs
-title: IXpsOMObjectFactory::CreateGlyphs method
+title: IXpsOMObjectFactory::CreateGlyphs
 author: windows-driver-content
 description: Creates an IXpsOMGlyphs interface, which specifies text that appears on a page.
 old-location: xps\ixpsomobjectfactory_createglyphs.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b97005dc-a79b-4234-b1a9-8fe705aea518
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateGlyphs method [XPS Documents and Packaging], CreateGlyphs method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateGlyphs,IXpsOMObjectFactory.CreateGlyphs, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateGlyphs method, IXpsOMObjectFactory::CreateGlyphs, xps.ixpsomobjectfactory_createglyphs, xpsobjectmodel/IXpsOMObjectFactory::CreateGlyphs
+ms.keywords: CreateGlyphs, CreateGlyphs method [XPS Documents and Packaging], CreateGlyphs method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGlyphs method, IXpsOMObjectFactory.CreateGlyphs, IXpsOMObjectFactory::CreateGlyphs, xps.ixpsomobjectfactory_createglyphs, xpsobjectmodel/IXpsOMObjectFactory::CreateGlyphs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateGlyphs method
+# IXpsOMObjectFactory::CreateGlyphs
 
 
 ## -description

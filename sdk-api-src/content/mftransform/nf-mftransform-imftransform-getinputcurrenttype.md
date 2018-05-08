@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.GetInputCurrentType
-title: IMFTransform::GetInputCurrentType method
+title: IMFTransform::GetInputCurrentType
 author: windows-driver-content
 description: Gets the current media type for an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getinputcurrenttype.htm
 old-project: medfound
 ms.assetid: f3603586-41fd-4eed-9942-28925ed29690
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetInputCurrentType method [Media Foundation], GetInputCurrentType method [Media Foundation], IMFTransform interface, GetInputCurrentType,IMFTransform.GetInputCurrentType, IMFTransform, IMFTransform interface [Media Foundation], GetInputCurrentType method, IMFTransform::GetInputCurrentType, f3603586-41fd-4eed-9942-28925ed29690, mf.imftransform_getinputcurrenttype, mftransform/IMFTransform::GetInputCurrentType
+ms.date: 5/3/2018
+ms.keywords: GetInputCurrentType, GetInputCurrentType method [Media Foundation], GetInputCurrentType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputCurrentType method, IMFTransform.GetInputCurrentType, IMFTransform::GetInputCurrentType, f3603586-41fd-4eed-9942-28925ed29690, mf.imftransform_getinputcurrenttype, mftransform/IMFTransform::GetInputCurrentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::GetInputCurrentType method
+# IMFTransform::GetInputCurrentType
 
 
 ## -description

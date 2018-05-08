@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 9263E130-49DE-465C-A852-34E2D93A4211
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function [Failover Cluster], SetResourceInMemoryNodeLocalProperties, SetResourceInMemoryNodeLocalProperties callback function [Failover Cluster], mscs.setresourceinmemorynodelocalproperties, resapi/PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, resapi/SetResourceInMemoryNodeLocalProperties
+ms.keywords: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function [Failover Cluster], SetResourceInMemoryNodeLocalProperties, SetResourceInMemoryNodeLocalProperties callback, SetResourceInMemoryNodeLocalProperties callback function [Failover Cluster], mscs.setresourceinmemorynodelocalproperties, resapi/PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, resapi/SetResourceInMemoryNodeLocalProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback
+# PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function
 
 
 ## -description

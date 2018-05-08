@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll4.setPendingRequestInfo
-title: ICEnroll4::setPendingRequestInfo method
+title: ICEnroll4::setPendingRequestInfo
 author: windows-driver-content
 description: Sets properties for a pending request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_setpendingrequestinfo.htm
 old-project: SecCrypto
 ms.assetid: be369059-5852-4cde-8f78-d5883735b670
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], setPendingRequestInfo method, ICEnroll4, ICEnroll4 interface [Security], setPendingRequestInfo method, ICEnroll4::setPendingRequestInfo, _xen_icenroll4_setpendingrequestinfo, security.icenroll4_setpendingrequestinfo, setPendingRequestInfo method [Security], setPendingRequestInfo method [Security], CEnroll object, setPendingRequestInfo method [Security], ICEnroll4 interface, setPendingRequestInfo,ICEnroll4.setPendingRequestInfo, xenroll/ICEnroll4::setPendingRequestInfo
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],setPendingRequestInfo method, ICEnroll4 interface [Security],setPendingRequestInfo method, ICEnroll4.setPendingRequestInfo, ICEnroll4::setPendingRequestInfo, _xen_icenroll4_setpendingrequestinfo, security.icenroll4_setpendingrequestinfo, setPendingRequestInfo, setPendingRequestInfo method [Security], setPendingRequestInfo method [Security],CEnroll object, setPendingRequestInfo method [Security],ICEnroll4 interface, xenroll/ICEnroll4::setPendingRequestInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll4::setPendingRequestInfo method
+# ICEnroll4::setPendingRequestInfo
 
 
 ## -description

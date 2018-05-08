@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetAccessibilityShortDescription
-title: IXpsOMCanvas::SetAccessibilityShortDescription method
+title: IXpsOMCanvas::SetAccessibilityShortDescription
 author: windows-driver-content
 description: Sets the short textual description of the object's contents.
 old-location: xps\ixpsomcanvas_setaccessibilityshortdescription.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0968e378-99eb-470c-9bf0-51f65906b07b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], SetAccessibilityShortDescription method, IXpsOMCanvas::SetAccessibilityShortDescription, SetAccessibilityShortDescription method [XPS Documents and Packaging], SetAccessibilityShortDescription method [XPS Documents and Packaging], IXpsOMCanvas interface, SetAccessibilityShortDescription,IXpsOMCanvas.SetAccessibilityShortDescription, xps.ixpsomcanvas_setaccessibilityshortdescription, xpsobjectmodel/IXpsOMCanvas::SetAccessibilityShortDescription
+ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetAccessibilityShortDescription method, IXpsOMCanvas.SetAccessibilityShortDescription, IXpsOMCanvas::SetAccessibilityShortDescription, SetAccessibilityShortDescription, SetAccessibilityShortDescription method [XPS Documents and Packaging], SetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setaccessibilityshortdescription, xpsobjectmodel/IXpsOMCanvas::SetAccessibilityShortDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCanvas::SetAccessibilityShortDescription method
+# IXpsOMCanvas::SetAccessibilityShortDescription
 
 
 ## -description

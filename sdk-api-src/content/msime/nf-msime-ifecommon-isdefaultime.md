@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFECommon.IsDefaultIME
-title: IFECommon::IsDefaultIME method
+title: IFECommon::IsDefaultIME
 author: windows-driver-content
 description: Determines if the IME specified by the class ID is the default IME on a local computer.
 old-location: intl\ifecommon_isdefaultime.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: FFC3E200-54D4-4C47-A4A3-87AA2A4A2232
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFECommon, IFECommon interface [Internationalization for Windows Applications], IsDefaultIME method, IFECommon::IsDefaultIME, IsDefaultIME method [Internationalization for Windows Applications], IsDefaultIME method [Internationalization for Windows Applications], IFECommon interface, IsDefaultIME,IFECommon.IsDefaultIME, intl.ifecommon_isdefaultime, msime/IFECommon::IsDefaultIME
+ms.keywords: IFECommon interface [Internationalization for Windows Applications],IsDefaultIME method, IFECommon.IsDefaultIME, IFECommon::IsDefaultIME, IsDefaultIME, IsDefaultIME method [Internationalization for Windows Applications], IsDefaultIME method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_isdefaultime, msime/IFECommon::IsDefaultIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFECommon::IsDefaultIME method
+# IFECommon::IsDefaultIME
 
 
 ## -description

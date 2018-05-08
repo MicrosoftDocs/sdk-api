@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.GetCenterPoint
-title: IDirectManipulationPrimaryContent::GetCenterPoint method
+title: IDirectManipulationPrimaryContent::GetCenterPoint
 author: windows-driver-content
 description: Retrieves the center point of the manipulation in content coordinates.
 old-location: directmanipulation\idirectmanipulationprimarycontent_getcenterpoint.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: e38c1445-af4b-463b-8796-d72d69cb19c6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetCenterPoint method [Direct Manipulation], GetCenterPoint method [Direct Manipulation], IDirectManipulationPrimaryContent interface, GetCenterPoint,IDirectManipulationPrimaryContent.GetCenterPoint, IDirectManipulationPrimaryContent, IDirectManipulationPrimaryContent interface [Direct Manipulation], GetCenterPoint method, IDirectManipulationPrimaryContent::GetCenterPoint, directmanipulation.idirectmanipulationprimarycontent_getcenterpoint, directmanipulation/IDirectManipulationPrimaryContent::GetCenterPoint
+ms.keywords: GetCenterPoint, GetCenterPoint method [Direct Manipulation], GetCenterPoint method [Direct Manipulation],IDirectManipulationPrimaryContent interface, IDirectManipulationPrimaryContent interface [Direct Manipulation],GetCenterPoint method, IDirectManipulationPrimaryContent.GetCenterPoint, IDirectManipulationPrimaryContent::GetCenterPoint, directmanipulation.idirectmanipulationprimarycontent_getcenterpoint, directmanipulation/IDirectManipulationPrimaryContent::GetCenterPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationPrimaryContent::GetCenterPoint method
+# IDirectManipulationPrimaryContent::GetCenterPoint
 
 
 ## -description

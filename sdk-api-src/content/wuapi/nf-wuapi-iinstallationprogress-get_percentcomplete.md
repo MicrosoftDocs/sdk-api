@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationProgress.get_PercentComplete
-title: IInstallationProgress::get_PercentComplete method
+title: IInstallationProgress::get_PercentComplete
 author: windows-driver-content
 description: Gets how far the overall installation or uninstallation process has progressed, as a percentage.
 old-location: wua\iinstallationprogress_percentcomplete.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 46f1d509-942f-4931-81ec-c01bac38c00b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IInstallationProgress, IInstallationProgress interface [Windows Update Agent], PercentComplete property, IInstallationProgress.PercentComplete, IInstallationProgress::get_PercentComplete, PercentComplete property [Windows Update Agent], PercentComplete property [Windows Update Agent], IInstallationProgress interface, get_PercentComplete,IInstallationProgress.get_PercentComplete, wua.iinstallationprogress_percentcomplete, wuapi/IInstallationProgress::PercentComplete, wuapi/IInstallationProgress::get_PercentComplete
+ms.keywords: IInstallationProgress interface [Windows Update Agent],PercentComplete property, IInstallationProgress.PercentComplete, IInstallationProgress.get_PercentComplete, IInstallationProgress::PercentComplete, IInstallationProgress::get_PercentComplete, PercentComplete property [Windows Update Agent], PercentComplete property [Windows Update Agent],IInstallationProgress interface, get_PercentComplete, wua.iinstallationprogress_percentcomplete, wuapi/IInstallationProgress::PercentComplete, wuapi/IInstallationProgress::get_PercentComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInstallationProgress::get_PercentComplete method
+# IInstallationProgress::get_PercentComplete
 
 
 ## -description

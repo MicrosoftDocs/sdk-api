@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: 33403a07-28d1-4138-ea7f-04f3ac42a8f7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: SetAttributeValue, SetAttributeValue methods [Direct2D], d2d1svg/SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_overload
+ms.keywords: ID2D1SvgElement::SetAttributeValue, SetAttributeValue, SetAttributeValue methods [Direct2D], d2d1svg/SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_overload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDevice.get_ClassID
-title: IMSVidDevice::get_ClassID method
+title: IMSVidDevice::get_ClassID
 author: windows-driver-content
 description: The get_ClassID method retrieves the device's class identifier (CLSID) as a BSTR.
 old-location: mstv\imsviddevice_get_classid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 78910e3d-bd00-48c5-b1be-504dc92280a0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidDevice, IMSVidDevice interface [Microsoft TV Technologies], get_ClassID method, IMSVidDevice::get_ClassID, IMSVidDeviceget_ClassID, get_ClassID method [Microsoft TV Technologies], get_ClassID method [Microsoft TV Technologies], IMSVidDevice interface, get_ClassID,IMSVidDevice.get_ClassID, mstv.imsviddevice_get_classid, segment/IMSVidDevice::get_ClassID
+ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_ClassID method, IMSVidDevice.get_ClassID, IMSVidDevice::get_ClassID, IMSVidDeviceget_ClassID, get_ClassID, get_ClassID method [Microsoft TV Technologies], get_ClassID method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_classid, segment/IMSVidDevice::get_ClassID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidDevice::get_ClassID method
+# IMSVidDevice::get_ClassID
 
 
 ## -description

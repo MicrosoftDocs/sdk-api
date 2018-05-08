@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.EnableHorizontalMirrorMode
-title: IMFMediaEngineEx::EnableHorizontalMirrorMode method
+title: IMFMediaEngineEx::EnableHorizontalMirrorMode
 author: windows-driver-content
 description: Enables or disables mirroring of the video.
 old-location: mf\imfmediaengineex_enablehorizontalmirrormode.htm
 old-project: medfound
 ms.assetid: 1B8F2CE8-0963-472F-8C30-AE2BBA844D26
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: EnableHorizontalMirrorMode method [Media Foundation], EnableHorizontalMirrorMode method [Media Foundation], IMFMediaEngineEx interface, EnableHorizontalMirrorMode,IMFMediaEngineEx.EnableHorizontalMirrorMode, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], EnableHorizontalMirrorMode method, IMFMediaEngineEx::EnableHorizontalMirrorMode, mf.imfmediaengineex_enablehorizontalmirrormode, mfmediaengine/IMFMediaEngineEx::EnableHorizontalMirrorMode
+ms.date: 5/3/2018
+ms.keywords: EnableHorizontalMirrorMode, EnableHorizontalMirrorMode method [Media Foundation], EnableHorizontalMirrorMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],EnableHorizontalMirrorMode method, IMFMediaEngineEx.EnableHorizontalMirrorMode, IMFMediaEngineEx::EnableHorizontalMirrorMode, mf.imfmediaengineex_enablehorizontalmirrormode, mfmediaengine/IMFMediaEngineEx::EnableHorizontalMirrorMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::EnableHorizontalMirrorMode method
+# IMFMediaEngineEx::EnableHorizontalMirrorMode
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext2.put_EnabledUnicodeRanges
-title: IInkRecognizerContext2::put_EnabledUnicodeRanges method
+title: IInkRecognizerContext2::put_EnabledUnicodeRanges
 author: windows-driver-content
 description: Gets or sets a set of one or more Unicode ranges that the recognizer context will support.
 old-location: tablet\iinkrecognizercontext2_enabledunicoderanges.htm
 old-project: tablet
 ms.assetid: d976eed0-32d0-47ab-931e-177635f95875
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnabledUnicodeRanges property [Tablet PC], EnabledUnicodeRanges property [Tablet PC], IInkRecognizerContext2 interface, IInkRecognizerContext2, IInkRecognizerContext2 interface [Tablet PC], EnabledUnicodeRanges property, IInkRecognizerContext2.EnabledUnicodeRanges, IInkRecognizerContext2.get_EnabledUnicodeRanges, IInkRecognizerContext2.put_EnabledUnicodeRanges, IInkRecognizerContext2::get_EnabledUnicodeRanges, IInkRecognizerContext2::put_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::get_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::put_EnabledUnicodeRanges, put_EnabledUnicodeRanges,IInkRecognizerContext2.put_EnabledUnicodeRanges, tablet.iinkrecognizercontext2_enabledunicoderanges
+ms.date: 5/2/2018
+ms.keywords: EnabledUnicodeRanges property [Tablet PC], EnabledUnicodeRanges property [Tablet PC],IInkRecognizerContext2 interface, IInkRecognizerContext2 interface [Tablet PC],EnabledUnicodeRanges property, IInkRecognizerContext2.EnabledUnicodeRanges, IInkRecognizerContext2.get_EnabledUnicodeRanges, IInkRecognizerContext2.put_EnabledUnicodeRanges, IInkRecognizerContext2::EnabledUnicodeRanges, IInkRecognizerContext2::get_EnabledUnicodeRanges, IInkRecognizerContext2::put_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::get_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::put_EnabledUnicodeRanges, put_EnabledUnicodeRanges, tablet.iinkrecognizercontext2_enabledunicoderanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognizerContext2::put_EnabledUnicodeRanges method
+# IInkRecognizerContext2::put_EnabledUnicodeRanges
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bitRate
-title: IWMPNetwork::get_bitRate method
+title: IWMPNetwork::get_bitRate
 author: windows-driver-content
 description: The get_bitRate method retrieves the current bit rate being received.
 old-location: wmp\iwmpnetwork_get_bitrate.htm
 old-project: WMP
 ms.assetid: dfac8b29-47d9-4cee-801b-f43fa2bba6ed
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], get_bitRate method, IWMPNetwork::get_bitRate, IWMPNetworkget_bitRate, get_bitRate method [Windows Media Player], get_bitRate method [Windows Media Player], IWMPNetwork interface, get_bitRate,IWMPNetwork.get_bitRate, wmp.iwmpnetwork_get_bitrate, wmp/IWMPNetwork::get_bitRate
+ms.date: 5/4/2018
+ms.keywords: IWMPNetwork interface [Windows Media Player],get_bitRate method, IWMPNetwork.get_bitRate, IWMPNetwork::get_bitRate, IWMPNetworkget_bitRate, get_bitRate, get_bitRate method [Windows Media Player], get_bitRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bitrate, wmp/IWMPNetwork::get_bitRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNetwork::get_bitRate method
+# IWMPNetwork::get_bitRate
 
 
 ## -description

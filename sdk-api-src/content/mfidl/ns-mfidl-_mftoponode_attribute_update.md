@@ -7,7 +7,7 @@ old-location: mf\mftoponode_attribute_update.htm
 old-project: medfound
 ms.assetid: 94c89067-9b3e-4d24-9192-a68e284c5d99
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 94c89067-9b3e-4d24-9192-a68e284c5d99, MFTOPONODE_ATTRIBUTE_UPDATE, MFTOPONODE_ATTRIBUTE_UPDATE structure [Media Foundation], _MFTOPONODE_ATTRIBUTE_UPDATE, mf.mftoponode_attribute_update, mfidl/MFTOPONODE_ATTRIBUTE_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,24 +79,24 @@ Specifies a new attribute value for a topology node.
           
 
 
-#### - d
-
-
-              Attribute value (floating point). This member is used when <b>attrType</b> equals <b>MF_ATTRIBUTE_DOUBLE</b>.
-            
-
-
-#### - u32
+### -field u32
 
 
               Attribute value (unsigned 32-bit integer). This member is used when <b>attrType</b> equals <b>MF_ATTRIBUTE_UINT32</b>.
             
 
 
-#### - u64
+### -field u64
 
 
               Attribute value (unsigned 32-bit integer). This member is used when <b>attrType</b> equals <b>MF_ATTRIBUTE_UINT64</b>. See Remarks.
+            
+
+
+### -field d
+
+
+              Attribute value (floating point). This member is used when <b>attrType</b> equals <b>MF_ATTRIBUTE_DOUBLE</b>.
             
 
 

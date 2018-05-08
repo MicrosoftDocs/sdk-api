@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IClosable.Close
-title: IClosable::Close method
+title: IClosable::IClosable
 author: windows-driver-content
 description: Performs application-defined tasks associated with freeing, releasing, or resetting allocated resources.
 old-location: winrt\iclosable_close.htm
 old-project: WinRT
 ms.assetid: B08161D3-01D9-4782-A3FA-EAD15DA8B7D9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Close method [Windows Runtime], Close method [Windows Runtime], IClosable interface, Close,IClosable.Close, IClosable, IClosable interface [Windows Runtime], Close method, IClosable::Close, windows/IClosable::Close, winrt.iclosable_close
+ms.date: 5/4/2018
+ms.keywords: Close, Close method [Windows Runtime], Close method [Windows Runtime],IClosable interface, IClosable interface [Windows Runtime],Close method, IClosable.Close, IClosable.IClosable, IClosable::Close, IClosable::IClosable, windows/IClosable::Close, winrt.iclosable_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IClosable::Close method
+# IClosable::IClosable
 
 
 ## -description

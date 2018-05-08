@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsSecurityUtility.get_SecurityMask
-title: IADsSecurityUtility::get_SecurityMask method
+title: IADsSecurityUtility::get_SecurityMask
 author: windows-driver-content
 description: Determines which elements of the security descriptor to retrieve or set.
 old-location: adsi\iadssecurityutility_securitymask.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: b54ebe68-f7ce-484e-9378-04662b7a1051
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsSecurityUtility, IADsSecurityUtility interface [ADSI], SecurityMask property, IADsSecurityUtility.SecurityMask, IADsSecurityUtility::get_SecurityMask, IADsSecurityUtility::put_SecurityMask, SecurityMask property [ADSI], SecurityMask property [ADSI], IADsSecurityUtility interface, adsi.iadssecurityutility_securitymask, get_SecurityMask,IADsSecurityUtility.get_SecurityMask, iads/IADsSecurityUtility::SecurityMask, iads/IADsSecurityUtility::get_SecurityMask, iads/IADsSecurityUtility::put_SecurityMask
+ms.keywords: IADsSecurityUtility interface [ADSI],SecurityMask property, IADsSecurityUtility.SecurityMask, IADsSecurityUtility.get_SecurityMask, IADsSecurityUtility::SecurityMask, IADsSecurityUtility::get_SecurityMask, IADsSecurityUtility::put_SecurityMask, SecurityMask property [ADSI], SecurityMask property [ADSI],IADsSecurityUtility interface, adsi.iadssecurityutility_securitymask, get_SecurityMask, iads/IADsSecurityUtility::SecurityMask, iads/IADsSecurityUtility::get_SecurityMask, iads/IADsSecurityUtility::put_SecurityMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsSecurityUtility::get_SecurityMask method
+# IADsSecurityUtility::get_SecurityMask
 
 
 ## -description

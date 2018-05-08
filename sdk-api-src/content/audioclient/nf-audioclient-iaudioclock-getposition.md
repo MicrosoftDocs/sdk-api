@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClock.GetPosition
-title: IAudioClock::GetPosition method
+title: IAudioClock::GetPosition
 author: windows-driver-content
 description: The GetPosition method gets the current device position.
 old-location: coreaudio\iaudioclock_getposition.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 2271bd73-8cb6-4048-a16c-f765d0fae6bd
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetPosition method [Core Audio], GetPosition method [Core Audio], IAudioClock interface, GetPosition,IAudioClock.GetPosition, IAudioClock, IAudioClock interface [Core Audio], GetPosition method, IAudioClock::GetPosition, IAudioClockGetPosition, audioclient/IAudioClock::GetPosition, coreaudio.iaudioclock_getposition
+ms.keywords: GetPosition, GetPosition method [Core Audio], GetPosition method [Core Audio],IAudioClock interface, IAudioClock interface [Core Audio],GetPosition method, IAudioClock.GetPosition, IAudioClock::GetPosition, IAudioClockGetPosition, audioclient/IAudioClock::GetPosition, coreaudio.iaudioclock_getposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioClock::GetPosition method
+# IAudioClock::GetPosition
 
 
 ## -description

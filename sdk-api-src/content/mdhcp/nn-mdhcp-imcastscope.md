@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: b0252ac4-856e-4aa7-aa3b-37b92472e864
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], IMcastScope interface [TAPI 2.2], described, _tapi3_imcastscope, mdhcp/IMcastScope, tapi3.imcastscope
+ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], IMcastScope interface [TAPI 2.2],described, _tapi3_imcastscope, mdhcp/IMcastScope, tapi3.imcastscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

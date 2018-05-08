@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetDeviceId
-title: IDeviceTopology::GetDeviceId method
+title: IDeviceTopology::GetDeviceId
 author: windows-driver-content
 description: The GetDeviceId method gets the device identifier of the device that is represented by the device-topology object.
 old-location: coreaudio\idevicetopology_getdeviceid.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 2ecf8f23-7cfd-447a-ab76-8a23b79f5d6c
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetDeviceId method [Core Audio], GetDeviceId method [Core Audio], IDeviceTopology interface, GetDeviceId,IDeviceTopology.GetDeviceId, IDeviceTopology, IDeviceTopology interface [Core Audio], GetDeviceId method, IDeviceTopology::GetDeviceId, IDeviceTopologyGetDeviceId, coreaudio.idevicetopology_getdeviceid, devicetopology/IDeviceTopology::GetDeviceId
+ms.keywords: GetDeviceId, GetDeviceId method [Core Audio], GetDeviceId method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetDeviceId method, IDeviceTopology.GetDeviceId, IDeviceTopology::GetDeviceId, IDeviceTopologyGetDeviceId, coreaudio.idevicetopology_getdeviceid, devicetopology/IDeviceTopology::GetDeviceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDeviceTopology::GetDeviceId method
+# IDeviceTopology::GetDeviceId
 
 
 ## -description

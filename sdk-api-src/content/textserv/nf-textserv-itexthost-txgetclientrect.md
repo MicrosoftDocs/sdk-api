@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxGetClientRect
-title: ITextHost::TxGetClientRect method
+title: ITextHost::TxGetClientRect
 author: windows-driver-content
 description: Retrieves the client coordinates of the text host's client area.
 old-location: controls\ITextHost_TxGetClientRect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetclientrect.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxGetClientRect method, ITextHost::TxGetClientRect, TxGetClientRect method [Windows Controls], TxGetClientRect method [Windows Controls], ITextHost interface, TxGetClientRect,ITextHost.TxGetClientRect, _win32_ITextHost_TxGetClientRect, _win32_ITextHost_TxGetClientRect_cpp, controls.ITextHost_TxGetClientRect, controls._win32_ITextHost_TxGetClientRect, textserv/ITextHost::TxGetClientRect
+ms.date: 4/27/2018
+ms.keywords: ITextHost interface [Windows Controls],TxGetClientRect method, ITextHost.TxGetClientRect, ITextHost::TxGetClientRect, TxGetClientRect, TxGetClientRect method [Windows Controls], TxGetClientRect method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetClientRect, _win32_ITextHost_TxGetClientRect_cpp, controls.ITextHost_TxGetClientRect, controls._win32_ITextHost_TxGetClientRect, textserv/ITextHost::TxGetClientRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxGetClientRect method
+# ITextHost::TxGetClientRect
 
 
 ## -description

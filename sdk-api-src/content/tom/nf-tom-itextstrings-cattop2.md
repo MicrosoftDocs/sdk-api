@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextStrings.CatTop2
-title: ITextStrings::CatTop2 method
+title: ITextStrings::CatTop2
 author: windows-driver-content
 description: Inserts text between the top two strings in a collection.
 old-location: controls\itextstrings_cattop2.htm
 old-project: Controls
 ms.assetid: 50cc7bbb-51c2-40fd-9ef9-3b06ee9aca1d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: CatTop2 method [Windows Controls], CatTop2 method [Windows Controls], ITextStrings interface, CatTop2,ITextStrings.CatTop2, ITextStrings, ITextStrings interface [Windows Controls], CatTop2 method, ITextStrings::CatTop2, controls.itextstrings_cattop2, tom/ITextStrings::CatTop2
+ms.date: 4/27/2018
+ms.keywords: CatTop2, CatTop2 method [Windows Controls], CatTop2 method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],CatTop2 method, ITextStrings.CatTop2, ITextStrings::CatTop2, controls.itextstrings_cattop2, tom/ITextStrings::CatTop2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStrings::CatTop2 method
+# ITextStrings::CatTop2
 
 
 ## -description

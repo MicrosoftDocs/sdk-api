@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4ce2e967-7b4a-4065-844d-d8852dec8a8f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DdFlip, DdFlip callback function [Display Devices], PDD_SURFCB_FLIP, ddfncs_c7f9b1ea-0c9e-47f3-8fd1-b814d6e6adbd.xml, ddrawint/DdFlip, display.ddflip
+ms.keywords: DdFlip, DdFlip callback function [Display Devices], PDD_SURFCB_FLIP, PDD_SURFCB_FLIP callback, ddfncs_c7f9b1ea-0c9e-47f3-8fd1-b814d6e6adbd.xml, ddrawint/DdFlip, display.ddflip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PDD_SURFCB_FLIP callback
+# PDD_SURFCB_FLIP callback function
 
 
 ## -description

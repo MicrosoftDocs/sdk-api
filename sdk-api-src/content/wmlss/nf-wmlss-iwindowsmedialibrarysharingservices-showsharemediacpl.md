@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.showShareMediaCPL
-title: IWindowsMediaLibrarySharingServices::showShareMediaCPL method
+title: IWindowsMediaLibrarySharingServices::showShareMediaCPL
 author: windows-driver-content
 description: The showShareMediaCPL method displays the media sharing page in the Control Panel and highlights a specified device.
 old-location: wmlss\IWMLSSshowShareMediaCPL.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: 38d185f3-f5d7-44e8-a36d-673594e3f80c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], showShareMediaCPL method, IWindowsMediaLibrarySharingServices::showShareMediaCPL, showShareMediaCPL method [Windows Media Library Sharing Services], showShareMediaCPL method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, showShareMediaCPL,IWindowsMediaLibrarySharingServices.showShareMediaCPL, wmlss.IWMLSSshowShareMediaCPL, wmlss/IWindowsMediaLibrarySharingServices::showShareMediaCPL
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],showShareMediaCPL method, IWindowsMediaLibrarySharingServices.showShareMediaCPL, IWindowsMediaLibrarySharingServices::showShareMediaCPL, showShareMediaCPL, showShareMediaCPL method [Windows Media Library Sharing Services], showShareMediaCPL method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSshowShareMediaCPL, wmlss/IWindowsMediaLibrarySharingServices::showShareMediaCPL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::showShareMediaCPL method
+# IWindowsMediaLibrarySharingServices::showShareMediaCPL
 
 
 ## -description

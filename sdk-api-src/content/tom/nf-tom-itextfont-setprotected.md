@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetProtected
-title: ITextFont::SetProtected method
+title: ITextFont::SetProtected
 author: windows-driver-content
 description: Sets whether characters are protected against attempts to modify them.
 old-location: controls\ITextFont_SetProtected.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setprotected.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetProtected method, ITextFont::SetProtected, SetProtected method [Windows Controls], SetProtected method [Windows Controls], ITextFont interface, SetProtected,ITextFont.SetProtected, _win32_ITextFont_SetProtected, _win32_ITextFont_SetProtected_cpp, controls.ITextFont_SetProtected, controls._win32_ITextFont_SetProtected, tom/ITextFont::SetProtected
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetProtected method, ITextFont.SetProtected, ITextFont::SetProtected, SetProtected, SetProtected method [Windows Controls], SetProtected method [Windows Controls],ITextFont interface, _win32_ITextFont_SetProtected, _win32_ITextFont_SetProtected_cpp, controls.ITextFont_SetProtected, controls._win32_ITextFont_SetProtected, tom/ITextFont::SetProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetProtected method
+# ITextFont::SetProtected
 
 
 ## -description

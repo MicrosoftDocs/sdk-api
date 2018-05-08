@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 80C2A6D8-3435-4671-A473-0EF0F5A70ADB
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGISwapChainMedia, IDXGISwapChainMedia interface [DXGI], IDXGISwapChainMedia interface [DXGI], described, direct3ddxgi.idxgiswapchainmedia, dxgi1_3/IDXGISwapChainMedia
+ms.keywords: IDXGISwapChainMedia, IDXGISwapChainMedia interface [DXGI], IDXGISwapChainMedia interface [DXGI],described, direct3ddxgi.idxgiswapchainmedia, dxgi1_3/IDXGISwapChainMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

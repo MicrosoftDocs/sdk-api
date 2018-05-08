@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.put_SID
-title: IDVBTuneRequest::put_SID method
+title: IDVBTuneRequest::put_SID
 author: windows-driver-content
 description: The put_SID method sets the service ID.
 old-location: mstv\idvbtunerequest_put_sid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f521ab2d-5c56-4aff-a0a3-ac94b8676363
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBTuneRequest, IDVBTuneRequest interface [Microsoft TV Technologies], put_SID method, IDVBTuneRequest::put_SID, IDVBTuneRequestput_SID, mstv.idvbtunerequest_put_sid, put_SID method [Microsoft TV Technologies], put_SID method [Microsoft TV Technologies], IDVBTuneRequest interface, put_SID,IDVBTuneRequest.put_SID, tuner/IDVBTuneRequest::put_SID
+ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],put_SID method, IDVBTuneRequest.put_SID, IDVBTuneRequest::put_SID, IDVBTuneRequestput_SID, mstv.idvbtunerequest_put_sid, put_SID, put_SID method [Microsoft TV Technologies], put_SID method [Microsoft TV Technologies],IDVBTuneRequest interface, tuner/IDVBTuneRequest::put_SID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBTuneRequest::put_SID method
+# IDVBTuneRequest::put_SID
 
 
 ## -description

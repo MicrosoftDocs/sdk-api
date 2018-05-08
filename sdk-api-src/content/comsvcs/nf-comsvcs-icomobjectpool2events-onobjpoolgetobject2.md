@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectPool2Events.OnObjPoolGetObject2
-title: IComObjectPool2Events::OnObjPoolGetObject2 method
+title: IComObjectPool2Events::OnObjPoolGetObject2
 author: windows-driver-content
 description: Generated when a non-transactional object is obtained from the pool.
 old-location: cos\icomobjectpool2events_onobjpoolgetobject2.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 322540f2-7f99-41ad-b6b5-59067f350feb
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComObjectPool2Events, IComObjectPool2Events interface [COM+], OnObjPoolGetObject2 method, IComObjectPool2Events::OnObjPoolGetObject2, OnObjPoolGetObject2 method [COM+], OnObjPoolGetObject2 method [COM+], IComObjectPool2Events interface, OnObjPoolGetObject2,IComObjectPool2Events.OnObjPoolGetObject2, _dtc_IComObjectPool2Events_OnObjPoolGetObject2, comsvcs/IComObjectPool2Events::OnObjPoolGetObject2, cos.icomobjectpool2events_onobjpoolgetobject2
+ms.keywords: IComObjectPool2Events interface [COM+],OnObjPoolGetObject2 method, IComObjectPool2Events.OnObjPoolGetObject2, IComObjectPool2Events::OnObjPoolGetObject2, OnObjPoolGetObject2, OnObjPoolGetObject2 method [COM+], OnObjPoolGetObject2 method [COM+],IComObjectPool2Events interface, _dtc_IComObjectPool2Events_OnObjPoolGetObject2, comsvcs/IComObjectPool2Events::OnObjPoolGetObject2, cos.icomobjectpool2events_onobjpoolgetobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComObjectPool2Events::OnObjPoolGetObject2 method
+# IComObjectPool2Events::OnObjPoolGetObject2
 
 
 ## -description

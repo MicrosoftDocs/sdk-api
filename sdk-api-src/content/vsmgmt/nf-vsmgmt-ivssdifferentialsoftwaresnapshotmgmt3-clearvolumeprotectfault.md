@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
-title: IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault method
+title: IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
 author: windows-driver-content
 description: Clears the protection fault state for the specified volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 07257d34-23b1-47bf-b613-f65f5d2a977e
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: ClearVolumeProtectFault method, ClearVolumeProtectFault method, IVssDifferentialSoftwareSnapshotMgmt3 interface, ClearVolumeProtectFault,IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault, IVssDifferentialSoftwareSnapshotMgmt3, IVssDifferentialSoftwareSnapshotMgmt3 interface, ClearVolumeProtectFault method, IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault, base.ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
+ms.keywords: ClearVolumeProtectFault, ClearVolumeProtectFault method, ClearVolumeProtectFault method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,ClearVolumeProtectFault method, IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault, IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault, base.ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault method
+# IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
 
 
 ## -description

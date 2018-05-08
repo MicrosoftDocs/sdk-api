@@ -1,14 +1,14 @@
 ---
 UID: NF:exdisp.IShellWindows._NewEnum
-title: IShellWindows::_NewEnum method
+title: IShellWindows::_NewEnum
 author: windows-driver-content
 description: Retrieves an enumerator for the collection of Shell windows.
 old-location: shell\IShellWindows_NewEnum.htm
 old-project: shell
 ms.assetid: e91b2be7-2be9-4460-9a2a-57090dcfc961
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], _NewEnum method, IShellWindows::_NewEnum, _NewEnum method [Windows Shell], _NewEnum method [Windows Shell], IShellWindows interface, _NewEnum,IShellWindows._NewEnum, _win32_IShellWindows_NewEnum, exdisp/IShellWindows::_NewEnum, shell.IShellWindows_NewEnum
+ms.date: 5/3/2018
+ms.keywords: IShellWindows interface [Windows Shell],_NewEnum method, IShellWindows._NewEnum, IShellWindows::_NewEnum, _NewEnum, _NewEnum method [Windows Shell], _NewEnum method [Windows Shell],IShellWindows interface, _win32_IShellWindows_NewEnum, exdisp/IShellWindows::_NewEnum, shell.IShellWindows_NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IShellWindows::_NewEnum method
+# IShellWindows::_NewEnum
 
 
 ## -description

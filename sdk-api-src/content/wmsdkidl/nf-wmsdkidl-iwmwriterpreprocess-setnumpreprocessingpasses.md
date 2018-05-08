@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.SetNumPreprocessingPasses
-title: IWMWriterPreprocess::SetNumPreprocessingPasses method
+title: IWMWriterPreprocess::SetNumPreprocessingPasses
 author: windows-driver-content
 description: The SetNumPreprocessingPasses method sets the number of passes to perform on an input.
 old-location: wmformat\iwmwriterpreprocess_setnumpreprocessingpasses.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 81ff36e1-cce5-4c99-bf3a-ee2f1050c026
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterPreprocess, IWMWriterPreprocess interface [windows Media Format], SetNumPreprocessingPasses method, IWMWriterPreprocess::SetNumPreprocessingPasses, IWMWriterPreprocessSetNumPreprocessingPasses, SetNumPreprocessingPasses method [windows Media Format], SetNumPreprocessingPasses method [windows Media Format], IWMWriterPreprocess interface, SetNumPreprocessingPasses,IWMWriterPreprocess.SetNumPreprocessingPasses, wmformat.iwmwriterpreprocess_setnumpreprocessingpasses, wmsdkidl/IWMWriterPreprocess::SetNumPreprocessingPasses
+ms.keywords: IWMWriterPreprocess interface [windows Media Format],SetNumPreprocessingPasses method, IWMWriterPreprocess.SetNumPreprocessingPasses, IWMWriterPreprocess::SetNumPreprocessingPasses, IWMWriterPreprocessSetNumPreprocessingPasses, SetNumPreprocessingPasses, SetNumPreprocessingPasses method [windows Media Format], SetNumPreprocessingPasses method [windows Media Format],IWMWriterPreprocess interface, wmformat.iwmwriterpreprocess_setnumpreprocessingpasses, wmsdkidl/IWMWriterPreprocess::SetNumPreprocessingPasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPreprocess::SetNumPreprocessingPasses method
+# IWMWriterPreprocess::SetNumPreprocessingPasses
 
 
 ## -description

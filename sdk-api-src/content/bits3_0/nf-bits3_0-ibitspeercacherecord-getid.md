@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetId
-title: IBitsPeerCacheRecord::GetId method
+title: IBitsPeerCacheRecord::GetId
 author: windows-driver-content
 description: Gets the identifier that uniquely identifies the record in the cache.
 old-location: bits\ibitspeercacherecord_getid.htm
 old-project: Bits
 ms.assetid: a1894ab3-0b3f-492b-8ed7-51f3b4ee1eaa
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetId method [BITS], GetId method [BITS], IBitsPeerCacheRecord interface, GetId,IBitsPeerCacheRecord.GetId, IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], GetId method, IBitsPeerCacheRecord::GetId, bits.ibitspeercacherecord_getid, bits3_0/IBitsPeerCacheRecord::GetId
+ms.date: 4/27/2018
+ms.keywords: GetId, GetId method [BITS], GetId method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetId method, IBitsPeerCacheRecord.GetId, IBitsPeerCacheRecord::GetId, bits.ibitspeercacherecord_getid, bits3_0/IBitsPeerCacheRecord::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsPeerCacheRecord::GetId method
+# IBitsPeerCacheRecord::GetId
 
 
 ## -description

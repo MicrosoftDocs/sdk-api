@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccounts.get_Count
-title: IFaxAccounts::get_Count method
+title: IFaxAccounts::get_Count
 author: windows-driver-content
 description: Holds the number of items in the IFaxAccounts collection.
 old-location: fax\_mfax_faxaccounts_count_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\count.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service], FaxAccounts object, FaxAccounts object [Fax Service], Count property, IFaxAccounts, IFaxAccounts::get_Count, _mfax_faxaccounts.count, fax._mfax_faxaccounts_count, fax._mfax_faxaccounts_count_vb, get_Count,IFaxAccounts.get_Count
+ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxAccounts object, FaxAccounts object [Fax Service],Count property, FaxAccounts.Count, IFaxAccounts.get_Count, IFaxAccounts::get_Count, _mfax_faxaccounts.count, fax._mfax_faxaccounts_count, fax._mfax_faxaccounts_count_vb, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxAccounts::get_Count method
+# IFaxAccounts::get_Count
 
 
 ## -description

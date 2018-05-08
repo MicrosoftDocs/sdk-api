@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.SendOpaqueCommand
-title: IWMDMDevice::SendOpaqueCommand method
+title: IWMDMDevice::SendOpaqueCommand
 author: windows-driver-content
 description: The SendOpaqueCommand method sends a device-specific command to the device through Windows Media Device Manager. Windows Media Device Manager does not attempt to read the command.
 old-location: wmdm\iwmdmdevice_sendopaquecommand.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 4554318b-497f-488f-a52f-a392b8fee992
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMDevice, IWMDMDevice interface [windows Media Device Manager], SendOpaqueCommand method, IWMDMDevice::SendOpaqueCommand, IWMDMDeviceSendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager], IWMDMDevice interface, SendOpaqueCommand,IWMDMDevice.SendOpaqueCommand, mswmdm/IWMDMDevice::SendOpaqueCommand, wmdm.iwmdmdevice_sendopaquecommand
+ms.keywords: IWMDMDevice interface [windows Media Device Manager],SendOpaqueCommand method, IWMDMDevice.SendOpaqueCommand, IWMDMDevice::SendOpaqueCommand, IWMDMDeviceSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IWMDMDevice interface, mswmdm/IWMDMDevice::SendOpaqueCommand, wmdm.iwmdmdevice_sendopaquecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMDevice::SendOpaqueCommand method
+# IWMDMDevice::SendOpaqueCommand
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.UpdateVideo
-title: IMFCapturePreviewSink::UpdateVideo method
+title: IMFCapturePreviewSink::UpdateVideo
 author: windows-driver-content
 description: Updates the video frame.
 old-location: mf\imfcapturepreviewsink_updatevideo.htm
 old-project: medfound
 ms.assetid: B541D209-BB03-4FCF-834C-82002037C357
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], UpdateVideo method, IMFCapturePreviewSink::UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation], IMFCapturePreviewSink interface, UpdateVideo,IMFCapturePreviewSink.UpdateVideo, mf.imfcapturepreviewsink_updatevideo, mfcaptureengine/IMFCapturePreviewSink::UpdateVideo
+ms.date: 5/3/2018
+ms.keywords: IMFCapturePreviewSink interface [Media Foundation],UpdateVideo method, IMFCapturePreviewSink.UpdateVideo, IMFCapturePreviewSink::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_updatevideo, mfcaptureengine/IMFCapturePreviewSink::UpdateVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCapturePreviewSink::UpdateVideo method
+# IMFCapturePreviewSink::UpdateVideo
 
 
 ## -description

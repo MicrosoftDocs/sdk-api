@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.Invalidate
-title: IVirtualSurfaceImageSourceNative::Invalidate method
+title: IVirtualSurfaceImageSourceNative::xaml
 author: windows-driver-content
 description: Invalidates a specific region of the shared surface for drawing.
 old-location: winrt\ivirtualsurfaceimagesourcenative_invalidate.htm
 old-project: WinRT
 ms.assetid: BC3BC983-9A78-4B0F-927D-06B299031C80
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IVirtualSurfaceImageSourceNative, IVirtualSurfaceImageSourceNative interface [Windows Runtime], Invalidate method, IVirtualSurfaceImageSourceNative::Invalidate, Invalidate method [Windows Runtime], Invalidate method [Windows Runtime], IVirtualSurfaceImageSourceNative interface, Invalidate,IVirtualSurfaceImageSourceNative.Invalidate, windows/IVirtualSurfaceImageSourceNative::Invalidate, winrt.ivirtualsurfaceimagesourcenative_invalidate
+ms.date: 5/4/2018
+ms.keywords: IVirtualSurfaceImageSourceNative interface [Windows Runtime],Invalidate method, IVirtualSurfaceImageSourceNative.Invalidate, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::Invalidate, IVirtualSurfaceImageSourceNative::xaml, Invalidate, Invalidate method [Windows Runtime], Invalidate method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, windows/IVirtualSurfaceImageSourceNative::Invalidate, winrt.ivirtualsurfaceimagesourcenative_invalidate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IVirtualSurfaceImageSourceNative::Invalidate method
+# IVirtualSurfaceImageSourceNative::xaml
 
 
 ## -description

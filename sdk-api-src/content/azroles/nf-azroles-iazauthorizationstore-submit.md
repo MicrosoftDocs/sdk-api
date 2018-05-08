@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.Submit
-title: IAzAuthorizationStore::Submit method
+title: IAzAuthorizationStore::Submit
 author: windows-driver-content
 description: Persists changes made to the AzAuthorizationStore object.
 old-location: security\azauthorizationstore_submit.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: bf2962af-0e8f-4c4c-a63a-dfd623308e4d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzAuthorizationStore object [Security], Submit method, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], Submit method, IAzAuthorizationStore::Submit, Submit method [Security], Submit method [Security], AzAuthorizationStore object, Submit method [Security], IAzAuthorizationStore interface, Submit,IAzAuthorizationStore.Submit, azroles/IAzAuthorizationStore::Submit, security.azauthorizationstore_submit
+ms.keywords: AzAuthorizationStore object [Security],Submit method, IAzAuthorizationStore interface [Security],Submit method, IAzAuthorizationStore.Submit, IAzAuthorizationStore::Submit, Submit, Submit method [Security], Submit method [Security],AzAuthorizationStore object, Submit method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Submit, security.azauthorizationstore_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::Submit method
+# IAzAuthorizationStore::Submit
 
 
 ## -description

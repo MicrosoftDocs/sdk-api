@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.GetModWidthSpace
-title: ITextFont2::GetModWidthSpace method
+title: ITextFont2::GetModWidthSpace
 author: windows-driver-content
 description: Gets whether &#0034;increase width of whitespace&#0034; is active.
 old-location: controls\itextfont2_getmodwidthspace.htm
 old-project: Controls
 ms.assetid: 6ce6250f-94e6-4a20-89cd-f3e9a83a9408
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetModWidthSpace method [Windows Controls], GetModWidthSpace method [Windows Controls], ITextFont2 interface, GetModWidthSpace,ITextFont2.GetModWidthSpace, ITextFont2, ITextFont2 interface [Windows Controls], GetModWidthSpace method, ITextFont2::GetModWidthSpace, controls.itextfont2_getmodwidthspace, tom/ITextFont2::GetModWidthSpace
+ms.date: 4/27/2018
+ms.keywords: GetModWidthSpace, GetModWidthSpace method [Windows Controls], GetModWidthSpace method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetModWidthSpace method, ITextFont2.GetModWidthSpace, ITextFont2::GetModWidthSpace, controls.itextfont2_getmodwidthspace, tom/ITextFont2::GetModWidthSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::GetModWidthSpace method
+# ITextFont2::GetModWidthSpace
 
 
 ## -description

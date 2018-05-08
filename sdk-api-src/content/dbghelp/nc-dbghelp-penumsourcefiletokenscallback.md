@@ -8,7 +8,7 @@ old-project: Debug
 ms.assetid: 20c0eb1e-671b-4d31-88d4-57f2c149fcd9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: PENUMSOURCEFILETOKENSCALLBACK, SymEnumSourceFileTokensProc, SymEnumSourceFileTokensProc callback function, base.symenumsourcefiletokensproc, dbghelp/SymEnumSourceFileTokensProc
+ms.keywords: PENUMSOURCEFILETOKENSCALLBACK, PENUMSOURCEFILETOKENSCALLBACK callback, SymEnumSourceFileTokensProc, SymEnumSourceFileTokensProc callback function, base.symenumsourcefiletokensproc, dbghelp/SymEnumSourceFileTokensProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PENUMSOURCEFILETOKENSCALLBACK callback
+# PENUMSOURCEFILETOKENSCALLBACK callback function
 
 
 ## -description

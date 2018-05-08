@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_PacketSize
-title: IInkStrokeDisp::get_PacketSize method
+title: IInkStrokeDisp::get_PacketSize
 author: windows-driver-content
 description: Gets the size, in bytes, of a packet.
 old-location: tablet\iinkstrokedisp_packetsize.htm
 old-project: tablet
 ms.assetid: 42016aa0-7cc4-43d5-a055-7007a4bf9f07
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 42016aa0-7cc4-43d5-a055-7007a4bf9f07, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], PacketSize property, IInkStrokeDisp.PacketSize, IInkStrokeDisp.get_PacketSize, IInkStrokeDisp::get_PacketSize, PacketSize property [Tablet PC], PacketSize property [Tablet PC], IInkStrokeDisp interface, get_PacketSize,IInkStrokeDisp.get_PacketSize, msinkaut/IInkStrokeDisp::PacketSize, msinkaut/IInkStrokeDisp::get_PacketSize, tablet.iinkstrokedisp_packetsize
+ms.date: 5/2/2018
+ms.keywords: 42016aa0-7cc4-43d5-a055-7007a4bf9f07, IInkStrokeDisp interface [Tablet PC],PacketSize property, IInkStrokeDisp.PacketSize, IInkStrokeDisp.get_PacketSize, IInkStrokeDisp::PacketSize, IInkStrokeDisp::get_PacketSize, PacketSize property [Tablet PC], PacketSize property [Tablet PC],IInkStrokeDisp interface, get_PacketSize, msinkaut/IInkStrokeDisp::PacketSize, msinkaut/IInkStrokeDisp::get_PacketSize, tablet.iinkstrokedisp_packetsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::get_PacketSize method
+# IInkStrokeDisp::get_PacketSize
 
 
 ## -description

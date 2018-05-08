@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: e587d603-d235-4449-986c-89f0fdb86ab6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsCaseIgnoreList, IADsCaseIgnoreList interface [ADSI], IADsCaseIgnoreList interface [ADSI], described, _ds_iadscaseignorelist, adsi.iadscaseignorelist, iads/IADsCaseIgnoreList
+ms.keywords: IADsCaseIgnoreList, IADsCaseIgnoreList interface [ADSI], IADsCaseIgnoreList interface [ADSI],described, _ds_iadscaseignorelist, adsi.iadscaseignorelist, iads/IADsCaseIgnoreList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

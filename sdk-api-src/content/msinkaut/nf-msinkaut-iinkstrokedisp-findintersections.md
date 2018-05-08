@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.FindIntersections
-title: IInkStrokeDisp::FindIntersections method
+title: IInkStrokeDisp::FindIntersections
 author: windows-driver-content
 description: Retrieves the points where this IInkStrokeDisp object intersects other IInkStrokeDisp objects within a known InkStrokes collection.
 old-location: tablet\iinkstrokedisp_findintersections.htm
 old-project: tablet
 ms.assetid: a070fc87-608c-47be-b9b2-e2a41a31226f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: FindIntersections method [Tablet PC], FindIntersections method [Tablet PC], IInkStrokeDisp interface, FindIntersections,IInkStrokeDisp.FindIntersections, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], FindIntersections method, IInkStrokeDisp::FindIntersections, a070fc87-608c-47be-b9b2-e2a41a31226f, msinkaut/IInkStrokeDisp::FindIntersections, tablet.iinkstrokedisp_findintersections
+ms.date: 5/2/2018
+ms.keywords: FindIntersections, FindIntersections method [Tablet PC], FindIntersections method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],FindIntersections method, IInkStrokeDisp.FindIntersections, IInkStrokeDisp::FindIntersections, a070fc87-608c-47be-b9b2-e2a41a31226f, msinkaut/IInkStrokeDisp::FindIntersections, tablet.iinkstrokedisp_findintersections
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::FindIntersections method
+# IInkStrokeDisp::FindIntersections
 
 
 ## -description

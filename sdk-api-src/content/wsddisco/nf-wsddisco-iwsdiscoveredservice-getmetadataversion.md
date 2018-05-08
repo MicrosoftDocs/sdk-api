@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetMetadataVersion
-title: IWSDiscoveredService::GetMetadataVersion method
+title: IWSDiscoveredService::GetMetadataVersion
 author: windows-driver-content
 description: Retrieves the metadata version of this message.
 old-location: ncd\iwsdiscoveredservice_getmetadataversion.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: ce0d463e-6455-48cc-b01f-6aa93fd628b6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetMetadataVersion method, GetMetadataVersion method, IWSDiscoveredService interface, GetMetadataVersion,IWSDiscoveredService.GetMetadataVersion, IWSDiscoveredService, IWSDiscoveredService interface, GetMetadataVersion method, IWSDiscoveredService::GetMetadataVersion, ncd.iwsdiscoveredservice_getmetadataversion, wsddisco/IWSDiscoveredService::GetMetadataVersion
+ms.keywords: GetMetadataVersion, GetMetadataVersion method, GetMetadataVersion method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetMetadataVersion method, IWSDiscoveredService.GetMetadataVersion, IWSDiscoveredService::GetMetadataVersion, ncd.iwsdiscoveredservice_getmetadataversion, wsddisco/IWSDiscoveredService::GetMetadataVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveredService::GetMetadataVersion method
+# IWSDiscoveredService::GetMetadataVersion
 
 
 ## -description

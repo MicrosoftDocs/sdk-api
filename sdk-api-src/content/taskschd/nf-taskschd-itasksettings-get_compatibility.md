@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_Compatibility
-title: ITaskSettings::get_Compatibility method
+title: ITaskSettings::get_Compatibility
 author: windows-driver-content
 description: Gets or sets an integer value that indicates which version of Task Scheduler a task is compatible with.
 old-location: taskschd\itasksettings_compatibility.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 04f77d3c-44fa-4091-b99e-af062f067ef9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Compatibility property [Task Scheduler], Compatibility property [Task Scheduler], ITaskSettings interface, ITaskSettings, ITaskSettings interface [Task Scheduler], Compatibility property, ITaskSettings.Compatibility, ITaskSettings::get_Compatibility, ITaskSettings::put_Compatibility, TASK_COMPATIBILITY_AT, TASK_COMPATIBILITY_V1, TASK_COMPATIBILITY_V2, get_Compatibility,ITaskSettings.get_Compatibility, taskschd.itasksettings_compatibility, taskschd/ITaskSettings::Compatibility, taskschd/ITaskSettings::get_Compatibility, taskschd/ITaskSettings::put_Compatibility
+ms.keywords: Compatibility property [Task Scheduler], Compatibility property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],Compatibility property, ITaskSettings.Compatibility, ITaskSettings.get_Compatibility, ITaskSettings::Compatibility, ITaskSettings::get_Compatibility, ITaskSettings::put_Compatibility, TASK_COMPATIBILITY_AT, TASK_COMPATIBILITY_V1, TASK_COMPATIBILITY_V2, get_Compatibility, taskschd.itasksettings_compatibility, taskschd/ITaskSettings::Compatibility, taskschd/ITaskSettings::get_Compatibility, taskschd/ITaskSettings::put_Compatibility
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskSettings::get_Compatibility method
+# ITaskSettings::get_Compatibility
 
 
 ## -description

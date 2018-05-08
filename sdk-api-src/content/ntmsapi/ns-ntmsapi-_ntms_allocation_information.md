@@ -66,6 +66,11 @@ The
 Size of the structure.
 
 
+### -field lpReserved.ptr
+
+ 
+
+
 ### -field lpReserved
 
 Reserved.

@@ -8,7 +8,7 @@ old-project: Bluetooth
 ms.assetid: 835a624f-c08d-402c-940b-4443e1b38d58
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: PFN_AUTHENTICATION_CALLBACK_EX, PFN_AUTHENTICATION_CALLBACK_EX callback function [Bluetooth], bluetooth.pfn_authentication_callback_ex, bluetoothapis/PFN_AUTHENTICATION_CALLBACK_EX
+ms.keywords: PFN_AUTHENTICATION_CALLBACK_EX, PFN_AUTHENTICATION_CALLBACK_EX callback, PFN_AUTHENTICATION_CALLBACK_EX callback function [Bluetooth], bluetooth.pfn_authentication_callback_ex, bluetoothapis/PFN_AUTHENTICATION_CALLBACK_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PFN_AUTHENTICATION_CALLBACK_EX callback
+# PFN_AUTHENTICATION_CALLBACK_EX callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerPolicy.SetCertificateProperty
-title: ICertServerPolicy::SetCertificateProperty method
+title: ICertServerPolicy::SetCertificateProperty
 author: windows-driver-content
 description: To set a property associated with a certificate.
 old-location: security\icertserverpolicy_setcertificateproperty.htm
 old-project: SecCrypto
 ms.assetid: 1230aa79-d8b0-4f2b-ab10-412b8c530b0b
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertServerPolicy object [Security], SetCertificateProperty method, CrossForest, GeneralFlags, ICertServerPolicy, ICertServerPolicy interface [Security], SetCertificateProperty method, ICertServerPolicy::SetCertificateProperty, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RequesterDN, RequesterSAMName, RequesterUPN, SetCertificateProperty method [Security], SetCertificateProperty method [Security], CCertServerPolicy object, SetCertificateProperty method [Security], ICertServerPolicy interface, SetCertificateProperty,ICertServerPolicy.SetCertificateProperty, _certsrv_icertserverpolicy_setcertificateproperty, certif/ICertServerPolicy::SetCertificateProperty, security.icertserverpolicy_setcertificateproperty
+ms.date: 4/30/2018
+ms.keywords: CCertServerPolicy object [Security],SetCertificateProperty method, CrossForest, GeneralFlags, ICertServerPolicy interface [Security],SetCertificateProperty method, ICertServerPolicy.SetCertificateProperty, ICertServerPolicy::SetCertificateProperty, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RequesterDN, RequesterSAMName, RequesterUPN, SetCertificateProperty, SetCertificateProperty method [Security], SetCertificateProperty method [Security],CCertServerPolicy object, SetCertificateProperty method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcertificateproperty, certif/ICertServerPolicy::SetCertificateProperty, security.icertserverpolicy_setcertificateproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerPolicy::SetCertificateProperty method
+# ICertServerPolicy::SetCertificateProperty
 
 
 ## -description

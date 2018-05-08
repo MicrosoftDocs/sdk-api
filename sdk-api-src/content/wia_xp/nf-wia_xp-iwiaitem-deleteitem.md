@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaItem.DeleteItem
-title: IWiaItem::DeleteItem method
+title: IWiaItem::DeleteItem
 author: windows-driver-content
 description: The IWiaItem::DeleteItem method removes the current IWiaItem object from the object tree of the device.
 old-location: wia\_wia_IWiaItem_DeleteItem.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\deleteitem.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: DeleteItem method [WIA], DeleteItem method [WIA], IWiaItem interface, DeleteItem,IWiaItem.DeleteItem, IWiaItem, IWiaItem interface [WIA], DeleteItem method, IWiaItem::DeleteItem, _wia_IWiaItem_DeleteItem, wia._wia_IWiaItem_DeleteItem, wia_xp/IWiaItem::DeleteItem
+ms.date: 5/3/2018
+ms.keywords: DeleteItem, DeleteItem method [WIA], DeleteItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeleteItem method, IWiaItem.DeleteItem, IWiaItem::DeleteItem, _wia_IWiaItem_DeleteItem, wia._wia_IWiaItem_DeleteItem, wia_xp/IWiaItem::DeleteItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaItem::DeleteItem method
+# IWiaItem::DeleteItem
 
 
 ## -description

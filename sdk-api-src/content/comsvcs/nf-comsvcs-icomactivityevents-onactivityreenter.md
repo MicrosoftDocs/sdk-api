@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityReenter
-title: IComActivityEvents::OnActivityReenter method
+title: IComActivityEvents::OnActivityReenter
 author: windows-driver-content
 description: Generated when an activity thread is reentered recursively.
 old-location: cos\icomactivityevents_onactivityreenter.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: e055caab-379c-47c5-b62a-28ce5c2a0573
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComActivityEvents, IComActivityEvents interface [COM+], OnActivityReenter method, IComActivityEvents::OnActivityReenter, OnActivityReenter method [COM+], OnActivityReenter method [COM+], IComActivityEvents interface, OnActivityReenter,IComActivityEvents.OnActivityReenter, _dtc_IComActivityEvents_OnActivityReenter, comsvcs/IComActivityEvents::OnActivityReenter, cos.icomactivityevents_onactivityreenter
+ms.keywords: IComActivityEvents interface [COM+],OnActivityReenter method, IComActivityEvents.OnActivityReenter, IComActivityEvents::OnActivityReenter, OnActivityReenter, OnActivityReenter method [COM+], OnActivityReenter method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityReenter, comsvcs/IComActivityEvents::OnActivityReenter, cos.icomactivityevents_onactivityreenter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComActivityEvents::OnActivityReenter method
+# IComActivityEvents::OnActivityReenter
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxyPort
-title: IWMReaderNetworkConfig::GetProxyPort method
+title: IWMReaderNetworkConfig::GetProxyPort
 author: windows-driver-content
 description: The GetProxyPort method retrieves the port number of the proxy server.
 old-location: wmformat\iwmreadernetworkconfig_getproxyport.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 042d702e-b4a1-43f6-b2c4-c81922d7c3f2
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetProxyPort method [windows Media Format], GetProxyPort method [windows Media Format], IWMReaderNetworkConfig interface, GetProxyPort,IWMReaderNetworkConfig.GetProxyPort, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetProxyPort method, IWMReaderNetworkConfig::GetProxyPort, IWMReaderNetworkConfigGetProxyPort, wmformat.iwmreadernetworkconfig_getproxyport, wmsdkidl/IWMReaderNetworkConfig::GetProxyPort
+ms.keywords: GetProxyPort, GetProxyPort method [windows Media Format], GetProxyPort method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyPort method, IWMReaderNetworkConfig.GetProxyPort, IWMReaderNetworkConfig::GetProxyPort, IWMReaderNetworkConfigGetProxyPort, wmformat.iwmreadernetworkconfig_getproxyport, wmsdkidl/IWMReaderNetworkConfig::GetProxyPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetProxyPort method
+# IWMReaderNetworkConfig::GetProxyPort
 
 
 ## -description

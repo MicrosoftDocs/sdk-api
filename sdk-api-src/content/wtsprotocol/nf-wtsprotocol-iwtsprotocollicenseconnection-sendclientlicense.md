@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLicenseConnection.SendClientLicense
-title: IWTSProtocolLicenseConnection::SendClientLicense method
+title: IWTSProtocolLicenseConnection::SendClientLicense
 author: windows-driver-content
 description: IWTSProtocolLicenseConnection::SendClientLicense is no longer available. Instead, use IWRdsProtocolLicenseConnection::SendClientLicense.
 old-location: termserv\iwtsprotocollicenseconnection_sendclientlicense.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: cafd23ed-2085-4d58-a9b1-1918995fa09c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolLicenseConnection, IWTSProtocolLicenseConnection interface [Remote Desktop Services], SendClientLicense method, IWTSProtocolLicenseConnection::SendClientLicense, SendClientLicense method [Remote Desktop Services], SendClientLicense method [Remote Desktop Services], IWTSProtocolLicenseConnection interface, SendClientLicense,IWTSProtocolLicenseConnection.SendClientLicense, termserv.iwtsprotocollicenseconnection_sendclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::SendClientLicense
+ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],SendClientLicense method, IWTSProtocolLicenseConnection.SendClientLicense, IWTSProtocolLicenseConnection::SendClientLicense, SendClientLicense, SendClientLicense method [Remote Desktop Services], SendClientLicense method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_sendclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::SendClientLicense
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolLicenseConnection::SendClientLicense method
+# IWTSProtocolLicenseConnection::SendClientLicense
 
 
 ## -description

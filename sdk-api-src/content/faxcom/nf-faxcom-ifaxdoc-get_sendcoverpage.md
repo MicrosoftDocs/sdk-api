@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_SendCoverpage
-title: IFaxDoc::get_SendCoverpage method
+title: IFaxDoc::get_SendCoverpage
 author: windows-driver-content
 description: Sets or retrieves the SendCoverpage property for a FaxDoc object. The SendCoverpage property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
 old-location: fax\_mfax_ifaxdoc_get_sendcoverpage_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1yud.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], SendCoverpage property, IFaxDoc, IFaxDoc::get_SendCoverpage, SendCoverpage property [Fax Service], SendCoverpage property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_sendcoverpage, fax._mfax_ifaxdoc_get_sendcoverpage, fax._mfax_ifaxdoc_get_sendcoverpage_vb, get_SendCoverpage,IFaxDoc.get_SendCoverpage
+ms.keywords: FaxDoc object [Fax Service],SendCoverpage property, FaxDoc.SendCoverpage, IFaxDoc.get_SendCoverpage, IFaxDoc::get_SendCoverpage, SendCoverpage property [Fax Service], SendCoverpage property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_sendcoverpage, fax._mfax_ifaxdoc_get_sendcoverpage, fax._mfax_ifaxdoc_get_sendcoverpage_vb, get_SendCoverpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::get_SendCoverpage method
+# IFaxDoc::get_SendCoverpage
 
 
 ## -description

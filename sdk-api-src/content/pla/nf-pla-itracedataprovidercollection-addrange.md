@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.AddRange
-title: ITraceDataProviderCollection::AddRange method
+title: ITraceDataProviderCollection::AddRange
 author: windows-driver-content
 description: Adds one or more trace providers to the collection.
 old-location: pla\itracedataprovidercollection_addrange.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 235c390a-c31c-4b31-bece-3ea7ac345391
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddRange method [PLA], AddRange method [PLA], ITraceDataProviderCollection interface, AddRange,ITraceDataProviderCollection.AddRange, ITraceDataProviderCollection, ITraceDataProviderCollection interface [PLA], AddRange method, ITraceDataProviderCollection::AddRange, base.itracedataprovidercollection_addrange, pla.itracedataprovidercollection_addrange, pla/ITraceDataProviderCollection::AddRange
+ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],AddRange method, ITraceDataProviderCollection.AddRange, ITraceDataProviderCollection::AddRange, base.itracedataprovidercollection_addrange, pla.itracedataprovidercollection_addrange, pla/ITraceDataProviderCollection::AddRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataProviderCollection::AddRange method
+# ITraceDataProviderCollection::AddRange
 
 
 ## -description

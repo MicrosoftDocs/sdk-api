@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceResources.GetSupportedResources
-title: IPortableDeviceResources::GetSupportedResources method
+title: IPortableDeviceResources::GetSupportedResources
 author: windows-driver-content
 description: The GetSupportedResources method retrieves a list of resources that are supported by a specific object.
 old-location: wpdsdk\iportabledeviceresources_getsupportedresources.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 415c3256-1385-48d7-999a-91dc3ad795f8
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetSupportedResources method [Windows Portable Devices SDK], GetSupportedResources method [Windows Portable Devices SDK], IPortableDeviceResources interface, GetSupportedResources,IPortableDeviceResources.GetSupportedResources, IPortableDeviceResources, IPortableDeviceResources interface [Windows Portable Devices SDK], GetSupportedResources method, IPortableDeviceResources::GetSupportedResources, IPortableDeviceResourcesGetSupportedResources, portabledeviceapi/IPortableDeviceResources::GetSupportedResources, wpdsdk.iportabledeviceresources_getsupportedresources
+ms.keywords: GetSupportedResources, GetSupportedResources method [Windows Portable Devices SDK], GetSupportedResources method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],GetSupportedResources method, IPortableDeviceResources.GetSupportedResources, IPortableDeviceResources::GetSupportedResources, IPortableDeviceResourcesGetSupportedResources, portabledeviceapi/IPortableDeviceResources::GetSupportedResources, wpdsdk.iportabledeviceresources_getsupportedresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceResources::GetSupportedResources method
+# IPortableDeviceResources::GetSupportedResources
 
 
 ## -description

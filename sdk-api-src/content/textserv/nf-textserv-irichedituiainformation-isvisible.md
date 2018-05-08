@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.IRichEditUiaInformation.IsVisible
-title: IRichEditUiaInformation::IsVisible method
+title: IRichEditUiaInformation::IsVisible
 author: windows-driver-content
 description: Indicates whether a windowless rich edit control is currently visible.
 old-location: controls\irichedituiainformation_isvisible.htm
 old-project: Controls
 ms.assetid: E989851B-E03C-42A2-A088-E89DF986D7AC
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IRichEditUiaInformation, IRichEditUiaInformation interface [Windows Controls], IsVisible method, IRichEditUiaInformation::IsVisible, IsVisible method [Windows Controls], IsVisible method [Windows Controls], IRichEditUiaInformation interface, IsVisible,IRichEditUiaInformation.IsVisible, controls.irichedituiainformation_isvisible, textserv/IRichEditUiaInformation::IsVisible
+ms.date: 4/27/2018
+ms.keywords: IRichEditUiaInformation interface [Windows Controls],IsVisible method, IRichEditUiaInformation.IsVisible, IRichEditUiaInformation::IsVisible, IsVisible, IsVisible method [Windows Controls], IsVisible method [Windows Controls],IRichEditUiaInformation interface, controls.irichedituiainformation_isvisible, textserv/IRichEditUiaInformation::IsVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRichEditUiaInformation::IsVisible method
+# IRichEditUiaInformation::IsVisible
 
 
 ## -description

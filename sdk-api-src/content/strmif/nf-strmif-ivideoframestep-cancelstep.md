@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVideoFrameStep.CancelStep
-title: IVideoFrameStep::CancelStep method
+title: IVideoFrameStep::CancelStep
 author: windows-driver-content
 description: The CancelStep method cancels the previous IVideoFrameStep::Step operation.
 old-location: dshow\ivideoframestep_cancelstep.htm
 old-project: DirectShow
 ms.assetid: 1310d4d8-a1a3-493c-baee-f7c0ec5790e1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CancelStep method [DirectShow], CancelStep method [DirectShow], IVideoFrameStep interface, CancelStep,IVideoFrameStep.CancelStep, IVideoFrameStep, IVideoFrameStep interface [DirectShow], CancelStep method, IVideoFrameStep::CancelStep, IVideoFrameStepCancelStep, dshow.ivideoframestep_cancelstep, strmif/IVideoFrameStep::CancelStep
+ms.date: 4/30/2018
+ms.keywords: CancelStep, CancelStep method [DirectShow], CancelStep method [DirectShow],IVideoFrameStep interface, IVideoFrameStep interface [DirectShow],CancelStep method, IVideoFrameStep.CancelStep, IVideoFrameStep::CancelStep, IVideoFrameStepCancelStep, dshow.ivideoframestep_cancelstep, strmif/IVideoFrameStep::CancelStep
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVideoFrameStep::CancelStep method
+# IVideoFrameStep::CancelStep
 
 
 ## -description

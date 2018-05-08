@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.EndEnumeration
-title: IWbemClassObject::EndEnumeration method
+title: IWbemClassObject::EndEnumeration
 author: windows-driver-content
 description: The IWbemClassObject::EndEnumeration method terminates an enumeration sequence started with IWbemClassObject::BeginEnumeration.
 old-location: wmi\iwbemclassobject_endenumeration.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: a9fa8567-7504-4d59-a874-1dc7b2620a0b
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: EndEnumeration method [Windows Management Instrumentation], EndEnumeration method [Windows Management Instrumentation], IWbemClassObject interface, EndEnumeration,IWbemClassObject.EndEnumeration, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], EndEnumeration method, IWbemClassObject::EndEnumeration, _hmm_iwbemclassobject_endenumeration, wbemcli/IWbemClassObject::EndEnumeration, wmi.iwbemclassobject_endenumeration
+ms.keywords: EndEnumeration, EndEnumeration method [Windows Management Instrumentation], EndEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],EndEnumeration method, IWbemClassObject.EndEnumeration, IWbemClassObject::EndEnumeration, _hmm_iwbemclassobject_endenumeration, wbemcli/IWbemClassObject::EndEnumeration, wmi.iwbemclassobject_endenumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -53,7 +53,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemClassObject::EndEnumeration method
+# IWbemClassObject::EndEnumeration
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_Updates
-title: ICategory::get_Updates method
+title: ICategory::get_Updates
 author: windows-driver-content
 description: Gets an interface that contains a collection of updates that immediately belong to the category.
 old-location: wua\icategory_updates.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: f611b2df-c77f-4df0-8d7d-c8ed18f0222a
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ICategory, ICategory interface [Windows Update Agent], Updates property, ICategory.Updates, ICategory::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent], ICategory interface, get_Updates,ICategory.get_Updates, wua.icategory_updates, wuapi/ICategory::Updates, wuapi/ICategory::get_Updates
+ms.keywords: ICategory interface [Windows Update Agent],Updates property, ICategory.Updates, ICategory.get_Updates, ICategory::Updates, ICategory::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],ICategory interface, get_Updates, wua.icategory_updates, wuapi/ICategory::Updates, wuapi/ICategory::get_Updates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ICategory::get_Updates method
+# ICategory::get_Updates
 
 
 ## -description

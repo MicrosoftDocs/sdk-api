@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Reset
-title: IEnumTfLangBarItems::Reset method
+title: IEnumTfLangBarItems::Reset
 author: windows-driver-content
 description: IEnumTfLangBarItems::Reset method
 old-location: tsf\ienumtflangbaritems_reset.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 073c0307-b1cc-443b-890f-bccc0dbd5cf2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfLangBarItems, IEnumTfLangBarItems interface [Text Services Framework], Reset method, IEnumTfLangBarItems::Reset, Reset method [Text Services Framework], Reset method [Text Services Framework], IEnumTfLangBarItems interface, Reset,IEnumTfLangBarItems.Reset, _tsf_ienumtflangbaritems_reset_ref, ctfutb/IEnumTfLangBarItems::Reset, tsf.ienumtflangbaritems_reset
+ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Reset method, IEnumTfLangBarItems.Reset, IEnumTfLangBarItems::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_reset_ref, ctfutb/IEnumTfLangBarItems::Reset, tsf.ienumtflangbaritems_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# IEnumTfLangBarItems::Reset method
+# IEnumTfLangBarItems::Reset
 
 
 ## -description

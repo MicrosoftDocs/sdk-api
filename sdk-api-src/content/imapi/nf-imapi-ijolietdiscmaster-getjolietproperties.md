@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.GetJolietProperties
-title: IJolietDiscMaster::GetJolietProperties method
+title: IJolietDiscMaster::GetJolietProperties
 author: windows-driver-content
 description: Retrieves a pointer to an IPropertyStorage interface that contains the Joliet properties.
 old-location: imapi\ijolietdiscmaster_getjolietproperties.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 660657b3-b378-4c16-9294-89309e4da569
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetJolietProperties method [IMAPI], GetJolietProperties method [IMAPI], IJolietDiscMaster interface, GetJolietProperties,IJolietDiscMaster.GetJolietProperties, IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], GetJolietProperties method, IJolietDiscMaster::GetJolietProperties, _win32_ijolietdiscmaster_getjolietproperties, base.ijolietdiscmaster_getjolietproperties, imapi.ijolietdiscmaster_getjolietproperties, imapi/IJolietDiscMaster::GetJolietProperties
+ms.keywords: GetJolietProperties, GetJolietProperties method [IMAPI], GetJolietProperties method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],GetJolietProperties method, IJolietDiscMaster.GetJolietProperties, IJolietDiscMaster::GetJolietProperties, _win32_ijolietdiscmaster_getjolietproperties, base.ijolietdiscmaster_getjolietproperties, imapi.ijolietdiscmaster_getjolietproperties, imapi/IJolietDiscMaster::GetJolietProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IJolietDiscMaster::GetJolietProperties method
+# IJolietDiscMaster::GetJolietProperties
 
 
 ## -description

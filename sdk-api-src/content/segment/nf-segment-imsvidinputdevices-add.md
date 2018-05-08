@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidInputDevices.Add
-title: IMSVidInputDevices::Add method
+title: IMSVidInputDevices::Add
 author: windows-driver-content
 description: The Add method adds an input device to the collection.
 old-location: mstv\imsvidinputdevices_add.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b3a8ab2a-4b9c-41d2-9fb6-5862891eba42
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies], IMSVidInputDevices interface, Add,IMSVidInputDevices.Add, IMSVidInputDevices, IMSVidInputDevices interface [Microsoft TV Technologies], Add method, IMSVidInputDevices::Add, IMSVidInputDevicesAdd, mstv.imsvidinputdevices_add, segment/IMSVidInputDevices::Add
+ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidInputDevices interface, IMSVidInputDevices interface [Microsoft TV Technologies],Add method, IMSVidInputDevices.Add, IMSVidInputDevices::Add, IMSVidInputDevicesAdd, mstv.imsvidinputdevices_add, segment/IMSVidInputDevices::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidInputDevices::Add method
+# IMSVidInputDevices::Add
 
 
 ## -description

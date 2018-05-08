@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesDirtyInfo.LocalDirtyByteCount
-title: IOfflineFilesDirtyInfo::LocalDirtyByteCount method
+title: IOfflineFilesDirtyInfo::LocalDirtyByteCount
 author: windows-driver-content
 description: Retrieves the amount of unsynchronized (&#0034;dirty&#0034;) data for the associated file in the local Offline Files cache.
 old-location: of\iofflinefilesdirtyinfo_localdirtybytecount.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: c261d5ac-5834-42c7-b644-4244db9d653e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesDirtyInfo, IOfflineFilesDirtyInfo interface [Offline Files], LocalDirtyByteCount method, IOfflineFilesDirtyInfo::LocalDirtyByteCount, LocalDirtyByteCount method [Offline Files], LocalDirtyByteCount method [Offline Files], IOfflineFilesDirtyInfo interface, LocalDirtyByteCount,IOfflineFilesDirtyInfo.LocalDirtyByteCount, cscobj/IOfflineFilesDirtyInfo::LocalDirtyByteCount, of.iofflinefilesdirtyinfo_localdirtybytecount
+ms.keywords: IOfflineFilesDirtyInfo interface [Offline Files],LocalDirtyByteCount method, IOfflineFilesDirtyInfo.LocalDirtyByteCount, IOfflineFilesDirtyInfo::LocalDirtyByteCount, LocalDirtyByteCount, LocalDirtyByteCount method [Offline Files], LocalDirtyByteCount method [Offline Files],IOfflineFilesDirtyInfo interface, cscobj/IOfflineFilesDirtyInfo::LocalDirtyByteCount, of.iofflinefilesdirtyinfo_localdirtybytecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesDirtyInfo::LocalDirtyByteCount method
+# IOfflineFilesDirtyInfo::LocalDirtyByteCount
 
 
 ## -description

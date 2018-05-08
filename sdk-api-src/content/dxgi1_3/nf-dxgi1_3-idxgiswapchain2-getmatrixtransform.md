@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.GetMatrixTransform
-title: IDXGISwapChain2::GetMatrixTransform method
+title: IDXGISwapChain2::GetMatrixTransform
 author: windows-driver-content
 description: Gets the transform matrix that will be applied to a composition swap chain upon the next present.
 old-location: direct3ddxgi\idxgiswapchain2_getmatrixtransform.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 90302283-BB0A-44A9-8CD2-591571EF74ED
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetMatrixTransform method [DXGI], GetMatrixTransform method [DXGI], IDXGISwapChain2 interface, GetMatrixTransform,IDXGISwapChain2.GetMatrixTransform, IDXGISwapChain2, IDXGISwapChain2 interface [DXGI], GetMatrixTransform method, IDXGISwapChain2::GetMatrixTransform, direct3ddxgi.idxgiswapchain2_getmatrixtransform, dxgi1_3/IDXGISwapChain2::GetMatrixTransform
+ms.keywords: GetMatrixTransform, GetMatrixTransform method [DXGI], GetMatrixTransform method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetMatrixTransform method, IDXGISwapChain2.GetMatrixTransform, IDXGISwapChain2::GetMatrixTransform, direct3ddxgi.idxgiswapchain2_getmatrixtransform, dxgi1_3/IDXGISwapChain2::GetMatrixTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain2::GetMatrixTransform method
+# IDXGISwapChain2::GetMatrixTransform
 
 
 ## -description

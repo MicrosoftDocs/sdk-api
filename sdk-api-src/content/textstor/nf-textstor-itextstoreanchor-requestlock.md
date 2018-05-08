@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestLock
-title: ITextStoreAnchor::RequestLock method
+title: ITextStoreAnchor::RequestLock
 author: windows-driver-content
 description: ITextStoreAnchor::RequestLock method
 old-location: tsf\itextstoreanchor_requestlock.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4cace5bd-d111-4a9a-af10-9ad454d4f2eb
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], RequestLock method, ITextStoreAnchor::RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework], ITextStoreAnchor interface, RequestLock,ITextStoreAnchor.RequestLock, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, textstor/ITextStoreAnchor::RequestLock, tsf.itextstoreanchor_requestlock
+ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestLock method, ITextStoreAnchor.RequestLock, ITextStoreAnchor::RequestLock, RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework],ITextStoreAnchor interface, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, textstor/ITextStoreAnchor::RequestLock, tsf.itextstoreanchor_requestlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::RequestLock method
+# ITextStoreAnchor::RequestLock
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextEditPattern.GetActiveComposition
-title: IUIAutomationTextEditPattern::GetActiveComposition method
+title: IUIAutomationTextEditPattern::GetActiveComposition
 author: windows-driver-content
 description: Returns the active composition.
 old-location: winauto\uiauto_IUIAutomationTextEditPattern_GetActiveComposition.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: F6503B77-19FB-6D00-D20C-E3D3F0EC28DA
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetActiveComposition method [Windows Accessibility], GetActiveComposition method [Windows Accessibility], IUIAutomationTextEditPattern interface, GetActiveComposition,IUIAutomationTextEditPattern.GetActiveComposition, IUIAutomationTextEditPattern, IUIAutomationTextEditPattern interface [Windows Accessibility], GetActiveComposition method, IUIAutomationTextEditPattern::GetActiveComposition, uiautomationclient/IUIAutomationTextEditPattern::GetActiveComposition, winauto.uiauto_IUIAutomationTextEditPattern_GetActiveComposition
+ms.keywords: GetActiveComposition, GetActiveComposition method [Windows Accessibility], GetActiveComposition method [Windows Accessibility],IUIAutomationTextEditPattern interface, IUIAutomationTextEditPattern interface [Windows Accessibility],GetActiveComposition method, IUIAutomationTextEditPattern.GetActiveComposition, IUIAutomationTextEditPattern::GetActiveComposition, uiautomationclient/IUIAutomationTextEditPattern::GetActiveComposition, winauto.uiauto_IUIAutomationTextEditPattern_GetActiveComposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTextEditPattern::GetActiveComposition method
+# IUIAutomationTextEditPattern::GetActiveComposition
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: properties\PSFormatPropertyValue.htm
 old-project: properties
 ms.assetid: 35c2b424-05bd-4d7d-8365-5900e165e2e2
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: PSFormatPropertyValue, PSFormatPropertyValue function [Windows Properties], _shell_PSFormatPropertyValue, properties.PSFormatPropertyValue, propsys/PSFormatPropertyValue, shell.PSFormatPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

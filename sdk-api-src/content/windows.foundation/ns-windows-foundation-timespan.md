@@ -7,7 +7,7 @@ old-location: winrt\timespan.htm
 old-project: WinRT
 ms.assetid: fbc6ecc2-6372-4b15-9532-3cd68a72e7b4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: TimeSpan, TimeSpan structure [Windows Runtime], windows/TimeSpan, winrt.timespan
 ms.prod: windows-hardware
 ms.technology: windows-devices

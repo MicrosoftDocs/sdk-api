@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedPackageReader
-title: IAppxEncryptionFactory::CreateEncryptedPackageReader method
+title: IAppxEncryptionFactory::CreateEncryptedPackageReader
 author: windows-driver-content
 description: Creates a new instance of IAppxEncryptedPackageReader.
 old-location: appxpkg\iappxencryptionfactory_createencryptedpackagereader.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 325E4883-69D7-4E2A-A664-3CA3C5559CB3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateEncryptedPackageReader method [App packaging and management], CreateEncryptedPackageReader method [App packaging and management], IAppxEncryptionFactory interface, CreateEncryptedPackageReader,IAppxEncryptionFactory.CreateEncryptedPackageReader, IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packaging and management], CreateEncryptedPackageReader method, IAppxEncryptionFactory::CreateEncryptedPackageReader, appxpackaging/IAppxEncryptionFactory::CreateEncryptedPackageReader, appxpkg.iappxencryptionfactory_createencryptedpackagereader
+ms.keywords: CreateEncryptedPackageReader, CreateEncryptedPackageReader method [App packaging and management], CreateEncryptedPackageReader method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],CreateEncryptedPackageReader method, IAppxEncryptionFactory.CreateEncryptedPackageReader, IAppxEncryptionFactory::CreateEncryptedPackageReader, appxpackaging/IAppxEncryptionFactory::CreateEncryptedPackageReader, appxpkg.iappxencryptionfactory_createencryptedpackagereader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxEncryptionFactory::CreateEncryptedPackageReader method
+# IAppxEncryptionFactory::CreateEncryptedPackageReader
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetServiceState
-title: IAMWstDecoder::SetServiceState method
+title: IAMWstDecoder::SetServiceState
 author: windows-driver-content
 description: Applications use the SetServiceState method to assign the service state.
 old-location: dshow\iamwstdecoder_setservicestate.htm
 old-project: DirectShow
 ms.assetid: c65d056e-0f39-4372-9060-37859798cade
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], SetServiceState method, IAMWstDecoder::SetServiceState, IAMWstDecoderSetServiceState, SetServiceState method [DirectShow], SetServiceState method [DirectShow], IAMWstDecoder interface, SetServiceState,IAMWstDecoder.SetServiceState, dshow.iamwstdecoder_setservicestate, iwstdec/IAMWstDecoder::SetServiceState
+ms.date: 4/30/2018
+ms.keywords: IAMWstDecoder interface [DirectShow],SetServiceState method, IAMWstDecoder.SetServiceState, IAMWstDecoder::SetServiceState, IAMWstDecoderSetServiceState, SetServiceState, SetServiceState method [DirectShow], SetServiceState method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setservicestate, iwstdec/IAMWstDecoder::SetServiceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMWstDecoder::SetServiceState method
+# IAMWstDecoder::SetServiceState
 
 
 ## -description

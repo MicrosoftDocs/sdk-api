@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetEntryComponent
-title: IIsdbDataContentDescriptor::GetEntryComponent method
+title: IIsdbDataContentDescriptor::GetEntryComponent
 author: windows-driver-content
 description: Gets the value of the entry_component field from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. This field indicates the first component stream that is referenced in the descriptor.
 old-location: mstv\iisdbdatacontentdescriptor_getentrycomponent.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9f8f9e55-cc03-4f07-918e-19199485c8d4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetEntryComponent method [Microsoft TV Technologies], GetEntryComponent method [Microsoft TV Technologies], IIsdbDataContentDescriptor interface, GetEntryComponent,IIsdbDataContentDescriptor.GetEntryComponent, IIsdbDataContentDescriptor, IIsdbDataContentDescriptor interface [Microsoft TV Technologies], GetEntryComponent method, IIsdbDataContentDescriptor::GetEntryComponent, dvbsiparser/IIsdbDataContentDescriptor::GetEntryComponent, mstv.iisdbdatacontentdescriptor_getentrycomponent
+ms.keywords: GetEntryComponent, GetEntryComponent method [Microsoft TV Technologies], GetEntryComponent method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetEntryComponent method, IIsdbDataContentDescriptor.GetEntryComponent, IIsdbDataContentDescriptor::GetEntryComponent, dvbsiparser/IIsdbDataContentDescriptor::GetEntryComponent, mstv.iisdbdatacontentdescriptor_getentrycomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDataContentDescriptor::GetEntryComponent method
+# IIsdbDataContentDescriptor::GetEntryComponent
 
 
 ## -description

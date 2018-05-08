@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.EnumerateRoots
-title: ISearchCrawlScopeManager::EnumerateRoots method
+title: ISearchCrawlScopeManager::EnumerateRoots
 author: windows-driver-content
 description: Returns an enumeration of all the roots of which this instance of the ISearchCrawlScopeManager is aware.
 old-location: search\_search_ISearchCrawlScopeManager_EnumerateRoots.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\enumerateroots.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumerateRoots method [search], EnumerateRoots method [search], ISearchCrawlScopeManager interface, EnumerateRoots,ISearchCrawlScopeManager.EnumerateRoots, ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], EnumerateRoots method, ISearchCrawlScopeManager::EnumerateRoots, _search_ISearchCrawlScopeManager_EnumerateRoots, search._search_ISearchCrawlScopeManager_EnumerateRoots, searchapi/ISearchCrawlScopeManager::EnumerateRoots
+ms.date: 5/4/2018
+ms.keywords: EnumerateRoots, EnumerateRoots method [search], EnumerateRoots method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],EnumerateRoots method, ISearchCrawlScopeManager.EnumerateRoots, ISearchCrawlScopeManager::EnumerateRoots, _search_ISearchCrawlScopeManager_EnumerateRoots, search._search_ISearchCrawlScopeManager_EnumerateRoots, searchapi/ISearchCrawlScopeManager::EnumerateRoots
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCrawlScopeManager::EnumerateRoots method
+# ISearchCrawlScopeManager::EnumerateRoots
 
 
 ## -description

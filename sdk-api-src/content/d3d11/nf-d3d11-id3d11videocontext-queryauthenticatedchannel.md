@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.QueryAuthenticatedChannel
-title: ID3D11VideoContext::QueryAuthenticatedChannel method
+title: ID3D11VideoContext::QueryAuthenticatedChannel
 author: windows-driver-content
 description: Sends a query to an authenticated channel.
 old-location: mf\id3d11videocontext_queryauthenticatedchannel.htm
 old-project: medfound
 ms.assetid: 4E059358-E1FD-4EDB-B1D4-982802385232
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], QueryAuthenticatedChannel method, ID3D11VideoContext::QueryAuthenticatedChannel, QueryAuthenticatedChannel method [Media Foundation], QueryAuthenticatedChannel method [Media Foundation], ID3D11VideoContext interface, QueryAuthenticatedChannel,ID3D11VideoContext.QueryAuthenticatedChannel, d3d11/ID3D11VideoContext::QueryAuthenticatedChannel, mf.id3d11videocontext_queryauthenticatedchannel
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoContext interface [Media Foundation],QueryAuthenticatedChannel method, ID3D11VideoContext.QueryAuthenticatedChannel, ID3D11VideoContext::QueryAuthenticatedChannel, QueryAuthenticatedChannel, QueryAuthenticatedChannel method [Media Foundation], QueryAuthenticatedChannel method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::QueryAuthenticatedChannel, mf.id3d11videocontext_queryauthenticatedchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::QueryAuthenticatedChannel method
+# ID3D11VideoContext::QueryAuthenticatedChannel
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetStreamNumberForOutput
-title: IWMSyncReader::GetStreamNumberForOutput method
+title: IWMSyncReader::GetStreamNumberForOutput
 author: windows-driver-content
 description: The GetStreamNumberForOutput method retrieves the stream number that corresponds with the specified output.
 old-location: wmformat\iwmsyncreader_getstreamnumberforoutput.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 85543b80-78dd-4dc6-8885-c6a53f910165
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetStreamNumberForOutput method [windows Media Format], GetStreamNumberForOutput method [windows Media Format], IWMSyncReader interface, GetStreamNumberForOutput,IWMSyncReader.GetStreamNumberForOutput, IWMSyncReader, IWMSyncReader interface [windows Media Format], GetStreamNumberForOutput method, IWMSyncReader::GetStreamNumberForOutput, IWMSyncReaderGetStreamNumberForOutput, wmformat.iwmsyncreader_getstreamnumberforoutput, wmsdkidl/IWMSyncReader::GetStreamNumberForOutput
+ms.keywords: GetStreamNumberForOutput, GetStreamNumberForOutput method [windows Media Format], GetStreamNumberForOutput method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetStreamNumberForOutput method, IWMSyncReader.GetStreamNumberForOutput, IWMSyncReader::GetStreamNumberForOutput, IWMSyncReaderGetStreamNumberForOutput, wmformat.iwmsyncreader_getstreamnumberforoutput, wmsdkidl/IWMSyncReader::GetStreamNumberForOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader::GetStreamNumberForOutput method
+# IWMSyncReader::GetStreamNumberForOutput
 
 
 ## -description

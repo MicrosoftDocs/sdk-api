@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.SendCommandGetDataFromDevice
-title: IDiscRecorder2Ex::SendCommandGetDataFromDevice method
+title: IDiscRecorder2Ex::SendCommandGetDataFromDevice
 author: windows-driver-content
 description: Sends a MMC command to the recording device requesting data from the device.
 old-location: imapi\idiscrecorder2ex_sendcommandgetdatafromdevice.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d3142b79-4e46-4cb8-ab4a-3bf5823cd26e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscRecorder2Ex, IDiscRecorder2Ex interface [IMAPI], SendCommandGetDataFromDevice method, IDiscRecorder2Ex::SendCommandGetDataFromDevice, SendCommandGetDataFromDevice method [IMAPI], SendCommandGetDataFromDevice method [IMAPI], IDiscRecorder2Ex interface, SendCommandGetDataFromDevice,IDiscRecorder2Ex.SendCommandGetDataFromDevice, imapi.idiscrecorder2ex_sendcommandgetdatafromdevice, imapi2/IDiscRecorder2Ex::SendCommandGetDataFromDevice
+ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendCommandGetDataFromDevice method, IDiscRecorder2Ex.SendCommandGetDataFromDevice, IDiscRecorder2Ex::SendCommandGetDataFromDevice, SendCommandGetDataFromDevice, SendCommandGetDataFromDevice method [IMAPI], SendCommandGetDataFromDevice method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_sendcommandgetdatafromdevice, imapi2/IDiscRecorder2Ex::SendCommandGetDataFromDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2Ex::SendCommandGetDataFromDevice method
+# IDiscRecorder2Ex::SendCommandGetDataFromDevice
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderState
-title: ISyncProviderRegistration::GetSyncProviderState method
+title: ISyncProviderRegistration::GetSyncProviderState
 author: windows-driver-content
 description: Returns the state of the specified synchronization provider.
 old-location: winsync\isyncproviderregistration_getsyncproviderstate.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 4e2e2e17-e435-4def-9aee-9109e0e06a8c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSyncProviderState method [Windows Sync], GetSyncProviderState method [Windows Sync], ISyncProviderRegistration interface, GetSyncProviderState,ISyncProviderRegistration.GetSyncProviderState, ISyncProviderRegistration, ISyncProviderRegistration interface [Windows Sync], GetSyncProviderState method, ISyncProviderRegistration::GetSyncProviderState, syncregistration/ISyncProviderRegistration::GetSyncProviderState, winsync.isyncproviderregistration_getsyncproviderstate
+ms.keywords: GetSyncProviderState, GetSyncProviderState method [Windows Sync], GetSyncProviderState method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderState method, ISyncProviderRegistration.GetSyncProviderState, ISyncProviderRegistration::GetSyncProviderState, syncregistration/ISyncProviderRegistration::GetSyncProviderState, winsync.isyncproviderregistration_getsyncproviderstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderRegistration::GetSyncProviderState method
+# ISyncProviderRegistration::GetSyncProviderState
 
 
 ## -description

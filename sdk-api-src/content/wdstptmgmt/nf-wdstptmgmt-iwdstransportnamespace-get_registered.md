@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Registered
-title: IWdsTransportNamespace::get_Registered method
+title: IWdsTransportNamespace::get_Registered
 author: windows-driver-content
 description: Returns a value that indicates whether the namespace is registered on the server.
 old-location: wds\iwdstransportnamespace_registered.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: b3255a79-5c6d-42cc-9ddd-30c8e13dcfd9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportNamespace, IWdsTransportNamespace interface [Windows Deployment Services], Registered property, IWdsTransportNamespace.Registered, IWdsTransportNamespace::get_Registered, Registered property [Windows Deployment Services], Registered property [Windows Deployment Services], IWdsTransportNamespace interface, get_Registered,IWdsTransportNamespace.get_Registered, wds.iwdstransportnamespace_registered, wdstptmgmt/IWdsTransportNamespace::Registered, wdstptmgmt/IWdsTransportNamespace::get_Registered
+ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Registered property, IWdsTransportNamespace.Registered, IWdsTransportNamespace.get_Registered, IWdsTransportNamespace::Registered, IWdsTransportNamespace::get_Registered, Registered property [Windows Deployment Services], Registered property [Windows Deployment Services],IWdsTransportNamespace interface, get_Registered, wds.iwdstransportnamespace_registered, wdstptmgmt/IWdsTransportNamespace::Registered, wdstptmgmt/IWdsTransportNamespace::get_Registered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportNamespace::get_Registered method
+# IWdsTransportNamespace::get_Registered
 
 
 ## -description

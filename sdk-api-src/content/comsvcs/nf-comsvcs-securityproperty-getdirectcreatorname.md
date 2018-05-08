@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.SecurityProperty.GetDirectCreatorName
-title: SecurityProperty::GetDirectCreatorName method
+title: SecurityProperty::GetDirectCreatorName
 author: windows-driver-content
 description: Retrieves the user name associated with the current object's immediate (out-of-process) creator.
 old-location: cos\securityproperty_getdirectcreatorname.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 26619719-bcca-4776-9580-edc541e6b821
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetDirectCreatorName method [COM+], GetDirectCreatorName method [COM+], SecurityProperty interface, GetDirectCreatorName,SecurityProperty.GetDirectCreatorName, SecurityProperty, SecurityProperty interface [COM+], GetDirectCreatorName method, SecurityProperty::GetDirectCreatorName, _cos_SecurityProperty_GetDirectCreatorName, comsvcs/SecurityProperty::GetDirectCreatorName, cos.securityproperty_getdirectcreatorname
+ms.keywords: GetDirectCreatorName, GetDirectCreatorName method [COM+], GetDirectCreatorName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetDirectCreatorName method, SecurityProperty.GetDirectCreatorName, SecurityProperty::GetDirectCreatorName, _cos_SecurityProperty_GetDirectCreatorName, comsvcs/SecurityProperty::GetDirectCreatorName, cos.securityproperty_getdirectcreatorname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# SecurityProperty::GetDirectCreatorName method
+# SecurityProperty::GetDirectCreatorName
 
 
 ## -description

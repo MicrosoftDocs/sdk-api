@@ -7,7 +7,7 @@ old-location: winsock\nspv2lookupservicenextex.htm
 old-project: WinSock
 ms.assetid: 957fe544-9a3f-47f4-a98c-0624747650f4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: LPNSPV2LOOKUPSERVICENEXTEX, NSPv2LookupServiceNextEx, NSPv2LookupServiceNextEx function [Winsock], winsock.nspv2lookupservicenextex, ws2spi/NSPv2LookupServiceNextEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# LPNSPV2LOOKUPSERVICENEXTEX callback
+# LPNSPV2LOOKUPSERVICENEXTEX callback function
 
 
 ## -description

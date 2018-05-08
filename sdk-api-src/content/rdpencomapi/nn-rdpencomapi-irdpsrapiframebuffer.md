@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: ab40bdd2-448f-4867-aabd-d6b66add5247
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], IRDPSRAPIFrameBuffer interface [RDP], described, rdp.irdpsrapiframebuffer, rdpencomapi/IRDPSRAPIFrameBuffer
+ms.keywords: IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], IRDPSRAPIFrameBuffer interface [RDP],described, rdp.irdpsrapiframebuffer, rdpencomapi/IRDPSRAPIFrameBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

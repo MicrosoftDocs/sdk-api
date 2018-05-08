@@ -65,6 +65,34 @@ Internet Protocol (IP) version.
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a> for more information.
 
 
+### -field publicHostV4Addr
+
+The public IPv4 address of the Internet host.
+
+Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field publicHostV6Addr
+
+The public IPv6 address of the Internet host.
+
+Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
+### -field internalHostV4Addr
+
+The internal IPv4 address of the Internet host.
+
+Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field internalHostV6Addr
+
+The internal IPv6 address of the Internet host.
+
+Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
 ### -field failureStatus
 
 Contains the  error code for the failure.
@@ -73,34 +101,6 @@ Contains the  error code for the failure.
 ### -field direction
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a> value that specifies whether the dropped packet is inbound or outbound.
-
-
-#### - internalHostV4Addr
-
-The internal IPv4 address of the Internet host.
-
-Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - internalHostV6Addr
-
-The internal IPv6 address of the Internet host.
-
-Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
-
-
-#### - publicHostV4Addr
-
-The public IPv4 address of the Internet host.
-
-Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - publicHostV6Addr
-
-The public IPv6 address of the Internet host.
-
-Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 
 ## -remarks

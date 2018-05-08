@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSettings.put_baseURL
-title: IWMPSettings::put_baseURL method
+title: IWMPSettings::put_baseURL
 author: windows-driver-content
 description: The put_baseURL method specifies the base URL used for relative path resolution with URL script commands that are embedded in digital media files.
 old-location: wmp\iwmpsettings_put_baseurl.htm
 old-project: WMP
 ms.assetid: ae070004-e90e-4f1e-b8b8-15deccdc48ad
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], put_baseURL method, IWMPSettings::put_baseURL, IWMPSettingsput_baseURL, put_baseURL method [Windows Media Player], put_baseURL method [Windows Media Player], IWMPSettings interface, put_baseURL,IWMPSettings.put_baseURL, wmp.iwmpsettings_put_baseurl, wmp/IWMPSettings::put_baseURL
+ms.date: 5/4/2018
+ms.keywords: IWMPSettings interface [Windows Media Player],put_baseURL method, IWMPSettings.put_baseURL, IWMPSettings::put_baseURL, IWMPSettingsput_baseURL, put_baseURL, put_baseURL method [Windows Media Player], put_baseURL method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_baseurl, wmp/IWMPSettings::put_baseURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSettings::put_baseURL method
+# IWMPSettings::put_baseURL
 
 
 ## -description

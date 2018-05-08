@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawPalette.Initialize
-title: IDirectDrawPalette::Initialize method
+title: IDirectDrawPalette::Initialize
 author: windows-driver-content
 description: Initializes the DirectDrawPalette object.
 old-location: directdraw\idirectdrawpalette_initialize.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: e0ad7ea1-759d-48e9-8d15-6601d9b15588
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawPalette, IDirectDrawPalette interface [DirectDraw], Initialize method, IDirectDrawPalette::Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw], IDirectDrawPalette interface, Initialize,IDirectDrawPalette.Initialize, ddraw/IDirectDrawPalette::Initialize, directdraw.idirectdrawpalette_initialize
+ms.keywords: IDirectDrawPalette interface [DirectDraw],Initialize method, IDirectDrawPalette.Initialize, IDirectDrawPalette::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawPalette interface, ddraw/IDirectDrawPalette::Initialize, directdraw.idirectdrawpalette_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawPalette::Initialize method
+# IDirectDrawPalette::Initialize
 
 
 ## -description

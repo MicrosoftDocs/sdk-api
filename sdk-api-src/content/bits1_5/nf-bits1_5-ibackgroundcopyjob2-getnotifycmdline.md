@@ -1,14 +1,14 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.GetNotifyCmdLine
-title: IBackgroundCopyJob2::GetNotifyCmdLine method
+title: IBackgroundCopyJob2::GetNotifyCmdLine
 author: windows-driver-content
 description: Retrieves the program to execute when the job enters the error or transferred state.
 old-location: bits\ibackgroundcopyjob2_getnotifycmdline.htm
 old-project: Bits
 ms.assetid: 62978315-e893-4617-8e6d-63bab8204913
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetNotifyCmdLine method [BITS], GetNotifyCmdLine method [BITS], IBackgroundCopyJob2 interface, GetNotifyCmdLine,IBackgroundCopyJob2.GetNotifyCmdLine, IBackgroundCopyJob2, IBackgroundCopyJob2 interface [BITS], GetNotifyCmdLine method, IBackgroundCopyJob2::GetNotifyCmdLine, _drz_ibackgroundcopyjob2_getnotifycmdline, bits.ibackgroundcopyjob2_getnotifycmdline, bits1_5/IBackgroundCopyJob2::GetNotifyCmdLine
+ms.date: 4/27/2018
+ms.keywords: GetNotifyCmdLine, GetNotifyCmdLine method [BITS], GetNotifyCmdLine method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetNotifyCmdLine method, IBackgroundCopyJob2.GetNotifyCmdLine, IBackgroundCopyJob2::GetNotifyCmdLine, _drz_ibackgroundcopyjob2_getnotifycmdline, bits.ibackgroundcopyjob2_getnotifycmdline, bits1_5/IBackgroundCopyJob2::GetNotifyCmdLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: BitsPrx2.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob2::GetNotifyCmdLine method
+# IBackgroundCopyJob2::GetNotifyCmdLine
 
 
 ## -description

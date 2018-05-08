@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_INFO.Next
-title: IEnumWIA_DEV_INFO::Next method
+title: IEnumWIA_DEV_INFO::Next
 author: windows-driver-content
 description: The IEnumWIA_DEV_INFO::Next method fills an array of pointers to IWiaPropertyStorage interfaces.
 old-location: wia\_wia_IEnumWIA_DEV_INFO_Next.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_info\next.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IEnumWIA_DEV_INFO, IEnumWIA_DEV_INFO interface [WIA], Next method, IEnumWIA_DEV_INFO::Next, Next method [WIA], Next method [WIA], IEnumWIA_DEV_INFO interface, Next,IEnumWIA_DEV_INFO.Next, _wia_IEnumWIA_DEV_INFO_Next, wia._wia_IEnumWIA_DEV_INFO_Next, wia_xp/IEnumWIA_DEV_INFO::Next
+ms.date: 5/3/2018
+ms.keywords: IEnumWIA_DEV_INFO interface [WIA],Next method, IEnumWIA_DEV_INFO.Next, IEnumWIA_DEV_INFO::Next, Next, Next method [WIA], Next method [WIA],IEnumWIA_DEV_INFO interface, _wia_IEnumWIA_DEV_INFO_Next, wia._wia_IEnumWIA_DEV_INFO_Next, wia_xp/IEnumWIA_DEV_INFO::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IEnumWIA_DEV_INFO::Next method
+# IEnumWIA_DEV_INFO::Next
 
 
 ## -description

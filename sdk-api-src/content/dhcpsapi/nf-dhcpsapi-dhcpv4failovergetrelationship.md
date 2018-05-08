@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failovergetrelationship.htm
 old-project: DHCP
 ms.assetid: b637d1e8-8c61-4382-a5ec-3d5395433f86
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpV4FailoverGetRelationship, DhcpV4FailoverGetRelationship function [DHCP], dhcp.dhcpv4failovergetrelationship, dhcpsapi/DhcpV4FailoverGetRelationship
 ms.prod: windows-hardware
 ms.technology: windows-devices

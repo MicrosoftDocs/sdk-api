@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESValueUpdatedEvent.GetValueNames
-title: IESValueUpdatedEvent::GetValueNames method
+title: IESValueUpdatedEvent::GetValueNames
 author: windows-driver-content
 description: For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name for the value that has been updated.
 old-location: mstv\iesvalueupdatedevent_getvaluenames.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bc008b4a-fa6f-4b62-90da-417813081344
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetValueNames method [Microsoft TV Technologies], GetValueNames method [Microsoft TV Technologies], IESValueUpdatedEvent interface, GetValueNames,IESValueUpdatedEvent.GetValueNames, IESValueUpdatedEvent, IESValueUpdatedEvent interface [Microsoft TV Technologies], GetValueNames method, IESValueUpdatedEvent::GetValueNames, mstv.iesvalueupdatedevent_getvaluenames, tuner/IESValueUpdatedEvent::GetValueNames
+ms.keywords: GetValueNames, GetValueNames method [Microsoft TV Technologies], GetValueNames method [Microsoft TV Technologies],IESValueUpdatedEvent interface, IESValueUpdatedEvent interface [Microsoft TV Technologies],GetValueNames method, IESValueUpdatedEvent.GetValueNames, IESValueUpdatedEvent::GetValueNames, mstv.iesvalueupdatedevent_getvaluenames, tuner/IESValueUpdatedEvent::GetValueNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESValueUpdatedEvent::GetValueNames method
+# IESValueUpdatedEvent::GetValueNames
 
 
 ## -description

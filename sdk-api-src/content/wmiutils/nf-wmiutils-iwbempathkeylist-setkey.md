@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.SetKey
-title: IWbemPathKeyList::SetKey method
+title: IWbemPathKeyList::SetKey
 author: windows-driver-content
 description: Sets the name or value pair for a key.
 old-location: wmi\iwbempathkeylist_setkey.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: d655c5c7-0830-46fc-a81d-9bfa16f80d68
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], SetKey method, IWbemPathKeyList::SetKey, SetKey method [Windows Management Instrumentation], SetKey method [Windows Management Instrumentation], IWbemPathKeyList interface, SetKey,IWbemPathKeyList.SetKey, _hmm_iwbempathkeylist_setkey, wmi.iwbempathkeylist_setkey, wmiutils/IWbemPathKeyList::SetKey
+ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],SetKey method, IWbemPathKeyList.SetKey, IWbemPathKeyList::SetKey, SetKey, SetKey method [Windows Management Instrumentation], SetKey method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_setkey, wmi.iwbempathkeylist_setkey, wmiutils/IWbemPathKeyList::SetKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPathKeyList::SetKey method
+# IWbemPathKeyList::SetKey
 
 
 ## -description

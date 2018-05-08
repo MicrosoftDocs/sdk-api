@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IShellService.SetOwner
-title: IShellService::SetOwner method
+title: IShellService::SetOwner
 author: windows-driver-content
 description: Deprecated. Declares an owner reference to the service object.
 old-location: shell\IShellService_SetOwner.htm
 old-project: shell
 ms.assetid: ef3865b2-b651-4072-86f2-2996fce061a4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellService, IShellService interface [Windows Shell], SetOwner method, IShellService::SetOwner, SetOwner method [Windows Shell], SetOwner method [Windows Shell], IShellService interface, SetOwner,IShellService.SetOwner, shdeprecated/IShellService::SetOwner, shell.IShellService_SetOwner, zone_IShellService_SetOwner
+ms.date: 5/3/2018
+ms.keywords: IShellService interface [Windows Shell],SetOwner method, IShellService.SetOwner, IShellService::SetOwner, SetOwner, SetOwner method [Windows Shell], SetOwner method [Windows Shell],IShellService interface, shdeprecated/IShellService::SetOwner, shell.IShellService_SetOwner, zone_IShellService_SetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IShellService::SetOwner method
+# IShellService::SetOwner
 
 
 ## -description

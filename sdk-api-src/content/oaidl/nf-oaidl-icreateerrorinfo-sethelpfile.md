@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetHelpFile
-title: ICreateErrorInfo::SetHelpFile method
+title: ICreateErrorInfo::SetHelpFile
 author: windows-driver-content
 description: Sets the path of the Help file that describes the error.
 old-location: automat\icreateerrorinfo_sethelpfile.htm
 old-project: automat
 ms.assetid: bb439d74-fd52-4c95-afc5-d57e2fe5029d
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], SetHelpFile method, ICreateErrorInfo::SetHelpFile, SetHelpFile method [Automation], SetHelpFile method [Automation], ICreateErrorInfo interface, SetHelpFile,ICreateErrorInfo.SetHelpFile, _oa96_ICreateErrorInfo_SetHelpFile, automat.icreateerrorinfo_sethelpfile, oaidl/ICreateErrorInfo::SetHelpFile
+ms.date: 5/4/2018
+ms.keywords: ICreateErrorInfo interface [Automation],SetHelpFile method, ICreateErrorInfo.SetHelpFile, ICreateErrorInfo::SetHelpFile, SetHelpFile, SetHelpFile method [Automation], SetHelpFile method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetHelpFile, automat.icreateerrorinfo_sethelpfile, oaidl/ICreateErrorInfo::SetHelpFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateErrorInfo::SetHelpFile method
+# ICreateErrorInfo::SetHelpFile
 
 
 ## -description

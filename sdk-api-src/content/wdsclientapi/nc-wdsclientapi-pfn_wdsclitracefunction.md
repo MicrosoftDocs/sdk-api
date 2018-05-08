@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 5c10c767-45d2-4b42-b7c3-a2cd8188975e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PFN_WdsCliTraceFunction, PFN_WdsCliTraceFunction callback function [Windows Deployment Services], wds.pfn_wdsclitracefunction, wdsclientapi/PFN_WdsCliTraceFunction
+ms.keywords: PFN_WdsCliTraceFunction, PFN_WdsCliTraceFunction callback, PFN_WdsCliTraceFunction callback function [Windows Deployment Services], wds.pfn_wdsclitracefunction, wdsclientapi/PFN_WdsCliTraceFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFN_WdsCliTraceFunction callback
+# PFN_WdsCliTraceFunction callback function
 
 
 ## -description

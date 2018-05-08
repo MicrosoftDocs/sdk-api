@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifier.InitializeEncode
-title: IPolicyQualifier::InitializeEncode method
+title: IPolicyQualifier::InitializeEncode
 author: windows-driver-content
 description: Initializes the object from a string and a value that identifies the qualifier type.
 old-location: security\ipolicyqualifier_initializeencode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: fc8b5916-0557-4f9b-8478-169a3dd9cebc
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IPolicyQualifier, IPolicyQualifier interface [Security], InitializeEncode method, IPolicyQualifier::InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security], IPolicyQualifier interface, InitializeEncode,IPolicyQualifier.InitializeEncode, PolicyQualifierTypeUnknown, PolicyQualifierTypeUrl, PolicyQualifierTypeUserNotice, certenroll/IPolicyQualifier::InitializeEncode, security.ipolicyqualifier_initializeencode_method
+ms.keywords: IPolicyQualifier interface [Security],InitializeEncode method, IPolicyQualifier.InitializeEncode, IPolicyQualifier::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IPolicyQualifier interface, PolicyQualifierTypeUnknown, PolicyQualifierTypeUrl, PolicyQualifierTypeUserNotice, certenroll/IPolicyQualifier::InitializeEncode, security.ipolicyqualifier_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IPolicyQualifier::InitializeEncode method
+# IPolicyQualifier::InitializeEncode
 
 
 ## -description

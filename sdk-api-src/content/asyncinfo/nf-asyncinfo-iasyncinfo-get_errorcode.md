@@ -1,14 +1,14 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.get_ErrorCode
-title: IAsyncInfo::get_ErrorCode method
+title: IAsyncInfo::get_ErrorCode
 author: windows-driver-content
 description: Retrieves the termination status of the asynchronous operation.
 old-location: winrt\iasyncinfo_errorcode.htm
 old-project: WinRT
 ms.assetid: 1de13cb9-3f1f-44b5-984f-8e7ccb31cec9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ErrorCode property [Windows Runtime], ErrorCode property [Windows Runtime], IAsyncInfo interface, IAsyncInfo, IAsyncInfo interface [Windows Runtime], ErrorCode property, IAsyncInfo.ErrorCode, IAsyncInfo::get_ErrorCode, asyncinfo/IAsyncInfo::ErrorCode, asyncinfo/IAsyncInfo::get_ErrorCode, get_ErrorCode,IAsyncInfo.get_ErrorCode, winrt.iasyncinfo_errorcode
+ms.date: 5/4/2018
+ms.keywords: ErrorCode property [Windows Runtime], ErrorCode property [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],ErrorCode property, IAsyncInfo.ErrorCode, IAsyncInfo.get_ErrorCode, IAsyncInfo::ErrorCode, IAsyncInfo::get_ErrorCode, asyncinfo/IAsyncInfo::ErrorCode, asyncinfo/IAsyncInfo::get_ErrorCode, get_ErrorCode, winrt.iasyncinfo_errorcode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAsyncInfo::get_ErrorCode method
+# IAsyncInfo::get_ErrorCode
 
 
 ## -description

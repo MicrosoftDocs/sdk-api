@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstallationResult.get_HResult
-title: IUpdateInstallationResult::get_HResult method
+title: IUpdateInstallationResult::get_HResult
 author: windows-driver-content
 description: Gets the HRESULT exception value that is raised during the operation on an update.
 old-location: wua\iupdateinstallationresult_hresult.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 0db7d280-b703-4cfb-8332-d33f9fc89a55
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent], IUpdateInstallationResult interface, IUpdateInstallationResult, IUpdateInstallationResult interface [Windows Update Agent], HResult property, IUpdateInstallationResult.HResult, IUpdateInstallationResult::get_HResult, get_HResult,IUpdateInstallationResult.get_HResult, wua.iupdateinstallationresult_hresult, wuapi/IUpdateInstallationResult::HResult, wuapi/IUpdateInstallationResult::get_HResult
+ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IUpdateInstallationResult interface, IUpdateInstallationResult interface [Windows Update Agent],HResult property, IUpdateInstallationResult.HResult, IUpdateInstallationResult.get_HResult, IUpdateInstallationResult::HResult, IUpdateInstallationResult::get_HResult, get_HResult, wua.iupdateinstallationresult_hresult, wuapi/IUpdateInstallationResult::HResult, wuapi/IUpdateInstallationResult::get_HResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateInstallationResult::get_HResult method
+# IUpdateInstallationResult::get_HResult
 
 
 ## -description

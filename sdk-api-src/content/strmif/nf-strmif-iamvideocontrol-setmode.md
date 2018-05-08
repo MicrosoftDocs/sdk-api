@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVideoControl.SetMode
-title: IAMVideoControl::SetMode method
+title: IAMVideoControl::SetMode
 author: windows-driver-content
 description: The SetMode method sets the video control mode of operation.
 old-location: dshow\iamvideocontrol_setmode.htm
 old-project: DirectShow
 ms.assetid: 09fe5d3f-41d8-4a60-a770-64c628a6b82d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVideoControl, IAMVideoControl interface [DirectShow], SetMode method, IAMVideoControl::SetMode, IAMVideoControlSetMode, SetMode method [DirectShow], SetMode method [DirectShow], IAMVideoControl interface, SetMode,IAMVideoControl.SetMode, dshow.iamvideocontrol_setmode, strmif/IAMVideoControl::SetMode
+ms.date: 4/30/2018
+ms.keywords: IAMVideoControl interface [DirectShow],SetMode method, IAMVideoControl.SetMode, IAMVideoControl::SetMode, IAMVideoControlSetMode, SetMode, SetMode method [DirectShow], SetMode method [DirectShow],IAMVideoControl interface, dshow.iamvideocontrol_setmode, strmif/IAMVideoControl::SetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVideoControl::SetMode method
+# IAMVideoControl::SetMode
 
 
 ## -description

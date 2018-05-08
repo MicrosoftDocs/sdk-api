@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.RemoveAt
-title: IXpsOMDashCollection::RemoveAt method
+title: IXpsOMDashCollection::RemoveAt
 author: windows-driver-content
 description: Removes and frees an XPS_DASH structure from a specified location in the collection.
 old-location: xps\ixpsomdashcollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 5ccce0d4-c764-4da4-9d7c-463921a92a6a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMDashCollection, IXpsOMDashCollection interface [XPS Documents and Packaging], RemoveAt method, IXpsOMDashCollection::RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging], IXpsOMDashCollection interface, RemoveAt,IXpsOMDashCollection.RemoveAt, xps.ixpsomdashcollection_removeat, xpsobjectmodel/IXpsOMDashCollection::RemoveAt
+ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMDashCollection.RemoveAt, IXpsOMDashCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_removeat, xpsobjectmodel/IXpsOMDashCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDashCollection::RemoveAt method
+# IXpsOMDashCollection::RemoveAt
 
 
 ## -description

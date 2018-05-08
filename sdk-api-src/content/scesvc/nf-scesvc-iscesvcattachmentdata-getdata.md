@@ -1,6 +1,6 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentData.GetData
-title: ISceSvcAttachmentData::GetData method
+title: ISceSvcAttachmentData::GetData
 author: windows-driver-content
 description: The GetData method retrieves configuration information from the Security Configuration snap-in.
 old-location: security\iscesvcattachmentdata_getdata.htm
@@ -8,7 +8,7 @@ old-project: SecMgmt
 ms.assetid: f0b51592-58d9-45f2-a0a5-7cdbde0bc0a1
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetData method [Security], GetData method [Security], ISceSvcAttachmentData interface, GetData,ISceSvcAttachmentData.GetData, ISceSvcAttachmentData, ISceSvcAttachmentData interface [Security], GetData method, ISceSvcAttachmentData::GetData, SCE_SERVICE_ANALYSIS_INFO, SCE_SERVICE_CONFIGURATION_INFO, _config_iscesvcattachmentdata_getdata, scesvc/ISceSvcAttachmentData::GetData, security.iscesvcattachmentdata_getdata
+ms.keywords: GetData, GetData method [Security], GetData method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],GetData method, ISceSvcAttachmentData.GetData, ISceSvcAttachmentData::GetData, SCE_SERVICE_ANALYSIS_INFO, SCE_SERVICE_CONFIGURATION_INFO, _config_iscesvcattachmentdata_getdata, scesvc/ISceSvcAttachmentData::GetData, security.iscesvcattachmentdata_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISceSvcAttachmentData::GetData method
+# ISceSvcAttachmentData::GetData
 
 
 ## -description

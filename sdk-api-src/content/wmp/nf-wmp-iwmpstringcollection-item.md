@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPStringCollection.item
-title: IWMPStringCollection::item method
+title: IWMPStringCollection::item
 author: windows-driver-content
 description: The item method retrieves the string at the given index.
 old-location: wmp\iwmpstringcollection_item.htm
 old-project: WMP
 ms.assetid: 05e7fd0c-1226-4680-a9aa-543111fd2bdf
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPStringCollection, IWMPStringCollection interface [Windows Media Player], item method, IWMPStringCollection::item, IWMPStringCollectionitem, item method [Windows Media Player], item method [Windows Media Player], IWMPStringCollection interface, item,IWMPStringCollection.item, wmp.iwmpstringcollection_item, wmp/IWMPStringCollection::item
+ms.date: 5/4/2018
+ms.keywords: IWMPStringCollection interface [Windows Media Player],item method, IWMPStringCollection.item, IWMPStringCollection::item, IWMPStringCollectionitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPStringCollection interface, wmp.iwmpstringcollection_item, wmp/IWMPStringCollection::item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPStringCollection::item method
+# IWMPStringCollection::item
 
 
 ## -description

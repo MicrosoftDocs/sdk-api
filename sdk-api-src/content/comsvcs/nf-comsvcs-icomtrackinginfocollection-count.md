@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoCollection.Count
-title: IComTrackingInfoCollection::Count method
+title: IComTrackingInfoCollection::Count
 author: windows-driver-content
 description: Retrieves the number of objects in a tracking information collection.
 old-location: cos\icomtrackinginfocollection_count.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 72578a4e-bc23-4bc8-ab40-346ba9c5a6d7
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: Count method [COM+], Count method [COM+], IComTrackingInfoCollection interface, Count,IComTrackingInfoCollection.Count, IComTrackingInfoCollection, IComTrackingInfoCollection interface [COM+], Count method, IComTrackingInfoCollection::Count, _dtc_IComTrackingInfoCollection_Count, comsvcs/IComTrackingInfoCollection::Count, cos.icomtrackinginfocollection_count
+ms.keywords: Count, Count method [COM+], Count method [COM+],IComTrackingInfoCollection interface, IComTrackingInfoCollection interface [COM+],Count method, IComTrackingInfoCollection.Count, IComTrackingInfoCollection::Count, _dtc_IComTrackingInfoCollection_Count, comsvcs/IComTrackingInfoCollection::Count, cos.icomtrackinginfocollection_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComTrackingInfoCollection::Count method
+# IComTrackingInfoCollection::Count
 
 
 ## -description

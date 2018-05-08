@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIFrameBuffer.get_Height
-title: IRDPSRAPIFrameBuffer::get_Height method
+title: IRDPSRAPIFrameBuffer::get_Height
 author: windows-driver-content
 description: Height, in pixels, of the frame buffer.
 old-location: rdp\irdpsrapiframebuffer_height.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 56042b85-6f2c-44ec-82ac-81ee9425c863
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: Height property [RDP], Height property [RDP], IRDPSRAPIFrameBuffer interface, IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], Height property, IRDPSRAPIFrameBuffer.Height, IRDPSRAPIFrameBuffer::get_Height, get_Height,IRDPSRAPIFrameBuffer.get_Height, rdp.irdpsrapiframebuffer_height, rdpencomapi/IRDPSRAPIFrameBuffer::Height, rdpencomapi/IRDPSRAPIFrameBuffer::get_Height
+ms.keywords: Height property [RDP], Height property [RDP],IRDPSRAPIFrameBuffer interface, IRDPSRAPIFrameBuffer interface [RDP],Height property, IRDPSRAPIFrameBuffer.Height, IRDPSRAPIFrameBuffer.get_Height, IRDPSRAPIFrameBuffer::Height, IRDPSRAPIFrameBuffer::get_Height, get_Height, rdp.irdpsrapiframebuffer_height, rdpencomapi/IRDPSRAPIFrameBuffer::Height, rdpencomapi/IRDPSRAPIFrameBuffer::get_Height
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIFrameBuffer::get_Height method
+# IRDPSRAPIFrameBuffer::get_Height
 
 
 ## -description

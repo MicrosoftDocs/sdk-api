@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetSignature
-title: IDot11AdHocNetwork::GetSignature method
+title: IDot11AdHocNetwork::GetSignature
 author: windows-driver-content
 description: Gets the unique signature associated with the ad hoc network.
 old-location: nwifi\idot11adhocnetwork_getsignature.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: 0a59a8bd-d2eb-48c6-8480-dc4dea335d22
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetSignature method [NativeWIFI], GetSignature method [NativeWIFI], IDot11AdHocNetwork interface, GetSignature,IDot11AdHocNetwork.GetSignature, IDot11AdHocNetwork, IDot11AdHocNetwork interface [NativeWIFI], GetSignature method, IDot11AdHocNetwork::GetSignature, adhoc/IDot11AdHocNetwork::GetSignature, nwifi.idot11adhocnetwork_getsignature
+ms.keywords: GetSignature, GetSignature method [NativeWIFI], GetSignature method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSignature method, IDot11AdHocNetwork.GetSignature, IDot11AdHocNetwork::GetSignature, adhoc/IDot11AdHocNetwork::GetSignature, nwifi.idot11adhocnetwork_getsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDot11AdHocNetwork::GetSignature method
+# IDot11AdHocNetwork::GetSignature
 
 
 ## -description

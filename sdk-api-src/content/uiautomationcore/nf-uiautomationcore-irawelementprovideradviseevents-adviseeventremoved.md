@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderAdviseEvents.AdviseEventRemoved
-title: IRawElementProviderAdviseEvents::AdviseEventRemoved method
+title: IRawElementProviderAdviseEvents::AdviseEventRemoved
 author: windows-driver-content
 description: Notifies the Microsoft UI Automation provider when a UI Automation client stops listening for a specific event, including a property-changed event.
 old-location: winauto\uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 42c9aeeb-dc08-4c13-ae86-2c0fb93e5c17
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: AdviseEventRemoved method [Windows Accessibility], AdviseEventRemoved method [Windows Accessibility], IRawElementProviderAdviseEvents interface, AdviseEventRemoved,IRawElementProviderAdviseEvents.AdviseEventRemoved, IRawElementProviderAdviseEvents, IRawElementProviderAdviseEvents interface [Windows Accessibility], AdviseEventRemoved method, IRawElementProviderAdviseEvents::AdviseEventRemoved, uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved, uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved, uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventRemoved, winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved
+ms.keywords: AdviseEventRemoved, AdviseEventRemoved method [Windows Accessibility], AdviseEventRemoved method [Windows Accessibility],IRawElementProviderAdviseEvents interface, IRawElementProviderAdviseEvents interface [Windows Accessibility],AdviseEventRemoved method, IRawElementProviderAdviseEvents.AdviseEventRemoved, IRawElementProviderAdviseEvents::AdviseEventRemoved, uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved, uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved, uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventRemoved, winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRawElementProviderAdviseEvents::AdviseEventRemoved method
+# IRawElementProviderAdviseEvents::AdviseEventRemoved
 
 
 ## -description

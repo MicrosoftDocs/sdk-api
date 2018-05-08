@@ -7,7 +7,7 @@ old-location: shell\IntToDWord.htm
 old-project: shell
 ms.assetid: 60988ee4-5a82-4801-9aab-2ea81fb90c15
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: IntToDWord, IntToDWord function [Windows Shell], IntToULong, _shell_IntToDWord, intsafe/IntToDWord, shell.IntToDWord
 ms.prod: windows-hardware
 ms.technology: windows-devices

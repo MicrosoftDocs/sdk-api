@@ -7,7 +7,7 @@ old-location: rpc\rpcstringbindingcompose.htm
 old-project: Rpc
 ms.assetid: 3f972fc9-67ca-4aa7-a0a0-204a8d90e928
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcStringBindingCompose, RpcStringBindingCompose function [RPC], RpcStringBindingComposeA, RpcStringBindingComposeW, _rpc_rpcstringbindingcompose, rpc.rpcstringbindingcompose, rpcdce/RpcStringBindingCompose, rpcdce/RpcStringBindingComposeA, rpcdce/RpcStringBindingComposeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

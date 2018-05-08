@@ -8,7 +8,7 @@ old-project: SysInfo
 ms.assetid: ea26aa92-af2a-4764-934d-2a21989a216f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: SetProviderStatusInfoFreeFunc, SetProviderStatusInfoFreeFunc callback function, _win32_setproviderstatusinfofreefunc, base.setproviderstatusinfofreefunc, timeprov/SetProviderStatusInfoFreeFunc
+ms.keywords: SetProviderStatusInfoFreeFunc, SetProviderStatusInfoFreeFunc callback, SetProviderStatusInfoFreeFunc callback function, _win32_setproviderstatusinfofreefunc, base.setproviderstatusinfofreefunc, timeprov/SetProviderStatusInfoFreeFunc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# SetProviderStatusInfoFreeFunc callback
+# SetProviderStatusInfoFreeFunc callback function
 
 
 ## -description

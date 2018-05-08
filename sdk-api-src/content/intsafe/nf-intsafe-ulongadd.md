@@ -7,7 +7,7 @@ old-location: shell\DWordAdd.htm
 old-project: shell
 ms.assetid: d99e262f-7f04-472c-898b-9ca63a4d2448
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: DWordAdd, DWordAdd function [Windows Shell], ULongAdd, _shell_DWordAdd, intsafe/DWordAdd, shell.DWordAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

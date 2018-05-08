@@ -1,14 +1,14 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorFilterRange
-title: IDXVAHD_Device::GetVideoProcessorFilterRange method
+title: IDXVAHD_Device::GetVideoProcessorFilterRange
 author: windows-driver-content
 description: Gets the range of values for an image filter that the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device supports.
 old-location: mf\idxvahd_device_getvideoprocessorfilterrange.htm
 old-project: medfound
 ms.assetid: cff587a5-04ed-4f3e-bd05-0cb8d83fffb7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoProcessorFilterRange method [Media Foundation], GetVideoProcessorFilterRange method [Media Foundation], IDXVAHD_Device interface, GetVideoProcessorFilterRange,IDXVAHD_Device.GetVideoProcessorFilterRange, IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], GetVideoProcessorFilterRange method, IDXVAHD_Device::GetVideoProcessorFilterRange, dxvahd/IDXVAHD_Device::GetVideoProcessorFilterRange, mf.idxvahd_device_getvideoprocessorfilterrange
+ms.date: 5/3/2018
+ms.keywords: GetVideoProcessorFilterRange, GetVideoProcessorFilterRange method [Media Foundation], GetVideoProcessorFilterRange method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorFilterRange method, IDXVAHD_Device.GetVideoProcessorFilterRange, IDXVAHD_Device::GetVideoProcessorFilterRange, dxvahd/IDXVAHD_Device::GetVideoProcessorFilterRange, mf.idxvahd_device_getvideoprocessorfilterrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXVAHD_Device::GetVideoProcessorFilterRange method
+# IDXVAHD_Device::GetVideoProcessorFilterRange
 
 
 ## -description

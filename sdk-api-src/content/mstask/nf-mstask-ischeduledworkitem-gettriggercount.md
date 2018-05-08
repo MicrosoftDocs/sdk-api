@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetTriggerCount
-title: IScheduledWorkItem::GetTriggerCount method
+title: IScheduledWorkItem::GetTriggerCount
 author: windows-driver-content
 description: Retrieves the number of triggers for the current work item.
 old-location: taskschd\ischeduledworkitem_gettriggercount.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: db1c98db-c4c1-45af-baba-097ee8dc6abf
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTriggerCount method [Task Scheduler], GetTriggerCount method [Task Scheduler], IScheduledWorkItem interface, GetTriggerCount,IScheduledWorkItem.GetTriggerCount, IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], GetTriggerCount method, IScheduledWorkItem::GetTriggerCount, _msb_ischeduledworkitem_gettriggercount, mstask/IScheduledWorkItem::GetTriggerCount, taskschd.ischeduledworkitem_gettriggercount
+ms.keywords: GetTriggerCount, GetTriggerCount method [Task Scheduler], GetTriggerCount method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTriggerCount method, IScheduledWorkItem.GetTriggerCount, IScheduledWorkItem::GetTriggerCount, _msb_ischeduledworkitem_gettriggercount, mstask/IScheduledWorkItem::GetTriggerCount, taskschd.ischeduledworkitem_gettriggercount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::GetTriggerCount method
+# IScheduledWorkItem::GetTriggerCount
 
 
 ## -description

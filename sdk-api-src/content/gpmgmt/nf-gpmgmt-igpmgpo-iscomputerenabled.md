@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.IsComputerEnabled
-title: IGPMGPO::IsComputerEnabled method
+title: IGPMGPO::IsComputerEnabled
 author: windows-driver-content
 description: Checks whether the computer policies in the GPO are enabled.
 old-location: gpmc\igpmgpo_iscomputerenabled.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: c5e235a0-dc12-4ff5-a3ca-0f3492edb713
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMGPO class [GPMC], IsComputerEnabled method, IGPMGPO, IGPMGPO interface [GPMC], IsComputerEnabled method, IGPMGPO::IsComputerEnabled, IsComputerEnabled method [GPMC], IsComputerEnabled method [GPMC], GPMGPO class, IsComputerEnabled method [GPMC], IGPMGPO interface, IsComputerEnabled,IGPMGPO.IsComputerEnabled, _win32_igpmgpo_iscomputerenabled, gpmc.igpmgpo_iscomputerenabled, gpmgmt/IGPMGPO::IsComputerEnabled
+ms.keywords: GPMGPO class [GPMC],IsComputerEnabled method, IGPMGPO interface [GPMC],IsComputerEnabled method, IGPMGPO.IsComputerEnabled, IGPMGPO::IsComputerEnabled, IsComputerEnabled, IsComputerEnabled method [GPMC], IsComputerEnabled method [GPMC],GPMGPO class, IsComputerEnabled method [GPMC],IGPMGPO interface, _win32_igpmgpo_iscomputerenabled, gpmc.igpmgpo_iscomputerenabled, gpmgmt/IGPMGPO::IsComputerEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMGPO::IsComputerEnabled method
+# IGPMGPO::IsComputerEnabled
 
 
 ## -description

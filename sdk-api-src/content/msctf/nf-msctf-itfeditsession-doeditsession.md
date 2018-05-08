@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfEditSession.DoEditSession
-title: ITfEditSession::DoEditSession method
+title: ITfEditSession::DoEditSession
 author: windows-driver-content
 description: ITfEditSession::DoEditSession method
 old-location: tsf\itfeditsession_doeditsession.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: f89b2676-9a69-492f-be8a-96e4436d594c
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: DoEditSession method [Text Services Framework], DoEditSession method [Text Services Framework], ITfEditSession interface, DoEditSession,ITfEditSession.DoEditSession, ITfEditSession, ITfEditSession interface [Text Services Framework], DoEditSession method, ITfEditSession::DoEditSession, _tsf_itfeditsession_doeditsession_ref, msctf/ITfEditSession::DoEditSession, tsf.itfeditsession_doeditsession
+ms.keywords: DoEditSession, DoEditSession method [Text Services Framework], DoEditSession method [Text Services Framework],ITfEditSession interface, ITfEditSession interface [Text Services Framework],DoEditSession method, ITfEditSession.DoEditSession, ITfEditSession::DoEditSession, _tsf_itfeditsession_doeditsession_ref, msctf/ITfEditSession::DoEditSession, tsf.itfeditsession_doeditsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfEditSession::DoEditSession method
+# ITfEditSession::DoEditSession
 
 
 ## -description

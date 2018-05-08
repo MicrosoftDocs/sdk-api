@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.QueryVolumes
-title: IVdsPack::QueryVolumes method
+title: IVdsPack::QueryVolumes
 author: windows-driver-content
 description: Returns an object that enumerates the volumes in the pack.
 old-location: base\ivdspack_queryvolumes.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 43f9972d-14a6-4674-bf90-741ad3a9eb0d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsPack, IVdsPack interface [VDS], QueryVolumes method, IVdsPack::QueryVolumes, QueryVolumes method [VDS], QueryVolumes method [VDS], IVdsPack interface, QueryVolumes,IVdsPack.QueryVolumes, base.ivdspack_queryvolumes, vds/IVdsPack::QueryVolumes
+ms.keywords: IVdsPack interface [VDS],QueryVolumes method, IVdsPack.QueryVolumes, IVdsPack::QueryVolumes, QueryVolumes, QueryVolumes method [VDS], QueryVolumes method [VDS],IVdsPack interface, base.ivdspack_queryvolumes, vds/IVdsPack::QueryVolumes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsPack::QueryVolumes method
+# IVdsPack::QueryVolumes
 
 
 ## -description

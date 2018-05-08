@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.GetFileScreen
-title: IFsrmFileScreenManager::GetFileScreen method
+title: IFsrmFileScreenManager::GetFileScreen
 author: windows-driver-content
 description: Retrieves the specified file screen.
 old-location: fsrm\ifsrmfilescreenmanager_getfilescreen.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 9af0d9a7-80a2-4cc8-a703-c1af8ac5b7c9
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmFileScreenManager class [File Server Resource Manager], GetFileScreen method, GetFileScreen method [File Server Resource Manager], GetFileScreen method [File Server Resource Manager], FsrmFileScreenManager class, GetFileScreen method [File Server Resource Manager], IFsrmFileScreenManager interface, GetFileScreen,IFsrmFileScreenManager.GetFileScreen, IFsrmFileScreenManager, IFsrmFileScreenManager interface [File Server Resource Manager], GetFileScreen method, IFsrmFileScreenManager::GetFileScreen, fs.ifsrmfilescreenmanager_getfilescreen, fsrm.ifsrmfilescreenmanager_getfilescreen, fsrmscreen/IFsrmFileScreenManager::GetFileScreen
+ms.keywords: FsrmFileScreenManager class [File Server Resource Manager],GetFileScreen method, GetFileScreen, GetFileScreen method [File Server Resource Manager], GetFileScreen method [File Server Resource Manager],FsrmFileScreenManager class, GetFileScreen method [File Server Resource Manager],IFsrmFileScreenManager interface, IFsrmFileScreenManager interface [File Server Resource Manager],GetFileScreen method, IFsrmFileScreenManager.GetFileScreen, IFsrmFileScreenManager::GetFileScreen, fs.ifsrmfilescreenmanager_getfilescreen, fsrm.ifsrmfilescreenmanager_getfilescreen, fsrmscreen/IFsrmFileScreenManager::GetFileScreen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenManager::GetFileScreen method
+# IFsrmFileScreenManager::GetFileScreen
 
 
 ## -description

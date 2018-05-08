@@ -1,6 +1,6 @@
 ---
 UID: NF:rendezvoussession.IRendezvousApplication.SetRendezvousSession
-title: IRendezvousApplication::SetRendezvousSession method
+title: IRendezvousApplication::SetRendezvousSession
 author: windows-driver-content
 description: Passes IRendezvousSession to the Windows Remote Assistance application. This method is used by the instant messaging application.
 old-location: remoteassist\remoteassist_IRendezvousApplication_SetRendezvousSession.htm
@@ -8,7 +8,7 @@ old-project: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvousapplication\setRendezvousSession.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRendezvousApplication, IRendezvousApplication interface [Remote Assistance], SetRendezvousSession method, IRendezvousApplication::SetRendezvousSession, SetRendezvousSession method [Remote Assistance], SetRendezvousSession method [Remote Assistance], IRendezvousApplication interface, SetRendezvousSession,IRendezvousApplication.SetRendezvousSession, remoteassist.remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplicationremoteassist_IRendezvousApplication_SetRendezvousSession_cpp, rendezvoussession/IRendezvousApplication::SetRendezvousSession
+ms.keywords: IRendezvousApplication interface [Remote Assistance],SetRendezvousSession method, IRendezvousApplication.SetRendezvousSession, IRendezvousApplication::SetRendezvousSession, SetRendezvousSession, SetRendezvousSession method [Remote Assistance], SetRendezvousSession method [Remote Assistance],IRendezvousApplication interface, remoteassist.remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplicationremoteassist_IRendezvousApplication_SetRendezvousSession_cpp, rendezvoussession/IRendezvousApplication::SetRendezvousSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRendezvousApplication::SetRendezvousSession method
+# IRendezvousApplication::SetRendezvousSession
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITRendezvous.CreateDirectory
-title: ITRendezvous::CreateDirectory method
+title: ITRendezvous::CreateDirectory
 author: windows-driver-content
 description: The CreateDirectory method creates an ITDirectory object corresponding to a directory of the given type and name.
 old-location: tapi3\itrendezvous_createdirectory.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: b285f852-a017-4dcd-b32e-afb2296487a5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CreateDirectory method [TAPI 2.2], CreateDirectory method [TAPI 2.2], ITRendezvous interface, CreateDirectory,ITRendezvous.CreateDirectory, ITRendezvous, ITRendezvous interface [TAPI 2.2], CreateDirectory method, ITRendezvous::CreateDirectory, _tapi3_itrendezvous_createdirectory, rend/ITRendezvous::CreateDirectory, tapi3.itrendezvous_createdirectory
+ms.keywords: CreateDirectory, CreateDirectory method [TAPI 2.2], CreateDirectory method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],CreateDirectory method, ITRendezvous.CreateDirectory, ITRendezvous::CreateDirectory, _tapi3_itrendezvous_createdirectory, rend/ITRendezvous::CreateDirectory, tapi3.itrendezvous_createdirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITRendezvous::CreateDirectory method
+# ITRendezvous::CreateDirectory
 
 
 ## -description

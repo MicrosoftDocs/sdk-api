@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetSpreadMethod
-title: IXpsOMGradientBrush::GetSpreadMethod method
+title: IXpsOMGradientBrush::GetSpreadMethod
 author: windows-driver-content
 description: Gets the XPS_SPREAD_METHOD value, which describes how the area outside of the gradient region will be rendered.
 old-location: xps\ixpsomgradientbrush_getspreadmethod.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c4c62817-735b-4ef1-84cf-1c9fa63f55ee
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSpreadMethod method [XPS Documents and Packaging], GetSpreadMethod method [XPS Documents and Packaging], IXpsOMGradientBrush interface, GetSpreadMethod,IXpsOMGradientBrush.GetSpreadMethod, IXpsOMGradientBrush, IXpsOMGradientBrush interface [XPS Documents and Packaging], GetSpreadMethod method, IXpsOMGradientBrush::GetSpreadMethod, xps.ixpsomgradientbrush_getspreadmethod, xpsobjectmodel/IXpsOMGradientBrush::GetSpreadMethod
+ms.keywords: GetSpreadMethod, GetSpreadMethod method [XPS Documents and Packaging], GetSpreadMethod method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetSpreadMethod method, IXpsOMGradientBrush.GetSpreadMethod, IXpsOMGradientBrush::GetSpreadMethod, xps.ixpsomgradientbrush_getspreadmethod, xpsobjectmodel/IXpsOMGradientBrush::GetSpreadMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientBrush::GetSpreadMethod method
+# IXpsOMGradientBrush::GetSpreadMethod
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Skip
-title: IEnumFORMATETC::Skip method
+title: IEnumFORMATETC::Skip
 author: windows-driver-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumformatetc_skip.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 5fdf81ee-df31-4702-8b5e-f540ca3e6602
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumFORMATETC, IEnumFORMATETC interface [COM], Skip method, IEnumFORMATETC::Skip, Skip method [COM], Skip method [COM], IEnumFORMATETC interface, Skip,IEnumFORMATETC.Skip, _ole_ienumformatetc_skip, com.ienumformatetc_skip, objidl/IEnumFORMATETC::Skip
+ms.keywords: IEnumFORMATETC interface [COM],Skip method, IEnumFORMATETC.Skip, IEnumFORMATETC::Skip, Skip, Skip method [COM], Skip method [COM],IEnumFORMATETC interface, _ole_ienumformatetc_skip, com.ienumformatetc_skip, objidl/IEnumFORMATETC::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumFORMATETC::Skip method
+# IEnumFORMATETC::Skip
 
 
 ## -description

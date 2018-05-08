@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_RecommendedCpuSpeed
-title: IUpdate::get_RecommendedCpuSpeed method
+title: IUpdate::get_RecommendedCpuSpeed
 author: windows-driver-content
 description: Gets the recommended CPU speed used to install the update, in megahertz (MHz).
 old-location: wua\iupdate_recommendedcpuspeed.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 21003be2-c14e-48d4-a51f-ed75b1b47284
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], RecommendedCPUSpeed property, IUpdate.RecommendedCPUSpeed, IUpdate::get_RecommendedCPUSpeed, IUpdate::get_RecommendedCpuSpeed, RecommendedCPUSpeed property [Windows Update Agent], RecommendedCPUSpeed property [Windows Update Agent], IUpdate interface, get_RecommendedCpuSpeed,IUpdate.get_RecommendedCpuSpeed, wua.iupdate_recommendedcpuspeed, wuapi/IUpdate::RecommendedCPUSpeed, wuapi/IUpdate::get_RecommendedCPUSpeed
+ms.keywords: IUpdate interface [Windows Update Agent],RecommendedCPUSpeed property, IUpdate.RecommendedCPUSpeed, IUpdate.get_RecommendedCpuSpeed, IUpdate::RecommendedCPUSpeed, IUpdate::get_RecommendedCPUSpeed, IUpdate::get_RecommendedCpuSpeed, RecommendedCPUSpeed property [Windows Update Agent], RecommendedCPUSpeed property [Windows Update Agent],IUpdate interface, get_RecommendedCpuSpeed, wua.iupdate_recommendedcpuspeed, wuapi/IUpdate::RecommendedCPUSpeed, wuapi/IUpdate::get_RecommendedCPUSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_RecommendedCpuSpeed method
+# IUpdate::get_RecommendedCpuSpeed
 
 
 ## -description

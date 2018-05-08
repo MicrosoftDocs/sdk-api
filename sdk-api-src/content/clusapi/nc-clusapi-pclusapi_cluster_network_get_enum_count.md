@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: b3397d85-4e9a-4ee8-ba81-25185e2d46fd
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT callback function [Failover Cluster], _wolf_clusternetworkgetenumcount, clusapi/PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT, mscs.clusternetworkgetenumcount
+ms.keywords: PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT callback, PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT callback function [Failover Cluster], _wolf_clusternetworkgetenumcount, clusapi/PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT, mscs.clusternetworkgetenumcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT callback
+# PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT callback function
 
 
 ## -description

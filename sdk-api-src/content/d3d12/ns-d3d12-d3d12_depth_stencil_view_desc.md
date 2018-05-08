@@ -80,42 +80,42 @@ Describes the subresources of a texture that are accessible from a depth-stencil
           
 
 
-#### - Texture1D
+### -field Texture1D
 
 
               A <a href="https://msdn.microsoft.com/42136891-8D7B-40CC-B683-77549BE8DE3C">D3D12_TEX1D_DSV</a> structure that specifies a 1D texture subresource.
             
 
 
-#### - Texture1DArray
+### -field Texture1DArray
 
 
               A <a href="https://msdn.microsoft.com/476937C8-D326-4DE4-8532-187AD0E2AFBB">D3D12_TEX1D_ARRAY_DSV</a> structure that specifies an array of 1D texture subresources.
             
 
 
-#### - Texture2D
+### -field Texture2D
 
 
               A <a href="https://msdn.microsoft.com/CA6D824D-48EF-4D13-BC13-11B3E0571BC1">D3D12_TEX2D_DSV</a> structure that specifies a 2D texture subresource.
             
 
 
-#### - Texture2DArray
+### -field Texture2DArray
 
 
               A <a href="https://msdn.microsoft.com/2B282647-8DCC-4624-8D35-0F63E0F93EE0">D3D12_TEX2D_ARRAY_DSV</a> structure that specifies an array of 2D texture subresources.
             
 
 
-#### - Texture2DMS
+### -field Texture2DMS
 
 
               A <a href="https://msdn.microsoft.com/3FECACFB-6635-4AA3-A568-57A3CE8754AF">D3D12_TEX2DMS_DSV</a> structure that specifies a multisampled 2D texture.
             
 
 
-#### - Texture2DMSArray
+### -field Texture2DMSArray
 
 
               A <a href="https://msdn.microsoft.com/0B0E3891-B11C-4A4A-B20E-DA9C9DA471F1">D3D12_TEX2DMS_ARRAY_DSV</a> structure that specifies an array of multisampled 2D textures.

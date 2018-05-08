@@ -1,0 +1,6 @@
+# [OOBE APIs for setup state and notification](../_windowssetupandmigration/index.md)
+## [Oobenotification.h](index.md)
+### [OOBE_COMPLETED_CALLBACK callback function](../oobenotification/nc-oobenotification-oobe_completed_callback.md)
+### [OOBEComplete function](../oobenotification/nf-oobenotification-oobecomplete.md)
+### [RegisterWaitUntilOOBECompleted function](../oobenotification/nf-oobenotification-registerwaituntiloobecompleted.md)
+### [UnregisterWaitUntilOOBECompleted function](../oobenotification/nf-oobenotification-unregisterwaituntiloobecompleted.md)

@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetVersionString
-title: IMetaDataImport2::GetVersionString method
+title: IMetaDataImport2::GetVersionString
 author: windows-driver-content
 description: Gets the version number of the runtime that was used to build the assembly.
 old-location: winrt\imetadataimport2_getversionstring.htm
 old-project: WinRT
 ms.assetid: 9f04ee6f-4a7d-4cdb-868e-eec2e9f41678
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetVersionString method [Windows Runtime], GetVersionString method [Windows Runtime], IMetaDataImport2 interface, GetVersionString,IMetaDataImport2.GetVersionString, IMetaDataImport2, IMetaDataImport2 interface [Windows Runtime], GetVersionString method, IMetaDataImport2::GetVersionString, rometadataapi/IMetaDataImport2::GetVersionString, winrt.imetadataimport2_getversionstring
+ms.date: 5/4/2018
+ms.keywords: GetVersionString, GetVersionString method [Windows Runtime], GetVersionString method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetVersionString method, IMetaDataImport2.GetVersionString, IMetaDataImport2::GetVersionString, rometadataapi/IMetaDataImport2::GetVersionString, winrt.imetadataimport2_getversionstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport2::GetVersionString method
+# IMetaDataImport2::GetVersionString
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bb473a7e-8957-4e85-98d0-13c6992fbf37
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVB_SDT, IDVB_SDT interface [Microsoft TV Technologies], IDVB_SDT interface [Microsoft TV Technologies], described, IDVB_SDTInterface, dvbsiparser/IDVB_SDT, mstv.idvb_sdt
+ms.keywords: IDVB_SDT, IDVB_SDT interface [Microsoft TV Technologies], IDVB_SDT interface [Microsoft TV Technologies],described, IDVB_SDTInterface, dvbsiparser/IDVB_SDT, mstv.idvb_sdt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -185,6 +185,41 @@ Height of the surface to be created, in pixels.
 Width of the surface to be created, in pixels.
 
 
+### -field DUMMYUNIONNAMEN.lPitch
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwLinearSize
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwBackBufferCount
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwDepth
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwMipMapCount
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwRefreshRate
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwSrcVBHandle
+
+ 
+
+
 ### -field dwAlphaBitDepth
 
 Depth of the alpha buffer.
@@ -198,6 +233,16 @@ Reserved
 ### -field lpSurface
 
 Address of the associated surface memory. When calling <a href="https://msdn.microsoft.com/0267ad70-e7cc-41e8-8325-7ede4a662d13">IDirectDrawSurface7::Lock</a>, this member contains a valid pointer to surface memory after the call returns. When creating a surface from existing memory or using the <a href="https://msdn.microsoft.com/541bd833-20c4-4b47-a3ed-c29f228a0626">IDirectDrawSurface7::SetSurfaceDesc</a> method, this member is an input value that is the address of system memory allocated by the calling application. Do not set this member if your application needs DirectDraw to allocate and manage surface memory.
+
+
+### -field DUMMYUNIONNAMEN.ddckCKDestOverlay
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwEmptyFaceColor
+
+ 
 
 
 ### -field ddckCKDestBlt
@@ -216,6 +261,16 @@ A <a href="https://msdn.microsoft.com/c520e649-86f9-4c4a-bb67-22d75aa3c8b0">DDCO
 
 
 ### -field DUMMYUNIONNAMEN
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.ddpfPixelFormat
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwFVF
 
  
 

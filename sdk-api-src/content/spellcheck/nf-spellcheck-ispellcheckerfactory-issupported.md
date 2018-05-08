@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellCheckerFactory.IsSupported
-title: ISpellCheckerFactory::IsSupported method
+title: ISpellCheckerFactory::IsSupported
 author: windows-driver-content
 description: Determines if the specified language is supported by a registered spell checker.
 old-location: intl\ispellcheckerfactory_issupported.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: eb21850d-d490-4055-8910-70f9c0090f59
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISpellCheckerFactory, ISpellCheckerFactory interface [Internationalization for Windows Applications], IsSupported method, ISpellCheckerFactory::IsSupported, IsSupported method [Internationalization for Windows Applications], IsSupported method [Internationalization for Windows Applications], ISpellCheckerFactory interface, IsSupported,ISpellCheckerFactory.IsSupported, intl.ispellcheckerfactory_issupported, spellcheck/ISpellCheckerFactory::IsSupported
+ms.keywords: ISpellCheckerFactory interface [Internationalization for Windows Applications],IsSupported method, ISpellCheckerFactory.IsSupported, ISpellCheckerFactory::IsSupported, IsSupported, IsSupported method [Internationalization for Windows Applications], IsSupported method [Internationalization for Windows Applications],ISpellCheckerFactory interface, intl.ispellcheckerfactory_issupported, spellcheck/ISpellCheckerFactory::IsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellCheckerFactory::IsSupported method
+# ISpellCheckerFactory::IsSupported
 
 
 ## -description

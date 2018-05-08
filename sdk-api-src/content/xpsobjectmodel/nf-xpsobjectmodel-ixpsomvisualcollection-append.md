@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.Append
-title: IXpsOMVisualCollection::Append method
+title: IXpsOMVisualCollection::Append
 author: windows-driver-content
 description: Appends an IXpsOMVisual interface to the end of the collection.
 old-location: xps\ixpsomvisualcollection_append.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e0e5134b-9f8a-45ff-9892-fd010d7df787
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging], IXpsOMVisualCollection interface, Append,IXpsOMVisualCollection.Append, IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Documents and Packaging], Append method, IXpsOMVisualCollection::Append, xps.ixpsomvisualcollection_append, xpsobjectmodel/IXpsOMVisualCollection::Append
+ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMVisualCollection interface, IXpsOMVisualCollection interface [XPS Documents and Packaging],Append method, IXpsOMVisualCollection.Append, IXpsOMVisualCollection::Append, xps.ixpsomvisualcollection_append, xpsobjectmodel/IXpsOMVisualCollection::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisualCollection::Append method
+# IXpsOMVisualCollection::Append
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.LoadFromXML
-title: IVssExamineWriterMetadata::LoadFromXML method
+title: IVssExamineWriterMetadata::LoadFromXML
 author: windows-driver-content
 description: The LoadFromXML method loads an XML document that contains a writer's metadata document into an IVssExamineWriterMetadata interface.
 old-location: base\ivssexaminewritermetadata_loadfromxml.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 8a508a2c-1c42-4414-9c54-a78d1e1564a0
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssExamineWriterMetadata, IVssExamineWriterMetadata interface [VSS], LoadFromXML method, IVssExamineWriterMetadata::LoadFromXML, LoadFromXML method [VSS], LoadFromXML method [VSS], IVssExamineWriterMetadata interface, LoadFromXML,IVssExamineWriterMetadata.LoadFromXML, _win32_ivssexaminewritermetadata_loadfromxml, base.ivssexaminewritermetadata_loadfromxml, vsbackup/IVssExamineWriterMetadata::LoadFromXML
+ms.keywords: IVssExamineWriterMetadata interface [VSS],LoadFromXML method, IVssExamineWriterMetadata.LoadFromXML, IVssExamineWriterMetadata::LoadFromXML, LoadFromXML, LoadFromXML method [VSS], LoadFromXML method [VSS],IVssExamineWriterMetadata interface, _win32_ivssexaminewritermetadata_loadfromxml, base.ivssexaminewritermetadata_loadfromxml, vsbackup/IVssExamineWriterMetadata::LoadFromXML
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssExamineWriterMetadata::LoadFromXML method
+# IVssExamineWriterMetadata::LoadFromXML
 
 
 ## -description

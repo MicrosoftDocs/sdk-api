@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: dd64f0bd-1211-4e6f-93b5-87c079999208
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DNWithBinary, IADsDNWithBinary, IADsDNWithBinary interface [ADSI], IADsDNWithBinary interface [ADSI], described, _ds_iadsdnwithbinary, adsi.iadsdnwithbinary, iads/IADsDNWithBinary
+ms.keywords: DNWithBinary, IADsDNWithBinary, IADsDNWithBinary interface [ADSI], IADsDNWithBinary interface [ADSI],described, _ds_iadsdnwithbinary, adsi.iadsdnwithbinary, iads/IADsDNWithBinary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

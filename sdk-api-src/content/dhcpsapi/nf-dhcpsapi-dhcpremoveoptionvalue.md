@@ -7,7 +7,7 @@ old-location: dhcp\dhcpremoveoptionvalue.htm
 old-project: DHCP
 ms.assetid: e370760c-d392-4e2e-a95c-7213ce593f77
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpRemoveOptionValue, DhcpRemoveOptionValue function [DHCP], dhcp.dhcpremoveoptionvalue, dhcpsapi/DhcpRemoveOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

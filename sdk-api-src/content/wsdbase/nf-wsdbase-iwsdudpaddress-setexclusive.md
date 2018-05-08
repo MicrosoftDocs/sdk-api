@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.SetExclusive
-title: IWSDUdpAddress::SetExclusive method
+title: IWSDUdpAddress::SetExclusive
 author: windows-driver-content
 description: Controls whether the socket is in exclusive mode.
 old-location: ncd\iwsdudpaddress_setexclusive.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 08c5ee4a-55a4-4d8b-951e-d7faed45f44f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDUdpAddress, IWSDUdpAddress interface, SetExclusive method, IWSDUdpAddress::SetExclusive, SetExclusive method, SetExclusive method, IWSDUdpAddress interface, SetExclusive,IWSDUdpAddress.SetExclusive, ncd.iwsdudpaddress_setexclusive, wsdbase/IWSDUdpAddress::SetExclusive
+ms.keywords: IWSDUdpAddress interface,SetExclusive method, IWSDUdpAddress.SetExclusive, IWSDUdpAddress::SetExclusive, SetExclusive, SetExclusive method, SetExclusive method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setexclusive, wsdbase/IWSDUdpAddress::SetExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDUdpAddress::SetExclusive method
+# IWSDUdpAddress::SetExclusive
 
 
 ## -description

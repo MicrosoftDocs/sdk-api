@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwProducts.get__NewEnum
-title: INetFwProducts::get__NewEnum method
+title: INetFwProducts::get__NewEnum
 author: windows-driver-content
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the registered third-party firewall products in the collection.
 old-location: ics\inetfwproducts_newenum.htm
 old-project: ICS
 ms.assetid: 67e723a9-7b24-493f-a3d5-a63d002e6bf3
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwProducts, INetFwProducts interface [ICS/ICF], _NewEnum property, INetFwProducts._NewEnum, INetFwProducts::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF], INetFwProducts interface, get__NewEnum,INetFwProducts.get__NewEnum, ics.inetfwproducts_newenum, netfw/INetFwProducts::_NewEnum, netfw/INetFwProducts::get__NewEnum
+ms.date: 5/1/2018
+ms.keywords: INetFwProducts interface [ICS/ICF],_NewEnum property, INetFwProducts._NewEnum, INetFwProducts.get__NewEnum, INetFwProducts::_NewEnum, INetFwProducts::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwProducts interface, get__NewEnum, ics.inetfwproducts_newenum, netfw/INetFwProducts::_NewEnum, netfw/INetFwProducts::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwProducts::get__NewEnum method
+# INetFwProducts::get__NewEnum
 
 
 ## -description

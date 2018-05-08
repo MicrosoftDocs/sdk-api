@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnGetToolTip
-title: INameSpaceTreeControlEvents::OnGetToolTip method
+title: INameSpaceTreeControlEvents::OnGetToolTip
 author: windows-driver-content
 description: Enables you to provide a tooltip.
 old-location: shell\INameSpaceTreeControlEvents_OnGetToolTip.htm
 old-project: shell
 ms.assetid: 57970b8d-2461-43af-8959-c51f27679407
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnGetToolTip method, INameSpaceTreeControlEvents::OnGetToolTip, OnGetToolTip method [Windows Shell], OnGetToolTip method [Windows Shell], INameSpaceTreeControlEvents interface, OnGetToolTip,INameSpaceTreeControlEvents.OnGetToolTip, _shell_INameSpaceTreeControlEvents_OnGetToolTip, shell.INameSpaceTreeControlEvents_OnGetToolTip, shobjidl/INameSpaceTreeControlEvents::OnGetToolTip
+ms.date: 5/3/2018
+ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnGetToolTip method, INameSpaceTreeControlEvents.OnGetToolTip, INameSpaceTreeControlEvents::OnGetToolTip, OnGetToolTip, OnGetToolTip method [Windows Shell], OnGetToolTip method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnGetToolTip, shell.INameSpaceTreeControlEvents_OnGetToolTip, shobjidl/INameSpaceTreeControlEvents::OnGetToolTip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeControlEvents::OnGetToolTip method
+# INameSpaceTreeControlEvents::OnGetToolTip
 
 
 ## -description

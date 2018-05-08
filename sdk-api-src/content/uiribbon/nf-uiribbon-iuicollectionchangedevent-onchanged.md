@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollectionChangedEvent.OnChanged
-title: IUICollectionChangedEvent::OnChanged method
+title: IUICollectionChangedEvent::OnChanged
 author: windows-driver-content
 description: Called when an IUICollection changes.
 old-location: windowsribbon\windowsribbon_iuicollectionchangedevent_onchanged.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollectionchangedevent\onchanged.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IUICollectionChangedEvent, IUICollectionChangedEvent interface [Windows Ribbon], OnChanged method, IUICollectionChangedEvent::OnChanged, OnChanged method [Windows Ribbon], OnChanged method [Windows Ribbon], IUICollectionChangedEvent interface, OnChanged,IUICollectionChangedEvent.OnChanged, scenicintent_IUICollectionChangedEvent_OnChanged, uiribbon/IUICollectionChangedEvent::OnChanged, windowsribbon.windowsribbon_iuicollectionchangedevent_onchanged
+ms.keywords: IUICollectionChangedEvent interface [Windows Ribbon],OnChanged method, IUICollectionChangedEvent.OnChanged, IUICollectionChangedEvent::OnChanged, OnChanged, OnChanged method [Windows Ribbon], OnChanged method [Windows Ribbon],IUICollectionChangedEvent interface, scenicintent_IUICollectionChangedEvent_OnChanged, uiribbon/IUICollectionChangedEvent::OnChanged, windowsribbon.windowsribbon_iuicollectionchangedevent_onchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUICollectionChangedEvent::OnChanged method
+# IUICollectionChangedEvent::OnChanged
 
 
 ## -description

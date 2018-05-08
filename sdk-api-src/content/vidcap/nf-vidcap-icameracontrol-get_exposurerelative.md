@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.get_ExposureRelative
-title: ICameraControl::get_ExposureRelative method
+title: ICameraControl::get_ExposureRelative
 author: windows-driver-content
 description: The get_ExposureRelative method returns the camera's relative exposure time. The relative exposure time is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_get_exposurerelative.htm
 old-project: DirectShow
 ms.assetid: d63cf869-ccb6-45cb-85ba-a1e41faa8086
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_ExposureRelative method, ICameraControl::get_ExposureRelative, ICameraControlget_ExposureRelative, dshow.icameracontrol_get_exposurerelative, get_ExposureRelative method [DirectShow], get_ExposureRelative method [DirectShow], ICameraControl interface, get_ExposureRelative,ICameraControl.get_ExposureRelative, vidcap/ICameraControl::get_ExposureRelative
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],get_ExposureRelative method, ICameraControl.get_ExposureRelative, ICameraControl::get_ExposureRelative, ICameraControlget_ExposureRelative, dshow.icameracontrol_get_exposurerelative, get_ExposureRelative, get_ExposureRelative method [DirectShow], get_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ExposureRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::get_ExposureRelative method
+# ICameraControl::get_ExposureRelative
 
 
 ## -description

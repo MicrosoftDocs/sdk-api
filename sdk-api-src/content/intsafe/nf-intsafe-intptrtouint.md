@@ -7,8 +7,8 @@ old-location: shell\IntPtrToUInt.htm
 old-project: shell
 ms.assetid: 51a7d8bb-9a3c-4592-8d76-baa1d1e1f244
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IntPtrToUInt, IntPtrToUInt function [Windows Shell], _shell_IntPtrToUInt, intsafe/IntPtrToUInt, shell.IntPtrToUInt
+ms.date: 5/3/2018
+ms.keywords: IntPtrToUInt, IntPtrToUInt function [Windows Shell], PtrdiffTToUInt, _shell_IntPtrToUInt, intsafe/IntPtrToUInt, shell.IntPtrToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,6 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>PtrdiffTToUInt</b> is an alias for this function.
 
 
 

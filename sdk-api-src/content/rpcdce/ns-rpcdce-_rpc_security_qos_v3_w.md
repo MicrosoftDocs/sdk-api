@@ -7,7 +7,7 @@ old-location: rpc\rpc_security_qos_v3.htm
 old-project: Rpc
 ms.assetid: 56366edf-55af-4827-8986-7b5f8b1c878b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: "*PRPC_SECURITY_QOS_V3_W, 0, PRPC_SECURITY_QOS_V3, PRPC_SECURITY_QOS_V3 structure pointer [RPC], RPC_C_AUTHN_INFO_TYPE_HTTP, RPC_C_IMP_LEVEL_ANONYMOUS, RPC_C_IMP_LEVEL_DEFAULT, RPC_C_IMP_LEVEL_DELEGATE, RPC_C_IMP_LEVEL_IDENTIFY, RPC_C_IMP_LEVEL_IMPERSONATE, RPC_C_QOS_CAPABILITIES_ANY_AUTHORITY, RPC_C_QOS_CAPABILITIES_DEFAULT, RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE, RPC_C_QOS_CAPABILITIES_LOCAL_MA_HINT, RPC_C_QOS_CAPABILITIES_MAKE_FULLSIC, RPC_C_QOS_CAPABILITIES_MUTUAL_AUTH, RPC_C_QOS_IDENTITY_DYNAMIC, RPC_C_QOS_IDENTITY_STATIC, RPC_SECURITY_QOS_V3, RPC_SECURITY_QOS_V3 structure [RPC], RPC_SECURITY_QOS_V3_W, _RPC_SECURITY_QOS_V3_A, _RPC_SECURITY_QOS_V3_W, rpc.rpc_security_qos_v3, rpcdce/PRPC_SECURITY_QOS_V3, rpcdce/RPC_SECURITY_QOS_V3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -280,8 +280,7 @@ The <b>HttpCredentials</b> member of the <b>u</b> union points to a <a href="htt
 ### -field u
 
 
-
-#### HttpCredentials
+### -field u.HttpCredentials
 
 Additional set of credentials to pass to RPC, in the form of an <a href="https://msdn.microsoft.com/fdb7f42a-e545-4965-a44a-70d4631f1723">RPC_HTTP_TRANSPORT_CREDENTIALS</a> structure. Used when the  <b>AdditionalSecurityInfoType</b> member is set to RPC_C_AUTHN_INFO_TYPE_HTTP.
 
@@ -289,11 +288,6 @@ Additional set of credentials to pass to RPC, in the form of an <a href="https:/
 ### -field Sid
 
 Points to a security identifier (SID). The SID is an alternative to the <b>ServerPrincName</b> member, and only one can be specified. The <b>Sid</b> member cannot be set to non-<b>NULL</b> if the security provider is the SCHANNEL SSP. Some protocol sequences use  <b>Sid</b> internally for security, and some use a <b>ServerPrincName</b>. For example, <a href="https://msdn.microsoft.com/0009f794-5c14-4484-9023-cb20c7030dc5">ncalrpc</a> uses a <b>Sid</b> internally, and if the caller knows both the SID and the <b>ServerPrincName</b>, a call using <b>ncalrpc</b> can complete much faster in some cases if the SID is passed. In contrast, the <b>ncacn_*</b> and <b>ncadg_*</b> protocol sequences use a <b>ServerPrincName</b> internally, and therefore can execute calls faster when provided the <b>ServerPrincName</b>.
-
-
-##### - u.HttpCredentials
-
-Additional set of credentials to pass to RPC, in the form of an <a href="https://msdn.microsoft.com/fdb7f42a-e545-4965-a44a-70d4631f1723">RPC_HTTP_TRANSPORT_CREDENTIALS</a> structure. Used when the  <b>AdditionalSecurityInfoType</b> member is set to RPC_C_AUTHN_INFO_TYPE_HTTP.
 
 
 ## -remarks

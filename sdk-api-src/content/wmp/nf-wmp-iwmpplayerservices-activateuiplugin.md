@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayerServices.activateUIPlugin
-title: IWMPPlayerServices::activateUIPlugin method
+title: IWMPPlayerServices::activateUIPlugin
 author: windows-driver-content
 description: The activateUIPlugin method activates the specified UI plug-in in the full mode of Windows Media Player.
 old-location: wmp\iwmpplayerservices_activateuiplugin.htm
 old-project: WMP
 ms.assetid: 73274f71-ba34-479c-a23c-38a564e950fa
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayerServices, IWMPPlayerServices interface [Windows Media Player], activateUIPlugin method, IWMPPlayerServices::activateUIPlugin, IWMPPlayerServicesactivateUIPlugin, activateUIPlugin method [Windows Media Player], activateUIPlugin method [Windows Media Player], IWMPPlayerServices interface, activateUIPlugin,IWMPPlayerServices.activateUIPlugin, wmp.iwmpplayerservices_activateuiplugin, wmp/IWMPPlayerServices::activateUIPlugin
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayerServices interface [Windows Media Player],activateUIPlugin method, IWMPPlayerServices.activateUIPlugin, IWMPPlayerServices::activateUIPlugin, IWMPPlayerServicesactivateUIPlugin, activateUIPlugin, activateUIPlugin method [Windows Media Player], activateUIPlugin method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_activateuiplugin, wmp/IWMPPlayerServices::activateUIPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayerServices::activateUIPlugin method
+# IWMPPlayerServices::activateUIPlugin
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.SetPropertyStream
-title: IWiaPropertyStorage::SetPropertyStream method
+title: IWiaPropertyStorage::SetPropertyStream
 author: windows-driver-content
 description: The IWiaPropertyStorage::SetPropertyStream sets the property stream of an item in the tree of IWiaItem objects of a Windows Image Acquisition (WIA) hardware device.
 old-location: wia\_wia_IWiaPropertyStorage_SetPropertyStream.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\setpropertystream.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaPropertyStorage, IWiaPropertyStorage interface [WIA], SetPropertyStream method, IWiaPropertyStorage::SetPropertyStream, SetPropertyStream method [WIA], SetPropertyStream method [WIA], IWiaPropertyStorage interface, SetPropertyStream,IWiaPropertyStorage.SetPropertyStream, _wia_IWiaPropertyStorage_SetPropertyStream, wia._wia_IWiaPropertyStorage_SetPropertyStream, wia_xp/IWiaPropertyStorage::SetPropertyStream
+ms.date: 5/3/2018
+ms.keywords: IWiaPropertyStorage interface [WIA],SetPropertyStream method, IWiaPropertyStorage.SetPropertyStream, IWiaPropertyStorage::SetPropertyStream, SetPropertyStream, SetPropertyStream method [WIA], SetPropertyStream method [WIA],IWiaPropertyStorage interface, _wia_IWiaPropertyStorage_SetPropertyStream, wia._wia_IWiaPropertyStorage_SetPropertyStream, wia_xp/IWiaPropertyStorage::SetPropertyStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaPropertyStorage::SetPropertyStream method
+# IWiaPropertyStorage::SetPropertyStream
 
 
 ## -description

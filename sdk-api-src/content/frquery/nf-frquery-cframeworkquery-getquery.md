@@ -1,6 +1,6 @@
 ---
 UID: NF:frquery.CFrameworkQuery.GetQuery
-title: CFrameworkQuery::GetQuery method
+title: CFrameworkQuery::GetQuery
 author: windows-driver-content
 description: The GetQuery method retrieves the actual WQL command associated with the CFrameworkQuery object.
 old-location: wmi\cframeworkquery_getquery.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 2f7b5057-8522-4ef3-bf5a-3b96b72128b3
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ, CFrameworkQuery, CFrameworkQuery interface [Windows Management Instrumentation], GetQuery method, CFrameworkQuery::GetQuery, GetQuery method [Windows Management Instrumentation], GetQuery method [Windows Management Instrumentation], CFrameworkQuery interface, GetQuery,CFrameworkQuery.GetQuery, _hmm_cframeworkquery_getquery, frquery/CFrameworkQuery::GetQuery, wmi.cframeworkquery_getquery"
+ms.keywords: "?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ, CFrameworkQuery interface [Windows Management Instrumentation],GetQuery method, CFrameworkQuery.GetQuery, CFrameworkQuery::GetQuery, GetQuery, GetQuery method [Windows Management Instrumentation], GetQuery method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getquery, frquery/CFrameworkQuery::GetQuery, wmi.cframeworkquery_getquery"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# CFrameworkQuery::GetQuery method
+# CFrameworkQuery::GetQuery
 
 
 ## -description

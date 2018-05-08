@@ -72,6 +72,42 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">
 The IP version being used. 
 
 
+### -field localV4Address
+
+Type: <b>UINT32</b>
+
+The IPv4 local address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field localV6Address
+
+Type: <b>UINT8[16]</b>
+
+The IPv6 local address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
+### -field remoteV4Address
+
+Type: <b>UINT32</b>
+
+The IPv4 remote address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field remoteV6Address
+
+Type: <b>UINT8[16]</b>
+
+The IPv6 remote address.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
 ### -field providerKey
 
 Type: <b>GUID*</b>
@@ -140,42 +176,6 @@ The total number of bytes (incoming and outgoing) transferred by the connection.
 Type: <b>FILETIME</b>
 
 Time that the connection was created.
-
-
-#### - localV4Address
-
-Type: <b>UINT32</b>
-
-The IPv4 local address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - localV6Address
-
-Type: <b>UINT8[16]</b>
-
-The IPv6 local address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
-
-
-#### - remoteV4Address
-
-Type: <b>UINT32</b>
-
-The IPv4 remote address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - remoteV6Address
-
-Type: <b>UINT8[16]</b>
-
-The IPv6 remote address.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 
 ## -see-also

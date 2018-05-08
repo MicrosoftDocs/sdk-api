@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_PolicyReaders
-title: IAzScope::get_PolicyReaders method
+title: IAzScope::get_PolicyReaders
 author: windows-driver-content
 description: The PolicyReaders property of IAzScope retrieves the security identifiers (SIDs), in text form, of principals that act as policy readers.
 old-location: security\iazscope_policyreaders.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 7576997c-a585-4f0d-bec5-c616d39633f9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzScope object [Security], PolicyReaders property, IAzScope, IAzScope interface [Security], PolicyReaders property, IAzScope.PolicyReaders, IAzScope::get_PolicyReaders, PolicyReaders property [Security], PolicyReaders property [Security], AzScope object, PolicyReaders property [Security], IAzScope interface, azroles/IAzScope::PolicyReaders, azroles/IAzScope::get_PolicyReaders, get_PolicyReaders,IAzScope.get_PolicyReaders, security.iazscope_policyreaders
+ms.keywords: AzScope object [Security],PolicyReaders property, IAzScope interface [Security],PolicyReaders property, IAzScope.PolicyReaders, IAzScope.get_PolicyReaders, IAzScope::PolicyReaders, IAzScope::get_PolicyReaders, PolicyReaders property [Security], PolicyReaders property [Security],AzScope object, PolicyReaders property [Security],IAzScope interface, azroles/IAzScope::PolicyReaders, azroles/IAzScope::get_PolicyReaders, get_PolicyReaders, security.iazscope_policyreaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope::get_PolicyReaders method
+# IAzScope::get_PolicyReaders
 
 
 ## -description

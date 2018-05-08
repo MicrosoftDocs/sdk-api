@@ -7,7 +7,7 @@ old-location: tablet\eventmask.htm
 old-project: tablet
 ms.assetid: 83fefdcf-eb5f-4fb6-b107-dc8abce02bb6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/2/2018
 ms.keywords: 83fefdcf-eb5f-4fb6-b107-dc8abce02bb6, EventMask, EventMask enumeration [Tablet PC], EventMask_All, EventMask_CorrectionModeChanged, EventMask_CorrectionModeChanging, EventMask_InPlaceSizeChanged, EventMask_InPlaceSizeChanging, EventMask_InPlaceStateChanged, EventMask_InPlaceStateChanging, EventMask_InPlaceVisibilityChanged, EventMask_InPlaceVisibilityChanging, EventMask_InputAreaChanged, EventMask_InputAreaChanging, EventMask_TextInserted, EventMask_TextInserting, __MIDL___MIDL_itf_peninputpanel_0000_0000_0007, peninputpanel/EventMask, peninputpanel/EventMask_All, peninputpanel/EventMask_CorrectionModeChanged, peninputpanel/EventMask_CorrectionModeChanging, peninputpanel/EventMask_InPlaceSizeChanged, peninputpanel/EventMask_InPlaceSizeChanging, peninputpanel/EventMask_InPlaceStateChanged, peninputpanel/EventMask_InPlaceStateChanging, peninputpanel/EventMask_InPlaceVisibilityChanged, peninputpanel/EventMask_InPlaceVisibilityChanging, peninputpanel/EventMask_InputAreaChanged, peninputpanel/EventMask_InputAreaChanging, peninputpanel/EventMask_TextInserted, peninputpanel/EventMask_TextInserting, tablet.eventmask
 ms.prod: windows-hardware
 ms.technology: windows-devices

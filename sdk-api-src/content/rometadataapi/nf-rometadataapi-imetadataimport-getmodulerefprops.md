@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetModuleRefProps
-title: IMetaDataImport::GetModuleRefProps method
+title: IMetaDataImport::GetModuleRefProps
 author: windows-driver-content
 description: Gets the name of the module referenced by the specified metadata token.
 old-location: winrt\imetadataimport_getmodulerefprops.htm
 old-project: WinRT
 ms.assetid: 1f14fe81-d585-4167-8817-0c7d000413de
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetModuleRefProps method [Windows Runtime], GetModuleRefProps method [Windows Runtime], IMetaDataImport interface, GetModuleRefProps,IMetaDataImport.GetModuleRefProps, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetModuleRefProps method, IMetaDataImport::GetModuleRefProps, rometadataapi/IMetaDataImport::GetModuleRefProps, winrt.imetadataimport_getmodulerefprops
+ms.date: 5/4/2018
+ms.keywords: GetModuleRefProps, GetModuleRefProps method [Windows Runtime], GetModuleRefProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetModuleRefProps method, IMetaDataImport.GetModuleRefProps, IMetaDataImport::GetModuleRefProps, rometadataapi/IMetaDataImport::GetModuleRefProps, winrt.imetadataimport_getmodulerefprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetModuleRefProps method
+# IMetaDataImport::GetModuleRefProps
 
 
 ## -description

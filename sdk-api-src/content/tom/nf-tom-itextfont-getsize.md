@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetSize
-title: ITextFont::GetSize method
+title: ITextFont::GetSize
 author: windows-driver-content
 description: Gets the font size.
 old-location: controls\ITextFont_GetSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsize.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetSize method [Windows Controls], GetSize method [Windows Controls], ITextFont interface, GetSize,ITextFont.GetSize, ITextFont, ITextFont interface [Windows Controls], GetSize method, ITextFont::GetSize, _win32_ITextFont_GetSize, _win32_ITextFont_GetSize_cpp, controls.ITextFont_GetSize, controls._win32_ITextFont_GetSize, tom/ITextFont::GetSize
+ms.date: 4/27/2018
+ms.keywords: GetSize, GetSize method [Windows Controls], GetSize method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSize method, ITextFont.GetSize, ITextFont::GetSize, _win32_ITextFont_GetSize, _win32_ITextFont_GetSize_cpp, controls.ITextFont_GetSize, controls._win32_ITextFont_GetSize, tom/ITextFont::GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetSize method
+# ITextFont::GetSize
 
 
 ## -description

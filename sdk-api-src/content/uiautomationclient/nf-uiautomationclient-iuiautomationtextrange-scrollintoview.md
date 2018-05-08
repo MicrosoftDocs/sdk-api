@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.ScrollIntoView
-title: IUIAutomationTextRange::ScrollIntoView method
+title: IUIAutomationTextRange::ScrollIntoView
 author: windows-driver-content
 description: Causes the text control to scroll until the text range is visible in the viewport.
 old-location: winauto\uiauto_IUIAutomationTextRange_ScrollIntoView.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 0d1ec553-1cc2-4b1c-a393-2507a3756a6c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], ScrollIntoView method, IUIAutomationTextRange::ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility], IUIAutomationTextRange interface, ScrollIntoView,IUIAutomationTextRange.ScrollIntoView, uiauto.uiauto_IUIAutomationTextRange_ScrollIntoView, uiauto_IUIAutomationTextRange_ScrollIntoView, uiautomationclient/IUIAutomationTextRange::ScrollIntoView, winauto.uiauto_IUIAutomationTextRange_ScrollIntoView
+ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],ScrollIntoView method, IUIAutomationTextRange.ScrollIntoView, IUIAutomationTextRange::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_ScrollIntoView, uiauto_IUIAutomationTextRange_ScrollIntoView, uiautomationclient/IUIAutomationTextRange::ScrollIntoView, winauto.uiauto_IUIAutomationTextRange_ScrollIntoView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTextRange::ScrollIntoView method
+# IUIAutomationTextRange::ScrollIntoView
 
 
 ## -description

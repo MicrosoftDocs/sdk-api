@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.CreateSigningOptions
-title: IOpcDigitalSignatureManager::CreateSigningOptions method
+title: IOpcDigitalSignatureManager::CreateSigningOptions
 author: windows-driver-content
 description: Creates an IOpcSigningOptions interface pointer.
 old-location: opc\iopcdigitalsignaturemanager_createsigningoptions.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: c58f9730-b2c2-40cd-8aae-03fbd09f8c76
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateSigningOptions method [Open Packaging Conventions], CreateSigningOptions method [Open Packaging Conventions], IOpcDigitalSignatureManager interface, CreateSigningOptions,IOpcDigitalSignatureManager.CreateSigningOptions, IOpcDigitalSignatureManager, IOpcDigitalSignatureManager interface [Open Packaging Conventions], CreateSigningOptions method, IOpcDigitalSignatureManager::CreateSigningOptions, msopc/IOpcDigitalSignatureManager::CreateSigningOptions, opc.iopcdigitalsignaturemanager_createsigningoptions
+ms.keywords: CreateSigningOptions, CreateSigningOptions method [Open Packaging Conventions], CreateSigningOptions method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, IOpcDigitalSignatureManager interface [Open Packaging Conventions],CreateSigningOptions method, IOpcDigitalSignatureManager.CreateSigningOptions, IOpcDigitalSignatureManager::CreateSigningOptions, msopc/IOpcDigitalSignatureManager::CreateSigningOptions, opc.iopcdigitalsignaturemanager_createsigningoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignatureManager::CreateSigningOptions method
+# IOpcDigitalSignatureManager::CreateSigningOptions
 
 
 ## -description

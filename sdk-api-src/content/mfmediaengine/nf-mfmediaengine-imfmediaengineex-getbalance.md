@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetBalance
-title: IMFMediaEngineEx::GetBalance method
+title: IMFMediaEngineEx::GetBalance
 author: windows-driver-content
 description: Gets the audio balance.
 old-location: mf\imfmediaengineex_getbalance.htm
 old-project: medfound
 ms.assetid: 57935B52-27BE-47AF-8702-9DF91E1B515D
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetBalance method [Media Foundation], GetBalance method [Media Foundation], IMFMediaEngineEx interface, GetBalance,IMFMediaEngineEx.GetBalance, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetBalance method, IMFMediaEngineEx::GetBalance, mf.imfmediaengineex_getbalance, mfmediaengine/IMFMediaEngineEx::GetBalance
+ms.date: 5/3/2018
+ms.keywords: GetBalance, GetBalance method [Media Foundation], GetBalance method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetBalance method, IMFMediaEngineEx.GetBalance, IMFMediaEngineEx::GetBalance, mf.imfmediaengineex_getbalance, mfmediaengine/IMFMediaEngineEx::GetBalance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::GetBalance method
+# IMFMediaEngineEx::GetBalance
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventStore.GetEventEnumerator
-title: ISyncMgrEventStore::GetEventEnumerator method
+title: ISyncMgrEventStore::GetEventEnumerator
 author: windows-driver-content
 description: Gets an enumerator for a handler's events.
 old-location: shell\ISyncMgrEventStore_GetEventEnumerator.htm
 old-project: shell
 ms.assetid: 8b634811-cb6d-47b2-b534-1baea23a5297
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetEventEnumerator method [Windows Shell], GetEventEnumerator method [Windows Shell], ISyncMgrEventStore interface, GetEventEnumerator,ISyncMgrEventStore.GetEventEnumerator, ISyncMgrEventStore, ISyncMgrEventStore interface [Windows Shell], GetEventEnumerator method, ISyncMgrEventStore::GetEventEnumerator, _shell_ISyncMgrEventStore_GetEventEnumerator, shell.ISyncMgrEventStore_GetEventEnumerator, syncmgr/ISyncMgrEventStore::GetEventEnumerator
+ms.date: 5/3/2018
+ms.keywords: GetEventEnumerator, GetEventEnumerator method [Windows Shell], GetEventEnumerator method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEventEnumerator method, ISyncMgrEventStore.GetEventEnumerator, ISyncMgrEventStore::GetEventEnumerator, _shell_ISyncMgrEventStore_GetEventEnumerator, shell.ISyncMgrEventStore_GetEventEnumerator, syncmgr/ISyncMgrEventStore::GetEventEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrEventStore::GetEventEnumerator method
+# ISyncMgrEventStore::GetEventEnumerator
 
 
 ## -description

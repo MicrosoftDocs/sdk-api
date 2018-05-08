@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.InitializeFromRequest
-title: IX509Enrollment::InitializeFromRequest method
+title: IX509Enrollment::InitializeFromRequest
 author: windows-driver-content
 description: Initializes the enrollment object from an existing IX509CertificateRequest object.
 old-location: security\ix509enrollment_initializefromrequest_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 04cb00af-f786-4548-bee3-2cc5083278c3
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], InitializeFromRequest method, IX509Enrollment::InitializeFromRequest, InitializeFromRequest method [Security], InitializeFromRequest method [Security], IX509Enrollment interface, InitializeFromRequest,IX509Enrollment.InitializeFromRequest, certenroll/IX509Enrollment::InitializeFromRequest, security.ix509enrollment_initializefromrequest_method
+ms.keywords: IX509Enrollment interface [Security],InitializeFromRequest method, IX509Enrollment.InitializeFromRequest, IX509Enrollment::InitializeFromRequest, InitializeFromRequest, InitializeFromRequest method [Security], InitializeFromRequest method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InitializeFromRequest, security.ix509enrollment_initializefromrequest_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509Enrollment::InitializeFromRequest method
+# IX509Enrollment::InitializeFromRequest
 
 
 ## -description

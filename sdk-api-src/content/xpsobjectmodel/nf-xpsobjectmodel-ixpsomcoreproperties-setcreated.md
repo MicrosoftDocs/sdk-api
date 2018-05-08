@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetCreated
-title: IXpsOMCoreProperties::SetCreated method
+title: IXpsOMCoreProperties::SetCreated
 author: windows-driver-content
 description: Sets the created property.
 old-location: xps\ixpsomcoreproperties_setcreated.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1a71d338-a34e-40df-ade0-130cd8e0a176
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], SetCreated method, IXpsOMCoreProperties::SetCreated, SetCreated method [XPS Documents and Packaging], SetCreated method [XPS Documents and Packaging], IXpsOMCoreProperties interface, SetCreated,IXpsOMCoreProperties.SetCreated, xps.ixpsomcoreproperties_setcreated, xpsobjectmodel/IXpsOMCoreProperties::SetCreated
+ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCreated method, IXpsOMCoreProperties.SetCreated, IXpsOMCoreProperties::SetCreated, SetCreated, SetCreated method [XPS Documents and Packaging], SetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcreated, xpsobjectmodel/IXpsOMCoreProperties::SetCreated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::SetCreated method
+# IXpsOMCoreProperties::SetCreated
 
 
 ## -description

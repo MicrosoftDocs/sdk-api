@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.NearestPoint
-title: IInkStrokeDisp::NearestPoint method
+title: IInkStrokeDisp::NearestPoint
 author: windows-driver-content
 description: Finds the location on the stroke nearest to a known point and returns the distance that point is from the stroke. Everything is in ink space coordinates.
 old-location: tablet\iinkstrokedisp_nearestpoint.htm
 old-project: tablet
 ms.assetid: 87c01f9d-b48a-459c-99f8-9634e1693fa0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 87c01f9d-b48a-459c-99f8-9634e1693fa0, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], NearestPoint method, IInkStrokeDisp::NearestPoint, NearestPoint method [Tablet PC], NearestPoint method [Tablet PC], IInkStrokeDisp interface, NearestPoint,IInkStrokeDisp.NearestPoint, msinkaut/IInkStrokeDisp::NearestPoint, tablet.iinkstrokedisp_nearestpoint
+ms.date: 5/2/2018
+ms.keywords: 87c01f9d-b48a-459c-99f8-9634e1693fa0, IInkStrokeDisp interface [Tablet PC],NearestPoint method, IInkStrokeDisp.NearestPoint, IInkStrokeDisp::NearestPoint, NearestPoint, NearestPoint method [Tablet PC], NearestPoint method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::NearestPoint, tablet.iinkstrokedisp_nearestpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::NearestPoint method
+# IInkStrokeDisp::NearestPoint
 
 
 ## -description

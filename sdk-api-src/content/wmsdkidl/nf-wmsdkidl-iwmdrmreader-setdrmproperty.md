@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.SetDRMProperty
-title: IWMDRMReader::SetDRMProperty method
+title: IWMDRMReader::SetDRMProperty
 author: windows-driver-content
 description: The SetDRMProperty method on the reader object is used to set a DRM property, such as the DRM_Rights property.
 old-location: wmformat\iwmdrmreader_setdrmproperty.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 52f606c2-a746-488f-bbf7-0d0e54b89bf9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMDRMReader, IWMDRMReader interface [windows Media Format], SetDRMProperty method, IWMDRMReader::SetDRMProperty, IWMDRMReaderSetDRMProperty, SetDRMProperty method [windows Media Format], SetDRMProperty method [windows Media Format], IWMDRMReader interface, SetDRMProperty,IWMDRMReader.SetDRMProperty, wmformat.iwmdrmreader_setdrmproperty, wmsdkidl/IWMDRMReader::SetDRMProperty
+ms.keywords: IWMDRMReader interface [windows Media Format],SetDRMProperty method, IWMDRMReader.SetDRMProperty, IWMDRMReader::SetDRMProperty, IWMDRMReaderSetDRMProperty, SetDRMProperty, SetDRMProperty method [windows Media Format], SetDRMProperty method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_setdrmproperty, wmsdkidl/IWMDRMReader::SetDRMProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMReader::SetDRMProperty method
+# IWMDRMReader::SetDRMProperty
 
 
 ## -description

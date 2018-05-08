@@ -7,8 +7,8 @@ old-location: ics\pac_changes_callback_fn.htm
 old-project: ICS
 ms.assetid: 7a2afc36-c250-4eb1-9853-d79def85bb67
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: PAC_CHANGES_CALLBACK_FN, PAC_CHANGES_CALLBACK_FN callback function [ICS/ICF], ics.pac_changes_callback_fn, networkisolation/PAC_CHANGES_CALLBACK_FN
+ms.date: 5/1/2018
+ms.keywords: PAC_CHANGES_CALLBACK_FN, PAC_CHANGES_CALLBACK_FN callback, PAC_CHANGES_CALLBACK_FN callback function [ICS/ICF], ics.pac_changes_callback_fn, networkisolation/PAC_CHANGES_CALLBACK_FN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PAC_CHANGES_CALLBACK_FN callback
+# PAC_CHANGES_CALLBACK_FN callback function
 
 
 ## -description

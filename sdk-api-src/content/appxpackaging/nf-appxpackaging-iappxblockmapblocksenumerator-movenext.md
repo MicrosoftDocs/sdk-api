@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlocksEnumerator.MoveNext
-title: IAppxBlockMapBlocksEnumerator::MoveNext method
+title: IAppxBlockMapBlocksEnumerator::MoveNext
 author: windows-driver-content
 description: Advances the position of the enumerator to the next block.
 old-location: appxpkg\iappxblockmapblocksenumerator_movenext.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: CDF8C336-CFF8-41FE-AC3E-48988209850E
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxBlockMapBlocksEnumerator, IAppxBlockMapBlocksEnumerator interface [App packaging and management], MoveNext method, IAppxBlockMapBlocksEnumerator::MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management], IAppxBlockMapBlocksEnumerator interface, MoveNext,IAppxBlockMapBlocksEnumerator.MoveNext, appxpackaging/IAppxBlockMapBlocksEnumerator::MoveNext, appxpkg.iappxblockmapblocksenumerator_movenext
+ms.keywords: IAppxBlockMapBlocksEnumerator interface [App packaging and management],MoveNext method, IAppxBlockMapBlocksEnumerator.MoveNext, IAppxBlockMapBlocksEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBlockMapBlocksEnumerator interface, appxpackaging/IAppxBlockMapBlocksEnumerator::MoveNext, appxpkg.iappxblockmapblocksenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapBlocksEnumerator::MoveNext method
+# IAppxBlockMapBlocksEnumerator::MoveNext
 
 
 ## -description

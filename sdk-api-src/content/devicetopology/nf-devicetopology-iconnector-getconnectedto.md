@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.GetConnectedTo
-title: IConnector::GetConnectedTo method
+title: IConnector::GetConnectedTo
 author: windows-driver-content
 description: The GetConnectedTo method gets the connector to which this connector is connected.
 old-location: coreaudio\iconnector_getconnectedto.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: bee0187c-5650-4b54-89b7-e63874048ed0
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetConnectedTo method [Core Audio], GetConnectedTo method [Core Audio], IConnector interface, GetConnectedTo,IConnector.GetConnectedTo, IConnector, IConnector interface [Core Audio], GetConnectedTo method, IConnector::GetConnectedTo, IConnectorGetConnectedTo, coreaudio.iconnector_getconnectedto, devicetopology/IConnector::GetConnectedTo
+ms.keywords: GetConnectedTo, GetConnectedTo method [Core Audio], GetConnectedTo method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetConnectedTo method, IConnector.GetConnectedTo, IConnector::GetConnectedTo, IConnectorGetConnectedTo, coreaudio.iconnector_getconnectedto, devicetopology/IConnector::GetConnectedTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IConnector::GetConnectedTo method
+# IConnector::GetConnectedTo
 
 
 ## -description

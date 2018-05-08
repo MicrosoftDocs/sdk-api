@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemHiPerfEnum.RemoveObjects
-title: IWbemHiPerfEnum::RemoveObjects method
+title: IWbemHiPerfEnum::RemoveObjects
 author: windows-driver-content
 description: The IWbemHiPerfEnum::RemoveObjects method removes objects (identified by their refresher identifiers) from a refresher.
 old-location: wmi\iwbemhiperfenum_removeobjects.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: a4f25be2-8450-4e4c-ba6a-8d78c1fefca1
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemHiPerfEnum, IWbemHiPerfEnum interface [Windows Management Instrumentation], RemoveObjects method, IWbemHiPerfEnum::RemoveObjects, RemoveObjects method [Windows Management Instrumentation], RemoveObjects method [Windows Management Instrumentation], IWbemHiPerfEnum interface, RemoveObjects,IWbemHiPerfEnum.RemoveObjects, _hmm_iwbemhiperfenum_removeobjects, wbemcli/IWbemHiPerfEnum::RemoveObjects, wmi.iwbemhiperfenum_removeobjects
+ms.keywords: IWbemHiPerfEnum interface [Windows Management Instrumentation],RemoveObjects method, IWbemHiPerfEnum.RemoveObjects, IWbemHiPerfEnum::RemoveObjects, RemoveObjects, RemoveObjects method [Windows Management Instrumentation], RemoveObjects method [Windows Management Instrumentation],IWbemHiPerfEnum interface, _hmm_iwbemhiperfenum_removeobjects, wbemcli/IWbemHiPerfEnum::RemoveObjects, wmi.iwbemhiperfenum_removeobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemHiPerfEnum::RemoveObjects method
+# IWbemHiPerfEnum::RemoveObjects
 
 
 ## -description

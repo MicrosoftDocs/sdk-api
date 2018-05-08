@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.RegisterProxyResult
-title: IMFNetProxyLocator::RegisterProxyResult method
+title: IMFNetProxyLocator::RegisterProxyResult
 author: windows-driver-content
 description: Keeps a record of the success or failure of using the current proxy.
 old-location: mf\imfnetproxylocator_registerproxyresult.htm
 old-project: medfound
 ms.assetid: 2b1a55c6-7d78-47cc-9098-6504d11a4eef
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 2b1a55c6-7d78-47cc-9098-6504d11a4eef, IMFNetProxyLocator, IMFNetProxyLocator interface [Media Foundation], RegisterProxyResult method, IMFNetProxyLocator::RegisterProxyResult, RegisterProxyResult method [Media Foundation], RegisterProxyResult method [Media Foundation], IMFNetProxyLocator interface, RegisterProxyResult,IMFNetProxyLocator.RegisterProxyResult, mf.imfnetproxylocator_registerproxyresult, mfidl/IMFNetProxyLocator::RegisterProxyResult
+ms.date: 5/3/2018
+ms.keywords: 2b1a55c6-7d78-47cc-9098-6504d11a4eef, IMFNetProxyLocator interface [Media Foundation],RegisterProxyResult method, IMFNetProxyLocator.RegisterProxyResult, IMFNetProxyLocator::RegisterProxyResult, RegisterProxyResult, RegisterProxyResult method [Media Foundation], RegisterProxyResult method [Media Foundation],IMFNetProxyLocator interface, mf.imfnetproxylocator_registerproxyresult, mfidl/IMFNetProxyLocator::RegisterProxyResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFNetProxyLocator::RegisterProxyResult method
+# IMFNetProxyLocator::RegisterProxyResult
 
 
 ## -description

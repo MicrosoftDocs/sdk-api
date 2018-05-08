@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskHandler.Resume
-title: ITaskHandler::Resume method
+title: ITaskHandler::Resume
 author: windows-driver-content
 description: Called to resume the COM handler.
 old-location: taskschd\itaskhandler_resume.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 69e82100-2f21-49a1-8ede-e106cb8f1a25
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskHandler, ITaskHandler interface [Task Scheduler], Resume method, ITaskHandler::Resume, Resume method [Task Scheduler], Resume method [Task Scheduler], ITaskHandler interface, Resume,ITaskHandler.Resume, taskschd.itaskhandler_resume, taskschd/ITaskHandler::Resume
+ms.keywords: ITaskHandler interface [Task Scheduler],Resume method, ITaskHandler.Resume, ITaskHandler::Resume, Resume, Resume method [Task Scheduler], Resume method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_resume, taskschd/ITaskHandler::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskHandler::Resume method
+# ITaskHandler::Resume
 
 
 ## -description

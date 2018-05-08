@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingsetoption.htm
 old-project: Rpc
 ms.assetid: bc721fb0-2271-4658-995b-a41e8eefc5d5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcBindingSetOption, RpcBindingSetOption function [RPC], _rpc_rpcbindingsetoption, rpc.rpcbindingsetoption, rpcdce/RpcBindingSetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

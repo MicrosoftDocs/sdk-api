@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTask.get_Path
-title: IRunningTask::get_Path method
+title: IRunningTask::get_Path
 author: windows-driver-content
 description: Gets the path to where the task is stored.
 old-location: taskschd\irunningtask_path.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 8c364628-63dd-4018-9eeb-6acab265c144
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRunningTask, IRunningTask interface [Task Scheduler], Path property, IRunningTask.Path, IRunningTask::get_Path, Path property [Task Scheduler], Path property [Task Scheduler], IRunningTask interface, get_Path,IRunningTask.get_Path, taskschd.irunningtask_path, taskschd/IRunningTask::Path, taskschd/IRunningTask::get_Path
+ms.keywords: IRunningTask interface [Task Scheduler],Path property, IRunningTask.Path, IRunningTask.get_Path, IRunningTask::Path, IRunningTask::get_Path, Path property [Task Scheduler], Path property [Task Scheduler],IRunningTask interface, get_Path, taskschd.irunningtask_path, taskschd/IRunningTask::Path, taskschd/IRunningTask::get_Path
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRunningTask::get_Path method
+# IRunningTask::get_Path
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestMainPackageDependency.GetPublisher
-title: IAppxManifestMainPackageDependency::GetPublisher method
+title: IAppxManifestMainPackageDependency::GetPublisher
 author: windows-driver-content
 description: Gets the publisher of the main package dependency from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifestmainpackagedependency_getpublisher.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 4E7AD93A-27B6-4FE0-8803-EF1ACCB82986
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPublisher method [App packaging and management], GetPublisher method [App packaging and management], IAppxManifestMainPackageDependency interface, GetPublisher,IAppxManifestMainPackageDependency.GetPublisher, IAppxManifestMainPackageDependency, IAppxManifestMainPackageDependency interface [App packaging and management], GetPublisher method, IAppxManifestMainPackageDependency::GetPublisher, appxpackaging/IAppxManifestMainPackageDependency::GetPublisher, appxpkg.iappxmanifestmainpackagedependency_getpublisher
+ms.keywords: GetPublisher, GetPublisher method [App packaging and management], GetPublisher method [App packaging and management],IAppxManifestMainPackageDependency interface, IAppxManifestMainPackageDependency interface [App packaging and management],GetPublisher method, IAppxManifestMainPackageDependency.GetPublisher, IAppxManifestMainPackageDependency::GetPublisher, appxpackaging/IAppxManifestMainPackageDependency::GetPublisher, appxpkg.iappxmanifestmainpackagedependency_getpublisher
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestMainPackageDependency::GetPublisher method
+# IAppxManifestMainPackageDependency::GetPublisher
 
 
 ## -description

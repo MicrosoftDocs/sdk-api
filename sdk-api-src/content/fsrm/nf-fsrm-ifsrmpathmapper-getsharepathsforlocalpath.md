@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmPathMapper.GetSharePathsForLocalPath
-title: IFsrmPathMapper::GetSharePathsForLocalPath method
+title: IFsrmPathMapper::GetSharePathsForLocalPath
 author: windows-driver-content
 description: Retrieves a list of network shares that point to the specified local path.
 old-location: fsrm\ifsrmpathmapper_getsharepathsforlocalpath.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: af5c668f-4675-4568-9b6a-c8d2663d819b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmPathMapper class [File Server Resource Manager], GetSharePathsForLocalPath method, GetSharePathsForLocalPath method [File Server Resource Manager], GetSharePathsForLocalPath method [File Server Resource Manager], FsrmPathMapper class, GetSharePathsForLocalPath method [File Server Resource Manager], IFsrmPathMapper interface, GetSharePathsForLocalPath,IFsrmPathMapper.GetSharePathsForLocalPath, IFsrmPathMapper, IFsrmPathMapper interface [File Server Resource Manager], GetSharePathsForLocalPath method, IFsrmPathMapper::GetSharePathsForLocalPath, fs.ifsrmpathmapper_getsharepathsforlocalpath, fsrm.ifsrmpathmapper_getsharepathsforlocalpath, fsrm/IFsrmPathMapper::GetSharePathsForLocalPath
+ms.keywords: FsrmPathMapper class [File Server Resource Manager],GetSharePathsForLocalPath method, GetSharePathsForLocalPath, GetSharePathsForLocalPath method [File Server Resource Manager], GetSharePathsForLocalPath method [File Server Resource Manager],FsrmPathMapper class, GetSharePathsForLocalPath method [File Server Resource Manager],IFsrmPathMapper interface, IFsrmPathMapper interface [File Server Resource Manager],GetSharePathsForLocalPath method, IFsrmPathMapper.GetSharePathsForLocalPath, IFsrmPathMapper::GetSharePathsForLocalPath, fs.ifsrmpathmapper_getsharepathsforlocalpath, fsrm.ifsrmpathmapper_getsharepathsforlocalpath, fsrm/IFsrmPathMapper::GetSharePathsForLocalPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPathMapper::GetSharePathsForLocalPath method
+# IFsrmPathMapper::GetSharePathsForLocalPath
 
 
 ## -description

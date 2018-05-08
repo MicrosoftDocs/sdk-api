@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMedia.getAttributeName
-title: IWMPMedia::getAttributeName method
+title: IWMPMedia::getAttributeName
 author: windows-driver-content
 description: The getAttributeName method retrieves the name of the attribute corresponding to the specified index.
 old-location: wmp\iwmpmedia_getattributename.htm
 old-project: WMP
 ms.assetid: cb04e464-44dd-41ba-9296-f13aca9ef54e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], getAttributeName method, IWMPMedia2 interface [Windows Media Player], getAttributeName method, IWMPMedia2::getAttributeName, IWMPMedia3 interface [Windows Media Player], getAttributeName method, IWMPMedia3::getAttributeName, IWMPMedia::getAttributeName, IWMPMediagetAttributeName, getAttributeName method [Windows Media Player], getAttributeName method [Windows Media Player], IWMPMedia interface, getAttributeName method [Windows Media Player], IWMPMedia2 interface, getAttributeName method [Windows Media Player], IWMPMedia3 interface, getAttributeName,IWMPMedia.getAttributeName, wmp.iwmpmedia_getattributename, wmp/IWMPMedia2::getAttributeName, wmp/IWMPMedia3::getAttributeName, wmp/IWMPMedia::getAttributeName
+ms.date: 5/4/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],getAttributeName method, IWMPMedia.getAttributeName, IWMPMedia2 interface [Windows Media Player],getAttributeName method, IWMPMedia2::getAttributeName, IWMPMedia3 interface [Windows Media Player],getAttributeName method, IWMPMedia3::getAttributeName, IWMPMedia::getAttributeName, IWMPMediagetAttributeName, getAttributeName, getAttributeName method [Windows Media Player], getAttributeName method [Windows Media Player],IWMPMedia interface, getAttributeName method [Windows Media Player],IWMPMedia2 interface, getAttributeName method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getattributename, wmp/IWMPMedia2::getAttributeName, wmp/IWMPMedia3::getAttributeName, wmp/IWMPMedia::getAttributeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMedia::getAttributeName method
+# IWMPMedia::getAttributeName
 
 
 ## -description

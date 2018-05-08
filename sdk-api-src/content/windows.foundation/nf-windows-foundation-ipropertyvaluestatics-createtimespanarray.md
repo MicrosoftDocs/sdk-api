@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateTimeSpanArray
-title: IPropertyValueStatics::CreateTimeSpanArray method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified array of TimeSpan values.
 old-location: winrt\ipropertyvaluestatics_createtimespanarray.htm
 old-project: WinRT
 ms.assetid: 3f663acc-5ced-4fd2-a0d5-3e462fe60251
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateTimeSpanArray method [Windows Runtime], CreateTimeSpanArray method [Windows Runtime], IPropertyValueStatics interface, CreateTimeSpanArray,IPropertyValueStatics.CreateTimeSpanArray, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateTimeSpanArray method, IPropertyValueStatics::CreateTimeSpanArray, windows/IPropertyValueStatics::CreateTimeSpanArray, winrt.ipropertyvaluefactory_createtimespanarray, winrt.ipropertyvaluestatics_createtimespanarray
+ms.date: 5/4/2018
+ms.keywords: CreateTimeSpanArray, CreateTimeSpanArray method [Windows Runtime], CreateTimeSpanArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateTimeSpanArray method, IPropertyValueStatics.CreateTimeSpanArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateTimeSpanArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateTimeSpanArray, winrt.ipropertyvaluefactory_createtimespanarray, winrt.ipropertyvaluestatics_createtimespanarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateTimeSpanArray method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

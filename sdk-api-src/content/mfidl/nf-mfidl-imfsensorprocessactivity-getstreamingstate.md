@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorProcessActivity.GetStreamingState
-title: IMFSensorProcessActivity::GetStreamingState method
+title: IMFSensorProcessActivity::GetStreamingState
 author: windows-driver-content
 description: Gets a value indicating whether the sensor is currently streaming.
 old-location: mf\imfsensorprocessactivity_getstreamingstate.htm
 old-project: medfound
 ms.assetid: C8A99D4B-F3D5-41D2-A956-C147900F28ED
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamingState method [Media Foundation], GetStreamingState method [Media Foundation], IMFSensorProcessActivity interface, GetStreamingState,IMFSensorProcessActivity.GetStreamingState, IMFSensorProcessActivity, IMFSensorProcessActivity interface [Media Foundation], GetStreamingState method, IMFSensorProcessActivity::GetStreamingState, mf.imfsensorprocessactivity_getstreamingstate, mfidl/IMFSensorProcessActivity::GetStreamingState
+ms.date: 5/3/2018
+ms.keywords: GetStreamingState, GetStreamingState method [Media Foundation], GetStreamingState method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetStreamingState method, IMFSensorProcessActivity.GetStreamingState, IMFSensorProcessActivity::GetStreamingState, mf.imfsensorprocessactivity_getstreamingstate, mfidl/IMFSensorProcessActivity::GetStreamingState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorProcessActivity::GetStreamingState method
+# IMFSensorProcessActivity::GetStreamingState
 
 
 ## -description

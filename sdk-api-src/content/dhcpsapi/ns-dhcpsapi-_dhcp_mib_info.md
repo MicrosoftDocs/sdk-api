@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_mib_info.htm
 old-project: DHCP
 ms.assetid: 58f3e3a3-8246-48ff-be45-20a7eed1ed0e
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_MIB_INFO, DHCP_MIB_INFO, DHCP_MIB_INFO structure [DHCP], LPDHCP_MIB_INFO, LPDHCP_MIB_INFO structure pointer [DHCP], _DHCP_MIB_INFO, dhcp.dhcp_mib_info, dhcpsapi/LPDHCP_MIB_INFO, dhcpsapi/_DHCP_MIB_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,6 +106,18 @@ Contains the number of scopes defined on the DHCP server.
 ### -field ScopeInfo
 
 Array of <a href="https://msdn.microsoft.com/54f54734-3e4a-489f-a61d-85fd436d28ad">SCOPE_MIB_INFO</a> structures that contain information on each subnet defined on the server. There are exactly <b>Scopes</b> elements in this array. If no subnets are defined (<b>Scopes</b> is 0), this field will be <b>NULL</b>.
+
+
+### -field ScopeInfo.size_is
+
+ 
+
+
+### -field ScopeInfo.size_is.Scopes
+
+ 
+
+
 
 
 ## -see-also

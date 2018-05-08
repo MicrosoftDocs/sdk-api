@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetPixelShaderConstantI
-title: IDirect3DDevice9::SetPixelShaderConstantI method
+title: IDirect3DDevice9::SetPixelShaderConstantI
 author: windows-driver-content
 description: Sets an integer shader constant.
 old-location: direct3d9\idirect3ddevice9__setpixelshaderconstanti.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpixelshaderconstanti.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetPixelShaderConstantI method, IDirect3DDevice9::SetPixelShaderConstantI, SetPixelShaderConstantI method [Direct3D 9], SetPixelShaderConstantI method [Direct3D 9], IDirect3DDevice9 interface, SetPixelShaderConstantI,IDirect3DDevice9.SetPixelShaderConstantI, c9149cc8-7c91-43d6-390a-f416b94deaea, d3d9helper/IDirect3DDevice9::SetPixelShaderConstantI, direct3d9.idirect3ddevice9__setpixelshaderconstanti
+ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetPixelShaderConstantI method, IDirect3DDevice9.SetPixelShaderConstantI, IDirect3DDevice9::SetPixelShaderConstantI, SetPixelShaderConstantI, SetPixelShaderConstantI method [Direct3D 9], SetPixelShaderConstantI method [Direct3D 9],IDirect3DDevice9 interface, c9149cc8-7c91-43d6-390a-f416b94deaea, d3d9helper/IDirect3DDevice9::SetPixelShaderConstantI, direct3d9.idirect3ddevice9__setpixelshaderconstanti
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::SetPixelShaderConstantI method
+# IDirect3DDevice9::SetPixelShaderConstantI
 
 
 ## -description

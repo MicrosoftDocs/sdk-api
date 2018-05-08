@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaError.GetErrorCode
-title: IMFMediaError::GetErrorCode method
+title: IMFMediaError::GetErrorCode
 author: windows-driver-content
 description: Gets the error code.
 old-location: mf\imfmediaerror_geterrorcode.htm
 old-project: medfound
 ms.assetid: 6E4C4559-F59C-488C-A790-D95831BC9D29
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetErrorCode method [Media Foundation], GetErrorCode method [Media Foundation], IMFMediaError interface, GetErrorCode,IMFMediaError.GetErrorCode, IMFMediaError, IMFMediaError interface [Media Foundation], GetErrorCode method, IMFMediaError::GetErrorCode, mf.imfmediaerror_geterrorcode, mfmediaengine/IMFMediaError::GetErrorCode
+ms.date: 5/3/2018
+ms.keywords: GetErrorCode, GetErrorCode method [Media Foundation], GetErrorCode method [Media Foundation],IMFMediaError interface, IMFMediaError interface [Media Foundation],GetErrorCode method, IMFMediaError.GetErrorCode, IMFMediaError::GetErrorCode, mf.imfmediaerror_geterrorcode, mfmediaengine/IMFMediaError::GetErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaError::GetErrorCode method
+# IMFMediaError::GetErrorCode
 
 
 ## -description

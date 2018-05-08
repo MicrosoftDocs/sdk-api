@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RemoveScopeRule
-title: ISearchCrawlScopeManager::RemoveScopeRule method
+title: ISearchCrawlScopeManager::RemoveScopeRule
 author: windows-driver-content
 description: Removes a scope rule from the search engine.
 old-location: search\_search_ISearchCrawlScopeManager_RemoveScopeRule.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removescoperule.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], RemoveScopeRule method, ISearchCrawlScopeManager::RemoveScopeRule, RemoveScopeRule method [search], RemoveScopeRule method [search], ISearchCrawlScopeManager interface, RemoveScopeRule,ISearchCrawlScopeManager.RemoveScopeRule, _search_ISearchCrawlScopeManager_RemoveScopeRule, search._search_ISearchCrawlScopeManager_RemoveScopeRule, searchapi/ISearchCrawlScopeManager::RemoveScopeRule
+ms.date: 5/4/2018
+ms.keywords: ISearchCrawlScopeManager interface [search],RemoveScopeRule method, ISearchCrawlScopeManager.RemoveScopeRule, ISearchCrawlScopeManager::RemoveScopeRule, RemoveScopeRule, RemoveScopeRule method [search], RemoveScopeRule method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RemoveScopeRule, search._search_ISearchCrawlScopeManager_RemoveScopeRule, searchapi/ISearchCrawlScopeManager::RemoveScopeRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCrawlScopeManager::RemoveScopeRule method
+# ISearchCrawlScopeManager::RemoveScopeRule
 
 
 ## -description

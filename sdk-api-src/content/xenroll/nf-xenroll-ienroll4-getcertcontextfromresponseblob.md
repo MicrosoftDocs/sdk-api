@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll4.getCertContextFromResponseBlob
-title: IEnroll4::getCertContextFromResponseBlob method
+title: IEnroll4::getCertContextFromResponseBlob
 author: windows-driver-content
 description: Retrieves the certificate from a certification authority's response.
 old-location: security\ienroll4_getcertcontextfromresponseblob.htm
 old-project: SecCrypto
 ms.assetid: 824626bf-a20d-4d34-a061-9f54b142e0fc
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll4, IEnroll4 interface [Security], getCertContextFromResponseBlob method, IEnroll4::getCertContextFromResponseBlob, getCertContextFromResponseBlob method [Security], getCertContextFromResponseBlob method [Security], IEnroll4 interface, getCertContextFromResponseBlob,IEnroll4.getCertContextFromResponseBlob, security.ienroll4_getcertcontextfromresponseblob, xenroll/IEnroll4::getCertContextFromResponseBlob
+ms.date: 4/30/2018
+ms.keywords: IEnroll4 interface [Security],getCertContextFromResponseBlob method, IEnroll4.getCertContextFromResponseBlob, IEnroll4::getCertContextFromResponseBlob, getCertContextFromResponseBlob, getCertContextFromResponseBlob method [Security], getCertContextFromResponseBlob method [Security],IEnroll4 interface, security.ienroll4_getcertcontextfromresponseblob, xenroll/IEnroll4::getCertContextFromResponseBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll4::getCertContextFromResponseBlob method
+# IEnroll4::getCertContextFromResponseBlob
 
 
 ## -description

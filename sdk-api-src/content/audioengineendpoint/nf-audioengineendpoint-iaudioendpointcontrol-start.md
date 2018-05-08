@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointControl.Start
-title: IAudioEndpointControl::Start method
+title: IAudioEndpointControl::Start
 author: windows-driver-content
 description: Starts the endpoint stream.
 old-location: termserv\iaudioendpointcontrol_start.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: d9b54618-9750-49be-a966-1a2f02c81af6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IAudioEndpointControl, IAudioEndpointControl interface [Remote Desktop Services], Start method, IAudioEndpointControl::Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services], IAudioEndpointControl interface, Start,IAudioEndpointControl.Start, audioengineendpoint/IAudioEndpointControl::Start, termserv.iaudioendpointcontrol_start
+ms.keywords: IAudioEndpointControl interface [Remote Desktop Services],Start method, IAudioEndpointControl.Start, IAudioEndpointControl::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IAudioEndpointControl interface, audioengineendpoint/IAudioEndpointControl::Start, termserv.iaudioendpointcontrol_start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioEndpointControl::Start method
+# IAudioEndpointControl::Start
 
 
 ## -description

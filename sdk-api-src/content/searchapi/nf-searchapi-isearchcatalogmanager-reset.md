@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.Reset
-title: ISearchCatalogManager::Reset method
+title: ISearchCatalogManager::Reset
 author: windows-driver-content
 description: Resets the underlying catalog by rebuilding the databases and performing a full indexing.
 old-location: search\_search_ISearchCatalogManager_Reset.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reset.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], Reset method, ISearchCatalogManager::Reset, Reset method [search], Reset method [search], ISearchCatalogManager interface, Reset,ISearchCatalogManager.Reset, _search_ISearchCatalogManager_Reset, search._search_ISearchCatalogManager_Reset, searchapi/ISearchCatalogManager::Reset
+ms.date: 5/4/2018
+ms.keywords: ISearchCatalogManager interface [search],Reset method, ISearchCatalogManager.Reset, ISearchCatalogManager::Reset, Reset, Reset method [search], Reset method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_Reset, search._search_ISearchCatalogManager_Reset, searchapi/ISearchCatalogManager::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::Reset method
+# ISearchCatalogManager::Reset
 
 
 ## -description

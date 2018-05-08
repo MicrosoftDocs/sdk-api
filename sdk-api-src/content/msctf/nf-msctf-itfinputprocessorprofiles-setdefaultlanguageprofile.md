@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.SetDefaultLanguageProfile
-title: ITfInputProcessorProfiles::SetDefaultLanguageProfile method
+title: ITfInputProcessorProfiles::SetDefaultLanguageProfile
 author: windows-driver-content
 description: ITfInputProcessorProfiles::SetDefaultLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_setdefaultlanguageprofile.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 385bf5d6-6541-483d-8286-1ba759616fc6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], SetDefaultLanguageProfile method, ITfInputProcessorProfiles::SetDefaultLanguageProfile, SetDefaultLanguageProfile method [Text Services Framework], SetDefaultLanguageProfile method [Text Services Framework], ITfInputProcessorProfiles interface, SetDefaultLanguageProfile,ITfInputProcessorProfiles.SetDefaultLanguageProfile, _tsf_itfinputprocessorprofiles_setdefaultlanguageprofile_ref, msctf/ITfInputProcessorProfiles::SetDefaultLanguageProfile, tsf.itfinputprocessorprofiles_setdefaultlanguageprofile
+ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],SetDefaultLanguageProfile method, ITfInputProcessorProfiles.SetDefaultLanguageProfile, ITfInputProcessorProfiles::SetDefaultLanguageProfile, SetDefaultLanguageProfile, SetDefaultLanguageProfile method [Text Services Framework], SetDefaultLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_setdefaultlanguageprofile_ref, msctf/ITfInputProcessorProfiles::SetDefaultLanguageProfile, tsf.itfinputprocessorprofiles_setdefaultlanguageprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfiles::SetDefaultLanguageProfile method
+# ITfInputProcessorProfiles::SetDefaultLanguageProfile
 
 
 ## -description

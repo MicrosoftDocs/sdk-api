@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITMSPAddress.CreateMSPCall
-title: ITMSPAddress::CreateMSPCall method
+title: ITMSPAddress::CreateMSPCall
 author: windows-driver-content
 description: The CreateMSPCall method creates an MSP Call object. TAPI aggregates this onto the main Call object and exposes the ITStreamControl interface.
 old-location: tapi3\itmspaddress_createmspcall.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 56ed10e3-e711-43ae-aad6-65a5992fca0f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CreateMSPCall method [TAPI 2.2], CreateMSPCall method [TAPI 2.2], ITMSPAddress interface, CreateMSPCall,ITMSPAddress.CreateMSPCall, ITMSPAddress, ITMSPAddress interface [TAPI 2.2], CreateMSPCall method, ITMSPAddress::CreateMSPCall, _tapi3_itmspaddress_createmspcall, msp/ITMSPAddress::CreateMSPCall, tapi3.itmspaddress_createmspcall
+ms.keywords: CreateMSPCall, CreateMSPCall method [TAPI 2.2], CreateMSPCall method [TAPI 2.2],ITMSPAddress interface, ITMSPAddress interface [TAPI 2.2],CreateMSPCall method, ITMSPAddress.CreateMSPCall, ITMSPAddress::CreateMSPCall, _tapi3_itmspaddress_createmspcall, msp/ITMSPAddress::CreateMSPCall, tapi3.itmspaddress_createmspcall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITMSPAddress::CreateMSPCall method
+# ITMSPAddress::CreateMSPCall
 
 
 ## -description

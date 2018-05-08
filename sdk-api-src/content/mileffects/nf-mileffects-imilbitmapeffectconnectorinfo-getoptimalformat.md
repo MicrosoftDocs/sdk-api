@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectorInfo.GetOptimalFormat
-title: IMILBitmapEffectConnectorInfo::GetOptimalFormat method
+title: IMILBitmapEffectConnectorInfo::GetOptimalFormat
 author: windows-driver-content
 description: Retrieves the optimal pixel format for the pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getoptimalformat.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\getoptimalformat.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetOptimalFormat method [WPF Bitmap Effects], GetOptimalFormat method [WPF Bitmap Effects], IMILBitmapEffectConnectorInfo interface, GetOptimalFormat,IMILBitmapEffectConnectorInfo.GetOptimalFormat, IMILBitmapEffectConnectorInfo, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects], GetOptimalFormat method, IMILBitmapEffectConnectorInfo::GetOptimalFormat, _wibe_imilbitmapeffectconnectorinfo_getoptimalformat, mileffects/IMILBitmapEffectConnectorInfo::GetOptimalFormat, wibe._wibe_imilbitmapeffectconnectorinfo_getoptimalformat
+ms.keywords: GetOptimalFormat, GetOptimalFormat method [WPF Bitmap Effects], GetOptimalFormat method [WPF Bitmap Effects],IMILBitmapEffectConnectorInfo interface, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects],GetOptimalFormat method, IMILBitmapEffectConnectorInfo.GetOptimalFormat, IMILBitmapEffectConnectorInfo::GetOptimalFormat, _wibe_imilbitmapeffectconnectorinfo_getoptimalformat, mileffects/IMILBitmapEffectConnectorInfo::GetOptimalFormat, wibe._wibe_imilbitmapeffectconnectorinfo_getoptimalformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectConnectorInfo::GetOptimalFormat method
+# IMILBitmapEffectConnectorInfo::GetOptimalFormat
 
 
 ## -description

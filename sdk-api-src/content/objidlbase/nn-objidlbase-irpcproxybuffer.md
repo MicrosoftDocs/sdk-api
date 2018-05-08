@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: e1b18997-f99b-4611-8ba6-da28fd8df898
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IRpcProxyBuffer, IRpcProxyBuffer interface [COM], IRpcProxyBuffer interface [COM], described, _com_irpcproxybuffer, com.irpcproxybuffer, objidlbase/IRpcProxyBuffer
+ms.keywords: IRpcProxyBuffer, IRpcProxyBuffer interface [COM], IRpcProxyBuffer interface [COM],described, _com_irpcproxybuffer, com.irpcproxybuffer, objidlbase/IRpcProxyBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

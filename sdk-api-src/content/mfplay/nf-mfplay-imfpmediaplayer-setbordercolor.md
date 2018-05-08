@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetBorderColor
-title: IMFPMediaPlayer::SetBorderColor method
+title: IMFPMediaPlayer::SetBorderColor
 author: windows-driver-content
 description: Sets the color for the video border.
 old-location: mf\imfpmediaplayer_setbordercolor.htm
 old-project: medfound
 ms.assetid: f66b671d-0c7d-4261-8210-05f2d2f8d9a5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], SetBorderColor method, IMFPMediaPlayer::SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation], IMFPMediaPlayer interface, SetBorderColor,IMFPMediaPlayer.SetBorderColor, mf.imfpmediaplayer_setbordercolor, mfplay/IMFPMediaPlayer::SetBorderColor
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetBorderColor method, IMFPMediaPlayer.SetBorderColor, IMFPMediaPlayer::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setbordercolor, mfplay/IMFPMediaPlayer::SetBorderColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::SetBorderColor method
+# IMFPMediaPlayer::SetBorderColor
 
 
 ## -description

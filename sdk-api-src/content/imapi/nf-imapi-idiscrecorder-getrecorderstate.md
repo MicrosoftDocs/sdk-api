@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetRecorderState
-title: IDiscRecorder::GetRecorderState method
+title: IDiscRecorder::GetRecorderState
 author: windows-driver-content
 description: Retrieves the disc recorder state.
 old-location: imapi\idiscrecorder_getrecorderstate.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 7fa57f8b-33c4-475c-958c-1e2c4973e23a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRecorderState method [IMAPI], GetRecorderState method [IMAPI], IDiscRecorder interface, GetRecorderState,IDiscRecorder.GetRecorderState, IDiscRecorder, IDiscRecorder interface [IMAPI], GetRecorderState method, IDiscRecorder::GetRecorderState, RECORDER_BURNING, RECORDER_DOING_NOTHING, RECORDER_OPENED, _win32_idiscrecorder_getrecorderstate, base.idiscrecorder_getrecorderstate, imapi.idiscrecorder_getrecorderstate, imapi/IDiscRecorder::GetRecorderState
+ms.keywords: GetRecorderState, GetRecorderState method [IMAPI], GetRecorderState method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderState method, IDiscRecorder.GetRecorderState, IDiscRecorder::GetRecorderState, RECORDER_BURNING, RECORDER_DOING_NOTHING, RECORDER_OPENED, _win32_idiscrecorder_getrecorderstate, base.idiscrecorder_getrecorderstate, imapi.idiscrecorder_getrecorderstate, imapi/IDiscRecorder::GetRecorderState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder::GetRecorderState method
+# IDiscRecorder::GetRecorderState
 
 
 ## -description

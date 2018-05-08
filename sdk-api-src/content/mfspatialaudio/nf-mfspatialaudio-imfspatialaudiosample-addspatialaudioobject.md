@@ -1,14 +1,14 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioSample.AddSpatialAudioObject
-title: IMFSpatialAudioSample::AddSpatialAudioObject method
+title: IMFSpatialAudioSample::AddSpatialAudioObject
 author: windows-driver-content
 description: Adds a new spatial audio object, represented by an IMFSpatialAudioObjectBuffer object, to the sample.
 old-location: mf\imfspatialaudiosample_addspatialaudioobject.htm
 old-project: medfound
 ms.assetid: D967B4FE-8E11-4520-BF9E-725ACC7AA99A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddSpatialAudioObject method [Media Foundation], AddSpatialAudioObject method [Media Foundation], IMFSpatialAudioSample interface, AddSpatialAudioObject,IMFSpatialAudioSample.AddSpatialAudioObject, IMFSpatialAudioSample, IMFSpatialAudioSample interface [Media Foundation], AddSpatialAudioObject method, IMFSpatialAudioSample::AddSpatialAudioObject, mf.imfspatialaudiosample_addspatialaudioobject, mfspatialaudio/IMFSpatialAudioSample::AddSpatialAudioObject
+ms.date: 5/3/2018
+ms.keywords: AddSpatialAudioObject, AddSpatialAudioObject method [Media Foundation], AddSpatialAudioObject method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],AddSpatialAudioObject method, IMFSpatialAudioSample.AddSpatialAudioObject, IMFSpatialAudioSample::AddSpatialAudioObject, mf.imfspatialaudiosample_addspatialaudioobject, mfspatialaudio/IMFSpatialAudioSample::AddSpatialAudioObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSpatialAudioSample::AddSpatialAudioObject method
+# IMFSpatialAudioSample::AddSpatialAudioObject
 
 
 ## -description

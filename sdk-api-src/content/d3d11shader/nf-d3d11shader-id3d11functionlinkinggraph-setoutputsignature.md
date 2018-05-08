@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.SetOutputSignature
-title: ID3D11FunctionLinkingGraph::SetOutputSignature method
+title: ID3D11FunctionLinkingGraph::SetOutputSignature
 author: windows-driver-content
 description: Sets the output signature of the function-linking-graph.
 old-location: direct3d11\id3d11functionlinkinggraph_setoutputsignature.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: C32E3BF1-E08C-4949-A8DE-4359704D2E40
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11FunctionLinkingGraph, ID3D11FunctionLinkingGraph interface [Direct3D 11], SetOutputSignature method, ID3D11FunctionLinkingGraph::SetOutputSignature, SetOutputSignature method [Direct3D 11], SetOutputSignature method [Direct3D 11], ID3D11FunctionLinkingGraph interface, SetOutputSignature,ID3D11FunctionLinkingGraph.SetOutputSignature, d3d11shader/ID3D11FunctionLinkingGraph::SetOutputSignature, direct3d11.id3d11functionlinkinggraph_setoutputsignature
+ms.keywords: ID3D11FunctionLinkingGraph interface [Direct3D 11],SetOutputSignature method, ID3D11FunctionLinkingGraph.SetOutputSignature, ID3D11FunctionLinkingGraph::SetOutputSignature, SetOutputSignature, SetOutputSignature method [Direct3D 11], SetOutputSignature method [Direct3D 11],ID3D11FunctionLinkingGraph interface, d3d11shader/ID3D11FunctionLinkingGraph::SetOutputSignature, direct3d11.id3d11functionlinkinggraph_setoutputsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11FunctionLinkingGraph::SetOutputSignature method
+# ID3D11FunctionLinkingGraph::SetOutputSignature
 
 
 ## -description

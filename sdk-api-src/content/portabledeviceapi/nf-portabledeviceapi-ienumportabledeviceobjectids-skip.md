@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IEnumPortableDeviceObjectIDs.Skip
-title: IEnumPortableDeviceObjectIDs::Skip method
+title: IEnumPortableDeviceObjectIDs::Skip
 author: windows-driver-content
 description: The Skip method skips a specified number of objects in the enumeration sequence.
 old-location: wpdsdk\ienumportabledeviceobjectids_skip.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: a55b9ccc-8d6b-49e6-af3d-ad7915aa3abd
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IEnumPortableDeviceObjectIDs, IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK], Skip method, IEnumPortableDeviceObjectIDs::Skip, IEnumPortableDeviceObjectIDsSkip, Skip method [Windows Portable Devices SDK], Skip method [Windows Portable Devices SDK], IEnumPortableDeviceObjectIDs interface, Skip,IEnumPortableDeviceObjectIDs.Skip, portabledeviceapi/IEnumPortableDeviceObjectIDs::Skip, wpdsdk.ienumportabledeviceobjectids_skip
+ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Skip method, IEnumPortableDeviceObjectIDs.Skip, IEnumPortableDeviceObjectIDs::Skip, IEnumPortableDeviceObjectIDsSkip, Skip, Skip method [Windows Portable Devices SDK], Skip method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Skip, wpdsdk.ienumportabledeviceobjectids_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumPortableDeviceObjectIDs::Skip method
+# IEnumPortableDeviceObjectIDs::Skip
 
 
 ## -description

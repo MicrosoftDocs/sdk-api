@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetContextGuid
-title: IDot11AdHocNetwork::GetContextGuid method
+title: IDot11AdHocNetwork::GetContextGuid
 author: windows-driver-content
 description: Gets the context identifier associated with the network.
 old-location: nwifi\idot11adhocnetwork_getcontextguid.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: 6a7e7a75-b070-4d57-ae88-6bfc3568c3c9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetContextGuid method [NativeWIFI], GetContextGuid method [NativeWIFI], IDot11AdHocNetwork interface, GetContextGuid,IDot11AdHocNetwork.GetContextGuid, IDot11AdHocNetwork, IDot11AdHocNetwork interface [NativeWIFI], GetContextGuid method, IDot11AdHocNetwork::GetContextGuid, adhoc/IDot11AdHocNetwork::GetContextGuid, nwifi.idot11adhocnetwork_getcontextguid
+ms.keywords: GetContextGuid, GetContextGuid method [NativeWIFI], GetContextGuid method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetContextGuid method, IDot11AdHocNetwork.GetContextGuid, IDot11AdHocNetwork::GetContextGuid, adhoc/IDot11AdHocNetwork::GetContextGuid, nwifi.idot11adhocnetwork_getcontextguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDot11AdHocNetwork::GetContextGuid method
+# IDot11AdHocNetwork::GetContextGuid
 
 
 ## -description

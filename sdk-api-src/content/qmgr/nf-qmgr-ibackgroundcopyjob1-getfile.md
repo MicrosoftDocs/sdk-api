@@ -1,14 +1,14 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.GetFile
-title: IBackgroundCopyJob1::GetFile method
+title: IBackgroundCopyJob1::GetFile
 author: windows-driver-content
 description: Use the GetFile method to retrieve the remote and local file names for the given file in the job.
 old-location: bits\ibackgroundcopyjob1_getfile.htm
 old-project: Bits
 ms.assetid: 6cd680cc-abe0-44e1-a650-079295a8dd4a
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetFile method [BITS], GetFile method [BITS], IBackgroundCopyJob1 interface, GetFile,IBackgroundCopyJob1.GetFile, IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], GetFile method, IBackgroundCopyJob1::GetFile, bits.ibackgroundcopyjob1_getfile, qmgr/IBackgroundCopyJob1::GetFile
+ms.date: 4/27/2018
+ms.keywords: GetFile, GetFile method [BITS], GetFile method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetFile method, IBackgroundCopyJob1.GetFile, IBackgroundCopyJob1::GetFile, bits.ibackgroundcopyjob1_getfile, qmgr/IBackgroundCopyJob1::GetFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBackgroundCopyJob1::GetFile method
+# IBackgroundCopyJob1::GetFile
 
 
 ## -description

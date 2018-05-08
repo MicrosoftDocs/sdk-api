@@ -106,75 +106,80 @@ The index of the local interface through  which  the next hop of this
                 route should be reached.
 
 
-### -field dwForwardAge
+### -field dwForwardType
 
 Type: <b>DWORD</b>
 
-The number of seconds  since  the  route  was
-                added or modified in the network routing table. 
+The route type as described in 
+RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>.
+
+This member can be one of the values defined in the <i>Iprtmib.h</i> header file. 
+
+On Windows Vista and later, the header files were reorganized and this member can be one of the values from  the <b>MIB_IPFORWARD_TYPE</b> enumeration type defined in the <i>Ipmib.h</i> header file. Note that the <i>Ipmib.h</i> header is automatically included by the <i>Iprtrmib.h</i> header file which is automatically included by the <i>Iphlpapi.h</i> header. The  <i>Iprtrmib.h</i> and  <i>Ipmib.h</i> header files should never be used directly.  
+
+The following list shows the possible values for this member. 
 
 
-### -field dwForwardNextHopAS
 
-Type: <b>DWORD</b>
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="MIB_IPROUTE_TYPE_OTHER_"></a><a id="mib_iproute_type_other_"></a><dl>
+<dt><b>MIB_IPROUTE_TYPE_OTHER </b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Some other type not specified in RFC 1354.
 
-The autonomous system number of the next hop. When  this  member is  unknown  or not relevant to the
-                protocol or routing mechanism specified in <b>dwForwardProto</b>, this value  should be set to zero. This value is documented in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MIB_IPROUTE_TYPE_INVALID"></a><a id="mib_iproute_type_invalid"></a><dl>
+<dt><b>MIB_IPROUTE_TYPE_INVALID</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+An invalid route.  This value can result from a route added by an ICMP redirect.
 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MIB_IPROUTE_TYPE_DIRECT"></a><a id="mib_iproute_type_direct"></a><dl>
+<dt><b>MIB_IPROUTE_TYPE_DIRECT</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+A local route where the next hop is the final destination (a local interface).
 
-### -field dwForwardMetric1
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MIB_IPROUTE_TYPE_INDIRECT"></a><a id="mib_iproute_type_indirect"></a><dl>
+<dt><b>MIB_IPROUTE_TYPE_INDIRECT</b></dt>
+<dt>4</dt>
+</dl>
+</td>
+<td width="60%">
+The remote route where the next hop is not the final destination (a remote destination).
 
-Type: <b>DWORD</b>
-
-The primary routing metric value for this route. The  semantics of this metric are determined by
-                the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
-                used, its value should be set to -1. This value is documented in 
-in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
-
-
-### -field dwForwardMetric2
-
-Type: <b>DWORD</b>
-
-An alternate  routing metric value for this route. The  semantics of this metric are determined by
-                the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
-                used, its value should be set to -1. This value is documented in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
-
-
-### -field dwForwardMetric3
-
-Type: <b>DWORD</b>
-
-An alternate  routing metric value for this route. The  semantics of this metric are determined by
-                the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
-                used, its value should be set to -1. This value is documented in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
-
-
-### -field dwForwardMetric4
-
-Type: <b>DWORD</b>
-
-An alternate  routing metric value for this route. The  semantics of this metric are determined by
-                the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
-                used, its value should be set to -1. This value is documented in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
-
-
-### -field dwForwardMetric5
-
-Type: <b>DWORD</b>
-
-An alternate  routing metric value for this route. The  semantics of this metric are determined by
-                the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
-                used, its value should be set to -1. This value is documented in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
+</td>
+</tr>
+</table>
+ 
 
 
-#### - dwForwardProto
+### -field ForwardType
+
+ 
+
+
+### -field dwForwardProto
 
 Type: <b>DWORD</b>
 
@@ -387,72 +392,77 @@ A Windows specific entry added as a static route from the routing user interface
  
 
 
-#### - dwForwardType
+### -field ForwardProto
+
+ 
+
+
+### -field dwForwardAge
 
 Type: <b>DWORD</b>
 
-The route type as described in 
-RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>.
-
-This member can be one of the values defined in the <i>Iprtmib.h</i> header file. 
-
-On Windows Vista and later, the header files were reorganized and this member can be one of the values from  the <b>MIB_IPFORWARD_TYPE</b> enumeration type defined in the <i>Ipmib.h</i> header file. Note that the <i>Ipmib.h</i> header is automatically included by the <i>Iprtrmib.h</i> header file which is automatically included by the <i>Iphlpapi.h</i> header. The  <i>Iprtrmib.h</i> and  <i>Ipmib.h</i> header files should never be used directly.  
-
-The following list shows the possible values for this member. 
+The number of seconds  since  the  route  was
+                added or modified in the network routing table. 
 
 
+### -field dwForwardNextHopAS
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_IPROUTE_TYPE_OTHER_"></a><a id="mib_iproute_type_other_"></a><dl>
-<dt><b>MIB_IPROUTE_TYPE_OTHER </b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Some other type not specified in RFC 1354.
+Type: <b>DWORD</b>
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_IPROUTE_TYPE_INVALID"></a><a id="mib_iproute_type_invalid"></a><dl>
-<dt><b>MIB_IPROUTE_TYPE_INVALID</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-An invalid route.  This value can result from a route added by an ICMP redirect.
+The autonomous system number of the next hop. When  this  member is  unknown  or not relevant to the
+                protocol or routing mechanism specified in <b>dwForwardProto</b>, this value  should be set to zero. This value is documented in 
+RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_IPROUTE_TYPE_DIRECT"></a><a id="mib_iproute_type_direct"></a><dl>
-<dt><b>MIB_IPROUTE_TYPE_DIRECT</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-A local route where the next hop is the final destination (a local interface).
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_IPROUTE_TYPE_INDIRECT"></a><a id="mib_iproute_type_indirect"></a><dl>
-<dt><b>MIB_IPROUTE_TYPE_INDIRECT</b></dt>
-<dt>4</dt>
-</dl>
-</td>
-<td width="60%">
-The remote route where the next hop is not the final destination (a remote destination).
+### -field dwForwardMetric1
 
-</td>
-</tr>
-</table>
- 
+Type: <b>DWORD</b>
+
+The primary routing metric value for this route. The  semantics of this metric are determined by
+                the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
+                used, its value should be set to -1. This value is documented in 
+in 
+RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
+
+
+### -field dwForwardMetric2
+
+Type: <b>DWORD</b>
+
+An alternate  routing metric value for this route. The  semantics of this metric are determined by
+                the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
+                used, its value should be set to -1. This value is documented in 
+RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
+
+
+### -field dwForwardMetric3
+
+Type: <b>DWORD</b>
+
+An alternate  routing metric value for this route. The  semantics of this metric are determined by
+                the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
+                used, its value should be set to -1. This value is documented in 
+RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
+
+
+### -field dwForwardMetric4
+
+Type: <b>DWORD</b>
+
+An alternate  routing metric value for this route. The  semantics of this metric are determined by
+                the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
+                used, its value should be set to -1. This value is documented in 
+RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
+
+
+### -field dwForwardMetric5
+
+Type: <b>DWORD</b>
+
+An alternate  routing metric value for this route. The  semantics of this metric are determined by
+                the routing protocol specified in  the  <b>dwForwardProto</b>  member. If  this metric is not
+                used, its value should be set to -1. This value is documented in 
+RFC 1354. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84028">http://www.ietf.org/rfc/rfc1354.txt</a>
 
 
 ## -remarks

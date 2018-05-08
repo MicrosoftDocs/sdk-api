@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroupImpl.Preprocess
-title: IMILBitmapEffectGroupImpl::Preprocess method
+title: IMILBitmapEffectGroupImpl::Preprocess
 author: windows-driver-content
 description: Pre-process the given render context.
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl_preprocess.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\preprocess.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffectGroupImpl, IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects], Preprocess method, IMILBitmapEffectGroupImpl::Preprocess, Preprocess method [WPF Bitmap Effects], Preprocess method [WPF Bitmap Effects], IMILBitmapEffectGroupImpl interface, Preprocess,IMILBitmapEffectGroupImpl.Preprocess, _wibe_imilbitmapeffectgroupimpl_preprocess, mileffects/IMILBitmapEffectGroupImpl::Preprocess, wibe._wibe_imilbitmapeffectgroupimpl_preprocess
+ms.keywords: IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],Preprocess method, IMILBitmapEffectGroupImpl.Preprocess, IMILBitmapEffectGroupImpl::Preprocess, Preprocess, Preprocess method [WPF Bitmap Effects], Preprocess method [WPF Bitmap Effects],IMILBitmapEffectGroupImpl interface, _wibe_imilbitmapeffectgroupimpl_preprocess, mileffects/IMILBitmapEffectGroupImpl::Preprocess, wibe._wibe_imilbitmapeffectgroupimpl_preprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectGroupImpl::Preprocess method
+# IMILBitmapEffectGroupImpl::Preprocess
 
 
 ## -description

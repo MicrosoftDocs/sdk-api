@@ -7,7 +7,7 @@ old-location: security\bcryptprocessmultioperation.htm
 old-project: SecCNG
 ms.assetid: 5FD28AC3-46D2-4F06-BF06-F5FEF8E531F5
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: BCryptProcessMultiOperations, BCryptProcessMultiOperations function [Security], bcrypt/BCryptProcessMultiOperations, security.bcryptprocessmultioperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

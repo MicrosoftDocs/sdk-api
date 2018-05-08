@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2SpanningEvent.GetEvent
-title: ISBE2SpanningEvent::GetEvent method
+title: ISBE2SpanningEvent::GetEvent
 author: windows-driver-content
 description: Gets an in-band spanning event and event data from the Stream Buffer Engine, version 2 (SBE2). An in-band spanning event is an event that exists until it is replaced or erased, and is part of the state for events that appear later in the same stream.
 old-location: mstv\isbe2spanningevent_getevent.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f1fc2b7c-3f60-4d03-9c75-9b9d9450ceef
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetEvent method [Microsoft TV Technologies], GetEvent method [Microsoft TV Technologies], ISBE2SpanningEvent interface, GetEvent,ISBE2SpanningEvent.GetEvent, ISBE2SpanningEvent, ISBE2SpanningEvent interface [Microsoft TV Technologies], GetEvent method, ISBE2SpanningEvent::GetEvent, mstv.isbe2spanningevent_getevent, sbe/ISBE2SpanningEvent::GetEvent
+ms.keywords: GetEvent, GetEvent method [Microsoft TV Technologies], GetEvent method [Microsoft TV Technologies],ISBE2SpanningEvent interface, ISBE2SpanningEvent interface [Microsoft TV Technologies],GetEvent method, ISBE2SpanningEvent.GetEvent, ISBE2SpanningEvent::GetEvent, mstv.isbe2spanningevent_getevent, sbe/ISBE2SpanningEvent::GetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISBE2SpanningEvent::GetEvent method
+# ISBE2SpanningEvent::GetEvent
 
 
 ## -description

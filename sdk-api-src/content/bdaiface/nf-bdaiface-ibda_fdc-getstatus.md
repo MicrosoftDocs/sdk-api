@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.GetStatus
-title: IBDA_FDC::GetStatus method
+title: IBDA_FDC::GetStatus
 author: windows-driver-content
 description: Gets the tuning status of the Forward Data Channel (FDC) stream.
 old-location: mstv\ibda_fdc_getstatus.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: feaa3d72-353f-45ed-b458-7345bbe07dd2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetStatus method [Microsoft TV Technologies], GetStatus method [Microsoft TV Technologies], IBDA_FDC interface, GetStatus,IBDA_FDC.GetStatus, IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], GetStatus method, IBDA_FDC::GetStatus, bdaiface/IBDA_FDC::GetStatus, mstv.ibda_fdc_getstatus
+ms.keywords: GetStatus, GetStatus method [Microsoft TV Technologies], GetStatus method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],GetStatus method, IBDA_FDC.GetStatus, IBDA_FDC::GetStatus, bdaiface/IBDA_FDC::GetStatus, mstv.ibda_fdc_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_FDC::GetStatus method
+# IBDA_FDC::GetStatus
 
 
 ## -description

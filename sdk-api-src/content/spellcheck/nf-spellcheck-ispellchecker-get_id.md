@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.get_Id
-title: ISpellChecker::get_Id method
+title: ISpellChecker::get_Id
 author: windows-driver-content
 description: Gets the identifier for this spell checker.
 old-location: intl\ispellchecker_id.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: ba3a520b-feea-4ea4-b285-f44a1e1fc518
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], Id property, ISpellChecker.Id, ISpellChecker::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications], ISpellChecker interface, get_Id,ISpellChecker.get_Id, intl.ispellchecker_id, spellcheck/ISpellChecker::Id, spellcheck/ISpellChecker::get_Id
+ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],Id property, ISpellChecker.Id, ISpellChecker.get_Id, ISpellChecker::Id, ISpellChecker::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],ISpellChecker interface, get_Id, intl.ispellchecker_id, spellcheck/ISpellChecker::Id, spellcheck/ISpellChecker::get_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellChecker::get_Id method
+# ISpellChecker::get_Id
 
 
 ## -description

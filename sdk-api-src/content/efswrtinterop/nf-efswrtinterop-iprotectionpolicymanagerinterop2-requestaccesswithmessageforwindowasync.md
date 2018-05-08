@@ -1,6 +1,6 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop2.RequestAccessWithMessageForWindowAsync
-title: IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync method
+title: IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync
 author: windows-driver-content
 description: Request access to enterprise protected content for an identity.
 old-location: edp\iprotectionpolicymanagerinterop2_requestaccesswithmessageforwindowasync.htm
@@ -8,7 +8,7 @@ old-project: EDP
 ms.assetid: AC0E0ED0-C8C3-4058-B20D-4F8BB3D83A87
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccesswithmessageforwindowasync, IProtectionPolicyManagerInterop2, IProtectionPolicyManagerInterop2 interface, RequestAccessWithMessageForWindowAsync method, IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync, RequestAccessWithMessageForWindowAsync method, RequestAccessWithMessageForWindowAsync method, IProtectionPolicyManagerInterop2 interface, RequestAccessWithMessageForWindowAsync,IProtectionPolicyManagerInterop2.RequestAccessWithMessageForWindowAsync, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync
+ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccesswithmessageforwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessWithMessageForWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessWithMessageForWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync, RequestAccessWithMessageForWindowAsync, RequestAccessWithMessageForWindowAsync method, RequestAccessWithMessageForWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync method
+# IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync
 
 
 ## -description

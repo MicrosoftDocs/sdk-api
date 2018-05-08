@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCdrom.get_playlist
-title: IWMPCdrom::get_playlist method
+title: IWMPCdrom::get_playlist
 author: windows-driver-content
 description: The get_playlist method retrieves a pointer to an IWMPPlaylist interface representing the tracks on the CD currently in the CD drive or the root-level title entries for a DVD.
 old-location: wmp\iwmpcdrom_get_playlist.htm
 old-project: WMP
 ms.assetid: c726ac41-0662-4134-b187-035f941b9df9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCdrom, IWMPCdrom interface [Windows Media Player], get_playlist method, IWMPCdrom::get_playlist, IWMPCdromget_playlist, get_playlist method [Windows Media Player], get_playlist method [Windows Media Player], IWMPCdrom interface, get_playlist,IWMPCdrom.get_playlist, wmp.iwmpcdrom_get_playlist, wmp/IWMPCdrom::get_playlist
+ms.date: 5/4/2018
+ms.keywords: IWMPCdrom interface [Windows Media Player],get_playlist method, IWMPCdrom.get_playlist, IWMPCdrom::get_playlist, IWMPCdromget_playlist, get_playlist, get_playlist method [Windows Media Player], get_playlist method [Windows Media Player],IWMPCdrom interface, wmp.iwmpcdrom_get_playlist, wmp/IWMPCdrom::get_playlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCdrom::get_playlist method
+# IWMPCdrom::get_playlist
 
 
 ## -description

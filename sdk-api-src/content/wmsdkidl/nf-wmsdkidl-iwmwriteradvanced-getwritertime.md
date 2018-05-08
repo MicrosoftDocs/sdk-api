@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetWriterTime
-title: IWMWriterAdvanced::GetWriterTime method
+title: IWMWriterAdvanced::GetWriterTime
 author: windows-driver-content
 description: The GetWriterTime method retrieves the clock time that the writer is working to.
 old-location: wmformat\iwmwriteradvanced_getwritertime.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ed15e545-8b37-4098-8e2f-96f4cfb271d3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetWriterTime method [windows Media Format], GetWriterTime method [windows Media Format], IWMWriterAdvanced interface, GetWriterTime,IWMWriterAdvanced.GetWriterTime, IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], GetWriterTime method, IWMWriterAdvanced::GetWriterTime, IWMWriterAdvancedGetWriterTime, wmformat.iwmwriteradvanced_getwritertime, wmsdkidl/IWMWriterAdvanced::GetWriterTime
+ms.keywords: GetWriterTime, GetWriterTime method [windows Media Format], GetWriterTime method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetWriterTime method, IWMWriterAdvanced.GetWriterTime, IWMWriterAdvanced::GetWriterTime, IWMWriterAdvancedGetWriterTime, wmformat.iwmwriteradvanced_getwritertime, wmsdkidl/IWMWriterAdvanced::GetWriterTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterAdvanced::GetWriterTime method
+# IWMWriterAdvanced::GetWriterTime
 
 
 ## -description

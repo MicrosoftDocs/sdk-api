@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsContainer.CopyHere
-title: IADsContainer::CopyHere method
+title: IADsContainer::CopyHere
 author: windows-driver-content
 description: The IADsContainer::CopyHere method creates a copy of the specified directory object in this container.
 old-location: adsi\iadscontainer_copyhere.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 8a006253-ccb4-4f13-93b5-297db17f7c2e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CopyHere method [ADSI], CopyHere method [ADSI], IADsContainer interface, CopyHere,IADsContainer.CopyHere, IADsContainer, IADsContainer interface [ADSI], CopyHere method, IADsContainer::CopyHere, _ds_iadscontainer_copyhere, adsi.iadscontainer__copyhere, adsi.iadscontainer_copyhere, iads/IADsContainer::CopyHere
+ms.keywords: CopyHere, CopyHere method [ADSI], CopyHere method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],CopyHere method, IADsContainer.CopyHere, IADsContainer::CopyHere, _ds_iadscontainer_copyhere, adsi.iadscontainer__copyhere, adsi.iadscontainer_copyhere, iads/IADsContainer::CopyHere
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsContainer::CopyHere method
+# IADsContainer::CopyHere
 
 
 ## -description

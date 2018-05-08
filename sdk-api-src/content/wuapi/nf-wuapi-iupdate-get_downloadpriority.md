@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_DownloadPriority
-title: IUpdate::get_DownloadPriority method
+title: IUpdate::get_DownloadPriority
 author: windows-driver-content
 description: Gets the suggested download priority of the update.
 old-location: wua\iupdate_downloadpriority.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: a1963c34-6387-442f-847a-1348789f3b05
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DownloadPriority property [Windows Update Agent], DownloadPriority property [Windows Update Agent], IUpdate interface, IUpdate, IUpdate interface [Windows Update Agent], DownloadPriority property, IUpdate.DownloadPriority, IUpdate::get_DownloadPriority, get_DownloadPriority,IUpdate.get_DownloadPriority, wua.iupdate_downloadpriority, wuapi/IUpdate::DownloadPriority, wuapi/IUpdate::get_DownloadPriority
+ms.keywords: DownloadPriority property [Windows Update Agent], DownloadPriority property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DownloadPriority property, IUpdate.DownloadPriority, IUpdate.get_DownloadPriority, IUpdate::DownloadPriority, IUpdate::get_DownloadPriority, get_DownloadPriority, wua.iupdate_downloadpriority, wuapi/IUpdate::DownloadPriority, wuapi/IUpdate::get_DownloadPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_DownloadPriority method
+# IUpdate::get_DownloadPriority
 
 
 ## -description

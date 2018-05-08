@@ -72,6 +72,21 @@ This member is not used by the wireless service. Applications can use this membe
 <b>dwIndex</b> should always be initialized before use.
 
 
+### -field InterfaceInfo.unique
+
+ 
+
+
+### -field InterfaceInfo.size_is
+
+ 
+
+
+### -field InterfaceInfo.size_is.dwNumberOfItems
+
+ 
+
+
 ### -field InterfaceInfo
 
 An array of <a href="https://msdn.microsoft.com/906e7d59-ebd0-47e7-985e-f5d313f19ecb">WLAN_INTERFACE_INFO</a> structures containing interface information.

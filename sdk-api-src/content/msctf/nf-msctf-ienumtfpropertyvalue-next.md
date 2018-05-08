@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfPropertyValue.Next
-title: IEnumTfPropertyValue::Next method
+title: IEnumTfPropertyValue::Next
 author: windows-driver-content
 description: IEnumTfPropertyValue::Next method
 old-location: tsf\ienumtfpropertyvalue_next.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: b0fe154c-df33-443d-95a2-f41e7b02def8
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfPropertyValue, IEnumTfPropertyValue interface [Text Services Framework], Next method, IEnumTfPropertyValue::Next, Next method [Text Services Framework], Next method [Text Services Framework], IEnumTfPropertyValue interface, Next,IEnumTfPropertyValue.Next, _tsf_ienumtfpropertyvalue_next_ref, msctf/IEnumTfPropertyValue::Next, tsf.ienumtfpropertyvalue_next
+ms.keywords: IEnumTfPropertyValue interface [Text Services Framework],Next method, IEnumTfPropertyValue.Next, IEnumTfPropertyValue::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfPropertyValue interface, _tsf_ienumtfpropertyvalue_next_ref, msctf/IEnumTfPropertyValue::Next, tsf.ienumtfpropertyvalue_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfPropertyValue::Next method
+# IEnumTfPropertyValue::Next
 
 
 ## -description

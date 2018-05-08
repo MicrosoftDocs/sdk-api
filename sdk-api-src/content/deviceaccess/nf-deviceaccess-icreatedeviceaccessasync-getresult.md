@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.GetResult
-title: ICreateDeviceAccessAsync::GetResult method
+title: ICreateDeviceAccessAsync::GetResult
 author: windows-driver-content
 description: Retrieves an IDeviceIoControl object that's bound to the device interface that's specified in a call to the CreateDeviceAccessInstance function.
 old-location: deviceaccess\icreatedeviceaccessasync_getresult.htm
@@ -8,7 +8,7 @@ old-project: deviceaccess
 ms.assetid: 002e6638-a38a-4fda-b71c-a7a6983dda62
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetResult method [Device Access Broker API], GetResult method [Device Access Broker API], ICreateDeviceAccessAsync interface, GetResult,ICreateDeviceAccessAsync.GetResult, ICreateDeviceAccessAsync, ICreateDeviceAccessAsync interface [Device Access Broker API], GetResult method, ICreateDeviceAccessAsync::GetResult, deviceaccess.icreatedeviceaccessasync_getresult, deviceaccess/ICreateDeviceAccessAsync::GetResult
+ms.keywords: GetResult, GetResult method [Device Access Broker API], GetResult method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],GetResult method, ICreateDeviceAccessAsync.GetResult, ICreateDeviceAccessAsync::GetResult, deviceaccess.icreatedeviceaccessasync_getresult, deviceaccess/ICreateDeviceAccessAsync::GetResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICreateDeviceAccessAsync::GetResult method
+# ICreateDeviceAccessAsync::GetResult
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMemAllocatorCallbackTemp.GetFreeCount
-title: IMemAllocatorCallbackTemp::GetFreeCount method
+title: IMemAllocatorCallbackTemp::GetFreeCount
 author: windows-driver-content
 description: The GetFreeCount method returns the number of free media samples. This number equals the total number of media samples minus the number of samples that are currently held by filters.
 old-location: dshow\imemallocatorcallbacktemp_getfreecount.htm
 old-project: DirectShow
 ms.assetid: 2dd0cdb3-664a-4022-b8bb-fda759172dd6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetFreeCount method [DirectShow], GetFreeCount method [DirectShow], IMemAllocatorCallbackTemp interface, GetFreeCount,IMemAllocatorCallbackTemp.GetFreeCount, IMemAllocatorCallbackTemp, IMemAllocatorCallbackTemp interface [DirectShow], GetFreeCount method, IMemAllocatorCallbackTemp::GetFreeCount, IMemAllocatorCallbackTempGetFreeCount, dshow.imemallocatorcallbacktemp_getfreecount, strmif/IMemAllocatorCallbackTemp::GetFreeCount
+ms.date: 4/30/2018
+ms.keywords: GetFreeCount, GetFreeCount method [DirectShow], GetFreeCount method [DirectShow],IMemAllocatorCallbackTemp interface, IMemAllocatorCallbackTemp interface [DirectShow],GetFreeCount method, IMemAllocatorCallbackTemp.GetFreeCount, IMemAllocatorCallbackTemp::GetFreeCount, IMemAllocatorCallbackTempGetFreeCount, dshow.imemallocatorcallbacktemp_getfreecount, strmif/IMemAllocatorCallbackTemp::GetFreeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMemAllocatorCallbackTemp::GetFreeCount method
+# IMemAllocatorCallbackTemp::GetFreeCount
 
 
 ## -description

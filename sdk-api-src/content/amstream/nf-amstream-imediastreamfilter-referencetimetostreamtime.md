@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.ReferenceTimeToStreamTime
-title: IMediaStreamFilter::ReferenceTimeToStreamTime method
+title: IMediaStreamFilter::ReferenceTimeToStreamTime
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The ReferenceTimeToStreamTime method converts a reference time to stream time.
 old-location: dshow\imediastreamfilter_referencetimetostreamtime.htm
 old-project: DirectShow
 ms.assetid: 71ddbf0b-17aa-4481-81a7-6d4a12275c31
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], ReferenceTimeToStreamTime method, IMediaStreamFilter::ReferenceTimeToStreamTime, IMediaStreamFilterReferenceTimeToStreamTime, ReferenceTimeToStreamTime method [DirectShow], ReferenceTimeToStreamTime method [DirectShow], IMediaStreamFilter interface, ReferenceTimeToStreamTime,IMediaStreamFilter.ReferenceTimeToStreamTime, amstream/IMediaStreamFilter::ReferenceTimeToStreamTime, dshow.imediastreamfilter_referencetimetostreamtime
+ms.date: 4/30/2018
+ms.keywords: IMediaStreamFilter interface [DirectShow],ReferenceTimeToStreamTime method, IMediaStreamFilter.ReferenceTimeToStreamTime, IMediaStreamFilter::ReferenceTimeToStreamTime, IMediaStreamFilterReferenceTimeToStreamTime, ReferenceTimeToStreamTime, ReferenceTimeToStreamTime method [DirectShow], ReferenceTimeToStreamTime method [DirectShow],IMediaStreamFilter interface, amstream/IMediaStreamFilter::ReferenceTimeToStreamTime, dshow.imediastreamfilter_referencetimetostreamtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaStreamFilter::ReferenceTimeToStreamTime method
+# IMediaStreamFilter::ReferenceTimeToStreamTime
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.GetJob
-title: IBackgroundCopyGroup::GetJob method
+title: IBackgroundCopyGroup::GetJob
 author: windows-driver-content
 description: Use the GetJob method to retrieve a job from the group.
 old-location: bits\ibackgroundcopygroup_getjob.htm
 old-project: Bits
 ms.assetid: c392e9e2-0489-457b-b21a-dfff9e2c0f39
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetJob method [BITS], GetJob method [BITS], IBackgroundCopyGroup interface, GetJob,IBackgroundCopyGroup.GetJob, IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], GetJob method, IBackgroundCopyGroup::GetJob, bits.ibackgroundcopygroup_getjob, qmgr/IBackgroundCopyGroup::GetJob
+ms.date: 4/27/2018
+ms.keywords: GetJob, GetJob method [BITS], GetJob method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetJob method, IBackgroundCopyGroup.GetJob, IBackgroundCopyGroup::GetJob, bits.ibackgroundcopygroup_getjob, qmgr/IBackgroundCopyGroup::GetJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBackgroundCopyGroup::GetJob method
+# IBackgroundCopyGroup::GetJob
 
 
 ## -description

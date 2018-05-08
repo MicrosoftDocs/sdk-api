@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.SetSharedSecret
-title: IVdsIscsiTarget::SetSharedSecret method
+title: IVdsIscsiTarget::SetSharedSecret
 author: windows-driver-content
 description: Sets the target CHAP shared secret that is used for CHAP authentication when the target authenticates the initiator.
 old-location: base\ivdsiscsitarget_setsharedsecret.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 2b2eae3d-8ad0-4b68-943b-a42696165543
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], SetSharedSecret method, IVdsIscsiTarget::SetSharedSecret, SetSharedSecret method [VDS], SetSharedSecret method [VDS], IVdsIscsiTarget interface, SetSharedSecret,IVdsIscsiTarget.SetSharedSecret, base.ivdsiscsitarget_setsharedsecret, vds/IVdsIscsiTarget::SetSharedSecret, vdshwprv/IVdsIscsiTarget::SetSharedSecret
+ms.keywords: IVdsIscsiTarget interface [VDS],SetSharedSecret method, IVdsIscsiTarget.SetSharedSecret, IVdsIscsiTarget::SetSharedSecret, SetSharedSecret, SetSharedSecret method [VDS], SetSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setsharedsecret, vds/IVdsIscsiTarget::SetSharedSecret, vdshwprv/IVdsIscsiTarget::SetSharedSecret
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsIscsiTarget::SetSharedSecret method
+# IVdsIscsiTarget::SetSharedSecret
 
 
 ## -description

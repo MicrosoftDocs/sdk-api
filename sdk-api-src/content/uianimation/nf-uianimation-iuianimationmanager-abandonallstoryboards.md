@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.AbandonAllStoryboards
-title: IUIAnimationManager::AbandonAllStoryboards method
+title: IUIAnimationManager::AbandonAllStoryboards
 author: windows-driver-content
 description: Abandons all active storyboards.
 old-location: uianimation\iuianimationmanager_abandonallstoryboards.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: cecb0026-ed6f-48b8-9381-d020a36e7e87
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: AbandonAllStoryboards method [Windows Animation], AbandonAllStoryboards method [Windows Animation], IUIAnimationManager interface, AbandonAllStoryboards,IUIAnimationManager.AbandonAllStoryboards, IUIAnimationManager, IUIAnimationManager interface [Windows Animation], AbandonAllStoryboards method, IUIAnimationManager::AbandonAllStoryboards, uianimation.iuianimationmanager_abandonallstoryboards, uianimation/IUIAnimationManager::AbandonAllStoryboards
+ms.keywords: AbandonAllStoryboards, AbandonAllStoryboards method [Windows Animation], AbandonAllStoryboards method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],AbandonAllStoryboards method, IUIAnimationManager.AbandonAllStoryboards, IUIAnimationManager::AbandonAllStoryboards, uianimation.iuianimationmanager_abandonallstoryboards, uianimation/IUIAnimationManager::AbandonAllStoryboards
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager::AbandonAllStoryboards method
+# IUIAnimationManager::AbandonAllStoryboards
 
 
 ## -description

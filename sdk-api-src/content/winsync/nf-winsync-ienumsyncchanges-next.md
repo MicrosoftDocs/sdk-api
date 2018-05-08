@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSyncChanges.Next
-title: IEnumSyncChanges::Next method
+title: IEnumSyncChanges::Next
 author: windows-driver-content
 description: Returns the next item change.
 old-location: winsync\ienumsyncchanges_next.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 23b5f46f-87f3-431e-a253-d349eed27082
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumSyncChanges, IEnumSyncChanges interface [Windows Sync], Next method, IEnumSyncChanges::Next, Next method [Windows Sync], Next method [Windows Sync], IEnumSyncChanges interface, Next,IEnumSyncChanges.Next, winsync.ienumsyncchanges_next, winsync/IEnumSyncChanges::Next
+ms.keywords: IEnumSyncChanges interface [Windows Sync],Next method, IEnumSyncChanges.Next, IEnumSyncChanges::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncChanges interface, winsync.ienumsyncchanges_next, winsync/IEnumSyncChanges::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumSyncChanges::Next method
+# IEnumSyncChanges::Next
 
 
 ## -description

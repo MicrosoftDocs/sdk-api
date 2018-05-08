@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRSurface9.IsSurfaceLocked
-title: IVMRSurface9::IsSurfaceLocked method
+title: IVMRSurface9::IsSurfaceLocked
 author: windows-driver-content
 description: The IsSurfaceLocked method indicates whether the Direct3D surface attached to this media sample is locked.
 old-location: dshow\ivmrsurface9_issurfacelocked.htm
 old-project: DirectShow
 ms.assetid: ccc2ab3c-ec6d-47b5-b6cf-0686aa4260bc
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRSurface9, IVMRSurface9 interface [DirectShow], IsSurfaceLocked method, IVMRSurface9::IsSurfaceLocked, IVMRSurface9IsSurfaceLocked, IsSurfaceLocked method [DirectShow], IsSurfaceLocked method [DirectShow], IVMRSurface9 interface, IsSurfaceLocked,IVMRSurface9.IsSurfaceLocked, dshow.ivmrsurface9_issurfacelocked, vmr9/IVMRSurface9::IsSurfaceLocked
+ms.date: 4/30/2018
+ms.keywords: IVMRSurface9 interface [DirectShow],IsSurfaceLocked method, IVMRSurface9.IsSurfaceLocked, IVMRSurface9::IsSurfaceLocked, IVMRSurface9IsSurfaceLocked, IsSurfaceLocked, IsSurfaceLocked method [DirectShow], IsSurfaceLocked method [DirectShow],IVMRSurface9 interface, dshow.ivmrsurface9_issurfacelocked, vmr9/IVMRSurface9::IsSurfaceLocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRSurface9::IsSurfaceLocked method
+# IVMRSurface9::IsSurfaceLocked
 
 
 ## -description

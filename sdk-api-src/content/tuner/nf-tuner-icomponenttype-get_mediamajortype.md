@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentType.get_MediaMajorType
-title: IComponentType::get_MediaMajorType method
+title: IComponentType::get_MediaMajorType
 author: windows-driver-content
 description: The get_MediaMajorType method retrieves the DirectShow media major type as a BSTR.
 old-location: mstv\icomponenttype_get_mediamajortype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4c1fc49d-acca-40fe-85cf-909092ceb5ef
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies], get_MediaMajorType method, IComponentType::get_MediaMajorType, IComponentTypeget_MediaMajorType, get_MediaMajorType method [Microsoft TV Technologies], get_MediaMajorType method [Microsoft TV Technologies], IComponentType interface, get_MediaMajorType,IComponentType.get_MediaMajorType, mstv.icomponenttype_get_mediamajortype, tuner/IComponentType::get_MediaMajorType
+ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaMajorType method, IComponentType.get_MediaMajorType, IComponentType::get_MediaMajorType, IComponentTypeget_MediaMajorType, get_MediaMajorType, get_MediaMajorType method [Microsoft TV Technologies], get_MediaMajorType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediamajortype, tuner/IComponentType::get_MediaMajorType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IComponentType::get_MediaMajorType method
+# IComponentType::get_MediaMajorType
 
 
 ## -description

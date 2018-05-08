@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentType.get__MediaSubType
-title: IComponentType::get__MediaSubType method
+title: IComponentType::get__MediaSubType
 author: windows-driver-content
 description: The get__MediaSubType method retrieves the DirectShow media subtype as a GUID.
 old-location: mstv\icomponenttype_get__mediasubtype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 92c49f9a-2102-424d-b04c-68aae8a37ada
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies], get__MediaSubType method, IComponentType::get__MediaSubType, IComponentTypeget__MediaSubType, get__MediaSubType method [Microsoft TV Technologies], get__MediaSubType method [Microsoft TV Technologies], IComponentType interface, get__MediaSubType,IComponentType.get__MediaSubType, mstv.icomponenttype_get__mediasubtype, tuner/IComponentType::get__MediaSubType
+ms.keywords: IComponentType interface [Microsoft TV Technologies],get__MediaSubType method, IComponentType.get__MediaSubType, IComponentType::get__MediaSubType, IComponentTypeget__MediaSubType, get__MediaSubType, get__MediaSubType method [Microsoft TV Technologies], get__MediaSubType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get__mediasubtype, tuner/IComponentType::get__MediaSubType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IComponentType::get__MediaSubType method
+# IComponentType::get__MediaSubType
 
 
 ## -description

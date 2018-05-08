@@ -63,14 +63,6 @@ Contains <a href="s_gly.htm">SCSI</a> address data. It is
 ### -field DUMMYUNIONNAME
 
 
-
-#### dw
-
-Numeric value that describes the SCSI address as a combination of the <b>PortNumber</b>, 
-        <b>PathId</b>, <b>TargetId</b>, and <b>Lun</b> 
-        values.
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
 
@@ -101,6 +93,13 @@ Identifies the individual logical unit at the target device specified by
          <b>TargetId</b>. This corresponds to the 
          <a href="https://msdn.microsoft.com/47ac3714-fe5c-4b3b-9271-57980981785d">Lun</a> property of the 
          <a href="https://msdn.microsoft.com/7becbcf6-bad9-44e2-9731-d53de8299b99">ClusScsiAddress</a> object.
+
+
+### -field DUMMYUNIONNAME.dw
+
+Numeric value that describes the SCSI address as a combination of the <b>PortNumber</b>, 
+        <b>PathId</b>, <b>TargetId</b>, and <b>Lun</b> 
+        values.
 
 
 ## -remarks

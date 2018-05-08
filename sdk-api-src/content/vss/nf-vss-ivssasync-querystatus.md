@@ -1,6 +1,6 @@
 ---
 UID: NF:vss.IVssAsync.QueryStatus
-title: IVssAsync::QueryStatus method
+title: IVssAsync::QueryStatus
 author: windows-driver-content
 description: The QueryStatus method queries the status of an asynchronous operation.
 old-location: base\ivssasync_querystatus.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssAsync, IVssAsync interface [VSS], QueryStatus method, IVssAsync::QueryStatus, QueryStatus method [VSS], QueryStatus method [VSS], IVssAsync interface, QueryStatus,IVssAsync.QueryStatus, VSS_S_ASYNC_CANCELLED, VSS_S_ASYNC_FINISHED, VSS_S_ASYNC_PENDING, _win32_ivssasync_querystatus, base.ivssasync_querystatus, vss/IVssAsync::QueryStatus
+ms.keywords: IVssAsync interface [VSS],QueryStatus method, IVssAsync.QueryStatus, IVssAsync::QueryStatus, QueryStatus, QueryStatus method [VSS], QueryStatus method [VSS],IVssAsync interface, VSS_S_ASYNC_CANCELLED, VSS_S_ASYNC_FINISHED, VSS_S_ASYNC_PENDING, _win32_ivssasync_querystatus, base.ivssasync_querystatus, vss/IVssAsync::QueryStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssAsync::QueryStatus method
+# IVssAsync::QueryStatus
 
 
 ## -description

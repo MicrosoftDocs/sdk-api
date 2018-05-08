@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DeviceControl.CheckChanges
-title: IBDA_DeviceControl::CheckChanges method
+title: IBDA_DeviceControl::CheckChanges
 author: windows-driver-content
 description: The CheckChanges method queries the device filter as to whether the changes that are pending would succeed if they were committed.
 old-location: mstv\ibda_devicecontrol_checkchanges.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e4654041-d17b-4b1b-9d0f-23c00b0090ea
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CheckChanges method [Microsoft TV Technologies], CheckChanges method [Microsoft TV Technologies], IBDA_DeviceControl interface, CheckChanges,IBDA_DeviceControl.CheckChanges, IBDA_DeviceControl, IBDA_DeviceControl interface [Microsoft TV Technologies], CheckChanges method, IBDA_DeviceControl::CheckChanges, IBDA_DeviceControlCheckChanges, bdaiface/IBDA_DeviceControl::CheckChanges, mstv.ibda_devicecontrol_checkchanges
+ms.keywords: CheckChanges, CheckChanges method [Microsoft TV Technologies], CheckChanges method [Microsoft TV Technologies],IBDA_DeviceControl interface, IBDA_DeviceControl interface [Microsoft TV Technologies],CheckChanges method, IBDA_DeviceControl.CheckChanges, IBDA_DeviceControl::CheckChanges, IBDA_DeviceControlCheckChanges, bdaiface/IBDA_DeviceControl::CheckChanges, mstv.ibda_devicecontrol_checkchanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DeviceControl::CheckChanges method
+# IBDA_DeviceControl::CheckChanges
 
 
 ## -description

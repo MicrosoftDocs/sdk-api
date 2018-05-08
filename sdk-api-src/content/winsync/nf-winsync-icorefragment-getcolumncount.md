@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ICoreFragment.GetColumnCount
-title: ICoreFragment::GetColumnCount method
+title: ICoreFragment::GetColumnCount
 author: windows-driver-content
 description: Gets the number of columns that are contained in this knowledge fragment.
 old-location: winsync\icorefragment_getcolumncount.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 5f1aff6d-4fdf-48e1-9c7b-c003ec27f354
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetColumnCount method [Windows Sync], GetColumnCount method [Windows Sync], ICoreFragment interface, GetColumnCount,ICoreFragment.GetColumnCount, ICoreFragment, ICoreFragment interface [Windows Sync], GetColumnCount method, ICoreFragment::GetColumnCount, winsync.icorefragment_getcolumncount, winsync/ICoreFragment::GetColumnCount
+ms.keywords: GetColumnCount, GetColumnCount method [Windows Sync], GetColumnCount method [Windows Sync],ICoreFragment interface, ICoreFragment interface [Windows Sync],GetColumnCount method, ICoreFragment.GetColumnCount, ICoreFragment::GetColumnCount, winsync.icorefragment_getcolumncount, winsync/ICoreFragment::GetColumnCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ICoreFragment::GetColumnCount method
+# ICoreFragment::GetColumnCount
 
 
 ## -description

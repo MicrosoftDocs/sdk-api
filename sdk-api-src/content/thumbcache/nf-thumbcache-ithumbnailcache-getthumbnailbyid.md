@@ -1,14 +1,14 @@
 ---
 UID: NF:thumbcache.IThumbnailCache.GetThumbnailByID
-title: IThumbnailCache::GetThumbnailByID method
+title: IThumbnailCache::GetThumbnailByID
 author: windows-driver-content
 description: Gets a thumbnail from the thumbnail cache, given its ID.
 old-location: shell\IThumbnailCache_GetThumbnailByID.htm
 old-project: shell
 ms.assetid: 3b5069e2-f20b-4c43-a9e7-334366980f5c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetThumbnailByID method [Windows Shell], GetThumbnailByID method [Windows Shell], IThumbnailCache interface, GetThumbnailByID,IThumbnailCache.GetThumbnailByID, IThumbnailCache, IThumbnailCache interface [Windows Shell], GetThumbnailByID method, IThumbnailCache::GetThumbnailByID, WTS_CACHED, WTS_DEFAULT, WTS_LOWQUALITY, _shell__GetThumbnailByID, shell.IThumbnailCache_GetThumbnailByID, thumbcache/IThumbnailCache::GetThumbnailByID
+ms.date: 5/3/2018
+ms.keywords: GetThumbnailByID, GetThumbnailByID method [Windows Shell], GetThumbnailByID method [Windows Shell],IThumbnailCache interface, IThumbnailCache interface [Windows Shell],GetThumbnailByID method, IThumbnailCache.GetThumbnailByID, IThumbnailCache::GetThumbnailByID, WTS_CACHED, WTS_DEFAULT, WTS_LOWQUALITY, _shell__GetThumbnailByID, shell.IThumbnailCache_GetThumbnailByID, thumbcache/IThumbnailCache::GetThumbnailByID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IThumbnailCache::GetThumbnailByID method
+# IThumbnailCache::GetThumbnailByID
 
 
 ## -description

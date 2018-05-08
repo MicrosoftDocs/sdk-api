@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetCASystemId
-title: IIsdbCAServiceDescriptor::GetCASystemId method
+title: IIsdbCAServiceDescriptor::GetCASystemId
 author: windows-driver-content
 description: Gets the conditional access (CA) system identifier from a CA service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_getcasystemid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 48148c5c-30e1-4028-8baf-692141d79fad
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface, GetCASystemId,IIsdbCAServiceDescriptor.GetCASystemId, IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], GetCASystemId method, IIsdbCAServiceDescriptor::GetCASystemId, dvbsiparser/IIsdbCAServiceDescriptor::GetCASystemId, mstv.iisdbcaservicedescriptor_getcasystemid
+ms.keywords: GetCASystemId, GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetCASystemId method, IIsdbCAServiceDescriptor.GetCASystemId, IIsdbCAServiceDescriptor::GetCASystemId, dvbsiparser/IIsdbCAServiceDescriptor::GetCASystemId, mstv.iisdbcaservicedescriptor_getcasystemid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbCAServiceDescriptor::GetCASystemId method
+# IIsdbCAServiceDescriptor::GetCASystemId
 
 
 ## -description

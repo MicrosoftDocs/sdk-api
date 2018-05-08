@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.SetProfile
-title: IWMWriter::SetProfile method
+title: IWMWriter::SetProfile
 author: windows-driver-content
 description: The SetProfile method specifies the profile to use for the current writing task.
 old-location: wmformat\iwmwriter_setprofile.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 1a931896-c102-4b3b-a5a3-b3ef85b276b9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriter, IWMWriter interface [windows Media Format], SetProfile method, IWMWriter::SetProfile, IWMWriterSetProfile, SetProfile method [windows Media Format], SetProfile method [windows Media Format], IWMWriter interface, SetProfile,IWMWriter.SetProfile, wmformat.iwmwriter_setprofile, wmsdkidl/IWMWriter::SetProfile
+ms.keywords: IWMWriter interface [windows Media Format],SetProfile method, IWMWriter.SetProfile, IWMWriter::SetProfile, IWMWriterSetProfile, SetProfile, SetProfile method [windows Media Format], SetProfile method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setprofile, wmsdkidl/IWMWriter::SetProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriter::SetProfile method
+# IWMWriter::SetProfile
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetID
-title: IWSDHttpMessageParameters::GetID method
+title: IWSDHttpMessageParameters::GetID
 author: windows-driver-content
 description: Retrieves the transport ID for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_getid.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: fbe7000f-271a-4939-814d-3696d29f7a41
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetID method, GetID method, IWSDHttpMessageParameters interface, GetID,IWSDHttpMessageParameters.GetID, IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, GetID method, IWSDHttpMessageParameters::GetID, ncd.iwsdhttpmessageparameters_getid, wsdbase/IWSDHttpMessageParameters::GetID
+ms.keywords: GetID, GetID method, GetID method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetID method, IWSDHttpMessageParameters.GetID, IWSDHttpMessageParameters::GetID, ncd.iwsdhttpmessageparameters_getid, wsdbase/IWSDHttpMessageParameters::GetID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDHttpMessageParameters::GetID method
+# IWSDHttpMessageParameters::GetID
 
 
 ## -description

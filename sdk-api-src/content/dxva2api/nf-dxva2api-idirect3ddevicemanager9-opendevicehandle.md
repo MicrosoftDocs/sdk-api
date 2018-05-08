@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.OpenDeviceHandle
-title: IDirect3DDeviceManager9::OpenDeviceHandle method
+title: IDirect3DDeviceManager9::OpenDeviceHandle
 author: windows-driver-content
 description: Gets a handle to the Direct3D device.
 old-location: mf\idirect3ddevicemanager9_opendevicehandle.htm
 old-project: medfound
 ms.assetid: 74cd2260-279a-4956-8fce-40f8008b6797
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 74cd2260-279a-4956-8fce-40f8008b6797, IDirect3DDeviceManager9, IDirect3DDeviceManager9 interface [Media Foundation], OpenDeviceHandle method, IDirect3DDeviceManager9::OpenDeviceHandle, OpenDeviceHandle method [Media Foundation], OpenDeviceHandle method [Media Foundation], IDirect3DDeviceManager9 interface, OpenDeviceHandle,IDirect3DDeviceManager9.OpenDeviceHandle, dxva2api/IDirect3DDeviceManager9::OpenDeviceHandle, mf.idirect3ddevicemanager9_opendevicehandle
+ms.date: 5/3/2018
+ms.keywords: 74cd2260-279a-4956-8fce-40f8008b6797, IDirect3DDeviceManager9 interface [Media Foundation],OpenDeviceHandle method, IDirect3DDeviceManager9.OpenDeviceHandle, IDirect3DDeviceManager9::OpenDeviceHandle, OpenDeviceHandle, OpenDeviceHandle method [Media Foundation], OpenDeviceHandle method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::OpenDeviceHandle, mf.idirect3ddevicemanager9_opendevicehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirect3DDeviceManager9::OpenDeviceHandle method
+# IDirect3DDeviceManager9::OpenDeviceHandle
 
 
 ## -description

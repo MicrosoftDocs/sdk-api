@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescription.IsValueCanonical
-title: IPropertyDescription::IsValueCanonical method
+title: IPropertyDescription::IsValueCanonical
 author: windows-driver-content
 description: Gets a value that indicates whether a property is canonical according to the definition of the property description.
 old-location: properties\IPropertyDescription_IsValueCanonical.htm
 old-project: properties
 ms.assetid: e0eedb58-82ed-4481-8319-633ddf20949c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: IPropertyDescription, IPropertyDescription interface [Windows Properties], IsValueCanonical method, IPropertyDescription::IsValueCanonical, IsValueCanonical method [Windows Properties], IsValueCanonical method [Windows Properties], IPropertyDescription interface, IsValueCanonical,IPropertyDescription.IsValueCanonical, properties.IPropertyDescription_IsValueCanonical, propsys/IPropertyDescription::IsValueCanonical, shell.IPropertyDescription_IsValueCanonical, shell_IPropertyDescription_IsValueCanonical
+ms.date: 4/27/2018
+ms.keywords: IPropertyDescription interface [Windows Properties],IsValueCanonical method, IPropertyDescription.IsValueCanonical, IPropertyDescription::IsValueCanonical, IsValueCanonical, IsValueCanonical method [Windows Properties], IsValueCanonical method [Windows Properties],IPropertyDescription interface, properties.IPropertyDescription_IsValueCanonical, propsys/IPropertyDescription::IsValueCanonical, shell.IPropertyDescription_IsValueCanonical, shell_IPropertyDescription_IsValueCanonical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescription::IsValueCanonical method
+# IPropertyDescription::IsValueCanonical
 
 
 ## -description

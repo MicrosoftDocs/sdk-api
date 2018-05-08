@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.SetProperty
-title: IXMLHTTPRequest2::SetProperty method
+title: IXMLHTTPRequest2::SetProperty
 author: windows-driver-content
 description: Sets a property on an outgoing HTTP request.
 old-location: ixhr2\ixmlhttprequest2_setproperty.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: 4BBA4E21-29ED-413D-90D6-161D31CC13C9
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest2, IXMLHTTPRequest2 interface [XMLHttpRequest2], SetProperty method, IXMLHTTPRequest2::SetProperty, SetProperty method [XMLHttpRequest2], SetProperty method [XMLHttpRequest2], IXMLHTTPRequest2 interface, SetProperty,IXMLHTTPRequest2.SetProperty, XHR_PROP_EXTENDED_ERROR, XHR_PROP_IGNORE_CERT_ERRORS, XHR_PROP_NO_AUTH, XHR_PROP_NO_CACHE, XHR_PROP_NO_CRED_PROMPT, XHR_PROP_NO_DEFAULT_HEADERS, XHR_PROP_QUERY_STRING_UTF8, XHR_PROP_REPORT_REDIRECT_STATUS, XHR_PROP_TIMEOUT, ixhr2.ixmlhttprequest2_setproperty, msxml6/IXMLHTTPRequest2::SetProperty
+ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetProperty method, IXMLHTTPRequest2.SetProperty, IXMLHTTPRequest2::SetProperty, SetProperty, SetProperty method [XMLHttpRequest2], SetProperty method [XMLHttpRequest2],IXMLHTTPRequest2 interface, XHR_PROP_EXTENDED_ERROR, XHR_PROP_IGNORE_CERT_ERRORS, XHR_PROP_NO_AUTH, XHR_PROP_NO_CACHE, XHR_PROP_NO_CRED_PROMPT, XHR_PROP_NO_DEFAULT_HEADERS, XHR_PROP_QUERY_STRING_UTF8, XHR_PROP_REPORT_REDIRECT_STATUS, XHR_PROP_TIMEOUT, ixhr2.ixmlhttprequest2_setproperty, msxml6/IXMLHTTPRequest2::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest2::SetProperty method
+# IXMLHTTPRequest2::SetProperty
 
 
 ## -description

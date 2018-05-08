@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 76a29d81-33c2-489f-a71d-2e85ba2617bf
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemEventProviderQuerySink, IWbemEventProviderQuerySink interface [Windows Management Instrumentation], IWbemEventProviderQuerySink interface [Windows Management Instrumentation], described, _hmm_iwbemeventproviderquerysink, wbemprov/IWbemEventProviderQuerySink, wmi.iwbemeventproviderquerysink
+ms.keywords: IWbemEventProviderQuerySink, IWbemEventProviderQuerySink interface [Windows Management Instrumentation], IWbemEventProviderQuerySink interface [Windows Management Instrumentation],described, _hmm_iwbemeventproviderquerysink, wbemprov/IWbemEventProviderQuerySink, wmi.iwbemeventproviderquerysink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

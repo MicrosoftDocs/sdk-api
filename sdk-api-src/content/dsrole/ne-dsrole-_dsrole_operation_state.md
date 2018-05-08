@@ -7,7 +7,7 @@ old-location: ad\dsrole_operation_state.htm
 old-project: AD
 ms.assetid: de294893-e78a-4b51-9a48-0c71f91b6fde
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DSROLE_OPERATION_STATE, DSROLE_OPERATION_STATE enumeration [Active Directory], DsRoleOperationActive, DsRoleOperationIdle, DsRoleOperationNeedReboot, _DSROLE_OPERATION_STATE, ad.dsrole_operation_state, dsrole/DSROLE_OPERATION_STATE, dsrole/DsRoleOperationActive, dsrole/DsRoleOperationIdle, dsrole/DsRoleOperationNeedReboot
 ms.prod: windows-hardware
 ms.technology: windows-devices

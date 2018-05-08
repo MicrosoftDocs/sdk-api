@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_IncludeApis
-title: IApiTracingDataCollector::get_IncludeApis method
+title: IApiTracingDataCollector::get_IncludeApis
 author: windows-driver-content
 description: Retrieves or sets the list of functions to include in the trace.
 old-location: pla\iapitracingdatacollector_includeapis.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: eca2b220-5316-4f8b-a1f2-808a8d10b43e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IApiTracingDataCollector, IApiTracingDataCollector interface [PLA], IncludeApis property, IApiTracingDataCollector.IncludeApis, IApiTracingDataCollector::get_IncludeApis, IApiTracingDataCollector::put_IncludeApis, IncludeApis property [PLA], IncludeApis property [PLA], IApiTracingDataCollector interface, base.iapitracingdatacollector_includeapis, get_IncludeApis,IApiTracingDataCollector.get_IncludeApis, pla.iapitracingdatacollector_includeapis, pla/IApiTracingDataCollector::IncludeApis, pla/IApiTracingDataCollector::get_IncludeApis, pla/IApiTracingDataCollector::put_IncludeApis
+ms.keywords: IApiTracingDataCollector interface [PLA],IncludeApis property, IApiTracingDataCollector.IncludeApis, IApiTracingDataCollector.get_IncludeApis, IApiTracingDataCollector::IncludeApis, IApiTracingDataCollector::get_IncludeApis, IApiTracingDataCollector::put_IncludeApis, IncludeApis property [PLA], IncludeApis property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_includeapis, get_IncludeApis, pla.iapitracingdatacollector_includeapis, pla/IApiTracingDataCollector::IncludeApis, pla/IApiTracingDataCollector::get_IncludeApis, pla/IApiTracingDataCollector::put_IncludeApis
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IApiTracingDataCollector::get_IncludeApis method
+# IApiTracingDataCollector::get_IncludeApis
 
 
 ## -description

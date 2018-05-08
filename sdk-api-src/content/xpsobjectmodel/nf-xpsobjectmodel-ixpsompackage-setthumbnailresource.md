@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetThumbnailResource
-title: IXpsOMPackage::SetThumbnailResource method
+title: IXpsOMPackage::SetThumbnailResource
 author: windows-driver-content
 description: Sets the thumbnail image of the XPS document.
 old-location: xps\ixpsompackage_setthumbnailresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1d5d5332-f6e1-4fad-8b45-c518196c17d2
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], SetThumbnailResource method, IXpsOMPackage::SetThumbnailResource, SetThumbnailResource method [XPS Documents and Packaging], SetThumbnailResource method [XPS Documents and Packaging], IXpsOMPackage interface, SetThumbnailResource,IXpsOMPackage.SetThumbnailResource, xps.ixpsompackage_setthumbnailresource, xpsobjectmodel/IXpsOMPackage::SetThumbnailResource
+ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetThumbnailResource method, IXpsOMPackage.SetThumbnailResource, IXpsOMPackage::SetThumbnailResource, SetThumbnailResource, SetThumbnailResource method [XPS Documents and Packaging], SetThumbnailResource method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setthumbnailresource, xpsobjectmodel/IXpsOMPackage::SetThumbnailResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPackage::SetThumbnailResource method
+# IXpsOMPackage::SetThumbnailResource
 
 
 ## -description

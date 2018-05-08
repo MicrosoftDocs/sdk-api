@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: d2bfe2f2-423e-4620-8933-bbae4f98c62a
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyFriendlyName, ICertPropertyFriendlyName interface [Security], ICertPropertyFriendlyName interface [Security], described, certenroll/ICertPropertyFriendlyName, security.icertpropertyfriendlyname
+ms.keywords: ICertPropertyFriendlyName, ICertPropertyFriendlyName interface [Security], ICertPropertyFriendlyName interface [Security],described, certenroll/ICertPropertyFriendlyName, security.icertpropertyfriendlyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

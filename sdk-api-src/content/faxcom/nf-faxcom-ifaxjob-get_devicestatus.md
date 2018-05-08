@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_DeviceStatus
-title: IFaxJob::get_DeviceStatus method
+title: IFaxJob::get_DeviceStatus
 author: windows-driver-content
 description: The DeviceStatus property is a null-terminated string that describes the status of the port associated with the fax job.
 old-location: fax\_mfax_ifaxjob_get_devicestatus_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1dwz.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Aborting, Answered, Available, Bad Address, Busy, Call Blacklisted, Call Delayed, Completed, DeviceStatus property [Fax Service], DeviceStatus property [Fax Service], FaxJob object, Dialing, Disconnected, Fatal Error, FaxJob object [Fax Service], DeviceStatus property, Handled, IFaxJob, IFaxJob::get_DeviceStatus, Initializing, No Answer, No Dial Tone, Not a Fax Call, Offline, Receiving, Ringing, Routing, Sending, Unavailable, _mfax_ifaxjob_get_devicestatus, fax._mfax_ifaxjob_get_devicestatus, fax._mfax_ifaxjob_get_devicestatus_vb, get_DeviceStatus,IFaxJob.get_DeviceStatus
+ms.keywords: Aborting, Answered, Available, Bad Address, Busy, Call Blacklisted, Call Delayed, Completed, DeviceStatus property [Fax Service], DeviceStatus property [Fax Service],FaxJob object, Dialing, Disconnected, Fatal Error, FaxJob object [Fax Service],DeviceStatus property, FaxJob.DeviceStatus, Handled, IFaxJob.get_DeviceStatus, IFaxJob::get_DeviceStatus, Initializing, No Answer, No Dial Tone, Not a Fax Call, Offline, Receiving, Ringing, Routing, Sending, Unavailable, _mfax_ifaxjob_get_devicestatus, fax._mfax_ifaxjob_get_devicestatus, fax._mfax_ifaxjob_get_devicestatus_vb, get_DeviceStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxJob::get_DeviceStatus method
+# IFaxJob::get_DeviceStatus
 
 
 ## -description

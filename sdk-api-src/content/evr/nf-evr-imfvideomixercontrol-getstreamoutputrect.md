@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.GetStreamOutputRect
-title: IMFVideoMixerControl::GetStreamOutputRect method
+title: IMFVideoMixerControl::GetStreamOutputRect
 author: windows-driver-content
 description: Retrieves the position of a video stream within the composition rectangle.
 old-location: mf\imfvideomixercontrol_getstreamoutputrect.htm
 old-project: medfound
 ms.assetid: 6de631cd-f85e-4f53-b14c-8ca3cd65b719
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 6de631cd-f85e-4f53-b14c-8ca3cd65b719, GetStreamOutputRect method [Media Foundation], GetStreamOutputRect method [Media Foundation], IMFVideoMixerControl interface, GetStreamOutputRect,IMFVideoMixerControl.GetStreamOutputRect, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], GetStreamOutputRect method, IMFVideoMixerControl::GetStreamOutputRect, evr/IMFVideoMixerControl::GetStreamOutputRect, mf.imfvideomixercontrol_getstreamoutputrect
+ms.date: 5/3/2018
+ms.keywords: 6de631cd-f85e-4f53-b14c-8ca3cd65b719, GetStreamOutputRect, GetStreamOutputRect method [Media Foundation], GetStreamOutputRect method [Media Foundation],IMFVideoMixerControl interface, IMFVideoMixerControl interface [Media Foundation],GetStreamOutputRect method, IMFVideoMixerControl.GetStreamOutputRect, IMFVideoMixerControl::GetStreamOutputRect, evr/IMFVideoMixerControl::GetStreamOutputRect, mf.imfvideomixercontrol_getstreamoutputrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoMixerControl::GetStreamOutputRect method
+# IMFVideoMixerControl::GetStreamOutputRect
 
 
 ## -description

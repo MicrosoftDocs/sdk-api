@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.IOptionDescription.get_Id
-title: IOptionDescription::get_Id method
+title: IOptionDescription::get_Id
 author: windows-driver-content
 description: Gets the identifier of the spell checker option.
 old-location: intl\ioptiondescription_id.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 09dba873-4302-46ee-9de0-cd480a424144
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOptionDescription, IOptionDescription interface [Internationalization for Windows Applications], Id property, IOptionDescription.Id, IOptionDescription::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications], IOptionDescription interface, get_Id,IOptionDescription.get_Id, intl.ioptiondescription_id, spellcheck/IOptionDescription::Id, spellcheck/IOptionDescription::get_Id
+ms.keywords: IOptionDescription interface [Internationalization for Windows Applications],Id property, IOptionDescription.Id, IOptionDescription.get_Id, IOptionDescription::Id, IOptionDescription::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],IOptionDescription interface, get_Id, intl.ioptiondescription_id, spellcheck/IOptionDescription::Id, spellcheck/IOptionDescription::get_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IOptionDescription::get_Id method
+# IOptionDescription::get_Id
 
 
 ## -description

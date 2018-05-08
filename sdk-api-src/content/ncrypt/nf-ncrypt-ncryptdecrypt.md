@@ -7,7 +7,7 @@ old-location: security\ncryptdecrypt_func.htm
 old-project: SecCNG
 ms.assetid: 02c309bc-8c94-4c0f-901f-e024c83c824a
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NCRYPT_NO_PADDING_FLAG, NCRYPT_PAD_OAEP_FLAG, NCRYPT_PAD_PKCS1_FLAG, NCRYPT_SILENT_FLAG, NCryptDecrypt, NCryptDecrypt function [Security], ncrypt/NCryptDecrypt, security.ncryptdecrypt_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

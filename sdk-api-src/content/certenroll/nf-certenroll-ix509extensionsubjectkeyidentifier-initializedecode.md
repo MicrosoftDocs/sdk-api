@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionSubjectKeyIdentifier.InitializeDecode
-title: IX509ExtensionSubjectKeyIdentifier::InitializeDecode method
+title: IX509ExtensionSubjectKeyIdentifier::InitializeDecode
 author: windows-driver-content
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 old-location: security\ix509extensionsubjectkeyidentifier_initializedecode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 5886187d-33b1-4151-a01f-de263c41c27b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionSubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier interface [Security], InitializeDecode method, IX509ExtensionSubjectKeyIdentifier::InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security], IX509ExtensionSubjectKeyIdentifier interface, InitializeDecode,IX509ExtensionSubjectKeyIdentifier.InitializeDecode, certenroll/IX509ExtensionSubjectKeyIdentifier::InitializeDecode, security.ix509extensionsubjectkeyidentifier_initializedecode_method
+ms.keywords: IX509ExtensionSubjectKeyIdentifier interface [Security],InitializeDecode method, IX509ExtensionSubjectKeyIdentifier.InitializeDecode, IX509ExtensionSubjectKeyIdentifier::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionSubjectKeyIdentifier interface, certenroll/IX509ExtensionSubjectKeyIdentifier::InitializeDecode, security.ix509extensionsubjectkeyidentifier_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionSubjectKeyIdentifier::InitializeDecode method
+# IX509ExtensionSubjectKeyIdentifier::InitializeDecode
 
 
 ## -description

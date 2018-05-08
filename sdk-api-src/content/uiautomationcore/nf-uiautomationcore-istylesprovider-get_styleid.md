@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_StyleId
-title: IStylesProvider::get_StyleId method
+title: IStylesProvider::get_StyleId
 author: windows-driver-content
 description: Identifies the visual style of an element in a document.
 old-location: winauto\uiauto_istylesprovider_styleid.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: EFFEC853-595C-4304-8EDF-BA80EA8FEC5B
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IStylesProvider, IStylesProvider interface [Windows Accessibility], StyleId property, IStylesProvider.StyleId, IStylesProvider::get_StyleId, StyleId property [Windows Accessibility], StyleId property [Windows Accessibility], IStylesProvider interface, get_StyleId,IStylesProvider.get_StyleId, uiautomationcore/IStylesProvider::StyleId, uiautomationcore/IStylesProvider::get_StyleId, winauto.uiauto_istylesprovider_styleid
+ms.keywords: IStylesProvider interface [Windows Accessibility],StyleId property, IStylesProvider.StyleId, IStylesProvider.get_StyleId, IStylesProvider::StyleId, IStylesProvider::get_StyleId, StyleId property [Windows Accessibility], StyleId property [Windows Accessibility],IStylesProvider interface, get_StyleId, uiautomationcore/IStylesProvider::StyleId, uiautomationcore/IStylesProvider::get_StyleId, winauto.uiauto_istylesprovider_styleid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IStylesProvider::get_StyleId method
+# IStylesProvider::get_StyleId
 
 
 ## -description

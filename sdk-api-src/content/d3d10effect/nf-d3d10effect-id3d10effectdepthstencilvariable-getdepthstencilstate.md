@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectDepthStencilVariable.GetDepthStencilState
-title: ID3D10EffectDepthStencilVariable::GetDepthStencilState method
+title: ID3D10EffectDepthStencilVariable::GetDepthStencilState
 author: windows-driver-content
 description: Get a pointer to a depth-stencil interface.
 old-location: direct3d10\id3d10effectdepthstencilvariable_getdepthstencilstate.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilvariable_getdepthstencilstate.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 6adcccd9-da86-da4f-0638-3ffb79b7a9de, GetDepthStencilState method [Direct3D 10], GetDepthStencilState method [Direct3D 10], ID3D10EffectDepthStencilVariable interface, GetDepthStencilState,ID3D10EffectDepthStencilVariable.GetDepthStencilState, ID3D10EffectDepthStencilVariable, ID3D10EffectDepthStencilVariable interface [Direct3D 10], GetDepthStencilState method, ID3D10EffectDepthStencilVariable::GetDepthStencilState, d3d10effect/ID3D10EffectDepthStencilVariable::GetDepthStencilState, direct3d10.id3d10effectdepthstencilvariable_getdepthstencilstate
+ms.keywords: 6adcccd9-da86-da4f-0638-3ffb79b7a9de, GetDepthStencilState, GetDepthStencilState method [Direct3D 10], GetDepthStencilState method [Direct3D 10],ID3D10EffectDepthStencilVariable interface, ID3D10EffectDepthStencilVariable interface [Direct3D 10],GetDepthStencilState method, ID3D10EffectDepthStencilVariable.GetDepthStencilState, ID3D10EffectDepthStencilVariable::GetDepthStencilState, d3d10effect/ID3D10EffectDepthStencilVariable::GetDepthStencilState, direct3d10.id3d10effectdepthstencilvariable_getdepthstencilstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectDepthStencilVariable::GetDepthStencilState method
+# ID3D10EffectDepthStencilVariable::GetDepthStencilState
 
 
 ## -description

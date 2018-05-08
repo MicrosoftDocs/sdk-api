@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.Suspend
-title: IBackgroundCopyJob::Suspend method
+title: IBackgroundCopyJob::Suspend
 author: windows-driver-content
 description: Suspends a job. New jobs, jobs that are in error, and jobs that have finished transferring files are automatically suspended.
 old-location: bits\ibackgroundcopyjob_suspend.htm
 old-project: Bits
 ms.assetid: 88429730-b8e5-4969-934c-f0945fdd46a6
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], Suspend method, IBackgroundCopyJob::Suspend, Suspend method [BITS], Suspend method [BITS], IBackgroundCopyJob interface, Suspend,IBackgroundCopyJob.Suspend, _drz_ibackgroundcopyjob_suspend, bits.ibackgroundcopyjob_suspend, bits/IBackgroundCopyJob::Suspend
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyJob interface [BITS],Suspend method, IBackgroundCopyJob.Suspend, IBackgroundCopyJob::Suspend, Suspend, Suspend method [BITS], Suspend method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_suspend, bits.ibackgroundcopyjob_suspend, bits/IBackgroundCopyJob::Suspend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::Suspend method
+# IBackgroundCopyJob::Suspend
 
 
 ## -description

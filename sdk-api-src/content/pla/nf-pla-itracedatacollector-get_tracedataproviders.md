@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_TraceDataProviders
-title: ITraceDataCollector::get_TraceDataProviders method
+title: ITraceDataCollector::get_TraceDataProviders
 author: windows-driver-content
 description: Retrieves the list of providers enabled for this trace session.
 old-location: pla\itracedatacollector_tracedataprovider.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 7a2006e8-3c4c-4441-8c9e-be9ce584dd63
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], TraceDataProviders property, ITraceDataCollector.TraceDataProviders, ITraceDataCollector::get_TraceDataProviders, TraceDataProviders property [PLA], TraceDataProviders property [PLA], ITraceDataCollector interface, base.itracedatacollector_tracedataprovider, get_TraceDataProviders,ITraceDataCollector.get_TraceDataProviders, pla.itracedatacollector_tracedataprovider, pla/ITraceDataCollector::TraceDataProviders, pla/ITraceDataCollector::get_TraceDataProviders
+ms.keywords: ITraceDataCollector interface [PLA],TraceDataProviders property, ITraceDataCollector.TraceDataProviders, ITraceDataCollector.get_TraceDataProviders, ITraceDataCollector::TraceDataProviders, ITraceDataCollector::get_TraceDataProviders, TraceDataProviders property [PLA], TraceDataProviders property [PLA],ITraceDataCollector interface, base.itracedatacollector_tracedataprovider, get_TraceDataProviders, pla.itracedatacollector_tracedataprovider, pla/ITraceDataCollector::TraceDataProviders, pla/ITraceDataCollector::get_TraceDataProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataCollector::get_TraceDataProviders method
+# ITraceDataCollector::get_TraceDataProviders
 
 
 ## -description

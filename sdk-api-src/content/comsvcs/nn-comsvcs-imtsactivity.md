@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: a45b29f0-d3f1-4593-9df5-4f6d617b93fa
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IMTSActivity, IMTSActivity interface [COM+], IMTSActivity interface [COM+], described, _cos_IMTSActivity, comsvcs/IMTSActivity, cos.imtsactivity
+ms.keywords: IMTSActivity, IMTSActivity interface [COM+], IMTSActivity interface [COM+],described, _cos_IMTSActivity, comsvcs/IMTSActivity, cos.imtsactivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

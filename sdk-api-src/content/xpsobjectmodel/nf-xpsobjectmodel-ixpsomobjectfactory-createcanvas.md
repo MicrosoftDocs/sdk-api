@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateCanvas
-title: IXpsOMObjectFactory::CreateCanvas method
+title: IXpsOMObjectFactory::CreateCanvas
 author: windows-driver-content
 description: Creates an IXpsOMCanvas interface that is used to group page elements.
 old-location: xps\ixpsomobjectfactory_createcanvas.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1ee3a80d-f6d8-45ba-8178-e3870404698a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateCanvas method [XPS Documents and Packaging], CreateCanvas method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateCanvas,IXpsOMObjectFactory.CreateCanvas, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateCanvas method, IXpsOMObjectFactory::CreateCanvas, xps.ixpsomobjectfactory_createcanvas, xpsobjectmodel/IXpsOMObjectFactory::CreateCanvas
+ms.keywords: CreateCanvas, CreateCanvas method [XPS Documents and Packaging], CreateCanvas method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateCanvas method, IXpsOMObjectFactory.CreateCanvas, IXpsOMObjectFactory::CreateCanvas, xps.ixpsomobjectfactory_createcanvas, xpsobjectmodel/IXpsOMObjectFactory::CreateCanvas
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateCanvas method
+# IXpsOMObjectFactory::CreateCanvas
 
 
 ## -description

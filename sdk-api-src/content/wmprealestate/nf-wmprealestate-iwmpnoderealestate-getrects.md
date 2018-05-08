@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPNodeRealEstate.GetRects
-title: IWMPNodeRealEstate::GetRects method
+title: IWMPNodeRealEstate::GetRects
 author: windows-driver-content
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
 old-location: wmp\iwmpnoderealestate_getrects.htm
 old-project: WMP
 ms.assetid: 2bb07fe6-67cd-46da-a012-0276e31e48c9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetRects method [Windows Media Player], GetRects method [Windows Media Player], IWMPNodeRealEstate interface, GetRects,IWMPNodeRealEstate.GetRects, IWMPNodeRealEstate, IWMPNodeRealEstate interface [Windows Media Player], GetRects method, IWMPNodeRealEstate::GetRects, IWMPNodeRealEstateGetRectsRendering, wmp.iwmpnoderealestate_getrects, wmprealestate/IWMPNodeRealEstate::GetRects
+ms.date: 5/2/2018
+ms.keywords: GetRects, GetRects method [Windows Media Player], GetRects method [Windows Media Player],IWMPNodeRealEstate interface, IWMPNodeRealEstate interface [Windows Media Player],GetRects method, IWMPNodeRealEstate.GetRects, IWMPNodeRealEstate::GetRects, IWMPNodeRealEstateGetRectsRendering, wmp.iwmpnoderealestate_getrects, wmprealestate/IWMPNodeRealEstate::GetRects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNodeRealEstate::GetRects method
+# IWMPNodeRealEstate::GetRects
 
 
 ## -description

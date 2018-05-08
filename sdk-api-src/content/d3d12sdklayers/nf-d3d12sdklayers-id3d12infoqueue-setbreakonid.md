@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.SetBreakOnID
-title: ID3D12InfoQueue::SetBreakOnID method
+title: ID3D12InfoQueue::SetBreakOnID
 author: windows-driver-content
 description: Set a message identifier to break on when a message with that identifier passes through the storage filter.
 old-location: direct3d12\id3d12infoqueue_setbreakonid.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 227ECD21-AE8F-41D1-BF56-A516F14BFCD0
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12InfoQueue, ID3D12InfoQueue interface, SetBreakOnID method, ID3D12InfoQueue::SetBreakOnID, SetBreakOnID method, SetBreakOnID method, ID3D12InfoQueue interface, SetBreakOnID,ID3D12InfoQueue.SetBreakOnID, d3d12sdklayers/ID3D12InfoQueue::SetBreakOnID, direct3d12.id3d12infoqueue_setbreakonid
+ms.keywords: ID3D12InfoQueue interface,SetBreakOnID method, ID3D12InfoQueue.SetBreakOnID, ID3D12InfoQueue::SetBreakOnID, SetBreakOnID, SetBreakOnID method, SetBreakOnID method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetBreakOnID, direct3d12.id3d12infoqueue_setbreakonid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::SetBreakOnID method
+# ID3D12InfoQueue::SetBreakOnID
 
 
 ## -description

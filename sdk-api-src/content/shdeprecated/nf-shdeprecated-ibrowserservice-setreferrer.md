@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetReferrer
-title: IBrowserService::SetReferrer method
+title: IBrowserService::SetReferrer
 author: windows-driver-content
 description: Deprecated. Sets the pointer to an item identifier list (PIDL) used for zone checking when creating a new window.
 old-location: shell\IBrowserService_SetReferrer.htm
 old-project: shell
 ms.assetid: 6458f28c-4eab-45dc-bc99-24e5f9ea3553
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], SetReferrer method, IBrowserService::SetReferrer, SetReferrer method [Windows Shell], SetReferrer method [Windows Shell], IBrowserService interface, SetReferrer,IBrowserService.SetReferrer, shdeprecated/IBrowserService::SetReferrer, shell.IBrowserService_SetReferrer, zone_IBrowserService_SetReferrer
+ms.date: 5/3/2018
+ms.keywords: IBrowserService interface [Windows Shell],SetReferrer method, IBrowserService.SetReferrer, IBrowserService::SetReferrer, SetReferrer, SetReferrer method [Windows Shell], SetReferrer method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetReferrer, shell.IBrowserService_SetReferrer, zone_IBrowserService_SetReferrer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::SetReferrer method
+# IBrowserService::SetReferrer
 
 
 ## -description

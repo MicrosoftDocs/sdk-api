@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockStart
-title: IMFClockStateSink::OnClockStart method
+title: IMFClockStateSink::OnClockStart
 author: windows-driver-content
 description: Called when the presentation clock starts.
 old-location: mf\imfclockstatesink_onclockstart.htm
 old-project: medfound
 ms.assetid: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128, IMFClockStateSink, IMFClockStateSink interface [Media Foundation], OnClockStart method, IMFClockStateSink::OnClockStart, OnClockStart method [Media Foundation], OnClockStart method [Media Foundation], IMFClockStateSink interface, OnClockStart,IMFClockStateSink.OnClockStart, mf.imfclockstatesink_onclockstart, mfidl/IMFClockStateSink::OnClockStart
+ms.date: 5/3/2018
+ms.keywords: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128, IMFClockStateSink interface [Media Foundation],OnClockStart method, IMFClockStateSink.OnClockStart, IMFClockStateSink::OnClockStart, OnClockStart, OnClockStart method [Media Foundation], OnClockStart method [Media Foundation],IMFClockStateSink interface, mf.imfclockstatesink_onclockstart, mfidl/IMFClockStateSink::OnClockStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFClockStateSink::OnClockStart method
+# IMFClockStateSink::OnClockStart
 
 
 ## -description

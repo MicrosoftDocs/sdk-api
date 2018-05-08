@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeOSVersion.InitializeDecode
-title: IX509AttributeOSVersion::InitializeDecode method
+title: IX509AttributeOSVersion::InitializeDecode
 author: windows-driver-content
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the operating system version information.
 old-location: security\ix509attributeosversioner_initializedecode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 2f13002f-bdaa-4c82-859a-da932615dd81
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509AttributeOSVersion, IX509AttributeOSVersion interface [Security], InitializeDecode method, IX509AttributeOSVersion::InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security], IX509AttributeOSVersion interface, InitializeDecode,IX509AttributeOSVersion.InitializeDecode, certenroll/IX509AttributeOSVersion::InitializeDecode, security.ix509attributeosversioner_initializedecode_method
+ms.keywords: IX509AttributeOSVersion interface [Security],InitializeDecode method, IX509AttributeOSVersion.InitializeDecode, IX509AttributeOSVersion::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeOSVersion interface, certenroll/IX509AttributeOSVersion::InitializeDecode, security.ix509attributeosversioner_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509AttributeOSVersion::InitializeDecode method
+# IX509AttributeOSVersion::InitializeDecode
 
 
 ## -description

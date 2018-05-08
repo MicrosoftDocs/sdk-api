@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll4.GetPrivateKeyArchiveCertificate
-title: IEnroll4::GetPrivateKeyArchiveCertificate method
+title: IEnroll4::GetPrivateKeyArchiveCertificate
 author: windows-driver-content
 description: The GetPrivateKeyArchiveCertificate method retrieves the certificate used to archive the private key. This method was first defined in the IEnroll4 interface.
 old-location: security\ienroll4_getprivatekeyarchivecertificate.htm
 old-project: SecCrypto
 ms.assetid: 0fdcd4ff-2dd1-4654-9901-a9824d4eddec
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetPrivateKeyArchiveCertificate method [Security], GetPrivateKeyArchiveCertificate method [Security], IEnroll4 interface, GetPrivateKeyArchiveCertificate,IEnroll4.GetPrivateKeyArchiveCertificate, IEnroll4, IEnroll4 interface [Security], GetPrivateKeyArchiveCertificate method, IEnroll4::GetPrivateKeyArchiveCertificate, security.ienroll4_getprivatekeyarchivecertificate, xenroll/IEnroll4::GetPrivateKeyArchiveCertificate
+ms.date: 4/30/2018
+ms.keywords: GetPrivateKeyArchiveCertificate, GetPrivateKeyArchiveCertificate method [Security], GetPrivateKeyArchiveCertificate method [Security],IEnroll4 interface, IEnroll4 interface [Security],GetPrivateKeyArchiveCertificate method, IEnroll4.GetPrivateKeyArchiveCertificate, IEnroll4::GetPrivateKeyArchiveCertificate, security.ienroll4_getprivatekeyarchivecertificate, xenroll/IEnroll4::GetPrivateKeyArchiveCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll4::GetPrivateKeyArchiveCertificate method
+# IEnroll4::GetPrivateKeyArchiveCertificate
 
 
 ## -description

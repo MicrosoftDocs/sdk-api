@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_CAPS.Reset
-title: IEnumWIA_DEV_CAPS::Reset method
+title: IEnumWIA_DEV_CAPS::Reset
 author: windows-driver-content
 description: The IEnumWIA_DEV_CAPS::Reset method is used by applications to restart the enumeration of device capabilities.
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_Reset.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\reset.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IEnumWIA_DEV_CAPS, IEnumWIA_DEV_CAPS interface [WIA], Reset method, IEnumWIA_DEV_CAPS::Reset, Reset method [WIA], Reset method [WIA], IEnumWIA_DEV_CAPS interface, Reset,IEnumWIA_DEV_CAPS.Reset, _wia_IEnumWIA_DEV_CAPS_Reset, wia._wia_IEnumWIA_DEV_CAPS_Reset, wia_xp/IEnumWIA_DEV_CAPS::Reset
+ms.date: 5/3/2018
+ms.keywords: IEnumWIA_DEV_CAPS interface [WIA],Reset method, IEnumWIA_DEV_CAPS.Reset, IEnumWIA_DEV_CAPS::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWIA_DEV_CAPS interface, _wia_IEnumWIA_DEV_CAPS_Reset, wia._wia_IEnumWIA_DEV_CAPS_Reset, wia_xp/IEnumWIA_DEV_CAPS::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IEnumWIA_DEV_CAPS::Reset method
+# IEnumWIA_DEV_CAPS::Reset
 
 
 ## -description

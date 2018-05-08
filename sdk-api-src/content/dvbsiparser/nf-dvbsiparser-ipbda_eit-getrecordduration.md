@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordDuration
-title: IPBDA_EIT::GetRecordDuration method
+title: IPBDA_EIT::GetRecordDuration
 author: windows-driver-content
 description: Gets the duration from an event record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecordduration.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 898e211c-3228-441d-a099-907676da4bbe
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordDuration method [Microsoft TV Technologies], GetRecordDuration method [Microsoft TV Technologies], IPBDA_EIT interface, GetRecordDuration,IPBDA_EIT.GetRecordDuration, IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], GetRecordDuration method, IPBDA_EIT::GetRecordDuration, dvbsiparser/IPBDA_EIT::GetRecordDuration, mstv.ipbda_eit_getrecordduration
+ms.keywords: GetRecordDuration, GetRecordDuration method [Microsoft TV Technologies], GetRecordDuration method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordDuration method, IPBDA_EIT.GetRecordDuration, IPBDA_EIT::GetRecordDuration, dvbsiparser/IPBDA_EIT::GetRecordDuration, mstv.ipbda_eit_getrecordduration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IPBDA_EIT::GetRecordDuration method
+# IPBDA_EIT::GetRecordDuration
 
 
 ## -description

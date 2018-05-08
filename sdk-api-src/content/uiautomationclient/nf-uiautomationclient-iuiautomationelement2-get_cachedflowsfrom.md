@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CachedFlowsFrom
-title: IUIAutomationElement2::get_CachedFlowsFrom method
+title: IUIAutomationElement2::get_CachedFlowsFrom
 author: windows-driver-content
 description: Retrieves a cached array of elements that indicate the reading order before the current element.
 old-location: winauto\uiauto_iuiautomationelement2_cachedflowsfrom.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: CC53C7CE-79D9-4158-8BE2-01B8268CB6C3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedFlowsFrom property [Windows Accessibility], CachedFlowsFrom property [Windows Accessibility], IUIAutomationElement2 interface, IUIAutomationElement2, IUIAutomationElement2 interface [Windows Accessibility], CachedFlowsFrom property, IUIAutomationElement2.CachedFlowsFrom, IUIAutomationElement2::get_CachedFlowsFrom, IUIAutomationElement2::put_CachedFlowsFrom, get_CachedFlowsFrom,IUIAutomationElement2.get_CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::get_CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::put_CachedFlowsFrom, winauto.uiauto_iuiautomationelement2_cachedflowsfrom
+ms.keywords: CachedFlowsFrom property [Windows Accessibility], CachedFlowsFrom property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CachedFlowsFrom property, IUIAutomationElement2.CachedFlowsFrom, IUIAutomationElement2.get_CachedFlowsFrom, IUIAutomationElement2::CachedFlowsFrom, IUIAutomationElement2::get_CachedFlowsFrom, IUIAutomationElement2::put_CachedFlowsFrom, get_CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::get_CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::put_CachedFlowsFrom, winauto.uiauto_iuiautomationelement2_cachedflowsfrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement2::get_CachedFlowsFrom method
+# IUIAutomationElement2::get_CachedFlowsFrom
 
 
 ## -description

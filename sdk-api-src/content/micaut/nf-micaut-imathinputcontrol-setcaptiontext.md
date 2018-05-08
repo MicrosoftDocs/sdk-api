@@ -1,14 +1,14 @@
 ---
 UID: NF:micaut.IMathInputControl.SetCaptionText
-title: IMathInputControl::SetCaptionText method
+title: IMathInputControl::SetCaptionText
 author: windows-driver-content
 description: Modifies the string that will be used as the control's caption when the window is created.
 old-location: tablet\imathinputcontrol_setcaptiontext.htm
 old-project: tablet
 ms.assetid: 8790fb9b-38df-42a4-9125-2c04d46aef0b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], SetCaptionText method, IMathInputControl::SetCaptionText, SetCaptionText method [Tablet PC], SetCaptionText method [Tablet PC], IMathInputControl interface, SetCaptionText,IMathInputControl.SetCaptionText, micaut/IMathInputControl::SetCaptionText, tablet.imathinputcontrol_setcaptiontext
+ms.date: 5/2/2018
+ms.keywords: IMathInputControl interface [Tablet PC],SetCaptionText method, IMathInputControl.SetCaptionText, IMathInputControl::SetCaptionText, SetCaptionText, SetCaptionText method [Tablet PC], SetCaptionText method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetCaptionText, tablet.imathinputcontrol_setcaptiontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMathInputControl::SetCaptionText method
+# IMathInputControl::SetCaptionText
 
 
 ## -description

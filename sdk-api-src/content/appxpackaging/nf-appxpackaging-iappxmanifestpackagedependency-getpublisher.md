@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependency.GetPublisher
-title: IAppxManifestPackageDependency::GetPublisher method
+title: IAppxManifestPackageDependency::GetPublisher
 author: windows-driver-content
 description: Gets the name of the publisher that produced the package on which the current package depends.
 old-location: appxpkg\iappxmanifestpackagedependency_getpublisher.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 0E307900-EA2F-44A4-A379-3192A234E399
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPublisher method [App packaging and management], GetPublisher method [App packaging and management], IAppxManifestPackageDependency interface, GetPublisher,IAppxManifestPackageDependency.GetPublisher, IAppxManifestPackageDependency, IAppxManifestPackageDependency interface [App packaging and management], GetPublisher method, IAppxManifestPackageDependency::GetPublisher, appxpackaging/IAppxManifestPackageDependency::GetPublisher, appxpkg.iappxmanifestpackagedependency_getpublisher
+ms.keywords: GetPublisher, GetPublisher method [App packaging and management], GetPublisher method [App packaging and management],IAppxManifestPackageDependency interface, IAppxManifestPackageDependency interface [App packaging and management],GetPublisher method, IAppxManifestPackageDependency.GetPublisher, IAppxManifestPackageDependency::GetPublisher, appxpackaging/IAppxManifestPackageDependency::GetPublisher, appxpkg.iappxmanifestpackagedependency_getpublisher
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestPackageDependency::GetPublisher method
+# IAppxManifestPackageDependency::GetPublisher
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionVariable.GetType
-title: ID3D12ShaderReflectionVariable::GetType method
+title: ID3D12ShaderReflectionVariable::GetType
 author: windows-driver-content
 description: Gets a shader-variable type.
 old-location: direct3d12\id3d12shaderreflectionvariable_gettype.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: DE2BBC9F-3519-4896-96E1-40C2E726D8A1
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetType method, GetType method, ID3D12ShaderReflectionVariable interface, GetType,ID3D12ShaderReflectionVariable.GetType, ID3D12ShaderReflectionVariable, ID3D12ShaderReflectionVariable interface, GetType method, ID3D12ShaderReflectionVariable::GetType, d3d12shader/ID3D12ShaderReflectionVariable::GetType, direct3d12.id3d12shaderreflectionvariable_gettype
+ms.keywords: GetType, GetType method, GetType method,ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface,GetType method, ID3D12ShaderReflectionVariable.GetType, ID3D12ShaderReflectionVariable::GetType, d3d12shader/ID3D12ShaderReflectionVariable::GetType, direct3d12.id3d12shaderreflectionvariable_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflectionVariable::GetType method
+# ID3D12ShaderReflectionVariable::GetType
 
 
 ## -description

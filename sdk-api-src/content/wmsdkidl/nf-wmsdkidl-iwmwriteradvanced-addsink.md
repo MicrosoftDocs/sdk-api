@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.AddSink
-title: IWMWriterAdvanced::AddSink method
+title: IWMWriterAdvanced::AddSink
 author: windows-driver-content
 description: The AddSink method adds a writer sink to receive writer output. The Windows Media Format SDK supports file sinks, which create ASF files on disk; network sinks, which stream ASF content across a network; and push sinks, which deliver ASF content to other media servers. To create a sink object, call one of the following functions:\_
 The AddSink method adds a writer sink to receive writer output. The Windows Media Format SDK supports file sinks, which create ASF files on disk; network sinks, which stream ASF content across a network; and push sinks, which deliver ASF content to other media servers. To create a sink object, call one of the following functions: New sinks must be added to the writer with this method before they can be used.
@@ -9,7 +9,7 @@ old-project: wmformat
 ms.assetid: 65763ac3-fba0-4de6-9c2e-4e241bbe5f13
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddSink method [windows Media Format], AddSink method [windows Media Format], IWMWriterAdvanced interface, AddSink,IWMWriterAdvanced.AddSink, IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], AddSink method, IWMWriterAdvanced::AddSink, IWMWriterAdvancedAddSink, wmformat.iwmwriteradvanced_addsink, wmsdkidl/IWMWriterAdvanced::AddSink
+ms.keywords: AddSink, AddSink method [windows Media Format], AddSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],AddSink method, IWMWriterAdvanced.AddSink, IWMWriterAdvanced::AddSink, IWMWriterAdvancedAddSink, wmformat.iwmwriteradvanced_addsink, wmsdkidl/IWMWriterAdvanced::AddSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterAdvanced::AddSink method
+# IWMWriterAdvanced::AddSink
 
 
 ## -description

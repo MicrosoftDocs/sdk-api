@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.SetNetworkProfile
-title: IWCNDevice::SetNetworkProfile method
+title: IWCNDevice::SetNetworkProfile
 author: windows-driver-content
 description: The IWCNDevice::SetNetworkProfile method queues an XML WLAN profile to be provisioned to the device. This method may only be called prior to IWCNDevice::Connect.
 old-location: wcn\iwcndevice_setnetworkprofile.htm
@@ -8,7 +8,7 @@ old-project: wcn
 ms.assetid: 267aa55a-005d-4db8-9569-f8ee77a15168
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWCNDevice, IWCNDevice interface [Windows Connect Now], SetNetworkProfile method, IWCNDevice::SetNetworkProfile, SetNetworkProfile method [Windows Connect Now], SetNetworkProfile method [Windows Connect Now], IWCNDevice interface, SetNetworkProfile,IWCNDevice.SetNetworkProfile, wcn.iwcndevice_setnetworkprofile, wcndevice/IWCNDevice::SetNetworkProfile
+ms.keywords: IWCNDevice interface [Windows Connect Now],SetNetworkProfile method, IWCNDevice.SetNetworkProfile, IWCNDevice::SetNetworkProfile, SetNetworkProfile, SetNetworkProfile method [Windows Connect Now], SetNetworkProfile method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_setnetworkprofile, wcndevice/IWCNDevice::SetNetworkProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWCNDevice::SetNetworkProfile method
+# IWCNDevice::SetNetworkProfile
 
 
 ## -description

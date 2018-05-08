@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceSyncStateChange
-title: IWMPEvents2::DeviceSyncStateChange method
+title: IWMPEvents2::DeviceSyncStateChange
 author: windows-driver-content
 description: The DeviceSyncStateChange event occurs when the synchronization state of a device changes.
 old-location: wmp\iwmpevents2_iwmpevents2__devicesyncstatechange.htm
 old-project: WMP
 ms.assetid: 98970d33-8035-49f9-9243-b4832df6e5c9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: DeviceSyncStateChange method [Windows Media Player], DeviceSyncStateChange method [Windows Media Player], IWMPEvents2 interface, DeviceSyncStateChange,IWMPEvents2.DeviceSyncStateChange, IWMPEvents2, IWMPEvents2 interface [Windows Media Player], DeviceSyncStateChange method, IWMPEvents2::DeviceSyncStateChange, IWMPEvents2DeviceSyncStateChange, wmp.iwmpevents2_iwmpevents2__devicesyncstatechange, wmp/IWMPEvents2::DeviceSyncStateChange
+ms.date: 5/4/2018
+ms.keywords: DeviceSyncStateChange, DeviceSyncStateChange method [Windows Media Player], DeviceSyncStateChange method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceSyncStateChange method, IWMPEvents2.DeviceSyncStateChange, IWMPEvents2::DeviceSyncStateChange, IWMPEvents2DeviceSyncStateChange, wmp.iwmpevents2_iwmpevents2__devicesyncstatechange, wmp/IWMPEvents2::DeviceSyncStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents2::DeviceSyncStateChange method
+# IWMPEvents2::DeviceSyncStateChange
 
 
 ## -description

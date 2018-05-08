@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.GetSizeMax
-title: IPersistStreamInit::GetSizeMax method
+title: IPersistStreamInit::GetSizeMax
 author: windows-driver-content
 description: Retrieves the size of the stream needed to save the object.
 old-location: com\ipersiststreaminit_getsizemax.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8413eeda-3867-4352-aefb-82579a4861f2
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetSizeMax method [COM], GetSizeMax method [COM], IPersistStreamInit interface, GetSizeMax,IPersistStreamInit.GetSizeMax, IPersistStreamInit, IPersistStreamInit interface [COM], GetSizeMax method, IPersistStreamInit::GetSizeMax, _com_ipersiststreaminit_getsizemax, com.ipersiststreaminit_getsizemax, ocidl/IPersistStreamInit::GetSizeMax
+ms.keywords: GetSizeMax, GetSizeMax method [COM], GetSizeMax method [COM],IPersistStreamInit interface, IPersistStreamInit interface [COM],GetSizeMax method, IPersistStreamInit.GetSizeMax, IPersistStreamInit::GetSizeMax, _com_ipersiststreaminit_getsizemax, com.ipersiststreaminit_getsizemax, ocidl/IPersistStreamInit::GetSizeMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistStreamInit::GetSizeMax method
+# IPersistStreamInit::GetSizeMax
 
 
 ## -description

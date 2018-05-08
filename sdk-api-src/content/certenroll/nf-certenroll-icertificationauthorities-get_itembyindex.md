@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.get_ItemByIndex
-title: ICertificationAuthorities::get_ItemByIndex method
+title: ICertificationAuthorities::get_ItemByIndex
 author: windows-driver-content
 description: Retrieves an ICertificationAuthority object from the collection by index number.
 old-location: security\icertificationauthorities_itembyindex.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: cc03b30c-0b61-4bf1-a688-c088e8420736
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertificationAuthorities, ICertificationAuthorities interface [Security], ItemByIndex property, ICertificationAuthorities.ItemByIndex, ICertificationAuthorities::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security], ICertificationAuthorities interface, certenroll/ICertificationAuthorities::ItemByIndex, certenroll/ICertificationAuthorities::get_ItemByIndex, get_ItemByIndex,ICertificationAuthorities.get_ItemByIndex, security.icertificationauthorities_itembyindex
+ms.keywords: ICertificationAuthorities interface [Security],ItemByIndex property, ICertificationAuthorities.ItemByIndex, ICertificationAuthorities.get_ItemByIndex, ICertificationAuthorities::ItemByIndex, ICertificationAuthorities::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICertificationAuthorities interface, certenroll/ICertificationAuthorities::ItemByIndex, certenroll/ICertificationAuthorities::get_ItemByIndex, get_ItemByIndex, security.icertificationauthorities_itembyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICertificationAuthorities::get_ItemByIndex method
+# ICertificationAuthorities::get_ItemByIndex
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.SetBoolVectorArray
-title: ID3D10EffectVectorVariable::SetBoolVectorArray method
+title: ID3D10EffectVectorVariable::SetBoolVectorArray
 author: windows-driver-content
 description: Set an array of four-component vectors that contain boolean data.
 old-location: direct3d10\id3d10effectvectorvariable_setboolvectorarray.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_setboolvectorarray.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10EffectVectorVariable, ID3D10EffectVectorVariable interface [Direct3D 10], SetBoolVectorArray method, ID3D10EffectVectorVariable::SetBoolVectorArray, SetBoolVectorArray method [Direct3D 10], SetBoolVectorArray method [Direct3D 10], ID3D10EffectVectorVariable interface, SetBoolVectorArray,ID3D10EffectVectorVariable.SetBoolVectorArray, d3d10effect/ID3D10EffectVectorVariable::SetBoolVectorArray, d898b40d-7046-3bfa-967a-dd167091c829, direct3d10.id3d10effectvectorvariable_setboolvectorarray
+ms.keywords: ID3D10EffectVectorVariable interface [Direct3D 10],SetBoolVectorArray method, ID3D10EffectVectorVariable.SetBoolVectorArray, ID3D10EffectVectorVariable::SetBoolVectorArray, SetBoolVectorArray, SetBoolVectorArray method [Direct3D 10], SetBoolVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, d3d10effect/ID3D10EffectVectorVariable::SetBoolVectorArray, d898b40d-7046-3bfa-967a-dd167091c829, direct3d10.id3d10effectvectorvariable_setboolvectorarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectVectorVariable::SetBoolVectorArray method
+# ID3D10EffectVectorVariable::SetBoolVectorArray
 
 
 ## -description

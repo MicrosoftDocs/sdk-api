@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.DoesSupportAnimation
-title: IWICBitmapCodecInfo::DoesSupportAnimation method
+title: IWICBitmapCodecInfo::DoesSupportAnimation
 author: windows-driver-content
 description: Retrieves a value indicating whether the codec supports animation.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportanimation.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 17635459-e067-4fdb-a801-4ad6cc622215
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: DoesSupportAnimation method [Windows Imaging Component], DoesSupportAnimation method [Windows Imaging Component], IWICBitmapCodecInfo interface, DoesSupportAnimation,IWICBitmapCodecInfo.DoesSupportAnimation, IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], DoesSupportAnimation method, IWICBitmapCodecInfo::DoesSupportAnimation, _wic_codec_iwicbitmapcodecinfo_doessupportanimation, wic._wic_codec_iwicbitmapcodecinfo_doessupportanimation, wincodec/IWICBitmapCodecInfo::DoesSupportAnimation
+ms.keywords: DoesSupportAnimation, DoesSupportAnimation method [Windows Imaging Component], DoesSupportAnimation method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],DoesSupportAnimation method, IWICBitmapCodecInfo.DoesSupportAnimation, IWICBitmapCodecInfo::DoesSupportAnimation, _wic_codec_iwicbitmapcodecinfo_doessupportanimation, wic._wic_codec_iwicbitmapcodecinfo_doessupportanimation, wincodec/IWICBitmapCodecInfo::DoesSupportAnimation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapCodecInfo::DoesSupportAnimation method
+# IWICBitmapCodecInfo::DoesSupportAnimation
 
 
 ## -description

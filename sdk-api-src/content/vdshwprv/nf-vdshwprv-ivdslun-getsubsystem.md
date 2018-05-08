@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.GetSubSystem
-title: IVdsLun::GetSubSystem method
+title: IVdsLun::GetSubSystem
 author: windows-driver-content
 description: Returns the subsystem that surfaces the LUN.
 old-location: base\ivdslun_getsubsystem.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: bd7dbe48-ad56-4304-a076-608f697620d8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSubSystem method [VDS], GetSubSystem method [VDS], IVdsLun interface, GetSubSystem,IVdsLun.GetSubSystem, IVdsLun, IVdsLun interface [VDS], GetSubSystem method, IVdsLun::GetSubSystem, base.ivdslun_getsubsystem, vds/IVdsLun::GetSubSystem, vdshwprv/IVdsLun::GetSubSystem
+ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetSubSystem method, IVdsLun.GetSubSystem, IVdsLun::GetSubSystem, base.ivdslun_getsubsystem, vds/IVdsLun::GetSubSystem, vdshwprv/IVdsLun::GetSubSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLun::GetSubSystem method
+# IVdsLun::GetSubSystem
 
 
 ## -description

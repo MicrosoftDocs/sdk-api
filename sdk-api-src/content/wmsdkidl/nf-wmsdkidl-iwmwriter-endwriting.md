@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.EndWriting
-title: IWMWriter::EndWriting method
+title: IWMWriter::EndWriting
 author: windows-driver-content
 description: The EndWriting method performs tasks required at the end of a writing session.
 old-location: wmformat\iwmwriter_endwriting.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 020e2c9d-9581-48c9-bc7b-a0e9e5a60c63
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: EndWriting method [windows Media Format], EndWriting method [windows Media Format], IWMWriter interface, EndWriting,IWMWriter.EndWriting, IWMWriter, IWMWriter interface [windows Media Format], EndWriting method, IWMWriter::EndWriting, IWMWriterEndWriting, wmformat.iwmwriter_endwriting, wmsdkidl/IWMWriter::EndWriting
+ms.keywords: EndWriting, EndWriting method [windows Media Format], EndWriting method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],EndWriting method, IWMWriter.EndWriting, IWMWriter::EndWriting, IWMWriterEndWriting, wmformat.iwmwriter_endwriting, wmsdkidl/IWMWriter::EndWriting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriter::EndWriting method
+# IWMWriter::EndWriting
 
 
 ## -description

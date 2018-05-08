@@ -7,7 +7,7 @@ old-location: winsock\nspv2clientsessionrundown.htm
 old-project: WinSock
 ms.assetid: 7379b502-129a-4dac-b7eb-e6fae8fb23f8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: LPNSPV2CLIENTSESSIONRUNDOWN, NSPv2ClientSessionRundown, NSPv2ClientSessionRundown function [Winsock], winsock.nspv2clientsessionrundown, ws2spi/NSPv2ClientSessionRundown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# LPNSPV2CLIENTSESSIONRUNDOWN callback
+# LPNSPV2CLIENTSESSIONRUNDOWN callback function
 
 
 ## -description

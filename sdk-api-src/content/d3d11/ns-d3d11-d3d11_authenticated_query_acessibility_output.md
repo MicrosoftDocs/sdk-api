@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_query_accessibility_output.htm
 old-project: medfound
 ms.assetid: 1E2EBE2C-3749-47B5-B7A8-3EAE371981DB
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT, D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT structure [Media Foundation], D3D11_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT, d3d11/D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT, mf.d3d11_authenticated_query_accessibility_output
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetUDPPortRanges
-title: IWMReaderNetworkConfig::GetUDPPortRanges method
+title: IWMReaderNetworkConfig::GetUDPPortRanges
 author: windows-driver-content
 description: The GetUDPPortRanges method retrieves the UDP port number ranges used for receiving data.
 old-location: wmformat\iwmreadernetworkconfig_getudpportranges.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a1792fd0-e9c3-4e28-9928-a615e1c9aec8
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetUDPPortRanges method [windows Media Format], GetUDPPortRanges method [windows Media Format], IWMReaderNetworkConfig interface, GetUDPPortRanges,IWMReaderNetworkConfig.GetUDPPortRanges, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetUDPPortRanges method, IWMReaderNetworkConfig::GetUDPPortRanges, IWMReaderNetworkConfigGetUDPPortRanges, wmformat.iwmreadernetworkconfig_getudpportranges, wmsdkidl/IWMReaderNetworkConfig::GetUDPPortRanges
+ms.keywords: GetUDPPortRanges, GetUDPPortRanges method [windows Media Format], GetUDPPortRanges method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetUDPPortRanges method, IWMReaderNetworkConfig.GetUDPPortRanges, IWMReaderNetworkConfig::GetUDPPortRanges, IWMReaderNetworkConfigGetUDPPortRanges, wmformat.iwmreadernetworkconfig_getudpportranges, wmsdkidl/IWMReaderNetworkConfig::GetUDPPortRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetUDPPortRanges method
+# IWMReaderNetworkConfig::GetUDPPortRanges
 
 
 ## -description

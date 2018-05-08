@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.AbandonSearch
-title: IDirectorySearch::AbandonSearch method
+title: IDirectorySearch::AbandonSearch
 author: windows-driver-content
 description: The IDirectorySearch::AbandonSearch method abandons a search initiated by an earlier call to the ExecuteSearch method.
 old-location: adsi\idirectorysearch_abandonsearch.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: cf220625-0aac-42ce-a15f-c44766693cf8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AbandonSearch method [ADSI], AbandonSearch method [ADSI], IDirectorySearch interface, AbandonSearch,IDirectorySearch.AbandonSearch, IDirectorySearch, IDirectorySearch interface [ADSI], AbandonSearch method, IDirectorySearch::AbandonSearch, _ds_idirectorysearch_abandonsearch, adsi.idirectorysearch__abandonsearch, adsi.idirectorysearch_abandonsearch, iads/IDirectorySearch::AbandonSearch
+ms.keywords: AbandonSearch, AbandonSearch method [ADSI], AbandonSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],AbandonSearch method, IDirectorySearch.AbandonSearch, IDirectorySearch::AbandonSearch, _ds_idirectorysearch_abandonsearch, adsi.idirectorysearch__abandonsearch, adsi.idirectorysearch_abandonsearch, iads/IDirectorySearch::AbandonSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDirectorySearch::AbandonSearch method
+# IDirectorySearch::AbandonSearch
 
 
 ## -description

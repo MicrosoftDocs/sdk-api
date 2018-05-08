@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITQueue.get_CurrentCallsQueued
-title: ITQueue::get_CurrentCallsQueued method
+title: ITQueue::get_CurrentCallsQueued
 author: windows-driver-content
 description: The get_CurrentCallsQueued method gets the number of incoming calls currently waiting.
 old-location: tapi3\itqueue_get_currentcallsqueued.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: cbc6e38c-c4e9-45ea-8c9a-9bb8116c1e2f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITQueue, ITQueue interface [TAPI 2.2], get_CurrentCallsQueued method, ITQueue::get_CurrentCallsQueued, _tapi3_itqueue_get_currentcallsqueued, get_CurrentCallsQueued method [TAPI 2.2], get_CurrentCallsQueued method [TAPI 2.2], ITQueue interface, get_CurrentCallsQueued,ITQueue.get_CurrentCallsQueued, tapi3.itqueue_get_currentcallsqueued, tapi3cc/ITQueue::get_CurrentCallsQueued
+ms.keywords: ITQueue interface [TAPI 2.2],get_CurrentCallsQueued method, ITQueue.get_CurrentCallsQueued, ITQueue::get_CurrentCallsQueued, _tapi3_itqueue_get_currentcallsqueued, get_CurrentCallsQueued, get_CurrentCallsQueued method [TAPI 2.2], get_CurrentCallsQueued method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_currentcallsqueued, tapi3cc/ITQueue::get_CurrentCallsQueued
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITQueue::get_CurrentCallsQueued method
+# ITQueue::get_CurrentCallsQueued
 
 
 ## -description

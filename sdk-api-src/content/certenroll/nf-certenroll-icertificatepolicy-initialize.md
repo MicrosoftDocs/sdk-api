@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificatePolicy.Initialize
-title: ICertificatePolicy::Initialize method
+title: ICertificatePolicy::Initialize
 author: windows-driver-content
 description: Initializes the object from an object identifier (OID).
 old-location: security\icertificatepolicy_initialize_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 995b344b-ed1f-47e4-a7c6-0d638ed9ec23
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertificatePolicy, ICertificatePolicy interface [Security], Initialize method, ICertificatePolicy::Initialize, Initialize method [Security], Initialize method [Security], ICertificatePolicy interface, Initialize,ICertificatePolicy.Initialize, certenroll/ICertificatePolicy::Initialize, security.icertificatepolicy_initialize_method
+ms.keywords: ICertificatePolicy interface [Security],Initialize method, ICertificatePolicy.Initialize, ICertificatePolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::Initialize, security.icertificatepolicy_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertificatePolicy::Initialize method
+# ICertificatePolicy::Initialize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.IEnumAgentHandler.Next
-title: IEnumAgentHandler::Next method
+title: IEnumAgentHandler::Next
 author: windows-driver-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumagenthandler_next.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 0e6a7db0-c339-4a36-aea8-e3f9f2d5cd09
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IEnumAgentHandler, IEnumAgentHandler interface [TAPI 2.2], Next method, IEnumAgentHandler::Next, Next method [TAPI 2.2], Next method [TAPI 2.2], IEnumAgentHandler interface, Next,IEnumAgentHandler.Next, _tapi3_ienumagenthandler_next, tapi3.ienumagenthandler_next, tapi3cc/IEnumAgentHandler::Next
+ms.keywords: IEnumAgentHandler interface [TAPI 2.2],Next method, IEnumAgentHandler.Next, IEnumAgentHandler::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAgentHandler interface, _tapi3_ienumagenthandler_next, tapi3.ienumagenthandler_next, tapi3cc/IEnumAgentHandler::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumAgentHandler::Next method
+# IEnumAgentHandler::Next
 
 
 ## -description

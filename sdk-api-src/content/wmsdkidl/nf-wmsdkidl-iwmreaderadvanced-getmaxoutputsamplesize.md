@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetMaxOutputSampleSize
-title: IWMReaderAdvanced::GetMaxOutputSampleSize method
+title: IWMReaderAdvanced::GetMaxOutputSampleSize
 author: windows-driver-content
 description: The GetMaxOutputSampleSize method retrieves the maximum buffer size to be allocated for output samples for a specified media stream.
 old-location: wmformat\iwmreaderadvanced_getmaxoutputsamplesize.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ad21ab6e-c7af-4293-8920-05db62b9f7ef
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetMaxOutputSampleSize method [windows Media Format], GetMaxOutputSampleSize method [windows Media Format], IWMReaderAdvanced interface, GetMaxOutputSampleSize,IWMReaderAdvanced.GetMaxOutputSampleSize, IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], GetMaxOutputSampleSize method, IWMReaderAdvanced::GetMaxOutputSampleSize, IWMReaderAdvancedGetMaxOutputSampleSize, wmformat.iwmreaderadvanced_getmaxoutputsamplesize, wmsdkidl/IWMReaderAdvanced::GetMaxOutputSampleSize
+ms.keywords: GetMaxOutputSampleSize, GetMaxOutputSampleSize method [windows Media Format], GetMaxOutputSampleSize method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetMaxOutputSampleSize method, IWMReaderAdvanced.GetMaxOutputSampleSize, IWMReaderAdvanced::GetMaxOutputSampleSize, IWMReaderAdvancedGetMaxOutputSampleSize, wmformat.iwmreaderadvanced_getmaxoutputsamplesize, wmsdkidl/IWMReaderAdvanced::GetMaxOutputSampleSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced::GetMaxOutputSampleSize method
+# IWMReaderAdvanced::GetMaxOutputSampleSize
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: winrt\iswapchainbackgroundpanelnative.htm
 old-project: WinRT
 ms.assetid: 77F5EB53-0DF9-4BA7-810C-9B7B073E76A7
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISwapChainBackgroundPanelNative, ISwapChainBackgroundPanelNative interface [Windows Runtime], ISwapChainBackgroundPanelNative interface [Windows Runtime], described, windows/ISwapChainBackgroundPanelNative, winrt.iswapchainbackgroundpanelnative
+ms.date: 5/4/2018
+ms.keywords: ISwapChainBackgroundPanelNative, ISwapChainBackgroundPanelNative interface [Windows Runtime], ISwapChainBackgroundPanelNative interface [Windows Runtime],described, windows/ISwapChainBackgroundPanelNative, winrt.iswapchainbackgroundpanelnative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

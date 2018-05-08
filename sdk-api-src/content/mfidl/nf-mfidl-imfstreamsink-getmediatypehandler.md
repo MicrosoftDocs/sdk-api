@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFStreamSink.GetMediaTypeHandler
-title: IMFStreamSink::GetMediaTypeHandler method
+title: IMFStreamSink::GetMediaTypeHandler
 author: windows-driver-content
 description: Retrieves the media type handler for the stream sink. You can use the media type handler to find which formats the stream supports, and to set the media type on the stream.
 old-location: mf\imfstreamsink_getmediatypehandler.htm
 old-project: medfound
 ms.assetid: 819d06b1-6b52-4496-bed8-a08b8f0b6153
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 819d06b1-6b52-4496-bed8-a08b8f0b6153, GetMediaTypeHandler method [Media Foundation], GetMediaTypeHandler method [Media Foundation], IMFStreamSink interface, GetMediaTypeHandler,IMFStreamSink.GetMediaTypeHandler, IMFStreamSink, IMFStreamSink interface [Media Foundation], GetMediaTypeHandler method, IMFStreamSink::GetMediaTypeHandler, mf.imfstreamsink_getmediatypehandler, mfidl/IMFStreamSink::GetMediaTypeHandler
+ms.date: 5/3/2018
+ms.keywords: 819d06b1-6b52-4496-bed8-a08b8f0b6153, GetMediaTypeHandler, GetMediaTypeHandler method [Media Foundation], GetMediaTypeHandler method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],GetMediaTypeHandler method, IMFStreamSink.GetMediaTypeHandler, IMFStreamSink::GetMediaTypeHandler, mf.imfstreamsink_getmediatypehandler, mfidl/IMFStreamSink::GetMediaTypeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFStreamSink::GetMediaTypeHandler method
+# IMFStreamSink::GetMediaTypeHandler
 
 
 ## -description

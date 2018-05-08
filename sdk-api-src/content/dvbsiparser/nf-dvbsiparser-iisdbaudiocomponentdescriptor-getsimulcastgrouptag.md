@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetSimulcastGroupTag
-title: IIsdbAudioComponentDescriptor::GetSimulcastGroupTag method
+title: IIsdbAudioComponentDescriptor::GetSimulcastGroupTag
 author: windows-driver-content
 description: Gets the value of the simulcast_group_tag field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. For simulcast components, this field contains the tag that identifies all simulcast components.
 old-location: mstv\iisdbaudiocomponentdescriptor_getsimulcastgrouptag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 125fa9c2-eba0-497b-82ca-cc3223e40b44
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSimulcastGroupTag method [Microsoft TV Technologies], GetSimulcastGroupTag method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetSimulcastGroupTag,IIsdbAudioComponentDescriptor.GetSimulcastGroupTag, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetSimulcastGroupTag method, IIsdbAudioComponentDescriptor::GetSimulcastGroupTag, dvbsiparser/IIsdbAudioComponentDescriptor::GetSimulcastGroupTag, mstv.iisdbaudiocomponentdescriptor_getsimulcastgrouptag
+ms.keywords: GetSimulcastGroupTag, GetSimulcastGroupTag method [Microsoft TV Technologies], GetSimulcastGroupTag method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetSimulcastGroupTag method, IIsdbAudioComponentDescriptor.GetSimulcastGroupTag, IIsdbAudioComponentDescriptor::GetSimulcastGroupTag, dvbsiparser/IIsdbAudioComponentDescriptor::GetSimulcastGroupTag, mstv.iisdbaudiocomponentdescriptor_getsimulcastgrouptag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbAudioComponentDescriptor::GetSimulcastGroupTag method
+# IIsdbAudioComponentDescriptor::GetSimulcastGroupTag
 
 
 ## -description

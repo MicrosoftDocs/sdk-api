@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.RemoveMissingDisk
-title: IVdsPack::RemoveMissingDisk method
+title: IVdsPack::RemoveMissingDisk
 author: windows-driver-content
 description: Removes a disk that is missing from the pack. This method applies to software provider objects only.
 old-location: base\ivdspack_removemissingdisk.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: f7bdd5b9-430b-49c8-8476-be15eb3948c6
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsPack, IVdsPack interface [VDS], RemoveMissingDisk method, IVdsPack::RemoveMissingDisk, RemoveMissingDisk method [VDS], RemoveMissingDisk method [VDS], IVdsPack interface, RemoveMissingDisk,IVdsPack.RemoveMissingDisk, base.ivdspack_removemissingdisk, vds/IVdsPack::RemoveMissingDisk
+ms.keywords: IVdsPack interface [VDS],RemoveMissingDisk method, IVdsPack.RemoveMissingDisk, IVdsPack::RemoveMissingDisk, RemoveMissingDisk, RemoveMissingDisk method [VDS], RemoveMissingDisk method [VDS],IVdsPack interface, base.ivdspack_removemissingdisk, vds/IVdsPack::RemoveMissingDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsPack::RemoveMissingDisk method
+# IVdsPack::RemoveMissingDisk
 
 
 ## -description

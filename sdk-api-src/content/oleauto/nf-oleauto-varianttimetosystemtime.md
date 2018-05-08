@@ -7,7 +7,7 @@ old-location: automat\varianttimetosystemtime.htm
 old-project: automat
 ms.assetid: 954eb6f3-f9f0-4586-9dd7-1632ebc6ef58
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VariantTimeToSystemTime, VariantTimeToSystemTime function [Automation], _oa96_VariantTimeToSystemTime, automat.varianttimetosystemtime, oleauto/VariantTimeToSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

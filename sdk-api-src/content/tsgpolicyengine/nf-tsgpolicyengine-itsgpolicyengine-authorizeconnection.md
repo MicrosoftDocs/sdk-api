@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.AuthorizeConnection
-title: ITSGPolicyEngine::AuthorizeConnection method
+title: ITSGPolicyEngine::AuthorizeConnection
 author: windows-driver-content
 description: Determines whether the specified connection is authorized to connect to Remote Desktop Gateway (RD Gateway).
 old-location: termserv\itsgpolicyengine_authorizeconnection.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 41a61eef-c8fe-4e08-b793-a58553f31646
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: AuthorizeConnection method [Remote Desktop Services], AuthorizeConnection method [Remote Desktop Services], ITSGPolicyEngine interface, AuthorizeConnection,ITSGPolicyEngine.AuthorizeConnection, ITSGPolicyEngine, ITSGPolicyEngine interface [Remote Desktop Services], AuthorizeConnection method, ITSGPolicyEngine::AuthorizeConnection, termserv.itsgpolicyengine_authorizeconnection, tsgpolicyengine/ITSGPolicyEngine::AuthorizeConnection
+ms.keywords: AuthorizeConnection, AuthorizeConnection method [Remote Desktop Services], AuthorizeConnection method [Remote Desktop Services],ITSGPolicyEngine interface, ITSGPolicyEngine interface [Remote Desktop Services],AuthorizeConnection method, ITSGPolicyEngine.AuthorizeConnection, ITSGPolicyEngine::AuthorizeConnection, termserv.itsgpolicyengine_authorizeconnection, tsgpolicyengine/ITSGPolicyEngine::AuthorizeConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITSGPolicyEngine::AuthorizeConnection method
+# ITSGPolicyEngine::AuthorizeConnection
 
 
 ## -description

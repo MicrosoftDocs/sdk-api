@@ -7,8 +7,8 @@ old-location: dshow\copp_statushdcpflags.htm
 old-project: DirectShow
 ms.assetid: 40ad7f00-9b4f-4c2d-8c6b-05725a072bfc
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: COPP_HDCPFlagsReserved, COPP_HDCPRepeater, COPP_StatusHDCPFlags, COPP_StatusHDCPFlags enumeration [DirectShow], COPP_StatusHDCPFlagsEnumeration, _COPP_StatusHDCPFlags, dshow.copp_statushdcpflags, dxva9typ/COPP_HDCPFlagsReserved, dxva9typ/COPP_HDCPRepeater, dxva9typ/COPP_StatusHDCPFlags
+ms.date: 4/30/2018
+ms.keywords: COPP_HDCPFlagsReserved, COPP_HDCPRepeater, COPP_StatusHDCPFlags, COPP_StatusHDCPFlags , COPP_StatusHDCPFlags enumeration [DirectShow], COPP_StatusHDCPFlagsEnumeration, _COPP_StatusHDCPFlags, dshow.copp_statushdcpflags, dxva9typ/COPP_HDCPFlagsReserved, dxva9typ/COPP_HDCPRepeater, dxva9typ/COPP_StatusHDCPFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

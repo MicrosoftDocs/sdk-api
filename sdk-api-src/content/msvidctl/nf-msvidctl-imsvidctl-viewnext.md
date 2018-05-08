@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.ViewNext
-title: IMSVidCtl::ViewNext method
+title: IMSVidCtl::ViewNext
 author: windows-driver-content
 description: The ViewNext method finds another input device to view the specified tune request.
 old-location: mstv\imsvidctl_viewnext.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 23b83339-f712-4b49-91f9-d0a1b02d64af
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], ViewNext method, IMSVidCtl::ViewNext, IMSVidCtlViewNext, ViewNext method [Microsoft TV Technologies], ViewNext method [Microsoft TV Technologies], IMSVidCtl interface, ViewNext,IMSVidCtl.ViewNext, mstv.imsvidctl_viewnext, msvidctl/IMSVidCtl::ViewNext
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],ViewNext method, IMSVidCtl.ViewNext, IMSVidCtl::ViewNext, IMSVidCtlViewNext, ViewNext, ViewNext method [Microsoft TV Technologies], ViewNext method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_viewnext, msvidctl/IMSVidCtl::ViewNext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::ViewNext method
+# IMSVidCtl::ViewNext
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: tablet\inkpicturesizemode.htm
 old-project: tablet
 ms.assetid: e24c38b4-b25f-4d0e-88f5-f56f5dc6be1a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/2/2018
 ms.keywords: IPSM_AutoSize, IPSM_CenterImage, IPSM_Normal, IPSM_StretchImage, InkPictureSizeMode, InkPictureSizeMode enumeration [Tablet PC], e24c38b4-b25f-4d0e-88f5-f56f5dc6be1a, msinkaut/IPSM_AutoSize, msinkaut/IPSM_CenterImage, msinkaut/IPSM_Normal, msinkaut/IPSM_StretchImage, msinkaut/InkPictureSizeMode, tablet.inkpicturesizemode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspace.StartRemoteApplication
-title: IWorkspace::StartRemoteApplication method
+title: IWorkspace::StartRemoteApplication
 author: windows-driver-content
 description: Starts a RemoteApp program.
 old-location: termserv\iworkspace_startremoteapplication.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: a1d7e0c2-90bc-49c9-b7d5-380e13af4bba
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWorkspace, IWorkspace interface [Remote Desktop Services], StartRemoteApplication method, IWorkspace2 interface [Remote Desktop Services], StartRemoteApplication method, IWorkspace2::StartRemoteApplication, IWorkspace3 interface [Remote Desktop Services], StartRemoteApplication method, IWorkspace3::StartRemoteApplication, IWorkspace::StartRemoteApplication, StartRemoteApplication method [Remote Desktop Services], StartRemoteApplication method [Remote Desktop Services], IWorkspace interface, StartRemoteApplication method [Remote Desktop Services], IWorkspace2 interface, StartRemoteApplication method [Remote Desktop Services], IWorkspace3 interface, StartRemoteApplication method [Remote Desktop Services], Workspace object, StartRemoteApplication,IWorkspace.StartRemoteApplication, Workspace object [Remote Desktop Services], StartRemoteApplication method, termserv.iworkspace_startremoteapplication, workspaceruntime/IWorkspace2::StartRemoteApplication, workspaceruntime/IWorkspace3::StartRemoteApplication, workspaceruntime/IWorkspace::StartRemoteApplication
+ms.keywords: IWorkspace interface [Remote Desktop Services],StartRemoteApplication method, IWorkspace.StartRemoteApplication, IWorkspace2 interface [Remote Desktop Services],StartRemoteApplication method, IWorkspace2::StartRemoteApplication, IWorkspace3 interface [Remote Desktop Services],StartRemoteApplication method, IWorkspace3::StartRemoteApplication, IWorkspace::StartRemoteApplication, StartRemoteApplication, StartRemoteApplication method [Remote Desktop Services], StartRemoteApplication method [Remote Desktop Services],IWorkspace interface, StartRemoteApplication method [Remote Desktop Services],IWorkspace2 interface, StartRemoteApplication method [Remote Desktop Services],IWorkspace3 interface, StartRemoteApplication method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],StartRemoteApplication method, termserv.iworkspace_startremoteapplication, workspaceruntime/IWorkspace2::StartRemoteApplication, workspaceruntime/IWorkspace3::StartRemoteApplication, workspaceruntime/IWorkspace::StartRemoteApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWorkspace::StartRemoteApplication method
+# IWorkspace::StartRemoteApplication
 
 
 ## -description

@@ -79,6 +79,13 @@ A pointer to an
 User-displayable information for the certificate.  This is usually the user's common name and universal principal name (UPN).
 
 
+### -field lpDisplayInformation.string
+
+ 
+
+
+
+
 ## -see-also
 
 

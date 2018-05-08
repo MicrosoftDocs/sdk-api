@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEventingStatus.SubscriptionEnded
-title: IWSDEventingStatus::SubscriptionEnded method
+title: IWSDEventingStatus::SubscriptionEnded
 author: windows-driver-content
 description: Called when the device terminated the subscription.
 old-location: ncd\iwsdeventingstatus_subscriptionended.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 4ccb16ed-d7c6-4242-ae53-9e58cecc475b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDEventingStatus, IWSDEventingStatus interface, SubscriptionEnded method, IWSDEventingStatus::SubscriptionEnded, SubscriptionEnded method, SubscriptionEnded method, IWSDEventingStatus interface, SubscriptionEnded,IWSDEventingStatus.SubscriptionEnded, ncd.iwsdeventingstatus_subscriptionended, wsdclient/IWSDEventingStatus::SubscriptionEnded
+ms.keywords: IWSDEventingStatus interface,SubscriptionEnded method, IWSDEventingStatus.SubscriptionEnded, IWSDEventingStatus::SubscriptionEnded, SubscriptionEnded, SubscriptionEnded method, SubscriptionEnded method,IWSDEventingStatus interface, ncd.iwsdeventingstatus_subscriptionended, wsdclient/IWSDEventingStatus::SubscriptionEnded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDEventingStatus::SubscriptionEnded method
+# IWSDEventingStatus::SubscriptionEnded
 
 
 ## -description

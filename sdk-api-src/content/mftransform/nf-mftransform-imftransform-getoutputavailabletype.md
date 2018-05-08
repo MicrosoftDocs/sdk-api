@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputAvailableType
-title: IMFTransform::GetOutputAvailableType method
+title: IMFTransform::GetOutputAvailableType
 author: windows-driver-content
 description: Gets an available media type for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getoutputavailabletype.htm
 old-project: medfound
 ms.assetid: d0f75414-18cf-4e76-b875-5f373510c87b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetOutputAvailableType method [Media Foundation], GetOutputAvailableType method [Media Foundation], IMFTransform interface, GetOutputAvailableType,IMFTransform.GetOutputAvailableType, IMFTransform, IMFTransform interface [Media Foundation], GetOutputAvailableType method, IMFTransform::GetOutputAvailableType, d0f75414-18cf-4e76-b875-5f373510c87b, mf.imftransform_getoutputavailabletype, mftransform/IMFTransform::GetOutputAvailableType
+ms.date: 5/3/2018
+ms.keywords: GetOutputAvailableType, GetOutputAvailableType method [Media Foundation], GetOutputAvailableType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputAvailableType method, IMFTransform.GetOutputAvailableType, IMFTransform::GetOutputAvailableType, d0f75414-18cf-4e76-b875-5f373510c87b, mf.imftransform_getoutputavailabletype, mftransform/IMFTransform::GetOutputAvailableType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::GetOutputAvailableType method
+# IMFTransform::GetOutputAvailableType
 
 
 ## -description

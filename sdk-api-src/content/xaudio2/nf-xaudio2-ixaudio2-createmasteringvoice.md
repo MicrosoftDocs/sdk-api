@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.CreateMasteringVoice
-title: IXAudio2::CreateMasteringVoice method
+title: IXAudio2::CreateMasteringVoice
 author: windows-driver-content
 description: Creates and configures a mastering voice.
 old-location: xaudio2\ixaudio2_interface_createmasteringvoice.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateMasteringVoice(IXAudio2MasteringVoice@,UINT32,UINT32,UINT32,LPCWSTR,const XAUDIO2_EFFECT_CHAIN,AUDIO_STREAM_CATEGORY)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CreateMasteringVoice method [XAudio2 Audio Mixing APIs], CreateMasteringVoice method [XAudio2 Audio Mixing APIs], IXAudio2 interface, CreateMasteringVoice,IXAudio2.CreateMasteringVoice, IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], CreateMasteringVoice method, IXAudio2::CreateMasteringVoice, xaudio2.ixaudio2_interface_createmasteringvoice, xaudio2/IXAudio2::CreateMasteringVoice
+ms.keywords: CreateMasteringVoice, CreateMasteringVoice method [XAudio2 Audio Mixing APIs], CreateMasteringVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateMasteringVoice method, IXAudio2.CreateMasteringVoice, IXAudio2::CreateMasteringVoice, xaudio2.ixaudio2_interface_createmasteringvoice, xaudio2/IXAudio2::CreateMasteringVoice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2::CreateMasteringVoice method
+# IXAudio2::CreateMasteringVoice
 
 
 ## -description

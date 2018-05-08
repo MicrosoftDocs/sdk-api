@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_AssessmentState
-title: IProvideWinSATResultsInfo::get_AssessmentState method
+title: IProvideWinSATResultsInfo::get_AssessmentState
 author: windows-driver-content
 description: Retrieves the state of the assessment.
 old-location: winsat\iprovidewinsatresultsinfo_assessmentstate.htm
@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: 57a373f9-47b0-48cc-8517-cba87367c64e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AssessmentState property [WinSAT], AssessmentState property [WinSAT], IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [WinSAT], AssessmentState property, IProvideWinSATResultsInfo.AssessmentState, IProvideWinSATResultsInfo::get_AssessmentState, get_AssessmentState,IProvideWinSATResultsInfo.get_AssessmentState, winsat.iprovidewinsatresultsinfo_assessmentstate, winsatcominterfacei/IProvideWinSATResultsInfo::AssessmentState, winsatcominterfacei/IProvideWinSATResultsInfo::get_AssessmentState
+ms.keywords: AssessmentState property [WinSAT], AssessmentState property [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],AssessmentState property, IProvideWinSATResultsInfo.AssessmentState, IProvideWinSATResultsInfo.get_AssessmentState, IProvideWinSATResultsInfo::AssessmentState, IProvideWinSATResultsInfo::get_AssessmentState, get_AssessmentState, winsat.iprovidewinsatresultsinfo_assessmentstate, winsatcominterfacei/IProvideWinSATResultsInfo::AssessmentState, winsatcominterfacei/IProvideWinSATResultsInfo::get_AssessmentState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IProvideWinSATResultsInfo::get_AssessmentState method
+# IProvideWinSATResultsInfo::get_AssessmentState
 
 
 ## -description

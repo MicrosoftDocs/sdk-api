@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.GetInitiatorAdapter
-title: IVdsIscsiInitiatorPortal::GetInitiatorAdapter method
+title: IVdsIscsiInitiatorPortal::GetInitiatorAdapter
 author: windows-driver-content
 description: Returns the initiator adapter to which the initiator portal belongs.
 old-location: base\ivdsiscsiinitiatorportal_getinitiatoradapter.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: fcdd2083-36e0-4924-9af0-87a9fe4711e0
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetInitiatorAdapter method [VDS], GetInitiatorAdapter method [VDS], IVdsIscsiInitiatorPortal interface, GetInitiatorAdapter,IVdsIscsiInitiatorPortal.GetInitiatorAdapter, IVdsIscsiInitiatorPortal, IVdsIscsiInitiatorPortal interface [VDS], GetInitiatorAdapter method, IVdsIscsiInitiatorPortal::GetInitiatorAdapter, base.ivdsiscsiinitiatorportal_getinitiatoradapter, vds/IVdsIscsiInitiatorPortal::GetInitiatorAdapter
+ms.keywords: GetInitiatorAdapter, GetInitiatorAdapter method [VDS], GetInitiatorAdapter method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetInitiatorAdapter method, IVdsIscsiInitiatorPortal.GetInitiatorAdapter, IVdsIscsiInitiatorPortal::GetInitiatorAdapter, base.ivdsiscsiinitiatorportal_getinitiatoradapter, vds/IVdsIscsiInitiatorPortal::GetInitiatorAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsIscsiInitiatorPortal::GetInitiatorAdapter method
+# IVdsIscsiInitiatorPortal::GetInitiatorAdapter
 
 
 ## -description

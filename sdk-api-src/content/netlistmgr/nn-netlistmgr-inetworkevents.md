@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 75cc6efb-dd1b-40b6-84fe-5ba7c244cd72
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetworkEvents, INetworkEvents interface [Network Awareness], INetworkEvents interface [Network Awareness], described, netlistmgr/INetworkEvents, nla.inetworkevents
+ms.keywords: INetworkEvents, INetworkEvents interface [Network Awareness], INetworkEvents interface [Network Awareness],described, netlistmgr/INetworkEvents, nla.inetworkevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

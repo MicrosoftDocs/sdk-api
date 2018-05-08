@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.CreateSettingByPath
-title: ISettingsItem::CreateSettingByPath method
+title: ISettingsItem::CreateSettingByPath
 author: windows-driver-content
 description: Creates a setting object specified by the path.
 old-location: smi\isettingsitem_createsettingbypath.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 8b51329e-dc81-46dc-b174-0191e2eea44a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateSettingByPath method [SMI], CreateSettingByPath method [SMI], ISettingsItem interface, CreateSettingByPath,ISettingsItem.CreateSettingByPath, ISettingsItem, ISettingsItem interface [SMI], CreateSettingByPath method, ISettingsItem::CreateSettingByPath, smi.isettingsitem_createsettingbypath, wcmconfig/ISettingsItem::CreateSettingByPath
+ms.keywords: CreateSettingByPath, CreateSettingByPath method [SMI], CreateSettingByPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],CreateSettingByPath method, ISettingsItem.CreateSettingByPath, ISettingsItem::CreateSettingByPath, smi.isettingsitem_createsettingbypath, wcmconfig/ISettingsItem::CreateSettingByPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsItem::CreateSettingByPath method
+# ISettingsItem::CreateSettingByPath
 
 
 ## -description

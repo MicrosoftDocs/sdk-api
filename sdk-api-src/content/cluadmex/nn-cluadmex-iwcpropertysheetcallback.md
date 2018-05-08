@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: f90f9eb3-5568-4db1-8ff8-fda2d3bea952
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWCPropertySheetCallback, IWCPropertySheetCallback interface [Failover Cluster], IWCPropertySheetCallback interface [Failover Cluster], described, _wolf_iwcpropertysheetcallback, cluadmex/IWCPropertySheetCallback, mscs.iwcpropertysheetcallback
+ms.keywords: IWCPropertySheetCallback, IWCPropertySheetCallback interface [Failover Cluster], IWCPropertySheetCallback interface [Failover Cluster],described, _wolf_iwcpropertysheetcallback, cluadmex/IWCPropertySheetCallback, mscs.iwcpropertysheetcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

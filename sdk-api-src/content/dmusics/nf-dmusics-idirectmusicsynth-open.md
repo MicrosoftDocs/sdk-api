@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Open
-title: IDirectMusicSynth::Open method
+title: IDirectMusicSynth::Open
 author: windows-driver-content
 description: The Open method opens a DirectMusic synthesizer &#0034;port&#0034;.
 old-location: audio\idirectmusicsynth_open.htm
 old-project: audio
 ms.assetid: 15a16b27-7693-4fc6-80ae-e8aedcf879d0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IDirectMusicSynth, IDirectMusicSynth interface [Audio Devices], Open method, IDirectMusicSynth::Open, Open method [Audio Devices], Open method [Audio Devices], IDirectMusicSynth interface, Open,IDirectMusicSynth.Open, audio.idirectmusicsynth_open, audmp-routines_5bb9c701-4377-42fb-91ac-733952708a38.xml, dmusics/IDirectMusicSynth::Open
+ms.date: 5/1/2018
+ms.keywords: IDirectMusicSynth interface [Audio Devices],Open method, IDirectMusicSynth.Open, IDirectMusicSynth::Open, Open, Open method [Audio Devices], Open method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_open, audmp-routines_5bb9c701-4377-42fb-91ac-733952708a38.xml, dmusics/IDirectMusicSynth::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectMusicSynth::Open method
+# IDirectMusicSynth::Open
 
 
 ## -description

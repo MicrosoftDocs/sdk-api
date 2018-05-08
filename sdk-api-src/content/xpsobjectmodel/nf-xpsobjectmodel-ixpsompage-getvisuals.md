@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetVisuals
-title: IXpsOMPage::GetVisuals method
+title: IXpsOMPage::GetVisuals
 author: windows-driver-content
 description: Gets a pointer to an IXpsOMVisualCollection interface that contains a collection of the page's visual objects.
 old-location: xps\ixpsompage_getvisuals.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 8181513f-2a5d-4b43-aa40-7f886a8af7f7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetVisuals method [XPS Documents and Packaging], GetVisuals method [XPS Documents and Packaging], IXpsOMPage interface, GetVisuals,IXpsOMPage.GetVisuals, IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], GetVisuals method, IXpsOMPage::GetVisuals, xps.ixpsompage_getvisuals, xpsobjectmodel/IXpsOMPage::GetVisuals
+ms.keywords: GetVisuals, GetVisuals method [XPS Documents and Packaging], GetVisuals method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetVisuals method, IXpsOMPage.GetVisuals, IXpsOMPage::GetVisuals, xps.ixpsompage_getvisuals, xpsobjectmodel/IXpsOMPage::GetVisuals
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::GetVisuals method
+# IXpsOMPage::GetVisuals
 
 
 ## -description

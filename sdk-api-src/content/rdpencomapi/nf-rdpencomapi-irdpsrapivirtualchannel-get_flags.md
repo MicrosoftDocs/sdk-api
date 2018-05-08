@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.get_Flags
-title: IRDPSRAPIVirtualChannel::get_Flags method
+title: IRDPSRAPIVirtualChannel::get_Flags
 author: windows-driver-content
 description: The channel flags. This property is reserved for future use.
 old-location: rdp\irdpsrapivirtualchannel_flags.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: a6c75a09-f791-4dca-8059-33f03b4e3d1e
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: Flags property [RDP], Flags property [RDP], IRDPSRAPIVirtualChannel interface, Flags property [RDP], RDPSRAPIVirtualChannel object, IRDPSRAPIVirtualChannel, IRDPSRAPIVirtualChannel interface [RDP], Flags property, IRDPSRAPIVirtualChannel.Flags, IRDPSRAPIVirtualChannel::get_Flags, RDPSRAPIVirtualChannel object [RDP], Flags property, get_Flags,IRDPSRAPIVirtualChannel.get_Flags, rdp.irdpsrapivirtualchannel_flags, rdpencomapi/IRDPSRAPIVirtualChannel::Flags, rdpencomapi/IRDPSRAPIVirtualChannel::get_Flags
+ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIVirtualChannel interface, Flags property [RDP],RDPSRAPIVirtualChannel object, IRDPSRAPIVirtualChannel interface [RDP],Flags property, IRDPSRAPIVirtualChannel.Flags, IRDPSRAPIVirtualChannel.get_Flags, IRDPSRAPIVirtualChannel::Flags, IRDPSRAPIVirtualChannel::get_Flags, RDPSRAPIVirtualChannel object [RDP],Flags property, get_Flags, rdp.irdpsrapivirtualchannel_flags, rdpencomapi/IRDPSRAPIVirtualChannel::Flags, rdpencomapi/IRDPSRAPIVirtualChannel::get_Flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIVirtualChannel::get_Flags method
+# IRDPSRAPIVirtualChannel::get_Flags
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionReflection.GetConstantBufferByName
-title: ID3D12FunctionReflection::GetConstantBufferByName method
+title: ID3D12FunctionReflection::GetConstantBufferByName
 author: windows-driver-content
 description: Gets a constant buffer by name for a function.
 old-location: direct3d12\id3d12functionreflection_getconstantbufferbyname.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: AB781E44-2FCE-4E20-955C-C6F9F6F3064B
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetConstantBufferByName method, GetConstantBufferByName method, ID3D12FunctionReflection interface, GetConstantBufferByName,ID3D12FunctionReflection.GetConstantBufferByName, ID3D12FunctionReflection, ID3D12FunctionReflection interface, GetConstantBufferByName method, ID3D12FunctionReflection::GetConstantBufferByName, d3d12shader/ID3D12FunctionReflection::GetConstantBufferByName, direct3d12.id3d12functionreflection_getconstantbufferbyname
+ms.keywords: GetConstantBufferByName, GetConstantBufferByName method, GetConstantBufferByName method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetConstantBufferByName method, ID3D12FunctionReflection.GetConstantBufferByName, ID3D12FunctionReflection::GetConstantBufferByName, d3d12shader/ID3D12FunctionReflection::GetConstantBufferByName, direct3d12.id3d12functionreflection_getconstantbufferbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12FunctionReflection::GetConstantBufferByName method
+# ID3D12FunctionReflection::GetConstantBufferByName
 
 
 ## -description

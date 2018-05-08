@@ -8,7 +8,7 @@ old-project: Power
 ms.assetid: 5734FDEE-E330-4115-AFA5-725114023A5A
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: DEVICE_NOTIFY_CALLBACK_ROUTINE, DEVICE_NOTIFY_CALLBACK_ROUTINE callback function, DeviceNotifyCallbackRoutine, DeviceNotifyCallbackRoutine callback function, PDEVICE_NOTIFY_CALLBACK_ROUTINE, PDEVICE_NOTIFY_CALLBACK_ROUTINE callback function pointer, base.device_notify_callback_routine, powrprof/DeviceNotifyCallbackRoutine, powrprof/PDEVICE_NOTIFY_CALLBACK_ROUTINE
+ms.keywords: DEVICE_NOTIFY_CALLBACK_ROUTINE, DEVICE_NOTIFY_CALLBACK_ROUTINE callback function, DeviceNotifyCallbackRoutine, DeviceNotifyCallbackRoutine callback, DeviceNotifyCallbackRoutine callback function, PDEVICE_NOTIFY_CALLBACK_ROUTINE, PDEVICE_NOTIFY_CALLBACK_ROUTINE callback function pointer, base.device_notify_callback_routine, powrprof/DeviceNotifyCallbackRoutine, powrprof/PDEVICE_NOTIFY_CALLBACK_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# DEVICE_NOTIFY_CALLBACK_ROUTINE callback
+# DEVICE_NOTIFY_CALLBACK_ROUTINE callback function
 
 
 ## -description

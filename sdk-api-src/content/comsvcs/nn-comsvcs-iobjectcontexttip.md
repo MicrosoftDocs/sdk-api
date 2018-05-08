@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 2fe4de87-e7ea-4120-8e37-5a26d836fcea
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IObjectContextTip, IObjectContextTip interface [COM+], IObjectContextTip interface [COM+], described, _cos_IObjectContextTip, comsvcs/IObjectContextTip, cos.iobjectcontexttip
+ms.keywords: IObjectContextTip, IObjectContextTip interface [COM+], IObjectContextTip interface [COM+],described, _cos_IObjectContextTip, comsvcs/IObjectContextTip, cos.iobjectcontexttip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

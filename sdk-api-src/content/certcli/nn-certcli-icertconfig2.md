@@ -7,8 +7,8 @@ old-location: security\icertconfig2.htm
 old-project: SecCrypto
 ms.assetid: 6bac5961-f9cc-4859-affa-aa7ed152ebfa
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertConfig2, ICertConfig2 interface [Security], ICertConfig2 interface [Security], described, _certsrv_icertconfig2, certcli/ICertConfig2, security.icertconfig2
+ms.date: 4/30/2018
+ms.keywords: ICertConfig2, ICertConfig2 interface [Security], ICertConfig2 interface [Security],described, _certsrv_icertconfig2, certcli/ICertConfig2, security.icertconfig2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

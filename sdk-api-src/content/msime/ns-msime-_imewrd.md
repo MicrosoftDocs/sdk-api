@@ -68,6 +68,11 @@ The reading string.
 The display string.
 
 
+### -field ulPos
+
+POS (Part of Speech), defined as JPOS_***.
+
+
 ### -field nPos1
 
 Not used.
@@ -96,11 +101,6 @@ Type of comment. This must be one of the values of the <a href="https://msdn.mic
 ### -field pvComment
 
 Comment string.
-
-
-#### - ulPos
-
-POS (Part of Speech), defined as JPOS_***.
 
 
 ## -see-also

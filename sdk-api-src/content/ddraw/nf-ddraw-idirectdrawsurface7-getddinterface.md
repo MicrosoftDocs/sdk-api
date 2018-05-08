@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetDDInterface
-title: IDirectDrawSurface7::GetDDInterface method
+title: IDirectDrawSurface7::GetDDInterface
 author: windows-driver-content
 description: Retrieves an interface to the DirectDraw object that was used to create this surface.
 old-location: directdraw\idirectdrawsurface7_getddinterface.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 1ec63614-cdc0-4d07-97e3-97167e7b397c
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetDDInterface method [DirectDraw], GetDDInterface method [DirectDraw], IDirectDrawSurface7 interface, GetDDInterface,IDirectDrawSurface7.GetDDInterface, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], GetDDInterface method, IDirectDrawSurface7::GetDDInterface, ddraw/IDirectDrawSurface7::GetDDInterface, directdraw.idirectdrawsurface7_getddinterface
+ms.keywords: GetDDInterface, GetDDInterface method [DirectDraw], GetDDInterface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetDDInterface method, IDirectDrawSurface7.GetDDInterface, IDirectDrawSurface7::GetDDInterface, ddraw/IDirectDrawSurface7::GetDDInterface, directdraw.idirectdrawsurface7_getddinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::GetDDInterface method
+# IDirectDrawSurface7::GetDDInterface
 
 
 ## -description

@@ -1,0 +1,8 @@
+# [Microsoft TV Technologies](../_mstv/index.md)
+## [Dsattrib.h](index.md)
+### [IAttributeGet::GetAttrib](../dsattrib/nf-dsattrib-iattributeget-getattrib.md)
+### [IAttributeGet::GetAttribIndexed](../dsattrib/nf-dsattrib-iattributeget-getattribindexed.md)
+### [IAttributeGet::GetCount](../dsattrib/nf-dsattrib-iattributeget-getcount.md)
+### [IAttributeSet::SetAttrib](../dsattrib/nf-dsattrib-iattributeset-setattrib.md)
+### [IAttributeGet interface](../dsattrib/nn-dsattrib-iattributeget.md)
+### [IAttributeSet interface](../dsattrib/nn-dsattrib-iattributeset.md)

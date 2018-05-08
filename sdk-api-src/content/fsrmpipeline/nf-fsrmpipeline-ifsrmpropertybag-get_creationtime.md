@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_CreationTime
-title: IFsrmPropertyBag::get_CreationTime method
+title: IFsrmPropertyBag::get_CreationTime
 author: windows-driver-content
 description: The date and time that the file was created.
 old-location: fsrm\ifsrmpropertybag_creationtime.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 85953042-eeb6-49bd-bde0-f18d4edf108a
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreationTime property [File Server Resource Manager], CreationTime property [File Server Resource Manager], IFsrmPropertyBag interface, IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], CreationTime property, IFsrmPropertyBag.CreationTime, IFsrmPropertyBag::get_CreationTime, fs.ifsrmpropertybag_creationtime, fsrm.ifsrmpropertybag_creationtime, fsrmpipeline/IFsrmPropertyBag::CreationTime, fsrmpipeline/IFsrmPropertyBag::get_CreationTime, get_CreationTime,IFsrmPropertyBag.get_CreationTime
+ms.keywords: CreationTime property [File Server Resource Manager], CreationTime property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],CreationTime property, IFsrmPropertyBag.CreationTime, IFsrmPropertyBag.get_CreationTime, IFsrmPropertyBag::CreationTime, IFsrmPropertyBag::get_CreationTime, fs.ifsrmpropertybag_creationtime, fsrm.ifsrmpropertybag_creationtime, fsrmpipeline/IFsrmPropertyBag::CreationTime, fsrmpipeline/IFsrmPropertyBag::get_CreationTime, get_CreationTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyBag::get_CreationTime method
+# IFsrmPropertyBag::get_CreationTime
 
 
 ## -description

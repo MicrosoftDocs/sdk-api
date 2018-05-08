@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.get_ServiceEnabled
-title: IAutomaticUpdates::get_ServiceEnabled method
+title: IAutomaticUpdates::get_ServiceEnabled
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether all the components that Automatic Updates requires are available.
 old-location: wua\iautomaticupdates_serviceenabled.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 6d07ed15-f891-47c4-b4a6-2e57207dbdb3
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IAutomaticUpdates, IAutomaticUpdates interface [Windows Update Agent], ServiceEnabled property, IAutomaticUpdates.ServiceEnabled, IAutomaticUpdates::get_ServiceEnabled, ServiceEnabled property [Windows Update Agent], ServiceEnabled property [Windows Update Agent], IAutomaticUpdates interface, get_ServiceEnabled,IAutomaticUpdates.get_ServiceEnabled, wua.iautomaticupdates_serviceenabled, wuapi/IAutomaticUpdates::ServiceEnabled, wuapi/IAutomaticUpdates::get_ServiceEnabled
+ms.keywords: IAutomaticUpdates interface [Windows Update Agent],ServiceEnabled property, IAutomaticUpdates.ServiceEnabled, IAutomaticUpdates.get_ServiceEnabled, IAutomaticUpdates::ServiceEnabled, IAutomaticUpdates::get_ServiceEnabled, ServiceEnabled property [Windows Update Agent], ServiceEnabled property [Windows Update Agent],IAutomaticUpdates interface, get_ServiceEnabled, wua.iautomaticupdates_serviceenabled, wuapi/IAutomaticUpdates::ServiceEnabled, wuapi/IAutomaticUpdates::get_ServiceEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdates::get_ServiceEnabled method
+# IAutomaticUpdates::get_ServiceEnabled
 
 
 ## -description

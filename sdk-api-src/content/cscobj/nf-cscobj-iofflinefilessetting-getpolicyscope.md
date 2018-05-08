@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPolicyScope
-title: IOfflineFilesSetting::GetPolicyScope method
+title: IOfflineFilesSetting::GetPolicyScope
 author: windows-driver-content
 description: Retrieves the scope of the policy associated with this setting.
 old-location: of\iofflinefilessetting_getpolicyscope.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 29f6d96f-c873-4cc3-88f2-cd075b3ec004
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetPolicyScope method [Offline Files], GetPolicyScope method [Offline Files], IOfflineFilesSetting interface, GetPolicyScope,IOfflineFilesSetting.GetPolicyScope, IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], GetPolicyScope method, IOfflineFilesSetting::GetPolicyScope, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPolicyScope, of.iofflinefilessetting_getpolicyscope
+ms.keywords: GetPolicyScope, GetPolicyScope method [Offline Files], GetPolicyScope method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPolicyScope method, IOfflineFilesSetting.GetPolicyScope, IOfflineFilesSetting::GetPolicyScope, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPolicyScope, of.iofflinefilessetting_getpolicyscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSetting::GetPolicyScope method
+# IOfflineFilesSetting::GetPolicyScope
 
 
 ## -description

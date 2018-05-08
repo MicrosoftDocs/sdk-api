@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.EnumMediaStreams
-title: IMediaStreamFilter::EnumMediaStreams method
+title: IMediaStreamFilter::EnumMediaStreams
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The EnumMediaStreams method retrieves a media stream, specified by index.
 old-location: dshow\imediastreamfilter_enummediastreams.htm
 old-project: DirectShow
 ms.assetid: 5f62abda-6192-4adb-985d-9bffe310b407
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EnumMediaStreams method [DirectShow], EnumMediaStreams method [DirectShow], IMediaStreamFilter interface, EnumMediaStreams,IMediaStreamFilter.EnumMediaStreams, IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], EnumMediaStreams method, IMediaStreamFilter::EnumMediaStreams, IMediaStreamFilterEnumMediaStreams, amstream/IMediaStreamFilter::EnumMediaStreams, dshow.imediastreamfilter_enummediastreams
+ms.date: 4/30/2018
+ms.keywords: EnumMediaStreams, EnumMediaStreams method [DirectShow], EnumMediaStreams method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],EnumMediaStreams method, IMediaStreamFilter.EnumMediaStreams, IMediaStreamFilter::EnumMediaStreams, IMediaStreamFilterEnumMediaStreams, amstream/IMediaStreamFilter::EnumMediaStreams, dshow.imediastreamfilter_enummediastreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaStreamFilter::EnumMediaStreams method
+# IMediaStreamFilter::EnumMediaStreams
 
 
 ## -description

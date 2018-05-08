@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensOnNow.BatteryLow
-title: ISensOnNow::BatteryLow method
+title: ISensOnNow::BatteryLow
 author: windows-driver-content
 description: The BatteryLow method notifies an application that battery power is low. SENS calls the BatteryLow method to notify an application that a computer is using battery power.
 old-location: sens\isensonnow_batterylow.htm
@@ -8,7 +8,7 @@ old-project: Sens
 ms.assetid: 78b305ef-761b-48b8-8f1b-371a75df4edb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BatteryLow method [SENS], BatteryLow method [SENS], ISensOnNow interface, BatteryLow,ISensOnNow.BatteryLow, ISensOnNow, ISensOnNow interface [SENS], BatteryLow method, ISensOnNow::BatteryLow, _zaw_isensonnow_batterylow, sens.isensonnow_batterylow, sensevts/ISensOnNow::BatteryLow, syncmgr.isensonnow_batterylow
+ms.keywords: BatteryLow, BatteryLow method [SENS], BatteryLow method [SENS],ISensOnNow interface, ISensOnNow interface [SENS],BatteryLow method, ISensOnNow.BatteryLow, ISensOnNow::BatteryLow, _zaw_isensonnow_batterylow, sens.isensonnow_batterylow, sensevts/ISensOnNow::BatteryLow, syncmgr.isensonnow_batterylow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISensOnNow::BatteryLow method
+# ISensOnNow::BatteryLow
 
 
 ## -description

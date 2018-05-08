@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetInterfaceImplProps
-title: IMetaDataImport::GetInterfaceImplProps method
+title: IMetaDataImport::GetInterfaceImplProps
 author: windows-driver-content
 description: Gets a pointer to the metadata tokens for the Type that implements the specified method, and for the interface that declares that method.
 old-location: winrt\imetadataimport_getinterfaceimplprops.htm
 old-project: WinRT
 ms.assetid: ff91bb07-8e3a-49f1-9cd6-1c3e18a3c242
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetInterfaceImplProps method [Windows Runtime], GetInterfaceImplProps method [Windows Runtime], IMetaDataImport interface, GetInterfaceImplProps,IMetaDataImport.GetInterfaceImplProps, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetInterfaceImplProps method, IMetaDataImport::GetInterfaceImplProps, rometadataapi/IMetaDataImport::GetInterfaceImplProps, winrt.imetadataimport_getinterfaceimplprops
+ms.date: 5/4/2018
+ms.keywords: GetInterfaceImplProps, GetInterfaceImplProps method [Windows Runtime], GetInterfaceImplProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetInterfaceImplProps method, IMetaDataImport.GetInterfaceImplProps, IMetaDataImport::GetInterfaceImplProps, rometadataapi/IMetaDataImport::GetInterfaceImplProps, winrt.imetadataimport_getinterfaceimplprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetInterfaceImplProps method
+# IMetaDataImport::GetInterfaceImplProps
 
 
 ## -description

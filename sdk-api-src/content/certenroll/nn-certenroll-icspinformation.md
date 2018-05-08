@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: e337ae2c-6f86-4025-8d31-47bc5d8a4ca8
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspInformation, ICspInformation interface [Security], ICspInformation interface [Security], described, certenroll/ICspInformation, security.icspinformation
+ms.keywords: ICspInformation, ICspInformation interface [Security], ICspInformation interface [Security],described, certenroll/ICspInformation, security.icspinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

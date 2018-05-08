@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: dafee149-926a-4d08-a43d-5847682db645
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleClientSite, IOleClientSite interface [COM], IOleClientSite interface [COM], described, _ole_ioleclientsite, com.ioleclientsite, oleidl/IOleClientSite
+ms.keywords: IOleClientSite, IOleClientSite interface [COM], IOleClientSite interface [COM],described, _ole_ioleclientsite, com.ioleclientsite, oleidl/IOleClientSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: CE6AEA77-A6A0-46A5-BDBC-AE4907AAC820
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12LibraryReflection, ID3D12LibraryReflection interface, ID3D12LibraryReflection interface, described, d3d12shader/ID3D12LibraryReflection, direct3d12.id3d12libraryreflection
+ms.keywords: ID3D12LibraryReflection, ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,described, d3d12shader/ID3D12LibraryReflection, direct3d12.id3d12libraryreflection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

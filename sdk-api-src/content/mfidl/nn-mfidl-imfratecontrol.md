@@ -7,8 +7,8 @@ old-location: mf\imfratecontrol.htm
 old-project: medfound
 ms.assetid: 54303c32-b260-4364-9130-a592694f2816
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 54303c32-b260-4364-9130-a592694f2816, IMFRateControl, IMFRateControl interface [Media Foundation], IMFRateControl interface [Media Foundation], described, mf.imfratecontrol, mfidl/IMFRateControl
+ms.date: 5/3/2018
+ms.keywords: 54303c32-b260-4364-9130-a592694f2816, IMFRateControl, IMFRateControl interface [Media Foundation], IMFRateControl interface [Media Foundation],described, mf.imfratecontrol, mfidl/IMFRateControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

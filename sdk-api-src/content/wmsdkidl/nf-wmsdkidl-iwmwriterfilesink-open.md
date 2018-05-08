@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink.Open
-title: IWMWriterFileSink::Open method
+title: IWMWriterFileSink::Open
 author: windows-driver-content
 description: The Open method opens a file that acts as the writer sink.
 old-location: wmformat\iwmwriterfilesink_open.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 14a36fe9-8293-4079-8189-8a8e0720c100
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterFileSink, IWMWriterFileSink interface [windows Media Format], Open method, IWMWriterFileSink::Open, IWMWriterFileSinkOpen, Open method [windows Media Format], Open method [windows Media Format], IWMWriterFileSink interface, Open,IWMWriterFileSink.Open, wmformat.iwmwriterfilesink_open, wmsdkidl/IWMWriterFileSink::Open
+ms.keywords: IWMWriterFileSink interface [windows Media Format],Open method, IWMWriterFileSink.Open, IWMWriterFileSink::Open, IWMWriterFileSinkOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMWriterFileSink interface, wmformat.iwmwriterfilesink_open, wmsdkidl/IWMWriterFileSink::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterFileSink::Open method
+# IWMWriterFileSink::Open
 
 
 ## -description

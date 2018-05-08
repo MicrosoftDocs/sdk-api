@@ -7,7 +7,7 @@ old-location: security\cryptmemalloc.htm
 old-project: SecCrypto
 ms.assetid: ac7588b1-ff8c-4f8d-a8ab-f0e8a18e5614
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CryptMemAlloc, CryptMemAlloc function [Security], _crypto2_cryptmemalloc, security.cryptmemalloc, wincrypt/CryptMemAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

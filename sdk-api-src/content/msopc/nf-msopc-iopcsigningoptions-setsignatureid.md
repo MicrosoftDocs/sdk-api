@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetSignatureId
-title: IOpcSigningOptions::SetSignatureId method
+title: IOpcSigningOptions::SetSignatureId
 author: windows-driver-content
 description: Sets the value of the Id attribute of the Signature element.
 old-location: opc\iopcsigningoptions_setsignatureid.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: c723d6e8-6af3-41a2-b6dd-d26897495965
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], SetSignatureId method, IOpcSigningOptions::SetSignatureId, SetSignatureId method [Open Packaging Conventions], SetSignatureId method [Open Packaging Conventions], IOpcSigningOptions interface, SetSignatureId,IOpcSigningOptions.SetSignatureId, msopc/IOpcSigningOptions::SetSignatureId, opc.iopcsigningoptions_setsignatureid
+ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetSignatureId method, IOpcSigningOptions.SetSignatureId, IOpcSigningOptions::SetSignatureId, SetSignatureId, SetSignatureId method [Open Packaging Conventions], SetSignatureId method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetSignatureId, opc.iopcsigningoptions_setsignatureid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSigningOptions::SetSignatureId method
+# IOpcSigningOptions::SetSignatureId
 
 
 ## -description

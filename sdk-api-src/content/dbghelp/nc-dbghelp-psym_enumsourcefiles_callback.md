@@ -8,7 +8,7 @@ old-project: Debug
 ms.assetid: b1d1e967-514d-43da-b470-23228fa03dd9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: PSYM_ENUMSOURCEFILES_CALLBACK, PSYM_ENUMSOURCEFILES_CALLBACKW, SymEnumSourceFilesProc, SymEnumSourceFilesProc callback function, base.symenumsourcefilesproc, dbghelp/SymEnumSourceFilesProc
+ms.keywords: PSYM_ENUMSOURCEFILES_CALLBACK, PSYM_ENUMSOURCEFILES_CALLBACKW, SymEnumSourceFilesProc, SymEnumSourceFilesProc callback, SymEnumSourceFilesProc callback function, base.symenumsourcefilesproc, dbghelp/SymEnumSourceFilesProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PSYM_ENUMSOURCEFILES_CALLBACK callback
+# PSYM_ENUMSOURCEFILES_CALLBACK callback function
 
 
 ## -description

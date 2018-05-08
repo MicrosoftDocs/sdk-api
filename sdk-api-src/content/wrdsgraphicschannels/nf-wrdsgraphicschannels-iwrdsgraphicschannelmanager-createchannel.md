@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelManager.CreateChannel
-title: IWRdsGraphicsChannelManager::CreateChannel method
+title: IWRdsGraphicsChannelManager::CreateChannel
 author: windows-driver-content
 description: Used to create a graphics virtual channel.
 old-location: termserv\iwrdsgraphicschannelmanager_createchannel.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 2dcce4ac-aa1d-4bdf-9c95-8737f924d0e9
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CreateChannel method [Remote Desktop Services], CreateChannel method [Remote Desktop Services], IWRdsGraphicsChannelManager interface, CreateChannel,IWRdsGraphicsChannelManager.CreateChannel, IWRdsGraphicsChannelManager, IWRdsGraphicsChannelManager interface [Remote Desktop Services], CreateChannel method, IWRdsGraphicsChannelManager::CreateChannel, termserv.iwrdsgraphicschannelmanager_createchannel, wrdsgraphicschannels/IWRdsGraphicsChannelManager::CreateChannel
+ms.keywords: CreateChannel, CreateChannel method [Remote Desktop Services], CreateChannel method [Remote Desktop Services],IWRdsGraphicsChannelManager interface, IWRdsGraphicsChannelManager interface [Remote Desktop Services],CreateChannel method, IWRdsGraphicsChannelManager.CreateChannel, IWRdsGraphicsChannelManager::CreateChannel, termserv.iwrdsgraphicschannelmanager_createchannel, wrdsgraphicschannels/IWRdsGraphicsChannelManager::CreateChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsGraphicsChannelManager::CreateChannel method
+# IWRdsGraphicsChannelManager::CreateChannel
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVersion
-title: ICreateTypeInfo::SetVersion method
+title: ICreateTypeInfo::SetVersion
 author: windows-driver-content
 description: Sets the major and minor version number of the type information.
 old-location: automat\icreatetypeinfo_setversion.htm
 old-project: automat
 ms.assetid: ffa4d287-44c4-40ec-984a-70cbc0928274
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetVersion method, ICreateTypeInfo::SetVersion, SetVersion method [Automation], SetVersion method [Automation], ICreateTypeInfo interface, SetVersion,ICreateTypeInfo.SetVersion, _oa96_ICreateTypeInfo_SetVersion, automat.icreatetypeinfo_setversion, oaidl/ICreateTypeInfo::SetVersion
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo interface [Automation],SetVersion method, ICreateTypeInfo.SetVersion, ICreateTypeInfo::SetVersion, SetVersion, SetVersion method [Automation], SetVersion method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVersion, automat.icreatetypeinfo_setversion, oaidl/ICreateTypeInfo::SetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo::SetVersion method
+# ICreateTypeInfo::SetVersion
 
 
 ## -description

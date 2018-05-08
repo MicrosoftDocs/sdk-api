@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.put_Recorder
-title: IDiscFormat2RawCD::put_Recorder method
+title: IDiscFormat2RawCD::put_Recorder
 author: windows-driver-content
 description: Sets the recording device to use for the write operation.
 old-location: imapi\idiscformat2rawcd_put_recorder.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d3deefa8-40be-4cdc-aae1-e5fbe508f16f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], put_Recorder method, IDiscFormat2RawCD::put_Recorder, imapi.idiscformat2rawcd_put_recorder, imapi2/IDiscFormat2RawCD::put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI], IDiscFormat2RawCD interface, put_Recorder,IDiscFormat2RawCD.put_Recorder
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],put_Recorder method, IDiscFormat2RawCD.put_Recorder, IDiscFormat2RawCD::put_Recorder, imapi.idiscformat2rawcd_put_recorder, imapi2/IDiscFormat2RawCD::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IDiscFormat2RawCD interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCD::put_Recorder method
+# IDiscFormat2RawCD::put_Recorder
 
 
 ## -description

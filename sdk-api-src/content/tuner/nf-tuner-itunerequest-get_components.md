@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuneRequest.get_Components
-title: ITuneRequest::get_Components method
+title: ITuneRequest::get_Components
 author: windows-driver-content
 description: The get_Components method retrieves the components contained in this tune request.
 old-location: mstv\itunerequest_get_components.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f15ef4f6-ca36-4d46-93c7-26f1fbcb21cd
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuneRequest, ITuneRequest interface [Microsoft TV Technologies], get_Components method, ITuneRequest::get_Components, ITuneRequestget_Components, get_Components method [Microsoft TV Technologies], get_Components method [Microsoft TV Technologies], ITuneRequest interface, get_Components,ITuneRequest.get_Components, mstv.itunerequest_get_components, tuner/ITuneRequest::get_Components
+ms.keywords: ITuneRequest interface [Microsoft TV Technologies],get_Components method, ITuneRequest.get_Components, ITuneRequest::get_Components, ITuneRequestget_Components, get_Components, get_Components method [Microsoft TV Technologies], get_Components method [Microsoft TV Technologies],ITuneRequest interface, mstv.itunerequest_get_components, tuner/ITuneRequest::get_Components
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuneRequest::get_Components method
+# ITuneRequest::get_Components
 
 
 ## -description

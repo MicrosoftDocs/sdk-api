@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumFieldsWithName
-title: IMetaDataImport::EnumFieldsWithName method
+title: IMetaDataImport::EnumFieldsWithName
 author: windows-driver-content
 description: Enumerates FieldDef tokens of the specified type with the specified name.
 old-location: winrt\imetadataimport_enumfieldswithname.htm
 old-project: WinRT
 ms.assetid: 6035f267-778d-4d7d-84eb-1081f33ff619
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumFieldsWithName method [Windows Runtime], EnumFieldsWithName method [Windows Runtime], IMetaDataImport interface, EnumFieldsWithName,IMetaDataImport.EnumFieldsWithName, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumFieldsWithName method, IMetaDataImport::EnumFieldsWithName, rometadataapi/IMetaDataImport::EnumFieldsWithName, winrt.imetadataimport_enumfieldswithname
+ms.date: 5/4/2018
+ms.keywords: EnumFieldsWithName, EnumFieldsWithName method [Windows Runtime], EnumFieldsWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumFieldsWithName method, IMetaDataImport.EnumFieldsWithName, IMetaDataImport::EnumFieldsWithName, rometadataapi/IMetaDataImport::EnumFieldsWithName, winrt.imetadataimport_enumfieldswithname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumFieldsWithName method
+# IMetaDataImport::EnumFieldsWithName
 
 
 ## -description

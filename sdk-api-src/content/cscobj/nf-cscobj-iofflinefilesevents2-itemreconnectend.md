@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.ItemReconnectEnd
-title: IOfflineFilesEvents2::ItemReconnectEnd method
+title: IOfflineFilesEvents2::ItemReconnectEnd
 author: windows-driver-content
 description: Reports that the Offline Files service has completed its attempt to reconnect all offline scopes.
 old-location: of\iofflinefilesevents2_itemreconnectend.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 929d6556-69cb-4863-a665-236603fcd88b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents2, IOfflineFilesEvents2 interface [Offline Files], ItemReconnectEnd method, IOfflineFilesEvents2::ItemReconnectEnd, ItemReconnectEnd method [Offline Files], ItemReconnectEnd method [Offline Files], IOfflineFilesEvents2 interface, ItemReconnectEnd,IOfflineFilesEvents2.ItemReconnectEnd, cscobj/IOfflineFilesEvents2::ItemReconnectEnd, of.iofflinefilesevents2_itemreconnectend
+ms.keywords: IOfflineFilesEvents2 interface [Offline Files],ItemReconnectEnd method, IOfflineFilesEvents2.ItemReconnectEnd, IOfflineFilesEvents2::ItemReconnectEnd, ItemReconnectEnd, ItemReconnectEnd method [Offline Files], ItemReconnectEnd method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::ItemReconnectEnd, of.iofflinefilesevents2_itemreconnectend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents2::ItemReconnectEnd method
+# IOfflineFilesEvents2::ItemReconnectEnd
 
 
 ## -description

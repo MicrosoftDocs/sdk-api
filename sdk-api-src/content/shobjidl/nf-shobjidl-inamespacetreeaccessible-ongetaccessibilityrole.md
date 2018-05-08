@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeAccessible.OnGetAccessibilityRole
-title: INameSpaceTreeAccessible::OnGetAccessibilityRole method
+title: INameSpaceTreeAccessible::OnGetAccessibilityRole
 author: windows-driver-content
 description: Gets the accessibility role for a Shell item.
 old-location: shell\INameSpaceTreeAccessible_OnGetAccessibilityRole.htm
 old-project: shell
 ms.assetid: 9de27a09-dc11-46a6-a233-696ccf35aa87
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: INameSpaceTreeAccessible, INameSpaceTreeAccessible interface [Windows Shell], OnGetAccessibilityRole method, INameSpaceTreeAccessible::OnGetAccessibilityRole, OnGetAccessibilityRole method [Windows Shell], OnGetAccessibilityRole method [Windows Shell], INameSpaceTreeAccessible interface, OnGetAccessibilityRole,INameSpaceTreeAccessible.OnGetAccessibilityRole, _shell_INameSpaceTreeAccessible_OnGetAccessibilityRole, shell.INameSpaceTreeAccessible_OnGetAccessibilityRole, shobjidl/INameSpaceTreeAccessible::OnGetAccessibilityRole
+ms.date: 5/3/2018
+ms.keywords: INameSpaceTreeAccessible interface [Windows Shell],OnGetAccessibilityRole method, INameSpaceTreeAccessible.OnGetAccessibilityRole, INameSpaceTreeAccessible::OnGetAccessibilityRole, OnGetAccessibilityRole, OnGetAccessibilityRole method [Windows Shell], OnGetAccessibilityRole method [Windows Shell],INameSpaceTreeAccessible interface, _shell_INameSpaceTreeAccessible_OnGetAccessibilityRole, shell.INameSpaceTreeAccessible_OnGetAccessibilityRole, shobjidl/INameSpaceTreeAccessible::OnGetAccessibilityRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeAccessible::OnGetAccessibilityRole method
+# INameSpaceTreeAccessible::OnGetAccessibilityRole
 
 
 ## -description

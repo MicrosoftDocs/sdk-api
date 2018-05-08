@@ -7,8 +7,8 @@ old-location: mf\imfsinkwritercallback2.htm
 old-project: medfound
 ms.assetid: 92885A3C-137D-42DD-A65D-D2CE56A69A68
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSinkWriterCallback2, IMFSinkWriterCallback2 interface [Media Foundation], IMFSinkWriterCallback2 interface [Media Foundation], described, mf.imfsinkwritercallback2, mfreadwrite/IMFSinkWriterCallback2
+ms.date: 5/3/2018
+ms.keywords: IMFSinkWriterCallback2, IMFSinkWriterCallback2 interface [Media Foundation], IMFSinkWriterCallback2 interface [Media Foundation],described, mf.imfsinkwritercallback2, mfreadwrite/IMFSinkWriterCallback2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

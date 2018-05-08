@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.get_IsHidden
-title: IFsiItem::get_IsHidden method
+title: IFsiItem::get_IsHidden
 author: windows-driver-content
 description: Determines if the item's hidden attribute is set in the file system image.
 old-location: imapi\ifsiitem_get_ishidden.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 1aec5bbc-d602-40c1-80e4-cad9dd8a2ab5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiItem, IFsiItem interface [IMAPI], get_IsHidden method, IFsiItem::get_IsHidden, get_IsHidden method [IMAPI], get_IsHidden method [IMAPI], IFsiItem interface, get_IsHidden,IFsiItem.get_IsHidden, imapi.ifsiitem_get_ishidden, imapi2fs/IFsiItem::get_IsHidden
+ms.keywords: IFsiItem interface [IMAPI],get_IsHidden method, IFsiItem.get_IsHidden, IFsiItem::get_IsHidden, get_IsHidden, get_IsHidden method [IMAPI], get_IsHidden method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_ishidden, imapi2fs/IFsiItem::get_IsHidden
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiItem::get_IsHidden method
+# IFsiItem::get_IsHidden
 
 
 ## -description

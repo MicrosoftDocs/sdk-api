@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSecureChannel.GetCertificate
-title: IMFSecureChannel::GetCertificate method
+title: IMFSecureChannel::GetCertificate
 author: windows-driver-content
 description: Retrieves the client's certificate.
 old-location: mf\imfsecurechannel_getcertificate.htm
 old-project: medfound
 ms.assetid: d5465070-1706-4420-8351-fab5e8e8cd08
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetCertificate method [Media Foundation], GetCertificate method [Media Foundation], IMFSecureChannel interface, GetCertificate,IMFSecureChannel.GetCertificate, IMFSecureChannel, IMFSecureChannel interface [Media Foundation], GetCertificate method, IMFSecureChannel::GetCertificate, d5465070-1706-4420-8351-fab5e8e8cd08, mf.imfsecurechannel_getcertificate, mfidl/IMFSecureChannel::GetCertificate
+ms.date: 5/3/2018
+ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],IMFSecureChannel interface, IMFSecureChannel interface [Media Foundation],GetCertificate method, IMFSecureChannel.GetCertificate, IMFSecureChannel::GetCertificate, d5465070-1706-4420-8351-fab5e8e8cd08, mf.imfsecurechannel_getcertificate, mfidl/IMFSecureChannel::GetCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSecureChannel::GetCertificate method
+# IMFSecureChannel::GetCertificate
 
 
 ## -description

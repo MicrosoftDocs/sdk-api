@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId
-title: ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId method
+title: ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId
 author: windows-driver-content
 description: Gets the closed upper bound on item IDs that require destination versions.
 old-location: winsync\isyncfullenumerationchangebatch_getclosedupperbounditemid.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: b06b01b2-2f31-4117-92eb-e72e31a2f20b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetClosedUpperBoundItemId method [Windows Sync], GetClosedUpperBoundItemId method [Windows Sync], ISyncFullEnumerationChangeBatch interface, GetClosedUpperBoundItemId,ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId, ISyncFullEnumerationChangeBatch, ISyncFullEnumerationChangeBatch interface [Windows Sync], GetClosedUpperBoundItemId method, ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId, winsync.isyncfullenumerationchangebatch_getclosedupperbounditemid, winsync/ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId
+ms.keywords: GetClosedUpperBoundItemId, GetClosedUpperBoundItemId method [Windows Sync], GetClosedUpperBoundItemId method [Windows Sync],ISyncFullEnumerationChangeBatch interface, ISyncFullEnumerationChangeBatch interface [Windows Sync],GetClosedUpperBoundItemId method, ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId, ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId, winsync.isyncfullenumerationchangebatch_getclosedupperbounditemid, winsync/ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId method
+# ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId
 
 
 ## -description

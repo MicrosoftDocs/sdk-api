@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetTag
-title: IDirectManipulationViewport::SetTag method
+title: IDirectManipulationViewport::SetTag
 author: windows-driver-content
 description: Sets a viewport tag.
 old-location: directmanipulation\idirectmanipulationviewport_settag.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: f695845b-8980-45cd-8231-e3ce29ce322f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], SetTag method, IDirectManipulationViewport::SetTag, SetTag method [Direct Manipulation], SetTag method [Direct Manipulation], IDirectManipulationViewport interface, SetTag,IDirectManipulationViewport.SetTag, directmanipulation.idirectmanipulationviewport_settag, directmanipulation/IDirectManipulationViewport::SetTag
+ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetTag method, IDirectManipulationViewport.SetTag, IDirectManipulationViewport::SetTag, SetTag, SetTag method [Direct Manipulation], SetTag method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_settag, directmanipulation/IDirectManipulationViewport::SetTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::SetTag method
+# IDirectManipulationViewport::SetTag
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:bits5_0.IBackgroundCopyJob5.SetProperty
-title: IBackgroundCopyJob5::SetProperty method
+title: IBackgroundCopyJob5::SetProperty
 author: windows-driver-content
 description: A generic method for setting BITS job properties.
 old-location: bits\ibackgroundcopyjob5_setproperty.htm
 old-project: Bits
 ms.assetid: D5DB8A96-7417-4142-BA27-783314835CED
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyJob5, IBackgroundCopyJob5 interface [BITS], SetProperty method, IBackgroundCopyJob5::SetProperty, SetProperty method [BITS], SetProperty method [BITS], IBackgroundCopyJob5 interface, SetProperty,IBackgroundCopyJob5.SetProperty, bits.ibackgroundcopyjob5_setproperty, bits5_0/IBackgroundCopyJob5::SetProperty
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyJob5 interface [BITS],SetProperty method, IBackgroundCopyJob5.SetProperty, IBackgroundCopyJob5::SetProperty, SetProperty, SetProperty method [BITS], SetProperty method [BITS],IBackgroundCopyJob5 interface, bits.ibackgroundcopyjob5_setproperty, bits5_0/IBackgroundCopyJob5::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBackgroundCopyJob5::SetProperty method
+# IBackgroundCopyJob5::SetProperty
 
 
 ## -description

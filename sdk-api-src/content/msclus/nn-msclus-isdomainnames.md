@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: e7f806a7-02e7-41be-b8b9-60351180e748
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DomainNames, DomainNames collection [Failover Cluster], DomainNames collection [Failover Cluster], described, ISDomainNames, _wolf_domainnames_collection, msclus/DomainNames, mscs.domainnames_collection
+ms.keywords: DomainNames, DomainNames collection [Failover Cluster], DomainNames collection [Failover Cluster],described, ISDomainNames, _wolf_domainnames_collection, msclus/DomainNames, mscs.domainnames_collection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

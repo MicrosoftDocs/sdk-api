@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.AddWriter
-title: IWICMetadataBlockWriter::AddWriter method
+title: IWICMetadataBlockWriter::AddWriter
 author: windows-driver-content
 description: Adds a top-level metadata block by adding a IWICMetadataWriter for it.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_addwriter.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 25a0e662-a249-4218-a77e-37b11e0f8536
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: AddWriter method [Windows Imaging Component], AddWriter method [Windows Imaging Component], IWICMetadataBlockWriter interface, AddWriter,IWICMetadataBlockWriter.AddWriter, IWICMetadataBlockWriter, IWICMetadataBlockWriter interface [Windows Imaging Component], AddWriter method, IWICMetadataBlockWriter::AddWriter, _wic_codec_iwicmetadatablockwriter_addwriter, wic._wic_codec_iwicmetadatablockwriter_addwriter, wincodecsdk/IWICMetadataBlockWriter::AddWriter
+ms.keywords: AddWriter, AddWriter method [Windows Imaging Component], AddWriter method [Windows Imaging Component],IWICMetadataBlockWriter interface, IWICMetadataBlockWriter interface [Windows Imaging Component],AddWriter method, IWICMetadataBlockWriter.AddWriter, IWICMetadataBlockWriter::AddWriter, _wic_codec_iwicmetadatablockwriter_addwriter, wic._wic_codec_iwicmetadatablockwriter_addwriter, wincodecsdk/IWICMetadataBlockWriter::AddWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataBlockWriter::AddWriter method
+# IWICMetadataBlockWriter::AddWriter
 
 
 ## -description

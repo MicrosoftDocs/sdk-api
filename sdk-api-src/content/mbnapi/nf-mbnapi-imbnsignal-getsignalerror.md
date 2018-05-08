@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSignal.GetSignalError
-title: IMbnSignal::GetSignalError method
+title: IMbnSignal::GetSignalError
 author: windows-driver-content
 description: Gets the received signal error rate.
 old-location: mbn\imbnsignal_getsignalerror.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 028adb54-9c81-4a5b-85f7-5c12ce8d84e4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignalError method [Microsoft Broadband Networks], GetSignalError method [Microsoft Broadband Networks], IMbnSignal interface, GetSignalError,IMbnSignal.GetSignalError, IMbnSignal, IMbnSignal interface [Microsoft Broadband Networks], GetSignalError method, IMbnSignal::GetSignalError, mbn.imbnsignal_getsignalerror, mbnapi/IMbnSignal::GetSignalError
+ms.keywords: GetSignalError, GetSignalError method [Microsoft Broadband Networks], GetSignalError method [Microsoft Broadband Networks],IMbnSignal interface, IMbnSignal interface [Microsoft Broadband Networks],GetSignalError method, IMbnSignal.GetSignalError, IMbnSignal::GetSignalError, mbn.imbnsignal_getsignalerror, mbnapi/IMbnSignal::GetSignalError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSignal::GetSignalError method
+# IMbnSignal::GetSignalError
 
 
 ## -description

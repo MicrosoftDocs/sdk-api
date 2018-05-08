@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetDiagnosticsInfo
-title: INetDiagHelper::GetDiagnosticsInfo method
+title: INetDiagHelper::GetDiagnosticsInfo
 author: windows-driver-content
 description: Enables the Helper Class Extension instance to provide an estimate.
 old-location: ndf\inetdiaghelpe_getdiagnosticsinfo.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: bc162b1b-a22e-4ee3-96a6-c2eecc13e479
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetDiagnosticsInfo method [NDF], GetDiagnosticsInfo method [NDF], INetDiagHelper interface, GetDiagnosticsInfo,INetDiagHelper.GetDiagnosticsInfo, INetDiagHelper, INetDiagHelper interface [NDF], GetDiagnosticsInfo method, INetDiagHelper::GetDiagnosticsInfo, ndf.inetdiaghelpe_getdiagnosticsinfo, ndhelper/INetDiagHelper::GetDiagnosticsInfo
+ms.keywords: GetDiagnosticsInfo, GetDiagnosticsInfo method [NDF], GetDiagnosticsInfo method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetDiagnosticsInfo method, INetDiagHelper.GetDiagnosticsInfo, INetDiagHelper::GetDiagnosticsInfo, ndf.inetdiaghelpe_getdiagnosticsinfo, ndhelper/INetDiagHelper::GetDiagnosticsInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::GetDiagnosticsInfo method
+# INetDiagHelper::GetDiagnosticsInfo
 
 
 ## -description

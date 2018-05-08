@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPushSink.Connect
-title: IWMWriterPushSink::Connect method
+title: IWMWriterPushSink::Connect
 author: windows-driver-content
 description: The Connect method connects to a publishing point on a Windows Media server.
 old-location: wmformat\iwmwriterpushsink_connect.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 5934697e-5d7c-4681-a424-9ad764dfeab1
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Connect method [windows Media Format], Connect method [windows Media Format], IWMWriterPushSink interface, Connect,IWMWriterPushSink.Connect, IWMWriterPushSink, IWMWriterPushSink interface [windows Media Format], Connect method, IWMWriterPushSink::Connect, IWMWriterPushSinkConnect, wmformat.iwmwriterpushsink_connect, wmsdkidl/IWMWriterPushSink::Connect
+ms.keywords: Connect, Connect method [windows Media Format], Connect method [windows Media Format],IWMWriterPushSink interface, IWMWriterPushSink interface [windows Media Format],Connect method, IWMWriterPushSink.Connect, IWMWriterPushSink::Connect, IWMWriterPushSinkConnect, wmformat.iwmwriterpushsink_connect, wmsdkidl/IWMWriterPushSink::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPushSink::Connect method
+# IWMWriterPushSink::Connect
 
 
 ## -description

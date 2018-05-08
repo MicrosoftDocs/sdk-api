@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_CurrentMediaStatus
-title: IDiscFormat2Data::get_CurrentMediaStatus method
+title: IDiscFormat2Data::get_CurrentMediaStatus
 author: windows-driver-content
 description: Retrieves the current state of the media in the device.
 old-location: imapi\idiscformat2data_get_currentmediastatus.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: b8ed119f-8976-48aa-ab9a-86c1361b6e14
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], get_CurrentMediaStatus method, IDiscFormat2Data::get_CurrentMediaStatus, get_CurrentMediaStatus method [IMAPI], get_CurrentMediaStatus method [IMAPI], IDiscFormat2Data interface, get_CurrentMediaStatus,IDiscFormat2Data.get_CurrentMediaStatus, imapi.idiscformat2data_get_currentmediastatus, imapi2/IDiscFormat2Data::get_CurrentMediaStatus
+ms.keywords: IDiscFormat2Data interface [IMAPI],get_CurrentMediaStatus method, IDiscFormat2Data.get_CurrentMediaStatus, IDiscFormat2Data::get_CurrentMediaStatus, get_CurrentMediaStatus, get_CurrentMediaStatus method [IMAPI], get_CurrentMediaStatus method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_currentmediastatus, imapi2/IDiscFormat2Data::get_CurrentMediaStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Data::get_CurrentMediaStatus method
+# IDiscFormat2Data::get_CurrentMediaStatus
 
 
 ## -description

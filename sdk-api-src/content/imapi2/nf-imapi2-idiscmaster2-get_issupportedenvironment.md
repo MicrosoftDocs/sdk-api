@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscMaster2.get_IsSupportedEnvironment
-title: IDiscMaster2::get_IsSupportedEnvironment method
+title: IDiscMaster2::get_IsSupportedEnvironment
 author: windows-driver-content
 description: Retrieves a value that determines if the environment contains one or more optical devices and the execution context has permission to access the devices.
 old-location: imapi\idiscmaster2_get_issupportedenvironment.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: abaa4d89-07b2-4e7a-a0c9-8a31abfd9dd0
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscMaster2, IDiscMaster2 interface [IMAPI], get_IsSupportedEnvironment method, IDiscMaster2::get_IsSupportedEnvironment, get_IsSupportedEnvironment method [IMAPI], get_IsSupportedEnvironment method [IMAPI], IDiscMaster2 interface, get_IsSupportedEnvironment,IDiscMaster2.get_IsSupportedEnvironment, imapi.idiscmaster2_get_issupportedenvironment, imapi2/IDiscMaster2::get_IsSupportedEnvironment
+ms.keywords: IDiscMaster2 interface [IMAPI],get_IsSupportedEnvironment method, IDiscMaster2.get_IsSupportedEnvironment, IDiscMaster2::get_IsSupportedEnvironment, get_IsSupportedEnvironment, get_IsSupportedEnvironment method [IMAPI], get_IsSupportedEnvironment method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_issupportedenvironment, imapi2/IDiscMaster2::get_IsSupportedEnvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscMaster2::get_IsSupportedEnvironment method
+# IDiscMaster2::get_IsSupportedEnvironment
 
 
 ## -description

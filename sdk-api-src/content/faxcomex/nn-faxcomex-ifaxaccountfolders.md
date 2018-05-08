@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\faxint_ifaxaccountfolders.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxAccountFolders, IFaxAccountFolders interface [Fax Service], IFaxAccountFolders interface [Fax Service], described, _mfax_faxaccountfolders_cpp, fax._mfax_faxaccountfolders_cpp, faxcomex/IFaxAccountFolders
+ms.keywords: IFaxAccountFolders, IFaxAccountFolders interface [Fax Service], IFaxAccountFolders interface [Fax Service],described, _mfax_faxaccountfolders_cpp, fax._mfax_faxaccountfolders_cpp, faxcomex/IFaxAccountFolders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

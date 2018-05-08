@@ -1,14 +1,14 @@
 ---
 UID: NF:evr9.IEVRVideoStreamControl.GetStreamActiveState
-title: IEVRVideoStreamControl::GetStreamActiveState method
+title: IEVRVideoStreamControl::GetStreamActiveState
 author: windows-driver-content
 description: IEVRVideoStreamControl::GetStreamActiveState method
 old-location: mf\ievrvideostreamcontrol_getstreamactivestate.htm
 old-project: medfound
 ms.assetid: d4ca1da7-7768-45b4-a0be-f3ef86fed7b9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamActiveState method [Media Foundation], GetStreamActiveState method [Media Foundation], IEVRVideoStreamControl interface, GetStreamActiveState,IEVRVideoStreamControl.GetStreamActiveState, IEVRVideoStreamControl, IEVRVideoStreamControl interface [Media Foundation], GetStreamActiveState method, IEVRVideoStreamControl::GetStreamActiveState, d4ca1da7-7768-45b4-a0be-f3ef86fed7b9, evr9/IEVRVideoStreamControl::GetStreamActiveState, mf.ievrvideostreamcontrol_getstreamactivestate
+ms.date: 5/3/2018
+ms.keywords: GetStreamActiveState, GetStreamActiveState method [Media Foundation], GetStreamActiveState method [Media Foundation],IEVRVideoStreamControl interface, IEVRVideoStreamControl interface [Media Foundation],GetStreamActiveState method, IEVRVideoStreamControl.GetStreamActiveState, IEVRVideoStreamControl::GetStreamActiveState, d4ca1da7-7768-45b4-a0be-f3ef86fed7b9, evr9/IEVRVideoStreamControl::GetStreamActiveState, mf.ievrvideostreamcontrol_getstreamactivestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEVRVideoStreamControl::GetStreamActiveState method
+# IEVRVideoStreamControl::GetStreamActiveState
 
 
 ## -description

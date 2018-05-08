@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 60FD9084-CC79-48FE-AB26-C8FCB4288851
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], IMessageDispatcher interface [COM], described, com.imessagedispatcher, imessagedispatcher/IMessageDispatcher
+ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], IMessageDispatcher interface [COM],described, com.imessagedispatcher, imessagedispatcher/IMessageDispatcher
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -7,7 +7,7 @@ old-location: security\ev_extra_cert_chain_policy_para.htm
 old-project: SecCrypto
 ms.assetid: 64ea96a7-ba37-49e1-a73f-ce772c1a9fb2
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PEV_EXTRA_CERT_CHAIN_POLICY_PARA, CERT_ROOT_PROGRAM_FLAG_LSC, CERT_ROOT_PROGRAM_FLAG_ORG, CERT_ROOT_PROGRAM_FLAG_SUBJECT_LOGO, EV_EXTRA_CERT_CHAIN_POLICY_PARA, EV_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], PEV_EXTRA_CERT_CHAIN_POLICY_PARA, PEV_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], _EV_EXTRA_CERT_CHAIN_POLICY_PARA, security.ev_extra_cert_chain_policy_para, wincrypt/EV_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/PEV_EXTRA_CERT_CHAIN_POLICY_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

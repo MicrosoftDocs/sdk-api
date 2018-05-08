@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOleCallback.ContextSensitiveHelp
-title: IRichEditOleCallback::ContextSensitiveHelp method
+title: IRichEditOleCallback::ContextSensitiveHelp
 author: windows-driver-content
 description: Indicates if the application should transition into or out of context-sensitive help mode. This method should implement the functionality described for IOleWindow::ContextSensitiveHelp.
 old-location: controls\IRichEditOleCallback_ContextSensitiveHelp.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackcontextsensitivehelp.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ContextSensitiveHelp method [Windows Controls], ContextSensitiveHelp method [Windows Controls], IRichEditOleCallback interface, ContextSensitiveHelp,IRichEditOleCallback.ContextSensitiveHelp, IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], ContextSensitiveHelp method, IRichEditOleCallback::ContextSensitiveHelp, _win32_IRichEditOleCallback_ContextSensitiveHelp, _win32_IRichEditOleCallback_ContextSensitiveHelp_cpp, controls.IRichEditOleCallback_ContextSensitiveHelp, controls._win32_IRichEditOleCallback_ContextSensitiveHelp, richole/IRichEditOleCallback::ContextSensitiveHelp
+ms.date: 4/27/2018
+ms.keywords: ContextSensitiveHelp, ContextSensitiveHelp method [Windows Controls], ContextSensitiveHelp method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],ContextSensitiveHelp method, IRichEditOleCallback.ContextSensitiveHelp, IRichEditOleCallback::ContextSensitiveHelp, _win32_IRichEditOleCallback_ContextSensitiveHelp, _win32_IRichEditOleCallback_ContextSensitiveHelp_cpp, controls.IRichEditOleCallback_ContextSensitiveHelp, controls._win32_IRichEditOleCallback_ContextSensitiveHelp, richole/IRichEditOleCallback::ContextSensitiveHelp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOleCallback::ContextSensitiveHelp method
+# IRichEditOleCallback::ContextSensitiveHelp
 
 
 ## -description

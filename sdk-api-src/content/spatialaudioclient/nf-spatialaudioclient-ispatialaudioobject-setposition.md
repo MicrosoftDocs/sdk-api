@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObject.SetPosition
-title: ISpatialAudioObject::SetPosition method
+title: ISpatialAudioObject::SetPosition
 author: windows-driver-content
 description: Sets the position in 3D space, relative to the listener, from which the ISpatialAudioObject audio data will be rendered.
 old-location: coreaudio\ispatialaudioobject_setposition.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: DDF4859E-6510-45D5-82E7-2C5A7F2EC679
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ISpatialAudioObject, ISpatialAudioObject interface [Core Audio], SetPosition method, ISpatialAudioObject::SetPosition, SetPosition method [Core Audio], SetPosition method [Core Audio], ISpatialAudioObject interface, SetPosition,ISpatialAudioObject.SetPosition, coreaudio.ispatialaudioobject_setposition, spatialaudioclient/ISpatialAudioObject::SetPosition
+ms.keywords: ISpatialAudioObject interface [Core Audio],SetPosition method, ISpatialAudioObject.SetPosition, ISpatialAudioObject::SetPosition, SetPosition, SetPosition method [Core Audio], SetPosition method [Core Audio],ISpatialAudioObject interface, coreaudio.ispatialaudioobject_setposition, spatialaudioclient/ISpatialAudioObject::SetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioObject::SetPosition method
+# ISpatialAudioObject::SetPosition
 
 
 ## -description

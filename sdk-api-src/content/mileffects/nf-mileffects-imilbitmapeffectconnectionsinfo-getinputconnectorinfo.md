@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectionsInfo.GetInputConnectorInfo
-title: IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo method
+title: IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo
 author: windows-driver-content
 description: Retrieves the IMILBitmapEffectConnectorInfo associated with the given input pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getinputconnectorinfo.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\getinputconnectorinfo.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetInputConnectorInfo method [WPF Bitmap Effects], GetInputConnectorInfo method [WPF Bitmap Effects], IMILBitmapEffectConnectionsInfo interface, GetInputConnectorInfo,IMILBitmapEffectConnectionsInfo.GetInputConnectorInfo, IMILBitmapEffectConnectionsInfo, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects], GetInputConnectorInfo method, IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo, _wibe_imilbitmapeffectconnectionsinfo_getinputconnectorinfo, mileffects/IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo, wibe._wibe_imilbitmapeffectconnectionsinfo_getinputconnectorinfo
+ms.keywords: GetInputConnectorInfo, GetInputConnectorInfo method [WPF Bitmap Effects], GetInputConnectorInfo method [WPF Bitmap Effects],IMILBitmapEffectConnectionsInfo interface, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],GetInputConnectorInfo method, IMILBitmapEffectConnectionsInfo.GetInputConnectorInfo, IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo, _wibe_imilbitmapeffectconnectionsinfo_getinputconnectorinfo, mileffects/IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo, wibe._wibe_imilbitmapeffectconnectionsinfo_getinputconnectorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo method
+# IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo
 
 
 ## -description

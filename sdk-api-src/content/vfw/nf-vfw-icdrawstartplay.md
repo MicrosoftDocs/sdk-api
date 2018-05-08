@@ -7,7 +7,7 @@ old-location: multimedia\icdrawstartplay.htm
 old-project: Multimedia
 ms.assetid: 74957f08-2912-4e5e-af45-7dc66b405bc2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: ICDrawStartPlay, ICDrawStartPlay macro [Windows Multimedia], _win32_ICDrawStartPlay, multimedia.icdrawstartplay, vfw/ICDrawStartPlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

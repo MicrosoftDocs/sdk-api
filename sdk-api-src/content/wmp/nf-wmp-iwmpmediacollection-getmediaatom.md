@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getMediaAtom
-title: IWMPMediaCollection::getMediaAtom method
+title: IWMPMediaCollection::getMediaAtom
 author: windows-driver-content
 description: The getMediaAtom method retrieves the index at which a given attribute resides within the set of available attributes.
 old-location: wmp\iwmpmediacollection_getmediaatom.htm
 old-project: WMP
 ms.assetid: 22024108-398e-4a05-b5ed-311583c69497
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], getMediaAtom method, IWMPMediaCollection::getMediaAtom, IWMPMediaCollectiongetMediaAtom, getMediaAtom method [Windows Media Player], getMediaAtom method [Windows Media Player], IWMPMediaCollection interface, getMediaAtom,IWMPMediaCollection.getMediaAtom, wmp.iwmpmediacollection_getmediaatom, wmp/IWMPMediaCollection::getMediaAtom
+ms.date: 5/4/2018
+ms.keywords: IWMPMediaCollection interface [Windows Media Player],getMediaAtom method, IWMPMediaCollection.getMediaAtom, IWMPMediaCollection::getMediaAtom, IWMPMediaCollectiongetMediaAtom, getMediaAtom, getMediaAtom method [Windows Media Player], getMediaAtom method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getmediaatom, wmp/IWMPMediaCollection::getMediaAtom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMediaCollection::getMediaAtom method
+# IWMPMediaCollection::getMediaAtom
 
 
 ## -description

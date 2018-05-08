@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.CheckMemory
-title: IAMDevMemoryAllocator::CheckMemory method
+title: IAMDevMemoryAllocator::CheckMemory
 author: windows-driver-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Tests whether the specific instance (device) of the allocator allocated a memory pointer.
 old-location: dshow\iamdevmemoryallocator_checkmemory.htm
 old-project: DirectShow
 ms.assetid: d51be809-4a97-4098-9ef3-8ed6603f26c0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CheckMemory method [DirectShow], CheckMemory method [DirectShow], IAMDevMemoryAllocator interface, CheckMemory,IAMDevMemoryAllocator.CheckMemory, IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow], CheckMemory method, IAMDevMemoryAllocator::CheckMemory, IAMDevMemoryAllocatorCheckMemory, dshow.iamdevmemoryallocator_checkmemory, strmif/IAMDevMemoryAllocator::CheckMemory
+ms.date: 4/30/2018
+ms.keywords: CheckMemory, CheckMemory method [DirectShow], CheckMemory method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],CheckMemory method, IAMDevMemoryAllocator.CheckMemory, IAMDevMemoryAllocator::CheckMemory, IAMDevMemoryAllocatorCheckMemory, dshow.iamdevmemoryallocator_checkmemory, strmif/IAMDevMemoryAllocator::CheckMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMDevMemoryAllocator::CheckMemory method
+# IAMDevMemoryAllocator::CheckMemory
 
 
 ## -description

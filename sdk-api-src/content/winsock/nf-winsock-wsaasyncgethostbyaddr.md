@@ -7,7 +7,7 @@ old-location: winsock\wsaasyncgethostbyaddr_2.htm
 old-project: WinSock
 ms.assetid: 814cbb2e-8dd2-44b0-b8be-cfc5491bdc49
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: WSAAsyncGetHostByAddr, WSAAsyncGetHostByAddr function [Winsock], _win32_wsaasyncgethostbyaddr_2, winsock.wsaasyncgethostbyaddr_2, wsipv6ok/WSAAsyncGetHostByAddr
 ms.prod: windows-hardware
 ms.technology: windows-devices

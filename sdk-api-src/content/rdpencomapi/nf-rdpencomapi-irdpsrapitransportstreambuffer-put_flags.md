@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.put_Flags
-title: IRDPSRAPITransportStreamBuffer::put_Flags method
+title: IRDPSRAPITransportStreamBuffer::put_Flags
 author: windows-driver-content
 description: Retrieves or specifies options for the stream buffer.
 old-location: rdp\irdpsrapitransportstreambuffer_flags.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 505ff729-258c-4919-9985-a8a3a9f09871
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: Flags property [RDP], Flags property [RDP], IRDPSRAPITransportStreamBuffer interface, IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer interface [RDP], Flags property, IRDPSRAPITransportStreamBuffer.Flags, IRDPSRAPITransportStreamBuffer::get_Flags, IRDPSRAPITransportStreamBuffer::put_Flags, put_Flags,IRDPSRAPITransportStreamBuffer.put_Flags, rdp.irdpsrapitransportstreambuffer_flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::Flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_Flags
+ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPITransportStreamBuffer interface, IRDPSRAPITransportStreamBuffer interface [RDP],Flags property, IRDPSRAPITransportStreamBuffer.Flags, IRDPSRAPITransportStreamBuffer.put_Flags, IRDPSRAPITransportStreamBuffer::Flags, IRDPSRAPITransportStreamBuffer::get_Flags, IRDPSRAPITransportStreamBuffer::put_Flags, put_Flags, rdp.irdpsrapitransportstreambuffer_flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::Flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_Flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITransportStreamBuffer::put_Flags method
+# IRDPSRAPITransportStreamBuffer::put_Flags
 
 
 ## -description

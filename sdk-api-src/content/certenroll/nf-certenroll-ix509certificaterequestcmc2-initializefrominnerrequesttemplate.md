@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate
-title: IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate method
+title: IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate
 author: windows-driver-content
 description: Initializes the certificate request from an inner request object and a template.
 old-location: security\ix509certificaterequestcmc2_initializefrominnerrequesttemplate.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 12490859-bb4a-49ff-9d92-24bf04ab3999
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestCmc2, IX509CertificateRequestCmc2 interface [Security], InitializeFromInnerRequestTemplate method, IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, InitializeFromInnerRequestTemplate method [Security], InitializeFromInnerRequestTemplate method [Security], IX509CertificateRequestCmc2 interface, InitializeFromInnerRequestTemplate,IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate, certenroll/IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, security.ix509certificaterequestcmc2_initializefrominnerrequesttemplate
+ms.keywords: IX509CertificateRequestCmc2 interface [Security],InitializeFromInnerRequestTemplate method, IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate, IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, InitializeFromInnerRequestTemplate, InitializeFromInnerRequestTemplate method [Security], InitializeFromInnerRequestTemplate method [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, security.ix509certificaterequestcmc2_initializefrominnerrequesttemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate method
+# IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate
 
 
 ## -description

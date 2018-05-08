@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IAdviseSink.OnDataChange
-title: IAdviseSink::OnDataChange method
+title: IAdviseSink::OnDataChange
 author: windows-driver-content
 description: Called by the server to notify a data object's currently registered advise sinks that data in the object has changed.
 old-location: com\iadvisesink_ondatachange.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 834a5328-3a1f-4edb-aad0-be8ab87acb04
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAdviseSink, IAdviseSink interface [COM], OnDataChange method, IAdviseSink::OnDataChange, OnDataChange method [COM], OnDataChange method [COM], IAdviseSink interface, OnDataChange,IAdviseSink.OnDataChange, _ole_iadvisesink_ondatachange, com.iadvisesink_ondatachange, objidl/IAdviseSink::OnDataChange
+ms.keywords: IAdviseSink interface [COM],OnDataChange method, IAdviseSink.OnDataChange, IAdviseSink::OnDataChange, OnDataChange, OnDataChange method [COM], OnDataChange method [COM],IAdviseSink interface, _ole_iadvisesink_ondatachange, com.iadvisesink_ondatachange, objidl/IAdviseSink::OnDataChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAdviseSink::OnDataChange method
+# IAdviseSink::OnDataChange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.SetParameters
-title: ITask::SetParameters method
+title: ITask::SetParameters
 author: windows-driver-content
 description: This method sets the command-line parameters for the task.
 old-location: taskschd\itask_setparameters.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 094dcd8f-35aa-4300-b58d-c846bca1c88c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITask, ITask interface [Task Scheduler], SetParameters method, ITask::SetParameters, SetParameters method [Task Scheduler], SetParameters method [Task Scheduler], ITask interface, SetParameters,ITask.SetParameters, _msb_itask_setparameters, mstask/ITask::SetParameters, taskschd.itask_setparameters
+ms.keywords: ITask interface [Task Scheduler],SetParameters method, ITask.SetParameters, ITask::SetParameters, SetParameters, SetParameters method [Task Scheduler], SetParameters method [Task Scheduler],ITask interface, _msb_itask_setparameters, mstask/ITask::SetParameters, taskschd.itask_setparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITask::SetParameters method
+# ITask::SetParameters
 
 
 ## -description

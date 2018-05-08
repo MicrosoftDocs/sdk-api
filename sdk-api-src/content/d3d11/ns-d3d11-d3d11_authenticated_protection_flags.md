@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_protection_flags.htm
 old-project: medfound
 ms.assetid: 037AB541-2E68-460C-8626-7F22C6C3E425
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: D3D11_AUTHENTICATED_PROTECTION_FLAGS, D3D11_AUTHENTICATED_PROTECTION_FLAGS union [Media Foundation], d3d11/D3D11_AUTHENTICATED_PROTECTION_FLAGS, mf.d3d11_authenticated_protection_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,22 +60,19 @@ Specifies the protection level for video content.
 ### -field Flags
 
 
-
-#### ProtectionEnabled
+### -field Flags.ProtectionEnabled
 
 If 1, video content protection is enabled.
 
 
 
 
-
-#### OverlayOrFullscreenRequired
+### -field Flags.OverlayOrFullscreenRequired
 
 If 1, the application requires video to be displayed using either a hardware overlay or full-screen exclusive mode.
 
 
-
-#### Reserved
+### -field Flags.Reserved
 
 Reserved. Set all bits to zero.
 

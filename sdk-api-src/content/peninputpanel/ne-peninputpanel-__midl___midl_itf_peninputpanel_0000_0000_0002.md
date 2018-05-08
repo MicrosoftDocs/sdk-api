@@ -7,7 +7,7 @@ old-location: tablet\inplacestate.htm
 old-project: tablet
 ms.assetid: 95642cbf-4520-44cc-95ba-80de1fe3b447
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/2/2018
 ms.keywords: 95642cbf-4520-44cc-95ba-80de1fe3b447, InPlaceState, InPlaceState enumeration [Tablet PC], InPlaceState_Auto, InPlaceState_Expanded, InPlaceState_HoverTarget, __MIDL___MIDL_itf_peninputpanel_0000_0000_0002, peninputpanel/InPlaceState, peninputpanel/InPlaceState_Auto, peninputpanel/InPlaceState_Expanded, peninputpanel/InPlaceState_HoverTarget, tablet.inplacestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

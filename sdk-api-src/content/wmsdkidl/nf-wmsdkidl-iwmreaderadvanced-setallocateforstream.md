@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetAllocateForStream
-title: IWMReaderAdvanced::SetAllocateForStream method
+title: IWMReaderAdvanced::SetAllocateForStream
 author: windows-driver-content
 description: The SetAllocateForStream method specifies whether the reader uses IWMReaderCallbackAdvanced::AllocateForStream to allocate buffers for stream samples.
 old-location: wmformat\iwmreaderadvanced_setallocateforstream.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 58c396a9-5d1e-4a13-a877-5289649a6375
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], SetAllocateForStream method, IWMReaderAdvanced::SetAllocateForStream, IWMReaderAdvancedSetAllocateForStream, SetAllocateForStream method [windows Media Format], SetAllocateForStream method [windows Media Format], IWMReaderAdvanced interface, SetAllocateForStream,IWMReaderAdvanced.SetAllocateForStream, wmformat.iwmreaderadvanced_setallocateforstream, wmsdkidl/IWMReaderAdvanced::SetAllocateForStream
+ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetAllocateForStream method, IWMReaderAdvanced.SetAllocateForStream, IWMReaderAdvanced::SetAllocateForStream, IWMReaderAdvancedSetAllocateForStream, SetAllocateForStream, SetAllocateForStream method [windows Media Format], SetAllocateForStream method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setallocateforstream, wmsdkidl/IWMReaderAdvanced::SetAllocateForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced::SetAllocateForStream method
+# IWMReaderAdvanced::SetAllocateForStream
 
 
 ## -description

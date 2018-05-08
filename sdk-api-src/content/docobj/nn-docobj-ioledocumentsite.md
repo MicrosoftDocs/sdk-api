@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: cac435c9-caee-4751-9ad8-df48b6d4c7e0
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleDocumentSite, IOleDocumentSite interface [COM], IOleDocumentSite interface [COM], described, _ole_ioledocumentsite, com.ioledocumentsite, docobj/IOleDocumentSite
+ms.keywords: IOleDocumentSite, IOleDocumentSite interface [COM], IOleDocumentSite interface [COM],described, _ole_ioledocumentsite, com.ioledocumentsite, docobj/IOleDocumentSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

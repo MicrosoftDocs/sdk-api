@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QuerySyntax
-title: ISearchQueryHelper::get_QuerySyntax method
+title: ISearchQueryHelper::get_QuerySyntax
 author: windows-driver-content
 description: Gets the syntax of the query.
 old-location: search\_search_ISearchQueryHelper_get_QuerySyntax.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querysyntax.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchQueryHelper, ISearchQueryHelper interface [search], get_QuerySyntax method, ISearchQueryHelper::get_QuerySyntax, _search_ISearchQueryHelper_get_QuerySyntax, get_QuerySyntax method [search], get_QuerySyntax method [search], ISearchQueryHelper interface, get_QuerySyntax,ISearchQueryHelper.get_QuerySyntax, search._search_ISearchQueryHelper_get_QuerySyntax, searchapi/ISearchQueryHelper::get_QuerySyntax
+ms.date: 5/4/2018
+ms.keywords: ISearchQueryHelper interface [search],get_QuerySyntax method, ISearchQueryHelper.get_QuerySyntax, ISearchQueryHelper::get_QuerySyntax, _search_ISearchQueryHelper_get_QuerySyntax, get_QuerySyntax, get_QuerySyntax method [search], get_QuerySyntax method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QuerySyntax, searchapi/ISearchQueryHelper::get_QuerySyntax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchQueryHelper::get_QuerySyntax method
+# ISearchQueryHelper::get_QuerySyntax
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent2.UpdateObjectWithPropertiesAndData
-title: IPortableDeviceContent2::UpdateObjectWithPropertiesAndData method
+title: IPortableDeviceContent2::UpdateObjectWithPropertiesAndData
 author: windows-driver-content
 description: Updates an object by using properties and data found on the device.
 old-location: wpdsdk\iportabledevicecontent2_updateobjectwithpropertiesanddata.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 43b8cf90-1c3f-43c2-a11f-cc4aef10bcf5
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceContent2, IPortableDeviceContent2 interface [Windows Portable Devices SDK], UpdateObjectWithPropertiesAndData method, IPortableDeviceContent2::UpdateObjectWithPropertiesAndData, UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK], UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK], IPortableDeviceContent2 interface, UpdateObjectWithPropertiesAndData,IPortableDeviceContent2.UpdateObjectWithPropertiesAndData, portabledeviceapi/IPortableDeviceContent2::UpdateObjectWithPropertiesAndData, wpdsdk.iportabledevicecontent2_updateobjectwithpropertiesanddata
+ms.keywords: IPortableDeviceContent2 interface [Windows Portable Devices SDK],UpdateObjectWithPropertiesAndData method, IPortableDeviceContent2.UpdateObjectWithPropertiesAndData, IPortableDeviceContent2::UpdateObjectWithPropertiesAndData, UpdateObjectWithPropertiesAndData, UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK], UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK],IPortableDeviceContent2 interface, portabledeviceapi/IPortableDeviceContent2::UpdateObjectWithPropertiesAndData, wpdsdk.iportabledevicecontent2_updateobjectwithpropertiesanddata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceContent2::UpdateObjectWithPropertiesAndData method
+# IPortableDeviceContent2::UpdateObjectWithPropertiesAndData
 
 
 ## -description

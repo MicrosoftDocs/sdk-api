@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetPostViewFormat
-title: IWMWriterPostView::GetPostViewFormat method
+title: IWMWriterPostView::GetPostViewFormat
 author: windows-driver-content
 description: The GetPostViewFormat method retrieves the media properties for the specified output stream and output format.
 old-location: wmformat\iwmwriterpostview_getpostviewformat.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3636833d-3c96-45d9-bf82-e3ff930c7d9b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetPostViewFormat method [windows Media Format], GetPostViewFormat method [windows Media Format], IWMWriterPostView interface, GetPostViewFormat,IWMWriterPostView.GetPostViewFormat, IWMWriterPostView, IWMWriterPostView interface [windows Media Format], GetPostViewFormat method, IWMWriterPostView::GetPostViewFormat, IWMWriterPostViewGetPostViewFormat, wmformat.iwmwriterpostview_getpostviewformat, wmsdkidl/IWMWriterPostView::GetPostViewFormat
+ms.keywords: GetPostViewFormat, GetPostViewFormat method [windows Media Format], GetPostViewFormat method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewFormat method, IWMWriterPostView.GetPostViewFormat, IWMWriterPostView::GetPostViewFormat, IWMWriterPostViewGetPostViewFormat, wmformat.iwmwriterpostview_getpostviewformat, wmsdkidl/IWMWriterPostView::GetPostViewFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPostView::GetPostViewFormat method
+# IWMWriterPostView::GetPostViewFormat
 
 
 ## -description

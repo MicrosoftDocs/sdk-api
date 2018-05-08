@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuner.Validate
-title: ITuner::Validate method
+title: ITuner::Validate
 author: windows-driver-content
 description: The Validate method returns a value indicating that the tune request can be carried out.
 old-location: mstv\ituner_validate.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 10b238b1-1c71-4104-8c2d-f8446f0a3466
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], Validate method, ITuner::Validate, ITunerValidate, Validate method [Microsoft TV Technologies], Validate method [Microsoft TV Technologies], ITuner interface, Validate,ITuner.Validate, mstv.ituner_validate, tuner/ITuner::Validate
+ms.keywords: ITuner interface [Microsoft TV Technologies],Validate method, ITuner.Validate, ITuner::Validate, ITunerValidate, Validate, Validate method [Microsoft TV Technologies], Validate method [Microsoft TV Technologies],ITuner interface, mstv.ituner_validate, tuner/ITuner::Validate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuner::Validate method
+# ITuner::Validate
 
 
 ## -description

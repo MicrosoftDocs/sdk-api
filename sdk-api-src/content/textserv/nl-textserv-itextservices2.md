@@ -7,8 +7,8 @@ old-location: controls\itextservices2.htm
 old-project: Controls
 ms.assetid: B5DC90BA-F9A5-45DC-8C8A-784380C38769
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextServices2, ITextServices2 interface [Windows Controls], ITextServices2 interface [Windows Controls], described, controls.itextservices2, textserv/ITextServices2
+ms.date: 4/27/2018
+ms.keywords: ITextServices2, ITextServices2 interface [Windows Controls], ITextServices2 interface [Windows Controls],described, controls.itextservices2, textserv/ITextServices2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

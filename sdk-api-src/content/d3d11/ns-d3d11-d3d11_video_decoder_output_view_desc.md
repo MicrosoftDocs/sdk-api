@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_decoder_output_view_desc.htm
 old-project: medfound
 ms.assetid: 0A0C29C5-C3A3-43E7-86DA-1849AC276060
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC, D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC, mf.d3d11_video_decoder_output_view_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ The decoding profile. To get the list of profiles supported by the device, call 
 The resource type of the view, specified as a member of the <a href="https://msdn.microsoft.com/079460EB-A7D4-4C8C-B7CA-9A6FFB3B0FA8">D3D11_VDOV_DIMENSION</a> enumeration.
 
 
-#### - Texture2D
+### -field Texture2D
 
 A <a href="https://msdn.microsoft.com/A25BB0AA-8CC9-4DA0-B4BE-8C107E9203F0">D3D11_TEX2D_VDOV</a> structure that identifies the texture resource for the output view.
 

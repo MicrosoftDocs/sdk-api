@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule.get_Name
-title: INetFwRule::get_Name method
+title: INetFwRule::get_Name
 author: windows-driver-content
 description: Specifies the friendly name of this rule.
 old-location: ics\inetfwrule_name.htm
 old-project: ICS
 ms.assetid: 669ea684-5b00-4b60-8259-fad02cca572b
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], Name property, INetFwRule.Name, INetFwRule::get_Name, INetFwRule::put_Name, Name property [ICS/ICF], Name property [ICS/ICF], INetFwRule interface, get_Name,INetFwRule.get_Name, ics.inetfwrule_name, netfw/INetFwRule::Name, netfw/INetFwRule::get_Name, netfw/INetFwRule::put_Name
+ms.date: 5/1/2018
+ms.keywords: INetFwRule interface [ICS/ICF],Name property, INetFwRule.Name, INetFwRule.get_Name, INetFwRule::Name, INetFwRule::get_Name, INetFwRule::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwRule interface, get_Name, ics.inetfwrule_name, netfw/INetFwRule::Name, netfw/INetFwRule::get_Name, netfw/INetFwRule::put_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule::get_Name method
+# INetFwRule::get_Name
 
 
 ## -description

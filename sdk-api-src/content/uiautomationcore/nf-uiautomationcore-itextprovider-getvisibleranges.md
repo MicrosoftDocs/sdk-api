@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextProvider.GetVisibleRanges
-title: ITextProvider::GetVisibleRanges method
+title: ITextProvider::GetVisibleRanges
 author: windows-driver-content
 description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.
 old-location: winauto\uiauto_ITextProvider_GetVisibleRanges.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: dc706d1d-b32d-4bc3-b65a-c42b38f06a93
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetVisibleRanges method [Windows Accessibility], GetVisibleRanges method [Windows Accessibility], ITextProvider interface, GetVisibleRanges,ITextProvider.GetVisibleRanges, ITextProvider, ITextProvider interface [Windows Accessibility], GetVisibleRanges method, ITextProvider::GetVisibleRanges, uiauto.uiauto_ITextProvider_GetVisibleRanges, uiauto_ITextProvider_GetVisibleRanges, uiautomationcore/ITextProvider::GetVisibleRanges, winauto.uiauto_ITextProvider_GetVisibleRanges
+ms.keywords: GetVisibleRanges, GetVisibleRanges method [Windows Accessibility], GetVisibleRanges method [Windows Accessibility],ITextProvider interface, ITextProvider interface [Windows Accessibility],GetVisibleRanges method, ITextProvider.GetVisibleRanges, ITextProvider::GetVisibleRanges, uiauto.uiauto_ITextProvider_GetVisibleRanges, uiauto_ITextProvider_GetVisibleRanges, uiautomationcore/ITextProvider::GetVisibleRanges, winauto.uiauto_ITextProvider_GetVisibleRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextProvider::GetVisibleRanges method
+# ITextProvider::GetVisibleRanges
 
 
 ## -description

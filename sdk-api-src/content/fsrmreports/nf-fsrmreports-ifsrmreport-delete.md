@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.Delete
-title: IFsrmReport::Delete method
+title: IFsrmReport::Delete
 author: windows-driver-content
 description: Removes this report object from the report job object.
 old-location: fsrm\ifsrmreport_delete.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: b50139bc-c584-4bed-bf2e-34f1fef16e6d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Delete method [File Server Resource Manager], Delete method [File Server Resource Manager], IFsrmReport interface, Delete,IFsrmReport.Delete, IFsrmReport, IFsrmReport interface [File Server Resource Manager], Delete method, IFsrmReport::Delete, fs.ifsrmreport_delete, fsrm.ifsrmreport_delete, fsrmreports/IFsrmReport::Delete
+ms.keywords: Delete, Delete method [File Server Resource Manager], Delete method [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],Delete method, IFsrmReport.Delete, IFsrmReport::Delete, fs.ifsrmreport_delete, fsrm.ifsrmreport_delete, fsrmreports/IFsrmReport::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReport::Delete method
+# IFsrmReport::Delete
 
 
 ## -description

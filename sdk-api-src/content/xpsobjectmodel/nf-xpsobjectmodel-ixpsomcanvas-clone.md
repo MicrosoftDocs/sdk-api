@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.Clone
-title: IXpsOMCanvas::Clone method
+title: IXpsOMCanvas::Clone
 author: windows-driver-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomcanvas_clone.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 2411fca6-2d36-4704-83a6-0086c6be0e2a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging], IXpsOMCanvas interface, Clone,IXpsOMCanvas.Clone, IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], Clone method, IXpsOMCanvas::Clone, xps.ixpsomcanvas_clone, xpsobjectmodel/IXpsOMCanvas::Clone
+ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],Clone method, IXpsOMCanvas.Clone, IXpsOMCanvas::Clone, xps.ixpsomcanvas_clone, xpsobjectmodel/IXpsOMCanvas::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCanvas::Clone method
+# IXpsOMCanvas::Clone
 
 
 ## -description

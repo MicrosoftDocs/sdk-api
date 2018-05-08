@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetErrorCode
-title: ISettingsResult::GetErrorCode method
+title: ISettingsResult::GetErrorCode
 author: windows-driver-content
 description: Returns the HRESULT error code value.
 old-location: smi\isettingsresult_geterrorcode.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: c0044133-480e-4b40-ad3f-b3d65e259029
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetErrorCode method [SMI], GetErrorCode method [SMI], ISettingsResult interface, GetErrorCode,ISettingsResult.GetErrorCode, ISettingsResult, ISettingsResult interface [SMI], GetErrorCode method, ISettingsResult::GetErrorCode, smi.isettingsresult_geterrorcode, wcmconfig/ISettingsResult::GetErrorCode
+ms.keywords: GetErrorCode, GetErrorCode method [SMI], GetErrorCode method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetErrorCode method, ISettingsResult.GetErrorCode, ISettingsResult::GetErrorCode, smi.isettingsresult_geterrorcode, wcmconfig/ISettingsResult::GetErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsResult::GetErrorCode method
+# ISettingsResult::GetErrorCode
 
 
 ## -description

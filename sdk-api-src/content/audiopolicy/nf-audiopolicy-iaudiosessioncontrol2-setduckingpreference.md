@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl2.SetDuckingPreference
-title: IAudioSessionControl2::SetDuckingPreference method
+title: IAudioSessionControl2::SetDuckingPreference
 author: windows-driver-content
 description: The SetDuckingPreference method enables or disables the default stream attenuation experience (auto-ducking) provided by the system.
 old-location: coreaudio\iaudiosessioncontrol2_setduckingpreference.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 6689d7e4-9c45-483d-9f46-14d157726b02
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioSessionControl2, IAudioSessionControl2 interface [Core Audio], SetDuckingPreference method, IAudioSessionControl2::SetDuckingPreference, SetDuckingPreference method [Core Audio], SetDuckingPreference method [Core Audio], IAudioSessionControl2 interface, SetDuckingPreference,IAudioSessionControl2.SetDuckingPreference, audiopolicy/IAudioSessionControl2::SetDuckingPreference, coreaudio.iaudiosessioncontrol2_setduckingpreference
+ms.keywords: IAudioSessionControl2 interface [Core Audio],SetDuckingPreference method, IAudioSessionControl2.SetDuckingPreference, IAudioSessionControl2::SetDuckingPreference, SetDuckingPreference, SetDuckingPreference method [Core Audio], SetDuckingPreference method [Core Audio],IAudioSessionControl2 interface, audiopolicy/IAudioSessionControl2::SetDuckingPreference, coreaudio.iaudiosessioncontrol2_setduckingpreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioSessionControl2::SetDuckingPreference method
+# IAudioSessionControl2::SetDuckingPreference
 
 
 ## -description

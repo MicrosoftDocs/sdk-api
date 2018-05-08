@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDeviceManager.GetRevision
-title: IWMDeviceManager::GetRevision method
+title: IWMDeviceManager::GetRevision
 author: windows-driver-content
 description: The GetRevision method retrieves the version number of Windows Media Device Manager currently in use.
 old-location: wmdm\iwmdevicemanager_getrevision.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 3ecb84cc-eaa5-436c-b5f1-50705462b88b
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetRevision method [windows Media Device Manager], GetRevision method [windows Media Device Manager], IWMDeviceManager interface, GetRevision,IWMDeviceManager.GetRevision, IWMDeviceManager, IWMDeviceManager interface [windows Media Device Manager], GetRevision method, IWMDeviceManager::GetRevision, IWMDeviceManagerGetRevision, mswmdm/IWMDeviceManager::GetRevision, wmdm.iwmdevicemanager_getrevision
+ms.keywords: GetRevision, GetRevision method [windows Media Device Manager], GetRevision method [windows Media Device Manager],IWMDeviceManager interface, IWMDeviceManager interface [windows Media Device Manager],GetRevision method, IWMDeviceManager.GetRevision, IWMDeviceManager::GetRevision, IWMDeviceManagerGetRevision, mswmdm/IWMDeviceManager::GetRevision, wmdm.iwmdevicemanager_getrevision
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDeviceManager::GetRevision method
+# IWMDeviceManager::GetRevision
 
 
 ## -description

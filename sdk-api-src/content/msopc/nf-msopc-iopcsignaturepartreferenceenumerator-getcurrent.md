@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceEnumerator.GetCurrent
-title: IOpcSignaturePartReferenceEnumerator::GetCurrent method
+title: IOpcSignaturePartReferenceEnumerator::GetCurrent
 author: windows-driver-content
 description: Gets the IOpcSignaturePartReference interface pointer at the current position of the enumerator.
 old-location: opc\iopcsignaturepartreferenceenumerator_getcurrent.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: ce5e90dd-9bf3-4632-a957-f468bf91415d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions], IOpcSignaturePartReferenceEnumerator interface, GetCurrent,IOpcSignaturePartReferenceEnumerator.GetCurrent, IOpcSignaturePartReferenceEnumerator, IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions], GetCurrent method, IOpcSignaturePartReferenceEnumerator::GetCurrent, msopc/IOpcSignaturePartReferenceEnumerator::GetCurrent, opc.iopcsignaturepartreferenceenumerator_getcurrent
+ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcSignaturePartReferenceEnumerator interface, IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcSignaturePartReferenceEnumerator.GetCurrent, IOpcSignaturePartReferenceEnumerator::GetCurrent, msopc/IOpcSignaturePartReferenceEnumerator::GetCurrent, opc.iopcsignaturepartreferenceenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignaturePartReferenceEnumerator::GetCurrent method
+# IOpcSignaturePartReferenceEnumerator::GetCurrent
 
 
 ## -description

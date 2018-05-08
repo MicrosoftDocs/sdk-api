@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetBidiLevel
-title: IXpsOMGlyphs::GetBidiLevel method
+title: IXpsOMGlyphs::GetBidiLevel
 author: windows-driver-content
 description: Gets the level of bidirectional text.
 old-location: xps\ixpsomglyphs_getbidilevel.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 17110bb7-1ae9-41ef-aed1-8f1c00569825
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetBidiLevel method [XPS Documents and Packaging], GetBidiLevel method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetBidiLevel,IXpsOMGlyphs.GetBidiLevel, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetBidiLevel method, IXpsOMGlyphs::GetBidiLevel, xps.ixpsomglyphs_getbidilevel, xpsobjectmodel/IXpsOMGlyphs::GetBidiLevel
+ms.keywords: GetBidiLevel, GetBidiLevel method [XPS Documents and Packaging], GetBidiLevel method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetBidiLevel method, IXpsOMGlyphs.GetBidiLevel, IXpsOMGlyphs::GetBidiLevel, xps.ixpsomglyphs_getbidilevel, xpsobjectmodel/IXpsOMGlyphs::GetBidiLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetBidiLevel method
+# IXpsOMGlyphs::GetBidiLevel
 
 
 ## -description

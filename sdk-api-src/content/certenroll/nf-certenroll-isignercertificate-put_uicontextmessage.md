@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.put_UIContextMessage
-title: ISignerCertificate::put_UIContextMessage method
+title: ISignerCertificate::put_UIContextMessage
 author: windows-driver-content
 description: Specifies or retrieves a string that contains user interface text associated with the signing certificate.
 old-location: security\isignercertificate_uicontextmessage_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 0fd874b0-9093-4c1b-94a0-a2aaad19010e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ISignerCertificate, ISignerCertificate interface [Security], UIContextMessage property, ISignerCertificate.UIContextMessage, ISignerCertificate::get_UIContextMessage, ISignerCertificate::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security], ISignerCertificate interface, certenroll/ISignerCertificate::UIContextMessage, certenroll/ISignerCertificate::get_UIContextMessage, certenroll/ISignerCertificate::put_UIContextMessage, put_UIContextMessage,ISignerCertificate.put_UIContextMessage, security.isignercertificate_uicontextmessage_property
+ms.keywords: ISignerCertificate interface [Security],UIContextMessage property, ISignerCertificate.UIContextMessage, ISignerCertificate.put_UIContextMessage, ISignerCertificate::UIContextMessage, ISignerCertificate::get_UIContextMessage, ISignerCertificate::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::UIContextMessage, certenroll/ISignerCertificate::get_UIContextMessage, certenroll/ISignerCertificate::put_UIContextMessage, put_UIContextMessage, security.isignercertificate_uicontextmessage_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ISignerCertificate::put_UIContextMessage method
+# ISignerCertificate::put_UIContextMessage
 
 
 ## -description

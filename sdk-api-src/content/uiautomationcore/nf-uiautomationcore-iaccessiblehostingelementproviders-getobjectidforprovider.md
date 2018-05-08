@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAccessibleHostingElementProviders.GetObjectIdForProvider
-title: IAccessibleHostingElementProviders::GetObjectIdForProvider method
+title: IAccessibleHostingElementProviders::GetObjectIdForProvider
 author: windows-driver-content
 description: Retrieves the object ID associated with a contained windowless Microsoft ActiveX control that implements Microsoft UI Automation.
 old-location: winauto\uiauto_IAccessibleHostingElementProviders_GetObjectIdForProvider.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 847F285F-F31D-486C-BBC7-DEED69505306
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetObjectIdForProvider method [Windows Accessibility], GetObjectIdForProvider method [Windows Accessibility], IAccessibleHostingElementProviders interface, GetObjectIdForProvider,IAccessibleHostingElementProviders.GetObjectIdForProvider, IAccessibleHostingElementProviders, IAccessibleHostingElementProviders interface [Windows Accessibility], GetObjectIdForProvider method, IAccessibleHostingElementProviders::GetObjectIdForProvider, uiautomationcore/IAccessibleHostingElementProviders::GetObjectIdForProvider, winauto.uiauto_IAccessibleHostingElementProviders_GetObjectIdForProvider
+ms.keywords: GetObjectIdForProvider, GetObjectIdForProvider method [Windows Accessibility], GetObjectIdForProvider method [Windows Accessibility],IAccessibleHostingElementProviders interface, IAccessibleHostingElementProviders interface [Windows Accessibility],GetObjectIdForProvider method, IAccessibleHostingElementProviders.GetObjectIdForProvider, IAccessibleHostingElementProviders::GetObjectIdForProvider, uiautomationcore/IAccessibleHostingElementProviders::GetObjectIdForProvider, winauto.uiauto_IAccessibleHostingElementProviders_GetObjectIdForProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAccessibleHostingElementProviders::GetObjectIdForProvider method
+# IAccessibleHostingElementProviders::GetObjectIdForProvider
 
 
 ## -description

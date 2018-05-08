@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.ClearChildren
-title: IVisualTreeService::ClearChildren method
+title: IVisualTreeService::ClearChildren
 author: windows-driver-content
 description: Clears all child elements from the parent collection.
 old-location: xaml_diagnostics\ivisualtreeservice_clearchildren.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: E32B07F5-BB62-435A-A869-36A0E93915D9
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: ClearChildren method, ClearChildren method, IVisualTreeService interface, ClearChildren,IVisualTreeService.ClearChildren, IVisualTreeService, IVisualTreeService interface, ClearChildren method, IVisualTreeService::ClearChildren, xaml_diagnostics.ivisualtreeservice_clearchildren, xamlom/IVisualTreeService::ClearChildren
+ms.keywords: ClearChildren, ClearChildren method, ClearChildren method,IVisualTreeService interface, IVisualTreeService interface,ClearChildren method, IVisualTreeService.ClearChildren, IVisualTreeService::ClearChildren, xaml_diagnostics.ivisualtreeservice_clearchildren, xamlom/IVisualTreeService::ClearChildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeService::ClearChildren method
+# IVisualTreeService::ClearChildren
 
 
 ## -description

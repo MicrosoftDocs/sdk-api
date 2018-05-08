@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.remove_SpellCheckerChanged
-title: ISpellChecker::remove_SpellCheckerChanged method
+title: ISpellChecker::remove_SpellCheckerChanged
 author: windows-driver-content
 description: Removes an event handler (ISpellCheckerChangedEventHandler) that has been added for the SpellCheckerChanged event.
 old-location: intl\ispellchecker_remove_spellcheckerchanged.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 66f62590-2d86-4747-a9e8-ea02f26eeb4d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], remove_SpellCheckerChanged method, ISpellChecker::remove_SpellCheckerChanged, intl.ispellchecker_remove_spellcheckerchanged, remove_SpellCheckerChanged method [Internationalization for Windows Applications], remove_SpellCheckerChanged method [Internationalization for Windows Applications], ISpellChecker interface, remove_SpellCheckerChanged,ISpellChecker.remove_SpellCheckerChanged, spellcheck/ISpellChecker::remove_SpellCheckerChanged
+ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],remove_SpellCheckerChanged method, ISpellChecker.remove_SpellCheckerChanged, ISpellChecker::remove_SpellCheckerChanged, intl.ispellchecker_remove_spellcheckerchanged, remove_SpellCheckerChanged, remove_SpellCheckerChanged method [Internationalization for Windows Applications], remove_SpellCheckerChanged method [Internationalization for Windows Applications],ISpellChecker interface, spellcheck/ISpellChecker::remove_SpellCheckerChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellChecker::remove_SpellCheckerChanged method
+# ISpellChecker::remove_SpellCheckerChanged
 
 
 ## -description

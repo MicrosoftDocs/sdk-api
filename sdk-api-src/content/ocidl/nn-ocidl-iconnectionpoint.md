@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ef5a917c-b57f-4000-8daa-86fdbfb47579
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IConnectionPoint, IConnectionPoint interface [COM], IConnectionPoint interface [COM], described, _com_iconnectionpoint, com.iconnectionpoint, ocidl/IConnectionPoint
+ms.keywords: IConnectionPoint, IConnectionPoint interface [COM], IConnectionPoint interface [COM],described, _com_iconnectionpoint, com.iconnectionpoint, ocidl/IConnectionPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

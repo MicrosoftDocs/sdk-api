@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_SenderDept
-title: IFaxJob::get_SenderDept method
+title: IFaxJob::get_SenderDept
 author: windows-driver-content
 description: The SenderDept property is a null-terminated string that contains the department identifier for the sender of the fax job. The SenderDept property applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_get_senderdept_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_71mc.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxJob object [Fax Service], SenderDept property, IFaxJob, IFaxJob::get_SenderDept, SenderDept property [Fax Service], SenderDept property [Fax Service], FaxJob object, _mfax_ifaxjob_get_senderdept, fax._mfax_ifaxjob_get_senderdept, fax._mfax_ifaxjob_get_senderdept_vb, get_SenderDept,IFaxJob.get_SenderDept
+ms.keywords: FaxJob object [Fax Service],SenderDept property, FaxJob.SenderDept, IFaxJob.get_SenderDept, IFaxJob::get_SenderDept, SenderDept property [Fax Service], SenderDept property [Fax Service],FaxJob object, _mfax_ifaxjob_get_senderdept, fax._mfax_ifaxjob_get_senderdept, fax._mfax_ifaxjob_get_senderdept_vb, get_SenderDept
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxJob::get_SenderDept method
+# IFaxJob::get_SenderDept
 
 
 ## -description

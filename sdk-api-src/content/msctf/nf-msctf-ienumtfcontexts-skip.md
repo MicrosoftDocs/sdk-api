@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Skip
-title: IEnumTfContexts::Skip method
+title: IEnumTfContexts::Skip
 author: windows-driver-content
 description: IEnumTfContexts::Skip method
 old-location: tsf\ienumtfcontexts_skip.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 68f0c073-0ba5-4a46-a459-b213145aebd6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfContexts, IEnumTfContexts interface [Text Services Framework], Skip method, IEnumTfContexts::Skip, Skip method [Text Services Framework], Skip method [Text Services Framework], IEnumTfContexts interface, Skip,IEnumTfContexts.Skip, _tsf_ienumtfcontexts_skip_ref, msctf/IEnumTfContexts::Skip, tsf.ienumtfcontexts_skip
+ms.keywords: IEnumTfContexts interface [Text Services Framework],Skip method, IEnumTfContexts.Skip, IEnumTfContexts::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfContexts interface, _tsf_ienumtfcontexts_skip_ref, msctf/IEnumTfContexts::Skip, tsf.ienumtfcontexts_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfContexts::Skip method
+# IEnumTfContexts::Skip
 
 
 ## -description

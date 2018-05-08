@@ -1,6 +1,6 @@
 ---
 UID: NF:unknwnbase.IUnknown.Release
-title: IUnknown::Release method
+title: IUnknown::Release
 author: windows-driver-content
 description: Decrements the reference count for an interface on an object.
 old-location: com\iunknown_release.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 4b494c6f-f0ee-4c35-ae45-ed956f40dc7a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IUnknown, IUnknown interface [COM], Release method, IUnknown::Release, Release method [COM], Release method [COM], IUnknown interface, Release,IUnknown.Release, _com_iunknown_release, com.iunknown_release, unknwnbase/IUnknown::Release
+ms.keywords: IUnknown interface [COM],Release method, IUnknown.Release, IUnknown::Release, Release, Release method [COM], Release method [COM],IUnknown interface, _com_iunknown_release, com.iunknown_release, unknwnbase/IUnknown::Release
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUnknown::Release method
+# IUnknown::Release
 
 
 ## -description

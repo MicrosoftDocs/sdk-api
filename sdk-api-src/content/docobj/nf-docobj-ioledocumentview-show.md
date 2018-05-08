@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.Show
-title: IOleDocumentView::Show method
+title: IOleDocumentView::Show
 author: windows-driver-content
 description: Activates or deactivates a view.
 old-location: com\ioledocumentview_show.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: eecc0230-0713-40e9-913c-c51b8a905575
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], Show method, IOleDocumentView::Show, Show method [COM], Show method [COM], IOleDocumentView interface, Show,IOleDocumentView.Show, _ole_ioledocumentview_show, com.ioledocumentview_show, docobj/IOleDocumentView::Show
+ms.keywords: IOleDocumentView interface [COM],Show method, IOleDocumentView.Show, IOleDocumentView::Show, Show, Show method [COM], Show method [COM],IOleDocumentView interface, _ole_ioledocumentview_show, com.ioledocumentview_show, docobj/IOleDocumentView::Show
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IOleDocumentView::Show method
+# IOleDocumentView::Show
 
 
 ## -description

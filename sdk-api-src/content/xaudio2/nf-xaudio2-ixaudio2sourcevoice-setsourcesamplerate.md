@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.SetSourceSampleRate
-title: IXAudio2SourceVoice::SetSourceSampleRate method
+title: IXAudio2SourceVoice::SetSourceSampleRate
 author: windows-driver-content
 description: Reconfigures the voice to consume source data at a different sample rate than the rate specified when the voice was created.
 old-location: xaudio2\ixaudio2sourcevoice_interface_setsourcesamplerate.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SetSourceSampleRate(UINT32)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2SourceVoice, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs], SetSourceSampleRate method, IXAudio2SourceVoice::SetSourceSampleRate, SetSourceSampleRate method [XAudio2 Audio Mixing APIs], SetSourceSampleRate method [XAudio2 Audio Mixing APIs], IXAudio2SourceVoice interface, SetSourceSampleRate,IXAudio2SourceVoice.SetSourceSampleRate, xaudio2.ixaudio2sourcevoice_interface_setsourcesamplerate, xaudio2/IXAudio2SourceVoice::SetSourceSampleRate
+ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SetSourceSampleRate method, IXAudio2SourceVoice.SetSourceSampleRate, IXAudio2SourceVoice::SetSourceSampleRate, SetSourceSampleRate, SetSourceSampleRate method [XAudio2 Audio Mixing APIs], SetSourceSampleRate method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_setsourcesamplerate, xaudio2/IXAudio2SourceVoice::SetSourceSampleRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2SourceVoice::SetSourceSampleRate method
+# IXAudio2SourceVoice::SetSourceSampleRate
 
 
 ## -description

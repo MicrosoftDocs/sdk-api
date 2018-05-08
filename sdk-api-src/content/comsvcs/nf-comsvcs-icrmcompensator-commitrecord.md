@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.CommitRecord
-title: ICrmCompensator::CommitRecord method
+title: ICrmCompensator::CommitRecord
 author: windows-driver-content
 description: Delivers a log record in forward order during the commit phase.
 old-location: cos\icrmcompensator_commitrecord.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: d444973d-d069-480e-b459-405057717776
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CommitRecord method [COM+], CommitRecord method [COM+], ICrmCompensator interface, CommitRecord,ICrmCompensator.CommitRecord, ICrmCompensator, ICrmCompensator interface [COM+], CommitRecord method, ICrmCompensator::CommitRecord, _dtc_ICrmCompensator_CommitRecord, comsvcs/ICrmCompensator::CommitRecord, cos.icrmcompensator_commitrecord
+ms.keywords: CommitRecord, CommitRecord method [COM+], CommitRecord method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],CommitRecord method, ICrmCompensator.CommitRecord, ICrmCompensator::CommitRecord, _dtc_ICrmCompensator_CommitRecord, comsvcs/ICrmCompensator::CommitRecord, cos.icrmcompensator_commitrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmCompensator::CommitRecord method
+# ICrmCompensator::CommitRecord
 
 
 ## -description

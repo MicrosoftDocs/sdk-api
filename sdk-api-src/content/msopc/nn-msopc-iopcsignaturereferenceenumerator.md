@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 1d0a14c6-826c-419f-9e94-d5929fdbae82
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcSignatureReferenceEnumerator, IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions], IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions], described, msopc/IOpcSignatureReferenceEnumerator, opc.iopcsignaturereferenceenumerator
+ms.keywords: IOpcSignatureReferenceEnumerator, IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions], IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignatureReferenceEnumerator, opc.iopcsignaturereferenceenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

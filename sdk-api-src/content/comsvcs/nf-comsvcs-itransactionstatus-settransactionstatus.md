@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionStatus.SetTransactionStatus
-title: ITransactionStatus::SetTransactionStatus method
+title: ITransactionStatus::SetTransactionStatus
 author: windows-driver-content
 description: Sets the transaction status to either committed or aborted. Do not use this method. It is used only internally by COM+.
 old-location: cos\itransactionstatus_settransactionstatus.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 0e69758a-8dc7-489c-8e78-ba35749beb01
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ITransactionStatus, ITransactionStatus interface [COM+], SetTransactionStatus method, ITransactionStatus::SetTransactionStatus, SetTransactionStatus method [COM+], SetTransactionStatus method [COM+], ITransactionStatus interface, SetTransactionStatus,ITransactionStatus.SetTransactionStatus, _cos_ITransactionStatus_SetTransactionStatus, comsvcs/ITransactionStatus::SetTransactionStatus, cos.itransactionstatus_settransactionstatus
+ms.keywords: ITransactionStatus interface [COM+],SetTransactionStatus method, ITransactionStatus.SetTransactionStatus, ITransactionStatus::SetTransactionStatus, SetTransactionStatus, SetTransactionStatus method [COM+], SetTransactionStatus method [COM+],ITransactionStatus interface, _cos_ITransactionStatus_SetTransactionStatus, comsvcs/ITransactionStatus::SetTransactionStatus, cos.itransactionstatus_settransactionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITransactionStatus::SetTransactionStatus method
+# ITransactionStatus::SetTransactionStatus
 
 
 ## -description

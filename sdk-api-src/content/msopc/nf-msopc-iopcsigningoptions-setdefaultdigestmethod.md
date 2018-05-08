@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetDefaultDigestMethod
-title: IOpcSigningOptions::SetDefaultDigestMethod method
+title: IOpcSigningOptions::SetDefaultDigestMethod
 author: windows-driver-content
 description: Sets the default digest method that will be used to compute digest values for objects to be signed.
 old-location: opc\iopcsigningoptions_setdefaultdigestmethod.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 8de18a0e-cb3a-4232-90cb-718abdc9fb28
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], SetDefaultDigestMethod method, IOpcSigningOptions::SetDefaultDigestMethod, SetDefaultDigestMethod method [Open Packaging Conventions], SetDefaultDigestMethod method [Open Packaging Conventions], IOpcSigningOptions interface, SetDefaultDigestMethod,IOpcSigningOptions.SetDefaultDigestMethod, msopc/IOpcSigningOptions::SetDefaultDigestMethod, opc.iopcsigningoptions_setdefaultdigestmethod
+ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetDefaultDigestMethod method, IOpcSigningOptions.SetDefaultDigestMethod, IOpcSigningOptions::SetDefaultDigestMethod, SetDefaultDigestMethod, SetDefaultDigestMethod method [Open Packaging Conventions], SetDefaultDigestMethod method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetDefaultDigestMethod, opc.iopcsigningoptions_setdefaultdigestmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSigningOptions::SetDefaultDigestMethod method
+# IOpcSigningOptions::SetDefaultDigestMethod
 
 
 ## -description

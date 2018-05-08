@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICFormatConverterInfo.CreateInstance
-title: IWICFormatConverterInfo::CreateInstance method
+title: IWICFormatConverterInfo::CreateInstance
 author: windows-driver-content
 description: Creates a new IWICFormatConverter instance.
 old-location: wic\_wic_codec_iwicformatconverterinfo_createinstance.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 5b0f2cac-6bd7-46a8-884c-89735f3968a0
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component], IWICFormatConverterInfo interface, CreateInstance,IWICFormatConverterInfo.CreateInstance, IWICFormatConverterInfo, IWICFormatConverterInfo interface [Windows Imaging Component], CreateInstance method, IWICFormatConverterInfo::CreateInstance, _wic_codec_iwicformatconverterinfo_createinstance, wic._wic_codec_iwicformatconverterinfo_createinstance, wincodec/IWICFormatConverterInfo::CreateInstance
+ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICFormatConverterInfo interface, IWICFormatConverterInfo interface [Windows Imaging Component],CreateInstance method, IWICFormatConverterInfo.CreateInstance, IWICFormatConverterInfo::CreateInstance, _wic_codec_iwicformatconverterinfo_createinstance, wic._wic_codec_iwicformatconverterinfo_createinstance, wincodec/IWICFormatConverterInfo::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICFormatConverterInfo::CreateInstance method
+# IWICFormatConverterInfo::CreateInstance
 
 
 ## -description

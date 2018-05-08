@@ -7,8 +7,8 @@ old-location: security\icenroll.htm
 old-project: SecCrypto
 ms.assetid: d5b746e0-91bd-45bd-9a67-ddc8868cee56
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICEnroll, ICEnroll interface [Security], ICEnroll interface [Security], described, _xen_icenroll, security.icenroll, xenroll/ICEnroll
+ms.date: 4/30/2018
+ms.keywords: ICEnroll, ICEnroll interface [Security], ICEnroll interface [Security],described, _xen_icenroll, security.icenroll, xenroll/ICEnroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

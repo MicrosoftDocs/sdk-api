@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetPropServer
-title: IAccPropServices::SetPropServer method
+title: IAccPropServices::SetPropServer
 author: windows-driver-content
 description: Servers use SetPropServer to specify a callback object to be used to annotate an array of properties for the accessible element.
 old-location: winauto\iaccpropservices_iaccpropservices__setpropserver.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 15e43a38-4cb3-43ca-a0fc-28faf49057dc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], SetPropServer method, IAccPropServices::SetPropServer, SetPropServer method [Windows Accessibility], SetPropServer method [Windows Accessibility], IAccPropServices interface, SetPropServer,IAccPropServices.SetPropServer, _msaa_IAccPropServices_SetPropServer, msaa.iaccpropservices_iaccpropservices__setpropserver, oleacc/IAccPropServices::SetPropServer, winauto.iaccpropservices_iaccpropservices__setpropserver
+ms.keywords: IAccPropServices interface [Windows Accessibility],SetPropServer method, IAccPropServices.SetPropServer, IAccPropServices::SetPropServer, SetPropServer, SetPropServer method [Windows Accessibility], SetPropServer method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetPropServer, msaa.iaccpropservices_iaccpropservices__setpropserver, oleacc/IAccPropServices::SetPropServer, winauto.iaccpropservices_iaccpropservices__setpropserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccPropServices::SetPropServer method
+# IAccPropServices::SetPropServer
 
 
 ## -description

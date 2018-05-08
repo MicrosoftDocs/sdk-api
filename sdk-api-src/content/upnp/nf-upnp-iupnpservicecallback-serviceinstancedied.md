@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceCallback.ServiceInstanceDied
-title: IUPnPServiceCallback::ServiceInstanceDied method
+title: IUPnPServiceCallback::ServiceInstanceDied
 author: windows-driver-content
 description: The ServiceInstanceDied method is invoked when a service is no longer sending events.
 old-location: upnp\iupnpservicecallback_serviceinstancedied.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: 13b6d2b1-f95d-4b07-bd69-2793158ee27b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IUPnPServiceCallback, IUPnPServiceCallback interface [UPnP APIs], ServiceInstanceDied method, IUPnPServiceCallback::ServiceInstanceDied, ServiceInstanceDied method [UPnP APIs], ServiceInstanceDied method [UPnP APIs], IUPnPServiceCallback interface, ServiceInstanceDied,IUPnPServiceCallback.ServiceInstanceDied, _upnp_iupnpservicecallback_serviceinstancedied, upnp.iupnpservicecallback_serviceinstancedied, upnp/IUPnPServiceCallback::ServiceInstanceDied
+ms.keywords: IUPnPServiceCallback interface [UPnP APIs],ServiceInstanceDied method, IUPnPServiceCallback.ServiceInstanceDied, IUPnPServiceCallback::ServiceInstanceDied, ServiceInstanceDied, ServiceInstanceDied method [UPnP APIs], ServiceInstanceDied method [UPnP APIs],IUPnPServiceCallback interface, _upnp_iupnpservicecallback_serviceinstancedied, upnp.iupnpservicecallback_serviceinstancedied, upnp/IUPnPServiceCallback::ServiceInstanceDied
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPServiceCallback::ServiceInstanceDied method
+# IUPnPServiceCallback::ServiceInstanceDied
 
 
 ## -description

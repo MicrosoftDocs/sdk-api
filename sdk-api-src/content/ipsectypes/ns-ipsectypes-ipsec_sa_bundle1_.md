@@ -268,6 +268,12 @@ Optional keying module specific information as specified by <a href="https://msd
 IP version as specified by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a>.
 
 
+### -field peerV4PrivateAddress
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>. If peer is behind a NAT device, this member stores the peer's 
+   private address.
+
+
 ### -field mmSaId
 
 Use this ID to correlate this IPsec SA with the IKE SA that generated it.
@@ -288,12 +294,6 @@ SA lookup context which is propagated from the SA to data connections flowing ov
 
 
 ### -field qmFilterId
-
-
-#### - peerV4PrivateAddress
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>. If peer is behind a NAT device, this member stores the peer's 
-   private address.
 
 
 ## -see-also

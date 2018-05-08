@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetPixelFormat
-title: IDirectDrawSurface7::GetPixelFormat method
+title: IDirectDrawSurface7::GetPixelFormat
 author: windows-driver-content
 description: Retrieves the color and pixel format of this surface.
 old-location: directdraw\idirectdrawsurface7_getpixelformat.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 2c33c46b-6cd7-4ee7-976c-a81f9d92b379
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetPixelFormat method [DirectDraw], GetPixelFormat method [DirectDraw], IDirectDrawSurface7 interface, GetPixelFormat,IDirectDrawSurface7.GetPixelFormat, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], GetPixelFormat method, IDirectDrawSurface7::GetPixelFormat, ddraw/IDirectDrawSurface7::GetPixelFormat, directdraw.idirectdrawsurface7_getpixelformat
+ms.keywords: GetPixelFormat, GetPixelFormat method [DirectDraw], GetPixelFormat method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPixelFormat method, IDirectDrawSurface7.GetPixelFormat, IDirectDrawSurface7::GetPixelFormat, ddraw/IDirectDrawSurface7::GetPixelFormat, directdraw.idirectdrawsurface7_getpixelformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::GetPixelFormat method
+# IDirectDrawSurface7::GetPixelFormat
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetSelectorLength
-title: IIsdbDataContentDescriptor::GetSelectorLength method
+title: IIsdbDataContentDescriptor::GetSelectorLength
 author: windows-driver-content
 description: Gets the length of the selector part of an Integrated Services Digital Broadcasting (ISDB) data content descriptor, in bytes.
 old-location: mstv\iisdbdatacontentdescriptor_getselectorlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 485ac963-e85a-41cc-adcd-93590b327061
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSelectorLength method [Microsoft TV Technologies], GetSelectorLength method [Microsoft TV Technologies], IIsdbDataContentDescriptor interface, GetSelectorLength,IIsdbDataContentDescriptor.GetSelectorLength, IIsdbDataContentDescriptor, IIsdbDataContentDescriptor interface [Microsoft TV Technologies], GetSelectorLength method, IIsdbDataContentDescriptor::GetSelectorLength, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorLength, mstv.iisdbdatacontentdescriptor_getselectorlength
+ms.keywords: GetSelectorLength, GetSelectorLength method [Microsoft TV Technologies], GetSelectorLength method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetSelectorLength method, IIsdbDataContentDescriptor.GetSelectorLength, IIsdbDataContentDescriptor::GetSelectorLength, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorLength, mstv.iisdbdatacontentdescriptor_getselectorlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDataContentDescriptor::GetSelectorLength method
+# IIsdbDataContentDescriptor::GetSelectorLength
 
 
 ## -description

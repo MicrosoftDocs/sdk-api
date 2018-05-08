@@ -1,14 +1,14 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.Enable
-title: IStaticPortMapping::Enable method
+title: IStaticPortMapping::Enable
 author: windows-driver-content
 description: The Enable method enables or disables this port mapping.
 old-location: ics\istaticportmapping_enable.htm
 old-project: ICS
 ms.assetid: 66aa27b4-83a5-4c20-b964-084dd0e48a54
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Enable method [ICS/ICF], Enable method [ICS/ICF], IStaticPortMapping interface, Enable,IStaticPortMapping.Enable, IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], Enable method, IStaticPortMapping::Enable, _ics_istaticportmapping_enable, ics.istaticportmapping_enable, natupnp/IStaticPortMapping::Enable
+ms.date: 5/1/2018
+ms.keywords: Enable, Enable method [ICS/ICF], Enable method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],Enable method, IStaticPortMapping.Enable, IStaticPortMapping::Enable, _ics_istaticportmapping_enable, ics.istaticportmapping_enable, natupnp/IStaticPortMapping::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStaticPortMapping::Enable method
+# IStaticPortMapping::Enable
 
 
 ## -description

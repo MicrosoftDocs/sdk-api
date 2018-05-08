@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: df76e7d7-9a71-4c98-b038-8925d8cf0980
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterQueryPreferredFormat, EngineAdapterQueryPreferredFormat callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN, secbiomet.engineadapterquerypreferredformat, winbio_adapter/EngineAdapterQueryPreferredFormat
+ms.keywords: EngineAdapterQueryPreferredFormat, EngineAdapterQueryPreferredFormat callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN, PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN callback, secbiomet.engineadapterquerypreferredformat, winbio_adapter/EngineAdapterQueryPreferredFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN callback
+# PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN callback function
 
 
 ## -description

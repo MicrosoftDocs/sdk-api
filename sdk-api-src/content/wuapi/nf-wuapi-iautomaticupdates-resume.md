@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.Resume
-title: IAutomaticUpdates::Resume method
+title: IAutomaticUpdates::Resume
 author: windows-driver-content
 description: Restarts automatic updating if automatic updating is paused.
 old-location: wua\iautomaticupdates_resume.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 8aabfb89-89e2-450e-bfe6-62a48f93746f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IAutomaticUpdates, IAutomaticUpdates interface [Windows Update Agent], Resume method, IAutomaticUpdates::Resume, Resume method [Windows Update Agent], Resume method [Windows Update Agent], IAutomaticUpdates interface, Resume,IAutomaticUpdates.Resume, wua.iautomaticupdates_resume, wuapi/IAutomaticUpdates::Resume
+ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Resume method, IAutomaticUpdates.Resume, IAutomaticUpdates::Resume, Resume, Resume method [Windows Update Agent], Resume method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_resume, wuapi/IAutomaticUpdates::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdates::Resume method
+# IAutomaticUpdates::Resume
 
 
 ## -description

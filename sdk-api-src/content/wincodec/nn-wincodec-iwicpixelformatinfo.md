@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: d5853b27-4329-40d8-bfd0-b4b0f39ba6d5
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICPixelFormatInfo, IWICPixelFormatInfo interface [Windows Imaging Component], IWICPixelFormatInfo interface [Windows Imaging Component], described, _wic_codec_iwicpixelformatinfo, wic._wic_codec_iwicpixelformatinfo, wincodec/IWICPixelFormatInfo
+ms.keywords: IWICPixelFormatInfo, IWICPixelFormatInfo interface [Windows Imaging Component], IWICPixelFormatInfo interface [Windows Imaging Component],described, _wic_codec_iwicpixelformatinfo, wic._wic_codec_iwicpixelformatinfo, wincodec/IWICPixelFormatInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

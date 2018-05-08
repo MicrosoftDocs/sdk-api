@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.get_CurrentRowOrColumnMajor
-title: IUIAutomationTablePattern::get_CurrentRowOrColumnMajor method
+title: IUIAutomationTablePattern::get_CurrentRowOrColumnMajor
 author: windows-driver-content
 description: Retrieves the primary direction of traversal for the table.
 old-location: winauto\uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: abf2bbfd-2052-4ece-bf28-be836af407ff
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentRowOrColumnMajor property [Windows Accessibility], CurrentRowOrColumnMajor property [Windows Accessibility], IUIAutomationTablePattern interface, IUIAutomationTablePattern, IUIAutomationTablePattern interface [Windows Accessibility], CurrentRowOrColumnMajor property, IUIAutomationTablePattern.CurrentRowOrColumnMajor, IUIAutomationTablePattern::get_CurrentRowOrColumnMajor, get_CurrentRowOrColumnMajor,IUIAutomationTablePattern.get_CurrentRowOrColumnMajor, uiauto.uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor, uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor, uiautomationclient/IUIAutomationTablePattern::CurrentRowOrColumnMajor, uiautomationclient/IUIAutomationTablePattern::get_CurrentRowOrColumnMajor, winauto.uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor
+ms.keywords: CurrentRowOrColumnMajor property [Windows Accessibility], CurrentRowOrColumnMajor property [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],CurrentRowOrColumnMajor property, IUIAutomationTablePattern.CurrentRowOrColumnMajor, IUIAutomationTablePattern.get_CurrentRowOrColumnMajor, IUIAutomationTablePattern::CurrentRowOrColumnMajor, IUIAutomationTablePattern::get_CurrentRowOrColumnMajor, get_CurrentRowOrColumnMajor, uiauto.uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor, uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor, uiautomationclient/IUIAutomationTablePattern::CurrentRowOrColumnMajor, uiautomationclient/IUIAutomationTablePattern::get_CurrentRowOrColumnMajor, winauto.uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTablePattern::get_CurrentRowOrColumnMajor method
+# IUIAutomationTablePattern::get_CurrentRowOrColumnMajor
 
 
 ## -description

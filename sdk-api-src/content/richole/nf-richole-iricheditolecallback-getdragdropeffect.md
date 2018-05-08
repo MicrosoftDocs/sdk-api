@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOleCallback.GetDragDropEffect
-title: IRichEditOleCallback::GetDragDropEffect method
+title: IRichEditOleCallback::GetDragDropEffect
 author: windows-driver-content
 description: Allows the client to specify the effects of a drop operation.
 old-location: controls\IRichEditOleCallback_GetDragDropEffect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetdragdropeffect.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetDragDropEffect method [Windows Controls], GetDragDropEffect method [Windows Controls], IRichEditOleCallback interface, GetDragDropEffect,IRichEditOleCallback.GetDragDropEffect, IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], GetDragDropEffect method, IRichEditOleCallback::GetDragDropEffect, _win32_IRichEditOleCallback_GetDragDropEffect, _win32_IRichEditOleCallback_GetDragDropEffect_cpp, controls.IRichEditOleCallback_GetDragDropEffect, controls._win32_IRichEditOleCallback_GetDragDropEffect, richole/IRichEditOleCallback::GetDragDropEffect
+ms.date: 4/27/2018
+ms.keywords: GetDragDropEffect, GetDragDropEffect method [Windows Controls], GetDragDropEffect method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetDragDropEffect method, IRichEditOleCallback.GetDragDropEffect, IRichEditOleCallback::GetDragDropEffect, _win32_IRichEditOleCallback_GetDragDropEffect, _win32_IRichEditOleCallback_GetDragDropEffect_cpp, controls.IRichEditOleCallback_GetDragDropEffect, controls._win32_IRichEditOleCallback_GetDragDropEffect, richole/IRichEditOleCallback::GetDragDropEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOleCallback::GetDragDropEffect method
+# IRichEditOleCallback::GetDragDropEffect
 
 
 ## -description

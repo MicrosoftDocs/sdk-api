@@ -1,6 +1,6 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.BeginEnum
-title: TRefPointerCollection::BeginEnum method
+title: TRefPointerCollection::BeginEnum
 author: windows-driver-content
 description: The BeginEnum method starts enumerating the collection.
 old-location: wmi\trefpointercollection_beginenum.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 5f7879e8-0eeb-4768-a478-8effd4e355d3
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: BeginEnum method [Windows Management Instrumentation], BeginEnum method [Windows Management Instrumentation], TRefPointerCollection interface, BeginEnum,TRefPointerCollection.BeginEnum, TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation], BeginEnum method, TRefPointerCollection::BeginEnum, _hmm_trefpointercollection_beginenum, refptrco/TRefPointerCollection::BeginEnum, wmi.trefpointercollection_beginenum
+ms.keywords: BeginEnum, BeginEnum method [Windows Management Instrumentation], BeginEnum method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],BeginEnum method, TRefPointerCollection.BeginEnum, TRefPointerCollection::BeginEnum, _hmm_trefpointercollection_beginenum, refptrco/TRefPointerCollection::BeginEnum, wmi.trefpointercollection_beginenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# TRefPointerCollection::BeginEnum method
+# TRefPointerCollection::BeginEnum
 
 
 ## -description

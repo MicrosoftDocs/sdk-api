@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetRelationshipSigningOption
-title: IOpcSignatureRelationshipReference::GetRelationshipSigningOption method
+title: IOpcSignatureRelationshipReference::GetRelationshipSigningOption
 author: windows-driver-content
 description: Gets a value that describes whether all or a subset of relationships that are stored in the referenced&#160;Relationships part are selected.
 old-location: opc\iopcsignaturerelationshipreference_getrelationshipsigningoption.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 9960c67c-4f09-435e-b82c-ca449645f6e5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRelationshipSigningOption method [Open Packaging Conventions], GetRelationshipSigningOption method [Open Packaging Conventions], IOpcSignatureRelationshipReference interface, GetRelationshipSigningOption,IOpcSignatureRelationshipReference.GetRelationshipSigningOption, IOpcSignatureRelationshipReference, IOpcSignatureRelationshipReference interface [Open Packaging Conventions], GetRelationshipSigningOption method, IOpcSignatureRelationshipReference::GetRelationshipSigningOption, msopc/IOpcSignatureRelationshipReference::GetRelationshipSigningOption, opc.iopcsignaturerelationshipreference_getrelationshipsigningoption
+ms.keywords: GetRelationshipSigningOption, GetRelationshipSigningOption method [Open Packaging Conventions], GetRelationshipSigningOption method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetRelationshipSigningOption method, IOpcSignatureRelationshipReference.GetRelationshipSigningOption, IOpcSignatureRelationshipReference::GetRelationshipSigningOption, msopc/IOpcSignatureRelationshipReference::GetRelationshipSigningOption, opc.iopcsignaturerelationshipreference_getrelationshipsigningoption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureRelationshipReference::GetRelationshipSigningOption method
+# IOpcSignatureRelationshipReference::GetRelationshipSigningOption
 
 
 ## -description

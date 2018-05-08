@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IResultsFolder.RemoveIDList
-title: IResultsFolder::RemoveIDList method
+title: IResultsFolder::RemoveIDList
 author: windows-driver-content
 description: Removes a pointer to an item identifier list (PIDL) from a results folder.
 old-location: shell\IResultsFolder_RemoveIDList.htm
 old-project: shell
 ms.assetid: 188d4f7f-954c-4bba-ad4e-164085e0cc5a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IResultsFolder, IResultsFolder interface [Windows Shell], RemoveIDList method, IResultsFolder::RemoveIDList, RemoveIDList method [Windows Shell], RemoveIDList method [Windows Shell], IResultsFolder interface, RemoveIDList,IResultsFolder.RemoveIDList, _shell_IResultsFolder_RemoveIDList, shell.IResultsFolder_RemoveIDList, shobjidl/IResultsFolder::RemoveIDList
+ms.date: 5/3/2018
+ms.keywords: IResultsFolder interface [Windows Shell],RemoveIDList method, IResultsFolder.RemoveIDList, IResultsFolder::RemoveIDList, RemoveIDList, RemoveIDList method [Windows Shell], RemoveIDList method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveIDList, shell.IResultsFolder_RemoveIDList, shobjidl/IResultsFolder::RemoveIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IResultsFolder::RemoveIDList method
+# IResultsFolder::RemoveIDList
 
 
 ## -description

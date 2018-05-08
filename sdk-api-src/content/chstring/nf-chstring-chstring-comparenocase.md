@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.CompareNoCase
-title: CHString::CompareNoCase method
+title: CHString::CompareNoCase
 author: windows-driver-content
 description: The CompareNoCase method uses the _wcsicmp function to compare a CHString string with another string.
 old-location: wmi\chstring_comparenocase.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 72ad2532-ece8-43e2-b768-7dec6a378c98
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?CompareNoCase@CHString@@QBEHPBG@Z, ?CompareNoCase@CHString@@QEBAHPEBG@Z, CHString, CHString interface [Windows Management Instrumentation], CompareNoCase method, CHString::CompareNoCase, CompareNoCase method [Windows Management Instrumentation], CompareNoCase method [Windows Management Instrumentation], CHString interface, CompareNoCase,CHString.CompareNoCase, _hmm_chstring_comparenocase, chstring/CHString::CompareNoCase, wmi.chstring_comparenocase"
+ms.keywords: "?CompareNoCase@CHString@@QBEHPBG@Z, ?CompareNoCase@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],CompareNoCase method, CHString.CompareNoCase, CHString::CompareNoCase, CompareNoCase, CompareNoCase method [Windows Management Instrumentation], CompareNoCase method [Windows Management Instrumentation],CHString interface, _hmm_chstring_comparenocase, chstring/CHString::CompareNoCase, wmi.chstring_comparenocase"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::CompareNoCase method
+# CHString::CompareNoCase
 
 
 ## -description

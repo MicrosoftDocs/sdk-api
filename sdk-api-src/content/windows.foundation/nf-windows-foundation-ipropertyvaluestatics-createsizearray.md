@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateSizeArray
-title: IPropertyValueStatics::CreateSizeArray method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified array of Size values.
 old-location: winrt\ipropertyvaluestatics_createsizearray.htm
 old-project: WinRT
 ms.assetid: 8b9916e7-0a0d-44b1-8f8d-8307c145e57a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateSizeArray method [Windows Runtime], CreateSizeArray method [Windows Runtime], IPropertyValueStatics interface, CreateSizeArray,IPropertyValueStatics.CreateSizeArray, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateSizeArray method, IPropertyValueStatics::CreateSizeArray, windows/IPropertyValueStatics::CreateSizeArray, winrt.ipropertyvaluefactory_createsizearray, winrt.ipropertyvaluestatics_createsizearray
+ms.date: 5/4/2018
+ms.keywords: CreateSizeArray, CreateSizeArray method [Windows Runtime], CreateSizeArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSizeArray method, IPropertyValueStatics.CreateSizeArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSizeArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSizeArray, winrt.ipropertyvaluefactory_createsizearray, winrt.ipropertyvaluestatics_createsizearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateSizeArray method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

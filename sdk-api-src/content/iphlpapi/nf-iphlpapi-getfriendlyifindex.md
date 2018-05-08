@@ -7,7 +7,7 @@ old-location: iphlp\getfriendlyifindex.htm
 old-project: IpHlp
 ms.assetid: 2c5b0b63-cbbb-4e89-be27-8e148a891542
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: GetFriendlyIfIndex, GetFriendlyIfIndex function [IP Helper], _iphlp_getfriendlyifindex, iphlp.getfriendlyifindex, iphlpapi/GetFriendlyIfIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

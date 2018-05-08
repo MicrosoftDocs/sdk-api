@@ -7,7 +7,7 @@ old-location: automat\paramdesc.htm
 old-project: automat
 ms.assetid: 3b3b2c54-1997-4d1f-9934-81621500b2b9
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPPARAMDESC, LPPARAMDESC, LPPARAMDESC structure pointer [Automation], PARAMDESC, PARAMDESC structure [Automation], _oa96_PARAMDESC, automat.paramdesc, oaidl/LPPARAMDESC, oaidl/PARAMDESC, tagPARAMDESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

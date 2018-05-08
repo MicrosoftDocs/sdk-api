@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMemAllocator.Commit
-title: IMemAllocator::Commit method
+title: IMemAllocator::Commit
 author: windows-driver-content
 description: The Commit method allocates the buffer memory.
 old-location: dshow\imemallocator_commit.htm
 old-project: DirectShow
 ms.assetid: 34db4c1f-5642-4495-a572-9a78b1ee7b7e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Commit method [DirectShow], Commit method [DirectShow], IMemAllocator interface, Commit,IMemAllocator.Commit, IMemAllocator, IMemAllocator interface [DirectShow], Commit method, IMemAllocator::Commit, IMemAllocatorCommit, dshow.imemallocator_commit, strmif/IMemAllocator::Commit
+ms.date: 4/30/2018
+ms.keywords: Commit, Commit method [DirectShow], Commit method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],Commit method, IMemAllocator.Commit, IMemAllocator::Commit, IMemAllocatorCommit, dshow.imemallocator_commit, strmif/IMemAllocator::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMemAllocator::Commit method
+# IMemAllocator::Commit
 
 
 ## -description

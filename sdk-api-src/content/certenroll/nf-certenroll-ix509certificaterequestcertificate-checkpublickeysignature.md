@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.CheckPublicKeySignature
-title: IX509CertificateRequestCertificate::CheckPublicKeySignature method
+title: IX509CertificateRequestCertificate::CheckPublicKeySignature
 author: windows-driver-content
 description: Verifies the certificate signature by using the public key of the signing certificate.
 old-location: security\ix509certificaterequestcertificate_checkpublickeysignature_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b7c7becc-667a-4ee2-ae61-0a009d0c87e7
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CheckPublicKeySignature method [Security], CheckPublicKeySignature method [Security], IX509CertificateRequestCertificate interface, CheckPublicKeySignature,IX509CertificateRequestCertificate.CheckPublicKeySignature, IX509CertificateRequestCertificate, IX509CertificateRequestCertificate interface [Security], CheckPublicKeySignature method, IX509CertificateRequestCertificate::CheckPublicKeySignature, certenroll/IX509CertificateRequestCertificate::CheckPublicKeySignature, security.ix509certificaterequestcertificate_checkpublickeysignature_method
+ms.keywords: CheckPublicKeySignature, CheckPublicKeySignature method [Security], CheckPublicKeySignature method [Security],IX509CertificateRequestCertificate interface, IX509CertificateRequestCertificate interface [Security],CheckPublicKeySignature method, IX509CertificateRequestCertificate.CheckPublicKeySignature, IX509CertificateRequestCertificate::CheckPublicKeySignature, certenroll/IX509CertificateRequestCertificate::CheckPublicKeySignature, security.ix509certificaterequestcertificate_checkpublickeysignature_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestCertificate::CheckPublicKeySignature method
+# IX509CertificateRequestCertificate::CheckPublicKeySignature
 
 
 ## -description

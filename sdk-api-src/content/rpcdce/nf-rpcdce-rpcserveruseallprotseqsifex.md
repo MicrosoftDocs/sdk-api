@@ -7,7 +7,7 @@ old-location: rpc\rpcserveruseallprotseqsifex.htm
 old-project: Rpc
 ms.assetid: 118c931e-29ca-4ffb-aa32-24c6f4289cc8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcServerUseAllProtseqsIfEx, RpcServerUseAllProtseqsIfEx function [RPC], _rpc_rpcserveruseallprotseqsifex, rpc.rpcserveruseallprotseqsifex, rpcdce/RpcServerUseAllProtseqsIfEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

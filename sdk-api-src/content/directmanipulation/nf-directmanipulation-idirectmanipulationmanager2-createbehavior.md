@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager2.CreateBehavior
-title: IDirectManipulationManager2::CreateBehavior method
+title: IDirectManipulationManager2::CreateBehavior
 author: windows-driver-content
 description: Factory method to create a behavior.
 old-location: directmanipulation\idirectmanipulationmanager2_createbehavior.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 8890E44F-595A-4116-B4A4-F10FAEE598B7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateBehavior method [Direct Manipulation], CreateBehavior method [Direct Manipulation], IDirectManipulationManager2 interface, CreateBehavior,IDirectManipulationManager2.CreateBehavior, IDirectManipulationManager2, IDirectManipulationManager2 interface [Direct Manipulation], CreateBehavior method, IDirectManipulationManager2::CreateBehavior, directmanipulation.idirectmanipulationmanager2_createbehavior, directmanipulation/IDirectManipulationManager2::CreateBehavior
+ms.keywords: CreateBehavior, CreateBehavior method [Direct Manipulation], CreateBehavior method [Direct Manipulation],IDirectManipulationManager2 interface, IDirectManipulationManager2 interface [Direct Manipulation],CreateBehavior method, IDirectManipulationManager2.CreateBehavior, IDirectManipulationManager2::CreateBehavior, directmanipulation.idirectmanipulationmanager2_createbehavior, directmanipulation/IDirectManipulationManager2::CreateBehavior
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationManager2::CreateBehavior method
+# IDirectManipulationManager2::CreateBehavior
 
 
 ## -description

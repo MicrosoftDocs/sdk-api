@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolListener.GetSettings
-title: IWRdsProtocolListener::GetSettings method
+title: IWRdsProtocolListener::GetSettings
 author: windows-driver-content
 description: Gets the listener setting information for client connection requests.
 old-location: termserv\iwrdsprotocollistener_getsettings.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 644eaa8f-776d-49de-af23-de9faef80e74
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetSettings method [Remote Desktop Services], GetSettings method [Remote Desktop Services], IWRdsProtocolListener interface, GetSettings,IWRdsProtocolListener.GetSettings, IWRdsProtocolListener, IWRdsProtocolListener interface [Remote Desktop Services], GetSettings method, IWRdsProtocolListener::GetSettings, termserv.iwrdsprotocollistener_getsettings, wtsprotocol/IWRdsProtocolListener::GetSettings
+ms.keywords: GetSettings, GetSettings method [Remote Desktop Services], GetSettings method [Remote Desktop Services],IWRdsProtocolListener interface, IWRdsProtocolListener interface [Remote Desktop Services],GetSettings method, IWRdsProtocolListener.GetSettings, IWRdsProtocolListener::GetSettings, termserv.iwrdsprotocollistener_getsettings, wtsprotocol/IWRdsProtocolListener::GetSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolListener::GetSettings method
+# IWRdsProtocolListener::GetSettings
 
 
 ## -description

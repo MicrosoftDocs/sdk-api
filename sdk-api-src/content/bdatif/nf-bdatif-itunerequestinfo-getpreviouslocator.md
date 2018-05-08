@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetPreviousLocator
-title: ITuneRequestInfo::GetPreviousLocator method
+title: ITuneRequestInfo::GetPreviousLocator
 author: windows-driver-content
 description: The GetPreviousLocator method creates a new tune request with locator information for the previous transport stream.
 old-location: mstv\itunerequestinfo_getpreviouslocator.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 72512da5-28d4-40b8-93df-039014f432c0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPreviousLocator method [Microsoft TV Technologies], GetPreviousLocator method [Microsoft TV Technologies], ITuneRequestInfo interface, GetPreviousLocator,ITuneRequestInfo.GetPreviousLocator, ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technologies], GetPreviousLocator method, ITuneRequestInfo::GetPreviousLocator, ITuneRequestInfoGetPreviousLocator, bdatif/ITuneRequestInfo::GetPreviousLocator, mstv.itunerequestinfo_getpreviouslocator
+ms.keywords: GetPreviousLocator, GetPreviousLocator method [Microsoft TV Technologies], GetPreviousLocator method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetPreviousLocator method, ITuneRequestInfo.GetPreviousLocator, ITuneRequestInfo::GetPreviousLocator, ITuneRequestInfoGetPreviousLocator, bdatif/ITuneRequestInfo::GetPreviousLocator, mstv.itunerequestinfo_getpreviouslocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITuneRequestInfo::GetPreviousLocator method
+# ITuneRequestInfo::GetPreviousLocator
 
 
 ## -description

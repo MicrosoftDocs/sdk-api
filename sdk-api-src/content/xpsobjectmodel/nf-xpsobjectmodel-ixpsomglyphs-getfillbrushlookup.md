@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFillBrushLookup
-title: IXpsOMGlyphs::GetFillBrushLookup method
+title: IXpsOMGlyphs::GetFillBrushLookup
 author: windows-driver-content
 description: Gets the lookup key of the IXpsOMBrush interface that is stored in a resource dictionary and will be used as the fill brush.
 old-location: xps\ixpsomglyphs_getfillbrushlookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f71b0b98-12d6-4108-8b1e-4ad254ffbdfd
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetFillBrushLookup,IXpsOMGlyphs.GetFillBrushLookup, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetFillBrushLookup method, IXpsOMGlyphs::GetFillBrushLookup, xps.ixpsomglyphs_getfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLookup
+ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrushLookup method, IXpsOMGlyphs.GetFillBrushLookup, IXpsOMGlyphs::GetFillBrushLookup, xps.ixpsomglyphs_getfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetFillBrushLookup method
+# IXpsOMGlyphs::GetFillBrushLookup
 
 
 ## -description

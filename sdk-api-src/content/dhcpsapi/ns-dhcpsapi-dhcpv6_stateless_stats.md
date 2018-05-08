@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6_stateless_stats.htm
 old-project: DHCP
 ms.assetid: 8C0E26F3-9496-497C-9E05-9995CC322189
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCPV6_STATELESS_STATS, *PDHCPV6_STATELESS_STATS, DHCPV6_STATELESS_STATS, DHCPV6_STATELESS_STATS structure [DHCP], LPDHCPV6_STATELESS_STATS, LPDHCPV6_STATELESS_STATS structure pointer [DHCP], PDHCPV6_STATELESS_STATS, PDHCPV6_STATELESS_STATS structure pointer [DHCP], dhcp.dhcpv6_stateless_stats, dhcpsapi/DHCPV6_STATELESS_STATS, dhcpsapi/LPDHCPV6_STATELESS_STATS, dhcpsapi/PDHCPV6_STATELESS_STATS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Integer that specifies the number of subnet statistics in <i>ScopeStats</i>.
 ### -field ScopeStats
 
 Pointer to a list of <a href="https://msdn.microsoft.com/edb099a6-18eb-49b1-8f97-7f0b32a2430a">DHCPV6_STATELESS_SCOPE_STATS</a> structures.
+
+
+### -field ScopeStats.size_is
+
+ 
+
+
+### -field ScopeStats.size_is.NumScopes
+
+ 
+
+
 
 
 ## -see-also

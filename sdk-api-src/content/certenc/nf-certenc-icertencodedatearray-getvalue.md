@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.GetValue
-title: ICertEncodeDateArray::GetValue method
+title: ICertEncodeDateArray::GetValue
 author: windows-driver-content
 description: Returns the specified date from the DATE array.
 old-location: security\icertencodedatearray_getvalue.htm
 old-project: SecCrypto
 ms.assetid: db108b2a-c3ee-4ef8-be5c-74dc739dacee
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeDateArray object [Security], GetValue method, GetValue method [Security], GetValue method [Security], CCertEncodeDateArray object, GetValue method [Security], ICertEncodeDateArray interface, GetValue,ICertEncodeDateArray.GetValue, ICertEncodeDateArray, ICertEncodeDateArray interface [Security], GetValue method, ICertEncodeDateArray::GetValue, _certsrv_icertencodedatearray_getvalue, certenc/ICertEncodeDateArray::GetValue, security.icertencodedatearray_getvalue
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeDateArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeDateArray object, GetValue method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],GetValue method, ICertEncodeDateArray.GetValue, ICertEncodeDateArray::GetValue, _certsrv_icertencodedatearray_getvalue, certenc/ICertEncodeDateArray::GetValue, security.icertencodedatearray_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeDateArray::GetValue method
+# ICertEncodeDateArray::GetValue
 
 
 ## -description

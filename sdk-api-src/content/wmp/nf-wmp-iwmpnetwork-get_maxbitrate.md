@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_maxBitRate
-title: IWMPNetwork::get_maxBitRate method
+title: IWMPNetwork::get_maxBitRate
 author: windows-driver-content
 description: The get_maxBitRate method retrieves the maximum possible video bit rate.
 old-location: wmp\iwmpnetwork_get_maxbitrate.htm
 old-project: WMP
 ms.assetid: 42917ca3-07d3-4d32-a2f3-5f0ef9d387d7
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], get_maxBitRate method, IWMPNetwork::get_maxBitRate, IWMPNetworkget_maxBitRate, get_maxBitRate method [Windows Media Player], get_maxBitRate method [Windows Media Player], IWMPNetwork interface, get_maxBitRate,IWMPNetwork.get_maxBitRate, wmp.iwmpnetwork_get_maxbitrate, wmp/IWMPNetwork::get_maxBitRate
+ms.date: 5/4/2018
+ms.keywords: IWMPNetwork interface [Windows Media Player],get_maxBitRate method, IWMPNetwork.get_maxBitRate, IWMPNetwork::get_maxBitRate, IWMPNetworkget_maxBitRate, get_maxBitRate, get_maxBitRate method [Windows Media Player], get_maxBitRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_maxbitrate, wmp/IWMPNetwork::get_maxBitRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNetwork::get_maxBitRate method
+# IWMPNetwork::get_maxBitRate
 
 
 ## -description

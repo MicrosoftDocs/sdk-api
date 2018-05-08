@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSingleItemExceptions.Reset
-title: IEnumSingleItemExceptions::Reset method
+title: IEnumSingleItemExceptions::Reset
 author: windows-driver-content
 description: Resets the enumerator to the beginning of the single-item exception set.
 old-location: winsync\ienumsingleitemexceptions_reset.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: cbd65da9-d5bb-463e-aec6-763be41079ce
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumSingleItemExceptions, IEnumSingleItemExceptions interface [Windows Sync], Reset method, IEnumSingleItemExceptions::Reset, Reset method [Windows Sync], Reset method [Windows Sync], IEnumSingleItemExceptions interface, Reset,IEnumSingleItemExceptions.Reset, winsync.ienumsingleitemexceptions_reset, winsync/IEnumSingleItemExceptions::Reset
+ms.keywords: IEnumSingleItemExceptions interface [Windows Sync],Reset method, IEnumSingleItemExceptions.Reset, IEnumSingleItemExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSingleItemExceptions interface, winsync.ienumsingleitemexceptions_reset, winsync/IEnumSingleItemExceptions::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumSingleItemExceptions::Reset method
+# IEnumSingleItemExceptions::Reset
 
 
 ## -description

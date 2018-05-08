@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.CreateObjectFromByteStream
-title: IMFSourceResolver::CreateObjectFromByteStream method
+title: IMFSourceResolver::CreateObjectFromByteStream
 author: windows-driver-content
 description: Creates a media source from a byte stream. This method is synchronous.
 old-location: mf\imfsourceresolver_createobjectfrombytestream.htm
 old-project: medfound
 ms.assetid: e4a4aad5-0924-4251-b0da-6919ae010bf0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateObjectFromByteStream method [Media Foundation], CreateObjectFromByteStream method [Media Foundation], IMFSourceResolver interface, CreateObjectFromByteStream,IMFSourceResolver.CreateObjectFromByteStream, IMFSourceResolver, IMFSourceResolver interface [Media Foundation], CreateObjectFromByteStream method, IMFSourceResolver::CreateObjectFromByteStream, e4a4aad5-0924-4251-b0da-6919ae010bf0, mf.imfsourceresolver_createobjectfrombytestream, mfidl/IMFSourceResolver::CreateObjectFromByteStream
+ms.date: 5/3/2018
+ms.keywords: CreateObjectFromByteStream, CreateObjectFromByteStream method [Media Foundation], CreateObjectFromByteStream method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],CreateObjectFromByteStream method, IMFSourceResolver.CreateObjectFromByteStream, IMFSourceResolver::CreateObjectFromByteStream, e4a4aad5-0924-4251-b0da-6919ae010bf0, mf.imfsourceresolver_createobjectfrombytestream, mfidl/IMFSourceResolver::CreateObjectFromByteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceResolver::CreateObjectFromByteStream method
+# IMFSourceResolver::CreateObjectFromByteStream
 
 
 ## -description

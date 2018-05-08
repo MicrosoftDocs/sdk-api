@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal.get_DisplayName
-title: IPrincipal::get_DisplayName method
+title: IPrincipal::get_DisplayName
 author: windows-driver-content
 description: Gets or sets the name of the principal.
 old-location: taskschd\iprincipal_displayname.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 285a0e64-d796-4b0d-84b1-9ebd0728ddc0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DisplayName property [Task Scheduler], DisplayName property [Task Scheduler], IPrincipal interface, IPrincipal, IPrincipal interface [Task Scheduler], DisplayName property, IPrincipal.DisplayName, IPrincipal::get_DisplayName, IPrincipal::put_DisplayName, get_DisplayName,IPrincipal.get_DisplayName, taskschd.iprincipal_displayname, taskschd/IPrincipal::DisplayName, taskschd/IPrincipal::get_DisplayName, taskschd/IPrincipal::put_DisplayName
+ms.keywords: DisplayName property [Task Scheduler], DisplayName property [Task Scheduler],IPrincipal interface, IPrincipal interface [Task Scheduler],DisplayName property, IPrincipal.DisplayName, IPrincipal.get_DisplayName, IPrincipal::DisplayName, IPrincipal::get_DisplayName, IPrincipal::put_DisplayName, get_DisplayName, taskschd.iprincipal_displayname, taskschd/IPrincipal::DisplayName, taskschd/IPrincipal::get_DisplayName, taskschd/IPrincipal::put_DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IPrincipal::get_DisplayName method
+# IPrincipal::get_DisplayName
 
 
 ## -description

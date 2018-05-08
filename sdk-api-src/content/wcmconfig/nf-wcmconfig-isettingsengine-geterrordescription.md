@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetErrorDescription
-title: ISettingsEngine::GetErrorDescription method
+title: ISettingsEngine::GetErrorDescription
 author: windows-driver-content
 description: Retrieves a text message for a returned HRESULT code.
 old-location: smi\isettingsengine_geterrordescription.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 1a1ac3eb-c2d5-4a23-928e-51ef1a52ad73
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetErrorDescription method [SMI], GetErrorDescription method [SMI], ISettingsEngine interface, GetErrorDescription,ISettingsEngine.GetErrorDescription, ISettingsEngine, ISettingsEngine interface [SMI], GetErrorDescription method, ISettingsEngine::GetErrorDescription, smi.isettingsengine_geterrordescription, wcmconfig/ISettingsEngine::GetErrorDescription
+ms.keywords: GetErrorDescription, GetErrorDescription method [SMI], GetErrorDescription method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetErrorDescription method, ISettingsEngine.GetErrorDescription, ISettingsEngine::GetErrorDescription, smi.isettingsengine_geterrordescription, wcmconfig/ISettingsEngine::GetErrorDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsEngine::GetErrorDescription method
+# ISettingsEngine::GetErrorDescription
 
 
 ## -description

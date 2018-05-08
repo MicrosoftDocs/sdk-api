@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: cebf03d3-e393-437a-81f7-579fea95aa9c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_DETACH_FN, StorageAdapterDetach, StorageAdapterDetach callback function [Windows Biometric Framework API], secbiomet.storageadapterdetach, winbio_adapter/StorageAdapterDetach
+ms.keywords: PIBIO_STORAGE_DETACH_FN, PIBIO_STORAGE_DETACH_FN callback, StorageAdapterDetach, StorageAdapterDetach callback function [Windows Biometric Framework API], secbiomet.storageadapterdetach, winbio_adapter/StorageAdapterDetach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_DETACH_FN callback
+# PIBIO_STORAGE_DETACH_FN callback function
 
 
 ## -description

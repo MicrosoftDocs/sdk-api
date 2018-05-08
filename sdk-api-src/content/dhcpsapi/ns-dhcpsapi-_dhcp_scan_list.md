@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_scan_list.htm
 old-project: DHCP
 ms.assetid: 9dc20612-1c08-4493-aab3-b524d8d88251
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_SCAN_LIST, DHCP_SCAN_LIST, DHCP_SCAN_LIST structure [DHCP], LPDHCP_SCAN_LIST, LPDHCP_SCAN_LIST structure pointer [DHCP], _DHCP_SCAN_LIST, dhcp.dhcp_scan_list, dhcpsapi/LPDHCP_SCAN_LIST, dhcpsapi/_DHCP_SCAN_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,6 +68,18 @@ Specifies the number of <a href="https://msdn.microsoft.com/82e36660-fb56-4334-9
 Pointer to a list of <a href="https://msdn.microsoft.com/82e36660-fb56-4334-97d0-c34facad55a6">DHCP_SCAN_ITEM</a>
          structures that contain the specific client IP addresses whose leases differed between the in-memory cache of client leases and the subnet client lease database during a <a href="https://msdn.microsoft.com/6324c197-7237-449f-ae23-4f04b1b7498e">DhcpScanDatabase</a>
        operation.
+
+
+### -field ScanItems.size_is
+
+ 
+
+
+### -field ScanItems.size_is.NumScanItems
+
+ 
+
+
 
 
 ## -see-also

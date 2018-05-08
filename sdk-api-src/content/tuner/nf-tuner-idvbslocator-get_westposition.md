@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.get_WestPosition
-title: IDVBSLocator::get_WestPosition method
+title: IDVBSLocator::get_WestPosition
 author: windows-driver-content
 description: The get_WestPosition method retrieves a value indicating whether the orbital position is given in east or west longitude.
 old-location: mstv\idvbslocator_get_westposition.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 97bb32ba-02ca-4ea4-8364-6edddbb05d8c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBSLocator, IDVBSLocator interface [Microsoft TV Technologies], get_WestPosition method, IDVBSLocator::get_WestPosition, IDVBSLocatorget_WestPosition, get_WestPosition method [Microsoft TV Technologies], get_WestPosition method [Microsoft TV Technologies], IDVBSLocator interface, get_WestPosition,IDVBSLocator.get_WestPosition, mstv.idvbslocator_get_westposition, tuner/IDVBSLocator::get_WestPosition
+ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_WestPosition method, IDVBSLocator.get_WestPosition, IDVBSLocator::get_WestPosition, IDVBSLocatorget_WestPosition, get_WestPosition, get_WestPosition method [Microsoft TV Technologies], get_WestPosition method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_westposition, tuner/IDVBSLocator::get_WestPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBSLocator::get_WestPosition method
+# IDVBSLocator::get_WestPosition
 
 
 ## -description

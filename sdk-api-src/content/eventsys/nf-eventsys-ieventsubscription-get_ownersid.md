@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_OwnerSID
-title: IEventSubscription::get_OwnerSID method
+title: IEventSubscription::get_OwnerSID
 author: windows-driver-content
 description: The security ID of the subscription's creator.
 old-location: cos\ieventsubscription_ownersid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: ab914aa3-04fc-424e-b799-c6268c014080
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventSubscription, IEventSubscription interface [COM+], OwnerSID property, IEventSubscription.OwnerSID, IEventSubscription::get_OwnerSID, IEventSubscription::put_OwnerSID, OwnerSID property [COM+], OwnerSID property [COM+], IEventSubscription interface, cos.ieventsubscription_ownersid, eventsys/IEventSubscription::OwnerSID, eventsys/IEventSubscription::get_OwnerSID, eventsys/IEventSubscription::put_OwnerSID, get_OwnerSID,IEventSubscription.get_OwnerSID
+ms.keywords: IEventSubscription interface [COM+],OwnerSID property, IEventSubscription.OwnerSID, IEventSubscription.get_OwnerSID, IEventSubscription::OwnerSID, IEventSubscription::get_OwnerSID, IEventSubscription::put_OwnerSID, OwnerSID property [COM+], OwnerSID property [COM+],IEventSubscription interface, cos.ieventsubscription_ownersid, eventsys/IEventSubscription::OwnerSID, eventsys/IEventSubscription::get_OwnerSID, eventsys/IEventSubscription::put_OwnerSID, get_OwnerSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::get_OwnerSID method
+# IEventSubscription::get_OwnerSID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMEnumStorage.Next
-title: IWMDMEnumStorage::Next method
+title: IWMDMEnumStorage::Next
 author: windows-driver-content
 description: The Next method retrieves a pointer to the next sibling storage.
 old-location: wmdm\iwmdmenumstorage_next.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: aec244c3-93e4-4093-b49c-9c74ec93ce0f
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMEnumStorage, IWMDMEnumStorage interface [windows Media Device Manager], Next method, IWMDMEnumStorage::Next, IWMDMEnumStorageNext, Next method [windows Media Device Manager], Next method [windows Media Device Manager], IWMDMEnumStorage interface, Next,IWMDMEnumStorage.Next, mswmdm/IWMDMEnumStorage::Next, wmdm.iwmdmenumstorage_next
+ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Next method, IWMDMEnumStorage.Next, IWMDMEnumStorage::Next, IWMDMEnumStorageNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IWMDMEnumStorage interface, mswmdm/IWMDMEnumStorage::Next, wmdm.iwmdmenumstorage_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMEnumStorage::Next method
+# IWMDMEnumStorage::Next
 
 
 ## -description

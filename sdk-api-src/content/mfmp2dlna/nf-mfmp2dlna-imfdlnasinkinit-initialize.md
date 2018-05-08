@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmp2dlna.IMFDLNASinkInit.Initialize
-title: IMFDLNASinkInit::Initialize method
+title: IMFDLNASinkInit::Initialize
 author: windows-driver-content
 description: Initializes the Digital Living Network Alliance (DLNA) media sink.
 old-location: mf\imfdlnasinkinit_initialize.htm
 old-project: medfound
 ms.assetid: 48c3842c-7d88-4232-b882-363d9310ffe8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFDLNASinkInit, IMFDLNASinkInit interface [Media Foundation], Initialize method, IMFDLNASinkInit::Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation], IMFDLNASinkInit interface, Initialize,IMFDLNASinkInit.Initialize, mf.imfdlnasinkinit_initialize, mfmp2dlna/IMFDLNASinkInit::Initialize
+ms.date: 5/3/2018
+ms.keywords: IMFDLNASinkInit interface [Media Foundation],Initialize method, IMFDLNASinkInit.Initialize, IMFDLNASinkInit::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFDLNASinkInit interface, mf.imfdlnasinkinit_initialize, mfmp2dlna/IMFDLNASinkInit::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFDLNASinkInit::Initialize method
+# IMFDLNASinkInit::Initialize
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: dshow\ireferenceclock.htm
 old-project: DirectShow
 ms.assetid: 9818c67d-dfbe-4498-a744-d2efaa4bfb58
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IReferenceClock, IReferenceClock interface [DirectShow], IReferenceClock interface [DirectShow], described, IReferenceClockInterface, dshow.ireferenceclock, strmif/IReferenceClock
+ms.date: 4/30/2018
+ms.keywords: IReferenceClock, IReferenceClock interface [DirectShow], IReferenceClock interface [DirectShow],described, IReferenceClockInterface, dshow.ireferenceclock, strmif/IReferenceClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

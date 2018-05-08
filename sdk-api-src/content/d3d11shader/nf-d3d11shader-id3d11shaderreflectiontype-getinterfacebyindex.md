@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.GetInterfaceByIndex
-title: ID3D11ShaderReflectionType::GetInterfaceByIndex method
+title: ID3D11ShaderReflectionType::GetInterfaceByIndex
 author: windows-driver-content
 description: Get an interface by index.
 old-location: direct3d11\id3d11shaderreflectiontype_getinterfacebyindex.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 034e3705-bdaa-4206-971f-6f4e25a96a03
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetInterfaceByIndex method [Direct3D 11], GetInterfaceByIndex method [Direct3D 11], ID3D11ShaderReflectionType interface, GetInterfaceByIndex,ID3D11ShaderReflectionType.GetInterfaceByIndex, ID3D11ShaderReflectionType, ID3D11ShaderReflectionType interface [Direct3D 11], GetInterfaceByIndex method, ID3D11ShaderReflectionType::GetInterfaceByIndex, bfde5d98-8587-784d-da46-efaf3ec2514c, d3d11shader/ID3D11ShaderReflectionType::GetInterfaceByIndex, direct3d11.id3d11shaderreflectiontype_getinterfacebyindex
+ms.keywords: GetInterfaceByIndex, GetInterfaceByIndex method [Direct3D 11], GetInterfaceByIndex method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetInterfaceByIndex method, ID3D11ShaderReflectionType.GetInterfaceByIndex, ID3D11ShaderReflectionType::GetInterfaceByIndex, bfde5d98-8587-784d-da46-efaf3ec2514c, d3d11shader/ID3D11ShaderReflectionType::GetInterfaceByIndex, direct3d11.id3d11shaderreflectiontype_getinterfacebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ShaderReflectionType::GetInterfaceByIndex method
+# ID3D11ShaderReflectionType::GetInterfaceByIndex
 
 
 ## -description

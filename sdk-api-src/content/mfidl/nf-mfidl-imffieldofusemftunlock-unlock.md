@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFFieldOfUseMFTUnlock.Unlock
-title: IMFFieldOfUseMFTUnlock::Unlock method
+title: IMFFieldOfUseMFTUnlock::Unlock
 author: windows-driver-content
 description: Unlocks a Media Foundation transform (MFT) so that the application can use it.
 old-location: mf\imffieldofusemftunlock_unlock.htm
 old-project: medfound
 ms.assetid: 54b15e72-6551-4162-90ca-a9bed68ca62f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFFieldOfUseMFTUnlock, IMFFieldOfUseMFTUnlock interface [Media Foundation], Unlock method, IMFFieldOfUseMFTUnlock::Unlock, Unlock method [Media Foundation], Unlock method [Media Foundation], IMFFieldOfUseMFTUnlock interface, Unlock,IMFFieldOfUseMFTUnlock.Unlock, mf.imffieldofusemftunlock_unlock, mfidl/IMFFieldOfUseMFTUnlock::Unlock
+ms.date: 5/3/2018
+ms.keywords: IMFFieldOfUseMFTUnlock interface [Media Foundation],Unlock method, IMFFieldOfUseMFTUnlock.Unlock, IMFFieldOfUseMFTUnlock::Unlock, Unlock, Unlock method [Media Foundation], Unlock method [Media Foundation],IMFFieldOfUseMFTUnlock interface, mf.imffieldofusemftunlock_unlock, mfidl/IMFFieldOfUseMFTUnlock::Unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFFieldOfUseMFTUnlock::Unlock method
+# IMFFieldOfUseMFTUnlock::Unlock
 
 
 ## -description

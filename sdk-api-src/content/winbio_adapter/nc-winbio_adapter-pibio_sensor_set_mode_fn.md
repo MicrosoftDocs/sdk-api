@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 83c4ecfa-da4f-41d3-b0ca-d654735743cd
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_SET_MODE_FN, SensorAdapterSetMode, SensorAdapterSetMode callback function [Windows Biometric Framework API], secbiomet.sensoradaptersetmode, winbio_adapter/SensorAdapterSetMode
+ms.keywords: PIBIO_SENSOR_SET_MODE_FN, PIBIO_SENSOR_SET_MODE_FN callback, SensorAdapterSetMode, SensorAdapterSetMode callback function [Windows Biometric Framework API], secbiomet.sensoradaptersetmode, winbio_adapter/SensorAdapterSetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_SET_MODE_FN callback
+# PIBIO_SENSOR_SET_MODE_FN callback function
 
 
 ## -description

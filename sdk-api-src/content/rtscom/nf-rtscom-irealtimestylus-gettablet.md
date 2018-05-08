@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetTablet
-title: IRealTimeStylus::GetTablet method
+title: IRealTimeStylus::GetTablet
 author: windows-driver-content
 description: Retrieves an IInkTablet Interface object to the caller.
 old-location: tablet\irealtimestylus_gettablet.htm
 old-project: tablet
 ms.assetid: 38970fc0-ec4c-4068-a146-83edaa040c8c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 38970fc0-ec4c-4068-a146-83edaa040c8c, GetTablet method [Tablet PC], GetTablet method [Tablet PC], IRealTimeStylus interface, GetTablet,IRealTimeStylus.GetTablet, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], GetTablet method, IRealTimeStylus::GetTablet, rtscom/IRealTimeStylus::GetTablet, tablet.irealtimestylus_gettablet
+ms.date: 5/2/2018
+ms.keywords: 38970fc0-ec4c-4068-a146-83edaa040c8c, GetTablet, GetTablet method [Tablet PC], GetTablet method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetTablet method, IRealTimeStylus.GetTablet, IRealTimeStylus::GetTablet, rtscom/IRealTimeStylus::GetTablet, tablet.irealtimestylus_gettablet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylus::GetTablet method
+# IRealTimeStylus::GetTablet
 
 
 ## -description

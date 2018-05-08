@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ReleaseAllContacts
-title: IDirectManipulationViewport::ReleaseAllContacts method
+title: IDirectManipulationViewport::ReleaseAllContacts
 author: windows-driver-content
 description: Removes all contacts that are associated with the viewport. Inertia is started if the viewport supports inertia.
 old-location: directmanipulation\idirectmanipulationviewport_releaseallcontacts.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 6ef43920-92bf-49c5-8e10-954d1b2b4440
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], ReleaseAllContacts method, IDirectManipulationViewport::ReleaseAllContacts, ReleaseAllContacts method [Direct Manipulation], ReleaseAllContacts method [Direct Manipulation], IDirectManipulationViewport interface, ReleaseAllContacts,IDirectManipulationViewport.ReleaseAllContacts, directmanipulation.idirectmanipulationviewport_releaseallcontacts, directmanipulation/IDirectManipulationViewport::ReleaseAllContacts
+ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],ReleaseAllContacts method, IDirectManipulationViewport.ReleaseAllContacts, IDirectManipulationViewport::ReleaseAllContacts, ReleaseAllContacts, ReleaseAllContacts method [Direct Manipulation], ReleaseAllContacts method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_releaseallcontacts, directmanipulation/IDirectManipulationViewport::ReleaseAllContacts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::ReleaseAllContacts method
+# IDirectManipulationViewport::ReleaseAllContacts
 
 
 ## -description

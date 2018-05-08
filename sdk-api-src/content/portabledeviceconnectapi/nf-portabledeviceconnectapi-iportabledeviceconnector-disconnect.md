@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.Disconnect
-title: IPortableDeviceConnector::Disconnect method
+title: IPortableDeviceConnector::Disconnect
 author: windows-driver-content
 description: Sends an asynchronous disconnect request to the MTP/Bluetooth device.
 old-location: wpdsdk\iportabledeviceconnector_disconnect.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 0cc104e6-5e3a-4fce-ba3b-68f3fb94196b
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Disconnect method [Windows Portable Devices SDK], Disconnect method [Windows Portable Devices SDK], IPortableDeviceConnector interface, Disconnect,IPortableDeviceConnector.Disconnect, IPortableDeviceConnector, IPortableDeviceConnector interface [Windows Portable Devices SDK], Disconnect method, IPortableDeviceConnector::Disconnect, devpkey/IPortableDeviceConnector::Disconnect, portabledeviceconnectapi/IPortableDeviceConnector::Disconnect, wpdsdk.iportabledeviceconnector_disconnect
+ms.keywords: Disconnect, Disconnect method [Windows Portable Devices SDK], Disconnect method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],Disconnect method, IPortableDeviceConnector.Disconnect, IPortableDeviceConnector::Disconnect, devpkey/IPortableDeviceConnector::Disconnect, portabledeviceconnectapi/IPortableDeviceConnector::Disconnect, wpdsdk.iportabledeviceconnector_disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceConnector::Disconnect method
+# IPortableDeviceConnector::Disconnect
 
 
 ## -description

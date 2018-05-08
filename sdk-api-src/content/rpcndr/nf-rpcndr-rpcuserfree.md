@@ -7,7 +7,7 @@ old-location: rpc\rpcuserfree.htm
 old-project: Rpc
 ms.assetid: A10E3C20-DB43-4F76-BF4B-87F4126BAF1A
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcUserFree, RpcUserFree function [RPC], rpc.rpcuserfree, rpcndr/RpcUserFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

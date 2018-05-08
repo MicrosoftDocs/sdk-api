@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11Linker.AddClipPlaneFromCBuffer
-title: ID3D11Linker::AddClipPlaneFromCBuffer method
+title: ID3D11Linker::AddClipPlaneFromCBuffer
 author: windows-driver-content
 description: Adds a clip plane with the plane coefficients taken from a cbuffer entry for 10Level9 shaders.
 old-location: direct3d11\id3d11linker_addclipplanefromcbuffer.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 0E7820F1-8F4E-43B2-A8DD-560BC2B5BC3D
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: AddClipPlaneFromCBuffer method [Direct3D 11], AddClipPlaneFromCBuffer method [Direct3D 11], ID3D11Linker interface, AddClipPlaneFromCBuffer,ID3D11Linker.AddClipPlaneFromCBuffer, ID3D11Linker, ID3D11Linker interface [Direct3D 11], AddClipPlaneFromCBuffer method, ID3D11Linker::AddClipPlaneFromCBuffer, d3d11shader/ID3D11Linker::AddClipPlaneFromCBuffer, direct3d11.id3d11linker_addclipplanefromcbuffer
+ms.keywords: AddClipPlaneFromCBuffer, AddClipPlaneFromCBuffer method [Direct3D 11], AddClipPlaneFromCBuffer method [Direct3D 11],ID3D11Linker interface, ID3D11Linker interface [Direct3D 11],AddClipPlaneFromCBuffer method, ID3D11Linker.AddClipPlaneFromCBuffer, ID3D11Linker::AddClipPlaneFromCBuffer, d3d11shader/ID3D11Linker::AddClipPlaneFromCBuffer, direct3d11.id3d11linker_addclipplanefromcbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11Linker::AddClipPlaneFromCBuffer method
+# ID3D11Linker::AddClipPlaneFromCBuffer
 
 
 ## -description

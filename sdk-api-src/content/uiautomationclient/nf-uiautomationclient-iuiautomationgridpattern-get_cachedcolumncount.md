@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.get_CachedColumnCount
-title: IUIAutomationGridPattern::get_CachedColumnCount method
+title: IUIAutomationGridPattern::get_CachedColumnCount
 author: windows-driver-content
 description: Retrieves the cached number of columns in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_CachedColumnCount.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: d425d767-3ae4-4644-a8bb-b901462c6c4b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedColumnCount property [Windows Accessibility], CachedColumnCount property [Windows Accessibility], IUIAutomationGridPattern interface, IUIAutomationGridPattern, IUIAutomationGridPattern interface [Windows Accessibility], CachedColumnCount property, IUIAutomationGridPattern.CachedColumnCount, IUIAutomationGridPattern::get_CachedColumnCount, get_CachedColumnCount,IUIAutomationGridPattern.get_CachedColumnCount, uiauto.uiauto_IUIAutomationGridPattern_CachedColumnCount, uiauto_IUIAutomationGridPattern_CachedColumnCount, uiautomationclient/IUIAutomationGridPattern::CachedColumnCount, uiautomationclient/IUIAutomationGridPattern::get_CachedColumnCount, winauto.uiauto_IUIAutomationGridPattern_CachedColumnCount
+ms.keywords: CachedColumnCount property [Windows Accessibility], CachedColumnCount property [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],CachedColumnCount property, IUIAutomationGridPattern.CachedColumnCount, IUIAutomationGridPattern.get_CachedColumnCount, IUIAutomationGridPattern::CachedColumnCount, IUIAutomationGridPattern::get_CachedColumnCount, get_CachedColumnCount, uiauto.uiauto_IUIAutomationGridPattern_CachedColumnCount, uiauto_IUIAutomationGridPattern_CachedColumnCount, uiautomationclient/IUIAutomationGridPattern::CachedColumnCount, uiautomationclient/IUIAutomationGridPattern::get_CachedColumnCount, winauto.uiauto_IUIAutomationGridPattern_CachedColumnCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationGridPattern::get_CachedColumnCount method
+# IUIAutomationGridPattern::get_CachedColumnCount
 
 
 ## -description

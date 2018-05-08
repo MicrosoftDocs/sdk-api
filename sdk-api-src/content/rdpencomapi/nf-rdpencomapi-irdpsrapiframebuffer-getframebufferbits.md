@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIFrameBuffer.GetFrameBufferBits
-title: IRDPSRAPIFrameBuffer::GetFrameBufferBits method
+title: IRDPSRAPIFrameBuffer::GetFrameBufferBits
 author: windows-driver-content
 description: Gets the bits in a specified area of the frame.
 old-location: rdp\irdpsrapiframebuffer_getframebufferbits.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 6497d9d1-c987-40ea-b384-0fff1e852122
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: GetFrameBufferBits method [RDP], GetFrameBufferBits method [RDP], IRDPSRAPIFrameBuffer interface, GetFrameBufferBits,IRDPSRAPIFrameBuffer.GetFrameBufferBits, IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], GetFrameBufferBits method, IRDPSRAPIFrameBuffer::GetFrameBufferBits, rdp.irdpsrapiframebuffer_getframebufferbits, rdpencomapi/IRDPSRAPIFrameBuffer::GetFrameBufferBits
+ms.keywords: GetFrameBufferBits, GetFrameBufferBits method [RDP], GetFrameBufferBits method [RDP],IRDPSRAPIFrameBuffer interface, IRDPSRAPIFrameBuffer interface [RDP],GetFrameBufferBits method, IRDPSRAPIFrameBuffer.GetFrameBufferBits, IRDPSRAPIFrameBuffer::GetFrameBufferBits, rdp.irdpsrapiframebuffer_getframebufferbits, rdpencomapi/IRDPSRAPIFrameBuffer::GetFrameBufferBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIFrameBuffer::GetFrameBufferBits method
+# IRDPSRAPIFrameBuffer::GetFrameBufferBits
 
 
 ## -description

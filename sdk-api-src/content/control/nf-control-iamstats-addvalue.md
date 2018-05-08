@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IAMStats.AddValue
-title: IAMStats::AddValue method
+title: IAMStats::AddValue
 author: windows-driver-content
 description: The AddValue method records a new value.
 old-location: dshow\iamstats_addvalue.htm
 old-project: DirectShow
 ms.assetid: a408b106-702c-4ecc-a424-b4b3588ea58f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AddValue method [DirectShow], AddValue method [DirectShow], IAMStats interface, AddValue,IAMStats.AddValue, IAMStats, IAMStats interface [DirectShow], AddValue method, IAMStats::AddValue, IAMStatsAddValue, control/IAMStats::AddValue, dshow.iamstats_addvalue
+ms.date: 4/30/2018
+ms.keywords: AddValue, AddValue method [DirectShow], AddValue method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],AddValue method, IAMStats.AddValue, IAMStats::AddValue, IAMStatsAddValue, control/IAMStats::AddValue, dshow.iamstats_addvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMStats::AddValue method
+# IAMStats::AddValue
 
 
 ## -description

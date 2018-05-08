@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnSelectionChanged
-title: INameSpaceTreeControlEvents::OnSelectionChanged method
+title: INameSpaceTreeControlEvents::OnSelectionChanged
 author: windows-driver-content
 description: Called when the selection changes.
 old-location: shell\INameSpaceTreeControlEvents_OnSelectionChanged.htm
 old-project: shell
 ms.assetid: ecc84586-ec37-4ece-a890-6adfc7a94ad6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnSelectionChanged method, INameSpaceTreeControlEvents::OnSelectionChanged, OnSelectionChanged method [Windows Shell], OnSelectionChanged method [Windows Shell], INameSpaceTreeControlEvents interface, OnSelectionChanged,INameSpaceTreeControlEvents.OnSelectionChanged, _shell_INameSpaceTreeControlEvents_OnSelectionChanged, shell.INameSpaceTreeControlEvents_OnSelectionChanged, shobjidl/INameSpaceTreeControlEvents::OnSelectionChanged
+ms.date: 5/3/2018
+ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnSelectionChanged method, INameSpaceTreeControlEvents.OnSelectionChanged, INameSpaceTreeControlEvents::OnSelectionChanged, OnSelectionChanged, OnSelectionChanged method [Windows Shell], OnSelectionChanged method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnSelectionChanged, shell.INameSpaceTreeControlEvents_OnSelectionChanged, shobjidl/INameSpaceTreeControlEvents::OnSelectionChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeControlEvents::OnSelectionChanged method
+# INameSpaceTreeControlEvents::OnSelectionChanged
 
 
 ## -description

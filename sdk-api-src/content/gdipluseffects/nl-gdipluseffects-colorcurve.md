@@ -8,7 +8,7 @@ old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurve.htm
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ColorCurve, ColorCurve class [GDI+], ColorCurve class [GDI+], described, _gdiplus_CLASS_ColorCurve_Class, gdiplus._gdiplus_CLASS_ColorCurve_Class, gdipluseffects/ColorCurve
+ms.keywords: ColorCurve, ColorCurve class [GDI+], ColorCurve class [GDI+],described, _gdiplus_CLASS_ColorCurve_Class, gdiplus._gdiplus_CLASS_ColorCurve_Class, gdipluseffects/ColorCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class
@@ -38,10 +38,10 @@ api_name:
 -	ColorCurve
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
-req.product: GDI+ 1.0
+req.product: GDI+ 1.1
 ---
 
 # ColorCurve class

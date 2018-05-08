@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_AutoSelectOnWebSites
-title: IUpdate::get_AutoSelectOnWebSites method
+title: IUpdate::get_AutoSelectOnWebSites
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether the update is flagged to be automatically selected by Windows Update.
 old-location: wua\iupdate_autoselectonwebsites.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: a27d7144-bd76-40e3-b8a7-951ae1974afb
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AutoSelectOnWebSites property [Windows Update Agent], AutoSelectOnWebSites property [Windows Update Agent], IUpdate interface, IUpdate, IUpdate interface [Windows Update Agent], AutoSelectOnWebSites property, IUpdate.AutoSelectOnWebSites, IUpdate::get_AutoSelectOnWebSites, get_AutoSelectOnWebSites,IUpdate.get_AutoSelectOnWebSites, wua.iupdate_autoselectonwebsites, wuapi/IUpdate::AutoSelectOnWebSites, wuapi/IUpdate::get_AutoSelectOnWebSites
+ms.keywords: AutoSelectOnWebSites property [Windows Update Agent], AutoSelectOnWebSites property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],AutoSelectOnWebSites property, IUpdate.AutoSelectOnWebSites, IUpdate.get_AutoSelectOnWebSites, IUpdate::AutoSelectOnWebSites, IUpdate::get_AutoSelectOnWebSites, get_AutoSelectOnWebSites, wua.iupdate_autoselectonwebsites, wuapi/IUpdate::AutoSelectOnWebSites, wuapi/IUpdate::get_AutoSelectOnWebSites
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IUpdate::get_AutoSelectOnWebSites method
+# IUpdate::get_AutoSelectOnWebSites
 
 
 ## -description

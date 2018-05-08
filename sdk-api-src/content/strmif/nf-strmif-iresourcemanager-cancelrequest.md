@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IResourceManager.CancelRequest
-title: IResourceManager::CancelRequest method
+title: IResourceManager::CancelRequest
 author: windows-driver-content
 description: The CancelRequest method cancels the request for a resource.
 old-location: dshow\iresourcemanager_cancelrequest.htm
 old-project: DirectShow
 ms.assetid: 49372654-8e69-4a7a-915e-16e791c63fb2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CancelRequest method [DirectShow], CancelRequest method [DirectShow], IResourceManager interface, CancelRequest,IResourceManager.CancelRequest, IResourceManager, IResourceManager interface [DirectShow], CancelRequest method, IResourceManager::CancelRequest, IResourceManagerCancelRequest, dshow.iresourcemanager_cancelrequest, strmif/IResourceManager::CancelRequest
+ms.date: 4/30/2018
+ms.keywords: CancelRequest, CancelRequest method [DirectShow], CancelRequest method [DirectShow],IResourceManager interface, IResourceManager interface [DirectShow],CancelRequest method, IResourceManager.CancelRequest, IResourceManager::CancelRequest, IResourceManagerCancelRequest, dshow.iresourcemanager_cancelrequest, strmif/IResourceManager::CancelRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IResourceManager::CancelRequest method
+# IResourceManager::CancelRequest
 
 
 ## -description

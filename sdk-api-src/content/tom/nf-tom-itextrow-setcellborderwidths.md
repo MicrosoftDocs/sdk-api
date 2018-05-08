@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.SetCellBorderWidths
-title: ITextRow::SetCellBorderWidths method
+title: ITextRow::SetCellBorderWidths
 author: windows-driver-content
 description: Sets the border widths of the active cell.
 old-location: controls\itextrow_setcellborderwidths.htm
 old-project: Controls
 ms.assetid: 343270e6-8f92-4429-9350-4031ae8bb0e0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetCellBorderWidths method, ITextRow::SetCellBorderWidths, SetCellBorderWidths method [Windows Controls], SetCellBorderWidths method [Windows Controls], ITextRow interface, SetCellBorderWidths,ITextRow.SetCellBorderWidths, controls.itextrow_setcellborderwidths, tom/ITextRow::SetCellBorderWidths
+ms.date: 4/27/2018
+ms.keywords: ITextRow interface [Windows Controls],SetCellBorderWidths method, ITextRow.SetCellBorderWidths, ITextRow::SetCellBorderWidths, SetCellBorderWidths, SetCellBorderWidths method [Windows Controls], SetCellBorderWidths method [Windows Controls],ITextRow interface, controls.itextrow_setcellborderwidths, tom/ITextRow::SetCellBorderWidths
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::SetCellBorderWidths method
+# ITextRow::SetCellBorderWidths
 
 
 ## -description

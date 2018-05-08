@@ -1,14 +1,14 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.SetHelperToken
-title: IBitsTokenOptions::SetHelperToken method
+title: IBitsTokenOptions::SetHelperToken
 author: windows-driver-content
 description: Sets the helper token to impersonate the token of the COM client.
 old-location: bits\ibitstokenoptions_sethelpertoken.htm
 old-project: Bits
 ms.assetid: a31414b7-159e-4ce7-8d2d-02b62aa9759d
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBitsTokenOptions, IBitsTokenOptions interface [BITS], SetHelperToken method, IBitsTokenOptions::SetHelperToken, SetHelperToken method [BITS], SetHelperToken method [BITS], IBitsTokenOptions interface, SetHelperToken,IBitsTokenOptions.SetHelperToken, bits.ibitstokenoptions_sethelpertoken, bits4_0/IBitsTokenOptions::SetHelperToken
+ms.date: 4/27/2018
+ms.keywords: IBitsTokenOptions interface [BITS],SetHelperToken method, IBitsTokenOptions.SetHelperToken, IBitsTokenOptions::SetHelperToken, SetHelperToken, SetHelperToken method [BITS], SetHelperToken method [BITS],IBitsTokenOptions interface, bits.ibitstokenoptions_sethelpertoken, bits4_0/IBitsTokenOptions::SetHelperToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsTokenOptions::SetHelperToken method
+# IBitsTokenOptions::SetHelperToken
 
 
 ## -description

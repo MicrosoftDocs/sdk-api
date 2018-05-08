@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.UnMapDesktopSurface
-title: IDXGIOutputDuplication::UnMapDesktopSurface method
+title: IDXGIOutputDuplication::UnMapDesktopSurface
 author: windows-driver-content
 description: Invalidates the pointer to the desktop image that was retrieved by using IDXGIOutputDuplication::MapDesktopSurface.
 old-location: direct3ddxgi\idxgioutputduplication_unmapdesktopsurface.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 1B9AF088-5856-4F1C-A794-6CF870D62A29
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIOutputDuplication, IDXGIOutputDuplication interface [DXGI], UnMapDesktopSurface method, IDXGIOutputDuplication::UnMapDesktopSurface, UnMapDesktopSurface method [DXGI], UnMapDesktopSurface method [DXGI], IDXGIOutputDuplication interface, UnMapDesktopSurface,IDXGIOutputDuplication.UnMapDesktopSurface, direct3ddxgi.idxgioutputduplication_unmapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::UnMapDesktopSurface
+ms.keywords: IDXGIOutputDuplication interface [DXGI],UnMapDesktopSurface method, IDXGIOutputDuplication.UnMapDesktopSurface, IDXGIOutputDuplication::UnMapDesktopSurface, UnMapDesktopSurface, UnMapDesktopSurface method [DXGI], UnMapDesktopSurface method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_unmapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::UnMapDesktopSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutputDuplication::UnMapDesktopSurface method
+# IDXGIOutputDuplication::UnMapDesktopSurface
 
 
 ## -description

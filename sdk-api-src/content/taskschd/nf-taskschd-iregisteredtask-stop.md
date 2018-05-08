@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.Stop
-title: IRegisteredTask::Stop method
+title: IRegisteredTask::Stop
 author: windows-driver-content
 description: Stops the registered task immediately.
 old-location: taskschd\iregisteredtask_stop.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: c58d7b15-1044-4d35-a501-b936503ee0fc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], Stop method, IRegisteredTask::Stop, Stop method [Task Scheduler], Stop method [Task Scheduler], IRegisteredTask interface, Stop,IRegisteredTask.Stop, taskschd.iregisteredtask_stop, taskschd/IRegisteredTask::Stop
+ms.keywords: IRegisteredTask interface [Task Scheduler],Stop method, IRegisteredTask.Stop, IRegisteredTask::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_stop, taskschd/IRegisteredTask::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegisteredTask::Stop method
+# IRegisteredTask::Stop
 
 
 ## -description

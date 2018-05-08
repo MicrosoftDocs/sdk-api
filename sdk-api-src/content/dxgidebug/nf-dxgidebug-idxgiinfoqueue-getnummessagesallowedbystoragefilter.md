@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumMessagesAllowedByStorageFilter
-title: IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter method
+title: IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter
 author: windows-driver-content
 description: Gets the number of messages that a storage filter allowed to pass through.
 old-location: direct3ddxgi\idxgiinfoqueue_getnummessagesallowedbystoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: B838A0D9-6888-46BF-AE18-8C3546535037
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetNumMessagesAllowedByStorageFilter method [DXGI], GetNumMessagesAllowedByStorageFilter method [DXGI], IDXGIInfoQueue interface, GetNumMessagesAllowedByStorageFilter,IDXGIInfoQueue.GetNumMessagesAllowedByStorageFilter, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], GetNumMessagesAllowedByStorageFilter method, IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter, direct3ddxgi.idxgiinfoqueue_getnummessagesallowedbystoragefilter, dxgidebug/IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter
+ms.keywords: GetNumMessagesAllowedByStorageFilter, GetNumMessagesAllowedByStorageFilter method [DXGI], GetNumMessagesAllowedByStorageFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumMessagesAllowedByStorageFilter method, IDXGIInfoQueue.GetNumMessagesAllowedByStorageFilter, IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter, direct3ddxgi.idxgiinfoqueue_getnummessagesallowedbystoragefilter, dxgidebug/IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter method
+# IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter
 
 
 ## -description

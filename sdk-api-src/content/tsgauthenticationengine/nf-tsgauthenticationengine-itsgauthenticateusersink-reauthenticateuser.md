@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.ReauthenticateUser
-title: ITSGAuthenticateUserSink::ReauthenticateUser method
+title: ITSGAuthenticateUserSink::ReauthenticateUser
 author: windows-driver-content
 description: Notifies Remote Desktop Gateway (RD Gateway) that it should silently reauthenticate and reauthorize the user.
 old-location: termserv\itsgauthenticateusersink_reauthenticateuser.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: f3706f72-d23c-49ac-9d81-3a38f8d399c8
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITSGAuthenticateUserSink, ITSGAuthenticateUserSink interface [Remote Desktop Services], ReauthenticateUser method, ITSGAuthenticateUserSink::ReauthenticateUser, ReauthenticateUser method [Remote Desktop Services], ReauthenticateUser method [Remote Desktop Services], ITSGAuthenticateUserSink interface, ReauthenticateUser,ITSGAuthenticateUserSink.ReauthenticateUser, termserv.itsgauthenticateusersink_reauthenticateuser, tsgauthenticationengine/ITSGAuthenticateUserSink::ReauthenticateUser
+ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],ReauthenticateUser method, ITSGAuthenticateUserSink.ReauthenticateUser, ITSGAuthenticateUserSink::ReauthenticateUser, ReauthenticateUser, ReauthenticateUser method [Remote Desktop Services], ReauthenticateUser method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_reauthenticateuser, tsgauthenticationengine/ITSGAuthenticateUserSink::ReauthenticateUser
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITSGAuthenticateUserSink::ReauthenticateUser method
+# ITSGAuthenticateUserSink::ReauthenticateUser
 
 
 ## -description

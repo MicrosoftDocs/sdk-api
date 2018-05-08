@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.ClearStorageFilter
-title: ID3D12InfoQueue::ClearStorageFilter method
+title: ID3D12InfoQueue::ClearStorageFilter
 author: windows-driver-content
 description: Remove a storage filter from the top of the storage-filter stack.
 old-location: direct3d12\id3d12infoqueue_clearstoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: ADF44564-172A-4980-8A1D-8975B0C98CAF
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ClearStorageFilter method, ClearStorageFilter method, ID3D12InfoQueue interface, ClearStorageFilter,ID3D12InfoQueue.ClearStorageFilter, ID3D12InfoQueue, ID3D12InfoQueue interface, ClearStorageFilter method, ID3D12InfoQueue::ClearStorageFilter, d3d12sdklayers/ID3D12InfoQueue::ClearStorageFilter, direct3d12.id3d12infoqueue_clearstoragefilter
+ms.keywords: ClearStorageFilter, ClearStorageFilter method, ClearStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,ClearStorageFilter method, ID3D12InfoQueue.ClearStorageFilter, ID3D12InfoQueue::ClearStorageFilter, d3d12sdklayers/ID3D12InfoQueue::ClearStorageFilter, direct3d12.id3d12infoqueue_clearstoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::ClearStorageFilter method
+# ID3D12InfoQueue::ClearStorageFilter
 
 
 ## -description

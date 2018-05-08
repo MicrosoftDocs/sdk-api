@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionEnhancedKeyUsage.InitializeEncode
-title: IX509ExtensionEnhancedKeyUsage::InitializeEncode method
+title: IX509ExtensionEnhancedKeyUsage::InitializeEncode
 author: windows-driver-content
 description: Initializes the extension from a collection of IObjectId object identifiers (OIDs) that specify the intended uses of the public key.
 old-location: security\ix509extensionenhancedkeyusage_initializeencode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 6cb12736-db5d-4d65-b32f-4bd11ceea01d
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionEnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage interface [Security], InitializeEncode method, IX509ExtensionEnhancedKeyUsage::InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security], IX509ExtensionEnhancedKeyUsage interface, InitializeEncode,IX509ExtensionEnhancedKeyUsage.InitializeEncode, certenroll/IX509ExtensionEnhancedKeyUsage::InitializeEncode, security.ix509extensionenhancedkeyusage_initializeencode_method
+ms.keywords: IX509ExtensionEnhancedKeyUsage interface [Security],InitializeEncode method, IX509ExtensionEnhancedKeyUsage.InitializeEncode, IX509ExtensionEnhancedKeyUsage::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionEnhancedKeyUsage interface, certenroll/IX509ExtensionEnhancedKeyUsage::InitializeEncode, security.ix509extensionenhancedkeyusage_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionEnhancedKeyUsage::InitializeEncode method
+# IX509ExtensionEnhancedKeyUsage::InitializeEncode
 
 
 ## -description

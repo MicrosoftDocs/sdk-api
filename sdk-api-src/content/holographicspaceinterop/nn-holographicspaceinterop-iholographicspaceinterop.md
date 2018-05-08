@@ -8,7 +8,7 @@ old-project: MixedReality
 ms.assetid: 119299C1-ECD9-46BA-B499-66890225E4E0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IHolographicSpaceInterop, IHolographicSpaceInterop interface, IHolographicSpaceInterop interface, described, MixedReality.iholographicspaceinterop, holographicspaceinterop/IHolographicSpaceInterop
+ms.keywords: IHolographicSpaceInterop, IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,described, MixedReality.iholographicspaceinterop, holographicspaceinterop/IHolographicSpaceInterop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

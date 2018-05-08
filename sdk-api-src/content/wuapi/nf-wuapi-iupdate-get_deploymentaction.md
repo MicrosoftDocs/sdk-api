@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_DeploymentAction
-title: IUpdate::get_DeploymentAction method
+title: IUpdate::get_DeploymentAction
 author: windows-driver-content
 description: Gets the action for which the update is deployed.
 old-location: wua\iupdate_deploymentaction.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 52bdde0e-6b00-4bc9-8ad6-8bae5b01b7f3
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DeploymentAction property [Windows Update Agent], DeploymentAction property [Windows Update Agent], IUpdate interface, IUpdate, IUpdate interface [Windows Update Agent], DeploymentAction property, IUpdate.DeploymentAction, IUpdate::get_DeploymentAction, get_DeploymentAction,IUpdate.get_DeploymentAction, wua.iupdate_deploymentaction, wuapi/IUpdate::DeploymentAction, wuapi/IUpdate::get_DeploymentAction
+ms.keywords: DeploymentAction property [Windows Update Agent], DeploymentAction property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeploymentAction property, IUpdate.DeploymentAction, IUpdate.get_DeploymentAction, IUpdate::DeploymentAction, IUpdate::get_DeploymentAction, get_DeploymentAction, wua.iupdate_deploymentaction, wuapi/IUpdate::DeploymentAction, wuapi/IUpdate::get_DeploymentAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IUpdate::get_DeploymentAction method
+# IUpdate::get_DeploymentAction
 
 
 ## -description

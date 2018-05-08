@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Baseline
-title: IInkRecognitionAlternate::get_Baseline method
+title: IInkRecognitionAlternate::get_Baseline
 author: windows-driver-content
 description: Gets the baseline for a IInkRecognitionAlternate object that represents a single line of text.
 old-location: tablet\iinkrecognitionalternate_baseline.htm
 old-project: tablet
 ms.assetid: 5fb53534-b15f-44e8-8bb3-31d6ba3a9bb4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 5fb53534-b15f-44e8-8bb3-31d6ba3a9bb4, Baseline property [Tablet PC], Baseline property [Tablet PC], IInkRecognitionAlternate interface, IInkRecognitionAlternate, IInkRecognitionAlternate interface [Tablet PC], Baseline property, IInkRecognitionAlternate.Baseline, IInkRecognitionAlternate.get_Baseline, IInkRecognitionAlternate::get_Baseline, get_Baseline,IInkRecognitionAlternate.get_Baseline, msinkaut/IInkRecognitionAlternate::Baseline, msinkaut/IInkRecognitionAlternate::get_Baseline, tablet.iinkrecognitionalternate_baseline
+ms.date: 5/2/2018
+ms.keywords: 5fb53534-b15f-44e8-8bb3-31d6ba3a9bb4, Baseline property [Tablet PC], Baseline property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],Baseline property, IInkRecognitionAlternate.Baseline, IInkRecognitionAlternate.get_Baseline, IInkRecognitionAlternate::Baseline, IInkRecognitionAlternate::get_Baseline, get_Baseline, msinkaut/IInkRecognitionAlternate::Baseline, msinkaut/IInkRecognitionAlternate::get_Baseline, tablet.iinkrecognitionalternate_baseline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognitionAlternate::get_Baseline method
+# IInkRecognitionAlternate::get_Baseline
 
 
 ## -description

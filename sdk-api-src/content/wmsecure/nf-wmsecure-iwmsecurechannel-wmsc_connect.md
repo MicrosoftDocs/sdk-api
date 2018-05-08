@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Connect
-title: IWMSecureChannel::WMSC_Connect method
+title: IWMSecureChannel::WMSC_Connect
 author: windows-driver-content
 description: The WMSC_Connect method initializes the secure connection.
 old-location: wmformat\iwmsecurechannel_wmsc_connect.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: d8386b23-6319-4687-9de2-a81e661a60e6
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSecureChannel, IWMSecureChannel interface [windows Media Format], WMSC_Connect method, IWMSecureChannel::WMSC_Connect, WMSC_Connect method [windows Media Format], WMSC_Connect method [windows Media Format], IWMSecureChannel interface, WMSC_Connect,IWMSecureChannel.WMSC_Connect, wmformat.iwmsecurechannel_wmsc_connect, wmsecure/IWMSecureChannel::WMSC_Connect
+ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Connect method, IWMSecureChannel.WMSC_Connect, IWMSecureChannel::WMSC_Connect, WMSC_Connect, WMSC_Connect method [windows Media Format], WMSC_Connect method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_connect, wmsecure/IWMSecureChannel::WMSC_Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSecureChannel::WMSC_Connect method
+# IWMSecureChannel::WMSC_Connect
 
 
 ## -description

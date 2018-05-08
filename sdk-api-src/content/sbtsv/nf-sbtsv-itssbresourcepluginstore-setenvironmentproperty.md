@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetEnvironmentProperty
-title: ITsSbResourcePluginStore::SetEnvironmentProperty method
+title: ITsSbResourcePluginStore::SetEnvironmentProperty
 author: windows-driver-content
 description: Sets a property of an environment.
 old-location: termserv\itssbresourcepluginstore_setenvironmentproperty.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: a120ff15-2d78-4bca-b470-0eb03933a4d9
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], SetEnvironmentProperty method, ITsSbResourcePluginStore::SetEnvironmentProperty, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], SetEnvironmentProperty method, ITsSbResourcePluginStoreEx::SetEnvironmentProperty, SetEnvironmentProperty method [Remote Desktop Services], SetEnvironmentProperty method [Remote Desktop Services], ITsSbResourcePluginStore interface, SetEnvironmentProperty method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, SetEnvironmentProperty,ITsSbResourcePluginStore.SetEnvironmentProperty, sbtsv/ITsSbResourcePluginStore::SetEnvironmentProperty, sbtsv/ITsSbResourcePluginStoreEx::SetEnvironmentProperty, termserv.itssbresourcepluginstore_setenvironmentproperty
+ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetEnvironmentProperty method, ITsSbResourcePluginStore.SetEnvironmentProperty, ITsSbResourcePluginStore::SetEnvironmentProperty, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SetEnvironmentProperty method, ITsSbResourcePluginStoreEx::SetEnvironmentProperty, SetEnvironmentProperty, SetEnvironmentProperty method [Remote Desktop Services], SetEnvironmentProperty method [Remote Desktop Services],ITsSbResourcePluginStore interface, SetEnvironmentProperty method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SetEnvironmentProperty, sbtsv/ITsSbResourcePluginStoreEx::SetEnvironmentProperty, termserv.itssbresourcepluginstore_setenvironmentproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::SetEnvironmentProperty method
+# ITsSbResourcePluginStore::SetEnvironmentProperty
 
 
 ## -description

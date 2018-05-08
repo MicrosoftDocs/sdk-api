@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.GetDesktopSharedRect
-title: IRDPSRAPISharingSession::GetDesktopSharedRect method
+title: IRDPSRAPISharingSession::GetDesktopSharedRect
 author: windows-driver-content
 description: Retrieves the current desktop region being shared.
 old-location: rdp\irdpsrapisharingsession_getdesktopsharedrect.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 2b224fa2-928d-4222-80a6-91f654b97ae1
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: GetDesktopSharedRect method [RDP], GetDesktopSharedRect method [RDP], IRDPSRAPISharingSession interface, GetDesktopSharedRect method [RDP], IRDPSRAPISharingSession2 interface, GetDesktopSharedRect,IRDPSRAPISharingSession.GetDesktopSharedRect, IRDPSRAPISharingSession, IRDPSRAPISharingSession interface [RDP], GetDesktopSharedRect method, IRDPSRAPISharingSession2 interface [RDP], GetDesktopSharedRect method, IRDPSRAPISharingSession2::GetDesktopSharedRect, IRDPSRAPISharingSession::GetDesktopSharedRect, rdp.irdpsrapisharingsession_getdesktopsharedrect, rdpencomapi/IRDPSRAPISharingSession2::GetDesktopSharedRect, rdpencomapi/IRDPSRAPISharingSession::GetDesktopSharedRect
+ms.keywords: GetDesktopSharedRect, GetDesktopSharedRect method [RDP], GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession interface, GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession.GetDesktopSharedRect, IRDPSRAPISharingSession2 interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession2::GetDesktopSharedRect, IRDPSRAPISharingSession::GetDesktopSharedRect, rdp.irdpsrapisharingsession_getdesktopsharedrect, rdpencomapi/IRDPSRAPISharingSession2::GetDesktopSharedRect, rdpencomapi/IRDPSRAPISharingSession::GetDesktopSharedRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPISharingSession::GetDesktopSharedRect method
+# IRDPSRAPISharingSession::GetDesktopSharedRect
 
 
 ## -description

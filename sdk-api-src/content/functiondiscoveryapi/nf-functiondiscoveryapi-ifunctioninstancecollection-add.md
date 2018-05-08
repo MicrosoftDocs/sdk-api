@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Add
-title: IFunctionInstanceCollection::Add method
+title: IFunctionInstanceCollection::Add
 author: windows-driver-content
 description: Adds a function instance to the collection.
 old-location: ncd\ifunctioninstancecollection_add.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: c77729f2-2524-4502-82d6-3a3be8344d94
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Add method, Add method, IFunctionInstanceCollection interface, Add,IFunctionInstanceCollection.Add, IFunctionInstanceCollection, IFunctionInstanceCollection interface, Add method, IFunctionInstanceCollection::Add, functiondiscoveryapi/IFunctionInstanceCollection::Add, ncd.ifunctioninstancecollection_add
+ms.keywords: Add, Add method, Add method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Add method, IFunctionInstanceCollection.Add, IFunctionInstanceCollection::Add, functiondiscoveryapi/IFunctionInstanceCollection::Add, ncd.ifunctioninstancecollection_add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionInstanceCollection::Add method
+# IFunctionInstanceCollection::Add
 
 
 ## -description

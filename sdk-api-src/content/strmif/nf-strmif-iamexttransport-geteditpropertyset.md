@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetEditPropertySet
-title: IAMExtTransport::GetEditPropertySet method
+title: IAMExtTransport::GetEditPropertySet
 author: windows-driver-content
 description: The GetEditPropertySet method retrieves the state of an edit event.
 old-location: dshow\iamexttransport_geteditpropertyset.htm
 old-project: DirectShow
 ms.assetid: 1afb45da-947c-454d-8be9-46ac58802b9e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetEditPropertySet method [DirectShow], GetEditPropertySet method [DirectShow], IAMExtTransport interface, GetEditPropertySet,IAMExtTransport.GetEditPropertySet, IAMExtTransport, IAMExtTransport interface [DirectShow], GetEditPropertySet method, IAMExtTransport::GetEditPropertySet, IAMExtTransportGetEditPropertySet, dshow.iamexttransport_geteditpropertyset, strmif/IAMExtTransport::GetEditPropertySet
+ms.date: 4/30/2018
+ms.keywords: GetEditPropertySet, GetEditPropertySet method [DirectShow], GetEditPropertySet method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetEditPropertySet method, IAMExtTransport.GetEditPropertySet, IAMExtTransport::GetEditPropertySet, IAMExtTransportGetEditPropertySet, dshow.iamexttransport_geteditpropertyset, strmif/IAMExtTransport::GetEditPropertySet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::GetEditPropertySet method
+# IAMExtTransport::GetEditPropertySet
 
 
 ## -description

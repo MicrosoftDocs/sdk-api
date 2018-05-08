@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.SetServiceDiscoverable
-title: IWSDDeviceHost::SetServiceDiscoverable method
+title: IWSDDeviceHost::SetServiceDiscoverable
 author: windows-driver-content
 description: Controls whether or not the service is advertised using WS-Discovery.
 old-location: ncd\iwsddevicehost_setservicediscoverable.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 8f6aa8f6-3b7a-4d13-a052-c73f21823661
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, SetServiceDiscoverable method, IWSDDeviceHost::SetServiceDiscoverable, SetServiceDiscoverable method, SetServiceDiscoverable method, IWSDDeviceHost interface, SetServiceDiscoverable,IWSDDeviceHost.SetServiceDiscoverable, ncd.iwsddevicehost_setservicediscoverable, wsdhost/IWSDDeviceHost::SetServiceDiscoverable
+ms.keywords: IWSDDeviceHost interface,SetServiceDiscoverable method, IWSDDeviceHost.SetServiceDiscoverable, IWSDDeviceHost::SetServiceDiscoverable, SetServiceDiscoverable, SetServiceDiscoverable method, SetServiceDiscoverable method,IWSDDeviceHost interface, ncd.iwsddevicehost_setservicediscoverable, wsdhost/IWSDDeviceHost::SetServiceDiscoverable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceHost::SetServiceDiscoverable method
+# IWSDDeviceHost::SetServiceDiscoverable
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMBackupCollection.get_Item
-title: IGPMBackupCollection::get_Item method
+title: IGPMBackupCollection::get_Item
 author: windows-driver-content
 description: Given an index, returns a GPMBackup object from the collection.
 old-location: gpmc\igpmbackupcollection_get_item.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 2e0ea5fb-3f91-4a64-8b4a-9fa97cd3ec3e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMBackupCollection object [GPMC], Item property, IGPMBackupCollection, IGPMBackupCollection interface [GPMC], Item property, IGPMBackupCollection.Item, IGPMBackupCollection::get_Item, Item property [GPMC], Item property [GPMC], GPMBackupCollection object, Item property [GPMC], IGPMBackupCollection interface, get_Item,IGPMBackupCollection.get_Item, gpmc.igpmbackupcollection_get_item, gpmgmt/IGPMBackupCollection::Item, gpmgmt/IGPMBackupCollection::get_Item
+ms.keywords: GPMBackupCollection object [GPMC],Item property, IGPMBackupCollection interface [GPMC],Item property, IGPMBackupCollection.Item, IGPMBackupCollection.get_Item, IGPMBackupCollection::Item, IGPMBackupCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMBackupCollection object, Item property [GPMC],IGPMBackupCollection interface, get_Item, gpmc.igpmbackupcollection_get_item, gpmgmt/IGPMBackupCollection::Item, gpmgmt/IGPMBackupCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMBackupCollection::get_Item method
+# IGPMBackupCollection::get_Item
 
 
 ## -description

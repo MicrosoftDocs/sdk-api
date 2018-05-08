@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Open
-title: IWMWriterNetworkSink::Open method
+title: IWMWriterNetworkSink::Open
 author: windows-driver-content
 description: The Open method opens a network port, and starts listening for network connections.
 old-location: wmformat\iwmwriternetworksink_open.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 2cfd4693-794c-46c8-b72d-b7529c63f16e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterNetworkSink, IWMWriterNetworkSink interface [windows Media Format], Open method, IWMWriterNetworkSink::Open, IWMWriterNetworkSinkOpen, Open method [windows Media Format], Open method [windows Media Format], IWMWriterNetworkSink interface, Open,IWMWriterNetworkSink.Open, wmformat.iwmwriternetworksink_open, wmsdkidl/IWMWriterNetworkSink::Open
+ms.keywords: IWMWriterNetworkSink interface [windows Media Format],Open method, IWMWriterNetworkSink.Open, IWMWriterNetworkSink::Open, IWMWriterNetworkSinkOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_open, wmsdkidl/IWMWriterNetworkSink::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterNetworkSink::Open method
+# IWMWriterNetworkSink::Open
 
 
 ## -description

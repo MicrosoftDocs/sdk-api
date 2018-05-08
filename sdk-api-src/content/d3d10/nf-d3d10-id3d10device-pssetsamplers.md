@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSSetSamplers
-title: ID3D10Device::PSSetSamplers method
+title: ID3D10Device::PSSetSamplers
 author: windows-driver-content
 description: Set an array of sampler states to the pixel shader pipeline stage.
 old-location: direct3d10\id3d10device_pssetsamplers.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_pssetsamplers.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 5f7069fa-43fc-1459-30dc-3cb118f8bb46, ID3D10Device, ID3D10Device interface [Direct3D 10], PSSetSamplers method, ID3D10Device::PSSetSamplers, PSSetSamplers method [Direct3D 10], PSSetSamplers method [Direct3D 10], ID3D10Device interface, PSSetSamplers,ID3D10Device.PSSetSamplers, d3d10/ID3D10Device::PSSetSamplers, direct3d10.id3d10device_pssetsamplers
+ms.keywords: 5f7069fa-43fc-1459-30dc-3cb118f8bb46, ID3D10Device interface [Direct3D 10],PSSetSamplers method, ID3D10Device.PSSetSamplers, ID3D10Device::PSSetSamplers, PSSetSamplers, PSSetSamplers method [Direct3D 10], PSSetSamplers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSSetSamplers, direct3d10.id3d10device_pssetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::PSSetSamplers method
+# ID3D10Device::PSSetSamplers
 
 
 ## -description

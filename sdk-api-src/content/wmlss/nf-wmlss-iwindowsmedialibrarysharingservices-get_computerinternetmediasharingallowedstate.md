@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_computerInternetMediaSharingAllowedState
-title: IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState method
+title: IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState
 author: windows-driver-content
 description: The get_computerInternetMediaSharingAllowedState method retrieves a value that indicates whether media libraries on the computer are allowed to be shared on the Internet.
 old-location: wmlss\IWMLSSget_computerInternetMediaSharingAllowedState.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: d4c6df42-5bbb-47b0-aedc-ffedd6fe9a8a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], get_computerInternetMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState, get_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services], get_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, get_computerInternetMediaSharingAllowedState,IWindowsMediaLibrarySharingServices.get_computerInternetMediaSharingAllowedState, wmlss.IWMLSSget_computerInternetMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_computerInternetMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.get_computerInternetMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState, get_computerInternetMediaSharingAllowedState, get_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services], get_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_computerInternetMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState method
+# IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState
 
 
 ## -description

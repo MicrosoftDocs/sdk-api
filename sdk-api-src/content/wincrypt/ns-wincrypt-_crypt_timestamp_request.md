@@ -7,7 +7,7 @@ old-location: security\crypt_timestamp_request.htm
 old-project: SecCrypto
 ms.assetid: 1576986c-1a9b-4fcf-9dab-987b472a8671
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPT_TIMESTAMP_REQUEST, CRYPT_TIMESTAMP_REQUEST, CRYPT_TIMESTAMP_REQUEST structure [Security], PCRYPT_TIMESTAMP_REQUEST, PCRYPT_TIMESTAMP_REQUEST structure pointer [Security], TIMESTAMP_VERSION, _CRYPT_TIMESTAMP_REQUEST, security.crypt_timestamp_request, wincrypt/CRYPT_TIMESTAMP_REQUEST, wincrypt/PCRYPT_TIMESTAMP_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

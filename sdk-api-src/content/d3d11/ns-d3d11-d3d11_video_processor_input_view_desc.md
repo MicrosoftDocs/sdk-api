@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_input_view_desc.htm
 old-project: medfound
 ms.assetid: 69EDF918-355A-4277-9F7E-C08CF65E5418
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC, D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC, mf.d3d11_video_processor_input_view_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ The surface format. If zero, the driver uses the DXGI format that was used to cr
 The resource type of the view, specified as a member of the <a href="https://msdn.microsoft.com/65003974-F86E-4604-BA8D-262CA2674D53">D3D11_VPIV_DIMENSION</a> enumeration.
 
 
-#### - Texture2D
+### -field Texture2D
 
 A <a href="https://msdn.microsoft.com/F174DF16-6E2F-4AE1-80D9-7565F96DE03A">D3D11_TEX2D_VPIV</a> structure that identifies the texture resource.
 

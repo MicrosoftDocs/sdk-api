@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuner.EnumTuningSpaces
-title: ITuner::EnumTuningSpaces method
+title: ITuner::EnumTuningSpaces
 author: windows-driver-content
 description: The EnumTuningSpaces method creates a collection of tuning spaces preferred by this implementation.
 old-location: mstv\ituner_enumtuningspaces.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6bd42b1b-b644-4fd7-9875-21a8d0f01243
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: EnumTuningSpaces method [Microsoft TV Technologies], EnumTuningSpaces method [Microsoft TV Technologies], ITuner interface, EnumTuningSpaces,ITuner.EnumTuningSpaces, ITuner, ITuner interface [Microsoft TV Technologies], EnumTuningSpaces method, ITuner::EnumTuningSpaces, ITunerEnumTuningSpaces, mstv.ituner_enumtuningspaces, tuner/ITuner::EnumTuningSpaces
+ms.keywords: EnumTuningSpaces, EnumTuningSpaces method [Microsoft TV Technologies], EnumTuningSpaces method [Microsoft TV Technologies],ITuner interface, ITuner interface [Microsoft TV Technologies],EnumTuningSpaces method, ITuner.EnumTuningSpaces, ITuner::EnumTuningSpaces, ITunerEnumTuningSpaces, mstv.ituner_enumtuningspaces, tuner/ITuner::EnumTuningSpaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuner::EnumTuningSpaces method
+# ITuner::EnumTuningSpaces
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponents.put_Item
-title: IComponents::put_Item method
+title: IComponents::put_Item
 author: windows-driver-content
 description: The put_Item method inserts a component into the collection, replacing the item that is identified by the specified index.
 old-location: mstv\icomponents_put_item.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c1e18e97-e8d3-441c-b7ea-6743e478033b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IComponents, IComponents interface [Microsoft TV Technologies], put_Item method, IComponents::put_Item, IComponentsput_Item, mstv.icomponents_put_item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies], IComponents interface, put_Item,IComponents.put_Item, tuner/IComponents::put_Item
+ms.keywords: IComponents interface [Microsoft TV Technologies],put_Item method, IComponents.put_Item, IComponents::put_Item, IComponentsput_Item, mstv.icomponents_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],IComponents interface, tuner/IComponents::put_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IComponents::put_Item method
+# IComponents::put_Item
 
 
 ## -description

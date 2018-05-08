@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IBootOptions.AssignBootImage
-title: IBootOptions::AssignBootImage method
+title: IBootOptions::AssignBootImage
 author: windows-driver-content
 description: Sets the data stream that contains the boot image.
 old-location: imapi\ibootoptions_assignbootimage.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 63d598dd-72a8-4544-813d-11f2e7e53ec5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AssignBootImage method [IMAPI], AssignBootImage method [IMAPI], IBootOptions interface, AssignBootImage,IBootOptions.AssignBootImage, IBootOptions, IBootOptions interface [IMAPI], AssignBootImage method, IBootOptions::AssignBootImage, imapi.ibootoptions_assignbootimage, imapi2fs/IBootOptions::AssignBootImage
+ms.keywords: AssignBootImage, AssignBootImage method [IMAPI], AssignBootImage method [IMAPI],IBootOptions interface, IBootOptions interface [IMAPI],AssignBootImage method, IBootOptions.AssignBootImage, IBootOptions::AssignBootImage, imapi.ibootoptions_assignbootimage, imapi2fs/IBootOptions::AssignBootImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IBootOptions::AssignBootImage method
+# IBootOptions::AssignBootImage
 
 
 ## -description

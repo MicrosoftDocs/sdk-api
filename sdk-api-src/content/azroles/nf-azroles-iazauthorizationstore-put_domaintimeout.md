@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.put_DomainTimeout
-title: IAzAuthorizationStore::put_DomainTimeout method
+title: IAzAuthorizationStore::put_DomainTimeout
 author: windows-driver-content
 description: Sets or retrieves the time in milliseconds after which a domain is determined to be unreachable.
 old-location: security\azauthorizationstore_domaintimeout.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: e512641d-a282-41f6-a7d8-5383ad43cd5b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzAuthorizationStore object [Security], DomainTimeout property, DomainTimeout property [Security], DomainTimeout property [Security], AzAuthorizationStore object, DomainTimeout property [Security], IAzAuthorizationStore interface, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], DomainTimeout property, IAzAuthorizationStore.DomainTimeout, IAzAuthorizationStore::get_DomainTimeout, IAzAuthorizationStore::put_DomainTimeout, azroles/IAzAuthorizationStore::DomainTimeout, azroles/IAzAuthorizationStore::get_DomainTimeout, azroles/IAzAuthorizationStore::put_DomainTimeout, put_DomainTimeout,IAzAuthorizationStore.put_DomainTimeout, security.azauthorizationstore_domaintimeout
+ms.keywords: AzAuthorizationStore object [Security],DomainTimeout property, DomainTimeout property [Security], DomainTimeout property [Security],AzAuthorizationStore object, DomainTimeout property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DomainTimeout property, IAzAuthorizationStore.DomainTimeout, IAzAuthorizationStore.put_DomainTimeout, IAzAuthorizationStore::DomainTimeout, IAzAuthorizationStore::get_DomainTimeout, IAzAuthorizationStore::put_DomainTimeout, azroles/IAzAuthorizationStore::DomainTimeout, azroles/IAzAuthorizationStore::get_DomainTimeout, azroles/IAzAuthorizationStore::put_DomainTimeout, put_DomainTimeout, security.azauthorizationstore_domaintimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::put_DomainTimeout method
+# IAzAuthorizationStore::put_DomainTimeout
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDevice.get_Category
-title: IMSVidDevice::get_Category method
+title: IMSVidDevice::get_Category
 author: windows-driver-content
 description: The get_Category method retrieves the category of the device as a BSTR.
 old-location: mstv\imsviddevice_get_category.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 369080c6-b707-494e-a663-e78e7d8d3eaf
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidDevice, IMSVidDevice interface [Microsoft TV Technologies], get_Category method, IMSVidDevice::get_Category, IMSVidDeviceget_Category, get_Category method [Microsoft TV Technologies], get_Category method [Microsoft TV Technologies], IMSVidDevice interface, get_Category,IMSVidDevice.get_Category, mstv.imsviddevice_get_category, segment/IMSVidDevice::get_Category
+ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Category method, IMSVidDevice.get_Category, IMSVidDevice::get_Category, IMSVidDeviceget_Category, get_Category, get_Category method [Microsoft TV Technologies], get_Category method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_category, segment/IMSVidDevice::get_Category
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidDevice::get_Category method
+# IMSVidDevice::get_Category
 
 
 ## -description

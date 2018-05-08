@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.Disable
-title: IUIAnimationTimer::Disable method
+title: IUIAnimationTimer::Disable
 author: windows-driver-content
 description: Disables the animation timer.
 old-location: uianimation\iuianimationtimer_disable.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 981f2086-3588-4150-aa0a-c427b93ef8bb
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Disable method [Windows Animation], Disable method [Windows Animation], IUIAnimationTimer interface, Disable,IUIAnimationTimer.Disable, IUIAnimationTimer, IUIAnimationTimer interface [Windows Animation], Disable method, IUIAnimationTimer::Disable, uianimation.iuianimationtimer_disable, uianimation/IUIAnimationTimer::Disable
+ms.keywords: Disable, Disable method [Windows Animation], Disable method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],Disable method, IUIAnimationTimer.Disable, IUIAnimationTimer::Disable, uianimation.iuianimationtimer_disable, uianimation/IUIAnimationTimer::Disable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTimer::Disable method
+# IUIAnimationTimer::Disable
 
 
 ## -description

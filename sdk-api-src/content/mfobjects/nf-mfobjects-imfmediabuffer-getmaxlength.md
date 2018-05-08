@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.GetMaxLength
-title: IMFMediaBuffer::GetMaxLength method
+title: IMFMediaBuffer::GetMaxLength
 author: windows-driver-content
 description: Retrieves the allocated size of the buffer.
 old-location: mf\imfmediabuffer_getmaxlength.htm
 old-project: medfound
 ms.assetid: f0697f1d-18d6-4406-9f19-8cbaac08ad47
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetMaxLength method [Media Foundation], GetMaxLength method [Media Foundation], IMFMediaBuffer interface, GetMaxLength,IMFMediaBuffer.GetMaxLength, IMFMediaBuffer, IMFMediaBuffer interface [Media Foundation], GetMaxLength method, IMFMediaBuffer::GetMaxLength, f0697f1d-18d6-4406-9f19-8cbaac08ad47, mf.imfmediabuffer_getmaxlength, mfobjects/IMFMediaBuffer::GetMaxLength
+ms.date: 5/3/2018
+ms.keywords: GetMaxLength, GetMaxLength method [Media Foundation], GetMaxLength method [Media Foundation],IMFMediaBuffer interface, IMFMediaBuffer interface [Media Foundation],GetMaxLength method, IMFMediaBuffer.GetMaxLength, IMFMediaBuffer::GetMaxLength, f0697f1d-18d6-4406-9f19-8cbaac08ad47, mf.imfmediabuffer_getmaxlength, mfobjects/IMFMediaBuffer::GetMaxLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaBuffer::GetMaxLength method
+# IMFMediaBuffer::GetMaxLength
 
 
 ## -description

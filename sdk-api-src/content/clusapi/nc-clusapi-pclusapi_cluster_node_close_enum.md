@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 8133125f-eb5a-4cbc-a39d-72fb5f3ee384
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM, PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM callback function [Failover Cluster], _wolf_clusternodecloseenum, clusapi/PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM, mscs.clusternodecloseenum
+ms.keywords: PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM, PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM callback, PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM callback function [Failover Cluster], _wolf_clusternodecloseenum, clusapi/PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM, mscs.clusternodecloseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM callback
+# PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM callback function
 
 
 ## -description

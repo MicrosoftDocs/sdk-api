@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetRecordDescriptorByTag
-title: IISDB_LDT::GetRecordDescriptorByTag method
+title: IISDB_LDT::GetRecordDescriptorByTag
 author: windows-driver-content
 description: Searches a record in an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT) for a specific descriptor tag.
 old-location: mstv\iisdb_ldt_getrecorddescriptorbytag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6d1fc08c-9c5b-4361-a144-d8b423250c51
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies], IISDB_LDT interface, GetRecordDescriptorByTag,IISDB_LDT.GetRecordDescriptorByTag, IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], GetRecordDescriptorByTag method, IISDB_LDT::GetRecordDescriptorByTag, dvbsiparser/IISDB_LDT::GetRecordDescriptorByTag, mstv.iisdb_ldt_getrecorddescriptorbytag
+ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IISDB_LDT.GetRecordDescriptorByTag, IISDB_LDT::GetRecordDescriptorByTag, dvbsiparser/IISDB_LDT::GetRecordDescriptorByTag, mstv.iisdb_ldt_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_LDT::GetRecordDescriptorByTag method
+# IISDB_LDT::GetRecordDescriptorByTag
 
 
 ## -description

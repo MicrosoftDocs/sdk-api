@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: acf417ea-2396-4178-84e5-6d6b495476f8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportSession, IWdsTransportSession interface [Windows Deployment Services], IWdsTransportSession interface [Windows Deployment Services], described, wds.iwdstransportsession, wdstptmgmt/IWdsTransportSession
+ms.keywords: IWdsTransportSession, IWdsTransportSession interface [Windows Deployment Services], IWdsTransportSession interface [Windows Deployment Services],described, wds.iwdstransportsession, wdstptmgmt/IWdsTransportSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.KeepItems
-title: ISyncMgrResolutionHandler::KeepItems method
+title: ISyncMgrResolutionHandler::KeepItems
 author: windows-driver-content
 description: Keeps the Shell items that are passed in.
 old-location: shell\ISyncMgrResolutionHandler_KeepItems.htm
 old-project: shell
 ms.assetid: 81be006b-4aa4-42da-ae1b-001ae92a3e9b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrResolutionHandler, ISyncMgrResolutionHandler interface [Windows Shell], KeepItems method, ISyncMgrResolutionHandler::KeepItems, KeepItems method [Windows Shell], KeepItems method [Windows Shell], ISyncMgrResolutionHandler interface, KeepItems,ISyncMgrResolutionHandler.KeepItems, _shell_ISyncMgrResolutionHandler_KeepItems, shell.ISyncMgrResolutionHandler_KeepItems, syncmgr/ISyncMgrResolutionHandler::KeepItems
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepItems method, ISyncMgrResolutionHandler.KeepItems, ISyncMgrResolutionHandler::KeepItems, KeepItems, KeepItems method [Windows Shell], KeepItems method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepItems, shell.ISyncMgrResolutionHandler_KeepItems, syncmgr/ISyncMgrResolutionHandler::KeepItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrResolutionHandler::KeepItems method
+# ISyncMgrResolutionHandler::KeepItems
 
 
 ## -description

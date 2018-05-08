@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemAdded
-title: INameSpaceTreeControlEvents::OnItemAdded method
+title: INameSpaceTreeControlEvents::OnItemAdded
 author: windows-driver-content
 description: Called after an IShellItem has been added.
 old-location: shell\INameSpaceTreeControlEvents_OnItemAdded.htm
 old-project: shell
 ms.assetid: 7737e014-8e46-43da-b017-133bbf12b433
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnItemAdded method, INameSpaceTreeControlEvents::OnItemAdded, OnItemAdded method [Windows Shell], OnItemAdded method [Windows Shell], INameSpaceTreeControlEvents interface, OnItemAdded,INameSpaceTreeControlEvents.OnItemAdded, _shell_INameSpaceTreeControlEvents_OnItemAdded, shell.INameSpaceTreeControlEvents_OnItemAdded, shobjidl/INameSpaceTreeControlEvents::OnItemAdded
+ms.date: 5/3/2018
+ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemAdded method, INameSpaceTreeControlEvents.OnItemAdded, INameSpaceTreeControlEvents::OnItemAdded, OnItemAdded, OnItemAdded method [Windows Shell], OnItemAdded method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemAdded, shell.INameSpaceTreeControlEvents_OnItemAdded, shobjidl/INameSpaceTreeControlEvents::OnItemAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeControlEvents::OnItemAdded method
+# INameSpaceTreeControlEvents::OnItemAdded
 
 
 ## -description

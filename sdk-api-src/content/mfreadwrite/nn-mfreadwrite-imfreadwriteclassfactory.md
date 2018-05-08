@@ -7,8 +7,8 @@ old-location: mf\imfreadwriteclassfactory.htm
 old-project: medfound
 ms.assetid: 83ef0f0a-ae60-474d-a9e7-7c83a73f6255
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFReadWriteClassFactory, IMFReadWriteClassFactory interface [Media Foundation], IMFReadWriteClassFactory interface [Media Foundation], described, mf.imfreadwriteclassfactory, mfreadwrite/IMFReadWriteClassFactory
+ms.date: 5/3/2018
+ms.keywords: IMFReadWriteClassFactory, IMFReadWriteClassFactory interface [Media Foundation], IMFReadWriteClassFactory interface [Media Foundation],described, mf.imfreadwriteclassfactory, mfreadwrite/IMFReadWriteClassFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

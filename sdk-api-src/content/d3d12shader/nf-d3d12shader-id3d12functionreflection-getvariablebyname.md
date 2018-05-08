@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionReflection.GetVariableByName
-title: ID3D12FunctionReflection::GetVariableByName method
+title: ID3D12FunctionReflection::GetVariableByName
 author: windows-driver-content
 description: Gets a variable by name.
 old-location: direct3d12\id3d12functionreflection_getvariablebyname.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 1E33C1B9-19DA-4ACD-8304-D5315AC63E2B
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetVariableByName method, GetVariableByName method, ID3D12FunctionReflection interface, GetVariableByName,ID3D12FunctionReflection.GetVariableByName, ID3D12FunctionReflection, ID3D12FunctionReflection interface, GetVariableByName method, ID3D12FunctionReflection::GetVariableByName, d3d12shader/ID3D12FunctionReflection::GetVariableByName, direct3d12.id3d12functionreflection_getvariablebyname
+ms.keywords: GetVariableByName, GetVariableByName method, GetVariableByName method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetVariableByName method, ID3D12FunctionReflection.GetVariableByName, ID3D12FunctionReflection::GetVariableByName, d3d12shader/ID3D12FunctionReflection::GetVariableByName, direct3d12.id3d12functionreflection_getvariablebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12FunctionReflection::GetVariableByName method
+# ID3D12FunctionReflection::GetVariableByName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:holographicspaceinterop.IHolographicSpaceInterop.CreateForWindow
-title: IHolographicSpaceInterop::CreateForWindow method
+title: IHolographicSpaceInterop::CreateForWindow
 author: windows-driver-content
 description: Instantiates a HolographicSpace object and binds it to the current application.
 old-location: mixedreality\iholographicspaceinterop_createforwindow.htm
@@ -8,7 +8,7 @@ old-project: MixedReality
 ms.assetid: 8B7A226E-FB47-4BA2-B13E-B37250C75920
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateForWindow method, CreateForWindow method, IHolographicSpaceInterop interface, CreateForWindow,IHolographicSpaceInterop.CreateForWindow, IHolographicSpaceInterop, IHolographicSpaceInterop interface, CreateForWindow method, IHolographicSpaceInterop::CreateForWindow, MixedReality.iholographicspaceinterop_createforwindow, holographicspaceinterop/IHolographicSpaceInterop::CreateForWindow
+ms.keywords: CreateForWindow, CreateForWindow method, CreateForWindow method,IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,CreateForWindow method, IHolographicSpaceInterop.CreateForWindow, IHolographicSpaceInterop::CreateForWindow, MixedReality.iholographicspaceinterop_createforwindow, holographicspaceinterop/IHolographicSpaceInterop::CreateForWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IHolographicSpaceInterop::CreateForWindow method
+# IHolographicSpaceInterop::CreateForWindow
 
 
 ## -description

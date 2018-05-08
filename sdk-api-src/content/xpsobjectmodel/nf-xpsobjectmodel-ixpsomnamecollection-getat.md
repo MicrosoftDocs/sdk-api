@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMNameCollection.GetAt
-title: IXpsOMNameCollection::GetAt method
+title: IXpsOMNameCollection::GetAt
 author: windows-driver-content
 description: Gets the name string that is stored at a specified location in the collection.
 old-location: xps\ixpsomnamecollection_getat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 729e44fa-2080-4ae8-84d6-873329f90e4e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging], IXpsOMNameCollection interface, GetAt,IXpsOMNameCollection.GetAt, IXpsOMNameCollection, IXpsOMNameCollection interface [XPS Documents and Packaging], GetAt method, IXpsOMNameCollection::GetAt, xps.ixpsomnamecollection_getat, xpsobjectmodel/IXpsOMNameCollection::GetAt
+ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMNameCollection interface, IXpsOMNameCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMNameCollection.GetAt, IXpsOMNameCollection::GetAt, xps.ixpsomnamecollection_getat, xpsobjectmodel/IXpsOMNameCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMNameCollection::GetAt method
+# IXpsOMNameCollection::GetAt
 
 
 ## -description

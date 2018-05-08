@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyRequestOriginator.Initialize
-title: ICertPropertyRequestOriginator::Initialize method
+title: ICertPropertyRequestOriginator::Initialize
 author: windows-driver-content
 description: Initializes the object from a string that contains the DNS name of the originating computer.
 old-location: security\icertpropertyrequestoriginator_initialize_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 3308dde9-ab97-40a1-9251-c207a3a66061
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], Initialize method, ICertPropertyRequestOriginator::Initialize, Initialize method [Security], Initialize method [Security], ICertPropertyRequestOriginator interface, Initialize,ICertPropertyRequestOriginator.Initialize, certenroll/ICertPropertyRequestOriginator::Initialize, security.icertpropertyrequestoriginator_initialize_method
+ms.keywords: ICertPropertyRequestOriginator interface [Security],Initialize method, ICertPropertyRequestOriginator.Initialize, ICertPropertyRequestOriginator::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::Initialize, security.icertpropertyrequestoriginator_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyRequestOriginator::Initialize method
+# ICertPropertyRequestOriginator::Initialize
 
 
 ## -description

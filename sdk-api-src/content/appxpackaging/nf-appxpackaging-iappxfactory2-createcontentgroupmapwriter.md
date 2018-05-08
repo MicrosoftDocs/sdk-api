@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFactory2.CreateContentGroupMapWriter
-title: IAppxFactory2::CreateContentGroupMapWriter method
+title: IAppxFactory2::CreateContentGroupMapWriter
 author: windows-driver-content
 description: Creates an IAppxContentGroupMapWriter.
 old-location: appxpkg\iappxfactory2_createcontentgroupmapwriter.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 4BFF656D-4B89-4D05-9A41-44400F75E8BC
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateContentGroupMapWriter method [App packaging and management], CreateContentGroupMapWriter method [App packaging and management], IAppxFactory2 interface, CreateContentGroupMapWriter,IAppxFactory2.CreateContentGroupMapWriter, IAppxFactory2, IAppxFactory2 interface [App packaging and management], CreateContentGroupMapWriter method, IAppxFactory2::CreateContentGroupMapWriter, appxpackaging/IAppxFactory2::CreateContentGroupMapWriter, appxpkg.iappxfactory2_createcontentgroupmapwriter
+ms.keywords: CreateContentGroupMapWriter, CreateContentGroupMapWriter method [App packaging and management], CreateContentGroupMapWriter method [App packaging and management],IAppxFactory2 interface, IAppxFactory2 interface [App packaging and management],CreateContentGroupMapWriter method, IAppxFactory2.CreateContentGroupMapWriter, IAppxFactory2::CreateContentGroupMapWriter, appxpackaging/IAppxFactory2::CreateContentGroupMapWriter, appxpkg.iappxfactory2_createcontentgroupmapwriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxFactory2::CreateContentGroupMapWriter method
+# IAppxFactory2::CreateContentGroupMapWriter
 
 
 ## -description

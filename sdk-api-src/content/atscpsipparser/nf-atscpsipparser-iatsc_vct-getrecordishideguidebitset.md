@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordIsHideGuideBitSet
-title: IATSC_VCT::GetRecordIsHideGuideBitSet method
+title: IATSC_VCT::GetRecordIsHideGuideBitSet
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordishideguidebitset.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 74b2ec97-f225-4085-910e-9093995c46f8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordIsHideGuideBitSet method [Microsoft TV Technologies], GetRecordIsHideGuideBitSet method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordIsHideGuideBitSet,IATSC_VCT.GetRecordIsHideGuideBitSet, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordIsHideGuideBitSet method, IATSC_VCT::GetRecordIsHideGuideBitSet, IATSC_VCTGetRecordIsHideGuideBitSet, atscpsipparser/IATSC_VCT::GetRecordIsHideGuideBitSet, mstv.iatsc_vct_getrecordishideguidebitset
+ms.keywords: GetRecordIsHideGuideBitSet, GetRecordIsHideGuideBitSet method [Microsoft TV Technologies], GetRecordIsHideGuideBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsHideGuideBitSet method, IATSC_VCT.GetRecordIsHideGuideBitSet, IATSC_VCT::GetRecordIsHideGuideBitSet, IATSC_VCTGetRecordIsHideGuideBitSet, atscpsipparser/IATSC_VCT::GetRecordIsHideGuideBitSet, mstv.iatsc_vct_getrecordishideguidebitset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_VCT::GetRecordIsHideGuideBitSet method
+# IATSC_VCT::GetRecordIsHideGuideBitSet
 
 
 ## -description

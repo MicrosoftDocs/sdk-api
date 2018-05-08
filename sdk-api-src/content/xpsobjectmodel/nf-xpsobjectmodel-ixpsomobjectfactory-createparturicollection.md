@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePartUriCollection
-title: IXpsOMObjectFactory::CreatePartUriCollection method
+title: IXpsOMObjectFactory::CreatePartUriCollection
 author: windows-driver-content
 description: Creates an IXpsOMPartUriCollection interface that can contain IOpcPartUri interface pointers.
 old-location: xps\ixpsomobjectfactory_createparturicollection.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1127a314-43c8-43a2-a06e-88858a43c519
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePartUriCollection method [XPS Documents and Packaging], CreatePartUriCollection method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreatePartUriCollection,IXpsOMObjectFactory.CreatePartUriCollection, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreatePartUriCollection method, IXpsOMObjectFactory::CreatePartUriCollection, xps.ixpsomobjectfactory_createparturicollection, xpsobjectmodel/IXpsOMObjectFactory::CreatePartUriCollection
+ms.keywords: CreatePartUriCollection, CreatePartUriCollection method [XPS Documents and Packaging], CreatePartUriCollection method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartUriCollection method, IXpsOMObjectFactory.CreatePartUriCollection, IXpsOMObjectFactory::CreatePartUriCollection, xps.ixpsomobjectfactory_createparturicollection, xpsobjectmodel/IXpsOMObjectFactory::CreatePartUriCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreatePartUriCollection method
+# IXpsOMObjectFactory::CreatePartUriCollection
 
 
 ## -description

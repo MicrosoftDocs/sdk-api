@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetSigFromToken
-title: IMetaDataImport::GetSigFromToken method
+title: IMetaDataImport::GetSigFromToken
 author: windows-driver-content
 description: Gets the binary metadata signature associated with the specified token.
 old-location: winrt\imetadataimport_getsigfromtoken.htm
 old-project: WinRT
 ms.assetid: babd95ef-7786-47da-b5f6-c1fef93a4504
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetSigFromToken method [Windows Runtime], GetSigFromToken method [Windows Runtime], IMetaDataImport interface, GetSigFromToken,IMetaDataImport.GetSigFromToken, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetSigFromToken method, IMetaDataImport::GetSigFromToken, rometadataapi/IMetaDataImport::GetSigFromToken, winrt.imetadataimport_getsigfromtoken
+ms.date: 5/4/2018
+ms.keywords: GetSigFromToken, GetSigFromToken method [Windows Runtime], GetSigFromToken method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetSigFromToken method, IMetaDataImport.GetSigFromToken, IMetaDataImport::GetSigFromToken, rometadataapi/IMetaDataImport::GetSigFromToken, winrt.imetadataimport_getsigfromtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetSigFromToken method
+# IMetaDataImport::GetSigFromToken
 
 
 ## -description

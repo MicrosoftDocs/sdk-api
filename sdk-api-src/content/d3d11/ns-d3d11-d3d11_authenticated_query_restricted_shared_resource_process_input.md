@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_query_restricted_shared_resource_process_in
 old-project: medfound
 ms.assetid: 39B705E7-CCC0-48D3-A665-F42DE737FFAE
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_INPUT, D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_INPUT, mf.d3d11_authenticated_query_restricted_shared_resource_process_input
 ms.prod: windows-hardware
 ms.technology: windows-devices

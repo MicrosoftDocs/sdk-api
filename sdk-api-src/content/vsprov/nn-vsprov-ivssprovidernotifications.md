@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 09324f54-8902-43d1-a4f9-967adccbf8be
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssProviderNotifications, IVssProviderNotifications interface [VSS], IVssProviderNotifications interface [VSS], described, base.ivssprovidernotifications, vsprov/IVssProviderNotifications
+ms.keywords: IVssProviderNotifications, IVssProviderNotifications interface [VSS], IVssProviderNotifications interface [VSS],described, base.ivssprovidernotifications, vsprov/IVssProviderNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

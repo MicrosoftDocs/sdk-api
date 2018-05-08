@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetPayloadFile
-title: IAppxPackageReader::GetPayloadFile method
+title: IAppxPackageReader::GetPayloadFile
 author: windows-driver-content
 description: Retrieves a payload file from the package.
 old-location: appxpkg\iappxpackagereader_getpayloadfile.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 83E6931D-405C-4A93-BE70-F505D484CB7F
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPayloadFile method [App packaging and management], GetPayloadFile method [App packaging and management], IAppxPackageReader interface, GetPayloadFile,IAppxPackageReader.GetPayloadFile, IAppxPackageReader, IAppxPackageReader interface [App packaging and management], GetPayloadFile method, IAppxPackageReader::GetPayloadFile, appxpackaging/IAppxPackageReader::GetPayloadFile, appxpkg.iappxpackagereader_getpayloadfile
+ms.keywords: GetPayloadFile, GetPayloadFile method [App packaging and management], GetPayloadFile method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetPayloadFile method, IAppxPackageReader.GetPayloadFile, IAppxPackageReader::GetPayloadFile, appxpackaging/IAppxPackageReader::GetPayloadFile, appxpkg.iappxpackagereader_getpayloadfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxPackageReader::GetPayloadFile method
+# IAppxPackageReader::GetPayloadFile
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: security\bcrypt_multi_operation_type.htm
 old-project: SecCNG
 ms.assetid: C87714F6-CB25-4215-B1BA-C09AAA875D00
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: BCRYPT_MULTI_OPERATION_TYPE, BCRYPT_MULTI_OPERATION_TYPE enumeration [Security], BCRYPT_OPERATION_TYPE_HASH, bcrypt/BCRYPT_MULTI_OPERATION_TYPE, bcrypt/BCRYPT_OPERATION_TYPE_HASH, security.bcrypt_multi_operation_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

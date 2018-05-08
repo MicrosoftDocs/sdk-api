@@ -8,7 +8,7 @@ old-project: SNMP
 ms.assetid: 19fcac27-daa1-40e2-9038-7f03279381f0
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: SnmpExtensionClose, SnmpExtensionClose callback function [SNMP], _snmp_snmpextensionclose, snmp.snmpextensionclose, snmp/SnmpExtensionClose
+ms.keywords: SnmpExtensionClose, SnmpExtensionClose callback, SnmpExtensionClose callback function [SNMP], _snmp_snmpextensionclose, snmp.snmpextensionclose, snmp/SnmpExtensionClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

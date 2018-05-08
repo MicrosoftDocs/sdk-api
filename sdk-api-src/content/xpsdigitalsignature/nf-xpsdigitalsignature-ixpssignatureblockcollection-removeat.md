@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlockCollection.RemoveAt
-title: IXpsSignatureBlockCollection::RemoveAt method
+title: IXpsSignatureBlockCollection::RemoveAt
 author: windows-driver-content
 description: Removes and releases an IXpsSignatureBlock interface pointer from a specified location in the collection.
 old-location: xps\ixpssignatureblockcollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 895f6f0b-6259-4288-90be-659f1ca46d1a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSignatureBlockCollection, IXpsSignatureBlockCollection interface [XPS Documents and Packaging], RemoveAt method, IXpsSignatureBlockCollection::RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging], IXpsSignatureBlockCollection interface, RemoveAt,IXpsSignatureBlockCollection.RemoveAt, xps.ixpssignatureblockcollection_removeat, xpsdigitalsignature/IXpsSignatureBlockCollection::RemoveAt
+ms.keywords: IXpsSignatureBlockCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsSignatureBlockCollection.RemoveAt, IXpsSignatureBlockCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsSignatureBlockCollection interface, xps.ixpssignatureblockcollection_removeat, xpsdigitalsignature/IXpsSignatureBlockCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureBlockCollection::RemoveAt method
+# IXpsSignatureBlockCollection::RemoveAt
 
 
 ## -description

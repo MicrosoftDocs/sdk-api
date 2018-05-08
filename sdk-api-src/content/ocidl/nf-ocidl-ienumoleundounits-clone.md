@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Clone
-title: IEnumOleUndoUnits::Clone method
+title: IEnumOleUndoUnits::Clone
 author: windows-driver-content
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumoleundounits_clone.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 0aed7771-0e9c-49b1-8c45-4dcf637cb04c
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Clone method [COM], Clone method [COM], IEnumOleUndoUnits interface, Clone,IEnumOleUndoUnits.Clone, IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], Clone method, IEnumOleUndoUnits::Clone, _ole_ienumoleundounits_clone, com.ienumoleundounits_clone, ocidl/IEnumOleUndoUnits::Clone
+ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOleUndoUnits interface, IEnumOleUndoUnits interface [COM],Clone method, IEnumOleUndoUnits.Clone, IEnumOleUndoUnits::Clone, _ole_ienumoleundounits_clone, com.ienumoleundounits_clone, ocidl/IEnumOleUndoUnits::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumOleUndoUnits::Clone method
+# IEnumOleUndoUnits::Clone
 
 
 ## -description

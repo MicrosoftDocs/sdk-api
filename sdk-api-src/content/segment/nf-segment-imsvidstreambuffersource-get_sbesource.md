@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.get_SBESource
-title: IMSVidStreamBufferSource::get_SBESource method
+title: IMSVidStreamBufferSource::get_SBESource
 author: windows-driver-content
 description: The get_SBESource method retrieves a pointer to the Stream Buffer Source filter.
 old-location: mstv\imsvidstreambuffersource_get_sbesource.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6ba9cf64-bf26-4a17-ae7a-3e92fc67138d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSource, IMSVidStreamBufferSource interface [Microsoft TV Technologies], get_SBESource method, IMSVidStreamBufferSource::get_SBESource, IMSVidStreamBufferSourceget_SBESource, get_SBESource method [Microsoft TV Technologies], get_SBESource method [Microsoft TV Technologies], IMSVidStreamBufferSource interface, get_SBESource,IMSVidStreamBufferSource.get_SBESource, mstv.imsvidstreambuffersource_get_sbesource, segment/IMSVidStreamBufferSource::get_SBESource
+ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_SBESource method, IMSVidStreamBufferSource.get_SBESource, IMSVidStreamBufferSource::get_SBESource, IMSVidStreamBufferSourceget_SBESource, get_SBESource, get_SBESource method [Microsoft TV Technologies], get_SBESource method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_sbesource, segment/IMSVidStreamBufferSource::get_SBESource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSource::get_SBESource method
+# IMSVidStreamBufferSource::get_SBESource
 
 
 ## -description

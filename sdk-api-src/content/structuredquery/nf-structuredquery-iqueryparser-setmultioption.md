@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IQueryParser.SetMultiOption
-title: IQueryParser::SetMultiOption method
+title: IQueryParser::SetMultiOption
 author: windows-driver-content
 description: Sets a complex option, such as a specified condition generator, to use when parsing an input string.
 old-location: search\_search_IQueryParser_SetMultiOption.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\setmultioption.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IQueryParser, IQueryParser interface [search], SetMultiOption method, IQueryParser::SetMultiOption, SetMultiOption method [search], SetMultiOption method [search], IQueryParser interface, SetMultiOption,IQueryParser.SetMultiOption, _search_IQueryParser_SetMultiOption, search._search_IQueryParser_SetMultiOption, structuredquery/IQueryParser::SetMultiOption
+ms.date: 5/4/2018
+ms.keywords: IQueryParser interface [search],SetMultiOption method, IQueryParser.SetMultiOption, IQueryParser::SetMultiOption, SetMultiOption, SetMultiOption method [search], SetMultiOption method [search],IQueryParser interface, _search_IQueryParser_SetMultiOption, search._search_IQueryParser_SetMultiOption, structuredquery/IQueryParser::SetMultiOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IQueryParser::SetMultiOption method
+# IQueryParser::SetMultiOption
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.Purge
-title: IEmptyVolumeCache::Purge method
+title: IEmptyVolumeCache::Purge
 author: windows-driver-content
 description: Notifies the handler to start deleting its unneeded files.
 old-location: lwef\iemptyvolumecache_purge.htm
 old-project: lwef
 ms.assetid: c42430da-9d6a-42e9-bc4f-325d986c7c48
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEmptyVolumeCache, IEmptyVolumeCache interface [Legacy Windows Environment Features], Purge method, IEmptyVolumeCache::Purge, Purge method [Legacy Windows Environment Features], Purge method [Legacy Windows Environment Features], IEmptyVolumeCache interface, Purge,IEmptyVolumeCache.Purge, _win32_IEmptyVolumeCache_Purge, emptyvc/IEmptyVolumeCache::Purge, lwef.iemptyvolumecache_purge, shell.iemptyvolumecache_purge
+ms.date: 4/27/2018
+ms.keywords: IEmptyVolumeCache interface [Legacy Windows Environment Features],Purge method, IEmptyVolumeCache.Purge, IEmptyVolumeCache::Purge, Purge, Purge method [Legacy Windows Environment Features], Purge method [Legacy Windows Environment Features],IEmptyVolumeCache interface, _win32_IEmptyVolumeCache_Purge, emptyvc/IEmptyVolumeCache::Purge, lwef.iemptyvolumecache_purge, shell.iemptyvolumecache_purge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEmptyVolumeCache::Purge method
+# IEmptyVolumeCache::Purge
 
 
 ## -description

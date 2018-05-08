@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StartHandlerSync
-title: ISyncMgrControl::StartHandlerSync method
+title: ISyncMgrControl::StartHandlerSync
 author: windows-driver-content
 description: Initiates the synchronization of all items managed by a particular handler.
 old-location: shell\ISyncMgrControl_StartHandlerSync.htm
 old-project: shell
 ms.assetid: ab0e6634-d30a-4f56-94ff-3b032c789cec
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrControl, ISyncMgrControl interface [Windows Shell], StartHandlerSync method, ISyncMgrControl::StartHandlerSync, StartHandlerSync method [Windows Shell], StartHandlerSync method [Windows Shell], ISyncMgrControl interface, StartHandlerSync,ISyncMgrControl.StartHandlerSync, _shell_ISyncMgrControl_StartHandlerSync, shell.ISyncMgrControl_StartHandlerSync, syncmgr/ISyncMgrControl::StartHandlerSync
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrControl interface [Windows Shell],StartHandlerSync method, ISyncMgrControl.StartHandlerSync, ISyncMgrControl::StartHandlerSync, StartHandlerSync, StartHandlerSync method [Windows Shell], StartHandlerSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StartHandlerSync, shell.ISyncMgrControl_StartHandlerSync, syncmgr/ISyncMgrControl::StartHandlerSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrControl::StartHandlerSync method
+# ISyncMgrControl::StartHandlerSync
 
 
 ## -description

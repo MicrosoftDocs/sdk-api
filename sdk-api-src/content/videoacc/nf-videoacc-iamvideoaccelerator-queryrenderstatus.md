@@ -1,14 +1,14 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.QueryRenderStatus
-title: IAMVideoAccelerator::QueryRenderStatus method
+title: IAMVideoAccelerator::QueryRenderStatus
 author: windows-driver-content
 description: The QueryRenderStatus method queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.
 old-location: dshow\iamvideoaccelerator_queryrenderstatus.htm
 old-project: DirectShow
 ms.assetid: 29d77bd5-2823-4e67-a69f-2898ad4c467c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AMVA_QUERYRENDERSTATUSF_READ, IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], QueryRenderStatus method, IAMVideoAccelerator::QueryRenderStatus, IAMVideoAcceleratorQueryRenderStatus, QueryRenderStatus method [DirectShow], QueryRenderStatus method [DirectShow], IAMVideoAccelerator interface, QueryRenderStatus,IAMVideoAccelerator.QueryRenderStatus, Zero, dshow.iamvideoaccelerator_queryrenderstatus, videoacc/IAMVideoAccelerator::QueryRenderStatus
+ms.date: 4/30/2018
+ms.keywords: AMVA_QUERYRENDERSTATUSF_READ, IAMVideoAccelerator interface [DirectShow],QueryRenderStatus method, IAMVideoAccelerator.QueryRenderStatus, IAMVideoAccelerator::QueryRenderStatus, IAMVideoAcceleratorQueryRenderStatus, QueryRenderStatus, QueryRenderStatus method [DirectShow], QueryRenderStatus method [DirectShow],IAMVideoAccelerator interface, Zero, dshow.iamvideoaccelerator_queryrenderstatus, videoacc/IAMVideoAccelerator::QueryRenderStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAMVideoAccelerator::QueryRenderStatus method
+# IAMVideoAccelerator::QueryRenderStatus
 
 
 ## -description

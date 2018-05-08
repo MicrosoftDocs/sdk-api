@@ -7,7 +7,7 @@ old-location: controls\DELETEITEMSTRUCT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxstructures\deleteitemstruct.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: "*LPDELETEITEMSTRUCT, *PDELETEITEMSTRUCT, DELETEITEMSTRUCT, DELETEITEMSTRUCT structure [Windows Controls], ODT_COMBOBOX, ODT_LISTBOX, PDELETEITEMSTRUCT, PDELETEITEMSTRUCT structure pointer [Windows Controls], _win32_DELETEITEMSTRUCT_str, _win32_DELETEITEMSTRUCT_str_cpp, controls.DELETEITEMSTRUCT, controls._win32_DELETEITEMSTRUCT_str, tagDELETEITEMSTRUCT, winuser/DELETEITEMSTRUCT, winuser/PDELETEITEMSTRUCT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

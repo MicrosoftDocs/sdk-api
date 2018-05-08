@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDevice.GetState
-title: IMMDevice::GetState method
+title: IMMDevice::GetState
 author: windows-driver-content
 description: The GetState method retrieves the current device state.
 old-location: coreaudio\immdevice_getstate.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 9b50773b-241c-4a32-8ab6-85adb3f885e1
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetState method [Core Audio], GetState method [Core Audio], IMMDevice interface, GetState,IMMDevice.GetState, IMMDevice, IMMDevice interface [Core Audio], GetState method, IMMDevice::GetState, IMMDeviceGetState, coreaudio.immdevice_getstate, mmdeviceapi/IMMDevice::GetState
+ms.keywords: GetState, GetState method [Core Audio], GetState method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],GetState method, IMMDevice.GetState, IMMDevice::GetState, IMMDeviceGetState, coreaudio.immdevice_getstate, mmdeviceapi/IMMDevice::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMMDevice::GetState method
+# IMMDevice::GetState
 
 
 ## -description

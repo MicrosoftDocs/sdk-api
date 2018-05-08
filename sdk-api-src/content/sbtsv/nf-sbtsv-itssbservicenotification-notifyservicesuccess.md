@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbServiceNotification.NotifyServiceSuccess
-title: ITsSbServiceNotification::NotifyServiceSuccess method
+title: ITsSbServiceNotification::NotifyServiceSuccess
 author: windows-driver-content
 description: Notifies registered plug-ins that the Remote Desktop Connection Broker (RD Connection Broker) service has started.
 old-location: termserv\itssbservicenotification_notifyservicesuccess.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 063ed950-f168-491c-85db-14f35741c129
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbServiceNotification, ITsSbServiceNotification interface [Remote Desktop Services], NotifyServiceSuccess method, ITsSbServiceNotification::NotifyServiceSuccess, NotifyServiceSuccess method [Remote Desktop Services], NotifyServiceSuccess method [Remote Desktop Services], ITsSbServiceNotification interface, NotifyServiceSuccess,ITsSbServiceNotification.NotifyServiceSuccess, sbtsv/ITsSbServiceNotification::NotifyServiceSuccess, termserv.itssbservicenotification_notifyservicesuccess
+ms.keywords: ITsSbServiceNotification interface [Remote Desktop Services],NotifyServiceSuccess method, ITsSbServiceNotification.NotifyServiceSuccess, ITsSbServiceNotification::NotifyServiceSuccess, NotifyServiceSuccess, NotifyServiceSuccess method [Remote Desktop Services], NotifyServiceSuccess method [Remote Desktop Services],ITsSbServiceNotification interface, sbtsv/ITsSbServiceNotification::NotifyServiceSuccess, termserv.itssbservicenotification_notifyservicesuccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbServiceNotification::NotifyServiceSuccess method
+# ITsSbServiceNotification::NotifyServiceSuccess
 
 
 ## -description

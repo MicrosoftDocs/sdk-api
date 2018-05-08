@@ -7,7 +7,7 @@ old-location: automat\safearraygetubound.htm
 old-project: automat
 ms.assetid: aed339d5-d962-4adc-ac01-6c15a54c51ca
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: SafeArrayGetUBound, SafeArrayGetUBound function [Automation], _oa96_SafeArrayGetUBound, automat.safearraygetubound, oleauto/SafeArrayGetUBound
 ms.prod: windows-hardware
 ms.technology: windows-devices

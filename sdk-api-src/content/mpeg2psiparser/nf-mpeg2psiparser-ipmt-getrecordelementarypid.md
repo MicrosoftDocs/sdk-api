@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordElementaryPid
-title: IPMT::GetRecordElementaryPid method
+title: IPMT::GetRecordElementaryPid
 author: windows-driver-content
 description: The GetRecordElementaryPid method returns the packet identifier (PID) for a given elementary stream in the program.
 old-location: mstv\ipmt_getrecordelementarypid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ed4790ee-97ce-482e-834e-4081a310f4bb
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordElementaryPid method [Microsoft TV Technologies], GetRecordElementaryPid method [Microsoft TV Technologies], IPMT interface, GetRecordElementaryPid,IPMT.GetRecordElementaryPid, IPMT, IPMT interface [Microsoft TV Technologies], GetRecordElementaryPid method, IPMT::GetRecordElementaryPid, IPMTGetRecordElementaryPid, mpeg2psiparser/IPMT::GetRecordElementaryPid, mstv.ipmt_getrecordelementarypid
+ms.keywords: GetRecordElementaryPid, GetRecordElementaryPid method [Microsoft TV Technologies], GetRecordElementaryPid method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordElementaryPid method, IPMT.GetRecordElementaryPid, IPMT::GetRecordElementaryPid, IPMTGetRecordElementaryPid, mpeg2psiparser/IPMT::GetRecordElementaryPid, mstv.ipmt_getrecordelementarypid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IPMT::GetRecordElementaryPid method
+# IPMT::GetRecordElementaryPid
 
 
 ## -description

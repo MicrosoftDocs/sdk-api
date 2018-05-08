@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.NumberOfItemsToIndex
-title: ISearchCatalogManager::NumberOfItemsToIndex method
+title: ISearchCatalogManager::NumberOfItemsToIndex
 author: windows-driver-content
 description: Gets the number of items to be indexed within the catalog.
 old-location: search\_search_ISearchCatalogManager_NumberOfItemsToIndex.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\numberofitemstoindex.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], NumberOfItemsToIndex method, ISearchCatalogManager::NumberOfItemsToIndex, NumberOfItemsToIndex method [search], NumberOfItemsToIndex method [search], ISearchCatalogManager interface, NumberOfItemsToIndex,ISearchCatalogManager.NumberOfItemsToIndex, _search_ISearchCatalogManager_NumberOfItemsToIndex, search._search_ISearchCatalogManager_NumberOfItemsToIndex, searchapi/ISearchCatalogManager::NumberOfItemsToIndex
+ms.date: 5/4/2018
+ms.keywords: ISearchCatalogManager interface [search],NumberOfItemsToIndex method, ISearchCatalogManager.NumberOfItemsToIndex, ISearchCatalogManager::NumberOfItemsToIndex, NumberOfItemsToIndex, NumberOfItemsToIndex method [search], NumberOfItemsToIndex method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_NumberOfItemsToIndex, search._search_ISearchCatalogManager_NumberOfItemsToIndex, searchapi/ISearchCatalogManager::NumberOfItemsToIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::NumberOfItemsToIndex method
+# ISearchCatalogManager::NumberOfItemsToIndex
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.CommandLinkClicked
-title: ICredentialProviderCredential::CommandLinkClicked method
+title: ICredentialProviderCredential::CommandLinkClicked
 author: windows-driver-content
 description: Enables the Logon UI and Credential UI to indicate that a link was clicked.
 old-location: shell\ICredentialProviderCredential_CommandLinkClicked.htm
 old-project: shell
 ms.assetid: 04e371cb-f968-4a15-9285-e676dff59899
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CommandLinkClicked method [Windows Shell], CommandLinkClicked method [Windows Shell], ICredentialProviderCredential interface, CommandLinkClicked,ICredentialProviderCredential.CommandLinkClicked, ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], CommandLinkClicked method, ICredentialProviderCredential::CommandLinkClicked, _shell_ICredentialProviderCredential_CommandLinkClicked, credentialprovider/ICredentialProviderCredential::CommandLinkClicked, shell.ICredentialProviderCredential_CommandLinkClicked
+ms.date: 5/3/2018
+ms.keywords: CommandLinkClicked, CommandLinkClicked method [Windows Shell], CommandLinkClicked method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],CommandLinkClicked method, ICredentialProviderCredential.CommandLinkClicked, ICredentialProviderCredential::CommandLinkClicked, _shell_ICredentialProviderCredential_CommandLinkClicked, credentialprovider/ICredentialProviderCredential::CommandLinkClicked, shell.ICredentialProviderCredential_CommandLinkClicked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProviderCredential::CommandLinkClicked method
+# ICredentialProviderCredential::CommandLinkClicked
 
 
 ## -description

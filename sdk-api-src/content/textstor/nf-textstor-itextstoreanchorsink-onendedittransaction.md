@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnEndEditTransaction
-title: ITextStoreAnchorSink::OnEndEditTransaction method
+title: ITextStoreAnchorSink::OnEndEditTransaction
 author: windows-driver-content
 description: ITextStoreAnchorSink::OnEndEditTransaction method
 old-location: tsf\itextstoreanchorsink_onendedittransaction.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: fe7610b3-02f0-491a-8c55-f9dc9843073b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchorSink, ITextStoreAnchorSink interface [Text Services Framework], OnEndEditTransaction method, ITextStoreAnchorSink::OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework], ITextStoreAnchorSink interface, OnEndEditTransaction,ITextStoreAnchorSink.OnEndEditTransaction, _tsf_itextstoreanchorsink_onendedittransaction_ref, textstor/ITextStoreAnchorSink::OnEndEditTransaction, tsf.itextstoreanchorsink_onendedittransaction
+ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnEndEditTransaction method, ITextStoreAnchorSink.OnEndEditTransaction, ITextStoreAnchorSink::OnEndEditTransaction, OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onendedittransaction_ref, textstor/ITextStoreAnchorSink::OnEndEditTransaction, tsf.itextstoreanchorsink_onendedittransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchorSink::OnEndEditTransaction method
+# ITextStoreAnchorSink::OnEndEditTransaction
 
 
 ## -description

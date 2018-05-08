@@ -1,14 +1,14 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_Enabled
-title: IStaticPortMapping::get_Enabled method
+title: IStaticPortMapping::get_Enabled
 author: windows-driver-content
 description: The get_Enabled method retrieves whether the port mapping is enabled.
 old-location: ics\istaticportmapping_get_enabled.htm
 old-project: ICS
 ms.assetid: a4a787ac-0ab2-413e-8738-23296e969477
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], get_Enabled method, IStaticPortMapping::get_Enabled, _ics_istaticportmapping_get_enabled, get_Enabled method [ICS/ICF], get_Enabled method [ICS/ICF], IStaticPortMapping interface, get_Enabled,IStaticPortMapping.get_Enabled, ics.istaticportmapping_get_enabled, natupnp/IStaticPortMapping::get_Enabled
+ms.date: 5/1/2018
+ms.keywords: IStaticPortMapping interface [ICS/ICF],get_Enabled method, IStaticPortMapping.get_Enabled, IStaticPortMapping::get_Enabled, _ics_istaticportmapping_get_enabled, get_Enabled, get_Enabled method [ICS/ICF], get_Enabled method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_enabled, natupnp/IStaticPortMapping::get_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStaticPortMapping::get_Enabled method
+# IStaticPortMapping::get_Enabled
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: automat\varparsenumfromstr.htm
 old-project: automat
 ms.assetid: b77ce0df-5635-4760-8b42-f3afec49482b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarParseNumFromStr, VarParseNumFromStr function [Automation], _oa96_VarParseNumFromStr, automat.varparsenumfromstr, oleauto/VarParseNumFromStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

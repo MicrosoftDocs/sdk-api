@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.NotifyLateDelivery
-title: IWMReaderAdvanced::NotifyLateDelivery method
+title: IWMReaderAdvanced::NotifyLateDelivery
 author: windows-driver-content
 description: The NotifyLateDelivery method is used to notify the reader that it is delivering data to the application too slowly.
 old-location: wmformat\iwmreaderadvanced_notifylatedelivery.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 65d2470c-e6ce-4f3f-b4f8-0bc65a2a8bfd
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], NotifyLateDelivery method, IWMReaderAdvanced::NotifyLateDelivery, IWMReaderAdvancedNotifyLateDelivery, NotifyLateDelivery method [windows Media Format], NotifyLateDelivery method [windows Media Format], IWMReaderAdvanced interface, NotifyLateDelivery,IWMReaderAdvanced.NotifyLateDelivery, wmformat.iwmreaderadvanced_notifylatedelivery, wmsdkidl/IWMReaderAdvanced::NotifyLateDelivery
+ms.keywords: IWMReaderAdvanced interface [windows Media Format],NotifyLateDelivery method, IWMReaderAdvanced.NotifyLateDelivery, IWMReaderAdvanced::NotifyLateDelivery, IWMReaderAdvancedNotifyLateDelivery, NotifyLateDelivery, NotifyLateDelivery method [windows Media Format], NotifyLateDelivery method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_notifylatedelivery, wmsdkidl/IWMReaderAdvanced::NotifyLateDelivery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced::NotifyLateDelivery method
+# IWMReaderAdvanced::NotifyLateDelivery
 
 
 ## -description

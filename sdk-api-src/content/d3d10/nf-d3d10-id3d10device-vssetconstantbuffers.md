@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSSetConstantBuffers
-title: ID3D10Device::VSSetConstantBuffers method
+title: ID3D10Device::VSSetConstantBuffers
 author: windows-driver-content
 description: Set the constant buffers used by the vertex shader pipeline stage.
 old-location: direct3d10\id3d10device_vssetconstantbuffers.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vssetconstantbuffers.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 0d5cae40-4657-71de-c28a-96c76e11a621, ID3D10Device, ID3D10Device interface [Direct3D 10], VSSetConstantBuffers method, ID3D10Device::VSSetConstantBuffers, VSSetConstantBuffers method [Direct3D 10], VSSetConstantBuffers method [Direct3D 10], ID3D10Device interface, VSSetConstantBuffers,ID3D10Device.VSSetConstantBuffers, d3d10/ID3D10Device::VSSetConstantBuffers, direct3d10.id3d10device_vssetconstantbuffers
+ms.keywords: 0d5cae40-4657-71de-c28a-96c76e11a621, ID3D10Device interface [Direct3D 10],VSSetConstantBuffers method, ID3D10Device.VSSetConstantBuffers, ID3D10Device::VSSetConstantBuffers, VSSetConstantBuffers, VSSetConstantBuffers method [Direct3D 10], VSSetConstantBuffers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSSetConstantBuffers, direct3d10.id3d10device_vssetconstantbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::VSSetConstantBuffers method
+# ID3D10Device::VSSetConstantBuffers
 
 
 ## -description

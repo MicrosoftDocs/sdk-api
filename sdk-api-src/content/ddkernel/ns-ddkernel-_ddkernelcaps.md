@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: "*LPDDKERNELCAPS, DDKERNELCAPS, *LPDDKERNELCAPS"
+req.typenames: "*LPDDKERNELCAPS, DDKERNELCAPS"
 topic_type:
 -	APIRef
 -	kbSyntax

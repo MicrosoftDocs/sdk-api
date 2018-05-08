@@ -7,8 +7,8 @@ old-location: dhcp\dhcppktdrophook.htm
 old-project: DHCP
 ms.assetid: 29fa3266-a0a7-4e17-bf15-35a454f78b12
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
-ms.keywords: DhcpPktDropHook, DhcpPktDropHook callback function [DHCP], LPDHCP_DROP_SEND, _dhcp_dhcppktdrophook, dhcp.dhcppktdrophook, dhcpssdk/DhcpPktDropHook
+ms.date: 5/2/2018
+ms.keywords: DhcpPktDropHook, DhcpPktDropHook callback function [DHCP], LPDHCP_DROP_SEND, LPDHCP_DROP_SEND callback, _dhcp_dhcppktdrophook, dhcp.dhcppktdrophook, dhcpssdk/DhcpPktDropHook
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# LPDHCP_DROP_SEND callback
+# LPDHCP_DROP_SEND callback function
 
 
 ## -description

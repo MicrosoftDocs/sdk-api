@@ -7,7 +7,7 @@ old-location: netvista\sockaddr_in6.htm
 old-project: netvista
 ms.assetid: ef2955d2-5dc1-420b-a9e0-32a584059d5a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPSOCKADDR_IN6, *LPSOCKADDR_IN6_LH, *PSOCKADDR_IN6, *PSOCKADDR_IN6_LH, PSOCKADDR_IN6, PSOCKADDR_IN6 structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_IN6, SOCKADDR_IN6 structure [Network Drivers Starting with Windows Vista], SOCKADDR_IN6_LH, netvista.sockaddr_in6, sockaddr_in6, ws2ipdef/PSOCKADDR_IN6, ws2ipdef/SOCKADDR_IN6, wskref_7e70684f-ef0d-45c5-8075-3e9b6fa87337.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,13 +81,13 @@ An
      address.
 
 
-#### - sin6_scope_id
+### -field sin6_scope_id
 
 A ULONG representation of the IPv6 scope identifier that is defined in the 
       <b>sin6_scope_struct</b> member.
 
 
-#### - sin6_scope_struct
+### -field sin6_scope_struct
 
 A SCOPE_ID structure that contains the scope identifier for the IPv6 transport address. The
       SCOPE_ID structure is defined as follows:

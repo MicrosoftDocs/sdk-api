@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMedia.get_durationString
-title: IWMPMedia::get_durationString method
+title: IWMPMedia::get_durationString
 author: windows-driver-content
 description: The get_durationString method retrieves a string indicating the duration of the current media item in HH:MM:SS format.
 old-location: wmp\iwmpmedia_get_durationstring.htm
 old-project: WMP
 ms.assetid: 540f4780-850f-41ec-940c-e8f7d3c96e6b
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], get_durationString method, IWMPMedia2 interface [Windows Media Player], get_durationString method, IWMPMedia2::get_durationString, IWMPMedia3 interface [Windows Media Player], get_durationString method, IWMPMedia3::get_durationString, IWMPMedia::get_durationString, IWMPMediaget_durationString, get_durationString method [Windows Media Player], get_durationString method [Windows Media Player], IWMPMedia interface, get_durationString method [Windows Media Player], IWMPMedia2 interface, get_durationString method [Windows Media Player], IWMPMedia3 interface, get_durationString,IWMPMedia.get_durationString, wmp.iwmpmedia_get_durationstring, wmp/IWMPMedia2::get_durationString, wmp/IWMPMedia3::get_durationString, wmp/IWMPMedia::get_durationString
+ms.date: 5/4/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],get_durationString method, IWMPMedia.get_durationString, IWMPMedia2 interface [Windows Media Player],get_durationString method, IWMPMedia2::get_durationString, IWMPMedia3 interface [Windows Media Player],get_durationString method, IWMPMedia3::get_durationString, IWMPMedia::get_durationString, IWMPMediaget_durationString, get_durationString, get_durationString method [Windows Media Player], get_durationString method [Windows Media Player],IWMPMedia interface, get_durationString method [Windows Media Player],IWMPMedia2 interface, get_durationString method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_durationstring, wmp/IWMPMedia2::get_durationString, wmp/IWMPMedia3::get_durationString, wmp/IWMPMedia::get_durationString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMedia::get_durationString method
+# IWMPMedia::get_durationString
 
 
 ## -description

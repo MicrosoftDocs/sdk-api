@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d9.IDirect3DAuthenticatedChannel9.NegotiateKeyExchange
-title: IDirect3DAuthenticatedChannel9::NegotiateKeyExchange method
+title: IDirect3DAuthenticatedChannel9::NegotiateKeyExchange
 author: windows-driver-content
 description: Establishes a session key for the authenticated channel.
 old-location: mf\idirect3dauthenticatedchannel9_negotiatekeyexchange.htm
 old-project: medfound
 ms.assetid: 35605d35-76c9-43d7-a022-6db6af179c41
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IDirect3DAuthenticatedChannel9, IDirect3DAuthenticatedChannel9 interface [Media Foundation], NegotiateKeyExchange method, IDirect3DAuthenticatedChannel9::NegotiateKeyExchange, NegotiateKeyExchange method [Media Foundation], NegotiateKeyExchange method [Media Foundation], IDirect3DAuthenticatedChannel9 interface, NegotiateKeyExchange,IDirect3DAuthenticatedChannel9.NegotiateKeyExchange, d3d9/IDirect3DAuthenticatedChannel9::NegotiateKeyExchange, mf.idirect3dauthenticatedchannel9_negotiatekeyexchange
+ms.date: 5/3/2018
+ms.keywords: IDirect3DAuthenticatedChannel9 interface [Media Foundation],NegotiateKeyExchange method, IDirect3DAuthenticatedChannel9.NegotiateKeyExchange, IDirect3DAuthenticatedChannel9::NegotiateKeyExchange, NegotiateKeyExchange, NegotiateKeyExchange method [Media Foundation], NegotiateKeyExchange method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, d3d9/IDirect3DAuthenticatedChannel9::NegotiateKeyExchange, mf.idirect3dauthenticatedchannel9_negotiatekeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DAuthenticatedChannel9::NegotiateKeyExchange method
+# IDirect3DAuthenticatedChannel9::NegotiateKeyExchange
 
 
 ## -description

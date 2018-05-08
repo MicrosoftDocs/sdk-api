@@ -1,14 +1,14 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.LoadConfiguration
-title: IFhConfigMgr::LoadConfiguration method
+title: IFhConfigMgr::LoadConfiguration
 author: windows-driver-content
 description: Loads the File History configuration information for the current user into an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_loadconfiguration.htm
 old-project: DevNotes
 ms.assetid: 9959AF70-87C2-45E0-A409-959494AF393B
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: FhConfigMgr class [Windows API], LoadConfiguration method, IFhConfigMgr, IFhConfigMgr interface [Windows API], LoadConfiguration method, IFhConfigMgr::LoadConfiguration, LoadConfiguration method [Windows API], LoadConfiguration method [Windows API], FhConfigMgr class, LoadConfiguration method [Windows API], IFhConfigMgr interface, LoadConfiguration,IFhConfigMgr.LoadConfiguration, fhcfg/IFhConfigMgr::LoadConfiguration, winprog.ifhconfigmgr_loadconfiguration
+ms.date: 5/4/2018
+ms.keywords: FhConfigMgr class [Windows API],LoadConfiguration method, IFhConfigMgr interface [Windows API],LoadConfiguration method, IFhConfigMgr.LoadConfiguration, IFhConfigMgr::LoadConfiguration, LoadConfiguration, LoadConfiguration method [Windows API], LoadConfiguration method [Windows API],FhConfigMgr class, LoadConfiguration method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::LoadConfiguration, winprog.ifhconfigmgr_loadconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFhConfigMgr::LoadConfiguration method
+# IFhConfigMgr::LoadConfiguration
 
 
 ## -description

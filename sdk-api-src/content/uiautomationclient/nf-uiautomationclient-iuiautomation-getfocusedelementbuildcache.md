@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetFocusedElementBuildCache
-title: IUIAutomation::GetFocusedElementBuildCache method
+title: IUIAutomation::GetFocusedElementBuildCache
 author: windows-driver-content
 description: Retrieves the UI Automation element that has the input focus, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_GetFocusedElementBuildCache.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: c37c2703-ce01-44fe-a959-33b9f7d66e98
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetFocusedElementBuildCache method [Windows Accessibility], GetFocusedElementBuildCache method [Windows Accessibility], IUIAutomation interface, GetFocusedElementBuildCache,IUIAutomation.GetFocusedElementBuildCache, IUIAutomation, IUIAutomation interface [Windows Accessibility], GetFocusedElementBuildCache method, IUIAutomation::GetFocusedElementBuildCache, uiauto.uiauto_IUIAutomation_GetFocusedElementBuildCache, uiauto_IUIAutomation_GetFocusedElementBuildCache, uiautomationclient/IUIAutomation::GetFocusedElementBuildCache, winauto.uiauto_IUIAutomation_GetFocusedElementBuildCache
+ms.keywords: GetFocusedElementBuildCache, GetFocusedElementBuildCache method [Windows Accessibility], GetFocusedElementBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetFocusedElementBuildCache method, IUIAutomation.GetFocusedElementBuildCache, IUIAutomation::GetFocusedElementBuildCache, uiauto.uiauto_IUIAutomation_GetFocusedElementBuildCache, uiauto_IUIAutomation_GetFocusedElementBuildCache, uiautomationclient/IUIAutomation::GetFocusedElementBuildCache, winauto.uiauto_IUIAutomation_GetFocusedElementBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::GetFocusedElementBuildCache method
+# IUIAutomation::GetFocusedElementBuildCache
 
 
 ## -description

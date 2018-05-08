@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolListener.StartListen
-title: IWTSProtocolListener::StartListen method
+title: IWTSProtocolListener::StartListen
 author: windows-driver-content
 description: IWTSProtocolListener::StartListen is no longer available. Instead, use IWRdsProtocolListener::StartListen.
 old-location: termserv\iwtsprotocollistener_startlisten.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: d922ea90-a4eb-4495-947c-ef33bd81f40a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolListener, IWTSProtocolListener interface [Remote Desktop Services], StartListen method, IWTSProtocolListener::StartListen, StartListen method [Remote Desktop Services], StartListen method [Remote Desktop Services], IWTSProtocolListener interface, StartListen,IWTSProtocolListener.StartListen, termserv.iwtsprotocollistener_startlisten, wtsprotocol/IWTSProtocolListener::StartListen
+ms.keywords: IWTSProtocolListener interface [Remote Desktop Services],StartListen method, IWTSProtocolListener.StartListen, IWTSProtocolListener::StartListen, StartListen, StartListen method [Remote Desktop Services], StartListen method [Remote Desktop Services],IWTSProtocolListener interface, termserv.iwtsprotocollistener_startlisten, wtsprotocol/IWTSProtocolListener::StartListen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolListener::StartListen method
+# IWTSProtocolListener::StartListen
 
 
 ## -description

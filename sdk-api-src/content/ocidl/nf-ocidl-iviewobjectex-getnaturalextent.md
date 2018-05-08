@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IViewObjectEx.GetNaturalExtent
-title: IViewObjectEx::GetNaturalExtent method
+title: IViewObjectEx::GetNaturalExtent
 author: windows-driver-content
 description: Provides sizing hints from the container for the object to use as the user resizes it.
 old-location: com\iviewobjectex_getnaturalextent.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 5759c482-2dea-4b94-956d-9560f72acbd5
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, DVASPECT_ICON, DVASPECT_THUMBNAIL, GetNaturalExtent method [COM], GetNaturalExtent method [COM], IViewObjectEx interface, GetNaturalExtent,IViewObjectEx.GetNaturalExtent, IViewObjectEx, IViewObjectEx interface [COM], GetNaturalExtent method, IViewObjectEx::GetNaturalExtent, _ole_iviewobjectex_getnaturalextent, com.iviewobjectex_getnaturalextent, ocidl/IViewObjectEx::GetNaturalExtent
+ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, DVASPECT_ICON, DVASPECT_THUMBNAIL, GetNaturalExtent, GetNaturalExtent method [COM], GetNaturalExtent method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetNaturalExtent method, IViewObjectEx.GetNaturalExtent, IViewObjectEx::GetNaturalExtent, _ole_iviewobjectex_getnaturalextent, com.iviewobjectex_getnaturalextent, ocidl/IViewObjectEx::GetNaturalExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IViewObjectEx::GetNaturalExtent method
+# IViewObjectEx::GetNaturalExtent
 
 
 ## -description

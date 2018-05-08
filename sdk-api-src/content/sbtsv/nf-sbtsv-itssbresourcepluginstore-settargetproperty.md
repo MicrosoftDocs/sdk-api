@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetTargetProperty
-title: ITsSbResourcePluginStore::SetTargetProperty method
+title: ITsSbResourcePluginStore::SetTargetProperty
 author: windows-driver-content
 description: Sets the value of a property of a target.
 old-location: termserv\itssbresourcepluginstore_settargetproperty.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 11d03b69-a7d0-4930-ba9c-a9373706580c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], SetTargetProperty method, ITsSbResourcePluginStore::SetTargetProperty, ITsSbResourcePluginStoreEx interface [Remote Desktop Services], SetTargetProperty method, ITsSbResourcePluginStoreEx::SetTargetProperty, SetTargetProperty method [Remote Desktop Services], SetTargetProperty method [Remote Desktop Services], ITsSbResourcePluginStore interface, SetTargetProperty method [Remote Desktop Services], ITsSbResourcePluginStoreEx interface, SetTargetProperty,ITsSbResourcePluginStore.SetTargetProperty, sbtsv/ITsSbResourcePluginStore::SetTargetProperty, sbtsv/ITsSbResourcePluginStoreEx::SetTargetProperty, termserv.itssbresourcepluginstore_settargetproperty
+ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetTargetProperty method, ITsSbResourcePluginStore.SetTargetProperty, ITsSbResourcePluginStore::SetTargetProperty, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SetTargetProperty method, ITsSbResourcePluginStoreEx::SetTargetProperty, SetTargetProperty, SetTargetProperty method [Remote Desktop Services], SetTargetProperty method [Remote Desktop Services],ITsSbResourcePluginStore interface, SetTargetProperty method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SetTargetProperty, sbtsv/ITsSbResourcePluginStoreEx::SetTargetProperty, termserv.itssbresourcepluginstore_settargetproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbResourcePluginStore::SetTargetProperty method
+# ITsSbResourcePluginStore::SetTargetProperty
 
 
 ## -description

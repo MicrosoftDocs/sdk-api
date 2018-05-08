@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLogonErrorRedirector.RedirectMessage
-title: IWRdsProtocolLogonErrorRedirector::RedirectMessage method
+title: IWRdsProtocolLogonErrorRedirector::RedirectMessage
 author: windows-driver-content
 description: Queries the protocol regarding how to redirect the logon message.
 old-location: termserv\iwrdsprotocollogonerrorredirector_redirectmessage.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: b818e2b0-3d6c-4a56-8175-75b585553520
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolLogonErrorRedirector, IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services], RedirectMessage method, IWRdsProtocolLogonErrorRedirector::RedirectMessage, RedirectMessage method [Remote Desktop Services], RedirectMessage method [Remote Desktop Services], IWRdsProtocolLogonErrorRedirector interface, RedirectMessage,IWRdsProtocolLogonErrorRedirector.RedirectMessage, termserv.iwrdsprotocollogonerrorredirector_redirectmessage, wtsprotocol/IWRdsProtocolLogonErrorRedirector::RedirectMessage
+ms.keywords: IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectMessage method, IWRdsProtocolLogonErrorRedirector.RedirectMessage, IWRdsProtocolLogonErrorRedirector::RedirectMessage, RedirectMessage, RedirectMessage method [Remote Desktop Services], RedirectMessage method [Remote Desktop Services],IWRdsProtocolLogonErrorRedirector interface, termserv.iwrdsprotocollogonerrorredirector_redirectmessage, wtsprotocol/IWRdsProtocolLogonErrorRedirector::RedirectMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolLogonErrorRedirector::RedirectMessage method
+# IWRdsProtocolLogonErrorRedirector::RedirectMessage
 
 
 ## -description

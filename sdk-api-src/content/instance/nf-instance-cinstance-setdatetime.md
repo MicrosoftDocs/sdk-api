@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.SetDateTime
-title: CInstance::SetDateTime method
+title: CInstance::SetDateTime
 author: windows-driver-content
 description: The SetDateTime method sets a datetime property.
 old-location: wmi\cinstance_setdatetime.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 728ad7d3-f56d-472e-976d-59d8598f3bad
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?SetDateTime@CInstance@@QAE_NPBGABVWBEMTime@@@Z, ?SetDateTime@CInstance@@QEAA_NPEBGAEBVWBEMTime@@@Z, CInstance, CInstance interface [Windows Management Instrumentation], SetDateTime method, CInstance::SetDateTime, SetDateTime method [Windows Management Instrumentation], SetDateTime method [Windows Management Instrumentation], CInstance interface, SetDateTime,CInstance.SetDateTime, _hmm_cinstance_setdatetime, instance/CInstance::SetDateTime, wmi.cinstance_setdatetime"
+ms.keywords: "?SetDateTime@CInstance@@QAE_NPBGABVWBEMTime@@@Z, ?SetDateTime@CInstance@@QEAA_NPEBGAEBVWBEMTime@@@Z, CInstance interface [Windows Management Instrumentation],SetDateTime method, CInstance.SetDateTime, CInstance::SetDateTime, SetDateTime, SetDateTime method [Windows Management Instrumentation], SetDateTime method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdatetime, instance/CInstance::SetDateTime, wmi.cinstance_setdatetime"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::SetDateTime method
+# CInstance::SetDateTime
 
 
 ## -description

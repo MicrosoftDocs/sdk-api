@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.get_CurrentRowCount
-title: IUIAutomationGridPattern::get_CurrentRowCount method
+title: IUIAutomationGridPattern::get_CurrentRowCount
 author: windows-driver-content
 description: Retrieves the number of rows in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_CurrentRowCount.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 6ca5c2f0-f183-4cc9-9446-08da834ba903
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentRowCount property [Windows Accessibility], CurrentRowCount property [Windows Accessibility], IUIAutomationGridPattern interface, IUIAutomationGridPattern, IUIAutomationGridPattern interface [Windows Accessibility], CurrentRowCount property, IUIAutomationGridPattern.CurrentRowCount, IUIAutomationGridPattern::get_CurrentRowCount, get_CurrentRowCount,IUIAutomationGridPattern.get_CurrentRowCount, uiauto.uiauto_IUIAutomationGridPattern_CurrentRowCount, uiauto_IUIAutomationGridPattern_CurrentRowCount, uiautomationclient/IUIAutomationGridPattern::CurrentRowCount, uiautomationclient/IUIAutomationGridPattern::get_CurrentRowCount, winauto.uiauto_IUIAutomationGridPattern_CurrentRowCount
+ms.keywords: CurrentRowCount property [Windows Accessibility], CurrentRowCount property [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],CurrentRowCount property, IUIAutomationGridPattern.CurrentRowCount, IUIAutomationGridPattern.get_CurrentRowCount, IUIAutomationGridPattern::CurrentRowCount, IUIAutomationGridPattern::get_CurrentRowCount, get_CurrentRowCount, uiauto.uiauto_IUIAutomationGridPattern_CurrentRowCount, uiauto_IUIAutomationGridPattern_CurrentRowCount, uiautomationclient/IUIAutomationGridPattern::CurrentRowCount, uiautomationclient/IUIAutomationGridPattern::get_CurrentRowCount, winauto.uiauto_IUIAutomationGridPattern_CurrentRowCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationGridPattern::get_CurrentRowCount method
+# IUIAutomationGridPattern::get_CurrentRowCount
 
 
 ## -description

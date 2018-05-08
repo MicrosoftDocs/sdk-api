@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_LatestOutputLocation
-title: IDataCollectorSet::get_LatestOutputLocation method
+title: IDataCollectorSet::get_LatestOutputLocation
 author: windows-driver-content
 description: Retrieves or sets the fully decorated folder name that PLA used the last time logs were written.
 old-location: pla\idatacollectorset_get_latestoutputlocation.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: c0047144-5f99-4acd-ad96-054afcbe6eb9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], LatestOutputLocation property, IDataCollectorSet.LatestOutputLocation, IDataCollectorSet::get_LatestOutputLocation, IDataCollectorSet::put_LatestOutputLocation, LatestOutputLocation property [PLA], LatestOutputLocation property [PLA], IDataCollectorSet interface, base.idatacollectorset_get_latestoutputlocation, get_LatestOutputLocation,IDataCollectorSet.get_LatestOutputLocation, pla.idatacollectorset_get_latestoutputlocation, pla/IDataCollectorSet::LatestOutputLocation, pla/IDataCollectorSet::get_LatestOutputLocation, pla/IDataCollectorSet::put_LatestOutputLocation
+ms.keywords: IDataCollectorSet interface [PLA],LatestOutputLocation property, IDataCollectorSet.LatestOutputLocation, IDataCollectorSet.get_LatestOutputLocation, IDataCollectorSet::LatestOutputLocation, IDataCollectorSet::get_LatestOutputLocation, IDataCollectorSet::put_LatestOutputLocation, LatestOutputLocation property [PLA], LatestOutputLocation property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_latestoutputlocation, get_LatestOutputLocation, pla.idatacollectorset_get_latestoutputlocation, pla/IDataCollectorSet::LatestOutputLocation, pla/IDataCollectorSet::get_LatestOutputLocation, pla/IDataCollectorSet::put_LatestOutputLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::get_LatestOutputLocation method
+# IDataCollectorSet::get_LatestOutputLocation
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.BltFast
-title: IDirectDrawSurface7::BltFast method
+title: IDirectDrawSurface7::BltFast
 author: windows-driver-content
 description: Performs a source copy bitblt or transparent bitblt by using a source color key or destination color key.
 old-location: directdraw\idirectdrawsurface7_bltfast.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: ac882b48-87b2-4b65-99b0-ac9065b5f47f
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: BltFast method [DirectDraw], BltFast method [DirectDraw], IDirectDrawSurface7 interface, BltFast,IDirectDrawSurface7.BltFast, DDBLTFAST_DESTCOLORKEY, DDBLTFAST_NOCOLORKEY, DDBLTFAST_SRCCOLORKEY, DDBLTFAST_WAIT, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], BltFast method, IDirectDrawSurface7::BltFast, ddraw/IDirectDrawSurface7::BltFast, directdraw.idirectdrawsurface7_bltfast
+ms.keywords: BltFast, BltFast method [DirectDraw], BltFast method [DirectDraw],IDirectDrawSurface7 interface, DDBLTFAST_DESTCOLORKEY, DDBLTFAST_NOCOLORKEY, DDBLTFAST_SRCCOLORKEY, DDBLTFAST_WAIT, IDirectDrawSurface7 interface [DirectDraw],BltFast method, IDirectDrawSurface7.BltFast, IDirectDrawSurface7::BltFast, ddraw/IDirectDrawSurface7::BltFast, directdraw.idirectdrawsurface7_bltfast
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::BltFast method
+# IDirectDrawSurface7::BltFast
 
 
 ## -description

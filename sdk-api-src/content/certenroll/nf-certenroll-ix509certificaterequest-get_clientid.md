@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_ClientId
-title: IX509CertificateRequest::get_ClientId method
+title: IX509CertificateRequest::get_ClientId
 author: windows-driver-content
 description: Specifies and retrieves a value that identifies the executable that created the request.
 old-location: security\ix509certificaterequest_clientid_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 728dba16-cda8-4eca-8cf0-4e6139e3808b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ClientId property [Security], ClientId property [Security], IX509CertificateRequest interface, IX509CertificateRequest, IX509CertificateRequest interface [Security], ClientId property, IX509CertificateRequest.ClientId, IX509CertificateRequest::get_ClientId, IX509CertificateRequest::put_ClientId, certenroll/IX509CertificateRequest::ClientId, certenroll/IX509CertificateRequest::get_ClientId, certenroll/IX509CertificateRequest::put_ClientId, get_ClientId,IX509CertificateRequest.get_ClientId, security.ix509certificaterequest_clientid_property
+ms.keywords: ClientId property [Security], ClientId property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],ClientId property, IX509CertificateRequest.ClientId, IX509CertificateRequest.get_ClientId, IX509CertificateRequest::ClientId, IX509CertificateRequest::get_ClientId, IX509CertificateRequest::put_ClientId, certenroll/IX509CertificateRequest::ClientId, certenroll/IX509CertificateRequest::get_ClientId, certenroll/IX509CertificateRequest::put_ClientId, get_ClientId, security.ix509certificaterequest_clientid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequest::get_ClientId method
+# IX509CertificateRequest::get_ClientId
 
 
 ## -description

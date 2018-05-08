@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEnumerator.ReadItem
-title: IWSManEnumerator::ReadItem method
+title: IWSManEnumerator::ReadItem
 author: windows-driver-content
 description: Retrieves an item from the resource and returns an XML representation of the item.
 old-location: winrm\iwsmanenumerator_readitem.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 6b181a4b-347c-4874-969c-9ca7d36ec788
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], ReadItem method, IWSManEnumerator::ReadItem, ReadItem method [Windows Remote Management], ReadItem method [Windows Remote Management], IWSManEnumerator interface, ReadItem,IWSManEnumerator.ReadItem, winrm.iwsmanenumerator_readitem, wsmandisp/IWSManEnumerator::ReadItem
+ms.keywords: IWSManEnumerator interface [Windows Remote Management],ReadItem method, IWSManEnumerator.ReadItem, IWSManEnumerator::ReadItem, ReadItem, ReadItem method [Windows Remote Management], ReadItem method [Windows Remote Management],IWSManEnumerator interface, winrm.iwsmanenumerator_readitem, wsmandisp/IWSManEnumerator::ReadItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEnumerator::ReadItem method
+# IWSManEnumerator::ReadItem
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.GetIdentityEnum
-title: IIdentityProvider::GetIdentityEnum method
+title: IIdentityProvider::GetIdentityEnum
 author: windows-driver-content
 description: Retrieves an IEnumUnknown interface pointer that can be used to enumerate identities.
 old-location: security\iidentityprovider_getidentityenum.htm
@@ -8,7 +8,7 @@ old-project: SecAuthN
 ms.assetid: 9e216959-7038-43cf-a57d-bee85d521f58
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetIdentityEnum method [Security], GetIdentityEnum method [Security], IIdentityProvider interface, GetIdentityEnum,IIdentityProvider.GetIdentityEnum, IIdentityProvider, IIdentityProvider interface [Security], GetIdentityEnum method, IIdentityProvider::GetIdentityEnum, identityprovider/IIdentityProvider::GetIdentityEnum, security.iidentityprovider_getidentityenum
+ms.keywords: GetIdentityEnum, GetIdentityEnum method [Security], GetIdentityEnum method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],GetIdentityEnum method, IIdentityProvider.GetIdentityEnum, IIdentityProvider::GetIdentityEnum, identityprovider/IIdentityProvider::GetIdentityEnum, security.iidentityprovider_getidentityenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IIdentityProvider::GetIdentityEnum method
+# IIdentityProvider::GetIdentityEnum
 
 
 ## -description
@@ -60,7 +60,7 @@ The <b>GetIdentityEnum</b> method retrieves an <a href="https://msdn.microsoft.c
 
 ### -param eIdentityType [in]
 
-A value of the <a href="https://msdn.microsoft.com/b15fadf6-5331-4c66-9a6b-0cfdef2ca867">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
+A value of the <a href="https://msdn.microsoft.com/">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
 
 
 ### -param pFilterkey [in, optional]

@@ -7,7 +7,7 @@ old-location: controls\IMAGELISTSTATS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imageliststats.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: IMAGELISTSTATS, IMAGELISTSTATS structure [Windows Controls], _shell_IMAGELISTSTATS, _shell_IMAGELISTSTATS_cpp, commoncontrols/IMAGELISTSTATS, controls.IMAGELISTSTATS, controls._shell_IMAGELISTSTATS, tagIMAGELISTSTATS
 ms.prod: windows-hardware
 ms.technology: windows-devices

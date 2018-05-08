@@ -67,6 +67,18 @@ The number of categories listed in the <i>pCategoryInfo</i>.
 An array of <a href="https://msdn.microsoft.com/a03f6617-2b55-4d63-85eb-421d7c5494da">APPCATEGORYINFO</a> structures, one for each category in the domain.
 
 
+### -field pCategoryInfo.size_is
+
+ 
+
+
+### -field pCategoryInfo.size_is.cCategory
+
+ 
+
+
+
+
 ## -see-also
 
 

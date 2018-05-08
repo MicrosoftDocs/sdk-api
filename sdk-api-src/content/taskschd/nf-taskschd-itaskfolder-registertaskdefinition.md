@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.RegisterTaskDefinition
-title: ITaskFolder::RegisterTaskDefinition method
+title: ITaskFolder::RegisterTaskDefinition
 author: windows-driver-content
 description: Registers (creates) a task in a specified location using the ITaskDefinition interface to define a task.
 old-location: taskschd\itaskfolder_registertaskdefinition.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: a94db861-b24e-476a-810d-2cf3bbfc67d1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskFolder, ITaskFolder interface [Task Scheduler], RegisterTaskDefinition method, ITaskFolder::RegisterTaskDefinition, RegisterTaskDefinition method [Task Scheduler], RegisterTaskDefinition method [Task Scheduler], ITaskFolder interface, RegisterTaskDefinition,ITaskFolder.RegisterTaskDefinition, TASK_CREATE, TASK_CREATE_OR_UPDATE, TASK_DISABLE, TASK_DONT_ADD_PRINCIPAL_ACE, TASK_IGNORE_REGISTRATION_TRIGGERS, TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, TASK_LOGON_NONE, TASK_LOGON_PASSWORD, TASK_LOGON_S4U, TASK_LOGON_SERVICE_ACCOUNT, TASK_UPDATE, TASK_VALIDATE_ONLY, taskschd.itaskfolder_registertaskdefinition, taskschd/ITaskFolder::RegisterTaskDefinition
+ms.keywords: ITaskFolder interface [Task Scheduler],RegisterTaskDefinition method, ITaskFolder.RegisterTaskDefinition, ITaskFolder::RegisterTaskDefinition, RegisterTaskDefinition, RegisterTaskDefinition method [Task Scheduler], RegisterTaskDefinition method [Task Scheduler],ITaskFolder interface, TASK_CREATE, TASK_CREATE_OR_UPDATE, TASK_DISABLE, TASK_DONT_ADD_PRINCIPAL_ACE, TASK_IGNORE_REGISTRATION_TRIGGERS, TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, TASK_LOGON_NONE, TASK_LOGON_PASSWORD, TASK_LOGON_S4U, TASK_LOGON_SERVICE_ACCOUNT, TASK_UPDATE, TASK_VALIDATE_ONLY, taskschd.itaskfolder_registertaskdefinition, taskschd/ITaskFolder::RegisterTaskDefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskFolder::RegisterTaskDefinition method
+# ITaskFolder::RegisterTaskDefinition
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.IHandwrittenTextInsertion.InsertInkRecognitionResult
-title: IHandwrittenTextInsertion::InsertInkRecognitionResult method
+title: IHandwrittenTextInsertion::InsertInkRecognitionResult
 author: windows-driver-content
 description: Inserts recognition results.
 old-location: tablet\ihandwrittentextinsertion_insertinkrecognitionresult.htm
 old-project: tablet
 ms.assetid: d519aff4-573d-4b06-aef5-e9cc6a5e8102
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IHandWrittenTextInsertion interface [Tablet PC], InsertInkRecognitionResult method, IHandWrittenTextInsertion::InsertInkRecognitionResult, IHandwrittenTextInsertion, IHandwrittenTextInsertion::InsertInkRecognitionResult, InsertInkRecognitionResult method [Tablet PC], InsertInkRecognitionResult method [Tablet PC], IHandWrittenTextInsertion interface, InsertInkRecognitionResult,IHandwrittenTextInsertion.InsertInkRecognitionResult, d519aff4-573d-4b06-aef5-e9cc6a5e8102, peninputpanel/IHandWrittenTextInsertion::InsertInkRecognitionResult, tablet.ihandwrittentextinsertion_insertinkrecognitionresult
+ms.date: 5/2/2018
+ms.keywords: IHandWrittenTextInsertion interface [Tablet PC],InsertInkRecognitionResult method, IHandWrittenTextInsertion::InsertInkRecognitionResult, IHandwrittenTextInsertion.InsertInkRecognitionResult, IHandwrittenTextInsertion::InsertInkRecognitionResult, InsertInkRecognitionResult, InsertInkRecognitionResult method [Tablet PC], InsertInkRecognitionResult method [Tablet PC],IHandWrittenTextInsertion interface, d519aff4-573d-4b06-aef5-e9cc6a5e8102, peninputpanel/IHandWrittenTextInsertion::InsertInkRecognitionResult, tablet.ihandwrittentextinsertion_insertinkrecognitionresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IHandwrittenTextInsertion::InsertInkRecognitionResult method
+# IHandwrittenTextInsertion::InsertInkRecognitionResult
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.get_SignalStrength
-title: IBDA_SignalStatistics::get_SignalStrength method
+title: IBDA_SignalStatistics::get_SignalStrength
 author: windows-driver-content
 description: The get_SignalStrength method retrieves a value that indicates the strength of the signal in decibels.
 old-location: mstv\ibda_signalstatistics_get_signalstrength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f4830da1-1031-456e-8f3f-eb15f5366942
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_SignalStatistics, IBDA_SignalStatistics interface [Microsoft TV Technologies], get_SignalStrength method, IBDA_SignalStatistics::get_SignalStrength, IBDA_SignalStatisticsget_SignalStrength, bdaiface/IBDA_SignalStatistics::get_SignalStrength, get_SignalStrength method [Microsoft TV Technologies], get_SignalStrength method [Microsoft TV Technologies], IBDA_SignalStatistics interface, get_SignalStrength,IBDA_SignalStatistics.get_SignalStrength, mstv.ibda_signalstatistics_get_signalstrength
+ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalStrength method, IBDA_SignalStatistics.get_SignalStrength, IBDA_SignalStatistics::get_SignalStrength, IBDA_SignalStatisticsget_SignalStrength, bdaiface/IBDA_SignalStatistics::get_SignalStrength, get_SignalStrength, get_SignalStrength method [Microsoft TV Technologies], get_SignalStrength method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signalstrength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_SignalStatistics::get_SignalStrength method
+# IBDA_SignalStatistics::get_SignalStrength
 
 
 ## -description

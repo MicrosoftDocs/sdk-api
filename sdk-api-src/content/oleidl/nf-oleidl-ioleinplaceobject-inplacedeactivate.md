@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceObject.InPlaceDeactivate
-title: IOleInPlaceObject::InPlaceDeactivate method
+title: IOleInPlaceObject::InPlaceDeactivate
 author: windows-driver-content
 description: Deactivates an active in-place object and discards the object's undo state.
 old-location: com\ioleinplaceobject_inplacedeactivate.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 174a8bde-0795-4d4d-a294-7708c7d1823a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceObject, IOleInPlaceObject interface [COM], InPlaceDeactivate method, IOleInPlaceObject::InPlaceDeactivate, InPlaceDeactivate method [COM], InPlaceDeactivate method [COM], IOleInPlaceObject interface, InPlaceDeactivate,IOleInPlaceObject.InPlaceDeactivate, _ole_ioleinplaceobject_inplacedeactivate, com.ioleinplaceobject_inplacedeactivate, oleidl/IOleInPlaceObject::InPlaceDeactivate
+ms.keywords: IOleInPlaceObject interface [COM],InPlaceDeactivate method, IOleInPlaceObject.InPlaceDeactivate, IOleInPlaceObject::InPlaceDeactivate, InPlaceDeactivate, InPlaceDeactivate method [COM], InPlaceDeactivate method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_inplacedeactivate, com.ioleinplaceobject_inplacedeactivate, oleidl/IOleInPlaceObject::InPlaceDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceObject::InPlaceDeactivate method
+# IOleInPlaceObject::InPlaceDeactivate
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.GetDisplayName
-title: IMoniker::GetDisplayName method
+title: IMoniker::GetDisplayName
 author: windows-driver-content
 description: Retrieves the display name for the moniker.
 old-location: com\imoniker_getdisplayname.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 424036c9-c097-4507-b562-4a01f9199b1f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetDisplayName method [COM], GetDisplayName method [COM], IMoniker interface, GetDisplayName,IMoniker.GetDisplayName, IMoniker, IMoniker interface [COM], GetDisplayName method, IMoniker::GetDisplayName, _com_imoniker_getdisplayname, com.imoniker_getdisplayname, objidl/IMoniker::GetDisplayName
+ms.keywords: GetDisplayName, GetDisplayName method [COM], GetDisplayName method [COM],IMoniker interface, IMoniker interface [COM],GetDisplayName method, IMoniker.GetDisplayName, IMoniker::GetDisplayName, _com_imoniker_getdisplayname, com.imoniker_getdisplayname, objidl/IMoniker::GetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMoniker::GetDisplayName method
+# IMoniker::GetDisplayName
 
 
 ## -description

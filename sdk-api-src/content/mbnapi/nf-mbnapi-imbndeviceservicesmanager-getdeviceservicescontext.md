@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesManager.GetDeviceServicesContext
-title: IMbnDeviceServicesManager::GetDeviceServicesContext method
+title: IMbnDeviceServicesManager::GetDeviceServicesContext
 author: windows-driver-content
 description: Gets the IMbnDeviceServicesContext interface for a specific Mobile Broadband device.
 old-location: mbn\imbndeviceservicesmanager_getdeviceservicescontext.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 20AD207B-6FC3-4493-81F7-41619CA703DB
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetDeviceServicesContext method [Microsoft Broadband Networks], GetDeviceServicesContext method [Microsoft Broadband Networks], IMbnDeviceServicesManager interface, GetDeviceServicesContext,IMbnDeviceServicesManager.GetDeviceServicesContext, IMbnDeviceServicesManager, IMbnDeviceServicesManager interface [Microsoft Broadband Networks], GetDeviceServicesContext method, IMbnDeviceServicesManager::GetDeviceServicesContext, mbn.imbndeviceservicesmanager_getdeviceservicescontext, mbnapi/IMbnDeviceServicesManager::GetDeviceServicesContext
+ms.keywords: GetDeviceServicesContext, GetDeviceServicesContext method [Microsoft Broadband Networks], GetDeviceServicesContext method [Microsoft Broadband Networks],IMbnDeviceServicesManager interface, IMbnDeviceServicesManager interface [Microsoft Broadband Networks],GetDeviceServicesContext method, IMbnDeviceServicesManager.GetDeviceServicesContext, IMbnDeviceServicesManager::GetDeviceServicesContext, mbn.imbndeviceservicesmanager_getdeviceservicescontext, mbnapi/IMbnDeviceServicesManager::GetDeviceServicesContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceServicesManager::GetDeviceServicesContext method
+# IMbnDeviceServicesManager::GetDeviceServicesContext
 
 
 ## -description

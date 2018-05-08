@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 6d37e022-8c19-48b3-affb-e0eca19b5e05
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], IOleInPlaceSite interface [COM], described, _ole_ioleinplacesite, com.ioleinplacesite, oleidl/IOleInPlaceSite
+ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], IOleInPlaceSite interface [COM],described, _ole_ioleinplacesite, com.ioleinplacesite, oleidl/IOleInPlaceSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

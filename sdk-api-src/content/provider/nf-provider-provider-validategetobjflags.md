@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.ValidateGetObjFlags
-title: Provider::ValidateGetObjFlags method
+title: Provider::ValidateGetObjFlags
 author: windows-driver-content
 description: The ValidateGetObjFlags method determines whether a set of flags is valid for an instance retrieval operation.
 old-location: wmi\provider_validategetobjflags.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 5090c47b-062b-4359-b03b-0d05c225447d
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?ValidateGetObjFlags@Provider@@MAEJJ@Z, ?ValidateGetObjFlags@Provider@@MEAAJJ@Z, Provider, Provider interface [Windows Management Instrumentation], ValidateGetObjFlags method, Provider::ValidateGetObjFlags, ValidateGetObjFlags method [Windows Management Instrumentation], ValidateGetObjFlags method [Windows Management Instrumentation], Provider interface, ValidateGetObjFlags,Provider.ValidateGetObjFlags, _hmm_provider_validategetobjflags, provider/Provider::ValidateGetObjFlags, wmi.provider_validategetobjflags"
+ms.keywords: "?ValidateGetObjFlags@Provider@@MAEJJ@Z, ?ValidateGetObjFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateGetObjFlags method, Provider.ValidateGetObjFlags, Provider::ValidateGetObjFlags, ValidateGetObjFlags, ValidateGetObjFlags method [Windows Management Instrumentation], ValidateGetObjFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validategetobjflags, provider/Provider::ValidateGetObjFlags, wmi.provider_validategetobjflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# Provider::ValidateGetObjFlags method
+# Provider::ValidateGetObjFlags
 
 
 ## -description

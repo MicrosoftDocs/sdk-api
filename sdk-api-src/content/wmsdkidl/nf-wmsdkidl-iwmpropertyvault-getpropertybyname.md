@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.GetPropertyByName
-title: IWMPropertyVault::GetPropertyByName method
+title: IWMPropertyVault::GetPropertyByName
 author: windows-driver-content
 description: The GetPropertyByName method retrieves a property from the vault by its name.
 old-location: wmformat\iwmpropertyvault_getpropertybyname.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 65740366-ac0a-4d18-9f61-a79670998e6a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetPropertyByName method [windows Media Format], GetPropertyByName method [windows Media Format], IWMPropertyVault interface, GetPropertyByName,IWMPropertyVault.GetPropertyByName, IWMPropertyVault, IWMPropertyVault interface [windows Media Format], GetPropertyByName method, IWMPropertyVault::GetPropertyByName, IWMPropertyVaultGetPropertyByName, wmformat.iwmpropertyvault_getpropertybyname, wmsdkidl/IWMPropertyVault::GetPropertyByName
+ms.keywords: GetPropertyByName, GetPropertyByName method [windows Media Format], GetPropertyByName method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyByName method, IWMPropertyVault.GetPropertyByName, IWMPropertyVault::GetPropertyByName, IWMPropertyVaultGetPropertyByName, wmformat.iwmpropertyvault_getpropertybyname, wmsdkidl/IWMPropertyVault::GetPropertyByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPropertyVault::GetPropertyByName method
+# IWMPropertyVault::GetPropertyByName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.HasCompleted
-title: IWSDAsyncResult::HasCompleted method
+title: IWSDAsyncResult::HasCompleted
 author: windows-driver-content
 description: Indicates whether the operation has completed.
 old-location: ncd\iwsdasyncresult_hascompleted_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 67944519-c6cc-4dc8-9035-4e6ee84e1277
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: HasCompleted method, HasCompleted method, IWSDAsyncResult interface, HasCompleted,IWSDAsyncResult.HasCompleted, IWSDAsyncResult, IWSDAsyncResult interface, HasCompleted method, IWSDAsyncResult::HasCompleted, ncd.iwsdasyncresult_hascompleted_method, wsdclient/IWSDAsyncResult::HasCompleted
+ms.keywords: HasCompleted, HasCompleted method, HasCompleted method,IWSDAsyncResult interface, IWSDAsyncResult interface,HasCompleted method, IWSDAsyncResult.HasCompleted, IWSDAsyncResult::HasCompleted, ncd.iwsdasyncresult_hascompleted_method, wsdclient/IWSDAsyncResult::HasCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDAsyncResult::HasCompleted method
+# IWSDAsyncResult::HasCompleted
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: automat\vardatefromstr.htm
 old-project: automat
 ms.assetid: a5c21ceb-ed8b-4a95-8957-e9d7fc5bd90e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_CALENDAR_HIJRI, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarDateFromStr, VarDateFromStr function [Automation], _oa96_VarDateFromStr, automat.vardatefromstr, oleauto/VarDateFromStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

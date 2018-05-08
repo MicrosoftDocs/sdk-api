@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IRelationship.IsReal
-title: IRelationship::IsReal method
+title: IRelationship::IsReal
 author: windows-driver-content
 description: Reports whether a relationship is real.
 old-location: search\_search_IRelationship_IsReal.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\isreal.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IRelationship, IRelationship interface [search], IsReal method, IRelationship::IsReal, IsReal method [search], IsReal method [search], IRelationship interface, IsReal,IRelationship.IsReal, _search_IRelationship_IsReal, search._search_IRelationship_IsReal, structuredquery/IRelationship::IsReal
+ms.date: 5/4/2018
+ms.keywords: IRelationship interface [search],IsReal method, IRelationship.IsReal, IRelationship::IsReal, IsReal, IsReal method [search], IsReal method [search],IRelationship interface, _search_IRelationship_IsReal, search._search_IRelationship_IsReal, structuredquery/IRelationship::IsReal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRelationship::IsReal method
+# IRelationship::IsReal
 
 
 ## -description

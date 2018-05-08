@@ -7,7 +7,7 @@ old-location: netvista\sockaddr_in.htm
 old-project: netvista
 ms.assetid: 96379562-403f-451c-ac7a-f0eec34bfe5e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PSOCKADDR_IN, PSOCKADDR_IN, PSOCKADDR_IN structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_IN, SOCKADDR_IN structure [Network Drivers Starting with Windows Vista], netvista.sockaddr_in, sockaddr_in, ws2def/PSOCKADDR_IN, ws2def/SOCKADDR_IN, wskref_ab4750b0-daae-4326-91a3-a94a9863c7a2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

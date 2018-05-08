@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: a6523088-cca4-41c1-a3fe-d8cb7320ff33
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComThreadEvents, IComThreadEvents interface [COM+], IComThreadEvents interface [COM+], described, _dtc_IComThreadEvents, comsvcs/IComThreadEvents, cos.icomthreadevents
+ms.keywords: IComThreadEvents, IComThreadEvents interface [COM+], IComThreadEvents interface [COM+],described, _dtc_IComThreadEvents, comsvcs/IComThreadEvents, cos.icomthreadevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

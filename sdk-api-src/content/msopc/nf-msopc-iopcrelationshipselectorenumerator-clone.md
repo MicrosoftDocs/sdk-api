@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorEnumerator.Clone
-title: IOpcRelationshipSelectorEnumerator::Clone method
+title: IOpcRelationshipSelectorEnumerator::Clone
 author: windows-driver-content
 description: Creates a copy of the current IOpcRelationshipSelectorEnumerator interface pointer and all its descendants.
 old-location: opc\iopcrelationshipselectorenumerator_clone.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 3eaf4b51-201d-43de-a9b7-408306992629
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions], IOpcRelationshipSelectorEnumerator interface, Clone,IOpcRelationshipSelectorEnumerator.Clone, IOpcRelationshipSelectorEnumerator, IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions], Clone method, IOpcRelationshipSelectorEnumerator::Clone, msopc/IOpcRelationshipSelectorEnumerator::Clone, opc.iopcrelationshipselectorenumerator_clone
+ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],Clone method, IOpcRelationshipSelectorEnumerator.Clone, IOpcRelationshipSelectorEnumerator::Clone, msopc/IOpcRelationshipSelectorEnumerator::Clone, opc.iopcrelationshipselectorenumerator_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcRelationshipSelectorEnumerator::Clone method
+# IOpcRelationshipSelectorEnumerator::Clone
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetSize
-title: IAMMediaTypeSample::GetSize method
+title: IAMMediaTypeSample::GetSize
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The GetSize method retrieves the size of the buffer data area, in bytes.
 old-location: dshow\iammediatypesample_getsize.htm
 old-project: DirectShow
 ms.assetid: 57dd7ec9-7615-42c5-9da7-44c4d71535c4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSize method [DirectShow], GetSize method [DirectShow], IAMMediaTypeSample interface, GetSize,IAMMediaTypeSample.GetSize, IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], GetSize method, IAMMediaTypeSample::GetSize, IAMMediaTypeSampleGetSize, amstream/IAMMediaTypeSample::GetSize, dshow.iammediatypesample_getsize
+ms.date: 4/30/2018
+ms.keywords: GetSize, GetSize method [DirectShow], GetSize method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetSize method, IAMMediaTypeSample.GetSize, IAMMediaTypeSample::GetSize, IAMMediaTypeSampleGetSize, amstream/IAMMediaTypeSample::GetSize, dshow.iammediatypesample_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaTypeSample::GetSize method
+# IAMMediaTypeSample::GetSize
 
 
 ## -description

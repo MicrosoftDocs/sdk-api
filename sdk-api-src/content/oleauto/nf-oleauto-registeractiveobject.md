@@ -7,7 +7,7 @@ old-location: automat\registeractiveobject.htm
 old-project: automat
 ms.assetid: ba15bb69-7b65-47ea-b938-f235e3d9f9ee
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: RegisterActiveObject, RegisterActiveObject function [Automation], _oa96_RegisterActiveObject, automat.registeractiveobject, oleauto/RegisterActiveObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_VolumeIndex
-title: IFsrmPropertyBag::get_VolumeIndex method
+title: IFsrmPropertyBag::get_VolumeIndex
 author: windows-driver-content
 description: The index that the scanner uses to refer to the volume on which the file exists.
 old-location: fsrm\ifsrmpropertybag_volumeindex.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 08d4e052-710b-4f41-86b1-473760a6e9c6
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], VolumeIndex property, IFsrmPropertyBag.VolumeIndex, IFsrmPropertyBag::get_VolumeIndex, VolumeIndex property [File Server Resource Manager], VolumeIndex property [File Server Resource Manager], IFsrmPropertyBag interface, fs.ifsrmpropertybag_volumeindex, fsrm.ifsrmpropertybag_volumeindex, fsrmpipeline/IFsrmPropertyBag::VolumeIndex, fsrmpipeline/IFsrmPropertyBag::get_VolumeIndex, get_VolumeIndex,IFsrmPropertyBag.get_VolumeIndex
+ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],VolumeIndex property, IFsrmPropertyBag.VolumeIndex, IFsrmPropertyBag.get_VolumeIndex, IFsrmPropertyBag::VolumeIndex, IFsrmPropertyBag::get_VolumeIndex, VolumeIndex property [File Server Resource Manager], VolumeIndex property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_volumeindex, fsrm.ifsrmpropertybag_volumeindex, fsrmpipeline/IFsrmPropertyBag::VolumeIndex, fsrmpipeline/IFsrmPropertyBag::get_VolumeIndex, get_VolumeIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyBag::get_VolumeIndex method
+# IFsrmPropertyBag::get_VolumeIndex
 
 
 ## -description

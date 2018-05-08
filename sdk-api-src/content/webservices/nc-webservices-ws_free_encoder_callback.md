@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 4ef8fc85-fe98-4c1c-9f8f-77fd4ad3283f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_FREE_ENCODER_CALLBACK, WS_FREE_ENCODER_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_ENCODER_CALLBACK, wsw.ws_free_encoder_callback
+ms.keywords: WS_FREE_ENCODER_CALLBACK, WS_FREE_ENCODER_CALLBACK callback, WS_FREE_ENCODER_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_ENCODER_CALLBACK, wsw.ws_free_encoder_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_FREE_ENCODER_CALLBACK callback
+# WS_FREE_ENCODER_CALLBACK callback function
 
 
 ## -description

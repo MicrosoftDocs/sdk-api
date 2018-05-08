@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMGetBlendState
-title: ID3D11DeviceContext::OMGetBlendState method
+title: ID3D11DeviceContext::OMGetBlendState
 author: windows-driver-content
 description: Get the blend state of the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omgetblendstate.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 871429b4-8f4a-43bb-ae55-3b07f8d00f68
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], OMGetBlendState method, ID3D11DeviceContext::OMGetBlendState, OMGetBlendState method [Direct3D 11], OMGetBlendState method [Direct3D 11], ID3D11DeviceContext interface, OMGetBlendState,ID3D11DeviceContext.OMGetBlendState, d3d11/ID3D11DeviceContext::OMGetBlendState, db30eb26-ca10-d827-172b-7c7a6fe1ff83, direct3d11.id3d11devicecontext_omgetblendstate
+ms.keywords: ID3D11DeviceContext interface [Direct3D 11],OMGetBlendState method, ID3D11DeviceContext.OMGetBlendState, ID3D11DeviceContext::OMGetBlendState, OMGetBlendState, OMGetBlendState method [Direct3D 11], OMGetBlendState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMGetBlendState, db30eb26-ca10-d827-172b-7c7a6fe1ff83, direct3d11.id3d11devicecontext_omgetblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::OMGetBlendState method
+# ID3D11DeviceContext::OMGetBlendState
 
 
 ## -description

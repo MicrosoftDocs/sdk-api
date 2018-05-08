@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreatePackageReader
-title: IAppxFactory::CreatePackageReader method
+title: IAppxFactory::CreatePackageReader
 author: windows-driver-content
 description: Creates a read-only package reader from the contents provided by an IStream. This method does not validate the digital signature.
 old-location: appxpkg\iappxfactory_createpackagereader.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 60C9781F-A1EE-4EAA-9CD5-32692F3E063D
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreatePackageReader method [App packaging and management], CreatePackageReader method [App packaging and management], IAppxFactory interface, CreatePackageReader,IAppxFactory.CreatePackageReader, IAppxFactory, IAppxFactory interface [App packaging and management], CreatePackageReader method, IAppxFactory::CreatePackageReader, appxpackaging/IAppxFactory::CreatePackageReader, appxpkg.iappxfactory_createpackagereader
+ms.keywords: CreatePackageReader, CreatePackageReader method [App packaging and management], CreatePackageReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreatePackageReader method, IAppxFactory.CreatePackageReader, IAppxFactory::CreatePackageReader, appxpackaging/IAppxFactory::CreatePackageReader, appxpkg.iappxfactory_createpackagereader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxFactory::CreatePackageReader method
+# IAppxFactory::CreatePackageReader
 
 
 ## -description

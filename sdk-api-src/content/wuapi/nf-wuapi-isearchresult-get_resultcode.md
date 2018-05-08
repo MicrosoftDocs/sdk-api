@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ISearchResult.get_ResultCode
-title: ISearchResult::get_ResultCode method
+title: ISearchResult::get_ResultCode
 author: windows-driver-content
 description: Gets an OperationResultCode enumeration that specifies the result of a search.
 old-location: wua\isearchresult_resultcode.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 83c59fd1-0d2f-4028-9345-c9dec1f94b09
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ISearchResult, ISearchResult interface [Windows Update Agent], ResultCode property, ISearchResult.ResultCode, ISearchResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent], ISearchResult interface, get_ResultCode,ISearchResult.get_ResultCode, wua.isearchresult_resultcode, wuapi/ISearchResult::ResultCode, wuapi/ISearchResult::get_ResultCode
+ms.keywords: ISearchResult interface [Windows Update Agent],ResultCode property, ISearchResult.ResultCode, ISearchResult.get_ResultCode, ISearchResult::ResultCode, ISearchResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],ISearchResult interface, get_ResultCode, wua.isearchresult_resultcode, wuapi/ISearchResult::ResultCode, wuapi/ISearchResult::get_ResultCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISearchResult::get_ResultCode method
+# ISearchResult::get_ResultCode
 
 
 ## -description

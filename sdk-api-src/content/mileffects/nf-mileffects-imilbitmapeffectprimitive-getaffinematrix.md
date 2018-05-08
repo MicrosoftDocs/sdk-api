@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.GetAffineMatrix
-title: IMILBitmapEffectPrimitive::GetAffineMatrix method
+title: IMILBitmapEffectPrimitive::GetAffineMatrix
 author: windows-driver-content
 description: Retrieves the affine transormation matrix for the effect.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_getaffinematrix.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\getaffinematrix.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetAffineMatrix method [WPF Bitmap Effects], GetAffineMatrix method [WPF Bitmap Effects], IMILBitmapEffectPrimitive interface, GetAffineMatrix,IMILBitmapEffectPrimitive.GetAffineMatrix, IMILBitmapEffectPrimitive, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects], GetAffineMatrix method, IMILBitmapEffectPrimitive::GetAffineMatrix, _wibe_imilbitmapeffectprimitive_getaffinematrix, mileffects/IMILBitmapEffectPrimitive::GetAffineMatrix, wibe._wibe_imilbitmapeffectprimitive_getaffinematrix
+ms.keywords: GetAffineMatrix, GetAffineMatrix method [WPF Bitmap Effects], GetAffineMatrix method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],GetAffineMatrix method, IMILBitmapEffectPrimitive.GetAffineMatrix, IMILBitmapEffectPrimitive::GetAffineMatrix, _wibe_imilbitmapeffectprimitive_getaffinematrix, mileffects/IMILBitmapEffectPrimitive::GetAffineMatrix, wibe._wibe_imilbitmapeffectprimitive_getaffinematrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectPrimitive::GetAffineMatrix method
+# IMILBitmapEffectPrimitive::GetAffineMatrix
 
 
 ## -description

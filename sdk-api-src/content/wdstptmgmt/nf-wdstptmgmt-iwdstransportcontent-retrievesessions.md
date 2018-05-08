@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.RetrieveSessions
-title: IWdsTransportContent::RetrieveSessions method
+title: IWdsTransportContent::RetrieveSessions
 author: windows-driver-content
 description: Retrieves a collection of active transport sessions associated with this content.
 old-location: wds\iwdstransportcontent_retrievesessions.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 8901f9c5-931e-40d5-8a5c-d3a814556400
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportContent, IWdsTransportContent interface [Windows Deployment Services], RetrieveSessions method, IWdsTransportContent::RetrieveSessions, RetrieveSessions method [Windows Deployment Services], RetrieveSessions method [Windows Deployment Services], IWdsTransportContent interface, RetrieveSessions,IWdsTransportContent.RetrieveSessions, wds.iwdstransportcontent_retrievesessions, wdstptmgmt/IWdsTransportContent::RetrieveSessions
+ms.keywords: IWdsTransportContent interface [Windows Deployment Services],RetrieveSessions method, IWdsTransportContent.RetrieveSessions, IWdsTransportContent::RetrieveSessions, RetrieveSessions, RetrieveSessions method [Windows Deployment Services], RetrieveSessions method [Windows Deployment Services],IWdsTransportContent interface, wds.iwdstransportcontent_retrievesessions, wdstptmgmt/IWdsTransportContent::RetrieveSessions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportContent::RetrieveSessions method
+# IWdsTransportContent::RetrieveSessions
 
 
 ## -description

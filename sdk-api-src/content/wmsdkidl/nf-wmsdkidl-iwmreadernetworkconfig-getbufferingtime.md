@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetBufferingTime
-title: IWMReaderNetworkConfig::GetBufferingTime method
+title: IWMReaderNetworkConfig::GetBufferingTime
 author: windows-driver-content
 description: The GetBufferingTime method retrieves the amount of time that the network source buffers data before rendering it.
 old-location: wmformat\iwmreadernetworkconfig_getbufferingtime.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a3f35230-363c-48e7-bef9-b92e0b50b978
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetBufferingTime method [windows Media Format], GetBufferingTime method [windows Media Format], IWMReaderNetworkConfig interface, GetBufferingTime,IWMReaderNetworkConfig.GetBufferingTime, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetBufferingTime method, IWMReaderNetworkConfig::GetBufferingTime, IWMReaderNetworkConfigGetBufferingTime, wmformat.iwmreadernetworkconfig_getbufferingtime, wmsdkidl/IWMReaderNetworkConfig::GetBufferingTime
+ms.keywords: GetBufferingTime, GetBufferingTime method [windows Media Format], GetBufferingTime method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetBufferingTime method, IWMReaderNetworkConfig.GetBufferingTime, IWMReaderNetworkConfig::GetBufferingTime, IWMReaderNetworkConfigGetBufferingTime, wmformat.iwmreadernetworkconfig_getbufferingtime, wmsdkidl/IWMReaderNetworkConfig::GetBufferingTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetBufferingTime method
+# IWMReaderNetworkConfig::GetBufferingTime
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictFolder.GetConflictIDList
-title: ISyncMgrConflictFolder::GetConflictIDList method
+title: ISyncMgrConflictFolder::GetConflictIDList
 author: windows-driver-content
 description: Maps a conflict to its IShellItem.
 old-location: shell\ISyncMgrConflictFolder_GetConflictIDList.htm
 old-project: shell
 ms.assetid: 2a0794dd-ffa6-4a7b-af1a-1605092ead07
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetConflictIDList method [Windows Shell], GetConflictIDList method [Windows Shell], ISyncMgrConflictFolder interface, GetConflictIDList,ISyncMgrConflictFolder.GetConflictIDList, ISyncMgrConflictFolder, ISyncMgrConflictFolder interface [Windows Shell], GetConflictIDList method, ISyncMgrConflictFolder::GetConflictIDList, _shell_ISyncMgrConflictFolder_GetConflictIDList, shell.ISyncMgrConflictFolder_GetConflictIDList, syncmgr/ISyncMgrConflictFolder::GetConflictIDList
+ms.date: 5/3/2018
+ms.keywords: GetConflictIDList, GetConflictIDList method [Windows Shell], GetConflictIDList method [Windows Shell],ISyncMgrConflictFolder interface, ISyncMgrConflictFolder interface [Windows Shell],GetConflictIDList method, ISyncMgrConflictFolder.GetConflictIDList, ISyncMgrConflictFolder::GetConflictIDList, _shell_ISyncMgrConflictFolder_GetConflictIDList, shell.ISyncMgrConflictFolder_GetConflictIDList, syncmgr/ISyncMgrConflictFolder::GetConflictIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrConflictFolder::GetConflictIDList method
+# ISyncMgrConflictFolder::GetConflictIDList
 
 
 ## -description

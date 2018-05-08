@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputMaxLatency
-title: IMediaObject::GetInputMaxLatency method
+title: IMediaObject::GetInputMaxLatency
 author: windows-driver-content
 description: The GetInputMaxLatency method retrieves the maximum latency on a specified input stream.
 old-location: dshow\imediaobject_getinputmaxlatency.htm
 old-project: DirectShow
 ms.assetid: f8a18b4c-a59c-4e9d-aff7-62333e9ffda9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetInputMaxLatency method [DirectShow], GetInputMaxLatency method [DirectShow], IMediaObject interface, GetInputMaxLatency,IMediaObject.GetInputMaxLatency, IMediaObject, IMediaObject interface [DirectShow], GetInputMaxLatency method, IMediaObject::GetInputMaxLatency, IMediaObjectGetInputMaxLatency, dshow.imediaobject_getinputmaxlatency, mediaobj/IMediaObject::GetInputMaxLatency
+ms.date: 4/30/2018
+ms.keywords: GetInputMaxLatency, GetInputMaxLatency method [DirectShow], GetInputMaxLatency method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputMaxLatency method, IMediaObject.GetInputMaxLatency, IMediaObject::GetInputMaxLatency, IMediaObjectGetInputMaxLatency, dshow.imediaobject_getinputmaxlatency, mediaobj/IMediaObject::GetInputMaxLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaObject::GetInputMaxLatency method
+# IMediaObject::GetInputMaxLatency
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.Initialize
-title: IWICBitmapDecoder::Initialize method
+title: IWICBitmapDecoder::Initialize
 author: windows-driver-content
 description: Initializes the decoder with the provided stream.
 old-location: wic\_wic_codec_iwicbitmapdecoder_initialize.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 60a7e0b8-202c-4fed-b105-f8c4fa9817a9
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], Initialize method, IWICBitmapDecoder::Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component], IWICBitmapDecoder interface, Initialize,IWICBitmapDecoder.Initialize, _wic_codec_iwicbitmapdecoder_initialize, wic._wic_codec_iwicbitmapdecoder_initialize, wincodec/IWICBitmapDecoder::Initialize
+ms.keywords: IWICBitmapDecoder interface [Windows Imaging Component],Initialize method, IWICBitmapDecoder.Initialize, IWICBitmapDecoder::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapDecoder interface, _wic_codec_iwicbitmapdecoder_initialize, wic._wic_codec_iwicbitmapdecoder_initialize, wincodec/IWICBitmapDecoder::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapDecoder::Initialize method
+# IWICBitmapDecoder::Initialize
 
 
 ## -description

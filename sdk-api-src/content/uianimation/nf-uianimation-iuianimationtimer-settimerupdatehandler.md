@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.SetTimerUpdateHandler
-title: IUIAnimationTimer::SetTimerUpdateHandler method
+title: IUIAnimationTimer::SetTimerUpdateHandler
 author: windows-driver-content
 description: Specifies a timer update handler.
 old-location: uianimation\iuianimationtimer_settimerupdatehandler.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 69c5f8b2-f3c8-43aa-8dae-cedd0036dc03
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationTimer, IUIAnimationTimer interface [Windows Animation], SetTimerUpdateHandler method, IUIAnimationTimer::SetTimerUpdateHandler, SetTimerUpdateHandler method [Windows Animation], SetTimerUpdateHandler method [Windows Animation], IUIAnimationTimer interface, SetTimerUpdateHandler,IUIAnimationTimer.SetTimerUpdateHandler, uianimation.iuianimationtimer_settimerupdatehandler, uianimation/IUIAnimationTimer::SetTimerUpdateHandler
+ms.keywords: IUIAnimationTimer interface [Windows Animation],SetTimerUpdateHandler method, IUIAnimationTimer.SetTimerUpdateHandler, IUIAnimationTimer::SetTimerUpdateHandler, SetTimerUpdateHandler, SetTimerUpdateHandler method [Windows Animation], SetTimerUpdateHandler method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_settimerupdatehandler, uianimation/IUIAnimationTimer::SetTimerUpdateHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTimer::SetTimerUpdateHandler method
+# IUIAnimationTimer::SetTimerUpdateHandler
 
 
 ## -description

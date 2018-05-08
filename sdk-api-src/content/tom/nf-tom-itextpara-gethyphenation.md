@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetHyphenation
-title: ITextPara::GetHyphenation method
+title: ITextPara::GetHyphenation
 author: windows-driver-content
 description: Determines whether automatic hyphenation is enabled for the range.
 old-location: controls\ITextPara_GetHyphenation.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gethyphenation.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetHyphenation method [Windows Controls], GetHyphenation method [Windows Controls], ITextPara interface, GetHyphenation,ITextPara.GetHyphenation, ITextPara, ITextPara interface [Windows Controls], GetHyphenation method, ITextPara::GetHyphenation, _win32_ITextPara_GetHyphenation, _win32_ITextPara_GetHyphenation_cpp, controls.ITextPara_GetHyphenation, controls._win32_ITextPara_GetHyphenation, tom/ITextPara::GetHyphenation, tomFalse, tomTrue, tomUndefined
+ms.date: 4/27/2018
+ms.keywords: GetHyphenation, GetHyphenation method [Windows Controls], GetHyphenation method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetHyphenation method, ITextPara.GetHyphenation, ITextPara::GetHyphenation, _win32_ITextPara_GetHyphenation, _win32_ITextPara_GetHyphenation_cpp, controls.ITextPara_GetHyphenation, controls._win32_ITextPara_GetHyphenation, tom/ITextPara::GetHyphenation, tomFalse, tomTrue, tomUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetHyphenation method
+# ITextPara::GetHyphenation
 
 
 ## -description

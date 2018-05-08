@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 6a8ffae6-c4f3-42fb-9703-eeb695902877
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ClusPropertyValue, ClusPropertyValue object [Failover Cluster], ClusPropertyValue object [Failover Cluster], described, ISClusPropertyValue, _wolf_cluspropertyvalue_object, msclus/ClusPropertyValue, mscs.cluspropertyvalue_object
+ms.keywords: ClusPropertyValue, ClusPropertyValue object [Failover Cluster], ClusPropertyValue object [Failover Cluster],described, ISClusPropertyValue, _wolf_cluspropertyvalue_object, msclus/ClusPropertyValue, mscs.cluspropertyvalue_object
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

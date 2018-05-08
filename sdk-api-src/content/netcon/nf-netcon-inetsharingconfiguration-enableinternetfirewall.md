@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.EnableInternetFirewall
-title: INetSharingConfiguration::EnableInternetFirewall method
+title: INetSharingConfiguration::EnableInternetFirewall
 author: windows-driver-content
 description: The EnableInternetFirewall methods enables Internet Connection Firewall on this connection.
 old-location: ics\inetsharingconfiguration_enableinternetfirewall.htm
 old-project: ICS
 ms.assetid: 9805f6bf-ee06-469f-9b2f-e48caa582d1a
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: EnableInternetFirewall method [ICS/ICF], EnableInternetFirewall method [ICS/ICF], INetSharingConfiguration interface, EnableInternetFirewall,INetSharingConfiguration.EnableInternetFirewall, INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], EnableInternetFirewall method, INetSharingConfiguration::EnableInternetFirewall, _ics_inetsharingconfiguration_enableinternetfirewall, ics.inetsharingconfiguration_enableinternetfirewall, netcon/INetSharingConfiguration::EnableInternetFirewall
+ms.date: 5/1/2018
+ms.keywords: EnableInternetFirewall, EnableInternetFirewall method [ICS/ICF], EnableInternetFirewall method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],EnableInternetFirewall method, INetSharingConfiguration.EnableInternetFirewall, INetSharingConfiguration::EnableInternetFirewall, _ics_inetsharingconfiguration_enableinternetfirewall, ics.inetsharingconfiguration_enableinternetfirewall, netcon/INetSharingConfiguration::EnableInternetFirewall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingConfiguration::EnableInternetFirewall method
+# INetSharingConfiguration::EnableInternetFirewall
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCMoveToReTryQueue
-title: IComQCEvents::OnQCMoveToReTryQueue method
+title: IComQCEvents::OnQCMoveToReTryQueue
 author: windows-driver-content
 description: Generated when a message is moved to a queued components retry queue.
 old-location: cos\icomqcevents_onqcmovetoretryqueue.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: d8f2af02-852d-4e36-9e0c-4919e2fba4a1
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComQCEvents, IComQCEvents interface [COM+], OnQCMoveToReTryQueue method, IComQCEvents::OnQCMoveToReTryQueue, OnQCMoveToReTryQueue method [COM+], OnQCMoveToReTryQueue method [COM+], IComQCEvents interface, OnQCMoveToReTryQueue,IComQCEvents.OnQCMoveToReTryQueue, _dtc_IComQCEvents_OnQCMoveToReTryQueue, comsvcs/IComQCEvents::OnQCMoveToReTryQueue, cos.icomqcevents_onqcmovetoretryqueue
+ms.keywords: IComQCEvents interface [COM+],OnQCMoveToReTryQueue method, IComQCEvents.OnQCMoveToReTryQueue, IComQCEvents::OnQCMoveToReTryQueue, OnQCMoveToReTryQueue, OnQCMoveToReTryQueue method [COM+], OnQCMoveToReTryQueue method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCMoveToReTryQueue, comsvcs/IComQCEvents::OnQCMoveToReTryQueue, cos.icomqcevents_onqcmovetoretryqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComQCEvents::OnQCMoveToReTryQueue method
+# IComQCEvents::OnQCMoveToReTryQueue
 
 
 ## -description

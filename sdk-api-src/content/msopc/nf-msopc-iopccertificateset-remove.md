@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcCertificateSet.Remove
-title: IOpcCertificateSet::Remove method
+title: IOpcCertificateSet::Remove
 author: windows-driver-content
 description: Removes a specified certificate from the set.
 old-location: opc\iopccertificateset_remove.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 15046223-f8a0-4810-b6e0-e75aca44d5a9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcCertificateSet, IOpcCertificateSet interface [Open Packaging Conventions], Remove method, IOpcCertificateSet::Remove, Remove method [Open Packaging Conventions], Remove method [Open Packaging Conventions], IOpcCertificateSet interface, Remove,IOpcCertificateSet.Remove, msopc/IOpcCertificateSet::Remove, opc.iopccertificateset_remove
+ms.keywords: IOpcCertificateSet interface [Open Packaging Conventions],Remove method, IOpcCertificateSet.Remove, IOpcCertificateSet::Remove, Remove, Remove method [Open Packaging Conventions], Remove method [Open Packaging Conventions],IOpcCertificateSet interface, msopc/IOpcCertificateSet::Remove, opc.iopccertificateset_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcCertificateSet::Remove method
+# IOpcCertificateSet::Remove
 
 
 ## -description

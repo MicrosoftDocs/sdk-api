@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetTotalTitleTime
-title: IDvdInfo::GetTotalTitleTime method
+title: IDvdInfo::GetTotalTitleTime
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the total playback time for the current title.
 old-location: dshow\idvdinfo_gettotaltitletime.htm
 old-project: DirectShow
 ms.assetid: 90f3a053-edc8-4e42-ae00-31d66d9e3115
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetTotalTitleTime method [DirectShow], GetTotalTitleTime method [DirectShow], IDvdInfo interface, GetTotalTitleTime,IDvdInfo.GetTotalTitleTime, IDvdInfo, IDvdInfo interface [DirectShow], GetTotalTitleTime method, IDvdInfo::GetTotalTitleTime, IDvdInfoGetTotalTitleTime, dshow.idvdinfo_gettotaltitletime, strmif/IDvdInfo::GetTotalTitleTime
+ms.date: 4/30/2018
+ms.keywords: GetTotalTitleTime, GetTotalTitleTime method [DirectShow], GetTotalTitleTime method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTotalTitleTime method, IDvdInfo.GetTotalTitleTime, IDvdInfo::GetTotalTitleTime, IDvdInfoGetTotalTitleTime, dshow.idvdinfo_gettotaltitletime, strmif/IDvdInfo::GetTotalTitleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetTotalTitleTime method
+# IDvdInfo::GetTotalTitleTime
 
 
 ## -description

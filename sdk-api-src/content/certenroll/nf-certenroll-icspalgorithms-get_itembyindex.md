@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.get_ItemByIndex
-title: ICspAlgorithms::get_ItemByIndex method
+title: ICspAlgorithms::get_ItemByIndex
 author: windows-driver-content
 description: Retrieves an ICspAlgorithm object from the collection by index number.
 old-location: security\icspalgorithms_itembyindex_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: a9016683-fc62-4440-9c15-318199810091
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspAlgorithms, ICspAlgorithms interface [Security], ItemByIndex property, ICspAlgorithms.ItemByIndex, ICspAlgorithms::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security], ICspAlgorithms interface, certenroll/ICspAlgorithms::ItemByIndex, certenroll/ICspAlgorithms::get_ItemByIndex, get_ItemByIndex,ICspAlgorithms.get_ItemByIndex, security.icspalgorithms_itembyindex_property
+ms.keywords: ICspAlgorithms interface [Security],ItemByIndex property, ICspAlgorithms.ItemByIndex, ICspAlgorithms.get_ItemByIndex, ICspAlgorithms::ItemByIndex, ICspAlgorithms::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::ItemByIndex, certenroll/ICspAlgorithms::get_ItemByIndex, get_ItemByIndex, security.icspalgorithms_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspAlgorithms::get_ItemByIndex method
+# ICspAlgorithms::get_ItemByIndex
 
 
 ## -description

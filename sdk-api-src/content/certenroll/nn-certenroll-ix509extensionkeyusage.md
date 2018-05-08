@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 4325e6aa-99bb-4c9a-9b19-c5352ebf27b9
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionKeyUsage, IX509ExtensionKeyUsage interface [Security], IX509ExtensionKeyUsage interface [Security], described, certenroll/IX509ExtensionKeyUsage, security.ix509extensionkeyusage
+ms.keywords: IX509ExtensionKeyUsage, IX509ExtensionKeyUsage interface [Security], IX509ExtensionKeyUsage interface [Security],described, certenroll/IX509ExtensionKeyUsage, security.ix509extensionkeyusage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.put_TSID
-title: IDVBTuneRequest::put_TSID method
+title: IDVBTuneRequest::put_TSID
 author: windows-driver-content
 description: The put_TSID method sets the transport stream ID.
 old-location: mstv\idvbtunerequest_put_tsid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f72dce85-3584-40bc-ae7a-69c9914c13b9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBTuneRequest, IDVBTuneRequest interface [Microsoft TV Technologies], put_TSID method, IDVBTuneRequest::put_TSID, IDVBTuneRequestput_TSID, mstv.idvbtunerequest_put_tsid, put_TSID method [Microsoft TV Technologies], put_TSID method [Microsoft TV Technologies], IDVBTuneRequest interface, put_TSID,IDVBTuneRequest.put_TSID, tuner/IDVBTuneRequest::put_TSID
+ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],put_TSID method, IDVBTuneRequest.put_TSID, IDVBTuneRequest::put_TSID, IDVBTuneRequestput_TSID, mstv.idvbtunerequest_put_tsid, put_TSID, put_TSID method [Microsoft TV Technologies], put_TSID method [Microsoft TV Technologies],IDVBTuneRequest interface, tuner/IDVBTuneRequest::put_TSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBTuneRequest::put_TSID method
+# IDVBTuneRequest::put_TSID
 
 
 ## -description

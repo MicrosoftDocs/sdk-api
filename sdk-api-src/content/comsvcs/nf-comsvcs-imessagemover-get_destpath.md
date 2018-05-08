@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMessageMover.get_DestPath
-title: IMessageMover::get_DestPath method
+title: IMessageMover::get_DestPath
 author: windows-driver-content
 description: Retrieves the path of the destination (output) queue.
 old-location: cos\imessagemover_get_destpath.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 3adb24d5-b56d-4740-838b-d5b7571950e2
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IMessageMover, IMessageMover interface [COM+], get_DestPath method, IMessageMover::get_DestPath, comsvcs/IMessageMover::get_DestPath, cos.imessagemover_get_destpath, get_DestPath method [COM+], get_DestPath method [COM+], IMessageMover interface, get_DestPath,IMessageMover.get_DestPath
+ms.keywords: IMessageMover interface [COM+],get_DestPath method, IMessageMover.get_DestPath, IMessageMover::get_DestPath, comsvcs/IMessageMover::get_DestPath, cos.imessagemover_get_destpath, get_DestPath, get_DestPath method [COM+], get_DestPath method [COM+],IMessageMover interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMessageMover::get_DestPath method
+# IMessageMover::get_DestPath
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.ConnectToClient
-title: IRDPSRAPISharingSession::ConnectToClient method
+title: IRDPSRAPISharingSession::ConnectToClient
 author: windows-driver-content
 description: Used for reverse connect mode, where the sharer connects to the viewer.
 old-location: rdp\irdpsrapisharingsession_connecttoclient.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 18651433-90cb-4ebd-afaf-480800dfe033
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: ConnectToClient method [RDP], ConnectToClient method [RDP], IRDPSRAPISharingSession interface, ConnectToClient method [RDP], IRDPSRAPISharingSession2 interface, ConnectToClient,IRDPSRAPISharingSession.ConnectToClient, IRDPSRAPISharingSession, IRDPSRAPISharingSession interface [RDP], ConnectToClient method, IRDPSRAPISharingSession2 interface [RDP], ConnectToClient method, IRDPSRAPISharingSession2::ConnectToClient, IRDPSRAPISharingSession::ConnectToClient, rdp.irdpsrapisharingsession_connecttoclient, rdpencomapi/IRDPSRAPISharingSession2::ConnectToClient, rdpencomapi/IRDPSRAPISharingSession::ConnectToClient
+ms.keywords: ConnectToClient, ConnectToClient method [RDP], ConnectToClient method [RDP],IRDPSRAPISharingSession interface, ConnectToClient method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],ConnectToClient method, IRDPSRAPISharingSession.ConnectToClient, IRDPSRAPISharingSession2 interface [RDP],ConnectToClient method, IRDPSRAPISharingSession2::ConnectToClient, IRDPSRAPISharingSession::ConnectToClient, rdp.irdpsrapisharingsession_connecttoclient, rdpencomapi/IRDPSRAPISharingSession2::ConnectToClient, rdpencomapi/IRDPSRAPISharingSession::ConnectToClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPISharingSession::ConnectToClient method
+# IRDPSRAPISharingSession::ConnectToClient
 
 
 ## -description

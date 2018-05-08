@@ -1,6 +1,6 @@
 ---
 UID: NF:vsadmin.IVssAdmin.UnregisterProvider
-title: IVssAdmin::UnregisterProvider method
+title: IVssAdmin::UnregisterProvider
 author: windows-driver-content
 description: Unregisters an existing provider.
 old-location: base\ivssadmin_unregisterprovider.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: d31ed47f-6850-4f4b-aea2-5171722db7db
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssAdmin, IVssAdmin interface [VSS], UnregisterProvider method, IVssAdmin::UnregisterProvider, UnregisterProvider method [VSS], UnregisterProvider method [VSS], IVssAdmin interface, UnregisterProvider,IVssAdmin.UnregisterProvider, base.ivssadmin_unregisterprovider, vsadmin/IVssAdmin::UnregisterProvider
+ms.keywords: IVssAdmin interface [VSS],UnregisterProvider method, IVssAdmin.UnregisterProvider, IVssAdmin::UnregisterProvider, UnregisterProvider, UnregisterProvider method [VSS], UnregisterProvider method [VSS],IVssAdmin interface, base.ivssadmin_unregisterprovider, vsadmin/IVssAdmin::UnregisterProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssAdmin::UnregisterProvider method
+# IVssAdmin::UnregisterProvider
 
 
 ## -description

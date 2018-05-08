@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.RemoveStreamPrioritization
-title: IMFASFProfile::RemoveStreamPrioritization method
+title: IMFASFProfile::RemoveStreamPrioritization
 author: windows-driver-content
 description: IMFASFProfile::RemoveStreamPrioritization method
 old-location: mf\imfasfprofile_removestreamprioritization.htm
 old-project: medfound
 ms.assetid: a6076091-ab38-4722-bb95-fac253e26c8a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFASFProfile, IMFASFProfile interface [Media Foundation], RemoveStreamPrioritization method, IMFASFProfile::RemoveStreamPrioritization, RemoveStreamPrioritization method [Media Foundation], RemoveStreamPrioritization method [Media Foundation], IMFASFProfile interface, RemoveStreamPrioritization,IMFASFProfile.RemoveStreamPrioritization, a6076091-ab38-4722-bb95-fac253e26c8a, mf.imfasfprofile_removestreamprioritization, wmcontainer/IMFASFProfile::RemoveStreamPrioritization
+ms.date: 5/3/2018
+ms.keywords: IMFASFProfile interface [Media Foundation],RemoveStreamPrioritization method, IMFASFProfile.RemoveStreamPrioritization, IMFASFProfile::RemoveStreamPrioritization, RemoveStreamPrioritization, RemoveStreamPrioritization method [Media Foundation], RemoveStreamPrioritization method [Media Foundation],IMFASFProfile interface, a6076091-ab38-4722-bb95-fac253e26c8a, mf.imfasfprofile_removestreamprioritization, wmcontainer/IMFASFProfile::RemoveStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFProfile::RemoveStreamPrioritization method
+# IMFASFProfile::RemoveStreamPrioritization
 
 
 ## -description

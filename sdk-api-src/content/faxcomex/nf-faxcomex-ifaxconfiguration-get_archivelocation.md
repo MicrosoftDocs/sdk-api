@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_ArchiveLocation
-title: IFaxConfiguration::get_ArchiveLocation method
+title: IFaxConfiguration::get_ArchiveLocation
 author: windows-driver-content
 description: Sets or retrieves a value that indicates the location of the archive on the server.
 old-location: fax\_mfax_FaxConfiguration_ArchiveLocation_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\archivelocation.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ArchiveLocation property [Fax Service], ArchiveLocation property [Fax Service], FaxConfiguration object, FaxConfiguration object [Fax Service], ArchiveLocation property, IFaxConfiguration, IFaxConfiguration::get_ArchiveLocation, _mfax_IFaxConfiguration_ArchiveLocation, fax._mfax_FaxConfiguration_ArchiveLocation_vb, get_ArchiveLocation,IFaxConfiguration.get_ArchiveLocation
+ms.keywords: ArchiveLocation property [Fax Service], ArchiveLocation property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],ArchiveLocation property, FaxConfiguration.ArchiveLocation, IFaxConfiguration.get_ArchiveLocation, IFaxConfiguration::get_ArchiveLocation, _mfax_IFaxConfiguration_ArchiveLocation, fax._mfax_FaxConfiguration_ArchiveLocation_vb, get_ArchiveLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::get_ArchiveLocation method
+# IFaxConfiguration::get_ArchiveLocation
 
 
 ## -description

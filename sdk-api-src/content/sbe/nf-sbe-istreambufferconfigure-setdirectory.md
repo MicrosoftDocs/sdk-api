@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.SetDirectory
-title: IStreamBufferConfigure::SetDirectory method
+title: IStreamBufferConfigure::SetDirectory
 author: windows-driver-content
 description: The SetDirectory method sets the directory where backing files are saved.
 old-location: mstv\istreambufferconfigure_setdirectory.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ff0604d4-bbcd-409e-8e3d-a132218dc3a9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IStreamBufferConfigure, IStreamBufferConfigure interface [Microsoft TV Technologies], SetDirectory method, IStreamBufferConfigure::SetDirectory, IStreamBufferConfigureSetDirectory, SetDirectory method [Microsoft TV Technologies], SetDirectory method [Microsoft TV Technologies], IStreamBufferConfigure interface, SetDirectory,IStreamBufferConfigure.SetDirectory, mstv.istreambufferconfigure_setdirectory, sbe/IStreamBufferConfigure::SetDirectory
+ms.keywords: IStreamBufferConfigure interface [Microsoft TV Technologies],SetDirectory method, IStreamBufferConfigure.SetDirectory, IStreamBufferConfigure::SetDirectory, IStreamBufferConfigureSetDirectory, SetDirectory, SetDirectory method [Microsoft TV Technologies], SetDirectory method [Microsoft TV Technologies],IStreamBufferConfigure interface, mstv.istreambufferconfigure_setdirectory, sbe/IStreamBufferConfigure::SetDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferConfigure::SetDirectory method
+# IStreamBufferConfigure::SetDirectory
 
 
 ## -description

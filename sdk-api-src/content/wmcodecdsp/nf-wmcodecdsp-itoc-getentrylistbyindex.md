@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetEntryListByIndex
-title: IToc::GetEntryListByIndex method
+title: IToc::GetEntryListByIndex
 author: windows-driver-content
 description: The GetEntryListByIndex method retrieves an entry list, specified by an index, from the table of contents.
 old-location: mf\itoc_getentrylistbyindex.htm
 old-project: medfound
 ms.assetid: 5c457eb4-3034-40e3-93b6-e421c2e34bcf
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetEntryListByIndex method [Media Foundation], GetEntryListByIndex method [Media Foundation], IToc interface, GetEntryListByIndex,IToc.GetEntryListByIndex, IToc, IToc interface [Media Foundation], GetEntryListByIndex method, IToc::GetEntryListByIndex, codecapi.itoc_getentrylistbyindex, mf.itoc_getentrylistbyindex, wmcodecdsp/IToc::GetEntryListByIndex
+ms.date: 5/3/2018
+ms.keywords: GetEntryListByIndex, GetEntryListByIndex method [Media Foundation], GetEntryListByIndex method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetEntryListByIndex method, IToc.GetEntryListByIndex, IToc::GetEntryListByIndex, codecapi.itoc_getentrylistbyindex, mf.itoc_getentrylistbyindex, wmcodecdsp/IToc::GetEntryListByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IToc::GetEntryListByIndex method
+# IToc::GetEntryListByIndex
 
 
 ## -description

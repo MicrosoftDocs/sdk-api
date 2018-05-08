@@ -8,7 +8,7 @@ old-project: FileIO
 ms.assetid: bbcb0bee-a507-4abb-83df-328f3aa6caaa
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_DISK_GROW_PARTITION, IOCTL_DISK_GROW_PARTITION control code [Files], base.ioctl_disk_grow_partition, fs.ioctl_disk_grow_partition, winioctl/IOCTL_DISK_GROW_PARTITION
+ms.keywords: IOCTL_DISK_GROW_PARTITION, IOCTL_DISK_GROW_PARTITION control, IOCTL_DISK_GROW_PARTITION control code [Files], base.ioctl_disk_grow_partition, fs.ioctl_disk_grow_partition, winioctl/IOCTL_DISK_GROW_PARTITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

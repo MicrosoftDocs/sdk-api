@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength
-title: ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength method
+title: ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength
 author: windows-driver-content
 description: Gets the length of the buffer required to store the specified number of spatial audio metadata items.
 old-location: coreaudio\ispatialaudiometadataclient_getspatialaudiometadataitemsbufferlength.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 63D23390-222C-4F7E-AF8A-B49C85DFB222
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetSpatialAudioMetadataItemsBufferLength method [Core Audio], GetSpatialAudioMetadataItemsBufferLength method [Core Audio], ISpatialAudioMetadataClient interface, GetSpatialAudioMetadataItemsBufferLength,ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength, ISpatialAudioMetadataClient, ISpatialAudioMetadataClient interface [Core Audio], GetSpatialAudioMetadataItemsBufferLength method, ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength, coreaudio.ispatialaudiometadataclient_getspatialaudiometadataitemsbufferlength, spatialaudiometadata/ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength
+ms.keywords: GetSpatialAudioMetadataItemsBufferLength, GetSpatialAudioMetadataItemsBufferLength method [Core Audio], GetSpatialAudioMetadataItemsBufferLength method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],GetSpatialAudioMetadataItemsBufferLength method, ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength, ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength, coreaudio.ispatialaudiometadataclient_getspatialaudiometadataitemsbufferlength, spatialaudiometadata/ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength method
+# ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength
 
 
 ## -description

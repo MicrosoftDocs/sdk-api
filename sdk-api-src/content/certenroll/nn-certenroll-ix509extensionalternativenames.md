@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: facfcc85-c1ca-47a1-90a6-10522b15cc65
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionAlternativeNames, IX509ExtensionAlternativeNames interface [Security], IX509ExtensionAlternativeNames interface [Security], described, certenroll/IX509ExtensionAlternativeNames, security.ix509extensionalternativenames
+ms.keywords: IX509ExtensionAlternativeNames, IX509ExtensionAlternativeNames interface [Security], IX509ExtensionAlternativeNames interface [Security],described, certenroll/IX509ExtensionAlternativeNames, security.ix509extensionalternativenames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

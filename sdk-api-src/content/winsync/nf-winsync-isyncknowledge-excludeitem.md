@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ExcludeItem
-title: ISyncKnowledge::ExcludeItem method
+title: ISyncKnowledge::ExcludeItem
 author: windows-driver-content
 description: Removes knowledge about the specified item from the knowledge.
 old-location: winsync\isyncknowledge_excludeitem.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: db3cd239-dbc2-4da7-ba3d-3adc9ad1c6f3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ExcludeItem method [Windows Sync], ExcludeItem method [Windows Sync], ISyncKnowledge interface, ExcludeItem,ISyncKnowledge.ExcludeItem, ISyncKnowledge, ISyncKnowledge interface [Windows Sync], ExcludeItem method, ISyncKnowledge::ExcludeItem, winsync.isyncknowledge_excludeitem, winsync/ISyncKnowledge::ExcludeItem
+ms.keywords: ExcludeItem, ExcludeItem method [Windows Sync], ExcludeItem method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ExcludeItem method, ISyncKnowledge.ExcludeItem, ISyncKnowledge::ExcludeItem, winsync.isyncknowledge_excludeitem, winsync/ISyncKnowledge::ExcludeItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::ExcludeItem method
+# ISyncKnowledge::ExcludeItem
 
 
 ## -description

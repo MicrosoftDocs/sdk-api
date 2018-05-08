@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroup.get_Members
-title: IFsrmFileGroup::get_Members method
+title: IFsrmFileGroup::get_Members
 author: windows-driver-content
 description: Retrieves or sets the filename patterns that determine the files that are included in the file group.
 old-location: fsrm\ifsrmfilegroup_members.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 242a86ab-9dec-4106-9a49-70c12cc6de91
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileGroup, IFsrmFileGroup interface [File Server Resource Manager], Members property, IFsrmFileGroup.Members, IFsrmFileGroup::get_Members, IFsrmFileGroup::put_Members, Members property [File Server Resource Manager], Members property [File Server Resource Manager], IFsrmFileGroup interface, fs.ifsrmfilegroup_members, fsrm.ifsrmfilegroup_members, fsrmscreen/IFsrmFileGroup::Members, fsrmscreen/IFsrmFileGroup::get_Members, fsrmscreen/IFsrmFileGroup::put_Members, get_Members,IFsrmFileGroup.get_Members
+ms.keywords: IFsrmFileGroup interface [File Server Resource Manager],Members property, IFsrmFileGroup.Members, IFsrmFileGroup.get_Members, IFsrmFileGroup::Members, IFsrmFileGroup::get_Members, IFsrmFileGroup::put_Members, Members property [File Server Resource Manager], Members property [File Server Resource Manager],IFsrmFileGroup interface, fs.ifsrmfilegroup_members, fsrm.ifsrmfilegroup_members, fsrmscreen/IFsrmFileGroup::Members, fsrmscreen/IFsrmFileGroup::get_Members, fsrmscreen/IFsrmFileGroup::put_Members, get_Members
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileGroup::get_Members method
+# IFsrmFileGroup::get_Members
 
 
 ## -description

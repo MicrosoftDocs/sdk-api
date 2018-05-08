@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 06dfb631-fe5a-45d9-89f9-1f13990500ee
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSmsEvents, IMbnSmsEvents interface [Microsoft Broadband Networks], IMbnSmsEvents interface [Microsoft Broadband Networks], described, mbn.imbnsmsevents, mbnapi/IMbnSmsEvents
+ms.keywords: IMbnSmsEvents, IMbnSmsEvents interface [Microsoft Broadband Networks], IMbnSmsEvents interface [Microsoft Broadband Networks],described, mbn.imbnsmsevents, mbnapi/IMbnSmsEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

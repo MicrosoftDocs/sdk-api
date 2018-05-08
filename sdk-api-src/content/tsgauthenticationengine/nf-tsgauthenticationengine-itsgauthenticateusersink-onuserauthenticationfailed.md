@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.OnUserAuthenticationFailed
-title: ITSGAuthenticateUserSink::OnUserAuthenticationFailed method
+title: ITSGAuthenticateUserSink::OnUserAuthenticationFailed
 author: windows-driver-content
 description: Notifies Remote Desktop Gateway (RD Gateway) that the authentication plug-in failed to authenticate the user.
 old-location: termserv\itsgauthenticateusersink_onuserauthenticationfailed.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: d3d1e582-db1d-413d-8ec8-7fdb7c6e3609
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITSGAuthenticateUserSink, ITSGAuthenticateUserSink interface [Remote Desktop Services], OnUserAuthenticationFailed method, ITSGAuthenticateUserSink::OnUserAuthenticationFailed, OnUserAuthenticationFailed method [Remote Desktop Services], OnUserAuthenticationFailed method [Remote Desktop Services], ITSGAuthenticateUserSink interface, OnUserAuthenticationFailed,ITSGAuthenticateUserSink.OnUserAuthenticationFailed, termserv.itsgauthenticateusersink_onuserauthenticationfailed, tsgauthenticationengine/ITSGAuthenticateUserSink::OnUserAuthenticationFailed
+ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],OnUserAuthenticationFailed method, ITSGAuthenticateUserSink.OnUserAuthenticationFailed, ITSGAuthenticateUserSink::OnUserAuthenticationFailed, OnUserAuthenticationFailed, OnUserAuthenticationFailed method [Remote Desktop Services], OnUserAuthenticationFailed method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_onuserauthenticationfailed, tsgauthenticationengine/ITSGAuthenticateUserSink::OnUserAuthenticationFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITSGAuthenticateUserSink::OnUserAuthenticationFailed method
+# ITSGAuthenticateUserSink::OnUserAuthenticationFailed
 
 
 ## -description

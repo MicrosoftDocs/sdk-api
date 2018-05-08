@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.IsFileValidated
-title: IBitsPeerCacheRecord::IsFileValidated method
+title: IBitsPeerCacheRecord::IsFileValidated
 author: windows-driver-content
 description: Determines whether the file has been validated.
 old-location: bits\ibitspeercacherecord_isfilevalidated.htm
 old-project: Bits
 ms.assetid: f492f009-bef7-412e-8626-ae84cd5ce03f
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], IsFileValidated method, IBitsPeerCacheRecord::IsFileValidated, IsFileValidated method [BITS], IsFileValidated method [BITS], IBitsPeerCacheRecord interface, IsFileValidated,IBitsPeerCacheRecord.IsFileValidated, bits.ibitspeercacherecord_isfilevalidated, bits3_0/IBitsPeerCacheRecord::IsFileValidated
+ms.date: 4/27/2018
+ms.keywords: IBitsPeerCacheRecord interface [BITS],IsFileValidated method, IBitsPeerCacheRecord.IsFileValidated, IBitsPeerCacheRecord::IsFileValidated, IsFileValidated, IsFileValidated method [BITS], IsFileValidated method [BITS],IBitsPeerCacheRecord interface, bits.ibitspeercacherecord_isfilevalidated, bits3_0/IBitsPeerCacheRecord::IsFileValidated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsPeerCacheRecord::IsFileValidated method
+# IBitsPeerCacheRecord::IsFileValidated
 
 
 ## -description

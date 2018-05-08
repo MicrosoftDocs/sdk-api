@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.SetCodecEnumerationSetting
-title: IWMCodecInfo3::SetCodecEnumerationSetting method
+title: IWMCodecInfo3::SetCodecEnumerationSetting
 author: windows-driver-content
 description: The SetCodecEnumerationSetting method sets the value of one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of IWMCodecInfo.
 old-location: wmformat\iwmcodecinfo3_setcodecenumerationsetting.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 5b4883b8-63c0-40ff-b13f-303d30ebfe15
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMCodecInfo3, IWMCodecInfo3 interface [windows Media Format], SetCodecEnumerationSetting method, IWMCodecInfo3::SetCodecEnumerationSetting, IWMCodecInfo3SetCodecEnumerationSetting, SetCodecEnumerationSetting method [windows Media Format], SetCodecEnumerationSetting method [windows Media Format], IWMCodecInfo3 interface, SetCodecEnumerationSetting,IWMCodecInfo3.SetCodecEnumerationSetting, wmformat.iwmcodecinfo3_setcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::SetCodecEnumerationSetting
+ms.keywords: IWMCodecInfo3 interface [windows Media Format],SetCodecEnumerationSetting method, IWMCodecInfo3.SetCodecEnumerationSetting, IWMCodecInfo3::SetCodecEnumerationSetting, IWMCodecInfo3SetCodecEnumerationSetting, SetCodecEnumerationSetting, SetCodecEnumerationSetting method [windows Media Format], SetCodecEnumerationSetting method [windows Media Format],IWMCodecInfo3 interface, wmformat.iwmcodecinfo3_setcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::SetCodecEnumerationSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecInfo3::SetCodecEnumerationSetting method
+# IWMCodecInfo3::SetCodecEnumerationSetting
 
 
 ## -description

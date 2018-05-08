@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_ParentWindow
-title: ISignerCertificate::get_ParentWindow method
+title: ISignerCertificate::get_ParentWindow
 author: windows-driver-content
 description: Specifies or retrieves the ID of the window used to display signing certificate information.
 old-location: security\isignercertificate_parentwindow_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: a1749c92-11e4-4726-a355-ccdd245b4df8
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ISignerCertificate, ISignerCertificate interface [Security], ParentWindow property, ISignerCertificate.ParentWindow, ISignerCertificate::get_ParentWindow, ISignerCertificate::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security], ISignerCertificate interface, certenroll/ISignerCertificate::ParentWindow, certenroll/ISignerCertificate::get_ParentWindow, certenroll/ISignerCertificate::put_ParentWindow, get_ParentWindow,ISignerCertificate.get_ParentWindow, security.isignercertificate_parentwindow_property
+ms.keywords: ISignerCertificate interface [Security],ParentWindow property, ISignerCertificate.ParentWindow, ISignerCertificate.get_ParentWindow, ISignerCertificate::ParentWindow, ISignerCertificate::get_ParentWindow, ISignerCertificate::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::ParentWindow, certenroll/ISignerCertificate::get_ParentWindow, certenroll/ISignerCertificate::put_ParentWindow, get_ParentWindow, security.isignercertificate_parentwindow_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ISignerCertificate::get_ParentWindow method
+# ISignerCertificate::get_ParentWindow
 
 
 ## -description

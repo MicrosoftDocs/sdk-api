@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVideoCompression.get_KeyFrameRate
-title: IAMVideoCompression::get_KeyFrameRate method
+title: IAMVideoCompression::get_KeyFrameRate
 author: windows-driver-content
 description: The get_KeyFrameRate method retrieves the current key-frame rate.
 old-location: dshow\iamvideocompression_get_keyframerate.htm
 old-project: DirectShow
 ms.assetid: af73cfaa-3297-44a7-96a7-8805aad057e2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVideoCompression, IAMVideoCompression interface [DirectShow], get_KeyFrameRate method, IAMVideoCompression::get_KeyFrameRate, IAMVideoCompressionget_KeyFrameRate, dshow.iamvideocompression_get_keyframerate, get_KeyFrameRate method [DirectShow], get_KeyFrameRate method [DirectShow], IAMVideoCompression interface, get_KeyFrameRate,IAMVideoCompression.get_KeyFrameRate, strmif/IAMVideoCompression::get_KeyFrameRate
+ms.date: 4/30/2018
+ms.keywords: IAMVideoCompression interface [DirectShow],get_KeyFrameRate method, IAMVideoCompression.get_KeyFrameRate, IAMVideoCompression::get_KeyFrameRate, IAMVideoCompressionget_KeyFrameRate, dshow.iamvideocompression_get_keyframerate, get_KeyFrameRate, get_KeyFrameRate method [DirectShow], get_KeyFrameRate method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_KeyFrameRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVideoCompression::get_KeyFrameRate method
+# IAMVideoCompression::get_KeyFrameRate
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\fwps_filter0.htm
 old-project: netvista
 ms.assetid: cf5e3372-466e-44f0-8312-78318c5efb13
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FWPS_FILTER0, FWPS_FILTER0 structure [Network Drivers Starting with Windows Vista], FWPS_FILTER0_, FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT, FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED, fwpstypes/FWPS_FILTER0, netvista.fwps_filter0, wfp_ref_3_struct_3_fwps_F-O_3dd55c70-e1ab-4bb4-b177-24c4a185c69c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

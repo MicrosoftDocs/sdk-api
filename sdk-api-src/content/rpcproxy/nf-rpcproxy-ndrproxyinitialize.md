@@ -7,7 +7,7 @@ old-location: rpc\ndrproxyinitialize.htm
 old-project: Rpc
 ms.assetid: 54037337-9166-4023-8470-65ad247ceee5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: NdrProxyInitialize, NdrProxyInitialize function [RPC], rpc.ndrproxyinitialize, rpcproxy/NdrProxyInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

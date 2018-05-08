@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicAudio.put_Balance
-title: IBasicAudio::put_Balance method
+title: IBasicAudio::put_Balance
 author: windows-driver-content
 description: The put_Balance method sets the balance of the audio signal.
 old-location: dshow\ibasicaudio_put_balance.htm
 old-project: DirectShow
 ms.assetid: 88cf4639-8f32-424f-a097-272c44592f6f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBasicAudio, IBasicAudio interface [DirectShow], put_Balance method, IBasicAudio::put_Balance, IBasicAudioput_Balance, control/IBasicAudio::put_Balance, dshow.ibasicaudio_put_balance, put_Balance method [DirectShow], put_Balance method [DirectShow], IBasicAudio interface, put_Balance,IBasicAudio.put_Balance
+ms.date: 4/30/2018
+ms.keywords: IBasicAudio interface [DirectShow],put_Balance method, IBasicAudio.put_Balance, IBasicAudio::put_Balance, IBasicAudioput_Balance, control/IBasicAudio::put_Balance, dshow.ibasicaudio_put_balance, put_Balance, put_Balance method [DirectShow], put_Balance method [DirectShow],IBasicAudio interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicAudio::put_Balance method
+# IBasicAudio::put_Balance
 
 
 ## -description

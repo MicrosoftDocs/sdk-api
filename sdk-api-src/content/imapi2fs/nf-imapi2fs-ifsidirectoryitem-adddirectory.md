@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.AddDirectory
-title: IFsiDirectoryItem::AddDirectory method
+title: IFsiDirectoryItem::AddDirectory
 author: windows-driver-content
 description: Adds a directory to the file system image.
 old-location: imapi\ifsidirectoryitem_adddirectory.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: bb716e60-163c-45e7-bdbb-373666cbdc93
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddDirectory method [IMAPI], AddDirectory method [IMAPI], IFsiDirectoryItem interface, AddDirectory,IFsiDirectoryItem.AddDirectory, IFsiDirectoryItem, IFsiDirectoryItem interface [IMAPI], AddDirectory method, IFsiDirectoryItem::AddDirectory, imapi.ifsidirectoryitem_adddirectory, imapi2fs/IFsiDirectoryItem::AddDirectory
+ms.keywords: AddDirectory, AddDirectory method [IMAPI], AddDirectory method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],AddDirectory method, IFsiDirectoryItem.AddDirectory, IFsiDirectoryItem::AddDirectory, imapi.ifsidirectoryitem_adddirectory, imapi2fs/IFsiDirectoryItem::AddDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiDirectoryItem::AddDirectory method
+# IFsiDirectoryItem::AddDirectory
 
 
 ## -description

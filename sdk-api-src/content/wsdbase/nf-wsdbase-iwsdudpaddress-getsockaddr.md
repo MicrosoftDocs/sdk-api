@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetSockaddr
-title: IWSDUdpAddress::GetSockaddr method
+title: IWSDUdpAddress::GetSockaddr
 author: windows-driver-content
 description: Gets the socket address information.
 old-location: ncd\iwsdudpaddress_getsockaddr.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 4a29722f-a3b7-4285-9ade-06de125f8b91
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetSockaddr method, GetSockaddr method, IWSDUdpAddress interface, GetSockaddr,IWSDUdpAddress.GetSockaddr, IWSDUdpAddress, IWSDUdpAddress interface, GetSockaddr method, IWSDUdpAddress::GetSockaddr, ncd.iwsdudpaddress_getsockaddr, wsdbase/IWSDUdpAddress::GetSockaddr
+ms.keywords: GetSockaddr, GetSockaddr method, GetSockaddr method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetSockaddr method, IWSDUdpAddress.GetSockaddr, IWSDUdpAddress::GetSockaddr, ncd.iwsdudpaddress_getsockaddr, wsdbase/IWSDUdpAddress::GetSockaddr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDUdpAddress::GetSockaddr method
+# IWSDUdpAddress::GetSockaddr
 
 
 ## -description

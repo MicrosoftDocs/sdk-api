@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider.get_IsSelectionRequired
-title: ISelectionProvider::get_IsSelectionRequired method
+title: ISelectionProvider::get_IsSelectionRequired
 author: windows-driver-content
 description: Indicates whether the Microsoft UI Automation provider requires at least one child element to be selected.
 old-location: winauto\uiauto_ISelectionProvider_IsSelectionRequired.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 1b1ee10d-39de-480f-901f-198d9a9c48f8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ISelectionProvider, ISelectionProvider interface [Windows Accessibility], IsSelectionRequired property, ISelectionProvider.IsSelectionRequired, ISelectionProvider::get_IsSelectionRequired, IsSelectionRequired property [Windows Accessibility], IsSelectionRequired property [Windows Accessibility], ISelectionProvider interface, get_IsSelectionRequired,ISelectionProvider.get_IsSelectionRequired, uiauto.uiauto_ISelectionProvider_IsSelectionRequired, uiauto_ISelectionProvider_IsSelectionRequired, uiautomationcore/ISelectionProvider::IsSelectionRequired, uiautomationcore/ISelectionProvider::get_IsSelectionRequired, winauto.uiauto_ISelectionProvider_IsSelectionRequired
+ms.keywords: ISelectionProvider interface [Windows Accessibility],IsSelectionRequired property, ISelectionProvider.IsSelectionRequired, ISelectionProvider.get_IsSelectionRequired, ISelectionProvider::IsSelectionRequired, ISelectionProvider::get_IsSelectionRequired, IsSelectionRequired property [Windows Accessibility], IsSelectionRequired property [Windows Accessibility],ISelectionProvider interface, get_IsSelectionRequired, uiauto.uiauto_ISelectionProvider_IsSelectionRequired, uiauto_ISelectionProvider_IsSelectionRequired, uiautomationcore/ISelectionProvider::IsSelectionRequired, uiautomationcore/ISelectionProvider::get_IsSelectionRequired, winauto.uiauto_ISelectionProvider_IsSelectionRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISelectionProvider::get_IsSelectionRequired method
+# ISelectionProvider::get_IsSelectionRequired
 
 
 ## -description

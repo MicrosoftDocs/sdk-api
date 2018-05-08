@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.IsMarkedForDeletion
-title: IOfflineFilesItem::IsMarkedForDeletion method
+title: IOfflineFilesItem::IsMarkedForDeletion
 author: windows-driver-content
 description: Determines whether an item has been deleted from the Offline Files cache.
 old-location: of\iofflinefilesitem_ismarkedfordeletion.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 03c0fec4-d320-4c46-a07c-3ebbec61cc54
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesItem, IOfflineFilesItem interface [Offline Files], IsMarkedForDeletion method, IOfflineFilesItem::IsMarkedForDeletion, IsMarkedForDeletion method [Offline Files], IsMarkedForDeletion method [Offline Files], IOfflineFilesItem interface, IsMarkedForDeletion,IOfflineFilesItem.IsMarkedForDeletion, cscobj/IOfflineFilesItem::IsMarkedForDeletion, of.iofflinefilesitem_ismarkedfordeletion
+ms.keywords: IOfflineFilesItem interface [Offline Files],IsMarkedForDeletion method, IOfflineFilesItem.IsMarkedForDeletion, IOfflineFilesItem::IsMarkedForDeletion, IsMarkedForDeletion, IsMarkedForDeletion method [Offline Files], IsMarkedForDeletion method [Offline Files],IOfflineFilesItem interface, cscobj/IOfflineFilesItem::IsMarkedForDeletion, of.iofflinefilesitem_ismarkedfordeletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesItem::IsMarkedForDeletion method
+# IOfflineFilesItem::IsMarkedForDeletion
 
 
 ## -description

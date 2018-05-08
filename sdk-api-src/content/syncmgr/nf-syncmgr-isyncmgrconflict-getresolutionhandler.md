@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.GetResolutionHandler
-title: ISyncMgrConflict::GetResolutionHandler method
+title: ISyncMgrConflict::GetResolutionHandler
 author: windows-driver-content
 description: Gets the resolution handler for the conflict.
 old-location: shell\ISyncMgrConflict_GetResolutionHandler.htm
 old-project: shell
 ms.assetid: 9adbc429-098c-4ba9-af62-54f772be83e3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetResolutionHandler method [Windows Shell], GetResolutionHandler method [Windows Shell], ISyncMgrConflict interface, GetResolutionHandler,ISyncMgrConflict.GetResolutionHandler, ISyncMgrConflict, ISyncMgrConflict interface [Windows Shell], GetResolutionHandler method, ISyncMgrConflict::GetResolutionHandler, _shell_ISyncMgrConflict_GetResolutionHandler, shell.ISyncMgrConflict_GetResolutionHandler, syncmgr/ISyncMgrConflict::GetResolutionHandler
+ms.date: 5/3/2018
+ms.keywords: GetResolutionHandler, GetResolutionHandler method [Windows Shell], GetResolutionHandler method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetResolutionHandler method, ISyncMgrConflict.GetResolutionHandler, ISyncMgrConflict::GetResolutionHandler, _shell_ISyncMgrConflict_GetResolutionHandler, shell.ISyncMgrConflict_GetResolutionHandler, syncmgr/ISyncMgrConflict::GetResolutionHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrConflict::GetResolutionHandler method
+# ISyncMgrConflict::GetResolutionHandler
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: DirectWrite
 ms.assetid: 4cfe6667-f2ca-0cb7-8429-6050bf4fddb3
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: ComputeGlyphOrigins, ComputeGlyphOrigins methods [Direct Write], directwrite.idwritefactory4_computeglyphorigins_overload, dwrite_3/ComputeGlyphOrigins
+ms.keywords: ComputeGlyphOrigins, ComputeGlyphOrigins methods [Direct Write], IDWriteFactory4::ComputeGlyphOrigins, directwrite.idwritefactory4_computeglyphorigins_overload, dwrite_3/ComputeGlyphOrigins
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

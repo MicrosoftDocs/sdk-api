@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: abf7145c-780b-4ec7-babb-0e3975520f4a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT, PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT callback function [Failover Cluster], _wolf_closeclusternotifyport, clusapi/PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT, mscs.closeclusternotifyport
+ms.keywords: PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT, PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT callback, PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT callback function [Failover Cluster], _wolf_closeclusternotifyport, clusapi/PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT, mscs.closeclusternotifyport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT callback
+# PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT callback function
 
 
 ## -description

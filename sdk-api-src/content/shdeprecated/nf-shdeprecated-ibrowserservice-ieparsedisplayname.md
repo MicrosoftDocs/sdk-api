@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.IEParseDisplayName
-title: IBrowserService::IEParseDisplayName method
+title: IBrowserService::IEParseDisplayName
 author: windows-driver-content
 description: Deprecated. Parses a URL into a pointer to an item identifier list (PIDL).
 old-location: shell\IBrowserService_IEParseDisplayName.htm
 old-project: shell
 ms.assetid: 02f5a6cb-2f90-4613-80cd-1e8a47bb32c2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], IEParseDisplayName method, IBrowserService::IEParseDisplayName, IEParseDisplayName method [Windows Shell], IEParseDisplayName method [Windows Shell], IBrowserService interface, IEParseDisplayName,IBrowserService.IEParseDisplayName, shdeprecated/IBrowserService::IEParseDisplayName, shell.IBrowserService_IEParseDisplayName, zone_IBrowserService_IEParseDisplayName
+ms.date: 5/3/2018
+ms.keywords: IBrowserService interface [Windows Shell],IEParseDisplayName method, IBrowserService.IEParseDisplayName, IBrowserService::IEParseDisplayName, IEParseDisplayName, IEParseDisplayName method [Windows Shell], IEParseDisplayName method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::IEParseDisplayName, shell.IBrowserService_IEParseDisplayName, zone_IBrowserService_IEParseDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::IEParseDisplayName method
+# IBrowserService::IEParseDisplayName
 
 
 ## -description

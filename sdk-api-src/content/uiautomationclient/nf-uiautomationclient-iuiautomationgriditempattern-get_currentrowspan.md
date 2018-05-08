@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CurrentRowSpan
-title: IUIAutomationGridItemPattern::get_CurrentRowSpan method
+title: IUIAutomationGridItemPattern::get_CurrentRowSpan
 author: windows-driver-content
 description: Retrieves the number of rows spanned by the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentRowSpan.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3153a62e-59d6-4efc-9bdf-2076a3baa9ca
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentRowSpan property [Windows Accessibility], CurrentRowSpan property [Windows Accessibility], IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern, IUIAutomationGridItemPattern interface [Windows Accessibility], CurrentRowSpan property, IUIAutomationGridItemPattern.CurrentRowSpan, IUIAutomationGridItemPattern::get_CurrentRowSpan, get_CurrentRowSpan,IUIAutomationGridItemPattern.get_CurrentRowSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentRowSpan, uiauto_IUIAutomationGridItemPattern_CurrentRowSpan, uiautomationclient/IUIAutomationGridItemPattern::CurrentRowSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentRowSpan, winauto.uiauto_IUIAutomationGridItemPattern_CurrentRowSpan
+ms.keywords: CurrentRowSpan property [Windows Accessibility], CurrentRowSpan property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CurrentRowSpan property, IUIAutomationGridItemPattern.CurrentRowSpan, IUIAutomationGridItemPattern.get_CurrentRowSpan, IUIAutomationGridItemPattern::CurrentRowSpan, IUIAutomationGridItemPattern::get_CurrentRowSpan, get_CurrentRowSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentRowSpan, uiauto_IUIAutomationGridItemPattern_CurrentRowSpan, uiautomationclient/IUIAutomationGridItemPattern::CurrentRowSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentRowSpan, winauto.uiauto_IUIAutomationGridItemPattern_CurrentRowSpan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationGridItemPattern::get_CurrentRowSpan method
+# IUIAutomationGridItemPattern::get_CurrentRowSpan
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_DisableGaplessAudio
-title: IRawCDImageCreator::get_DisableGaplessAudio method
+title: IRawCDImageCreator::get_DisableGaplessAudio
 author: windows-driver-content
 description: Retrieves the current value that specifies if &#0034;Gapless Audio&#0034; recording is disabled. This property defaults to a value of VARIANT_FALSE, which disables the use of &#0034;gapless&#0034; recording between consecutive audio tracks.
 old-location: imapi\irawcdimagecreator_get_disablegaplessaudio.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 5f3bf774-3e09-40e9-bc0b-f33bfd046a51
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], get_DisableGaplessAudio method, IRawCDImageCreator::get_DisableGaplessAudio, get_DisableGaplessAudio method [IMAPI], get_DisableGaplessAudio method [IMAPI], IRawCDImageCreator interface, get_DisableGaplessAudio,IRawCDImageCreator.get_DisableGaplessAudio, imapi.irawcdimagecreator_get_disablegaplessaudio, imapi2/IRawCDImageCreator::get_DisableGaplessAudio
+ms.keywords: IRawCDImageCreator interface [IMAPI],get_DisableGaplessAudio method, IRawCDImageCreator.get_DisableGaplessAudio, IRawCDImageCreator::get_DisableGaplessAudio, get_DisableGaplessAudio, get_DisableGaplessAudio method [IMAPI], get_DisableGaplessAudio method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_disablegaplessaudio, imapi2/IRawCDImageCreator::get_DisableGaplessAudio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRawCDImageCreator::get_DisableGaplessAudio method
+# IRawCDImageCreator::get_DisableGaplessAudio
 
 
 ## -description

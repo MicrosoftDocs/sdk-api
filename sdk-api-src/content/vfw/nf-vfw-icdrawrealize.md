@@ -7,7 +7,7 @@ old-location: multimedia\icdrawrealize.htm
 old-project: Multimedia
 ms.assetid: b6605223-ce66-49fc-bfa7-6e3dd98e214a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: ICDrawRealize, ICDrawRealize macro [Windows Multimedia], _win32_ICDrawRealize, multimedia.icdrawrealize, vfw/ICDrawRealize
 ms.prod: windows-hardware
 ms.technology: windows-devices

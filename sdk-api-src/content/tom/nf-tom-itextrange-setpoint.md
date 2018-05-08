@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.SetPoint
-title: ITextRange::SetPoint method
+title: ITextRange::SetPoint
 author: windows-driver-content
 description: Changes the range based on a specified point at or up through (depending on Extend) the point (x, y) aligned according to Type.
 old-location: controls\ITextRange_SetPoint.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpoint.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange, ITextRange interface [Windows Controls], SetPoint method, ITextRange::SetPoint, SetPoint method [Windows Controls], SetPoint method [Windows Controls], ITextRange interface, SetPoint,ITextRange.SetPoint, _win32_ITextRange_SetPoint, _win32_ITextRange_SetPoint_cpp, controls.ITextRange_SetPoint, controls._win32_ITextRange_SetPoint, tom/ITextRange::SetPoint
+ms.date: 4/27/2018
+ms.keywords: ITextRange interface [Windows Controls],SetPoint method, ITextRange.SetPoint, ITextRange::SetPoint, SetPoint, SetPoint method [Windows Controls], SetPoint method [Windows Controls],ITextRange interface, _win32_ITextRange_SetPoint, _win32_ITextRange_SetPoint_cpp, controls.ITextRange_SetPoint, controls._win32_ITextRange_SetPoint, tom/ITextRange::SetPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::SetPoint method
+# ITextRange::SetPoint
 
 
 ## -description

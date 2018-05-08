@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.put__DataAnalysisFilter
-title: IMSVidStreamBufferSink3::put__DataAnalysisFilter method
+title: IMSVidStreamBufferSink3::put__DataAnalysisFilter
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_put__dataanalysisfilter.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b0a5148d-68bb-44a3-b7b3-d278c177f746
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSink3, IMSVidStreamBufferSink3 interface [Microsoft TV Technologies], put__DataAnalysisFilter method, IMSVidStreamBufferSink3::put__DataAnalysisFilter, IMSVidStreamBufferSink3put__DataAnalysisFilter, mstv.imsvidstreambuffersink3_put__dataanalysisfilter, put__DataAnalysisFilter method [Microsoft TV Technologies], put__DataAnalysisFilter method [Microsoft TV Technologies], IMSVidStreamBufferSink3 interface, put__DataAnalysisFilter,IMSVidStreamBufferSink3.put__DataAnalysisFilter, segment/IMSVidStreamBufferSink3::put__DataAnalysisFilter
+ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put__DataAnalysisFilter method, IMSVidStreamBufferSink3.put__DataAnalysisFilter, IMSVidStreamBufferSink3::put__DataAnalysisFilter, IMSVidStreamBufferSink3put__DataAnalysisFilter, mstv.imsvidstreambuffersink3_put__dataanalysisfilter, put__DataAnalysisFilter, put__DataAnalysisFilter method [Microsoft TV Technologies], put__DataAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, segment/IMSVidStreamBufferSink3::put__DataAnalysisFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSink3::put__DataAnalysisFilter method
+# IMSVidStreamBufferSink3::put__DataAnalysisFilter
 
 
 ## -description

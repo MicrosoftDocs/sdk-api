@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetPermissionSetProps
-title: IMetaDataImport::GetPermissionSetProps method
+title: IMetaDataImport::GetPermissionSetProps
 author: windows-driver-content
 description: Gets the metadata associated with the System.Security.PermissionSet represented by the specified Permission token.
 old-location: winrt\imetadataimport_getpermissionsetprops.htm
 old-project: WinRT
 ms.assetid: db10bdb6-3150-4eb9-872a-3f56089812fa
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetPermissionSetProps method [Windows Runtime], GetPermissionSetProps method [Windows Runtime], IMetaDataImport interface, GetPermissionSetProps,IMetaDataImport.GetPermissionSetProps, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetPermissionSetProps method, IMetaDataImport::GetPermissionSetProps, rometadataapi/IMetaDataImport::GetPermissionSetProps, winrt.imetadataimport_getpermissionsetprops
+ms.date: 5/4/2018
+ms.keywords: GetPermissionSetProps, GetPermissionSetProps method [Windows Runtime], GetPermissionSetProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetPermissionSetProps method, IMetaDataImport.GetPermissionSetProps, IMetaDataImport::GetPermissionSetProps, rometadataapi/IMetaDataImport::GetPermissionSetProps, winrt.imetadataimport_getpermissionsetprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetPermissionSetProps method
+# IMetaDataImport::GetPermissionSetProps
 
 
 ## -description

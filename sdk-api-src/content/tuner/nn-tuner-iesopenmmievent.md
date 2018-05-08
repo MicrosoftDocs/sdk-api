@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f54532e2-d1d1-4c6b-ae3d-9f50e0e61366
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IESOpenMmiEvent, IESOpenMmiEvent interface [Microsoft TV Technologies], IESOpenMmiEvent interface [Microsoft TV Technologies], described, mstv.iesopenmmievent, tuner/IESOpenMmiEvent
+ms.keywords: IESOpenMmiEvent, IESOpenMmiEvent interface [Microsoft TV Technologies], IESOpenMmiEvent interface [Microsoft TV Technologies],described, mstv.iesopenmmievent, tuner/IESOpenMmiEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

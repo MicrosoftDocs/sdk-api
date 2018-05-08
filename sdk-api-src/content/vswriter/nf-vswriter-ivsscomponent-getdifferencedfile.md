@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetDifferencedFile
-title: IVssComponent::GetDifferencedFile method
+title: IVssComponent::GetDifferencedFile
 author: windows-driver-content
 description: The GetDifferencedFile method returns information about a file set (a specified file or files) to participate in an incremental or differential backup or restore as a differenced file&#8212;that is, backup and restores associated with it are to be implemented as if entire files are copied to and from backup media (as opposed to using partial files).
 old-location: base\ivsscomponent_getdifferencedfile.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 285b2ac7-d09e-4ac5-bf5c-62c510544353
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetDifferencedFile method [VSS], GetDifferencedFile method [VSS], IVssComponent interface, GetDifferencedFile,IVssComponent.GetDifferencedFile, IVssComponent, IVssComponent interface [VSS], GetDifferencedFile method, IVssComponent::GetDifferencedFile, _win32_ivsscomponent_getdifferencedfile, base.ivsscomponent_getdifferencedfile, vswriter/IVssComponent::GetDifferencedFile
+ms.keywords: GetDifferencedFile, GetDifferencedFile method [VSS], GetDifferencedFile method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDifferencedFile method, IVssComponent.GetDifferencedFile, IVssComponent::GetDifferencedFile, _win32_ivsscomponent_getdifferencedfile, base.ivsscomponent_getdifferencedfile, vswriter/IVssComponent::GetDifferencedFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetDifferencedFile method
+# IVssComponent::GetDifferencedFile
 
 
 ## -description

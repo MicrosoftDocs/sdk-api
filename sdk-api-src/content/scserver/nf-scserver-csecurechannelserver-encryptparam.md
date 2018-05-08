@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.EncryptParam
-title: CSecureChannelServer::EncryptParam method
+title: CSecureChannelServer::EncryptParam
 author: windows-driver-content
 description: The EncryptParam method uses the session key of the secure authenticated channel to encrypt the data contained in a parameter.
 old-location: wmdm\csecurechannelserver_encryptparam.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: dbfc72a6-acd5-40c2-8951-ab90e5c4d752
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CSecureChannelServer, CSecureChannelServer interface [windows Media Device Manager], EncryptParam method, CSecureChannelServer::EncryptParam, CSecureChannelServerEncryptParam, EncryptParam method [windows Media Device Manager], EncryptParam method [windows Media Device Manager], CSecureChannelServer interface, EncryptParam,CSecureChannelServer.EncryptParam, scserver/CSecureChannelServer::EncryptParam, wmdm.csecurechannelserver_encryptparam
+ms.keywords: CSecureChannelServer interface [windows Media Device Manager],EncryptParam method, CSecureChannelServer.EncryptParam, CSecureChannelServer::EncryptParam, CSecureChannelServerEncryptParam, EncryptParam, EncryptParam method [windows Media Device Manager], EncryptParam method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::EncryptParam, wmdm.csecurechannelserver_encryptparam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CSecureChannelServer::EncryptParam method
+# CSecureChannelServer::EncryptParam
 
 
 ## -description

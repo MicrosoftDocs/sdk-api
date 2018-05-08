@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetTypeFlags
-title: IPropertyDescription::GetTypeFlags method
+title: IPropertyDescription::GetTypeFlags
 author: windows-driver-content
 description: Gets a set of flags that describe the uses and capabilities of the property.
 old-location: properties\IPropertyDescription_GetTypeFlags.htm
 old-project: properties
 ms.assetid: 20ff02c1-72de-479f-afd8-29ec580bbfcb
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetTypeFlags method [Windows Properties], GetTypeFlags method [Windows Properties], IPropertyDescription interface, GetTypeFlags,IPropertyDescription.GetTypeFlags, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetTypeFlags method, IPropertyDescription::GetTypeFlags, properties.IPropertyDescription_GetTypeFlags, propsys/IPropertyDescription::GetTypeFlags, shell.IPropertyDescription_GetTypeFlags, shell_IPropertyDescription_GetTypeFlags
+ms.date: 4/27/2018
+ms.keywords: GetTypeFlags, GetTypeFlags method [Windows Properties], GetTypeFlags method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetTypeFlags method, IPropertyDescription.GetTypeFlags, IPropertyDescription::GetTypeFlags, properties.IPropertyDescription_GetTypeFlags, propsys/IPropertyDescription::GetTypeFlags, shell.IPropertyDescription_GetTypeFlags, shell_IPropertyDescription_GetTypeFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescription::GetTypeFlags method
+# IPropertyDescription::GetTypeFlags
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.get_GroupBy
-title: IShellFolderViewDual3::get_GroupBy method
+title: IShellFolderViewDual3::get_GroupBy
 author: windows-driver-content
 description: Gets the column used for grouping the folder view.
 old-location: shell\IShellFolderViewDual3_get_GroupBy.htm
 old-project: shell
 ms.assetid: 144fa908-01d3-43f4-95e6-2aad62c23912
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellFolderViewDual3, IShellFolderViewDual3 interface [Windows Shell], get_GroupBy method, IShellFolderViewDual3::get_GroupBy, _shell_IShellFolderViewDual3_get_GroupBy, get_GroupBy method [Windows Shell], get_GroupBy method [Windows Shell], IShellFolderViewDual3 interface, get_GroupBy,IShellFolderViewDual3.get_GroupBy, shell.IShellFolderViewDual3_get_GroupBy, shldisp/IShellFolderViewDual3::get_GroupBy
+ms.date: 5/3/2018
+ms.keywords: IShellFolderViewDual3 interface [Windows Shell],get_GroupBy method, IShellFolderViewDual3.get_GroupBy, IShellFolderViewDual3::get_GroupBy, _shell_IShellFolderViewDual3_get_GroupBy, get_GroupBy, get_GroupBy method [Windows Shell], get_GroupBy method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_get_GroupBy, shldisp/IShellFolderViewDual3::get_GroupBy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellFolderViewDual3::get_GroupBy method
+# IShellFolderViewDual3::get_GroupBy
 
 
 ## -description

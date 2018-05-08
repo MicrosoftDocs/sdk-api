@@ -1,6 +1,6 @@
 ---
 UID: NF:vbinterf.IGetOleObject.GetOleObject
-title: IGetOleObject::GetOleObject method
+title: IGetOleObject::GetOleObject
 author: windows-driver-content
 description: Gets a pointer to an OLE control on a Visual Basic container.
 old-location: com\igetoleobject_getoleobject.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: eafb9dbc-ab46-4b83-8be9-6c8cd1de8ab3
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetOleObject method [COM], GetOleObject method [COM], IGetOleObject interface, GetOleObject,IGetOleObject.GetOleObject, IGetOleObject, IGetOleObject interface [COM], GetOleObject method, IGetOleObject::GetOleObject, _com_IGetOleObject_GetOleObject, com.igetoleobject_getoleobject, vbinterf/IGetOleObject::GetOleObject
+ms.keywords: GetOleObject, GetOleObject method [COM], GetOleObject method [COM],IGetOleObject interface, IGetOleObject interface [COM],GetOleObject method, IGetOleObject.GetOleObject, IGetOleObject::GetOleObject, _com_IGetOleObject_GetOleObject, com.igetoleobject_getoleobject, vbinterf/IGetOleObject::GetOleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IGetOleObject::GetOleObject method
+# IGetOleObject::GetOleObject
 
 
 ## -description

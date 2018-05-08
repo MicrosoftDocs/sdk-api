@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_STT.GetDaylightSavings
-title: IATSC_STT::GetDaylightSavings method
+title: IATSC_STT::GetDaylightSavings
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_stt_getdaylightsavings.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 5c605ef2-a928-4c78-a2e4-c70142db66ac
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDaylightSavings method [Microsoft TV Technologies], GetDaylightSavings method [Microsoft TV Technologies], IATSC_STT interface, GetDaylightSavings,IATSC_STT.GetDaylightSavings, IATSC_STT, IATSC_STT interface [Microsoft TV Technologies], GetDaylightSavings method, IATSC_STT::GetDaylightSavings, IATSC_STTGetDaylightSavings, atscpsipparser/IATSC_STT::GetDaylightSavings, mstv.iatsc_stt_getdaylightsavings
+ms.keywords: GetDaylightSavings, GetDaylightSavings method [Microsoft TV Technologies], GetDaylightSavings method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetDaylightSavings method, IATSC_STT.GetDaylightSavings, IATSC_STT::GetDaylightSavings, IATSC_STTGetDaylightSavings, atscpsipparser/IATSC_STT::GetDaylightSavings, mstv.iatsc_stt_getdaylightsavings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_STT::GetDaylightSavings method
+# IATSC_STT::GetDaylightSavings
 
 
 ## -description

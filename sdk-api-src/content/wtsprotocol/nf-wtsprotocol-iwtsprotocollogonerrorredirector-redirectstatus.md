@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.RedirectStatus
-title: IWTSProtocolLogonErrorRedirector::RedirectStatus method
+title: IWTSProtocolLogonErrorRedirector::RedirectStatus
 author: windows-driver-content
 description: IWTSProtocolLogonErrorRedirector::RedirectStatus is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectStatus.
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectstatus.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: a333db5a-3564-4d33-bfd6-244975cc3c4f
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolLogonErrorRedirector, IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services], RedirectStatus method, IWTSProtocolLogonErrorRedirector::RedirectStatus, RedirectStatus method [Remote Desktop Services], RedirectStatus method [Remote Desktop Services], IWTSProtocolLogonErrorRedirector interface, RedirectStatus,IWTSProtocolLogonErrorRedirector.RedirectStatus, termserv.iwtsprotocollogonerrorredirector_redirectstatus, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectStatus
+ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectStatus method, IWTSProtocolLogonErrorRedirector.RedirectStatus, IWTSProtocolLogonErrorRedirector::RedirectStatus, RedirectStatus, RedirectStatus method [Remote Desktop Services], RedirectStatus method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, termserv.iwtsprotocollogonerrorredirector_redirectstatus, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolLogonErrorRedirector::RedirectStatus method
+# IWTSProtocolLogonErrorRedirector::RedirectStatus
 
 
 ## -description

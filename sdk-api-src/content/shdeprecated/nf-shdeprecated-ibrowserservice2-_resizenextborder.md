@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._ResizeNextBorder
-title: IBrowserService2::_ResizeNextBorder method
+title: IBrowserService2::_ResizeNextBorder
 author: windows-driver-content
 description: Deprecated. Resizes the border of the browser view in response to the addition or removal of toolbars.
 old-location: shell\IBrowserService2__ResizeNextBorder.htm
 old-project: shell
 ms.assetid: 9d7c618a-2948-44cf-8e47-96d33c08c9a5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _ResizeNextBorder method, IBrowserService2::_ResizeNextBorder, _ResizeNextBorder method [Windows Shell], _ResizeNextBorder method [Windows Shell], IBrowserService2 interface, _ResizeNextBorder,IBrowserService2._ResizeNextBorder, shdeprecated/IBrowserService2::_ResizeNextBorder, shell.IBrowserService2__ResizeNextBorder, zone_IBrowserService2__ResizeNextBorder
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],_ResizeNextBorder method, IBrowserService2._ResizeNextBorder, IBrowserService2::_ResizeNextBorder, _ResizeNextBorder, _ResizeNextBorder method [Windows Shell], _ResizeNextBorder method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ResizeNextBorder, shell.IBrowserService2__ResizeNextBorder, zone_IBrowserService2__ResizeNextBorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::_ResizeNextBorder method
+# IBrowserService2::_ResizeNextBorder
 
 
 ## -description

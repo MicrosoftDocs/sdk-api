@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetTitleRestrictions
-title: IXblIdpAuthTokenResult::GetTitleRestrictions method
+title: IXblIdpAuthTokenResult::GetTitleRestrictions
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_gettitlerestrictions.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 1C1DD5CF-3237-42EA-A152-E35A07CC46A2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTitleRestrictions method, GetTitleRestrictions method, IXblIdpAuthTokenResult interface, GetTitleRestrictions,IXblIdpAuthTokenResult.GetTitleRestrictions, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetTitleRestrictions method, IXblIdpAuthTokenResult::GetTitleRestrictions, xblidp.ixblidpauthtokenresult_gettitlerestrictions, xblidpauthmanager/IXblIdpAuthTokenResult::GetTitleRestrictions
+ms.keywords: GetTitleRestrictions, GetTitleRestrictions method, GetTitleRestrictions method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetTitleRestrictions method, IXblIdpAuthTokenResult.GetTitleRestrictions, IXblIdpAuthTokenResult::GetTitleRestrictions, xblidp.ixblidpauthtokenresult_gettitlerestrictions, xblidpauthmanager/IXblIdpAuthTokenResult::GetTitleRestrictions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetTitleRestrictions method
+# IXblIdpAuthTokenResult::GetTitleRestrictions
 
 
 ## -description

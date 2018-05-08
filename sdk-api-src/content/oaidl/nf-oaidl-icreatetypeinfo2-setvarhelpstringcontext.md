@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetVarHelpStringContext
-title: ICreateTypeInfo2::SetVarHelpStringContext method
+title: ICreateTypeInfo2::SetVarHelpStringContext
 author: windows-driver-content
 description: Sets a Help context value for a specified variable.
 old-location: automat\icreatetypeinfo2_setvarhelpstringcontext.htm
 old-project: automat
 ms.assetid: 0939e286-150c-4258-bb6a-c020b6323b35
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], SetVarHelpStringContext method, ICreateTypeInfo2::SetVarHelpStringContext, SetVarHelpStringContext method [Automation], SetVarHelpStringContext method [Automation], ICreateTypeInfo2 interface, SetVarHelpStringContext,ICreateTypeInfo2.SetVarHelpStringContext, _oa96_ICreateTypeInfo2_SetVarHelpStringContext, automat.icreatetypeinfo2_setvarhelpstringcontext, oaidl/ICreateTypeInfo2::SetVarHelpStringContext
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo2 interface [Automation],SetVarHelpStringContext method, ICreateTypeInfo2.SetVarHelpStringContext, ICreateTypeInfo2::SetVarHelpStringContext, SetVarHelpStringContext, SetVarHelpStringContext method [Automation], SetVarHelpStringContext method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetVarHelpStringContext, automat.icreatetypeinfo2_setvarhelpstringcontext, oaidl/ICreateTypeInfo2::SetVarHelpStringContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo2::SetVarHelpStringContext method
+# ICreateTypeInfo2::SetVarHelpStringContext
 
 
 ## -description

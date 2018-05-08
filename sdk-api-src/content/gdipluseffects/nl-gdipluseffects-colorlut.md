@@ -8,7 +8,7 @@ old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlut.htm
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ColorLUT, ColorLUT class [GDI+], ColorLUT class [GDI+], described, _gdiplus_CLASS_ColorLUT_Class, gdiplus._gdiplus_CLASS_ColorLUT_Class, gdipluseffects/ColorLUT
+ms.keywords: ColorLUT, ColorLUT class [GDI+], ColorLUT class [GDI+],described, _gdiplus_CLASS_ColorLUT_Class, gdiplus._gdiplus_CLASS_ColorLUT_Class, gdipluseffects/ColorLUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class
@@ -38,10 +38,10 @@ api_name:
 -	ColorLUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
 req.irql: 
-req.product: GDI+ 1.0
+req.product: GDI+ 1.1
 ---
 
 # ColorLUT class

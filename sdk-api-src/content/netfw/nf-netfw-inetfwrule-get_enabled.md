@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule.get_Enabled
-title: INetFwRule::get_Enabled method
+title: INetFwRule::get_Enabled
 author: windows-driver-content
 description: Enables or disables a rule.
 old-location: ics\inetfwrule_enabled.htm
 old-project: ICS
 ms.assetid: 42533aca-3273-46fa-a9a1-add7f9fde351
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF], INetFwRule interface, INetFwRule, INetFwRule interface [ICS/ICF], Enabled property, INetFwRule.Enabled, INetFwRule::get_Enabled, INetFwRule::put_Enabled, get_Enabled,INetFwRule.get_Enabled, ics.inetfwrule_enabled, netfw/INetFwRule::Enabled, netfw/INetFwRule::get_Enabled, netfw/INetFwRule::put_Enabled
+ms.date: 5/1/2018
+ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Enabled property, INetFwRule.Enabled, INetFwRule.get_Enabled, INetFwRule::Enabled, INetFwRule::get_Enabled, INetFwRule::put_Enabled, get_Enabled, ics.inetfwrule_enabled, netfw/INetFwRule::Enabled, netfw/INetFwRule::get_Enabled, netfw/INetFwRule::put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule::get_Enabled method
+# INetFwRule::get_Enabled
 
 
 ## -description

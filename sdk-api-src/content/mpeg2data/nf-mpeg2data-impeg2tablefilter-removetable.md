@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.RemoveTable
-title: IMpeg2TableFilter::RemoveTable method
+title: IMpeg2TableFilter::RemoveTable
 author: windows-driver-content
 description: The RemoveTable method removes a table identifier (TID) from the list of MPEG-2 table sections that the filter sends.
 old-location: mstv\impeg2tablefilter_removetable.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b8875340-48cf-47eb-a7cc-58e181df37fb
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMpeg2TableFilter, IMpeg2TableFilter interface [Microsoft TV Technologies], RemoveTable method, IMpeg2TableFilter::RemoveTable, IMpeg2TableFilterRemoveTable, RemoveTable method [Microsoft TV Technologies], RemoveTable method [Microsoft TV Technologies], IMpeg2TableFilter interface, RemoveTable,IMpeg2TableFilter.RemoveTable, mpeg2data/IMpeg2TableFilter::RemoveTable, mstv.impeg2tablefilter_removetable
+ms.keywords: IMpeg2TableFilter interface [Microsoft TV Technologies],RemoveTable method, IMpeg2TableFilter.RemoveTable, IMpeg2TableFilter::RemoveTable, IMpeg2TableFilterRemoveTable, RemoveTable, RemoveTable method [Microsoft TV Technologies], RemoveTable method [Microsoft TV Technologies],IMpeg2TableFilter interface, mpeg2data/IMpeg2TableFilter::RemoveTable, mstv.impeg2tablefilter_removetable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMpeg2TableFilter::RemoveTable method
+# IMpeg2TableFilter::RemoveTable
 
 
 ## -description

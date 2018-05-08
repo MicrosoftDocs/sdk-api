@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter.get_BlockedRatingAttributes
-title: IDTFilter::get_BlockedRatingAttributes method
+title: IDTFilter::get_BlockedRatingAttributes
 author: windows-driver-content
 description: The get_BlockedRatingAttributes method determines whether content is blocked for a given rating system and rating level.
 old-location: mstv\idtfilter_get_blockedratingattributes.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cf7a5596-3d10-4ce9-a8c8-2703cf1eb7f8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDTFilter, IDTFilter interface [Microsoft TV Technologies], get_BlockedRatingAttributes method, IDTFilter::get_BlockedRatingAttributes, IDTFilterget_BlockedRatingAttributes, encdec/IDTFilter::get_BlockedRatingAttributes, get_BlockedRatingAttributes method [Microsoft TV Technologies], get_BlockedRatingAttributes method [Microsoft TV Technologies], IDTFilter interface, get_BlockedRatingAttributes,IDTFilter.get_BlockedRatingAttributes, mstv.idtfilter_get_blockedratingattributes
+ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockedRatingAttributes method, IDTFilter.get_BlockedRatingAttributes, IDTFilter::get_BlockedRatingAttributes, IDTFilterget_BlockedRatingAttributes, encdec/IDTFilter::get_BlockedRatingAttributes, get_BlockedRatingAttributes, get_BlockedRatingAttributes method [Microsoft TV Technologies], get_BlockedRatingAttributes method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockedratingattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDTFilter::get_BlockedRatingAttributes method
+# IDTFilter::get_BlockedRatingAttributes
 
 
 ## -description

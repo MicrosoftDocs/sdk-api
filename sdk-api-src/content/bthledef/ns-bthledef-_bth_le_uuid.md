@@ -7,7 +7,7 @@ old-location: bltooth\bth_le_uuid.htm
 old-project: bltooth
 ms.assetid: FA82A099-7924-44A1-A14C-7633B8656FB7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 4/27/2018
 ms.keywords: "*PBTH_LE_UUID, BTH_LE_UUID, BTH_LE_UUID structure [Bluetooth Devices], PBTH_LE_UUID, PBTH_LE_UUID structure pointer [Bluetooth Devices], _BTH_LE_UUID, bltooth.bth_le_uuid, bthledef/BTH_LE_UUID, bthledef/PBTH_LE_UUID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,6 +63,56 @@ Indicates if the Low Energy (LE) UUID a 16-bit shortened value, or if it is the 
 
 
 ### -field Value
+
+ 
+
+
+### -field Value.ShortUuid
+
+ 
+
+
+### -field Value.ShortUuid.case
+
+ 
+
+
+### -field Value.ShortUuid.case.TRUE
+
+ 
+
+
+### -field Value.LongUuid
+
+ 
+
+
+### -field Value.LongUuid.case
+
+ 
+
+
+### -field Value.LongUuid.case.FALSE
+
+ 
+
+
+### -field Value.switch_type
+
+ 
+
+
+### -field Value.switch_type.BOOLEAN
+
+ 
+
+
+### -field Value.switch_is
+
+ 
+
+
+### -field Value.switch_is.(BOOLEAN)IsShortUuid
 
  
 

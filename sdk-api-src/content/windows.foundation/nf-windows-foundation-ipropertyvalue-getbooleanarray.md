@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetBooleanArray
-title: IPropertyValue::GetBooleanArray method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of 8-bit Boolean values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getbooleanarray.htm
 old-project: WinRT
 ms.assetid: 22ad7bab-87b1-41e8-ae65-1957e7c93b2e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetBooleanArray method [Windows Runtime], GetBooleanArray method [Windows Runtime], IPropertyValue interface, GetBooleanArray,IPropertyValue.GetBooleanArray, IPropertyValue, IPropertyValue interface [Windows Runtime], GetBooleanArray method, IPropertyValue::GetBooleanArray, windows/IPropertyValue::GetBooleanArray, winrt.ipropertyvalue_getbooleanarray
+ms.date: 5/4/2018
+ms.keywords: GetBooleanArray, GetBooleanArray method [Windows Runtime], GetBooleanArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetBooleanArray method, IPropertyValue.GetBooleanArray, IPropertyValue.IPropertyValue, IPropertyValue::GetBooleanArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetBooleanArray, winrt.ipropertyvalue_getbooleanarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetBooleanArray method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

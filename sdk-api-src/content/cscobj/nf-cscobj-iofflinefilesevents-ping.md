@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.Ping
-title: IOfflineFilesEvents::Ping method
+title: IOfflineFilesEvents::Ping
 author: windows-driver-content
 description: This event is delivered to all registered event subscribers on a periodic basis.
 old-location: of\iofflinefilesevents_ping.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: edde2f37-f082-4382-8908-181bc42d30ef
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], Ping method, IOfflineFilesEvents::Ping, Ping method [Offline Files], Ping method [Offline Files], IOfflineFilesEvents interface, Ping,IOfflineFilesEvents.Ping, cscobj/IOfflineFilesEvents::Ping, of.iofflinefilesevents_ping
+ms.keywords: IOfflineFilesEvents interface [Offline Files],Ping method, IOfflineFilesEvents.Ping, IOfflineFilesEvents::Ping, Ping, Ping method [Offline Files], Ping method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::Ping, of.iofflinefilesevents_ping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents::Ping method
+# IOfflineFilesEvents::Ping
 
 
 ## -description

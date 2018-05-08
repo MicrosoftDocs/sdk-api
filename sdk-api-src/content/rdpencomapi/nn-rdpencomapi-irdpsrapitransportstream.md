@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 18ac00d5-f574-463f-a34a-40c2dc16d4d8
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITransportStream, IRDPSRAPITransportStream interface [RDP], IRDPSRAPITransportStream interface [RDP], described, rdp.irdpsrapitransportstream, rdpencomapi/IRDPSRAPITransportStream
+ms.keywords: IRDPSRAPITransportStream, IRDPSRAPITransportStream interface [RDP], IRDPSRAPITransportStream interface [RDP],described, rdp.irdpsrapitransportstream, rdpencomapi/IRDPSRAPITransportStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

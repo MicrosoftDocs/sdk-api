@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetDocString
-title: ICreateTypeInfo::SetDocString method
+title: ICreateTypeInfo::SetDocString
 author: windows-driver-content
 description: Sets the documentation string displayed by type browsers.
 old-location: automat\icreatetypeinfo_setdocstring.htm
 old-project: automat
 ms.assetid: 927c449b-1d38-4449-a1fd-63fb82c0d660
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetDocString method, ICreateTypeInfo::SetDocString, SetDocString method [Automation], SetDocString method [Automation], ICreateTypeInfo interface, SetDocString,ICreateTypeInfo.SetDocString, _oa96_ICreateTypeInfo_SetDocString, automat.icreatetypeinfo_setdocstring, oaidl/ICreateTypeInfo::SetDocString
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo interface [Automation],SetDocString method, ICreateTypeInfo.SetDocString, ICreateTypeInfo::SetDocString, SetDocString, SetDocString method [Automation], SetDocString method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetDocString, automat.icreatetypeinfo_setdocstring, oaidl/ICreateTypeInfo::SetDocString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo::SetDocString method
+# ICreateTypeInfo::SetDocString
 
 
 ## -description

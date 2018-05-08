@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStream.ActivateSpatialAudioObject
-title: ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject method
+title: ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject
 author: windows-driver-content
 description: Activates an ISpatialAudioObject for audio rendering.
 old-location: coreaudio\ispatialaudioobjectrenderstream_activatespatialaudioobject.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 1B99E7FB-0796-4902-9B00-470FD08F8AFA
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ActivateSpatialAudioObject method [Core Audio], ActivateSpatialAudioObject method [Core Audio], ISpatialAudioObjectRenderStream interface, ActivateSpatialAudioObject,ISpatialAudioObjectRenderStream.ActivateSpatialAudioObject, ISpatialAudioObjectRenderStream, ISpatialAudioObjectRenderStream interface [Core Audio], ActivateSpatialAudioObject method, ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject, coreaudio.ispatialaudioobjectrenderstream_activatespatialaudioobject, spatialaudioclient/ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject
+ms.keywords: ActivateSpatialAudioObject, ActivateSpatialAudioObject method [Core Audio], ActivateSpatialAudioObject method [Core Audio],ISpatialAudioObjectRenderStream interface, ISpatialAudioObjectRenderStream interface [Core Audio],ActivateSpatialAudioObject method, ISpatialAudioObjectRenderStream.ActivateSpatialAudioObject, ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject, coreaudio.ispatialaudioobjectrenderstream_activatespatialaudioobject, spatialaudioclient/ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject method
+# ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject
 
 
 ## -description

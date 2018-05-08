@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFPMPHost.UnlockProcess
-title: IMFPMPHost::UnlockProcess method
+title: IMFPMPHost::UnlockProcess
 author: windows-driver-content
 description: Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to IMFPMPHost::LockProcess.
 old-location: mf\imfpmphost_unlockprocess.htm
 old-project: medfound
 ms.assetid: 768f4579-5109-4d2b-a93d-f17f6b850c63
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 768f4579-5109-4d2b-a93d-f17f6b850c63, IMFPMPHost, IMFPMPHost interface [Media Foundation], UnlockProcess method, IMFPMPHost::UnlockProcess, UnlockProcess method [Media Foundation], UnlockProcess method [Media Foundation], IMFPMPHost interface, UnlockProcess,IMFPMPHost.UnlockProcess, mf.imfpmphost_unlockprocess, mfidl/IMFPMPHost::UnlockProcess
+ms.date: 5/3/2018
+ms.keywords: 768f4579-5109-4d2b-a93d-f17f6b850c63, IMFPMPHost interface [Media Foundation],UnlockProcess method, IMFPMPHost.UnlockProcess, IMFPMPHost::UnlockProcess, UnlockProcess, UnlockProcess method [Media Foundation], UnlockProcess method [Media Foundation],IMFPMPHost interface, mf.imfpmphost_unlockprocess, mfidl/IMFPMPHost::UnlockProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMPHost::UnlockProcess method
+# IMFPMPHost::UnlockProcess
 
 
 ## -description

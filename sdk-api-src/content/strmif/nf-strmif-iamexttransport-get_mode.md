@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_Mode
-title: IAMExtTransport::get_Mode method
+title: IAMExtTransport::get_Mode
 author: windows-driver-content
 description: The get_Mode method retrieves the current transport mode, such as play, stop, or record.
 old-location: dshow\iamexttransport_get_mode.htm
 old-project: DirectShow
 ms.assetid: ee08cca0-a2ea-4a7c-8714-f22d5cd62fe8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], get_Mode method, IAMExtTransport::get_Mode, IAMExtTransportget_Mode, dshow.iamexttransport_get_mode, get_Mode method [DirectShow], get_Mode method [DirectShow], IAMExtTransport interface, get_Mode,IAMExtTransport.get_Mode, strmif/IAMExtTransport::get_Mode
+ms.date: 4/30/2018
+ms.keywords: IAMExtTransport interface [DirectShow],get_Mode method, IAMExtTransport.get_Mode, IAMExtTransport::get_Mode, IAMExtTransportget_Mode, dshow.iamexttransport_get_mode, get_Mode, get_Mode method [DirectShow], get_Mode method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_Mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::get_Mode method
+# IAMExtTransport::get_Mode
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Saturation
-title: IVideoProcAmp::getRange_Saturation method
+title: IVideoProcAmp::getRange_Saturation
 author: windows-driver-content
 description: The getRange_Saturation method returns the range of saturation settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_saturation.htm
 old-project: DirectShow
 ms.assetid: 7c3d99a4-fc23-4d5e-907e-72272599a684
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_Saturation method, IVideoProcAmp::getRange_Saturation, IVideoProcAmpgetRange_Saturation, dshow.ivideoprocamp_getrange_saturation, getRange_Saturation method [DirectShow], getRange_Saturation method [DirectShow], IVideoProcAmp interface, getRange_Saturation,IVideoProcAmp.getRange_Saturation, vidcap/IVideoProcAmp::getRange_Saturation
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Saturation method, IVideoProcAmp.getRange_Saturation, IVideoProcAmp::getRange_Saturation, IVideoProcAmpgetRange_Saturation, dshow.ivideoprocamp_getrange_saturation, getRange_Saturation, getRange_Saturation method [DirectShow], getRange_Saturation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Saturation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::getRange_Saturation method
+# IVideoProcAmp::getRange_Saturation
 
 
 ## -description

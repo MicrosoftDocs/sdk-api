@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.GetFormattedText
-title: ITfRange::GetFormattedText method
+title: ITfRange::GetFormattedText
 author: windows-driver-content
 description: The ITfRange::GetFormattedText method obtains formatted content contained within a range of text. The content is packaged in an object that supports the IDataObject interface.
 old-location: tsf\itfrange_getformattedtext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 8da4cb21-7097-4ba9-a63b-3699ef267776
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework], ITfRange interface, GetFormattedText,ITfRange.GetFormattedText, ITfRange, ITfRange interface [Text Services Framework], GetFormattedText method, ITfRange::GetFormattedText, _tsf_itfrange_getformattedtext_ref, msctf/ITfRange::GetFormattedText, tsf.itfrange_getformattedtext
+ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetFormattedText method, ITfRange.GetFormattedText, ITfRange::GetFormattedText, _tsf_itfrange_getformattedtext_ref, msctf/ITfRange::GetFormattedText, tsf.itfrange_getformattedtext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfRange::GetFormattedText method
+# ITfRange::GetFormattedText
 
 
 ## -description

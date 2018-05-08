@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.ResetDevice
-title: IMFDXGIDeviceManager::ResetDevice method
+title: IMFDXGIDeviceManager::ResetDevice
 author: windows-driver-content
 description: Sets the Microsoft Direct3D device or notifies the device manager that the Direct3D device was reset.
 old-location: mf\imfdxgidevicemanager_resetdevice.htm
 old-project: medfound
 ms.assetid: D8A2291A-792B-4D24-997A-9C152FFE5426
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFDXGIDeviceManager, IMFDXGIDeviceManager interface [Media Foundation], ResetDevice method, IMFDXGIDeviceManager::ResetDevice, ResetDevice method [Media Foundation], ResetDevice method [Media Foundation], IMFDXGIDeviceManager interface, ResetDevice,IMFDXGIDeviceManager.ResetDevice, mf.imfdxgidevicemanager_resetdevice, mfobjects/IMFDXGIDeviceManager::ResetDevice
+ms.date: 5/3/2018
+ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],ResetDevice method, IMFDXGIDeviceManager.ResetDevice, IMFDXGIDeviceManager::ResetDevice, ResetDevice, ResetDevice method [Media Foundation], ResetDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_resetdevice, mfobjects/IMFDXGIDeviceManager::ResetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFDXGIDeviceManager::ResetDevice method
+# IMFDXGIDeviceManager::ResetDevice
 
 
 ## -description

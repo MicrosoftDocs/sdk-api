@@ -1,14 +1,14 @@
 ---
 UID: NF:dshowasf.IAMWMBufferPassCallback.Notify
-title: IAMWMBufferPassCallback::Notify method
+title: IAMWMBufferPassCallback::Notify
 author: windows-driver-content
 description: The Notify method is called by the pin for each buffer that is delivered during streaming.
 old-location: dshow\iamwmbufferpasscallback_notify.htm
 old-project: DirectShow
 ms.assetid: 13778b61-0e75-412f-b1e4-eaaf5ec0c853
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMWMBufferPassCallback, IAMWMBufferPassCallback interface [DirectShow], Notify method, IAMWMBufferPassCallback::Notify, IAMWMBufferPassCallbackNotify, Notify method [DirectShow], Notify method [DirectShow], IAMWMBufferPassCallback interface, Notify,IAMWMBufferPassCallback.Notify, dshow.iamwmbufferpasscallback_notify, dshowasf/IAMWMBufferPassCallback::Notify
+ms.date: 4/30/2018
+ms.keywords: IAMWMBufferPassCallback interface [DirectShow],Notify method, IAMWMBufferPassCallback.Notify, IAMWMBufferPassCallback::Notify, IAMWMBufferPassCallbackNotify, Notify, Notify method [DirectShow], Notify method [DirectShow],IAMWMBufferPassCallback interface, dshow.iamwmbufferpasscallback_notify, dshowasf/IAMWMBufferPassCallback::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAMWMBufferPassCallback::Notify method
+# IAMWMBufferPassCallback::Notify
 
 
 ## -description

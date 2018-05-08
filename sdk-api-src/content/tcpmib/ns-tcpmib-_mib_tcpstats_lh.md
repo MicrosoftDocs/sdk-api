@@ -60,6 +60,72 @@ The
 
 
 
+### -field dwRtoAlgorithm
+
+Type: <b>DWORD</b>
+
+The retransmission time-out (RTO) algorithm in use. This member can be one of the following values: 
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="MIB_TCP_RTO_OTHER"></a><a id="mib_tcp_rto_other"></a><dl>
+<dt><b>MIB_TCP_RTO_OTHER</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Other
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MIB_TCP_RTO_CONSTANT"></a><a id="mib_tcp_rto_constant"></a><dl>
+<dt><b>MIB_TCP_RTO_CONSTANT</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Constant Time-out
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MIB_TCP_RTO_RSRE"></a><a id="mib_tcp_rto_rsre"></a><dl>
+<dt><b>MIB_TCP_RTO_RSRE</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+MIL-STD-1778 Appendix B
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MIB_TCP_RTO_VANJ"></a><a id="mib_tcp_rto_vanj"></a><dl>
+<dt><b>MIB_TCP_RTO_VANJ</b></dt>
+<dt>4</dt>
+</dl>
+</td>
+<td width="60%">
+Van Jacobson's Algorithm
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field RtoAlgorithm
+
+ 
+
+
 ### -field dwRtoMin
 
 Type: <b>DWORD</b>
@@ -157,67 +223,6 @@ The number of segments transmitted with the reset flag set.
 Type: <b>DWORD</b>
 
 The number of connections that are currently present in the system. This total number includes connections in all states except listening connections.
-
-
-#### - dwRtoAlgorithm
-
-Type: <b>DWORD</b>
-
-The retransmission time-out (RTO) algorithm in use. This member can be one of the following values: 
-
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_TCP_RTO_OTHER"></a><a id="mib_tcp_rto_other"></a><dl>
-<dt><b>MIB_TCP_RTO_OTHER</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Other
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_TCP_RTO_CONSTANT"></a><a id="mib_tcp_rto_constant"></a><dl>
-<dt><b>MIB_TCP_RTO_CONSTANT</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Constant Time-out
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_TCP_RTO_RSRE"></a><a id="mib_tcp_rto_rsre"></a><dl>
-<dt><b>MIB_TCP_RTO_RSRE</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-MIL-STD-1778 Appendix B
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_TCP_RTO_VANJ"></a><a id="mib_tcp_rto_vanj"></a><dl>
-<dt><b>MIB_TCP_RTO_VANJ</b></dt>
-<dt>4</dt>
-</dl>
-</td>
-<td width="60%">
-Van Jacobson's Algorithm
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -remarks

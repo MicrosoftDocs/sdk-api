@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.GetStorageGlobals
-title: IMDSPStorage::GetStorageGlobals method
+title: IMDSPStorage::GetStorageGlobals
 author: windows-driver-content
 description: The GetStorageGlobals method retrieves the IMDSPStorageGlobals interface to provide access to global information about a storage medium.
 old-location: wmdm\imdspstorage_getstorageglobals.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 93c963ea-9b00-4897-838c-fdc06c781a2d
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetStorageGlobals method [windows Media Device Manager], GetStorageGlobals method [windows Media Device Manager], IMDSPStorage interface, GetStorageGlobals,IMDSPStorage.GetStorageGlobals, IMDSPStorage, IMDSPStorage interface [windows Media Device Manager], GetStorageGlobals method, IMDSPStorage::GetStorageGlobals, IMDSPStorageGetStorageGlobals, mswmdm/IMDSPStorage::GetStorageGlobals, wmdm.imdspstorage_getstorageglobals
+ms.keywords: GetStorageGlobals, GetStorageGlobals method [windows Media Device Manager], GetStorageGlobals method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetStorageGlobals method, IMDSPStorage.GetStorageGlobals, IMDSPStorage::GetStorageGlobals, IMDSPStorageGetStorageGlobals, mswmdm/IMDSPStorage::GetStorageGlobals, wmdm.imdspstorage_getstorageglobals
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPStorage::GetStorageGlobals method
+# IMDSPStorage::GetStorageGlobals
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.AppendPackets
-title: IStrokeBuilder::AppendPackets method
+title: IStrokeBuilder::AppendPackets
 author: windows-driver-content
 description: Adds a packet to the end of the digitizer input packet list.
 old-location: tablet\istrokebuilder_appendpackets.htm
 old-project: tablet
 ms.assetid: 7b53a9b2-11da-4063-aac3-a85e52abeb52
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 7b53a9b2-11da-4063-aac3-a85e52abeb52, AppendPackets method [Tablet PC], AppendPackets method [Tablet PC], IStrokeBuilder interface, AppendPackets,IStrokeBuilder.AppendPackets, IStrokeBuilder, IStrokeBuilder interface [Tablet PC], AppendPackets method, IStrokeBuilder::AppendPackets, rtscom/IStrokeBuilder::AppendPackets, tablet.istrokebuilder_appendpackets
+ms.date: 5/2/2018
+ms.keywords: 7b53a9b2-11da-4063-aac3-a85e52abeb52, AppendPackets, AppendPackets method [Tablet PC], AppendPackets method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],AppendPackets method, IStrokeBuilder.AppendPackets, IStrokeBuilder::AppendPackets, rtscom/IStrokeBuilder::AppendPackets, tablet.istrokebuilder_appendpackets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStrokeBuilder::AppendPackets method
+# IStrokeBuilder::AppendPackets
 
 
 ## -description

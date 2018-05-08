@@ -7,7 +7,7 @@ old-location: wmp\wmptemplatesize.htm
 old-project: WMP
 ms.assetid: c63185a7-b2a4-4c3d-b455-220e1954a31a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/4/2018
 ms.keywords: WMPTemplateSize, WMPTemplateSize enumeration [Windows Media Player], contentpartner/WMPTemplateSize, contentpartner/wmptsLarge, contentpartner/wmptsMedium, contentpartner/wmptsSmall, enumeration [Windows Media Player], wmp.wmptemplatesize, wmptsLarge, wmptsMedium, wmptsSmall
 ms.prod: windows-hardware
 ms.technology: windows-devices

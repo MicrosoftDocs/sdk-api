@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.ResetLoggingUrlList
-title: IWMReaderNetworkConfig::ResetLoggingUrlList method
+title: IWMReaderNetworkConfig::ResetLoggingUrlList
 author: windows-driver-content
 description: The ResetLoggingUrlList method clears the list of servers that receive logging data.
 old-location: wmformat\iwmreadernetworkconfig_resetloggingurllist.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 0fe71d73-a827-4aed-a37b-db7701cc1180
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], ResetLoggingUrlList method, IWMReaderNetworkConfig::ResetLoggingUrlList, IWMReaderNetworkConfigResetLoggingUrlList, ResetLoggingUrlList method [windows Media Format], ResetLoggingUrlList method [windows Media Format], IWMReaderNetworkConfig interface, ResetLoggingUrlList,IWMReaderNetworkConfig.ResetLoggingUrlList, wmformat.iwmreadernetworkconfig_resetloggingurllist, wmsdkidl/IWMReaderNetworkConfig::ResetLoggingUrlList
+ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],ResetLoggingUrlList method, IWMReaderNetworkConfig.ResetLoggingUrlList, IWMReaderNetworkConfig::ResetLoggingUrlList, IWMReaderNetworkConfigResetLoggingUrlList, ResetLoggingUrlList, ResetLoggingUrlList method [windows Media Format], ResetLoggingUrlList method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_resetloggingurllist, wmsdkidl/IWMReaderNetworkConfig::ResetLoggingUrlList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::ResetLoggingUrlList method
+# IWMReaderNetworkConfig::ResetLoggingUrlList
 
 
 ## -description

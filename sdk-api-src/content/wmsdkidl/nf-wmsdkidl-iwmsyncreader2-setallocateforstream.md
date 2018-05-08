@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.SetAllocateForStream
-title: IWMSyncReader2::SetAllocateForStream method
+title: IWMSyncReader2::SetAllocateForStream
 author: windows-driver-content
 description: The SetAllocateForStream method sets a sample allocation callback interface for allocating stream samples.
 old-location: wmformat\iwmsyncreader2_setallocateforstream.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ed94977e-e930-4045-a69d-36109e7e21c9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSyncReader2, IWMSyncReader2 interface [windows Media Format], SetAllocateForStream method, IWMSyncReader2::SetAllocateForStream, IWMSyncReader2SetAllocateForStream, SetAllocateForStream method [windows Media Format], SetAllocateForStream method [windows Media Format], IWMSyncReader2 interface, SetAllocateForStream,IWMSyncReader2.SetAllocateForStream, wmformat.iwmsyncreader2_setallocateforstream, wmsdkidl/IWMSyncReader2::SetAllocateForStream
+ms.keywords: IWMSyncReader2 interface [windows Media Format],SetAllocateForStream method, IWMSyncReader2.SetAllocateForStream, IWMSyncReader2::SetAllocateForStream, IWMSyncReader2SetAllocateForStream, SetAllocateForStream, SetAllocateForStream method [windows Media Format], SetAllocateForStream method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setallocateforstream, wmsdkidl/IWMSyncReader2::SetAllocateForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader2::SetAllocateForStream method
+# IWMSyncReader2::SetAllocateForStream
 
 
 ## -description

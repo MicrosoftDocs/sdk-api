@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncBegin
-title: IOfflineFilesEvents::SyncBegin method
+title: IOfflineFilesEvents::SyncBegin
 author: windows-driver-content
 description: Reports that the Offline Files cache has begun a synchronization operation.
 old-location: of\iofflinefilesevents_syncbegin.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: ba09be0a-52bc-4715-9756-383954277a31
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], SyncBegin method, IOfflineFilesEvents::SyncBegin, SyncBegin method [Offline Files], SyncBegin method [Offline Files], IOfflineFilesEvents interface, SyncBegin,IOfflineFilesEvents.SyncBegin, cscobj/IOfflineFilesEvents::SyncBegin, of.iofflinefilesevents_syncbegin
+ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncBegin method, IOfflineFilesEvents.SyncBegin, IOfflineFilesEvents::SyncBegin, SyncBegin, SyncBegin method [Offline Files], SyncBegin method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncBegin, of.iofflinefilesevents_syncbegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents::SyncBegin method
+# IOfflineFilesEvents::SyncBegin
 
 
 ## -description

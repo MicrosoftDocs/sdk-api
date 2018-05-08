@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSecurityProvider
-title: IUrlAccessor::GetSecurityProvider method
+title: IUrlAccessor::GetSecurityProvider
 author: windows-driver-content
 description: Gets the security provider for the URL.
 old-location: search\_search_IUrlAccessor_GetSecurityProvider.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecurityprovider.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetSecurityProvider method [search], GetSecurityProvider method [search], IUrlAccessor interface, GetSecurityProvider,IUrlAccessor.GetSecurityProvider, IUrlAccessor, IUrlAccessor interface [search], GetSecurityProvider method, IUrlAccessor::GetSecurityProvider, _search_IUrlAccessor_GetSecurityProvider, search._search_IUrlAccessor_GetSecurityProvider, searchapi/IUrlAccessor::GetSecurityProvider
+ms.date: 5/4/2018
+ms.keywords: GetSecurityProvider, GetSecurityProvider method [search], GetSecurityProvider method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSecurityProvider method, IUrlAccessor.GetSecurityProvider, IUrlAccessor::GetSecurityProvider, _search_IUrlAccessor_GetSecurityProvider, search._search_IUrlAccessor_GetSecurityProvider, searchapi/IUrlAccessor::GetSecurityProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUrlAccessor::GetSecurityProvider method
+# IUrlAccessor::GetSecurityProvider
 
 
 ## -description

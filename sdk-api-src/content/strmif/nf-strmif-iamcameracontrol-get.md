@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMCameraControl.Get
-title: IAMCameraControl::Get method
+title: IAMCameraControl::Get
 author: windows-driver-content
 description: The Get method gets the current setting of a camera property.
 old-location: dshow\iamcameracontrol_get.htm
 old-project: DirectShow
 ms.assetid: 5a21f207-5fbb-44b2-82d2-89be29dbdf2c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Get method [DirectShow], Get method [DirectShow], IAMCameraControl interface, Get,IAMCameraControl.Get, IAMCameraControl, IAMCameraControl interface [DirectShow], Get method, IAMCameraControl::Get, IAMCameraControlGet, dshow.iamcameracontrol_get, strmif/IAMCameraControl::Get
+ms.date: 4/30/2018
+ms.keywords: Get, Get method [DirectShow], Get method [DirectShow],IAMCameraControl interface, IAMCameraControl interface [DirectShow],Get method, IAMCameraControl.Get, IAMCameraControl::Get, IAMCameraControlGet, dshow.iamcameracontrol_get, strmif/IAMCameraControl::Get
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMCameraControl::Get method
+# IAMCameraControl::Get
 
 
 ## -description

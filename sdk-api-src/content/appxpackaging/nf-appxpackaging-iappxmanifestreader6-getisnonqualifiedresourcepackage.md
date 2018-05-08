@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader6.GetIsNonQualifiedResourcePackage
-title: IAppxManifestReader6::GetIsNonQualifiedResourcePackage method
+title: IAppxManifestReader6::GetIsNonQualifiedResourcePackage
 author: windows-driver-content
 description: Queries whether an app package is a non-qualified resource package.
 old-location: appxpkg\iappxmanifestreader6_getisnonqualifiedresourcepackage.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: E6E8D383-E9E9-4615-B220-B0666E6C2CA2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetIsNonQualifiedResourcePackage method [App packaging and management], GetIsNonQualifiedResourcePackage method [App packaging and management], IAppxManifestReader6 interface, GetIsNonQualifiedResourcePackage,IAppxManifestReader6.GetIsNonQualifiedResourcePackage, IAppxManifestReader6, IAppxManifestReader6 interface [App packaging and management], GetIsNonQualifiedResourcePackage method, IAppxManifestReader6::GetIsNonQualifiedResourcePackage, appxpackaging/IAppxManifestReader6::GetIsNonQualifiedResourcePackage, appxpkg.iappxmanifestreader6_getisnonqualifiedresourcepackage
+ms.keywords: GetIsNonQualifiedResourcePackage, GetIsNonQualifiedResourcePackage method [App packaging and management], GetIsNonQualifiedResourcePackage method [App packaging and management],IAppxManifestReader6 interface, IAppxManifestReader6 interface [App packaging and management],GetIsNonQualifiedResourcePackage method, IAppxManifestReader6.GetIsNonQualifiedResourcePackage, IAppxManifestReader6::GetIsNonQualifiedResourcePackage, appxpackaging/IAppxManifestReader6::GetIsNonQualifiedResourcePackage, appxpkg.iappxmanifestreader6_getisnonqualifiedresourcepackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestReader6::GetIsNonQualifiedResourcePackage method
+# IAppxManifestReader6::GetIsNonQualifiedResourcePackage
 
 
 ## -description

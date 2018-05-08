@@ -7,7 +7,7 @@ old-location: ad\domain_controller_info.htm
 old-project: AD
 ms.assetid: 0c09fe26-ef53-48b1-8ac2-70ccb8f3e3e2
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: "*PDOMAIN_CONTROLLER_INFOW, DOMAIN_CONTROLLER_INFO, DOMAIN_CONTROLLER_INFO structure [Active Directory], DOMAIN_CONTROLLER_INFOA, DOMAIN_CONTROLLER_INFOW, DS_CLOSEST_FLAG, DS_DNS_CONTROLLER_FLAG, DS_DNS_DOMAIN_FLAG, DS_DNS_FOREST_FLAG, DS_DS_FLAG, DS_FULL_SECRET_DOMAIN_6_FLAG, DS_GC_FLAG, DS_GOOD_TIMESERV_FLAG, DS_INET_ADDRESS, DS_KDC_FLAG, DS_LDAP_FLAG, DS_NDNC_FLAG, DS_NETBIOS_ADDRESS, DS_PDC_FLAG, DS_SELECT_SECRET_DOMAIN_6_FLAG, DS_TIMESERV_FLAG, DS_WRITABLE_FLAG, PDOMAIN_CONTROLLER_INFO, PDOMAIN_CONTROLLER_INFO structure pointer [Active Directory], _DOMAIN_CONTROLLER_INFOW, _glines_domain_controller_info, ad.domain__controller__info, ad.domain_controller_info, dsgetdc/DOMAIN_CONTROLLER_INFO, dsgetdc/DOMAIN_CONTROLLER_INFOA, dsgetdc/DOMAIN_CONTROLLER_INFOW, dsgetdc/PDOMAIN_CONTROLLER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,9 +59,29 @@ The <b>DOMAIN_CONTROLLER_INFO</b> structure is used with the <a href="https://ms
 
 
 
+### -field DomainControllerName.string
+
+ 
+
+
+### -field DomainControllerName.unique
+
+ 
+
+
 ### -field DomainControllerName
 
 Pointer to a null-terminated string that specifies the computer name of the discovered domain controller. The returned computer name is prefixed with "\\". The DNS-style name, for example, "\\phoenix.fabrikam.com", is returned, if available. If the DNS-style name is not available, the flat-style name (for example, "\\phoenix") is returned. This example would apply if the domain is a Windows NT 4.0 domain or if the domain does not support the IP family of protocols.
+
+
+### -field DomainControllerAddress.string
+
+ 
+
+
+### -field DomainControllerAddress.unique
+
+ 
 
 
 ### -field DomainControllerAddress
@@ -91,9 +111,29 @@ The address is a NetBIOS name, for example, "\\phoenix", of the domain controlle
 The <b>GUID</b> of the domain. This member is zero if the domain controller does not have a Domain GUID; for example, the domain controller is not a Windows 2000 domain controller.
 
 
+### -field DomainName.string
+
+ 
+
+
+### -field DomainName.unique
+
+ 
+
+
 ### -field DomainName
 
 Pointer to a null-terminated string that specifies the name of the domain. The DNS-style name, for example, "fabrikam.com", is returned if available. Otherwise, the flat-style name, for example, "fabrikam", is returned. This name may be different than the requested domain name if the domain has been renamed.
+
+
+### -field DnsForestName.string
+
+ 
+
+
+### -field DnsForestName.unique
+
+ 
 
 
 ### -field DnsForestName
@@ -197,9 +237,29 @@ The domain controller is running the Windows Time Service for the domain.
 The domain controller hosts a writable directory service (or SAM).
 
 
+### -field DcSiteName.string
+
+ 
+
+
+### -field DcSiteName.unique
+
+ 
+
+
 ### -field DcSiteName
 
 Pointer to a null-terminated string that specifies the name of the site where the domain controller is located. This member may be <b>NULL</b> if the domain controller is not in a site; for example, the domain controller is a Windows NT 4.0 domain controller.
+
+
+### -field ClientSiteName.string
+
+ 
+
+
+### -field ClientSiteName.unique
+
+ 
 
 
 ### -field ClientSiteName

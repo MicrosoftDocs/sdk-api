@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflectionType.GetDesc
-title: ID3D10ShaderReflectionType::GetDesc method
+title: ID3D10ShaderReflectionType::GetDesc
 author: windows-driver-content
 description: Get the description of a shader-reflection-variable type.
 old-location: direct3d10\id3d10shaderreflectiontype_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectiontype_getdesc.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetDesc method [Direct3D 10], GetDesc method [Direct3D 10], ID3D10ShaderReflectionType interface, GetDesc,ID3D10ShaderReflectionType.GetDesc, ID3D10ShaderReflectionType, ID3D10ShaderReflectionType interface [Direct3D 10], GetDesc method, ID3D10ShaderReflectionType::GetDesc, d3d10shader/ID3D10ShaderReflectionType::GetDesc, direct3d10.id3d10shaderreflectiontype_getdesc, e11b1daf-b201-1efd-a110-5cde3866d456
+ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10ShaderReflectionType interface, ID3D10ShaderReflectionType interface [Direct3D 10],GetDesc method, ID3D10ShaderReflectionType.GetDesc, ID3D10ShaderReflectionType::GetDesc, d3d10shader/ID3D10ShaderReflectionType::GetDesc, direct3d10.id3d10shaderreflectiontype_getdesc, e11b1daf-b201-1efd-a110-5cde3866d456
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10ShaderReflectionType::GetDesc method
+# ID3D10ShaderReflectionType::GetDesc
 
 
 ## -description

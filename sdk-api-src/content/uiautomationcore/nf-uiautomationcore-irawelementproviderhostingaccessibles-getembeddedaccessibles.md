@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles
-title: IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles method
+title: IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles
 author: windows-driver-content
 description: Retrieves the IAccessible interface pointers of the windowless Microsoft ActiveX controls that are hosted by this provider.
 old-location: winauto\uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: E428B87C-25FE-437B-AAE8-7E3BC79BBE6B
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetEmbeddedAccessibles method [Windows Accessibility], GetEmbeddedAccessibles method [Windows Accessibility], IRawElementProviderHostingAccessibles interface, GetEmbeddedAccessibles,IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles, IRawElementProviderHostingAccessibles, IRawElementProviderHostingAccessibles interface [Windows Accessibility], GetEmbeddedAccessibles method, IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, uiautomationcore/IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, winauto.uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles
+ms.keywords: GetEmbeddedAccessibles, GetEmbeddedAccessibles method [Windows Accessibility], GetEmbeddedAccessibles method [Windows Accessibility],IRawElementProviderHostingAccessibles interface, IRawElementProviderHostingAccessibles interface [Windows Accessibility],GetEmbeddedAccessibles method, IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles, IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, uiautomationcore/IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, winauto.uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles method
+# IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles
 
 
 ## -description

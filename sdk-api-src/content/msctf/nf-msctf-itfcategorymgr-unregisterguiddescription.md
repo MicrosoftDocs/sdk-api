@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.UnregisterGUIDDescription
-title: ITfCategoryMgr::UnregisterGUIDDescription method
+title: ITfCategoryMgr::UnregisterGUIDDescription
 author: windows-driver-content
 description: ITfCategoryMgr::UnregisterGUIDDescription method
 old-location: tsf\itfcategorymgr_unregisterguiddescription.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 42bc1ddc-9f11-40dc-849c-2effc6efe1c8
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCategoryMgr, ITfCategoryMgr interface [Text Services Framework], UnregisterGUIDDescription method, ITfCategoryMgr::UnregisterGUIDDescription, UnregisterGUIDDescription method [Text Services Framework], UnregisterGUIDDescription method [Text Services Framework], ITfCategoryMgr interface, UnregisterGUIDDescription,ITfCategoryMgr.UnregisterGUIDDescription, _tsf_itfcategorymgr_unregisterguiddescription_ref, msctf/ITfCategoryMgr::UnregisterGUIDDescription, tsf.itfcategorymgr_unregisterguiddescription
+ms.keywords: ITfCategoryMgr interface [Text Services Framework],UnregisterGUIDDescription method, ITfCategoryMgr.UnregisterGUIDDescription, ITfCategoryMgr::UnregisterGUIDDescription, UnregisterGUIDDescription, UnregisterGUIDDescription method [Text Services Framework], UnregisterGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_unregisterguiddescription_ref, msctf/ITfCategoryMgr::UnregisterGUIDDescription, tsf.itfcategorymgr_unregisterguiddescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCategoryMgr::UnregisterGUIDDescription method
+# ITfCategoryMgr::UnregisterGUIDDescription
 
 
 ## -description

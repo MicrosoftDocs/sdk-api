@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Clone
-title: IEnumFsiItems::Clone method
+title: IEnumFsiItems::Clone
 author: windows-driver-content
 description: Creates another enumerator that contains the same enumeration state as the current one.
 old-location: imapi\ienumfsiitems_clone.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 70806e80-c6b3-4f9c-8146-7dde1c895812
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Clone method [IMAPI], Clone method [IMAPI], IEnumFsiItems interface, Clone,IEnumFsiItems.Clone, IEnumFsiItems, IEnumFsiItems interface [IMAPI], Clone method, IEnumFsiItems::Clone, imapi.ienumfsiitems_clone, imapi2fs/IEnumFsiItems::Clone
+ms.keywords: Clone, Clone method [IMAPI], Clone method [IMAPI],IEnumFsiItems interface, IEnumFsiItems interface [IMAPI],Clone method, IEnumFsiItems.Clone, IEnumFsiItems::Clone, imapi.ienumfsiitems_clone, imapi2fs/IEnumFsiItems::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumFsiItems::Clone method
+# IEnumFsiItems::Clone
 
 
 ## -description

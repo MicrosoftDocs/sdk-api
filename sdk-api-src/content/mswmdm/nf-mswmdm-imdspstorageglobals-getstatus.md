@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetStatus
-title: IMDSPStorageGlobals::GetStatus method
+title: IMDSPStorageGlobals::GetStatus
 author: windows-driver-content
 description: The GetStatus method retrieves the current status of the storage medium.
 old-location: wmdm\imdspstorageglobals_getstatus.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 572b5de6-62d7-450f-851f-d09b1864a86c
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetStatus method [windows Media Device Manager], GetStatus method [windows Media Device Manager], IMDSPStorageGlobals interface, GetStatus,IMDSPStorageGlobals.GetStatus, IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], GetStatus method, IMDSPStorageGlobals::GetStatus, IMDSPStorageGlobalsGetStatus, mswmdm/IMDSPStorageGlobals::GetStatus, wmdm.imdspstorageglobals_getstatus
+ms.keywords: GetStatus, GetStatus method [windows Media Device Manager], GetStatus method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetStatus method, IMDSPStorageGlobals.GetStatus, IMDSPStorageGlobals::GetStatus, IMDSPStorageGlobalsGetStatus, mswmdm/IMDSPStorageGlobals::GetStatus, wmdm.imdspstorageglobals_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPStorageGlobals::GetStatus method
+# IMDSPStorageGlobals::GetStatus
 
 
 ## -description

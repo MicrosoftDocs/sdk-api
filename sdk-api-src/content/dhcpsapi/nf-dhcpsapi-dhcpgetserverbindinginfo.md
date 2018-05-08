@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetserverbindinginfo.htm
 old-project: DHCP
 ms.assetid: c0f5c9c1-d421-4977-aa26-1b8b7406802d
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DHCP_ENDPOINT_FLAG_CANT_MODIFY, DhcpGetServerBindingInfo, DhcpGetServerBindingInfo function [DHCP], dhcp.dhcpgetserverbindinginfo, dhcpsapi/DhcpGetServerBindingInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesProgress.QueryAbort
-title: IOfflineFilesProgress::QueryAbort method
+title: IOfflineFilesProgress::QueryAbort
 author: windows-driver-content
 description: May be called during lengthy operations to determine if the operation should be canceled.
 old-location: of\iofflinefilesprogress_queryabort.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 24b95898-0fe6-420b-83f2-ac77f493aeab
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesProgress, IOfflineFilesProgress interface [Offline Files], QueryAbort method, IOfflineFilesProgress::QueryAbort, QueryAbort method [Offline Files], QueryAbort method [Offline Files], IOfflineFilesProgress interface, QueryAbort,IOfflineFilesProgress.QueryAbort, cscobj/IOfflineFilesProgress::QueryAbort, of.iofflinefilesprogress_queryabort
+ms.keywords: IOfflineFilesProgress interface [Offline Files],QueryAbort method, IOfflineFilesProgress.QueryAbort, IOfflineFilesProgress::QueryAbort, QueryAbort, QueryAbort method [Offline Files], QueryAbort method [Offline Files],IOfflineFilesProgress interface, cscobj/IOfflineFilesProgress::QueryAbort, of.iofflinefilesprogress_queryabort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesProgress::QueryAbort method
+# IOfflineFilesProgress::QueryAbort
 
 
 ## -description

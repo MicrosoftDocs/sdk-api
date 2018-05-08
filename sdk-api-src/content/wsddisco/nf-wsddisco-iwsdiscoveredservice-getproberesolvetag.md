@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetProbeResolveTag
-title: IWSDiscoveredService::GetProbeResolveTag method
+title: IWSDiscoveredService::GetProbeResolveTag
 author: windows-driver-content
 description: Retrieves the search tag corresponding to this discovered service object.
 old-location: ncd\iwsdiscoveredservice_getproberesolvetag.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 80c22d39-0197-4e4d-b47e-e04ae90716f9
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetProbeResolveTag method, GetProbeResolveTag method, IWSDiscoveredService interface, GetProbeResolveTag,IWSDiscoveredService.GetProbeResolveTag, IWSDiscoveredService, IWSDiscoveredService interface, GetProbeResolveTag method, IWSDiscoveredService::GetProbeResolveTag, ncd.iwsdiscoveredservice_getproberesolvetag, wsddisco/IWSDiscoveredService::GetProbeResolveTag
+ms.keywords: GetProbeResolveTag, GetProbeResolveTag method, GetProbeResolveTag method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetProbeResolveTag method, IWSDiscoveredService.GetProbeResolveTag, IWSDiscoveredService::GetProbeResolveTag, ncd.iwsdiscoveredservice_getproberesolvetag, wsddisco/IWSDiscoveredService::GetProbeResolveTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveredService::GetProbeResolveTag method
+# IWSDiscoveredService::GetProbeResolveTag
 
 
 ## -description

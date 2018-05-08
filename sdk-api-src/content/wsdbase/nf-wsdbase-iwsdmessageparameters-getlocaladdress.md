@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.GetLocalAddress
-title: IWSDMessageParameters::GetLocalAddress method
+title: IWSDMessageParameters::GetLocalAddress
 author: windows-driver-content
 description: Retrieves the generic address object representing the local address that received the message.
 old-location: ncd\iwsdmessageparameters_getlocaladdress.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 97eab68f-9a77-46ae-a50e-be6267e25040
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetLocalAddress method, GetLocalAddress method, IWSDMessageParameters interface, GetLocalAddress,IWSDMessageParameters.GetLocalAddress, IWSDMessageParameters, IWSDMessageParameters interface, GetLocalAddress method, IWSDMessageParameters::GetLocalAddress, ncd.iwsdmessageparameters_getlocaladdress, wsdbase/IWSDMessageParameters::GetLocalAddress
+ms.keywords: GetLocalAddress, GetLocalAddress method, GetLocalAddress method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetLocalAddress method, IWSDMessageParameters.GetLocalAddress, IWSDMessageParameters::GetLocalAddress, ncd.iwsdmessageparameters_getlocaladdress, wsdbase/IWSDMessageParameters::GetLocalAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDMessageParameters::GetLocalAddress method
+# IWSDMessageParameters::GetLocalAddress
 
 
 ## -description

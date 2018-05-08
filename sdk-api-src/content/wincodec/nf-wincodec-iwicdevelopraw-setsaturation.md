@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetSaturation
-title: IWICDevelopRaw::SetSaturation method
+title: IWICDevelopRaw::SetSaturation
 author: windows-driver-content
 description: Sets the saturation value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_setsaturation.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 93e9eb1c-8428-4c4d-913a-d6162430e509
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetSaturation method, IWICDevelopRaw::SetSaturation, SetSaturation method [Windows Imaging Component], SetSaturation method [Windows Imaging Component], IWICDevelopRaw interface, SetSaturation,IWICDevelopRaw.SetSaturation, _wic_codec_iwicdevelopraw_setsaturation, wic._wic_codec_iwicdevelopraw_setsaturation, wincodec/IWICDevelopRaw::SetSaturation
+ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetSaturation method, IWICDevelopRaw.SetSaturation, IWICDevelopRaw::SetSaturation, SetSaturation, SetSaturation method [Windows Imaging Component], SetSaturation method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setsaturation, wic._wic_codec_iwicdevelopraw_setsaturation, wincodec/IWICDevelopRaw::SetSaturation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::SetSaturation method
+# IWICDevelopRaw::SetSaturation
 
 
 ## -description

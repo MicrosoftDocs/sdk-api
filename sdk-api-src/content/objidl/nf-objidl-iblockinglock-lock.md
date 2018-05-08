@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBlockingLock.Lock
-title: IBlockingLock::Lock method
+title: IBlockingLock::Lock
 author: windows-driver-content
 description: Requests a lock on a shared resource.
 old-location: com\iblockinglock_lock.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 35657795-2f18-4738-b0b5-8d03e0e4179d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IBlockingLock, IBlockingLock interface [COM], Lock method, IBlockingLock::Lock, Lock method [COM], Lock method [COM], IBlockingLock interface, Lock,IBlockingLock.Lock, _com_iblockinglock_lock, com.iblockinglock_lock, objidl/IBlockingLock::Lock
+ms.keywords: IBlockingLock interface [COM],Lock method, IBlockingLock.Lock, IBlockingLock::Lock, Lock, Lock method [COM], Lock method [COM],IBlockingLock interface, _com_iblockinglock_lock, com.iblockinglock_lock, objidl/IBlockingLock::Lock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBlockingLock::Lock method
+# IBlockingLock::Lock
 
 
 ## -description

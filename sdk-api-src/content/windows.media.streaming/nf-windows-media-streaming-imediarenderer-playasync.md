@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.PlayAsync
-title: IMediaRenderer::PlayAsync method
+title: IMediaRenderer::streaming
 author: windows-driver-content
 description: Instructs the DMR asynchronously to play the content that was specified by calling the SetSourceFromUriAsync, SetSourceFromStreamAsync, or SetSourceFromMediaSourceAsync method.
 old-location: mediastreaming\imediarenderer_playasync.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 32084664-2D1B-4303-B3B7-9B896A07CB17
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], PlayAsync method, IMediaRenderer::PlayAsync, PlayAsync method [Media Streaming API], PlayAsync method [Media Streaming API], IMediaRenderer interface, PlayAsync,IMediaRenderer.PlayAsync, mediastreaming.imediarenderer_playasync, windows/IMediaRenderer::PlayAsync
+ms.keywords: IMediaRenderer interface [Media Streaming API],PlayAsync method, IMediaRenderer.PlayAsync, IMediaRenderer.streaming, IMediaRenderer::PlayAsync, IMediaRenderer::streaming, PlayAsync, PlayAsync method [Media Streaming API], PlayAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_playasync, windows/IMediaRenderer::PlayAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IMediaRenderer::PlayAsync method
+# IMediaRenderer::streaming
 
 
 ## -description

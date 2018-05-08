@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextSelection.MoveLeft
-title: ITextSelection::MoveLeft method
+title: ITextSelection::MoveLeft
 author: windows-driver-content
 description: Generalizes the functionality of the Left Arrow key.
 old-location: controls\ITextSelection_MoveLeft.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveleft.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextSelection, ITextSelection interface [Windows Controls], MoveLeft method, ITextSelection::MoveLeft, MoveLeft method [Windows Controls], MoveLeft method [Windows Controls], ITextSelection interface, MoveLeft,ITextSelection.MoveLeft, _win32_ITextSelection_MoveLeft, _win32_ITextSelection_MoveLeft_cpp, controls.ITextSelection_MoveLeft, controls._win32_ITextSelection_MoveLeft, tom/ITextSelection::MoveLeft
+ms.date: 4/27/2018
+ms.keywords: ITextSelection interface [Windows Controls],MoveLeft method, ITextSelection.MoveLeft, ITextSelection::MoveLeft, MoveLeft, MoveLeft method [Windows Controls], MoveLeft method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveLeft, _win32_ITextSelection_MoveLeft_cpp, controls.ITextSelection_MoveLeft, controls._win32_ITextSelection_MoveLeft, tom/ITextSelection::MoveLeft
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextSelection::MoveLeft method
+# ITextSelection::MoveLeft
 
 
 ## -description

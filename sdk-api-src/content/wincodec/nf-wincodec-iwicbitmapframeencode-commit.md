@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.Commit
-title: IWICBitmapFrameEncode::Commit method
+title: IWICBitmapFrameEncode::Commit
 author: windows-driver-content
 description: Commits the frame to the image.
 old-location: wic\_wic_codec_iwicbitmapframeencode_commit.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 6321fb9e-9ea8-423c-a332-9daa589af6f7
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Commit method [Windows Imaging Component], Commit method [Windows Imaging Component], IWICBitmapFrameEncode interface, Commit,IWICBitmapFrameEncode.Commit, IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Imaging Component], Commit method, IWICBitmapFrameEncode::Commit, _wic_codec_iwicbitmapframeencode_commit, wic._wic_codec_iwicbitmapframeencode_commit, wincodec/IWICBitmapFrameEncode::Commit
+ms.keywords: Commit, Commit method [Windows Imaging Component], Commit method [Windows Imaging Component],IWICBitmapFrameEncode interface, IWICBitmapFrameEncode interface [Windows Imaging Component],Commit method, IWICBitmapFrameEncode.Commit, IWICBitmapFrameEncode::Commit, _wic_codec_iwicbitmapframeencode_commit, wic._wic_codec_iwicbitmapframeencode_commit, wincodec/IWICBitmapFrameEncode::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapFrameEncode::Commit method
+# IWICBitmapFrameEncode::Commit
 
 
 ## -description

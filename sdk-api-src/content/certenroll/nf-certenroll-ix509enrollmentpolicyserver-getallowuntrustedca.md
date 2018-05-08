@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetAllowUnTrustedCA
-title: IX509EnrollmentPolicyServer::GetAllowUnTrustedCA method
+title: IX509EnrollmentPolicyServer::GetAllowUnTrustedCA
 author: windows-driver-content
 description: Retrieves a value that specifies whether to allow an untrusted certification authority certificate.
 old-location: security\ix509enrollmentpolicyserver_getallowuntrustedca.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 6b15a2ba-2e68-4c66-910d-20dd0f0581c2
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetAllowUnTrustedCA method [Security], GetAllowUnTrustedCA method [Security], IX509EnrollmentPolicyServer interface, GetAllowUnTrustedCA,IX509EnrollmentPolicyServer.GetAllowUnTrustedCA, IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], GetAllowUnTrustedCA method, IX509EnrollmentPolicyServer::GetAllowUnTrustedCA, certenroll/IX509EnrollmentPolicyServer::GetAllowUnTrustedCA, security.ix509enrollmentpolicyserver_getallowuntrustedca
+ms.keywords: GetAllowUnTrustedCA, GetAllowUnTrustedCA method [Security], GetAllowUnTrustedCA method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetAllowUnTrustedCA method, IX509EnrollmentPolicyServer.GetAllowUnTrustedCA, IX509EnrollmentPolicyServer::GetAllowUnTrustedCA, certenroll/IX509EnrollmentPolicyServer::GetAllowUnTrustedCA, security.ix509enrollmentpolicyserver_getallowuntrustedca
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509EnrollmentPolicyServer::GetAllowUnTrustedCA method
+# IX509EnrollmentPolicyServer::GetAllowUnTrustedCA
 
 
 ## -description

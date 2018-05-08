@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetWnd
-title: ITextStoreACP::GetWnd method
+title: ITextStoreACP::GetWnd
 author: windows-driver-content
 description: The ITextStoreACP::GetWnd method returns the handle to a window that corresponds to the current document.
 old-location: tsf\itextstoreacp_getwnd.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 7fb49702-4e0e-4e8c-9227-83c0b014f5f2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetWnd method [Text Services Framework], GetWnd method [Text Services Framework], ITextStoreACP interface, GetWnd,ITextStoreACP.GetWnd, ITextStoreACP, ITextStoreACP interface [Text Services Framework], GetWnd method, ITextStoreACP::GetWnd, _tsf_itextstoreacp_getwnd_ref, textstor/ITextStoreACP::GetWnd, tsf.itextstoreacp_getwnd
+ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetWnd method, ITextStoreACP.GetWnd, ITextStoreACP::GetWnd, _tsf_itextstoreacp_getwnd_ref, textstor/ITextStoreACP::GetWnd, tsf.itextstoreacp_getwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP::GetWnd method
+# ITextStoreACP::GetWnd
 
 
 ## -description

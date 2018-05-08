@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.get_DataCollectorType
-title: IDataCollector::get_DataCollectorType method
+title: IDataCollector::get_DataCollectorType
 author: windows-driver-content
 description: Retrieves the type of this data collector, for example, a performance data collector.
 old-location: pla\idatacollector_datacollectortype.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: a5ec0e60-555c-4a95-b13d-a22cc8db7c28
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DataCollectorType property [PLA], DataCollectorType property [PLA], IDataCollector interface, IDataCollector, IDataCollector interface [PLA], DataCollectorType property, IDataCollector.DataCollectorType, IDataCollector::get_DataCollectorType, base.idatacollector_datacollectortype, get_DataCollectorType,IDataCollector.get_DataCollectorType, pla.idatacollector_datacollectortype, pla/IDataCollector::DataCollectorType, pla/IDataCollector::get_DataCollectorType
+ms.keywords: DataCollectorType property [PLA], DataCollectorType property [PLA],IDataCollector interface, IDataCollector interface [PLA],DataCollectorType property, IDataCollector.DataCollectorType, IDataCollector.get_DataCollectorType, IDataCollector::DataCollectorType, IDataCollector::get_DataCollectorType, base.idatacollector_datacollectortype, get_DataCollectorType, pla.idatacollector_datacollectortype, pla/IDataCollector::DataCollectorType, pla/IDataCollector::get_DataCollectorType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollector::get_DataCollectorType method
+# IDataCollector::get_DataCollectorType
 
 
 ## -description

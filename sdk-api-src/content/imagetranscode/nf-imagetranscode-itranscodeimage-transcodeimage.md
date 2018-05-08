@@ -1,14 +1,14 @@
 ---
 UID: NF:imagetranscode.ITranscodeImage.TranscodeImage
-title: ITranscodeImage::TranscodeImage method
+title: ITranscodeImage::TranscodeImage
 author: windows-driver-content
 description: Converts an image to JPEG or bitmap (BMP) image format.
 old-location: shell\TranscodeImage.htm
 old-project: shell
 ms.assetid: 56b8c871-5c44-497d-beac-5bde01b8bd8b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ITranscodeImage, ITranscodeImage interface [Windows Shell], TranscodeImage method, ITranscodeImage::TranscodeImage, TI_BITMAP, TI_JPEG, TranscodeImage method [Windows Shell], TranscodeImage method [Windows Shell], ITranscodeImage interface, TranscodeImage,ITranscodeImage.TranscodeImage, _shell_TranscodeImage, imagetranscode/ITranscodeImage::TranscodeImage, shell.TranscodeImage
+ms.date: 5/3/2018
+ms.keywords: ITranscodeImage interface [Windows Shell],TranscodeImage method, ITranscodeImage.TranscodeImage, ITranscodeImage::TranscodeImage, TI_BITMAP, TI_JPEG, TranscodeImage, TranscodeImage method [Windows Shell], TranscodeImage method [Windows Shell],ITranscodeImage interface, _shell_TranscodeImage, imagetranscode/ITranscodeImage::TranscodeImage, shell.TranscodeImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITranscodeImage::TranscodeImage method
+# ITranscodeImage::TranscodeImage
 
 
 ## -description

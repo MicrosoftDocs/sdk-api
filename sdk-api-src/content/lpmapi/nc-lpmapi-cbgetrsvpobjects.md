@@ -8,7 +8,7 @@ old-project: QOS
 ms.assetid: baedb3e9-7768-4666-8bd7-78dd1d0eb0de
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: CBGETRSVPOBJECTS, CBGETRSVPOBJECTS callback function [QOS], _gqos_cbpgetrsvpobjects, cbGetRsvpObjects, cbGetRsvpObjects callback function [QOS], lpmapi/cbGetRsvpObjects, qos.cbgetrsvpobjects, qos.cbpgetrsvpobjects
+ms.keywords: CBGETRSVPOBJECTS, CBGETRSVPOBJECTS callback function [QOS], _gqos_cbpgetrsvpobjects, cbGetRsvpObjects, cbGetRsvpObjects callback, cbGetRsvpObjects callback function [QOS], lpmapi/cbGetRsvpObjects, qos.cbgetrsvpobjects, qos.cbpgetrsvpobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CBGETRSVPOBJECTS callback
+# CBGETRSVPOBJECTS callback function
 
 
 ## -description

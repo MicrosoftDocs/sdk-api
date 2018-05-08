@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsADSystemInfo.GetTrees
-title: IADsADSystemInfo::GetTrees method
+title: IADsADSystemInfo::GetTrees
 author: windows-driver-content
 description: Retrieves the DNS names of all the directory trees in the local computer's forest.
 old-location: adsi\iadsadsysteminfo_gettrees.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 1446d248-0adc-4542-b4af-c7139cee028f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTrees method [ADSI], GetTrees method [ADSI], IADsADSystemInfo interface, GetTrees,IADsADSystemInfo.GetTrees, IADsADSystemInfo, IADsADSystemInfo interface [ADSI], GetTrees method, IADsADSystemInfo::GetTrees, _ds_iadsadsysteminfo_gettrees, adsi.iadsadsysteminfo__gettrees, adsi.iadsadsysteminfo_gettrees, iads/IADsADSystemInfo::GetTrees
+ms.keywords: GetTrees, GetTrees method [ADSI], GetTrees method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetTrees method, IADsADSystemInfo.GetTrees, IADsADSystemInfo::GetTrees, _ds_iadsadsysteminfo_gettrees, adsi.iadsadsysteminfo__gettrees, adsi.iadsadsysteminfo_gettrees, iads/IADsADSystemInfo::GetTrees
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsADSystemInfo::GetTrees method
+# IADsADSystemInfo::GetTrees
 
 
 ## -description

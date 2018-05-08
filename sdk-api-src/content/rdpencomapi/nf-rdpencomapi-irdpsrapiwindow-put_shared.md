@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.put_Shared
-title: IRDPSRAPIWindow::put_Shared method
+title: IRDPSRAPIWindow::put_Shared
 author: windows-driver-content
 description: Gets or sets the sharing property for a window.
 old-location: rdp\irdpsrapiwindow_shared.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: e07ebdbc-79ce-4a85-9960-197c4c7ca445
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], Shared property, IRDPSRAPIWindow.Shared, IRDPSRAPIWindow::get_Shared, IRDPSRAPIWindow::put_Shared, RDPSRAPIWindow object [RDP], Shared property, Shared property [RDP], Shared property [RDP], IRDPSRAPIWindow interface, Shared property [RDP], RDPSRAPIWindow object, put_Shared,IRDPSRAPIWindow.put_Shared, rdp.irdpsrapiwindow_shared, rdpencomapi/IRDPSRAPIWindow::Shared, rdpencomapi/IRDPSRAPIWindow::get_Shared, rdpencomapi/IRDPSRAPIWindow::put_Shared
+ms.keywords: IRDPSRAPIWindow interface [RDP],Shared property, IRDPSRAPIWindow.Shared, IRDPSRAPIWindow.put_Shared, IRDPSRAPIWindow::Shared, IRDPSRAPIWindow::get_Shared, IRDPSRAPIWindow::put_Shared, RDPSRAPIWindow object [RDP],Shared property, Shared property [RDP], Shared property [RDP],IRDPSRAPIWindow interface, Shared property [RDP],RDPSRAPIWindow object, put_Shared, rdp.irdpsrapiwindow_shared, rdpencomapi/IRDPSRAPIWindow::Shared, rdpencomapi/IRDPSRAPIWindow::get_Shared, rdpencomapi/IRDPSRAPIWindow::put_Shared
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIWindow::put_Shared method
+# IRDPSRAPIWindow::put_Shared
 
 
 ## -description

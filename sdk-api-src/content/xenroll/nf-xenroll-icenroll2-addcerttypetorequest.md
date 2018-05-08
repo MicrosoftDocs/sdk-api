@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll2.addCertTypeToRequest
-title: ICEnroll2::addCertTypeToRequest method
+title: ICEnroll2::addCertTypeToRequest
 author: windows-driver-content
 description: Adds a certificate template to a request (used to support the enterprise certification authority (CA)). This method was first defined by the ICEnroll2 interface.
 old-location: security\icenroll4_addcerttypetorequest.htm
 old-project: SecCrypto
 ms.assetid: d2c22689-d386-43d1-a42f-f303a034a087
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], addCertTypeToRequest method, ICEnroll2, ICEnroll2 interface [Security], addCertTypeToRequest method, ICEnroll2::addCertTypeToRequest, ICEnroll3 interface [Security], addCertTypeToRequest method, ICEnroll3::addCertTypeToRequest, ICEnroll4 interface [Security], addCertTypeToRequest method, ICEnroll4::addCertTypeToRequest, addCertTypeToRequest method [Security], addCertTypeToRequest method [Security], CEnroll object, addCertTypeToRequest method [Security], ICEnroll2 interface, addCertTypeToRequest method [Security], ICEnroll3 interface, addCertTypeToRequest method [Security], ICEnroll4 interface, addCertTypeToRequest,ICEnroll2.addCertTypeToRequest, security.icenroll4_addcerttypetorequest, xenroll/ICEnroll2::addCertTypeToRequest, xenroll/ICEnroll3::addCertTypeToRequest, xenroll/ICEnroll4::addCertTypeToRequest
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],addCertTypeToRequest method, ICEnroll2 interface [Security],addCertTypeToRequest method, ICEnroll2.addCertTypeToRequest, ICEnroll2::addCertTypeToRequest, ICEnroll3 interface [Security],addCertTypeToRequest method, ICEnroll3::addCertTypeToRequest, ICEnroll4 interface [Security],addCertTypeToRequest method, ICEnroll4::addCertTypeToRequest, addCertTypeToRequest, addCertTypeToRequest method [Security], addCertTypeToRequest method [Security],CEnroll object, addCertTypeToRequest method [Security],ICEnroll2 interface, addCertTypeToRequest method [Security],ICEnroll3 interface, addCertTypeToRequest method [Security],ICEnroll4 interface, security.icenroll4_addcerttypetorequest, xenroll/ICEnroll2::addCertTypeToRequest, xenroll/ICEnroll3::addCertTypeToRequest, xenroll/ICEnroll4::addCertTypeToRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll2::addCertTypeToRequest method
+# ICEnroll2::addCertTypeToRequest
 
 
 ## -description

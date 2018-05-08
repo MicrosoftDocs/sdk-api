@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetDC
-title: IOleInPlaceSiteWindowless::GetDC method
+title: IOleInPlaceSiteWindowless::GetDC
 author: windows-driver-content
 description: Provides an object with a handle to a device context for a screen or compatible device from its container.
 old-location: com\ioleinplacesitewindowless_getdc.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 232587a8-ed88-4339-9e28-6e34be263a51
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetDC method [COM], GetDC method [COM], IOleInPlaceSiteWindowless interface, GetDC,IOleInPlaceSiteWindowless.GetDC, IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], GetDC method, IOleInPlaceSiteWindowless::GetDC, _ole_ioleinplacesitewindowless_getdc, com.ioleinplacesitewindowless_getdc, ocidl/IOleInPlaceSiteWindowless::GetDC
+ms.keywords: GetDC, GetDC method [COM], GetDC method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetDC method, IOleInPlaceSiteWindowless.GetDC, IOleInPlaceSiteWindowless::GetDC, _ole_ioleinplacesitewindowless_getdc, com.ioleinplacesitewindowless_getdc, ocidl/IOleInPlaceSiteWindowless::GetDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSiteWindowless::GetDC method
+# IOleInPlaceSiteWindowless::GetDC
 
 
 ## -description

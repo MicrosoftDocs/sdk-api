@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaFilter.Run
-title: IMediaFilter::Run method
+title: IMediaFilter::Run
 author: windows-driver-content
 description: The Run method runs the filter.
 old-location: dshow\imediafilter_run.htm
 old-project: DirectShow
 ms.assetid: ec422312-bbc2-4b66-b2cd-1a9eebd1eee1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaFilter, IMediaFilter interface [DirectShow], Run method, IMediaFilter::Run, IMediaFilterRun, Run method [DirectShow], Run method [DirectShow], IMediaFilter interface, Run,IMediaFilter.Run, dshow.imediafilter_run, strmif/IMediaFilter::Run
+ms.date: 4/30/2018
+ms.keywords: IMediaFilter interface [DirectShow],Run method, IMediaFilter.Run, IMediaFilter::Run, IMediaFilterRun, Run, Run method [DirectShow], Run method [DirectShow],IMediaFilter interface, dshow.imediafilter_run, strmif/IMediaFilter::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaFilter::Run method
+# IMediaFilter::Run
 
 
 ## -description

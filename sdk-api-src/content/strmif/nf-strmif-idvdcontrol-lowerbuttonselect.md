@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.LowerButtonSelect
-title: IDvdControl::LowerButtonSelect method
+title: IDvdControl::LowerButtonSelect
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the lower directional button from the displayed menu.
 old-location: dshow\idvdcontrol_lowerbuttonselect.htm
 old-project: DirectShow
 ms.assetid: eba476a5-c949-4ce1-b296-314e36afc912
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl, IDvdControl interface [DirectShow], LowerButtonSelect method, IDvdControl::LowerButtonSelect, IDvdControlLowerButtonSelect, LowerButtonSelect method [DirectShow], LowerButtonSelect method [DirectShow], IDvdControl interface, LowerButtonSelect,IDvdControl.LowerButtonSelect, dshow.idvdcontrol_lowerbuttonselect, strmif/IDvdControl::LowerButtonSelect
+ms.date: 4/30/2018
+ms.keywords: IDvdControl interface [DirectShow],LowerButtonSelect method, IDvdControl.LowerButtonSelect, IDvdControl::LowerButtonSelect, IDvdControlLowerButtonSelect, LowerButtonSelect, LowerButtonSelect method [DirectShow], LowerButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_lowerbuttonselect, strmif/IDvdControl::LowerButtonSelect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::LowerButtonSelect method
+# IDvdControl::LowerButtonSelect
 
 
 ## -description

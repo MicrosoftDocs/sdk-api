@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IHolder.RequestDestroyResource
-title: IHolder::RequestDestroyResource method
+title: IHolder::RequestDestroyResource
 author: windows-driver-content
 description: Deletes a resource, calling its destructor to free memory and other associated system resources.
 old-location: cos\iholder_requestdestroyresource.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: c1602718-2221-4e49-a57c-f65f87174dc9
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IHolder, IHolder interface [COM+], RequestDestroyResource method, IHolder::RequestDestroyResource, RequestDestroyResource method [COM+], RequestDestroyResource method [COM+], IHolder interface, RequestDestroyResource,IHolder.RequestDestroyResource, _dtc_IHolder_RequestDestroyResource, comsvcs/IHolder::RequestDestroyResource, cos.iholder_requestdestroyresource
+ms.keywords: IHolder interface [COM+],RequestDestroyResource method, IHolder.RequestDestroyResource, IHolder::RequestDestroyResource, RequestDestroyResource, RequestDestroyResource method [COM+], RequestDestroyResource method [COM+],IHolder interface, _dtc_IHolder_RequestDestroyResource, comsvcs/IHolder::RequestDestroyResource, cos.iholder_requestdestroyresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IHolder::RequestDestroyResource method
+# IHolder::RequestDestroyResource
 
 
 ## -description

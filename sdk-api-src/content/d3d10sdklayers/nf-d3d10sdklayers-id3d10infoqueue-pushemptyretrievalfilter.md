@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.PushEmptyRetrievalFilter
-title: ID3D10InfoQueue::PushEmptyRetrievalFilter method
+title: ID3D10InfoQueue::PushEmptyRetrievalFilter
 author: windows-driver-content
 description: Push an empty retrieval filter onto the retrieval-filter stack.
 old-location: direct3d10\id3d10infoqueue_pushemptyretrievalfilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_pushemptyretrievalfilter.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 6eec2687-343a-c307-9f79-b1bf69743835, ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], PushEmptyRetrievalFilter method, ID3D10InfoQueue::PushEmptyRetrievalFilter, PushEmptyRetrievalFilter method [Direct3D 10], PushEmptyRetrievalFilter method [Direct3D 10], ID3D10InfoQueue interface, PushEmptyRetrievalFilter,ID3D10InfoQueue.PushEmptyRetrievalFilter, d3d10sdklayers/ID3D10InfoQueue::PushEmptyRetrievalFilter, direct3d10.id3d10infoqueue_pushemptyretrievalfilter
+ms.keywords: 6eec2687-343a-c307-9f79-b1bf69743835, ID3D10InfoQueue interface [Direct3D 10],PushEmptyRetrievalFilter method, ID3D10InfoQueue.PushEmptyRetrievalFilter, ID3D10InfoQueue::PushEmptyRetrievalFilter, PushEmptyRetrievalFilter, PushEmptyRetrievalFilter method [Direct3D 10], PushEmptyRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::PushEmptyRetrievalFilter, direct3d10.id3d10infoqueue_pushemptyretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10InfoQueue::PushEmptyRetrievalFilter method
+# ID3D10InfoQueue::PushEmptyRetrievalFilter
 
 
 ## -description

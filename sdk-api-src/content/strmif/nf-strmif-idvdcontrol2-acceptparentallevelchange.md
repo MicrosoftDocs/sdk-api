@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.AcceptParentalLevelChange
-title: IDvdControl2::AcceptParentalLevelChange method
+title: IDvdControl2::AcceptParentalLevelChange
 author: windows-driver-content
 description: The AcceptParentalLevelChange method accepts or rejects a request from the DVD Navigator to play content at a higher parental management level.
 old-location: dshow\idvdcontrol2_acceptparentallevelchange.htm
 old-project: DirectShow
 ms.assetid: a990544e-6600-44b1-91f2-8b88fa43ccaf
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AcceptParentalLevelChange method [DirectShow], AcceptParentalLevelChange method [DirectShow], IDvdControl2 interface, AcceptParentalLevelChange,IDvdControl2.AcceptParentalLevelChange, IDvdControl2, IDvdControl2 interface [DirectShow], AcceptParentalLevelChange method, IDvdControl2::AcceptParentalLevelChange, IDvdControl2AcceptParentalLevelChange, dshow.idvdcontrol2_acceptparentallevelchange, strmif/IDvdControl2::AcceptParentalLevelChange
+ms.date: 4/30/2018
+ms.keywords: AcceptParentalLevelChange, AcceptParentalLevelChange method [DirectShow], AcceptParentalLevelChange method [DirectShow],IDvdControl2 interface, IDvdControl2 interface [DirectShow],AcceptParentalLevelChange method, IDvdControl2.AcceptParentalLevelChange, IDvdControl2::AcceptParentalLevelChange, IDvdControl2AcceptParentalLevelChange, dshow.idvdcontrol2_acceptparentallevelchange, strmif/IDvdControl2::AcceptParentalLevelChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::AcceptParentalLevelChange method
+# IDvdControl2::AcceptParentalLevelChange
 
 
 ## -description

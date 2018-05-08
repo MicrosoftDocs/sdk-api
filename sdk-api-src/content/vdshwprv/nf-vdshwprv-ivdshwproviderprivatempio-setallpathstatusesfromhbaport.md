@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort
-title: IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort method
+title: IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
 author: windows-driver-content
 description: Sets the statuses of paths originating from a particular HBA port to a specified status.
 old-location: base\ivdshwproviderprivatempio_setallpathstatusesfromhbaport.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 1fc25ca9-7cb4-438c-b9da-4bf93bd18a0c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsHwProviderPrivateMpio, IVdsHwProviderPrivateMpio interface [VDS], SetAllPathStatusesFromHbaPort method, IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort, SetAllPathStatusesFromHbaPort method [VDS], SetAllPathStatusesFromHbaPort method [VDS], IVdsHwProviderPrivateMpio interface, SetAllPathStatusesFromHbaPort,IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort, base.ivdshwproviderprivatempio_setallpathstatusesfromhbaport, vdshwprv/IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
+ms.keywords: IVdsHwProviderPrivateMpio interface [VDS],SetAllPathStatusesFromHbaPort method, IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort, IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort, SetAllPathStatusesFromHbaPort, SetAllPathStatusesFromHbaPort method [VDS], SetAllPathStatusesFromHbaPort method [VDS],IVdsHwProviderPrivateMpio interface, base.ivdshwproviderprivatempio_setallpathstatusesfromhbaport, vdshwprv/IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort method
+# IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
 
 
 ## -description

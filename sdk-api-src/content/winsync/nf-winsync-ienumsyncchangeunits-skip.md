@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Skip
-title: IEnumSyncChangeUnits::Skip method
+title: IEnumSyncChangeUnits::Skip
 author: windows-driver-content
 description: This method is not implemented.
 old-location: winsync\ienumsyncchangeunits_skip.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: d483a4bb-9b9e-4641-bc18-133381dc2a48
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumSyncChangeUnits, IEnumSyncChangeUnits interface [Windows Sync], Skip method, IEnumSyncChangeUnits::Skip, Skip method [Windows Sync], Skip method [Windows Sync], IEnumSyncChangeUnits interface, Skip,IEnumSyncChangeUnits.Skip, winsync.ienumsyncchangeunits_skip, winsync/IEnumSyncChangeUnits::Skip
+ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Skip method, IEnumSyncChangeUnits.Skip, IEnumSyncChangeUnits::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_skip, winsync/IEnumSyncChangeUnits::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumSyncChangeUnits::Skip method
+# IEnumSyncChangeUnits::Skip
 
 
 ## -description

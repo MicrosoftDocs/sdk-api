@@ -1,6 +1,6 @@
 ---
 UID: NF:pnpxassoc.IPNPXAssociation.Associate
-title: IPNPXAssociation::Associate method
+title: IPNPXAssociation::Associate
 author: windows-driver-content
 description: Marks an association database entry as associated.
 old-location: ncd\ipnpxassociation_associate.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 74d2ed38-9362-4664-9384-e773e4ec76f3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Associate method, Associate method, IPNPXAssociation interface, Associate,IPNPXAssociation.Associate, IPNPXAssociation, IPNPXAssociation interface, Associate method, IPNPXAssociation::Associate, ncd.ipnpxassociation_associate, pnpxassoc/IPNPXAssociation::Associate
+ms.keywords: Associate, Associate method, Associate method,IPNPXAssociation interface, IPNPXAssociation interface,Associate method, IPNPXAssociation.Associate, IPNPXAssociation::Associate, ncd.ipnpxassociation_associate, pnpxassoc/IPNPXAssociation::Associate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPNPXAssociation::Associate method
+# IPNPXAssociation::Associate
 
 
 ## -description

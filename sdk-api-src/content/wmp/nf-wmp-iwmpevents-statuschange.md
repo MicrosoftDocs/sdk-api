@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.StatusChange
-title: IWMPEvents::StatusChange method
+title: IWMPEvents::StatusChange
 author: windows-driver-content
 description: The StatusChange event occurs when the status property changes value.
 old-location: wmp\iwmpevents_iwmpevents__statuschange.htm
 old-project: WMP
 ms.assetid: 0397ae20-bc8b-4b7e-8d5d-2b1fb427355a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], StatusChange method, IWMPEvents::StatusChange, IWMPEventsStatusChange, StatusChange method [Windows Media Player], StatusChange method [Windows Media Player], IWMPEvents interface, StatusChange,IWMPEvents.StatusChange, wmp.iwmpevents_iwmpevents__statuschange, wmp/IWMPEvents::StatusChange
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],StatusChange method, IWMPEvents.StatusChange, IWMPEvents::StatusChange, IWMPEventsStatusChange, StatusChange, StatusChange method [Windows Media Player], StatusChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__statuschange, wmp/IWMPEvents::StatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::StatusChange method
+# IWMPEvents::StatusChange
 
 
 ## -description

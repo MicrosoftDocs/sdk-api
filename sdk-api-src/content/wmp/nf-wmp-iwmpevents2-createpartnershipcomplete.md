@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents2.CreatePartnershipComplete
-title: IWMPEvents2::CreatePartnershipComplete method
+title: IWMPEvents2::CreatePartnershipComplete
 author: windows-driver-content
 description: The CreatePartnershipComplete event occurs when an asynchronous call to IWMPSyncDevice::createPartnership completes.
 old-location: wmp\iwmpevents2_iwmpevents2__createpartnershipcomplete.htm
 old-project: WMP
 ms.assetid: 3cd9b27d-ceb4-4655-ab3f-3d341774c81a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: CreatePartnershipComplete method [Windows Media Player], CreatePartnershipComplete method [Windows Media Player], IWMPEvents2 interface, CreatePartnershipComplete,IWMPEvents2.CreatePartnershipComplete, IWMPEvents2, IWMPEvents2 interface [Windows Media Player], CreatePartnershipComplete method, IWMPEvents2::CreatePartnershipComplete, IWMPEvents2CreatePartnershipComplete, wmp.iwmpevents2_iwmpevents2__createpartnershipcomplete, wmp/IWMPEvents2::CreatePartnershipComplete
+ms.date: 5/4/2018
+ms.keywords: CreatePartnershipComplete, CreatePartnershipComplete method [Windows Media Player], CreatePartnershipComplete method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],CreatePartnershipComplete method, IWMPEvents2.CreatePartnershipComplete, IWMPEvents2::CreatePartnershipComplete, IWMPEvents2CreatePartnershipComplete, wmp.iwmpevents2_iwmpevents2__createpartnershipcomplete, wmp/IWMPEvents2::CreatePartnershipComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents2::CreatePartnershipComplete method
+# IWMPEvents2::CreatePartnershipComplete
 
 
 ## -description

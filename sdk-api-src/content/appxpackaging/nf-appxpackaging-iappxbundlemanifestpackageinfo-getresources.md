@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetResources
-title: IAppxBundleManifestPackageInfo::GetResources method
+title: IAppxBundleManifestPackageInfo::GetResources
 author: windows-driver-content
 description: Retrieves an enumerator that iterates through all the &lt;Resource&gt; elements that are defined in the app package's manifest.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getresources.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 07B1028B-4084-44E5-840D-14403E01F628
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetResources method [App packaging and management], GetResources method [App packaging and management], IAppxBundleManifestPackageInfo interface, GetResources,IAppxBundleManifestPackageInfo.GetResources, IAppxBundleManifestPackageInfo, IAppxBundleManifestPackageInfo interface [App packaging and management], GetResources method, IAppxBundleManifestPackageInfo::GetResources, appxpackaging/IAppxBundleManifestPackageInfo::GetResources, appxpkg.iappxbundlemanifestpackageinfo_getresources
+ms.keywords: GetResources, GetResources method [App packaging and management], GetResources method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetResources method, IAppxBundleManifestPackageInfo.GetResources, IAppxBundleManifestPackageInfo::GetResources, appxpackaging/IAppxBundleManifestPackageInfo::GetResources, appxpkg.iappxbundlemanifestpackageinfo_getresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleManifestPackageInfo::GetResources method
+# IAppxBundleManifestPackageInfo::GetResources
 
 
 ## -description

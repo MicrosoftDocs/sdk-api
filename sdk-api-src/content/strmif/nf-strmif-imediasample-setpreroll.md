@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSample.SetPreroll
-title: IMediaSample::SetPreroll method
+title: IMediaSample::SetPreroll
 author: windows-driver-content
 description: The SetPreroll method specifies whether this sample is a preroll sample.
 old-location: dshow\imediasample_setpreroll.htm
 old-project: DirectShow
 ms.assetid: a92f2774-19ac-4630-ad66-2299336d1338
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaSample, IMediaSample interface [DirectShow], SetPreroll method, IMediaSample::SetPreroll, IMediaSampleSetPreroll, SetPreroll method [DirectShow], SetPreroll method [DirectShow], IMediaSample interface, SetPreroll,IMediaSample.SetPreroll, dshow.imediasample_setpreroll, strmif/IMediaSample::SetPreroll
+ms.date: 4/30/2018
+ms.keywords: IMediaSample interface [DirectShow],SetPreroll method, IMediaSample.SetPreroll, IMediaSample::SetPreroll, IMediaSampleSetPreroll, SetPreroll, SetPreroll method [DirectShow], SetPreroll method [DirectShow],IMediaSample interface, dshow.imediasample_setpreroll, strmif/IMediaSample::SetPreroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSample::SetPreroll method
+# IMediaSample::SetPreroll
 
 
 ## -description

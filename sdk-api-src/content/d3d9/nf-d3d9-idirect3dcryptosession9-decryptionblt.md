@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.DecryptionBlt
-title: IDirect3DCryptoSession9::DecryptionBlt method
+title: IDirect3DCryptoSession9::DecryptionBlt
 author: windows-driver-content
 description: Writes encrypted data to a protected surface.
 old-location: mf\idirect3dcryptosession9_decryptionblt.htm
 old-project: medfound
 ms.assetid: 03032a3f-e10f-4f40-837e-01b7b113b29e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: DecryptionBlt method [Media Foundation], DecryptionBlt method [Media Foundation], IDirect3DCryptoSession9 interface, DecryptionBlt,IDirect3DCryptoSession9.DecryptionBlt, IDirect3DCryptoSession9, IDirect3DCryptoSession9 interface [Media Foundation], DecryptionBlt method, IDirect3DCryptoSession9::DecryptionBlt, d3d9/IDirect3DCryptoSession9::DecryptionBlt, mf.idirect3dcryptosession9_decryptionblt
+ms.date: 5/3/2018
+ms.keywords: DecryptionBlt, DecryptionBlt method [Media Foundation], DecryptionBlt method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],DecryptionBlt method, IDirect3DCryptoSession9.DecryptionBlt, IDirect3DCryptoSession9::DecryptionBlt, d3d9/IDirect3DCryptoSession9::DecryptionBlt, mf.idirect3dcryptosession9_decryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DCryptoSession9::DecryptionBlt method
+# IDirect3DCryptoSession9::DecryptionBlt
 
 
 ## -description

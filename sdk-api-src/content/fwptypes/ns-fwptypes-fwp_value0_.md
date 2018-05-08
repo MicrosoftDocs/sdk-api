@@ -65,6 +65,103 @@ The type of data for this value.
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552431">FWP_DATA_TYPE</a> for more information.
 
 
+### -field uint8
+
+ 
+
+
+### -field uint16
+
+ 
+
+
+### -field uint32
+
+ 
+
+
+### -field uint64
+
+ 
+
+
+### -field int8
+
+ 
+
+
+### -field int16
+
+ 
+
+
+### -field int32
+
+ 
+
+
+### -field int64
+
+ 
+
+
+### -field float32
+
+ 
+
+
+### -field double64
+
+ 
+
+
+### -field byteArray16
+
+ 
+
+
+### -field byteBlob
+
+ 
+
+
+### -field sid
+
+ 
+
+
+### -field sd
+
+ 
+
+
+### -field tokenInformation
+
+ 
+
+
+### -field tokenAccessInformation
+
+ 
+
+
+### -field unicodeString
+
+ 
+
+
+### -field byteArray6
+
+ 
+
+
+### -field bitmapArray64
+
+ 
+
+
+
+
 #### - ( unnamed union )
 
 switch_type(FWP_DATA_TYPE), switch_is(type)

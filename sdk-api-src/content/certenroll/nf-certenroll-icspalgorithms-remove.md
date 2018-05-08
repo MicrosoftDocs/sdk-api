@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.Remove
-title: ICspAlgorithms::Remove method
+title: ICspAlgorithms::Remove
 author: windows-driver-content
 description: Removes an ICspAlgorithm object from the collection by index number.
 old-location: security\icspalgorithms_remove_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 9116ca78-3b99-4b9a-97af-d01077e201f7
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspAlgorithms, ICspAlgorithms interface [Security], Remove method, ICspAlgorithms::Remove, Remove method [Security], Remove method [Security], ICspAlgorithms interface, Remove,ICspAlgorithms.Remove, certenroll/ICspAlgorithms::Remove, security.icspalgorithms_remove_method
+ms.keywords: ICspAlgorithms interface [Security],Remove method, ICspAlgorithms.Remove, ICspAlgorithms::Remove, Remove, Remove method [Security], Remove method [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::Remove, security.icspalgorithms_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspAlgorithms::Remove method
+# ICspAlgorithms::Remove
 
 
 ## -description

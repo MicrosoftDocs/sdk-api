@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CachedLastSelectedItem
-title: IUIAutomationSelectionPattern2::get_CachedLastSelectedItem method
+title: IUIAutomationSelectionPattern2::get_CachedLastSelectedItem
 author: windows-driver-content
 description: Gets a cached IUIAutomationElement object representing the last item in a group of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedLastSelectedItem.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: B0A3D3C6-75A4-4E4A-A104-B09EF6C77751
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedLastSelectedItem property [Windows Accessibility], CachedLastSelectedItem property [Windows Accessibility], IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2, IUIAutomationSelectionPattern2 interface [Windows Accessibility], CachedLastSelectedItem property, IUIAutomationSelectionPattern2.CachedLastSelectedItem, IUIAutomationSelectionPattern2::get_CachedLastSelectedItem, get_CachedLastSelectedItem,IUIAutomationSelectionPattern2.get_CachedLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CachedLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedLastSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CachedLastSelectedItem
+ms.keywords: CachedLastSelectedItem property [Windows Accessibility], CachedLastSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CachedLastSelectedItem property, IUIAutomationSelectionPattern2.CachedLastSelectedItem, IUIAutomationSelectionPattern2.get_CachedLastSelectedItem, IUIAutomationSelectionPattern2::CachedLastSelectedItem, IUIAutomationSelectionPattern2::get_CachedLastSelectedItem, get_CachedLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CachedLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedLastSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CachedLastSelectedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationSelectionPattern2::get_CachedLastSelectedItem method
+# IUIAutomationSelectionPattern2::get_CachedLastSelectedItem
 
 
 ## -description

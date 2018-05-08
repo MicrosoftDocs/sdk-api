@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetACPFromPoint
-title: ITextStoreACP2::GetACPFromPoint method
+title: ITextStoreACP2::GetACPFromPoint
 author: windows-driver-content
 description: Converts a point in screen coordinates to an application character position.
 old-location: tsf\itextstoreacp2_getacpfrompoint.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2907cd34-6ebe-45b4-afd6-8062212c3dc9
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework], ITextStoreACP2 interface, GetACPFromPoint,ITextStoreACP2.GetACPFromPoint, ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], GetACPFromPoint method, ITextStoreACP2::GetACPFromPoint, textstor/ITextStoreACP2::GetACPFromPoint, tsf.itextstoreacp2_getacpfrompoint
+ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetACPFromPoint method, ITextStoreACP2.GetACPFromPoint, ITextStoreACP2::GetACPFromPoint, textstor/ITextStoreACP2::GetACPFromPoint, tsf.itextstoreacp2_getacpfrompoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP2::GetACPFromPoint method
+# ITextStoreACP2::GetACPFromPoint
 
 
 ## -description

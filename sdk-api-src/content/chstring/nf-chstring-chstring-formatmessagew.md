@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.FormatMessageW
-title: CHString::FormatMessageW method
+title: CHString::FormatMessageW
 author: windows-driver-content
 description: The overloaded FormatMessageW method formats a message string.
 old-location: wmi\chstring_formatmessagew.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 45780467-d3aa-4927-aa53-60e5ee277c27
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHString, CHString::FormatMessageW, CHString::FormatMessageW methods [Windows Management Instrumentation], FormatMessageW,CHString.FormatMessageW, chstring/CHString::FormatMessageW, wmi.chstring_formatmessagew
+ms.keywords: CHString.FormatMessageW, CHString::FormatMessageW, CHString::FormatMessageW methods [Windows Management Instrumentation], FormatMessageW, chstring/CHString::FormatMessageW, wmi.chstring_formatmessagew
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::FormatMessageW method
+# CHString::FormatMessageW
 
 
 ## -description

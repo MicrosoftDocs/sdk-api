@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem.get_DataSize32BitHigh
-title: IFsiFileItem::get_DataSize32BitHigh method
+title: IFsiFileItem::get_DataSize32BitHigh
 author: windows-driver-content
 description: Retrieves the most significant 32 bits of the IFsiFileItem::get_DataSize property.
 old-location: imapi\ifsifileitem_get_datasize32bithigh.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 2f4f06e7-10a6-4aa0-b7b1-bf8799fcd41e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiFileItem, IFsiFileItem interface [IMAPI], get_DataSize32BitHigh method, IFsiFileItem::get_DataSize32BitHigh, get_DataSize32BitHigh method [IMAPI], get_DataSize32BitHigh method [IMAPI], IFsiFileItem interface, get_DataSize32BitHigh,IFsiFileItem.get_DataSize32BitHigh, imapi.ifsifileitem_get_datasize32bithigh, imapi2fs/IFsiFileItem::get_DataSize32BitHigh
+ms.keywords: IFsiFileItem interface [IMAPI],get_DataSize32BitHigh method, IFsiFileItem.get_DataSize32BitHigh, IFsiFileItem::get_DataSize32BitHigh, get_DataSize32BitHigh, get_DataSize32BitHigh method [IMAPI], get_DataSize32BitHigh method [IMAPI],IFsiFileItem interface, imapi.ifsifileitem_get_datasize32bithigh, imapi2fs/IFsiFileItem::get_DataSize32BitHigh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiFileItem::get_DataSize32BitHigh method
+# IFsiFileItem::get_DataSize32BitHigh
 
 
 ## -description

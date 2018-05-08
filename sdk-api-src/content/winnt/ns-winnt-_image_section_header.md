@@ -66,14 +66,12 @@ An 8-byte, null-padded UTF-8 string. There is no terminating null character if t
 ### -field Misc
 
 
-
-#### PhysicalAddress
+### -field Misc.PhysicalAddress
 
 The file address.
 
 
-
-#### VirtualSize
+### -field Misc.VirtualSize
 
 The total size of the section when loaded into memory, in bytes. If this value is greater than the <b>SizeOfRawData</b> member, the section is filled with zeroes. This field is valid only for executable images and should be set to 0 for object files.
 

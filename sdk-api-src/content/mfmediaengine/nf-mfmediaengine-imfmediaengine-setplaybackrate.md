@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetPlaybackRate
-title: IMFMediaEngine::SetPlaybackRate method
+title: IMFMediaEngine::SetPlaybackRate
 author: windows-driver-content
 description: Sets the current playback rate.
 old-location: mf\imfmediaengine_setplaybackrate.htm
 old-project: medfound
 ms.assetid: 648BF1CC-BFAC-4874-808B-F8B46E3E9989
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], SetPlaybackRate method, IMFMediaEngine::SetPlaybackRate, SetPlaybackRate method [Media Foundation], SetPlaybackRate method [Media Foundation], IMFMediaEngine interface, SetPlaybackRate,IMFMediaEngine.SetPlaybackRate, mf.imfmediaengine_setplaybackrate, mfmediaengine/IMFMediaEngine::SetPlaybackRate
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngine interface [Media Foundation],SetPlaybackRate method, IMFMediaEngine.SetPlaybackRate, IMFMediaEngine::SetPlaybackRate, SetPlaybackRate, SetPlaybackRate method [Media Foundation], SetPlaybackRate method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setplaybackrate, mfmediaengine/IMFMediaEngine::SetPlaybackRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::SetPlaybackRate method
+# IMFMediaEngine::SetPlaybackRate
 
 
 ## -description

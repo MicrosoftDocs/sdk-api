@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetRealTimeMode
-title: IMFMediaEngineEx::GetRealTimeMode method
+title: IMFMediaEngineEx::GetRealTimeMode
 author: windows-driver-content
 description: Gets the real time mode used for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_getrealtimemode.htm
 old-project: medfound
 ms.assetid: 473a2b5a-5b9d-4754-bd32-89c9c4ab8c4a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetRealTimeMode method [Media Foundation], GetRealTimeMode method [Media Foundation], IMFMediaEngineEx interface, GetRealTimeMode,IMFMediaEngineEx.GetRealTimeMode, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetRealTimeMode method, IMFMediaEngineEx::GetRealTimeMode, mf.imfmediaengineex_getrealtimemode, mfmediaengine/IMFMediaEngineEx::GetRealTimeMode
+ms.date: 5/3/2018
+ms.keywords: GetRealTimeMode, GetRealTimeMode method [Media Foundation], GetRealTimeMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetRealTimeMode method, IMFMediaEngineEx.GetRealTimeMode, IMFMediaEngineEx::GetRealTimeMode, mf.imfmediaengineex_getrealtimemode, mfmediaengine/IMFMediaEngineEx::GetRealTimeMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::GetRealTimeMode method
+# IMFMediaEngineEx::GetRealTimeMode
 
 
 ## -description

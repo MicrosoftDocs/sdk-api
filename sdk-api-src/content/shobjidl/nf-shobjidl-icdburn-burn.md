@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.ICDBurn.Burn
-title: ICDBurn::Burn method
+title: ICDBurn::Burn
 author: windows-driver-content
 description: Instructs data to be copied from the staging area to a writable CD.
 old-location: shell\ICDBurn_Burn.htm
 old-project: shell
 ms.assetid: e081973a-e923-45de-93ba-3281be73cc93
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Burn method [Windows Shell], Burn method [Windows Shell], ICDBurn interface, Burn,ICDBurn.Burn, ICDBurn, ICDBurn interface [Windows Shell], Burn method, ICDBurn::Burn, _shell_ICDBurn_Burn, shell.ICDBurn_Burn, shobjidl/ICDBurn::Burn
+ms.date: 5/3/2018
+ms.keywords: Burn, Burn method [Windows Shell], Burn method [Windows Shell],ICDBurn interface, ICDBurn interface [Windows Shell],Burn method, ICDBurn.Burn, ICDBurn::Burn, _shell_ICDBurn_Burn, shell.ICDBurn_Burn, shobjidl/ICDBurn::Burn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ICDBurn::Burn method
+# ICDBurn::Burn
 
 
 ## -description

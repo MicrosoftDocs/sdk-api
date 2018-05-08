@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateQueryWriterFromReader
-title: IWICImagingFactory::CreateQueryWriterFromReader method
+title: IWICImagingFactory::CreateQueryWriterFromReader
 author: windows-driver-content
 description: Creates a new instance of a query writer based on the given query reader. The query writer will be pre-populated with metadata from the query reader.
 old-location: wic\_wic_codec_iwicimagingfactory_createquerywriterfromreader.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 71c278f8-546f-4351-9e2c-b9cd9806ccfc
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateQueryWriterFromReader method [Windows Imaging Component], CreateQueryWriterFromReader method [Windows Imaging Component], IWICImagingFactory interface, CreateQueryWriterFromReader,IWICImagingFactory.CreateQueryWriterFromReader, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateQueryWriterFromReader method, IWICImagingFactory::CreateQueryWriterFromReader, _wic_codec_iwicimagingfactory_createquerywriterfromreader, wic._wic_codec_iwicimagingfactory_createquerywriterfromreader, wincodec/IWICImagingFactory::CreateQueryWriterFromReader
+ms.keywords: CreateQueryWriterFromReader, CreateQueryWriterFromReader method [Windows Imaging Component], CreateQueryWriterFromReader method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateQueryWriterFromReader method, IWICImagingFactory.CreateQueryWriterFromReader, IWICImagingFactory::CreateQueryWriterFromReader, _wic_codec_iwicimagingfactory_createquerywriterfromreader, wic._wic_codec_iwicimagingfactory_createquerywriterfromreader, wincodec/IWICImagingFactory::CreateQueryWriterFromReader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICImagingFactory::CreateQueryWriterFromReader method
+# IWICImagingFactory::CreateQueryWriterFromReader
 
 
 ## -description

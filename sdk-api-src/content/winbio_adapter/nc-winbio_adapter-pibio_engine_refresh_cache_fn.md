@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: AD0A3BBC-3948-402A-AC3A-96BAF00A164C
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterRefreshCache, EngineAdapterRefreshCache callback function [Windows Biometric Framework API], PIBIO_ENGINE_REFRESH_CACHE_FN, secbiomet.engineadapterrefreshcache, winbio_adapter/EngineAdapterRefreshCache
+ms.keywords: EngineAdapterRefreshCache, EngineAdapterRefreshCache callback function [Windows Biometric Framework API], PIBIO_ENGINE_REFRESH_CACHE_FN, PIBIO_ENGINE_REFRESH_CACHE_FN callback, secbiomet.engineadapterrefreshcache, winbio_adapter/EngineAdapterRefreshCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_REFRESH_CACHE_FN callback
+# PIBIO_ENGINE_REFRESH_CACHE_FN callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.Initialize
-title: IX509EnrollmentHelper::Initialize method
+title: IX509EnrollmentHelper::Initialize
 author: windows-driver-content
 description: Initializes an IX509EnrollmentHelper object.
 old-location: security\ix509enrollmenthelper_initialize.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 83cb603b-9396-4983-8707-12d1c5b8b234
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentHelper, IX509EnrollmentHelper interface [Security], Initialize method, IX509EnrollmentHelper::Initialize, Initialize method [Security], Initialize method [Security], IX509EnrollmentHelper interface, Initialize,IX509EnrollmentHelper.Initialize, certenroll/IX509EnrollmentHelper::Initialize, security.ix509enrollmenthelper_initialize
+ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentHelper interface [Security],Initialize method, IX509EnrollmentHelper.Initialize, IX509EnrollmentHelper::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentHelper interface, certenroll/IX509EnrollmentHelper::Initialize, security.ix509enrollmenthelper_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509EnrollmentHelper::Initialize method
+# IX509EnrollmentHelper::Initialize
 
 
 ## -description

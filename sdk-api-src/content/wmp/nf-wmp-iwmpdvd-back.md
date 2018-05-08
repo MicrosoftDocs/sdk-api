@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPDVD.back
-title: IWMPDVD::back method
+title: IWMPDVD::back
 author: windows-driver-content
 description: The back method returns the display from a submenu to its parent menu.
 old-location: wmp\iwmpdvd_back.htm
 old-project: WMP
 ms.assetid: 89d3c8e2-4517-45db-a20c-961089ee8845
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], back method, IWMPDVD::back, IWMPDVDback, back method [Windows Media Player], back method [Windows Media Player], IWMPDVD interface, back,IWMPDVD.back, wmp.iwmpdvd_back, wmp/IWMPDVD::back
+ms.date: 5/4/2018
+ms.keywords: IWMPDVD interface [Windows Media Player],back method, IWMPDVD.back, IWMPDVD::back, IWMPDVDback, back, back method [Windows Media Player], back method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_back, wmp/IWMPDVD::back
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPDVD::back method
+# IWMPDVD::back
 
 
 ## -description

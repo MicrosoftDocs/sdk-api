@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.SetValue
-title: ICertEncodeLongArray::SetValue method
+title: ICertEncodeLongArray::SetValue
 author: windows-driver-content
 description: Sets a Long value at the specified index of the Long array.
 old-location: security\icertencodelongarray_setvalue.htm
 old-project: SecCrypto
 ms.assetid: 021b2539-3226-4893-af76-9b7b1637e12e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeLongArray object [Security], SetValue method, ICertEncodeLongArray, ICertEncodeLongArray interface [Security], SetValue method, ICertEncodeLongArray::SetValue, SetValue method [Security], SetValue method [Security], CCertEncodeLongArray object, SetValue method [Security], ICertEncodeLongArray interface, SetValue,ICertEncodeLongArray.SetValue, _certsrv_icertencodelongarray_setvalue, certenc/ICertEncodeLongArray::SetValue, security.icertencodelongarray_setvalue
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeLongArray object [Security],SetValue method, ICertEncodeLongArray interface [Security],SetValue method, ICertEncodeLongArray.SetValue, ICertEncodeLongArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeLongArray object, SetValue method [Security],ICertEncodeLongArray interface, _certsrv_icertencodelongarray_setvalue, certenc/ICertEncodeLongArray::SetValue, security.icertencodelongarray_setvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeLongArray::SetValue method
+# ICertEncodeLongArray::SetValue
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.GetFunctionProvider
-title: ITfThreadMgr2::GetFunctionProvider method
+title: ITfThreadMgr2::GetFunctionProvider
 author: windows-driver-content
 description: Obtains the specified function provider object.
 old-location: tsf\itfthreadmgr2_getfunctionprovider.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4B2B2098-ECA1-454F-8F7F-978893C466F7
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GUID_APP_FUNCTIONPROVIDER, GUID_SYSTEM_FUNCTIONPROVIDER, GetFunctionProvider method [Text Services Framework], GetFunctionProvider method [Text Services Framework], ITfThreadMgr2 interface, GetFunctionProvider,ITfThreadMgr2.GetFunctionProvider, ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], GetFunctionProvider method, ITfThreadMgr2::GetFunctionProvider, msctf/ITfThreadMgr2::GetFunctionProvider, tsf.itfthreadmgr2_getfunctionprovider
+ms.keywords: GUID_APP_FUNCTIONPROVIDER, GUID_SYSTEM_FUNCTIONPROVIDER, GetFunctionProvider, GetFunctionProvider method [Text Services Framework], GetFunctionProvider method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetFunctionProvider method, ITfThreadMgr2.GetFunctionProvider, ITfThreadMgr2::GetFunctionProvider, msctf/ITfThreadMgr2::GetFunctionProvider, tsf.itfthreadmgr2_getfunctionprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr2::GetFunctionProvider method
+# ITfThreadMgr2::GetFunctionProvider
 
 
 ## -description

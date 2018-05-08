@@ -1,14 +1,14 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.InitializeBitmap
-title: ISharedBitmap::InitializeBitmap method
+title: ISharedBitmap::InitializeBitmap
 author: windows-driver-content
 description: Initializes a new ISharedBitmap object with a given bitmap.
 old-location: shell\ISharedBitmap_InitializeBitmap.htm
 old-project: shell
 ms.assetid: 55018484-df70-43fa-b494-215035b90ceb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISharedBitmap, ISharedBitmap interface [Windows Shell], InitializeBitmap method, ISharedBitmap::InitializeBitmap, InitializeBitmap method [Windows Shell], InitializeBitmap method [Windows Shell], ISharedBitmap interface, InitializeBitmap,ISharedBitmap.InitializeBitmap, WTSAT_ARGB, WTSAT_RGB, WTSAT_UNKNOWN, _shell__InitializeBitmap, shell.ISharedBitmap_InitializeBitmap, thumbcache/ISharedBitmap::InitializeBitmap
+ms.date: 5/3/2018
+ms.keywords: ISharedBitmap interface [Windows Shell],InitializeBitmap method, ISharedBitmap.InitializeBitmap, ISharedBitmap::InitializeBitmap, InitializeBitmap, InitializeBitmap method [Windows Shell], InitializeBitmap method [Windows Shell],ISharedBitmap interface, WTSAT_ARGB, WTSAT_RGB, WTSAT_UNKNOWN, _shell__InitializeBitmap, shell.ISharedBitmap_InitializeBitmap, thumbcache/ISharedBitmap::InitializeBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISharedBitmap::InitializeBitmap method
+# ISharedBitmap::InitializeBitmap
 
 
 ## -description

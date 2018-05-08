@@ -7,7 +7,7 @@ old-location: netvista\nl_prefix_origin.htm
 old-project: netvista
 ms.assetid: 8530da02-13ca-44b9-8013-fe80a70d4618
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: IpPrefixOriginDhcp, IpPrefixOriginManual, IpPrefixOriginOther, IpPrefixOriginRouterAdvertisement, IpPrefixOriginUnchanged, IpPrefixOriginWellKnown, NL_PREFIX_ORIGIN, NL_PREFIX_ORIGIN enumeration [Network Drivers Starting with Windows Vista], iphelper_cd3bafc5-3703-42fa-b3b1-56519340fc34.xml, netvista.nl_prefix_origin, nldef/IpPrefixOriginDhcp, nldef/IpPrefixOriginManual, nldef/IpPrefixOriginOther, nldef/IpPrefixOriginRouterAdvertisement, nldef/IpPrefixOriginUnchanged, nldef/IpPrefixOriginWellKnown, nldef/NL_PREFIX_ORIGIN
 ms.prod: windows-hardware
 ms.technology: windows-devices

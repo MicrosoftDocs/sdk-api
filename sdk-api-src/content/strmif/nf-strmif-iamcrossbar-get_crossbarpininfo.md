@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMCrossbar.get_CrossbarPinInfo
-title: IAMCrossbar::get_CrossbarPinInfo method
+title: IAMCrossbar::get_CrossbarPinInfo
 author: windows-driver-content
 description: The get_CrossbarPinInfo method retrieves information about a specified pin.
 old-location: dshow\iamcrossbar_get_crossbarpininfo.htm
 old-project: DirectShow
 ms.assetid: 29cda12e-a731-4995-8e0c-69dfcda6f158
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: FALSE, IAMCrossbar, IAMCrossbar interface [DirectShow], get_CrossbarPinInfo method, IAMCrossbar::get_CrossbarPinInfo, IAMCrossbarget_CrossbarPinInfo, TRUE, dshow.iamcrossbar_get_crossbarpininfo, get_CrossbarPinInfo method [DirectShow], get_CrossbarPinInfo method [DirectShow], IAMCrossbar interface, get_CrossbarPinInfo,IAMCrossbar.get_CrossbarPinInfo, strmif/IAMCrossbar::get_CrossbarPinInfo
+ms.date: 4/30/2018
+ms.keywords: FALSE, IAMCrossbar interface [DirectShow],get_CrossbarPinInfo method, IAMCrossbar.get_CrossbarPinInfo, IAMCrossbar::get_CrossbarPinInfo, IAMCrossbarget_CrossbarPinInfo, TRUE, dshow.iamcrossbar_get_crossbarpininfo, get_CrossbarPinInfo, get_CrossbarPinInfo method [DirectShow], get_CrossbarPinInfo method [DirectShow],IAMCrossbar interface, strmif/IAMCrossbar::get_CrossbarPinInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMCrossbar::get_CrossbarPinInfo method
+# IAMCrossbar::get_CrossbarPinInfo
 
 
 ## -description

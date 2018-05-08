@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.NetTransportArrived
-title: IOfflineFilesEvents::NetTransportArrived method
+title: IOfflineFilesEvents::NetTransportArrived
 author: windows-driver-content
 description: Reports that the Offline Files feature has detected the arrival of a network transport.
 old-location: of\iofflinefilesevents_nettransportarrived.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: ac44010b-b14f-41d7-89f7-6f7822ed2a5d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], NetTransportArrived method, IOfflineFilesEvents::NetTransportArrived, NetTransportArrived method [Offline Files], NetTransportArrived method [Offline Files], IOfflineFilesEvents interface, NetTransportArrived,IOfflineFilesEvents.NetTransportArrived, cscobj/IOfflineFilesEvents::NetTransportArrived, of.iofflinefilesevents_nettransportarrived
+ms.keywords: IOfflineFilesEvents interface [Offline Files],NetTransportArrived method, IOfflineFilesEvents.NetTransportArrived, IOfflineFilesEvents::NetTransportArrived, NetTransportArrived, NetTransportArrived method [Offline Files], NetTransportArrived method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::NetTransportArrived, of.iofflinefilesevents_nettransportarrived
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents::NetTransportArrived method
+# IOfflineFilesEvents::NetTransportArrived
 
 
 ## -description

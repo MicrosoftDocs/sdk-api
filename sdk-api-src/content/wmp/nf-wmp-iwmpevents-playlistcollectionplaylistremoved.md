@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.PlaylistCollectionPlaylistRemoved
-title: IWMPEvents::PlaylistCollectionPlaylistRemoved method
+title: IWMPEvents::PlaylistCollectionPlaylistRemoved
 author: windows-driver-content
 description: The PlaylistCollectionPlaylistRemoved event occurs when a playlist is removed from the playlist collection.
 old-location: wmp\iwmpevents_iwmpevents__playlistcollectionplaylistremoved.htm
 old-project: WMP
 ms.assetid: 53b7e883-f392-4a07-8952-ab7a6e9c436e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], PlaylistCollectionPlaylistRemoved method, IWMPEvents::PlaylistCollectionPlaylistRemoved, IWMPEventsPlaylistCollectionPlaylistRemoved, PlaylistCollectionPlaylistRemoved method [Windows Media Player], PlaylistCollectionPlaylistRemoved method [Windows Media Player], IWMPEvents interface, PlaylistCollectionPlaylistRemoved,IWMPEvents.PlaylistCollectionPlaylistRemoved, wmp.iwmpevents_iwmpevents__playlistcollectionplaylistremoved, wmp/IWMPEvents::PlaylistCollectionPlaylistRemoved
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistCollectionPlaylistRemoved method, IWMPEvents.PlaylistCollectionPlaylistRemoved, IWMPEvents::PlaylistCollectionPlaylistRemoved, IWMPEventsPlaylistCollectionPlaylistRemoved, PlaylistCollectionPlaylistRemoved, PlaylistCollectionPlaylistRemoved method [Windows Media Player], PlaylistCollectionPlaylistRemoved method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistcollectionplaylistremoved, wmp/IWMPEvents::PlaylistCollectionPlaylistRemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::PlaylistCollectionPlaylistRemoved method
+# IWMPEvents::PlaylistCollectionPlaylistRemoved
 
 
 ## -description

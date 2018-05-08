@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: b650b1c6-0597-468a-afdc-a21d61f1a8a0
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMStarterGPOCollection, IGPMStarterGPOCollection, IGPMStarterGPOCollection interface [GPMC], IGPMStarterGPOCollection interface [GPMC], described, gpmc.igpmstartergpocollection, gpmgmt/IGPMStarterGPOCollection
+ms.keywords: GPMStarterGPOCollection, IGPMStarterGPOCollection, IGPMStarterGPOCollection interface [GPMC], IGPMStarterGPOCollection interface [GPMC],described, gpmc.igpmstartergpocollection, gpmgmt/IGPMStarterGPOCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

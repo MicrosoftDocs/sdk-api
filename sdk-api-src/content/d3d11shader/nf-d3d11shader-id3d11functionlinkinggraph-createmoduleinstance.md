@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.CreateModuleInstance
-title: ID3D11FunctionLinkingGraph::CreateModuleInstance method
+title: ID3D11FunctionLinkingGraph::CreateModuleInstance
 author: windows-driver-content
 description: Initializes a shader module from the function-linking-graph object.
 old-location: direct3d11\id3d11functionlinkinggraph_createmoduleinstance.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 7E854D31-3E34-43A7-ABEB-7FBAC94217F3
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: CreateModuleInstance method [Direct3D 11], CreateModuleInstance method [Direct3D 11], ID3D11FunctionLinkingGraph interface, CreateModuleInstance,ID3D11FunctionLinkingGraph.CreateModuleInstance, ID3D11FunctionLinkingGraph, ID3D11FunctionLinkingGraph interface [Direct3D 11], CreateModuleInstance method, ID3D11FunctionLinkingGraph::CreateModuleInstance, d3d11shader/ID3D11FunctionLinkingGraph::CreateModuleInstance, direct3d11.id3d11functionlinkinggraph_createmoduleinstance
+ms.keywords: CreateModuleInstance, CreateModuleInstance method [Direct3D 11], CreateModuleInstance method [Direct3D 11],ID3D11FunctionLinkingGraph interface, ID3D11FunctionLinkingGraph interface [Direct3D 11],CreateModuleInstance method, ID3D11FunctionLinkingGraph.CreateModuleInstance, ID3D11FunctionLinkingGraph::CreateModuleInstance, d3d11shader/ID3D11FunctionLinkingGraph::CreateModuleInstance, direct3d11.id3d11functionlinkinggraph_createmoduleinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11FunctionLinkingGraph::CreateModuleInstance method
+# ID3D11FunctionLinkingGraph::CreateModuleInstance
 
 
 ## -description

@@ -135,6 +135,16 @@ The Microsoft DirectDraw runtime uses this flag to turn off a heap when the heap
 Points to the starting address of a memory range in the heap.
 
 
+### -field fpEnd
+
+Points to the ending address of a memory range if the heap is linear. This address is inclusive, that is, it specifies the last valid address in the range. Thus, the number of bytes specified by <b>fpStart</b> and <b>fpEnd</b> is (<b>fpEnd</b> - <b>fpStart </b>+ 1).
+
+
+### -field dwWidth
+
+Specifies the width in bytes of the section of memory pointed to by <b>fpStart</b>. This member should only be used to describe rectangular memory regions.
+
+
 ### -field ddsCapsAlt
 
 Specifies a DDSCAPS structure in which the driver returns the capabilities for which this chunk of memory cannot be used when no other memory is found on the first pass.
@@ -145,24 +155,14 @@ Specifies a DDSCAPS structure in which the driver returns the capabilities for w
 Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550286">DDSCAPS</a> structure in which the driver returns the capabilities for which this section of memory cannot be used.
 
 
-#### - dwHeight
-
-Specifies the height of the chunk of memory to which <b>fpStart</b> points. This member should only be used to describe rectangular memory regions. 
-
-
-#### - dwWidth
-
-Specifies the width in bytes of the section of memory pointed to by <b>fpStart</b>. This member should only be used to describe rectangular memory regions.
-
-
-#### - fpEnd
-
-Points to the ending address of a memory range if the heap is linear. This address is inclusive, that is, it specifies the last valid address in the range. Thus, the number of bytes specified by <b>fpStart</b> and <b>fpEnd</b> is (<b>fpEnd</b> - <b>fpStart </b>+ 1).
-
-
-#### - lpHeap
+### -field lpHeap
 
 Reserved for system use and should be ignored by the driver.
+
+
+### -field dwHeight
+
+Specifies the height of the chunk of memory to which <b>fpStart</b> points. This member should only be used to describe rectangular memory regions. 
 
 
 ## -remarks

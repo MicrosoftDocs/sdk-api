@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF.GetFileSystemProperties
-title: IVdsVolumeMF::GetFileSystemProperties method
+title: IVdsVolumeMF::GetFileSystemProperties
 author: windows-driver-content
 description: Returns property details about the file system on the current volume.
 old-location: base\ivdsvolumemf_getfilesystemproperties.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 43f5495c-5a60-44fd-b217-16464c4693a4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetFileSystemProperties method [VDS], GetFileSystemProperties method [VDS], IVdsVolumeMF interface, GetFileSystemProperties,IVdsVolumeMF.GetFileSystemProperties, IVdsVolumeMF, IVdsVolumeMF interface [VDS], GetFileSystemProperties method, IVdsVolumeMF::GetFileSystemProperties, base.ivdsvolumemf_getfilesystemproperties, vds/IVdsVolumeMF::GetFileSystemProperties
+ms.keywords: GetFileSystemProperties, GetFileSystemProperties method [VDS], GetFileSystemProperties method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],GetFileSystemProperties method, IVdsVolumeMF.GetFileSystemProperties, IVdsVolumeMF::GetFileSystemProperties, base.ivdsvolumemf_getfilesystemproperties, vds/IVdsVolumeMF::GetFileSystemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolumeMF::GetFileSystemProperties method
+# IVdsVolumeMF::GetFileSystemProperties
 
 
 ## -description

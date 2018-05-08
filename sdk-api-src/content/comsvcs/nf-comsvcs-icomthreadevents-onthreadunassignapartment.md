@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadUnassignApartment
-title: IComThreadEvents::OnThreadUnassignApartment method
+title: IComThreadEvents::OnThreadUnassignApartment
 author: windows-driver-content
 description: Generated when an activity is unassigned from an apartment thread.
 old-location: cos\icomthreadevents_onthreadunassignapartment.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: c57b2427-9c39-4068-b531-9f18264746a1
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComThreadEvents, IComThreadEvents interface [COM+], OnThreadUnassignApartment method, IComThreadEvents::OnThreadUnassignApartment, OnThreadUnassignApartment method [COM+], OnThreadUnassignApartment method [COM+], IComThreadEvents interface, OnThreadUnassignApartment,IComThreadEvents.OnThreadUnassignApartment, _dtc_IComThreadEvents_OnThreadUnassignApartment, comsvcs/IComThreadEvents::OnThreadUnassignApartment, cos.icomthreadevents_onthreadunassignapartment
+ms.keywords: IComThreadEvents interface [COM+],OnThreadUnassignApartment method, IComThreadEvents.OnThreadUnassignApartment, IComThreadEvents::OnThreadUnassignApartment, OnThreadUnassignApartment, OnThreadUnassignApartment method [COM+], OnThreadUnassignApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadUnassignApartment, comsvcs/IComThreadEvents::OnThreadUnassignApartment, cos.icomthreadevents_onthreadunassignapartment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComThreadEvents::OnThreadUnassignApartment method
+# IComThreadEvents::OnThreadUnassignApartment
 
 
 ## -description

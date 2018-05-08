@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_SessionStartBlock
-title: IFileSystemImage::get_SessionStartBlock method
+title: IFileSystemImage::get_SessionStartBlock
 author: windows-driver-content
 description: Retrieves the starting block address for the recording session.
 old-location: imapi\ifilesystemimage_get_sessionstartblock.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 0f1faea7-4272-42da-afdf-3399c9dd629f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_SessionStartBlock method, IFileSystemImage::get_SessionStartBlock, get_SessionStartBlock method [IMAPI], get_SessionStartBlock method [IMAPI], IFileSystemImage interface, get_SessionStartBlock,IFileSystemImage.get_SessionStartBlock, imapi.ifilesystemimage_get_sessionstartblock, imapi2fs/IFileSystemImage::get_SessionStartBlock
+ms.keywords: IFileSystemImage interface [IMAPI],get_SessionStartBlock method, IFileSystemImage.get_SessionStartBlock, IFileSystemImage::get_SessionStartBlock, get_SessionStartBlock, get_SessionStartBlock method [IMAPI], get_SessionStartBlock method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_sessionstartblock, imapi2fs/IFileSystemImage::get_SessionStartBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::get_SessionStartBlock method
+# IFileSystemImage::get_SessionStartBlock
 
 
 ## -description

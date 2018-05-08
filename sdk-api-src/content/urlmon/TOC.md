@@ -1,0 +1,5 @@
+# [Component Object Model (COM)](../_com/index.md)
+## [Urlmon.h](index.md)
+### [CreateAsyncBindCtx function](../urlmon/nf-urlmon-createasyncbindctx.md)
+### [CreateFormatEnumerator function](../urlmon/nf-urlmon-createformatenumerator.md)
+### [_tagSOFTDISTINFO structure](../urlmon/ns-urlmon-_tagsoftdistinfo.md)

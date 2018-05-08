@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: c8e612f5-e7cd-45ff-9eaf-9d1674231161
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileScreenTemplate, IFsrmFileScreenTemplate interface [File Server Resource Manager], IFsrmFileScreenTemplate interface [File Server Resource Manager], described, fs.ifsrmfilescreentemplate, fsrm.ifsrmfilescreentemplate, fsrmscreen/IFsrmFileScreenTemplate
+ms.keywords: IFsrmFileScreenTemplate, IFsrmFileScreenTemplate interface [File Server Resource Manager], IFsrmFileScreenTemplate interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplate, fsrm.ifsrmfilescreentemplate, fsrmscreen/IFsrmFileScreenTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsPassword
-title: IUIAutomationElement::get_CachedIsPassword method
+title: IUIAutomationElement::get_CachedIsPassword
 author: windows-driver-content
 description: Retrieves a cached value that indicates whether the element contains a disguised password.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsPassword.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2e73bc18-851f-4675-9439-5687c5133a3d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedIsPassword property [Windows Accessibility], CachedIsPassword property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedIsPassword property, IUIAutomationElement.CachedIsPassword, IUIAutomationElement::get_CachedIsPassword, get_CachedIsPassword,IUIAutomationElement.get_CachedIsPassword, uiauto.uiauto_IUIAutomationElement_CachedIsPassword, uiauto_IUIAutomationElement_CachedIsPassword, uiautomationclient/IUIAutomationElement::CachedIsPassword, uiautomationclient/IUIAutomationElement::get_CachedIsPassword, winauto.uiauto_IUIAutomationElement_CachedIsPassword
+ms.keywords: CachedIsPassword property [Windows Accessibility], CachedIsPassword property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsPassword property, IUIAutomationElement.CachedIsPassword, IUIAutomationElement.get_CachedIsPassword, IUIAutomationElement::CachedIsPassword, IUIAutomationElement::get_CachedIsPassword, get_CachedIsPassword, uiauto.uiauto_IUIAutomationElement_CachedIsPassword, uiauto_IUIAutomationElement_CachedIsPassword, uiautomationclient/IUIAutomationElement::CachedIsPassword, uiautomationclient/IUIAutomationElement::get_CachedIsPassword, winauto.uiauto_IUIAutomationElement_CachedIsPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CachedIsPassword method
+# IUIAutomationElement::get_CachedIsPassword
 
 
 ## -description

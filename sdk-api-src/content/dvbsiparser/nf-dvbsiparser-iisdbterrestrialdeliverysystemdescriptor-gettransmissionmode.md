@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
-title: IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode method
+title: IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode
 author: windows-driver-content
 description: Gets the transmission mode from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d7f4659f-0aa6-46a6-a352-da801d132866
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTransmissionMode method [Microsoft TV Technologies], GetTransmissionMode method [Microsoft TV Technologies], IIsdbTerrestrialDeliverySystemDescriptor interface, GetTransmissionMode,IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode, IIsdbTerrestrialDeliverySystemDescriptor, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], GetTransmissionMode method, IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, mstv.iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode
+ms.keywords: GetTransmissionMode, GetTransmissionMode method [Microsoft TV Technologies], GetTransmissionMode method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTransmissionMode method, IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode, IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, mstv.iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode method
+# IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode
 
 
 ## -description

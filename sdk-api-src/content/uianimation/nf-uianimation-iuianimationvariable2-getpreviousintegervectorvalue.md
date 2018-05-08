@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetPreviousIntegerVectorValue
-title: IUIAnimationVariable2::GetPreviousIntegerVectorValue method
+title: IUIAnimationVariable2::GetPreviousIntegerVectorValue
 author: windows-driver-content
 description: Gets the previous integer value of the animation variable for the specified dimension. This is the value of the animation variable before the most recent update.
 old-location: uianimation\iuianimationvariable2_getpreviousintegervectorvalue.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 7061B16A-FB54-4274-8425-551396F353CF
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetPreviousIntegerVectorValue method [Windows Animation], GetPreviousIntegerVectorValue method [Windows Animation], IUIAnimationVariable2 interface, GetPreviousIntegerVectorValue,IUIAnimationVariable2.GetPreviousIntegerVectorValue, IUIAnimationVariable2, IUIAnimationVariable2 interface [Windows Animation], GetPreviousIntegerVectorValue method, IUIAnimationVariable2::GetPreviousIntegerVectorValue, uianimation.iuianimationvariable2_getpreviousintegervectorvalue, uianimation/IUIAnimationVariable2::GetPreviousIntegerVectorValue
+ms.keywords: GetPreviousIntegerVectorValue, GetPreviousIntegerVectorValue method [Windows Animation], GetPreviousIntegerVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetPreviousIntegerVectorValue method, IUIAnimationVariable2.GetPreviousIntegerVectorValue, IUIAnimationVariable2::GetPreviousIntegerVectorValue, uianimation.iuianimationvariable2_getpreviousintegervectorvalue, uianimation/IUIAnimationVariable2::GetPreviousIntegerVectorValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable2::GetPreviousIntegerVectorValue method
+# IUIAnimationVariable2::GetPreviousIntegerVectorValue
 
 
 ## -description

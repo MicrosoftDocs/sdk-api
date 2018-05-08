@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara2.SetHangingPunctuation
-title: ITextPara2::SetHangingPunctuation method
+title: ITextPara2::SetHangingPunctuation
 author: windows-driver-content
 description: Sets whether to hang punctuation symbols on the right margin when the paragraph is justified.
 old-location: controls\itextpara2_sethangingpunctuation.htm
 old-project: Controls
 ms.assetid: 8c70f76f-7a4a-49b3-bc16-8e90ad7ee041
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], SetHangingPunctuation method, ITextPara2::SetHangingPunctuation, SetHangingPunctuation method [Windows Controls], SetHangingPunctuation method [Windows Controls], ITextPara2 interface, SetHangingPunctuation,ITextPara2.SetHangingPunctuation, controls.itextpara2_sethangingpunctuation, tom/ITextPara2::SetHangingPunctuation
+ms.date: 4/27/2018
+ms.keywords: ITextPara2 interface [Windows Controls],SetHangingPunctuation method, ITextPara2.SetHangingPunctuation, ITextPara2::SetHangingPunctuation, SetHangingPunctuation, SetHangingPunctuation method [Windows Controls], SetHangingPunctuation method [Windows Controls],ITextPara2 interface, controls.itextpara2_sethangingpunctuation, tom/ITextPara2::SetHangingPunctuation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara2::SetHangingPunctuation method
+# ITextPara2::SetHangingPunctuation
 
 
 ## -description

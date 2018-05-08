@@ -1,14 +1,14 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_Application
-title: IShellFolderViewDual::get_Application method
+title: IShellFolderViewDual::get_Application
 author: windows-driver-content
 description: Gets the application object.
 old-location: shell\IShellFolderViewDual_get_Application.htm
 old-project: shell
 ms.assetid: 5d1a82fd-815d-4550-aaf4-662a6eeea287
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellFolderViewDual, IShellFolderViewDual interface [Windows Shell], get_Application method, IShellFolderViewDual::get_Application, _shell_IShellFolderViewDual_get_Application, get_Application method [Windows Shell], get_Application method [Windows Shell], IShellFolderViewDual interface, get_Application,IShellFolderViewDual.get_Application, shell.IShellFolderViewDual_get_Application, shldisp/IShellFolderViewDual::get_Application
+ms.date: 5/3/2018
+ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Application method, IShellFolderViewDual.get_Application, IShellFolderViewDual::get_Application, _shell_IShellFolderViewDual_get_Application, get_Application, get_Application method [Windows Shell], get_Application method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Application, shldisp/IShellFolderViewDual::get_Application
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellFolderViewDual::get_Application method
+# IShellFolderViewDual::get_Application
 
 
 ## -description

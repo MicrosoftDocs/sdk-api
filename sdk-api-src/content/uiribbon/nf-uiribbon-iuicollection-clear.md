@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollection.Clear
-title: IUICollection::Clear method
+title: IUICollection::Clear
 author: windows-driver-content
 description: Deletes all items from the IUICollection.
 old-location: windowsribbon\windowsribbon_iuicollection_clear.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\clear.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Clear method [Windows Ribbon], Clear method [Windows Ribbon], IUICollection interface, Clear,IUICollection.Clear, IUICollection, IUICollection interface [Windows Ribbon], Clear method, IUICollection::Clear, scenicintent_IUICollection_Clear, uiribbon/IUICollection::Clear, windowsribbon.windowsribbon_iuicollection_clear
+ms.keywords: Clear, Clear method [Windows Ribbon], Clear method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],Clear method, IUICollection.Clear, IUICollection::Clear, scenicintent_IUICollection_Clear, uiribbon/IUICollection::Clear, windowsribbon.windowsribbon_iuicollection_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUICollection::Clear method
+# IUICollection::Clear
 
 
 ## -description

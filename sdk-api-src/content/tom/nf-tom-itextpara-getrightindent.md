@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetRightIndent
-title: ITextPara::GetRightIndent method
+title: ITextPara::GetRightIndent
 author: windows-driver-content
 description: Retrieves the size of the right margin indent of a paragraph.
 old-location: controls\ITextPara_GetRightIndent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getrightindent.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetRightIndent method [Windows Controls], GetRightIndent method [Windows Controls], ITextPara interface, GetRightIndent,ITextPara.GetRightIndent, ITextPara, ITextPara interface [Windows Controls], GetRightIndent method, ITextPara::GetRightIndent, _win32_ITextPara_GetRightIndent, _win32_ITextPara_GetRightIndent_cpp, controls.ITextPara_GetRightIndent, controls._win32_ITextPara_GetRightIndent, tom/ITextPara::GetRightIndent
+ms.date: 4/27/2018
+ms.keywords: GetRightIndent, GetRightIndent method [Windows Controls], GetRightIndent method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetRightIndent method, ITextPara.GetRightIndent, ITextPara::GetRightIndent, _win32_ITextPara_GetRightIndent, _win32_ITextPara_GetRightIndent_cpp, controls.ITextPara_GetRightIndent, controls._win32_ITextPara_GetRightIndent, tom/ITextPara::GetRightIndent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetRightIndent method
+# ITextPara::GetRightIndent
 
 
 ## -description

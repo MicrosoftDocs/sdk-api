@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetKeepWithNext
-title: ITextPara::GetKeepWithNext method
+title: ITextPara::GetKeepWithNext
 author: windows-driver-content
 description: Determines whether page breaks are allowed between paragraphs in the range.
 old-location: controls\ITextPara_GetKeepWithNext.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeepwithnext.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetKeepWithNext method [Windows Controls], GetKeepWithNext method [Windows Controls], ITextPara interface, GetKeepWithNext,ITextPara.GetKeepWithNext, ITextPara, ITextPara interface [Windows Controls], GetKeepWithNext method, ITextPara::GetKeepWithNext, _win32_ITextPara_GetKeepWithNext, _win32_ITextPara_GetKeepWithNext_cpp, controls.ITextPara_GetKeepWithNext, controls._win32_ITextPara_GetKeepWithNext, tom/ITextPara::GetKeepWithNext, tomFalse, tomTrue, tomUndefined
+ms.date: 4/27/2018
+ms.keywords: GetKeepWithNext, GetKeepWithNext method [Windows Controls], GetKeepWithNext method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetKeepWithNext method, ITextPara.GetKeepWithNext, ITextPara::GetKeepWithNext, _win32_ITextPara_GetKeepWithNext, _win32_ITextPara_GetKeepWithNext_cpp, controls.ITextPara_GetKeepWithNext, controls._win32_ITextPara_GetKeepWithNext, tom/ITextPara::GetKeepWithNext, tomFalse, tomTrue, tomUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetKeepWithNext method
+# ITextPara::GetKeepWithNext
 
 
 ## -description

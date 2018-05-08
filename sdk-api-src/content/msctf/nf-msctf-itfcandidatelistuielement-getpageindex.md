@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetPageIndex
-title: ITfCandidateListUIElement::GetPageIndex method
+title: ITfCandidateListUIElement::GetPageIndex
 author: windows-driver-content
 description: The ITfCandidateListUIElement::GetPageIndex method returns the page index of the list.
 old-location: tsf\itfcandidatelistuielement_getpageindex.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: d63afb41-0276-4bc9-af4d-319d39de519d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetPageIndex method [Text Services Framework], GetPageIndex method [Text Services Framework], ITfCandidateListUIElement interface, GetPageIndex,ITfCandidateListUIElement.GetPageIndex, ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], GetPageIndex method, ITfCandidateListUIElement::GetPageIndex, msctf/ITfCandidateListUIElement::GetPageIndex, tsf.itfcandidatelistuielement_getpageindex
+ms.keywords: GetPageIndex, GetPageIndex method [Text Services Framework], GetPageIndex method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetPageIndex method, ITfCandidateListUIElement.GetPageIndex, ITfCandidateListUIElement::GetPageIndex, msctf/ITfCandidateListUIElement::GetPageIndex, tsf.itfcandidatelistuielement_getpageindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCandidateListUIElement::GetPageIndex method
+# ITfCandidateListUIElement::GetPageIndex
 
 
 ## -description

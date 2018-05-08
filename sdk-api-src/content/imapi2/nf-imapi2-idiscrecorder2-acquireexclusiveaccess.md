@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.AcquireExclusiveAccess
-title: IDiscRecorder2::AcquireExclusiveAccess method
+title: IDiscRecorder2::AcquireExclusiveAccess
 author: windows-driver-content
 description: Acquires exclusive access to the device.
 old-location: imapi\idiscrecorder2_acquireexclusiveaccess.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 58cb5efa-74bc-4444-aa05-be41a6c63b3a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AcquireExclusiveAccess method [IMAPI], AcquireExclusiveAccess method [IMAPI], IDiscRecorder2 interface, AcquireExclusiveAccess,IDiscRecorder2.AcquireExclusiveAccess, IDiscRecorder2, IDiscRecorder2 interface [IMAPI], AcquireExclusiveAccess method, IDiscRecorder2::AcquireExclusiveAccess, imapi.idiscrecorder2_acquireexclusiveaccess, imapi2/IDiscRecorder2::AcquireExclusiveAccess
+ms.keywords: AcquireExclusiveAccess, AcquireExclusiveAccess method [IMAPI], AcquireExclusiveAccess method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],AcquireExclusiveAccess method, IDiscRecorder2.AcquireExclusiveAccess, IDiscRecorder2::AcquireExclusiveAccess, imapi.idiscrecorder2_acquireexclusiveaccess, imapi2/IDiscRecorder2::AcquireExclusiveAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2::AcquireExclusiveAccess method
+# IDiscRecorder2::AcquireExclusiveAccess
 
 
 ## -description

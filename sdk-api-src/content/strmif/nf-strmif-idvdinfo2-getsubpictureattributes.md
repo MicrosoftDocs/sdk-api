@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetSubpictureAttributes
-title: IDvdInfo2::GetSubpictureAttributes method
+title: IDvdInfo2::GetSubpictureAttributes
 author: windows-driver-content
 description: The GetSubpictureAttributes method retrieves the attributes of the specified subpicture stream in the specified title or menu.
 old-location: dshow\idvdinfo2_getsubpictureattributes.htm
 old-project: DirectShow
 ms.assetid: 3dce0c01-1d39-4f49-984b-8cce08a2e67b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSubpictureAttributes method [DirectShow], GetSubpictureAttributes method [DirectShow], IDvdInfo2 interface, GetSubpictureAttributes,IDvdInfo2.GetSubpictureAttributes, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetSubpictureAttributes method, IDvdInfo2::GetSubpictureAttributes, IDvdInfo2GetSubpictureAttributes, dshow.idvdinfo2_getsubpictureattributes, strmif/IDvdInfo2::GetSubpictureAttributes
+ms.date: 4/30/2018
+ms.keywords: GetSubpictureAttributes, GetSubpictureAttributes method [DirectShow], GetSubpictureAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetSubpictureAttributes method, IDvdInfo2.GetSubpictureAttributes, IDvdInfo2::GetSubpictureAttributes, IDvdInfo2GetSubpictureAttributes, dshow.idvdinfo2_getsubpictureattributes, strmif/IDvdInfo2::GetSubpictureAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo2::GetSubpictureAttributes method
+# IDvdInfo2::GetSubpictureAttributes
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService3.ResolveResource
-title: IVisualTreeService3::ResolveResource method
+title: IVisualTreeService3::ResolveResource
 author: windows-driver-content
 description: Resolves a resource for an element in the tree and applies the resource to the property provided by the specified property index.
 old-location: xaml_diagnostics\ivisualtreeservice3_resolveresource.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 7DDF1FD0-AD9B-4679-831D-CEDF6524181B
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: IVisualTreeService3, IVisualTreeService3 interface, ResolveResource method, IVisualTreeService3::ResolveResource, ResolveResource method, ResolveResource method, IVisualTreeService3 interface, ResolveResource,IVisualTreeService3.ResolveResource, xaml_diagnostics.ivisualtreeservice3_resolveresource, xamlom/IVisualTreeService3::ResolveResource
+ms.keywords: IVisualTreeService3 interface,ResolveResource method, IVisualTreeService3.ResolveResource, IVisualTreeService3::ResolveResource, ResolveResource, ResolveResource method, ResolveResource method,IVisualTreeService3 interface, xaml_diagnostics.ivisualtreeservice3_resolveresource, xamlom/IVisualTreeService3::ResolveResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeService3::ResolveResource method
+# IVisualTreeService3::ResolveResource
 
 
 ## -description

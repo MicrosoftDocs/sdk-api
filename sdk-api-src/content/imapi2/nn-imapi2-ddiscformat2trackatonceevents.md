@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 15d88768-f6e9-4d0a-a132-08f89fb3c34f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: DDiscFormat2TrackAtOnceEvents, DDiscFormat2TrackAtOnceEvents interface [IMAPI], DDiscFormat2TrackAtOnceEvents interface [IMAPI], described, imapi.ddiscformat2trackatonceevents, imapi2/DDiscFormat2TrackAtOnceEvents
+ms.keywords: DDiscFormat2TrackAtOnceEvents, DDiscFormat2TrackAtOnceEvents interface [IMAPI], DDiscFormat2TrackAtOnceEvents interface [IMAPI],described, imapi.ddiscformat2trackatonceevents, imapi2/DDiscFormat2TrackAtOnceEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

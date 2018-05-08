@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.AcceptConnection
-title: IWTSProtocolConnection::AcceptConnection method
+title: IWTSProtocolConnection::AcceptConnection
 author: windows-driver-content
 description: IWTSProtocolConnection::AcceptConnection is no longer available. Instead, use IWRdsProtocolConnection::AcceptConnection.
 old-location: termserv\iwtsprotocolconnection_acceptconnection.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 5be00911-f68a-410d-8d56-81458b5ff44e
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: AcceptConnection method [Remote Desktop Services], AcceptConnection method [Remote Desktop Services], IWTSProtocolConnection interface, AcceptConnection,IWTSProtocolConnection.AcceptConnection, IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], AcceptConnection method, IWTSProtocolConnection::AcceptConnection, termserv.iwtsprotocolconnection_acceptconnection, wtsprotocol/IWTSProtocolConnection::AcceptConnection
+ms.keywords: AcceptConnection, AcceptConnection method [Remote Desktop Services], AcceptConnection method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],AcceptConnection method, IWTSProtocolConnection.AcceptConnection, IWTSProtocolConnection::AcceptConnection, termserv.iwtsprotocolconnection_acceptconnection, wtsprotocol/IWTSProtocolConnection::AcceptConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolConnection::AcceptConnection method
+# IWTSProtocolConnection::AcceptConnection
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetSize
-title: IRecordInfo::GetSize method
+title: IRecordInfo::GetSize
 author: windows-driver-content
 description: Gets the number of bytes of memory necessary to hold the record instance.
 old-location: automat\irecordinfo_getsize.htm
 old-project: automat
 ms.assetid: ca0f43b2-2b8f-4b22-8674-8223f0c607ab
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetSize method [Automation], GetSize method [Automation], IRecordInfo interface, GetSize,IRecordInfo.GetSize, IRecordInfo, IRecordInfo interface [Automation], GetSize method, IRecordInfo::GetSize, _oa96_IRecordInfo_GetSize, automat.irecordinfo_getsize, oaidl/IRecordInfo::GetSize
+ms.date: 5/4/2018
+ms.keywords: GetSize, GetSize method [Automation], GetSize method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetSize method, IRecordInfo.GetSize, IRecordInfo::GetSize, _oa96_IRecordInfo_GetSize, automat.irecordinfo_getsize, oaidl/IRecordInfo::GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRecordInfo::GetSize method
+# IRecordInfo::GetSize
 
 
 ## -description

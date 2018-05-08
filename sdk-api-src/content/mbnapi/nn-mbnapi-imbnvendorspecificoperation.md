@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: cbc905f6-c5ac-4c6a-9021-4ec00b938bb2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnVendorSpecificOperation, IMbnVendorSpecificOperation interface [Microsoft Broadband Networks], IMbnVendorSpecificOperation interface [Microsoft Broadband Networks], described, mbn.imbnvendorspecificoperation, mbnapi/IMbnVendorSpecificOperation
+ms.keywords: IMbnVendorSpecificOperation, IMbnVendorSpecificOperation interface [Microsoft Broadband Networks], IMbnVendorSpecificOperation interface [Microsoft Broadband Networks],described, mbn.imbnvendorspecificoperation, mbnapi/IMbnVendorSpecificOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

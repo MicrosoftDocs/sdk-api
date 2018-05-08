@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StopHandlerSync
-title: ISyncMgrControl::StopHandlerSync method
+title: ISyncMgrControl::StopHandlerSync
 author: windows-driver-content
 description: Stops the synchronization of a specified handler.
 old-location: shell\ISyncMgrControl_StopHandlerSync.htm
 old-project: shell
 ms.assetid: 0a1ba08a-8765-49b5-be71-373af76375f8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrControl, ISyncMgrControl interface [Windows Shell], StopHandlerSync method, ISyncMgrControl::StopHandlerSync, StopHandlerSync method [Windows Shell], StopHandlerSync method [Windows Shell], ISyncMgrControl interface, StopHandlerSync,ISyncMgrControl.StopHandlerSync, _shell_ISyncMgrControl_StopHandlerSync, shell.ISyncMgrControl_StopHandlerSync, syncmgr/ISyncMgrControl::StopHandlerSync
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrControl interface [Windows Shell],StopHandlerSync method, ISyncMgrControl.StopHandlerSync, ISyncMgrControl::StopHandlerSync, StopHandlerSync, StopHandlerSync method [Windows Shell], StopHandlerSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StopHandlerSync, shell.ISyncMgrControl_StopHandlerSync, syncmgr/ISyncMgrControl::StopHandlerSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrControl::StopHandlerSync method
+# ISyncMgrControl::StopHandlerSync
 
 
 ## -description

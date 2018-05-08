@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyList.PurgePropertyList
-title: IADsPropertyList::PurgePropertyList method
+title: IADsPropertyList::PurgePropertyList
 author: windows-driver-content
 description: Deletes all items from the property list.
 old-location: adsi\iadspropertylist_purgepropertylist.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 872c8af7-60c4-4dfc-aa37-0cbb2229a93f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsPropertyList, IADsPropertyList interface [ADSI], PurgePropertyList method, IADsPropertyList::PurgePropertyList, PurgePropertyList method [ADSI], PurgePropertyList method [ADSI], IADsPropertyList interface, PurgePropertyList,IADsPropertyList.PurgePropertyList, _ds_iadspropertylist_purgepropertylist, adsi.iadspropertylist__purgepropertylist, adsi.iadspropertylist_purgepropertylist, iads/IADsPropertyList::PurgePropertyList
+ms.keywords: IADsPropertyList interface [ADSI],PurgePropertyList method, IADsPropertyList.PurgePropertyList, IADsPropertyList::PurgePropertyList, PurgePropertyList, PurgePropertyList method [ADSI], PurgePropertyList method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_purgepropertylist, adsi.iadspropertylist__purgepropertylist, adsi.iadspropertylist_purgepropertylist, iads/IADsPropertyList::PurgePropertyList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsPropertyList::PurgePropertyList method
+# IADsPropertyList::PurgePropertyList
 
 
 ## -description

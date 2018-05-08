@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.SetText
-title: ITextStoreACP2::SetText method
+title: ITextStoreACP2::SetText
 author: windows-driver-content
 description: Sets the text selection to the supplied character positions.
 old-location: tsf\itextstoreacp2_settext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a00b8273-1690-4cf5-899f-afcb1092bfe8
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], SetText method, ITextStoreACP2::SetText, SetText method [Text Services Framework], SetText method [Text Services Framework], ITextStoreACP2 interface, SetText,ITextStoreACP2.SetText, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP2::SetText, tsf.itextstoreacp2_settext
+ms.keywords: ITextStoreACP2 interface [Text Services Framework],SetText method, ITextStoreACP2.SetText, ITextStoreACP2::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITextStoreACP2 interface, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP2::SetText, tsf.itextstoreacp2_settext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP2::SetText method
+# ITextStoreACP2::SetText
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetDuplicate
-title: ITextFont::GetDuplicate method
+title: ITextFont::GetDuplicate
 author: windows-driver-content
 description: Gets a duplicate of this text font object.
 old-location: controls\ITextFont_GetDuplicate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetduplicate.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls], ITextFont interface, GetDuplicate,ITextFont.GetDuplicate, ITextFont, ITextFont interface [Windows Controls], GetDuplicate method, ITextFont::GetDuplicate, _win32_ITextFont_GetDuplicate, _win32_ITextFont_GetDuplicate_cpp, controls.ITextFont_GetDuplicate, controls._win32_ITextFont_GetDuplicate, tom/ITextFont::GetDuplicate
+ms.date: 4/27/2018
+ms.keywords: GetDuplicate, GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetDuplicate method, ITextFont.GetDuplicate, ITextFont::GetDuplicate, _win32_ITextFont_GetDuplicate, _win32_ITextFont_GetDuplicate_cpp, controls.ITextFont_GetDuplicate, controls._win32_ITextFont_GetDuplicate, tom/ITextFont::GetDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetDuplicate method
+# ITextFont::GetDuplicate
 
 
 ## -description

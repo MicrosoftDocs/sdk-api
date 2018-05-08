@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorCollection.CreateDataCollectorFromXml
-title: IDataCollectorCollection::CreateDataCollectorFromXml method
+title: IDataCollectorCollection::CreateDataCollectorFromXml
 author: windows-driver-content
 description: Creates a data collector using the specified XML.
 old-location: pla\idatacollectorcollection_createdatacollectorfromxml.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 32a1aba6-24f4-416a-b2ba-9be264fce3fc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateDataCollectorFromXml method [PLA], CreateDataCollectorFromXml method [PLA], IDataCollectorCollection interface, CreateDataCollectorFromXml,IDataCollectorCollection.CreateDataCollectorFromXml, IDataCollectorCollection, IDataCollectorCollection interface [PLA], CreateDataCollectorFromXml method, IDataCollectorCollection::CreateDataCollectorFromXml, pla.idatacollectorcollection_createdatacollectorfromxml, pla/IDataCollectorCollection::CreateDataCollectorFromXml
+ms.keywords: CreateDataCollectorFromXml, CreateDataCollectorFromXml method [PLA], CreateDataCollectorFromXml method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],CreateDataCollectorFromXml method, IDataCollectorCollection.CreateDataCollectorFromXml, IDataCollectorCollection::CreateDataCollectorFromXml, pla.idatacollectorcollection_createdatacollectorfromxml, pla/IDataCollectorCollection::CreateDataCollectorFromXml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorCollection::CreateDataCollectorFromXml method
+# IDataCollectorCollection::CreateDataCollectorFromXml
 
 
 ## -description

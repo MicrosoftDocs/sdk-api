@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.Stop
-title: IWSDDeviceHost::Stop method
+title: IWSDDeviceHost::Stop
 author: windows-driver-content
 description: Sends a WS-Discovery Bye message and stops the host.
 old-location: ncd\iwsddevicehost_stop_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 7a31e45a-7d38-44b7-84c7-7471bc14cc94
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, Stop method, IWSDDeviceHost::Stop, Stop method, Stop method, IWSDDeviceHost interface, Stop,IWSDDeviceHost.Stop, ncd.iwsddevicehost_stop_method, wsdhost/IWSDDeviceHost::Stop
+ms.keywords: IWSDDeviceHost interface,Stop method, IWSDDeviceHost.Stop, IWSDDeviceHost::Stop, Stop, Stop method, Stop method,IWSDDeviceHost interface, ncd.iwsddevicehost_stop_method, wsdhost/IWSDDeviceHost::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDDeviceHost::Stop method
+# IWSDDeviceHost::Stop
 
 
 ## -description

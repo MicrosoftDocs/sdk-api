@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Deadline
-title: IUpdate::get_Deadline method
+title: IUpdate::get_Deadline
 author: windows-driver-content
 description: Gets the date by which the update must be installed.
 old-location: wua\iupdate_deadline.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 78f5ab06-13d1-4564-b9eb-334d4f0c34e8
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Deadline property [Windows Update Agent], Deadline property [Windows Update Agent], IUpdate interface, IUpdate, IUpdate interface [Windows Update Agent], Deadline property, IUpdate.Deadline, IUpdate::get_Deadline, get_Deadline,IUpdate.get_Deadline, wua.iupdate_deadline, wuapi/IUpdate::Deadline, wuapi/IUpdate::get_Deadline
+ms.keywords: Deadline property [Windows Update Agent], Deadline property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Deadline property, IUpdate.Deadline, IUpdate.get_Deadline, IUpdate::Deadline, IUpdate::get_Deadline, get_Deadline, wua.iupdate_deadline, wuapi/IUpdate::Deadline, wuapi/IUpdate::get_Deadline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IUpdate::get_Deadline method
+# IUpdate::get_Deadline
 
 
 ## -description

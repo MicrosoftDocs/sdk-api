@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.StretchRect
-title: IDirect3DDevice9::StretchRect method
+title: IDirect3DDevice9::StretchRect
 author: windows-driver-content
 description: Copy the contents of the source rectangle to the destination rectangle. The source rectangle can be stretched and filtered by the copy. This function is often used to change the aspect ratio of a video stream.
 old-location: direct3d9\idirect3ddevice9__stretchrect.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__stretchrect.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], StretchRect method, IDirect3DDevice9::StretchRect, StretchRect method [Direct3D 9], StretchRect method [Direct3D 9], IDirect3DDevice9 interface, StretchRect,IDirect3DDevice9.StretchRect, d3d9helper/IDirect3DDevice9::StretchRect, direct3d9.idirect3ddevice9__stretchrect, fef1baf8-c226-1e9b-4d7e-3fad08fc1652
+ms.keywords: IDirect3DDevice9 interface [Direct3D 9],StretchRect method, IDirect3DDevice9.StretchRect, IDirect3DDevice9::StretchRect, StretchRect, StretchRect method [Direct3D 9], StretchRect method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::StretchRect, direct3d9.idirect3ddevice9__stretchrect, fef1baf8-c226-1e9b-4d7e-3fad08fc1652
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::StretchRect method
+# IDirect3DDevice9::StretchRect
 
 
 ## -description

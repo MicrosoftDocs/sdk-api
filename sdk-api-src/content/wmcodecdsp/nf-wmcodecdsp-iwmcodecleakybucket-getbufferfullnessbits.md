@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecLeakyBucket.GetBufferFullnessBits
-title: IWMCodecLeakyBucket::GetBufferFullnessBits method
+title: IWMCodecLeakyBucket::GetBufferFullnessBits
 author: windows-driver-content
 description: Not implemented in this release.
 old-location: mf\iwmcodecleakybucketgetbufferfullnessbits.htm
 old-project: medfound
 ms.assetid: 46eee8c9-e10e-41e3-9400-051b4484eee0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetBufferFullnessBits method [Media Foundation], GetBufferFullnessBits method [Media Foundation], IWMCodecLeakyBucket interface, GetBufferFullnessBits,IWMCodecLeakyBucket.GetBufferFullnessBits, IWMCodecLeakyBucket, IWMCodecLeakyBucket interface [Media Foundation], GetBufferFullnessBits method, IWMCodecLeakyBucket::GetBufferFullnessBits, codecapi.iwmcodecleakybucketgetbufferfullnessbits, codecapi.iwmcodecleakybuffergetbufferfullnessbits, mf.iwmcodecleakybucketgetbufferfullnessbits, wmcodecdsp/ IWMCodecLeakyBucket::GetBufferFullnessBits
+ms.date: 5/3/2018
+ms.keywords: GetBufferFullnessBits, GetBufferFullnessBits method [Media Foundation], GetBufferFullnessBits method [Media Foundation],IWMCodecLeakyBucket interface, IWMCodecLeakyBucket interface [Media Foundation],GetBufferFullnessBits method, IWMCodecLeakyBucket.GetBufferFullnessBits, IWMCodecLeakyBucket::GetBufferFullnessBits, codecapi.iwmcodecleakybucketgetbufferfullnessbits, codecapi.iwmcodecleakybuffergetbufferfullnessbits, mf.iwmcodecleakybucketgetbufferfullnessbits, wmcodecdsp/ IWMCodecLeakyBucket::GetBufferFullnessBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecLeakyBucket::GetBufferFullnessBits method
+# IWMCodecLeakyBucket::GetBufferFullnessBits
 
 
 ## -description

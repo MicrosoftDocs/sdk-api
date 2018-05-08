@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_SuppressOids
-title: IX509CertificateRequestPkcs10::get_SuppressOids method
+title: IX509CertificateRequestPkcs10::get_SuppressOids
 author: windows-driver-content
 description: Retrieves a collection of the default extension and attribute object identifiers (OIDs) that were not added to the request when the request was encoded.
 old-location: security\ix509certificaterequestpkcs10_suppressoids_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 3f7a6d23-00d3-4ab6-817a-a37490f0cb84
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], SuppressOids property, IX509CertificateRequestPkcs10.SuppressOids, IX509CertificateRequestPkcs10::get_SuppressOids, SuppressOids property [Security], SuppressOids property [Security], IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::SuppressOids, certenroll/IX509CertificateRequestPkcs10::get_SuppressOids, get_SuppressOids,IX509CertificateRequestPkcs10.get_SuppressOids, security.ix509certificaterequestpkcs10_suppressoids_property
+ms.keywords: IX509CertificateRequestPkcs10 interface [Security],SuppressOids property, IX509CertificateRequestPkcs10.SuppressOids, IX509CertificateRequestPkcs10.get_SuppressOids, IX509CertificateRequestPkcs10::SuppressOids, IX509CertificateRequestPkcs10::get_SuppressOids, SuppressOids property [Security], SuppressOids property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::SuppressOids, certenroll/IX509CertificateRequestPkcs10::get_SuppressOids, get_SuppressOids, security.ix509certificaterequestpkcs10_suppressoids_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs10::get_SuppressOids method
+# IX509CertificateRequestPkcs10::get_SuppressOids
 
 
 ## -description

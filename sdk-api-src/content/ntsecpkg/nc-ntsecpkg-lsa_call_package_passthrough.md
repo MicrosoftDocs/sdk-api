@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# LSA_CALL_PACKAGE_PASSTHROUGH callback
+# LSA_CALL_PACKAGE_PASSTHROUGH callback function
 
 
 ## -description

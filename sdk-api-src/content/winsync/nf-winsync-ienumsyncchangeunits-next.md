@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Next
-title: IEnumSyncChangeUnits::Next method
+title: IEnumSyncChangeUnits::Next
 author: windows-driver-content
 description: Returns the next change unit.
 old-location: winsync\ienumsyncchangeunits_next.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: e9d237fc-c651-4e94-83cc-8606fe4b2386
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumSyncChangeUnits, IEnumSyncChangeUnits interface [Windows Sync], Next method, IEnumSyncChangeUnits::Next, Next method [Windows Sync], Next method [Windows Sync], IEnumSyncChangeUnits interface, Next,IEnumSyncChangeUnits.Next, winsync.ienumsyncchangeunits_next, winsync/IEnumSyncChangeUnits::Next
+ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Next method, IEnumSyncChangeUnits.Next, IEnumSyncChangeUnits::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_next, winsync/IEnumSyncChangeUnits::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumSyncChangeUnits::Next method
+# IEnumSyncChangeUnits::Next
 
 
 ## -description

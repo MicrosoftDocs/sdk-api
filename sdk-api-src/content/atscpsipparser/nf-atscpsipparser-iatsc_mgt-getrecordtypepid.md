@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_MGT.GetRecordTypePid
-title: IATSC_MGT::GetRecordTypePid method
+title: IATSC_MGT::GetRecordTypePid
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt_getrecordtypepid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c8c4cfba-b03c-478e-a49e-c01d663535a0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordTypePid method [Microsoft TV Technologies], GetRecordTypePid method [Microsoft TV Technologies], IATSC_MGT interface, GetRecordTypePid,IATSC_MGT.GetRecordTypePid, IATSC_MGT, IATSC_MGT interface [Microsoft TV Technologies], GetRecordTypePid method, IATSC_MGT::GetRecordTypePid, IATSC_MGTGetRecordTypePid, atscpsipparser/IATSC_MGT::GetRecordTypePid, mstv.iatsc_mgt_getrecordtypepid
+ms.keywords: GetRecordTypePid, GetRecordTypePid method [Microsoft TV Technologies], GetRecordTypePid method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordTypePid method, IATSC_MGT.GetRecordTypePid, IATSC_MGT::GetRecordTypePid, IATSC_MGTGetRecordTypePid, atscpsipparser/IATSC_MGT::GetRecordTypePid, mstv.iatsc_mgt_getrecordtypepid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_MGT::GetRecordTypePid method
+# IATSC_MGT::GetRecordTypePid
 
 
 ## -description

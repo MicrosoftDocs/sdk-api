@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IProvideTaskPage.GetPage
-title: IProvideTaskPage::GetPage method
+title: IProvideTaskPage::GetPage
 author: windows-driver-content
 description: This method retrieves one or more property sheet pages associated with a task object.
 old-location: taskschd\iprovidetaskpage_getpage.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 2313abc1-587f-473b-8d2e-390dfa7234ab
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetPage method [Task Scheduler], GetPage method [Task Scheduler], IProvideTaskPage interface, GetPage,IProvideTaskPage.GetPage, IProvideTaskPage, IProvideTaskPage interface [Task Scheduler], GetPage method, IProvideTaskPage::GetPage, _msb_iprovidetaskpage_getpage, mstask/IProvideTaskPage::GetPage, taskschd.iprovidetaskpage_getpage
+ms.keywords: GetPage, GetPage method [Task Scheduler], GetPage method [Task Scheduler],IProvideTaskPage interface, IProvideTaskPage interface [Task Scheduler],GetPage method, IProvideTaskPage.GetPage, IProvideTaskPage::GetPage, _msb_iprovidetaskpage_getpage, mstask/IProvideTaskPage::GetPage, taskschd.iprovidetaskpage_getpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IProvideTaskPage::GetPage method
+# IProvideTaskPage::GetPage
 
 
 ## -description

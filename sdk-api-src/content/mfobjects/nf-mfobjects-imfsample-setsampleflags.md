@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFSample.SetSampleFlags
-title: IMFSample::SetSampleFlags method
+title: IMFSample::SetSampleFlags
 author: windows-driver-content
 description: Sets flags associated with the sample.Currently no flags are defined.
 old-location: mf\imfsample_setsampleflags.htm
 old-project: medfound
 ms.assetid: 30dac293-981b-41f3-951d-186d6a603d0a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 30dac293-981b-41f3-951d-186d6a603d0a, IMFSample, IMFSample interface [Media Foundation], SetSampleFlags method, IMFSample::SetSampleFlags, SetSampleFlags method [Media Foundation], SetSampleFlags method [Media Foundation], IMFSample interface, SetSampleFlags,IMFSample.SetSampleFlags, mf.imfsample_setsampleflags, mfobjects/IMFSample::SetSampleFlags
+ms.date: 5/3/2018
+ms.keywords: 30dac293-981b-41f3-951d-186d6a603d0a, IMFSample interface [Media Foundation],SetSampleFlags method, IMFSample.SetSampleFlags, IMFSample::SetSampleFlags, SetSampleFlags, SetSampleFlags method [Media Foundation], SetSampleFlags method [Media Foundation],IMFSample interface, mf.imfsample_setsampleflags, mfobjects/IMFSample::SetSampleFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSample::SetSampleFlags method
+# IMFSample::SetSampleFlags
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetString
-title: IMFAttributes::GetString method
+title: IMFAttributes::GetString
 author: windows-driver-content
 description: Retrieves a wide-character string associated with a key.
 old-location: mf\imfattributes_getstring.htm
 old-project: medfound
 ms.assetid: 756d8fba-d372-46f9-8035-f657d7ff133f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 756d8fba-d372-46f9-8035-f657d7ff133f, GetString method [Media Foundation], GetString method [Media Foundation], IMFAttributes interface, GetString,IMFAttributes.GetString, IMFAttributes, IMFAttributes interface [Media Foundation], GetString method, IMFAttributes::GetString, mf.imfattributes_getstring, mfobjects/IMFAttributes::GetString
+ms.date: 5/3/2018
+ms.keywords: 756d8fba-d372-46f9-8035-f657d7ff133f, GetString, GetString method [Media Foundation], GetString method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetString method, IMFAttributes.GetString, IMFAttributes::GetString, mf.imfattributes_getstring, mfobjects/IMFAttributes::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAttributes::GetString method
+# IMFAttributes::GetString
 
 
 ## -description

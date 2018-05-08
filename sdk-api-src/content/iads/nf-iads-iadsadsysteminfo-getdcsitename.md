@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsADSystemInfo.GetDCSiteName
-title: IADsADSystemInfo::GetDCSiteName method
+title: IADsADSystemInfo::GetDCSiteName
 author: windows-driver-content
 description: Retrieves the name of the Active Directory site that contains the local computer.
 old-location: adsi\iadsadsysteminfo_getdcsitename.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 2b9bb5f2-8312-4413-bbf2-4765fd33a2c6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDCSiteName method [ADSI], GetDCSiteName method [ADSI], IADsADSystemInfo interface, GetDCSiteName,IADsADSystemInfo.GetDCSiteName, IADsADSystemInfo, IADsADSystemInfo interface [ADSI], GetDCSiteName method, IADsADSystemInfo::GetDCSiteName, _ds_iadsadsysteminfo_getdcsitename, adsi.iadsadsysteminfo__getdcsitename, adsi.iadsadsysteminfo_getdcsitename, iads/IADsADSystemInfo::GetDCSiteName
+ms.keywords: GetDCSiteName, GetDCSiteName method [ADSI], GetDCSiteName method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetDCSiteName method, IADsADSystemInfo.GetDCSiteName, IADsADSystemInfo::GetDCSiteName, _ds_iadsadsysteminfo_getdcsitename, adsi.iadsadsysteminfo__getdcsitename, adsi.iadsadsysteminfo_getdcsitename, iads/IADsADSystemInfo::GetDCSiteName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsADSystemInfo::GetDCSiteName method
+# IADsADSystemInfo::GetDCSiteName
 
 
 ## -description

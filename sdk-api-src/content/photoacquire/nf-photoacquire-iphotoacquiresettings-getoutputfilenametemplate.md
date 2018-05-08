@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetOutputFilenameTemplate
-title: IPhotoAcquireSettings::GetOutputFilenameTemplate method
+title: IPhotoAcquireSettings::GetOutputFilenameTemplate
 author: windows-driver-content
 description: The GetOutputFilenameTemplate method retrieves a format string (template) that specifies the format of file names.
 old-location: picacq\iphotoacquiresettings_getoutputfilenametemplate.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: ca36e3f9-74ad-4704-adeb-d3102668da30
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetOutputFilenameTemplate method [Picture Acquisition], GetOutputFilenameTemplate method [Picture Acquisition], IPhotoAcquireSettings interface, GetOutputFilenameTemplate,IPhotoAcquireSettings.GetOutputFilenameTemplate, IPhotoAcquireSettings, IPhotoAcquireSettings interface [Picture Acquisition], GetOutputFilenameTemplate method, IPhotoAcquireSettings::GetOutputFilenameTemplate, IPhotoAcquireSettingsGetOutputFilenameTemplate, photoacquire/IPhotoAcquireSettings::GetOutputFilenameTemplate, picacq.iphotoacquiresettings_getoutputfilenametemplate
+ms.keywords: GetOutputFilenameTemplate, GetOutputFilenameTemplate method [Picture Acquisition], GetOutputFilenameTemplate method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetOutputFilenameTemplate method, IPhotoAcquireSettings.GetOutputFilenameTemplate, IPhotoAcquireSettings::GetOutputFilenameTemplate, IPhotoAcquireSettingsGetOutputFilenameTemplate, photoacquire/IPhotoAcquireSettings::GetOutputFilenameTemplate, picacq.iphotoacquiresettings_getoutputfilenametemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireSettings::GetOutputFilenameTemplate method
+# IPhotoAcquireSettings::GetOutputFilenameTemplate
 
 
 ## -description

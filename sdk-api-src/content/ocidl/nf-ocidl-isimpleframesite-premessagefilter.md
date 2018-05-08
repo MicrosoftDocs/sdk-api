@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.ISimpleFrameSite.PreMessageFilter
-title: ISimpleFrameSite::PreMessageFilter method
+title: ISimpleFrameSite::PreMessageFilter
 author: windows-driver-content
 description: Provides a site with the opportunity to process a message that is received by a control's own window before the control itself does any processing.
 old-location: com\isimpleframesite_premessagefilter.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f308ea77-12e7-450b-8b0f-252f1d240388
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISimpleFrameSite, ISimpleFrameSite interface [COM], PreMessageFilter method, ISimpleFrameSite::PreMessageFilter, PreMessageFilter method [COM], PreMessageFilter method [COM], ISimpleFrameSite interface, PreMessageFilter,ISimpleFrameSite.PreMessageFilter, _ctrl_isimpleframesite_premessagefilter, com.isimpleframesite_premessagefilter, ocidl/ISimpleFrameSite::PreMessageFilter
+ms.keywords: ISimpleFrameSite interface [COM],PreMessageFilter method, ISimpleFrameSite.PreMessageFilter, ISimpleFrameSite::PreMessageFilter, PreMessageFilter, PreMessageFilter method [COM], PreMessageFilter method [COM],ISimpleFrameSite interface, _ctrl_isimpleframesite_premessagefilter, com.isimpleframesite_premessagefilter, ocidl/ISimpleFrameSite::PreMessageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimpleFrameSite::PreMessageFilter method
+# ISimpleFrameSite::PreMessageFilter
 
 
 ## -description

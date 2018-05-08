@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.get_Protocols
-title: IWdsTransportSetupManager::get_Protocols method
+title: IWdsTransportSetupManager::get_Protocols
 author: windows-driver-content
 description: Receives a value that indicates which transport protocols are supported by the WDS server.
 old-location: wds\iwdstransportsetupmanager_protocols.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 554364cf-c3ee-46ce-a483-c3304b608595
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportSetupManager, IWdsTransportSetupManager interface [Windows Deployment Services], Protocols property, IWdsTransportSetupManager.Protocols, IWdsTransportSetupManager::get_Protocols, Protocols property [Windows Deployment Services], Protocols property [Windows Deployment Services], IWdsTransportSetupManager interface, get_Protocols,IWdsTransportSetupManager.get_Protocols, wds.iwdstransportsetupmanager_protocols, wdstptmgmt/IWdsTransportSetupManager::Protocols, wdstptmgmt/IWdsTransportSetupManager::get_Protocols
+ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],Protocols property, IWdsTransportSetupManager.Protocols, IWdsTransportSetupManager.get_Protocols, IWdsTransportSetupManager::Protocols, IWdsTransportSetupManager::get_Protocols, Protocols property [Windows Deployment Services], Protocols property [Windows Deployment Services],IWdsTransportSetupManager interface, get_Protocols, wds.iwdstransportsetupmanager_protocols, wdstptmgmt/IWdsTransportSetupManager::Protocols, wdstptmgmt/IWdsTransportSetupManager::get_Protocols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportSetupManager::get_Protocols method
+# IWdsTransportSetupManager::get_Protocols
 
 
 ## -description

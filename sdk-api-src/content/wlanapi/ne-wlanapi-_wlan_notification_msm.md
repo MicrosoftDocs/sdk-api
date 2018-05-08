@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WLAN_NOTIFICATION_MSM, *PWLAN_NOTIFICATION_MSM, WLAN_NOTIFICATION_MSM, *PWLAN_NOTIFICATION_MSM
+req.typenames: WLAN_NOTIFICATION_MSM, *PWLAN_NOTIFICATION_MSM
 topic_type:
 -	APIRef
 -	kbSyntax

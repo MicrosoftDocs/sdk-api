@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara2.GetTrimPunctuationAtStart
-title: ITextPara2::GetTrimPunctuationAtStart method
+title: ITextPara2::GetTrimPunctuationAtStart
 author: windows-driver-content
 description: Gets whether to trim the leading space of a punctuation symbol at the start of a line.
 old-location: controls\itextpara2_gettrimpunctuationatstart.htm
 old-project: Controls
 ms.assetid: 965df0ef-b8ff-4d0e-8124-c811e74e0208
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetTrimPunctuationAtStart method [Windows Controls], GetTrimPunctuationAtStart method [Windows Controls], ITextPara2 interface, GetTrimPunctuationAtStart,ITextPara2.GetTrimPunctuationAtStart, ITextPara2, ITextPara2 interface [Windows Controls], GetTrimPunctuationAtStart method, ITextPara2::GetTrimPunctuationAtStart, controls.itextpara2_gettrimpunctuationatstart, tom/ITextPara2::GetTrimPunctuationAtStart
+ms.date: 4/27/2018
+ms.keywords: GetTrimPunctuationAtStart, GetTrimPunctuationAtStart method [Windows Controls], GetTrimPunctuationAtStart method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetTrimPunctuationAtStart method, ITextPara2.GetTrimPunctuationAtStart, ITextPara2::GetTrimPunctuationAtStart, controls.itextpara2_gettrimpunctuationatstart, tom/ITextPara2::GetTrimPunctuationAtStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara2::GetTrimPunctuationAtStart method
+# ITextPara2::GetTrimPunctuationAtStart
 
 
 ## -description

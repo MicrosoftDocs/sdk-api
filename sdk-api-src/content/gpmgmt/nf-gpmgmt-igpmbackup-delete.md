@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMBackup.Delete
-title: IGPMBackup::Delete method
+title: IGPMBackup::Delete
 author: windows-driver-content
 description: Removes the Group Policy object (GPO) backup from the backup directory and from the file system.
 old-location: gpmc\igpmbackup_delete.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 096f10ca-1528-4ce7-a135-6fc0007e3374
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Delete method [GPMC], Delete method [GPMC], GPMBackup class, Delete method [GPMC], IGPMBackup interface, Delete,IGPMBackup.Delete, GPMBackup class [GPMC], Delete method, IGPMBackup, IGPMBackup interface [GPMC], Delete method, IGPMBackup::Delete, _win32_igpmbackup_delete, gpmc.igpmbackup_delete, gpmgmt/IGPMBackup::Delete
+ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],GPMBackup class, Delete method [GPMC],IGPMBackup interface, GPMBackup class [GPMC],Delete method, IGPMBackup interface [GPMC],Delete method, IGPMBackup.Delete, IGPMBackup::Delete, _win32_igpmbackup_delete, gpmc.igpmbackup_delete, gpmgmt/IGPMBackup::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMBackup::Delete method
+# IGPMBackup::Delete
 
 
 ## -description

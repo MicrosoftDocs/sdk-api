@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.Lock
-title: IWbemObjectAccess::Lock method
+title: IWbemObjectAccess::Lock
 author: windows-driver-content
 description: The Lock method prevents other threads from updating an IWbemObjectAccess object until it is unlocked.
 old-location: wmi\iwbemobjectaccess_lock.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: c2d4f821-aa6f-48d7-8645-192afe48c30c
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], Lock method, IWbemObjectAccess::Lock, Lock method [Windows Management Instrumentation], Lock method [Windows Management Instrumentation], IWbemObjectAccess interface, Lock,IWbemObjectAccess.Lock, _hmm_iwbemobjectaccess_lock, wbemcli/IWbemObjectAccess::Lock, wmi.iwbemobjectaccess_lock
+ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],Lock method, IWbemObjectAccess.Lock, IWbemObjectAccess::Lock, Lock, Lock method [Windows Management Instrumentation], Lock method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_lock, wbemcli/IWbemObjectAccess::Lock, wmi.iwbemobjectaccess_lock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemObjectAccess::Lock method
+# IWbemObjectAccess::Lock
 
 
 ## -description

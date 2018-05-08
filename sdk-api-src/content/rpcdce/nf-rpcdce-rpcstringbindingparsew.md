@@ -7,7 +7,7 @@ old-location: rpc\rpcstringbindingparse.htm
 old-project: Rpc
 ms.assetid: c55d0259-e251-42d0-8565-ce71ab3bb59c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcStringBindingParse, RpcStringBindingParse function [RPC], RpcStringBindingParseA, RpcStringBindingParseW, _rpc_rpcstringbindingparse, rpc.rpcstringbindingparse, rpcdce/RpcStringBindingParse, rpcdce/RpcStringBindingParseA, rpcdce/RpcStringBindingParseW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 097B7451-9A54-4C39-8F83-16DB49691B42
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxPackageWriter, IAppxPackageWriter interface [App packaging and management], IAppxPackageWriter interface [App packaging and management], described, appxpackaging/IAppxPackageWriter, appxpkg.iappxpackagewriter
+ms.keywords: IAppxPackageWriter, IAppxPackageWriter interface [App packaging and management], IAppxPackageWriter interface [App packaging and management],described, appxpackaging/IAppxPackageWriter, appxpkg.iappxpackagewriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

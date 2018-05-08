@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Clone
-title: IEnumTfDocumentMgrs::Clone method
+title: IEnumTfDocumentMgrs::Clone
 author: windows-driver-content
 description: IEnumTfDocumentMgrs::Clone method
 old-location: tsf\ienumtfdocumentmgrs_clone.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: d7a6ff9c-327b-45bf-93d0-7bf08065ad9c
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Clone method [Text Services Framework], Clone method [Text Services Framework], IEnumTfDocumentMgrs interface, Clone,IEnumTfDocumentMgrs.Clone, IEnumTfDocumentMgrs, IEnumTfDocumentMgrs interface [Text Services Framework], Clone method, IEnumTfDocumentMgrs::Clone, _tsf_ienumtfdocumentmgrs_clone_ref, msctf/IEnumTfDocumentMgrs::Clone, tsf.ienumtfdocumentmgrs_clone
+ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfDocumentMgrs interface, IEnumTfDocumentMgrs interface [Text Services Framework],Clone method, IEnumTfDocumentMgrs.Clone, IEnumTfDocumentMgrs::Clone, _tsf_ienumtfdocumentmgrs_clone_ref, msctf/IEnumTfDocumentMgrs::Clone, tsf.ienumtfdocumentmgrs_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfDocumentMgrs::Clone method
+# IEnumTfDocumentMgrs::Clone
 
 
 ## -description

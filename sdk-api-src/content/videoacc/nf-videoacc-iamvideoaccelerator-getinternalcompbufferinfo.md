@@ -1,14 +1,14 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetInternalCompBufferInfo
-title: IAMVideoAccelerator::GetInternalCompBufferInfo method
+title: IAMVideoAccelerator::GetInternalCompBufferInfo
 author: windows-driver-content
 description: The GetInternalCompBufferInfo method gets information about the compressed buffers used for DirectX Video Acceleration (DXVA) decoding.
 old-location: dshow\iamvideoaccelerator_getinternalcompbufferinfo.htm
 old-project: DirectShow
 ms.assetid: b60c6bf7-6cb6-4a82-bec4-7f1662d4ee95
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetInternalCompBufferInfo method [DirectShow], GetInternalCompBufferInfo method [DirectShow], IAMVideoAccelerator interface, GetInternalCompBufferInfo,IAMVideoAccelerator.GetInternalCompBufferInfo, IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], GetInternalCompBufferInfo method, IAMVideoAccelerator::GetInternalCompBufferInfo, IAMVideoAcceleratorGetInternalCompBufferInfo, dshow.iamvideoaccelerator_getinternalcompbufferinfo, videoacc/IAMVideoAccelerator::GetInternalCompBufferInfo
+ms.date: 4/30/2018
+ms.keywords: GetInternalCompBufferInfo, GetInternalCompBufferInfo method [DirectShow], GetInternalCompBufferInfo method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetInternalCompBufferInfo method, IAMVideoAccelerator.GetInternalCompBufferInfo, IAMVideoAccelerator::GetInternalCompBufferInfo, IAMVideoAcceleratorGetInternalCompBufferInfo, dshow.iamvideoaccelerator_getinternalcompbufferinfo, videoacc/IAMVideoAccelerator::GetInternalCompBufferInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAMVideoAccelerator::GetInternalCompBufferInfo method
+# IAMVideoAccelerator::GetInternalCompBufferInfo
 
 
 ## -description

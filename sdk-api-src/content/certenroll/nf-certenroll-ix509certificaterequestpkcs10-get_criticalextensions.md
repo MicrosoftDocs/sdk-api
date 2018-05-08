@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_CriticalExtensions
-title: IX509CertificateRequestPkcs10::get_CriticalExtensions method
+title: IX509CertificateRequestPkcs10::get_CriticalExtensions
 author: windows-driver-content
 description: Retrieves an IObjectIds collection that identifies the version 3 certificate extensions marked as critical.
 old-location: security\ix509certificaterequestpkcs10_criticalextensions_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 7ecde7cb-1a73-4fee-a949-c4bb36e61547
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CriticalExtensions property [Security], CriticalExtensions property [Security], IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], CriticalExtensions property, IX509CertificateRequestPkcs10.CriticalExtensions, IX509CertificateRequestPkcs10::get_CriticalExtensions, certenroll/IX509CertificateRequestPkcs10::CriticalExtensions, certenroll/IX509CertificateRequestPkcs10::get_CriticalExtensions, get_CriticalExtensions,IX509CertificateRequestPkcs10.get_CriticalExtensions, security.ix509certificaterequestpkcs10_criticalextensions_property
+ms.keywords: CriticalExtensions property [Security], CriticalExtensions property [Security],IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10 interface [Security],CriticalExtensions property, IX509CertificateRequestPkcs10.CriticalExtensions, IX509CertificateRequestPkcs10.get_CriticalExtensions, IX509CertificateRequestPkcs10::CriticalExtensions, IX509CertificateRequestPkcs10::get_CriticalExtensions, certenroll/IX509CertificateRequestPkcs10::CriticalExtensions, certenroll/IX509CertificateRequestPkcs10::get_CriticalExtensions, get_CriticalExtensions, security.ix509certificaterequestpkcs10_criticalextensions_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs10::get_CriticalExtensions method
+# IX509CertificateRequestPkcs10::get_CriticalExtensions
 
 
 ## -description

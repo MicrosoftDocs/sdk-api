@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideData.GetGuideProgramIDs
-title: IGuideData::GetGuideProgramIDs method
+title: IGuideData::GetGuideProgramIDs
 author: windows-driver-content
 description: The GetGuideProgramIDs method returns a list of unique identifiers for all of the programs contained in all transport streams.
 old-location: mstv\iguidedata_getguideprogramids.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d182057a-096b-4286-8174-a3ce25c1c86f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetGuideProgramIDs method [Microsoft TV Technologies], GetGuideProgramIDs method [Microsoft TV Technologies], IGuideData interface, GetGuideProgramIDs,IGuideData.GetGuideProgramIDs, IGuideData, IGuideData interface [Microsoft TV Technologies], GetGuideProgramIDs method, IGuideData::GetGuideProgramIDs, IGuideDataGetGuideProgramIDs, bdatif/IGuideData::GetGuideProgramIDs, mstv.iguidedata_getguideprogramids
+ms.keywords: GetGuideProgramIDs, GetGuideProgramIDs method [Microsoft TV Technologies], GetGuideProgramIDs method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetGuideProgramIDs method, IGuideData.GetGuideProgramIDs, IGuideData::GetGuideProgramIDs, IGuideDataGetGuideProgramIDs, bdatif/IGuideData::GetGuideProgramIDs, mstv.iguidedata_getguideprogramids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGuideData::GetGuideProgramIDs method
+# IGuideData::GetGuideProgramIDs
 
 
 ## -description

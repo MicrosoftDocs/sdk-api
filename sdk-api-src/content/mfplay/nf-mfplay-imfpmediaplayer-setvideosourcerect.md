@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetVideoSourceRect
-title: IMFPMediaPlayer::SetVideoSourceRect method
+title: IMFPMediaPlayer::SetVideoSourceRect
 author: windows-driver-content
 description: Sets the video source rectangle.
 old-location: mf\imfpmediaplayer_setvideosourcerect.htm
 old-project: medfound
 ms.assetid: c95d724f-40a9-43c5-b81a-8505eda516f7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], SetVideoSourceRect method, IMFPMediaPlayer::SetVideoSourceRect, SetVideoSourceRect method [Media Foundation], SetVideoSourceRect method [Media Foundation], IMFPMediaPlayer interface, SetVideoSourceRect,IMFPMediaPlayer.SetVideoSourceRect, mf.imfpmediaplayer_setvideosourcerect, mfplay/IMFPMediaPlayer::SetVideoSourceRect
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetVideoSourceRect method, IMFPMediaPlayer.SetVideoSourceRect, IMFPMediaPlayer::SetVideoSourceRect, SetVideoSourceRect, SetVideoSourceRect method [Media Foundation], SetVideoSourceRect method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setvideosourcerect, mfplay/IMFPMediaPlayer::SetVideoSourceRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::SetVideoSourceRect method
+# IMFPMediaPlayer::SetVideoSourceRect
 
 
 ## -description

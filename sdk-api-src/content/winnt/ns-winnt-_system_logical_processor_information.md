@@ -156,7 +156,7 @@ This structure contains valid data only if the <b>Relationship</b> member is Rel
 Identifies the <a href="https://msdn.microsoft.com/a1263968-2b26-45cc-bdd7-6aa354821a5a">NUMA</a> node. The valid values of this  parameter are 0 to the highest NUMA node number inclusive. A non-NUMA multiprocessor system will report that all processors belong to one NUMA node.
 
 
-#### - Cache
+### -field DUMMYUNIONNAME.Cache
 
 A <a href="https://msdn.microsoft.com/38cfa605-831c-45ef-a99f-55f42b2b56e9">CACHE_DESCRIPTOR</a> structure that identifies the characteristics of a particular cache. There is one record returned for each cache reported. Some or all caches may not be reported, depending on the mechanism used by the processor to identify its caches. Therefore, do not assume the absence of any particular caches. Caches are not necessarily shared among logical processors.
 
@@ -165,7 +165,7 @@ This structure contains valid data only if the <b>Relationship</b> member is Rel
 <b>Windows Server 2003:  </b>This member is not supported until Windows Server 2003 with SP1 and Windows XP Professional x64 Edition.
 
 
-#### - Reserved
+### -field DUMMYUNIONNAME.Reserved
 
 Reserved. Do not use.
 

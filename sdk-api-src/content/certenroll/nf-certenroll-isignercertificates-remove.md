@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Remove
-title: ISignerCertificates::Remove method
+title: ISignerCertificates::Remove
 author: windows-driver-content
 description: Removes an ISignerCertificate object from the collection by index number.
 old-location: security\isignercertificates_remove_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 3f0a3d9b-590f-4fa2-904c-26593bf977c8
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ISignerCertificates, ISignerCertificates interface [Security], Remove method, ISignerCertificates::Remove, Remove method [Security], Remove method [Security], ISignerCertificates interface, Remove,ISignerCertificates.Remove, certenroll/ISignerCertificates::Remove, security.isignercertificates_remove_method
+ms.keywords: ISignerCertificates interface [Security],Remove method, ISignerCertificates.Remove, ISignerCertificates::Remove, Remove, Remove method [Security], Remove method [Security],ISignerCertificates interface, certenroll/ISignerCertificates::Remove, security.isignercertificates_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ISignerCertificates::Remove method
+# ISignerCertificates::Remove
 
 
 ## -description

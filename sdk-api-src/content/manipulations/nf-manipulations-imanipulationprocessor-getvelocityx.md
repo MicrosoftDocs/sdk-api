@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetVelocityX
-title: IManipulationProcessor::GetVelocityX method
+title: IManipulationProcessor::GetVelocityX
 author: windows-driver-content
 description: Calculates and returns the horizontal velocity for the target object.
 old-location: wintouch\imanipulationprocessor_getvelocityx.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 64524f01-f7b2-4e78-97b8-20686018469f
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetVelocityX method [Windows Touch], GetVelocityX method [Windows Touch], IManipulationProcessor interface, GetVelocityX,IManipulationProcessor.GetVelocityX, IManipulationProcessor, IManipulationProcessor interface [Windows Touch], GetVelocityX method, IManipulationProcessor::GetVelocityX, manipulations/IManipulationProcessor::GetVelocityX, wintouch.imanipulationprocessor_getvelocityx
+ms.keywords: GetVelocityX, GetVelocityX method [Windows Touch], GetVelocityX method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetVelocityX method, IManipulationProcessor.GetVelocityX, IManipulationProcessor::GetVelocityX, manipulations/IManipulationProcessor::GetVelocityX, wintouch.imanipulationprocessor_getvelocityx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IManipulationProcessor::GetVelocityX method
+# IManipulationProcessor::GetVelocityX
 
 
 ## -description

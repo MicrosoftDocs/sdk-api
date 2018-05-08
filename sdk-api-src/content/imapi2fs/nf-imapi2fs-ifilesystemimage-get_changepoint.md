@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_ChangePoint
-title: IFileSystemImage::get_ChangePoint method
+title: IFileSystemImage::get_ChangePoint
 author: windows-driver-content
 description: Retrieves the change point identifier.
 old-location: imapi\ifilesystemimage_get_changepoint.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: e5d15478-e632-4e76-91e2-ee360dfccf19
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_ChangePoint method, IFileSystemImage::get_ChangePoint, get_ChangePoint method [IMAPI], get_ChangePoint method [IMAPI], IFileSystemImage interface, get_ChangePoint,IFileSystemImage.get_ChangePoint, imapi.ifilesystemimage_get_changepoint, imapi2fs/IFileSystemImage::get_ChangePoint
+ms.keywords: IFileSystemImage interface [IMAPI],get_ChangePoint method, IFileSystemImage.get_ChangePoint, IFileSystemImage::get_ChangePoint, get_ChangePoint, get_ChangePoint method [IMAPI], get_ChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_changepoint, imapi2fs/IFileSystemImage::get_ChangePoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::get_ChangePoint method
+# IFileSystemImage::get_ChangePoint
 
 
 ## -description

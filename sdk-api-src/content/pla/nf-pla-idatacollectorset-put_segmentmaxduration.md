@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SegmentMaxDuration
-title: IDataCollectorSet::put_SegmentMaxDuration method
+title: IDataCollectorSet::put_SegmentMaxDuration
 author: windows-driver-content
 description: Retrieves or sets the duration that the data collector set can run before it begins writing to new log files.
 old-location: pla\idatacollectorset_segmentmaxduration.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: d958c7a7-0258-4db6-b650-14a61d59221b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], SegmentMaxDuration property, IDataCollectorSet.SegmentMaxDuration, IDataCollectorSet::get_SegmentMaxDuration, IDataCollectorSet::put_SegmentMaxDuration, SegmentMaxDuration property [PLA], SegmentMaxDuration property [PLA], IDataCollectorSet interface, base.idatacollectorset_segmentmaxduration, pla.idatacollectorset_segmentmaxduration, pla/IDataCollectorSet::SegmentMaxDuration, pla/IDataCollectorSet::get_SegmentMaxDuration, pla/IDataCollectorSet::put_SegmentMaxDuration, put_SegmentMaxDuration,IDataCollectorSet.put_SegmentMaxDuration
+ms.keywords: IDataCollectorSet interface [PLA],SegmentMaxDuration property, IDataCollectorSet.SegmentMaxDuration, IDataCollectorSet.put_SegmentMaxDuration, IDataCollectorSet::SegmentMaxDuration, IDataCollectorSet::get_SegmentMaxDuration, IDataCollectorSet::put_SegmentMaxDuration, SegmentMaxDuration property [PLA], SegmentMaxDuration property [PLA],IDataCollectorSet interface, base.idatacollectorset_segmentmaxduration, pla.idatacollectorset_segmentmaxduration, pla/IDataCollectorSet::SegmentMaxDuration, pla/IDataCollectorSet::get_SegmentMaxDuration, pla/IDataCollectorSet::put_SegmentMaxDuration, put_SegmentMaxDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::put_SegmentMaxDuration method
+# IDataCollectorSet::put_SegmentMaxDuration
 
 
 ## -description

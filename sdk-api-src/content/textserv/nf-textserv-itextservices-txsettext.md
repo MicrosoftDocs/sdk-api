@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextServices.TxSetText
-title: ITextServices::TxSetText method
+title: ITextServices::TxSetText
 author: windows-driver-content
 description: Sets all of the text in the control.
 old-location: controls\ITextServices_TxSetText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsettext.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextServices, ITextServices interface [Windows Controls], TxSetText method, ITextServices::TxSetText, TxSetText method [Windows Controls], TxSetText method [Windows Controls], ITextServices interface, TxSetText,ITextServices.TxSetText, _win32_ITextServices_TxSetText, _win32_ITextServices_TxSetText_cpp, controls.ITextServices_TxSetText, controls._win32_ITextServices_TxSetText, textserv/ITextServices::TxSetText
+ms.date: 4/27/2018
+ms.keywords: ITextServices interface [Windows Controls],TxSetText method, ITextServices.TxSetText, ITextServices::TxSetText, TxSetText, TxSetText method [Windows Controls], TxSetText method [Windows Controls],ITextServices interface, _win32_ITextServices_TxSetText, _win32_ITextServices_TxSetText_cpp, controls.ITextServices_TxSetText, controls._win32_ITextServices_TxSetText, textserv/ITextServices::TxSetText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextServices::TxSetText method
+# ITextServices::TxSetText
 
 
 ## -description

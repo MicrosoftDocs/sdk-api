@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: aa7781b6-2600-4af5-95b8-2ac7928946fa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IActionCollection, IActionCollection interface [Task Scheduler], IActionCollection interface [Task Scheduler], described, actions [Task Scheduler], collection interface, taskschd.iactioncollection, taskschd/IActionCollection
+ms.keywords: IActionCollection, IActionCollection interface [Task Scheduler], IActionCollection interface [Task Scheduler],described, actions [Task Scheduler],collection interface, taskschd.iactioncollection, taskschd/IActionCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

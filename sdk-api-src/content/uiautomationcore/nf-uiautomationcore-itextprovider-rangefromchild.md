@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextProvider.RangeFromChild
-title: ITextProvider::RangeFromChild method
+title: ITextProvider::RangeFromChild
 author: windows-driver-content
 description: Retrieves a text range enclosing a child element such as an image, hyperlink, or other embedded object.
 old-location: winauto\uiauto_ITextProvider_RangeFromChild.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: b55ae687-44e1-499f-8341-0bbf960529fd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITextProvider, ITextProvider interface [Windows Accessibility], RangeFromChild method, ITextProvider::RangeFromChild, RangeFromChild method [Windows Accessibility], RangeFromChild method [Windows Accessibility], ITextProvider interface, RangeFromChild,ITextProvider.RangeFromChild, uiauto.uiauto_ITextProvider_RangeFromChild, uiauto_ITextProvider_RangeFromChild, uiautomationcore/ITextProvider::RangeFromChild, winauto.uiauto_ITextProvider_RangeFromChild
+ms.keywords: ITextProvider interface [Windows Accessibility],RangeFromChild method, ITextProvider.RangeFromChild, ITextProvider::RangeFromChild, RangeFromChild, RangeFromChild method [Windows Accessibility], RangeFromChild method [Windows Accessibility],ITextProvider interface, uiauto.uiauto_ITextProvider_RangeFromChild, uiauto_ITextProvider_RangeFromChild, uiautomationcore/ITextProvider::RangeFromChild, winauto.uiauto_ITextProvider_RangeFromChild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextProvider::RangeFromChild method
+# ITextProvider::RangeFromChild
 
 
 ## -description

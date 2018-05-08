@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.SetBackingFileCount
-title: IStreamBufferConfigure::SetBackingFileCount method
+title: IStreamBufferConfigure::SetBackingFileCount
 author: windows-driver-content
 description: The SetBackingFileCount method sets the maximum and minimum number of backing files.
 old-location: mstv\istreambufferconfigure_setbackingfilecount.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c984ec40-22d0-4670-af7e-3c2ce611850f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IStreamBufferConfigure, IStreamBufferConfigure interface [Microsoft TV Technologies], SetBackingFileCount method, IStreamBufferConfigure::SetBackingFileCount, IStreamBufferConfigureSetBackingFileCount, SetBackingFileCount method [Microsoft TV Technologies], SetBackingFileCount method [Microsoft TV Technologies], IStreamBufferConfigure interface, SetBackingFileCount,IStreamBufferConfigure.SetBackingFileCount, mstv.istreambufferconfigure_setbackingfilecount, sbe/IStreamBufferConfigure::SetBackingFileCount
+ms.keywords: IStreamBufferConfigure interface [Microsoft TV Technologies],SetBackingFileCount method, IStreamBufferConfigure.SetBackingFileCount, IStreamBufferConfigure::SetBackingFileCount, IStreamBufferConfigureSetBackingFileCount, SetBackingFileCount, SetBackingFileCount method [Microsoft TV Technologies], SetBackingFileCount method [Microsoft TV Technologies],IStreamBufferConfigure interface, mstv.istreambufferconfigure_setbackingfilecount, sbe/IStreamBufferConfigure::SetBackingFileCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferConfigure::SetBackingFileCount method
+# IStreamBufferConfigure::SetBackingFileCount
 
 
 ## -description

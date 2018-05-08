@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnReconversion.GetReconversion
-title: ITfFnReconversion::GetReconversion method
+title: ITfFnReconversion::GetReconversion
 author: windows-driver-content
 description: ITfFnReconversion::GetReconversion method
 old-location: tsf\itffnreconversion_getreconversion.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: ed696088-c599-4c83-968e-d09d9ae81c10
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetReconversion method [Text Services Framework], GetReconversion method [Text Services Framework], ITfFnReconversion interface, GetReconversion,ITfFnReconversion.GetReconversion, ITfFnReconversion, ITfFnReconversion interface [Text Services Framework], GetReconversion method, ITfFnReconversion::GetReconversion, _tsf_itffnreconversion_getreconversion_ref, ctffunc/ITfFnReconversion::GetReconversion, tsf.itffnreconversion_getreconversion
+ms.keywords: GetReconversion, GetReconversion method [Text Services Framework], GetReconversion method [Text Services Framework],ITfFnReconversion interface, ITfFnReconversion interface [Text Services Framework],GetReconversion method, ITfFnReconversion.GetReconversion, ITfFnReconversion::GetReconversion, _tsf_itffnreconversion_getreconversion_ref, ctffunc/ITfFnReconversion::GetReconversion, tsf.itffnreconversion_getreconversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfFnReconversion::GetReconversion method
+# ITfFnReconversion::GetReconversion
 
 
 ## -description

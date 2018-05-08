@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 7cdc5c82-4aac-4ec9-b791-93cea33ba8d2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCompartmentMgr, ITfCompartmentMgr interface [Text Services Framework], ITfCompartmentMgr interface [Text Services Framework], described, _tsf_itfcompartmentmgr_ref, msctf/ITfCompartmentMgr, tsf.itfcompartmentmgr
+ms.keywords: ITfCompartmentMgr, ITfCompartmentMgr interface [Text Services Framework], ITfCompartmentMgr interface [Text Services Framework],described, _tsf_itfcompartmentmgr_ref, msctf/ITfCompartmentMgr, tsf.itfcompartmentmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

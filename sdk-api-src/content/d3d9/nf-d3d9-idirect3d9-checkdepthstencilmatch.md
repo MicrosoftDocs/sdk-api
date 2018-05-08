@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3D9.CheckDepthStencilMatch
-title: IDirect3D9::CheckDepthStencilMatch method
+title: IDirect3D9::CheckDepthStencilMatch
 author: windows-driver-content
 description: Determines whether a depth-stencil format is compatible with a render-target format in a particular display mode.
 old-location: direct3d9\idirect3d9__checkdepthstencilmatch.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdepthstencilmatch.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 64b8e751-080a-bbb1-2461-2c51a5600a61, CheckDepthStencilMatch method [Direct3D 9], CheckDepthStencilMatch method [Direct3D 9], IDirect3D9 interface, CheckDepthStencilMatch,IDirect3D9.CheckDepthStencilMatch, IDirect3D9, IDirect3D9 interface [Direct3D 9], CheckDepthStencilMatch method, IDirect3D9::CheckDepthStencilMatch, d3d9helper/IDirect3D9::CheckDepthStencilMatch, direct3d9.idirect3d9__checkdepthstencilmatch
+ms.keywords: 64b8e751-080a-bbb1-2461-2c51a5600a61, CheckDepthStencilMatch, CheckDepthStencilMatch method [Direct3D 9], CheckDepthStencilMatch method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDepthStencilMatch method, IDirect3D9.CheckDepthStencilMatch, IDirect3D9::CheckDepthStencilMatch, d3d9helper/IDirect3D9::CheckDepthStencilMatch, direct3d9.idirect3d9__checkdepthstencilmatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3D9::CheckDepthStencilMatch method
+# IDirect3D9::CheckDepthStencilMatch
 
 
 ## -description

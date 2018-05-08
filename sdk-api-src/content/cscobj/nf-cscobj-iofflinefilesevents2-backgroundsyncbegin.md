@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.BackgroundSyncBegin
-title: IOfflineFilesEvents2::BackgroundSyncBegin method
+title: IOfflineFilesEvents2::BackgroundSyncBegin
 author: windows-driver-content
 description: Reports that the Offline Files service is beginning to perform a background synchronization pass.
 old-location: of\iofflinefilesevents2_backgroundsyncbegin.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 84b71228-904a-4042-8d13-422ae77f7ba5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BackgroundSyncBegin method [Offline Files], BackgroundSyncBegin method [Offline Files], IOfflineFilesEvents2 interface, BackgroundSyncBegin,IOfflineFilesEvents2.BackgroundSyncBegin, IOfflineFilesEvents2, IOfflineFilesEvents2 interface [Offline Files], BackgroundSyncBegin method, IOfflineFilesEvents2::BackgroundSyncBegin, cscobj/IOfflineFilesEvents2::BackgroundSyncBegin, of.iofflinefilesevents2_backgroundsyncbegin
+ms.keywords: BackgroundSyncBegin, BackgroundSyncBegin method [Offline Files], BackgroundSyncBegin method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],BackgroundSyncBegin method, IOfflineFilesEvents2.BackgroundSyncBegin, IOfflineFilesEvents2::BackgroundSyncBegin, cscobj/IOfflineFilesEvents2::BackgroundSyncBegin, of.iofflinefilesevents2_backgroundsyncbegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents2::BackgroundSyncBegin method
+# IOfflineFilesEvents2::BackgroundSyncBegin
 
 
 ## -description

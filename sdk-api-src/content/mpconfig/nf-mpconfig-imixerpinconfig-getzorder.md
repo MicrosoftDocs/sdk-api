@@ -1,14 +1,14 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetZOrder
-title: IMixerPinConfig::GetZOrder method
+title: IMixerPinConfig::GetZOrder
 author: windows-driver-content
 description: The GetZOrder method retrieves the z-order of a particular video stream.
 old-location: dshow\imixerpinconfig_getzorder.htm
 old-project: DirectShow
 ms.assetid: 5089a2b3-2973-4761-82f6-f6af3ac9f560
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetZOrder method [DirectShow], GetZOrder method [DirectShow], IMixerPinConfig interface, GetZOrder,IMixerPinConfig.GetZOrder, IMixerPinConfig, IMixerPinConfig interface [DirectShow], GetZOrder method, IMixerPinConfig::GetZOrder, IMixerPinConfigGetZOrder, dshow.imixerpinconfig_getzorder, mpconfig/IMixerPinConfig::GetZOrder
+ms.date: 4/30/2018
+ms.keywords: GetZOrder, GetZOrder method [DirectShow], GetZOrder method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetZOrder method, IMixerPinConfig.GetZOrder, IMixerPinConfig::GetZOrder, IMixerPinConfigGetZOrder, dshow.imixerpinconfig_getzorder, mpconfig/IMixerPinConfig::GetZOrder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMixerPinConfig::GetZOrder method
+# IMixerPinConfig::GetZOrder
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReferenceEnumerator.Clone
-title: IOpcSignatureReferenceEnumerator::Clone method
+title: IOpcSignatureReferenceEnumerator::Clone
 author: windows-driver-content
 description: Creates a copy of the current IOpcSignatureReferenceEnumerator interface pointer and all its descendants.
 old-location: opc\iopcsignaturereferenceenumerator_clone.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: a0a2d699-ea48-40f9-bb27-5008012f9c9c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions], IOpcSignatureReferenceEnumerator interface, Clone,IOpcSignatureReferenceEnumerator.Clone, IOpcSignatureReferenceEnumerator, IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions], Clone method, IOpcSignatureReferenceEnumerator::Clone, msopc/IOpcSignatureReferenceEnumerator::Clone, opc.iopcsignaturereferenceenumerator_clone
+ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcSignatureReferenceEnumerator interface, IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions],Clone method, IOpcSignatureReferenceEnumerator.Clone, IOpcSignatureReferenceEnumerator::Clone, msopc/IOpcSignatureReferenceEnumerator::Clone, opc.iopcsignaturereferenceenumerator_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureReferenceEnumerator::Clone method
+# IOpcSignatureReferenceEnumerator::Clone
 
 
 ## -description

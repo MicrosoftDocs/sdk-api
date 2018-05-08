@@ -1,14 +1,14 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetConnectInfo
-title: IVPBaseConfig::SetConnectInfo method
+title: IVPBaseConfig::SetConnectInfo
 author: windows-driver-content
 description: The SetConnectInfo method sets the video port connection parameters.
 old-location: dshow\ivpbaseconfig_setconnectinfo.htm
 old-project: DirectShow
 ms.assetid: e52bb213-e6e7-4bae-9e1e-6b34f34cf1d1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], SetConnectInfo method, IVPBaseConfig::SetConnectInfo, IVPBaseConfigSetConnectInfo, SetConnectInfo method [DirectShow], SetConnectInfo method [DirectShow], IVPBaseConfig interface, SetConnectInfo,IVPBaseConfig.SetConnectInfo, dshow.ivpbaseconfig_setconnectinfo, vpconfig/IVPBaseConfig::SetConnectInfo
+ms.date: 4/30/2018
+ms.keywords: IVPBaseConfig interface [DirectShow],SetConnectInfo method, IVPBaseConfig.SetConnectInfo, IVPBaseConfig::SetConnectInfo, IVPBaseConfigSetConnectInfo, SetConnectInfo, SetConnectInfo method [DirectShow], SetConnectInfo method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setconnectinfo, vpconfig/IVPBaseConfig::SetConnectInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVPBaseConfig::SetConnectInfo method
+# IVPBaseConfig::SetConnectInfo
 
 
 ## -description

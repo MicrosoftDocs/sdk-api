@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPropertyPage.Apply
-title: IPropertyPage::Apply method
+title: IPropertyPage::Apply
 author: windows-driver-content
 description: Applies the current values to the underlying objects associated with the property page as previously passed to IPropertyPage::SetObjects.
 old-location: com\ipropertypage_apply.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: af0a1b49-54c3-453f-bd6a-70b63d625acb
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Apply method [COM], Apply method [COM], IPropertyPage interface, Apply,IPropertyPage.Apply, IPropertyPage, IPropertyPage interface [COM], Apply method, IPropertyPage::Apply, _ctrl_ipropertypage_apply, com.ipropertypage_apply, ocidl/IPropertyPage::Apply
+ms.keywords: Apply, Apply method [COM], Apply method [COM],IPropertyPage interface, IPropertyPage interface [COM],Apply method, IPropertyPage.Apply, IPropertyPage::Apply, _ctrl_ipropertypage_apply, com.ipropertypage_apply, ocidl/IPropertyPage::Apply
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyPage::Apply method
+# IPropertyPage::Apply
 
 
 ## -description

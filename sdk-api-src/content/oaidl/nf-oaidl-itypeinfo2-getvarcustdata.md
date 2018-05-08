@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetVarCustData
-title: ITypeInfo2::GetVarCustData method
+title: ITypeInfo2::GetVarCustData
 author: windows-driver-content
 description: Gets the custom data of the specified variable.
 old-location: automat\itypeinfo2_getvarcustdata.htm
 old-project: automat
 ms.assetid: fe033b80-427d-48d1-99c8-4aba8909897e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetVarCustData method [Automation], GetVarCustData method [Automation], ITypeInfo2 interface, GetVarCustData,ITypeInfo2.GetVarCustData, ITypeInfo2, ITypeInfo2 interface [Automation], GetVarCustData method, ITypeInfo2::GetVarCustData, _oa96_ITypeInfo2_GetVarCustData, automat.itypeinfo2_getvarcustdata, oaidl/ITypeInfo2::GetVarCustData
+ms.date: 5/4/2018
+ms.keywords: GetVarCustData, GetVarCustData method [Automation], GetVarCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetVarCustData method, ITypeInfo2.GetVarCustData, ITypeInfo2::GetVarCustData, _oa96_ITypeInfo2_GetVarCustData, automat.itypeinfo2_getvarcustdata, oaidl/ITypeInfo2::GetVarCustData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo2::GetVarCustData method
+# ITypeInfo2::GetVarCustData
 
 
 ## -description

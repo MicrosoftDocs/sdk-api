@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GenerateCustomTonesByCollection
-title: ITLegacyCallMediaControl2::GenerateCustomTonesByCollection method
+title: ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
 author: windows-driver-content
 description: The GenerateCustomTonesByCollection method generates the specified custom tone.
 old-location: tapi3\itlegacycallmediacontrol2_generatecustomtonesbycollection.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 5115192e-68de-4779-92dc-7cf63585faae
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GenerateCustomTonesByCollection method [TAPI 2.2], GenerateCustomTonesByCollection method [TAPI 2.2], ITLegacyCallMediaControl2 interface, GenerateCustomTonesByCollection,ITLegacyCallMediaControl2.GenerateCustomTonesByCollection, ITLegacyCallMediaControl2, ITLegacyCallMediaControl2 interface [TAPI 2.2], GenerateCustomTonesByCollection method, ITLegacyCallMediaControl2::GenerateCustomTonesByCollection, _tapi3_itlegacycallmediacontrol2_generatecustomtonesbycollection, tapi3.itlegacycallmediacontrol2_generatecustomtonesbycollection, tapi3if/ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
+ms.keywords: GenerateCustomTonesByCollection, GenerateCustomTonesByCollection method [TAPI 2.2], GenerateCustomTonesByCollection method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateCustomTonesByCollection method, ITLegacyCallMediaControl2.GenerateCustomTonesByCollection, ITLegacyCallMediaControl2::GenerateCustomTonesByCollection, _tapi3_itlegacycallmediacontrol2_generatecustomtonesbycollection, tapi3.itlegacycallmediacontrol2_generatecustomtonesbycollection, tapi3if/ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITLegacyCallMediaControl2::GenerateCustomTonesByCollection method
+# ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
 
 
 ## -description

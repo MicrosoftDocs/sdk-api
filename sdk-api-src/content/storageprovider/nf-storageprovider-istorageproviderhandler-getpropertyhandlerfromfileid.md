@@ -1,14 +1,14 @@
 ---
 UID: NF:storageprovider.IStorageProviderHandler.GetPropertyHandlerFromFileId
-title: IStorageProviderHandler::GetPropertyHandlerFromFileId method
+title: IStorageProviderHandler::GetPropertyHandlerFromFileId
 author: windows-driver-content
 description: Gets an instance of IStorageProviderPropertyHandler associated with the provided file identifier.
 old-location: shell\istorageproviderhandler_getpropertyhandlerfromfileid.htm
 old-project: shell
 ms.assetid: 6EBC5567-E64E-47FC-A5A9-C482714401D8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPropertyHandlerFromFileId method [Windows Shell], GetPropertyHandlerFromFileId method [Windows Shell], IStorageProviderHandler interface, GetPropertyHandlerFromFileId,IStorageProviderHandler.GetPropertyHandlerFromFileId, IStorageProviderHandler, IStorageProviderHandler interface [Windows Shell], GetPropertyHandlerFromFileId method, IStorageProviderHandler::GetPropertyHandlerFromFileId, shell.istorageproviderhandler_getpropertyhandlerfromfileid, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromFileId
+ms.date: 5/3/2018
+ms.keywords: GetPropertyHandlerFromFileId, GetPropertyHandlerFromFileId method [Windows Shell], GetPropertyHandlerFromFileId method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromFileId method, IStorageProviderHandler.GetPropertyHandlerFromFileId, IStorageProviderHandler::GetPropertyHandlerFromFileId, shell.istorageproviderhandler_getpropertyhandlerfromfileid, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromFileId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IStorageProviderHandler::GetPropertyHandlerFromFileId method
+# IStorageProviderHandler::GetPropertyHandlerFromFileId
 
 
 ## -description

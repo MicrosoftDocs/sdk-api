@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: a4420b1e-e2e5-460c-948c-3c5f97d7a0e7
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPipelineModuleImplementation, IFsrmPipelineModuleImplementation interface [File Server Resource Manager], IFsrmPipelineModuleImplementation interface [File Server Resource Manager], described, fs.ifsrmpipelinemoduleimplementation, fsrm.ifsrmpipelinemoduleimplementation, fsrm/IFsrmPipelineModuleImplementation
+ms.keywords: IFsrmPipelineModuleImplementation, IFsrmPipelineModuleImplementation interface [File Server Resource Manager], IFsrmPipelineModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmpipelinemoduleimplementation, fsrm.ifsrmpipelinemoduleimplementation, fsrm/IFsrmPipelineModuleImplementation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

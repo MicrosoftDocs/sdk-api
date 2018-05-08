@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: b53ab7db-ed17-4386-8a5f-5d0b0d1cb1b3
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PTERMINATE_ROUTINE, PTERMINATE_ROUTINE callback function [Failover Cluster], Terminate, Terminate callback function [Failover Cluster], _wolf_terminate, mscs.terminate, resapi/PTERMINATE_ROUTINE, resapi/Terminate
+ms.keywords: PTERMINATE_ROUTINE, PTERMINATE_ROUTINE callback function [Failover Cluster], Terminate, Terminate callback, Terminate callback function [Failover Cluster], _wolf_terminate, mscs.terminate, resapi/PTERMINATE_ROUTINE, resapi/Terminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PTERMINATE_ROUTINE callback
+# PTERMINATE_ROUTINE callback function
 
 
 ## -description

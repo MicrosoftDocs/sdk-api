@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidEVR.get_SuppressEffects
-title: IMSVidEVR::get_SuppressEffects method
+title: IMSVidEVR::get_SuppressEffects
 author: windows-driver-content
 description: The get_SuppressEffects method queries whether the Video Control configures the system for optimal video playback
 old-location: mstv\imsvidevr_get_suppresseffects.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a3aaf310-6c42-4013-a3bf-25f9c42cdf81
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidEVR, IMSVidEVR interface [Microsoft TV Technologies], get_SuppressEffects method, IMSVidEVR::get_SuppressEffects, IMSVidEVRget_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies], IMSVidEVR interface, get_SuppressEffects,IMSVidEVR.get_SuppressEffects, mstv.imsvidevr_get_suppresseffects, segment/IMSVidEVR::get_SuppressEffects
+ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidEVR.get_SuppressEffects, IMSVidEVR::get_SuppressEffects, IMSVidEVRget_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidEVR interface, mstv.imsvidevr_get_suppresseffects, segment/IMSVidEVR::get_SuppressEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidEVR::get_SuppressEffects method
+# IMSVidEVR::get_SuppressEffects
 
 
 ## -description

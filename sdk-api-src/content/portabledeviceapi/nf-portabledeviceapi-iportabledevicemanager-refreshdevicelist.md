@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.RefreshDeviceList
-title: IPortableDeviceManager::RefreshDeviceList method
+title: IPortableDeviceManager::RefreshDeviceList
 author: windows-driver-content
 description: The RefreshDeviceList method refreshes the list of devices that are connected to the computer.
 old-location: wpdsdk\iportabledevicemanager_refreshdevicelist.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 89163407-7b38-4c79-8171-67a5b7e1d17c
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceManager, IPortableDeviceManager interface [Windows Portable Devices SDK], RefreshDeviceList method, IPortableDeviceManager::RefreshDeviceList, IPortableDeviceManagerRefreshDeviceList, RefreshDeviceList method [Windows Portable Devices SDK], RefreshDeviceList method [Windows Portable Devices SDK], IPortableDeviceManager interface, RefreshDeviceList,IPortableDeviceManager.RefreshDeviceList, portabledeviceapi/IPortableDeviceManager::RefreshDeviceList, wpdsdk.iportabledevicemanager_refreshdevicelist
+ms.keywords: IPortableDeviceManager interface [Windows Portable Devices SDK],RefreshDeviceList method, IPortableDeviceManager.RefreshDeviceList, IPortableDeviceManager::RefreshDeviceList, IPortableDeviceManagerRefreshDeviceList, RefreshDeviceList, RefreshDeviceList method [Windows Portable Devices SDK], RefreshDeviceList method [Windows Portable Devices SDK],IPortableDeviceManager interface, portabledeviceapi/IPortableDeviceManager::RefreshDeviceList, wpdsdk.iportabledevicemanager_refreshdevicelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceManager::RefreshDeviceList method
+# IPortableDeviceManager::RefreshDeviceList
 
 
 ## -description

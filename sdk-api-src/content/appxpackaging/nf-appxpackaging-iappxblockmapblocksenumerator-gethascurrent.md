@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlocksEnumerator.GetHasCurrent
-title: IAppxBlockMapBlocksEnumerator::GetHasCurrent method
+title: IAppxBlockMapBlocksEnumerator::GetHasCurrent
 author: windows-driver-content
 description: Determines whether there is a block at the current position of the enumerator.
 old-location: appxpkg\iappxblockmapblocksenumerator_gethascurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: AC12BCDD-201C-4F22-B39E-1349EB84ED00
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management], IAppxBlockMapBlocksEnumerator interface, GetHasCurrent,IAppxBlockMapBlocksEnumerator.GetHasCurrent, IAppxBlockMapBlocksEnumerator, IAppxBlockMapBlocksEnumerator interface [App packaging and management], GetHasCurrent method, IAppxBlockMapBlocksEnumerator::GetHasCurrent, appxpackaging/IAppxBlockMapBlocksEnumerator::GetHasCurrent, appxpkg.iappxblockmapblocksenumerator_gethascurrent
+ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBlockMapBlocksEnumerator interface, IAppxBlockMapBlocksEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBlockMapBlocksEnumerator.GetHasCurrent, IAppxBlockMapBlocksEnumerator::GetHasCurrent, appxpackaging/IAppxBlockMapBlocksEnumerator::GetHasCurrent, appxpkg.iappxblockmapblocksenumerator_gethascurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapBlocksEnumerator::GetHasCurrent method
+# IAppxBlockMapBlocksEnumerator::GetHasCurrent
 
 
 ## -description

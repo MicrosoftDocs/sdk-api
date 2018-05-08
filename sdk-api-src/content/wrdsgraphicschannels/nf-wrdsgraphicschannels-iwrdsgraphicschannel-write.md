@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannel.Write
-title: IWRdsGraphicsChannel::Write method
+title: IWRdsGraphicsChannel::Write
 author: windows-driver-content
 description: Called to send data to the virtual channel.
 old-location: termserv\iwrdsgraphicschannel_write.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 6ce627d8-078d-427a-b732-473d4f44f719
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsGraphicsChannel, IWRdsGraphicsChannel interface [Remote Desktop Services], Write method, IWRdsGraphicsChannel::Write, Write method [Remote Desktop Services], Write method [Remote Desktop Services], IWRdsGraphicsChannel interface, Write,IWRdsGraphicsChannel.Write, termserv.iwrdsgraphicschannel_write, wrdsgraphicschannels/IWRdsGraphicsChannel::Write
+ms.keywords: IWRdsGraphicsChannel interface [Remote Desktop Services],Write method, IWRdsGraphicsChannel.Write, IWRdsGraphicsChannel::Write, Write, Write method [Remote Desktop Services], Write method [Remote Desktop Services],IWRdsGraphicsChannel interface, termserv.iwrdsgraphicschannel_write, wrdsgraphicschannels/IWRdsGraphicsChannel::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsGraphicsChannel::Write method
+# IWRdsGraphicsChannel::Write
 
 
 ## -description

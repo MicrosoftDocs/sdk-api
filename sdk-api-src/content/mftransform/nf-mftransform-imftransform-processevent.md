@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.ProcessEvent
-title: IMFTransform::ProcessEvent method
+title: IMFTransform::ProcessEvent
 author: windows-driver-content
 description: Sends an event to an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_processevent.htm
 old-project: medfound
 ms.assetid: 28366df3-c414-45ff-bb15-c5483f11de85
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 28366df3-c414-45ff-bb15-c5483f11de85, IMFTransform, IMFTransform interface [Media Foundation], ProcessEvent method, IMFTransform::ProcessEvent, ProcessEvent method [Media Foundation], ProcessEvent method [Media Foundation], IMFTransform interface, ProcessEvent,IMFTransform.ProcessEvent, mf.imftransform_processevent, mftransform/IMFTransform::ProcessEvent
+ms.date: 5/3/2018
+ms.keywords: 28366df3-c414-45ff-bb15-c5483f11de85, IMFTransform interface [Media Foundation],ProcessEvent method, IMFTransform.ProcessEvent, IMFTransform::ProcessEvent, ProcessEvent, ProcessEvent method [Media Foundation], ProcessEvent method [Media Foundation],IMFTransform interface, mf.imftransform_processevent, mftransform/IMFTransform::ProcessEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::ProcessEvent method
+# IMFTransform::ProcessEvent
 
 
 ## -description

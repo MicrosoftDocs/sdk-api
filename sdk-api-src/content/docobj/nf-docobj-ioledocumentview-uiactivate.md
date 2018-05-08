@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.UIActivate
-title: IOleDocumentView::UIActivate method
+title: IOleDocumentView::UIActivate
 author: windows-driver-content
 description: Activates or deactivates a document view's user interface elements, such as menus, toolbars, and accelerators.
 old-location: com\ioledocumentview_uiactivate.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: df92366c-89b3-44b3-bea0-1b6deb321fe4
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], UIActivate method, IOleDocumentView::UIActivate, UIActivate method [COM], UIActivate method [COM], IOleDocumentView interface, UIActivate,IOleDocumentView.UIActivate, _ole_ioledocumentview_uiactivate, com.ioledocumentview_uiactivate, docobj/IOleDocumentView::UIActivate
+ms.keywords: IOleDocumentView interface [COM],UIActivate method, IOleDocumentView.UIActivate, IOleDocumentView::UIActivate, UIActivate, UIActivate method [COM], UIActivate method [COM],IOleDocumentView interface, _ole_ioledocumentview_uiactivate, com.ioledocumentview_uiactivate, docobj/IOleDocumentView::UIActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IOleDocumentView::UIActivate method
+# IOleDocumentView::UIActivate
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordDescriptorByTag
-title: IPBDA_EIT::GetRecordDescriptorByTag method
+title: IPBDA_EIT::GetRecordDescriptorByTag
 author: windows-driver-content
 description: Searches a record in an event information table (EIT) from a Protected Broadcast Device Architecture (PBDA) transport stream for a descriptor with a specified descriptor tag.
 old-location: mstv\ipbda_eit_getrecorddescriptorbytag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d3c711e1-956f-4339-bcaf-78818da540f6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies], IPBDA_EIT interface, GetRecordDescriptorByTag,IPBDA_EIT.GetRecordDescriptorByTag, IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], GetRecordDescriptorByTag method, IPBDA_EIT::GetRecordDescriptorByTag, dvbsiparser/IPBDA_EIT::GetRecordDescriptorByTag, mstv.ipbda_eit_getrecorddescriptorbytag
+ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IPBDA_EIT.GetRecordDescriptorByTag, IPBDA_EIT::GetRecordDescriptorByTag, dvbsiparser/IPBDA_EIT::GetRecordDescriptorByTag, mstv.ipbda_eit_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IPBDA_EIT::GetRecordDescriptorByTag method
+# IPBDA_EIT::GetRecordDescriptorByTag
 
 
 ## -description

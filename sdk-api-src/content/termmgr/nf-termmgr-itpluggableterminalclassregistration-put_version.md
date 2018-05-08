@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_Version
-title: ITPluggableTerminalClassRegistration::put_Version method
+title: ITPluggableTerminalClassRegistration::put_Version
 author: windows-driver-content
 description: The put_Version method sets the terminal version.
 old-location: tapi3\itpluggableterminalclassregistration_put_version.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 1fd659d3-869b-4055-bbd2-e567d13f239d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], put_Version method, ITPluggableTerminalClassRegistration::put_Version, _tapi3_itpluggableterminalclassregistration_put_version, put_Version method [TAPI 2.2], put_Version method [TAPI 2.2], ITPluggableTerminalClassRegistration interface, put_Version,ITPluggableTerminalClassRegistration.put_Version, tapi3.itpluggableterminalclassregistration_put_version, termmgr/ITPluggableTerminalClassRegistration::put_Version
+ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_Version method, ITPluggableTerminalClassRegistration.put_Version, ITPluggableTerminalClassRegistration::put_Version, _tapi3_itpluggableterminalclassregistration_put_version, put_Version, put_Version method [TAPI 2.2], put_Version method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_version, termmgr/ITPluggableTerminalClassRegistration::put_Version
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITPluggableTerminalClassRegistration::put_Version method
+# ITPluggableTerminalClassRegistration::put_Version
 
 
 ## -description

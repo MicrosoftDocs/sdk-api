@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray
-title: ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray method
+title: ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray
 author: windows-driver-content
 description: Set an array of depth-stencil-view resources.
 old-location: direct3d10\id3d10effectdepthstencilviewvariable_setdepthstencilarray.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilviewvariable_setdepthstencilarray.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 19d677a4-86e6-d451-5d65-7ab228f247d5, ID3D10EffectDepthStencilViewVariable, ID3D10EffectDepthStencilViewVariable interface [Direct3D 10], SetDepthStencilArray method, ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray, SetDepthStencilArray method [Direct3D 10], SetDepthStencilArray method [Direct3D 10], ID3D10EffectDepthStencilViewVariable interface, SetDepthStencilArray,ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray, d3d10effect/ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray, direct3d10.id3d10effectdepthstencilviewvariable_setdepthstencilarray
+ms.keywords: 19d677a4-86e6-d451-5d65-7ab228f247d5, ID3D10EffectDepthStencilViewVariable interface [Direct3D 10],SetDepthStencilArray method, ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray, ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray, SetDepthStencilArray, SetDepthStencilArray method [Direct3D 10], SetDepthStencilArray method [Direct3D 10],ID3D10EffectDepthStencilViewVariable interface, d3d10effect/ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray, direct3d10.id3d10effectdepthstencilviewvariable_setdepthstencilarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray method
+# ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray
 
 
 ## -description

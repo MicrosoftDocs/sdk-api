@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.GetText
-title: IWbemPathKeyList::GetText method
+title: IWbemPathKeyList::GetText
 author: windows-driver-content
 description: The IWbemPathKeyList::GetText method retrieves the key list as text.
 old-location: wmi\iwbempathkeylist_gettext.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 01c69709-be6e-4a58-849d-76f9d4e3c196
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetText method [Windows Management Instrumentation], GetText method [Windows Management Instrumentation], IWbemPathKeyList interface, GetText,IWbemPathKeyList.GetText, IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], GetText method, IWbemPathKeyList::GetText, WBEMPATH_QUOTEDTEXT, WBEMPATH_TEXT, _hmm_iwbempathkeylist_gettext, wmi.iwbempathkeylist_gettext, wmiutils/IWbemPathKeyList::GetText
+ms.keywords: GetText, GetText method [Windows Management Instrumentation], GetText method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetText method, IWbemPathKeyList.GetText, IWbemPathKeyList::GetText, WBEMPATH_QUOTEDTEXT, WBEMPATH_TEXT, _hmm_iwbempathkeylist_gettext, wmi.iwbempathkeylist_gettext, wmiutils/IWbemPathKeyList::GetText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPathKeyList::GetText method
+# IWbemPathKeyList::GetText
 
 
 ## -description

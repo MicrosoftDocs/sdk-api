@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemContext.BeginEnumeration
-title: IWbemContext::BeginEnumeration method
+title: IWbemContext::BeginEnumeration
 author: windows-driver-content
 description: The IWbemContext::BeginEnumeration method resets the enumeration of all the context values in the object.
 old-location: wmi\iwbemcontext_beginenumeration.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 34106c63-3b50-4078-babf-12173bd702ba
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: BeginEnumeration method [Windows Management Instrumentation], BeginEnumeration method [Windows Management Instrumentation], IWbemContext interface, BeginEnumeration,IWbemContext.BeginEnumeration, IWbemContext, IWbemContext interface [Windows Management Instrumentation], BeginEnumeration method, IWbemContext::BeginEnumeration, _hmm_iwbemcontext_beginenumeration, wbemcli/IWbemContext::BeginEnumeration, wmi.iwbemcontext_beginenumeration
+ms.keywords: BeginEnumeration, BeginEnumeration method [Windows Management Instrumentation], BeginEnumeration method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],BeginEnumeration method, IWbemContext.BeginEnumeration, IWbemContext::BeginEnumeration, _hmm_iwbemcontext_beginenumeration, wbemcli/IWbemContext::BeginEnumeration, wmi.iwbemcontext_beginenumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemContext::BeginEnumeration method
+# IWbemContext::BeginEnumeration
 
 
 ## -description

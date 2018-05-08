@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged
-title: ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged method
+title: ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged
 author: windows-driver-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of the host of a virtual machine is changed.
 old-location: termserv\itssbprovisioningpluginnotifysink_onvirtualmachinehoststatuschanged.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: d86e9092-42ca-4e62-8613-cdcf2f8b627d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbProvisioningPluginNotifySink, ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services], OnVirtualMachineHostStatusChanged method, ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged, OnVirtualMachineHostStatusChanged method [Remote Desktop Services], OnVirtualMachineHostStatusChanged method [Remote Desktop Services], ITsSbProvisioningPluginNotifySink interface, OnVirtualMachineHostStatusChanged,ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged, sbtsv/ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged, termserv.itssbprovisioningpluginnotifysink_onvirtualmachinehoststatuschanged
+ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnVirtualMachineHostStatusChanged method, ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged, ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged, OnVirtualMachineHostStatusChanged, OnVirtualMachineHostStatusChanged method [Remote Desktop Services], OnVirtualMachineHostStatusChanged method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged, termserv.itssbprovisioningpluginnotifysink_onvirtualmachinehoststatuschanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged method
+# ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged
 
 
 ## -description

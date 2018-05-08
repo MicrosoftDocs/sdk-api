@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Bandwidth
-title: IBDA_FrequencyFilter::put_Bandwidth method
+title: IBDA_FrequencyFilter::put_Bandwidth
 author: windows-driver-content
 description: The put_Bandwidth method specifies the bandwidth.
 old-location: mstv\ibda_frequencyfilter_put_bandwidth.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8e44a5b4-c3ea-4afa-aab3-4f6732a3bd82
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], put_Bandwidth method, IBDA_FrequencyFilter::put_Bandwidth, IBDA_FrequencyFilterput_Bandwidth, bdaiface/IBDA_FrequencyFilter::put_Bandwidth, mstv.ibda_frequencyfilter_put_bandwidth, put_Bandwidth method [Microsoft TV Technologies], put_Bandwidth method [Microsoft TV Technologies], IBDA_FrequencyFilter interface, put_Bandwidth,IBDA_FrequencyFilter.put_Bandwidth
+ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Bandwidth method, IBDA_FrequencyFilter.put_Bandwidth, IBDA_FrequencyFilter::put_Bandwidth, IBDA_FrequencyFilterput_Bandwidth, bdaiface/IBDA_FrequencyFilter::put_Bandwidth, mstv.ibda_frequencyfilter_put_bandwidth, put_Bandwidth, put_Bandwidth method [Microsoft TV Technologies], put_Bandwidth method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_FrequencyFilter::put_Bandwidth method
+# IBDA_FrequencyFilter::put_Bandwidth
 
 
 ## -description

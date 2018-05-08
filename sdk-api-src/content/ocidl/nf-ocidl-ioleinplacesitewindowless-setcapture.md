@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.SetCapture
-title: IOleInPlaceSiteWindowless::SetCapture method
+title: IOleInPlaceSiteWindowless::SetCapture
 author: windows-driver-content
 description: Enables an in-place active, windowless object to capture all mouse messages.
 old-location: com\ioleinplacesitewindowless_setcapture.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 48de7ab3-eb1e-49e1-8d31-ca1ef1f9055d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], SetCapture method, IOleInPlaceSiteWindowless::SetCapture, SetCapture method [COM], SetCapture method [COM], IOleInPlaceSiteWindowless interface, SetCapture,IOleInPlaceSiteWindowless.SetCapture, _ole_ioleinplacesitewindowless_setcapture, com.ioleinplacesitewindowless_setcapture, ocidl/IOleInPlaceSiteWindowless::SetCapture
+ms.keywords: IOleInPlaceSiteWindowless interface [COM],SetCapture method, IOleInPlaceSiteWindowless.SetCapture, IOleInPlaceSiteWindowless::SetCapture, SetCapture, SetCapture method [COM], SetCapture method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_setcapture, com.ioleinplacesitewindowless_setcapture, ocidl/IOleInPlaceSiteWindowless::SetCapture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSiteWindowless::SetCapture method
+# IOleInPlaceSiteWindowless::SetCapture
 
 
 ## -description

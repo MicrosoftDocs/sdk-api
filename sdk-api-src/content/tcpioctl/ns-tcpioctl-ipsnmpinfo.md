@@ -7,7 +7,7 @@ old-location: winprog\ipsnmpinfo.htm
 old-project: DevNotes
 ms.assetid: eb25fae9-1a89-4474-bcb6-28c09bc3e0c9
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: IPSNMPInfo, IPSNMPInfo structure [Windows API], tcpioctl/IPSNMPInfo, winprog.ipsnmpinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

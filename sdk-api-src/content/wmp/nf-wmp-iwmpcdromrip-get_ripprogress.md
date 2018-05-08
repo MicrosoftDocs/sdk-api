@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCdromRip.get_ripProgress
-title: IWMPCdromRip::get_ripProgress method
+title: IWMPCdromRip::get_ripProgress
 author: windows-driver-content
 description: The get_ripProgress method retrieves the CD ripping progress as percent complete.
 old-location: wmp\iwmpcdromrip_get_ripprogress.htm
 old-project: WMP
 ms.assetid: d7140bc9-bf79-48f0-aaf0-155660c8b2c9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCdromRip, IWMPCdromRip interface [Windows Media Player], get_ripProgress method, IWMPCdromRip::get_ripProgress, IWMPCdromRipget_ripProgress, get_ripProgress method [Windows Media Player], get_ripProgress method [Windows Media Player], IWMPCdromRip interface, get_ripProgress,IWMPCdromRip.get_ripProgress, wmp.iwmpcdromrip_get_ripprogress, wmp/IWMPCdromRip::get_ripProgress
+ms.date: 5/4/2018
+ms.keywords: IWMPCdromRip interface [Windows Media Player],get_ripProgress method, IWMPCdromRip.get_ripProgress, IWMPCdromRip::get_ripProgress, IWMPCdromRipget_ripProgress, get_ripProgress, get_ripProgress method [Windows Media Player], get_ripProgress method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_get_ripprogress, wmp/IWMPCdromRip::get_ripProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCdromRip::get_ripProgress method
+# IWMPCdromRip::get_ripProgress
 
 
 ## -description

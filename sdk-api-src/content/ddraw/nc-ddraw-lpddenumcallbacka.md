@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 7F86FA67-C13B-49EE-8D17-9F54E5060A85
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DDEnumCallback, DDEnumCallback callback function [DirectDraw], LPDDENUMCALLBACK, LPDDENUMCALLBACKA, LPDDENUMCALLBACKW, ddraw/DDEnumCallback, directdraw.ddenumcallback
+ms.keywords: DDEnumCallback, DDEnumCallback callback function [DirectDraw], LPDDENUMCALLBACK, LPDDENUMCALLBACK callback, LPDDENUMCALLBACKA, LPDDENUMCALLBACKW, ddraw/DDEnumCallback, directdraw.ddenumcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# LPDDENUMCALLBACKA callback
+# LPDDENUMCALLBACKA callback function
 
 
 ## -description

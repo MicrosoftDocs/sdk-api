@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.SetProxy
-title: IWSManConnectionOptionsEx2::SetProxy method
+title: IWSManConnectionOptionsEx2::SetProxy
 author: windows-driver-content
 description: Sets the proxy information for the session.
 old-location: winrm\iwsmanconnectionoptionsex2_setproxy.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: b87d5625-c77d-41cb-a75d-a45ba0d3fbe6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManConnectionOptionsEx2, IWSManConnectionOptionsEx2 interface [Windows Remote Management], SetProxy method, IWSManConnectionOptionsEx2::SetProxy, SetProxy method [Windows Remote Management], SetProxy method [Windows Remote Management], IWSManConnectionOptionsEx2 interface, SetProxy,IWSManConnectionOptionsEx2.SetProxy, winrm.iwsmanconnectionoptionsex2_setproxy, wsmandisp/IWSManConnectionOptionsEx2::SetProxy
+ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],SetProxy method, IWSManConnectionOptionsEx2.SetProxy, IWSManConnectionOptionsEx2::SetProxy, SetProxy, SetProxy method [Windows Remote Management], SetProxy method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_setproxy, wsmandisp/IWSManConnectionOptionsEx2::SetProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManConnectionOptionsEx2::SetProxy method
+# IWSManConnectionOptionsEx2::SetProxy
 
 
 ## -description

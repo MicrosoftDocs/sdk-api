@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WLAN_AUTOCONF_OPCODE, *PWLAN_AUTOCONF_OPCODE, WLAN_AUTOCONF_OPCODE, *PWLAN_AUTOCONF_OPCODE
+req.typenames: WLAN_AUTOCONF_OPCODE, *PWLAN_AUTOCONF_OPCODE
 topic_type:
 -	APIRef
 -	kbSyntax

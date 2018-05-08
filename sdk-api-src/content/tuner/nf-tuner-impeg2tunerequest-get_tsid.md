@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2TuneRequest.get_TSID
-title: IMPEG2TuneRequest::get_TSID method
+title: IMPEG2TuneRequest::get_TSID
 author: windows-driver-content
 description: The get_TSID method retrieves the transport stream ID.
 old-location: mstv\impeg2tunerequest_get_tsid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 971e2643-e68f-4b4c-86e0-2e20e2f8a88c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMPEG2TuneRequest, IMPEG2TuneRequest interface [Microsoft TV Technologies], get_TSID method, IMPEG2TuneRequest::get_TSID, IMPEG2TuneRequestget_TSID, get_TSID method [Microsoft TV Technologies], get_TSID method [Microsoft TV Technologies], IMPEG2TuneRequest interface, get_TSID,IMPEG2TuneRequest.get_TSID, mstv.impeg2tunerequest_get_tsid, tuner/IMPEG2TuneRequest::get_TSID
+ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],get_TSID method, IMPEG2TuneRequest.get_TSID, IMPEG2TuneRequest::get_TSID, IMPEG2TuneRequestget_TSID, get_TSID, get_TSID method [Microsoft TV Technologies], get_TSID method [Microsoft TV Technologies],IMPEG2TuneRequest interface, mstv.impeg2tunerequest_get_tsid, tuner/IMPEG2TuneRequest::get_TSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMPEG2TuneRequest::get_TSID method
+# IMPEG2TuneRequest::get_TSID
 
 
 ## -description

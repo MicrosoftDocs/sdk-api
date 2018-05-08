@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.get_Account
-title: IFsrmPipelineModuleDefinition::get_Account method
+title: IFsrmPipelineModuleDefinition::get_Account
 author: windows-driver-content
 description: The account to use when running the module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_account.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 8f50bd88-ad16-49a4-b9d8-6c71ef6d9620
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Account property [File Server Resource Manager], Account property [File Server Resource Manager], IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition, IFsrmPipelineModuleDefinition interface [File Server Resource Manager], Account property, IFsrmPipelineModuleDefinition.Account, IFsrmPipelineModuleDefinition::get_Account, IFsrmPipelineModuleDefinition::put_Account, fs.ifsrmpipelinemoduledefinition_account, fsrm.ifsrmpipelinemoduledefinition_account, fsrmpipeline/IFsrmPipelineModuleDefinition::Account, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Account, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Account, get_Account,IFsrmPipelineModuleDefinition.get_Account
+ms.keywords: Account property [File Server Resource Manager], Account property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Account property, IFsrmPipelineModuleDefinition.Account, IFsrmPipelineModuleDefinition.get_Account, IFsrmPipelineModuleDefinition::Account, IFsrmPipelineModuleDefinition::get_Account, IFsrmPipelineModuleDefinition::put_Account, fs.ifsrmpipelinemoduledefinition_account, fsrm.ifsrmpipelinemoduledefinition_account, fsrmpipeline/IFsrmPipelineModuleDefinition::Account, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Account, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Account, get_Account
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPipelineModuleDefinition::get_Account method
+# IFsrmPipelineModuleDefinition::get_Account
 
 
 ## -description

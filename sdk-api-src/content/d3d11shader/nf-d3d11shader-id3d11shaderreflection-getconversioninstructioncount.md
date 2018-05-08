@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetConversionInstructionCount
-title: ID3D11ShaderReflection::GetConversionInstructionCount method
+title: ID3D11ShaderReflection::GetConversionInstructionCount
 author: windows-driver-content
 description: Gets the number of conversion instructions.
 old-location: direct3d11\id3d11shaderreflection_getconversioninstructioncount.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 4876bcc8-44b6-4e26-9f0e-cd915b39acb8
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetConversionInstructionCount method [Direct3D 11], GetConversionInstructionCount method [Direct3D 11], ID3D11ShaderReflection interface, GetConversionInstructionCount,ID3D11ShaderReflection.GetConversionInstructionCount, ID3D11ShaderReflection, ID3D11ShaderReflection interface [Direct3D 11], GetConversionInstructionCount method, ID3D11ShaderReflection::GetConversionInstructionCount, d3d11shader/ID3D11ShaderReflection::GetConversionInstructionCount, db140140-cbc5-e74e-f018-bca611e3b03f, direct3d11.id3d11shaderreflection_getconversioninstructioncount
+ms.keywords: GetConversionInstructionCount, GetConversionInstructionCount method [Direct3D 11], GetConversionInstructionCount method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetConversionInstructionCount method, ID3D11ShaderReflection.GetConversionInstructionCount, ID3D11ShaderReflection::GetConversionInstructionCount, d3d11shader/ID3D11ShaderReflection::GetConversionInstructionCount, db140140-cbc5-e74e-f018-bca611e3b03f, direct3d11.id3d11shaderreflection_getconversioninstructioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ShaderReflection::GetConversionInstructionCount method
+# ID3D11ShaderReflection::GetConversionInstructionCount
 
 
 ## -description

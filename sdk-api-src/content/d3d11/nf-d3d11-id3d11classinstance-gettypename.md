@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11ClassInstance.GetTypeName
-title: ID3D11ClassInstance::GetTypeName method
+title: ID3D11ClassInstance::GetTypeName
 author: windows-driver-content
 description: Gets the type of the current HLSL class.
 old-location: direct3d11\id3d11classinstance_gettypename.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: a46699b5-2250-442a-85ab-37eeb419ac72
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 37b4ce30-bd10-e500-268b-fcbfc22464f2, GetTypeName method [Direct3D 11], GetTypeName method [Direct3D 11], ID3D11ClassInstance interface, GetTypeName,ID3D11ClassInstance.GetTypeName, ID3D11ClassInstance, ID3D11ClassInstance interface [Direct3D 11], GetTypeName method, ID3D11ClassInstance::GetTypeName, d3d11/ID3D11ClassInstance::GetTypeName, direct3d11.id3d11classinstance_gettypename
+ms.keywords: 37b4ce30-bd10-e500-268b-fcbfc22464f2, GetTypeName, GetTypeName method [Direct3D 11], GetTypeName method [Direct3D 11],ID3D11ClassInstance interface, ID3D11ClassInstance interface [Direct3D 11],GetTypeName method, ID3D11ClassInstance.GetTypeName, ID3D11ClassInstance::GetTypeName, d3d11/ID3D11ClassInstance::GetTypeName, direct3d11.id3d11classinstance_gettypename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11ClassInstance::GetTypeName method
+# ID3D11ClassInstance::GetTypeName
 
 
 ## -description

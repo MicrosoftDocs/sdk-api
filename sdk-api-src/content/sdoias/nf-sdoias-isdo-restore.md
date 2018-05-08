@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdo.Restore
-title: ISdo::Restore method
+title: ISdo::Restore
 author: windows-driver-content
 description: The Restore method reloads the values of the Server Data Objects (SDO) properties from persistent storage.
 old-location: nps\SDO_isdo_restore.htm
@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: 446b1234-9b65-45dc-bb67-c315c26205dc
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ISdo, ISdo interface [Network Policy Server], Restore method, ISdo::Restore, Restore method [Network Policy Server], Restore method [Network Policy Server], ISdo interface, Restore,ISdo.Restore, _sdo_isdo_restore, nps.SDO_isdo_restore, sdo.isdo_restore, sdoias/ISdo::Restore
+ms.keywords: ISdo interface [Network Policy Server],Restore method, ISdo.Restore, ISdo::Restore, Restore, Restore method [Network Policy Server], Restore method [Network Policy Server],ISdo interface, _sdo_isdo_restore, nps.SDO_isdo_restore, sdo.isdo_restore, sdoias/ISdo::Restore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISdo::Restore method
+# ISdo::Restore
 
 
 ## -description

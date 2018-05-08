@@ -7,7 +7,7 @@ old-location: rpc\midl_stub_desc.htm
 old-project: Rpc
 ms.assetid: e3178aaa-a30a-43ba-a78a-a28d6f20fa74
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: MIDL_STUB_DESC, MIDL_STUB_DESC structure [RPC], PMIDL_STUB_DESC, PMIDL_STUB_DESC structure pointer [RPC], RPCFLG_HAS_CALLBACK, RPCFLG_HAS_MULTI_SYNTAXES, RPC_INTERFACE_HAS_PIPES, _MIDL_STUB_DESC, rpc.midl_stub_desc, rpcndr/MIDL_STUB_DESC, rpcndr/PMIDL_STUB_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,20 +78,17 @@ Memory-free function to be used by the stub. Set to <a href="https://msdn.micros
 The union contains one of the following handles.
 
 
-
-#### pAutoHandle
+### -field IMPLICIT_HANDLE_INFO.pAutoHandle
 
 Pointer to the implicit auto handle for the RPC call.
 
 
-
-#### pPrimitiveHandle
+### -field IMPLICIT_HANDLE_INFO.pPrimitiveHandle
 
 Pointer to the implicit primitive handle for the RPC call.
 
 
-
-#### pGenericBindingInfo
+### -field IMPLICIT_HANDLE_INFO.pGenericBindingInfo
 
 Pointer to the information about the implicit generic handle.
 

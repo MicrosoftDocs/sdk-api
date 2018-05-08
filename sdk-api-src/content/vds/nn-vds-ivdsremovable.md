@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 86dcd76a-0de0-42f4-9360-87cf7ca4ebf6
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsRemovable, IVdsRemovable interface [VDS], IVdsRemovable interface [VDS], described, base.ivdsremovable, vds/IVdsRemovable
+ms.keywords: IVdsRemovable, IVdsRemovable interface [VDS], IVdsRemovable interface [VDS],described, base.ivdsremovable, vds/IVdsRemovable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

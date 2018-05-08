@@ -7,7 +7,7 @@ old-location: shell\StrCSpn.htm
 old-project: shell
 ms.assetid: 24e9ec52-a5d7-4220-8e71-f850b53c49dd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: StrCSpn, StrCSpn function [Windows Shell], StrCSpnA, StrCSpnW, _win32_StrCSpn, shell.StrCSpn, shlwapi/StrCSpn, shlwapi/StrCSpnA, shlwapi/StrCSpnW
 ms.prod: windows-hardware
 ms.technology: windows-devices

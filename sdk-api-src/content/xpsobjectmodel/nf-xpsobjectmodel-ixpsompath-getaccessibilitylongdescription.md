@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetAccessibilityLongDescription
-title: IXpsOMPath::GetAccessibilityLongDescription method
+title: IXpsOMPath::GetAccessibilityLongDescription
 author: windows-driver-content
 description: Gets the long (detailed) textual description of the object's contents.
 old-location: xps\ixpsompath_getaccessibilitylongdescription.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0ec32c0c-c6d3-4de0-a896-bf191805e799
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAccessibilityLongDescription method [XPS Documents and Packaging], GetAccessibilityLongDescription method [XPS Documents and Packaging], IXpsOMPath interface, GetAccessibilityLongDescription,IXpsOMPath.GetAccessibilityLongDescription, IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], GetAccessibilityLongDescription method, IXpsOMPath::GetAccessibilityLongDescription, xps.ixpsompath_getaccessibilitylongdescription, xpsobjectmodel/IXpsOMPath::GetAccessibilityLongDescription
+ms.keywords: GetAccessibilityLongDescription, GetAccessibilityLongDescription method [XPS Documents and Packaging], GetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetAccessibilityLongDescription method, IXpsOMPath.GetAccessibilityLongDescription, IXpsOMPath::GetAccessibilityLongDescription, xps.ixpsompath_getaccessibilitylongdescription, xpsobjectmodel/IXpsOMPath::GetAccessibilityLongDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::GetAccessibilityLongDescription method
+# IXpsOMPath::GetAccessibilityLongDescription
 
 
 ## -description

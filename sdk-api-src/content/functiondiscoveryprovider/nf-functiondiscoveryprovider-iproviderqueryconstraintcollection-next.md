@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.Next
-title: IProviderQueryConstraintCollection::Next method
+title: IProviderQueryConstraintCollection::Next
 author: windows-driver-content
 description: Gets the name and value of the next query constraint in the collection.
 old-location: ncd\iproviderqueryconstraintcollection_next.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 5dd03e98-5367-4434-aa68-be36cb7aaf24
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, Next method, IProviderQueryConstraintCollection::Next, Next method, Next method, IProviderQueryConstraintCollection interface, Next,IProviderQueryConstraintCollection.Next, functiondiscoveryprovider/IProviderQueryConstraintCollection::Next, ncd.iproviderqueryconstraintcollection_next
+ms.keywords: IProviderQueryConstraintCollection interface,Next method, IProviderQueryConstraintCollection.Next, IProviderQueryConstraintCollection::Next, Next, Next method, Next method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Next, ncd.iproviderqueryconstraintcollection_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IProviderQueryConstraintCollection::Next method
+# IProviderQueryConstraintCollection::Next
 
 
 ## -description

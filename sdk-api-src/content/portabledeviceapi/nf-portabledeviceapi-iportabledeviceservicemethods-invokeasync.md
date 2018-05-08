@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceMethods.InvokeAsync
-title: IPortableDeviceServiceMethods::InvokeAsync method
+title: IPortableDeviceServiceMethods::InvokeAsync
 author: windows-driver-content
 description: Asynchronously invokes a method.
 old-location: wpdsdk\iportabledeviceservicemethods_invokeasync.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 0acf416c-4d59-4eb5-b1ce-aef848b54949
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceServiceMethods, IPortableDeviceServiceMethods interface [Windows Portable Devices SDK], InvokeAsync method, IPortableDeviceServiceMethods::InvokeAsync, InvokeAsync method [Windows Portable Devices SDK], InvokeAsync method [Windows Portable Devices SDK], IPortableDeviceServiceMethods interface, InvokeAsync,IPortableDeviceServiceMethods.InvokeAsync, portabledeviceapi/IPortableDeviceServiceMethods::InvokeAsync, wpdsdk.iportabledeviceservicemethods_invokeasync
+ms.keywords: IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],InvokeAsync method, IPortableDeviceServiceMethods.InvokeAsync, IPortableDeviceServiceMethods::InvokeAsync, InvokeAsync, InvokeAsync method [Windows Portable Devices SDK], InvokeAsync method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, portabledeviceapi/IPortableDeviceServiceMethods::InvokeAsync, wpdsdk.iportabledeviceservicemethods_invokeasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceMethods::InvokeAsync method
+# IPortableDeviceServiceMethods::InvokeAsync
 
 
 ## -description

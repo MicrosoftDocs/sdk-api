@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespaceScheduledCastAutoStart.put_StartTime
-title: IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime method
+title: IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime
 author: windows-driver-content
 description: Retrieves or sets a condition that starts transmission automatically. Transmission starts when the UTC time reaches the value of this property.
 old-location: wds\iwdstransportnamespacescheduledcastautostart_starttime.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 55cf3f30-6cc9-4885-8e2e-88eddb9b8fec
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart, IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services], StartTime property, IWdsTransportNamespaceScheduledCastAutoStart.StartTime, IWdsTransportNamespaceScheduledCastAutoStart::get_StartTime, IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime, StartTime property [Windows Deployment Services], StartTime property [Windows Deployment Services], IWdsTransportNamespaceScheduledCastAutoStart interface, put_StartTime,IWdsTransportNamespaceScheduledCastAutoStart.put_StartTime, wds.iwdstransportnamespacescheduledcastautostart_starttime, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::StartTime, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::get_StartTime, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime
+ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services],StartTime property, IWdsTransportNamespaceScheduledCastAutoStart.StartTime, IWdsTransportNamespaceScheduledCastAutoStart.put_StartTime, IWdsTransportNamespaceScheduledCastAutoStart::StartTime, IWdsTransportNamespaceScheduledCastAutoStart::get_StartTime, IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime, StartTime property [Windows Deployment Services], StartTime property [Windows Deployment Services],IWdsTransportNamespaceScheduledCastAutoStart interface, put_StartTime, wds.iwdstransportnamespacescheduledcastautostart_starttime, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::StartTime, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::get_StartTime, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime method
+# IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime
 
 
 ## -description

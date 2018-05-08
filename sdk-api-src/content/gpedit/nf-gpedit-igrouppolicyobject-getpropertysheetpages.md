@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetPropertySheetPages
-title: IGroupPolicyObject::GetPropertySheetPages method
+title: IGroupPolicyObject::GetPropertySheetPages
 author: windows-driver-content
 description: The GetPropertySheetPages method retrieves the property sheet pages associated with the GPO.
 old-location: policy\igrouppolicyobject_getpropertysheetpages.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: d464d5fc-64f0-4f34-bcc0-35d92e65f79b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetPropertySheetPages method [Group Policy], GetPropertySheetPages method [Group Policy], IGroupPolicyObject interface, GetPropertySheetPages,IGroupPolicyObject.GetPropertySheetPages, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], GetPropertySheetPages method, IGroupPolicyObject::GetPropertySheetPages, _win32_igrouppolicyobject_getpropertysheetpages, gpedit/IGroupPolicyObject::GetPropertySheetPages, policy.igrouppolicyobject_getpropertysheetpages
+ms.keywords: GetPropertySheetPages, GetPropertySheetPages method [Group Policy], GetPropertySheetPages method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetPropertySheetPages method, IGroupPolicyObject.GetPropertySheetPages, IGroupPolicyObject::GetPropertySheetPages, _win32_igrouppolicyobject_getpropertysheetpages, gpedit/IGroupPolicyObject::GetPropertySheetPages, policy.igrouppolicyobject_getpropertysheetpages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGroupPolicyObject::GetPropertySheetPages method
+# IGroupPolicyObject::GetPropertySheetPages
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumTypeDefs
-title: IMetaDataImport::EnumTypeDefs method
+title: IMetaDataImport::EnumTypeDefs
 author: windows-driver-content
 description: Enumerates TypeDef tokens representing all types within the current scope.
 old-location: winrt\imetadataimport_enumtypedefs.htm
 old-project: WinRT
 ms.assetid: 64dc7018-721f-4747-b798-fbf70bac18d5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumTypeDefs method [Windows Runtime], EnumTypeDefs method [Windows Runtime], IMetaDataImport interface, EnumTypeDefs,IMetaDataImport.EnumTypeDefs, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumTypeDefs method, IMetaDataImport::EnumTypeDefs, rometadataapi/IMetaDataImport::EnumTypeDefs, winrt.imetadataimport_enumtypedefs
+ms.date: 5/4/2018
+ms.keywords: EnumTypeDefs, EnumTypeDefs method [Windows Runtime], EnumTypeDefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumTypeDefs method, IMetaDataImport.EnumTypeDefs, IMetaDataImport::EnumTypeDefs, rometadataapi/IMetaDataImport::EnumTypeDefs, winrt.imetadataimport_enumtypedefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumTypeDefs method
+# IMetaDataImport::EnumTypeDefs
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemCallResult.GetResultServices
-title: IWbemCallResult::GetResultServices method
+title: IWbemCallResult::GetResultServices
 author: windows-driver-content
 description: Retrieves the IWbemServices pointer, which results from a semisynchronous call to IWbemServices::OpenNamespace when it becomes available.
 old-location: wmi\iwbemcallresult_getresultservices.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 64a4fc4c-f479-4b03-847c-041508e55532
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetResultServices method [Windows Management Instrumentation], GetResultServices method [Windows Management Instrumentation], IWbemCallResult interface, GetResultServices,IWbemCallResult.GetResultServices, IWbemCallResult, IWbemCallResult interface [Windows Management Instrumentation], GetResultServices method, IWbemCallResult::GetResultServices, _hmm_iwbemcallresult_getresultservices, wbemcli/IWbemCallResult::GetResultServices, wmi.iwbemcallresult_getresultservices
+ms.keywords: GetResultServices, GetResultServices method [Windows Management Instrumentation], GetResultServices method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetResultServices method, IWbemCallResult.GetResultServices, IWbemCallResult::GetResultServices, _hmm_iwbemcallresult_getresultservices, wbemcli/IWbemCallResult::GetResultServices, wmi.iwbemcallresult_getresultservices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemCallResult::GetResultServices method
+# IWbemCallResult::GetResultServices
 
 
 ## -description

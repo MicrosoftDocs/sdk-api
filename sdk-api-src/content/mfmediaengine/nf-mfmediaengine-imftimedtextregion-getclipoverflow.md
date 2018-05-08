@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetClipOverflow
-title: IMFTimedTextRegion::GetClipOverflow method
+title: IMFTimedTextRegion::GetClipOverflow
 author: windows-driver-content
 description: Determines whether a clip of text overflowed the region.
 old-location: mf\imftimedtextregion_getclipoverflow.htm
 old-project: medfound
 ms.assetid: F48D4F1C-E00C-40BE-B292-B92C5B214F56
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetClipOverflow method [Media Foundation], GetClipOverflow method [Media Foundation], IMFTimedTextRegion interface, GetClipOverflow,IMFTimedTextRegion.GetClipOverflow, IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], GetClipOverflow method, IMFTimedTextRegion::GetClipOverflow, mf.imftimedtextregion_getclipoverflow, mfmediaengine/IMFTimedTextRegion::GetClipOverflow
+ms.date: 5/3/2018
+ms.keywords: GetClipOverflow, GetClipOverflow method [Media Foundation], GetClipOverflow method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetClipOverflow method, IMFTimedTextRegion.GetClipOverflow, IMFTimedTextRegion::GetClipOverflow, mf.imftimedtextregion_getclipoverflow, mfmediaengine/IMFTimedTextRegion::GetClipOverflow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextRegion::GetClipOverflow method
+# IMFTimedTextRegion::GetClipOverflow
 
 
 ## -description

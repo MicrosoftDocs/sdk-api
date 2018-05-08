@@ -7,8 +7,8 @@ old-location: bltooth\bluetooth_gatt_notification_callback_function.htm
 old-project: bltooth
 ms.assetid: 96AC4E49-76D7-47B5-93B9-64D574A28E0A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: BluetoothGattEventCallback, BluetoothGattEventCallback callback function [Bluetooth Devices], PFNBLUETOOTH_GATT_EVENT_CALLBACK, bltooth.bluetooth_gatt_notification_callback_function, bthledef/BluetoothGattEventCallback
+ms.date: 4/27/2018
+ms.keywords: BluetoothGattEventCallback, BluetoothGattEventCallback callback function [Bluetooth Devices], PFNBLUETOOTH_GATT_EVENT_CALLBACK, PFNBLUETOOTH_GATT_EVENT_CALLBACK callback, bltooth.bluetooth_gatt_notification_callback_function, bthledef/BluetoothGattEventCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PFNBLUETOOTH_GATT_EVENT_CALLBACK callback
+# PFNBLUETOOTH_GATT_EVENT_CALLBACK callback function
 
 
 ## -description

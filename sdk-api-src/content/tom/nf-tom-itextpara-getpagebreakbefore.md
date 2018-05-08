@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetPageBreakBefore
-title: ITextPara::GetPageBreakBefore method
+title: ITextPara::GetPageBreakBefore
 author: windows-driver-content
 description: Determines whether each paragraph in the range must begin on a new page.
 old-location: controls\ITextPara_GetPageBreakBefore.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getpagebreakbefore.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetPageBreakBefore method [Windows Controls], GetPageBreakBefore method [Windows Controls], ITextPara interface, GetPageBreakBefore,ITextPara.GetPageBreakBefore, ITextPara, ITextPara interface [Windows Controls], GetPageBreakBefore method, ITextPara::GetPageBreakBefore, _win32_ITextPara_GetPageBreakBefore, _win32_ITextPara_GetPageBreakBefore_cpp, controls.ITextPara_GetPageBreakBefore, controls._win32_ITextPara_GetPageBreakBefore, tom/ITextPara::GetPageBreakBefore
+ms.date: 4/27/2018
+ms.keywords: GetPageBreakBefore, GetPageBreakBefore method [Windows Controls], GetPageBreakBefore method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetPageBreakBefore method, ITextPara.GetPageBreakBefore, ITextPara::GetPageBreakBefore, _win32_ITextPara_GetPageBreakBefore, _win32_ITextPara_GetPageBreakBefore_cpp, controls.ITextPara_GetPageBreakBefore, controls._win32_ITextPara_GetPageBreakBefore, tom/ITextPara::GetPageBreakBefore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetPageBreakBefore method
+# ITextPara::GetPageBreakBefore
 
 
 ## -description

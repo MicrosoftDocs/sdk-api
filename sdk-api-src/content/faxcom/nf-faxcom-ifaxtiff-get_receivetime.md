@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_ReceiveTime
-title: IFaxTiff::get_ReceiveTime method
+title: IFaxTiff::get_ReceiveTime
 author: windows-driver-content
 description: Retrieves the ReceiveTime property for a FaxTiff object.
 old-location: fax\_mfax_ifaxtiff_get_receivetime_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5spx.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxTiff object [Fax Service], ReceiveTime property, IFaxTiff, IFaxTiff::get_ReceiveTime, ReceiveTime property [Fax Service], ReceiveTime property [Fax Service], FaxTiff object, _mfax_ifaxtiff_get_receivetime, fax._mfax_ifaxtiff_get_receivetime, fax._mfax_ifaxtiff_get_receivetime_vb, get_ReceiveTime,IFaxTiff.get_ReceiveTime
+ms.keywords: FaxTiff object [Fax Service],ReceiveTime property, FaxTiff.ReceiveTime, IFaxTiff.get_ReceiveTime, IFaxTiff::get_ReceiveTime, ReceiveTime property [Fax Service], ReceiveTime property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_receivetime, fax._mfax_ifaxtiff_get_receivetime, fax._mfax_ifaxtiff_get_receivetime_vb, get_ReceiveTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxTiff::get_ReceiveTime method
+# IFaxTiff::get_ReceiveTime
 
 
 ## -description

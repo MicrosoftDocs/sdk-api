@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback2.OnTransformChange
-title: IMFSourceReaderCallback2::OnTransformChange method
+title: IMFSourceReaderCallback2::OnTransformChange
 author: windows-driver-content
 description: Called when the transform chain in the IMFSourceReader is built or modified.
 old-location: mf\imfsourcereadercallback2_ontransformchange.htm
 old-project: medfound
 ms.assetid: 84A4154C-574C-4B78-A83B-2EE036C0A68D
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSourceReaderCallback2, IMFSourceReaderCallback2 interface [Media Foundation], OnTransformChange method, IMFSourceReaderCallback2::OnTransformChange, OnTransformChange method [Media Foundation], OnTransformChange method [Media Foundation], IMFSourceReaderCallback2 interface, OnTransformChange,IMFSourceReaderCallback2.OnTransformChange, mf.imfsourcereadercallback2_ontransformchange, mfreadwrite/IMFSourceReaderCallback2::OnTransformChange
+ms.date: 5/3/2018
+ms.keywords: IMFSourceReaderCallback2 interface [Media Foundation],OnTransformChange method, IMFSourceReaderCallback2.OnTransformChange, IMFSourceReaderCallback2::OnTransformChange, OnTransformChange, OnTransformChange method [Media Foundation], OnTransformChange method [Media Foundation],IMFSourceReaderCallback2 interface, mf.imfsourcereadercallback2_ontransformchange, mfreadwrite/IMFSourceReaderCallback2::OnTransformChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceReaderCallback2::OnTransformChange method
+# IMFSourceReaderCallback2::OnTransformChange
 
 
 ## -description

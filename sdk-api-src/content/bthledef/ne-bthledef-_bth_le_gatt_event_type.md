@@ -7,7 +7,7 @@ old-location: bltooth\bth_le_gatt_event_type.htm
 old-project: bltooth
 ms.assetid: 6AF30DEA-2018-4AA2-B13A-BD31BD641F9F
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 4/27/2018
 ms.keywords: BTH_LE_GATT_EVENT_TYPE, BTH_LE_GATT_EVENT_TYPE enumeration [Bluetooth Devices], CharacteristicValueChangedEvent, _BTH_LE_GATT_EVENT_TYPE, bltooth.bth_le_gatt_event_type, bthledef/BTH_LE_GATT_EVENT_TYPE, bthledef/CharacteristicValueChangedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

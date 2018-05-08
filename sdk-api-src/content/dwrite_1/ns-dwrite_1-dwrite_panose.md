@@ -71,60 +71,52 @@ A <a href="https://msdn.microsoft.com/8CC6E653-FF82-4BBA-9DDE-F3F4960C4BBB">DWRI
 ### -field text
 
 
-
-#### familyKind
+### -field text.familyKind
 
 
 			
 		    The <a href="dwrite_panose_family.htm">DWRITE_PANOSE_FAMILY_TEXT_DISPLAY</a> value (2) that specifies text display typeface classification.
 
 
-
-#### serifStyle
+### -field text.serifStyle
 
 
 			
 		    A <a href="https://msdn.microsoft.com/F141B81F-7DF2-4E7C-A373-36C7FEF53857">DWRITE_PANOSE_SERIF_STYLE</a>-typed value that specifies the serif style of text.
 
 
-
-#### weight
+### -field text.weight
 
 
 			
 		    A <a href="https://msdn.microsoft.com/9309C68B-1193-47EF-A577-9DC0EEE18F4C">DWRITE_PANOSE_WEIGHT</a>-typed value that specifies the weight of the text.
 
 
-
-#### proportion
+### -field text.proportion
 
 A <a href="https://msdn.microsoft.com/03A43DD4-89D1-4895-B224-9BCC8C34B2E4">DWRITE_PANOSE_PROPORTION</a>-typed value that specifies the proportion for the text.
 
 
-
-#### contrast
+### -field text.contrast
 
 A <a href="https://msdn.microsoft.com/EB526A2A-1E85-4A65-B485-4AE87F45C2A0">DWRITE_PANOSE_CONTRAST</a>-typed value that specifies the contrast for the text.
 
 
-
-#### strokeVariation
+### -field text.strokeVariation
 
 
 			
 		    A <a href="https://msdn.microsoft.com/3E30D318-1A88-4563-93D7-7E84893D04CE">DWRITE_PANOSE_STROKE_VARIATION</a>-typed value that specifies the stroke variation for the text.
 
 
-
-#### armStyle
+### -field text.armStyle
 
 
 			
 		    A <a href="https://msdn.microsoft.com/E0DFBE06-C2CF-4E47-A68E-A7D17755B42F">DWRITE_PANOSE_ARM_STYLE</a>-typed value that specifies the arm style of text.
 
 
-
-#### letterform
+### -field text.letterform
 
 
 			
@@ -133,16 +125,14 @@ A <a href="https://msdn.microsoft.com/EB526A2A-1E85-4A65-B485-4AE87F45C2A0">DWRI
 		    
 
 
-
-#### midline
+### -field text.midline
 
 
 			
 		    A <a href="https://msdn.microsoft.com/97639251-7703-4F3B-85FC-E33D666CA837">DWRITE_PANOSE_MIDLINE</a>-typed value that specifies the midline for the text.
 
 
-
-#### xHeight
+### -field text.xHeight
 
 
 			
@@ -152,16 +142,14 @@ A <a href="https://msdn.microsoft.com/EB526A2A-1E85-4A65-B485-4AE87F45C2A0">DWRI
 ### -field script
 
 
-
-#### familyKind
+### -field script.familyKind
 
 
 			
 		    The <a href="dwrite_panose_family.htm">DWRITE_PANOSE_FAMILY_SCRIPT</a> value (3) that specifies script typeface classification.
 
 
-
-#### toolKind
+### -field script.toolKind
 
 
 			
@@ -170,38 +158,33 @@ A <a href="https://msdn.microsoft.com/EB526A2A-1E85-4A65-B485-4AE87F45C2A0">DWRI
 		    
 
 
-
-#### weight
+### -field script.weight
 
 
 			
 		    A <a href="https://msdn.microsoft.com/9309C68B-1193-47EF-A577-9DC0EEE18F4C">DWRITE_PANOSE_WEIGHT</a>-typed value that specifies the weight of the script.
 
 
-
-#### spacing
+### -field script.spacing
 
 
 			
 		    A <a href="https://msdn.microsoft.com/BA841315-2B57-4B35-A6E4-2343EBE67AC8">DWRITE_PANOSE_SPACING</a>-typed value that specifies the spacing of the script.
 
 
-
-#### aspectRatio
+### -field script.aspectRatio
 
 
 			
 		    A <a href="https://msdn.microsoft.com/B371DB94-EE4A-4BAC-B61D-F6C4A719E176">DWRITE_PANOSE_ASPECT_RATIO</a>-typed value that specifies the aspect ratio of the script.
 
 
-
-#### contrast
+### -field script.contrast
 
 A <a href="https://msdn.microsoft.com/EB526A2A-1E85-4A65-B485-4AE87F45C2A0">DWRITE_PANOSE_CONTRAST</a>-typed value that specifies the contrast for the script.
 
 
-
-#### scriptTopology
+### -field script.scriptTopology
 
 
 			
@@ -210,24 +193,21 @@ A <a href="https://msdn.microsoft.com/EB526A2A-1E85-4A65-B485-4AE87F45C2A0">DWRI
 		    A <a href="https://msdn.microsoft.com/6D546DCF-3812-495C-AAF3-A7C2E14CACA2">DWRITE_PANOSE_SCRIPT_TOPOLOGY</a>-typed value that specifies the script topology.
 
 
-
-#### scriptForm
+### -field script.scriptForm
 
 A <a href="https://msdn.microsoft.com/F6F56DEE-F981-40F8-8B35-ABFE7C82EA2C">DWRITE_PANOSE_SCRIPT_FORM</a>-typed value that specifies the script form.
 			
 		    
 
 
-
-#### finials
+### -field script.finials
 
 
 			
 		    A <a href="https://msdn.microsoft.com/8B0B2768-26E6-4163-91DD-DFE69C981C56">DWRITE_PANOSE_FINIALS</a>-typed value that specifies the script finials.
 
 
-
-#### xAscent
+### -field script.xAscent
 
 
 			
@@ -237,16 +217,14 @@ A <a href="https://msdn.microsoft.com/F6F56DEE-F981-40F8-8B35-ABFE7C82EA2C">DWRI
 ### -field decorative
 
 
-
-#### familyKind
+### -field decorative.familyKind
 
 
 			
 		    The <a href="dwrite_panose_family.htm">DWRITE_PANOSE_FAMILY_DECORATIVE</a> value (4) that specifies decorative typeface classification.
 
 
-
-#### decorativeClass
+### -field decorative.decorativeClass
 
 
 			
@@ -255,38 +233,33 @@ A <a href="https://msdn.microsoft.com/F6F56DEE-F981-40F8-8B35-ABFE7C82EA2C">DWRI
 		    A <a href="https://msdn.microsoft.com/54885610-7749-4012-AB25-8968871CEBCE">DWRITE_PANOSE_DECORATIVE_CLASS</a>-typed value that specifies the class of the decorative typeface.
 
 
-
-#### weight
+### -field decorative.weight
 
 
 			
 		    A <a href="https://msdn.microsoft.com/9309C68B-1193-47EF-A577-9DC0EEE18F4C">DWRITE_PANOSE_WEIGHT</a>-typed value that specifies the weight of the decorative typeface.
 
 
-
-#### aspect
+### -field decorative.aspect
 
 A <a href="https://msdn.microsoft.com/D546354A-3875-43B1-9B16-7691611D1AD9">DWRITE_PANOSE_ASPECT</a>-typed value that specifies the aspect of the decorative typeface.
 
 
-
-#### contrast
+### -field decorative.contrast
 
 
 			
 		    A <a href="https://msdn.microsoft.com/EB526A2A-1E85-4A65-B485-4AE87F45C2A0">DWRITE_PANOSE_CONTRAST</a>-typed value that specifies the contrast for the decorative typeface.
 
 
-
-#### serifVariant
+### -field decorative.serifVariant
 
 
 			
 		    The serif variant of the decorative typeface.
 
 
-
-#### fill
+### -field decorative.fill
 
 
 			
@@ -295,22 +268,19 @@ A <a href="https://msdn.microsoft.com/D546354A-3875-43B1-9B16-7691611D1AD9">DWRI
 		    A <a href="https://msdn.microsoft.com/787F7193-50E7-46CA-B395-1CFAE2EE3080">DWRITE_PANOSE_FILL</a>-typed value that specifies the fill of the decorative typeface.
 
 
-
-#### lining
+### -field decorative.lining
 
 A <a href="https://msdn.microsoft.com/988F14D9-9609-494C-A8DA-CAC75C30C1F5">DWRITE_PANOSE_LINING</a>-typed value that specifies the lining of the decorative typeface.
 
 
-
-#### decorativeTopology
+### -field decorative.decorativeTopology
 
 
 			
 		    A <a href="https://msdn.microsoft.com/EF54C965-D2EF-491F-85BB-0B527ABED8D1">DWRITE_PANOSE_DECORATIVE_TOPOLOGY</a>-typed value that specifies the decorative topology.
 
 
-
-#### characterRange
+### -field decorative.characterRange
 
 A <a href="https://msdn.microsoft.com/A50F0296-D977-47C5-9E41-9567980B16A6">DWRITE_PANOSE_CHARACTER_RANGES</a>-typed value that specifies the character range of the decorative typeface.
 
@@ -318,80 +288,70 @@ A <a href="https://msdn.microsoft.com/A50F0296-D977-47C5-9E41-9567980B16A6">DWRI
 ### -field symbol
 
 
-
-#### familyKind
+### -field symbol.familyKind
 
 
 			
 		    The <a href="dwrite_panose_family.htm">DWRITE_PANOSE_FAMILY_SYMBOL</a> value (5) that specifies symbol typeface classification.
 
 
-
-#### symbolKind
+### -field symbol.symbolKind
 
 
 			
 		    A <a href="https://msdn.microsoft.com/474F3CF8-2C94-4267-91A1-4BCDC651DC48">DWRITE_PANOSE_SYMBOL_KIND</a>-typed value that specifies the kind of symbol set.
 
 
-
-#### weight
+### -field symbol.weight
 
 
 			
 		    A <a href="https://msdn.microsoft.com/9309C68B-1193-47EF-A577-9DC0EEE18F4C">DWRITE_PANOSE_WEIGHT</a>-typed value that specifies the weight of the symbol typeface.
 
 
-
-#### spacing
+### -field symbol.spacing
 
 
 			
 		    A <a href="https://msdn.microsoft.com/BA841315-2B57-4B35-A6E4-2343EBE67AC8">DWRITE_PANOSE_SPACING</a>-typed value that specifies the spacing of the symbol typeface.
 
 
-
-#### aspectRatioAndContrast
+### -field symbol.aspectRatioAndContrast
 
 
 			
 		    A <a href="https://msdn.microsoft.com/C98F339D-0E45-4140-A44E-BFB0FA980251">DWRITE_PANOSE_SYMBOL_ASPECT_RATIO</a>-typed value that specifies the aspect ratio and contrast of the symbol typeface.
 
 
-
-#### aspectRatio94
+### -field symbol.aspectRatio94
 
 
 			
 		    A <a href="https://msdn.microsoft.com/C98F339D-0E45-4140-A44E-BFB0FA980251">DWRITE_PANOSE_SYMBOL_ASPECT_RATIO</a>-typed value that specifies the aspect ratio 94 of the symbol typeface.
 
 
-
-#### aspectRatio119
+### -field symbol.aspectRatio119
 
 
 			
 		    A <a href="https://msdn.microsoft.com/C98F339D-0E45-4140-A44E-BFB0FA980251">DWRITE_PANOSE_SYMBOL_ASPECT_RATIO</a>-typed value that specifies the aspect ratio 119 of the symbol typeface.
 
 
-
-#### aspectRatio157
+### -field symbol.aspectRatio157
 
 
 			
 		    A <a href="https://msdn.microsoft.com/C98F339D-0E45-4140-A44E-BFB0FA980251">DWRITE_PANOSE_SYMBOL_ASPECT_RATIO</a>-typed value that specifies the aspect ratio 157 of the symbol typeface.
 
 
-
-#### aspectRatio163
+### -field symbol.aspectRatio163
 
 
 			
 		    A <a href="https://msdn.microsoft.com/C98F339D-0E45-4140-A44E-BFB0FA980251">DWRITE_PANOSE_SYMBOL_ASPECT_RATIO</a>-typed value that specifies the aspect ratio 163 of the symbol typeface.
 
 
-
-#### aspectRatio211
+### -field symbol.aspectRatio211
 
 
 			

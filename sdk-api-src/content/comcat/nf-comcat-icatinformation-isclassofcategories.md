@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.ICatInformation.IsClassOfCategories
-title: ICatInformation::IsClassOfCategories method
+title: ICatInformation::IsClassOfCategories
 author: windows-driver-content
 description: Determines whether a class implements one or more categories.
 old-location: com\icatinformation_isclassofcategories.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 772d4d75-2076-4922-bf47-2e6e41a5687d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICatInformation, ICatInformation interface [COM], IsClassOfCategories method, ICatInformation::IsClassOfCategories, IsClassOfCategories method [COM], IsClassOfCategories method [COM], ICatInformation interface, IsClassOfCategories,ICatInformation.IsClassOfCategories, _com_icatinformation_isclassofcategories, com.icatinformation_isclassofcategories, comcat/ICatInformation::IsClassOfCategories
+ms.keywords: ICatInformation interface [COM],IsClassOfCategories method, ICatInformation.IsClassOfCategories, ICatInformation::IsClassOfCategories, IsClassOfCategories, IsClassOfCategories method [COM], IsClassOfCategories method [COM],ICatInformation interface, _com_icatinformation_isclassofcategories, com.icatinformation_isclassofcategories, comcat/ICatInformation::IsClassOfCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICatInformation::IsClassOfCategories method
+# ICatInformation::IsClassOfCategories
 
 
 ## -description

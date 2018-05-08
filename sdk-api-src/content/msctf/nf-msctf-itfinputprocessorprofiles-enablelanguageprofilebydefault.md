@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.EnableLanguageProfileByDefault
-title: ITfInputProcessorProfiles::EnableLanguageProfileByDefault method
+title: ITfInputProcessorProfiles::EnableLanguageProfileByDefault
 author: windows-driver-content
 description: ITfInputProcessorProfiles::EnableLanguageProfileByDefault method
 old-location: tsf\itfinputprocessorprofiles_enablelanguageprofilebydefault.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5ab40219-278d-4721-88a1-b0bd2e3d8d2f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnableLanguageProfileByDefault method [Text Services Framework], EnableLanguageProfileByDefault method [Text Services Framework], ITfInputProcessorProfiles interface, EnableLanguageProfileByDefault,ITfInputProcessorProfiles.EnableLanguageProfileByDefault, ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], EnableLanguageProfileByDefault method, ITfInputProcessorProfiles::EnableLanguageProfileByDefault, _tsf_itfinputprocessorprofiles_enablelanguageprofilebydefault_ref, msctf/ITfInputProcessorProfiles::EnableLanguageProfileByDefault, tsf.itfinputprocessorprofiles_enablelanguageprofilebydefault
+ms.keywords: EnableLanguageProfileByDefault, EnableLanguageProfileByDefault method [Text Services Framework], EnableLanguageProfileByDefault method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],EnableLanguageProfileByDefault method, ITfInputProcessorProfiles.EnableLanguageProfileByDefault, ITfInputProcessorProfiles::EnableLanguageProfileByDefault, _tsf_itfinputprocessorprofiles_enablelanguageprofilebydefault_ref, msctf/ITfInputProcessorProfiles::EnableLanguageProfileByDefault, tsf.itfinputprocessorprofiles_enablelanguageprofilebydefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfiles::EnableLanguageProfileByDefault method
+# ITfInputProcessorProfiles::EnableLanguageProfileByDefault
 
 
 ## -description

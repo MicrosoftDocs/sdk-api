@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IValueProvider.get_IsReadOnly
-title: IValueProvider::get_IsReadOnly method
+title: IValueProvider::get_IsReadOnly
 author: windows-driver-content
 description: Indicates whether the value of a control is read-only.
 old-location: winauto\uiauto_IValueProvider_IsReadOnly.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2dadeb17-aef8-4dcd-a2c5-251cc2e7de3f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IValueProvider, IValueProvider interface [Windows Accessibility], IsReadOnly property, IValueProvider.IsReadOnly, IValueProvider::get_IsReadOnly, IsReadOnly property [Windows Accessibility], IsReadOnly property [Windows Accessibility], IValueProvider interface, get_IsReadOnly,IValueProvider.get_IsReadOnly, uiauto.uiauto_IValueProvider_IsReadOnly, uiauto_IValueProvider_IsReadOnly, uiautomationcore/IValueProvider::IsReadOnly, uiautomationcore/IValueProvider::get_IsReadOnly, winauto.uiauto_IValueProvider_IsReadOnly
+ms.keywords: IValueProvider interface [Windows Accessibility],IsReadOnly property, IValueProvider.IsReadOnly, IValueProvider.get_IsReadOnly, IValueProvider::IsReadOnly, IValueProvider::get_IsReadOnly, IsReadOnly property [Windows Accessibility], IsReadOnly property [Windows Accessibility],IValueProvider interface, get_IsReadOnly, uiauto.uiauto_IValueProvider_IsReadOnly, uiauto_IValueProvider_IsReadOnly, uiautomationcore/IValueProvider::IsReadOnly, uiautomationcore/IValueProvider::get_IsReadOnly, winauto.uiauto_IValueProvider_IsReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IValueProvider::get_IsReadOnly method
+# IValueProvider::get_IsReadOnly
 
 
 ## -description

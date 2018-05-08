@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedCanMinimize
-title: IUIAutomationWindowPattern::get_CachedCanMinimize method
+title: IUIAutomationWindowPattern::get_CachedCanMinimize
 author: windows-driver-content
 description: Retrieves a cached value that indicates whether the window can be minimized.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedCanMinimize.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 35965009-db9b-4009-b324-b47783bd318d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedCanMinimize property [Windows Accessibility], CachedCanMinimize property [Windows Accessibility], IUIAutomationWindowPattern interface, IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], CachedCanMinimize property, IUIAutomationWindowPattern.CachedCanMinimize, IUIAutomationWindowPattern::get_CachedCanMinimize, get_CachedCanMinimize,IUIAutomationWindowPattern.get_CachedCanMinimize, uiauto.uiauto_IUIAutomationWindowPattern_CachedCanMinimize, uiauto_IUIAutomationWindowPattern_CachedCanMinimize, uiautomationclient/IUIAutomationWindowPattern::CachedCanMinimize, uiautomationclient/IUIAutomationWindowPattern::get_CachedCanMinimize, winauto.uiauto_IUIAutomationWindowPattern_CachedCanMinimize
+ms.keywords: CachedCanMinimize property [Windows Accessibility], CachedCanMinimize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedCanMinimize property, IUIAutomationWindowPattern.CachedCanMinimize, IUIAutomationWindowPattern.get_CachedCanMinimize, IUIAutomationWindowPattern::CachedCanMinimize, IUIAutomationWindowPattern::get_CachedCanMinimize, get_CachedCanMinimize, uiauto.uiauto_IUIAutomationWindowPattern_CachedCanMinimize, uiauto_IUIAutomationWindowPattern_CachedCanMinimize, uiautomationclient/IUIAutomationWindowPattern::CachedCanMinimize, uiautomationclient/IUIAutomationWindowPattern::get_CachedCanMinimize, winauto.uiauto_IUIAutomationWindowPattern_CachedCanMinimize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationWindowPattern::get_CachedCanMinimize method
+# IUIAutomationWindowPattern::get_CachedCanMinimize
 
 
 ## -description

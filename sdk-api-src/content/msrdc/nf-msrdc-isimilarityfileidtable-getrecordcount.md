@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.GetRecordCount
-title: ISimilarityFileIdTable::GetRecordCount method
+title: ISimilarityFileIdTable::GetRecordCount
 author: windows-driver-content
 description: Retrieves the number of records that are stored in a similarity file ID table.
 old-location: rdc\isimilarityfileidtable_getrecordcount.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 2d95140e-c422-4aa5-aea2-ee777f977c17
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetRecordCount method [Remote Differential Compression], GetRecordCount method [Remote Differential Compression], ISimilarityFileIdTable interface, GetRecordCount,ISimilarityFileIdTable.GetRecordCount, ISimilarityFileIdTable, ISimilarityFileIdTable interface [Remote Differential Compression], GetRecordCount method, ISimilarityFileIdTable::GetRecordCount, fs.isimilarityfileidtable_getrecordcount, msrdc/ISimilarityFileIdTable::GetRecordCount, rdc.isimilarityfileidtable_getrecordcount
+ms.keywords: GetRecordCount, GetRecordCount method [Remote Differential Compression], GetRecordCount method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],GetRecordCount method, ISimilarityFileIdTable.GetRecordCount, ISimilarityFileIdTable::GetRecordCount, fs.isimilarityfileidtable_getrecordcount, msrdc/ISimilarityFileIdTable::GetRecordCount, rdc.isimilarityfileidtable_getrecordcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityFileIdTable::GetRecordCount method
+# ISimilarityFileIdTable::GetRecordCount
 
 
 ## -description

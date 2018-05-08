@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_ST.Initialize
-title: IDVB_ST::Initialize method
+title: IDVB_ST::Initialize
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_st_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: eda69656-9e66-4366-84fe-e8ffecc93fc3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVB_ST, IDVB_ST interface [Microsoft TV Technologies], Initialize method, IDVB_ST::Initialize, IDVB_STInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IDVB_ST interface, Initialize,IDVB_ST.Initialize, dvbsiparser/IDVB_ST::Initialize, mstv.idvb_st_initialize
+ms.keywords: IDVB_ST interface [Microsoft TV Technologies],Initialize method, IDVB_ST.Initialize, IDVB_ST::Initialize, IDVB_STInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_ST interface, dvbsiparser/IDVB_ST::Initialize, mstv.idvb_st_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_ST::Initialize method
+# IDVB_ST::Initialize
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.ICertAdmin2.SetConfigEntry
-title: ICertAdmin2::SetConfigEntry method
+title: ICertAdmin2::SetConfigEntry
 author: windows-driver-content
 description: Sets configuration information for a certification authority (CA).
 old-location: security\icertadmin2_setconfigentry.htm
 old-project: SecCrypto
 ms.assetid: 6ed1dd69-3553-4dcc-a98a-1954013082cd
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertAdmin2, ICertAdmin2 interface [Security], SetConfigEntry method, ICertAdmin2::SetConfigEntry, SetConfigEntry method [Security], SetConfigEntry method [Security], ICertAdmin2 interface, SetConfigEntry,ICertAdmin2.SetConfigEntry, certadm/ICertAdmin2::SetConfigEntry, security.icertadmin2_setconfigentry
+ms.date: 4/30/2018
+ms.keywords: ICertAdmin2 interface [Security],SetConfigEntry method, ICertAdmin2.SetConfigEntry, ICertAdmin2::SetConfigEntry, SetConfigEntry, SetConfigEntry method [Security], SetConfigEntry method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetConfigEntry, security.icertadmin2_setconfigentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# ICertAdmin2::SetConfigEntry method
+# ICertAdmin2::SetConfigEntry
 
 
 ## -description

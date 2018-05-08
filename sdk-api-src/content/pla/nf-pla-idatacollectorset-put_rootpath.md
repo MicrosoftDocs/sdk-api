@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_RootPath
-title: IDataCollectorSet::put_RootPath method
+title: IDataCollectorSet::put_RootPath
 author: windows-driver-content
 description: Retrieves or sets the base path where the subdirectories are created.
 old-location: pla\idatacollectorset_get_rootpath.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 42940cec-c76a-433c-9308-f030dacb05a4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], RootPath property, IDataCollectorSet.RootPath, IDataCollectorSet::get_RootPath, IDataCollectorSet::put_RootPath, RootPath property [PLA], RootPath property [PLA], IDataCollectorSet interface, base.idatacollectorset_get_rootpath, pla.idatacollectorset_get_rootpath, pla/IDataCollectorSet::RootPath, pla/IDataCollectorSet::get_RootPath, pla/IDataCollectorSet::put_RootPath, put_RootPath,IDataCollectorSet.put_RootPath
+ms.keywords: IDataCollectorSet interface [PLA],RootPath property, IDataCollectorSet.RootPath, IDataCollectorSet.put_RootPath, IDataCollectorSet::RootPath, IDataCollectorSet::get_RootPath, IDataCollectorSet::put_RootPath, RootPath property [PLA], RootPath property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_rootpath, pla.idatacollectorset_get_rootpath, pla/IDataCollectorSet::RootPath, pla/IDataCollectorSet::get_RootPath, pla/IDataCollectorSet::put_RootPath, put_RootPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::put_RootPath method
+# IDataCollectorSet::put_RootPath
 
 
 ## -description

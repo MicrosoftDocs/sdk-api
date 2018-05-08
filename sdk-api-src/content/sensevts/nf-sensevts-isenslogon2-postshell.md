@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon2.PostShell
-title: ISensLogon2::PostShell method
+title: ISensLogon2::PostShell
 author: windows-driver-content
 description: Use the PostShell method when a user has logged on and Windows Explorer is running. This method is different from the Logon method because Logon is called after logon when the Shell may not yet be running.
 old-location: sens\isenslogon2_sessionpostshell.htm
@@ -8,7 +8,7 @@ old-project: Sens
 ms.assetid: fa187b3c-fc78-410f-9339-9b4c94c43f95
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISensLogon2, ISensLogon2 interface [SENS], PostShell method, ISensLogon2.PostShell, ISensLogon2::PostShell, PostShell method [SENS], PostShell method [SENS], ISensLogon2 interface, PostShell,ISensLogon2.PostShell, _zaw_isenslogon2_sessionpostshell, sens.isenslogon2_sessionpostshell, sensevts/ISensLogon2::PostShell, syncmgr.isenslogon2_sessionpostshell
+ms.keywords: ISensLogon2 interface [SENS],PostShell method, ISensLogon2.PostShell, ISensLogon2::PostShell, PostShell, PostShell method [SENS], PostShell method [SENS],ISensLogon2 interface, _zaw_isenslogon2_sessionpostshell, sens.isenslogon2_sessionpostshell, sensevts/ISensLogon2::PostShell, syncmgr.isenslogon2_sessionpostshell
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISensLogon2::PostShell method
+# ISensLogon2::PostShell
 
 
 ## -description

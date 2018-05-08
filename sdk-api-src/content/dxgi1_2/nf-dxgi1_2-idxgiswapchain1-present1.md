@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.Present1
-title: IDXGISwapChain1::Present1 method
+title: IDXGISwapChain1::Present1
 author: windows-driver-content
 description: Presents a frame on the display screen.
 old-location: direct3ddxgi\idxgiswapchain1_present1.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: F795A719-71BA-4A25-B41A-9D93F96B6CA4
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGISwapChain1, IDXGISwapChain1 interface [DXGI], Present1 method, IDXGISwapChain1::Present1, Present1 method [DXGI], Present1 method [DXGI], IDXGISwapChain1 interface, Present1,IDXGISwapChain1.Present1, direct3ddxgi.idxgiswapchain1_present1, dxgi1_2/IDXGISwapChain1::Present1
+ms.keywords: IDXGISwapChain1 interface [DXGI],Present1 method, IDXGISwapChain1.Present1, IDXGISwapChain1::Present1, Present1, Present1 method [DXGI], Present1 method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_present1, dxgi1_2/IDXGISwapChain1::Present1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain1::Present1 method
+# IDXGISwapChain1::Present1
 
 
 ## -description

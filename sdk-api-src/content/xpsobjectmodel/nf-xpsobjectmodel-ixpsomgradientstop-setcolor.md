@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.SetColor
-title: IXpsOMGradientStop::SetColor method
+title: IXpsOMGradientStop::SetColor
 author: windows-driver-content
 description: Sets the color value and color profile of the gradient stop.
 old-location: xps\ixpsomgradientstop_setcolor.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 535b14f3-6d17-4c3c-b310-b018922d48e8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and Packaging], SetColor method, IXpsOMGradientStop::SetColor, SetColor method [XPS Documents and Packaging], SetColor method [XPS Documents and Packaging], IXpsOMGradientStop interface, SetColor,IXpsOMGradientStop.SetColor, xps.ixpsomgradientstop_setcolor, xpsobjectmodel/IXpsOMGradientStop::SetColor
+ms.keywords: IXpsOMGradientStop interface [XPS Documents and Packaging],SetColor method, IXpsOMGradientStop.SetColor, IXpsOMGradientStop::SetColor, SetColor, SetColor method [XPS Documents and Packaging], SetColor method [XPS Documents and Packaging],IXpsOMGradientStop interface, xps.ixpsomgradientstop_setcolor, xpsobjectmodel/IXpsOMGradientStop::SetColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientStop::SetColor method
+# IXpsOMGradientStop::SetColor
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.GetNext
-title: TRefPointerCollection::GetNext method
+title: TRefPointerCollection::GetNext
 author: windows-driver-content
 description: The GetNext method gets a pointer to the next instance in the collection.
 old-location: wmi\trefpointercollection_getnext.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: c0dfb2c7-71f6-4870-8018-145e890d4928
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetNext method [Windows Management Instrumentation], GetNext method [Windows Management Instrumentation], TRefPointerCollection interface, GetNext,TRefPointerCollection.GetNext, TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation], GetNext method, TRefPointerCollection::GetNext, _hmm_trefpointercollection_getnext, refptrco/TRefPointerCollection::GetNext, wmi.trefpointercollection_getnext
+ms.keywords: GetNext, GetNext method [Windows Management Instrumentation], GetNext method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetNext method, TRefPointerCollection.GetNext, TRefPointerCollection::GetNext, _hmm_trefpointercollection_getnext, refptrco/TRefPointerCollection::GetNext, wmi.trefpointercollection_getnext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# TRefPointerCollection::GetNext method
+# TRefPointerCollection::GetNext
 
 
 ## -description

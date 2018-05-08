@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo2.GetApplicationInstanceId
-title: IObjectContextInfo2::GetApplicationInstanceId method
+title: IObjectContextInfo2::GetApplicationInstanceId
 author: windows-driver-content
 description: Retrieves the identifier of the application instance of the current object context.
 old-location: cos\iobjectcontextinfo2_getapplicationinstanceid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: e20e02c8-23ad-4234-9f20-4e8cae2e9279
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetApplicationInstanceId method [COM+], GetApplicationInstanceId method [COM+], IObjectContextInfo2 interface, GetApplicationInstanceId,IObjectContextInfo2.GetApplicationInstanceId, IObjectContextInfo2, IObjectContextInfo2 interface [COM+], GetApplicationInstanceId method, IObjectContextInfo2::GetApplicationInstanceId, _cos_IObjectContextInfo2_GetApplicationInstanceId, comsvcs/IObjectContextInfo2::GetApplicationInstanceId, cos.iobjectcontextinfo2_getapplicationinstanceid
+ms.keywords: GetApplicationInstanceId, GetApplicationInstanceId method [COM+], GetApplicationInstanceId method [COM+],IObjectContextInfo2 interface, IObjectContextInfo2 interface [COM+],GetApplicationInstanceId method, IObjectContextInfo2.GetApplicationInstanceId, IObjectContextInfo2::GetApplicationInstanceId, _cos_IObjectContextInfo2_GetApplicationInstanceId, comsvcs/IObjectContextInfo2::GetApplicationInstanceId, cos.iobjectcontextinfo2_getapplicationinstanceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IObjectContextInfo2::GetApplicationInstanceId method
+# IObjectContextInfo2::GetApplicationInstanceId
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: wmp\iwmpmedia3.htm
 old-project: WMP
 ms.assetid: 664a3148-3c78-41b0-85ba-9c2b3ac821d9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMedia3, IWMPMedia3 interface [Windows Media Player], IWMPMedia3 interface [Windows Media Player], described, IWMPMedia3Interface, wmp.iwmpmedia3, wmp/IWMPMedia3
+ms.date: 5/4/2018
+ms.keywords: IWMPMedia3, IWMPMedia3 interface [Windows Media Player], IWMPMedia3 interface [Windows Media Player],described, IWMPMedia3Interface, wmp.iwmpmedia3, wmp/IWMPMedia3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

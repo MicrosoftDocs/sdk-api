@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.GetStatistics
-title: IMFASFMultiplexer::GetStatistics method
+title: IMFASFMultiplexer::GetStatistics
 author: windows-driver-content
 description: Retrieves multiplexer statistics.
 old-location: mf\imfasfmultiplexer_getstatistics.htm
 old-project: medfound
 ms.assetid: 56083ceb-3d39-4fda-995a-f91fa0e16853
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 56083ceb-3d39-4fda-995a-f91fa0e16853, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation], IMFASFMultiplexer interface, GetStatistics,IMFASFMultiplexer.GetStatistics, IMFASFMultiplexer, IMFASFMultiplexer interface [Media Foundation], GetStatistics method, IMFASFMultiplexer::GetStatistics, mf.imfasfmultiplexer_getstatistics, wmcontainer/IMFASFMultiplexer::GetStatistics
+ms.date: 5/3/2018
+ms.keywords: 56083ceb-3d39-4fda-995a-f91fa0e16853, GetStatistics, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],GetStatistics method, IMFASFMultiplexer.GetStatistics, IMFASFMultiplexer::GetStatistics, mf.imfasfmultiplexer_getstatistics, wmcontainer/IMFASFMultiplexer::GetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFMultiplexer::GetStatistics method
+# IMFASFMultiplexer::GetStatistics
 
 
 ## -description

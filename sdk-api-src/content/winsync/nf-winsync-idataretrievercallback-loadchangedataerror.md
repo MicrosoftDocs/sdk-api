@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IDataRetrieverCallback.LoadChangeDataError
-title: IDataRetrieverCallback::LoadChangeDataError method
+title: IDataRetrieverCallback::LoadChangeDataError
 author: windows-driver-content
 description: Indicates that an IAsynchronousDataRetriever method failed.
 old-location: winsync\idataretrievercallback_loadchangedataerror.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 93185b3d-458d-4254-af2d-02cf7b1c5be7
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDataRetrieverCallback, IDataRetrieverCallback interface [Windows Sync], LoadChangeDataError method, IDataRetrieverCallback::LoadChangeDataError, LoadChangeDataError method [Windows Sync], LoadChangeDataError method [Windows Sync], IDataRetrieverCallback interface, LoadChangeDataError,IDataRetrieverCallback.LoadChangeDataError, winsync.idataretrievercallback_loadchangedataerror, winsync/IDataRetrieverCallback::LoadChangeDataError
+ms.keywords: IDataRetrieverCallback interface [Windows Sync],LoadChangeDataError method, IDataRetrieverCallback.LoadChangeDataError, IDataRetrieverCallback::LoadChangeDataError, LoadChangeDataError, LoadChangeDataError method [Windows Sync], LoadChangeDataError method [Windows Sync],IDataRetrieverCallback interface, winsync.idataretrievercallback_loadchangedataerror, winsync/IDataRetrieverCallback::LoadChangeDataError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IDataRetrieverCallback::LoadChangeDataError method
+# IDataRetrieverCallback::LoadChangeDataError
 
 
 ## -description

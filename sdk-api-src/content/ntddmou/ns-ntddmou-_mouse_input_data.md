@@ -7,7 +7,7 @@ old-location: hid\mouse_input_data.htm
 old-project: hid
 ms.assetid: 363699d5-e91c-43ea-bae3-8ed997487e31
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PMOUSE_INPUT_DATA, MOUSE_INPUT_DATA, MOUSE_INPUT_DATA structure [Human Input Devices], PMOUSE_INPUT_DATA, PMOUSE_INPUT_DATA structure pointer [Human Input Devices], _MOUSE_INPUT_DATA, hid.mouse_input_data, mref_7f184199-ae93-458c-8e4b-25fcacc57263.xml, ntddmou/MOUSE_INPUT_DATA, ntddmou/PMOUSE_INPUT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,6 +126,11 @@ For more information about WM_MOUSEMOVE notification messages, see the Microsoft
 </tr>
 </table>
  
+
+
+### -field Buttons
+
+Specifies both <b>ButtonFlags</b> and <b>ButtonData</b> values. Mouclass uses <b>Buttons</b> in its interrupt service routine to do a fast single memory access to <b>ButtonFlags</b> and <b>ButtonData</b>.
 
 
 ### -field ButtonFlags
@@ -284,11 +289,6 @@ Specifies the signed relative or absolute motion in the y direction.
 ### -field ExtraInformation
 
 Specifies device-specific information.
-
-
-#### - Buttons
-
-Specifies both <b>ButtonFlags</b> and <b>ButtonData</b> values. Mouclass uses <b>Buttons</b> in its interrupt service routine to do a fast single memory access to <b>ButtonFlags</b> and <b>ButtonData</b>.
 
 
 ## -remarks

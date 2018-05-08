@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePrintTicketResource
-title: IXpsOMObjectFactory::CreatePrintTicketResource method
+title: IXpsOMObjectFactory::CreatePrintTicketResource
 author: windows-driver-content
 description: Creates an IXpsOMPrintTicketResource interface that enables access to a PrintTicket stream.
 old-location: xps\ixpsomobjectfactory_createprintticketresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 67d5ccfc-0f01-49d2-966e-09c7958921a5
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePrintTicketResource method [XPS Documents and Packaging], CreatePrintTicketResource method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreatePrintTicketResource,IXpsOMObjectFactory.CreatePrintTicketResource, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreatePrintTicketResource method, IXpsOMObjectFactory::CreatePrintTicketResource, xps.ixpsomobjectfactory_createprintticketresource, xpsobjectmodel/IXpsOMObjectFactory::CreatePrintTicketResource
+ms.keywords: CreatePrintTicketResource, CreatePrintTicketResource method [XPS Documents and Packaging], CreatePrintTicketResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePrintTicketResource method, IXpsOMObjectFactory.CreatePrintTicketResource, IXpsOMObjectFactory::CreatePrintTicketResource, xps.ixpsomobjectfactory_createprintticketresource, xpsobjectmodel/IXpsOMObjectFactory::CreatePrintTicketResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreatePrintTicketResource method
+# IXpsOMObjectFactory::CreatePrintTicketResource
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.Remove
-title: IWbemConfigureRefresher::Remove method
+title: IWbemConfigureRefresher::Remove
 author: windows-driver-content
 description: The IWbemConfigureRefresher::Remove method is used to remove an object, enumerator, or nested refresher from a refresher.
 old-location: wmi\iwbemconfigurerefresher_remove.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: f6e68b95-e9d1-473e-add4-823b6db51709
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemConfigureRefresher, IWbemConfigureRefresher interface [Windows Management Instrumentation], Remove method, IWbemConfigureRefresher::Remove, Remove method [Windows Management Instrumentation], Remove method [Windows Management Instrumentation], IWbemConfigureRefresher interface, Remove,IWbemConfigureRefresher.Remove, _hmm_iwbemconfigurerefresher_remove, wbemcli/IWbemConfigureRefresher::Remove, wmi.iwbemconfigurerefresher_remove
+ms.keywords: IWbemConfigureRefresher interface [Windows Management Instrumentation],Remove method, IWbemConfigureRefresher.Remove, IWbemConfigureRefresher::Remove, Remove, Remove method [Windows Management Instrumentation], Remove method [Windows Management Instrumentation],IWbemConfigureRefresher interface, _hmm_iwbemconfigurerefresher_remove, wbemcli/IWbemConfigureRefresher::Remove, wmi.iwbemconfigurerefresher_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemConfigureRefresher::Remove method
+# IWbemConfigureRefresher::Remove
 
 
 ## -description

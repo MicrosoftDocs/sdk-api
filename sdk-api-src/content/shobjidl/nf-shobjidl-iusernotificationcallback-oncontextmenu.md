@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IUserNotificationCallback.OnContextMenu
-title: IUserNotificationCallback::OnContextMenu method
+title: IUserNotificationCallback::OnContextMenu
 author: windows-driver-content
 description: Called when the user right-clicks (or presses SHIFT+F10) the icon in the notification area. The application should show its context menu in response.
 old-location: shell\IUserNotificationCallback_OnContextMenu.htm
 old-project: shell
 ms.assetid: eb0b1de0-a42c-4789-aac0-885a574f89f6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IUserNotificationCallback, IUserNotificationCallback interface [Windows Shell], OnContextMenu method, IUserNotificationCallback::OnContextMenu, OnContextMenu method [Windows Shell], OnContextMenu method [Windows Shell], IUserNotificationCallback interface, OnContextMenu,IUserNotificationCallback.OnContextMenu, _shell_IUserNotificationCallback_OnContextMenu, shell.IUserNotificationCallback_OnContextMenu, shobjidl/IUserNotificationCallback::OnContextMenu
+ms.date: 5/3/2018
+ms.keywords: IUserNotificationCallback interface [Windows Shell],OnContextMenu method, IUserNotificationCallback.OnContextMenu, IUserNotificationCallback::OnContextMenu, OnContextMenu, OnContextMenu method [Windows Shell], OnContextMenu method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnContextMenu, shell.IUserNotificationCallback_OnContextMenu, shobjidl/IUserNotificationCallback::OnContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IUserNotificationCallback::OnContextMenu method
+# IUserNotificationCallback::OnContextMenu
 
 
 ## -description

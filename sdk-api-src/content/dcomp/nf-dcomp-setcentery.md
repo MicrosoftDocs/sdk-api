@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 19B3B065-BE8C-4CBD-8A94-54934CA0B421
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetCenterY, SetCenterY methods [DirectComposition], dcomp/SetCenterY, directcomp.idcompositionrotatetransform3d_setcentery_overloaded
+ms.keywords: IDCompositionRotateTransform3D::SetCenterY, SetCenterY, SetCenterY methods [DirectComposition], dcomp/SetCenterY, directcomp.idcompositionrotatetransform3d_setcentery_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

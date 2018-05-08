@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetScrollMode
-title: IMFTimedTextRegion::GetScrollMode method
+title: IMFTimedTextRegion::GetScrollMode
 author: windows-driver-content
 description: Gets the scroll mode of the region.
 old-location: mf\imftimedtextregion_getscrollmode.htm
 old-project: medfound
 ms.assetid: 85CD2A7A-23ED-4D5C-AAEC-D5DF9F059897
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetScrollMode method [Media Foundation], GetScrollMode method [Media Foundation], IMFTimedTextRegion interface, GetScrollMode,IMFTimedTextRegion.GetScrollMode, IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], GetScrollMode method, IMFTimedTextRegion::GetScrollMode, mf.imftimedtextregion_getscrollmode, mfmediaengine/IMFTimedTextRegion::GetScrollMode
+ms.date: 5/3/2018
+ms.keywords: GetScrollMode, GetScrollMode method [Media Foundation], GetScrollMode method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetScrollMode method, IMFTimedTextRegion.GetScrollMode, IMFTimedTextRegion::GetScrollMode, mf.imftimedtextregion_getscrollmode, mfmediaengine/IMFTimedTextRegion::GetScrollMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextRegion::GetScrollMode method
+# IMFTimedTextRegion::GetScrollMode
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdeletefilterv4.htm
 old-project: DHCP
 ms.assetid: ba59bfed-63dd-4468-bc2a-ed47d093c23c
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpDeleteFilterV4, DhcpDeleteFilterV4 function [DHCP], dhcp.dhcpdeletefilterv4, dhcpsapi/DhcpDeleteFilterV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

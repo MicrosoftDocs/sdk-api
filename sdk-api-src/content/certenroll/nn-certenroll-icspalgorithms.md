@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: bbf8cff4-b1b2-480e-8c30-eb34166db143
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspAlgorithms, ICspAlgorithms interface [Security], ICspAlgorithms interface [Security], described, certenroll/ICspAlgorithms, security.icspalgorithms
+ms.keywords: ICspAlgorithms, ICspAlgorithms interface [Security], ICspAlgorithms interface [Security],described, certenroll/ICspAlgorithms, security.icspalgorithms
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

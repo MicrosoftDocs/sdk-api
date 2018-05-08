@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.GetText2
-title: ITextRange2::GetText2 method
+title: ITextRange2::GetText2
 author: windows-driver-content
 description: Gets the text in this range according to the specified conversion flags.
 old-location: controls\itextrange2_gettext2.htm
 old-project: Controls
 ms.assetid: 77f39808-b39d-45bb-ba03-3a27d503fe0e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetText2 method [Windows Controls], GetText2 method [Windows Controls], ITextRange2 interface, GetText2,ITextRange2.GetText2, ITextRange2, ITextRange2 interface [Windows Controls], GetText2 method, ITextRange2::GetText2, controls.itextrange2_gettext2, tom/ITextRange2::GetText2, tomAdjustCRLF, tomAllowFinalEOP, tomFoldMathAlpha, tomIncludeNumbering, tomLanguageTag, tomNoHidden, tomNoMathZoneBrackets, tomTextize, tomTranslateTableCell, tomUseCRLF
+ms.date: 4/27/2018
+ms.keywords: GetText2, GetText2 method [Windows Controls], GetText2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetText2 method, ITextRange2.GetText2, ITextRange2::GetText2, controls.itextrange2_gettext2, tom/ITextRange2::GetText2, tomAdjustCRLF, tomAllowFinalEOP, tomFoldMathAlpha, tomIncludeNumbering, tomLanguageTag, tomNoHidden, tomNoMathZoneBrackets, tomTextize, tomTranslateTableCell, tomUseCRLF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::GetText2 method
+# ITextRange2::GetText2
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.Cancel
-title: IMFContentEnabler::Cancel method
+title: IMFContentEnabler::Cancel
 author: windows-driver-content
 description: Cancels a pending content enabling action.
 old-location: mf\imfcontentenabler_cancel.htm
 old-project: medfound
 ms.assetid: e273b702-1f42-4aeb-9259-778d3f206682
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: Cancel method [Media Foundation], Cancel method [Media Foundation], IMFContentEnabler interface, Cancel,IMFContentEnabler.Cancel, IMFContentEnabler, IMFContentEnabler interface [Media Foundation], Cancel method, IMFContentEnabler::Cancel, e273b702-1f42-4aeb-9259-778d3f206682, mf.imfcontentenabler_cancel, mfidl/IMFContentEnabler::Cancel
+ms.date: 5/3/2018
+ms.keywords: Cancel, Cancel method [Media Foundation], Cancel method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],Cancel method, IMFContentEnabler.Cancel, IMFContentEnabler::Cancel, e273b702-1f42-4aeb-9259-778d3f206682, mf.imfcontentenabler_cancel, mfidl/IMFContentEnabler::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFContentEnabler::Cancel method
+# IMFContentEnabler::Cancel
 
 
 ## -description

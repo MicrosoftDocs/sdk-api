@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.GetCategory
-title: INetwork::GetCategory method
+title: INetwork::GetCategory
 author: windows-driver-content
 description: The GetCategory method returns the category of a network.
 old-location: nla\inetwork_getcategory.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 8a57c6ad-8c6c-4ef0-a731-463a5d7e325f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetCategory method [Network Awareness], GetCategory method [Network Awareness], INetwork interface, GetCategory,INetwork.GetCategory, INetwork, INetwork interface [Network Awareness], GetCategory method, INetwork::GetCategory, netlistmgr/INetwork::GetCategory, nla.inetwork_getcategory
+ms.keywords: GetCategory, GetCategory method [Network Awareness], GetCategory method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetCategory method, INetwork.GetCategory, INetwork::GetCategory, netlistmgr/INetwork::GetCategory, nla.inetwork_getcategory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetwork::GetCategory method
+# INetwork::GetCategory
 
 
 ## -description

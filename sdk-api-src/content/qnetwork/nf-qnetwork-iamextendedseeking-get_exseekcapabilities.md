@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_ExSeekCapabilities
-title: IAMExtendedSeeking::get_ExSeekCapabilities method
+title: IAMExtendedSeeking::get_ExSeekCapabilities
 author: windows-driver-content
 description: The get_ExSeekCapabilities method retrieves the extended seeking capabilities of the filter.
 old-location: dshow\iamextendedseeking_get_exseekcapabilities.htm
 old-project: DirectShow
 ms.assetid: caae9e8c-6d42-4bbc-a66a-bdde1009469d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], get_ExSeekCapabilities method, IAMExtendedSeeking::get_ExSeekCapabilities, IAMExtendedSeekingget_ExSeekCapabilities, dshow.iamextendedseeking_get_exseekcapabilities, get_ExSeekCapabilities method [DirectShow], get_ExSeekCapabilities method [DirectShow], IAMExtendedSeeking interface, get_ExSeekCapabilities,IAMExtendedSeeking.get_ExSeekCapabilities, qnetwork/IAMExtendedSeeking::get_ExSeekCapabilities
+ms.date: 4/30/2018
+ms.keywords: IAMExtendedSeeking interface [DirectShow],get_ExSeekCapabilities method, IAMExtendedSeeking.get_ExSeekCapabilities, IAMExtendedSeeking::get_ExSeekCapabilities, IAMExtendedSeekingget_ExSeekCapabilities, dshow.iamextendedseeking_get_exseekcapabilities, get_ExSeekCapabilities, get_ExSeekCapabilities method [DirectShow], get_ExSeekCapabilities method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_ExSeekCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMExtendedSeeking::get_ExSeekCapabilities method
+# IAMExtendedSeeking::get_ExSeekCapabilities
 
 
 ## -description

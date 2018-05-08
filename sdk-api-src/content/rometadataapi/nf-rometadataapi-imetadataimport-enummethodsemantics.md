@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMethodSemantics
-title: IMetaDataImport::EnumMethodSemantics method
+title: IMetaDataImport::EnumMethodSemantics
 author: windows-driver-content
 description: Enumerates the properties and the property-change events to which the specified method is related.
 old-location: winrt\imetadataimport_enummethodsemantics.htm
 old-project: WinRT
 ms.assetid: 2b3be5bb-1da7-40d7-8407-c08c2f2723e5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumMethodSemantics method [Windows Runtime], EnumMethodSemantics method [Windows Runtime], IMetaDataImport interface, EnumMethodSemantics,IMetaDataImport.EnumMethodSemantics, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumMethodSemantics method, IMetaDataImport::EnumMethodSemantics, rometadataapi/IMetaDataImport::EnumMethodSemantics, winrt.imetadataimport_enummethodsemantics
+ms.date: 5/4/2018
+ms.keywords: EnumMethodSemantics, EnumMethodSemantics method [Windows Runtime], EnumMethodSemantics method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMethodSemantics method, IMetaDataImport.EnumMethodSemantics, IMetaDataImport::EnumMethodSemantics, rometadataapi/IMetaDataImport::EnumMethodSemantics, winrt.imetadataimport_enummethodsemantics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumMethodSemantics method
+# IMetaDataImport::EnumMethodSemantics
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.RemoveStream
-title: IMFASFProfile::RemoveStream method
+title: IMFASFProfile::RemoveStream
 author: windows-driver-content
 description: Removes a stream from the Advanced Systems Format (ASF) profile object.
 old-location: mf\imfasfprofile_removestream.htm
 old-project: medfound
 ms.assetid: dfe404d3-66ea-407b-a2e0-caa065f41afe
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFASFProfile, IMFASFProfile interface [Media Foundation], RemoveStream method, IMFASFProfile::RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation], IMFASFProfile interface, RemoveStream,IMFASFProfile.RemoveStream, dfe404d3-66ea-407b-a2e0-caa065f41afe, mf.imfasfprofile_removestream, wmcontainer/IMFASFProfile::RemoveStream
+ms.date: 5/3/2018
+ms.keywords: IMFASFProfile interface [Media Foundation],RemoveStream method, IMFASFProfile.RemoveStream, IMFASFProfile::RemoveStream, RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation],IMFASFProfile interface, dfe404d3-66ea-407b-a2e0-caa065f41afe, mf.imfasfprofile_removestream, wmcontainer/IMFASFProfile::RemoveStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFProfile::RemoveStream method
+# IMFASFProfile::RemoveStream
 
 
 ## -description

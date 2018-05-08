@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.IMSCEPSetup.get_MSCEPErrorId
-title: IMSCEPSetup::get_MSCEPErrorId method
+title: IMSCEPSetup::get_MSCEPErrorId
 author: windows-driver-content
 description: Gets the ID for additional error information related to a failed Network Device Enrollment Service (NDES) specification. Any method call on the parent object resets this property.
 old-location: security\imscepsetup_msceperrorid.htm
 old-project: SecCrypto
 ms.assetid: 3edec047-1034-44c8-bac5-f3593cb1b66b
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IDS_FAIL_CHECK_MEMBER, IDS_FAIL_DETECT_READ_ACCESS, IDS_FAIL_FIND_CERT_TYPE, IDS_FAIL_FIND_DOMAIN, IDS_FAIL_FIND_SD_CERT_TYPE, IDS_FAIL_GET_COMPUTER_NAME, IDS_FAIL_LOGON_USER, IDS_FAIL_LOOK_UP, IDS_INVALID_NAME, IDS_NOT_IIS_MEMBER, IDS_NO_LOCAL_ACCOUNT, IDS_NO_READ_ACCESS_TO_TEMPLATE, IMSCEPSetup, IMSCEPSetup interface [Security], MSCEPErrorId property, IMSCEPSetup.MSCEPErrorId, IMSCEPSetup::get_MSCEPErrorId, MSCEPErrorId property [Security], MSCEPErrorId property [Security], IMSCEPSetup interface, casetup/IMSCEPSetup::MSCEPErrorId, casetup/IMSCEPSetup::get_MSCEPErrorId, get_MSCEPErrorId,IMSCEPSetup.get_MSCEPErrorId, security.imscepsetup_msceperrorid
+ms.date: 4/30/2018
+ms.keywords: IDS_FAIL_CHECK_MEMBER, IDS_FAIL_DETECT_READ_ACCESS, IDS_FAIL_FIND_CERT_TYPE, IDS_FAIL_FIND_DOMAIN, IDS_FAIL_FIND_SD_CERT_TYPE, IDS_FAIL_GET_COMPUTER_NAME, IDS_FAIL_LOGON_USER, IDS_FAIL_LOOK_UP, IDS_INVALID_NAME, IDS_NOT_IIS_MEMBER, IDS_NO_LOCAL_ACCOUNT, IDS_NO_READ_ACCESS_TO_TEMPLATE, IMSCEPSetup interface [Security],MSCEPErrorId property, IMSCEPSetup.MSCEPErrorId, IMSCEPSetup.get_MSCEPErrorId, IMSCEPSetup::MSCEPErrorId, IMSCEPSetup::get_MSCEPErrorId, MSCEPErrorId property [Security], MSCEPErrorId property [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::MSCEPErrorId, casetup/IMSCEPSetup::get_MSCEPErrorId, get_MSCEPErrorId, security.imscepsetup_msceperrorid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# IMSCEPSetup::get_MSCEPErrorId method
+# IMSCEPSetup::get_MSCEPErrorId
 
 
 ## -description

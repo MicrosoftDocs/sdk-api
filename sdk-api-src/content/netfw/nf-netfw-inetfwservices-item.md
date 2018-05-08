@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwServices.Item
-title: INetFwServices::Item method
+title: INetFwServices::Item
 author: windows-driver-content
 description: Returns the specified service if it is in the collection.
 old-location: ics\inetfwservices_item.htm
 old-project: ICS
 ms.assetid: a13740cc-7d9a-4c1f-ae18-a31ca4d39b54
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwServices, INetFwServices interface [ICS/ICF], Item method, INetFwServices::Item, Item method [ICS/ICF], Item method [ICS/ICF], INetFwServices interface, Item,INetFwServices.Item, ics.inetfwservices_item, netfw/INetFwServices::Item
+ms.date: 5/1/2018
+ms.keywords: INetFwServices interface [ICS/ICF],Item method, INetFwServices.Item, INetFwServices::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwServices interface, ics.inetfwservices_item, netfw/INetFwServices::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwServices::Item method
+# INetFwServices::Item
 
 
 ## -description

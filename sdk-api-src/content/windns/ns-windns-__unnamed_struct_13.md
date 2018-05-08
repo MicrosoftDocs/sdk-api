@@ -64,6 +64,16 @@ The
 The number of bytes represented in <b>Data</b>.
 
 
+### -field size_is
+
+ 
+
+
+### -field size_is.dwByteCount
+
+ 
+
+
 ### -field Data
 
 Null data.

@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 45ef0b45-92d0-47c1-9334-d0df74a43d28
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_EventingService, IBDA_EventingService interface [Microsoft TV Technologies], IBDA_EventingService interface [Microsoft TV Technologies], described, bdaiface/IBDA_EventingService, mstv.ibda_eventingservice
+ms.keywords: IBDA_EventingService, IBDA_EventingService interface [Microsoft TV Technologies], IBDA_EventingService interface [Microsoft TV Technologies],described, bdaiface/IBDA_EventingService, mstv.ibda_eventingservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

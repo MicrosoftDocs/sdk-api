@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePath
-title: IXpsOMObjectFactory::CreatePath method
+title: IXpsOMObjectFactory::CreatePath
 author: windows-driver-content
 description: Creates an IXpsOMPath interface that specifies a graphical path element on a page.
 old-location: xps\ixpsomobjectfactory_createpath.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: aa5dcddd-9ca7-4b8f-9f4f-aa0f851e8697
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePath method [XPS Documents and Packaging], CreatePath method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreatePath,IXpsOMObjectFactory.CreatePath, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreatePath method, IXpsOMObjectFactory::CreatePath, xps.ixpsomobjectfactory_createpath, xpsobjectmodel/IXpsOMObjectFactory::CreatePath
+ms.keywords: CreatePath, CreatePath method [XPS Documents and Packaging], CreatePath method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePath method, IXpsOMObjectFactory.CreatePath, IXpsOMObjectFactory::CreatePath, xps.ixpsomobjectfactory_createpath, xpsobjectmodel/IXpsOMObjectFactory::CreatePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreatePath method
+# IXpsOMObjectFactory::CreatePath
 
 
 ## -description

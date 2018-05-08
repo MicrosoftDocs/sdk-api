@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.InitInputProtection
-title: IMFSampleProtection::InitInputProtection method
+title: IMFSampleProtection::InitInputProtection
 author: windows-driver-content
 description: Initializes sample protection on the downstream component.
 old-location: mf\imfsampleprotection_initinputprotection.htm
 old-project: medfound
 ms.assetid: 2bd43f33-8528-4e78-97d5-2af39a2ac06b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 2bd43f33-8528-4e78-97d5-2af39a2ac06b, IMFSampleProtection, IMFSampleProtection interface [Media Foundation], InitInputProtection method, IMFSampleProtection::InitInputProtection, InitInputProtection method [Media Foundation], InitInputProtection method [Media Foundation], IMFSampleProtection interface, InitInputProtection,IMFSampleProtection.InitInputProtection, mf.imfsampleprotection_initinputprotection, mfidl/IMFSampleProtection::InitInputProtection
+ms.date: 5/3/2018
+ms.keywords: 2bd43f33-8528-4e78-97d5-2af39a2ac06b, IMFSampleProtection interface [Media Foundation],InitInputProtection method, IMFSampleProtection.InitInputProtection, IMFSampleProtection::InitInputProtection, InitInputProtection, InitInputProtection method [Media Foundation], InitInputProtection method [Media Foundation],IMFSampleProtection interface, mf.imfsampleprotection_initinputprotection, mfidl/IMFSampleProtection::InitInputProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSampleProtection::InitInputProtection method
+# IMFSampleProtection::InitInputProtection
 
 
 ## -description

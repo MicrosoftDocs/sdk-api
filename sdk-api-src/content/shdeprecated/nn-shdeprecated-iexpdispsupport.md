@@ -7,8 +7,8 @@ old-location: shell\IExpDispSupport.htm
 old-project: shell
 ms.assetid: ddc71eaf-2c3a-4d70-80f1-6d499bf31b6d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IExpDispSupport, IExpDispSupport interface [Windows Shell], IExpDispSupport interface [Windows Shell], described, shdeprecated/IExpDispSupport, shell.IExpDispSupport, zone_IExpDispSupport
+ms.date: 5/3/2018
+ms.keywords: IExpDispSupport, IExpDispSupport interface [Windows Shell], IExpDispSupport interface [Windows Shell],described, shdeprecated/IExpDispSupport, shell.IExpDispSupport, zone_IExpDispSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.put_NullSigned
-title: IX509SignatureInformation::put_NullSigned method
+title: IX509SignatureInformation::put_NullSigned
 author: windows-driver-content
 description: Specifies and retrieves a Boolean value that indicates whether the certificate request is null-signed.
 old-location: security\ix509signatureinformation_nullsigned_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: a693343e-7c9a-4967-b46c-53936497662a
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509SignatureInformation, IX509SignatureInformation interface [Security], NullSigned property, IX509SignatureInformation.NullSigned, IX509SignatureInformation::get_NullSigned, IX509SignatureInformation::put_NullSigned, NullSigned property [Security], NullSigned property [Security], IX509SignatureInformation interface, certenroll/IX509SignatureInformation::NullSigned, certenroll/IX509SignatureInformation::get_NullSigned, certenroll/IX509SignatureInformation::put_NullSigned, put_NullSigned,IX509SignatureInformation.put_NullSigned, security.ix509signatureinformation_nullsigned_property
+ms.keywords: IX509SignatureInformation interface [Security],NullSigned property, IX509SignatureInformation.NullSigned, IX509SignatureInformation.put_NullSigned, IX509SignatureInformation::NullSigned, IX509SignatureInformation::get_NullSigned, IX509SignatureInformation::put_NullSigned, NullSigned property [Security], NullSigned property [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::NullSigned, certenroll/IX509SignatureInformation::get_NullSigned, certenroll/IX509SignatureInformation::put_NullSigned, put_NullSigned, security.ix509signatureinformation_nullsigned_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509SignatureInformation::put_NullSigned method
+# IX509SignatureInformation::put_NullSigned
 
 
 ## -description

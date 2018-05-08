@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchProtocol.CreateAccessor
-title: ISearchProtocol::CreateAccessor method
+title: ISearchProtocol::CreateAccessor
 author: windows-driver-content
 description: Creates and initializes an IUrlAccessor object.
 old-location: search\_search_ISearchProtocol_CreateAccessor.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\createaccessor.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateAccessor method [search], CreateAccessor method [search], ISearchProtocol interface, CreateAccessor,ISearchProtocol.CreateAccessor, ISearchProtocol, ISearchProtocol interface [search], CreateAccessor method, ISearchProtocol::CreateAccessor, _search_ISearchProtocol_CreateAccessor, search._search_ISearchProtocol_CreateAccessor, searchapi/ISearchProtocol::CreateAccessor
+ms.date: 5/4/2018
+ms.keywords: CreateAccessor, CreateAccessor method [search], CreateAccessor method [search],ISearchProtocol interface, ISearchProtocol interface [search],CreateAccessor method, ISearchProtocol.CreateAccessor, ISearchProtocol::CreateAccessor, _search_ISearchProtocol_CreateAccessor, search._search_ISearchProtocol_CreateAccessor, searchapi/ISearchProtocol::CreateAccessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchProtocol::CreateAccessor method
+# ISearchProtocol::CreateAccessor
 
 
 ## -description

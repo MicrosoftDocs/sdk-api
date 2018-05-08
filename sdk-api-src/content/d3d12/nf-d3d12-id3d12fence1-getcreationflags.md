@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Fence1.GetCreationFlags
-title: ID3D12Fence1::GetCreationFlags method
+title: ID3D12Fence1::GetCreationFlags
 author: windows-driver-content
 description: Gets the flags used to create the fence represented by the current instance.
 old-location: direct3d12\id3d12fence1_getcreationflags.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 59FF0D7D-CE1F-49AD-8AFE-8C0E7DE05F36
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetCreationFlags method, GetCreationFlags method, ID3D12fence1 interface, GetCreationFlags,ID3D12Fence1.GetCreationFlags, ID3D12Fence1, ID3D12Fence1::GetCreationFlags, ID3D12fence1 interface, GetCreationFlags method, ID3D12fence1::GetCreationFlags, d3d12/ID3D12fence1::GetCreationFlags, direct3d12.id3d12fence1_getcreationflags
+ms.keywords: GetCreationFlags, GetCreationFlags method, GetCreationFlags method,ID3D12fence1 interface, ID3D12Fence1.GetCreationFlags, ID3D12Fence1::GetCreationFlags, ID3D12fence1 interface,GetCreationFlags method, ID3D12fence1::GetCreationFlags, d3d12/ID3D12fence1::GetCreationFlags, direct3d12.id3d12fence1_getcreationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Fence1::GetCreationFlags method
+# ID3D12Fence1::GetCreationFlags
 
 
 ## -description

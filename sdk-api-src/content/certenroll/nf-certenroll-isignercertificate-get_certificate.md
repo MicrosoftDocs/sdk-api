@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_Certificate
-title: ISignerCertificate::get_Certificate method
+title: ISignerCertificate::get_Certificate
 author: windows-driver-content
 description: Retrieves a Distinguished Encoding Rules (DER) encoded byte array that contains the certificate.
 old-location: security\isignercertificate_certificate_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 7c7cc326-593d-4b2b-b8db-46aaf894279b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Certificate property [Security], Certificate property [Security], ISignerCertificate interface, ISignerCertificate, ISignerCertificate interface [Security], Certificate property, ISignerCertificate.Certificate, ISignerCertificate::get_Certificate, certenroll/ISignerCertificate::Certificate, certenroll/ISignerCertificate::get_Certificate, get_Certificate,ISignerCertificate.get_Certificate, security.isignercertificate_certificate_property
+ms.keywords: Certificate property [Security], Certificate property [Security],ISignerCertificate interface, ISignerCertificate interface [Security],Certificate property, ISignerCertificate.Certificate, ISignerCertificate.get_Certificate, ISignerCertificate::Certificate, ISignerCertificate::get_Certificate, certenroll/ISignerCertificate::Certificate, certenroll/ISignerCertificate::get_Certificate, get_Certificate, security.isignercertificate_certificate_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ISignerCertificate::get_Certificate method
+# ISignerCertificate::get_Certificate
 
 
 ## -description

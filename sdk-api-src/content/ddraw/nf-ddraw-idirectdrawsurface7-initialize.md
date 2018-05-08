@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Initialize
-title: IDirectDrawSurface7::Initialize method
+title: IDirectDrawSurface7::Initialize
 author: windows-driver-content
 description: Initializes a DirectDrawSurface object.
 old-location: directdraw\idirectdrawsurface7_initialize.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 98b9a05f-ff61-4c58-9c09-625077eb64ad
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], Initialize method, IDirectDrawSurface7::Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw], IDirectDrawSurface7 interface, Initialize,IDirectDrawSurface7.Initialize, ddraw/IDirectDrawSurface7::Initialize, directdraw.idirectdrawsurface7_initialize
+ms.keywords: IDirectDrawSurface7 interface [DirectDraw],Initialize method, IDirectDrawSurface7.Initialize, IDirectDrawSurface7::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::Initialize, directdraw.idirectdrawsurface7_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::Initialize method
+# IDirectDrawSurface7::Initialize
 
 
 ## -description

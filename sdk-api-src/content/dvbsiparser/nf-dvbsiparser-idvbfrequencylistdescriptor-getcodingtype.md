@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbFrequencyListDescriptor.GetCodingType
-title: IDvbFrequencyListDescriptor::GetCodingType method
+title: IDvbFrequencyListDescriptor::GetCodingType
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbfrequencylistdescriptor_getcodingtype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0d458f42-bea5-4503-a2d7-89efd1abc1a8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCodingType method [Microsoft TV Technologies], GetCodingType method [Microsoft TV Technologies], IDvbFrequencyListDescriptor interface, GetCodingType,IDvbFrequencyListDescriptor.GetCodingType, IDvbFrequencyListDescriptor, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies], GetCodingType method, IDvbFrequencyListDescriptor::GetCodingType, IDvbFrequencyListDescriptorGetCodingType, dvbsiparser/IDvbFrequencyListDescriptor::GetCodingType, mstv.idvbfrequencylistdescriptor_getcodingtype
+ms.keywords: GetCodingType, GetCodingType method [Microsoft TV Technologies], GetCodingType method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetCodingType method, IDvbFrequencyListDescriptor.GetCodingType, IDvbFrequencyListDescriptor::GetCodingType, IDvbFrequencyListDescriptorGetCodingType, dvbsiparser/IDvbFrequencyListDescriptor::GetCodingType, mstv.idvbfrequencylistdescriptor_getcodingtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbFrequencyListDescriptor::GetCodingType method
+# IDvbFrequencyListDescriptor::GetCodingType
 
 
 ## -description

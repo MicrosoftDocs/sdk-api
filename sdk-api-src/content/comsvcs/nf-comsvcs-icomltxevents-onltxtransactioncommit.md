@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionCommit
-title: IComLTxEvents::OnLtxTransactionCommit method
+title: IComLTxEvents::OnLtxTransactionCommit
 author: windows-driver-content
 description: Generated when a transaction is committed.
 old-location: cos\icomltxevents_onltxtransactioncommit.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: c3462a79-6056-4a57-b971-78d8b4bd2a70
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComLTxEvents, IComLTxEvents interface [COM+], OnLtxTransactionCommit method, IComLTxEvents::OnLtxTransactionCommit, OnLtxTransactionCommit method [COM+], OnLtxTransactionCommit method [COM+], IComLTxEvents interface, OnLtxTransactionCommit,IComLTxEvents.OnLtxTransactionCommit, comsvcs/IComLTxEvents::OnLtxTransactionCommit, cos.icomltxevents_onltxtransactioncommit
+ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionCommit method, IComLTxEvents.OnLtxTransactionCommit, IComLTxEvents::OnLtxTransactionCommit, OnLtxTransactionCommit, OnLtxTransactionCommit method [COM+], OnLtxTransactionCommit method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionCommit, cos.icomltxevents_onltxtransactioncommit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComLTxEvents::OnLtxTransactionCommit method
+# IComLTxEvents::OnLtxTransactionCommit
 
 
 ## -description

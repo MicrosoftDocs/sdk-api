@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.RemoveEffect
-title: IMFPMediaPlayer::RemoveEffect method
+title: IMFPMediaPlayer::RemoveEffect
 author: windows-driver-content
 description: Removes an effect that was added with the IMFPMediaPlayer::InsertEffect method.
 old-location: mf\imfpmediaplayer_removeeffect.htm
 old-project: medfound
 ms.assetid: ca8507b9-c6c5-4e17-9c18-3ec1514de897
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], RemoveEffect method, IMFPMediaPlayer::RemoveEffect, RemoveEffect method [Media Foundation], RemoveEffect method [Media Foundation], IMFPMediaPlayer interface, RemoveEffect,IMFPMediaPlayer.RemoveEffect, mf.imfpmediaplayer_removeeffect, mfplay/IMFPMediaPlayer::RemoveEffect
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaPlayer interface [Media Foundation],RemoveEffect method, IMFPMediaPlayer.RemoveEffect, IMFPMediaPlayer::RemoveEffect, RemoveEffect, RemoveEffect method [Media Foundation], RemoveEffect method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_removeeffect, mfplay/IMFPMediaPlayer::RemoveEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::RemoveEffect method
+# IMFPMediaPlayer::RemoveEffect
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: b3e8eca6-6d8d-4385-8c94-7269878810c0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: MibCreate, MibCreate callback function [RAS], PMIB_CREATE, _mpr_mibcreate, routprot/MibCreate, rras.mibcreate
+ms.keywords: MibCreate, MibCreate callback function [RAS], PMIB_CREATE, PMIB_CREATE callback, _mpr_mibcreate, routprot/MibCreate, rras.mibcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PMIB_CREATE callback
+# PMIB_CREATE callback function
 
 
 ## -description

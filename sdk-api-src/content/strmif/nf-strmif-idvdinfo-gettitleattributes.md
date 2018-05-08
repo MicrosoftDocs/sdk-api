@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetTitleAttributes
-title: IDvdInfo::GetTitleAttributes method
+title: IDvdInfo::GetTitleAttributes
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves attributes of all video, audio, and subpicture streams for the specified title, including menus.
 old-location: dshow\idvdinfo_gettitleattributes.htm
 old-project: DirectShow
 ms.assetid: 012e3860-dfa2-45e8-ab37-2a3a4b2f7f9d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow], IDvdInfo interface, GetTitleAttributes,IDvdInfo.GetTitleAttributes, IDvdInfo, IDvdInfo interface [DirectShow], GetTitleAttributes method, IDvdInfo::GetTitleAttributes, IDvdInfoGetTitleAttributes, dshow.idvdinfo_gettitleattributes, strmif/IDvdInfo::GetTitleAttributes
+ms.date: 4/30/2018
+ms.keywords: GetTitleAttributes, GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTitleAttributes method, IDvdInfo.GetTitleAttributes, IDvdInfo::GetTitleAttributes, IDvdInfoGetTitleAttributes, dshow.idvdinfo_gettitleattributes, strmif/IDvdInfo::GetTitleAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetTitleAttributes method
+# IDvdInfo::GetTitleAttributes
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.UnadviseSink
-title: ITextStoreACP2::UnadviseSink method
+title: ITextStoreACP2::UnadviseSink
 author: windows-driver-content
 description: Called by an application to indicate that it no longer requires notifications from the TSF manager. The TSF manager will release the sink interface and stop notifications.
 old-location: tsf\itextstoreacp2_unadvisesink.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 08c78d99-a6ff-4ac1-9357-77bbae70400f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], UnadviseSink method, ITextStoreACP2::UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework], ITextStoreACP2 interface, UnadviseSink,ITextStoreACP2.UnadviseSink, textstor/ITextStoreACP2::UnadviseSink, tsf.itextstoreacp2_unadvisesink
+ms.keywords: ITextStoreACP2 interface [Text Services Framework],UnadviseSink method, ITextStoreACP2.UnadviseSink, ITextStoreACP2::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::UnadviseSink, tsf.itextstoreacp2_unadvisesink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP2::UnadviseSink method
+# ITextStoreACP2::UnadviseSink
 
 
 ## -description

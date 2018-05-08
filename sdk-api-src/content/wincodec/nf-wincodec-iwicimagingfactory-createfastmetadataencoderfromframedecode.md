@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateFastMetadataEncoderFromFrameDecode
-title: IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode method
+title: IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode
 author: windows-driver-content
 description: Creates a new instance of the fast metadata encoder based on the given image frame.
 old-location: wic\_wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 076cfd22-f744-4152-a1c0-1e0f17ac764d
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateFastMetadataEncoderFromFrameDecode method [Windows Imaging Component], CreateFastMetadataEncoderFromFrameDecode method [Windows Imaging Component], IWICImagingFactory interface, CreateFastMetadataEncoderFromFrameDecode,IWICImagingFactory.CreateFastMetadataEncoderFromFrameDecode, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateFastMetadataEncoderFromFrameDecode method, IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode, _wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode, wic._wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode, wincodec/IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode
+ms.keywords: CreateFastMetadataEncoderFromFrameDecode, CreateFastMetadataEncoderFromFrameDecode method [Windows Imaging Component], CreateFastMetadataEncoderFromFrameDecode method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateFastMetadataEncoderFromFrameDecode method, IWICImagingFactory.CreateFastMetadataEncoderFromFrameDecode, IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode, _wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode, wic._wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode, wincodec/IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode method
+# IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: f6ab3284-a76f-4148-ae40-04aa782ea9a7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWinSATInitiateEvents, IWinSATInitiateEvents interface [WinSAT], IWinSATInitiateEvents interface [WinSAT], described, winsat.iwinsatinitiateevents, winsatcominterfacei/IWinSATInitiateEvents
+ms.keywords: IWinSATInitiateEvents, IWinSATInitiateEvents interface [WinSAT], IWinSATInitiateEvents interface [WinSAT],described, winsat.iwinsatinitiateevents, winsatcominterfacei/IWinSATInitiateEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.RemoveLanguageProfile
-title: ITfInputProcessorProfiles::RemoveLanguageProfile method
+title: ITfInputProcessorProfiles::RemoveLanguageProfile
 author: windows-driver-content
 description: ITfInputProcessorProfiles::RemoveLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_removelanguageprofile.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 16eff9bc-1789-4bf6-b1ba-b7e8414ce080
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], RemoveLanguageProfile method, ITfInputProcessorProfiles::RemoveLanguageProfile, RemoveLanguageProfile method [Text Services Framework], RemoveLanguageProfile method [Text Services Framework], ITfInputProcessorProfiles interface, RemoveLanguageProfile,ITfInputProcessorProfiles.RemoveLanguageProfile, _tsf_itfinputprocessorprofiles_removelanguageprofile_ref, msctf/ITfInputProcessorProfiles::RemoveLanguageProfile, tsf.itfinputprocessorprofiles_removelanguageprofile
+ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],RemoveLanguageProfile method, ITfInputProcessorProfiles.RemoveLanguageProfile, ITfInputProcessorProfiles::RemoveLanguageProfile, RemoveLanguageProfile, RemoveLanguageProfile method [Text Services Framework], RemoveLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_removelanguageprofile_ref, msctf/ITfInputProcessorProfiles::RemoveLanguageProfile, tsf.itfinputprocessorprofiles_removelanguageprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfiles::RemoveLanguageProfile method
+# ITfInputProcessorProfiles::RemoveLanguageProfile
 
 
 ## -description

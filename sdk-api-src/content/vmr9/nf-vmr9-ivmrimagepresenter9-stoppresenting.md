@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRImagePresenter9.StopPresenting
-title: IVMRImagePresenter9::StopPresenting method
+title: IVMRImagePresenter9::StopPresenting
 author: windows-driver-content
 description: The StopPresenting method is called just after the video stops playing. The allocator-presenter should perform any necessary cleanup in this method.
 old-location: dshow\ivmrimagepresenter9_stoppresenting.htm
 old-project: DirectShow
 ms.assetid: 47f34048-3b07-464e-a1f2-f0b49fe76659
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRImagePresenter9, IVMRImagePresenter9 interface [DirectShow], StopPresenting method, IVMRImagePresenter9::StopPresenting, IVMRImagePresenter9StopPresenting, StopPresenting method [DirectShow], StopPresenting method [DirectShow], IVMRImagePresenter9 interface, StopPresenting,IVMRImagePresenter9.StopPresenting, dshow.ivmrimagepresenter9_stoppresenting, vmr9/IVMRImagePresenter9::StopPresenting
+ms.date: 4/30/2018
+ms.keywords: IVMRImagePresenter9 interface [DirectShow],StopPresenting method, IVMRImagePresenter9.StopPresenting, IVMRImagePresenter9::StopPresenting, IVMRImagePresenter9StopPresenting, StopPresenting, StopPresenting method [DirectShow], StopPresenting method [DirectShow],IVMRImagePresenter9 interface, dshow.ivmrimagepresenter9_stoppresenting, vmr9/IVMRImagePresenter9::StopPresenting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRImagePresenter9::StopPresenting method
+# IVMRImagePresenter9::StopPresenting
 
 
 ## -description

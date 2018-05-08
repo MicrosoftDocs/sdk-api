@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISupportFilteredSync.AddFilter
-title: ISupportFilteredSync::AddFilter method
+title: ISupportFilteredSync::AddFilter
 author: windows-driver-content
 description: Sets the filter that is used for change enumeration by the source provider, when implemented by a derived class.
 old-location: winsync\isupportfilteredsync_addfilter.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 00a533fa-2a91-46e8-9754-af162a5e59ec
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddFilter method [Windows Sync], AddFilter method [Windows Sync], ISupportFilteredSync interface, AddFilter,ISupportFilteredSync.AddFilter, ISupportFilteredSync, ISupportFilteredSync interface [Windows Sync], AddFilter method, ISupportFilteredSync::AddFilter, winsync.isupportfilteredsync_addfilter, winsync/ISupportFilteredSync::AddFilter
+ms.keywords: AddFilter, AddFilter method [Windows Sync], AddFilter method [Windows Sync],ISupportFilteredSync interface, ISupportFilteredSync interface [Windows Sync],AddFilter method, ISupportFilteredSync.AddFilter, ISupportFilteredSync::AddFilter, winsync.isupportfilteredsync_addfilter, winsync/ISupportFilteredSync::AddFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISupportFilteredSync::AddFilter method
+# ISupportFilteredSync::AddFilter
 
 
 ## -description

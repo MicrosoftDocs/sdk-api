@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase2.SerializeWithOptions
-title: ISyncChangeBatchBase2::SerializeWithOptions method
+title: ISyncChangeBatchBase2::SerializeWithOptions
 author: windows-driver-content
 description: Serializes the change batch object data to a byte array, based on the specified version and serialization options.
 old-location: winsync\isyncchangebatchbase2_serializewithoptions.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 6e686e6f-08b1-4a58-ac0f-30c48f70dd60
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncChangeBatchBase2, ISyncChangeBatchBase2 interface [Windows Sync], SerializeWithOptions method, ISyncChangeBatchBase2::SerializeWithOptions, SerializeWithOptions method [Windows Sync], SerializeWithOptions method [Windows Sync], ISyncChangeBatchBase2 interface, SerializeWithOptions,ISyncChangeBatchBase2.SerializeWithOptions, winsync.isyncchangebatchbase2_serializewithoptions, winsync/ISyncChangeBatchBase2::SerializeWithOptions
+ms.keywords: ISyncChangeBatchBase2 interface [Windows Sync],SerializeWithOptions method, ISyncChangeBatchBase2.SerializeWithOptions, ISyncChangeBatchBase2::SerializeWithOptions, SerializeWithOptions, SerializeWithOptions method [Windows Sync], SerializeWithOptions method [Windows Sync],ISyncChangeBatchBase2 interface, winsync.isyncchangebatchbase2_serializewithoptions, winsync/ISyncChangeBatchBase2::SerializeWithOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchBase2::SerializeWithOptions method
+# ISyncChangeBatchBase2::SerializeWithOptions
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: fd60ae42-5b3f-4482-b785-541f7379ab3e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_FREE_LISTENER_CALLBACK, WS_FREE_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_LISTENER_CALLBACK, wsw.ws_free_listener_callback
+ms.keywords: WS_FREE_LISTENER_CALLBACK, WS_FREE_LISTENER_CALLBACK callback, WS_FREE_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_LISTENER_CALLBACK, wsw.ws_free_listener_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_FREE_LISTENER_CALLBACK callback
+# WS_FREE_LISTENER_CALLBACK callback function
 
 
 ## -description

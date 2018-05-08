@@ -7,8 +7,8 @@ old-location: mf\imfpmediaitem.htm
 old-project: medfound
 ms.assetid: 2839d256-bdaf-40cf-9f9d-46f9e2ce59e8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IMFPMediaItem interface [Media Foundation], described, mf.imfpmediaitem, mfplay/IMFPMediaItem
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IMFPMediaItem interface [Media Foundation],described, mf.imfpmediaitem, mfplay/IMFPMediaItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

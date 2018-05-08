@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.CreateInvitation
-title: IRDPSRAPIInvitationManager::CreateInvitation method
+title: IRDPSRAPIInvitationManager::CreateInvitation
 author: windows-driver-content
 description: Creates an invitation.
 old-location: rdp\irdpsrapiinvitationmanager_createinvitation.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 169d220b-3a2a-490e-9c1c-03a707d59f6c
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: CreateInvitation method [RDP], CreateInvitation method [RDP], IRDPSRAPIInvitationManager interface, CreateInvitation,IRDPSRAPIInvitationManager.CreateInvitation, IRDPSRAPIInvitationManager, IRDPSRAPIInvitationManager interface [RDP], CreateInvitation method, IRDPSRAPIInvitationManager::CreateInvitation, rdp.irdpsrapiinvitationmanager_createinvitation, rdpencomapi/IRDPSRAPIInvitationManager::CreateInvitation
+ms.keywords: CreateInvitation, CreateInvitation method [RDP], CreateInvitation method [RDP],IRDPSRAPIInvitationManager interface, IRDPSRAPIInvitationManager interface [RDP],CreateInvitation method, IRDPSRAPIInvitationManager.CreateInvitation, IRDPSRAPIInvitationManager::CreateInvitation, rdp.irdpsrapiinvitationmanager_createinvitation, rdpencomapi/IRDPSRAPIInvitationManager::CreateInvitation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIInvitationManager::CreateInvitation method
+# IRDPSRAPIInvitationManager::CreateInvitation
 
 
 ## -description

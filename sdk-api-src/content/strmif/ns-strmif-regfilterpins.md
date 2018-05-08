@@ -7,7 +7,7 @@ old-location: dshow\regfilterpins.htm
 old-project: DirectShow
 ms.assetid: 1da033e1-24c3-46e0-becf-025966e6238f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: AMOVIESETUP_PIN, AMOVIESETUP_PIN structure [DirectShow], LPAMOVIESETUP_PIN, LPAMOVIESETUP_PIN structure pointer [DirectShow], PAMOVIESETUP_PIN, PAMOVIESETUP_PIN structure pointer [DirectShow], REGFILTERPINS, REGFILTERPINS structure [DirectShow], REGFILTERPINSStructure, dshow.regfilterpins, strmif/AMOVIESETUP_PIN, strmif/LPAMOVIESETUP_PIN, strmif/PAMOVIESETUP_PIN, strmif/REGFILTERPINS
 ms.prod: windows-hardware
 ms.technology: windows-devices

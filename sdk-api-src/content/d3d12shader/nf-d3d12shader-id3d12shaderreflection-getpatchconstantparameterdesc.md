@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetPatchConstantParameterDesc
-title: ID3D12ShaderReflection::GetPatchConstantParameterDesc method
+title: ID3D12ShaderReflection::GetPatchConstantParameterDesc
 author: windows-driver-content
 description: Gets a patch-constant parameter description for a shader.
 old-location: direct3d12\id3d12shaderreflection_getpatchconstantparameterdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 01353250-0C8F-4C72-93CE-64BEF52EB985
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetPatchConstantParameterDesc method, GetPatchConstantParameterDesc method, ID3D12ShaderReflection interface, GetPatchConstantParameterDesc,ID3D12ShaderReflection.GetPatchConstantParameterDesc, ID3D12ShaderReflection, ID3D12ShaderReflection interface, GetPatchConstantParameterDesc method, ID3D12ShaderReflection::GetPatchConstantParameterDesc, d3d12shader/ID3D12ShaderReflection::GetPatchConstantParameterDesc, direct3d12.id3d12shaderreflection_getpatchconstantparameterdesc
+ms.keywords: GetPatchConstantParameterDesc, GetPatchConstantParameterDesc method, GetPatchConstantParameterDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetPatchConstantParameterDesc method, ID3D12ShaderReflection.GetPatchConstantParameterDesc, ID3D12ShaderReflection::GetPatchConstantParameterDesc, d3d12shader/ID3D12ShaderReflection::GetPatchConstantParameterDesc, direct3d12.id3d12shaderreflection_getpatchconstantparameterdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflection::GetPatchConstantParameterDesc method
+# ID3D12ShaderReflection::GetPatchConstantParameterDesc
 
 
 ## -description

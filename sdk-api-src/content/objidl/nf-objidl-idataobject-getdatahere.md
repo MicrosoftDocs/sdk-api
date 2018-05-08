@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.GetDataHere
-title: IDataObject::GetDataHere method
+title: IDataObject::GetDataHere
 author: windows-driver-content
 description: Called by a data consumer to obtain data from a source data object. This method differs from the GetData method in that the caller must allocate and free the specified storage medium.
 old-location: com\idataobject_getdatahere.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 802fc49a-21c2-4490-9b00-1359ce9c325f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetDataHere method [COM], GetDataHere method [COM], IDataObject interface, GetDataHere,IDataObject.GetDataHere, IDataObject, IDataObject interface [COM], GetDataHere method, IDataObject::GetDataHere, _ole_idataobject_getdatahere, com.idataobject_getdatahere, objidl/IDataObject::GetDataHere
+ms.keywords: GetDataHere, GetDataHere method [COM], GetDataHere method [COM],IDataObject interface, IDataObject interface [COM],GetDataHere method, IDataObject.GetDataHere, IDataObject::GetDataHere, _ole_idataobject_getdatahere, com.idataobject_getdatahere, objidl/IDataObject::GetDataHere
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataObject::GetDataHere method
+# IDataObject::GetDataHere
 
 
 ## -description

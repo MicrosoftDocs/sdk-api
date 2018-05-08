@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.GetMaximumFrameLatency
-title: IDirect3DDevice9Ex::GetMaximumFrameLatency method
+title: IDirect3DDevice9Ex::GetMaximumFrameLatency
 author: windows-driver-content
 description: Retrieves the number of frames of data that the system is allowed to queue.
 old-location: direct3d9\idirect3ddevice9ex_getmaximumframelatency.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_getmaximumframelatency.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 16bada79-bbf9-2bb3-c2f1-cae31cf742be, GetMaximumFrameLatency method [Direct3D 9], GetMaximumFrameLatency method [Direct3D 9], IDirect3DDevice9Ex interface, GetMaximumFrameLatency,IDirect3DDevice9Ex.GetMaximumFrameLatency, IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], GetMaximumFrameLatency method, IDirect3DDevice9Ex::GetMaximumFrameLatency, d3d9/IDirect3DDevice9Ex::GetMaximumFrameLatency, direct3d9.idirect3ddevice9ex_getmaximumframelatency
+ms.keywords: 16bada79-bbf9-2bb3-c2f1-cae31cf742be, GetMaximumFrameLatency, GetMaximumFrameLatency method [Direct3D 9], GetMaximumFrameLatency method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],GetMaximumFrameLatency method, IDirect3DDevice9Ex.GetMaximumFrameLatency, IDirect3DDevice9Ex::GetMaximumFrameLatency, d3d9/IDirect3DDevice9Ex::GetMaximumFrameLatency, direct3d9.idirect3ddevice9ex_getmaximumframelatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9Ex::GetMaximumFrameLatency method
+# IDirect3DDevice9Ex::GetMaximumFrameLatency
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetNumberOfChapters
-title: IDvdInfo::GetNumberOfChapters method
+title: IDvdInfo::GetNumberOfChapters
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of chapters that are defined for a given title.
 old-location: dshow\idvdinfo_getnumberofchapters.htm
 old-project: DirectShow
 ms.assetid: 65d36d1c-956f-480f-adbb-1682eafc9c93
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetNumberOfChapters method [DirectShow], GetNumberOfChapters method [DirectShow], IDvdInfo interface, GetNumberOfChapters,IDvdInfo.GetNumberOfChapters, IDvdInfo, IDvdInfo interface [DirectShow], GetNumberOfChapters method, IDvdInfo::GetNumberOfChapters, IDvdInfoGetNumberOfChapters, dshow.idvdinfo_getnumberofchapters, strmif/IDvdInfo::GetNumberOfChapters
+ms.date: 4/30/2018
+ms.keywords: GetNumberOfChapters, GetNumberOfChapters method [DirectShow], GetNumberOfChapters method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetNumberOfChapters method, IDvdInfo.GetNumberOfChapters, IDvdInfo::GetNumberOfChapters, IDvdInfoGetNumberOfChapters, dshow.idvdinfo_getnumberofchapters, strmif/IDvdInfo::GetNumberOfChapters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetNumberOfChapters method
+# IDvdInfo::GetNumberOfChapters
 
 
 ## -description

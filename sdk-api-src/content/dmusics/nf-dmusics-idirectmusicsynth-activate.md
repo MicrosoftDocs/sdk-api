@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Activate
-title: IDirectMusicSynth::Activate method
+title: IDirectMusicSynth::Activate
 author: windows-driver-content
 description: The Activate method enables or disables the audio device under program control.
 old-location: audio\idirectmusicsynth_activate.htm
 old-project: audio
 ms.assetid: 9efdb079-ed24-43b4-844b-344571399de7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: Activate method [Audio Devices], Activate method [Audio Devices], IDirectMusicSynth interface, Activate,IDirectMusicSynth.Activate, IDirectMusicSynth, IDirectMusicSynth interface [Audio Devices], Activate method, IDirectMusicSynth::Activate, audio.idirectmusicsynth_activate, audmp-routines_56894d17-83db-4b4f-8e26-58103856a97e.xml, dmusics/IDirectMusicSynth::Activate
+ms.date: 5/1/2018
+ms.keywords: Activate, Activate method [Audio Devices], Activate method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Activate method, IDirectMusicSynth.Activate, IDirectMusicSynth::Activate, audio.idirectmusicsynth_activate, audmp-routines_56894d17-83db-4b4f-8e26-58103856a97e.xml, dmusics/IDirectMusicSynth::Activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectMusicSynth::Activate method
+# IDirectMusicSynth::Activate
 
 
 ## -description

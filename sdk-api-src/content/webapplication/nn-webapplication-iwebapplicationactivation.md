@@ -8,7 +8,7 @@ old-project: debug_wwahost
 ms.assetid: 51127F64-2FE1-49F9-9E68-E38F4DDB8D1B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWebApplicationActivation, IWebApplicationActivation interface [Debugging Windows Store apps], IWebApplicationActivation interface [Debugging Windows Store apps], described, debug.iwebapplicationactivation, webapplication/IWebApplicationActivation
+ms.keywords: IWebApplicationActivation, IWebApplicationActivation interface [Debugging Windows Store apps], IWebApplicationActivation interface [Debugging Windows Store apps],described, debug.iwebapplicationactivation, webapplication/IWebApplicationActivation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

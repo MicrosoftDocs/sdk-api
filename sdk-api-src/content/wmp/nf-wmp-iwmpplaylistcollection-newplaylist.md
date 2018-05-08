@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.newPlaylist
-title: IWMPPlaylistCollection::newPlaylist method
+title: IWMPPlaylistCollection::newPlaylist
 author: windows-driver-content
 description: The newPlaylist method creates a new, empty playlist in the library.
 old-location: wmp\iwmpplaylistcollection_newplaylist.htm
 old-project: WMP
 ms.assetid: 5ad51469-a150-4322-ac16-782ef0d96a57
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlaylistCollection, IWMPPlaylistCollection interface [Windows Media Player], newPlaylist method, IWMPPlaylistCollection::newPlaylist, IWMPPlaylistCollectionnewPlaylist, newPlaylist method [Windows Media Player], newPlaylist method [Windows Media Player], IWMPPlaylistCollection interface, newPlaylist,IWMPPlaylistCollection.newPlaylist, wmp.iwmpplaylistcollection_newplaylist, wmp/IWMPPlaylistCollection::newPlaylist
+ms.date: 5/4/2018
+ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],newPlaylist method, IWMPPlaylistCollection.newPlaylist, IWMPPlaylistCollection::newPlaylist, IWMPPlaylistCollectionnewPlaylist, newPlaylist, newPlaylist method [Windows Media Player], newPlaylist method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_newplaylist, wmp/IWMPPlaylistCollection::newPlaylist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlaylistCollection::newPlaylist method
+# IWMPPlaylistCollection::newPlaylist
 
 
 ## -description

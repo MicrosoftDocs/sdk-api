@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.SetGPUThreadPriority
-title: IDirect3DDevice9Ex::SetGPUThreadPriority method
+title: IDirect3DDevice9Ex::SetGPUThreadPriority
 author: windows-driver-content
 description: Set the priority on the GPU thread.
 old-location: direct3d9\idirect3ddevice9ex_setgputhreadpriority.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_setgputhreadpriority.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], SetGPUThreadPriority method, IDirect3DDevice9Ex::SetGPUThreadPriority, SetGPUThreadPriority method [Direct3D 9], SetGPUThreadPriority method [Direct3D 9], IDirect3DDevice9Ex interface, SetGPUThreadPriority,IDirect3DDevice9Ex.SetGPUThreadPriority, ac16f6ba-fdcc-9d18-4ea1-2b6b2313ab4a, d3d9/IDirect3DDevice9Ex::SetGPUThreadPriority, direct3d9.idirect3ddevice9ex_setgputhreadpriority
+ms.keywords: IDirect3DDevice9Ex interface [Direct3D 9],SetGPUThreadPriority method, IDirect3DDevice9Ex.SetGPUThreadPriority, IDirect3DDevice9Ex::SetGPUThreadPriority, SetGPUThreadPriority, SetGPUThreadPriority method [Direct3D 9], SetGPUThreadPriority method [Direct3D 9],IDirect3DDevice9Ex interface, ac16f6ba-fdcc-9d18-4ea1-2b6b2313ab4a, d3d9/IDirect3DDevice9Ex::SetGPUThreadPriority, direct3d9.idirect3ddevice9ex_setgputhreadpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9Ex::SetGPUThreadPriority method
+# IDirect3DDevice9Ex::SetGPUThreadPriority
 
 
 ## -description

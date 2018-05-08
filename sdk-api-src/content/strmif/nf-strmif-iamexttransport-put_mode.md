@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_Mode
-title: IAMExtTransport::put_Mode method
+title: IAMExtTransport::put_Mode
 author: windows-driver-content
 description: The put_Mode method sets the transport mode; for example, play, stop, or record.
 old-location: dshow\iamexttransport_put_mode.htm
 old-project: DirectShow
 ms.assetid: cf941c07-6f42-4c63-9bdf-923f7a5b0b02
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], put_Mode method, IAMExtTransport::put_Mode, IAMExtTransportput_Mode, dshow.iamexttransport_put_mode, put_Mode method [DirectShow], put_Mode method [DirectShow], IAMExtTransport interface, put_Mode,IAMExtTransport.put_Mode, strmif/IAMExtTransport::put_Mode
+ms.date: 4/30/2018
+ms.keywords: IAMExtTransport interface [DirectShow],put_Mode method, IAMExtTransport.put_Mode, IAMExtTransport::put_Mode, IAMExtTransportput_Mode, dshow.iamexttransport_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_Mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::put_Mode method
+# IAMExtTransport::put_Mode
 
 
 ## -description

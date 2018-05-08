@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReadOnlyProperty.EnumRanges
-title: ITfReadOnlyProperty::EnumRanges method
+title: ITfReadOnlyProperty::EnumRanges
 author: windows-driver-content
 description: ITfReadOnlyProperty::EnumRanges method
 old-location: tsf\itfreadonlyproperty_enumranges.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 201c518b-f06f-4c4f-aa56-f8d21f477814
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnumRanges method [Text Services Framework], EnumRanges method [Text Services Framework], ITfReadOnlyProperty interface, EnumRanges,ITfReadOnlyProperty.EnumRanges, ITfReadOnlyProperty, ITfReadOnlyProperty interface [Text Services Framework], EnumRanges method, ITfReadOnlyProperty::EnumRanges, _tsf_itfreadonlyproperty_enumranges_ref, msctf/ITfReadOnlyProperty::EnumRanges, tsf.itfreadonlyproperty_enumranges
+ms.keywords: EnumRanges, EnumRanges method [Text Services Framework], EnumRanges method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],EnumRanges method, ITfReadOnlyProperty.EnumRanges, ITfReadOnlyProperty::EnumRanges, _tsf_itfreadonlyproperty_enumranges_ref, msctf/ITfReadOnlyProperty::EnumRanges, tsf.itfreadonlyproperty_enumranges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfReadOnlyProperty::EnumRanges method
+# ITfReadOnlyProperty::EnumRanges
 
 
 ## -description

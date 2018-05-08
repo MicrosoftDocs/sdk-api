@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMMatrixTransform.Clone
-title: IXpsOMMatrixTransform::Clone method
+title: IXpsOMMatrixTransform::Clone
 author: windows-driver-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsommatrixtransform_clone.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 088e758c-5839-4560-955c-98c8a1ee99ae
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging], IXpsOMMatrixTransform interface, Clone,IXpsOMMatrixTransform.Clone, IXpsOMMatrixTransform, IXpsOMMatrixTransform interface [XPS Documents and Packaging], Clone method, IXpsOMMatrixTransform::Clone, xps.ixpsommatrixtransform_clone, xpsobjectmodel/IXpsOMMatrixTransform::Clone
+ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMMatrixTransform interface, IXpsOMMatrixTransform interface [XPS Documents and Packaging],Clone method, IXpsOMMatrixTransform.Clone, IXpsOMMatrixTransform::Clone, xps.ixpsommatrixtransform_clone, xpsobjectmodel/IXpsOMMatrixTransform::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMMatrixTransform::Clone method
+# IXpsOMMatrixTransform::Clone
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetStartPoint
-title: IXpsOMGeometryFigure::GetStartPoint method
+title: IXpsOMGeometryFigure::GetStartPoint
 author: windows-driver-content
 description: Gets the starting point of the figure.
 old-location: xps\ixpsomgeometryfigure_getstartpoint.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 7dbd829e-eaae-42f4-ae39-9ec35cbd3102
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStartPoint method [XPS Documents and Packaging], GetStartPoint method [XPS Documents and Packaging], IXpsOMGeometryFigure interface, GetStartPoint,IXpsOMGeometryFigure.GetStartPoint, IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], GetStartPoint method, IXpsOMGeometryFigure::GetStartPoint, xps.ixpsomgeometryfigure_getstartpoint, xpsobjectmodel/IXpsOMGeometryFigure::GetStartPoint
+ms.keywords: GetStartPoint, GetStartPoint method [XPS Documents and Packaging], GetStartPoint method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetStartPoint method, IXpsOMGeometryFigure.GetStartPoint, IXpsOMGeometryFigure::GetStartPoint, xps.ixpsomgeometryfigure_getstartpoint, xpsobjectmodel/IXpsOMGeometryFigure::GetStartPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigure::GetStartPoint method
+# IXpsOMGeometryFigure::GetStartPoint
 
 
 ## -description

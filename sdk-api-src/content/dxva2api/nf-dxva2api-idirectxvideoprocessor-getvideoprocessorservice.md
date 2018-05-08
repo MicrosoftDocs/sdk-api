@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.GetVideoProcessorService
-title: IDirectXVideoProcessor::GetVideoProcessorService method
+title: IDirectXVideoProcessor::GetVideoProcessorService
 author: windows-driver-content
 description: Retrieves the DirectX Video Acceleration (DXVA) video processor service that created this video processor device.
 old-location: mf\idirectxvideoprocessor_getvideoprocessorservice.htm
 old-project: medfound
 ms.assetid: 920bc584-16ea-4f66-b507-2fe63bfd4fd5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 920bc584-16ea-4f66-b507-2fe63bfd4fd5, GetVideoProcessorService method [Media Foundation], GetVideoProcessorService method [Media Foundation], IDirectXVideoProcessor interface, GetVideoProcessorService,IDirectXVideoProcessor.GetVideoProcessorService, IDirectXVideoProcessor, IDirectXVideoProcessor interface [Media Foundation], GetVideoProcessorService method, IDirectXVideoProcessor::GetVideoProcessorService, dxva2api/IDirectXVideoProcessor::GetVideoProcessorService, mf.idirectxvideoprocessor_getvideoprocessorservice
+ms.date: 5/3/2018
+ms.keywords: 920bc584-16ea-4f66-b507-2fe63bfd4fd5, GetVideoProcessorService, GetVideoProcessorService method [Media Foundation], GetVideoProcessorService method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetVideoProcessorService method, IDirectXVideoProcessor.GetVideoProcessorService, IDirectXVideoProcessor::GetVideoProcessorService, dxva2api/IDirectXVideoProcessor::GetVideoProcessorService, mf.idirectxvideoprocessor_getvideoprocessorservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirectXVideoProcessor::GetVideoProcessorService method
+# IDirectXVideoProcessor::GetVideoProcessorService
 
 
 ## -description

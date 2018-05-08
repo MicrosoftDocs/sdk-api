@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPinManager.GetPinList
-title: IMbnPinManager::GetPinList method
+title: IMbnPinManager::GetPinList
 author: windows-driver-content
 description: Gets a list of different PIN types supported by the device.
 old-location: mbn\imbnpinmanager_getpinlist.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 732906dd-7d1e-49a1-a3cc-60075eed9c7c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetPinList method [Microsoft Broadband Networks], GetPinList method [Microsoft Broadband Networks], IMbnPinManager interface, GetPinList,IMbnPinManager.GetPinList, IMbnPinManager, IMbnPinManager interface [Microsoft Broadband Networks], GetPinList method, IMbnPinManager::GetPinList, mbn.imbnpinmanager_getpinlist, mbnapi/IMbnPinManager::GetPinList
+ms.keywords: GetPinList, GetPinList method [Microsoft Broadband Networks], GetPinList method [Microsoft Broadband Networks],IMbnPinManager interface, IMbnPinManager interface [Microsoft Broadband Networks],GetPinList method, IMbnPinManager.GetPinList, IMbnPinManager::GetPinList, mbn.imbnpinmanager_getpinlist, mbnapi/IMbnPinManager::GetPinList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnPinManager::GetPinList method
+# IMbnPinManager::GetPinList
 
 
 ## -description

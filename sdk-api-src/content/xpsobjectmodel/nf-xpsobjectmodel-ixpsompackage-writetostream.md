@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.WriteToStream
-title: IXpsOMPackage::WriteToStream method
+title: IXpsOMPackage::WriteToStream
 author: windows-driver-content
 description: Writes the XPS package to a specified stream.
 old-location: xps\ixpsompackage_writetostream.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 5b729ac6-3f0e-4f24-b3f6-4b6d26844df1
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: FALSE, IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], WriteToStream method, IXpsOMPackage::WriteToStream, TRUE, WriteToStream method [XPS Documents and Packaging], WriteToStream method [XPS Documents and Packaging], IXpsOMPackage interface, WriteToStream,IXpsOMPackage.WriteToStream, xps.ixpsompackage_writetostream, xpsobjectmodel/IXpsOMPackage::WriteToStream
+ms.keywords: FALSE, IXpsOMPackage interface [XPS Documents and Packaging],WriteToStream method, IXpsOMPackage.WriteToStream, IXpsOMPackage::WriteToStream, TRUE, WriteToStream, WriteToStream method [XPS Documents and Packaging], WriteToStream method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_writetostream, xpsobjectmodel/IXpsOMPackage::WriteToStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPackage::WriteToStream method
+# IXpsOMPackage::WriteToStream
 
 
 ## -description

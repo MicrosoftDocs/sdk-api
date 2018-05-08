@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyPort
-title: IWMReaderNetworkConfig::SetProxyPort method
+title: IWMReaderNetworkConfig::SetProxyPort
 author: windows-driver-content
 description: The SetProxyPort method specifies the proxy port.
 old-location: wmformat\iwmreadernetworkconfig_setproxyport.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e2f4e8ff-6ac8-45b5-af93-a278bf92a07a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetProxyPort method, IWMReaderNetworkConfig::SetProxyPort, IWMReaderNetworkConfigSetProxyPort, SetProxyPort method [windows Media Format], SetProxyPort method [windows Media Format], IWMReaderNetworkConfig interface, SetProxyPort,IWMReaderNetworkConfig.SetProxyPort, wmformat.iwmreadernetworkconfig_setproxyport, wmsdkidl/IWMReaderNetworkConfig::SetProxyPort
+ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyPort method, IWMReaderNetworkConfig.SetProxyPort, IWMReaderNetworkConfig::SetProxyPort, IWMReaderNetworkConfigSetProxyPort, SetProxyPort, SetProxyPort method [windows Media Format], SetProxyPort method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyport, wmsdkidl/IWMReaderNetworkConfig::SetProxyPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::SetProxyPort method
+# IWMReaderNetworkConfig::SetProxyPort
 
 
 ## -description

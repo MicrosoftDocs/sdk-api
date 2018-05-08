@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.RemoveAt
-title: IXpsOMGeometryFigureCollection::RemoveAt method
+title: IXpsOMGeometryFigureCollection::RemoveAt
 author: windows-driver-content
 description: Removes and releases an IXpsOMGeometryFigure interface pointer from a specified location in the collection.
 old-location: xps\ixpsomgeometryfigurecollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f3030eea-e87f-4bb8-9835-e6bc052ff0ef
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGeometryFigureCollection, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging], RemoveAt method, IXpsOMGeometryFigureCollection::RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging], IXpsOMGeometryFigureCollection interface, RemoveAt,IXpsOMGeometryFigureCollection.RemoveAt, xps.ixpsomgeometryfigurecollection_removeat, xpsobjectmodel/IXpsOMGeometryFigureCollection::RemoveAt
+ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMGeometryFigureCollection.RemoveAt, IXpsOMGeometryFigureCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, xps.ixpsomgeometryfigurecollection_removeat, xpsobjectmodel/IXpsOMGeometryFigureCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigureCollection::RemoveAt method
+# IXpsOMGeometryFigureCollection::RemoveAt
 
 
 ## -description

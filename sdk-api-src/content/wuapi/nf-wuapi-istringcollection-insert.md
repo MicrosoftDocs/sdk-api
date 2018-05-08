@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.Insert
-title: IStringCollection::Insert method
+title: IStringCollection::Insert
 author: windows-driver-content
 description: Inserts an item into the collection at the specified position.
 old-location: wua\istringcollection_insert.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 51a00dde-7781-4674-bbb2-10bb2eb23548
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IStringCollection, IStringCollection interface [Windows Update Agent], Insert method, IStringCollection::Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent], IStringCollection interface, Insert,IStringCollection.Insert, wua.istringcollection_insert, wuapi/IStringCollection::Insert
+ms.keywords: IStringCollection interface [Windows Update Agent],Insert method, IStringCollection.Insert, IStringCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IStringCollection interface, wua.istringcollection_insert, wuapi/IStringCollection::Insert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IStringCollection::Insert method
+# IStringCollection::Insert
 
 
 ## -description

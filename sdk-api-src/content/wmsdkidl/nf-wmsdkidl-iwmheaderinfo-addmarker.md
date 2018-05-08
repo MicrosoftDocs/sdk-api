@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.AddMarker
-title: IWMHeaderInfo::AddMarker method
+title: IWMHeaderInfo::AddMarker
 author: windows-driver-content
 description: The AddMarker method adds a marker, consisting of a name and a specific time, to the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_addmarker.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: cfa111bb-7bbb-448a-b2db-d36637c01a52
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddMarker method [windows Media Format], AddMarker method [windows Media Format], IWMHeaderInfo interface, AddMarker method [windows Media Format], IWMHeaderInfo2 interface, AddMarker method [windows Media Format], IWMHeaderInfo3 interface, AddMarker,IWMHeaderInfo.AddMarker, IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], AddMarker method, IWMHeaderInfo2 interface [windows Media Format], AddMarker method, IWMHeaderInfo2::AddMarker, IWMHeaderInfo3 interface [windows Media Format], AddMarker method, IWMHeaderInfo3::AddMarker, IWMHeaderInfo::AddMarker, IWMHeaderInfoAddMarker, wmformat.iwmheaderinfo_addmarker, wmsdkidl/IWMHeaderInfo2::AddMarker, wmsdkidl/IWMHeaderInfo3::AddMarker, wmsdkidl/IWMHeaderInfo::AddMarker
+ms.keywords: AddMarker, AddMarker method [windows Media Format], AddMarker method [windows Media Format],IWMHeaderInfo interface, AddMarker method [windows Media Format],IWMHeaderInfo2 interface, AddMarker method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],AddMarker method, IWMHeaderInfo.AddMarker, IWMHeaderInfo2 interface [windows Media Format],AddMarker method, IWMHeaderInfo2::AddMarker, IWMHeaderInfo3 interface [windows Media Format],AddMarker method, IWMHeaderInfo3::AddMarker, IWMHeaderInfo::AddMarker, IWMHeaderInfoAddMarker, wmformat.iwmheaderinfo_addmarker, wmsdkidl/IWMHeaderInfo2::AddMarker, wmsdkidl/IWMHeaderInfo3::AddMarker, wmsdkidl/IWMHeaderInfo::AddMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMHeaderInfo::AddMarker method
+# IWMHeaderInfo::AddMarker
 
 
 ## -description

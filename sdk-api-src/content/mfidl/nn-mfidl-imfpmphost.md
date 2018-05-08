@@ -7,8 +7,8 @@ old-location: mf\imfpmphost.htm
 old-project: medfound
 ms.assetid: fab1fb42-07c5-4a74-b6f5-0950b2c3ba46
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMPHost, IMFPMPHost interface [Media Foundation], IMFPMPHost interface [Media Foundation], described, fab1fb42-07c5-4a74-b6f5-0950b2c3ba46, mf.imfpmphost, mfidl/IMFPMPHost
+ms.date: 5/3/2018
+ms.keywords: IMFPMPHost, IMFPMPHost interface [Media Foundation], IMFPMPHost interface [Media Foundation],described, fab1fb42-07c5-4a74-b6f5-0950b2c3ba46, mf.imfpmphost, mfidl/IMFPMPHost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

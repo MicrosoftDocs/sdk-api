@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.SetRangeByTimecode
-title: IWMSyncReader2::SetRangeByTimecode method
+title: IWMSyncReader2::SetRangeByTimecode
 author: windows-driver-content
 description: The SetRangeByTimecode method sets a starting and ending time, based on SMPTE time codes, for playback of a file.
 old-location: wmformat\iwmsyncreader2_setrangebytimecode.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 304564b1-6ae3-4e1c-bea9-7a49c522a914
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSyncReader2, IWMSyncReader2 interface [windows Media Format], SetRangeByTimecode method, IWMSyncReader2::SetRangeByTimecode, IWMSyncReader2SetRangeByTimecode, SetRangeByTimecode method [windows Media Format], SetRangeByTimecode method [windows Media Format], IWMSyncReader2 interface, SetRangeByTimecode,IWMSyncReader2.SetRangeByTimecode, wmformat.iwmsyncreader2_setrangebytimecode, wmsdkidl/IWMSyncReader2::SetRangeByTimecode
+ms.keywords: IWMSyncReader2 interface [windows Media Format],SetRangeByTimecode method, IWMSyncReader2.SetRangeByTimecode, IWMSyncReader2::SetRangeByTimecode, IWMSyncReader2SetRangeByTimecode, SetRangeByTimecode, SetRangeByTimecode method [windows Media Format], SetRangeByTimecode method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setrangebytimecode, wmsdkidl/IWMSyncReader2::SetRangeByTimecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader2::SetRangeByTimecode method
+# IWMSyncReader2::SetRangeByTimecode
 
 
 ## -description

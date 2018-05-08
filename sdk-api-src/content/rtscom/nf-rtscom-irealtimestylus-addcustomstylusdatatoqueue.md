@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.AddCustomStylusDataToQueue
-title: IRealTimeStylus::AddCustomStylusDataToQueue method
+title: IRealTimeStylus::AddCustomStylusDataToQueue
 author: windows-driver-content
 description: Adds custom data to the specified queue of the RealTimeStylus Class object.
 old-location: tablet\irealtimestylus_addcustomstylusdatatoqueue.htm
 old-project: tablet
 ms.assetid: 9d216853-9103-4027-a724-f35d84553a9b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 9d216853-9103-4027-a724-f35d84553a9b, AddCustomStylusDataToQueue method [Tablet PC], AddCustomStylusDataToQueue method [Tablet PC], IRealTimeStylus interface, AddCustomStylusDataToQueue,IRealTimeStylus.AddCustomStylusDataToQueue, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], AddCustomStylusDataToQueue method, IRealTimeStylus::AddCustomStylusDataToQueue, rtscom/IRealTimeStylus::AddCustomStylusDataToQueue, tablet.irealtimestylus_addcustomstylusdatatoqueue
+ms.date: 5/2/2018
+ms.keywords: 9d216853-9103-4027-a724-f35d84553a9b, AddCustomStylusDataToQueue, AddCustomStylusDataToQueue method [Tablet PC], AddCustomStylusDataToQueue method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],AddCustomStylusDataToQueue method, IRealTimeStylus.AddCustomStylusDataToQueue, IRealTimeStylus::AddCustomStylusDataToQueue, rtscom/IRealTimeStylus::AddCustomStylusDataToQueue, tablet.irealtimestylus_addcustomstylusdatatoqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylus::AddCustomStylusDataToQueue method
+# IRealTimeStylus::AddCustomStylusDataToQueue
 
 
 ## -description

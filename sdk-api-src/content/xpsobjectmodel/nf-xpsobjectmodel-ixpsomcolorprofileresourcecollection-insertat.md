@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.InsertAt
-title: IXpsOMColorProfileResourceCollection::InsertAt method
+title: IXpsOMColorProfileResourceCollection::InsertAt
 author: windows-driver-content
 description: Inserts an IXpsOMColorProfileResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_insertat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1576e48f-f238-42d5-b028-4ee3cd1b7287
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMColorProfileResourceCollection, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging], InsertAt method, IXpsOMColorProfileResourceCollection::InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging], IXpsOMColorProfileResourceCollection interface, InsertAt,IXpsOMColorProfileResourceCollection.InsertAt, xps.ixpsomcolorprofileresourcecollection_insertat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::InsertAt
+ms.keywords: IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMColorProfileResourceCollection.InsertAt, IXpsOMColorProfileResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, xps.ixpsomcolorprofileresourcecollection_insertat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMColorProfileResourceCollection::InsertAt method
+# IXpsOMColorProfileResourceCollection::InsertAt
 
 
 ## -description

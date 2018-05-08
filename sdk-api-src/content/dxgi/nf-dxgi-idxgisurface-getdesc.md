@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISurface.GetDesc
-title: IDXGISurface::GetDesc method
+title: IDXGISurface::GetDesc
 author: windows-driver-content
 description: Get a description of the surface.
 old-location: direct3ddxgi\idxgisurface_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface_getdesc.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 92b3b49a-8f1d-7cd5-e484-3b5621c5acf5, GetDesc method [DXGI], GetDesc method [DXGI], IDXGISurface interface, GetDesc,IDXGISurface.GetDesc, IDXGISurface, IDXGISurface interface [DXGI], GetDesc method, IDXGISurface::GetDesc, direct3ddxgi.idxgisurface_getdesc, dxgi/IDXGISurface::GetDesc
+ms.keywords: 92b3b49a-8f1d-7cd5-e484-3b5621c5acf5, GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGISurface interface, IDXGISurface interface [DXGI],GetDesc method, IDXGISurface.GetDesc, IDXGISurface::GetDesc, direct3ddxgi.idxgisurface_getdesc, dxgi/IDXGISurface::GetDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISurface::GetDesc method
+# IDXGISurface::GetDesc
 
 
 ## -description

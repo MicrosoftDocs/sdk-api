@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetCollectionElements
-title: IVisualTreeService::GetCollectionElements method
+title: IVisualTreeService::GetCollectionElements
 author: windows-driver-content
 description: Gets the elements in a collection.
 old-location: xaml_diagnostics\ivisualtreeservice_getcollectionelements.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 01A2694F-E9CF-4DD2-95EA-6CD5C72C65A8
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: GetCollectionElements method, GetCollectionElements method, IVisualTreeService interface, GetCollectionElements,IVisualTreeService.GetCollectionElements, IVisualTreeService, IVisualTreeService interface, GetCollectionElements method, IVisualTreeService::GetCollectionElements, xaml_diagnostics.ivisualtreeservice_getcollectionelements, xamlom/IVisualTreeService::GetCollectionElements
+ms.keywords: GetCollectionElements, GetCollectionElements method, GetCollectionElements method,IVisualTreeService interface, IVisualTreeService interface,GetCollectionElements method, IVisualTreeService.GetCollectionElements, IVisualTreeService::GetCollectionElements, xaml_diagnostics.ivisualtreeservice_getcollectionelements, xamlom/IVisualTreeService::GetCollectionElements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeService::GetCollectionElements method
+# IVisualTreeService::GetCollectionElements
 
 
 ## -description

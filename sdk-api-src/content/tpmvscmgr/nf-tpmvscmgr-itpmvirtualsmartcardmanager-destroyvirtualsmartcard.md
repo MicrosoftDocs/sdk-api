@@ -1,6 +1,6 @@
 ---
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
-title: ITpmVirtualSmartCardManager::DestroyVirtualSmartCard method
+title: ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
 author: windows-driver-content
 description: Destroys the TPM virtual smart card that has the given instance ID.
 old-location: security\itpmvirtualsmartcardmanager_destroyvirtualsmartcard.htm
@@ -8,7 +8,7 @@ old-project: SecAuthN
 ms.assetid: C8624CBF-FC39-4269-9405-8E7B5EE88F8D
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DestroyVirtualSmartCard method [Security], DestroyVirtualSmartCard method [Security], ITpmVirtualSmartCardManager interface, DestroyVirtualSmartCard,ITpmVirtualSmartCardManager.DestroyVirtualSmartCard, ITpmVirtualSmartCardManager, ITpmVirtualSmartCardManager interface [Security], DestroyVirtualSmartCard method, ITpmVirtualSmartCardManager::DestroyVirtualSmartCard, security.itpmvirtualsmartcardmanager_destroyvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
+ms.keywords: DestroyVirtualSmartCard, DestroyVirtualSmartCard method [Security], DestroyVirtualSmartCard method [Security],ITpmVirtualSmartCardManager interface, ITpmVirtualSmartCardManager interface [Security],DestroyVirtualSmartCard method, ITpmVirtualSmartCardManager.DestroyVirtualSmartCard, ITpmVirtualSmartCardManager::DestroyVirtualSmartCard, security.itpmvirtualsmartcardmanager_destroyvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITpmVirtualSmartCardManager::DestroyVirtualSmartCard method
+# ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
 
 
 ## -description

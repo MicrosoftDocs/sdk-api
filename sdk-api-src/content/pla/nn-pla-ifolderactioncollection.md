@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 9b0ab26f-7e91-4d7a-9fd7-73332601dd7b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFolderActionCollection, IFolderActionCollection interface [PLA], IFolderActionCollection interface [PLA], described, base.ifolderactioncollection, pla.ifolderactioncollection, pla/IFolderActionCollection
+ms.keywords: IFolderActionCollection, IFolderActionCollection interface [PLA], IFolderActionCollection interface [PLA],described, base.ifolderactioncollection, pla.ifolderactioncollection, pla/IFolderActionCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

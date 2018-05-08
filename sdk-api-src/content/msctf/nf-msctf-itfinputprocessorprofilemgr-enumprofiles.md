@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.EnumProfiles
-title: ITfInputProcessorProfileMgr::EnumProfiles method
+title: ITfInputProcessorProfileMgr::EnumProfiles
 author: windows-driver-content
 description: The ITfInputProcessorProfileMgr::EnumProfiles method returns profiles to be enumerated.
 old-location: tsf\itfinputprocessorprofilemgr_enumprofiles.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: d4728d12-9073-41b8-94bc-eaf7c1df19b6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnumProfiles method [Text Services Framework], EnumProfiles method [Text Services Framework], ITfInputProcessorProfileMgr interface, EnumProfiles,ITfInputProcessorProfileMgr.EnumProfiles, ITfInputProcessorProfileMgr, ITfInputProcessorProfileMgr interface [Text Services Framework], EnumProfiles method, ITfInputProcessorProfileMgr::EnumProfiles, msctf/ITfInputProcessorProfileMgr::EnumProfiles, tsf.itfinputprocessorprofilemgr_enumprofiles
+ms.keywords: EnumProfiles, EnumProfiles method [Text Services Framework], EnumProfiles method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],EnumProfiles method, ITfInputProcessorProfileMgr.EnumProfiles, ITfInputProcessorProfileMgr::EnumProfiles, msctf/ITfInputProcessorProfileMgr::EnumProfiles, tsf.itfinputprocessorprofilemgr_enumprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfileMgr::EnumProfiles method
+# ITfInputProcessorProfileMgr::EnumProfiles
 
 
 ## -description

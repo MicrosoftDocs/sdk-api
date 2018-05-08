@@ -7,7 +7,7 @@ old-location: security\wintrust_file_info.htm
 old-project: SecCrypto
 ms.assetid: 3c3bef86-a2ed-47d1-a726-90630433358a
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PWINTRUST_FILE_INFO, PWINTRUCT_FILE_INFO, PWINTRUCT_FILE_INFO structure pointer [Security], WINTRUST_FILE_INFO, WINTRUST_FILE_INFO structure [Security], WINTRUST_FILE_INFO_, _win32_wintrust_file_info, security.wintrust_file_info, wintrust/PWINTRUCT_FILE_INFO, wintrust/WINTRUST_FILE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

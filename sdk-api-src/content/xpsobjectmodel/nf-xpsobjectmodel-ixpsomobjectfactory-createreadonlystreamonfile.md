@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateReadOnlyStreamOnFile
-title: IXpsOMObjectFactory::CreateReadOnlyStreamOnFile method
+title: IXpsOMObjectFactory::CreateReadOnlyStreamOnFile
 author: windows-driver-content
 description: Creates a read-only IStream over the specified file.
 old-location: xps\ixpsomobjectfactory_createreadonlystreamonfile.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 00df5162-6fcd-4df8-b7d4-614c14aca8b5
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateReadOnlyStreamOnFile method [XPS Documents and Packaging], CreateReadOnlyStreamOnFile method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateReadOnlyStreamOnFile,IXpsOMObjectFactory.CreateReadOnlyStreamOnFile, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateReadOnlyStreamOnFile method, IXpsOMObjectFactory::CreateReadOnlyStreamOnFile, xps.ixpsomobjectfactory_createreadonlystreamonfile, xpsobjectmodel/IXpsOMObjectFactory::CreateReadOnlyStreamOnFile
+ms.keywords: CreateReadOnlyStreamOnFile, CreateReadOnlyStreamOnFile method [XPS Documents and Packaging], CreateReadOnlyStreamOnFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateReadOnlyStreamOnFile method, IXpsOMObjectFactory.CreateReadOnlyStreamOnFile, IXpsOMObjectFactory::CreateReadOnlyStreamOnFile, xps.ixpsomobjectfactory_createreadonlystreamonfile, xpsobjectmodel/IXpsOMObjectFactory::CreateReadOnlyStreamOnFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateReadOnlyStreamOnFile method
+# IXpsOMObjectFactory::CreateReadOnlyStreamOnFile
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.GetFileSize
-title: IWMWriterFileSink2::GetFileSize method
+title: IWMWriterFileSink2::GetFileSize
 author: windows-driver-content
 description: The GetFileSize method retrieves the size of the file.
 old-location: wmformat\iwmwriterfilesink2_getfilesize.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 3a5f0c18-f73a-461e-b3cf-48742e74fed3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetFileSize method [windows Media Format], GetFileSize method [windows Media Format], IWMWriterFileSink2 interface, GetFileSize,IWMWriterFileSink2.GetFileSize, IWMWriterFileSink2, IWMWriterFileSink2 interface [windows Media Format], GetFileSize method, IWMWriterFileSink2::GetFileSize, IWMWriterFileSink2GetFileSize, wmformat.iwmwriterfilesink2_getfilesize, wmsdkidl/IWMWriterFileSink2::GetFileSize
+ms.keywords: GetFileSize, GetFileSize method [windows Media Format], GetFileSize method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],GetFileSize method, IWMWriterFileSink2.GetFileSize, IWMWriterFileSink2::GetFileSize, IWMWriterFileSink2GetFileSize, wmformat.iwmwriterfilesink2_getfilesize, wmsdkidl/IWMWriterFileSink2::GetFileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterFileSink2::GetFileSize method
+# IWMWriterFileSink2::GetFileSize
 
 
 ## -description

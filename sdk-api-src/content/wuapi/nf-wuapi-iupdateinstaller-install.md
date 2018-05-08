@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.Install
-title: IUpdateInstaller::Install method
+title: IUpdateInstaller::Install
 author: windows-driver-content
 description: Starts a synchronous installation of the updates.
 old-location: wua\iupdateinstaller_install.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 009fc238-fcc4-4131-b770-9f0d0946e741
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], Install method, IUpdateInstaller::Install, Install method [Windows Update Agent], Install method [Windows Update Agent], IUpdateInstaller interface, Install,IUpdateInstaller.Install, wua.iupdateinstaller_install, wuapi/IUpdateInstaller::Install
+ms.keywords: IUpdateInstaller interface [Windows Update Agent],Install method, IUpdateInstaller.Install, IUpdateInstaller::Install, Install, Install method [Windows Update Agent], Install method [Windows Update Agent],IUpdateInstaller interface, wua.iupdateinstaller_install, wuapi/IUpdateInstaller::Install
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateInstaller::Install method
+# IUpdateInstaller::Install
 
 
 ## -description

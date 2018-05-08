@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.DoModal
-title: IPhotoAcquireOptionsDialog::DoModal method
+title: IPhotoAcquireOptionsDialog::DoModal
 author: windows-driver-content
 description: The DoModal method creates and displays the options dialog box as a modal dialog box.
 old-location: picacq\iphotoacquireoptionsdialog_domodal.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: fbceebc3-10dd-4028-9672-1976a459cafe
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DoModal method [Picture Acquisition], DoModal method [Picture Acquisition], IPhotoAcquireOptionsDialog interface, DoModal,IPhotoAcquireOptionsDialog.DoModal, IPhotoAcquireOptionsDialog, IPhotoAcquireOptionsDialog interface [Picture Acquisition], DoModal method, IPhotoAcquireOptionsDialog::DoModal, IPhotoAcquireOptionsDialogDoModal, photoacquire/IPhotoAcquireOptionsDialog::DoModal, picacq.iphotoacquireoptionsdialog_domodal
+ms.keywords: DoModal, DoModal method [Picture Acquisition], DoModal method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, IPhotoAcquireOptionsDialog interface [Picture Acquisition],DoModal method, IPhotoAcquireOptionsDialog.DoModal, IPhotoAcquireOptionsDialog::DoModal, IPhotoAcquireOptionsDialogDoModal, photoacquire/IPhotoAcquireOptionsDialog::DoModal, picacq.iphotoacquireoptionsdialog_domodal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireOptionsDialog::DoModal method
+# IPhotoAcquireOptionsDialog::DoModal
 
 
 ## -description

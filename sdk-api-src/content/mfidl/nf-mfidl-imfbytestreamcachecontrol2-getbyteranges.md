@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFByteStreamCacheControl2.GetByteRanges
-title: IMFByteStreamCacheControl2::GetByteRanges method
+title: IMFByteStreamCacheControl2::GetByteRanges
 author: windows-driver-content
 description: Gets the ranges of bytes that are currently stored in the cache.
 old-location: mf\imfbytestreamcachecontrol2_getbyteranges.htm
 old-project: medfound
 ms.assetid: FC91FCB5-CD22-494F-85B7-38571C38A44E
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetByteRanges method [Media Foundation], GetByteRanges method [Media Foundation], IMFByteStreamCacheControl2 interface, GetByteRanges,IMFByteStreamCacheControl2.GetByteRanges, IMFByteStreamCacheControl2, IMFByteStreamCacheControl2 interface [Media Foundation], GetByteRanges method, IMFByteStreamCacheControl2::GetByteRanges, mf.imfbytestreamcachecontrol2_getbyteranges, mfidl/IMFByteStreamCacheControl2::GetByteRanges
+ms.date: 5/3/2018
+ms.keywords: GetByteRanges, GetByteRanges method [Media Foundation], GetByteRanges method [Media Foundation],IMFByteStreamCacheControl2 interface, IMFByteStreamCacheControl2 interface [Media Foundation],GetByteRanges method, IMFByteStreamCacheControl2.GetByteRanges, IMFByteStreamCacheControl2::GetByteRanges, mf.imfbytestreamcachecontrol2_getbyteranges, mfidl/IMFByteStreamCacheControl2::GetByteRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStreamCacheControl2::GetByteRanges method
+# IMFByteStreamCacheControl2::GetByteRanges
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.LogDword
-title: IWMDMLogger::LogDword method
+title: IWMDMLogger::LogDword
 author: windows-driver-content
 description: The LogDword method logs a DWORD value to the current log file. A carriage return and line feed are added to each log entry.
 old-location: wmdm\iwmdmlogger_logdword.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 68467750-76c5-4f2c-82cf-69c3db12fae9
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], LogDword method, IWMDMLogger::LogDword, IWMDMLoggerLogDword, LogDword method [windows Media Device Manager], LogDword method [windows Media Device Manager], IWMDMLogger interface, LogDword,IWMDMLogger.LogDword, wmdm.iwmdmlogger_logdword, wmdmlog/IWMDMLogger::LogDword
+ms.keywords: IWMDMLogger interface [windows Media Device Manager],LogDword method, IWMDMLogger.LogDword, IWMDMLogger::LogDword, IWMDMLoggerLogDword, LogDword, LogDword method [windows Media Device Manager], LogDword method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_logdword, wmdmlog/IWMDMLogger::LogDword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDMLogger::LogDword method
+# IWMDMLogger::LogDword
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.get_TiltRelative
-title: ICameraControl::get_TiltRelative method
+title: ICameraControl::get_TiltRelative
 author: windows-driver-content
 description: This topic applies only to Windows XP Service Pack 2 and later.
 old-location: dshow\icameracontrol_get_tiltrelative.htm
 old-project: DirectShow
 ms.assetid: e8730043-a506-4c74-a9ca-94d6e003a4b1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_TiltRelative method, ICameraControl::get_TiltRelative, ICameraControlget_TiltRelative, dshow.icameracontrol_get_tiltrelative, get_TiltRelative method [DirectShow], get_TiltRelative method [DirectShow], ICameraControl interface, get_TiltRelative,ICameraControl.get_TiltRelative, vidcap/ICameraControl::get_TiltRelative
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],get_TiltRelative method, ICameraControl.get_TiltRelative, ICameraControl::get_TiltRelative, ICameraControlget_TiltRelative, dshow.icameracontrol_get_tiltrelative, get_TiltRelative, get_TiltRelative method [DirectShow], get_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_TiltRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::get_TiltRelative method
+# ICameraControl::get_TiltRelative
 
 
 ## -description

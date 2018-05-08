@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.GetSelection
-title: IUIAutomationTextPattern::GetSelection method
+title: IUIAutomationTextPattern::GetSelection
 author: windows-driver-content
 description: Retrieves a collection of text ranges that represents the currently selected text in a text-based control.
 old-location: winauto\uiauto_IUIAutomationTextPattern_GetSelection.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2aca7414-afb2-402d-80cf-d7ce3e719b20
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility], IUIAutomationTextPattern interface, GetSelection,IUIAutomationTextPattern.GetSelection, IUIAutomationTextPattern, IUIAutomationTextPattern interface [Windows Accessibility], GetSelection method, IUIAutomationTextPattern::GetSelection, uiauto.uiauto_IUIAutomationTextPattern_GetSelection, uiauto_IUIAutomationTextPattern_GetSelection, uiautomationclient/IUIAutomationTextPattern::GetSelection, winauto.uiauto_IUIAutomationTextPattern_GetSelection
+ms.keywords: GetSelection, GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility],IUIAutomationTextPattern interface, IUIAutomationTextPattern interface [Windows Accessibility],GetSelection method, IUIAutomationTextPattern.GetSelection, IUIAutomationTextPattern::GetSelection, uiauto.uiauto_IUIAutomationTextPattern_GetSelection, uiauto_IUIAutomationTextPattern_GetSelection, uiautomationclient/IUIAutomationTextPattern::GetSelection, winauto.uiauto_IUIAutomationTextPattern_GetSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTextPattern::GetSelection method
+# IUIAutomationTextPattern::GetSelection
 
 
 ## -description

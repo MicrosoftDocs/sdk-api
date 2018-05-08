@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyTopology
-title: IMFQualityManager::NotifyTopology method
+title: IMFQualityManager::NotifyTopology
 author: windows-driver-content
 description: Called when the Media Session is about to start playing a new topology.
 old-location: mf\imfqualitymanager_notifytopology.htm
 old-project: medfound
 ms.assetid: 5ff6d923-4a83-401a-a0de-0b1a732c31a5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 5ff6d923-4a83-401a-a0de-0b1a732c31a5, IMFQualityManager, IMFQualityManager interface [Media Foundation], NotifyTopology method, IMFQualityManager::NotifyTopology, NotifyTopology method [Media Foundation], NotifyTopology method [Media Foundation], IMFQualityManager interface, NotifyTopology,IMFQualityManager.NotifyTopology, mf.imfqualitymanager_notifytopology, mfidl/IMFQualityManager::NotifyTopology
+ms.date: 5/3/2018
+ms.keywords: 5ff6d923-4a83-401a-a0de-0b1a732c31a5, IMFQualityManager interface [Media Foundation],NotifyTopology method, IMFQualityManager.NotifyTopology, IMFQualityManager::NotifyTopology, NotifyTopology, NotifyTopology method [Media Foundation], NotifyTopology method [Media Foundation],IMFQualityManager interface, mf.imfqualitymanager_notifytopology, mfidl/IMFQualityManager::NotifyTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFQualityManager::NotifyTopology method
+# IMFQualityManager::NotifyTopology
 
 
 ## -description

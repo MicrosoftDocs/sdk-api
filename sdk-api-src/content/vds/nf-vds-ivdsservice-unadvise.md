@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.Unadvise
-title: IVdsService::Unadvise method
+title: IVdsService::Unadvise
 author: windows-driver-content
 description: Unregisters the caller's IVdsAdviseSink interface so that the caller no longer receives notifications from the VDS service.
 old-location: base\ivdsservice_unadvise.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 085d380c-2e09-470a-a23d-704c31535975
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsService, IVdsService interface [VDS], Unadvise method, IVdsService::Unadvise, Unadvise method [VDS], Unadvise method [VDS], IVdsService interface, Unadvise,IVdsService.Unadvise, base.ivdsservice_unadvise, vds/IVdsService::Unadvise
+ms.keywords: IVdsService interface [VDS],Unadvise method, IVdsService.Unadvise, IVdsService::Unadvise, Unadvise, Unadvise method [VDS], Unadvise method [VDS],IVdsService interface, base.ivdsservice_unadvise, vds/IVdsService::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsService::Unadvise method
+# IVdsService::Unadvise
 
 
 ## -description

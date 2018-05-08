@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.Close
-title: IWRdsProtocolConnection::Close method
+title: IWRdsProtocolConnection::Close
 author: windows-driver-content
 description: Closes a connection after the session is disconnected.
 old-location: termserv\iwrdsprotocolconnection_close.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 8d159e3f-b429-4522-b608-0068b1f7fa4e
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Close method [Remote Desktop Services], Close method [Remote Desktop Services], IWRdsProtocolConnection interface, Close,IWRdsProtocolConnection.Close, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], Close method, IWRdsProtocolConnection::Close, termserv.iwrdsprotocolconnection_close, wtsprotocol/IWRdsProtocolConnection::Close
+ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],Close method, IWRdsProtocolConnection.Close, IWRdsProtocolConnection::Close, termserv.iwrdsprotocolconnection_close, wtsprotocol/IWRdsProtocolConnection::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::Close method
+# IWRdsProtocolConnection::Close
 
 
 ## -description

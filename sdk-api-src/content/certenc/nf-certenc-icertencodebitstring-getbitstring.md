@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeBitString.GetBitString
-title: ICertEncodeBitString::GetBitString method
+title: ICertEncodeBitString::GetBitString
 author: windows-driver-content
 description: Returns the string of bits in the object's bit string.
 old-location: security\icertencodebitstring_getbitstring.htm
 old-project: SecCrypto
 ms.assetid: d0c6c501-3aaa-42ab-a077-69f6d24f1eff
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeBitString object [Security], GetBitString method, GetBitString method [Security], GetBitString method [Security], CCertEncodeBitString object, GetBitString method [Security], ICertEncodeBitString interface, GetBitString,ICertEncodeBitString.GetBitString, ICertEncodeBitString, ICertEncodeBitString interface [Security], GetBitString method, ICertEncodeBitString::GetBitString, _certsrv_icertencodebitstring_getbitstring, certenc/ICertEncodeBitString::GetBitString, security.icertencodebitstring_getbitstring
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeBitString object [Security],GetBitString method, GetBitString, GetBitString method [Security], GetBitString method [Security],CCertEncodeBitString object, GetBitString method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],GetBitString method, ICertEncodeBitString.GetBitString, ICertEncodeBitString::GetBitString, _certsrv_icertencodebitstring_getbitstring, certenc/ICertEncodeBitString::GetBitString, security.icertencodebitstring_getbitstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeBitString::GetBitString method
+# ICertEncodeBitString::GetBitString
 
 
 ## -description

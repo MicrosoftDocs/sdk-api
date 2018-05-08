@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.get_Count
-title: IRDPSRAPIInvitationManager::get_Count method
+title: IRDPSRAPIInvitationManager::get_Count
 author: windows-driver-content
 description: The number of invitations in the collection.
 old-location: rdp\irdpsrapiinvitationmanager_count.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 5b421537-ce9f-42d3-83b8-f051631c78de
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: Count property [RDP], Count property [RDP], IRDPSRAPIInvitationManager interface, Count property [RDP], RDPSRAPIInvitationManager object, IRDPSRAPIInvitationManager, IRDPSRAPIInvitationManager interface [RDP], Count property, IRDPSRAPIInvitationManager.Count, IRDPSRAPIInvitationManager::get_Count, RDPSRAPIInvitationManager object [RDP], Count property, get_Count,IRDPSRAPIInvitationManager.get_Count, rdp.irdpsrapiinvitationmanager_count, rdpencomapi/IRDPSRAPIInvitationManager::Count, rdpencomapi/IRDPSRAPIInvitationManager::get_Count
+ms.keywords: Count property [RDP], Count property [RDP],IRDPSRAPIInvitationManager interface, Count property [RDP],RDPSRAPIInvitationManager object, IRDPSRAPIInvitationManager interface [RDP],Count property, IRDPSRAPIInvitationManager.Count, IRDPSRAPIInvitationManager.get_Count, IRDPSRAPIInvitationManager::Count, IRDPSRAPIInvitationManager::get_Count, RDPSRAPIInvitationManager object [RDP],Count property, get_Count, rdp.irdpsrapiinvitationmanager_count, rdpencomapi/IRDPSRAPIInvitationManager::Count, rdpencomapi/IRDPSRAPIInvitationManager::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIInvitationManager::get_Count method
+# IRDPSRAPIInvitationManager::get_Count
 
 
 ## -description

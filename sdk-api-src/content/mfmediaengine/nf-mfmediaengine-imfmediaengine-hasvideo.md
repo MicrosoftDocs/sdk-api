@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.HasVideo
-title: IMFMediaEngine::HasVideo method
+title: IMFMediaEngine::HasVideo
 author: windows-driver-content
 description: Queries whether the current media resource contains a video stream.
 old-location: mf\imfmediaengine_hasvideo.htm
 old-project: medfound
 ms.assetid: 30B7F4DC-B3EB-421B-998B-E098F04D4B33
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: HasVideo method [Media Foundation], HasVideo method [Media Foundation], IMFMediaEngine interface, HasVideo,IMFMediaEngine.HasVideo, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], HasVideo method, IMFMediaEngine::HasVideo, mf.imfmediaengine_hasvideo, mfmediaengine/IMFMediaEngine::HasVideo
+ms.date: 5/3/2018
+ms.keywords: HasVideo, HasVideo method [Media Foundation], HasVideo method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],HasVideo method, IMFMediaEngine.HasVideo, IMFMediaEngine::HasVideo, mf.imfmediaengine_hasvideo, mfmediaengine/IMFMediaEngine::HasVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::HasVideo method
+# IMFMediaEngine::HasVideo
 
 
 ## -description

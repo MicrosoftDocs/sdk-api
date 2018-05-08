@@ -7,7 +7,7 @@ old-location: controls\DPA_Clone.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_clone.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: DPA_Clone, DPA_Clone function [Windows Controls], _shell_DPA_Clone, _shell_DPA_Clone_cpp, controls.DPA_Clone, controls._shell_DPA_Clone, dpa_dsa/DPA_Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

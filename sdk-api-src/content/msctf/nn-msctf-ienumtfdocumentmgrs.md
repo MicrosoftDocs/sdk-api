@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5b276752-715b-4426-ad37-8658bae4c1a6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfDocumentMgrs, IEnumTfDocumentMgrs interface [Text Services Framework], IEnumTfDocumentMgrs interface [Text Services Framework], described, _tsf_ienumtfdocumentmgrs_ref, msctf/IEnumTfDocumentMgrs, tsf.ienumtfdocumentmgrs
+ms.keywords: IEnumTfDocumentMgrs, IEnumTfDocumentMgrs interface [Text Services Framework], IEnumTfDocumentMgrs interface [Text Services Framework],described, _tsf_ienumtfdocumentmgrs_ref, msctf/IEnumTfDocumentMgrs, tsf.ienumtfdocumentmgrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

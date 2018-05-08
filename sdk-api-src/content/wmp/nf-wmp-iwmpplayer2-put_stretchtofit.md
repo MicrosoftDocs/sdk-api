@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayer2.put_stretchToFit
-title: IWMPPlayer2::put_stretchToFit method
+title: IWMPPlayer2::put_stretchToFit
 author: windows-driver-content
 description: The put_stretchToFit method specifies a value indicating whether video displayed by the Windows Media Player control automatically sizes to fit the video window when the video window is larger than the dimensions of the video image.
 old-location: wmp\iwmpplayer2_put_stretchtofit.htm
 old-project: WMP
 ms.assetid: 1da60976-5f84-4dc7-8186-32f6d3bb9165
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayer2, IWMPPlayer2 interface [Windows Media Player], put_stretchToFit method, IWMPPlayer2::put_stretchToFit, IWMPPlayer2put_stretchToFit, put_stretchToFit method [Windows Media Player], put_stretchToFit method [Windows Media Player], IWMPPlayer2 interface, put_stretchToFit,IWMPPlayer2.put_stretchToFit, wmp.iwmpplayer2_put_stretchtofit, wmp/IWMPPlayer2::put_stretchToFit
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayer2 interface [Windows Media Player],put_stretchToFit method, IWMPPlayer2.put_stretchToFit, IWMPPlayer2::put_stretchToFit, IWMPPlayer2put_stretchToFit, put_stretchToFit, put_stretchToFit method [Windows Media Player], put_stretchToFit method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_put_stretchtofit, wmp/IWMPPlayer2::put_stretchToFit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayer2::put_stretchToFit method
+# IWMPPlayer2::put_stretchToFit
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccDictionary.GetMnemonicString
-title: IAccDictionary::GetMnemonicString method
+title: IAccDictionary::GetMnemonicString
 author: windows-driver-content
 description: Retrieves a mnemonic string.Note  Active Accessibility Text Services is deprecated.
 old-location: winauto\iaccdictionary_iaccdictionary__getmnemonicstring.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 4855acea-83a9-4752-a780-7f0350a7b137
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetMnemonicString method [Windows Accessibility], GetMnemonicString method [Windows Accessibility], IAccDictionary interface, GetMnemonicString,IAccDictionary.GetMnemonicString, IAccDictionary, IAccDictionary interface [Windows Accessibility], GetMnemonicString method, IAccDictionary::GetMnemonicString, _msaa_IAccDictionary_GetMnemonicString, msaa.iaccdictionary_iaccdictionary__getmnemonicstring, msaatext/IAccDictionary::GetMnemonicString, winauto.iaccdictionary_iaccdictionary__getmnemonicstring
+ms.keywords: GetMnemonicString, GetMnemonicString method [Windows Accessibility], GetMnemonicString method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],GetMnemonicString method, IAccDictionary.GetMnemonicString, IAccDictionary::GetMnemonicString, _msaa_IAccDictionary_GetMnemonicString, msaa.iaccdictionary_iaccdictionary__getmnemonicstring, msaatext/IAccDictionary::GetMnemonicString, winauto.iaccdictionary_iaccdictionary__getmnemonicstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAccDictionary::GetMnemonicString method
+# IAccDictionary::GetMnemonicString
 
 
 ## -description

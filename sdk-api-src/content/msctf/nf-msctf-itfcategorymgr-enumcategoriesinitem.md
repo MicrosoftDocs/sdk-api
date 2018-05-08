@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.EnumCategoriesInItem
-title: ITfCategoryMgr::EnumCategoriesInItem method
+title: ITfCategoryMgr::EnumCategoriesInItem
 author: windows-driver-content
 description: ITfCategoryMgr::EnumCategoriesInItem method
 old-location: tsf\itfcategorymgr_enumcategoriesinitem.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 271e5fbe-54e2-47e3-97d4-cd4211b92080
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnumCategoriesInItem method [Text Services Framework], EnumCategoriesInItem method [Text Services Framework], ITfCategoryMgr interface, EnumCategoriesInItem,ITfCategoryMgr.EnumCategoriesInItem, ITfCategoryMgr, ITfCategoryMgr interface [Text Services Framework], EnumCategoriesInItem method, ITfCategoryMgr::EnumCategoriesInItem, _tsf_itfcategorymgr_enumcategoriesinitem_ref, msctf/ITfCategoryMgr::EnumCategoriesInItem, tsf.itfcategorymgr_enumcategoriesinitem
+ms.keywords: EnumCategoriesInItem, EnumCategoriesInItem method [Text Services Framework], EnumCategoriesInItem method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],EnumCategoriesInItem method, ITfCategoryMgr.EnumCategoriesInItem, ITfCategoryMgr::EnumCategoriesInItem, _tsf_itfcategorymgr_enumcategoriesinitem_ref, msctf/ITfCategoryMgr::EnumCategoriesInItem, tsf.itfcategorymgr_enumcategoriesinitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCategoryMgr::EnumCategoriesInItem method
+# ITfCategoryMgr::EnumCategoriesInItem
 
 
 ## -description

@@ -84,12 +84,32 @@ Reserved
 Bit depth used to specify the alpha constant for a destination.
 
 
+### -field DUMMYUNIONNAMEN.dwAlphaDestConst
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.lpDDSAlphaDest
+
+ 
+
+
 ### -field dwAlphaSrcConstBitDepth
 
 Bit depth used to specify the alpha constant for a source.
 
 
 ### -field DUMMYUNIONNAMEN
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwAlphaSrcConst
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.lpDDSAlphaSrc
 
  
 

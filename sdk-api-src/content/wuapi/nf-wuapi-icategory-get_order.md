@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_Order
-title: ICategory::get_Order method
+title: ICategory::get_Order
 author: windows-driver-content
 description: Gets the recommended display order of this category among its sibling categories.
 old-location: wua\icategory_order.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: c4b56946-89e2-48ea-8bec-318d12c23a65
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ICategory, ICategory interface [Windows Update Agent], Order property, ICategory.Order, ICategory::get_Order, Order property [Windows Update Agent], Order property [Windows Update Agent], ICategory interface, get_Order,ICategory.get_Order, wua.icategory_order, wuapi/ICategory::Order, wuapi/ICategory::get_Order
+ms.keywords: ICategory interface [Windows Update Agent],Order property, ICategory.Order, ICategory.get_Order, ICategory::Order, ICategory::get_Order, Order property [Windows Update Agent], Order property [Windows Update Agent],ICategory interface, get_Order, wua.icategory_order, wuapi/ICategory::Order, wuapi/ICategory::get_Order
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ICategory::get_Order method
+# ICategory::get_Order
 
 
 ## -description

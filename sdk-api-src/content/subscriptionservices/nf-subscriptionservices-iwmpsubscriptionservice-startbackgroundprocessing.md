@@ -1,14 +1,14 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService.startBackgroundProcessing
-title: IWMPSubscriptionService::startBackgroundProcessing method
+title: IWMPSubscriptionService::startBackgroundProcessing
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice_startbackgroundprocessing.htm
 old-project: WMP
 ms.assetid: a3bdb4b1-8479-484f-92db-2b73a0c40bfb
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSubscriptionService, IWMPSubscriptionService interface [Windows Media Player], startBackgroundProcessing method, IWMPSubscriptionService::startBackgroundProcessing, IWMPSubscriptionServicestartBackgroundProcessing, startBackgroundProcessing method [Windows Media Player], startBackgroundProcessing method [Windows Media Player], IWMPSubscriptionService interface, startBackgroundProcessing,IWMPSubscriptionService.startBackgroundProcessing, subscriptionservices/IWMPSubscriptionService::startBackgroundProcessing, wmp.iwmpsubscriptionservice_startbackgroundprocessing
+ms.date: 5/4/2018
+ms.keywords: IWMPSubscriptionService interface [Windows Media Player],startBackgroundProcessing method, IWMPSubscriptionService.startBackgroundProcessing, IWMPSubscriptionService::startBackgroundProcessing, IWMPSubscriptionServicestartBackgroundProcessing, startBackgroundProcessing, startBackgroundProcessing method [Windows Media Player], startBackgroundProcessing method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::startBackgroundProcessing, wmp.iwmpsubscriptionservice_startbackgroundprocessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWMPSubscriptionService::startBackgroundProcessing method
+# IWMPSubscriptionService::startBackgroundProcessing
 
 
 ## -description

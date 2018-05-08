@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IBinaryConverter.StringToString
-title: IBinaryConverter::StringToString method
+title: IBinaryConverter::StringToString
 author: windows-driver-content
 description: Modifies the type of Unicode encoding applied to a string.
 old-location: security\ibinaryconverter_stringtostring_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: c584a9bd-4ea3-4df7-8a9a-1f70cf07a213
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IBinaryConverter, IBinaryConverter interface [Security], StringToString method, IBinaryConverter::StringToString, StringToString method [Security], StringToString method [Security], IBinaryConverter interface, StringToString,IBinaryConverter.StringToString, certenroll/IBinaryConverter::StringToString, security.ibinaryconverter_stringtostring_method
+ms.keywords: IBinaryConverter interface [Security],StringToString method, IBinaryConverter.StringToString, IBinaryConverter::StringToString, StringToString, StringToString method [Security], StringToString method [Security],IBinaryConverter interface, certenroll/IBinaryConverter::StringToString, security.ibinaryconverter_stringtostring_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IBinaryConverter::StringToString method
+# IBinaryConverter::StringToString
 
 
 ## -description

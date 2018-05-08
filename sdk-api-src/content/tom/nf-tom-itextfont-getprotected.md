@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetProtected
-title: ITextFont::GetProtected method
+title: ITextFont::GetProtected
 author: windows-driver-content
 description: Gets whether characters are protected against attempts to modify them.
 old-location: controls\ITextFont_GetProtected.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getprotected.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetProtected method [Windows Controls], GetProtected method [Windows Controls], ITextFont interface, GetProtected,ITextFont.GetProtected, ITextFont, ITextFont interface [Windows Controls], GetProtected method, ITextFont::GetProtected, _win32_ITextFont_GetProtected, _win32_ITextFont_GetProtected_cpp, controls.ITextFont_GetProtected, controls._win32_ITextFont_GetProtected, tom/ITextFont::GetProtected
+ms.date: 4/27/2018
+ms.keywords: GetProtected, GetProtected method [Windows Controls], GetProtected method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetProtected method, ITextFont.GetProtected, ITextFont::GetProtected, _win32_ITextFont_GetProtected, _win32_ITextFont_GetProtected_cpp, controls.ITextFont_GetProtected, controls._win32_ITextFont_GetProtected, tom/ITextFont::GetProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetProtected method
+# ITextFont::GetProtected
 
 
 ## -description

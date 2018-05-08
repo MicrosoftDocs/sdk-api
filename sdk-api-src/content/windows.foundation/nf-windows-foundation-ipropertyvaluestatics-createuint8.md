@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt8
-title: IPropertyValueStatics::CreateUInt8 method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified unsigned 8-bit integer value.
 old-location: winrt\ipropertyvaluestatics_createuint8.htm
 old-project: WinRT
 ms.assetid: 8CDCDB96-7E77-4B63-8417-D669ED4850BF
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateUInt8 method [Windows Runtime], CreateUInt8 method [Windows Runtime], IPropertyValueStatics interface, CreateUInt8,IPropertyValueStatics.CreateUInt8, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateUInt8 method, IPropertyValueStatics::CreateUInt8, windows/IPropertyValueStatics::CreateUInt8, winrt.ipropertyvaluefactory_createuint8, winrt.ipropertyvaluestatics_createuint8
+ms.date: 5/4/2018
+ms.keywords: CreateUInt8, CreateUInt8 method [Windows Runtime], CreateUInt8 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt8 method, IPropertyValueStatics.CreateUInt8, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt8, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt8, winrt.ipropertyvaluefactory_createuint8, winrt.ipropertyvaluestatics_createuint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateUInt8 method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

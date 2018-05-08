@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_TOT.Initialize
-title: IDVB_TOT::Initialize method
+title: IDVB_TOT::Initialize
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_tot_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 06e3380b-cf33-476f-bb41-2d843bc69e2c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVB_TOT, IDVB_TOT interface [Microsoft TV Technologies], Initialize method, IDVB_TOT::Initialize, IDVB_TOTInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IDVB_TOT interface, Initialize,IDVB_TOT.Initialize, dvbsiparser/IDVB_TOT::Initialize, mstv.idvb_tot_initialize
+ms.keywords: IDVB_TOT interface [Microsoft TV Technologies],Initialize method, IDVB_TOT.Initialize, IDVB_TOT::Initialize, IDVB_TOTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_TOT interface, dvbsiparser/IDVB_TOT::Initialize, mstv.idvb_tot_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_TOT::Initialize method
+# IDVB_TOT::Initialize
 
 
 ## -description

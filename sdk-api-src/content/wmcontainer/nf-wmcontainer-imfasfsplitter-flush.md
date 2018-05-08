@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.Flush
-title: IMFASFSplitter::Flush method
+title: IMFASFSplitter::Flush
 author: windows-driver-content
 description: Resets the Advanced Systems Format (ASF) splitter and releases all pending samples.
 old-location: mf\imfasfsplitter_flush.htm
 old-project: medfound
 ms.assetid: be92c734-2bcb-4a7c-bd62-fb545c3c7762
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: Flush method [Media Foundation], Flush method [Media Foundation], IMFASFSplitter interface, Flush,IMFASFSplitter.Flush, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], Flush method, IMFASFSplitter::Flush, be92c734-2bcb-4a7c-bd62-fb545c3c7762, mf.imfasfsplitter_flush, wmcontainer/IMFASFSplitter::Flush
+ms.date: 5/3/2018
+ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],Flush method, IMFASFSplitter.Flush, IMFASFSplitter::Flush, be92c734-2bcb-4a7c-bd62-fb545c3c7762, mf.imfasfsplitter_flush, wmcontainer/IMFASFSplitter::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFSplitter::Flush method
+# IMFASFSplitter::Flush
 
 
 ## -description

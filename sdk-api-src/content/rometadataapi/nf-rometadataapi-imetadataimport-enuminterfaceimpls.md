@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumInterfaceImpls
-title: IMetaDataImport::EnumInterfaceImpls method
+title: IMetaDataImport::EnumInterfaceImpls
 author: windows-driver-content
 description: Enumerates MethodDef tokens representing interface implementations.
 old-location: winrt\imetadataimport_enuminterfaceimpls.htm
 old-project: WinRT
 ms.assetid: 37f3eada-7719-4303-a9c7-57ee396a5dc5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumInterfaceImpls method [Windows Runtime], EnumInterfaceImpls method [Windows Runtime], IMetaDataImport interface, EnumInterfaceImpls,IMetaDataImport.EnumInterfaceImpls, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumInterfaceImpls method, IMetaDataImport::EnumInterfaceImpls, rometadataapi/IMetaDataImport::EnumInterfaceImpls, winrt.imetadataimport_enuminterfaceimpls
+ms.date: 5/4/2018
+ms.keywords: EnumInterfaceImpls, EnumInterfaceImpls method [Windows Runtime], EnumInterfaceImpls method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumInterfaceImpls method, IMetaDataImport.EnumInterfaceImpls, IMetaDataImport::EnumInterfaceImpls, rometadataapi/IMetaDataImport::EnumInterfaceImpls, winrt.imetadataimport_enuminterfaceimpls
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumInterfaceImpls method
+# IMetaDataImport::EnumInterfaceImpls
 
 
 ## -description

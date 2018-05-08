@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace2.get_CountryCode
-title: IAnalogRadioTuningSpace2::get_CountryCode method
+title: IAnalogRadioTuningSpace2::get_CountryCode
 author: windows-driver-content
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\ianalogradiotuningspace2_get_countrycode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: dc619247-90fc-4db0-9b46-cc81b9ae6916
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAnalogRadioTuningSpace2, IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies], get_CountryCode method, IAnalogRadioTuningSpace2::get_CountryCode, IAnalogRadioTuningSpace2get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies], IAnalogRadioTuningSpace2 interface, get_CountryCode,IAnalogRadioTuningSpace2.get_CountryCode, mstv.ianalogradiotuningspace2_get_countrycode, tuner/IAnalogRadioTuningSpace2::get_CountryCode
+ms.keywords: IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies],get_CountryCode method, IAnalogRadioTuningSpace2.get_CountryCode, IAnalogRadioTuningSpace2::get_CountryCode, IAnalogRadioTuningSpace2get_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IAnalogRadioTuningSpace2 interface, mstv.ianalogradiotuningspace2_get_countrycode, tuner/IAnalogRadioTuningSpace2::get_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnalogRadioTuningSpace2::get_CountryCode method
+# IAnalogRadioTuningSpace2::get_CountryCode
 
 
 ## -description

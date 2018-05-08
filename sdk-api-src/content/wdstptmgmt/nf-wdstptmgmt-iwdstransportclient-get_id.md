@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_Id
-title: IWdsTransportClient::get_Id method
+title: IWdsTransportClient::get_Id
 author: windows-driver-content
 description: Receives a unique client ID that identifies this WDS client on the WDS server.
 old-location: wds\iwdstransportclient_id.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 3a19e711-ea4a-4b9d-b9ef-30dcd1c42d4e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], Id property, IWdsTransportClient.Id, IWdsTransportClient::get_Id, Id property [Windows Deployment Services], Id property [Windows Deployment Services], IWdsTransportClient interface, get_Id,IWdsTransportClient.get_Id, wds.iwdstransportclient_id, wdstptmgmt/IWdsTransportClient::Id, wdstptmgmt/IWdsTransportClient::get_Id
+ms.keywords: IWdsTransportClient interface [Windows Deployment Services],Id property, IWdsTransportClient.Id, IWdsTransportClient.get_Id, IWdsTransportClient::Id, IWdsTransportClient::get_Id, Id property [Windows Deployment Services], Id property [Windows Deployment Services],IWdsTransportClient interface, get_Id, wds.iwdstransportclient_id, wdstptmgmt/IWdsTransportClient::Id, wdstptmgmt/IWdsTransportClient::get_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportClient::get_Id method
+# IWdsTransportClient::get_Id
 
 
 ## -description

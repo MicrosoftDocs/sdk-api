@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkCostManagerEvents.CostChanged
-title: INetworkCostManagerEvents::CostChanged method
+title: INetworkCostManagerEvents::CostChanged
 author: windows-driver-content
 description: CostChanged method is called to indicates a cost change for either machine-wide Internet connectivity, or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanagerevents_costchanged.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 39262F6A-9701-4917-BBDF-1BAC201585D4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CostChanged method [Network Awareness], CostChanged method [Network Awareness], INetworkCostManagerEvents interface, CostChanged,INetworkCostManagerEvents.CostChanged, INetworkCostManagerEvents, INetworkCostManagerEvents interface [Network Awareness], CostChanged method, INetworkCostManagerEvents::CostChanged, netlistmgr/INetworkCostManagerEvents::CostChanged, nla.inetworkcostmanagerevents_costchanged
+ms.keywords: CostChanged, CostChanged method [Network Awareness], CostChanged method [Network Awareness],INetworkCostManagerEvents interface, INetworkCostManagerEvents interface [Network Awareness],CostChanged method, INetworkCostManagerEvents.CostChanged, INetworkCostManagerEvents::CostChanged, netlistmgr/INetworkCostManagerEvents::CostChanged, nla.inetworkcostmanagerevents_costchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkCostManagerEvents::CostChanged method
+# INetworkCostManagerEvents::CostChanged
 
 
 ## -description

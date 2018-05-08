@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtDevice.GetCapability
-title: IAMExtDevice::GetCapability method
+title: IAMExtDevice::GetCapability
 author: windows-driver-content
 description: The GetCapability method retrieves the capabilities of the external device.
 old-location: dshow\iamextdevice_getcapability.htm
 old-project: DirectShow
 ms.assetid: 4efed2b8-a62c-4a82-bc2d-c6d3a202263c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCapability method [DirectShow], GetCapability method [DirectShow], IAMExtDevice interface, GetCapability,IAMExtDevice.GetCapability, IAMExtDevice, IAMExtDevice interface [DirectShow], GetCapability method, IAMExtDevice::GetCapability, IAMExtDeviceGetCapability, dshow.iamextdevice_getcapability, strmif/IAMExtDevice::GetCapability
+ms.date: 4/30/2018
+ms.keywords: GetCapability, GetCapability method [DirectShow], GetCapability method [DirectShow],IAMExtDevice interface, IAMExtDevice interface [DirectShow],GetCapability method, IAMExtDevice.GetCapability, IAMExtDevice::GetCapability, IAMExtDeviceGetCapability, dshow.iamextdevice_getcapability, strmif/IAMExtDevice::GetCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtDevice::GetCapability method
+# IAMExtDevice::GetCapability
 
 
 ## -description

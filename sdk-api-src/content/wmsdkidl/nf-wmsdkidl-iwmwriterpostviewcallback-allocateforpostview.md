@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostViewCallback.AllocateForPostView
-title: IWMWriterPostViewCallback::AllocateForPostView method
+title: IWMWriterPostViewCallback::AllocateForPostView
 author: windows-driver-content
 description: The AllocateForPostView method allocates a buffer for use in postviewing operations. The application implements this method.
 old-location: wmformat\iwmwriterpostviewcallback_allocateforpostview.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e48132c4-b222-4401-99b3-7906c0df4ec1
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AllocateForPostView method [windows Media Format], AllocateForPostView method [windows Media Format], IWMWriterPostViewCallback interface, AllocateForPostView,IWMWriterPostViewCallback.AllocateForPostView, IWMWriterPostViewCallback, IWMWriterPostViewCallback interface [windows Media Format], AllocateForPostView method, IWMWriterPostViewCallback::AllocateForPostView, IWMWriterPostViewCallbackAllocateForPostView, wmformat.iwmwriterpostviewcallback_allocateforpostview, wmsdkidl/IWMWriterPostViewCallback::AllocateForPostView
+ms.keywords: AllocateForPostView, AllocateForPostView method [windows Media Format], AllocateForPostView method [windows Media Format],IWMWriterPostViewCallback interface, IWMWriterPostViewCallback interface [windows Media Format],AllocateForPostView method, IWMWriterPostViewCallback.AllocateForPostView, IWMWriterPostViewCallback::AllocateForPostView, IWMWriterPostViewCallbackAllocateForPostView, wmformat.iwmwriterpostviewcallback_allocateforpostview, wmsdkidl/IWMWriterPostViewCallback::AllocateForPostView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPostViewCallback::AllocateForPostView method
+# IWMWriterPostViewCallback::AllocateForPostView
 
 
 ## -description

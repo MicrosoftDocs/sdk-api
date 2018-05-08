@@ -7,7 +7,7 @@ old-location: winsock\bind_2.htm
 old-project: WinSock
 ms.assetid: 3a651daa-7404-4ef7-8cff-0d3dff41a8e8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "_win32_bind_2, bind, bind function [Winsock], winsock.bind_2, winsock/bind"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetCurrentDataClass
-title: IMbnRegistration::GetCurrentDataClass method
+title: IMbnRegistration::GetCurrentDataClass
 author: windows-driver-content
 description: Gets the current data class in the current network.
 old-location: mbn\imbnregistration_getcurrentdataclass.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 365458a4-74df-4283-94db-3d855acadffe
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCurrentDataClass method [Microsoft Broadband Networks], GetCurrentDataClass method [Microsoft Broadband Networks], IMbnRegistration interface, GetCurrentDataClass,IMbnRegistration.GetCurrentDataClass, IMbnRegistration, IMbnRegistration interface [Microsoft Broadband Networks], GetCurrentDataClass method, IMbnRegistration::GetCurrentDataClass, mbn.imbnregistration_getcurrentdataclass, mbnapi/IMbnRegistration::GetCurrentDataClass
+ms.keywords: GetCurrentDataClass, GetCurrentDataClass method [Microsoft Broadband Networks], GetCurrentDataClass method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetCurrentDataClass method, IMbnRegistration.GetCurrentDataClass, IMbnRegistration::GetCurrentDataClass, mbn.imbnregistration_getcurrentdataclass, mbnapi/IMbnRegistration::GetCurrentDataClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnRegistration::GetCurrentDataClass method
+# IMbnRegistration::GetCurrentDataClass
 
 
 ## -description

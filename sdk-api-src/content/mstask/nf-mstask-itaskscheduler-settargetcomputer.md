@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskScheduler.SetTargetComputer
-title: ITaskScheduler::SetTargetComputer method
+title: ITaskScheduler::SetTargetComputer
 author: windows-driver-content
 description: The SetTargetComputer method selects the computer that the ITaskScheduler interface operates on, allowing remote task management and enumeration.
 old-location: taskschd\itaskscheduler_settargetcomputer.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: e56d2384-026e-44e0-b6b7-20a41a421e09
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskScheduler, ITaskScheduler interface [Task Scheduler], SetTargetComputer method, ITaskScheduler::SetTargetComputer, SetTargetComputer method [Task Scheduler], SetTargetComputer method [Task Scheduler], ITaskScheduler interface, SetTargetComputer,ITaskScheduler.SetTargetComputer, _msb_itaskscheduler_settargetcomputer, mstask/ITaskScheduler::SetTargetComputer, taskschd.itaskscheduler_settargetcomputer
+ms.keywords: ITaskScheduler interface [Task Scheduler],SetTargetComputer method, ITaskScheduler.SetTargetComputer, ITaskScheduler::SetTargetComputer, SetTargetComputer, SetTargetComputer method [Task Scheduler], SetTargetComputer method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_settargetcomputer, mstask/ITaskScheduler::SetTargetComputer, taskschd.itaskscheduler_settargetcomputer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITaskScheduler::SetTargetComputer method
+# ITaskScheduler::SetTargetComputer
 
 
 ## -description

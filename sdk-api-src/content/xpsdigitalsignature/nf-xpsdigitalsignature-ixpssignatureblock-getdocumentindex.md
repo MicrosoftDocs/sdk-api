@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.GetDocumentIndex
-title: IXpsSignatureBlock::GetDocumentIndex method
+title: IXpsSignatureBlock::GetDocumentIndex
 author: windows-driver-content
 description: Gets the index of the FixedDocument part that references the SignatureDefinitions part that corresponds to this signature block.
 old-location: xps\ixpssignatureblock_getdocumentindex.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 5e9052d9-9a27-41fe-8842-50033cb8edf2
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDocumentIndex method [XPS Documents and Packaging], GetDocumentIndex method [XPS Documents and Packaging], IXpsSignatureBlock interface, GetDocumentIndex,IXpsSignatureBlock.GetDocumentIndex, IXpsSignatureBlock, IXpsSignatureBlock interface [XPS Documents and Packaging], GetDocumentIndex method, IXpsSignatureBlock::GetDocumentIndex, xps.ixpssignatureblock_getdocumentindex, xpsdigitalsignature/IXpsSignatureBlock::GetDocumentIndex
+ms.keywords: GetDocumentIndex, GetDocumentIndex method [XPS Documents and Packaging], GetDocumentIndex method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetDocumentIndex method, IXpsSignatureBlock.GetDocumentIndex, IXpsSignatureBlock::GetDocumentIndex, xps.ixpssignatureblock_getdocumentindex, xpsdigitalsignature/IXpsSignatureBlock::GetDocumentIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureBlock::GetDocumentIndex method
+# IXpsSignatureBlock::GetDocumentIndex
 
 
 ## -description

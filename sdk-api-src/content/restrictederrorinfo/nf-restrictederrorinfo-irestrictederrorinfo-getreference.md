@@ -1,14 +1,14 @@
 ---
 UID: NF:restrictederrorinfo.IRestrictedErrorInfo.GetReference
-title: IRestrictedErrorInfo::GetReference method
+title: IRestrictedErrorInfo::GetReference
 author: windows-driver-content
 description: Returns a reference to restricted error information.
 old-location: winrt\irestrictederrorinfo_getreference.htm
 old-project: WinRT
 ms.assetid: e7f0c451-c6a4-49ec-a97a-dc834081b3c1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetReference method [Windows Runtime], GetReference method [Windows Runtime], IRestrictedErrorInfo interface, GetReference,IRestrictedErrorInfo.GetReference, IRestrictedErrorInfo, IRestrictedErrorInfo interface [Windows Runtime], GetReference method, IRestrictedErrorInfo::GetReference, restrictederrorinfo/IRestrictedErrorInfo::GetReference, winrt.irestrictederrorinfo_getreference
+ms.date: 5/4/2018
+ms.keywords: GetReference, GetReference method [Windows Runtime], GetReference method [Windows Runtime],IRestrictedErrorInfo interface, IRestrictedErrorInfo interface [Windows Runtime],GetReference method, IRestrictedErrorInfo.GetReference, IRestrictedErrorInfo::GetReference, restrictederrorinfo/IRestrictedErrorInfo::GetReference, winrt.irestrictederrorinfo_getreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRestrictedErrorInfo::GetReference method
+# IRestrictedErrorInfo::GetReference
 
 
 ## -description

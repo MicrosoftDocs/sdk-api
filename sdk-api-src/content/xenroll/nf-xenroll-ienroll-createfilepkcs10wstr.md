@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.createFilePKCS10WStr
-title: IEnroll::createFilePKCS10WStr method
+title: IEnroll::createFilePKCS10WStr
 author: windows-driver-content
 description: Creates a base64-encoded PKCS #10 certificate request and saves it in a file.
 old-location: security\ienroll4_createfilepkcs10wstr.htm
 old-project: SecCrypto
 ms.assetid: 5edd54c5-9dfb-44b8-a293-4fe6a8de45e3
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], createFilePKCS10WStr method, IEnroll::createFilePKCS10WStr, createFilePKCS10WStr method [Security], createFilePKCS10WStr method [Security], IEnroll interface, createFilePKCS10WStr,IEnroll.createFilePKCS10WStr, security.ienroll4_createfilepkcs10wstr, xenroll/IEnroll::createFilePKCS10WStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],createFilePKCS10WStr method, IEnroll.createFilePKCS10WStr, IEnroll::createFilePKCS10WStr, createFilePKCS10WStr, createFilePKCS10WStr method [Security], createFilePKCS10WStr method [Security],IEnroll interface, security.ienroll4_createfilepkcs10wstr, xenroll/IEnroll::createFilePKCS10WStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::createFilePKCS10WStr method
+# IEnroll::createFilePKCS10WStr
 
 
 ## -description

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_ADDR, *PDNS_ADDR, DNS_ADDR, *PDNS_ADDR
+req.typenames: DNS_ADDR, *PDNS_ADDR
 topic_type:
 -	APIRef
 -	kbSyntax

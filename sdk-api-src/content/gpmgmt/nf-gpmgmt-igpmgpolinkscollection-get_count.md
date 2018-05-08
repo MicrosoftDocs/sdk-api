@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPOLinksCollection.get_Count
-title: IGPMGPOLinksCollection::get_Count method
+title: IGPMGPOLinksCollection::get_Count
 author: windows-driver-content
 description: Returns the number of GPO links in the collection.
 old-location: gpmc\igpmgpolinkscollection_get_count.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 09307f35-d90f-4ef8-9eee-2ef33b765c19
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Count property [GPMC], Count property [GPMC], GPMGPOLinksCollection class, Count property [GPMC], IGPMGPOLinksCollection interface, GPMGPOLinksCollection class [GPMC], Count property, IGPMGPOLinksCollection, IGPMGPOLinksCollection interface [GPMC], Count property, IGPMGPOLinksCollection.Count, IGPMGPOLinksCollection::get_Count, _win32_igpmgpolinkscollection_get_count, get_Count,IGPMGPOLinksCollection.get_Count, gpmc.igpmgpolinkscollection_get_count, gpmgmt/IGPMGPOLinksCollection::Count, gpmgmt/IGPMGPOLinksCollection::get_Count
+ms.keywords: Count property [GPMC], Count property [GPMC],GPMGPOLinksCollection class, Count property [GPMC],IGPMGPOLinksCollection interface, GPMGPOLinksCollection class [GPMC],Count property, IGPMGPOLinksCollection interface [GPMC],Count property, IGPMGPOLinksCollection.Count, IGPMGPOLinksCollection.get_Count, IGPMGPOLinksCollection::Count, IGPMGPOLinksCollection::get_Count, _win32_igpmgpolinkscollection_get_count, get_Count, gpmc.igpmgpolinkscollection_get_count, gpmgmt/IGPMGPOLinksCollection::Count, gpmgmt/IGPMGPOLinksCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMGPOLinksCollection::get_Count method
+# IGPMGPOLinksCollection::get_Count
 
 
 ## -description

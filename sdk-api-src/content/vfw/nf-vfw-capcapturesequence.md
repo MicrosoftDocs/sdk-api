@@ -7,7 +7,7 @@ old-location: multimedia\capcapturesequence.htm
 old-project: Multimedia
 ms.assetid: cb4adf31-504a-46ee-b05e-768bdfde4b8f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: "_win32_capCaptureSequence, capCaptureSequence, capCaptureSequence macro [Windows Multimedia], multimedia.capcapturesequence, vfw/capCaptureSequence"
 ms.prod: windows-hardware
 ms.technology: windows-devices

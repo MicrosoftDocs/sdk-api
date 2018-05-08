@@ -63,6 +63,16 @@ The <b>TOKEN_GROUPS</b> structure contains information about the group <a href="
 Specifies the number of groups in the access token. 
 
 
+### -field Groups.size_is
+
+ 
+
+
+### -field Groups.size_is.GroupCount
+
+ 
+
+
 ### -field Groups
 
 Specifies an array of 

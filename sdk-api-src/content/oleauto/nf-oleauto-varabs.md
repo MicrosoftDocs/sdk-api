@@ -7,7 +7,7 @@ old-location: automat\varabs.htm
 old-project: automat
 ms.assetid: 720f5b1b-1b89-4167-8d89-9da267ecb85e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarAbs, VarAbs function [Automation], _oa96_VarAbs, automat.varabs, oleauto/VarAbs
 ms.prod: windows-hardware
 ms.technology: windows-devices

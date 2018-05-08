@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMResourceControl.Reserve
-title: IAMResourceControl::Reserve method
+title: IAMResourceControl::Reserve
 author: windows-driver-content
 description: The Reserve method reserves or unreserves a device resource.
 old-location: dshow\iamresourcecontrol_reserve.htm
 old-project: DirectShow
 ms.assetid: 5f264b87-dae4-4478-811f-1c99e670928a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMResourceControl, IAMResourceControl interface [DirectShow], Reserve method, IAMResourceControl::Reserve, IAMResourceControlReserve, Reserve method [DirectShow], Reserve method [DirectShow], IAMResourceControl interface, Reserve,IAMResourceControl.Reserve, dshow.iamresourcecontrol_reserve, strmif/IAMResourceControl::Reserve
+ms.date: 4/30/2018
+ms.keywords: IAMResourceControl interface [DirectShow],Reserve method, IAMResourceControl.Reserve, IAMResourceControl::Reserve, IAMResourceControlReserve, Reserve, Reserve method [DirectShow], Reserve method [DirectShow],IAMResourceControl interface, dshow.iamresourcecontrol_reserve, strmif/IAMResourceControl::Reserve
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMResourceControl::Reserve method
+# IAMResourceControl::Reserve
 
 
 ## -description

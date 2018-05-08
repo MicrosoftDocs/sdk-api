@@ -1,14 +1,14 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.GetVPDataInfo
-title: IVPBaseConfig::GetVPDataInfo method
+title: IVPBaseConfig::GetVPDataInfo
 author: windows-driver-content
 description: The GetVPDataInfo method retrieves the current video port data information.
 old-location: dshow\ivpbaseconfig_getvpdatainfo.htm
 old-project: DirectShow
 ms.assetid: 385ab5e4-b904-4268-a97e-1c3e7789b0a2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetVPDataInfo method [DirectShow], GetVPDataInfo method [DirectShow], IVPBaseConfig interface, GetVPDataInfo,IVPBaseConfig.GetVPDataInfo, IVPBaseConfig, IVPBaseConfig interface [DirectShow], GetVPDataInfo method, IVPBaseConfig::GetVPDataInfo, IVPBaseConfigGetVPDataInfo, dshow.ivpbaseconfig_getvpdatainfo, vpconfig/IVPBaseConfig::GetVPDataInfo
+ms.date: 4/30/2018
+ms.keywords: GetVPDataInfo, GetVPDataInfo method [DirectShow], GetVPDataInfo method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetVPDataInfo method, IVPBaseConfig.GetVPDataInfo, IVPBaseConfig::GetVPDataInfo, IVPBaseConfigGetVPDataInfo, dshow.ivpbaseconfig_getvpdatainfo, vpconfig/IVPBaseConfig::GetVPDataInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVPBaseConfig::GetVPDataInfo method
+# IVPBaseConfig::GetVPDataInfo
 
 
 ## -description

@@ -367,9 +367,36 @@ The number of <a href="https://msdn.microsoft.com/670e6c49-bbc0-4af6-9e47-6c8980
 This member is valid only if the <b>dwDataType</b> member is SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_ARRIVAL, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, or SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT.
 
 
+### -field cDataItems.range
+
+ 
+
+
+### -field cDataItems.range.0
+
+ 
+
+
+### -field cDataItems.range.64
+
+ 
+
+
 ### -field pDataItems
 
 A pointer to an array of <a href="https://msdn.microsoft.com/670e6c49-bbc0-4af6-9e47-6c89801ebb45">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a> structures that contain trigger-specific data. 
+
+
+### -field pDataItems.size_is
+
+ 
+
+
+### -field pDataItems.size_is.cDataItems
+
+ 
+
+
 
 
 ## -remarks

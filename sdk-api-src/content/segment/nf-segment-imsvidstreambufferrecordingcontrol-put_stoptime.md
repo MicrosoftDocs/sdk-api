@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.put_StopTime
-title: IMSVidStreamBufferRecordingControl::put_StopTime method
+title: IMSVidStreamBufferRecordingControl::put_StopTime
 author: windows-driver-content
 description: The put_StopTime method sets the stop time for the recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_put_stoptime.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 5ff338e8-4b91-4947-9ec6-fe35a3fcad3f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferRecordingControl, IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies], put_StopTime method, IMSVidStreamBufferRecordingControl::put_StopTime, IMSVidStreamBufferRecordingControlput_StopTime, mstv.imsvidstreambufferrecordingcontrol_put_stoptime, put_StopTime method [Microsoft TV Technologies], put_StopTime method [Microsoft TV Technologies], IMSVidStreamBufferRecordingControl interface, put_StopTime,IMSVidStreamBufferRecordingControl.put_StopTime, segment/IMSVidStreamBufferRecordingControl::put_StopTime
+ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],put_StopTime method, IMSVidStreamBufferRecordingControl.put_StopTime, IMSVidStreamBufferRecordingControl::put_StopTime, IMSVidStreamBufferRecordingControlput_StopTime, mstv.imsvidstreambufferrecordingcontrol_put_stoptime, put_StopTime, put_StopTime method [Microsoft TV Technologies], put_StopTime method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, segment/IMSVidStreamBufferRecordingControl::put_StopTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferRecordingControl::put_StopTime method
+# IMSVidStreamBufferRecordingControl::put_StopTime
 
 
 ## -description

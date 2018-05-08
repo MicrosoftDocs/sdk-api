@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbContentDescriptor.GetLength
-title: IDvbContentDescriptor::GetLength method
+title: IDvbContentDescriptor::GetLength
 author: windows-driver-content
 description: Gets the body length of a Digital Video Broadcast (DVB) content descriptor.
 old-location: mstv\idvbcontentdescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3e937c51-e143-4b13-a16a-279bd3690feb
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IDvbContentDescriptor interface, GetLength,IDvbContentDescriptor.GetLength, IDvbContentDescriptor, IDvbContentDescriptor interface [Microsoft TV Technologies], GetLength method, IDvbContentDescriptor::GetLength, dvbsiparser/IDvbContentDescriptor::GetLength, mstv.idvbcontentdescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbContentDescriptor interface, IDvbContentDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbContentDescriptor.GetLength, IDvbContentDescriptor::GetLength, dvbsiparser/IDvbContentDescriptor::GetLength, mstv.idvbcontentdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbContentDescriptor::GetLength method
+# IDvbContentDescriptor::GetLength
 
 
 ## -description

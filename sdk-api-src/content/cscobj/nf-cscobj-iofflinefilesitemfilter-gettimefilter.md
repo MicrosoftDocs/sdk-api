@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItemFilter.GetTimeFilter
-title: IOfflineFilesItemFilter::GetTimeFilter method
+title: IOfflineFilesItemFilter::GetTimeFilter
 author: windows-driver-content
 description: Provides time-value-comparison semantics to control filtering of items based on time.
 old-location: of\iofflinefilesitemfilter_gettimefilter.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 397611e7-60e5-46d6-b90b-5aed7fff6a43
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetTimeFilter method [Offline Files], GetTimeFilter method [Offline Files], IOfflineFilesItemFilter interface, GetTimeFilter,IOfflineFilesItemFilter.GetTimeFilter, IOfflineFilesItemFilter, IOfflineFilesItemFilter interface [Offline Files], GetTimeFilter method, IOfflineFilesItemFilter::GetTimeFilter, cscobj/IOfflineFilesItemFilter::GetTimeFilter, of.iofflinefilesitemfilter_gettimefilter
+ms.keywords: GetTimeFilter, GetTimeFilter method [Offline Files], GetTimeFilter method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetTimeFilter method, IOfflineFilesItemFilter.GetTimeFilter, IOfflineFilesItemFilter::GetTimeFilter, cscobj/IOfflineFilesItemFilter::GetTimeFilter, of.iofflinefilesitemfilter_gettimefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesItemFilter::GetTimeFilter method
+# IOfflineFilesItemFilter::GetTimeFilter
 
 
 ## -description

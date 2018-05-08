@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: e014624a-1ee1-4de3-ba59-cd090b3fa711
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: RASADFunc, RASADFunc callback function [RAS], RASADFuncA, RASADFuncW, _ras_rasadfunc, ras/RASADFunc, ras/RASADFuncA, ras/RASADFuncW, rras.rasadfunc
+ms.keywords: RASADFunc, RASADFunc callback, RASADFunc callback function [RAS], RASADFuncA, RASADFuncW, _ras_rasadfunc, ras/RASADFunc, ras/RASADFuncA, ras/RASADFuncW, rras.rasadfunc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# RASADFUNCW callback
+# RASADFUNCW callback function
 
 
 ## -description

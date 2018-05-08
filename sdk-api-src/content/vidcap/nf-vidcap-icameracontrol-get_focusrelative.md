@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.get_FocusRelative
-title: ICameraControl::get_FocusRelative method
+title: ICameraControl::get_FocusRelative
 author: windows-driver-content
 description: The get_FocusRelative method returns the relative focus. The relative focus indicates the direction in which the lens group is moving.
 old-location: dshow\icameracontrol_get_focusrelative.htm
 old-project: DirectShow
 ms.assetid: 21bc1cbe-747b-4846-814f-1aed0ac614d6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_FocusRelative method, ICameraControl::get_FocusRelative, ICameraControlget_FocusRelative, dshow.icameracontrol_get_focusrelative, get_FocusRelative method [DirectShow], get_FocusRelative method [DirectShow], ICameraControl interface, get_FocusRelative,ICameraControl.get_FocusRelative, vidcap/ICameraControl::get_FocusRelative
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],get_FocusRelative method, ICameraControl.get_FocusRelative, ICameraControl::get_FocusRelative, ICameraControlget_FocusRelative, dshow.icameracontrol_get_focusrelative, get_FocusRelative, get_FocusRelative method [DirectShow], get_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_FocusRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::get_FocusRelative method
+# ICameraControl::get_FocusRelative
 
 
 ## -description

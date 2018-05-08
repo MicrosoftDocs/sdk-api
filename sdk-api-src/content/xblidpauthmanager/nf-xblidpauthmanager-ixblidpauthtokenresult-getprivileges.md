@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetPrivileges
-title: IXblIdpAuthTokenResult::GetPrivileges method
+title: IXblIdpAuthTokenResult::GetPrivileges
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getprivileges.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: A351B734-6311-4E89-8832-F2460E738BA0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetPrivileges method, GetPrivileges method, IXblIdpAuthTokenResult interface, GetPrivileges,IXblIdpAuthTokenResult.GetPrivileges, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetPrivileges method, IXblIdpAuthTokenResult::GetPrivileges, xblidp.ixblidpauthtokenresult_getprivileges, xblidpauthmanager/IXblIdpAuthTokenResult::GetPrivileges
+ms.keywords: GetPrivileges, GetPrivileges method, GetPrivileges method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetPrivileges method, IXblIdpAuthTokenResult.GetPrivileges, IXblIdpAuthTokenResult::GetPrivileges, xblidp.ixblidpauthtokenresult_getprivileges, xblidpauthmanager/IXblIdpAuthTokenResult::GetPrivileges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetPrivileges method
+# IXblIdpAuthTokenResult::GetPrivileges
 
 
 ## -description

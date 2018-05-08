@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bufferingTime
-title: IWMPNetwork::get_bufferingTime method
+title: IWMPNetwork::get_bufferingTime
 author: windows-driver-content
 description: The get_bufferingTime method retrieves the amount of time in milliseconds allocated for buffering incoming data before playing begins.
 old-location: wmp\iwmpnetwork_get_bufferingtime.htm
 old-project: WMP
 ms.assetid: a42a7187-9bf2-4db5-8176-6912e18c4d50
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], get_bufferingTime method, IWMPNetwork::get_bufferingTime, IWMPNetworkget_bufferingTime, get_bufferingTime method [Windows Media Player], get_bufferingTime method [Windows Media Player], IWMPNetwork interface, get_bufferingTime,IWMPNetwork.get_bufferingTime, wmp.iwmpnetwork_get_bufferingtime, wmp/IWMPNetwork::get_bufferingTime
+ms.date: 5/4/2018
+ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingTime method, IWMPNetwork.get_bufferingTime, IWMPNetwork::get_bufferingTime, IWMPNetworkget_bufferingTime, get_bufferingTime, get_bufferingTime method [Windows Media Player], get_bufferingTime method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bufferingtime, wmp/IWMPNetwork::get_bufferingTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNetwork::get_bufferingTime method
+# IWMPNetwork::get_bufferingTime
 
 
 ## -description

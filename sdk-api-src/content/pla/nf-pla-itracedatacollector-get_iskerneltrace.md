@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_IsKernelTrace
-title: ITraceDataCollector::get_IsKernelTrace method
+title: ITraceDataCollector::get_IsKernelTrace
 author: windows-driver-content
 description: Retrieves a value that indicates whether the trace contains kernel providers.
 old-location: pla\itracedatacollector_iskerneltrace.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 8986b84c-a79b-49d8-adf2-1618e2d7c343
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], IsKernelTrace property, ITraceDataCollector.IsKernelTrace, ITraceDataCollector::get_IsKernelTrace, IsKernelTrace property [PLA], IsKernelTrace property [PLA], ITraceDataCollector interface, base.itracedatacollector_iskerneltrace, get_IsKernelTrace,ITraceDataCollector.get_IsKernelTrace, pla.itracedatacollector_iskerneltrace, pla/ITraceDataCollector::IsKernelTrace, pla/ITraceDataCollector::get_IsKernelTrace
+ms.keywords: ITraceDataCollector interface [PLA],IsKernelTrace property, ITraceDataCollector.IsKernelTrace, ITraceDataCollector.get_IsKernelTrace, ITraceDataCollector::IsKernelTrace, ITraceDataCollector::get_IsKernelTrace, IsKernelTrace property [PLA], IsKernelTrace property [PLA],ITraceDataCollector interface, base.itracedatacollector_iskerneltrace, get_IsKernelTrace, pla.itracedatacollector_iskerneltrace, pla/ITraceDataCollector::IsKernelTrace, pla/ITraceDataCollector::get_IsKernelTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataCollector::get_IsKernelTrace method
+# ITraceDataCollector::get_IsKernelTrace
 
 
 ## -description

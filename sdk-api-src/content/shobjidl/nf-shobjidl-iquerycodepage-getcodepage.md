@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IQueryCodePage.GetCodePage
-title: IQueryCodePage::GetCodePage method
+title: IQueryCodePage::GetCodePage
 author: windows-driver-content
 description: Retrieves the numeric value (Code Page identifier) of the ANSI code page.
 old-location: shell\IQueryCodePage_GetCodePage.htm
 old-project: shell
 ms.assetid: 05644051-c64e-443c-bc98-ed296bc0b8d9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCodePage method [Windows Shell], GetCodePage method [Windows Shell], IQueryCodePage interface, GetCodePage,IQueryCodePage.GetCodePage, IQueryCodePage, IQueryCodePage interface [Windows Shell], GetCodePage method, IQueryCodePage::GetCodePage, _shell_IQueryCodePage_GetCodePage, shell.IQueryCodePage_GetCodePage, shobjidl/IQueryCodePage::GetCodePage
+ms.date: 5/3/2018
+ms.keywords: GetCodePage, GetCodePage method [Windows Shell], GetCodePage method [Windows Shell],IQueryCodePage interface, IQueryCodePage interface [Windows Shell],GetCodePage method, IQueryCodePage.GetCodePage, IQueryCodePage::GetCodePage, _shell_IQueryCodePage_GetCodePage, shell.IQueryCodePage_GetCodePage, shobjidl/IQueryCodePage::GetCodePage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IQueryCodePage::GetCodePage method
+# IQueryCodePage::GetCodePage
 
 
 ## -description

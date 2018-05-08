@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.CreateReport
-title: IFsrmReportJob::CreateReport method
+title: IFsrmReportJob::CreateReport
 author: windows-driver-content
 description: Creates a new report object of the specified type.
 old-location: fsrm\ifsrmreportjob_createreport.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 484941d1-726c-4765-8652-bcb378f277b4
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreateReport method [File Server Resource Manager], CreateReport method [File Server Resource Manager], IFsrmReportJob interface, CreateReport,IFsrmReportJob.CreateReport, IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], CreateReport method, IFsrmReportJob::CreateReport, fs.ifsrmreportjob_createreport, fsrm.ifsrmreportjob_createreport, fsrmreports/IFsrmReportJob::CreateReport
+ms.keywords: CreateReport, CreateReport method [File Server Resource Manager], CreateReport method [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],CreateReport method, IFsrmReportJob.CreateReport, IFsrmReportJob::CreateReport, fs.ifsrmreportjob_createreport, fsrm.ifsrmreportjob_createreport, fsrmreports/IFsrmReportJob::CreateReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReportJob::CreateReport method
+# IFsrmReportJob::CreateReport
 
 
 ## -description

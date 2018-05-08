@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtGetExtendedTransferInfo
-title: IWiaDataTransfer::idtGetExtendedTransferInfo method
+title: IWiaDataTransfer::idtGetExtendedTransferInfo
 author: windows-driver-content
 description: The IWiaDataTransfer::idtGetExtendedTransferInfo retrieves extended information relating to data transfer buffers in the case of banded data transfers.
 old-location: wia\_wia_IWiaDataTransfer_idtGetExtendedTransferInfo.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetextendedtransferinfo.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], idtGetExtendedTransferInfo method, IWiaDataTransfer::idtGetExtendedTransferInfo, _wia_IWiaDataTransfer_idtGetExtendedTransferInfo, idtGetExtendedTransferInfo method [WIA], idtGetExtendedTransferInfo method [WIA], IWiaDataTransfer interface, idtGetExtendedTransferInfo,IWiaDataTransfer.idtGetExtendedTransferInfo, wia._wia_IWiaDataTransfer_idtGetExtendedTransferInfo, wia_xp/IWiaDataTransfer::idtGetExtendedTransferInfo
+ms.date: 5/3/2018
+ms.keywords: IWiaDataTransfer interface [WIA],idtGetExtendedTransferInfo method, IWiaDataTransfer.idtGetExtendedTransferInfo, IWiaDataTransfer::idtGetExtendedTransferInfo, _wia_IWiaDataTransfer_idtGetExtendedTransferInfo, idtGetExtendedTransferInfo, idtGetExtendedTransferInfo method [WIA], idtGetExtendedTransferInfo method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetExtendedTransferInfo, wia_xp/IWiaDataTransfer::idtGetExtendedTransferInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaDataTransfer::idtGetExtendedTransferInfo method
+# IWiaDataTransfer::idtGetExtendedTransferInfo
 
 
 ## -description

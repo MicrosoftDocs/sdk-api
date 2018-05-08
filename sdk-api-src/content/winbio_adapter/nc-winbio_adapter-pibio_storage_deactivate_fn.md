@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 95AAEE98-2DA6-4A2C-BF0C-DBE193346FE1
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_DEACTIVATE_FN, StorageAdapterDeactivate, StorageAdapterDeactivate callback function [Windows Biometric Framework API], secbiomet.storageadapterdeactivate, winbio_adapter/StorageAdapterDeactivate
+ms.keywords: PIBIO_STORAGE_DEACTIVATE_FN, PIBIO_STORAGE_DEACTIVATE_FN callback, StorageAdapterDeactivate, StorageAdapterDeactivate callback function [Windows Biometric Framework API], secbiomet.storageadapterdeactivate, winbio_adapter/StorageAdapterDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_DEACTIVATE_FN callback
+# PIBIO_STORAGE_DEACTIVATE_FN callback function
 
 
 ## -description

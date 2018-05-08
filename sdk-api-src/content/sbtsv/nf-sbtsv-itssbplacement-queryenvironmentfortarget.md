@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbPlacement.QueryEnvironmentForTarget
-title: ITsSbPlacement::QueryEnvironmentForTarget method
+title: ITsSbPlacement::QueryEnvironmentForTarget
 author: windows-driver-content
 description: Determines whether the specified environment is ready to host the target that was returned by load balancing.
 old-location: termserv\itssbplacement_queryenvironmentfortarget.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 62320a0b-3f3e-4341-a481-a43af39c06f7
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbPlacement, ITsSbPlacement interface [Remote Desktop Services], QueryEnvironmentForTarget method, ITsSbPlacement::QueryEnvironmentForTarget, QueryEnvironmentForTarget method [Remote Desktop Services], QueryEnvironmentForTarget method [Remote Desktop Services], ITsSbPlacement interface, QueryEnvironmentForTarget,ITsSbPlacement.QueryEnvironmentForTarget, sbtsv/ITsSbPlacement::QueryEnvironmentForTarget, termserv.itssbplacement_queryenvironmentfortarget
+ms.keywords: ITsSbPlacement interface [Remote Desktop Services],QueryEnvironmentForTarget method, ITsSbPlacement.QueryEnvironmentForTarget, ITsSbPlacement::QueryEnvironmentForTarget, QueryEnvironmentForTarget, QueryEnvironmentForTarget method [Remote Desktop Services], QueryEnvironmentForTarget method [Remote Desktop Services],ITsSbPlacement interface, sbtsv/ITsSbPlacement::QueryEnvironmentForTarget, termserv.itssbplacement_queryenvironmentfortarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbPlacement::QueryEnvironmentForTarget method
+# ITsSbPlacement::QueryEnvironmentForTarget
 
 
 ## -description

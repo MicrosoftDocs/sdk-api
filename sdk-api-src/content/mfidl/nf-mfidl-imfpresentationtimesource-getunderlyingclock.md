@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFPresentationTimeSource.GetUnderlyingClock
-title: IMFPresentationTimeSource::GetUnderlyingClock method
+title: IMFPresentationTimeSource::GetUnderlyingClock
 author: windows-driver-content
 description: Retrieves the underlying clock that the presentation time source uses to generate its clock times.
 old-location: mf\imfpresentationtimesource_getunderlyingclock.htm
 old-project: medfound
 ms.assetid: 09c8fef8-7288-4356-9671-4c927c0cf502
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 09c8fef8-7288-4356-9671-4c927c0cf502, GetUnderlyingClock method [Media Foundation], GetUnderlyingClock method [Media Foundation], IMFPresentationTimeSource interface, GetUnderlyingClock,IMFPresentationTimeSource.GetUnderlyingClock, IMFPresentationTimeSource, IMFPresentationTimeSource interface [Media Foundation], GetUnderlyingClock method, IMFPresentationTimeSource::GetUnderlyingClock, mf.imfpresentationtimesource_getunderlyingclock, mfidl/IMFPresentationTimeSource::GetUnderlyingClock
+ms.date: 5/3/2018
+ms.keywords: 09c8fef8-7288-4356-9671-4c927c0cf502, GetUnderlyingClock, GetUnderlyingClock method [Media Foundation], GetUnderlyingClock method [Media Foundation],IMFPresentationTimeSource interface, IMFPresentationTimeSource interface [Media Foundation],GetUnderlyingClock method, IMFPresentationTimeSource.GetUnderlyingClock, IMFPresentationTimeSource::GetUnderlyingClock, mf.imfpresentationtimesource_getunderlyingclock, mfidl/IMFPresentationTimeSource::GetUnderlyingClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPresentationTimeSource::GetUnderlyingClock method
+# IMFPresentationTimeSource::GetUnderlyingClock
 
 
 ## -description

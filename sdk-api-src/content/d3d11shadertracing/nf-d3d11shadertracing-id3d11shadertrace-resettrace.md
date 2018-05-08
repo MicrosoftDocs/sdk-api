@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.ResetTrace
-title: ID3D11ShaderTrace::ResetTrace method
+title: ID3D11ShaderTrace::ResetTrace
 author: windows-driver-content
 description: Resets the shader-trace object.
 old-location: direct3d11\id3d11shadertrace_resettrace.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 91612AEF-A83B-4B2A-960B-D7AA7F41ED41
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11ShaderTrace, ID3D11ShaderTrace interface [Direct3D 11], ResetTrace method, ID3D11ShaderTrace::ResetTrace, ResetTrace method [Direct3D 11], ResetTrace method [Direct3D 11], ID3D11ShaderTrace interface, ResetTrace,ID3D11ShaderTrace.ResetTrace, d3d11shadertracing/ID3D11ShaderTrace::ResetTrace, direct3d11.id3d11shadertrace_resettrace
+ms.keywords: ID3D11ShaderTrace interface [Direct3D 11],ResetTrace method, ID3D11ShaderTrace.ResetTrace, ID3D11ShaderTrace::ResetTrace, ResetTrace, ResetTrace method [Direct3D 11], ResetTrace method [Direct3D 11],ID3D11ShaderTrace interface, d3d11shadertracing/ID3D11ShaderTrace::ResetTrace, direct3d11.id3d11shadertrace_resettrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: D3D11SDKLayers.dll; D3D11_1SDKLayers.dll; D3D11_2SDKLayers.dll
 req.irql: 
 ---
 
-# ID3D11ShaderTrace::ResetTrace method
+# ID3D11ShaderTrace::ResetTrace
 
 
 ## -description

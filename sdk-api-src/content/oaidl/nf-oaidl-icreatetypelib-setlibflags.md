@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetLibFlags
-title: ICreateTypeLib::SetLibFlags method
+title: ICreateTypeLib::SetLibFlags
 author: windows-driver-content
 description: Sets library flags.
 old-location: automat\icreatetypelib_setlibflags.htm
 old-project: automat
 ms.assetid: fc72635c-853f-4a0a-9869-263e4aa39b8b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeLib, ICreateTypeLib interface [Automation], SetLibFlags method, ICreateTypeLib::SetLibFlags, SetLibFlags method [Automation], SetLibFlags method [Automation], ICreateTypeLib interface, SetLibFlags,ICreateTypeLib.SetLibFlags, _oa96_ICreateTypeLib_SetLibFlags, automat.icreatetypelib_setlibflags, oaidl/ICreateTypeLib::SetLibFlags
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeLib interface [Automation],SetLibFlags method, ICreateTypeLib.SetLibFlags, ICreateTypeLib::SetLibFlags, SetLibFlags, SetLibFlags method [Automation], SetLibFlags method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetLibFlags, automat.icreatetypelib_setlibflags, oaidl/ICreateTypeLib::SetLibFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeLib::SetLibFlags method
+# ICreateTypeLib::SetLibFlags
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.IEGetDisplayName
-title: IBrowserService::IEGetDisplayName method
+title: IBrowserService::IEGetDisplayName
 author: windows-driver-content
 description: Deprecated. Retrieves the URL that corresponds to a pointer to an item identifier list (PIDL).
 old-location: shell\IBrowserService_IEGetDisplayName.htm
 old-project: shell
 ms.assetid: 012d794a-9823-4af2-b628-ad33a93dbbb5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], IEGetDisplayName method, IBrowserService::IEGetDisplayName, IEGetDisplayName method [Windows Shell], IEGetDisplayName method [Windows Shell], IBrowserService interface, IEGetDisplayName,IBrowserService.IEGetDisplayName, SHGDN_FORADDRESSBAR, SHGDN_FORPARSING, SHGDN_NORMAL, shdeprecated/IBrowserService::IEGetDisplayName, shell.IBrowserService_IEGetDisplayName, zone_IBrowserService_IEGetDisplayName
+ms.date: 5/3/2018
+ms.keywords: IBrowserService interface [Windows Shell],IEGetDisplayName method, IBrowserService.IEGetDisplayName, IBrowserService::IEGetDisplayName, IEGetDisplayName, IEGetDisplayName method [Windows Shell], IEGetDisplayName method [Windows Shell],IBrowserService interface, SHGDN_FORADDRESSBAR, SHGDN_FORPARSING, SHGDN_NORMAL, shdeprecated/IBrowserService::IEGetDisplayName, shell.IBrowserService_IEGetDisplayName, zone_IBrowserService_IEGetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::IEGetDisplayName method
+# IBrowserService::IEGetDisplayName
 
 
 ## -description

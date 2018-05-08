@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITILSConfig.put_Port
-title: ITILSConfig::put_Port method
+title: ITILSConfig::put_Port
 author: windows-driver-content
 description: The put_Port method sets the port number used to connect to the server of a specified ILS directory.
 old-location: tapi3\itilsconfig_put_port.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 9d911a9c-6538-4919-9110-0425c53f91c4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITILSConfig, ITILSConfig interface [TAPI 2.2], put_Port method, ITILSConfig::put_Port, _tapi3_itilsconfig_put_port, put_Port method [TAPI 2.2], put_Port method [TAPI 2.2], ITILSConfig interface, put_Port,ITILSConfig.put_Port, rend/ITILSConfig::put_Port, tapi3.itilsconfig_put_port
+ms.keywords: ITILSConfig interface [TAPI 2.2],put_Port method, ITILSConfig.put_Port, ITILSConfig::put_Port, _tapi3_itilsconfig_put_port, put_Port, put_Port method [TAPI 2.2], put_Port method [TAPI 2.2],ITILSConfig interface, rend/ITILSConfig::put_Port, tapi3.itilsconfig_put_port
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITILSConfig::put_Port method
+# ITILSConfig::put_Port
 
 
 ## -description

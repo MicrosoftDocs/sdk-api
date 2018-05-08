@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.EnumDocumentMgrs
-title: ITfThreadMgr::EnumDocumentMgrs method
+title: ITfThreadMgr::EnumDocumentMgrs
 author: windows-driver-content
 description: ITfThreadMgr::EnumDocumentMgrs method
 old-location: tsf\itfthreadmgr_enumdocumentmgrs.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 0b6f61fb-0ca0-4b93-ad30-d1e080b9bde1
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnumDocumentMgrs method [Text Services Framework], EnumDocumentMgrs method [Text Services Framework], ITfThreadMgr interface, EnumDocumentMgrs,ITfThreadMgr.EnumDocumentMgrs, ITfThreadMgr, ITfThreadMgr interface [Text Services Framework], EnumDocumentMgrs method, ITfThreadMgr::EnumDocumentMgrs, _tsf_itfthreadmgr_enumdocumentmgrs_ref, msctf/ITfThreadMgr::EnumDocumentMgrs, tsf.itfthreadmgr_enumdocumentmgrs
+ms.keywords: EnumDocumentMgrs, EnumDocumentMgrs method [Text Services Framework], EnumDocumentMgrs method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],EnumDocumentMgrs method, ITfThreadMgr.EnumDocumentMgrs, ITfThreadMgr::EnumDocumentMgrs, _tsf_itfthreadmgr_enumdocumentmgrs_ref, msctf/ITfThreadMgr::EnumDocumentMgrs, tsf.itfthreadmgr_enumdocumentmgrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr::EnumDocumentMgrs method
+# ITfThreadMgr::EnumDocumentMgrs
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessor.GetContentDesc
-title: ID3D11VideoProcessor::GetContentDesc method
+title: ID3D11VideoProcessor::GetContentDesc
 author: windows-driver-content
 description: Gets the content description that was used to create the video processor.
 old-location: mf\id3d11videoprocessor_getcontentdesc.htm
 old-project: medfound
 ms.assetid: 8C8433BC-1DB9-45D9-817A-7175B4577818
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetContentDesc method [Media Foundation], GetContentDesc method [Media Foundation], ID3D11VideoProcessor interface, GetContentDesc,ID3D11VideoProcessor.GetContentDesc, ID3D11VideoProcessor, ID3D11VideoProcessor interface [Media Foundation], GetContentDesc method, ID3D11VideoProcessor::GetContentDesc, d3d11/ID3D11VideoProcessor::GetContentDesc, mf.id3d11videoprocessor_getcontentdesc
+ms.date: 5/3/2018
+ms.keywords: GetContentDesc, GetContentDesc method [Media Foundation], GetContentDesc method [Media Foundation],ID3D11VideoProcessor interface, ID3D11VideoProcessor interface [Media Foundation],GetContentDesc method, ID3D11VideoProcessor.GetContentDesc, ID3D11VideoProcessor::GetContentDesc, d3d11/ID3D11VideoProcessor::GetContentDesc, mf.id3d11videoprocessor_getcontentdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoProcessor::GetContentDesc method
+# ID3D11VideoProcessor::GetContentDesc
 
 
 ## -description

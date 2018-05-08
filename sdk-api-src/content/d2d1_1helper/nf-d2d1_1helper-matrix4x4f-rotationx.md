@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.RotationX
-title: Matrix4x4F::RotationX method
+title: Matrix4x4F::RotationX
 author: windows-driver-content
 description: Rotates the transform matrix around the X axis.
 old-location: direct2d\matrix4x4f_rotationx.htm
@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: 3F9B9CE2-18F4-4F73-9725-A10B84639817
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: Matrix4x4F, Matrix4x4F interface [Direct2D], RotationX method, Matrix4x4F::RotationX, RotationX method [Direct2D], RotationX method [Direct2D], Matrix4x4F interface, RotationX,Matrix4x4F.RotationX, d2d1_1helper/Matrix4x4F::RotationX, direct2d.matrix4x4f_rotationx
+ms.keywords: Matrix4x4F interface [Direct2D],RotationX method, Matrix4x4F.RotationX, Matrix4x4F::RotationX, RotationX, RotationX method [Direct2D], RotationX method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::RotationX, direct2d.matrix4x4f_rotationx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# Matrix4x4F::RotationX method
+# Matrix4x4F::RotationX
 
 
 ## -description

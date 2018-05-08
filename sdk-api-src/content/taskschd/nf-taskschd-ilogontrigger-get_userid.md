@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ILogonTrigger.get_UserId
-title: ILogonTrigger::get_UserId method
+title: ILogonTrigger::get_UserId
 author: windows-driver-content
 description: Gets or sets the identifier of the user.
 old-location: taskschd\ilogontrigger_userid.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 22d69609-1400-41eb-ae25-4ca05c4733ba
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ILogonTrigger, ILogonTrigger interface [Task Scheduler], UserId property, ILogonTrigger.UserId, ILogonTrigger::get_UserId, ILogonTrigger::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler], ILogonTrigger interface, get_UserId,ILogonTrigger.get_UserId, taskschd.ilogontrigger_userid, taskschd/ILogonTrigger::UserId, taskschd/ILogonTrigger::get_UserId, taskschd/ILogonTrigger::put_UserId
+ms.keywords: ILogonTrigger interface [Task Scheduler],UserId property, ILogonTrigger.UserId, ILogonTrigger.get_UserId, ILogonTrigger::UserId, ILogonTrigger::get_UserId, ILogonTrigger::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],ILogonTrigger interface, get_UserId, taskschd.ilogontrigger_userid, taskschd/ILogonTrigger::UserId, taskschd/ILogonTrigger::get_UserId, taskschd/ILogonTrigger::put_UserId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILogonTrigger::get_UserId method
+# ILogonTrigger::get_UserId
 
 
 ## -description

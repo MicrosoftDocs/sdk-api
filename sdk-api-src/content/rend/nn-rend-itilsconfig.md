@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 92a5624b-acf5-4280-9932-860fde53c6a0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITILSConfig, ITILSConfig interface [TAPI 2.2], ITILSConfig interface [TAPI 2.2], described, _tapi3_itilsconfig, rend/ITILSConfig, tapi3.itilsconfig
+ms.keywords: ITILSConfig, ITILSConfig interface [TAPI 2.2], ITILSConfig interface [TAPI 2.2],described, _tapi3_itilsconfig, rend/ITILSConfig, tapi3.itilsconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

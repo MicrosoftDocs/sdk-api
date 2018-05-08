@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId
-title: ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId method
+title: ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId
 author: windows-driver-content
 description: Gets the closed lower bound on item IDs that require destination versions.
 old-location: winsync\isyncfullenumerationchangebatch_getclosedlowerbounditemid.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: d0cc8564-f87a-4642-b085-5149c85279dd
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetClosedLowerBoundItemId method [Windows Sync], GetClosedLowerBoundItemId method [Windows Sync], ISyncFullEnumerationChangeBatch interface, GetClosedLowerBoundItemId,ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId, ISyncFullEnumerationChangeBatch, ISyncFullEnumerationChangeBatch interface [Windows Sync], GetClosedLowerBoundItemId method, ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId, winsync.isyncfullenumerationchangebatch_getclosedlowerbounditemid, winsync/ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId
+ms.keywords: GetClosedLowerBoundItemId, GetClosedLowerBoundItemId method [Windows Sync], GetClosedLowerBoundItemId method [Windows Sync],ISyncFullEnumerationChangeBatch interface, ISyncFullEnumerationChangeBatch interface [Windows Sync],GetClosedLowerBoundItemId method, ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId, ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId, winsync.isyncfullenumerationchangebatch_getclosedlowerbounditemid, winsync/ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId method
+# ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.get_ResourceURI
-title: IWSManResourceLocator::get_ResourceURI method
+title: IWSManResourceLocator::get_ResourceURI
 author: windows-driver-content
 description: The resource URI of the requested resource. This property can contain only the path, not a query string for specific instances.
 old-location: winrm\iwsmanresourcelocator_resourceuri.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 8ae490a3-ae6d-46e4-9a51-5a1e9c80cf77
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManResourceLocator, IWSManResourceLocator interface [Windows Remote Management], ResourceURI property, IWSManResourceLocator.ResourceURI, IWSManResourceLocator::get_ResourceURI, IWSManResourceLocator::put_ResourceURI, ResourceURI property [Windows Remote Management], ResourceURI property [Windows Remote Management], IWSManResourceLocator interface, ResourceURI property [Windows Remote Management], WSMan object, WSMan object [Windows Remote Management], ResourceURI property, get_ResourceURI,IWSManResourceLocator.get_ResourceURI, winrm.iwsmanresourcelocator_resourceuri, wsmandisp/IWSManResourceLocator::ResourceURI, wsmandisp/IWSManResourceLocator::get_ResourceURI, wsmandisp/IWSManResourceLocator::put_ResourceURI
+ms.keywords: IWSManResourceLocator interface [Windows Remote Management],ResourceURI property, IWSManResourceLocator.ResourceURI, IWSManResourceLocator.get_ResourceURI, IWSManResourceLocator::ResourceURI, IWSManResourceLocator::get_ResourceURI, IWSManResourceLocator::put_ResourceURI, ResourceURI property [Windows Remote Management], ResourceURI property [Windows Remote Management],IWSManResourceLocator interface, ResourceURI property [Windows Remote Management],WSMan object, WSMan object [Windows Remote Management],ResourceURI property, get_ResourceURI, winrm.iwsmanresourcelocator_resourceuri, wsmandisp/IWSManResourceLocator::ResourceURI, wsmandisp/IWSManResourceLocator::get_ResourceURI, wsmandisp/IWSManResourceLocator::put_ResourceURI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManResourceLocator::get_ResourceURI method
+# IWSManResourceLocator::get_ResourceURI
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_MoreInfoUrls
-title: IUpdate::get_MoreInfoUrls method
+title: IUpdate::get_MoreInfoUrls
 author: windows-driver-content
 description: Gets a collection of language-specific strings that specify the hyperlinks to more information about the update.
 old-location: wua\iupdate_moreinfourls.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 8500bcf4-470d-472e-aa3a-ba424662ec41
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], MoreInfoUrls property, IUpdate.MoreInfoUrls, IUpdate::get_MoreInfoUrls, MoreInfoUrls property [Windows Update Agent], MoreInfoUrls property [Windows Update Agent], IUpdate interface, get_MoreInfoUrls,IUpdate.get_MoreInfoUrls, wua.iupdate_moreinfourls, wuapi/IUpdate::MoreInfoUrls, wuapi/IUpdate::get_MoreInfoUrls
+ms.keywords: IUpdate interface [Windows Update Agent],MoreInfoUrls property, IUpdate.MoreInfoUrls, IUpdate.get_MoreInfoUrls, IUpdate::MoreInfoUrls, IUpdate::get_MoreInfoUrls, MoreInfoUrls property [Windows Update Agent], MoreInfoUrls property [Windows Update Agent],IUpdate interface, get_MoreInfoUrls, wua.iupdate_moreinfourls, wuapi/IUpdate::MoreInfoUrls, wuapi/IUpdate::get_MoreInfoUrls
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_MoreInfoUrls method
+# IUpdate::get_MoreInfoUrls
 
 
 ## -description

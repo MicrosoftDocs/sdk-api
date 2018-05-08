@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.GetParamInfo
-title: ICallFrame::GetParamInfo method
+title: ICallFrame::GetParamInfo
 author: windows-driver-content
 description: Retrieves the information for the specified parameter.
 old-location: com\icallframe_getparaminfo.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: fb75930d-8e1b-4e97-87f2-bb9d171658a8
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetParamInfo method [COM], GetParamInfo method [COM], ICallFrame interface, GetParamInfo,ICallFrame.GetParamInfo, ICallFrame, ICallFrame interface [COM], GetParamInfo method, ICallFrame::GetParamInfo, _com_icallframe_getparaminfo, callobj/ICallFrame::GetParamInfo, com.icallframe_getparaminfo
+ms.keywords: GetParamInfo, GetParamInfo method [COM], GetParamInfo method [COM],ICallFrame interface, ICallFrame interface [COM],GetParamInfo method, ICallFrame.GetParamInfo, ICallFrame::GetParamInfo, _com_icallframe_getparaminfo, callobj/ICallFrame::GetParamInfo, com.icallframe_getparaminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallFrame::GetParamInfo method
+# ICallFrame::GetParamInfo
 
 
 ## -description

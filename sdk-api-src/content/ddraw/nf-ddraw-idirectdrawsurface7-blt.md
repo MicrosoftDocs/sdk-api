@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Blt
-title: IDirectDrawSurface7::Blt method
+title: IDirectDrawSurface7::Blt
 author: windows-driver-content
 description: Performs a bit block transfer (bitblt). This method does not support z-buffering or alpha blending during bitblt operations.
 old-location: directdraw\idirectdrawsurface7_blt.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: e458c430-855c-419b-aa50-144d2b422e78
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: All DDBLT_ALPHA flag values, All DDBLT_ZBUFFER flag values, Blt method [DirectDraw], Blt method [DirectDraw], IDirectDrawSurface7 interface, Blt,IDirectDrawSurface7.Blt, DDBLT_ASYNC, DDBLT_COLORFILL, DDBLT_DDFX, DDBLT_DDROPS, DDBLT_DEPTHFILL, DDBLT_DONOTWAIT, DDBLT_KEYDEST, DDBLT_KEYDESTOVERRIDE, DDBLT_KEYSRC, DDBLT_KEYSRCOVERRIDE, DDBLT_ROP, DDBLT_ROTATIONANGLE, DDBLT_WAIT, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], Blt method, IDirectDrawSurface7::Blt, ddraw/IDirectDrawSurface7::Blt, directdraw.idirectdrawsurface7_blt
+ms.keywords: All DDBLT_ALPHA flag values, All DDBLT_ZBUFFER flag values, Blt, Blt method [DirectDraw], Blt method [DirectDraw],IDirectDrawSurface7 interface, DDBLT_ASYNC, DDBLT_COLORFILL, DDBLT_DDFX, DDBLT_DDROPS, DDBLT_DEPTHFILL, DDBLT_DONOTWAIT, DDBLT_KEYDEST, DDBLT_KEYDESTOVERRIDE, DDBLT_KEYSRC, DDBLT_KEYSRCOVERRIDE, DDBLT_ROP, DDBLT_ROTATIONANGLE, DDBLT_WAIT, IDirectDrawSurface7 interface [DirectDraw],Blt method, IDirectDrawSurface7.Blt, IDirectDrawSurface7::Blt, ddraw/IDirectDrawSurface7::Blt, directdraw.idirectdrawsurface7_blt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::Blt method
+# IDirectDrawSurface7::Blt
 
 
 ## -description

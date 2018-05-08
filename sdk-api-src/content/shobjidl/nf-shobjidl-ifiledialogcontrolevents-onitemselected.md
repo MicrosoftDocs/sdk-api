@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnItemSelected
-title: IFileDialogControlEvents::OnItemSelected method
+title: IFileDialogControlEvents::OnItemSelected
 author: windows-driver-content
 description: Called when an item is selected in a combo box, when a user clicks an option button (also known as a radio button), or an item is chosen from the Tools menu.
 old-location: shell\IFileDialogControlEvents_OnItemSelected.htm
 old-project: shell
 ms.assetid: 4c96d0b7-74d1-4f87-946d-beeaad517d91
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFileDialogControlEvents, IFileDialogControlEvents interface [Windows Shell], OnItemSelected method, IFileDialogControlEvents::OnItemSelected, OnItemSelected method [Windows Shell], OnItemSelected method [Windows Shell], IFileDialogControlEvents interface, OnItemSelected,IFileDialogControlEvents.OnItemSelected, shell.IFileDialogControlEvents_OnItemSelected, shell_IFileDialogControlEvents_OnItemSelected, shobjidl/IFileDialogControlEvents::OnItemSelected
+ms.date: 5/3/2018
+ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnItemSelected method, IFileDialogControlEvents.OnItemSelected, IFileDialogControlEvents::OnItemSelected, OnItemSelected, OnItemSelected method [Windows Shell], OnItemSelected method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnItemSelected, shell_IFileDialogControlEvents_OnItemSelected, shobjidl/IFileDialogControlEvents::OnItemSelected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IFileDialogControlEvents::OnItemSelected method
+# IFileDialogControlEvents::OnItemSelected
 
 
 ## -description

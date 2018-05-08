@@ -7,7 +7,7 @@ old-location: security\crypt_xml_cryptographic_interface.htm
 old-project: SecCrypto
 ms.assetid: 55585a57-be3e-492d-bf56-4e2456572161
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE, *PCRYPT_XML_CRYPTO_PROVIDER, CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, CRYPT_XML_CRYPTOGRAPHIC_INTERFACE structure [Security], PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE, PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE structure pointer [Security], _CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, cryptxml/CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, cryptxml/PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE, security.crypt_xml_cryptographic_interface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, *PCRYPT_XML_CRYPTO_PROVIDER, CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, *PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE
+req.typenames: CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, *PCRYPT_XML_CRYPTO_PROVIDER, *PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE
 topic_type:
 -	APIRef
 -	kbSyntax

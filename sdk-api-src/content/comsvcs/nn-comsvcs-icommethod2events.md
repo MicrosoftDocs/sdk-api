@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: e0642cb2-d5f2-4e4b-ad35-7818983ed467
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComMethod2Events, IComMethod2Events interface [COM+], IComMethod2Events interface [COM+], described, _dtc_IComMethod2Events, comsvcs/IComMethod2Events, cos.icommethod2events
+ms.keywords: IComMethod2Events, IComMethod2Events interface [COM+], IComMethod2Events interface [COM+],described, _dtc_IComMethod2Events, comsvcs/IComMethod2Events, cos.icommethod2events
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

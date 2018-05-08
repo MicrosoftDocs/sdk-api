@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Body
-title: IEmailAction::put_Body method
+title: IEmailAction::put_Body
 author: windows-driver-content
 description: Gets or sets the body of the email that contains the email message.
 old-location: taskschd\iemailaction_body.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: c2bc5924-8014-4463-9537-a115266776ee
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Body property [Task Scheduler], Body property [Task Scheduler], IEmailAction interface, IEmailAction, IEmailAction interface [Task Scheduler], Body property, IEmailAction.Body, IEmailAction::get_Body, IEmailAction::put_Body, put_Body,IEmailAction.put_Body, taskschd.iemailaction_body, taskschd/IEmailAction::Body, taskschd/IEmailAction::get_Body, taskschd/IEmailAction::put_Body
+ms.keywords: Body property [Task Scheduler], Body property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Body property, IEmailAction.Body, IEmailAction.put_Body, IEmailAction::Body, IEmailAction::get_Body, IEmailAction::put_Body, put_Body, taskschd.iemailaction_body, taskschd/IEmailAction::Body, taskschd/IEmailAction::get_Body, taskschd/IEmailAction::put_Body
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEmailAction::put_Body method
+# IEmailAction::put_Body
 
 
 ## -description

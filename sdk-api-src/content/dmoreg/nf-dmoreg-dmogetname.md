@@ -7,7 +7,7 @@ old-location: dshow\dmogetname.htm
 old-project: DirectShow
 ms.assetid: 7cb803c2-4fe1-46e3-868d-1b7c28b07a5b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: DMOGetName, DMOGetName function [DirectShow], dmoreg/DMOGetName, dshow.dmogetname
 ms.prod: windows-hardware
 ms.technology: windows-devices

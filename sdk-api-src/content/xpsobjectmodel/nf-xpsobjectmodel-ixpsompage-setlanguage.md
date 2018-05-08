@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetLanguage
-title: IXpsOMPage::SetLanguage method
+title: IXpsOMPage::SetLanguage
 author: windows-driver-content
 description: Sets the Language property of the page.
 old-location: xps\ixpsompage_setlanguage.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 3bf0c7ed-84fc-45c0-8058-b833c3913f09
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], SetLanguage method, IXpsOMPage::SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging], IXpsOMPage interface, SetLanguage,IXpsOMPage.SetLanguage, xps.ixpsompage_setlanguage, xpsobjectmodel/IXpsOMPage::SetLanguage
+ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetLanguage method, IXpsOMPage.SetLanguage, IXpsOMPage::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setlanguage, xpsobjectmodel/IXpsOMPage::SetLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::SetLanguage method
+# IXpsOMPage::SetLanguage
 
 
 ## -description

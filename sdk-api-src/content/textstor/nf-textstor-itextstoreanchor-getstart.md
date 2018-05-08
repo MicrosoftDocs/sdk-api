@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetStart
-title: ITextStoreAnchor::GetStart method
+title: ITextStoreAnchor::GetStart
 author: windows-driver-content
 description: The ITextStoreAnchor::GetStart method returns an anchor positioned at the start of the text stream.
 old-location: tsf\itextstoreanchor_getstart.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 431ca3b0-920b-4a4e-b475-32175555a789
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetStart method [Text Services Framework], GetStart method [Text Services Framework], ITextStoreAnchor interface, GetStart,ITextStoreAnchor.GetStart, ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], GetStart method, ITextStoreAnchor::GetStart, textstor/ITextStoreAnchor::GetStart, tsf.itextstoreanchor_getstart
+ms.keywords: GetStart, GetStart method [Text Services Framework], GetStart method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetStart method, ITextStoreAnchor.GetStart, ITextStoreAnchor::GetStart, textstor/ITextStoreAnchor::GetStart, tsf.itextstoreanchor_getstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::GetStart method
+# ITextStoreAnchor::GetStart
 
 
 ## -description

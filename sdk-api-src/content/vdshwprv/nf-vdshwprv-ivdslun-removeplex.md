@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLun.RemovePlex
-title: IVdsLun::RemovePlex method
+title: IVdsLun::RemovePlex
 author: windows-driver-content
 description: Removes a plex from a LUN.
 old-location: base\ivdslun_removeplex.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 9959c2a3-f282-4512-9d3f-da8842d5ee79
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsLun, IVdsLun interface [VDS], RemovePlex method, IVdsLun::RemovePlex, RemovePlex method [VDS], RemovePlex method [VDS], IVdsLun interface, RemovePlex,IVdsLun.RemovePlex, base.ivdslun_removeplex, vds/IVdsLun::RemovePlex, vdshwprv/IVdsLun::RemovePlex
+ms.keywords: IVdsLun interface [VDS],RemovePlex method, IVdsLun.RemovePlex, IVdsLun::RemovePlex, RemovePlex, RemovePlex method [VDS], RemovePlex method [VDS],IVdsLun interface, base.ivdslun_removeplex, vds/IVdsLun::RemovePlex, vdshwprv/IVdsLun::RemovePlex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLun::RemovePlex method
+# IVdsLun::RemovePlex
 
 
 ## -description

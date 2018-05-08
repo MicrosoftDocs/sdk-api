@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingtostringbinding.htm
 old-project: Rpc
 ms.assetid: fd4fea9a-067e-4a1b-8be5-867bbe9663c5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcBindingToStringBinding, RpcBindingToStringBinding function [RPC], RpcBindingToStringBindingA, RpcBindingToStringBindingW, _rpc_rpcbindingtostringbinding, rpc.rpcbindingtostringbinding, rpcdce/RpcBindingToStringBinding, rpcdce/RpcBindingToStringBindingA, rpcdce/RpcBindingToStringBindingW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: b406ef44-0622-4625-a6cf-462b6ea6018d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Online, Online callback function [Failover Cluster], PONLINE_ROUTINE, PONLINE_ROUTINE callback function [Failover Cluster], _wolf_online, mscs.online, resapi/Online, resapi/PONLINE_ROUTINE
+ms.keywords: Online, Online callback, Online callback function [Failover Cluster], PONLINE_ROUTINE, PONLINE_ROUTINE callback function [Failover Cluster], _wolf_online, mscs.online, resapi/Online, resapi/PONLINE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PONLINE_ROUTINE callback
+# PONLINE_ROUTINE callback function
 
 
 ## -description

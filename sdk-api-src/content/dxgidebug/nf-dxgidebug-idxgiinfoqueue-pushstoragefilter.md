@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushStorageFilter
-title: IDXGIInfoQueue::PushStorageFilter method
+title: IDXGIInfoQueue::PushStorageFilter
 author: windows-driver-content
 description: Pushes a storage filter onto the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushstoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: D90738A8-2C9F-4955-9A96-762C650F3B00
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], PushStorageFilter method, IDXGIInfoQueue::PushStorageFilter, PushStorageFilter method [DXGI], PushStorageFilter method [DXGI], IDXGIInfoQueue interface, PushStorageFilter,IDXGIInfoQueue.PushStorageFilter, direct3ddxgi.idxgiinfoqueue_pushstoragefilter, dxgidebug/IDXGIInfoQueue::PushStorageFilter
+ms.keywords: IDXGIInfoQueue interface [DXGI],PushStorageFilter method, IDXGIInfoQueue.PushStorageFilter, IDXGIInfoQueue::PushStorageFilter, PushStorageFilter, PushStorageFilter method [DXGI], PushStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushstoragefilter, dxgidebug/IDXGIInfoQueue::PushStorageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::PushStorageFilter method
+# IDXGIInfoQueue::PushStorageFilter
 
 
 ## -description

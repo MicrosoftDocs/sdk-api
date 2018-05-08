@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.RestoreStarterGPO
-title: IGPMDomain2::RestoreStarterGPO method
+title: IGPMDomain2::RestoreStarterGPO
 author: windows-driver-content
 description: Restores the Starter Group Policy object (GPO) from a GPMStarterGPOBackup object.
 old-location: gpmc\igpmdomain2_restorestartergpo.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: e91a3540-7f1b-4843-9b5e-4dcd837dc0f8
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IGPMDomain2, IGPMDomain2 interface [GPMC], RestoreStarterGPO method, IGPMDomain2::RestoreStarterGPO, RestoreStarterGPO method [GPMC], RestoreStarterGPO method [GPMC], IGPMDomain2 interface, RestoreStarterGPO,IGPMDomain2.RestoreStarterGPO, gpmc.igpmdomain2_restorestartergpo, gpmgmt/IGPMDomain2::RestoreStarterGPO
+ms.keywords: IGPMDomain2 interface [GPMC],RestoreStarterGPO method, IGPMDomain2.RestoreStarterGPO, IGPMDomain2::RestoreStarterGPO, RestoreStarterGPO, RestoreStarterGPO method [GPMC], RestoreStarterGPO method [GPMC],IGPMDomain2 interface, gpmc.igpmdomain2_restorestartergpo, gpmgmt/IGPMDomain2::RestoreStarterGPO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMDomain2::RestoreStarterGPO method
+# IGPMDomain2::RestoreStarterGPO
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetGraphicsRootSignature
-title: ID3D12GraphicsCommandList::SetGraphicsRootSignature method
+title: ID3D12GraphicsCommandList::SetGraphicsRootSignature
 author: windows-driver-content
 description: Sets the layout of the graphics root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setgraphicsrootsignature.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: D2ACB026-A9E0-41BC-A3C2-6D0F55506519
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, SetGraphicsRootSignature method, ID3D12GraphicsCommandList::SetGraphicsRootSignature, SetGraphicsRootSignature method, SetGraphicsRootSignature method, ID3D12GraphicsCommandList interface, SetGraphicsRootSignature,ID3D12GraphicsCommandList.SetGraphicsRootSignature, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootSignature, direct3d12.id3d12graphicscommandlist_setgraphicsrootsignature
+ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRootSignature method, ID3D12GraphicsCommandList.SetGraphicsRootSignature, ID3D12GraphicsCommandList::SetGraphicsRootSignature, SetGraphicsRootSignature, SetGraphicsRootSignature method, SetGraphicsRootSignature method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootSignature, direct3d12.id3d12graphicscommandlist_setgraphicsrootsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::SetGraphicsRootSignature method
+# ID3D12GraphicsCommandList::SetGraphicsRootSignature
 
 
 ## -description

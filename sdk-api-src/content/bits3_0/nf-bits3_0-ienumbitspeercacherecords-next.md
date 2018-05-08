@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.Next
-title: IEnumBitsPeerCacheRecords::Next method
+title: IEnumBitsPeerCacheRecords::Next
 author: windows-driver-content
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbitspeercacherecords_next.htm
 old-project: Bits
 ms.assetid: a8117baa-9f77-4735-bd15-2c7e1e759e9b
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], Next method, IEnumBitsPeerCacheRecords::Next, Next method [BITS], Next method [BITS], IEnumBitsPeerCacheRecords interface, Next,IEnumBitsPeerCacheRecords.Next, bits.ienumbitspeercacherecords_next, bits3_0/IEnumBitsPeerCacheRecords::Next
+ms.date: 4/27/2018
+ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Next method, IEnumBitsPeerCacheRecords.Next, IEnumBitsPeerCacheRecords::Next, Next, Next method [BITS], Next method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_next, bits3_0/IEnumBitsPeerCacheRecords::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumBitsPeerCacheRecords::Next method
+# IEnumBitsPeerCacheRecords::Next
 
 
 ## -description

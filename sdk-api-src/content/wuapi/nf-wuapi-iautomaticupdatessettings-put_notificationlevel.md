@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.put_NotificationLevel
-title: IAutomaticUpdatesSettings::put_NotificationLevel method
+title: IAutomaticUpdatesSettings::put_NotificationLevel
 author: windows-driver-content
 description: Gets and sets how users are notified about Automatic Update events.
 old-location: wua\iautomaticupdatessettings_notificationlevel.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: da4fdb8a-8df8-468f-afde-292bbcf6696b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IAutomaticUpdatesSettings, IAutomaticUpdatesSettings interface [Windows Update Agent], NotificationLevel property, IAutomaticUpdatesSettings.NotificationLevel, IAutomaticUpdatesSettings::get_NotificationLevel, IAutomaticUpdatesSettings::put_NotificationLevel, NotificationLevel property [Windows Update Agent], NotificationLevel property [Windows Update Agent], IAutomaticUpdatesSettings interface, put_NotificationLevel,IAutomaticUpdatesSettings.put_NotificationLevel, wua.iautomaticupdatessettings_notificationlevel, wuapi/IAutomaticUpdatesSettings::NotificationLevel, wuapi/IAutomaticUpdatesSettings::get_NotificationLevel, wuapi/IAutomaticUpdatesSettings::put_NotificationLevel
+ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],NotificationLevel property, IAutomaticUpdatesSettings.NotificationLevel, IAutomaticUpdatesSettings.put_NotificationLevel, IAutomaticUpdatesSettings::NotificationLevel, IAutomaticUpdatesSettings::get_NotificationLevel, IAutomaticUpdatesSettings::put_NotificationLevel, NotificationLevel property [Windows Update Agent], NotificationLevel property [Windows Update Agent],IAutomaticUpdatesSettings interface, put_NotificationLevel, wua.iautomaticupdatessettings_notificationlevel, wuapi/IAutomaticUpdatesSettings::NotificationLevel, wuapi/IAutomaticUpdatesSettings::get_NotificationLevel, wuapi/IAutomaticUpdatesSettings::put_NotificationLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdatesSettings::put_NotificationLevel method
+# IAutomaticUpdatesSettings::put_NotificationLevel
 
 
 ## -description

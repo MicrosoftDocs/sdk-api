@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationItemContainerPattern.FindItemByProperty
-title: IUIAutomationItemContainerPattern::FindItemByProperty method
+title: IUIAutomationItemContainerPattern::FindItemByProperty
 author: windows-driver-content
 description: Retrieves an element within a containing element, based on a specified property value.
 old-location: winauto\uiauto_IUIAutomationItemContainerPattern_FindItemByProperty.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: d27f07ae-2c88-4cde-99b8-0c8c987b95d3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: FindItemByProperty method [Windows Accessibility], FindItemByProperty method [Windows Accessibility], IUIAutomationItemContainerPattern interface, FindItemByProperty,IUIAutomationItemContainerPattern.FindItemByProperty, IUIAutomationItemContainerPattern, IUIAutomationItemContainerPattern interface [Windows Accessibility], FindItemByProperty method, IUIAutomationItemContainerPattern::FindItemByProperty, uiauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiautomationclient/IUIAutomationItemContainerPattern::FindItemByProperty, winauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty
+ms.keywords: FindItemByProperty, FindItemByProperty method [Windows Accessibility], FindItemByProperty method [Windows Accessibility],IUIAutomationItemContainerPattern interface, IUIAutomationItemContainerPattern interface [Windows Accessibility],FindItemByProperty method, IUIAutomationItemContainerPattern.FindItemByProperty, IUIAutomationItemContainerPattern::FindItemByProperty, uiauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiautomationclient/IUIAutomationItemContainerPattern::FindItemByProperty, winauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationItemContainerPattern::FindItemByProperty method
+# IUIAutomationItemContainerPattern::FindItemByProperty
 
 
 ## -description

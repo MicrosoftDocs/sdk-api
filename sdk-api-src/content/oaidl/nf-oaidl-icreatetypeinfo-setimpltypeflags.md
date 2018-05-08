@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetImplTypeFlags
-title: ICreateTypeInfo::SetImplTypeFlags method
+title: ICreateTypeInfo::SetImplTypeFlags
 author: windows-driver-content
 description: Sets the attributes for an implemented or inherited interface of a type.
 old-location: automat\icreatetypeinfo_setimpltypeflags.htm
 old-project: automat
 ms.assetid: 712b7d02-0181-4a21-9221-514c062af171
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetImplTypeFlags method, ICreateTypeInfo::SetImplTypeFlags, SetImplTypeFlags method [Automation], SetImplTypeFlags method [Automation], ICreateTypeInfo interface, SetImplTypeFlags,ICreateTypeInfo.SetImplTypeFlags, _oa96_ICreateTypeInfo_SetImplTypeFlags, automat.icreatetypeinfo_setimpltypeflags, oaidl/ICreateTypeInfo::SetImplTypeFlags
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo interface [Automation],SetImplTypeFlags method, ICreateTypeInfo.SetImplTypeFlags, ICreateTypeInfo::SetImplTypeFlags, SetImplTypeFlags, SetImplTypeFlags method [Automation], SetImplTypeFlags method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetImplTypeFlags, automat.icreatetypeinfo_setimpltypeflags, oaidl/ICreateTypeInfo::SetImplTypeFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo::SetImplTypeFlags method
+# ICreateTypeInfo::SetImplTypeFlags
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.put_RollOff
-title: IBDA_DigitalDemodulator2::put_RollOff method
+title: IBDA_DigitalDemodulator2::put_RollOff
 author: windows-driver-content
 description: Sets the demodulator's roll-off factor.
 old-location: mstv\ibda_digitaldemodulator2_put_rolloff.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ade8c334-b7b3-464e-a3ab-f8816a44a9dd
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DigitalDemodulator2, IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies], put_RollOff method, IBDA_DigitalDemodulator2::put_RollOff, bdaiface/IBDA_DigitalDemodulator2::put_RollOff, mstv.ibda_digitaldemodulator2_put_rolloff, put_RollOff method [Microsoft TV Technologies], put_RollOff method [Microsoft TV Technologies], IBDA_DigitalDemodulator2 interface, put_RollOff,IBDA_DigitalDemodulator2.put_RollOff
+ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_RollOff method, IBDA_DigitalDemodulator2.put_RollOff, IBDA_DigitalDemodulator2::put_RollOff, bdaiface/IBDA_DigitalDemodulator2::put_RollOff, mstv.ibda_digitaldemodulator2_put_rolloff, put_RollOff, put_RollOff method [Microsoft TV Technologies], put_RollOff method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DigitalDemodulator2::put_RollOff method
+# IBDA_DigitalDemodulator2::put_RollOff
 
 
 ## -description

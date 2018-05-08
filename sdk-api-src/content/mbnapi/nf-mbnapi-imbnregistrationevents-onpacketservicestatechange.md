@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistrationEvents.OnPacketServiceStateChange
-title: IMbnRegistrationEvents::OnPacketServiceStateChange method
+title: IMbnRegistrationEvents::OnPacketServiceStateChange
 author: windows-driver-content
 description: Notification method called by the Mobile Broadband service to indicate a change in the device packet service state.
 old-location: mbn\imbnregistrationevents_onpacketservicestatechange.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 19199009-a4ac-4bf9-adfc-46c06d861485
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnRegistrationEvents, IMbnRegistrationEvents interface [Microsoft Broadband Networks], OnPacketServiceStateChange method, IMbnRegistrationEvents::OnPacketServiceStateChange, OnPacketServiceStateChange method [Microsoft Broadband Networks], OnPacketServiceStateChange method [Microsoft Broadband Networks], IMbnRegistrationEvents interface, OnPacketServiceStateChange,IMbnRegistrationEvents.OnPacketServiceStateChange, mbn.imbnregistrationevents_onpacketservicestatechange, mbnapi/IMbnRegistrationEvents::OnPacketServiceStateChange
+ms.keywords: IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnPacketServiceStateChange method, IMbnRegistrationEvents.OnPacketServiceStateChange, IMbnRegistrationEvents::OnPacketServiceStateChange, OnPacketServiceStateChange, OnPacketServiceStateChange method [Microsoft Broadband Networks], OnPacketServiceStateChange method [Microsoft Broadband Networks],IMbnRegistrationEvents interface, mbn.imbnregistrationevents_onpacketservicestatechange, mbnapi/IMbnRegistrationEvents::OnPacketServiceStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnRegistrationEvents::OnPacketServiceStateChange method
+# IMbnRegistrationEvents::OnPacketServiceStateChange
 
 
 ## -description

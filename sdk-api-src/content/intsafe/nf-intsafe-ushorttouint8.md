@@ -7,8 +7,8 @@ old-location: shell\UShortToUInt8.htm
 old-project: shell
 ms.assetid: 86e8a064-ce83-4224-81d3-84db39905f34
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: UShortToUInt8, UShortToUInt8 function [Windows Shell], intsafe/UShortToUInt8, shell.UShortToUInt8
+ms.date: 5/3/2018
+ms.keywords: UShortToUInt8, UShortToUInt8 function [Windows Shell], WordToByte, intsafe/UShortToUInt8, shell.UShortToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,6 +73,15 @@ The converted value.
 
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+<b>WordToByte</b> is an alias for this function.
 
 
 

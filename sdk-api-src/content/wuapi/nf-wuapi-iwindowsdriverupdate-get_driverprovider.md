@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverProvider
-title: IWindowsDriverUpdate::get_DriverProvider method
+title: IWindowsDriverUpdate::get_DriverProvider
 author: windows-driver-content
 description: Gets the language-invariant name of the provider of the Windows driver update.
 old-location: wua\iwindowsdriverupdate_driverprovider.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 919b4696-773c-4866-b051-7438b5c399a7
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DriverProvider property [Windows Update Agent], DriverProvider property [Windows Update Agent], IWindowsDriverUpdate interface, IWindowsDriverUpdate, IWindowsDriverUpdate interface [Windows Update Agent], DriverProvider property, IWindowsDriverUpdate.DriverProvider, IWindowsDriverUpdate::get_DriverProvider, get_DriverProvider,IWindowsDriverUpdate.get_DriverProvider, wua.iwindowsdriverupdate_driverprovider, wuapi/IWindowsDriverUpdate::DriverProvider, wuapi/IWindowsDriverUpdate::get_DriverProvider
+ms.keywords: DriverProvider property [Windows Update Agent], DriverProvider property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverProvider property, IWindowsDriverUpdate.DriverProvider, IWindowsDriverUpdate.get_DriverProvider, IWindowsDriverUpdate::DriverProvider, IWindowsDriverUpdate::get_DriverProvider, get_DriverProvider, wua.iwindowsdriverupdate_driverprovider, wuapi/IWindowsDriverUpdate::DriverProvider, wuapi/IWindowsDriverUpdate::get_DriverProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IWindowsDriverUpdate::get_DriverProvider method
+# IWindowsDriverUpdate::get_DriverProvider
 
 
 ## -description

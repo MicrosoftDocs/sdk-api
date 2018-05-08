@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 96A7B9EC-7CD9-489F-AB97-A297321BDACD
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetScaleX, SetScaleX methods [DirectComposition], dcomp/SetScaleX, directcomp.idcompositionscaletransform3d_setscalex_overloaded
+ms.keywords: IDCompositionScaleTransform3D::SetScaleX, SetScaleX, SetScaleX methods [DirectComposition], dcomp/SetScaleX, directcomp.idcompositionscaletransform3d_setscalex_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

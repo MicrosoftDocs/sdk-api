@@ -67,3 +67,15 @@ Number of <a href="https://msdn.microsoft.com/9f9d2f57-0e7f-4222-be35-e3f026b60e
 
 Pointer to a pointer to an array of <a href="https://msdn.microsoft.com/9f9d2f57-0e7f-4222-be35-e3f026b60e93">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures, each of which contains information about a single collision.
 
+
+### -field Entries.size_is
+
+ 
+
+
+### -field Entries.size_is.RecordCount
+
+ 
+
+
+

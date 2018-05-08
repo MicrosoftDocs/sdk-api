@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.DisableImageExport
-title: IEVRTrustedVideoPlugin::DisableImageExport method
+title: IEVRTrustedVideoPlugin::DisableImageExport
 author: windows-driver-content
 description: Enables or disables the ability of the plug-in to export the video image.
 old-location: mf\ievrtrustedvideoplugin_disableimageexport.htm
 old-project: medfound
 ms.assetid: dd9811f7-7a9f-4b7e-8425-cb25efe0a71d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: DisableImageExport method [Media Foundation], DisableImageExport method [Media Foundation], IEVRTrustedVideoPlugin interface, DisableImageExport,IEVRTrustedVideoPlugin.DisableImageExport, IEVRTrustedVideoPlugin, IEVRTrustedVideoPlugin interface [Media Foundation], DisableImageExport method, IEVRTrustedVideoPlugin::DisableImageExport, dd9811f7-7a9f-4b7e-8425-cb25efe0a71d, evr/IEVRTrustedVideoPlugin::DisableImageExport, mf.ievrtrustedvideoplugin_disableimageexport
+ms.date: 5/3/2018
+ms.keywords: DisableImageExport, DisableImageExport method [Media Foundation], DisableImageExport method [Media Foundation],IEVRTrustedVideoPlugin interface, IEVRTrustedVideoPlugin interface [Media Foundation],DisableImageExport method, IEVRTrustedVideoPlugin.DisableImageExport, IEVRTrustedVideoPlugin::DisableImageExport, dd9811f7-7a9f-4b7e-8425-cb25efe0a71d, evr/IEVRTrustedVideoPlugin::DisableImageExport, mf.ievrtrustedvideoplugin_disableimageexport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEVRTrustedVideoPlugin::DisableImageExport method
+# IEVRTrustedVideoPlugin::DisableImageExport
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyEnumTypeList.GetCount
-title: IPropertyEnumTypeList::GetCount method
+title: IPropertyEnumTypeList::GetCount
 author: windows-driver-content
 description: Gets the number of elements in the list.
 old-location: properties\IPropertyEnumTypeList_GetCount.htm
 old-project: properties
 ms.assetid: 1ba42c48-afd2-4d96-8d9d-ebbe116807ca
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetCount method [Windows Properties], GetCount method [Windows Properties], IPropertyEnumTypeList interface, GetCount,IPropertyEnumTypeList.GetCount, IPropertyEnumTypeList, IPropertyEnumTypeList interface [Windows Properties], GetCount method, IPropertyEnumTypeList::GetCount, _shell_IPropertyEnumTypeList_GetCount, properties.IPropertyEnumTypeList_GetCount, propsys/IPropertyEnumTypeList::GetCount, shell.IPropertyEnumTypeList_GetCount
+ms.date: 4/27/2018
+ms.keywords: GetCount, GetCount method [Windows Properties], GetCount method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],GetCount method, IPropertyEnumTypeList.GetCount, IPropertyEnumTypeList::GetCount, _shell_IPropertyEnumTypeList_GetCount, properties.IPropertyEnumTypeList_GetCount, propsys/IPropertyEnumTypeList::GetCount, shell.IPropertyEnumTypeList_GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyEnumTypeList::GetCount method
+# IPropertyEnumTypeList::GetCount
 
 
 ## -description

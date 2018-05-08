@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeLineJoin
-title: IXpsOMPath::GetStrokeLineJoin method
+title: IXpsOMPath::GetStrokeLineJoin
 author: windows-driver-content
 description: Gets the style for joining stroke lines.
 old-location: xps\ixpsompath_getstrokelinejoin.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 3e460f22-7997-419a-86b7-a0beace1bc27
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStrokeLineJoin method [XPS Documents and Packaging], GetStrokeLineJoin method [XPS Documents and Packaging], IXpsOMPath interface, GetStrokeLineJoin,IXpsOMPath.GetStrokeLineJoin, IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], GetStrokeLineJoin method, IXpsOMPath::GetStrokeLineJoin, xps.ixpsompath_getstrokelinejoin, xpsobjectmodel/IXpsOMPath::GetStrokeLineJoin
+ms.keywords: GetStrokeLineJoin, GetStrokeLineJoin method [XPS Documents and Packaging], GetStrokeLineJoin method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeLineJoin method, IXpsOMPath.GetStrokeLineJoin, IXpsOMPath::GetStrokeLineJoin, xps.ixpsompath_getstrokelinejoin, xpsobjectmodel/IXpsOMPath::GetStrokeLineJoin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::GetStrokeLineJoin method
+# IXpsOMPath::GetStrokeLineJoin
 
 
 ## -description

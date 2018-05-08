@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetUpdatedFlags
-title: ITfCandidateListUIElement::GetUpdatedFlags method
+title: ITfCandidateListUIElement::GetUpdatedFlags
 author: windows-driver-content
 description: The ITfCandidateListUIElement::GetUpdatedFlags method returns the flag that tells which part of this element was updated.
 old-location: tsf\itfcandidatelistuielement_getupdatedflags.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 618bf940-3145-4da5-a253-620b17b045c8
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetUpdatedFlags method [Text Services Framework], GetUpdatedFlags method [Text Services Framework], ITfCandidateListUIElement interface, GetUpdatedFlags,ITfCandidateListUIElement.GetUpdatedFlags, ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], GetUpdatedFlags method, ITfCandidateListUIElement::GetUpdatedFlags, TF_CLUIE_COUNT, TF_CLUIE_CURRENTPAGE, TF_CLUIE_DOCUMENTMGR, TF_CLUIE_PAGEINDEX, TF_CLUIE_SELECTION, TF_CLUIE_STRING, msctf/ITfCandidateListUIElement::GetUpdatedFlags, tsf.itfcandidatelistuielement_getupdatedflags
+ms.keywords: GetUpdatedFlags, GetUpdatedFlags method [Text Services Framework], GetUpdatedFlags method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetUpdatedFlags method, ITfCandidateListUIElement.GetUpdatedFlags, ITfCandidateListUIElement::GetUpdatedFlags, TF_CLUIE_COUNT, TF_CLUIE_CURRENTPAGE, TF_CLUIE_DOCUMENTMGR, TF_CLUIE_PAGEINDEX, TF_CLUIE_SELECTION, TF_CLUIE_STRING, msctf/ITfCandidateListUIElement::GetUpdatedFlags, tsf.itfcandidatelistuielement_getupdatedflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCandidateListUIElement::GetUpdatedFlags method
+# ITfCandidateListUIElement::GetUpdatedFlags
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.DisplayIOCtl
-title: IWTSProtocolConnectionCallback::DisplayIOCtl method
+title: IWTSProtocolConnectionCallback::DisplayIOCtl
 author: windows-driver-content
 description: IWTSProtocolConnectionCallback::DisplayIOCtl is no longer available.
 old-location: termserv\iwtsprotocolconnectioncallback_displayioctl.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: bd2c4dfe-580d-406b-b03b-628583aeef61
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DisplayIOCtl method [Remote Desktop Services], DisplayIOCtl method [Remote Desktop Services], IWTSProtocolConnectionCallback interface, DisplayIOCtl,IWTSProtocolConnectionCallback.DisplayIOCtl, IWTSProtocolConnectionCallback, IWTSProtocolConnectionCallback interface [Remote Desktop Services], DisplayIOCtl method, IWTSProtocolConnectionCallback::DisplayIOCtl, termserv.iwtsprotocolconnectioncallback_displayioctl, wtsprotocol/IWTSProtocolConnectionCallback::DisplayIOCtl
+ms.keywords: DisplayIOCtl, DisplayIOCtl method [Remote Desktop Services], DisplayIOCtl method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, IWTSProtocolConnectionCallback interface [Remote Desktop Services],DisplayIOCtl method, IWTSProtocolConnectionCallback.DisplayIOCtl, IWTSProtocolConnectionCallback::DisplayIOCtl, termserv.iwtsprotocolconnectioncallback_displayioctl, wtsprotocol/IWTSProtocolConnectionCallback::DisplayIOCtl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolConnectionCallback::DisplayIOCtl method
+# IWTSProtocolConnectionCallback::DisplayIOCtl
 
 
 ## -description

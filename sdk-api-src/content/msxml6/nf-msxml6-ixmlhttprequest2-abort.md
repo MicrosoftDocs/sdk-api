@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.Abort
-title: IXMLHTTPRequest2::Abort method
+title: IXMLHTTPRequest2::Abort
 author: windows-driver-content
 description: Cancels the current HTTP request.
 old-location: ixhr2\ixmlhttprequest2_abort.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: B051D464-2328-44A2-A2BC-D0CDDCA79C64
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: Abort method [XMLHttpRequest2], Abort method [XMLHttpRequest2], IXMLHTTPRequest2 interface, Abort,IXMLHTTPRequest2.Abort, IXMLHTTPRequest2, IXMLHTTPRequest2 interface [XMLHttpRequest2], Abort method, IXMLHTTPRequest2::Abort, ixhr2.ixmlhttprequest2_abort, msxml6/IXMLHTTPRequest2::Abort
+ms.keywords: Abort, Abort method [XMLHttpRequest2], Abort method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],Abort method, IXMLHTTPRequest2.Abort, IXMLHTTPRequest2::Abort, ixhr2.ixmlhttprequest2_abort, msxml6/IXMLHTTPRequest2::Abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest2::Abort method
+# IXMLHTTPRequest2::Abort
 
 
 ## -description

@@ -59,41 +59,6 @@ The
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME2
-
- 
-
-
-### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME
-
- 
-
-
-### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.VersionNumber
-
-The version of the structure. This should be set to "2" for this version.
-
-
-### -field DUMMYUNIONNAME3
-
- 
-
-
-### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME
-
- 
-
-
-### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME.Wow
-
- 
-
-
 ### -field Wnode
 
 A 
@@ -619,6 +584,23 @@ This value is supported on Windows 7,  Windows Server 2008 R2, and later.
  
 
 
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.AgeLimit
+
+ Not used.
+
+<b>Windows 2000:  </b>Time delay before unused buffers are freed, in minutes. The default is 15 minutes.
+
+
+### -field DUMMYUNIONNAME.FlushThreshold
+
+ 
+
+
 ### -field NumberOfBuffers
 
 On output, the number of buffers allocated for the event tracing session's buffer pool.
@@ -682,6 +664,26 @@ The session name is limited to 1,024 characters. The session name is case-insens
 When you allocate the memory for this structure, you must allocate enough memory to include the session name and log file name following the structure. The session name must come before the log file name in memory. You must copy the log file name to the offset but you do not copy the session name to the offset—the <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function copies the name for you.
 
 
+### -field DUMMYUNIONNAME2
+
+ 
+
+
+### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.VersionNumber
+
+The version of the structure. This should be set to "2" for this version.
+
+
+### -field DUMMYUNIONNAME2.V2Control
+
+ 
+
+
 ### -field FilterDescCount
 
 The number of filters that the <b>FilterDesc</b> points to. The only time this should not be zero is for system wide Private Loggers.
@@ -696,11 +698,26 @@ A pointer to an array of <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-
 This is only applicable to Private Loggers. The only time this should not be null is when it is used for system wide Private Loggers.
 
 
-#### - AgeLimit
+### -field DUMMYUNIONNAME3
 
- Not used.
+ 
 
-<b>Windows 2000:  </b>Time delay before unused buffers are freed, in minutes. The default is 15 minutes.
+
+### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME.Wow
+
+ 
+
+
+### -field DUMMYUNIONNAME3.V2Options
+
+ 
+
+
 
 
 ## -remarks

@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ce900a2b-765b-46bb-87f4-bf9fe57d1cdb
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMIndexer2, IWMIndexer2 interface [windows Media Format], IWMIndexer2 interface [windows Media Format], described, IWMIndexer2Interface, wmformat.iwmindexer2, wmsdkidl/IWMIndexer2
+ms.keywords: IWMIndexer2, IWMIndexer2 interface [windows Media Format], IWMIndexer2 interface [windows Media Format],described, IWMIndexer2Interface, wmformat.iwmindexer2, wmsdkidl/IWMIndexer2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

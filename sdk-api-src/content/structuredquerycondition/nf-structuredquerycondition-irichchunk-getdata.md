@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquerycondition.IRichChunk.GetData
-title: IRichChunk::GetData method
+title: IRichChunk::GetData
 author: windows-driver-content
 description: Retrieves the PROPVARIANT and input string that represents a chunk of data.
 old-location: search\_search_IRichChunk_GetData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\getdata.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetData method [search], GetData method [search], IRichChunk interface, GetData,IRichChunk.GetData, IRichChunk, IRichChunk interface [search], GetData method, IRichChunk::GetData, _search_IRichChunk_GetData, search._search_IRichChunk_GetData, structuredquerycondition/IRichChunk::GetData
+ms.date: 5/4/2018
+ms.keywords: GetData, GetData method [search], GetData method [search],IRichChunk interface, IRichChunk interface [search],GetData method, IRichChunk.GetData, IRichChunk::GetData, _search_IRichChunk_GetData, search._search_IRichChunk_GetData, structuredquerycondition/IRichChunk::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRichChunk::GetData method
+# IRichChunk::GetData
 
 
 ## -description

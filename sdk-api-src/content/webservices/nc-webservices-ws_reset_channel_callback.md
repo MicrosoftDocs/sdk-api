@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 3f3b4995-72ca-4e93-87de-89996f9c43cb
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_RESET_CHANNEL_CALLBACK, WS_RESET_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_RESET_CHANNEL_CALLBACK, wsw.ws_reset_channel_callback
+ms.keywords: WS_RESET_CHANNEL_CALLBACK, WS_RESET_CHANNEL_CALLBACK callback, WS_RESET_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_RESET_CHANNEL_CALLBACK, wsw.ws_reset_channel_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_RESET_CHANNEL_CALLBACK callback
+# WS_RESET_CHANNEL_CALLBACK callback function
 
 
 ## -description

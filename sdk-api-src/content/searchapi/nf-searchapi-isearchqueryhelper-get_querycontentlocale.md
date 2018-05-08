@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryContentLocale
-title: ISearchQueryHelper::get_QueryContentLocale method
+title: ISearchQueryHelper::get_QueryContentLocale
 author: windows-driver-content
 description: Gets the language code identifier (LCID) for the query.
 old-location: search\_search_ISearchQueryHelper_get_QueryContentLocale.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querycontentlocale.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchQueryHelper, ISearchQueryHelper interface [search], get_QueryContentLocale method, ISearchQueryHelper::get_QueryContentLocale, _search_ISearchQueryHelper_get_QueryContentLocale, get_QueryContentLocale method [search], get_QueryContentLocale method [search], ISearchQueryHelper interface, get_QueryContentLocale,ISearchQueryHelper.get_QueryContentLocale, search._search_ISearchQueryHelper_get_QueryContentLocale, searchapi/ISearchQueryHelper::get_QueryContentLocale
+ms.date: 5/4/2018
+ms.keywords: ISearchQueryHelper interface [search],get_QueryContentLocale method, ISearchQueryHelper.get_QueryContentLocale, ISearchQueryHelper::get_QueryContentLocale, _search_ISearchQueryHelper_get_QueryContentLocale, get_QueryContentLocale, get_QueryContentLocale method [search], get_QueryContentLocale method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryContentLocale, searchapi/ISearchQueryHelper::get_QueryContentLocale
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchQueryHelper::get_QueryContentLocale method
+# ISearchQueryHelper::get_QueryContentLocale
 
 
 ## -description

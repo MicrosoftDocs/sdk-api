@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumManifestResources
-title: IMetaDataAssemblyImport::EnumManifestResources method
+title: IMetaDataAssemblyImport::EnumManifestResources
 author: windows-driver-content
 description: Gets a pointer to an enumerator for the resources referenced in the current assembly manifest.
 old-location: winrt\imetadataassemblyimport_enummanifestresources.htm
 old-project: WinRT
 ms.assetid: 294ba92f-b6ef-4a66-81b5-b9ff508e147e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumManifestResources method [Windows Runtime], EnumManifestResources method [Windows Runtime], IMetaDataAssemblyImport interface, EnumManifestResources,IMetaDataAssemblyImport.EnumManifestResources, IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], EnumManifestResources method, IMetaDataAssemblyImport::EnumManifestResources, rometadataapi/IMetaDataAssemblyImport::EnumManifestResources, winrt.imetadataassemblyimport_enummanifestresources
+ms.date: 5/4/2018
+ms.keywords: EnumManifestResources, EnumManifestResources method [Windows Runtime], EnumManifestResources method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumManifestResources method, IMetaDataAssemblyImport.EnumManifestResources, IMetaDataAssemblyImport::EnumManifestResources, rometadataapi/IMetaDataAssemblyImport::EnumManifestResources, winrt.imetadataassemblyimport_enummanifestresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataAssemblyImport::EnumManifestResources method
+# IMetaDataAssemblyImport::EnumManifestResources
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IAdviseSink.OnRename
-title: IAdviseSink::OnRename method
+title: IAdviseSink::OnRename
 author: windows-driver-content
 description: Called by the server to notify all registered advisory sinks that the object has been renamed.
 old-location: com\iadvisesink_onrename.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ec9926fb-d69e-430c-b67d-24c52d806bb5
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAdviseSink, IAdviseSink interface [COM], OnRename method, IAdviseSink::OnRename, OnRename method [COM], OnRename method [COM], IAdviseSink interface, OnRename,IAdviseSink.OnRename, _ole_iadvisesink_onrename, com.iadvisesink_onrename, objidl/IAdviseSink::OnRename
+ms.keywords: IAdviseSink interface [COM],OnRename method, IAdviseSink.OnRename, IAdviseSink::OnRename, OnRename, OnRename method [COM], OnRename method [COM],IAdviseSink interface, _ole_iadvisesink_onrename, com.iadvisesink_onrename, objidl/IAdviseSink::OnRename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAdviseSink::OnRename method
+# IAdviseSink::OnRename
 
 
 ## -description

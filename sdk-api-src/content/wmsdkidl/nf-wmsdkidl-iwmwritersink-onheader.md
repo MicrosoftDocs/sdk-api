@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.OnHeader
-title: IWMWriterSink::OnHeader method
+title: IWMWriterSink::OnHeader
 author: windows-driver-content
 description: The OnHeader method is called by the writer when the ASF header is ready for the sink.
 old-location: wmformat\iwmwritersink_onheader.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 97b1dbd0-a555-40d3-b2f0-3a363a6ce168
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterSink, IWMWriterSink interface [windows Media Format], OnHeader method, IWMWriterSink::OnHeader, IWMWriterSinkOnHeader, OnHeader method [windows Media Format], OnHeader method [windows Media Format], IWMWriterSink interface, OnHeader,IWMWriterSink.OnHeader, wmformat.iwmwritersink_onheader, wmsdkidl/IWMWriterSink::OnHeader
+ms.keywords: IWMWriterSink interface [windows Media Format],OnHeader method, IWMWriterSink.OnHeader, IWMWriterSink::OnHeader, IWMWriterSinkOnHeader, OnHeader, OnHeader method [windows Media Format], OnHeader method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_onheader, wmsdkidl/IWMWriterSink::OnHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterSink::OnHeader method
+# IWMWriterSink::OnHeader
 
 
 ## -description

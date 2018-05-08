@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.SetAllocateForOutput
-title: IWMSyncReader2::SetAllocateForOutput method
+title: IWMSyncReader2::SetAllocateForOutput
 author: windows-driver-content
 description: The SetAllocateForOutput method sets a sample allocation callback interface for allocating output samples.
 old-location: wmformat\iwmsyncreader2_setallocateforoutput.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 2f0c754e-f09c-472f-8f40-3fcd0fb29c48
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSyncReader2, IWMSyncReader2 interface [windows Media Format], SetAllocateForOutput method, IWMSyncReader2::SetAllocateForOutput, IWMSyncReader2SetAllocateForOutput, SetAllocateForOutput method [windows Media Format], SetAllocateForOutput method [windows Media Format], IWMSyncReader2 interface, SetAllocateForOutput,IWMSyncReader2.SetAllocateForOutput, wmformat.iwmsyncreader2_setallocateforoutput, wmsdkidl/IWMSyncReader2::SetAllocateForOutput
+ms.keywords: IWMSyncReader2 interface [windows Media Format],SetAllocateForOutput method, IWMSyncReader2.SetAllocateForOutput, IWMSyncReader2::SetAllocateForOutput, IWMSyncReader2SetAllocateForOutput, SetAllocateForOutput, SetAllocateForOutput method [windows Media Format], SetAllocateForOutput method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setallocateforoutput, wmsdkidl/IWMSyncReader2::SetAllocateForOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader2::SetAllocateForOutput method
+# IWMSyncReader2::SetAllocateForOutput
 
 
 ## -description

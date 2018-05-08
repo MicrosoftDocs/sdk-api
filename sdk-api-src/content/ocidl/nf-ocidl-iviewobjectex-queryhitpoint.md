@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IViewObjectEx.QueryHitPoint
-title: IViewObjectEx::QueryHitPoint method
+title: IViewObjectEx::QueryHitPoint
 author: windows-driver-content
 description: Indicates whether a point is within a given aspect of an object.
 old-location: com\iviewobjectex_queryhitpoint.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: a9ee26c4-cf5f-4ca9-b40a-0522097a2f07
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IViewObjectEx, IViewObjectEx interface [COM], QueryHitPoint method, IViewObjectEx::QueryHitPoint, QueryHitPoint method [COM], QueryHitPoint method [COM], IViewObjectEx interface, QueryHitPoint,IViewObjectEx.QueryHitPoint, _ole_iviewobjectex_queryhitpoint, com.iviewobjectex_queryhitpoint, ocidl/IViewObjectEx::QueryHitPoint
+ms.keywords: IViewObjectEx interface [COM],QueryHitPoint method, IViewObjectEx.QueryHitPoint, IViewObjectEx::QueryHitPoint, QueryHitPoint, QueryHitPoint method [COM], QueryHitPoint method [COM],IViewObjectEx interface, _ole_iviewobjectex_queryhitpoint, com.iviewobjectex_queryhitpoint, ocidl/IViewObjectEx::QueryHitPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IViewObjectEx::QueryHitPoint method
+# IViewObjectEx::QueryHitPoint
 
 
 ## -description

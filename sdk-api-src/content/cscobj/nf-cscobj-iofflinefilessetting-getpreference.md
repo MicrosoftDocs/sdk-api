@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPreference
-title: IOfflineFilesSetting::GetPreference method
+title: IOfflineFilesSetting::GetPreference
 author: windows-driver-content
 description: Retrieves a per-machine or per-user preference associated with a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getpreference.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 80bc64f2-2787-42ba-9c36-742964440f74
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetPreference method [Offline Files], GetPreference method [Offline Files], IOfflineFilesSetting interface, GetPreference,IOfflineFilesSetting.GetPreference, IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], GetPreference method, IOfflineFilesSetting::GetPreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreference, of.iofflinefilessetting_getpreference
+ms.keywords: GetPreference, GetPreference method [Offline Files], GetPreference method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPreference method, IOfflineFilesSetting.GetPreference, IOfflineFilesSetting::GetPreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreference, of.iofflinefilessetting_getpreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSetting::GetPreference method
+# IOfflineFilesSetting::GetPreference
 
 
 ## -description

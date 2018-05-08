@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ccddeae4-14fc-47df-a612-83d48a479b48
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISimpleFrameSite, ISimpleFrameSite interface [COM], ISimpleFrameSite interface [COM], described, _ctrl_isimpleframesite, com.isimpleframesite, ocidl/ISimpleFrameSite
+ms.keywords: ISimpleFrameSite, ISimpleFrameSite interface [COM], ISimpleFrameSite interface [COM],described, _ctrl_isimpleframesite, com.isimpleframesite, ocidl/ISimpleFrameSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

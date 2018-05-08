@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFactory2.CreateContentGroupMapReader
-title: IAppxFactory2::CreateContentGroupMapReader method
+title: IAppxFactory2::CreateContentGroupMapReader
 author: windows-driver-content
 description: Creates an IAppxContentGroupMapReader.
 old-location: appxpkg\iappxfactory2_createcontentgroupmapreader.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 42453BD7-AB65-49E0-86C0-4F96B4234397
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateContentGroupMapReader method [App packaging and management], CreateContentGroupMapReader method [App packaging and management], IAppxFactory2 interface, CreateContentGroupMapReader,IAppxFactory2.CreateContentGroupMapReader, IAppxFactory2, IAppxFactory2 interface [App packaging and management], CreateContentGroupMapReader method, IAppxFactory2::CreateContentGroupMapReader, appxpackaging/IAppxFactory2::CreateContentGroupMapReader, appxpkg.iappxfactory2_createcontentgroupmapreader
+ms.keywords: CreateContentGroupMapReader, CreateContentGroupMapReader method [App packaging and management], CreateContentGroupMapReader method [App packaging and management],IAppxFactory2 interface, IAppxFactory2 interface [App packaging and management],CreateContentGroupMapReader method, IAppxFactory2.CreateContentGroupMapReader, IAppxFactory2::CreateContentGroupMapReader, appxpackaging/IAppxFactory2::CreateContentGroupMapReader, appxpkg.iappxfactory2_createcontentgroupmapreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxFactory2::CreateContentGroupMapReader method
+# IAppxFactory2::CreateContentGroupMapReader
 
 
 ## -description

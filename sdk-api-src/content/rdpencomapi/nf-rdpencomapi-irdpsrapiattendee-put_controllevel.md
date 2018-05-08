@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.put_ControlLevel
-title: IRDPSRAPIAttendee::put_ControlLevel method
+title: IRDPSRAPIAttendee::put_ControlLevel
 author: windows-driver-content
 description: The level of control the attendee has over the session.
 old-location: rdp\irdpsrapiattendee_controllevel.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: b154580d-f541-4668-9255-607ab2de46a9
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: ControlLevel property [RDP], ControlLevel property [RDP], IRDPSRAPIAttendee interface, ControlLevel property [RDP], RDPSRAPIAttendee object, IRDPSRAPIAttendee, IRDPSRAPIAttendee interface [RDP], ControlLevel property, IRDPSRAPIAttendee.ControlLevel, IRDPSRAPIAttendee::get_ControlLevel, IRDPSRAPIAttendee::put_ControlLevel, RDPSRAPIAttendee object [RDP], ControlLevel property, put_ControlLevel,IRDPSRAPIAttendee.put_ControlLevel, rdp.irdpsrapiattendee_controllevel, rdpencomapi/IRDPSRAPIAttendee::ControlLevel, rdpencomapi/IRDPSRAPIAttendee::get_ControlLevel, rdpencomapi/IRDPSRAPIAttendee::put_ControlLevel
+ms.keywords: ControlLevel property [RDP], ControlLevel property [RDP],IRDPSRAPIAttendee interface, ControlLevel property [RDP],RDPSRAPIAttendee object, IRDPSRAPIAttendee interface [RDP],ControlLevel property, IRDPSRAPIAttendee.ControlLevel, IRDPSRAPIAttendee.put_ControlLevel, IRDPSRAPIAttendee::ControlLevel, IRDPSRAPIAttendee::get_ControlLevel, IRDPSRAPIAttendee::put_ControlLevel, RDPSRAPIAttendee object [RDP],ControlLevel property, put_ControlLevel, rdp.irdpsrapiattendee_controllevel, rdpencomapi/IRDPSRAPIAttendee::ControlLevel, rdpencomapi/IRDPSRAPIAttendee::get_ControlLevel, rdpencomapi/IRDPSRAPIAttendee::put_ControlLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIAttendee::put_ControlLevel method
+# IRDPSRAPIAttendee::put_ControlLevel
 
 
 ## -description

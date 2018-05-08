@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 7650fc2c-fe2d-4cb1-a22a-433c90c5cb8d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncChangeWithPrerequisite, ISyncChangeWithPrerequisite interface [Windows Sync], ISyncChangeWithPrerequisite interface [Windows Sync], described, winsync.isyncchangewithprerequisite, winsync/ISyncChangeWithPrerequisite
+ms.keywords: ISyncChangeWithPrerequisite, ISyncChangeWithPrerequisite interface [Windows Sync], ISyncChangeWithPrerequisite interface [Windows Sync],described, winsync.isyncchangewithprerequisite, winsync/ISyncChangeWithPrerequisite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

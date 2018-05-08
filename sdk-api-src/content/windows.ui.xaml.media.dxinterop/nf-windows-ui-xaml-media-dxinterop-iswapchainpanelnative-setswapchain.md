@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISwapChainPanelNative.SetSwapChain
-title: ISwapChainPanelNative::SetSwapChain method
+title: ISwapChainPanelNative::xaml
 author: windows-driver-content
 description: Sets the DirectX swap chain for SwapChainPanel.
 old-location: winrt\iswapchainpanelnative_setswapchain.htm
 old-project: WinRT
 ms.assetid: 8269A6DC-1732-40CF-96C7-FA13BC6763D2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISwapChainPanelNative, ISwapChainPanelNative interface [Windows Runtime], SetSwapChain method, ISwapChainPanelNative::SetSwapChain, SetSwapChain method [Windows Runtime], SetSwapChain method [Windows Runtime], ISwapChainPanelNative interface, SetSwapChain,ISwapChainPanelNative.SetSwapChain, windows/ISwapChainPanelNative::SetSwapChain, winrt.iswapchainpanelnative_setswapchain
+ms.date: 5/4/2018
+ms.keywords: ISwapChainPanelNative interface [Windows Runtime],SetSwapChain method, ISwapChainPanelNative.SetSwapChain, ISwapChainPanelNative.xaml, ISwapChainPanelNative::SetSwapChain, ISwapChainPanelNative::xaml, SetSwapChain, SetSwapChain method [Windows Runtime], SetSwapChain method [Windows Runtime],ISwapChainPanelNative interface, windows/ISwapChainPanelNative::SetSwapChain, winrt.iswapchainpanelnative_setswapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISwapChainPanelNative::SetSwapChain method
+# ISwapChainPanelNative::xaml
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: c80c76b0-8589-4ecb-b9bf-6b8377fa98dd
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMMigrationTable, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], IGPMMigrationTable interface [GPMC], described, gpmc.igpmmigrationtable, gpmgmt/IGPMMigrationTable
+ms.keywords: GPMMigrationTable, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], IGPMMigrationTable interface [GPMC],described, gpmc.igpmmigrationtable, gpmgmt/IGPMMigrationTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

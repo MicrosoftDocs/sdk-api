@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 047f281e-2665-4d6d-9a0b-918cd3339447
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMalloc, IMalloc interface [COM], IMalloc interface [COM], described, _com_imalloc, com.imalloc, objidlbase/IMalloc
+ms.keywords: IMalloc, IMalloc interface [COM], IMalloc interface [COM],described, _com_imalloc, com.imalloc, objidlbase/IMalloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

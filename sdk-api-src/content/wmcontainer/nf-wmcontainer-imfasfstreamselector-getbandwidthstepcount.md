@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetBandwidthStepCount
-title: IMFASFStreamSelector::GetBandwidthStepCount method
+title: IMFASFStreamSelector::GetBandwidthStepCount
 author: windows-driver-content
 description: Retrieves the number of bandwidth steps that exist for the content. This method is used for multiple bit rate (MBR) content.
 old-location: mf\imfasfstreamselector_getbandwidthstepcount.htm
 old-project: medfound
 ms.assetid: 6b7105c1-7395-462f-ad52-daf621258714
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 6b7105c1-7395-462f-ad52-daf621258714, GetBandwidthStepCount method [Media Foundation], GetBandwidthStepCount method [Media Foundation], IMFASFStreamSelector interface, GetBandwidthStepCount,IMFASFStreamSelector.GetBandwidthStepCount, IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], GetBandwidthStepCount method, IMFASFStreamSelector::GetBandwidthStepCount, mf.imfasfstreamselector_getbandwidthstepcount, wmcontainer/IMFASFStreamSelector::GetBandwidthStepCount
+ms.date: 5/3/2018
+ms.keywords: 6b7105c1-7395-462f-ad52-daf621258714, GetBandwidthStepCount, GetBandwidthStepCount method [Media Foundation], GetBandwidthStepCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetBandwidthStepCount method, IMFASFStreamSelector.GetBandwidthStepCount, IMFASFStreamSelector::GetBandwidthStepCount, mf.imfasfstreamselector_getbandwidthstepcount, wmcontainer/IMFASFStreamSelector::GetBandwidthStepCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFStreamSelector::GetBandwidthStepCount method
+# IMFASFStreamSelector::GetBandwidthStepCount
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IXDSCodecConfig.GetSecureChannelObject
-title: IXDSCodecConfig::GetSecureChannelObject method
+title: IXDSCodecConfig::GetSecureChannelObject
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\ixdscodecconfig_getsecurechannelobject.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c7bf4efe-110a-4bcc-927c-f5e4798211df
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies], IXDSCodecConfig interface, GetSecureChannelObject,IXDSCodecConfig.GetSecureChannelObject, IXDSCodecConfig, IXDSCodecConfig interface [Microsoft TV Technologies], GetSecureChannelObject method, IXDSCodecConfig::GetSecureChannelObject, IXDSCodecConfigGetSecureChannelObject, encdec/IXDSCodecConfig::GetSecureChannelObject, mstv.ixdscodecconfig_getsecurechannelobject
+ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies],IXDSCodecConfig interface, IXDSCodecConfig interface [Microsoft TV Technologies],GetSecureChannelObject method, IXDSCodecConfig.GetSecureChannelObject, IXDSCodecConfig::GetSecureChannelObject, IXDSCodecConfigGetSecureChannelObject, encdec/IXDSCodecConfig::GetSecureChannelObject, mstv.ixdscodecconfig_getsecurechannelobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IXDSCodecConfig::GetSecureChannelObject method
+# IXDSCodecConfig::GetSecureChannelObject
 
 
 ## -description

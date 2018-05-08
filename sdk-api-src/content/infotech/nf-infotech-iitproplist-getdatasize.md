@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITPropList.GetDataSize
-title: IITPropList::GetDataSize method
+title: IITPropList::GetDataSize
 author: windows-driver-content
 description: Returns the number of bytes needed to save the property data.
 old-location: htmlhelp\iitproplist_getdatasize.htm
@@ -8,7 +8,7 @@ old-project: htmlhelp
 ms.assetid: 83d9fa7b-d814-4293-93b9-9454c01c1503
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDataSize method [HTML Help Workshop], GetDataSize method [HTML Help Workshop], IITPropList interface, GetDataSize,IITPropList.GetDataSize, IITPropList, IITPropList interface [HTML Help Workshop], GetDataSize method, IITPropList::GetDataSize, htmlhelp.iitproplist_getdatasize, infotech/IITPropList::GetDataSize
+ms.keywords: GetDataSize, GetDataSize method [HTML Help Workshop], GetDataSize method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],GetDataSize method, IITPropList.GetDataSize, IITPropList::GetDataSize, htmlhelp.iitproplist_getdatasize, infotech/IITPropList::GetDataSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IITPropList::GetDataSize method
+# IITPropList::GetDataSize
 
 
 ## -description

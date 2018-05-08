@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetDuration
-title: IMFPMediaPlayer::GetDuration method
+title: IMFPMediaPlayer::GetDuration
 author: windows-driver-content
 description: Gets the playback duration of the current media item.
 old-location: mf\imfpmediaplayer_getduration.htm
 old-project: medfound
 ms.assetid: 7d201035-6946-4a46-bc66-b9e78006a04a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDuration method [Media Foundation], GetDuration method [Media Foundation], IMFPMediaPlayer interface, GetDuration,IMFPMediaPlayer.GetDuration, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetDuration method, IMFPMediaPlayer::GetDuration, MFP_POSITIONTYPE_100NS, mf.imfpmediaplayer_getduration, mfplay/IMFPMediaPlayer::GetDuration
+ms.date: 5/3/2018
+ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetDuration method, IMFPMediaPlayer.GetDuration, IMFPMediaPlayer::GetDuration, MFP_POSITIONTYPE_100NS, mf.imfpmediaplayer_getduration, mfplay/IMFPMediaPlayer::GetDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::GetDuration method
+# IMFPMediaPlayer::GetDuration
 
 
 ## -description

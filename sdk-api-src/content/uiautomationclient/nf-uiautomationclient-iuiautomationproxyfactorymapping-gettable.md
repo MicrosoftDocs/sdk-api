@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.GetTable
-title: IUIAutomationProxyFactoryMapping::GetTable method
+title: IUIAutomationProxyFactoryMapping::GetTable
 author: windows-driver-content
 description: Retrieves all entries in the proxy factory table.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_GetTable.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 6e84ec4d-9589-47b0-ae69-5d640141dd8b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetTable method [Windows Accessibility], GetTable method [Windows Accessibility], IUIAutomationProxyFactoryMapping interface, GetTable,IUIAutomationProxyFactoryMapping.GetTable, IUIAutomationProxyFactoryMapping, IUIAutomationProxyFactoryMapping interface [Windows Accessibility], GetTable method, IUIAutomationProxyFactoryMapping::GetTable, uiauto.uiauto_IUIAutomationProxyFactoryMapping_GetTable, uiauto_IUIAutomationProxyFactoryMapping_GetTable, uiautomationclient/IUIAutomationProxyFactoryMapping::GetTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_GetTable
+ms.keywords: GetTable, GetTable method [Windows Accessibility], GetTable method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],GetTable method, IUIAutomationProxyFactoryMapping.GetTable, IUIAutomationProxyFactoryMapping::GetTable, uiauto.uiauto_IUIAutomationProxyFactoryMapping_GetTable, uiauto_IUIAutomationProxyFactoryMapping_GetTable, uiautomationclient/IUIAutomationProxyFactoryMapping::GetTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_GetTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationProxyFactoryMapping::GetTable method
+# IUIAutomationProxyFactoryMapping::GetTable
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetCountOfRecords
-title: IISDB_BIT::GetCountOfRecords method
+title: IISDB_BIT::GetCountOfRecords
 author: windows-driver-content
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getcountofrecords.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3f36c03a-462e-479a-ad8c-5322377dbca0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IISDB_BIT interface, GetCountOfRecords,IISDB_BIT.GetCountOfRecords, IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], GetCountOfRecords method, IISDB_BIT::GetCountOfRecords, dvbsiparser/IISDB_BIT::GetCountOfRecords, mstv.iisdb_bit_getcountofrecords
+ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetCountOfRecords method, IISDB_BIT.GetCountOfRecords, IISDB_BIT::GetCountOfRecords, dvbsiparser/IISDB_BIT::GetCountOfRecords, mstv.iisdb_bit_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_BIT::GetCountOfRecords method
+# IISDB_BIT::GetCountOfRecords
 
 
 ## -description

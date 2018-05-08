@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.AcceptEula
-title: IUpdate::AcceptEula method
+title: IUpdate::AcceptEula
 author: windows-driver-content
 description: Accepts the Microsoft Software License Terms that are associated with Windows Update.
 old-location: wua\iupdate_accepteula.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: b3a25994-eace-45ec-8e6b-40d69796f168
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AcceptEula method [Windows Update Agent], AcceptEula method [Windows Update Agent], IUpdate interface, AcceptEula,IUpdate.AcceptEula, IUpdate, IUpdate interface [Windows Update Agent], AcceptEula method, IUpdate::AcceptEula, wua.iupdate_accepteula, wuapi/IUpdate::AcceptEula
+ms.keywords: AcceptEula, AcceptEula method [Windows Update Agent], AcceptEula method [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],AcceptEula method, IUpdate.AcceptEula, IUpdate::AcceptEula, wua.iupdate_accepteula, wuapi/IUpdate::AcceptEula
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IUpdate::AcceptEula method
+# IUpdate::AcceptEula
 
 
 ## -description

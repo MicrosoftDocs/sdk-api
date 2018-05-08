@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.Load
-title: IPersistStreamInit::Load method
+title: IPersistStreamInit::Load
 author: windows-driver-content
 description: Initializes an object from the stream where it was saved previously.
 old-location: com\ipersiststreaminit_load.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 3e995e07-e088-40de-ba28-c30caea45786
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPersistStreamInit, IPersistStreamInit interface [COM], Load method, IPersistStreamInit::Load, Load method [COM], Load method [COM], IPersistStreamInit interface, Load,IPersistStreamInit.Load, _com_ipersiststreaminit_load, com.ipersiststreaminit_load, ocidl/IPersistStreamInit::Load
+ms.keywords: IPersistStreamInit interface [COM],Load method, IPersistStreamInit.Load, IPersistStreamInit::Load, Load, Load method [COM], Load method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_load, com.ipersiststreaminit_load, ocidl/IPersistStreamInit::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistStreamInit::Load method
+# IPersistStreamInit::Load
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: E8EFE682-E1BC-4D0D-A60E-DD257D6E5894
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioClient3, IAudioClient3 interface [Core Audio], IAudioClient3 interface [Core Audio], described, audioclient/IAudioClient3, coreaudio.iaudioclient3
+ms.keywords: IAudioClient3, IAudioClient3 interface [Core Audio], IAudioClient3 interface [Core Audio],described, audioclient/IAudioClient3, coreaudio.iaudioclient3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

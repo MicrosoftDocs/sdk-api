@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmap.GetPreferredSize
-title: ITfLangBarItemBitmap::GetPreferredSize method
+title: ITfLangBarItemBitmap::GetPreferredSize
 author: windows-driver-content
 description: ITfLangBarItemBitmap::GetPreferredSize method
 old-location: tsf\itflangbaritembitmap_getpreferredsize.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4dd173de-6b54-4d03-b458-0dd5186d1d83
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetPreferredSize method [Text Services Framework], GetPreferredSize method [Text Services Framework], ITfLangBarItemBitmap interface, GetPreferredSize,ITfLangBarItemBitmap.GetPreferredSize, ITfLangBarItemBitmap, ITfLangBarItemBitmap interface [Text Services Framework], GetPreferredSize method, ITfLangBarItemBitmap::GetPreferredSize, _tsf_itflangbaritembitmap_getpreferredsize_ref, ctfutb/ITfLangBarItemBitmap::GetPreferredSize, tsf.itflangbaritembitmap_getpreferredsize
+ms.keywords: GetPreferredSize, GetPreferredSize method [Text Services Framework], GetPreferredSize method [Text Services Framework],ITfLangBarItemBitmap interface, ITfLangBarItemBitmap interface [Text Services Framework],GetPreferredSize method, ITfLangBarItemBitmap.GetPreferredSize, ITfLangBarItemBitmap::GetPreferredSize, _tsf_itflangbaritembitmap_getpreferredsize_ref, ctfutb/ITfLangBarItemBitmap::GetPreferredSize, tsf.itflangbaritembitmap_getpreferredsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemBitmap::GetPreferredSize method
+# ITfLangBarItemBitmap::GetPreferredSize
 
 
 ## -description

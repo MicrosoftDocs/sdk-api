@@ -1,6 +1,6 @@
 ---
 UID: NF:radialcontrollerinterop.IRadialControllerInterop.CreateForWindow
-title: IRadialControllerInterop::CreateForWindow method
+title: IRadialControllerInterop::CreateForWindow
 author: windows-driver-content
 description: Instantiates a RadialController object and binds it to the active application.
 old-location: input_radial\iradialcontrollerinterop_createforwindow.htm
@@ -8,7 +8,7 @@ old-project: Input_Radial
 ms.assetid: fe419ce2-9767-42c4-aaa6-a9b9ea93ec3e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateForWindow method, CreateForWindow method, IRadialControllerInterop interface, CreateForWindow,IRadialControllerInterop.CreateForWindow, IRadialControllerInterop, IRadialControllerInterop interface, CreateForWindow method, IRadialControllerInterop::CreateForWindow, Input_Radial.iradialcontrollerinterop_createforwindow, radialcontrollerinterop/IRadialControllerInterop::CreateForWindow
+ms.keywords: CreateForWindow, CreateForWindow method, CreateForWindow method,IRadialControllerInterop interface, IRadialControllerInterop interface,CreateForWindow method, IRadialControllerInterop.CreateForWindow, IRadialControllerInterop::CreateForWindow, Input_Radial.iradialcontrollerinterop_createforwindow, radialcontrollerinterop/IRadialControllerInterop::CreateForWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRadialControllerInterop::CreateForWindow method
+# IRadialControllerInterop::CreateForWindow
 
 
 ## -description

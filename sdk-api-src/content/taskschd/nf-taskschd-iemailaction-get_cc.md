@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.get_Cc
-title: IEmailAction::get_Cc method
+title: IEmailAction::get_Cc
 author: windows-driver-content
 description: Gets or sets the email address or addresses that you want to Cc in the email message.
 old-location: taskschd\iemailaction_cc.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 23493ac7-0906-4ea3-9445-3dd56c30bb13
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Cc property [Task Scheduler], Cc property [Task Scheduler], IEmailAction interface, IEmailAction, IEmailAction interface [Task Scheduler], Cc property, IEmailAction.Cc, IEmailAction::get_Cc, IEmailAction::put_Cc, get_Cc,IEmailAction.get_Cc, taskschd.iemailaction_cc, taskschd/IEmailAction::Cc, taskschd/IEmailAction::get_Cc, taskschd/IEmailAction::put_Cc
+ms.keywords: Cc property [Task Scheduler], Cc property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Cc property, IEmailAction.Cc, IEmailAction.get_Cc, IEmailAction::Cc, IEmailAction::get_Cc, IEmailAction::put_Cc, get_Cc, taskschd.iemailaction_cc, taskschd/IEmailAction::Cc, taskschd/IEmailAction::get_Cc, taskschd/IEmailAction::put_Cc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEmailAction::get_Cc method
+# IEmailAction::get_Cc
 
 
 ## -description

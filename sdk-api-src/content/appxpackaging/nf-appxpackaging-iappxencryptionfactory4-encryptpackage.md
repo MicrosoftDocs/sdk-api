@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory4.EncryptPackage
-title: IAppxEncryptionFactory4::EncryptPackage method
+title: IAppxEncryptionFactory4::EncryptPackage
 author: windows-driver-content
 description: Creates an encrypted Windows app package from an unencrypted one.
 old-location: appxpkg\iappxencryptionfactory4_encryptpackage.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 3C47D7AD-CAD9-4623-A404-5676C51B5390
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: EncryptPackage method [App packaging and management], EncryptPackage method [App packaging and management], IAppxEncryptionFactory4 interface, EncryptPackage,IAppxEncryptionFactory4.EncryptPackage, IAppxEncryptionFactory4, IAppxEncryptionFactory4 interface [App packaging and management], EncryptPackage method, IAppxEncryptionFactory4::EncryptPackage, appxpackaging/IAppxEncryptionFactory4::EncryptPackage, appxpkg.iappxencryptionfactory4_encryptpackage
+ms.keywords: EncryptPackage, EncryptPackage method [App packaging and management], EncryptPackage method [App packaging and management],IAppxEncryptionFactory4 interface, IAppxEncryptionFactory4 interface [App packaging and management],EncryptPackage method, IAppxEncryptionFactory4.EncryptPackage, IAppxEncryptionFactory4::EncryptPackage, appxpackaging/IAppxEncryptionFactory4::EncryptPackage, appxpkg.iappxencryptionfactory4_encryptpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxEncryptionFactory4::EncryptPackage method
+# IAppxEncryptionFactory4::EncryptPackage
 
 
 ## -description

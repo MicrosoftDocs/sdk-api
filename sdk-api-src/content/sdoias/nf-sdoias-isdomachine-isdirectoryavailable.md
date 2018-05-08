@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoMachine.IsDirectoryAvailable
-title: ISdoMachine::IsDirectoryAvailable method
+title: ISdoMachine::IsDirectoryAvailable
 author: windows-driver-content
 description: The IsDirectoryAvailable method tests whether an Active Directory service is available on the SDO computer.
 old-location: nps\SDO_isdomachine_isdirectoryavailable.htm
@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: 733d2911-7e1d-4f73-ae24-1bb748213c1c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ISdoMachine, ISdoMachine interface [Network Policy Server], IsDirectoryAvailable method, ISdoMachine::IsDirectoryAvailable, IsDirectoryAvailable method [Network Policy Server], IsDirectoryAvailable method [Network Policy Server], ISdoMachine interface, IsDirectoryAvailable method [Network Policy Server], SdoMachine object, IsDirectoryAvailable,ISdoMachine.IsDirectoryAvailable, SdoMachine object [Network Policy Server], IsDirectoryAvailable method, _sdo_isdomachine_isdirectoryavailable, nps.SDO_isdomachine_isdirectoryavailable, sdo.isdomachine_isdirectoryavailable, sdoias/ISdoMachine::IsDirectoryAvailable
+ms.keywords: ISdoMachine interface [Network Policy Server],IsDirectoryAvailable method, ISdoMachine.IsDirectoryAvailable, ISdoMachine::IsDirectoryAvailable, IsDirectoryAvailable, IsDirectoryAvailable method [Network Policy Server], IsDirectoryAvailable method [Network Policy Server],ISdoMachine interface, IsDirectoryAvailable method [Network Policy Server],SdoMachine object, SdoMachine object [Network Policy Server],IsDirectoryAvailable method, _sdo_isdomachine_isdirectoryavailable, nps.SDO_isdomachine_isdirectoryavailable, sdo.isdomachine_isdirectoryavailable, sdoias/ISdoMachine::IsDirectoryAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISdoMachine::IsDirectoryAvailable method
+# ISdoMachine::IsDirectoryAvailable
 
 
 ## -description

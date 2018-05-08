@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSuspendInfo.IsSuspended
-title: IOfflineFilesSuspendInfo::IsSuspended method
+title: IOfflineFilesSuspendInfo::IsSuspended
 author: windows-driver-content
 description: Determines whether an item is suspended.
 old-location: of\iofflinefilessuspendinfo_issuspended.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 6f29793f-3b34-4280-b375-3739aefd74db
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesSuspendInfo, IOfflineFilesSuspendInfo interface [Offline Files], IsSuspended method, IOfflineFilesSuspendInfo::IsSuspended, IsSuspended method [Offline Files], IsSuspended method [Offline Files], IOfflineFilesSuspendInfo interface, IsSuspended,IOfflineFilesSuspendInfo.IsSuspended, cscobj/IOfflineFilesSuspendInfo::IsSuspended, of.iofflinefilessuspendinfo_issuspended
+ms.keywords: IOfflineFilesSuspendInfo interface [Offline Files],IsSuspended method, IOfflineFilesSuspendInfo.IsSuspended, IOfflineFilesSuspendInfo::IsSuspended, IsSuspended, IsSuspended method [Offline Files], IsSuspended method [Offline Files],IOfflineFilesSuspendInfo interface, cscobj/IOfflineFilesSuspendInfo::IsSuspended, of.iofflinefilessuspendinfo_issuspended
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSuspendInfo::IsSuspended method
+# IOfflineFilesSuspendInfo::IsSuspended
 
 
 ## -description

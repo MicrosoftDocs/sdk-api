@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_BacklightCompensation
-title: IVideoProcAmp::get_BacklightCompensation method
+title: IVideoProcAmp::get_BacklightCompensation
 author: windows-driver-content
 description: The get_BacklightCompensation method returns the camera's backlight compensation setting.
 old-location: dshow\ivideoprocamp_get_backlightcompensation.htm
 old-project: DirectShow
 ms.assetid: 1b0b4c06-5958-446e-bd06-4ee6f90b6e78
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_BacklightCompensation method, IVideoProcAmp::get_BacklightCompensation, IVideoProcAmpget_BacklightCompensation, dshow.ivideoprocamp_get_backlightcompensation, get_BacklightCompensation method [DirectShow], get_BacklightCompensation method [DirectShow], IVideoProcAmp interface, get_BacklightCompensation,IVideoProcAmp.get_BacklightCompensation, vidcap/IVideoProcAmp::get_BacklightCompensation
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],get_BacklightCompensation method, IVideoProcAmp.get_BacklightCompensation, IVideoProcAmp::get_BacklightCompensation, IVideoProcAmpget_BacklightCompensation, dshow.ivideoprocamp_get_backlightcompensation, get_BacklightCompensation, get_BacklightCompensation method [DirectShow], get_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_BacklightCompensation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::get_BacklightCompensation method
+# IVideoProcAmp::get_BacklightCompensation
 
 
 ## -description

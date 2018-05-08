@@ -1,14 +1,14 @@
 ---
 UID: NF:richole.IRichEditOle.SetDvaspect
-title: IRichEditOle::SetDvaspect method
+title: IRichEditOle::SetDvaspect
 author: windows-driver-content
 description: Sets the aspect that a rich edit control uses to draw an object. This call does not change the drawing information cached in the object; this must be done by the caller. The call does cause the object to be redrawn.
 old-location: controls\IRichEditOle_SetDvaspect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesetdvaspect.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IRichEditOle, IRichEditOle interface [Windows Controls], SetDvaspect method, IRichEditOle::SetDvaspect, SetDvaspect method [Windows Controls], SetDvaspect method [Windows Controls], IRichEditOle interface, SetDvaspect,IRichEditOle.SetDvaspect, _win32_IRichEditOle_SetDvaspect, _win32_IRichEditOle_SetDvaspect_cpp, controls.IRichEditOle_SetDvaspect, controls._win32_IRichEditOle_SetDvaspect, richole/IRichEditOle::SetDvaspect
+ms.date: 4/27/2018
+ms.keywords: IRichEditOle interface [Windows Controls],SetDvaspect method, IRichEditOle.SetDvaspect, IRichEditOle::SetDvaspect, SetDvaspect, SetDvaspect method [Windows Controls], SetDvaspect method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_SetDvaspect, _win32_IRichEditOle_SetDvaspect_cpp, controls.IRichEditOle_SetDvaspect, controls._win32_IRichEditOle_SetDvaspect, richole/IRichEditOle::SetDvaspect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRichEditOle::SetDvaspect method
+# IRichEditOle::SetDvaspect
 
 
 ## -description

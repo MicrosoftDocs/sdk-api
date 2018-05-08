@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt32WithDefault.htm
 old-project: properties
 ms.assetid: 02ec869b-154e-436a-a9b7-57eff4e958aa
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: VariantToUInt32WithDefault, VariantToUInt32WithDefault function [Windows Properties], _shell_VariantToUInt32WithDefault, properties.VariantToUInt32WithDefault, propvarutil/VariantToUInt32WithDefault, shell.VariantToUInt32WithDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices

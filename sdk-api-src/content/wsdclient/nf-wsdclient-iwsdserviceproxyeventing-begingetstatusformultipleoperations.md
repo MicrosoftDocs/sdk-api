@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations
-title: IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations method
+title: IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations
 author: windows-driver-content
 description: Begins an asynchronous operation that retrieves the current status.
 old-location: ncd\iwsdserviceproxyeventing_begingetstatusformultipleoperations.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: cf42f680-f19c-4ee3-824d-dc892608d4d2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: BeginGetStatusForMultipleOperations method, BeginGetStatusForMultipleOperations method, IWSDServiceProxyEventing interface, BeginGetStatusForMultipleOperations,IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations, IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, BeginGetStatusForMultipleOperations method, IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations, ncd.iwsdserviceproxyeventing_begingetstatusformultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations
+ms.keywords: BeginGetStatusForMultipleOperations, BeginGetStatusForMultipleOperations method, BeginGetStatusForMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginGetStatusForMultipleOperations method, IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations, IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations, ncd.iwsdserviceproxyeventing_begingetstatusformultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations method
+# IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations
 
 
 ## -description

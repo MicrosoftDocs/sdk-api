@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_ModulationType
-title: IBDA_DigitalDemodulator::get_ModulationType method
+title: IBDA_DigitalDemodulator::get_ModulationType
 author: windows-driver-content
 description: The get_ModulationType method retrieves the modulation type for the signal.
 old-location: mstv\ibda_digitaldemodulator_get_modulationtype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0f00553f-c0b1-4ff5-9c92-fe3a1990ef20
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DigitalDemodulator, IBDA_DigitalDemodulator interface [Microsoft TV Technologies], get_ModulationType method, IBDA_DigitalDemodulator::get_ModulationType, IBDA_DigitalDemodulatorget_ModulationType, bdaiface/IBDA_DigitalDemodulator::get_ModulationType, get_ModulationType method [Microsoft TV Technologies], get_ModulationType method [Microsoft TV Technologies], IBDA_DigitalDemodulator interface, get_ModulationType,IBDA_DigitalDemodulator.get_ModulationType, mstv.ibda_digitaldemodulator_get_modulationtype
+ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_ModulationType method, IBDA_DigitalDemodulator.get_ModulationType, IBDA_DigitalDemodulator::get_ModulationType, IBDA_DigitalDemodulatorget_ModulationType, bdaiface/IBDA_DigitalDemodulator::get_ModulationType, get_ModulationType, get_ModulationType method [Microsoft TV Technologies], get_ModulationType method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_modulationtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DigitalDemodulator::get_ModulationType method
+# IBDA_DigitalDemodulator::get_ModulationType
 
 
 ## -description

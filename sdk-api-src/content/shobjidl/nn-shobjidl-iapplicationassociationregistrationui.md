@@ -7,8 +7,8 @@ old-location: shell\IApplicationAssociationRegistrationUI.htm
 old-project: shell
 ms.assetid: 3a4d6f1d-72c2-4bd0-ad44-1c42a5bf9cb6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IApplicationAssociationRegistrationUI, IApplicationAssociationRegistrationUI interface [Windows Shell], IApplicationAssociationRegistrationUI interface [Windows Shell], described, _shell_IApplicationAssociationRegistrationUI, shell.IApplicationAssociationRegistrationUI, shobjidl/IApplicationAssociationRegistrationUI
+ms.date: 5/3/2018
+ms.keywords: IApplicationAssociationRegistrationUI, IApplicationAssociationRegistrationUI interface [Windows Shell], IApplicationAssociationRegistrationUI interface [Windows Shell],described, _shell_IApplicationAssociationRegistrationUI, shell.IApplicationAssociationRegistrationUI, shobjidl/IApplicationAssociationRegistrationUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

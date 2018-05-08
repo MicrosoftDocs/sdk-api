@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 6604112A-5BD5-4B2C-AECC-D09180B04D7F
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IImePad, IImePad interface [Internationalization for Windows Applications], IImePad interface [Internationalization for Windows Applications], described, imepad/IImePad, intl.iimepad
+ms.keywords: IImePad, IImePad interface [Internationalization for Windows Applications], IImePad interface [Internationalization for Windows Applications],described, imepad/IImePad, intl.iimepad
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

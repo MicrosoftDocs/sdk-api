@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.ResetProtocolRollover
-title: IWMReaderNetworkConfig::ResetProtocolRollover method
+title: IWMReaderNetworkConfig::ResetProtocolRollover
 author: windows-driver-content
 description: The ResetProtocolRollover method forces the reader object to use the normal protocol rollover algorithm.
 old-location: wmformat\iwmreadernetworkconfig_resetprotocolrollover.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 10a11131-48bd-49bd-a767-1c6148f84b95
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], ResetProtocolRollover method, IWMReaderNetworkConfig::ResetProtocolRollover, IWMReaderNetworkConfigResetProtocolRollover, ResetProtocolRollover method [windows Media Format], ResetProtocolRollover method [windows Media Format], IWMReaderNetworkConfig interface, ResetProtocolRollover,IWMReaderNetworkConfig.ResetProtocolRollover, wmformat.iwmreadernetworkconfig_resetprotocolrollover, wmsdkidl/IWMReaderNetworkConfig::ResetProtocolRollover
+ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],ResetProtocolRollover method, IWMReaderNetworkConfig.ResetProtocolRollover, IWMReaderNetworkConfig::ResetProtocolRollover, IWMReaderNetworkConfigResetProtocolRollover, ResetProtocolRollover, ResetProtocolRollover method [windows Media Format], ResetProtocolRollover method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_resetprotocolrollover, wmsdkidl/IWMReaderNetworkConfig::ResetProtocolRollover
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::ResetProtocolRollover method
+# IWMReaderNetworkConfig::ResetProtocolRollover
 
 
 ## -description

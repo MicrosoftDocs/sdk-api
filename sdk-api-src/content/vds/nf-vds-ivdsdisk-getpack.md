@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk.GetPack
-title: IVdsDisk::GetPack method
+title: IVdsDisk::GetPack
 author: windows-driver-content
 description: Returns the disk pack to which the current disk is a member.
 old-location: base\ivdsdisk_getpack.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 52c7edb5-a92d-423d-8115-e8c3cccd95b5
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetPack method [VDS], GetPack method [VDS], IVdsDisk interface, GetPack,IVdsDisk.GetPack, IVdsDisk, IVdsDisk interface [VDS], GetPack method, IVdsDisk::GetPack, base.ivdsdisk_getpack, vds/IVdsDisk::GetPack
+ms.keywords: GetPack, GetPack method [VDS], GetPack method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],GetPack method, IVdsDisk.GetPack, IVdsDisk::GetPack, base.ivdsdisk_getpack, vds/IVdsDisk::GetPack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsDisk::GetPack method
+# IVdsDisk::GetPack
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorProfile.IsMediaTypeSupported
-title: IMFSensorProfile::IsMediaTypeSupported method
+title: IMFSensorProfile::IsMediaTypeSupported
 author: windows-driver-content
 description: Determines if a media stream supports the specified media type.
 old-location: mf\imfsensorprofile_ismediatypesupported.htm
 old-project: medfound
 ms.assetid: 9535AF14-A6DF-49E9-B264-734B96A3DC29
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSensorProfile, IMFSensorProfile interface [Media Foundation], IsMediaTypeSupported method, IMFSensorProfile::IsMediaTypeSupported, IsMediaTypeSupported method [Media Foundation], IsMediaTypeSupported method [Media Foundation], IMFSensorProfile interface, IsMediaTypeSupported,IMFSensorProfile.IsMediaTypeSupported, mf.imfsensorprofile_ismediatypesupported, mfidl/IMFSensorProfile::IsMediaTypeSupported
+ms.date: 5/3/2018
+ms.keywords: IMFSensorProfile interface [Media Foundation],IsMediaTypeSupported method, IMFSensorProfile.IsMediaTypeSupported, IMFSensorProfile::IsMediaTypeSupported, IsMediaTypeSupported, IsMediaTypeSupported method [Media Foundation], IsMediaTypeSupported method [Media Foundation],IMFSensorProfile interface, mf.imfsensorprofile_ismediatypesupported, mfidl/IMFSensorProfile::IsMediaTypeSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorProfile::IsMediaTypeSupported method
+# IMFSensorProfile::IsMediaTypeSupported
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskHandler.Pause
-title: ITaskHandler::Pause method
+title: ITaskHandler::Pause
 author: windows-driver-content
 description: Called to pause the COM handler.
 old-location: taskschd\itaskhandler_pause.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 851e3f20-a996-4a4b-bf10-7ba5c79c3d82
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskHandler, ITaskHandler interface [Task Scheduler], Pause method, ITaskHandler::Pause, Pause method [Task Scheduler], Pause method [Task Scheduler], ITaskHandler interface, Pause,ITaskHandler.Pause, taskschd.itaskhandler_pause, taskschd/ITaskHandler::Pause
+ms.keywords: ITaskHandler interface [Task Scheduler],Pause method, ITaskHandler.Pause, ITaskHandler::Pause, Pause, Pause method [Task Scheduler], Pause method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_pause, taskschd/ITaskHandler::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskHandler::Pause method
+# ITaskHandler::Pause
 
 
 ## -description

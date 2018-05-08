@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.Run
-title: IMSVidPlayback::Run method
+title: IMSVidPlayback::Run
 author: windows-driver-content
 description: The Run method runs the playback device.
 old-location: mstv\imsvidplayback_run.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 58374819-82dd-4ffe-8cd7-ad51ea0d7207
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidPlayback, IMSVidPlayback interface [Microsoft TV Technologies], Run method, IMSVidPlayback::Run, IMSVidPlaybackRun, Run method [Microsoft TV Technologies], Run method [Microsoft TV Technologies], IMSVidPlayback interface, Run,IMSVidPlayback.Run, mstv.imsvidplayback_run, segment/IMSVidPlayback::Run
+ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Run method, IMSVidPlayback.Run, IMSVidPlayback::Run, IMSVidPlaybackRun, Run, Run method [Microsoft TV Technologies], Run method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_run, segment/IMSVidPlayback::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidPlayback::Run method
+# IMSVidPlayback::Run
 
 
 ## -description

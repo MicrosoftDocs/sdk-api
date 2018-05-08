@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.IMSCEPSetup.GetMSCEPSetupProperty
-title: IMSCEPSetup::GetMSCEPSetupProperty method
+title: IMSCEPSetup::GetMSCEPSetupProperty
 author: windows-driver-content
 description: Gets a property value for a Network Device Enrollment Service (NDES) configuration.
 old-location: security\imscepsetup_getmscepsetupproperty.htm
 old-project: SecCrypto
 ms.assetid: b598331d-b54b-4e12-bea4-99cf1e6a5872
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetMSCEPSetupProperty method [Security], GetMSCEPSetupProperty method [Security], IMSCEPSetup interface, GetMSCEPSetupProperty,IMSCEPSetup.GetMSCEPSetupProperty, IMSCEPSetup, IMSCEPSetup interface [Security], GetMSCEPSetupProperty method, IMSCEPSetup::GetMSCEPSetupProperty, casetup/IMSCEPSetup::GetMSCEPSetupProperty, security.imscepsetup_getmscepsetupproperty
+ms.date: 4/30/2018
+ms.keywords: GetMSCEPSetupProperty, GetMSCEPSetupProperty method [Security], GetMSCEPSetupProperty method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetMSCEPSetupProperty method, IMSCEPSetup.GetMSCEPSetupProperty, IMSCEPSetup::GetMSCEPSetupProperty, casetup/IMSCEPSetup::GetMSCEPSetupProperty, security.imscepsetup_getmscepsetupproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# IMSCEPSetup::GetMSCEPSetupProperty method
+# IMSCEPSetup::GetMSCEPSetupProperty
 
 
 ## -description

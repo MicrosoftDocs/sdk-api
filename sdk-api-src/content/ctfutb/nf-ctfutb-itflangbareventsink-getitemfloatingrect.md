@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.GetItemFloatingRect
-title: ITfLangBarEventSink::GetItemFloatingRect method
+title: ITfLangBarEventSink::GetItemFloatingRect
 author: windows-driver-content
 description: ITfLangBarEventSink::GetItemFloatingRect method
 old-location: tsf\itflangbareventsink_getitemfloatingrect.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 05747d41-1342-4189-b654-ceb8fadcadd5
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetItemFloatingRect method [Text Services Framework], GetItemFloatingRect method [Text Services Framework], ITfLangBarEventSink interface, GetItemFloatingRect,ITfLangBarEventSink.GetItemFloatingRect, ITfLangBarEventSink, ITfLangBarEventSink interface [Text Services Framework], GetItemFloatingRect method, ITfLangBarEventSink::GetItemFloatingRect, _tsf_itflangbareventsink_getitemfloatingrect_ref, ctfutb/ITfLangBarEventSink::GetItemFloatingRect, tsf.itflangbareventsink_getitemfloatingrect
+ms.keywords: GetItemFloatingRect, GetItemFloatingRect method [Text Services Framework], GetItemFloatingRect method [Text Services Framework],ITfLangBarEventSink interface, ITfLangBarEventSink interface [Text Services Framework],GetItemFloatingRect method, ITfLangBarEventSink.GetItemFloatingRect, ITfLangBarEventSink::GetItemFloatingRect, _tsf_itflangbareventsink_getitemfloatingrect_ref, ctfutb/ITfLangBarEventSink::GetItemFloatingRect, tsf.itflangbareventsink_getitemfloatingrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msutb.dll
 req.irql: 
 ---
 
-# ITfLangBarEventSink::GetItemFloatingRect method
+# ITfLangBarEventSink::GetItemFloatingRect
 
 
 ## -description

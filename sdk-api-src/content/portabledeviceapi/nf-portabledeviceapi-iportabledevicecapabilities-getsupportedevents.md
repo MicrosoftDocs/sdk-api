@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedEvents
-title: IPortableDeviceCapabilities::GetSupportedEvents method
+title: IPortableDeviceCapabilities::GetSupportedEvents
 author: windows-driver-content
 description: The GetSupportedEvents method retrieves the supported events for this device.
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedevents.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: f5082b2b-d925-4f9d-bbfd-edcf4553a6fa
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetSupportedEvents method [Windows Portable Devices SDK], GetSupportedEvents method [Windows Portable Devices SDK], IPortableDeviceCapabilities interface, GetSupportedEvents,IPortableDeviceCapabilities.GetSupportedEvents, IPortableDeviceCapabilities, IPortableDeviceCapabilities interface [Windows Portable Devices SDK], GetSupportedEvents method, IPortableDeviceCapabilities::GetSupportedEvents, IPortableDeviceCapabilitiesGetSupportedEvents, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedEvents, wpdsdk.iportabledevicecapabilities_getsupportedevents
+ms.keywords: GetSupportedEvents, GetSupportedEvents method [Windows Portable Devices SDK], GetSupportedEvents method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedEvents method, IPortableDeviceCapabilities.GetSupportedEvents, IPortableDeviceCapabilities::GetSupportedEvents, IPortableDeviceCapabilitiesGetSupportedEvents, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedEvents, wpdsdk.iportabledevicecapabilities_getsupportedevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceCapabilities::GetSupportedEvents method
+# IPortableDeviceCapabilities::GetSupportedEvents
 
 
 ## -description

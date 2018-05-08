@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoManager.RedoTo
-title: IOleUndoManager::RedoTo method
+title: IOleUndoManager::RedoTo
 author: windows-driver-content
 description: Instructs the undo manager to invoke undo actions back through the redo stack, down to and including the specified undo unit.
 old-location: com\ioleundomanager_redoto.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1d5d0cb6-2c1b-49c8-8923-59845fa6231c
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleUndoManager, IOleUndoManager interface [COM], RedoTo method, IOleUndoManager::RedoTo, RedoTo method [COM], RedoTo method [COM], IOleUndoManager interface, RedoTo,IOleUndoManager.RedoTo, _ole_ioleundomanager_redoto, com.ioleundomanager_redoto, ocidl/IOleUndoManager::RedoTo
+ms.keywords: IOleUndoManager interface [COM],RedoTo method, IOleUndoManager.RedoTo, IOleUndoManager::RedoTo, RedoTo, RedoTo method [COM], RedoTo method [COM],IOleUndoManager interface, _ole_ioleundomanager_redoto, com.ioleundomanager_redoto, ocidl/IOleUndoManager::RedoTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleUndoManager::RedoTo method
+# IOleUndoManager::RedoTo
 
 
 ## -description

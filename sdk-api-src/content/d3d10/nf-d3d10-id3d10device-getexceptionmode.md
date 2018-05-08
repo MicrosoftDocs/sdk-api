@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.GetExceptionMode
-title: ID3D10Device::GetExceptionMode method
+title: ID3D10Device::GetExceptionMode
 author: windows-driver-content
 description: Get the exception-mode flags.
 old-location: direct3d10\id3d10device_getexceptionmode.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_getexceptionmode.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 54b3d5fb-a9f3-6db2-1a8d-4bbc06e45e39, GetExceptionMode method [Direct3D 10], GetExceptionMode method [Direct3D 10], ID3D10Device interface, GetExceptionMode,ID3D10Device.GetExceptionMode, ID3D10Device, ID3D10Device interface [Direct3D 10], GetExceptionMode method, ID3D10Device::GetExceptionMode, d3d10/ID3D10Device::GetExceptionMode, direct3d10.id3d10device_getexceptionmode
+ms.keywords: 54b3d5fb-a9f3-6db2-1a8d-4bbc06e45e39, GetExceptionMode, GetExceptionMode method [Direct3D 10], GetExceptionMode method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetExceptionMode method, ID3D10Device.GetExceptionMode, ID3D10Device::GetExceptionMode, d3d10/ID3D10Device::GetExceptionMode, direct3d10.id3d10device_getexceptionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::GetExceptionMode method
+# ID3D10Device::GetExceptionMode
 
 
 ## -description

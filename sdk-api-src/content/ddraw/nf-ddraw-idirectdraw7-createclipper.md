@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.CreateClipper
-title: IDirectDraw7::CreateClipper method
+title: IDirectDraw7::CreateClipper
 author: windows-driver-content
 description: Creates a DirectDrawClipper object.
 old-location: directdraw\idirectdraw7_createclipper.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 123a07c0-d371-4d10-bff8-b5640bd3b920
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: CreateClipper method [DirectDraw], CreateClipper method [DirectDraw], IDirectDraw7 interface, CreateClipper,IDirectDraw7.CreateClipper, IDirectDraw7, IDirectDraw7 interface [DirectDraw], CreateClipper method, IDirectDraw7::CreateClipper, ddraw/IDirectDraw7::CreateClipper, directdraw.idirectdraw7_createclipper
+ms.keywords: CreateClipper, CreateClipper method [DirectDraw], CreateClipper method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],CreateClipper method, IDirectDraw7.CreateClipper, IDirectDraw7::CreateClipper, ddraw/IDirectDraw7::CreateClipper, directdraw.idirectdraw7_createclipper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDraw7::CreateClipper method
+# IDirectDraw7::CreateClipper
 
 
 ## -description

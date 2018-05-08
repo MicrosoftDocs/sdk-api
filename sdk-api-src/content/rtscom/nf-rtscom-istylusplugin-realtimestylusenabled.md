@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IStylusPlugin.RealTimeStylusEnabled
-title: IStylusPlugin::RealTimeStylusEnabled method
+title: IStylusPlugin::RealTimeStylusEnabled
 author: windows-driver-content
 description: Notifies the implementing plug-in that the RealTimeStylus Class (RTS) object is enabled.
 old-location: tablet\istylusplugin_realtimestylusenabled.htm
 old-project: tablet
 ms.assetid: bd5689c1-32e2-4a37-8dd2-4525b16f4662
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], RealTimeStylusEnabled method, IStylusPlugin::RealTimeStylusEnabled, RealTimeStylusEnabled method [Tablet PC], RealTimeStylusEnabled method [Tablet PC], IStylusPlugin interface, RealTimeStylusEnabled,IStylusPlugin.RealTimeStylusEnabled, bd5689c1-32e2-4a37-8dd2-4525b16f4662, rtscom/IStylusPlugin::RealTimeStylusEnabled, tablet.istylusplugin_realtimestylusenabled
+ms.date: 5/2/2018
+ms.keywords: IStylusPlugin interface [Tablet PC],RealTimeStylusEnabled method, IStylusPlugin.RealTimeStylusEnabled, IStylusPlugin::RealTimeStylusEnabled, RealTimeStylusEnabled, RealTimeStylusEnabled method [Tablet PC], RealTimeStylusEnabled method [Tablet PC],IStylusPlugin interface, bd5689c1-32e2-4a37-8dd2-4525b16f4662, rtscom/IStylusPlugin::RealTimeStylusEnabled, tablet.istylusplugin_realtimestylusenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStylusPlugin::RealTimeStylusEnabled method
+# IStylusPlugin::RealTimeStylusEnabled
 
 
 ## -description

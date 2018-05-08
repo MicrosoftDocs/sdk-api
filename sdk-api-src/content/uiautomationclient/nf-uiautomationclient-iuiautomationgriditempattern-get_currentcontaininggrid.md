@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CurrentContainingGrid
-title: IUIAutomationGridItemPattern::get_CurrentContainingGrid method
+title: IUIAutomationGridItemPattern::get_CurrentContainingGrid
 author: windows-driver-content
 description: Retrieves the element that contains the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentContainingGrid.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 32ae5138-e48b-4943-ba50-1df378ed707a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentContainingGrid property [Windows Accessibility], CurrentContainingGrid property [Windows Accessibility], IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern, IUIAutomationGridItemPattern interface [Windows Accessibility], CurrentContainingGrid property, IUIAutomationGridItemPattern.CurrentContainingGrid, IUIAutomationGridItemPattern::get_CurrentContainingGrid, get_CurrentContainingGrid,IUIAutomationGridItemPattern.get_CurrentContainingGrid, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentContainingGrid, uiauto_IUIAutomationGridItemPattern_CurrentContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::CurrentContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentContainingGrid, winauto.uiauto_IUIAutomationGridItemPattern_CurrentContainingGrid
+ms.keywords: CurrentContainingGrid property [Windows Accessibility], CurrentContainingGrid property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CurrentContainingGrid property, IUIAutomationGridItemPattern.CurrentContainingGrid, IUIAutomationGridItemPattern.get_CurrentContainingGrid, IUIAutomationGridItemPattern::CurrentContainingGrid, IUIAutomationGridItemPattern::get_CurrentContainingGrid, get_CurrentContainingGrid, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentContainingGrid, uiauto_IUIAutomationGridItemPattern_CurrentContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::CurrentContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentContainingGrid, winauto.uiauto_IUIAutomationGridItemPattern_CurrentContainingGrid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationGridItemPattern::get_CurrentContainingGrid method
+# IUIAutomationGridItemPattern::get_CurrentContainingGrid
 
 
 ## -description

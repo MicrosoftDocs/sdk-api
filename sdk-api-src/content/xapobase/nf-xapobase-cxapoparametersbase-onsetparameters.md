@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.OnSetParameters
-title: CXAPOParametersBase::OnSetParameters method
+title: CXAPOParametersBase::OnSetParameters
 author: windows-driver-content
 description: Called by IXAPOParameters::SetParameters to allow for user-defined parameter validation.
 old-location: xaudio2\cxapoparametersbase_onsetparameters.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.OnSetParameters(const void,UINT32)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs], OnSetParameters method, CXAPOParametersBase::OnSetParameters, OnSetParameters method [XAudio2 Audio Mixing APIs], OnSetParameters method [XAudio2 Audio Mixing APIs], CXAPOParametersBase interface, OnSetParameters,CXAPOParametersBase.OnSetParameters, xapobase/CXAPOParametersBase::OnSetParameters, xaudio2.cxapoparametersbase_onsetparameters
+ms.keywords: CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],OnSetParameters method, CXAPOParametersBase.OnSetParameters, CXAPOParametersBase::OnSetParameters, OnSetParameters, OnSetParameters method [XAudio2 Audio Mixing APIs], OnSetParameters method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, xapobase/CXAPOParametersBase::OnSetParameters, xaudio2.cxapoparametersbase_onsetparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# CXAPOParametersBase::OnSetParameters method
+# CXAPOParametersBase::OnSetParameters
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.GetDocumentSequence
-title: IXpsOMPackage::GetDocumentSequence method
+title: IXpsOMPackage::GetDocumentSequence
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMDocumentSequence interface that contains the document sequence of the XPS package.
 old-location: xps\ixpsompackage_getdocumentsequence.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 30789376-1ac8-41ae-9c4d-e3d2d0715016
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDocumentSequence method [XPS Documents and Packaging], GetDocumentSequence method [XPS Documents and Packaging], IXpsOMPackage interface, GetDocumentSequence,IXpsOMPackage.GetDocumentSequence, IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], GetDocumentSequence method, IXpsOMPackage::GetDocumentSequence, xps.ixpsompackage_getdocumentsequence, xpsobjectmodel/IXpsOMPackage::GetDocumentSequence
+ms.keywords: GetDocumentSequence, GetDocumentSequence method [XPS Documents and Packaging], GetDocumentSequence method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetDocumentSequence method, IXpsOMPackage.GetDocumentSequence, IXpsOMPackage::GetDocumentSequence, xps.ixpsompackage_getdocumentsequence, xpsobjectmodel/IXpsOMPackage::GetDocumentSequence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPackage::GetDocumentSequence method
+# IXpsOMPackage::GetDocumentSequence
 
 
 ## -description

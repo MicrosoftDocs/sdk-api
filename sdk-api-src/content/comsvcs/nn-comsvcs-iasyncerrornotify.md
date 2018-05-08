@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 870ab43a-c675-499b-a1e3-1f48176768c0
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IAsyncErrorNotify, IAsyncErrorNotify interface [COM+], IAsyncErrorNotify interface [COM+], described, _cos_IAsyncErrorNotify, comsvcs/IAsyncErrorNotify, cos.iasyncerrornotify
+ms.keywords: IAsyncErrorNotify, IAsyncErrorNotify interface [COM+], IAsyncErrorNotify interface [COM+],described, _cos_IAsyncErrorNotify, comsvcs/IAsyncErrorNotify, cos.iasyncerrornotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

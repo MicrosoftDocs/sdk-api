@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 97495455-a576-4984-beb8-9282073e88c2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsPrintQueueOperations, IADsPrintQueueOperations interface [ADSI], IADsPrintQueueOperations interface [ADSI], described, _ds_iadsprintqueueoperations, adsi.iadsprintqueueoperations, iads/IADsPrintQueueOperations
+ms.keywords: IADsPrintQueueOperations, IADsPrintQueueOperations interface [ADSI], IADsPrintQueueOperations interface [ADSI],described, _ds_iadsprintqueueoperations, adsi.iadsprintqueueoperations, iads/IADsPrintQueueOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

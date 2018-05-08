@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.setDefaultAuthorization
-title: IWindowsMediaLibrarySharingServices::setDefaultAuthorization method
+title: IWindowsMediaLibrarySharingServices::setDefaultAuthorization
 author: windows-driver-content
 description: The setDefaultAuthorization method enables or disables access to all users' media libraries by a specified set of devices.
 old-location: wmlss\IWMLSSsetDefaultAuthorization.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: 7885f571-6b93-47d8-82ab-d998851f1304
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], setDefaultAuthorization method, IWindowsMediaLibrarySharingServices::setDefaultAuthorization, setDefaultAuthorization method [Windows Media Library Sharing Services], setDefaultAuthorization method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, setDefaultAuthorization,IWindowsMediaLibrarySharingServices.setDefaultAuthorization, wmlss.IWMLSSsetDefaultAuthorization, wmlss/IWindowsMediaLibrarySharingServices::setDefaultAuthorization
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],setDefaultAuthorization method, IWindowsMediaLibrarySharingServices.setDefaultAuthorization, IWindowsMediaLibrarySharingServices::setDefaultAuthorization, setDefaultAuthorization, setDefaultAuthorization method [Windows Media Library Sharing Services], setDefaultAuthorization method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSsetDefaultAuthorization, wmlss/IWindowsMediaLibrarySharingServices::setDefaultAuthorization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::setDefaultAuthorization method
+# IWindowsMediaLibrarySharingServices::setDefaultAuthorization
 
 
 ## -description

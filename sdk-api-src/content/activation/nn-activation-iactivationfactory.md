@@ -7,8 +7,8 @@ old-location: winrt\iactivationfactory.htm
 old-project: WinRT
 ms.assetid: C6A2ED6E-9C45-4CF3-A301-72A5DAEB4DFC
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IActivationFactory, IActivationFactory interface [Windows Runtime], IActivationFactory interface [Windows Runtime], described, activation/IActivationFactory, winrt.iactivationfactory
+ms.date: 5/4/2018
+ms.keywords: IActivationFactory, IActivationFactory interface [Windows Runtime], IActivationFactory interface [Windows Runtime],described, activation/IActivationFactory, winrt.iactivationfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFMediaTypeHandler.GetMediaTypeByIndex
-title: IMFMediaTypeHandler::GetMediaTypeByIndex method
+title: IMFMediaTypeHandler::GetMediaTypeByIndex
 author: windows-driver-content
 description: Retrieves a media type from the object's list of supported media types.
 old-location: mf\imfmediatypehandler_getmediatypebyindex.htm
 old-project: medfound
 ms.assetid: a1827675-bbc4-45d8-8c6e-644b0d2addd4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetMediaTypeByIndex method [Media Foundation], GetMediaTypeByIndex method [Media Foundation], IMFMediaTypeHandler interface, GetMediaTypeByIndex,IMFMediaTypeHandler.GetMediaTypeByIndex, IMFMediaTypeHandler, IMFMediaTypeHandler interface [Media Foundation], GetMediaTypeByIndex method, IMFMediaTypeHandler::GetMediaTypeByIndex, a1827675-bbc4-45d8-8c6e-644b0d2addd4, mf.imfmediatypehandler_getmediatypebyindex, mfidl/IMFMediaTypeHandler::GetMediaTypeByIndex
+ms.date: 5/3/2018
+ms.keywords: GetMediaTypeByIndex, GetMediaTypeByIndex method [Media Foundation], GetMediaTypeByIndex method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetMediaTypeByIndex method, IMFMediaTypeHandler.GetMediaTypeByIndex, IMFMediaTypeHandler::GetMediaTypeByIndex, a1827675-bbc4-45d8-8c6e-644b0d2addd4, mf.imfmediatypehandler_getmediatypebyindex, mfidl/IMFMediaTypeHandler::GetMediaTypeByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaTypeHandler::GetMediaTypeByIndex method
+# IMFMediaTypeHandler::GetMediaTypeByIndex
 
 
 ## -description

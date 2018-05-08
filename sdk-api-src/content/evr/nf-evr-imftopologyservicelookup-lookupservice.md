@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFTopologyServiceLookup.LookupService
-title: IMFTopologyServiceLookup::LookupService method
+title: IMFTopologyServiceLookup::LookupService
 author: windows-driver-content
 description: Retrieves an interface from the enhanced video renderer (EVR), or from the video mixer or video presenter.
 old-location: mf\imftopologyservicelookup_lookupservice.htm
 old-project: medfound
 ms.assetid: ba0dbfdf-1bab-42ba-910f-04a3f37be955
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTopologyServiceLookup, IMFTopologyServiceLookup interface [Media Foundation], LookupService method, IMFTopologyServiceLookup::LookupService, LookupService method [Media Foundation], LookupService method [Media Foundation], IMFTopologyServiceLookup interface, LookupService,IMFTopologyServiceLookup.LookupService, ba0dbfdf-1bab-42ba-910f-04a3f37be955, evr/IMFTopologyServiceLookup::LookupService, mf.imftopologyservicelookup_lookupservice
+ms.date: 5/3/2018
+ms.keywords: IMFTopologyServiceLookup interface [Media Foundation],LookupService method, IMFTopologyServiceLookup.LookupService, IMFTopologyServiceLookup::LookupService, LookupService, LookupService method [Media Foundation], LookupService method [Media Foundation],IMFTopologyServiceLookup interface, ba0dbfdf-1bab-42ba-910f-04a3f37be955, evr/IMFTopologyServiceLookup::LookupService, mf.imftopologyservicelookup_lookupservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFTopologyServiceLookup::LookupService method
+# IMFTopologyServiceLookup::LookupService
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDeviceManufacturer
-title: IPortableDeviceManager::GetDeviceManufacturer method
+title: IPortableDeviceManager::GetDeviceManufacturer
 author: windows-driver-content
 description: Retrieves the name of the device manufacturer.
 old-location: wpdsdk\iportabledevicemanager_getdevicemanufacturer.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 2bd64da1-819d-430c-ab66-ab3b8e6c48f6
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetDeviceManufacturer method [Windows Portable Devices SDK], GetDeviceManufacturer method [Windows Portable Devices SDK], IPortableDeviceManager interface, GetDeviceManufacturer,IPortableDeviceManager.GetDeviceManufacturer, IPortableDeviceManager, IPortableDeviceManager interface [Windows Portable Devices SDK], GetDeviceManufacturer method, IPortableDeviceManager::GetDeviceManufacturer, IPortableDeviceManagerGetDeviceManufacturer, portabledeviceapi/IPortableDeviceManager::GetDeviceManufacturer, wpdsdk.iportabledevicemanager_getdevicemanufacturer
+ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Portable Devices SDK], GetDeviceManufacturer method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceManufacturer method, IPortableDeviceManager.GetDeviceManufacturer, IPortableDeviceManager::GetDeviceManufacturer, IPortableDeviceManagerGetDeviceManufacturer, portabledeviceapi/IPortableDeviceManager::GetDeviceManufacturer, wpdsdk.iportabledevicemanager_getdevicemanufacturer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceManager::GetDeviceManufacturer method
+# IPortableDeviceManager::GetDeviceManufacturer
 
 
 ## -description

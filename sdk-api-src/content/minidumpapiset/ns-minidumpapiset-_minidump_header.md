@@ -84,20 +84,20 @@ The base RVA of the minidump directory. The directory is an array of
 The checksum for the minidump file. This member can be zero.
 
 
-### -field Flags
-
-One or more values from the 
-<a href="https://msdn.microsoft.com/89ae3a75-5f02-4c5e-9d72-95fb8ef94985">MINIDUMP_TYPE</a> enumeration type.
-
-
-#### - Reserved
+### -field Reserved
 
 This member is reserved.
 
 
-#### - TimeDateStamp
+### -field TimeDateStamp
 
 Time and date, in <b>time_t</b> format.
+
+
+### -field Flags
+
+One or more values from the 
+<a href="https://msdn.microsoft.com/89ae3a75-5f02-4c5e-9d72-95fb8ef94985">MINIDUMP_TYPE</a> enumeration type.
 
 
 ## -see-also

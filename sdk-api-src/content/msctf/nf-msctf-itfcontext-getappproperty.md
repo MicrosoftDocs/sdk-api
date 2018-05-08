@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetAppProperty
-title: ITfContext::GetAppProperty method
+title: ITfContext::GetAppProperty
 author: windows-driver-content
 description: ITfContext::GetAppProperty method
 old-location: tsf\itfcontext_getappproperty.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5c04ff8e-5686-4802-b312-71dddaf0155e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetAppProperty method [Text Services Framework], GetAppProperty method [Text Services Framework], ITfContext interface, GetAppProperty,ITfContext.GetAppProperty, ITfContext, ITfContext interface [Text Services Framework], GetAppProperty method, ITfContext::GetAppProperty, _tsf_itfcontext_getappproperty_ref, msctf/ITfContext::GetAppProperty, tsf.itfcontext_getappproperty
+ms.keywords: GetAppProperty, GetAppProperty method [Text Services Framework], GetAppProperty method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetAppProperty method, ITfContext.GetAppProperty, ITfContext::GetAppProperty, _tsf_itfcontext_getappproperty_ref, msctf/ITfContext::GetAppProperty, tsf.itfcontext_getappproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContext::GetAppProperty method
+# ITfContext::GetAppProperty
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_CurrentUpdateIndex
-title: IDownloadProgress::get_CurrentUpdateIndex method
+title: IDownloadProgress::get_CurrentUpdateIndex
 author: windows-driver-content
 description: Gets a zero-based index value that specifies the update that is currently being downloaded when multiple updates have been selected.
 old-location: wua\idownloadprogress_currentupdateindex.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: e357229d-cfb3-4ed6-b5b4-2e830fbda1ba
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CurrentUpdateIndex property [Windows Update Agent], CurrentUpdateIndex property [Windows Update Agent], IDownloadProgress interface, IDownloadProgress, IDownloadProgress interface [Windows Update Agent], CurrentUpdateIndex property, IDownloadProgress.CurrentUpdateIndex, IDownloadProgress::get_CurrentUpdateIndex, get_CurrentUpdateIndex,IDownloadProgress.get_CurrentUpdateIndex, wua.idownloadprogress_currentupdateindex, wuapi/IDownloadProgress::CurrentUpdateIndex, wuapi/IDownloadProgress::get_CurrentUpdateIndex
+ms.keywords: CurrentUpdateIndex property [Windows Update Agent], CurrentUpdateIndex property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdateIndex property, IDownloadProgress.CurrentUpdateIndex, IDownloadProgress.get_CurrentUpdateIndex, IDownloadProgress::CurrentUpdateIndex, IDownloadProgress::get_CurrentUpdateIndex, get_CurrentUpdateIndex, wua.idownloadprogress_currentupdateindex, wuapi/IDownloadProgress::CurrentUpdateIndex, wuapi/IDownloadProgress::get_CurrentUpdateIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IDownloadProgress::get_CurrentUpdateIndex method
+# IDownloadProgress::get_CurrentUpdateIndex
 
 
 ## -description

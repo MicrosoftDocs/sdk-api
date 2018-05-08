@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnPreferredProvidersChange
-title: IMbnInterfaceEvents::OnPreferredProvidersChange method
+title: IMbnInterfaceEvents::OnPreferredProvidersChange
 author: windows-driver-content
 description: This notification method is called by the Mobile Broadband service to indicate a change in a device's preferred provider list.
 old-location: mbn\imbninterfaceevents_onpreferredproviderschange.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: ccede3de-4dfd-469f-afb4-d1424c56c7bc
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnInterfaceEvents, IMbnInterfaceEvents interface [Microsoft Broadband Networks], OnPreferredProvidersChange method, IMbnInterfaceEvents::OnPreferredProvidersChange, OnPreferredProvidersChange method [Microsoft Broadband Networks], OnPreferredProvidersChange method [Microsoft Broadband Networks], IMbnInterfaceEvents interface, OnPreferredProvidersChange,IMbnInterfaceEvents.OnPreferredProvidersChange, mbn.imbninterfaceevents_onpreferredproviderschange, mbnapi/IMbnInterfaceEvents::OnPreferredProvidersChange
+ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnPreferredProvidersChange method, IMbnInterfaceEvents.OnPreferredProvidersChange, IMbnInterfaceEvents::OnPreferredProvidersChange, OnPreferredProvidersChange, OnPreferredProvidersChange method [Microsoft Broadband Networks], OnPreferredProvidersChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onpreferredproviderschange, mbnapi/IMbnInterfaceEvents::OnPreferredProvidersChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnInterfaceEvents::OnPreferredProvidersChange method
+# IMbnInterfaceEvents::OnPreferredProvidersChange
 
 
 ## -description

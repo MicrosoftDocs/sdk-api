@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.GetStoryboardFromTag
-title: IUIAnimationManager::GetStoryboardFromTag method
+title: IUIAnimationManager::GetStoryboardFromTag
 author: windows-driver-content
 description: Gets the storyboard with the specified tag.
 old-location: uianimation\iuianimationmanager_getstoryboardfromtag.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 74a9265a-3602-4707-949e-6073cbde9ac4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStoryboardFromTag method [Windows Animation], GetStoryboardFromTag method [Windows Animation], IUIAnimationManager interface, GetStoryboardFromTag,IUIAnimationManager.GetStoryboardFromTag, IUIAnimationManager, IUIAnimationManager interface [Windows Animation], GetStoryboardFromTag method, IUIAnimationManager::GetStoryboardFromTag, uianimation.iuianimationmanager_getstoryboardfromtag, uianimation/IUIAnimationManager::GetStoryboardFromTag
+ms.keywords: GetStoryboardFromTag, GetStoryboardFromTag method [Windows Animation], GetStoryboardFromTag method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],GetStoryboardFromTag method, IUIAnimationManager.GetStoryboardFromTag, IUIAnimationManager::GetStoryboardFromTag, uianimation.iuianimationmanager_getstoryboardfromtag, uianimation/IUIAnimationManager::GetStoryboardFromTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager::GetStoryboardFromTag method
+# IUIAnimationManager::GetStoryboardFromTag
 
 
 ## -description

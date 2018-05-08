@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IConditionFactory.MakeNot
-title: IConditionFactory::MakeNot method
+title: IConditionFactory::MakeNot
 author: windows-driver-content
 description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
 old-location: search\_search_IConditionFactory_MakeNot.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makenot.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IConditionFactory, IConditionFactory interface [search], MakeNot method, IConditionFactory::MakeNot, MakeNot method [search], MakeNot method [search], IConditionFactory interface, MakeNot,IConditionFactory.MakeNot, _search_IConditionFactory_MakeNot, search._search_IConditionFactory_MakeNot, structuredquery/IConditionFactory::MakeNot
+ms.date: 5/4/2018
+ms.keywords: IConditionFactory interface [search],MakeNot method, IConditionFactory.MakeNot, IConditionFactory::MakeNot, MakeNot, MakeNot method [search], MakeNot method [search],IConditionFactory interface, _search_IConditionFactory_MakeNot, search._search_IConditionFactory_MakeNot, structuredquery/IConditionFactory::MakeNot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IConditionFactory::MakeNot method
+# IConditionFactory::MakeNot
 
 
 ## -description

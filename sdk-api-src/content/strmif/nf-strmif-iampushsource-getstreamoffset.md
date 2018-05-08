@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMPushSource.GetStreamOffset
-title: IAMPushSource::GetStreamOffset method
+title: IAMPushSource::GetStreamOffset
 author: windows-driver-content
 description: The GetStreamOffset method retrieves the offset that the filter uses when generating time stamps.
 old-location: dshow\iampushsource_getstreamoffset.htm
 old-project: DirectShow
 ms.assetid: 249d5262-e02d-4df7-a968-0680b64ab7d4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetStreamOffset method [DirectShow], GetStreamOffset method [DirectShow], IAMPushSource interface, GetStreamOffset,IAMPushSource.GetStreamOffset, IAMPushSource, IAMPushSource interface [DirectShow], GetStreamOffset method, IAMPushSource::GetStreamOffset, IAMPushSourceGetStreamOffset, dshow.iampushsource_getstreamoffset, strmif/IAMPushSource::GetStreamOffset
+ms.date: 4/30/2018
+ms.keywords: GetStreamOffset, GetStreamOffset method [DirectShow], GetStreamOffset method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetStreamOffset method, IAMPushSource.GetStreamOffset, IAMPushSource::GetStreamOffset, IAMPushSourceGetStreamOffset, dshow.iampushsource_getstreamoffset, strmif/IAMPushSource::GetStreamOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMPushSource::GetStreamOffset method
+# IAMPushSource::GetStreamOffset
 
 
 ## -description

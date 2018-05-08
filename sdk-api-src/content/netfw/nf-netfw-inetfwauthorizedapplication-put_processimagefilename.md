@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_ProcessImageFileName
-title: INetFwAuthorizedApplication::put_ProcessImageFileName method
+title: INetFwAuthorizedApplication::put_ProcessImageFileName
 author: windows-driver-content
 description: Specifies the process image file name for this application.
 old-location: ics\inetfwauthorizedapplication_processimagefilename.htm
 old-project: ICS
 ms.assetid: 14e7c8e1-088c-4eae-8f93-7ee41bfa484b
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwAuthorizedApplication, INetFwAuthorizedApplication interface [ICS/ICF], ProcessImageFileName property, INetFwAuthorizedApplication.ProcessImageFileName, INetFwAuthorizedApplication::get_ProcessImageFileName, INetFwAuthorizedApplication::put_ProcessImageFileName, ProcessImageFileName property [ICS/ICF], ProcessImageFileName property [ICS/ICF], INetFwAuthorizedApplication interface, ics.inetfwauthorizedapplication_processimagefilename, netfw/INetFwAuthorizedApplication::ProcessImageFileName, netfw/INetFwAuthorizedApplication::get_ProcessImageFileName, netfw/INetFwAuthorizedApplication::put_ProcessImageFileName, put_ProcessImageFileName,INetFwAuthorizedApplication.put_ProcessImageFileName
+ms.date: 5/1/2018
+ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],ProcessImageFileName property, INetFwAuthorizedApplication.ProcessImageFileName, INetFwAuthorizedApplication.put_ProcessImageFileName, INetFwAuthorizedApplication::ProcessImageFileName, INetFwAuthorizedApplication::get_ProcessImageFileName, INetFwAuthorizedApplication::put_ProcessImageFileName, ProcessImageFileName property [ICS/ICF], ProcessImageFileName property [ICS/ICF],INetFwAuthorizedApplication interface, ics.inetfwauthorizedapplication_processimagefilename, netfw/INetFwAuthorizedApplication::ProcessImageFileName, netfw/INetFwAuthorizedApplication::get_ProcessImageFileName, netfw/INetFwAuthorizedApplication::put_ProcessImageFileName, put_ProcessImageFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwAuthorizedApplication::put_ProcessImageFileName method
+# INetFwAuthorizedApplication::put_ProcessImageFileName
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6capiinitialize.htm
 old-project: DHCP
 ms.assetid: 4bf74a3d-5674-4bc7-b94c-cf6232bdc8d9
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: Dhcpv6CApiInitialize, Dhcpv6CApiInitialize function [DHCP], dhcp.dhcpv6capiinitialize, dhcpv6csdk/Dhcpv6CApiInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.Clone
-title: IUIAutomationTextRange::Clone method
+title: IUIAutomationTextRange::Clone
 author: windows-driver-content
 description: Retrieves a new IUIAutomationTextRange identical to the original and inheriting all properties of the original.
 old-location: winauto\uiauto_IUIAutomationTextRange_Clone.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 0f41fecf-fd66-443f-bc4d-23c05a4d3824
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Clone method [Windows Accessibility], Clone method [Windows Accessibility], IUIAutomationTextRange interface, Clone,IUIAutomationTextRange.Clone, IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], Clone method, IUIAutomationTextRange::Clone, uiauto.uiauto_IUIAutomationTextRange_Clone, uiauto_IUIAutomationTextRange_Clone, uiautomationclient/IUIAutomationTextRange::Clone, winauto.uiauto_IUIAutomationTextRange_Clone
+ms.keywords: Clone, Clone method [Windows Accessibility], Clone method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],Clone method, IUIAutomationTextRange.Clone, IUIAutomationTextRange::Clone, uiauto.uiauto_IUIAutomationTextRange_Clone, uiauto_IUIAutomationTextRange_Clone, uiautomationclient/IUIAutomationTextRange::Clone, winauto.uiauto_IUIAutomationTextRange_Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTextRange::Clone method
+# IUIAutomationTextRange::Clone
 
 
 ## -description

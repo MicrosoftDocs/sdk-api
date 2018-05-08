@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.Reset
-title: ICertEncodeStringArray::Reset method
+title: ICertEncodeStringArray::Reset
 author: windows-driver-content
 description: Specifies the size of the string array and the type of strings the array will contain.
 old-location: security\icertencodestringarray_reset.htm
 old-project: SecCrypto
 ms.assetid: 125524ae-236d-4507-9c00-76a016bf6c62
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeStringArray object [Security], Reset method, CERT_RDN_ANY_TYPE, CERT_RDN_GENERAL_STRING, CERT_RDN_GRAPHIC_STRING, CERT_RDN_IA5_STRING, CERT_RDN_INT4_STRING, CERT_RDN_ISO646_STRING, CERT_RDN_NUMERIC_STRING, CERT_RDN_PRINTABLE_STRING, CERT_RDN_T61_STRING, CERT_RDN_UNICODE_STRING, CERT_RDN_VIDEOTEX_STRING, ICertEncodeStringArray, ICertEncodeStringArray interface [Security], Reset method, ICertEncodeStringArray::Reset, Reset method [Security], Reset method [Security], CCertEncodeStringArray object, Reset method [Security], ICertEncodeStringArray interface, Reset,ICertEncodeStringArray.Reset, _certsrv_icertencodestringarray_reset, certenc/ICertEncodeStringArray::Reset, security.icertencodestringarray_reset
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeStringArray object [Security],Reset method, CERT_RDN_ANY_TYPE, CERT_RDN_GENERAL_STRING, CERT_RDN_GRAPHIC_STRING, CERT_RDN_IA5_STRING, CERT_RDN_INT4_STRING, CERT_RDN_ISO646_STRING, CERT_RDN_NUMERIC_STRING, CERT_RDN_PRINTABLE_STRING, CERT_RDN_T61_STRING, CERT_RDN_UNICODE_STRING, CERT_RDN_VIDEOTEX_STRING, ICertEncodeStringArray interface [Security],Reset method, ICertEncodeStringArray.Reset, ICertEncodeStringArray::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeStringArray object, Reset method [Security],ICertEncodeStringArray interface, _certsrv_icertencodestringarray_reset, certenc/ICertEncodeStringArray::Reset, security.icertencodestringarray_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeStringArray::Reset method
+# ICertEncodeStringArray::Reset
 
 
 ## -description

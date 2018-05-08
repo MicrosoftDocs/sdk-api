@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 0fbdad85-d94a-4598-bb25-f733df33692a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], IWMSInternalAdminNetSource interface [windows Media Format], described, IWMSInternalAdminNetSourceInterface, wmformat.iwmsinternaladminnetsource, wmsinternaladminnetsource/IWMSInternalAdminNetSource
+ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], IWMSInternalAdminNetSource interface [windows Media Format],described, IWMSInternalAdminNetSourceInterface, wmformat.iwmsinternaladminnetsource, wmsinternaladminnetsource/IWMSInternalAdminNetSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

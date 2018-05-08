@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.get_pluginVersion
-title: ItsPubPlugin::get_pluginVersion method
+title: ItsPubPlugin::get_pluginVersion
 author: windows-driver-content
 description: Retrieves the version of the plug-in.
 old-location: termserv\itspubplugin_pluginversion.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 39e5cc01-3945-4e78-bbce-bff5d5a5f22d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ItsPubPlugin, ItsPubPlugin interface [Remote Desktop Services], pluginVersion property, ItsPubPlugin.pluginVersion, ItsPubPlugin::get_pluginVersion, get_pluginVersion,ItsPubPlugin.get_pluginVersion, pluginVersion property [Remote Desktop Services], pluginVersion property [Remote Desktop Services], ItsPubPlugin interface, termserv.itspubplugin_pluginversion, tspubplugincom/ItsPubPlugin::get_pluginVersion, tspubplugincom/ItsPubPlugin::pluginVersion
+ms.keywords: ItsPubPlugin interface [Remote Desktop Services],pluginVersion property, ItsPubPlugin.get_pluginVersion, ItsPubPlugin.pluginVersion, ItsPubPlugin::get_pluginVersion, ItsPubPlugin::pluginVersion, get_pluginVersion, pluginVersion property [Remote Desktop Services], pluginVersion property [Remote Desktop Services],ItsPubPlugin interface, termserv.itspubplugin_pluginversion, tspubplugincom/ItsPubPlugin::get_pluginVersion, tspubplugincom/ItsPubPlugin::pluginVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ItsPubPlugin::get_pluginVersion method
+# ItsPubPlugin::get_pluginVersion
 
 
 ## -description

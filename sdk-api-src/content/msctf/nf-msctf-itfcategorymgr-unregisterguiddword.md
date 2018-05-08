@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.UnregisterGUIDDWORD
-title: ITfCategoryMgr::UnregisterGUIDDWORD method
+title: ITfCategoryMgr::UnregisterGUIDDWORD
 author: windows-driver-content
 description: ITfCategoryMgr::UnregisterGUIDDWORD method
 old-location: tsf\itfcategorymgr_unregisterguiddword.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 37161b4b-7dfc-4b8d-8e0b-3b9f794eb3b0
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCategoryMgr, ITfCategoryMgr interface [Text Services Framework], UnregisterGUIDDWORD method, ITfCategoryMgr::UnregisterGUIDDWORD, UnregisterGUIDDWORD method [Text Services Framework], UnregisterGUIDDWORD method [Text Services Framework], ITfCategoryMgr interface, UnregisterGUIDDWORD,ITfCategoryMgr.UnregisterGUIDDWORD, _tsf_itfcategorymgr_unregisterguiddword_ref, msctf/ITfCategoryMgr::UnregisterGUIDDWORD, tsf.itfcategorymgr_unregisterguiddword
+ms.keywords: ITfCategoryMgr interface [Text Services Framework],UnregisterGUIDDWORD method, ITfCategoryMgr.UnregisterGUIDDWORD, ITfCategoryMgr::UnregisterGUIDDWORD, UnregisterGUIDDWORD, UnregisterGUIDDWORD method [Text Services Framework], UnregisterGUIDDWORD method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_unregisterguiddword_ref, msctf/ITfCategoryMgr::UnregisterGUIDDWORD, tsf.itfcategorymgr_unregisterguiddword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCategoryMgr::UnregisterGUIDDWORD method
+# ITfCategoryMgr::UnregisterGUIDDWORD
 
 
 ## -description

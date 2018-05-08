@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.SetRestoreTarget
-title: IVssComponent::SetRestoreTarget method
+title: IVssComponent::SetRestoreTarget
 author: windows-driver-content
 description: The SetRestoreTarget method sets the restore target (in terms of the VSS_RESTORE_TARGET enumeration) for the current component.
 old-location: base\ivsscomponent_setrestoretarget.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 6e8b9322-6611-4a47-aa7a-876be01d33b8
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssComponent, IVssComponent interface [VSS], SetRestoreTarget method, IVssComponent::SetRestoreTarget, SetRestoreTarget method [VSS], SetRestoreTarget method [VSS], IVssComponent interface, SetRestoreTarget,IVssComponent.SetRestoreTarget, _win32_ivsscomponent_setrestoretarget, base.ivsscomponent_setrestoretarget, vswriter/IVssComponent::SetRestoreTarget
+ms.keywords: IVssComponent interface [VSS],SetRestoreTarget method, IVssComponent.SetRestoreTarget, IVssComponent::SetRestoreTarget, SetRestoreTarget, SetRestoreTarget method [VSS], SetRestoreTarget method [VSS],IVssComponent interface, _win32_ivsscomponent_setrestoretarget, base.ivsscomponent_setrestoretarget, vswriter/IVssComponent::SetRestoreTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::SetRestoreTarget method
+# IVssComponent::SetRestoreTarget
 
 
 ## -description

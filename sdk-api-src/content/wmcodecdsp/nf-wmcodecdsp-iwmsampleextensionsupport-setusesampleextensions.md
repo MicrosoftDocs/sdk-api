@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMSampleExtensionSupport.SetUseSampleExtensions
-title: IWMSampleExtensionSupport::SetUseSampleExtensions method
+title: IWMSampleExtensionSupport::SetUseSampleExtensions
 author: windows-driver-content
 description: Configures whether the codec supports sample extensions.
 old-location: mf\iwmsampleextensionsupportsetusesampleextensions.htm
 old-project: medfound
 ms.assetid: e268167e-4c29-45ec-9ce3-733374268113
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMSampleExtensionSupport, IWMSampleExtensionSupport interface [Media Foundation], SetUseSampleExtensions method, IWMSampleExtensionSupport::SetUseSampleExtensions, SetUseSampleExtensions method [Media Foundation], SetUseSampleExtensions method [Media Foundation], IWMSampleExtensionSupport interface, SetUseSampleExtensions,IWMSampleExtensionSupport.SetUseSampleExtensions, codecapi.iwmsampleextensionsupportsetusesampleextensions, mf.iwmsampleextensionsupportsetusesampleextensions, wmcodecdsp/ IWMSampleExtensionSupport::SetUseSampleExtensions
+ms.date: 5/3/2018
+ms.keywords: IWMSampleExtensionSupport interface [Media Foundation],SetUseSampleExtensions method, IWMSampleExtensionSupport.SetUseSampleExtensions, IWMSampleExtensionSupport::SetUseSampleExtensions, SetUseSampleExtensions, SetUseSampleExtensions method [Media Foundation], SetUseSampleExtensions method [Media Foundation],IWMSampleExtensionSupport interface, codecapi.iwmsampleextensionsupportsetusesampleextensions, mf.iwmsampleextensionsupportsetusesampleextensions, wmcodecdsp/ IWMSampleExtensionSupport::SetUseSampleExtensions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSampleExtensionSupport::SetUseSampleExtensions method
+# IWMSampleExtensionSupport::SetUseSampleExtensions
 
 
 ## -description

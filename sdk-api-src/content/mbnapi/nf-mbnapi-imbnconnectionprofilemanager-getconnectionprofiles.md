@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManager.GetConnectionProfiles
-title: IMbnConnectionProfileManager::GetConnectionProfiles method
+title: IMbnConnectionProfileManager::GetConnectionProfiles
 author: windows-driver-content
 description: Gets a list of connection profiles associated with the device.
 old-location: mbn\imbnconnectionprofilemanager_getconnectionprofiles.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 96752181-1135-4dcf-9c07-056dfbf2ca5f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetConnectionProfiles method [Microsoft Broadband Networks], GetConnectionProfiles method [Microsoft Broadband Networks], IMbnConnectionProfileManager interface, GetConnectionProfiles,IMbnConnectionProfileManager.GetConnectionProfiles, IMbnConnectionProfileManager, IMbnConnectionProfileManager interface [Microsoft Broadband Networks], GetConnectionProfiles method, IMbnConnectionProfileManager::GetConnectionProfiles, mbn.imbnconnectionprofilemanager_getconnectionprofiles, mbnapi/IMbnConnectionProfileManager::GetConnectionProfiles
+ms.keywords: GetConnectionProfiles, GetConnectionProfiles method [Microsoft Broadband Networks], GetConnectionProfiles method [Microsoft Broadband Networks],IMbnConnectionProfileManager interface, IMbnConnectionProfileManager interface [Microsoft Broadband Networks],GetConnectionProfiles method, IMbnConnectionProfileManager.GetConnectionProfiles, IMbnConnectionProfileManager::GetConnectionProfiles, mbn.imbnconnectionprofilemanager_getconnectionprofiles, mbnapi/IMbnConnectionProfileManager::GetConnectionProfiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnectionProfileManager::GetConnectionProfiles method
+# IMbnConnectionProfileManager::GetConnectionProfiles
 
 
 ## -description

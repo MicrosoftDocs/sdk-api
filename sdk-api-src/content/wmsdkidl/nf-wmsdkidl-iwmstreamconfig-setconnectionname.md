@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetConnectionName
-title: IWMStreamConfig::SetConnectionName method
+title: IWMStreamConfig::SetConnectionName
 author: windows-driver-content
 description: The SetConnectionName method specifies a name for an input. If the profile you are creating contains multiple bit rate mutual exclusion, each of the mutually exclusive streams must have the same connection name.
 old-location: wmformat\iwmstreamconfig_setconnectionname.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: bd67e0b5-3bfa-46c1-996d-6b026c1144cb
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMStreamConfig, IWMStreamConfig interface [windows Media Format], SetConnectionName method, IWMStreamConfig::SetConnectionName, IWMStreamConfigSetConnectionName, SetConnectionName method [windows Media Format], SetConnectionName method [windows Media Format], IWMStreamConfig interface, SetConnectionName,IWMStreamConfig.SetConnectionName, wmformat.iwmstreamconfig_setconnectionname, wmsdkidl/IWMStreamConfig::SetConnectionName
+ms.keywords: IWMStreamConfig interface [windows Media Format],SetConnectionName method, IWMStreamConfig.SetConnectionName, IWMStreamConfig::SetConnectionName, IWMStreamConfigSetConnectionName, SetConnectionName, SetConnectionName method [windows Media Format], SetConnectionName method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setconnectionname, wmsdkidl/IWMStreamConfig::SetConnectionName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig::SetConnectionName method
+# IWMStreamConfig::SetConnectionName
 
 
 ## -description

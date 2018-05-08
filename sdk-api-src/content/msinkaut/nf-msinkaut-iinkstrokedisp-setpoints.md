@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.SetPoints
-title: IInkStrokeDisp::SetPoints method
+title: IInkStrokeDisp::SetPoints
 author: windows-driver-content
 description: Sets the points of the IInkStrokeDisp using an array of X, Y values.
 old-location: tablet\iinkstrokedisp_setpoints.htm
 old-project: tablet
 ms.assetid: 759e3195-e1de-45eb-a9de-8ec8fe2347c1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 759e3195-e1de-45eb-a9de-8ec8fe2347c1, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], SetPoints method, IInkStrokeDisp::SetPoints, SetPoints method [Tablet PC], SetPoints method [Tablet PC], IInkStrokeDisp interface, SetPoints,IInkStrokeDisp.SetPoints, msinkaut/IInkStrokeDisp::SetPoints, tablet.iinkstrokedisp_setpoints
+ms.date: 5/2/2018
+ms.keywords: 759e3195-e1de-45eb-a9de-8ec8fe2347c1, IInkStrokeDisp interface [Tablet PC],SetPoints method, IInkStrokeDisp.SetPoints, IInkStrokeDisp::SetPoints, SetPoints, SetPoints method [Tablet PC], SetPoints method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::SetPoints, tablet.iinkstrokedisp_setpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::SetPoints method
+# IInkStrokeDisp::SetPoints
 
 
 ## -description

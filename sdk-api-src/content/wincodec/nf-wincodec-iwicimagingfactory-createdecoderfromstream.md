@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateDecoderFromStream
-title: IWICImagingFactory::CreateDecoderFromStream method
+title: IWICImagingFactory::CreateDecoderFromStream
 author: windows-driver-content
 description: Creates a new instance of the IWICBitmapDecoder class based on the given IStream.
 old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromstream.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: b9328715-54a0-4c9a-9977-3252068b7e4b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateDecoderFromStream method [Windows Imaging Component], CreateDecoderFromStream method [Windows Imaging Component], IWICImagingFactory interface, CreateDecoderFromStream,IWICImagingFactory.CreateDecoderFromStream, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateDecoderFromStream method, IWICImagingFactory::CreateDecoderFromStream, _wic_codec_iwicimagingfactory_createdecoderfromstream, wic._wic_codec_iwicimagingfactory_createdecoderfromstream, wincodec/IWICImagingFactory::CreateDecoderFromStream
+ms.keywords: CreateDecoderFromStream, CreateDecoderFromStream method [Windows Imaging Component], CreateDecoderFromStream method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateDecoderFromStream method, IWICImagingFactory.CreateDecoderFromStream, IWICImagingFactory::CreateDecoderFromStream, _wic_codec_iwicimagingfactory_createdecoderfromstream, wic._wic_codec_iwicimagingfactory_createdecoderfromstream, wincodec/IWICImagingFactory::CreateDecoderFromStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICImagingFactory::CreateDecoderFromStream method
+# IWICImagingFactory::CreateDecoderFromStream
 
 
 ## -description

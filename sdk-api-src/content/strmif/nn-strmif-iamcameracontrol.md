@@ -7,8 +7,8 @@ old-location: dshow\iamcameracontrol.htm
 old-project: DirectShow
 ms.assetid: 22bc35f1-76d4-4881-91d1-72f05c24561d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMCameraControl, IAMCameraControl interface [DirectShow], IAMCameraControl interface [DirectShow], described, IAMCameraControlInterface, dshow.iamcameracontrol, strmif/IAMCameraControl
+ms.date: 4/30/2018
+ms.keywords: IAMCameraControl, IAMCameraControl interface [DirectShow], IAMCameraControl interface [DirectShow],described, IAMCameraControlInterface, dshow.iamcameracontrol, strmif/IAMCameraControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

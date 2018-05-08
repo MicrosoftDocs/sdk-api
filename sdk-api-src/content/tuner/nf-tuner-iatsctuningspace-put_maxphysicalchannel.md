@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.put_MaxPhysicalChannel
-title: IATSCTuningSpace::put_MaxPhysicalChannel method
+title: IATSCTuningSpace::put_MaxPhysicalChannel
 author: windows-driver-content
 description: The put_MaxPhysicalChannel method sets the highest physical channel number for this tuning space.
 old-location: mstv\iatsctuningspace_put_maxphysicalchannel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 842d2c13-eef2-42d9-9642-50ec2aafb760
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technologies], put_MaxPhysicalChannel method, IATSCTuningSpace::put_MaxPhysicalChannel, IATSCTuningSpaceput_MaxPhysicalChannel, mstv.iatsctuningspace_put_maxphysicalchannel, put_MaxPhysicalChannel method [Microsoft TV Technologies], put_MaxPhysicalChannel method [Microsoft TV Technologies], IATSCTuningSpace interface, put_MaxPhysicalChannel,IATSCTuningSpace.put_MaxPhysicalChannel, tuner/IATSCTuningSpace::put_MaxPhysicalChannel
+ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],put_MaxPhysicalChannel method, IATSCTuningSpace.put_MaxPhysicalChannel, IATSCTuningSpace::put_MaxPhysicalChannel, IATSCTuningSpaceput_MaxPhysicalChannel, mstv.iatsctuningspace_put_maxphysicalchannel, put_MaxPhysicalChannel, put_MaxPhysicalChannel method [Microsoft TV Technologies], put_MaxPhysicalChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, tuner/IATSCTuningSpace::put_MaxPhysicalChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IATSCTuningSpace::put_MaxPhysicalChannel method
+# IATSCTuningSpace::put_MaxPhysicalChannel
 
 
 ## -description

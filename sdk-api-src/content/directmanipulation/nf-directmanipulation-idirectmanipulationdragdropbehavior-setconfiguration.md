@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDragDropBehavior.SetConfiguration
-title: IDirectManipulationDragDropBehavior::SetConfiguration method
+title: IDirectManipulationDragDropBehavior::SetConfiguration
 author: windows-driver-content
 description: Sets the configuration of the drag-drop interaction for the viewport this behavior is attached to.
 old-location: directmanipulation\idirectmanipulationdragdropbehavior_setconfiguration.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 972EF04E-B14C-4EF9-B40A-EAF0458F2947
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationDragDropBehavior, IDirectManipulationDragDropBehavior interface [Direct Manipulation], SetConfiguration method, IDirectManipulationDragDropBehavior::SetConfiguration, SetConfiguration method [Direct Manipulation], SetConfiguration method [Direct Manipulation], IDirectManipulationDragDropBehavior interface, SetConfiguration,IDirectManipulationDragDropBehavior.SetConfiguration, directmanipulation.idirectmanipulationdragdropbehavior_setconfiguration, directmanipulation/IDirectManipulationDragDropBehavior::SetConfiguration
+ms.keywords: IDirectManipulationDragDropBehavior interface [Direct Manipulation],SetConfiguration method, IDirectManipulationDragDropBehavior.SetConfiguration, IDirectManipulationDragDropBehavior::SetConfiguration, SetConfiguration, SetConfiguration method [Direct Manipulation], SetConfiguration method [Direct Manipulation],IDirectManipulationDragDropBehavior interface, directmanipulation.idirectmanipulationdragdropbehavior_setconfiguration, directmanipulation/IDirectManipulationDragDropBehavior::SetConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationDragDropBehavior::SetConfiguration method
+# IDirectManipulationDragDropBehavior::SetConfiguration
 
 
 ## -description

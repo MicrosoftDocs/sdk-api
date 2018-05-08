@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IEnumOleDocumentViews.Reset
-title: IEnumOleDocumentViews::Reset method
+title: IEnumOleDocumentViews::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumoledocumentviews_reset.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: b9dbdf36-fff1-4cd5-a890-219c8311dadf
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumOleDocumentViews, IEnumOleDocumentViews interface [COM], Reset method, IEnumOleDocumentViews::Reset, Reset method [COM], Reset method [COM], IEnumOleDocumentViews interface, Reset,IEnumOleDocumentViews.Reset, _ole_ienumoledocumentviews_reset, com.ienumoledocumentviews_reset, docobj/IEnumOleDocumentViews::Reset
+ms.keywords: IEnumOleDocumentViews interface [COM],Reset method, IEnumOleDocumentViews.Reset, IEnumOleDocumentViews::Reset, Reset, Reset method [COM], Reset method [COM],IEnumOleDocumentViews interface, _ole_ienumoledocumentviews_reset, com.ienumoledocumentviews_reset, docobj/IEnumOleDocumentViews::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumOleDocumentViews::Reset method
+# IEnumOleDocumentViews::Reset
 
 
 ## -description

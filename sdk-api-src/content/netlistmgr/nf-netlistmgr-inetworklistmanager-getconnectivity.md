@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetConnectivity
-title: INetworkListManager::GetConnectivity method
+title: INetworkListManager::GetConnectivity
 author: windows-driver-content
 description: The GetConnectivity method returns the overall connectivity state of the machine.
 old-location: nla\inetworklistmanager_getconnectivity.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 4695554a-2f8b-4d2e-b3ff-ec22c43387d6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetConnectivity method [Network Awareness], GetConnectivity method [Network Awareness], INetworkListManager interface, GetConnectivity,INetworkListManager.GetConnectivity, INetworkListManager, INetworkListManager interface [Network Awareness], GetConnectivity method, INetworkListManager::GetConnectivity, netlistmgr/INetworkListManager::GetConnectivity, nla.inetworklistmanager_getconnectivity
+ms.keywords: GetConnectivity, GetConnectivity method [Network Awareness], GetConnectivity method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetConnectivity method, INetworkListManager.GetConnectivity, INetworkListManager::GetConnectivity, netlistmgr/INetworkListManager::GetConnectivity, nla.inetworklistmanager_getconnectivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkListManager::GetConnectivity method
+# INetworkListManager::GetConnectivity
 
 
 ## -description

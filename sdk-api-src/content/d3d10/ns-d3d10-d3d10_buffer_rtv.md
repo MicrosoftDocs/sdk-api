@@ -57,34 +57,32 @@ Specifies the elements from a <a href="https://msdn.microsoft.com/c5238a2f-d69d-
 
 
 
-
-
-#### - ElementOffset
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
-
-The offset of the first element in the view to access, relative to element 0.
-
-
-#### - ElementWidth
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
-
-The width of each element (in bytes). This can be determined from the format stored in the render-target-view description.
-
-
-#### - FirstElement
+### -field FirstElement
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of bytes between the beginning of the buffer and the first element to access.
 
 
-#### - NumElements
+### -field ElementOffset
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The offset of the first element in the view to access, relative to element 0.
+
+
+### -field NumElements
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The total number of elements in the view.
+
+
+### -field ElementWidth
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The width of each element (in bytes). This can be determined from the format stored in the render-target-view description.
 
 
 ## -remarks

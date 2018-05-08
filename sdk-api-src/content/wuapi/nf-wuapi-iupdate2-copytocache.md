@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate2.CopyToCache
-title: IUpdate2::CopyToCache method
+title: IUpdate2::CopyToCache
 author: windows-driver-content
 description: Copies files for an update from a specified source location to the internal Windows Update Agent (WUA) download cache.
 old-location: wua\iupdate2_copytocache.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: a12f850a-df08-4263-bb66-94c45f7d875e
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CopyToCache method [Windows Update Agent], CopyToCache method [Windows Update Agent], IUpdate2 interface, CopyToCache,IUpdate2.CopyToCache, IUpdate2, IUpdate2 interface [Windows Update Agent], CopyToCache method, IUpdate2::CopyToCache, wua.iupdate2_copytocache, wuapi/IUpdate2::CopyToCache
+ms.keywords: CopyToCache, CopyToCache method [Windows Update Agent], CopyToCache method [Windows Update Agent],IUpdate2 interface, IUpdate2 interface [Windows Update Agent],CopyToCache method, IUpdate2.CopyToCache, IUpdate2::CopyToCache, wua.iupdate2_copytocache, wuapi/IUpdate2::CopyToCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate2::CopyToCache method
+# IUpdate2::CopyToCache
 
 
 ## -description

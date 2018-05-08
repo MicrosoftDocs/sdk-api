@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.DeleteAttachedSurface
-title: IDirectDrawSurface7::DeleteAttachedSurface method
+title: IDirectDrawSurface7::DeleteAttachedSurface
 author: windows-driver-content
 description: Detaches one or more attached surfaces.
 old-location: directdraw\idirectdrawsurface7_deleteattachedsurface.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 39cefecd-2ae0-42ba-8140-842acdaa1ad8
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DeleteAttachedSurface method [DirectDraw], DeleteAttachedSurface method [DirectDraw], IDirectDrawSurface7 interface, DeleteAttachedSurface,IDirectDrawSurface7.DeleteAttachedSurface, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], DeleteAttachedSurface method, IDirectDrawSurface7::DeleteAttachedSurface, ddraw/IDirectDrawSurface7::DeleteAttachedSurface, directdraw.idirectdrawsurface7_deleteattachedsurface
+ms.keywords: DeleteAttachedSurface, DeleteAttachedSurface method [DirectDraw], DeleteAttachedSurface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],DeleteAttachedSurface method, IDirectDrawSurface7.DeleteAttachedSurface, IDirectDrawSurface7::DeleteAttachedSurface, ddraw/IDirectDrawSurface7::DeleteAttachedSurface, directdraw.idirectdrawsurface7_deleteattachedsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::DeleteAttachedSurface method
+# IDirectDrawSurface7::DeleteAttachedSurface
 
 
 ## -description

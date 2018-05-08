@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc
-title: ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc method
+title: ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc
 author: windows-driver-content
 description: Gets the layout of the root signature, without converting between root signature versions.
 old-location: direct3d12\id3d12versionedrootsignaturedeserializer_getunconvertedrootsignaturedesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 7E21B598-C13B-4418-B5B1-4ADDAA18F9B9
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetUnconvertedRootSignatureDesc method, GetUnconvertedRootSignatureDesc method, ID3D12VersionedRootSignatureDeserializer interface, GetUnconvertedRootSignatureDesc,ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc, ID3D12VersionedRootSignatureDeserializer, ID3D12VersionedRootSignatureDeserializer interface, GetUnconvertedRootSignatureDesc method, ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc, d3d12/ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc, direct3d12.id3d12versionedrootsignaturedeserializer_getunconvertedrootsignaturedesc
+ms.keywords: GetUnconvertedRootSignatureDesc, GetUnconvertedRootSignatureDesc method, GetUnconvertedRootSignatureDesc method,ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface,GetUnconvertedRootSignatureDesc method, ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc, ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc, d3d12/ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc, direct3d12.id3d12versionedrootsignaturedeserializer_getunconvertedrootsignaturedesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc method
+# ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.IsValid
-title: ID3D10EffectPass::IsValid method
+title: ID3D10EffectPass::IsValid
 author: windows-driver-content
 description: Test a pass to see if it contains valid syntax.
 old-location: direct3d10\id3d10effectpass_isvalid.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_isvalid.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 9122c231-edb3-12f1-7535-16f793aee59d, ID3D10EffectPass, ID3D10EffectPass interface [Direct3D 10], IsValid method, ID3D10EffectPass::IsValid, IsValid method [Direct3D 10], IsValid method [Direct3D 10], ID3D10EffectPass interface, IsValid,ID3D10EffectPass.IsValid, d3d10effect/ID3D10EffectPass::IsValid, direct3d10.id3d10effectpass_isvalid
+ms.keywords: 9122c231-edb3-12f1-7535-16f793aee59d, ID3D10EffectPass interface [Direct3D 10],IsValid method, ID3D10EffectPass.IsValid, ID3D10EffectPass::IsValid, IsValid, IsValid method [Direct3D 10], IsValid method [Direct3D 10],ID3D10EffectPass interface, d3d10effect/ID3D10EffectPass::IsValid, direct3d10.id3d10effectpass_isvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectPass::IsValid method
+# ID3D10EffectPass::IsValid
 
 
 ## -description

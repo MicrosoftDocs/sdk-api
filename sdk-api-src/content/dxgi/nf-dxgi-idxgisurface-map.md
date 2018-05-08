@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISurface.Map
-title: IDXGISurface::Map method
+title: IDXGISurface::Map
 author: windows-driver-content
 description: Get a pointer to the data contained in the surface, and deny GPU access to the surface.
 old-location: direct3ddxgi\idxgisurface_map.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface_map.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 2353661a-8e73-6878-2899-79d0afdc2901, IDXGISurface, IDXGISurface interface [DXGI], Map method, IDXGISurface::Map, Map method [DXGI], Map method [DXGI], IDXGISurface interface, Map,IDXGISurface.Map, direct3ddxgi.idxgisurface_map, dxgi/IDXGISurface::Map
+ms.keywords: 2353661a-8e73-6878-2899-79d0afdc2901, IDXGISurface interface [DXGI],Map method, IDXGISurface.Map, IDXGISurface::Map, Map, Map method [DXGI], Map method [DXGI],IDXGISurface interface, direct3ddxgi.idxgisurface_map, dxgi/IDXGISurface::Map
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISurface::Map method
+# IDXGISurface::Map
 
 
 ## -description

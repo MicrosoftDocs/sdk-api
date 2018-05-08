@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleClientSite.GetMoniker
-title: IOleClientSite::GetMoniker method
+title: IOleClientSite::GetMoniker
 author: windows-driver-content
 description: Retrieves a moniker for the object's client site. An object can force the assignment of its own or its container's moniker by specifying a value for dwAssign.
 old-location: com\ioleclientsite_getmoniker.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 9ca3e997-9a96-43c3-a213-de8c8440cd54
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetMoniker method [COM], GetMoniker method [COM], IOleClientSite interface, GetMoniker,IOleClientSite.GetMoniker, IOleClientSite, IOleClientSite interface [COM], GetMoniker method, IOleClientSite::GetMoniker, _ole_ioleclientsite_getmoniker, com.ioleclientsite_getmoniker, oleidl/IOleClientSite::GetMoniker
+ms.keywords: GetMoniker, GetMoniker method [COM], GetMoniker method [COM],IOleClientSite interface, IOleClientSite interface [COM],GetMoniker method, IOleClientSite.GetMoniker, IOleClientSite::GetMoniker, _ole_ioleclientsite_getmoniker, com.ioleclientsite_getmoniker, oleidl/IOleClientSite::GetMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleClientSite::GetMoniker method
+# IOleClientSite::GetMoniker
 
 
 ## -description

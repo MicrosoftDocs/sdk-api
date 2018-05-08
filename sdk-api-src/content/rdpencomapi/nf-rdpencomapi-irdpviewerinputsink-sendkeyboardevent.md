@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendKeyboardEvent
-title: IRDPViewerInputSink::SendKeyboardEvent method
+title: IRDPViewerInputSink::SendKeyboardEvent
 author: windows-driver-content
 description: Sends a keyboard event message.
 old-location: rdp\irdpviewerinputsink_sendkeyboardevent.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 28EDA0AD-9669-4232-BD41-4ADEC90CA3A7
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPViewerInputSink, IRDPViewerInputSink interface [RDP], SendKeyboardEvent method, IRDPViewerInputSink::SendKeyboardEvent, SendKeyboardEvent method [RDP], SendKeyboardEvent method [RDP], IRDPViewerInputSink interface, SendKeyboardEvent,IRDPViewerInputSink.SendKeyboardEvent, rdp.irdpviewerinputsink_sendkeyboardevent, rdpencomapi/IRDPViewerInputSink::SendKeyboardEvent
+ms.keywords: IRDPViewerInputSink interface [RDP],SendKeyboardEvent method, IRDPViewerInputSink.SendKeyboardEvent, IRDPViewerInputSink::SendKeyboardEvent, SendKeyboardEvent, SendKeyboardEvent method [RDP], SendKeyboardEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendkeyboardevent, rdpencomapi/IRDPViewerInputSink::SendKeyboardEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPViewerInputSink::SendKeyboardEvent method
+# IRDPViewerInputSink::SendKeyboardEvent
 
 
 ## -description

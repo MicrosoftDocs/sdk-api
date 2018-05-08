@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeInfoOfGuid
-title: ITypeLib::GetTypeInfoOfGuid method
+title: ITypeLib::GetTypeInfoOfGuid
 author: windows-driver-content
 description: Retrieves the type description that corresponds to the specified GUID.
 old-location: automat\itypelib_gettypeinfoofguid.htm
 old-project: automat
 ms.assetid: 58f96322-f1cd-448c-906d-b7faa65ab9a0
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetTypeInfoOfGuid method [Automation], GetTypeInfoOfGuid method [Automation], ITypeLib interface, GetTypeInfoOfGuid,ITypeLib.GetTypeInfoOfGuid, ITypeLib, ITypeLib interface [Automation], GetTypeInfoOfGuid method, ITypeLib::GetTypeInfoOfGuid, _oa96_ITypeLib_GetTypeInfoOfGuid, automat.itypelib_gettypeinfoofguid, oaidl/ITypeLib::GetTypeInfoOfGuid
+ms.date: 5/4/2018
+ms.keywords: GetTypeInfoOfGuid, GetTypeInfoOfGuid method [Automation], GetTypeInfoOfGuid method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoOfGuid method, ITypeLib.GetTypeInfoOfGuid, ITypeLib::GetTypeInfoOfGuid, _oa96_ITypeLib_GetTypeInfoOfGuid, automat.itypelib_gettypeinfoofguid, oaidl/ITypeLib::GetTypeInfoOfGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeLib::GetTypeInfoOfGuid method
+# ITypeLib::GetTypeInfoOfGuid
 
 
 ## -description

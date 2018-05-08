@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgent.get_OverallCallRate
-title: ITAgent::get_OverallCallRate method
+title: ITAgent::get_OverallCallRate
 author: windows-driver-content
 description: The get_OverallCallRate method gets an agent's call rate across all sessions. 10 *Calls per agent hour (where agent hour represents the time that an agent was active in one or more agent sessions).
 old-location: tapi3\itagent_get_overallcallrate.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: ea85f3a7-0081-4ce2-bf2e-c47e6e7c4cbb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], get_OverallCallRate method, ITAgent::get_OverallCallRate, _tapi3_itagent_get_overallcallrate, get_OverallCallRate method [TAPI 2.2], get_OverallCallRate method [TAPI 2.2], ITAgent interface, get_OverallCallRate,ITAgent.get_OverallCallRate, tapi3.itagent_get_overallcallrate, tapi3cc/ITAgent::get_OverallCallRate
+ms.keywords: ITAgent interface [TAPI 2.2],get_OverallCallRate method, ITAgent.get_OverallCallRate, ITAgent::get_OverallCallRate, _tapi3_itagent_get_overallcallrate, get_OverallCallRate, get_OverallCallRate method [TAPI 2.2], get_OverallCallRate method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_overallcallrate, tapi3cc/ITAgent::get_OverallCallRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgent::get_OverallCallRate method
+# ITAgent::get_OverallCallRate
 
 
 ## -description

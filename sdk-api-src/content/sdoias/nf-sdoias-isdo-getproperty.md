@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdo.GetProperty
-title: ISdo::GetProperty method
+title: ISdo::GetProperty
 author: windows-driver-content
 description: The GetProperty method retrieves the value of the specified property.
 old-location: nps\SDO_isdo_getproperty.htm
@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: 9567e731-4240-4b37-8757-2e25824bba0a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetProperty method [Network Policy Server], GetProperty method [Network Policy Server], ISdo interface, GetProperty,ISdo.GetProperty, ISdo, ISdo interface [Network Policy Server], GetProperty method, ISdo::GetProperty, _sdo_isdo_getproperty, nps.SDO_isdo_getproperty, sdo.isdo_getproperty, sdoias/ISdo::GetProperty
+ms.keywords: GetProperty, GetProperty method [Network Policy Server], GetProperty method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],GetProperty method, ISdo.GetProperty, ISdo::GetProperty, _sdo_isdo_getproperty, nps.SDO_isdo_getproperty, sdo.isdo_getproperty, sdoias/ISdo::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISdo::GetProperty method
+# ISdo::GetProperty
 
 
 ## -description

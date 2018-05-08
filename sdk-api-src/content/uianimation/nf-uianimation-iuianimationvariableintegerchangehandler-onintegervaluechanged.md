@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged
-title: IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged method
+title: IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
 author: windows-driver-content
 description: Handles events that occur when the value of an animation variable changes.
 old-location: uianimation\iuianimationvariableintegerchangehandler_onintegervaluechanged.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: e12224a2-c8f3-45eb-a254-d624de16e12d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationVariableIntegerChangeHandler, IUIAnimationVariableIntegerChangeHandler interface [Windows Animation], OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation], IUIAnimationVariableIntegerChangeHandler interface, OnIntegerValueChanged,IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged, uianimation.iuianimationvariableintegerchangehandler_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
+ms.keywords: IUIAnimationVariableIntegerChangeHandler interface [Windows Animation],OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged, IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged, OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation],IUIAnimationVariableIntegerChangeHandler interface, uianimation.iuianimationvariableintegerchangehandler_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged method
+# IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFShutdown.Shutdown
-title: IMFShutdown::Shutdown method
+title: IMFShutdown::Shutdown
 author: windows-driver-content
 description: Shuts down a Media Foundation object and releases all resources associated with the object.
 old-location: mf\imfshutdown_shutdown.htm
 old-project: medfound
 ms.assetid: 9e7824d2-0f76-4c4c-98c5-ba51cd297de7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 9e7824d2-0f76-4c4c-98c5-ba51cd297de7, IMFShutdown, IMFShutdown interface [Media Foundation], Shutdown method, IMFShutdown::Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation], IMFShutdown interface, Shutdown,IMFShutdown.Shutdown, mf.imfshutdown_shutdown, mfidl/IMFShutdown::Shutdown
+ms.date: 5/3/2018
+ms.keywords: 9e7824d2-0f76-4c4c-98c5-ba51cd297de7, IMFShutdown interface [Media Foundation],Shutdown method, IMFShutdown.Shutdown, IMFShutdown::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFShutdown interface, mf.imfshutdown_shutdown, mfidl/IMFShutdown::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFShutdown::Shutdown method
+# IMFShutdown::Shutdown
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:printmanagerinterop.IPrintManagerInterop.GetForWindow
-title: IPrintManagerInterop::GetForWindow method
+title: IPrintManagerInterop::GetForWindow
 author: windows-driver-content
 description: Gets the PrintManager instance for the specified window.
 old-location: winrt\iprintmanagerinterop_getforwindow.htm
 old-project: WinRT
 ms.assetid: 8cbf37b6-6756-4399-aa6b-01eb63c8c6db
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime], IPrintManagerInterop interface, GetForWindow,IPrintManagerInterop.GetForWindow, IPrintManagerInterop, IPrintManagerInterop interface [Windows Runtime], GetForWindow method, IPrintManagerInterop::GetForWindow, printmanagerinterop/IPrintManagerInterop::GetForWindow, winrt.iprintmanagerinterop_getforwindow
+ms.date: 5/4/2018
+ms.keywords: GetForWindow, GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime],IPrintManagerInterop interface, IPrintManagerInterop interface [Windows Runtime],GetForWindow method, IPrintManagerInterop.GetForWindow, IPrintManagerInterop::GetForWindow, printmanagerinterop/IPrintManagerInterop::GetForWindow, winrt.iprintmanagerinterop_getforwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPrintManagerInterop::GetForWindow method
+# IPrintManagerInterop::GetForWindow
 
 
 ## -description

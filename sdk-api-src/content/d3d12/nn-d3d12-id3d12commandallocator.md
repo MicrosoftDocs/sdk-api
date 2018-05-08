@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: ADC494E6-1698-415D-90C5-F99FCD4C5309
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12CommandAllocator, ID3D12CommandAllocator interface, ID3D12CommandAllocator interface, described, d3d12/ID3D12CommandAllocator, direct3d12.id3d12commandallocator
+ms.keywords: ID3D12CommandAllocator, ID3D12CommandAllocator interface, ID3D12CommandAllocator interface,described, d3d12/ID3D12CommandAllocator, direct3d12.id3d12commandallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

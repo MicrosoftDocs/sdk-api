@@ -63,6 +63,11 @@ Contains process mitigation policy settings for Address Space Randomization Layo
  
 
 
+### -field DUMMYUNIONNAME.Flags
+
+This member is reserved for system use.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -113,11 +118,6 @@ Images that have not been built with /DYNAMICBASE are forcibly relocated on load
 #### - EnableHighEntropy : 1
 
 Bottom-up allocations are subject to higher degrees of entropy when randomized by ASLR if this flag is set.  This flag only applies to 64-bit processes and is read-only.
-
-
-#### - Flags
-
-This member is reserved for system use.
 
 
 #### - ReservedFlags : 28

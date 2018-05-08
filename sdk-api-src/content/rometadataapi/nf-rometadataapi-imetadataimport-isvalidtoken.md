@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.IsValidToken
-title: IMetaDataImport::IsValidToken method
+title: IMetaDataImport::IsValidToken
 author: windows-driver-content
 description: Gets a value indicating whether the specified token holds a valid reference to a code object.
 old-location: winrt\imetadataimport_isvalidtoken.htm
 old-project: WinRT
 ms.assetid: 9829a600-38fb-48ac-a486-abb56d17afdf
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IMetaDataImport, IMetaDataImport interface [Windows Runtime], IsValidToken method, IMetaDataImport::IsValidToken, IsValidToken method [Windows Runtime], IsValidToken method [Windows Runtime], IMetaDataImport interface, IsValidToken,IMetaDataImport.IsValidToken, rometadataapi/IMetaDataImport::IsValidToken, winrt.imetadataimport_isvalidtoken
+ms.date: 5/4/2018
+ms.keywords: IMetaDataImport interface [Windows Runtime],IsValidToken method, IMetaDataImport.IsValidToken, IMetaDataImport::IsValidToken, IsValidToken, IsValidToken method [Windows Runtime], IsValidToken method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::IsValidToken, winrt.imetadataimport_isvalidtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::IsValidToken method
+# IMetaDataImport::IsValidToken
 
 
 ## -description

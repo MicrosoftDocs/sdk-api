@@ -7,8 +7,8 @@ old-location: multimedia\capstatuscallback.htm
 old-project: Multimedia
 ms.assetid: b48021a7-7fa1-4837-a6ca-af266fd55f4f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: CAPSTATUSCALLBACKA, CAPSTATUSCALLBACKW, _win32_capStatusCallback, capStatusCallback, capStatusCallback callback function [Windows Multimedia], multimedia.capstatuscallback, vfw/CAPSTATUSCALLBACKA, vfw/CAPSTATUSCALLBACKW, vfw/capStatusCallback
+ms.date: 5/4/2018
+ms.keywords: CAPSTATUSCALLBACKA, CAPSTATUSCALLBACKW, _win32_capStatusCallback, capStatusCallback, capStatusCallback callback, capStatusCallback callback function [Windows Multimedia], multimedia.capstatuscallback, vfw/CAPSTATUSCALLBACKA, vfw/CAPSTATUSCALLBACKW, vfw/capStatusCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CAPSTATUSCALLBACKW callback
+# CAPSTATUSCALLBACKW callback function
 
 
 ## -description

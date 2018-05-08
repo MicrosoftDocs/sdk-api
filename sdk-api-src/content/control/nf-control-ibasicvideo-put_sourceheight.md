@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicVideo.put_SourceHeight
-title: IBasicVideo::put_SourceHeight method
+title: IBasicVideo::put_SourceHeight
 author: windows-driver-content
 description: The put_SourceHeight method sets the height of the source rectangle.
 old-location: dshow\ibasicvideo_put_sourceheight.htm
 old-project: DirectShow
 ms.assetid: d8cb4ae1-cbbf-44cb-9387-770ee95280a1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], put_SourceHeight method, IBasicVideo::put_SourceHeight, IBasicVideoput_SourceHeight, control/IBasicVideo::put_SourceHeight, dshow.ibasicvideo_put_sourceheight, put_SourceHeight method [DirectShow], put_SourceHeight method [DirectShow], IBasicVideo interface, put_SourceHeight,IBasicVideo.put_SourceHeight
+ms.date: 4/30/2018
+ms.keywords: IBasicVideo interface [DirectShow],put_SourceHeight method, IBasicVideo.put_SourceHeight, IBasicVideo::put_SourceHeight, IBasicVideoput_SourceHeight, control/IBasicVideo::put_SourceHeight, dshow.ibasicvideo_put_sourceheight, put_SourceHeight, put_SourceHeight method [DirectShow], put_SourceHeight method [DirectShow],IBasicVideo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicVideo::put_SourceHeight method
+# IBasicVideo::put_SourceHeight
 
 
 ## -description

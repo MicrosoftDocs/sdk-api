@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ICoreFragment.NextRange
-title: ICoreFragment::NextRange method
+title: ICoreFragment::NextRange
 author: windows-driver-content
 description: Returns the next range that is contained in this knowledge fragment, and the clock vector that defines what is known about the items in the range.
 old-location: winsync\icorefragment_nextrange.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 25cfd4f5-2ff1-47eb-8cc0-17e17efa4ec2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ICoreFragment, ICoreFragment interface [Windows Sync], NextRange method, ICoreFragment::NextRange, NextRange method [Windows Sync], NextRange method [Windows Sync], ICoreFragment interface, NextRange,ICoreFragment.NextRange, winsync.icorefragment_nextrange, winsync/ICoreFragment::NextRange
+ms.keywords: ICoreFragment interface [Windows Sync],NextRange method, ICoreFragment.NextRange, ICoreFragment::NextRange, NextRange, NextRange method [Windows Sync], NextRange method [Windows Sync],ICoreFragment interface, winsync.icorefragment_nextrange, winsync/ICoreFragment::NextRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ICoreFragment::NextRange method
+# ICoreFragment::NextRange
 
 
 ## -description

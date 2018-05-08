@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 91667505-78D6-405E-9028-DF4F3037B455
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_PIPELINE_INIT_FN, SensorAdapterPipelineInit, SensorAdapterPipelineInit callback function [Windows Biometric Framework API], secbiomet.sensoradapterpipelineinit, winbio_adapter/SensorAdapterPipelineInit
+ms.keywords: PIBIO_SENSOR_PIPELINE_INIT_FN, PIBIO_SENSOR_PIPELINE_INIT_FN callback, SensorAdapterPipelineInit, SensorAdapterPipelineInit callback function [Windows Biometric Framework API], secbiomet.sensoradapterpipelineinit, winbio_adapter/SensorAdapterPipelineInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_PIPELINE_INIT_FN callback
+# PIBIO_SENSOR_PIPELINE_INIT_FN callback function
 
 
 ## -description

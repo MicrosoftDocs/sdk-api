@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.GetAlgorithmOid
-title: ICspAlgorithm::GetAlgorithmOid method
+title: ICspAlgorithm::GetAlgorithmOid
 author: windows-driver-content
 description: Retrieves the algorithm object identifier (OID). This method is web enabled.
 old-location: security\icspalgorithm_getalgorithmoid_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b922154d-0d57-4473-b331-c0082d9e5db5
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetAlgorithmOid method [Security], GetAlgorithmOid method [Security], ICspAlgorithm interface, GetAlgorithmOid,ICspAlgorithm.GetAlgorithmOid, ICspAlgorithm, ICspAlgorithm interface [Security], GetAlgorithmOid method, ICspAlgorithm::GetAlgorithmOid, certenroll/ICspAlgorithm::GetAlgorithmOid, security.icspalgorithm_getalgorithmoid_method
+ms.keywords: GetAlgorithmOid, GetAlgorithmOid method [Security], GetAlgorithmOid method [Security],ICspAlgorithm interface, ICspAlgorithm interface [Security],GetAlgorithmOid method, ICspAlgorithm.GetAlgorithmOid, ICspAlgorithm::GetAlgorithmOid, certenroll/ICspAlgorithm::GetAlgorithmOid, security.icspalgorithm_getalgorithmoid_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspAlgorithm::GetAlgorithmOid method
+# ICspAlgorithm::GetAlgorithmOid
 
 
 ## -description

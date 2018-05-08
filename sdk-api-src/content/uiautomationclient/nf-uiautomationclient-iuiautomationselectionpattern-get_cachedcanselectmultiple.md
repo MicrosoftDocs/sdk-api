@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CachedCanSelectMultiple
-title: IUIAutomationSelectionPattern::get_CachedCanSelectMultiple method
+title: IUIAutomationSelectionPattern::get_CachedCanSelectMultiple
 author: windows-driver-content
 description: Retrieves a cached value that indicates whether more than one item in the container can be selected at one time.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: e32051ef-5605-485c-94f9-d79f385cd6d6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedCanSelectMultiple property [Windows Accessibility], CachedCanSelectMultiple property [Windows Accessibility], IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern, IUIAutomationSelectionPattern interface [Windows Accessibility], CachedCanSelectMultiple property, IUIAutomationSelectionPattern.CachedCanSelectMultiple, IUIAutomationSelectionPattern::get_CachedCanSelectMultiple, get_CachedCanSelectMultiple,IUIAutomationSelectionPattern.get_CachedCanSelectMultiple, uiauto.uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple, uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::CachedCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::get_CachedCanSelectMultiple, winauto.uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple
+ms.keywords: CachedCanSelectMultiple property [Windows Accessibility], CachedCanSelectMultiple property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CachedCanSelectMultiple property, IUIAutomationSelectionPattern.CachedCanSelectMultiple, IUIAutomationSelectionPattern.get_CachedCanSelectMultiple, IUIAutomationSelectionPattern::CachedCanSelectMultiple, IUIAutomationSelectionPattern::get_CachedCanSelectMultiple, get_CachedCanSelectMultiple, uiauto.uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple, uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::CachedCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::get_CachedCanSelectMultiple, winauto.uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationSelectionPattern::get_CachedCanSelectMultiple method
+# IUIAutomationSelectionPattern::get_CachedCanSelectMultiple
 
 
 ## -description

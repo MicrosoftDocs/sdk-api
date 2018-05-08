@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrScheduleWizardUIOperation.InitWizard
-title: ISyncMgrScheduleWizardUIOperation::InitWizard method
+title: ISyncMgrScheduleWizardUIOperation::InitWizard
 author: windows-driver-content
 description: Initializes the sync schedule wizard.
 old-location: shell\ISyncMgrScheduleWizardUIOperation_InitWizard.htm
 old-project: shell
 ms.assetid: f88a9a13-6e07-400a-bb05-75b1267343a9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrScheduleWizardUIOperation, ISyncMgrScheduleWizardUIOperation interface [Windows Shell], InitWizard method, ISyncMgrScheduleWizardUIOperation::InitWizard, InitWizard method [Windows Shell], InitWizard method [Windows Shell], ISyncMgrScheduleWizardUIOperation interface, InitWizard,ISyncMgrScheduleWizardUIOperation.InitWizard, _shell_ISyncMgrScheduleWizardUIOperation_InitWizard, shell.ISyncMgrScheduleWizardUIOperation_InitWizard, syncmgr/ISyncMgrScheduleWizardUIOperation::InitWizard
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrScheduleWizardUIOperation interface [Windows Shell],InitWizard method, ISyncMgrScheduleWizardUIOperation.InitWizard, ISyncMgrScheduleWizardUIOperation::InitWizard, InitWizard, InitWizard method [Windows Shell], InitWizard method [Windows Shell],ISyncMgrScheduleWizardUIOperation interface, _shell_ISyncMgrScheduleWizardUIOperation_InitWizard, shell.ISyncMgrScheduleWizardUIOperation_InitWizard, syncmgr/ISyncMgrScheduleWizardUIOperation::InitWizard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrScheduleWizardUIOperation::InitWizard method
+# ISyncMgrScheduleWizardUIOperation::InitWizard
 
 
 ## -description

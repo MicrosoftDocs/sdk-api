@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 7be988b7-b144-4b8f-b8d3-b0700b564df3
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IGetSecurityCallContext, IGetSecurityCallContext interface [COM+], IGetSecurityCallContext interface [COM+], described, _cos_IGetSecurityCallContext, comsvcs/IGetSecurityCallContext, cos.igetsecuritycallcontext
+ms.keywords: IGetSecurityCallContext, IGetSecurityCallContext interface [COM+], IGetSecurityCallContext interface [COM+],described, _cos_IGetSecurityCallContext, comsvcs/IGetSecurityCallContext, cos.igetsecuritycallcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

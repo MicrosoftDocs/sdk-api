@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader2.TryNextLicense
-title: IWMDRMReader2::TryNextLicense method
+title: IWMDRMReader2::TryNextLicense
 author: windows-driver-content
 description: The TryNextLicense method sets the reader to evaluate the next applicable license (if present) for the file loaded in the reader.
 old-location: wmformat\iwmdrmreader2_trynextlicense.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 2658abd7-61ca-452f-92ad-93ee5050603d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMDRMReader2, IWMDRMReader2 interface [windows Media Format], TryNextLicense method, IWMDRMReader2::TryNextLicense, IWMDRMReader2TryNextLicense, TryNextLicense method [windows Media Format], TryNextLicense method [windows Media Format], IWMDRMReader2 interface, TryNextLicense,IWMDRMReader2.TryNextLicense, wmformat.iwmdrmreader2_trynextlicense, wmsdkidl/IWMDRMReader2::TryNextLicense
+ms.keywords: IWMDRMReader2 interface [windows Media Format],TryNextLicense method, IWMDRMReader2.TryNextLicense, IWMDRMReader2::TryNextLicense, IWMDRMReader2TryNextLicense, TryNextLicense, TryNextLicense method [windows Media Format], TryNextLicense method [windows Media Format],IWMDRMReader2 interface, wmformat.iwmdrmreader2_trynextlicense, wmsdkidl/IWMDRMReader2::TryNextLicense
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMReader2::TryNextLicense method
+# IWMDRMReader2::TryNextLicense
 
 
 ## -description

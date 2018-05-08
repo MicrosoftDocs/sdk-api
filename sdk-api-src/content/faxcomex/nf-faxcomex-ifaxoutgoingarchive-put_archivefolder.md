@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.put_ArchiveFolder
-title: IFaxOutgoingArchive::put_ArchiveFolder method
+title: IFaxOutgoingArchive::put_ArchiveFolder
 author: windows-driver-content
 description: The ArchiveFolder property is a null-terminated string that specifies the folder location on the fax server for archived outbound faxes.
 old-location: fax\_mfax_faxoutgoingarchive_archivefolder_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4302.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service], FaxOutgoingArchive object, FaxOutgoingArchive object [Fax Service], ArchiveFolder property, IFaxOutgoingArchive, IFaxOutgoingArchive::put_ArchiveFolder, _mfax_faxoutgoingarchive.archivefolder, fax._mfax_faxoutgoingarchive_archivefolder, fax._mfax_faxoutgoingarchive_archivefolder_vb, put_ArchiveFolder,IFaxOutgoingArchive.put_ArchiveFolder
+ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service],FaxOutgoingArchive object, FaxOutgoingArchive object [Fax Service],ArchiveFolder property, FaxOutgoingArchive.ArchiveFolder, IFaxOutgoingArchive.put_ArchiveFolder, IFaxOutgoingArchive::put_ArchiveFolder, _mfax_faxoutgoingarchive.archivefolder, fax._mfax_faxoutgoingarchive_archivefolder, fax._mfax_faxoutgoingarchive_archivefolder_vb, put_ArchiveFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutgoingArchive::put_ArchiveFolder method
+# IFaxOutgoingArchive::put_ArchiveFolder
 
 
 ## -description

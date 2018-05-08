@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings3.put_NonAdministratorsElevated
-title: IAutomaticUpdatesSettings3::put_NonAdministratorsElevated method
+title: IAutomaticUpdatesSettings3::put_NonAdministratorsElevated
 author: windows-driver-content
 description: Gets and sets a Boolean value that indicates whether non-administrators can perform some update-related actions without administrator approval.
 old-location: wua\iautomaticupdatessettings3_nonadministratorselevated.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 6294d982-e6ed-472d-b94b-c140b423ea88
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IAutomaticUpdatesSettings3, IAutomaticUpdatesSettings3 interface [Windows Update Agent], NonAdministratorsElevated property, IAutomaticUpdatesSettings3.NonAdministratorsElevated, IAutomaticUpdatesSettings3::get_NonAdministratorsElevated, IAutomaticUpdatesSettings3::put_NonAdministratorsElevated, NonAdministratorsElevated property [Windows Update Agent], NonAdministratorsElevated property [Windows Update Agent], IAutomaticUpdatesSettings3 interface, put_NonAdministratorsElevated,IAutomaticUpdatesSettings3.put_NonAdministratorsElevated, wua.iautomaticupdatessettings3_nonadministratorselevated, wuapi/IAutomaticUpdatesSettings3::NonAdministratorsElevated, wuapi/IAutomaticUpdatesSettings3::get_NonAdministratorsElevated, wuapi/IAutomaticUpdatesSettings3::put_NonAdministratorsElevated
+ms.keywords: IAutomaticUpdatesSettings3 interface [Windows Update Agent],NonAdministratorsElevated property, IAutomaticUpdatesSettings3.NonAdministratorsElevated, IAutomaticUpdatesSettings3.put_NonAdministratorsElevated, IAutomaticUpdatesSettings3::NonAdministratorsElevated, IAutomaticUpdatesSettings3::get_NonAdministratorsElevated, IAutomaticUpdatesSettings3::put_NonAdministratorsElevated, NonAdministratorsElevated property [Windows Update Agent], NonAdministratorsElevated property [Windows Update Agent],IAutomaticUpdatesSettings3 interface, put_NonAdministratorsElevated, wua.iautomaticupdatessettings3_nonadministratorselevated, wuapi/IAutomaticUpdatesSettings3::NonAdministratorsElevated, wuapi/IAutomaticUpdatesSettings3::get_NonAdministratorsElevated, wuapi/IAutomaticUpdatesSettings3::put_NonAdministratorsElevated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdatesSettings3::put_NonAdministratorsElevated method
+# IAutomaticUpdatesSettings3::put_NonAdministratorsElevated
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.FindProxyForURL
-title: IWMSInternalAdminNetSource::FindProxyForURL method
+title: IWMSInternalAdminNetSource::FindProxyForURL
 author: windows-driver-content
 description: The FindProxyForURL method finds a proxy server name and port to use for the client.
 old-location: wmformat\iwmsinternaladminnetsource_findproxyforurl.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 5c05ed2b-98ff-417c-bc48-4e8a3dd95460
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: FindProxyForURL method [windows Media Format], FindProxyForURL method [windows Media Format], IWMSInternalAdminNetSource interface, FindProxyForURL,IWMSInternalAdminNetSource.FindProxyForURL, IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], FindProxyForURL method, IWMSInternalAdminNetSource::FindProxyForURL, IWMSInternalAdminNetSourceFindProxyForURL, wmformat.iwmsinternaladminnetsource_findproxyforurl, wmsinternaladminnetsource/IWMSInternalAdminNetSource::FindProxyForURL
+ms.keywords: FindProxyForURL, FindProxyForURL method [windows Media Format], FindProxyForURL method [windows Media Format],IWMSInternalAdminNetSource interface, IWMSInternalAdminNetSource interface [windows Media Format],FindProxyForURL method, IWMSInternalAdminNetSource.FindProxyForURL, IWMSInternalAdminNetSource::FindProxyForURL, IWMSInternalAdminNetSourceFindProxyForURL, wmformat.iwmsinternaladminnetsource_findproxyforurl, wmsinternaladminnetsource/IWMSInternalAdminNetSource::FindProxyForURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSInternalAdminNetSource::FindProxyForURL method
+# IWMSInternalAdminNetSource::FindProxyForURL
 
 
 ## -description

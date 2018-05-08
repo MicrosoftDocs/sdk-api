@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PreGetSize
-title: IMallocSpy::PreGetSize method
+title: IMallocSpy::PreGetSize
 author: windows-driver-content
 description: Performs operations required before calling IMalloc::GetSize.
 old-location: com\imallocspy_pregetsize.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 7bebc327-490e-4a41-8043-5d7211e645f5
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMallocSpy, IMallocSpy interface [COM], PreGetSize method, IMallocSpy::PreGetSize, PreGetSize method [COM], PreGetSize method [COM], IMallocSpy interface, PreGetSize,IMallocSpy.PreGetSize, _com_imallocspy_pregetsize, com.imallocspy_pregetsize, objidl/IMallocSpy::PreGetSize
+ms.keywords: IMallocSpy interface [COM],PreGetSize method, IMallocSpy.PreGetSize, IMallocSpy::PreGetSize, PreGetSize, PreGetSize method [COM], PreGetSize method [COM],IMallocSpy interface, _com_imallocspy_pregetsize, com.imallocspy_pregetsize, objidl/IMallocSpy::PreGetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMallocSpy::PreGetSize method
+# IMallocSpy::PreGetSize
 
 
 ## -description

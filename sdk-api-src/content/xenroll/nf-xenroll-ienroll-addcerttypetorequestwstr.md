@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.AddCertTypeToRequestWStr
-title: IEnroll::AddCertTypeToRequestWStr method
+title: IEnroll::AddCertTypeToRequestWStr
 author: windows-driver-content
 description: Adds a certificate template to a request (used to support the enterprise certification authority (CA)).
 old-location: security\ienroll4_addcerttypetorequestwstr.htm
 old-project: SecCrypto
 ms.assetid: d9bf51db-375e-4230-953c-d9893228d7e1
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: AddCertTypeToRequestWStr method [Security], AddCertTypeToRequestWStr method [Security], IEnroll interface, AddCertTypeToRequestWStr,IEnroll.AddCertTypeToRequestWStr, IEnroll, IEnroll interface [Security], AddCertTypeToRequestWStr method, IEnroll::AddCertTypeToRequestWStr, security.ienroll4_addcerttypetorequestwstr, xenroll/IEnroll::AddCertTypeToRequestWStr
+ms.date: 4/30/2018
+ms.keywords: AddCertTypeToRequestWStr, AddCertTypeToRequestWStr method [Security], AddCertTypeToRequestWStr method [Security],IEnroll interface, IEnroll interface [Security],AddCertTypeToRequestWStr method, IEnroll.AddCertTypeToRequestWStr, IEnroll::AddCertTypeToRequestWStr, security.ienroll4_addcerttypetorequestwstr, xenroll/IEnroll::AddCertTypeToRequestWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::AddCertTypeToRequestWStr method
+# IEnroll::AddCertTypeToRequestWStr
 
 
 ## -description

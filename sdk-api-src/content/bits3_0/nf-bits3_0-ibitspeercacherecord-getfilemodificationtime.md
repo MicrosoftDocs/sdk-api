@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetFileModificationTime
-title: IBitsPeerCacheRecord::GetFileModificationTime method
+title: IBitsPeerCacheRecord::GetFileModificationTime
 author: windows-driver-content
 description: Gets the date and time that the file was last modified on the server.
 old-location: bits\ibitspeercacherecord_getfilemodificationtime.htm
 old-project: Bits
 ms.assetid: fe24b090-7dfd-4cbe-bb5d-ff3fd01723df
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetFileModificationTime method [BITS], GetFileModificationTime method [BITS], IBitsPeerCacheRecord interface, GetFileModificationTime,IBitsPeerCacheRecord.GetFileModificationTime, IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], GetFileModificationTime method, IBitsPeerCacheRecord::GetFileModificationTime, bits.ibitspeercacherecord_getfilemodificationtime, bits3_0/IBitsPeerCacheRecord::GetFileModificationTime
+ms.date: 4/27/2018
+ms.keywords: GetFileModificationTime, GetFileModificationTime method [BITS], GetFileModificationTime method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileModificationTime method, IBitsPeerCacheRecord.GetFileModificationTime, IBitsPeerCacheRecord::GetFileModificationTime, bits.ibitspeercacherecord_getfilemodificationtime, bits3_0/IBitsPeerCacheRecord::GetFileModificationTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsPeerCacheRecord::GetFileModificationTime method
+# IBitsPeerCacheRecord::GetFileModificationTime
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetFieldNames
-title: IRecordInfo::GetFieldNames method
+title: IRecordInfo::GetFieldNames
 author: windows-driver-content
 description: Gets the names of the fields of the record.
 old-location: automat\irecordinfo_getfieldnames.htm
 old-project: automat
 ms.assetid: 1cf4f149-1cdc-4884-887a-0eb44eeab8ff
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetFieldNames method [Automation], GetFieldNames method [Automation], IRecordInfo interface, GetFieldNames,IRecordInfo.GetFieldNames, IRecordInfo, IRecordInfo interface [Automation], GetFieldNames method, IRecordInfo::GetFieldNames, _oa96_IRecordInfo_GetFieldNames, automat.irecordinfo_getfieldnames, oaidl/IRecordInfo::GetFieldNames
+ms.date: 5/4/2018
+ms.keywords: GetFieldNames, GetFieldNames method [Automation], GetFieldNames method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetFieldNames method, IRecordInfo.GetFieldNames, IRecordInfo::GetFieldNames, _oa96_IRecordInfo_GetFieldNames, automat.irecordinfo_getfieldnames, oaidl/IRecordInfo::GetFieldNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRecordInfo::GetFieldNames method
+# IRecordInfo::GetFieldNames
 
 
 ## -description

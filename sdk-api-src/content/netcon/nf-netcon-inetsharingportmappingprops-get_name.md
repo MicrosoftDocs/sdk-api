@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_Name
-title: INetSharingPortMappingProps::get_Name method
+title: INetSharingPortMappingProps::get_Name
 author: windows-driver-content
 description: The get_Name method retrieves the name for this port mapping.
 old-location: ics\inetsharingportmappingprops_get_name.htm
 old-project: ICS
 ms.assetid: 0f2b4d49-a13d-49e1-96d0-276afe4208b2
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingPortMappingProps, INetSharingPortMappingProps interface [ICS/ICF], get_Name method, INetSharingPortMappingProps::get_Name, _ics_inetsharingportmappingprops_get_name, get_Name method [ICS/ICF], get_Name method [ICS/ICF], INetSharingPortMappingProps interface, get_Name,INetSharingPortMappingProps.get_Name, ics.inetsharingportmappingprops_get_name, netcon/INetSharingPortMappingProps::get_Name
+ms.date: 5/1/2018
+ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_Name method, INetSharingPortMappingProps.get_Name, INetSharingPortMappingProps::get_Name, _ics_inetsharingportmappingprops_get_name, get_Name, get_Name method [ICS/ICF], get_Name method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_name, netcon/INetSharingPortMappingProps::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingPortMappingProps::get_Name method
+# INetSharingPortMappingProps::get_Name
 
 
 ## -description

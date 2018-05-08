@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.IEnumDirectory.Clone
-title: IEnumDirectory::Clone method
+title: IEnumDirectory::Clone
 author: windows-driver-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumdirectory_clone.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 64aaf773-842b-42cd-83b8-587ec1042382
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Clone method [TAPI 2.2], Clone method [TAPI 2.2], IEnumDirectory interface, Clone,IEnumDirectory.Clone, IEnumDirectory, IEnumDirectory interface [TAPI 2.2], Clone method, IEnumDirectory::Clone, _tapi3_ienumdirectory_clone, rend/IEnumDirectory::Clone, tapi3.ienumdirectory_clone
+ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDirectory interface, IEnumDirectory interface [TAPI 2.2],Clone method, IEnumDirectory.Clone, IEnumDirectory::Clone, _tapi3_ienumdirectory_clone, rend/IEnumDirectory::Clone, tapi3.ienumdirectory_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumDirectory::Clone method
+# IEnumDirectory::Clone
 
 
 ## -description

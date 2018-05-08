@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetStreamingURL
-title: IWMPContentPartner::GetStreamingURL method
+title: IWMPContentPartner::GetStreamingURL
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetStreamingURL method retrieves the streaming URL of a track.
 old-location: wmp\iwmpcontentpartner_getstreamingurl.htm
 old-project: WMP
 ms.assetid: 7b9c25bc-35f7-429a-b465-45e166e2ed1a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetStreamingURL method [Windows Media Player], GetStreamingURL method [Windows Media Player], IWMPContentPartner interface, GetStreamingURL,IWMPContentPartner.GetStreamingURL, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], GetStreamingURL method, IWMPContentPartner::GetStreamingURL, IWMPContentPartnerGetStreamingURL, contentpartner/IWMPContentPartner::GetStreamingURL, wmp.iwmpcontentpartner_getstreamingurl
+ms.date: 5/4/2018
+ms.keywords: GetStreamingURL, GetStreamingURL method [Windows Media Player], GetStreamingURL method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetStreamingURL method, IWMPContentPartner.GetStreamingURL, IWMPContentPartner::GetStreamingURL, IWMPContentPartnerGetStreamingURL, contentpartner/IWMPContentPartner::GetStreamingURL, wmp.iwmpcontentpartner_getstreamingurl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::GetStreamingURL method
+# IWMPContentPartner::GetStreamingURL
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMWrite
-title: IComCRMEvents::OnCRMWrite method
+title: IComCRMEvents::OnCRMWrite
 author: windows-driver-content
 description: Generated when a CRM clerk receives a request to write a log record, either from the CRM worker or CRM compensator.
 old-location: cos\icomcrmevents_oncrmwrite.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 095452e3-a38d-4602-a925-8fa6445ddbc8
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMWrite method, IComCRMEvents::OnCRMWrite, OnCRMWrite method [COM+], OnCRMWrite method [COM+], IComCRMEvents interface, OnCRMWrite,IComCRMEvents.OnCRMWrite, _dtc_IComCRMEvents_OnCRMWrite, comsvcs/IComCRMEvents::OnCRMWrite, cos.icomcrmevents_oncrmwrite
+ms.keywords: IComCRMEvents interface [COM+],OnCRMWrite method, IComCRMEvents.OnCRMWrite, IComCRMEvents::OnCRMWrite, OnCRMWrite, OnCRMWrite method [COM+], OnCRMWrite method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMWrite, comsvcs/IComCRMEvents::OnCRMWrite, cos.icomcrmevents_oncrmwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComCRMEvents::OnCRMWrite method
+# IComCRMEvents::OnCRMWrite
 
 
 ## -description

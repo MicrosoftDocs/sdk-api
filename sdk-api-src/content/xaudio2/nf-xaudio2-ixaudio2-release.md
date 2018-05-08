@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.Release
-title: IXAudio2::Release method
+title: IXAudio2::Release
 author: windows-driver-content
 description: Releases a reference to the XAudio2 object.
 old-location: xaudio2\ixaudio2_interface_release.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.Release
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], Release method, IXAudio2::Release, Release method [XAudio2 Audio Mixing APIs], Release method [XAudio2 Audio Mixing APIs], IXAudio2 interface, Release,IXAudio2.Release, xaudio2.ixaudio2_interface_release, xaudio2/IXAudio2::Release
+ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],Release method, IXAudio2.Release, IXAudio2::Release, Release, Release method [XAudio2 Audio Mixing APIs], Release method [XAudio2 Audio Mixing APIs],IXAudio2 interface, xaudio2.ixaudio2_interface_release, xaudio2/IXAudio2::Release
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2::Release method
+# IXAudio2::Release
 
 
 ## -description

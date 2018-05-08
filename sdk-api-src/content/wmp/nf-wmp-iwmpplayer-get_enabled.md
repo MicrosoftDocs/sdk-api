@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_enabled
-title: IWMPPlayer::get_enabled method
+title: IWMPPlayer::get_enabled
 author: windows-driver-content
 description: The get_enabled method retrieves a value indicating whether the Windows Media Player control is enabled.
 old-location: wmp\iwmpplayer_get_enabled.htm
 old-project: WMP
 ms.assetid: 42dc1774-686c-4336-9a61-b658a75ba257
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], get_enabled method, IWMPPlayer::get_enabled, IWMPPlayerget_enabled, get_enabled method [Windows Media Player], get_enabled method [Windows Media Player], IWMPPlayer interface, get_enabled,IWMPPlayer.get_enabled, wmp.iwmpplayer_get_enabled, wmp/IWMPPlayer::get_enabled
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayer interface [Windows Media Player],get_enabled method, IWMPPlayer.get_enabled, IWMPPlayer::get_enabled, IWMPPlayerget_enabled, get_enabled, get_enabled method [Windows Media Player], get_enabled method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_enabled, wmp/IWMPPlayer::get_enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayer::get_enabled method
+# IWMPPlayer::get_enabled
 
 
 ## -description

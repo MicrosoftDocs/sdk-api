@@ -7,7 +7,7 @@ old-location: shell\getappcontainerregistrylocation.htm
 old-project: shell
 ms.assetid: DAD7EC07-D57D-40F5-AA99-AD7579910294
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: GetAppContainerRegistryLocation, GetAppContainerRegistryLocation function [Windows Shell], shell.getappcontainerregistrylocation, userenv/GetAppContainerRegistryLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

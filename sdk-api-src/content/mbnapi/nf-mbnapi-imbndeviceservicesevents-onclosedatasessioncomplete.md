@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnCloseDataSessionComplete
-title: IMbnDeviceServicesEvents::OnCloseDataSessionComplete method
+title: IMbnDeviceServicesEvents::OnCloseDataSessionComplete
 author: windows-driver-content
 description: Notification method indicating that a device service session CloseDataSession request has completed.
 old-location: mbn\imbndeviceservicesevents_onclosedatasessioncomplete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 003D87F7-CFFD-47A3-8DAA-0CF9F64E2CF6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceServicesEvents, IMbnDeviceServicesEvents interface [Microsoft Broadband Networks], OnCloseDataSessionComplete method, IMbnDeviceServicesEvents::OnCloseDataSessionComplete, OnCloseDataSessionComplete method [Microsoft Broadband Networks], OnCloseDataSessionComplete method [Microsoft Broadband Networks], IMbnDeviceServicesEvents interface, OnCloseDataSessionComplete,IMbnDeviceServicesEvents.OnCloseDataSessionComplete, mbn.imbndeviceservicesevents_onclosedatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnCloseDataSessionComplete
+ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnCloseDataSessionComplete method, IMbnDeviceServicesEvents.OnCloseDataSessionComplete, IMbnDeviceServicesEvents::OnCloseDataSessionComplete, OnCloseDataSessionComplete, OnCloseDataSessionComplete method [Microsoft Broadband Networks], OnCloseDataSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onclosedatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnCloseDataSessionComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceServicesEvents::OnCloseDataSessionComplete method
+# IMbnDeviceServicesEvents::OnCloseDataSessionComplete
 
 
 ## -description

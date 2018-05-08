@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_ServiceID
-title: IUpdateSearcher::get_ServiceID method
+title: IUpdateSearcher::get_ServiceID
 author: windows-driver-content
 description: Gets and sets a site to search when the site to search is not a Windows Update site.
 old-location: wua\iupdatesearcherserviceid.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 7c00d26a-9ef0-45ec-81b3-d13f91dd7d8d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateSearcher, IUpdateSearcher interface [Windows Update Agent], ServiceID property, IUpdateSearcher.ServiceID, IUpdateSearcher::get_ServiceID, IUpdateSearcher::put_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent], IUpdateSearcher interface, get_ServiceID,IUpdateSearcher.get_ServiceID, wua.iupdatesearcherserviceid, wuapi/IUpdateSearcher::ServiceID, wuapi/IUpdateSearcher::get_ServiceID, wuapi/IUpdateSearcher::put_ServiceID
+ms.keywords: IUpdateSearcher interface [Windows Update Agent],ServiceID property, IUpdateSearcher.ServiceID, IUpdateSearcher.get_ServiceID, IUpdateSearcher::ServiceID, IUpdateSearcher::get_ServiceID, IUpdateSearcher::put_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent],IUpdateSearcher interface, get_ServiceID, wua.iupdatesearcherserviceid, wuapi/IUpdateSearcher::ServiceID, wuapi/IUpdateSearcher::get_ServiceID, wuapi/IUpdateSearcher::put_ServiceID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSearcher::get_ServiceID method
+# IUpdateSearcher::get_ServiceID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager2.put_ClientApplicationID
-title: IUpdateServiceManager2::put_ClientApplicationID method
+title: IUpdateServiceManager2::put_ClientApplicationID
 author: windows-driver-content
 description: Gets and sets the identifier of the current client application.
 old-location: wua\iupdateservicemanager2_clientapplicationid.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 6783b7fc-ebb7-4b68-b71c-23e65ef61504
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent], IUpdateServiceManager2 interface, IUpdateServiceManager2, IUpdateServiceManager2 interface [Windows Update Agent], ClientApplicationID property, IUpdateServiceManager2.ClientApplicationID, IUpdateServiceManager2::get_ClientApplicationID, IUpdateServiceManager2::put_ClientApplicationID, put_ClientApplicationID,IUpdateServiceManager2.put_ClientApplicationID, wua.iupdateservicemanager2_clientapplicationid, wuapi/IUpdateServiceManager2::ClientApplicationID, wuapi/IUpdateServiceManager2::get_ClientApplicationID, wuapi/IUpdateServiceManager2::put_ClientApplicationID
+ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateServiceManager2 interface, IUpdateServiceManager2 interface [Windows Update Agent],ClientApplicationID property, IUpdateServiceManager2.ClientApplicationID, IUpdateServiceManager2.put_ClientApplicationID, IUpdateServiceManager2::ClientApplicationID, IUpdateServiceManager2::get_ClientApplicationID, IUpdateServiceManager2::put_ClientApplicationID, put_ClientApplicationID, wua.iupdateservicemanager2_clientapplicationid, wuapi/IUpdateServiceManager2::ClientApplicationID, wuapi/IUpdateServiceManager2::get_ClientApplicationID, wuapi/IUpdateServiceManager2::put_ClientApplicationID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateServiceManager2::put_ClientApplicationID method
+# IUpdateServiceManager2::put_ClientApplicationID
 
 
 ## -description

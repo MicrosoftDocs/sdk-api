@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 230ddff5-7fd1-4e4e-b4bb-49c427a3f9c7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DeleteStaticService, DeleteStaticService callback function [RAS], PDELETE_STATIC_SERVICE, _mpr_deletestaticservice, rras.deletestaticservice, stm/DeleteStaticService
+ms.keywords: DeleteStaticService, DeleteStaticService callback function [RAS], PDELETE_STATIC_SERVICE, PDELETE_STATIC_SERVICE callback, _mpr_deletestaticservice, rras.deletestaticservice, stm/DeleteStaticService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# PDELETE_STATIC_SERVICE callback
+# PDELETE_STATIC_SERVICE callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_FollowDirectories
-title: ISearchRoot::get_FollowDirectories method
+title: ISearchRoot::get_FollowDirectories
 author: windows-driver-content
 description: Gets a BOOL value that indicates whether the search engine follows subdirectories and hierarchical scopes.
 old-location: search\_search_ISearchRoot_get_FollowDirectories.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_followdirectories.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchRoot, ISearchRoot interface [search], get_FollowDirectories method, ISearchRoot::get_FollowDirectories, _search_ISearchRoot_get_FollowDirectories, get_FollowDirectories method [search], get_FollowDirectories method [search], ISearchRoot interface, get_FollowDirectories,ISearchRoot.get_FollowDirectories, search._search_ISearchRoot_get_FollowDirectories, searchapi/ISearchRoot::get_FollowDirectories
+ms.date: 5/4/2018
+ms.keywords: ISearchRoot interface [search],get_FollowDirectories method, ISearchRoot.get_FollowDirectories, ISearchRoot::get_FollowDirectories, _search_ISearchRoot_get_FollowDirectories, get_FollowDirectories, get_FollowDirectories method [search], get_FollowDirectories method [search],ISearchRoot interface, search._search_ISearchRoot_get_FollowDirectories, searchapi/ISearchRoot::get_FollowDirectories
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchRoot::get_FollowDirectories method
+# ISearchRoot::get_FollowDirectories
 
 
 ## -description

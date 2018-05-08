@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession.CreateUpdateSearcher
-title: IUpdateSession::CreateUpdateSearcher method
+title: IUpdateSession::CreateUpdateSearcher
 author: windows-driver-content
 description: Returns an IUpdateSearcher interface for this session.
 old-location: wua\iupdatesession_createupdatesearcher.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 7e7a4aa9-7952-4080-9ac0-9544f959475f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreateUpdateSearcher method [Windows Update Agent], CreateUpdateSearcher method [Windows Update Agent], IUpdateSession interface, CreateUpdateSearcher,IUpdateSession.CreateUpdateSearcher, IUpdateSession, IUpdateSession interface [Windows Update Agent], CreateUpdateSearcher method, IUpdateSession::CreateUpdateSearcher, wua.iupdatesession_createupdatesearcher, wuapi/IUpdateSession::CreateUpdateSearcher
+ms.keywords: CreateUpdateSearcher, CreateUpdateSearcher method [Windows Update Agent], CreateUpdateSearcher method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateSearcher method, IUpdateSession.CreateUpdateSearcher, IUpdateSession::CreateUpdateSearcher, wua.iupdatesession_createupdatesearcher, wuapi/IUpdateSession::CreateUpdateSearcher
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSession::CreateUpdateSearcher method
+# IUpdateSession::CreateUpdateSearcher
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.get_Status
-title: IAsyncInfo::get_Status method
+title: IAsyncInfo::get_Status
 author: windows-driver-content
 description: Gets a value that indicates the status of the asynchronous operation.
 old-location: winrt\iasyncinfo_status.htm
 old-project: WinRT
 ms.assetid: b34d9318-8a0f-4986-a678-76ba6c5bb051
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IAsyncInfo, IAsyncInfo interface [Windows Runtime], Status property, IAsyncInfo.Status, IAsyncInfo::get_Status, Status property [Windows Runtime], Status property [Windows Runtime], IAsyncInfo interface, asyncinfo/IAsyncInfo::Status, asyncinfo/IAsyncInfo::get_Status, get_Status,IAsyncInfo.get_Status, winrt.iasyncinfo_status
+ms.date: 5/4/2018
+ms.keywords: IAsyncInfo interface [Windows Runtime],Status property, IAsyncInfo.Status, IAsyncInfo.get_Status, IAsyncInfo::Status, IAsyncInfo::get_Status, Status property [Windows Runtime], Status property [Windows Runtime],IAsyncInfo interface, asyncinfo/IAsyncInfo::Status, asyncinfo/IAsyncInfo::get_Status, get_Status, winrt.iasyncinfo_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAsyncInfo::get_Status method
+# IAsyncInfo::get_Status
 
 
 ## -description

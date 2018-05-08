@@ -1,14 +1,14 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetCurrentService
-title: IAMWstDecoder::GetCurrentService method
+title: IAMWstDecoder::GetCurrentService
 author: windows-driver-content
 description: Applications use the GetCurrentService method to retrieve the current WST service.
 old-location: dshow\iamwstdecoder_getcurrentservice.htm
 old-project: DirectShow
 ms.assetid: d16b3501-efee-48e6-8d5d-d76f206d77ed
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentService method [DirectShow], GetCurrentService method [DirectShow], IAMWstDecoder interface, GetCurrentService,IAMWstDecoder.GetCurrentService, IAMWstDecoder, IAMWstDecoder interface [DirectShow], GetCurrentService method, IAMWstDecoder::GetCurrentService, IAMWstDecoderGetCurrentService, dshow.iamwstdecoder_getcurrentservice, iwstdec/IAMWstDecoder::GetCurrentService
+ms.date: 4/30/2018
+ms.keywords: GetCurrentService, GetCurrentService method [DirectShow], GetCurrentService method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetCurrentService method, IAMWstDecoder.GetCurrentService, IAMWstDecoder::GetCurrentService, IAMWstDecoderGetCurrentService, dshow.iamwstdecoder_getcurrentservice, iwstdec/IAMWstDecoder::GetCurrentService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMWstDecoder::GetCurrentService method
+# IAMWstDecoder::GetCurrentService
 
 
 ## -description

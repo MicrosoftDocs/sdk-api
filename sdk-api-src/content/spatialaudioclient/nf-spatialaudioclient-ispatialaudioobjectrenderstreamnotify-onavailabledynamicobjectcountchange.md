@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamNotify.OnAvailableDynamicObjectCountChange
-title: ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange method
+title: ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange
 author: windows-driver-content
 description: Notifies the spatial audio client when the rendering capacity for an ISpatialAudioObjectRenderStream is about to change, specifies the time after which the change will occur, and specifies the number of dynamic audio objects that will be available after the change.
 old-location: coreaudio\ispatialaudioobjectrenderstreamnotify_onavailabledynamicobjectcountchange.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: BC3F1171-26BC-46D0-8AE2-6BCD2393D617
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: ISpatialAudioObjectRenderStreamNotify, ISpatialAudioObjectRenderStreamNotify interface [Core Audio], OnAvailableDynamicObjectCountChange method, ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange, OnAvailableDynamicObjectCountChange method [Core Audio], OnAvailableDynamicObjectCountChange method [Core Audio], ISpatialAudioObjectRenderStreamNotify interface, OnAvailableDynamicObjectCountChange,ISpatialAudioObjectRenderStreamNotify.OnAvailableDynamicObjectCountChange, coreaudio.ispatialaudioobjectrenderstreamnotify_onavailabledynamicobjectcountchange, spatialaudioclient/ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange
+ms.keywords: ISpatialAudioObjectRenderStreamNotify interface [Core Audio],OnAvailableDynamicObjectCountChange method, ISpatialAudioObjectRenderStreamNotify.OnAvailableDynamicObjectCountChange, ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange, OnAvailableDynamicObjectCountChange, OnAvailableDynamicObjectCountChange method [Core Audio], OnAvailableDynamicObjectCountChange method [Core Audio],ISpatialAudioObjectRenderStreamNotify interface, coreaudio.ispatialaudioobjectrenderstreamnotify_onavailabledynamicobjectcountchange, spatialaudioclient/ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange method
+# ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange
 
 
 ## -description

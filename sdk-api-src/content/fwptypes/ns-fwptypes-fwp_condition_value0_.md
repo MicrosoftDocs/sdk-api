@@ -65,7 +65,83 @@ Specifies the data type of the condition value.
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552431">FWP_DATA_TYPE</a> for more information.
 
 
-#### - byteArray16
+### -field uint8
+
+Available when <b>type</b> is FWP_UINT8.
+
+An unsigned 8-bit integer.
+
+
+### -field uint16
+
+Available when <b>type</b> is FWP_UINT16.
+
+An unsigned 16-bit integer.
+
+
+### -field uint32
+
+Available when <b>type</b> is FWP_UINT32.
+
+An unsigned 32-bit integer.
+
+
+### -field uint64
+
+Available when <b>type</b> is FWP_UINT64.
+
+A pointer to an unsigned 64-bit integer.
+
+<div class="alert"><b>Note</b>  This value cannot be null.</div>
+<div> </div>
+
+### -field int8
+
+Available when <b>type</b> is FWP_INT8.
+
+A signed 8-bit integer.
+
+
+### -field int16
+
+Available when <b>type</b> is FWP_INT16.
+
+A signed 16-bit integer.
+
+
+### -field int32
+
+Available when <b>type</b> is FWP_INT32.
+
+A signed 32-bit integer.
+
+
+### -field int64
+
+Available when <b>type</b> is FWP_INT64.
+
+A pointer to a signed 64-bit integer.
+
+<div class="alert"><b>Note</b>  This value cannot be null.</div>
+<div> </div>
+
+### -field float32
+
+Available when <b>type</b> is FWP_FLOAT.
+
+A single-precision floating-point  value.
+
+
+### -field double64
+
+Available when <b>type</b> is FWP_DOUBLE.
+
+A pointer to a double-precision floating-point  value.
+
+<div class="alert"><b>Note</b>  This value cannot be null.</div>
+<div> </div>
+
+### -field byteArray16
 
 Available when <b>type</b> is FWP_BYTE_ARRAY16_TYPE.
 
@@ -74,7 +150,59 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 <div class="alert"><b>Note</b>  This value cannot be null.</div>
 <div> </div>
 
-#### - byteArray6
+### -field byteBlob
+
+Available when <b>type</b> is FWP_BYTE_BLOB_TYPE.
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>  structure.
+
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> structure cannot be null.</div>
+<div> </div>
+
+### -field sid
+
+Available when <b>type</b> is FWP_SID.
+
+A pointer to a security identifier (SID) structure.
+
+<div class="alert"><b>Note</b>  The security identifier cannot be null.</div>
+<div> </div>
+
+### -field sd
+
+Available when <b>type</b> is FWP_SECURITY_DESCRIPTOR_TYPE.
+
+A pointer to a security descriptor contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>  structure.
+
+<div class="alert"><b>Note</b>  Security descriptors cannot be null when used in filter conditions. Moreover, they need to be in self-relative format.</div>
+<div> </div>
+
+### -field tokenInformation
+
+Available when <b>type</b> is FWP_TOKEN_INFORMATION_TYPE.
+
+A pointer to token information contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552440">FWP_TOKEN_INFORMATION</a>  structure.
+
+
+### -field tokenAccessInformation
+
+Available when <b>type</b> is FWP_TOKEN_ACCESS_INFORMATION_TYPE.
+
+A pointer to token access information contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>  structure.
+
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> structure cannot be null.</div>
+<div> </div>
+
+### -field unicodeString
+
+Available when <b>type</b> is FWP_UNICODE_STRING_TYPE.
+
+A pointer to a null-terminated unicode string.
+
+<div class="alert"><b>Note</b>  This value cannot be null.</div>
+<div> </div>
+
+### -field byteArray6
 
 Available when <b>type</b> is FWP_BYTE_ARRAY6_TYPE.
 
@@ -85,153 +213,30 @@ A pointer to a <a href="https://msdn.microsoft.com/395b5c1c-988b-4d85-9b31-c1f84
 <div class="alert"><b>Note</b>  Available only in Windows 7 and Windows Server 2008 R2.</div>
 <div> </div>
 
-#### - byteBlob
+### -field bitmapArray64
 
-Available when <b>type</b> is FWP_BYTE_BLOB_TYPE.
+ 
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>  structure.
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> structure cannot be null.</div>
-<div> </div>
-
-#### - double64
-
-Available when <b>type</b> is FWP_DOUBLE.
-
-A pointer to a double-precision floating-point  value.
-
-<div class="alert"><b>Note</b>  This value cannot be null.</div>
-<div> </div>
-
-#### - float32
-
-Available when <b>type</b> is FWP_FLOAT.
-
-A single-precision floating-point  value.
-
-
-#### - int16
-
-Available when <b>type</b> is FWP_INT16.
-
-A signed 16-bit integer.
-
-
-#### - int32
-
-Available when <b>type</b> is FWP_INT32.
-
-A signed 32-bit integer.
-
-
-#### - int64
-
-Available when <b>type</b> is FWP_INT64.
-
-A pointer to a signed 64-bit integer.
-
-<div class="alert"><b>Note</b>  This value cannot be null.</div>
-<div> </div>
-
-#### - int8
-
-Available when <b>type</b> is FWP_INT8.
-
-A signed 8-bit integer.
-
-
-#### - rangeValue
-
-Available when <b>type</b> is FWP_RANGE_TYPE.
-
-A pointer to a range contained in  an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552438">FWP_RANGE0</a>  structure.
-
-
-#### - sd
-
-Available when <b>type</b> is FWP_SECURITY_DESCRIPTOR_TYPE.
-
-A pointer to a security descriptor contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>  structure.
-
-<div class="alert"><b>Note</b>  Security descriptors cannot be null when used in filter conditions. Moreover, they need to be in self-relative format.</div>
-<div> </div>
-
-#### - sid
-
-Available when <b>type</b> is FWP_SID.
-
-A pointer to a security identifier (SID) structure.
-
-<div class="alert"><b>Note</b>  The security identifier cannot be null.</div>
-<div> </div>
-
-#### - tokenAccessInformation
-
-Available when <b>type</b> is FWP_TOKEN_ACCESS_INFORMATION_TYPE.
-
-A pointer to token access information contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>  structure.
-
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> structure cannot be null.</div>
-<div> </div>
-
-#### - tokenInformation
-
-Available when <b>type</b> is FWP_TOKEN_INFORMATION_TYPE.
-
-A pointer to token information contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552440">FWP_TOKEN_INFORMATION</a>  structure.
-
-
-#### - uint16
-
-Available when <b>type</b> is FWP_UINT16.
-
-An unsigned 16-bit integer.
-
-
-#### - uint32
-
-Available when <b>type</b> is FWP_UINT32.
-
-An unsigned 32-bit integer.
-
-
-#### - uint64
-
-Available when <b>type</b> is FWP_UINT64.
-
-A pointer to an unsigned 64-bit integer.
-
-<div class="alert"><b>Note</b>  This value cannot be null.</div>
-<div> </div>
-
-#### - uint8
-
-Available when <b>type</b> is FWP_UINT8.
-
-An unsigned 8-bit integer.
-
-
-#### - unicodeString
-
-Available when <b>type</b> is FWP_UNICODE_STRING_TYPE.
-
-A pointer to a null-terminated unicode string.
-
-<div class="alert"><b>Note</b>  This value cannot be null.</div>
-<div> </div>
-
-#### - v4AddrMask
+### -field v4AddrMask
 
 Available when <b>type</b> is FWP_V4_ADDR_MASK.
 
 A pointer to an IPv4 address contained in  an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552441">FWP_V4_ADDR_AND_MASK</a>  structure.
 
 
-#### - v6AddrMask
+### -field v6AddrMask
 
 Available when <b>type</b> is FWP_V6_ADDR_MASK.
 
 A pointer to an IPv6 address contained in  an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552446">FWP_V6_ADDR_AND_MASK</a>  structure.
+
+
+### -field rangeValue
+
+Available when <b>type</b> is FWP_RANGE_TYPE.
+
+A pointer to a range contained in  an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552438">FWP_RANGE0</a>  structure.
 
 
 ## -remarks

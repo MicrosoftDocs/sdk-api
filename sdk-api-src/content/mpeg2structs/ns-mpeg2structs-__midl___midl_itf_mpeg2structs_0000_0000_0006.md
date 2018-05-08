@@ -71,14 +71,12 @@ Specifies the table identifier (TID) of the section.
 A union that contains the following members.
 
 
-
-#### S
+### -field Header.S
 
 Contains header bits, as an <b>MPEG_HEADER_BITS_MIDL</b> structure. Applications should use the <b>Header.W</b> field instead.
 
 
-
-#### W
+### -field Header.W
 
 Contains the header bits as a <b>WORD</b> type. To get the individual bit fields, coerce this member to an <a href="https://msdn.microsoft.com/e25d36af-ee72-4986-8d96-2bce8b19ac80">MPEG_HEADER_BITS</a> structure.
 

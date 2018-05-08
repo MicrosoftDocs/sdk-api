@@ -1,6 +1,6 @@
 ---
 UID: NF:evalcom2.IValidate.SetStatus
-title: IValidate::SetStatus method
+title: IValidate::SetStatus
 author: windows-driver-content
 description: The SetStatus method enables an authoring tool to receive information about the progress of validation through a registered callback function.
 old-location: setup\ivalidate_setstatus.htm
@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: 523334f1-4a82-4981-9c77-fffd2b5b561e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IValidate, IValidate interface, SetStatus method, IValidate::SetStatus, SetStatus method, SetStatus method, IValidate interface, SetStatus,IValidate.SetStatus, evalcom2/IValidate::SetStatus, setup.ivalidate_setstatus
+ms.keywords: IValidate interface,SetStatus method, IValidate.SetStatus, IValidate::SetStatus, SetStatus, SetStatus method, SetStatus method,IValidate interface, evalcom2/IValidate::SetStatus, setup.ivalidate_setstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IValidate::SetStatus method
+# IValidate::SetStatus
 
 
 ## -description

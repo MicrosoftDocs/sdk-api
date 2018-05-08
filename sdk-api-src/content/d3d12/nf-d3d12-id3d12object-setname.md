@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Object.SetName
-title: ID3D12Object::SetName method
+title: ID3D12Object::SetName
 author: windows-driver-content
 description: Associates a name with the device object. This name is for use in debug diagnostics and tools.
 old-location: direct3d12\id3d12object_setname.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: A1DEEB16-BF75-4391-ADF0-AC22EECBC71A
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12Object, ID3D12Object interface, SetName method, ID3D12Object::SetName, SetName method, SetName method, ID3D12Object interface, SetName,ID3D12Object.SetName, d3d12/ID3D12Object::SetName, direct3d12.id3d12object_setname
+ms.keywords: ID3D12Object interface,SetName method, ID3D12Object.SetName, ID3D12Object::SetName, SetName, SetName method, SetName method,ID3D12Object interface, d3d12/ID3D12Object::SetName, direct3d12.id3d12object_setname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Object::SetName method
+# ID3D12Object::SetName
 
 
 ## -description

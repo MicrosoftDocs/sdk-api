@@ -1,14 +1,14 @@
 ---
 UID: NF:certcli.ICertConfig2.SetSharedFolder
-title: ICertConfig2::SetSharedFolder method
+title: ICertConfig2::SetSharedFolder
 author: windows-driver-content
 description: Specifies the path to be used as the certification authority's (CA) shared folder.
 old-location: security\icertconfig2_setsharedfolder.htm
 old-project: SecCrypto
 ms.assetid: f0fc4218-ca07-4488-bd0c-bfa8bdcd2179
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertConfig object [Security], SetSharedFolder method, ICertConfig2, ICertConfig2 interface [Security], SetSharedFolder method, ICertConfig2::SetSharedFolder, SetSharedFolder method [Security], SetSharedFolder method [Security], CCertConfig object, SetSharedFolder method [Security], ICertConfig2 interface, SetSharedFolder,ICertConfig2.SetSharedFolder, _certsrv_icertconfig2_setsharedfolder, certcli/ICertConfig2::SetSharedFolder, security.icertconfig2_setsharedfolder
+ms.date: 4/30/2018
+ms.keywords: CCertConfig object [Security],SetSharedFolder method, ICertConfig2 interface [Security],SetSharedFolder method, ICertConfig2.SetSharedFolder, ICertConfig2::SetSharedFolder, SetSharedFolder, SetSharedFolder method [Security], SetSharedFolder method [Security],CCertConfig object, SetSharedFolder method [Security],ICertConfig2 interface, _certsrv_icertconfig2_setsharedfolder, certcli/ICertConfig2::SetSharedFolder, security.icertconfig2_setsharedfolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertConfig2::SetSharedFolder method
+# ICertConfig2::SetSharedFolder
 
 
 ## -description

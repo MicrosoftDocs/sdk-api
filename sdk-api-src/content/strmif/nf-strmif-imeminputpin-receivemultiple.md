@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMemInputPin.ReceiveMultiple
-title: IMemInputPin::ReceiveMultiple method
+title: IMemInputPin::ReceiveMultiple
 author: windows-driver-content
 description: The ReceiveMultiple method receives multiple samples in the stream.
 old-location: dshow\imeminputpin_receivemultiple.htm
 old-project: DirectShow
 ms.assetid: cf90a6e8-0758-4cee-887d-3ac9f7aa764d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMemInputPin, IMemInputPin interface [DirectShow], ReceiveMultiple method, IMemInputPin::ReceiveMultiple, IMemInputPinReceiveMultiple, ReceiveMultiple method [DirectShow], ReceiveMultiple method [DirectShow], IMemInputPin interface, ReceiveMultiple,IMemInputPin.ReceiveMultiple, dshow.imeminputpin_receivemultiple, strmif/IMemInputPin::ReceiveMultiple
+ms.date: 4/30/2018
+ms.keywords: IMemInputPin interface [DirectShow],ReceiveMultiple method, IMemInputPin.ReceiveMultiple, IMemInputPin::ReceiveMultiple, IMemInputPinReceiveMultiple, ReceiveMultiple, ReceiveMultiple method [DirectShow], ReceiveMultiple method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receivemultiple, strmif/IMemInputPin::ReceiveMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMemInputPin::ReceiveMultiple method
+# IMemInputPin::ReceiveMultiple
 
 
 ## -description

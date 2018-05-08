@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.ICommDlgBrowser3.GetCurrentFilter
-title: ICommDlgBrowser3::GetCurrentFilter method
+title: ICommDlgBrowser3::GetCurrentFilter
 author: windows-driver-content
 description: Gets the current filter as a Unicode string.
 old-location: shell\ICommDlgBrowser3_GetCurrentFilter.htm
 old-project: shell
 ms.assetid: 038f3478-82d0-4023-a787-b7a2c66ceb27
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentFilter method [Windows Shell], GetCurrentFilter method [Windows Shell], ICommDlgBrowser3 interface, GetCurrentFilter,ICommDlgBrowser3.GetCurrentFilter, ICommDlgBrowser3, ICommDlgBrowser3 interface [Windows Shell], GetCurrentFilter method, ICommDlgBrowser3::GetCurrentFilter, _shell_ICommDlgBrowser3_GetCurrentFilter, shell.ICommDlgBrowser3_GetCurrentFilter, shobjidl/ICommDlgBrowser3::GetCurrentFilter
+ms.date: 5/3/2018
+ms.keywords: GetCurrentFilter, GetCurrentFilter method [Windows Shell], GetCurrentFilter method [Windows Shell],ICommDlgBrowser3 interface, ICommDlgBrowser3 interface [Windows Shell],GetCurrentFilter method, ICommDlgBrowser3.GetCurrentFilter, ICommDlgBrowser3::GetCurrentFilter, _shell_ICommDlgBrowser3_GetCurrentFilter, shell.ICommDlgBrowser3_GetCurrentFilter, shobjidl/ICommDlgBrowser3::GetCurrentFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ICommDlgBrowser3::GetCurrentFilter method
+# ICommDlgBrowser3::GetCurrentFilter
 
 
 ## -description

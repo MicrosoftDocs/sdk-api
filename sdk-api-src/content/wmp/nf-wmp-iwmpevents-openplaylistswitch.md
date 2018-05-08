@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.OpenPlaylistSwitch
-title: IWMPEvents::OpenPlaylistSwitch method
+title: IWMPEvents::OpenPlaylistSwitch
 author: windows-driver-content
 description: The OpenPlaylistSwitch event occurs when a title on a DVD begins playing.
 old-location: wmp\iwmpevents_iwmpevents__openplaylistswitch.htm
 old-project: WMP
 ms.assetid: 08fef94e-82ef-4606-a7d5-6258fddd8717
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], OpenPlaylistSwitch method, IWMPEvents::OpenPlaylistSwitch, IWMPEventsOpenPlaylistSwitch, OpenPlaylistSwitch method [Windows Media Player], OpenPlaylistSwitch method [Windows Media Player], IWMPEvents interface, OpenPlaylistSwitch,IWMPEvents.OpenPlaylistSwitch, wmp.iwmpevents_iwmpevents__openplaylistswitch, wmp/IWMPEvents::OpenPlaylistSwitch
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],OpenPlaylistSwitch method, IWMPEvents.OpenPlaylistSwitch, IWMPEvents::OpenPlaylistSwitch, IWMPEventsOpenPlaylistSwitch, OpenPlaylistSwitch, OpenPlaylistSwitch method [Windows Media Player], OpenPlaylistSwitch method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__openplaylistswitch, wmp/IWMPEvents::OpenPlaylistSwitch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::OpenPlaylistSwitch method
+# IWMPEvents::OpenPlaylistSwitch
 
 
 ## -description

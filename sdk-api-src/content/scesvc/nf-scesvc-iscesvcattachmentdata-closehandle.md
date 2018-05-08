@@ -1,6 +1,6 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentData.CloseHandle
-title: ISceSvcAttachmentData::CloseHandle method
+title: ISceSvcAttachmentData::CloseHandle
 author: windows-driver-content
 description: The CloseHandle method closes a handle opened during a previous call to ISceSvcAttachmentData::Initialize.
 old-location: security\iscesvcattachmentdata_closehandle.htm
@@ -8,7 +8,7 @@ old-project: SecMgmt
 ms.assetid: e50f5acf-06ef-49bb-bcf1-1fadeb4b808a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: CloseHandle method [Security], CloseHandle method [Security], ISceSvcAttachmentData interface, CloseHandle,ISceSvcAttachmentData.CloseHandle, ISceSvcAttachmentData, ISceSvcAttachmentData interface [Security], CloseHandle method, ISceSvcAttachmentData::CloseHandle, _config_iscesvcattachmentdata_closehandle, scesvc/ISceSvcAttachmentData::CloseHandle, security.iscesvcattachmentdata_closehandle
+ms.keywords: CloseHandle, CloseHandle method [Security], CloseHandle method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],CloseHandle method, ISceSvcAttachmentData.CloseHandle, ISceSvcAttachmentData::CloseHandle, _config_iscesvcattachmentdata_closehandle, scesvc/ISceSvcAttachmentData::CloseHandle, security.iscesvcattachmentdata_closehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISceSvcAttachmentData::CloseHandle method
+# ISceSvcAttachmentData::CloseHandle
 
 
 ## -description

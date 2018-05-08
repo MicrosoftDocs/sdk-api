@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.Initialize
-title: IDirectDrawClipper::Initialize method
+title: IDirectDrawClipper::Initialize
 author: windows-driver-content
 description: Initializes a DirectDrawClipper object that was created by using the CoCreateInstance COM function.
 old-location: directdraw\idirectdrawclipper_initialize.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: b0b71af4-f806-4264-bd14-b556b31aab29
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], Initialize method, IDirectDrawClipper::Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw], IDirectDrawClipper interface, Initialize,IDirectDrawClipper.Initialize, ddraw/IDirectDrawClipper::Initialize, directdraw.idirectdrawclipper_initialize
+ms.keywords: IDirectDrawClipper interface [DirectDraw],Initialize method, IDirectDrawClipper.Initialize, IDirectDrawClipper::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::Initialize, directdraw.idirectdrawclipper_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawClipper::Initialize method
+# IDirectDrawClipper::Initialize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.get_Path
-title: IFsrmQuotaObject::get_Path method
+title: IFsrmQuotaObject::get_Path
 author: windows-driver-content
 description: Retrieves the path to which the quota applies.
 old-location: fsrm\ifsrmquotaobject_path.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: de587430-5179-4c9e-9ad0-86bb57757d1c
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmQuotaObject, IFsrmQuotaObject interface [File Server Resource Manager], Path property, IFsrmQuotaObject.Path, IFsrmQuotaObject::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager], IFsrmQuotaObject interface, fs.ifsrmquotaobject_path, fsrm.ifsrmquotaobject_path, fsrmquota/IFsrmQuotaObject::Path, fsrmquota/IFsrmQuotaObject::get_Path, get_Path,IFsrmQuotaObject.get_Path
+ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],Path property, IFsrmQuotaObject.Path, IFsrmQuotaObject.get_Path, IFsrmQuotaObject::Path, IFsrmQuotaObject::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_path, fsrm.ifsrmquotaobject_path, fsrmquota/IFsrmQuotaObject::Path, fsrmquota/IFsrmQuotaObject::get_Path, get_Path
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaObject::get_Path method
+# IFsrmQuotaObject::get_Path
 
 
 ## -description

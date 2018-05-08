@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnBalloon.UpdateBalloon
-title: ITfFnBalloon::UpdateBalloon method
+title: ITfFnBalloon::UpdateBalloon
 author: windows-driver-content
 description: ITfFnBalloon::UpdateBalloon method
 old-location: tsf\itffnballoon_updateballoon.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: b395d587-02a7-496e-8bfd-8fcaba2a3edc
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnBalloon, ITfFnBalloon interface [Text Services Framework], UpdateBalloon method, ITfFnBalloon::UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework], ITfFnBalloon interface, UpdateBalloon,ITfFnBalloon.UpdateBalloon, _tsf_itffnballoon_updateballoon_ref, ctffunc/ITfFnBalloon::UpdateBalloon, tsf.itffnballoon_updateballoon
+ms.keywords: ITfFnBalloon interface [Text Services Framework],UpdateBalloon method, ITfFnBalloon.UpdateBalloon, ITfFnBalloon::UpdateBalloon, UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework],ITfFnBalloon interface, _tsf_itffnballoon_updateballoon_ref, ctffunc/ITfFnBalloon::UpdateBalloon, tsf.itffnballoon_updateballoon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfFnBalloon::UpdateBalloon method
+# ITfFnBalloon::UpdateBalloon
 
 
 ## -description

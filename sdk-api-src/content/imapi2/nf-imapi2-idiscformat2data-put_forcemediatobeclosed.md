@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_ForceMediaToBeClosed
-title: IDiscFormat2Data::put_ForceMediaToBeClosed method
+title: IDiscFormat2Data::put_ForceMediaToBeClosed
 author: windows-driver-content
 description: Determines if further additions to the file system are prevented.
 old-location: imapi\idiscformat2data_put_forcemediatobeclosed.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 9a087a73-1b61-481d-8deb-a251511906a9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], put_ForceMediaToBeClosed method, IDiscFormat2Data::put_ForceMediaToBeClosed, imapi.idiscformat2data_put_forcemediatobeclosed, imapi2/IDiscFormat2Data::put_ForceMediaToBeClosed, put_ForceMediaToBeClosed method [IMAPI], put_ForceMediaToBeClosed method [IMAPI], IDiscFormat2Data interface, put_ForceMediaToBeClosed,IDiscFormat2Data.put_ForceMediaToBeClosed
+ms.keywords: IDiscFormat2Data interface [IMAPI],put_ForceMediaToBeClosed method, IDiscFormat2Data.put_ForceMediaToBeClosed, IDiscFormat2Data::put_ForceMediaToBeClosed, imapi.idiscformat2data_put_forcemediatobeclosed, imapi2/IDiscFormat2Data::put_ForceMediaToBeClosed, put_ForceMediaToBeClosed, put_ForceMediaToBeClosed method [IMAPI], put_ForceMediaToBeClosed method [IMAPI],IDiscFormat2Data interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Data::put_ForceMediaToBeClosed method
+# IDiscFormat2Data::put_ForceMediaToBeClosed
 
 
 ## -description

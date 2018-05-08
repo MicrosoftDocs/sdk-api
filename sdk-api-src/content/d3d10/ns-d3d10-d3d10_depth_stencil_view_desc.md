@@ -71,42 +71,42 @@ Type: <b><a href="https://msdn.microsoft.com/ca029709-c5cf-4e5c-bacc-2c9f4e8dc71
 Type of resource (see <a href="https://msdn.microsoft.com/ca029709-c5cf-4e5c-bacc-2c9f4e8dc716">D3D10_DSV_DIMENSION</a>). Specifies how a depth-stencil resource will be accessed; the value is stored in the union in this structure.
 
 
-#### - Texture1D
+### -field Texture1D
 
 Type: <b><a href="https://msdn.microsoft.com/acc16fa2-b3f4-4bc5-88e4-c24ab0e1a4a7">D3D10_TEX1D_DSV</a></b>
 
 Specifies a 1D texture subresource (see <a href="https://msdn.microsoft.com/acc16fa2-b3f4-4bc5-88e4-c24ab0e1a4a7">D3D10_TEX1D_DSV</a>).
 
 
-#### - Texture1DArray
+### -field Texture1DArray
 
 Type: <b><a href="https://msdn.microsoft.com/c1dad881-b4d6-4b28-88e1-1e07c7ab9895">D3D10_TEX1D_ARRAY_DSV</a></b>
 
 Specifies an array of 1D texture subresources (see <a href="https://msdn.microsoft.com/c1dad881-b4d6-4b28-88e1-1e07c7ab9895">D3D10_TEX1D_ARRAY_DSV</a>).
 
 
-#### - Texture2D
+### -field Texture2D
 
 Type: <b><a href="https://msdn.microsoft.com/5417f61e-08b9-48ac-8024-038106b41223">D3D10_TEX2D_DSV</a></b>
 
 Specifies a 2D texture subresource (see <a href="https://msdn.microsoft.com/5417f61e-08b9-48ac-8024-038106b41223">D3D10_TEX2D_DSV</a>).
 
 
-#### - Texture2DArray
+### -field Texture2DArray
 
 Type: <b><a href="https://msdn.microsoft.com/9c28215d-6dee-4da9-a35b-1e44c91cd175">D3D10_TEX2D_ARRAY_DSV</a></b>
 
 Specifies an array of 2D texture subresources (see <a href="https://msdn.microsoft.com/9c28215d-6dee-4da9-a35b-1e44c91cd175">D3D10_TEX2D_ARRAY_DSV</a>).
 
 
-#### - Texture2DMS
+### -field Texture2DMS
 
 Type: <b><a href="https://msdn.microsoft.com/0d0b819d-5b0c-45ec-a16c-b8e55946650f">D3D10_TEX2DMS_DSV</a></b>
 
 Specifies a multisampled 2D texture contains a single subresource (see <a href="https://msdn.microsoft.com/0d0b819d-5b0c-45ec-a16c-b8e55946650f">D3D10_TEX2DMS_DSV</a>).
 
 
-#### - Texture2DMSArray
+### -field Texture2DMSArray
 
 Type: <b><a href="https://msdn.microsoft.com/aa4b4daf-d035-4ffd-a26c-c8f004781b9f">D3D10_TEX2DMS_ARRAY_DSV</a></b>
 

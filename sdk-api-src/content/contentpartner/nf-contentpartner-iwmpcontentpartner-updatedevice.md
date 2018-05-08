@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.UpdateDevice
-title: IWMPContentPartner::UpdateDevice method
+title: IWMPContentPartner::UpdateDevice
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_updatedevice.htm
 old-project: WMP
 ms.assetid: 893beb65-048f-4496-88e6-b0e0b8db0205
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], UpdateDevice method, IWMPContentPartner::UpdateDevice, IWMPContentPartnerUpdateDevice, UpdateDevice method [Windows Media Player], UpdateDevice method [Windows Media Player], IWMPContentPartner interface, UpdateDevice,IWMPContentPartner.UpdateDevice, contentpartner/IWMPContentPartner::UpdateDevice, wmp.iwmpcontentpartner_updatedevice
+ms.date: 5/4/2018
+ms.keywords: IWMPContentPartner interface [Windows Media Player],UpdateDevice method, IWMPContentPartner.UpdateDevice, IWMPContentPartner::UpdateDevice, IWMPContentPartnerUpdateDevice, UpdateDevice, UpdateDevice method [Windows Media Player], UpdateDevice method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::UpdateDevice, wmp.iwmpcontentpartner_updatedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::UpdateDevice method
+# IWMPContentPartner::UpdateDevice
 
 
 ## -description

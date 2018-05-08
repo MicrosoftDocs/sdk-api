@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMapItem.get_Value
-title: IValueMapItem::get_Value method
+title: IValueMapItem::get_Value
 author: windows-driver-content
 description: Retrieves or sets the value of the item.
 old-location: pla\ivaluemapitem_value.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 3f7549aa-2ad6-40f4-ae09-c5130a9c3451
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IValueMapItem, IValueMapItem interface [PLA], Value property, IValueMapItem.Value, IValueMapItem::get_Value, IValueMapItem::put_Value, Value property [PLA], Value property [PLA], IValueMapItem interface, base.ivaluemapitem_value, get_Value,IValueMapItem.get_Value, pla.ivaluemapitem_value, pla/IValueMapItem::Value, pla/IValueMapItem::get_Value, pla/IValueMapItem::put_Value
+ms.keywords: IValueMapItem interface [PLA],Value property, IValueMapItem.Value, IValueMapItem.get_Value, IValueMapItem::Value, IValueMapItem::get_Value, IValueMapItem::put_Value, Value property [PLA], Value property [PLA],IValueMapItem interface, base.ivaluemapitem_value, get_Value, pla.ivaluemapitem_value, pla/IValueMapItem::Value, pla/IValueMapItem::get_Value, pla/IValueMapItem::put_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IValueMapItem::get_Value method
+# IValueMapItem::get_Value
 
 
 ## -description

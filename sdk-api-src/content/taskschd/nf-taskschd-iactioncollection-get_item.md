@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IActionCollection.get_Item
-title: IActionCollection::get_Item method
+title: IActionCollection::get_Item
 author: windows-driver-content
 description: Gets a specified action from the collection.
 old-location: taskschd\iactioncollection_item.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 70d9cc9f-c539-4a5a-8b29-ca4d7464ab3f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IActionCollection, IActionCollection interface [Task Scheduler], Item property, IActionCollection.Item, IActionCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler], IActionCollection interface, get_Item,IActionCollection.get_Item, taskschd.iactioncollection_item, taskschd/IActionCollection::Item, taskschd/IActionCollection::get_Item
+ms.keywords: IActionCollection interface [Task Scheduler],Item property, IActionCollection.Item, IActionCollection.get_Item, IActionCollection::Item, IActionCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],IActionCollection interface, get_Item, taskschd.iactioncollection_item, taskschd/IActionCollection::Item, taskschd/IActionCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IActionCollection::get_Item method
+# IActionCollection::get_Item
 
 
 ## -description

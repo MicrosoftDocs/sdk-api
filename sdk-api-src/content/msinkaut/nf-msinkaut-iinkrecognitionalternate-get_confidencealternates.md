@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_ConfidenceAlternates
-title: IInkRecognitionAlternate::get_ConfidenceAlternates method
+title: IInkRecognitionAlternate::get_ConfidenceAlternates
 author: windows-driver-content
 description: Gets the collection of alternates in which each alternate in the collection consists of the segments with the same property values.
 old-location: tablet\iinkrecognitionalternate_confidencealternates.htm
 old-project: tablet
 ms.assetid: ef3ab614-7aff-4660-bb2a-783f14e75b94
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ConfidenceAlternates property [Tablet PC], ConfidenceAlternates property [Tablet PC], IInkRecognitionAlternate interface, IInkRecognitionAlternate, IInkRecognitionAlternate interface [Tablet PC], ConfidenceAlternates property, IInkRecognitionAlternate.ConfidenceAlternates, IInkRecognitionAlternate.get_ConfidenceAlternates, IInkRecognitionAlternate::get_ConfidenceAlternates, ef3ab614-7aff-4660-bb2a-783f14e75b94, get_ConfidenceAlternates,IInkRecognitionAlternate.get_ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::get_ConfidenceAlternates, tablet.iinkrecognitionalternate_confidencealternates
+ms.date: 5/2/2018
+ms.keywords: ConfidenceAlternates property [Tablet PC], ConfidenceAlternates property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],ConfidenceAlternates property, IInkRecognitionAlternate.ConfidenceAlternates, IInkRecognitionAlternate.get_ConfidenceAlternates, IInkRecognitionAlternate::ConfidenceAlternates, IInkRecognitionAlternate::get_ConfidenceAlternates, ef3ab614-7aff-4660-bb2a-783f14e75b94, get_ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::get_ConfidenceAlternates, tablet.iinkrecognitionalternate_confidencealternates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognitionAlternate::get_ConfidenceAlternates method
+# IInkRecognitionAlternate::get_ConfidenceAlternates
 
 
 ## -description

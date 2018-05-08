@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.CreateThresholdAction
-title: IFsrmQuotaBase::CreateThresholdAction method
+title: IFsrmQuotaBase::CreateThresholdAction
 author: windows-driver-content
 description: Creates an action and associates it with the specified threshold.
 old-location: fsrm\ifsrmquotabase_createthresholdaction.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 27813041-ee42-4412-982e-fce594c5e648
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CreateThresholdAction method [File Server Resource Manager], CreateThresholdAction method [File Server Resource Manager], IFsrmQuotaBase interface, CreateThresholdAction,IFsrmQuotaBase.CreateThresholdAction, IFsrmQuotaBase, IFsrmQuotaBase interface [File Server Resource Manager], CreateThresholdAction method, IFsrmQuotaBase::CreateThresholdAction, fs.ifsrmquotabase_createthresholdaction, fsrm.ifsrmquotabase_createthresholdaction, fsrmquota/IFsrmQuotaBase::CreateThresholdAction
+ms.keywords: CreateThresholdAction, CreateThresholdAction method [File Server Resource Manager], CreateThresholdAction method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],CreateThresholdAction method, IFsrmQuotaBase.CreateThresholdAction, IFsrmQuotaBase::CreateThresholdAction, fs.ifsrmquotabase_createthresholdaction, fsrm.ifsrmquotabase_createthresholdaction, fsrmquota/IFsrmQuotaBase::CreateThresholdAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaBase::CreateThresholdAction method
+# IFsrmQuotaBase::CreateThresholdAction
 
 
 ## -description

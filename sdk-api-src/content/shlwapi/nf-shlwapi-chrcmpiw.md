@@ -7,7 +7,7 @@ old-location: shell\ChrCmpI.htm
 old-project: shell
 ms.assetid: ae2f3cbf-c65b-41a4-8d59-39d6fadf40ca
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: ChrCmpI, ChrCmpI function [Windows Shell], ChrCmpIA, ChrCmpIW, _win32_ChrCmpI, shell.ChrCmpI, shlwapi/ChrCmpI, shlwapi/ChrCmpIA, shlwapi/ChrCmpIW
 ms.prod: windows-hardware
 ms.technology: windows-devices

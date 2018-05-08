@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.IEnumNetSharingEveryConnection.Skip
-title: IEnumNetSharingEveryConnection::Skip method
+title: IEnumNetSharingEveryConnection::Skip
 author: windows-driver-content
 description: The Skip method skips the specified number of privately-shared connections for this enumeration.
 old-location: ics\ienumnetsharingeveryconnection_skip.htm
 old-project: ICS
 ms.assetid: 97400d6a-67b7-4091-82ef-38cbaa27efa5
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], Skip method, IEnumNetSharingEveryConnection::Skip, Skip method [ICS/ICF], Skip method [ICS/ICF], IEnumNetSharingEveryConnection interface, Skip,IEnumNetSharingEveryConnection.Skip, _ics_ienumnetsharingeveryconnection_skip, ics.ienumnetsharingeveryconnection_skip, netcon/IEnumNetSharingEveryConnection::Skip
+ms.date: 5/1/2018
+ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Skip method, IEnumNetSharingEveryConnection.Skip, IEnumNetSharingEveryConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_skip, ics.ienumnetsharingeveryconnection_skip, netcon/IEnumNetSharingEveryConnection::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumNetSharingEveryConnection::Skip method
+# IEnumNetSharingEveryConnection::Skip
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated
-title: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated method
+title: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated
 author: windows-driver-content
 description: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated method
 old-location: tsf\itftransitoryextensionsink_ontransitoryextensionupdated.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2501e0b7-a1fe-46ee-8b18-b13de875d66b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfTransitoryExtensionSink, ITfTransitoryExtensionSink interface [Text Services Framework], OnTransitoryExtensionUpdated method, ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated, OnTransitoryExtensionUpdated method [Text Services Framework], OnTransitoryExtensionUpdated method [Text Services Framework], ITfTransitoryExtensionSink interface, OnTransitoryExtensionUpdated,ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated, msctf/ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated, tsf.itftransitoryextensionsink_ontransitoryextensionupdated
+ms.keywords: ITfTransitoryExtensionSink interface [Text Services Framework],OnTransitoryExtensionUpdated method, ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated, ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated, OnTransitoryExtensionUpdated, OnTransitoryExtensionUpdated method [Text Services Framework], OnTransitoryExtensionUpdated method [Text Services Framework],ITfTransitoryExtensionSink interface, msctf/ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated, tsf.itftransitoryextensionsink_ontransitoryextensionupdated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated method
+# ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IDeviceSpecificProperty.GetType
-title: IDeviceSpecificProperty::GetType method
+title: IDeviceSpecificProperty::GetType
 author: windows-driver-content
 description: The GetType method gets the data type of the device-specific property value.
 old-location: coreaudio\idevicespecificproperty_gettype.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 07d32eea-e80a-4f25-b963-3f667e56a811
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetType method [Core Audio], GetType method [Core Audio], IDeviceSpecificProperty interface, GetType,IDeviceSpecificProperty.GetType, IDeviceSpecificProperty, IDeviceSpecificProperty interface [Core Audio], GetType method, IDeviceSpecificProperty::GetType, IDeviceSpecificPropertyGetType, coreaudio.idevicespecificproperty_gettype, devicetopology/IDeviceSpecificProperty::GetType
+ms.keywords: GetType, GetType method [Core Audio], GetType method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],GetType method, IDeviceSpecificProperty.GetType, IDeviceSpecificProperty::GetType, IDeviceSpecificPropertyGetType, coreaudio.idevicespecificproperty_gettype, devicetopology/IDeviceSpecificProperty::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDeviceSpecificProperty::GetType method
+# IDeviceSpecificProperty::GetType
 
 
 ## -description

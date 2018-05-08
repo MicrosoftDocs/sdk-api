@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkCostManager.GetDataPlanStatus
-title: INetworkCostManager::GetDataPlanStatus method
+title: INetworkCostManager::GetDataPlanStatus
 author: windows-driver-content
 description: GetDataPlanStatus retrieves the data plan status for either a machine-wide internet connection , or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanager_getdataplanstatus.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: 82B4FF65-5D45-4D79-8F11-EA4CF4760EE2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDataPlanStatus method [Network Awareness], GetDataPlanStatus method [Network Awareness], INetworkCostManager interface, GetDataPlanStatus,INetworkCostManager.GetDataPlanStatus, INetworkCostManager, INetworkCostManager interface [Network Awareness], GetDataPlanStatus method, INetworkCostManager::GetDataPlanStatus, netlistmgr/INetworkCostManager::GetDataPlanStatus, nla.inetworkcostmanager_getdataplanstatus
+ms.keywords: GetDataPlanStatus, GetDataPlanStatus method [Network Awareness], GetDataPlanStatus method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetDataPlanStatus method, INetworkCostManager.GetDataPlanStatus, INetworkCostManager::GetDataPlanStatus, netlistmgr/INetworkCostManager::GetDataPlanStatus, nla.inetworkcostmanager_getdataplanstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkCostManager::GetDataPlanStatus method
+# INetworkCostManager::GetDataPlanStatus
 
 
 ## -description

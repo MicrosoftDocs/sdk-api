@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComIdentityEvents.OnIISRequestInfo
-title: IComIdentityEvents::OnIISRequestInfo method
+title: IComIdentityEvents::OnIISRequestInfo
 author: windows-driver-content
 description: Generated when an activity is part of an ASP page.
 old-location: cos\icomidentityevents_oniisrequestinfo.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 88beaef9-d042-4836-8223-6063c87ba06a
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComIdentityEvents, IComIdentityEvents interface [COM+], OnIISRequestInfo method, IComIdentityEvents::OnIISRequestInfo, OnIISRequestInfo method [COM+], OnIISRequestInfo method [COM+], IComIdentityEvents interface, OnIISRequestInfo,IComIdentityEvents.OnIISRequestInfo, _dtc_IComIdentityEvents_OnIISRequestInfo, comsvcs/IComIdentityEvents::OnIISRequestInfo, cos.icomidentityevents_oniisrequestinfo
+ms.keywords: IComIdentityEvents interface [COM+],OnIISRequestInfo method, IComIdentityEvents.OnIISRequestInfo, IComIdentityEvents::OnIISRequestInfo, OnIISRequestInfo, OnIISRequestInfo method [COM+], OnIISRequestInfo method [COM+],IComIdentityEvents interface, _dtc_IComIdentityEvents_OnIISRequestInfo, comsvcs/IComIdentityEvents::OnIISRequestInfo, cos.icomidentityevents_oniisrequestinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComIdentityEvents::OnIISRequestInfo method
+# IComIdentityEvents::OnIISRequestInfo
 
 
 ## -description

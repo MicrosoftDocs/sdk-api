@@ -7,8 +7,8 @@ old-location: wmp\iwmperroritem.htm
 old-project: WMP
 ms.assetid: 4675eebf-80d7-4412-b3f1-ec54b977db31
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], IWMPErrorItem interface [Windows Media Player], described, IWMPErrorItemInterface, wmp.iwmperroritem, wmp/IWMPErrorItem
+ms.date: 5/4/2018
+ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], IWMPErrorItem interface [Windows Media Player],described, IWMPErrorItemInterface, wmp.iwmperroritem, wmp/IWMPErrorItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

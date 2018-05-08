@@ -1,14 +1,14 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.SetReplyFileName
-title: IBackgroundCopyJob2::SetReplyFileName method
+title: IBackgroundCopyJob2::SetReplyFileName
 author: windows-driver-content
 description: Specifies the name of the file to contain the reply data from the server application. Call this method only if the job's type is BG_JOB_TYPE_UPLOAD_REPLY.
 old-location: bits\ibackgroundcopyjob2_setreplyfilename.htm
 old-project: Bits
 ms.assetid: 9f8591a3-ecc2-497a-ac12-67e5862efde4
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyJob2, IBackgroundCopyJob2 interface [BITS], SetReplyFileName method, IBackgroundCopyJob2::SetReplyFileName, SetReplyFileName method [BITS], SetReplyFileName method [BITS], IBackgroundCopyJob2 interface, SetReplyFileName,IBackgroundCopyJob2.SetReplyFileName, _drz_ibackgroundcopyjob2_setreplyfilename, bits.ibackgroundcopyjob2_setreplyfilename, bits1_5/IBackgroundCopyJob2::SetReplyFileName
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyJob2 interface [BITS],SetReplyFileName method, IBackgroundCopyJob2.SetReplyFileName, IBackgroundCopyJob2::SetReplyFileName, SetReplyFileName, SetReplyFileName method [BITS], SetReplyFileName method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setreplyfilename, bits.ibackgroundcopyjob2_setreplyfilename, bits1_5/IBackgroundCopyJob2::SetReplyFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: BitsPrx2.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob2::SetReplyFileName method
+# IBackgroundCopyJob2::SetReplyFileName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.GetResourceTypeInfo
-title: IWorkspaceResTypeRegistry::GetResourceTypeInfo method
+title: IWorkspaceResTypeRegistry::GetResourceTypeInfo
 author: windows-driver-content
 description: Retrieves information about a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_getresourcetypeinfo.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 60fa6676-c098-41b6-bebd-0a600ca37954
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetResourceTypeInfo method [Remote Desktop Services], GetResourceTypeInfo method [Remote Desktop Services], IWorkspaceResTypeRegistry interface, GetResourceTypeInfo method [Remote Desktop Services], Workspace object, GetResourceTypeInfo,IWorkspaceResTypeRegistry.GetResourceTypeInfo, IWorkspaceResTypeRegistry, IWorkspaceResTypeRegistry interface [Remote Desktop Services], GetResourceTypeInfo method, IWorkspaceResTypeRegistry::GetResourceTypeInfo, Workspace object [Remote Desktop Services], GetResourceTypeInfo method, termserv.iworkspacerestyperegistry_getresourcetypeinfo, workspaceax/IWorkspaceResTypeRegistry::GetResourceTypeInfo
+ms.keywords: GetResourceTypeInfo, GetResourceTypeInfo method [Remote Desktop Services], GetResourceTypeInfo method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, GetResourceTypeInfo method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],GetResourceTypeInfo method, IWorkspaceResTypeRegistry.GetResourceTypeInfo, IWorkspaceResTypeRegistry::GetResourceTypeInfo, Workspace object [Remote Desktop Services],GetResourceTypeInfo method, termserv.iworkspacerestyperegistry_getresourcetypeinfo, workspaceax/IWorkspaceResTypeRegistry::GetResourceTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWorkspaceResTypeRegistry::GetResourceTypeInfo method
+# IWorkspaceResTypeRegistry::GetResourceTypeInfo
 
 
 ## -description

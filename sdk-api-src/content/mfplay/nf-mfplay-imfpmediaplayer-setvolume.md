@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetVolume
-title: IMFPMediaPlayer::SetVolume method
+title: IMFPMediaPlayer::SetVolume
 author: windows-driver-content
 description: Sets the audio volume.
 old-location: mf\imfpmediaplayer_setvolume.htm
 old-project: medfound
 ms.assetid: feee2812-7c7e-4c27-86be-8f7316854222
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], SetVolume method, IMFPMediaPlayer::SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation], IMFPMediaPlayer interface, SetVolume,IMFPMediaPlayer.SetVolume, mf.imfpmediaplayer_setvolume, mfplay/IMFPMediaPlayer::SetVolume
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetVolume method, IMFPMediaPlayer.SetVolume, IMFPMediaPlayer::SetVolume, SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setvolume, mfplay/IMFPMediaPlayer::SetVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::SetVolume method
+# IMFPMediaPlayer::SetVolume
 
 
 ## -description

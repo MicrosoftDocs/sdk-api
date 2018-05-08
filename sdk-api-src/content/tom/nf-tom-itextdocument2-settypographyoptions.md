@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.SetTypographyOptions
-title: ITextDocument2::SetTypographyOptions method
+title: ITextDocument2::SetTypographyOptions
 author: windows-driver-content
 description: Specifies the typography options for the document.
 old-location: controls\itextdocument2_settypographyoptions.htm
 old-project: Controls
 ms.assetid: 1013c9bf-b6fe-4396-b7a8-36e61edf1df3
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], SetTypographyOptions method, ITextDocument2::SetTypographyOptions, SetTypographyOptions method [Windows Controls], SetTypographyOptions method [Windows Controls], ITextDocument2 interface, SetTypographyOptions,ITextDocument2.SetTypographyOptions, controls.itextdocument2_settypographyoptions, tom/ITextDocument2::SetTypographyOptions
+ms.date: 4/27/2018
+ms.keywords: ITextDocument2 interface [Windows Controls],SetTypographyOptions method, ITextDocument2.SetTypographyOptions, ITextDocument2::SetTypographyOptions, SetTypographyOptions, SetTypographyOptions method [Windows Controls], SetTypographyOptions method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_settypographyoptions, tom/ITextDocument2::SetTypographyOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::SetTypographyOptions method
+# ITextDocument2::SetTypographyOptions
 
 
 ## -description

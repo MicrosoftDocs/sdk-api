@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Decrypt
-title: IWMSecureChannel::WMSC_Decrypt method
+title: IWMSecureChannel::WMSC_Decrypt
 author: windows-driver-content
 description: The WMSC_Decrypt method decrypts data across DLL boundaries.
 old-location: wmformat\iwmsecurechannel_wmsc_decrypt.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c477c1f9-0264-4d3f-8670-f0c52df9e6a6
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSecureChannel, IWMSecureChannel interface [windows Media Format], WMSC_Decrypt method, IWMSecureChannel::WMSC_Decrypt, WMSC_Decrypt method [windows Media Format], WMSC_Decrypt method [windows Media Format], IWMSecureChannel interface, WMSC_Decrypt,IWMSecureChannel.WMSC_Decrypt, wmformat.iwmsecurechannel_wmsc_decrypt, wmsecure/IWMSecureChannel::WMSC_Decrypt
+ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Decrypt method, IWMSecureChannel.WMSC_Decrypt, IWMSecureChannel::WMSC_Decrypt, WMSC_Decrypt, WMSC_Decrypt method [windows Media Format], WMSC_Decrypt method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_decrypt, wmsecure/IWMSecureChannel::WMSC_Decrypt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSecureChannel::WMSC_Decrypt method
+# IWMSecureChannel::WMSC_Decrypt
 
 
 ## -description

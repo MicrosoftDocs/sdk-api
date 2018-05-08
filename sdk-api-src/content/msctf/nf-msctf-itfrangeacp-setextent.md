@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRangeACP.SetExtent
-title: ITfRangeACP::SetExtent method
+title: ITfRangeACP::SetExtent
 author: windows-driver-content
 description: ITfRangeACP::SetExtent method
 old-location: tsf\itfrangeacp_setextent.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 7b409ba8-dce6-4b42-8cfe-f159de1cad2c
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfRangeACP, ITfRangeACP interface [Text Services Framework], SetExtent method, ITfRangeACP::SetExtent, SetExtent method [Text Services Framework], SetExtent method [Text Services Framework], ITfRangeACP interface, SetExtent,ITfRangeACP.SetExtent, _tsf_itfrangeacp_setextent_ref, msctf/ITfRangeACP::SetExtent, tsf.itfrangeacp_setextent
+ms.keywords: ITfRangeACP interface [Text Services Framework],SetExtent method, ITfRangeACP.SetExtent, ITfRangeACP::SetExtent, SetExtent, SetExtent method [Text Services Framework], SetExtent method [Text Services Framework],ITfRangeACP interface, _tsf_itfrangeacp_setextent_ref, msctf/ITfRangeACP::SetExtent, tsf.itfrangeacp_setextent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfRangeACP::SetExtent method
+# ITfRangeACP::SetExtent
 
 
 ## -description

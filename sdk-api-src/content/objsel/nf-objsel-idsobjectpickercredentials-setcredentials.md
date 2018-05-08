@@ -1,14 +1,14 @@
 ---
 UID: NF:objsel.IDsObjectPickerCredentials.SetCredentials
-title: IDsObjectPickerCredentials::SetCredentials method
+title: IDsObjectPickerCredentials::SetCredentials
 author: windows-driver-content
 description: Use this method to override the user credentials, passing new credentials for the account profile to be used.
 old-location: ad\idsobjectpickercredentials_setcredentials.htm
 old-project: AD
 ms.assetid: fb1c366d-10df-4e4f-a381-3f085bd136e2
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: IDsObjectPickerCredentials, IDsObjectPickerCredentials interface [Active Directory], SetCredentials method, IDsObjectPickerCredentials::SetCredentials, SetCredentials method [Active Directory], SetCredentials method [Active Directory], IDsObjectPickerCredentials interface, SetCredentials,IDsObjectPickerCredentials.SetCredentials, ad.idsobjectpickercredentials_setcredentials, objsel/IDsObjectPickerCredentials::SetCredentials
+ms.date: 5/1/2018
+ms.keywords: IDsObjectPickerCredentials interface [Active Directory],SetCredentials method, IDsObjectPickerCredentials.SetCredentials, IDsObjectPickerCredentials::SetCredentials, SetCredentials, SetCredentials method [Active Directory], SetCredentials method [Active Directory],IDsObjectPickerCredentials interface, ad.idsobjectpickercredentials_setcredentials, objsel/IDsObjectPickerCredentials::SetCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDsObjectPickerCredentials::SetCredentials method
+# IDsObjectPickerCredentials::SetCredentials
 
 
 ## -description

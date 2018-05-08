@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetLastChildElementBuildCache
-title: IUIAutomationTreeWalker::GetLastChildElementBuildCache method
+title: IUIAutomationTreeWalker::GetLastChildElementBuildCache
 author: windows-driver-content
 description: Retrieves the last child element of the specified UI Automation element, and caches properties and control patterns.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7a52172c-76d9-4ab7-98db-c880b2d11f68
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetLastChildElementBuildCache method [Windows Accessibility], GetLastChildElementBuildCache method [Windows Accessibility], IUIAutomationTreeWalker interface, GetLastChildElementBuildCache,IUIAutomationTreeWalker.GetLastChildElementBuildCache, IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], GetLastChildElementBuildCache method, IUIAutomationTreeWalker::GetLastChildElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache, uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetLastChildElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache
+ms.keywords: GetLastChildElementBuildCache, GetLastChildElementBuildCache method [Windows Accessibility], GetLastChildElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetLastChildElementBuildCache method, IUIAutomationTreeWalker.GetLastChildElementBuildCache, IUIAutomationTreeWalker::GetLastChildElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache, uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetLastChildElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTreeWalker::GetLastChildElementBuildCache method
+# IUIAutomationTreeWalker::GetLastChildElementBuildCache
 
 
 ## -description

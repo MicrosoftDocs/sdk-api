@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateSignatureReader
-title: IRdcLibrary::CreateSignatureReader method
+title: IRdcLibrary::CreateSignatureReader
 author: windows-driver-content
 description: Creates a signature reader to allow an application to decode the contents of a signature file.
 old-location: rdc\irdclibrary_createsignaturereader.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 08627c9d-7470-47ab-9209-32734082c393
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateSignatureReader method [Remote Differential Compression], CreateSignatureReader method [Remote Differential Compression], IRdcLibrary interface, CreateSignatureReader,IRdcLibrary.CreateSignatureReader, IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], CreateSignatureReader method, IRdcLibrary::CreateSignatureReader, fs.irdclibrary_createsignaturereader, msrdc/IRdcLibrary::CreateSignatureReader, rdc.irdclibrary_createsignaturereader
+ms.keywords: CreateSignatureReader, CreateSignatureReader method [Remote Differential Compression], CreateSignatureReader method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateSignatureReader method, IRdcLibrary.CreateSignatureReader, IRdcLibrary::CreateSignatureReader, fs.irdclibrary_createsignaturereader, msrdc/IRdcLibrary::CreateSignatureReader, rdc.irdclibrary_createsignaturereader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcLibrary::CreateSignatureReader method
+# IRdcLibrary::CreateSignatureReader
 
 
 ## -description

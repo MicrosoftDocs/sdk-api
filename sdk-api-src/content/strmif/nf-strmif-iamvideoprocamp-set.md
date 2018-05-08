@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVideoProcAmp.Set
-title: IAMVideoProcAmp::Set method
+title: IAMVideoProcAmp::Set
 author: windows-driver-content
 description: The Set method sets video quality for a specified property.
 old-location: dshow\iamvideoprocamp_set.htm
 old-project: DirectShow
 ms.assetid: 18826377-ddf7-4c36-8995-43310ea077dd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVideoProcAmp, IAMVideoProcAmp interface [DirectShow], Set method, IAMVideoProcAmp::Set, IAMVideoProcAmpSet, Set method [DirectShow], Set method [DirectShow], IAMVideoProcAmp interface, Set,IAMVideoProcAmp.Set, dshow.iamvideoprocamp_set, strmif/IAMVideoProcAmp::Set
+ms.date: 4/30/2018
+ms.keywords: IAMVideoProcAmp interface [DirectShow],Set method, IAMVideoProcAmp.Set, IAMVideoProcAmp::Set, IAMVideoProcAmpSet, Set, Set method [DirectShow], Set method [DirectShow],IAMVideoProcAmp interface, dshow.iamvideoprocamp_set, strmif/IAMVideoProcAmp::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVideoProcAmp::Set method
+# IAMVideoProcAmp::Set
 
 
 ## -description

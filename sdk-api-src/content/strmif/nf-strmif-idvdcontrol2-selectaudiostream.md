@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectAudioStream
-title: IDvdControl2::SelectAudioStream method
+title: IDvdControl2::SelectAudioStream
 author: windows-driver-content
 description: The SelectAudioStream method selects the audio stream to play.
 old-location: dshow\idvdcontrol2_selectaudiostream.htm
 old-project: DirectShow
 ms.assetid: 845d00d5-3698-4cf5-bae4-abb9529c3f88
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SelectAudioStream method, IDvdControl2::SelectAudioStream, IDvdControl2SelectAudioStream, SelectAudioStream method [DirectShow], SelectAudioStream method [DirectShow], IDvdControl2 interface, SelectAudioStream,IDvdControl2.SelectAudioStream, dshow.idvdcontrol2_selectaudiostream, strmif/IDvdControl2::SelectAudioStream
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],SelectAudioStream method, IDvdControl2.SelectAudioStream, IDvdControl2::SelectAudioStream, IDvdControl2SelectAudioStream, SelectAudioStream, SelectAudioStream method [DirectShow], SelectAudioStream method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectaudiostream, strmif/IDvdControl2::SelectAudioStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::SelectAudioStream method
+# IDvdControl2::SelectAudioStream
 
 
 ## -description

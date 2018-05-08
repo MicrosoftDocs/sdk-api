@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Hue
-title: IVideoProcAmp::getRange_Hue method
+title: IVideoProcAmp::getRange_Hue
 author: windows-driver-content
 description: The getRange_Hue method returns the range of hue settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_hue.htm
 old-project: DirectShow
 ms.assetid: 5625b73c-8033-4930-af26-e7c4b4fb6516
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], getRange_Hue method, IVideoProcAmp::getRange_Hue, IVideoProcAmpgetRange_Hue, dshow.ivideoprocamp_getrange_hue, getRange_Hue method [DirectShow], getRange_Hue method [DirectShow], IVideoProcAmp interface, getRange_Hue,IVideoProcAmp.getRange_Hue, vidcap/IVideoProcAmp::getRange_Hue
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Hue method, IVideoProcAmp.getRange_Hue, IVideoProcAmp::getRange_Hue, IVideoProcAmpgetRange_Hue, dshow.ivideoprocamp_getrange_hue, getRange_Hue, getRange_Hue method [DirectShow], getRange_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Hue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::getRange_Hue method
+# IVideoProcAmp::getRange_Hue
 
 
 ## -description

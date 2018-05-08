@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetMovInstructionCount
-title: ID3D12ShaderReflection::GetMovInstructionCount method
+title: ID3D12ShaderReflection::GetMovInstructionCount
 author: windows-driver-content
 description: Gets the number of Mov instructions.
 old-location: direct3d12\id3d12shaderreflection_getmovinstructioncount.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: D8E6FFEE-2384-4B22-A12A-9527C4EEE26B
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetMovInstructionCount method, GetMovInstructionCount method, ID3D12ShaderReflection interface, GetMovInstructionCount,ID3D12ShaderReflection.GetMovInstructionCount, ID3D12ShaderReflection, ID3D12ShaderReflection interface, GetMovInstructionCount method, ID3D12ShaderReflection::GetMovInstructionCount, d3d12shader/ID3D12ShaderReflection::GetMovInstructionCount, direct3d12.id3d12shaderreflection_getmovinstructioncount
+ms.keywords: GetMovInstructionCount, GetMovInstructionCount method, GetMovInstructionCount method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetMovInstructionCount method, ID3D12ShaderReflection.GetMovInstructionCount, ID3D12ShaderReflection::GetMovInstructionCount, d3d12shader/ID3D12ShaderReflection::GetMovInstructionCount, direct3d12.id3d12shaderreflection_getmovinstructioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflection::GetMovInstructionCount method
+# ID3D12ShaderReflection::GetMovInstructionCount
 
 
 ## -description

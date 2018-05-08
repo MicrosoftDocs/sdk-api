@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get_VideoCounter
-title: IMSVidStreamBufferSink3::get_VideoCounter method
+title: IMSVidStreamBufferSink3::get_VideoCounter
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_get_videocounter.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0213f84b-7b82-4326-92c9-86459c8c60ba
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSink3, IMSVidStreamBufferSink3 interface [Microsoft TV Technologies], get_VideoCounter method, IMSVidStreamBufferSink3::get_VideoCounter, IMSVidStreamBufferSink3get_VideoCounter, get_VideoCounter method [Microsoft TV Technologies], get_VideoCounter method [Microsoft TV Technologies], IMSVidStreamBufferSink3 interface, get_VideoCounter,IMSVidStreamBufferSink3.get_VideoCounter, mstv.imsvidstreambuffersink3_get_videocounter, segment/IMSVidStreamBufferSink3::get_VideoCounter
+ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_VideoCounter method, IMSVidStreamBufferSink3.get_VideoCounter, IMSVidStreamBufferSink3::get_VideoCounter, IMSVidStreamBufferSink3get_VideoCounter, get_VideoCounter, get_VideoCounter method [Microsoft TV Technologies], get_VideoCounter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_videocounter, segment/IMSVidStreamBufferSink3::get_VideoCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSink3::get_VideoCounter method
+# IMSVidStreamBufferSink3::get_VideoCounter
 
 
 ## -description

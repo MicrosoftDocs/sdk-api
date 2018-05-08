@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.AuthenticateClientToSession
-title: IWRdsProtocolConnection::AuthenticateClientToSession method
+title: IWRdsProtocolConnection::AuthenticateClientToSession
 author: windows-driver-content
 description: Specifies a session that the connection should be reconnected to.
 old-location: termserv\iwrdsprotocolconnection_authenticateclienttosession.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 314f1ae8-5b2d-4c95-bb2d-0d9288d38934
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: AuthenticateClientToSession method [Remote Desktop Services], AuthenticateClientToSession method [Remote Desktop Services], IWRdsProtocolConnection interface, AuthenticateClientToSession,IWRdsProtocolConnection.AuthenticateClientToSession, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], AuthenticateClientToSession method, IWRdsProtocolConnection::AuthenticateClientToSession, termserv.iwrdsprotocolconnection_authenticateclienttosession, wtsprotocol/IWRdsProtocolConnection::AuthenticateClientToSession
+ms.keywords: AuthenticateClientToSession, AuthenticateClientToSession method [Remote Desktop Services], AuthenticateClientToSession method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],AuthenticateClientToSession method, IWRdsProtocolConnection.AuthenticateClientToSession, IWRdsProtocolConnection::AuthenticateClientToSession, termserv.iwrdsprotocolconnection_authenticateclienttosession, wtsprotocol/IWRdsProtocolConnection::AuthenticateClientToSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::AuthenticateClientToSession method
+# IWRdsProtocolConnection::AuthenticateClientToSession
 
 
 ## -description

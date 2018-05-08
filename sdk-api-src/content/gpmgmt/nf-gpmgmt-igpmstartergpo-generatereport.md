@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.GenerateReport
-title: IGPMStarterGPO::GenerateReport method
+title: IGPMStarterGPO::GenerateReport
 author: windows-driver-content
 description: Gets the report for the Starter GPO.
 old-location: gpmc\igpmstartergpo_generatereport.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 127cde40-abe0-42da-9845-2fe1c0b1f1f1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GenerateReport method [GPMC], GenerateReport method [GPMC], IGPMStarterGPO interface, GenerateReport,IGPMStarterGPO.GenerateReport, IGPMStarterGPO, IGPMStarterGPO interface [GPMC], GenerateReport method, IGPMStarterGPO::GenerateReport, gpmc.igpmstartergpo_generatereport, gpmgmt/IGPMStarterGPO::GenerateReport
+ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],GenerateReport method, IGPMStarterGPO.GenerateReport, IGPMStarterGPO::GenerateReport, gpmc.igpmstartergpo_generatereport, gpmgmt/IGPMStarterGPO::GenerateReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMStarterGPO::GenerateReport method
+# IGPMStarterGPO::GenerateReport
 
 
 ## -description

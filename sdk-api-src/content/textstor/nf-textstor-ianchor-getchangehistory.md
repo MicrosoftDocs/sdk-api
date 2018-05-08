@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.GetChangeHistory
-title: IAnchor::GetChangeHistory method
+title: IAnchor::GetChangeHistory
 author: windows-driver-content
 description: The IAnchor::GetChangeHistory method gets the history of deletions that have occurred immediately preceding or following the anchor.
 old-location: tsf\ianchor_getchangehistory.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: d373a379-1d27-4438-abaf-2e11f2332790
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetChangeHistory method [Text Services Framework], GetChangeHistory method [Text Services Framework], IAnchor interface, GetChangeHistory,IAnchor.GetChangeHistory, IAnchor, IAnchor interface [Text Services Framework], GetChangeHistory method, IAnchor::GetChangeHistory, TS_CH_FOLLOWING_DEL, TS_CH_PRECEDING_DEL, textstor/IAnchor::GetChangeHistory, tsf.ianchor_getchangehistory
+ms.keywords: GetChangeHistory, GetChangeHistory method [Text Services Framework], GetChangeHistory method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],GetChangeHistory method, IAnchor.GetChangeHistory, IAnchor::GetChangeHistory, TS_CH_FOLLOWING_DEL, TS_CH_PRECEDING_DEL, textstor/IAnchor::GetChangeHistory, tsf.ianchor_getchangehistory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnchor::GetChangeHistory method
+# IAnchor::GetChangeHistory
 
 
 ## -description

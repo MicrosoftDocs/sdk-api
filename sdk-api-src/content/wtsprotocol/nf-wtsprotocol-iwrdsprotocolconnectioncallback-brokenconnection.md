@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.BrokenConnection
-title: IWRdsProtocolConnectionCallback::BrokenConnection method
+title: IWRdsProtocolConnectionCallback::BrokenConnection
 author: windows-driver-content
 description: Informs the Remote Desktop Services service that the client connection has been lost.
 old-location: termserv\iwrdsprotocolconnectioncallback_brokenconnection.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: bc317e10-e09c-423b-8016-eb1cf49eba43
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: BrokenConnection method [Remote Desktop Services], BrokenConnection method [Remote Desktop Services], IWRdsProtocolConnectionCallback interface, BrokenConnection,IWRdsProtocolConnectionCallback.BrokenConnection, IWRdsProtocolConnectionCallback, IWRdsProtocolConnectionCallback interface [Remote Desktop Services], BrokenConnection method, IWRdsProtocolConnectionCallback::BrokenConnection, termserv.iwrdsprotocolconnectioncallback_brokenconnection, wtsprotocol/IWRdsProtocolConnectionCallback::BrokenConnection
+ms.keywords: BrokenConnection, BrokenConnection method [Remote Desktop Services], BrokenConnection method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, IWRdsProtocolConnectionCallback interface [Remote Desktop Services],BrokenConnection method, IWRdsProtocolConnectionCallback.BrokenConnection, IWRdsProtocolConnectionCallback::BrokenConnection, termserv.iwrdsprotocolconnectioncallback_brokenconnection, wtsprotocol/IWRdsProtocolConnectionCallback::BrokenConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnectionCallback::BrokenConnection method
+# IWRdsProtocolConnectionCallback::BrokenConnection
 
 
 ## -description

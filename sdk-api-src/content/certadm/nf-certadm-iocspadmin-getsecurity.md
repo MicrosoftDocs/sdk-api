@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetSecurity
-title: IOCSPAdmin::GetSecurity method
+title: IOCSPAdmin::GetSecurity
 author: windows-driver-content
 description: Gets security descriptor information for an Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin_getsecurity.htm
 old-project: SecCrypto
 ms.assetid: 0859ea85-66b2-45af-9559-c81e6a766cfc
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetSecurity method [Security], GetSecurity method [Security], IOCSPAdmin interface, GetSecurity,IOCSPAdmin.GetSecurity, IOCSPAdmin, IOCSPAdmin interface [Security], GetSecurity method, IOCSPAdmin::GetSecurity, certadm/IOCSPAdmin::GetSecurity, security.iocspadmin_getsecurity
+ms.date: 4/30/2018
+ms.keywords: GetSecurity, GetSecurity method [Security], GetSecurity method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSecurity method, IOCSPAdmin.GetSecurity, IOCSPAdmin::GetSecurity, certadm/IOCSPAdmin::GetSecurity, security.iocspadmin_getsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPAdmin::GetSecurity method
+# IOCSPAdmin::GetSecurity
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: e3252dba-403d-486d-b666-9bb04ec0aa90
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMSOM, IGPMSOM, IGPMSOM interface [GPMC], IGPMSOM interface [GPMC], described, _win32_igpmsom, gpmc.igpmsom, gpmgmt/IGPMSOM
+ms.keywords: GPMSOM, IGPMSOM, IGPMSOM interface [GPMC], IGPMSOM interface [GPMC],described, _win32_igpmsom, gpmc.igpmsom, gpmgmt/IGPMSOM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

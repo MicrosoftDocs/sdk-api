@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: c021f695-db54-4861-9f30-35a81d2dccd5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], IPropertyStorage interface [Structured Storage], described, _stg_ipropertystorage, propidl/IPropertyStorage, stg.ipropertystorage
+ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], IPropertyStorage interface [Structured Storage],described, _stg_ipropertystorage, propidl/IPropertyStorage, stg.ipropertystorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

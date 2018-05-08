@@ -7,7 +7,7 @@ old-location: iphlp\ipaddr.htm
 old-project: IpHlp
 ms.assetid: 00d4823d-114d-4cc7-afdf-54c7fed3fe45
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: "*LPIN_ADDR, *PIN_ADDR, IN_ADDR, IPAddr, IPAddr structure [IP Helper], in_addr, in_addr structure [IP Helper], inaddr/in_addr, ipexport/in_addr, iphlp.ipaddr"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,12 +62,6 @@ The <b>in_addr</b> structure represents an IPv4 address.
 ### -field S_un
 
 
-
-#### S_addr
-
-Address of the host formatted as a <b>u_long</b>.
-
-
 ### -field S_un.S_un_b
 
 The IPv4 address of the host formatted as four <b>u_char</b>s.
@@ -108,6 +102,9 @@ The IPv4 address of the host formatted as two <b>u_short</b>s.
  
 
 
+### -field S_un.S_addr
+
+Address of the host formatted as a <b>u_long</b>.
 
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.GetAt
-title: IXpsOMColorProfileResourceCollection::GetAt method
+title: IXpsOMColorProfileResourceCollection::GetAt
 author: windows-driver-content
 description: Gets an IXpsOMColorProfileResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_getat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: ecb8b3e7-182f-446a-bc12-28762da1f930
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging], IXpsOMColorProfileResourceCollection interface, GetAt,IXpsOMColorProfileResourceCollection.GetAt, IXpsOMColorProfileResourceCollection, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging], GetAt method, IXpsOMColorProfileResourceCollection::GetAt, xps.ixpsomcolorprofileresourcecollection_getat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetAt
+ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMColorProfileResourceCollection.GetAt, IXpsOMColorProfileResourceCollection::GetAt, xps.ixpsomcolorprofileresourcecollection_getat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMColorProfileResourceCollection::GetAt method
+# IXpsOMColorProfileResourceCollection::GetAt
 
 
 ## -description

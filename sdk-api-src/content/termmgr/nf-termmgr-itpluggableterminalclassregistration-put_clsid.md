@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_CLSID
-title: ITPluggableTerminalClassRegistration::put_CLSID method
+title: ITPluggableTerminalClassRegistration::put_CLSID
 author: windows-driver-content
 description: The put_CLSID method sets the CLSID used to CoCreateInstance the terminal.
 old-location: tapi3\itpluggableterminalclassregistration_put_clsid.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 9688cdc7-f55d-41c6-8db7-689617a24239
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], put_CLSID method, ITPluggableTerminalClassRegistration::put_CLSID, _tapi3_itpluggableterminalclassregistration_put_clsid, put_CLSID method [TAPI 2.2], put_CLSID method [TAPI 2.2], ITPluggableTerminalClassRegistration interface, put_CLSID,ITPluggableTerminalClassRegistration.put_CLSID, tapi3.itpluggableterminalclassregistration_put_clsid, termmgr/ITPluggableTerminalClassRegistration::put_CLSID
+ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_CLSID method, ITPluggableTerminalClassRegistration.put_CLSID, ITPluggableTerminalClassRegistration::put_CLSID, _tapi3_itpluggableterminalclassregistration_put_clsid, put_CLSID, put_CLSID method [TAPI 2.2], put_CLSID method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_clsid, termmgr/ITPluggableTerminalClassRegistration::put_CLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITPluggableTerminalClassRegistration::put_CLSID method
+# ITPluggableTerminalClassRegistration::put_CLSID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.put_MailCc
-title: IFsrmActionEmail::put_MailCc method
+title: IFsrmActionEmail::put_MailCc
 author: windows-driver-content
 description: Retrieves or sets the carbon copy (Cc) email address to which email is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailcc.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 4b3b908d-a111-4e36-98c2-37b15a7e2dac
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmActionEmail, IFsrmActionEmail interface [File Server Resource Manager], MailCc property, IFsrmActionEmail.MailCc, IFsrmActionEmail2 interface [File Server Resource Manager], MailCc property, IFsrmActionEmail2.MailCc, IFsrmActionEmail2::get_MailCc, IFsrmActionEmail2::put_MailCc, IFsrmActionEmail::get_MailCc, IFsrmActionEmail::put_MailCc, MailCc property [File Server Resource Manager], MailCc property [File Server Resource Manager], IFsrmActionEmail interface, MailCc property [File Server Resource Manager], IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailcc, fsrm.ifsrmactionemail_mailcc, fsrm/IFsrmActionEmail2::MailCc, fsrm/IFsrmActionEmail2::get_MailCc, fsrm/IFsrmActionEmail2::put_MailCc, fsrm/IFsrmActionEmail::MailCc, fsrm/IFsrmActionEmail::get_MailCc, fsrm/IFsrmActionEmail::put_MailCc, put_MailCc,IFsrmActionEmail.put_MailCc
+ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailCc property, IFsrmActionEmail.MailCc, IFsrmActionEmail.put_MailCc, IFsrmActionEmail2 interface [File Server Resource Manager],MailCc property, IFsrmActionEmail2.MailCc, IFsrmActionEmail2::MailCc, IFsrmActionEmail2::get_MailCc, IFsrmActionEmail2::put_MailCc, IFsrmActionEmail::get_MailCc, IFsrmActionEmail::put_MailCc, MailCc property [File Server Resource Manager], MailCc property [File Server Resource Manager],IFsrmActionEmail interface, MailCc property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailcc, fsrm.ifsrmactionemail_mailcc, fsrm/IFsrmActionEmail2::MailCc, fsrm/IFsrmActionEmail2::get_MailCc, fsrm/IFsrmActionEmail2::put_MailCc, fsrm/IFsrmActionEmail::MailCc, fsrm/IFsrmActionEmail::get_MailCc, fsrm/IFsrmActionEmail::put_MailCc, put_MailCc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmActionEmail::put_MailCc method
+# IFsrmActionEmail::put_MailCc
 
 
 ## -description

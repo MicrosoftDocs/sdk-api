@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList2.WriteBufferImmediate
-title: ID3D12GraphicsCommandList2::WriteBufferImmediate method
+title: ID3D12GraphicsCommandList2::WriteBufferImmediate
 author: windows-driver-content
 description: Writes a number of 32-bit immediate values to the specified buffer locations directly from the command stream.
 old-location: direct3d12\id3d12graphicscommandlist2_writebufferimmediate_uint_parameter_mode.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: EB1FD3E0-5785-40D1-961B-AF22F9911653
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12GraphicsCommandList2, ID3D12GraphicsCommandList2 interface, WriteBufferImmediate method, ID3D12GraphicsCommandList2::WriteBufferImmediate, WriteBufferImmediate method, WriteBufferImmediate method, ID3D12GraphicsCommandList2 interface, WriteBufferImmediate,ID3D12GraphicsCommandList2.WriteBufferImmediate, d3d12/ID3D12GraphicsCommandList2::WriteBufferImmediate, direct3d12.id3d12graphicscommandlist2_writebufferimmediate_uint_parameter_mode
+ms.keywords: ID3D12GraphicsCommandList2 interface,WriteBufferImmediate method, ID3D12GraphicsCommandList2.WriteBufferImmediate, ID3D12GraphicsCommandList2::WriteBufferImmediate, WriteBufferImmediate, WriteBufferImmediate method, WriteBufferImmediate method,ID3D12GraphicsCommandList2 interface, d3d12/ID3D12GraphicsCommandList2::WriteBufferImmediate, direct3d12.id3d12graphicscommandlist2_writebufferimmediate_uint_parameter_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList2::WriteBufferImmediate method
+# ID3D12GraphicsCommandList2::WriteBufferImmediate
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: dshow\truecolorinfostructure.htm
 old-project: DirectShow
 ms.assetid: 8269d8c2-ff8e-48e0-b4f6-06900a7ecfdc
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: TRUECOLORINFO, TRUECOLORINFO structure [DirectShow], TRUECOLORINFOStructure, amvideo/TRUECOLORINFO, dshow.truecolorinfostructure, tag_TRUECOLORINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

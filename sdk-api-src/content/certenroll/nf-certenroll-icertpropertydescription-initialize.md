@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyDescription.Initialize
-title: ICertPropertyDescription::Initialize method
+title: ICertPropertyDescription::Initialize
 author: windows-driver-content
 description: Initializes the object from a string that contains descriptive information about the certificate.
 old-location: security\icertpropertydescription_initialize_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 17e8ee9c-c861-4437-a70d-ccad6a5a293d
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyDescription, ICertPropertyDescription interface [Security], Initialize method, ICertPropertyDescription::Initialize, Initialize method [Security], Initialize method [Security], ICertPropertyDescription interface, Initialize,ICertPropertyDescription.Initialize, certenroll/ICertPropertyDescription::Initialize, security.icertpropertydescription_initialize_method
+ms.keywords: ICertPropertyDescription interface [Security],Initialize method, ICertPropertyDescription.Initialize, ICertPropertyDescription::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyDescription interface, certenroll/ICertPropertyDescription::Initialize, security.icertpropertydescription_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyDescription::Initialize method
+# ICertPropertyDescription::Initialize
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMExtendedErrorInfo.get_HasError
-title: IAMExtendedErrorInfo::get_HasError method
+title: IAMExtendedErrorInfo::get_HasError
 author: windows-driver-content
 description: The get_HasError method queries whether an error occurred.
 old-location: dshow\iamextendederrorinfo_get_haserror.htm
 old-project: DirectShow
 ms.assetid: 8aad2849-5a99-484a-8830-e014672e62fb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtendedErrorInfo, IAMExtendedErrorInfo interface [DirectShow], get_HasError method, IAMExtendedErrorInfo::get_HasError, IAMExtendedErrorInfoget_HasError, dshow.iamextendederrorinfo_get_haserror, get_HasError method [DirectShow], get_HasError method [DirectShow], IAMExtendedErrorInfo interface, get_HasError,IAMExtendedErrorInfo.get_HasError, qnetwork/IAMExtendedErrorInfo::get_HasError
+ms.date: 4/30/2018
+ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_HasError method, IAMExtendedErrorInfo.get_HasError, IAMExtendedErrorInfo::get_HasError, IAMExtendedErrorInfoget_HasError, dshow.iamextendederrorinfo_get_haserror, get_HasError, get_HasError method [DirectShow], get_HasError method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_HasError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMExtendedErrorInfo::get_HasError method
+# IAMExtendedErrorInfo::get_HasError
 
 
 ## -description

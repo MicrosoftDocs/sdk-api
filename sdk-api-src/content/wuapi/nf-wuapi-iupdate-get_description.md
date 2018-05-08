@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Description
-title: IUpdate::get_Description method
+title: IUpdate::get_Description
 author: windows-driver-content
 description: Gets the localized description of the update.
 old-location: wua\iupdate_description.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 2448c9aa-0e90-4454-b168-c31b36f569af
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent], IUpdate interface, IUpdate, IUpdate interface [Windows Update Agent], Description property, IUpdate.Description, IUpdate::get_Description, get_Description,IUpdate.get_Description, wua.iupdate_description, wuapi/IUpdate::Description, wuapi/IUpdate::get_Description
+ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Description property, IUpdate.Description, IUpdate.get_Description, IUpdate::Description, IUpdate::get_Description, get_Description, wua.iupdate_description, wuapi/IUpdate::Description, wuapi/IUpdate::get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IUpdate::get_Description method
+# IUpdate::get_Description
 
 
 ## -description

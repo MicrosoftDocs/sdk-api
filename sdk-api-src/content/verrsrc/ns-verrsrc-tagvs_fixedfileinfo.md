@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: Root\Microsoft\Windows\Storage
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.typenames: VS_FIXEDFILEINFO

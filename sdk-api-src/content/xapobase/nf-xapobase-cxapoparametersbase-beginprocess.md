@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.BeginProcess
-title: CXAPOParametersBase::BeginProcess method
+title: CXAPOParametersBase::BeginProcess
 author: windows-driver-content
 description: Returns the current process parameters.
 old-location: xaudio2\cxapoparametersbase_beginprocess.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.BeginProcess
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: BeginProcess method [XAudio2 Audio Mixing APIs], BeginProcess method [XAudio2 Audio Mixing APIs], CXAPOParametersBase interface, BeginProcess,CXAPOParametersBase.BeginProcess, CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs], BeginProcess method, CXAPOParametersBase::BeginProcess, xapobase/CXAPOParametersBase::BeginProcess, xaudio2.cxapoparametersbase_beginprocess
+ms.keywords: BeginProcess, BeginProcess method [XAudio2 Audio Mixing APIs], BeginProcess method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],BeginProcess method, CXAPOParametersBase.BeginProcess, CXAPOParametersBase::BeginProcess, xapobase/CXAPOParametersBase::BeginProcess, xaudio2.cxapoparametersbase_beginprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# CXAPOParametersBase::BeginProcess method
+# CXAPOParametersBase::BeginProcess
 
 
 ## -description

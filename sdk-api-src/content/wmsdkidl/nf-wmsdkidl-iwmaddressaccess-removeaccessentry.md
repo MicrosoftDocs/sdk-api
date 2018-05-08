@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.RemoveAccessEntry
-title: IWMAddressAccess::RemoveAccessEntry method
+title: IWMAddressAccess::RemoveAccessEntry
 author: windows-driver-content
 description: The RemoveAccessEntry method removes an access entry.
 old-location: wmformat\iwmaddressaccess_removeaccessentry.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: f3f9d493-90b4-4b2a-ad18-baf2b09bc72e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMAddressAccess, IWMAddressAccess interface [windows Media Format], RemoveAccessEntry method, IWMAddressAccess::RemoveAccessEntry, IWMAddressAccessRemoveAccessEntry, RemoveAccessEntry method [windows Media Format], RemoveAccessEntry method [windows Media Format], IWMAddressAccess interface, RemoveAccessEntry,IWMAddressAccess.RemoveAccessEntry, wmformat.iwmaddressaccess_removeaccessentry, wmsdkidl/IWMAddressAccess::RemoveAccessEntry
+ms.keywords: IWMAddressAccess interface [windows Media Format],RemoveAccessEntry method, IWMAddressAccess.RemoveAccessEntry, IWMAddressAccess::RemoveAccessEntry, IWMAddressAccessRemoveAccessEntry, RemoveAccessEntry, RemoveAccessEntry method [windows Media Format], RemoveAccessEntry method [windows Media Format],IWMAddressAccess interface, wmformat.iwmaddressaccess_removeaccessentry, wmsdkidl/IWMAddressAccess::RemoveAccessEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMAddressAccess::RemoveAccessEntry method
+# IWMAddressAccess::RemoveAccessEntry
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_EnrollmentContext
-title: IX509Enrollment::get_EnrollmentContext method
+title: IX509Enrollment::get_EnrollmentContext
 author: windows-driver-content
 description: Retrieves an enrollment context that identifies whether the certificate is intended for a computer or an end-user.
 old-location: security\ix509enrollment_enrollmentcontext_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 48bfe2cd-1d17-42a9-8068-b635fd220911
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: EnrollmentContext property [Security], EnrollmentContext property [Security], IX509Enrollment interface, IX509Enrollment, IX509Enrollment interface [Security], EnrollmentContext property, IX509Enrollment.EnrollmentContext, IX509Enrollment::get_EnrollmentContext, certenroll/IX509Enrollment::EnrollmentContext, certenroll/IX509Enrollment::get_EnrollmentContext, get_EnrollmentContext,IX509Enrollment.get_EnrollmentContext, security.ix509enrollment_enrollmentcontext_property
+ms.keywords: EnrollmentContext property [Security], EnrollmentContext property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],EnrollmentContext property, IX509Enrollment.EnrollmentContext, IX509Enrollment.get_EnrollmentContext, IX509Enrollment::EnrollmentContext, IX509Enrollment::get_EnrollmentContext, certenroll/IX509Enrollment::EnrollmentContext, certenroll/IX509Enrollment::get_EnrollmentContext, get_EnrollmentContext, security.ix509enrollment_enrollmentcontext_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509Enrollment::get_EnrollmentContext method
+# IX509Enrollment::get_EnrollmentContext
 
 
 ## -description

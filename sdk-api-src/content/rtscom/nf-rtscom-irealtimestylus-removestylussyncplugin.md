@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.RemoveStylusSyncPlugin
-title: IRealTimeStylus::RemoveStylusSyncPlugin method
+title: IRealTimeStylus::RemoveStylusSyncPlugin
 author: windows-driver-content
 description: Removes an IStylusSyncPlugin from the collection at the specified index.
 old-location: tablet\irealtimestylus_removestylussyncplugin.htm
 old-project: tablet
 ms.assetid: 5f04dc8a-c0f5-47fd-a814-490e1dfe2cf8
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 5f04dc8a-c0f5-47fd-a814-490e1dfe2cf8, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], RemoveStylusSyncPlugin method, IRealTimeStylus::RemoveStylusSyncPlugin, RemoveStylusSyncPlugin method [Tablet PC], RemoveStylusSyncPlugin method [Tablet PC], IRealTimeStylus interface, RemoveStylusSyncPlugin,IRealTimeStylus.RemoveStylusSyncPlugin, rtscom/IRealTimeStylus::RemoveStylusSyncPlugin, tablet.irealtimestylus_removestylussyncplugin
+ms.date: 5/2/2018
+ms.keywords: 5f04dc8a-c0f5-47fd-a814-490e1dfe2cf8, IRealTimeStylus interface [Tablet PC],RemoveStylusSyncPlugin method, IRealTimeStylus.RemoveStylusSyncPlugin, IRealTimeStylus::RemoveStylusSyncPlugin, RemoveStylusSyncPlugin, RemoveStylusSyncPlugin method [Tablet PC], RemoveStylusSyncPlugin method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::RemoveStylusSyncPlugin, tablet.irealtimestylus_removestylussyncplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylus::RemoveStylusSyncPlugin method
+# IRealTimeStylus::RemoveStylusSyncPlugin
 
 
 ## -description

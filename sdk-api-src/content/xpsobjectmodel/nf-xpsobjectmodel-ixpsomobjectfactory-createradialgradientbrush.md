@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateRadialGradientBrush
-title: IXpsOMObjectFactory::CreateRadialGradientBrush method
+title: IXpsOMObjectFactory::CreateRadialGradientBrush
 author: windows-driver-content
 description: Creates an IXpsOMRadialGradientBrush interface.
 old-location: xps\ixpsomobjectfactory_createradialgradientbrush.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b91c9490-1995-48cb-a313-ef83f00b9c50
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateRadialGradientBrush method [XPS Documents and Packaging], CreateRadialGradientBrush method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateRadialGradientBrush,IXpsOMObjectFactory.CreateRadialGradientBrush, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateRadialGradientBrush method, IXpsOMObjectFactory::CreateRadialGradientBrush, xps.ixpsomobjectfactory_createradialgradientbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateRadialGradientBrush
+ms.keywords: CreateRadialGradientBrush, CreateRadialGradientBrush method [XPS Documents and Packaging], CreateRadialGradientBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateRadialGradientBrush method, IXpsOMObjectFactory.CreateRadialGradientBrush, IXpsOMObjectFactory::CreateRadialGradientBrush, xps.ixpsomobjectfactory_createradialgradientbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateRadialGradientBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateRadialGradientBrush method
+# IXpsOMObjectFactory::CreateRadialGradientBrush
 
 
 ## -description

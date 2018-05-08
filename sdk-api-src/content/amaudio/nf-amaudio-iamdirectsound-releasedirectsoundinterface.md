@@ -1,14 +1,14 @@
 ---
 UID: NF:amaudio.IAMDirectSound.ReleaseDirectSoundInterface
-title: IAMDirectSound::ReleaseDirectSoundInterface method
+title: IAMDirectSound::ReleaseDirectSoundInterface
 author: windows-driver-content
 description: The ReleaseDirectSoundInterface method is not implemented.
 old-location: dshow\iamdirectsound_releasedirectsoundinterface.htm
 old-project: DirectShow
 ms.assetid: fa02546b-7306-46ef-82a3-c6c1d89423e5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], ReleaseDirectSoundInterface method, IAMDirectSound::ReleaseDirectSoundInterface, IAMDirectSoundReleaseDirectSoundInterface, ReleaseDirectSoundInterface method [DirectShow], ReleaseDirectSoundInterface method [DirectShow], IAMDirectSound interface, ReleaseDirectSoundInterface,IAMDirectSound.ReleaseDirectSoundInterface, amaudio/IAMDirectSound::ReleaseDirectSoundInterface, dshow.iamdirectsound_releasedirectsoundinterface
+ms.date: 4/30/2018
+ms.keywords: IAMDirectSound interface [DirectShow],ReleaseDirectSoundInterface method, IAMDirectSound.ReleaseDirectSoundInterface, IAMDirectSound::ReleaseDirectSoundInterface, IAMDirectSoundReleaseDirectSoundInterface, ReleaseDirectSoundInterface, ReleaseDirectSoundInterface method [DirectShow], ReleaseDirectSoundInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleaseDirectSoundInterface, dshow.iamdirectsound_releasedirectsoundinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMDirectSound::ReleaseDirectSoundInterface method
+# IAMDirectSound::ReleaseDirectSoundInterface
 
 
 ## -description

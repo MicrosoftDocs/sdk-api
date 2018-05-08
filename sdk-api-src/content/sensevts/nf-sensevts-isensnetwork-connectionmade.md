@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensNetwork.ConnectionMade
-title: ISensNetwork::ConnectionMade method
+title: ISensNetwork::ConnectionMade
 author: windows-driver-content
 description: The ConnectionMade method notifies your application that the specified connection has been established.
 old-location: sens\isensnetwork_connectionmade.htm
@@ -8,7 +8,7 @@ old-project: Sens
 ms.assetid: 3b067a6f-ba4c-4914-aa5b-e0fd7690e75c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ConnectionMade method [SENS], ConnectionMade method [SENS], ISensNetwork interface, ConnectionMade,ISensNetwork.ConnectionMade, ISensNetwork, ISensNetwork interface [SENS], ConnectionMade method, ISensNetwork::ConnectionMade, _zaw_isensnetwork_connectionmade, sens.isensnetwork_connectionmade, sensevts/ISensNetwork::ConnectionMade, syncmgr.isensnetwork_connectionmade
+ms.keywords: ConnectionMade, ConnectionMade method [SENS], ConnectionMade method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionMade method, ISensNetwork.ConnectionMade, ISensNetwork::ConnectionMade, _zaw_isensnetwork_connectionmade, sens.isensnetwork_connectionmade, sensevts/ISensNetwork::ConnectionMade, syncmgr.isensnetwork_connectionmade
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISensNetwork::ConnectionMade method
+# ISensNetwork::ConnectionMade
 
 
 ## -description

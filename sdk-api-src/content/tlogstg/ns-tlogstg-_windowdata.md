@@ -7,7 +7,7 @@ old-location: shell\WINDOWDATA.htm
 old-project: shell
 ms.assetid: ef83bd02-cde9-41a8-b5ad-a26794663ac2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: "*LPWINDOWDATA, WINDOWDATA, WINDOWDATA structure [Windows Shell], _WINDOWDATA, _shell_WINDOWDATA, shell.WINDOWDATA, tlogstg/WINDOWDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetEventAttributes
-title: IPortableDeviceServiceCapabilities::GetEventAttributes method
+title: IPortableDeviceServiceCapabilities::GetEventAttributes
 author: windows-driver-content
 description: Retrieves the attributes of an event.
 old-location: wpdsdk\iportabledeviceservicecapabilities_geteventattributes.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: cd3316aa-6d49-4d26-9ded-c9371ebea27b
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetEventAttributes method [Windows Portable Devices SDK], GetEventAttributes method [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface, GetEventAttributes,IPortableDeviceServiceCapabilities.GetEventAttributes, IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], GetEventAttributes method, IPortableDeviceServiceCapabilities::GetEventAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetEventAttributes, wpdsdk.iportabledeviceservicecapabilities_geteventattributes
+ms.keywords: GetEventAttributes, GetEventAttributes method [Windows Portable Devices SDK], GetEventAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetEventAttributes method, IPortableDeviceServiceCapabilities.GetEventAttributes, IPortableDeviceServiceCapabilities::GetEventAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetEventAttributes, wpdsdk.iportabledeviceservicecapabilities_geteventattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceCapabilities::GetEventAttributes method
+# IPortableDeviceServiceCapabilities::GetEventAttributes
 
 
 ## -description

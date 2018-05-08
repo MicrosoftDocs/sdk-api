@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.put_SmimeCapabilities
-title: IX509CertificateRequestPkcs10::put_SmimeCapabilities method
+title: IX509CertificateRequestPkcs10::put_SmimeCapabilities
 author: windows-driver-content
 description: Specifies or retrieves a Boolean value that tells the Encode method whether to create an IX509ExtensionSmimeCapabilities collection that identifies the encryption capabilities supported by the computer.
 old-location: security\ix509certificaterequestpkcs10_smimecapabilities_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 5aa027d7-3c31-4b70-92a5-d15d2c410366
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], SmimeCapabilities property, IX509CertificateRequestPkcs10.SmimeCapabilities, IX509CertificateRequestPkcs10::get_SmimeCapabilities, IX509CertificateRequestPkcs10::put_SmimeCapabilities, SmimeCapabilities property [Security], SmimeCapabilities property [Security], IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::SmimeCapabilities, certenroll/IX509CertificateRequestPkcs10::get_SmimeCapabilities, certenroll/IX509CertificateRequestPkcs10::put_SmimeCapabilities, put_SmimeCapabilities,IX509CertificateRequestPkcs10.put_SmimeCapabilities, security.ix509certificaterequestpkcs10_smimecapabilities_property
+ms.keywords: IX509CertificateRequestPkcs10 interface [Security],SmimeCapabilities property, IX509CertificateRequestPkcs10.SmimeCapabilities, IX509CertificateRequestPkcs10.put_SmimeCapabilities, IX509CertificateRequestPkcs10::SmimeCapabilities, IX509CertificateRequestPkcs10::get_SmimeCapabilities, IX509CertificateRequestPkcs10::put_SmimeCapabilities, SmimeCapabilities property [Security], SmimeCapabilities property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::SmimeCapabilities, certenroll/IX509CertificateRequestPkcs10::get_SmimeCapabilities, certenroll/IX509CertificateRequestPkcs10::put_SmimeCapabilities, put_SmimeCapabilities, security.ix509certificaterequestpkcs10_smimecapabilities_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs10::put_SmimeCapabilities method
+# IX509CertificateRequestPkcs10::put_SmimeCapabilities
 
 
 ## -description

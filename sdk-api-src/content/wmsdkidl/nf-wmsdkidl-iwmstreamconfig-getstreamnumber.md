@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamNumber
-title: IWMStreamConfig::GetStreamNumber method
+title: IWMStreamConfig::GetStreamNumber
 author: windows-driver-content
 description: The GetStreamNumber method retrieves the stream number.
 old-location: wmformat\iwmstreamconfig_getstreamnumber.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 2996c897-eb38-4432-8bf7-549023ab00f5
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetStreamNumber method [windows Media Format], GetStreamNumber method [windows Media Format], IWMStreamConfig interface, GetStreamNumber,IWMStreamConfig.GetStreamNumber, IWMStreamConfig, IWMStreamConfig interface [windows Media Format], GetStreamNumber method, IWMStreamConfig::GetStreamNumber, IWMStreamConfigGetStreamNumber, wmformat.iwmstreamconfig_getstreamnumber, wmsdkidl/IWMStreamConfig::GetStreamNumber
+ms.keywords: GetStreamNumber, GetStreamNumber method [windows Media Format], GetStreamNumber method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamNumber method, IWMStreamConfig.GetStreamNumber, IWMStreamConfig::GetStreamNumber, IWMStreamConfigGetStreamNumber, wmformat.iwmstreamconfig_getstreamnumber, wmsdkidl/IWMStreamConfig::GetStreamNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig::GetStreamNumber method
+# IWMStreamConfig::GetStreamNumber
 
 
 ## -description

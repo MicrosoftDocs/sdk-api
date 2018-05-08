@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.GetAt
-title: IXpsOMSignatureBlockResourceCollection::GetAt method
+title: IXpsOMSignatureBlockResourceCollection::GetAt
 author: windows-driver-content
 description: Gets an IXpsOMSignatureBlockResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_getat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 84269d8c-9d0f-4489-8e4e-369f5e53fa95
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging], IXpsOMSignatureBlockResourceCollection interface, GetAt,IXpsOMSignatureBlockResourceCollection.GetAt, IXpsOMSignatureBlockResourceCollection, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging], GetAt method, IXpsOMSignatureBlockResourceCollection::GetAt, xps.ixpsomsignatureblockresourcecollection_getat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetAt
+ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMSignatureBlockResourceCollection.GetAt, IXpsOMSignatureBlockResourceCollection::GetAt, xps.ixpsomsignatureblockresourcecollection_getat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMSignatureBlockResourceCollection::GetAt method
+# IXpsOMSignatureBlockResourceCollection::GetAt
 
 
 ## -description

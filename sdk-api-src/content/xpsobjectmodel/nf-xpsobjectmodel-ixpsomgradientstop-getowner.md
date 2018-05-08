@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.GetOwner
-title: IXpsOMGradientStop::GetOwner method
+title: IXpsOMGradientStop::GetOwner
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMGradientBrush interface that contains the gradient stop.
 old-location: xps\ixpsomgradientstop_getowner.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: a590e461-bf86-4379-b29a-ecdba57bd3f8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging], IXpsOMGradientStop interface, GetOwner,IXpsOMGradientStop.GetOwner, IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and Packaging], GetOwner method, IXpsOMGradientStop::GetOwner, xps.ixpsomgradientstop_getowner, xpsobjectmodel/IXpsOMGradientStop::GetOwner
+ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],GetOwner method, IXpsOMGradientStop.GetOwner, IXpsOMGradientStop::GetOwner, xps.ixpsomgradientstop_getowner, xpsobjectmodel/IXpsOMGradientStop::GetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientStop::GetOwner method
+# IXpsOMGradientStop::GetOwner
 
 
 ## -description

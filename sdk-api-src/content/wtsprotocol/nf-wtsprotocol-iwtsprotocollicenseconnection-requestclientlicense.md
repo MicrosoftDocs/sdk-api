@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLicenseConnection.RequestClientLicense
-title: IWTSProtocolLicenseConnection::RequestClientLicense method
+title: IWTSProtocolLicenseConnection::RequestClientLicense
 author: windows-driver-content
 description: IWTSProtocolLicenseConnection::RequestClientLicense is no longer available. Instead, use IWRdsProtocolLicenseConnection::RequestClientLicense.
 old-location: termserv\iwtsprotocollicenseconnection_requestclientlicense.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 4740d7a4-aa82-4c9d-b93c-20a974f170ae
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolLicenseConnection, IWTSProtocolLicenseConnection interface [Remote Desktop Services], RequestClientLicense method, IWTSProtocolLicenseConnection::RequestClientLicense, RequestClientLicense method [Remote Desktop Services], RequestClientLicense method [Remote Desktop Services], IWTSProtocolLicenseConnection interface, RequestClientLicense,IWTSProtocolLicenseConnection.RequestClientLicense, termserv.iwtsprotocollicenseconnection_requestclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::RequestClientLicense
+ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],RequestClientLicense method, IWTSProtocolLicenseConnection.RequestClientLicense, IWTSProtocolLicenseConnection::RequestClientLicense, RequestClientLicense, RequestClientLicense method [Remote Desktop Services], RequestClientLicense method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_requestclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::RequestClientLicense
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolLicenseConnection::RequestClientLicense method
+# IWTSProtocolLicenseConnection::RequestClientLicense
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTuner.put_Mode
-title: IAMTuner::put_Mode method
+title: IAMTuner::put_Mode
 author: windows-driver-content
 description: The put_Mode method sets a multifunction tuner to the specified mode.
 old-location: dshow\iamtuner_put_mode.htm
 old-project: DirectShow
 ms.assetid: 4c0691fb-e291-43eb-9828-f58474a4334d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTuner, IAMTuner interface [DirectShow], put_Mode method, IAMTuner::put_Mode, IAMTunerput_Mode, dshow.iamtuner_put_mode, put_Mode method [DirectShow], put_Mode method [DirectShow], IAMTuner interface, put_Mode,IAMTuner.put_Mode, strmif/IAMTuner::put_Mode
+ms.date: 4/30/2018
+ms.keywords: IAMTuner interface [DirectShow],put_Mode method, IAMTuner.put_Mode, IAMTuner::put_Mode, IAMTunerput_Mode, dshow.iamtuner_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_Mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTuner::put_Mode method
+# IAMTuner::put_Mode
 
 
 ## -description

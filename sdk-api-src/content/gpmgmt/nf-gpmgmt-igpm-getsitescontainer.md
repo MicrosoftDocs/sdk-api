@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.GetSitesContainer
-title: IGPM::GetSitesContainer method
+title: IGPM::GetSitesContainer
 author: windows-driver-content
 description: Creates and returns a GPMSitesContainer object from which sites can be opened and queried.
 old-location: gpmc\igpm_getsitescontainer.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 0a1b8975-cd73-49e6-83b9-f6af296276cb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPM object [GPMC], GetSitesContainer method, GetSitesContainer method [GPMC], GetSitesContainer method [GPMC], GPM object, GetSitesContainer method [GPMC], IGPM interface, GetSitesContainer,IGPM.GetSitesContainer, IGPM, IGPM interface [GPMC], GetSitesContainer method, IGPM::GetSitesContainer, _win32_igpm_getsitescontainer, gpmc.igpm_getsitescontainer, gpmgmt/IGPM::GetSitesContainer
+ms.keywords: GPM object [GPMC],GetSitesContainer method, GetSitesContainer, GetSitesContainer method [GPMC], GetSitesContainer method [GPMC],GPM object, GetSitesContainer method [GPMC],IGPM interface, IGPM interface [GPMC],GetSitesContainer method, IGPM.GetSitesContainer, IGPM::GetSitesContainer, _win32_igpm_getsitescontainer, gpmc.igpm_getsitescontainer, gpmgmt/IGPM::GetSitesContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPM::GetSitesContainer method
+# IGPM::GetSitesContainer
 
 
 ## -description

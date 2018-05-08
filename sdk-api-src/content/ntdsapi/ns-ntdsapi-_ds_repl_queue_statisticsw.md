@@ -7,7 +7,7 @@ old-location: ad\ds_repl_queue_statisticsw.htm
 old-project: AD
 ms.assetid: bfddd7ed-0ff4-46ca-84c2-39020acb37d0
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DS_REPL_QUEUE_STATISTICSW, DS_REPL_QUEUE_STATISTICSW structure [Active Directory], DS_REPL_QUEUE_STATISTICSW_BLOB, _DS_REPL_QUEUE_STATISTICSW, ad.ds_repl_queue_statisticsw, ntdsapi/DS_REPL_QUEUE_STATISTICSW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,6 +93,16 @@ Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec916152
 ### -field ftimeOldestUpdRefs
 
 Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the date and time of the oldest reference update operation.
+
+
+## -remarks
+
+
+
+
+<a href="https://msdn.microsoft.com/13fe2237-d20c-4314-ab9a-5bf790742da0">DS_REPL_QUEUE_STATISTICSW_BLOB</a> is an alias for this structure.
+
+
 
 
 ## -see-also

@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventStore.GetEvent
-title: ISyncMgrEventStore::GetEvent method
+title: ISyncMgrEventStore::GetEvent
 author: windows-driver-content
 description: Gets a specified event object.
 old-location: shell\ISyncMgrEventStore_GetEvent.htm
 old-project: shell
 ms.assetid: 6800ac62-1fd5-43a4-bd37-831449274a7b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetEvent method [Windows Shell], GetEvent method [Windows Shell], ISyncMgrEventStore interface, GetEvent,ISyncMgrEventStore.GetEvent, ISyncMgrEventStore, ISyncMgrEventStore interface [Windows Shell], GetEvent method, ISyncMgrEventStore::GetEvent, _shell_ISyncMgrEventStore_GetEvent, shell.ISyncMgrEventStore_GetEvent, syncmgr/ISyncMgrEventStore::GetEvent
+ms.date: 5/3/2018
+ms.keywords: GetEvent, GetEvent method [Windows Shell], GetEvent method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEvent method, ISyncMgrEventStore.GetEvent, ISyncMgrEventStore::GetEvent, _shell_ISyncMgrEventStore_GetEvent, shell.ISyncMgrEventStore_GetEvent, syncmgr/ISyncMgrEventStore::GetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrEventStore::GetEvent method
+# ISyncMgrEventStore::GetEvent
 
 
 ## -description

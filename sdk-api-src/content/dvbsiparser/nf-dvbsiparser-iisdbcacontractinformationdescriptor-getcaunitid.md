@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetCAUnitId
-title: IIsdbCAContractInformationDescriptor::GetCAUnitId method
+title: IIsdbCAContractInformationDescriptor::GetCAUnitId
 author: windows-driver-content
 description: Gets the value of the CA_unit_id field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field identifies the billing or nonbilling unit to which the component belongs.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcaunitid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1e50f417-6403-499a-944c-2926a18dada1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCAUnitId method [Microsoft TV Technologies], GetCAUnitId method [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface, GetCAUnitId,IIsdbCAContractInformationDescriptor.GetCAUnitId, IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], GetCAUnitId method, IIsdbCAContractInformationDescriptor::GetCAUnitId, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCAUnitId, mstv.iisdbcacontractinformationdescriptor_getcaunitid
+ms.keywords: GetCAUnitId, GetCAUnitId method [Microsoft TV Technologies], GetCAUnitId method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCAUnitId method, IIsdbCAContractInformationDescriptor.GetCAUnitId, IIsdbCAContractInformationDescriptor::GetCAUnitId, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCAUnitId, mstv.iisdbcacontractinformationdescriptor_getcaunitid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbCAContractInformationDescriptor::GetCAUnitId method
+# IIsdbCAContractInformationDescriptor::GetCAUnitId
 
 
 ## -description

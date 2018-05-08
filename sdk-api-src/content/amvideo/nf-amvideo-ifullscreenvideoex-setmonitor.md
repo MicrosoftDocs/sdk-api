@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetMonitor
-title: IFullScreenVideoEx::SetMonitor method
+title: IFullScreenVideoEx::SetMonitor
 author: windows-driver-content
 description: The SetMonitor method specifies which monitor to use. The Full Screen Renderer only supports the primary monitor, however, so this method is not useful in the current implementation.
 old-location: dshow\ifullscreenvideoex_setmonitor.htm
 old-project: DirectShow
 ms.assetid: f2db1009-ce5b-4ebe-becb-bed3d1187335
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], SetMonitor method, IFullScreenVideoEx::SetMonitor, IFullScreenVideoSetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow], IFullScreenVideoEx interface, SetMonitor,IFullScreenVideoEx.SetMonitor, amvideo/IFullScreenVideoEx::SetMonitor, dshow.ifullscreenvideoex_setmonitor
+ms.date: 4/30/2018
+ms.keywords: IFullScreenVideoEx interface [DirectShow],SetMonitor method, IFullScreenVideoEx.SetMonitor, IFullScreenVideoEx::SetMonitor, IFullScreenVideoSetMonitor, SetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetMonitor, dshow.ifullscreenvideoex_setmonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IFullScreenVideoEx::SetMonitor method
+# IFullScreenVideoEx::SetMonitor
 
 
 ## -description

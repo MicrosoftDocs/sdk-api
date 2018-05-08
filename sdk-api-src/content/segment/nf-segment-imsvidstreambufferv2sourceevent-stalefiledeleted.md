@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.StaleFileDeleted
-title: IMSVidStreamBufferV2SourceEvent::StaleFileDeleted method
+title: IMSVidStreamBufferV2SourceEvent::StaleFileDeleted
 author: windows-driver-content
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_STALE_FILE_DELETED event, which indicates that a temporary file has been deleted.
 old-location: mstv\imsvidstreambufferv2sourceevent_stalefiledeleted.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 23cd93d9-3615-4fbf-a6de-61ee69cd51e3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferV2SourceEvent, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies], StaleFileDeleted method, IMSVidStreamBufferV2SourceEvent::StaleFileDeleted, StaleFileDeleted method [Microsoft TV Technologies], StaleFileDeleted method [Microsoft TV Technologies], IMSVidStreamBufferV2SourceEvent interface, StaleFileDeleted,IMSVidStreamBufferV2SourceEvent.StaleFileDeleted, mstv.imsvidstreambufferv2sourceevent_stalefiledeleted, segment/IMSVidStreamBufferV2SourceEvent::StaleFileDeleted
+ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],StaleFileDeleted method, IMSVidStreamBufferV2SourceEvent.StaleFileDeleted, IMSVidStreamBufferV2SourceEvent::StaleFileDeleted, StaleFileDeleted, StaleFileDeleted method [Microsoft TV Technologies], StaleFileDeleted method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_stalefiledeleted, segment/IMSVidStreamBufferV2SourceEvent::StaleFileDeleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferV2SourceEvent::StaleFileDeleted method
+# IMSVidStreamBufferV2SourceEvent::StaleFileDeleted
 
 
 ## -description

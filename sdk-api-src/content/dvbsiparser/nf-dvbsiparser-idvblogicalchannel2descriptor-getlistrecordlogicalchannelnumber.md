@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber
-title: IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber method
+title: IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber
 author: windows-driver-content
 description: Gets the value of the logical_channel_number field from a Digital Video Broadcast (DVB) logical channel descriptor. The logical_channel_number field gives the ordinal position of the service record in the descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistrecordlogicalchannelnumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b8ebc804-08a1-4840-ba20-f52438a0d6bf
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetListRecordLogicalChannelNumber method [Microsoft TV Technologies], GetListRecordLogicalChannelNumber method [Microsoft TV Technologies], IDvbLogicalChannel2Descriptor interface, GetListRecordLogicalChannelNumber,IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber, IDvbLogicalChannel2Descriptor, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies], GetListRecordLogicalChannelNumber method, IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber, mstv.idvblogicalchannel2descriptor_getlistrecordlogicalchannelnumber
+ms.keywords: GetListRecordLogicalChannelNumber, GetListRecordLogicalChannelNumber method [Microsoft TV Technologies], GetListRecordLogicalChannelNumber method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListRecordLogicalChannelNumber method, IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber, IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber, mstv.idvblogicalchannel2descriptor_getlistrecordlogicalchannelnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber method
+# IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_UpdateIdentity
-title: IUpdateHistoryEntry::get_UpdateIdentity method
+title: IUpdateHistoryEntry::get_UpdateIdentity
 author: windows-driver-content
 description: Gets the IUpdateIdentity interface that contains the identity of the update.
 old-location: wua\iupdatehistoryentry_updateidentity.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 428206f9-4812-4a9a-8b8f-8a22db401c19
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateHistoryEntry, IUpdateHistoryEntry interface [Windows Update Agent], UpdateIdentity property, IUpdateHistoryEntry.UpdateIdentity, IUpdateHistoryEntry::get_UpdateIdentity, UpdateIdentity property [Windows Update Agent], UpdateIdentity property [Windows Update Agent], IUpdateHistoryEntry interface, get_UpdateIdentity,IUpdateHistoryEntry.get_UpdateIdentity, wua.iupdatehistoryentry_updateidentity, wuapi/IUpdateHistoryEntry::UpdateIdentity, wuapi/IUpdateHistoryEntry::get_UpdateIdentity
+ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UpdateIdentity property, IUpdateHistoryEntry.UpdateIdentity, IUpdateHistoryEntry.get_UpdateIdentity, IUpdateHistoryEntry::UpdateIdentity, IUpdateHistoryEntry::get_UpdateIdentity, UpdateIdentity property [Windows Update Agent], UpdateIdentity property [Windows Update Agent],IUpdateHistoryEntry interface, get_UpdateIdentity, wua.iupdatehistoryentry_updateidentity, wuapi/IUpdateHistoryEntry::UpdateIdentity, wuapi/IUpdateHistoryEntry::get_UpdateIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateHistoryEntry::get_UpdateIdentity method
+# IUpdateHistoryEntry::get_UpdateIdentity
 
 
 ## -description

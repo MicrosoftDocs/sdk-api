@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_MultisessionInterfaces
-title: IDiscFormat2Data::get_MultisessionInterfaces method
+title: IDiscFormat2Data::get_MultisessionInterfaces
 author: windows-driver-content
 description: Retrieves a list of available multi-session interfaces.
 old-location: imapi\idiscformat2data_get_multisessioninterfaces.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 7bb2d100-629f-4b63-a699-ddce85213e72
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], get_MultisessionInterfaces method, IDiscFormat2Data::get_MultisessionInterfaces, get_MultisessionInterfaces method [IMAPI], get_MultisessionInterfaces method [IMAPI], IDiscFormat2Data interface, get_MultisessionInterfaces,IDiscFormat2Data.get_MultisessionInterfaces, imapi.idiscformat2data_get_multisessioninterfaces, imapi2/IDiscFormat2Data::get_MultisessionInterfaces
+ms.keywords: IDiscFormat2Data interface [IMAPI],get_MultisessionInterfaces method, IDiscFormat2Data.get_MultisessionInterfaces, IDiscFormat2Data::get_MultisessionInterfaces, get_MultisessionInterfaces, get_MultisessionInterfaces method [IMAPI], get_MultisessionInterfaces method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_multisessioninterfaces, imapi2/IDiscFormat2Data::get_MultisessionInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Data::get_MultisessionInterfaces method
+# IDiscFormat2Data::get_MultisessionInterfaces
 
 
 ## -description

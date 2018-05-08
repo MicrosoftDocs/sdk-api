@@ -7,7 +7,7 @@ old-location: winprog\_cachecreatefile.htm
 old-project: DevNotes
 ms.assetid: 089160c7-eb30-4b39-b982-75356e7cdb24
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: CacheCreateFile, CacheCreateFile function [Windows API], filehc/CacheCreateFile, winprog._cachecreatefile
 ms.prod: windows-hardware
 ms.technology: windows-devices

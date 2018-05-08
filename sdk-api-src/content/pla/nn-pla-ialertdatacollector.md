@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 61907979-fa4a-45da-96c5-7cd12021fbb7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IAlertDataCollector, IAlertDataCollector interface [PLA], IAlertDataCollector interface [PLA], described, base.ialertdatacollector, pla.ialertdatacollector, pla/IAlertDataCollector
+ms.keywords: IAlertDataCollector, IAlertDataCollector interface [PLA], IAlertDataCollector interface [PLA],described, base.ialertdatacollector, pla.ialertdatacollector, pla/IAlertDataCollector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

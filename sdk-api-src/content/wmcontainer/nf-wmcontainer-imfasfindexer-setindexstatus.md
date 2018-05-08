@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.SetIndexStatus
-title: IMFASFIndexer::SetIndexStatus method
+title: IMFASFIndexer::SetIndexStatus
 author: windows-driver-content
 description: Configures the index for a stream.
 old-location: mf\imfasfindexer_setindexstatus.htm
 old-project: medfound
 ms.assetid: bad10893-07af-4b46-bab1-2878553813b5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFASFIndexer, IMFASFIndexer interface [Media Foundation], SetIndexStatus method, IMFASFIndexer::SetIndexStatus, SetIndexStatus method [Media Foundation], SetIndexStatus method [Media Foundation], IMFASFIndexer interface, SetIndexStatus,IMFASFIndexer.SetIndexStatus, bad10893-07af-4b46-bab1-2878553813b5, mf.imfasfindexer_setindexstatus, wmcontainer/IMFASFIndexer::SetIndexStatus
+ms.date: 5/3/2018
+ms.keywords: IMFASFIndexer interface [Media Foundation],SetIndexStatus method, IMFASFIndexer.SetIndexStatus, IMFASFIndexer::SetIndexStatus, SetIndexStatus, SetIndexStatus method [Media Foundation], SetIndexStatus method [Media Foundation],IMFASFIndexer interface, bad10893-07af-4b46-bab1-2878553813b5, mf.imfasfindexer_setindexstatus, wmcontainer/IMFASFIndexer::SetIndexStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFIndexer::SetIndexStatus method
+# IMFASFIndexer::SetIndexStatus
 
 
 ## -description

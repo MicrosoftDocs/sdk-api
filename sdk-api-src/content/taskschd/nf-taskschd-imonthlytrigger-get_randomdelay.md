@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.get_RandomDelay
-title: IMonthlyTrigger::get_RandomDelay method
+title: IMonthlyTrigger::get_RandomDelay
 author: windows-driver-content
 description: Gets or sets a delay time that is randomly added to the start time of the trigger.
 old-location: taskschd\imonthlytrigger_randomdelay.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 6b2a42dc-4002-4e51-9a8a-2982f83835d6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IMonthlyTrigger, IMonthlyTrigger interface [Task Scheduler], RandomDelay property, IMonthlyTrigger.RandomDelay, IMonthlyTrigger::get_RandomDelay, IMonthlyTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler], IMonthlyTrigger interface, get_RandomDelay,IMonthlyTrigger.get_RandomDelay, taskschd.imonthlytrigger_randomdelay, taskschd/IMonthlyTrigger::RandomDelay, taskschd/IMonthlyTrigger::get_RandomDelay, taskschd/IMonthlyTrigger::put_RandomDelay
+ms.keywords: IMonthlyTrigger interface [Task Scheduler],RandomDelay property, IMonthlyTrigger.RandomDelay, IMonthlyTrigger.get_RandomDelay, IMonthlyTrigger::RandomDelay, IMonthlyTrigger::get_RandomDelay, IMonthlyTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],IMonthlyTrigger interface, get_RandomDelay, taskschd.imonthlytrigger_randomdelay, taskschd/IMonthlyTrigger::RandomDelay, taskschd/IMonthlyTrigger::get_RandomDelay, taskschd/IMonthlyTrigger::put_RandomDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMonthlyTrigger::get_RandomDelay method
+# IMonthlyTrigger::get_RandomDelay
 
 
 ## -description

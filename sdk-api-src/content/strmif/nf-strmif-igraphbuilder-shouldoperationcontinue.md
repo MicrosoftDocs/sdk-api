@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IGraphBuilder.ShouldOperationContinue
-title: IGraphBuilder::ShouldOperationContinue method
+title: IGraphBuilder::ShouldOperationContinue
 author: windows-driver-content
 description: The ShouldOperationContinue method queries whether the current operation should continue.
 old-location: dshow\igraphbuilder_shouldoperationcontinue.htm
 old-project: DirectShow
 ms.assetid: 0d862a41-6896-40a5-8bfc-129b15dfc671
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IGraphBuilder, IGraphBuilder interface [DirectShow], ShouldOperationContinue method, IGraphBuilder::ShouldOperationContinue, IGraphBuilderShouldOperationContinue, ShouldOperationContinue method [DirectShow], ShouldOperationContinue method [DirectShow], IGraphBuilder interface, ShouldOperationContinue,IGraphBuilder.ShouldOperationContinue, dshow.igraphbuilder_shouldoperationcontinue, strmif/IGraphBuilder::ShouldOperationContinue
+ms.date: 4/30/2018
+ms.keywords: IGraphBuilder interface [DirectShow],ShouldOperationContinue method, IGraphBuilder.ShouldOperationContinue, IGraphBuilder::ShouldOperationContinue, IGraphBuilderShouldOperationContinue, ShouldOperationContinue, ShouldOperationContinue method [DirectShow], ShouldOperationContinue method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_shouldoperationcontinue, strmif/IGraphBuilder::ShouldOperationContinue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IGraphBuilder::ShouldOperationContinue method
+# IGraphBuilder::ShouldOperationContinue
 
 
 ## -description

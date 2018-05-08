@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetTransformMethod
-title: IOpcSignatureRelationshipReference::GetTransformMethod method
+title: IOpcSignatureRelationshipReference::GetTransformMethod
 author: windows-driver-content
 description: Gets the canonicalization method to use on the relationship markup of the selected relationships when they are signed.
 old-location: opc\iopcsignaturerelationshipreference_gettransformmethod.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 87d85f7e-abf2-4f6f-91b6-36a014cc0f33
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetTransformMethod method [Open Packaging Conventions], GetTransformMethod method [Open Packaging Conventions], IOpcSignatureRelationshipReference interface, GetTransformMethod,IOpcSignatureRelationshipReference.GetTransformMethod, IOpcSignatureRelationshipReference, IOpcSignatureRelationshipReference interface [Open Packaging Conventions], GetTransformMethod method, IOpcSignatureRelationshipReference::GetTransformMethod, msopc/IOpcSignatureRelationshipReference::GetTransformMethod, opc.iopcsignaturerelationshipreference_gettransformmethod
+ms.keywords: GetTransformMethod, GetTransformMethod method [Open Packaging Conventions], GetTransformMethod method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetTransformMethod method, IOpcSignatureRelationshipReference.GetTransformMethod, IOpcSignatureRelationshipReference::GetTransformMethod, msopc/IOpcSignatureRelationshipReference::GetTransformMethod, opc.iopcsignaturerelationshipreference_gettransformmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureRelationshipReference::GetTransformMethod method
+# IOpcSignatureRelationshipReference::GetTransformMethod
 
 
 ## -description

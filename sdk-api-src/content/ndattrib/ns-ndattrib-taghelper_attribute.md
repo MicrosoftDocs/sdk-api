@@ -72,102 +72,102 @@ Type: <b><a href="https://msdn.microsoft.com/9064549e-4f30-42f4-a7b4-6072f9c30f6
 The type of helper attribute.
 
 
-#### - Address
-
-Type: <b><a href="https://msdn.microsoft.com/31da9541-e7d0-4cbc-9d9d-3bcf71acb975">DIAG_SOCKADDR</a></b>
-
-An IPv4 or IPv6 address. Used when <b>type</b> is <b>AT_SOCKADDR</b>.
-
-
-#### - Boolean
+### -field Boolean
 
 Type: <b>BOOL</b>
 
 A True or False value. Used when <b>type</b> is <b>AT_BOOLEAN</b>.
 
 
-#### - Byte
-
-Type: <b>byte</b>
-
-A byte value. Used when <b>type</b> is <b>AT_UINT8</b>.
-
-
-#### - Char
+### -field Char
 
 Type: <b>char</b>
 
 A character value. Used when  <b>type</b> is <b>AT_INT8</b>.
 
 
-#### - DWord
+### -field Byte
 
-Type: <b>DWORD</b>
+Type: <b>byte</b>
 
-A 4-byte unsigned value. Used when <b>type</b> is <b>AT_UINT32</b>.
-
-
-#### - Guid
-
-Type: <b>GUID</b>
-
-A GUID structure. Used when <b>type</b> is <b>AT_GUID</b>.
+A byte value. Used when <b>type</b> is <b>AT_UINT8</b>.
 
 
-#### - Int
-
-Type: <b>int</b>
-
-A 4-byte signed value. Used when <b>type</b> is <b>AT_INT32</b>.
-
-
-#### - Int64
-
-Type: <b>LONGLONG</b>
-
-A 64-bit signed integer value. Used when <b>type</b> is <b>AT_INT64</b>.
-
-
-#### - LifeTime
-
-Type: <b><a href="https://msdn.microsoft.com/31f038fb-08c1-4057-af61-f3912cfcd4f0">LIFE_TIME</a></b>
-
-A <a href="https://msdn.microsoft.com/31f038fb-08c1-4057-af61-f3912cfcd4f0">LIFE_TIME</a> structure. Used when <b>type</b> is <b>AT_LIFE_TIME</b>.
-
-
-#### - OctetString
-
-Type: <b><a href="https://msdn.microsoft.com/6133c69d-45ad-4080-b3e1-f42cbdc6cdf7">OCTET_STRING</a></b>
-
-A byte array for undefined types. Used when <b>type</b> is <b>AT_OCTET_STRING</b>.
-
-
-#### - PWStr
-
-Type: <b>LPWSTR</b>
-
-A null-terminated string value. Used when <b>type</b> is <b>AT_STRING</b>.
-
-
-#### - Short
+### -field Short
 
 Type: <b>short</b>
 
 A 16-bit  signed value. Used when <b>type</b> is <b>AT_INT16</b>
 
 
-#### - UInt64
+### -field Word
+
+Type: <b>WORD</b>
+
+A 2-byte unsigned value. Used when <b>type</b> is <b>AT_UINT16</b>.
+
+
+### -field Int
+
+Type: <b>int</b>
+
+A 4-byte signed value. Used when <b>type</b> is <b>AT_INT32</b>.
+
+
+### -field DWord
+
+Type: <b>DWORD</b>
+
+A 4-byte unsigned value. Used when <b>type</b> is <b>AT_UINT32</b>.
+
+
+### -field Int64
+
+Type: <b>LONGLONG</b>
+
+A 64-bit signed integer value. Used when <b>type</b> is <b>AT_INT64</b>.
+
+
+### -field UInt64
 
 Type: <b>ULONGLONG</b>
 
 A 64-bit unsigned integer value. Used when <b>type</b> is <b>AT_UINT64</b>.
 
 
-#### - Word
+### -field PWStr
 
-Type: <b>WORD</b>
+Type: <b>LPWSTR</b>
 
-A 2-byte unsigned value. Used when <b>type</b> is <b>AT_UINT16</b>.
+A null-terminated string value. Used when <b>type</b> is <b>AT_STRING</b>.
+
+
+### -field Guid
+
+Type: <b>GUID</b>
+
+A GUID structure. Used when <b>type</b> is <b>AT_GUID</b>.
+
+
+### -field LifeTime
+
+Type: <b><a href="https://msdn.microsoft.com/31f038fb-08c1-4057-af61-f3912cfcd4f0">LIFE_TIME</a></b>
+
+A <a href="https://msdn.microsoft.com/31f038fb-08c1-4057-af61-f3912cfcd4f0">LIFE_TIME</a> structure. Used when <b>type</b> is <b>AT_LIFE_TIME</b>.
+
+
+### -field Address
+
+Type: <b><a href="https://msdn.microsoft.com/31da9541-e7d0-4cbc-9d9d-3bcf71acb975">DIAG_SOCKADDR</a></b>
+
+An IPv4 or IPv6 address. Used when <b>type</b> is <b>AT_SOCKADDR</b>.
+
+
+### -field OctetString
+
+Type: <b><a href="https://msdn.microsoft.com/6133c69d-45ad-4080-b3e1-f42cbdc6cdf7">OCTET_STRING</a></b>
+
+A byte array for undefined types. Used when <b>type</b> is <b>AT_OCTET_STRING</b>.
 
 
 ## -see-also

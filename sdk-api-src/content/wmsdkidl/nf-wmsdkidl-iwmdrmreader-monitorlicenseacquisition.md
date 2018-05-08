@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.MonitorLicenseAcquisition
-title: IWMDRMReader::MonitorLicenseAcquisition method
+title: IWMDRMReader::MonitorLicenseAcquisition
 author: windows-driver-content
 description: The MonitorLicenseAcquisition method, in non-silent license acquisition, informs the application when a license has been successfully acquired.
 old-location: wmformat\iwmdrmreader_monitorlicenseacquisition.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 0b15dce6-7591-479a-b28e-5006418a1c7b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMDRMReader, IWMDRMReader interface [windows Media Format], MonitorLicenseAcquisition method, IWMDRMReader::MonitorLicenseAcquisition, IWMDRMReaderMonitorLicenseAcquisition, MonitorLicenseAcquisition method [windows Media Format], MonitorLicenseAcquisition method [windows Media Format], IWMDRMReader interface, MonitorLicenseAcquisition,IWMDRMReader.MonitorLicenseAcquisition, wmformat.iwmdrmreader_monitorlicenseacquisition, wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition
+ms.keywords: IWMDRMReader interface [windows Media Format],MonitorLicenseAcquisition method, IWMDRMReader.MonitorLicenseAcquisition, IWMDRMReader::MonitorLicenseAcquisition, IWMDRMReaderMonitorLicenseAcquisition, MonitorLicenseAcquisition, MonitorLicenseAcquisition method [windows Media Format], MonitorLicenseAcquisition method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_monitorlicenseacquisition, wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMReader::MonitorLicenseAcquisition method
+# IWMDRMReader::MonitorLicenseAcquisition
 
 
 ## -description

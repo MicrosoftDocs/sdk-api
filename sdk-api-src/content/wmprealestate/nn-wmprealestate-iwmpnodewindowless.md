@@ -7,8 +7,8 @@ old-location: wmp\iwmpnodewindowless__deprecated.htm
 old-project: WMP
 ms.assetid: 585f59cc-e074-4196-a851-d1e3ff9a4500
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNodeWindowless, IWMPNodeWindowless (deprecated), IWMPNodeWindowless (deprecated) interface [Windows Media Player], IWMPNodeWindowless (deprecated) interface [Windows Media Player], described, IWMPNodeWindowlessInterfaceRendering, wmp.iwmpnodewindowless__deprecated, wmprealestate/IWMPNodeWindowless (deprecated)
+ms.date: 5/2/2018
+ms.keywords: IWMPNodeWindowless, IWMPNodeWindowless (deprecated), IWMPNodeWindowless (deprecated) interface [Windows Media Player], IWMPNodeWindowless (deprecated) interface [Windows Media Player],described, IWMPNodeWindowlessInterfaceRendering, wmp.iwmpnodewindowless__deprecated, wmprealestate/IWMPNodeWindowless (deprecated)
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

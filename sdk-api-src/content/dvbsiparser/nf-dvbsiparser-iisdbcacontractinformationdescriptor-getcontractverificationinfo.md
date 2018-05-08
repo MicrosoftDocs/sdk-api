@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetContractVerificationInfo
-title: IIsdbCAContractInformationDescriptor::GetContractVerificationInfo method
+title: IIsdbCAContractInformationDescriptor::GetContractVerificationInfo
 author: windows-driver-content
 description: Gets data from the contract_verification_info field in an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field is used to determine allowable uses of the conditional access service.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcontractverificationinfo.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bfec246a-df34-46c3-9529-dc1fa75582da
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetContractVerificationInfo method [Microsoft TV Technologies], GetContractVerificationInfo method [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface, GetContractVerificationInfo,IIsdbCAContractInformationDescriptor.GetContractVerificationInfo, IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], GetContractVerificationInfo method, IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfo
+ms.keywords: GetContractVerificationInfo, GetContractVerificationInfo method [Microsoft TV Technologies], GetContractVerificationInfo method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetContractVerificationInfo method, IIsdbCAContractInformationDescriptor.GetContractVerificationInfo, IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbCAContractInformationDescriptor::GetContractVerificationInfo method
+# IIsdbCAContractInformationDescriptor::GetContractVerificationInfo
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: shell\DWordPtrToDWord.htm
 old-project: shell
 ms.assetid: da5b5af9-d28a-46ad-9f52-25372ad6c40a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: DWordPtrToDWord, DWordPtrToDWord function [Windows Shell], ULongPtrToULong, _shell_DWordPtrToDWord, intsafe/DWordPtrToDWord, shell.DWordPtrToDWord
 ms.prod: windows-hardware
 ms.technology: windows-devices

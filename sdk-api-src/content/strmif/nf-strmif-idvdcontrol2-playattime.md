@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayAtTime
-title: IDvdControl2::PlayAtTime method
+title: IDvdControl2::PlayAtTime
 author: windows-driver-content
 description: The PlayAtTime method starts playback from the specified time in the current title.
 old-location: dshow\idvdcontrol2_playattime.htm
 old-project: DirectShow
 ms.assetid: 75b66e8d-3107-48ca-a887-20cf3c0b9234
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], PlayAtTime method, IDvdControl2::PlayAtTime, IDvdControl2PlayAtTime, PlayAtTime method [DirectShow], PlayAtTime method [DirectShow], IDvdControl2 interface, PlayAtTime,IDvdControl2.PlayAtTime, dshow.idvdcontrol2_playattime, strmif/IDvdControl2::PlayAtTime
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],PlayAtTime method, IDvdControl2.PlayAtTime, IDvdControl2::PlayAtTime, IDvdControl2PlayAtTime, PlayAtTime, PlayAtTime method [DirectShow], PlayAtTime method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playattime, strmif/IDvdControl2::PlayAtTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::PlayAtTime method
+# IDvdControl2::PlayAtTime
 
 
 ## -description

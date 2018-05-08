@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.SetTitle
-title: ITocEntry::SetTitle method
+title: ITocEntry::SetTitle
 author: windows-driver-content
 description: The SetTitle method sets the title of the entry.
 old-location: mf\itocentry_settitle.htm
 old-project: medfound
 ms.assetid: 24ab6c56-59ae-4fdf-b18e-75f616ee5a80
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ITocEntry, ITocEntry interface [Media Foundation], SetTitle method, ITocEntry::SetTitle, SetTitle method [Media Foundation], SetTitle method [Media Foundation], ITocEntry interface, SetTitle,ITocEntry.SetTitle, codecapi.itocentry_settitle, mf.itocentry_settitle, wmcodecdsp/ITocEntry::SetTitle
+ms.date: 5/3/2018
+ms.keywords: ITocEntry interface [Media Foundation],SetTitle method, ITocEntry.SetTitle, ITocEntry::SetTitle, SetTitle, SetTitle method [Media Foundation], SetTitle method [Media Foundation],ITocEntry interface, codecapi.itocentry_settitle, mf.itocentry_settitle, wmcodecdsp/ITocEntry::SetTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocEntry::SetTitle method
+# ITocEntry::SetTitle
 
 
 ## -description

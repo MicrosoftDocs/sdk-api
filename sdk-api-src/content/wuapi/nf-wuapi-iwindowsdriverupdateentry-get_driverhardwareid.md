@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntry.get_DriverHardwareID
-title: IWindowsDriverUpdateEntry::get_DriverHardwareID method
+title: IWindowsDriverUpdateEntry::get_DriverHardwareID
 author: windows-driver-content
 description: Gets the hardware or the compatible identifier that the Windows driver update must match to be installable.
 old-location: wua\iwindowsdriverupdateentry_driverhardwareid.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: ff8e2336-634f-4217-b08a-fb3131ec8986
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DriverHardwareID property [Windows Update Agent], DriverHardwareID property [Windows Update Agent], IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry, IWindowsDriverUpdateEntry interface [Windows Update Agent], DriverHardwareID property, IWindowsDriverUpdateEntry.DriverHardwareID, IWindowsDriverUpdateEntry::get_DriverHardwareID, get_DriverHardwareID,IWindowsDriverUpdateEntry.get_DriverHardwareID, wua.iwindowsdriverupdateentry_driverhardwareid, wuapi/IWindowsDriverUpdateEntry::DriverHardwareID, wuapi/IWindowsDriverUpdateEntry::get_DriverHardwareID
+ms.keywords: DriverHardwareID property [Windows Update Agent], DriverHardwareID property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverHardwareID property, IWindowsDriverUpdateEntry.DriverHardwareID, IWindowsDriverUpdateEntry.get_DriverHardwareID, IWindowsDriverUpdateEntry::DriverHardwareID, IWindowsDriverUpdateEntry::get_DriverHardwareID, get_DriverHardwareID, wua.iwindowsdriverupdateentry_driverhardwareid, wuapi/IWindowsDriverUpdateEntry::DriverHardwareID, wuapi/IWindowsDriverUpdateEntry::get_DriverHardwareID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IWindowsDriverUpdateEntry::get_DriverHardwareID method
+# IWindowsDriverUpdateEntry::get_DriverHardwareID
 
 
 ## -description

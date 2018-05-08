@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetTargetMode
-title: ITargetInfo::SetTargetMode method
+title: ITargetInfo::SetTargetMode
 author: windows-driver-content
 description: Sets the target mode.
 old-location: smi\itargetinfo_settargetmode.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: f8c5e67f-a084-4916-8371-bba4e7fb1da1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITargetInfo, ITargetInfo interface [SMI], SetTargetMode method, ITargetInfo::SetTargetMode, SetTargetMode method [SMI], SetTargetMode method [SMI], ITargetInfo interface, SetTargetMode,ITargetInfo.SetTargetMode, smi.itargetinfo_settargetmode, wcmconfig/ITargetInfo::SetTargetMode
+ms.keywords: ITargetInfo interface [SMI],SetTargetMode method, ITargetInfo.SetTargetMode, ITargetInfo::SetTargetMode, SetTargetMode, SetTargetMode method [SMI], SetTargetMode method [SMI],ITargetInfo interface, smi.itargetinfo_settargetmode, wcmconfig/ITargetInfo::SetTargetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::SetTargetMode method
+# ITargetInfo::SetTargetMode
 
 
 ## -description

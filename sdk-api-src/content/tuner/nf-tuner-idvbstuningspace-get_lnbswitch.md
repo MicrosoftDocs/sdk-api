@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.get_LNBSwitch
-title: IDVBSTuningSpace::get_LNBSwitch method
+title: IDVBSTuningSpace::get_LNBSwitch
 author: windows-driver-content
 description: The get_LNBSwitch method retrieves the LNB switch.
 old-location: mstv\idvbstuningspace_get_lnbswitch.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 56cea4ef-7679-4b78-883d-194c9259032f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBSTuningSpace, IDVBSTuningSpace interface [Microsoft TV Technologies], get_LNBSwitch method, IDVBSTuningSpace::get_LNBSwitch, IDVBSTuningSpaceget_LNBSwitch, get_LNBSwitch method [Microsoft TV Technologies], get_LNBSwitch method [Microsoft TV Technologies], IDVBSTuningSpace interface, get_LNBSwitch,IDVBSTuningSpace.get_LNBSwitch, mstv.idvbstuningspace_get_lnbswitch, tuner/IDVBSTuningSpace::get_LNBSwitch
+ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_LNBSwitch method, IDVBSTuningSpace.get_LNBSwitch, IDVBSTuningSpace::get_LNBSwitch, IDVBSTuningSpaceget_LNBSwitch, get_LNBSwitch, get_LNBSwitch method [Microsoft TV Technologies], get_LNBSwitch method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_lnbswitch, tuner/IDVBSTuningSpace::get_LNBSwitch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBSTuningSpace::get_LNBSwitch method
+# IDVBSTuningSpace::get_LNBSwitch
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.AddEventHandler
-title: IDirectManipulationViewport::AddEventHandler method
+title: IDirectManipulationViewport::AddEventHandler
 author: windows-driver-content
 description: Adds a new event handler to listen for viewport events.
 old-location: directmanipulation\idirectmanipulationviewport_addeventhandler.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 56b47fec-dfa2-4906-9135-5ee331f04c54
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddEventHandler method [Direct Manipulation], AddEventHandler method [Direct Manipulation], IDirectManipulationViewport interface, AddEventHandler,IDirectManipulationViewport.AddEventHandler, IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], AddEventHandler method, IDirectManipulationViewport::AddEventHandler, directmanipulation.idirectmanipulationviewport_addeventhandler, directmanipulation/IDirectManipulationViewport::AddEventHandler
+ms.keywords: AddEventHandler, AddEventHandler method [Direct Manipulation], AddEventHandler method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddEventHandler method, IDirectManipulationViewport.AddEventHandler, IDirectManipulationViewport::AddEventHandler, directmanipulation.idirectmanipulationviewport_addeventhandler, directmanipulation/IDirectManipulationViewport::AddEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::AddEventHandler method
+# IDirectManipulationViewport::AddEventHandler
 
 
 ## -description

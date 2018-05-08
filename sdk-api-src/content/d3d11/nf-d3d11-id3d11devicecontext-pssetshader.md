@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSSetShader
-title: ID3D11DeviceContext::PSSetShader method
+title: ID3D11DeviceContext::PSSetShader
 author: windows-driver-content
 description: Sets a pixel shader to the device.
 old-location: direct3d11\id3d11devicecontext_pssetshader.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 2ee5c946-10bd-40b0-90b2-015aff2377aa
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 4cf3d515-f3f8-76b0-407a-e411a6589c75, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], PSSetShader method, ID3D11DeviceContext::PSSetShader, PSSetShader method [Direct3D 11], PSSetShader method [Direct3D 11], ID3D11DeviceContext interface, PSSetShader,ID3D11DeviceContext.PSSetShader, d3d11/ID3D11DeviceContext::PSSetShader, direct3d11.id3d11devicecontext_pssetshader
+ms.keywords: 4cf3d515-f3f8-76b0-407a-e411a6589c75, ID3D11DeviceContext interface [Direct3D 11],PSSetShader method, ID3D11DeviceContext.PSSetShader, ID3D11DeviceContext::PSSetShader, PSSetShader, PSSetShader method [Direct3D 11], PSSetShader method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSSetShader, direct3d11.id3d11devicecontext_pssetshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::PSSetShader method
+# ID3D11DeviceContext::PSSetShader
 
 
 ## -description

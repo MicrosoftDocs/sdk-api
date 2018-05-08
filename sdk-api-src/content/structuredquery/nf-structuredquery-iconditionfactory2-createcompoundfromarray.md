@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateCompoundFromArray
-title: IConditionFactory2::CreateCompoundFromArray method
+title: IConditionFactory2::CreateCompoundFromArray
 author: windows-driver-content
 description: Creates a leaf condition node that is a conjunction (AND) or a disjunction (OR) from an array of condition nodes. The returned object supports ICondition and ICondition2.
 old-location: search\_search_IConditionFactory2_CreateCompoundFromArray.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory\createcompoundfromarray.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateCompoundFromArray method [search], CreateCompoundFromArray method [search], IConditionFactory2 interface, CreateCompoundFromArray,IConditionFactory2.CreateCompoundFromArray, IConditionFactory2, IConditionFactory2 interface [search], CreateCompoundFromArray method, IConditionFactory2::CreateCompoundFromArray, _search_IConditionFactory2_CreateCompoundFromArray, search._search_IConditionFactory2_CreateCompoundFromArray, structuredquery/IConditionFactory2::CreateCompoundFromArray
+ms.date: 5/4/2018
+ms.keywords: CreateCompoundFromArray, CreateCompoundFromArray method [search], CreateCompoundFromArray method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateCompoundFromArray method, IConditionFactory2.CreateCompoundFromArray, IConditionFactory2::CreateCompoundFromArray, _search_IConditionFactory2_CreateCompoundFromArray, search._search_IConditionFactory2_CreateCompoundFromArray, structuredquery/IConditionFactory2::CreateCompoundFromArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IConditionFactory2::CreateCompoundFromArray method
+# IConditionFactory2::CreateCompoundFromArray
 
 
 ## -description

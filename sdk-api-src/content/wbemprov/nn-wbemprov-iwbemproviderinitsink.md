@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: abcee170-6a28-44d2-97d6-cb62c393b534
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemProviderInitSink, IWbemProviderInitSink interface [Windows Management Instrumentation], IWbemProviderInitSink interface [Windows Management Instrumentation], described, _hmm_iwbemproviderinitsink, wbemprov/IWbemProviderInitSink, wmi.iwbemproviderinitsink
+ms.keywords: IWbemProviderInitSink, IWbemProviderInitSink interface [Windows Management Instrumentation], IWbemProviderInitSink interface [Windows Management Instrumentation],described, _hmm_iwbemproviderinitsink, wbemprov/IWbemProviderInitSink, wmi.iwbemproviderinitsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

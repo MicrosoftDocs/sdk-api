@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetLastPresentCount
-title: IDXGISwapChain::GetLastPresentCount method
+title: IDXGISwapChain::GetLastPresentCount
 author: windows-driver-content
 description: Gets the number of times that IDXGISwapChain::Present or IDXGISwapChain1::Present1 has been called.
 old-location: direct3ddxgi\idxgiswapchain_getlastpresentcount.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getlastpresentcount.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetLastPresentCount method [DXGI], GetLastPresentCount method [DXGI], IDXGISwapChain interface, GetLastPresentCount,IDXGISwapChain.GetLastPresentCount, IDXGISwapChain, IDXGISwapChain interface [DXGI], GetLastPresentCount method, IDXGISwapChain::GetLastPresentCount, direct3ddxgi.idxgiswapchain_getlastpresentcount, dxgi/IDXGISwapChain::GetLastPresentCount, f6292a4d-50a6-18b3-5edc-a581c15fa784
+ms.keywords: GetLastPresentCount, GetLastPresentCount method [DXGI], GetLastPresentCount method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetLastPresentCount method, IDXGISwapChain.GetLastPresentCount, IDXGISwapChain::GetLastPresentCount, direct3ddxgi.idxgiswapchain_getlastpresentcount, dxgi/IDXGISwapChain::GetLastPresentCount, f6292a4d-50a6-18b3-5edc-a581c15fa784
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain::GetLastPresentCount method
+# IDXGISwapChain::GetLastPresentCount
 
 
 ## -description

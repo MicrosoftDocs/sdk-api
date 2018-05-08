@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.ExitLoop
-title: IXAudio2SourceVoice::ExitLoop method
+title: IXAudio2SourceVoice::ExitLoop
 author: windows-driver-content
 description: Stops looping the voice when it reaches the end of the current loop region.
 old-location: xaudio2\ixaudio2sourcevoice_interface_exitloop.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.ExitLoop(UINT32)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: ExitLoop method [XAudio2 Audio Mixing APIs], ExitLoop method [XAudio2 Audio Mixing APIs], IXAudio2SourceVoice interface, ExitLoop,IXAudio2SourceVoice.ExitLoop, IXAudio2SourceVoice, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs], ExitLoop method, IXAudio2SourceVoice::ExitLoop, xaudio2.ixaudio2sourcevoice_interface_exitloop, xaudio2/IXAudio2SourceVoice::ExitLoop
+ms.keywords: ExitLoop, ExitLoop method [XAudio2 Audio Mixing APIs], ExitLoop method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],ExitLoop method, IXAudio2SourceVoice.ExitLoop, IXAudio2SourceVoice::ExitLoop, xaudio2.ixaudio2sourcevoice_interface_exitloop, xaudio2/IXAudio2SourceVoice::ExitLoop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2SourceVoice::ExitLoop method
+# IXAudio2SourceVoice::ExitLoop
 
 
 ## -description

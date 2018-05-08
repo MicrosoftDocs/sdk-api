@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IPinConnection.DynamicQueryAccept
-title: IPinConnection::DynamicQueryAccept method
+title: IPinConnection::DynamicQueryAccept
 author: windows-driver-content
 description: The DynamicQueryAccept method queries whether the pin can accept the specified media type while the graph is running with the current connection to this pin.
 old-location: dshow\ipinconnection_dynamicqueryaccept.htm
 old-project: DirectShow
 ms.assetid: 86a4f18c-4bd0-45d2-bb5a-b0f41cd0ab43
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: DynamicQueryAccept method [DirectShow], DynamicQueryAccept method [DirectShow], IPinConnection interface, DynamicQueryAccept,IPinConnection.DynamicQueryAccept, IPinConnection, IPinConnection interface [DirectShow], DynamicQueryAccept method, IPinConnection::DynamicQueryAccept, IPinConnectionDynamicQueryAccept, dshow.ipinconnection_dynamicqueryaccept, strmif/IPinConnection::DynamicQueryAccept
+ms.date: 4/30/2018
+ms.keywords: DynamicQueryAccept, DynamicQueryAccept method [DirectShow], DynamicQueryAccept method [DirectShow],IPinConnection interface, IPinConnection interface [DirectShow],DynamicQueryAccept method, IPinConnection.DynamicQueryAccept, IPinConnection::DynamicQueryAccept, IPinConnectionDynamicQueryAccept, dshow.ipinconnection_dynamicqueryaccept, strmif/IPinConnection::DynamicQueryAccept
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IPinConnection::DynamicQueryAccept method
+# IPinConnection::DynamicQueryAccept
 
 
 ## -description

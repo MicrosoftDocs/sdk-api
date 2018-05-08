@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.Children
-title: ISettingsItem::Children method
+title: ISettingsItem::Children
 author: windows-driver-content
 description: Gets the dictionary of the child items that correspond to this item.
 old-location: smi\isettingsitem_children.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 33bd7f91-c414-420e-bc18-1114924b93e9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Children method [SMI], Children method [SMI], ISettingsItem interface, Children,ISettingsItem.Children, ISettingsItem, ISettingsItem interface [SMI], Children method, ISettingsItem::Children, smi.isettingsitem_children, wcmconfig/ISettingsItem::Children
+ms.keywords: Children, Children method [SMI], Children method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],Children method, ISettingsItem.Children, ISettingsItem::Children, smi.isettingsitem_children, wcmconfig/ISettingsItem::Children
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsItem::Children method
+# ISettingsItem::Children
 
 
 ## -description

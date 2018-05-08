@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.GetAllocateForStream
-title: IWMSyncReader2::GetAllocateForStream method
+title: IWMSyncReader2::GetAllocateForStream
 author: windows-driver-content
 description: The GetAllocateForStream method retrieves an interface for allocating stream samples.
 old-location: wmformat\iwmsyncreader2_getallocateforstream.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 88f02e2d-2585-4668-869b-d42739c02a5c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetAllocateForStream method [windows Media Format], GetAllocateForStream method [windows Media Format], IWMSyncReader2 interface, GetAllocateForStream,IWMSyncReader2.GetAllocateForStream, IWMSyncReader2, IWMSyncReader2 interface [windows Media Format], GetAllocateForStream method, IWMSyncReader2::GetAllocateForStream, IWMSyncReader2GetAllocateForStream, wmformat.iwmsyncreader2_getallocateforstream, wmsdkidl/IWMSyncReader2::GetAllocateForStream
+ms.keywords: GetAllocateForStream, GetAllocateForStream method [windows Media Format], GetAllocateForStream method [windows Media Format],IWMSyncReader2 interface, IWMSyncReader2 interface [windows Media Format],GetAllocateForStream method, IWMSyncReader2.GetAllocateForStream, IWMSyncReader2::GetAllocateForStream, IWMSyncReader2GetAllocateForStream, wmformat.iwmsyncreader2_getallocateforstream, wmsdkidl/IWMSyncReader2::GetAllocateForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader2::GetAllocateForStream method
+# IWMSyncReader2::GetAllocateForStream
 
 
 ## -description

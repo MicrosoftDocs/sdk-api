@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_CallerId
-title: IFaxTiff::get_CallerId method
+title: IFaxTiff::get_CallerId
 author: windows-driver-content
 description: Retrieves the CallerId property for a FaxTiff object. The CallerId property is a string that identifies the calling device that sent a specified fax file.
 old-location: fax\_mfax_ifaxtiff_get_callerid_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_502s.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service], FaxTiff object, FaxTiff object [Fax Service], CallerId property, IFaxTiff, IFaxTiff::get_CallerId, _mfax_ifaxtiff_get_callerid, fax._mfax_ifaxtiff_get_callerid, fax._mfax_ifaxtiff_get_callerid_vb, get_CallerId,IFaxTiff.get_CallerId
+ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],FaxTiff object, FaxTiff object [Fax Service],CallerId property, FaxTiff.CallerId, IFaxTiff.get_CallerId, IFaxTiff::get_CallerId, _mfax_ifaxtiff_get_callerid, fax._mfax_ifaxtiff_get_callerid, fax._mfax_ifaxtiff_get_callerid_vb, get_CallerId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxTiff::get_CallerId method
+# IFaxTiff::get_CallerId
 
 
 ## -description

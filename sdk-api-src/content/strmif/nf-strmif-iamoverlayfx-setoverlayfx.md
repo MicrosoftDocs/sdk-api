@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMOverlayFX.SetOverlayFX
-title: IAMOverlayFX::SetOverlayFX method
+title: IAMOverlayFX::SetOverlayFX
 author: windows-driver-content
 description: The SetOverlayFX method applies the specified effects to the overlay surface.
 old-location: dshow\iamoverlayfx_setoverlayfx.htm
 old-project: DirectShow
 ms.assetid: 08e44f4e-924a-4a4d-9fc5-c13b3c21c038
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMOverlayFX, IAMOverlayFX interface [DirectShow], SetOverlayFX method, IAMOverlayFX::SetOverlayFX, IAMOverlayFXSetOverlayFX, SetOverlayFX method [DirectShow], SetOverlayFX method [DirectShow], IAMOverlayFX interface, SetOverlayFX,IAMOverlayFX.SetOverlayFX, dshow.iamoverlayfx_setoverlayfx, strmif/IAMOverlayFX::SetOverlayFX
+ms.date: 4/30/2018
+ms.keywords: IAMOverlayFX interface [DirectShow],SetOverlayFX method, IAMOverlayFX.SetOverlayFX, IAMOverlayFX::SetOverlayFX, IAMOverlayFXSetOverlayFX, SetOverlayFX, SetOverlayFX method [DirectShow], SetOverlayFX method [DirectShow],IAMOverlayFX interface, dshow.iamoverlayfx_setoverlayfx, strmif/IAMOverlayFX::SetOverlayFX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMOverlayFX::SetOverlayFX method
+# IAMOverlayFX::SetOverlayFX
 
 
 ## -description

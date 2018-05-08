@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ProjectOntoItem
-title: ISyncKnowledge::ProjectOntoItem method
+title: ISyncKnowledge::ProjectOntoItem
 author: windows-driver-content
 description: Gets the knowledge for the specified item.
 old-location: winsync\isyncknowledge_projectontoitem.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 069fdc90-bea3-42e4-835c-b2a397d13b60
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncKnowledge, ISyncKnowledge interface [Windows Sync], ProjectOntoItem method, ISyncKnowledge::ProjectOntoItem, ProjectOntoItem method [Windows Sync], ProjectOntoItem method [Windows Sync], ISyncKnowledge interface, ProjectOntoItem,ISyncKnowledge.ProjectOntoItem, winsync.isyncknowledge_projectontoitem, winsync/ISyncKnowledge::ProjectOntoItem
+ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoItem method, ISyncKnowledge.ProjectOntoItem, ISyncKnowledge::ProjectOntoItem, ProjectOntoItem, ProjectOntoItem method [Windows Sync], ProjectOntoItem method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_projectontoitem, winsync/ISyncKnowledge::ProjectOntoItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::ProjectOntoItem method
+# ISyncKnowledge::ProjectOntoItem
 
 
 ## -description

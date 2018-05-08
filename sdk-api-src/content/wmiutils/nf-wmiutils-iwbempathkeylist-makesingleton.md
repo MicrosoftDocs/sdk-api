@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.MakeSingleton
-title: IWbemPathKeyList::MakeSingleton method
+title: IWbemPathKeyList::MakeSingleton
 author: windows-driver-content
 description: The IWbemPathKeyList::MakeSingleton method governs whether or not a key is singleton.
 old-location: wmi\iwbempathkeylist_makesingleton.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 6dd7fd31-126c-4702-8e43-3e6b08912b30
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], MakeSingleton method, IWbemPathKeyList::MakeSingleton, MakeSingleton method [Windows Management Instrumentation], MakeSingleton method [Windows Management Instrumentation], IWbemPathKeyList interface, MakeSingleton,IWbemPathKeyList.MakeSingleton, _hmm_iwbempathkeylist_makesingleton, wmi.iwbempathkeylist_makesingleton, wmiutils/IWbemPathKeyList::MakeSingleton
+ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],MakeSingleton method, IWbemPathKeyList.MakeSingleton, IWbemPathKeyList::MakeSingleton, MakeSingleton, MakeSingleton method [Windows Management Instrumentation], MakeSingleton method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_makesingleton, wmi.iwbempathkeylist_makesingleton, wmiutils/IWbemPathKeyList::MakeSingleton
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPathKeyList::MakeSingleton method
+# IWbemPathKeyList::MakeSingleton
 
 
 ## -description

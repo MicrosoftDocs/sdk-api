@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Tsid
-title: IFaxPort::put_Tsid method
+title: IFaxPort::put_Tsid
 author: windows-driver-content
 description: The Tsid property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax port.
 old-location: fax\_mfax_ifaxport_get_tsid_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6p0k.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxPort object [Fax Service], Tsid property, IFaxPort, IFaxPort::put_Tsid, Tsid property [Fax Service], Tsid property [Fax Service], FaxPort object, _mfax_ifaxport_get_tsid, fax._mfax_ifaxport_get_tsid, fax._mfax_ifaxport_get_tsid_vb, put_Tsid,IFaxPort.put_Tsid
+ms.keywords: FaxPort object [Fax Service],Tsid property, FaxPort.Tsid, IFaxPort.put_Tsid, IFaxPort::put_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],FaxPort object, _mfax_ifaxport_get_tsid, fax._mfax_ifaxport_get_tsid, fax._mfax_ifaxport_get_tsid_vb, put_Tsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxPort::put_Tsid method
+# IFaxPort::put_Tsid
 
 
 ## -description

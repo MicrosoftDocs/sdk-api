@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Author
-title: IRegistrationInfo::put_Author method
+title: IRegistrationInfo::put_Author
 author: windows-driver-content
 description: Gets or sets the author of the task.
 old-location: taskschd\iregistrationinfo_author.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 7a71924b-47d6-4aea-b384-09874f85976b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Author property [Task Scheduler], Author property [Task Scheduler], IRegistrationInfo interface, IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], Author property, IRegistrationInfo.Author, IRegistrationInfo::get_Author, IRegistrationInfo::put_Author, put_Author,IRegistrationInfo.put_Author, taskschd.iregistrationinfo_author, taskschd/IRegistrationInfo::Author, taskschd/IRegistrationInfo::get_Author, taskschd/IRegistrationInfo::put_Author
+ms.keywords: Author property [Task Scheduler], Author property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Author property, IRegistrationInfo.Author, IRegistrationInfo.put_Author, IRegistrationInfo::Author, IRegistrationInfo::get_Author, IRegistrationInfo::put_Author, put_Author, taskschd.iregistrationinfo_author, taskschd/IRegistrationInfo::Author, taskschd/IRegistrationInfo::get_Author, taskschd/IRegistrationInfo::put_Author
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegistrationInfo::put_Author method
+# IRegistrationInfo::put_Author
 
 
 ## -description

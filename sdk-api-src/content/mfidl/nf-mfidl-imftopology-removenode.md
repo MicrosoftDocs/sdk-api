@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTopology.RemoveNode
-title: IMFTopology::RemoveNode method
+title: IMFTopology::RemoveNode
 author: windows-driver-content
 description: Removes a node from the topology.
 old-location: mf\imftopology_removenode.htm
 old-project: medfound
 ms.assetid: 0dbafd3f-315b-4135-aecd-ad46f2c19886
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 0dbafd3f-315b-4135-aecd-ad46f2c19886, IMFTopology, IMFTopology interface [Media Foundation], RemoveNode method, IMFTopology::RemoveNode, RemoveNode method [Media Foundation], RemoveNode method [Media Foundation], IMFTopology interface, RemoveNode,IMFTopology.RemoveNode, mf.imftopology_removenode, mfidl/IMFTopology::RemoveNode
+ms.date: 5/3/2018
+ms.keywords: 0dbafd3f-315b-4135-aecd-ad46f2c19886, IMFTopology interface [Media Foundation],RemoveNode method, IMFTopology.RemoveNode, IMFTopology::RemoveNode, RemoveNode, RemoveNode method [Media Foundation], RemoveNode method [Media Foundation],IMFTopology interface, mf.imftopology_removenode, mfidl/IMFTopology::RemoveNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTopology::RemoveNode method
+# IMFTopology::RemoveNode
 
 
 ## -description

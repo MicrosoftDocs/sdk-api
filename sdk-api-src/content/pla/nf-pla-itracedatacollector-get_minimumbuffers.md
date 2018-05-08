@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_MinimumBuffers
-title: ITraceDataCollector::get_MinimumBuffers method
+title: ITraceDataCollector::get_MinimumBuffers
 author: windows-driver-content
 description: Retrieves or sets the minimum number of buffers allocated for the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_minimumbuffers.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 67b53e9a-c72c-4da5-835f-5623a02a14e1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], MinimumBuffers property, ITraceDataCollector.MinimumBuffers, ITraceDataCollector::get_MinimumBuffers, ITraceDataCollector::put_MinimumBuffers, MinimumBuffers property [PLA], MinimumBuffers property [PLA], ITraceDataCollector interface, base.itracedatacollector_minimumbuffers, get_MinimumBuffers,ITraceDataCollector.get_MinimumBuffers, pla.itracedatacollector_minimumbuffers, pla/ITraceDataCollector::MinimumBuffers, pla/ITraceDataCollector::get_MinimumBuffers, pla/ITraceDataCollector::put_MinimumBuffers
+ms.keywords: ITraceDataCollector interface [PLA],MinimumBuffers property, ITraceDataCollector.MinimumBuffers, ITraceDataCollector.get_MinimumBuffers, ITraceDataCollector::MinimumBuffers, ITraceDataCollector::get_MinimumBuffers, ITraceDataCollector::put_MinimumBuffers, MinimumBuffers property [PLA], MinimumBuffers property [PLA],ITraceDataCollector interface, base.itracedatacollector_minimumbuffers, get_MinimumBuffers, pla.itracedatacollector_minimumbuffers, pla/ITraceDataCollector::MinimumBuffers, pla/ITraceDataCollector::get_MinimumBuffers, pla/ITraceDataCollector::put_MinimumBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataCollector::get_MinimumBuffers method
+# ITraceDataCollector::get_MinimumBuffers
 
 
 ## -description

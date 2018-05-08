@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAsyncReader.SyncRead
-title: IAsyncReader::SyncRead method
+title: IAsyncReader::SyncRead
 author: windows-driver-content
 description: The SyncRead method performs a synchronous read. The method blocks until the request is completed. The file positions and the buffer address do not have to be aligned. If the request is not aligned, the method performs a buffered read operation.
 old-location: dshow\iasyncreader_syncread.htm
 old-project: DirectShow
 ms.assetid: 21806449-97b1-4890-9182-a1244c21ba30
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAsyncReader, IAsyncReader interface [DirectShow], SyncRead method, IAsyncReader::SyncRead, IAsyncReaderSyncRead, SyncRead method [DirectShow], SyncRead method [DirectShow], IAsyncReader interface, SyncRead,IAsyncReader.SyncRead, dshow.iasyncreader_syncread, strmif/IAsyncReader::SyncRead
+ms.date: 4/30/2018
+ms.keywords: IAsyncReader interface [DirectShow],SyncRead method, IAsyncReader.SyncRead, IAsyncReader::SyncRead, IAsyncReaderSyncRead, SyncRead, SyncRead method [DirectShow], SyncRead method [DirectShow],IAsyncReader interface, dshow.iasyncreader_syncread, strmif/IAsyncReader::SyncRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAsyncReader::SyncRead method
+# IAsyncReader::SyncRead
 
 
 ## -description

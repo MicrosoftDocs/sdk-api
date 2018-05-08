@@ -7,7 +7,7 @@ old-location: security\cmsg_key_agree_recipient_encode_info.htm
 old-project: SecCrypto
 ms.assetid: f8691df7-3cc1-48cb-8787-84c7046b280f
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE, CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure [Security], CMSG_KEY_AGREE_STATIC_KEY_CHOICE, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure pointer [Security], _CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, _crypto2_cmsg_key_agree_recipient_encode_info, security.cmsg_key_agree_recipient_encode_info, wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -140,6 +140,17 @@ This value is not currently used.
  
 
 
+### -field DUMMYUNIONNAME.pEphemeralAlgorithm
+
+A pointer to a 
+<a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the ephemeral public key algorithm and parameters. This member is used when the <b>dwKeyChoice</b> member contains <b>CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE</b>.
+
+
+### -field DUMMYUNIONNAME.pSenderId
+
+A pointer to a <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a> structure. This member is used when the <b>dwKeyChoice</b> member contains <b>CMSG_KEY_AGREE_STATIC_KEY_CHOICE</b>. This member is not currently used.
+
+
 ### -field UserKeyingMaterial
 
 A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that contains user keying material (UKM) provided by the sender to ensure that a different key is generated each time the same two parties generate a pair-wise key. This member is optional and all members should be set to zero if not used.
@@ -153,17 +164,6 @@ The number of elements in the <b>rgpRecipientEncryptedKeys</b> array.
 ### -field rgpRecipientEncryptedKeys
 
 An array of  <a href="https://msdn.microsoft.com/839ab3d8-0fdc-4d43-a12b-238091289ff5">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a> structures, one for each recipient to receive this key agreement key. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this structure.
-
-
-#### - pEphemeralAlgorithm
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the ephemeral public key algorithm and parameters. This member is used when the <b>dwKeyChoice</b> member contains <b>CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE</b>.
-
-
-#### - pSenderId
-
-A pointer to a <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a> structure. This member is used when the <b>dwKeyChoice</b> member contains <b>CMSG_KEY_AGREE_STATIC_KEY_CHOICE</b>. This member is not currently used.
 
 
 ## -see-also

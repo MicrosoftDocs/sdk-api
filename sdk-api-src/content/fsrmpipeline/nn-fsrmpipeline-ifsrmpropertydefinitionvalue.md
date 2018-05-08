@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 886f0f02-fe0e-4001-b6c2-e3d1d15d8e49
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPropertyDefinitionValue, IFsrmPropertyDefinitionValue interface [File Server Resource Manager], IFsrmPropertyDefinitionValue interface [File Server Resource Manager], described, fs.ifsrmpropertydefinitionvalue, fsrm.ifsrmpropertydefinitionvalue, fsrmpipeline/IFsrmPropertyDefinitionValue
+ms.keywords: IFsrmPropertyDefinitionValue, IFsrmPropertyDefinitionValue interface [File Server Resource Manager], IFsrmPropertyDefinitionValue interface [File Server Resource Manager],described, fs.ifsrmpropertydefinitionvalue, fsrm.ifsrmpropertydefinitionvalue, fsrmpipeline/IFsrmPropertyDefinitionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -7,7 +7,7 @@ old-location: rpc\rpc_endpoint_template.htm
 old-project: Rpc
 ms.assetid: F1C4A10B-D7DA-4A2A-B166-F814E6926ADD
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: "*PRPC_ENDPOINT_TEMPLATEW, PRPC_ENDPOINT_TEMPLATE, PRPC_ENDPOINT_TEMPLATE structure pointer [RPC], RPC_ENDPOINT_TEMPLATE, RPC_ENDPOINT_TEMPLATE structure [RPC], RPC_ENDPOINT_TEMPLATEA, RPC_ENDPOINT_TEMPLATEW, rpc.rpc_endpoint_template, rpcdce/PRPC_ENDPOINT_TEMPLATE, rpcdce/RPC_ENDPOINT_TEMPLATE, rpcdce/RPC_ENDPOINT_TEMPLATEA, rpcdce/RPC_ENDPOINT_TEMPLATEW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

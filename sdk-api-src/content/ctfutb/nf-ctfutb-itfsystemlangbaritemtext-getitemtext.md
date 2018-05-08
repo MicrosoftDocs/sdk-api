@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemText.GetItemText
-title: ITfSystemLangBarItemText::GetItemText method
+title: ITfSystemLangBarItemText::GetItemText
 author: windows-driver-content
 description: The ITfSystemLangBarItemText::GetItemText method obtains the text displayed for the system language bar menu.
 old-location: tsf\itfsystemlangbaritemtext_getitemtext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: eec4486e-c4fd-484f-bbd7-9f2ee974459b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetItemText method [Text Services Framework], GetItemText method [Text Services Framework], ITfSystemLangBarItemText interface, GetItemText,ITfSystemLangBarItemText.GetItemText, ITfSystemLangBarItemText, ITfSystemLangBarItemText interface [Text Services Framework], GetItemText method, ITfSystemLangBarItemText::GetItemText, ctfutb/ITfSystemLangBarItemText::GetItemText, tsf.itfsystemlangbaritemtext_getitemtext
+ms.keywords: GetItemText, GetItemText method [Text Services Framework], GetItemText method [Text Services Framework],ITfSystemLangBarItemText interface, ITfSystemLangBarItemText interface [Text Services Framework],GetItemText method, ITfSystemLangBarItemText.GetItemText, ITfSystemLangBarItemText::GetItemText, ctfutb/ITfSystemLangBarItemText::GetItemText, tsf.itfsystemlangbaritemtext_getitemtext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfSystemLangBarItemText::GetItemText method
+# ITfSystemLangBarItemText::GetItemText
 
 
 ## -description

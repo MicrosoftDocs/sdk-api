@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ServiceCheck
-title: ICOMAdminCatalog::ServiceCheck method
+title: ICOMAdminCatalog::ServiceCheck
 author: windows-driver-content
 description: Retrieves the current status of the specified COM+ service.
 old-location: cos\icomadmincatalog_servicecheck.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: d7d41691-30ab-450c-b93b-b7b02f408eb1
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: COMAdminServiceContinuePending, COMAdminServicePausePending, COMAdminServicePaused, COMAdminServiceRunning, COMAdminServiceStartPending, COMAdminServiceStopPending, COMAdminServiceStopped, COMAdminServiceUnknownState, ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ServiceCheck method, ICOMAdminCatalog::ServiceCheck, ServiceCheck method [COM+], ServiceCheck method [COM+], ICOMAdminCatalog interface, ServiceCheck,ICOMAdminCatalog.ServiceCheck, _cos_ICOMAdminCatalog_ServiceCheck, comadmin/ICOMAdminCatalog::ServiceCheck, cos.icomadmincatalog_servicecheck
+ms.keywords: COMAdminServiceContinuePending, COMAdminServicePausePending, COMAdminServicePaused, COMAdminServiceRunning, COMAdminServiceStartPending, COMAdminServiceStopPending, COMAdminServiceStopped, COMAdminServiceUnknownState, ICOMAdminCatalog interface [COM+],ServiceCheck method, ICOMAdminCatalog.ServiceCheck, ICOMAdminCatalog::ServiceCheck, ServiceCheck, ServiceCheck method [COM+], ServiceCheck method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ServiceCheck, comadmin/ICOMAdminCatalog::ServiceCheck, cos.icomadmincatalog_servicecheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::ServiceCheck method
+# ICOMAdminCatalog::ServiceCheck
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: controls\Animate_Stop.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_stop.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: Animate_Stop, Animate_Stop macro [Windows Controls], _win32_Animate_Stop, _win32_Animate_Stop_cpp, commctrl/Animate_Stop, controls.Animate_Stop, controls._win32_Animate_Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

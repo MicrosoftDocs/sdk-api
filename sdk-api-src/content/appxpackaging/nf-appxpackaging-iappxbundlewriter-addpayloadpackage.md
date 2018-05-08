@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter.AddPayloadPackage
-title: IAppxBundleWriter::AddPayloadPackage method
+title: IAppxBundleWriter::AddPayloadPackage
 author: windows-driver-content
 description: Adds a new app package to the bundle.
 old-location: appxpkg\iappxbundlewriter_addpayloadpackage.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 4772621D-2A8E-439B-8AD7-01A5BD31002B
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AddPayloadPackage method [App packaging and management], AddPayloadPackage method [App packaging and management], IAppxBundleWriter interface, AddPayloadPackage,IAppxBundleWriter.AddPayloadPackage, IAppxBundleWriter, IAppxBundleWriter interface [App packaging and management], AddPayloadPackage method, IAppxBundleWriter::AddPayloadPackage, appxpackaging/IAppxBundleWriter::AddPayloadPackage, appxpkg.iappxbundlewriter_addpayloadpackage
+ms.keywords: AddPayloadPackage, AddPayloadPackage method [App packaging and management], AddPayloadPackage method [App packaging and management],IAppxBundleWriter interface, IAppxBundleWriter interface [App packaging and management],AddPayloadPackage method, IAppxBundleWriter.AddPayloadPackage, IAppxBundleWriter::AddPayloadPackage, appxpackaging/IAppxBundleWriter::AddPayloadPackage, appxpkg.iappxbundlewriter_addpayloadpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleWriter::AddPayloadPackage method
+# IAppxBundleWriter::AddPayloadPackage
 
 
 ## -description

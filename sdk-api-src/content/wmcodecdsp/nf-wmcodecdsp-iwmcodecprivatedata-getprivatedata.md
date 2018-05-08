@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecPrivateData.GetPrivateData
-title: IWMCodecPrivateData::GetPrivateData method
+title: IWMCodecPrivateData::GetPrivateData
 author: windows-driver-content
 description: Retrieves the codec data for the video content based on the output type passed using the IWMCodecPrivateData::SetPartialOutputType method.
 old-location: mf\iwmcodecprivatedatagetprivatedata.htm
 old-project: medfound
 ms.assetid: 20e61bf6-f242-4f8e-84e6-f6158a0947bc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetPrivateData method [Media Foundation], GetPrivateData method [Media Foundation], IWMCodecPrivateData interface, GetPrivateData,IWMCodecPrivateData.GetPrivateData, IWMCodecPrivateData, IWMCodecPrivateData interface [Media Foundation], GetPrivateData method, IWMCodecPrivateData::GetPrivateData, codecapi.iwmcodecprivatedatagetprivatedata, mf.iwmcodecprivatedatagetprivatedata, wmcodecdsp/ IWMCodecPrivateData::GetPrivateData
+ms.date: 5/3/2018
+ms.keywords: GetPrivateData, GetPrivateData method [Media Foundation], GetPrivateData method [Media Foundation],IWMCodecPrivateData interface, IWMCodecPrivateData interface [Media Foundation],GetPrivateData method, IWMCodecPrivateData.GetPrivateData, IWMCodecPrivateData::GetPrivateData, codecapi.iwmcodecprivatedatagetprivatedata, mf.iwmcodecprivatedatagetprivatedata, wmcodecdsp/ IWMCodecPrivateData::GetPrivateData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecPrivateData::GetPrivateData method
+# IWMCodecPrivateData::GetPrivateData
 
 
 ## -description

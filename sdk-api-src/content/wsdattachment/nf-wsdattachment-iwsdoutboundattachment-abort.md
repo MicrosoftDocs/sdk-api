@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdattachment.IWSDOutboundAttachment.Abort
-title: IWSDOutboundAttachment::Abort method
+title: IWSDOutboundAttachment::Abort
 author: windows-driver-content
 description: Aborts the transfer of data on the attachment MIME data stream.
 old-location: ncd\iwsdoutboundattachment_abort.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: add0160c-bbf7-446e-8592-a05fd4d16fac
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Abort method, Abort method, IWSDOutboundAttachment interface, Abort,IWSDOutboundAttachment.Abort, IWSDOutboundAttachment, IWSDOutboundAttachment interface, Abort method, IWSDOutboundAttachment::Abort, ncd.iwsdoutboundattachment_abort, wsdattachment/IWSDOutboundAttachment::Abort
+ms.keywords: Abort, Abort method, Abort method,IWSDOutboundAttachment interface, IWSDOutboundAttachment interface,Abort method, IWSDOutboundAttachment.Abort, IWSDOutboundAttachment::Abort, ncd.iwsdoutboundattachment_abort, wsdattachment/IWSDOutboundAttachment::Abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDOutboundAttachment::Abort method
+# IWSDOutboundAttachment::Abort
 
 
 ## -description

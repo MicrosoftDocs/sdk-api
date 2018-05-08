@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.get_ApplicationData
-title: IAzRole::get_ApplicationData method
+title: IAzRole::get_ApplicationData
 author: windows-driver-content
 description: The ApplicationData property of IAzRole sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iazrole_applicationdata.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 6cb85528-35b4-4fed-98bb-6209dd0af0fd
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: ApplicationData property [Security], ApplicationData property [Security], AzRole object, ApplicationData property [Security], IAzRole interface, AzRole object [Security], ApplicationData property, IAzRole, IAzRole interface [Security], ApplicationData property, IAzRole.ApplicationData, IAzRole::get_ApplicationData, IAzRole::put_ApplicationData, azroles/IAzRole::ApplicationData, azroles/IAzRole::get_ApplicationData, azroles/IAzRole::put_ApplicationData, get_ApplicationData,IAzRole.get_ApplicationData, security.iazrole_applicationdata
+ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzRole object, ApplicationData property [Security],IAzRole interface, AzRole object [Security],ApplicationData property, IAzRole interface [Security],ApplicationData property, IAzRole.ApplicationData, IAzRole.get_ApplicationData, IAzRole::ApplicationData, IAzRole::get_ApplicationData, IAzRole::put_ApplicationData, azroles/IAzRole::ApplicationData, azroles/IAzRole::get_ApplicationData, azroles/IAzRole::put_ApplicationData, get_ApplicationData, security.iazrole_applicationdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzRole::get_ApplicationData method
+# IAzRole::get_ApplicationData
 
 
 ## -description

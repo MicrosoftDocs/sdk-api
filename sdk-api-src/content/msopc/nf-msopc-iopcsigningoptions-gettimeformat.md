@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetTimeFormat
-title: IOpcSigningOptions::GetTimeFormat method
+title: IOpcSigningOptions::GetTimeFormat
 author: windows-driver-content
 description: Gets the format of the string retrieved by the IOpcDigitalSignature::GetSigningTime method.
 old-location: opc\iopcsigningoptions_gettimeformat.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 69394df9-5382-49eb-9aa2-0785dee10ac4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetTimeFormat method [Open Packaging Conventions], GetTimeFormat method [Open Packaging Conventions], IOpcSigningOptions interface, GetTimeFormat,IOpcSigningOptions.GetTimeFormat, IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], GetTimeFormat method, IOpcSigningOptions::GetTimeFormat, msopc/IOpcSigningOptions::GetTimeFormat, opc.iopcsigningoptions_gettimeformat
+ms.keywords: GetTimeFormat, GetTimeFormat method [Open Packaging Conventions], GetTimeFormat method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetTimeFormat method, IOpcSigningOptions.GetTimeFormat, IOpcSigningOptions::GetTimeFormat, msopc/IOpcSigningOptions::GetTimeFormat, opc.iopcsigningoptions_gettimeformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSigningOptions::GetTimeFormat method
+# IOpcSigningOptions::GetTimeFormat
 
 
 ## -description

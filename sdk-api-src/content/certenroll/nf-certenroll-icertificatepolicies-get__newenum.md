@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.get__NewEnum
-title: ICertificatePolicies::get__NewEnum method
+title: ICertificatePolicies::get__NewEnum
 author: windows-driver-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icertificatepolicies__newenum_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 99ce5d45-c2ff-45be-8eb4-e1a57bbfa2fc
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertificatePolicies, ICertificatePolicies interface [Security], _NewEnum property, ICertificatePolicies._NewEnum, ICertificatePolicies::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], ICertificatePolicies interface, certenroll/ICertificatePolicies::_NewEnum, certenroll/ICertificatePolicies::get__NewEnum, get__NewEnum,ICertificatePolicies.get__NewEnum, security.icertificatepolicies__newenum_property
+ms.keywords: ICertificatePolicies interface [Security],_NewEnum property, ICertificatePolicies._NewEnum, ICertificatePolicies.get__NewEnum, ICertificatePolicies::_NewEnum, ICertificatePolicies::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::_NewEnum, certenroll/ICertificatePolicies::get__NewEnum, get__NewEnum, security.icertificatepolicies__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertificatePolicies::get__NewEnum method
+# ICertificatePolicies::get__NewEnum
 
 
 ## -description

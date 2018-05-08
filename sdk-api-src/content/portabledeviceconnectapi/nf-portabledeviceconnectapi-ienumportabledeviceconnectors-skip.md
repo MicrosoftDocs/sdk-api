@@ -1,14 +1,14 @@
 ---
 UID: NF:portabledeviceconnectapi.IEnumPortableDeviceConnectors.Skip
-title: IEnumPortableDeviceConnectors::Skip method
+title: IEnumPortableDeviceConnectors::Skip
 author: windows-driver-content
 description: Skips the specified number of devices in the enumeration sequence.
 old-location: wpdsdk\ienumportabledeviceconnectors_skip.htm
 old-project: wpd_sdk
 ms.assetid: 38b72b80-93f5-433e-977c-e3ee503daae5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IEnumPortableDeviceConnectors, IEnumPortableDeviceConnectors interface [Windows Portable Devices SDK], Skip method, IEnumPortableDeviceConnectors::Skip, Skip method [Windows Portable Devices SDK], Skip method [Windows Portable Devices SDK], IEnumPortableDeviceConnectors interface, Skip,IEnumPortableDeviceConnectors.Skip, devpkey/IEnumPortableDeviceConnectors::Skip, portabledeviceconnectapi/IEnumPortableDeviceConnectors::Skip, wpdsdk.ienumportabledeviceconnectors_skip
+ms.date: 4/11/2018
+ms.keywords: IEnumPortableDeviceConnectors interface [Windows Portable Devices SDK],Skip method, IEnumPortableDeviceConnectors.Skip, IEnumPortableDeviceConnectors::Skip, Skip, Skip method [Windows Portable Devices SDK], Skip method [Windows Portable Devices SDK],IEnumPortableDeviceConnectors interface, devpkey/IEnumPortableDeviceConnectors::Skip, portabledeviceconnectapi/IEnumPortableDeviceConnectors::Skip, wpdsdk.ienumportabledeviceconnectors_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WPD_WHITE_BALANCE_SETTINGS
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,10 +42,10 @@ targetos: Windows
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumPortableDeviceConnectors::Skip method
+# IEnumPortableDeviceConnectors::Skip
 
 
 ## -description

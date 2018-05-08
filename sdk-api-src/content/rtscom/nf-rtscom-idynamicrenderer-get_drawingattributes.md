@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_DrawingAttributes
-title: IDynamicRenderer::get_DrawingAttributes method
+title: IDynamicRenderer::get_DrawingAttributes
 author: windows-driver-content
 description: Gets or sets the DrawingAttributes object used by the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_drawingattributes.htm
 old-project: tablet
 ms.assetid: d67a85e7-6dfc-4444-bb69-a46e1234d021
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC], IDynamicRenderer interface, IDynamicRenderer, IDynamicRenderer interface [Tablet PC], DrawingAttributes property, IDynamicRenderer.DrawingAttributes, IDynamicRenderer.get_DrawingAttributes, IDynamicRenderer.put_DrawingAttributes, IDynamicRenderer::get_DrawingAttributes, IDynamicRenderer::put_DrawingAttributes, d67a85e7-6dfc-4444-bb69-a46e1234d021, get_DrawingAttributes,IDynamicRenderer.get_DrawingAttributes, rtscom/IDynamicRenderer::DrawingAttributes, rtscom/IDynamicRenderer::get_DrawingAttributes, rtscom/IDynamicRenderer::put_DrawingAttributes, tablet.idynamicrenderer_drawingattributes
+ms.date: 5/2/2018
+ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],DrawingAttributes property, IDynamicRenderer.DrawingAttributes, IDynamicRenderer.get_DrawingAttributes, IDynamicRenderer.put_DrawingAttributes, IDynamicRenderer::DrawingAttributes, IDynamicRenderer::get_DrawingAttributes, IDynamicRenderer::put_DrawingAttributes, d67a85e7-6dfc-4444-bb69-a46e1234d021, get_DrawingAttributes, rtscom/IDynamicRenderer::DrawingAttributes, rtscom/IDynamicRenderer::get_DrawingAttributes, rtscom/IDynamicRenderer::put_DrawingAttributes, tablet.idynamicrenderer_drawingattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDynamicRenderer::get_DrawingAttributes method
+# IDynamicRenderer::get_DrawingAttributes
 
 
 ## -description

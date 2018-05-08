@@ -222,11 +222,17 @@ Type: <b>BOOLEAN</b>
 A value that indicates if this IP address is unreachable.
 
 
+### -field Flags
+
+Type: <b>UCHAR</b>
+
+A set of flags that indicate whether the IP address is a router and whether the IP address is unreachable.
+
+
 ### -field ReachabilityTime
 
 
-
-#### LastReachable
+### -field ReachabilityTime.LastReachable
 
 <b>Type: <b>ULONG</b>
 </b>
@@ -236,8 +242,7 @@ The time, in
                      confirmation. 
 
 
-
-#### LastUnreachable
+### -field ReachabilityTime.LastUnreachable
 
 <b>Type: <b>ULONG</b>
 </b>
@@ -245,13 +250,6 @@ The time, in
                      milliseconds, that a node assumes a neighbor is
                      unreachable after not having received a reachability
                      confirmation. 
-
-
-#### - Flags
-
-Type: <b>UCHAR</b>
-
-A set of flags that indicate whether the IP address is a router and whether the IP address is unreachable.
 
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10Debug.SetFeatureMask
-title: ID3D10Debug::SetFeatureMask method
+title: ID3D10Debug::SetFeatureMask
 author: windows-driver-content
 description: Set a bitfield of flags that will turn debug features on and off.
 old-location: direct3d10\id3d10debug_setfeaturemask.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_setfeaturemask.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 663f3b21-bce6-d627-ee2d-e5e129eee88d, ID3D10Debug, ID3D10Debug interface [Direct3D 10], SetFeatureMask method, ID3D10Debug::SetFeatureMask, SetFeatureMask method [Direct3D 10], SetFeatureMask method [Direct3D 10], ID3D10Debug interface, SetFeatureMask,ID3D10Debug.SetFeatureMask, d3d10sdklayers/ID3D10Debug::SetFeatureMask, direct3d10.id3d10debug_setfeaturemask
+ms.keywords: 663f3b21-bce6-d627-ee2d-e5e129eee88d, ID3D10Debug interface [Direct3D 10],SetFeatureMask method, ID3D10Debug.SetFeatureMask, ID3D10Debug::SetFeatureMask, SetFeatureMask, SetFeatureMask method [Direct3D 10], SetFeatureMask method [Direct3D 10],ID3D10Debug interface, d3d10sdklayers/ID3D10Debug::SetFeatureMask, direct3d10.id3d10debug_setfeaturemask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Debug::SetFeatureMask method
+# ID3D10Debug::SetFeatureMask
 
 
 ## -description

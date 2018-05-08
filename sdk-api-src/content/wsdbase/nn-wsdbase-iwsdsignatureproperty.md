@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 10e95100-4890-4c00-b231-bb7125fed197
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDSignatureProperty, IWSDSignatureProperty interface, IWSDSignatureProperty interface, described, ncd.iwsdsignatureproperty, wsdbase/IWSDSignatureProperty
+ms.keywords: IWSDSignatureProperty, IWSDSignatureProperty interface, IWSDSignatureProperty interface,described, ncd.iwsdsignatureproperty, wsdbase/IWSDSignatureProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

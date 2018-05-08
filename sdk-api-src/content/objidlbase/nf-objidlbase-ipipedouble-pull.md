@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IPipeDouble.Pull
-title: IPipeDouble::Pull method
+title: IPipeDouble::Pull
 author: windows-driver-content
 description: Retrieves data of the double integer type from the pipe source.
 old-location: com\ipipedouble_pull.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 393e44fa-48fe-4a8d-b337-9b875129a502
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPipeDouble, IPipeDouble interface [COM], Pull method, IPipeDouble::Pull, Pull method [COM], Pull method [COM], IPipeDouble interface, Pull,IPipeDouble.Pull, _com_ipipedouble_pull, com.ipipedouble_pull, objidlbase/IPipeDouble::Pull
+ms.keywords: IPipeDouble interface [COM],Pull method, IPipeDouble.Pull, IPipeDouble::Pull, Pull, Pull method [COM], Pull method [COM],IPipeDouble interface, _com_ipipedouble_pull, com.ipipedouble_pull, objidlbase/IPipeDouble::Pull
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPipeDouble::Pull method
+# IPipeDouble::Pull
 
 
 ## -description

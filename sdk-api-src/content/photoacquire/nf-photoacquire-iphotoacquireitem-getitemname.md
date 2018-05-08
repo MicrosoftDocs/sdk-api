@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetItemName
-title: IPhotoAcquireItem::GetItemName method
+title: IPhotoAcquireItem::GetItemName
 author: windows-driver-content
 description: The GetItemName method retrieves the file name for an item.
 old-location: picacq\iphotoacquireitem_getitemname.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 10048853-424b-4761-8a80-b1f674f856f4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetItemName method [Picture Acquisition], GetItemName method [Picture Acquisition], IPhotoAcquireItem interface, GetItemName,IPhotoAcquireItem.GetItemName, IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], GetItemName method, IPhotoAcquireItem::GetItemName, IPhotoAcquireItemGetItemName, photoacquire/IPhotoAcquireItem::GetItemName, picacq.iphotoacquireitem_getitemname
+ms.keywords: GetItemName, GetItemName method [Picture Acquisition], GetItemName method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetItemName method, IPhotoAcquireItem.GetItemName, IPhotoAcquireItem::GetItemName, IPhotoAcquireItemGetItemName, photoacquire/IPhotoAcquireItem::GetItemName, picacq.iphotoacquireitem_getitemname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireItem::GetItemName method
+# IPhotoAcquireItem::GetItemName
 
 
 ## -description

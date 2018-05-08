@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusButtonUp
-title: IStylusPlugin::StylusButtonUp method
+title: IStylusPlugin::StylusButtonUp
 author: windows-driver-content
 description: Notifies the implementing plug-in that the user has released a stylus button.
 old-location: tablet\istylusplugin_stylusbuttonup.htm
 old-project: tablet
 ms.assetid: a56182f3-3e9a-4cc2-895d-54010cd00cb4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], StylusButtonUp method, IStylusPlugin::StylusButtonUp, StylusButtonUp method [Tablet PC], StylusButtonUp method [Tablet PC], IStylusPlugin interface, StylusButtonUp,IStylusPlugin.StylusButtonUp, a56182f3-3e9a-4cc2-895d-54010cd00cb4, rtscom/IStylusPlugin::StylusButtonUp, tablet.istylusplugin_stylusbuttonup
+ms.date: 5/2/2018
+ms.keywords: IStylusPlugin interface [Tablet PC],StylusButtonUp method, IStylusPlugin.StylusButtonUp, IStylusPlugin::StylusButtonUp, StylusButtonUp, StylusButtonUp method [Tablet PC], StylusButtonUp method [Tablet PC],IStylusPlugin interface, a56182f3-3e9a-4cc2-895d-54010cd00cb4, rtscom/IStylusPlugin::StylusButtonUp, tablet.istylusplugin_stylusbuttonup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStylusPlugin::StylusButtonUp method
+# IStylusPlugin::StylusButtonUp
 
 
 ## -description

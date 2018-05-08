@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetHyperlinkNavigateUri
-title: IXpsOMVisual::GetHyperlinkNavigateUri method
+title: IXpsOMVisual::GetHyperlinkNavigateUri
 author: windows-driver-content
 description: Gets a pointer to the IUri interface to which this visual object links.
 old-location: xps\ixpsomvisual_gethyperlinknavigateuri.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 297ddac1-8383-423a-8e47-7b4466e7e5d1
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetHyperlinkNavigateUri method [XPS Documents and Packaging], GetHyperlinkNavigateUri method [XPS Documents and Packaging], IXpsOMVisual interface, GetHyperlinkNavigateUri,IXpsOMVisual.GetHyperlinkNavigateUri, IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], GetHyperlinkNavigateUri method, IXpsOMVisual::GetHyperlinkNavigateUri, xps.ixpsomvisual_gethyperlinknavigateuri, xpsobjectmodel/IXpsOMVisual::GetHyperlinkNavigateUri
+ms.keywords: GetHyperlinkNavigateUri, GetHyperlinkNavigateUri method [XPS Documents and Packaging], GetHyperlinkNavigateUri method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetHyperlinkNavigateUri method, IXpsOMVisual.GetHyperlinkNavigateUri, IXpsOMVisual::GetHyperlinkNavigateUri, xps.ixpsomvisual_gethyperlinknavigateuri, xpsobjectmodel/IXpsOMVisual::GetHyperlinkNavigateUri
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::GetHyperlinkNavigateUri method
+# IXpsOMVisual::GetHyperlinkNavigateUri
 
 
 ## -description

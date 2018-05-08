@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPlugin.SetTaskQueue
-title: ITsSbTaskPlugin::SetTaskQueue method
+title: ITsSbTaskPlugin::SetTaskQueue
 author: windows-driver-content
 description: Updates a task in the queue of a Remote Desktop Connection Broker plugin.
 old-location: termserv\itssbtaskplugin_settaskqueue.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: a17e4767-5311-4f9b-9d05-cd9e35f7c5e2
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbTaskPlugin, ITsSbTaskPlugin interface [Remote Desktop Services], SetTaskQueue method, ITsSbTaskPlugin::SetTaskQueue, SetTaskQueue method [Remote Desktop Services], SetTaskQueue method [Remote Desktop Services], ITsSbTaskPlugin interface, SetTaskQueue,ITsSbTaskPlugin.SetTaskQueue, sbtsv/ITsSbTaskPlugin::SetTaskQueue, termserv.itssbtaskplugin_settaskqueue
+ms.keywords: ITsSbTaskPlugin interface [Remote Desktop Services],SetTaskQueue method, ITsSbTaskPlugin.SetTaskQueue, ITsSbTaskPlugin::SetTaskQueue, SetTaskQueue, SetTaskQueue method [Remote Desktop Services], SetTaskQueue method [Remote Desktop Services],ITsSbTaskPlugin interface, sbtsv/ITsSbTaskPlugin::SetTaskQueue, termserv.itssbtaskplugin_settaskqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbTaskPlugin::SetTaskQueue method
+# ITsSbTaskPlugin::SetTaskQueue
 
 
 ## -description

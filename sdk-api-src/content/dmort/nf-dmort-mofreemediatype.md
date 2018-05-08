@@ -7,7 +7,7 @@ old-location: dshow\mofreemediatype.htm
 old-project: DirectShow
 ms.assetid: a1f0949d-a590-4759-87b5-f47307bc3ec0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: MoFreeMediaType, MoFreeMediaType function [DirectShow], dmort/MoFreeMediaType, dshow.mofreemediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices

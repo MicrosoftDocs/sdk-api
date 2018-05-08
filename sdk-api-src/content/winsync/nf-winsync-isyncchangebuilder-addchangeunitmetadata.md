@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBuilder.AddChangeUnitMetadata
-title: ISyncChangeBuilder::AddChangeUnitMetadata method
+title: ISyncChangeBuilder::AddChangeUnitMetadata
 author: windows-driver-content
 description: Adds change unit metadata to an item change.
 old-location: winsync\isyncchangebuilder_addchangeunitmetadata.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 218e0f9d-9471-4b21-a424-b1298da2fb23
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: AddChangeUnitMetadata method [Windows Sync], AddChangeUnitMetadata method [Windows Sync], ISyncChangeBuilder interface, AddChangeUnitMetadata,ISyncChangeBuilder.AddChangeUnitMetadata, ISyncChangeBuilder, ISyncChangeBuilder interface [Windows Sync], AddChangeUnitMetadata method, ISyncChangeBuilder::AddChangeUnitMetadata, winsync.isyncchangebuilder_addchangeunitmetadata, winsync/ISyncChangeBuilder::AddChangeUnitMetadata
+ms.keywords: AddChangeUnitMetadata, AddChangeUnitMetadata method [Windows Sync], AddChangeUnitMetadata method [Windows Sync],ISyncChangeBuilder interface, ISyncChangeBuilder interface [Windows Sync],AddChangeUnitMetadata method, ISyncChangeBuilder.AddChangeUnitMetadata, ISyncChangeBuilder::AddChangeUnitMetadata, winsync.isyncchangebuilder_addchangeunitmetadata, winsync/ISyncChangeBuilder::AddChangeUnitMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBuilder::AddChangeUnitMetadata method
+# ISyncChangeBuilder::AddChangeUnitMetadata
 
 
 ## -description

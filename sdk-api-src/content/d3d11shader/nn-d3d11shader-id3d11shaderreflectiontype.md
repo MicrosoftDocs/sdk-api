@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 04520be2-2491-4f10-988a-e203659efddf
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 369c707d-0441-c514-603f-48f54b69b778, ID3D11ShaderReflectionType, ID3D11ShaderReflectionType interface [Direct3D 11], ID3D11ShaderReflectionType interface [Direct3D 11], described, d3d11shader/ID3D11ShaderReflectionType, direct3d11.id3d11shaderreflectiontype
+ms.keywords: 369c707d-0441-c514-603f-48f54b69b778, ID3D11ShaderReflectionType, ID3D11ShaderReflectionType interface [Direct3D 11], ID3D11ShaderReflectionType interface [Direct3D 11],described, d3d11shader/ID3D11ShaderReflectionType, direct3d11.id3d11shaderreflectiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITTerminalControl.CompleteConnectTerminal
-title: ITTerminalControl::CompleteConnectTerminal method
+title: ITTerminalControl::CompleteConnectTerminal
 author: windows-driver-content
 description: The CompleteConnectTerminal method completes the terminal connection.
 old-location: tapi3\itterminalcontrol_completeconnectterminal.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 1f40b0c1-2c5e-4520-9406-6bebb3da65d0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CompleteConnectTerminal method [TAPI 2.2], CompleteConnectTerminal method [TAPI 2.2], ITTerminalControl interface, CompleteConnectTerminal,ITTerminalControl.CompleteConnectTerminal, ITTerminalControl, ITTerminalControl interface [TAPI 2.2], CompleteConnectTerminal method, ITTerminalControl::CompleteConnectTerminal, _tapi3_itterminalcontrol_completeconnectterminal, tapi3.itterminalcontrol_completeconnectterminal, termmgr/ITTerminalControl::CompleteConnectTerminal
+ms.keywords: CompleteConnectTerminal, CompleteConnectTerminal method [TAPI 2.2], CompleteConnectTerminal method [TAPI 2.2],ITTerminalControl interface, ITTerminalControl interface [TAPI 2.2],CompleteConnectTerminal method, ITTerminalControl.CompleteConnectTerminal, ITTerminalControl::CompleteConnectTerminal, _tapi3_itterminalcontrol_completeconnectterminal, tapi3.itterminalcontrol_completeconnectterminal, termmgr/ITTerminalControl::CompleteConnectTerminal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITTerminalControl::CompleteConnectTerminal method
+# ITTerminalControl::CompleteConnectTerminal
 
 
 ## -description

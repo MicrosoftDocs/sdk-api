@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.NavigateError
-title: IWebApplicationNavigationEvents::NavigateError method
+title: IWebApplicationNavigationEvents::NavigateError
 author: windows-driver-content
 description: Fired when a binding error occurs (window or frameset element).
 old-location: debug\iwebapplicationnavigationevents_navigateerror.htm
@@ -8,7 +8,7 @@ old-project: debug_wwahost
 ms.assetid: 1c6e34e8-e14f-4b6c-ad83-140a7141cf64
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWebApplicationNavigationEvents, IWebApplicationNavigationEvents interface [Debugging Windows Store apps], NavigateError method, IWebApplicationNavigationEvents::NavigateError, NavigateError method [Debugging Windows Store apps], NavigateError method [Debugging Windows Store apps], IWebApplicationNavigationEvents interface, NavigateError,IWebApplicationNavigationEvents.NavigateError, debug.iwebapplicationnavigationevents_navigateerror, webapplication/IWebApplicationNavigationEvents::NavigateError
+ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store apps],NavigateError method, IWebApplicationNavigationEvents.NavigateError, IWebApplicationNavigationEvents::NavigateError, NavigateError, NavigateError method [Debugging Windows Store apps], NavigateError method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, debug.iwebapplicationnavigationevents_navigateerror, webapplication/IWebApplicationNavigationEvents::NavigateError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWebApplicationNavigationEvents::NavigateError method
+# IWebApplicationNavigationEvents::NavigateError
 
 
 ## -description

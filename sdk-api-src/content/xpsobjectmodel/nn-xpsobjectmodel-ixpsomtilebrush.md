@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: fc9e1925-0dbc-447b-9acc-e7f719df62d1
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], IXpsOMTileBrush interface [XPS Documents and Packaging], described, xps.ixpsomtilebrush, xpsobjectmodel/IXpsOMTileBrush
+ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], IXpsOMTileBrush interface [XPS Documents and Packaging],described, xps.ixpsomtilebrush, xpsobjectmodel/IXpsOMTileBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

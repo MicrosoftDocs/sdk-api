@@ -1,14 +1,14 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.GetOsProductContentId
-title: IEditionUpgradeHelper::GetOsProductContentId method
+title: IEditionUpgradeHelper::GetOsProductContentId
 author: windows-driver-content
 description: Retrieves the content identifier that corresponds to the current installation of the operating system. The content identifier is used to look up the operating system product in the store catalog.
 old-location: winprog\ieditionupgradehelper_getosproductcontentid.htm
 old-project: DevNotes
 ms.assetid: 79EEDFF2-FDF9-4BC9-968A-3543892AE870
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: GetOsProductContentId method [Windows API], GetOsProductContentId method [Windows API], IEditionUpgradeHelper interface, GetOsProductContentId,IEditionUpgradeHelper.GetOsProductContentId, IEditionUpgradeHelper, IEditionUpgradeHelper interface [Windows API], GetOsProductContentId method, IEditionUpgradeHelper::GetOsProductContentId, editionupgradehelper/IEditionUpgradeHelper::GetOsProductContentId, winprog.ieditionupgradehelper_getosproductcontentid
+ms.date: 5/4/2018
+ms.keywords: GetOsProductContentId, GetOsProductContentId method [Windows API], GetOsProductContentId method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],GetOsProductContentId method, IEditionUpgradeHelper.GetOsProductContentId, IEditionUpgradeHelper::GetOsProductContentId, editionupgradehelper/IEditionUpgradeHelper::GetOsProductContentId, winprog.ieditionupgradehelper_getosproductcontentid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEditionUpgradeHelper::GetOsProductContentId method
+# IEditionUpgradeHelper::GetOsProductContentId
 
 
 ## -description

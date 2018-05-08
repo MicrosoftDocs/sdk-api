@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystem2.GetDrive2
-title: IVdsSubSystem2::GetDrive2 method
+title: IVdsSubSystem2::GetDrive2
 author: windows-driver-content
 description: Returns the specified drive. This method is identical to the IVdsSubSystem::GetDrive method, except that it includes the enclosure number as a parameter.
 old-location: base\ivdssubsystem2_getdrive2.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 5646da50-5ebd-44d8-b2e1-b3e96b9a6d3c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDrive2 method, GetDrive2 method, IVdsSubSystem2 interface, GetDrive2,IVdsSubSystem2.GetDrive2, IVdsSubSystem2, IVdsSubSystem2 interface, GetDrive2 method, IVdsSubSystem2::GetDrive2, base.ivdssubsystem2_getdrive2, vds/IVdsSubSystem2::GetDrive2, vdshwprv/IVdsSubSystem2::GetDrive2
+ms.keywords: GetDrive2, GetDrive2 method, GetDrive2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,GetDrive2 method, IVdsSubSystem2.GetDrive2, IVdsSubSystem2::GetDrive2, base.ivdssubsystem2_getdrive2, vds/IVdsSubSystem2::GetDrive2, vdshwprv/IVdsSubSystem2::GetDrive2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsSubSystem2::GetDrive2 method
+# IVdsSubSystem2::GetDrive2
 
 
 ## -description

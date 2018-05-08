@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.GetGlobalId
-title: IPart::GetGlobalId method
+title: IPart::GetGlobalId
 author: windows-driver-content
 description: The GetGlobalId method gets the global ID of this part.
 old-location: coreaudio\ipart_getglobalid.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 07825373-3ab2-42d3-8c4b-4eaf2c45eb95
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetGlobalId method [Core Audio], GetGlobalId method [Core Audio], IPart interface, GetGlobalId,IPart.GetGlobalId, IPart, IPart interface [Core Audio], GetGlobalId method, IPart::GetGlobalId, IPartGetGlobalId, coreaudio.ipart_getglobalid, devicetopology/IPart::GetGlobalId
+ms.keywords: GetGlobalId, GetGlobalId method [Core Audio], GetGlobalId method [Core Audio],IPart interface, IPart interface [Core Audio],GetGlobalId method, IPart.GetGlobalId, IPart::GetGlobalId, IPartGetGlobalId, coreaudio.ipart_getglobalid, devicetopology/IPart::GetGlobalId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPart::GetGlobalId method
+# IPart::GetGlobalId
 
 
 ## -description

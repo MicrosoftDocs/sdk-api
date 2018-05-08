@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c96f91d4-fc6c-4422-8fc9-ea5fed10bd80
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVMR9, IMSVidVMR9 interface [Microsoft TV Technologies], IMSVidVMR9 interface [Microsoft TV Technologies], described, IMSVidVMR9Interface, mstv.imsvidvmr9, segment/IMSVidVMR9
+ms.keywords: IMSVidVMR9, IMSVidVMR9 interface [Microsoft TV Technologies], IMSVidVMR9 interface [Microsoft TV Technologies],described, IMSVidVMR9Interface, mstv.imsvidvmr9, segment/IMSVidVMR9
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

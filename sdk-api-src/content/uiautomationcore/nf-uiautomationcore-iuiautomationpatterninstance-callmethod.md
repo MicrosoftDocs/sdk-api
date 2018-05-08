@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationPatternInstance.CallMethod
-title: IUIAutomationPatternInstance::CallMethod method
+title: IUIAutomationPatternInstance::CallMethod
 author: windows-driver-content
 description: Client wrapper implements methods by calling this CallMethod function, specifying the parameters as an array of pointers.
 old-location: winauto\uiauto_IUIAutomationPatternInstance_CallMethod.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: a3c1aa20-c512-4752-8da6-c8e86bd56beb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CallMethod method [Windows Accessibility], CallMethod method [Windows Accessibility], IUIAutomationPatternInstance interface, CallMethod,IUIAutomationPatternInstance.CallMethod, IUIAutomationPatternInstance, IUIAutomationPatternInstance interface [Windows Accessibility], CallMethod method, IUIAutomationPatternInstance::CallMethod, uiauto.uiauto_IUIAutomationPatternInstance_CallMethod, uiauto_IUIAutomationPatternInstance_CallMethod, uiautomationcore/IUIAutomationPatternInstance::CallMethod, winauto.uiauto_IUIAutomationPatternInstance_CallMethod
+ms.keywords: CallMethod, CallMethod method [Windows Accessibility], CallMethod method [Windows Accessibility],IUIAutomationPatternInstance interface, IUIAutomationPatternInstance interface [Windows Accessibility],CallMethod method, IUIAutomationPatternInstance.CallMethod, IUIAutomationPatternInstance::CallMethod, uiauto.uiauto_IUIAutomationPatternInstance_CallMethod, uiauto_IUIAutomationPatternInstance_CallMethod, uiautomationcore/IUIAutomationPatternInstance::CallMethod, winauto.uiauto_IUIAutomationPatternInstance_CallMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationPatternInstance::CallMethod method
+# IUIAutomationPatternInstance::CallMethod
 
 
 ## -description

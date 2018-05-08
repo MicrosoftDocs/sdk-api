@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.SetPreferredClsid
-title: IMFPluginControl::SetPreferredClsid method
+title: IMFPluginControl::SetPreferredClsid
 author: windows-driver-content
 description: Adds a class identifier (CLSID) to the preferred list or removes a CLSID from the list.
 old-location: mf\imfplugincontrol_imfplugincontrol__setpreferredclsid.htm
 old-project: medfound
 ms.assetid: c2362150-bb99-43d4-a6e6-7dc240e9826e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPluginControl, IMFPluginControl interface [Media Foundation], SetPreferredClsid method, IMFPluginControl::SetPreferredClsid, SetPreferredClsid method [Media Foundation], SetPreferredClsid method [Media Foundation], IMFPluginControl interface, SetPreferredClsid,IMFPluginControl.SetPreferredClsid, mf.imfplugincontrol_imfplugincontrol__setpreferredclsid, mfobjects/IMFPluginControl::SetPreferredClsid
+ms.date: 5/3/2018
+ms.keywords: IMFPluginControl interface [Media Foundation],SetPreferredClsid method, IMFPluginControl.SetPreferredClsid, IMFPluginControl::SetPreferredClsid, SetPreferredClsid, SetPreferredClsid method [Media Foundation], SetPreferredClsid method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__setpreferredclsid, mfobjects/IMFPluginControl::SetPreferredClsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPluginControl::SetPreferredClsid method
+# IMFPluginControl::SetPreferredClsid
 
 
 ## -description

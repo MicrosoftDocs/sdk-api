@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwProduct.get_DisplayName
-title: INetFwProduct::get_DisplayName method
+title: INetFwProduct::get_DisplayName
 author: windows-driver-content
 description: Indicates the display name for a third-party firewall product registration.
 old-location: ics\inetfwproduct_displayname.htm
 old-project: ICS
 ms.assetid: 9750a57c-d59c-4cc9-b31e-7d532d19f9fe
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: DisplayName property [ICS/ICF], DisplayName property [ICS/ICF], INetFwProduct interface, INetFwProduct, INetFwProduct interface [ICS/ICF], DisplayName property, INetFwProduct.DisplayName, INetFwProduct::get_DisplayName, INetFwProduct::put_DisplayName, get_DisplayName,INetFwProduct.get_DisplayName, ics.inetfwproduct_displayname, netfw/INetFwProduct::DisplayName, netfw/INetFwProduct::get_DisplayName, netfw/INetFwProduct::put_DisplayName
+ms.date: 5/1/2018
+ms.keywords: DisplayName property [ICS/ICF], DisplayName property [ICS/ICF],INetFwProduct interface, INetFwProduct interface [ICS/ICF],DisplayName property, INetFwProduct.DisplayName, INetFwProduct.get_DisplayName, INetFwProduct::DisplayName, INetFwProduct::get_DisplayName, INetFwProduct::put_DisplayName, get_DisplayName, ics.inetfwproduct_displayname, netfw/INetFwProduct::DisplayName, netfw/INetFwProduct::get_DisplayName, netfw/INetFwProduct::put_DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwProduct::get_DisplayName method
+# INetFwProduct::get_DisplayName
 
 
 ## -description

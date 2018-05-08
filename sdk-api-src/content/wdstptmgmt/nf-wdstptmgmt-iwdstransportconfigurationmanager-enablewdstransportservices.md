@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.EnableWdsTransportServices
-title: IWdsTransportConfigurationManager::EnableWdsTransportServices method
+title: IWdsTransportConfigurationManager::EnableWdsTransportServices
 author: windows-driver-content
 description: Sets all WDS transport services to Auto-Start mode.
 old-location: wds\iwdstransportconfigurationmanager_enablewdstransportservices.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 30f4ff61-8e92-4d1b-8243-e5cc9d64da40
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EnableWdsTransportServices method [Windows Deployment Services], EnableWdsTransportServices method [Windows Deployment Services], IWdsTransportConfigurationManager interface, EnableWdsTransportServices,IWdsTransportConfigurationManager.EnableWdsTransportServices, IWdsTransportConfigurationManager, IWdsTransportConfigurationManager interface [Windows Deployment Services], EnableWdsTransportServices method, IWdsTransportConfigurationManager::EnableWdsTransportServices, wds.iwdstransportconfigurationmanager_enablewdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::EnableWdsTransportServices
+ms.keywords: EnableWdsTransportServices, EnableWdsTransportServices method [Windows Deployment Services], EnableWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, IWdsTransportConfigurationManager interface [Windows Deployment Services],EnableWdsTransportServices method, IWdsTransportConfigurationManager.EnableWdsTransportServices, IWdsTransportConfigurationManager::EnableWdsTransportServices, wds.iwdstransportconfigurationmanager_enablewdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::EnableWdsTransportServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportConfigurationManager::EnableWdsTransportServices method
+# IWdsTransportConfigurationManager::EnableWdsTransportServices
 
 
 ## -description

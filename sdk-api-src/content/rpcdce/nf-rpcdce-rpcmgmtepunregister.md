@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtepunregister.htm
 old-project: Rpc
 ms.assetid: b825a79d-7f9e-45f1-88d0-a3b733a7df78
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcMgmtEpUnregister, RpcMgmtEpUnregister function [RPC], _rpc_rpcmgmtepunregister, rpc.rpcmgmtepunregister, rpcdce/RpcMgmtEpUnregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

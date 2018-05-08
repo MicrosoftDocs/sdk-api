@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITcpConnectionInfo.get_LocalIP
-title: IRDPSRAPITcpConnectionInfo::get_LocalIP method
+title: IRDPSRAPITcpConnectionInfo::get_LocalIP
 author: windows-driver-content
 description: Retrieves the local IP address that is being used by the sharer or by the viewer for communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_localip.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 70e9964f-8333-4054-bffc-9ecf0af08691
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITcpConnectionInfo, IRDPSRAPITcpConnectionInfo interface [RDP], LocalIP property, IRDPSRAPITcpConnectionInfo.LocalIP, IRDPSRAPITcpConnectionInfo::get_LocalIP, LocalIP property [RDP], LocalIP property [RDP], IRDPSRAPITcpConnectionInfo interface, LocalIP property [RDP], RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP], LocalIP property, get_LocalIP,IRDPSRAPITcpConnectionInfo.get_LocalIP, rdp.irdpsrapitcpconnectioninfo_localip, rdpencomapi/IRDPSRAPITcpConnectionInfo::LocalIP, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_LocalIP
+ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],LocalIP property, IRDPSRAPITcpConnectionInfo.LocalIP, IRDPSRAPITcpConnectionInfo.get_LocalIP, IRDPSRAPITcpConnectionInfo::LocalIP, IRDPSRAPITcpConnectionInfo::get_LocalIP, LocalIP property [RDP], LocalIP property [RDP],IRDPSRAPITcpConnectionInfo interface, LocalIP property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],LocalIP property, get_LocalIP, rdp.irdpsrapitcpconnectioninfo_localip, rdpencomapi/IRDPSRAPITcpConnectionInfo::LocalIP, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_LocalIP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITcpConnectionInfo::get_LocalIP method
+# IRDPSRAPITcpConnectionInfo::get_LocalIP
 
 
 ## -description

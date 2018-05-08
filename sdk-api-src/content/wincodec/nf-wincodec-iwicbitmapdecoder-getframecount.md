@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetFrameCount
-title: IWICBitmapDecoder::GetFrameCount method
+title: IWICBitmapDecoder::GetFrameCount
 author: windows-driver-content
 description: Retrieves the total number of frames in the image.
 old-location: wic\_wic_codec_iwicbitmapdecoder_getframecount.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 16eb613d-f649-436d-a121-e6468cd2581a
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetFrameCount method [Windows Imaging Component], GetFrameCount method [Windows Imaging Component], IWICBitmapDecoder interface, GetFrameCount,IWICBitmapDecoder.GetFrameCount, IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], GetFrameCount method, IWICBitmapDecoder::GetFrameCount, _wic_codec_iwicbitmapdecoder_getframecount, wic._wic_codec_iwicbitmapdecoder_getframecount, wincodec/IWICBitmapDecoder::GetFrameCount
+ms.keywords: GetFrameCount, GetFrameCount method [Windows Imaging Component], GetFrameCount method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetFrameCount method, IWICBitmapDecoder.GetFrameCount, IWICBitmapDecoder::GetFrameCount, _wic_codec_iwicbitmapdecoder_getframecount, wic._wic_codec_iwicbitmapdecoder_getframecount, wincodec/IWICBitmapDecoder::GetFrameCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapDecoder::GetFrameCount method
+# IWICBitmapDecoder::GetFrameCount
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImageEncoder.WriteThumbnail
-title: IWICImageEncoder::WriteThumbnail method
+title: IWICImageEncoder::WriteThumbnail
 author: windows-driver-content
 description: Encodes the given image as the thumbnail to the given WIC bitmap encoder.
 old-location: wic\iwicimageencoder_writethumbnail.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 322AD13D-E755-45BD-A31D-D603DBD7FA81
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICImageEncoder, IWICImageEncoder interface [Windows Imaging Component], WriteThumbnail method, IWICImageEncoder::WriteThumbnail, WriteThumbnail method [Windows Imaging Component], WriteThumbnail method [Windows Imaging Component], IWICImageEncoder interface, WriteThumbnail,IWICImageEncoder.WriteThumbnail, wic.iwicimageencoder_writethumbnail, wincodec/IWICImageEncoder::WriteThumbnail
+ms.keywords: IWICImageEncoder interface [Windows Imaging Component],WriteThumbnail method, IWICImageEncoder.WriteThumbnail, IWICImageEncoder::WriteThumbnail, WriteThumbnail, WriteThumbnail method [Windows Imaging Component], WriteThumbnail method [Windows Imaging Component],IWICImageEncoder interface, wic.iwicimageencoder_writethumbnail, wincodec/IWICImageEncoder::WriteThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICImageEncoder::WriteThumbnail method
+# IWICImageEncoder::WriteThumbnail
 
 
 ## -description

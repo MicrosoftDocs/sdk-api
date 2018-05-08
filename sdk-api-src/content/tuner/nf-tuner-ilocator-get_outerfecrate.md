@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.get_OuterFECRate
-title: ILocator::get_OuterFECRate method
+title: ILocator::get_OuterFECRate
 author: windows-driver-content
 description: The get_OuterFECRate method gets the outer FEC rate.
 old-location: mstv\ilocator_get_outerfecrate.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 550103a8-dcf9-4a52-817a-61a589de4299
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDigitalLocatorget_OuterFECRate, ILocator, ILocator interface [Microsoft TV Technologies], get_OuterFECRate method, ILocator::get_OuterFECRate, get_OuterFECRate method [Microsoft TV Technologies], get_OuterFECRate method [Microsoft TV Technologies], ILocator interface, get_OuterFECRate,ILocator.get_OuterFECRate, mstv.ilocator_get_outerfecrate, tuner/ILocator::get_OuterFECRate
+ms.keywords: IDigitalLocatorget_OuterFECRate, ILocator interface [Microsoft TV Technologies],get_OuterFECRate method, ILocator.get_OuterFECRate, ILocator::get_OuterFECRate, get_OuterFECRate, get_OuterFECRate method [Microsoft TV Technologies], get_OuterFECRate method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_outerfecrate, tuner/ILocator::get_OuterFECRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILocator::get_OuterFECRate method
+# ILocator::get_OuterFECRate
 
 
 ## -description

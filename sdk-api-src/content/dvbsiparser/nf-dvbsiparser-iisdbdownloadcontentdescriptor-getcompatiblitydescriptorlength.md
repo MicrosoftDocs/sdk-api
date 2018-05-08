@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength
-title: IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength method
+title: IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength
 author: windows-driver-content
 description: Gets the length of the compatibility descriptor from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_getcompatiblitydescriptorlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b8fc770c-aa37-4f97-beb5-6e5747904a6c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCompatiblityDescriptorLength method [Microsoft TV Technologies], GetCompatiblityDescriptorLength method [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface, GetCompatiblityDescriptorLength,IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength, IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], GetCompatiblityDescriptorLength method, IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength, dvbsiparser/IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength, mstv.iisdbdownloadcontentdescriptor_getcompatiblitydescriptorlength
+ms.keywords: GetCompatiblityDescriptorLength, GetCompatiblityDescriptorLength method [Microsoft TV Technologies], GetCompatiblityDescriptorLength method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetCompatiblityDescriptorLength method, IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength, IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength, dvbsiparser/IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength, mstv.iisdbdownloadcontentdescriptor_getcompatiblitydescriptorlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength method
+# IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength
 
 
 ## -description

@@ -1,0 +1,6 @@
+# [System Event Notification Service](../_sens/index.md)
+## [Sensapi.h](index.md)
+### [IsDestinationReachableA function](../sensapi/nf-sensapi-isdestinationreachablea.md)
+### [IsDestinationReachableW function](../sensapi/nf-sensapi-isdestinationreachablew.md)
+### [IsNetworkAlive function](../sensapi/nf-sensapi-isnetworkalive.md)
+### [tagQOCINFO structure](../sensapi/ns-sensapi-tagqocinfo.md)

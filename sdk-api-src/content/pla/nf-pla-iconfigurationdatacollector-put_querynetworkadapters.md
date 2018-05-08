@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.put_QueryNetworkAdapters
-title: IConfigurationDataCollector::put_QueryNetworkAdapters method
+title: IConfigurationDataCollector::put_QueryNetworkAdapters
 author: windows-driver-content
 description: Retrieves or sets a value that indicates whether the installed network adapters are queried for their offloading capabilities and other configuration information.
 old-location: pla\iconfigurationdatacollector_querynetworkadapters.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 42ec786f-abfc-4331-9e75-ce894a2a5110
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IConfigurationDataCollector, IConfigurationDataCollector interface [PLA], QueryNetworkAdapters property, IConfigurationDataCollector.QueryNetworkAdapters, IConfigurationDataCollector::get_QueryNetworkAdapters, IConfigurationDataCollector::put_QueryNetworkAdapters, QueryNetworkAdapters property [PLA], QueryNetworkAdapters property [PLA], IConfigurationDataCollector interface, base.iconfigurationdatacollector_querynetworkadapters, pla.iconfigurationdatacollector_querynetworkadapters, pla/IConfigurationDataCollector::QueryNetworkAdapters, pla/IConfigurationDataCollector::get_QueryNetworkAdapters, pla/IConfigurationDataCollector::put_QueryNetworkAdapters, put_QueryNetworkAdapters,IConfigurationDataCollector.put_QueryNetworkAdapters
+ms.keywords: IConfigurationDataCollector interface [PLA],QueryNetworkAdapters property, IConfigurationDataCollector.QueryNetworkAdapters, IConfigurationDataCollector.put_QueryNetworkAdapters, IConfigurationDataCollector::QueryNetworkAdapters, IConfigurationDataCollector::get_QueryNetworkAdapters, IConfigurationDataCollector::put_QueryNetworkAdapters, QueryNetworkAdapters property [PLA], QueryNetworkAdapters property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_querynetworkadapters, pla.iconfigurationdatacollector_querynetworkadapters, pla/IConfigurationDataCollector::QueryNetworkAdapters, pla/IConfigurationDataCollector::get_QueryNetworkAdapters, pla/IConfigurationDataCollector::put_QueryNetworkAdapters, put_QueryNetworkAdapters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IConfigurationDataCollector::put_QueryNetworkAdapters method
+# IConfigurationDataCollector::put_QueryNetworkAdapters
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.ClearHelperToken
-title: IBitsTokenOptions::ClearHelperToken method
+title: IBitsTokenOptions::ClearHelperToken
 author: windows-driver-content
 description: Discards the helper token, and does not change the usage flags.
 old-location: bits\ibitstokenoptions_clearhelpertoken.htm
 old-project: Bits
 ms.assetid: 5af3496e-0792-46cc-bfc3-8ac6193724d1
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: ClearHelperToken method [BITS], ClearHelperToken method [BITS], IBitsTokenOptions interface, ClearHelperToken,IBitsTokenOptions.ClearHelperToken, IBitsTokenOptions, IBitsTokenOptions interface [BITS], ClearHelperToken method, IBitsTokenOptions::ClearHelperToken, bits.ibitstokenoptions_clearhelpertoken, bits4_0/IBitsTokenOptions::ClearHelperToken
+ms.date: 4/27/2018
+ms.keywords: ClearHelperToken, ClearHelperToken method [BITS], ClearHelperToken method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],ClearHelperToken method, IBitsTokenOptions.ClearHelperToken, IBitsTokenOptions::ClearHelperToken, bits.ibitstokenoptions_clearhelpertoken, bits4_0/IBitsTokenOptions::ClearHelperToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsTokenOptions::ClearHelperToken method
+# IBitsTokenOptions::ClearHelperToken
 
 
 ## -description

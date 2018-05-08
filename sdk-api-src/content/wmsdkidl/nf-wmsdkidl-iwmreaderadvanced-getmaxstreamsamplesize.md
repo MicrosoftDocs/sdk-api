@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetMaxStreamSampleSize
-title: IWMReaderAdvanced::GetMaxStreamSampleSize method
+title: IWMReaderAdvanced::GetMaxStreamSampleSize
 author: windows-driver-content
 description: The GetMaxStreamSampleSize method retrieves the maximum buffer size to be allocated for stream samples for a specified media stream.
 old-location: wmformat\iwmreaderadvanced_getmaxstreamsamplesize.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 9511c269-0f88-4fdd-8d4b-c52bace14791
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetMaxStreamSampleSize method [windows Media Format], GetMaxStreamSampleSize method [windows Media Format], IWMReaderAdvanced interface, GetMaxStreamSampleSize,IWMReaderAdvanced.GetMaxStreamSampleSize, IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], GetMaxStreamSampleSize method, IWMReaderAdvanced::GetMaxStreamSampleSize, IWMReaderAdvancedGetMaxStreamSampleSize, wmformat.iwmreaderadvanced_getmaxstreamsamplesize, wmsdkidl/IWMReaderAdvanced::GetMaxStreamSampleSize
+ms.keywords: GetMaxStreamSampleSize, GetMaxStreamSampleSize method [windows Media Format], GetMaxStreamSampleSize method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetMaxStreamSampleSize method, IWMReaderAdvanced.GetMaxStreamSampleSize, IWMReaderAdvanced::GetMaxStreamSampleSize, IWMReaderAdvancedGetMaxStreamSampleSize, wmformat.iwmreaderadvanced_getmaxstreamsamplesize, wmsdkidl/IWMReaderAdvanced::GetMaxStreamSampleSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced::GetMaxStreamSampleSize method
+# IWMReaderAdvanced::GetMaxStreamSampleSize
 
 
 ## -description

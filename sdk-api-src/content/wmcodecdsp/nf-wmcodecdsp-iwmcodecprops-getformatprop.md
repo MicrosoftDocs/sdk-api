@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecProps.GetFormatProp
-title: IWMCodecProps::GetFormatProp method
+title: IWMCodecProps::GetFormatProp
 author: windows-driver-content
 description: Retrieves a format property for an output media type. Use this method to get information about enumerated audio formats.
 old-location: mf\iwmcodecpropsgetformatprop.htm
 old-project: medfound
 ms.assetid: b9808c67-915c-4767-9107-8d3a38bb9319
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetFormatProp method [Media Foundation], GetFormatProp method [Media Foundation], IWMCodecProps interface, GetFormatProp,IWMCodecProps.GetFormatProp, IWMCodecProps, IWMCodecProps interface [Media Foundation], GetFormatProp method, IWMCodecProps::GetFormatProp, codecapi.iwmcodecpropsgetformatprop, g_wszSpeechFormatCaps, mf.iwmcodecpropsgetformatprop, wmcodecdsp/ IWMCodecProps::GetFormatProp
+ms.date: 5/3/2018
+ms.keywords: GetFormatProp, GetFormatProp method [Media Foundation], GetFormatProp method [Media Foundation],IWMCodecProps interface, IWMCodecProps interface [Media Foundation],GetFormatProp method, IWMCodecProps.GetFormatProp, IWMCodecProps::GetFormatProp, codecapi.iwmcodecpropsgetformatprop, g_wszSpeechFormatCaps, mf.iwmcodecpropsgetformatprop, wmcodecdsp/ IWMCodecProps::GetFormatProp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecProps::GetFormatProp method
+# IWMCodecProps::GetFormatProp
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Buttons
-title: IInkCursor::get_Buttons method
+title: IInkCursor::get_Buttons
 author: windows-driver-content
 description: Gets the IInkCursorButtons collection that is available on an IInkCursor.
 old-location: tablet\iinkcursor_buttons.htm
 old-project: tablet
 ms.assetid: 21ea5b71-390e-448f-becc-1e3bb7015ed9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 21ea5b71-390e-448f-becc-1e3bb7015ed9, Buttons property [Tablet PC], Buttons property [Tablet PC], IInkCursor interface, IInkCursor, IInkCursor interface [Tablet PC], Buttons property, IInkCursor.Buttons, IInkCursor.get_Buttons, IInkCursor::get_Buttons, get_Buttons,IInkCursor.get_Buttons, msinkaut/IInkCursor::Buttons, msinkaut/IInkCursor::get_Buttons, tablet.iinkcursor_buttons
+ms.date: 5/2/2018
+ms.keywords: 21ea5b71-390e-448f-becc-1e3bb7015ed9, Buttons property [Tablet PC], Buttons property [Tablet PC],IInkCursor interface, IInkCursor interface [Tablet PC],Buttons property, IInkCursor.Buttons, IInkCursor.get_Buttons, IInkCursor::Buttons, IInkCursor::get_Buttons, get_Buttons, msinkaut/IInkCursor::Buttons, msinkaut/IInkCursor::get_Buttons, tablet.iinkcursor_buttons
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkCursor::get_Buttons method
+# IInkCursor::get_Buttons
 
 
 ## -description

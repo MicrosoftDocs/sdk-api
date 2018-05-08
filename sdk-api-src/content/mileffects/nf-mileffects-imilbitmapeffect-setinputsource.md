@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffect.SetInputSource
-title: IMILBitmapEffect::SetInputSource method
+title: IMILBitmapEffect::SetInputSource
 author: windows-driver-content
 description: Sets the effect input source.
 old-location: wibe\_wibe_imilbitmapeffect_setinputsource.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\setinputsource.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffect, IMILBitmapEffect interface [WPF Bitmap Effects], SetInputSource method, IMILBitmapEffect::SetInputSource, SetInputSource method [WPF Bitmap Effects], SetInputSource method [WPF Bitmap Effects], IMILBitmapEffect interface, SetInputSource,IMILBitmapEffect.SetInputSource, _wibe_imilbitmapeffect_setinputsource, mileffects/IMILBitmapEffect::SetInputSource, wibe._wibe_imilbitmapeffect_setinputsource
+ms.keywords: IMILBitmapEffect interface [WPF Bitmap Effects],SetInputSource method, IMILBitmapEffect.SetInputSource, IMILBitmapEffect::SetInputSource, SetInputSource, SetInputSource method [WPF Bitmap Effects], SetInputSource method [WPF Bitmap Effects],IMILBitmapEffect interface, _wibe_imilbitmapeffect_setinputsource, mileffects/IMILBitmapEffect::SetInputSource, wibe._wibe_imilbitmapeffect_setinputsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffect::SetInputSource method
+# IMILBitmapEffect::SetInputSource
 
 
 ## -description

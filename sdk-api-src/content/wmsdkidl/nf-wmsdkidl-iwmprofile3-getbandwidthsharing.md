@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetBandwidthSharing
-title: IWMProfile3::GetBandwidthSharing method
+title: IWMProfile3::GetBandwidthSharing
 author: windows-driver-content
 description: The GetBandwidthSharing method retrieves a bandwidth sharing object from a profile.
 old-location: wmformat\iwmprofile3_getbandwidthsharing.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: be66ff8b-c883-4329-aaa4-e9549d0cbb9e
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetBandwidthSharing method [windows Media Format], GetBandwidthSharing method [windows Media Format], IWMProfile3 interface, GetBandwidthSharing,IWMProfile3.GetBandwidthSharing, IWMProfile3, IWMProfile3 interface [windows Media Format], GetBandwidthSharing method, IWMProfile3::GetBandwidthSharing, IWMProfile3GetBandwidthSharing, wmformat.iwmprofile3_getbandwidthsharing, wmsdkidl/IWMProfile3::GetBandwidthSharing
+ms.keywords: GetBandwidthSharing, GetBandwidthSharing method [windows Media Format], GetBandwidthSharing method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetBandwidthSharing method, IWMProfile3.GetBandwidthSharing, IWMProfile3::GetBandwidthSharing, IWMProfile3GetBandwidthSharing, wmformat.iwmprofile3_getbandwidthsharing, wmsdkidl/IWMProfile3::GetBandwidthSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfile3::GetBandwidthSharing method
+# IWMProfile3::GetBandwidthSharing
 
 
 ## -description

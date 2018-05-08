@@ -1,6 +1,6 @@
 ---
 UID: NF:frquery.CFrameworkQuery.GetQueryClassName
-title: CFrameworkQuery::GetQueryClassName method
+title: CFrameworkQuery::GetQueryClassName
 author: windows-driver-content
 description: The GetQueryClassName method retrieves the class name from the query.
 old-location: wmi\cframeworkquery_getqueryclassname.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 6cb3da43-dab1-4049-9793-d62f027efe1c
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CFrameworkQuery, CFrameworkQuery interface [Windows Management Instrumentation], GetQueryClassName method, CFrameworkQuery::GetQueryClassName, GetQueryClassName method [Windows Management Instrumentation], GetQueryClassName method [Windows Management Instrumentation], CFrameworkQuery interface, GetQueryClassName,CFrameworkQuery.GetQueryClassName, _hmm_cframeworkquery_getqueryclassname, frquery/CFrameworkQuery::GetQueryClassName, wmi.cframeworkquery_getqueryclassname
+ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetQueryClassName method, CFrameworkQuery.GetQueryClassName, CFrameworkQuery::GetQueryClassName, GetQueryClassName, GetQueryClassName method [Windows Management Instrumentation], GetQueryClassName method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getqueryclassname, frquery/CFrameworkQuery::GetQueryClassName, wmi.cframeworkquery_getqueryclassname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# CFrameworkQuery::GetQueryClassName method
+# CFrameworkQuery::GetQueryClassName
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetOwnerReplicaId
-title: ISyncChange::GetOwnerReplicaId method
+title: ISyncChange::GetOwnerReplicaId
 author: windows-driver-content
 description: Gets the ID of the replica that originated this change.
 old-location: winsync\isyncchange_getownerreplicaid.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: c65dc19e-e11a-4bd1-b10f-f2af75294d48
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetOwnerReplicaId method [Windows Sync], GetOwnerReplicaId method [Windows Sync], ISyncChange interface, GetOwnerReplicaId,ISyncChange.GetOwnerReplicaId, ISyncChange, ISyncChange interface [Windows Sync], GetOwnerReplicaId method, ISyncChange::GetOwnerReplicaId, winsync.isyncchange_getownerreplicaid, winsync/ISyncChange::GetOwnerReplicaId
+ms.keywords: GetOwnerReplicaId, GetOwnerReplicaId method [Windows Sync], GetOwnerReplicaId method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetOwnerReplicaId method, ISyncChange.GetOwnerReplicaId, ISyncChange::GetOwnerReplicaId, winsync.isyncchange_getownerreplicaid, winsync/ISyncChange::GetOwnerReplicaId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChange::GetOwnerReplicaId method
+# ISyncChange::GetOwnerReplicaId
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: afb32c09-77f2-4c33-bd93-8dce92a2e45e
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 12a95af1-0ccb-3aa6-2a85-b8822bf74961, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], ID3D11DeviceContext interface [Direct3D 11], described, d3d11/ID3D11DeviceContext, direct3d11.id3d11devicecontext
+ms.keywords: 12a95af1-0ccb-3aa6-2a85-b8822bf74961, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], ID3D11DeviceContext interface [Direct3D 11],described, d3d11/ID3D11DeviceContext, direct3d11.id3d11devicecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetDuration
-title: IMFTimedTextCue::GetDuration method
+title: IMFTimedTextCue::GetDuration
 author: windows-driver-content
 description: Gets the duration time of the cue in the track.
 old-location: mf\imftimedtextcue_getduration.htm
 old-project: medfound
 ms.assetid: 6E2CD435-C628-4F8B-B648-9EEBCFDA8EC2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDuration method [Media Foundation], GetDuration method [Media Foundation], IMFTimedTextCue interface, GetDuration,IMFTimedTextCue.GetDuration, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetDuration method, IMFTimedTextCue::GetDuration, mf.imftimedtextcue_getduration, mfmediaengine/IMFTimedTextCue::GetDuration
+ms.date: 5/3/2018
+ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetDuration method, IMFTimedTextCue.GetDuration, IMFTimedTextCue::GetDuration, mf.imftimedtextcue_getduration, mfmediaengine/IMFTimedTextCue::GetDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextCue::GetDuration method
+# IMFTimedTextCue::GetDuration
 
 
 ## -description

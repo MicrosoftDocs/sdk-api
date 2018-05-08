@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_Port
-title: INetFwOpenPort::put_Port method
+title: INetFwOpenPort::put_Port
 author: windows-driver-content
 description: Specifiess the host-ordered port number for this port.
 old-location: ics\inetfwopenport_port.htm
 old-project: ICS
 ms.assetid: 6e179f11-76c3-4403-9b42-2faad56629ed
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwOpenPort, INetFwOpenPort interface [ICS/ICF], Port property, INetFwOpenPort.Port, INetFwOpenPort::get_Port, INetFwOpenPort::put_Port, Port property [ICS/ICF], Port property [ICS/ICF], INetFwOpenPort interface, ics.inetfwopenport_port, netfw/INetFwOpenPort::Port, netfw/INetFwOpenPort::get_Port, netfw/INetFwOpenPort::put_Port, put_Port,INetFwOpenPort.put_Port
+ms.date: 5/1/2018
+ms.keywords: INetFwOpenPort interface [ICS/ICF],Port property, INetFwOpenPort.Port, INetFwOpenPort.put_Port, INetFwOpenPort::Port, INetFwOpenPort::get_Port, INetFwOpenPort::put_Port, Port property [ICS/ICF], Port property [ICS/ICF],INetFwOpenPort interface, ics.inetfwopenport_port, netfw/INetFwOpenPort::Port, netfw/INetFwOpenPort::get_Port, netfw/INetFwOpenPort::put_Port, put_Port
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwOpenPort::put_Port method
+# INetFwOpenPort::put_Port
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatus.put_Ordinal
-title: ICspStatus::put_Ordinal method
+title: ICspStatus::put_Ordinal
 author: windows-driver-content
 description: Specifies or retrieves the position of the ICspStatus object in the ICspStatuses collection.
 old-location: security\icspstatus_ordinal_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: e392e28f-084e-43a7-8a5e-14bea0ed8d58
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspStatus, ICspStatus interface [Security], Ordinal property, ICspStatus.Ordinal, ICspStatus::get_Ordinal, ICspStatus::put_Ordinal, Ordinal property [Security], Ordinal property [Security], ICspStatus interface, certenroll/ICspStatus::Ordinal, certenroll/ICspStatus::get_Ordinal, certenroll/ICspStatus::put_Ordinal, put_Ordinal,ICspStatus.put_Ordinal, security.icspstatus_ordinal_property
+ms.keywords: ICspStatus interface [Security],Ordinal property, ICspStatus.Ordinal, ICspStatus.put_Ordinal, ICspStatus::Ordinal, ICspStatus::get_Ordinal, ICspStatus::put_Ordinal, Ordinal property [Security], Ordinal property [Security],ICspStatus interface, certenroll/ICspStatus::Ordinal, certenroll/ICspStatus::get_Ordinal, certenroll/ICspStatus::put_Ordinal, put_Ordinal, security.icspstatus_ordinal_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspStatus::put_Ordinal method
+# ICspStatus::put_Ordinal
 
 
 ## -description

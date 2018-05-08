@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateSmoothStopTransition
-title: IUIAnimationTransitionLibrary2::CreateSmoothStopTransition method
+title: IUIAnimationTransitionLibrary2::CreateSmoothStopTransition
 author: windows-driver-content
 description: Creates a smooth-stop scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createsmoothstoptransition.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 011FFBF8-31A9-4253-B034-5836B7B74409
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateSmoothStopTransition method [Windows Animation], CreateSmoothStopTransition method [Windows Animation], IUIAnimationTransitionLibrary2 interface, CreateSmoothStopTransition,IUIAnimationTransitionLibrary2.CreateSmoothStopTransition, IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], CreateSmoothStopTransition method, IUIAnimationTransitionLibrary2::CreateSmoothStopTransition, uianimation.iuianimationtransitionlibrary2_createsmoothstoptransition, uianimation/IUIAnimationTransitionLibrary2::CreateSmoothStopTransition
+ms.keywords: CreateSmoothStopTransition, CreateSmoothStopTransition method [Windows Animation], CreateSmoothStopTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateSmoothStopTransition method, IUIAnimationTransitionLibrary2.CreateSmoothStopTransition, IUIAnimationTransitionLibrary2::CreateSmoothStopTransition, uianimation.iuianimationtransitionlibrary2_createsmoothstoptransition, uianimation/IUIAnimationTransitionLibrary2::CreateSmoothStopTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary2::CreateSmoothStopTransition method
+# IUIAnimationTransitionLibrary2::CreateSmoothStopTransition
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: winprog\ifhscopeiterator.htm
 old-project: DevNotes
 ms.assetid: E8F993BD-CB53-474A-926D-AED0F5A17073
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: IFhScopeIterator, IFhScopeIterator interface [Windows API], IFhScopeIterator interface [Windows API], described, fhcfg/IFhScopeIterator, winprog.ifhscopeiterator
+ms.date: 5/4/2018
+ms.keywords: IFhScopeIterator, IFhScopeIterator interface [Windows API], IFhScopeIterator interface [Windows API],described, fhcfg/IFhScopeIterator, winprog.ifhscopeiterator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

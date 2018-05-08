@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMBackupDir.SearchBackups
-title: IGPMBackupDir::SearchBackups method
+title: IGPMBackupDir::SearchBackups
 author: windows-driver-content
 description: Executes a search for the GPMBackup object according to the specified criteria, and returns an GPMBackupCollection object.
 old-location: gpmc\igpmbackupdir_searchbackups.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 71e1991f-c24f-43fe-8f3e-83f5b02cec6b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMBackupDir object [GPMC], SearchBackups method, IGPMBackupDir, IGPMBackupDir interface [GPMC], SearchBackups method, IGPMBackupDir::SearchBackups, SearchBackups method [GPMC], SearchBackups method [GPMC], GPMBackupDir object, SearchBackups method [GPMC], IGPMBackupDir interface, SearchBackups,IGPMBackupDir.SearchBackups, _win32_igpmbackupdir_searchbackups, backupMostRecent, gpmc.igpmbackupdir_searchbackups, gpmgmt/IGPMBackupDir::SearchBackups, gpoDisplayName, gpoDomain, gpoID
+ms.keywords: GPMBackupDir object [GPMC],SearchBackups method, IGPMBackupDir interface [GPMC],SearchBackups method, IGPMBackupDir.SearchBackups, IGPMBackupDir::SearchBackups, SearchBackups, SearchBackups method [GPMC], SearchBackups method [GPMC],GPMBackupDir object, SearchBackups method [GPMC],IGPMBackupDir interface, _win32_igpmbackupdir_searchbackups, backupMostRecent, gpmc.igpmbackupdir_searchbackups, gpmgmt/IGPMBackupDir::SearchBackups, gpoDisplayName, gpoDomain, gpoID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMBackupDir::SearchBackups method
+# IGPMBackupDir::SearchBackups
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceCallback.StateVariableChanged
-title: IUPnPServiceCallback::StateVariableChanged method
+title: IUPnPServiceCallback::StateVariableChanged
 author: windows-driver-content
 description: The StateVariableChanged method is invoked when a state variable has changed.
 old-location: upnp\iupnpservicecallback_statevariablechanged.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: 68dac38e-535b-491e-a9a5-0f6bccb7fcc1
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IUPnPServiceCallback, IUPnPServiceCallback interface [UPnP APIs], StateVariableChanged method, IUPnPServiceCallback::StateVariableChanged, StateVariableChanged method [UPnP APIs], StateVariableChanged method [UPnP APIs], IUPnPServiceCallback interface, StateVariableChanged,IUPnPServiceCallback.StateVariableChanged, _upnp_iupnpservicecallback_statevariablechanged, upnp.iupnpservicecallback_statevariablechanged, upnp/IUPnPServiceCallback::StateVariableChanged
+ms.keywords: IUPnPServiceCallback interface [UPnP APIs],StateVariableChanged method, IUPnPServiceCallback.StateVariableChanged, IUPnPServiceCallback::StateVariableChanged, StateVariableChanged, StateVariableChanged method [UPnP APIs], StateVariableChanged method [UPnP APIs],IUPnPServiceCallback interface, _upnp_iupnpservicecallback_statevariablechanged, upnp.iupnpservicecallback_statevariablechanged, upnp/IUPnPServiceCallback::StateVariableChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPServiceCallback::StateVariableChanged method
+# IUPnPServiceCallback::StateVariableChanged
 
 
 ## -description

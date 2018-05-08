@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentLocation
-title: IDvdInfo::GetCurrentLocation method
+title: IDvdInfo::GetCurrentLocation
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current playback location.
 old-location: dshow\idvdinfo_getcurrentlocation.htm
 old-project: DirectShow
 ms.assetid: 27913630-d0c2-4bc1-9d6a-623f7aa631ec
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentLocation method [DirectShow], GetCurrentLocation method [DirectShow], IDvdInfo interface, GetCurrentLocation,IDvdInfo.GetCurrentLocation, IDvdInfo, IDvdInfo interface [DirectShow], GetCurrentLocation method, IDvdInfo::GetCurrentLocation, IDvdInfoGetCurrentLocation, dshow.idvdinfo_getcurrentlocation, strmif/IDvdInfo::GetCurrentLocation
+ms.date: 4/30/2018
+ms.keywords: GetCurrentLocation, GetCurrentLocation method [DirectShow], GetCurrentLocation method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentLocation method, IDvdInfo.GetCurrentLocation, IDvdInfo::GetCurrentLocation, IDvdInfoGetCurrentLocation, dshow.idvdinfo_getcurrentlocation, strmif/IDvdInfo::GetCurrentLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetCurrentLocation method
+# IDvdInfo::GetCurrentLocation
 
 
 ## -description

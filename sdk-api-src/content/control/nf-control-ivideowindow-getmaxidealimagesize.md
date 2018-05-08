@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IVideoWindow.GetMaxIdealImageSize
-title: IVideoWindow::GetMaxIdealImageSize method
+title: IVideoWindow::GetMaxIdealImageSize
 author: windows-driver-content
 description: The GetMaxIdealImageSize method retrieves the maximum ideal image size for the video image.
 old-location: dshow\ivideowindow_getmaxidealimagesize.htm
 old-project: DirectShow
 ms.assetid: ee9f6803-c8b8-48e0-9be0-3d61a453014e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMaxIdealImageSize method [DirectShow], GetMaxIdealImageSize method [DirectShow], IVideoWindow interface, GetMaxIdealImageSize,IVideoWindow.GetMaxIdealImageSize, IVideoWindow, IVideoWindow interface [DirectShow], GetMaxIdealImageSize method, IVideoWindow::GetMaxIdealImageSize, IVideoWindowGetMaxIdealImageSize, control/IVideoWindow::GetMaxIdealImageSize, dshow.ivideowindow_getmaxidealimagesize
+ms.date: 4/30/2018
+ms.keywords: GetMaxIdealImageSize, GetMaxIdealImageSize method [DirectShow], GetMaxIdealImageSize method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetMaxIdealImageSize method, IVideoWindow.GetMaxIdealImageSize, IVideoWindow::GetMaxIdealImageSize, IVideoWindowGetMaxIdealImageSize, control/IVideoWindow::GetMaxIdealImageSize, dshow.ivideowindow_getmaxidealimagesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IVideoWindow::GetMaxIdealImageSize method
+# IVideoWindow::GetMaxIdealImageSize
 
 
 ## -description

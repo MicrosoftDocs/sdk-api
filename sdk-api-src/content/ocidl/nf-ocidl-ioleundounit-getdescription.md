@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoUnit.GetDescription
-title: IOleUndoUnit::GetDescription method
+title: IOleUndoUnit::GetDescription
 author: windows-driver-content
 description: Retrieves a description of the undo unit that can be used in the undo or redo user interface.
 old-location: com\ioleundounit_getdescription.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8fd9c49c-a8f3-4a4a-b501-211a107c1305
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetDescription method [COM], GetDescription method [COM], IOleUndoUnit interface, GetDescription,IOleUndoUnit.GetDescription, IOleUndoUnit, IOleUndoUnit interface [COM], GetDescription method, IOleUndoUnit::GetDescription, _ole_ioleundounit_getdescription, com.ioleundounit_getdescription, ocidl/IOleUndoUnit::GetDescription
+ms.keywords: GetDescription, GetDescription method [COM], GetDescription method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],GetDescription method, IOleUndoUnit.GetDescription, IOleUndoUnit::GetDescription, _ole_ioleundounit_getdescription, com.ioleundounit_getdescription, ocidl/IOleUndoUnit::GetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleUndoUnit::GetDescription method
+# IOleUndoUnit::GetDescription
 
 
 ## -description

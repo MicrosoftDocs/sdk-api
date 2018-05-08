@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.ResetDevice
-title: IDirect3DDeviceManager9::ResetDevice method
+title: IDirect3DDeviceManager9::ResetDevice
 author: windows-driver-content
 description: Sets the Direct3D device or notifies the device manager that the Direct3D device was reset.
 old-location: mf\idirect3ddevicemanager9_resetdevice.htm
 old-project: medfound
 ms.assetid: 01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33, IDirect3DDeviceManager9, IDirect3DDeviceManager9 interface [Media Foundation], ResetDevice method, IDirect3DDeviceManager9::ResetDevice, ResetDevice method [Media Foundation], ResetDevice method [Media Foundation], IDirect3DDeviceManager9 interface, ResetDevice,IDirect3DDeviceManager9.ResetDevice, dxva2api/IDirect3DDeviceManager9::ResetDevice, mf.idirect3ddevicemanager9_resetdevice
+ms.date: 5/3/2018
+ms.keywords: 01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33, IDirect3DDeviceManager9 interface [Media Foundation],ResetDevice method, IDirect3DDeviceManager9.ResetDevice, IDirect3DDeviceManager9::ResetDevice, ResetDevice, ResetDevice method [Media Foundation], ResetDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::ResetDevice, mf.idirect3ddevicemanager9_resetdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirect3DDeviceManager9::ResetDevice method
+# IDirect3DDeviceManager9::ResetDevice
 
 
 ## -description

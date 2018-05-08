@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.GetNumElements
-title: IADsPathname::GetNumElements method
+title: IADsPathname::GetNumElements
 author: windows-driver-content
 description: Retrieves the number of elements in the path.
 old-location: adsi\iadspathname_getnumelements.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: ad6518c8-d379-4062-888f-cbf84995fc39
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetNumElements method [ADSI], GetNumElements method [ADSI], IADsPathname interface, GetNumElements,IADsPathname.GetNumElements, IADsPathname, IADsPathname interface [ADSI], GetNumElements method, IADsPathname::GetNumElements, _ds_iadspathname_getnumelements, adsi.iadspathname__getnumelements, adsi.iadspathname_getnumelements, iads/IADsPathname::GetNumElements
+ms.keywords: GetNumElements, GetNumElements method [ADSI], GetNumElements method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetNumElements method, IADsPathname.GetNumElements, IADsPathname::GetNumElements, _ds_iadspathname_getnumelements, adsi.iadspathname__getnumelements, adsi.iadspathname_getnumelements, iads/IADsPathname::GetNumElements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsPathname::GetNumElements method
+# IADsPathname::GetNumElements
 
 
 ## -description

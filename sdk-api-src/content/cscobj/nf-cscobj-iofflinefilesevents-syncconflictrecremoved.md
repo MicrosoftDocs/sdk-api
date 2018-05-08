@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncConflictRecRemoved
-title: IOfflineFilesEvents::SyncConflictRecRemoved method
+title: IOfflineFilesEvents::SyncConflictRecRemoved
 author: windows-driver-content
 description: Reports that a sync conflict no longer exists and that its record has been removed from the sync conflict log.
 old-location: of\iofflinefilesevents_syncconflictrecremoved.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: ccdd7b74-3e00-4a3d-9632-eac48d790f23
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], SyncConflictRecRemoved method, IOfflineFilesEvents::SyncConflictRecRemoved, SyncConflictRecRemoved method [Offline Files], SyncConflictRecRemoved method [Offline Files], IOfflineFilesEvents interface, SyncConflictRecRemoved,IOfflineFilesEvents.SyncConflictRecRemoved, cscobj/IOfflineFilesEvents::SyncConflictRecRemoved, of.iofflinefilesevents_syncconflictrecremoved
+ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecRemoved method, IOfflineFilesEvents.SyncConflictRecRemoved, IOfflineFilesEvents::SyncConflictRecRemoved, SyncConflictRecRemoved, SyncConflictRecRemoved method [Offline Files], SyncConflictRecRemoved method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecRemoved, of.iofflinefilesevents_syncconflictrecremoved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents::SyncConflictRecRemoved method
+# IOfflineFilesEvents::SyncConflictRecRemoved
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CurrentColumn
-title: IUIAutomationGridItemPattern::get_CurrentColumn method
+title: IUIAutomationGridItemPattern::get_CurrentColumn
 author: windows-driver-content
 description: Retrieves the zero-based index of the column that contains the item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentColumn.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: ca90c40b-c0d3-4673-be52-c8729fba55ea
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentColumn property [Windows Accessibility], CurrentColumn property [Windows Accessibility], IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern, IUIAutomationGridItemPattern interface [Windows Accessibility], CurrentColumn property, IUIAutomationGridItemPattern.CurrentColumn, IUIAutomationGridItemPattern::get_CurrentColumn, get_CurrentColumn,IUIAutomationGridItemPattern.get_CurrentColumn, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentColumn, uiauto_IUIAutomationGridItemPattern_CurrentColumn, uiautomationclient/IUIAutomationGridItemPattern::CurrentColumn, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentColumn, winauto.uiauto_IUIAutomationGridItemPattern_CurrentColumn
+ms.keywords: CurrentColumn property [Windows Accessibility], CurrentColumn property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CurrentColumn property, IUIAutomationGridItemPattern.CurrentColumn, IUIAutomationGridItemPattern.get_CurrentColumn, IUIAutomationGridItemPattern::CurrentColumn, IUIAutomationGridItemPattern::get_CurrentColumn, get_CurrentColumn, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentColumn, uiauto_IUIAutomationGridItemPattern_CurrentColumn, uiautomationclient/IUIAutomationGridItemPattern::CurrentColumn, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentColumn, winauto.uiauto_IUIAutomationGridItemPattern_CurrentColumn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationGridItemPattern::get_CurrentColumn method
+# IUIAutomationGridItemPattern::get_CurrentColumn
 
 
 ## -description

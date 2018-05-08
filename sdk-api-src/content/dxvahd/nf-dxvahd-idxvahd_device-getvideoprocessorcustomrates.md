@@ -1,14 +1,14 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorCustomRates
-title: IDXVAHD_Device::GetVideoProcessorCustomRates method
+title: IDXVAHD_Device::GetVideoProcessorCustomRates
 author: windows-driver-content
 description: Gets a list of custom rates that a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor supports. Custom rates are used for frame-rate conversion and inverse telecine (IVTC).
 old-location: mf\idxvahd_device_getvideoprocessorcustomrates.htm
 old-project: medfound
 ms.assetid: 63e835bb-dda2-4449-8474-219a373da82d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoProcessorCustomRates method [Media Foundation], GetVideoProcessorCustomRates method [Media Foundation], IDXVAHD_Device interface, GetVideoProcessorCustomRates,IDXVAHD_Device.GetVideoProcessorCustomRates, IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], GetVideoProcessorCustomRates method, IDXVAHD_Device::GetVideoProcessorCustomRates, dxvahd/IDXVAHD_Device::GetVideoProcessorCustomRates, mf.idxvahd_device_getvideoprocessorcustomrates
+ms.date: 5/3/2018
+ms.keywords: GetVideoProcessorCustomRates, GetVideoProcessorCustomRates method [Media Foundation], GetVideoProcessorCustomRates method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorCustomRates method, IDXVAHD_Device.GetVideoProcessorCustomRates, IDXVAHD_Device::GetVideoProcessorCustomRates, dxvahd/IDXVAHD_Device::GetVideoProcessorCustomRates, mf.idxvahd_device_getvideoprocessorcustomrates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXVAHD_Device::GetVideoProcessorCustomRates method
+# IDXVAHD_Device::GetVideoProcessorCustomRates
 
 
 ## -description

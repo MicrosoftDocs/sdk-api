@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 4d8ff5b9-ec4a-4ec6-b133-3d315f9c017b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface, described, functiondiscoveryprovider/IProviderQueryConstraintCollection, ncd.iproviderqueryconstraintcollection
+ms.keywords: IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface,described, functiondiscoveryprovider/IProviderQueryConstraintCollection, ncd.iproviderqueryconstraintcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

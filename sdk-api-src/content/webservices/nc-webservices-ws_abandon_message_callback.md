@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 494cfb49-c09e-4f51-85fd-5bb0f8d0a45d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_ABANDON_MESSAGE_CALLBACK, WS_ABANDON_MESSAGE_CALLBACK callback function [Web Services for Windows], webservices/WS_ABANDON_MESSAGE_CALLBACK, wsw.ws_abandon_message_callback
+ms.keywords: WS_ABANDON_MESSAGE_CALLBACK, WS_ABANDON_MESSAGE_CALLBACK callback, WS_ABANDON_MESSAGE_CALLBACK callback function [Web Services for Windows], webservices/WS_ABANDON_MESSAGE_CALLBACK, wsw.ws_abandon_message_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_ABANDON_MESSAGE_CALLBACK callback
+# WS_ABANDON_MESSAGE_CALLBACK callback function
 
 
 ## -description

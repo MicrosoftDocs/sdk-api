@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.put_ResourcePolicy
-title: IDataManager::put_ResourcePolicy method
+title: IDataManager::put_ResourcePolicy
 author: windows-driver-content
 description: Retrieves or sets the action to take when one of the disk resource limits is exceeded.
 old-location: pla\idatamanager_resourcepolicy.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 541cd28c-2e01-4b8a-9cd3-044896c8fb80
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataManager, IDataManager interface [PLA], ResourcePolicy property, IDataManager.ResourcePolicy, IDataManager::get_ResourcePolicy, IDataManager::put_ResourcePolicy, ResourcePolicy property [PLA], ResourcePolicy property [PLA], IDataManager interface, base.idatamanager_resourcepolicy, pla.idatamanager_resourcepolicy, pla/IDataManager::ResourcePolicy, pla/IDataManager::get_ResourcePolicy, pla/IDataManager::put_ResourcePolicy, put_ResourcePolicy,IDataManager.put_ResourcePolicy
+ms.keywords: IDataManager interface [PLA],ResourcePolicy property, IDataManager.ResourcePolicy, IDataManager.put_ResourcePolicy, IDataManager::ResourcePolicy, IDataManager::get_ResourcePolicy, IDataManager::put_ResourcePolicy, ResourcePolicy property [PLA], ResourcePolicy property [PLA],IDataManager interface, base.idatamanager_resourcepolicy, pla.idatamanager_resourcepolicy, pla/IDataManager::ResourcePolicy, pla/IDataManager::get_ResourcePolicy, pla/IDataManager::put_ResourcePolicy, put_ResourcePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataManager::put_ResourcePolicy method
+# IDataManager::put_ResourcePolicy
 
 
 ## -description

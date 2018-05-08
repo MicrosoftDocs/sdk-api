@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyFile.GetLocalName
-title: IBackgroundCopyFile::GetLocalName method
+title: IBackgroundCopyFile::GetLocalName
 author: windows-driver-content
 description: Retrieves the local name of the file.
 old-location: bits\ibackgroundcopyfile_getlocalname.htm
 old-project: Bits
 ms.assetid: d27844b7-a5c6-4f4c-a1db-80e031898634
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetLocalName method [BITS], GetLocalName method [BITS], IBackgroundCopyFile interface, GetLocalName,IBackgroundCopyFile.GetLocalName, IBackgroundCopyFile, IBackgroundCopyFile interface [BITS], GetLocalName method, IBackgroundCopyFile::GetLocalName, _drz_ibackgroundcopyfile_getlocalname, bits.ibackgroundcopyfile_getlocalname, bits/IBackgroundCopyFile::GetLocalName
+ms.date: 4/27/2018
+ms.keywords: GetLocalName, GetLocalName method [BITS], GetLocalName method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetLocalName method, IBackgroundCopyFile.GetLocalName, IBackgroundCopyFile::GetLocalName, _drz_ibackgroundcopyfile_getlocalname, bits.ibackgroundcopyfile_getlocalname, bits/IBackgroundCopyFile::GetLocalName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyFile::GetLocalName method
+# IBackgroundCopyFile::GetLocalName
 
 
 ## -description

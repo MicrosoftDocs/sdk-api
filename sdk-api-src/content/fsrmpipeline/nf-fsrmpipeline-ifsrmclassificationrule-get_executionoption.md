@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationRule.get_ExecutionOption
-title: IFsrmClassificationRule::get_ExecutionOption method
+title: IFsrmClassificationRule::get_ExecutionOption
 author: windows-driver-content
 description: Determines how to apply the rule to the file.
 old-location: fsrm\ifsrmclassificationrule_executionoption.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: e084c056-18b1-4089-bab9-fce2ef58cd05
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ExecutionOption property [File Server Resource Manager], ExecutionOption property [File Server Resource Manager], IFsrmClassificationRule interface, IFsrmClassificationRule, IFsrmClassificationRule interface [File Server Resource Manager], ExecutionOption property, IFsrmClassificationRule.ExecutionOption, IFsrmClassificationRule::get_ExecutionOption, IFsrmClassificationRule::put_ExecutionOption, fs.ifsrmclassificationrule_executionoption, fsrm.ifsrmclassificationrule_executionoption, fsrmpipeline/IFsrmClassificationRule::ExecutionOption, fsrmpipeline/IFsrmClassificationRule::get_ExecutionOption, fsrmpipeline/IFsrmClassificationRule::put_ExecutionOption, get_ExecutionOption,IFsrmClassificationRule.get_ExecutionOption
+ms.keywords: ExecutionOption property [File Server Resource Manager], ExecutionOption property [File Server Resource Manager],IFsrmClassificationRule interface, IFsrmClassificationRule interface [File Server Resource Manager],ExecutionOption property, IFsrmClassificationRule.ExecutionOption, IFsrmClassificationRule.get_ExecutionOption, IFsrmClassificationRule::ExecutionOption, IFsrmClassificationRule::get_ExecutionOption, IFsrmClassificationRule::put_ExecutionOption, fs.ifsrmclassificationrule_executionoption, fsrm.ifsrmclassificationrule_executionoption, fsrmpipeline/IFsrmClassificationRule::ExecutionOption, fsrmpipeline/IFsrmClassificationRule::get_ExecutionOption, fsrmpipeline/IFsrmClassificationRule::put_ExecutionOption, get_ExecutionOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassificationRule::get_ExecutionOption method
+# IFsrmClassificationRule::get_ExecutionOption
 
 
 ## -description

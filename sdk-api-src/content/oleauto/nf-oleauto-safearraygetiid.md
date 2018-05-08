@@ -7,7 +7,7 @@ old-location: automat\safearraygetiid.htm
 old-project: automat
 ms.assetid: 9416f7f8-aee0-4e6a-be4f-ca6061adb244
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: SafeArrayGetIID, SafeArrayGetIID function [Automation], _oa96_SafeArrayGetIID, automat.safearraygetiid, oleauto/SafeArrayGetIID
 ms.prod: windows-hardware
 ms.technology: windows-devices

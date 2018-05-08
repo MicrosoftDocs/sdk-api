@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.GetRuntimeId
-title: IAccessibleEx::GetRuntimeId method
+title: IAccessibleEx::GetRuntimeId
 author: windows-driver-content
 description: Retrieves the runtime identifier of this element.
 old-location: winauto\uiauto_IAccessibleEx_GetRuntimeId.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 00aeac66-398a-4c80-85e2-32bff0ae100f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility], IAccessibleEx interface, GetRuntimeId,IAccessibleEx.GetRuntimeId, IAccessibleEx, IAccessibleEx interface [Windows Accessibility], GetRuntimeId method, IAccessibleEx::GetRuntimeId, uiauto.uiauto_IAccessibleEx_GetRuntimeId, uiauto_IAccessibleEx_GetRuntimeId, uiautomationcore/IAccessibleEx::GetRuntimeId, winauto.uiauto_IAccessibleEx_GetRuntimeId
+ms.keywords: GetRuntimeId, GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],GetRuntimeId method, IAccessibleEx.GetRuntimeId, IAccessibleEx::GetRuntimeId, uiauto.uiauto_IAccessibleEx_GetRuntimeId, uiauto_IAccessibleEx_GetRuntimeId, uiautomationcore/IAccessibleEx::GetRuntimeId, winauto.uiauto_IAccessibleEx_GetRuntimeId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAccessibleEx::GetRuntimeId method
+# IAccessibleEx::GetRuntimeId
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netbios\find_name_buffer.htm
 old-project: NetBIOS
 ms.assetid: d35cd375-6207-4019-bd3e-20dc302e9c45
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/2/2018
 ms.keywords: "*PFIND_NAME_BUFFER, FIND_NAME_BUFFER, FIND_NAME_BUFFER structure [NetBIOS], PFIND_NAME_BUFFER, PFIND_NAME_BUFFER structure pointer [NetBIOS], _FIND_NAME_BUFFER, nb30/FIND_NAME_BUFFER, nb30/PFIND_NAME_BUFFER, netbios.find_name_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices

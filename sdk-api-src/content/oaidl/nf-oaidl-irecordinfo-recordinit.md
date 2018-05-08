@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordInit
-title: IRecordInfo::RecordInit method
+title: IRecordInfo::RecordInit
 author: windows-driver-content
 description: Initializes a new instance of a record.
 old-location: automat\irecordinfo_recordinit.htm
 old-project: automat
 ms.assetid: e10355b3-b751-487d-b7ce-77a39803c38c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: IRecordInfo, IRecordInfo interface [Automation], RecordInit method, IRecordInfo::RecordInit, RecordInit method [Automation], RecordInit method [Automation], IRecordInfo interface, RecordInit,IRecordInfo.RecordInit, _oa96_IRecordInfo_RecordInit, automat.irecordinfo_recordinit, oaidl/IRecordInfo::RecordInit
+ms.date: 5/4/2018
+ms.keywords: IRecordInfo interface [Automation],RecordInit method, IRecordInfo.RecordInit, IRecordInfo::RecordInit, RecordInit, RecordInit method [Automation], RecordInit method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordInit, automat.irecordinfo_recordinit, oaidl/IRecordInfo::RecordInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRecordInfo::RecordInit method
+# IRecordInfo::RecordInit
 
 
 ## -description

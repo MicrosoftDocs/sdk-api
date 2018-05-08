@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowOutboundParameterProblem
-title: INetFwIcmpSettings::get_AllowOutboundParameterProblem method
+title: INetFwIcmpSettings::get_AllowOutboundParameterProblem
 author: windows-driver-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundparameterproblem.htm
 old-project: ICS
 ms.assetid: 496374e7-9f89-43e3-bb59-184ba4c611be
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: AllowOutboundParameterProblem property [ICS/ICF], AllowOutboundParameterProblem property [ICS/ICF], INetFwIcmpSettings interface, INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], AllowOutboundParameterProblem property, INetFwIcmpSettings.AllowOutboundParameterProblem, INetFwIcmpSettings::get_AllowOutboundParameterProblem, INetFwIcmpSettings::put_AllowOutboundParameterProblem, get_AllowOutboundParameterProblem,INetFwIcmpSettings.get_AllowOutboundParameterProblem, ics.inetfwicmpsettings_allowoutboundparameterproblem, netfw/INetFwIcmpSettings::AllowOutboundParameterProblem, netfw/INetFwIcmpSettings::get_AllowOutboundParameterProblem, netfw/INetFwIcmpSettings::put_AllowOutboundParameterProblem
+ms.date: 5/1/2018
+ms.keywords: AllowOutboundParameterProblem property [ICS/ICF], AllowOutboundParameterProblem property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundParameterProblem property, INetFwIcmpSettings.AllowOutboundParameterProblem, INetFwIcmpSettings.get_AllowOutboundParameterProblem, INetFwIcmpSettings::AllowOutboundParameterProblem, INetFwIcmpSettings::get_AllowOutboundParameterProblem, INetFwIcmpSettings::put_AllowOutboundParameterProblem, get_AllowOutboundParameterProblem, ics.inetfwicmpsettings_allowoutboundparameterproblem, netfw/INetFwIcmpSettings::AllowOutboundParameterProblem, netfw/INetFwIcmpSettings::get_AllowOutboundParameterProblem, netfw/INetFwIcmpSettings::put_AllowOutboundParameterProblem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwIcmpSettings::get_AllowOutboundParameterProblem method
+# INetFwIcmpSettings::get_AllowOutboundParameterProblem
 
 
 ## -description

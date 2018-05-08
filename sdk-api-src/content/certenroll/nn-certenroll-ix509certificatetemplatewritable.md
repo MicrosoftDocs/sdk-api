@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 87660b16-06a8-4a71-8669-24521f1399e4
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateTemplateWritable, IX509CertificateTemplateWritable interface [Security], IX509CertificateTemplateWritable interface [Security], described, certenroll/IX509CertificateTemplateWritable, security.ix509certificatetemplatewritable
+ms.keywords: IX509CertificateTemplateWritable, IX509CertificateTemplateWritable interface [Security], IX509CertificateTemplateWritable interface [Security],described, certenroll/IX509CertificateTemplateWritable, security.ix509certificatetemplatewritable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

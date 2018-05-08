@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.SetDebugConfiguration
-title: IXAudio2::SetDebugConfiguration method
+title: IXAudio2::SetDebugConfiguration
 author: windows-driver-content
 description: Changes global debug logging options for XAudio2.
 old-location: xaudio2\ixaudio2_interface_setdebugconfiguration.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.SetDebugConfiguration(XAUDIO2_DEBUG_CONFIGURATION)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], SetDebugConfiguration method, IXAudio2::SetDebugConfiguration, SetDebugConfiguration method [XAudio2 Audio Mixing APIs], SetDebugConfiguration method [XAudio2 Audio Mixing APIs], IXAudio2 interface, SetDebugConfiguration,IXAudio2.SetDebugConfiguration, xaudio2.ixaudio2_interface_setdebugconfiguration, xaudio2/IXAudio2::SetDebugConfiguration
+ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],SetDebugConfiguration method, IXAudio2.SetDebugConfiguration, IXAudio2::SetDebugConfiguration, SetDebugConfiguration, SetDebugConfiguration method [XAudio2 Audio Mixing APIs], SetDebugConfiguration method [XAudio2 Audio Mixing APIs],IXAudio2 interface, xaudio2.ixaudio2_interface_setdebugconfiguration, xaudio2/IXAudio2::SetDebugConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2::SetDebugConfiguration method
+# IXAudio2::SetDebugConfiguration
 
 
 ## -description

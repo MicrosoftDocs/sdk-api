@@ -7,7 +7,7 @@ old-location: shell\SizeTToIntPtr.htm
 old-project: shell
 ms.assetid: 91e7119f-deac-4a72-8071-b92b031a311e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: SizeTToIntPtr, SizeTToIntPtr function [Windows Shell], UIntPtrToIntPtr, _shell_SizeTToIntPtr, intsafe/SizeTToIntPtr, shell.SizeTToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

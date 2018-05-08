@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTopology.GetNodeByID
-title: IMFTopology::GetNodeByID method
+title: IMFTopology::GetNodeByID
 author: windows-driver-content
 description: Gets a node in the topology, specified by node identifier.
 old-location: mf\imftopology_getnodebyid.htm
 old-project: medfound
 ms.assetid: 34c8326f-bd34-4bf6-9171-a1ed3191b85e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 34c8326f-bd34-4bf6-9171-a1ed3191b85e, GetNodeByID method [Media Foundation], GetNodeByID method [Media Foundation], IMFTopology interface, GetNodeByID,IMFTopology.GetNodeByID, IMFTopology, IMFTopology interface [Media Foundation], GetNodeByID method, IMFTopology::GetNodeByID, mf.imftopology_getnodebyid, mfidl/IMFTopology::GetNodeByID
+ms.date: 5/3/2018
+ms.keywords: 34c8326f-bd34-4bf6-9171-a1ed3191b85e, GetNodeByID, GetNodeByID method [Media Foundation], GetNodeByID method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNodeByID method, IMFTopology.GetNodeByID, IMFTopology::GetNodeByID, mf.imftopology_getnodebyid, mfidl/IMFTopology::GetNodeByID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTopology::GetNodeByID method
+# IMFTopology::GetNodeByID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.CloseTable
-title: ISimilarityTraitsTable::CloseTable method
+title: ISimilarityTraitsTable::CloseTable
 author: windows-driver-content
 description: Closes a similarity traits table.
 old-location: rdc\isimilaritytraitstable_closetable.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 941f1e81-035d-4935-bcdf-8c9c6ad9ed4d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CloseTable method [Remote Differential Compression], CloseTable method [Remote Differential Compression], ISimilarityTraitsTable interface, CloseTable,ISimilarityTraitsTable.CloseTable, ISimilarityTraitsTable, ISimilarityTraitsTable interface [Remote Differential Compression], CloseTable method, ISimilarityTraitsTable::CloseTable, fs.isimilaritytraitstable_closetable, msrdc/ISimilarityTraitsTable::CloseTable, rdc.isimilaritytraitstable_closetable
+ms.keywords: CloseTable, CloseTable method [Remote Differential Compression], CloseTable method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],CloseTable method, ISimilarityTraitsTable.CloseTable, ISimilarityTraitsTable::CloseTable, fs.isimilaritytraitstable_closetable, msrdc/ISimilarityTraitsTable::CloseTable, rdc.isimilaritytraitstable_closetable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityTraitsTable::CloseTable method
+# ISimilarityTraitsTable::CloseTable
 
 
 ## -description

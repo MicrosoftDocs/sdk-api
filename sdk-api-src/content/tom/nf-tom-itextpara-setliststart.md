@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.SetListStart
-title: ITextPara::SetListStart method
+title: ITextPara::SetListStart
 author: windows-driver-content
 description: Sets the starting number or Unicode value for a numbered list.
 old-location: controls\ITextPara_SetListStart.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setliststart.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextPara, ITextPara interface [Windows Controls], SetListStart method, ITextPara::SetListStart, SetListStart method [Windows Controls], SetListStart method [Windows Controls], ITextPara interface, SetListStart,ITextPara.SetListStart, _win32_ITextPara_SetListStart, _win32_ITextPara_SetListStart_cpp, controls.ITextPara_SetListStart, controls._win32_ITextPara_SetListStart, tom/ITextPara::SetListStart
+ms.date: 4/27/2018
+ms.keywords: ITextPara interface [Windows Controls],SetListStart method, ITextPara.SetListStart, ITextPara::SetListStart, SetListStart, SetListStart method [Windows Controls], SetListStart method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListStart, _win32_ITextPara_SetListStart_cpp, controls.ITextPara_SetListStart, controls._win32_ITextPara_SetListStart, tom/ITextPara::SetListStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::SetListStart method
+# ITextPara::SetListStart
 
 
 ## -description

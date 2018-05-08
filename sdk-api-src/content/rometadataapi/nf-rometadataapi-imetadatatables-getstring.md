@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetString
-title: IMetaDataTables::GetString method
+title: IMetaDataTables::GetString
 author: windows-driver-content
 description: Gets the string at the specified index from the table column in the current reference scope.
 old-location: winrt\imetadatatables_getstring.htm
 old-project: WinRT
 ms.assetid: 35b79dac-39c7-4ca2-8608-e7ea64d4574c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetString method [Windows Runtime], GetString method [Windows Runtime], IMetaDataTables interface, GetString,IMetaDataTables.GetString, IMetaDataTables, IMetaDataTables interface [Windows Runtime], GetString method, IMetaDataTables::GetString, rometadataapi/IMetaDataTables::GetString, winrt.imetadatatables_getstring
+ms.date: 5/4/2018
+ms.keywords: GetString, GetString method [Windows Runtime], GetString method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetString method, IMetaDataTables.GetString, IMetaDataTables::GetString, rometadataapi/IMetaDataTables::GetString, winrt.imetadatatables_getstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataTables::GetString method
+# IMetaDataTables::GetString
 
 
 ## -description

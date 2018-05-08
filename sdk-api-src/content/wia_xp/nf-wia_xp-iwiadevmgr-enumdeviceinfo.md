@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.EnumDeviceInfo
-title: IWiaDevMgr::EnumDeviceInfo method
+title: IWiaDevMgr::EnumDeviceInfo
 author: windows-driver-content
 description: Applications use the IWiaDevMgr::EnumDeviceInfo method to enumerate property information for each available Windows Image Acquisition (WIA) device.
 old-location: wia\_wia_IWiaDevMgr_EnumDeviceInfo.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\enumdeviceinfo.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: EnumDeviceInfo method [WIA], EnumDeviceInfo method [WIA], IWiaDevMgr interface, EnumDeviceInfo,IWiaDevMgr.EnumDeviceInfo, IWiaDevMgr, IWiaDevMgr interface [WIA], EnumDeviceInfo method, IWiaDevMgr::EnumDeviceInfo, _wia_IWiaDevMgr_EnumDeviceInfo, wia._wia_IWiaDevMgr_EnumDeviceInfo, wia_xp/IWiaDevMgr::EnumDeviceInfo
+ms.date: 5/3/2018
+ms.keywords: EnumDeviceInfo, EnumDeviceInfo method [WIA], EnumDeviceInfo method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],EnumDeviceInfo method, IWiaDevMgr.EnumDeviceInfo, IWiaDevMgr::EnumDeviceInfo, _wia_IWiaDevMgr_EnumDeviceInfo, wia._wia_IWiaDevMgr_EnumDeviceInfo, wia_xp/IWiaDevMgr::EnumDeviceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaDevMgr::EnumDeviceInfo method
+# IWiaDevMgr::EnumDeviceInfo
 
 
 ## -description

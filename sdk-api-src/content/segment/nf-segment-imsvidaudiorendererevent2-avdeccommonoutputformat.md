@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDecCommonOutputFormat
-title: IMSVidAudioRendererEvent2::AVDecCommonOutputFormat method
+title: IMSVidAudioRendererEvent2::AVDecCommonOutputFormat
 author: windows-driver-content
 description: Indicates a change in the AVDecCommonOutput codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdeccommonoutputformat.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: fe25dc52-bf79-488f-a897-e533c5209001
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AVDecCommonOutputFormat method [Microsoft TV Technologies], AVDecCommonOutputFormat method [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface, AVDecCommonOutputFormat,IMSVidAudioRendererEvent2.AVDecCommonOutputFormat, IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], AVDecCommonOutputFormat method, IMSVidAudioRendererEvent2::AVDecCommonOutputFormat, mstv.imsvidaudiorendererevent2_avdeccommonoutputformat, segment/IMSVidAudioRendererEvent2::AVDecCommonOutputFormat
+ms.keywords: AVDecCommonOutputFormat, AVDecCommonOutputFormat method [Microsoft TV Technologies], AVDecCommonOutputFormat method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecCommonOutputFormat method, IMSVidAudioRendererEvent2.AVDecCommonOutputFormat, IMSVidAudioRendererEvent2::AVDecCommonOutputFormat, mstv.imsvidaudiorendererevent2_avdeccommonoutputformat, segment/IMSVidAudioRendererEvent2::AVDecCommonOutputFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidAudioRendererEvent2::AVDecCommonOutputFormat method
+# IMSVidAudioRendererEvent2::AVDecCommonOutputFormat
 
 
 ## -description

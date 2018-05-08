@@ -8,7 +8,7 @@ old-project: QOS
 ms.assetid: f02ecb97-3797-49a0-8bff-fcb16096cb25
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: LPM_IpAddressTable, LPM_IpAddressTable callback function [QOS], _gqos_lpm_ipaddresstable, lpmapi/LPM_IpAddressTable, qos.lpm_ipaddresstable
+ms.keywords: LPM_IpAddressTable, LPM_IpAddressTable callback, LPM_IpAddressTable callback function [QOS], _gqos_lpm_ipaddresstable, lpmapi/LPM_IpAddressTable, qos.lpm_ipaddresstable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

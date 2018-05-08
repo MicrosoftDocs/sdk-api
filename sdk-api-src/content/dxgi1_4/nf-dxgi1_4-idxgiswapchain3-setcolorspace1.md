@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGISwapChain3.SetColorSpace1
-title: IDXGISwapChain3::SetColorSpace1 method
+title: IDXGISwapChain3::SetColorSpace1
 author: windows-driver-content
 description: Sets the color space used by the swap chain.
 old-location: direct3ddxgi\idxgiswapchain3_setcolorspace1.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 3B4391A5-C4E0-4D2E-BCEE-5DB635B98CFD
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGISwapChain3, IDXGISwapChain3 interface [DXGI], SetColorSpace1 method, IDXGISwapChain3::SetColorSpace1, SetColorSpace1 method [DXGI], SetColorSpace1 method [DXGI], IDXGISwapChain3 interface, SetColorSpace1,IDXGISwapChain3.SetColorSpace1, direct3ddxgi.idxgiswapchain3_setcolorspace1, dxgi1_4/IDXGISwapChain3::SetColorSpace1
+ms.keywords: IDXGISwapChain3 interface [DXGI],SetColorSpace1 method, IDXGISwapChain3.SetColorSpace1, IDXGISwapChain3::SetColorSpace1, SetColorSpace1, SetColorSpace1 method [DXGI], SetColorSpace1 method [DXGI],IDXGISwapChain3 interface, direct3ddxgi.idxgiswapchain3_setcolorspace1, dxgi1_4/IDXGISwapChain3::SetColorSpace1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain3::SetColorSpace1 method
+# IDXGISwapChain3::SetColorSpace1
 
 
 ## -description

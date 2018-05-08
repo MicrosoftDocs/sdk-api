@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 77b53b66-38fa-4823-9051-e857da8a7dd7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPCallBase, CMSPCallBase object [TAPI 2.2], CMSPCallBase object [TAPI 2.2], described, _tapi3_cmspcallbase, mspcall/CMSPCallBase, tapi3.cmspcallbase
+ms.keywords: CMSPCallBase, CMSPCallBase object [TAPI 2.2], CMSPCallBase object [TAPI 2.2],described, _tapi3_cmspcallbase, mspcall/CMSPCallBase, tapi3.cmspcallbase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

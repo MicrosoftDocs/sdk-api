@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 0cfb355e-af68-400d-aa64-57f17e7d936b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMCodecInfo2, IWMCodecInfo2 interface [windows Media Format], IWMCodecInfo2 interface [windows Media Format], described, IWMCodecInfo2Interface, wmformat.iwmcodecinfo2, wmsdkidl/IWMCodecInfo2
+ms.keywords: IWMCodecInfo2, IWMCodecInfo2 interface [windows Media Format], IWMCodecInfo2 interface [windows Media Format],described, IWMCodecInfo2Interface, wmformat.iwmcodecinfo2, wmsdkidl/IWMCodecInfo2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

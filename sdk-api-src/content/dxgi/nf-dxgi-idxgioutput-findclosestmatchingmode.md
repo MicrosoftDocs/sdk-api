@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.FindClosestMatchingMode
-title: IDXGIOutput::FindClosestMatchingMode method
+title: IDXGIOutput::FindClosestMatchingMode
 author: windows-driver-content
 description: Finds the display mode that most closely matches the requested display mode.
 old-location: direct3ddxgi\idxgioutput_findclosestmatchingmode.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_findclosestmatchingmode.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: FindClosestMatchingMode method [DXGI], FindClosestMatchingMode method [DXGI], IDXGIOutput interface, FindClosestMatchingMode,IDXGIOutput.FindClosestMatchingMode, IDXGIOutput, IDXGIOutput interface [DXGI], FindClosestMatchingMode method, IDXGIOutput::FindClosestMatchingMode, c140400c-32d4-ec57-8da0-a37a23cfd5e4, direct3ddxgi.idxgioutput_findclosestmatchingmode, dxgi/IDXGIOutput::FindClosestMatchingMode
+ms.keywords: FindClosestMatchingMode, FindClosestMatchingMode method [DXGI], FindClosestMatchingMode method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],FindClosestMatchingMode method, IDXGIOutput.FindClosestMatchingMode, IDXGIOutput::FindClosestMatchingMode, c140400c-32d4-ec57-8da0-a37a23cfd5e4, direct3ddxgi.idxgioutput_findclosestmatchingmode, dxgi/IDXGIOutput::FindClosestMatchingMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput::FindClosestMatchingMode method
+# IDXGIOutput::FindClosestMatchingMode
 
 
 ## -description

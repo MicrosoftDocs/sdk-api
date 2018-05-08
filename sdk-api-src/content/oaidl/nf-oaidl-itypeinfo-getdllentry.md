@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetDllEntry
-title: ITypeInfo::GetDllEntry method
+title: ITypeInfo::GetDllEntry
 author: windows-driver-content
 description: Retrieves a description or specification of an entry point for a function in a DLL.
 old-location: automat\itypeinfo_getdllentry.htm
 old-project: automat
 ms.assetid: 1b947de4-4a3e-40f3-837b-c60b0ab67ef1
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetDllEntry method [Automation], GetDllEntry method [Automation], ITypeInfo interface, GetDllEntry,ITypeInfo.GetDllEntry, ITypeInfo, ITypeInfo interface [Automation], GetDllEntry method, ITypeInfo::GetDllEntry, _oa96_ITypeInfo_GetDllEntry, automat.itypeinfo_getdllentry, oaidl/ITypeInfo::GetDllEntry
+ms.date: 5/4/2018
+ms.keywords: GetDllEntry, GetDllEntry method [Automation], GetDllEntry method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetDllEntry method, ITypeInfo.GetDllEntry, ITypeInfo::GetDllEntry, _oa96_ITypeInfo_GetDllEntry, automat.itypeinfo_getdllentry, oaidl/ITypeInfo::GetDllEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo::GetDllEntry method
+# ITypeInfo::GetDllEntry
 
 
 ## -description

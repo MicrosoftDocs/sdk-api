@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_NumInputConnections
-title: IAMTVTuner::get_NumInputConnections method
+title: IAMTVTuner::get_NumInputConnections
 author: windows-driver-content
 description: The get_NumInputConnections method retrieves the number of TV sources plugged into the tuner filter.
 old-location: dshow\iamtvtuner_get_numinputconnections.htm
 old-project: DirectShow
 ms.assetid: 06841331-3b85-4532-8c0c-96022885f92c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTVTuner, IAMTVTuner interface [DirectShow], get_NumInputConnections method, IAMTVTuner::get_NumInputConnections, IAMTVTunerget_NumInputConnections, dshow.iamtvtuner_get_numinputconnections, get_NumInputConnections method [DirectShow], get_NumInputConnections method [DirectShow], IAMTVTuner interface, get_NumInputConnections,IAMTVTuner.get_NumInputConnections, strmif/IAMTVTuner::get_NumInputConnections
+ms.date: 4/30/2018
+ms.keywords: IAMTVTuner interface [DirectShow],get_NumInputConnections method, IAMTVTuner.get_NumInputConnections, IAMTVTuner::get_NumInputConnections, IAMTVTunerget_NumInputConnections, dshow.iamtvtuner_get_numinputconnections, get_NumInputConnections, get_NumInputConnections method [DirectShow], get_NumInputConnections method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_NumInputConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTVTuner::get_NumInputConnections method
+# IAMTVTuner::get_NumInputConnections
 
 
 ## -description

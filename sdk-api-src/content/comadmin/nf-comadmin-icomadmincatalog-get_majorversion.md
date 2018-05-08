@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.get_MajorVersion
-title: ICOMAdminCatalog::get_MajorVersion method
+title: ICOMAdminCatalog::get_MajorVersion
 author: windows-driver-content
 description: Retrieves the major version number of the COMAdmin library.
 old-location: cos\icomadmincatalog_majorversion.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: caa82b0e-435d-4d98-bef0-cd823213c518
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], MajorVersion property, ICOMAdminCatalog.MajorVersion, ICOMAdminCatalog::get_MajorVersion, MajorVersion property [COM+], MajorVersion property [COM+], ICOMAdminCatalog interface, _cos_IComAdminCatalog_get_MajorVersion, comadmin/ICOMAdminCatalog::MajorVersion, comadmin/ICOMAdminCatalog::get_MajorVersion, cos.icomadmincatalog_majorversion, get_MajorVersion,ICOMAdminCatalog.get_MajorVersion
+ms.keywords: ICOMAdminCatalog interface [COM+],MajorVersion property, ICOMAdminCatalog.MajorVersion, ICOMAdminCatalog.get_MajorVersion, ICOMAdminCatalog::MajorVersion, ICOMAdminCatalog::get_MajorVersion, MajorVersion property [COM+], MajorVersion property [COM+],ICOMAdminCatalog interface, _cos_IComAdminCatalog_get_MajorVersion, comadmin/ICOMAdminCatalog::MajorVersion, comadmin/ICOMAdminCatalog::get_MajorVersion, cos.icomadmincatalog_majorversion, get_MajorVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::get_MajorVersion method
+# ICOMAdminCatalog::get_MajorVersion
 
 
 ## -description

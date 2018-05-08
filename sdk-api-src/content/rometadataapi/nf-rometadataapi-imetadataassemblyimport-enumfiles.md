@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumFiles
-title: IMetaDataAssemblyImport::EnumFiles method
+title: IMetaDataAssemblyImport::EnumFiles
 author: windows-driver-content
 description: Enumerates the files referenced in the current assembly manifest.
 old-location: winrt\imetadataassemblyimport_enumfiles.htm
 old-project: WinRT
 ms.assetid: 4039432e-bcf1-4460-8be7-9f02c250ecc6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumFiles method [Windows Runtime], EnumFiles method [Windows Runtime], IMetaDataAssemblyImport interface, EnumFiles,IMetaDataAssemblyImport.EnumFiles, IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], EnumFiles method, IMetaDataAssemblyImport::EnumFiles, rometadataapi/IMetaDataAssemblyImport::EnumFiles, winrt.imetadataassemblyimport_enumfiles
+ms.date: 5/4/2018
+ms.keywords: EnumFiles, EnumFiles method [Windows Runtime], EnumFiles method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumFiles method, IMetaDataAssemblyImport.EnumFiles, IMetaDataAssemblyImport::EnumFiles, rometadataapi/IMetaDataAssemblyImport::EnumFiles, winrt.imetadataassemblyimport_enumfiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataAssemblyImport::EnumFiles method
+# IMetaDataAssemblyImport::EnumFiles
 
 
 ## -description

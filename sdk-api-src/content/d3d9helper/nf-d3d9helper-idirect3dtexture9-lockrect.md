@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DTexture9.LockRect
-title: IDirect3DTexture9::LockRect method
+title: IDirect3DTexture9::LockRect
 author: windows-driver-content
 description: Locks a rectangle on a texture resource.
 old-location: direct3d9\idirect3dtexture9__lockrect.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9__lockrect.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DTexture9, IDirect3DTexture9 interface [Direct3D 9], LockRect method, IDirect3DTexture9::LockRect, LockRect method [Direct3D 9], LockRect method [Direct3D 9], IDirect3DTexture9 interface, LockRect,IDirect3DTexture9.LockRect, d0e2d5f7-5658-91b3-8546-73a643bf1df0, d3d9helper/IDirect3DTexture9::LockRect, direct3d9.idirect3dtexture9__lockrect
+ms.keywords: IDirect3DTexture9 interface [Direct3D 9],LockRect method, IDirect3DTexture9.LockRect, IDirect3DTexture9::LockRect, LockRect, LockRect method [Direct3D 9], LockRect method [Direct3D 9],IDirect3DTexture9 interface, d0e2d5f7-5658-91b3-8546-73a643bf1df0, d3d9helper/IDirect3DTexture9::LockRect, direct3d9.idirect3dtexture9__lockrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DTexture9::LockRect method
+# IDirect3DTexture9::LockRect
 
 
 ## -description

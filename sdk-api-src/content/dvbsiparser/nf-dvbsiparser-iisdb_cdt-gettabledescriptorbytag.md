@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetTableDescriptorByTag
-title: IISDB_CDT::GetTableDescriptorByTag method
+title: IISDB_CDT::GetTableDescriptorByTag
 author: windows-driver-content
 description: Searches a subtable in an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_gettabledescriptorbytag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c06f9d03-a46a-4c3f-bacc-a78f79c411c3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies], IISDB_CDT interface, GetTableDescriptorByTag,IISDB_CDT.GetTableDescriptorByTag, IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], GetTableDescriptorByTag method, IISDB_CDT::GetTableDescriptorByTag, dvbsiparser/IISDB_CDT::GetTableDescriptorByTag, mstv.iisdb_cdt_gettabledescriptorbytag
+ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IISDB_CDT.GetTableDescriptorByTag, IISDB_CDT::GetTableDescriptorByTag, dvbsiparser/IISDB_CDT::GetTableDescriptorByTag, mstv.iisdb_cdt_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_CDT::GetTableDescriptorByTag method
+# IISDB_CDT::GetTableDescriptorByTag
 
 
 ## -description

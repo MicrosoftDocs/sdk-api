@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.Clone
-title: IMFASFProfile::Clone method
+title: IMFASFProfile::Clone
 author: windows-driver-content
 description: Creates a copy of the Advanced Systems Format profile object.
 old-location: mf\imfasfprofile_clone.htm
 old-project: medfound
 ms.assetid: e91d3d2c-ef08-460e-b6f8-e8eed8df5a67
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: Clone method [Media Foundation], Clone method [Media Foundation], IMFASFProfile interface, Clone,IMFASFProfile.Clone, IMFASFProfile, IMFASFProfile interface [Media Foundation], Clone method, IMFASFProfile::Clone, e91d3d2c-ef08-460e-b6f8-e8eed8df5a67, mf.imfasfprofile_clone, wmcontainer/IMFASFProfile::Clone
+ms.date: 5/3/2018
+ms.keywords: Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],Clone method, IMFASFProfile.Clone, IMFASFProfile::Clone, e91d3d2c-ef08-460e-b6f8-e8eed8df5a67, mf.imfasfprofile_clone, wmcontainer/IMFASFProfile::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFProfile::Clone method
+# IMFASFProfile::Clone
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.GetSink
-title: IMFCaptureEngine::GetSink method
+title: IMFCaptureEngine::GetSink
 author: windows-driver-content
 description: Gets a pointer to one of the capture sink objects.
 old-location: mf\imfcaptureengine_getsink.htm
 old-project: medfound
 ms.assetid: 7DAF5EA3-BA65-4CF9-B7BA-B427A48BF3BC
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetSink method [Media Foundation], GetSink method [Media Foundation], IMFCaptureEngine interface, GetSink,IMFCaptureEngine.GetSink, IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], GetSink method, IMFCaptureEngine::GetSink, mf.imfcaptureengine_getsink, mfcaptureengine/IMFCaptureEngine::GetSink
+ms.date: 5/3/2018
+ms.keywords: GetSink, GetSink method [Media Foundation], GetSink method [Media Foundation],IMFCaptureEngine interface, IMFCaptureEngine interface [Media Foundation],GetSink method, IMFCaptureEngine.GetSink, IMFCaptureEngine::GetSink, mf.imfcaptureengine_getsink, mfcaptureengine/IMFCaptureEngine::GetSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureEngine::GetSink method
+# IMFCaptureEngine::GetSink
 
 
 ## -description

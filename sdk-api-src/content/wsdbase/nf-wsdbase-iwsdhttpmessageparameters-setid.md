@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetID
-title: IWSDHttpMessageParameters::SetID method
+title: IWSDHttpMessageParameters::SetID
 author: windows-driver-content
 description: Sets the transport ID for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_setid.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 95a05239-f1d5-4bd8-8aec-1e641397caa0
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, SetID method, IWSDHttpMessageParameters::SetID, SetID method, SetID method, IWSDHttpMessageParameters interface, SetID,IWSDHttpMessageParameters.SetID, ncd.iwsdhttpmessageparameters_setid, ncd.iwsdhttpmessasgeparameters_setid, wsdbase/IWSDHttpMessageParameters::SetID
+ms.keywords: IWSDHttpMessageParameters interface,SetID method, IWSDHttpMessageParameters.SetID, IWSDHttpMessageParameters::SetID, SetID, SetID method, SetID method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setid, ncd.iwsdhttpmessasgeparameters_setid, wsdbase/IWSDHttpMessageParameters::SetID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDHttpMessageParameters::SetID method
+# IWSDHttpMessageParameters::SetID
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.SetTransportAddress
-title: IWSDTransportAddress::SetTransportAddress method
+title: IWSDTransportAddress::SetTransportAddress
 author: windows-driver-content
 description: Sets the string representation of the transport address.
 old-location: ncd\iwsdtransportaddress_settransportaddress.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: ea87b7d8-71c0-4cb6-b28b-7ac8f2417886
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDTransportAddress, IWSDTransportAddress interface, SetTransportAddress method, IWSDTransportAddress::SetTransportAddress, SetTransportAddress method, SetTransportAddress method, IWSDTransportAddress interface, SetTransportAddress,IWSDTransportAddress.SetTransportAddress, ncd.iwsdtransportaddress_settransportaddress, wsdbase/IWSDTransportAddress::SetTransportAddress
+ms.keywords: IWSDTransportAddress interface,SetTransportAddress method, IWSDTransportAddress.SetTransportAddress, IWSDTransportAddress::SetTransportAddress, SetTransportAddress, SetTransportAddress method, SetTransportAddress method,IWSDTransportAddress interface, ncd.iwsdtransportaddress_settransportaddress, wsdbase/IWSDTransportAddress::SetTransportAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDTransportAddress::SetTransportAddress method
+# IWSDTransportAddress::SetTransportAddress
 
 
 ## -description

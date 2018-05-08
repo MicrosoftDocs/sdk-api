@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.get_PanRelative
-title: ICameraControl::get_PanRelative method
+title: ICameraControl::get_PanRelative
 author: windows-driver-content
 description: The get_PanRelative method returns the camera's relative pan. The relative pan is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_get_panrelative.htm
 old-project: DirectShow
 ms.assetid: a7237e0a-82b3-4e2a-a6c7-97fbb03b5917
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_PanRelative method, ICameraControl::get_PanRelative, ICameraControlget_PanRelative, dshow.icameracontrol_get_panrelative, get_PanRelative method [DirectShow], get_PanRelative method [DirectShow], ICameraControl interface, get_PanRelative,ICameraControl.get_PanRelative, vidcap/ICameraControl::get_PanRelative
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],get_PanRelative method, ICameraControl.get_PanRelative, ICameraControl::get_PanRelative, ICameraControlget_PanRelative, dshow.icameracontrol_get_panrelative, get_PanRelative, get_PanRelative method [DirectShow], get_PanRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PanRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::get_PanRelative method
+# ICameraControl::get_PanRelative
 
 
 ## -description

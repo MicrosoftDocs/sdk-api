@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSampleGrabberSinkCallback2.OnProcessSampleEx
-title: IMFSampleGrabberSinkCallback2::OnProcessSampleEx method
+title: IMFSampleGrabberSinkCallback2::OnProcessSampleEx
 author: windows-driver-content
 description: Called when the sample-grabber sink receives a new media sample.
 old-location: mf\imfsamplegrabbersinkcallback2_onprocesssampleex.htm
 old-project: medfound
 ms.assetid: dc880967-ac97-4835-bbc9-1bd664e42739
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSampleGrabberSinkCallback2, IMFSampleGrabberSinkCallback2 interface [Media Foundation], OnProcessSampleEx method, IMFSampleGrabberSinkCallback2::OnProcessSampleEx, OnProcessSampleEx method [Media Foundation], OnProcessSampleEx method [Media Foundation], IMFSampleGrabberSinkCallback2 interface, OnProcessSampleEx,IMFSampleGrabberSinkCallback2.OnProcessSampleEx, mf.imfsamplegrabbersinkcallback2_onprocesssampleex, mfidl/IMFSampleGrabberSinkCallback2::OnProcessSampleEx
+ms.date: 5/3/2018
+ms.keywords: IMFSampleGrabberSinkCallback2 interface [Media Foundation],OnProcessSampleEx method, IMFSampleGrabberSinkCallback2.OnProcessSampleEx, IMFSampleGrabberSinkCallback2::OnProcessSampleEx, OnProcessSampleEx, OnProcessSampleEx method [Media Foundation], OnProcessSampleEx method [Media Foundation],IMFSampleGrabberSinkCallback2 interface, mf.imfsamplegrabbersinkcallback2_onprocesssampleex, mfidl/IMFSampleGrabberSinkCallback2::OnProcessSampleEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSampleGrabberSinkCallback2::OnProcessSampleEx method
+# IMFSampleGrabberSinkCallback2::OnProcessSampleEx
 
 
 ## -description

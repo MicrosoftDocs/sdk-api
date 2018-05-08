@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphIndices
-title: IXpsOMGlyphs::GetGlyphIndices method
+title: IXpsOMGlyphs::GetGlyphIndices
 author: windows-driver-content
 description: Gets an array of XPS_GLYPH_INDEX structures that describe the specific glyph indices in the font.
 old-location: xps\ixpsomglyphs_getglyphindices.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 6698ae0b-3525-4612-8234-8ba4dd2870a0
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetGlyphIndices method [XPS Documents and Packaging], GetGlyphIndices method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetGlyphIndices,IXpsOMGlyphs.GetGlyphIndices, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetGlyphIndices method, IXpsOMGlyphs::GetGlyphIndices, xps.ixpsomglyphs_getglyphindices, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndices
+ms.keywords: GetGlyphIndices, GetGlyphIndices method [XPS Documents and Packaging], GetGlyphIndices method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphIndices method, IXpsOMGlyphs.GetGlyphIndices, IXpsOMGlyphs::GetGlyphIndices, xps.ixpsomglyphs_getglyphindices, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetGlyphIndices method
+# IXpsOMGlyphs::GetGlyphIndices
 
 
 ## -description

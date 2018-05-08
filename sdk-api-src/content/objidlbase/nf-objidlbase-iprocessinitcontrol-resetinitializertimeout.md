@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IProcessInitControl.ResetInitializerTimeout
-title: IProcessInitControl::ResetInitializerTimeout method
+title: IProcessInitControl::ResetInitializerTimeout
 author: windows-driver-content
 description: Sets the process initialization time-out.
 old-location: com\iprocessinitcontrol_resetinitializertimeout.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1045b9c9-d7ad-4306-bd9d-7c2a4bda9a62
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IProcessInitControl, IProcessInitControl interface [COM], ResetInitializerTimeout method, IProcessInitControl::ResetInitializerTimeout, ResetInitializerTimeout method [COM], ResetInitializerTimeout method [COM], IProcessInitControl interface, ResetInitializerTimeout,IProcessInitControl.ResetInitializerTimeout, _com_iprocessinitcontrol_resetinitializertimeout, com.iprocessinitcontrol_resetinitializertimeout, objidlbase/IProcessInitControl::ResetInitializerTimeout
+ms.keywords: IProcessInitControl interface [COM],ResetInitializerTimeout method, IProcessInitControl.ResetInitializerTimeout, IProcessInitControl::ResetInitializerTimeout, ResetInitializerTimeout, ResetInitializerTimeout method [COM], ResetInitializerTimeout method [COM],IProcessInitControl interface, _com_iprocessinitcontrol_resetinitializertimeout, com.iprocessinitcontrol_resetinitializertimeout, objidlbase/IProcessInitControl::ResetInitializerTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IProcessInitControl::ResetInitializerTimeout method
+# IProcessInitControl::ResetInitializerTimeout
 
 
 ## -description

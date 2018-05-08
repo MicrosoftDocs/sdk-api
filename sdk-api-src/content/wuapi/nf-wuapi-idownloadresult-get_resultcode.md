@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadResult.get_ResultCode
-title: IDownloadResult::get_ResultCode method
+title: IDownloadResult::get_ResultCode
 author: windows-driver-content
 description: Gets an OperationResultCodeenumeration that specifies the result of the download.
 old-location: wua\idownloadresult_resultcode.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 5c3756b1-ad1a-47c8-98ff-e8e602302662
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IDownloadResult, IDownloadResult interface [Windows Update Agent], ResultCode property, IDownloadResult.ResultCode, IDownloadResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent], IDownloadResult interface, get_ResultCode,IDownloadResult.get_ResultCode, wua.idownloadresult_resultcode, wuapi/IDownloadResult::ResultCode, wuapi/IDownloadResult::get_ResultCode
+ms.keywords: IDownloadResult interface [Windows Update Agent],ResultCode property, IDownloadResult.ResultCode, IDownloadResult.get_ResultCode, IDownloadResult::ResultCode, IDownloadResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IDownloadResult interface, get_ResultCode, wua.idownloadresult_resultcode, wuapi/IDownloadResult::ResultCode, wuapi/IDownloadResult::get_ResultCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IDownloadResult::get_ResultCode method
+# IDownloadResult::get_ResultCode
 
 
 ## -description

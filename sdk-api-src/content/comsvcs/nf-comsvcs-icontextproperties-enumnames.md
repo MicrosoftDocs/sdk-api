@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IContextProperties.EnumNames
-title: IContextProperties::EnumNames method
+title: IContextProperties::EnumNames
 author: windows-driver-content
 description: Retrieves a reference to an enumerator for the context object properties.
 old-location: cos\icontextproperties_enumnames.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: cae9eaf7-a422-4daa-9f0a-e7863f167112
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: EnumNames method [COM+], EnumNames method [COM+], IContextProperties interface, EnumNames,IContextProperties.EnumNames, IContextProperties, IContextProperties interface [COM+], EnumNames method, IContextProperties::EnumNames, _cos_IContextProperties_EnumNames, comsvcs/IContextProperties::EnumNames, cos.icontextproperties_enumnames
+ms.keywords: EnumNames, EnumNames method [COM+], EnumNames method [COM+],IContextProperties interface, IContextProperties interface [COM+],EnumNames method, IContextProperties.EnumNames, IContextProperties::EnumNames, _cos_IContextProperties_EnumNames, comsvcs/IContextProperties::EnumNames, cos.icontextproperties_enumnames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IContextProperties::EnumNames method
+# IContextProperties::EnumNames
 
 
 ## -description

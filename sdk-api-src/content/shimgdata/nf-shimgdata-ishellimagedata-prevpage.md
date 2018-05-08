@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.PrevPage
-title: IShellImageData::PrevPage method
+title: IShellImageData::PrevPage
 author: windows-driver-content
 description: Switches to the previous page of a multipage image. Any associated animations are reset.
 old-location: shell\IShellImageData_PrevPage.htm
 old-project: shell
 ms.assetid: d3a4f07e-a1c0-4180-a02c-12eaebaaf1d2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], PrevPage method, IShellImageData::PrevPage, PrevPage method [Windows Shell], PrevPage method [Windows Shell], IShellImageData interface, PrevPage,IShellImageData.PrevPage, _shell_IShellImageData_PrevPage, shell.IShellImageData_PrevPage, shimgdata/IShellImageData::PrevPage
+ms.date: 5/3/2018
+ms.keywords: IShellImageData interface [Windows Shell],PrevPage method, IShellImageData.PrevPage, IShellImageData::PrevPage, PrevPage, PrevPage method [Windows Shell], PrevPage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_PrevPage, shell.IShellImageData_PrevPage, shimgdata/IShellImageData::PrevPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::PrevPage method
+# IShellImageData::PrevPage
 
 
 ## -description

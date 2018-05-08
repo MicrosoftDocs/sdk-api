@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.Show
-title: IRDPSRAPIWindow::Show method
+title: IRDPSRAPIWindow::Show
 author: windows-driver-content
 description: Brings the current window to the foreground.
 old-location: rdp\irdpsrapiwindow_show.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 6b7aa5e7-7981-41c4-bb47-30b3d0d54bc1
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], Show method, IRDPSRAPIWindow::Show, Show method [RDP], Show method [RDP], IRDPSRAPIWindow interface, Show,IRDPSRAPIWindow.Show, rdp.irdpsrapiwindow_show, rdpencomapi/IRDPSRAPIWindow::Show
+ms.keywords: IRDPSRAPIWindow interface [RDP],Show method, IRDPSRAPIWindow.Show, IRDPSRAPIWindow::Show, Show, Show method [RDP], Show method [RDP],IRDPSRAPIWindow interface, rdp.irdpsrapiwindow_show, rdpencomapi/IRDPSRAPIWindow::Show
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIWindow::Show method
+# IRDPSRAPIWindow::Show
 
 
 ## -description

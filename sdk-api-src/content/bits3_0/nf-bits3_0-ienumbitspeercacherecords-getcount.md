@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.GetCount
-title: IEnumBitsPeerCacheRecords::GetCount method
+title: IEnumBitsPeerCacheRecords::GetCount
 author: windows-driver-content
 description: Retrieves a count of the number of cache records in the enumeration.
 old-location: bits\ienumbitspeercacherecords_getcount.htm
 old-project: Bits
 ms.assetid: 40c4e7da-031f-4c3b-ab18-2476b54ae972
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetCount method [BITS], GetCount method [BITS], IEnumBitsPeerCacheRecords interface, GetCount,IEnumBitsPeerCacheRecords.GetCount, IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], GetCount method, IEnumBitsPeerCacheRecords::GetCount, bits.ienumbitspeercacherecords_getcount, bits3_0/IEnumBitsPeerCacheRecords::GetCount
+ms.date: 4/27/2018
+ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBitsPeerCacheRecords interface, IEnumBitsPeerCacheRecords interface [BITS],GetCount method, IEnumBitsPeerCacheRecords.GetCount, IEnumBitsPeerCacheRecords::GetCount, bits.ienumbitspeercacherecords_getcount, bits3_0/IEnumBitsPeerCacheRecords::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumBitsPeerCacheRecords::GetCount method
+# IEnumBitsPeerCacheRecords::GetCount
 
 
 ## -description

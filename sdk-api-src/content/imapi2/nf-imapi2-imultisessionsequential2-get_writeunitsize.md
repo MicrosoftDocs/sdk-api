@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisessionSequential2.get_WriteUnitSize
-title: IMultisessionSequential2::get_WriteUnitSize method
+title: IMultisessionSequential2::get_WriteUnitSize
 author: windows-driver-content
 description: Retrieves the size of a writeable unit on the media.
 old-location: imapi\imultisessionsequential2_get_writeunitsize.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 9d784477-7e6d-4433-81d2-c756dcfb060b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMultisessionSequential2, IMultisessionSequential2 interface [IMAPI], get_WriteUnitSize method, IMultisessionSequential2::get_WriteUnitSize, get_WriteUnitSize method [IMAPI], get_WriteUnitSize method [IMAPI], IMultisessionSequential2 interface, get_WriteUnitSize,IMultisessionSequential2.get_WriteUnitSize, imapi.imultisessionsequential2_get_writeunitsize, imapi2/IMultisessionSequential2::get_WriteUnitSize
+ms.keywords: IMultisessionSequential2 interface [IMAPI],get_WriteUnitSize method, IMultisessionSequential2.get_WriteUnitSize, IMultisessionSequential2::get_WriteUnitSize, get_WriteUnitSize, get_WriteUnitSize method [IMAPI], get_WriteUnitSize method [IMAPI],IMultisessionSequential2 interface, imapi.imultisessionsequential2_get_writeunitsize, imapi2/IMultisessionSequential2::get_WriteUnitSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMultisessionSequential2::get_WriteUnitSize method
+# IMultisessionSequential2::get_WriteUnitSize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.SetModePage
-title: IDiscRecorder2Ex::SetModePage method
+title: IDiscRecorder2Ex::SetModePage
 author: windows-driver-content
 description: Sets the mode page data for the device.
 old-location: imapi\idiscrecorder2ex_setmodepage.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 7ca1e8c0-d75d-40a7-8b2e-5c240c410031
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscRecorder2Ex, IDiscRecorder2Ex interface [IMAPI], SetModePage method, IDiscRecorder2Ex::SetModePage, SetModePage method [IMAPI], SetModePage method [IMAPI], IDiscRecorder2Ex interface, SetModePage,IDiscRecorder2Ex.SetModePage, imapi.idiscrecorder2ex_setmodepage, imapi2/IDiscRecorder2Ex::SetModePage
+ms.keywords: IDiscRecorder2Ex interface [IMAPI],SetModePage method, IDiscRecorder2Ex.SetModePage, IDiscRecorder2Ex::SetModePage, SetModePage, SetModePage method [IMAPI], SetModePage method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_setmodepage, imapi2/IDiscRecorder2Ex::SetModePage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2Ex::SetModePage method
+# IDiscRecorder2Ex::SetModePage
 
 
 ## -description

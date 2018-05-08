@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectConstantBuffer.SetTextureBuffer
-title: ID3D10EffectConstantBuffer::SetTextureBuffer method
+title: ID3D10EffectConstantBuffer::SetTextureBuffer
 author: windows-driver-content
 description: Set a texture-buffer.
 old-location: direct3d10\id3d10effectconstantbuffer_settexturebuffer.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectconstantbuffer_settexturebuffer.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 57b8698c-c62f-21ac-a3a9-23505d336b9a, ID3D10EffectConstantBuffer, ID3D10EffectConstantBuffer interface [Direct3D 10], SetTextureBuffer method, ID3D10EffectConstantBuffer::SetTextureBuffer, SetTextureBuffer method [Direct3D 10], SetTextureBuffer method [Direct3D 10], ID3D10EffectConstantBuffer interface, SetTextureBuffer,ID3D10EffectConstantBuffer.SetTextureBuffer, d3d10effect/ID3D10EffectConstantBuffer::SetTextureBuffer, direct3d10.id3d10effectconstantbuffer_settexturebuffer
+ms.keywords: 57b8698c-c62f-21ac-a3a9-23505d336b9a, ID3D10EffectConstantBuffer interface [Direct3D 10],SetTextureBuffer method, ID3D10EffectConstantBuffer.SetTextureBuffer, ID3D10EffectConstantBuffer::SetTextureBuffer, SetTextureBuffer, SetTextureBuffer method [Direct3D 10], SetTextureBuffer method [Direct3D 10],ID3D10EffectConstantBuffer interface, d3d10effect/ID3D10EffectConstantBuffer::SetTextureBuffer, direct3d10.id3d10effectconstantbuffer_settexturebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectConstantBuffer::SetTextureBuffer method
+# ID3D10EffectConstantBuffer::SetTextureBuffer
 
 
 ## -description

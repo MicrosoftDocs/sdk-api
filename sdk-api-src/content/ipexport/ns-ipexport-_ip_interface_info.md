@@ -7,7 +7,7 @@ old-location: iphlp\ip_interface_info.htm
 old-project: IpHlp
 ms.assetid: 287a4574-0a0f-4f20-932b-22bb6f40401d
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: "*PIP_INTERFACE_INFO, IP_INTERFACE_INFO, IP_INTERFACE_INFO structure [IP Helper], PIP_INTERFACE_INFO, PIP_INTERFACE_INFO structure pointer [IP Helper], _IP_INTERFACE_INFO, _iphlp_ip_interface_info, ipexport/IP_INTERFACE_INFO, ipexport/PIP_INTERFACE_INFO, iphlp.ip_interface_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

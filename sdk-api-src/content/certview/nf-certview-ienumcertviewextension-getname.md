@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.GetName
-title: IEnumCERTVIEWEXTENSION::GetName method
+title: IEnumCERTVIEWEXTENSION::GetName
 author: windows-driver-content
 description: Retrieves the name of the current extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_getname.htm
 old-project: SecCrypto
 ms.assetid: 7c56708c-ae25-46f5-94f3-d58eea8d08d4
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnumCERTVIEWEXTENSION object [Security], GetName method, GetName method [Security], GetName method [Security], CEnumCERTVIEWEXTENSION object, GetName method [Security], IEnumCERTVIEWEXTENSION interface, GetName,IEnumCERTVIEWEXTENSION.GetName, IEnumCERTVIEWEXTENSION, IEnumCERTVIEWEXTENSION interface [Security], GetName method, IEnumCERTVIEWEXTENSION::GetName, _certsrv_ienumcertviewextension_getname, certview/IEnumCERTVIEWEXTENSION::GetName, security.ienumcertviewextension_getname
+ms.date: 4/30/2018
+ms.keywords: CEnumCERTVIEWEXTENSION object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CEnumCERTVIEWEXTENSION object, GetName method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],GetName method, IEnumCERTVIEWEXTENSION.GetName, IEnumCERTVIEWEXTENSION::GetName, _certsrv_ienumcertviewextension_getname, certview/IEnumCERTVIEWEXTENSION::GetName, security.ienumcertviewextension_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWEXTENSION::GetName method
+# IEnumCERTVIEWEXTENSION::GetName
 
 
 ## -description

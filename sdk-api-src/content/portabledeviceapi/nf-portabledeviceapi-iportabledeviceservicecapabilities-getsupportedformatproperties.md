@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedFormatProperties
-title: IPortableDeviceServiceCapabilities::GetSupportedFormatProperties method
+title: IPortableDeviceServiceCapabilities::GetSupportedFormatProperties
 author: windows-driver-content
 description: Retrieves the properties supported by the service for the specified format.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedformatproperties.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 80ce7975-c567-4c99-9eb5-6d494a0f1883
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetSupportedFormatProperties method [Windows Portable Devices SDK], GetSupportedFormatProperties method [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface, GetSupportedFormatProperties,IPortableDeviceServiceCapabilities.GetSupportedFormatProperties, IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], GetSupportedFormatProperties method, IPortableDeviceServiceCapabilities::GetSupportedFormatProperties, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedFormatProperties, wpdsdk.iportabledeviceservicecapabilities_getsupportedformatproperties
+ms.keywords: GetSupportedFormatProperties, GetSupportedFormatProperties method [Windows Portable Devices SDK], GetSupportedFormatProperties method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormatProperties method, IPortableDeviceServiceCapabilities.GetSupportedFormatProperties, IPortableDeviceServiceCapabilities::GetSupportedFormatProperties, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedFormatProperties, wpdsdk.iportabledeviceservicecapabilities_getsupportedformatproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceCapabilities::GetSupportedFormatProperties method
+# IPortableDeviceServiceCapabilities::GetSupportedFormatProperties
 
 
 ## -description

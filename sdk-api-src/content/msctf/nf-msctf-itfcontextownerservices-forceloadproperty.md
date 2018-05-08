@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.ForceLoadProperty
-title: ITfContextOwnerServices::ForceLoadProperty method
+title: ITfContextOwnerServices::ForceLoadProperty
 author: windows-driver-content
 description: ITfContextOwnerServices::ForceLoadProperty method
 old-location: tsf\itfcontextownerservices_forceloadproperty.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 7f77d82f-e048-463f-bf0d-15bf1daaddb6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ForceLoadProperty method [Text Services Framework], ForceLoadProperty method [Text Services Framework], ITfContextOwnerServices interface, ForceLoadProperty,ITfContextOwnerServices.ForceLoadProperty, ITfContextOwnerServices, ITfContextOwnerServices interface [Text Services Framework], ForceLoadProperty method, ITfContextOwnerServices::ForceLoadProperty, _tsf_itfcontextownerservices_forceloadproperty_ref, msctf/ITfContextOwnerServices::ForceLoadProperty, tsf.itfcontextownerservices_forceloadproperty
+ms.keywords: ForceLoadProperty, ForceLoadProperty method [Text Services Framework], ForceLoadProperty method [Text Services Framework],ITfContextOwnerServices interface, ITfContextOwnerServices interface [Text Services Framework],ForceLoadProperty method, ITfContextOwnerServices.ForceLoadProperty, ITfContextOwnerServices::ForceLoadProperty, _tsf_itfcontextownerservices_forceloadproperty_ref, msctf/ITfContextOwnerServices::ForceLoadProperty, tsf.itfcontextownerservices_forceloadproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwnerServices::ForceLoadProperty method
+# ITfContextOwnerServices::ForceLoadProperty
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 736688c3-2c2c-4244-9f49-98ad0fe2d141
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_FIRST_RECORD_FN, StorageAdapterFirstRecord, StorageAdapterFirstRecord callback function [Windows Biometric Framework API], secbiomet.storageadapterfirstrecord, winbio_adapter/StorageAdapterFirstRecord
+ms.keywords: PIBIO_STORAGE_FIRST_RECORD_FN, PIBIO_STORAGE_FIRST_RECORD_FN callback, StorageAdapterFirstRecord, StorageAdapterFirstRecord callback function [Windows Biometric Framework API], secbiomet.storageadapterfirstrecord, winbio_adapter/StorageAdapterFirstRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_FIRST_RECORD_FN callback
+# PIBIO_STORAGE_FIRST_RECORD_FN callback function
 
 
 ## -description

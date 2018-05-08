@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.SetOption
-title: IDvdControl2::SetOption method
+title: IDvdControl2::SetOption
 author: windows-driver-content
 description: The SetOption method enables or disables an internal behavior flag on the DVD Navigator filter.
 old-location: dshow\idvdcontrol2_setoption.htm
 old-project: DirectShow
 ms.assetid: b3b28da8-b0cb-4d76-8184-93572e4b6d06
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], SetOption method, IDvdControl2::SetOption, IDvdControl2SetOption, SetOption method [DirectShow], SetOption method [DirectShow], IDvdControl2 interface, SetOption,IDvdControl2.SetOption, dshow.idvdcontrol2_setoption, strmif/IDvdControl2::SetOption
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],SetOption method, IDvdControl2.SetOption, IDvdControl2::SetOption, IDvdControl2SetOption, SetOption, SetOption method [DirectShow], SetOption method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setoption, strmif/IDvdControl2::SetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::SetOption method
+# IDvdControl2::SetOption
 
 
 ## -description

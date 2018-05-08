@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetChannelCount
-title: IAudioEndpointVolume::GetChannelCount method
+title: IAudioEndpointVolume::GetChannelCount
 author: windows-driver-content
 description: The GetChannelCount method gets a count of the channels in the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getchannelcount.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 83fd9afe-9bca-4569-a705-0e366b56522e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetChannelCount method [Core Audio], GetChannelCount method [Core Audio], IAudioEndpointVolume interface, GetChannelCount,IAudioEndpointVolume.GetChannelCount, IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], GetChannelCount method, IAudioEndpointVolume::GetChannelCount, IAudioEndpointVolumeGetChannelCount, coreaudio.iaudioendpointvolume_getchannelcount, endpointvolume/IAudioEndpointVolume::GetChannelCount
+ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCount method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetChannelCount method, IAudioEndpointVolume.GetChannelCount, IAudioEndpointVolume::GetChannelCount, IAudioEndpointVolumeGetChannelCount, coreaudio.iaudioendpointvolume_getchannelcount, endpointvolume/IAudioEndpointVolume::GetChannelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAudioEndpointVolume::GetChannelCount method
+# IAudioEndpointVolume::GetChannelCount
 
 
 ## -description

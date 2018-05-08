@@ -1,14 +1,14 @@
 ---
 UID: NF:objidl.IApartmentShutdown.OnUninitialize
-title: IApartmentShutdown::OnUninitialize method
+title: IApartmentShutdown::OnUninitialize
 author: windows-driver-content
 description: Called when a registered apartment is shut down.
 old-location: winrt\iapartmentshutdown_onuninitialize.htm
 old-project: WinRT
 ms.assetid: FAEBC952-EDCB-4855-AB2B-193B87E3ECF7
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IApartmentShutdown, IApartmentShutdown interface [Windows Runtime], OnUninitialize method, IApartmentShutdown::OnUninitialize, OnUninitialize method [Windows Runtime], OnUninitialize method [Windows Runtime], IApartmentShutdown interface, OnUninitialize,IApartmentShutdown.OnUninitialize, objidl/IApartmentShutdown::OnUninitialize, winrt.iapartmentshutdown_onuninitialize
+ms.date: 5/4/2018
+ms.keywords: IApartmentShutdown interface [Windows Runtime],OnUninitialize method, IApartmentShutdown.OnUninitialize, IApartmentShutdown::OnUninitialize, OnUninitialize, OnUninitialize method [Windows Runtime], OnUninitialize method [Windows Runtime],IApartmentShutdown interface, objidl/IApartmentShutdown::OnUninitialize, winrt.iapartmentshutdown_onuninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IApartmentShutdown::OnUninitialize method
+# IApartmentShutdown::OnUninitialize
 
 
 ## -description

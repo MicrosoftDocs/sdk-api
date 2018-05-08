@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.fIsAuthenticated
-title: CSecureChannelClient::fIsAuthenticated method
+title: CSecureChannelClient::fIsAuthenticated
 author: windows-driver-content
 description: The fIsAuthenticated method verifies that a secure authenticated channel has been successfully established. This method is not used by applications.
 old-location: wmdm\csecurechannelclient_fisauthenticated.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 9b9a529a-c652-48e1-b70d-e95e2e34e2c5
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CSecureChannelClient, CSecureChannelClient interface [windows Media Device Manager], fIsAuthenticated method, CSecureChannelClient::fIsAuthenticated, CSecureChannelClientfIsAuthenticated, fIsAuthenticated method [windows Media Device Manager], fIsAuthenticated method [windows Media Device Manager], CSecureChannelClient interface, fIsAuthenticated,CSecureChannelClient.fIsAuthenticated, scclient/CSecureChannelClient::fIsAuthenticated, wmdm.csecurechannelclient_fisauthenticated
+ms.keywords: CSecureChannelClient interface [windows Media Device Manager],fIsAuthenticated method, CSecureChannelClient.fIsAuthenticated, CSecureChannelClient::fIsAuthenticated, CSecureChannelClientfIsAuthenticated, fIsAuthenticated, fIsAuthenticated method [windows Media Device Manager], fIsAuthenticated method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::fIsAuthenticated, wmdm.csecurechannelclient_fisauthenticated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CSecureChannelClient::fIsAuthenticated method
+# CSecureChannelClient::fIsAuthenticated
 
 
 ## -description

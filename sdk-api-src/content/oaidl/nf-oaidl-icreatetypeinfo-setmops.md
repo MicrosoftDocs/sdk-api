@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetMops
-title: ICreateTypeInfo::SetMops method
+title: ICreateTypeInfo::SetMops
 author: windows-driver-content
 description: Sets the marshaling opcode string associated with the type description or the function.
 old-location: automat\icreatetypeinfo_setmops.htm
 old-project: automat
 ms.assetid: e775c2f9-2886-4aa0-a30c-445f317d0e02
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetMops method, ICreateTypeInfo::SetMops, SetMops method [Automation], SetMops method [Automation], ICreateTypeInfo interface, SetMops,ICreateTypeInfo.SetMops, _oa96_ICreateTypeInfo_SetMops, automat.icreatetypeinfo_setmops, oaidl/ICreateTypeInfo::SetMops
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo interface [Automation],SetMops method, ICreateTypeInfo.SetMops, ICreateTypeInfo::SetMops, SetMops, SetMops method [Automation], SetMops method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetMops, automat.icreatetypeinfo_setmops, oaidl/ICreateTypeInfo::SetMops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo::SetMops method
+# ICreateTypeInfo::SetMops
 
 
 ## -description

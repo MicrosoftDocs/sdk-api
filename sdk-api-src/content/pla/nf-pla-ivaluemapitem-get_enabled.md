@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMapItem.get_Enabled
-title: IValueMapItem::get_Enabled method
+title: IValueMapItem::get_Enabled
 author: windows-driver-content
 description: Retrieves or sets a value that indicates whether the item is enabled.
 old-location: pla\ivaluemapitem_enabled.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: f23e02bf-217a-44a2-9e1f-e92a39c1b065
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Enabled property [PLA], Enabled property [PLA], IValueMapItem interface, IValueMapItem, IValueMapItem interface [PLA], Enabled property, IValueMapItem.Enabled, IValueMapItem::get_Enabled, IValueMapItem::put_Enabled, base.ivaluemapitem_enabled, get_Enabled,IValueMapItem.get_Enabled, pla.ivaluemapitem_enabled, pla/IValueMapItem::Enabled, pla/IValueMapItem::get_Enabled, pla/IValueMapItem::put_Enabled
+ms.keywords: Enabled property [PLA], Enabled property [PLA],IValueMapItem interface, IValueMapItem interface [PLA],Enabled property, IValueMapItem.Enabled, IValueMapItem.get_Enabled, IValueMapItem::Enabled, IValueMapItem::get_Enabled, IValueMapItem::put_Enabled, base.ivaluemapitem_enabled, get_Enabled, pla.ivaluemapitem_enabled, pla/IValueMapItem::Enabled, pla/IValueMapItem::get_Enabled, pla/IValueMapItem::put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IValueMapItem::get_Enabled method
+# IValueMapItem::get_Enabled
 
 
 ## -description

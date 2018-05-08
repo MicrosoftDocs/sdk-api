@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetZIndex
-title: IMFTimedTextRegion::GetZIndex method
+title: IMFTimedTextRegion::GetZIndex
 author: windows-driver-content
 description: Gets the Z-index (depth) of the region.
 old-location: mf\imftimedtextregion_getzindex.htm
 old-project: medfound
 ms.assetid: 662A5D79-7FCE-45D3-BCB1-5DE08DC0F981
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetZIndex method [Media Foundation], GetZIndex method [Media Foundation], IMFTimedTextRegion interface, GetZIndex,IMFTimedTextRegion.GetZIndex, IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], GetZIndex method, IMFTimedTextRegion::GetZIndex, mf.imftimedtextregion_getzindex, mfmediaengine/IMFTimedTextRegion::GetZIndex
+ms.date: 5/3/2018
+ms.keywords: GetZIndex, GetZIndex method [Media Foundation], GetZIndex method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetZIndex method, IMFTimedTextRegion.GetZIndex, IMFTimedTextRegion::GetZIndex, mf.imftimedtextregion_getzindex, mfmediaengine/IMFTimedTextRegion::GetZIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextRegion::GetZIndex method
+# IMFTimedTextRegion::GetZIndex
 
 
 ## -description

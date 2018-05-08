@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetValue
-title: IOfflineFilesSetting::GetValue method
+title: IOfflineFilesSetting::GetValue
 author: windows-driver-content
 description: Retrieves the value of a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getvalue.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 39560ca6-62d7-467b-bc52-1dd769e7e860
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetValue method [Offline Files], GetValue method [Offline Files], IOfflineFilesSetting interface, GetValue,IOfflineFilesSetting.GetValue, IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], GetValue method, IOfflineFilesSetting::GetValue, cscobj/IOfflineFilesSetting::GetValue, of.iofflinefilessetting_getvalue
+ms.keywords: GetValue, GetValue method [Offline Files], GetValue method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetValue method, IOfflineFilesSetting.GetValue, IOfflineFilesSetting::GetValue, cscobj/IOfflineFilesSetting::GetValue, of.iofflinefilessetting_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesSetting::GetValue method
+# IOfflineFilesSetting::GetValue
 
 
 ## -description

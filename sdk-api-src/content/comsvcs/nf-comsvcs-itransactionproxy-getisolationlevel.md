@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.GetIsolationLevel
-title: ITransactionProxy::GetIsolationLevel method
+title: ITransactionProxy::GetIsolationLevel
 author: windows-driver-content
 description: Retrieves the isolation level of the non-DTC transaction.
 old-location: cos\itransactionproxy_getisolationlevel.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: a2b0e99a-0d35-4103-b7a0-407d09a2746e
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetIsolationLevel method [COM+], GetIsolationLevel method [COM+], ITransactionProxy interface, GetIsolationLevel,ITransactionProxy.GetIsolationLevel, ITransactionProxy, ITransactionProxy interface [COM+], GetIsolationLevel method, ITransactionProxy::GetIsolationLevel, comsvcs/ITransactionProxy::GetIsolationLevel, cos.itransactionproxy_getisolationlevel
+ms.keywords: GetIsolationLevel, GetIsolationLevel method [COM+], GetIsolationLevel method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],GetIsolationLevel method, ITransactionProxy.GetIsolationLevel, ITransactionProxy::GetIsolationLevel, comsvcs/ITransactionProxy::GetIsolationLevel, cos.itransactionproxy_getisolationlevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITransactionProxy::GetIsolationLevel method
+# ITransactionProxy::GetIsolationLevel
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IStreamSelectorStatics.GetStreamPropertiesAsync
-title: IStreamSelectorStatics::GetStreamPropertiesAsync method
+title: IStreamSelectorStatics::streaming
 author: windows-driver-content
 description: When implemented gets the properties of the stream asynchronously.
 old-location: mediastreaming\istreamselectorstatics_getstreampropertiesasync.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 8C1B6DC6-D85E-406F-B6DA-914DC5269666
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: GetStreamPropertiesAsync method [Media Streaming API], GetStreamPropertiesAsync method [Media Streaming API], IStreamSelectorStatics interface, GetStreamPropertiesAsync,IStreamSelectorStatics.GetStreamPropertiesAsync, IStreamSelectorStatics, IStreamSelectorStatics interface [Media Streaming API], GetStreamPropertiesAsync method, IStreamSelectorStatics::GetStreamPropertiesAsync, mediastreaming.istreamselectorstatics_getstreampropertiesasync, windows/IStreamSelectorStatics::GetStreamPropertiesAsync
+ms.keywords: GetStreamPropertiesAsync, GetStreamPropertiesAsync method [Media Streaming API], GetStreamPropertiesAsync method [Media Streaming API],IStreamSelectorStatics interface, IStreamSelectorStatics interface [Media Streaming API],GetStreamPropertiesAsync method, IStreamSelectorStatics.GetStreamPropertiesAsync, IStreamSelectorStatics.streaming, IStreamSelectorStatics::GetStreamPropertiesAsync, IStreamSelectorStatics::streaming, mediastreaming.istreamselectorstatics_getstreampropertiesasync, windows/IStreamSelectorStatics::GetStreamPropertiesAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IStreamSelectorStatics::GetStreamPropertiesAsync method
+# IStreamSelectorStatics::streaming
 
 
 ## -description

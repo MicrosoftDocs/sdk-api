@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2enginecallback.IXAudio2EngineCallback
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2EngineCallback, IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs], IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs], described, xaudio2.ixaudio2enginecallback, xaudio2/IXAudio2EngineCallback
+ms.keywords: IXAudio2EngineCallback, IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs], IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2enginecallback, xaudio2/IXAudio2EngineCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

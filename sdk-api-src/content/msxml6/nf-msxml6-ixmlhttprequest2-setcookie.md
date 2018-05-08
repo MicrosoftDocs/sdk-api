@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.SetCookie
-title: IXMLHTTPRequest2::SetCookie method
+title: IXMLHTTPRequest2::SetCookie
 author: windows-driver-content
 description: Sets a cookie associated with the specified URL in the HTTP cookie jar.
 old-location: ixhr2\ixmlhttprequest2_setcookie.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: E150B7CA-A881-4CD5-896F-7E3B6770E105
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest2, IXMLHTTPRequest2 interface [XMLHttpRequest2], SetCookie method, IXMLHTTPRequest2::SetCookie, SetCookie method [XMLHttpRequest2], SetCookie method [XMLHttpRequest2], IXMLHTTPRequest2 interface, SetCookie,IXMLHTTPRequest2.SetCookie, XHR_COOKIE_STATE_ACCEPT, XHR_COOKIE_STATE_DOWNGRADE, XHR_COOKIE_STATE_LEASH, XHR_COOKIE_STATE_PROMPT, XHR_COOKIE_STATE_REJECT, XHR_COOKIE_STATE_UNKNOWN, ixhr2.ixmlhttprequest2_setcookie, msxml6/IXMLHTTPRequest2::SetCookie
+ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetCookie method, IXMLHTTPRequest2.SetCookie, IXMLHTTPRequest2::SetCookie, SetCookie, SetCookie method [XMLHttpRequest2], SetCookie method [XMLHttpRequest2],IXMLHTTPRequest2 interface, XHR_COOKIE_STATE_ACCEPT, XHR_COOKIE_STATE_DOWNGRADE, XHR_COOKIE_STATE_LEASH, XHR_COOKIE_STATE_PROMPT, XHR_COOKIE_STATE_REJECT, XHR_COOKIE_STATE_UNKNOWN, ixhr2.ixmlhttprequest2_setcookie, msxml6/IXMLHTTPRequest2::SetCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest2::SetCookie method
+# IXMLHTTPRequest2::SetCookie
 
 
 ## -description

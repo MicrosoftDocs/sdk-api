@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule.get_Protocol
-title: INetFwRule::get_Protocol method
+title: INetFwRule::get_Protocol
 author: windows-driver-content
 description: Specifies the IP protocol of this rule.
 old-location: ics\inetfwrule_protocol.htm
 old-project: ICS
 ms.assetid: 16f61a1d-770a-4be9-a43d-10ff9fe276fb
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], Protocol property, INetFwRule.Protocol, INetFwRule::get_Protocol, INetFwRule::put_Protocol, Protocol property [ICS/ICF], Protocol property [ICS/ICF], INetFwRule interface, get_Protocol,INetFwRule.get_Protocol, ics.inetfwrule_protocol, netfw/INetFwRule::Protocol, netfw/INetFwRule::get_Protocol, netfw/INetFwRule::put_Protocol
+ms.date: 5/1/2018
+ms.keywords: INetFwRule interface [ICS/ICF],Protocol property, INetFwRule.Protocol, INetFwRule.get_Protocol, INetFwRule::Protocol, INetFwRule::get_Protocol, INetFwRule::put_Protocol, Protocol property [ICS/ICF], Protocol property [ICS/ICF],INetFwRule interface, get_Protocol, ics.inetfwrule_protocol, netfw/INetFwRule::Protocol, netfw/INetFwRule::get_Protocol, netfw/INetFwRule::put_Protocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule::get_Protocol method
+# INetFwRule::get_Protocol
 
 
 ## -description

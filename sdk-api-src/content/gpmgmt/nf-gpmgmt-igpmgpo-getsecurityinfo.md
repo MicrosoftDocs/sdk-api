@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.GetSecurityInfo
-title: IGPMGPO::GetSecurityInfo method
+title: IGPMGPO::GetSecurityInfo
 author: windows-driver-content
 description: Retrieves the set of permissions for the GPO, such as who is granted permission to edit it.
 old-location: gpmc\igpmgpo_getsecurityinfo.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 104e96e6-60c5-4cc1-9728-7c0ea9715a58
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMGPO class [GPMC], GetSecurityInfo method, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC], GPMGPO class, GetSecurityInfo method [GPMC], IGPMGPO interface, GetSecurityInfo,IGPMGPO.GetSecurityInfo, IGPMGPO, IGPMGPO interface [GPMC], GetSecurityInfo method, IGPMGPO::GetSecurityInfo, _win32_igpmgpo_getsecurityinfo, gpmc.igpmgpo_getsecurityinfo, gpmgmt/IGPMGPO::GetSecurityInfo
+ms.keywords: GPMGPO class [GPMC],GetSecurityInfo method, GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],GPMGPO class, GetSecurityInfo method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GetSecurityInfo method, IGPMGPO.GetSecurityInfo, IGPMGPO::GetSecurityInfo, _win32_igpmgpo_getsecurityinfo, gpmc.igpmgpo_getsecurityinfo, gpmgmt/IGPMGPO::GetSecurityInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMGPO::GetSecurityInfo method
+# IGPMGPO::GetSecurityInfo
 
 
 ## -description

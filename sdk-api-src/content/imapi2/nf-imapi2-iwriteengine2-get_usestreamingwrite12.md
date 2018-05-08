@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_UseStreamingWrite12
-title: IWriteEngine2::get_UseStreamingWrite12 method
+title: IWriteEngine2::get_UseStreamingWrite12
 author: windows-driver-content
 description: Retrieves a value that indicates if the write operations use the WRITE12 or WRITE10 command.
 old-location: imapi\iwriteengine2_get_usestreamingwrite12.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 28f5673e-73f4-4bec-bdee-49cbd030a0d6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IWriteEngine2, IWriteEngine2 interface [IMAPI], get_UseStreamingWrite12 method, IWriteEngine2::get_UseStreamingWrite12, get_UseStreamingWrite12 method [IMAPI], get_UseStreamingWrite12 method [IMAPI], IWriteEngine2 interface, get_UseStreamingWrite12,IWriteEngine2.get_UseStreamingWrite12, imapi.iwriteengine2_get_usestreamingwrite12, imapi2/IWriteEngine2::get_UseStreamingWrite12
+ms.keywords: IWriteEngine2 interface [IMAPI],get_UseStreamingWrite12 method, IWriteEngine2.get_UseStreamingWrite12, IWriteEngine2::get_UseStreamingWrite12, get_UseStreamingWrite12, get_UseStreamingWrite12 method [IMAPI], get_UseStreamingWrite12 method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_usestreamingwrite12, imapi2/IWriteEngine2::get_UseStreamingWrite12
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWriteEngine2::get_UseStreamingWrite12 method
+# IWriteEngine2::get_UseStreamingWrite12
 
 
 ## -description

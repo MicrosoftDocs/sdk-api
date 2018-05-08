@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskService.Connect
-title: ITaskService::Connect method
+title: ITaskService::Connect
 author: windows-driver-content
 description: Connects to a remote computer and associates all subsequent calls on this interface with a remote session.
 old-location: taskschd\itaskservice_connect.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: ba810bac-e587-4eb8-871c-449b4174ab46
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Connect method [Task Scheduler], Connect method [Task Scheduler], ITaskService interface, Connect,ITaskService.Connect, ITaskService, ITaskService interface [Task Scheduler], Connect method, ITaskService::Connect, taskschd.itaskservice_connect, taskschd/ITaskService::Connect
+ms.keywords: Connect, Connect method [Task Scheduler], Connect method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],Connect method, ITaskService.Connect, ITaskService::Connect, taskschd.itaskservice_connect, taskschd/ITaskService::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskService::Connect method
+# ITaskService::Connect
 
 
 ## -description

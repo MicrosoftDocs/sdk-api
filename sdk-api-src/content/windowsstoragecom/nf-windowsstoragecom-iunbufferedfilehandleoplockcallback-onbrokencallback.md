@@ -1,14 +1,14 @@
 ---
 UID: NF:windowsstoragecom.IUnbufferedFileHandleOplockCallback.OnBrokenCallback
-title: IUnbufferedFileHandleOplockCallback::OnBrokenCallback method
+title: IUnbufferedFileHandleOplockCallback::OnBrokenCallback
 author: windows-driver-content
 description: Runs when the opportunistic lock for a handle that you get by calling the IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle method is broken.
 old-location: winrt\iunbufferedfilehandleoplockcallback_onbrokencallback.htm
 old-project: WinRT
 ms.assetid: F5B6B4F6-61F2-4C5A-9E63-E9DC876FEB60
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IUnbufferedFileHandleOplockCallback, IUnbufferedFileHandleOplockCallback interface [Windows Runtime], OnBrokenCallback method, IUnbufferedFileHandleOplockCallback::OnBrokenCallback, OnBrokenCallback method [Windows Runtime], OnBrokenCallback method [Windows Runtime], IUnbufferedFileHandleOplockCallback interface, OnBrokenCallback,IUnbufferedFileHandleOplockCallback.OnBrokenCallback, windowsstoragecom/IUnbufferedFileHandleOplockCallback::OnBrokenCallback, winrt.iunbufferedfilehandleoplockcallback_onbrokencallback
+ms.date: 5/4/2018
+ms.keywords: IUnbufferedFileHandleOplockCallback interface [Windows Runtime],OnBrokenCallback method, IUnbufferedFileHandleOplockCallback.OnBrokenCallback, IUnbufferedFileHandleOplockCallback::OnBrokenCallback, OnBrokenCallback, OnBrokenCallback method [Windows Runtime], OnBrokenCallback method [Windows Runtime],IUnbufferedFileHandleOplockCallback interface, windowsstoragecom/IUnbufferedFileHandleOplockCallback::OnBrokenCallback, winrt.iunbufferedfilehandleoplockcallback_onbrokencallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IUnbufferedFileHandleOplockCallback::OnBrokenCallback method
+# IUnbufferedFileHandleOplockCallback::OnBrokenCallback
 
 
 ## -description

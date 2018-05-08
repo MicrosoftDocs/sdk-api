@@ -1,14 +1,14 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.FinishInitialization
-title: IOPMVideoOutput::FinishInitialization method
+title: IOPMVideoOutput::FinishInitialization
 author: windows-driver-content
 description: Completes the initialization sequence for an Output Protection Manager (OPM) session.
 old-location: mf\iopmvideooutput_iopmvideooutput__finishinitialization.htm
 old-project: medfound
 ms.assetid: 7551e374-8745-405b-9879-d35a92d661ea
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: FinishInitialization method [Media Foundation], FinishInitialization method [Media Foundation], IOPMVideoOutput interface, FinishInitialization,IOPMVideoOutput.FinishInitialization, IOPMVideoOutput, IOPMVideoOutput interface [Media Foundation], FinishInitialization method, IOPMVideoOutput::FinishInitialization, mf.iopmvideooutput_iopmvideooutput__finishinitialization, opmapi/IOPMVideoOutput::FinishInitialization
+ms.date: 5/3/2018
+ms.keywords: FinishInitialization, FinishInitialization method [Media Foundation], FinishInitialization method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],FinishInitialization method, IOPMVideoOutput.FinishInitialization, IOPMVideoOutput::FinishInitialization, mf.iopmvideooutput_iopmvideooutput__finishinitialization, opmapi/IOPMVideoOutput::FinishInitialization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOPMVideoOutput::FinishInitialization method
+# IOPMVideoOutput::FinishInitialization
 
 
 ## -description

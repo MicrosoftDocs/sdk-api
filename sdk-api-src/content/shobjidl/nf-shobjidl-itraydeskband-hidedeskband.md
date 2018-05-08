@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.ITrayDeskBand.HideDeskBand
-title: ITrayDeskBand::HideDeskBand method
+title: ITrayDeskBand::HideDeskBand
 author: windows-driver-content
 description: Hides a specified deskband.
 old-location: shell\ITrayDeskBand_HideDeskBand.htm
 old-project: shell
 ms.assetid: 586ead4b-94fe-4da1-b78e-d4f1c61b9ee2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: HideDeskBand method [Windows Shell], HideDeskBand method [Windows Shell], ITrayDeskBand interface, HideDeskBand,ITrayDeskBand.HideDeskBand, ITrayDeskBand, ITrayDeskBand interface [Windows Shell], HideDeskBand method, ITrayDeskBand::HideDeskBand, _shell_ITrayDeskBand_HideDeskBand, shell.ITrayDeskBand_HideDeskBand, shobjidl/ITrayDeskBand::HideDeskBand
+ms.date: 5/3/2018
+ms.keywords: HideDeskBand, HideDeskBand method [Windows Shell], HideDeskBand method [Windows Shell],ITrayDeskBand interface, ITrayDeskBand interface [Windows Shell],HideDeskBand method, ITrayDeskBand.HideDeskBand, ITrayDeskBand::HideDeskBand, _shell_ITrayDeskBand_HideDeskBand, shell.ITrayDeskBand_HideDeskBand, shobjidl/ITrayDeskBand::HideDeskBand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ITrayDeskBand::HideDeskBand method
+# ITrayDeskBand::HideDeskBand
 
 
 ## -description

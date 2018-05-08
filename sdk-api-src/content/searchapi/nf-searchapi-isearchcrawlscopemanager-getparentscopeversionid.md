@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.GetParentScopeVersionId
-title: ISearchCrawlScopeManager::GetParentScopeVersionId method
+title: ISearchCrawlScopeManager::GetParentScopeVersionId
 author: windows-driver-content
 description: Gets the version ID of the parent inclusion URL.
 old-location: search\_search_ISearchCrawlScopeManager_GetParentScopeVersionId.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\getparentscopeversionid.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetParentScopeVersionId method [search], GetParentScopeVersionId method [search], ISearchCrawlScopeManager interface, GetParentScopeVersionId,ISearchCrawlScopeManager.GetParentScopeVersionId, ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], GetParentScopeVersionId method, ISearchCrawlScopeManager::GetParentScopeVersionId, _search_ISearchCrawlScopeManager_GetParentScopeVersionId, search._search_ISearchCrawlScopeManager_GetParentScopeVersionId, searchapi/ISearchCrawlScopeManager::GetParentScopeVersionId
+ms.date: 5/4/2018
+ms.keywords: GetParentScopeVersionId, GetParentScopeVersionId method [search], GetParentScopeVersionId method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],GetParentScopeVersionId method, ISearchCrawlScopeManager.GetParentScopeVersionId, ISearchCrawlScopeManager::GetParentScopeVersionId, _search_ISearchCrawlScopeManager_GetParentScopeVersionId, search._search_ISearchCrawlScopeManager_GetParentScopeVersionId, searchapi/ISearchCrawlScopeManager::GetParentScopeVersionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCrawlScopeManager::GetParentScopeVersionId method
+# ISearchCrawlScopeManager::GetParentScopeVersionId
 
 
 ## -description

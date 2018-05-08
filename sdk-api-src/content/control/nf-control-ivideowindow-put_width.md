@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IVideoWindow.put_Width
-title: IVideoWindow::put_Width method
+title: IVideoWindow::put_Width
 author: windows-driver-content
 description: The put_Width method specifies the width of the video window.
 old-location: dshow\ivideowindow_put_width.htm
 old-project: DirectShow
 ms.assetid: 7cb02033-0405-4b8b-91fc-2f33097f2c88
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], put_Width method, IVideoWindow::put_Width, IVideoWindowput_Width, control/IVideoWindow::put_Width, dshow.ivideowindow_put_width, put_Width method [DirectShow], put_Width method [DirectShow], IVideoWindow interface, put_Width,IVideoWindow.put_Width
+ms.date: 4/30/2018
+ms.keywords: IVideoWindow interface [DirectShow],put_Width method, IVideoWindow.put_Width, IVideoWindow::put_Width, IVideoWindowput_Width, control/IVideoWindow::put_Width, dshow.ivideowindow_put_width, put_Width, put_Width method [DirectShow], put_Width method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IVideoWindow::put_Width method
+# IVideoWindow::put_Width
 
 
 ## -description

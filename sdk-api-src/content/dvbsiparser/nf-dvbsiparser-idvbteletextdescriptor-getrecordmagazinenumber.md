@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetRecordMagazineNumber
-title: IDvbTeletextDescriptor::GetRecordMagazineNumber method
+title: IDvbTeletextDescriptor::GetRecordMagazineNumber
 author: windows-driver-content
 description: Gets the magazine number from a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_getrecordmagazinenumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bb3c39b6-dc85-42ca-9d4b-ad27eae077dd
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordMagazineNumber method [Microsoft TV Technologies], GetRecordMagazineNumber method [Microsoft TV Technologies], IDvbTeletextDescriptor interface, GetRecordMagazineNumber,IDvbTeletextDescriptor.GetRecordMagazineNumber, IDvbTeletextDescriptor, IDvbTeletextDescriptor interface [Microsoft TV Technologies], GetRecordMagazineNumber method, IDvbTeletextDescriptor::GetRecordMagazineNumber, dvbsiparser/IDvbTeletextDescriptor::GetRecordMagazineNumber, mstv.idvbteletextdescriptor_getrecordmagazinenumber
+ms.keywords: GetRecordMagazineNumber, GetRecordMagazineNumber method [Microsoft TV Technologies], GetRecordMagazineNumber method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetRecordMagazineNumber method, IDvbTeletextDescriptor.GetRecordMagazineNumber, IDvbTeletextDescriptor::GetRecordMagazineNumber, dvbsiparser/IDvbTeletextDescriptor::GetRecordMagazineNumber, mstv.idvbteletextdescriptor_getrecordmagazinenumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbTeletextDescriptor::GetRecordMagazineNumber method
+# IDvbTeletextDescriptor::GetRecordMagazineNumber
 
 
 ## -description

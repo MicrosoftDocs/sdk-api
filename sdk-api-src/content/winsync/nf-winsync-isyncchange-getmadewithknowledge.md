@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetMadeWithKnowledge
-title: ISyncChange::GetMadeWithKnowledge method
+title: ISyncChange::GetMadeWithKnowledge
 author: windows-driver-content
 description: Gets the made-with knowledge for this change.
 old-location: winsync\isyncchange_getmadewithknowledge.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 536e7575-e3c7-4f40-83f4-6fb7a7c2d2ba
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetMadeWithKnowledge method [Windows Sync], GetMadeWithKnowledge method [Windows Sync], ISyncChange interface, GetMadeWithKnowledge,ISyncChange.GetMadeWithKnowledge, ISyncChange, ISyncChange interface [Windows Sync], GetMadeWithKnowledge method, ISyncChange::GetMadeWithKnowledge, winsync.isyncchange_getmadewithknowledge, winsync/ISyncChange::GetMadeWithKnowledge
+ms.keywords: GetMadeWithKnowledge, GetMadeWithKnowledge method [Windows Sync], GetMadeWithKnowledge method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetMadeWithKnowledge method, ISyncChange.GetMadeWithKnowledge, ISyncChange::GetMadeWithKnowledge, winsync.isyncchange_getmadewithknowledge, winsync/ISyncChange::GetMadeWithKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChange::GetMadeWithKnowledge method
+# ISyncChange::GetMadeWithKnowledge
 
 
 ## -description

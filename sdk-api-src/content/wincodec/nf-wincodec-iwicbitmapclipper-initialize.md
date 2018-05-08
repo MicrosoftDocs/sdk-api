@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapClipper.Initialize
-title: IWICBitmapClipper::Initialize method
+title: IWICBitmapClipper::Initialize
 author: windows-driver-content
 description: Initializes the bitmap clipper with the provided parameters.
 old-location: wic\_wic_codec_iwicbitmapclipper_initialize.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: a0b8a572-d947-4d57-9214-d39085a78b6e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICBitmapClipper, IWICBitmapClipper interface [Windows Imaging Component], Initialize method, IWICBitmapClipper::Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component], IWICBitmapClipper interface, Initialize,IWICBitmapClipper.Initialize, _wic_codec_iwicbitmapclipper_initialize, wic._wic_codec_iwicbitmapclipper_initialize, wincodec/IWICBitmapClipper::Initialize
+ms.keywords: IWICBitmapClipper interface [Windows Imaging Component],Initialize method, IWICBitmapClipper.Initialize, IWICBitmapClipper::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapClipper interface, _wic_codec_iwicbitmapclipper_initialize, wic._wic_codec_iwicbitmapclipper_initialize, wincodec/IWICBitmapClipper::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapClipper::Initialize method
+# IWICBitmapClipper::Initialize
 
 
 ## -description

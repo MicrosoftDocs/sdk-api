@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetBitwiseInstructionCount
-title: ID3D11ShaderReflection::GetBitwiseInstructionCount method
+title: ID3D11ShaderReflection::GetBitwiseInstructionCount
 author: windows-driver-content
 description: Gets the number of bitwise instructions.
 old-location: direct3d11\id3d11shaderreflection_getbitwiseinstructioncount.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 095fc6e0-972a-43d1-9738-16d7f0846e26
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 211dac0a-7e08-9fdc-fa7e-a5ccaf4c20ac, GetBitwiseInstructionCount method [Direct3D 11], GetBitwiseInstructionCount method [Direct3D 11], ID3D11ShaderReflection interface, GetBitwiseInstructionCount,ID3D11ShaderReflection.GetBitwiseInstructionCount, ID3D11ShaderReflection, ID3D11ShaderReflection interface [Direct3D 11], GetBitwiseInstructionCount method, ID3D11ShaderReflection::GetBitwiseInstructionCount, d3d11shader/ID3D11ShaderReflection::GetBitwiseInstructionCount, direct3d11.id3d11shaderreflection_getbitwiseinstructioncount
+ms.keywords: 211dac0a-7e08-9fdc-fa7e-a5ccaf4c20ac, GetBitwiseInstructionCount, GetBitwiseInstructionCount method [Direct3D 11], GetBitwiseInstructionCount method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetBitwiseInstructionCount method, ID3D11ShaderReflection.GetBitwiseInstructionCount, ID3D11ShaderReflection::GetBitwiseInstructionCount, d3d11shader/ID3D11ShaderReflection::GetBitwiseInstructionCount, direct3d11.id3d11shaderreflection_getbitwiseinstructioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ShaderReflection::GetBitwiseInstructionCount method
+# ID3D11ShaderReflection::GetBitwiseInstructionCount
 
 
 ## -description

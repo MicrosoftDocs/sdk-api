@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFELanguage.GetJMorphResult
-title: IFELanguage::GetJMorphResult method
+title: IFELanguage::GetJMorphResult
 author: windows-driver-content
 description: Gets morphological analysis results.
 old-location: intl\ifelanguage_getjmorphresult.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: CCE546B2-88CE-4B54-8EBF-FCA2C5ADFBB4
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: FELANG_CLMN_FIXD, FELANG_CLMN_FIXR, FELANG_CLMN_NOPBREAK, FELANG_CLMN_NOWBREAK, FELANG_CLMN_PBREAK, FELANG_CLMN_WBREAK, FELANG_CMODE_AUTOMATIC, FELANG_CMODE_BESTFIRST, FELANG_CMODE_BOPOMOFO, FELANG_CMODE_CONVERSATION, FELANG_CMODE_FULLWIDTHOUT, FELANG_CMODE_HALFWIDTHOUT, FELANG_CMODE_HANGUL, FELANG_CMODE_HIRAGANAOUT, FELANG_CMODE_KATAKANAOUT, FELANG_CMODE_MERGECAND, FELANG_CMODE_MONORUBY, FELANG_CMODE_NAME, FELANG_CMODE_NOINVISIBLECHAR, FELANG_CMODE_NONE, FELANG_CMODE_NOPRUNING, FELANG_CMODE_PHRASEPREDICT, FELANG_CMODE_PINYIN, FELANG_CMODE_PLAURALCLAUSE, FELANG_CMODE_PRECONV, FELANG_CMODE_RADICAL, FELANG_CMODE_ROMAN, FELANG_CMODE_SINGLECONVERT, FELANG_CMODE_UNKNOWNREADING, FELANG_CMODE_USENOREVWORDS, FELANG_REQ_CONV, FELANG_REQ_RECONV, FELANG_REQ_REV, GetJMorphResult method [Internationalization for Windows Applications], GetJMorphResult method [Internationalization for Windows Applications], IFELanguage interface, GetJMorphResult,IFELanguage.GetJMorphResult, IFELanguage, IFELanguage interface [Internationalization for Windows Applications], GetJMorphResult method, IFELanguage::GetJMorphResult, intl.ifelanguage_getjmorphresult, msime/IFELanguage::GetJMorphResult
+ms.keywords: FELANG_CLMN_FIXD, FELANG_CLMN_FIXR, FELANG_CLMN_NOPBREAK, FELANG_CLMN_NOWBREAK, FELANG_CLMN_PBREAK, FELANG_CLMN_WBREAK, FELANG_CMODE_AUTOMATIC, FELANG_CMODE_BESTFIRST, FELANG_CMODE_BOPOMOFO, FELANG_CMODE_CONVERSATION, FELANG_CMODE_FULLWIDTHOUT, FELANG_CMODE_HALFWIDTHOUT, FELANG_CMODE_HANGUL, FELANG_CMODE_HIRAGANAOUT, FELANG_CMODE_KATAKANAOUT, FELANG_CMODE_MERGECAND, FELANG_CMODE_MONORUBY, FELANG_CMODE_NAME, FELANG_CMODE_NOINVISIBLECHAR, FELANG_CMODE_NONE, FELANG_CMODE_NOPRUNING, FELANG_CMODE_PHRASEPREDICT, FELANG_CMODE_PINYIN, FELANG_CMODE_PLAURALCLAUSE, FELANG_CMODE_PRECONV, FELANG_CMODE_RADICAL, FELANG_CMODE_ROMAN, FELANG_CMODE_SINGLECONVERT, FELANG_CMODE_UNKNOWNREADING, FELANG_CMODE_USENOREVWORDS, FELANG_REQ_CONV, FELANG_REQ_RECONV, FELANG_REQ_REV, GetJMorphResult, GetJMorphResult method [Internationalization for Windows Applications], GetJMorphResult method [Internationalization for Windows Applications],IFELanguage interface, IFELanguage interface [Internationalization for Windows Applications],GetJMorphResult method, IFELanguage.GetJMorphResult, IFELanguage::GetJMorphResult, intl.ifelanguage_getjmorphresult, msime/IFELanguage::GetJMorphResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFELanguage::GetJMorphResult method
+# IFELanguage::GetJMorphResult
 
 
 ## -description

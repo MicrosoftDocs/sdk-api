@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.SetDisplaySurface
-title: IDXGIOutput::SetDisplaySurface method
+title: IDXGIOutput::SetDisplaySurface
 author: windows-driver-content
 description: Changes the display mode.
 old-location: direct3ddxgi\idxgioutput_setdisplaysurface.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_setdisplaysurface.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIOutput, IDXGIOutput interface [DXGI], SetDisplaySurface method, IDXGIOutput::SetDisplaySurface, SetDisplaySurface method [DXGI], SetDisplaySurface method [DXGI], IDXGIOutput interface, SetDisplaySurface,IDXGIOutput.SetDisplaySurface, bc8ee3fe-fb5c-f873-f935-ac30c6491e36, direct3ddxgi.idxgioutput_setdisplaysurface, dxgi/IDXGIOutput::SetDisplaySurface
+ms.keywords: IDXGIOutput interface [DXGI],SetDisplaySurface method, IDXGIOutput.SetDisplaySurface, IDXGIOutput::SetDisplaySurface, SetDisplaySurface, SetDisplaySurface method [DXGI], SetDisplaySurface method [DXGI],IDXGIOutput interface, bc8ee3fe-fb5c-f873-f935-ac30c6491e36, direct3ddxgi.idxgioutput_setdisplaysurface, dxgi/IDXGIOutput::SetDisplaySurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput::SetDisplaySurface method
+# IDXGIOutput::SetDisplaySurface
 
 
 ## -description

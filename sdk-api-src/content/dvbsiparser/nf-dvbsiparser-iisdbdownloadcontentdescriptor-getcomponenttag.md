@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetComponentTag
-title: IIsdbDownloadContentDescriptor::GetComponentTag method
+title: IIsdbDownloadContentDescriptor::GetComponentTag
 author: windows-driver-content
 description: Gets the tag that identifies a stream component from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. This tag also identifies the stream in the program map table (PMT).
 old-location: mstv\iisdbdownloadcontentdescriptor_getcomponenttag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d4ba2fbd-4349-48e3-81dd-622442409060
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface, GetComponentTag,IIsdbDownloadContentDescriptor.GetComponentTag, IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], GetComponentTag method, IIsdbDownloadContentDescriptor::GetComponentTag, dvbsiparser/IIsdbDownloadContentDescriptor::GetComponentTag, mstv.iisdbdownloadcontentdescriptor_getcomponenttag
+ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IIsdbDownloadContentDescriptor.GetComponentTag, IIsdbDownloadContentDescriptor::GetComponentTag, dvbsiparser/IIsdbDownloadContentDescriptor::GetComponentTag, mstv.iisdbdownloadcontentdescriptor_getcomponenttag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDownloadContentDescriptor::GetComponentTag method
+# IIsdbDownloadContentDescriptor::GetComponentTag
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDServiceMessaging.SendResponse
-title: IWSDServiceMessaging::SendResponse method
+title: IWSDServiceMessaging::SendResponse
 author: windows-driver-content
 description: Sends a response message matching a given request context.
 old-location: ncd\iwsdservicemessaging_sendresponse.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: ec136c44-b8f5-42db-a965-2dd5b3cd18ad
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDServiceMessaging, IWSDServiceMessaging interface, SendResponse method, IWSDServiceMessaging::SendResponse, SendResponse method, SendResponse method, IWSDServiceMessaging interface, SendResponse,IWSDServiceMessaging.SendResponse, ncd.iwsdservicemessaging_sendresponse, wsdhost/IWSDServiceMessaging::SendResponse
+ms.keywords: IWSDServiceMessaging interface,SendResponse method, IWSDServiceMessaging.SendResponse, IWSDServiceMessaging::SendResponse, SendResponse, SendResponse method, SendResponse method,IWSDServiceMessaging interface, ncd.iwsdservicemessaging_sendresponse, wsdhost/IWSDServiceMessaging::SendResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceMessaging::SendResponse method
+# IWSDServiceMessaging::SendResponse
 
 
 ## -description

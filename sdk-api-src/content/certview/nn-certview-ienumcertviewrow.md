@@ -7,8 +7,8 @@ old-location: security\ienumcertviewrow.htm
 old-project: SecCrypto
 ms.assetid: c9529f7a-9d97-4315-af96-f7b687af3c2e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], IEnumCERTVIEWROW interface [Security], described, _certsrv_ienumcertviewrow, certview/IEnumCERTVIEWROW, security.ienumcertviewrow
+ms.date: 4/30/2018
+ms.keywords: IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], IEnumCERTVIEWROW interface [Security],described, _certsrv_ienumcertviewrow, certview/IEnumCERTVIEWROW, security.ienumcertviewrow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

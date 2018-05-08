@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.EnumLanguageProfiles
-title: ITfInputProcessorProfiles::EnumLanguageProfiles method
+title: ITfInputProcessorProfiles::EnumLanguageProfiles
 author: windows-driver-content
 description: ITfInputProcessorProfiles::EnumLanguageProfiles method
 old-location: tsf\itfinputprocessorprofiles_enumlanguageprofiles.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 9f7c970c-3f87-4f55-b13e-12fa8b89c362
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EnumLanguageProfiles method [Text Services Framework], EnumLanguageProfiles method [Text Services Framework], ITfInputProcessorProfiles interface, EnumLanguageProfiles,ITfInputProcessorProfiles.EnumLanguageProfiles, ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], EnumLanguageProfiles method, ITfInputProcessorProfiles::EnumLanguageProfiles, _tsf_itfinputprocessorprofiles_enumlanguageprofiles_ref, msctf/ITfInputProcessorProfiles::EnumLanguageProfiles, tsf.itfinputprocessorprofiles_enumlanguageprofiles
+ms.keywords: EnumLanguageProfiles, EnumLanguageProfiles method [Text Services Framework], EnumLanguageProfiles method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],EnumLanguageProfiles method, ITfInputProcessorProfiles.EnumLanguageProfiles, ITfInputProcessorProfiles::EnumLanguageProfiles, _tsf_itfinputprocessorprofiles_enumlanguageprofiles_ref, msctf/ITfInputProcessorProfiles::EnumLanguageProfiles, tsf.itfinputprocessorprofiles_enumlanguageprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfiles::EnumLanguageProfiles method
+# ITfInputProcessorProfiles::EnumLanguageProfiles
 
 
 ## -description

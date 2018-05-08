@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IHolder.TrackResource
-title: IHolder::TrackResource method
+title: IHolder::TrackResource
 author: windows-driver-content
 description: Tracks the resource.
 old-location: cos\iholder_trackresource.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 8c87727a-fefd-4ef6-964c-3379d22178c2
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IHolder, IHolder interface [COM+], TrackResource method, IHolder::TrackResource, TrackResource method [COM+], TrackResource method [COM+], IHolder interface, TrackResource,IHolder.TrackResource, _dtc_IHolder_TrackResource, comsvcs/IHolder::TrackResource, cos.iholder_trackresource
+ms.keywords: IHolder interface [COM+],TrackResource method, IHolder.TrackResource, IHolder::TrackResource, TrackResource, TrackResource method [COM+], TrackResource method [COM+],IHolder interface, _dtc_IHolder_TrackResource, comsvcs/IHolder::TrackResource, cos.iholder_trackresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IHolder::TrackResource method
+# IHolder::TrackResource
 
 
 ## -description

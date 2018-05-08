@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationNotCondition.GetChild
-title: IUIAutomationNotCondition::GetChild method
+title: IUIAutomationNotCondition::GetChild
 author: windows-driver-content
 description: Retrieves the condition of which this condition is the negative.
 old-location: winauto\uiauto_IUIAutomationNotCondition_GetChild.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 5d3a5df4-045a-41bf-aa98-3e9ac20c1c52
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetChild method [Windows Accessibility], GetChild method [Windows Accessibility], IUIAutomationNotCondition interface, GetChild,IUIAutomationNotCondition.GetChild, IUIAutomationNotCondition, IUIAutomationNotCondition interface [Windows Accessibility], GetChild method, IUIAutomationNotCondition::GetChild, uiauto.uiauto_IUIAutomationNotCondition_GetChild, uiauto_IUIAutomationNotCondition_GetChild, uiautomationclient/IUIAutomationNotCondition::GetChild, winauto.uiauto_IUIAutomationNotCondition_GetChild
+ms.keywords: GetChild, GetChild method [Windows Accessibility], GetChild method [Windows Accessibility],IUIAutomationNotCondition interface, IUIAutomationNotCondition interface [Windows Accessibility],GetChild method, IUIAutomationNotCondition.GetChild, IUIAutomationNotCondition::GetChild, uiauto.uiauto_IUIAutomationNotCondition_GetChild, uiauto_IUIAutomationNotCondition_GetChild, uiautomationclient/IUIAutomationNotCondition::GetChild, winauto.uiauto_IUIAutomationNotCondition_GetChild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationNotCondition::GetChild method
+# IUIAutomationNotCondition::GetChild
 
 
 ## -description

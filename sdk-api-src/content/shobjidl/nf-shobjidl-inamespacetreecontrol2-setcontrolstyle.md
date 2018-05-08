@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControl2.SetControlStyle
-title: INameSpaceTreeControl2::SetControlStyle method
+title: INameSpaceTreeControl2::SetControlStyle
 author: windows-driver-content
 description: Sets the display styles for the namespace object's treeview controls.
 old-location: shell\INameSpaceTreeControl2_SetControlStyle.htm
 old-project: shell
 ms.assetid: 20a212e2-13e8-4e17-a8d3-78fff2a1fafb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: INameSpaceTreeControl2, INameSpaceTreeControl2 interface [Windows Shell], SetControlStyle method, INameSpaceTreeControl2::SetControlStyle, SetControlStyle method [Windows Shell], SetControlStyle method [Windows Shell], INameSpaceTreeControl2 interface, SetControlStyle,INameSpaceTreeControl2.SetControlStyle, _shell_INameSpaceTreeControl2_SetControlStyle, shell.INameSpaceTreeControl2_SetControlStyle, shobjidl/INameSpaceTreeControl2::SetControlStyle
+ms.date: 5/3/2018
+ms.keywords: INameSpaceTreeControl2 interface [Windows Shell],SetControlStyle method, INameSpaceTreeControl2.SetControlStyle, INameSpaceTreeControl2::SetControlStyle, SetControlStyle, SetControlStyle method [Windows Shell], SetControlStyle method [Windows Shell],INameSpaceTreeControl2 interface, _shell_INameSpaceTreeControl2_SetControlStyle, shell.INameSpaceTreeControl2_SetControlStyle, shobjidl/INameSpaceTreeControl2::SetControlStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeControl2::SetControlStyle method
+# INameSpaceTreeControl2::SetControlStyle
 
 
 ## -description

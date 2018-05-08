@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeOnline.Online
-title: IVdsVolumeOnline::Online method
+title: IVdsVolumeOnline::Online
 author: windows-driver-content
 description: Returns a volume to the healthy state, if possible. This method is supported only for dynamic disks.
 old-location: base\ivdsvolumeonline_online.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 8a207e61-5a13-41ad-bad9-11ddf2844a9b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsVolumeOnline, IVdsVolumeOnline interface, Online method, IVdsVolumeOnline::Online, Online method, Online method, IVdsVolumeOnline interface, Online,IVdsVolumeOnline.Online, base.ivdsvolumeonline_online, vds/IVdsVolumeOnline::Online
+ms.keywords: IVdsVolumeOnline interface,Online method, IVdsVolumeOnline.Online, IVdsVolumeOnline::Online, Online, Online method, Online method,IVdsVolumeOnline interface, base.ivdsvolumeonline_online, vds/IVdsVolumeOnline::Online
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolumeOnline::Online method
+# IVdsVolumeOnline::Online
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll4.removePendingRequestWStr
-title: IEnroll4::removePendingRequestWStr method
+title: IEnroll4::removePendingRequestWStr
 author: windows-driver-content
 description: Removes a pending request from the client's request store.
 old-location: security\ienroll4_removependingrequestwstr.htm
 old-project: SecCrypto
 ms.assetid: 0e00fad2-dc06-421d-9a8c-27c5a951466c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll4, IEnroll4 interface [Security], removePendingRequestWStr method, IEnroll4::removePendingRequestWStr, removePendingRequestWStr method [Security], removePendingRequestWStr method [Security], IEnroll4 interface, removePendingRequestWStr,IEnroll4.removePendingRequestWStr, security.ienroll4_removependingrequestwstr, xenroll/IEnroll4::removePendingRequestWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll4 interface [Security],removePendingRequestWStr method, IEnroll4.removePendingRequestWStr, IEnroll4::removePendingRequestWStr, removePendingRequestWStr, removePendingRequestWStr method [Security], removePendingRequestWStr method [Security],IEnroll4 interface, security.ienroll4_removependingrequestwstr, xenroll/IEnroll4::removePendingRequestWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll4::removePendingRequestWStr method
+# IEnroll4::removePendingRequestWStr
 
 
 ## -description

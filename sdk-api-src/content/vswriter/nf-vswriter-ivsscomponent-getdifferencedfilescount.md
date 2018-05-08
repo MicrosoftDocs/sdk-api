@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetDifferencedFilesCount
-title: IVssComponent::GetDifferencedFilesCount method
+title: IVssComponent::GetDifferencedFilesCount
 author: windows-driver-content
 description: Returns the number of file specifications in this component (and in any subcomponents of the component set it defines) marked by a writer supporting an incremental backup or restore as differenced files.
 old-location: base\ivsscomponent_getdifferencedfilescount.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 46faeb2b-7d83-4618-ba36-bdacc5ca055d
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetDifferencedFilesCount method [VSS], GetDifferencedFilesCount method [VSS], IVssComponent interface, GetDifferencedFilesCount,IVssComponent.GetDifferencedFilesCount, IVssComponent, IVssComponent interface [VSS], GetDifferencedFilesCount method, IVssComponent::GetDifferencedFilesCount, _win32_ivsscomponent_getdifferencedfilescount, base.ivsscomponent_getdifferencedfilescount, vswriter/IVssComponent::GetDifferencedFilesCount
+ms.keywords: GetDifferencedFilesCount, GetDifferencedFilesCount method [VSS], GetDifferencedFilesCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDifferencedFilesCount method, IVssComponent.GetDifferencedFilesCount, IVssComponent::GetDifferencedFilesCount, _win32_ivsscomponent_getdifferencedfilescount, base.ivsscomponent_getdifferencedfilescount, vswriter/IVssComponent::GetDifferencedFilesCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetDifferencedFilesCount method
+# IVssComponent::GetDifferencedFilesCount
 
 
 ## -description

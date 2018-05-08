@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.GetParametersVersion
-title: IRdcGeneratorParameters::GetParametersVersion method
+title: IRdcGeneratorParameters::GetParametersVersion
 author: windows-driver-content
 description: Returns information about the version of RDC used to serialize the parameters.
 old-location: rdc\irdcgeneratorparameters_getparametersversion.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 58050740-0508-4797-b1b5-7a1e2a6dc00b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetParametersVersion method [Remote Differential Compression], GetParametersVersion method [Remote Differential Compression], IRdcGeneratorParameters interface, GetParametersVersion,IRdcGeneratorParameters.GetParametersVersion, IRdcGeneratorParameters, IRdcGeneratorParameters interface [Remote Differential Compression], GetParametersVersion method, IRdcGeneratorParameters::GetParametersVersion, fs.irdcgeneratorparameters_getparametersversion, msrdc/IRdcGeneratorParameters::GetParametersVersion, rdc.irdcgeneratorparameters_getparametersversion
+ms.keywords: GetParametersVersion, GetParametersVersion method [Remote Differential Compression], GetParametersVersion method [Remote Differential Compression],IRdcGeneratorParameters interface, IRdcGeneratorParameters interface [Remote Differential Compression],GetParametersVersion method, IRdcGeneratorParameters.GetParametersVersion, IRdcGeneratorParameters::GetParametersVersion, fs.irdcgeneratorparameters_getparametersversion, msrdc/IRdcGeneratorParameters::GetParametersVersion, rdc.irdcgeneratorparameters_getparametersversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcGeneratorParameters::GetParametersVersion method
+# IRdcGeneratorParameters::GetParametersVersion
 
 
 ## -description

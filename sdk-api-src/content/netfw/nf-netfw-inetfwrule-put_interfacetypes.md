@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule.put_InterfaceTypes
-title: INetFwRule::put_InterfaceTypes method
+title: INetFwRule::put_InterfaceTypes
 author: windows-driver-content
 description: Specifies the list of interface types for which the rule applies.
 old-location: ics\inetfwrule_interfacetypes.htm
 old-project: ICS
 ms.assetid: 2548875c-3c23-4076-9d3d-82bebf5e7718
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], InterfaceTypes property, INetFwRule.InterfaceTypes, INetFwRule::get_InterfaceTypes, INetFwRule::put_InterfaceTypes, InterfaceTypes property [ICS/ICF], InterfaceTypes property [ICS/ICF], INetFwRule interface, ics.inetfwrule_interfacetypes, netfw/INetFwRule::InterfaceTypes, netfw/INetFwRule::get_InterfaceTypes, netfw/INetFwRule::put_InterfaceTypes, put_InterfaceTypes,INetFwRule.put_InterfaceTypes
+ms.date: 5/1/2018
+ms.keywords: INetFwRule interface [ICS/ICF],InterfaceTypes property, INetFwRule.InterfaceTypes, INetFwRule.put_InterfaceTypes, INetFwRule::InterfaceTypes, INetFwRule::get_InterfaceTypes, INetFwRule::put_InterfaceTypes, InterfaceTypes property [ICS/ICF], InterfaceTypes property [ICS/ICF],INetFwRule interface, ics.inetfwrule_interfacetypes, netfw/INetFwRule::InterfaceTypes, netfw/INetFwRule::get_InterfaceTypes, netfw/INetFwRule::put_InterfaceTypes, put_InterfaceTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule::put_InterfaceTypes method
+# INetFwRule::put_InterfaceTypes
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: winrt\hstring_usersize.htm
 old-project: WinRT
 ms.assetid: F258F308-7A16-4C24-9770-F6D8A1604811
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: HSTRING_UserSize, HSTRING_UserSize function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserSize, winrt.hstring_usersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

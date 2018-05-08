@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.RegisterScopeMatchingRule
-title: IWSDiscoveryPublisher::RegisterScopeMatchingRule method
+title: IWSDiscoveryPublisher::RegisterScopeMatchingRule
 author: windows-driver-content
 description: Adds support for a custom scope matching rule.
 old-location: ncd\iwsdiscoverypublisher_registerscopematchingrule_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 3ceb55de-c8be-43a7-93d7-8f674f9645ef
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, RegisterScopeMatchingRule method, IWSDiscoveryPublisher::RegisterScopeMatchingRule, RegisterScopeMatchingRule method, RegisterScopeMatchingRule method, IWSDiscoveryPublisher interface, RegisterScopeMatchingRule,IWSDiscoveryPublisher.RegisterScopeMatchingRule, ncd.iwsdiscoverypublisher_registerscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::RegisterScopeMatchingRule
+ms.keywords: IWSDiscoveryPublisher interface,RegisterScopeMatchingRule method, IWSDiscoveryPublisher.RegisterScopeMatchingRule, IWSDiscoveryPublisher::RegisterScopeMatchingRule, RegisterScopeMatchingRule, RegisterScopeMatchingRule method, RegisterScopeMatchingRule method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registerscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::RegisterScopeMatchingRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryPublisher::RegisterScopeMatchingRule method
+# IWSDiscoveryPublisher::RegisterScopeMatchingRule
 
 
 ## -description

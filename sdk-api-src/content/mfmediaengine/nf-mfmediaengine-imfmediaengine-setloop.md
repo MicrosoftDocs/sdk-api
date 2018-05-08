@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetLoop
-title: IMFMediaEngine::SetLoop method
+title: IMFMediaEngine::SetLoop
 author: windows-driver-content
 description: Specifies whether the Media Engine loops playback.
 old-location: mf\imfmediaengine_setloop.htm
 old-project: medfound
 ms.assetid: 0B8890EA-9207-428B-8EC2-18B51E1D8365
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], SetLoop method, IMFMediaEngine::SetLoop, SetLoop method [Media Foundation], SetLoop method [Media Foundation], IMFMediaEngine interface, SetLoop,IMFMediaEngine.SetLoop, mf.imfmediaengine_setloop, mfmediaengine/IMFMediaEngine::SetLoop
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngine interface [Media Foundation],SetLoop method, IMFMediaEngine.SetLoop, IMFMediaEngine::SetLoop, SetLoop, SetLoop method [Media Foundation], SetLoop method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setloop, mfmediaengine/IMFMediaEngine::SetLoop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::SetLoop method
+# IMFMediaEngine::SetLoop
 
 
 ## -description

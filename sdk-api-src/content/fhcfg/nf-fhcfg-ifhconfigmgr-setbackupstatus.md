@@ -1,14 +1,14 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.SetBackupStatus
-title: IFhConfigMgr::SetBackupStatus method
+title: IFhConfigMgr::SetBackupStatus
 author: windows-driver-content
 description: Changes the backup status value for an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_setbackupstatus.htm
 old-project: DevNotes
 ms.assetid: 17FF01A1-028D-4A22-A64C-F24C98F86663
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: FhConfigMgr class [Windows API], SetBackupStatus method, IFhConfigMgr, IFhConfigMgr interface [Windows API], SetBackupStatus method, IFhConfigMgr::SetBackupStatus, SetBackupStatus method [Windows API], SetBackupStatus method [Windows API], FhConfigMgr class, SetBackupStatus method [Windows API], IFhConfigMgr interface, SetBackupStatus,IFhConfigMgr.SetBackupStatus, fhcfg/IFhConfigMgr::SetBackupStatus, winprog.ifhconfigmgr_setbackupstatus
+ms.date: 5/4/2018
+ms.keywords: FhConfigMgr class [Windows API],SetBackupStatus method, IFhConfigMgr interface [Windows API],SetBackupStatus method, IFhConfigMgr.SetBackupStatus, IFhConfigMgr::SetBackupStatus, SetBackupStatus, SetBackupStatus method [Windows API], SetBackupStatus method [Windows API],FhConfigMgr class, SetBackupStatus method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::SetBackupStatus, winprog.ifhconfigmgr_setbackupstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFhConfigMgr::SetBackupStatus method
+# IFhConfigMgr::SetBackupStatus
 
 
 ## -description

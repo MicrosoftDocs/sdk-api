@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: f9750b68-9d35-4594-96fc-2fbd54a87dcc
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ISmimeCapabilities, ISmimeCapabilities interface [Security], ISmimeCapabilities interface [Security], described, certenroll/ISmimeCapabilities, security.ismimecapabilities
+ms.keywords: ISmimeCapabilities, ISmimeCapabilities interface [Security], ISmimeCapabilities interface [Security],described, certenroll/ISmimeCapabilities, security.ismimecapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

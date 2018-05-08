@@ -7,7 +7,7 @@ old-location: dshow\vmr9allocationinfo.htm
 old-project: DirectShow
 ms.assetid: d263b004-30e6-4dff-9df2-f4ca492f09f7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: VMR9AllocationInfo, VMR9AllocationInfo structure [DirectShow], VMR9AllocationInfoStructure, _VMR9AllocationInfo, dshow.vmr9allocationinfo, vmr9/VMR9AllocationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

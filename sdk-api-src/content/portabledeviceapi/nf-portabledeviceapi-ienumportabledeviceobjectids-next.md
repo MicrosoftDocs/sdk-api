@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IEnumPortableDeviceObjectIDs.Next
-title: IEnumPortableDeviceObjectIDs::Next method
+title: IEnumPortableDeviceObjectIDs::Next
 author: windows-driver-content
 description: The Next method retrieves the next one or more object IDs in the enumeration sequence.
 old-location: wpdsdk\ienumportabledeviceobjectids_next.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 0a850b86-aeba-44b7-a686-9f3652a4c4ba
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IEnumPortableDeviceObjectIDs, IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK], Next method, IEnumPortableDeviceObjectIDs::Next, IEnumPortableDeviceObjectIDsNext, Next method [Windows Portable Devices SDK], Next method [Windows Portable Devices SDK], IEnumPortableDeviceObjectIDs interface, Next,IEnumPortableDeviceObjectIDs.Next, portabledeviceapi/IEnumPortableDeviceObjectIDs::Next, wpdsdk.ienumportabledeviceobjectids_next
+ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Next method, IEnumPortableDeviceObjectIDs.Next, IEnumPortableDeviceObjectIDs::Next, IEnumPortableDeviceObjectIDsNext, Next, Next method [Windows Portable Devices SDK], Next method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Next, wpdsdk.ienumportabledeviceobjectids_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumPortableDeviceObjectIDs::Next method
+# IEnumPortableDeviceObjectIDs::Next
 
 
 ## -description

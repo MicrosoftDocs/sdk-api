@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: df5eba93-6db7-478c-b6d7-831c20398d66
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ITransactionStatus, ITransactionStatus interface [COM+], ITransactionStatus interface [COM+], described, _cos_ITransactionStatus, comsvcs/ITransactionStatus, cos.itransactionstatus
+ms.keywords: ITransactionStatus, ITransactionStatus interface [COM+], ITransactionStatus interface [COM+],described, _cos_ITransactionStatus, comsvcs/ITransactionStatus, cos.itransactionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 240820c7-1c1f-4e2d-8b3e-497fd931d7d2
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11InfoQueue, ID3D11InfoQueue interface [Direct3D 11], ID3D11InfoQueue interface [Direct3D 11], described, c949addb-3970-af5d-6963-d7a298716036, d3d11sdklayers/ID3D11InfoQueue, direct3d11.id3d11infoqueue
+ms.keywords: ID3D11InfoQueue, ID3D11InfoQueue interface [Direct3D 11], ID3D11InfoQueue interface [Direct3D 11],described, c949addb-3970-af5d-6963-d7a298716036, d3d11sdklayers/ID3D11InfoQueue, direct3d11.id3d11infoqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

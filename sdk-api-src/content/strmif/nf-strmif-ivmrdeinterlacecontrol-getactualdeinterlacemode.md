@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.GetActualDeinterlaceMode
-title: IVMRDeinterlaceControl::GetActualDeinterlaceMode method
+title: IVMRDeinterlaceControl::GetActualDeinterlaceMode
 author: windows-driver-content
 description: The GetActualDeinterlaceMode method returns the deinterlacing mode that the VMR is using for a specified stream.
 old-location: dshow\ivmrdeinterlacecontrol_getactualdeinterlacemode.htm
 old-project: DirectShow
 ms.assetid: b8b5c619-68fe-40a5-8621-ef6e9ad612d8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetActualDeinterlaceMode method [DirectShow], GetActualDeinterlaceMode method [DirectShow], IVMRDeinterlaceControl interface, GetActualDeinterlaceMode,IVMRDeinterlaceControl.GetActualDeinterlaceMode, IVMRDeinterlaceControl, IVMRDeinterlaceControl interface [DirectShow], GetActualDeinterlaceMode method, IVMRDeinterlaceControl::GetActualDeinterlaceMode, IVMRDeinterlaceControlGetActualDeinterlaceMode, dshow.ivmrdeinterlacecontrol_getactualdeinterlacemode, strmif/IVMRDeinterlaceControl::GetActualDeinterlaceMode
+ms.date: 4/30/2018
+ms.keywords: GetActualDeinterlaceMode, GetActualDeinterlaceMode method [DirectShow], GetActualDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetActualDeinterlaceMode method, IVMRDeinterlaceControl.GetActualDeinterlaceMode, IVMRDeinterlaceControl::GetActualDeinterlaceMode, IVMRDeinterlaceControlGetActualDeinterlaceMode, dshow.ivmrdeinterlacecontrol_getactualdeinterlacemode, strmif/IVMRDeinterlaceControl::GetActualDeinterlaceMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRDeinterlaceControl::GetActualDeinterlaceMode method
+# IVMRDeinterlaceControl::GetActualDeinterlaceMode
 
 
 ## -description

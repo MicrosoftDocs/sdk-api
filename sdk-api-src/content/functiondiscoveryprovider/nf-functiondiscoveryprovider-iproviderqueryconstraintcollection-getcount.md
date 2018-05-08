@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.GetCount
-title: IProviderQueryConstraintCollection::GetCount method
+title: IProviderQueryConstraintCollection::GetCount
 author: windows-driver-content
 description: Gets the number of items in the collection.
 old-location: ncd\iproviderqueryconstraintcollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 401e1723-751a-490b-bcb6-d1e0f2f73dfb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetCount method, GetCount method, IProviderQueryConstraintCollection interface, GetCount,IProviderQueryConstraintCollection.GetCount, IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, GetCount method, IProviderQueryConstraintCollection::GetCount, functiondiscoveryprovider/IProviderQueryConstraintCollection::GetCount, ncd.iproviderqueryconstraintcollection_getcount
+ms.keywords: GetCount, GetCount method, GetCount method,IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface,GetCount method, IProviderQueryConstraintCollection.GetCount, IProviderQueryConstraintCollection::GetCount, functiondiscoveryprovider/IProviderQueryConstraintCollection::GetCount, ncd.iproviderqueryconstraintcollection_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IProviderQueryConstraintCollection::GetCount method
+# IProviderQueryConstraintCollection::GetCount
 
 
 ## -description

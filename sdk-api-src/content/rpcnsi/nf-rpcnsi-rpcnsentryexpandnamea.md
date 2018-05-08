@@ -7,7 +7,7 @@ old-location: rpc\rpcnsentryexpandname.htm
 old-project: Rpc
 ms.assetid: a93052c2-3fb1-448a-b4bf-70b9676de69a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcNsEntryExpandName, RpcNsEntryExpandName function [RPC], RpcNsEntryExpandNameA, RpcNsEntryExpandNameW, _rpc_rpcnsentryexpandname, rpc.rpcnsentryexpandname, rpcnsi/RpcNsEntryExpandName, rpcnsi/RpcNsEntryExpandNameA, rpcnsi/RpcNsEntryExpandNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

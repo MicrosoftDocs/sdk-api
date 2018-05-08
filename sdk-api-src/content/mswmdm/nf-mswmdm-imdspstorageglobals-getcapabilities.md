@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetCapabilities
-title: IMDSPStorageGlobals::GetCapabilities method
+title: IMDSPStorageGlobals::GetCapabilities
 author: windows-driver-content
 description: The GetCapabilities method retrieves the capabilities of the storage medium that an instance of this interface is associated with.
 old-location: wmdm\imdspstorageglobals_getcapabilities.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 83204c04-503d-4687-8a4d-3c95a6def8d1
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager], IMDSPStorageGlobals interface, GetCapabilities,IMDSPStorageGlobals.GetCapabilities, IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], GetCapabilities method, IMDSPStorageGlobals::GetCapabilities, IMDSPStorageGlobalsGetCapabilities, mswmdm/IMDSPStorageGlobals::GetCapabilities, wmdm.imdspstorageglobals_getcapabilities
+ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetCapabilities method, IMDSPStorageGlobals.GetCapabilities, IMDSPStorageGlobals::GetCapabilities, IMDSPStorageGlobalsGetCapabilities, mswmdm/IMDSPStorageGlobals::GetCapabilities, wmdm.imdspstorageglobals_getcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPStorageGlobals::GetCapabilities method
+# IMDSPStorageGlobals::GetCapabilities
 
 
 ## -description

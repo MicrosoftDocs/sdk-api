@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 47b059a9-a18a-4f32-9a02-6566175ca86b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IIsoImageManager, IIsoImageManager interface [IMAPI], IIsoImageManager interface [IMAPI], described, imapi.iisoimagemanager, imapi2fs/IIsoImageManager
+ms.keywords: IIsoImageManager, IIsoImageManager interface [IMAPI], IIsoImageManager interface [IMAPI],described, imapi.iisoimagemanager, imapi2fs/IIsoImageManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

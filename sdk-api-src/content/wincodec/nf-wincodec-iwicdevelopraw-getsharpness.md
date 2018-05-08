@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetSharpness
-title: IWICDevelopRaw::GetSharpness method
+title: IWICDevelopRaw::GetSharpness
 author: windows-driver-content
 description: Gets the sharpness value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getsharpness.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: a3cb0749-5ec6-4c29-824f-ae44f554d494
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetSharpness method [Windows Imaging Component], GetSharpness method [Windows Imaging Component], IWICDevelopRaw interface, GetSharpness,IWICDevelopRaw.GetSharpness, IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], GetSharpness method, IWICDevelopRaw::GetSharpness, _wic_codec_iwicdevelopraw_getsharpness, wic._wic_codec_iwicdevelopraw_getsharpness, wincodec/IWICDevelopRaw::GetSharpness
+ms.keywords: GetSharpness, GetSharpness method [Windows Imaging Component], GetSharpness method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetSharpness method, IWICDevelopRaw.GetSharpness, IWICDevelopRaw::GetSharpness, _wic_codec_iwicdevelopraw_getsharpness, wic._wic_codec_iwicdevelopraw_getsharpness, wincodec/IWICDevelopRaw::GetSharpness
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::GetSharpness method
+# IWICDevelopRaw::GetSharpness
 
 
 ## -description

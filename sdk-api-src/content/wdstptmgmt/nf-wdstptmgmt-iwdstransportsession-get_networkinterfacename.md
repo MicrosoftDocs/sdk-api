@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_NetworkInterfaceName
-title: IWdsTransportSession::get_NetworkInterfaceName method
+title: IWdsTransportSession::get_NetworkInterfaceName
 author: windows-driver-content
 description: Receives the name of the server network interface used by this transport session.
 old-location: wds\iwdstransportsession_networkinterfacename.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 2408b109-6878-4c66-ba44-196c10b2ae96
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportSession, IWdsTransportSession interface [Windows Deployment Services], NetworkInterfaceName property, IWdsTransportSession.NetworkInterfaceName, IWdsTransportSession::get_NetworkInterfaceName, NetworkInterfaceName property [Windows Deployment Services], NetworkInterfaceName property [Windows Deployment Services], IWdsTransportSession interface, get_NetworkInterfaceName,IWdsTransportSession.get_NetworkInterfaceName, wds.iwdstransportsession_networkinterfacename, wdstptmgmt/IWdsTransportSession::NetworkInterfaceName, wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceName
+ms.keywords: IWdsTransportSession interface [Windows Deployment Services],NetworkInterfaceName property, IWdsTransportSession.NetworkInterfaceName, IWdsTransportSession.get_NetworkInterfaceName, IWdsTransportSession::NetworkInterfaceName, IWdsTransportSession::get_NetworkInterfaceName, NetworkInterfaceName property [Windows Deployment Services], NetworkInterfaceName property [Windows Deployment Services],IWdsTransportSession interface, get_NetworkInterfaceName, wds.iwdstransportsession_networkinterfacename, wdstptmgmt/IWdsTransportSession::NetworkInterfaceName, wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportSession::get_NetworkInterfaceName method
+# IWdsTransportSession::get_NetworkInterfaceName
 
 
 ## -description

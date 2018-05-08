@@ -1,0 +1,6 @@
+# [GDI+](../_gdiplus/index.md)
+## [Gdiplusimagecodec.h](index.md)
+### [GetImageDecoders function](../gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoders.md)
+### [GetImageDecodersSize function](../gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize.md)
+### [GetImageEncoders function](../gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders.md)
+### [GetImageEncodersSize function](../gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoderssize.md)

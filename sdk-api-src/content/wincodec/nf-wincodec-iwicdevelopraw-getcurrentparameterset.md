@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetCurrentParameterSet
-title: IWICDevelopRaw::GetCurrentParameterSet method
+title: IWICDevelopRaw::GetCurrentParameterSet
 author: windows-driver-content
 description: Gets the current set of parameters.
 old-location: wic\_wic_codec_iwicdevelopraw_getcurrentparameterset.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 06facc60-0d88-472d-827a-70e4006e947e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetCurrentParameterSet method [Windows Imaging Component], GetCurrentParameterSet method [Windows Imaging Component], IWICDevelopRaw interface, GetCurrentParameterSet,IWICDevelopRaw.GetCurrentParameterSet, IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], GetCurrentParameterSet method, IWICDevelopRaw::GetCurrentParameterSet, _wic_codec_iwicdevelopraw_getcurrentparameterset, wic._wic_codec_iwicdevelopraw_getcurrentparameterset, wincodec/IWICDevelopRaw::GetCurrentParameterSet
+ms.keywords: GetCurrentParameterSet, GetCurrentParameterSet method [Windows Imaging Component], GetCurrentParameterSet method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetCurrentParameterSet method, IWICDevelopRaw.GetCurrentParameterSet, IWICDevelopRaw::GetCurrentParameterSet, _wic_codec_iwicdevelopraw_getcurrentparameterset, wic._wic_codec_iwicdevelopraw_getcurrentparameterset, wincodec/IWICDevelopRaw::GetCurrentParameterSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::GetCurrentParameterSet method
+# IWICDevelopRaw::GetCurrentParameterSet
 
 
 ## -description

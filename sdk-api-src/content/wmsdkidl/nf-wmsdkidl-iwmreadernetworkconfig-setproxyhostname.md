@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyHostName
-title: IWMReaderNetworkConfig::SetProxyHostName method
+title: IWMReaderNetworkConfig::SetProxyHostName
 author: windows-driver-content
 description: The SetProxyHostName method specifies the proxy host name.
 old-location: wmformat\iwmreadernetworkconfig_setproxyhostname.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 5638a5d6-30f3-43eb-b054-cab85948796c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetProxyHostName method, IWMReaderNetworkConfig::SetProxyHostName, IWMReaderNetworkConfigSetProxyHostName, SetProxyHostName method [windows Media Format], SetProxyHostName method [windows Media Format], IWMReaderNetworkConfig interface, SetProxyHostName,IWMReaderNetworkConfig.SetProxyHostName, wmformat.iwmreadernetworkconfig_setproxyhostname, wmsdkidl/IWMReaderNetworkConfig::SetProxyHostName
+ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyHostName method, IWMReaderNetworkConfig.SetProxyHostName, IWMReaderNetworkConfig::SetProxyHostName, IWMReaderNetworkConfigSetProxyHostName, SetProxyHostName, SetProxyHostName method [windows Media Format], SetProxyHostName method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyhostname, wmsdkidl/IWMReaderNetworkConfig::SetProxyHostName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::SetProxyHostName method
+# IWMReaderNetworkConfig::SetProxyHostName
 
 
 ## -description

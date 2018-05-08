@@ -7,7 +7,7 @@ old-location: bits\bits_job_property_value.htm
 old-project: Bits
 ms.assetid: DF1DDB37-F16F-47FF-B6C1-8C545A827CCB
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 4/27/2018
 ms.keywords: BITS_JOB_PROPERTY_VALUE, BITS_JOB_PROPERTY_VALUE union [BITS], __MIDL___MIDL_itf_bits5_0_0000_0000_0003, bits.bits_job_property_value, bits.bits_job_property_value_union, bits5_0/BITS_JOB_PROPERTY_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager2.get_ContentProviders
-title: IWdsTransportSetupManager2::get_ContentProviders method
+title: IWdsTransportSetupManager2::get_ContentProviders
 author: windows-driver-content
 description: Receives a pointer to an instance of the IWdsTransportCollection interface. The collection contains objects of the IWdsTransportContentProvider interface for the content providers registered on the server.
 old-location: wds\iwdstransportsetupmanager2_contentproviders.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: DF78B8D0-C5DF-46D2-AC6E-739266511253
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ContentProviders property [Windows Deployment Services], ContentProviders property [Windows Deployment Services], IWdsTransportSetupManager2 interface, IWdsTransportSetupManager2, IWdsTransportSetupManager2 interface [Windows Deployment Services], ContentProviders property, IWdsTransportSetupManager2.ContentProviders, IWdsTransportSetupManager2::get_ContentProviders, get_ContentProviders,IWdsTransportSetupManager2.get_ContentProviders, wds.iwdstransportsetupmanager2_contentproviders, wdstptmgmt/IWdsTransportSetupManager2::ContentProviders, wdstptmgmt/IWdsTransportSetupManager2::get_ContentProviders
+ms.keywords: ContentProviders property [Windows Deployment Services], ContentProviders property [Windows Deployment Services],IWdsTransportSetupManager2 interface, IWdsTransportSetupManager2 interface [Windows Deployment Services],ContentProviders property, IWdsTransportSetupManager2.ContentProviders, IWdsTransportSetupManager2.get_ContentProviders, IWdsTransportSetupManager2::ContentProviders, IWdsTransportSetupManager2::get_ContentProviders, get_ContentProviders, wds.iwdstransportsetupmanager2_contentproviders, wdstptmgmt/IWdsTransportSetupManager2::ContentProviders, wdstptmgmt/IWdsTransportSetupManager2::get_ContentProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportSetupManager2::get_ContentProviders method
+# IWdsTransportSetupManager2::get_ContentProviders
 
 
 ## -description

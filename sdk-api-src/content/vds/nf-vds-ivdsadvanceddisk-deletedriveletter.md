@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.DeleteDriveLetter
-title: IVdsAdvancedDisk::DeleteDriveLetter method
+title: IVdsAdvancedDisk::DeleteDriveLetter
 author: windows-driver-content
 description: Deletes a drive letter assigned to an OEM, ESP, or unknown partition.
 old-location: base\ivdsadvanceddisk_deletedriveletter.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 1df6bf7e-0155-463c-85e2-c879557bc044
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: DeleteDriveLetter method [VDS], DeleteDriveLetter method [VDS], IVdsAdvancedDisk interface, DeleteDriveLetter,IVdsAdvancedDisk.DeleteDriveLetter, IVdsAdvancedDisk, IVdsAdvancedDisk interface [VDS], DeleteDriveLetter method, IVdsAdvancedDisk::DeleteDriveLetter, base.ivdsadvanceddisk_deletedriveletter, vds/IVdsAdvancedDisk::DeleteDriveLetter
+ms.keywords: DeleteDriveLetter, DeleteDriveLetter method [VDS], DeleteDriveLetter method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],DeleteDriveLetter method, IVdsAdvancedDisk.DeleteDriveLetter, IVdsAdvancedDisk::DeleteDriveLetter, base.ivdsadvanceddisk_deletedriveletter, vds/IVdsAdvancedDisk::DeleteDriveLetter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsAdvancedDisk::DeleteDriveLetter method
+# IVdsAdvancedDisk::DeleteDriveLetter
 
 
 ## -description

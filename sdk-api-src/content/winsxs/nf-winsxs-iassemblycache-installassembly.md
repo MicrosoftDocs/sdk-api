@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyCache.InstallAssembly
-title: IAssemblyCache::InstallAssembly method
+title: IAssemblyCache::InstallAssembly
 author: windows-driver-content
 description: The InstallAssembly method adds an application reference to an assembly to the side-by-side store and copies the files of the assembly to the side-by-side store. The files of the assembly being installed must be present in the current file system.
 old-location: setup\iassemblycache_installassembly.htm
@@ -8,7 +8,7 @@ old-project: SbsCs
 ms.assetid: aff1da20-9e82-43d5-b601-f73ee2dba0fe
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IASSEMBLYCACHE_INSTALL_FLAG_FORCE_REFRESH, IASSEMBLYCACHE_INSTALL_FLAG_REFRESH, IAssemblyCache, IAssemblyCache interface [Side-by-side Assemblies], InstallAssembly method, IAssemblyCache::InstallAssembly, InstallAssembly method [Side-by-side Assemblies], InstallAssembly method [Side-by-side Assemblies], IAssemblyCache interface, InstallAssembly,IAssemblyCache.InstallAssembly, setup.iassemblycache_installassembly, winsxs/IAssemblyCache::InstallAssembly
+ms.keywords: IASSEMBLYCACHE_INSTALL_FLAG_FORCE_REFRESH, IASSEMBLYCACHE_INSTALL_FLAG_REFRESH, IAssemblyCache interface [Side-by-side Assemblies],InstallAssembly method, IAssemblyCache.InstallAssembly, IAssemblyCache::InstallAssembly, InstallAssembly, InstallAssembly method [Side-by-side Assemblies], InstallAssembly method [Side-by-side Assemblies],IAssemblyCache interface, setup.iassemblycache_installassembly, winsxs/IAssemblyCache::InstallAssembly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAssemblyCache::InstallAssembly method
+# IAssemblyCache::InstallAssembly
 
 
 ## -description

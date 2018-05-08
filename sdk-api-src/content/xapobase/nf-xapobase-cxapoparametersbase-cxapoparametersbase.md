@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.CXAPOParametersBase
-title: CXAPOParametersBase::CXAPOParametersBase method
+title: CXAPOParametersBase::CXAPOParametersBase
 author: windows-driver-content
 description: Creates an instance of the CXAPOParametersBase class.
 old-location: xaudio2\cxapoparametersbase_cxapoparametersbase.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.CXAPOParametersBase(BYTE,UINT32,BOOL)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs], CXAPOParametersBase method, CXAPOParametersBase method [XAudio2 Audio Mixing APIs], CXAPOParametersBase method [XAudio2 Audio Mixing APIs], CXAPOParametersBase interface, CXAPOParametersBase,CXAPOParametersBase.CXAPOParametersBase, CXAPOParametersBase::CXAPOParametersBase, xapobase/CXAPOParametersBase::CXAPOParametersBase, xaudio2.cxapoparametersbase_cxapoparametersbase
+ms.keywords: CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],CXAPOParametersBase method, CXAPOParametersBase method [XAudio2 Audio Mixing APIs], CXAPOParametersBase method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, CXAPOParametersBase.CXAPOParametersBase, CXAPOParametersBase::CXAPOParametersBase, xapobase/CXAPOParametersBase::CXAPOParametersBase, xaudio2.cxapoparametersbase_cxapoparametersbase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# CXAPOParametersBase::CXAPOParametersBase method
+# CXAPOParametersBase::CXAPOParametersBase
 
 
 ## -description

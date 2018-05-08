@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusDown
-title: IStylusPlugin::StylusDown method
+title: IStylusPlugin::StylusDown
 author: windows-driver-content
 description: Notifies the implementing plug-in that the tablet pen has touched the digitizer surface.
 old-location: tablet\istylusplugin_stylusdown.htm
 old-project: tablet
 ms.assetid: 13fb831c-e3e8-4e04-81ce-d4658be105a0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 13fb831c-e3e8-4e04-81ce-d4658be105a0, IStylusPlugin, IStylusPlugin interface [Tablet PC], StylusDown method, IStylusPlugin::StylusDown, StylusDown method [Tablet PC], StylusDown method [Tablet PC], IStylusPlugin interface, StylusDown,IStylusPlugin.StylusDown, rtscom/IStylusPlugin::StylusDown, tablet.istylusplugin_stylusdown
+ms.date: 5/2/2018
+ms.keywords: 13fb831c-e3e8-4e04-81ce-d4658be105a0, IStylusPlugin interface [Tablet PC],StylusDown method, IStylusPlugin.StylusDown, IStylusPlugin::StylusDown, StylusDown, StylusDown method [Tablet PC], StylusDown method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusDown, tablet.istylusplugin_stylusdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStylusPlugin::StylusDown method
+# IStylusPlugin::StylusDown
 
 
 ## -description

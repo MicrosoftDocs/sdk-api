@@ -8,7 +8,7 @@ old-project: wer
 ms.assetid: 22033278-2be3-4621-b618-3ccd21fb4cdd
 ms.author: windowsdriverdev
 ms.date: 3/22/2018
-ms.keywords: OutOfProcessExceptionEventCallback, OutOfProcessExceptionEventCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_EVENT, wer.outofprocessexceptioneventcallback, werapi/OutOfProcessExceptionEventCallback
+ms.keywords: OutOfProcessExceptionEventCallback, OutOfProcessExceptionEventCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_EVENT, PFN_WER_RUNTIME_EXCEPTION_EVENT callback, wer.outofprocessexceptioneventcallback, werapi/OutOfProcessExceptionEventCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFN_WER_RUNTIME_EXCEPTION_EVENT callback
+# PFN_WER_RUNTIME_EXCEPTION_EVENT callback function
 
 
 ## -description

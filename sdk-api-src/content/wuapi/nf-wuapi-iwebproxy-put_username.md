@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWebProxy.put_UserName
-title: IWebProxy::put_UserName method
+title: IWebProxy::put_UserName
 author: windows-driver-content
 description: Gets and sets the user name to submit to the proxy server for authentication.
 old-location: wua\iwebproxy_username.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: cef38d9d-5706-4008-be61-5bbe7c29ca68
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IWebProxy, IWebProxy interface [Windows Update Agent], UserName property, IWebProxy.UserName, IWebProxy::get_UserName, IWebProxy::put_UserName, UserName property [Windows Update Agent], UserName property [Windows Update Agent], IWebProxy interface, put_UserName,IWebProxy.put_UserName, wua.iwebproxy_username, wuapi/IWebProxy::UserName, wuapi/IWebProxy::get_UserName, wuapi/IWebProxy::put_UserName
+ms.keywords: IWebProxy interface [Windows Update Agent],UserName property, IWebProxy.UserName, IWebProxy.put_UserName, IWebProxy::UserName, IWebProxy::get_UserName, IWebProxy::put_UserName, UserName property [Windows Update Agent], UserName property [Windows Update Agent],IWebProxy interface, put_UserName, wua.iwebproxy_username, wuapi/IWebProxy::UserName, wuapi/IWebProxy::get_UserName, wuapi/IWebProxy::put_UserName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IWebProxy::put_UserName method
+# IWebProxy::put_UserName
 
 
 ## -description

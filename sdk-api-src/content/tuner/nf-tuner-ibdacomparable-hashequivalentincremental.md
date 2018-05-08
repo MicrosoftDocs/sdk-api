@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IBDAComparable.HashEquivalentIncremental
-title: IBDAComparable::HashEquivalentIncremental method
+title: IBDAComparable::HashEquivalentIncremental
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable_hashequivalentincremental.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8e5fcaf0-f160-4cff-9e9d-44766e0545c9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: HashEquivalentIncremental method [Microsoft TV Technologies], HashEquivalentIncremental method [Microsoft TV Technologies], IBDAComparable interface, HashEquivalentIncremental,IBDAComparable.HashEquivalentIncremental, IBDAComparable, IBDAComparable interface [Microsoft TV Technologies], HashEquivalentIncremental method, IBDAComparable::HashEquivalentIncremental, IBDAComparableHashEquivalentIncremental, mstv.ibdacomparable_hashequivalentincremental, tuner/IBDAComparable::HashEquivalentIncremental
+ms.keywords: HashEquivalentIncremental, HashEquivalentIncremental method [Microsoft TV Technologies], HashEquivalentIncremental method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashEquivalentIncremental method, IBDAComparable.HashEquivalentIncremental, IBDAComparable::HashEquivalentIncremental, IBDAComparableHashEquivalentIncremental, mstv.ibdacomparable_hashequivalentincremental, tuner/IBDAComparable::HashEquivalentIncremental
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IBDAComparable::HashEquivalentIncremental method
+# IBDAComparable::HashEquivalentIncremental
 
 
 ## -description

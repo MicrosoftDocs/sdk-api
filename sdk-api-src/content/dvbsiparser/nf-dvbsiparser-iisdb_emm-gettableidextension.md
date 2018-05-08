@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetTableIdExtension
-title: IISDB_EMM::GetTableIdExtension method
+title: IISDB_EMM::GetTableIdExtension
 author: windows-driver-content
 description: Gets a table_id_extension field identifying a subtable within an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_gettableidextension.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: aa0aba5d-181b-4466-8ad1-5db541d36261
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableIdExtension method [Microsoft TV Technologies], GetTableIdExtension method [Microsoft TV Technologies], IISDB_EMM interface, GetTableIdExtension,IISDB_EMM.GetTableIdExtension, IISDB_EMM, IISDB_EMM interface [Microsoft TV Technologies], GetTableIdExtension method, IISDB_EMM::GetTableIdExtension, dvbsiparser/IISDB_EMM::GetTableIdExtension, mstv.iisdb_emm_gettableidextension
+ms.keywords: GetTableIdExtension, GetTableIdExtension method [Microsoft TV Technologies], GetTableIdExtension method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetTableIdExtension method, IISDB_EMM.GetTableIdExtension, IISDB_EMM::GetTableIdExtension, dvbsiparser/IISDB_EMM::GetTableIdExtension, mstv.iisdb_emm_gettableidextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_EMM::GetTableIdExtension method
+# IISDB_EMM::GetTableIdExtension
 
 
 ## -description

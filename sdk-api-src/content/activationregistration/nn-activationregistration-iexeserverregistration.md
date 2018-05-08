@@ -7,8 +7,8 @@ old-location: winrt\iexeserverregistration.htm
 old-project: WinRT
 ms.assetid: 9A96968D-B9BD-4C47-B626-69B6EA6AE7EA
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IExeServerRegistration, IExeServerRegistration interface [Windows Runtime], IExeServerRegistration interface [Windows Runtime], described, activationregistration/IExeServerRegistration, winrt.iexeserverregistration
+ms.date: 5/4/2018
+ms.keywords: IExeServerRegistration, IExeServerRegistration interface [Windows Runtime], IExeServerRegistration interface [Windows Runtime],described, activationregistration/IExeServerRegistration, winrt.iexeserverregistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

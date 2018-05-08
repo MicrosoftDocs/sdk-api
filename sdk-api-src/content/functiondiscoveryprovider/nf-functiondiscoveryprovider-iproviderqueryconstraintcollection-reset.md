@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.Reset
-title: IProviderQueryConstraintCollection::Reset method
+title: IProviderQueryConstraintCollection::Reset
 author: windows-driver-content
 description: Resets the current index to the start of the collection.
 old-location: ncd\iproviderqueryconstraintcollection_reset.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 56bd143b-b3eb-4273-854b-4d6876ad5e4d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, Reset method, IProviderQueryConstraintCollection::Reset, Reset method, Reset method, IProviderQueryConstraintCollection interface, Reset,IProviderQueryConstraintCollection.Reset, functiondiscoveryprovider/IProviderQueryConstraintCollection::Reset, ncd.iproviderqueryconstraintcollection_reset
+ms.keywords: IProviderQueryConstraintCollection interface,Reset method, IProviderQueryConstraintCollection.Reset, IProviderQueryConstraintCollection::Reset, Reset, Reset method, Reset method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Reset, ncd.iproviderqueryconstraintcollection_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IProviderQueryConstraintCollection::Reset method
+# IProviderQueryConstraintCollection::Reset
 
 
 ## -description

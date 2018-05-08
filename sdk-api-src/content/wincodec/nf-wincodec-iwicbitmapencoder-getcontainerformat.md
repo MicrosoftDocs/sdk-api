@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.GetContainerFormat
-title: IWICBitmapEncoder::GetContainerFormat method
+title: IWICBitmapEncoder::GetContainerFormat
 author: windows-driver-content
 description: Retrieves the encoder's container format.
 old-location: wic\_wic_codec_iwicbitmapencoder_getcontainerformat.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 2d197321-0a89-49fd-b243-1d870c178b57
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component], IWICBitmapEncoder interface, GetContainerFormat,IWICBitmapEncoder.GetContainerFormat, IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], GetContainerFormat method, IWICBitmapEncoder::GetContainerFormat, _wic_codec_iwicbitmapencoder_getcontainerformat, wic._wic_codec_iwicbitmapencoder_getcontainerformat, wincodec/IWICBitmapEncoder::GetContainerFormat
+ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],GetContainerFormat method, IWICBitmapEncoder.GetContainerFormat, IWICBitmapEncoder::GetContainerFormat, _wic_codec_iwicbitmapencoder_getcontainerformat, wic._wic_codec_iwicbitmapencoder_getcontainerformat, wincodec/IWICBitmapEncoder::GetContainerFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapEncoder::GetContainerFormat method
+# IWICBitmapEncoder::GetContainerFormat
 
 
 ## -description

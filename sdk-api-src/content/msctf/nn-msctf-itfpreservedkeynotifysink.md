@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 0bf786b5-efcd-4c58-835b-47e7adf9be63
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfPreservedKeyNotifySink, ITfPreservedKeyNotifySink interface [Text Services Framework], ITfPreservedKeyNotifySink interface [Text Services Framework], described, _tsf_itfpreservedkeynotifysink_ref, msctf/ITfPreservedKeyNotifySink, tsf.itfpreservedkeynotifysink
+ms.keywords: ITfPreservedKeyNotifySink, ITfPreservedKeyNotifySink interface [Text Services Framework], ITfPreservedKeyNotifySink interface [Text Services Framework],described, _tsf_itfpreservedkeynotifysink_ref, msctf/ITfPreservedKeyNotifySink, tsf.itfpreservedkeynotifysink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

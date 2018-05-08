@@ -7,7 +7,7 @@ old-location: controls\PARAFORMAT2.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\paraformat2.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: 0, 1, 10, 11, 12, 13, 14, 15, 16, 2, 3, 32, 4, 5, 6, 64, 7, 8, 9, PARAFORMAT2, PARAFORMAT2 structure [Windows Controls], PFA_CENTER, PFA_FULL_INTERWORD, PFA_JUSTIFY, PFA_LEFT, PFA_RIGHT, PFE_DONOTHYPHEN, PFE_KEEP, PFE_KEEPNEXT, PFE_NOLINENUMBER, PFE_NOWIDOWCONTROL, PFE_PAGEBREAKBEFORE, PFE_RTLPARA, PFE_SIDEBYSIDE, PFE_TABLE, PFE_TABLEROWDELIMITER, PFM_ALIGNMENT, PFM_ALL, PFM_ALL2, PFM_BORDER, PFM_DONOTHYPHEN, PFM_EFFECTS, PFM_KEEP, PFM_KEEPNEXT, PFM_LINESPACING, PFM_NOLINENUMBER, PFM_NOWIDOWCONTROL, PFM_NUMBERING, PFM_NUMBERINGSTART, PFM_NUMBERINGSTYLE, PFM_NUMBERINGTAB, PFM_OFFSET, PFM_OFFSETINDENT, PFM_OUTLINELEVEL, PFM_PAGEBREAKBEFORE, PFM_RIGHTINDENT, PFM_RTLPARA, PFM_SHADING, PFM_SIDEBYSIDE, PFM_SPACEAFTER, PFM_SPACEBEFORE, PFM_STARTINDENT, PFM_STYLE, PFM_TABLE, PFM_TABLEROWDELIMITER, PFM_TABSTOPS, PFNS_NEWNUMBER, PFNS_NONUMBER, PFNS_PAREN, PFNS_PARENS, PFNS_PERIOD, PFNS_PLAIN, PFN_ARABIC, PFN_BULLET, PFN_LCLETTER, PFN_LCROMAN, PFN_UCLETTER, PFN_UCROMAN, _paraformat2, _win32_PARAFORMAT2_str, _win32_PARAFORMAT2_str_cpp, controls.PARAFORMAT2, controls._win32_PARAFORMAT2_str, richedit/PARAFORMAT2, zero
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -509,6 +509,134 @@ Use uppercase Roman letters (I, II, III, and so on).
 <td width="60%">
 Uses a sequence of characters beginning with the Unicode character specified by the 
 									<b>wNumberingStart</b> member. 
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field wReserved
+
+ 
+
+
+#### - wEffects
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+
+This member is also known as <b>wReserved</b> for Microsoft Rich Edit 1.0 because it was reserved.
+
+
+<b>Rich Edit 1.0:</b> 
+						Reserved; the value must be zero. 
+
+<b>Rich Edit 2.0:</b> A set of bit flags that specify paragraph effects. These flags are included only for compatibility with TOM interfaces; the rich edit control stores the value but does not use it to display the text. 
+
+This member can be a combination of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_DONOTHYPHEN"></a><a id="pfe_donothyphen"></a><dl>
+<dt><b>PFE_DONOTHYPHEN</b></dt>
+</dl>
+</td>
+<td width="60%">
+Disables automatic hyphenation.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_KEEP"></a><a id="pfe_keep"></a><dl>
+<dt><b>PFE_KEEP</b></dt>
+</dl>
+</td>
+<td width="60%">
+No page break within the paragraph.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_KEEPNEXT"></a><a id="pfe_keepnext"></a><dl>
+<dt><b>PFE_KEEPNEXT</b></dt>
+</dl>
+</td>
+<td width="60%">
+No page break between this paragraph and the next.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_NOLINENUMBER"></a><a id="pfe_nolinenumber"></a><dl>
+<dt><b>PFE_NOLINENUMBER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Disables line numbering (not implemented).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_NOWIDOWCONTROL"></a><a id="pfe_nowidowcontrol"></a><dl>
+<dt><b>PFE_NOWIDOWCONTROL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Disables widow and orphan control for the selected paragraph.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_PAGEBREAKBEFORE"></a><a id="pfe_pagebreakbefore"></a><dl>
+<dt><b>PFE_PAGEBREAKBEFORE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Inserts a page break before the selected paragraph.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_RTLPARA"></a><a id="pfe_rtlpara"></a><dl>
+<dt><b>PFE_RTLPARA</b></dt>
+</dl>
+</td>
+<td width="60%">
+Displays text using right-to-left reading order (in Rich Edit 2.1 and later).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_SIDEBYSIDE"></a><a id="pfe_sidebyside"></a><dl>
+<dt><b>PFE_SIDEBYSIDE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Displays paragraphs side by side (not implemented).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_TABLE"></a><a id="pfe_table"></a><dl>
+<dt><b>PFE_TABLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The paragraph is a table row.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_TABLEROWDELIMITER"></a><a id="pfe_tablerowdelimiter"></a><dl>
+<dt><b>PFE_TABLEROWDELIMITER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The paragraph is a start delimiter (U+FFF9 U+000D) or end delimiter (U+FFFB U+000D) of a row in a table.
 
 </td>
 </tr>
@@ -1721,129 +1849,6 @@ Dark gray
 </td>
 <td width="60%">
 Light gray
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - wEffects
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
-
-This member is also known as <b>wReserved</b> for Microsoft Rich Edit 1.0 because it was reserved.
-
-
-<b>Rich Edit 1.0:</b> 
-						Reserved; the value must be zero. 
-
-<b>Rich Edit 2.0:</b> A set of bit flags that specify paragraph effects. These flags are included only for compatibility with TOM interfaces; the rich edit control stores the value but does not use it to display the text. 
-
-This member can be a combination of the following values. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_DONOTHYPHEN"></a><a id="pfe_donothyphen"></a><dl>
-<dt><b>PFE_DONOTHYPHEN</b></dt>
-</dl>
-</td>
-<td width="60%">
-Disables automatic hyphenation.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_KEEP"></a><a id="pfe_keep"></a><dl>
-<dt><b>PFE_KEEP</b></dt>
-</dl>
-</td>
-<td width="60%">
-No page break within the paragraph.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_KEEPNEXT"></a><a id="pfe_keepnext"></a><dl>
-<dt><b>PFE_KEEPNEXT</b></dt>
-</dl>
-</td>
-<td width="60%">
-No page break between this paragraph and the next.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_NOLINENUMBER"></a><a id="pfe_nolinenumber"></a><dl>
-<dt><b>PFE_NOLINENUMBER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Disables line numbering (not implemented).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_NOWIDOWCONTROL"></a><a id="pfe_nowidowcontrol"></a><dl>
-<dt><b>PFE_NOWIDOWCONTROL</b></dt>
-</dl>
-</td>
-<td width="60%">
-Disables widow and orphan control for the selected paragraph.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_PAGEBREAKBEFORE"></a><a id="pfe_pagebreakbefore"></a><dl>
-<dt><b>PFE_PAGEBREAKBEFORE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Inserts a page break before the selected paragraph.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_RTLPARA"></a><a id="pfe_rtlpara"></a><dl>
-<dt><b>PFE_RTLPARA</b></dt>
-</dl>
-</td>
-<td width="60%">
-Displays text using right-to-left reading order (in Rich Edit 2.1 and later).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_SIDEBYSIDE"></a><a id="pfe_sidebyside"></a><dl>
-<dt><b>PFE_SIDEBYSIDE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Displays paragraphs side by side (not implemented).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_TABLE"></a><a id="pfe_table"></a><dl>
-<dt><b>PFE_TABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The paragraph is a table row.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_TABLEROWDELIMITER"></a><a id="pfe_tablerowdelimiter"></a><dl>
-<dt><b>PFE_TABLEROWDELIMITER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The paragraph is a start delimiter (U+FFF9 U+000D) or end delimiter (U+FFFB U+000D) of a row in a table.
 
 </td>
 </tr>

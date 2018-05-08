@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6e0ceabb-4d67-46c1-9e7d-e00d5ad82280
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], IISDB_CDT interface [Microsoft TV Technologies], described, dvbsiparser/IISDB_CDT, mstv.iisdb_cdt
+ms.keywords: IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], IISDB_CDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_CDT, mstv.iisdb_cdt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

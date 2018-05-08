@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTVTuner.put_ConnectInput
-title: IAMTVTuner::put_ConnectInput method
+title: IAMTVTuner::put_ConnectInput
 author: windows-driver-content
 description: The put_ConnectInput method sets the hardware tuner input connection.
 old-location: dshow\iamtvtuner_put_connectinput.htm
 old-project: DirectShow
 ms.assetid: d0ea5d82-acb6-401a-942a-99d34058c648
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTVTuner, IAMTVTuner interface [DirectShow], put_ConnectInput method, IAMTVTuner::put_ConnectInput, IAMTVTunerput_ConnectInput, dshow.iamtvtuner_put_connectinput, put_ConnectInput method [DirectShow], put_ConnectInput method [DirectShow], IAMTVTuner interface, put_ConnectInput,IAMTVTuner.put_ConnectInput, strmif/IAMTVTuner::put_ConnectInput
+ms.date: 4/30/2018
+ms.keywords: IAMTVTuner interface [DirectShow],put_ConnectInput method, IAMTVTuner.put_ConnectInput, IAMTVTuner::put_ConnectInput, IAMTVTunerput_ConnectInput, dshow.iamtvtuner_put_connectinput, put_ConnectInput, put_ConnectInput method [DirectShow], put_ConnectInput method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::put_ConnectInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTVTuner::put_ConnectInput method
+# IAMTVTuner::put_ConnectInput
 
 
 ## -description

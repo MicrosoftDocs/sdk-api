@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.SetOutputFileName
-title: ICaptureGraphBuilder2::SetOutputFileName method
+title: ICaptureGraphBuilder2::SetOutputFileName
 author: windows-driver-content
 description: The SetOutputFileName method creates the file writing section of the filter graph.
 old-location: dshow\icapturegraphbuilder2_setoutputfilename.htm
 old-project: DirectShow
 ms.assetid: b81a79c1-a6f2-4c80-ae86-095fb9f78673
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICaptureGraphBuilder2, ICaptureGraphBuilder2 interface [DirectShow], SetOutputFileName method, ICaptureGraphBuilder2::SetOutputFileName, ICaptureGraphBuilder2SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow], ICaptureGraphBuilder2 interface, SetOutputFileName,ICaptureGraphBuilder2.SetOutputFileName, dshow.icapturegraphbuilder2_setoutputfilename, strmif/ICaptureGraphBuilder2::SetOutputFileName
+ms.date: 4/30/2018
+ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],SetOutputFileName method, ICaptureGraphBuilder2.SetOutputFileName, ICaptureGraphBuilder2::SetOutputFileName, ICaptureGraphBuilder2SetOutputFileName, SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_setoutputfilename, strmif/ICaptureGraphBuilder2::SetOutputFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ICaptureGraphBuilder2::SetOutputFileName method
+# ICaptureGraphBuilder2::SetOutputFileName
 
 
 ## -description

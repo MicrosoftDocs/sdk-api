@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFNetCredential.SetPassword
-title: IMFNetCredential::SetPassword method
+title: IMFNetCredential::SetPassword
 author: windows-driver-content
 description: Sets the password.
 old-location: mf\imfnetcredential_setpassword.htm
 old-project: medfound
 ms.assetid: 7de58b57-83fe-4c3a-9029-e9be556c84c9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 7de58b57-83fe-4c3a-9029-e9be556c84c9, IMFNetCredential, IMFNetCredential interface [Media Foundation], SetPassword method, IMFNetCredential::SetPassword, SetPassword method [Media Foundation], SetPassword method [Media Foundation], IMFNetCredential interface, SetPassword,IMFNetCredential.SetPassword, mf.imfnetcredential_setpassword, mfidl/IMFNetCredential::SetPassword
+ms.date: 5/3/2018
+ms.keywords: 7de58b57-83fe-4c3a-9029-e9be556c84c9, IMFNetCredential interface [Media Foundation],SetPassword method, IMFNetCredential.SetPassword, IMFNetCredential::SetPassword, SetPassword, SetPassword method [Media Foundation], SetPassword method [Media Foundation],IMFNetCredential interface, mf.imfnetcredential_setpassword, mfidl/IMFNetCredential::SetPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFNetCredential::SetPassword method
+# IMFNetCredential::SetPassword
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: automat\vareqv.htm
 old-project: automat
 ms.assetid: 34ddece6-87c8-469d-b275-443d1e99b1c9
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarEqv, VarEqv function [Automation], _oa96_VarEqv, automat.vareqv, oleauto/VarEqv
 ms.prod: windows-hardware
 ms.technology: windows-devices

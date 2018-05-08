@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtDevice.get_ExternalDeviceVersion
-title: IAMExtDevice::get_ExternalDeviceVersion method
+title: IAMExtDevice::get_ExternalDeviceVersion
 author: windows-driver-content
 description: The get_ExternalDeviceVersion retrieves the version number of the external device's operating software.
 old-location: dshow\iamextdevice_get_externaldeviceversion.htm
 old-project: DirectShow
 ms.assetid: 66a98ad3-850a-4b41-a169-f971fde83266
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], get_ExternalDeviceVersion method, IAMExtDevice::get_ExternalDeviceVersion, IAMExtDeviceget_ExternalDeviceVersion, dshow.iamextdevice_get_externaldeviceversion, get_ExternalDeviceVersion method [DirectShow], get_ExternalDeviceVersion method [DirectShow], IAMExtDevice interface, get_ExternalDeviceVersion,IAMExtDevice.get_ExternalDeviceVersion, strmif/IAMExtDevice::get_ExternalDeviceVersion
+ms.date: 4/30/2018
+ms.keywords: IAMExtDevice interface [DirectShow],get_ExternalDeviceVersion method, IAMExtDevice.get_ExternalDeviceVersion, IAMExtDevice::get_ExternalDeviceVersion, IAMExtDeviceget_ExternalDeviceVersion, dshow.iamextdevice_get_externaldeviceversion, get_ExternalDeviceVersion, get_ExternalDeviceVersion method [DirectShow], get_ExternalDeviceVersion method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::get_ExternalDeviceVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtDevice::get_ExternalDeviceVersion method
+# IAMExtDevice::get_ExternalDeviceVersion
 
 
 ## -description

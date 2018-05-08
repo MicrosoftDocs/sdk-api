@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara2.SetFontAlignment
-title: ITextPara2::SetFontAlignment method
+title: ITextPara2::SetFontAlignment
 author: windows-driver-content
 description: Sets the paragraph font alignment for Chinese, Japanese, Korean text.
 old-location: controls\itextpara2_setfontalignment.htm
 old-project: Controls
 ms.assetid: 2ed1f7f2-9523-4dda-bac0-c1eb3d217102
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], SetFontAlignment method, ITextPara2::SetFontAlignment, SetFontAlignment method [Windows Controls], SetFontAlignment method [Windows Controls], ITextPara2 interface, SetFontAlignment,ITextPara2.SetFontAlignment, controls.itextpara2_setfontalignment, tom/ITextPara2::SetFontAlignment
+ms.date: 4/27/2018
+ms.keywords: ITextPara2 interface [Windows Controls],SetFontAlignment method, ITextPara2.SetFontAlignment, ITextPara2::SetFontAlignment, SetFontAlignment, SetFontAlignment method [Windows Controls], SetFontAlignment method [Windows Controls],ITextPara2 interface, controls.itextpara2_setfontalignment, tom/ITextPara2::SetFontAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara2::SetFontAlignment method
+# ITextPara2::SetFontAlignment
 
 
 ## -description

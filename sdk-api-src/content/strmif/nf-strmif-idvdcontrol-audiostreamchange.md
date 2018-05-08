@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.AudioStreamChange
-title: IDvdControl::AudioStreamChange method
+title: IDvdControl::AudioStreamChange
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the current audio stream.
 old-location: dshow\idvdcontrol_audiostreamchange.htm
 old-project: DirectShow
 ms.assetid: 08fca00b-e187-40db-99c0-8b978dd0f10e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AudioStreamChange method [DirectShow], AudioStreamChange method [DirectShow], IDvdControl interface, AudioStreamChange,IDvdControl.AudioStreamChange, IDvdControl, IDvdControl interface [DirectShow], AudioStreamChange method, IDvdControl::AudioStreamChange, IDvdControlAudioStreamChange, dshow.idvdcontrol_audiostreamchange, strmif/IDvdControl::AudioStreamChange
+ms.date: 4/30/2018
+ms.keywords: AudioStreamChange, AudioStreamChange method [DirectShow], AudioStreamChange method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],AudioStreamChange method, IDvdControl.AudioStreamChange, IDvdControl::AudioStreamChange, IDvdControlAudioStreamChange, dshow.idvdcontrol_audiostreamchange, strmif/IDvdControl::AudioStreamChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::AudioStreamChange method
+# IDvdControl::AudioStreamChange
 
 
 ## -description

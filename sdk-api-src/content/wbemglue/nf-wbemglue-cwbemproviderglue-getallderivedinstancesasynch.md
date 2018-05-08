@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetAllDerivedInstancesAsynch
-title: CWbemProviderGlue::GetAllDerivedInstancesAsynch method
+title: CWbemProviderGlue::GetAllDerivedInstancesAsynch
 author: windows-driver-content
 description: The GetAllDerivedInstancesAsynch method retrieves a list of instances supported by a particular provider and derived from a particular base class. This method allows the provider to respond asynchronously by returning one instance at a time.
 old-location: wmi\cwbemproviderglue_getallderivedinstancesasynch.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: d58f8aca-2176-443e-b82a-87ee8bae8cf8
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CWbemProviderGlue, CWbemProviderGlue interface [Windows Management Instrumentation], GetAllDerivedInstancesAsynch method, CWbemProviderGlue::GetAllDerivedInstancesAsynch, GetAllDerivedInstancesAsynch method [Windows Management Instrumentation], GetAllDerivedInstancesAsynch method [Windows Management Instrumentation], CWbemProviderGlue interface, GetAllDerivedInstancesAsynch,CWbemProviderGlue.GetAllDerivedInstancesAsynch, _hmm_cwbemproviderglue_getallderivedinstancesasynch, wbemglue/CWbemProviderGlue::GetAllDerivedInstancesAsynch, wmi.cwbemproviderglue_getallderivedinstancesasynch
+ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetAllDerivedInstancesAsynch method, CWbemProviderGlue.GetAllDerivedInstancesAsynch, CWbemProviderGlue::GetAllDerivedInstancesAsynch, GetAllDerivedInstancesAsynch, GetAllDerivedInstancesAsynch method [Windows Management Instrumentation], GetAllDerivedInstancesAsynch method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallderivedinstancesasynch, wbemglue/CWbemProviderGlue::GetAllDerivedInstancesAsynch, wmi.cwbemproviderglue_getallderivedinstancesasynch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# CWbemProviderGlue::GetAllDerivedInstancesAsynch method
+# CWbemProviderGlue::GetAllDerivedInstancesAsynch
 
 
 ## -description

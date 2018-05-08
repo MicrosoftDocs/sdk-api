@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.GetAt
-title: IProviderProperties::GetAt method
+title: IProviderProperties::GetAt
 author: windows-driver-content
 description: Gets the property key at the specified index.
 old-location: ncd\iproviderproperties_getat_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: f76d010b-f9dd-46d7-9b1f-eba3d11aaef1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetAt method, GetAt method, IProviderProperties interface, GetAt,IProviderProperties.GetAt, IProviderProperties, IProviderProperties interface, GetAt method, IProviderProperties::GetAt, functiondiscoveryprovider/IProviderProperties::GetAt, ncd.iproviderproperties_getat_method
+ms.keywords: GetAt, GetAt method, GetAt method,IProviderProperties interface, IProviderProperties interface,GetAt method, IProviderProperties.GetAt, IProviderProperties::GetAt, functiondiscoveryprovider/IProviderProperties::GetAt, ncd.iproviderproperties_getat_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IProviderProperties::GetAt method
+# IProviderProperties::GetAt
 
 
 ## -description

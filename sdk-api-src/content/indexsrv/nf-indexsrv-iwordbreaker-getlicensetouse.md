@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IWordBreaker.GetLicenseToUse
-title: IWordBreaker::GetLicenseToUse method
+title: IWordBreaker::GetLicenseToUse
 author: windows-driver-content
 description: Retrieves a pointer to the license information for this implementation of the IWordBreaker interface.
 old-location: indexsrv\iwordbreaker_getlicensetouse.htm
@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_7vvp.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetLicenseToUse method [Indexing Service], GetLicenseToUse method [Indexing Service], IWordBreaker interface, GetLicenseToUse,IWordBreaker.GetLicenseToUse, IWordBreaker, IWordBreaker interface [Indexing Service], GetLicenseToUse method, IWordBreaker::GetLicenseToUse, _idxs_IWordBreaker_GetLicenseToUse, indexsrv.iwordbreaker_getlicensetouse, indexsrv/IWordBreaker::GetLicenseToUse
+ms.keywords: GetLicenseToUse, GetLicenseToUse method [Indexing Service], GetLicenseToUse method [Indexing Service],IWordBreaker interface, IWordBreaker interface [Indexing Service],GetLicenseToUse method, IWordBreaker.GetLicenseToUse, IWordBreaker::GetLicenseToUse, _idxs_IWordBreaker_GetLicenseToUse, indexsrv.iwordbreaker_getlicensetouse, indexsrv/IWordBreaker::GetLicenseToUse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWordBreaker::GetLicenseToUse method
+# IWordBreaker::GetLicenseToUse
 
 
 ## -description

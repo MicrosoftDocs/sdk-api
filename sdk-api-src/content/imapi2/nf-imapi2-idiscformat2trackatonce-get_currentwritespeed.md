@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed
-title: IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed method
+title: IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed
 author: windows-driver-content
 description: Retrieves the drive's current write speed.
 old-location: imapi\idiscformat2trackatonce_get_currentwritespeed.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 8236dc3f-fe94-4dd5-908b-36ed74943ad4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], get_CurrentWriteSpeed method, IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed, get_CurrentWriteSpeed method [IMAPI], get_CurrentWriteSpeed method [IMAPI], IDiscFormat2TrackAtOnce interface, get_CurrentWriteSpeed,IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed, imapi.idiscformat2trackatonce_get_currentwritespeed, imapi2/IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed
+ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_CurrentWriteSpeed method, IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed, IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed, get_CurrentWriteSpeed, get_CurrentWriteSpeed method [IMAPI], get_CurrentWriteSpeed method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_currentwritespeed, imapi2/IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed method
+# IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed
 
 
 ## -description

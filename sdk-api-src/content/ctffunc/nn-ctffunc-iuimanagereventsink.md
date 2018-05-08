@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: A514833B-BC60-4D87-B2C6-849003E4EA63
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IUIManagerEventSink, IUIManagerEventSink interface [Text Services Framework], IUIManagerEventSink interface [Text Services Framework], described, ctffunc/IUIManagerEventSink, tsf.iuimanagereventsink
+ms.keywords: IUIManagerEventSink, IUIManagerEventSink interface [Text Services Framework], IUIManagerEventSink interface [Text Services Framework],described, ctffunc/IUIManagerEventSink, tsf.iuimanagereventsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

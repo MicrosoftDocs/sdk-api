@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 19124591-be1a-401e-9b83-c640d00de34a
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509EnrollmentHelper, IX509EnrollmentHelper interface [Security], IX509EnrollmentHelper interface [Security], described, certenroll/IX509EnrollmentHelper, security.ix509enrollmenthelper
+ms.keywords: IX509EnrollmentHelper, IX509EnrollmentHelper interface [Security], IX509EnrollmentHelper interface [Security],described, certenroll/IX509EnrollmentHelper, security.ix509enrollmenthelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

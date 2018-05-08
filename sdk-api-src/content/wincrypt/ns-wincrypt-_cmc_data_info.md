@@ -7,7 +7,7 @@ old-location: security\cmc_data_info.htm
 old-project: SecCrypto
 ms.assetid: 6245af5a-7a19-4665-bf6c-ad803998d840
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMC_DATA_INFO, CMC_DATA_INFO, CMC_DATA_INFO structure [Security], PCMC_DATA_INFO, PCMC_DATA_INFO structure pointer [Security], _CMC_DATA_INFO, _crypto2_cmc_data_info, security.cmc_data_info, wincrypt/CMC_DATA_INFO, wincrypt/PCMC_DATA_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

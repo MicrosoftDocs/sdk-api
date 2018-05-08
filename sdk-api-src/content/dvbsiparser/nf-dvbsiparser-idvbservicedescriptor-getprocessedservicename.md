@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor.GetProcessedServiceName
-title: IDvbServiceDescriptor::GetProcessedServiceName method
+title: IDvbServiceDescriptor::GetProcessedServiceName
 author: windows-driver-content
 description: Gets the processed service name from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor_getprocessedservicename.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c0441e70-270e-4685-9107-865c2b6398e9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetProcessedServiceName method [Microsoft TV Technologies], GetProcessedServiceName method [Microsoft TV Technologies], IDvbServiceDescriptor interface, GetProcessedServiceName,IDvbServiceDescriptor.GetProcessedServiceName, IDvbServiceDescriptor, IDvbServiceDescriptor interface [Microsoft TV Technologies], GetProcessedServiceName method, IDvbServiceDescriptor::GetProcessedServiceName, dvbsiparser/IDvbServiceDescriptor::GetProcessedServiceName, mstv.idvbservicedescriptor_getprocessedservicename
+ms.keywords: GetProcessedServiceName, GetProcessedServiceName method [Microsoft TV Technologies], GetProcessedServiceName method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetProcessedServiceName method, IDvbServiceDescriptor.GetProcessedServiceName, IDvbServiceDescriptor::GetProcessedServiceName, dvbsiparser/IDvbServiceDescriptor::GetProcessedServiceName, mstv.idvbservicedescriptor_getprocessedservicename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbServiceDescriptor::GetProcessedServiceName method
+# IDvbServiceDescriptor::GetProcessedServiceName
 
 
 ## -description

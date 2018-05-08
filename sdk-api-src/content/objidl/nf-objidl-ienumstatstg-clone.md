@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumSTATSTG.Clone
-title: IEnumSTATSTG::Clone method
+title: IEnumSTATSTG::Clone
 author: windows-driver-content
 description: Creates a new enumerator that contains the same enumeration state as the current STATSTG structure enumerator.
 old-location: stg\ienumstatstg_clone.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: b6bc5dbd-7e09-4590-a7d4-d58fcd297f74
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: Clone method [Structured Storage], Clone method [Structured Storage], IEnumSTATSTG interface, Clone,IEnumSTATSTG.Clone, IEnumSTATSTG, IEnumSTATSTG interface [Structured Storage], Clone method, IEnumSTATSTG::Clone, objidl/IEnumSTATSTG::Clone, stg.ienumstatstg_clone
+ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IEnumSTATSTG interface, IEnumSTATSTG interface [Structured Storage],Clone method, IEnumSTATSTG.Clone, IEnumSTATSTG::Clone, objidl/IEnumSTATSTG::Clone, stg.ienumstatstg_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumSTATSTG::Clone method
+# IEnumSTATSTG::Clone
 
 
 ## -description

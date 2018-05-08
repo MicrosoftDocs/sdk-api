@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: a55e4183-f914-4064-a391-3bd31ca59160
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnConnectionProfileManager, IMbnConnectionProfileManager interface [Microsoft Broadband Networks], IMbnConnectionProfileManager interface [Microsoft Broadband Networks], described, mbn.imbnconnectionprofilemanager, mbnapi/IMbnConnectionProfileManager
+ms.keywords: IMbnConnectionProfileManager, IMbnConnectionProfileManager interface [Microsoft Broadband Networks], IMbnConnectionProfileManager interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofilemanager, mbnapi/IMbnConnectionProfileManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

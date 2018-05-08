@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 4f3dfa67-5020-461a-b3d1-33c948129bdf
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_OPEN_DATABASE_FN, StorageAdapterOpenDatabase, StorageAdapterOpenDatabase callback function [Windows Biometric Framework API], secbiomet.storageadapteropendatabase, winbio_adapter/StorageAdapterOpenDatabase
+ms.keywords: PIBIO_STORAGE_OPEN_DATABASE_FN, PIBIO_STORAGE_OPEN_DATABASE_FN callback, StorageAdapterOpenDatabase, StorageAdapterOpenDatabase callback function [Windows Biometric Framework API], secbiomet.storageadapteropendatabase, winbio_adapter/StorageAdapterOpenDatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_OPEN_DATABASE_FN callback
+# PIBIO_STORAGE_OPEN_DATABASE_FN callback function
 
 
 ## -description

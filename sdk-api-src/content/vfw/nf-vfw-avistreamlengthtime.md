@@ -7,7 +7,7 @@ old-location: multimedia\avistreamlengthtime.htm
 old-project: Multimedia
 ms.assetid: 550d04b2-d5d4-4acc-97d3-8cd180de1545
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: AVIStreamLengthTime, AVIStreamLengthTime macro [Windows Multimedia], _win32_AVIStreamLengthTime, multimedia.avistreamlengthtime, vfw/AVIStreamLengthTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

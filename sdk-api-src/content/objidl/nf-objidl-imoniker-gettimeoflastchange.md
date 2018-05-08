@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.GetTimeOfLastChange
-title: IMoniker::GetTimeOfLastChange method
+title: IMoniker::GetTimeOfLastChange
 author: windows-driver-content
 description: Retrieves the time at which the object identified by this moniker was last changed.
 old-location: com\imoniker_gettimeoflastchange.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 120cc951-6797-4ef6-890b-57ff8d3d23ba
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM], IMoniker interface, GetTimeOfLastChange,IMoniker.GetTimeOfLastChange, IMoniker, IMoniker interface [COM], GetTimeOfLastChange method, IMoniker::GetTimeOfLastChange, _com_imoniker_gettimeoflastchange, com.imoniker_gettimeoflastchange, objidl/IMoniker::GetTimeOfLastChange
+ms.keywords: GetTimeOfLastChange, GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM],IMoniker interface, IMoniker interface [COM],GetTimeOfLastChange method, IMoniker.GetTimeOfLastChange, IMoniker::GetTimeOfLastChange, _com_imoniker_gettimeoflastchange, com.imoniker_gettimeoflastchange, objidl/IMoniker::GetTimeOfLastChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMoniker::GetTimeOfLastChange method
+# IMoniker::GetTimeOfLastChange
 
 
 ## -description

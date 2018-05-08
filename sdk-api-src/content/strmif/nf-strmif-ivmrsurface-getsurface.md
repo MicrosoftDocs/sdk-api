@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRSurface.GetSurface
-title: IVMRSurface::GetSurface method
+title: IVMRSurface::GetSurface
 author: windows-driver-content
 description: The GetSurface method retrieves the attached DirectDraw surface interface.
 old-location: dshow\ivmrsurface_getsurface.htm
 old-project: DirectShow
 ms.assetid: 2fba7818-6395-47d3-98b3-347f1d4a7c6f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetSurface method [DirectShow], GetSurface method [DirectShow], IVMRSurface interface, GetSurface,IVMRSurface.GetSurface, IVMRSurface, IVMRSurface interface [DirectShow], GetSurface method, IVMRSurface::GetSurface, IVMRSurfaceGetSurface, dshow.ivmrsurface_getsurface, strmif/IVMRSurface::GetSurface
+ms.date: 4/30/2018
+ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IVMRSurface interface, IVMRSurface interface [DirectShow],GetSurface method, IVMRSurface.GetSurface, IVMRSurface::GetSurface, IVMRSurfaceGetSurface, dshow.ivmrsurface_getsurface, strmif/IVMRSurface::GetSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRSurface::GetSurface method
+# IVMRSurface::GetSurface
 
 
 ## -description

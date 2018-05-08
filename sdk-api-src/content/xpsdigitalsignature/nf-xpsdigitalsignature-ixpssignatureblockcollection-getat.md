@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlockCollection.GetAt
-title: IXpsSignatureBlockCollection::GetAt method
+title: IXpsSignatureBlockCollection::GetAt
 author: windows-driver-content
 description: Gets an IXpsSignatureBlock interface pointer from a specified location in the collection.
 old-location: xps\ixpssignatureblockcollection_getat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 4d3f89be-f9f3-46db-802f-ffb4867786c2
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging], IXpsSignatureBlockCollection interface, GetAt,IXpsSignatureBlockCollection.GetAt, IXpsSignatureBlockCollection, IXpsSignatureBlockCollection interface [XPS Documents and Packaging], GetAt method, IXpsSignatureBlockCollection::GetAt, xps.ixpssignatureblockcollection_getat, xpsdigitalsignature/IXpsSignatureBlockCollection::GetAt
+ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsSignatureBlockCollection interface, IXpsSignatureBlockCollection interface [XPS Documents and Packaging],GetAt method, IXpsSignatureBlockCollection.GetAt, IXpsSignatureBlockCollection::GetAt, xps.ixpssignatureblockcollection_getat, xpsdigitalsignature/IXpsSignatureBlockCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureBlockCollection::GetAt method
+# IXpsSignatureBlockCollection::GetAt
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.TransformPoint
-title: Matrix3x2F::TransformPoint method
+title: Matrix3x2F::TransformPoint
 author: windows-driver-content
 description: Uses this matrix to transform the specified point and returns the result.
 old-location: direct2d\matrix3x2f_transformpoint.htm
@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: f7c31524-5c29-4c09-b863-6b511ef9ce70
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: D2D1.Matrix3x2F.TransformPoint, D2D1::Matrix3x2F::TransformPoint, Matrix3x2F, Matrix3x2F interface [Direct2D], TransformPoint method, Matrix3x2F::TransformPoint, TransformPoint method [Direct2D], TransformPoint method [Direct2D], Matrix3x2F interface, TransformPoint,Matrix3x2F.TransformPoint, d2d1helper/Matrix3x2F::TransformPoint, direct2d.matrix3x2f_transformpoint
+ms.keywords: D2D1.Matrix3x2F.TransformPoint, D2D1::Matrix3x2F::TransformPoint, Matrix3x2F interface [Direct2D],TransformPoint method, Matrix3x2F.TransformPoint, Matrix3x2F::TransformPoint, TransformPoint, TransformPoint method [Direct2D], TransformPoint method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::TransformPoint, direct2d.matrix3x2f_transformpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D2d1.dll
 req.irql: 
 ---
 
-# Matrix3x2F::TransformPoint method
+# Matrix3x2F::TransformPoint
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattsetdescriptorvalue.htm
 old-project: bltooth
 ms.assetid: B4EDDC32-732D-422B-85A0-FD935DBFE4EB
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 4/27/2018
 ms.keywords: BluetoothGATTSetDescriptorValue, BluetoothGATTSetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattsetdescriptorvalue, bluetoothleapis/BluetoothGATTSetDescriptorValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

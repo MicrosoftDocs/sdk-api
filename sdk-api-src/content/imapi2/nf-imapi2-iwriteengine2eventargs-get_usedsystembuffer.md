@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_UsedSystemBuffer
-title: IWriteEngine2EventArgs::get_UsedSystemBuffer method
+title: IWriteEngine2EventArgs::get_UsedSystemBuffer
 author: windows-driver-content
 description: Retrieves the number of used bytes in the internal data buffer that is used for writing to disc.
 old-location: imapi\iwriteengine2eventargs_get_usedsystembuffer.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 905c476f-33cd-4eda-a342-c7a20479d63c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IWriteEngine2EventArgs, IWriteEngine2EventArgs interface [IMAPI], get_UsedSystemBuffer method, IWriteEngine2EventArgs::get_UsedSystemBuffer, get_UsedSystemBuffer method [IMAPI], get_UsedSystemBuffer method [IMAPI], IWriteEngine2EventArgs interface, get_UsedSystemBuffer,IWriteEngine2EventArgs.get_UsedSystemBuffer, imapi.iwriteengine2eventargs_get_usedsystembuffer, imapi2/IWriteEngine2EventArgs::get_UsedSystemBuffer
+ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_UsedSystemBuffer method, IWriteEngine2EventArgs.get_UsedSystemBuffer, IWriteEngine2EventArgs::get_UsedSystemBuffer, get_UsedSystemBuffer, get_UsedSystemBuffer method [IMAPI], get_UsedSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_usedsystembuffer, imapi2/IWriteEngine2EventArgs::get_UsedSystemBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWriteEngine2EventArgs::get_UsedSystemBuffer method
+# IWriteEngine2EventArgs::get_UsedSystemBuffer
 
 
 ## -description

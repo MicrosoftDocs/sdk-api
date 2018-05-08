@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannelManager.CreateListener
-title: IWTSVirtualChannelManager::CreateListener method
+title: IWTSVirtualChannelManager::CreateListener
 author: windows-driver-content
 description: Returns an instance of a listener object that listens on a specific endpoint.
 old-location: termserv\iwtsvirtualchannelmanager_createlistener.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 62800999-bd13-4529-b5e4-5c6d67d3a6bc
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services], IWTSVirtualChannelManager interface, CreateListener,IWTSVirtualChannelManager.CreateListener, IWTSVirtualChannelManager, IWTSVirtualChannelManager interface [Remote Desktop Services], CreateListener method, IWTSVirtualChannelManager::CreateListener, termserv.iwtsvirtualchannelmanager_createlistener, tsvirtualchannels/IWTSVirtualChannelManager::CreateListener
+ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSVirtualChannelManager interface, IWTSVirtualChannelManager interface [Remote Desktop Services],CreateListener method, IWTSVirtualChannelManager.CreateListener, IWTSVirtualChannelManager::CreateListener, termserv.iwtsvirtualchannelmanager_createlistener, tsvirtualchannels/IWTSVirtualChannelManager::CreateListener
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWTSVirtualChannelManager::CreateListener method
+# IWTSVirtualChannelManager::CreateListener
 
 
 ## -description

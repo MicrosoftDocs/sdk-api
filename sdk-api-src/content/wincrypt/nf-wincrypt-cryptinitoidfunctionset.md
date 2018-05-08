@@ -7,7 +7,7 @@ old-location: security\cryptinitoidfunctionset.htm
 old-project: SecCrypto
 ms.assetid: 576a2989-ed7f-417d-b60e-24baf90a6554
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CryptInitOIDFunctionSet, CryptInitOIDFunctionSet function [Security], _crypto2_cryptinitoidfunctionset, security.cryptinitoidfunctionset, wincrypt/CryptInitOIDFunctionSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.BackupComplete
-title: IVssBackupComponents::BackupComplete method
+title: IVssBackupComponents::BackupComplete
 author: windows-driver-content
 description: The BackupComplete method causes VSS to generate a BackupComplete event, which signals writers that the backup process has completed.
 old-location: base\ivssbackupcomponents_backupcomplete.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: ee49d4b1-f3f4-4c85-a3a2-f4452d066f21
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: BackupComplete method [VSS], BackupComplete method [VSS], IVssBackupComponents interface, BackupComplete,IVssBackupComponents.BackupComplete, IVssBackupComponents, IVssBackupComponents interface [VSS], BackupComplete method, IVssBackupComponents::BackupComplete, _win32_ivssbackupcomponents_backupcomplete, base.ivssbackupcomponents_backupcomplete, vsbackup/IVssBackupComponents::BackupComplete
+ms.keywords: BackupComplete, BackupComplete method [VSS], BackupComplete method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],BackupComplete method, IVssBackupComponents.BackupComplete, IVssBackupComponents::BackupComplete, _win32_ivssbackupcomponents_backupcomplete, base.ivssbackupcomponents_backupcomplete, vsbackup/IVssBackupComponents::BackupComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::BackupComplete method
+# IVssBackupComponents::BackupComplete
 
 
 ## -description

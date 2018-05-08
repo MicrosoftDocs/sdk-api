@@ -1,14 +1,14 @@
 ---
 UID: NF:bitscfg.IBITSExtensionSetupFactory.GetObject
-title: IBITSExtensionSetupFactory::GetObject method
+title: IBITSExtensionSetupFactory::GetObject
 author: windows-driver-content
 description: Use the GetObject method to retrieve a pointer to the IBITSExtensionSetup interface. This method performs the same binding that the ADsGetObject ADSI function performs.
 old-location: bits\ibitsextensionsetupfactory_getobject.htm
 old-project: Bits
 ms.assetid: ac0bb9d5-3f1f-4c9b-bd7d-905e0451bf70
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetObject method [BITS], GetObject method [BITS], IBITSExtensionSetupFactory interface, GetObject,IBITSExtensionSetupFactory.GetObject, IBITSExtensionSetupFactory, IBITSExtensionSetupFactory interface [BITS], GetObject method, IBITSExtensionSetupFactory::GetObject, _drz_ibitsextensionsetupfactory_getobject, bits.ibitsextensionsetupfactory_getobject, bitscfg/IBITSExtensionSetupFactory::GetObject
+ms.date: 4/27/2018
+ms.keywords: GetObject, GetObject method [BITS], GetObject method [BITS],IBITSExtensionSetupFactory interface, IBITSExtensionSetupFactory interface [BITS],GetObject method, IBITSExtensionSetupFactory.GetObject, IBITSExtensionSetupFactory::GetObject, _drz_ibitsextensionsetupfactory_getobject, bits.ibitsextensionsetupfactory_getobject, bitscfg/IBITSExtensionSetupFactory::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: BitsMgr.dll
 req.irql: 
 ---
 
-# IBITSExtensionSetupFactory::GetObject method
+# IBITSExtensionSetupFactory::GetObject
 
 
 ## -description

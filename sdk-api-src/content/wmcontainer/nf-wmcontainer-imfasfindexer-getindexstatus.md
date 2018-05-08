@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexStatus
-title: IMFASFIndexer::GetIndexStatus method
+title: IMFASFIndexer::GetIndexStatus
 author: windows-driver-content
 description: Retrieves the index settings for a specified stream and index type.
 old-location: mf\imfasfindexer_getindexstatus.htm
 old-project: medfound
 ms.assetid: dc38a060-36e4-458e-829e-2770387fc484
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetIndexStatus method [Media Foundation], GetIndexStatus method [Media Foundation], IMFASFIndexer interface, GetIndexStatus,IMFASFIndexer.GetIndexStatus, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], GetIndexStatus method, IMFASFIndexer::GetIndexStatus, dc38a060-36e4-458e-829e-2770387fc484, mf.imfasfindexer_getindexstatus, wmcontainer/IMFASFIndexer::GetIndexStatus
+ms.date: 5/3/2018
+ms.keywords: GetIndexStatus, GetIndexStatus method [Media Foundation], GetIndexStatus method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexStatus method, IMFASFIndexer.GetIndexStatus, IMFASFIndexer::GetIndexStatus, dc38a060-36e4-458e-829e-2770387fc484, mf.imfasfindexer_getindexstatus, wmcontainer/IMFASFIndexer::GetIndexStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFIndexer::GetIndexStatus method
+# IMFASFIndexer::GetIndexStatus
 
 
 ## -description

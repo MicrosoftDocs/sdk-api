@@ -7,7 +7,7 @@ old-location: controls\DTBGOPTS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\dtbgopts.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: "*PDTBGOPTS, DTBGOPTS, DTBGOPTS structure [Windows Controls], DTBG_CLIPRECT, DTBG_COMPUTINGREGION, DTBG_DRAWSOLID, DTBG_MIRRORDC, DTBG_NOMIRROR, DTBG_OMITBORDER, DTBG_OMITCONTENT, DTBG_VALIDBITS, PDTBGOPTS, PDTBGOPTS structure pointer [Windows Controls], _DTBGOPTS, controls.DTBGOPTS, controls.inet_DTBGOPTS, inet_DTBGOPTS, inet_DTBGOPTS_cpp, uxtheme/DTBGOPTS, uxtheme/PDTBGOPTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

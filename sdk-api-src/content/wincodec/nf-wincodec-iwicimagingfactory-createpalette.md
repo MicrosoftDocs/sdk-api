@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreatePalette
-title: IWICImagingFactory::CreatePalette method
+title: IWICImagingFactory::CreatePalette
 author: windows-driver-content
 description: Creates a new instance of the IWICPalette class.
 old-location: wic\_wic_codec_iwicimagingfactory_createpalette.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 135440ee-ea70-40da-9ee1-618a8e10170a
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreatePalette method [Windows Imaging Component], CreatePalette method [Windows Imaging Component], IWICImagingFactory interface, CreatePalette,IWICImagingFactory.CreatePalette, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreatePalette method, IWICImagingFactory::CreatePalette, _wic_codec_iwicimagingfactory_createpalette, wic._wic_codec_iwicimagingfactory_createpalette, wincodec/IWICImagingFactory::CreatePalette
+ms.keywords: CreatePalette, CreatePalette method [Windows Imaging Component], CreatePalette method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreatePalette method, IWICImagingFactory.CreatePalette, IWICImagingFactory::CreatePalette, _wic_codec_iwicimagingfactory_createpalette, wic._wic_codec_iwicimagingfactory_createpalette, wincodec/IWICImagingFactory::CreatePalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICImagingFactory::CreatePalette method
+# IWICImagingFactory::CreatePalette
 
 
 ## -description

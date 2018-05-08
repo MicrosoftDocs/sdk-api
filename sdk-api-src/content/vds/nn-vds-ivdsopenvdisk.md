@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 3d5f080f-3e83-437e-8cbc-9730988f5dcc
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsOpenVDisk, IVdsOpenVDisk interface, IVdsOpenVDisk interface, described, base.ivdsopenvdisk, vds/IVdsOpenVDisk
+ms.keywords: IVdsOpenVDisk, IVdsOpenVDisk interface, IVdsOpenVDisk interface,described, base.ivdsopenvdisk, vds/IVdsOpenVDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 2fcd8905-7002-41b8-b947-14d53c889c21
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, wsw.ws_service_message_receive_callback
+ms.keywords: WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback, WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, wsw.ws_service_message_receive_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback
+# WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback function
 
 
 ## -description

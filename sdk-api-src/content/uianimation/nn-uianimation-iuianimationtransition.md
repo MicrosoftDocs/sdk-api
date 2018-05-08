@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 99804a2f-82c9-494c-b75d-69e66f1e49ef
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationTransition, IUIAnimationTransition interface [Windows Animation], IUIAnimationTransition interface [Windows Animation], described, uianimation.iuianimationtransition, uianimation/IUIAnimationTransition
+ms.keywords: IUIAnimationTransition, IUIAnimationTransition interface [Windows Animation], IUIAnimationTransition interface [Windows Animation],described, uianimation.iuianimationtransition, uianimation/IUIAnimationTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadTerminate
-title: IComThreadEvents::OnThreadTerminate method
+title: IComThreadEvents::OnThreadTerminate
 author: windows-driver-content
 description: Generated when a single-threaded apartment (STA) thread is terminated.
 old-location: cos\icomthreadevents_onthreadterminate.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 8483962c-46c9-4ef1-8c7e-391a04334293
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComThreadEvents, IComThreadEvents interface [COM+], OnThreadTerminate method, IComThreadEvents::OnThreadTerminate, OnThreadTerminate method [COM+], OnThreadTerminate method [COM+], IComThreadEvents interface, OnThreadTerminate,IComThreadEvents.OnThreadTerminate, _dtc_IComThreadEvents_OnThreadTerminate, comsvcs/IComThreadEvents::OnThreadTerminate, cos.icomthreadevents_onthreadterminate
+ms.keywords: IComThreadEvents interface [COM+],OnThreadTerminate method, IComThreadEvents.OnThreadTerminate, IComThreadEvents::OnThreadTerminate, OnThreadTerminate, OnThreadTerminate method [COM+], OnThreadTerminate method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadTerminate, comsvcs/IComThreadEvents::OnThreadTerminate, cos.icomthreadevents_onthreadterminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComThreadEvents::OnThreadTerminate method
+# IComThreadEvents::OnThreadTerminate
 
 
 ## -description

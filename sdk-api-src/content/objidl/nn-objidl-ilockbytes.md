@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: bb2c5d0d-8dc8-4844-9a20-ef8e4def5731
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: ILockBytes, ILockBytes interface [Structured Storage], ILockBytes interface [Structured Storage], described, _stg_ilockbytes, objidl/ILockBytes, stg.ilockbytes
+ms.keywords: ILockBytes, ILockBytes interface [Structured Storage], ILockBytes interface [Structured Storage],described, _stg_ilockbytes, objidl/ILockBytes, stg.ilockbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

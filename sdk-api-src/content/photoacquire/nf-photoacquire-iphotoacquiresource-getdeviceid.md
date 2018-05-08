@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetDeviceId
-title: IPhotoAcquireSource::GetDeviceId method
+title: IPhotoAcquireSource::GetDeviceId
 author: windows-driver-content
 description: The GetDeviceId method retrieves the identifier (ID) of the device.
 old-location: picacq\iphotoacquiresource_getdeviceid.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 4c997e76-9109-403f-821f-d73e8577b1ac
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDeviceId method [Picture Acquisition], GetDeviceId method [Picture Acquisition], IPhotoAcquireSource interface, GetDeviceId,IPhotoAcquireSource.GetDeviceId, IPhotoAcquireSource, IPhotoAcquireSource interface [Picture Acquisition], GetDeviceId method, IPhotoAcquireSource::GetDeviceId, IPhotoAcquireSourceGetDeviceId, photoacquire/IPhotoAcquireSource::GetDeviceId, picacq.iphotoacquiresource_getdeviceid
+ms.keywords: GetDeviceId, GetDeviceId method [Picture Acquisition], GetDeviceId method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetDeviceId method, IPhotoAcquireSource.GetDeviceId, IPhotoAcquireSource::GetDeviceId, IPhotoAcquireSourceGetDeviceId, photoacquire/IPhotoAcquireSource::GetDeviceId, picacq.iphotoacquiresource_getdeviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireSource::GetDeviceId method
+# IPhotoAcquireSource::GetDeviceId
 
 
 ## -description

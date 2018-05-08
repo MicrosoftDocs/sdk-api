@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaces.get_Item
-title: ITuningSpaces::get_Item method
+title: ITuningSpaces::get_Item
 author: windows-driver-content
 description: The get_Item method returns the specified item in the collection.
 old-location: mstv\ituningspaces_get_item.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9f7686d5-f454-46ea-ae50-5c140fda3099
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuningSpaces, ITuningSpaces interface [Microsoft TV Technologies], get_Item method, ITuningSpaces::get_Item, ITuningSpacesget_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies], ITuningSpaces interface, get_Item,ITuningSpaces.get_Item, mstv.ituningspaces_get_item, tuner/ITuningSpaces::get_Item
+ms.keywords: ITuningSpaces interface [Microsoft TV Technologies],get_Item method, ITuningSpaces.get_Item, ITuningSpaces::get_Item, ITuningSpacesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],ITuningSpaces interface, mstv.ituningspaces_get_item, tuner/ITuningSpaces::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpaces::get_Item method
+# ITuningSpaces::get_Item
 
 
 ## -description

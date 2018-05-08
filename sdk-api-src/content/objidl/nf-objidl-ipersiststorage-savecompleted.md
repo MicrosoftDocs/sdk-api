@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistStorage.SaveCompleted
-title: IPersistStorage::SaveCompleted method
+title: IPersistStorage::SaveCompleted
 author: windows-driver-content
 description: Notifies the object that it can write to its storage object.
 old-location: com\ipersiststorage_savecompleted.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 18c223e7-38ce-4f20-818b-84bd4c7e0dfd
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPersistStorage, IPersistStorage interface [COM], SaveCompleted method, IPersistStorage::SaveCompleted, SaveCompleted method [COM], SaveCompleted method [COM], IPersistStorage interface, SaveCompleted,IPersistStorage.SaveCompleted, _com_ipersiststorage_savecompleted, com.ipersiststorage_savecompleted, objidl/IPersistStorage::SaveCompleted
+ms.keywords: IPersistStorage interface [COM],SaveCompleted method, IPersistStorage.SaveCompleted, IPersistStorage::SaveCompleted, SaveCompleted, SaveCompleted method [COM], SaveCompleted method [COM],IPersistStorage interface, _com_ipersiststorage_savecompleted, com.ipersiststorage_savecompleted, objidl/IPersistStorage::SaveCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistStorage::SaveCompleted method
+# IPersistStorage::SaveCompleted
 
 
 ## -description

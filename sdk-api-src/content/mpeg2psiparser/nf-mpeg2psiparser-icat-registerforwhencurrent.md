@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.RegisterForWhenCurrent
-title: ICAT::RegisterForWhenCurrent method
+title: ICAT::RegisterForWhenCurrent
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_registerforwhencurrent.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 74a5c410-314e-4f49-b294-a4788e85cbef
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ICAT, ICAT interface [Microsoft TV Technologies], RegisterForWhenCurrent method, ICAT::RegisterForWhenCurrent, ICATRegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies], ICAT interface, RegisterForWhenCurrent,ICAT.RegisterForWhenCurrent, mpeg2psiparser/ICAT::RegisterForWhenCurrent, mstv.icat_registerforwhencurrent
+ms.keywords: ICAT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, ICAT.RegisterForWhenCurrent, ICAT::RegisterForWhenCurrent, ICATRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],ICAT interface, mpeg2psiparser/ICAT::RegisterForWhenCurrent, mstv.icat_registerforwhencurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ICAT::RegisterForWhenCurrent method
+# ICAT::RegisterForWhenCurrent
 
 
 ## -description

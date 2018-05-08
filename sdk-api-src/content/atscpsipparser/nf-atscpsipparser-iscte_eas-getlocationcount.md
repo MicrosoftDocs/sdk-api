@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetLocationCount
-title: ISCTE_EAS::GetLocationCount method
+title: ISCTE_EAS::GetLocationCount
 author: windows-driver-content
 description: The GetLocationCount method returns the number of locations in the EAS table.
 old-location: mstv\iscte_eas_getlocationcount.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f498ead0-246d-4741-a995-45a5cf63847e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLocationCount method [Microsoft TV Technologies], GetLocationCount method [Microsoft TV Technologies], ISCTE_EAS interface, GetLocationCount,ISCTE_EAS.GetLocationCount, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetLocationCount method, ISCTE_EAS::GetLocationCount, ISCTE_EASGetLocationCount, atscpsipparser/ISCTE_EAS::GetLocationCount, mstv.iscte_eas_getlocationcount
+ms.keywords: GetLocationCount, GetLocationCount method [Microsoft TV Technologies], GetLocationCount method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetLocationCount method, ISCTE_EAS.GetLocationCount, ISCTE_EAS::GetLocationCount, ISCTE_EASGetLocationCount, atscpsipparser/ISCTE_EAS::GetLocationCount, mstv.iscte_eas_getlocationcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetLocationCount method
+# ISCTE_EAS::GetLocationCount
 
 
 ## -description

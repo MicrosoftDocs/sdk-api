@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0ec4497c-68c3-4b0e-a9e4-332e42b2c89b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], IISDB_BIT interface [Microsoft TV Technologies], described, dvbsiparser/IISDB_BIT, mstv.iisdb_bit
+ms.keywords: IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], IISDB_BIT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_BIT, mstv.iisdb_bit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

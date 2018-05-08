@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBlockingLock.Unlock
-title: IBlockingLock::Unlock method
+title: IBlockingLock::Unlock
 author: windows-driver-content
 description: Releases a lock on a shared resource.
 old-location: com\iblockinglock_unlock.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 152c2d72-fa49-4213-8916-81a6383900cc
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IBlockingLock, IBlockingLock interface [COM], Unlock method, IBlockingLock::Unlock, Unlock method [COM], Unlock method [COM], IBlockingLock interface, Unlock,IBlockingLock.Unlock, _com_iblockinglock_unlock, com.iblockinglock_unlock, objidl/IBlockingLock::Unlock
+ms.keywords: IBlockingLock interface [COM],Unlock method, IBlockingLock.Unlock, IBlockingLock::Unlock, Unlock, Unlock method [COM], Unlock method [COM],IBlockingLock interface, _com_iblockinglock_unlock, com.iblockinglock_unlock, objidl/IBlockingLock::Unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBlockingLock::Unlock method
+# IBlockingLock::Unlock
 
 
 ## -description

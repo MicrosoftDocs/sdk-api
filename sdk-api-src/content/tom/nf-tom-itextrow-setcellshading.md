@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.SetCellShading
-title: ITextRow::SetCellShading method
+title: ITextRow::SetCellShading
 author: windows-driver-content
 description: Sets the shading of the active cell.
 old-location: controls\itextrow_setcellshading.htm
 old-project: Controls
 ms.assetid: 9163a9a3-6f8c-4318-a5a1-4b00a9037f6a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetCellShading method, ITextRow::SetCellShading, SetCellShading method [Windows Controls], SetCellShading method [Windows Controls], ITextRow interface, SetCellShading,ITextRow.SetCellShading, controls.itextrow_setcellshading, tom/ITextRow::SetCellShading
+ms.date: 4/27/2018
+ms.keywords: ITextRow interface [Windows Controls],SetCellShading method, ITextRow.SetCellShading, ITextRow::SetCellShading, SetCellShading, SetCellShading method [Windows Controls], SetCellShading method [Windows Controls],ITextRow interface, controls.itextrow_setcellshading, tom/ITextRow::SetCellShading
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::SetCellShading method
+# ITextRow::SetCellShading
 
 
 ## -description

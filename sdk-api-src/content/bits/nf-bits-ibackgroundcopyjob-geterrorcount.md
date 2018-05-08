@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetErrorCount
-title: IBackgroundCopyJob::GetErrorCount method
+title: IBackgroundCopyJob::GetErrorCount
 author: windows-driver-content
 description: Retrieves the number of times BITS tried to transfer the job and an error occurred.
 old-location: bits\ibackgroundcopyjob_geterrorcount.htm
 old-project: Bits
 ms.assetid: 04ca4752-8c4d-4f54-9dfa-3c9f567d7980
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetErrorCount method [BITS], GetErrorCount method [BITS], IBackgroundCopyJob interface, GetErrorCount,IBackgroundCopyJob.GetErrorCount, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetErrorCount method, IBackgroundCopyJob::GetErrorCount, _drz_ibackgroundcopyjob_geterrorcount, bits.ibackgroundcopyjob_geterrorcount, bits/IBackgroundCopyJob::GetErrorCount
+ms.date: 4/27/2018
+ms.keywords: GetErrorCount, GetErrorCount method [BITS], GetErrorCount method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetErrorCount method, IBackgroundCopyJob.GetErrorCount, IBackgroundCopyJob::GetErrorCount, _drz_ibackgroundcopyjob_geterrorcount, bits.ibackgroundcopyjob_geterrorcount, bits/IBackgroundCopyJob::GetErrorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::GetErrorCount method
+# IBackgroundCopyJob::GetErrorCount
 
 
 ## -description

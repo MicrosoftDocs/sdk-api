@@ -7,7 +7,7 @@ old-location: automat\vardecfromr8.htm
 old-project: automat
 ms.assetid: 5661ec3d-d3bf-434d-af31-20f108b78c03
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarDecFromR8, VarDecFromR8 function [Automation], _oa96_VarDecFromR8, automat.vardecfromr8, oleauto/VarDecFromR8
 ms.prod: windows-hardware
 ms.technology: windows-devices

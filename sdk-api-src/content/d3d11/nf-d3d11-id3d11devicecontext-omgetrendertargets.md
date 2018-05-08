@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMGetRenderTargets
-title: ID3D11DeviceContext::OMGetRenderTargets method
+title: ID3D11DeviceContext::OMGetRenderTargets
 author: windows-driver-content
 description: Get pointers to the resources bound to the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omgetrendertargets.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 27ac656a-0906-43ad-8089-b41639b55ecf
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], OMGetRenderTargets method, ID3D11DeviceContext::OMGetRenderTargets, OMGetRenderTargets method [Direct3D 11], OMGetRenderTargets method [Direct3D 11], ID3D11DeviceContext interface, OMGetRenderTargets,ID3D11DeviceContext.OMGetRenderTargets, b914865b-766f-62c4-e7e9-5b7590860668, d3d11/ID3D11DeviceContext::OMGetRenderTargets, direct3d11.id3d11devicecontext_omgetrendertargets
+ms.keywords: ID3D11DeviceContext interface [Direct3D 11],OMGetRenderTargets method, ID3D11DeviceContext.OMGetRenderTargets, ID3D11DeviceContext::OMGetRenderTargets, OMGetRenderTargets, OMGetRenderTargets method [Direct3D 11], OMGetRenderTargets method [Direct3D 11],ID3D11DeviceContext interface, b914865b-766f-62c4-e7e9-5b7590860668, d3d11/ID3D11DeviceContext::OMGetRenderTargets, direct3d11.id3d11devicecontext_omgetrendertargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::OMGetRenderTargets method
+# ID3D11DeviceContext::OMGetRenderTargets
 
 
 ## -description

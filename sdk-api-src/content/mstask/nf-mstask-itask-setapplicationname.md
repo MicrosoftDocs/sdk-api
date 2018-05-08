@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.SetApplicationName
-title: ITask::SetApplicationName method
+title: ITask::SetApplicationName
 author: windows-driver-content
 description: This method assigns a specific application to the current task.
 old-location: taskschd\itask_setapplicationname.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 0bec25a9-e653-48b5-be41-8f513169fc8c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITask, ITask interface [Task Scheduler], SetApplicationName method, ITask::SetApplicationName, SetApplicationName method [Task Scheduler], SetApplicationName method [Task Scheduler], ITask interface, SetApplicationName,ITask.SetApplicationName, _msb_itask_setapplicationname, mstask/ITask::SetApplicationName, taskschd.itask_setapplicationname
+ms.keywords: ITask interface [Task Scheduler],SetApplicationName method, ITask.SetApplicationName, ITask::SetApplicationName, SetApplicationName, SetApplicationName method [Task Scheduler], SetApplicationName method [Task Scheduler],ITask interface, _msb_itask_setapplicationname, mstask/ITask::SetApplicationName, taskschd.itask_setapplicationname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITask::SetApplicationName method
+# ITask::SetApplicationName
 
 
 ## -description

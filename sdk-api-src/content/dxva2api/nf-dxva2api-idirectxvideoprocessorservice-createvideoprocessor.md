@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.CreateVideoProcessor
-title: IDirectXVideoProcessorService::CreateVideoProcessor method
+title: IDirectXVideoProcessorService::CreateVideoProcessor
 author: windows-driver-content
 description: Creates a video processor device.
 old-location: mf\idirectxvideoprocessorservice_createvideoprocessor.htm
 old-project: medfound
 ms.assetid: 18178a10-f902-4d25-992e-a27145204321
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 18178a10-f902-4d25-992e-a27145204321, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation], IDirectXVideoProcessorService interface, CreateVideoProcessor,IDirectXVideoProcessorService.CreateVideoProcessor, IDirectXVideoProcessorService, IDirectXVideoProcessorService interface [Media Foundation], CreateVideoProcessor method, IDirectXVideoProcessorService::CreateVideoProcessor, dxva2api/IDirectXVideoProcessorService::CreateVideoProcessor, mf.idirectxvideoprocessorservice_createvideoprocessor
+ms.date: 5/3/2018
+ms.keywords: 18178a10-f902-4d25-992e-a27145204321, CreateVideoProcessor, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],CreateVideoProcessor method, IDirectXVideoProcessorService.CreateVideoProcessor, IDirectXVideoProcessorService::CreateVideoProcessor, dxva2api/IDirectXVideoProcessorService::CreateVideoProcessor, mf.idirectxvideoprocessorservice_createvideoprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirectXVideoProcessorService::CreateVideoProcessor method
+# IDirectXVideoProcessorService::CreateVideoProcessor
 
 
 ## -description

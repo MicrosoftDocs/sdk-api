@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IEnumProgressItems.Reset
-title: IEnumProgressItems::Reset method
+title: IEnumProgressItems::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: imapi\ienumprogressitems_reset.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 9cb652f6-1507-46e3-ab44-582ce060a775
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumProgressItems, IEnumProgressItems interface [IMAPI], Reset method, IEnumProgressItems::Reset, Reset method [IMAPI], Reset method [IMAPI], IEnumProgressItems interface, Reset,IEnumProgressItems.Reset, imapi.ienumprogressitems_reset, imapi2fs/IEnumProgressItems::Reset
+ms.keywords: IEnumProgressItems interface [IMAPI],Reset method, IEnumProgressItems.Reset, IEnumProgressItems::Reset, Reset, Reset method [IMAPI], Reset method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_reset, imapi2fs/IEnumProgressItems::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumProgressItems::Reset method
+# IEnumProgressItems::Reset
 
 
 ## -description

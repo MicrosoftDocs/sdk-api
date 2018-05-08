@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.ITfMSAAControl.SystemEnableMSAA
-title: ITfMSAAControl::SystemEnableMSAA method
+title: ITfMSAAControl::SystemEnableMSAA
 author: windows-driver-content
 description: ITfMSAAControl::SystemEnableMSAA method
 old-location: tsf\itfmsaacontrol_systemenablemsaa.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: fec3aa3f-3554-4c21-9557-a12388d97a94
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfMSAAControl, ITfMSAAControl interface [Text Services Framework], SystemEnableMSAA method, ITfMSAAControl::SystemEnableMSAA, SystemEnableMSAA method [Text Services Framework], SystemEnableMSAA method [Text Services Framework], ITfMSAAControl interface, SystemEnableMSAA,ITfMSAAControl.SystemEnableMSAA, msaatext/ITfMSAAControl::SystemEnableMSAA, tsf.itfmsaacontrol_systemenablemsaa
+ms.keywords: ITfMSAAControl interface [Text Services Framework],SystemEnableMSAA method, ITfMSAAControl.SystemEnableMSAA, ITfMSAAControl::SystemEnableMSAA, SystemEnableMSAA, SystemEnableMSAA method [Text Services Framework], SystemEnableMSAA method [Text Services Framework],ITfMSAAControl interface, msaatext/ITfMSAAControl::SystemEnableMSAA, tsf.itfmsaacontrol_systemenablemsaa
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfMSAAControl::SystemEnableMSAA method
+# ITfMSAAControl::SystemEnableMSAA
 
 
 ## -description

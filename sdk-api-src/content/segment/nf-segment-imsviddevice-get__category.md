@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDevice.get__Category
-title: IMSVidDevice::get__Category method
+title: IMSVidDevice::get__Category
 author: windows-driver-content
 description: The get__Category method retrieves the category of the device as a GUID.
 old-location: mstv\imsviddevice_get__category.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2c5023ee-f38b-48c7-907d-363ca70bf94f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidDevice, IMSVidDevice interface [Microsoft TV Technologies], get__Category method, IMSVidDevice::get__Category, IMSVidDeviceget__Category, get__Category method [Microsoft TV Technologies], get__Category method [Microsoft TV Technologies], IMSVidDevice interface, get__Category,IMSVidDevice.get__Category, mstv.imsviddevice_get__category, segment/IMSVidDevice::get__Category
+ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get__Category method, IMSVidDevice.get__Category, IMSVidDevice::get__Category, IMSVidDeviceget__Category, get__Category, get__Category method [Microsoft TV Technologies], get__Category method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get__category, segment/IMSVidDevice::get__Category
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidDevice::get__Category method
+# IMSVidDevice::get__Category
 
 
 ## -description

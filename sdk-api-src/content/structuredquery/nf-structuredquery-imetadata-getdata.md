@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IMetaData.GetData
-title: IMetaData::GetData method
+title: IMetaData::GetData
 author: windows-driver-content
 description: Retrieves one key/value pair from the metadata of an IEntity, IRelationship, or ISchemaProvider object.
 old-location: search\_search_IMetaData_GetData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\imetadata\getdata.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetData method [search], GetData method [search], IMetaData interface, GetData,IMetaData.GetData, IMetaData, IMetaData interface [search], GetData method, IMetaData::GetData, _search_IMetaData_GetData, search._search_IMetaData_GetData, structuredquery/IMetaData::GetData
+ms.date: 5/4/2018
+ms.keywords: GetData, GetData method [search], GetData method [search],IMetaData interface, IMetaData interface [search],GetData method, IMetaData.GetData, IMetaData::GetData, _search_IMetaData_GetData, search._search_IMetaData_GetData, structuredquery/IMetaData::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IMetaData::GetData method
+# IMetaData::GetData
 
 
 ## -description

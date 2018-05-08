@@ -7,7 +7,7 @@ old-location: search\_search_ROWSETEVENT_TYPE.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\rowsetevent_type.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: ROWSETEVENT_TYPE, ROWSETEVENT_TYPE enumeration [search], ROWSETEVENT_TYPE_DATAEXPIRED, ROWSETEVENT_TYPE_FOREGROUNDLOST, ROWSETEVENT_TYPE_SCOPESTATISTICS, __MIDL___MIDL_itf_searchapi_0000_0023_0002, _search_ROWSETEVENT_TYPE, search._search_ROWSETEVENT_TYPE, searchapi/ROWSETEVENT_TYPE, searchapi/ROWSETEVENT_TYPE_DATAEXPIRED, searchapi/ROWSETEVENT_TYPE_FOREGROUNDLOST, searchapi/ROWSETEVENT_TYPE_SCOPESTATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple3.GetMetadataValue
-title: IRawElementProviderSimple3::GetMetadataValue method
+title: IRawElementProviderSimple3::GetMetadataValue
 author: windows-driver-content
 description: Gets metadata from the UI Automation element that indicates how the information should be interpreted.
 old-location: winauto\uiauto_IRawElementProviderSimple3_GetMetadataValue.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 832154F3-22D3-48E9-BC4E-CB495BB72485
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetMetadataValue method [Windows Accessibility], GetMetadataValue method [Windows Accessibility], IRawElementProviderSimple3 interface, GetMetadataValue,IRawElementProviderSimple3.GetMetadataValue, IRawElementProviderSimple3, IRawElementProviderSimple3 interface [Windows Accessibility], GetMetadataValue method, IRawElementProviderSimple3::GetMetadataValue, uiautomationcore/IRawElementProviderSimple3::GetMetadataValue, winauto.uiauto_IRawElementProviderSimple3_GetMetadataValue
+ms.keywords: GetMetadataValue, GetMetadataValue method [Windows Accessibility], GetMetadataValue method [Windows Accessibility],IRawElementProviderSimple3 interface, IRawElementProviderSimple3 interface [Windows Accessibility],GetMetadataValue method, IRawElementProviderSimple3.GetMetadataValue, IRawElementProviderSimple3::GetMetadataValue, uiautomationcore/IRawElementProviderSimple3::GetMetadataValue, winauto.uiauto_IRawElementProviderSimple3_GetMetadataValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRawElementProviderSimple3::GetMetadataValue method
+# IRawElementProviderSimple3::GetMetadataValue
 
 
 ## -description

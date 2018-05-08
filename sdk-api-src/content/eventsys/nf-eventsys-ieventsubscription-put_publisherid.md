@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_PublisherID
-title: IEventSubscription::put_PublisherID method
+title: IEventSubscription::put_PublisherID
 author: windows-driver-content
 description: The unique ID of the event publisher.
 old-location: cos\ieventsubscription_publisherid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 94f335be-aeb5-4d24-b475-e2aaae2b0a17
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventSubscription, IEventSubscription interface [COM+], PublisherID property, IEventSubscription.PublisherID, IEventSubscription::get_PublisherID, IEventSubscription::put_PublisherID, PublisherID property [COM+], PublisherID property [COM+], IEventSubscription interface, cos.ieventsubscription_publisherid, eventsys/IEventSubscription::PublisherID, eventsys/IEventSubscription::get_PublisherID, eventsys/IEventSubscription::put_PublisherID, put_PublisherID,IEventSubscription.put_PublisherID
+ms.keywords: IEventSubscription interface [COM+],PublisherID property, IEventSubscription.PublisherID, IEventSubscription.put_PublisherID, IEventSubscription::PublisherID, IEventSubscription::get_PublisherID, IEventSubscription::put_PublisherID, PublisherID property [COM+], PublisherID property [COM+],IEventSubscription interface, cos.ieventsubscription_publisherid, eventsys/IEventSubscription::PublisherID, eventsys/IEventSubscription::get_PublisherID, eventsys/IEventSubscription::put_PublisherID, put_PublisherID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::put_PublisherID method
+# IEventSubscription::put_PublisherID
 
 
 ## -description

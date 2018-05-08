@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_MixerBitmap
-title: IMSVidVideoRenderer::put_MixerBitmap method
+title: IMSVidVideoRenderer::put_MixerBitmap
 author: windows-driver-content
 description: The put_MixerBitmap method specifies the static bitmap image, as an IPictureDisp type.
 old-location: mstv\imsvidvideorenderer_put_mixerbitmap.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: fa9d9bea-f711-42f1-a247-322036744c44
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], put_MixerBitmap method, IMSVidVideoRenderer::put_MixerBitmap, IMSVidVideoRendererput_MixerBitmap, mstv.imsvidvideorenderer_put_mixerbitmap, put_MixerBitmap method [Microsoft TV Technologies], put_MixerBitmap method [Microsoft TV Technologies], IMSVidVideoRenderer interface, put_MixerBitmap,IMSVidVideoRenderer.put_MixerBitmap, segment/IMSVidVideoRenderer::put_MixerBitmap
+ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_MixerBitmap method, IMSVidVideoRenderer.put_MixerBitmap, IMSVidVideoRenderer::put_MixerBitmap, IMSVidVideoRendererput_MixerBitmap, mstv.imsvidvideorenderer_put_mixerbitmap, put_MixerBitmap, put_MixerBitmap method [Microsoft TV Technologies], put_MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_MixerBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer::put_MixerBitmap method
+# IMSVidVideoRenderer::put_MixerBitmap
 
 
 ## -description

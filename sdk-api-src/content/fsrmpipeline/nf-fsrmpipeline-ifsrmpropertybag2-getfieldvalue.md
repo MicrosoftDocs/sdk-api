@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag2.GetFieldValue
-title: IFsrmPropertyBag2::GetFieldValue method
+title: IFsrmPropertyBag2::GetFieldValue
 author: windows-driver-content
 description: Gets the value of the specified field from the property bag.
 old-location: fsrm\ifsrmpropertybag2_getfieldvalue.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: ccd52bbc-998e-435f-bea5-ed456adf3ff9
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: GetFieldValue method [File Server Resource Manager], GetFieldValue method [File Server Resource Manager], IFsrmPropertyBag2 interface, GetFieldValue,IFsrmPropertyBag2.GetFieldValue, IFsrmPropertyBag2, IFsrmPropertyBag2 interface [File Server Resource Manager], GetFieldValue method, IFsrmPropertyBag2::GetFieldValue, fs.ifsrmpropertybag2_getfieldvalue, fsrm.ifsrmpropertybag2_getfieldvalue, fsrmpipeline/IFsrmPropertyBag2::GetFieldValue
+ms.keywords: GetFieldValue, GetFieldValue method [File Server Resource Manager], GetFieldValue method [File Server Resource Manager],IFsrmPropertyBag2 interface, IFsrmPropertyBag2 interface [File Server Resource Manager],GetFieldValue method, IFsrmPropertyBag2.GetFieldValue, IFsrmPropertyBag2::GetFieldValue, fs.ifsrmpropertybag2_getfieldvalue, fsrm.ifsrmpropertybag2_getfieldvalue, fsrmpipeline/IFsrmPropertyBag2::GetFieldValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyBag2::GetFieldValue method
+# IFsrmPropertyBag2::GetFieldValue
 
 
 ## -description

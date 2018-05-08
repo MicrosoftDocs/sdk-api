@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CachedCanResize
-title: IUIAutomationTransformPattern::get_CachedCanResize method
+title: IUIAutomationTransformPattern::get_CachedCanResize
 author: windows-driver-content
 description: Retrieves a cached value that indicates whether the element can be resized.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CachedCanResize.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 2059daae-af25-4226-9a4d-a63e75c9ad14
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedCanResize property [Windows Accessibility], CachedCanResize property [Windows Accessibility], IUIAutomationTransformPattern interface, IUIAutomationTransformPattern, IUIAutomationTransformPattern interface [Windows Accessibility], CachedCanResize property, IUIAutomationTransformPattern.CachedCanResize, IUIAutomationTransformPattern::get_CachedCanResize, get_CachedCanResize,IUIAutomationTransformPattern.get_CachedCanResize, uiauto.uiauto_IUIAutomationTransformPattern_CachedCanResize, uiauto_IUIAutomationTransformPattern_CachedCanResize, uiautomationclient/IUIAutomationTransformPattern::CachedCanResize, uiautomationclient/IUIAutomationTransformPattern::get_CachedCanResize, winauto.uiauto_IUIAutomationTransformPattern_CachedCanResize
+ms.keywords: CachedCanResize property [Windows Accessibility], CachedCanResize property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CachedCanResize property, IUIAutomationTransformPattern.CachedCanResize, IUIAutomationTransformPattern.get_CachedCanResize, IUIAutomationTransformPattern::CachedCanResize, IUIAutomationTransformPattern::get_CachedCanResize, get_CachedCanResize, uiauto.uiauto_IUIAutomationTransformPattern_CachedCanResize, uiauto_IUIAutomationTransformPattern_CachedCanResize, uiautomationclient/IUIAutomationTransformPattern::CachedCanResize, uiautomationclient/IUIAutomationTransformPattern::get_CachedCanResize, winauto.uiauto_IUIAutomationTransformPattern_CachedCanResize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTransformPattern::get_CachedCanResize method
+# IUIAutomationTransformPattern::get_CachedCanResize
 
 
 ## -description

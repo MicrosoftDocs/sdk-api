@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnPosRectChange
-title: IOleInPlaceSite::OnPosRectChange method
+title: IOleInPlaceSite::OnPosRectChange
 author: windows-driver-content
 description: Notifies the container that the object extents have changed.
 old-location: com\ioleinplacesite_onposrectchange.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: a12d6a2a-6581-41e3-b33d-74af5d772e71
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], OnPosRectChange method, IOleInPlaceSite::OnPosRectChange, IOleInPlaceSiteWindowless.OnPosRectChange, OnPosRectChange method [COM], OnPosRectChange method [COM], IOleInPlaceSite interface, OnPosRectChange,IOleInPlaceSite.OnPosRectChange, _ole_ioleinplacesite_onposrectchange, com.ioleinplacesite_onposrectchange, oleidl/IOleInPlaceSite::OnPosRectChange
+ms.keywords: IOleInPlaceSite interface [COM],OnPosRectChange method, IOleInPlaceSite.OnPosRectChange, IOleInPlaceSite::OnPosRectChange, IOleInPlaceSiteWindowless.OnPosRectChange, OnPosRectChange, OnPosRectChange method [COM], OnPosRectChange method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onposrectchange, com.ioleinplacesite_onposrectchange, oleidl/IOleInPlaceSite::OnPosRectChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSite::OnPosRectChange method
+# IOleInPlaceSite::OnPosRectChange
 
 
 ## -description

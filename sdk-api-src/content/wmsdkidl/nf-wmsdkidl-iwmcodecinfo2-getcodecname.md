@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo2.GetCodecName
-title: IWMCodecInfo2::GetCodecName method
+title: IWMCodecInfo2::GetCodecName
 author: windows-driver-content
 description: The GetCodecName method retrieves the name of a specified codec.
 old-location: wmformat\iwmcodecinfo2_getcodecname.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 4ec4e242-9726-4fac-8867-cb4b13c4cbdc
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetCodecName method [windows Media Format], GetCodecName method [windows Media Format], IWMCodecInfo2 interface, GetCodecName,IWMCodecInfo2.GetCodecName, IWMCodecInfo2, IWMCodecInfo2 interface [windows Media Format], GetCodecName method, IWMCodecInfo2::GetCodecName, IWMCodecInfo2GetCodecName, wmformat.iwmcodecinfo2_getcodecname, wmsdkidl/IWMCodecInfo2::GetCodecName
+ms.keywords: GetCodecName, GetCodecName method [windows Media Format], GetCodecName method [windows Media Format],IWMCodecInfo2 interface, IWMCodecInfo2 interface [windows Media Format],GetCodecName method, IWMCodecInfo2.GetCodecName, IWMCodecInfo2::GetCodecName, IWMCodecInfo2GetCodecName, wmformat.iwmcodecinfo2_getcodecname, wmsdkidl/IWMCodecInfo2::GetCodecName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecInfo2::GetCodecName method
+# IWMCodecInfo2::GetCodecName
 
 
 ## -description

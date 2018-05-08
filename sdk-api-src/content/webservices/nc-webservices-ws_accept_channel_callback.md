@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 2c7f36cf-ee7d-4de0-8599-ccfd066cca7e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_ACCEPT_CHANNEL_CALLBACK, WS_ACCEPT_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_ACCEPT_CHANNEL_CALLBACK, wsw.ws_accept_channel_callback
+ms.keywords: WS_ACCEPT_CHANNEL_CALLBACK, WS_ACCEPT_CHANNEL_CALLBACK callback, WS_ACCEPT_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_ACCEPT_CHANNEL_CALLBACK, wsw.ws_accept_channel_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_ACCEPT_CHANNEL_CALLBACK callback
+# WS_ACCEPT_CHANNEL_CALLBACK callback function
 
 
 ## -description

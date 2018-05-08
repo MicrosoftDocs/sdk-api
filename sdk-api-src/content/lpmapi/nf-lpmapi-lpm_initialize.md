@@ -8,7 +8,7 @@ old-project: QOS
 ms.assetid: 00f4ab59-8808-4bcb-8258-5aad113ad2b5
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: LPM_Initialize, LPM_Initialize callback function [QOS], _gqos_lpm_initialize, lpmapi/LPM_Initialize, qos.lpm_initialize
+ms.keywords: LPM_Initialize, LPM_Initialize callback, LPM_Initialize callback function [QOS], _gqos_lpm_initialize, lpmapi/LPM_Initialize, qos.lpm_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

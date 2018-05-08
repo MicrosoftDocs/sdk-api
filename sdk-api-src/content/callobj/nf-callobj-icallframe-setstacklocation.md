@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.SetStackLocation
-title: ICallFrame::SetStackLocation method
+title: ICallFrame::SetStackLocation
 author: windows-driver-content
 description: Sets the stack location onto which this call frame is bound.
 old-location: com\icallframe_setstacklocation.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 689f3819-488b-4679-a401-f1500db22461
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICallFrame, ICallFrame interface [COM], SetStackLocation method, ICallFrame::SetStackLocation, SetStackLocation method [COM], SetStackLocation method [COM], ICallFrame interface, SetStackLocation,ICallFrame.SetStackLocation, _com_icallframe_setstacklocation, callobj/ICallFrame::SetStackLocation, com.icallframe_setstacklocation
+ms.keywords: ICallFrame interface [COM],SetStackLocation method, ICallFrame.SetStackLocation, ICallFrame::SetStackLocation, SetStackLocation, SetStackLocation method [COM], SetStackLocation method [COM],ICallFrame interface, _com_icallframe_setstacklocation, callobj/ICallFrame::SetStackLocation, com.icallframe_setstacklocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICallFrame::SetStackLocation method
+# ICallFrame::SetStackLocation
 
 
 ## -description

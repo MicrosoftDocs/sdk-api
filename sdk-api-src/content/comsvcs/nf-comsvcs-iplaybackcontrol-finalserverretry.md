@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IPlaybackControl.FinalServerRetry
-title: IPlaybackControl::FinalServerRetry method
+title: IPlaybackControl::FinalServerRetry
 author: windows-driver-content
 description: Informs the server-side Exception_CLSID implementation that all attempts to play back the deferred activation have failed. The message is about to be moved to the final resting queue.
 old-location: cos\iplaybackcontrol_finalserverretry.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 03f0bd46-004d-4ed6-b00b-de765d339ba0
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: FinalServerRetry method [COM+], FinalServerRetry method [COM+], IPlaybackControl interface, FinalServerRetry,IPlaybackControl.FinalServerRetry, IPlaybackControl, IPlaybackControl interface [COM+], FinalServerRetry method, IPlaybackControl::FinalServerRetry, _cos_IPlaybackControl_FinalServerRetry, comsvcs/IPlaybackControl::FinalServerRetry, cos.iplaybackcontrol_finalserverretry
+ms.keywords: FinalServerRetry, FinalServerRetry method [COM+], FinalServerRetry method [COM+],IPlaybackControl interface, IPlaybackControl interface [COM+],FinalServerRetry method, IPlaybackControl.FinalServerRetry, IPlaybackControl::FinalServerRetry, _cos_IPlaybackControl_FinalServerRetry, comsvcs/IPlaybackControl::FinalServerRetry, cos.iplaybackcontrol_finalserverretry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPlaybackControl::FinalServerRetry method
+# IPlaybackControl::FinalServerRetry
 
 
 ## -description

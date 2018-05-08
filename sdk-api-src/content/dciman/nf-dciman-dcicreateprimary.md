@@ -7,7 +7,7 @@ old-location: winprog\_dciman_dcicreateprimary.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcicreateprimary.htm
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: DCICreatePrimary, DCICreatePrimary function [Windows API], _dciman_dcicreateprimary, dciman/DCICreatePrimary, winprog._dciman_dcicreateprimary, winui._dciman_dcicreateprimary
 ms.prod: windows-hardware
 ms.technology: windows-devices

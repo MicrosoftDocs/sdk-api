@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IQueryRecentWinSATAssessment.get_XML
-title: IQueryRecentWinSATAssessment::get_XML method
+title: IQueryRecentWinSATAssessment::get_XML
 author: windows-driver-content
 description: Retrieves data from the XML assessment document by using the specified XPath. The query is run against the most recent formal assessment in the WinSAT data store.
 old-location: winsat\iqueryrecentwinsatassessment_xml.htm
@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: f8a1c664-bea3-4505-bcf0-2b8715dbe7dd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IQueryRecentWinSATAssessment, IQueryRecentWinSATAssessment interface [WinSAT], XML property, IQueryRecentWinSATAssessment.XML, IQueryRecentWinSATAssessment::get_XML, XML property [WinSAT], XML property [WinSAT], IQueryRecentWinSATAssessment interface, get_XML,IQueryRecentWinSATAssessment.get_XML, winsat.iqueryrecentwinsatassessment_xml, winsatcominterfacei/IQueryRecentWinSATAssessment::XML, winsatcominterfacei/IQueryRecentWinSATAssessment::get_XML
+ms.keywords: IQueryRecentWinSATAssessment interface [WinSAT],XML property, IQueryRecentWinSATAssessment.XML, IQueryRecentWinSATAssessment.get_XML, IQueryRecentWinSATAssessment::XML, IQueryRecentWinSATAssessment::get_XML, XML property [WinSAT], XML property [WinSAT],IQueryRecentWinSATAssessment interface, get_XML, winsat.iqueryrecentwinsatassessment_xml, winsatcominterfacei/IQueryRecentWinSATAssessment::XML, winsatcominterfacei/IQueryRecentWinSATAssessment::get_XML
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IQueryRecentWinSATAssessment::get_XML method
+# IQueryRecentWinSATAssessment::get_XML
 
 
 ## -description

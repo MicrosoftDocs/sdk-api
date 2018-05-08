@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 974ec036-3dd3-4453-9ce5-029f58d99d81
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT, PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT callback function [Failover Cluster], _wolf_canresourcebedependent, clusapi/PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT, mscs.canresourcebedependent
+ms.keywords: PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT, PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT callback, PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT callback function [Failover Cluster], _wolf_canresourcebedependent, clusapi/PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT, mscs.canresourcebedependent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT callback
+# PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT callback function
 
 
 ## -description

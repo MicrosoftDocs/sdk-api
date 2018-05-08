@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSubscriberInformation.get_TelephoneNumbers
-title: IMbnSubscriberInformation::get_TelephoneNumbers method
+title: IMbnSubscriberInformation::get_TelephoneNumbers
 author: windows-driver-content
 description: The telephone numbers associated with the device.
 old-location: mbn\imbnsubscriberinformation_telephonenumbers.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 0f50735e-e57b-4724-8754-1fc4a5634cb3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSubscriberInformation, IMbnSubscriberInformation interface [Microsoft Broadband Networks], TelephoneNumbers property, IMbnSubscriberInformation.TelephoneNumbers, IMbnSubscriberInformation::get_TelephoneNumbers, TelephoneNumbers property [Microsoft Broadband Networks], TelephoneNumbers property [Microsoft Broadband Networks], IMbnSubscriberInformation interface, get_TelephoneNumbers,IMbnSubscriberInformation.get_TelephoneNumbers, mbn.imbnsubscriberinformation_telephonenumbers, mbnapi/IMbnSubscriberInformation::TelephoneNumbers, mbnapi/IMbnSubscriberInformation::get_TelephoneNumbers
+ms.keywords: IMbnSubscriberInformation interface [Microsoft Broadband Networks],TelephoneNumbers property, IMbnSubscriberInformation.TelephoneNumbers, IMbnSubscriberInformation.get_TelephoneNumbers, IMbnSubscriberInformation::TelephoneNumbers, IMbnSubscriberInformation::get_TelephoneNumbers, TelephoneNumbers property [Microsoft Broadband Networks], TelephoneNumbers property [Microsoft Broadband Networks],IMbnSubscriberInformation interface, get_TelephoneNumbers, mbn.imbnsubscriberinformation_telephonenumbers, mbnapi/IMbnSubscriberInformation::TelephoneNumbers, mbnapi/IMbnSubscriberInformation::get_TelephoneNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSubscriberInformation::get_TelephoneNumbers method
+# IMbnSubscriberInformation::get_TelephoneNumbers
 
 
 ## -description

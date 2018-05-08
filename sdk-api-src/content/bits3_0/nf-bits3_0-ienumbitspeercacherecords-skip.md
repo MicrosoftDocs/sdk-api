@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.Skip
-title: IEnumBitsPeerCacheRecords::Skip method
+title: IEnumBitsPeerCacheRecords::Skip
 author: windows-driver-content
 description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 old-location: bits\ienumbitspeercacherecords_skip.htm
 old-project: Bits
 ms.assetid: f1204e4b-985e-4d3e-8a1f-d13d46e8f1ce
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], Skip method, IEnumBitsPeerCacheRecords::Skip, Skip method [BITS], Skip method [BITS], IEnumBitsPeerCacheRecords interface, Skip,IEnumBitsPeerCacheRecords.Skip, bits.ienumbitspeercacherecords_skip, bits3_0/IEnumBitsPeerCacheRecords::Skip
+ms.date: 4/27/2018
+ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Skip method, IEnumBitsPeerCacheRecords.Skip, IEnumBitsPeerCacheRecords::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_skip, bits3_0/IEnumBitsPeerCacheRecords::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumBitsPeerCacheRecords::Skip method
+# IEnumBitsPeerCacheRecords::Skip
 
 
 ## -description

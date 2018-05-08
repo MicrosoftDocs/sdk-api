@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetFormatAttributes
-title: IPortableDeviceServiceCapabilities::GetFormatAttributes method
+title: IPortableDeviceServiceCapabilities::GetFormatAttributes
 author: windows-driver-content
 description: Retrieves the attributes of a format.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getformatattributes.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 9fecc9e8-cc5c-4a5f-b5b4-71c63631948d
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetFormatAttributes method [Windows Portable Devices SDK], GetFormatAttributes method [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface, GetFormatAttributes,IPortableDeviceServiceCapabilities.GetFormatAttributes, IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], GetFormatAttributes method, IPortableDeviceServiceCapabilities::GetFormatAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetFormatAttributes, wpdsdk.iportabledeviceservicecapabilities_getformatattributes
+ms.keywords: GetFormatAttributes, GetFormatAttributes method [Windows Portable Devices SDK], GetFormatAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetFormatAttributes method, IPortableDeviceServiceCapabilities.GetFormatAttributes, IPortableDeviceServiceCapabilities::GetFormatAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetFormatAttributes, wpdsdk.iportabledeviceservicecapabilities_getformatattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceCapabilities::GetFormatAttributes method
+# IPortableDeviceServiceCapabilities::GetFormatAttributes
 
 
 ## -description

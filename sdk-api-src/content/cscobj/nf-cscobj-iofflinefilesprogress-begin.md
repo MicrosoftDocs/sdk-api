@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesProgress.Begin
-title: IOfflineFilesProgress::Begin method
+title: IOfflineFilesProgress::Begin
 author: windows-driver-content
 description: Reports that an operation has begun.
 old-location: of\iofflinefilesprogress_begin.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: d3fe6abf-fc0c-4bba-9c9f-5d0e77c27b43
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Begin method [Offline Files], Begin method [Offline Files], IOfflineFilesProgress interface, Begin,IOfflineFilesProgress.Begin, IOfflineFilesProgress, IOfflineFilesProgress interface [Offline Files], Begin method, IOfflineFilesProgress::Begin, cscobj/IOfflineFilesProgress::Begin, of.iofflinefilesprogress_begin
+ms.keywords: Begin, Begin method [Offline Files], Begin method [Offline Files],IOfflineFilesProgress interface, IOfflineFilesProgress interface [Offline Files],Begin method, IOfflineFilesProgress.Begin, IOfflineFilesProgress::Begin, cscobj/IOfflineFilesProgress::Begin, of.iofflinefilesprogress_begin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesProgress::Begin method
+# IOfflineFilesProgress::Begin
 
 
 ## -description

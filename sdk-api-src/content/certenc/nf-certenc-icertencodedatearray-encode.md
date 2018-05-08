@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.Encode
-title: ICertEncodeDateArray::Encode method
+title: ICertEncodeDateArray::Encode
 author: windows-driver-content
 description: Returns an Abstract Syntax Notation One (ASN.1)-encoded string of the date array stored in this object.
 old-location: security\icertencodedatearray_encode.htm
 old-project: SecCrypto
 ms.assetid: 102ca165-c320-4e18-986f-7375fbc617e0
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeDateArray object [Security], Encode method, Encode method [Security], Encode method [Security], CCertEncodeDateArray object, Encode method [Security], ICertEncodeDateArray interface, Encode,ICertEncodeDateArray.Encode, ICertEncodeDateArray, ICertEncodeDateArray interface [Security], Encode method, ICertEncodeDateArray::Encode, _certsrv_icertencodedatearray_encode, certenc/ICertEncodeDateArray::Encode, security.icertencodedatearray_encode
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeDateArray object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeDateArray object, Encode method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],Encode method, ICertEncodeDateArray.Encode, ICertEncodeDateArray::Encode, _certsrv_icertencodedatearray_encode, certenc/ICertEncodeDateArray::Encode, security.icertencodedatearray_encode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeDateArray::Encode method
+# ICertEncodeDateArray::Encode
 
 
 ## -description

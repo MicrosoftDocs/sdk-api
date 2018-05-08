@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 2d976c27-b7a4-5546-488a-ceb341c4fb1a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: DCompositionAttachMouseWheelToHwnd, DCompositionAttachMouseWheelToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseWheelToHwnd, directcomp.dcompositionattachmousedragtohwnd
+ms.keywords: DCompositionAttachMouseDragToHwnd, DCompositionAttachMouseWheelToHwnd, DCompositionAttachMouseWheelToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseWheelToHwnd, directcomp.dcompositionattachmousedragtohwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertySystem.FormatForDisplayAlloc
-title: IPropertySystem::FormatForDisplayAlloc method
+title: IPropertySystem::FormatForDisplayAlloc
 author: windows-driver-content
 description: Gets a string representation of a property value to an allocated memory buffer.
 old-location: properties\IPropertySystem_FormatForDisplayAlloc.htm
 old-project: properties
 ms.assetid: 8e62855a-6d2c-45fa-b7bc-01270126b969
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: FormatForDisplayAlloc method [Windows Properties], FormatForDisplayAlloc method [Windows Properties], IPropertySystem interface, FormatForDisplayAlloc,IPropertySystem.FormatForDisplayAlloc, IPropertySystem, IPropertySystem interface [Windows Properties], FormatForDisplayAlloc method, IPropertySystem::FormatForDisplayAlloc, properties.IPropertySystem_FormatForDisplayAlloc, propsys/IPropertySystem::FormatForDisplayAlloc, shell.IPropertySystem_FormatForDisplayAlloc, shell_IPropertySystem_FormatForDisplayAlloc
+ms.date: 4/27/2018
+ms.keywords: FormatForDisplayAlloc, FormatForDisplayAlloc method [Windows Properties], FormatForDisplayAlloc method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],FormatForDisplayAlloc method, IPropertySystem.FormatForDisplayAlloc, IPropertySystem::FormatForDisplayAlloc, properties.IPropertySystem_FormatForDisplayAlloc, propsys/IPropertySystem::FormatForDisplayAlloc, shell.IPropertySystem_FormatForDisplayAlloc, shell_IPropertySystem_FormatForDisplayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertySystem::FormatForDisplayAlloc method
+# IPropertySystem::FormatForDisplayAlloc
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetNumStoredMessages
-title: ID3D12InfoQueue::GetNumStoredMessages method
+title: ID3D12InfoQueue::GetNumStoredMessages
 author: windows-driver-content
 description: Get the number of messages currently stored in the message queue.
 old-location: direct3d12\id3d12infoqueue_getnumstoredmessages.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 1574582B-312A-4775-A09A-8489C0FA3EDC
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetNumStoredMessages method, GetNumStoredMessages method, ID3D12InfoQueue interface, GetNumStoredMessages,ID3D12InfoQueue.GetNumStoredMessages, ID3D12InfoQueue, ID3D12InfoQueue interface, GetNumStoredMessages method, ID3D12InfoQueue::GetNumStoredMessages, d3d12sdklayers/ID3D12InfoQueue::GetNumStoredMessages, direct3d12.id3d12infoqueue_getnumstoredmessages
+ms.keywords: GetNumStoredMessages, GetNumStoredMessages method, GetNumStoredMessages method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumStoredMessages method, ID3D12InfoQueue.GetNumStoredMessages, ID3D12InfoQueue::GetNumStoredMessages, d3d12sdklayers/ID3D12InfoQueue::GetNumStoredMessages, direct3d12.id3d12infoqueue_getnumstoredmessages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::GetNumStoredMessages method
+# ID3D12InfoQueue::GetNumStoredMessages
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistStorage.Load
-title: IPersistStorage::Load method
+title: IPersistStorage::Load
 author: windows-driver-content
 description: Loads an object from its existing storage.
 old-location: com\ipersiststorage_load.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 34379b8d-4e00-49cd-9fd1-65f88746c61a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPersistStorage, IPersistStorage interface [COM], Load method, IPersistStorage::Load, Load method [COM], Load method [COM], IPersistStorage interface, Load,IPersistStorage.Load, _com_ipersiststorage_load, com.ipersiststorage_load, objidl/IPersistStorage::Load
+ms.keywords: IPersistStorage interface [COM],Load method, IPersistStorage.Load, IPersistStorage::Load, Load, Load method [COM], Load method [COM],IPersistStorage interface, _com_ipersiststorage_load, com.ipersiststorage_load, objidl/IPersistStorage::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPersistStorage::Load method
+# IPersistStorage::Load
 
 
 ## -description

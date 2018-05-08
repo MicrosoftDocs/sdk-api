@@ -1,6 +1,6 @@
 ---
 UID: NF:msimeapi.IImePlugInDictDictionaryList.DeleteDictionary
-title: IImePlugInDictDictionaryList::DeleteDictionary method
+title: IImePlugInDictDictionaryList::DeleteDictionary
 author: windows-driver-content
 description: Deletes a dictionary from the IME's plug-in dictionary list.
 old-location: intl\iimeplugindictdictionarylist_deletedictionary.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 38A17092-E545-4018-9D16-2C0406234D62
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: DeleteDictionary method [Internationalization for Windows Applications], DeleteDictionary method [Internationalization for Windows Applications], IImePlugInDictDictionaryList interface, DeleteDictionary,IImePlugInDictDictionaryList.DeleteDictionary, IImePlugInDictDictionaryList, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications], DeleteDictionary method, IImePlugInDictDictionaryList::DeleteDictionary, intl.iimeplugindictdictionarylist_deletedictionary, msimeapi/IImePlugInDictDictionaryList::DeleteDictionary
+ms.keywords: DeleteDictionary, DeleteDictionary method [Internationalization for Windows Applications], DeleteDictionary method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],DeleteDictionary method, IImePlugInDictDictionaryList.DeleteDictionary, IImePlugInDictDictionaryList::DeleteDictionary, intl.iimeplugindictdictionarylist_deletedictionary, msimeapi/IImePlugInDictDictionaryList::DeleteDictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IImePlugInDictDictionaryList::DeleteDictionary method
+# IImePlugInDictDictionaryList::DeleteDictionary
 
 
 ## -description

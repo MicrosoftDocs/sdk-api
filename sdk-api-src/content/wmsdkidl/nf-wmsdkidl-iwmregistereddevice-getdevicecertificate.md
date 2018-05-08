@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetDeviceCertificate
-title: IWMRegisteredDevice::GetDeviceCertificate method
+title: IWMRegisteredDevice::GetDeviceCertificate
 author: windows-driver-content
 description: The GetDeviceCertificate method retrieves the certificate of the device.
 old-location: wmformat\iwmregistereddevice_getdevicecertificate.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 80313abc-2212-4b1a-9d4e-9f3015370ea7
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetDeviceCertificate method [windows Media Format], GetDeviceCertificate method [windows Media Format], IWMRegisteredDevice interface, GetDeviceCertificate,IWMRegisteredDevice.GetDeviceCertificate, IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], GetDeviceCertificate method, IWMRegisteredDevice::GetDeviceCertificate, IWMRegisteredDeviceGetDeviceCertificate, wmformat.iwmregistereddevice_getdevicecertificate, wmsdkidl/IWMRegisteredDevice::GetDeviceCertificate
+ms.keywords: GetDeviceCertificate, GetDeviceCertificate method [windows Media Format], GetDeviceCertificate method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceCertificate method, IWMRegisteredDevice.GetDeviceCertificate, IWMRegisteredDevice::GetDeviceCertificate, IWMRegisteredDeviceGetDeviceCertificate, wmformat.iwmregistereddevice_getdevicecertificate, wmsdkidl/IWMRegisteredDevice::GetDeviceCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMRegisteredDevice::GetDeviceCertificate method
+# IWMRegisteredDevice::GetDeviceCertificate
 
 
 ## -description

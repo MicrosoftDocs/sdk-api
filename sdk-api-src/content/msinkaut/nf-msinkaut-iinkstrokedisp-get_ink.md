@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_Ink
-title: IInkStrokeDisp::get_Ink method
+title: IInkStrokeDisp::get_Ink
 author: windows-driver-content
 description: Gets the parent InkDisp object of a stroke.
 old-location: tablet\iinkstrokedisp_ink.htm
 old-project: tablet
 ms.assetid: 46283c0a-0280-4bd9-a6f1-2aa943b8b1b5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 46283c0a-0280-4bd9-a6f1-2aa943b8b1b5, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], Ink property, IInkStrokeDisp.Ink, IInkStrokeDisp.get_Ink, IInkStrokeDisp::get_Ink, Ink property [Tablet PC], Ink property [Tablet PC], IInkStrokeDisp interface, get_Ink,IInkStrokeDisp.get_Ink, msinkaut/IInkStrokeDisp::Ink, msinkaut/IInkStrokeDisp::get_Ink, tablet.iinkstrokedisp_ink
+ms.date: 5/2/2018
+ms.keywords: 46283c0a-0280-4bd9-a6f1-2aa943b8b1b5, IInkStrokeDisp interface [Tablet PC],Ink property, IInkStrokeDisp.Ink, IInkStrokeDisp.get_Ink, IInkStrokeDisp::Ink, IInkStrokeDisp::get_Ink, Ink property [Tablet PC], Ink property [Tablet PC],IInkStrokeDisp interface, get_Ink, msinkaut/IInkStrokeDisp::Ink, msinkaut/IInkStrokeDisp::get_Ink, tablet.iinkstrokedisp_ink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::get_Ink method
+# IInkStrokeDisp::get_Ink
 
 
 ## -description

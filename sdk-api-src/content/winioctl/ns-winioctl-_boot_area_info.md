@@ -63,6 +63,11 @@ Contains the output for the <a href="https://msdn.microsoft.com/library/windows/
 Number of elements in the <b>BootSectors</b> array.
 
 
+### -field Offset
+
+ 
+
+
 ### -field BootSectors
 
 A variable length array of structures each containing the following member.

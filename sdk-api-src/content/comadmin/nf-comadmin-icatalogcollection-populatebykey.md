@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.PopulateByKey
-title: ICatalogCollection::PopulateByKey method
+title: ICatalogCollection::PopulateByKey
 author: windows-driver-content
 description: Populates a selected list of items in the collection from the COM+ catalog, based on the specified keys.
 old-location: cos\icatalogcollection_populatebykey.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 57329c32-2852-47ff-bf8c-dbb63f69841f
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], PopulateByKey method, ICatalogCollection::PopulateByKey, PopulateByKey method [COM+], PopulateByKey method [COM+], ICatalogCollection interface, PopulateByKey,ICatalogCollection.PopulateByKey, _cos_ICatalogCollection_PopulateByKey, comadmin/ICatalogCollection::PopulateByKey, cos.icatalogcollection_populatebykey
+ms.keywords: ICatalogCollection interface [COM+],PopulateByKey method, ICatalogCollection.PopulateByKey, ICatalogCollection::PopulateByKey, PopulateByKey, PopulateByKey method [COM+], PopulateByKey method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_PopulateByKey, comadmin/ICatalogCollection::PopulateByKey, cos.icatalogcollection_populatebykey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICatalogCollection::PopulateByKey method
+# ICatalogCollection::PopulateByKey
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemSink.OnMenuSelect
-title: ITfSystemLangBarItemSink::OnMenuSelect method
+title: ITfSystemLangBarItemSink::OnMenuSelect
 author: windows-driver-content
 description: ITfSystemLangBarItemSink::OnMenuSelect method
 old-location: tsf\itfsystemlangbaritemsink_onmenuselect.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 43c20f95-64b5-458a-8469-0d8b284b66dd
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfSystemLangBarItemSink, ITfSystemLangBarItemSink interface [Text Services Framework], OnMenuSelect method, ITfSystemLangBarItemSink::OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework], ITfSystemLangBarItemSink interface, OnMenuSelect,ITfSystemLangBarItemSink.OnMenuSelect, _tsf_itfsystemlangbaritemsink_onmenuselect_ref, ctfutb/ITfSystemLangBarItemSink::OnMenuSelect, tsf.itfsystemlangbaritemsink_onmenuselect
+ms.keywords: ITfSystemLangBarItemSink interface [Text Services Framework],OnMenuSelect method, ITfSystemLangBarItemSink.OnMenuSelect, ITfSystemLangBarItemSink::OnMenuSelect, OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework],ITfSystemLangBarItemSink interface, _tsf_itfsystemlangbaritemsink_onmenuselect_ref, ctfutb/ITfSystemLangBarItemSink::OnMenuSelect, tsf.itfsystemlangbaritemsink_onmenuselect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfSystemLangBarItemSink::OnMenuSelect method
+# ITfSystemLangBarItemSink::OnMenuSelect
 
 
 ## -description

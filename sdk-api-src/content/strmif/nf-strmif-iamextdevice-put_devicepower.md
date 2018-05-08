@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtDevice.put_DevicePower
-title: IAMExtDevice::put_DevicePower method
+title: IAMExtDevice::put_DevicePower
 author: windows-driver-content
 description: The put_DevicePower method assigns the external device's power mode to either on, off, or standby.
 old-location: dshow\iamextdevice_put_devicepower.htm
 old-project: DirectShow
 ms.assetid: 9cb0c200-aaf4-44fb-b217-6a44a36089b5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], put_DevicePower method, IAMExtDevice::put_DevicePower, IAMExtDeviceput_DevicePower, dshow.iamextdevice_put_devicepower, put_DevicePower method [DirectShow], put_DevicePower method [DirectShow], IAMExtDevice interface, put_DevicePower,IAMExtDevice.put_DevicePower, strmif/IAMExtDevice::put_DevicePower
+ms.date: 4/30/2018
+ms.keywords: IAMExtDevice interface [DirectShow],put_DevicePower method, IAMExtDevice.put_DevicePower, IAMExtDevice::put_DevicePower, IAMExtDeviceput_DevicePower, dshow.iamextdevice_put_devicepower, put_DevicePower, put_DevicePower method [DirectShow], put_DevicePower method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::put_DevicePower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtDevice::put_DevicePower method
+# IAMExtDevice::put_DevicePower
 
 
 ## -description

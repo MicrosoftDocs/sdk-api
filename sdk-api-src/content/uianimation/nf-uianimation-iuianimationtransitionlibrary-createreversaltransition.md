@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateReversalTransition
-title: IUIAnimationTransitionLibrary::CreateReversalTransition method
+title: IUIAnimationTransitionLibrary::CreateReversalTransition
 author: windows-driver-content
 description: Creates a reversal transition.
 old-location: uianimation\iuianimationtransitionlibrary_createreversaltransition.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: ca1d0551-333f-4fe1-b288-5ccce846d697
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateReversalTransition method [Windows Animation], CreateReversalTransition method [Windows Animation], IUIAnimationTransitionLibrary interface, CreateReversalTransition,IUIAnimationTransitionLibrary.CreateReversalTransition, IUIAnimationTransitionLibrary, IUIAnimationTransitionLibrary interface [Windows Animation], CreateReversalTransition method, IUIAnimationTransitionLibrary::CreateReversalTransition, uianimation.iuianimationtransitionlibrary_createreversaltransition, uianimation/IUIAnimationTransitionLibrary::CreateReversalTransition
+ms.keywords: CreateReversalTransition, CreateReversalTransition method [Windows Animation], CreateReversalTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateReversalTransition method, IUIAnimationTransitionLibrary.CreateReversalTransition, IUIAnimationTransitionLibrary::CreateReversalTransition, uianimation.iuianimationtransitionlibrary_createreversaltransition, uianimation/IUIAnimationTransitionLibrary::CreateReversalTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary::CreateReversalTransition method
+# IUIAnimationTransitionLibrary::CreateReversalTransition
 
 
 ## -description

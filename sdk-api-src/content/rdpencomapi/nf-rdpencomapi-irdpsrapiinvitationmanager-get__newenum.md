@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.get__NewEnum
-title: IRDPSRAPIInvitationManager::get__NewEnum method
+title: IRDPSRAPIInvitationManager::get__NewEnum
 author: windows-driver-content
 description: An enumerator interface for the invitation collection.
 old-location: rdp\irdpsrapiinvitationmanager__newenum.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: e1959226-04a0-4eae-9abb-b82cdd545975
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIInvitationManager, IRDPSRAPIInvitationManager interface [RDP], _NewEnum property, IRDPSRAPIInvitationManager._NewEnum, IRDPSRAPIInvitationManager::get__NewEnum, RDPSRAPIInvitationManager object [RDP], _NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP], IRDPSRAPIInvitationManager interface, _NewEnum property [RDP], RDPSRAPIInvitationManager object, get__NewEnum,IRDPSRAPIInvitationManager.get__NewEnum, rdp.irdpsrapiinvitationmanager__newenum, rdpencomapi/IRDPSRAPIInvitationManager::_NewEnum, rdpencomapi/IRDPSRAPIInvitationManager::get__NewEnum
+ms.keywords: IRDPSRAPIInvitationManager interface [RDP],_NewEnum property, IRDPSRAPIInvitationManager._NewEnum, IRDPSRAPIInvitationManager.get__NewEnum, IRDPSRAPIInvitationManager::_NewEnum, IRDPSRAPIInvitationManager::get__NewEnum, RDPSRAPIInvitationManager object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIInvitationManager interface, _NewEnum property [RDP],RDPSRAPIInvitationManager object, get__NewEnum, rdp.irdpsrapiinvitationmanager__newenum, rdpencomapi/IRDPSRAPIInvitationManager::_NewEnum, rdpencomapi/IRDPSRAPIInvitationManager::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIInvitationManager::get__NewEnum method
+# IRDPSRAPIInvitationManager::get__NewEnum
 
 
 ## -description

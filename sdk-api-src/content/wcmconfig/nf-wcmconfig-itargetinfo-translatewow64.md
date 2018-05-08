@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.TranslateWow64
-title: ITargetInfo::TranslateWow64 method
+title: ITargetInfo::TranslateWow64
 author: windows-driver-content
 description: Translates paths for wow64 redirection.
 old-location: smi\itargetinfo_translatewow64.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 0325bac8-1843-4e32-97a6-fb6e2bef9e16
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITargetInfo, ITargetInfo interface [SMI], TranslateWow64 method, ITargetInfo::TranslateWow64, TranslateWow64 method [SMI], TranslateWow64 method [SMI], ITargetInfo interface, TranslateWow64,ITargetInfo.TranslateWow64, smi.itargetinfo_translatewow64, wcmconfig/ITargetInfo::TranslateWow64
+ms.keywords: ITargetInfo interface [SMI],TranslateWow64 method, ITargetInfo.TranslateWow64, ITargetInfo::TranslateWow64, TranslateWow64, TranslateWow64 method [SMI], TranslateWow64 method [SMI],ITargetInfo interface, smi.itargetinfo_translatewow64, wcmconfig/ITargetInfo::TranslateWow64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::TranslateWow64 method
+# ITargetInfo::TranslateWow64
 
 
 ## -description

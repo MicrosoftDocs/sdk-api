@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetDeviceFontName
-title: IXpsOMGlyphs::GetDeviceFontName method
+title: IXpsOMGlyphs::GetDeviceFontName
 author: windows-driver-content
 description: Gets the name of the device font.
 old-location: xps\ixpsomglyphs_getdevicefontname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: cb288d73-da4d-4b46-95e5-c451c9ee2dc7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDeviceFontName method [XPS Documents and Packaging], GetDeviceFontName method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetDeviceFontName,IXpsOMGlyphs.GetDeviceFontName, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetDeviceFontName method, IXpsOMGlyphs::GetDeviceFontName, xps.ixpsomglyphs_getdevicefontname, xpsobjectmodel/IXpsOMGlyphs::GetDeviceFontName
+ms.keywords: GetDeviceFontName, GetDeviceFontName method [XPS Documents and Packaging], GetDeviceFontName method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetDeviceFontName method, IXpsOMGlyphs.GetDeviceFontName, IXpsOMGlyphs::GetDeviceFontName, xps.ixpsomglyphs_getdevicefontname, xpsobjectmodel/IXpsOMGlyphs::GetDeviceFontName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetDeviceFontName method
+# IXpsOMGlyphs::GetDeviceFontName
 
 
 ## -description

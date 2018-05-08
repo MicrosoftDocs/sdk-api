@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_LastError
-title: IFsrmFileManagementJob::get_LastError method
+title: IFsrmFileManagementJob::get_LastError
 author: windows-driver-content
 description: The error message from the last time the job was run.
 old-location: fsrm\ifsrmfilemanagementjob_lasterror.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: f7a7d5fd-b060-41f6-be1f-038ab252259a
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], LastError property, IFsrmFileManagementJob.LastError, IFsrmFileManagementJob::get_LastError, LastError property [File Server Resource Manager], LastError property [File Server Resource Manager], IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_lasterror, fsrm.ifsrmfilemanagementjob_lasterror, fsrmreports/IFsrmFileManagementJob::LastError, fsrmreports/IFsrmFileManagementJob::get_LastError, get_LastError,IFsrmFileManagementJob.get_LastError
+ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],LastError property, IFsrmFileManagementJob.LastError, IFsrmFileManagementJob.get_LastError, IFsrmFileManagementJob::LastError, IFsrmFileManagementJob::get_LastError, LastError property [File Server Resource Manager], LastError property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_lasterror, fsrm.ifsrmfilemanagementjob_lasterror, fsrmreports/IFsrmFileManagementJob::LastError, fsrmreports/IFsrmFileManagementJob::get_LastError, get_LastError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJob::get_LastError method
+# IFsrmFileManagementJob::get_LastError
 
 
 ## -description

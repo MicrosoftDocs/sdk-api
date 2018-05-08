@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetLanguage
-title: IXpsOMPage::GetLanguage method
+title: IXpsOMPage::GetLanguage
 author: windows-driver-content
 description: Gets the Language property of the page.
 old-location: xps\ixpsompage_getlanguage.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d16378cc-dd1c-49f9-9c1b-1eb0d78067f7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging], IXpsOMPage interface, GetLanguage,IXpsOMPage.GetLanguage, IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], GetLanguage method, IXpsOMPage::GetLanguage, xps.ixpsompage_getlanguage, xpsobjectmodel/IXpsOMPage::GetLanguage
+ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetLanguage method, IXpsOMPage.GetLanguage, IXpsOMPage::GetLanguage, xps.ixpsompage_getlanguage, xpsobjectmodel/IXpsOMPage::GetLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::GetLanguage method
+# IXpsOMPage::GetLanguage
 
 
 ## -description

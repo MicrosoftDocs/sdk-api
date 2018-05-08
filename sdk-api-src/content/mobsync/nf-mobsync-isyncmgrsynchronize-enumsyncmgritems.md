@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.EnumSyncMgrItems
-title: ISyncMgrSynchronize::EnumSyncMgrItems method
+title: ISyncMgrSynchronize::EnumSyncMgrItems
 author: windows-driver-content
 description: Obtains the ISyncMgrEnumItems interface for the items that are handled by a registered application.
 old-location: shell\syncmgr_isyncmgrsynchronize_enumsyncmgritems.htm
 old-project: shell
 ms.assetid: 75f6ce68-237f-4228-adcf-f5ec929f49a7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EnumSyncMgrItems method [Windows Shell], EnumSyncMgrItems method [Windows Shell], ISyncMgrSynchronize interface, EnumSyncMgrItems,ISyncMgrSynchronize.EnumSyncMgrItems, ISyncMgrSynchronize, ISyncMgrSynchronize interface [Windows Shell], EnumSyncMgrItems method, ISyncMgrSynchronize::EnumSyncMgrItems, mobsync/ISyncMgrSynchronize::EnumSyncMgrItems, shell.syncmgr_isyncmgrsynchronize_enumsyncmgritems, syncmgr.isyncmgrsynchronize_enumsyncmgritems
+ms.date: 5/3/2018
+ms.keywords: EnumSyncMgrItems, EnumSyncMgrItems method [Windows Shell], EnumSyncMgrItems method [Windows Shell],ISyncMgrSynchronize interface, ISyncMgrSynchronize interface [Windows Shell],EnumSyncMgrItems method, ISyncMgrSynchronize.EnumSyncMgrItems, ISyncMgrSynchronize::EnumSyncMgrItems, mobsync/ISyncMgrSynchronize::EnumSyncMgrItems, shell.syncmgr_isyncmgrsynchronize_enumsyncmgritems, syncmgr.isyncmgrsynchronize_enumsyncmgritems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronize::EnumSyncMgrItems method
+# ISyncMgrSynchronize::EnumSyncMgrItems
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.GetNumberOfDeinterlaceModes
-title: IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes method
+title: IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes
 author: windows-driver-content
 description: The GetNumberOfDeinterlaceModes method retrieves the deinterlacing modes available to the VMR for the specified video format.
 old-location: dshow\ivmrdeinterlacecontrol9_getnumberofdeinterlacemodes.htm
 old-project: DirectShow
 ms.assetid: 5d7d72f3-140c-4af4-8876-80a558575a57
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetNumberOfDeinterlaceModes method [DirectShow], GetNumberOfDeinterlaceModes method [DirectShow], IVMRDeinterlaceControl9 interface, GetNumberOfDeinterlaceModes,IVMRDeinterlaceControl9.GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl9, IVMRDeinterlaceControl9 interface [DirectShow], GetNumberOfDeinterlaceModes method, IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl9GetNumberOfDeinterlaceModes, dshow.ivmrdeinterlacecontrol9_getnumberofdeinterlacemodes, vmr9/IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes
+ms.date: 4/30/2018
+ms.keywords: GetNumberOfDeinterlaceModes, GetNumberOfDeinterlaceModes method [DirectShow], GetNumberOfDeinterlaceModes method [DirectShow],IVMRDeinterlaceControl9 interface, IVMRDeinterlaceControl9 interface [DirectShow],GetNumberOfDeinterlaceModes method, IVMRDeinterlaceControl9.GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl9GetNumberOfDeinterlaceModes, dshow.ivmrdeinterlacecontrol9_getnumberofdeinterlacemodes, vmr9/IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes method
+# IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes
 
 
 ## -description

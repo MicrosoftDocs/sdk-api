@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara2.GetEffects
-title: ITextPara2::GetEffects method
+title: ITextPara2::GetEffects
 author: windows-driver-content
 description: Gets the paragraph format effects.
 old-location: controls\itextpara2_geteffects.htm
 old-project: Controls
 ms.assetid: 7f672cc9-e8f3-416a-8f41-9b71ca1858a1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetEffects method [Windows Controls], GetEffects method [Windows Controls], ITextPara2 interface, GetEffects,ITextPara2.GetEffects, ITextPara2, ITextPara2 interface [Windows Controls], GetEffects method, ITextPara2::GetEffects, controls.itextpara2_geteffects, tom/ITextPara2::GetEffects, tomParaEffectBox, tomParaEffectCollapsed, tomParaEffectDoNotHyphen, tomParaEffectKeep, tomParaEffectKeepNext, tomParaEffectNoLineNumber, tomParaEffectNoWidowControl, tomParaEffectOutlineLevel, tomParaEffectPageBreakBefore, tomParaEffectRTL, tomParaEffectSideBySide, tomParaEffectTable, tomParaEffectTableRowDelimiter
+ms.date: 4/27/2018
+ms.keywords: GetEffects, GetEffects method [Windows Controls], GetEffects method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetEffects method, ITextPara2.GetEffects, ITextPara2::GetEffects, controls.itextpara2_geteffects, tom/ITextPara2::GetEffects, tomParaEffectBox, tomParaEffectCollapsed, tomParaEffectDoNotHyphen, tomParaEffectKeep, tomParaEffectKeepNext, tomParaEffectNoLineNumber, tomParaEffectNoWidowControl, tomParaEffectOutlineLevel, tomParaEffectPageBreakBefore, tomParaEffectRTL, tomParaEffectSideBySide, tomParaEffectTable, tomParaEffectTableRowDelimiter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara2::GetEffects method
+# ITextPara2::GetEffects
 
 
 ## -description

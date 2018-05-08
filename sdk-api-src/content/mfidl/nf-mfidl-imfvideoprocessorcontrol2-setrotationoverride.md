@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl2.SetRotationOverride
-title: IMFVideoProcessorControl2::SetRotationOverride method
+title: IMFVideoProcessorControl2::SetRotationOverride
 author: windows-driver-content
 description: Overrides the rotation operation that is performed in the video processor.
 old-location: mf\imfvideoprocessorcontrol2_setrotationoverride.htm
 old-project: medfound
 ms.assetid: 408048CF-0443-4F09-8AB9-A9A2827EA749
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoProcessorControl2, IMFVideoProcessorControl2 interface [Media Foundation], SetRotationOverride method, IMFVideoProcessorControl2::SetRotationOverride, SetRotationOverride method [Media Foundation], SetRotationOverride method [Media Foundation], IMFVideoProcessorControl2 interface, SetRotationOverride,IMFVideoProcessorControl2.SetRotationOverride, mf.imfvideoprocessorcontrol2_setrotationoverride, mfidl/IMFVideoProcessorControl2::SetRotationOverride
+ms.date: 5/3/2018
+ms.keywords: IMFVideoProcessorControl2 interface [Media Foundation],SetRotationOverride method, IMFVideoProcessorControl2.SetRotationOverride, IMFVideoProcessorControl2::SetRotationOverride, SetRotationOverride, SetRotationOverride method [Media Foundation], SetRotationOverride method [Media Foundation],IMFVideoProcessorControl2 interface, mf.imfvideoprocessorcontrol2_setrotationoverride, mfidl/IMFVideoProcessorControl2::SetRotationOverride
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFVideoProcessorControl2::SetRotationOverride method
+# IMFVideoProcessorControl2::SetRotationOverride
 
 
 ## -description

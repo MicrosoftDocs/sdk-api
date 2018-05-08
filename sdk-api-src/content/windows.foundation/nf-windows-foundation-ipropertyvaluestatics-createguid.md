@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateGuid
-title: IPropertyValueStatics::CreateGuid method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified GUID value.
 old-location: winrt\ipropertyvaluestatics_createguid.htm
 old-project: WinRT
 ms.assetid: fb895839-953f-41e2-963a-26156c490df0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateGuid method [Windows Runtime], CreateGuid method [Windows Runtime], IPropertyValueStatics interface, CreateGuid,IPropertyValueStatics.CreateGuid, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateGuid method, IPropertyValueStatics::CreateGuid, windows/IPropertyValueStatics::CreateGuid, winrt.ipropertyvaluefactory_createguid, winrt.ipropertyvaluestatics_createguid
+ms.date: 5/4/2018
+ms.keywords: CreateGuid, CreateGuid method [Windows Runtime], CreateGuid method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateGuid method, IPropertyValueStatics.CreateGuid, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateGuid, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateGuid, winrt.ipropertyvaluefactory_createguid, winrt.ipropertyvaluestatics_createguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateGuid method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

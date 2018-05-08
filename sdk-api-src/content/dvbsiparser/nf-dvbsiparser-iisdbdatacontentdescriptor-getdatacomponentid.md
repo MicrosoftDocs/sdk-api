@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetDataComponentId
-title: IIsdbDataContentDescriptor::GetDataComponentId method
+title: IIsdbDataContentDescriptor::GetDataComponentId
 author: windows-driver-content
 description: Gets a data component identifier from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. This identifier identifies a component in the descriptor and appears in the data component descriptor for the component.
 old-location: mstv\iisdbdatacontentdescriptor_getdatacomponentid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d8a3e399-5004-41ee-a7eb-4c583a1fdd45
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDataComponentId method [Microsoft TV Technologies], GetDataComponentId method [Microsoft TV Technologies], IIsdbDataContentDescriptor interface, GetDataComponentId,IIsdbDataContentDescriptor.GetDataComponentId, IIsdbDataContentDescriptor, IIsdbDataContentDescriptor interface [Microsoft TV Technologies], GetDataComponentId method, IIsdbDataContentDescriptor::GetDataComponentId, dvbsiparser/IIsdbDataContentDescriptor::GetDataComponentId, mstv.iisdbdatacontentdescriptor_getdatacomponentid
+ms.keywords: GetDataComponentId, GetDataComponentId method [Microsoft TV Technologies], GetDataComponentId method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetDataComponentId method, IIsdbDataContentDescriptor.GetDataComponentId, IIsdbDataContentDescriptor::GetDataComponentId, dvbsiparser/IIsdbDataContentDescriptor::GetDataComponentId, mstv.iisdbdatacontentdescriptor_getdatacomponentid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDataContentDescriptor::GetDataComponentId method
+# IIsdbDataContentDescriptor::GetDataComponentId
 
 
 ## -description

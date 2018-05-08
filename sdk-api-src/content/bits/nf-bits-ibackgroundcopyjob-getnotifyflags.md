@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetNotifyFlags
-title: IBackgroundCopyJob::GetNotifyFlags method
+title: IBackgroundCopyJob::GetNotifyFlags
 author: windows-driver-content
 description: Retrieves the event notification flags for the job.
 old-location: bits\ibackgroundcopyjob_getnotifyflags.htm
 old-project: Bits
 ms.assetid: a4407816-a4c5-4734-9686-46d5a8133c2f
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: BG_NOTIFY_DISABLE, BG_NOTIFY_JOB_ERROR, BG_NOTIFY_JOB_MODIFICATION, BG_NOTIFY_JOB_TRANSFERRED, GetNotifyFlags method [BITS], GetNotifyFlags method [BITS], IBackgroundCopyJob interface, GetNotifyFlags,IBackgroundCopyJob.GetNotifyFlags, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetNotifyFlags method, IBackgroundCopyJob::GetNotifyFlags, _drz_ibackgroundcopyjob_getnotifyflags, bits.ibackgroundcopyjob_getnotifyflags, bits/IBackgroundCopyJob::GetNotifyFlags
+ms.date: 4/27/2018
+ms.keywords: BG_NOTIFY_DISABLE, BG_NOTIFY_JOB_ERROR, BG_NOTIFY_JOB_MODIFICATION, BG_NOTIFY_JOB_TRANSFERRED, GetNotifyFlags, GetNotifyFlags method [BITS], GetNotifyFlags method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNotifyFlags method, IBackgroundCopyJob.GetNotifyFlags, IBackgroundCopyJob::GetNotifyFlags, _drz_ibackgroundcopyjob_getnotifyflags, bits.ibackgroundcopyjob_getnotifyflags, bits/IBackgroundCopyJob::GetNotifyFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::GetNotifyFlags method
+# IBackgroundCopyJob::GetNotifyFlags
 
 
 ## -description

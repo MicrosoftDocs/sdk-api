@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetGamma
-title: IWICDevelopRaw::SetGamma method
+title: IWICDevelopRaw::SetGamma
 author: windows-driver-content
 description: Sets the desired gamma value.
 old-location: wic\_wic_codec_iwicdevelopraw_setgamma.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 14d3b34c-1628-4e49-b07c-141f2933c86e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetGamma method, IWICDevelopRaw::SetGamma, SetGamma method [Windows Imaging Component], SetGamma method [Windows Imaging Component], IWICDevelopRaw interface, SetGamma,IWICDevelopRaw.SetGamma, _wic_codec_iwicdevelopraw_setgamma, wic._wic_codec_iwicdevelopraw_setgamma, wincodec/IWICDevelopRaw::SetGamma
+ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetGamma method, IWICDevelopRaw.SetGamma, IWICDevelopRaw::SetGamma, SetGamma, SetGamma method [Windows Imaging Component], SetGamma method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setgamma, wic._wic_codec_iwicdevelopraw_setgamma, wincodec/IWICDevelopRaw::SetGamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::SetGamma method
+# IWICDevelopRaw::SetGamma
 
 
 ## -description

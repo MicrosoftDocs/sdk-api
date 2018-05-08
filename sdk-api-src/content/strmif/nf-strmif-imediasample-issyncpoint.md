@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSample.IsSyncPoint
-title: IMediaSample::IsSyncPoint method
+title: IMediaSample::IsSyncPoint
 author: windows-driver-content
 description: The IsSyncPoint method determines if the beginning of this sample is a synchronization point.
 old-location: dshow\imediasample_issyncpoint.htm
 old-project: DirectShow
 ms.assetid: eed64bd9-1300-4db3-a3ed-c7e8ff9c7c8f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaSample, IMediaSample interface [DirectShow], IsSyncPoint method, IMediaSample::IsSyncPoint, IMediaSampleIsSyncPoint, IsSyncPoint method [DirectShow], IsSyncPoint method [DirectShow], IMediaSample interface, IsSyncPoint,IMediaSample.IsSyncPoint, dshow.imediasample_issyncpoint, strmif/IMediaSample::IsSyncPoint
+ms.date: 4/30/2018
+ms.keywords: IMediaSample interface [DirectShow],IsSyncPoint method, IMediaSample.IsSyncPoint, IMediaSample::IsSyncPoint, IMediaSampleIsSyncPoint, IsSyncPoint, IsSyncPoint method [DirectShow], IsSyncPoint method [DirectShow],IMediaSample interface, dshow.imediasample_issyncpoint, strmif/IMediaSample::IsSyncPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSample::IsSyncPoint method
+# IMediaSample::IsSyncPoint
 
 
 ## -description

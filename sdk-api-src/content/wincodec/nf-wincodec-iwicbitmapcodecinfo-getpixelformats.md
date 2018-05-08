@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetPixelFormats
-title: IWICBitmapCodecInfo::GetPixelFormats method
+title: IWICBitmapCodecInfo::GetPixelFormats
 author: windows-driver-content
 description: Retrieves the pixel formats the codec supports.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getpixelformats.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 2da56e46-bbbd-42d4-ba49-9dee01f6bba0
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetPixelFormats method [Windows Imaging Component], GetPixelFormats method [Windows Imaging Component], IWICBitmapCodecInfo interface, GetPixelFormats,IWICBitmapCodecInfo.GetPixelFormats, IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], GetPixelFormats method, IWICBitmapCodecInfo::GetPixelFormats, _wic_codec_iwicbitmapcodecinfo_getpixelformats, wic._wic_codec_iwicbitmapcodecinfo_getpixelformats, wincodec/IWICBitmapCodecInfo::GetPixelFormats
+ms.keywords: GetPixelFormats, GetPixelFormats method [Windows Imaging Component], GetPixelFormats method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetPixelFormats method, IWICBitmapCodecInfo.GetPixelFormats, IWICBitmapCodecInfo::GetPixelFormats, _wic_codec_iwicbitmapcodecinfo_getpixelformats, wic._wic_codec_iwicbitmapcodecinfo_getpixelformats, wincodec/IWICBitmapCodecInfo::GetPixelFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapCodecInfo::GetPixelFormats method
+# IWICBitmapCodecInfo::GetPixelFormats
 
 
 ## -description

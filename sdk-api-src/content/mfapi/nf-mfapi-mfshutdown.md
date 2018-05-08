@@ -7,7 +7,7 @@ old-location: mf\mfshutdown.htm
 old-project: medfound
 ms.assetid: 10be2361-b5b4-4c10-92a1-527ca22c74e4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 10be2361-b5b4-4c10-92a1-527ca22c74e4, MFShutdown, MFShutdown function [Media Foundation], mf.mfshutdown, mfapi/MFShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

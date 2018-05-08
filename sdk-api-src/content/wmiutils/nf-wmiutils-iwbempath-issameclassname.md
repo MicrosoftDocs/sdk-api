@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.IsSameClassName
-title: IWbemPath::IsSameClassName method
+title: IWbemPath::IsSameClassName
 author: windows-driver-content
 description: The IWbemPath::IsSameClassName method tests whether the class name passed in matches the one in the path. The method can return TRUE only if the path actually has a class name.
 old-location: wmi\iwbempath_issameclassname.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 7e0a907e-49d1-4775-885f-f059bb398804
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], IsSameClassName method, IWbemPath::IsSameClassName, IsSameClassName method [Windows Management Instrumentation], IsSameClassName method [Windows Management Instrumentation], IWbemPath interface, IsSameClassName,IWbemPath.IsSameClassName, _hmm_iwbempath_issameclassname, wmi.iwbempath_issameclassname, wmiutils/IWbemPath::IsSameClassName
+ms.keywords: IWbemPath interface [Windows Management Instrumentation],IsSameClassName method, IWbemPath.IsSameClassName, IWbemPath::IsSameClassName, IsSameClassName, IsSameClassName method [Windows Management Instrumentation], IsSameClassName method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_issameclassname, wmi.iwbempath_issameclassname, wmiutils/IWbemPath::IsSameClassName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPath::IsSameClassName method
+# IWbemPath::IsSameClassName
 
 
 ## -description

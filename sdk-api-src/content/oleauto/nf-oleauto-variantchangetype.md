@@ -7,7 +7,7 @@ old-location: automat\variantchangetype.htm
 old-project: automat
 ms.assetid: 48a51e32-95d7-4eeb-8106-f5043ffa2fd1
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VARIANT_ALPHABOOL, VARIANT_LOCALBOOL, VARIANT_NOUSEROVERRIDE, VARIANT_NOVALUEPROP, VariantChangeType, VariantChangeType function [Automation], _oa96_VariantChangeType, automat.variantchangetype, oleauto/VariantChangeType
 ms.prod: windows-hardware
 ms.technology: windows-devices

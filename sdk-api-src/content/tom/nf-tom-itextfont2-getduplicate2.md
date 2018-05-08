@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.GetDuplicate2
-title: ITextFont2::GetDuplicate2 method
+title: ITextFont2::GetDuplicate2
 author: windows-driver-content
 description: Gets a duplicate of this character format object.
 old-location: controls\itextfont2_getduplicate2.htm
 old-project: Controls
 ms.assetid: dc6b979b-f837-4945-a35d-c5585d703bd1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetDuplicate2 method [Windows Controls], GetDuplicate2 method [Windows Controls], ITextFont2 interface, GetDuplicate2,ITextFont2.GetDuplicate2, ITextFont2, ITextFont2 interface [Windows Controls], GetDuplicate2 method, ITextFont2::GetDuplicate2, controls.itextfont2_getduplicate2, tom/ITextFont2::GetDuplicate2
+ms.date: 4/27/2018
+ms.keywords: GetDuplicate2, GetDuplicate2 method [Windows Controls], GetDuplicate2 method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetDuplicate2 method, ITextFont2.GetDuplicate2, ITextFont2::GetDuplicate2, controls.itextfont2_getduplicate2, tom/ITextFont2::GetDuplicate2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::GetDuplicate2 method
+# ITextFont2::GetDuplicate2
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.ClearSimulatedProfileInfo
-title: INetworkListManager::ClearSimulatedProfileInfo method
+title: INetworkListManager::ClearSimulatedProfileInfo
 author: windows-driver-content
 description: Clears the connection profile values previously applied to the internet connection profile by SetSimulatedProfileInfo. The next internet connection query, via GetInternetConnectionProfile, will use system information.
 old-location: nla\inetworklistmanager_clearsimulatedprofileinfo.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: DD89717F-4BFD-4283-A9F4-A74BB6E8E8D6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ClearSimulatedProfileInfo method [Network Awareness], ClearSimulatedProfileInfo method [Network Awareness], INetworkListManager interface, ClearSimulatedProfileInfo,INetworkListManager.ClearSimulatedProfileInfo, INetworkListManager, INetworkListManager interface [Network Awareness], ClearSimulatedProfileInfo method, INetworkListManager::ClearSimulatedProfileInfo, netlistmgr/INetworkListManager::ClearSimulatedProfileInfo, nla.inetworklistmanager_clearsimulatedprofileinfo
+ms.keywords: ClearSimulatedProfileInfo, ClearSimulatedProfileInfo method [Network Awareness], ClearSimulatedProfileInfo method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],ClearSimulatedProfileInfo method, INetworkListManager.ClearSimulatedProfileInfo, INetworkListManager::ClearSimulatedProfileInfo, netlistmgr/INetworkListManager::ClearSimulatedProfileInfo, nla.inetworklistmanager_clearsimulatedprofileinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkListManager::ClearSimulatedProfileInfo method
+# INetworkListManager::ClearSimulatedProfileInfo
 
 
 ## -description

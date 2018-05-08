@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionContext.Abort
-title: ITransactionContext::Abort method
+title: ITransactionContext::Abort
 author: windows-driver-content
 description: Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
 old-location: cos\itransactioncontext_abort.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: d7ea7c31-225c-4eb1-a358-21c4dab1a1da
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: Abort method [COM+], Abort method [COM+], ITransactionContext interface, Abort,ITransactionContext.Abort, ITransactionContext, ITransactionContext interface [COM+], Abort method, ITransactionContext::Abort, _cos_ITransactionContext_Abort, comsvcs/ITransactionContext::Abort, cos.itransactioncontext_abort
+ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],Abort method, ITransactionContext.Abort, ITransactionContext::Abort, _cos_ITransactionContext_Abort, comsvcs/ITransactionContext::Abort, cos.itransactioncontext_abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITransactionContext::Abort method
+# ITransactionContext::Abort
 
 
 ## -description

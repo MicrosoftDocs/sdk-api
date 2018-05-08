@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_DownloadContents
-title: IUpdate::get_DownloadContents method
+title: IUpdate::get_DownloadContents
 author: windows-driver-content
 description: Gets file information about the download contents of the update.
 old-location: wua\iupdate_downloadcontents.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: dbeeaac7-3841-42ec-a3f3-bdf94694dbef
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DownloadContents property [Windows Update Agent], DownloadContents property [Windows Update Agent], IUpdate interface, IUpdate, IUpdate interface [Windows Update Agent], DownloadContents property, IUpdate.DownloadContents, IUpdate::get_DownloadContents, get_DownloadContents,IUpdate.get_DownloadContents, wua.iupdate_downloadcontents, wuapi/IUpdate::DownloadContents, wuapi/IUpdate::get_DownloadContents
+ms.keywords: DownloadContents property [Windows Update Agent], DownloadContents property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DownloadContents property, IUpdate.DownloadContents, IUpdate.get_DownloadContents, IUpdate::DownloadContents, IUpdate::get_DownloadContents, get_DownloadContents, wua.iupdate_downloadcontents, wuapi/IUpdate::DownloadContents, wuapi/IUpdate::get_DownloadContents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_DownloadContents method
+# IUpdate::get_DownloadContents
 
 
 ## -description

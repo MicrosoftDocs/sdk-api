@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Pan
-title: ICameraControl::put_Pan method
+title: ICameraControl::put_Pan
 author: windows-driver-content
 description: The put_Pan method sets the camera's panning angle.
 old-location: dshow\icameracontrol_put_pan.htm
 old-project: DirectShow
 ms.assetid: 71dc3fe3-089c-46e8-a63b-7a638068d069
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_Pan method, ICameraControl::put_Pan, ICameraControlput_Pan, dshow.icameracontrol_put_pan, put_Pan method [DirectShow], put_Pan method [DirectShow], ICameraControl interface, put_Pan,ICameraControl.put_Pan, vidcap/ICameraControl::put_Pan
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],put_Pan method, ICameraControl.put_Pan, ICameraControl::put_Pan, ICameraControlput_Pan, dshow.icameracontrol_put_pan, put_Pan, put_Pan method [DirectShow], put_Pan method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Pan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::put_Pan method
+# ICameraControl::put_Pan
 
 
 ## -description

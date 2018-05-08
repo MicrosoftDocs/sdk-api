@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IStreamBuilder.Backout
-title: IStreamBuilder::Backout method
+title: IStreamBuilder::Backout
 author: windows-driver-content
 description: The Backout method undoes steps taken in the IStreamBuilder::Render method. This includes disconnecting and removing any filters that were added inside Render.
 old-location: dshow\istreambuilder_backout.htm
 old-project: DirectShow
 ms.assetid: b8f895a7-7f71-4c0d-af9d-e2b0ed433172
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Backout method [DirectShow], Backout method [DirectShow], IStreamBuilder interface, Backout,IStreamBuilder.Backout, IStreamBuilder, IStreamBuilder interface [DirectShow], Backout method, IStreamBuilder::Backout, IStreamBuilderBackout, dshow.istreambuilder_backout, strmif/IStreamBuilder::Backout
+ms.date: 4/30/2018
+ms.keywords: Backout, Backout method [DirectShow], Backout method [DirectShow],IStreamBuilder interface, IStreamBuilder interface [DirectShow],Backout method, IStreamBuilder.Backout, IStreamBuilder::Backout, IStreamBuilderBackout, dshow.istreambuilder_backout, strmif/IStreamBuilder::Backout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IStreamBuilder::Backout method
+# IStreamBuilder::Backout
 
 
 ## -description

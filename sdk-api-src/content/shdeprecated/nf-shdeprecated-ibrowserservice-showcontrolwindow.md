@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.ShowControlWindow
-title: IBrowserService::ShowControlWindow method
+title: IBrowserService::ShowControlWindow
 author: windows-driver-content
 description: Deprecated. Shows or hides various frame controls.
 old-location: shell\IBrowserService_ShowControlWindow.htm
 old-project: shell
 ms.assetid: 11ded544-6fba-41a5-bc61-222467fdbc05
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: FALSE, FCW_INTERNETBAR, FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_TREE, IBrowserService, IBrowserService interface [Windows Shell], ShowControlWindow method, IBrowserService::ShowControlWindow, ShowControlWindow method [Windows Shell], ShowControlWindow method [Windows Shell], IBrowserService interface, ShowControlWindow,IBrowserService.ShowControlWindow, TRUE, shdeprecated/IBrowserService::ShowControlWindow, shell.IBrowserService_ShowControlWindow, zone_IBrowserService_ShowControlWindow
+ms.date: 5/3/2018
+ms.keywords: FALSE, FCW_INTERNETBAR, FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_TREE, IBrowserService interface [Windows Shell],ShowControlWindow method, IBrowserService.ShowControlWindow, IBrowserService::ShowControlWindow, ShowControlWindow, ShowControlWindow method [Windows Shell], ShowControlWindow method [Windows Shell],IBrowserService interface, TRUE, shdeprecated/IBrowserService::ShowControlWindow, shell.IBrowserService_ShowControlWindow, zone_IBrowserService_ShowControlWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::ShowControlWindow method
+# IBrowserService::ShowControlWindow
 
 
 ## -description

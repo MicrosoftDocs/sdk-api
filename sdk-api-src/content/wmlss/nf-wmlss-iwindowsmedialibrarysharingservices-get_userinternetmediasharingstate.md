@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_userInternetMediaSharingState
-title: IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState method
+title: IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState
 author: windows-driver-content
 description: The get_userInternetMediaSharingState method retrieves a value that indicates whether the current user's media library is shared on the Internet.
 old-location: wmlss\IWMLSSget_userInternetMediaSharingState.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: 577fb416-1ff4-4206-8916-9b54577e4cd3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], get_userInternetMediaSharingState method, IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState, get_userInternetMediaSharingState method [Windows Media Library Sharing Services], get_userInternetMediaSharingState method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, get_userInternetMediaSharingState,IWindowsMediaLibrarySharingServices.get_userInternetMediaSharingState, wmlss.IWMLSSget_userInternetMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_userInternetMediaSharingState method, IWindowsMediaLibrarySharingServices.get_userInternetMediaSharingState, IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState, get_userInternetMediaSharingState, get_userInternetMediaSharingState method [Windows Media Library Sharing Services], get_userInternetMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_userInternetMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState method
+# IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState
 
 
 ## -description

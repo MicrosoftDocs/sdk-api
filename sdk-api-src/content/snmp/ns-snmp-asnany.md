@@ -243,96 +243,84 @@ Indicates that the end of the MIB view has been reached.
 Contains the variable's value. This member can be only one of the following values.
 
 
-
-#### number
+### -field asnValue.number
 
 <b>Type: <b>AsnInteger32</b>
 </b>
 Accesses a 32-bit signed integer variable.
 
 
-
-#### unsigned32
+### -field asnValue.unsigned32
 
 <b>Type: <b>AsnUnsigned32</b>
 </b>
 Accesses a 32-bit unsigned integer variable.
 
 
-
-#### counter64
+### -field asnValue.counter64
 
 <b>Type: <b>AsnCounter64</b>
 </b>
 Accesses a counter variable that increases until it reaches a maximum value of (2^64) – 1.
 
 
-
-#### string
+### -field asnValue.string
 
 <b>Type: <b>AsnOctetString</b>
 </b>
 Accesses an octet string variable.
 
 
-
-#### bits
+### -field asnValue.bits
 
 <b>Type: <b>AsnBits</b>
 </b>
 Accesses a variable that is an enumeration of named bits with non-negative, contiguous values, starting at zero.
 
 
-
-#### object
+### -field asnValue.object
 
 <b>Type: <b>AsnObjectIdentifier</b>
 </b>
 Accesses an object identifier variable.
 
 
-
-#### sequence
+### -field asnValue.sequence
 
 <b>Type: <b>AsnSequence</b>
 </b>
 Accesses an ASN sequence variable.
 
 
-
-#### address
+### -field asnValue.address
 
 <b>Type: <b>AsnIPAddress</b>
 </b>
 Accesses an IP address variable.
 
 
-
-#### counter
+### -field asnValue.counter
 
 <b>Type: <b>AsnCounter32</b>
 </b>
 Accesses a counter variable that increases until it reaches a maximum value of (2^32) – 1.
 
 
-
-#### gauge
+### -field asnValue.gauge
 
 <b>Type: <b>AsnGauge32</b>
 </b>
 Accesses a gauge variable.
 
 
-
-#### ticks
+### -field asnValue.ticks
 
 <b>Type: <b>AsnTimeticks</b>
 </b>
 Accesses a timeticks counter variable that is relative to a specific timer event.
 
 
-
-#### arbitrary
+### -field asnValue.arbitrary
 
 <b>Type: <b>AsnOpaque</b>
 </b>

@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.GetPropertyCollection
-title: IContactProperties::GetPropertyCollection method
+title: IContactProperties::GetPropertyCollection
 author: windows-driver-content
 description: Returns an IContactPropertyCollection for the current contact. Optionally, filters the IContactPropertyCollection to enumerate only some values.
 old-location: wincontacts\_wincontacts_IContactProperties_GetPropertyCollection.htm
@@ -8,7 +8,7 @@ old-project: wincontacts
 ms.assetid: 12ef5ff0-ac87-4475-86b3-31a6379ffb4e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetPropertyCollection method [Windows Contacts], GetPropertyCollection method [Windows Contacts], IContactProperties interface, GetPropertyCollection,IContactProperties.GetPropertyCollection, IContactProperties, IContactProperties interface [Windows Contacts], GetPropertyCollection method, IContactProperties::GetPropertyCollection, _wincontacts_IContactProperties_GetPropertyCollection, icontact/IContactProperties::GetPropertyCollection, wincontacts._wincontacts_IContactProperties_GetPropertyCollection
+ms.keywords: GetPropertyCollection, GetPropertyCollection method [Windows Contacts], GetPropertyCollection method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetPropertyCollection method, IContactProperties.GetPropertyCollection, IContactProperties::GetPropertyCollection, _wincontacts_IContactProperties_GetPropertyCollection, icontact/IContactProperties::GetPropertyCollection, wincontacts._wincontacts_IContactProperties_GetPropertyCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IContactProperties::GetPropertyCollection method
+# IContactProperties::GetPropertyCollection
 
 
 ## -description

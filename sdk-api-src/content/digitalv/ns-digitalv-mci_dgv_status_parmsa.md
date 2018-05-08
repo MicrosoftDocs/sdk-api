@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_status_parms.htm
 old-project: Multimedia
 ms.assetid: bbc09d4c-4231-48a8-97f6-54cbb32303b1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPMCI_DGV_STATUS_PARMSA, MCI_DGV_STATUS_PARMS, MCI_DGV_STATUS_PARMS structure [Windows Multimedia], MCI_DGV_STATUS_PARMSA, _win32_MCI_DGV_STATUS_PARMS_str, digitalv/MCI_DGV_STATUS_PARMS, multimedia.mci_dgv_status_parms"
 ms.prod: windows-hardware
 ms.technology: windows-devices

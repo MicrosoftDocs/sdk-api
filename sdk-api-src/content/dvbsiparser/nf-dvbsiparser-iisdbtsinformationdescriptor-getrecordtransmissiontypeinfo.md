@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo
-title: IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo method
+title: IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo
 author: windows-driver-content
 description: Gets the transmission_type_info field from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_getrecordtransmissiontypeinfo.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 992ef7de-ccf8-42a1-bb83-4b5f396164ce
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordTransmissionTypeInfo method [Microsoft TV Technologies], GetRecordTransmissionTypeInfo method [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface, GetRecordTransmissionTypeInfo,IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo, IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], GetRecordTransmissionTypeInfo method, IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo, mstv.iisdbtsinformationdescriptor_getrecordtransmissiontypeinfo
+ms.keywords: GetRecordTransmissionTypeInfo, GetRecordTransmissionTypeInfo method [Microsoft TV Technologies], GetRecordTransmissionTypeInfo method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetRecordTransmissionTypeInfo method, IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo, IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo, mstv.iisdbtsinformationdescriptor_getrecordtransmissiontypeinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo method
+# IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo
 
 
 ## -description

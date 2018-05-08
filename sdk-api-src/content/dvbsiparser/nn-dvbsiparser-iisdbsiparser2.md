@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d8dfc713-aaa4-46b1-8eca-2e132a9d705f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IIsdbSiParser2, IIsdbSiParser2 interface [Microsoft TV Technologies], IIsdbSiParser2 interface [Microsoft TV Technologies], described, dvbsiparser/IIsdbSiParser2, mstv.iisdbsiparser2
+ms.keywords: IIsdbSiParser2, IIsdbSiParser2 interface [Microsoft TV Technologies], IIsdbSiParser2 interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbSiParser2, mstv.iisdbsiparser2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

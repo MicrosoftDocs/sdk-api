@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7V2.CheckCertificateSignature
-title: IX509CertificateRequestPkcs7V2::CheckCertificateSignature method
+title: IX509CertificateRequestPkcs7V2::CheckCertificateSignature
 author: windows-driver-content
 description: Verifies the certificate signature.
 old-location: security\ix509certificaterequestpkcs7v2_checkcertificatesignature.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 6ee30e16-1901-45dc-8023-ef605d8a4d21
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CheckCertificateSignature method [Security], CheckCertificateSignature method [Security], IX509CertificateRequestPkcs7V2 interface, CheckCertificateSignature,IX509CertificateRequestPkcs7V2.CheckCertificateSignature, IX509CertificateRequestPkcs7V2, IX509CertificateRequestPkcs7V2 interface [Security], CheckCertificateSignature method, IX509CertificateRequestPkcs7V2::CheckCertificateSignature, certenroll/IX509CertificateRequestPkcs7V2::CheckCertificateSignature, security.ix509certificaterequestpkcs7v2_checkcertificatesignature
+ms.keywords: CheckCertificateSignature, CheckCertificateSignature method [Security], CheckCertificateSignature method [Security],IX509CertificateRequestPkcs7V2 interface, IX509CertificateRequestPkcs7V2 interface [Security],CheckCertificateSignature method, IX509CertificateRequestPkcs7V2.CheckCertificateSignature, IX509CertificateRequestPkcs7V2::CheckCertificateSignature, certenroll/IX509CertificateRequestPkcs7V2::CheckCertificateSignature, security.ix509certificaterequestpkcs7v2_checkcertificatesignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs7V2::CheckCertificateSignature method
+# IX509CertificateRequestPkcs7V2::CheckCertificateSignature
 
 
 ## -description

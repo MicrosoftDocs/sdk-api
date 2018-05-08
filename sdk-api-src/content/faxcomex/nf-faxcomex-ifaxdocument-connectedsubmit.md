@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.ConnectedSubmit
-title: IFaxDocument::ConnectedSubmit method
+title: IFaxDocument::ConnectedSubmit
 author: windows-driver-content
 description: The IFaxDocument::ConnectedSubmit method submits a single fax document to the connected IFaxServer. The method returns an array of fax job ID strings, one for each recipient of the fax.
 old-location: fax\_mfax_faxdocument_connectedsubmit_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5cfo_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ConnectedSubmit method [Fax Service], ConnectedSubmit method [Fax Service], IFaxDocument interface, ConnectedSubmit,IFaxDocument.ConnectedSubmit, IFaxDocument, IFaxDocument interface [Fax Service], ConnectedSubmit method, IFaxDocument::ConnectedSubmit, _mfax_faxdocument.connectedsubmit_cpp, fax._mfax_faxdocument_connectedsubmit_cpp, faxcomex/IFaxDocument::ConnectedSubmit
+ms.keywords: ConnectedSubmit, ConnectedSubmit method [Fax Service], ConnectedSubmit method [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],ConnectedSubmit method, IFaxDocument.ConnectedSubmit, IFaxDocument::ConnectedSubmit, _mfax_faxdocument.connectedsubmit_cpp, fax._mfax_faxdocument_connectedsubmit_cpp, faxcomex/IFaxDocument::ConnectedSubmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDocument::ConnectedSubmit method
+# IFaxDocument::ConnectedSubmit
 
 
 ## -description

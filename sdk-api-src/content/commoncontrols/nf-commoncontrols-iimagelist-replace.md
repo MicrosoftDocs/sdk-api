@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.Replace
-title: IImageList::Replace method
+title: IImageList::Replace
 author: windows-driver-content
 description: Replaces an image in an image list with a new image.
 old-location: controls\IImageList_Replace.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\replace.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IImageList, IImageList interface [Windows Controls], Replace method, IImageList::Replace, Replace method [Windows Controls], Replace method [Windows Controls], IImageList interface, Replace,IImageList.Replace, comctl_IImageList_Replace, comctl_IImageList_Replace_cpp, commoncontrols/IImageList::Replace, controls.IImageList_Replace, controls.comctl_IImageList_Replace
+ms.date: 4/27/2018
+ms.keywords: IImageList interface [Windows Controls],Replace method, IImageList.Replace, IImageList::Replace, Replace, Replace method [Windows Controls], Replace method [Windows Controls],IImageList interface, comctl_IImageList_Replace, comctl_IImageList_Replace_cpp, commoncontrols/IImageList::Replace, controls.IImageList_Replace, controls.comctl_IImageList_Replace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::Replace method
+# IImageList::Replace
 
 
 ## -description

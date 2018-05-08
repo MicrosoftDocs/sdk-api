@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolCreateObject
-title: IComObjectPoolEvents2::OnObjPoolCreateObject method
+title: IComObjectPoolEvents2::OnObjPoolCreateObject
 author: windows-driver-content
 description: Generated when an object is created for the pool.
 old-location: cos\icomobjectpoolevents2_onobjpoolcreateobject.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 85e50bf4-2660-409c-8812-cbe389283202
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComObjectPoolEvents2, IComObjectPoolEvents2 interface [COM+], OnObjPoolCreateObject method, IComObjectPoolEvents2::OnObjPoolCreateObject, OnObjPoolCreateObject method [COM+], OnObjPoolCreateObject method [COM+], IComObjectPoolEvents2 interface, OnObjPoolCreateObject,IComObjectPoolEvents2.OnObjPoolCreateObject, _dtc_IComObjectPoolEvents2_OnObjPoolCreateObject, comsvcs/IComObjectPoolEvents2::OnObjPoolCreateObject, cos.icomobjectpoolevents2_onobjpoolcreateobject
+ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolCreateObject method, IComObjectPoolEvents2.OnObjPoolCreateObject, IComObjectPoolEvents2::OnObjPoolCreateObject, OnObjPoolCreateObject, OnObjPoolCreateObject method [COM+], OnObjPoolCreateObject method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolCreateObject, comsvcs/IComObjectPoolEvents2::OnObjPoolCreateObject, cos.icomobjectpoolevents2_onobjpoolcreateobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComObjectPoolEvents2::OnObjPoolCreateObject method
+# IComObjectPoolEvents2::OnObjPoolCreateObject
 
 
 ## -description

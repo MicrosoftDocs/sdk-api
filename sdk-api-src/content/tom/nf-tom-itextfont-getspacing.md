@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetSpacing
-title: ITextFont::GetSpacing method
+title: ITextFont::GetSpacing
 author: windows-driver-content
 description: Gets the amount of horizontal spacing between characters.
 old-location: controls\ITextFont_GetSpacing.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspacing.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetSpacing method [Windows Controls], GetSpacing method [Windows Controls], ITextFont interface, GetSpacing,ITextFont.GetSpacing, ITextFont, ITextFont interface [Windows Controls], GetSpacing method, ITextFont::GetSpacing, _win32_ITextFont_GetSpacing, _win32_ITextFont_GetSpacing_cpp, controls.ITextFont_GetSpacing, controls._win32_ITextFont_GetSpacing, tom/ITextFont::GetSpacing
+ms.date: 4/27/2018
+ms.keywords: GetSpacing, GetSpacing method [Windows Controls], GetSpacing method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSpacing method, ITextFont.GetSpacing, ITextFont::GetSpacing, _win32_ITextFont_GetSpacing, _win32_ITextFont_GetSpacing_cpp, controls.ITextFont_GetSpacing, controls._win32_ITextFont_GetSpacing, tom/ITextFont::GetSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetSpacing method
+# ITextFont::GetSpacing
 
 
 ## -description

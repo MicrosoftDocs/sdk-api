@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperations.get_Count
-title: IAzOperations::get_Count method
+title: IAzOperations::get_Count
 author: windows-driver-content
 description: Retrieves the number of IAzOperation objects in the collection.
 old-location: security\iazoperations_count.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 665fdf1f-4606-4cfc-b33b-6bae4ce3b6c9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzOperations object [Security], Count property, Count property [Security], Count property [Security], AzOperations object, Count property [Security], IAzOperations interface, IAzOperations, IAzOperations interface [Security], Count property, IAzOperations.Count, IAzOperations::get_Count, azroles/IAzOperations::Count, azroles/IAzOperations::get_Count, get_Count,IAzOperations.get_Count, security.iazoperations_count
+ms.keywords: AzOperations object [Security],Count property, Count property [Security], Count property [Security],AzOperations object, Count property [Security],IAzOperations interface, IAzOperations interface [Security],Count property, IAzOperations.Count, IAzOperations.get_Count, IAzOperations::Count, IAzOperations::get_Count, azroles/IAzOperations::Count, azroles/IAzOperations::get_Count, get_Count, security.iazoperations_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzOperations::get_Count method
+# IAzOperations::get_Count
 
 
 ## -description

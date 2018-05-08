@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IBitmapData.GetStride
-title: IBitmapData::GetStride method
+title: IBitmapData::GetStride
 author: windows-driver-content
 description: Gets the stride of the data. This is the length in bytes of each row of the bitmap.
 old-location: xaml_diagnostics\ibitmapdata_getstride.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 8D4EAB0A-1976-4A40-932C-AAE67F524B94
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: GetStride method, GetStride method, IBitmapData interface, GetStride,IBitmapData.GetStride, IBitmapData, IBitmapData interface, GetStride method, IBitmapData::GetStride, xaml_diagnostics.ibitmapdata_getstride, xamlom/IBitmapData::GetStride
+ms.keywords: GetStride, GetStride method, GetStride method,IBitmapData interface, IBitmapData interface,GetStride method, IBitmapData.GetStride, IBitmapData::GetStride, xaml_diagnostics.ibitmapdata_getstride, xamlom/IBitmapData::GetStride
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IBitmapData::GetStride method
+# IBitmapData::GetStride
 
 
 ## -description

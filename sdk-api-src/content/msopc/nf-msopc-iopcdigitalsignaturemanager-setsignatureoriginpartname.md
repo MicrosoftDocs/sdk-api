@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.SetSignatureOriginPartName
-title: IOpcDigitalSignatureManager::SetSignatureOriginPartName method
+title: IOpcDigitalSignatureManager::SetSignatureOriginPartName
 author: windows-driver-content
 description: Sets the part name of the Digital Signature Origin part to the name represented by a specified IOpcPartUri interface pointer.
 old-location: opc\iopcdigitalsignaturemanager_setsignatureoriginpartname.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: edf1590c-14a2-4887-a2df-20b5b4cb89a6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcDigitalSignatureManager, IOpcDigitalSignatureManager interface [Open Packaging Conventions], SetSignatureOriginPartName method, IOpcDigitalSignatureManager::SetSignatureOriginPartName, SetSignatureOriginPartName method [Open Packaging Conventions], SetSignatureOriginPartName method [Open Packaging Conventions], IOpcDigitalSignatureManager interface, SetSignatureOriginPartName,IOpcDigitalSignatureManager.SetSignatureOriginPartName, msopc/IOpcDigitalSignatureManager::SetSignatureOriginPartName, opc.iopcdigitalsignaturemanager_setsignatureoriginpartname
+ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],SetSignatureOriginPartName method, IOpcDigitalSignatureManager.SetSignatureOriginPartName, IOpcDigitalSignatureManager::SetSignatureOriginPartName, SetSignatureOriginPartName, SetSignatureOriginPartName method [Open Packaging Conventions], SetSignatureOriginPartName method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::SetSignatureOriginPartName, opc.iopcdigitalsignaturemanager_setsignatureoriginpartname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignatureManager::SetSignatureOriginPartName method
+# IOpcDigitalSignatureManager::SetSignatureOriginPartName
 
 
 ## -description

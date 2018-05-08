@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IExpDispSupportXP.FindCIE4ConnectionPoint
-title: IExpDispSupportXP::FindCIE4ConnectionPoint method
+title: IExpDispSupportXP::FindCIE4ConnectionPoint
 author: windows-driver-content
 description: Deprecated. Gets a connection point for browser events.
 old-location: shell\IExpDispSupportXP_FindCIE4ConnectionPoint.htm
 old-project: shell
 ms.assetid: 2fca737b-d381-4feb-9c5d-c038eecdadb7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: FindCIE4ConnectionPoint method [Windows Shell], FindCIE4ConnectionPoint method [Windows Shell], IExpDispSupportXP interface, FindCIE4ConnectionPoint,IExpDispSupportXP.FindCIE4ConnectionPoint, IExpDispSupportXP, IExpDispSupportXP interface [Windows Shell], FindCIE4ConnectionPoint method, IExpDispSupportXP::FindCIE4ConnectionPoint, _shell_IExpDispSupportXP_FindCIE4ConnectionPoint, shdeprecated/IExpDispSupportXP::FindCIE4ConnectionPoint, shell.IExpDispSupportXP_FindCIE4ConnectionPoint
+ms.date: 5/3/2018
+ms.keywords: FindCIE4ConnectionPoint, FindCIE4ConnectionPoint method [Windows Shell], FindCIE4ConnectionPoint method [Windows Shell],IExpDispSupportXP interface, IExpDispSupportXP interface [Windows Shell],FindCIE4ConnectionPoint method, IExpDispSupportXP.FindCIE4ConnectionPoint, IExpDispSupportXP::FindCIE4ConnectionPoint, _shell_IExpDispSupportXP_FindCIE4ConnectionPoint, shdeprecated/IExpDispSupportXP::FindCIE4ConnectionPoint, shell.IExpDispSupportXP_FindCIE4ConnectionPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IExpDispSupportXP::FindCIE4ConnectionPoint method
+# IExpDispSupportXP::FindCIE4ConnectionPoint
 
 
 ## -description

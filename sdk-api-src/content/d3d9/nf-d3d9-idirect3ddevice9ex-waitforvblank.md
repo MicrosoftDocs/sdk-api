@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.WaitForVBlank
-title: IDirect3DDevice9Ex::WaitForVBlank method
+title: IDirect3DDevice9Ex::WaitForVBlank
 author: windows-driver-content
 description: Suspend execution of the calling thread until the next vertical blank signal.
 old-location: direct3d9\idirect3ddevice9ex_waitforvblank.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_waitforvblank.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 0c60116d-ada5-3625-26f3-44646e467dd6, IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], WaitForVBlank method, IDirect3DDevice9Ex::WaitForVBlank, WaitForVBlank method [Direct3D 9], WaitForVBlank method [Direct3D 9], IDirect3DDevice9Ex interface, WaitForVBlank,IDirect3DDevice9Ex.WaitForVBlank, d3d9/IDirect3DDevice9Ex::WaitForVBlank, direct3d9.idirect3ddevice9ex_waitforvblank
+ms.keywords: 0c60116d-ada5-3625-26f3-44646e467dd6, IDirect3DDevice9Ex interface [Direct3D 9],WaitForVBlank method, IDirect3DDevice9Ex.WaitForVBlank, IDirect3DDevice9Ex::WaitForVBlank, WaitForVBlank, WaitForVBlank method [Direct3D 9], WaitForVBlank method [Direct3D 9],IDirect3DDevice9Ex interface, d3d9/IDirect3DDevice9Ex::WaitForVBlank, direct3d9.idirect3ddevice9ex_waitforvblank
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9Ex::WaitForVBlank method
+# IDirect3DDevice9Ex::WaitForVBlank
 
 
 ## -description

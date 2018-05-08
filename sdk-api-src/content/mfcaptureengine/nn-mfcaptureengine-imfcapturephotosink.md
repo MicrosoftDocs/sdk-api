@@ -7,8 +7,8 @@ old-location: mf\imfcapturephotosink.htm
 old-project: medfound
 ms.assetid: 14BB9A86-47F2-4CFE-A932-3F2C7B6AF2BA
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCapturePhotoSink, IMFCapturePhotoSink interface [Media Foundation], IMFCapturePhotoSink interface [Media Foundation], described, mf.imfcapturephotosink, mfcaptureengine/IMFCapturePhotoSink
+ms.date: 5/3/2018
+ms.keywords: IMFCapturePhotoSink, IMFCapturePhotoSink interface [Media Foundation], IMFCapturePhotoSink interface [Media Foundation],described, mf.imfcapturephotosink, mfcaptureengine/IMFCapturePhotoSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

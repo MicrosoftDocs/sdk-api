@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.Skip
-title: IEnumCERTVIEWROW::Skip method
+title: IEnumCERTVIEWROW::Skip
 author: windows-driver-content
 description: Skips a specified number of rows in the row enumeration sequence.
 old-location: security\ienumcertviewrow_skip.htm
 old-project: SecCrypto
 ms.assetid: 9115262e-00bb-4446-906d-7a57fd5781d1
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnumCERTVIEWROW, IEnumCERTVIEWROW interface [Security], Skip method, IEnumCERTVIEWROW object [Security], Skip method, IEnumCERTVIEWROW::Skip, Skip method [Security], Skip method [Security], IEnumCERTVIEWROW interface, Skip method [Security], IEnumCERTVIEWROW object, Skip,IEnumCERTVIEWROW.Skip, _certsrv_ienumcertviewrow_skip, certview/IEnumCERTVIEWROW::Skip, security.ienumcertviewrow_skip
+ms.date: 4/30/2018
+ms.keywords: IEnumCERTVIEWROW interface [Security],Skip method, IEnumCERTVIEWROW object [Security],Skip method, IEnumCERTVIEWROW.Skip, IEnumCERTVIEWROW::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWROW interface, Skip method [Security],IEnumCERTVIEWROW object, _certsrv_ienumcertviewrow_skip, certview/IEnumCERTVIEWROW::Skip, security.ienumcertviewrow_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWROW::Skip method
+# IEnumCERTVIEWROW::Skip
 
 
 ## -description

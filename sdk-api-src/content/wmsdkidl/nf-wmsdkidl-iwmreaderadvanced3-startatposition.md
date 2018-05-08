@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced3.StartAtPosition
-title: IWMReaderAdvanced3::StartAtPosition method
+title: IWMReaderAdvanced3::StartAtPosition
 author: windows-driver-content
 description: The StartAtPosition method enables you to specify a starting position for a file using one of several offset formats.
 old-location: wmformat\iwmreaderadvanced3_startatposition.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 64b922be-3a8f-4cbe-aa1d-aa3833e1f0fa
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced3, IWMReaderAdvanced3 interface [windows Media Format], StartAtPosition method, IWMReaderAdvanced3::StartAtPosition, IWMReaderAdvanced3StartAtPosition, StartAtPosition method [windows Media Format], StartAtPosition method [windows Media Format], IWMReaderAdvanced3 interface, StartAtPosition,IWMReaderAdvanced3.StartAtPosition, wmformat.iwmreaderadvanced3_startatposition, wmsdkidl/IWMReaderAdvanced3::StartAtPosition
+ms.keywords: IWMReaderAdvanced3 interface [windows Media Format],StartAtPosition method, IWMReaderAdvanced3.StartAtPosition, IWMReaderAdvanced3::StartAtPosition, IWMReaderAdvanced3StartAtPosition, StartAtPosition, StartAtPosition method [windows Media Format], StartAtPosition method [windows Media Format],IWMReaderAdvanced3 interface, wmformat.iwmreaderadvanced3_startatposition, wmsdkidl/IWMReaderAdvanced3::StartAtPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced3::StartAtPosition method
+# IWMReaderAdvanced3::StartAtPosition
 
 
 ## -description

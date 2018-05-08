@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTuner.put_TuningSpace
-title: IAMTuner::put_TuningSpace method
+title: IAMTuner::put_TuningSpace
 author: windows-driver-content
 description: The put_TuningSpace method sets a storage index for regional channel-to-frequency mappings.
 old-location: dshow\iamtuner_put_tuningspace.htm
 old-project: DirectShow
 ms.assetid: fd0c0bc5-2c46-4c5a-8f93-9021f37a6e6a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTuner, IAMTuner interface [DirectShow], put_TuningSpace method, IAMTuner::put_TuningSpace, IAMTunerput_TuningSpace, dshow.iamtuner_put_tuningspace, put_TuningSpace method [DirectShow], put_TuningSpace method [DirectShow], IAMTuner interface, put_TuningSpace,IAMTuner.put_TuningSpace, strmif/IAMTuner::put_TuningSpace
+ms.date: 4/30/2018
+ms.keywords: IAMTuner interface [DirectShow],put_TuningSpace method, IAMTuner.put_TuningSpace, IAMTuner::put_TuningSpace, IAMTunerput_TuningSpace, dshow.iamtuner_put_tuningspace, put_TuningSpace, put_TuningSpace method [DirectShow], put_TuningSpace method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_TuningSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTuner::put_TuningSpace method
+# IAMTuner::put_TuningSpace
 
 
 ## -description

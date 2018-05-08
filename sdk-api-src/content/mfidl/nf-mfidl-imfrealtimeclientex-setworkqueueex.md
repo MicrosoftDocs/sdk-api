@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFRealTimeClientEx.SetWorkQueueEx
-title: IMFRealTimeClientEx::SetWorkQueueEx method
+title: IMFRealTimeClientEx::SetWorkQueueEx
 author: windows-driver-content
 description: Specifies the work queue that this object should use for asynchronous work items.
 old-location: mf\imfrealtimeclientex_setworkqueueex.htm
 old-project: medfound
 ms.assetid: 4F91FD8A-A8B6-4066-A0EB-F764A3BFD8A2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFRealTimeClientEx, IMFRealTimeClientEx interface [Media Foundation], SetWorkQueueEx method, IMFRealTimeClientEx::SetWorkQueueEx, SetWorkQueueEx method [Media Foundation], SetWorkQueueEx method [Media Foundation], IMFRealTimeClientEx interface, SetWorkQueueEx,IMFRealTimeClientEx.SetWorkQueueEx, mf.imfrealtimeclientex_setworkqueueex, mfidl/IMFRealTimeClientEx::SetWorkQueueEx
+ms.date: 5/3/2018
+ms.keywords: IMFRealTimeClientEx interface [Media Foundation],SetWorkQueueEx method, IMFRealTimeClientEx.SetWorkQueueEx, IMFRealTimeClientEx::SetWorkQueueEx, SetWorkQueueEx, SetWorkQueueEx method [Media Foundation], SetWorkQueueEx method [Media Foundation],IMFRealTimeClientEx interface, mf.imfrealtimeclientex_setworkqueueex, mfidl/IMFRealTimeClientEx::SetWorkQueueEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFRealTimeClientEx::SetWorkQueueEx method
+# IMFRealTimeClientEx::SetWorkQueueEx
 
 
 ## -description

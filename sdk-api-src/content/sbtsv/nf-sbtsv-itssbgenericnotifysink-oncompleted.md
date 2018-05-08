@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbGenericNotifySink.OnCompleted
-title: ITsSbGenericNotifySink::OnCompleted method
+title: ITsSbGenericNotifySink::OnCompleted
 author: windows-driver-content
 description: Reports completion to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbgenericnotifysink_oncompleted.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 6d8dd044-988e-4e37-9936-2a3639dedca1
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbGenericNotifySink, ITsSbGenericNotifySink interface [Remote Desktop Services], OnCompleted method, ITsSbGenericNotifySink::OnCompleted, OnCompleted method [Remote Desktop Services], OnCompleted method [Remote Desktop Services], ITsSbGenericNotifySink interface, OnCompleted,ITsSbGenericNotifySink.OnCompleted, sbtsv/ITsSbGenericNotifySink::OnCompleted, termserv.itssbgenericnotifysink_oncompleted
+ms.keywords: ITsSbGenericNotifySink interface [Remote Desktop Services],OnCompleted method, ITsSbGenericNotifySink.OnCompleted, ITsSbGenericNotifySink::OnCompleted, OnCompleted, OnCompleted method [Remote Desktop Services], OnCompleted method [Remote Desktop Services],ITsSbGenericNotifySink interface, sbtsv/ITsSbGenericNotifySink::OnCompleted, termserv.itssbgenericnotifysink_oncompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbGenericNotifySink::OnCompleted method
+# ITsSbGenericNotifySink::OnCompleted
 
 
 ## -description

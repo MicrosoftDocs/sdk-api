@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.PageLock
-title: IDirectDrawSurface7::PageLock method
+title: IDirectDrawSurface7::PageLock
 author: windows-driver-content
 description: Prevents a system-memory surface from being paged out while a bit block transfer (bitblt) operation that uses direct memory access (DMA) transfers to or from system memory is in progress.
 old-location: directdraw\idirectdrawsurface7_pagelock.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 018e6539-bb2a-472c-bab4-2c0665cdbe15
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], PageLock method, IDirectDrawSurface7::PageLock, PageLock method [DirectDraw], PageLock method [DirectDraw], IDirectDrawSurface7 interface, PageLock,IDirectDrawSurface7.PageLock, ddraw/IDirectDrawSurface7::PageLock, directdraw.idirectdrawsurface7_pagelock
+ms.keywords: IDirectDrawSurface7 interface [DirectDraw],PageLock method, IDirectDrawSurface7.PageLock, IDirectDrawSurface7::PageLock, PageLock, PageLock method [DirectDraw], PageLock method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::PageLock, directdraw.idirectdrawsurface7_pagelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::PageLock method
+# IDirectDrawSurface7::PageLock
 
 
 ## -description

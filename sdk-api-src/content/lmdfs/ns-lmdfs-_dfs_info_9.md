@@ -251,6 +251,16 @@ This field is valid for DFS roots only.
  
 
 
+### -field pSecurityDescriptor.size_is
+
+ 
+
+
+### -field pSecurityDescriptor.size_is.SecurityDescriptorLength
+
+ 
+
+
 ### -field SdLengthReserved
 
 This member is reserved for system use.
@@ -267,6 +277,16 @@ Pointer to a  <a href="https://msdn.microsoft.com/library/windows/hardware/ff563
 
 Specifies the number of targets for the DFS root or link. These targets are contained in the 
       <b>Storage</b> member of this structure.
+
+
+### -field Storage.size_is
+
+ 
+
+
+### -field Storage.size_is.NumberOfStorages
+
+ 
 
 
 ### -field Storage

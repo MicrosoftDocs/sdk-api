@@ -7,8 +7,8 @@ old-location: dshow\iamaudiorendererstats.htm
 old-project: DirectShow
 ms.assetid: f5cca658-73ce-4f4d-8992-afb7824f4117
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAudioRendererStats, IAMAudioRendererStats interface [DirectShow], IAMAudioRendererStats interface [DirectShow], described, IAMAudioRendererStatsInterface, dshow.iamaudiorendererstats, strmif/IAMAudioRendererStats
+ms.date: 4/30/2018
+ms.keywords: IAMAudioRendererStats, IAMAudioRendererStats interface [DirectShow], IAMAudioRendererStats interface [DirectShow],described, IAMAudioRendererStatsInterface, dshow.iamaudiorendererstats, strmif/IAMAudioRendererStats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

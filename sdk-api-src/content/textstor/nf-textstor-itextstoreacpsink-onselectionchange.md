@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnSelectionChange
-title: ITextStoreACPSink::OnSelectionChange method
+title: ITextStoreACPSink::OnSelectionChange
 author: windows-driver-content
 description: ITextStoreACPSink::OnSelectionChange method
 old-location: tsf\itextstoreacpsink_onselectionchange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 500333ae-06dc-4194-a21b-e03c1acc9f9a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACPSink, ITextStoreACPSink interface [Text Services Framework], OnSelectionChange method, ITextStoreACPSink::OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework], ITextStoreACPSink interface, OnSelectionChange,ITextStoreACPSink.OnSelectionChange, _tsf_itextstoreacpsink_onselectionchange_ref, textstor/ITextStoreACPSink::OnSelectionChange, tsf.itextstoreacpsink_onselectionchange
+ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnSelectionChange method, ITextStoreACPSink.OnSelectionChange, ITextStoreACPSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onselectionchange_ref, textstor/ITextStoreACPSink::OnSelectionChange, tsf.itextstoreacpsink_onselectionchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACPSink::OnSelectionChange method
+# ITextStoreACPSink::OnSelectionChange
 
 
 ## -description

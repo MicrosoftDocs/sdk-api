@@ -1,14 +1,14 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetDecoderLevel
-title: IAMLine21Decoder::GetDecoderLevel method
+title: IAMLine21Decoder::GetDecoderLevel
 author: windows-driver-content
 description: The GetDecoderLevel method retrieves the closed-captioned decoder level.
 old-location: dshow\iamline21decoder_getdecoderlevel.htm
 old-project: DirectShow
 ms.assetid: 6f0fc2c3-cc98-4646-ada0-57d74c6b5dd9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDecoderLevel method [DirectShow], GetDecoderLevel method [DirectShow], IAMLine21Decoder interface, GetDecoderLevel,IAMLine21Decoder.GetDecoderLevel, IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], GetDecoderLevel method, IAMLine21Decoder::GetDecoderLevel, IAMLine21DecoderGetDecoderLevel, dshow.iamline21decoder_getdecoderlevel, il21dec/IAMLine21Decoder::GetDecoderLevel
+ms.date: 4/30/2018
+ms.keywords: GetDecoderLevel, GetDecoderLevel method [DirectShow], GetDecoderLevel method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetDecoderLevel method, IAMLine21Decoder.GetDecoderLevel, IAMLine21Decoder::GetDecoderLevel, IAMLine21DecoderGetDecoderLevel, dshow.iamline21decoder_getdecoderlevel, il21dec/IAMLine21Decoder::GetDecoderLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMLine21Decoder::GetDecoderLevel method
+# IAMLine21Decoder::GetDecoderLevel
 
 
 ## -description

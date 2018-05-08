@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetNavigateState
-title: IBrowserService::SetNavigateState method
+title: IBrowserService::SetNavigateState
 author: windows-driver-content
 description: Deprecated. Sets the current navigation state. This method affects the cursor and animation.
 old-location: shell\IBrowserService_SetNavigateState.htm
 old-project: shell
 ms.assetid: 3cdbe902-f208-43f8-9019-d61c22635196
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: BNS_BEGIN_NAVIGATE, BNS_NAVIGATE, BNS_NORMAL, IBrowserService, IBrowserService interface [Windows Shell], SetNavigateState method, IBrowserService::SetNavigateState, SetNavigateState method [Windows Shell], SetNavigateState method [Windows Shell], IBrowserService interface, SetNavigateState,IBrowserService.SetNavigateState, shdeprecated/IBrowserService::SetNavigateState, shell.IBrowserService_SetNavigateState, zone_IBrowserService_SetNavigateState
+ms.date: 5/3/2018
+ms.keywords: BNS_BEGIN_NAVIGATE, BNS_NAVIGATE, BNS_NORMAL, IBrowserService interface [Windows Shell],SetNavigateState method, IBrowserService.SetNavigateState, IBrowserService::SetNavigateState, SetNavigateState, SetNavigateState method [Windows Shell], SetNavigateState method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetNavigateState, shell.IBrowserService_SetNavigateState, zone_IBrowserService_SetNavigateState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::SetNavigateState method
+# IBrowserService::SetNavigateState
 
 
 ## -description

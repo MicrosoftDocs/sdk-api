@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.GetMarkerTime
-title: IAMExtendedSeeking::GetMarkerTime method
+title: IAMExtendedSeeking::GetMarkerTime
 author: windows-driver-content
 description: The GetMarkerTime method retrieves the presentation time associated with the specified marker.
 old-location: dshow\iamextendedseeking_getmarkertime.htm
 old-project: DirectShow
 ms.assetid: 719e87c5-7d38-4b02-8342-055e42405511
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMarkerTime method [DirectShow], GetMarkerTime method [DirectShow], IAMExtendedSeeking interface, GetMarkerTime,IAMExtendedSeeking.GetMarkerTime, IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], GetMarkerTime method, IAMExtendedSeeking::GetMarkerTime, IAMExtendedSeekingGetMarkerTime, dshow.iamextendedseeking_getmarkertime, qnetwork/IAMExtendedSeeking::GetMarkerTime
+ms.date: 4/30/2018
+ms.keywords: GetMarkerTime, GetMarkerTime method [DirectShow], GetMarkerTime method [DirectShow],IAMExtendedSeeking interface, IAMExtendedSeeking interface [DirectShow],GetMarkerTime method, IAMExtendedSeeking.GetMarkerTime, IAMExtendedSeeking::GetMarkerTime, IAMExtendedSeekingGetMarkerTime, dshow.iamextendedseeking_getmarkertime, qnetwork/IAMExtendedSeeking::GetMarkerTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMExtendedSeeking::GetMarkerTime method
+# IAMExtendedSeeking::GetMarkerTime
 
 
 ## -description

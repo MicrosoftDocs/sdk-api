@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateVertexShader
-title: ID3D10Device::CreateVertexShader method
+title: ID3D10Device::CreateVertexShader
 author: windows-driver-content
 description: Create a vertex-shader object from a compiled shader.
 old-location: direct3d10\id3d10device_createvertexshader.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createvertexshader.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 85865e55-ec77-0246-1f72-283d1333b4e7, CreateVertexShader method [Direct3D 10], CreateVertexShader method [Direct3D 10], ID3D10Device interface, CreateVertexShader,ID3D10Device.CreateVertexShader, ID3D10Device, ID3D10Device interface [Direct3D 10], CreateVertexShader method, ID3D10Device::CreateVertexShader, d3d10/ID3D10Device::CreateVertexShader, direct3d10.id3d10device_createvertexshader
+ms.keywords: 85865e55-ec77-0246-1f72-283d1333b4e7, CreateVertexShader, CreateVertexShader method [Direct3D 10], CreateVertexShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateVertexShader method, ID3D10Device.CreateVertexShader, ID3D10Device::CreateVertexShader, d3d10/ID3D10Device::CreateVertexShader, direct3d10.id3d10device_createvertexshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::CreateVertexShader method
+# ID3D10Device::CreateVertexShader
 
 
 ## -description

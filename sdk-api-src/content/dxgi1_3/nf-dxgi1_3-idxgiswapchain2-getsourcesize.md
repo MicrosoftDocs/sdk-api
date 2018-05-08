@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.GetSourceSize
-title: IDXGISwapChain2::GetSourceSize method
+title: IDXGISwapChain2::GetSourceSize
 author: windows-driver-content
 description: Gets the source region used for the swap chain.
 old-location: direct3ddxgi\idxgioutpu2_getsourcesize.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: C7E9BC13-74E5-4981-8F87-390F95B71AE0
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetSourceSize method [DXGI], GetSourceSize method [DXGI], IDXGISwapChain2 interface, GetSourceSize,IDXGISwapChain2.GetSourceSize, IDXGISwapChain2, IDXGISwapChain2 interface [DXGI], GetSourceSize method, IDXGISwapChain2::GetSourceSize, direct3ddxgi.idxgioutpu2_getsourcesize, dxgi1_3/IDXGISwapChain2::GetSourceSize
+ms.keywords: GetSourceSize, GetSourceSize method [DXGI], GetSourceSize method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetSourceSize method, IDXGISwapChain2.GetSourceSize, IDXGISwapChain2::GetSourceSize, direct3ddxgi.idxgioutpu2_getsourcesize, dxgi1_3/IDXGISwapChain2::GetSourceSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain2::GetSourceSize method
+# IDXGISwapChain2::GetSourceSize
 
 
 ## -description

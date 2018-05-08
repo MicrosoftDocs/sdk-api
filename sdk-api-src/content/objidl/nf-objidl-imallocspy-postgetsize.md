@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PostGetSize
-title: IMallocSpy::PostGetSize method
+title: IMallocSpy::PostGetSize
 author: windows-driver-content
 description: Performs operations required after calling IMalloc::GetSize.
 old-location: com\imallocspy_postgetsize.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ac619736-a434-46c0-9874-0cb646fdecae
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMallocSpy, IMallocSpy interface [COM], PostGetSize method, IMallocSpy::PostGetSize, PostGetSize method [COM], PostGetSize method [COM], IMallocSpy interface, PostGetSize,IMallocSpy.PostGetSize, _com_imallocspy_postgetsize, com.imallocspy_postgetsize, objidl/IMallocSpy::PostGetSize
+ms.keywords: IMallocSpy interface [COM],PostGetSize method, IMallocSpy.PostGetSize, IMallocSpy::PostGetSize, PostGetSize, PostGetSize method [COM], PostGetSize method [COM],IMallocSpy interface, _com_imallocspy_postgetsize, com.imallocspy_postgetsize, objidl/IMallocSpy::PostGetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMallocSpy::PostGetSize method
+# IMallocSpy::PostGetSize
 
 
 ## -description

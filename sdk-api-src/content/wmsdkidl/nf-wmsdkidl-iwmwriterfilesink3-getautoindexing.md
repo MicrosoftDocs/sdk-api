@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.GetAutoIndexing
-title: IWMWriterFileSink3::GetAutoIndexing method
+title: IWMWriterFileSink3::GetAutoIndexing
 author: windows-driver-content
 description: The GetAutoIndexing method retrieves the current state of automatic indexing for the file.
 old-location: wmformat\iwmwriterfilesink3_getautoindexing.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a6412ce4-03ac-4777-8eb2-ef9f265a6d6c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetAutoIndexing method [windows Media Format], GetAutoIndexing method [windows Media Format], IWMWriterFileSink3 interface, GetAutoIndexing,IWMWriterFileSink3.GetAutoIndexing, IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], GetAutoIndexing method, IWMWriterFileSink3::GetAutoIndexing, IWMWriterFileSink3GetAutoIndexing, wmformat.iwmwriterfilesink3_getautoindexing, wmsdkidl/IWMWriterFileSink3::GetAutoIndexing
+ms.keywords: GetAutoIndexing, GetAutoIndexing method [windows Media Format], GetAutoIndexing method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],GetAutoIndexing method, IWMWriterFileSink3.GetAutoIndexing, IWMWriterFileSink3::GetAutoIndexing, IWMWriterFileSink3GetAutoIndexing, wmformat.iwmwriterfilesink3_getautoindexing, wmsdkidl/IWMWriterFileSink3::GetAutoIndexing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterFileSink3::GetAutoIndexing method
+# IWMWriterFileSink3::GetAutoIndexing
 
 
 ## -description

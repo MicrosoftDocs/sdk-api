@@ -7,7 +7,7 @@ old-location: security\ncrypttranslatehandle.htm
 old-project: SecCNG
 ms.assetid: 0c339864-b598-430c-a597-09d3571fdbb2
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCryptTranslateHandle, NCryptTranslateHandle function [Security], ncrypt/NCryptTranslateHandle, security.ncrypttranslatehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

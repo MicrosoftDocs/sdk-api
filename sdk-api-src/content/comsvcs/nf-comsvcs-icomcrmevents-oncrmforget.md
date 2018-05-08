@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMForget
-title: IComCRMEvents::OnCRMForget method
+title: IComCRMEvents::OnCRMForget
 author: windows-driver-content
 description: Generated when a CRM clerk receives a request to forget a log record, either from the CRM worker or from the CRM compensator.
 old-location: cos\icomcrmevents_oncrmforget.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 2e6c5bb1-aa99-434a-9376-c853b1fb1d12
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], OnCRMForget method, IComCRMEvents::OnCRMForget, OnCRMForget method [COM+], OnCRMForget method [COM+], IComCRMEvents interface, OnCRMForget,IComCRMEvents.OnCRMForget, _dtc_IComCRMEvents_OnCRMForget, comsvcs/IComCRMEvents::OnCRMForget, cos.icomcrmevents_oncrmforget
+ms.keywords: IComCRMEvents interface [COM+],OnCRMForget method, IComCRMEvents.OnCRMForget, IComCRMEvents::OnCRMForget, OnCRMForget, OnCRMForget method [COM+], OnCRMForget method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMForget, comsvcs/IComCRMEvents::OnCRMForget, cos.icomcrmevents_oncrmforget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComCRMEvents::OnCRMForget method
+# IComCRMEvents::OnCRMForget
 
 
 ## -description

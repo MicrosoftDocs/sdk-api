@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 85B94DA2-11EF-49ED-8076-DA5AB36EF781
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: IVisualTreeServiceCallback, IVisualTreeServiceCallback interface, IVisualTreeServiceCallback interface, described, xaml_diagnostics.ivisualtreeservicecallback, xamlom/IVisualTreeServiceCallback
+ms.keywords: IVisualTreeServiceCallback, IVisualTreeServiceCallback interface, IVisualTreeServiceCallback interface,described, xaml_diagnostics.ivisualtreeservicecallback, xamlom/IVisualTreeServiceCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

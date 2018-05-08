@@ -7,8 +7,8 @@ old-location: wmp\iwmpmetadatapicture.htm
 old-project: WMP
 ms.assetid: 385819d0-cf27-4f39-86be-140d1bc87d12
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMetadataPicture, IWMPMetadataPicture interface [Windows Media Player], IWMPMetadataPicture interface [Windows Media Player], described, IWMPMetadataPictureInterface, wmp.iwmpmetadatapicture, wmp/IWMPMetadataPicture
+ms.date: 5/4/2018
+ms.keywords: IWMPMetadataPicture, IWMPMetadataPicture interface [Windows Media Player], IWMPMetadataPicture interface [Windows Media Player],described, IWMPMetadataPictureInterface, wmp.iwmpmetadatapicture, wmp/IWMPMetadataPicture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

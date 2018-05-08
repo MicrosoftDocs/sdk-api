@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.ShowProperties
-title: ISyncMgrSynchronize::ShowProperties method
+title: ISyncMgrSynchronize::ShowProperties
 author: windows-driver-content
 description: Called by the synchronization manager when a user selects an item in the choice dialog box, and then clicks the Properties button.
 old-location: shell\syncmgr_isyncmgrsynchronize_showproperties.htm
 old-project: shell
 ms.assetid: 5587cc8a-b359-483e-98ba-82f1bbe058d8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSynchronize, ISyncMgrSynchronize interface [Windows Shell], ShowProperties method, ISyncMgrSynchronize::ShowProperties, ShowProperties method [Windows Shell], ShowProperties method [Windows Shell], ISyncMgrSynchronize interface, ShowProperties,ISyncMgrSynchronize.ShowProperties, mobsync/ISyncMgrSynchronize::ShowProperties, shell.syncmgr_isyncmgrsynchronize_showproperties, syncmgr.isyncmgrsynchronize_showproperties
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSynchronize interface [Windows Shell],ShowProperties method, ISyncMgrSynchronize.ShowProperties, ISyncMgrSynchronize::ShowProperties, ShowProperties, ShowProperties method [Windows Shell], ShowProperties method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::ShowProperties, shell.syncmgr_isyncmgrsynchronize_showproperties, syncmgr.isyncmgrsynchronize_showproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronize::ShowProperties method
+# ISyncMgrSynchronize::ShowProperties
 
 
 ## -description

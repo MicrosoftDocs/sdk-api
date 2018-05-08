@@ -7,7 +7,7 @@ old-location: buses\winusb_resetpipe.htm
 old-project: usbref
 ms.assetid: 0fd30723-8cb9-4e29-942b-abe48c691d8e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/3/2018
 ms.keywords: WinUsb_ResetPipe, WinUsb_ResetPipe function [Buses], buses.winusb_resetpipe, winusb/WinUsb_ResetPipe, winusbfunc_6d4baf88-4b6f-46fb-802b-67ac51ddaf8d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

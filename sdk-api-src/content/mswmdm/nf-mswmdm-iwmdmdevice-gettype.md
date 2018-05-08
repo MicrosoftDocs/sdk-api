@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetType
-title: IWMDMDevice::GetType method
+title: IWMDMDevice::GetType
 author: windows-driver-content
 description: The GetType method retrieves the operations supported by the device.
 old-location: wmdm\iwmdmdevice_gettype.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: b240d6ac-99bd-4cc2-92d8-e9c7c5834bd7
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetType method [windows Media Device Manager], GetType method [windows Media Device Manager], IWMDMDevice interface, GetType,IWMDMDevice.GetType, IWMDMDevice, IWMDMDevice interface [windows Media Device Manager], GetType method, IWMDMDevice::GetType, IWMDMDeviceGetType, mswmdm/IWMDMDevice::GetType, wmdm.iwmdmdevice_gettype
+ms.keywords: GetType, GetType method [windows Media Device Manager], GetType method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetType method, IWMDMDevice.GetType, IWMDMDevice::GetType, IWMDMDeviceGetType, mswmdm/IWMDMDevice::GetType, wmdm.iwmdmdevice_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMDevice::GetType method
+# IWMDMDevice::GetType
 
 
 ## -description

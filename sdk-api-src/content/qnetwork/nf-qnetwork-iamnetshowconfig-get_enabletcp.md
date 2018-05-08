@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableTCP
-title: IAMNetShowConfig::get_EnableTCP method
+title: IAMNetShowConfig::get_EnableTCP
 author: windows-driver-content
 description: The get_EnableTCP method queries whether TCP-based streaming is enabled.
 old-location: dshow\iamnetshowconfig_get_enabletcp.htm
 old-project: DirectShow
 ms.assetid: b4282f84-e05b-407f-9425-0690783957c4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], get_EnableTCP method, IAMNetShowConfig::get_EnableTCP, IAMNetShowConfigget_EnableTCP, dshow.iamnetshowconfig_get_enabletcp, get_EnableTCP method [DirectShow], get_EnableTCP method [DirectShow], IAMNetShowConfig interface, get_EnableTCP,IAMNetShowConfig.get_EnableTCP, qnetwork/IAMNetShowConfig::get_EnableTCP
+ms.date: 4/30/2018
+ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableTCP method, IAMNetShowConfig.get_EnableTCP, IAMNetShowConfig::get_EnableTCP, IAMNetShowConfigget_EnableTCP, dshow.iamnetshowconfig_get_enabletcp, get_EnableTCP, get_EnableTCP method [DirectShow], get_EnableTCP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableTCP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetShowConfig::get_EnableTCP method
+# IAMNetShowConfig::get_EnableTCP
 
 
 ## -description

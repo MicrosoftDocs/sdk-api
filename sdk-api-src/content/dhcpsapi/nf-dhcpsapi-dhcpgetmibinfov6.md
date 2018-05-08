@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetmibinfov6.htm
 old-project: DHCP
 ms.assetid: fcc61321-2edd-4ea8-bcd7-7237fbc90b74
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpGetMibInfoV6, DhcpGetMibInfoV6 function [DHCP], dhcp.dhcpgetmibinfov6, dhcpsapi/DhcpGetMibInfoV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

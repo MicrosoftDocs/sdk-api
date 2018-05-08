@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumExportedTypes
-title: IMetaDataAssemblyImport::EnumExportedTypes method
+title: IMetaDataAssemblyImport::EnumExportedTypes
 author: windows-driver-content
 description: Enumerates the exported types referenced in the assembly manifest in the current metadata scope.
 old-location: winrt\imetadataassemblyimport_enumexportedtypes.htm
 old-project: WinRT
 ms.assetid: 8274d8e3-bcfb-4560-b925-2fede03be4cd
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumExportedTypes method [Windows Runtime], EnumExportedTypes method [Windows Runtime], IMetaDataAssemblyImport interface, EnumExportedTypes,IMetaDataAssemblyImport.EnumExportedTypes, IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], EnumExportedTypes method, IMetaDataAssemblyImport::EnumExportedTypes, rometadataapi/IMetaDataAssemblyImport::EnumExportedTypes, winrt.imetadataassemblyimport_enumexportedtypes
+ms.date: 5/4/2018
+ms.keywords: EnumExportedTypes, EnumExportedTypes method [Windows Runtime], EnumExportedTypes method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumExportedTypes method, IMetaDataAssemblyImport.EnumExportedTypes, IMetaDataAssemblyImport::EnumExportedTypes, rometadataapi/IMetaDataAssemblyImport::EnumExportedTypes, winrt.imetadataassemblyimport_enumexportedtypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataAssemblyImport::EnumExportedTypes method
+# IMetaDataAssemblyImport::EnumExportedTypes
 
 
 ## -description

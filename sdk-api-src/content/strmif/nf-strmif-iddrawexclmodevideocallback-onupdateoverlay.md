@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideoCallback.OnUpdateOverlay
-title: IDDrawExclModeVideoCallback::OnUpdateOverlay method
+title: IDDrawExclModeVideoCallback::OnUpdateOverlay
 author: windows-driver-content
 description: The OnUpdateOverlay method informs the application when the overlay surface for the video is about to become visible, invisible, change size, or change position, so that the application can repaint its window appropriately.
 old-location: dshow\iddrawexclmodevideocallback_onupdateoverlay.htm
 old-project: DirectShow
 ms.assetid: ede823ba-8340-4339-8e8a-e1d4f9ad1273
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDDrawExclModeVideoCallback, IDDrawExclModeVideoCallback interface [DirectShow], OnUpdateOverlay method, IDDrawExclModeVideoCallback::OnUpdateOverlay, IDDrawExclModeVideoCallbackOnUpdateOverlay, OnUpdateOverlay method [DirectShow], OnUpdateOverlay method [DirectShow], IDDrawExclModeVideoCallback interface, OnUpdateOverlay,IDDrawExclModeVideoCallback.OnUpdateOverlay, dshow.iddrawexclmodevideocallback_onupdateoverlay, strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay
+ms.date: 4/30/2018
+ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateOverlay method, IDDrawExclModeVideoCallback.OnUpdateOverlay, IDDrawExclModeVideoCallback::OnUpdateOverlay, IDDrawExclModeVideoCallbackOnUpdateOverlay, OnUpdateOverlay, OnUpdateOverlay method [DirectShow], OnUpdateOverlay method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdateoverlay, strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDDrawExclModeVideoCallback::OnUpdateOverlay method
+# IDDrawExclModeVideoCallback::OnUpdateOverlay
 
 
 ## -description

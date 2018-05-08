@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetBaseClass
-title: ID3D12ShaderReflectionType::GetBaseClass method
+title: ID3D12ShaderReflectionType::GetBaseClass
 author: windows-driver-content
 description: Gets an ID3D12ShaderReflectionType Interface interface containing the variable base class type.
 old-location: direct3d12\id3d12shaderreflectiontype_getbaseclass.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 87EC1297-0951-4BE5-8CAC-BA71FB6237C0
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetBaseClass method, GetBaseClass method, ID3D12ShaderReflectionType interface, GetBaseClass,ID3D12ShaderReflectionType.GetBaseClass, ID3D12ShaderReflectionType, ID3D12ShaderReflectionType interface, GetBaseClass method, ID3D12ShaderReflectionType::GetBaseClass, d3d12shader/ID3D12ShaderReflectionType::GetBaseClass, direct3d12.id3d12shaderreflectiontype_getbaseclass
+ms.keywords: GetBaseClass, GetBaseClass method, GetBaseClass method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetBaseClass method, ID3D12ShaderReflectionType.GetBaseClass, ID3D12ShaderReflectionType::GetBaseClass, d3d12shader/ID3D12ShaderReflectionType::GetBaseClass, direct3d12.id3d12shaderreflectiontype_getbaseclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflectionType::GetBaseClass method
+# ID3D12ShaderReflectionType::GetBaseClass
 
 
 ## -description

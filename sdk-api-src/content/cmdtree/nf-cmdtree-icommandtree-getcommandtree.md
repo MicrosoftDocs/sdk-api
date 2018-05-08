@@ -1,6 +1,6 @@
 ---
 UID: NF:cmdtree.ICommandTree.GetCommandTree
-title: ICommandTree::GetCommandTree method
+title: ICommandTree::GetCommandTree
 author: windows-driver-content
 description: The ICommandTree::GetCommandTree method echoes the current command as a tree, including all post-processing operations that have been added.
 old-location: indexsrv\icommandtree_getcommandtree.htm
@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2811.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetCommandTree method [Indexing Service], GetCommandTree method [Indexing Service], ICommandTree interface, GetCommandTree,ICommandTree.GetCommandTree, ICommandTree, ICommandTree interface [Indexing Service], GetCommandTree method, ICommandTree::GetCommandTree, _idxs_ICommandTree_GetCommandTree, cmdtree/ICommandTree::GetCommandTree, indexsrv.icommandtree_getcommandtree
+ms.keywords: GetCommandTree, GetCommandTree method [Indexing Service], GetCommandTree method [Indexing Service],ICommandTree interface, ICommandTree interface [Indexing Service],GetCommandTree method, ICommandTree.GetCommandTree, ICommandTree::GetCommandTree, _idxs_ICommandTree_GetCommandTree, cmdtree/ICommandTree::GetCommandTree, indexsrv.icommandtree_getcommandtree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICommandTree::GetCommandTree method
+# ICommandTree::GetCommandTree
 
 
 ## -description

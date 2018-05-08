@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.IAGetIndexBuffer
-title: ID3D10Device::IAGetIndexBuffer method
+title: ID3D10Device::IAGetIndexBuffer
 author: windows-driver-content
 description: Get a pointer to the index buffer that is bound to the input-assembler stage.
 old-location: direct3d10\id3d10device_iagetindexbuffer.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iagetindexbuffer.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IAGetIndexBuffer method [Direct3D 10], IAGetIndexBuffer method [Direct3D 10], ID3D10Device interface, IAGetIndexBuffer,ID3D10Device.IAGetIndexBuffer, ID3D10Device, ID3D10Device interface [Direct3D 10], IAGetIndexBuffer method, ID3D10Device::IAGetIndexBuffer, d3d10/ID3D10Device::IAGetIndexBuffer, direct3d10.id3d10device_iagetindexbuffer, ed98b873-1411-e17d-aa80-9545533db76a
+ms.keywords: IAGetIndexBuffer, IAGetIndexBuffer method [Direct3D 10], IAGetIndexBuffer method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IAGetIndexBuffer method, ID3D10Device.IAGetIndexBuffer, ID3D10Device::IAGetIndexBuffer, d3d10/ID3D10Device::IAGetIndexBuffer, direct3d10.id3d10device_iagetindexbuffer, ed98b873-1411-e17d-aa80-9545533db76a
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::IAGetIndexBuffer method
+# ID3D10Device::IAGetIndexBuffer
 
 
 ## -description

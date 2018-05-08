@@ -7,7 +7,7 @@ old-location: hid\diobjectcalibration.htm
 old-project: hid
 ms.assetid: d1e6a9ee-c7eb-42d1-9f91-185dcccc3109
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPDIOBJECTCALIBRATION, DIOBJECTCALIBRATION, DIOBJECTCALIBRATION structure [Human Input Devices], di_ref_232167f0-8ec2-4ec7-91aa-169ab5ae5921.xml, dinputd/DIOBJECTCALIBRATION, hid.diobjectcalibration"
 ms.prod: windows-hardware
 ms.technology: windows-devices

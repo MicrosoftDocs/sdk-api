@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.SetInputProps
-title: IWMWriter::SetInputProps method
+title: IWMWriter::SetInputProps
 author: windows-driver-content
 description: The SetInputProps method specifies the media properties of an input stream.
 old-location: wmformat\iwmwriter_setinputprops.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 15084a4d-06e8-4f74-9697-ced794d2cdae
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriter, IWMWriter interface [windows Media Format], SetInputProps method, IWMWriter::SetInputProps, IWMWriterSetInputProps, SetInputProps method [windows Media Format], SetInputProps method [windows Media Format], IWMWriter interface, SetInputProps,IWMWriter.SetInputProps, wmformat.iwmwriter_setinputprops, wmsdkidl/IWMWriter::SetInputProps
+ms.keywords: IWMWriter interface [windows Media Format],SetInputProps method, IWMWriter.SetInputProps, IWMWriter::SetInputProps, IWMWriterSetInputProps, SetInputProps, SetInputProps method [windows Media Format], SetInputProps method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setinputprops, wmsdkidl/IWMWriter::SetInputProps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriter::SetInputProps method
+# IWMWriter::SetInputProps
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCComponentType.put_Flags
-title: IATSCComponentType::put_Flags method
+title: IATSCComponentType::put_Flags
 author: windows-driver-content
 description: The put_Flags method specifies whether an audio component is in AC-3 format.
 old-location: mstv\iatsccomponenttype_put_flags.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e2959a4c-70a8-43a4-8bc5-4bfc965e8085
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IATSCComponentType, IATSCComponentType interface [Microsoft TV Technologies], put_Flags method, IATSCComponentType::put_Flags, IATSCComponentTypeput_Flags, mstv.iatsccomponenttype_put_flags, put_Flags method [Microsoft TV Technologies], put_Flags method [Microsoft TV Technologies], IATSCComponentType interface, put_Flags,IATSCComponentType.put_Flags, tuner/IATSCComponentType::put_Flags
+ms.keywords: IATSCComponentType interface [Microsoft TV Technologies],put_Flags method, IATSCComponentType.put_Flags, IATSCComponentType::put_Flags, IATSCComponentTypeput_Flags, mstv.iatsccomponenttype_put_flags, put_Flags, put_Flags method [Microsoft TV Technologies], put_Flags method [Microsoft TV Technologies],IATSCComponentType interface, tuner/IATSCComponentType::put_Flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IATSCComponentType::put_Flags method
+# IATSCComponentType::put_Flags
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.SetCustomResponseStream
-title: IXMLHTTPRequest2::SetCustomResponseStream method
+title: IXMLHTTPRequest2::SetCustomResponseStream
 author: windows-driver-content
 description: Provides a custom stream to replace the standard stream for receiving an HTTP response.
 old-location: ixhr2\ixmlhttprequest2_setcustomresponsestream.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: 64341C82-85EC-402F-A875-85706DFD7B25
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest2, IXMLHTTPRequest2 interface [XMLHttpRequest2], SetCustomResponseStream method, IXMLHTTPRequest2::SetCustomResponseStream, SetCustomResponseStream method [XMLHttpRequest2], SetCustomResponseStream method [XMLHttpRequest2], IXMLHTTPRequest2 interface, SetCustomResponseStream,IXMLHTTPRequest2.SetCustomResponseStream, ixhr2.ixmlhttprequest2_setcustomresponsestream, msxml6/IXMLHTTPRequest2::SetCustomResponseStream
+ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetCustomResponseStream method, IXMLHTTPRequest2.SetCustomResponseStream, IXMLHTTPRequest2::SetCustomResponseStream, SetCustomResponseStream, SetCustomResponseStream method [XMLHttpRequest2], SetCustomResponseStream method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_setcustomresponsestream, msxml6/IXMLHTTPRequest2::SetCustomResponseStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest2::SetCustomResponseStream method
+# IXMLHTTPRequest2::SetCustomResponseStream
 
 
 ## -description

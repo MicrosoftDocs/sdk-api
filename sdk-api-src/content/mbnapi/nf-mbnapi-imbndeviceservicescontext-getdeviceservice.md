@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesContext.GetDeviceService
-title: IMbnDeviceServicesContext::GetDeviceService method
+title: IMbnDeviceServicesContext::GetDeviceService
 author: windows-driver-content
 description: Gets the IMbnDeviceService object that can be used for communicating with a device service on the Mobile Broadband device.
 old-location: mbn\imbndeviceservicescontext_getdeviceservice.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 293E9BE5-AD7D-41B7-9A27-E964EE745183
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetDeviceService method [Microsoft Broadband Networks], GetDeviceService method [Microsoft Broadband Networks], IMbnDeviceServicesContext interface, GetDeviceService,IMbnDeviceServicesContext.GetDeviceService, IMbnDeviceServicesContext, IMbnDeviceServicesContext interface [Microsoft Broadband Networks], GetDeviceService method, IMbnDeviceServicesContext::GetDeviceService, mbn.imbndeviceservicescontext_getdeviceservice, mbnapi/IMbnDeviceServicesContext::GetDeviceService
+ms.keywords: GetDeviceService, GetDeviceService method [Microsoft Broadband Networks], GetDeviceService method [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, IMbnDeviceServicesContext interface [Microsoft Broadband Networks],GetDeviceService method, IMbnDeviceServicesContext.GetDeviceService, IMbnDeviceServicesContext::GetDeviceService, mbn.imbndeviceservicescontext_getdeviceservice, mbnapi/IMbnDeviceServicesContext::GetDeviceService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceServicesContext::GetDeviceService method
+# IMbnDeviceServicesContext::GetDeviceService
 
 
 ## -description

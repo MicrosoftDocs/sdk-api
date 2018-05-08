@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.Initialize
-title: IConditionGenerator::Initialize method
+title: IConditionGenerator::Initialize
 author: windows-driver-content
 description: Resets all states of the interface to default values and retrieves any necessary information from the schema.
 old-location: search\_search_IConditionGenerator_Initialize.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\initialize.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IConditionGenerator, IConditionGenerator interface [search], Initialize method, IConditionGenerator::Initialize, Initialize method [search], Initialize method [search], IConditionGenerator interface, Initialize,IConditionGenerator.Initialize, _search_IConditionGenerator_Initialize, search._search_IConditionGenerator_Initialize, structuredquery/IConditionGenerator::Initialize
+ms.date: 5/4/2018
+ms.keywords: IConditionGenerator interface [search],Initialize method, IConditionGenerator.Initialize, IConditionGenerator::Initialize, Initialize, Initialize method [search], Initialize method [search],IConditionGenerator interface, _search_IConditionGenerator_Initialize, search._search_IConditionGenerator_Initialize, structuredquery/IConditionGenerator::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IConditionGenerator::Initialize method
+# IConditionGenerator::Initialize
 
 
 ## -description

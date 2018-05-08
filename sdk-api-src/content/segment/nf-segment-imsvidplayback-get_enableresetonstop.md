@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_EnableResetOnStop
-title: IMSVidPlayback::get_EnableResetOnStop method
+title: IMSVidPlayback::get_EnableResetOnStop
 author: windows-driver-content
 description: The get_EnableResetOnStop method indicates how playback will resume if the graph is rebuilt.
 old-location: mstv\imsvidplayback_get_enableresetonstop.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0ea9ad29-9903-41ac-9be8-acb41cec10d1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidPlayback, IMSVidPlayback interface [Microsoft TV Technologies], get_EnableResetOnStop method, IMSVidPlayback::get_EnableResetOnStop, IMSVidPlaybackget_EnableResetOnStop, get_EnableResetOnStop method [Microsoft TV Technologies], get_EnableResetOnStop method [Microsoft TV Technologies], IMSVidPlayback interface, get_EnableResetOnStop,IMSVidPlayback.get_EnableResetOnStop, mstv.imsvidplayback_get_enableresetonstop, segment/IMSVidPlayback::get_EnableResetOnStop
+ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_EnableResetOnStop method, IMSVidPlayback.get_EnableResetOnStop, IMSVidPlayback::get_EnableResetOnStop, IMSVidPlaybackget_EnableResetOnStop, get_EnableResetOnStop, get_EnableResetOnStop method [Microsoft TV Technologies], get_EnableResetOnStop method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_enableresetonstop, segment/IMSVidPlayback::get_EnableResetOnStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidPlayback::get_EnableResetOnStop method
+# IMSVidPlayback::get_EnableResetOnStop
 
 
 ## -description

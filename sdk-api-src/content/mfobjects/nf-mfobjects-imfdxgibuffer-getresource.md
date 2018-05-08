@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFDXGIBuffer.GetResource
-title: IMFDXGIBuffer::GetResource method
+title: IMFDXGIBuffer::GetResource
 author: windows-driver-content
 description: Queries the Microsoft DirectX Graphics Infrastructure (DXGI) surface for an interface.
 old-location: mf\imfdxgibuffer_getresource.htm
 old-project: medfound
 ms.assetid: E8FF3346-D60A-4FF9-AF3E-673397EA6E6A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetResource method [Media Foundation], GetResource method [Media Foundation], IMFDXGIBuffer interface, GetResource,IMFDXGIBuffer.GetResource, IMFDXGIBuffer, IMFDXGIBuffer interface [Media Foundation], GetResource method, IMFDXGIBuffer::GetResource, mf.imfdxgibuffer_getresource, mfobjects/IMFDXGIBuffer::GetResource
+ms.date: 5/3/2018
+ms.keywords: GetResource, GetResource method [Media Foundation], GetResource method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetResource method, IMFDXGIBuffer.GetResource, IMFDXGIBuffer::GetResource, mf.imfdxgibuffer_getresource, mfobjects/IMFDXGIBuffer::GetResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFDXGIBuffer::GetResource method
+# IMFDXGIBuffer::GetResource
 
 
 ## -description

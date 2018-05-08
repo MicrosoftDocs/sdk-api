@@ -7,8 +7,8 @@ old-location: mf\imfsinkwriterex.htm
 old-project: medfound
 ms.assetid: 77E6CB22-E3B5-4D5E-8876-48582F75AA5C
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSinkWriterEx, IMFSinkWriterEx interface [Media Foundation], IMFSinkWriterEx interface [Media Foundation], described, mf.imfsinkwriterex, mfreadwrite/IMFSinkWriterEx
+ms.date: 5/3/2018
+ms.keywords: IMFSinkWriterEx, IMFSinkWriterEx interface [Media Foundation], IMFSinkWriterEx interface [Media Foundation],described, mf.imfsinkwriterex, mfreadwrite/IMFSinkWriterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

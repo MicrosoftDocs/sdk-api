@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITPropList.SaveHeader
-title: IITPropList::SaveHeader method
+title: IITPropList::SaveHeader
 author: windows-driver-content
 description: Saves the property ID and data type from the property list to a buffer. Only saves properties marked with a persistence state of TRUE.
 old-location: htmlhelp\iitproplist_saveheader.htm
@@ -8,7 +8,7 @@ old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsaveheader.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IITPropList, IITPropList interface [HTML Help Workshop], SaveHeader method, IITPropList::SaveHeader, SaveHeader method [HTML Help Workshop], SaveHeader method [HTML Help Workshop], IITPropList interface, SaveHeader,IITPropList.SaveHeader, htmlhelp.iitproplist_saveheader, infotech/IITPropList::SaveHeader, refIITPropListSaveHeader
+ms.keywords: IITPropList interface [HTML Help Workshop],SaveHeader method, IITPropList.SaveHeader, IITPropList::SaveHeader, SaveHeader, SaveHeader method [HTML Help Workshop], SaveHeader method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_saveheader, infotech/IITPropList::SaveHeader, refIITPropListSaveHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IITPropList::SaveHeader method
+# IITPropList::SaveHeader
 
 
 ## -description

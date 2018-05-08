@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_Services.GetRecordByIndex
-title: IPBDA_Services::GetRecordByIndex method
+title: IPBDA_Services::GetRecordByIndex
 author: windows-driver-content
 description: Gets a service record at a given position from a Program and System Information Protocol (PSIP) table in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_services_getrecordbyindex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1f9a71a4-3cfd-4a08-929f-e17d506a021b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordByIndex method [Microsoft TV Technologies], GetRecordByIndex method [Microsoft TV Technologies], IPBDA_Services interface, GetRecordByIndex,IPBDA_Services.GetRecordByIndex, IPBDA_Services, IPBDA_Services interface [Microsoft TV Technologies], GetRecordByIndex method, IPBDA_Services::GetRecordByIndex, dvbsiparser/IPBDA_Services::GetRecordByIndex, mstv.ipbda_services_getrecordbyindex
+ms.keywords: GetRecordByIndex, GetRecordByIndex method [Microsoft TV Technologies], GetRecordByIndex method [Microsoft TV Technologies],IPBDA_Services interface, IPBDA_Services interface [Microsoft TV Technologies],GetRecordByIndex method, IPBDA_Services.GetRecordByIndex, IPBDA_Services::GetRecordByIndex, dvbsiparser/IPBDA_Services::GetRecordByIndex, mstv.ipbda_services_getrecordbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IPBDA_Services::GetRecordByIndex method
+# IPBDA_Services::GetRecordByIndex
 
 
 ## -description

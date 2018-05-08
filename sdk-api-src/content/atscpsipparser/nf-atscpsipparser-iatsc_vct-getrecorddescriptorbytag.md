@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordDescriptorByTag
-title: IATSC_VCT::GetRecordDescriptorByTag method
+title: IATSC_VCT::GetRecordDescriptorByTag
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecorddescriptorbytag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b8c975fe-6bf9-443d-b069-cb8e5e01affc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordDescriptorByTag,IATSC_VCT.GetRecordDescriptorByTag, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordDescriptorByTag method, IATSC_VCT::GetRecordDescriptorByTag, IATSC_VCTGetRecordDescriptorByTag, atscpsipparser/IATSC_VCT::GetRecordDescriptorByTag, mstv.iatsc_vct_getrecorddescriptorbytag
+ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IATSC_VCT.GetRecordDescriptorByTag, IATSC_VCT::GetRecordDescriptorByTag, IATSC_VCTGetRecordDescriptorByTag, atscpsipparser/IATSC_VCT::GetRecordDescriptorByTag, mstv.iatsc_vct_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_VCT::GetRecordDescriptorByTag method
+# IATSC_VCT::GetRecordDescriptorByTag
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.AddPid
-title: IBDA_FDC::AddPid method
+title: IBDA_FDC::AddPid
 author: windows-driver-content
 description: Adds one or more packet identifiers (PIDs) to the MPEG flow.
 old-location: mstv\ibda_fdc_addpid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 28bc019c-1b5e-43e2-9fb4-7274d9c0e275
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AddPid method [Microsoft TV Technologies], AddPid method [Microsoft TV Technologies], IBDA_FDC interface, AddPid,IBDA_FDC.AddPid, IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], AddPid method, IBDA_FDC::AddPid, bdaiface/IBDA_FDC::AddPid, mstv.ibda_fdc_addpid
+ms.keywords: AddPid, AddPid method [Microsoft TV Technologies], AddPid method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],AddPid method, IBDA_FDC.AddPid, IBDA_FDC::AddPid, bdaiface/IBDA_FDC::AddPid, mstv.ibda_fdc_addpid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_FDC::AddPid method
+# IBDA_FDC::AddPid
 
 
 ## -description

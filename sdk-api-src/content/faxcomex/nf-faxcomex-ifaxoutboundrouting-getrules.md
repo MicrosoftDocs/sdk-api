@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRouting.GetRules
-title: IFaxOutboundRouting::GetRules method
+title: IFaxOutboundRouting::GetRules
 author: windows-driver-content
 description: The IFaxOutboundRouting::GetRules method retrieves an interface that represents a collection of outbound routing groups.
 old-location: fax\_mfax_faxoutboundrouting_getrules_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2v1v_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: GetRules method [Fax Service], GetRules method [Fax Service], IFaxOutboundRouting interface, GetRules,IFaxOutboundRouting.GetRules, IFaxOutboundRouting, IFaxOutboundRouting interface [Fax Service], GetRules method, IFaxOutboundRouting::GetRules, _mfax_faxoutboundrouting.getrules_cpp, fax._mfax_faxoutboundrouting_getrules_cpp, faxcomex/IFaxOutboundRouting::GetRules
+ms.keywords: GetRules, GetRules method [Fax Service], GetRules method [Fax Service],IFaxOutboundRouting interface, IFaxOutboundRouting interface [Fax Service],GetRules method, IFaxOutboundRouting.GetRules, IFaxOutboundRouting::GetRules, _mfax_faxoutboundrouting.getrules_cpp, fax._mfax_faxoutboundrouting_getrules_cpp, faxcomex/IFaxOutboundRouting::GetRules
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutboundRouting::GetRules method
+# IFaxOutboundRouting::GetRules
 
 
 ## -description

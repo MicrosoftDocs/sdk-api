@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextChildProvider.get_TextContainer
-title: ITextChildProvider::get_TextContainer method
+title: ITextChildProvider::get_TextContainer
 author: windows-driver-content
 description: Retrieves this element's nearest ancestor provider that supports the Text control pattern.
 old-location: winauto\uiauto_ITextChildProvider_TextContainer.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: E355AFA9-40D8-4F37-9E3D-9A3923B1F6E5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITextChildProvider, ITextChildProvider interface [Windows Accessibility], TextContainer property, ITextChildProvider.TextContainer, ITextChildProvider::get_TextContainer, TextContainer property [Windows Accessibility], TextContainer property [Windows Accessibility], ITextChildProvider interface, get_TextContainer,ITextChildProvider.get_TextContainer, uiautomationcore/ITextChildProvider::TextContainer, uiautomationcore/ITextChildProvider::get_TextContainer, winauto.uiauto_ITextChildProvider_TextContainer
+ms.keywords: ITextChildProvider interface [Windows Accessibility],TextContainer property, ITextChildProvider.TextContainer, ITextChildProvider.get_TextContainer, ITextChildProvider::TextContainer, ITextChildProvider::get_TextContainer, TextContainer property [Windows Accessibility], TextContainer property [Windows Accessibility],ITextChildProvider interface, get_TextContainer, uiautomationcore/ITextChildProvider::TextContainer, uiautomationcore/ITextChildProvider::get_TextContainer, winauto.uiauto_ITextChildProvider_TextContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextChildProvider::get_TextContainer method
+# ITextChildProvider::get_TextContainer
 
 
 ## -description

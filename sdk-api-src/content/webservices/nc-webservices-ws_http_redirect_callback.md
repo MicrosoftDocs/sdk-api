@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 14bd68f9-1b0d-4667-823a-afb159d7dc80
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WS_HTTP_REDIRECT_CALLBACK, WS_HTTP_REDIRECT_CALLBACK callback function [Web Services for Windows], webservices/WS_HTTP_REDIRECT_CALLBACK, wsw.ws_http_redirect_callback
+ms.keywords: WS_HTTP_REDIRECT_CALLBACK, WS_HTTP_REDIRECT_CALLBACK callback, WS_HTTP_REDIRECT_CALLBACK callback function [Web Services for Windows], webservices/WS_HTTP_REDIRECT_CALLBACK, wsw.ws_http_redirect_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WS_HTTP_REDIRECT_CALLBACK callback
+# WS_HTTP_REDIRECT_CALLBACK callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFStreamSink.GetMediaSink
-title: IMFStreamSink::GetMediaSink method
+title: IMFStreamSink::GetMediaSink
 author: windows-driver-content
 description: Retrieves the media sink that owns this stream sink.
 old-location: mf\imfstreamsink_getmediasink.htm
 old-project: medfound
 ms.assetid: 799fb0ce-6a43-49c2-97cf-49c51d8f69cd
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 799fb0ce-6a43-49c2-97cf-49c51d8f69cd, GetMediaSink method [Media Foundation], GetMediaSink method [Media Foundation], IMFStreamSink interface, GetMediaSink,IMFStreamSink.GetMediaSink, IMFStreamSink, IMFStreamSink interface [Media Foundation], GetMediaSink method, IMFStreamSink::GetMediaSink, mf.imfstreamsink_getmediasink, mfidl/IMFStreamSink::GetMediaSink
+ms.date: 5/3/2018
+ms.keywords: 799fb0ce-6a43-49c2-97cf-49c51d8f69cd, GetMediaSink, GetMediaSink method [Media Foundation], GetMediaSink method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],GetMediaSink method, IMFStreamSink.GetMediaSink, IMFStreamSink::GetMediaSink, mf.imfstreamsink_getmediasink, mfidl/IMFStreamSink::GetMediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFStreamSink::GetMediaSink method
+# IMFStreamSink::GetMediaSink
 
 
 ## -description

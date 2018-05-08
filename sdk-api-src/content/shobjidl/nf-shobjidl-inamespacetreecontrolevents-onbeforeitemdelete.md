@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnBeforeItemDelete
-title: INameSpaceTreeControlEvents::OnBeforeItemDelete method
+title: INameSpaceTreeControlEvents::OnBeforeItemDelete
 author: windows-driver-content
 description: Called before an IShellItem and all of its children are deleted.
 old-location: shell\INameSpaceTreeControlEvents_OnBeforeItemDelete.htm
 old-project: shell
 ms.assetid: 6d602c9d-7305-41d3-b757-3e9e125c6cbd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], OnBeforeItemDelete method, INameSpaceTreeControlEvents::OnBeforeItemDelete, OnBeforeItemDelete method [Windows Shell], OnBeforeItemDelete method [Windows Shell], INameSpaceTreeControlEvents interface, OnBeforeItemDelete,INameSpaceTreeControlEvents.OnBeforeItemDelete, _shell_INameSpaceTreeControlEvents_OnBeforeItemDelete, shell.INameSpaceTreeControlEvents_OnBeforeItemDelete, shobjidl/INameSpaceTreeControlEvents::OnBeforeItemDelete
+ms.date: 5/3/2018
+ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnBeforeItemDelete method, INameSpaceTreeControlEvents.OnBeforeItemDelete, INameSpaceTreeControlEvents::OnBeforeItemDelete, OnBeforeItemDelete, OnBeforeItemDelete method [Windows Shell], OnBeforeItemDelete method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnBeforeItemDelete, shell.INameSpaceTreeControlEvents_OnBeforeItemDelete, shobjidl/INameSpaceTreeControlEvents::OnBeforeItemDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeControlEvents::OnBeforeItemDelete method
+# INameSpaceTreeControlEvents::OnBeforeItemDelete
 
 
 ## -description

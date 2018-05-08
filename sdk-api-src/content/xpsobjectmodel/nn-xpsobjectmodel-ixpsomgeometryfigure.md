@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e76a14ce-cfc3-4a50-855e-f5779b9fc261
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], IXpsOMGeometryFigure interface [XPS Documents and Packaging], described, xps.ixpsomgeometryfigure, xpsobjectmodel/IXpsOMGeometryFigure
+ms.keywords: IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], IXpsOMGeometryFigure interface [XPS Documents and Packaging],described, xps.ixpsomgeometryfigure, xpsobjectmodel/IXpsOMGeometryFigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

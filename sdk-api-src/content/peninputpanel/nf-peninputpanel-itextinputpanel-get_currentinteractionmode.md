@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentInteractionMode
-title: ITextInputPanel::get_CurrentInteractionMode method
+title: ITextInputPanel::get_CurrentInteractionMode
 author: windows-driver-content
 description: Gets the positioning of the Tablet PC Input Panel as specified by the InteractionMode Enumeration.
 old-location: tablet\itextinputpanel_currentinteractionmode.htm
 old-project: tablet
 ms.assetid: dd28dad3-4b04-4597-9627-8fd27c75a207
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CurrentInteractionMode property [Tablet PC], CurrentInteractionMode property [Tablet PC], ITextInputPanel interface, ITextInputPanel, ITextInputPanel interface [Tablet PC], CurrentInteractionMode property, ITextInputPanel.CurrentInteractionMode, ITextInputPanel.get_CurrentInteractionMode, ITextInputPanel::get_CurrentInteractionMode, dd28dad3-4b04-4597-9627-8fd27c75a207, get_CurrentInteractionMode,ITextInputPanel.get_CurrentInteractionMode, peninputpanel/ITextInputPanel::CurrentInteractionMode, peninputpanel/ITextInputPanel::get_CurrentInteractionMode, tablet.itextinputpanel_currentinteractionmode
+ms.date: 5/2/2018
+ms.keywords: CurrentInteractionMode property [Tablet PC], CurrentInteractionMode property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentInteractionMode property, ITextInputPanel.CurrentInteractionMode, ITextInputPanel.get_CurrentInteractionMode, ITextInputPanel::CurrentInteractionMode, ITextInputPanel::get_CurrentInteractionMode, dd28dad3-4b04-4597-9627-8fd27c75a207, get_CurrentInteractionMode, peninputpanel/ITextInputPanel::CurrentInteractionMode, peninputpanel/ITextInputPanel::get_CurrentInteractionMode, tablet.itextinputpanel_currentinteractionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanel::get_CurrentInteractionMode method
+# ITextInputPanel::get_CurrentInteractionMode
 
 
 ## -description

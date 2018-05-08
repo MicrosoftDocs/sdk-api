@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetVideoWindow
-title: IMFPMediaPlayer::GetVideoWindow method
+title: IMFPMediaPlayer::GetVideoWindow
 author: windows-driver-content
 description: Gets the window where the video is displayed.
 old-location: mf\imfpmediaplayer_getvideowindow.htm
 old-project: medfound
 ms.assetid: 313e3a87-3dad-4cfb-ad37-1018cb03a707
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoWindow method [Media Foundation], GetVideoWindow method [Media Foundation], IMFPMediaPlayer interface, GetVideoWindow,IMFPMediaPlayer.GetVideoWindow, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetVideoWindow method, IMFPMediaPlayer::GetVideoWindow, mf.imfpmediaplayer_getvideowindow, mfplay/IMFPMediaPlayer::GetVideoWindow
+ms.date: 5/3/2018
+ms.keywords: GetVideoWindow, GetVideoWindow method [Media Foundation], GetVideoWindow method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVideoWindow method, IMFPMediaPlayer.GetVideoWindow, IMFPMediaPlayer::GetVideoWindow, mf.imfpmediaplayer_getvideowindow, mfplay/IMFPMediaPlayer::GetVideoWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::GetVideoWindow method
+# IMFPMediaPlayer::GetVideoWindow
 
 
 ## -description

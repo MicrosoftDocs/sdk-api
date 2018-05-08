@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: be392a13-3165-44ff-bcd6-ed0075c669c4
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: "_IManipulationEvents, _IManipulationEvents interface [Windows Touch], _IManipulationEvents interface [Windows Touch], described, manipulations/_IManipulationEvents, wintouch._imanipulationevents"
+ms.keywords: "_IManipulationEvents, _IManipulationEvents interface [Windows Touch], _IManipulationEvents interface [Windows Touch],described, manipulations/_IManipulationEvents, wintouch._imanipulationevents"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

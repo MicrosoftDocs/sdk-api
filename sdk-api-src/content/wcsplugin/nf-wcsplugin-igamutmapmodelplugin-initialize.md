@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IGamutMapModelPlugIn.Initialize
-title: IGamutMapModelPlugIn::Initialize method
+title: IGamutMapModelPlugIn::Initialize
 author: windows-driver-content
 description: Initializes a gamut map model profile (GMMP) by using the specified source and destination gamut boundary descriptions and optional source and destination device model plug-ins.
 old-location: wcs\IGamutMapModelPlugIn_Initialize.htm
@@ -8,7 +8,7 @@ old-project: WCS
 ms.assetid: 86fb0f6b-d293-44de-ad1d-724436403535
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IGamutMapModelPlugIn, IGamutMapModelPlugIn interface [Windows Color System], Initialize method, IGamutMapModelPlugIn::Initialize, Initialize method [Windows Color System], Initialize method [Windows Color System], IGamutMapModelPlugIn interface, Initialize,IGamutMapModelPlugIn.Initialize, _color_IGamutMapModelPlugIn::Initialize, wcs.IGamutMapModelPlugIn_Initialize, wcsplugin/IGamutMapModelPlugIn::Initialize
+ms.keywords: IGamutMapModelPlugIn interface [Windows Color System],Initialize method, IGamutMapModelPlugIn.Initialize, IGamutMapModelPlugIn::Initialize, Initialize, Initialize method [Windows Color System], Initialize method [Windows Color System],IGamutMapModelPlugIn interface, _color_IGamutMapModelPlugIn::Initialize, wcs.IGamutMapModelPlugIn_Initialize, wcsplugin/IGamutMapModelPlugIn::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IGamutMapModelPlugIn::Initialize method
+# IGamutMapModelPlugIn::Initialize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IClientSecurity.SetBlanket
-title: IClientSecurity::SetBlanket method
+title: IClientSecurity::SetBlanket
 author: windows-driver-content
 description: Sets the authentication information (the security blanket) that will be used to make calls on the specified proxy.
 old-location: com\iclientsecurity_setblanket.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: adb35089-2846-4782-8c96-d3d1e14beed9
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IClientSecurity, IClientSecurity interface [COM], SetBlanket method, IClientSecurity::SetBlanket, SetBlanket method [COM], SetBlanket method [COM], IClientSecurity interface, SetBlanket,IClientSecurity.SetBlanket, _com_iclientsecurity_setblanket, com.iclientsecurity_setblanket, objidlbase/IClientSecurity::SetBlanket
+ms.keywords: IClientSecurity interface [COM],SetBlanket method, IClientSecurity.SetBlanket, IClientSecurity::SetBlanket, SetBlanket, SetBlanket method [COM], SetBlanket method [COM],IClientSecurity interface, _com_iclientsecurity_setblanket, com.iclientsecurity_setblanket, objidlbase/IClientSecurity::SetBlanket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IClientSecurity::SetBlanket method
+# IClientSecurity::SetBlanket
 
 
 ## -description

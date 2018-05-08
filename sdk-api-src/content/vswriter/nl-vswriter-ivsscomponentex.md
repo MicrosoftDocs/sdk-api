@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: b11f65b0-2de2-478b-88b6-4696a8da2419
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssComponentEx, IVssComponentEx interface, IVssComponentEx interface, described, base.ivsscomponentex, vswriter/IVssComponentEx
+ms.keywords: IVssComponentEx, IVssComponentEx interface, IVssComponentEx interface,described, base.ivsscomponentex, vswriter/IVssComponentEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

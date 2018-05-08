@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.get_DirectoryObjects
-title: ITDirectory::get_DirectoryObjects method
+title: ITDirectory::get_DirectoryObjects
 author: windows-driver-content
 description: The get_DirectoryObjects method gets the collection of objects in a given directory that matches certain criteria. This method performs the same function as EnumerateDirectoryObjects but is used by Visual Basic and other scripting languages.
 old-location: tapi3\itdirectory_get_directoryobjects.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: dd768103-4dfc-4be2-accf-38e33959102d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITDirectory, ITDirectory interface [TAPI 2.2], get_DirectoryObjects method, ITDirectory::get_DirectoryObjects, _tapi3_itdirectory_get_directoryobjects, get_DirectoryObjects method [TAPI 2.2], get_DirectoryObjects method [TAPI 2.2], ITDirectory interface, get_DirectoryObjects,ITDirectory.get_DirectoryObjects, rend/ITDirectory::get_DirectoryObjects, tapi3.itdirectory_get_directoryobjects
+ms.keywords: ITDirectory interface [TAPI 2.2],get_DirectoryObjects method, ITDirectory.get_DirectoryObjects, ITDirectory::get_DirectoryObjects, _tapi3_itdirectory_get_directoryobjects, get_DirectoryObjects, get_DirectoryObjects method [TAPI 2.2], get_DirectoryObjects method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DirectoryObjects, tapi3.itdirectory_get_directoryobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectory::get_DirectoryObjects method
+# ITDirectory::get_DirectoryObjects
 
 
 ## -description

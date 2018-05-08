@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.get_MatchesSourceTemplate
-title: IFsrmFileScreen::get_MatchesSourceTemplate method
+title: IFsrmFileScreen::get_MatchesSourceTemplate
 author: windows-driver-content
 description: Retrieves a value that determines whether the property values of this file screen object match those values of the template from which the object was derived.
 old-location: fsrm\ifsrmfilescreen_matchessourcetemplate.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 9ea79d7e-2f81-46c4-8afe-ebe4e2f3c49f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileScreen, IFsrmFileScreen interface [File Server Resource Manager], MatchesSourceTemplate property, IFsrmFileScreen.MatchesSourceTemplate, IFsrmFileScreen::get_MatchesSourceTemplate, MatchesSourceTemplate property [File Server Resource Manager], MatchesSourceTemplate property [File Server Resource Manager], IFsrmFileScreen interface, fs.ifsrmfilescreen_matchessourcetemplate, fsrm.ifsrmfilescreen_matchessourcetemplate, fsrmscreen/IFsrmFileScreen::MatchesSourceTemplate, fsrmscreen/IFsrmFileScreen::get_MatchesSourceTemplate, get_MatchesSourceTemplate,IFsrmFileScreen.get_MatchesSourceTemplate
+ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],MatchesSourceTemplate property, IFsrmFileScreen.MatchesSourceTemplate, IFsrmFileScreen.get_MatchesSourceTemplate, IFsrmFileScreen::MatchesSourceTemplate, IFsrmFileScreen::get_MatchesSourceTemplate, MatchesSourceTemplate property [File Server Resource Manager], MatchesSourceTemplate property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_matchessourcetemplate, fsrm.ifsrmfilescreen_matchessourcetemplate, fsrmscreen/IFsrmFileScreen::MatchesSourceTemplate, fsrmscreen/IFsrmFileScreen::get_MatchesSourceTemplate, get_MatchesSourceTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreen::get_MatchesSourceTemplate method
+# IFsrmFileScreen::get_MatchesSourceTemplate
 
 
 ## -description

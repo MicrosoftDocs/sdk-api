@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetOutline
-title: ITextFont::SetOutline method
+title: ITextFont::SetOutline
 author: windows-driver-content
 description: Sets whether characters are displayed as outlined characters.
 old-location: controls\ITextFont_SetOutline.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setoutline.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetOutline method, ITextFont::SetOutline, SetOutline method [Windows Controls], SetOutline method [Windows Controls], ITextFont interface, SetOutline,ITextFont.SetOutline, _win32_ITextFont_SetOutline, _win32_ITextFont_SetOutline_cpp, controls.ITextFont_SetOutline, controls._win32_ITextFont_SetOutline, tom/ITextFont::SetOutline
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetOutline method, ITextFont.SetOutline, ITextFont::SetOutline, SetOutline, SetOutline method [Windows Controls], SetOutline method [Windows Controls],ITextFont interface, _win32_ITextFont_SetOutline, _win32_ITextFont_SetOutline_cpp, controls.ITextFont_SetOutline, controls._win32_ITextFont_SetOutline, tom/ITextFont::SetOutline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetOutline method
+# ITextFont::SetOutline
 
 
 ## -description

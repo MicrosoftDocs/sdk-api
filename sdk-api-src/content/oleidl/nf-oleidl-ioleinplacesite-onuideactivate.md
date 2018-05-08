@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnUIDeactivate
-title: IOleInPlaceSite::OnUIDeactivate method
+title: IOleInPlaceSite::OnUIDeactivate
 author: windows-driver-content
 description: Notifies the container that it should reinstall its user interface and take focus, and whether the object has an undoable state.
 old-location: com\ioleinplacesite_onuideactivate.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 926c02b4-0bfa-4509-b5bc-4e5007e4db1a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], OnUIDeactivate method, IOleInPlaceSite::OnUIDeactivate, IOleInPlaceSiteWindowless.OnUIDeactivate, OnUIDeactivate method [COM], OnUIDeactivate method [COM], IOleInPlaceSite interface, OnUIDeactivate,IOleInPlaceSite.OnUIDeactivate, _ole_ioleinplacesite_onuideactivate, com.ioleinplacesite_onuideactivate, oleidl/IOleInPlaceSite::OnUIDeactivate
+ms.keywords: IOleInPlaceSite interface [COM],OnUIDeactivate method, IOleInPlaceSite.OnUIDeactivate, IOleInPlaceSite::OnUIDeactivate, IOleInPlaceSiteWindowless.OnUIDeactivate, OnUIDeactivate, OnUIDeactivate method [COM], OnUIDeactivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onuideactivate, com.ioleinplacesite_onuideactivate, oleidl/IOleInPlaceSite::OnUIDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSite::OnUIDeactivate method
+# IOleInPlaceSite::OnUIDeactivate
 
 
 ## -description

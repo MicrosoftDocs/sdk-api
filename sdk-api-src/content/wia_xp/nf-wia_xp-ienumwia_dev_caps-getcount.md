@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_CAPS.GetCount
-title: IEnumWIA_DEV_CAPS::GetCount method
+title: IEnumWIA_DEV_CAPS::GetCount
 author: windows-driver-content
 description: The IEnumWIA_DEV_CAPS::GetCount method returns the number of elements stored by this enumerator.
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_GetCount.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_dev_caps\getcount.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: GetCount method [WIA], GetCount method [WIA], IEnumWIA_DEV_CAPS interface, GetCount,IEnumWIA_DEV_CAPS.GetCount, IEnumWIA_DEV_CAPS, IEnumWIA_DEV_CAPS interface [WIA], GetCount method, IEnumWIA_DEV_CAPS::GetCount, _wia_IEnumWIA_DEV_CAPS_GetCount, wia._wia_IEnumWIA_DEV_CAPS_GetCount, wia_xp/IEnumWIA_DEV_CAPS::GetCount
+ms.date: 5/3/2018
+ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IEnumWIA_DEV_CAPS interface, IEnumWIA_DEV_CAPS interface [WIA],GetCount method, IEnumWIA_DEV_CAPS.GetCount, IEnumWIA_DEV_CAPS::GetCount, _wia_IEnumWIA_DEV_CAPS_GetCount, wia._wia_IEnumWIA_DEV_CAPS_GetCount, wia_xp/IEnumWIA_DEV_CAPS::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IEnumWIA_DEV_CAPS::GetCount method
+# IEnumWIA_DEV_CAPS::GetCount
 
 
 ## -description

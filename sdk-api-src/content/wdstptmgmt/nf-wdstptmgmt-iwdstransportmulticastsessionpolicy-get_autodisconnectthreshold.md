@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportMulticastSessionPolicy.get_AutoDisconnectThreshold
-title: IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold method
+title: IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold
 author: windows-driver-content
 description: Sets or retrieves the threshold transmission rate, in kilobytes per second, used by the server.
 old-location: wds\iwdstransportmulticastsessionpolicy_autodisconnectthreshold.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 90f27b8a-97e3-4453-8348-67754c6ab1b9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AutoDisconnectThreshold property [Windows Deployment Services], AutoDisconnectThreshold property [Windows Deployment Services], IWdsTransportMulticastSessionPolicy interface, IWdsTransportMulticastSessionPolicy, IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services], AutoDisconnectThreshold property, IWdsTransportMulticastSessionPolicy.AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy::put_AutoDisconnectThreshold, get_AutoDisconnectThreshold,IWdsTransportMulticastSessionPolicy.get_AutoDisconnectThreshold, wds.iwdstransportmulticastsessionpolicy_autodisconnectthreshold, wdstptmgmt/IWdsTransportMulticastSessionPolicy::AutoDisconnectThreshold, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_AutoDisconnectThreshold
+ms.keywords: AutoDisconnectThreshold property [Windows Deployment Services], AutoDisconnectThreshold property [Windows Deployment Services],IWdsTransportMulticastSessionPolicy interface, IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],AutoDisconnectThreshold property, IWdsTransportMulticastSessionPolicy.AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy.get_AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy::AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy::put_AutoDisconnectThreshold, get_AutoDisconnectThreshold, wds.iwdstransportmulticastsessionpolicy_autodisconnectthreshold, wdstptmgmt/IWdsTransportMulticastSessionPolicy::AutoDisconnectThreshold, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_AutoDisconnectThreshold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold method
+# IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold
 
 
 ## -description

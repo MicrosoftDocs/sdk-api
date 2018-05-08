@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.Record
-title: IMDSPDeviceControl::Record method
+title: IMDSPDeviceControl::Record
 author: windows-driver-content
 description: The Record method begins recording from the device's external record input at the current seek position. The Seek method must be called first.
 old-location: wmdm\imdspdevicecontrol_record.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 6cd99cfc-1961-4369-9ce9-2cdd0136d181
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], Record method, IMDSPDeviceControl::Record, IMDSPDeviceControlRecord, Record method [windows Media Device Manager], Record method [windows Media Device Manager], IMDSPDeviceControl interface, Record,IMDSPDeviceControl.Record, mswmdm/IMDSPDeviceControl::Record, wmdm.imdspdevicecontrol_record
+ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Record method, IMDSPDeviceControl.Record, IMDSPDeviceControl::Record, IMDSPDeviceControlRecord, Record, Record method [windows Media Device Manager], Record method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Record, wmdm.imdspdevicecontrol_record
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPDeviceControl::Record method
+# IMDSPDeviceControl::Record
 
 
 ## -description

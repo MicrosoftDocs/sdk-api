@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.GetPreservedKey
-title: ITfKeystrokeMgr::GetPreservedKey method
+title: ITfKeystrokeMgr::GetPreservedKey
 author: windows-driver-content
 description: ITfKeystrokeMgr::GetPreservedKey method
 old-location: tsf\itfkeystrokemgr_getpreservedkey.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: d87b3b1c-0e51-4e89-b837-79ed2fe78bbb
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetPreservedKey method [Text Services Framework], GetPreservedKey method [Text Services Framework], ITfKeystrokeMgr interface, GetPreservedKey,ITfKeystrokeMgr.GetPreservedKey, ITfKeystrokeMgr, ITfKeystrokeMgr interface [Text Services Framework], GetPreservedKey method, ITfKeystrokeMgr::GetPreservedKey, _tsf_itfkeystrokemgr_getpreservedkey_ref, msctf/ITfKeystrokeMgr::GetPreservedKey, tsf.itfkeystrokemgr_getpreservedkey
+ms.keywords: GetPreservedKey, GetPreservedKey method [Text Services Framework], GetPreservedKey method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],GetPreservedKey method, ITfKeystrokeMgr.GetPreservedKey, ITfKeystrokeMgr::GetPreservedKey, _tsf_itfkeystrokemgr_getpreservedkey_ref, msctf/ITfKeystrokeMgr::GetPreservedKey, tsf.itfkeystrokemgr_getpreservedkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfKeystrokeMgr::GetPreservedKey method
+# ITfKeystrokeMgr::GetPreservedKey
 
 
 ## -description

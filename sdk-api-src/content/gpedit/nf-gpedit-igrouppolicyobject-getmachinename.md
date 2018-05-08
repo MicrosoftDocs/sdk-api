@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetMachineName
-title: IGroupPolicyObject::GetMachineName method
+title: IGroupPolicyObject::GetMachineName
 author: windows-driver-content
 description: The GetMachineName method retrieves the computer name of the remote GPO. This is the name specified by the OpenRemoteMachineGPO method.
 old-location: policy\igrouppolicyobject_getmachinename.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: 6ac20718-45d4-4a45-a95e-d159e4d6dacc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetMachineName method [Group Policy], GetMachineName method [Group Policy], IGroupPolicyObject interface, GetMachineName,IGroupPolicyObject.GetMachineName, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], GetMachineName method, IGroupPolicyObject::GetMachineName, _win32_igrouppolicyobject_getmachinename, gpedit/IGroupPolicyObject::GetMachineName, policy.igrouppolicyobject_getmachinename
+ms.keywords: GetMachineName, GetMachineName method [Group Policy], GetMachineName method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetMachineName method, IGroupPolicyObject.GetMachineName, IGroupPolicyObject::GetMachineName, _win32_igrouppolicyobject_getmachinename, gpedit/IGroupPolicyObject::GetMachineName, policy.igrouppolicyobject_getmachinename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGroupPolicyObject::GetMachineName method
+# IGroupPolicyObject::GetMachineName
 
 
 ## -description

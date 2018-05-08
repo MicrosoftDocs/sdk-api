@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPNetwork.put_maxBandwidth
-title: IWMPNetwork::put_maxBandwidth method
+title: IWMPNetwork::put_maxBandwidth
 author: windows-driver-content
 description: The put_maxBandwidth method specifies the maximum allowed bandwidth.
 old-location: wmp\iwmpnetwork_put_maxbandwidth.htm
 old-project: WMP
 ms.assetid: 7259a5e2-dbc6-4ac0-946e-e79d542edb06
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], put_maxBandwidth method, IWMPNetwork::put_maxBandwidth, IWMPNetworkput_maxBandwidth, put_maxBandwidth method [Windows Media Player], put_maxBandwidth method [Windows Media Player], IWMPNetwork interface, put_maxBandwidth,IWMPNetwork.put_maxBandwidth, wmp.iwmpnetwork_put_maxbandwidth, wmp/IWMPNetwork::put_maxBandwidth
+ms.date: 5/4/2018
+ms.keywords: IWMPNetwork interface [Windows Media Player],put_maxBandwidth method, IWMPNetwork.put_maxBandwidth, IWMPNetwork::put_maxBandwidth, IWMPNetworkput_maxBandwidth, put_maxBandwidth, put_maxBandwidth method [Windows Media Player], put_maxBandwidth method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_put_maxbandwidth, wmp/IWMPNetwork::put_maxBandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNetwork::put_maxBandwidth method
+# IWMPNetwork::put_maxBandwidth
 
 
 ## -description

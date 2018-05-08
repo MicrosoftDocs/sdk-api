@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.EnableHandler
-title: ISyncMgrControl::EnableHandler method
+title: ISyncMgrControl::EnableHandler
 author: windows-driver-content
 description: Enables or disables a handler.
 old-location: shell\ISyncMgrControl_EnableHandler.htm
 old-project: shell
 ms.assetid: 92a9525c-bf06-4720-a3e2-5352fa693c8e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EnableHandler method [Windows Shell], EnableHandler method [Windows Shell], ISyncMgrControl interface, EnableHandler,ISyncMgrControl.EnableHandler, ISyncMgrControl, ISyncMgrControl interface [Windows Shell], EnableHandler method, ISyncMgrControl::EnableHandler, _shell_ISyncMgrControl_EnableHandler, shell.ISyncMgrControl_EnableHandler, syncmgr/ISyncMgrControl::EnableHandler
+ms.date: 5/3/2018
+ms.keywords: EnableHandler, EnableHandler method [Windows Shell], EnableHandler method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],EnableHandler method, ISyncMgrControl.EnableHandler, ISyncMgrControl::EnableHandler, _shell_ISyncMgrControl_EnableHandler, shell.ISyncMgrControl_EnableHandler, syncmgr/ISyncMgrControl::EnableHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrControl::EnableHandler method
+# ISyncMgrControl::EnableHandler
 
 
 ## -description

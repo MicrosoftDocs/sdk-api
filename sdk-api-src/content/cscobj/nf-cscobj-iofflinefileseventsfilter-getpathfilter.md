@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEventsFilter.GetPathFilter
-title: IOfflineFilesEventsFilter::GetPathFilter method
+title: IOfflineFilesEventsFilter::GetPathFilter
 author: windows-driver-content
 description: Retrieves a UNC path string and a scope indicator describing which path-based events should be delivered to this event sink.
 old-location: of\iofflinefileseventsfilter_getpathfilter.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 0b9d8339-3daa-4f0c-8a52-59e06b663163
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetPathFilter method [Offline Files], GetPathFilter method [Offline Files], IOfflineFilesEventsFilter interface, GetPathFilter,IOfflineFilesEventsFilter.GetPathFilter, IOfflineFilesEventsFilter, IOfflineFilesEventsFilter interface [Offline Files], GetPathFilter method, IOfflineFilesEventsFilter::GetPathFilter, cscobj/IOfflineFilesEventsFilter::GetPathFilter, of.iofflinefileseventsfilter_getpathfilter
+ms.keywords: GetPathFilter, GetPathFilter method [Offline Files], GetPathFilter method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetPathFilter method, IOfflineFilesEventsFilter.GetPathFilter, IOfflineFilesEventsFilter::GetPathFilter, cscobj/IOfflineFilesEventsFilter::GetPathFilter, of.iofflinefileseventsfilter_getpathfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEventsFilter::GetPathFilter method
+# IOfflineFilesEventsFilter::GetPathFilter
 
 
 ## -description

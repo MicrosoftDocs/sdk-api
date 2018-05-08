@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_StartTime
-title: ITDirectoryObjectConference::put_StartTime method
+title: ITDirectoryObjectConference::put_StartTime
 author: windows-driver-content
 description: The put_StartTime method sets the start time of the conference.
 old-location: tapi3\itdirectoryobjectconference_put_starttime.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 87ccf59c-3fe6-4247-b7f9-d1fb8bcf4b69
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], put_StartTime method, ITDirectoryObjectConference::put_StartTime, _tapi3_itdirectoryobjectconference_put_starttime, put_StartTime method [TAPI 2.2], put_StartTime method [TAPI 2.2], ITDirectoryObjectConference interface, put_StartTime,ITDirectoryObjectConference.put_StartTime, rend/ITDirectoryObjectConference::put_StartTime, tapi3.itdirectoryobjectconference_put_starttime
+ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_StartTime method, ITDirectoryObjectConference.put_StartTime, ITDirectoryObjectConference::put_StartTime, _tapi3_itdirectoryobjectconference_put_starttime, put_StartTime, put_StartTime method [TAPI 2.2], put_StartTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_StartTime, tapi3.itdirectoryobjectconference_put_starttime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectoryObjectConference::put_StartTime method
+# ITDirectoryObjectConference::put_StartTime
 
 
 ## -description

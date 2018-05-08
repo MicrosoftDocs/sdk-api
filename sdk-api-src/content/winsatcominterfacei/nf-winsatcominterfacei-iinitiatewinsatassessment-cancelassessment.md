@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.CancelAssessment
-title: IInitiateWinSATAssessment::CancelAssessment method
+title: IInitiateWinSATAssessment::CancelAssessment
 author: windows-driver-content
 description: Cancels a currently running assessment.
 old-location: winsat\iinitiatewinsatassessment_cancelassessment.htm
@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: fa4b159f-9d40-445f-bd43-5fc2e7b2d33b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CancelAssessment method [WinSAT], CancelAssessment method [WinSAT], IInitiateWinSATAssessment interface, CancelAssessment,IInitiateWinSATAssessment.CancelAssessment, IInitiateWinSATAssessment, IInitiateWinSATAssessment interface [WinSAT], CancelAssessment method, IInitiateWinSATAssessment::CancelAssessment, winsat.iinitiatewinsatassessment_cancelassessment, winsatcominterfacei/IInitiateWinSATAssessment::CancelAssessment
+ms.keywords: CancelAssessment, CancelAssessment method [WinSAT], CancelAssessment method [WinSAT],IInitiateWinSATAssessment interface, IInitiateWinSATAssessment interface [WinSAT],CancelAssessment method, IInitiateWinSATAssessment.CancelAssessment, IInitiateWinSATAssessment::CancelAssessment, winsat.iinitiatewinsatassessment_cancelassessment, winsatcominterfacei/IInitiateWinSATAssessment::CancelAssessment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInitiateWinSATAssessment::CancelAssessment method
+# IInitiateWinSATAssessment::CancelAssessment
 
 
 ## -description

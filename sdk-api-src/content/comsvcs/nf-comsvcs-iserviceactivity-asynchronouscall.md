@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceActivity.AsynchronousCall
-title: IServiceActivity::AsynchronousCall method
+title: IServiceActivity::AsynchronousCall
 author: windows-driver-content
 description: Performs the user-defined work asynchronously.
 old-location: cos\iserviceactivity_asynchronouscall.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 1d81f2e6-9426-4733-bd1d-0b6ca087cc0a
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: AsynchronousCall method [COM+], AsynchronousCall method [COM+], IServiceActivity interface, AsynchronousCall,IServiceActivity.AsynchronousCall, IServiceActivity, IServiceActivity interface [COM+], AsynchronousCall method, IServiceActivity::AsynchronousCall, _cos_IServiceActivity_AsynchronousCall, comsvcs/IServiceActivity::AsynchronousCall, cos.iserviceactivity_asynchronouscall
+ms.keywords: AsynchronousCall, AsynchronousCall method [COM+], AsynchronousCall method [COM+],IServiceActivity interface, IServiceActivity interface [COM+],AsynchronousCall method, IServiceActivity.AsynchronousCall, IServiceActivity::AsynchronousCall, _cos_IServiceActivity_AsynchronousCall, comsvcs/IServiceActivity::AsynchronousCall, cos.iserviceactivity_asynchronouscall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServiceActivity::AsynchronousCall method
+# IServiceActivity::AsynchronousCall
 
 
 ## -description

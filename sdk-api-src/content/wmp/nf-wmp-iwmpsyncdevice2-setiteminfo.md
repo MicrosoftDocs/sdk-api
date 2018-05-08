@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSyncDevice2.setItemInfo
-title: IWMPSyncDevice2::setItemInfo method
+title: IWMPSyncDevice2::setItemInfo
 author: windows-driver-content
 description: The setItemInfo method specifies an attribute value for a device.
 old-location: wmp\iwmpsyncdevice2_setiteminfo.htm
 old-project: WMP
 ms.assetid: 664e3e12-125b-4e11-bab5-44f51650983e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSyncDevice2, IWMPSyncDevice2 interface [Windows Media Player], setItemInfo method, IWMPSyncDevice2::setItemInfo, IWMPSyncDevice2setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player], IWMPSyncDevice2 interface, setItemInfo,IWMPSyncDevice2.setItemInfo, wmp.iwmpsyncdevice2_setiteminfo, wmp/IWMPSyncDevice2::setItemInfo
+ms.date: 5/4/2018
+ms.keywords: IWMPSyncDevice2 interface [Windows Media Player],setItemInfo method, IWMPSyncDevice2.setItemInfo, IWMPSyncDevice2::setItemInfo, IWMPSyncDevice2setItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPSyncDevice2 interface, wmp.iwmpsyncdevice2_setiteminfo, wmp/IWMPSyncDevice2::setItemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSyncDevice2::setItemInfo method
+# IWMPSyncDevice2::setItemInfo
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsStoragePool.QueryAllocatedLuns
-title: IVdsStoragePool::QueryAllocatedLuns method
+title: IVdsStoragePool::QueryAllocatedLuns
 author: windows-driver-content
 description: Returns an object that enumerates the allocated LUNs for a storage pool.
 old-location: base\ivdsstoragepool_queryallocatedluns.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 348472ac-1b8b-4943-9b80-813616861e01
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsStoragePool, IVdsStoragePool interface, QueryAllocatedLuns method, IVdsStoragePool::QueryAllocatedLuns, QueryAllocatedLuns method, QueryAllocatedLuns method, IVdsStoragePool interface, QueryAllocatedLuns,IVdsStoragePool.QueryAllocatedLuns, base.ivdsstoragepool_queryallocatedluns, vds/IVdsStoragePool::QueryAllocatedLuns, vdshwprv/IVdsStoragePool::QueryAllocatedLuns
+ms.keywords: IVdsStoragePool interface,QueryAllocatedLuns method, IVdsStoragePool.QueryAllocatedLuns, IVdsStoragePool::QueryAllocatedLuns, QueryAllocatedLuns, QueryAllocatedLuns method, QueryAllocatedLuns method,IVdsStoragePool interface, base.ivdsstoragepool_queryallocatedluns, vds/IVdsStoragePool::QueryAllocatedLuns, vdshwprv/IVdsStoragePool::QueryAllocatedLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsStoragePool::QueryAllocatedLuns method
+# IVdsStoragePool::QueryAllocatedLuns
 
 
 ## -description

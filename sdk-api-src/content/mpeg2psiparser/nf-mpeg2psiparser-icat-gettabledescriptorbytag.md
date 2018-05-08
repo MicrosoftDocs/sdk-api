@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.GetTableDescriptorByTag
-title: ICAT::GetTableDescriptorByTag method
+title: ICAT::GetTableDescriptorByTag
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_gettabledescriptorbytag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f28fb2c1-d9bb-4786-b3cc-db9583752e1b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies], ICAT interface, GetTableDescriptorByTag,ICAT.GetTableDescriptorByTag, ICAT, ICAT interface [Microsoft TV Technologies], GetTableDescriptorByTag method, ICAT::GetTableDescriptorByTag, ICATGetTableDescriptorByTag, mpeg2psiparser/ICAT::GetTableDescriptorByTag, mstv.icat_gettabledescriptorbytag
+ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, ICAT.GetTableDescriptorByTag, ICAT::GetTableDescriptorByTag, ICATGetTableDescriptorByTag, mpeg2psiparser/ICAT::GetTableDescriptorByTag, mstv.icat_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ICAT::GetTableDescriptorByTag method
+# ICAT::GetTableDescriptorByTag
 
 
 ## -description

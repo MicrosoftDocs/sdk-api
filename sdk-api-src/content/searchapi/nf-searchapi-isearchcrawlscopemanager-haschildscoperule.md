@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.HasChildScopeRule
-title: ISearchCrawlScopeManager::HasChildScopeRule method
+title: ISearchCrawlScopeManager::HasChildScopeRule
 author: windows-driver-content
 description: Identifies whether a given URL has a child rule in scope.
 old-location: search\_search_ISearchCrawlScopeManager_HasChildScopeRule.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\haschildscoperule.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: HasChildScopeRule method [search], HasChildScopeRule method [search], ISearchCrawlScopeManager interface, HasChildScopeRule,ISearchCrawlScopeManager.HasChildScopeRule, ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], HasChildScopeRule method, ISearchCrawlScopeManager::HasChildScopeRule, _search_ISearchCrawlScopeManager_HasChildScopeRule, search._search_ISearchCrawlScopeManager_HasChildScopeRule, searchapi/ISearchCrawlScopeManager::HasChildScopeRule
+ms.date: 5/4/2018
+ms.keywords: HasChildScopeRule, HasChildScopeRule method [search], HasChildScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],HasChildScopeRule method, ISearchCrawlScopeManager.HasChildScopeRule, ISearchCrawlScopeManager::HasChildScopeRule, _search_ISearchCrawlScopeManager_HasChildScopeRule, search._search_ISearchCrawlScopeManager_HasChildScopeRule, searchapi/ISearchCrawlScopeManager::HasChildScopeRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCrawlScopeManager::HasChildScopeRule method
+# ISearchCrawlScopeManager::HasChildScopeRule
 
 
 ## -description

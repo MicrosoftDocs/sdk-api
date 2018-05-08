@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ProxyFactoryMapping
-title: IUIAutomation::get_ProxyFactoryMapping method
+title: IUIAutomation::get_ProxyFactoryMapping
 author: windows-driver-content
 description: Retrieves an object that represents the mapping of Window classnames and associated data to individual proxy factories.
 old-location: winauto\uiauto_IUIAutomation_ProxyFactoryMapping.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: cf1aae6e-3f83-4b4e-9e5c-a57db6cfa9ce
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomation, IUIAutomation interface [Windows Accessibility], ProxyFactoryMapping property, IUIAutomation.ProxyFactoryMapping, IUIAutomation::get_ProxyFactoryMapping, ProxyFactoryMapping property [Windows Accessibility], ProxyFactoryMapping property [Windows Accessibility], IUIAutomation interface, get_ProxyFactoryMapping,IUIAutomation.get_ProxyFactoryMapping, uiauto.uiauto_IUIAutomation_ProxyFactoryMapping, uiauto_IUIAutomation_ProxyFactoryMapping, uiautomationclient/IUIAutomation::ProxyFactoryMapping, uiautomationclient/IUIAutomation::get_ProxyFactoryMapping, winauto.uiauto_IUIAutomation_ProxyFactoryMapping
+ms.keywords: IUIAutomation interface [Windows Accessibility],ProxyFactoryMapping property, IUIAutomation.ProxyFactoryMapping, IUIAutomation.get_ProxyFactoryMapping, IUIAutomation::ProxyFactoryMapping, IUIAutomation::get_ProxyFactoryMapping, ProxyFactoryMapping property [Windows Accessibility], ProxyFactoryMapping property [Windows Accessibility],IUIAutomation interface, get_ProxyFactoryMapping, uiauto.uiauto_IUIAutomation_ProxyFactoryMapping, uiauto_IUIAutomation_ProxyFactoryMapping, uiautomationclient/IUIAutomation::ProxyFactoryMapping, uiautomationclient/IUIAutomation::get_ProxyFactoryMapping, winauto.uiauto_IUIAutomation_ProxyFactoryMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::get_ProxyFactoryMapping method
+# IUIAutomation::get_ProxyFactoryMapping
 
 
 ## -description

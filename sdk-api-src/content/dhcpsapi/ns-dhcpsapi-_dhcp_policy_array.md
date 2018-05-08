@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_policy_array.htm
 old-project: DHCP
 ms.assetid: 220CD2F8-AFB4-4B87-9B10-904AD04E4C1F
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_POLICY_ARRAY, *PDHCP_POLICY_ARRAY, DHCP_POLICY_ARRAY, DHCP_POLICY_ARRAY structure [DHCP], LPDHCP_POLICY_ARRAY, LPDHCP_POLICY_ARRAY structure pointer [DHCP], PDHCP_POLICY_ARRAY, PDHCP_POLICY_ARRAY structure pointer [DHCP], _DHCP_POLICY_ARRAY, dhcp.dhcp_policy_array, dhcpsapi/DHCP_POLICY_ARRAY, dhcpsapi/LPDHCP_POLICY_ARRAY, dhcpsapi/PDHCP_POLICY_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Integer that specifies the number of DHCP server policies in <b>Elements</b>.
 ### -field Elements
 
 Pointer to a list of <a href="https://msdn.microsoft.com/7e62d2f3-275a-45ab-baab-648fe135d0fc">DHCP_POLICY</a>  structures.
+
+
+### -field Elements.size_is
+
+ 
+
+
+### -field Elements.size_is.NumElements
+
+ 
+
+
 
 
 ## -see-also

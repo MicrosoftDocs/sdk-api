@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.getSAMILangName
-title: IWMPClosedCaption2::getSAMILangName method
+title: IWMPClosedCaption2::getSAMILangName
 author: windows-driver-content
 description: The getSAMILangName method retrieves the name of a language supported by the current SAMI file.
 old-location: wmp\iwmpclosedcaption2_getsamilangname.htm
 old-project: WMP
 ms.assetid: f2da5045-4000-46d8-a610-f5f80cb6f713
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPClosedCaption2, IWMPClosedCaption2 interface [Windows Media Player], getSAMILangName method, IWMPClosedCaption2::getSAMILangName, IWMPClosedCaption2getSAMILangName, getSAMILangName method [Windows Media Player], getSAMILangName method [Windows Media Player], IWMPClosedCaption2 interface, getSAMILangName,IWMPClosedCaption2.getSAMILangName, wmp.iwmpclosedcaption2_getsamilangname, wmp/IWMPClosedCaption2::getSAMILangName
+ms.date: 5/4/2018
+ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],getSAMILangName method, IWMPClosedCaption2.getSAMILangName, IWMPClosedCaption2::getSAMILangName, IWMPClosedCaption2getSAMILangName, getSAMILangName, getSAMILangName method [Windows Media Player], getSAMILangName method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_getsamilangname, wmp/IWMPClosedCaption2::getSAMILangName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPClosedCaption2::getSAMILangName method
+# IWMPClosedCaption2::getSAMILangName
 
 
 ## -description

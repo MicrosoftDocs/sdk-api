@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordCopy
-title: IRecordInfo::RecordCopy method
+title: IRecordInfo::RecordCopy
 author: windows-driver-content
 description: Copies an existing record into the passed in buffer.
 old-location: automat\irecordinfo_recordcopy.htm
 old-project: automat
 ms.assetid: 0e5a57a2-06d1-47b3-8e3c-c8718b550bcb
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: IRecordInfo, IRecordInfo interface [Automation], RecordCopy method, IRecordInfo::RecordCopy, RecordCopy method [Automation], RecordCopy method [Automation], IRecordInfo interface, RecordCopy,IRecordInfo.RecordCopy, _oa96_IRecordInfo_RecordCopy, automat.irecordinfo_recordcopy, oaidl/IRecordInfo::RecordCopy
+ms.date: 5/4/2018
+ms.keywords: IRecordInfo interface [Automation],RecordCopy method, IRecordInfo.RecordCopy, IRecordInfo::RecordCopy, RecordCopy, RecordCopy method [Automation], RecordCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordCopy, automat.irecordinfo_recordcopy, oaidl/IRecordInfo::RecordCopy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRecordInfo::RecordCopy method
+# IRecordInfo::RecordCopy
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySession.get_KeySystem
-title: IMFMediaKeySession::get_KeySystem method
+title: IMFMediaKeySession::get_KeySystem
 author: windows-driver-content
 description: Gets the name of the key system name the media keys object was created with.
 old-location: mf\imfmediakeysession_get_keysystem.htm
 old-project: medfound
 ms.assetid: eaf3a411-7282-496c-8095-79a8913a0f8e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaKeySession, IMFMediaKeySession interface [Media Foundation], get_KeySystem method, IMFMediaKeySession::get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation], IMFMediaKeySession interface, get_KeySystem,IMFMediaKeySession.get_KeySystem, mf.imfmediakeysession_get_keysystem, mfmediaengine/IMFMediaKeySession::get_KeySystem
+ms.date: 5/3/2018
+ms.keywords: IMFMediaKeySession interface [Media Foundation],get_KeySystem method, IMFMediaKeySession.get_KeySystem, IMFMediaKeySession::get_KeySystem, get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation],IMFMediaKeySession interface, mf.imfmediakeysession_get_keysystem, mfmediaengine/IMFMediaKeySession::get_KeySystem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaKeySession::get_KeySystem method
+# IMFMediaKeySession::get_KeySystem
 
 
 ## -description

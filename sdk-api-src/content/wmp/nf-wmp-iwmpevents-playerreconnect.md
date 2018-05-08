@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.PlayerReconnect
-title: IWMPEvents::PlayerReconnect method
+title: IWMPEvents::PlayerReconnect
 author: windows-driver-content
 description: The PlayerReconnect event occurs when a remoted Windows Media Player control reconnects to the Player.
 old-location: wmp\iwmpevents_iwmpevents__playerreconnect.htm
 old-project: WMP
 ms.assetid: 16e9aa76-8ecf-471e-a30c-b8cf834cee0e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], PlayerReconnect method, IWMPEvents::PlayerReconnect, IWMPEventsPlayerReconnect, PlayerReconnect method [Windows Media Player], PlayerReconnect method [Windows Media Player], IWMPEvents interface, PlayerReconnect,IWMPEvents.PlayerReconnect, wmp.iwmpevents_iwmpevents__playerreconnect, wmp/IWMPEvents::PlayerReconnect
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],PlayerReconnect method, IWMPEvents.PlayerReconnect, IWMPEvents::PlayerReconnect, IWMPEventsPlayerReconnect, PlayerReconnect, PlayerReconnect method [Windows Media Player], PlayerReconnect method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playerreconnect, wmp/IWMPEvents::PlayerReconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::PlayerReconnect method
+# IWMPEvents::PlayerReconnect
 
 
 ## -description

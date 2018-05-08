@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: dc16b785-bbb1-4917-a826-e49445a86c26
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: Arbitrate, Arbitrate callback function [Failover Cluster], PARBITRATE_ROUTINE, PARBITRATE_ROUTINE callback function [Failover Cluster], _wolf_arbitrate, mscs.arbitrate, resapi/Arbitrate, resapi/PARBITRATE_ROUTINE
+ms.keywords: Arbitrate, Arbitrate callback, Arbitrate callback function [Failover Cluster], PARBITRATE_ROUTINE, PARBITRATE_ROUTINE callback function [Failover Cluster], _wolf_arbitrate, mscs.arbitrate, resapi/Arbitrate, resapi/PARBITRATE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PARBITRATE_ROUTINE callback
+# PARBITRATE_ROUTINE callback function
 
 
 ## -description

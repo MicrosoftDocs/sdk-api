@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.put_AutomationElementMode
-title: IUIAutomationCacheRequest::put_AutomationElementMode method
+title: IUIAutomationCacheRequest::put_AutomationElementMode
 author: windows-driver-content
 description: Indicates whether returned elements contain full references to the underlying UI, or only cached information.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_AutomationElementMode.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: dd4c6407-d14e-4e67-9681-1f90741da38e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: AutomationElementMode property [Windows Accessibility], AutomationElementMode property [Windows Accessibility], IUIAutomationCacheRequest interface, IUIAutomationCacheRequest, IUIAutomationCacheRequest interface [Windows Accessibility], AutomationElementMode property, IUIAutomationCacheRequest.AutomationElementMode, IUIAutomationCacheRequest::get_AutomationElementMode, IUIAutomationCacheRequest::put_AutomationElementMode, put_AutomationElementMode,IUIAutomationCacheRequest.put_AutomationElementMode, uiauto.uiauto_IUIAutomationCacheRequest_AutomationElementMode, uiauto_IUIAutomationCacheRequest_AutomationElementMode, uiautomationclient/IUIAutomationCacheRequest::AutomationElementMode, uiautomationclient/IUIAutomationCacheRequest::get_AutomationElementMode, uiautomationclient/IUIAutomationCacheRequest::put_AutomationElementMode, winauto.uiauto_IUIAutomationCacheRequest_AutomationElementMode
+ms.keywords: AutomationElementMode property [Windows Accessibility], AutomationElementMode property [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],AutomationElementMode property, IUIAutomationCacheRequest.AutomationElementMode, IUIAutomationCacheRequest.put_AutomationElementMode, IUIAutomationCacheRequest::AutomationElementMode, IUIAutomationCacheRequest::get_AutomationElementMode, IUIAutomationCacheRequest::put_AutomationElementMode, put_AutomationElementMode, uiauto.uiauto_IUIAutomationCacheRequest_AutomationElementMode, uiauto_IUIAutomationCacheRequest_AutomationElementMode, uiautomationclient/IUIAutomationCacheRequest::AutomationElementMode, uiautomationclient/IUIAutomationCacheRequest::get_AutomationElementMode, uiautomationclient/IUIAutomationCacheRequest::put_AutomationElementMode, winauto.uiauto_IUIAutomationCacheRequest_AutomationElementMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationCacheRequest::put_AutomationElementMode method
+# IUIAutomationCacheRequest::put_AutomationElementMode
 
 
 ## -description

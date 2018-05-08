@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.RegisterCallback
-title: ITraceRelogger::RegisterCallback method
+title: ITraceRelogger::RegisterCallback
 author: windows-driver-content
 description: Registers an implementation of IEventCallback with the relogger in order to signal trace activity (starting, stopping, and logging new events).
 old-location: etw\itracerelogger_registercallback.htm
@@ -8,7 +8,7 @@ old-project: ETW
 ms.assetid: d3c739bd-9285-49ec-b2cf-d607f3d9be0c
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITraceRelogger, ITraceRelogger interface [ETW], RegisterCallback method, ITraceRelogger::RegisterCallback, RegisterCallback method [ETW], RegisterCallback method [ETW], ITraceRelogger interface, RegisterCallback,ITraceRelogger.RegisterCallback, etw.itracerelogger_registercallback, relogger/ITraceRelogger::RegisterCallback
+ms.keywords: ITraceRelogger interface [ETW],RegisterCallback method, ITraceRelogger.RegisterCallback, ITraceRelogger::RegisterCallback, RegisterCallback, RegisterCallback method [ETW], RegisterCallback method [ETW],ITraceRelogger interface, etw.itracerelogger_registercallback, relogger/ITraceRelogger::RegisterCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceRelogger::RegisterCallback method
+# ITraceRelogger::RegisterCallback
 
 
 ## -description

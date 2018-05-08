@@ -1,14 +1,14 @@
 ---
 UID: NF:mixerocx.IMixerOCX.UnAdvise
-title: IMixerOCX::UnAdvise method
+title: IMixerOCX::UnAdvise
 author: windows-driver-content
 description: The UnAdvise method instructs the Overlay Mixer to release its pointer to the client's IMixerOCXNotify interface.
 old-location: dshow\imixerocx_unadvise.htm
 old-project: DirectShow
 ms.assetid: 9c2837c6-ee0f-45f4-b98a-9b8957e75b48
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMixerOCX, IMixerOCX interface [DirectShow], UnAdvise method, IMixerOCX::UnAdvise, IMixerOCXUnAdvise, UnAdvise method [DirectShow], UnAdvise method [DirectShow], IMixerOCX interface, UnAdvise,IMixerOCX.UnAdvise, dshow.imixerocx_unadvise, mixerocx/IMixerOCX::UnAdvise
+ms.date: 4/30/2018
+ms.keywords: IMixerOCX interface [DirectShow],UnAdvise method, IMixerOCX.UnAdvise, IMixerOCX::UnAdvise, IMixerOCXUnAdvise, UnAdvise, UnAdvise method [DirectShow], UnAdvise method [DirectShow],IMixerOCX interface, dshow.imixerocx_unadvise, mixerocx/IMixerOCX::UnAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMixerOCX::UnAdvise method
+# IMixerOCX::UnAdvise
 
 
 ## -description

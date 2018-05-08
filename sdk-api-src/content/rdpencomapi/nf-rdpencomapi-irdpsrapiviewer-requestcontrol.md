@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.RequestControl
-title: IRDPSRAPIViewer::RequestControl method
+title: IRDPSRAPIViewer::RequestControl
 author: windows-driver-content
 description: Requests the sharer to change the control level of the viewer.
 old-location: rdp\irdpsrapiviewer_requestcontrol.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: be913f3c-9a5b-46bd-be9a-1ba0b0c20211
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIViewer, IRDPSRAPIViewer interface [RDP], RequestControl method, IRDPSRAPIViewer::RequestControl, RequestControl method [RDP], RequestControl method [RDP], IRDPSRAPIViewer interface, RequestControl,IRDPSRAPIViewer.RequestControl, rdp.irdpsrapiviewer_requestcontrol, rdpencomapi/IRDPSRAPIViewer::RequestControl
+ms.keywords: IRDPSRAPIViewer interface [RDP],RequestControl method, IRDPSRAPIViewer.RequestControl, IRDPSRAPIViewer::RequestControl, RequestControl, RequestControl method [RDP], RequestControl method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_requestcontrol, rdpencomapi/IRDPSRAPIViewer::RequestControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIViewer::RequestControl method
+# IRDPSRAPIViewer::RequestControl
 
 
 ## -description

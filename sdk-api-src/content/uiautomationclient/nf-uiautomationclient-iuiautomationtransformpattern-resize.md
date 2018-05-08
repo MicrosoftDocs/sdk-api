@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.Resize
-title: IUIAutomationTransformPattern::Resize method
+title: IUIAutomationTransformPattern::Resize
 author: windows-driver-content
 description: Resizes the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Resize.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: af5611ef-d14c-44c2-8065-7c7581a16198
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationTransformPattern, IUIAutomationTransformPattern interface [Windows Accessibility], Resize method, IUIAutomationTransformPattern::Resize, Resize method [Windows Accessibility], Resize method [Windows Accessibility], IUIAutomationTransformPattern interface, Resize,IUIAutomationTransformPattern.Resize, uiauto.uiauto_IUIAutomationTransformPattern_Resize, uiauto_IUIAutomationTransformPattern_Resize, uiautomationclient/IUIAutomationTransformPattern::Resize, winauto.uiauto_IUIAutomationTransformPattern_Resize
+ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Resize method, IUIAutomationTransformPattern.Resize, IUIAutomationTransformPattern::Resize, Resize, Resize method [Windows Accessibility], Resize method [Windows Accessibility],IUIAutomationTransformPattern interface, uiauto.uiauto_IUIAutomationTransformPattern_Resize, uiauto_IUIAutomationTransformPattern_Resize, uiautomationclient/IUIAutomationTransformPattern::Resize, winauto.uiauto_IUIAutomationTransformPattern_Resize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTransformPattern::Resize method
+# IUIAutomationTransformPattern::Resize
 
 
 ## -description

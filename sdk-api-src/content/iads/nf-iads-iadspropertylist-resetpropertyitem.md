@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyList.ResetPropertyItem
-title: IADsPropertyList::ResetPropertyItem method
+title: IADsPropertyList::ResetPropertyItem
 author: windows-driver-content
 description: Removes the specified item from the list; that is, from the cache.
 old-location: adsi\iadspropertylist_resetpropertyitem.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 25ee4444-476d-4146-ac22-3b0cfed3f2c0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsPropertyList, IADsPropertyList interface [ADSI], ResetPropertyItem method, IADsPropertyList::ResetPropertyItem, ResetPropertyItem method [ADSI], ResetPropertyItem method [ADSI], IADsPropertyList interface, ResetPropertyItem,IADsPropertyList.ResetPropertyItem, _ds_iadspropertylist_resetpropertyitem, adsi.iadspropertylist__resetpropertyitem, adsi.iadspropertylist_resetpropertyitem, iads/IADsPropertyList::ResetPropertyItem
+ms.keywords: IADsPropertyList interface [ADSI],ResetPropertyItem method, IADsPropertyList.ResetPropertyItem, IADsPropertyList::ResetPropertyItem, ResetPropertyItem, ResetPropertyItem method [ADSI], ResetPropertyItem method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_resetpropertyitem, adsi.iadspropertylist__resetpropertyitem, adsi.iadspropertylist_resetpropertyitem, iads/IADsPropertyList::ResetPropertyItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsPropertyList::ResetPropertyItem method
+# IADsPropertyList::ResetPropertyItem
 
 
 ## -description

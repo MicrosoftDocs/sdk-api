@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_SigningFlags
-title: IOCSPCAConfiguration::put_SigningFlags method
+title: IOCSPCAConfiguration::put_SigningFlags
 author: windows-driver-content
 description: Gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a certification authority (CA) configuration.
 old-location: security\iocspcaconfiguration_signingflags_method.htm
 old-project: SecCrypto
 ms.assetid: 00575bb5-eb18-44f2-b2a8-f2f2fd361dec
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], SigningFlags property, IOCSPCAConfiguration.SigningFlags, IOCSPCAConfiguration::get_SigningFlags, IOCSPCAConfiguration::put_SigningFlags, SigningFlags property [Security], SigningFlags property [Security], IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningFlags, certadm/IOCSPCAConfiguration::get_SigningFlags, certadm/IOCSPCAConfiguration::put_SigningFlags, put_SigningFlags,IOCSPCAConfiguration.put_SigningFlags, security.iocspcaconfiguration_signingflags_method
+ms.date: 4/30/2018
+ms.keywords: IOCSPCAConfiguration interface [Security],SigningFlags property, IOCSPCAConfiguration.SigningFlags, IOCSPCAConfiguration.put_SigningFlags, IOCSPCAConfiguration::SigningFlags, IOCSPCAConfiguration::get_SigningFlags, IOCSPCAConfiguration::put_SigningFlags, SigningFlags property [Security], SigningFlags property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningFlags, certadm/IOCSPCAConfiguration::get_SigningFlags, certadm/IOCSPCAConfiguration::put_SigningFlags, put_SigningFlags, security.iocspcaconfiguration_signingflags_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPCAConfiguration::put_SigningFlags method
+# IOCSPCAConfiguration::put_SigningFlags
 
 
 ## -description

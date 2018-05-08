@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1f51f818-e9bb-4d88-9795-4e6890d24b8c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGradientStopCollection, IXpsOMGradientStopCollection interface [XPS Documents and Packaging], IXpsOMGradientStopCollection interface [XPS Documents and Packaging], described, xps.ixpsomgradientstopcollection, xpsobjectmodel/IXpsOMGradientStopCollection
+ms.keywords: IXpsOMGradientStopCollection, IXpsOMGradientStopCollection interface [XPS Documents and Packaging], IXpsOMGradientStopCollection interface [XPS Documents and Packaging],described, xps.ixpsomgradientstopcollection, xpsobjectmodel/IXpsOMGradientStopCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

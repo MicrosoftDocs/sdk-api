@@ -1,14 +1,14 @@
 ---
 UID: NF:bdaiface.IMPEG2PIDMap.MapPID
-title: IMPEG2PIDMap::MapPID method
+title: IMPEG2PIDMap::MapPID
 author: windows-driver-content
 description: The MapPID method maps one or more PIDs to the pin.
 old-location: dshow\impeg2pidmap_mappid.htm
 old-project: DirectShow
 ms.assetid: 22784e4a-2b02-4fc9-ba55-8c918ea38892
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMPEG2PIDMap, IMPEG2PIDMap interface [DirectShow], MapPID method, IMPEG2PIDMap::MapPID, IMPEG2PIDMapMapPID, MapPID method [DirectShow], MapPID method [DirectShow], IMPEG2PIDMap interface, MapPID,IMPEG2PIDMap.MapPID, bdaiface/IMPEG2PIDMap::MapPID, dshow.impeg2pidmap_mappid
+ms.date: 4/30/2018
+ms.keywords: IMPEG2PIDMap interface [DirectShow],MapPID method, IMPEG2PIDMap.MapPID, IMPEG2PIDMap::MapPID, IMPEG2PIDMapMapPID, MapPID, MapPID method [DirectShow], MapPID method [DirectShow],IMPEG2PIDMap interface, bdaiface/IMPEG2PIDMap::MapPID, dshow.impeg2pidmap_mappid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMPEG2PIDMap::MapPID method
+# IMPEG2PIDMap::MapPID
 
 
 ## -description

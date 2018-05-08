@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.GetByPartName
-title: IXpsOMFontResourceCollection::GetByPartName method
+title: IXpsOMFontResourceCollection::GetByPartName
 author: windows-driver-content
 description: Gets an IXpsOMFontResource interface pointer from the collection by matching the interface's part name.
 old-location: xps\ixpsomfontresourcecollection_getbypartname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f40830ec-e77b-4c47-9041-b0df5becf9fa
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging], IXpsOMFontResourceCollection interface, GetByPartName,IXpsOMFontResourceCollection.GetByPartName, IXpsOMFontResourceCollection, IXpsOMFontResourceCollection interface [XPS Documents and Packaging], GetByPartName method, IXpsOMFontResourceCollection::GetByPartName, xps.ixpsomfontresourcecollection_getbypartname, xpsobjectmodel/IXpsOMFontResourceCollection::GetByPartName
+ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMFontResourceCollection.GetByPartName, IXpsOMFontResourceCollection::GetByPartName, xps.ixpsomfontresourcecollection_getbypartname, xpsobjectmodel/IXpsOMFontResourceCollection::GetByPartName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMFontResourceCollection::GetByPartName method
+# IXpsOMFontResourceCollection::GetByPartName
 
 
 ## -description

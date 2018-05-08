@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.CloneFrom
-title: IMFTopologyNode::CloneFrom method
+title: IMFTopologyNode::CloneFrom
 author: windows-driver-content
 description: Copies the data from another topology node into this node.
 old-location: mf\imftopologynode_clonefrom.htm
 old-project: medfound
 ms.assetid: 90322fbc-e3de-4801-b10b-63ce538fc83f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 90322fbc-e3de-4801-b10b-63ce538fc83f, CloneFrom method [Media Foundation], CloneFrom method [Media Foundation], IMFTopologyNode interface, CloneFrom,IMFTopologyNode.CloneFrom, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], CloneFrom method, IMFTopologyNode::CloneFrom, mf.imftopologynode_clonefrom, mfidl/IMFTopologyNode::CloneFrom
+ms.date: 5/3/2018
+ms.keywords: 90322fbc-e3de-4801-b10b-63ce538fc83f, CloneFrom, CloneFrom method [Media Foundation], CloneFrom method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],CloneFrom method, IMFTopologyNode.CloneFrom, IMFTopologyNode::CloneFrom, mf.imftopologynode_clonefrom, mfidl/IMFTopologyNode::CloneFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTopologyNode::CloneFrom method
+# IMFTopologyNode::CloneFrom
 
 
 ## -description

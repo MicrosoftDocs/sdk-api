@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_RestartInterval
-title: ITaskSettings::put_RestartInterval method
+title: ITaskSettings::put_RestartInterval
 author: windows-driver-content
 description: Gets or sets a value that specifies how long the Task Scheduler will attempt to restart the task.
 old-location: taskschd\itasksettings_restartinterval.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 6fe72035-e5f3-4c87-9dce-ba07374e7086
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskSettings, ITaskSettings interface [Task Scheduler], RestartInterval property, ITaskSettings.RestartInterval, ITaskSettings::get_RestartInterval, ITaskSettings::put_RestartInterval, RestartInterval property [Task Scheduler], RestartInterval property [Task Scheduler], ITaskSettings interface, put_RestartInterval,ITaskSettings.put_RestartInterval, taskschd.itasksettings_restartinterval, taskschd/ITaskSettings::RestartInterval, taskschd/ITaskSettings::get_RestartInterval, taskschd/ITaskSettings::put_RestartInterval
+ms.keywords: ITaskSettings interface [Task Scheduler],RestartInterval property, ITaskSettings.RestartInterval, ITaskSettings.put_RestartInterval, ITaskSettings::RestartInterval, ITaskSettings::get_RestartInterval, ITaskSettings::put_RestartInterval, RestartInterval property [Task Scheduler], RestartInterval property [Task Scheduler],ITaskSettings interface, put_RestartInterval, taskschd.itasksettings_restartinterval, taskschd/ITaskSettings::RestartInterval, taskschd/ITaskSettings::get_RestartInterval, taskschd/ITaskSettings::put_RestartInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskSettings::put_RestartInterval method
+# ITaskSettings::put_RestartInterval
 
 
 ## -description

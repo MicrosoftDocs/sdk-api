@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager2.AddService2
-title: IUpdateServiceManager2::AddService2 method
+title: IUpdateServiceManager2::AddService2
 author: windows-driver-content
 description: Registers a service with Windows Update Agent (WUA) without requiring an authorization cabinet file (.cab). This method also returns a pointer to an IUpdateServiceRegistration interface.
 old-location: wua\iupdateservicemanager2_addservice2_methods.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 1584b92f-ba21-4b03-a1b4-540313eb7893
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AddService2 method [Windows Update Agent], AddService2 method [Windows Update Agent], IUpdateServiceManager2 interface, AddService2,IUpdateServiceManager2.AddService2, IUpdateServiceManager2, IUpdateServiceManager2 interface [Windows Update Agent], AddService2 method, IUpdateServiceManager2::AddService2, wua.iupdateservicemanager2_addservice2_methods, wuapi/IUpdateServiceManager2::AddService2
+ms.keywords: AddService2, AddService2 method [Windows Update Agent], AddService2 method [Windows Update Agent],IUpdateServiceManager2 interface, IUpdateServiceManager2 interface [Windows Update Agent],AddService2 method, IUpdateServiceManager2.AddService2, IUpdateServiceManager2::AddService2, wua.iupdateservicemanager2_addservice2_methods, wuapi/IUpdateServiceManager2::AddService2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateServiceManager2::AddService2 method
+# IUpdateServiceManager2::AddService2
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupsEnumerator.GetHasCurrent
-title: IAppxContentGroupsEnumerator::GetHasCurrent method
+title: IAppxContentGroupsEnumerator::GetHasCurrent
 author: windows-driver-content
 description: Determines whether there is a content group at the current position of the enumerator.
 old-location: appxpkg\iappxcontentgroupsenumerator_gethascurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 5935EA6A-AD7F-4462-B539-A01439D0A373
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management], IAppxContentGroupsEnumerator interface, GetHasCurrent,IAppxContentGroupsEnumerator.GetHasCurrent, IAppxContentGroupsEnumerator, IAppxContentGroupsEnumerator interface [App packaging and management], GetHasCurrent method, IAppxContentGroupsEnumerator::GetHasCurrent, appxpackaging/IAppxContentGroupsEnumerator::GetHasCurrent, appxpkg.iappxcontentgroupsenumerator_gethascurrent
+ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxContentGroupsEnumerator interface, IAppxContentGroupsEnumerator interface [App packaging and management],GetHasCurrent method, IAppxContentGroupsEnumerator.GetHasCurrent, IAppxContentGroupsEnumerator::GetHasCurrent, appxpackaging/IAppxContentGroupsEnumerator::GetHasCurrent, appxpkg.iappxcontentgroupsenumerator_gethascurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxContentGroupsEnumerator::GetHasCurrent method
+# IAppxContentGroupsEnumerator::GetHasCurrent
 
 
 ## -description

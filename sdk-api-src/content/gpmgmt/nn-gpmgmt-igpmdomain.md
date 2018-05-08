@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: c3639f07-7c8c-4440-ade4-b58abd2586d6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMDomain, IGPMDomain, IGPMDomain interface [GPMC], IGPMDomain interface [GPMC], described, _win32_igpmdomain, gpmc.igpmdomain, gpmgmt/IGPMDomain
+ms.keywords: GPMDomain, IGPMDomain, IGPMDomain interface [GPMC], IGPMDomain interface [GPMC],described, _win32_igpmdomain, gpmc.igpmdomain, gpmgmt/IGPMDomain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

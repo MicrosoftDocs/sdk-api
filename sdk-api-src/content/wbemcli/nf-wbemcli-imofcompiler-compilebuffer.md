@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IMofCompiler.CompileBuffer
-title: IMofCompiler::CompileBuffer method
+title: IMofCompiler::CompileBuffer
 author: windows-driver-content
 description: The IMofCompiler::CompileBuffer method compiles either a buffer containing binary MOF data or a text buffer in ASCII format.
 old-location: wmi\imofcompiler_compilebuffer.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 7f3cc061-839e-49c2-a225-452719f155a9
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CompileBuffer method [Windows Management Instrumentation], CompileBuffer method [Windows Management Instrumentation], IMofCompiler interface, CompileBuffer,IMofCompiler.CompileBuffer, IMofCompiler, IMofCompiler interface [Windows Management Instrumentation], CompileBuffer method, IMofCompiler::CompileBuffer, WBEM_FLAG_AUTORECOVER, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CONSOLE_PRINT, WBEM_FLAG_DONT_ADD_TO_LIST, _hmm_imofcompiler_compilebuffer, wbemcli/IMofCompiler::CompileBuffer, wmi.imofcompiler_compilebuffer
+ms.keywords: CompileBuffer, CompileBuffer method [Windows Management Instrumentation], CompileBuffer method [Windows Management Instrumentation],IMofCompiler interface, IMofCompiler interface [Windows Management Instrumentation],CompileBuffer method, IMofCompiler.CompileBuffer, IMofCompiler::CompileBuffer, WBEM_FLAG_AUTORECOVER, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CONSOLE_PRINT, WBEM_FLAG_DONT_ADD_TO_LIST, _hmm_imofcompiler_compilebuffer, wbemcli/IMofCompiler::CompileBuffer, wmi.imofcompiler_compilebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IMofCompiler::CompileBuffer method
+# IMofCompiler::CompileBuffer
 
 
 ## -description

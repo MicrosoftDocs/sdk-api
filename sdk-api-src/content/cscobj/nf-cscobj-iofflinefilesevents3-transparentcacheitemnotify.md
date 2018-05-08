@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents3.TransparentCacheItemNotify
-title: IOfflineFilesEvents3::TransparentCacheItemNotify method
+title: IOfflineFilesEvents3::TransparentCacheItemNotify
 author: windows-driver-content
 description: Reports that an action has been performed on a transparently cached item.
 old-location: of\iofflinefilesevents3_transparentcacheitemnotify.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 59bd7a71-0189-4c4d-a737-e6a3f09a533d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents3, IOfflineFilesEvents3 interface [Offline Files], TransparentCacheItemNotify method, IOfflineFilesEvents3::TransparentCacheItemNotify, TransparentCacheItemNotify method [Offline Files], TransparentCacheItemNotify method [Offline Files], IOfflineFilesEvents3 interface, TransparentCacheItemNotify,IOfflineFilesEvents3.TransparentCacheItemNotify, cscobj/IOfflineFilesEvents3::TransparentCacheItemNotify, of.iofflinefilesevents3_transparentcacheitemnotify
+ms.keywords: IOfflineFilesEvents3 interface [Offline Files],TransparentCacheItemNotify method, IOfflineFilesEvents3.TransparentCacheItemNotify, IOfflineFilesEvents3::TransparentCacheItemNotify, TransparentCacheItemNotify, TransparentCacheItemNotify method [Offline Files], TransparentCacheItemNotify method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::TransparentCacheItemNotify, of.iofflinefilesevents3_transparentcacheitemnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents3::TransparentCacheItemNotify method
+# IOfflineFilesEvents3::TransparentCacheItemNotify
 
 
 ## -description

@@ -92,16 +92,9 @@ The value is contained in the <b>guidVal</b> member.
 A union that contains the property value.
 
 
-
-#### ulVal
+### -field u.ulVal
 
 The value is contained in an integer.
-
-
-
-#### guidVal
-
-A GUID that contains the property value.
 
 
 ### -field u.strVal
@@ -132,4 +125,9 @@ An integer that contains the size of the byte array pointed to by the <b>pbVal</
 ### -field u.bVal.pbVal
 
 A pointer to a byte array that contains the property value.
+
+
+### -field u.guidVal
+
+A GUID that contains the property value.
 

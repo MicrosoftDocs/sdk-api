@@ -1,14 +1,14 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter2.SetParam
-title: IConfigAsfWriter2::SetParam method
+title: IConfigAsfWriter2::SetParam
 author: windows-driver-content
 description: The SetParam method sets the value of the specified filter configuration parameter.
 old-location: dshow\iconfigasfwriter2_setparam.htm
 old-project: DirectShow
 ms.assetid: 0294837c-0cf2-4a05-bef4-16d13864f759
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IConfigAsfWriter2, IConfigAsfWriter2 interface [DirectShow], SetParam method, IConfigAsfWriter2::SetParam, IConfigAsfWriter2SetParam, SetParam method [DirectShow], SetParam method [DirectShow], IConfigAsfWriter2 interface, SetParam,IConfigAsfWriter2.SetParam, dshow.iconfigasfwriter2_setparam, dshowasf/IConfigAsfWriter2::SetParam
+ms.date: 4/30/2018
+ms.keywords: IConfigAsfWriter2 interface [DirectShow],SetParam method, IConfigAsfWriter2.SetParam, IConfigAsfWriter2::SetParam, IConfigAsfWriter2SetParam, SetParam, SetParam method [DirectShow], SetParam method [DirectShow],IConfigAsfWriter2 interface, dshow.iconfigasfwriter2_setparam, dshowasf/IConfigAsfWriter2::SetParam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IConfigAsfWriter2::SetParam method
+# IConfigAsfWriter2::SetParam
 
 
 ## -description

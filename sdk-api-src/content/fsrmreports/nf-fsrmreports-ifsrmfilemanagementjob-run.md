@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.Run
-title: IFsrmFileManagementJob::Run method
+title: IFsrmFileManagementJob::Run
 author: windows-driver-content
 description: Runs the job.
 old-location: fsrm\ifsrmfilemanagementjob_run.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 2db27e05-5c3b-4827-a616-36fd46281911
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], Run method, IFsrmFileManagementJob::Run, Run method [File Server Resource Manager], Run method [File Server Resource Manager], IFsrmFileManagementJob interface, Run,IFsrmFileManagementJob.Run, fs.ifsrmfilemanagementjob_run, fsrm.ifsrmfilemanagementjob_run, fsrmreports/IFsrmFileManagementJob::Run
+ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Run method, IFsrmFileManagementJob.Run, IFsrmFileManagementJob::Run, Run, Run method [File Server Resource Manager], Run method [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_run, fsrm.ifsrmfilemanagementjob_run, fsrmreports/IFsrmFileManagementJob::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJob::Run method
+# IFsrmFileManagementJob::Run
 
 
 ## -description

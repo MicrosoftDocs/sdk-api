@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.NotifyCommandProcessCreated
-title: IWRdsProtocolConnection::NotifyCommandProcessCreated method
+title: IWRdsProtocolConnection::NotifyCommandProcessCreated
 author: windows-driver-content
 description: Notifies the protocol that the Winlogon.exe process has been created and initialized.
 old-location: termserv\iwrdsprotocolconnection_notifycommandprocesscreated.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: B2A9CC5A-6E6E-418D-9C03-FDF207AFB683
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], NotifyCommandProcessCreated method, IWRdsProtocolConnection::NotifyCommandProcessCreated, NotifyCommandProcessCreated method [Remote Desktop Services], NotifyCommandProcessCreated method [Remote Desktop Services], IWRdsProtocolConnection interface, NotifyCommandProcessCreated,IWRdsProtocolConnection.NotifyCommandProcessCreated, termserv.iwrdsprotocolconnection_notifycommandprocesscreated, wtsprotocol/IWRdsProtocolConnection::NotifyCommandProcessCreated
+ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],NotifyCommandProcessCreated method, IWRdsProtocolConnection.NotifyCommandProcessCreated, IWRdsProtocolConnection::NotifyCommandProcessCreated, NotifyCommandProcessCreated, NotifyCommandProcessCreated method [Remote Desktop Services], NotifyCommandProcessCreated method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_notifycommandprocesscreated, wtsprotocol/IWRdsProtocolConnection::NotifyCommandProcessCreated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::NotifyCommandProcessCreated method
+# IWRdsProtocolConnection::NotifyCommandProcessCreated
 
 
 ## -description

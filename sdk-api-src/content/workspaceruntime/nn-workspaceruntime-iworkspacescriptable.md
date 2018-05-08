@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: b6591369-d73f-4c7d-8525-428dffc9a341
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWorkspaceScriptable, IWorkspaceScriptable interface [Remote Desktop Services], IWorkspaceScriptable interface [Remote Desktop Services], described, termserv.iworkspacescriptable, workspaceruntime/IWorkspaceScriptable
+ms.keywords: IWorkspaceScriptable, IWorkspaceScriptable interface [Remote Desktop Services], IWorkspaceScriptable interface [Remote Desktop Services],described, termserv.iworkspacescriptable, workspaceruntime/IWorkspaceScriptable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

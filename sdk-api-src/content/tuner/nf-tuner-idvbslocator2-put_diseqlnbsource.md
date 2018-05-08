@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator2.put_DiseqLNBSource
-title: IDVBSLocator2::put_DiseqLNBSource method
+title: IDVBSLocator2::put_DiseqLNBSource
 author: windows-driver-content
 description: Specifies the input for a Digital Satellite Equipment Control (DiSEqC) low-noise block converter (LNB).
 old-location: mstv\idvbslocator2_diseqlnbsource.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 665ea57d-6cb7-43d6-8bf3-993d0075b3cc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: DiseqLNBSource property [Microsoft TV Technologies], DiseqLNBSource property [Microsoft TV Technologies], IDVBSLocator2 interface, IDVBSLocator2, IDVBSLocator2 interface [Microsoft TV Technologies], DiseqLNBSource property, IDVBSLocator2.DiseqLNBSource, IDVBSLocator2::get_DiseqLNBSource, IDVBSLocator2::put_DiseqLNBSource, mstv.idvbslocator2_diseqlnbsource, put_DiseqLNBSource,IDVBSLocator2.put_DiseqLNBSource, tuner/IDVBSLocator2::DiseqLNBSource, tuner/IDVBSLocator2::get_DiseqLNBSource, tuner/IDVBSLocator2::put_DiseqLNBSource
+ms.keywords: DiseqLNBSource property [Microsoft TV Technologies], DiseqLNBSource property [Microsoft TV Technologies],IDVBSLocator2 interface, IDVBSLocator2 interface [Microsoft TV Technologies],DiseqLNBSource property, IDVBSLocator2.DiseqLNBSource, IDVBSLocator2.put_DiseqLNBSource, IDVBSLocator2::DiseqLNBSource, IDVBSLocator2::get_DiseqLNBSource, IDVBSLocator2::put_DiseqLNBSource, mstv.idvbslocator2_diseqlnbsource, put_DiseqLNBSource, tuner/IDVBSLocator2::DiseqLNBSource, tuner/IDVBSLocator2::get_DiseqLNBSource, tuner/IDVBSLocator2::put_DiseqLNBSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBSLocator2::put_DiseqLNBSource method
+# IDVBSLocator2::put_DiseqLNBSource
 
 
 ## -description

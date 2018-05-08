@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeInfoCount
-title: ITypeLib::GetTypeInfoCount method
+title: ITypeLib::GetTypeInfoCount
 author: windows-driver-content
 description: Provides the number of type descriptions that are in a type library.
 old-location: automat\itypelib_gettypeinfocount.htm
 old-project: automat
 ms.assetid: 63436bee-c71b-4d32-bfca-426c8953a75b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation], ITypeLib interface, GetTypeInfoCount,ITypeLib.GetTypeInfoCount, ITypeLib, ITypeLib interface [Automation], GetTypeInfoCount method, ITypeLib::GetTypeInfoCount, _oa96_ITypeLib_GetTypeInfoCount, automat.itypelib_gettypeinfocount, oaidl/ITypeLib::GetTypeInfoCount
+ms.date: 5/4/2018
+ms.keywords: GetTypeInfoCount, GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoCount method, ITypeLib.GetTypeInfoCount, ITypeLib::GetTypeInfoCount, _oa96_ITypeLib_GetTypeInfoCount, automat.itypelib_gettypeinfocount, oaidl/ITypeLib::GetTypeInfoCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeLib::GetTypeInfoCount method
+# ITypeLib::GetTypeInfoCount
 
 
 ## -description

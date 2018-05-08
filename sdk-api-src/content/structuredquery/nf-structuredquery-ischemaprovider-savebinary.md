@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.SaveBinary
-title: ISchemaProvider::SaveBinary method
+title: ISchemaProvider::SaveBinary
 author: windows-driver-content
 description: Saves the loaded schema as a schema binary at a specified path.
 old-location: search\_search_ISchemaProvider_SaveBinary.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\savebinary.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISchemaProvider, ISchemaProvider interface [search], SaveBinary method, ISchemaProvider::SaveBinary, SaveBinary method [search], SaveBinary method [search], ISchemaProvider interface, SaveBinary,ISchemaProvider.SaveBinary, _search_ISchemaProvider_SaveBinary, search._search_ISchemaProvider_SaveBinary, structuredquery/ISchemaProvider::SaveBinary
+ms.date: 5/4/2018
+ms.keywords: ISchemaProvider interface [search],SaveBinary method, ISchemaProvider.SaveBinary, ISchemaProvider::SaveBinary, SaveBinary, SaveBinary method [search], SaveBinary method [search],ISchemaProvider interface, _search_ISchemaProvider_SaveBinary, search._search_ISchemaProvider_SaveBinary, structuredquery/ISchemaProvider::SaveBinary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISchemaProvider::SaveBinary method
+# ISchemaProvider::SaveBinary
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService2.get_IsDefaultAUService
-title: IUpdateService2::get_IsDefaultAUService method
+title: IUpdateService2::get_IsDefaultAUService
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether the service is registered with Automatic Updates and whether the service is currently used by Automatic Updates as the default service.
 old-location: wua\iupdateservice2_isdefaultauservice.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 2c7645b7-3845-4340-904b-38c56d4aa0ac
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateService2, IUpdateService2 interface [Windows Update Agent], IsDefaultAUService property, IUpdateService2.IsDefaultAUService, IUpdateService2::get_IsDefaultAUService, IsDefaultAUService property [Windows Update Agent], IsDefaultAUService property [Windows Update Agent], IUpdateService2 interface, get_IsDefaultAUService,IUpdateService2.get_IsDefaultAUService, wua.iupdateservice2_isdefaultauservice, wuapi/IUpdateService2::IsDefaultAUService, wuapi/IUpdateService2::get_IsDefaultAUService
+ms.keywords: IUpdateService2 interface [Windows Update Agent],IsDefaultAUService property, IUpdateService2.IsDefaultAUService, IUpdateService2.get_IsDefaultAUService, IUpdateService2::IsDefaultAUService, IUpdateService2::get_IsDefaultAUService, IsDefaultAUService property [Windows Update Agent], IsDefaultAUService property [Windows Update Agent],IUpdateService2 interface, get_IsDefaultAUService, wua.iupdateservice2_isdefaultauservice, wuapi/IUpdateService2::IsDefaultAUService, wuapi/IUpdateService2::get_IsDefaultAUService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateService2::get_IsDefaultAUService method
+# IUpdateService2::get_IsDefaultAUService
 
 
 ## -description

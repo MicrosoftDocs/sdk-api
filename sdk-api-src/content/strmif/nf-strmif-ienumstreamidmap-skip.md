@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Skip
-title: IEnumStreamIdMap::Skip method
+title: IEnumStreamIdMap::Skip
 author: windows-driver-content
 description: The Skip method skip the element at the specified index.
 old-location: dshow\ienumstreamidmap_skip.htm
 old-project: DirectShow
 ms.assetid: 54502cd5-50b2-4bd2-a13f-180bddac178a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumStreamIdMap, IEnumStreamIdMap interface [DirectShow], Skip method, IEnumStreamIdMap::Skip, IEnumStreamIdMapSkip, Skip method [DirectShow], Skip method [DirectShow], IEnumStreamIdMap interface, Skip,IEnumStreamIdMap.Skip, dshow.ienumstreamidmap_skip, strmif/IEnumStreamIdMap::Skip
+ms.date: 4/30/2018
+ms.keywords: IEnumStreamIdMap interface [DirectShow],Skip method, IEnumStreamIdMap.Skip, IEnumStreamIdMap::Skip, IEnumStreamIdMapSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_skip, strmif/IEnumStreamIdMap::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEnumStreamIdMap::Skip method
+# IEnumStreamIdMap::Skip
 
 
 ## -description

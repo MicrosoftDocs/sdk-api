@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMAuthorizer.GetCert
-title: IWMAuthorizer::GetCert method
+title: IWMAuthorizer::GetCert
 author: windows-driver-content
 description: Retrieves the specified certificate.
 old-location: wmformat\iwmauthorizer_getcert.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e165356c-b14b-47dc-b046-a74499251cab
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetCert method [windows Media Format], GetCert method [windows Media Format], IWMAuthorizer interface, GetCert,IWMAuthorizer.GetCert, IWMAuthorizer, IWMAuthorizer interface [windows Media Format], GetCert method, IWMAuthorizer::GetCert, wmformat.iwmauthorizer_getcert, wmsecure/IWMAuthorizer::GetCert
+ms.keywords: GetCert, GetCert method [windows Media Format], GetCert method [windows Media Format],IWMAuthorizer interface, IWMAuthorizer interface [windows Media Format],GetCert method, IWMAuthorizer.GetCert, IWMAuthorizer::GetCert, wmformat.iwmauthorizer_getcert, wmsecure/IWMAuthorizer::GetCert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMAuthorizer::GetCert method
+# IWMAuthorizer::GetCert
 
 
 ## -description

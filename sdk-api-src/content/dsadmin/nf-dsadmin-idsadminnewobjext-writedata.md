@@ -1,14 +1,14 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.WriteData
-title: IDsAdminNewObjExt::WriteData method
+title: IDsAdminNewObjExt::WriteData
 author: windows-driver-content
 description: Enables the object creation wizard extension to write its data into an object in Active Directory Domain Services.
 old-location: ad\idsadminnewobjext_writedata.htm
 old-project: AD
 ms.assetid: 1788c124-c740-4f77-9687-63113d3b14a8
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: DSA_NEWOBJ_CTX_CLEANUP, DSA_NEWOBJ_CTX_POSTCOMMIT, DSA_NEWOBJ_CTX_PRECOMMIT, IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], WriteData method, IDsAdminNewObjExt::WriteData, WriteData method [Active Directory], WriteData method [Active Directory], IDsAdminNewObjExt interface, WriteData,IDsAdminNewObjExt.WriteData, _glines_idsadminnewobjext_writedata, ad.idsadminnewobjext__writedata, ad.idsadminnewobjext_writedata, dsadmin/IDsAdminNewObjExt::WriteData
+ms.date: 5/1/2018
+ms.keywords: DSA_NEWOBJ_CTX_CLEANUP, DSA_NEWOBJ_CTX_POSTCOMMIT, DSA_NEWOBJ_CTX_PRECOMMIT, IDsAdminNewObjExt interface [Active Directory],WriteData method, IDsAdminNewObjExt.WriteData, IDsAdminNewObjExt::WriteData, WriteData, WriteData method [Active Directory], WriteData method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_writedata, ad.idsadminnewobjext__writedata, ad.idsadminnewobjext_writedata, dsadmin/IDsAdminNewObjExt::WriteData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: DSAdmin.dll
 req.irql: 
 ---
 
-# IDsAdminNewObjExt::WriteData method
+# IDsAdminNewObjExt::WriteData
 
 
 ## -description

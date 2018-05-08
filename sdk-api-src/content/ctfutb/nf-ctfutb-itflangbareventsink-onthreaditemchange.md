@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.OnThreadItemChange
-title: ITfLangBarEventSink::OnThreadItemChange method
+title: ITfLangBarEventSink::OnThreadItemChange
 author: windows-driver-content
 description: ITfLangBarEventSink::OnThreadItemChange method
 old-location: tsf\itflangbareventsink_onthreaditemchange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: b59688f9-feb0-4598-bf4a-b0661dda5fad
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarEventSink, ITfLangBarEventSink interface [Text Services Framework], OnThreadItemChange method, ITfLangBarEventSink::OnThreadItemChange, OnThreadItemChange method [Text Services Framework], OnThreadItemChange method [Text Services Framework], ITfLangBarEventSink interface, OnThreadItemChange,ITfLangBarEventSink.OnThreadItemChange, _tsf_itflangbareventsink_onthreaditemchange_ref, ctfutb/ITfLangBarEventSink::OnThreadItemChange, tsf.itflangbareventsink_onthreaditemchange
+ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnThreadItemChange method, ITfLangBarEventSink.OnThreadItemChange, ITfLangBarEventSink::OnThreadItemChange, OnThreadItemChange, OnThreadItemChange method [Text Services Framework], OnThreadItemChange method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onthreaditemchange_ref, ctfutb/ITfLangBarEventSink::OnThreadItemChange, tsf.itflangbareventsink_onthreaditemchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msutb.dll
 req.irql: 
 ---
 
-# ITfLangBarEventSink::OnThreadItemChange method
+# ITfLangBarEventSink::OnThreadItemChange
 
 
 ## -description

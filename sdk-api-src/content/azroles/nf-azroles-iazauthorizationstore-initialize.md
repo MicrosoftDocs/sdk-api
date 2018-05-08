@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.Initialize
-title: IAzAuthorizationStore::Initialize method
+title: IAzAuthorizationStore::Initialize
 author: windows-driver-content
 description: Initializes the authorization manager.
 old-location: security\azauthorizationstore_initialize.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: c461d50a-c785-4b32-b331-fe3a1693f4de
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AZ_AZSTORE_FLAG_AUDIT_IS_CRITICAL, AZ_AZSTORE_FLAG_BATCH_UPDATE, AZ_AZSTORE_FLAG_CREATE, AZ_AZSTORE_FLAG_MANAGE_STORE_ONLY, AzAuthorizationStore object [Security], Initialize method, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], Initialize method, IAzAuthorizationStore::Initialize, Initialize method [Security], Initialize method [Security], AzAuthorizationStore object, Initialize method [Security], IAzAuthorizationStore interface, Initialize,IAzAuthorizationStore.Initialize, azroles/IAzAuthorizationStore::Initialize, security.azauthorizationstore_initialize
+ms.keywords: AZ_AZSTORE_FLAG_AUDIT_IS_CRITICAL, AZ_AZSTORE_FLAG_BATCH_UPDATE, AZ_AZSTORE_FLAG_CREATE, AZ_AZSTORE_FLAG_MANAGE_STORE_ONLY, AzAuthorizationStore object [Security],Initialize method, IAzAuthorizationStore interface [Security],Initialize method, IAzAuthorizationStore.Initialize, IAzAuthorizationStore::Initialize, Initialize, Initialize method [Security], Initialize method [Security],AzAuthorizationStore object, Initialize method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Initialize, security.azauthorizationstore_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::Initialize method
+# IAzAuthorizationStore::Initialize
 
 
 ## -description

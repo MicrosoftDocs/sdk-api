@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: a54bdb46-b18b-4a6d-90fc-75947f6dd191
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolManager, IWTSProtocolManager interface [Remote Desktop Services], IWTSProtocolManager interface [Remote Desktop Services], described, termserv.iwtsprotocolmanager, wtsprotocol/IWTSProtocolManager
+ms.keywords: IWTSProtocolManager, IWTSProtocolManager interface [Remote Desktop Services], IWTSProtocolManager interface [Remote Desktop Services],described, termserv.iwtsprotocolmanager, wtsprotocol/IWTSProtocolManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

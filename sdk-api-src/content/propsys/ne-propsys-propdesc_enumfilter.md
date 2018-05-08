@@ -7,7 +7,7 @@ old-location: properties\PROPDESC_ENUMFILTER.htm
 old-project: properties
 ms.assetid: dae1fadc-d7ea-4cad-b441-0e5c9708f5ce
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: PDEF_ALL, PDEF_COLUMN, PDEF_INFULLTEXTQUERY, PDEF_NONSYSTEM, PDEF_QUERYABLE, PDEF_SYSTEM, PDEF_VIEWABLE, PROPDESC_ENUMFILTER, PROPDESC_ENUMFILTER enumeration [Windows Properties], properties.PROPDESC_ENUMFILTER, propsys/PDEF_ALL, propsys/PDEF_COLUMN, propsys/PDEF_INFULLTEXTQUERY, propsys/PDEF_NONSYSTEM, propsys/PDEF_QUERYABLE, propsys/PDEF_SYSTEM, propsys/PDEF_VIEWABLE, propsys/PROPDESC_ENUMFILTER, shell.PROPDESC_ENUMFILTER, shell_PROPDESC_ENUMFILTER
 ms.prod: windows-hardware
 ms.technology: windows-devices

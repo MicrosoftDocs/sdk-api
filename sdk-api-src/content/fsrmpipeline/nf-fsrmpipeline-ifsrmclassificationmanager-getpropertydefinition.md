@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.GetPropertyDefinition
-title: IFsrmClassificationManager::GetPropertyDefinition method
+title: IFsrmClassificationManager::GetPropertyDefinition
 author: windows-driver-content
 description: Retrieves the specified property definition.
 old-location: fsrm\ifsrmclassificationmanager_getpropertydefinition.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: de89524d-70b7-4f0a-add0-d34d54bd32a7
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmClassificationManager class [File Server Resource Manager], GetPropertyDefinition method, GetPropertyDefinition method [File Server Resource Manager], GetPropertyDefinition method [File Server Resource Manager], FsrmClassificationManager class, GetPropertyDefinition method [File Server Resource Manager], IFsrmClassificationManager interface, GetPropertyDefinition method [File Server Resource Manager], IFsrmClassificationManager2 interface, GetPropertyDefinition,IFsrmClassificationManager.GetPropertyDefinition, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], GetPropertyDefinition method, IFsrmClassificationManager2 interface [File Server Resource Manager], GetPropertyDefinition method, IFsrmClassificationManager2::GetPropertyDefinition, IFsrmClassificationManager::GetPropertyDefinition, fs.ifsrmclassificationmanager_getpropertydefinition, fsrm.ifsrmclassificationmanager_getpropertydefinition, fsrmpipeline/IFsrmClassificationManager2::GetPropertyDefinition, fsrmpipeline/IFsrmClassificationManager::GetPropertyDefinition
+ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetPropertyDefinition method, GetPropertyDefinition, GetPropertyDefinition method [File Server Resource Manager], GetPropertyDefinition method [File Server Resource Manager],FsrmClassificationManager class, GetPropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, GetPropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetPropertyDefinition method, IFsrmClassificationManager.GetPropertyDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],GetPropertyDefinition method, IFsrmClassificationManager2::GetPropertyDefinition, IFsrmClassificationManager::GetPropertyDefinition, fs.ifsrmclassificationmanager_getpropertydefinition, fsrm.ifsrmclassificationmanager_getpropertydefinition, fsrmpipeline/IFsrmClassificationManager2::GetPropertyDefinition, fsrmpipeline/IFsrmClassificationManager::GetPropertyDefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassificationManager::GetPropertyDefinition method
+# IFsrmClassificationManager::GetPropertyDefinition
 
 
 ## -description

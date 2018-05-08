@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseKerberos
-title: IWSManEx::SessionFlagUseKerberos method
+title: IWSManEx::SessionFlagUseKerberos
 author: windows-driver-content
 description: Returns the value of the authentication flag WSManFlagUseKerberos for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusekerberos.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 14b949d8-774b-4224-ab08-b52ff71ab1bb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], SessionFlagUseKerberos method, IWSManEx::SessionFlagUseKerberos, SessionFlagUseKerberos method [Windows Remote Management], SessionFlagUseKerberos method [Windows Remote Management], IWSManEx interface, SessionFlagUseKerberos,IWSManEx.SessionFlagUseKerberos, winrm.iwsmanex_sessionflagusekerberos, wsmandisp/IWSManEx::SessionFlagUseKerberos
+ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseKerberos method, IWSManEx.SessionFlagUseKerberos, IWSManEx::SessionFlagUseKerberos, SessionFlagUseKerberos, SessionFlagUseKerberos method [Windows Remote Management], SessionFlagUseKerberos method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusekerberos, wsmandisp/IWSManEx::SessionFlagUseKerberos
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx::SessionFlagUseKerberos method
+# IWSManEx::SessionFlagUseKerberos
 
 
 ## -description

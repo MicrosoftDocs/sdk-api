@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidGenericSink2.ResetFilterList
-title: IMSVidGenericSink2::ResetFilterList method
+title: IMSVidGenericSink2::ResetFilterList
 author: windows-driver-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
 old-location: mstv\imsvidgenericsink2_resetfilterlist.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: fc899c48-703a-4bdc-849e-73633ae748d0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidGenericSink2, IMSVidGenericSink2 interface [Microsoft TV Technologies], ResetFilterList method, IMSVidGenericSink2::ResetFilterList, IMSVidGenericSink2ResetFilterList, ResetFilterList method [Microsoft TV Technologies], ResetFilterList method [Microsoft TV Technologies], IMSVidGenericSink2 interface, ResetFilterList,IMSVidGenericSink2.ResetFilterList, mstv.imsvidgenericsink2_resetfilterlist, segment/IMSVidGenericSink2::ResetFilterList
+ms.keywords: IMSVidGenericSink2 interface [Microsoft TV Technologies],ResetFilterList method, IMSVidGenericSink2.ResetFilterList, IMSVidGenericSink2::ResetFilterList, IMSVidGenericSink2ResetFilterList, ResetFilterList, ResetFilterList method [Microsoft TV Technologies], ResetFilterList method [Microsoft TV Technologies],IMSVidGenericSink2 interface, mstv.imsvidgenericsink2_resetfilterlist, segment/IMSVidGenericSink2::ResetFilterList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidGenericSink2::ResetFilterList method
+# IMSVidGenericSink2::ResetFilterList
 
 
 ## -description

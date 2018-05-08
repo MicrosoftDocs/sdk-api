@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.Notify
-title: ITextDocument2::Notify method
+title: ITextDocument2::Notify
 author: windows-driver-content
 description: Notifies the Text Object Model (TOM) engine client of particular Input Method Editor (IME) events.
 old-location: controls\itextdocument2_notify.htm
 old-project: Controls
 ms.assetid: 5c7962a5-5f8d-4db1-bb94-a77738cf75bb
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], Notify method, ITextDocument2::Notify, Notify method [Windows Controls], Notify method [Windows Controls], ITextDocument2 interface, Notify,ITextDocument2.Notify, controls.itextdocument2_notify, tom/ITextDocument2::Notify
+ms.date: 4/27/2018
+ms.keywords: ITextDocument2 interface [Windows Controls],Notify method, ITextDocument2.Notify, ITextDocument2::Notify, Notify, Notify method [Windows Controls], Notify method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_notify, tom/ITextDocument2::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::Notify method
+# ITextDocument2::Notify
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_OutgoingQueueAgeLimit
-title: IFaxConfiguration::get_OutgoingQueueAgeLimit method
+title: IFaxConfiguration::get_OutgoingQueueAgeLimit
 author: windows-driver-content
 description: Sets or retrieves a value that indicates the length of time that an undeliverable fax message is kept on the fax server before it is deleted.
 old-location: fax\_mfax_FaxConfiguration_OutgoingQueueAgeLimit_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\outgoingqueueagelimit.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxConfiguration object [Fax Service], OutgoingQueueAgeLimit property, IFaxConfiguration, IFaxConfiguration::get_OutgoingQueueAgeLimit, OutgoingQueueAgeLimit property [Fax Service], OutgoingQueueAgeLimit property [Fax Service], FaxConfiguration object, _mfax_IFaxConfiguration_OutgoingQueueAgeLimit, fax._mfax_FaxConfiguration_OutgoingQueueAgeLimit_vb, get_OutgoingQueueAgeLimit,IFaxConfiguration.get_OutgoingQueueAgeLimit
+ms.keywords: FaxConfiguration object [Fax Service],OutgoingQueueAgeLimit property, FaxConfiguration.OutgoingQueueAgeLimit, IFaxConfiguration.get_OutgoingQueueAgeLimit, IFaxConfiguration::get_OutgoingQueueAgeLimit, OutgoingQueueAgeLimit property [Fax Service], OutgoingQueueAgeLimit property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_OutgoingQueueAgeLimit, fax._mfax_FaxConfiguration_OutgoingQueueAgeLimit_vb, get_OutgoingQueueAgeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::get_OutgoingQueueAgeLimit method
+# IFaxConfiguration::get_OutgoingQueueAgeLimit
 
 
 ## -description

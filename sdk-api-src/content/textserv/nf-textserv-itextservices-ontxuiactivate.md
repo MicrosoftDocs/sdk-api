@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextServices.OnTxUIActivate
-title: ITextServices::OnTxUIActivate method
+title: ITextServices::OnTxUIActivate
 author: windows-driver-content
 description: Informs the text services object that the control is now UI active.
 old-location: controls\ITextServices_OnTxUIActivate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxuiactivate.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextServices, ITextServices interface [Windows Controls], OnTxUIActivate method, ITextServices::OnTxUIActivate, OnTxUIActivate method [Windows Controls], OnTxUIActivate method [Windows Controls], ITextServices interface, OnTxUIActivate,ITextServices.OnTxUIActivate, _win32_ITextServices_OnTxUIActivate, _win32_ITextServices_OnTxUIActivate_cpp, controls.ITextServices_OnTxUIActivate, controls._win32_ITextServices_OnTxUIActivate, textserv/ITextServices::OnTxUIActivate
+ms.date: 4/27/2018
+ms.keywords: ITextServices interface [Windows Controls],OnTxUIActivate method, ITextServices.OnTxUIActivate, ITextServices::OnTxUIActivate, OnTxUIActivate, OnTxUIActivate method [Windows Controls], OnTxUIActivate method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxUIActivate, _win32_ITextServices_OnTxUIActivate_cpp, controls.ITextServices_OnTxUIActivate, controls._win32_ITextServices_OnTxUIActivate, textserv/ITextServices::OnTxUIActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextServices::OnTxUIActivate method
+# ITextServices::OnTxUIActivate
 
 
 ## -description

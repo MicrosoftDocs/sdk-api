@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.Clear
-title: ICspAlgorithms::Clear method
+title: ICspAlgorithms::Clear
 author: windows-driver-content
 description: Removes all ICspAlgorithm objects from the collection.
 old-location: security\icspalgorithms_clear_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 22b8e3a3-48b3-41a1-a135-0f23dd0060f8
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Clear method [Security], Clear method [Security], ICspAlgorithms interface, Clear,ICspAlgorithms.Clear, ICspAlgorithms, ICspAlgorithms interface [Security], Clear method, ICspAlgorithms::Clear, certenroll/ICspAlgorithms::Clear, security.icspalgorithms_clear_method
+ms.keywords: Clear, Clear method [Security], Clear method [Security],ICspAlgorithms interface, ICspAlgorithms interface [Security],Clear method, ICspAlgorithms.Clear, ICspAlgorithms::Clear, certenroll/ICspAlgorithms::Clear, security.icspalgorithms_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspAlgorithms::Clear method
+# ICspAlgorithms::Clear
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Put
-title: IWbemClassObject::Put method
+title: IWbemClassObject::Put
 author: windows-driver-content
 description: Sets a named property to a new value.
 old-location: wmi\iwbemclassobject_put.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 7b67739f-5c67-447a-a1a5-fad9ce3e857a
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], Put method, IWbemClassObject::Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation], IWbemClassObject interface, Put,IWbemClassObject.Put, _hmm_iwbemclassobject_put, wbemcli/IWbemClassObject::Put, wmi.iwbemclassobject_put
+ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Put method, IWbemClassObject.Put, IWbemClassObject::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_put, wbemcli/IWbemClassObject::Put, wmi.iwbemclassobject_put
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -53,7 +53,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemClassObject::Put method
+# IWbemClassObject::Put
 
 
 ## -description

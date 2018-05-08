@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedHelpText
-title: IUIAutomationElement::get_CachedHelpText method
+title: IUIAutomationElement::get_CachedHelpText
 author: windows-driver-content
 description: Retrieves the cached help text for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedHelpText.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 39ca5d50-808c-4a8b-a662-0a7724519b2c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedHelpText property [Windows Accessibility], CachedHelpText property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedHelpText property, IUIAutomationElement.CachedHelpText, IUIAutomationElement::get_CachedHelpText, get_CachedHelpText,IUIAutomationElement.get_CachedHelpText, uiauto.uiauto_IUIAutomationElement_CachedHelpText, uiauto_IUIAutomationElement_CachedHelpText, uiautomationclient/IUIAutomationElement::CachedHelpText, uiautomationclient/IUIAutomationElement::get_CachedHelpText, winauto.uiauto_IUIAutomationElement_CachedHelpText
+ms.keywords: CachedHelpText property [Windows Accessibility], CachedHelpText property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedHelpText property, IUIAutomationElement.CachedHelpText, IUIAutomationElement.get_CachedHelpText, IUIAutomationElement::CachedHelpText, IUIAutomationElement::get_CachedHelpText, get_CachedHelpText, uiauto.uiauto_IUIAutomationElement_CachedHelpText, uiauto_IUIAutomationElement_CachedHelpText, uiautomationclient/IUIAutomationElement::CachedHelpText, uiautomationclient/IUIAutomationElement::get_CachedHelpText, winauto.uiauto_IUIAutomationElement_CachedHelpText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CachedHelpText method
+# IUIAutomationElement::get_CachedHelpText
 
 
 ## -description

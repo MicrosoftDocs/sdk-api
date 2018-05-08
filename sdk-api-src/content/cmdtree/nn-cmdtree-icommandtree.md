@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0ckl.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: ICommandTree, ICommandTree interface [Indexing Service], ICommandTree interface [Indexing Service], described, _idxs_ICommandTree, cmdtree/ICommandTree, indexsrv.icommandtree
+ms.keywords: ICommandTree, ICommandTree interface [Indexing Service], ICommandTree interface [Indexing Service],described, _idxs_ICommandTree, cmdtree/ICommandTree, indexsrv.icommandtree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

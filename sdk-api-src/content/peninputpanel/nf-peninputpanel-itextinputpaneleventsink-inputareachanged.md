@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InputAreaChanged
-title: ITextInputPanelEventSink::InputAreaChanged method
+title: ITextInputPanelEventSink::InputAreaChanged
 author: windows-driver-content
 description: Occurs when the input area has changed on the Tablet PC Input Panel.
 old-location: tablet\itextinputpaneleventsink_inputareachanged.htm
 old-project: tablet
 ms.assetid: b30eaa39-a1f7-4c50-992f-11030bb175f9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], InputAreaChanged method, ITextInputPanelEventSink::InputAreaChanged, InputAreaChanged method [Tablet PC], InputAreaChanged method [Tablet PC], ITextInputPanelEventSink interface, InputAreaChanged,ITextInputPanelEventSink.InputAreaChanged, b30eaa39-a1f7-4c50-992f-11030bb175f9, peninputpanel/ITextInputPanelEventSink::InputAreaChanged, tablet.itextinputpaneleventsink_inputareachanged
+ms.date: 5/2/2018
+ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InputAreaChanged method, ITextInputPanelEventSink.InputAreaChanged, ITextInputPanelEventSink::InputAreaChanged, InputAreaChanged, InputAreaChanged method [Tablet PC], InputAreaChanged method [Tablet PC],ITextInputPanelEventSink interface, b30eaa39-a1f7-4c50-992f-11030bb175f9, peninputpanel/ITextInputPanelEventSink::InputAreaChanged, tablet.itextinputpaneleventsink_inputareachanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanelEventSink::InputAreaChanged method
+# ITextInputPanelEventSink::InputAreaChanged
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBindCtx.RegisterObjectParam
-title: IBindCtx::RegisterObjectParam method
+title: IBindCtx::RegisterObjectParam
 author: windows-driver-content
 description: Associates an object with a string key in the bind context's string-keyed table of pointers.
 old-location: com\ibindctx_registerobjectparam.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IBindCtx, IBindCtx interface [COM], RegisterObjectParam method, IBindCtx::RegisterObjectParam, RegisterObjectParam method [COM], RegisterObjectParam method [COM], IBindCtx interface, RegisterObjectParam,IBindCtx.RegisterObjectParam, _com_ibindctx_registerobjectparam, com.ibindctx_registerobjectparam, objidl/IBindCtx::RegisterObjectParam
+ms.keywords: IBindCtx interface [COM],RegisterObjectParam method, IBindCtx.RegisterObjectParam, IBindCtx::RegisterObjectParam, RegisterObjectParam, RegisterObjectParam method [COM], RegisterObjectParam method [COM],IBindCtx interface, _com_ibindctx_registerobjectparam, com.ibindctx_registerobjectparam, objidl/IBindCtx::RegisterObjectParam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBindCtx::RegisterObjectParam method
+# IBindCtx::RegisterObjectParam
 
 
 ## -description

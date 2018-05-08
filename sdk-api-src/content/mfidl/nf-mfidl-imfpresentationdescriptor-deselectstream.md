@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.DeselectStream
-title: IMFPresentationDescriptor::DeselectStream method
+title: IMFPresentationDescriptor::DeselectStream
 author: windows-driver-content
 description: Deselects a stream in the presentation.
 old-location: mf\imfpresentationdescriptor_deselectstream.htm
 old-project: medfound
 ms.assetid: 3de1f0d5-10fc-415b-898b-4643a391ba79
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 3de1f0d5-10fc-415b-898b-4643a391ba79, DeselectStream method [Media Foundation], DeselectStream method [Media Foundation], IMFPresentationDescriptor interface, DeselectStream,IMFPresentationDescriptor.DeselectStream, IMFPresentationDescriptor, IMFPresentationDescriptor interface [Media Foundation], DeselectStream method, IMFPresentationDescriptor::DeselectStream, mf.imfpresentationdescriptor_deselectstream, mfidl/IMFPresentationDescriptor::DeselectStream
+ms.date: 5/3/2018
+ms.keywords: 3de1f0d5-10fc-415b-898b-4643a391ba79, DeselectStream, DeselectStream method [Media Foundation], DeselectStream method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],DeselectStream method, IMFPresentationDescriptor.DeselectStream, IMFPresentationDescriptor::DeselectStream, mf.imfpresentationdescriptor_deselectstream, mfidl/IMFPresentationDescriptor::DeselectStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPresentationDescriptor::DeselectStream method
+# IMFPresentationDescriptor::DeselectStream
 
 
 ## -description

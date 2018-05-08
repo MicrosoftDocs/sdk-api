@@ -7,7 +7,7 @@ old-location: security\crypt_xml_key_info.htm
 old-project: SecCrypto
 ms.assetid: 0fd4a80f-52c1-4ff8-9e49-87ddc1f2521d
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO structure [Security], _CRYPT_XML_KEY_INFO, cryptxml/CRYPT_XML_KEY_INFO, security.crypt_xml_key_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CRYPT_XML_KEY_INFO, *PCRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO, *PCRYPT_XML_KEY_INFO
+req.typenames: CRYPT_XML_KEY_INFO, *PCRYPT_XML_KEY_INFO
 topic_type:
 -	APIRef
 -	kbSyntax

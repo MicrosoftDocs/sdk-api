@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.CreateDialogRequestNumber
-title: IBDA_ConditionalAccessEx::CreateDialogRequestNumber method
+title: IBDA_ConditionalAccessEx::CreateDialogRequestNumber
 author: windows-driver-content
 description: Gets a new dialog box request number.
 old-location: mstv\ibda_conditionalaccessex_createdialogrequestnumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cabe06c8-ead5-4e1d-83c3-e7b96b05fc4a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateDialogRequestNumber method [Microsoft TV Technologies], CreateDialogRequestNumber method [Microsoft TV Technologies], IBDA_ConditionalAccessEx interface, CreateDialogRequestNumber,IBDA_ConditionalAccessEx.CreateDialogRequestNumber, IBDA_ConditionalAccessEx, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies], CreateDialogRequestNumber method, IBDA_ConditionalAccessEx::CreateDialogRequestNumber, bdaiface/IBDA_ConditionalAccessEx::CreateDialogRequestNumber, mstv.ibda_conditionalaccessex_createdialogrequestnumber
+ms.keywords: CreateDialogRequestNumber, CreateDialogRequestNumber method [Microsoft TV Technologies], CreateDialogRequestNumber method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CreateDialogRequestNumber method, IBDA_ConditionalAccessEx.CreateDialogRequestNumber, IBDA_ConditionalAccessEx::CreateDialogRequestNumber, bdaiface/IBDA_ConditionalAccessEx::CreateDialogRequestNumber, mstv.ibda_conditionalaccessex_createdialogrequestnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_ConditionalAccessEx::CreateDialogRequestNumber method
+# IBDA_ConditionalAccessEx::CreateDialogRequestNumber
 
 
 ## -description

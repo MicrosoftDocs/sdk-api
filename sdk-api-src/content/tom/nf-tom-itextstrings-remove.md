@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextStrings.Remove
-title: ITextStrings::Remove method
+title: ITextStrings::Remove
 author: windows-driver-content
 description: Removes a string from a string collection, starting at an index.
 old-location: controls\itextstrings_remove.htm
 old-project: Controls
 ms.assetid: 1909e8b6-ee18-4d17-87cf-29bb3553bb25
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextStrings, ITextStrings interface [Windows Controls], Remove method, ITextStrings::Remove, Remove method [Windows Controls], Remove method [Windows Controls], ITextStrings interface, Remove,ITextStrings.Remove, controls.itextstrings_remove, tom/ITextStrings::Remove
+ms.date: 4/27/2018
+ms.keywords: ITextStrings interface [Windows Controls],Remove method, ITextStrings.Remove, ITextStrings::Remove, Remove, Remove method [Windows Controls], Remove method [Windows Controls],ITextStrings interface, controls.itextstrings_remove, tom/ITextStrings::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStrings::Remove method
+# ITextStrings::Remove
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElementsEx.AddElementEx
-title: IMFMediaEngineSrcElementsEx::AddElementEx method
+title: IMFMediaEngineSrcElementsEx::AddElementEx
 author: windows-driver-content
 description: Provides an enhanced version of IMFMediaEngineSrcElements::AddElement to add the key system intended to be used with content to an element.
 old-location: mf\imfmediaenginesrcelementsex_addelementex.htm
 old-project: medfound
 ms.assetid: ad799c61-3ffb-4879-a875-d218c0b56e1c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddElementEx method [Media Foundation], AddElementEx method [Media Foundation], IMFMediaEngineSrcElementsEx interface, AddElementEx,IMFMediaEngineSrcElementsEx.AddElementEx, IMFMediaEngineSrcElementsEx, IMFMediaEngineSrcElementsEx interface [Media Foundation], AddElementEx method, IMFMediaEngineSrcElementsEx::AddElementEx, mf.imfmediaenginesrcelementsex_addelementex, mfmediaengine/IMFMediaEngineSrcElementsEx::AddElementEx
+ms.date: 5/3/2018
+ms.keywords: AddElementEx, AddElementEx method [Media Foundation], AddElementEx method [Media Foundation],IMFMediaEngineSrcElementsEx interface, IMFMediaEngineSrcElementsEx interface [Media Foundation],AddElementEx method, IMFMediaEngineSrcElementsEx.AddElementEx, IMFMediaEngineSrcElementsEx::AddElementEx, mf.imfmediaenginesrcelementsex_addelementex, mfmediaengine/IMFMediaEngineSrcElementsEx::AddElementEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineSrcElementsEx::AddElementEx method
+# IMFMediaEngineSrcElementsEx::AddElementEx
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoDeviceID.GetDeviceID
-title: IMFVideoDeviceID::GetDeviceID method
+title: IMFVideoDeviceID::GetDeviceID
 author: windows-driver-content
 description: Returns the identifier of the video device supported by an EVR mixer or presenter.
 old-location: mf\imfvideodeviceid_getdeviceid.htm
 old-project: medfound
 ms.assetid: e23ebce0-be58-413a-ab71-d94811c96029
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetDeviceID method [Media Foundation], GetDeviceID method [Media Foundation], IMFVideoDeviceID interface, GetDeviceID,IMFVideoDeviceID.GetDeviceID, IMFVideoDeviceID, IMFVideoDeviceID interface [Media Foundation], GetDeviceID method, IMFVideoDeviceID::GetDeviceID, e23ebce0-be58-413a-ab71-d94811c96029, evr/IMFVideoDeviceID::GetDeviceID, mf.imfvideodeviceid_getdeviceid
+ms.date: 5/3/2018
+ms.keywords: GetDeviceID, GetDeviceID method [Media Foundation], GetDeviceID method [Media Foundation],IMFVideoDeviceID interface, IMFVideoDeviceID interface [Media Foundation],GetDeviceID method, IMFVideoDeviceID.GetDeviceID, IMFVideoDeviceID::GetDeviceID, e23ebce0-be58-413a-ab71-d94811c96029, evr/IMFVideoDeviceID::GetDeviceID, mf.imfvideodeviceid_getdeviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoDeviceID::GetDeviceID method
+# IMFVideoDeviceID::GetDeviceID
 
 
 ## -description

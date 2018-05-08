@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVideoCompression.get_WindowSize
-title: IAMVideoCompression::get_WindowSize method
+title: IAMVideoCompression::get_WindowSize
 author: windows-driver-content
 description: The get_WindowSize method retrieves the number of frames over which the compressor will maintain the average data rate.
 old-location: dshow\iamvideocompression_get_windowsize.htm
 old-project: DirectShow
 ms.assetid: 1f12aa72-3468-4dca-a5f6-43f64f6d2f83
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVideoCompression, IAMVideoCompression interface [DirectShow], get_WindowSize method, IAMVideoCompression::get_WindowSize, IAMVideoCompressionget_WindowSize, dshow.iamvideocompression_get_windowsize, get_WindowSize method [DirectShow], get_WindowSize method [DirectShow], IAMVideoCompression interface, get_WindowSize,IAMVideoCompression.get_WindowSize, strmif/IAMVideoCompression::get_WindowSize
+ms.date: 4/30/2018
+ms.keywords: IAMVideoCompression interface [DirectShow],get_WindowSize method, IAMVideoCompression.get_WindowSize, IAMVideoCompression::get_WindowSize, IAMVideoCompressionget_WindowSize, dshow.iamvideocompression_get_windowsize, get_WindowSize, get_WindowSize method [DirectShow], get_WindowSize method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_WindowSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVideoCompression::get_WindowSize method
+# IAMVideoCompression::get_WindowSize
 
 
 ## -description

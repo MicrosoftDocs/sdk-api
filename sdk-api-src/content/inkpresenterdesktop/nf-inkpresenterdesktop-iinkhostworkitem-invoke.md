@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkHostWorkItem.Invoke
-title: IInkHostWorkItem::Invoke method
+title: IInkHostWorkItem::Invoke
 author: windows-driver-content
 description: Executes the ink operation on an IInkDesktopHost object thread.
 old-location: input_ink\iinkhostworkitem_invoke.htm
@@ -8,7 +8,7 @@ old-project: input_ink
 ms.assetid: 032ba18b-dee4-4c94-a9b2-0e95f1013ae2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IInkHostWorkItem, IInkHostWorkItem interface, Invoke method, IInkHostWorkItem::Invoke, InkPresenterDesktop.iinkhostworkitem_invoke, Invoke method, Invoke method, IInkHostWorkItem interface, Invoke,IInkHostWorkItem.Invoke, inkpresenterdesktop/IInkHostWorkItem::Invoke, input_ink.iinkhostworkitem_invoke
+ms.keywords: IInkHostWorkItem interface,Invoke method, IInkHostWorkItem.Invoke, IInkHostWorkItem::Invoke, InkPresenterDesktop.iinkhostworkitem_invoke, Invoke, Invoke method, Invoke method,IInkHostWorkItem interface, inkpresenterdesktop/IInkHostWorkItem::Invoke, input_ink.iinkhostworkitem_invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInkHostWorkItem::Invoke method
+# IInkHostWorkItem::Invoke
 
 
 ## -description

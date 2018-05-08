@@ -7,8 +7,8 @@ old-location: security\crypt_enum_oid_function.htm
 old-project: SecCrypto
 ms.assetid: f29a3454-fa64-4305-ba4e-027d45014024
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CRYPT_ENUM_OID_FUNC, CRYPT_ENUM_OID_FUNCTION, CRYPT_ENUM_OID_FUNCTION callback function [Security], PFN_CRYPT_ENUM_OID_FUNC, security.crypt_enum_oid_function, wincrypt/CRYPT_ENUM_OID_FUNCTION
+ms.date: 4/30/2018
+ms.keywords: CRYPT_ENUM_OID_FUNC, CRYPT_ENUM_OID_FUNCTION, CRYPT_ENUM_OID_FUNCTION callback function [Security], PFN_CRYPT_ENUM_OID_FUNC, PFN_CRYPT_ENUM_OID_FUNC callback, security.crypt_enum_oid_function, wincrypt/CRYPT_ENUM_OID_FUNCTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFN_CRYPT_ENUM_OID_FUNC callback
+# PFN_CRYPT_ENUM_OID_FUNC callback function
 
 
 ## -description

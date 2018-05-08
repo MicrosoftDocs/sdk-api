@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.IEnumQueue.Clone
-title: IEnumQueue::Clone method
+title: IEnumQueue::Clone
 author: windows-driver-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumqueue_clone.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: e63df5aa-8c90-4978-a63f-96ac5f624ef4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Clone method [TAPI 2.2], Clone method [TAPI 2.2], IEnumQueue interface, Clone,IEnumQueue.Clone, IEnumQueue, IEnumQueue interface [TAPI 2.2], Clone method, IEnumQueue::Clone, _tapi3_ienumqueue_clone, tapi3.ienumqueue_clone, tapi3cc/IEnumQueue::Clone
+ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumQueue interface, IEnumQueue interface [TAPI 2.2],Clone method, IEnumQueue.Clone, IEnumQueue::Clone, _tapi3_ienumqueue_clone, tapi3.ienumqueue_clone, tapi3cc/IEnumQueue::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumQueue::Clone method
+# IEnumQueue::Clone
 
 
 ## -description

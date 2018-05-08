@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: CB0C1B66-F1AB-4440-8898-77107C1A2C42
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetTopRightRadiusY, SetTopRightRadiusY methods [DirectComposition], dcomp/SetTopRightRadiusY, directcomp.idcompositionrectangleclip_settoprightradiusy
+ms.keywords: IDCompositionRectangleClip::SetTopRightRadiusY, SetTopRightRadiusY, SetTopRightRadiusY methods [DirectComposition], dcomp/SetTopRightRadiusY, directcomp.idcompositionrectangleclip_settoprightradiusy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

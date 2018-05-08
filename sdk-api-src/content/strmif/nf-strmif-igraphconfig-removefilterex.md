@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IGraphConfig.RemoveFilterEx
-title: IGraphConfig::RemoveFilterEx method
+title: IGraphConfig::RemoveFilterEx
 author: windows-driver-content
 description: The RemoveFilterEx method removes a filter from the filter graph.
 old-location: dshow\igraphconfig_removefilterex.htm
 old-project: DirectShow
 ms.assetid: c3298aa2-4eb2-4e47-9f36-5f2cf541d13e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], RemoveFilterEx method, IGraphConfig::RemoveFilterEx, IGraphConfigRemoveFilterEx, RemoveFilterEx method [DirectShow], RemoveFilterEx method [DirectShow], IGraphConfig interface, RemoveFilterEx,IGraphConfig.RemoveFilterEx, dshow.igraphconfig_removefilterex, strmif/IGraphConfig::RemoveFilterEx
+ms.date: 4/30/2018
+ms.keywords: IGraphConfig interface [DirectShow],RemoveFilterEx method, IGraphConfig.RemoveFilterEx, IGraphConfig::RemoveFilterEx, IGraphConfigRemoveFilterEx, RemoveFilterEx, RemoveFilterEx method [DirectShow], RemoveFilterEx method [DirectShow],IGraphConfig interface, dshow.igraphconfig_removefilterex, strmif/IGraphConfig::RemoveFilterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IGraphConfig::RemoveFilterEx method
+# IGraphConfig::RemoveFilterEx
 
 
 ## -description

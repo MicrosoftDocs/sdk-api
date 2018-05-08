@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetAccessibilityLongDescription
-title: IXpsOMCanvas::SetAccessibilityLongDescription method
+title: IXpsOMCanvas::SetAccessibilityLongDescription
 author: windows-driver-content
 description: Sets the long (detailed) textual description of the object's contents.
 old-location: xps\ixpsomcanvas_setaccessibilitylongdescription.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1b9da720-2823-4749-b881-3b9cd5c303a4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], SetAccessibilityLongDescription method, IXpsOMCanvas::SetAccessibilityLongDescription, SetAccessibilityLongDescription method [XPS Documents and Packaging], SetAccessibilityLongDescription method [XPS Documents and Packaging], IXpsOMCanvas interface, SetAccessibilityLongDescription,IXpsOMCanvas.SetAccessibilityLongDescription, xps.ixpsomcanvas_setaccessibilitylongdescription, xpsobjectmodel/IXpsOMCanvas::SetAccessibilityLongDescription
+ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetAccessibilityLongDescription method, IXpsOMCanvas.SetAccessibilityLongDescription, IXpsOMCanvas::SetAccessibilityLongDescription, SetAccessibilityLongDescription, SetAccessibilityLongDescription method [XPS Documents and Packaging], SetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setaccessibilitylongdescription, xpsobjectmodel/IXpsOMCanvas::SetAccessibilityLongDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCanvas::SetAccessibilityLongDescription method
+# IXpsOMCanvas::SetAccessibilityLongDescription
 
 
 ## -description

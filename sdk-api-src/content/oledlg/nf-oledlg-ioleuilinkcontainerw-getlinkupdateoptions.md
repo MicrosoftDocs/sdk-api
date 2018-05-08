@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerW.GetLinkUpdateOptions
-title: IOleUILinkContainerW::GetLinkUpdateOptions method
+title: IOleUILinkContainerW::GetLinkUpdateOptions
 author: windows-driver-content
 description: Determines the current update options for a link.
 old-location: com\ioleuilinkcontainer_getlinkupdateoptions.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 136894a6-ddf6-4a47-80f5-997625362536
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetLinkUpdateOptions method [COM], GetLinkUpdateOptions method [COM], IOleUILinkContainer interface, GetLinkUpdateOptions method [COM], IOleUILinkContainerA interface, GetLinkUpdateOptions method [COM], IOleUILinkContainerW interface, GetLinkUpdateOptions,IOleUILinkContainerW.GetLinkUpdateOptions, IOleUILinkContainer interface [COM], GetLinkUpdateOptions method, IOleUILinkContainer::GetLinkUpdateOptions, IOleUILinkContainerA interface [COM], GetLinkUpdateOptions method, IOleUILinkContainerA::GetLinkUpdateOptions, IOleUILinkContainerW, IOleUILinkContainerW interface [COM], GetLinkUpdateOptions method, IOleUILinkContainerW::GetLinkUpdateOptions, _ole_IOleUILinkContainer_GetLinkUpdateOptions, com.ioleuilinkcontainer_getlinkupdateoptions, oledlg/IOleUILinkContainer::GetLinkUpdateOptions, oledlg/IOleUILinkContainerA::GetLinkUpdateOptions, oledlg/IOleUILinkContainerW::GetLinkUpdateOptions
+ms.keywords: GetLinkUpdateOptions, GetLinkUpdateOptions method [COM], GetLinkUpdateOptions method [COM],IOleUILinkContainer interface, GetLinkUpdateOptions method [COM],IOleUILinkContainerA interface, GetLinkUpdateOptions method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],GetLinkUpdateOptions method, IOleUILinkContainer::GetLinkUpdateOptions, IOleUILinkContainerA interface [COM],GetLinkUpdateOptions method, IOleUILinkContainerA::GetLinkUpdateOptions, IOleUILinkContainerW interface [COM],GetLinkUpdateOptions method, IOleUILinkContainerW.GetLinkUpdateOptions, IOleUILinkContainerW::GetLinkUpdateOptions, _ole_IOleUILinkContainer_GetLinkUpdateOptions, com.ioleuilinkcontainer_getlinkupdateoptions, oledlg/IOleUILinkContainer::GetLinkUpdateOptions, oledlg/IOleUILinkContainerA::GetLinkUpdateOptions, oledlg/IOleUILinkContainerW::GetLinkUpdateOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleUILinkContainerW::GetLinkUpdateOptions method
+# IOleUILinkContainerW::GetLinkUpdateOptions
 
 
 ## -description

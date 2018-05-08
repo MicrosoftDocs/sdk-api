@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 1843254d-7947-4197-9c1b-6dc01abe9354
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMultisessionRandomWrite, IMultisessionRandomWrite interface [IMAPI], IMultisessionRandomWrite interface [IMAPI], described, imapi.imultisessionrandomwrite, imapi2/IMultisessionRandomWrite
+ms.keywords: IMultisessionRandomWrite, IMultisessionRandomWrite interface [IMAPI], IMultisessionRandomWrite interface [IMAPI],described, imapi.imultisessionrandomwrite, imapi2/IMultisessionRandomWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

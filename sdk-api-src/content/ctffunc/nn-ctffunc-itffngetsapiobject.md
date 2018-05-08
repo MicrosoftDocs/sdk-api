@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: d7b4caa5-e915-4e57-878a-2a2d6ce609a7
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnGetSAPIObject, ITfFnGetSAPIObject interface [Text Services Framework], ITfFnGetSAPIObject interface [Text Services Framework], described, _tsf_itffngetsapiobject_ref, ctffunc/ITfFnGetSAPIObject, tsf.itffngetsapiobject
+ms.keywords: ITfFnGetSAPIObject, ITfFnGetSAPIObject interface [Text Services Framework], ITfFnGetSAPIObject interface [Text Services Framework],described, _tsf_itffngetsapiobject_ref, ctffunc/ITfFnGetSAPIObject, tsf.itffngetsapiobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

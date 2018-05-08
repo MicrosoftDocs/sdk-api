@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IIPDVDec.get_IPDisplay
-title: IIPDVDec::get_IPDisplay method
+title: IIPDVDec::get_IPDisplay
 author: windows-driver-content
 description: The get_IPDisplay method gets the decoding resolution.
 old-location: dshow\iipdvdec_get_ipdisplay.htm
 old-project: DirectShow
 ms.assetid: 9bf8e318-48b7-4aa8-a8c5-974b320f31ce
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IIPDVDec, IIPDVDec interface [DirectShow], get_IPDisplay method, IIPDVDec::get_IPDisplay, IIPDVDecget_IPDisplay, dshow.iipdvdec_get_ipdisplay, get_IPDisplay method [DirectShow], get_IPDisplay method [DirectShow], IIPDVDec interface, get_IPDisplay,IIPDVDec.get_IPDisplay, strmif/IIPDVDec::get_IPDisplay
+ms.date: 4/30/2018
+ms.keywords: IIPDVDec interface [DirectShow],get_IPDisplay method, IIPDVDec.get_IPDisplay, IIPDVDec::get_IPDisplay, IIPDVDecget_IPDisplay, dshow.iipdvdec_get_ipdisplay, get_IPDisplay, get_IPDisplay method [DirectShow], get_IPDisplay method [DirectShow],IIPDVDec interface, strmif/IIPDVDec::get_IPDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IIPDVDec::get_IPDisplay method
+# IIPDVDec::get_IPDisplay
 
 
 ## -description

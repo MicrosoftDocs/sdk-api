@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6capi_classid.htm
 old-project: DHCP
 ms.assetid: 90dbc386-02d9-4631-8af3-edd34537fefc
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCPV6CAPI_CLASSID, *PDHCPV6CAPI_CLASSID, DHCPV6CAPI_CLASSID, DHCPV6CAPI_CLASSID structure [DHCP], LPDHCPV6CAPI_CLASSID, LPDHCPV6CAPI_CLASSID structure pointer [DHCP], PDHCPV6CAPI_CLASSID, PDHCPV6CAPI_CLASSID structure pointer [DHCP], _DHCPV6CAPI_CLASSID, dhcp.dhcpv6capi_classid, dhcpv6csdk/DHCPV6CAPI_CLASSID, dhcpv6csdk/LPDHCPV6CAPI_CLASSID, dhcpv6csdk/PDHCPV6CAPI_CLASSID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,6 +60,16 @@ The <b>DHCPV6CAPI_CLASSID</b> structure defines an IPv6 client class ID.
 ### -field Flags
 
 Reserved for future use.  Must be set to 0.
+
+
+### -field Data.size_is
+
+ 
+
+
+### -field Data.size_is.nBytesData
+
+ 
 
 
 ### -field Data

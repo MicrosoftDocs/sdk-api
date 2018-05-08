@@ -58,6 +58,31 @@ The <b>LSA_FOREST_TRUST_BINARY_DATA</b> structure contains binary data used in <
 
 
 
+### -field Length.range
+
+ 
+
+
+### -field Length.range.0
+
+ 
+
+
+### -field Length.range.MAX_FOREST_TRUST_BINARY_DATA_SIZE
+
+ 
+
+
+### -field Buffer.size_is
+
+ 
+
+
+### -field Buffer.size_is.Length
+
+ 
+
+
 ### -field Length
 
 Size of the structure in bytes.

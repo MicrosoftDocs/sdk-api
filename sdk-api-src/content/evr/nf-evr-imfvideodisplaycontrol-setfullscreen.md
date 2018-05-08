@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetFullscreen
-title: IMFVideoDisplayControl::SetFullscreen method
+title: IMFVideoDisplayControl::SetFullscreen
 author: windows-driver-content
 description: Sets or unsets full-screen rendering mode.
 old-location: mf\imfvideodisplaycontrol_setfullscreen.htm
 old-project: medfound
 ms.assetid: 95c85fb2-9267-477f-aa47-1c050ccc1bdd
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 95c85fb2-9267-477f-aa47-1c050ccc1bdd, IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], SetFullscreen method, IMFVideoDisplayControl::SetFullscreen, SetFullscreen method [Media Foundation], SetFullscreen method [Media Foundation], IMFVideoDisplayControl interface, SetFullscreen,IMFVideoDisplayControl.SetFullscreen, evr/IMFVideoDisplayControl::SetFullscreen, mf.imfvideodisplaycontrol_setfullscreen
+ms.date: 5/3/2018
+ms.keywords: 95c85fb2-9267-477f-aa47-1c050ccc1bdd, IMFVideoDisplayControl interface [Media Foundation],SetFullscreen method, IMFVideoDisplayControl.SetFullscreen, IMFVideoDisplayControl::SetFullscreen, SetFullscreen, SetFullscreen method [Media Foundation], SetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetFullscreen, mf.imfvideodisplaycontrol_setfullscreen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoDisplayControl::SetFullscreen method
+# IMFVideoDisplayControl::SetFullscreen
 
 
 ## -description

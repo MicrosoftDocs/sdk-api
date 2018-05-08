@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMTSActivity.BindToCurrentThread
-title: IMTSActivity::BindToCurrentThread method
+title: IMTSActivity::BindToCurrentThread
 author: windows-driver-content
 description: Binds the batch work that is submitted using IMTSActivity::AsyncCall or IMTSActivity::SynchronousCall to the current single-threaded apartment (STA).
 old-location: cos\imtsactivity_bindtocurrentthread.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 31f0c64c-275c-431c-b85e-6ee5f4318e1f
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: BindToCurrentThread method [COM+], BindToCurrentThread method [COM+], IMTSActivity interface, BindToCurrentThread,IMTSActivity.BindToCurrentThread, IMTSActivity, IMTSActivity interface [COM+], BindToCurrentThread method, IMTSActivity::BindToCurrentThread, _cos_IMTSActivity_BindToCurrentThread, comsvcs/IMTSActivity::BindToCurrentThread, cos.imtsactivity_bindtocurrentthread
+ms.keywords: BindToCurrentThread, BindToCurrentThread method [COM+], BindToCurrentThread method [COM+],IMTSActivity interface, IMTSActivity interface [COM+],BindToCurrentThread method, IMTSActivity.BindToCurrentThread, IMTSActivity::BindToCurrentThread, _cos_IMTSActivity_BindToCurrentThread, comsvcs/IMTSActivity::BindToCurrentThread, cos.imtsactivity_bindtocurrentthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMTSActivity::BindToCurrentThread method
+# IMTSActivity::BindToCurrentThread
 
 
 ## -description

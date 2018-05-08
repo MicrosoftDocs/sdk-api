@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetCertificateEnumerator
-title: IOpcDigitalSignature::GetCertificateEnumerator method
+title: IOpcDigitalSignature::GetCertificateEnumerator
 author: windows-driver-content
 description: Gets an enumerator of certificates that are used in the signature.
 old-location: opc\iopcdigitalsignature_getcertificateenumerator.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 5b5b803f-fc61-41fa-aa73-eefb1c1d2f00
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCertificateEnumerator method [Open Packaging Conventions], GetCertificateEnumerator method [Open Packaging Conventions], IOpcDigitalSignature interface, GetCertificateEnumerator,IOpcDigitalSignature.GetCertificateEnumerator, IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], GetCertificateEnumerator method, IOpcDigitalSignature::GetCertificateEnumerator, msopc/IOpcDigitalSignature::GetCertificateEnumerator, opc.iopcdigitalsignature_getcertificateenumerator
+ms.keywords: GetCertificateEnumerator, GetCertificateEnumerator method [Open Packaging Conventions], GetCertificateEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCertificateEnumerator method, IOpcDigitalSignature.GetCertificateEnumerator, IOpcDigitalSignature::GetCertificateEnumerator, msopc/IOpcDigitalSignature::GetCertificateEnumerator, opc.iopcdigitalsignature_getcertificateenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcDigitalSignature::GetCertificateEnumerator method
+# IOpcDigitalSignature::GetCertificateEnumerator
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_Recorder
-title: IDiscFormat2Erase::get_Recorder method
+title: IDiscFormat2Erase::get_Recorder
 author: windows-driver-content
 description: Retrieves the recording device to use in the erase operation.
 old-location: imapi\idiscformat2erase_get_recorder.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 5f41ea99-e467-45ef-8f78-8b0637adf5be
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Erase, IDiscFormat2Erase interface [IMAPI], get_Recorder method, IDiscFormat2Erase::get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI], IDiscFormat2Erase interface, get_Recorder,IDiscFormat2Erase.get_Recorder, imapi.idiscformat2erase_get_recorder, imapi2/IDiscFormat2Erase::get_Recorder
+ms.keywords: IDiscFormat2Erase interface [IMAPI],get_Recorder method, IDiscFormat2Erase.get_Recorder, IDiscFormat2Erase::get_Recorder, get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI],IDiscFormat2Erase interface, imapi.idiscformat2erase_get_recorder, imapi2/IDiscFormat2Erase::get_Recorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Erase::get_Recorder method
+# IDiscFormat2Erase::get_Recorder
 
 
 ## -description

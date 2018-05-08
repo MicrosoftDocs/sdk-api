@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll4.put_IncludeSubjectKeyID
-title: ICEnroll4::put_IncludeSubjectKeyID method
+title: ICEnroll4::put_IncludeSubjectKeyID
 author: windows-driver-content
 description: Determines whether the subject key ID extension is added to the certificate request that is generated.
 old-location: security\icenroll4_includesubjectkeyid.htm
 old-project: SecCrypto
 ms.assetid: 12150ca2-59cc-402e-b25e-cc98b940ecf8
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], IncludeSubjectKeyID property, ICEnroll4, ICEnroll4 interface [Security], IncludeSubjectKeyID property, ICEnroll4.IncludeSubjectKeyID, ICEnroll4::get_IncludeSubjectKeyID, ICEnroll4::put_IncludeSubjectKeyID, IncludeSubjectKeyID property [Security], IncludeSubjectKeyID property [Security], CEnroll object, IncludeSubjectKeyID property [Security], ICEnroll4 interface, put_IncludeSubjectKeyID,ICEnroll4.put_IncludeSubjectKeyID, security.icenroll4_includesubjectkeyid, xenroll/ICEnroll4::IncludeSubjectKeyID, xenroll/ICEnroll4::get_IncludeSubjectKeyID, xenroll/ICEnroll4::put_IncludeSubjectKeyID
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],IncludeSubjectKeyID property, ICEnroll4 interface [Security],IncludeSubjectKeyID property, ICEnroll4.IncludeSubjectKeyID, ICEnroll4.put_IncludeSubjectKeyID, ICEnroll4::IncludeSubjectKeyID, ICEnroll4::get_IncludeSubjectKeyID, ICEnroll4::put_IncludeSubjectKeyID, IncludeSubjectKeyID property [Security], IncludeSubjectKeyID property [Security],CEnroll object, IncludeSubjectKeyID property [Security],ICEnroll4 interface, put_IncludeSubjectKeyID, security.icenroll4_includesubjectkeyid, xenroll/ICEnroll4::IncludeSubjectKeyID, xenroll/ICEnroll4::get_IncludeSubjectKeyID, xenroll/ICEnroll4::put_IncludeSubjectKeyID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll4::put_IncludeSubjectKeyID method
+# ICEnroll4::put_IncludeSubjectKeyID
 
 
 ## -description

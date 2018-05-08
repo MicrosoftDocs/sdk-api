@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidEVR.put_SuppressEffects
-title: IMSVidEVR::put_SuppressEffects method
+title: IMSVidEVR::put_SuppressEffects
 author: windows-driver-content
 description: The put_SuppressEffects method specifies whether the Video Control configures the system for optimal video playback.
 old-location: mstv\imsvidevr_put_suppresseffects.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 399250b6-4f2d-4dbf-b1e8-d32a0673617e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidEVR, IMSVidEVR interface [Microsoft TV Technologies], put_SuppressEffects method, IMSVidEVR::put_SuppressEffects, IMSVidEVRput_SuppressEffects, mstv.imsvidevr_put_suppresseffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies], IMSVidEVR interface, put_SuppressEffects,IMSVidEVR.put_SuppressEffects, segment/IMSVidEVR::put_SuppressEffects
+ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidEVR.put_SuppressEffects, IMSVidEVR::put_SuppressEffects, IMSVidEVRput_SuppressEffects, mstv.imsvidevr_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidEVR interface, segment/IMSVidEVR::put_SuppressEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidEVR::put_SuppressEffects method
+# IMSVidEVR::put_SuppressEffects
 
 
 ## -description

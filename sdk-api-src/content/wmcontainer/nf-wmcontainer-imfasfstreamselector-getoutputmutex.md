@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputMutex
-title: IMFASFStreamSelector::GetOutputMutex method
+title: IMFASFStreamSelector::GetOutputMutex
 author: windows-driver-content
 description: Retrieves a mutual exclusion object for an output.
 old-location: mf\imfasfstreamselector_getoutputmutex.htm
 old-project: medfound
 ms.assetid: d134f4a9-9bca-454f-8dc1-2e152684a4bf
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetOutputMutex method [Media Foundation], GetOutputMutex method [Media Foundation], IMFASFStreamSelector interface, GetOutputMutex,IMFASFStreamSelector.GetOutputMutex, IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], GetOutputMutex method, IMFASFStreamSelector::GetOutputMutex, d134f4a9-9bca-454f-8dc1-2e152684a4bf, mf.imfasfstreamselector_getoutputmutex, wmcontainer/IMFASFStreamSelector::GetOutputMutex
+ms.date: 5/3/2018
+ms.keywords: GetOutputMutex, GetOutputMutex method [Media Foundation], GetOutputMutex method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputMutex method, IMFASFStreamSelector.GetOutputMutex, IMFASFStreamSelector::GetOutputMutex, d134f4a9-9bca-454f-8dc1-2e152684a4bf, mf.imfasfstreamselector_getoutputmutex, wmcontainer/IMFASFStreamSelector::GetOutputMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFStreamSelector::GetOutputMutex method
+# IMFASFStreamSelector::GetOutputMutex
 
 
 ## -description

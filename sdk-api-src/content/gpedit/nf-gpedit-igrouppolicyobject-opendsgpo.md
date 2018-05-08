@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.OpenDSGPO
-title: IGroupPolicyObject::OpenDSGPO method
+title: IGroupPolicyObject::OpenDSGPO
 author: windows-driver-content
 description: The OpenDSGPO method opens the specified GPO and optionally loads the registry information.
 old-location: policy\igrouppolicyobject_opendsgpo.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: 362b6229-d73f-424f-b906-05ed43e5e034
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], OpenDSGPO method, IGroupPolicyObject::OpenDSGPO, OpenDSGPO method [Group Policy], OpenDSGPO method [Group Policy], IGroupPolicyObject interface, OpenDSGPO,IGroupPolicyObject.OpenDSGPO, _win32_igrouppolicyobject_opendsgpo, gpedit/IGroupPolicyObject::OpenDSGPO, policy.igrouppolicyobject_opendsgpo
+ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject interface [Group Policy],OpenDSGPO method, IGroupPolicyObject.OpenDSGPO, IGroupPolicyObject::OpenDSGPO, OpenDSGPO, OpenDSGPO method [Group Policy], OpenDSGPO method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_opendsgpo, gpedit/IGroupPolicyObject::OpenDSGPO, policy.igrouppolicyobject_opendsgpo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGroupPolicyObject::OpenDSGPO method
+# IGroupPolicyObject::OpenDSGPO
 
 
 ## -description

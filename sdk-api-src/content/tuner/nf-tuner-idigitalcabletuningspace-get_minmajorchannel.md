@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.get_MinMajorChannel
-title: IDigitalCableTuningSpace::get_MinMajorChannel method
+title: IDigitalCableTuningSpace::get_MinMajorChannel
 author: windows-driver-content
 description: The get_MinMajorChannel method retrieves the lowest major channel number for this tuning space.
 old-location: mstv\idigitalcabletuningspace_get_minmajorchannel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: aa7df820-c970-4333-b4e3-54d68d951f1e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDigitalCableTuningSpace, IDigitalCableTuningSpace interface [Microsoft TV Technologies], get_MinMajorChannel method, IDigitalCableTuningSpace::get_MinMajorChannel, IDigitalCableTuningSpaceget_MinMajorChannel, get_MinMajorChannel method [Microsoft TV Technologies], get_MinMajorChannel method [Microsoft TV Technologies], IDigitalCableTuningSpace interface, get_MinMajorChannel,IDigitalCableTuningSpace.get_MinMajorChannel, mstv.idigitalcabletuningspace_get_minmajorchannel, tuner/IDigitalCableTuningSpace::get_MinMajorChannel
+ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],get_MinMajorChannel method, IDigitalCableTuningSpace.get_MinMajorChannel, IDigitalCableTuningSpace::get_MinMajorChannel, IDigitalCableTuningSpaceget_MinMajorChannel, get_MinMajorChannel, get_MinMajorChannel method [Microsoft TV Technologies], get_MinMajorChannel method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, mstv.idigitalcabletuningspace_get_minmajorchannel, tuner/IDigitalCableTuningSpace::get_MinMajorChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDigitalCableTuningSpace::get_MinMajorChannel method
+# IDigitalCableTuningSpace::get_MinMajorChannel
 
 
 ## -description

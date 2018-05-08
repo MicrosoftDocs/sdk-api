@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetRootElement
-title: IUIAutomation::GetRootElement method
+title: IUIAutomation::GetRootElement
 author: windows-driver-content
 description: Retrieves the UI Automation element that represents the desktop.
 old-location: winauto\uiauto_IUIAutomation_GetRootElement.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9b6f3a78-a957-4ebd-a026-a8edb30faa88
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetRootElement method [Windows Accessibility], GetRootElement method [Windows Accessibility], IUIAutomation interface, GetRootElement,IUIAutomation.GetRootElement, IUIAutomation, IUIAutomation interface [Windows Accessibility], GetRootElement method, IUIAutomation::GetRootElement, uiauto.uiauto_IUIAutomation_GetRootElement, uiauto_IUIAutomation_GetRootElement, uiautomationclient/IUIAutomation::GetRootElement, winauto.uiauto_IUIAutomation_GetRootElement
+ms.keywords: GetRootElement, GetRootElement method [Windows Accessibility], GetRootElement method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetRootElement method, IUIAutomation.GetRootElement, IUIAutomation::GetRootElement, uiauto.uiauto_IUIAutomation_GetRootElement, uiauto_IUIAutomation_GetRootElement, uiautomationclient/IUIAutomation::GetRootElement, winauto.uiauto_IUIAutomation_GetRootElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::GetRootElement method
+# IUIAutomation::GetRootElement
 
 
 ## -description

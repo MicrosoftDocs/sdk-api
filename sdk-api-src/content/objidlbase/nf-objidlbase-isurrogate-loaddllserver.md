@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.ISurrogate.LoadDllServer
-title: ISurrogate::LoadDllServer method
+title: ISurrogate::LoadDllServer
 author: windows-driver-content
 description: Loads a DLL server into the implementing surrogate. COM calls this method when there is an activation request for the DLL server's class, if the class is registered as DllSurrogate.
 old-location: com\isurrogate_loaddllserver.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 18727dee-392d-4f88-b1de-35da8a5887b6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISurrogate, ISurrogate interface [COM], LoadDllServer method, ISurrogate::LoadDllServer, LoadDllServer method [COM], LoadDllServer method [COM], ISurrogate interface, LoadDllServer,ISurrogate.LoadDllServer, _com_isurrogate_loaddllserver, com.isurrogate_loaddllserver, objidlbase/ISurrogate::LoadDllServer
+ms.keywords: ISurrogate interface [COM],LoadDllServer method, ISurrogate.LoadDllServer, ISurrogate::LoadDllServer, LoadDllServer, LoadDllServer method [COM], LoadDllServer method [COM],ISurrogate interface, _com_isurrogate_loaddllserver, com.isurrogate_loaddllserver, objidlbase/ISurrogate::LoadDllServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISurrogate::LoadDllServer method
+# ISurrogate::LoadDllServer
 
 
 ## -description

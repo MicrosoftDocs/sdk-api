@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_MaxKeyContainerNameLength
-title: ICspInformation::get_MaxKeyContainerNameLength method
+title: ICspInformation::get_MaxKeyContainerNameLength
 author: windows-driver-content
 description: Retrieves the maximum supported length for the name of the private key container associated with the provider.
 old-location: security\icspinformation_maxkeycontainernamelength_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 2508786f-0892-4ece-bbef-bd8ed9c81eee
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICspInformation, ICspInformation interface [Security], MaxKeyContainerNameLength property, ICspInformation.MaxKeyContainerNameLength, ICspInformation::get_MaxKeyContainerNameLength, MaxKeyContainerNameLength property [Security], MaxKeyContainerNameLength property [Security], ICspInformation interface, certenroll/ICspInformation::MaxKeyContainerNameLength, certenroll/ICspInformation::get_MaxKeyContainerNameLength, get_MaxKeyContainerNameLength,ICspInformation.get_MaxKeyContainerNameLength, security.icspinformation_maxkeycontainernamelength_property
+ms.keywords: ICspInformation interface [Security],MaxKeyContainerNameLength property, ICspInformation.MaxKeyContainerNameLength, ICspInformation.get_MaxKeyContainerNameLength, ICspInformation::MaxKeyContainerNameLength, ICspInformation::get_MaxKeyContainerNameLength, MaxKeyContainerNameLength property [Security], MaxKeyContainerNameLength property [Security],ICspInformation interface, certenroll/ICspInformation::MaxKeyContainerNameLength, certenroll/ICspInformation::get_MaxKeyContainerNameLength, get_MaxKeyContainerNameLength, security.icspinformation_maxkeycontainernamelength_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspInformation::get_MaxKeyContainerNameLength method
+# ICspInformation::get_MaxKeyContainerNameLength
 
 
 ## -description

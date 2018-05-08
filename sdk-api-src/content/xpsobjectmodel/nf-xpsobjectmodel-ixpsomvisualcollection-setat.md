@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.SetAt
-title: IXpsOMVisualCollection::SetAt method
+title: IXpsOMVisualCollection::SetAt
 author: windows-driver-content
 description: Replaces an IXpsOMVisual interface pointer at a specified location in the collection.
 old-location: xps\ixpsomvisualcollection_setat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f06c2e27-213e-483e-9c56-1c06384b6ed8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Documents and Packaging], SetAt method, IXpsOMVisualCollection::SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging], IXpsOMVisualCollection interface, SetAt,IXpsOMVisualCollection.SetAt, xps.ixpsomvisualcollection_setat, xpsobjectmodel/IXpsOMVisualCollection::SetAt
+ms.keywords: IXpsOMVisualCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMVisualCollection.SetAt, IXpsOMVisualCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, xps.ixpsomvisualcollection_setat, xpsobjectmodel/IXpsOMVisualCollection::SetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisualCollection::SetAt method
+# IXpsOMVisualCollection::SetAt
 
 
 ## -description

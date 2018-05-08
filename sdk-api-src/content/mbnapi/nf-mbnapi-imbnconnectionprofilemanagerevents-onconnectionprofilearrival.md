@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival
-title: IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival method
+title: IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival
 author: windows-driver-content
 description: Notification method that indicates a new connection profile has been added to the system.
 old-location: mbn\imbnconnectionprofilemanagerevents_onconnectionprofilearrival.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 94338c8c-2a89-412f-811e-5c50ecd9be70
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnConnectionProfileManagerEvents, IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks], OnConnectionProfileArrival method, IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival, OnConnectionProfileArrival method [Microsoft Broadband Networks], OnConnectionProfileArrival method [Microsoft Broadband Networks], IMbnConnectionProfileManagerEvents interface, OnConnectionProfileArrival,IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival, mbn.imbnconnectionprofilemanagerevents_onconnectionprofilearrival, mbnapi/IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival
+ms.keywords: IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks],OnConnectionProfileArrival method, IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival, IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival, OnConnectionProfileArrival, OnConnectionProfileArrival method [Microsoft Broadband Networks], OnConnectionProfileArrival method [Microsoft Broadband Networks],IMbnConnectionProfileManagerEvents interface, mbn.imbnconnectionprofilemanagerevents_onconnectionprofilearrival, mbnapi/IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival method
+# IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival
 
 
 ## -description

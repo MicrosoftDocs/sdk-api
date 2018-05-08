@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IEntity.Relationships
-title: IEntity::Relationships method
+title: IEntity::Relationships
 author: windows-driver-content
 description: Retrieves an enumeration of IRelationship objects, one for each relationship this entity has.
 old-location: search\_search_IEntity_Relationships.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\relationships.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IEntity, IEntity interface [search], Relationships method, IEntity::Relationships, Relationships method [search], Relationships method [search], IEntity interface, Relationships,IEntity.Relationships, _search_IEntity_Relationships, search._search_IEntity_Relationships, structuredquery/IEntity::Relationships
+ms.date: 5/4/2018
+ms.keywords: IEntity interface [search],Relationships method, IEntity.Relationships, IEntity::Relationships, Relationships, Relationships method [search], Relationships method [search],IEntity interface, _search_IEntity_Relationships, search._search_IEntity_Relationships, structuredquery/IEntity::Relationships
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEntity::Relationships method
+# IEntity::Relationships
 
 
 ## -description

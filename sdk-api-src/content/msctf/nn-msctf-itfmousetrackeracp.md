@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6761cf80-60b1-4c3a-8c3f-f040fab60f24
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfMouseTrackerACP, ITfMouseTrackerACP interface [Text Services Framework], ITfMouseTrackerACP interface [Text Services Framework], described, _tsf_itfmousetrackeracp_ref, msctf/ITfMouseTrackerACP, tsf.itfmousetrackeracp
+ms.keywords: ITfMouseTrackerACP, ITfMouseTrackerACP interface [Text Services Framework], ITfMouseTrackerACP interface [Text Services Framework],described, _tsf_itfmousetrackeracp_ref, msctf/ITfMouseTrackerACP, tsf.itfmousetrackeracp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

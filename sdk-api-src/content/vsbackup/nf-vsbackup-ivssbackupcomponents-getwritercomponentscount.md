@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GetWriterComponentsCount
-title: IVssBackupComponents::GetWriterComponentsCount method
+title: IVssBackupComponents::GetWriterComponentsCount
 author: windows-driver-content
 description: The GetWriterComponentsCount method returns the number of writers whose components have been added to a requester's Backup Components Document.
 old-location: base\ivssbackupcomponents_getwritercomponentscount.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 39ab6179-2828-46dc-bfcd-0dd62c34ce95
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetWriterComponentsCount method [VSS], GetWriterComponentsCount method [VSS], IVssBackupComponents interface, GetWriterComponentsCount,IVssBackupComponents.GetWriterComponentsCount, IVssBackupComponents, IVssBackupComponents interface [VSS], GetWriterComponentsCount method, IVssBackupComponents::GetWriterComponentsCount, _win32_ivssbackupcomponents_getwritercomponentscount, base.ivssbackupcomponents_getwritercomponentscount, vsbackup/IVssBackupComponents::GetWriterComponentsCount
+ms.keywords: GetWriterComponentsCount, GetWriterComponentsCount method [VSS], GetWriterComponentsCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponentsCount method, IVssBackupComponents.GetWriterComponentsCount, IVssBackupComponents::GetWriterComponentsCount, _win32_ivssbackupcomponents_getwritercomponentscount, base.ivssbackupcomponents_getwritercomponentscount, vsbackup/IVssBackupComponents::GetWriterComponentsCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::GetWriterComponentsCount method
+# IVssBackupComponents::GetWriterComponentsCount
 
 
 ## -description

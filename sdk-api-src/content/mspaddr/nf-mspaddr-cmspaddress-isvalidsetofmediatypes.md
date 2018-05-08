@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CMSPAddress.IsValidSetOfMediaTypes
-title: CMSPAddress::IsValidSetOfMediaTypes method
+title: CMSPAddress::IsValidSetOfMediaTypes
 author: windows-driver-content
 description: The IsValidSetOfMediaTypes method checks to see if the specified media type is nonzero and is in the specified mask.
 old-location: tapi3\cmspaddress_isvalidsetofmediatypes.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 4dc47d60-184d-4601-8c58-08ae8b747223
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPAddress, CMSPAddress interface [TAPI 2.2], IsValidSetOfMediaTypes method, CMSPAddress::IsValidSetOfMediaTypes, IsValidSetOfMediaTypes method [TAPI 2.2], IsValidSetOfMediaTypes method [TAPI 2.2], CMSPAddress interface, IsValidSetOfMediaTypes,CMSPAddress.IsValidSetOfMediaTypes, _tapi3_cmspaddress_isvalidsetofmediatypes, mspaddr/CMSPAddress::IsValidSetOfMediaTypes, tapi3.cmspaddress_isvalidsetofmediatypes
+ms.keywords: CMSPAddress interface [TAPI 2.2],IsValidSetOfMediaTypes method, CMSPAddress.IsValidSetOfMediaTypes, CMSPAddress::IsValidSetOfMediaTypes, IsValidSetOfMediaTypes, IsValidSetOfMediaTypes method [TAPI 2.2], IsValidSetOfMediaTypes method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_isvalidsetofmediatypes, mspaddr/CMSPAddress::IsValidSetOfMediaTypes, tapi3.cmspaddress_isvalidsetofmediatypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPAddress::IsValidSetOfMediaTypes method
+# CMSPAddress::IsValidSetOfMediaTypes
 
 
 ## -description

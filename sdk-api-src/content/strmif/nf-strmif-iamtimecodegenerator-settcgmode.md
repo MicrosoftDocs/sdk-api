@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.SetTCGMode
-title: IAMTimecodeGenerator::SetTCGMode method
+title: IAMTimecodeGenerator::SetTCGMode
 author: windows-driver-content
 description: The SetTCGMode method sets the SMPTE timecode generator properties.
 old-location: dshow\iamtimecodegenerator_settcgmode.htm
 old-project: DirectShow
 ms.assetid: 61434534-0a43-4bf3-81d1-3b27ac601cb4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTimecodeGenerator, IAMTimecodeGenerator interface [DirectShow], SetTCGMode method, IAMTimecodeGenerator::SetTCGMode, IAMTimecodeGeneratorSetTCGMode, SetTCGMode method [DirectShow], SetTCGMode method [DirectShow], IAMTimecodeGenerator interface, SetTCGMode,IAMTimecodeGenerator.SetTCGMode, dshow.iamtimecodegenerator_settcgmode, strmif/IAMTimecodeGenerator::SetTCGMode
+ms.date: 4/30/2018
+ms.keywords: IAMTimecodeGenerator interface [DirectShow],SetTCGMode method, IAMTimecodeGenerator.SetTCGMode, IAMTimecodeGenerator::SetTCGMode, IAMTimecodeGeneratorSetTCGMode, SetTCGMode, SetTCGMode method [DirectShow], SetTCGMode method [DirectShow],IAMTimecodeGenerator interface, dshow.iamtimecodegenerator_settcgmode, strmif/IAMTimecodeGenerator::SetTCGMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTimecodeGenerator::SetTCGMode method
+# IAMTimecodeGenerator::SetTCGMode
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10DeviceChild.SetPrivateData
-title: ID3D10DeviceChild::SetPrivateData method
+title: ID3D10DeviceChild::SetPrivateData
 author: windows-driver-content
 description: Set application-defined data to a device child and associate that data with an application-defined guid.
 old-location: direct3d10\id3d10devicechild_setprivatedata.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild_setprivatedata.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10DeviceChild, ID3D10DeviceChild interface [Direct3D 10], SetPrivateData method, ID3D10DeviceChild::SetPrivateData, SetPrivateData method [Direct3D 10], SetPrivateData method [Direct3D 10], ID3D10DeviceChild interface, SetPrivateData,ID3D10DeviceChild.SetPrivateData, b8fdde8d-dc47-4ec2-997e-b42841dc5441, d3d10/ID3D10DeviceChild::SetPrivateData, direct3d10.id3d10devicechild_setprivatedata
+ms.keywords: ID3D10DeviceChild interface [Direct3D 10],SetPrivateData method, ID3D10DeviceChild.SetPrivateData, ID3D10DeviceChild::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 10], SetPrivateData method [Direct3D 10],ID3D10DeviceChild interface, b8fdde8d-dc47-4ec2-997e-b42841dc5441, d3d10/ID3D10DeviceChild::SetPrivateData, direct3d10.id3d10devicechild_setprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10DeviceChild::SetPrivateData method
+# ID3D10DeviceChild::SetPrivateData
 
 
 ## -description

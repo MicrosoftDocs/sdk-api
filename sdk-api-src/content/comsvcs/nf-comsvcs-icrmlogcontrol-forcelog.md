@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.ForceLog
-title: ICrmLogControl::ForceLog method
+title: ICrmLogControl::ForceLog
 author: windows-driver-content
 description: Forces all log records to be durable on disk.
 old-location: cos\icrmlogcontrol_forcelog.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 547c9e31-62a0-413e-8371-20356bfe8906
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ForceLog method [COM+], ForceLog method [COM+], ICrmLogControl interface, ForceLog,ICrmLogControl.ForceLog, ICrmLogControl, ICrmLogControl interface [COM+], ForceLog method, ICrmLogControl::ForceLog, _dtc_ICrmLogControl_ForceLog, comsvcs/ICrmLogControl::ForceLog, cos.icrmlogcontrol_forcelog
+ms.keywords: ForceLog, ForceLog method [COM+], ForceLog method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForceLog method, ICrmLogControl.ForceLog, ICrmLogControl::ForceLog, _dtc_ICrmLogControl_ForceLog, comsvcs/ICrmLogControl::ForceLog, cos.icrmlogcontrol_forcelog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICrmLogControl::ForceLog method
+# ICrmLogControl::ForceLog
 
 
 ## -description

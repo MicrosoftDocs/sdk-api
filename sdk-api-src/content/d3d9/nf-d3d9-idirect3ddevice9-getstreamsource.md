@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetStreamSource
-title: IDirect3DDevice9::GetStreamSource method
+title: IDirect3DDevice9::GetStreamSource
 author: windows-driver-content
 description: Retrieves a vertex buffer bound to the specified data stream.
 old-location: direct3d9\idirect3ddevice9__getstreamsource.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getstreamsource.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 2e39bbb7-4148-9989-c1b0-1c60594bdf41, GetStreamSource method [Direct3D 9], GetStreamSource method [Direct3D 9], IDirect3DDevice9 interface, GetStreamSource,IDirect3DDevice9.GetStreamSource, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetStreamSource method, IDirect3DDevice9::GetStreamSource, d3d9helper/IDirect3DDevice9::GetStreamSource, direct3d9.idirect3ddevice9__getstreamsource
+ms.keywords: 2e39bbb7-4148-9989-c1b0-1c60594bdf41, GetStreamSource, GetStreamSource method [Direct3D 9], GetStreamSource method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetStreamSource method, IDirect3DDevice9.GetStreamSource, IDirect3DDevice9::GetStreamSource, d3d9helper/IDirect3DDevice9::GetStreamSource, direct3d9.idirect3ddevice9__getstreamsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::GetStreamSource method
+# IDirect3DDevice9::GetStreamSource
 
 
 ## -description

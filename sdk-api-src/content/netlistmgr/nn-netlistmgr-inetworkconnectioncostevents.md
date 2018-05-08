@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: ABFE73E5-CB9E-4077-81D2-DD0FB39F4EC5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetworkConnectionCostEvents, INetworkConnectionCostEvents interface [Network Awareness], INetworkConnectionCostEvents interface [Network Awareness], described, netlistmgr/INetworkConnectionCostEvents, nla.inetworkconnectioncostevents
+ms.keywords: INetworkConnectionCostEvents, INetworkConnectionCostEvents interface [Network Awareness], INetworkConnectionCostEvents interface [Network Awareness],described, netlistmgr/INetworkConnectionCostEvents, nla.inetworkconnectioncostevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

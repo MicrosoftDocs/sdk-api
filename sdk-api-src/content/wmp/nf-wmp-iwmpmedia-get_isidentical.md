@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMedia.get_isIdentical
-title: IWMPMedia::get_isIdentical method
+title: IWMPMedia::get_isIdentical
 author: windows-driver-content
 description: The get_isIdentical method retrieves a value indicating whether the specified object is the same as the current one.
 old-location: wmp\iwmpmedia_get_isidentical.htm
 old-project: WMP
 ms.assetid: 6ec54350-0359-4759-a6ba-6132ce33feff
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], get_isIdentical method, IWMPMedia2 interface [Windows Media Player], get_isIdentical method, IWMPMedia2::get_isIdentical, IWMPMedia3 interface [Windows Media Player], get_isIdentical method, IWMPMedia3::get_isIdentical, IWMPMedia::get_isIdentical, IWMPMediaget_isIdentical, get_isIdentical method [Windows Media Player], get_isIdentical method [Windows Media Player], IWMPMedia interface, get_isIdentical method [Windows Media Player], IWMPMedia2 interface, get_isIdentical method [Windows Media Player], IWMPMedia3 interface, get_isIdentical,IWMPMedia.get_isIdentical, wmp.iwmpmedia_get_isidentical, wmp/IWMPMedia2::get_isIdentical, wmp/IWMPMedia3::get_isIdentical, wmp/IWMPMedia::get_isIdentical
+ms.date: 5/4/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],get_isIdentical method, IWMPMedia.get_isIdentical, IWMPMedia2 interface [Windows Media Player],get_isIdentical method, IWMPMedia2::get_isIdentical, IWMPMedia3 interface [Windows Media Player],get_isIdentical method, IWMPMedia3::get_isIdentical, IWMPMedia::get_isIdentical, IWMPMediaget_isIdentical, get_isIdentical, get_isIdentical method [Windows Media Player], get_isIdentical method [Windows Media Player],IWMPMedia interface, get_isIdentical method [Windows Media Player],IWMPMedia2 interface, get_isIdentical method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_isidentical, wmp/IWMPMedia2::get_isIdentical, wmp/IWMPMedia3::get_isIdentical, wmp/IWMPMedia::get_isIdentical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMedia::get_isIdentical method
+# IWMPMedia::get_isIdentical
 
 
 ## -description

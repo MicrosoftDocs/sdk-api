@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISurrogateService.Init
-title: ISurrogateService::Init method
+title: ISurrogateService::Init
 author: windows-driver-content
 description: Initializes the process server.
 old-location: com\isurrogateservice_init.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ed2e628c-5c86-48fd-aa55-f532602247ea
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISurrogateService, ISurrogateService interface [COM], Init method, ISurrogateService::Init, Init method [COM], Init method [COM], ISurrogateService interface, Init,ISurrogateService.Init, _com_isurrogateservice_init, com.isurrogateservice_init, objidl/ISurrogateService::Init
+ms.keywords: ISurrogateService interface [COM],Init method, ISurrogateService.Init, ISurrogateService::Init, Init, Init method [COM], Init method [COM],ISurrogateService interface, _com_isurrogateservice_init, com.isurrogateservice_init, objidl/ISurrogateService::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISurrogateService::Init method
+# ISurrogateService::Init
 
 
 ## -description

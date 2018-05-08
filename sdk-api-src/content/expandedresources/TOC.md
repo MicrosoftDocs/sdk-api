@@ -1,0 +1,5 @@
+# [Game Mode](../_gamemode/index.md)
+## [Expandedresources.h](index.md)
+### [GetExpandedResourceExclusiveCpuCount function](../expandedresources/nf-expandedresources-getexpandedresourceexclusivecpucount.md)
+### [HasExpandedResources function](../expandedresources/nf-expandedresources-hasexpandedresources.md)
+### [ReleaseExclusiveCpuSets function](../expandedresources/nf-expandedresources-releaseexclusivecpusets.md)

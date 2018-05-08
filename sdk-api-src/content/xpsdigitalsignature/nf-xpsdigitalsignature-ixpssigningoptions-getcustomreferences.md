@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetCustomReferences
-title: IXpsSigningOptions::GetCustomReferences method
+title: IXpsSigningOptions::GetCustomReferences
 author: windows-driver-content
 description: Gets a pointer to an IOpcSignatureReferenceSet interface, which contains a set of signature custom references.
 old-location: xps\ixpssigningoptions_getcustomreferences.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1a9ab939-4581-40a9-acd3-2afe02c5e201
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCustomReferences method [XPS Documents and Packaging], GetCustomReferences method [XPS Documents and Packaging], IXpsSigningOptions interface, GetCustomReferences,IXpsSigningOptions.GetCustomReferences, IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], GetCustomReferences method, IXpsSigningOptions::GetCustomReferences, xps.ixpssigningoptions_getcustomreferences, xpsdigitalsignature/IXpsSigningOptions::GetCustomReferences
+ms.keywords: GetCustomReferences, GetCustomReferences method [XPS Documents and Packaging], GetCustomReferences method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCustomReferences method, IXpsSigningOptions.GetCustomReferences, IXpsSigningOptions::GetCustomReferences, xps.ixpssigningoptions_getcustomreferences, xpsdigitalsignature/IXpsSigningOptions::GetCustomReferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSigningOptions::GetCustomReferences method
+# IXpsSigningOptions::GetCustomReferences
 
 
 ## -description

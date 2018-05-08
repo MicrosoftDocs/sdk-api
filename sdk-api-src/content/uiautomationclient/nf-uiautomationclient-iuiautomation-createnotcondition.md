@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateNotCondition
-title: IUIAutomation::CreateNotCondition method
+title: IUIAutomation::CreateNotCondition
 author: windows-driver-content
 description: Creates a condition that is the negative of a specified condition.
 old-location: winauto\uiauto_IUIAutomation_CreateNotCondition.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 183603f9-6e5b-4c44-b6b2-c363b4d150c3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CreateNotCondition method [Windows Accessibility], CreateNotCondition method [Windows Accessibility], IUIAutomation interface, CreateNotCondition,IUIAutomation.CreateNotCondition, IUIAutomation, IUIAutomation interface [Windows Accessibility], CreateNotCondition method, IUIAutomation::CreateNotCondition, uiauto.uiauto_IUIAutomation_CreateNotCondition, uiauto_IUIAutomation_CreateNotCondition, uiautomationclient/IUIAutomation::CreateNotCondition, winauto.uiauto_IUIAutomation_CreateNotCondition
+ms.keywords: CreateNotCondition, CreateNotCondition method [Windows Accessibility], CreateNotCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateNotCondition method, IUIAutomation.CreateNotCondition, IUIAutomation::CreateNotCondition, uiauto.uiauto_IUIAutomation_CreateNotCondition, uiauto_IUIAutomation_CreateNotCondition, uiautomationclient/IUIAutomation::CreateNotCondition, winauto.uiauto_IUIAutomation_CreateNotCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomation::CreateNotCondition method
+# IUIAutomation::CreateNotCondition
 
 
 ## -description

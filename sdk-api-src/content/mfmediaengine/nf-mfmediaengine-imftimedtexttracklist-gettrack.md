@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrackList.GetTrack
-title: IMFTimedTextTrackList::GetTrack method
+title: IMFTimedTextTrackList::GetTrack
 author: windows-driver-content
 description: Gets a text track in the list from the index of the track.
 old-location: mf\imftimedtexttracklist_gettrack.htm
 old-project: medfound
 ms.assetid: 5AF4F317-E46D-459A-900B-6D4796CD59A2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTrack method [Media Foundation], GetTrack method [Media Foundation], IMFTimedTextTrackList interface, GetTrack,IMFTimedTextTrackList.GetTrack, IMFTimedTextTrackList, IMFTimedTextTrackList interface [Media Foundation], GetTrack method, IMFTimedTextTrackList::GetTrack, mf.imftimedtexttracklist_gettrack, mfmediaengine/IMFTimedTextTrackList::GetTrack
+ms.date: 5/3/2018
+ms.keywords: GetTrack, GetTrack method [Media Foundation], GetTrack method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetTrack method, IMFTimedTextTrackList.GetTrack, IMFTimedTextTrackList::GetTrack, mf.imftimedtexttracklist_gettrack, mfmediaengine/IMFTimedTextTrackList::GetTrack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextTrackList::GetTrack method
+# IMFTimedTextTrackList::GetTrack
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetAllCaps
-title: ITextFont::SetAllCaps method
+title: ITextFont::SetAllCaps
 author: windows-driver-content
 description: Sets whether the characters are all uppercase.
 old-location: controls\ITextFont_SetAllCaps.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setallcaps.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetAllCaps method, ITextFont::SetAllCaps, SetAllCaps method [Windows Controls], SetAllCaps method [Windows Controls], ITextFont interface, SetAllCaps,ITextFont.SetAllCaps, _win32_ITextFont_SetAllCaps, _win32_ITextFont_SetAllCaps_cpp, controls.ITextFont_SetAllCaps, controls._win32_ITextFont_SetAllCaps, tom/ITextFont::SetAllCaps
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetAllCaps method, ITextFont.SetAllCaps, ITextFont::SetAllCaps, SetAllCaps, SetAllCaps method [Windows Controls], SetAllCaps method [Windows Controls],ITextFont interface, _win32_ITextFont_SetAllCaps, _win32_ITextFont_SetAllCaps_cpp, controls.ITextFont_SetAllCaps, controls._win32_ITextFont_SetAllCaps, tom/ITextFont::SetAllCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetAllCaps method
+# ITextFont::SetAllCaps
 
 
 ## -description

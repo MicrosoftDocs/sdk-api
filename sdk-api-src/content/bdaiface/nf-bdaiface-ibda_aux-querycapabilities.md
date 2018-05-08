@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_AUX.QueryCapabilities
-title: IBDA_AUX::QueryCapabilities method
+title: IBDA_AUX::QueryCapabilities
 author: windows-driver-content
 description: Gets the number of auxiliary connectors on the device.
 old-location: mstv\ibda_aux_querycapabilities.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7bb80ae2-050e-4fe6-9dd4-9cc6b2bcdd3c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_AUX, IBDA_AUX interface [Microsoft TV Technologies], QueryCapabilities method, IBDA_AUX::QueryCapabilities, QueryCapabilities method [Microsoft TV Technologies], QueryCapabilities method [Microsoft TV Technologies], IBDA_AUX interface, QueryCapabilities,IBDA_AUX.QueryCapabilities, bdaiface/IBDA_AUX::QueryCapabilities, mstv.ibda_aux_querycapabilities
+ms.keywords: IBDA_AUX interface [Microsoft TV Technologies],QueryCapabilities method, IBDA_AUX.QueryCapabilities, IBDA_AUX::QueryCapabilities, QueryCapabilities, QueryCapabilities method [Microsoft TV Technologies], QueryCapabilities method [Microsoft TV Technologies],IBDA_AUX interface, bdaiface/IBDA_AUX::QueryCapabilities, mstv.ibda_aux_querycapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_AUX::QueryCapabilities method
+# IBDA_AUX::QueryCapabilities
 
 
 ## -description

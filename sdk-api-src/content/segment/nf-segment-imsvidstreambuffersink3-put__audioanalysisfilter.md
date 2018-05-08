@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.put__AudioAnalysisFilter
-title: IMSVidStreamBufferSink3::put__AudioAnalysisFilter method
+title: IMSVidStreamBufferSink3::put__AudioAnalysisFilter
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_put__audioanalysisfilter.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1c8cba5f-f060-441d-804d-7eb6bc95cb2b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferSink3, IMSVidStreamBufferSink3 interface [Microsoft TV Technologies], put__AudioAnalysisFilter method, IMSVidStreamBufferSink3::put__AudioAnalysisFilter, IMSVidStreamBufferSink3put__AudioAnalysisFilter, mstv.imsvidstreambuffersink3_put__audioanalysisfilter, put__AudioAnalysisFilter method [Microsoft TV Technologies], put__AudioAnalysisFilter method [Microsoft TV Technologies], IMSVidStreamBufferSink3 interface, put__AudioAnalysisFilter,IMSVidStreamBufferSink3.put__AudioAnalysisFilter, segment/IMSVidStreamBufferSink3::put__AudioAnalysisFilter
+ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put__AudioAnalysisFilter method, IMSVidStreamBufferSink3.put__AudioAnalysisFilter, IMSVidStreamBufferSink3::put__AudioAnalysisFilter, IMSVidStreamBufferSink3put__AudioAnalysisFilter, mstv.imsvidstreambuffersink3_put__audioanalysisfilter, put__AudioAnalysisFilter, put__AudioAnalysisFilter method [Microsoft TV Technologies], put__AudioAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, segment/IMSVidStreamBufferSink3::put__AudioAnalysisFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferSink3::put__AudioAnalysisFilter method
+# IMSVidStreamBufferSink3::put__AudioAnalysisFilter
 
 
 ## -description

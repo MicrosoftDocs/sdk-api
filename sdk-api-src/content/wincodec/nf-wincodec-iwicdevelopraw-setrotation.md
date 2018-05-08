@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetRotation
-title: IWICDevelopRaw::SetRotation method
+title: IWICDevelopRaw::SetRotation
 author: windows-driver-content
 description: Sets the desired rotation angle.
 old-location: wic\_wic_codec_iwicdevelopraw_setrotation.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 1eba6004-d22e-4168-9207-358c072c3a17
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetRotation method, IWICDevelopRaw::SetRotation, SetRotation method [Windows Imaging Component], SetRotation method [Windows Imaging Component], IWICDevelopRaw interface, SetRotation,IWICDevelopRaw.SetRotation, _wic_codec_iwicdevelopraw_setrotation, wic._wic_codec_iwicdevelopraw_setrotation, wincodec/IWICDevelopRaw::SetRotation
+ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetRotation method, IWICDevelopRaw.SetRotation, IWICDevelopRaw::SetRotation, SetRotation, SetRotation method [Windows Imaging Component], SetRotation method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setrotation, wic._wic_codec_iwicdevelopraw_setrotation, wincodec/IWICDevelopRaw::SetRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::SetRotation method
+# IWICDevelopRaw::SetRotation
 
 
 ## -description

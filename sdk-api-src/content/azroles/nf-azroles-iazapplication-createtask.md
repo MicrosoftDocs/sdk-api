@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.CreateTask
-title: IAzApplication::CreateTask method
+title: IAzApplication::CreateTask
 author: windows-driver-content
 description: Creates an IAzTask object with the specified name.
 old-location: security\iazapplication_createtask.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 9c15f1aa-f0d7-4c6b-8c3c-b6537f7dac90
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplication object [Security], CreateTask method, CreateTask method [Security], CreateTask method [Security], AzApplication object, CreateTask method [Security], IAzApplication interface, CreateTask,IAzApplication.CreateTask, IAzApplication, IAzApplication interface [Security], CreateTask method, IAzApplication::CreateTask, azroles/IAzApplication::CreateTask, security.iazapplication_createtask
+ms.keywords: AzApplication object [Security],CreateTask method, CreateTask, CreateTask method [Security], CreateTask method [Security],AzApplication object, CreateTask method [Security],IAzApplication interface, IAzApplication interface [Security],CreateTask method, IAzApplication.CreateTask, IAzApplication::CreateTask, azroles/IAzApplication::CreateTask, security.iazapplication_createtask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::CreateTask method
+# IAzApplication::CreateTask
 
 
 ## -description

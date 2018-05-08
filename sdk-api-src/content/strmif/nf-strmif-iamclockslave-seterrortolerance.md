@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMClockSlave.SetErrorTolerance
-title: IAMClockSlave::SetErrorTolerance method
+title: IAMClockSlave::SetErrorTolerance
 author: windows-driver-content
 description: The SetErrorTolerance method sets the audio renderer's rate-matching tolerance.
 old-location: dshow\iamclockslave_seterrortolerance.htm
 old-project: DirectShow
 ms.assetid: 6c93e345-4e4a-4019-9c18-d3d43736fee3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMClockSlave, IAMClockSlave interface [DirectShow], SetErrorTolerance method, IAMClockSlave::SetErrorTolerance, IAMClockSlaveSetErrorTolerance, SetErrorTolerance method [DirectShow], SetErrorTolerance method [DirectShow], IAMClockSlave interface, SetErrorTolerance,IAMClockSlave.SetErrorTolerance, dshow.iamclockslave_seterrortolerance, strmif/IAMClockSlave::SetErrorTolerance
+ms.date: 4/30/2018
+ms.keywords: IAMClockSlave interface [DirectShow],SetErrorTolerance method, IAMClockSlave.SetErrorTolerance, IAMClockSlave::SetErrorTolerance, IAMClockSlaveSetErrorTolerance, SetErrorTolerance, SetErrorTolerance method [DirectShow], SetErrorTolerance method [DirectShow],IAMClockSlave interface, dshow.iamclockslave_seterrortolerance, strmif/IAMClockSlave::SetErrorTolerance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMClockSlave::SetErrorTolerance method
+# IAMClockSlave::SetErrorTolerance
 
 
 ## -description

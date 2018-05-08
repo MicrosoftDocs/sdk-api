@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetMediaItem
-title: IMFPMediaPlayer::GetMediaItem method
+title: IMFPMediaPlayer::GetMediaItem
 author: windows-driver-content
 description: Gets a pointer to the current media item.
 old-location: mf\imfpmediaplayer_getmediaitem.htm
 old-project: medfound
 ms.assetid: 9593092d-bd50-4ff6-a283-f5a0ab1e6fc0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetMediaItem method [Media Foundation], GetMediaItem method [Media Foundation], IMFPMediaPlayer interface, GetMediaItem,IMFPMediaPlayer.GetMediaItem, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], GetMediaItem method, IMFPMediaPlayer::GetMediaItem, mf.imfpmediaplayer_getmediaitem, mfplay/IMFPMediaPlayer::GetMediaItem
+ms.date: 5/3/2018
+ms.keywords: GetMediaItem, GetMediaItem method [Media Foundation], GetMediaItem method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetMediaItem method, IMFPMediaPlayer.GetMediaItem, IMFPMediaPlayer::GetMediaItem, mf.imfpmediaplayer_getmediaitem, mfplay/IMFPMediaPlayer::GetMediaItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::GetMediaItem method
+# IMFPMediaPlayer::GetMediaItem
 
 
 ## -description

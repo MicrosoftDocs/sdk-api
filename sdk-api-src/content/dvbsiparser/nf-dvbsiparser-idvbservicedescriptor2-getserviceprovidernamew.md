@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor2.GetServiceProviderNameW
-title: IDvbServiceDescriptor2::GetServiceProviderNameW method
+title: IDvbServiceDescriptor2::GetServiceProviderNameW
 author: windows-driver-content
 description: Gets a string containing the service provider name from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor2_getserviceprovidernamew.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b0d44251-adef-4a90-b5a3-dc36576169b9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetServiceProviderNameW method [Microsoft TV Technologies], GetServiceProviderNameW method [Microsoft TV Technologies], IDvbServiceDescriptor2 interface, GetServiceProviderNameW,IDvbServiceDescriptor2.GetServiceProviderNameW, IDvbServiceDescriptor2, IDvbServiceDescriptor2 interface [Microsoft TV Technologies], GetServiceProviderNameW method, IDvbServiceDescriptor2::GetServiceProviderNameW, dvbsiparser/IDvbServiceDescriptor2::GetServiceProviderNameW, mstv.idvbservicedescriptor2_getserviceprovidernamew
+ms.keywords: GetServiceProviderNameW, GetServiceProviderNameW method [Microsoft TV Technologies], GetServiceProviderNameW method [Microsoft TV Technologies],IDvbServiceDescriptor2 interface, IDvbServiceDescriptor2 interface [Microsoft TV Technologies],GetServiceProviderNameW method, IDvbServiceDescriptor2.GetServiceProviderNameW, IDvbServiceDescriptor2::GetServiceProviderNameW, dvbsiparser/IDvbServiceDescriptor2::GetServiceProviderNameW, mstv.idvbservicedescriptor2_getserviceprovidernamew
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbServiceDescriptor2::GetServiceProviderNameW method
+# IDvbServiceDescriptor2::GetServiceProviderNameW
 
 
 ## -description

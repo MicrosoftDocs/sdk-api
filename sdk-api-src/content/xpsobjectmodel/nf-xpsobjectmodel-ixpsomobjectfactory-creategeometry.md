@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGeometry
-title: IXpsOMObjectFactory::CreateGeometry method
+title: IXpsOMObjectFactory::CreateGeometry
 author: windows-driver-content
 description: Creates an IXpsOMGeometry interface, which specifies the shape of a path or of a clipping region.
 old-location: xps\ixpsomobjectfactory_creategeometry.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e6933542-eb88-4936-a1d7-8380afc61557
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateGeometry method [XPS Documents and Packaging], CreateGeometry method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateGeometry,IXpsOMObjectFactory.CreateGeometry, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateGeometry method, IXpsOMObjectFactory::CreateGeometry, xps.ixpsomobjectfactory_creategeometry, xpsobjectmodel/IXpsOMObjectFactory::CreateGeometry
+ms.keywords: CreateGeometry, CreateGeometry method [XPS Documents and Packaging], CreateGeometry method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGeometry method, IXpsOMObjectFactory.CreateGeometry, IXpsOMObjectFactory::CreateGeometry, xps.ixpsomobjectfactory_creategeometry, xpsobjectmodel/IXpsOMObjectFactory::CreateGeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateGeometry method
+# IXpsOMObjectFactory::CreateGeometry
 
 
 ## -description

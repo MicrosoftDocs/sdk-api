@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Name
-title: IInkRecognizer::get_Name method
+title: IInkRecognizer::get_Name
 author: windows-driver-content
 description: Gets the name of the object.
 old-location: tablet\iinkrecognizer_name.htm
 old-project: tablet
 ms.assetid: 701951fd-ffb9-40fd-bb2c-7cdeb330f9b7
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 701951fd-ffb9-40fd-bb2c-7cdeb330f9b7, IInkRecognizer, IInkRecognizer interface [Tablet PC], Name property, IInkRecognizer.Name, IInkRecognizer.get_Name, IInkRecognizer::get_Name, Name property [Tablet PC], Name property [Tablet PC], IInkRecognizer interface, get_Name,IInkRecognizer.get_Name, msinkaut/IInkRecognizer::Name, msinkaut/IInkRecognizer::get_Name, tablet.iinkrecognizer_name
+ms.date: 5/2/2018
+ms.keywords: 701951fd-ffb9-40fd-bb2c-7cdeb330f9b7, IInkRecognizer interface [Tablet PC],Name property, IInkRecognizer.Name, IInkRecognizer.get_Name, IInkRecognizer::Name, IInkRecognizer::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkRecognizer interface, get_Name, msinkaut/IInkRecognizer::Name, msinkaut/IInkRecognizer::get_Name, tablet.iinkrecognizer_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognizer::get_Name method
+# IInkRecognizer::get_Name
 
 
 ## -description

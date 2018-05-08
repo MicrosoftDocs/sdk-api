@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl2.ReplayChapter
-title: IDvdControl2::ReplayChapter method
+title: IDvdControl2::ReplayChapter
 author: windows-driver-content
 description: The ReplayChapter method starts playback from the beginning of the current chapter.
 old-location: dshow\idvdcontrol2_replaychapter.htm
 old-project: DirectShow
 ms.assetid: ea1567fc-708f-4dcd-abc2-b5bdc9f6a62c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], ReplayChapter method, IDvdControl2::ReplayChapter, IDvdControl2ReplayChapter, ReplayChapter method [DirectShow], ReplayChapter method [DirectShow], IDvdControl2 interface, ReplayChapter,IDvdControl2.ReplayChapter, dshow.idvdcontrol2_replaychapter, strmif/IDvdControl2::ReplayChapter
+ms.date: 4/30/2018
+ms.keywords: IDvdControl2 interface [DirectShow],ReplayChapter method, IDvdControl2.ReplayChapter, IDvdControl2::ReplayChapter, IDvdControl2ReplayChapter, ReplayChapter, ReplayChapter method [DirectShow], ReplayChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_replaychapter, strmif/IDvdControl2::ReplayChapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl2::ReplayChapter method
+# IDvdControl2::ReplayChapter
 
 
 ## -description

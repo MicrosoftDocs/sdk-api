@@ -1,14 +1,14 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetDefault
-title: IFullScreenVideoEx::SetDefault method
+title: IFullScreenVideoEx::SetDefault
 author: windows-driver-content
 description: The SetDefault method saves the current settings.
 old-location: dshow\ifullscreenvideoex_setdefault.htm
 old-project: DirectShow
 ms.assetid: 1821703c-0da1-4b3e-a921-a66770b8ee0d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], SetDefault method, IFullScreenVideoEx::SetDefault, IFullScreenVideoSetDefault, SetDefault method [DirectShow], SetDefault method [DirectShow], IFullScreenVideoEx interface, SetDefault,IFullScreenVideoEx.SetDefault, amvideo/IFullScreenVideoEx::SetDefault, dshow.ifullscreenvideoex_setdefault
+ms.date: 4/30/2018
+ms.keywords: IFullScreenVideoEx interface [DirectShow],SetDefault method, IFullScreenVideoEx.SetDefault, IFullScreenVideoEx::SetDefault, IFullScreenVideoSetDefault, SetDefault, SetDefault method [DirectShow], SetDefault method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetDefault, dshow.ifullscreenvideoex_setdefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IFullScreenVideoEx::SetDefault method
+# IFullScreenVideoEx::SetDefault
 
 
 ## -description

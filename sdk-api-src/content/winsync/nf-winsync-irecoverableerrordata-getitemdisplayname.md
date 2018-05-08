@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableErrorData.GetItemDisplayName
-title: IRecoverableErrorData::GetItemDisplayName method
+title: IRecoverableErrorData::GetItemDisplayName
 author: windows-driver-content
 description: Gets the display name of the item that caused the error.
 old-location: winsync\irecoverableerrordata_getitemdisplayname.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 6b40d528-18dc-4924-959a-cde5f02d18b1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetItemDisplayName method [Windows Sync], GetItemDisplayName method [Windows Sync], IRecoverableErrorData interface, GetItemDisplayName,IRecoverableErrorData.GetItemDisplayName, IRecoverableErrorData, IRecoverableErrorData interface [Windows Sync], GetItemDisplayName method, IRecoverableErrorData::GetItemDisplayName, winsync.irecoverableerrordata_getitemdisplayname, winsync/IRecoverableErrorData::GetItemDisplayName
+ms.keywords: GetItemDisplayName, GetItemDisplayName method [Windows Sync], GetItemDisplayName method [Windows Sync],IRecoverableErrorData interface, IRecoverableErrorData interface [Windows Sync],GetItemDisplayName method, IRecoverableErrorData.GetItemDisplayName, IRecoverableErrorData::GetItemDisplayName, winsync.irecoverableerrordata_getitemdisplayname, winsync/IRecoverableErrorData::GetItemDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IRecoverableErrorData::GetItemDisplayName method
+# IRecoverableErrorData::GetItemDisplayName
 
 
 ## -description

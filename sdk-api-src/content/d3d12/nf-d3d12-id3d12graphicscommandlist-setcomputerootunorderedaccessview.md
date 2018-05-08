@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRootUnorderedAccessView
-title: ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView method
+title: ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView
 author: windows-driver-content
 description: Sets a CPU descriptor handle for the unordered-access-view resource in the compute root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setcomputerootunorderedaccessview.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 7C91B305-ABB2-4355-AA4B-3E1641ACF9E0
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, SetComputeRootUnorderedAccessView method, ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView, SetComputeRootUnorderedAccessView method, SetComputeRootUnorderedAccessView method, ID3D12GraphicsCommandList interface, SetComputeRootUnorderedAccessView,ID3D12GraphicsCommandList.SetComputeRootUnorderedAccessView, d3d12/ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView, direct3d12.id3d12graphicscommandlist_setcomputerootunorderedaccessview
+ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRootUnorderedAccessView method, ID3D12GraphicsCommandList.SetComputeRootUnorderedAccessView, ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView, SetComputeRootUnorderedAccessView, SetComputeRootUnorderedAccessView method, SetComputeRootUnorderedAccessView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView, direct3d12.id3d12graphicscommandlist_setcomputerootunorderedaccessview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView method
+# ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView
 
 
 ## -description

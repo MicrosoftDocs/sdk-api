@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccount.get_AccountName
-title: IFaxAccount::get_AccountName method
+title: IFaxAccount::get_AccountName
 author: windows-driver-content
 description: Retrieves the name of a particular fax account on the server.
 old-location: fax\_mfax_faxaccount_accountname_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\accountname.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AccountName property [Fax Service], AccountName property [Fax Service], FaxAccount object, FaxAccount object [Fax Service], AccountName property, IFaxAccount, IFaxAccount::get_AccountName, _mfax_faxaccount.accountname, fax._mfax_faxaccount_accountname, fax._mfax_faxaccount_accountname_vb, get_AccountName,IFaxAccount.get_AccountName
+ms.keywords: AccountName property [Fax Service], AccountName property [Fax Service],FaxAccount object, FaxAccount object [Fax Service],AccountName property, FaxAccount.AccountName, IFaxAccount.get_AccountName, IFaxAccount::get_AccountName, _mfax_faxaccount.accountname, fax._mfax_faxaccount_accountname, fax._mfax_faxaccount_accountname_vb, get_AccountName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxAccount::get_AccountName method
+# IFaxAccount::get_AccountName
 
 
 ## -description

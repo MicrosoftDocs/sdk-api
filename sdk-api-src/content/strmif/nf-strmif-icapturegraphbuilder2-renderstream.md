@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.RenderStream
-title: ICaptureGraphBuilder2::RenderStream method
+title: ICaptureGraphBuilder2::RenderStream
 author: windows-driver-content
 description: The RenderStream method connects an output pin on a source filter to a sink filter, optionally through an intermediate filter.
 old-location: dshow\icapturegraphbuilder2_renderstream.htm
 old-project: DirectShow
 ms.assetid: 2fb5f13c-2bf5-463b-a209-77129a159bd6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICaptureGraphBuilder2, ICaptureGraphBuilder2 interface [DirectShow], RenderStream method, ICaptureGraphBuilder2::RenderStream, ICaptureGraphBuilder2RenderStream, RenderStream method [DirectShow], RenderStream method [DirectShow], ICaptureGraphBuilder2 interface, RenderStream,ICaptureGraphBuilder2.RenderStream, dshow.icapturegraphbuilder2_renderstream, strmif/ICaptureGraphBuilder2::RenderStream
+ms.date: 4/30/2018
+ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],RenderStream method, ICaptureGraphBuilder2.RenderStream, ICaptureGraphBuilder2::RenderStream, ICaptureGraphBuilder2RenderStream, RenderStream, RenderStream method [DirectShow], RenderStream method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_renderstream, strmif/ICaptureGraphBuilder2::RenderStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ICaptureGraphBuilder2::RenderStream method
+# ICaptureGraphBuilder2::RenderStream
 
 
 ## -description

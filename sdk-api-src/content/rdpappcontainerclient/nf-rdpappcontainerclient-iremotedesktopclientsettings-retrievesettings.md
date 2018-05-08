@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.RetrieveSettings
-title: IRemoteDesktopClientSettings::RetrieveSettings method
+title: IRemoteDesktopClientSettings::RetrieveSettings
 author: windows-driver-content
 description: Retrieves the entire RDP file as a string.
 old-location: termserv\iremotedesktopclientsettings_retrievesettings.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 5c28a172-42f3-4abd-9983-ee5acb1c9c78
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IRemoteDesktopClientSettings, IRemoteDesktopClientSettings interface [Remote Desktop Services], RetrieveSettings method, IRemoteDesktopClientSettings::RetrieveSettings, RetrieveSettings method [Remote Desktop Services], RetrieveSettings method [Remote Desktop Services], IRemoteDesktopClientSettings interface, RetrieveSettings,IRemoteDesktopClientSettings.RetrieveSettings, rdpappcontainerclient/IRemoteDesktopClientSettings::RetrieveSettings, termserv.iremotedesktopclientsettings_retrievesettings
+ms.keywords: IRemoteDesktopClientSettings interface [Remote Desktop Services],RetrieveSettings method, IRemoteDesktopClientSettings.RetrieveSettings, IRemoteDesktopClientSettings::RetrieveSettings, RetrieveSettings, RetrieveSettings method [Remote Desktop Services], RetrieveSettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, rdpappcontainerclient/IRemoteDesktopClientSettings::RetrieveSettings, termserv.iremotedesktopclientsettings_retrievesettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRemoteDesktopClientSettings::RetrieveSettings method
+# IRemoteDesktopClientSettings::RetrieveSettings
 
 
 ## -description

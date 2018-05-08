@@ -8,7 +8,7 @@ old-project: DevIO
 ms.assetid: 4ecf6f84-17fc-4c48-a859-c043e8f9cd14
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IOCTL_STORAGE_GET_HOTPLUG_INFO, IOCTL_STORAGE_GET_HOTPLUG_INFO control code, _win32_ioctl_storage_get_hotplug_info, base.ioctl_storage_get_hotplug_info, winioctl/IOCTL_STORAGE_GET_HOTPLUG_INFO
+ms.keywords: IOCTL_STORAGE_GET_HOTPLUG_INFO, IOCTL_STORAGE_GET_HOTPLUG_INFO control, IOCTL_STORAGE_GET_HOTPLUG_INFO control code, _win32_ioctl_storage_get_hotplug_info, base.ioctl_storage_get_hotplug_info, winioctl/IOCTL_STORAGE_GET_HOTPLUG_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

@@ -7,7 +7,7 @@ old-location: automat\vardecfromdate.htm
 old-project: automat
 ms.assetid: e398ac4c-252b-4f7e-b794-d7027a21c831
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarDecFromDate, VarDecFromDate function [Automation], _oa96_VarDecFromDate, automat.vardecfromdate, oleauto/VarDecFromDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: EDP
 ms.assetid: 4CC6D174-55FC-40D7-BE7B-5F56B27DA225
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EDP.srpenablepermissivemodefileencryption_, SrpEnablePermissiveModeFileEncryption, SrpEnablePermissiveModeFileEncryption function, srpapi/SrpEnablePermissiveModeFileEncryption
+ms.keywords: EDP.srpenablepermissivemodefileencryption_, SrpEnablePermissiveModeFileEncryption, SrpEnablePermissiveModeFileEncryption , SrpEnablePermissiveModeFileEncryption function, srpapi/SrpEnablePermissiveModeFileEncryption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

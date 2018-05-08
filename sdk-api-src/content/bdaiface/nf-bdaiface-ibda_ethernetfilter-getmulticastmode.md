@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_EthernetFilter.GetMulticastMode
-title: IBDA_EthernetFilter::GetMulticastMode method
+title: IBDA_EthernetFilter::GetMulticastMode
 author: windows-driver-content
 description: The GetMulticastMode method retrieves the multicast mode.
 old-location: mstv\ibda_ethernetfilter_getmulticastmode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8a0a5dbb-642a-458b-a5b2-80e993ab61ca
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetMulticastMode method [Microsoft TV Technologies], GetMulticastMode method [Microsoft TV Technologies], IBDA_EthernetFilter interface, GetMulticastMode,IBDA_EthernetFilter.GetMulticastMode, IBDA_EthernetFilter, IBDA_EthernetFilter interface [Microsoft TV Technologies], GetMulticastMode method, IBDA_EthernetFilter::GetMulticastMode, IBDA_EthernetFilterGetMulticastMode, bdaiface/IBDA_EthernetFilter::GetMulticastMode, mstv.ibda_ethernetfilter_getmulticastmode
+ms.keywords: GetMulticastMode, GetMulticastMode method [Microsoft TV Technologies], GetMulticastMode method [Microsoft TV Technologies],IBDA_EthernetFilter interface, IBDA_EthernetFilter interface [Microsoft TV Technologies],GetMulticastMode method, IBDA_EthernetFilter.GetMulticastMode, IBDA_EthernetFilter::GetMulticastMode, IBDA_EthernetFilterGetMulticastMode, bdaiface/IBDA_EthernetFilter::GetMulticastMode, mstv.ibda_ethernetfilter_getmulticastmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_EthernetFilter::GetMulticastMode method
+# IBDA_EthernetFilter::GetMulticastMode
 
 
 ## -description

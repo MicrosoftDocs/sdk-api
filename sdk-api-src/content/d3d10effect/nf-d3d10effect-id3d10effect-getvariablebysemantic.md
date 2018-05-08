@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetVariableBySemantic
-title: ID3D10Effect::GetVariableBySemantic method
+title: ID3D10Effect::GetVariableBySemantic
 author: windows-driver-content
 description: Get a variable by semantic.
 old-location: direct3d10\id3d10effect_getvariablebysemantic.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getvariablebysemantic.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetVariableBySemantic method [Direct3D 10], GetVariableBySemantic method [Direct3D 10], ID3D10Effect interface, GetVariableBySemantic,ID3D10Effect.GetVariableBySemantic, ID3D10Effect, ID3D10Effect interface [Direct3D 10], GetVariableBySemantic method, ID3D10Effect::GetVariableBySemantic, d3d10effect/ID3D10Effect::GetVariableBySemantic, direct3d10.id3d10effect_getvariablebysemantic, e578cd0d-594a-b43e-8baa-310f0b747079
+ms.keywords: GetVariableBySemantic, GetVariableBySemantic method [Direct3D 10], GetVariableBySemantic method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetVariableBySemantic method, ID3D10Effect.GetVariableBySemantic, ID3D10Effect::GetVariableBySemantic, d3d10effect/ID3D10Effect::GetVariableBySemantic, direct3d10.id3d10effect_getvariablebysemantic, e578cd0d-594a-b43e-8baa-310f0b747079
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Effect::GetVariableBySemantic method
+# ID3D10Effect::GetVariableBySemantic
 
 
 ## -description

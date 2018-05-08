@@ -7,7 +7,7 @@ old-location: security\cryptcatcataloginfofromcontext.htm
 old-project: SecCrypto
 ms.assetid: ec195fcc-1cff-4dd6-9075-c4904b653da7
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CryptCATCatalogInfoFromContext, CryptCATCatalogInfoFromContext function [Security], mscat/CryptCATCatalogInfoFromContext, security.cryptcatcataloginfofromcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.IMSCEPSetup.Install
-title: IMSCEPSetup::Install method
+title: IMSCEPSetup::Install
 author: windows-driver-content
 description: Installs a Network Device Enrollment Service (NDES) role as configured in a CMSCEPSetup object.
 old-location: security\imscepsetup_install.htm
 old-project: SecCrypto
 ms.assetid: 26ed36bd-8d27-42ce-81a5-a980fdebf5af
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], Install method, IMSCEPSetup::Install, Install method [Security], Install method [Security], IMSCEPSetup interface, Install,IMSCEPSetup.Install, casetup/IMSCEPSetup::Install, security.imscepsetup_install
+ms.date: 4/30/2018
+ms.keywords: IMSCEPSetup interface [Security],Install method, IMSCEPSetup.Install, IMSCEPSetup::Install, Install, Install method [Security], Install method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::Install, security.imscepsetup_install
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# IMSCEPSetup::Install method
+# IMSCEPSetup::Install
 
 
 ## -description

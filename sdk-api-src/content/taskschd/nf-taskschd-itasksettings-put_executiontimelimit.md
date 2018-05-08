@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_ExecutionTimeLimit
-title: ITaskSettings::put_ExecutionTimeLimit method
+title: ITaskSettings::put_ExecutionTimeLimit
 author: windows-driver-content
 description: Gets or sets the amount of time that is allowed to complete the task.
 old-location: taskschd\itasksettings_executiontimelimit.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 33e70133-9dfe-402a-9a1a-87f3fcc3eb96
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ExecutionTimeLimit property [Task Scheduler], ExecutionTimeLimit property [Task Scheduler], ITaskSettings interface, ITaskSettings, ITaskSettings interface [Task Scheduler], ExecutionTimeLimit property, ITaskSettings.ExecutionTimeLimit, ITaskSettings::get_ExecutionTimeLimit, ITaskSettings::put_ExecutionTimeLimit, put_ExecutionTimeLimit,ITaskSettings.put_ExecutionTimeLimit, taskschd.itasksettings_executiontimelimit, taskschd/ITaskSettings::ExecutionTimeLimit, taskschd/ITaskSettings::get_ExecutionTimeLimit, taskschd/ITaskSettings::put_ExecutionTimeLimit
+ms.keywords: ExecutionTimeLimit property [Task Scheduler], ExecutionTimeLimit property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],ExecutionTimeLimit property, ITaskSettings.ExecutionTimeLimit, ITaskSettings.put_ExecutionTimeLimit, ITaskSettings::ExecutionTimeLimit, ITaskSettings::get_ExecutionTimeLimit, ITaskSettings::put_ExecutionTimeLimit, put_ExecutionTimeLimit, taskschd.itasksettings_executiontimelimit, taskschd/ITaskSettings::ExecutionTimeLimit, taskschd/ITaskSettings::get_ExecutionTimeLimit, taskschd/ITaskSettings::put_ExecutionTimeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskSettings::put_ExecutionTimeLimit method
+# ITaskSettings::put_ExecutionTimeLimit
 
 
 ## -description

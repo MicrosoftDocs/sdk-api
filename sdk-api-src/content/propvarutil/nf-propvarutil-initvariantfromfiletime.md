@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromFileTime.htm
 old-project: properties
 ms.assetid: cd61a268-ef73-4dd3-98d4-9811922d01f4
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: InitVariantFromFileTime, InitVariantFromFileTime function [Windows Properties], _shell_InitVariantFromFileTime, properties.InitVariantFromFileTime, propvarutil/InitVariantFromFileTime, shell.InitVariantFromFileTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

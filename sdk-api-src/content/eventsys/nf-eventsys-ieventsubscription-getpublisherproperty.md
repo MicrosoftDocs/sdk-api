@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetPublisherProperty
-title: IEventSubscription::GetPublisherProperty method
+title: IEventSubscription::GetPublisherProperty
 author: windows-driver-content
 description: Retrieves the value of a property stored in the property bag to define publisher context.
 old-location: cos\ieventsubscription_getpublisherproperty.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 7d0c2467-0ab8-4daf-b4ed-befe28d33757
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetPublisherProperty method [COM+], GetPublisherProperty method [COM+], IEventSubscription interface, GetPublisherProperty,IEventSubscription.GetPublisherProperty, IEventSubscription, IEventSubscription interface [COM+], GetPublisherProperty method, IEventSubscription::GetPublisherProperty, _cos_IEventSubscription_GetPublisherProperty, cos.ieventsubscription_getpublisherproperty, eventsys/IEventSubscription::GetPublisherProperty
+ms.keywords: GetPublisherProperty, GetPublisherProperty method [COM+], GetPublisherProperty method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetPublisherProperty method, IEventSubscription.GetPublisherProperty, IEventSubscription::GetPublisherProperty, _cos_IEventSubscription_GetPublisherProperty, cos.ieventsubscription_getpublisherproperty, eventsys/IEventSubscription::GetPublisherProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::GetPublisherProperty method
+# IEventSubscription::GetPublisherProperty
 
 
 ## -description

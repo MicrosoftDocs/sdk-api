@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetIdealVideoSize
-title: IMFVideoDisplayControl::GetIdealVideoSize method
+title: IMFVideoDisplayControl::GetIdealVideoSize
 author: windows-driver-content
 description: Gets the range of sizes that the enhanced video renderer (EVR) can display without significantly degrading performance or image quality.
 old-location: mf\imfvideodisplaycontrol_getidealvideosize.htm
 old-project: medfound
 ms.assetid: c580778b-fe7c-4c62-9bcd-8a5fde370b9d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetIdealVideoSize method [Media Foundation], GetIdealVideoSize method [Media Foundation], IMFVideoDisplayControl interface, GetIdealVideoSize,IMFVideoDisplayControl.GetIdealVideoSize, IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], GetIdealVideoSize method, IMFVideoDisplayControl::GetIdealVideoSize, c580778b-fe7c-4c62-9bcd-8a5fde370b9d, evr/IMFVideoDisplayControl::GetIdealVideoSize, mf.imfvideodisplaycontrol_getidealvideosize
+ms.date: 5/3/2018
+ms.keywords: GetIdealVideoSize, GetIdealVideoSize method [Media Foundation], GetIdealVideoSize method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetIdealVideoSize method, IMFVideoDisplayControl.GetIdealVideoSize, IMFVideoDisplayControl::GetIdealVideoSize, c580778b-fe7c-4c62-9bcd-8a5fde370b9d, evr/IMFVideoDisplayControl::GetIdealVideoSize, mf.imfvideodisplaycontrol_getidealvideosize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoDisplayControl::GetIdealVideoSize method
+# IMFVideoDisplayControl::GetIdealVideoSize
 
 
 ## -description

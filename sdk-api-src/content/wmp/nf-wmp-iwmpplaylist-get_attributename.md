@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_attributeName
-title: IWMPPlaylist::get_attributeName method
+title: IWMPPlaylist::get_attributeName
 author: windows-driver-content
 description: The get_attributeName method retrieves the name of an attribute specified by an index.
 old-location: wmp\iwmpplaylist_get_attributename.htm
 old-project: WMP
 ms.assetid: 30bdf1e0-2bb8-486e-bec7-d06e1ac6ed9b
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlaylist, IWMPPlaylist interface [Windows Media Player], get_attributeName method, IWMPPlaylist::get_attributeName, IWMPPlaylistget_attributeName, get_attributeName method [Windows Media Player], get_attributeName method [Windows Media Player], IWMPPlaylist interface, get_attributeName,IWMPPlaylist.get_attributeName, wmp.iwmpplaylist_get_attributename, wmp/IWMPPlaylist::get_attributeName
+ms.date: 5/4/2018
+ms.keywords: IWMPPlaylist interface [Windows Media Player],get_attributeName method, IWMPPlaylist.get_attributeName, IWMPPlaylist::get_attributeName, IWMPPlaylistget_attributeName, get_attributeName, get_attributeName method [Windows Media Player], get_attributeName method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_attributename, wmp/IWMPPlaylist::get_attributeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlaylist::get_attributeName method
+# IWMPPlaylist::get_attributeName
 
 
 ## -description

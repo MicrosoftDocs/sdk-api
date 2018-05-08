@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidGenericSink.get_SinkStreams
-title: IMSVidGenericSink::get_SinkStreams method
+title: IMSVidGenericSink::get_SinkStreams
 author: windows-driver-content
 description: The get_SinkStreams method retrieves the streams that are required to be rendered down to the sink. Not implemented.
 old-location: mstv\imsvidgenericsink_get_sinkstreams.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e77f2ee8-081b-4415-87b5-ab27ee0218d2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidGenericSink, IMSVidGenericSink interface [Microsoft TV Technologies], get_SinkStreams method, IMSVidGenericSink::get_SinkStreams, IMSVidGenericSinkget_SinkStreams, get_SinkStreams method [Microsoft TV Technologies], get_SinkStreams method [Microsoft TV Technologies], IMSVidGenericSink interface, get_SinkStreams,IMSVidGenericSink.get_SinkStreams, mstv.imsvidgenericsink_get_sinkstreams, segment/IMSVidGenericSink::get_SinkStreams
+ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],get_SinkStreams method, IMSVidGenericSink.get_SinkStreams, IMSVidGenericSink::get_SinkStreams, IMSVidGenericSinkget_SinkStreams, get_SinkStreams, get_SinkStreams method [Microsoft TV Technologies], get_SinkStreams method [Microsoft TV Technologies],IMSVidGenericSink interface, mstv.imsvidgenericsink_get_sinkstreams, segment/IMSVidGenericSink::get_SinkStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidGenericSink::get_SinkStreams method
+# IMSVidGenericSink::get_SinkStreams
 
 
 ## -description

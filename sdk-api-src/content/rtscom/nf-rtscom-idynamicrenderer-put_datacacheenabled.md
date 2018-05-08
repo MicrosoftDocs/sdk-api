@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.put_DataCacheEnabled
-title: IDynamicRenderer::put_DataCacheEnabled method
+title: IDynamicRenderer::put_DataCacheEnabled
 author: windows-driver-content
 description: Gets or sets a value that indicates whether data caching is enabled for the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_datacacheenabled.htm
 old-project: tablet
 ms.assetid: 1b2435ee-4682-4499-aa5c-35201ab2ba95
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 1b2435ee-4682-4499-aa5c-35201ab2ba95, DataCacheEnabled property [Tablet PC], DataCacheEnabled property [Tablet PC], IDynamicRenderer interface, IDynamicRenderer, IDynamicRenderer interface [Tablet PC], DataCacheEnabled property, IDynamicRenderer.DataCacheEnabled, IDynamicRenderer.get_DataCacheEnabled, IDynamicRenderer.put_DataCacheEnabled, IDynamicRenderer::get_DataCacheEnabled, IDynamicRenderer::put_DataCacheEnabled, put_DataCacheEnabled,IDynamicRenderer.put_DataCacheEnabled, rtscom/IDynamicRenderer::DataCacheEnabled, rtscom/IDynamicRenderer::get_DataCacheEnabled, rtscom/IDynamicRenderer::put_DataCacheEnabled, tablet.idynamicrenderer_datacacheenabled
+ms.date: 5/2/2018
+ms.keywords: 1b2435ee-4682-4499-aa5c-35201ab2ba95, DataCacheEnabled property [Tablet PC], DataCacheEnabled property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],DataCacheEnabled property, IDynamicRenderer.DataCacheEnabled, IDynamicRenderer.get_DataCacheEnabled, IDynamicRenderer.put_DataCacheEnabled, IDynamicRenderer::DataCacheEnabled, IDynamicRenderer::get_DataCacheEnabled, IDynamicRenderer::put_DataCacheEnabled, put_DataCacheEnabled, rtscom/IDynamicRenderer::DataCacheEnabled, rtscom/IDynamicRenderer::get_DataCacheEnabled, rtscom/IDynamicRenderer::put_DataCacheEnabled, tablet.idynamicrenderer_datacacheenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDynamicRenderer::put_DataCacheEnabled method
+# IDynamicRenderer::put_DataCacheEnabled
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7674f853-e5ea-44c7-b5ed-5fd90bfa1bcb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DxFlipOverlay, DxFlipOverlay callback function [Display Devices], PDX_FLIPOVERLAY, VideoMiniPort_DxApiFunctions_67a8d728-6197-4111-9115-597ff4311331.xml, display.dxflipoverlay, dxmini/DxFlipOverlay
+ms.keywords: DxFlipOverlay, DxFlipOverlay callback function [Display Devices], PDX_FLIPOVERLAY, PDX_FLIPOVERLAY callback, VideoMiniPort_DxApiFunctions_67a8d728-6197-4111-9115-597ff4311331.xml, display.dxflipoverlay, dxmini/DxFlipOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# PDX_FLIPOVERLAY callback
+# PDX_FLIPOVERLAY callback function
 
 
 ## -description

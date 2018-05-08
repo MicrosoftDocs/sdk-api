@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.RegisterForNotification
-title: ITsSbProvider::RegisterForNotification method
+title: ITsSbProvider::RegisterForNotification
 author: windows-driver-content
 description: Requests that Remote Desktop Connection Broker (RD Connection Broker) send notifications about specified events.
 old-location: termserv\itssbprovider_registerfornotification.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 71e55a94-7e15-45f1-a1f3-d3cf8814e0c1
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], RegisterForNotification method, ITsSbProvider::RegisterForNotification, RegisterForNotification method [Remote Desktop Services], RegisterForNotification method [Remote Desktop Services], ITsSbProvider interface, RegisterForNotification,ITsSbProvider.RegisterForNotification, TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE, TSSB_NOTIFY_SESSION_CHANGE, TSSB_NOTIFY_TARGET_CHANGE, sbtsv/ITsSbProvider::RegisterForNotification, termserv.itssbprovider_registerfornotification
+ms.keywords: ITsSbProvider interface [Remote Desktop Services],RegisterForNotification method, ITsSbProvider.RegisterForNotification, ITsSbProvider::RegisterForNotification, RegisterForNotification, RegisterForNotification method [Remote Desktop Services], RegisterForNotification method [Remote Desktop Services],ITsSbProvider interface, TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE, TSSB_NOTIFY_SESSION_CHANGE, TSSB_NOTIFY_TARGET_CHANGE, sbtsv/ITsSbProvider::RegisterForNotification, termserv.itssbprovider_registerfornotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbProvider::RegisterForNotification method
+# ITsSbProvider::RegisterForNotification
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.get_Count
-title: IInkExtendedProperties::get_Count method
+title: IInkExtendedProperties::get_Count
 author: windows-driver-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkextendedproperties_count.htm
 old-project: tablet
 ms.assetid: 8b75ba1a-ab31-4d54-b997-86dd3445fd79
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Count property [Tablet PC], Count property [Tablet PC], IInkExtendedProperties interface, IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], Count property, IInkExtendedProperties.Count, IInkExtendedProperties.get_Count, IInkExtendedProperties::get_Count, get_Count,IInkExtendedProperties.get_Count, msinkaut/IInkExtendedProperties::Count, msinkaut/IInkExtendedProperties::get_Count, tablet.iinkextendedproperties_count
+ms.date: 5/2/2018
+ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Count property, IInkExtendedProperties.Count, IInkExtendedProperties.get_Count, IInkExtendedProperties::Count, IInkExtendedProperties::get_Count, get_Count, msinkaut/IInkExtendedProperties::Count, msinkaut/IInkExtendedProperties::get_Count, tablet.iinkextendedproperties_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkExtendedProperties::get_Count method
+# IInkExtendedProperties::get_Count
 
 
 ## -description

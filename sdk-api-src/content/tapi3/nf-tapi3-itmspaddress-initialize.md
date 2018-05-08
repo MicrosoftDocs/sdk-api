@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITMSPAddress.Initialize
-title: ITMSPAddress::Initialize method
+title: ITMSPAddress::Initialize
 author: windows-driver-content
 description: The Initialize method is called when the MSP is loaded.
 old-location: tapi3\itmspaddress_initialize.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 5df2c486-0133-4705-8d37-10b56b40c85d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITMSPAddress, ITMSPAddress interface [TAPI 2.2], Initialize method, ITMSPAddress::Initialize, Initialize method [TAPI 2.2], Initialize method [TAPI 2.2], ITMSPAddress interface, Initialize,ITMSPAddress.Initialize, _tapi3_itmspaddress_initialize, msp/ITMSPAddress::Initialize, tapi3.itmspaddress_initialize
+ms.keywords: ITMSPAddress interface [TAPI 2.2],Initialize method, ITMSPAddress.Initialize, ITMSPAddress::Initialize, Initialize, Initialize method [TAPI 2.2], Initialize method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_initialize, msp/ITMSPAddress::Initialize, tapi3.itmspaddress_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITMSPAddress::Initialize method
+# ITMSPAddress::Initialize
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.Next
-title: IEnumWiaItem::Next method
+title: IEnumWiaItem::Next
 author: windows-driver-content
 description: The IEnumWiaItem::Next method fills an array of pointers to IWiaItem interfaces.
 old-location: wia\_wia_IEnumWiaItem_Next.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\next.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IEnumWiaItem, IEnumWiaItem interface [WIA], Next method, IEnumWiaItem::Next, Next method [WIA], Next method [WIA], IEnumWiaItem interface, Next,IEnumWiaItem.Next, _wia_IEnumWiaItem_Next, wia._wia_IEnumWiaItem_Next, wia_xp/IEnumWiaItem::Next
+ms.date: 5/3/2018
+ms.keywords: IEnumWiaItem interface [WIA],Next method, IEnumWiaItem.Next, IEnumWiaItem::Next, Next, Next method [WIA], Next method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Next, wia._wia_IEnumWiaItem_Next, wia_xp/IEnumWiaItem::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IEnumWiaItem::Next method
+# IEnumWiaItem::Next
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetAllocateForPostView
-title: IWMWriterPostView::GetAllocateForPostView method
+title: IWMWriterPostView::GetAllocateForPostView
 author: windows-driver-content
 description: The GetAllocateForPostView method ascertains whether the application, and not the writer, must supply the buffers.
 old-location: wmformat\iwmwriterpostview_getallocateforpostview.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: bd17eeec-a1ce-42db-a807-008ca2c4194f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetAllocateForPostView method [windows Media Format], GetAllocateForPostView method [windows Media Format], IWMWriterPostView interface, GetAllocateForPostView,IWMWriterPostView.GetAllocateForPostView, IWMWriterPostView, IWMWriterPostView interface [windows Media Format], GetAllocateForPostView method, IWMWriterPostView::GetAllocateForPostView, IWMWriterPostViewGetAllocateForPostView, wmformat.iwmwriterpostview_getallocateforpostview, wmsdkidl/IWMWriterPostView::GetAllocateForPostView
+ms.keywords: GetAllocateForPostView, GetAllocateForPostView method [windows Media Format], GetAllocateForPostView method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetAllocateForPostView method, IWMWriterPostView.GetAllocateForPostView, IWMWriterPostView::GetAllocateForPostView, IWMWriterPostViewGetAllocateForPostView, wmformat.iwmwriterpostview_getallocateforpostview, wmsdkidl/IWMWriterPostView::GetAllocateForPostView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPostView::GetAllocateForPostView method
+# IWMWriterPostView::GetAllocateForPostView
 
 
 ## -description

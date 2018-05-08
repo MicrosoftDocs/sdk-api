@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFlipRotator.Initialize
-title: IWICBitmapFlipRotator::Initialize method
+title: IWICBitmapFlipRotator::Initialize
 author: windows-driver-content
 description: Initializes the bitmap flip rotator with the provided parameters.
 old-location: wic\_wic_codec_iwicbitmapfliprotator_initialize.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 8c70d25d-b591-4ef4-91b5-b8350da99df1
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICBitmapFlipRotator, IWICBitmapFlipRotator interface [Windows Imaging Component], Initialize method, IWICBitmapFlipRotator::Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component], IWICBitmapFlipRotator interface, Initialize,IWICBitmapFlipRotator.Initialize, _wic_codec_iwicbitmapfliprotator_initialize, wic._wic_codec_iwicbitmapfliprotator_initialize, wincodec/IWICBitmapFlipRotator::Initialize
+ms.keywords: IWICBitmapFlipRotator interface [Windows Imaging Component],Initialize method, IWICBitmapFlipRotator.Initialize, IWICBitmapFlipRotator::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapFlipRotator interface, _wic_codec_iwicbitmapfliprotator_initialize, wic._wic_codec_iwicbitmapfliprotator_initialize, wincodec/IWICBitmapFlipRotator::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapFlipRotator::Initialize method
+# IWICBitmapFlipRotator::Initialize
 
 
 ## -description

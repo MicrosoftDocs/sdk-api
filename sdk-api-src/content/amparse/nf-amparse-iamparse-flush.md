@@ -1,14 +1,14 @@
 ---
 UID: NF:amparse.IAMParse.Flush
-title: IAMParse::Flush method
+title: IAMParse::Flush
 author: windows-driver-content
 description: The Flush method clears the current file data to allow for a more rapid switch to a new file.
 old-location: dshow\iamparse_flush.htm
 old-project: DirectShow
 ms.assetid: 8ff33099-3dc4-4f43-8852-4bd6a8877f29
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Flush method [DirectShow], Flush method [DirectShow], IAMParse interface, Flush,IAMParse.Flush, IAMParse, IAMParse interface [DirectShow], Flush method, IAMParse::Flush, IAMParseFlush, amparse/IAMParse::Flush, dshow.iamparse_flush
+ms.date: 4/30/2018
+ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IAMParse interface, IAMParse interface [DirectShow],Flush method, IAMParse.Flush, IAMParse::Flush, IAMParseFlush, amparse/IAMParse::Flush, dshow.iamparse_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMParse::Flush method
+# IAMParse::Flush
 
 
 ## -description

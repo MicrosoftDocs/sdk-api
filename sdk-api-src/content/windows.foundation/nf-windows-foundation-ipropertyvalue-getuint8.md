@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt8
-title: IPropertyValue::GetUInt8 method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the unsigned 8-bit integer value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getuint8.htm
 old-project: WinRT
 ms.assetid: 736B44FF-F5A7-463A-9892-399CB3EC90B4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetUInt8 method [Windows Runtime], GetUInt8 method [Windows Runtime], IPropertyValue interface, GetUInt8,IPropertyValue.GetUInt8, IPropertyValue, IPropertyValue interface [Windows Runtime], GetUInt8 method, IPropertyValue::GetUInt8, windows/IPropertyValue::GetUInt8, winrt.ipropertyvalue_getuint8
+ms.date: 5/4/2018
+ms.keywords: GetUInt8, GetUInt8 method [Windows Runtime], GetUInt8 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt8 method, IPropertyValue.GetUInt8, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt8, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt8, winrt.ipropertyvalue_getuint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetUInt8 method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

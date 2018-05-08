@@ -8,7 +8,7 @@ old-project: debug_wwahost
 ms.assetid: ac0ace8e-3f83-44be-baee-560c5472aa08
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWebApplicationHost, IWebApplicationHost interface [Debugging Windows Store apps], IWebApplicationHost interface [Debugging Windows Store apps], described, debug.iwebapplicationhost, webapplication/IWebApplicationHost
+ms.keywords: IWebApplicationHost, IWebApplicationHost interface [Debugging Windows Store apps], IWebApplicationHost interface [Debugging Windows Store apps],described, debug.iwebapplicationhost, webapplication/IWebApplicationHost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

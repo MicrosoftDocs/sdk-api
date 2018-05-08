@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6f9cbec4-7934-41fc-b387-3f45aa273a72
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], IESLicenseRenewalResultEvent interface [DirectShow], described, mstv.ieslicenserenewalresultevent, tuner/IESLicenseRenewalResultEvent
+ms.keywords: IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], IESLicenseRenewalResultEvent interface [DirectShow],described, mstv.ieslicenserenewalresultevent, tuner/IESLicenseRenewalResultEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

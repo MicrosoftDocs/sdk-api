@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.GetDefaultFilter
-title: IFsrmReportManager::GetDefaultFilter method
+title: IFsrmReportManager::GetDefaultFilter
 author: windows-driver-content
 description: Retrieves the default report filter value that is used with the specified report type.
 old-location: fsrm\ifsrmreportmanager_getdefaultfilter.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 5f3a587e-c3a8-47ee-80ac-afa0824a4585
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmReportManager class [File Server Resource Manager], GetDefaultFilter method, GetDefaultFilter method [File Server Resource Manager], GetDefaultFilter method [File Server Resource Manager], FsrmReportManager class, GetDefaultFilter method [File Server Resource Manager], IFsrmReportManager interface, GetDefaultFilter,IFsrmReportManager.GetDefaultFilter, IFsrmReportManager, IFsrmReportManager interface [File Server Resource Manager], GetDefaultFilter method, IFsrmReportManager::GetDefaultFilter, fs.ifsrmreportmanager_getdefaultfilter, fsrm.ifsrmreportmanager_getdefaultfilter, fsrmreports/IFsrmReportManager::GetDefaultFilter
+ms.keywords: FsrmReportManager class [File Server Resource Manager],GetDefaultFilter method, GetDefaultFilter, GetDefaultFilter method [File Server Resource Manager], GetDefaultFilter method [File Server Resource Manager],FsrmReportManager class, GetDefaultFilter method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetDefaultFilter method, IFsrmReportManager.GetDefaultFilter, IFsrmReportManager::GetDefaultFilter, fs.ifsrmreportmanager_getdefaultfilter, fsrm.ifsrmreportmanager_getdefaultfilter, fsrmreports/IFsrmReportManager::GetDefaultFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReportManager::GetDefaultFilter method
+# IFsrmReportManager::GetDefaultFilter
 
 
 ## -description

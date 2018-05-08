@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.Close
-title: IWMWriterFileSink2::Close method
+title: IWMWriterFileSink2::Close
 author: windows-driver-content
 description: The Close method closes the sink.
 old-location: wmformat\iwmwriterfilesink2_close.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 8d1bce07-a165-45cf-95cb-03b57f0cae03
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Close method [windows Media Format], Close method [windows Media Format], IWMWriterFileSink2 interface, Close,IWMWriterFileSink2.Close, IWMWriterFileSink2, IWMWriterFileSink2 interface [windows Media Format], Close method, IWMWriterFileSink2::Close, IWMWriterFileSink2Close, wmformat.iwmwriterfilesink2_close, wmsdkidl/IWMWriterFileSink2::Close
+ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],Close method, IWMWriterFileSink2.Close, IWMWriterFileSink2::Close, IWMWriterFileSink2Close, wmformat.iwmwriterfilesink2_close, wmsdkidl/IWMWriterFileSink2::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterFileSink2::Close method
+# IWMWriterFileSink2::Close
 
 
 ## -description

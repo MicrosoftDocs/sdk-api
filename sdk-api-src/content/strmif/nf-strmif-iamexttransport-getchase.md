@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetChase
-title: IAMExtTransport::GetChase method
+title: IAMExtTransport::GetChase
 author: windows-driver-content
 description: The GetChase method retrieves the status of chase mode.
 old-location: dshow\iamexttransport_getchase.htm
 old-project: DirectShow
 ms.assetid: 9ef12fa0-2ec9-45e5-9c22-20f810dac73b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetChase method [DirectShow], GetChase method [DirectShow], IAMExtTransport interface, GetChase,IAMExtTransport.GetChase, IAMExtTransport, IAMExtTransport interface [DirectShow], GetChase method, IAMExtTransport::GetChase, IAMExtTransportGetChase, dshow.iamexttransport_getchase, strmif/IAMExtTransport::GetChase
+ms.date: 4/30/2018
+ms.keywords: GetChase, GetChase method [DirectShow], GetChase method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetChase method, IAMExtTransport.GetChase, IAMExtTransport::GetChase, IAMExtTransportGetChase, dshow.iamexttransport_getchase, strmif/IAMExtTransport::GetChase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::GetChase method
+# IAMExtTransport::GetChase
 
 
 ## -description

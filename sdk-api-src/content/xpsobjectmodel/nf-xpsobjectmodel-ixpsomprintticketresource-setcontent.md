@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPrintTicketResource.SetContent
-title: IXpsOMPrintTicketResource::SetContent method
+title: IXpsOMPrintTicketResource::SetContent
 author: windows-driver-content
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomprintticketresource_setcontent.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 77e4af00-b2ed-4c88-80f1-fb3106ad1e75
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPrintTicketResource, IXpsOMPrintTicketResource interface [XPS Documents and Packaging], SetContent method, IXpsOMPrintTicketResource::SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging], IXpsOMPrintTicketResource interface, SetContent,IXpsOMPrintTicketResource.SetContent, xps.ixpsomprintticketresource_setcontent, xpsobjectmodel/IXpsOMPrintTicketResource::SetContent
+ms.keywords: IXpsOMPrintTicketResource interface [XPS Documents and Packaging],SetContent method, IXpsOMPrintTicketResource.SetContent, IXpsOMPrintTicketResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMPrintTicketResource interface, xps.ixpsomprintticketresource_setcontent, xpsobjectmodel/IXpsOMPrintTicketResource::SetContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPrintTicketResource::SetContent method
+# IXpsOMPrintTicketResource::SetContent
 
 
 ## -description

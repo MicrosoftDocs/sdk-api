@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmSetting.get_MailFrom
-title: IFsrmSetting::get_MailFrom method
+title: IFsrmSetting::get_MailFrom
 author: windows-driver-content
 description: Retrieves or sets the default email address from which email messages are sent.
 old-location: fsrm\ifsrmsetting_mailfrom.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 62296c6c-d75b-4669-a665-a0c4321218b6
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmSetting class [File Server Resource Manager], MailFrom property, IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], MailFrom property, IFsrmSetting.MailFrom, IFsrmSetting::get_MailFrom, IFsrmSetting::put_MailFrom, MailFrom property [File Server Resource Manager], MailFrom property [File Server Resource Manager], FsrmSetting class, MailFrom property [File Server Resource Manager], IFsrmSetting interface, fs.ifsrmsetting_mailfrom, fsrm.ifsrmsetting_mailfrom, fsrm/IFsrmSetting::MailFrom, fsrm/IFsrmSetting::get_MailFrom, fsrm/IFsrmSetting::put_MailFrom, get_MailFrom,IFsrmSetting.get_MailFrom
+ms.keywords: FsrmSetting class [File Server Resource Manager],MailFrom property, IFsrmSetting interface [File Server Resource Manager],MailFrom property, IFsrmSetting.MailFrom, IFsrmSetting.get_MailFrom, IFsrmSetting::MailFrom, IFsrmSetting::get_MailFrom, IFsrmSetting::put_MailFrom, MailFrom property [File Server Resource Manager], MailFrom property [File Server Resource Manager],FsrmSetting class, MailFrom property [File Server Resource Manager],IFsrmSetting interface, fs.ifsrmsetting_mailfrom, fsrm.ifsrmsetting_mailfrom, fsrm/IFsrmSetting::MailFrom, fsrm/IFsrmSetting::get_MailFrom, fsrm/IFsrmSetting::put_MailFrom, get_MailFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmSetting::get_MailFrom method
+# IFsrmSetting::get_MailFrom
 
 
 ## -description

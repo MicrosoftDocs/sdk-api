@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaType.IsCompressedFormat
-title: IMFMediaType::IsCompressedFormat method
+title: IMFMediaType::IsCompressedFormat
 author: windows-driver-content
 description: Queries whether the media type is a temporally compressed format.
 old-location: mf\imfmediatype_iscompressedformat.htm
 old-project: medfound
 ms.assetid: d15d683b-f2ce-40ac-9724-a0785f5d335c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaType, IMFMediaType interface [Media Foundation], IsCompressedFormat method, IMFMediaType::IsCompressedFormat, IsCompressedFormat method [Media Foundation], IsCompressedFormat method [Media Foundation], IMFMediaType interface, IsCompressedFormat,IMFMediaType.IsCompressedFormat, d15d683b-f2ce-40ac-9724-a0785f5d335c, mf.imfmediatype_iscompressedformat, mfobjects/IMFMediaType::IsCompressedFormat
+ms.date: 5/3/2018
+ms.keywords: IMFMediaType interface [Media Foundation],IsCompressedFormat method, IMFMediaType.IsCompressedFormat, IMFMediaType::IsCompressedFormat, IsCompressedFormat, IsCompressedFormat method [Media Foundation], IsCompressedFormat method [Media Foundation],IMFMediaType interface, d15d683b-f2ce-40ac-9724-a0785f5d335c, mf.imfmediatype_iscompressedformat, mfobjects/IMFMediaType::IsCompressedFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaType::IsCompressedFormat method
+# IMFMediaType::IsCompressedFormat
 
 
 ## -description

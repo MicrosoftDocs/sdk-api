@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.Flush
-title: ISimilarityTraitsMappedView::Flush method
+title: ISimilarityTraitsMappedView::Flush
 author: windows-driver-content
 description: Writes to the disk any dirty pages within a mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview_flush.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 88ac6bd2-846e-40ae-bbc6-3f2c49e66e3a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Flush method [Remote Differential Compression], Flush method [Remote Differential Compression], ISimilarityTraitsMappedView interface, Flush,ISimilarityTraitsMappedView.Flush, ISimilarityTraitsMappedView, ISimilarityTraitsMappedView interface [Remote Differential Compression], Flush method, ISimilarityTraitsMappedView::Flush, fs.isimilaritytraitsmappedview_flush, msrdc/ISimilarityTraitsMappedView::Flush, rdc.isimilaritytraitsmappedview_flush
+ms.keywords: Flush, Flush method [Remote Differential Compression], Flush method [Remote Differential Compression],ISimilarityTraitsMappedView interface, ISimilarityTraitsMappedView interface [Remote Differential Compression],Flush method, ISimilarityTraitsMappedView.Flush, ISimilarityTraitsMappedView::Flush, fs.isimilaritytraitsmappedview_flush, msrdc/ISimilarityTraitsMappedView::Flush, rdc.isimilaritytraitsmappedview_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityTraitsMappedView::Flush method
+# ISimilarityTraitsMappedView::Flush
 
 
 ## -description

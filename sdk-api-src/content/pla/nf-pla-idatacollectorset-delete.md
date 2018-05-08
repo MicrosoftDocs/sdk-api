@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.Delete
-title: IDataCollectorSet::Delete method
+title: IDataCollectorSet::Delete
 author: windows-driver-content
 description: Deletes the persisted copy of the data collector set if the set is not running.
 old-location: pla\idatacollectorset_delete.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 35e95d41-0d6c-428a-a167-6667275d4fb7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Delete method [PLA], Delete method [PLA], IDataCollectorSet interface, Delete,IDataCollectorSet.Delete, IDataCollectorSet, IDataCollectorSet interface [PLA], Delete method, IDataCollectorSet::Delete, base.idatacollectorset_delete, pla.idatacollectorset_delete, pla/IDataCollectorSet::Delete
+ms.keywords: Delete, Delete method [PLA], Delete method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Delete method, IDataCollectorSet.Delete, IDataCollectorSet::Delete, base.idatacollectorset_delete, pla.idatacollectorset_delete, pla/IDataCollectorSet::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::Delete method
+# IDataCollectorSet::Delete
 
 
 ## -description

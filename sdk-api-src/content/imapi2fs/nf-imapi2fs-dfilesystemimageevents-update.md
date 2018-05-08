@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.DFileSystemImageEvents.Update
-title: DFileSystemImageEvents::Update method
+title: DFileSystemImageEvents::Update
 author: windows-driver-content
 description: Implement this method to receive progress notification of the current write operation. The notifications are sent when copying the content of a file or while adding directories or files to the file system image.
 old-location: imapi\dfilesystemimageevents_update.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 7d639391-77ee-4889-a11b-1bbd1b88b38e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: DFileSystemImageEvents, DFileSystemImageEvents interface [IMAPI], Update method, DFileSystemImageEvents::Update, Update method [IMAPI], Update method [IMAPI], DFileSystemImageEvents interface, Update,DFileSystemImageEvents.Update, imapi.dfilesystemimageevents_update, imapi2fs/DFileSystemImageEvents::Update
+ms.keywords: DFileSystemImageEvents interface [IMAPI],Update method, DFileSystemImageEvents.Update, DFileSystemImageEvents::Update, Update, Update method [IMAPI], Update method [IMAPI],DFileSystemImageEvents interface, imapi.dfilesystemimageevents_update, imapi2fs/DFileSystemImageEvents::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# DFileSystemImageEvents::Update method
+# DFileSystemImageEvents::Update
 
 
 ## -description

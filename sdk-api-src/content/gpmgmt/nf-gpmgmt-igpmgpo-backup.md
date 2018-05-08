@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.Backup
-title: IGPMGPO::Backup method
+title: IGPMGPO::Backup
 author: windows-driver-content
 description: Backs up a Group Policy object (GPO) to the specified directory.
 old-location: gpmc\igpmgpo_backup.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 5ba8d2f7-4989-4882-9ceb-4f77b8745442
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Backup method [GPMC], Backup method [GPMC], GPMGPO object, Backup method [GPMC], IGPMGPO interface, Backup,IGPMGPO.Backup, GPMGPO object [GPMC], Backup method, IGPMGPO, IGPMGPO interface [GPMC], Backup method, IGPMGPO::Backup, _win32_igpmgpo_backup, gpmc.igpmgpo_backup, gpmgmt/IGPMGPO::Backup
+ms.keywords: Backup, Backup method [GPMC], Backup method [GPMC],GPMGPO object, Backup method [GPMC],IGPMGPO interface, GPMGPO object [GPMC],Backup method, IGPMGPO interface [GPMC],Backup method, IGPMGPO.Backup, IGPMGPO::Backup, _win32_igpmgpo_backup, gpmc.igpmgpo_backup, gpmgmt/IGPMGPO::Backup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMGPO::Backup method
+# IGPMGPO::Backup
 
 
 ## -description

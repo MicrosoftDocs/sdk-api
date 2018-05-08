@@ -1,14 +1,14 @@
 ---
 UID: NF:restrictederrorinfo.IRestrictedErrorInfo.GetErrorDetails
-title: IRestrictedErrorInfo::GetErrorDetails method
+title: IRestrictedErrorInfo::GetErrorDetails
 author: windows-driver-content
 description: Returns information about an error, including the restricted error description.
 old-location: winrt\irestrictederrorinfo_geterrordetails.htm
 old-project: WinRT
 ms.assetid: ecfd97cf-9f8f-4940-9499-a894e0883f04
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetErrorDetails method [Windows Runtime], GetErrorDetails method [Windows Runtime], IRestrictedErrorInfo interface, GetErrorDetails,IRestrictedErrorInfo.GetErrorDetails, IRestrictedErrorInfo, IRestrictedErrorInfo interface [Windows Runtime], GetErrorDetails method, IRestrictedErrorInfo::GetErrorDetails, restrictederrorinfo/IRestrictedErrorInfo::GetErrorDetails, winrt.irestrictederrorinfo_geterrordetails
+ms.date: 5/4/2018
+ms.keywords: GetErrorDetails, GetErrorDetails method [Windows Runtime], GetErrorDetails method [Windows Runtime],IRestrictedErrorInfo interface, IRestrictedErrorInfo interface [Windows Runtime],GetErrorDetails method, IRestrictedErrorInfo.GetErrorDetails, IRestrictedErrorInfo::GetErrorDetails, restrictederrorinfo/IRestrictedErrorInfo::GetErrorDetails, winrt.irestrictederrorinfo_geterrordetails
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRestrictedErrorInfo::GetErrorDetails method
+# IRestrictedErrorInfo::GetErrorDetails
 
 
 ## -description

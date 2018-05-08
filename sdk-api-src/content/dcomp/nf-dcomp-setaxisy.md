@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: C86E4D59-4E9D-44BF-BA9D-91714D0C2D37
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetAxisY, SetAxisY methods [DirectComposition], dcomp/SetAxisY, directcomp.idcompositionrotatetransform3d_setaxisy_overloaded
+ms.keywords: IDCompositionRotateTransform3D::SetAxisY, SetAxisY, SetAxisY methods [DirectComposition], dcomp/SetAxisY, directcomp.idcompositionrotatetransform3d_setaxisy_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

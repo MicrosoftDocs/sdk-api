@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMemInputPin.ReceiveCanBlock
-title: IMemInputPin::ReceiveCanBlock method
+title: IMemInputPin::ReceiveCanBlock
 author: windows-driver-content
 description: The ReceiveCanBlock method determines whether calls to the IMemInputPin::Receive method might block.
 old-location: dshow\imeminputpin_receivecanblock.htm
 old-project: DirectShow
 ms.assetid: cc047cad-e250-41f7-856d-26fc077f87a1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMemInputPin, IMemInputPin interface [DirectShow], ReceiveCanBlock method, IMemInputPin::ReceiveCanBlock, IMemInputPinReceiveCanBlock, ReceiveCanBlock method [DirectShow], ReceiveCanBlock method [DirectShow], IMemInputPin interface, ReceiveCanBlock,IMemInputPin.ReceiveCanBlock, dshow.imeminputpin_receivecanblock, strmif/IMemInputPin::ReceiveCanBlock
+ms.date: 4/30/2018
+ms.keywords: IMemInputPin interface [DirectShow],ReceiveCanBlock method, IMemInputPin.ReceiveCanBlock, IMemInputPin::ReceiveCanBlock, IMemInputPinReceiveCanBlock, ReceiveCanBlock, ReceiveCanBlock method [DirectShow], ReceiveCanBlock method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receivecanblock, strmif/IMemInputPin::ReceiveCanBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMemInputPin::ReceiveCanBlock method
+# IMemInputPin::ReceiveCanBlock
 
 
 ## -description

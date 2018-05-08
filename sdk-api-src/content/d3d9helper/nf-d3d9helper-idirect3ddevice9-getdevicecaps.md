@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetDeviceCaps
-title: IDirect3DDevice9::GetDeviceCaps method
+title: IDirect3DDevice9::GetDeviceCaps
 author: windows-driver-content
 description: Retrieves the capabilities of the rendering device.
 old-location: direct3d9\idirect3ddevice9__getdevicecaps.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getdevicecaps.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 1ca27ef9-f4c4-dcea-6966-4bbfcf987b8e, GetDeviceCaps method [Direct3D 9], GetDeviceCaps method [Direct3D 9], IDirect3DDevice9 interface, GetDeviceCaps,IDirect3DDevice9.GetDeviceCaps, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetDeviceCaps method, IDirect3DDevice9::GetDeviceCaps, d3d9helper/IDirect3DDevice9::GetDeviceCaps, direct3d9.idirect3ddevice9__getdevicecaps
+ms.keywords: 1ca27ef9-f4c4-dcea-6966-4bbfcf987b8e, GetDeviceCaps, GetDeviceCaps method [Direct3D 9], GetDeviceCaps method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetDeviceCaps method, IDirect3DDevice9.GetDeviceCaps, IDirect3DDevice9::GetDeviceCaps, d3d9helper/IDirect3DDevice9::GetDeviceCaps, direct3d9.idirect3ddevice9__getdevicecaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::GetDeviceCaps method
+# IDirect3DDevice9::GetDeviceCaps
 
 
 ## -description

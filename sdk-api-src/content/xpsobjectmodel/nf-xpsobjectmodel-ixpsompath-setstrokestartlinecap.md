@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeStartLineCap
-title: IXpsOMPath::SetStrokeStartLineCap method
+title: IXpsOMPath::SetStrokeStartLineCap
 author: windows-driver-content
 description: Sets the style of the stroke's line cap at the start of the stroke line.
 old-location: xps\ixpsompath_setstrokestartlinecap.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 2b465775-6eda-49cb-aa9a-091e4d815da3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], SetStrokeStartLineCap method, IXpsOMPath::SetStrokeStartLineCap, SetStrokeStartLineCap method [XPS Documents and Packaging], SetStrokeStartLineCap method [XPS Documents and Packaging], IXpsOMPath interface, SetStrokeStartLineCap,IXpsOMPath.SetStrokeStartLineCap, xps.ixpsompath_setstrokestartlinecap, xpsobjectmodel/IXpsOMPath::SetStrokeStartLineCap
+ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeStartLineCap method, IXpsOMPath.SetStrokeStartLineCap, IXpsOMPath::SetStrokeStartLineCap, SetStrokeStartLineCap, SetStrokeStartLineCap method [XPS Documents and Packaging], SetStrokeStartLineCap method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokestartlinecap, xpsobjectmodel/IXpsOMPath::SetStrokeStartLineCap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::SetStrokeStartLineCap method
+# IXpsOMPath::SetStrokeStartLineCap
 
 
 ## -description

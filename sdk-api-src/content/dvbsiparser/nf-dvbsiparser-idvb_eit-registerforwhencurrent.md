@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.RegisterForWhenCurrent
-title: IDVB_EIT::RegisterForWhenCurrent method
+title: IDVB_EIT::RegisterForWhenCurrent
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_registerforwhencurrent.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 276c254f-5740-4241-a5ee-82f25885f8c6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVB_EIT, IDVB_EIT interface [Microsoft TV Technologies], RegisterForWhenCurrent method, IDVB_EIT::RegisterForWhenCurrent, IDVB_EITRegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies], IDVB_EIT interface, RegisterForWhenCurrent,IDVB_EIT.RegisterForWhenCurrent, dvbsiparser/IDVB_EIT::RegisterForWhenCurrent, mstv.idvb_eit_registerforwhencurrent
+ms.keywords: IDVB_EIT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IDVB_EIT.RegisterForWhenCurrent, IDVB_EIT::RegisterForWhenCurrent, IDVB_EITRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IDVB_EIT interface, dvbsiparser/IDVB_EIT::RegisterForWhenCurrent, mstv.idvb_eit_registerforwhencurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_EIT::RegisterForWhenCurrent method
+# IDVB_EIT::RegisterForWhenCurrent
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.SetFullscreenState
-title: IDXGISwapChain::SetFullscreenState method
+title: IDXGISwapChain::SetFullscreenState
 author: windows-driver-content
 description: Sets the display state to windowed or full screen.
 old-location: direct3ddxgi\idxgiswapchain_setfullscreenstate.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_setfullscreenstate.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGISwapChain, IDXGISwapChain interface [DXGI], SetFullscreenState method, IDXGISwapChain::SetFullscreenState, SetFullscreenState method [DXGI], SetFullscreenState method [DXGI], IDXGISwapChain interface, SetFullscreenState,IDXGISwapChain.SetFullscreenState, direct3ddxgi.idxgiswapchain_setfullscreenstate, dxgi/IDXGISwapChain::SetFullscreenState, f276366b-1618-a552-fa8f-29c081ebbe6d
+ms.keywords: IDXGISwapChain interface [DXGI],SetFullscreenState method, IDXGISwapChain.SetFullscreenState, IDXGISwapChain::SetFullscreenState, SetFullscreenState, SetFullscreenState method [DXGI], SetFullscreenState method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_setfullscreenstate, dxgi/IDXGISwapChain::SetFullscreenState, f276366b-1618-a552-fa8f-29c081ebbe6d
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain::SetFullscreenState method
+# IDXGISwapChain::SetFullscreenState
 
 
 ## -description

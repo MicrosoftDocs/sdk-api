@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddFuncDesc
-title: ICreateTypeInfo::AddFuncDesc method
+title: ICreateTypeInfo::AddFuncDesc
 author: windows-driver-content
 description: Adds a function description to the type description.
 old-location: automat\icreatetypeinfo_addfuncdesc.htm
 old-project: automat
 ms.assetid: f6816778-86f6-4e59-8eb2-444fd7bd6354
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: AddFuncDesc method [Automation], AddFuncDesc method [Automation], ICreateTypeInfo interface, AddFuncDesc,ICreateTypeInfo.AddFuncDesc, ICreateTypeInfo, ICreateTypeInfo interface [Automation], AddFuncDesc method, ICreateTypeInfo::AddFuncDesc, _oa96_ICreateTypeInfo_AddFuncDesc, automat.icreatetypeinfo_addfuncdesc, oaidl/ICreateTypeInfo::AddFuncDesc
+ms.date: 5/4/2018
+ms.keywords: AddFuncDesc, AddFuncDesc method [Automation], AddFuncDesc method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddFuncDesc method, ICreateTypeInfo.AddFuncDesc, ICreateTypeInfo::AddFuncDesc, _oa96_ICreateTypeInfo_AddFuncDesc, automat.icreatetypeinfo_addfuncdesc, oaidl/ICreateTypeInfo::AddFuncDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo::AddFuncDesc method
+# ICreateTypeInfo::AddFuncDesc
 
 
 ## -description

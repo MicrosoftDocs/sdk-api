@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.SearchSOMs
-title: IGPMDomain::SearchSOMs method
+title: IGPMDomain::SearchSOMs
 author: windows-driver-content
 description: Executes a search for GPMSOM objects (domains and organizational units) in the domain and then returns a GPMSOMCollection object.
 old-location: gpmc\igpmdomain_searchsoms.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 7ca3b0ef-b0d5-408a-8d75-647546087155
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMDomain object [GPMC], SearchSOMs method, IGPMDomain, IGPMDomain interface [GPMC], SearchSOMs method, IGPMDomain::SearchSOMs, SearchSOMs method [GPMC], SearchSOMs method [GPMC], GPMDomain object, SearchSOMs method [GPMC], IGPMDomain interface, SearchSOMs,IGPMDomain.SearchSOMs, _win32_igpmdomain_searchsoms, gpmc.igpmdomain_searchsoms, gpmgmt/IGPMDomain::SearchSOMs, somLinks
+ms.keywords: GPMDomain object [GPMC],SearchSOMs method, IGPMDomain interface [GPMC],SearchSOMs method, IGPMDomain.SearchSOMs, IGPMDomain::SearchSOMs, SearchSOMs, SearchSOMs method [GPMC], SearchSOMs method [GPMC],GPMDomain object, SearchSOMs method [GPMC],IGPMDomain interface, _win32_igpmdomain_searchsoms, gpmc.igpmdomain_searchsoms, gpmgmt/IGPMDomain::SearchSOMs, somLinks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMDomain::SearchSOMs method
+# IGPMDomain::SearchSOMs
 
 
 ## -description

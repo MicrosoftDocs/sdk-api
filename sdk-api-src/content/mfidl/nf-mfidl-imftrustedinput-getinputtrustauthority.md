@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTrustedInput.GetInputTrustAuthority
-title: IMFTrustedInput::GetInputTrustAuthority method
+title: IMFTrustedInput::GetInputTrustAuthority
 author: windows-driver-content
 description: Retrieves the input trust authority (ITA) for a specified stream.
 old-location: mf\imftrustedinput_getinputtrustauthority.htm
 old-project: medfound
 ms.assetid: b4ebf02e-554a-4e7e-93d3-6f37d8b689bf
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetInputTrustAuthority method [Media Foundation], GetInputTrustAuthority method [Media Foundation], IMFTrustedInput interface, GetInputTrustAuthority,IMFTrustedInput.GetInputTrustAuthority, IMFTrustedInput, IMFTrustedInput interface [Media Foundation], GetInputTrustAuthority method, IMFTrustedInput::GetInputTrustAuthority, b4ebf02e-554a-4e7e-93d3-6f37d8b689bf, mf.imftrustedinput_getinputtrustauthority, mfidl/IMFTrustedInput::GetInputTrustAuthority
+ms.date: 5/3/2018
+ms.keywords: GetInputTrustAuthority, GetInputTrustAuthority method [Media Foundation], GetInputTrustAuthority method [Media Foundation],IMFTrustedInput interface, IMFTrustedInput interface [Media Foundation],GetInputTrustAuthority method, IMFTrustedInput.GetInputTrustAuthority, IMFTrustedInput::GetInputTrustAuthority, b4ebf02e-554a-4e7e-93d3-6f37d8b689bf, mf.imftrustedinput_getinputtrustauthority, mfidl/IMFTrustedInput::GetInputTrustAuthority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTrustedInput::GetInputTrustAuthority method
+# IMFTrustedInput::GetInputTrustAuthority
 
 
 ## -description

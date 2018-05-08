@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 3d8baeb1-0edc-4648-8691-6ea4dcfd8f62
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsNameTranslate, IADsNameTranslate interface [ADSI], IADsNameTranslate interface [ADSI], described, NameTranslate, _ds_iadsnametranslate, adsi.iadsnametranslate, iads/IADsNameTranslate
+ms.keywords: IADsNameTranslate, IADsNameTranslate interface [ADSI], IADsNameTranslate interface [ADSI],described, NameTranslate, _ds_iadsnametranslate, adsi.iadsnametranslate, iads/IADsNameTranslate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

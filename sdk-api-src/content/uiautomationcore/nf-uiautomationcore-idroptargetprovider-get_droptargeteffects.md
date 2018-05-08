@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IDropTargetProvider.get_DropTargetEffects
-title: IDropTargetProvider::get_DropTargetEffects method
+title: IDropTargetProvider::get_DropTargetEffects
 author: windows-driver-content
 description: Retrieves an array of localized strings that enumerate the full set of effects that can happen when the user drops a grabbed element on this drop target as part of a drag-and-drop operation.
 old-location: winauto\uiauto_idroptargetprovider_droptargeteffects.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: FF4080DD-CED0-4F3C-9F0C-BB37BA94DC7D
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DropTargetEffects property [Windows Accessibility], DropTargetEffects property [Windows Accessibility], IDropTargetProvider interface, IDropTargetProvider, IDropTargetProvider interface [Windows Accessibility], DropTargetEffects property, IDropTargetProvider.DropTargetEffects, IDropTargetProvider::get_DropTargetEffects, get_DropTargetEffects,IDropTargetProvider.get_DropTargetEffects, uiautomationcore/IDropTargetProvider::DropTargetEffects, uiautomationcore/IDropTargetProvider::get_DropTargetEffects, winauto.uiauto_idroptargetprovider_droptargeteffects
+ms.keywords: DropTargetEffects property [Windows Accessibility], DropTargetEffects property [Windows Accessibility],IDropTargetProvider interface, IDropTargetProvider interface [Windows Accessibility],DropTargetEffects property, IDropTargetProvider.DropTargetEffects, IDropTargetProvider.get_DropTargetEffects, IDropTargetProvider::DropTargetEffects, IDropTargetProvider::get_DropTargetEffects, get_DropTargetEffects, uiautomationcore/IDropTargetProvider::DropTargetEffects, uiautomationcore/IDropTargetProvider::get_DropTargetEffects, winauto.uiauto_idroptargetprovider_droptargeteffects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDropTargetProvider::get_DropTargetEffects method
+# IDropTargetProvider::get_DropTargetEffects
 
 
 ## -description

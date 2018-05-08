@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContentProvider.get_Name
-title: IWdsTransportContentProvider::get_Name method
+title: IWdsTransportContentProvider::get_Name
 author: windows-driver-content
 description: Retrieves the name of the content provider.
 old-location: wds\iwdstransportcontentprovider_name.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 2A897617-F7AA-4EF7-AE44-78EBC98C3B5F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportContentProvider, IWdsTransportContentProvider interface [Windows Deployment Services], Name property, IWdsTransportContentProvider.Name, IWdsTransportContentProvider::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services], IWdsTransportContentProvider interface, get_Name,IWdsTransportContentProvider.get_Name, wds.iwdstransportcontentprovider_name, wdstptmgmt/IWdsTransportContentProvider::Name, wdstptmgmt/IWdsTransportContentProvider::get_Name
+ms.keywords: IWdsTransportContentProvider interface [Windows Deployment Services],Name property, IWdsTransportContentProvider.Name, IWdsTransportContentProvider.get_Name, IWdsTransportContentProvider::Name, IWdsTransportContentProvider::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportContentProvider interface, get_Name, wds.iwdstransportcontentprovider_name, wdstptmgmt/IWdsTransportContentProvider::Name, wdstptmgmt/IWdsTransportContentProvider::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportContentProvider::get_Name method
+# IWdsTransportContentProvider::get_Name
 
 
 ## -description

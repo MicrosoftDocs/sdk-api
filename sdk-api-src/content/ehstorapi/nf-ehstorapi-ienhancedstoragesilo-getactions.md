@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSilo.GetActions
-title: IEnhancedStorageSilo::GetActions method
+title: IEnhancedStorageSilo::GetActions
 author: windows-driver-content
 description: Returns an enumeration of all actions available to the silo object.
 old-location: enstor\ienhancedstoragesilo_getactions.htm
@@ -8,7 +8,7 @@ old-project: enstor
 ms.assetid: eaf24814-b47a-4f33-ac17-d3b5b344f234
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetActions method [Enhanced Storage], GetActions method [Enhanced Storage], IEnhancedStorageSilo interface, GetActions,IEnhancedStorageSilo.GetActions, IEnhancedStorageSilo, IEnhancedStorageSilo interface [Enhanced Storage], GetActions method, IEnhancedStorageSilo::GetActions, ehstorapi/IEnhancedStorageSilo::GetActions, enstor.ienhancedstoragesilo_getactions
+ms.keywords: GetActions, GetActions method [Enhanced Storage], GetActions method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetActions method, IEnhancedStorageSilo.GetActions, IEnhancedStorageSilo::GetActions, ehstorapi/IEnhancedStorageSilo::GetActions, enstor.ienhancedstoragesilo_getactions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEnhancedStorageSilo::GetActions method
+# IEnhancedStorageSilo::GetActions
 
 
 ## -description

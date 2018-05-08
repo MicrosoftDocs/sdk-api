@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelRunInfo.IsTipRunning
-title: ITextInputPanelRunInfo::IsTipRunning method
+title: ITextInputPanelRunInfo::IsTipRunning
 author: windows-driver-content
 description: Indicates if the Tablet PC Input Panel is running at the time the method is called.
 old-location: tablet\itextinputpanelruninfo_istiprunning.htm
 old-project: tablet
 ms.assetid: 3d82dd05-c03c-4c97-8d41-84a74e3c3a8a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 3d82dd05-c03c-4c97-8d41-84a74e3c3a8a, ITextInputPanelRunInfo, ITextInputPanelRunInfo interface [Tablet PC], IsTipRunning method, ITextInputPanelRunInfo::IsTipRunning, IsTipRunning method [Tablet PC], IsTipRunning method [Tablet PC], ITextInputPanelRunInfo interface, IsTipRunning,ITextInputPanelRunInfo.IsTipRunning, peninputpanel/ITextInputPanelRunInfo::IsTipRunning, tablet.itextinputpanelruninfo_istiprunning
+ms.date: 5/2/2018
+ms.keywords: 3d82dd05-c03c-4c97-8d41-84a74e3c3a8a, ITextInputPanelRunInfo interface [Tablet PC],IsTipRunning method, ITextInputPanelRunInfo.IsTipRunning, ITextInputPanelRunInfo::IsTipRunning, IsTipRunning, IsTipRunning method [Tablet PC], IsTipRunning method [Tablet PC],ITextInputPanelRunInfo interface, peninputpanel/ITextInputPanelRunInfo::IsTipRunning, tablet.itextinputpanelruninfo_istiprunning
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanelRunInfo::IsTipRunning method
+# ITextInputPanelRunInfo::IsTipRunning
 
 
 ## -description

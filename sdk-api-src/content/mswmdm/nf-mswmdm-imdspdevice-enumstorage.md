@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.EnumStorage
-title: IMDSPDevice::EnumStorage method
+title: IMDSPDevice::EnumStorage
 author: windows-driver-content
 description: The EnumStorage method retrieves a pointer to an IMDSPEnumStorage interface of an enumerator object that represents the top-level storage(s) on the device. Top-level storage for a device is the root directory of the storage medium.
 old-location: wmdm\imdspdevice_enumstorage.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: bbf19979-8e09-476e-9401-443ab5e84866
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: EnumStorage method [windows Media Device Manager], EnumStorage method [windows Media Device Manager], IMDSPDevice interface, EnumStorage,IMDSPDevice.EnumStorage, IMDSPDevice, IMDSPDevice interface [windows Media Device Manager], EnumStorage method, IMDSPDevice::EnumStorage, IMDSPDeviceEnumStorage, mswmdm/IMDSPDevice::EnumStorage, wmdm.imdspdevice_enumstorage
+ms.keywords: EnumStorage, EnumStorage method [windows Media Device Manager], EnumStorage method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],EnumStorage method, IMDSPDevice.EnumStorage, IMDSPDevice::EnumStorage, IMDSPDeviceEnumStorage, mswmdm/IMDSPDevice::EnumStorage, wmdm.imdspdevice_enumstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPDevice::EnumStorage method
+# IMDSPDevice::EnumStorage
 
 
 ## -description

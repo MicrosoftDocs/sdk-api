@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.put_Item
-title: ITuningSpaceContainer::put_Item method
+title: ITuningSpaceContainer::put_Item
 author: windows-driver-content
 description: The put_Item method saves changes to an existing tuning space in the collection.
 old-location: mstv\ituningspacecontainer_put_item.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 44e82ec9-ffd0-4bc9-88da-b6c135cbd98f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], put_Item method, ITuningSpaceContainer::put_Item, ITuningSpaceContainerput_Item, mstv.ituningspacecontainer_put_item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies], ITuningSpaceContainer interface, put_Item,ITuningSpaceContainer.put_Item, tuner/ITuningSpaceContainer::put_Item
+ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],put_Item method, ITuningSpaceContainer.put_Item, ITuningSpaceContainer::put_Item, ITuningSpaceContainerput_Item, mstv.ituningspacecontainer_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, tuner/ITuningSpaceContainer::put_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpaceContainer::put_Item method
+# ITuningSpaceContainer::put_Item
 
 
 ## -description

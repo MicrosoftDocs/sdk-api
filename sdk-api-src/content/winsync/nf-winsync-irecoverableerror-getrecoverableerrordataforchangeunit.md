@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IRecoverableError.GetRecoverableErrorDataForChangeUnit
-title: IRecoverableError::GetRecoverableErrorDataForChangeUnit method
+title: IRecoverableError::GetRecoverableErrorDataForChangeUnit
 author: windows-driver-content
 description: Gets additional data about the recoverable error for a specified change unit.
 old-location: winsync\irecoverableerror_getrecoverableerrordataforchangeunit.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 609ecdb0-b135-474f-b959-9ab6f427e5d6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRecoverableErrorDataForChangeUnit method [Windows Sync], GetRecoverableErrorDataForChangeUnit method [Windows Sync], IRecoverableError interface, GetRecoverableErrorDataForChangeUnit,IRecoverableError.GetRecoverableErrorDataForChangeUnit, IRecoverableError, IRecoverableError interface [Windows Sync], GetRecoverableErrorDataForChangeUnit method, IRecoverableError::GetRecoverableErrorDataForChangeUnit, winsync.irecoverableerror_getrecoverableerrordataforchangeunit, winsync/IRecoverableError::GetRecoverableErrorDataForChangeUnit
+ms.keywords: GetRecoverableErrorDataForChangeUnit, GetRecoverableErrorDataForChangeUnit method [Windows Sync], GetRecoverableErrorDataForChangeUnit method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetRecoverableErrorDataForChangeUnit method, IRecoverableError.GetRecoverableErrorDataForChangeUnit, IRecoverableError::GetRecoverableErrorDataForChangeUnit, winsync.irecoverableerror_getrecoverableerrordataforchangeunit, winsync/IRecoverableError::GetRecoverableErrorDataForChangeUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IRecoverableError::GetRecoverableErrorDataForChangeUnit method
+# IRecoverableError::GetRecoverableErrorDataForChangeUnit
 
 
 ## -description

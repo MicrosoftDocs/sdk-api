@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterChain.StartChain
-title: IFilterChain::StartChain method
+title: IFilterChain::StartChain
 author: windows-driver-content
 description: The StartChain method switches all the filters in a filter chain into a running state.
 old-location: dshow\ifilterchain_startchain.htm
 old-project: DirectShow
 ms.assetid: 095a8c28-d0f2-4c0d-9e96-eefd5786b88d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFilterChain, IFilterChain interface [DirectShow], StartChain method, IFilterChain::StartChain, IFilterChainStartChain, StartChain method [DirectShow], StartChain method [DirectShow], IFilterChain interface, StartChain,IFilterChain.StartChain, dshow.ifilterchain_startchain, strmif/IFilterChain::StartChain
+ms.date: 4/30/2018
+ms.keywords: IFilterChain interface [DirectShow],StartChain method, IFilterChain.StartChain, IFilterChain::StartChain, IFilterChainStartChain, StartChain, StartChain method [DirectShow], StartChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_startchain, strmif/IFilterChain::StartChain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterChain::StartChain method
+# IFilterChain::StartChain
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_ID
-title: IInkStrokeDisp::get_ID method
+title: IInkStrokeDisp::get_ID
 author: windows-driver-content
 description: Gets the identifier of an object.
 old-location: tablet\iinkstrokedisp_id.htm
 old-project: tablet
 ms.assetid: f8e9d2b2-c3d1-4ea8-aed6-649bf6d4d353
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ID property [Tablet PC], ID property [Tablet PC], IInkStrokeDisp interface, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], ID property, IInkStrokeDisp.ID, IInkStrokeDisp.get_Id, IInkStrokeDisp::get_ID, get_ID,IInkStrokeDisp.get_ID, msinkaut/IInkStrokeDisp::ID, msinkaut/IInkStrokeDisp::get_ID, tablet.iinkstrokedisp_id
+ms.date: 5/2/2018
+ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],ID property, IInkStrokeDisp.ID, IInkStrokeDisp.get_ID, IInkStrokeDisp.get_Id, IInkStrokeDisp::ID, IInkStrokeDisp::get_ID, get_ID, msinkaut/IInkStrokeDisp::ID, msinkaut/IInkStrokeDisp::get_ID, tablet.iinkstrokedisp_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::get_ID method
+# IInkStrokeDisp::get_ID
 
 
 ## -description

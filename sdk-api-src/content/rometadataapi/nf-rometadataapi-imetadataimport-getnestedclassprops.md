@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetNestedClassProps
-title: IMetaDataImport::GetNestedClassProps method
+title: IMetaDataImport::GetNestedClassProps
 author: windows-driver-content
 description: Gets the TypeDef token for the parent Type of the specified nested type.
 old-location: winrt\imetadataimport_getnestedclassprops.htm
 old-project: WinRT
 ms.assetid: 5633d226-8f02-4527-b435-b75b1e1d5064
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetNestedClassProps method [Windows Runtime], GetNestedClassProps method [Windows Runtime], IMetaDataImport interface, GetNestedClassProps,IMetaDataImport.GetNestedClassProps, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetNestedClassProps method, IMetaDataImport::GetNestedClassProps, rometadataapi/IMetaDataImport::GetNestedClassProps, winrt.imetadataimport_getnestedclassprops
+ms.date: 5/4/2018
+ms.keywords: GetNestedClassProps, GetNestedClassProps method [Windows Runtime], GetNestedClassProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNestedClassProps method, IMetaDataImport.GetNestedClassProps, IMetaDataImport::GetNestedClassProps, rometadataapi/IMetaDataImport::GetNestedClassProps, winrt.imetadataimport_getnestedclassprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetNestedClassProps method
+# IMetaDataImport::GetNestedClassProps
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: e3e01280-c015-488a-8be4-9740c44c0041
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPipeByte, IPipeByte interface [COM], IPipeByte interface [COM], described, _com_ipipebyte, com.ipipebyte, objidlbase/IPipeByte
+ms.keywords: IPipeByte, IPipeByte interface [COM], IPipeByte interface [COM],described, _com_ipipebyte, com.ipipebyte, objidlbase/IPipeByte
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

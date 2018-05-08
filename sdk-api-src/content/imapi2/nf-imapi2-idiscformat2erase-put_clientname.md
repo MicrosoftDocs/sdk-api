@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.put_ClientName
-title: IDiscFormat2Erase::put_ClientName method
+title: IDiscFormat2Erase::put_ClientName
 author: windows-driver-content
 description: Sets the friendly name of the client.
 old-location: imapi\idiscformat2erase_put_clientname.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 641395b1-724b-42d1-b230-a4d6f3844077
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Erase, IDiscFormat2Erase interface [IMAPI], put_ClientName method, IDiscFormat2Erase::put_ClientName, imapi.idiscformat2erase_put_clientname, imapi2/IDiscFormat2Erase::put_ClientName, put_ClientName method [IMAPI], put_ClientName method [IMAPI], IDiscFormat2Erase interface, put_ClientName,IDiscFormat2Erase.put_ClientName
+ms.keywords: IDiscFormat2Erase interface [IMAPI],put_ClientName method, IDiscFormat2Erase.put_ClientName, IDiscFormat2Erase::put_ClientName, imapi.idiscformat2erase_put_clientname, imapi2/IDiscFormat2Erase::put_ClientName, put_ClientName, put_ClientName method [IMAPI], put_ClientName method [IMAPI],IDiscFormat2Erase interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Erase::put_ClientName method
+# IDiscFormat2Erase::put_ClientName
 
 
 ## -description

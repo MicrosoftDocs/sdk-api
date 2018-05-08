@@ -7,7 +7,7 @@ old-location: automat\oabuildversion.htm
 old-project: automat
 ms.assetid: e7466457-1025-4f1b-8b29-01cdf2358217
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: OaBuildVersion, OaBuildVersion function [Automation], _oa96_OaBuildVersion, automat.oabuildversion, oleauto/OaBuildVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

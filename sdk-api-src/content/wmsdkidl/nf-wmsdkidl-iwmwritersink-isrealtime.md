@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.IsRealTime
-title: IWMWriterSink::IsRealTime method
+title: IWMWriterSink::IsRealTime
 author: windows-driver-content
 description: The IsRealTime is called by the writer to determine whether the sink needs data units to be delivered in real time. It is up to you to decide whether your custom sink requires real-time delivery.
 old-location: wmformat\iwmwritersink_isrealtime.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 95a32114-4581-4870-8c7f-b79b5af8f0a4
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterSink, IWMWriterSink interface [windows Media Format], IsRealTime method, IWMWriterSink::IsRealTime, IWMWriterSinkIsRealTime, IsRealTime method [windows Media Format], IsRealTime method [windows Media Format], IWMWriterSink interface, IsRealTime,IWMWriterSink.IsRealTime, wmformat.iwmwritersink_isrealtime, wmsdkidl/IWMWriterSink::IsRealTime
+ms.keywords: IWMWriterSink interface [windows Media Format],IsRealTime method, IWMWriterSink.IsRealTime, IWMWriterSink::IsRealTime, IWMWriterSinkIsRealTime, IsRealTime, IsRealTime method [windows Media Format], IsRealTime method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_isrealtime, wmsdkidl/IWMWriterSink::IsRealTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterSink::IsRealTime method
+# IWMWriterSink::IsRealTime
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetFieldMarshal
-title: IMetaDataImport::GetFieldMarshal method
+title: IMetaDataImport::GetFieldMarshal
 author: windows-driver-content
 description: Gets a pointer to the native, unmanaged type of the field represented by the specified field metadata token.
 old-location: winrt\imetadataimport_getfieldmarshal.htm
 old-project: WinRT
 ms.assetid: a176ce92-761f-48fd-b9e8-01990176df27
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetFieldMarshal method [Windows Runtime], GetFieldMarshal method [Windows Runtime], IMetaDataImport interface, GetFieldMarshal,IMetaDataImport.GetFieldMarshal, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetFieldMarshal method, IMetaDataImport::GetFieldMarshal, rometadataapi/IMetaDataImport::GetFieldMarshal, winrt.imetadataimport_getfieldmarshal
+ms.date: 5/4/2018
+ms.keywords: GetFieldMarshal, GetFieldMarshal method [Windows Runtime], GetFieldMarshal method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetFieldMarshal method, IMetaDataImport.GetFieldMarshal, IMetaDataImport::GetFieldMarshal, rometadataapi/IMetaDataImport::GetFieldMarshal, winrt.imetadataimport_getfieldmarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetFieldMarshal method
+# IMetaDataImport::GetFieldMarshal
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: eb2a561d-2723-45dc-98a6-ecf11101016b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcSignatureCustomObjectSet, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions], IOpcSignatureCustomObjectSet interface [Open Packaging Conventions], described, msopc/IOpcSignatureCustomObjectSet, opc.iopcsignaturecustomobjectset
+ms.keywords: IOpcSignatureCustomObjectSet, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions], IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObjectSet, opc.iopcsignaturecustomobjectset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

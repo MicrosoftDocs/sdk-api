@@ -7,7 +7,7 @@ old-location: winsock\wsagetserviceclassnamebyclassid_2.htm
 old-project: WinSock
 ms.assetid: 0a61751e-10e5-4f91-a0b2-8c1baf477653
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: WSAGetServiceClassNameByClassId, WSAGetServiceClassNameByClassId function [Winsock], WSAGetServiceClassNameByClassIdA, WSAGetServiceClassNameByClassIdW, _win32_wsagetserviceclassnamebyclassid_2, winsock.wsagetserviceclassnamebyclassid_2, winsock2/WSAGetServiceClassNameByClassId, winsock2/WSAGetServiceClassNameByClassIdA, winsock2/WSAGetServiceClassNameByClassIdW
 ms.prod: windows-hardware
 ms.technology: windows-devices

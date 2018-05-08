@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.GetMetadataTracks
-title: IMFTimedText::GetMetadataTracks method
+title: IMFTimedText::GetMetadataTracks
 author: windows-driver-content
 description: Gets the list of the timed-metadata tracks in the timed-text component.
 old-location: mf\imftimedtext_getmetadatatracks.htm
 old-project: medfound
 ms.assetid: EA4D12F6-D1F0-4DA9-BF80-22C6965CE396
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetMetadataTracks method [Media Foundation], GetMetadataTracks method [Media Foundation], IMFTimedText interface, GetMetadataTracks,IMFTimedText.GetMetadataTracks, IMFTimedText, IMFTimedText interface [Media Foundation], GetMetadataTracks method, IMFTimedText::GetMetadataTracks, mf.imftimedtext_getmetadatatracks, mfmediaengine/IMFTimedText::GetMetadataTracks
+ms.date: 5/3/2018
+ms.keywords: GetMetadataTracks, GetMetadataTracks method [Media Foundation], GetMetadataTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetMetadataTracks method, IMFTimedText.GetMetadataTracks, IMFTimedText::GetMetadataTracks, mf.imftimedtext_getmetadatatracks, mfmediaengine/IMFTimedText::GetMetadataTracks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedText::GetMetadataTracks method
+# IMFTimedText::GetMetadataTracks
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.get_PinType
-title: IMbnPin::get_PinType method
+title: IMbnPin::get_PinType
 author: windows-driver-content
 description: The PIN type.
 old-location: mbn\imbnpin_pintype.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: b80d552f-1900-4590-baa5-2fcdb9b32950
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnPin, IMbnPin interface [Microsoft Broadband Networks], PinType property, IMbnPin.PinType, IMbnPin::get_PinType, PinType property [Microsoft Broadband Networks], PinType property [Microsoft Broadband Networks], IMbnPin interface, get_PinType,IMbnPin.get_PinType, mbn.imbnpin_pintype, mbnapi/IMbnPin::PinType, mbnapi/IMbnPin::get_PinType
+ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinType property, IMbnPin.PinType, IMbnPin.get_PinType, IMbnPin::PinType, IMbnPin::get_PinType, PinType property [Microsoft Broadband Networks], PinType property [Microsoft Broadband Networks],IMbnPin interface, get_PinType, mbn.imbnpin_pintype, mbnapi/IMbnPin::PinType, mbnapi/IMbnPin::get_PinType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnPin::get_PinType method
+# IMbnPin::get_PinType
 
 
 ## -description

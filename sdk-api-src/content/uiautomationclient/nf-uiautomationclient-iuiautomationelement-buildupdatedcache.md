@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.BuildUpdatedCache
-title: IUIAutomationElement::BuildUpdatedCache method
+title: IUIAutomationElement::BuildUpdatedCache
 author: windows-driver-content
 description: Retrieves a new UI Automation element with an updated cache.
 old-location: winauto\uiauto_IUIAutomationElement_BuildUpdatedCache.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: b2499b3c-433f-4e2f-937c-78da66c16203
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: BuildUpdatedCache method [Windows Accessibility], BuildUpdatedCache method [Windows Accessibility], IUIAutomationElement interface, BuildUpdatedCache,IUIAutomationElement.BuildUpdatedCache, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], BuildUpdatedCache method, IUIAutomationElement::BuildUpdatedCache, uiauto.uiauto_IUIAutomationElement_BuildUpdatedCache, uiauto_IUIAutomationElement_BuildUpdatedCache, uiautomationclient/IUIAutomationElement::BuildUpdatedCache, winauto.uiauto_IUIAutomationElement_BuildUpdatedCache
+ms.keywords: BuildUpdatedCache, BuildUpdatedCache method [Windows Accessibility], BuildUpdatedCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],BuildUpdatedCache method, IUIAutomationElement.BuildUpdatedCache, IUIAutomationElement::BuildUpdatedCache, uiauto.uiauto_IUIAutomationElement_BuildUpdatedCache, uiauto_IUIAutomationElement_BuildUpdatedCache, uiautomationclient/IUIAutomationElement::BuildUpdatedCache, winauto.uiauto_IUIAutomationElement_BuildUpdatedCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::BuildUpdatedCache method
+# IUIAutomationElement::BuildUpdatedCache
 
 
 ## -description

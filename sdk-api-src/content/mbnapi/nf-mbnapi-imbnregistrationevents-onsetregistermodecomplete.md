@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistrationEvents.OnSetRegisterModeComplete
-title: IMbnRegistrationEvents::OnSetRegisterModeComplete method
+title: IMbnRegistrationEvents::OnSetRegisterModeComplete
 author: windows-driver-content
 description: Notification method called by the Mobile Broadband service to indicate that it has completed a set registration operation.
 old-location: mbn\imbnregistrationevents_onsetregistermodecomplete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: a5ca0776-bd1d-48a0-970a-39c8da69b394
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: E_FAIL, E_INVALIDARG, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_SERVICE_NOT_ACTIVATED, HRESULT_FROM_WIN32(ERROR_INVALID_STATE), HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnRegistrationEvents, IMbnRegistrationEvents interface [Microsoft Broadband Networks], OnSetRegisterModeComplete method, IMbnRegistrationEvents::OnSetRegisterModeComplete, OnSetRegisterModeComplete method [Microsoft Broadband Networks], OnSetRegisterModeComplete method [Microsoft Broadband Networks], IMbnRegistrationEvents interface, OnSetRegisterModeComplete,IMbnRegistrationEvents.OnSetRegisterModeComplete, S_OK, mbn.imbnregistrationevents_onsetregistermodecomplete, mbnapi/IMbnRegistrationEvents::OnSetRegisterModeComplete
+ms.keywords: E_FAIL, E_INVALIDARG, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_SERVICE_NOT_ACTIVATED, HRESULT_FROM_WIN32(ERROR_INVALID_STATE), HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnSetRegisterModeComplete method, IMbnRegistrationEvents.OnSetRegisterModeComplete, IMbnRegistrationEvents::OnSetRegisterModeComplete, OnSetRegisterModeComplete, OnSetRegisterModeComplete method [Microsoft Broadband Networks], OnSetRegisterModeComplete method [Microsoft Broadband Networks],IMbnRegistrationEvents interface, S_OK, mbn.imbnregistrationevents_onsetregistermodecomplete, mbnapi/IMbnRegistrationEvents::OnSetRegisterModeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnRegistrationEvents::OnSetRegisterModeComplete method
+# IMbnRegistrationEvents::OnSetRegisterModeComplete
 
 
 ## -description

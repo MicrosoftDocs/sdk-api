@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d9.IDirect3DAuthenticatedChannel9.Configure
-title: IDirect3DAuthenticatedChannel9::Configure method
+title: IDirect3DAuthenticatedChannel9::Configure
 author: windows-driver-content
 description: Sends a configuration command to the authenticated channel.
 old-location: mf\idirect3dauthenticatedchannel9_configure.htm
 old-project: medfound
 ms.assetid: 12d15872-4f35-4a6d-ae99-bc9fa69ffe06
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: Configure method [Media Foundation], Configure method [Media Foundation], IDirect3DAuthenticatedChannel9 interface, Configure,IDirect3DAuthenticatedChannel9.Configure, IDirect3DAuthenticatedChannel9, IDirect3DAuthenticatedChannel9 interface [Media Foundation], Configure method, IDirect3DAuthenticatedChannel9::Configure, d3d9/IDirect3DAuthenticatedChannel9::Configure, mf.idirect3dauthenticatedchannel9_configure
+ms.date: 5/3/2018
+ms.keywords: Configure, Configure method [Media Foundation], Configure method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, IDirect3DAuthenticatedChannel9 interface [Media Foundation],Configure method, IDirect3DAuthenticatedChannel9.Configure, IDirect3DAuthenticatedChannel9::Configure, d3d9/IDirect3DAuthenticatedChannel9::Configure, mf.idirect3dauthenticatedchannel9_configure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DAuthenticatedChannel9::Configure method
+# IDirect3DAuthenticatedChannel9::Configure
 
 
 ## -description

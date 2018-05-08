@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: e7052dd2-c910-41d8-a58a-8f3e68e09dd0
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcPackage, IOpcPackage interface [Open Packaging Conventions], IOpcPackage interface [Open Packaging Conventions], described, msopc/IOpcPackage, opc.iopcpackage
+ms.keywords: IOpcPackage, IOpcPackage interface [Open Packaging Conventions], IOpcPackage interface [Open Packaging Conventions],described, msopc/IOpcPackage, opc.iopcpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

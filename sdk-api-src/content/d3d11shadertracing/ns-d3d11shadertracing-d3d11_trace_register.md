@@ -64,6 +64,34 @@ Describes a trace register.
           
 
 
+### -field Index1D
+
+An index for one-dimensional arrays. This index is used by the following register types: 
+
+<ul>
+<li>vertex shader or pixel shader input: v[Index1D]</li>
+<li>temp: r[Index1D]</li>
+<li>output: o[Index1D]</li>
+<li>immediate constant buffer: icb[Index1D]</li>
+<li>sampler s[Index1D]</li>
+<li>resource r[Index1D]</li>
+<li>input patch constant register: vpc[Index1D] </li>
+<li>unordered access view: u[Index1D]</li>
+<li>thread group shared memory: g[Index1D]</li>
+</ul>
+
+### -field Index2D
+
+An array of indexes for two-dimensional arrays. These indexes are used by the following register types:
+
+<ul>
+<li>GS input: v[Index2D[0]][Index2D[1]]</li>
+<li>indexable temp: x[Index2D[0]][Index2D[1]]</li>
+<li>constant buffer: cb#[#]</li>
+<li>input control point register: vcp[Index2D[0]][Index2D[1]]</li>
+<li>output control point register: vocp[Index2D[0]][Index2D[1]]</li>
+</ul>
+
 ### -field OperandIndex
 
 The index of the operand, which starts from 0.
@@ -86,34 +114,6 @@ The index of the operand, which starts from 0.
 </table>
  
 
-
-#### - Index1D
-
-An index for one-dimensional arrays. This index is used by the following register types: 
-
-<ul>
-<li>vertex shader or pixel shader input: v[Index1D]</li>
-<li>temp: r[Index1D]</li>
-<li>output: o[Index1D]</li>
-<li>immediate constant buffer: icb[Index1D]</li>
-<li>sampler s[Index1D]</li>
-<li>resource r[Index1D]</li>
-<li>input patch constant register: vpc[Index1D] </li>
-<li>unordered access view: u[Index1D]</li>
-<li>thread group shared memory: g[Index1D]</li>
-</ul>
-
-#### - Index2D
-
-An array of indexes for two-dimensional arrays. These indexes are used by the following register types:
-
-<ul>
-<li>GS input: v[Index2D[0]][Index2D[1]]</li>
-<li>indexable temp: x[Index2D[0]][Index2D[1]]</li>
-<li>constant buffer: cb#[#]</li>
-<li>input control point register: vcp[Index2D[0]][Index2D[1]]</li>
-<li>output control point register: vocp[Index2D[0]][Index2D[1]]</li>
-</ul>
 
 ## -remarks
 

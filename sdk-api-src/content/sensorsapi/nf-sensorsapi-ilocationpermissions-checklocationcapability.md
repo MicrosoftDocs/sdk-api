@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ILocationPermissions.CheckLocationCapability
-title: ILocationPermissions::CheckLocationCapability method
+title: ILocationPermissions::CheckLocationCapability
 author: windows-driver-content
 description: Gets the location capability of the Windows Store app of the given thread.
 old-location: winsensors\ilocationpermissions_checklocationcapability.htm
@@ -8,7 +8,7 @@ old-project: SensorsAPI
 ms.assetid: B7D6268C-4A0D-490F-B1E7-573159EF7CFF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CheckLocationCapability method, CheckLocationCapability method, ILocationPermissions interface, CheckLocationCapability,ILocationPermissions.CheckLocationCapability, ILocationPermissions, ILocationPermissions interface, CheckLocationCapability method, ILocationPermissions::CheckLocationCapability, sensorsapi/ILocationPermissions::CheckLocationCapability, winsensors.ilocationpermissions_checklocationcapability
+ms.keywords: CheckLocationCapability, CheckLocationCapability method, CheckLocationCapability method,ILocationPermissions interface, ILocationPermissions interface,CheckLocationCapability method, ILocationPermissions.CheckLocationCapability, ILocationPermissions::CheckLocationCapability, sensorsapi/ILocationPermissions::CheckLocationCapability, winsensors.ilocationpermissions_checklocationcapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ILocationPermissions::CheckLocationCapability method
+# ILocationPermissions::CheckLocationCapability
 
 
 ## -description

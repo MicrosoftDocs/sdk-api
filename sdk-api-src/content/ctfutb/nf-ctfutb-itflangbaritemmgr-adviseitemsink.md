@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.AdviseItemSink
-title: ITfLangBarItemMgr::AdviseItemSink method
+title: ITfLangBarItemMgr::AdviseItemSink
 author: windows-driver-content
 description: ITfLangBarItemMgr::AdviseItemSink method
 old-location: tsf\itflangbaritemmgr_adviseitemsink.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c01d80eb-9156-4fbf-98ff-7f06b145e72f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AdviseItemSink method [Text Services Framework], AdviseItemSink method [Text Services Framework], ITfLangBarItemMgr interface, AdviseItemSink,ITfLangBarItemMgr.AdviseItemSink, ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Framework], AdviseItemSink method, ITfLangBarItemMgr::AdviseItemSink, _tsf_itflangbaritemmgr_adviseitemsink_ref, ctfutb/ITfLangBarItemMgr::AdviseItemSink, tsf.itflangbaritemmgr_adviseitemsink
+ms.keywords: AdviseItemSink, AdviseItemSink method [Text Services Framework], AdviseItemSink method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],AdviseItemSink method, ITfLangBarItemMgr.AdviseItemSink, ITfLangBarItemMgr::AdviseItemSink, _tsf_itflangbaritemmgr_adviseitemsink_ref, ctfutb/ITfLangBarItemMgr::AdviseItemSink, tsf.itflangbaritemmgr_adviseitemsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemMgr::AdviseItemSink method
+# ITfLangBarItemMgr::AdviseItemSink
 
 
 ## -description

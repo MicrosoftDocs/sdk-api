@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_ST.GetDataLength
-title: IDVB_ST::GetDataLength method
+title: IDVB_ST::GetDataLength
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_st_getdatalength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6d42f147-b82d-4236-9e58-c42019d6b413
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDataLength method [Microsoft TV Technologies], GetDataLength method [Microsoft TV Technologies], IDVB_ST interface, GetDataLength,IDVB_ST.GetDataLength, IDVB_ST, IDVB_ST interface [Microsoft TV Technologies], GetDataLength method, IDVB_ST::GetDataLength, IDVB_STGetDataLength, dvbsiparser/IDVB_ST::GetDataLength, mstv.idvb_st_getdatalength
+ms.keywords: GetDataLength, GetDataLength method [Microsoft TV Technologies], GetDataLength method [Microsoft TV Technologies],IDVB_ST interface, IDVB_ST interface [Microsoft TV Technologies],GetDataLength method, IDVB_ST.GetDataLength, IDVB_ST::GetDataLength, IDVB_STGetDataLength, dvbsiparser/IDVB_ST::GetDataLength, mstv.idvb_st_getdatalength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_ST::GetDataLength method
+# IDVB_ST::GetDataLength
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.ReleaseDC
-title: IDirect3DSurface9::ReleaseDC method
+title: IDirect3DSurface9::ReleaseDC
 author: windows-driver-content
 description: Release a device context handle.
 old-location: direct3d9\idirect3dsurface9__releasedc.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__releasedc.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DSurface9, IDirect3DSurface9 interface [Direct3D 9], ReleaseDC method, IDirect3DSurface9::ReleaseDC, ReleaseDC method [Direct3D 9], ReleaseDC method [Direct3D 9], IDirect3DSurface9 interface, ReleaseDC,IDirect3DSurface9.ReleaseDC, c9032355-5437-491b-97b3-727d5c94fbfa, d3d9helper/IDirect3DSurface9::ReleaseDC, direct3d9.idirect3dsurface9__releasedc
+ms.keywords: IDirect3DSurface9 interface [Direct3D 9],ReleaseDC method, IDirect3DSurface9.ReleaseDC, IDirect3DSurface9::ReleaseDC, ReleaseDC, ReleaseDC method [Direct3D 9], ReleaseDC method [Direct3D 9],IDirect3DSurface9 interface, c9032355-5437-491b-97b3-727d5c94fbfa, d3d9helper/IDirect3DSurface9::ReleaseDC, direct3d9.idirect3dsurface9__releasedc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DSurface9::ReleaseDC method
+# IDirect3DSurface9::ReleaseDC
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetEnableTCP
-title: IWMReaderNetworkConfig::SetEnableTCP method
+title: IWMReaderNetworkConfig::SetEnableTCP
 author: windows-driver-content
 description: The SetEnableTCP method enables or disables TCP.
 old-location: wmformat\iwmreadernetworkconfig_setenabletcp.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 8afc62b8-a2f6-4470-8005-804e0980b599
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], SetEnableTCP method, IWMReaderNetworkConfig::SetEnableTCP, IWMReaderNetworkConfigSetEnableTCP, SetEnableTCP method [windows Media Format], SetEnableTCP method [windows Media Format], IWMReaderNetworkConfig interface, SetEnableTCP,IWMReaderNetworkConfig.SetEnableTCP, wmformat.iwmreadernetworkconfig_setenabletcp, wmsdkidl/IWMReaderNetworkConfig::SetEnableTCP
+ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetEnableTCP method, IWMReaderNetworkConfig.SetEnableTCP, IWMReaderNetworkConfig::SetEnableTCP, IWMReaderNetworkConfigSetEnableTCP, SetEnableTCP, SetEnableTCP method [windows Media Format], SetEnableTCP method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setenabletcp, wmsdkidl/IWMReaderNetworkConfig::SetEnableTCP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::SetEnableTCP method
+# IWMReaderNetworkConfig::SetEnableTCP
 
 
 ## -description

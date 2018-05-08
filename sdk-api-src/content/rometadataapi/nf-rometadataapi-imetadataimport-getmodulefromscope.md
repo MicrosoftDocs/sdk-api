@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetModuleFromScope
-title: IMetaDataImport::GetModuleFromScope method
+title: IMetaDataImport::GetModuleFromScope
 author: windows-driver-content
 description: Gets a metadata token for the module referenced in the current metadata scope.
 old-location: winrt\imetadataimport_getmodulefromscope.htm
 old-project: WinRT
 ms.assetid: 4ad7248d-7266-4a14-b499-05bda7f60e01
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetModuleFromScope method [Windows Runtime], GetModuleFromScope method [Windows Runtime], IMetaDataImport interface, GetModuleFromScope,IMetaDataImport.GetModuleFromScope, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetModuleFromScope method, IMetaDataImport::GetModuleFromScope, rometadataapi/IMetaDataImport::GetModuleFromScope, winrt.imetadataimport_getmodulefromscope
+ms.date: 5/4/2018
+ms.keywords: GetModuleFromScope, GetModuleFromScope method [Windows Runtime], GetModuleFromScope method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetModuleFromScope method, IMetaDataImport.GetModuleFromScope, IMetaDataImport::GetModuleFromScope, rometadataapi/IMetaDataImport::GetModuleFromScope, winrt.imetadataimport_getmodulefromscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetModuleFromScope method
+# IMetaDataImport::GetModuleFromScope
 
 
 ## -description

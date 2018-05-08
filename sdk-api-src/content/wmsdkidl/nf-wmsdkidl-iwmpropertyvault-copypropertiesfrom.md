@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.CopyPropertiesFrom
-title: IWMPropertyVault::CopyPropertiesFrom method
+title: IWMPropertyVault::CopyPropertiesFrom
 author: windows-driver-content
 description: The CopyPropertiesFrom method copies all of the properties from another property vault to this one.
 old-location: wmformat\iwmpropertyvault_copypropertiesfrom.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 34708ff4-a416-4f2a-abeb-18b9c24c4e7c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: CopyPropertiesFrom method [windows Media Format], CopyPropertiesFrom method [windows Media Format], IWMPropertyVault interface, CopyPropertiesFrom,IWMPropertyVault.CopyPropertiesFrom, IWMPropertyVault, IWMPropertyVault interface [windows Media Format], CopyPropertiesFrom method, IWMPropertyVault::CopyPropertiesFrom, IWMPropertyVaultCopyPropertiesFrom, wmformat.iwmpropertyvault_copypropertiesfrom, wmsdkidl/IWMPropertyVault::CopyPropertiesFrom
+ms.keywords: CopyPropertiesFrom, CopyPropertiesFrom method [windows Media Format], CopyPropertiesFrom method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],CopyPropertiesFrom method, IWMPropertyVault.CopyPropertiesFrom, IWMPropertyVault::CopyPropertiesFrom, IWMPropertyVaultCopyPropertiesFrom, wmformat.iwmpropertyvault_copypropertiesfrom, wmsdkidl/IWMPropertyVault::CopyPropertiesFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPropertyVault::CopyPropertiesFrom method
+# IWMPropertyVault::CopyPropertiesFrom
 
 
 ## -description

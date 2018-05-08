@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextView.GetWnd
-title: ITfContextView::GetWnd method
+title: ITfContextView::GetWnd
 author: windows-driver-content
 description: The ITfContextView::GetWnd method returns the handle to a window that corresponds to the current document.
 old-location: tsf\itfcontextview_getwnd.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: e805842d-4737-45be-8314-bd83d94da2d6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetWnd method [Text Services Framework], GetWnd method [Text Services Framework], ITfContextView interface, GetWnd,ITfContextView.GetWnd, ITfContextView, ITfContextView interface [Text Services Framework], GetWnd method, ITfContextView::GetWnd, _tsf_itfcontextview_getwnd_ref, msctf/ITfContextView::GetWnd, tsf.itfcontextview_getwnd
+ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetWnd method, ITfContextView.GetWnd, ITfContextView::GetWnd, _tsf_itfcontextview_getwnd_ref, msctf/ITfContextView::GetWnd, tsf.itfcontextview_getwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextView::GetWnd method
+# ITfContextView::GetWnd
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetStringId
-title: IUserInputString::GetStringId method
+title: IUserInputString::GetStringId
 author: windows-driver-content
 description: The GetStringId method retrieves the unlocalized canonical name for the requested string. For example, when requesting a tag name, the canonical name might be &#0034;TagName&#0034;.
 old-location: picacq\iuserinputstring_getstringid.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 29c4b592-fa6a-4f9b-a390-e8bc0928a26d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetStringId method [Picture Acquisition], GetStringId method [Picture Acquisition], IUserInputString interface, GetStringId,IUserInputString.GetStringId, IUserInputString, IUserInputString interface [Picture Acquisition], GetStringId method, IUserInputString::GetStringId, IUserInputStringGetStringId, photoacquire/IUserInputString::GetStringId, picacq.iuserinputstring_getstringid
+ms.keywords: GetStringId, GetStringId method [Picture Acquisition], GetStringId method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetStringId method, IUserInputString.GetStringId, IUserInputString::GetStringId, IUserInputStringGetStringId, photoacquire/IUserInputString::GetStringId, picacq.iuserinputstring_getstringid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUserInputString::GetStringId method
+# IUserInputString::GetStringId
 
 
 ## -description

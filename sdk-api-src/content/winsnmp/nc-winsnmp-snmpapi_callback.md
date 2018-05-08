@@ -8,7 +8,7 @@ old-project: SNMP
 ms.assetid: 9871b4a8-c96c-48a7-9e7e-7fe1c259545e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: SNMPAPI_CALLBACK, SNMPAPI_CALLBACK callback function [SNMP], _snmp_snmpapi_callback, snmp.snmpapi_callback, winsnmp/SNMPAPI_CALLBACK
+ms.keywords: SNMPAPI_CALLBACK, SNMPAPI_CALLBACK callback, SNMPAPI_CALLBACK callback function [SNMP], _snmp_snmpapi_callback, snmp.snmpapi_callback, winsnmp/SNMPAPI_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# SNMPAPI_CALLBACK callback
+# SNMPAPI_CALLBACK callback function
 
 
 ## -description

@@ -466,8 +466,7 @@ The remote protocol is using mutual authentication using Kerberos. This is only 
 Protocol-generic information structure.
 
 
-
-#### Reserved
+### -field GenericReserved.Reserved
 
 Should be set to zero. Do not use this member.
 
@@ -477,8 +476,7 @@ Should be set to zero. Do not use this member.
 Protocol-specific information structure.
 
 
-
-#### Reserved
+### -field ProtocolSpecificReserved.Reserved
 
 Should be set to zero. Do not use this member.
 
@@ -492,7 +490,29 @@ Should be set to zero. Do not use this member.
 ### -field ProtocolSpecific.Smb2.Server
 
 
+### -field ProtocolSpecific.Smb2.Server.Capabilities
+
+ 
+
+
 ### -field ProtocolSpecific.Smb2.Share
+
+
+### -field ProtocolSpecific.Smb2.Share.Capabilities
+
+ 
+
+
+### -field ProtocolSpecific.Smb2.Share.CachingFlags
+
+ 
+
+
+### -field ProtocolSpecific.Reserved
+
+ 
+
+
 
 
 ## -remarks

@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: e8989795-8f72-476a-a69e-c0e8800289ab
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectorySearch, IDirectorySearch interface [ADSI], IDirectorySearch interface [ADSI], described, _ds_idirectorysearch, adsi.idirectorysearch, iads/IDirectorySearch
+ms.keywords: IDirectorySearch, IDirectorySearch interface [ADSI], IDirectorySearch interface [ADSI],described, _ds_idirectorysearch, adsi.idirectorysearch, iads/IDirectorySearch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

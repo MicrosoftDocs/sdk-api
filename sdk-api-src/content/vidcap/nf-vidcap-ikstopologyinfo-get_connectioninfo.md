@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_ConnectionInfo
-title: IKsTopologyInfo::get_ConnectionInfo method
+title: IKsTopologyInfo::get_ConnectionInfo
 author: windows-driver-content
 description: The get_ConnectionInfo method returns information about one node connection in the filter.
 old-location: dshow\ikstopologyinfo_get_connectioninfo.htm
 old-project: DirectShow
 ms.assetid: ef062e0f-0866-48ca-bd27-26000cd4983a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IKsTopologyInfo, IKsTopologyInfo interface [DirectShow], get_ConnectionInfo method, IKsTopologyInfo::get_ConnectionInfo, IKsTopologyInfoget_ConnectionInfo, dshow.ikstopologyinfo_get_connectioninfo, get_ConnectionInfo method [DirectShow], get_ConnectionInfo method [DirectShow], IKsTopologyInfo interface, get_ConnectionInfo,IKsTopologyInfo.get_ConnectionInfo, vidcap/IKsTopologyInfo::get_ConnectionInfo
+ms.date: 4/30/2018
+ms.keywords: IKsTopologyInfo interface [DirectShow],get_ConnectionInfo method, IKsTopologyInfo.get_ConnectionInfo, IKsTopologyInfo::get_ConnectionInfo, IKsTopologyInfoget_ConnectionInfo, dshow.ikstopologyinfo_get_connectioninfo, get_ConnectionInfo, get_ConnectionInfo method [DirectShow], get_ConnectionInfo method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_ConnectionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IKsTopologyInfo::get_ConnectionInfo method
+# IKsTopologyInfo::get_ConnectionInfo
 
 
 ## -description

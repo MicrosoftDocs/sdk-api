@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeLib2.SetHelpStringDll
-title: ICreateTypeLib2::SetHelpStringDll method
+title: ICreateTypeLib2::SetHelpStringDll
 author: windows-driver-content
 description: Sets the DLL name to be used for Help string lookup (for localization purposes).
 old-location: automat\icreatetypelib2_sethelpstringdll.htm
 old-project: automat
 ms.assetid: f00a3dbf-7205-48fd-abeb-1d2d80be7743
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeLib2, ICreateTypeLib2 interface [Automation], SetHelpStringDll method, ICreateTypeLib2::SetHelpStringDll, SetHelpStringDll method [Automation], SetHelpStringDll method [Automation], ICreateTypeLib2 interface, SetHelpStringDll,ICreateTypeLib2.SetHelpStringDll, _oa96_ICreateTypeLib2_SetHelpStringDll, automat.icreatetypelib2_sethelpstringdll, oaidl/ICreateTypeLib2::SetHelpStringDll
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeLib2 interface [Automation],SetHelpStringDll method, ICreateTypeLib2.SetHelpStringDll, ICreateTypeLib2::SetHelpStringDll, SetHelpStringDll, SetHelpStringDll method [Automation], SetHelpStringDll method [Automation],ICreateTypeLib2 interface, _oa96_ICreateTypeLib2_SetHelpStringDll, automat.icreatetypelib2_sethelpstringdll, oaidl/ICreateTypeLib2::SetHelpStringDll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeLib2::SetHelpStringDll method
+# ICreateTypeLib2::SetHelpStringDll
 
 
 ## -description

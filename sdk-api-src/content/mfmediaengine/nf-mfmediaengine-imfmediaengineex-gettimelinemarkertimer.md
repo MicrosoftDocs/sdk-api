@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetTimelineMarkerTimer
-title: IMFMediaEngineEx::GetTimelineMarkerTimer method
+title: IMFMediaEngineEx::GetTimelineMarkerTimer
 author: windows-driver-content
 description: Gets the time of the next timeline marker, if any.
 old-location: mf\imfmediaengineex_gettimelinemarkertimer.htm
 old-project: medfound
 ms.assetid: 8C58DBB6-A55E-4992-B4F2-EB36E15FA7A1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTimelineMarkerTimer method [Media Foundation], GetTimelineMarkerTimer method [Media Foundation], IMFMediaEngineEx interface, GetTimelineMarkerTimer,IMFMediaEngineEx.GetTimelineMarkerTimer, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetTimelineMarkerTimer method, IMFMediaEngineEx::GetTimelineMarkerTimer, mf.imfmediaengineex_gettimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::GetTimelineMarkerTimer
+ms.date: 5/3/2018
+ms.keywords: GetTimelineMarkerTimer, GetTimelineMarkerTimer method [Media Foundation], GetTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetTimelineMarkerTimer method, IMFMediaEngineEx.GetTimelineMarkerTimer, IMFMediaEngineEx::GetTimelineMarkerTimer, mf.imfmediaengineex_gettimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::GetTimelineMarkerTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::GetTimelineMarkerTimer method
+# IMFMediaEngineEx::GetTimelineMarkerTimer
 
 
 ## -description

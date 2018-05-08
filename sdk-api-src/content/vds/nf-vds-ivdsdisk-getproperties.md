@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk.GetProperties
-title: IVdsDisk::GetProperties method
+title: IVdsDisk::GetProperties
 author: windows-driver-content
 description: Returns property information for a disk.
 old-location: base\ivdsdisk_getproperties.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: d2046a26-852d-46b2-b060-98b4a2a92387
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetProperties method [VDS], GetProperties method [VDS], IVdsDisk interface, GetProperties,IVdsDisk.GetProperties, IVdsDisk, IVdsDisk interface [VDS], GetProperties method, IVdsDisk::GetProperties, base.ivdsdisk_getproperties, vds/IVdsDisk::GetProperties
+ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],GetProperties method, IVdsDisk.GetProperties, IVdsDisk::GetProperties, base.ivdsdisk_getproperties, vds/IVdsDisk::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsDisk::GetProperties method
+# IVdsDisk::GetProperties
 
 
 ## -description

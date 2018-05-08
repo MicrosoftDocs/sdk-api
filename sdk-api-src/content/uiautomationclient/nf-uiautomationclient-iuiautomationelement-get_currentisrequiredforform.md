@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsRequiredForForm
-title: IUIAutomationElement::get_CurrentIsRequiredForForm method
+title: IUIAutomationElement::get_CurrentIsRequiredForForm
 author: windows-driver-content
 description: Indicates whether the element is required to be filled out on a form.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsRequiredForForm.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 30482395-1d26-4f86-868c-4c46d5375c00
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentIsRequiredForForm property [Windows Accessibility], CurrentIsRequiredForForm property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentIsRequiredForForm property, IUIAutomationElement.CurrentIsRequiredForForm, IUIAutomationElement::get_CurrentIsRequiredForForm, get_CurrentIsRequiredForForm,IUIAutomationElement.get_CurrentIsRequiredForForm, uiauto.uiauto_IUIAutomationElement_CurrentIsRequiredForForm, uiauto_IUIAutomationElement_CurrentIsRequiredForForm, uiautomationclient/IUIAutomationElement::CurrentIsRequiredForForm, uiautomationclient/IUIAutomationElement::get_CurrentIsRequiredForForm, winauto.uiauto_IUIAutomationElement_CurrentIsRequiredForForm
+ms.keywords: CurrentIsRequiredForForm property [Windows Accessibility], CurrentIsRequiredForForm property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsRequiredForForm property, IUIAutomationElement.CurrentIsRequiredForForm, IUIAutomationElement.get_CurrentIsRequiredForForm, IUIAutomationElement::CurrentIsRequiredForForm, IUIAutomationElement::get_CurrentIsRequiredForForm, get_CurrentIsRequiredForForm, uiauto.uiauto_IUIAutomationElement_CurrentIsRequiredForForm, uiauto_IUIAutomationElement_CurrentIsRequiredForForm, uiautomationclient/IUIAutomationElement::CurrentIsRequiredForForm, uiautomationclient/IUIAutomationElement::get_CurrentIsRequiredForForm, winauto.uiauto_IUIAutomationElement_CurrentIsRequiredForForm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CurrentIsRequiredForForm method
+# IUIAutomationElement::get_CurrentIsRequiredForForm
 
 
 ## -description

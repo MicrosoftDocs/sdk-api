@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.ChangeCurrentLanguage
-title: ITfInputProcessorProfiles::ChangeCurrentLanguage method
+title: ITfInputProcessorProfiles::ChangeCurrentLanguage
 author: windows-driver-content
 description: ITfInputProcessorProfiles::ChangeCurrentLanguage method
 old-location: tsf\itfinputprocessorprofiles_changecurrentlanguage.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2a0a6aa2-9015-4150-bbcf-e3f7218d53e8
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ChangeCurrentLanguage method [Text Services Framework], ChangeCurrentLanguage method [Text Services Framework], ITfInputProcessorProfiles interface, ChangeCurrentLanguage,ITfInputProcessorProfiles.ChangeCurrentLanguage, ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], ChangeCurrentLanguage method, ITfInputProcessorProfiles::ChangeCurrentLanguage, _tsf_itfinputprocessorprofiles_changecurrentlanguage_ref, msctf/ITfInputProcessorProfiles::ChangeCurrentLanguage, tsf.itfinputprocessorprofiles_changecurrentlanguage
+ms.keywords: ChangeCurrentLanguage, ChangeCurrentLanguage method [Text Services Framework], ChangeCurrentLanguage method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],ChangeCurrentLanguage method, ITfInputProcessorProfiles.ChangeCurrentLanguage, ITfInputProcessorProfiles::ChangeCurrentLanguage, _tsf_itfinputprocessorprofiles_changecurrentlanguage_ref, msctf/ITfInputProcessorProfiles::ChangeCurrentLanguage, tsf.itfinputprocessorprofiles_changecurrentlanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfiles::ChangeCurrentLanguage method
+# ITfInputProcessorProfiles::ChangeCurrentLanguage
 
 
 ## -description

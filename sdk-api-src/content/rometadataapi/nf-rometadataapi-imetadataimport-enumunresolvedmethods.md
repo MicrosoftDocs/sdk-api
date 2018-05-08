@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumUnresolvedMethods
-title: IMetaDataImport::EnumUnresolvedMethods method
+title: IMetaDataImport::EnumUnresolvedMethods
 author: windows-driver-content
 description: Enumerates MemberDef tokens representing the unresolved methods in the current metadata scope.
 old-location: winrt\imetadataimport_enumunresolvedmethods.htm
 old-project: WinRT
 ms.assetid: 8c10a1af-93a5-44d0-818f-f307f5f81075
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumUnresolvedMethods method [Windows Runtime], EnumUnresolvedMethods method [Windows Runtime], IMetaDataImport interface, EnumUnresolvedMethods,IMetaDataImport.EnumUnresolvedMethods, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumUnresolvedMethods method, IMetaDataImport::EnumUnresolvedMethods, rometadataapi/IMetaDataImport::EnumUnresolvedMethods, winrt.imetadataimport_enumunresolvedmethods
+ms.date: 5/4/2018
+ms.keywords: EnumUnresolvedMethods, EnumUnresolvedMethods method [Windows Runtime], EnumUnresolvedMethods method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumUnresolvedMethods method, IMetaDataImport.EnumUnresolvedMethods, IMetaDataImport::EnumUnresolvedMethods, rometadataapi/IMetaDataImport::EnumUnresolvedMethods, winrt.imetadataimport_enumunresolvedmethods
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumUnresolvedMethods method
+# IMetaDataImport::EnumUnresolvedMethods
 
 
 ## -description

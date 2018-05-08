@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRendererEvent2.OverlayUnavailable
-title: IMSVidVideoRendererEvent2::OverlayUnavailable method
+title: IMSVidVideoRendererEvent2::OverlayUnavailable
 author: windows-driver-content
 description: This method is not implemented.
 old-location: mstv\imsvidvideorendererevent2_overlayunavailable.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 52571daa-c955-4bd3-bb97-afc480984cdf
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRendererEvent2, IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies], OverlayUnavailable method, IMSVidVideoRendererEvent2::OverlayUnavailable, OverlayUnavailable method [Microsoft TV Technologies], OverlayUnavailable method [Microsoft TV Technologies], IMSVidVideoRendererEvent2 interface, OverlayUnavailable,IMSVidVideoRendererEvent2.OverlayUnavailable, mstv.imsvidvideorendererevent2_overlayunavailable, segment/IMSVidVideoRendererEvent2::OverlayUnavailable
+ms.keywords: IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies],OverlayUnavailable method, IMSVidVideoRendererEvent2.OverlayUnavailable, IMSVidVideoRendererEvent2::OverlayUnavailable, OverlayUnavailable, OverlayUnavailable method [Microsoft TV Technologies], OverlayUnavailable method [Microsoft TV Technologies],IMSVidVideoRendererEvent2 interface, mstv.imsvidvideorendererevent2_overlayunavailable, segment/IMSVidVideoRendererEvent2::OverlayUnavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRendererEvent2::OverlayUnavailable method
+# IMSVidVideoRendererEvent2::OverlayUnavailable
 
 
 ## -description

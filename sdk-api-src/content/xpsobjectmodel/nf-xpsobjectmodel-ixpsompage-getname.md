@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetName
-title: IXpsOMPage::GetName method
+title: IXpsOMPage::GetName
 author: windows-driver-content
 description: Gets the Name property of the page.
 old-location: xps\ixpsompage_getname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0c133dce-3a5a-4d7f-af83-2e185450c207
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetName method [XPS Documents and Packaging], GetName method [XPS Documents and Packaging], IXpsOMPage interface, GetName,IXpsOMPage.GetName, IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], GetName method, IXpsOMPage::GetName, xps.ixpsompage_getname, xpsobjectmodel/IXpsOMPage::GetName
+ms.keywords: GetName, GetName method [XPS Documents and Packaging], GetName method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetName method, IXpsOMPage.GetName, IXpsOMPage::GetName, xps.ixpsompage_getname, xpsobjectmodel/IXpsOMPage::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::GetName method
+# IXpsOMPage::GetName
 
 
 ## -description

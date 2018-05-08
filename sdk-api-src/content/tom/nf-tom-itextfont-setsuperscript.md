@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetSuperscript
-title: ITextFont::SetSuperscript method
+title: ITextFont::SetSuperscript
 author: windows-driver-content
 description: Sets whether characters are displayed as superscript.
 old-location: controls\ITextFont_SetSuperscript.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsuperscript.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetSuperscript method, ITextFont::SetSuperscript, SetSuperscript method [Windows Controls], SetSuperscript method [Windows Controls], ITextFont interface, SetSuperscript,ITextFont.SetSuperscript, _win32_ITextFont_SetSuperscript, _win32_ITextFont_SetSuperscript_cpp, controls.ITextFont_SetSuperscript, controls._win32_ITextFont_SetSuperscript, tom/ITextFont::SetSuperscript
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetSuperscript method, ITextFont.SetSuperscript, ITextFont::SetSuperscript, SetSuperscript, SetSuperscript method [Windows Controls], SetSuperscript method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSuperscript, _win32_ITextFont_SetSuperscript_cpp, controls.ITextFont_SetSuperscript, controls._win32_ITextFont_SetSuperscript, tom/ITextFont::SetSuperscript
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetSuperscript method
+# ITextFont::SetSuperscript
 
 
 ## -description

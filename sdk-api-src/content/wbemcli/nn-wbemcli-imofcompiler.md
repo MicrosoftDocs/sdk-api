@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 5e01c7ac-7090-4cde-b836-01fa9d3f27f5
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IMofCompiler, IMofCompiler interface [Windows Management Instrumentation], IMofCompiler interface [Windows Management Instrumentation], described, MofCompiler, _hmm_imofcompiler, wbemcli/IMofCompiler, wmi.imofcompiler
+ms.keywords: IMofCompiler, IMofCompiler interface [Windows Management Instrumentation], IMofCompiler interface [Windows Management Instrumentation],described, MofCompiler, _hmm_imofcompiler, wbemcli/IMofCompiler, wmi.imofcompiler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -63,6 +63,11 @@ Used to impose restrictions on what system calls can be invoked by a process.
  
 
 
+### -field DUMMYUNIONNAME.Flags
+
+This member is reserved for system use.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -88,11 +93,6 @@ Used to impose restrictions on what system calls can be invoked by a process.
 #### - DisallowWin32kSystemCalls : 1
 
 When set to 1, the process is not permitted to perform GUI system calls.
-
-
-#### - Flags
-
-This member is reserved for system use.
 
 
 #### - ReservedFlags : 31

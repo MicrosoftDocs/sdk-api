@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Timestamp
-title: IMbnSmsReadMsgTextCdma::get_Timestamp method
+title: IMbnSmsReadMsgTextCdma::get_Timestamp
 author: windows-driver-content
 description: The timestamp of a message.
 old-location: mbn\imbnsmsreadmsgtextcdma_timestamp.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 178de8ed-b7ab-4a1a-a533-8dcffbdb8499
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSmsReadMsgTextCdma, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks], Timestamp property, IMbnSmsReadMsgTextCdma.Timestamp, IMbnSmsReadMsgTextCdma::get_Timestamp, Timestamp property [Microsoft Broadband Networks], Timestamp property [Microsoft Broadband Networks], IMbnSmsReadMsgTextCdma interface, get_Timestamp,IMbnSmsReadMsgTextCdma.get_Timestamp, mbn.imbnsmsreadmsgtextcdma_timestamp, mbnapi/IMbnSmsReadMsgTextCdma::Timestamp, mbnapi/IMbnSmsReadMsgTextCdma::get_Timestamp
+ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Timestamp property, IMbnSmsReadMsgTextCdma.Timestamp, IMbnSmsReadMsgTextCdma.get_Timestamp, IMbnSmsReadMsgTextCdma::Timestamp, IMbnSmsReadMsgTextCdma::get_Timestamp, Timestamp property [Microsoft Broadband Networks], Timestamp property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_Timestamp, mbn.imbnsmsreadmsgtextcdma_timestamp, mbnapi/IMbnSmsReadMsgTextCdma::Timestamp, mbnapi/IMbnSmsReadMsgTextCdma::get_Timestamp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSmsReadMsgTextCdma::get_Timestamp method
+# IMbnSmsReadMsgTextCdma::get_Timestamp
 
 
 ## -description

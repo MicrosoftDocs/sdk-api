@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.OpenNamespace
-title: IWbemServices::OpenNamespace method
+title: IWbemServices::OpenNamespace
 author: windows-driver-content
 description: The IWbemServices::OpenNamespace method provides the caller with a new IWbemServices pointer that has the specified child namespace as its operating context.
 old-location: wmi\iwbemservices_opennamespace.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 09ff9078-3d97-432b-8626-62f12b5e3ef4
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemServices, IWbemServices interface [Windows Management Instrumentation], OpenNamespace method, IWbemServices::OpenNamespace, OpenNamespace method [Windows Management Instrumentation], OpenNamespace method [Windows Management Instrumentation], IWbemServices interface, OpenNamespace,IWbemServices.OpenNamespace, _hmm_iwbemservices_opennamespace, wbemcli/IWbemServices::OpenNamespace, wmi.iwbemservices_opennamespace
+ms.keywords: IWbemServices interface [Windows Management Instrumentation],OpenNamespace method, IWbemServices.OpenNamespace, IWbemServices::OpenNamespace, OpenNamespace, OpenNamespace method [Windows Management Instrumentation], OpenNamespace method [Windows Management Instrumentation],IWbemServices interface, _hmm_iwbemservices_opennamespace, wbemcli/IWbemServices::OpenNamespace, wmi.iwbemservices_opennamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,7 +58,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemServices::OpenNamespace method
+# IWbemServices::OpenNamespace
 
 
 ## -description

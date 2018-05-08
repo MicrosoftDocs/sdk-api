@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: c881dc9f-4187-4ba1-9f3a-e1564e4f37c7
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509NameValuePairs, IX509NameValuePairs interface [Security], IX509NameValuePairs interface [Security], described, certenroll/IX509NameValuePairs, security.ix509namevaluepairs
+ms.keywords: IX509NameValuePairs, IX509NameValuePairs interface [Security], IX509NameValuePairs interface [Security],described, certenroll/IX509NameValuePairs, security.ix509namevaluepairs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

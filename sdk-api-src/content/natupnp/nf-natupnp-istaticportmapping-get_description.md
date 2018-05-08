@@ -1,14 +1,14 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_Description
-title: IStaticPortMapping::get_Description method
+title: IStaticPortMapping::get_Description
 author: windows-driver-content
 description: The get_Description method retrieves the description associated with this port mapping.
 old-location: ics\istaticportmapping_get_description.htm
 old-project: ICS
 ms.assetid: 2b25fdff-8ad1-470f-bfd1-758f0bf8ea1f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], get_Description method, IStaticPortMapping::get_Description, _ics_istaticportmapping_get_description, get_Description method [ICS/ICF], get_Description method [ICS/ICF], IStaticPortMapping interface, get_Description,IStaticPortMapping.get_Description, ics.istaticportmapping_get_description, natupnp/IStaticPortMapping::get_Description
+ms.date: 5/1/2018
+ms.keywords: IStaticPortMapping interface [ICS/ICF],get_Description method, IStaticPortMapping.get_Description, IStaticPortMapping::get_Description, _ics_istaticportmapping_get_description, get_Description, get_Description method [ICS/ICF], get_Description method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_description, natupnp/IStaticPortMapping::get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStaticPortMapping::get_Description method
+# IStaticPortMapping::get_Description
 
 
 ## -description

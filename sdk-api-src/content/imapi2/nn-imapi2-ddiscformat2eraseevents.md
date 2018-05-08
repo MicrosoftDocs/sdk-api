@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 0e999859-d409-4fd8-a5da-c43da64bcd8f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: DDiscFormat2EraseEvents, DDiscFormat2EraseEvents interface [IMAPI], DDiscFormat2EraseEvents interface [IMAPI], described, imapi.ddiscformat2eraseevents, imapi2/DDiscFormat2EraseEvents
+ms.keywords: DDiscFormat2EraseEvents, DDiscFormat2EraseEvents interface [IMAPI], DDiscFormat2EraseEvents interface [IMAPI],described, imapi.ddiscformat2eraseevents, imapi2/DDiscFormat2EraseEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

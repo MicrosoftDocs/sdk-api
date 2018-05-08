@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IHWEventHandler.Initialize
-title: IHWEventHandler::Initialize method
+title: IHWEventHandler::Initialize
 author: windows-driver-content
 description: Initializes an object that contains an implementation of the IHWEventHandler interface.
 old-location: shell\IHWEventHandler_Initialize.htm
 old-project: shell
 ms.assetid: 96eb582a-4f32-4e13-ad01-8b5ffabab582
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IHWEventHandler, IHWEventHandler interface [Windows Shell], Initialize method, IHWEventHandler::Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell], IHWEventHandler interface, Initialize,IHWEventHandler.Initialize, inet_IHWEventHandler_Initialize, shell.IHWEventHandler_Initialize, shobjidl/IHWEventHandler::Initialize
+ms.date: 5/3/2018
+ms.keywords: IHWEventHandler interface [Windows Shell],Initialize method, IHWEventHandler.Initialize, IHWEventHandler::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IHWEventHandler interface, inet_IHWEventHandler_Initialize, shell.IHWEventHandler_Initialize, shobjidl/IHWEventHandler::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IHWEventHandler::Initialize method
+# IHWEventHandler::Initialize
 
 
 ## -description

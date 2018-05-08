@@ -7,8 +7,8 @@ old-location: shell\UShortToChar.htm
 old-project: shell
 ms.assetid: 9d5b57a8-7b5b-4a40-a022-57149fec76de
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: UShortToChar, UShortToChar function [Windows Shell], _shell_UShortToChar, intsafe/UShortToChar, shell.UShortToChar
+ms.date: 5/3/2018
+ms.keywords: UShortToChar, UShortToChar function [Windows Shell], WordToChar, _shell_UShortToChar, intsafe/UShortToChar, shell.UShortToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,6 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>WordToChar</b> is an alias for this function.
 
 
 

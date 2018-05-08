@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocSecuritySettings.Reset
-title: IEnumDot11AdHocSecuritySettings::Reset method
+title: IEnumDot11AdHocSecuritySettings::Reset
 author: windows-driver-content
 description: Resets to the beginning of the enumeration sequence.
 old-location: nwifi\ienumdot11adhocsecuritysettings_reset.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: 15fc655c-56d3-4f1e-b4e9-cb0e16191dc7
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IEnumDot11AdHocSecuritySettings, IEnumDot11AdHocSecuritySettings interface [NativeWIFI], Reset method, IEnumDot11AdHocSecuritySettings::Reset, Reset method [NativeWIFI], Reset method [NativeWIFI], IEnumDot11AdHocSecuritySettings interface, Reset,IEnumDot11AdHocSecuritySettings.Reset, adhoc/IEnumDot11AdHocSecuritySettings::Reset, nwifi.ienumdot11adhocsecuritysettings_reset
+ms.keywords: IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Reset method, IEnumDot11AdHocSecuritySettings.Reset, IEnumDot11AdHocSecuritySettings::Reset, Reset, Reset method [NativeWIFI], Reset method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, adhoc/IEnumDot11AdHocSecuritySettings::Reset, nwifi.ienumdot11adhocsecuritysettings_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumDot11AdHocSecuritySettings::Reset method
+# IEnumDot11AdHocSecuritySettings::Reset
 
 
 ## -description

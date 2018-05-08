@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyPnPActivity
-title: IDiscMasterProgressEvents::NotifyPnPActivity method
+title: IDiscMasterProgressEvents::NotifyPnPActivity
 author: windows-driver-content
 description: Notifies the application that there is a change to the list of valid disc recorders. (For example, a USB CD-R driver is removed from the system.).
 old-location: imapi\idiscmasterprogressevents_notifypnpactivity.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d2b41e86-2f1b-46f1-955d-7fc42f8189a4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscMasterProgressEvents, IDiscMasterProgressEvents interface [IMAPI], NotifyPnPActivity method, IDiscMasterProgressEvents::NotifyPnPActivity, NotifyPnPActivity method [IMAPI], NotifyPnPActivity method [IMAPI], IDiscMasterProgressEvents interface, NotifyPnPActivity,IDiscMasterProgressEvents.NotifyPnPActivity, _win32_idiscmasterprogressevents_notifypnpactivity, base.idiscmasterprogressevents_notifypnpactivity, imapi.idiscmasterprogressevents_notifypnpactivity, imapi/IDiscMasterProgressEvents::NotifyPnPActivity
+ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyPnPActivity method, IDiscMasterProgressEvents.NotifyPnPActivity, IDiscMasterProgressEvents::NotifyPnPActivity, NotifyPnPActivity, NotifyPnPActivity method [IMAPI], NotifyPnPActivity method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifypnpactivity, base.idiscmasterprogressevents_notifypnpactivity, imapi.idiscmasterprogressevents_notifypnpactivity, imapi/IDiscMasterProgressEvents::NotifyPnPActivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscMasterProgressEvents::NotifyPnPActivity method
+# IDiscMasterProgressEvents::NotifyPnPActivity
 
 
 ## -description

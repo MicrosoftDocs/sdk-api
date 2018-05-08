@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.Serialize
-title: ITfContextOwnerServices::Serialize method
+title: ITfContextOwnerServices::Serialize
 author: windows-driver-content
 description: The ITfContextOwnerServices::Serialize method obtains a property from a range of text and writes the property data into a stream object. This enables an application to store property data, for example, when writing the data to a file.
 old-location: tsf\itfcontextownerservices_serialize.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: e67b6fa7-610d-426f-a290-36c0da4068f4
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfContextOwnerServices, ITfContextOwnerServices interface [Text Services Framework], Serialize method, ITfContextOwnerServices::Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework], ITfContextOwnerServices interface, Serialize,ITfContextOwnerServices.Serialize, _tsf_itfcontextownerservices_serialize_ref, msctf/ITfContextOwnerServices::Serialize, tsf.itfcontextownerservices_serialize
+ms.keywords: ITfContextOwnerServices interface [Text Services Framework],Serialize method, ITfContextOwnerServices.Serialize, ITfContextOwnerServices::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_serialize_ref, msctf/ITfContextOwnerServices::Serialize, tsf.itfcontextownerservices_serialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwnerServices::Serialize method
+# ITfContextOwnerServices::Serialize
 
 
 ## -description

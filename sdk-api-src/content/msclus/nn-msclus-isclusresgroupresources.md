@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 9ea90beb-86ae-4026-94bb-175e593da8fa
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ClusResGroupResources, ClusResGroupResources collection [Failover Cluster], ClusResGroupResources collection [Failover Cluster], described, ISClusResGroupResources, _wolf_clusresgroupresources_collection, msclus/ClusResGroupResources, mscs.clusresgroupresources_collection
+ms.keywords: ClusResGroupResources, ClusResGroupResources collection [Failover Cluster], ClusResGroupResources collection [Failover Cluster],described, ISClusResGroupResources, _wolf_clusresgroupresources_collection, msclus/ClusResGroupResources, mscs.clusresgroupresources_collection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

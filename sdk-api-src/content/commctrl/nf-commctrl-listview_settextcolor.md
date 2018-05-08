@@ -7,7 +7,7 @@ old-location: controls\ListView_SetTextColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settextcolor.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: ListView_SetTextColor, ListView_SetTextColor macro [Windows Controls], _win32_ListView_SetTextColor, _win32_ListView_SetTextColor_cpp, commctrl/ListView_SetTextColor, controls.ListView_SetTextColor, controls._win32_ListView_SetTextColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

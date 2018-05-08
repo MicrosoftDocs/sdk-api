@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.ReplaceFrame
-title: IShellImageData::ReplaceFrame method
+title: IShellImageData::ReplaceFrame
 author: windows-driver-content
 description: Replaces the current frame with a new image.
 old-location: shell\IShellImageData_ReplaceFrame.htm
 old-project: shell
 ms.assetid: f066c503-4512-46db-be50-016996b92668
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], ReplaceFrame method, IShellImageData::ReplaceFrame, ReplaceFrame method [Windows Shell], ReplaceFrame method [Windows Shell], IShellImageData interface, ReplaceFrame,IShellImageData.ReplaceFrame, _shell_IShellImageData_ReplaceFrame, shell.IShellImageData_ReplaceFrame, shimgdata/IShellImageData::ReplaceFrame
+ms.date: 5/3/2018
+ms.keywords: IShellImageData interface [Windows Shell],ReplaceFrame method, IShellImageData.ReplaceFrame, IShellImageData::ReplaceFrame, ReplaceFrame, ReplaceFrame method [Windows Shell], ReplaceFrame method [Windows Shell],IShellImageData interface, _shell_IShellImageData_ReplaceFrame, shell.IShellImageData_ReplaceFrame, shimgdata/IShellImageData::ReplaceFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::ReplaceFrame method
+# IShellImageData::ReplaceFrame
 
 
 ## -description

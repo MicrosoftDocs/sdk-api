@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.OpenMapping
-title: ISimilarityTraitsMapping::OpenMapping method
+title: ISimilarityTraitsMapping::OpenMapping
 author: windows-driver-content
 description: Opens the file mapping object for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_openmapping.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 278d7b78-28c6-41ee-9060-5f7d757ef494
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remote Differential Compression], OpenMapping method, ISimilarityTraitsMapping::OpenMapping, OpenMapping method [Remote Differential Compression], OpenMapping method [Remote Differential Compression], ISimilarityTraitsMapping interface, OpenMapping,ISimilarityTraitsMapping.OpenMapping, fs.isimilaritytraitsmapping_openmapping, msrdc/ISimilarityTraitsMapping::OpenMapping, rdc.isimilaritytraitsmapping_openmapping
+ms.keywords: ISimilarityTraitsMapping interface [Remote Differential Compression],OpenMapping method, ISimilarityTraitsMapping.OpenMapping, ISimilarityTraitsMapping::OpenMapping, OpenMapping, OpenMapping method [Remote Differential Compression], OpenMapping method [Remote Differential Compression],ISimilarityTraitsMapping interface, fs.isimilaritytraitsmapping_openmapping, msrdc/ISimilarityTraitsMapping::OpenMapping, rdc.isimilaritytraitsmapping_openmapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarityTraitsMapping::OpenMapping method
+# ISimilarityTraitsMapping::OpenMapping
 
 
 ## -description

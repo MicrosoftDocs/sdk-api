@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumConnections.Next
-title: IEnumConnections::Next method
+title: IEnumConnections::Next
 author: windows-driver-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumconnections_next.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: af58f961-1182-43fc-95ce-4afb251b9b08
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumConnections, IEnumConnections interface [COM], Next method, IEnumConnections::Next, Next method [COM], Next method [COM], IEnumConnections interface, Next,IEnumConnections.Next, _com_ienumconnections_next, com.ienumconnections_next, ocidl/IEnumConnections::Next
+ms.keywords: IEnumConnections interface [COM],Next method, IEnumConnections.Next, IEnumConnections::Next, Next, Next method [COM], Next method [COM],IEnumConnections interface, _com_ienumconnections_next, com.ienumconnections_next, ocidl/IEnumConnections::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumConnections::Next method
+# IEnumConnections::Next
 
 
 ## -description

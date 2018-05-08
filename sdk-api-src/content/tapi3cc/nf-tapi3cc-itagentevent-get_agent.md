@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentEvent.get_Agent
-title: ITAgentEvent::get_Agent method
+title: ITAgentEvent::get_Agent
 author: windows-driver-content
 description: The get_Agent method gets the interface for the agent on which the event occurred.
 old-location: tapi3\itagentevent_get_agent.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 90a1684d-5cb0-4d1b-ac38-b03f9f1ff838
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgentEvent, ITAgentEvent interface [TAPI 2.2], get_Agent method, ITAgentEvent::get_Agent, _tapi3_itagentevent_get_agent, get_Agent method [TAPI 2.2], get_Agent method [TAPI 2.2], ITAgentEvent interface, get_Agent,ITAgentEvent.get_Agent, tapi3.itagentevent_get_agent, tapi3cc/ITAgentEvent::get_Agent
+ms.keywords: ITAgentEvent interface [TAPI 2.2],get_Agent method, ITAgentEvent.get_Agent, ITAgentEvent::get_Agent, _tapi3_itagentevent_get_agent, get_Agent, get_Agent method [TAPI 2.2], get_Agent method [TAPI 2.2],ITAgentEvent interface, tapi3.itagentevent_get_agent, tapi3cc/ITAgentEvent::get_Agent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentEvent::get_Agent method
+# ITAgentEvent::get_Agent
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxEnableScrollBar
-title: ITextHost::TxEnableScrollBar method
+title: ITextHost::TxEnableScrollBar
 author: windows-driver-content
 description: Enables or disables one or both scroll bar arrows in the text host window.
 old-location: controls\ITextHost_TxEnableScrollBar.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txenablescrollbar.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, ITextHost, ITextHost interface [Windows Controls], TxEnableScrollBar method, ITextHost::TxEnableScrollBar, SB_BOTH, SB_HORZ, SB_VERT, TxEnableScrollBar method [Windows Controls], TxEnableScrollBar method [Windows Controls], ITextHost interface, TxEnableScrollBar,ITextHost.TxEnableScrollBar, _win32_ITextHost_TxEnableScrollBar, _win32_ITextHost_TxEnableScrollBar_cpp, controls.ITextHost_TxEnableScrollBar, controls._win32_ITextHost_TxEnableScrollBar, textserv/ITextHost::TxEnableScrollBar
+ms.date: 4/27/2018
+ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, ITextHost interface [Windows Controls],TxEnableScrollBar method, ITextHost.TxEnableScrollBar, ITextHost::TxEnableScrollBar, SB_BOTH, SB_HORZ, SB_VERT, TxEnableScrollBar, TxEnableScrollBar method [Windows Controls], TxEnableScrollBar method [Windows Controls],ITextHost interface, _win32_ITextHost_TxEnableScrollBar, _win32_ITextHost_TxEnableScrollBar_cpp, controls.ITextHost_TxEnableScrollBar, controls._win32_ITextHost_TxEnableScrollBar, textserv/ITextHost::TxEnableScrollBar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxEnableScrollBar method
+# ITextHost::TxEnableScrollBar
 
 
 ## -description

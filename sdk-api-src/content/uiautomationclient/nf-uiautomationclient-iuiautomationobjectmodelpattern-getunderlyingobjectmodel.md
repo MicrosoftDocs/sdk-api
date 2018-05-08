@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationObjectModelPattern.GetUnderlyingObjectModel
-title: IUIAutomationObjectModelPattern::GetUnderlyingObjectModel method
+title: IUIAutomationObjectModelPattern::GetUnderlyingObjectModel
 author: windows-driver-content
 description: Retrieves an interface used to access the underlying object model of the provider.
 old-location: winauto\uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObjectModel.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7D1C4ABD-38FA-48C4-80ED-C0AA312D45FE
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetUnderlyingObjectModel method [Windows Accessibility], GetUnderlyingObjectModel method [Windows Accessibility], IUIAutomationObjectModelPattern interface, GetUnderlyingObjectModel,IUIAutomationObjectModelPattern.GetUnderlyingObjectModel, IUIAutomationObjectModelPattern, IUIAutomationObjectModelPattern interface [Windows Accessibility], GetUnderlyingObjectModel method, IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, uiautomationclient/IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, winauto.uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObjectModel
+ms.keywords: GetUnderlyingObjectModel, GetUnderlyingObjectModel method [Windows Accessibility], GetUnderlyingObjectModel method [Windows Accessibility],IUIAutomationObjectModelPattern interface, IUIAutomationObjectModelPattern interface [Windows Accessibility],GetUnderlyingObjectModel method, IUIAutomationObjectModelPattern.GetUnderlyingObjectModel, IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, uiautomationclient/IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, winauto.uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObjectModel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationObjectModelPattern::GetUnderlyingObjectModel method
+# IUIAutomationObjectModelPattern::GetUnderlyingObjectModel
 
 
 ## -description

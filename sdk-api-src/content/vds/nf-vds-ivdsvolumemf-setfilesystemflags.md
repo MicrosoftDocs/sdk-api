@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF.SetFileSystemFlags
-title: IVdsVolumeMF::SetFileSystemFlags method
+title: IVdsVolumeMF::SetFileSystemFlags
 author: windows-driver-content
 description: Sets the file-system flags.
 old-location: base\ivdsvolumemf_setfilesystemflags.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 836f4a8d-8736-4876-8de3-a6265d7eb66a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsVolumeMF, IVdsVolumeMF interface [VDS], SetFileSystemFlags method, IVdsVolumeMF::SetFileSystemFlags, SetFileSystemFlags method [VDS], SetFileSystemFlags method [VDS], IVdsVolumeMF interface, SetFileSystemFlags,IVdsVolumeMF.SetFileSystemFlags, base.ivdsvolumemf_setfilesystemflags, vds/IVdsVolumeMF::SetFileSystemFlags
+ms.keywords: IVdsVolumeMF interface [VDS],SetFileSystemFlags method, IVdsVolumeMF.SetFileSystemFlags, IVdsVolumeMF::SetFileSystemFlags, SetFileSystemFlags, SetFileSystemFlags method [VDS], SetFileSystemFlags method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_setfilesystemflags, vds/IVdsVolumeMF::SetFileSystemFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolumeMF::SetFileSystemFlags method
+# IVdsVolumeMF::SetFileSystemFlags
 
 
 ## -description

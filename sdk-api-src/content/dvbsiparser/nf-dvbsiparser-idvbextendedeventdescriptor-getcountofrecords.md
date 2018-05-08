@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetCountOfRecords
-title: IDvbExtendedEventDescriptor::GetCountOfRecords method
+title: IDvbExtendedEventDescriptor::GetCountOfRecords
 author: windows-driver-content
 description: Gets the number of item records in a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_getcountofrecords.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: db065f1a-8354-4207-b7f7-d67adf094c70
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface, GetCountOfRecords,IDvbExtendedEventDescriptor.GetCountOfRecords, IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], GetCountOfRecords method, IDvbExtendedEventDescriptor::GetCountOfRecords, dvbsiparser/IDvbExtendedEventDescriptor::GetCountOfRecords, mstv.idvbextendedeventdescriptor_getcountofrecords
+ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbExtendedEventDescriptor.GetCountOfRecords, IDvbExtendedEventDescriptor::GetCountOfRecords, dvbsiparser/IDvbExtendedEventDescriptor::GetCountOfRecords, mstv.idvbextendedeventdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbExtendedEventDescriptor::GetCountOfRecords method
+# IDvbExtendedEventDescriptor::GetCountOfRecords
 
 
 ## -description

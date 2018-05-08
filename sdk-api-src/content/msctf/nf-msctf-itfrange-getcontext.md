@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.GetContext
-title: ITfRange::GetContext method
+title: ITfRange::GetContext
 author: windows-driver-content
 description: ITfRange::GetContext method
 old-location: tsf\itfrange_getcontext.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c3ba1424-f6c9-41f1-b815-4c315bfba868
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetContext method [Text Services Framework], GetContext method [Text Services Framework], ITfRange interface, GetContext,ITfRange.GetContext, ITfRange, ITfRange interface [Text Services Framework], GetContext method, ITfRange::GetContext, _tsf_itfrange_getcontext_ref, msctf/ITfRange::GetContext, tsf.itfrange_getcontext
+ms.keywords: GetContext, GetContext method [Text Services Framework], GetContext method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetContext method, ITfRange.GetContext, ITfRange::GetContext, _tsf_itfrange_getcontext_ref, msctf/ITfRange::GetContext, tsf.itfrange_getcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfRange::GetContext method
+# ITfRange::GetContext
 
 
 ## -description

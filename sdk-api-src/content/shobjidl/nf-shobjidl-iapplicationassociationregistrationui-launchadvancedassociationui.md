@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI
-title: IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI method
+title: IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
 author: windows-driver-content
 description: Launches an advanced association dialog box through which the user can customize the associations for the application specified in pszAppRegName.
 old-location: shell\IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI.htm
 old-project: shell
 ms.assetid: db2fc087-2f22-40df-8ec9-f673c0fe81ff
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IApplicationAssociationRegistrationUI, IApplicationAssociationRegistrationUI interface [Windows Shell], LaunchAdvancedAssociationUI method, IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI method [Windows Shell], LaunchAdvancedAssociationUI method [Windows Shell], IApplicationAssociationRegistrationUI interface, LaunchAdvancedAssociationUI,IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI, _shell_IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shell.IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shobjidl/IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
+ms.date: 5/3/2018
+ms.keywords: IApplicationAssociationRegistrationUI interface [Windows Shell],LaunchAdvancedAssociationUI method, IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI, IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI method [Windows Shell], LaunchAdvancedAssociationUI method [Windows Shell],IApplicationAssociationRegistrationUI interface, _shell_IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shell.IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shobjidl/IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI method
+# IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
 
 
 ## -description

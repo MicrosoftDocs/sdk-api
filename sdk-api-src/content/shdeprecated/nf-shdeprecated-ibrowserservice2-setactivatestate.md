@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.SetActivateState
-title: IBrowserService2::SetActivateState method
+title: IBrowserService2::SetActivateState
 author: windows-driver-content
 description: Deprecated. Updates the value of the _uActivateState member of the BASEBROWSERDATA structure, which tracks whether the browser view window is in an activated state. The derived class makes this call to the base class.
 old-location: shell\IBrowserService2_SetActivateState.htm
 old-project: shell
 ms.assetid: 7a822b69-892d-48dc-99b3-8d725036722d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], SetActivateState method, IBrowserService2::SetActivateState, SetActivateState method [Windows Shell], SetActivateState method [Windows Shell], IBrowserService2 interface, SetActivateState,IBrowserService2.SetActivateState, shdeprecated/IBrowserService2::SetActivateState, shell.IBrowserService2_SetActivateState, zone_IBrowserService2_SetActivateState
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],SetActivateState method, IBrowserService2.SetActivateState, IBrowserService2::SetActivateState, SetActivateState, SetActivateState method [Windows Shell], SetActivateState method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::SetActivateState, shell.IBrowserService2_SetActivateState, zone_IBrowserService2_SetActivateState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::SetActivateState method
+# IBrowserService2::SetActivateState
 
 
 ## -description

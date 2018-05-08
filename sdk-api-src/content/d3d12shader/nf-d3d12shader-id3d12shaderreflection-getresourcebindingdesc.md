@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetResourceBindingDesc
-title: ID3D12ShaderReflection::GetResourceBindingDesc method
+title: ID3D12ShaderReflection::GetResourceBindingDesc
 author: windows-driver-content
 description: Gets a description of how a resource is bound to a shader.
 old-location: direct3d12\id3d12shaderreflection_getresourcebindingdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 3E9A168D-CD9E-4256-9E0B-19B9295E511E
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetResourceBindingDesc method, GetResourceBindingDesc method, ID3D12ShaderReflection interface, GetResourceBindingDesc,ID3D12ShaderReflection.GetResourceBindingDesc, ID3D12ShaderReflection, ID3D12ShaderReflection interface, GetResourceBindingDesc method, ID3D12ShaderReflection::GetResourceBindingDesc, d3d12shader/ID3D12ShaderReflection::GetResourceBindingDesc, direct3d12.id3d12shaderreflection_getresourcebindingdesc
+ms.keywords: GetResourceBindingDesc, GetResourceBindingDesc method, GetResourceBindingDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetResourceBindingDesc method, ID3D12ShaderReflection.GetResourceBindingDesc, ID3D12ShaderReflection::GetResourceBindingDesc, d3d12shader/ID3D12ShaderReflection::GetResourceBindingDesc, direct3d12.id3d12shaderreflection_getresourcebindingdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflection::GetResourceBindingDesc method
+# ID3D12ShaderReflection::GetResourceBindingDesc
 
 
 ## -description

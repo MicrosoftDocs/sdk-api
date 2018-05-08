@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.GetStatus
-title: IUIAnimationManager::GetStatus method
+title: IUIAnimationManager::GetStatus
 author: windows-driver-content
 description: Gets the status of the animation manager.
 old-location: uianimation\iuianimationmanager_getstatus.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 838140c3-12ca-4909-a0f8-713b5472e5a9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStatus method [Windows Animation], GetStatus method [Windows Animation], IUIAnimationManager interface, GetStatus,IUIAnimationManager.GetStatus, IUIAnimationManager, IUIAnimationManager interface [Windows Animation], GetStatus method, IUIAnimationManager::GetStatus, uianimation.iuianimationmanager_getstatus, uianimation/IUIAnimationManager::GetStatus
+ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],GetStatus method, IUIAnimationManager.GetStatus, IUIAnimationManager::GetStatus, uianimation.iuianimationmanager_getstatus, uianimation/IUIAnimationManager::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager::GetStatus method
+# IUIAnimationManager::GetStatus
 
 
 ## -description

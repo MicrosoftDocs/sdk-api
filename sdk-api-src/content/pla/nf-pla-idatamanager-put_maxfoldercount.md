@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.put_MaxFolderCount
-title: IDataManager::put_MaxFolderCount method
+title: IDataManager::put_MaxFolderCount
 author: windows-driver-content
 description: Retrieves or sets the maximum number of folders to be used by all data collectors in the set.
 old-location: pla\idatamanager_maxfoldercount.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 71368635-e8c3-44fd-9d8a-f225b10225ba
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataManager, IDataManager interface [PLA], MaxFolderCount property, IDataManager.MaxFolderCount, IDataManager::get_MaxFolderCount, IDataManager::put_MaxFolderCount, MaxFolderCount property [PLA], MaxFolderCount property [PLA], IDataManager interface, base.idatamanager_maxfoldercount, pla.idatamanager_maxfoldercount, pla/IDataManager::MaxFolderCount, pla/IDataManager::get_MaxFolderCount, pla/IDataManager::put_MaxFolderCount, put_MaxFolderCount,IDataManager.put_MaxFolderCount
+ms.keywords: IDataManager interface [PLA],MaxFolderCount property, IDataManager.MaxFolderCount, IDataManager.put_MaxFolderCount, IDataManager::MaxFolderCount, IDataManager::get_MaxFolderCount, IDataManager::put_MaxFolderCount, MaxFolderCount property [PLA], MaxFolderCount property [PLA],IDataManager interface, base.idatamanager_maxfoldercount, pla.idatamanager_maxfoldercount, pla/IDataManager::MaxFolderCount, pla/IDataManager::get_MaxFolderCount, pla/IDataManager::put_MaxFolderCount, put_MaxFolderCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataManager::put_MaxFolderCount method
+# IDataManager::put_MaxFolderCount
 
 
 ## -description

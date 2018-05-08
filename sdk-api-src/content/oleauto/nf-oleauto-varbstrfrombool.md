@@ -7,7 +7,7 @@ old-location: automat\varbstrfrombool.htm
 old-project: automat
 ms.assetid: 6dc363bc-366c-4d9f-8aed-b1aed752c04f
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_LOCALBOOL, VarBstrFromBool, VarBstrFromBool function [Automation], _oa96_VarBstrFromBool, automat.varbstrfrombool, oleauto/VarBstrFromBool
 ms.prod: windows-hardware
 ms.technology: windows-devices

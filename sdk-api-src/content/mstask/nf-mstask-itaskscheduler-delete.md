@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskScheduler.Delete
-title: ITaskScheduler::Delete method
+title: ITaskScheduler::Delete
 author: windows-driver-content
 description: The Delete method deletes a task.
 old-location: taskschd\itaskscheduler_delete.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 87f21acc-e6e0-4645-84b8-b35a2eb2e80b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Delete method [Task Scheduler], Delete method [Task Scheduler], ITaskScheduler interface, Delete,ITaskScheduler.Delete, ITaskScheduler, ITaskScheduler interface [Task Scheduler], Delete method, ITaskScheduler::Delete, _msb_itaskscheduler_delete, mstask/ITaskScheduler::Delete, taskschd.itaskscheduler_delete
+ms.keywords: Delete, Delete method [Task Scheduler], Delete method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],Delete method, ITaskScheduler.Delete, ITaskScheduler::Delete, _msb_itaskscheduler_delete, mstask/ITaskScheduler::Delete, taskschd.itaskscheduler_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITaskScheduler::Delete method
+# ITaskScheduler::Delete
 
 
 ## -description

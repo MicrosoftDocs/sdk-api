@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateVisualBrush
-title: IXpsOMObjectFactory::CreateVisualBrush method
+title: IXpsOMObjectFactory::CreateVisualBrush
 author: windows-driver-content
 description: Creates an IXpsOMVisualBrush interface, which is an IXpsOMTileBrush that uses a visual object.
 old-location: xps\ixpsomobjectfactory_createvisualbrush.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: ad19841a-629f-4127-a6ea-890168e0c53c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateVisualBrush method [XPS Documents and Packaging], CreateVisualBrush method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateVisualBrush,IXpsOMObjectFactory.CreateVisualBrush, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateVisualBrush method, IXpsOMObjectFactory::CreateVisualBrush, xps.ixpsomobjectfactory_createvisualbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateVisualBrush
+ms.keywords: CreateVisualBrush, CreateVisualBrush method [XPS Documents and Packaging], CreateVisualBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateVisualBrush method, IXpsOMObjectFactory.CreateVisualBrush, IXpsOMObjectFactory::CreateVisualBrush, xps.ixpsomobjectfactory_createvisualbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateVisualBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateVisualBrush method
+# IXpsOMObjectFactory::CreateVisualBrush
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetEnumerator
-title: ITargetInfo::GetEnumerator method
+title: ITargetInfo::GetEnumerator
 author: windows-driver-content
 description: Gets the enumerator used to access the collection of offline properties.
 old-location: smi\itargetinfo_getenumerator.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 2e7854dd-93eb-4626-a67d-4bd3dd79a75b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetEnumerator method [SMI], GetEnumerator method [SMI], ITargetInfo interface, GetEnumerator,ITargetInfo.GetEnumerator, ITargetInfo, ITargetInfo interface [SMI], GetEnumerator method, ITargetInfo::GetEnumerator, smi.itargetinfo_getenumerator, wcmconfig/ITargetInfo::GetEnumerator
+ms.keywords: GetEnumerator, GetEnumerator method [SMI], GetEnumerator method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetEnumerator method, ITargetInfo.GetEnumerator, ITargetInfo::GetEnumerator, smi.itargetinfo_getenumerator, wcmconfig/ITargetInfo::GetEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::GetEnumerator method
+# ITargetInfo::GetEnumerator
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.Transfer
-title: IPortableDeviceContent::Transfer method
+title: IPortableDeviceContent::Transfer
 author: windows-driver-content
 description: The Transfer method retrieves an interface that is used to read from or write to the content data of an existing object resource.
 old-location: wpdsdk\iportabledevicecontent_transfer.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 52fd2ca7-56ba-4e7a-9dcc-5b28f344c1df
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], Transfer method, IPortableDeviceContent::Transfer, IPortableDeviceContentTransfer, Transfer method [Windows Portable Devices SDK], Transfer method [Windows Portable Devices SDK], IPortableDeviceContent interface, Transfer,IPortableDeviceContent.Transfer, portabledeviceapi/IPortableDeviceContent::Transfer, wpdsdk.iportabledevicecontent_transfer
+ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Transfer method, IPortableDeviceContent.Transfer, IPortableDeviceContent::Transfer, IPortableDeviceContentTransfer, Transfer, Transfer method [Windows Portable Devices SDK], Transfer method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Transfer, wpdsdk.iportabledevicecontent_transfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceContent::Transfer method
+# IPortableDeviceContent::Transfer
 
 
 ## -description

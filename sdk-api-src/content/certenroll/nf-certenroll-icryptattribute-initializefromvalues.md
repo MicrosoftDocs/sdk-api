@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttribute.InitializeFromValues
-title: ICryptAttribute::InitializeFromValues method
+title: ICryptAttribute::InitializeFromValues
 author: windows-driver-content
 description: Initializes a cryptographic attribute by using an IX509Attributes object.
 old-location: security\icryptattribute_initializefromvalues_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 763fd244-173d-4b0b-8809-e98c18b8e5b5
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICryptAttribute, ICryptAttribute interface [Security], InitializeFromValues method, ICryptAttribute::InitializeFromValues, InitializeFromValues method [Security], InitializeFromValues method [Security], ICryptAttribute interface, InitializeFromValues,ICryptAttribute.InitializeFromValues, certenroll/ICryptAttribute::InitializeFromValues, security.icryptattribute_initializefromvalues_method
+ms.keywords: ICryptAttribute interface [Security],InitializeFromValues method, ICryptAttribute.InitializeFromValues, ICryptAttribute::InitializeFromValues, InitializeFromValues, InitializeFromValues method [Security], InitializeFromValues method [Security],ICryptAttribute interface, certenroll/ICryptAttribute::InitializeFromValues, security.icryptattribute_initializefromvalues_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICryptAttribute::InitializeFromValues method
+# ICryptAttribute::InitializeFromValues
 
 
 ## -description

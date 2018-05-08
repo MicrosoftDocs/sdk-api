@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetFontFamily
-title: IMFTimedTextStyle::GetFontFamily method
+title: IMFTimedTextStyle::GetFontFamily
 author: windows-driver-content
 description: Gets the font family of the timed-text style.
 old-location: mf\imftimedtextstyle_getfontfamily.htm
 old-project: medfound
 ms.assetid: 4250F2ED-F479-45E9-89A3-9037F40BD4E2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetFontFamily method [Media Foundation], GetFontFamily method [Media Foundation], IMFTimedTextStyle interface, GetFontFamily,IMFTimedTextStyle.GetFontFamily, IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], GetFontFamily method, IMFTimedTextStyle::GetFontFamily, mf.imftimedtextstyle_getfontfamily, mfmediaengine/IMFTimedTextStyle::GetFontFamily
+ms.date: 5/3/2018
+ms.keywords: GetFontFamily, GetFontFamily method [Media Foundation], GetFontFamily method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetFontFamily method, IMFTimedTextStyle.GetFontFamily, IMFTimedTextStyle::GetFontFamily, mf.imftimedtextstyle_getfontfamily, mfmediaengine/IMFTimedTextStyle::GetFontFamily
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextStyle::GetFontFamily method
+# IMFTimedTextStyle::GetFontFamily
 
 
 ## -description

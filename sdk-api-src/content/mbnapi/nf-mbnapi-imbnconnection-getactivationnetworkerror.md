@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnection.GetActivationNetworkError
-title: IMbnConnection::GetActivationNetworkError method
+title: IMbnConnection::GetActivationNetworkError
 author: windows-driver-content
 description: Gets the network error returned in a Packet Data Protocol (PDP) context activation failure.
 old-location: mbn\imbnconnection_getactivationnetworkerror.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: a8bda00b-5eff-46a4-b640-1794e8ea21cf
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetActivationNetworkError method [Microsoft Broadband Networks], GetActivationNetworkError method [Microsoft Broadband Networks], IMbnConnection interface, GetActivationNetworkError,IMbnConnection.GetActivationNetworkError, IMbnConnection, IMbnConnection interface [Microsoft Broadband Networks], GetActivationNetworkError method, IMbnConnection::GetActivationNetworkError, mbn.imbnconnection_getactivationnetworkerror, mbnapi/IMbnConnection::GetActivationNetworkError
+ms.keywords: GetActivationNetworkError, GetActivationNetworkError method [Microsoft Broadband Networks], GetActivationNetworkError method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetActivationNetworkError method, IMbnConnection.GetActivationNetworkError, IMbnConnection::GetActivationNetworkError, mbn.imbnconnection_getactivationnetworkerror, mbnapi/IMbnConnection::GetActivationNetworkError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnection::GetActivationNetworkError method
+# IMbnConnection::GetActivationNetworkError
 
 
 ## -description

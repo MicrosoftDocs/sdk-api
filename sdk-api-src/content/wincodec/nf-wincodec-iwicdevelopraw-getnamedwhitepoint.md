@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetNamedWhitePoint
-title: IWICDevelopRaw::GetNamedWhitePoint method
+title: IWICDevelopRaw::GetNamedWhitePoint
 author: windows-driver-content
 description: Gets the named white point of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getnamedwhitepoint.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 2fa5f0c8-fee2-4338-992a-5c927883a731
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetNamedWhitePoint method [Windows Imaging Component], GetNamedWhitePoint method [Windows Imaging Component], IWICDevelopRaw interface, GetNamedWhitePoint,IWICDevelopRaw.GetNamedWhitePoint, IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], GetNamedWhitePoint method, IWICDevelopRaw::GetNamedWhitePoint, _wic_codec_iwicdevelopraw_getnamedwhitepoint, wic._wic_codec_iwicdevelopraw_getnamedwhitepoint, wincodec/IWICDevelopRaw::GetNamedWhitePoint
+ms.keywords: GetNamedWhitePoint, GetNamedWhitePoint method [Windows Imaging Component], GetNamedWhitePoint method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetNamedWhitePoint method, IWICDevelopRaw.GetNamedWhitePoint, IWICDevelopRaw::GetNamedWhitePoint, _wic_codec_iwicdevelopraw_getnamedwhitepoint, wic._wic_codec_iwicdevelopraw_getnamedwhitepoint, wincodec/IWICDevelopRaw::GetNamedWhitePoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::GetNamedWhitePoint method
+# IWICDevelopRaw::GetNamedWhitePoint
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6c89a3ee-7d69-4cde-b1e5-b566fa1c2ca3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IESFileExpiryDateEvent, IESFileExpiryDateEvent interface [Microsoft TV Technologies], IESFileExpiryDateEvent interface [Microsoft TV Technologies], described, mstv.iesfileexpirydateevent, tuner/IESFileExpiryDateEvent
+ms.keywords: IESFileExpiryDateEvent, IESFileExpiryDateEvent interface [Microsoft TV Technologies], IESFileExpiryDateEvent interface [Microsoft TV Technologies],described, mstv.iesfileexpirydateevent, tuner/IESFileExpiryDateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

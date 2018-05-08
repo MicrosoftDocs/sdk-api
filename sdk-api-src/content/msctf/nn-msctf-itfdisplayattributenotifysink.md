@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c21ff404-af42-488a-90f0-d3f02277c557
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfDisplayAttributeNotifySink, ITfDisplayAttributeNotifySink interface [Text Services Framework], ITfDisplayAttributeNotifySink interface [Text Services Framework], described, _tsf_itfdisplayattributenotifysink_ref, msctf/ITfDisplayAttributeNotifySink, tsf.itfdisplayattributenotifysink
+ms.keywords: ITfDisplayAttributeNotifySink, ITfDisplayAttributeNotifySink interface [Text Services Framework], ITfDisplayAttributeNotifySink interface [Text Services Framework],described, _tsf_itfdisplayattributenotifysink_ref, msctf/ITfDisplayAttributeNotifySink, tsf.itfdisplayattributenotifysink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

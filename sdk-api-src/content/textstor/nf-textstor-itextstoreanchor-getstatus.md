@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetStatus
-title: ITextStoreAnchor::GetStatus method
+title: ITextStoreAnchor::GetStatus
 author: windows-driver-content
 description: The ITextStoreAnchor::GetStatus method obtains the document status. The document status is returned through the TS_STATUS structure.
 old-location: tsf\itextstoreanchor_getstatus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 61192268-5a5f-4caa-bdb8-799ee4aea24e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetStatus method [Text Services Framework], GetStatus method [Text Services Framework], ITextStoreAnchor interface, GetStatus,ITextStoreAnchor.GetStatus, ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], GetStatus method, ITextStoreAnchor::GetStatus, textstor/ITextStoreAnchor::GetStatus, tsf.itextstoreanchor_getstatus
+ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetStatus method, ITextStoreAnchor.GetStatus, ITextStoreAnchor::GetStatus, textstor/ITextStoreAnchor::GetStatus, tsf.itextstoreanchor_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::GetStatus method
+# ITextStoreAnchor::GetStatus
 
 
 ## -description

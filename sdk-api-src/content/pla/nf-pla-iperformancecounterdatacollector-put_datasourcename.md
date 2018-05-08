@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.put_DataSourceName
-title: IPerformanceCounterDataCollector::put_DataSourceName method
+title: IPerformanceCounterDataCollector::put_DataSourceName
 author: windows-driver-content
 description: Retrieves or sets the data source name if the log file is an SQL log file.
 old-location: pla\iperformancecounterdatacollector_datasourcename.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 67ed9ce6-392b-42ac-81f8-b5f26241c0a8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DataSourceName property [PLA], DataSourceName property [PLA], IPerformanceCounterDataCollector interface, IPerformanceCounterDataCollector, IPerformanceCounterDataCollector interface [PLA], DataSourceName property, IPerformanceCounterDataCollector.DataSourceName, IPerformanceCounterDataCollector::get_DataSourceName, IPerformanceCounterDataCollector::put_DataSourceName, base.iperformancecounterdatacollector_datasourcename, pla.iperformancecounterdatacollector_datasourcename, pla/IPerformanceCounterDataCollector::DataSourceName, pla/IPerformanceCounterDataCollector::get_DataSourceName, pla/IPerformanceCounterDataCollector::put_DataSourceName, put_DataSourceName,IPerformanceCounterDataCollector.put_DataSourceName
+ms.keywords: DataSourceName property [PLA], DataSourceName property [PLA],IPerformanceCounterDataCollector interface, IPerformanceCounterDataCollector interface [PLA],DataSourceName property, IPerformanceCounterDataCollector.DataSourceName, IPerformanceCounterDataCollector.put_DataSourceName, IPerformanceCounterDataCollector::DataSourceName, IPerformanceCounterDataCollector::get_DataSourceName, IPerformanceCounterDataCollector::put_DataSourceName, base.iperformancecounterdatacollector_datasourcename, pla.iperformancecounterdatacollector_datasourcename, pla/IPerformanceCounterDataCollector::DataSourceName, pla/IPerformanceCounterDataCollector::get_DataSourceName, pla/IPerformanceCounterDataCollector::put_DataSourceName, put_DataSourceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPerformanceCounterDataCollector::put_DataSourceName method
+# IPerformanceCounterDataCollector::put_DataSourceName
 
 
 ## -description

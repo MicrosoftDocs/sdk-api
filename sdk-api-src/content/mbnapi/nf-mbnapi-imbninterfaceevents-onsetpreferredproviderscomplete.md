@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnSetPreferredProvidersComplete
-title: IMbnInterfaceEvents::OnSetPreferredProvidersComplete method
+title: IMbnInterfaceEvents::OnSetPreferredProvidersComplete
 author: windows-driver-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetPreferredProviders operation.
 old-location: mbn\imbninterfaceevents_onsetpreferredproviderscomplete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 9cd5d185-ff0f-45f4-91fc-da601d256914
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnInterfaceEvents, IMbnInterfaceEvents interface [Microsoft Broadband Networks], OnSetPreferredProvidersComplete method, IMbnInterfaceEvents::OnSetPreferredProvidersComplete, OnSetPreferredProvidersComplete method [Microsoft Broadband Networks], OnSetPreferredProvidersComplete method [Microsoft Broadband Networks], IMbnInterfaceEvents interface, OnSetPreferredProvidersComplete,IMbnInterfaceEvents.OnSetPreferredProvidersComplete, S_OK, mbn.imbninterfaceevents_onsetpreferredproviderscomplete, mbnapi/IMbnInterfaceEvents::OnSetPreferredProvidersComplete
+ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnSetPreferredProvidersComplete method, IMbnInterfaceEvents.OnSetPreferredProvidersComplete, IMbnInterfaceEvents::OnSetPreferredProvidersComplete, OnSetPreferredProvidersComplete, OnSetPreferredProvidersComplete method [Microsoft Broadband Networks], OnSetPreferredProvidersComplete method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, S_OK, mbn.imbninterfaceevents_onsetpreferredproviderscomplete, mbnapi/IMbnInterfaceEvents::OnSetPreferredProvidersComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnInterfaceEvents::OnSetPreferredProvidersComplete method
+# IMbnInterfaceEvents::OnSetPreferredProvidersComplete
 
 
 ## -description

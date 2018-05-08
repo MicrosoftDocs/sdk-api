@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.Append
-title: CHStringArray::Append method
+title: CHStringArray::Append
 author: windows-driver-content
 description: The Append method adds the contents of another array to the end of the given array.
 old-location: wmi\chstringarray_append.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: c37df3d4-9b0b-4ed3-ab51-407f26203578
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Append method [Windows Management Instrumentation], Append method [Windows Management Instrumentation], CHStringArray interface, Append,CHStringArray.Append, CHStringArray, CHStringArray interface [Windows Management Instrumentation], Append method, CHStringArray::Append, _hmm_chstringarray_append, chstrarr/CHStringArray::Append, wmi.chstringarray_append
+ms.keywords: Append, Append method [Windows Management Instrumentation], Append method [Windows Management Instrumentation],CHStringArray interface, CHStringArray interface [Windows Management Instrumentation],Append method, CHStringArray.Append, CHStringArray::Append, _hmm_chstringarray_append, chstrarr/CHStringArray::Append, wmi.chstringarray_append
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHStringArray::Append method
+# CHStringArray::Append
 
 
 ## -description

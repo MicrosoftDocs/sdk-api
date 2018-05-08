@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Remove
-title: IInkExtendedProperties::Remove method
+title: IInkExtendedProperties::Remove
 author: windows-driver-content
 description: Removes the IInkExtendedProperty object from the IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_remove.htm
 old-project: tablet
 ms.assetid: 2211a462-df26-4168-b89c-9607683defdb
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 2211a462-df26-4168-b89c-9607683defdb, IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], Remove method, IInkExtendedProperties::Remove, Remove method [Tablet PC], Remove method [Tablet PC], IInkExtendedProperties interface, Remove,IInkExtendedProperties.Remove, msinkaut/IInkExtendedProperties::Remove, tablet.iinkextendedproperties_remove
+ms.date: 5/2/2018
+ms.keywords: 2211a462-df26-4168-b89c-9607683defdb, IInkExtendedProperties interface [Tablet PC],Remove method, IInkExtendedProperties.Remove, IInkExtendedProperties::Remove, Remove, Remove method [Tablet PC], Remove method [Tablet PC],IInkExtendedProperties interface, msinkaut/IInkExtendedProperties::Remove, tablet.iinkextendedproperties_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkExtendedProperties::Remove method
+# IInkExtendedProperties::Remove
 
 
 ## -description

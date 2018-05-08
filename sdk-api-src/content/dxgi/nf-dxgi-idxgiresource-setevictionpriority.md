@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIResource.SetEvictionPriority
-title: IDXGIResource::SetEvictionPriority method
+title: IDXGIResource::SetEvictionPriority
 author: windows-driver-content
 description: Set the priority for evicting the resource from memory.
 old-location: direct3ddxgi\idxgiresource_setevictionpriority.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_setevictionpriority.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 27202bac-1045-b4a9-634f-9fe77668f2ab, DXGI_RESOURCE_PRIORITY_HIGH (0xa0000000), DXGI_RESOURCE_PRIORITY_LOW (0x50000000), DXGI_RESOURCE_PRIORITY_MAXIMUM (0xc8000000), DXGI_RESOURCE_PRIORITY_MINIMUM (0x28000000), DXGI_RESOURCE_PRIORITY_NORMAL (0x78000000), IDXGIResource, IDXGIResource interface [DXGI], SetEvictionPriority method, IDXGIResource::SetEvictionPriority, SetEvictionPriority method [DXGI], SetEvictionPriority method [DXGI], IDXGIResource interface, SetEvictionPriority,IDXGIResource.SetEvictionPriority, direct3ddxgi.idxgiresource_setevictionpriority, dxgi/IDXGIResource::SetEvictionPriority
+ms.keywords: 27202bac-1045-b4a9-634f-9fe77668f2ab, DXGI_RESOURCE_PRIORITY_HIGH (0xa0000000), DXGI_RESOURCE_PRIORITY_LOW (0x50000000), DXGI_RESOURCE_PRIORITY_MAXIMUM (0xc8000000), DXGI_RESOURCE_PRIORITY_MINIMUM (0x28000000), DXGI_RESOURCE_PRIORITY_NORMAL (0x78000000), IDXGIResource interface [DXGI],SetEvictionPriority method, IDXGIResource.SetEvictionPriority, IDXGIResource::SetEvictionPriority, SetEvictionPriority, SetEvictionPriority method [DXGI], SetEvictionPriority method [DXGI],IDXGIResource interface, direct3ddxgi.idxgiresource_setevictionpriority, dxgi/IDXGIResource::SetEvictionPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIResource::SetEvictionPriority method
+# IDXGIResource::SetEvictionPriority
 
 
 ## -description

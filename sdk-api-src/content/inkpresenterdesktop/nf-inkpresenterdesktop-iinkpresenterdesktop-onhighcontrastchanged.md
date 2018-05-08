@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.OnHighContrastChanged
-title: IInkPresenterDesktop::OnHighContrastChanged method
+title: IInkPresenterDesktop::OnHighContrastChanged
 author: windows-driver-content
 description: Specifies a high contrast change handler. This handler is notified of changes to the high contrast system settings.
 old-location: input_ink\iinkpresenterdesktop_onhighcontrastchanged.htm
@@ -8,7 +8,7 @@ old-project: input_ink
 ms.assetid: f231fbb7-685b-49db-80c5-dee367ff7f5b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IInkPresenterDesktop, IInkPresenterDesktop interface, OnHighContrastChanged method, IInkPresenterDesktop::OnHighContrastChanged, InkPresenterDesktop.iinkpresenterdesktop_onhighcontrastchanged, OnHighContrastChanged method, OnHighContrastChanged method, IInkPresenterDesktop interface, OnHighContrastChanged,IInkPresenterDesktop.OnHighContrastChanged, inkpresenterdesktop/IInkPresenterDesktop::OnHighContrastChanged, input_ink.iinkpresenterdesktop_onhighcontrastchanged
+ms.keywords: IInkPresenterDesktop interface,OnHighContrastChanged method, IInkPresenterDesktop.OnHighContrastChanged, IInkPresenterDesktop::OnHighContrastChanged, InkPresenterDesktop.iinkpresenterdesktop_onhighcontrastchanged, OnHighContrastChanged, OnHighContrastChanged method, OnHighContrastChanged method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::OnHighContrastChanged, input_ink.iinkpresenterdesktop_onhighcontrastchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInkPresenterDesktop::OnHighContrastChanged method
+# IInkPresenterDesktop::OnHighContrastChanged
 
 
 ## -description

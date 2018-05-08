@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.UnlockForProcess
-title: IXAPO::UnlockForProcess method
+title: IXAPO::UnlockForProcess
 author: windows-driver-content
 description: Deallocates variables that were allocated with the LockForProcess method.
 old-location: xaudio2\ixapo_interface_unlockforprocess.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.UnlockForProcess
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], UnlockForProcess method, IXAPO::UnlockForProcess, UnlockForProcess method [XAudio2 Audio Mixing APIs], UnlockForProcess method [XAudio2 Audio Mixing APIs], IXAPO interface, UnlockForProcess,IXAPO.UnlockForProcess, xapo/IXAPO::UnlockForProcess, xaudio2.ixapo_interface_unlockforprocess
+ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],UnlockForProcess method, IXAPO.UnlockForProcess, IXAPO::UnlockForProcess, UnlockForProcess, UnlockForProcess method [XAudio2 Audio Mixing APIs], UnlockForProcess method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::UnlockForProcess, xaudio2.ixapo_interface_unlockforprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAPO::UnlockForProcess method
+# IXAPO::UnlockForProcess
 
 
 ## -description

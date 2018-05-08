@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 3ca939de-31ce-4ce6-84cd-4b4191a0753c
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ObjectControl, ObjectControl interface [COM+], ObjectControl interface [COM+], described, _cos_ObjectControl, comsvcs/ObjectControl, cos.objectcontrol
+ms.keywords: ObjectControl, ObjectControl interface [COM+], ObjectControl interface [COM+],described, _cos_ObjectControl, comsvcs/ObjectControl, cos.objectcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

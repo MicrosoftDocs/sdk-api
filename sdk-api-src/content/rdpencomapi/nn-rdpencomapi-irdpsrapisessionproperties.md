@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: bf4d9df2-8436-4d21-9016-7db231212155
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPISessionProperties, IRDPSRAPISessionProperties interface [RDP], IRDPSRAPISessionProperties interface [RDP], described, rdp.irdpsrapisessionproperties, rdpencomapi/IRDPSRAPISessionProperties
+ms.keywords: IRDPSRAPISessionProperties, IRDPSRAPISessionProperties interface [RDP], IRDPSRAPISessionProperties interface [RDP],described, rdp.irdpsrapisessionproperties, rdpencomapi/IRDPSRAPISessionProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

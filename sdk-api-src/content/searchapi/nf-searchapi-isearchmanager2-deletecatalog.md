@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchManager2.DeleteCatalog
-title: ISearchManager2::DeleteCatalog method
+title: ISearchManager2::DeleteCatalog
 author: windows-driver-content
 description: Deletes an existing catalog and all associated indexed data from the Windows Search indexer.
 old-location: search\isearchmanager2_deletecatalog.htm
 old-project: search
 ms.assetid: E9515AEE-6854-4FF8-9A83-10E6BC247D4D
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: DeleteCatalog method [search], DeleteCatalog method [search], ISearchManager2 interface, DeleteCatalog,ISearchManager2.DeleteCatalog, ISearchManager2, ISearchManager2 interface [search], DeleteCatalog method, ISearchManager2::DeleteCatalog, search.isearchmanager2_deletecatalog, searchapi/ISearchManager2::DeleteCatalog
+ms.date: 5/4/2018
+ms.keywords: DeleteCatalog, DeleteCatalog method [search], DeleteCatalog method [search],ISearchManager2 interface, ISearchManager2 interface [search],DeleteCatalog method, ISearchManager2.DeleteCatalog, ISearchManager2::DeleteCatalog, search.isearchmanager2_deletecatalog, searchapi/ISearchManager2::DeleteCatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchManager2::DeleteCatalog method
+# ISearchManager2::DeleteCatalog
 
 
 ## -description

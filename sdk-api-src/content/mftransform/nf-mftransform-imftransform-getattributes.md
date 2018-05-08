@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.GetAttributes
-title: IMFTransform::GetAttributes method
+title: IMFTransform::GetAttributes
 author: windows-driver-content
 description: Gets the global attribute store for this Media Foundation transform (MFT).
 old-location: mf\imftransform_getattributes.htm
 old-project: medfound
 ms.assetid: cb3ba2bc-550c-43b4-a69c-b546f2b92acc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetAttributes method [Media Foundation], GetAttributes method [Media Foundation], IMFTransform interface, GetAttributes,IMFTransform.GetAttributes, IMFTransform, IMFTransform interface [Media Foundation], GetAttributes method, IMFTransform::GetAttributes, cb3ba2bc-550c-43b4-a69c-b546f2b92acc, mf.imftransform_getattributes, mftransform/IMFTransform::GetAttributes
+ms.date: 5/3/2018
+ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetAttributes method, IMFTransform.GetAttributes, IMFTransform::GetAttributes, cb3ba2bc-550c-43b4-a69c-b546f2b92acc, mf.imftransform_getattributes, mftransform/IMFTransform::GetAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::GetAttributes method
+# IMFTransform::GetAttributes
 
 
 ## -description

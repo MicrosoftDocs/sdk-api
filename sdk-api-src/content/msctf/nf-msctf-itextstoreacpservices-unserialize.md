@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.Unserialize
-title: ITextStoreACPServices::Unserialize method
+title: ITextStoreACPServices::Unserialize
 author: windows-driver-content
 description: ITextStoreACPServices::Unserialize method
 old-location: tsf\itextstoreacpservices_unserialize.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4eb2f2b9-51fb-4970-a195-c05e1d19ff99
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACPServices, ITextStoreACPServices interface [Text Services Framework], Unserialize method, ITextStoreACPServices::Unserialize, Unserialize method [Text Services Framework], Unserialize method [Text Services Framework], ITextStoreACPServices interface, Unserialize,ITextStoreACPServices.Unserialize, _tsf_itextstoreacpservices_unserialize_ref, msctf/ITextStoreACPServices::Unserialize, tsf.itextstoreacpservices_unserialize
+ms.keywords: ITextStoreACPServices interface [Text Services Framework],Unserialize method, ITextStoreACPServices.Unserialize, ITextStoreACPServices::Unserialize, Unserialize, Unserialize method [Text Services Framework], Unserialize method [Text Services Framework],ITextStoreACPServices interface, _tsf_itextstoreacpservices_unserialize_ref, msctf/ITextStoreACPServices::Unserialize, tsf.itextstoreacpservices_unserialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITextStoreACPServices::Unserialize method
+# ITextStoreACPServices::Unserialize
 
 
 ## -description

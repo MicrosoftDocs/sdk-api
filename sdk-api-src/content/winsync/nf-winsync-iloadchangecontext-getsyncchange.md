@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ILoadChangeContext.GetSyncChange
-title: ILoadChangeContext::GetSyncChange method
+title: ILoadChangeContext::GetSyncChange
 author: windows-driver-content
 description: Gets the change item for which the change data should be retrieved from the item store.
 old-location: winsync\iloadchangecontext_getsyncchange.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 6ac425bc-f6ec-4a95-b351-01f9eb27a744
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSyncChange method [Windows Sync], GetSyncChange method [Windows Sync], ILoadChangeContext interface, GetSyncChange,ILoadChangeContext.GetSyncChange, ILoadChangeContext, ILoadChangeContext interface [Windows Sync], GetSyncChange method, ILoadChangeContext::GetSyncChange, winsync.iloadchangecontext_getsyncchange, winsync/ILoadChangeContext::GetSyncChange
+ms.keywords: GetSyncChange, GetSyncChange method [Windows Sync], GetSyncChange method [Windows Sync],ILoadChangeContext interface, ILoadChangeContext interface [Windows Sync],GetSyncChange method, ILoadChangeContext.GetSyncChange, ILoadChangeContext::GetSyncChange, winsync.iloadchangecontext_getsyncchange, winsync/ILoadChangeContext::GetSyncChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ILoadChangeContext::GetSyncChange method
+# ILoadChangeContext::GetSyncChange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.SetSessionKey
-title: CSecureChannelClient::SetSessionKey method
+title: CSecureChannelClient::SetSessionKey
 author: windows-driver-content
 description: The SetSessionKey method sets the key for this session that is used to communicate with another component. This method is not used by applications.
 old-location: wmdm\csecurechannelclient_setsessionkey.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: a57ffca0-3098-415c-bea5-a3ea9efbd591
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CSecureChannelClient, CSecureChannelClient interface [windows Media Device Manager], SetSessionKey method, CSecureChannelClient::SetSessionKey, CSecureChannelClientSetSessionKey, SetSessionKey method [windows Media Device Manager], SetSessionKey method [windows Media Device Manager], CSecureChannelClient interface, SetSessionKey,CSecureChannelClient.SetSessionKey, scclient/CSecureChannelClient::SetSessionKey, wmdm.csecurechannelclient_setsessionkey
+ms.keywords: CSecureChannelClient interface [windows Media Device Manager],SetSessionKey method, CSecureChannelClient.SetSessionKey, CSecureChannelClient::SetSessionKey, CSecureChannelClientSetSessionKey, SetSessionKey, SetSessionKey method [windows Media Device Manager], SetSessionKey method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::SetSessionKey, wmdm.csecurechannelclient_setsessionkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CSecureChannelClient::SetSessionKey method
+# CSecureChannelClient::SetSessionKey
 
 
 ## -description

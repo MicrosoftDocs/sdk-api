@@ -7,7 +7,7 @@ old-location: dshow\bitmasks.htm
 old-project: DirectShow
 ms.assetid: e90ddeab-a3d6-4d34-8608-4d8831d81fe5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: BITMASKS, BITMASKS macro [DirectShow], amvideo/BITMASKS, dshow.bitmasks
 ms.prod: windows-hardware
 ms.technology: windows-devices

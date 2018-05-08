@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.get_Name
-title: IRDPSRAPIApplication::get_Name method
+title: IRDPSRAPIApplication::get_Name
 author: windows-driver-content
 description: The name of the application.
 old-location: rdp\irdpsrapiapplication_name.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 05e1ea2d-959c-4d2b-a24b-b67bae74d0c9
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIApplication, IRDPSRAPIApplication interface [RDP], Name property, IRDPSRAPIApplication.Name, IRDPSRAPIApplication::get_Name, Name property [RDP], Name property [RDP], IRDPSRAPIApplication interface, Name property [RDP], RDPSRAPIApplication object, RDPSRAPIApplication object [RDP], Name property, get_Name,IRDPSRAPIApplication.get_Name, rdp.irdpsrapiapplication_name, rdpencomapi/IRDPSRAPIApplication::Name, rdpencomapi/IRDPSRAPIApplication::get_Name
+ms.keywords: IRDPSRAPIApplication interface [RDP],Name property, IRDPSRAPIApplication.Name, IRDPSRAPIApplication.get_Name, IRDPSRAPIApplication::Name, IRDPSRAPIApplication::get_Name, Name property [RDP], Name property [RDP],IRDPSRAPIApplication interface, Name property [RDP],RDPSRAPIApplication object, RDPSRAPIApplication object [RDP],Name property, get_Name, rdp.irdpsrapiapplication_name, rdpencomapi/IRDPSRAPIApplication::Name, rdpencomapi/IRDPSRAPIApplication::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIApplication::get_Name method
+# IRDPSRAPIApplication::get_Name
 
 
 ## -description

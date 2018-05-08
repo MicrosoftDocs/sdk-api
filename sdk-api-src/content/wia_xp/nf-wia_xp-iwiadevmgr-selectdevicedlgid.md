@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.SelectDeviceDlgID
-title: IWiaDevMgr::SelectDeviceDlgID method
+title: IWiaDevMgr::SelectDeviceDlgID
 author: windows-driver-content
 description: The IWiaDevMgr::SelectDeviceDlgID method displays a dialog box that enables the user to select a hardware device for image acquisition.
 old-location: wia\_wia_IWiaDevMgr_SelectDeviceDlgID.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\selectdevicedlgid.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaDevMgr, IWiaDevMgr interface [WIA], SelectDeviceDlgID method, IWiaDevMgr::SelectDeviceDlgID, SelectDeviceDlgID method [WIA], SelectDeviceDlgID method [WIA], IWiaDevMgr interface, SelectDeviceDlgID,IWiaDevMgr.SelectDeviceDlgID, _wia_IWiaDevMgr_SelectDeviceDlgID, wia._wia_IWiaDevMgr_SelectDeviceDlgID, wia_xp/IWiaDevMgr::SelectDeviceDlgID
+ms.date: 5/3/2018
+ms.keywords: IWiaDevMgr interface [WIA],SelectDeviceDlgID method, IWiaDevMgr.SelectDeviceDlgID, IWiaDevMgr::SelectDeviceDlgID, SelectDeviceDlgID, SelectDeviceDlgID method [WIA], SelectDeviceDlgID method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_SelectDeviceDlgID, wia._wia_IWiaDevMgr_SelectDeviceDlgID, wia_xp/IWiaDevMgr::SelectDeviceDlgID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaDevMgr::SelectDeviceDlgID method
+# IWiaDevMgr::SelectDeviceDlgID
 
 
 ## -description

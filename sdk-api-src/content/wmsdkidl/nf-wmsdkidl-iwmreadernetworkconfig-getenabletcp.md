@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableTCP
-title: IWMReaderNetworkConfig::GetEnableTCP method
+title: IWMReaderNetworkConfig::GetEnableTCP
 author: windows-driver-content
 description: The GetEnableTCP method queries whether TCP is enabled for protocol rollover.
 old-location: wmformat\iwmreadernetworkconfig_getenabletcp.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 6623c2f9-24cb-4038-9aa5-2eb634b3f1a2
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetEnableTCP method [windows Media Format], GetEnableTCP method [windows Media Format], IWMReaderNetworkConfig interface, GetEnableTCP,IWMReaderNetworkConfig.GetEnableTCP, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetEnableTCP method, IWMReaderNetworkConfig::GetEnableTCP, IWMReaderNetworkConfigGetEnableTCP, wmformat.iwmreadernetworkconfig_getenabletcp, wmsdkidl/IWMReaderNetworkConfig::GetEnableTCP
+ms.keywords: GetEnableTCP, GetEnableTCP method [windows Media Format], GetEnableTCP method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableTCP method, IWMReaderNetworkConfig.GetEnableTCP, IWMReaderNetworkConfig::GetEnableTCP, IWMReaderNetworkConfigGetEnableTCP, wmformat.iwmreadernetworkconfig_getenabletcp, wmsdkidl/IWMReaderNetworkConfig::GetEnableTCP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetEnableTCP method
+# IWMReaderNetworkConfig::GetEnableTCP
 
 
 ## -description

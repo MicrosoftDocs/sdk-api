@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11AuthenticatedChannel.GetCertificateSize
-title: ID3D11AuthenticatedChannel::GetCertificateSize method
+title: ID3D11AuthenticatedChannel::GetCertificateSize
 author: windows-driver-content
 description: Gets the size of the driver's certificate chain.
 old-location: mf\id3d11authenticatedchannel_getcertificatesize.htm
 old-project: medfound
 ms.assetid: B393140A-9744-4290-B168-4E7F4E9F55DC
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation], ID3D11AuthenticatedChannel interface, GetCertificateSize,ID3D11AuthenticatedChannel.GetCertificateSize, ID3D11AuthenticatedChannel, ID3D11AuthenticatedChannel interface [Media Foundation], GetCertificateSize method, ID3D11AuthenticatedChannel::GetCertificateSize, d3d11/ID3D11AuthenticatedChannel::GetCertificateSize, mf.id3d11authenticatedchannel_getcertificatesize
+ms.date: 5/3/2018
+ms.keywords: GetCertificateSize, GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation],ID3D11AuthenticatedChannel interface, ID3D11AuthenticatedChannel interface [Media Foundation],GetCertificateSize method, ID3D11AuthenticatedChannel.GetCertificateSize, ID3D11AuthenticatedChannel::GetCertificateSize, d3d11/ID3D11AuthenticatedChannel::GetCertificateSize, mf.id3d11authenticatedchannel_getcertificatesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11AuthenticatedChannel::GetCertificateSize method
+# ID3D11AuthenticatedChannel::GetCertificateSize
 
 
 ## -description

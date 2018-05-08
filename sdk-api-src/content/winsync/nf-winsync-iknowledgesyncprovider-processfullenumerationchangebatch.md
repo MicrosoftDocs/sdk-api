@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch
-title: IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch method
+title: IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
 author: windows-driver-content
 description: Processes a set of changes for a full enumeration by applying changes to the item store.
 old-location: winsync\iknowledgesyncprovider_processfullenumerationchangebatch.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 7d34bc48-377c-4249-a26e-0802dee0b53c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], ProcessFullEnumerationChangeBatch method, IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch, ProcessFullEnumerationChangeBatch method [Windows Sync], ProcessFullEnumerationChangeBatch method [Windows Sync], IKnowledgeSyncProvider interface, ProcessFullEnumerationChangeBatch,IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch, winsync.iknowledgesyncprovider_processfullenumerationchangebatch, winsync/IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
+ms.keywords: IKnowledgeSyncProvider interface [Windows Sync],ProcessFullEnumerationChangeBatch method, IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch, IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch, ProcessFullEnumerationChangeBatch, ProcessFullEnumerationChangeBatch method [Windows Sync], ProcessFullEnumerationChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, winsync.iknowledgesyncprovider_processfullenumerationchangebatch, winsync/IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch method
+# IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
 
 
 ## -description

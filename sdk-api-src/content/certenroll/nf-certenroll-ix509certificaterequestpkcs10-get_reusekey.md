@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_ReuseKey
-title: IX509CertificateRequestPkcs10::get_ReuseKey method
+title: IX509CertificateRequestPkcs10::get_ReuseKey
 author: windows-driver-content
 description: Retrieves a Boolean value that indicates whether an existing private key was used to sign the request.
 old-location: security\ix509certificaterequestpkcs10_reusekey_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: b6788885-1036-4edd-bbb9-4d9808771d95
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], ReuseKey property, IX509CertificateRequestPkcs10.ReuseKey, IX509CertificateRequestPkcs10::get_ReuseKey, ReuseKey property [Security], ReuseKey property [Security], IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::ReuseKey, certenroll/IX509CertificateRequestPkcs10::get_ReuseKey, get_ReuseKey,IX509CertificateRequestPkcs10.get_ReuseKey, security.ix509certificaterequestpkcs10_reusekey_property
+ms.keywords: IX509CertificateRequestPkcs10 interface [Security],ReuseKey property, IX509CertificateRequestPkcs10.ReuseKey, IX509CertificateRequestPkcs10.get_ReuseKey, IX509CertificateRequestPkcs10::ReuseKey, IX509CertificateRequestPkcs10::get_ReuseKey, ReuseKey property [Security], ReuseKey property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::ReuseKey, certenroll/IX509CertificateRequestPkcs10::get_ReuseKey, get_ReuseKey, security.ix509certificaterequestpkcs10_reusekey_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs10::get_ReuseKey method
+# IX509CertificateRequestPkcs10::get_ReuseKey
 
 
 ## -description

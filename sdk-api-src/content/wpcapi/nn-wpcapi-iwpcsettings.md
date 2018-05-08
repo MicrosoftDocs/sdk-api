@@ -8,7 +8,7 @@ old-project: parcon
 ms.assetid: 92ae8611-fbb4-470e-8a48-395defaef904
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWPCSettings, IWPCSettings interface, IWPCSettings interface, described, parcon.iwpcsettings, wpcapi/IWPCSettings
+ms.keywords: IWPCSettings, IWPCSettings interface, IWPCSettings interface,described, parcon.iwpcsettings, wpcapi/IWPCSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

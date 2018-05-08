@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.GetResourcePluginStore
-title: ITsSbProvider::GetResourcePluginStore method
+title: ITsSbProvider::GetResourcePluginStore
 author: windows-driver-content
 description: Retrieves an ITsSbResourcePluginStore instance of the resource plug-in store.
 old-location: termserv\itssbprovider_getresourcepluginstore.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 9e4d5b1d-100e-49e1-b1b5-4b126683c329
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetResourcePluginStore method [Remote Desktop Services], GetResourcePluginStore method [Remote Desktop Services], ITsSbProvider interface, GetResourcePluginStore,ITsSbProvider.GetResourcePluginStore, ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], GetResourcePluginStore method, ITsSbProvider::GetResourcePluginStore, sbtsv/ITsSbProvider::GetResourcePluginStore, termserv.itssbprovider_getresourcepluginstore
+ms.keywords: GetResourcePluginStore, GetResourcePluginStore method [Remote Desktop Services], GetResourcePluginStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetResourcePluginStore method, ITsSbProvider.GetResourcePluginStore, ITsSbProvider::GetResourcePluginStore, sbtsv/ITsSbProvider::GetResourcePluginStore, termserv.itssbprovider_getresourcepluginstore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbProvider::GetResourcePluginStore method
+# ITsSbProvider::GetResourcePluginStore
 
 
 ## -description

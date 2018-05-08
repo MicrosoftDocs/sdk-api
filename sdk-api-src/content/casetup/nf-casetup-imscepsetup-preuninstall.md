@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.IMSCEPSetup.PreUnInstall
-title: IMSCEPSetup::PreUnInstall method
+title: IMSCEPSetup::PreUnInstall
 author: windows-driver-content
 description: Removes registry and IIS settings for the Network Device Enrollment Service (NDES) role.
 old-location: security\imscepsetup_preuninstall.htm
 old-project: SecCrypto
 ms.assetid: 7c9ff619-7c26-4dfb-aeac-fa80a1050cf0
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], PreUnInstall method, IMSCEPSetup::PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security], IMSCEPSetup interface, PreUnInstall,IMSCEPSetup.PreUnInstall, casetup/IMSCEPSetup::PreUnInstall, security.imscepsetup_preuninstall
+ms.date: 4/30/2018
+ms.keywords: IMSCEPSetup interface [Security],PreUnInstall method, IMSCEPSetup.PreUnInstall, IMSCEPSetup::PreUnInstall, PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PreUnInstall, security.imscepsetup_preuninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# IMSCEPSetup::PreUnInstall method
+# IMSCEPSetup::PreUnInstall
 
 
 ## -description

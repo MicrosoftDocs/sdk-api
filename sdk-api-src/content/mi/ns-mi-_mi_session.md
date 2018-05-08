@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MI_Session, MI_Session
+req.typenames: MI_Session
 topic_type:
 -	APIRef
 -	kbSyntax

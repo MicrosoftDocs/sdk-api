@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IPin.ConnectedTo
-title: IPin::ConnectedTo method
+title: IPin::ConnectedTo
 author: windows-driver-content
 description: The ConnectedTo method retrieves a pointer to the connected pin, if any.
 old-location: dshow\ipin_connectedto.htm
 old-project: DirectShow
 ms.assetid: 970c814f-2309-481e-9e8e-9bd32b83fdc7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ConnectedTo method [DirectShow], ConnectedTo method [DirectShow], IPin interface, ConnectedTo,IPin.ConnectedTo, IPin, IPin interface [DirectShow], ConnectedTo method, IPin::ConnectedTo, IPinConnectedTo, dshow.ipin_connectedto, strmif/IPin::ConnectedTo
+ms.date: 4/30/2018
+ms.keywords: ConnectedTo, ConnectedTo method [DirectShow], ConnectedTo method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectedTo method, IPin.ConnectedTo, IPin::ConnectedTo, IPinConnectedTo, dshow.ipin_connectedto, strmif/IPin::ConnectedTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IPin::ConnectedTo method
+# IPin::ConnectedTo
 
 
 ## -description

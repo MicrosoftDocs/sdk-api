@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.put_SmsFormat
-title: IMbnSmsConfiguration::put_SmsFormat method
+title: IMbnSmsConfiguration::put_SmsFormat
 author: windows-driver-content
 description: Format in which newly received SMS should be reported by the device.
 old-location: mbn\imbnsmsconfiguration_smsformat.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: bfa2ca4d-6ff2-45df-8b18-a7e1498b1fdf
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSmsConfiguration, IMbnSmsConfiguration interface [Microsoft Broadband Networks], SmsFormat property, IMbnSmsConfiguration.SmsFormat, IMbnSmsConfiguration::get_SmsFormat, IMbnSmsConfiguration::put_SmsFormat, SmsFormat property [Microsoft Broadband Networks], SmsFormat property [Microsoft Broadband Networks], IMbnSmsConfiguration interface, mbn.imbnsmsconfiguration_smsformat, mbnapi/IMbnSmsConfiguration::SmsFormat, mbnapi/IMbnSmsConfiguration::get_SmsFormat, mbnapi/IMbnSmsConfiguration::put_SmsFormat, put_SmsFormat,IMbnSmsConfiguration.put_SmsFormat
+ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],SmsFormat property, IMbnSmsConfiguration.SmsFormat, IMbnSmsConfiguration.put_SmsFormat, IMbnSmsConfiguration::SmsFormat, IMbnSmsConfiguration::get_SmsFormat, IMbnSmsConfiguration::put_SmsFormat, SmsFormat property [Microsoft Broadband Networks], SmsFormat property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, mbn.imbnsmsconfiguration_smsformat, mbnapi/IMbnSmsConfiguration::SmsFormat, mbnapi/IMbnSmsConfiguration::get_SmsFormat, mbnapi/IMbnSmsConfiguration::put_SmsFormat, put_SmsFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSmsConfiguration::put_SmsFormat method
+# IMbnSmsConfiguration::put_SmsFormat
 
 
 ## -description

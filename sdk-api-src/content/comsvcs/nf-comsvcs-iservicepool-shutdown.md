@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePool.Shutdown
-title: IServicePool::Shutdown method
+title: IServicePool::Shutdown
 author: windows-driver-content
 description: Shuts down an object pool.
 old-location: cos\iservicepool_shutdown.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: d06f4227-e85a-4779-b240-5a2e71d9756b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IServicePool, IServicePool interface [COM+], Shutdown method, IServicePool::Shutdown, Shutdown method [COM+], Shutdown method [COM+], IServicePool interface, Shutdown,IServicePool.Shutdown, _cos_IServicePool_Shutdown, comsvcs/IServicePool::Shutdown, cos.iservicepool_shutdown
+ms.keywords: IServicePool interface [COM+],Shutdown method, IServicePool.Shutdown, IServicePool::Shutdown, Shutdown, Shutdown method [COM+], Shutdown method [COM+],IServicePool interface, _cos_IServicePool_Shutdown, comsvcs/IServicePool::Shutdown, cos.iservicepool_shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServicePool::Shutdown method
+# IServicePool::Shutdown
 
 
 ## -description

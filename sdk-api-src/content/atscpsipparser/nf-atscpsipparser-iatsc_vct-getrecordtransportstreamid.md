@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordTransportStreamId
-title: IATSC_VCT::GetRecordTransportStreamId method
+title: IATSC_VCT::GetRecordTransportStreamId
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordtransportstreamid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f0ecd931-d789-41cd-8056-675e6162a5f1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordTransportStreamId,IATSC_VCT.GetRecordTransportStreamId, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordTransportStreamId method, IATSC_VCT::GetRecordTransportStreamId, IATSC_VCTGetRecordTransportStreamId, atscpsipparser/IATSC_VCT::GetRecordTransportStreamId, mstv.iatsc_vct_getrecordtransportstreamid
+ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordTransportStreamId method, IATSC_VCT.GetRecordTransportStreamId, IATSC_VCT::GetRecordTransportStreamId, IATSC_VCTGetRecordTransportStreamId, atscpsipparser/IATSC_VCT::GetRecordTransportStreamId, mstv.iatsc_vct_getrecordtransportstreamid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_VCT::GetRecordTransportStreamId method
+# IATSC_VCT::GetRecordTransportStreamId
 
 
 ## -description

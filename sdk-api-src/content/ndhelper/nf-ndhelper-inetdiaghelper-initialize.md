@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Initialize
-title: INetDiagHelper::Initialize method
+title: INetDiagHelper::Initialize
 author: windows-driver-content
 description: The Initialize method passes in attributes to the Helper Class Extension from the hypothesis. The helper class should store these parameters for use in the main diagnostics functions. This method must be called before any diagnostics function.
 old-location: ndf\inetdiaghelpe_initialize.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 32003720-ca59-4203-a78c-9e40c626c9f8
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: INetDiagHelper, INetDiagHelper interface [NDF], Initialize method, INetDiagHelper::Initialize, Initialize method [NDF], Initialize method [NDF], INetDiagHelper interface, Initialize,INetDiagHelper.Initialize, ndf.inetdiaghelpe_initialize, ndhelper/INetDiagHelper::Initialize
+ms.keywords: INetDiagHelper interface [NDF],Initialize method, INetDiagHelper.Initialize, INetDiagHelper::Initialize, Initialize, Initialize method [NDF], Initialize method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_initialize, ndhelper/INetDiagHelper::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::Initialize method
+# INetDiagHelper::Initialize
 
 
 ## -description

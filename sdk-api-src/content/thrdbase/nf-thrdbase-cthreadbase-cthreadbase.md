@@ -1,6 +1,6 @@
 ---
 UID: NF:thrdbase.CThreadBase.CThreadBase
-title: CThreadBase::CThreadBase method
+title: CThreadBase::CThreadBase
 author: windows-driver-content
 description: The CThreadBase::CThreadBase constructor initializes a new instance of CThreadBase. CThreadBase is called internally.
 old-location: wmi\cthreadbase_cthreadbase.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 43909501-0a65-4728-9a26-30b8391a33c5
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "??0CThreadBase@@QAE@W4THREAD_SAFETY_MECHANISM@0@@Z, CThreadBase, CThreadBase interface [Windows Management Instrumentation], CThreadBase method, CThreadBase method [Windows Management Instrumentation], CThreadBase method [Windows Management Instrumentation], CThreadBase interface, CThreadBase,CThreadBase.CThreadBase, CThreadBase::CThreadBase, thrdbase/CThreadBase::CThreadBase, wmi.cthreadbase_cthreadbase"
+ms.keywords: "??0CThreadBase@@QAE@W4THREAD_SAFETY_MECHANISM@0@@Z, CThreadBase, CThreadBase interface [Windows Management Instrumentation],CThreadBase method, CThreadBase method [Windows Management Instrumentation], CThreadBase method [Windows Management Instrumentation],CThreadBase interface, CThreadBase.CThreadBase, CThreadBase::CThreadBase, thrdbase/CThreadBase::CThreadBase, wmi.cthreadbase_cthreadbase"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# CThreadBase::CThreadBase method
+# CThreadBase::CThreadBase
 
 
 ## -description

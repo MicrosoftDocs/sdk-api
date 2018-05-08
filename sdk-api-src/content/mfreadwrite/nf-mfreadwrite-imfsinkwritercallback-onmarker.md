@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterCallback.OnMarker
-title: IMFSinkWriterCallback::OnMarker method
+title: IMFSinkWriterCallback::OnMarker
 author: windows-driver-content
 description: Called when the IMFSinkWriter::PlaceMarker method completes.
 old-location: mf\imfsinkwritercallback_onmarker.htm
 old-project: medfound
 ms.assetid: 5b1ca6a7-c2bc-4b30-aa86-05bd4ccc052c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSinkWriterCallback, IMFSinkWriterCallback interface [Media Foundation], OnMarker method, IMFSinkWriterCallback::OnMarker, OnMarker method [Media Foundation], OnMarker method [Media Foundation], IMFSinkWriterCallback interface, OnMarker,IMFSinkWriterCallback.OnMarker, mf.imfsinkwritercallback_onmarker, mfreadwrite/IMFSinkWriterCallback::OnMarker
+ms.date: 5/3/2018
+ms.keywords: IMFSinkWriterCallback interface [Media Foundation],OnMarker method, IMFSinkWriterCallback.OnMarker, IMFSinkWriterCallback::OnMarker, OnMarker, OnMarker method [Media Foundation], OnMarker method [Media Foundation],IMFSinkWriterCallback interface, mf.imfsinkwritercallback_onmarker, mfreadwrite/IMFSinkWriterCallback::OnMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSinkWriterCallback::OnMarker method
+# IMFSinkWriterCallback::OnMarker
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Open
-title: IMDSPObject::Open method
+title: IMDSPObject::Open
 author: windows-driver-content
 description: The Open method opens the associated object and prepares it for Read or Write operations. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_open.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 9e54bcbd-4f14-49e0-8211-2f79f024c80a
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IMDSPObject, IMDSPObject interface [windows Media Device Manager], Open method, IMDSPObject::Open, IMDSPObjectOpen, Open method [windows Media Device Manager], Open method [windows Media Device Manager], IMDSPObject interface, Open,IMDSPObject.Open, mswmdm/IMDSPObject::Open, wmdm.imdspobject_open
+ms.keywords: IMDSPObject interface [windows Media Device Manager],Open method, IMDSPObject.Open, IMDSPObject::Open, IMDSPObjectOpen, Open, Open method [windows Media Device Manager], Open method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Open, wmdm.imdspobject_open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPObject::Open method
+# IMDSPObject::Open
 
 
 ## -description

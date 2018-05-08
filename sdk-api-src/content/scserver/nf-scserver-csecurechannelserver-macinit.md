@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.MACInit
-title: CSecureChannelServer::MACInit method
+title: CSecureChannelServer::MACInit
 author: windows-driver-content
 description: The MACInit method acquires a message authentication code (MAC) channel for use in calls to the MACUpdate and MACFinal methods.
 old-location: wmdm\csecurechannelserver_macinit.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 92161bf3-8e2f-4b4a-a09a-98e33637df27
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CSecureChannelServer, CSecureChannelServer interface [windows Media Device Manager], MACInit method, CSecureChannelServer::MACInit, CSecureChannelServerMACInit, MACInit method [windows Media Device Manager], MACInit method [windows Media Device Manager], CSecureChannelServer interface, MACInit,CSecureChannelServer.MACInit, scserver/CSecureChannelServer::MACInit, wmdm.csecurechannelserver_macinit
+ms.keywords: CSecureChannelServer interface [windows Media Device Manager],MACInit method, CSecureChannelServer.MACInit, CSecureChannelServer::MACInit, CSecureChannelServerMACInit, MACInit, MACInit method [windows Media Device Manager], MACInit method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::MACInit, wmdm.csecurechannelserver_macinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CSecureChannelServer::MACInit method
+# CSecureChannelServer::MACInit
 
 
 ## -description

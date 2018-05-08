@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Rating
-title: IAMMediaContent::get_Rating method
+title: IAMMediaContent::get_Rating
 author: windows-driver-content
 description: The get_Rating method retrieves the rating.
 old-location: dshow\iammediacontent_get_rating.htm
 old-project: DirectShow
 ms.assetid: 2eeb1356-23f5-48dc-be71-062f1501d163
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_Rating method, IAMMediaContent::get_Rating, IAMMediaContentget_Rating, dshow.iammediacontent_get_rating, get_Rating method [DirectShow], get_Rating method [DirectShow], IAMMediaContent interface, get_Rating,IAMMediaContent.get_Rating, qnetwork/IAMMediaContent::get_Rating
+ms.date: 4/30/2018
+ms.keywords: IAMMediaContent interface [DirectShow],get_Rating method, IAMMediaContent.get_Rating, IAMMediaContent::get_Rating, IAMMediaContentget_Rating, dshow.iammediacontent_get_rating, get_Rating, get_Rating method [DirectShow], get_Rating method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Rating
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMMediaContent::get_Rating method
+# IAMMediaContent::get_Rating
 
 
 ## -description

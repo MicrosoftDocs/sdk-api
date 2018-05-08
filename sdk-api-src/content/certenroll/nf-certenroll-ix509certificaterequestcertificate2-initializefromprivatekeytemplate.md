@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate
-title: IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate method
+title: IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate
 author: windows-driver-content
 description: Initializes the certificate request by using an IX509PrivateKey object and a certificate template.
 old-location: security\ix509certificaterequestcertificate2_initializefromprivatekeytemplate.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 334cc5f7-e74e-4f0b-b54b-6f1b121418da
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestCertificate2, IX509CertificateRequestCertificate2 interface [Security], InitializeFromPrivateKeyTemplate method, IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate method [Security], InitializeFromPrivateKeyTemplate method [Security], IX509CertificateRequestCertificate2 interface, InitializeFromPrivateKeyTemplate,IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate, certenroll/IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate, security.ix509certificaterequestcertificate2_initializefromprivatekeytemplate
+ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestCertificate2 interface [Security],InitializeFromPrivateKeyTemplate method, IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate, IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate method [Security], InitializeFromPrivateKeyTemplate method [Security],IX509CertificateRequestCertificate2 interface, certenroll/IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate, security.ix509certificaterequestcertificate2_initializefromprivatekeytemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate method
+# IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate
 
 
 ## -description

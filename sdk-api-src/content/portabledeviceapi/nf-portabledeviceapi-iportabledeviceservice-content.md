@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Content
-title: IPortableDeviceService::Content method
+title: IPortableDeviceService::Content
 author: windows-driver-content
 description: Retrieves access to the service content.
 old-location: wpdsdk\iportabledeviceservice_content.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 36977b23-b03f-48bc-8313-ddfe2ef208de
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Content method [Windows Portable Devices SDK], Content method [Windows Portable Devices SDK], IPortableDeviceService interface, Content,IPortableDeviceService.Content, IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], Content method, IPortableDeviceService::Content, portabledeviceapi/IPortableDeviceService::Content, wpdsdk.iportabledeviceservice_content
+ms.keywords: Content, Content method [Windows Portable Devices SDK], Content method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Content method, IPortableDeviceService.Content, IPortableDeviceService::Content, portabledeviceapi/IPortableDeviceService::Content, wpdsdk.iportabledeviceservice_content
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceService::Content method
+# IPortableDeviceService::Content
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamPrioritization.GetPriorityRecords
-title: IWMStreamPrioritization::GetPriorityRecords method
+title: IWMStreamPrioritization::GetPriorityRecords
 author: windows-driver-content
 description: The GetPriorityRecords method retrieves the list of streams and their priorities from the profile.
 old-location: wmformat\iwmstreamprioritization_getpriorityrecords.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 50b105c7-1e4f-435c-8bb6-643ea4d065bb
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetPriorityRecords method [windows Media Format], GetPriorityRecords method [windows Media Format], IWMStreamPrioritization interface, GetPriorityRecords,IWMStreamPrioritization.GetPriorityRecords, IWMStreamPrioritization, IWMStreamPrioritization interface [windows Media Format], GetPriorityRecords method, IWMStreamPrioritization::GetPriorityRecords, IWMStreamPrioritizationGetPriorityRecords, wmformat.iwmstreamprioritization_getpriorityrecords, wmsdkidl/IWMStreamPrioritization::GetPriorityRecords
+ms.keywords: GetPriorityRecords, GetPriorityRecords method [windows Media Format], GetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, IWMStreamPrioritization interface [windows Media Format],GetPriorityRecords method, IWMStreamPrioritization.GetPriorityRecords, IWMStreamPrioritization::GetPriorityRecords, IWMStreamPrioritizationGetPriorityRecords, wmformat.iwmstreamprioritization_getpriorityrecords, wmsdkidl/IWMStreamPrioritization::GetPriorityRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamPrioritization::GetPriorityRecords method
+# IWMStreamPrioritization::GetPriorityRecords
 
 
 ## -description

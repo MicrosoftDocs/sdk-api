@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.GetBorder
-title: IOleInPlaceUIWindow::GetBorder method
+title: IOleInPlaceUIWindow::GetBorder
 author: windows-driver-content
 description: Retrieves the outer rectange for toolbars and controls while the object is active in place.
 old-location: com\ioleinplaceuiwindow_getborder.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 9ee9970a-b937-4538-b3b8-460647086db1
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetBorder method [COM], GetBorder method [COM], IOleInPlaceUIWindow interface, GetBorder,IOleInPlaceUIWindow.GetBorder, IOleInPlaceUIWindow, IOleInPlaceUIWindow interface [COM], GetBorder method, IOleInPlaceUIWindow::GetBorder, _ole_ioleinplaceuiwindow_getborder, com.ioleinplaceuiwindow_getborder, oleidl/IOleInPlaceUIWindow::GetBorder
+ms.keywords: GetBorder, GetBorder method [COM], GetBorder method [COM],IOleInPlaceUIWindow interface, IOleInPlaceUIWindow interface [COM],GetBorder method, IOleInPlaceUIWindow.GetBorder, IOleInPlaceUIWindow::GetBorder, _ole_ioleinplaceuiwindow_getborder, com.ioleinplaceuiwindow_getborder, oleidl/IOleInPlaceUIWindow::GetBorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceUIWindow::GetBorder method
+# IOleInPlaceUIWindow::GetBorder
 
 
 ## -description

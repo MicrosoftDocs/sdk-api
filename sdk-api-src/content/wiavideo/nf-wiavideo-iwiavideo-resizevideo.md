@@ -1,14 +1,14 @@
 ---
 UID: NF:wiavideo.IWiaVideo.ResizeVideo
-title: IWiaVideo::ResizeVideo method
+title: IWiaVideo::ResizeVideo
 author: windows-driver-content
 description: The IWiaVideo::ResizeVideo method resizes the video playback to the largest supported resolution that fits inside the parent window. Call this method whenever the parent window is moved or resized.
 old-location: wia\_wia_IWiaVideo_ResizeVideo.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\resizevideo.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaVideo, IWiaVideo interface [WIA], ResizeVideo method, IWiaVideo::ResizeVideo, ResizeVideo method [WIA], ResizeVideo method [WIA], IWiaVideo interface, ResizeVideo,IWiaVideo.ResizeVideo, _wia_IWiaVideo_ResizeVideo, wia._wia_IWiaVideo_ResizeVideo, wiavideo/IWiaVideo::ResizeVideo
+ms.date: 5/3/2018
+ms.keywords: IWiaVideo interface [WIA],ResizeVideo method, IWiaVideo.ResizeVideo, IWiaVideo::ResizeVideo, ResizeVideo, ResizeVideo method [WIA], ResizeVideo method [WIA],IWiaVideo interface, _wia_IWiaVideo_ResizeVideo, wia._wia_IWiaVideo_ResizeVideo, wiavideo/IWiaVideo::ResizeVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaVideo::ResizeVideo method
+# IWiaVideo::ResizeVideo
 
 
 ## -description

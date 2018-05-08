@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetRevision
-title: IXpsOMCoreProperties::SetRevision method
+title: IXpsOMCoreProperties::SetRevision
 author: windows-driver-content
 description: Sets the revision property.
 old-location: xps\ixpsomcoreproperties_setrevision.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 7e2ef3b4-64dd-402e-a282-0ed01e588337
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], SetRevision method, IXpsOMCoreProperties::SetRevision, SetRevision method [XPS Documents and Packaging], SetRevision method [XPS Documents and Packaging], IXpsOMCoreProperties interface, SetRevision,IXpsOMCoreProperties.SetRevision, xps.ixpsomcoreproperties_setrevision, xpsobjectmodel/IXpsOMCoreProperties::SetRevision
+ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetRevision method, IXpsOMCoreProperties.SetRevision, IXpsOMCoreProperties::SetRevision, SetRevision, SetRevision method [XPS Documents and Packaging], SetRevision method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setrevision, xpsobjectmodel/IXpsOMCoreProperties::SetRevision
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::SetRevision method
+# IXpsOMCoreProperties::SetRevision
 
 
 ## -description

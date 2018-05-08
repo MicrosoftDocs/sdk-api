@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetDesc
-title: ID3D10Effect::GetDesc method
+title: ID3D10Effect::GetDesc
 author: windows-driver-content
 description: Get an effect description.
 old-location: direct3d10\id3d10effect_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getdesc.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 35c1c99a-3f41-0efe-adae-ce9709830b32, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10], ID3D10Effect interface, GetDesc,ID3D10Effect.GetDesc, ID3D10Effect, ID3D10Effect interface [Direct3D 10], GetDesc method, ID3D10Effect::GetDesc, d3d10effect/ID3D10Effect::GetDesc, direct3d10.id3d10effect_getdesc
+ms.keywords: 35c1c99a-3f41-0efe-adae-ce9709830b32, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetDesc method, ID3D10Effect.GetDesc, ID3D10Effect::GetDesc, d3d10effect/ID3D10Effect::GetDesc, direct3d10.id3d10effect_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Effect::GetDesc method
+# ID3D10Effect::GetDesc
 
 
 ## -description

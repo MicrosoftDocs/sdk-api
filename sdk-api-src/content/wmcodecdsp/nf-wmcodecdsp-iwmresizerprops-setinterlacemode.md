@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetInterlaceMode
-title: IWMResizerProps::SetInterlaceMode method
+title: IWMResizerProps::SetInterlaceMode
 author: windows-driver-content
 description: The SetInterlaceMode method specifies whether the input video stream is interlaced.
 old-location: mf\iwmresizerpropssetinterlacemode.htm
 old-project: medfound
 ms.assetid: a5ce36aa-d46c-4c17-bc8d-4840ea496980
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMResizerProps, IWMResizerProps interface [Media Foundation], SetInterlaceMode method, IWMResizerProps::SetInterlaceMode, SetInterlaceMode method [Media Foundation], SetInterlaceMode method [Media Foundation], IWMResizerProps interface, SetInterlaceMode,IWMResizerProps.SetInterlaceMode, codecapi.iwmresizerpropssetinterlacemode, mf.iwmresizerpropssetinterlacemode, wmcodecdsp/ IWMResizerProps::SetInterlaceMode
+ms.date: 5/3/2018
+ms.keywords: IWMResizerProps interface [Media Foundation],SetInterlaceMode method, IWMResizerProps.SetInterlaceMode, IWMResizerProps::SetInterlaceMode, SetInterlaceMode, SetInterlaceMode method [Media Foundation], SetInterlaceMode method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetinterlacemode, mf.iwmresizerpropssetinterlacemode, wmcodecdsp/ IWMResizerProps::SetInterlaceMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMResizerProps::SetInterlaceMode method
+# IWMResizerProps::SetInterlaceMode
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8fccc4f9-17fe-4927-b00d-2815f47857e5
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IBlockingLock, IBlockingLock interface [COM], IBlockingLock interface [COM], described, _com_iblockinglock, com.iblockinglock, objidl/IBlockingLock
+ms.keywords: IBlockingLock, IBlockingLock interface [COM], IBlockingLock interface [COM],described, _com_iblockinglock, com.iblockinglock, objidl/IBlockingLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

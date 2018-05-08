@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriterInfo.GetHeader
-title: IWICMetadataWriterInfo::GetHeader method
+title: IWICMetadataWriterInfo::GetHeader
 author: windows-driver-content
 description: Gets the metadata header for the metadata writer.
 old-location: wic\_wic_codec_iwicmetadatawriterinfo_getheader.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 156728ea-b4a3-47d7-b0d8-cd34881e9703
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetHeader method [Windows Imaging Component], GetHeader method [Windows Imaging Component], IWICMetadataWriterInfo interface, GetHeader,IWICMetadataWriterInfo.GetHeader, IWICMetadataWriterInfo, IWICMetadataWriterInfo interface [Windows Imaging Component], GetHeader method, IWICMetadataWriterInfo::GetHeader, _wic_codec_iwicmetadatawriterinfo_getheader, wic._wic_codec_iwicmetadatawriterinfo_getheader, wincodecsdk/IWICMetadataWriterInfo::GetHeader
+ms.keywords: GetHeader, GetHeader method [Windows Imaging Component], GetHeader method [Windows Imaging Component],IWICMetadataWriterInfo interface, IWICMetadataWriterInfo interface [Windows Imaging Component],GetHeader method, IWICMetadataWriterInfo.GetHeader, IWICMetadataWriterInfo::GetHeader, _wic_codec_iwicmetadatawriterinfo_getheader, wic._wic_codec_iwicmetadatawriterinfo_getheader, wincodecsdk/IWICMetadataWriterInfo::GetHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataWriterInfo::GetHeader method
+# IWICMetadataWriterInfo::GetHeader
 
 
 ## -description

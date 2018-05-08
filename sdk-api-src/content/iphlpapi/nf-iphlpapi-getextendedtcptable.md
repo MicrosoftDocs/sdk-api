@@ -7,7 +7,7 @@ old-location: iphlp\getextendedtcptable.htm
 old-project: IpHlp
 ms.assetid: 96356a0e-ae0d-4000-9223-a578cbdeaa8b
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: AF_INET, AF_INET6, GetExtendedTcpTable, GetExtendedTcpTable function [IP Helper], iphlp.getextendedtcptable, iphlpapi/GetExtendedTcpTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

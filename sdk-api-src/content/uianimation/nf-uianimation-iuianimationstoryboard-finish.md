@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.Finish
-title: IUIAnimationStoryboard::Finish method
+title: IUIAnimationStoryboard::Finish
 author: windows-driver-content
 description: Finishes the storyboard within the specified time, compressing the storyboard if necessary.
 old-location: uianimation\iuianimationstoryboard_finish.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 45d0872a-dbcf-4151-a880-80b2c6fb884c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Finish method [Windows Animation], Finish method [Windows Animation], IUIAnimationStoryboard interface, Finish,IUIAnimationStoryboard.Finish, IUIAnimationStoryboard, IUIAnimationStoryboard interface [Windows Animation], Finish method, IUIAnimationStoryboard::Finish, uianimation.iuianimationstoryboard_finish, uianimation/IUIAnimationStoryboard::Finish
+ms.keywords: Finish, Finish method [Windows Animation], Finish method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],Finish method, IUIAnimationStoryboard.Finish, IUIAnimationStoryboard::Finish, uianimation.iuianimationstoryboard_finish, uianimation/IUIAnimationStoryboard::Finish
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard::Finish method
+# IUIAnimationStoryboard::Finish
 
 
 ## -description

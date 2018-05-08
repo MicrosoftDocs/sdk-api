@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.put_FireInParallel
-title: IMultiInterfaceEventControl::put_FireInParallel method
+title: IMultiInterfaceEventControl::put_FireInParallel
 author: windows-driver-content
 description: Indicates whether events can be delivered to two or more subscribers in parallel.
 old-location: cos\imultiinterfaceeventcontrol_fireinparallel.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: c26cce66-e713-42f7-9716-385b59085977
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: FireInParallel property [COM+], FireInParallel property [COM+], IMultiInterfaceEventControl interface, IMultiInterfaceEventControl, IMultiInterfaceEventControl interface [COM+], FireInParallel property, IMultiInterfaceEventControl.FireInParallel, IMultiInterfaceEventControl::get_FireInParallel, IMultiInterfaceEventControl::put_FireInParallel, cos.imultiinterfaceeventcontrol_fireinparallel, eventsys/IMultiInterfaceEventControl::FireInParallel, eventsys/IMultiInterfaceEventControl::get_FireInParallel, eventsys/IMultiInterfaceEventControl::put_FireInParallel, put_FireInParallel,IMultiInterfaceEventControl.put_FireInParallel
+ms.keywords: FireInParallel property [COM+], FireInParallel property [COM+],IMultiInterfaceEventControl interface, IMultiInterfaceEventControl interface [COM+],FireInParallel property, IMultiInterfaceEventControl.FireInParallel, IMultiInterfaceEventControl.put_FireInParallel, IMultiInterfaceEventControl::FireInParallel, IMultiInterfaceEventControl::get_FireInParallel, IMultiInterfaceEventControl::put_FireInParallel, cos.imultiinterfaceeventcontrol_fireinparallel, eventsys/IMultiInterfaceEventControl::FireInParallel, eventsys/IMultiInterfaceEventControl::get_FireInParallel, eventsys/IMultiInterfaceEventControl::put_FireInParallel, put_FireInParallel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMultiInterfaceEventControl::put_FireInParallel method
+# IMultiInterfaceEventControl::put_FireInParallel
 
 
 ## -description

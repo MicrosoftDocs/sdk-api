@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectContext.get_Security
-title: ObjectContext::get_Security method
+title: ObjectContext::get_Security
 author: windows-driver-content
 description: Retrieves the security object of the current object's context.
 old-location: cos\objectcontext_get_security.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: a160d214-b807-47cd-a712-b4cad941a157
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ObjectContext, ObjectContext interface [COM+], get_Security method, ObjectContext::get_Security, _cos_ObjectContext_get_Security, comsvcs/ObjectContext::get_Security, cos.objectcontext_get_security, get_Security method [COM+], get_Security method [COM+], ObjectContext interface, get_Security,ObjectContext.get_Security
+ms.keywords: ObjectContext interface [COM+],get_Security method, ObjectContext.get_Security, ObjectContext::get_Security, _cos_ObjectContext_get_Security, comsvcs/ObjectContext::get_Security, cos.objectcontext_get_security, get_Security, get_Security method [COM+], get_Security method [COM+],ObjectContext interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ObjectContext::get_Security method
+# ObjectContext::get_Security
 
 
 ## -description

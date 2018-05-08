@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.Cancel
-title: IFaxOutgoingJob::Cancel method
+title: IFaxOutgoingJob::Cancel
 author: windows-driver-content
 description: The Cancel method cancels the outbound fax job.
 old-location: fax\_mfax_faxoutgoingjob_cancel_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_827g.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Cancel method [Fax Service], Cancel method [Fax Service], FaxOutgoingJob object, Cancel,IFaxOutgoingJob.Cancel, FaxOutgoingJob object [Fax Service], Cancel method, IFaxOutgoingJob, IFaxOutgoingJob::Cancel, _mfax_faxoutgoingjob.cancel, fax._mfax_faxoutgoingjob_cancel, fax._mfax_faxoutgoingjob_cancel_vb
+ms.keywords: Cancel, Cancel method [Fax Service], Cancel method [Fax Service],FaxOutgoingJob object, FaxOutgoingJob object [Fax Service],Cancel method, FaxOutgoingJob.Cancel, IFaxOutgoingJob.Cancel, IFaxOutgoingJob::Cancel, _mfax_faxoutgoingjob.cancel, fax._mfax_faxoutgoingjob_cancel, fax._mfax_faxoutgoingjob_cancel_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutgoingJob::Cancel method
+# IFaxOutgoingJob::Cancel
 
 
 ## -description

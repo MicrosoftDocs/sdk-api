@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.ExpandTargetPath
-title: ITargetInfo::ExpandTargetPath method
+title: ITargetInfo::ExpandTargetPath
 author: windows-driver-content
 description: Expands a location string to indicate the offline installation location.
 old-location: smi\itargetinfo_expandtargetpath.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 7a805c5f-c064-4428-9cfb-1e469450a555
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ExpandTargetPath method [SMI], ExpandTargetPath method [SMI], ITargetInfo interface, ExpandTargetPath,ITargetInfo.ExpandTargetPath, ITargetInfo, ITargetInfo interface [SMI], ExpandTargetPath method, ITargetInfo::ExpandTargetPath, smi.itargetinfo_expandtargetpath, wcmconfig/ITargetInfo::ExpandTargetPath
+ms.keywords: ExpandTargetPath, ExpandTargetPath method [SMI], ExpandTargetPath method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],ExpandTargetPath method, ITargetInfo.ExpandTargetPath, ITargetInfo::ExpandTargetPath, smi.itargetinfo_expandtargetpath, wcmconfig/ITargetInfo::ExpandTargetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ITargetInfo::ExpandTargetPath method
+# ITargetInfo::ExpandTargetPath
 
 
 ## -description

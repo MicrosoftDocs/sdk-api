@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RemoveDefaultScopeRule
-title: ISearchCrawlScopeManager::RemoveDefaultScopeRule method
+title: ISearchCrawlScopeManager::RemoveDefaultScopeRule
 author: windows-driver-content
 description: Removes a default scope rule from the search engine.
 old-location: search\_search_ISearchCrawlScopeManager_RemoveDefaultScopeRule.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removedefaultscoperule.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], RemoveDefaultScopeRule method, ISearchCrawlScopeManager::RemoveDefaultScopeRule, RemoveDefaultScopeRule method [search], RemoveDefaultScopeRule method [search], ISearchCrawlScopeManager interface, RemoveDefaultScopeRule,ISearchCrawlScopeManager.RemoveDefaultScopeRule, _search_ISearchCrawlScopeManager_RemoveDefaultScopeRule, search._search_ISearchCrawlScopeManager_RemoveDefaultScopeRule, searchapi/ISearchCrawlScopeManager::RemoveDefaultScopeRule
+ms.date: 5/4/2018
+ms.keywords: ISearchCrawlScopeManager interface [search],RemoveDefaultScopeRule method, ISearchCrawlScopeManager.RemoveDefaultScopeRule, ISearchCrawlScopeManager::RemoveDefaultScopeRule, RemoveDefaultScopeRule, RemoveDefaultScopeRule method [search], RemoveDefaultScopeRule method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RemoveDefaultScopeRule, search._search_ISearchCrawlScopeManager_RemoveDefaultScopeRule, searchapi/ISearchCrawlScopeManager::RemoveDefaultScopeRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCrawlScopeManager::RemoveDefaultScopeRule method
+# ISearchCrawlScopeManager::RemoveDefaultScopeRule
 
 
 ## -description

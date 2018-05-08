@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_SubmittedTime
-title: IFaxStatus::get_SubmittedTime method
+title: IFaxStatus::get_SubmittedTime
 author: windows-driver-content
 description: Retrieves the SubmittedTime property for the FaxStatus object of a parent FaxPort object. The SubmittedTime property is a number that represents the time the user submitted the active fax job.
 old-location: fax\_mfax_ifaxstatus_get_submittedtime_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_46n9.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxStatus object [Fax Service], SubmittedTime property, IFaxStatus, IFaxStatus::get_SubmittedTime, SubmittedTime property [Fax Service], SubmittedTime property [Fax Service], FaxStatus object, _mfax_ifaxstatus_get_submittedtime, fax._mfax_ifaxstatus_get_submittedtime, fax._mfax_ifaxstatus_get_submittedtime_vb, get_SubmittedTime,IFaxStatus.get_SubmittedTime
+ms.keywords: FaxStatus object [Fax Service],SubmittedTime property, FaxStatus.SubmittedTime, IFaxStatus.get_SubmittedTime, IFaxStatus::get_SubmittedTime, SubmittedTime property [Fax Service], SubmittedTime property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_submittedtime, fax._mfax_ifaxstatus_get_submittedtime, fax._mfax_ifaxstatus_get_submittedtime_vb, get_SubmittedTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxStatus::get_SubmittedTime method
+# IFaxStatus::get_SubmittedTime
 
 
 ## -description

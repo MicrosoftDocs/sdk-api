@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_DisplayName
-title: IMsmConfigurableItem::get_DisplayName method
+title: IMsmConfigurableItem::get_DisplayName
 author: windows-driver-content
 description: The get_DisplayName method retrieves the DisplayName property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_displayname.htm
@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: f947e570-251d-4638-b8b8-aaa6f08bde46
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, get_DisplayName method, IMsmConfigurableItem::get_DisplayName, _msi_get_displayname_function, get_DisplayName method, get_DisplayName method, IMsmConfigurableItem interface, get_DisplayName,IMsmConfigurableItem.get_DisplayName, mergemod/IMsmConfigurableItem::get_DisplayName, setup.imsmconfigurableitem_get_displayname
+ms.keywords: IMsmConfigurableItem interface,get_DisplayName method, IMsmConfigurableItem.get_DisplayName, IMsmConfigurableItem::get_DisplayName, _msi_get_displayname_function, get_DisplayName, get_DisplayName method, get_DisplayName method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_DisplayName, setup.imsmconfigurableitem_get_displayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMsmConfigurableItem::get_DisplayName method
+# IMsmConfigurableItem::get_DisplayName
 
 
 ## -description

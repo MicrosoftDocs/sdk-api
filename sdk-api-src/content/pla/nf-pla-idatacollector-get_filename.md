@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.get_FileName
-title: IDataCollector::get_FileName method
+title: IDataCollector::get_FileName
 author: windows-driver-content
 description: Retrieves or sets the base name of the file that will contain the data collector data.
 old-location: pla\idatacollector_filename.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 9208baf8-0bc7-45c4-a912-7b59f4c1ca6a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: FileName property [PLA], FileName property [PLA], IDataCollector interface, IDataCollector, IDataCollector interface [PLA], FileName property, IDataCollector.FileName, IDataCollector::get_FileName, IDataCollector::put_FileName, base.idatacollector_filename, get_FileName,IDataCollector.get_FileName, pla.idatacollector_filename, pla/IDataCollector::FileName, pla/IDataCollector::get_FileName, pla/IDataCollector::put_FileName
+ms.keywords: FileName property [PLA], FileName property [PLA],IDataCollector interface, IDataCollector interface [PLA],FileName property, IDataCollector.FileName, IDataCollector.get_FileName, IDataCollector::FileName, IDataCollector::get_FileName, IDataCollector::put_FileName, base.idatacollector_filename, get_FileName, pla.idatacollector_filename, pla/IDataCollector::FileName, pla/IDataCollector::get_FileName, pla/IDataCollector::put_FileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollector::get_FileName method
+# IDataCollector::get_FileName
 
 
 ## -description

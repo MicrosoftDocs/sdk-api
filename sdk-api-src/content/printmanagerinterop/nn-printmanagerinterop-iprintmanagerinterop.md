@@ -7,8 +7,8 @@ old-location: winrt\iprintmanagerinterop.htm
 old-project: WinRT
 ms.assetid: 1786fda1-37e4-4ec5-94de-a1fc5b6732a2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IPrintManagerInterop, IPrintManagerInterop interface [Windows Runtime], IPrintManagerInterop interface [Windows Runtime], described, printmanagerinterop/IPrintManagerInterop, winrt.iprintmanagerinterop
+ms.date: 5/4/2018
+ms.keywords: IPrintManagerInterop, IPrintManagerInterop interface [Windows Runtime], IPrintManagerInterop interface [Windows Runtime],described, printmanagerinterop/IPrintManagerInterop, winrt.iprintmanagerinterop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

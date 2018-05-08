@@ -63,6 +63,23 @@ Contains inbound and outbound data used in the Windows Remote Management (WinRM)
 Specifies the type of data currently stored in the union.
 
 
+### -field text
+
+ 
+
+
+### -field binaryData
+
+ 
+
+
+### -field number
+
+ 
+
+
+
+
 #### - ( unnamed union )
 
 Contains the data.

@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.IEnumNetSharingEveryConnection.Next
-title: IEnumNetSharingEveryConnection::Next method
+title: IEnumNetSharingEveryConnection::Next
 author: windows-driver-content
 description: The Next method retrieves the specified number of connections from the Connections folder starting from the current enumeration position.
 old-location: ics\ienumnetsharingeveryconnection_next.htm
 old-project: ICS
 ms.assetid: 05c1ec04-81bc-4d38-aab5-843ea54dda1d
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], Next method, IEnumNetSharingEveryConnection::Next, Next method [ICS/ICF], Next method [ICS/ICF], IEnumNetSharingEveryConnection interface, Next,IEnumNetSharingEveryConnection.Next, _ics_ienumnetsharingeveryconnection_next, ics.ienumnetsharingeveryconnection_next, netcon/IEnumNetSharingEveryConnection::Next
+ms.date: 5/1/2018
+ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Next method, IEnumNetSharingEveryConnection.Next, IEnumNetSharingEveryConnection::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_next, ics.ienumnetsharingeveryconnection_next, netcon/IEnumNetSharingEveryConnection::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumNetSharingEveryConnection::Next method
+# IEnumNetSharingEveryConnection::Next
 
 
 ## -description

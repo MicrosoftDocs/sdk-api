@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetFuncHelpContext
-title: ICreateTypeInfo::SetFuncHelpContext method
+title: ICreateTypeInfo::SetFuncHelpContext
 author: windows-driver-content
 description: Sets the Help context ID for the function with the specified index.
 old-location: automat\icreatetypeinfo_setfunchelpcontext.htm
 old-project: automat
 ms.assetid: 945d2faa-f35d-488f-a0df-ace3fbb85971
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], SetFuncHelpContext method, ICreateTypeInfo::SetFuncHelpContext, SetFuncHelpContext method [Automation], SetFuncHelpContext method [Automation], ICreateTypeInfo interface, SetFuncHelpContext,ICreateTypeInfo.SetFuncHelpContext, _oa96_ICreateTypeInfo_SetFuncHelpContext, automat.icreatetypeinfo_setfunchelpcontext, oaidl/ICreateTypeInfo::SetFuncHelpContext
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo interface [Automation],SetFuncHelpContext method, ICreateTypeInfo.SetFuncHelpContext, ICreateTypeInfo::SetFuncHelpContext, SetFuncHelpContext, SetFuncHelpContext method [Automation], SetFuncHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncHelpContext, automat.icreatetypeinfo_setfunchelpcontext, oaidl/ICreateTypeInfo::SetFuncHelpContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo::SetFuncHelpContext method
+# ICreateTypeInfo::SetFuncHelpContext
 
 
 ## -description

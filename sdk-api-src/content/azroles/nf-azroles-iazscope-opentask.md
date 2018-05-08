@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.OpenTask
-title: IAzScope::OpenTask method
+title: IAzScope::OpenTask
 author: windows-driver-content
 description: Opens an IAzTask object with the specified name.
 old-location: security\iazscope_opentask.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 8719ab1f-8004-4d5c-b64c-ae17c8d1ab30
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzScope object [Security], OpenTask method, IAzScope, IAzScope interface [Security], OpenTask method, IAzScope::OpenTask, OpenTask method [Security], OpenTask method [Security], AzScope object, OpenTask method [Security], IAzScope interface, OpenTask,IAzScope.OpenTask, azroles/IAzScope::OpenTask, security.iazscope_opentask
+ms.keywords: AzScope object [Security],OpenTask method, IAzScope interface [Security],OpenTask method, IAzScope.OpenTask, IAzScope::OpenTask, OpenTask, OpenTask method [Security], OpenTask method [Security],AzScope object, OpenTask method [Security],IAzScope interface, azroles/IAzScope::OpenTask, security.iazscope_opentask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope::OpenTask method
+# IAzScope::OpenTask
 
 
 ## -description

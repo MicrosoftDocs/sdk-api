@@ -1,14 +1,14 @@
 ---
 UID: NF:shappmgr.IShellApp.GetPossibleActions
-title: IShellApp::GetPossibleActions method
+title: IShellApp::GetPossibleActions
 author: windows-driver-content
 description: Gets a bitmask of management actions allowed for an application.
 old-location: shell\IShellApp_GetPossibleActions.htm
 old-project: shell
 ms.assetid: e2cdff59-1339-4d00-9bbc-e34e773da1c2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPossibleActions method [Windows Shell], GetPossibleActions method [Windows Shell], IShellApp interface, GetPossibleActions,IShellApp.GetPossibleActions, IShellApp, IShellApp interface [Windows Shell], GetPossibleActions method, IShellApp::GetPossibleActions, inet_IShellApp_GetPossibleActions, shappmgr/IShellApp::GetPossibleActions, shell.IShellApp_GetPossibleActions
+ms.date: 5/3/2018
+ms.keywords: GetPossibleActions, GetPossibleActions method [Windows Shell], GetPossibleActions method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetPossibleActions method, IShellApp.GetPossibleActions, IShellApp::GetPossibleActions, inet_IShellApp_GetPossibleActions, shappmgr/IShellApp::GetPossibleActions, shell.IShellApp_GetPossibleActions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IShellApp::GetPossibleActions method
+# IShellApp::GetPossibleActions
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTunerEx.GetTunerStatus
-title: IScanningTunerEx::GetTunerStatus method
+title: IScanningTunerEx::GetTunerStatus
 author: windows-driver-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_gettunerstatus.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9e91f5ca-5a2e-414e-bf4c-882ba6a08b98
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTunerStatus method [Microsoft TV Technologies], GetTunerStatus method [Microsoft TV Technologies], IScanningTunerEx interface, GetTunerStatus,IScanningTunerEx.GetTunerStatus, IScanningTunerEx, IScanningTunerEx interface [Microsoft TV Technologies], GetTunerStatus method, IScanningTunerEx::GetTunerStatus, IScanningTunerExGetTunerStatus, mstv.iscanningtunerex_gettunerstatus, tuner/IScanningTunerEx::GetTunerStatus
+ms.keywords: GetTunerStatus, GetTunerStatus method [Microsoft TV Technologies], GetTunerStatus method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetTunerStatus method, IScanningTunerEx.GetTunerStatus, IScanningTunerEx::GetTunerStatus, IScanningTunerExGetTunerStatus, mstv.iscanningtunerex_gettunerstatus, tuner/IScanningTunerEx::GetTunerStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IScanningTunerEx::GetTunerStatus method
+# IScanningTunerEx::GetTunerStatus
 
 
 ## -description

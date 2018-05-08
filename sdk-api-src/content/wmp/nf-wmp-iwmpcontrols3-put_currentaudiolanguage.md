@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPControls3.put_currentAudioLanguage
-title: IWMPControls3::put_currentAudioLanguage method
+title: IWMPControls3::put_currentAudioLanguage
 author: windows-driver-content
 description: The put_currentAudioLanguage method specifies the locale identifier (LCID) of the audio language for playback.
 old-location: wmp\iwmpcontrols3_put_currentaudiolanguage.htm
 old-project: WMP
 ms.assetid: 7050ed77-f4bd-4c20-a661-fb0ea26af3a3
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPControls3, IWMPControls3 interface [Windows Media Player], put_currentAudioLanguage method, IWMPControls3::put_currentAudioLanguage, IWMPControls3put_currentAudioLanguage, put_currentAudioLanguage method [Windows Media Player], put_currentAudioLanguage method [Windows Media Player], IWMPControls3 interface, put_currentAudioLanguage,IWMPControls3.put_currentAudioLanguage, wmp.iwmpcontrols3_put_currentaudiolanguage, wmp/IWMPControls3::put_currentAudioLanguage
+ms.date: 5/4/2018
+ms.keywords: IWMPControls3 interface [Windows Media Player],put_currentAudioLanguage method, IWMPControls3.put_currentAudioLanguage, IWMPControls3::put_currentAudioLanguage, IWMPControls3put_currentAudioLanguage, put_currentAudioLanguage, put_currentAudioLanguage method [Windows Media Player], put_currentAudioLanguage method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_put_currentaudiolanguage, wmp/IWMPControls3::put_currentAudioLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPControls3::put_currentAudioLanguage method
+# IWMPControls3::put_currentAudioLanguage
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeys.GetSuspendNotify
-title: IMFMediaKeys::GetSuspendNotify method
+title: IMFMediaKeys::GetSuspendNotify
 author: windows-driver-content
 description: Gets the suspend notify interface of the Content Decryption Module (CDM).
 old-location: mf\imfmediakeys_getsuspendnotify.htm
 old-project: medfound
 ms.assetid: 35d76cbc-04c7-49e7-9451-6b032ccd2937
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetSuspendNotify method [Media Foundation], GetSuspendNotify method [Media Foundation], IMFMediaKeys interface, GetSuspendNotify,IMFMediaKeys.GetSuspendNotify, IMFMediaKeys, IMFMediaKeys interface [Media Foundation], GetSuspendNotify method, IMFMediaKeys::GetSuspendNotify, mf.imfmediakeys_getsuspendnotify, mfmediaengine/IMFMediaKeys::GetSuspendNotify
+ms.date: 5/3/2018
+ms.keywords: GetSuspendNotify, GetSuspendNotify method [Media Foundation], GetSuspendNotify method [Media Foundation],IMFMediaKeys interface, IMFMediaKeys interface [Media Foundation],GetSuspendNotify method, IMFMediaKeys.GetSuspendNotify, IMFMediaKeys::GetSuspendNotify, mf.imfmediakeys_getsuspendnotify, mfmediaengine/IMFMediaKeys::GetSuspendNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaKeys::GetSuspendNotify method
+# IMFMediaKeys::GetSuspendNotify
 
 
 ## -description

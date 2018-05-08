@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateFarms
-title: ITsSbGlobalStore::EnumerateFarms method
+title: ITsSbGlobalStore::EnumerateFarms
 author: windows-driver-content
 description: Enumerates all the farms that have been added by the specified resource plug-in.
 old-location: termserv\itssbglobalstore_enumeratefarms.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 51c59f35-667c-4723-aa7b-e8250bbdabe9
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EnumerateFarms method [Remote Desktop Services], EnumerateFarms method [Remote Desktop Services], ITsSbGlobalStore interface, EnumerateFarms,ITsSbGlobalStore.EnumerateFarms, ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], EnumerateFarms method, ITsSbGlobalStore::EnumerateFarms, sbtsv/ITsSbGlobalStore::EnumerateFarms, termserv.itssbglobalstore_enumeratefarms
+ms.keywords: EnumerateFarms, EnumerateFarms method [Remote Desktop Services], EnumerateFarms method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],EnumerateFarms method, ITsSbGlobalStore.EnumerateFarms, ITsSbGlobalStore::EnumerateFarms, sbtsv/ITsSbGlobalStore::EnumerateFarms, termserv.itssbglobalstore_enumeratefarms
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbGlobalStore::EnumerateFarms method
+# ITsSbGlobalStore::EnumerateFarms
 
 
 ## -description

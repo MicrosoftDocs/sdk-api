@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionConstantBuffer.GetVariableByName
-title: ID3D12ShaderReflectionConstantBuffer::GetVariableByName method
+title: ID3D12ShaderReflectionConstantBuffer::GetVariableByName
 author: windows-driver-content
 description: Gets a shader-reflection variable by name.
 old-location: direct3d12\id3d12shaderreflectionconstantbuffer_getvariablebyname.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: FD18A64F-9B4A-42FE-8E18-13E9375E19BC
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetVariableByName method, GetVariableByName method, ID3D12ShaderReflectionConstantBuffer interface, GetVariableByName,ID3D12ShaderReflectionConstantBuffer.GetVariableByName, ID3D12ShaderReflectionConstantBuffer, ID3D12ShaderReflectionConstantBuffer interface, GetVariableByName method, ID3D12ShaderReflectionConstantBuffer::GetVariableByName, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetVariableByName, direct3d12.id3d12shaderreflectionconstantbuffer_getvariablebyname
+ms.keywords: GetVariableByName, GetVariableByName method, GetVariableByName method,ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,GetVariableByName method, ID3D12ShaderReflectionConstantBuffer.GetVariableByName, ID3D12ShaderReflectionConstantBuffer::GetVariableByName, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetVariableByName, direct3d12.id3d12shaderreflectionconstantbuffer_getvariablebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflectionConstantBuffer::GetVariableByName method
+# ID3D12ShaderReflectionConstantBuffer::GetVariableByName
 
 
 ## -description

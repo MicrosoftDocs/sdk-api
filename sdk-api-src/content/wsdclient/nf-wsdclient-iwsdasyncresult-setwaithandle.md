@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.SetWaitHandle
-title: IWSDAsyncResult::SetWaitHandle method
+title: IWSDAsyncResult::SetWaitHandle
 author: windows-driver-content
 description: Specifies a wait handle to set when the operation completes.
 old-location: ncd\iwsdasyncresult_setwaithandle_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: d7196785-0e9c-4320-a14e-60457f72c66b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDAsyncResult, IWSDAsyncResult interface, SetWaitHandle method, IWSDAsyncResult::SetWaitHandle, SetWaitHandle method, SetWaitHandle method, IWSDAsyncResult interface, SetWaitHandle,IWSDAsyncResult.SetWaitHandle, ncd.iwsdasyncresult_setwaithandle_method, wsdclient/IWSDAsyncResult::SetWaitHandle
+ms.keywords: IWSDAsyncResult interface,SetWaitHandle method, IWSDAsyncResult.SetWaitHandle, IWSDAsyncResult::SetWaitHandle, SetWaitHandle, SetWaitHandle method, SetWaitHandle method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setwaithandle_method, wsdclient/IWSDAsyncResult::SetWaitHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDAsyncResult::SetWaitHandle method
+# IWSDAsyncResult::SetWaitHandle
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.put_ZoomRelative
-title: ICameraControl::put_ZoomRelative method
+title: ICameraControl::put_ZoomRelative
 author: windows-driver-content
 description: The put_ZoomRelative method sets the camera's relative zoom. The relative zoom indicates the direction in which the lens is moving.
 old-location: dshow\icameracontrol_put_zoomrelative.htm
 old-project: DirectShow
 ms.assetid: 815f92c3-bfab-47d5-86dd-f9b2321d20eb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_ZoomRelative method, ICameraControl::put_ZoomRelative, ICameraControlput_ZoomRelative, dshow.icameracontrol_put_zoomrelative, put_ZoomRelative method [DirectShow], put_ZoomRelative method [DirectShow], ICameraControl interface, put_ZoomRelative,ICameraControl.put_ZoomRelative, vidcap/ICameraControl::put_ZoomRelative
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],put_ZoomRelative method, ICameraControl.put_ZoomRelative, ICameraControl::put_ZoomRelative, ICameraControlput_ZoomRelative, dshow.icameracontrol_put_zoomrelative, put_ZoomRelative, put_ZoomRelative method [DirectShow], put_ZoomRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_ZoomRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::put_ZoomRelative method
+# ICameraControl::put_ZoomRelative
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.Delete
-title: IGroupPolicyObject::Delete method
+title: IGroupPolicyObject::Delete
 author: windows-driver-content
 description: The Delete method deletes the GPO.
 old-location: policy\igrouppolicyobject_delete.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: 34afb04e-47f9-4d7c-9fa6-9d76188d7e05
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Delete method [Group Policy], Delete method [Group Policy], IGroupPolicyObject interface, Delete,IGroupPolicyObject.Delete, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], Delete method, IGroupPolicyObject::Delete, _win32_igrouppolicyobject_delete, gpedit/IGroupPolicyObject::Delete, policy.igrouppolicyobject_delete
+ms.keywords: Delete, Delete method [Group Policy], Delete method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],Delete method, IGroupPolicyObject.Delete, IGroupPolicyObject::Delete, _win32_igrouppolicyobject_delete, gpedit/IGroupPolicyObject::Delete, policy.igrouppolicyobject_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGroupPolicyObject::Delete method
+# IGroupPolicyObject::Delete
 
 
 ## -description

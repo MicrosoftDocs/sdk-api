@@ -66,6 +66,13 @@ The <b>SecPkgCredentials_Names</b> structure holds the name of the user associat
 Pointer to a null-terminated string containing the name of the user represented by the credential. If the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> sets the SECPKG_FLAG_ACCEPT_WIN32_NAME flag to indicate that it can process Windows names, this name can be used in other Windows calls.
 
 
+### -field sUserName.string
+
+ 
+
+
+
+
 ## -see-also
 
 

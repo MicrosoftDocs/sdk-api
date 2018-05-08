@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.get_Name
-title: ITaskFolder::get_Name method
+title: ITaskFolder::get_Name
 author: windows-driver-content
 description: Gets the name that is used to identify the folder that contains a task.
 old-location: taskschd\itaskfolder_name.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 092d1d40-e97a-44a3-aff0-41b2b6df8d6d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskFolder, ITaskFolder interface [Task Scheduler], Name property, ITaskFolder.Name, ITaskFolder::get_Name, Name property [Task Scheduler], Name property [Task Scheduler], ITaskFolder interface, get_Name,ITaskFolder.get_Name, taskschd.itaskfolder_name, taskschd/ITaskFolder::Name, taskschd/ITaskFolder::get_Name
+ms.keywords: ITaskFolder interface [Task Scheduler],Name property, ITaskFolder.Name, ITaskFolder.get_Name, ITaskFolder::Name, ITaskFolder::get_Name, Name property [Task Scheduler], Name property [Task Scheduler],ITaskFolder interface, get_Name, taskschd.itaskfolder_name, taskschd/ITaskFolder::Name, taskschd/ITaskFolder::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskFolder::get_Name method
+# ITaskFolder::get_Name
 
 
 ## -description

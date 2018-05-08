@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesItems.Reset
-title: IEnumOfflineFilesItems::Reset method
+title: IEnumOfflineFilesItems::Reset
 author: windows-driver-content
 description: Resets the enumeration to the beginning.
 old-location: of\ienumofflinefilesitems_reset.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: fa4d1313-e05d-49be-80c3-cbb70463dfb1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEnumOfflineFilesItems, IEnumOfflineFilesItems interface [Offline Files], Reset method, IEnumOfflineFilesItems::Reset, Reset method [Offline Files], Reset method [Offline Files], IEnumOfflineFilesItems interface, Reset,IEnumOfflineFilesItems.Reset, cscobj/IEnumOfflineFilesItems::Reset, of.ienumofflinefilesitems_reset
+ms.keywords: IEnumOfflineFilesItems interface [Offline Files],Reset method, IEnumOfflineFilesItems.Reset, IEnumOfflineFilesItems::Reset, Reset, Reset method [Offline Files], Reset method [Offline Files],IEnumOfflineFilesItems interface, cscobj/IEnumOfflineFilesItems::Reset, of.ienumofflinefilesitems_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IEnumOfflineFilesItems::Reset method
+# IEnumOfflineFilesItems::Reset
 
 
 ## -description

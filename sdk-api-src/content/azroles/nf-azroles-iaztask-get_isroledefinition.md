@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.get_IsRoleDefinition
-title: IAzTask::get_IsRoleDefinition method
+title: IAzTask::get_IsRoleDefinition
 author: windows-driver-content
 description: Sets or retrieves a value that indicates whether the task is a role definition.
 old-location: security\iaztask_isroledefinition.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: fef32545-de7e-4516-a289-b9ddf45b7c81
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzTask object [Security], IsRoleDefinition property, IAzTask, IAzTask interface [Security], IsRoleDefinition property, IAzTask.IsRoleDefinition, IAzTask::get_IsRoleDefinition, IAzTask::put_IsRoleDefinition, IsRoleDefinition property [Security], IsRoleDefinition property [Security], AzTask object, IsRoleDefinition property [Security], IAzTask interface, azroles/IAzTask::IsRoleDefinition, azroles/IAzTask::get_IsRoleDefinition, azroles/IAzTask::put_IsRoleDefinition, get_IsRoleDefinition,IAzTask.get_IsRoleDefinition, security.iaztask_isroledefinition
+ms.keywords: AzTask object [Security],IsRoleDefinition property, IAzTask interface [Security],IsRoleDefinition property, IAzTask.IsRoleDefinition, IAzTask.get_IsRoleDefinition, IAzTask::IsRoleDefinition, IAzTask::get_IsRoleDefinition, IAzTask::put_IsRoleDefinition, IsRoleDefinition property [Security], IsRoleDefinition property [Security],AzTask object, IsRoleDefinition property [Security],IAzTask interface, azroles/IAzTask::IsRoleDefinition, azroles/IAzTask::get_IsRoleDefinition, azroles/IAzTask::put_IsRoleDefinition, get_IsRoleDefinition, security.iaztask_isroledefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzTask::get_IsRoleDefinition method
+# IAzTask::get_IsRoleDefinition
 
 
 ## -description

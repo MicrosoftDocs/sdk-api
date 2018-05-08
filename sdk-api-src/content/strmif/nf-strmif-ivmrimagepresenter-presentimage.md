@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRImagePresenter.PresentImage
-title: IVMRImagePresenter::PresentImage method
+title: IVMRImagePresenter::PresentImage
 author: windows-driver-content
 description: The PresentImage method is called at precisely the moment this video frame should be presented.
 old-location: dshow\ivmrimagepresenter_presentimage.htm
 old-project: DirectShow
 ms.assetid: df6bf45d-df92-4655-862c-704a12a62ff9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRImagePresenter, IVMRImagePresenter interface [DirectShow], PresentImage method, IVMRImagePresenter::PresentImage, IVMRImagePresenterPresentImage, PresentImage method [DirectShow], PresentImage method [DirectShow], IVMRImagePresenter interface, PresentImage,IVMRImagePresenter.PresentImage, dshow.ivmrimagepresenter_presentimage, strmif/IVMRImagePresenter::PresentImage
+ms.date: 4/30/2018
+ms.keywords: IVMRImagePresenter interface [DirectShow],PresentImage method, IVMRImagePresenter.PresentImage, IVMRImagePresenter::PresentImage, IVMRImagePresenterPresentImage, PresentImage, PresentImage method [DirectShow], PresentImage method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_presentimage, strmif/IVMRImagePresenter::PresentImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRImagePresenter::PresentImage method
+# IVMRImagePresenter::PresentImage
 
 
 ## -description

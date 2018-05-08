@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMStreamConfig.SetFormat
-title: IAMStreamConfig::SetFormat method
+title: IAMStreamConfig::SetFormat
 author: windows-driver-content
 description: The SetFormat method sets the output format on the pin.
 old-location: dshow\iamstreamconfig_setformat.htm
 old-project: DirectShow
 ms.assetid: 8d64e5b6-e8fa-4678-92d4-3cbf92e13ddf
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMStreamConfig, IAMStreamConfig interface [DirectShow], SetFormat method, IAMStreamConfig::SetFormat, IAMStreamConfigSetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow], IAMStreamConfig interface, SetFormat,IAMStreamConfig.SetFormat, dshow.iamstreamconfig_setformat, strmif/IAMStreamConfig::SetFormat
+ms.date: 4/30/2018
+ms.keywords: IAMStreamConfig interface [DirectShow],SetFormat method, IAMStreamConfig.SetFormat, IAMStreamConfig::SetFormat, IAMStreamConfigSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAMStreamConfig interface, dshow.iamstreamconfig_setformat, strmif/IAMStreamConfig::SetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMStreamConfig::SetFormat method
+# IAMStreamConfig::SetFormat
 
 
 ## -description

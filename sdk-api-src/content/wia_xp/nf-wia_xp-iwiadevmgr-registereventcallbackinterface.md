@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.RegisterEventCallbackInterface
-title: IWiaDevMgr::RegisterEventCallbackInterface method
+title: IWiaDevMgr::RegisterEventCallbackInterface
 author: windows-driver-content
 description: The IWiaDevMgr::RegisterEventCallbackInterface method registers a running application Windows Image Acquisition (WIA) event notification.
 old-location: wia\_wia_IWiaDevMgr_RegisterEventCallbackInterface.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\registereventcallbackinterface.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaDevMgr, IWiaDevMgr interface [WIA], RegisterEventCallbackInterface method, IWiaDevMgr::RegisterEventCallbackInterface, RegisterEventCallbackInterface method [WIA], RegisterEventCallbackInterface method [WIA], IWiaDevMgr interface, RegisterEventCallbackInterface,IWiaDevMgr.RegisterEventCallbackInterface, _wia_IWiaDevMgr_RegisterEventCallbackInterface, wia._wia_IWiaDevMgr_RegisterEventCallbackInterface, wia_xp/IWiaDevMgr::RegisterEventCallbackInterface
+ms.date: 5/3/2018
+ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackInterface method, IWiaDevMgr.RegisterEventCallbackInterface, IWiaDevMgr::RegisterEventCallbackInterface, RegisterEventCallbackInterface, RegisterEventCallbackInterface method [WIA], RegisterEventCallbackInterface method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_RegisterEventCallbackInterface, wia._wia_IWiaDevMgr_RegisterEventCallbackInterface, wia_xp/IWiaDevMgr::RegisterEventCallbackInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaDevMgr::RegisterEventCallbackInterface method
+# IWiaDevMgr::RegisterEventCallbackInterface
 
 
 ## -description

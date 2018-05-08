@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.GetFramePointerShape
-title: IDXGIOutputDuplication::GetFramePointerShape method
+title: IDXGIOutputDuplication::GetFramePointerShape
 author: windows-driver-content
 description: Gets information about the new pointer shape for the current desktop frame.
 old-location: direct3ddxgi\idxgioutputduplication_getframepointershape.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 321FDB62-BF0E-402E-A00B-6F60B7F132AA
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetFramePointerShape method [DXGI], GetFramePointerShape method [DXGI], IDXGIOutputDuplication interface, GetFramePointerShape,IDXGIOutputDuplication.GetFramePointerShape, IDXGIOutputDuplication, IDXGIOutputDuplication interface [DXGI], GetFramePointerShape method, IDXGIOutputDuplication::GetFramePointerShape, direct3ddxgi.idxgioutputduplication_getframepointershape, dxgi1_2/IDXGIOutputDuplication::GetFramePointerShape
+ms.keywords: GetFramePointerShape, GetFramePointerShape method [DXGI], GetFramePointerShape method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetFramePointerShape method, IDXGIOutputDuplication.GetFramePointerShape, IDXGIOutputDuplication::GetFramePointerShape, direct3ddxgi.idxgioutputduplication_getframepointershape, dxgi1_2/IDXGIOutputDuplication::GetFramePointerShape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutputDuplication::GetFramePointerShape method
+# IDXGIOutputDuplication::GetFramePointerShape
 
 
 ## -description

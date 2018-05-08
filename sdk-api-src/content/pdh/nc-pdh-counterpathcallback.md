@@ -8,7 +8,7 @@ old-project: PerfCtrs
 ms.assetid: b7a2112e-9f50-4a36-b022-f9609b2827bc
 ms.author: windowsdriverdev
 ms.date: 4/23/2018
-ms.keywords: CounterPathCallBack, CounterPathCallBack callback function [Perf], _win32_counterpathcallback, base.counterpathcallback, pdh/CounterPathCallBack, perf.counterpathcallback
+ms.keywords: CounterPathCallBack, CounterPathCallBack callback, CounterPathCallBack callback function [Perf], _win32_counterpathcallback, base.counterpathcallback, pdh/CounterPathCallBack, perf.counterpathcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CounterPathCallBack callback
+# CounterPathCallBack callback function
 
 
 ## -description

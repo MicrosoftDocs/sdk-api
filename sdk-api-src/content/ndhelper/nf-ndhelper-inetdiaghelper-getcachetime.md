@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetCacheTime
-title: INetDiagHelper::GetCacheTime method
+title: INetDiagHelper::GetCacheTime
 author: windows-driver-content
 description: Specifies the time when cached results of a diagnosis and repair operation have expired.
 old-location: ndf\inetdiaghelpe_getcachetime.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 0298bf84-374e-438f-8141-3298e1004c1b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetCacheTime method [NDF], GetCacheTime method [NDF], INetDiagHelper interface, GetCacheTime,INetDiagHelper.GetCacheTime, INetDiagHelper, INetDiagHelper interface [NDF], GetCacheTime method, INetDiagHelper::GetCacheTime, ndf.inetdiaghelpe_getcachetime, ndhelper/INetDiagHelper::GetCacheTime
+ms.keywords: GetCacheTime, GetCacheTime method [NDF], GetCacheTime method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetCacheTime method, INetDiagHelper.GetCacheTime, INetDiagHelper::GetCacheTime, ndf.inetdiaghelpe_getcachetime, ndhelper/INetDiagHelper::GetCacheTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::GetCacheTime method
+# INetDiagHelper::GetCacheTime
 
 
 ## -description

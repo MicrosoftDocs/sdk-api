@@ -1,14 +1,14 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo
-title: ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo method
+title: ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo
 author: windows-driver-content
 description: Retrieves the previous language exception error information object.
 old-location: winrt\ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo.htm
 old-project: WinRT
 ms.assetid: 10A45EF1-AF8F-498D-B95B-FCE9EF8AB203
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetPreviousLanguageExceptionErrorInfo method [Windows Runtime], GetPreviousLanguageExceptionErrorInfo method [Windows Runtime], ILanguageExceptionErrorInfo2 interface, GetPreviousLanguageExceptionErrorInfo,ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo, ILanguageExceptionErrorInfo2, ILanguageExceptionErrorInfo2 interface [Windows Runtime], GetPreviousLanguageExceptionErrorInfo method, ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, restrictederrorinfo/ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, winrt.ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo
+ms.date: 5/4/2018
+ms.keywords: GetPreviousLanguageExceptionErrorInfo, GetPreviousLanguageExceptionErrorInfo method [Windows Runtime], GetPreviousLanguageExceptionErrorInfo method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],GetPreviousLanguageExceptionErrorInfo method, ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo, ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, restrictederrorinfo/ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, winrt.ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo method
+# ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo
 
 
 ## -description

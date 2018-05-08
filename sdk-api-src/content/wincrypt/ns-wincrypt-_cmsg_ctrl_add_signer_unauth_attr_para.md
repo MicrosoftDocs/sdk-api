@@ -7,7 +7,7 @@ old-location: security\cmsg_ctrl_add_signer_unauth_attr_para.htm
 old-project: SecCrypto
 ms.assetid: 5e347a50-942e-4278-a9ae-ad4c30c55c6b
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure [Security], PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure pointer [Security], _CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, _crypto2_cmsg_ctrl_add_signer_unauth_attr_para, security.cmsg_ctrl_add_signer_unauth_attr_para, wincrypt/CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, wincrypt/PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

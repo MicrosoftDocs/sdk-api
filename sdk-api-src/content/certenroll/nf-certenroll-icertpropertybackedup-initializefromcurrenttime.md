@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyBackedUp.InitializeFromCurrentTime
-title: ICertPropertyBackedUp::InitializeFromCurrentTime method
+title: ICertPropertyBackedUp::InitializeFromCurrentTime
 author: windows-driver-content
 description: Initializes the property from a Boolean value and the current system date and time.
 old-location: security\icertpropertybackedup_initializefromcurrenttime_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 2033c947-661c-4a52-b24f-82fa71ba7868
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertPropertyBackedUp, ICertPropertyBackedUp interface [Security], InitializeFromCurrentTime method, ICertPropertyBackedUp::InitializeFromCurrentTime, InitializeFromCurrentTime method [Security], InitializeFromCurrentTime method [Security], ICertPropertyBackedUp interface, InitializeFromCurrentTime,ICertPropertyBackedUp.InitializeFromCurrentTime, certenroll/ICertPropertyBackedUp::InitializeFromCurrentTime, security.icertpropertybackedup_initializefromcurrenttime_method
+ms.keywords: ICertPropertyBackedUp interface [Security],InitializeFromCurrentTime method, ICertPropertyBackedUp.InitializeFromCurrentTime, ICertPropertyBackedUp::InitializeFromCurrentTime, InitializeFromCurrentTime, InitializeFromCurrentTime method [Security], InitializeFromCurrentTime method [Security],ICertPropertyBackedUp interface, certenroll/ICertPropertyBackedUp::InitializeFromCurrentTime, security.icertpropertybackedup_initializefromcurrenttime_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertPropertyBackedUp::InitializeFromCurrentTime method
+# ICertPropertyBackedUp::InitializeFromCurrentTime
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_ACDCallRate
-title: ITAgentSession::get_ACDCallRate method
+title: ITAgentSession::get_ACDCallRate
 author: windows-driver-content
 description: The get_ACDCallRate method gets the all rate per agent session, in calls per hour.
 old-location: tapi3\itagentsession_get_acdcallrate.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 49737945-7e27-4c88-94c5-29db7dccfc97
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], get_ACDCallRate method, ITAgentSession::get_ACDCallRate, _tapi3_itagentsession_get_acdcallrate, get_ACDCallRate method [TAPI 2.2], get_ACDCallRate method [TAPI 2.2], ITAgentSession interface, get_ACDCallRate,ITAgentSession.get_ACDCallRate, tapi3.itagentsession_get_acdcallrate, tapi3cc/ITAgentSession::get_ACDCallRate
+ms.keywords: ITAgentSession interface [TAPI 2.2],get_ACDCallRate method, ITAgentSession.get_ACDCallRate, ITAgentSession::get_ACDCallRate, _tapi3_itagentsession_get_acdcallrate, get_ACDCallRate, get_ACDCallRate method [TAPI 2.2], get_ACDCallRate method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_acdcallrate, tapi3cc/ITAgentSession::get_ACDCallRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentSession::get_ACDCallRate method
+# ITAgentSession::get_ACDCallRate
 
 
 ## -description

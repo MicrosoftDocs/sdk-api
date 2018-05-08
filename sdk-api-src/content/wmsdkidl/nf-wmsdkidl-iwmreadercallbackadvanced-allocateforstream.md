@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.AllocateForStream
-title: IWMReaderCallbackAdvanced::AllocateForStream method
+title: IWMReaderCallbackAdvanced::AllocateForStream
 author: windows-driver-content
 description: The AllocateForStream method allocates user-created buffers for stream samples delivered to IWMReaderCallbackAdvanced::OnStreamSample. For more information about allocating your own buffers, see User Allocated Sample Support.
 old-location: wmformat\iwmreadercallbackadvanced_allocateforstream.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 82d31f4b-d8a8-4538-be5e-dd9149e3f420
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AllocateForStream method [windows Media Format], AllocateForStream method [windows Media Format], IWMReaderCallbackAdvanced interface, AllocateForStream,IWMReaderCallbackAdvanced.AllocateForStream, IWMReaderCallbackAdvanced, IWMReaderCallbackAdvanced interface [windows Media Format], AllocateForStream method, IWMReaderCallbackAdvanced::AllocateForStream, IWMReaderCallbackAdvancedAllocateForStream, wmformat.iwmreadercallbackadvanced_allocateforstream, wmsdkidl/IWMReaderCallbackAdvanced::AllocateForStream
+ms.keywords: AllocateForStream, AllocateForStream method [windows Media Format], AllocateForStream method [windows Media Format],IWMReaderCallbackAdvanced interface, IWMReaderCallbackAdvanced interface [windows Media Format],AllocateForStream method, IWMReaderCallbackAdvanced.AllocateForStream, IWMReaderCallbackAdvanced::AllocateForStream, IWMReaderCallbackAdvancedAllocateForStream, wmformat.iwmreadercallbackadvanced_allocateforstream, wmsdkidl/IWMReaderCallbackAdvanced::AllocateForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderCallbackAdvanced::AllocateForStream method
+# IWMReaderCallbackAdvanced::AllocateForStream
 
 
 ## -description

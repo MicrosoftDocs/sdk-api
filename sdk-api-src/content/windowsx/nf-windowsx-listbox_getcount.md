@@ -7,7 +7,7 @@ old-location: controls\ListBox_GetCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getcount.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: ListBox_GetCount, ListBox_GetCount macro [Windows Controls], _win32_ListBox_GetCount, _win32_ListBox_GetCount_cpp, controls.ListBox_GetCount, controls._win32_ListBox_GetCount, windowsx/ListBox_GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

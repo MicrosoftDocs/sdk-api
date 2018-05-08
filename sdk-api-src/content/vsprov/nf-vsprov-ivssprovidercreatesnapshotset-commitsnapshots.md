@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.CommitSnapshots
-title: IVssProviderCreateSnapshotSet::CommitSnapshots method
+title: IVssProviderCreateSnapshotSet::CommitSnapshots
 author: windows-driver-content
 description: Quickly commits all LUNs in this provider.
 old-location: base\ivssprovidercreatesnapshotset_commitsnapshots.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 60489142-125f-4deb-afa0-9dae63ea1d46
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CommitSnapshots method [VSS], CommitSnapshots method [VSS], IVssProviderCreateSnapshotSet interface, CommitSnapshots,IVssProviderCreateSnapshotSet.CommitSnapshots, IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], CommitSnapshots method, IVssProviderCreateSnapshotSet::CommitSnapshots, base.ivssprovidercreatesnapshotset_commitsnapshots, vsprov/IVssProviderCreateSnapshotSet::CommitSnapshots
+ms.keywords: CommitSnapshots, CommitSnapshots method [VSS], CommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],CommitSnapshots method, IVssProviderCreateSnapshotSet.CommitSnapshots, IVssProviderCreateSnapshotSet::CommitSnapshots, base.ivssprovidercreatesnapshotset_commitsnapshots, vsprov/IVssProviderCreateSnapshotSet::CommitSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssProviderCreateSnapshotSet::CommitSnapshots method
+# IVssProviderCreateSnapshotSet::CommitSnapshots
 
 
 ## -description

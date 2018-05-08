@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StartSyncAll
-title: ISyncMgrControl::StartSyncAll method
+title: ISyncMgrControl::StartSyncAll
 author: windows-driver-content
 description: Synchronizes all items managed by all handlers.
 old-location: shell\ISyncMgrControl_StartSyncAll.htm
 old-project: shell
 ms.assetid: 3b0d5070-1866-4346-b2bf-93b48a952af6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrControl, ISyncMgrControl interface [Windows Shell], StartSyncAll method, ISyncMgrControl::StartSyncAll, StartSyncAll method [Windows Shell], StartSyncAll method [Windows Shell], ISyncMgrControl interface, StartSyncAll,ISyncMgrControl.StartSyncAll, _shell_ISyncMgrControl_StartSyncAll, shell.ISyncMgrControl_StartSyncAll, syncmgr/ISyncMgrControl::StartSyncAll
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrControl interface [Windows Shell],StartSyncAll method, ISyncMgrControl.StartSyncAll, ISyncMgrControl::StartSyncAll, StartSyncAll, StartSyncAll method [Windows Shell], StartSyncAll method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StartSyncAll, shell.ISyncMgrControl_StartSyncAll, syncmgr/ISyncMgrControl::StartSyncAll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrControl::StartSyncAll method
+# ISyncMgrControl::StartSyncAll
 
 
 ## -description

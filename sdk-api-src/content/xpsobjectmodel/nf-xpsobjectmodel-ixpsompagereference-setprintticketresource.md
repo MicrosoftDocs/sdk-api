@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetPrintTicketResource
-title: IXpsOMPageReference::SetPrintTicketResource method
+title: IXpsOMPageReference::SetPrintTicketResource
 author: windows-driver-content
 description: Sets the IXpsOMPrintTicketResource interface pointer of the page-level print ticket resource that is to be assigned to the page.
 old-location: xps\ixpsompagereference_setprintticketresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 76594c7d-327d-45a5-8947-c587ada7b758
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], SetPrintTicketResource method, IXpsOMPageReference::SetPrintTicketResource, SetPrintTicketResource method [XPS Documents and Packaging], SetPrintTicketResource method [XPS Documents and Packaging], IXpsOMPageReference interface, SetPrintTicketResource,IXpsOMPageReference.SetPrintTicketResource, xps.ixpsompagereference_setprintticketresource, xpsobjectmodel/IXpsOMPageReference::SetPrintTicketResource
+ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetPrintTicketResource method, IXpsOMPageReference.SetPrintTicketResource, IXpsOMPageReference::SetPrintTicketResource, SetPrintTicketResource, SetPrintTicketResource method [XPS Documents and Packaging], SetPrintTicketResource method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setprintticketresource, xpsobjectmodel/IXpsOMPageReference::SetPrintTicketResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReference::SetPrintTicketResource method
+# IXpsOMPageReference::SetPrintTicketResource
 
 
 ## -description

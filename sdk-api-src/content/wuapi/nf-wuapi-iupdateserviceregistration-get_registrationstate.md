@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceRegistration.get_RegistrationState
-title: IUpdateServiceRegistration::get_RegistrationState method
+title: IUpdateServiceRegistration::get_RegistrationState
 author: windows-driver-content
 description: Gets an UpdateServiceRegistrationState value that indicates the current state of the service registration.
 old-location: wua\iupdateserviceregistration_registrationstate.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 4998546e-ec2c-4147-8c6f-5e232e4ec1a6
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateServiceRegistration, IUpdateServiceRegistration interface [Windows Update Agent], RegistrationState property, IUpdateServiceRegistration.RegistrationState, IUpdateServiceRegistration::get_RegistrationState, RegistrationState property [Windows Update Agent], RegistrationState property [Windows Update Agent], IUpdateServiceRegistration interface, get_RegistrationState,IUpdateServiceRegistration.get_RegistrationState, wua.iupdateserviceregistration_registrationstate, wuapi/IUpdateServiceRegistration::RegistrationState, wuapi/IUpdateServiceRegistration::get_RegistrationState
+ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],RegistrationState property, IUpdateServiceRegistration.RegistrationState, IUpdateServiceRegistration.get_RegistrationState, IUpdateServiceRegistration::RegistrationState, IUpdateServiceRegistration::get_RegistrationState, RegistrationState property [Windows Update Agent], RegistrationState property [Windows Update Agent],IUpdateServiceRegistration interface, get_RegistrationState, wua.iupdateserviceregistration_registrationstate, wuapi/IUpdateServiceRegistration::RegistrationState, wuapi/IUpdateServiceRegistration::get_RegistrationState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateServiceRegistration::get_RegistrationState method
+# IUpdateServiceRegistration::get_RegistrationState
 
 
 ## -description

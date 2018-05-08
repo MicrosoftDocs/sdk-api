@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetStorageFormat
-title: IWMProfile3::GetStorageFormat method
+title: IWMProfile3::GetStorageFormat
 author: windows-driver-content
 description: The GetStorageFormat method is not implemented.
 old-location: wmformat\iwmprofile3_getstorageformat.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 42aea1df-63cd-4eda-86c8-3cebe92d5c82
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetStorageFormat method [windows Media Format], GetStorageFormat method [windows Media Format], IWMProfile3 interface, GetStorageFormat,IWMProfile3.GetStorageFormat, IWMProfile3, IWMProfile3 interface [windows Media Format], GetStorageFormat method, IWMProfile3::GetStorageFormat, IWMProfile3GetStorageFormat, wmformat.iwmprofile3_getstorageformat, wmsdkidl/IWMProfile3::GetStorageFormat
+ms.keywords: GetStorageFormat, GetStorageFormat method [windows Media Format], GetStorageFormat method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetStorageFormat method, IWMProfile3.GetStorageFormat, IWMProfile3::GetStorageFormat, IWMProfile3GetStorageFormat, wmformat.iwmprofile3_getstorageformat, wmsdkidl/IWMProfile3::GetStorageFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfile3::GetStorageFormat method
+# IWMProfile3::GetStorageFormat
 
 
 ## -description

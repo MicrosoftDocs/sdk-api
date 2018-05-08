@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed
-title: ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed method
+title: ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed
 author: windows-driver-content
 description: ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed method
 old-location: tsf\itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6bdca5cc-84b4-4184-a8cc-76dddc573b35
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: DisableSystemKeystrokeFeed method [Text Services Framework], DisableSystemKeystrokeFeed method [Text Services Framework], ITfConfigureSystemKeystrokeFeed interface, DisableSystemKeystrokeFeed,ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework], DisableSystemKeystrokeFeed method, ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed, _tsf_itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed
+ms.keywords: DisableSystemKeystrokeFeed, DisableSystemKeystrokeFeed method [Text Services Framework], DisableSystemKeystrokeFeed method [Text Services Framework],ITfConfigureSystemKeystrokeFeed interface, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],DisableSystemKeystrokeFeed method, ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed, _tsf_itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed method
+# ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzPrincipalLocator.get_ObjectPicker
-title: IAzPrincipalLocator::get_ObjectPicker method
+title: IAzPrincipalLocator::get_ObjectPicker
 author: windows-driver-content
 description: Gets a pointer to the IAzObjectPicker interface associated with this IAzPrincipalLocator object.
 old-location: security\iazprincipallocator_objectpicker_method.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 23861b03-0e18-4c0a-a58e-91bac2d474b0
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzPrincipalLocator, IAzPrincipalLocator interface [Security], ObjectPicker property, IAzPrincipalLocator.ObjectPicker, IAzPrincipalLocator::get_ObjectPicker, ObjectPicker property [Security], ObjectPicker property [Security], IAzPrincipalLocator interface, azroles/IAzPrincipalLocator::ObjectPicker, azroles/IAzPrincipalLocator::get_ObjectPicker, get_ObjectPicker,IAzPrincipalLocator.get_ObjectPicker, security.iazprincipallocator_objectpicker_method
+ms.keywords: IAzPrincipalLocator interface [Security],ObjectPicker property, IAzPrincipalLocator.ObjectPicker, IAzPrincipalLocator.get_ObjectPicker, IAzPrincipalLocator::ObjectPicker, IAzPrincipalLocator::get_ObjectPicker, ObjectPicker property [Security], ObjectPicker property [Security],IAzPrincipalLocator interface, azroles/IAzPrincipalLocator::ObjectPicker, azroles/IAzPrincipalLocator::get_ObjectPicker, get_ObjectPicker, security.iazprincipallocator_objectpicker_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAzPrincipalLocator::get_ObjectPicker method
+# IAzPrincipalLocator::get_ObjectPicker
 
 
 ## -description

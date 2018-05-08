@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_search_info_v6.htm
 old-project: DHCP
 ms.assetid: b290baab-9a70-437a-a519-876891184fbc
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_SEARCH_INFO_V6, DHCP_SEARCH_INFO_V6, DHCP_SEARCH_INFO_V6 structure [DHCP], Dhcpv6ClientDUID, Dhcpv6ClientIpAddress, Dhcpv6ClientName, PDHCP_SEARCH_INFO_V6, PDHCP_SEARCH_INFO_V6 structure pointer [DHCP], _DHCP_CLIENT_SEARCH_INFO_V6, dhcp.dhcp_search_info_v6, dhcpsapi/DHCP_SEARCH_INFO_V6, dhcpsapi/PDHCP_SEARCH_INFO_V6"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,24 +74,71 @@ Enumeration value that selects the type of the value on which the DHCPv6 databas
 ##### )
 
 
+### -field SearchInfo.ClientIpAddress.case
+
+ 
+
+
+### -field SearchInfo.ClientIpAddress.case.Dhcpv6ClientIpAddress
+
+ 
+
+
+### -field SearchInfo.ClientDUID.case
+
+ 
+
+
+### -field SearchInfo.ClientDUID.case.Dhcpv6ClientDUID
+
+ 
+
+
+### -field SearchInfo.ClientName.case
+
+ 
+
+
+### -field SearchInfo.ClientName.case.Dhcpv6ClientName
+
+ 
+
+
+### -field SearchInfo.switch_is
+
+ 
+
+
+### -field SearchInfo.switch_is.SearchType
+
+ 
+
+
+### -field SearchInfo.switch_type
+
+ 
+
+
+### -field SearchInfo.switch_type.DHCP_SEARCH_INFO_TYPE_V6
+
+ 
+
+
 ### -field SearchInfo
 
 
-
-#### ClientIpAddress
+### -field SearchInfo.ClientIpAddress
 
 
 <a href="https://msdn.microsoft.com/9623e866-81e5-4d5a-8801-33f0f8973ed3">DHCP_IPV6_ADDRESS</a> structure that specifies the client IPv6 address to search for.
 
 
-
-#### ClientDUID
+### -field SearchInfo.ClientDUID
 
 GUID value that specifies the client DHCP UID to search for.
 
 
-
-#### ClientName
+### -field SearchInfo.ClientName
 
 Unicode string that specifies the client name to search for.
 

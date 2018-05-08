@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 08031f22-9b36-4d85-9e15-2139551b893b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationInvokePattern, IUIAutomationInvokePattern interface [Windows Accessibility], IUIAutomationInvokePattern interface [Windows Accessibility], described, uiauto.uiauto_IUIAutomationInvokePattern, uiauto_IUIAutomationInvokePattern, uiautomationclient/IUIAutomationInvokePattern, winauto.uiauto_IUIAutomationInvokePattern
+ms.keywords: IUIAutomationInvokePattern, IUIAutomationInvokePattern interface [Windows Accessibility], IUIAutomationInvokePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationInvokePattern, uiauto_IUIAutomationInvokePattern, uiautomationclient/IUIAutomationInvokePattern, winauto.uiauto_IUIAutomationInvokePattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:certcli.ICertRequest2.GetCAProperty
-title: ICertRequest2::GetCAProperty method
+title: ICertRequest2::GetCAProperty
 author: windows-driver-content
 description: Retrieves a property value for the certification authority (CA).
 old-location: security\icertrequest2_getcaproperty.htm
 old-project: SecCrypto
 ms.assetid: 093d657d-2d9c-4973-a71b-5b134cc35034
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertRequest object [Security], GetCAProperty method, CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetCAProperty method [Security], GetCAProperty method [Security], CCertRequest object, GetCAProperty method [Security], ICertRequest interface, GetCAProperty method [Security], ICertRequest2 interface, GetCAProperty,ICertRequest2.GetCAProperty, ICertRequest interface [Security], GetCAProperty method, ICertRequest2, ICertRequest2 interface [Security], GetCAProperty method, ICertRequest2::GetCAProperty, ICertRequest::GetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertrequest2_getcaproperty, certcli/ICertRequest2::GetCAProperty, certcli/ICertRequest::GetCAProperty, security.icertrequest2_getcaproperty
+ms.date: 4/30/2018
+ms.keywords: CCertRequest object [Security],GetCAProperty method, CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetCAProperty, GetCAProperty method [Security], GetCAProperty method [Security],CCertRequest object, GetCAProperty method [Security],ICertRequest interface, GetCAProperty method [Security],ICertRequest2 interface, ICertRequest interface [Security],GetCAProperty method, ICertRequest2 interface [Security],GetCAProperty method, ICertRequest2.GetCAProperty, ICertRequest2::GetCAProperty, ICertRequest::GetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertrequest2_getcaproperty, certcli/ICertRequest2::GetCAProperty, certcli/ICertRequest::GetCAProperty, security.icertrequest2_getcaproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertRequest2::GetCAProperty method
+# ICertRequest2::GetCAProperty
 
 
 ## -description

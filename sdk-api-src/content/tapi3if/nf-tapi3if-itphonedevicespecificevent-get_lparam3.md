@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhoneDeviceSpecificEvent.get_lParam3
-title: ITPhoneDeviceSpecificEvent::get_lParam3 method
+title: ITPhoneDeviceSpecificEvent::get_lParam3
 author: windows-driver-content
 description: The get_lParam3 method retrieves the third of three buffers specific to a given phone device. The precise content and meaning of these buffers is defined by the provider.
 old-location: tapi3\itphonedevicespecificevent_get_lparam3.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 0dd4c5d7-033a-4e25-a7f0-6731b5b08d18
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITPhoneDeviceSpecificEvent, ITPhoneDeviceSpecificEvent interface [TAPI 2.2], get_lParam3 method, ITPhoneDeviceSpecificEvent::get_lParam3, _tapi3_itphonedevicespecificevent_get_lparam3, get_lParam3 method [TAPI 2.2], get_lParam3 method [TAPI 2.2], ITPhoneDeviceSpecificEvent interface, get_lParam3,ITPhoneDeviceSpecificEvent.get_lParam3, tapi3.itphonedevicespecificevent_get_lparam3, tapi3if/ITPhoneDeviceSpecificEvent::get_lParam3
+ms.keywords: ITPhoneDeviceSpecificEvent interface [TAPI 2.2],get_lParam3 method, ITPhoneDeviceSpecificEvent.get_lParam3, ITPhoneDeviceSpecificEvent::get_lParam3, _tapi3_itphonedevicespecificevent_get_lparam3, get_lParam3, get_lParam3 method [TAPI 2.2], get_lParam3 method [TAPI 2.2],ITPhoneDeviceSpecificEvent interface, tapi3.itphonedevicespecificevent_get_lparam3, tapi3if/ITPhoneDeviceSpecificEvent::get_lParam3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITPhoneDeviceSpecificEvent::get_lParam3 method
+# ITPhoneDeviceSpecificEvent::get_lParam3
 
 
 ## -description

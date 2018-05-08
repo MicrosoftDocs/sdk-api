@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgent.get_NumberOfACDCalls
-title: ITAgent::get_NumberOfACDCalls method
+title: ITAgent::get_NumberOfACDCalls
 author: windows-driver-content
 description: The get_NumberOfACDCalls method gets the number of ACD calls handled by this agent across all sessions.
 old-location: tapi3\itagent_get_numberofacdcalls.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: bef36468-8ee9-4ce2-bf8d-e2bd8c986ae3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], get_NumberOfACDCalls method, ITAgent::get_NumberOfACDCalls, _tapi3_itagent_get_numberofacdcalls, get_NumberOfACDCalls method [TAPI 2.2], get_NumberOfACDCalls method [TAPI 2.2], ITAgent interface, get_NumberOfACDCalls,ITAgent.get_NumberOfACDCalls, tapi3.itagent_get_numberofacdcalls, tapi3cc/ITAgent::get_NumberOfACDCalls
+ms.keywords: ITAgent interface [TAPI 2.2],get_NumberOfACDCalls method, ITAgent.get_NumberOfACDCalls, ITAgent::get_NumberOfACDCalls, _tapi3_itagent_get_numberofacdcalls, get_NumberOfACDCalls, get_NumberOfACDCalls method [TAPI 2.2], get_NumberOfACDCalls method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_numberofacdcalls, tapi3cc/ITAgent::get_NumberOfACDCalls
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgent::get_NumberOfACDCalls method
+# ITAgent::get_NumberOfACDCalls
 
 
 ## -description

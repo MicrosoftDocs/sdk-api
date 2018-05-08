@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12SharingContract.Present
-title: ID3D12SharingContract::Present method
+title: ID3D12SharingContract::Present
 author: windows-driver-content
 description: Shares a resource (or subresource) between the D3D layers and diagnostics tools.
 old-location: direct3d12\id3d12sharingcontract_present.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 878442E3-417A-46CE-B91A-698CA3CA60BE
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12SharingContract, ID3D12SharingContract interface, Present method, ID3D12SharingContract::Present, Present method, Present method, ID3D12SharingContract interface, Present,ID3D12SharingContract.Present, d3d12sdklayers/ID3D12SharingContract::Present, direct3d12.id3d12sharingcontract_present
+ms.keywords: ID3D12SharingContract interface,Present method, ID3D12SharingContract.Present, ID3D12SharingContract::Present, Present, Present method, Present method,ID3D12SharingContract interface, d3d12sdklayers/ID3D12SharingContract::Present, direct3d12.id3d12sharingcontract_present
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12SharingContract::Present method
+# ID3D12SharingContract::Present
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:evalcom2.IValidate.CloseCUB
-title: IValidate::CloseCUB method
+title: IValidate::CloseCUB
 author: windows-driver-content
 description: The CloseCUB method closes an open Internal Consistency Evaluator (ICE) .cub file. Internal Consistency Evaluator (ICE) .cub files can be opened using the OpenCUB method.
 old-location: setup\ivalidate_closecub.htm
@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: be0d21ee-bb15-4c6d-9d69-741adf047863
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CloseCUB method, CloseCUB method, IValidate interface, CloseCUB,IValidate.CloseCUB, IValidate, IValidate interface, CloseCUB method, IValidate::CloseCUB, evalcom2/IValidate::CloseCUB, setup.ivalidate_closecub
+ms.keywords: CloseCUB, CloseCUB method, CloseCUB method,IValidate interface, IValidate interface,CloseCUB method, IValidate.CloseCUB, IValidate::CloseCUB, evalcom2/IValidate::CloseCUB, setup.ivalidate_closecub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IValidate::CloseCUB method
+# IValidate::CloseCUB
 
 
 ## -description

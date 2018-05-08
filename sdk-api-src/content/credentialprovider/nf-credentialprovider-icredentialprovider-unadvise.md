@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.UnAdvise
-title: ICredentialProvider::UnAdvise method
+title: ICredentialProvider::UnAdvise
 author: windows-driver-content
 description: Used by the Logon UI or Credential UI to advise the credential provider that event callbacks are no longer accepted.
 old-location: shell\ICredentialProvider_UnAdvise.htm
 old-project: shell
 ms.assetid: d971c7be-f440-41ce-945d-4dbe51554e59
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICredentialProvider, ICredentialProvider interface [Windows Shell], UnAdvise method, ICredentialProvider::UnAdvise, UnAdvise method [Windows Shell], UnAdvise method [Windows Shell], ICredentialProvider interface, UnAdvise,ICredentialProvider.UnAdvise, credentialprovider/ICredentialProvider::UnAdvise, shell.ICredentialProvider_UnAdvise, shell_ICredentialProvider_UnAdvise
+ms.date: 5/3/2018
+ms.keywords: ICredentialProvider interface [Windows Shell],UnAdvise method, ICredentialProvider.UnAdvise, ICredentialProvider::UnAdvise, UnAdvise, UnAdvise method [Windows Shell], UnAdvise method [Windows Shell],ICredentialProvider interface, credentialprovider/ICredentialProvider::UnAdvise, shell.ICredentialProvider_UnAdvise, shell_ICredentialProvider_UnAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProvider::UnAdvise method
+# ICredentialProvider::UnAdvise
 
 
 ## -description

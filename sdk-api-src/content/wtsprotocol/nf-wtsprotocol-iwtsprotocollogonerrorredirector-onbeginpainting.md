@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.OnBeginPainting
-title: IWTSProtocolLogonErrorRedirector::OnBeginPainting method
+title: IWTSProtocolLogonErrorRedirector::OnBeginPainting
 author: windows-driver-content
 description: IWTSProtocolLogonErrorRedirector::OnBeginPainting is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::OnBeginPainting.
 old-location: termserv\iwtsprotocollogonerrorredirector_onbeginpainting.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 1356deeb-ac4a-4877-95be-9df09f4b0210
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolLogonErrorRedirector, IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services], OnBeginPainting method, IWTSProtocolLogonErrorRedirector::OnBeginPainting, OnBeginPainting method [Remote Desktop Services], OnBeginPainting method [Remote Desktop Services], IWTSProtocolLogonErrorRedirector interface, OnBeginPainting,IWTSProtocolLogonErrorRedirector.OnBeginPainting, termserv.iwtsprotocollogonerrorredirector_onbeginpainting, wtsprotocol/IWTSProtocolLogonErrorRedirector::OnBeginPainting
+ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],OnBeginPainting method, IWTSProtocolLogonErrorRedirector.OnBeginPainting, IWTSProtocolLogonErrorRedirector::OnBeginPainting, OnBeginPainting, OnBeginPainting method [Remote Desktop Services], OnBeginPainting method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, termserv.iwtsprotocollogonerrorredirector_onbeginpainting, wtsprotocol/IWTSProtocolLogonErrorRedirector::OnBeginPainting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolLogonErrorRedirector::OnBeginPainting method
+# IWTSProtocolLogonErrorRedirector::OnBeginPainting
 
 
 ## -description

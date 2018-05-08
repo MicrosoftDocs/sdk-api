@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 0157acab-53b6-43f9-a358-81cd5108c531
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IDownloadJob interface [Windows Update Agent], described, wua.idownloadjob, wuapi/IDownloadJob
+ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IDownloadJob interface [Windows Update Agent],described, wua.idownloadjob, wuapi/IDownloadJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

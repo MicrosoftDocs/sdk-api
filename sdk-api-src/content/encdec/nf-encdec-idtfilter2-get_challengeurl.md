@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter2.get_ChallengeUrl
-title: IDTFilter2::get_ChallengeUrl method
+title: IDTFilter2::get_ChallengeUrl
 author: windows-driver-content
 description: Not implemented in this release.
 old-location: mstv\idtfilter2_get_challengeurl.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 46bb9197-839a-4a49-98b5-c51164651868
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDTFilter2, IDTFilter2 interface [Microsoft TV Technologies], get_ChallengeUrl method, IDTFilter2::get_ChallengeUrl, IDTFilter2get_ChallengeUrl, encdec/IDTFilter2::get_ChallengeUrl, get_ChallengeUrl method [Microsoft TV Technologies], get_ChallengeUrl method [Microsoft TV Technologies], IDTFilter2 interface, get_ChallengeUrl,IDTFilter2.get_ChallengeUrl, mstv.idtfilter2_get_challengeurl
+ms.keywords: IDTFilter2 interface [Microsoft TV Technologies],get_ChallengeUrl method, IDTFilter2.get_ChallengeUrl, IDTFilter2::get_ChallengeUrl, IDTFilter2get_ChallengeUrl, encdec/IDTFilter2::get_ChallengeUrl, get_ChallengeUrl, get_ChallengeUrl method [Microsoft TV Technologies], get_ChallengeUrl method [Microsoft TV Technologies],IDTFilter2 interface, mstv.idtfilter2_get_challengeurl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDTFilter2::get_ChallengeUrl method
+# IDTFilter2::get_ChallengeUrl
 
 
 ## -description

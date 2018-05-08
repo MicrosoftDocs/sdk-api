@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcFactory.CreateStreamOnFile
-title: IOpcFactory::CreateStreamOnFile method
+title: IOpcFactory::CreateStreamOnFile
 author: windows-driver-content
 description: Creates a stream over a file.
 old-location: opc\iopcfactory_createstreamonfile.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: d41bb51d-127c-4b24-8c93-4224404e0b2d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateStreamOnFile method [Open Packaging Conventions], CreateStreamOnFile method [Open Packaging Conventions], IOpcFactory interface, CreateStreamOnFile,IOpcFactory.CreateStreamOnFile, IOpcFactory, IOpcFactory interface [Open Packaging Conventions], CreateStreamOnFile method, IOpcFactory::CreateStreamOnFile, msopc/IOpcFactory::CreateStreamOnFile, opc.iopcfactory_createstreamonfile
+ms.keywords: CreateStreamOnFile, CreateStreamOnFile method [Open Packaging Conventions], CreateStreamOnFile method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreateStreamOnFile method, IOpcFactory.CreateStreamOnFile, IOpcFactory::CreateStreamOnFile, msopc/IOpcFactory::CreateStreamOnFile, opc.iopcfactory_createstreamonfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcFactory::CreateStreamOnFile method
+# IOpcFactory::CreateStreamOnFile
 
 
 ## -description

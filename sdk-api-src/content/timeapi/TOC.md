@@ -1,0 +1,8 @@
+# [Windows Multimedia](../_multimedia/index.md)
+## [Timeapi.h](index.md)
+### [timeBeginPeriod function](../timeapi/nf-timeapi-timebeginperiod.md)
+### [timeEndPeriod function](../timeapi/nf-timeapi-timeendperiod.md)
+### [timeGetDevCaps function](../timeapi/nf-timeapi-timegetdevcaps.md)
+### [timeGetSystemTime function](../timeapi/nf-timeapi-timegetsystemtime.md)
+### [timeGetTime function](../timeapi/nf-timeapi-timegettime.md)
+### [timecaps_tag structure](../timeapi/ns-timeapi-timecaps_tag.md)

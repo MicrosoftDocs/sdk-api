@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICheckSxsConfig.IsSameSxsConfig
-title: ICheckSxsConfig::IsSameSxsConfig method
+title: ICheckSxsConfig::IsSameSxsConfig
 author: windows-driver-content
 description: Determines whether the side-by-side assembly has the specified configuration.
 old-location: cos\ichecksxsconfig_issamesxsconfig.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 24ea3b88-2364-49e9-88cf-90a6094b9e4c
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICheckSxsConfig, ICheckSxsConfig interface [COM+], IsSameSxsConfig method, ICheckSxsConfig::IsSameSxsConfig, IsSameSxsConfig method [COM+], IsSameSxsConfig method [COM+], ICheckSxsConfig interface, IsSameSxsConfig,ICheckSxsConfig.IsSameSxsConfig, _cos_ICheckSxsConfig_IsSameSxsConfig, comsvcs/ICheckSxsConfig::IsSameSxsConfig, cos.ichecksxsconfig_issamesxsconfig
+ms.keywords: ICheckSxsConfig interface [COM+],IsSameSxsConfig method, ICheckSxsConfig.IsSameSxsConfig, ICheckSxsConfig::IsSameSxsConfig, IsSameSxsConfig, IsSameSxsConfig method [COM+], IsSameSxsConfig method [COM+],ICheckSxsConfig interface, _cos_ICheckSxsConfig_IsSameSxsConfig, comsvcs/ICheckSxsConfig::IsSameSxsConfig, cos.ichecksxsconfig_issamesxsconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICheckSxsConfig::IsSameSxsConfig method
+# ICheckSxsConfig::IsSameSxsConfig
 
 
 ## -description

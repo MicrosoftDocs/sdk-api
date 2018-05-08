@@ -7,7 +7,7 @@ old-location: mf\dxva2_filtervalues.htm
 old-project: medfound
 ms.assetid: 48dc1631-f96c-4515-aac2-225b3427f9ad
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: 48dc1631-f96c-4515-aac2-225b3427f9ad, DXVA2_FilterValues, DXVA2_FilterValues structure [Media Foundation], _DXVA2_FilterValues, dxva2api/DXVA2_FilterValues, mf.dxva2_filtervalues
 ms.prod: windows-hardware
 ms.technology: windows-devices

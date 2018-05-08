@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumStoredMessages
-title: IDXGIInfoQueue::GetNumStoredMessages method
+title: IDXGIInfoQueue::GetNumStoredMessages
 author: windows-driver-content
 description: Gets the number of messages currently stored in the message queue.
 old-location: direct3ddxgi\idxgiinfoqueue_getnumstoredmessages.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 81556BB3-D8B8-4868-8B21-C9E01C3F183E
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetNumStoredMessages method [DXGI], GetNumStoredMessages method [DXGI], IDXGIInfoQueue interface, GetNumStoredMessages,IDXGIInfoQueue.GetNumStoredMessages, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], GetNumStoredMessages method, IDXGIInfoQueue::GetNumStoredMessages, direct3ddxgi.idxgiinfoqueue_getnumstoredmessages, dxgidebug/IDXGIInfoQueue::GetNumStoredMessages
+ms.keywords: GetNumStoredMessages, GetNumStoredMessages method [DXGI], GetNumStoredMessages method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumStoredMessages method, IDXGIInfoQueue.GetNumStoredMessages, IDXGIInfoQueue::GetNumStoredMessages, direct3ddxgi.idxgiinfoqueue_getnumstoredmessages, dxgidebug/IDXGIInfoQueue::GetNumStoredMessages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::GetNumStoredMessages method
+# IDXGIInfoQueue::GetNumStoredMessages
 
 
 ## -description

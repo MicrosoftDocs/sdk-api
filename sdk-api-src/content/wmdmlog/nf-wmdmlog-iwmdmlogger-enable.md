@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.Enable
-title: IWMDMLogger::Enable method
+title: IWMDMLogger::Enable
 author: windows-driver-content
 description: The Enable method enables or disables logging. Logging is enabled by default.
 old-location: wmdm\iwmdmlogger_enable.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 6b0e48ff-ea34-4bcc-93e8-5ef0f5c39b06
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: Enable method [windows Media Device Manager], Enable method [windows Media Device Manager], IWMDMLogger interface, Enable,IWMDMLogger.Enable, IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], Enable method, IWMDMLogger::Enable, IWMDMLoggerEnable, wmdm.iwmdmlogger_enable, wmdmlog/IWMDMLogger::Enable
+ms.keywords: Enable, Enable method [windows Media Device Manager], Enable method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],Enable method, IWMDMLogger.Enable, IWMDMLogger::Enable, IWMDMLoggerEnable, wmdm.iwmdmlogger_enable, wmdmlog/IWMDMLogger::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDMLogger::Enable method
+# IWMDMLogger::Enable
 
 
 ## -description

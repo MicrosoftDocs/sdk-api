@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetMops
-title: ITypeInfo::GetMops method
+title: ITypeInfo::GetMops
 author: windows-driver-content
 description: Retrieves marshaling information.
 old-location: automat\itypeinfo_getmops.htm
 old-project: automat
 ms.assetid: 6f8f4d4a-c51d-46d3-ad0f-1ee357bb7104
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetMops method [Automation], GetMops method [Automation], ITypeInfo interface, GetMops,ITypeInfo.GetMops, ITypeInfo, ITypeInfo interface [Automation], GetMops method, ITypeInfo::GetMops, _oa96_ITypeInfo_GetMops, automat.itypeinfo_getmops, oaidl/ITypeInfo::GetMops
+ms.date: 5/4/2018
+ms.keywords: GetMops, GetMops method [Automation], GetMops method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetMops method, ITypeInfo.GetMops, ITypeInfo::GetMops, _oa96_ITypeInfo_GetMops, automat.itypeinfo_getmops, oaidl/ITypeInfo::GetMops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo::GetMops method
+# ITypeInfo::GetMops
 
 
 ## -description

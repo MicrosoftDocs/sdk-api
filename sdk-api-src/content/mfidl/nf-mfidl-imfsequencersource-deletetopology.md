@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.DeleteTopology
-title: IMFSequencerSource::DeleteTopology method
+title: IMFSequencerSource::DeleteTopology
 author: windows-driver-content
 description: Deletes a topology from the queue.
 old-location: mf\imfsequencersource_deletetopology.htm
 old-project: medfound
 ms.assetid: 6ef3512d-f953-46a3-8604-bec3904a962f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 6ef3512d-f953-46a3-8604-bec3904a962f, DeleteTopology method [Media Foundation], DeleteTopology method [Media Foundation], IMFSequencerSource interface, DeleteTopology,IMFSequencerSource.DeleteTopology, IMFSequencerSource, IMFSequencerSource interface [Media Foundation], DeleteTopology method, IMFSequencerSource::DeleteTopology, mf.imfsequencersource_deletetopology, mfidl/IMFSequencerSource::DeleteTopology
+ms.date: 5/3/2018
+ms.keywords: 6ef3512d-f953-46a3-8604-bec3904a962f, DeleteTopology, DeleteTopology method [Media Foundation], DeleteTopology method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],DeleteTopology method, IMFSequencerSource.DeleteTopology, IMFSequencerSource::DeleteTopology, mf.imfsequencersource_deletetopology, mfidl/IMFSequencerSource::DeleteTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSequencerSource::DeleteTopology method
+# IMFSequencerSource::DeleteTopology
 
 
 ## -description

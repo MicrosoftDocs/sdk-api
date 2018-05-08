@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidFilePlayback2.put___SourceFilter
-title: IMSVidFilePlayback2::put___SourceFilter method
+title: IMSVidFilePlayback2::put___SourceFilter
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.
 old-location: mstv\imsvidfileplayback2_put___sourcefilter.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 257e93ec-fb26-45fb-b07b-4491dbf2528a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidFilePlayback2, IMSVidFilePlayback2 interface [Microsoft TV Technologies], put___SourceFilter method, IMSVidFilePlayback2::put___SourceFilter, IMSVidFilePlayback2put___SourceFilter, mstv.imsvidfileplayback2_put___sourcefilter, put___SourceFilter method [Microsoft TV Technologies], put___SourceFilter method [Microsoft TV Technologies], IMSVidFilePlayback2 interface, put___SourceFilter,IMSVidFilePlayback2.put___SourceFilter, segment/IMSVidFilePlayback2::put___SourceFilter
+ms.keywords: IMSVidFilePlayback2 interface [Microsoft TV Technologies],put___SourceFilter method, IMSVidFilePlayback2.put___SourceFilter, IMSVidFilePlayback2::put___SourceFilter, IMSVidFilePlayback2put___SourceFilter, mstv.imsvidfileplayback2_put___sourcefilter, put___SourceFilter, put___SourceFilter method [Microsoft TV Technologies], put___SourceFilter method [Microsoft TV Technologies],IMSVidFilePlayback2 interface, segment/IMSVidFilePlayback2::put___SourceFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidFilePlayback2::put___SourceFilter method
+# IMSVidFilePlayback2::put___SourceFilter
 
 
 ## -description

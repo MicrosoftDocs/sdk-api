@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Reset
-title: IEnumTfContexts::Reset method
+title: IEnumTfContexts::Reset
 author: windows-driver-content
 description: IEnumTfContexts::Reset method
 old-location: tsf\ienumtfcontexts_reset.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: bfe1d8a3-5a5f-4397-b972-ee42358aeb66
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfContexts, IEnumTfContexts interface [Text Services Framework], Reset method, IEnumTfContexts::Reset, Reset method [Text Services Framework], Reset method [Text Services Framework], IEnumTfContexts interface, Reset,IEnumTfContexts.Reset, _tsf_ienumtfcontexts_reset_ref, msctf/IEnumTfContexts::Reset, tsf.ienumtfcontexts_reset
+ms.keywords: IEnumTfContexts interface [Text Services Framework],Reset method, IEnumTfContexts.Reset, IEnumTfContexts::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfContexts interface, _tsf_ienumtfcontexts_reset_ref, msctf/IEnumTfContexts::Reset, tsf.ienumtfcontexts_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfContexts::Reset method
+# IEnumTfContexts::Reset
 
 
 ## -description

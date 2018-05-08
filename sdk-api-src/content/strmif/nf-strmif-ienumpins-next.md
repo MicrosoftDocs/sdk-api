@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IEnumPins.Next
-title: IEnumPins::Next method
+title: IEnumPins::Next
 author: windows-driver-content
 description: The Next method retrieves a specified number of pins in the enumeration sequence.
 old-location: dshow\ienumpins_next.htm
 old-project: DirectShow
 ms.assetid: 03a30eb6-b39f-4497-ad3f-8af2c3ecf2f0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumPins, IEnumPins interface [DirectShow], Next method, IEnumPins::Next, IEnumPinsNext, Next method [DirectShow], Next method [DirectShow], IEnumPins interface, Next,IEnumPins.Next, dshow.ienumpins_next, strmif/IEnumPins::Next
+ms.date: 4/30/2018
+ms.keywords: IEnumPins interface [DirectShow],Next method, IEnumPins.Next, IEnumPins::Next, IEnumPinsNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumPins interface, dshow.ienumpins_next, strmif/IEnumPins::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEnumPins::Next method
+# IEnumPins::Next
 
 
 ## -description

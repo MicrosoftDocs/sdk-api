@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetBreakOnCategory
-title: IDXGIInfoQueue::GetBreakOnCategory method
+title: IDXGIInfoQueue::GetBreakOnCategory
 author: windows-driver-content
 description: Determines whether the break on a message category is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getbreakoncategory.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 12099FA2-2801-45E7-98C3-5A29F5764B8D
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetBreakOnCategory method [DXGI], GetBreakOnCategory method [DXGI], IDXGIInfoQueue interface, GetBreakOnCategory,IDXGIInfoQueue.GetBreakOnCategory, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], GetBreakOnCategory method, IDXGIInfoQueue::GetBreakOnCategory, direct3ddxgi.idxgiinfoqueue_getbreakoncategory, dxgidebug/IDXGIInfoQueue::GetBreakOnCategory
+ms.keywords: GetBreakOnCategory, GetBreakOnCategory method [DXGI], GetBreakOnCategory method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnCategory method, IDXGIInfoQueue.GetBreakOnCategory, IDXGIInfoQueue::GetBreakOnCategory, direct3ddxgi.idxgiinfoqueue_getbreakoncategory, dxgidebug/IDXGIInfoQueue::GetBreakOnCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::GetBreakOnCategory method
+# IDXGIInfoQueue::GetBreakOnCategory
 
 
 ## -description

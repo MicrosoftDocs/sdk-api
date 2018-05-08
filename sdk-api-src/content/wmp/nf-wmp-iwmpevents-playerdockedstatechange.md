@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.PlayerDockedStateChange
-title: IWMPEvents::PlayerDockedStateChange method
+title: IWMPEvents::PlayerDockedStateChange
 author: windows-driver-content
 description: The PlayerDockedStateChange event occurs when a remoted Windows Media Player control docks or undocks.
 old-location: wmp\iwmpevents_iwmpevents__playerdockedstatechange.htm
 old-project: WMP
 ms.assetid: 6fbe545a-2130-4cda-a663-6103d938aef4
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], PlayerDockedStateChange method, IWMPEvents::PlayerDockedStateChange, IWMPEventsPlayerDockedStateChange, PlayerDockedStateChange method [Windows Media Player], PlayerDockedStateChange method [Windows Media Player], IWMPEvents interface, PlayerDockedStateChange,IWMPEvents.PlayerDockedStateChange, wmp.iwmpevents_iwmpevents__playerdockedstatechange, wmp/IWMPEvents::PlayerDockedStateChange
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],PlayerDockedStateChange method, IWMPEvents.PlayerDockedStateChange, IWMPEvents::PlayerDockedStateChange, IWMPEventsPlayerDockedStateChange, PlayerDockedStateChange, PlayerDockedStateChange method [Windows Media Player], PlayerDockedStateChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playerdockedstatechange, wmp/IWMPEvents::PlayerDockedStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::PlayerDockedStateChange method
+# IWMPEvents::PlayerDockedStateChange
 
 
 ## -description

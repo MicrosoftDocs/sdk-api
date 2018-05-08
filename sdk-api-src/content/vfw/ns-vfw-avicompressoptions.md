@@ -7,7 +7,7 @@ old-location: multimedia\avicompressoptions.htm
 old-project: Multimedia
 ms.assetid: 8084adc3-792f-4a6c-b407-51e0e435e629
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPAVICOMPRESSOPTIONS, AVICOMPRESSF_DATARATE, AVICOMPRESSF_INTERLEAVE, AVICOMPRESSF_KEYFRAMES, AVICOMPRESSF_VALID, AVICOMPRESSOPTIONS, AVICOMPRESSOPTIONS structure [Windows Multimedia], _win32_AVICOMPRESSOPTIONS_str, multimedia.avicompressoptions, streamtypeAUDIO, streamtypeMIDI, streamtypeTEXT, streamtypeVIDEO, vfw/AVICOMPRESSOPTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

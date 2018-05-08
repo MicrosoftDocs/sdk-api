@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMRemoteDictionaryResource1.GetDocumentType
-title: IXpsOMRemoteDictionaryResource1::GetDocumentType method
+title: IXpsOMRemoteDictionaryResource1::GetDocumentType
 author: windows-driver-content
 description: Gets the XPS_DOCUMENT_TYPE of the resource.
 old-location: xps\ixpsomremotedictionaryresource1_getdocumenttype.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: C8A55D98-0E3C-448B-9E67-575D5B66535D
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging], IXpsOMRemoteDictionaryResource1 interface, GetDocumentType,IXpsOMRemoteDictionaryResource1.GetDocumentType, IXpsOMRemoteDictionaryResource1, IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging], GetDocumentType method, IXpsOMRemoteDictionaryResource1::GetDocumentType, xps.ixpsomremotedictionaryresource1_getdocumenttype, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::GetDocumentType
+ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource1 interface, IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMRemoteDictionaryResource1.GetDocumentType, IXpsOMRemoteDictionaryResource1::GetDocumentType, xps.ixpsomremotedictionaryresource1_getdocumenttype, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::GetDocumentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMRemoteDictionaryResource1::GetDocumentType method
+# IXpsOMRemoteDictionaryResource1::GetDocumentType
 
 
 ## -description

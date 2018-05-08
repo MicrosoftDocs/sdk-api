@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaItemExtras.Escape
-title: IWiaItemExtras::Escape method
+title: IWiaItemExtras::Escape
 author: windows-driver-content
 description: The IWiaItemExtras::Escape method sends a request for a vendor-specific I/O operation to a still image device.
 old-location: wia\_wia_IWiaItemExtras_Escape.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\escape.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: Escape method [WIA], Escape method [WIA], IWiaItemExtras interface, Escape,IWiaItemExtras.Escape, IWiaItemExtras, IWiaItemExtras interface [WIA], Escape method, IWiaItemExtras::Escape, _wia_IWiaItemExtras_Escape, wia._wia_IWiaItemExtras_Escape, wia_xp/IWiaItemExtras::Escape
+ms.date: 5/3/2018
+ms.keywords: Escape, Escape method [WIA], Escape method [WIA],IWiaItemExtras interface, IWiaItemExtras interface [WIA],Escape method, IWiaItemExtras.Escape, IWiaItemExtras::Escape, _wia_IWiaItemExtras_Escape, wia._wia_IWiaItemExtras_Escape, wia_xp/IWiaItemExtras::Escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaItemExtras::Escape method
+# IWiaItemExtras::Escape
 
 
 ## -description

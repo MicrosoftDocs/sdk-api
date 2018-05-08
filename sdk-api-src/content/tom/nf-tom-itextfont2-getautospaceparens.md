@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.GetAutospaceParens
-title: ITextFont2::GetAutospaceParens method
+title: ITextFont2::GetAutospaceParens
 author: windows-driver-content
 description: Gets the East Asian &#0034;autospace parentheses&#0034; state.
 old-location: controls\itextfont2_getautospaceparens.htm
 old-project: Controls
 ms.assetid: fce60349-cded-4cab-b2e5-4fad02d11195
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetAutospaceParens method [Windows Controls], GetAutospaceParens method [Windows Controls], ITextFont2 interface, GetAutospaceParens,ITextFont2.GetAutospaceParens, ITextFont2, ITextFont2 interface [Windows Controls], GetAutospaceParens method, ITextFont2::GetAutospaceParens, controls.itextfont2_getautospaceparens, tom/ITextFont2::GetAutospaceParens
+ms.date: 4/27/2018
+ms.keywords: GetAutospaceParens, GetAutospaceParens method [Windows Controls], GetAutospaceParens method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutospaceParens method, ITextFont2.GetAutospaceParens, ITextFont2::GetAutospaceParens, controls.itextfont2_getautospaceparens, tom/ITextFont2::GetAutospaceParens
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::GetAutospaceParens method
+# ITextFont2::GetAutospaceParens
 
 
 ## -description

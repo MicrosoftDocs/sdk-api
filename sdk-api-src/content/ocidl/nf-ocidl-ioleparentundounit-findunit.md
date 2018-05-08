@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleParentUndoUnit.FindUnit
-title: IOleParentUndoUnit::FindUnit method
+title: IOleParentUndoUnit::FindUnit
 author: windows-driver-content
 description: Indicates whether the specified unit is a child of this undo unit or one of its children, that is if the specified unit is part of the hierarchy in this parent unit.
 old-location: com\ioleparentundounit_findunit.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 096e6cc4-7843-49fa-b1d7-bce034d4b7ce
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: FindUnit method [COM], FindUnit method [COM], IOleParentUndoUnit interface, FindUnit,IOleParentUndoUnit.FindUnit, IOleParentUndoUnit, IOleParentUndoUnit interface [COM], FindUnit method, IOleParentUndoUnit::FindUnit, _ole_ioleparentundounit_findunit, com.ioleparentundounit_findunit, ocidl/IOleParentUndoUnit::FindUnit
+ms.keywords: FindUnit, FindUnit method [COM], FindUnit method [COM],IOleParentUndoUnit interface, IOleParentUndoUnit interface [COM],FindUnit method, IOleParentUndoUnit.FindUnit, IOleParentUndoUnit::FindUnit, _ole_ioleparentundounit_findunit, com.ioleparentundounit_findunit, ocidl/IOleParentUndoUnit::FindUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleParentUndoUnit::FindUnit method
+# IOleParentUndoUnit::FindUnit
 
 
 ## -description

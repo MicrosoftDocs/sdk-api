@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetName
-title: IXpsOMPage::SetName method
+title: IXpsOMPage::SetName
 author: windows-driver-content
 description: Sets the Name property of this page.
 old-location: xps\ixpsompage_setname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 675e4fd2-e8b9-400f-9042-df5b0bb0b89a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], SetName method, IXpsOMPage::SetName, SetName method [XPS Documents and Packaging], SetName method [XPS Documents and Packaging], IXpsOMPage interface, SetName,IXpsOMPage.SetName, xps.ixpsompage_setname, xpsobjectmodel/IXpsOMPage::SetName
+ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetName method, IXpsOMPage.SetName, IXpsOMPage::SetName, SetName, SetName method [XPS Documents and Packaging], SetName method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setname, xpsobjectmodel/IXpsOMPage::SetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::SetName method
+# IXpsOMPage::SetName
 
 
 ## -description

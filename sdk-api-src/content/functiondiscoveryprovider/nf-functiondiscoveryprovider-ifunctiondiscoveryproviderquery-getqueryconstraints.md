@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery.GetQueryConstraints
-title: IFunctionDiscoveryProviderQuery::GetQueryConstraints method
+title: IFunctionDiscoveryProviderQuery::GetQueryConstraints
 author: windows-driver-content
 description: Retrieves the current query constraints.
 old-location: ncd\ifunctiondiscoveryproviderquery_getqueryconstraints.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: a8329732-79dd-4606-96c3-40534cde5fc4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetQueryConstraints method, GetQueryConstraints method, IFunctionDiscoveryProviderQuery interface, GetQueryConstraints,IFunctionDiscoveryProviderQuery.GetQueryConstraints, IFunctionDiscoveryProviderQuery, IFunctionDiscoveryProviderQuery interface, GetQueryConstraints method, IFunctionDiscoveryProviderQuery::GetQueryConstraints, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetQueryConstraints, ncd.ifunctiondiscoveryproviderquery_getqueryconstraints
+ms.keywords: GetQueryConstraints, GetQueryConstraints method, GetQueryConstraints method,IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,GetQueryConstraints method, IFunctionDiscoveryProviderQuery.GetQueryConstraints, IFunctionDiscoveryProviderQuery::GetQueryConstraints, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetQueryConstraints, ncd.ifunctiondiscoveryproviderquery_getqueryconstraints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionDiscoveryProviderQuery::GetQueryConstraints method
+# IFunctionDiscoveryProviderQuery::GetQueryConstraints
 
 
 ## -description

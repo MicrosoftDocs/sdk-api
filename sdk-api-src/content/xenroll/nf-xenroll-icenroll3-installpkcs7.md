@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll3.InstallPKCS7
-title: ICEnroll3::InstallPKCS7 method
+title: ICEnroll3::InstallPKCS7
 author: windows-driver-content
 description: Processes a certificate or chain of certificates, placing them into the appropriate certificate stores. This method differs from the acceptPKCS7 method in that InstallPKCS7 does not receive a request certificate.
 old-location: security\icenroll4_installpkcs7.htm
 old-project: SecCrypto
 ms.assetid: 63482360-0d8a-4e23-8942-8276630778a3
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], InstallPKCS7 method, ICEnroll3, ICEnroll3 interface [Security], InstallPKCS7 method, ICEnroll3::InstallPKCS7, ICEnroll4 interface [Security], InstallPKCS7 method, ICEnroll4::InstallPKCS7, InstallPKCS7 method [Security], InstallPKCS7 method [Security], CEnroll object, InstallPKCS7 method [Security], ICEnroll3 interface, InstallPKCS7 method [Security], ICEnroll4 interface, InstallPKCS7,ICEnroll3.InstallPKCS7, security.icenroll4_installpkcs7, xenroll/ICEnroll3::InstallPKCS7, xenroll/ICEnroll4::InstallPKCS7
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],InstallPKCS7 method, ICEnroll3 interface [Security],InstallPKCS7 method, ICEnroll3.InstallPKCS7, ICEnroll3::InstallPKCS7, ICEnroll4 interface [Security],InstallPKCS7 method, ICEnroll4::InstallPKCS7, InstallPKCS7, InstallPKCS7 method [Security], InstallPKCS7 method [Security],CEnroll object, InstallPKCS7 method [Security],ICEnroll3 interface, InstallPKCS7 method [Security],ICEnroll4 interface, security.icenroll4_installpkcs7, xenroll/ICEnroll3::InstallPKCS7, xenroll/ICEnroll4::InstallPKCS7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll3::InstallPKCS7 method
+# ICEnroll3::InstallPKCS7
 
 
 ## -description

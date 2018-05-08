@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IGenericDescriptor.GetLength
-title: IGenericDescriptor::GetLength method
+title: IGenericDescriptor::GetLength
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\igenericdescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: fd36bb87-ef30-4064-a251-c89a878eeae9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IGenericDescriptor interface, GetLength,IGenericDescriptor.GetLength, IGenericDescriptor, IGenericDescriptor interface [Microsoft TV Technologies], GetLength method, IGenericDescriptor::GetLength, IGenericDescriptorGetLength, mpeg2psiparser/IGenericDescriptor::GetLength, mstv.igenericdescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IGenericDescriptor interface, IGenericDescriptor interface [Microsoft TV Technologies],GetLength method, IGenericDescriptor.GetLength, IGenericDescriptor::GetLength, IGenericDescriptorGetLength, mpeg2psiparser/IGenericDescriptor::GetLength, mstv.igenericdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGenericDescriptor::GetLength method
+# IGenericDescriptor::GetLength
 
 
 ## -description

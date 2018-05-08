@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.GetCount
-title: IXpsOMPageReferenceCollection::GetCount method
+title: IXpsOMPageReferenceCollection::GetCount
 author: windows-driver-content
 description: Gets the number of IXpsOMPageReference interface pointers in the collection.
 old-location: xps\ixpsompagereferencecollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 7728930a-408d-445f-9b0d-9043912d4e72
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging], IXpsOMPageReferenceCollection interface, GetCount,IXpsOMPageReferenceCollection.GetCount, IXpsOMPageReferenceCollection, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging], GetCount method, IXpsOMPageReferenceCollection::GetCount, xps.ixpsompagereferencecollection_getcount, xpsobjectmodel/IXpsOMPageReferenceCollection::GetCount
+ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMPageReferenceCollection.GetCount, IXpsOMPageReferenceCollection::GetCount, xps.ixpsompagereferencecollection_getcount, xpsobjectmodel/IXpsOMPageReferenceCollection::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReferenceCollection::GetCount method
+# IXpsOMPageReferenceCollection::GetCount
 
 
 ## -description

@@ -1,0 +1,6 @@
+# [Radial controller input](../_input_radial/index.md)
+## [Radialcontrollerinterop.h](index.md)
+### [IRadialControllerConfigurationInterop::GetForWindow](../radialcontrollerinterop/nf-radialcontrollerinterop-iradialcontrollerconfigurationinterop-getforwindow.md)
+### [IRadialControllerInterop::CreateForWindow](../radialcontrollerinterop/nf-radialcontrollerinterop-iradialcontrollerinterop-createforwindow.md)
+### [IRadialControllerConfigurationInterop interface](../radialcontrollerinterop/nn-radialcontrollerinterop-iradialcontrollerconfigurationinterop.md)
+### [IRadialControllerInterop interface](../radialcontrollerinterop/nn-radialcontrollerinterop-iradialcontrollerinterop.md)

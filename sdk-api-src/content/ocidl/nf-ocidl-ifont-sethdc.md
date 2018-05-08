@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.SetHdc
-title: IFont::SetHdc method
+title: IFont::SetHdc
 author: windows-driver-content
 description: Provides a device context to the font that describes the logical mapping mode.
 old-location: com\ifont_sethdc.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: daba0cfa-1628-415a-8161-75f7edfeeca8
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFont, IFont interface [COM], SetHdc method, IFont::SetHdc, SetHdc method [COM], SetHdc method [COM], IFont interface, SetHdc,IFont.SetHdc, _ctrl_ifont_sethdc, com.ifont_sethdc, ocidl/IFont::SetHdc
+ms.keywords: IFont interface [COM],SetHdc method, IFont.SetHdc, IFont::SetHdc, SetHdc, SetHdc method [COM], SetHdc method [COM],IFont interface, _ctrl_ifont_sethdc, com.ifont_sethdc, ocidl/IFont::SetHdc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFont::SetHdc method
+# IFont::SetHdc
 
 
 ## -description

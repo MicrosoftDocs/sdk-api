@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedKeyboardShortcut
-title: IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut method
+title: IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut
 author: windows-driver-content
 description: Retrieves the cached Microsoft Active Accessibility keyboard shortcut property for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3ebe588d-19ab-4df2-be01-4abd0a62a2f8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedKeyboardShortcut property [Windows Accessibility], CachedKeyboardShortcut property [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], CachedKeyboardShortcut property, IUIAutomationLegacyIAccessiblePattern.CachedKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut, get_CachedKeyboardShortcut,IUIAutomationLegacyIAccessiblePattern.get_CachedKeyboardShortcut, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut
+ms.keywords: CachedKeyboardShortcut property [Windows Accessibility], CachedKeyboardShortcut property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedKeyboardShortcut property, IUIAutomationLegacyIAccessiblePattern.CachedKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern.get_CachedKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::CachedKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut, get_CachedKeyboardShortcut, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut method
+# IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut
 
 
 ## -description

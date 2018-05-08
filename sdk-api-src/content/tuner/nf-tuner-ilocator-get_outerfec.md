@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.get_OuterFEC
-title: ILocator::get_OuterFEC method
+title: ILocator::get_OuterFEC
 author: windows-driver-content
 description: The get_OuterFEC method gets the type of outer FEC that is used.
 old-location: mstv\ilocator_get_outerfec.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d32937e1-0b8c-485e-8bd0-df15ab2ed373
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDigitalLocatorget_OuterFEC, ILocator, ILocator interface [Microsoft TV Technologies], get_OuterFEC method, ILocator::get_OuterFEC, get_OuterFEC method [Microsoft TV Technologies], get_OuterFEC method [Microsoft TV Technologies], ILocator interface, get_OuterFEC,ILocator.get_OuterFEC, mstv.ilocator_get_outerfec, tuner/ILocator::get_OuterFEC
+ms.keywords: IDigitalLocatorget_OuterFEC, ILocator interface [Microsoft TV Technologies],get_OuterFEC method, ILocator.get_OuterFEC, ILocator::get_OuterFEC, get_OuterFEC, get_OuterFEC method [Microsoft TV Technologies], get_OuterFEC method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_outerfec, tuner/ILocator::get_OuterFEC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILocator::get_OuterFEC method
+# ILocator::get_OuterFEC
 
 
 ## -description

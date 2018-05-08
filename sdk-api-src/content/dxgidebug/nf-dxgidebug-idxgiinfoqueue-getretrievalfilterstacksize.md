@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetRetrievalFilterStackSize
-title: IDXGIInfoQueue::GetRetrievalFilterStackSize method
+title: IDXGIInfoQueue::GetRetrievalFilterStackSize
 author: windows-driver-content
 description: Gets the size of the retrieval-filter stack in bytes.
 old-location: direct3ddxgi\idxgiinfoqueue_getretrievalfilterstacksize.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: E5173EC8-483D-4A90-BDF0-7A7D115A0CF9
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetRetrievalFilterStackSize method [DXGI], GetRetrievalFilterStackSize method [DXGI], IDXGIInfoQueue interface, GetRetrievalFilterStackSize,IDXGIInfoQueue.GetRetrievalFilterStackSize, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], GetRetrievalFilterStackSize method, IDXGIInfoQueue::GetRetrievalFilterStackSize, direct3ddxgi.idxgiinfoqueue_getretrievalfilterstacksize, dxgidebug/IDXGIInfoQueue::GetRetrievalFilterStackSize
+ms.keywords: GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method [DXGI], GetRetrievalFilterStackSize method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetRetrievalFilterStackSize method, IDXGIInfoQueue.GetRetrievalFilterStackSize, IDXGIInfoQueue::GetRetrievalFilterStackSize, direct3ddxgi.idxgiinfoqueue_getretrievalfilterstacksize, dxgidebug/IDXGIInfoQueue::GetRetrievalFilterStackSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::GetRetrievalFilterStackSize method
+# IDXGIInfoQueue::GetRetrievalFilterStackSize
 
 
 ## -description

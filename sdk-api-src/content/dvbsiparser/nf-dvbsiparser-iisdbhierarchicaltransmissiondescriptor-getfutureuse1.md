@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1
-title: IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1 method
+title: IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1
 author: windows-driver-content
 description: Gets the value of the 7-bit reserved_future_use field from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getfutureuse1.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 853885cf-36cc-402a-96a8-bc44701fc0a4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetFutureUse1 method [Microsoft TV Technologies], GetFutureUse1 method [Microsoft TV Technologies], IIsdbHierarchicalTransmissionDescriptor interface, GetFutureUse1,IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1, IIsdbHierarchicalTransmissionDescriptor, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies], GetFutureUse1 method, IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1, mstv.iisdbhierarchicaltransmissiondescriptor_getfutureuse1
+ms.keywords: GetFutureUse1, GetFutureUse1 method [Microsoft TV Technologies], GetFutureUse1 method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetFutureUse1 method, IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1, IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1, mstv.iisdbhierarchicaltransmissiondescriptor_getfutureuse1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1 method
+# IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1
 
 
 ## -description

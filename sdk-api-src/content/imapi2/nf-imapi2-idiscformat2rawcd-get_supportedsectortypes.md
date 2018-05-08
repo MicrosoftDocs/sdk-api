@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_SupportedSectorTypes
-title: IDiscFormat2RawCD::get_SupportedSectorTypes method
+title: IDiscFormat2RawCD::get_SupportedSectorTypes
 author: windows-driver-content
 description: Retrieves the supported data sector types for the current recorder.
 old-location: imapi\idiscformat2rawcd_get_supportedsectortypes.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: d217e585-3ff4-4f02-8a13-7cfca767f201
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], get_SupportedSectorTypes method, IDiscFormat2RawCD::get_SupportedSectorTypes, get_SupportedSectorTypes method [IMAPI], get_SupportedSectorTypes method [IMAPI], IDiscFormat2RawCD interface, get_SupportedSectorTypes,IDiscFormat2RawCD.get_SupportedSectorTypes, imapi.idiscformat2rawcd_get_supportedsectortypes, imapi2/IDiscFormat2RawCD::get_SupportedSectorTypes
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_SupportedSectorTypes method, IDiscFormat2RawCD.get_SupportedSectorTypes, IDiscFormat2RawCD::get_SupportedSectorTypes, get_SupportedSectorTypes, get_SupportedSectorTypes method [IMAPI], get_SupportedSectorTypes method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_supportedsectortypes, imapi2/IDiscFormat2RawCD::get_SupportedSectorTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCD::get_SupportedSectorTypes method
+# IDiscFormat2RawCD::get_SupportedSectorTypes
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.GetOutputDirectory
-title: IFsrmReportManager::GetOutputDirectory method
+title: IFsrmReportManager::GetOutputDirectory
 author: windows-driver-content
 description: Retrieves the local directory path where the reports with the specified context are stored.
 old-location: fsrm\ifsrmreportmanager_getoutputdirectory.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 90df1a6e-e2e6-4095-8337-61bfd172e203
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmReportManager class [File Server Resource Manager], GetOutputDirectory method, GetOutputDirectory method [File Server Resource Manager], GetOutputDirectory method [File Server Resource Manager], FsrmReportManager class, GetOutputDirectory method [File Server Resource Manager], IFsrmReportManager interface, GetOutputDirectory,IFsrmReportManager.GetOutputDirectory, IFsrmReportManager, IFsrmReportManager interface [File Server Resource Manager], GetOutputDirectory method, IFsrmReportManager::GetOutputDirectory, fs.ifsrmreportmanager_getoutputdirectory, fsrm.ifsrmreportmanager_getoutputdirectory, fsrmreports/IFsrmReportManager::GetOutputDirectory
+ms.keywords: FsrmReportManager class [File Server Resource Manager],GetOutputDirectory method, GetOutputDirectory, GetOutputDirectory method [File Server Resource Manager], GetOutputDirectory method [File Server Resource Manager],FsrmReportManager class, GetOutputDirectory method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetOutputDirectory method, IFsrmReportManager.GetOutputDirectory, IFsrmReportManager::GetOutputDirectory, fs.ifsrmreportmanager_getoutputdirectory, fsrm.ifsrmreportmanager_getoutputdirectory, fsrmreports/IFsrmReportManager::GetOutputDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmReportManager::GetOutputDirectory method
+# IFsrmReportManager::GetOutputDirectory
 
 
 ## -description

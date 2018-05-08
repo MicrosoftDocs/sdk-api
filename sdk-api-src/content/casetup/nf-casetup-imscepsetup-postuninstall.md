@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.IMSCEPSetup.PostUnInstall
-title: IMSCEPSetup::PostUnInstall method
+title: IMSCEPSetup::PostUnInstall
 author: windows-driver-content
 description: Is not implemented. It is reserved for future use.
 old-location: security\imscepsetup_postuninstall.htm
 old-project: SecCrypto
 ms.assetid: 8989ebde-0d33-4f9a-a4dc-82562eab5976
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], PostUnInstall method, IMSCEPSetup::PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security], IMSCEPSetup interface, PostUnInstall,IMSCEPSetup.PostUnInstall, casetup/IMSCEPSetup::PostUnInstall, security.imscepsetup_postuninstall
+ms.date: 4/30/2018
+ms.keywords: IMSCEPSetup interface [Security],PostUnInstall method, IMSCEPSetup.PostUnInstall, IMSCEPSetup::PostUnInstall, PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PostUnInstall, security.imscepsetup_postuninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# IMSCEPSetup::PostUnInstall method
+# IMSCEPSetup::PostUnInstall
 
 
 ## -description

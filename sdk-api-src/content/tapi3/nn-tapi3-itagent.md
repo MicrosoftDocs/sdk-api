@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 6c1409c9-da73-4d21-bf56-07e9ab7b33a0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], ITAgent interface [TAPI 2.2], described, _tapi3_itagent, tapi3.itagent, tapi3cc/ITAgent
+ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], ITAgent interface [TAPI 2.2],described, _tapi3_itagent, tapi3.itagent, tapi3cc/ITAgent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

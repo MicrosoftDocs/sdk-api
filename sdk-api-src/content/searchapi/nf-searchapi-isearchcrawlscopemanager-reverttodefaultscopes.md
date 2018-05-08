@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RevertToDefaultScopes
-title: ISearchCrawlScopeManager::RevertToDefaultScopes method
+title: ISearchCrawlScopeManager::RevertToDefaultScopes
 author: windows-driver-content
 description: Reverts to the default scopes.
 old-location: search\_search_ISearchCrawlScopeManager_RevertToDefaultScopes.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\reverttodefaultscopes.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], RevertToDefaultScopes method, ISearchCrawlScopeManager::RevertToDefaultScopes, RevertToDefaultScopes method [search], RevertToDefaultScopes method [search], ISearchCrawlScopeManager interface, RevertToDefaultScopes,ISearchCrawlScopeManager.RevertToDefaultScopes, _search_ISearchCrawlScopeManager_RevertToDefaultScopes, search._search_ISearchCrawlScopeManager_RevertToDefaultScopes, searchapi/ISearchCrawlScopeManager::RevertToDefaultScopes
+ms.date: 5/4/2018
+ms.keywords: ISearchCrawlScopeManager interface [search],RevertToDefaultScopes method, ISearchCrawlScopeManager.RevertToDefaultScopes, ISearchCrawlScopeManager::RevertToDefaultScopes, RevertToDefaultScopes, RevertToDefaultScopes method [search], RevertToDefaultScopes method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RevertToDefaultScopes, search._search_ISearchCrawlScopeManager_RevertToDefaultScopes, searchapi/ISearchCrawlScopeManager::RevertToDefaultScopes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCrawlScopeManager::RevertToDefaultScopes method
+# ISearchCrawlScopeManager::RevertToDefaultScopes
 
 
 ## -description

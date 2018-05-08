@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.get__NewEnum
-title: IUpdateCollection::get__NewEnum method
+title: IUpdateCollection::get__NewEnum
 author: windows-driver-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\iupdatecollection__newenum.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 78c80163-e77a-42c1-8eb9-ec8eea5ce997
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateCollection, IUpdateCollection interface [Windows Update Agent], _NewEnum property, IUpdateCollection._NewEnum, IUpdateCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent], IUpdateCollection interface, get__NewEnum,IUpdateCollection.get__NewEnum, wua.iupdatecollection__newenum, wuapi/IUpdateCollection::_NewEnum, wuapi/IUpdateCollection::get__NewEnum
+ms.keywords: IUpdateCollection interface [Windows Update Agent],_NewEnum property, IUpdateCollection._NewEnum, IUpdateCollection.get__NewEnum, IUpdateCollection::_NewEnum, IUpdateCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateCollection interface, get__NewEnum, wua.iupdatecollection__newenum, wuapi/IUpdateCollection::_NewEnum, wuapi/IUpdateCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateCollection::get__NewEnum method
+# IUpdateCollection::get__NewEnum
 
 
 ## -description

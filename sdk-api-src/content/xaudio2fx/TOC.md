@@ -1,0 +1,8 @@
+# [XAudio2 APIs](../_xaudio2/index.md)
+## [Xaudio2Fx.h](index.md)
+### [ReverbConvertI3DL2ToNative function](../xaudio2fx/nf-xaudio2fx-reverbconverti3dl2tonative.md)
+### [XAudio2CreateReverb function](../xaudio2fx/nf-xaudio2fx-xaudio2createreverb.md)
+### [XAudio2CreateVolumeMeter function](../xaudio2fx/nf-xaudio2fx-xaudio2createvolumemeter.md)
+### [XAUDIO2FX_REVERB_I3DL2_PARAMETERS structure](../xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_i3dl2_parameters.md)
+### [XAUDIO2FX_REVERB_PARAMETERS structure](../xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters.md)
+### [XAUDIO2FX_VOLUMEMETER_LEVELS structure](../xaudio2fx/ns-xaudio2fx-xaudio2fx_volumemeter_levels.md)

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_ReceiptOptions
-title: IFaxServer::get_ReceiptOptions method
+title: IFaxServer::get_ReceiptOptions
 author: windows-driver-content
 description: The IFaxServer::get_ReceiptOptions property creates a IFaxReceiptOptions configuration interface. The object permits a fax client application to set and retrieve the receipt configuration that the fax service uses to send fax receipts.
 old-location: fax\_mfax_faxserver_receiptoptions_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9gxf_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxServer, IFaxServer interface [Fax Service], ReceiptOptions property, IFaxServer.ReceiptOptions, IFaxServer::get_ReceiptOptions, ReceiptOptions property [Fax Service], ReceiptOptions property [Fax Service], IFaxServer interface, _mfax_faxserver.receiptoptions_cpp, fax._mfax_faxserver_receiptoptions_cpp, faxcomex/IFaxServer::ReceiptOptions, faxcomex/IFaxServer::get_ReceiptOptions, get_ReceiptOptions,IFaxServer.get_ReceiptOptions
+ms.keywords: IFaxServer interface [Fax Service],ReceiptOptions property, IFaxServer.ReceiptOptions, IFaxServer.get_ReceiptOptions, IFaxServer::ReceiptOptions, IFaxServer::get_ReceiptOptions, ReceiptOptions property [Fax Service], ReceiptOptions property [Fax Service],IFaxServer interface, _mfax_faxserver.receiptoptions_cpp, fax._mfax_faxserver_receiptoptions_cpp, faxcomex/IFaxServer::ReceiptOptions, faxcomex/IFaxServer::get_ReceiptOptions, get_ReceiptOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxServer::get_ReceiptOptions method
+# IFaxServer::get_ReceiptOptions
 
 
 ## -description

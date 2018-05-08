@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManager.GetInterface
-title: IMbnInterfaceManager::GetInterface method
+title: IMbnInterfaceManager::GetInterface
 author: windows-driver-content
 description: Gets a specific interface.
 old-location: mbn\imbninterfacemanager_getinterface.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: f44aa20d-7edd-4227-8eca-9aacb19619e8
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetInterface method [Microsoft Broadband Networks], GetInterface method [Microsoft Broadband Networks], IMbnInterfaceManager interface, GetInterface,IMbnInterfaceManager.GetInterface, IMbnInterfaceManager, IMbnInterfaceManager interface [Microsoft Broadband Networks], GetInterface method, IMbnInterfaceManager::GetInterface, mbn.imbninterfacemanager_getinterface, mbnapi/IMbnInterfaceManager::GetInterface
+ms.keywords: GetInterface, GetInterface method [Microsoft Broadband Networks], GetInterface method [Microsoft Broadband Networks],IMbnInterfaceManager interface, IMbnInterfaceManager interface [Microsoft Broadband Networks],GetInterface method, IMbnInterfaceManager.GetInterface, IMbnInterfaceManager::GetInterface, mbn.imbninterfacemanager_getinterface, mbnapi/IMbnInterfaceManager::GetInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnInterfaceManager::GetInterface method
+# IMbnInterfaceManager::GetInterface
 
 
 ## -description

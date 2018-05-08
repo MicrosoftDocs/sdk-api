@@ -63,7 +63,7 @@ Contains working set information for a page.
 The working set information. See the description of the structure  members for information about the layout of this variable.
 
 
-#### - Protection
+### -field Protection
 
 The protection attributes of the page. This member can be one of the following values.
 
@@ -428,22 +428,22 @@ Non-cacheable, guard page, executable, and copy-on-write.
  
 
 
-#### - Reserved
-
-This member is reserved.
-
-
-#### - ShareCount
+### -field ShareCount
 
 The number of processes that share this page. The maximum value of this member is 7.
 
 
-#### - Shared
+### -field Shared
 
 If this bit is 1, the page is sharable; otherwise, the page is not sharable.
 
 
-#### - VirtualPage
+### -field Reserved
+
+This member is reserved.
+
+
+### -field VirtualPage
 
 The address of the page in the virtual address space.
 

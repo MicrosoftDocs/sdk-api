@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.RefreshDirectoryObject
-title: ITDirectory::RefreshDirectoryObject method
+title: ITDirectory::RefreshDirectoryObject
 author: windows-driver-content
 description: The RefreshDirectoryObject method refreshes the time to live (TTL) for an object on the server. Only applies to dynamic servers.
 old-location: tapi3\itdirectory_refreshdirectoryobject.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 85a94960-5d4e-4b23-a3ed-65743a60ee87
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITDirectory, ITDirectory interface [TAPI 2.2], RefreshDirectoryObject method, ITDirectory::RefreshDirectoryObject, RefreshDirectoryObject method [TAPI 2.2], RefreshDirectoryObject method [TAPI 2.2], ITDirectory interface, RefreshDirectoryObject,ITDirectory.RefreshDirectoryObject, _tapi3_itdirectory_refreshdirectoryobject, rend/ITDirectory::RefreshDirectoryObject, tapi3.itdirectory_refreshdirectoryobject
+ms.keywords: ITDirectory interface [TAPI 2.2],RefreshDirectoryObject method, ITDirectory.RefreshDirectoryObject, ITDirectory::RefreshDirectoryObject, RefreshDirectoryObject, RefreshDirectoryObject method [TAPI 2.2], RefreshDirectoryObject method [TAPI 2.2],ITDirectory interface, _tapi3_itdirectory_refreshdirectoryobject, rend/ITDirectory::RefreshDirectoryObject, tapi3.itdirectory_refreshdirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectory::RefreshDirectoryObject method
+# ITDirectory::RefreshDirectoryObject
 
 
 ## -description

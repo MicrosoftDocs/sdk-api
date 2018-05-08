@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Task
-title: IDataCollectorSet::get_Task method
+title: IDataCollectorSet::get_Task
 author: windows-driver-content
 description: Retrieves or sets the name of a Task Scheduler job to start each time the data collector set stops, including between segments.
 old-location: pla\idatacollectorset_get_task.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 8a89ebb9-2396-43f9-81ee-bfc2cdff18fa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], Task property, IDataCollectorSet.Task, IDataCollectorSet::get_Task, IDataCollectorSet::put_Task, Task property [PLA], Task property [PLA], IDataCollectorSet interface, base.idatacollectorset_get_task, get_Task,IDataCollectorSet.get_Task, pla.idatacollectorset_get_task, pla/IDataCollectorSet::Task, pla/IDataCollectorSet::get_Task, pla/IDataCollectorSet::put_Task
+ms.keywords: IDataCollectorSet interface [PLA],Task property, IDataCollectorSet.Task, IDataCollectorSet.get_Task, IDataCollectorSet::Task, IDataCollectorSet::get_Task, IDataCollectorSet::put_Task, Task property [PLA], Task property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_task, get_Task, pla.idatacollectorset_get_task, pla/IDataCollectorSet::Task, pla/IDataCollectorSet::get_Task, pla/IDataCollectorSet::put_Task
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::get_Task method
+# IDataCollectorSet::get_Task
 
 
 ## -description

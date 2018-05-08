@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectConstructString.get_ConstructString
-title: IObjectConstructString::get_ConstructString method
+title: IObjectConstructString::get_ConstructString
 author: windows-driver-content
 description: Retrieves the constructor string for the object.
 old-location: cos\iobjectconstructstring_get_constructstring.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 154b7567-0f25-49c3-90b2-58c95f0ebfee
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IObjectConstructString, IObjectConstructString interface [COM+], get_ConstructString method, IObjectConstructString::get_ConstructString, _cos_IObjectConstructString_get_ConstructString, comsvcs/IObjectConstructString::get_ConstructString, cos.iobjectconstructstring_get_constructstring, get_ConstructString method [COM+], get_ConstructString method [COM+], IObjectConstructString interface, get_ConstructString,IObjectConstructString.get_ConstructString
+ms.keywords: IObjectConstructString interface [COM+],get_ConstructString method, IObjectConstructString.get_ConstructString, IObjectConstructString::get_ConstructString, _cos_IObjectConstructString_get_ConstructString, comsvcs/IObjectConstructString::get_ConstructString, cos.iobjectconstructstring_get_constructstring, get_ConstructString, get_ConstructString method [COM+], get_ConstructString method [COM+],IObjectConstructString interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IObjectConstructString::get_ConstructString method
+# IObjectConstructString::get_ConstructString
 
 
 ## -description

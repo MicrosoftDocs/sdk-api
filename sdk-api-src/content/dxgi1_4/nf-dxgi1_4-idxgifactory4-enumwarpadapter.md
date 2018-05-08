@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIFactory4.EnumWarpAdapter
-title: IDXGIFactory4::EnumWarpAdapter method
+title: IDXGIFactory4::EnumWarpAdapter
 author: windows-driver-content
 description: Provides an adapter which can be provided to D3D12CreateDevice to use the WARP renderer.
 old-location: direct3ddxgi\idxgifactory4_enumwarpadapter.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 18991B1A-5FA7-4298-A5FD-C8D7C485E4F7
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: EnumWarpAdapter method [DXGI], EnumWarpAdapter method [DXGI], IDXGIFactory4 interface, EnumWarpAdapter,IDXGIFactory4.EnumWarpAdapter, IDXGIFactory4, IDXGIFactory4 interface [DXGI], EnumWarpAdapter method, IDXGIFactory4::EnumWarpAdapter, direct3ddxgi.idxgifactory4_enumwarpadapter, dxgi1_4/IDXGIFactory4::EnumWarpAdapter
+ms.keywords: EnumWarpAdapter, EnumWarpAdapter method [DXGI], EnumWarpAdapter method [DXGI],IDXGIFactory4 interface, IDXGIFactory4 interface [DXGI],EnumWarpAdapter method, IDXGIFactory4.EnumWarpAdapter, IDXGIFactory4::EnumWarpAdapter, direct3ddxgi.idxgifactory4_enumwarpadapter, dxgi1_4/IDXGIFactory4::EnumWarpAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIFactory4::EnumWarpAdapter method
+# IDXGIFactory4::EnumWarpAdapter
 
 
 ## -description

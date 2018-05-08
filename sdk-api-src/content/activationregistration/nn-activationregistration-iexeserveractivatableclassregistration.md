@@ -7,8 +7,8 @@ old-location: winrt\iexeserveractivatableclassregistration.htm
 old-project: WinRT
 ms.assetid: 1D8F7B12-2883-478D-B83D-84AC47D512E4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IExeServerActivatableClassRegistration, IExeServerActivatableClassRegistration interface [Windows Runtime], IExeServerActivatableClassRegistration interface [Windows Runtime], described, activationregistration/IExeServerActivatableClassRegistration, winrt.iexeserveractivatableclassregistration
+ms.date: 5/4/2018
+ms.keywords: IExeServerActivatableClassRegistration, IExeServerActivatableClassRegistration interface [Windows Runtime], IExeServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IExeServerActivatableClassRegistration, winrt.iexeserveractivatableclassregistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsAdmin.RegisterProvider
-title: IVdsAdmin::RegisterProvider method
+title: IVdsAdmin::RegisterProvider
 author: windows-driver-content
 description: Registers the specified hardware provider with VDS. Hardware providers call this method.
 old-location: base\ivdsadmin_registerprovider.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: bb6e0037-7f44-418d-897c-12bf15224841
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsAdmin, IVdsAdmin interface [VDS], RegisterProvider method, IVdsAdmin::RegisterProvider, RegisterProvider method [VDS], RegisterProvider method [VDS], IVdsAdmin interface, RegisterProvider,IVdsAdmin.RegisterProvider, base.ivdsadmin_registerprovider, vdshwprv/IVdsAdmin::RegisterProvider
+ms.keywords: IVdsAdmin interface [VDS],RegisterProvider method, IVdsAdmin.RegisterProvider, IVdsAdmin::RegisterProvider, RegisterProvider, RegisterProvider method [VDS], RegisterProvider method [VDS],IVdsAdmin interface, base.ivdsadmin_registerprovider, vdshwprv/IVdsAdmin::RegisterProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsAdmin::RegisterProvider method
+# IVdsAdmin::RegisterProvider
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFSampleOutputStream.EndWriteSample
-title: IMFSampleOutputStream::EndWriteSample method
+title: IMFSampleOutputStream::EndWriteSample
 author: windows-driver-content
 description: Completes an asynchronous request to write a media sample to the stream.
 old-location: mf\imfsampleoutputstream_endwritesample.htm
 old-project: medfound
 ms.assetid: AE65CE63-B7FF-403B-ABB8-5E6C53CAD314
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: EndWriteSample method [Media Foundation], EndWriteSample method [Media Foundation], IMFSampleOutputStream interface, EndWriteSample,IMFSampleOutputStream.EndWriteSample, IMFSampleOutputStream, IMFSampleOutputStream interface [Media Foundation], EndWriteSample method, IMFSampleOutputStream::EndWriteSample, mf.imfsampleoutputstream_endwritesample, mfobjects/IMFSampleOutputStream::EndWriteSample
+ms.date: 5/3/2018
+ms.keywords: EndWriteSample, EndWriteSample method [Media Foundation], EndWriteSample method [Media Foundation],IMFSampleOutputStream interface, IMFSampleOutputStream interface [Media Foundation],EndWriteSample method, IMFSampleOutputStream.EndWriteSample, IMFSampleOutputStream::EndWriteSample, mf.imfsampleoutputstream_endwritesample, mfobjects/IMFSampleOutputStream::EndWriteSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSampleOutputStream::EndWriteSample method
+# IMFSampleOutputStream::EndWriteSample
 
 
 ## -description

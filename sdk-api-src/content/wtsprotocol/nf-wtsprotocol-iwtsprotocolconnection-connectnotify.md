@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.ConnectNotify
-title: IWTSProtocolConnection::ConnectNotify method
+title: IWTSProtocolConnection::ConnectNotify
 author: windows-driver-content
 description: IWTSProtocolConnection::ConnectNotify is no longer available. Instead, use IWRdsProtocolConnection::ConnectNotify.
 old-location: termserv\iwtsprotocolconnection_connectnotify.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 9109d867-d9dc-4b95-a674-9f59ed7aa6a4
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services], IWTSProtocolConnection interface, ConnectNotify,IWTSProtocolConnection.ConnectNotify, IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], ConnectNotify method, IWTSProtocolConnection::ConnectNotify, termserv.iwtsprotocolconnection_connectnotify, wtsprotocol/IWTSProtocolConnection::ConnectNotify
+ms.keywords: ConnectNotify, ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],ConnectNotify method, IWTSProtocolConnection.ConnectNotify, IWTSProtocolConnection::ConnectNotify, termserv.iwtsprotocolconnection_connectnotify, wtsprotocol/IWTSProtocolConnection::ConnectNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolConnection::ConnectNotify method
+# IWTSProtocolConnection::ConnectNotify
 
 
 ## -description

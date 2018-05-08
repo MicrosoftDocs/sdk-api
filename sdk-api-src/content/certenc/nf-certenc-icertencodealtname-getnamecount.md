@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.GetNameCount
-title: ICertEncodeAltName::GetNameCount method
+title: ICertEncodeAltName::GetNameCount
 author: windows-driver-content
 description: Returns the number of names in the alternate name array.
 old-location: security\icertencodealtname_getnamecount.htm
 old-project: SecCrypto
 ms.assetid: 3f5e5c5d-e21b-452b-837c-5b44daa884b8
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeAltName object [Security], GetNameCount method, GetNameCount method [Security], GetNameCount method [Security], CCertEncodeAltName object, GetNameCount method [Security], ICertEncodeAltName interface, GetNameCount,ICertEncodeAltName.GetNameCount, ICertEncodeAltName, ICertEncodeAltName interface [Security], GetNameCount method, ICertEncodeAltName::GetNameCount, _certsrv_icertencodealtname_getnamecount, certenc/ICertEncodeAltName::GetNameCount, security.icertencodealtname_getnamecount
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeAltName object [Security],GetNameCount method, GetNameCount, GetNameCount method [Security], GetNameCount method [Security],CCertEncodeAltName object, GetNameCount method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetNameCount method, ICertEncodeAltName.GetNameCount, ICertEncodeAltName::GetNameCount, _certsrv_icertencodealtname_getnamecount, certenc/ICertEncodeAltName::GetNameCount, security.icertencodealtname_getnamecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeAltName::GetNameCount method
+# ICertEncodeAltName::GetNameCount
 
 
 ## -description

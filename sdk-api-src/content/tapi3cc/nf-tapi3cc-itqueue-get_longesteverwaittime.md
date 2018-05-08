@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_LongestEverWaitTime
-title: ITQueue::get_LongestEverWaitTime method
+title: ITQueue::get_LongestEverWaitTime
 author: windows-driver-content
 description: The get_LongestEverWaitTime method gets the longest time any call waited in the queue (in seconds) during the current measurement period.
 old-location: tapi3\itqueue_get_longesteverwaittime.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 686ea264-a826-4205-a422-7d1dc3d430f8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITQueue, ITQueue interface [TAPI 2.2], get_LongestEverWaitTime method, ITQueue::get_LongestEverWaitTime, _tapi3_itqueue_get_longesteverwaittime, get_LongestEverWaitTime method [TAPI 2.2], get_LongestEverWaitTime method [TAPI 2.2], ITQueue interface, get_LongestEverWaitTime,ITQueue.get_LongestEverWaitTime, tapi3.itqueue_get_longesteverwaittime, tapi3cc/ITQueue::get_LongestEverWaitTime
+ms.keywords: ITQueue interface [TAPI 2.2],get_LongestEverWaitTime method, ITQueue.get_LongestEverWaitTime, ITQueue::get_LongestEverWaitTime, _tapi3_itqueue_get_longesteverwaittime, get_LongestEverWaitTime, get_LongestEverWaitTime method [TAPI 2.2], get_LongestEverWaitTime method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_longesteverwaittime, tapi3cc/ITQueue::get_LongestEverWaitTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITQueue::get_LongestEverWaitTime method
+# ITQueue::get_LongestEverWaitTime
 
 
 ## -description

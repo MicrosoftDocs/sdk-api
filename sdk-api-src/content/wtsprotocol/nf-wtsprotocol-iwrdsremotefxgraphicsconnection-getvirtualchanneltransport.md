@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport
-title: IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport method
+title: IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
 author: windows-driver-content
 description: Retrieves the virtual channel transport object.
 old-location: termserv\iwrdsremotefxgraphicsconnection_getvirtualchanneltransport.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 70de545f-f630-40cc-8456-ea0703caba17
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetVirtualChannelTransport method [Remote Desktop Services], GetVirtualChannelTransport method [Remote Desktop Services], IWRdsRemoteFXGraphicsConnection interface, GetVirtualChannelTransport,IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport, IWRdsRemoteFXGraphicsConnection, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services], GetVirtualChannelTransport method, IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport, termserv.iwrdsremotefxgraphicsconnection_getvirtualchanneltransport, wtsprotocol/IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
+ms.keywords: GetVirtualChannelTransport, GetVirtualChannelTransport method [Remote Desktop Services], GetVirtualChannelTransport method [Remote Desktop Services],IWRdsRemoteFXGraphicsConnection interface, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],GetVirtualChannelTransport method, IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport, IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport, termserv.iwrdsremotefxgraphicsconnection_getvirtualchanneltransport, wtsprotocol/IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport method
+# IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
 
 
 ## -description

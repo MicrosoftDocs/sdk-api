@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaType.IsEqual
-title: IMFMediaType::IsEqual method
+title: IMFMediaType::IsEqual
 author: windows-driver-content
 description: Compares two media types and determines whether they are identical. If they are not identical, the method indicates how the two formats differ.
 old-location: mf\imfmediatype_isequal.htm
 old-project: medfound
 ms.assetid: 42b5b0e8-3b13-4bda-a53c-0428a3c9b131
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 42b5b0e8-3b13-4bda-a53c-0428a3c9b131, IMFMediaType, IMFMediaType interface [Media Foundation], IsEqual method, IMFMediaType::IsEqual, IsEqual method [Media Foundation], IsEqual method [Media Foundation], IMFMediaType interface, IsEqual,IMFMediaType.IsEqual, MF_MEDIATYPE_EQUAL_FORMAT_DATA, MF_MEDIATYPE_EQUAL_FORMAT_TYPES, MF_MEDIATYPE_EQUAL_FORMAT_USER_DATA, MF_MEDIATYPE_EQUAL_MAJOR_TYPES, mf.imfmediatype_isequal, mfobjects/IMFMediaType::IsEqual
+ms.date: 5/3/2018
+ms.keywords: 42b5b0e8-3b13-4bda-a53c-0428a3c9b131, IMFMediaType interface [Media Foundation],IsEqual method, IMFMediaType.IsEqual, IMFMediaType::IsEqual, IsEqual, IsEqual method [Media Foundation], IsEqual method [Media Foundation],IMFMediaType interface, MF_MEDIATYPE_EQUAL_FORMAT_DATA, MF_MEDIATYPE_EQUAL_FORMAT_TYPES, MF_MEDIATYPE_EQUAL_FORMAT_USER_DATA, MF_MEDIATYPE_EQUAL_MAJOR_TYPES, mf.imfmediatype_isequal, mfobjects/IMFMediaType::IsEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaType::IsEqual method
+# IMFMediaType::IsEqual
 
 
 ## -description

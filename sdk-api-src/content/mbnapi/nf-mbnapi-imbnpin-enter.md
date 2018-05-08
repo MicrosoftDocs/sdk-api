@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.Enter
-title: IMbnPin::Enter method
+title: IMbnPin::Enter
 author: windows-driver-content
 description: Enters a PIN.
 old-location: mbn\imbnpin_enter.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 71bc0da9-af41-42d6-a7dc-91be54eb6f5c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Enter method [Microsoft Broadband Networks], Enter method [Microsoft Broadband Networks], IMbnPin interface, Enter,IMbnPin.Enter, IMbnPin, IMbnPin interface [Microsoft Broadband Networks], Enter method, IMbnPin::Enter, mbn.imbnpin_enter, mbnapi/IMbnPin::Enter
+ms.keywords: Enter, Enter method [Microsoft Broadband Networks], Enter method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Enter method, IMbnPin.Enter, IMbnPin::Enter, mbn.imbnpin_enter, mbnapi/IMbnPin::Enter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnPin::Enter method
+# IMbnPin::Enter
 
 
 ## -description

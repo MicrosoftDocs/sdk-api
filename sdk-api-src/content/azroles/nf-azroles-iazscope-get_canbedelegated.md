@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_CanBeDelegated
-title: IAzScope::get_CanBeDelegated method
+title: IAzScope::get_CanBeDelegated
 author: windows-driver-content
 description: Retrieves a value that indicates whether the scope can be delegated.
 old-location: security\iazscope_canbedelegated.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: e68bd5b2-060b-478b-9375-b23761888e6a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzScope object [Security], CanBeDelegated property, CanBeDelegated property [Security], CanBeDelegated property [Security], AzScope object, CanBeDelegated property [Security], IAzScope interface, IAzScope, IAzScope interface [Security], CanBeDelegated property, IAzScope.CanBeDelegated, IAzScope::get_CanBeDelegated, azroles/IAzScope::CanBeDelegated, azroles/IAzScope::get_CanBeDelegated, get_CanBeDelegated,IAzScope.get_CanBeDelegated, security.iazscope_canbedelegated
+ms.keywords: AzScope object [Security],CanBeDelegated property, CanBeDelegated property [Security], CanBeDelegated property [Security],AzScope object, CanBeDelegated property [Security],IAzScope interface, IAzScope interface [Security],CanBeDelegated property, IAzScope.CanBeDelegated, IAzScope.get_CanBeDelegated, IAzScope::CanBeDelegated, IAzScope::get_CanBeDelegated, azroles/IAzScope::CanBeDelegated, azroles/IAzScope::get_CanBeDelegated, get_CanBeDelegated, security.iazscope_canbedelegated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzScope::get_CanBeDelegated method
+# IAzScope::get_CanBeDelegated
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9sfm.htm
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IFilter, IFilter interface [Indexing Service], IFilter interface [Indexing Service], described, _idxs_IFilter, filter/IFilter, indexsrv.ifilter
+ms.keywords: IFilter, IFilter interface [Indexing Service], IFilter interface [Indexing Service],described, _idxs_IFilter, filter/IFilter, indexsrv.ifilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMarshal.GetMarshalSizeMax
-title: IMarshal::GetMarshalSizeMax method
+title: IMarshal::GetMarshalSizeMax
 author: windows-driver-content
 description: Retrieves the maximum size of the buffer that will be needed during marshaling.
 old-location: com\imarshal_getmarshalsizemax.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 25ec060a-ec46-4857-8d66-8f8bb58d6d31
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetMarshalSizeMax method [COM], GetMarshalSizeMax method [COM], IMarshal interface, GetMarshalSizeMax,IMarshal.GetMarshalSizeMax, IMarshal, IMarshal interface [COM], GetMarshalSizeMax method, IMarshal::GetMarshalSizeMax, _com_imarshal_getmarshalsizemax, com.imarshal_getmarshalsizemax, objidl/IMarshal::GetMarshalSizeMax
+ms.keywords: GetMarshalSizeMax, GetMarshalSizeMax method [COM], GetMarshalSizeMax method [COM],IMarshal interface, IMarshal interface [COM],GetMarshalSizeMax method, IMarshal.GetMarshalSizeMax, IMarshal::GetMarshalSizeMax, _com_imarshal_getmarshalsizemax, com.imarshal_getmarshalsizemax, objidl/IMarshal::GetMarshalSizeMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMarshal::GetMarshalSizeMax method
+# IMarshal::GetMarshalSizeMax
 
 
 ## -description

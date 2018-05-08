@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetCheckboxValue
-title: ICredentialProviderCredential::SetCheckboxValue method
+title: ICredentialProviderCredential::SetCheckboxValue
 author: windows-driver-content
 description: Enables a Logon UI and Credential UI to indicate that a checkbox value has changed.
 old-location: shell\ICredentialProviderCredential_SetCheckboxValue.htm
 old-project: shell
 ms.assetid: 7da8e80f-1cbe-4a10-96a0-7eb6e61b0f9b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], SetCheckboxValue method, ICredentialProviderCredential::SetCheckboxValue, SetCheckboxValue method [Windows Shell], SetCheckboxValue method [Windows Shell], ICredentialProviderCredential interface, SetCheckboxValue,ICredentialProviderCredential.SetCheckboxValue, _shell_ICredentialProviderCredential_SetCheckboxValue, credentialprovider/ICredentialProviderCredential::SetCheckboxValue, shell.ICredentialProviderCredential_SetCheckboxValue
+ms.date: 5/3/2018
+ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetCheckboxValue method, ICredentialProviderCredential.SetCheckboxValue, ICredentialProviderCredential::SetCheckboxValue, SetCheckboxValue, SetCheckboxValue method [Windows Shell], SetCheckboxValue method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetCheckboxValue, credentialprovider/ICredentialProviderCredential::SetCheckboxValue, shell.ICredentialProviderCredential_SetCheckboxValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProviderCredential::SetCheckboxValue method
+# ICredentialProviderCredential::SetCheckboxValue
 
 
 ## -description

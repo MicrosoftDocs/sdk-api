@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.ValidateFileHash
-title: IAppxBlockMapFile::ValidateFileHash method
+title: IAppxBlockMapFile::ValidateFileHash
 author: windows-driver-content
 description: Validates the content of a file against the hashes stored in the block elements for this block map file.
 old-location: appxpkg\iappxblockmapfile_validatefilehash.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 286EF8FD-925E-4B36-AFAB-D0EC949F8705
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxBlockMapFile, IAppxBlockMapFile interface [App packaging and management], ValidateFileHash method, IAppxBlockMapFile::ValidateFileHash, ValidateFileHash method [App packaging and management], ValidateFileHash method [App packaging and management], IAppxBlockMapFile interface, ValidateFileHash,IAppxBlockMapFile.ValidateFileHash, appxpackaging/IAppxBlockMapFile::ValidateFileHash, appxpkg.iappxblockmapfile_validatefilehash
+ms.keywords: IAppxBlockMapFile interface [App packaging and management],ValidateFileHash method, IAppxBlockMapFile.ValidateFileHash, IAppxBlockMapFile::ValidateFileHash, ValidateFileHash, ValidateFileHash method [App packaging and management], ValidateFileHash method [App packaging and management],IAppxBlockMapFile interface, appxpackaging/IAppxBlockMapFile::ValidateFileHash, appxpkg.iappxblockmapfile_validatefilehash
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapFile::ValidateFileHash method
+# IAppxBlockMapFile::ValidateFileHash
 
 
 ## -description

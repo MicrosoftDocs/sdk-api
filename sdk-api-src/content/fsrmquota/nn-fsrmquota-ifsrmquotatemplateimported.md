@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 0349a772-9862-4131-b3be-96eec8e41b01
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmQuotaTemplateImported, IFsrmQuotaTemplateImported interface [File Server Resource Manager], IFsrmQuotaTemplateImported interface [File Server Resource Manager], described, fs.ifsrmquotatemplateimported, fsrm.ifsrmquotatemplateimported, fsrm/IFsrmQuotaTemplateImported
+ms.keywords: IFsrmQuotaTemplateImported, IFsrmQuotaTemplateImported interface [File Server Resource Manager], IFsrmQuotaTemplateImported interface [File Server Resource Manager],described, fs.ifsrmquotatemplateimported, fsrm.ifsrmquotatemplateimported, fsrm/IFsrmQuotaTemplateImported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

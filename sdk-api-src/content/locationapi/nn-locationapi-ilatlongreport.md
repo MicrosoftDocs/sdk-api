@@ -8,7 +8,7 @@ old-project: LocationAPI
 ms.assetid: b489959e-74c7-46df-b63f-7d37e3a244d5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ILatLongReport, ILatLongReport interface [WinLocation], ILatLongReport interface [WinLocation], described, locationapi/ILatLongReport, winlocation.ilatlongreport
+ms.keywords: ILatLongReport, ILatLongReport interface [WinLocation], ILatLongReport interface [WinLocation],described, locationapi/ILatLongReport, winlocation.ilatlongreport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

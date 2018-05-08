@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWCWizardCallback.EnableNext
-title: IWCWizardCallback::EnableNext method
+title: IWCWizardCallback::EnableNext
 author: windows-driver-content
 description: Enables or disables the Next or Finish button on a Failover Cluster Administrator Wizard page, depending on whether the current page is last.
 old-location: mscs\iwcwizardcallback_enablenext.htm
@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 6f485ffa-0e94-4443-9c79-991c35a60e97
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EnableNext method [Failover Cluster], EnableNext method [Failover Cluster], IWCWizardCallback interface, EnableNext,IWCWizardCallback.EnableNext, IWCWizardCallback, IWCWizardCallback interface [Failover Cluster], EnableNext method, IWCWizardCallback::EnableNext, _wolf_iwcwizardcallback_enablenext, cluadmex/IWCWizardCallback::EnableNext, mscs.iwcwizardcallback_enablenext
+ms.keywords: EnableNext, EnableNext method [Failover Cluster], EnableNext method [Failover Cluster],IWCWizardCallback interface, IWCWizardCallback interface [Failover Cluster],EnableNext method, IWCWizardCallback.EnableNext, IWCWizardCallback::EnableNext, _wolf_iwcwizardcallback_enablenext, cluadmex/IWCWizardCallback::EnableNext, mscs.iwcwizardcallback_enablenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWCWizardCallback::EnableNext method
+# IWCWizardCallback::EnableNext
 
 
 ## -description
